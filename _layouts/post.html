@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{content}}
+
+{% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
+
+More Information is available on the <a href="{{page.url}}">{{page.title}} website</a>.
+
+{% for release in page.releases %}
+<pre>
+  {{release[0] | json }}
+</pre>
+{% endfor %}
