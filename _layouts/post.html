@@ -4,12 +4,34 @@ layout: default
 
 {{content}}
 
+{% if page.image %}
+<img src="{{page.image}}"></img>
+{% endif %}
+
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
 
-More Information is available on the <a href="{{page.url}}">{{page.title}} website</a>.
-
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      {%if page.activeSupportColumn%}<th>Active Support</th>{%endif%}
+      <th>Security Support</th>
+      <th>Release</th>
+    </tr>
+  </thead>
 {% for release in page.releases %}
-<pre>
-  {{release[0] | json }}
-</pre>
+{% assign r = release[1] %}
+{% capture support %}{{r.support | date: '%s' | plus:0}}{%endcapture %}
+{% capture securityFixes %}{{r.eol | date: '%s' | plus:0}}{%endcapture %}
+<tr>
+  <td>{{release[0]}}{%if r.lts%} (LTS){%endif%}</td>
+  {% if page.activeSupportColumn%}<td>{% if support  < now %}No{%else%}Yes{%endif%}{% include timediff.html date=support %}</td>{%endif%}
+  <td>{% if securityFixes  < now %}No{%else%}Yes{%endif%}{% include timediff.html date=securityFixes %}</td>
+  <td>{% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}</td>
+</tr>
 {% endfor %}
+</table>
+
+<p>More Information is available on the <a href="{{page.link}}">{{page.title}} website</a>. You should be running one of the supported release numbers listed above in the rightmost column.</p>
+
+{%if page.command%}<p>You can check the version that you are current using by running: <pre>{{page.command}}</pre></p>{%endif%}

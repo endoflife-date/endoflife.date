@@ -1,0 +1,29 @@
+{% capture today %}{{ site.time | date: '%s' }}{% endcapture %}
+{% if today > include.date %}
+{%   assign secondsSince = today | minus: include.date %}
+{%else %}
+{%   assign secondsSince = include.date | minus: today %}
+{%endif%}
+{%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+{%   assign daysDiff = hoursSince | divided_by: 24  %}
+{%   assign monthsDiff = daysDiff | divided_by:30 |floor %}
+{%   assign yearDiff = daysDiff | divided_by:365 %}
+<span class="daydiff" days="{{daysDiff}}">
+{% if today > include.date %}
+  {%if monthsDiff > 1 and monthsDiff < 12 %}
+  ({{monthsDiff}} months ago)
+  {% else if monthsDiff > 12 %}
+  ({{yearDiff}} years ago)
+  {% else %}
+  ({{daysDiff}} days ago)
+  {%endif %}
+{%else%}
+  {%if monthsDiff > 1 and monthsDiff < 12 %}
+  ({{monthsDiff}} months to go)
+  {% else if monthsDiff > 12 %}
+  ({{yearDiff}} year(s) to go)
+  {% else %}
+  ({{daysDiff}} days to go) M={{monthsDiff}}
+  {%endif %}
+{%endif%}
+</span>

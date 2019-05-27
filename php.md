@@ -1,23 +1,31 @@
 ---
+permalink: /php
 title: PHP
 layout: post
-url: https://www.php.net/supported-versions.php
+link: https://www.php.net/supported-versions.php
+activeSupportColumn: true
+command: php --version
 releases:
+  '7.0':
+    release: 1970-12-12
+    eol: 2019-01-01
+    latest: 7.0.1
+    support: 2018-12-12
   '7.1':
     release: 2016-12-01
     eol: 2019-12-01
     support: 2018-12-01
-    current: 7.1.29
+    latest: 7.1.29
   '7.2':
     release: 2017-11-30
     eol: 2020-11-30
     support: 2019-11-30
-    current: 7.2.18
+    latest: 7.2.18
   '7.3':
     release: 2018-12-06
     eol: 2021-12-06
     support: 2020-12-06
-    current: 7.3.5
+    latest: 7.3.5
 ---
 
 Each release branch of PHP is fully supported for two years from its initial stable release. During this period, bugs and security issues that have been reported are fixed and are released in regular point releases.

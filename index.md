@@ -6,7 +6,7 @@ layout: home
 ---
 
 - [alpine](/alpine)
-- </laravel>
+- [laravel](/laravel)
 - [php](/php)
 - </python>
 - </ubuntu>
