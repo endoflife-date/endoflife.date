@@ -5,8 +5,17 @@
 layout: home
 ---
 
-- [alpine](/alpine)
-- [laravel](/laravel)
-- [php](/php)
-- </python>
-- </ubuntu>
+# [php](/php)
+
+# [Alpine Linux](/alpine)
+
+# [Ubuntu](/ubuntu)
+
+# [Laravel](/laravel)
+
+# [Python](/python)
+
+# [Node JS](/nodejs)
+
+[phplogo]: https://www.php.net/images/logos/new-php-logo.png
+[alpinelogo]: https://www.alpinelinux.org/alpinelinux-logo.png
