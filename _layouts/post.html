@@ -25,8 +25,8 @@ layout: default
 {% capture securityFixes %}{{r.eol | date: '%s' | plus:0}}{%endcapture %}
 <tr>
   <td>{{release[0]}}{%if r.lts%} (LTS){%endif%}</td>
-  {% if page.activeSupportColumn%}<td>{% if support  < now %}No{%else%}Yes{%endif%}{% include timediff.html date=support %}</td>{%endif%}
-  <td>{% if securityFixes  < now %}No{%else%}Yes{%endif%}{% include timediff.html date=securityFixes %}</td>
+  {% if page.activeSupportColumn%}<td>{% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}</td>{%endif%}
+  <td>{% if securityFixes  < now %}Ended{%else%}Ends{%endif%} {{r.eol|timeago}}</td>
   <td>{% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}</td>
 </tr>
 {% endfor %}
