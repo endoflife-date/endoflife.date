@@ -15,8 +15,9 @@ layout: default
     <tr>
       <th>Version</th>
       {%if page.activeSupportColumn%}<th>Active Support</th>{%endif%}
-      <th>Security Support</th>
-      <th>Release</th>
+      {%if page.discontinuedColumn%}<th>Discontinued</th>{%endif%}
+      <th>{{ page.eolColumn | default: "Security Support" }}</th>
+      {%if page.releaseColumn != false %}<th>Release</th>{%endif%}
     </tr>
   </thead>
 {% for release in page.releases %}
@@ -24,14 +25,42 @@ layout: default
 {% capture support %}{{r.support | date: '%s' | plus:0}}{%endcapture %}
 {% capture securityFixes %}{{r.eol | date: '%s' | plus:0}}{%endcapture %}
 <tr>
-  <td>{{release[0]}}{%if r.lts%} (LTS){%endif%}</td>
-  {% if page.activeSupportColumn%}<td>{% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}</td>{%endif%}
-  <td>{% if securityFixes  < now %}Ended{%else%}Ends{%endif%} {{r.eol|timeago}}</td>
-  <td>{% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}</td>
+  <td>
+    {{release[0]}}{%if r.lts%} (LTS){%endif%}
+  </td>
+  {% if page.activeSupportColumn%}
+  <td>
+    {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}
+  </td>
+  {%endif%}
+
+  {% if page.discontinuedColumn %}
+  <td>
+    {% if r.discontinued %} {{r.discontinued | timeago}}{%else%}In Production{%endif%}
+  </td>
+  {%endif%}
+
+  <td>
+    {% if eol == true %}
+      No
+    {%else if eol == false %}
+      Yes
+    {%else%}
+      {% if securityFixes > now %}Yes{%else%}No{%endif%}</td>
+    {%endif%}
+  </td>
+
+  {%if page.releaseColumn != false %}
+  <td>
+    {% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}</td>
+  </td>
+  {%endif%}
 </tr>
 {% endfor %}
 </table>
 
-<p>More Information is available on the <a href="{{page.link}}">{{page.title}} website</a>. You should be running one of the supported release numbers listed above in the rightmost column.</p>
+<p>More Information is available on the <a href="{{page.link}}">{{page.title}} website</a>. </p>
+
+{%if pagereleaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{%endif%}
 
 {%if page.command%}<p>You can check the version that you are current using by running: <pre>{{page.command}}</pre></p>{%endif%}
