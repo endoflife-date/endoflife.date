@@ -4,7 +4,7 @@ layout: home
 
 We maintain quick links for checking End Of Life dates for various tools and technologies. Here's a quick list:
 
-- [endoflife.date/alpinelinux](/alpinelinux)
+- [endoflife.date/alpine](/alpine)
 - [endoflife.date/django](/django)
 - [endoflife.date/iphone](/iphone)
 - [endoflife.date/laravel](/laravel)
