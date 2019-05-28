@@ -5,7 +5,7 @@ layout: default
 {{content}}
 
 {% if page.image %}
-<img src="{{page.image}}"></img>
+<img src="{{page.image}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
@@ -41,18 +41,25 @@ layout: default
   {%endif%}
 
   <td>
-    {% if eol == true %}
+    {%if securityFixes != "0"%}
+      {% if securityFixes  < now %}
+        Ended
+      {%else%}
+        Ends
+      {%endif%}
+      {{r.eol | timeago}}
+    {% else if eol == true%}
       No
-    {%else if eol == false %}
+    {%else if eol == false%}
       Yes
-    {%else%}
-      {% if securityFixes > now %}Yes{%else%}No{%endif%}</td>
+    {%else %}
+      NA
     {%endif%}
   </td>
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}</td>
+    {% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}
   </td>
   {%endif%}
 </tr>
