@@ -3,3 +3,7 @@
 Keep track of various EOL dates as they are approaching. Visit <https://endoflife.date> for a list of supported tools.
 
 Add more by filing a PR on GitHub.
+
+## License
+
+Licensed under the [MIT License](https://nemo.mit-license.org/). See LICENSE file for details.

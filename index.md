@@ -1,23 +1,19 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-# [php](/php)
+We maintain quick links for checking End Of Life dates for various tools and technologies. Here's a quick list:
 
-# [Alpine Linux](/alpine)
+- [endoflife.date/alpinelinux](/alpinelinux)
+- [endoflife.date/django](/django)
+- [endoflife.date/iphone](/iphone)
+- [endoflife.date/laravel](/laravel)
+- [endoflife.date/php](/php)
+- [endoflife.date/python](/python)
+- [endoflife.date/rhel](/rhel)
+- [endoflife.date/ubuntu](/ubuntu)
+- [endoflife.date/windows](/windows)
 
-# [Ubuntu](/ubuntu)
+## Contributing
 
-# [Laravel](/laravel)
-
-# [Python](/python)
-
-# [Node JS](/nodejs)
-
-# [iPhone](/iphone)
-
-[phplogo]: https://www.php.net/images/logos/new-php-logo.png
-[alpinelogo]: https://www.alpinelinux.org/alpinelinux-logo.png
+Contributions are welcome [at GitHub](https://github.com/captn3m0/endoflife.date). See the `CONTRIBUTING.md` file for more details.

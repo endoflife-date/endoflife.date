@@ -2,18 +2,17 @@
 layout: default
 ---
 
-{{content}}
-
 {% if page.image %}
 <img src="{{page.image}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
 
-<table>
+<table class="lifecycle">
   <thead>
     <tr>
       <th>Version</th>
+      {%if page.releaseDateColumn%}<th>Released</th>{%endif%}
       {%if page.activeSupportColumn%}<th>Active Support</th>{%endif%}
       {%if page.discontinuedColumn%}<th>Discontinued</th>{%endif%}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
@@ -28,19 +27,26 @@ layout: default
   <td>
     {{release[0]}}{%if r.lts%} (LTS){%endif%}
   </td>
-  {% if page.activeSupportColumn%}
+
+  {%if page.releaseDateColumn%}
   <td>
+    {{r.release|timeago}}
+  </td>
+  {%endif%}
+
+  {% if page.activeSupportColumn%}
+  <td class="{% if support < now %}red{% else if (now-support)>15552000%}green{%else%}amber{%endif%}" title="{{r.support}}">
     {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}
   </td>
   {%endif%}
 
   {% if page.discontinuedColumn %}
-  <td>
+  <td class="{% unless r.discontinued%}green{%endunless%}">
     {% if r.discontinued %} {{r.discontinued | timeago}}{%else%}In Production{%endif%}
   </td>
   {%endif%}
 
-  <td>
+  <td class="{%if securityFixes != '0'%}{%capture diff%}{{securityFixes|minus:now}}{%endcapture%}{% if securityFixes < now%}red{%else if diff >15552000 %}green{%else%}amber{%endif%}{%endif%}" title="{{r.eol}}">
     {%if securityFixes != "0"%}
       {% if securityFixes  < now %}
         Ended
@@ -48,12 +54,10 @@ layout: default
         Ends
       {%endif%}
       {{r.eol | timeago}}
-    {% else if eol == true%}
+    {% elsif r.eol == true %}
       No
-    {%else if eol == false%}
-      Yes
     {%else %}
-      NA
+      Yes
     {%endif%}
   </td>
 
@@ -65,6 +69,8 @@ layout: default
 </tr>
 {% endfor %}
 </table>
+
+<div class="maincontent">{{content}}</div>
 
 <p>More Information is available on the <a href="{{page.link}}">{{page.title}} website</a>. </p>
 
