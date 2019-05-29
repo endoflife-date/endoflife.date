@@ -1,6 +1,6 @@
 title: endoflife.date
 description: >- # this means to ignore newlines until "baseurl:"
-  Check End of Life of php, python, ubuntu, alpine, laravel etc at one place.
+  Check End of Life of php, python, ubuntu, alpine, laravel, debian etc at one place.
   Verify whether your application needs an update, or if you need to upgrade your device.
 baseurl: ""
 url: "https://endoflife.date" # the base hostname & protocol for your site, e.g. http://example.com
