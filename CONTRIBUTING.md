@@ -12,6 +12,7 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 title: timeturner
 layout: post
 # A list of releases, supported or not
+# Newer releases go on top of the list, in order
 releases:
   # Release range (usually major.minor), put in quotes if a number
   "1.2":
