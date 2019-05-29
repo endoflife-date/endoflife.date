@@ -15,6 +15,7 @@ We maintain quick links for checking End Of Life dates for various tools and tec
 - [endoflife.date/python](/python)
 - [endoflife.date/rhel](/rhel)
 - [endoflife.date/ruby](/ruby)
+- [endoflife.date/symfony](/symfony)
 - [endoflife.date/ubuntu](/ubuntu)
 - [endoflife.date/windows](/windows)
 
