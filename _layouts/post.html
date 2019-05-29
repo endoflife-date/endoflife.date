@@ -46,7 +46,18 @@ layout: default
   </td>
   {%endif%}
 
-  <td class="{%if securityFixes != '0'%}{%capture diff%}{{securityFixes|minus:now}}{%endcapture%}{% if securityFixes < now%}bg-red-000{%else if diff >15552000 %}bg-green-000{%else%}amber{%endif%}{%endif%}" title="{{r.eol}}">
+  <td class=
+    {%if securityFixes != '0'%}
+      {%capture diff%}{{securityFixes|minus:now}}{%endcapture%}
+      {% if securityFixes < now%}
+      "bg-red-000"
+      {%else if diff >15552000 %}
+      "bg-green-000"
+      {%else%}
+      "amber"
+      {%endif%}
+    {%endif%}
+  title="{{r.eol}}">
     {%if securityFixes != "0"%}
       {% if securityFixes  < now %}
         Ended
