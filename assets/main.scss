@@ -3,6 +3,8 @@
 
 @import '{{ site.theme }}';
 table.lifecycle {
+  font-variant-numeric: tabular-nums;
+
   td.red {
     background-color: #ff6b6b;
   }
