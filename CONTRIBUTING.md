@@ -1,3 +1,9 @@
+---
+nav_exclude: true
+title: Contributing
+permalink: /contribute
+---
+
 To add a new page to the website, create a new markdown file with YAML frontmatter:
 
 ```yaml

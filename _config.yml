@@ -9,10 +9,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-timeago
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -23,4 +19,7 @@ exclude:
   - vendor/ruby/
   - README.md
   - CONTRIBUTING.md
+  - LICENSE
+  - contribute.html
 theme: just-the-docs
+search_enabled: true

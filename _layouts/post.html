@@ -35,18 +35,18 @@ layout: default
   {%endif%}
 
   {% if page.activeSupportColumn%}
-  <td class="{% if support < now %}red{% else if (now-support)>15552000%}green{%else%}amber{%endif%}" title="{{r.support}}">
+  <td class="{% if support < now %}bg-red-000{% else if (now-support)>15552000%}bg-green-000{%else%}amber{%endif%}" title="{{r.support}}">
     {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}
   </td>
   {%endif%}
 
   {% if page.discontinuedColumn %}
-  <td class="{% unless r.discontinued%}green{%endunless%}">
+  <td class="{% unless r.discontinued%}bg-green-000{%endunless%}">
     {% if r.discontinued %} {{r.discontinued | timeago}}{%else%}In Production{%endif%}
   </td>
   {%endif%}
 
-  <td class="{%if securityFixes != '0'%}{%capture diff%}{{securityFixes|minus:now}}{%endcapture%}{% if securityFixes < now%}red{%else if diff >15552000 %}green{%else%}amber{%endif%}{%endif%}" title="{{r.eol}}">
+  <td class="{%if securityFixes != '0'%}{%capture diff%}{{securityFixes|minus:now}}{%endcapture%}{% if securityFixes < now%}bg-red-000{%else if diff >15552000 %}bg-green-000{%else%}amber{%endif%}{%endif%}" title="{{r.eol}}">
     {%if securityFixes != "0"%}
       {% if securityFixes  < now %}
         Ended
