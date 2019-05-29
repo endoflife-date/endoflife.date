@@ -23,12 +23,12 @@ releases:
     release: 2018-04-21
     support: 2021-04-01
     eol: 2024-04-01
-    latest: 18.04.6
+    latest: 16.04.6
   14.04:
     release: 2014-04-17
     support: 2019-04-01
     eol: 2022-04-01
-    latest: 18.04.6
+    latest: 14.04.6
 ---
 
 Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://www.ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
