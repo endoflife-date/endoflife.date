@@ -1,4 +1,4 @@
-# endoflife.date [![Netlify Status](https://api.netlify.com/api/v1/badges/a4c194ea-370a-436d-b58f-b1b7eadd88a3/deploy-status)](https://app.netlify.com/sites/jovial-bell-4be416/deploys)
+# endoflife.date [![Netlify Status](https://api.netlify.com/api/v1/badges/a4c194ea-370a-436d-b58f-b1b7eadd88a3/deploy-status)](https://app.netlify.com/sites/jovial-bell-4be416/deploys) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/https/endoflife.date.svg)](https://endoflife.date/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
 Keep track of various EOL dates as they are approaching. Visit <https://endoflife.date> for a list of supported tools.
 
@@ -14,6 +14,14 @@ The reason this site exists is because this information is very often hidden awa
 2. Give EoL dates/policy if possible.
 3. Hide unsupported releases behind a few extra clicks.
 4. Mention security/active release difference if needed.
+
+## Contributing
+
+Please see `CONTRIBUTING.md` for details.
+
+## HACKING
+
+If you'd like to hack on how the site gets built, see `HACKING.md`.
 
 ## License
 
