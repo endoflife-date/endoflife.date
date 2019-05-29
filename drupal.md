@@ -25,10 +25,11 @@ releases:
     release: 2018-09-06
     latest: "8.6.16"
   "8.7":
-    eol:  # 8.9 release
+    eol: 2020-06-03
     support: 2019-12-04
     release: 2019-05-02
     latest: "8.7.2"
+
 ---
 
 **Drupal 8.x** releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [weekly release window on Wednesday](https://www.drupal.org/core/release-cycle-overview#windows) (US time).
