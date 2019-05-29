@@ -1,5 +1,6 @@
 ---
 title: Drupal
+category: cms
 layout: post
 permalink: /drupal
 link: https://www.drupal.org/core/release-cycle-overview

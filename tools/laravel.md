@@ -1,6 +1,7 @@
 ---
 title: Laravel
 layout: post
+category: framework
 permalink: /laravel
 link: https://laravel.com/docs/5.8/releases#support-policy
 activeSupportColumn: true

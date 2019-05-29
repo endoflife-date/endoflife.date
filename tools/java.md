@@ -1,6 +1,7 @@
 ---
 permalink: /java
 layout: post
+category: lang
 title: Java/OpenJDK
 command: java --version
 activeSupportColumn: true

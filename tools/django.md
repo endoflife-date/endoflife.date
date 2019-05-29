@@ -1,5 +1,6 @@
 ---
 title: Django
+category: framework
 layout: post
 permalink: /django
 link: https://www.djangoproject.com/download/#supported-versions

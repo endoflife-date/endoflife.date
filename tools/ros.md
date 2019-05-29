@@ -1,5 +1,6 @@
 ---
 title: ROS
+category: os
 layout: post
 permalink: /ros
 link: https://wiki.ros.org/Distributions

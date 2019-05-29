@@ -1,5 +1,6 @@
 ---
 title: Windows
+category: os
 layout: post
 permalink: /windows
 link: https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet

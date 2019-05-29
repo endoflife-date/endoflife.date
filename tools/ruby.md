@@ -1,5 +1,6 @@
 ---
 permalink: /ruby
+category: lang
 layout: post
 title: Ruby
 command: ruby --version

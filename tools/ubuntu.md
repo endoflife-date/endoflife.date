@@ -1,5 +1,6 @@
 ---
 permalink: /ubuntu
+category: os
 layout: post
 title: Ubuntu
 command: lsb_release --release

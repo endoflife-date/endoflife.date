@@ -1,6 +1,7 @@
 ---
 title: MariaDB
 layout: post
+category: db
 permalink: /mariadb
 link: https://mariadb.org/about/maintenance-policy/
 activeSupportColumn: false

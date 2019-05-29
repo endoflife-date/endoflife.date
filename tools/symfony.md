@@ -1,5 +1,6 @@
 ---
 title: Symfony
+category: framework
 layout: post
 permalink: /symfony
 link: https://symfony.com/roadmap

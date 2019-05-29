@@ -2,6 +2,7 @@
 permalink: /python
 layout: post
 title: Python
+category: lang
 command: python --version
 link: https://devguide.python.org/
 releaseDateColumn: true

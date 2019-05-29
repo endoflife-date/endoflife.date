@@ -1,6 +1,7 @@
 ---
 permalink: /php
 title: PHP
+category: lang
 layout: post
 link: https://www.php.net/supported-versions.php
 activeSupportColumn: true

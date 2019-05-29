@@ -1,5 +1,6 @@
 ---
 permalink: /fedora
+category: os
 title: Fedora Linux
 layout: post
 link: https://fedoraproject.org/wiki/End_of_life

@@ -1,5 +1,6 @@
 ---
 permalink: /debian
+category: os
 layout: post
 title: Debian
 command: lsb_release --release

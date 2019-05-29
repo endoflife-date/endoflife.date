@@ -1,5 +1,6 @@
 ---
 permalink: /centos
+category: os
 layout: post
 title: CentOS
 command: lsb_release --release

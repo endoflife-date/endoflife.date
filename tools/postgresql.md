@@ -1,5 +1,6 @@
 ---
 title: PostgreSQL
+category: db
 layout: post
 permalink: /postgresql
 link: https://www.postgresql.org/support/versioning/
