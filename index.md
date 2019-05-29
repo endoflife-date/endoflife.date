@@ -5,6 +5,7 @@ layout: home
 We maintain quick links for checking End Of Life dates for various tools and technologies. Here's a quick list:
 
 - [endoflife.date/alpine](/alpine)
+- [endoflife.date/centos](/centos)
 - [endoflife.date/debian](/debian)
 - [endoflife.date/django](/django)
 - [endoflife.date/fedora](/fedora)
