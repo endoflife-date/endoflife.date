@@ -6,6 +6,7 @@ link: https://www.postgresql.org/support/versioning/
 activeSupportColumn: false
 eolColumn: Support Status
 command: psql -c "SELECT version();"
+releaseDateColumn: true
 releases:
   "11":
     release: 2018-10-18

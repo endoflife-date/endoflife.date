@@ -7,6 +7,7 @@ discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
 releaseColumn: false
+releaseDateColumn: true
 releases:
   "iPhone 5C":
     release: 2013-09-20

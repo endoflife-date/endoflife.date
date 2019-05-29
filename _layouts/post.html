@@ -30,19 +30,19 @@ layout: default
 
   {%if page.releaseDateColumn%}
   <td>
-    {{r.release|timeago}}
+    {{r.release|timeago}} <div>({{r.release | date_to_string}})</div>
   </td>
   {%endif%}
 
   {% if page.activeSupportColumn%}
   <td class="{% if support < now %}bg-red-000{% else if (now-support)>15552000%}bg-green-000{%else%}amber{%endif%}" title="{{r.support}}">
-    {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}
+    {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}} <div>({{r.support | date_to_string}})</div>
   </td>
   {%endif%}
 
   {% if page.discontinuedColumn %}
   <td class="{% unless r.discontinued%}bg-green-000{%endunless%}">
-    {% if r.discontinued %} {{r.discontinued | timeago}}{%else%}In Production{%endif%}
+    {% if r.discontinued %} {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}}){%else%}In Production{%endif%}</div>
   </td>
   {%endif%}
 
@@ -53,7 +53,7 @@ layout: default
       {%else%}
         Ends
       {%endif%}
-      {{r.eol | timeago}}
+      {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
     {% elsif r.eol == true %}
       No
     {%else %}

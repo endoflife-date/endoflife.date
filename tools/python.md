@@ -4,6 +4,7 @@ layout: post
 title: Python
 command: python --version
 link: https://devguide.python.org/
+releaseDateColumn: true
 releases:
   "3.7":
     release: 2018-06-27

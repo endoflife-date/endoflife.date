@@ -6,6 +6,7 @@ url: https://nodejs.org/en/about/releases/
 image: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
 activeSupportColumn: true
 command: node --version
+releaseDateColumn: true
 releases:
   v8:
     release: 2017-10-31
