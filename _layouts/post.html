@@ -67,23 +67,35 @@ layout: default
   {%endif%}
 
   <td class=
-    {% if diff < 0%}
-    "bg-red-000"
-    {% elsif diffSecurity6 > 0 %}
-    "bg-green-000"
+    {% if securityFixes > 5 %}
+      {% if diff < 0 and r.eol !=false %}
+      "bg-red-000"
+      {% elsif diffSecurity6 > 0 %}
+      "bg-green-000"
+      {%else%}
+      "bg-yellow-200"
+      {%endif%}
     {%else%}
-    "bg-yellow-200"
+      {% if r.eol%}
+      "bg-red-000"
+      {%else%}
+      "bg-green-000"
+      {%endif%}
     {%endif%}
   title="{{r.eol}}">
-    {% if diff < 0%}
-      Ended
-    {%else%}
-      Ends
+    {% if securityFixes > 5 %}
+      {% if diff < 0 %}
+        Ended
+      {%else%}
+        Ends
+      {%endif%}
     {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
-    {% elsif r.eol == true %}
+    {%else%}
+      {% if r.eol%}
       No
-    {%else %}
+      {%else%}
       Yes
+      {%endif%}
     {%endif%}
   </td>
 
