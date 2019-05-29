@@ -15,6 +15,7 @@ We maintain quick links for checking End Of Life dates for various tools and tec
 - [endoflife.date/mariadb](/mariadb)
 - [endoflife.date/nodejs](/nodejs)
 - [endoflife.date/php](/php)
+- [endoflife.date/postgresql](/postgresql)
 - [endoflife.date/python](/python)
 - [endoflife.date/rhel](/rhel)
 - [endoflife.date/ruby](/ruby)
