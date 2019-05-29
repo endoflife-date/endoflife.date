@@ -3,6 +3,7 @@ nav_exclude: true
 title: Contributing
 permalink: /contribute
 layout: page
+category: tool
 ---
 
 To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/captn3m0/endoflife.date/new/master/tools). Keep the filename as toolname.md
@@ -11,6 +12,9 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 ---
 title: timeturner
 layout: post
+# Possible values are os,db,tool,lang,framework
+# If you add a new value, please mention it on the PR Description
+category: os
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
