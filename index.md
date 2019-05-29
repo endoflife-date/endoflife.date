@@ -11,6 +11,7 @@ We maintain quick links for checking End Of Life dates for various tools and tec
 - [endoflife.date/fedora](/fedora)
 - [endoflife.date/iphone](/iphone)
 - [endoflife.date/laravel](/laravel)
+- [endoflife.date/nodejs](/nodejs)
 - [endoflife.date/php](/php)
 - [endoflife.date/python](/python)
 - [endoflife.date/rhel](/rhel)
