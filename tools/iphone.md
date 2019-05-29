@@ -1,11 +1,13 @@
 ---
 layout: post
+permalink: /iphone
 title: iPhone
 link: https://en.wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
 releaseColumn: false
+releaseDateColumn: true
 releases:
   "iPhone 5C":
     release: 2013-09-20
@@ -18,6 +20,10 @@ releases:
   "iPhone 6 / 6 Plus":
     release: 2014-09-25
     discontinued: 2016-09-07
+    eol: false
+  "iPhone 6S / 6S Plus":
+    release: 2015-09-25
+    discontinued: 2018-09-12
     eol: false
   "iPhone SE":
     release: 2016-03-31

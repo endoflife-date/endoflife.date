@@ -5,12 +5,13 @@ title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
 activeSupportColumn: true
+releaseDateColumn: true
 releases:
   19.04:
     release: 2019-04-18
     support: 2020-01-01
     eol: 2020-01-01
-  '18.10':
+  "18.10":
     release: 2018-10-18
     support: 2019-07-01
     eol: 2019-07-01

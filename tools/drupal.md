@@ -3,11 +3,11 @@ title: Drupal
 layout: post
 permalink: /drupal
 link: https://www.drupal.org/core/release-cycle-overview
-activeSupportColumn: false
+activeSupportColumn: true
+releaseDateColumn: true
 releaseColumn: true
 command: drush status
 image: https://www.drupal.org/files/2019_minor_release_schedule.png
-
 releases:
   "7":
     eol: 2021-10-31
@@ -29,7 +29,6 @@ releases:
     support: 2019-12-04
     release: 2019-05-02
     latest: "8.7.2"
-
 ---
 
 **Drupal 8.x** releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [weekly release window on Wednesday](https://www.drupal.org/core/release-cycle-overview#windows) (US time).

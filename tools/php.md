@@ -5,23 +5,24 @@ layout: post
 link: https://www.php.net/supported-versions.php
 activeSupportColumn: true
 command: php --version
+releaseDateColumn: true
 releases:
-  '7.0':
-    release: 1970-12-12
+  "7.0":
+    release: 2015-12-03
     eol: 2019-01-01
     latest: 7.0.1
     support: 2018-12-12
-  '7.1':
+  "7.1":
     release: 2016-12-01
     eol: 2019-12-01
     support: 2018-12-01
     latest: 7.1.29
-  '7.2':
+  "7.2":
     release: 2017-11-30
     eol: 2020-11-30
     support: 2019-11-30
     latest: 7.2.18
-  '7.3':
+  "7.3":
     release: 2018-12-06
     eol: 2021-12-06
     support: 2020-12-06

@@ -5,22 +5,25 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://endoflife.date" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-timeago
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-jekyll_timeago:
-  depth: 2
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+theme: just-the-docs
+search_enabled: true
+aux_links:
+  contribute:
+    - /contribute
+  source:
+    - https://github.com/captn3m0/endoflife.date

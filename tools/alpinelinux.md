@@ -5,6 +5,7 @@ layout: post
 link: https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases
 activeSupportColumn: false
 command: cat /etc/alpine-release
+releaseDateColumn: true
 releases:
   v3.9:
     release: 2019-01-29

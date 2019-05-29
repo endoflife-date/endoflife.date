@@ -21,8 +21,12 @@ layout: default
   </thead>
 {% for release in page.releases %}
 {% assign r = release[1] %}
-{% capture support %}{{r.support | date: '%s' | plus:0}}{%endcapture %}
-{% capture securityFixes %}{{r.eol | date: '%s' | plus:0}}{%endcapture %}
+{% assign support =r.support | date: '%s' | plus:0 %}
+{% assign securityFixes = r.eol | date: '%s' | plus:0%}
+{%assign diff = r.eol | date: '%s' | plus:0|minus:now %}
+{%assign diffSupport = support|minus:now %}
+{%assign diffSecurity6  = diff | minus:10651938 %}
+{%assign diffSupport6  = diffSupport | minus:10651938 %}
 <tr>
   <td>
     {{release[0]}}{%if r.lts%} (LTS){%endif%}
@@ -30,40 +34,74 @@ layout: default
 
   {%if page.releaseDateColumn%}
   <td>
-    {{r.release|timeago}}
+    {{r.release|timeago}} <div>({{r.release | date_to_string}})</div>
   </td>
   {%endif%}
 
   {% if page.activeSupportColumn%}
-  <td class="{% if support < now %}red{% else if (now-support)>15552000%}green{%else%}amber{%endif%}" title="{{r.support}}">
-    {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}}
+  <td class=
+    {% if diffSupport < 0%}
+    "bg-red-000"
+    {% elsif diffSupport6 > 0 %}
+    "bg-green-000"
+    {%else%}
+    "bg-yellow-200"
+    {%endif%}
+    title="{{r.support}}"
+  >
+    {% if diffSupport < 0 %}
+      Ended
+    {%else%}
+      Ends
+    {%endif%}
+    {{r.support|timeago}}
+    <div>({{r.support | date_to_string}})</div>
+
   </td>
   {%endif%}
 
   {% if page.discontinuedColumn %}
-  <td class="{% unless r.discontinued%}green{%endunless%}">
-    {% if r.discontinued %} {{r.discontinued | timeago}}{%else%}In Production{%endif%}
+  <td class="{% unless r.discontinued%}bg-green-000{%endunless%}">
+    {% if r.discontinued %} {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}}){%else%}In Production{%endif%}</div>
   </td>
   {%endif%}
 
-  <td class="{%if securityFixes != '0'%}{%capture diff%}{{securityFixes|minus:now}}{%endcapture%}{% if securityFixes < now%}red{%else if diff >15552000 %}green{%else%}amber{%endif%}{%endif%}" title="{{r.eol}}">
-    {%if securityFixes != "0"%}
-      {% if securityFixes  < now %}
+  <td class=
+    {% if securityFixes > 5 %}
+      {% if diff < 0 and r.eol !=false %}
+      "bg-red-000"
+      {% elsif diffSecurity6 > 0 %}
+      "bg-green-000"
+      {%else%}
+      "bg-yellow-200"
+      {%endif%}
+    {%else%}
+      {% if r.eol%}
+      "bg-red-000"
+      {%else%}
+      "bg-green-000"
+      {%endif%}
+    {%endif%}
+  title="{{r.eol}}">
+    {% if securityFixes > 5 %}
+      {% if diff < 0 %}
         Ended
       {%else%}
         Ends
       {%endif%}
-      {{r.eol | timeago}}
-    {% elsif r.eol == true %}
+    {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
+    {%else%}
+      {% if r.eol%}
       No
-    {%else %}
+      {%else%}
       Yes
+      {%endif%}
     {%endif%}
   </td>
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}
+    {% if diff > 0 %}{{r.latest}}{%else%}NA{%endif%}
   </td>
   {%endif%}
 </tr>
@@ -77,3 +115,11 @@ layout: default
 {%if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{%endif%}
 
 {%if page.command%}<p>You can check the version that you are currently using by running: <pre>{{page.command}}</pre></p>{%endif%}
+
+
+<hr>
+
+You can submit an improvement to this page by
+<a href="https://github.com/captn3m0/endoflife.date/blob/master/{{page.path}}"
+title="Click the Pencil, the link takes you directly to the correct page">visiting GitHub</a>.
+You will need to fork the website and submit a Pull Request.
