@@ -6,7 +6,7 @@ layout: default
 <img src="{{page.image}}" />
 {% endif %}
 
-{% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
+{% assign now= "now" | date: "%s" | plus:0 %}
 
 <table class="lifecycle">
   <thead>

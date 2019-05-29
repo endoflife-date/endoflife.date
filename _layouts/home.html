@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% assign now= "now" | date: "%s" | plus:0 %}
+{% assign releases = "" | split: "," %}
+<h2>Upcoming End of Life Dates</h2>
+
+{% assign tool_list = site.html_pages | where: 'layout', 'post' %}
+{% for post in tool_list %}
+{% for r in post.releases %}
+  {% assign rr = releases[1]%}
+  {% assign releases = releases | concat:rr %}
+{% endfor%}
+{% endfor%}
+
+
+{% assign items = releases | sort:'eol' %}
+
+<ul>
+
+</ul>
+
+{{content}}
