@@ -1,20 +1,6 @@
 ---
 ---
 
-@import '{{ site.theme }}';
 table.lifecycle {
   font-variant-numeric: tabular-nums;
-
-  td.red {
-    background-color: #ff6b6b;
-  }
-  td.amber {
-    background-color: #feca57;
-  }
-  td.green {
-    background-color: #10ac84;
-  }
-  td span.red {
-    background-color: #ff6b6b;
-  }
 }
