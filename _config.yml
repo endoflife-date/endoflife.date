@@ -5,7 +5,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://endoflife.date" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-timeago
@@ -18,8 +17,11 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
-  - CONTRIBUTING.md
   - LICENSE
-  - contribute.html
 theme: just-the-docs
 search_enabled: true
+aux_links:
+  contribute:
+    - /contribute
+  source:
+    - https://github.com/captn3m0/endoflife.date
