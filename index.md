@@ -11,6 +11,7 @@ We maintain quick links for checking End Of Life dates for various tools and tec
 - [endoflife.date/django](/django)
 - [endoflife.date/fedora](/fedora)
 - [endoflife.date/iphone](/iphone)
+- [endoflife.date/java](/java)
 - [endoflife.date/laravel](/laravel)
 - [endoflife.date/mariadb](/mariadb)
 - [endoflife.date/nodejs](/nodejs)
