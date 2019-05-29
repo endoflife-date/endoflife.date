@@ -21,8 +21,12 @@ layout: default
   </thead>
 {% for release in page.releases %}
 {% assign r = release[1] %}
-{% capture support %}{{r.support | date: '%s' | plus:0}}{%endcapture %}
-{% capture securityFixes %}{{r.eol | date: '%s' | plus:0}}{%endcapture %}
+{% assign support =r.support | date: '%s' | plus:0 %}
+{% assign securityFixes = r.eol | date: '%s' | plus:0%}
+{%assign diff = r.eol | date: '%s' | plus:0|minus:now %}
+{%assign diffSupport = support|minus:now %}
+{%assign diffSecurity6  = diff | minus:10651938 %}
+{%assign diffSupport6  = diffSupport | minus:10651938 %}
 <tr>
   <td>
     {{release[0]}}{%if r.lts%} (LTS){%endif%}
@@ -35,8 +39,24 @@ layout: default
   {%endif%}
 
   {% if page.activeSupportColumn%}
-  <td class="{% if support < now %}bg-red-000{% else if (now-support)>15552000%}bg-green-000{%else%}amber{%endif%}" title="{{r.support}}">
-    {% if support  < now %}Ended{%else%}Ends{%endif%} {{r.support|timeago}} <div>({{r.support | date_to_string}})</div>
+  <td class=
+    {% if diffSupport < 0%}
+    "bg-red-000"
+    {% elsif diffSupport6 > 0 %}
+    "bg-green-000"
+    {%else%}
+    "bg-yellow-200"
+    {%endif%}
+    title="{{r.support}}"
+  >
+    {% if diffSupport < 0 %}
+      Ended
+    {%else%}
+      Ends
+    {%endif%}
+    {{r.support|timeago}}
+    <div>({{r.support | date_to_string}})</div>
+
   </td>
   {%endif%}
 
@@ -47,24 +67,19 @@ layout: default
   {%endif%}
 
   <td class=
-    {%if securityFixes != '0'%}
-      {%capture diff%}{{securityFixes|minus:now}}{%endcapture%}
-      {% if securityFixes < now%}
-      "bg-red-000"
-      {%else if diff >15552000 %}
-      "bg-green-000"
-      {%else%}
-      "amber"
-      {%endif%}
+    {% if diff < 0%}
+    "bg-red-000"
+    {% elsif diffSecurity6 > 0 %}
+    "bg-green-000"
+    {%else%}
+    "bg-yellow-200"
     {%endif%}
   title="{{r.eol}}">
-    {%if securityFixes != "0"%}
-      {% if securityFixes  < now %}
-        Ended
-      {%else%}
-        Ends
-      {%endif%}
-      {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
+    {% if diff < 0%}
+      Ended
+    {%else%}
+      Ends
+    {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
     {% elsif r.eol == true %}
       No
     {%else %}
@@ -74,7 +89,7 @@ layout: default
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if securityFixes > now %}{{r.latest}}{%else%}NA{%endif%}
+    {% if diff > 0 %}{{r.latest}}{%else%}NA{%endif%}
   </td>
   {%endif%}
 </tr>

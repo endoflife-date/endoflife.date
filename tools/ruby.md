@@ -33,4 +33,4 @@ releases:
     latest: 2.1.10
 ---
 
-Since ruby 2.1 a new major version of ruby has been released every year on December 25th, and EOLed 3 years, 3 months later. Another resource that can help is [here](https://endoflife.software/programming-languages/server-side-scripting/ruby).
+Since Ruby 2.1 a new major version of Ruby has been released every year on December 25th, and EOLed 3 years, 3 months later. Another resource that can help is [here](https://endoflife.software/programming-languages/server-side-scripting/ruby).
