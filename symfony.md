@@ -78,5 +78,4 @@ releases:
     eol: 2020-07-01
     latest: 4.3.0-RC1
     lts: false
-
 ---
