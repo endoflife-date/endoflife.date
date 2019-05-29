@@ -8,6 +8,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-timeago
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
 exclude:
   - Gemfile
   - Gemfile.lock

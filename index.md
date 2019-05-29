@@ -1,6 +1,7 @@
 ---
 layout: home
 nav_exclude: true
+title: Home
 ---
 
 This site maintains quick links for checking End Of Life dates for various tools and technologies.
