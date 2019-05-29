@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /iphone
 title: iPhone
 link: https://en.wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
 discontinuedColumn: true
