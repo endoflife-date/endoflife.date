@@ -2,29 +2,25 @@
 permalink: /redis
 layout: post
 title: Redis
-link: https://docs.redislabs.com/latest/rs/administering/product-lifecycle/#end-of-life-schedule
+link: https://redis.io
 activeSupportColumn: false
 command: $ redis-server --version
 releaseDateColumn: true
 releases:
   '5.4':
     release: 2018-12-01
-    lts: false
     eol: 2020-06-30
     latest: '5.4'
   '5.2':
     release: 2018-06-01
-    lts: false
     eol: 2019-12-31
     latest: '5.2'
   '5.0':
     release: 2017-11-01
-    lts: false
     eol: 2019-05-31
     latest: '5.0'
   '4.5':
     release: 2017-05-01
-    lts: false
     eol: 2018-11-30
 ---
 
