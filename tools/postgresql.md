@@ -23,7 +23,7 @@ releases:
   "9.5":
     release: 2016-01-07
     eol: 2021-02-11
-    latest: 10.2.24
+    latest: 9.5.17
   "9.4":
     release: 2014-12-08
     eol: 2020-02-13
