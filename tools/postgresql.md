@@ -28,6 +28,42 @@ releases:
     release: 2014-12-08
     eol: 2020-02-13
     latest: 9.4.22
+  "9.3":
+    release: 2013-09-09
+    eol: 2018-11-08
+    latest: 9.3.25
+  "9.2":
+    release: 2012-09-10
+    eol: 2018-11-09
+    latest: 9.2.24
+  "9.1":
+    release: 2011-09-12
+    eol: 2016-10-27
+    latest: 9.1.24
+  "9.0":
+    release: 2010-09-20
+    eol: 2015-10-08
+    latest: 9.0.23
+  "8.4":
+    release: 2009-07-01
+    eol: 2014-07-24
+    latest: 8.4.22
+  "8.3":
+    release: 2008-02-04
+    eol: 2013-02-07
+    latest: 8.3.23
+  "8.2":
+    release: 2006-12-05
+    eol: 2011-12-05
+    latest: 8.2.23
+  "8.1":
+    release: 2005-11-08
+    eol: 2010-11-08
+    latest: 8.1.23
+  "8.0":
+    release: 2005-01-19
+    eol: 2010-10-01
+    latest: 8.0.26
 ---
 
 > [PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and technical standards compliance.
