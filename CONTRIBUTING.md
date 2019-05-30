@@ -15,11 +15,13 @@ layout: post
 # Possible values are os,db,tool,lang,framework
 # If you add a new value, please mention it on the PR Description
 category: os
+# The hash of the `releases` object to be used for sortin in descending order
+sortReleasesBy: "releaseCycle"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
-  # Release range (usually major.minor), put in quotes if a number
-  "1.2":
+    # Release range (usually major.minor), put in quotes if a string.
+  - releaseCycle: "1.2"
     # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
     eol: 2019-01-01
     # End of Active Support for the product. This is where bugfixes usually stop coming in. (remove if activeSupportColumn=false)
