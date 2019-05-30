@@ -43,6 +43,26 @@ releases:
     eol: 2015-09-14
     support: 2014-09-14
     latest: 5.4.45
+  "5.3":
+    release: 2009-06-30
+    eol: 2014-08-14
+    support: 2011-06-30
+    latest: 5.3.29
+  "5.2":
+    release: 2006-11-02
+    eol: 2011-01-06
+    support: 2008-11-02
+    latest: 5.2.17
+  "5.1":
+    release: 2005-11-24
+    eol: 2006-08-24
+    support: 2006-08-24
+    latest: 5.1.6
+  "5.0":
+    release: 2004-07-13
+    eol: 2005-09-05
+    support: 2005-09-05
+    latest: 5.0.5
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose programming language originally designed for web development.
