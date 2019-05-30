@@ -7,11 +7,26 @@ activeSupportColumn: true
 command: php --version
 releaseDateColumn: true
 releases:
+  "5.4":
+    release: 2012-03-01
+    eol: 2015-09-14
+    support: 2014-09-14
+    latest: 5.4.45
+  "5.5"
+    release: 2013-06-20
+    eol: 2016-07-10
+    support: 2015-07-10
+    latest: 5.5.27
+  "5.6"
+    release: 2014-08-28
+    eol: 2018-12-31
+    support: 2017-01-19
+    latest: 5.6.40
   "7.0":
     release: 2015-12-03
     eol: 2019-01-01
-    latest: 7.0.1
     support: 2018-12-12
+    latest: 7.0.33
   "7.1":
     release: 2016-12-01
     eol: 2019-12-01
