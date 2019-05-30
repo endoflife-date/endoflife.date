@@ -41,7 +41,7 @@ releases:
     release: 2018-12-06
     eol: 2021-12-06
     support: 2020-12-06
-    latest: 7.3.5
+    latest: 7.3.6
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose programming language originally designed for web development.
