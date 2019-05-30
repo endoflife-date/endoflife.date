@@ -15,21 +15,29 @@ releases:
     support: 2019-01-01
     eol: 2019-12-31
     latest: v8.16.0
+    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
   - releaseCycle: 10
     release: 2018-04-24
     lts: true
     support: 2020-04-01
     eol: 2021-04-01
     latest: v10.15.3
+    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md
   - releaseCycle: 12
     release: 2019-10-22
-    lts: true
+    lts: false
     support: 2021-04-01
     eol: 2021-04-01
     latest: v12.3.1
+    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md
+  - releaseCycle: 13
+    release: 2019-10-22
+    lts: false
+    support: 2022-04-20
+    eol: 2020-06-01
   - releaseCycle: 14
     release: 2020-10-20
-    lts: true
+    lts: false
     support: 2022-04-01
     eol: 2023-04-01
 ---

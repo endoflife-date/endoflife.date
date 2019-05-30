@@ -101,7 +101,7 @@ layout: default
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if diff > 0 %}{{r.latest}}{%else%}NA{%endif%}
+    {% if diff > 0 %}<a href="{{r.changelog | default: '#'}}">{{r.latest}}</a>{%else%}NA{%endif%}
   </td>
   {%endif%}
 </tr>

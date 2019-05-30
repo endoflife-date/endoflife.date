@@ -32,6 +32,7 @@ releases:
     # Current latest release
     # remove is releaseColumn is false
     latest: 1.2.3
+    changelog: 'link/to/changelog/of/latest/version'
 # A few extra fields define overall page behaviour
 
 # URL for the page
