@@ -5,7 +5,7 @@ title: Python
 command: python --version
 link: https://devguide.python.org/
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
+sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: 3.7
     release: 2018-06-27
@@ -18,6 +18,7 @@ releases:
   - releaseCycle: 3.5
     release: 2015-09-13
     eol: 2020-09-13
+    latest: 3.5.7
   - releaseCycle: 2.7
     release: 2010-07-03
     eol: 2020-01-01
