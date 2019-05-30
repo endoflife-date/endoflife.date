@@ -49,8 +49,14 @@ eolColumn: Service Status
 command: swish and flick
 # An image that shows a graphical representation of the releases.
 image: https://jkrowling.com/timeturner-releases.png
+
+# In the markdown section, ensure that the following are present:
+# 1. A one line statement about what the tool is, with a link to the primary website
+# 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 ---
-General descriptive content with a summary of the release policy goes here.
+> [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
+
+Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
 
 File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.

@@ -18,6 +18,8 @@ releases:
     release: 2016-4-23
 ---
 
+> ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications.
+
 Release rules:
 
 - There is a ROS release every year in May.

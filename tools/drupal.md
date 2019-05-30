@@ -31,6 +31,8 @@ releases:
     latest: "8.7.2"
 ---
 
+> [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
+
 **Drupal 8.x** releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [weekly release window on Wednesday](https://www.drupal.org/core/release-cycle-overview#windows) (US time).
 
 **Drupal 7** will receive security patches [until November 2021](https://www.drupal.org/docs/9/drupal-9-release-date-and-what-it-means/what-happens-to-drupal-7-after-drupal-9-is-released).

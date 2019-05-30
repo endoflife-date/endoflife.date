@@ -25,4 +25,8 @@ releases:
     eol: 2018-11-30
 ---
 
-Fedora end of life dates are not typically known far in advance with to-the-day accuracy, but are supported for approximately 13 months. Fedora tries to release twice a year (about every 6 months) and supports the current (n) and previous (n-1) version. See [this link](https://fedoraproject.org/wiki/Releases) for a list of all releases, and [this link](https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle) for more information about the Fedora Release Cycle. A list of all EOL releases can be found [here](https://fedoraproject.org/wiki/End_of_life).
+> [Fedora](https://getfedora.org/) is a Linux distribution developed by the community-supported Fedora Project and sponsored by Red Hat.
+
+Fedora end of life dates are not typically known far in advance with to-the-day accuracy. Fedora has a relatively short life cycle: version X is supported only until 1 month after version X+2 is released and with approximately 6 months between most versions, meaning a version of Fedora is usually supported for at least 13 months, possibly longer.
+
+See [this link](https://fedoraproject.org/wiki/Releases) for a list of all releases, and [this link](https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle) for more information about the Fedora Release Cycle. A list of all EOL releases can be found [here](https://fedoraproject.org/wiki/End_of_life).
