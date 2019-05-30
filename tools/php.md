@@ -28,12 +28,12 @@ releases:
     eol: 2019-01-01
     support: 2018-12-12
     latest: 7.0.33
-  "5.6"
+  "5.6":
     release: 2014-08-28
     eol: 2018-12-31
     support: 2017-01-19
     latest: 5.6.40
-  "5.5"
+  "5.5":
     release: 2013-06-20
     eol: 2016-07-10
     support: 2015-07-10
