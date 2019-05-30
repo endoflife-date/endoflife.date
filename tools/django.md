@@ -7,22 +7,23 @@ image: https://static.djangoproject.com/img/release-roadmap.688d8d65db0b.png
 activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
+sortReleasesBy: 'releaseCycle'
 releases:
-  "2.2":
+  - releaseCycle: 2.2
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
     latest: 2.2.1
-  "2.1":
+  - releaseCycle: 2.1
     support: 2019-04-01
     eol: 2019-12-01
     latest: 2.1.8
-  "2.0":
+  - releaseCycle: 2.0
     support: 2018-08-01
     eol: 2019-04-01
     latest: 2.0.13
     lts: false
-  "1.11":
+  - releaseCycle: 1.11
     lts: true
     support: 2017-12-02
     eol: 2020-04-01

@@ -9,13 +9,14 @@ eolColumn: End Of Life
 command: rosversion -d
 releaseDateColumn: true
 releaseColumn: false
+sortReleasesBy: 'releaseCycle'
 releases:
-  Melodic Morenia:
+  - releaseCycle: 'Melodic Morenia'
     eol: 2023-04-01
     release: 2011-01-05
-  Kinetic Kame:
+  - releaseCycle: 'Kinetic Kame'
     eol: 2021-05-01
-    release: 2016-4-23
+    release: 2016-04-23
 ---
 
 > ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications.

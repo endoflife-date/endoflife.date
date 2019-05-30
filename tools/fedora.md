@@ -6,20 +6,21 @@ link: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
 command: lsb_release -d
+sortReleasesBy: 'releaseCycle'
 releases:
-  "30":
+  - releaseCycle: "30"
     release: 2019-05-07
     latest: 30
     eol: 2020-05-07
-  "29":
+  - releaseCycle: "29"
     release: 2018-10-30
     latest: 29
     eol: 2019-10-30
-  "28":
+  - releaseCycle: "28"
     release: 2018-05-01
     latest: 28
     eol: 2019-05-31
-  "27":
+  - releaseCycle: "27"
     release: 2017-11-14
     latest: 27
     eol: 2018-11-30

@@ -7,59 +7,60 @@ activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
 command: winver
+sortReleasesBy: 'eol'
 releases:
-  "Windows 10, v1903 (E)":
-    released: 2019-05-21
+  - releaseCycle: "Windows 10, v1903 (E)"
+    release: 2019-05-21
     eol: 2020-12-08
-  "Windows 10, v1903 (W)":
-    released: 2019-05-21
+  - releaseCycle: "Windows 10, v1903 (W)"
+    release: 2019-05-21
     eol: 2020-12-08
-  "Windows 10, v1809 (E)":
-    released: 2018-11-13
+  - releaseCycle: "Windows 10, v1809 (E)"
+    release: 2018-11-13
     eol: 2021-05-11
-  "Windows 10, v1809 (W)":
-    released: 2018-11-13
+  - releaseCycle: "Windows 10, v1809 (W)"
+    release: 2018-11-13
     eol: 2020-05-11
-  "Windows 10, v1803 (E)":
-    released: 2018-04-30
+  - releaseCycle: "Windows 10, v1803 (E)"
+    release: 2018-04-30
     eol: 2020-11-10
-  "Windows 10, v1803 (W)":
-    released: 2018-04-30
+  - releaseCycle: "Windows 10, v1803 (W)"
+    release: 2018-04-30
     eol: 2019-11-12
-  "Windows 10, v1709 (E)":
-    released: 2017-10-17
+  - releaseCycle: "Windows 10, v1709 (E)"
+    release: 2017-10-17
     eol: 2020-04-14
-  "Windows 10, v1709 (W)":
-    released: 2017-10-17
+  - releaseCycle: "Windows 10, v1709 (W)"
+    release: 2017-10-17
     eol: 2019-04-09
-  "Windows 10, v1703 (E)":
-    released: 2017-04-11
+  - releaseCycle: "Windows 10, v1703 (E)"
+    release: 2017-04-11
     eol: 2019-10-08
-  "Windows 10, v1703 (W)":
-    released: 2017-04-05
+  - releaseCycle: "Windows 10, v1703 (W)"
+    release: 2017-04-05
     eol: 2018-10-09
-  "Windows 10, v1607 (E)":
-    released: 2016-08-02
+  - releaseCycle: "Windows 10, v1607 (E)"
+    release: 2016-08-02
     eol: 2019-04-09
-  "Windows 10, v1607 (W)":
-    released: 2016-08-02
+  - releaseCycle: "Windows 10, v1607 (W)"
+    release: 2016-08-02
     eol: 2018-04-10
-  "Windows Server v1903 (SAC)":
-    released: 2019-05-21
+  - releaseCycle: "Windows Server v1903 (SAC)"
+    release: 2019-05-21
     eol: 2020-08-12
-  "Windows 8.1":
+  - releaseCycle: "Windows 8.1"
     support: 2018-01-09
     eol: 2023-01-10
-  "Windows 7, SP1":
+  - releaseCycle: "Windows 7, SP1"
     support: 2015-01-13
     eol: 2020-01-14
-  "Windows 7 RTM":
+  - releaseCycle: "Windows 7 RTM"
     support: 2013-04-09
     eol: 2013-04-09
-  "Windows Vista":
+  - releaseCycle: "Windows Vista"
     support: 2012-04-10
     eol: 2017-04-11
-  "Windows XP":
+  - releaseCycle: "Windows XP"
     support: 2009-04-14
     eol: 2014-04-08
 ---

@@ -7,32 +7,33 @@ link: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+sortReleasesBy: 'release'
 releases:
-  'Debian 6 "Squeeze" (LTS)':
+  - releaseCycle: 'Debian 6 "Squeeze" (LTS)'
     release: 2011-02-06
     eol: 2016-02-29
-  'Debian 6 "Squeeze"':
+  - releaseCycle: 'Debian 6 "Squeeze"'
     release: 2011-02-06
     eol: 2014-05-31
-  'Debian 7 "Wheezy" (LTS)':
+  - releaseCycle: 'Debian 7 "Wheezy" (LTS)'
     release: 2013-05-04
     eol: 2018-05-31
-  'Debian 7 "Wheezy"':
+  - releaseCycle: 'Debian 7 "Wheezy"'
     release: 2013-05-04
     eol: 2016-04-25
-  'Debian 8 "Jessie" (LTS)':
+  - releaseCycle: 'Debian 8 "Jessie" (LTS)'
     release: 2015-04-26
     eol: 2020-06-30
     latest: 8.11
-  'Debian 8 "Jessie"':
+  - releaseCycle: 'Debian 8 "Jessie"'
     release: 2015-04-26
     eol: 2018-06-17
     latest: 8.11
-  'Debian 9 "Stretch" (LTS)':
+  - releaseCycle: 'Debian 9 "Stretch" (LTS)'
     release: 2017-06-17
     eol: 2022-06-30
     latest: 9.9
-  'Debian 9 "Stretch"':
+  - releaseCycle: 'Debian 9 "Stretch"'
     release: 2017-06-17
     eol: 2020-01-01
     latest: 9.9

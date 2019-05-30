@@ -7,60 +7,61 @@ activeSupportColumn: false
 eolColumn: Support Status
 command: psql -c "SELECT version();"
 releaseDateColumn: true
+sortReleasesBy: 'releaseCycle'
 releases:
-  "11":
+  - releaseCycle: 11
     release: 2018-10-18
     eol: 2023-11-09
     latest: 11.3
-  "10":
+  - releaseCycle: 10
     release: 2017-10-05
     eol: 2022-11-10
     latest: 10.8
-  "9.6":
+  - releaseCycle: 9.6
     release: 2016-09-29
     eol: 2021-11-11
     latest: 9.6.13
-  "9.5":
+  - releaseCycle: 9.5
     release: 2016-01-07
     eol: 2021-02-11
     latest: 9.5.17
-  "9.4":
+  - releaseCycle: 9.4
     release: 2014-12-08
     eol: 2020-02-13
     latest: 9.4.22
-  "9.3":
+  - releaseCycle: 9.3
     release: 2013-09-09
     eol: 2018-11-08
     latest: 9.3.25
-  "9.2":
+  - releaseCycle: 9.2
     release: 2012-09-10
     eol: 2018-11-09
     latest: 9.2.24
-  "9.1":
+  - releaseCycle: 9.1
     release: 2011-09-12
     eol: 2016-10-27
     latest: 9.1.24
-  "9.0":
+  - releaseCycle: 9.0
     release: 2010-09-20
     eol: 2015-10-08
     latest: 9.0.23
-  "8.4":
+  - releaseCycle: 8.4
     release: 2009-07-01
     eol: 2014-07-24
     latest: 8.4.22
-  "8.3":
+  - releaseCycle: 8.3
     release: 2008-02-04
     eol: 2013-02-07
     latest: 8.3.23
-  "8.2":
+  - releaseCycle: 8.2
     release: 2006-12-05
     eol: 2011-12-05
     latest: 8.2.23
-  "8.1":
+  - releaseCycle: 8.1
     release: 2005-11-08
     eol: 2010-11-08
     latest: 8.1.23
-  "8.0":
+  - releaseCycle: 8.0
     release: 2005-01-19
     eol: 2010-10-01
     latest: 8.0.26
