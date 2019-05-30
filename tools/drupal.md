@@ -8,23 +8,24 @@ releaseDateColumn: true
 releaseColumn: true
 command: drush status
 image: https://www.drupal.org/files/2019_minor_release_schedule.png
+sortReleasesBy: 'releaseCycle'
 releases:
-  "7":
+  - releaseCycle: 7
     eol: 2021-10-31
     support: 2015-11-19
     release: 2011-01-05
     latest: "7.67"
-  "8.5":
+  - releaseCycle: 8.5
     eol: 2019-05-02
     support: 2018-09-06
     release: 2018-03-08
     latest: "8.5.15"
-  "8.6":
+  - releaseCycle: 8.6
     eol: 2019-12-04
     support: 2019-02-02
     release: 2018-09-06
     latest: "8.6.16"
-  "8.7":
+  - releaseCycle: 8.7
     eol: 2020-06-03
     support: 2019-12-04
     release: 2019-05-02

@@ -6,38 +6,39 @@ link: https://www.php.net/supported-versions.php
 activeSupportColumn: true
 command: php --version
 releaseDateColumn: true
+sortReleasesBy: 'releaseCycle'
 releases:
-  "5.4":
+  - releaseCycle: 5.4
     release: 2012-03-01
     eol: 2015-09-14
     support: 2014-09-14
     latest: 5.4.45
-  "5.5":
+  - releaseCycle: 5.5
     release: 2013-06-20
     eol: 2016-07-10
     support: 2015-07-10
     latest: 5.5.27
-  "5.6":
+  - releaseCycle: 5.6
     release: 2014-08-28
     eol: 2018-12-31
     support: 2017-01-19
     latest: 5.6.40
-  "7.0":
+  - releaseCycle: 7.0
     release: 2015-12-03
     eol: 2019-01-01
     support: 2018-12-12
     latest: 7.0.33
-  "7.1":
+  - releaseCycle: 7.1
     release: 2016-12-01
     eol: 2019-12-01
     support: 2018-12-01
     latest: 7.1.29
-  "7.2":
+  - releaseCycle: 7.2
     release: 2017-11-30
     eol: 2020-11-30
     support: 2019-11-30
     latest: 7.2.18
-  "7.3":
+  - releaseCycle: 7.3
     release: 2018-12-06
     eol: 2021-12-06
     support: 2020-12-06

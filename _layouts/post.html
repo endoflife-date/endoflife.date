@@ -19,8 +19,8 @@ layout: default
       {%if page.releaseColumn != false %}<th>Release</th>{%endif%}
     </tr>
   </thead>
-{% for release in page.releases %}
-{% assign r = release[1] %}
+{% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
+{% for r in sorted_releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
 {% assign securityFixes = r.eol | date: '%s' | plus:0%}
 {%assign diff = r.eol | date: '%s' | plus:0|minus:now %}
@@ -29,7 +29,7 @@ layout: default
 {%assign diffSupport6  = diffSupport | minus:10651938 %}
 <tr>
   <td>
-    {{release[0]}}{%if r.lts%} (LTS){%endif%}
+    {{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}
   </td>
 
   {%if page.releaseDateColumn%}

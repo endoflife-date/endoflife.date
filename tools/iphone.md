@@ -8,44 +8,45 @@ activeSupportColumn: false
 eolColumn: Supported
 releaseColumn: false
 releaseDateColumn: true
+sortReleasesBy: 'release'
 releases:
-  "iPhone 5C":
+  - releaseCycle: "iPhone 5C"
     release: 2013-09-20
     discontinued: 2015-09-09
     eol: true
-  "iPhone 5S":
+  - releaseCycle: "iPhone 5S"
     release: 2013-09-20
     discontinued: 2016-03-21
     eol: false
-  "iPhone 6 / 6 Plus":
+  - releaseCycle: "iPhone 6 / 6 Plus"
     release: 2014-09-25
     discontinued: 2016-09-07
     eol: false
-  "iPhone 6S / 6S Plus":
+  - releaseCycle: "iPhone 6S / 6S Plus"
     release: 2015-09-25
     discontinued: 2018-09-12
     eol: false
-  "iPhone SE":
+  - releaseCycle: "iPhone SE"
     release: 2016-03-31
     discontinued: 2018-09-12
     eol: false
-  "iPhone 7 / 7 Plus":
+  - releaseCycle: "iPhone 7 / 7 Plus"
     release: 2016-09-16
     discontinued: false
     eol: false
-  "iPhone 8 / 8 Plus":
+  - releaseCycle: "iPhone 8 / 8 Plus"
     release: 2017-09-22
     discontinued: false
     eol: false
-  "iPhone X":
+  - releaseCycle: "iPhone X"
     release: 2017-09-12
     discontinued: 2018-09-12
     eol: false
-  "iPhone XS / XS Max":
+  - releaseCycle: "iPhone XS / XS Max"
     release: 2018-09-21
     discontinued: false
     eol: false
-  "iPhone XR":
+  - releaseCycle: "iPhone XR"
     release: 2018-10-26
     discontinued: false
     eol: false

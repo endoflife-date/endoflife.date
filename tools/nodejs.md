@@ -7,26 +7,27 @@ image: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sani
 activeSupportColumn: true
 command: node --version
 releaseDateColumn: true
+sortReleasesBy: 'releaseCycle'
 releases:
-  v8:
+  - releaseCycle: 8
     release: 2017-10-31
     lts: true
     support: 2019-01-01
     eol: 2019-12-31
     latest: v8.16.0
-  v10:
+  - releaseCycle: 10
     release: 2018-04-24
     lts: true
     support: 2020-04-01
     eol: 2021-04-01
     latest: v10.15.3
-  v12:
+  - releaseCycle: 12
     release: 2019-10-22
     lts: true
     support: 2021-04-01
     eol: 2021-04-01
     latest: v12.3.1
-  v14:
+  - releaseCycle: 14
     release: 2020-10-20
     lts: true
     support: 2022-04-01
