@@ -56,6 +56,12 @@ releases:
   "Windows 7 RTM":
     support: 2013-04-09
     eol: 2013-04-09
+  "Windows Vista":
+    support: 2012-04-10
+    eol: 2017-04-11
+  "Windows XP":
+    support: 2009-04-14
+    eol: 2014-04-08
 ---
 
 | Note | Comment                                      |
