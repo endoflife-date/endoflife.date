@@ -28,3 +28,8 @@ aux_links:
     - /contribute
   source:
     - https://github.com/captn3m0/endoflife.date
+jekyll_timeago:
+  depth: 2
+  # Give approx times in relative time
+  # within a 1% error margin
+  threshold: 0.01
