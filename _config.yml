@@ -10,6 +10,7 @@ plugins:
   - jekyll-timeago
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

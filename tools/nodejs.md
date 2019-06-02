@@ -1,7 +1,7 @@
 ---
 permalink: /nodejs
 layout: post
-title: NodeJS
+title: Node.js
 url: https://nodejs.org/en/about/releases/
 image: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
 activeSupportColumn: true
