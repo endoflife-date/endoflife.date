@@ -4,6 +4,7 @@ layout: post
 title: Node.js
 url: https://nodejs.org/en/about/releases/
 image: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
+changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_VRELEASE_CYCLE.md#LATEST
 activeSupportColumn: true
 command: node --version
 releaseDateColumn: true
@@ -14,22 +15,19 @@ releases:
     lts: true
     support: 2019-01-01
     eol: 2019-12-31
-    latest: v8.16.0
-    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
+    latest: 8.16.0
   - releaseCycle: 10
     release: 2018-04-24
     lts: true
     support: 2020-04-01
     eol: 2021-04-01
-    latest: v10.15.3
-    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md
+    latest: 10.15.3
   - releaseCycle: 12
     release: 2019-10-22
     lts: false
     support: 2021-04-01
     eol: 2021-04-01
-    latest: v12.3.1
-    changelog: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md
+    latest: 12.3.1
   - releaseCycle: 13
     release: 2019-10-22
     lts: false
