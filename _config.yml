@@ -28,3 +28,14 @@ aux_links:
     - /contribute
   source:
     - https://github.com/captn3m0/endoflife.date
+jekyll_timeago:
+  # Use 2 terms in relative timestamps:
+  # [YES] x years, y months
+  # [YES] x months, z weeks
+  # [NO] x years, y months, z days
+  depth: 2
+  # Give approx times in relative time
+  # within a 10% error margin
+  # See https://github.com/markets/jekyll-timeago/pull/24
+  # for what this does
+  threshold: 0.1
