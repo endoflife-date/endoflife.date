@@ -17,6 +17,7 @@ layout: post
 category: os
 # The hash of the `releases` object to be used for sortin in descending order
 sortReleasesBy: "releaseCycle"
+changelogTemplate: "https://link/of/the/cycle/and/latest/version"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
@@ -32,7 +33,6 @@ releases:
     # Current latest release
     # remove is releaseColumn is false
     latest: 1.2.3
-    changelog: 'link/to/changelog/of/latest/version'
 # A few extra fields define overall page behaviour
 
 # URL for the page
