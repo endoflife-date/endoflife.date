@@ -102,9 +102,13 @@ layout: default
   {%if page.releaseColumn != false %}
   <td>
     {% if diff > 0 or r.eol == false %}
-      <a href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | default: '#'}}">
+      {% if page.changelogTemplate %}
+      <a href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest}}">
         {{r.latest}}
       </a>
+      {%else%}
+        {{r.latest}}
+      {%endif%}
     {%else%}NA{%endif%}
   </td>
   {%endif%}
