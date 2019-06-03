@@ -3,6 +3,7 @@ title: PostgreSQL
 layout: post
 permalink: /postgresql
 link: https://www.postgresql.org/support/versioning/
+changelogTemplate: https://www.postgresql.org/docs/__RELEASE_CYCLE__/index.html
 activeSupportColumn: false
 eolColumn: Support Status
 command: psql -c "SELECT version();"
