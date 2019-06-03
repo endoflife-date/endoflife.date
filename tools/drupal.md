@@ -3,6 +3,7 @@ title: Drupal
 layout: post
 permalink: /drupal
 link: https://www.drupal.org/core/release-cycle-overview
+changelogTemplate: https://api.drupal.org/api/drupal/__RELEASE_CYCLE__.x
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
