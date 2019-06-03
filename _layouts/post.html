@@ -103,7 +103,7 @@ layout: default
   <td>
     {% if diff > 0 or r.eol == false %}
       {% if page.changelogTemplate %}
-      <a href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand }}">
+      <a href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}">
         {{r.latest}}
       </a>
       {%else%}
