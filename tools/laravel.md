@@ -3,6 +3,7 @@ title: Laravel
 layout: post
 permalink: /laravel
 link: https://laravel.com/docs/5.8/releases#support-policy
+changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__/releases
 activeSupportColumn: true
 command: composer show laravel/framework|grep versions
 releaseDateColumn: true
