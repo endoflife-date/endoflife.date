@@ -4,6 +4,7 @@ layout: post
 permalink: /django
 link: https://www.djangoproject.com/download/#supported-versions
 image: https://static.djangoproject.com/img/release-roadmap.688d8d65db0b.png
+changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
