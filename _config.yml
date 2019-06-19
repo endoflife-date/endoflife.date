@@ -39,3 +39,8 @@ jekyll_timeago:
   threshold: 0.1
 # Cause a build to fail if there is a YAML syntax error in a page's front matter.  (#40)
 strict_front_matter: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /logo.png
