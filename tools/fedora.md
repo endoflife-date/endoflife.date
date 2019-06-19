@@ -7,6 +7,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
+changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__/Schedule
 releases:
   - releaseCycle: "30"
     release: 2019-05-07

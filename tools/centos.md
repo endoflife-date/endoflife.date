@@ -12,10 +12,12 @@ releases:
     release: 2011-07-10
     eol: 2020-11-30
     latest: "6.10"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
   - releaseCycle: "CentOS 7"
     release: 2014-07-07
     eol: 2024-06-30
-    latest: "7.6"
+    latest: "7.6-1810"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1810
 ---
 
 > [CentOS](https://centos.org/) is a Linux distribution that provides a free, enterprise-class, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux.
