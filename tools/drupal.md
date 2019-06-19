@@ -8,7 +8,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 command: drush status
-image: https://www.drupal.org/files/2019_minor_release_schedule.png
+releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: 7

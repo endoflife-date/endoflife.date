@@ -3,7 +3,7 @@ title: PHP
 permalink: /php
 layout: post
 link: https://www.php.net/supported-versions.php
-image: https://www.php.net/images/logos/php-logo.png
+releaseImage: https://www.php.net/images/logos/php-logo.png
 changelogTemplate: https://www.php.net/ChangeLog-__CYCLE_SHORT_HAND__.php#__LATEST__
 activeSupportColumn: true
 command: php --version

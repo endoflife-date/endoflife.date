@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% if page.image %}
-<img src="{{page.image}}" />
+{% if page.releaseImage %}
+<img src="{{page.releaseImage}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
