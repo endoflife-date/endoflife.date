@@ -62,6 +62,6 @@ releaseImage: https://jkrowling.com/timeturner-releases.png
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
 
-File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.
+After creating the YAML file, run `make` to update the `api` folder to include the data on the new tool, and commit the results.
 
-You can visit <https://github.com/captn3m0/endoflife.date/new/master/tools> to directly create your file.
+File a Pull Request, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.
