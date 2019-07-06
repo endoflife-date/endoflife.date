@@ -11,7 +11,7 @@ require 'fileutils'
 require 'json'
 require 'yaml'
 
-API_DIR = 'api'
+API_DIR = 'api'.freeze
 
 class Tool
   attr_reader :hash
@@ -35,7 +35,7 @@ end
 # return a json output filename, including the directory name. Any / characters
 # in the name are replaced with - to avoid file errors.
 def json_filename(output_dir, name)
-  filename = name.to_s.gsub('/', '-') + '.json'
+  filename = name.to_s.tr('/', '-') + '.json'
   File.join(output_dir, filename)
 end
 
@@ -49,10 +49,9 @@ def process_file(markdown_file)
   tool.release_cycles.each do |cycle|
     output_file = json_filename(output_dir, cycle.fetch('name'))
     File.open(output_file, 'w') { |f| f.puts cycle.fetch('data').to_json }
-    puts output_file
   end
 end
 
 ############################################################
 
-Dir["tools/*.md"].each { |file| process_file(file) }
+Dir['tools/*.md'].each { |file| process_file(file) }
