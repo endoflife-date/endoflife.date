@@ -17,7 +17,7 @@ releases:
     eol: false
   - releaseCycle: "stable/11"
     eol: 2021-09-30
-  - releaseCycle: "releng/11.2"
+  - releaseCycle: "releng/11.3"
     release: 2018-06-28
     eol: false
 ---
