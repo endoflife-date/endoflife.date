@@ -26,3 +26,5 @@ releases:
 > [PowerShell Core](https://aka.ms/powershell)  is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 Microsoft publishes new major releases of PowerShell Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. 
+
+6.2 will EOL 6 months after 7.0 releases.
