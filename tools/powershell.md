@@ -12,11 +12,11 @@ releases:
   - releaseCycle: 6.0
     release: 2018-01-10
     eol: 2019-02-13
-    latest: 6.0.16
+    latest: 6.0.5
   - releaseCycle: 6.1
     release: 2018-09-13
     eol: 2019-09-28
-    latest: 6.1.15
+    latest: 6.1.5
   - releaseCycle: 6.2
     release: 2019-03-28
     eol: false
