@@ -50,6 +50,14 @@ releases:
     release: 2018-10-26
     discontinued: false
     eol: false
+  - releaseCycle: "iPhone 11"
+    release: 2019-09-10
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 11 Pro / 11 Pro Max"
+    release: 2019-09-10
+    discontinued: false
+    eol: false
 ---
 
 Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long, with iPhone 5s being supported for almost 6 years now.
