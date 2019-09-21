@@ -30,6 +30,10 @@ releases:
     release: 2018-12-04
     latest: 2.2.5
     eol: false
+  - releaseCycle: 3.0
+    release: 2019-09-23
+    latest: 3.0.0
+    eol: false
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many different types of applications.
