@@ -25,12 +25,12 @@ releases:
     eol: 2019-12-04
     support: 2019-02-02
     release: 2018-09-06
-    latest: "8.6.16"
+    latest: "8.6.17"
   - releaseCycle: 8.7
     eol: 2020-06-03
     support: 2019-12-04
     release: 2019-05-02
-    latest: "8.7.2"
+    latest: "8.7.7"
 ---
 
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
