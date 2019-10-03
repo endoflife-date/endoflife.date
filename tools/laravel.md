@@ -29,8 +29,14 @@ releases:
     release: 2019-09-03
     support: 2021-09-03
     eol: 2022-09-03
-    latest: 6.0.3
+    latest: 6.0.4
     lts: true
+  - releaseCycle: "6.1"
+    release: 2019-10-02
+    support: 2020-04-03
+    eol: 2020-10-03
+    latest: 6.1.0
+    lts: false
 ---
 
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.

@@ -14,7 +14,7 @@ releases:
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
-    latest: 2.2.5
+    latest: 2.2.6
   - releaseCycle: 2.1
     support: 2019-04-01
     eol: 2019-12-01
@@ -28,7 +28,7 @@ releases:
     lts: true
     support: 2017-12-02
     eol: 2020-04-01
-    latest: 1.11.25
+    latest: 1.11.26
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.

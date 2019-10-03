@@ -4,6 +4,7 @@ permalink: /bootstrap
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
+changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releases:
   - releaseCycle: 2.x
     release: 2013-07-18
@@ -16,8 +17,7 @@ releases:
   - releaseCycle: 4.x
     release: 2018-01-18
     eol: 2020-02-14
-    latest: 4.3
-
+    latest: 4.3.1
 link: https://blog.getbootstrap.com/2019/07/24/lts-plan/
 releaseDateColumn: true
 eolColumn: End of Life
@@ -30,8 +30,8 @@ At times to be determined by the release working group, major versions will be f
 
 Versions in _Maintenance_ should not have any changes landed, except for:
 
-* **Critical** bug fixes
-* **Critical** security updates
-* **Important** documentation updates
+- **Critical** bug fixes
+- **Critical** security updates
+- **Important** documentation updates
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
