@@ -23,7 +23,7 @@ releases:
     eol: 2021-04-01
     latest: 10.15.3
   - releaseCycle: 12
-    release: 2019-10-22
+    release: 2019-04-23
     lts: false
     support: 2021-04-01
     eol: 2021-04-01
