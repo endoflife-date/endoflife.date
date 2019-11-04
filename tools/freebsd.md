@@ -14,6 +14,11 @@ releases:
   - releaseCycle: "releng/12.0"
     release: 2018-12-11
     release: NA
+    # 12.1-RELEASE + 3 months
+    eol: 2020-02-04
+  - releaseCycle: "releng/12.1"
+    release: 2019-11-04
+    release: NA
     eol: false
   - releaseCycle: "stable/11"
     eol: 2021-09-30
@@ -22,7 +27,7 @@ releases:
     eol: false
 ---
 
->[FreeBSD](https://www.freebsd.org) is an operating system used to power modern servers, desktops, and embedded platforms.
+> [FreeBSD](https://www.freebsd.org) is an operating system used to power modern servers, desktops, and embedded platforms.
 
 Each release is supported by the Security Officer for a limited time only. Under the current support model, each major version's stable branch is explicitly supported for 5 years, while each individual point release is only supported for three months after the next point release.
 

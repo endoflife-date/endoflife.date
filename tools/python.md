@@ -5,28 +5,28 @@ title: Python
 command: python --version
 link: https://devguide.python.org/
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 3.7
-    release: 2018-06-27
-    eol: 2023-06-27
-    latest: 3.7.4
-    link: https://www.python.org/downloads/release/python-374/
-  - releaseCycle: 3.6
-    release: 2016-12-23
-    eol: 2021-12-23
-    latest: 3.6.9
-    link: https://www.python.org/downloads/release/python-369/
-  - releaseCycle: 3.5
-    release: 2015-09-13
-    eol: 2020-09-13
-    latest: 3.5.7
-    link: https://www.python.org/downloads/release/python-357/
-  - releaseCycle: 2.7
-    release: 2010-07-03
-    eol: 2020-01-01
-    latest: 2.7.16
-    link: https://www.python.org/downloads/release/python-2716/
+    - releaseCycle: 3.7
+      release: 2018-06-27
+      eol: 2023-06-27
+      latest: 3.7.4
+      link: https://www.python.org/downloads/release/python-374/
+    - releaseCycle: 3.6
+      release: 2016-12-23
+      eol: 2021-12-23
+      latest: 3.6.9
+      link: https://www.python.org/downloads/release/python-369/
+    - releaseCycle: 3.5
+      release: 2015-09-13
+      eol: 2020-09-13
+      latest: 3.5.7
+      link: https://www.python.org/downloads/release/python-357/
+    - releaseCycle: 2.7
+      release: 2010-07-03
+      eol: 2020-01-01
+      latest: 2.7.17
+      link: https://www.python.org/downloads/release/python-2717/
 ---
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
