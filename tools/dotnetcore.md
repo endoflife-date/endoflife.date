@@ -29,7 +29,7 @@ releases:
   - releaseCycle: 2.2
     release: 2018-12-04
     latest: 2.2.5
-    eol: false
+    eol: 2019-12-23
   - releaseCycle: 3.0
     release: 2019-09-23
     latest: 3.0.0
