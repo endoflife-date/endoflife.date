@@ -33,6 +33,7 @@ releases:
     lts: false
     support: 2022-04-20
     eol: 2020-06-01
+    latest: 13.1.0
   - releaseCycle: 14
     release: 2020-10-20
     lts: false
