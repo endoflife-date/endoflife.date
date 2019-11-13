@@ -7,21 +7,21 @@ changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST_
 eolColumn: Supported
 command: go version
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
+sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: 1.13
+  - releaseCycle: "1.13"
     release: 2019-09-03
     eol: false
     latest: 1.13
-  - releaseCycle: 1.12
+  - releaseCycle: "1.12"
     release: 2019-02-25
     eol: false
     latest: 1.12.10
-  - releaseCycle: 1.11
+  - releaseCycle: "1.11"
     release: 2018-08-04
     eol: true
     latest: 1.11.13
-  - releaseCycle: 1.10
+  - releaseCycle: "1.10"
     release: 2018-02-16
     eol: true
     latest: 1.10.8
