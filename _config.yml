@@ -3,6 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Check End of Life of php, python, ubuntu, alpine, laravel, debian, centos, django, .NET,
   fedora, iphone, redhat, postgres, ruby, windows, Node.js, mariadb, laravel, java etc at one place.
   Verify whether your application needs an update, or if you need to upgrade your device.
+baseurl: /
 markdown: kramdown
 plugins:
   - jekyll-feed
