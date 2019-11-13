@@ -1,5 +1,5 @@
 ---
-title: Elastic Search
+title: Elasticsearch
 layout: post
 permalink: /elasticsearch
 link: https://www.elastic.co/support/eol
