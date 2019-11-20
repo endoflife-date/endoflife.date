@@ -10,59 +10,59 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: 2019 Linux Editon
-    release: 11/4/2019
-    support: 1/7/2025
-    eol: 1/8/2030
+    release: 2019-11-04
+    support: 2025-01-07
+    eol: 2030-01-08
     latest: 15.0.2070.41
   - releaseCycle: 2019 Windows Editon
-    release: 11/4/2019
-    support: 1/7/2025
-    eol: 1/8/2030
+    release: 2019-11-04
+    support: 2025-01-07
+    eol: 2030-08-01
     latest: 15.0.2070.41
   - releaseCycle: 2017 Windows Editon
-    release: 9/29/2017
-    support: 10/11/2022
-    eol: 10/12/2027
+    release: 2017-09-29
+    support: 2022-11-10
+    eol: 2027-12-10
     latest: 14.0.3238.1 RTM CU17
   - releaseCycle: 2017 Windows Editon
-    release: 9/29/2017
-    support: 10/11/2022
-    eol: 10/12/2027
+    release: 2017-09-29
+    support: 2022-10-11
+    eol: 2027-10-12
     latest: 14.0.3238.1 RTM CU17
   - releaseCycle: 2016 Web *
-    release: 6/1/2016
+    release: 2016-01-06
     support: Not Applicable
-    eol: 1/9/2018
+    eol: 2018-01-09
     latest: 13.0.5492.2 SP2 CU10
   - releaseCycle: 2016 Standard *
-    release: 6/1/2016
+    release: 2016-06-01
     support: Not Applicable
-    eol: 1/9/2018
+    eol: 2018-01-09
     latest: 13.0.5492.2 SP2 CU10
   - releaseCycle: 2016 Service Pack 2
-    release: 4/24/2018
-    support: 7/13/2021
-    eol: 7/14/2026
+    release: 2018-04-24
+    support: 2021-07-13
+    eol: 2026-07-14
     latest:	13.0.5492.2 SP2 CU10
   - releaseCycle: 2014 Service Pack 3
-    release: 10/30/2018
-    support: 7/9/2019
-    eol: 	7/12/2022
+    release: 2018-10-30
+    support: 2019-07-09
+    eol: 2022-07-12
     latest: 12.0.6329.1 SP3 CU4
   - releaseCycle: 2012 Service Pack 4
-    release: 10/5/2017
-    support: 7/11/2017
-    eol: 	7/9/2024
+    release: 2017-10-05
+    support: 2017-07-11
+    eol: 2024-07-09
     latest:	11.0.7469.6 (with fix for SP4)
   - releaseCycle: 2012 Parallel Data Warehouse
-    release: 7/12/2013
-    support: 10/8/2019
-    eol: 	10/8/2024
+    release: 2013-07-12
+    support: 2019-08-10
+    eol: 2024-10-08
     latest:	11.0.7469.6 (with fix for SP4)
   - releaseCycle: 2012 Enterprise Core
-    release: 5/20/2012
-    support: 7/11/2017
-    eol: 	7/12/2022
+    release: 2012-05-20
+    support: 2017-07-11
+    eol: 2022-07-12
     latest:	11.0.7469.6 (with fix for SP4)
 ---
 
