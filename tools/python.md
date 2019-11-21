@@ -7,6 +7,11 @@ link: https://devguide.python.org/
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+    - releaseCycle: 3.8
+      release: 2019-10-14
+      eol: 2024-10-14
+      latest: 3.8.0
+      link: https://www.python.org/dev/peps/pep-0569/
     - releaseCycle: 3.7
       release: 2018-06-27
       eol: 2023-06-27
