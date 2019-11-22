@@ -11,7 +11,7 @@ releases:
       release: 2019-10-14
       eol: 2024-10-14
       latest: 3.8.0
-      link: https://www.python.org/dev/peps/pep-0569/
+      link: https://www.python.org/downloads/release/python-380/
     - releaseCycle: 3.7
       release: 2018-06-27
       eol: 2023-06-27
