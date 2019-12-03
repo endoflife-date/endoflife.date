@@ -25,7 +25,7 @@ releases:
     lts: true
     release: 2018-05-30
     latest: 2.1.13
-    eol: 2021-10-21
+    eol: 2021-08-30
   - releaseCycle: 2.2
     release: 2018-12-04
     latest: 2.2.7
@@ -33,11 +33,16 @@ releases:
   - releaseCycle: 3.0
     release: 2019-09-23
     latest: 3.0.0
-    eol: false
+    eol: 2020-03-03
+  - releaseCycle: 3.1
+    lts: true
+    release: 2019-12-03
+    latest: 3.1.0
+    eol: 2022-12-03
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many different types of applications.
 
 Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will happen every November and every other release will be LTS. LTS releases are supported for three years after the initial release.
 
-The EoL date for `2.1 (LTS)` release given above is approximate.
+The EoL date for 2.1 and 3.1 (LTS) release given above is approximate.
