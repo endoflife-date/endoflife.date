@@ -33,7 +33,7 @@ releases:
   - releaseCycle: 3.0
     release: 2019-09-23
     latest: 3.0.0
-    eol: 2020-03-03
+    eol: 2020-03-23
   - releaseCycle: 3.1
     lts: true
     release: 2019-12-03
@@ -45,4 +45,4 @@ releases:
 
 Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will happen every November and every other release will be LTS. LTS releases are supported for three years after the initial release.
 
-The EoL date for 2.1 and 3.1 (LTS) release given above is approximate.
+The EoL dates for the 2.1 and 3.1 (LTS) releases given above are approximate.
