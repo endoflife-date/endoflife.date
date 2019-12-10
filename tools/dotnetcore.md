@@ -24,15 +24,15 @@ releases:
   - releaseCycle: 2.1
     lts: true
     release: 2018-05-30
-    latest: 2.1.13
+    latest: 2.1.14
     eol: 2021-08-30
   - releaseCycle: 2.2
     release: 2018-12-04
-    latest: 2.2.7
+    latest: 2.2.8
     eol: 2019-12-23
   - releaseCycle: 3.0
     release: 2019-09-23
-    latest: 3.0.0
+    latest: 3.0.1
     eol: 2020-03-23
   - releaseCycle: 3.1
     lts: true
