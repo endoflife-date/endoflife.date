@@ -45,4 +45,4 @@ releases:
 
 Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will happen every November and every other release will be LTS. LTS releases are supported for three years after the initial release.
 
-The EoL dates for the 2.1 and 3.1 (LTS) releases given above are approximate.
+The EoL date for 3.1 given above is approximate.
