@@ -6,8 +6,9 @@ link: https://support.microsoft.com/en-us/lifecycle/search?alpha=Windows%20Serve
 category: os
 activeSupportColumn: true
 command: winver
+releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: 'latest'
+sortReleasesBy: 'release'
 releases:
   - releaseCycle: "Windows Server, version 1909 (Datacenter, Standard)"
     release: 2019-11-12
