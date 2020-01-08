@@ -13,12 +13,15 @@ releases:
   - releaseCycle: "Windows Server, version 1909 (Datacenter, Standard)"
     release: 2019-11-12
     support: 2021-05-11
+    eol: NA
   - releaseCycle: "Windows Server, version 1903 (Datacenter, Standard)"
     release: 2018-05-21
     support: 2020-12-08
+    eol: NA
   - releaseCycle: "Windows Server, version 1809 (Datacenter, Standard)"
     release: 2018-11-13
     support: 2020-05-12
+    eol: NA
   - releaseCycle: "Windows Server 2019 (Datacenter, Essentials, Standard)"
     release: 2018-11-13
     support: 2024-01-09
@@ -26,9 +29,11 @@ releases:
   - releaseCycle: "Windows Server, version 1803 (Datacenter, Standard)"
     release: 2018-04-30
     support: 2019-11-12
+    eol: NA
   - releaseCycle: "Windows Server, version 1709 (Datacenter, Standard)"
     release: 2017-10-17
     support: 2019-04-09
+    eol: NA
   - releaseCycle: "Windows Server 2016 (Datacenter, Essentials, Standard)"
     release: 2016-10-15
     support: 2022-01-11
