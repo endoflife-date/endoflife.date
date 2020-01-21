@@ -33,7 +33,7 @@ releases:
     release: 2016-12-01
     eol: 2019-12-01
     support: 2018-12-01
-    latest: 7.1.30
+    latest: 7.1.33
   - releaseCycle: 7.0
     cycleShortHand: 7
     release: 2015-12-03

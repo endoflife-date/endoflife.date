@@ -10,10 +10,14 @@ command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 12
+    release: 2019-10-03
+    eol: 2024-10-04
+    latest: 12.0
   - releaseCycle: 11
     release: 2018-10-18
     eol: 2023-11-09
-    latest: 11.3
+    latest: 11.5
   - releaseCycle: 10
     release: 2017-10-05
     eol: 2022-11-10

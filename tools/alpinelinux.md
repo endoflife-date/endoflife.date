@@ -9,9 +9,13 @@ command: cat /etc/alpine-release
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "v3.11"
+    release: 2019-12-19
+    latest: 3.11.0
+    eol: 2021-11-01
   - releaseCycle: "v3.10"
     release: 2019-06-19
-    latest: 3.10.2
+    latest: 3.10.3
     eol: 2021-05-01
   - releaseCycle: "v3.9"
     release: 2019-01-29
