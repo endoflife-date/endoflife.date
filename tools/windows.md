@@ -12,39 +12,51 @@ sortReleasesBy: 'release'
 releases:
   - releaseCycle: "Windows 10, version 1903 (E)"
     release: 2019-08-29
+    support: 2020-12-08
     eol: 2020-12-08
   - releaseCycle: "Windows 10, version 1903 (W)"
     release: 2019-05-21
+    support: 2020-12-08
     eol: 2020-12-08
   - releaseCycle: "Windows 10, version 1809 (E)"
     release: 2018-11-13
+    support: 2021-05-11
     eol: 2021-05-11
   - releaseCycle: "Windows 10, version 1809 (W)"
     release: 2018-11-13
+    support: 2020-05-11
     eol: 2020-05-11
   - releaseCycle: "Windows 10, version 1803 (E)"
     release: 2018-04-30
-    eol: 2020-11-10
+    support: 2020-05-11
+    eol: 2020-05-11
   - releaseCycle: "Windows 10, version 1803 (W)"
     release: 2018-04-30
-    eol: 2019-11-12
+    support: 2020-05-11
+    eol: 2020-05-11
   - releaseCycle: "Windows 10, version 1709 (E)"
     release: 2017-10-17
+    support: 2020-04-14
     eol: 2020-04-14
   - releaseCycle: "Windows 10, version 1709 (W)"
     release: 2017-10-17
+    support: 2019-04-09
     eol: 2019-04-09
   - releaseCycle: "Windows 10, version 1703 (E)"
     release: 2017-04-11
+    support: 2019-10-08
     eol: 2019-10-08
   - releaseCycle: "Windows 10, version 1703 (W)"
     release: 2017-04-05
+    support: 2018-10-09
     eol: 2018-10-09
   - releaseCycle: "Windows 10, version 1607 (E)"
     release: 2016-08-02
+    support: 2019-04-09
     eol: 2019-04-09
   - releaseCycle: "Windows 10, version 1607 (W)"
     release: 2016-08-02
+    support: 2018-04-10
     eol: 2018-04-10
   - releaseCycle: "Windows 8.1"
     release: 2013-11-13
