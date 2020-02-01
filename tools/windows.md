@@ -3,11 +3,12 @@ title: Windows
 layout: post
 permalink: /windows
 link: https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet
-activeSupportColumn: false
+category: os
+activeSupportColumn: true
 releaseColumn: false
-eolColumn: Support Status
+releaseDateColumn: true
 command: winver
-sortReleasesBy: 'eol'
+sortReleasesBy: 'release'
 releases:
   - releaseCycle: "Windows 10, v1903 (E)"
     release: 2019-05-21
@@ -45,12 +46,12 @@ releases:
   - releaseCycle: "Windows 10, v1607 (W)"
     release: 2016-08-02
     eol: 2018-04-10
-  - releaseCycle: "Windows Server v1903 (SAC)"
-    release: 2019-05-21
-    eol: 2020-08-12
   - releaseCycle: "Windows 8.1"
     support: 2018-01-09
     eol: 2023-01-10
+  - releaseCycle: "Windows Embedded POSReady 7"
+    support: 2016-10-11
+    eol: 2021-10-12
   - releaseCycle: "Windows 7, SP1"
     support: 2015-01-13
     eol: 2020-01-14
