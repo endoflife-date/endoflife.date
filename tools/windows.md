@@ -8,7 +8,7 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 command: winver
-sortReleasesBy: 'support'
+sortReleasesBy: 'release'
 releases:
   - releaseCycle: "Windows 10, v1903 (E)"
     release: 2019-08-29
