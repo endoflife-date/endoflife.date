@@ -10,51 +10,51 @@ releaseDateColumn: true
 command: winver
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: "Windows 10, version 1903 (E)"
+  - releaseCycle: "Windows 10, v1903 (E)"
     release: 2019-08-29
     support: 2020-12-08
     eol: 2020-12-08
-  - releaseCycle: "Windows 10, version 1903 (W)"
+  - releaseCycle: "Windows 10, v1903 (W)"
     release: 2019-05-21
     support: 2020-12-08
     eol: 2020-12-08
-  - releaseCycle: "Windows 10, version 1809 (E)"
+  - releaseCycle: "Windows 10, v1809 (E)"
     release: 2018-11-13
     support: 2021-05-11
     eol: 2021-05-11
-  - releaseCycle: "Windows 10, version 1809 (W)"
+  - releaseCycle: "Windows 10, v1809 (W)"
     release: 2018-11-13
     support: 2020-05-11
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, version 1803 (E)"
+  - releaseCycle: "Windows 10, v1803 (E)"
     release: 2018-04-30
     support: 2020-05-11
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, version 1803 (W)"
+  - releaseCycle: "Windows 10, v1803 (W)"
     release: 2018-04-30
     support: 2020-05-11
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, version 1709 (E)"
+  - releaseCycle: "Windows 10, v1709 (E)"
     release: 2017-10-17
     support: 2020-04-14
     eol: 2020-04-14
-  - releaseCycle: "Windows 10, version 1709 (W)"
+  - releaseCycle: "Windows 10, v1709 (W)"
     release: 2017-10-17
     support: 2019-04-09
     eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1703 (E)"
+  - releaseCycle: "Windows 10, v1703 (E)"
     release: 2017-04-11
     support: 2019-10-08
     eol: 2019-10-08
-  - releaseCycle: "Windows 10, version 1703 (W)"
+  - releaseCycle: "Windows 10, 1703 (W)"
     release: 2017-04-05
     support: 2018-10-09
     eol: 2018-10-09
-  - releaseCycle: "Windows 10, version 1607 (E)"
+  - releaseCycle: "Windows 10, v1607 (E)"
     release: 2016-08-02
     support: 2019-04-09
     eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1607 (W)"
+  - releaseCycle: "Windows 10, v1607 (W)"
     release: 2016-08-02
     support: 2018-04-10
     eol: 2018-04-10
@@ -66,15 +66,15 @@ releases:
     release: 2011-09-10
     support: 2016-10-11
     eol: 2021-10-12
-  - releaseCycle: "Windows 7 Service Pack 1"
+  - releaseCycle: "Windows 7 SP1"
     release: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
-  - releaseCycle: "Windows Vista Service Pack 2"
+  - releaseCycle: "Windows Vista SP2"
     release: 2009-04-29
     support: 2012-04-10
     eol: 2017-04-11
-  - releaseCycle: "Windows XP Service Pack 2"
+  - releaseCycle: "Windows XP SP2"
     release: 2007-03-12
     support: 2009-04-14
     eol: 2014-04-08
