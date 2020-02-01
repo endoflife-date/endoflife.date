@@ -1,5 +1,5 @@
 ---
-title: Office
+title: Microsoft Office
 permalink: /office
 layout: post
 link: https://support.microsoft.com/en-us/lifecycle/search?alpha=Office
