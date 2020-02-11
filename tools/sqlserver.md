@@ -34,11 +34,6 @@ releases:
     support: 2017-07-11
     eol: 2022-07-12
     latest: 11.0.7493.4 SP4 GDR
-  - releaseCycle: 2008 R2 SP3
-    release: 2014-09-26
-    support: 2014-07-08
-    eol: 2019-07-09
-    latest: 10.50.6560.0 SP3 GDR
 ---
 
 >[SQLServer](https://www.microsoft.com/en-us/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network
