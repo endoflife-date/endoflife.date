@@ -48,7 +48,7 @@ releases:
 Each of the products has its own Technical Support Policy, which determine the lifetime and scope of product support.
 
 GDR: General Distribution Release
-CU: Cumulative Update)
+CU: Cumulative Update
 
 The 2016 version was the last to which SP appeared. As of 2017, only CU updates will be available.
 
