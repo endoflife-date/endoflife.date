@@ -38,7 +38,7 @@ releases:
     release: 2014-09-26
     support: 2014-07-08
     eol: 2019-07-09
-    latest: 10.50.6560.0 SP3 GDR
+    latest: 10.50.6560.0 SP3 GDR  
 ---
 
 >[SQLServer](https://www.microsoft.com/en-us/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network
@@ -47,7 +47,7 @@ releases:
 
 Each of the products has its own Technical Support Policy, which determine the lifetime and scope of product support.
 
-GDR: General Distribution Release
+GDR: General Distribution Release  
 CU: Cumulative Update
 
 The 2016 version was the last to which SP appeared. As of 2017, only CU updates will be available.
