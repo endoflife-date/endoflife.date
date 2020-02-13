@@ -15,7 +15,7 @@ releases:
     release: 2019-11-28
     eol: 2022-11-28
     support: 2021-11-28
-    latest: 7.4.1
+    latest: 7.4.2
   - releaseCycle: 7.3
     cycleShortHand: 7
     release: 2018-12-06
