@@ -13,9 +13,9 @@ releases:
   - releaseCycle: 2.3
     cycleShortHand: 2
     release: 2018-11-28
-    eol: 2020-11-28
+    eol: 2021-05-28
     support: 2020-11-28
-    latest: 2.3.3
+    latest: 2.3.4
   - releaseCycle: 2.2
     cycleShortHand: 2
     release: 2017-09-01
