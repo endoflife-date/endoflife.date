@@ -18,7 +18,7 @@ releases:
     release: 2019-11-12
     support: 2021-05-11
     eol: 2021-05-11
-  - releaseCycle: "Windows 10, v1903 (E) (W)"
+  - releaseCycle: "Windows 10, v1903 (E)(W)"
     release: 2019-08-29
     support: 2020-12-08
     eol: 2020-12-08
@@ -30,7 +30,7 @@ releases:
     release: 2018-11-13
     support: 2020-05-11
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, v1803 (E) (W)"
+  - releaseCycle: "Windows 10, v1803 (E)(W)"
     release: 2018-04-30
     support: 2020-05-11
     eol: 2020-05-11
