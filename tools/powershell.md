@@ -4,7 +4,7 @@ layout: post
 title: PowerShell
 command: pwsh -v
 link: https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle
-changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG.md
+changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
