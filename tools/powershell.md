@@ -1,7 +1,7 @@
 ---
 permalink: /powershell
 layout: post
-title: PowerShell Core
+title: PowerShell
 command: pwsh -v
 link: https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle
 changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG.md
