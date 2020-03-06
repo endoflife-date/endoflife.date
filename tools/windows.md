@@ -10,12 +10,16 @@ releaseDateColumn: true
 command: winver
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: "Windows 10, v1903 (E)"
+  - releaseCycle: "Windows 10, v1909 (E)"
+    release: 2019-11-12
+    support: 2022-05-10
+    eol: 2022-05-10
+  - releaseCycle: "Windows 10, v1909 (W)"
+    release: 2019-11-12
+    support: 2021-05-11
+    eol: 2021-05-11
+  - releaseCycle: "Windows 10, v1903 (E)(W)"
     release: 2019-08-29
-    support: 2020-12-08
-    eol: 2020-12-08
-  - releaseCycle: "Windows 10, v1903 (W)"
-    release: 2019-05-21
     support: 2020-12-08
     eol: 2020-12-08
   - releaseCycle: "Windows 10, v1809 (E)"
@@ -26,11 +30,7 @@ releases:
     release: 2018-11-13
     support: 2020-05-11
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, v1803 (E)"
-    release: 2018-04-30
-    support: 2020-05-11
-    eol: 2020-05-11
-  - releaseCycle: "Windows 10, v1803 (W)"
+  - releaseCycle: "Windows 10, v1803 (E)(W)"
     release: 2018-04-30
     support: 2020-05-11
     eol: 2020-05-11
@@ -46,7 +46,7 @@ releases:
     release: 2017-04-11
     support: 2019-10-08
     eol: 2019-10-08
-  - releaseCycle: "Windows 10, 1703 (W)"
+  - releaseCycle: "Windows 10, v1703 (W)"
     release: 2017-04-05
     support: 2018-10-09
     eol: 2018-10-09
@@ -86,6 +86,8 @@ releases:
 | (W)  | Home, Pro, and Pro for Workstations editions |
 | SAC  | Semi-Annual Channel release                  |
 | LTS  | Long-Term Servicing Channel                  |
+
+[Microsoft Support Product Lifecycle Page](https://support.microsoft.com/en-us/lifecycle/search?alpha=Windows)
 
 Windows 10 Semi-Annual Channel (SAC) is governed by the [Modern Lifecycle Policy][mlp] (as of January 25, 2018).
 
