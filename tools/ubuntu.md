@@ -10,6 +10,10 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Standard Support
 releases:
+  - releaseCycle: "19.10"
+    release: 2019-10-17
+    eol: 2020-07-01
+    latest: "19.10"
   - releaseCycle: "19.04"
     release: 2019-04-18
     eol: 2020-01-01
