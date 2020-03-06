@@ -13,7 +13,7 @@ releases:
     release: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
-    latest: 15.0.2070.41 GDR 15.0.4003.23 CU1
+    latest: 15.0.2070.41 GDR 15.0.4013.40 CU2
   - releaseCycle: 2017
     release: 2017-09-29
     support: 2022-10-11
@@ -23,7 +23,7 @@ releases:
     release: 2018-04-24
     support: 2021-07-13
     eol: 2026-07-14
-    latest: 13.0.5102.14 SP2 GDR 13.0.5622.0 SP2 CU11
+    latest: 13.0.5102.14 SP2 GDR 13.0.5698.0 SP2 CU12
   - releaseCycle: 2014 SP3
     release: 2018-10-30
     support: 2019-07-09
@@ -51,5 +51,3 @@ GDR: General Distribution Release
 CU: Cumulative Update
 
 The 2016 version was the last to which SP appeared. As of 2017, only CU updates will be available.
-
-SQL Server 2016 Web and Standard editions have an extended lifetime when using the latest Service Pack.
