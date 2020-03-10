@@ -10,15 +10,19 @@ command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 2.2
+  - releaseCycle: 3.0
+    support: 2020-08-01
+    eol: 2021-04-01
+    latest: 3.0.4
+- releaseCycle: 2.2
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
-    latest: 2.2.6
+    latest: 2.2.11
   - releaseCycle: 2.1
     support: 2019-04-01
     eol: 2019-12-01
-    latest: 2.1.13
+    latest: 2.1.15
   - releaseCycle: 2.0
     support: 2018-08-01
     eol: 2019-04-01
@@ -28,7 +32,7 @@ releases:
     lts: true
     support: 2017-12-02
     eol: 2020-04-01
-    latest: 1.11.26
+    latest: 1.11.29
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
