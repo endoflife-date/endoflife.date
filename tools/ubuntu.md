@@ -24,16 +24,19 @@ releases:
     support: 2023-04-01
     eol: 2028-04-01
     latest: "18.04.4"
+    lts: true
   - releaseCycle: "16.04"
     release: 2018-04-21
     support: 2021-04-01
     eol: 2024-04-01
     latest: "16.04.6"
+    lts: true
   - releaseCycle: "14.04"
     release: 2014-04-17
     support: 2019-04-01
     eol: 2022-04-01
     latest: "14.04.6"
+    lts: true
 ---
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
