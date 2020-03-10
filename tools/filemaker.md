@@ -10,10 +10,10 @@ sortReleasesBy: 'release'
 releases:
   - releaseCycle: "FileMaker Platform 18"
     release: 2019-05-01
-    eol: false
+    eol: 2021-05-30
   - releaseCycle: "FileMaker Platform 17"
     release: 2018-05-01
-    eol: false
+    eol: 2020-09-18
   - releaseCycle: "FileMaker Platform 16"
     release: 2017-05-01
     eol: 2020-09-18
