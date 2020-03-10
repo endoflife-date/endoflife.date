@@ -6,19 +6,19 @@ category: framework
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releases:
+  - releaseCycle: 4.x
+    release: 2018-01-18
+    eol: 2020-11-26
+    latest: 4.4.1
+  - releaseCycle: 3.x
+    release: 2013-08-19
+    eol: 2019-07-24
+    latest: 3.4.1
   - releaseCycle: 2.x
     release: 2013-07-18
     eol: 2013-08-19
     latest: 2.3.2
-  - releaseCycle: 3.x
-    release: 2013-08-19
-    eol: 2019-07-24
-    latest: 3.4
-  - releaseCycle: 4.x
-    release: 2018-01-18
-    eol: 2020-02-14
-    latest: 4.3.1
-link: https://blog.getbootstrap.com/2019/07/24/lts-plan/
+link: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: End of Life
 releaseImage: https://raw.githubusercontent.com/twbs/release/master/schedule.svg?sanitize=true
