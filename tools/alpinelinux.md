@@ -11,7 +11,7 @@ sortReleasesBy: 'release'
 releases:
   - releaseCycle: "v3.11"
     release: 2019-12-19
-    latest: 3.11.0
+    latest: 3.11.3
     eol: 2021-11-01
   - releaseCycle: "v3.10"
     release: 2019-06-19
