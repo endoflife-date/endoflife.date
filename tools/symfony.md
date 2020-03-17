@@ -26,6 +26,7 @@ releases:
     eol: 2019-11-01
     latest: 2.8.50
     lts: true
+    link: https://symfony.com/blog/symfony-2-8-50-released
   - releaseCycle: 3.0
     release: 2015-11-01
     support: 2016-07-01
@@ -50,36 +51,42 @@ releases:
     eol: 2018-07-01
     latest: 3.3.13
     lts: false
+    link: https://symfony.com/blog/symfony-3-3-13-released
   - releaseCycle: 3.4
     release: 2017-11-01
     support: 2020-11-01
     eol: 2021-11-01
     latest: 3.4.28
     lts: true
+    link: https://symfony.com/blog/symfony-3-4-28-released
   - releaseCycle: 4.0
     release: 2017-11-01
     support: 2018-07-01
     eol: 2019-01-01
     latest: 4.0.15
     lts: false
+    link: https://symfony.com/blog/symfony-4-0-15-released
   - releaseCycle: 4.1
     release: 2018-05-01
     support: 2019-01-01
     eol: 2019-07-01
     latest: 4.1.12
     lts: false
+    link: https://symfony.com/blog/symfony-4-1-12-released
   - releaseCycle: 4.2
     release: 2018-11-01
     support: 2019-07-01
     eol: 2020-01-01
     latest: 4.2.9
     lts: false
+    link: https://symfony.com/blog/symfony-4-2-9-released
   - releaseCycle: 4.3
     release: 2019-05-01
     support: 2020-01-01
     eol: 2020-07-01
     latest: 4.3.0-RC1
     lts: false
+    link: https://symfony.com/blog/symfony-4-3-0-rc1-released
 ---
 
 Symfony manages its releases through a time-based model. A new Symfony minor version comes out every six months, one in May and one in November.

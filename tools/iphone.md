@@ -17,11 +17,11 @@ releases:
   - releaseCycle: "iPhone 5S"
     release: 2013-09-20
     discontinued: 2016-03-21
-    eol: false
+    eol: true
   - releaseCycle: "iPhone 6 / 6 Plus"
     release: 2014-09-25
     discontinued: 2016-09-07
-    eol: false
+    eol: true
   - releaseCycle: "iPhone 6S / 6S Plus"
     release: 2015-09-25
     discontinued: 2018-09-12
@@ -48,6 +48,14 @@ releases:
     eol: false
   - releaseCycle: "iPhone XR"
     release: 2018-10-26
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 11"
+    release: 2019-09-10
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 11 Pro / 11 Pro Max"
+    release: 2019-09-10
     discontinued: false
     eol: false
 ---

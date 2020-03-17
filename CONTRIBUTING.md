@@ -17,6 +17,7 @@ layout: post
 category: os
 # The hash of the `releases` object to be used for sortin in descending order
 sortReleasesBy: "releaseCycle"
+changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
@@ -50,7 +51,7 @@ eolColumn: Service Status
 # Command that can be used to check the current version. (optional)
 command: swish and flick
 # An image that shows a graphical representation of the releases.
-image: https://jkrowling.com/timeturner-releases.png
+releaseImage: https://jkrowling.com/timeturner-releases.png
 
 # In the markdown section, ensure that the following are present:
 # 1. A one line statement about what the tool is, with a link to the primary website

@@ -1,29 +1,47 @@
 title: endoflife.date
 description: >- # this means to ignore newlines until "baseurl:"
-  Check End of Life of php, python, ubuntu, alpine, laravel, debian etc at one place.
+  Check End of Life of php, python, ubuntu, alpine, laravel, debian, centos, django, .NET,
+  fedora, iphone, redhat, postgres, ruby, windows, Node.js, mariadb, laravel, java etc at one place.
   Verify whether your application needs an update, or if you need to upgrade your device.
-baseurl: ""
-url: "https://endoflife.date" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-timeago
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - README.md
   - LICENSE
+# Theme Documentation: https://pmarsceill.github.io/just-the-docs/
 theme: just-the-docs
 search_enabled: true
+# These links show up on the top
 aux_links:
   contribute:
     - /contribute
   source:
     - https://github.com/captn3m0/endoflife.date
+jekyll_timeago:
+  # Use 2 terms in relative timestamps:
+  # [YES] x years, y months
+  # [YES] x months, z weeks
+  # [NO] x years, y months, z days
+  depth: 2
+  # Give approx times in relative time
+  # within a 10% error margin
+  # See https://github.com/markets/jekyll-timeago/pull/24
+  # for what this does
+  threshold: 0.1
+# Cause a build to fail if there is a YAML syntax error in a page's front matter.  (#40)
+strict_front_matter: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /logo.png

@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% if page.image %}
-<img src="{{page.image}}" />
+{% if page.releaseImage %}
+<img src="{{page.releaseImage}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
@@ -101,7 +101,17 @@ layout: default
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if diff > 0 or r.eol == false %}{{r.latest}}{%else%}NA{%endif%}
+    {% if diff > 0 or r.eol == false %}
+      {% if page.changelogTemplate %}
+      <a title = "Release Notes / Changelog" href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}">
+        {{r.latest}}
+      </a>
+      {%elsif r.link %}
+        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
+      {%else %}
+        {{r.latest}}
+      {%endif%}
+    {%else%}NA{%endif%}
   </td>
   {%endif%}
 </tr>

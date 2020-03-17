@@ -17,11 +17,11 @@ The reason this site exists is because this information is very often hidden awa
 
 ## Contributing
 
-Please see `CONTRIBUTING.md` for details.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## HACKING
 
-If you'd like to hack on how the site gets built, see `HACKING.md`.
+If you'd like to hack on how the site gets built, see [HACKING.md](HACKING.md).
 
 ## License
 

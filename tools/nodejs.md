@@ -1,9 +1,10 @@
 ---
 permalink: /nodejs
 layout: post
-title: NodeJS
-url: https://nodejs.org/en/about/releases/
-image: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
+title: Node.js
+link: https://nodejs.org/en/about/releases/
+releaseImage: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
+changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
 command: node --version
 releaseDateColumn: true
@@ -14,22 +15,28 @@ releases:
     lts: true
     support: 2019-01-01
     eol: 2019-12-31
-    latest: v8.16.0
+    latest: 8.16.0
   - releaseCycle: 10
     release: 2018-04-24
     lts: true
     support: 2020-04-01
-    eol: 2021-04-01
-    latest: v10.15.3
+    eol: 2021-04-30
+    latest: 10.18.1
   - releaseCycle: 12
+    release: 2019-04-23
+    lts: false
+    support: 2020-10-21
+    eol: 2022-04-30
+    latest: 12.14.1
+  - releaseCycle: 13
     release: 2019-10-22
-    lts: true
-    support: 2021-04-01
-    eol: 2021-04-01
-    latest: v12.3.1
+    lts: false
+    support: 2020-04-01
+    eol: 2020-06-01
+    latest: 13.6.0
   - releaseCycle: 14
     release: 2020-10-20
-    lts: true
+    lts: false
     support: 2022-04-01
     eol: 2023-04-01
 ---
