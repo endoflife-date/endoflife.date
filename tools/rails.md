@@ -7,10 +7,14 @@ releaseDateColumn: true
 category: framework
 sortReleasesBy: release
 releases:
+  - releaseCycle: 6.0
+    release: 2019-08-25
+    eol: false
+    latest: 6.0.2.1
   - releaseCycle: 5.2
     release: 2018-04-09
     eol: false
-    latest: 5.2.3
+    latest: 5.2.4.1
   - releaseCycle: 5.1
     release: 2017-04-27
     eol: false
