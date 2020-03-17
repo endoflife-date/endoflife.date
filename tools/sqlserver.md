@@ -13,7 +13,7 @@ releases:
     release: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
-    latest: 15.0.2070.41 GDR 15.0.4013.40 CU2
+    latest: 15.0.2070.41 GDR 15.0.4023.6 CU3
   - releaseCycle: 2017
     release: 2017-09-29
     support: 2022-10-11
