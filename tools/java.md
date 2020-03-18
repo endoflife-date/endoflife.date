@@ -23,7 +23,7 @@ releases:
     release: 2014-03-18
     support: 2022-03-31
     eol: 2025-03-31
-    latest: 8u232
+    latest: 8u241
   - releaseCycle: 9
     release: 2017-09-21
     support: 2018-03-20
@@ -39,7 +39,7 @@ releases:
     release: 2018-09-25
     support: 2023-09-30
     eol: 2026-09-30
-    latest: 11.0.5
+    latest: 11.0.6
   - releaseCycle: 12
     release: 2019-03-19
     support: 2019-09-30
@@ -49,7 +49,7 @@ releases:
     release: 2019-09-17
     support: 2020-03-31
     eol: 2020-03-31
-    latest: 13.0.0
+    latest: 13.0.2
   - releaseCycle: 14
     release: 2020-03-17
     support: 2020-09-30
