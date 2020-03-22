@@ -37,11 +37,11 @@ releases:
   - releaseCycle: "Windows 10, v1709 (E)"
     release: 2017-10-17
     support: 2020-04-14
-    eol: 2020-04-14
+    eol: 2020-10-13
   - releaseCycle: "Windows 10, v1709 (W)"
     release: 2017-10-17
     support: 2019-04-09
-    eol: 2019-04-09
+    eol: 2020-10-13
   - releaseCycle: "Windows 10, v1703 (E)"
     release: 2017-04-11
     support: 2019-10-08
