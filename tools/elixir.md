@@ -9,11 +9,16 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "release"
 releases:
+  - releaseCycle: "1.10"
+    release: 2020-01-27
+    eol: 2022-07-27 # projected release date of 1.15
+    support: 2020-06-27 # projected release date of 1.11.0
+    latest: "1.10.2"
   - releaseCycle: "1.9"
     release: 2019-06-24
-    eol: 2022-01-01 # projected release date of 1.14
-    support: 2020-01-01 # projected release date of 1.10.0
-    latest: "1.9.1"
+    eol: 2020-01-27 # projected release date of 1.14
+    support: 2020-01-27 # release date of 1.10.0
+    latest: "1.9.4"
   - releaseCycle: "1.8"
     release: 2019-01-14
     eol: 2021-07-01 # projected release date of 1.13
@@ -31,7 +36,7 @@ releases:
     latest: "1.6.6"
   - releaseCycle: "1.5"
     release: 2017-07-25
-    eol: 2020-01-01 # projected release date of 1.10
+    eol: 2020-01-27 # release date of 1.10
     support: 2018-01-17 # release date of 1.6.0
     latest: "1.5.3"
   - releaseCycle: "1.4"
