@@ -6,7 +6,7 @@ layout: page
 category: tool
 ---
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/captn3m0/endoflife.date/new/master/tools). Keep the filename as toolname.md
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/tools). Keep the filename as toolname.md
 
 ```yaml
 ---
@@ -64,4 +64,4 @@ Time-turners are no longer released, and the last known stable release was in HP
 
 File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.
 
-You can visit <https://github.com/captn3m0/endoflife.date/new/master/tools> to directly create your file.
+You can visit <https://github.com/endoflife-date/endoflife.date/new/master/tools> to directly create your file.
