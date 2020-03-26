@@ -7,7 +7,7 @@ Name: Nemo
 Contact: endoflife.date [at] captnemo.in
 GitHub: @captn3m0
 
-More: https://github.com/captn3m0/endoflife.date/graphs/contributors
+More: https://github.com/endoflife-date/endoflife.date/graphs/contributors
 
 /* SITE */
 Tools: Jekyll, Netlify, GitHub, Ruby

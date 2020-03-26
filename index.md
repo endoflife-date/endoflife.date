@@ -17,4 +17,4 @@ The reason this site exists is because this information is very often hidden awa
 
 ## Contributing
 
-Contributions are welcome [at GitHub](https://github.com/captn3m0/endoflife.date). See the `CONTRIBUTING.md` file for more details.
+Contributions are welcome [at GitHub](https://github.com/endoflife-date/endoflife.date). See the `CONTRIBUTING.md` file for more details.

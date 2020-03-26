@@ -26,7 +26,7 @@ aux_links:
   contribute:
     - /contribute
   source:
-    - https://github.com/captn3m0/endoflife.date
+    - https://github.com/endoflife-date/endoflife.date
 jekyll_timeago:
   # Use 2 terms in relative timestamps:
   # [YES] x years, y months
