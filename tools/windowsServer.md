@@ -20,8 +20,8 @@ releases:
     eol: 2020-12-08
   - releaseCycle: "Windows Server, version 1809 (Datacenter, Standard)"
     release: 2018-11-13
-    support: 2020-05-12
-    eol: 2020-05-12
+    support: 2020-11-10
+    eol: 2020-11-10
   - releaseCycle: "Windows Server 2019 (Datacenter, Essentials, Standard)"
     release: 2018-11-13
     support: 2024-01-09

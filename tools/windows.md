@@ -28,15 +28,15 @@ releases:
     eol: 2021-05-11
   - releaseCycle: "Windows 10, v1809 (W)"
     release: 2018-11-13
-    support: 2020-05-11
-    eol: 2020-05-11
+    support: 2020-11-10
+    eol: 2020-11-10
   - releaseCycle: "Windows 10, v1803 (E)(W)"
     release: 2018-04-30
     support: 2020-05-11
     eol: 2020-05-11
   - releaseCycle: "Windows 10, v1709 (E)"
     release: 2017-10-17
-    support: 2020-04-14
+    support: 2020-10-13
     eol: 2020-10-13
   - releaseCycle: "Windows 10, v1709 (W)"
     release: 2017-10-17
