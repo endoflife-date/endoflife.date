@@ -30,12 +30,12 @@ releases:
     - releaseCycle: 2.7
       release: 2010-07-03
       eol: 2020-01-01
-      latest: 2.7.17
-      link: https://www.python.org/downloads/release/python-2717/
+      latest: 2.7.18
+      link: https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst
 ---
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
 
-By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch. The support for Python 2.7 has currently been extended to 2020-01-01. Versions older than 2.7 have reached end-of-life.
+By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch. The support for Python 2.7 was extended to 2020-01-01. Versions older than 2.7 have reached end-of-life.
 
 Many projects have [pledged to drop support for Python 2.7](https://python3statement.org/) no later than 2020, coinciding with the Python development team’s timeline for dropping support for Python 2.7.
