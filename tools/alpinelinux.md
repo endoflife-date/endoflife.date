@@ -11,15 +11,15 @@ sortReleasesBy: 'release'
 releases:
   - releaseCycle: "v3.11"
     release: 2019-12-19
-    latest: 3.11.3
+    latest: 3.11.6
     eol: 2021-11-01
   - releaseCycle: "v3.10"
     release: 2019-06-19
-    latest: 3.10.3
+    latest: 3.10.5
     eol: 2021-05-01
-  - releaseCycle: "v3.9"
+  - releaseCycle: "v3.5"
     release: 2019-01-29
-    latest: 3.9.4
+    latest: 3.9.6
     eol: 2021-01-01
   - releaseCycle: "v3.8"
     release: 2018-06-26
