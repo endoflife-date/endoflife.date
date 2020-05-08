@@ -28,11 +28,11 @@ releases:
     latest: "8.8.5"
   - releaseCycle: 8.9
     release: 2020-06-03
-    support: 2021-11-01
+    support: 2020-12-01
     support: 2021-11-01
   - releaseCycle: 9.0
     release: 2020-06-03
-    support: 2020-11-01
+    support: 2020-12-01
     eol:     2021-06-01    
 ---
 
