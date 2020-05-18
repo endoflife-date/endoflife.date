@@ -20,11 +20,11 @@ releases:
   - releaseCycle: 6.2
     release: 2019-03-28
     eol: 2020-09-04
-    latest: 6.2.4
+    latest: 6.2.5
   - releaseCycle: 7.0
     release: 2020-03-04
     eol: false
-    latest: 7.0.0
+    latest: 7.0.1
     lts: true
 ---
 
