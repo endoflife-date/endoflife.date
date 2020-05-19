@@ -9,6 +9,11 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "20.04"
+    release: 2020-05-23
+    support: 2025-05-01
+    eol: TBA
+    latest: "20.04"
   - releaseCycle: "19.10"
     release: 2019-10-17
     support: 2020-07-01
