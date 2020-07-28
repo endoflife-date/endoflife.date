@@ -8,6 +8,9 @@ releaseColumn: false
 eolColumn: Support Status
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "FileMaker Platform 19"
+    release: 2020-05-01
+    eol: false
   - releaseCycle: "FileMaker Platform 18"
     release: 2019-05-01
     eol: 2021-05-30
