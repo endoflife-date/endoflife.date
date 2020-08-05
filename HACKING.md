@@ -7,7 +7,7 @@ endoflife.date uses [Jekyll](https://jekyllrb.com/), the static website generato
 Clone the project:
 
 ```
-$ git clone git@github.com:captn3m0/endoflife.date.git
+$ git clone git@github.com:endoflife-date/endoflife.date.git
 ```
 
 Install dependencies (_Note: You must use Bundler 2 or greater_):
@@ -32,7 +32,7 @@ Browse to http://localhost:4000 and you should see the site running locally. If 
 
 ## Contributing
 
-If you just want to add a tool, please see [`CONTRIBUTING.md`](https://github.com/captn3m0/endoflife.date/blob/master/CONTRIBUTING.md). Else:
+If you just want to add a tool, please see [`CONTRIBUTING.md`](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md). Else:
 
 - Fork the project
 - Create your feature branch (git checkout -b my-new-feature)

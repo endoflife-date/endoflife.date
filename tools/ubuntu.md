@@ -5,31 +5,44 @@ title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
 changelogTemplate: https://wiki.ubuntu.com/__RELEASE_CYCLE__/ReleaseNotes
-activeSupportColumn: false
+activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
-eolColumn: Standard Support
 releases:
+  - releaseCycle: "20.04"
+    release: 2020-04-23
+    support: 2025-05-01
+    eol: false
+    latest: "20.04"
+    lts: true
+  - releaseCycle: "19.10"
+    release: 2019-10-17
+    support: 2020-07-01
+    eol: 2020-07-01
+    latest: "19.10"
   - releaseCycle: "19.04"
     release: 2019-04-18
-    eol: 2020-01-01
+    support: 2020-01-23
+    eol: 2020-01-23
     latest: "19.04"
-  - releaseCycle: "18.10"
-    release: 2018-10-18
-    eol: 2019-07-01
-    latest: "18.10"
   - releaseCycle: "18.04"
     release: 2018-04-26
-    eol: 2023-04-01
-    latest: "18.04.2"
+    support: 2023-04-01
+    eol: 2028-04-01
+    latest: "18.04.4"
+    lts: true
   - releaseCycle: "16.04"
     release: 2018-04-21
-    eol: 2021-04-01
+    support: 2021-04-01
+    eol: 2024-04-01
     latest: "16.04.6"
+    lts: true
   - releaseCycle: "14.04"
     release: 2014-04-17
-    eol: 2019-04-01
+    support: 2019-04-01
+    eol: 2022-04-01
     latest: "14.04.6"
+    lts: true
 ---
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
