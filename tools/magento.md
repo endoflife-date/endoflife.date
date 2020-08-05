@@ -10,12 +10,18 @@ command: php bin/magento --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 2.4
+    cycleShortHand: 2
+    release: 2020-07-28
+    eol: false
+    support: true
+    latest: 2.4.0
   - releaseCycle: 2.3
     cycleShortHand: 2
     release: 2018-11-28
     eol: 2021-05-28
-    support: 2020-11-28
-    latest: 2.3.4
+    support: 2022-01-28
+    latest: 2.3.5
   - releaseCycle: 2.2
     cycleShortHand: 2
     release: 2017-09-01
@@ -102,5 +108,11 @@ For Magento Commerce 2.3 and subsequent releases, Magento will provide software 
 * Magento will provide quality fixes for a minor release for a minimum of 12 months from the general availability announcement date of the next minor software release.
 * Magento will provide security patches for a minor release for a minimum of 18 months from the general availability announcement date of the next minor software release.
 * Quality and security fixes will be made available via cumulative patch releases for the currently supported minor release versions only. They will not be backported to previous minor releases, nor to previous patch releases within supported minor releases. For example, while 2.2 and 2.3 are currently supported minor releases, quality and security fixes will be released as 2.2.X and 2.3.Y, where X and Y represent the next incremental patch release cumulative of all prior patches. They will not be released for prior minor releases out of support (e.g. 2.1.Z), or as patches to prior patch releases (e.g. 2.2.1.X).
+
+[Magento Semantic Versioning Release Policy](https://devdocs.magento.com/release/policy/)
+
+[Magento Security Patch-Only Releases](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287)
+
+[Magento Upcoming Releases](https://devdocs.magento.com/release/)
 
 [Magento Open Source Software Maintenance Policy](https://magento.com/sites/default/files/magento-open-source-software-maintenance-policy.pdf)
