@@ -23,7 +23,7 @@ releases:
     latest: 6.2.7
   - releaseCycle: 7.0
     release: 2020-03-04
-    eol: 12/03/2022
+    eol: 2022-12-03
     latest: 7.0.3
     lts: true
 ---
