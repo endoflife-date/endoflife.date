@@ -56,9 +56,9 @@ releases:
     release: 2017-11-01
     support: 2020-11-01
     eol: 2021-11-01
-    latest: 3.4.28
+    latest: 3.4.43
     lts: true
-    link: https://symfony.com/blog/symfony-3-4-28-released
+    link: https://symfony.com/blog/symfony-3-4-43-released
   - releaseCycle: 4.0
     release: 2017-11-01
     support: 2018-07-01
