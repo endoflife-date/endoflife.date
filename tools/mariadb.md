@@ -24,23 +24,28 @@ releases:
   - releaseCycle: 10.1
     release: 2015-10-17
     eol: 2020-10-17
-    latestShortHand: 10141
-    latest: 10.1.41
+    latest: 10.1.46
+    latestShortHand: 10146
   - releaseCycle: 10.2
     release: 2017-05-23
     eol: 2022-05-23
-    latest: 10.2.27
-    latestShortHand: 10227
+    latest: 10.2.33
+    latestShortHand: 10233
   - releaseCycle: 10.3
     release: 2018-05-25
     eol: 2023-05-25
-    latest: 10.3.18
-    latestShortHand: 10318
+    latest: 10.3.24
+    latestShortHand: 10324
   - releaseCycle: 10.4
     release: 2019-06-18
     eol: 2024-06-18
-    latest: 10.4.8
-    latestShortHand: 1048
+    latest: 10.4.14
+    latestShortHand: 1014
+  - releaseCycle: 10.5
+    release: 2020-06-24
+    eol: 2025-06-24
+    latest: 10.5.5
+    latestShortHand: 1055
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
