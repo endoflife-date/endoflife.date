@@ -23,7 +23,7 @@ releases:
     release: 2018-04-24
     support: 2021-07-13
     eol: 2026-07-14
-    latest: 13.0.5102.14 SP2 GDR 13.0.5820.21 SP2 CU13
+    latest: 13.0.5102.14 SP2 GDR 13.0.5830.85 SP2 CU14
   - releaseCycle: 2014 SP3
     release: 2018-10-30
     support: 2019-07-09
