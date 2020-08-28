@@ -9,6 +9,10 @@ command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__/Schedule
 releases:
+  - releaseCycle: "32"
+    release: 2020-04-28
+    latest: 32
+    eol: false
   - releaseCycle: "31"
     release: 2019-10-29
     latest: 31
