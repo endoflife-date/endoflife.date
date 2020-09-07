@@ -12,14 +12,14 @@ releases:
   - releaseCycle: "1.15"
     release: 2020-08-11
     eol: false
-    latest: 1.15.0
+    latest: 1.15.1
   - releaseCycle: "1.14"
     release: 2020-02-25
     eol: false
     latest: 1.14.8
   - releaseCycle: "1.13"
     release: 2019-09-03
-    eol: false
+    eol: true
     latest: 1.13.15
   - releaseCycle: "1.12"
     release: 2019-02-25
