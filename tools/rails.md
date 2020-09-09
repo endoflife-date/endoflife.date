@@ -17,7 +17,7 @@ releases:
     latest: 5.2.4.1
   - releaseCycle: 5.1
     release: 2017-04-27
-    eol: false
+    eol: 2019-08-25
     support: 2018-04-09
     latest: 5.1.7
   - releaseCycle: 5.0
