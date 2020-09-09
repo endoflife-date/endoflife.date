@@ -21,13 +21,13 @@ releases:
     lts: true
     support: 2020-05-19
     eol: 2021-04-30
-    latest: 10.20.1
+    latest: 10.22.0
   - releaseCycle: 12
     release: 2019-04-23
     lts: true
     support: 2020-10-20
     eol: 2022-04-30
-    latest: 12.16.2
+    latest: 12.18.3
   - releaseCycle: 13
     release: 2019-10-22
     lts: false
@@ -40,6 +40,7 @@ releases:
     lts: false
     support: 2021-10-19
     eol: 2023-04-30
+    latest: 14.8.0
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a browser.

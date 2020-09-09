@@ -20,16 +20,14 @@ releases:
   - releaseCycle: 6.2
     release: 2019-03-28
     eol: 2020-09-04
-    latest: 6.2.5
+    latest: 6.2.7
   - releaseCycle: 7.0
     release: 2020-03-04
-    eol: false
-    latest: 7.0.1
+    eol: 2022-12-03
+    latest: 7.0.3
     lts: true
 ---
 
-> [PowerShell Core](https://aka.ms/powershell)  is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+> [PowerShell](https://aka.ms/powershell)  is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 Microsoft publishes new major releases of PowerShell Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. 
-
-6.2 will EOL 6 months after 7.0 releases.
