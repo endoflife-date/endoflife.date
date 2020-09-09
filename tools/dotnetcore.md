@@ -12,7 +12,7 @@ releases:
   - releaseCycle: 3.1
     lts: true
     release: 2019-12-03
-    latest: 3.1.7
+    latest: 3.1.8
     eol: 2022-12-03
   - releaseCycle: 3.0
     release: 2019-09-23
@@ -25,7 +25,7 @@ releases:
   - releaseCycle: 2.1
     lts: true
     release: 2018-05-30
-    latest: 2.1.21
+    latest: 2.1.22
     eol: 2021-08-30
   - releaseCycle: 2.0
     release: 2017-08-14
