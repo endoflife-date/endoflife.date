@@ -10,37 +10,37 @@ command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 8
-    release: 2017-10-31
-    lts: true
-    support: 2019-01-01
-    eol: 2019-12-31
-    latest: 8.16.0
-  - releaseCycle: 10
-    release: 2018-04-24
-    lts: true
-    support: 2020-05-19
-    eol: 2021-04-30
-    latest: 10.22.0
-  - releaseCycle: 12
-    release: 2019-04-23
-    lts: true
-    support: 2020-10-20
-    eol: 2022-04-30
-    latest: 12.18.3
-  - releaseCycle: 13
-    release: 2019-10-22
-    lts: false
-    support: 2020-04-01
-    eol: 2020-06-01
-    latest: 13.13.0
   - releaseCycle: 14
     release: 2020-04-21
     # enters lts: true on 2020-10-20
     lts: false
     support: 2021-10-19
     eol: 2023-04-30
-    latest: 14.8.0
+    latest: 14.10.0
+  - releaseCycle: 13
+    release: 2019-10-22
+    lts: false
+    support: 2020-04-01
+    eol: 2020-06-01
+    latest: 13.14.0
+  - releaseCycle: 12
+    release: 2019-04-23
+    lts: true
+    support: 2020-10-20
+    eol: 2022-04-30
+    latest: 12.18.3
+  - releaseCycle: 10
+    release: 2018-04-24
+    lts: true
+    support: 2020-05-19
+    eol: 2021-04-30
+    latest: 10.22.0
+  - releaseCycle: 8
+    release: 2017-10-31
+    lts: true
+    support: 2019-01-01
+    eol: 2019-12-31
+    latest: 8.16.0
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a browser.
