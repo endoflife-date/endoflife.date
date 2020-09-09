@@ -13,7 +13,7 @@ releases:
     release: 2020-09-08
     support: 2021-03-08
     eol: 2021-09-08
-    latest: 7.24.0
+    latest: 8.0.0
     lts: false
   - releaseCycle: "7.x"
     release: 2020-03-03
