@@ -16,7 +16,7 @@ releases:
     lts: false
     support: 2021-10-19
     eol: 2023-04-30
-    latest: 14.10.1
+    latest: 14.11.0
   - releaseCycle: 13
     release: 2019-10-22
     lts: false
@@ -28,13 +28,13 @@ releases:
     lts: true
     support: 2020-10-20
     eol: 2022-04-30
-    latest: 12.18.3
+    latest: 12.18.4
   - releaseCycle: 10
     release: 2018-04-24
     lts: true
     support: 2020-05-19
     eol: 2021-04-30
-    latest: 10.22.0
+    latest: 10.22.1
   - releaseCycle: 8
     release: 2017-10-31
     lts: true
