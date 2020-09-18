@@ -9,7 +9,7 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: 15
-    release: 2020-09-91
+    release: 2020-09-16
     support: 2021-03-31
     eol: 2021-03-31
     latest: 15.0.0
