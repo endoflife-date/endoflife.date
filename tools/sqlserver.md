@@ -3,7 +3,7 @@ title: SQLServer
 permalink: /sqlserver
 layout: post
 category: db
-link: https://support.microsoft.com/en-us/lifecycle/search?alpha=SQL%20Server
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=SQL%20Server
 activeSupportColumn: true
 command: select @@version
 releaseDateColumn: true
