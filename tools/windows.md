@@ -2,7 +2,7 @@
 title: Windows
 layout: post
 permalink: /windows
-link: https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows
 category: os
 activeSupportColumn: true
 releaseColumn: false
@@ -70,18 +70,6 @@ releases:
     release: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
-  - releaseCycle: "Windows Embedded POSReady 7"
-    release: 2011-09-10
-    support: 2016-10-11
-    eol: 2021-10-12
-  - releaseCycle: "Windows Embedded Compact 7"
-    release: 2011-03-15
-    support: 2016-04-12
-    eol: 2021-04-13
-  - releaseCycle: "Windows Embedded Standard 7 SP1"
-    release: 2011-02-28
-    support: 2015-10-13
-    eol: 2020-10-13
   - releaseCycle: "Windows 7 SP1"
     release: 2011-02-22
     support: 2015-01-13
@@ -103,7 +91,7 @@ releases:
 | SAC  | Semi-Annual Channel release                  |
 | LTS  | Long-Term Servicing Channel                  |
 
-[Microsoft Support Product Lifecycle Page](https://support.microsoft.com/en-us/lifecycle/search?alpha=Windows)
+[Microsoft Support Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet)
 
 Windows 10 Semi-Annual Channel (SAC) is governed by the [Modern Lifecycle Policy][mlp] (as of January 25, 2018).
 
