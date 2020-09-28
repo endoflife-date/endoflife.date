@@ -2,7 +2,7 @@
 title: Windows Server
 permalink: /windowsServer
 layout: post
-link: https://support.microsoft.com/en-us/lifecycle/search?alpha=Windows%20Server
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Server
 category: os
 activeSupportColumn: true
 command: winver
