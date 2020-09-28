@@ -2,7 +2,7 @@
 title: Windows
 layout: post
 permalink: /windows
-link: https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows
 category: os
 activeSupportColumn: true
 releaseColumn: false
@@ -91,7 +91,7 @@ releases:
 | SAC  | Semi-Annual Channel release                  |
 | LTS  | Long-Term Servicing Channel                  |
 
-[Microsoft Support Product Lifecycle Page](https://support.microsoft.com/en-us/lifecycle/search?alpha=Windows)
+[Microsoft Support Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet)
 
 Windows 10 Semi-Annual Channel (SAC) is governed by the [Modern Lifecycle Policy][mlp] (as of January 25, 2018).
 
