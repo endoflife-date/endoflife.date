@@ -2,7 +2,7 @@
 title: Windows Embedded
 layout: post
 permalink: /windowsEmbedded
-link: https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Embedded
 category: os
 activeSupportColumn: true
 releaseColumn: false
@@ -35,5 +35,3 @@ releases:
     support: 2015-10-13
     eol: 2020-10-13
 ---
-
-[Microsoft Support Product Lifecycle Page](https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Embedded)
