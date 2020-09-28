@@ -2,7 +2,7 @@
 title: Microsoft Office
 permalink: /office
 layout: post
-link: https://support.microsoft.com/en-us/lifecycle/search?alpha=Office
+link: https://support.microsoft.com/en-us/lifecycle/search?terms=Office
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
