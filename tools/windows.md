@@ -79,7 +79,7 @@ releases:
     support: 2016-04-12
     eol: 2021-04-13
   - releaseCycle: "Windows Embedded Standard 7 SP1"
-    release: 2010-07-29
+    release: 2011-02-28
     support: 2015-10-13
     eol: 2020-10-13
   - releaseCycle: "Windows 7 SP1"
