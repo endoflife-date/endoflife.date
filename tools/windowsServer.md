@@ -49,7 +49,7 @@ releases:
   - releaseCycle: "Windows Server 2012 R2"
     release: 2013-11-25
     support: 2018-10-09
-    eol: 2027-01-12
+    eol: 2023-10-10
   - releaseCycle: "Windows Server 2012"
     release: 2012-10-30
     support: 2018-10-09
