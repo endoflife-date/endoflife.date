@@ -44,17 +44,13 @@ releases:
     eol: false
   - releaseCycle: "iPhone XS / XS Max"
     release: 2018-09-21
-    discontinued: false
+    discontinued: 2019-09-10
     eol: false
   - releaseCycle: "iPhone XR"
     release: 2018-10-26
     discontinued: false
     eol: false
-  - releaseCycle: "iPhone 11"
-    release: 2019-09-10
-    discontinued: false
-    eol: false
-  - releaseCycle: "iPhone 11 Pro / 11 Pro Max"
+  - releaseCycle: "iPhone 11 / 11 Pro / 11 Pro Max"
     release: 2019-09-10
     discontinued: false
     eol: false
