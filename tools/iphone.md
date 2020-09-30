@@ -26,17 +26,17 @@ releases:
     release: 2015-09-25
     discontinued: 2018-09-12
     eol: false
-  - releaseCycle: "iPhone SE"
+  - releaseCycle: "iPhone SE (1st generation)"
     release: 2016-03-31
     discontinued: 2018-09-12
     eol: false
   - releaseCycle: "iPhone 7 / 7 Plus"
     release: 2016-09-16
-    discontinued: false
+    discontinued: 2019-09-10
     eol: false
   - releaseCycle: "iPhone 8 / 8 Plus"
     release: 2017-09-22
-    discontinued: false
+    discontinued: 2020-04-15
     eol: false
   - releaseCycle: "iPhone X"
     release: 2017-09-12
@@ -44,20 +44,20 @@ releases:
     eol: false
   - releaseCycle: "iPhone XS / XS Max"
     release: 2018-09-21
-    discontinued: false
+    discontinued: 2019-09-10
     eol: false
   - releaseCycle: "iPhone XR"
     release: 2018-10-26
     discontinued: false
     eol: false
-  - releaseCycle: "iPhone 11"
+  - releaseCycle: "iPhone 11 / 11 Pro / 11 Pro Max"
     release: 2019-09-10
     discontinued: false
     eol: false
-  - releaseCycle: "iPhone 11 Pro / 11 Pro Max"
-    release: 2019-09-10
+  - releaseCycle: "iPhone SE (2nd generation)"
+    release: 2020-04-24
     discontinued: false
     eol: false
 ---
 
-Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long, with iPhone 5s being supported for almost 6 years now.
+Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long.
