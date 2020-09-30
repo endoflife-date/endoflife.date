@@ -64,4 +64,4 @@ releases:
     eol: false
 ---
 
-Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long, with iPhone 5s being supported for almost 6 years now.
+Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long.
