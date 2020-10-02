@@ -4,3 +4,4 @@ _site
 vendor/
 .bundle
 api/
+.idea/
