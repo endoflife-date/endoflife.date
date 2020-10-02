@@ -31,7 +31,7 @@ releases:
   - releaseCycle: Gingerbread (2.3.x)
     release: 2010-12-06
     eol: true
-  - releaseCycle: Honeycomb (3.s)
+  - releaseCycle: Honeycomb (3.x)
     release: 2011-02-22
     eol: true
   - releaseCycle: Ice Cream Sandwich (4.0.x)
