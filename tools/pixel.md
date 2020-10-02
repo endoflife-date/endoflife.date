@@ -6,7 +6,7 @@ link: https://support.google.com/nexus/answer/4457705?hl=en
 discontinuedColumn: true
 activeSupportColumn: false
 latestColumn: true
-eolColumn: Guaranteed Software Update Till
+eolColumn: Software Update (Guaranteed)
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
