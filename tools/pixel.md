@@ -53,4 +53,4 @@ releases:
     support: 2015-11-19
 ---
 
-The Pixel phones come out around the first or second weeke of every year (the A series being unpredicatable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
+The Pixel phones come out around the first or second week of every year (the A series being unpredicatable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
