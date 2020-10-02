@@ -28,7 +28,7 @@ releases:
     support: 2015-11-19
   - releaseCycle: Pixel 3A / XL
     release: 2019-05-07
-    discontinued: false
+    discontinued: 2020-07-01
     eol: 2022-05-31
     support: 2015-11-19
   - releaseCycle: Pixel 4 / XL
@@ -54,3 +54,12 @@ releases:
 ---
 
 The Pixel phones come out around the first or second week of every year (the A series being unpredicatable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
+
+For more info on each model, visit:
+https://en.wikipedia.org/wiki/Pixel_(1st_generation)
+https://en.wikipedia.org/wiki/Pixel_2
+https://en.wikipedia.org/wiki/Pixel_3
+https://en.wikipedia.org/wiki/Pixel_3a
+https://en.wikipedia.org/wiki/Pixel_4
+https://en.wikipedia.org/wiki/Pixel_4a
+https://en.wikipedia.org/wiki/Pixel_5
