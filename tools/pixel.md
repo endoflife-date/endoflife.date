@@ -23,7 +23,7 @@ releases:
     support: 2015-11-19
   - releaseCycle: Pixel 3 / XL
     release: 2018-10-09
-    discontinued: 2021-03-31
+    discontinued: 2020-03-31
     eol: 2021-10-31
     support: 2015-11-19
   - releaseCycle: Pixel 3A / XL
