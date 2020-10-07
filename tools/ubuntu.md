@@ -32,7 +32,7 @@ releases:
     latest: "18.04.4"
     lts: true
   - releaseCycle: "16.04"
-    release: 2018-04-21
+    release: 2016-04-21
     support: 2021-04-01
     eol: 2024-04-01
     latest: "16.04.6"
