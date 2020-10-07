@@ -13,7 +13,7 @@ releases:
     release: 2020-04-23
     support: 2025-05-01
     eol: false
-    latest: "20.04"
+    latest: "20.04.1"
     lts: true
   - releaseCycle: "19.10"
     release: 2019-10-17
@@ -29,13 +29,13 @@ releases:
     release: 2018-04-26
     support: 2023-04-01
     eol: 2028-04-01
-    latest: "18.04.4"
+    latest: "18.04.5"
     lts: true
   - releaseCycle: "16.04"
     release: 2016-04-21
     support: 2021-04-01
     eol: 2024-04-01
-    latest: "16.04.6"
+    latest: "16.04.7"
     lts: true
   - releaseCycle: "14.04"
     release: 2014-04-17
