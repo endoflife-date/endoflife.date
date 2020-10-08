@@ -22,7 +22,7 @@ releases:
     lts: false
     support: 2020-04-01
     eol: 2020-06-01
-    latest: 13.14.0
+    latest: 13.14.1
   - releaseCycle: 12
     release: 2019-04-23
     lts: true
