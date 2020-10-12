@@ -7,11 +7,16 @@ link: https://devguide.python.org/
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+    - releaseCycle: 3.9
+      release: 2020-10-05
+      eol: 2025-10-05
+      latest: 3.9.0
+      link: https://www.python.org/downloads/release/python-390/
     - releaseCycle: 3.8
       release: 2019-10-14
       eol: 2024-10-14
-      latest: 3.8.5
-      link: https://www.python.org/downloads/release/python-385/
+      latest: 3.8.6
+      link: https://www.python.org/downloads/release/python-386/
     - releaseCycle: 3.7
       release: 2018-06-27
       eol: 2023-06-27
@@ -23,10 +28,10 @@ releases:
       latest: 3.6.12
       link: https://www.python.org/downloads/release/python-3612/
     - releaseCycle: 3.5
-      release: 2015-09-13
+      release: 2015-09-30
       eol: 2020-09-13
-      latest: 3.5.9
-      link: https://www.python.org/downloads/release/python-359/
+      latest: 3.5.10
+      link: https://www.python.org/downloads/release/python-3510/
     - releaseCycle: 2.7
       release: 2010-07-03
       eol: 2020-01-01
