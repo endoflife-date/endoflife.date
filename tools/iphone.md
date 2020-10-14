@@ -58,6 +58,22 @@ releases:
     release: 2020-04-24
     discontinued: false
     eol: false
+  - releaseCycle: "iPhone 12 Mini"
+    release: 2020-10-13
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 12"
+    release: 2020-10-13
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 12 Pro"
+    release: 2020-10-13
+    discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 12 Pro Max"
+    release: 2020-10-13
+    discontinued: false
+    eol: false
 ---
 
 Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long.
