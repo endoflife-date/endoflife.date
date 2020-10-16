@@ -16,7 +16,7 @@ releases:
     lts: false
     support: 2021-10-19
     eol: 2023-04-30
-    latest: 14.13.0
+    latest: 14.14.0
   - releaseCycle: 13
     release: 2019-10-22
     lts: false
