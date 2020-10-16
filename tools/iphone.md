@@ -73,3 +73,5 @@ releases:
 ---
 
 Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long.
+
+Apple maintains a list of Supported iPhone models at <https://support.apple.com/en-in/guide/iphone/iphe3fa5df43/ios>.
