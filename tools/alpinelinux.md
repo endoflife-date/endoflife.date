@@ -11,7 +11,7 @@ sortReleasesBy: 'release'
 releases:
   - releaseCycle: "v3.12"
     release: 2020-05-29
-    latest: 3.12.0
+    latest: 3.12.1
     eol: 2022-05-01
   - releaseCycle: "v3.11"
     release: 2019-12-19
@@ -38,3 +38,5 @@ releases:
 > [Alpine Linux](https://alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
 There are several releases of Alpine Linux available at the same time. There is no fixed release cycle but rather a snapshot of edge is taken every 6 months as a release. Stable releases are supported normally for 2 years. Security fixes beyond that are on request and when patches are available.
+
+Only the latest release (ie v3.12 at this time) gets bug fixes, prior supported releases only get security fixes.
