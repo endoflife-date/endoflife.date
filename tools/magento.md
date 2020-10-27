@@ -14,6 +14,7 @@ releases:
     cycleShortHand: 2
     release: 2020-07-28
     eol: false
+    support: true
     latest: 2.4.0
   - releaseCycle: 2.3
     cycleShortHand: 2
