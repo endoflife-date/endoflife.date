@@ -3,7 +3,7 @@ permalink: /centos
 layout: post
 title: CentOS Linux
 command: lsb_release --release
-link: https://wiki.centos.org/FAQ/General#head-fe8a0be91ee3e7dea812e8694491e1dde5b75e6d
+link: https://wiki.centos.org/About/Product
 activeSupportColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
@@ -20,7 +20,7 @@ releases:
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2003
   - releaseCycle: "CentOS 8"
     release: 2019-09-24
-    eol: 2029-09-30
+    eol: 2029-05-31
     latest: "8.1-1911"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.1911
 ---
