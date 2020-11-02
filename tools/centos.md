@@ -3,7 +3,7 @@ permalink: /centos
 layout: post
 title: CentOS Linux
 command: lsb_release --release
-link: https://wiki.centos.org/FAQ/General#head-fe8a0be91ee3e7dea812e8694491e1dde5b75e6d
+link: https://wiki.centos.org/About/Product
 activeSupportColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
