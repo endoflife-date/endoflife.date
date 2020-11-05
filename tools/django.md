@@ -3,22 +3,26 @@ title: Django
 layout: post
 permalink: /django
 link: https://www.djangoproject.com/download/#supported-versions
-releaseImage: https://static.djangoproject.com/img/release-roadmap.688d8d65db0b.png
+releaseImage: https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 3.1
+    support: 2021-04-01
+    eol: 2021-12-01
+    latest: 3.1.3
   - releaseCycle: 3.0
     support: 2020-08-01
     eol: 2021-04-01
-    latest: 3.0.4
+    latest: 3.0.11
   - releaseCycle: 2.2
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
-    latest: 2.2.11
+    latest: 2.2.17
   - releaseCycle: 2.1
     support: 2019-04-01
     eol: 2019-12-01
