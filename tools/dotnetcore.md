@@ -26,7 +26,7 @@ releases:
     lts: true
     release: 2018-05-30
     latest: 2.1.23
-    eol: 2021-08-30
+    eol: 2021-08-21
   - releaseCycle: 2.0
     release: 2017-08-14
     eol: 2018-10-01
