@@ -7,7 +7,7 @@ link: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__RELEASE_CYCLE__/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
-eolColumn: Support Status
+eolColumn: End of support
 releases:
   - releaseCycle: 5.0
     lts: false
