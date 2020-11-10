@@ -6,6 +6,7 @@ command: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 link: https://dotnet.microsoft.com/download/dotnet-framework
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+eolColumn: Support Status
 releases:
   - releaseCycle: 4.8
     release: 2019-04-18
