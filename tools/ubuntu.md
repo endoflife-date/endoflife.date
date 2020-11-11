@@ -9,6 +9,12 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "20.10"
+    release: 2020-10-22
+    lts: false
+    support: 2021-07-31
+    eol: 2021-07-31
+    latest: "20.10"
   - releaseCycle: "20.04"
     release: 2020-04-23
     support: 2025-05-01
@@ -52,4 +58,4 @@ LTS releases are supported for 5 years, while interim releases are supported for
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-This page does not track <abbr title="Extended Security Maintenance">ESM</abbr> (Paid support beyond 5 years for limited set of packages) releases. Please see the [Ubuntu Website]({{page.link}}) for that.
+Extended Security Maintenance is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
