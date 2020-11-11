@@ -4,18 +4,20 @@ layout: post
 title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/__RELEASE_CYCLE__/ReleaseNotes
+changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "20.10"
+    cycleShortHand: "GroovyGorilla"
     release: 2020-10-22
     lts: false
     support: 2021-07-31
     eol: 2021-07-31
     latest: "20.10"
   - releaseCycle: "20.04"
+    cycleShortHand: "FocalFossa"
     release: 2020-04-23
     support: 2025-05-01
     eol: false
@@ -32,18 +34,21 @@ releases:
     eol: 2020-01-23
     latest: "19.04"
   - releaseCycle: "18.04"
+    cycleShortHand: "BionicBeaver"
     release: 2018-04-26
     support: 2023-04-01
     eol: 2028-04-01
     latest: "18.04.5"
     lts: true
   - releaseCycle: "16.04"
+    cycleShortHand: "XenialXerus"
     release: 2016-04-21
     support: 2021-04-01
     eol: 2024-04-01
     latest: "16.04.7"
     lts: true
   - releaseCycle: "14.04"
+    cycleShortHand: "TrustyTahr"
     release: 2014-04-17
     support: 2019-04-01
     eol: 2022-04-01
@@ -58,4 +63,4 @@ LTS releases are supported for 5 years, while interim releases are supported for
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-Extended Security Maintenance is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
+Extended Security Maintenance (ESM) is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
