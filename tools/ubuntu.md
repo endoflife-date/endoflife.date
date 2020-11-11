@@ -4,7 +4,7 @@ layout: post
 title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes
+changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
