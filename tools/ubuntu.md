@@ -4,7 +4,7 @@ layout: post
 title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__
+changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
@@ -16,6 +16,8 @@ releases:
     support: 2021-07-07
     eol: 2021-07-07
     latest: "20.10"
+    # remove link (will use changelogTemplate) with release of 20.10.1
+    link: https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/
   - releaseCycle: "20.04"
     cycleShortHand: "FocalFossa"
     release: 2020-04-23
