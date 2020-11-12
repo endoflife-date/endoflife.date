@@ -28,11 +28,6 @@ releases:
     support: 2020-07-06
     eol: 2020-07-06
     latest: "19.10"
-  - releaseCycle: "19.04"
-    release: 2019-04-18
-    support: 2020-01-01
-    eol: 2020-01-01
-    latest: "19.04"
   - releaseCycle: "18.04"
     cycleShortHand: "BionicBeaver"
     release: 2018-04-26
