@@ -4,7 +4,7 @@ layout: post
 title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
-# temp remove, links are with each entry: changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
+changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
@@ -25,7 +25,6 @@ releases:
     support: 2022-10-01
     eol:     2025-04-02
     latest: "20.04.1"
-    link: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.1
   - releaseCycle: "19.10"
     release: 2019-10-17
     support: 2020-07-06
@@ -38,7 +37,6 @@ releases:
     support: 2020-09-30
     eol:     2023-04-02
     latest: "18.04.5"
-    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes/ChangeSummary/18.04.5
   - releaseCycle: "16.04"
     cycleShortHand: "XenialXerus"
     lts: true
@@ -46,7 +44,6 @@ releases:
     support: 2018-10-01
     eol:     2021-04-02
     latest: "16.04.7"
-    link: https://wiki.ubuntu.com/XenialXerus/ReleaseNotes/ChangeSummary/16.04.7
   - releaseCycle: "14.04"
     cycleShortHand: "TrustyTahr"
     lts: true
