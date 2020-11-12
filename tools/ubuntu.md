@@ -4,45 +4,56 @@ layout: post
 title: Ubuntu
 command: lsb_release --release
 link: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/__RELEASE_CYCLE__/ReleaseNotes
+# temp remove, links are with each entry: changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "20.10"
+    cycleShortHand: "GroovyGorilla"
+    lts: false
+    release: 2020-10-22
+    support: 2021-07-07
+    eol:     2021-07-07
+    latest: "20.10"
+    # remove link (will use changelogTemplate) with release of 20.10.1
+    link: https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/
   - releaseCycle: "20.04"
-    release: 2020-04-23
-    support: 2025-05-01
-    eol: false
-    latest: "20.04.1"
+    cycleShortHand: "FocalFossa"
     lts: true
+    release: 2020-04-23
+    support: 2022-10-01
+    eol:     2025-04-02
+    latest: "20.04.1"
+    link: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.1
   - releaseCycle: "19.10"
     release: 2019-10-17
-    support: 2020-07-01
-    eol: 2020-07-01
+    support: 2020-07-06
+    eol:     2020-07-06
     latest: "19.10"
-  - releaseCycle: "19.04"
-    release: 2019-04-18
-    support: 2020-01-23
-    eol: 2020-01-23
-    latest: "19.04"
   - releaseCycle: "18.04"
+    cycleShortHand: "BionicBeaver"
+    lts: true
     release: 2018-04-26
-    support: 2023-04-01
-    eol: 2028-04-01
+    support: 2020-09-30
+    eol:     2023-04-02
     latest: "18.04.5"
-    lts: true
+    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes/ChangeSummary/18.04.5
   - releaseCycle: "16.04"
+    cycleShortHand: "XenialXerus"
+    lts: true
     release: 2016-04-21
-    support: 2021-04-01
-    eol: 2024-04-01
+    support: 2018-10-01
+    eol:     2021-04-02
     latest: "16.04.7"
-    lts: true
+    link: https://wiki.ubuntu.com/XenialXerus/ReleaseNotes/ChangeSummary/16.04.7
   - releaseCycle: "14.04"
-    release: 2014-04-17
-    support: 2019-04-01
-    eol: 2022-04-01
-    latest: "14.04.6"
+    cycleShortHand: "TrustyTahr"
     lts: true
+    release: 2014-04-17
+    support: 2016-09-30
+    eol:     2019-04-02
+    latest: "14.04.6"
 ---
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
@@ -52,4 +63,6 @@ LTS releases are supported for 5 years, while interim releases are supported for
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-This page does not track <abbr title="Extended Security Maintenance">ESM</abbr> (Paid support beyond 5 years for limited set of packages) releases. Please see the [Ubuntu Website]({{page.link}}) for that.
+Extended Security Maintenance (ESM) is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
+
+The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://www.ubuntu.com/about/release-cycle).
