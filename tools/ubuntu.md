@@ -13,45 +13,45 @@ releases:
     cycleShortHand: "GroovyGorilla"
     release: 2020-10-22
     lts: false
-    support: 2021-07-31
-    eol: 2021-07-31
+    support: 2021-07-07
+    eol: 2021-07-07
     latest: "20.10"
   - releaseCycle: "20.04"
     cycleShortHand: "FocalFossa"
     release: 2020-04-23
-    support: 2025-05-01
-    eol: false
+    support: 2022-10-01
+    eol: 2025-04-02
     latest: "20.04.1"
     lts: true
   - releaseCycle: "19.10"
     release: 2019-10-17
-    support: 2020-07-01
-    eol: 2020-07-01
+    support: 2020-07-06
+    eol: 2020-07-06
     latest: "19.10"
   - releaseCycle: "19.04"
     release: 2019-04-18
-    support: 2020-01-23
-    eol: 2020-01-23
+    support: 2020-01-01
+    eol: 2020-01-01
     latest: "19.04"
   - releaseCycle: "18.04"
     cycleShortHand: "BionicBeaver"
     release: 2018-04-26
-    support: 2023-04-01
-    eol: 2028-04-01
+    support: 2020-09-30
+    eol: 2023-04-02
     latest: "18.04.5"
     lts: true
   - releaseCycle: "16.04"
     cycleShortHand: "XenialXerus"
     release: 2016-04-21
-    support: 2021-04-01
-    eol: 2024-04-01
+    support: 2018-10-01
+    eol: 2021-04-02
     latest: "16.04.7"
     lts: true
   - releaseCycle: "14.04"
     cycleShortHand: "TrustyTahr"
     release: 2014-04-17
-    support: 2019-04-01
-    eol: 2022-04-01
+    support: 2016-09-30
+    eol: 2019-04-02
     latest: "14.04.6"
     lts: true
 ---
@@ -64,3 +64,5 @@ LTS releases are supported for 5 years, while interim releases are supported for
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
 Extended Security Maintenance (ESM) is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
+
+The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://www.ubuntu.com/about/release-cycle).
