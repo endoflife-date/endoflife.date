@@ -23,7 +23,7 @@ releases:
 
 permalink: /perl
 link: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
-activeSupportColumn: false
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Critical security patches
