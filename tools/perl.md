@@ -20,6 +20,11 @@ releases:
     support: 2020-06-20
     release: 2018-06-23
     latest: 5.28.3
+  - releaseCycle: "5.26"
+    eol: 2020-05-30
+    support: 2019-05-22
+    release: 2017-05-30
+    latest: 5.26.3
 
 permalink: /perl
 link: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
