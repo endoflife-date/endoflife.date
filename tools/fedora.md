@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "29"
     release: 2018-10-30
     latest: 29
-    eol: 2019-11-07
+    eol: 2019-11-26
   - releaseCycle: "28"
     release: 2018-05-01
     latest: 28
