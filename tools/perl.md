@@ -31,8 +31,6 @@ command: perl -v
 ---
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30 years of development.
 
-The Perl community will, to the best of its ability, attempt to:
+As detailed in the [perlpolicy](https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT) man page, the Perl community will, to the best of its ability, attempt to:
 - Fix critical issues in the two most recent stable 5.x release series.
 - Provide critical security patches for any major version of Perl whose 5.x.0 release was within the past three years.
-
-See the [perlpolicy](https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT) man page for more details.
