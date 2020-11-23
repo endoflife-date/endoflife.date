@@ -23,8 +23,8 @@ releases:
     release: 2019-11-05
     eol: 2023-11-05
   - releaseCycle: Surface Laptop 3 / Pro 7
-    release: 2019-11-05
-    eol: 2023-11-05
+    release: 2019-10-22
+    eol: 2023-10-22
   - releaseCycle: Surface Go with LTE Advanced
     release: 2018-11-20
     eol: 2022-11-20
