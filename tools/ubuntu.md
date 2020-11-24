@@ -66,3 +66,5 @@ During the lifetime of an Ubuntu release, Canonical provides security maintenanc
 Extended Security Maintenance (ESM) is a paid option through Ubuntu Advantage to get extended support and security updates for select server packages. Please see the [Ubuntu Website]({{page.link}}) for details.
 
 The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://www.ubuntu.com/about/release-cycle).
+
+For package specific support details, run the `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`).
