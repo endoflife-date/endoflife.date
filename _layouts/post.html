@@ -115,12 +115,12 @@ layout: default
   {%if page.releaseColumn != false %}
   <td>
     {% if diff > 0 or r.eol == false %}
-      {% if page.changelogTemplate %}
+      {%if r.link %}
+        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
+      {%elsif page.changelogTemplate %}
       <a title = "Release Notes / Changelog" href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}">
         {{r.latest}}
       </a>
-      {%elsif r.link %}
-        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
       {%else %}
         {{r.latest}}
       {%endif%}
