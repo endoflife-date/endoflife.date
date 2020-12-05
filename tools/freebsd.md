@@ -9,21 +9,25 @@ releaseColumn: false
 command: freebsd-version
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "stable/11"
+    eol: 2021-09-30
+  - releaseCycle: "releng/11.3"
+    release: 2018-06-28
+    eol: false
   - releaseCycle: "stable/12"
     eol: 2024-06-30
   - releaseCycle: "releng/12.0"
     release: 2018-12-11
     release: NA
-    # 12.1-RELEASE + 3 months
     eol: 2020-02-04
   - releaseCycle: "releng/12.1"
     release: 2019-11-04
     release: NA
-    eol: false
-  - releaseCycle: "stable/11"
-    eol: 2021-09-30
-  - releaseCycle: "releng/11.3"
-    release: 2018-06-28
+    eol: 2021-01-31
+  - releaseCycle: "releng/12.2"
+    release: 2020-10-27
+    release: NA
+    # 12.3-RELEASE + 3 months
     eol: false
 ---
 
