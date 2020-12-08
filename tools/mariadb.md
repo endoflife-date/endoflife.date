@@ -29,22 +29,22 @@ releases:
   - releaseCycle: 10.2
     release: 2017-05-23
     eol: 2022-05-23
-    latest: 10.2.33
+    latest: 10.2.36
     latestShortHand: 10233
   - releaseCycle: 10.3
     release: 2018-05-25
     eol: 2023-05-25
-    latest: 10.3.24
+    latest: 10.3.27
     latestShortHand: 10324
   - releaseCycle: 10.4
     release: 2019-06-18
     eol: 2024-06-18
-    latest: 10.4.14
+    latest: 10.4.17
     latestShortHand: 1014
   - releaseCycle: 10.5
     release: 2020-06-24
     eol: 2025-06-24
-    latest: 10.5.5
+    latest: 10.5.8
     latestShortHand: 1055
 ---
 
