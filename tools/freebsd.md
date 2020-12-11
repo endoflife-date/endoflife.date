@@ -7,7 +7,7 @@ activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
 command: freebsd-version
-sortReleasesBy: 'releaseCycle'
+sortReleasesBy: 'eol'
 releases:
   - releaseCycle: "stable/11"
     eol: 2021-09-30
