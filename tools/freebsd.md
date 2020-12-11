@@ -6,22 +6,28 @@ link: https://www.freebsd.org/security/security.html#sup
 activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
+sortReleasesBy: cycleShortHand
 command: freebsd-version
 releases:
   - releaseCycle: "stable/12"
+    cycleShortHand: 12.x
     eol: 2024-06-30
   - releaseCycle: "releng/12.2"
+    cycleShortHand: 12.2
     release: 2020-10-27
     release: NA
     # 12.3-RELEASE + 3 months
     eol: false
   - releaseCycle: "releng/12.1"
+    cycleShortHand: 12.1
     release: 2019-11-04
     release: NA
     eol: 2021-01-31
   - releaseCycle: "stable/11"
+    cycleShortHand: 11.x
     eol: 2021-09-30
   - releaseCycle: "releng/11.4"
+    cycleShortHand: 11.4
     release: 2020-06-16
     eol: 2021-09-30
 ---
