@@ -11,15 +11,11 @@ sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "stable/11"
     eol: 2021-09-30
-  - releaseCycle: "releng/11.3"
-    release: 2018-06-28
-    eol: false
+  - releaseCycle: "releng/11.4"
+    release: 2020-06-16
+    eol: 2021-09-30
   - releaseCycle: "stable/12"
     eol: 2024-06-30
-  - releaseCycle: "releng/12.0"
-    release: 2018-12-11
-    release: NA
-    eol: 2020-02-04
   - releaseCycle: "releng/12.1"
     release: 2019-11-04
     release: NA
