@@ -4,10 +4,10 @@ title: FreeBSD
 layout: post
 link: https://www.freebsd.org/security/security.html#sup
 activeSupportColumn: false
-releaseDateColumn: true
+releaseDateColumn: false
 releaseColumn: false
 command: freebsd-version
-sortReleasesBy: 'release'
+sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "stable/11"
     eol: 2021-09-30
