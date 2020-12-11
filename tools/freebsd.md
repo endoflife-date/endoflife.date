@@ -7,24 +7,23 @@ activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
 command: freebsd-version
-sortReleasesBy: 'eol'
 releases:
-  - releaseCycle: "stable/11"
-    eol: 2021-09-30
-  - releaseCycle: "releng/11.4"
-    release: 2020-06-16
-    eol: 2021-09-30
   - releaseCycle: "stable/12"
     eol: 2024-06-30
-  - releaseCycle: "releng/12.1"
-    release: 2019-11-04
-    release: NA
-    eol: 2021-01-31
   - releaseCycle: "releng/12.2"
     release: 2020-10-27
     release: NA
     # 12.3-RELEASE + 3 months
     eol: false
+  - releaseCycle: "releng/12.1"
+    release: 2019-11-04
+    release: NA
+    eol: 2021-01-31
+  - releaseCycle: "stable/11"
+    eol: 2021-09-30
+  - releaseCycle: "releng/11.4"
+    release: 2020-06-16
+    eol: 2021-09-30
 ---
 
 > [FreeBSD](https://www.freebsd.org) is an operating system used to power modern servers, desktops, and embedded platforms.
