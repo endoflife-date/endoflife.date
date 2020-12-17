@@ -14,18 +14,26 @@ releases:
   - releaseCycle: "1.16"
     release: 2019-10-22
     eol: 2020-08-04
-    latest: "1.16.13"
+    latest: "1.16.15"
   - releaseCycle: "1.17"
     release: 2019-12-09
-    latest: "1.17.9"
-    eol: false
+    latest: "1.17.15"
+    eol: 2020-12-25
   - releaseCycle: "1.18"
     release: 2020-03-25
-    latest: "1.18.6"
+    latest: "1.18.13"
+    eol: 2021-05-27
+  - releaseCycle: "1.19"
+    release: 2020-08-27
+    latest: "1.19.5"
+    eol: 2021-09-08
+  - releaseCycle: "1.20"
+    release: 2020-12-08
+    latest: "1.20.0"
     eol: false
-  # - releaseCycle: "1.19"
-  #   release: 2020-08-04
-  #   latest: "1.19.0"
+  # - releaseCycle: "1.21"
+  #   release: 2020-12-08
+  #   latest: "1.21.0"
   #   eol: false
 ---
 [Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
