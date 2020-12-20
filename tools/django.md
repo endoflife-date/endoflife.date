@@ -13,7 +13,7 @@ releases:
   - releaseCycle: 3.1
     support: 2021-04-01
     eol: 2021-12-01
-    latest: 3.1.3
+    latest: 3.1.4
   - releaseCycle: 3.0
     support: 2020-08-01
     eol: 2021-04-01
