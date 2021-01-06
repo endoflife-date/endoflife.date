@@ -10,6 +10,10 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Windows Server, version 20H2 (Datacenter, Standard)"
+    release: 2020-10-20
+    support: 2022-05-10
+    eol: 2022-05-10
   - releaseCycle: "Windows Server, version 2004 (Datacenter, Standard)"
     release: 2020-05-27
     support: 2021-12-14
