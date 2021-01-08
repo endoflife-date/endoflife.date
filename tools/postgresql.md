@@ -10,30 +10,34 @@ command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 13
+    release: 2020-09-24
+    eol: 2025-11-13
+    latest: 13.1
   - releaseCycle: 12
     release: 2019-10-03
-    eol: 2024-10-04
-    latest: 12.0
+    eol: 2024-11-14
+    latest: 12.5
   - releaseCycle: 11
     release: 2018-10-18
     eol: 2023-11-09
-    latest: 11.5
+    latest: 11.10
   - releaseCycle: 10
     release: 2017-10-05
     eol: 2022-11-10
-    latest: 10.8
+    latest: 10.15
   - releaseCycle: 9.6
     release: 2016-09-29
     eol: 2021-11-11
-    latest: 9.6.13
+    latest: 9.6.20
   - releaseCycle: 9.5
     release: 2016-01-07
     eol: 2021-02-11
-    latest: 9.5.17
+    latest: 9.5.24
   - releaseCycle: 9.4
     release: 2014-12-08
     eol: 2020-02-13
-    latest: 9.4.22
+    latest: 9.4.26
   - releaseCycle: 9.3
     release: 2013-09-09
     eol: 2018-11-08

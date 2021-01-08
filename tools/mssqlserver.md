@@ -1,6 +1,6 @@
 ---
-title: SQLServer
-permalink: /sqlserver
+title: Microsoft SQL Server
+permalink: /mssqlserver
 layout: post
 category: db
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=SQL%20Server

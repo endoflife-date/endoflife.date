@@ -10,6 +10,14 @@ releaseDateColumn: true
 command: winver
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Windows 10, version 20H2 (E)"
+    release: 2020-10-20
+    support: 2023-05-09
+    eol: 2023-05-09
+  - releaseCycle: "Windows 10, version 20H2 (W)"
+    release: 2020-10-20
+    support: 2022-05-10
+    eol: 2022-05-10
   - releaseCycle: "Windows 10, version 2004 (E)(W)"
     release: 2020-05-27
     support: 2021-12-14
@@ -42,30 +50,6 @@ releases:
     release: 2018-04-30
     support: 2019-11-12
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, version 1709 (E)"
-    release: 2017-10-17
-    support: 2020-10-13
-    eol: 2020-10-13
-  - releaseCycle: "Windows 10, version 1709 (W)"
-    release: 2017-10-17
-    support: 2019-04-09
-    eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1703 (E)"
-    release: 2017-04-11
-    support: 2019-10-08
-    eol: 2019-10-08
-  - releaseCycle: "Windows 10, version 1703 (W)"
-    release: 2017-04-05
-    support: 2018-10-09
-    eol: 2018-10-09
-  - releaseCycle: "Windows 10, version 1607 (E)"
-    release: 2016-08-02
-    support: 2019-04-09
-    eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1607 (W)"
-    release: 2016-08-02
-    support: 2018-04-10
-    eol: 2018-04-10
   - releaseCycle: "Windows 8.1"
     release: 2013-11-13
     support: 2018-01-09
@@ -74,14 +58,6 @@ releases:
     release: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
-  - releaseCycle: "Windows Vista SP2"
-    release: 2009-04-29
-    support: 2012-04-10
-    eol: 2017-04-11
-  - releaseCycle: "Windows XP SP2"
-    release: 2007-03-12
-    support: 2009-04-14
-    eol: 2014-04-08
 ---
 
 | Note | Comment                                      |

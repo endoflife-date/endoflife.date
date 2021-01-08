@@ -8,8 +8,8 @@ changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releases:
   - releaseCycle: 4.x
     release: 2018-01-18
-    eol: 2020-11-26
-    latest: 4.4.1
+    eol: 2022-01-01
+    latest: 4.5.3
   - releaseCycle: 3.x
     release: 2013-08-19
     eol: 2019-07-24

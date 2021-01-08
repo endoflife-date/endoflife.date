@@ -22,11 +22,11 @@ layout: default
 {% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
 {% for r in sorted_releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
-{% assign securityFixes = r.eol | date: '%s' | plus:0%}
-{%assign diff = r.eol | date: '%s' | plus:0|minus:now %}
-{%assign diffSupport = support|minus:now %}
-{%assign diffSecurity6  = diff | minus:10651938 %}
-{%assign diffSupport6  = diffSupport | minus:10651938 %}
+{% assign securityFixes = r.eol | date: '%s' | plus:0 %}
+{% assign diff = r.eol | date: '%s' | plus:0|minus:now %}
+{% assign diffSupport = support|minus:now %}
+{% assign diffSecurity6  = diff | minus:10651938 %}
+{% assign diffSupport6  = diffSupport | minus:10651938 %}
 <tr>
   <td>
     {{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}
@@ -39,25 +39,38 @@ layout: default
   {%endif%}
 
   {% if page.activeSupportColumn%}
-  <td class=
-    {% if diffSupport < 0%}
-    "bg-red-000"
-    {% elsif diffSupport6 > 0 %}
-    "bg-green-000"
+    <td class=
+    {% if support > 5 %}
+      {% if diffSupport < 0 and r.support !=false %}
+      "bg-red-000"
+      {% elsif diffSupport6 > 0 %}
+      "bg-green-000"
+      {%else%}
+      "bg-yellow-200"
+      {%endif%}
     {%else%}
-    "bg-yellow-200"
+      {% if r.support%}
+      "bg-green-000"
+      {%else%}
+      "bg-red-000"
+      {%endif%}
     {%endif%}
-    title="{{r.support}}"
-  >
-    {% if diffSupport < 0 %}
-      Ended
+    title="{{r.support}}">
+    {% if support > 5 %}
+      {% if diffSupport < 0 %}
+        Ended
+      {%else%}
+        Ends
+      {%endif%}
+    {{r.support | timeago}} <div>({{r.support | date_to_string}})</div>
     {%else%}
-      Ends
+      {% if r.support%}
+      Yes
+      {%else%}
+      No
+      {%endif%}
     {%endif%}
-    {{r.support|timeago}}
-    <div>({{r.support | date_to_string}})</div>
-
-  </td>
+    </td>
   {%endif%}
 
   {% if page.discontinuedColumn %}
@@ -102,12 +115,12 @@ layout: default
   {%if page.releaseColumn != false %}
   <td>
     {% if diff > 0 or r.eol == false %}
-      {% if page.changelogTemplate %}
+      {%if r.link %}
+        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
+      {%elsif page.changelogTemplate %}
       <a title = "Release Notes / Changelog" href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}">
         {{r.latest}}
       </a>
-      {%elsif r.link %}
-        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
       {%else %}
         {{r.latest}}
       {%endif%}

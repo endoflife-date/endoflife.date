@@ -26,6 +26,7 @@ releases:
     # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
     eol: 2019-01-01
     # End of Active Support for the product. This is where bugfixes usually stop coming in. (remove if activeSupportColumn=false)
+    # Alternatively, set to true|false if it is not pre-decided
     support: 2018-01-31
     # Date of release for the product
     # remove if releaseDateColumn is false
