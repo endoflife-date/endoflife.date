@@ -23,7 +23,7 @@ releases:
     eol: 2021-11-01
   - releaseCycle: 'v3.10'
     release: 2019-06-19
-    latest: 3.10.5
+    latest: 3.10.3
     eol: 2021-05-01
   - releaseCycle: 'v3.9'
     release: 2019-01-29
