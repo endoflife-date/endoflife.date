@@ -21,7 +21,7 @@ releases:
     lts: false
     support: 2021-04-01
     eol: 2021-06-01
-    latest: 15.5.1
+    latest: 15.6.0
   - releaseCycle: 14
     release: 2020-04-21
     lts: true
