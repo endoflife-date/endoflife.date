@@ -8,6 +8,11 @@ releaseDateColumn: true
 eolColumn: Support Status
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "3.0"
+    release: 2020-12-25
+    eol: 2024-03-31
+    latest: 3.0.0
+    link: https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/
   - releaseCycle: "2.7"
     release: 2019-12-25
     eol: 2023-03-31
