@@ -32,6 +32,16 @@ releases:
       eol: 2020-09-13
       latest: 3.5.10
       link: https://www.python.org/downloads/release/python-3510/
+    - releaseCycle: 3.4
+      release: 2014-03-16
+      eol: 2019-03-18
+      latest: 3.4.10
+      link: https://www.python.org/downloads/release/python-3410/
+    - releaseCycle: 3.3
+      release: 2012-09-29
+      eol: 2017-09-29
+      latest: 3.3.7
+      link: https://www.python.org/downloads/release/python-337/
     - releaseCycle: 2.7
       release: 2010-07-03
       eol: 2020-01-01
