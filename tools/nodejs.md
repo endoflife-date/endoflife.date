@@ -39,7 +39,7 @@ releases:
     lts: true
     support: 2020-05-19
     eol: 2021-04-30
-    latest: 10.23.1
+    latest: 10.23.2
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a browser.
