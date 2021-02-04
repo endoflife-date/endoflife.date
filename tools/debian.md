@@ -5,7 +5,7 @@ title: Debian
 command: lsb_release --release
 link: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
@@ -38,18 +38,18 @@ releases:
   - releaseCycle: 'Debian 9 "Stretch" (LTS)'
     release: 2017-06-17
     eol: 2022-06-30
-    latest: 9.9
-    link: https://www.debian.org/News/2017/20170617
+    latest: 9.12
+    link: https://lists.debian.org/debian-announce/2020/msg00001.html
   - releaseCycle: 'Debian 9 "Stretch"'
     release: 2017-06-17
     eol: 2020-01-01
-    latest: 9.9
-    link: https://www.debian.org/News/2017/20170617
+    latest: 9.12
+    link: https://lists.debian.org/debian-announce/2020/msg00001.html
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06
     eol: 2022-01-01
-    latest: 10.0
-    link: https://www.debian.org/News/2019/20190706
+    latest: 10.7
+    link: https://lists.debian.org/debian-announce/2020/msg00007.html
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian Stable branch is the most popular edition for personal computers and network servers, and is used as the basis for many other Linux distributions.
