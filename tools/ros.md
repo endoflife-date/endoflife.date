@@ -11,9 +11,15 @@ releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 'Noetic Ninjemys'
+    eol: 2025-05-01
+    release: 2020-05-23
   - releaseCycle: 'Melodic Morenia'
     eol: 2023-04-01
     release: 2011-01-05
+  - releaseCycle: 'Lunar Loggerhead'
+    eol: 2019-05-01
+    release: 2017-05-23
   - releaseCycle: 'Kinetic Kame'
     eol: 2021-05-01
     release: 2016-04-23
