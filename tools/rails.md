@@ -10,15 +10,15 @@ releases:
   - releaseCycle: 6.1
     release: 2020-12-09
     eol: false
-    latest: 6.1.2
+    latest: 6.1.2.1
   - releaseCycle: 6.0
     release: 2019-08-16
     eol: false
-    latest: 6.0.3.4
+    latest: 6.0.3.5
   - releaseCycle: 5.2
     release: 2018-04-09
     eol: false
-    latest: 5.2.4.4
+    latest: 5.2.4.5
   - releaseCycle: 5.1
     release: 2017-04-27
     eol: 2019-08-25
