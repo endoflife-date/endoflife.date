@@ -13,27 +13,27 @@ releases:
   - releaseCycle: 13
     release: 2020-09-24
     eol: 2025-11-13
-    latest: 13.1
+    latest: 13.2
   - releaseCycle: 12
     release: 2019-10-03
     eol: 2024-11-14
-    latest: 12.5
+    latest: 12.6
   - releaseCycle: 11
     release: 2018-10-18
     eol: 2023-11-09
-    latest: 11.10
+    latest: 11.11
   - releaseCycle: 10
     release: 2017-10-05
     eol: 2022-11-10
-    latest: 10.15
+    latest: 10.16
   - releaseCycle: 9.6
     release: 2016-09-29
     eol: 2021-11-11
-    latest: 9.6.20
+    latest: 9.6.21
   - releaseCycle: 9.5
     release: 2016-01-07
     eol: 2021-02-11
-    latest: 9.5.24
+    latest: 9.5.25
   - releaseCycle: 9.4
     release: 2014-12-08
     eol: 2020-02-13
