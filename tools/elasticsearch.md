@@ -41,7 +41,7 @@ releases:
     latest: 6.7.2
   - releaseCycle: 6.8
     eol: 2020-11-20
-    latest: 6.8.6
+    latest: 6.8.14
   - releaseCycle: 7.0
     eol: 2020-10-10
     latest: 7.0.1
@@ -60,6 +60,25 @@ releases:
   - releaseCycle: 7.5
     eol: 2021-06-02
     latest: 7.5.2
+  - releaseCycle: 7.6
+    eol: 2021-08-11
+    latest: 7.6.2
+  - releaseCycle: 7.7
+    eol: 2021-11-13
+    latest: 7.7.1
+  - releaseCycle: 7.8
+    eol: 2021-12-18
+    latest: 7.8.1
+  - releaseCycle: 7.9
+    eol: 2022-02-18
+    latest: 7.9.3
+  - releaseCycle: 7.10
+    eol: 2022-05-11
+    latest: 7.10.2
+  - releaseCycle: 7.11
+    eol: 2022-08-10
+    latest: 7.11.1
+
 ---
 
 Each major release of all Elastic products is supported for 18 months from the General Availability date. The last minor release of the two most recent major branches of Elasticsearch (and compatible releases of Kibana, Beats, and Logstash) is maintained.
