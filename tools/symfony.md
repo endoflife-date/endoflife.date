@@ -108,6 +108,13 @@ releases:
     latest: 5.1.3
     lts: false
     link: https://symfony.com/blog/symfony-5-1-0-released
+  - releaseCycle: 5.2
+    release: 2020-11-30
+    support: 2021-07-21
+    eol: 2021-07-21
+    latest: 5.2.3
+    lts: false
+    link: https://symfony.com/blog/symfony-5-2-3-released
 ---
 
 Symfony manages its releases through a time-based model. A new Symfony minor version comes out every six months, one in May and one in November.
