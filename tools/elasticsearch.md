@@ -10,7 +10,7 @@ releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: 7.11
-    cycleShortHand: 712
+    cycleShortHand: 711
     eol: 2022-08-10
     latest: 7.11.1
   - releaseCycle: 7.10
