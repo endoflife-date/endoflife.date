@@ -114,7 +114,7 @@ releases:
     eol: 2021-07-21
     latest: 5.2.3
     lts: false
-    link: https://symfony.com/blog/symfony-5-2-0-released
+    link: https://symfony.com/blog/symfony-5-2-3-released
 ---
 
 Symfony manages its releases through a time-based model. A new Symfony minor version comes out every six months, one in May and one in November.
