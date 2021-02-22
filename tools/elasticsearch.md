@@ -41,7 +41,7 @@ releases:
     cycleShortHand: 704
     eol: 2021-04-01
     latest: 7.4.2
-  - releaseCycle: "7.32
+  - releaseCycle: "7.3"
     cycleShortHand: 703
     eol: 2021-01-31
     latest: 7.3.2
