@@ -9,14 +9,19 @@ command: go version
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "1.16"
+    release: 2021-02-16
+    eol: false
+    latest: 1.16.0
+    link: https://golang.org/doc/go1.16
   - releaseCycle: "1.15"
     release: 2020-08-11
     eol: false
-    latest: 1.15.7
+    latest: 1.15.8
   - releaseCycle: "1.14"
     release: 2020-02-25
-    eol: false
-    latest: 1.14.14
+    eol: true
+    latest: 1.14.15
   - releaseCycle: "1.13"
     release: 2019-09-03
     eol: true
