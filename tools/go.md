@@ -20,7 +20,7 @@ releases:
   - releaseCycle: "1.14"
     release: 2020-02-25
     eol: false
-    latest: 1.14.14
+    latest: 1.14.15
   - releaseCycle: "1.13"
     release: 2019-09-03
     eol: true
