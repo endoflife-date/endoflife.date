@@ -9,6 +9,10 @@ command: go version
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "1.16"
+    release: 2021-02-16
+    eol: false
+    latest: 1.16.0
   - releaseCycle: "1.15"
     release: 2020-08-11
     eol: false
