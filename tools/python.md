@@ -25,8 +25,8 @@ releases:
     - releaseCycle: 3.6
       release: 2016-12-23
       eol: 2021-12-23
-      latest: 3.6.12
-      link: https://www.python.org/downloads/release/python-3612/
+      latest: 3.6.13
+      link: https://www.python.org/downloads/release/python-3613/
     - releaseCycle: 3.5
       release: 2015-09-30
       eol: 2020-09-13
