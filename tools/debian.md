@@ -48,8 +48,8 @@ releases:
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06
     eol: 2022-01-01
-    latest: 10.7
-    link: https://lists.debian.org/debian-announce/2020/msg00007.html
+    latest: 10.8
+    link: https://lists.debian.org/debian-announce/2021/msg00000.html
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian Stable branch is the most popular edition for personal computers and network servers, and is used as the basis for many other Linux distributions.

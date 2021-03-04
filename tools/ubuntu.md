@@ -24,7 +24,7 @@ releases:
     release: 2020-04-23
     support: 2022-10-01
     eol:     2025-04-02
-    latest: "20.04.1"
+    latest: "20.04.2"
   - releaseCycle: "19.10"
     release: 2019-10-17
     support: 2020-07-06
