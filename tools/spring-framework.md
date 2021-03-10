@@ -1,5 +1,5 @@
 ---
-title: spring-framework
+title: Spring Framework
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
@@ -9,7 +9,7 @@ releases:
     eol: false
     support: true
     release: 2020-12-09
-    latest: v5.3.4.RELEASE
+    latest: v5.3.4
   - releaseCycle: "5.2"
     eol: 2021-12-31
     support: true
@@ -40,7 +40,7 @@ link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: Service Status
+eolColumn: Security Support
 
 ---
 [Spring Framework](https://spring.io/projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
