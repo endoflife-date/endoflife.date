@@ -45,4 +45,4 @@ eolColumn: Security Support
 ---
 [Spring Framework](https://spring.io/projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
 
-See [Spring Framework Milestones](https://github.com/spring-projects/spring-framework/milestones) for upcoming releases. EoL policy described in here https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+See [Spring Framework Milestones](https://github.com/spring-projects/spring-framework/milestones) for upcoming releases. EoL policy described in [here](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions)
