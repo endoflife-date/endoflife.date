@@ -13,13 +13,13 @@ releases:
     cycleShortHand: 7.1
     release: 2020-11-11
     eol:     2022-02-15
-    latest:  7.1.2
+    latest:  7.1.3
   - releaseCycle: 7.0
     cycleShortHand: 7.0
     lts: true
     release: 2020-03-04
     eol:     2022-12-03
-    latest:  7.0.5
+    latest:  7.0.6
   - releaseCycle: 6.2
     cycleShortHand: 6.2
     release: 2019-03-28
