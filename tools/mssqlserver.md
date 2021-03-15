@@ -13,17 +13,17 @@ releases:
     release: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
-    latest: 15.0.2070.41 GDR 15.0.4073.23 CU8
+    latest: 15.0.2070.41 GDR 15.0.4102.2 CU9
   - releaseCycle: 2017
     release: 2017-09-29
     support: 2022-10-11
     eol: 2027-10-12
-    latest: 14.0.2027.2 GDR 14.0.3356.20 CU22
+    latest: 14.0.2027.2 GDR 14.0.3381.3 CU23
   - releaseCycle: 2016 SP2
     release: 2018-04-24
     support: 2021-07-13
     eol: 2026-07-14
-    latest: 13.0.5102.14 SP2 GDR 13.0.5850.14 SP2 CU15
+    latest: 13.0.5102.14 SP2 GDR 13.0.5882.1 SP2 CU16
   - releaseCycle: 2014 SP3
     release: 2018-10-30
     support: 2019-07-09
