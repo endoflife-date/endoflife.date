@@ -9,15 +9,15 @@ command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 6.2
+    eol: false
+    latest: '6.2.1'
   - releaseCycle: 6.0
     eol: false
-    latest: '6.0.3'
+    latest: '6.0.12'
   - releaseCycle: 5.0
     eol: false
-    latest: '5.0.9'
-  - releaseCycle: 4.0
-    latest: '4.0.14'
-    eol: false
+    latest: '5.0.12'
 ---
 
 > [Redis](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. 
