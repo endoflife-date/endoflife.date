@@ -60,7 +60,7 @@ releases:
   - releaseCycle: "6.8"
     cycleShortHand: 608
     eol: 2020-11-20
-    latest: 6.8.14
+    latest: 6.8.15
   - releaseCycle: "6.7"
     cycleShortHand: 607
     eol: 2020-09-26
