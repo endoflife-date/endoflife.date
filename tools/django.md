@@ -17,12 +17,12 @@ releases:
   - releaseCycle: 3.0
     support: 2020-08-01
     eol: 2021-04-01
-    latest: 3.0.11
+    latest: 3.0.13
   - releaseCycle: 2.2
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
-    latest: 2.2.17
+    latest: 2.2.19
   - releaseCycle: 2.1
     support: 2019-04-01
     eol: 2019-12-01
