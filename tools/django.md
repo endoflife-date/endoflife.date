@@ -10,6 +10,11 @@ command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 3.2
+    support: 2021-12-01
+    eol: 2024-04-01
+    latest: 3.2
+    lts: true
   - releaseCycle: 3.1
     support: 2021-04-05
     eol: 2021-12-01
@@ -17,7 +22,7 @@ releases:
   - releaseCycle: 3.0
     support: 2020-08-01
     eol: 2021-04-01
-    latest: 3.0.13
+    latest: 3.0.14
   - releaseCycle: 2.2
     lts: true
     support: 2019-12-01
