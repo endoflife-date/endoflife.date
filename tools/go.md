@@ -13,7 +13,6 @@ releases:
     release: 2021-02-16
     eol: false
     latest: 1.16.3
-    link: https://golang.org/doc/go1.16
   - releaseCycle: "1.15"
     release: 2020-08-11
     eol: false
