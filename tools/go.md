@@ -12,12 +12,11 @@ releases:
   - releaseCycle: "1.16"
     release: 2021-02-16
     eol: false
-    latest: 1.16.2
-    link: https://golang.org/doc/go1.16
+    latest: 1.16.3
   - releaseCycle: "1.15"
     release: 2020-08-11
     eol: false
-    latest: 1.15.10
+    latest: 1.15.11
   - releaseCycle: "1.14"
     release: 2020-02-25
     eol: true
