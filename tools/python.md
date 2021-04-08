@@ -10,8 +10,8 @@ releases:
     - releaseCycle: 3.9
       release: 2020-10-05
       eol: 2025-10-05
-      latest: 3.9.2
-      link: https://www.python.org/downloads/release/python-392/
+      latest: 3.9.4
+      link: https://www.python.org/downloads/release/python-394/
     - releaseCycle: 3.8
       release: 2019-10-14
       eol: 2024-10-14
