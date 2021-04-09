@@ -18,3 +18,5 @@ The reason this site exists is because this information is very often hidden awa
 ## Contributing
 
 Contributions are welcome [at GitHub](https://github.com/endoflife-date/endoflife.date). See the `CONTRIBUTING.md` file for more details.
+
+This site is powered by [Netlify](https://www.netlify.com).
