@@ -66,3 +66,7 @@ Time-turners are no longer released, and the last known stable release was in HP
 File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.
 
 You can visit <https://github.com/endoflife-date/endoflife.date/new/master/tools> to directly create your file.
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
