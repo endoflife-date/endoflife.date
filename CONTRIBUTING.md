@@ -63,9 +63,13 @@ releaseImage: https://jkrowling.com/timeturner-releases.png
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
 
-File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once merged, it goes live on the website.
+File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once the pull request is merged, the changes are automatically deployed on the website.
 
 You can visit <https://github.com/endoflife-date/endoflife.date/new/master/tools> to directly create your file.
+
+## Hacking
+
+If you'd like to work on the site internals, see [HACKING.md](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md).
 
 ## Code of Conduct
 
