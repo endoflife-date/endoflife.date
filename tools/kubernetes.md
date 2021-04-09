@@ -22,19 +22,19 @@ releases:
   - releaseCycle: "1.18"
     release: 2020-03-25
     latest: "1.18.17"
-    eol: 2021-05-27
+    eol: 2021-04-30
   - releaseCycle: "1.19"
     release: 2020-08-27
     latest: "1.19.9"
-    eol: 2021-09-08
+    eol: 2021-09-30
   - releaseCycle: "1.20"
     release: 2020-12-08
     latest: "1.20.5"
+    eol: 2021-12-30
+  - releaseCycle: "1.21"
+    release: 2021-04-09
+    latest: "1.21.0"
     eol: false
-  # - releaseCycle: "1.21"
-  #   release: 2020-12-08
-  #   latest: "1.21.0"
-  #   eol: false
 ---
 [Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
 
@@ -42,6 +42,6 @@ Kubernetes follows an N-2 support policy (meaning that the 3 most recent minor v
 
 See the [Release Versioning](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning) page to determine what counts as a major/minor/patch release.
 
-Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Patch releases are cut from those branches at a regular cadence, plus additional urgent releases, when required. The [Release Managers group](https://git.k8s.io/sig-release/release-managers.md) owns this decision. For more information, see [the patch release](https://github.com/kubernetes/sig-release/blob/master/releases/patch-releases.md) page.
+Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Patch releases are cut from those branches at a regular cadence, plus additional urgent releases, when required. The [Release Managers group](https://git.k8s.io/sig-release/release-managers.md) owns this decision. For more information, see [the patch release](https://github.com/kubernetes/sig-release/blob/master/releases/patch-releases.md) page, which also lists expected release dates for future releases, along with exact EoL dates for all active branches.
 
 Since Kubernetes has a client-server architecture, there is a [supported version skew](https://kubernetes.io/docs/setup/release/version-skew-policy/#supported-version-skew) between the client/server, which also determines the [supported component upgrade order](https://kubernetes.io/docs/setup/release/version-skew-policy/#supported-component-upgrade-order).
