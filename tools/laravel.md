@@ -11,21 +11,21 @@ sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "8.x"
     release: 2020-09-08
-    support: 2021-03-08
-    eol: 2021-09-08
-    latest: 8.7.1
+    support: 2022-03-01
+    eol: 2022-09-06
+    latest: 8.36.2
     lts: false
   - releaseCycle: "7.x"
     release: 2020-03-03
-    support: 2020-09-10
+    support: 2020-10-06
     eol: 2021-03-03
-    latest: 7.28.3
+    latest: 7.30.4
     lts: false
   - releaseCycle: "6.x"
     release: 2019-09-03
-    support: 2021-09-03
-    eol: 2022-09-03
-    latest: 6.18.41
+    support: 2021-09-07
+    eol: 2022-09-06
+    latest: 6.20.22
     lts: true
   - releaseCycle: "5.8"
     release: 2019-02-26
