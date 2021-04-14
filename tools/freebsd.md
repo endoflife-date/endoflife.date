@@ -2,13 +2,21 @@
 permalink: /freebsd
 title: FreeBSD
 layout: post
-link: https://www.freebsd.org/security/security.html#sup
+link: https://www.freebsd.org/security/#sup
 activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
 sortReleasesBy: cycleShortHand
 command: freebsd-version
 releases:
+  - releaseCycle: "stable/13"
+    cycleShortHand: 13.x
+    eol: 2026-01-31
+  - releaseCycle: "releng/13.0"
+    cycleShortHand: 13.x
+    # 13.1-RELEASE + 3 months
+    eol: false
+    release: 2021-04-13
   - releaseCycle: "stable/12"
     cycleShortHand: 12.x
     eol: 2024-06-30
@@ -40,6 +48,6 @@ The Expected EoL (end-of-life) column indicates the earliest date on which suppo
 
 The FreeBSD Security Officer provides security advisories for `-STABLE` Branches and the Security Branches. (Advisories are not issued for the `-CURRENT` Branch, which is primarily oriented towards FreeBSD developers.)
 
-The -STABLE branch tags have names like stable/10. The corresponding builds have names like FreeBSD 10.1-STABLE.
+The -STABLE branch tags have names like `stable/10`. The corresponding builds have names like `FreeBSD 10.1-STABLE`.
 
-Each FreeBSD Release has an associated Security Branch. The Security Branch tags have names like releng/10.1. The corresponding builds have names like FreeBSD 10.1-RELEASE-p4.
+Each FreeBSD Release has an associated Security Branch. The Security Branch tags have names like `releng/10.1`. The corresponding builds have names like `FreeBSD 10.1-RELEASE-p4`.
