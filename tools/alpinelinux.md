@@ -17,17 +17,17 @@ releases:
     release: 2020-05-29
     eol: 2022-05-01
     latest: 3.12.7
-    link: https://alpinelinux.org/posts/Alpine-3.10.8-3.11.10-3.12.6-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
   - releaseCycle: 'v3.11'
     release: 2019-12-19
     eol: 2021-11-01
     latest: 3.11.11
-    link: https://alpinelinux.org/posts/Alpine-3.10.8-3.11.10-3.12.6-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
   - releaseCycle: 'v3.10'
     release: 2019-06-19
     eol: 2021-05-01
     latest: 3.10.9
-    link: https://alpinelinux.org/posts/Alpine-3.10.8-3.11.10-3.12.6-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
   - releaseCycle: 'v3.9'
     release: 2019-01-29
     eol: 2021-01-01
