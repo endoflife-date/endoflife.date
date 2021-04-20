@@ -10,12 +10,12 @@ command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-#  - releaseCycle: 16
-#    release: 2021-04-20
-#    lts: false
-#    # enters lts: true on 2021-10-26
-#    support: 2022-10-18
-#    eol: 2024-04-30
+  - releaseCycle: 16
+    release: 2021-04-20
+    lts: false
+    # enters lts: true on 2021-10-26
+    support: 2022-10-18
+    eol: 2024-04-30
   - releaseCycle: 15
     release: 2020-10-20
     lts: false
