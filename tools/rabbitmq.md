@@ -28,7 +28,7 @@ releases:
     latest: 3.5.8
   - releaseCycle: 3.4
     eol: 2015-10-31
-    release: 2014-03-21
+    release: 2014-10-21
     latest: 3.4.4
   - releaseCycle: 3.3
     eol: 2015-03-31
