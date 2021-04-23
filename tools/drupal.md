@@ -26,6 +26,7 @@ releases:
     support: 2020-12-01
     eol:     2021-11-01
     latest:  8.9.14
+    lts: true
   - releaseCycle: 8.8
     release: 2019-12-04
     support: 2020-06-03
@@ -40,12 +41,12 @@ releases:
 
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
 
-Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time).
+Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
 
 **Drupal 9.1** will receive security coverage until December 8, 2021 when Drupal 9.3.0 is released.
 
 **Drupal 9.0** will receive security coverage until June 16, 2021 when Drupal 9.2.0 is released.
 
-**Drupal 8.9.x** the final and Long-Term Support version of Drupal 8 will [be supported until November, 2021](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
+**Drupal 8.9.x** as the LTS cycle for Drupal 8 will [be supported until November, 2021](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
 
 **Drupal 7** will receive security patches [until November 2022](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol).
