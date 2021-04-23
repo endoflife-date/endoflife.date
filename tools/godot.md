@@ -26,7 +26,7 @@ releases:
     support: false
     latest: 2.1.6
     lts: true
-    link: https://godotengine.org/article/maintenance-release-godot-2-0-6
+    link: https://godotengine.org/article/maintenance-release-godot-2-1-6
   - releaseCycle: "3.0"
     release: 2018-01-01
     support: false
