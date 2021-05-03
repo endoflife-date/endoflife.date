@@ -17,15 +17,15 @@ Jekyll doesn't copy it to _site directory, where Netlify expects it.
 {% endcomment %}
 {% for page in site.pages %}
 
-	{% if page.alternate_urls %}
+  {% if page.alternate_urls %}
 
 # Redirects for {{page.path}}
-		{% for url in page.alternate_urls %}
+    {% for url in page.alternate_urls %}
 
-{{page.permalink}}					{{url}}
+{{page.permalink}}          {{url}}
 
-		{% endfor %}
+    {% endfor %}
 
-	{% endif %}
+  {% endif %}
 
 {% endfor %}
