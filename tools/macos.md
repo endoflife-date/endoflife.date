@@ -40,6 +40,6 @@ eolColumn: Service Status
 command: sw_vers
 
 ---
-[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
+>[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
 Major versions of macOS are released once a year now, usually maitained for three years.
