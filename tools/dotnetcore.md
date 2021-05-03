@@ -1,5 +1,7 @@
 ---
 permalink: /dotnetcore
+alternate_urls:
+  - /.netcore
 layout: post
 title: .NET Core
 command: dotnet --version

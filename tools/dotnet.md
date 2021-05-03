@@ -1,5 +1,7 @@
 ---
 permalink: /dotnet
+alternate_urls:
+  - /.net
 layout: post
 title: .NET
 command: dotnet --version

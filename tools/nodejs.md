@@ -1,5 +1,8 @@
 ---
 permalink: /nodejs
+alternate_urls:
+  - /node
+  - /node.js
 layout: post
 title: Node.js
 link: https://nodejs.org/en/about/releases/

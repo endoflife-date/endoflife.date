@@ -1,6 +1,6 @@
 ---
 title: Windows Server
-permalink: /windowsServer
+permalink: /windowsserver
 layout: post
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Server
 category: os

@@ -1,6 +1,8 @@
 ---
 title: Go
 permalink: /go
+alternate_urls:
+  - /golang
 layout: post
 link: https://golang.org/doc/devel/release.html#policy
 changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST__

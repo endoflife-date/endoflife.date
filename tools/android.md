@@ -1,5 +1,7 @@
 ---
 title: Android OS
+alternate_urls:
+  - /aosp
 layout: post
 permalink: /android
 link: https://developer.android.com/about/versions/11
