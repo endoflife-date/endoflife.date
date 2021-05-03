@@ -1,0 +1,31 @@
+---
+# Setting a layout forces Jekyll to render this file
+layout: null
+---
+{% comment %}
+
+The following loop creates a _redirects file as per
+Netlify's syntax: https://docs.netlify.com/routing/redirects/
+
+This also creates a lot of whitespace in the resulting file.
+
+To create a new redirect, add a alternate_urls array in the page front-matter.
+
+The _redirects file is included in _config.yml/include key otherwise
+Jekyll doesn't copy it to _site directory, where Netlify expects it.
+
+{% endcomment %}
+{% for page in site.pages %}
+
+	{% if page.alternate_urls %}
+
+# Redirects for {{page.path}}
+		{% for url in page.alternate_urls %}
+
+{{page.permalink}}					{{url}}
+
+		{% endfor %}
+
+	{% endif %}
+
+{% endfor %}
