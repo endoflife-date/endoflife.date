@@ -14,6 +14,9 @@ To create a new redirect, add a alternate_urls array in the page front-matter.
 The _redirects file is included in _config.yml/include key otherwise
 Jekyll doesn't copy it to _site directory, where Netlify expects it.
 
+The Redirect syntax is
+/redirect-this /to-that
+
 {% endcomment %}
 {% for page in site.pages %}
 
@@ -21,8 +24,7 @@ Jekyll doesn't copy it to _site directory, where Netlify expects it.
 
 # Redirects for {{page.path}}
     {% for url in page.alternate_urls %}
-
-{{page.permalink}}          {{url}}
+{{url}}       {{page.permalink}}
 
     {% endfor %}
 
