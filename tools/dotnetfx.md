@@ -25,13 +25,13 @@ releases:
     eol: false
   - releaseCycle: 4.6.1
     release: 2015-11-30
-    eol: false
+    eol: 2022-04-26
   - releaseCycle: 4.6
     release: 2015-07-20
-    eol: false
+    eol: 2022-04-26
   - releaseCycle: 4.5.2
     release: 2014-05-05
-    eol: false
+    eol: 2022-04-26
   - releaseCycle: 4.5.1
     release: 2014-05-05
     eol: 2016-01-12
