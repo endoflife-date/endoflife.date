@@ -3,6 +3,9 @@ releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_c
 title: Red Hat Enterprise Linux
 layout: post
 permalink: /rhel
+alternate_urls:
+  - /redhat
+  - /redhatlinux
 link: https://access.redhat.com/support/policy/updates/errata
 activeSupportColumn: true
 releaseDateColumn: true

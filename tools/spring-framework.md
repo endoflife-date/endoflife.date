@@ -1,5 +1,7 @@
 ---
 title: Spring Framework
+alternate_urls:
+  - /spring
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"

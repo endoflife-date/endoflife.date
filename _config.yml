@@ -18,6 +18,8 @@ exclude:
   - vendor/
   - README.md
   - LICENSE
+include:
+  - _redirects
 # Theme Documentation: https://pmarsceill.github.io/just-the-docs/
 theme: just-the-docs
 nav_sort: case_insensitive

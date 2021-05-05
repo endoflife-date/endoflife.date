@@ -1,5 +1,9 @@
 ---
 permalink: /rails
+alternate_urls:
+  - /rubyonrails
+  - /ruby-on-rails
+  - /roro
 layout: post
 title: Ruby on Rails
 link: https://guides.rubyonrails.org/maintenance_policy.html

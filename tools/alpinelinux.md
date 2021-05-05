@@ -1,5 +1,7 @@
 ---
 permalink: /alpine
+alternate_urls:
+  - /alpinelinux
 title: Alpine Linux
 layout: post
 link: https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases

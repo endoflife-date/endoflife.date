@@ -1,6 +1,8 @@
 ---
 title: Godot
 permalink: /godot
+alternate_urls:
+  - /godotengine
 layout: post
 link: https://docs.godotengine.org/en/latest/about/release_policy.html
 eolColumn: Critical, Security and Platform support

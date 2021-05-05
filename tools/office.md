@@ -1,6 +1,8 @@
 ---
 title: Microsoft Office
 permalink: /office
+alternate_urls:
+  - /msoffice
 layout: post
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Office
 activeSupportColumn: true

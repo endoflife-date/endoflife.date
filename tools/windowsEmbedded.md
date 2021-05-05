@@ -1,7 +1,7 @@
 ---
 title: Windows Embedded
 layout: post
-permalink: /windowsEmbedded
+permalink: /windowsembedded
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Embedded
 category: os
 activeSupportColumn: true

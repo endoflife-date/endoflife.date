@@ -1,5 +1,7 @@
 ---
 title: macOS
+alternate_urls:
+  - /mac
 layout: post
 category: os
 sortReleasesBy: "release"
@@ -29,8 +31,7 @@ releases:
   - releaseCycle: "OS X 10.9 (Mavericks)"
     release: 2013-10-22
     eol: 2016-12-01
-# URL for the page
-permalink: /macOS
+permalink: /macos
 link: https://developer.apple.com/documentation/macos-release-notes
 activeSupportColumn: false
 releaseColumn: false
@@ -39,6 +40,6 @@ eolColumn: Service Status
 command: sw_vers
 
 ---
-[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
+>[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
 Major versions of macOS are released once a year now, usually maitained for three years.

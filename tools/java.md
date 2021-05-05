@@ -1,5 +1,8 @@
 ---
 permalink: /java
+alternate_urls:
+  - /openjdk
+  - /jdk
 layout: post
 title: Java/OpenJDK
 command: java --version

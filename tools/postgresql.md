@@ -2,6 +2,9 @@
 title: PostgreSQL
 layout: post
 permalink: /postgresql
+alternate_urls:
+  - /postgres
+  - /pg
 link: https://www.postgresql.org/support/versioning/
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
