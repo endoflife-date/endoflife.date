@@ -4,24 +4,33 @@ permalink: /bootstrap
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
+activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releases:
+  - releaseCycle: 5.x
+    release: 2021-05-05
+    eol: false
+    support: true
+    latest: 5.0.0
   - releaseCycle: 4.x
     release: 2018-01-18
-    eol: 2022-01-01
+    eol: 2022-07-01
     latest: 4.6.0
+    lts: true
+    support: false
   - releaseCycle: 3.x
     release: 2013-08-19
     eol: 2019-07-24
     latest: 3.4.1
+    support: false
   - releaseCycle: 2.x
     release: 2013-07-18
     eol: 2013-08-19
     latest: 2.3.2
+    support: false
 link: https://github.com/twbs/release
 releaseDateColumn: true
-eolColumn: End of Life
-releaseImage: https://raw.githubusercontent.com/twbs/release/master/schedule.svg?sanitize=true
+eolColumn: Critical Support
 ---
 
 > [Bootstrap](https://getbootstrap.com/) is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
@@ -34,4 +43,4 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 - **Critical** security updates
 - **Important** documentation updates
 
-Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
+Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency. The `v4` branch is currently in Active LTS and will receive bug fixes till 2021-07-01, after which it will only receive critical fixes till its End of Life.
