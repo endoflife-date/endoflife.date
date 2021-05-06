@@ -11,23 +11,23 @@ releases:
   - releaseCycle: "3.0"
     release: 2020-12-25
     eol: 2024-03-31
-    latest: 3.0.0
-    link: https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/
+    latest: 3.0.1
+    link: https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/
   - releaseCycle: "2.7"
     release: 2019-12-25
     eol: 2023-03-31
-    latest: 2.7.2
-    link: https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-2-released/
+    latest: 2.7.3
+    link: https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/
   - releaseCycle: "2.6"
     release: 2018-12-25
     eol: 2022-03-31
-    latest: 2.6.6
-    link: https://www.ruby-lang.org/en/news/2019/04/17/ruby-2-6-3-released/
+    latest: 2.6.7
+    link: https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/
   - releaseCycle: "2.5"
     release: 2017-12-25
     eol: 2021-03-31
-    latest: 2.5.8
-    link: https://www.ruby-lang.org/en/news/2019/03/15/ruby-2-5-5-released/
+    latest: 2.5.9
+    link: https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/
   - releaseCycle: "2.4"
     release: 2016-12-25
     eol: 2020-03-31
