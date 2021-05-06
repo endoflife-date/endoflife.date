@@ -7,6 +7,7 @@ alternate_urls:
 layout: post
 title: Ruby on Rails
 link: https://guides.rubyonrails.org/maintenance_policy.html
+changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework
 sortReleasesBy: release
@@ -14,15 +15,15 @@ releases:
   - releaseCycle: 6.1
     release: 2020-12-09
     eol: false
-    latest: 6.1.3.1
+    latest: 6.1.3.2
   - releaseCycle: 6.0
     release: 2019-08-16
     eol: false
-    latest: 6.0.3.6
+    latest: 6.0.3.7
   - releaseCycle: 5.2
     release: 2018-04-09
     eol: false
-    latest: 5.2.5
+    latest: 5.2.6
   - releaseCycle: 5.1
     release: 2017-04-27
     eol: 2019-08-25
