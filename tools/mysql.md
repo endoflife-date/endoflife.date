@@ -40,19 +40,15 @@ releases:
     release: 2008-12-01
     latest: 5.1.73
     support: 2013-12-31
-    eol: false
+    eol: true
   - releaseCycle: "5.0"
     release: 2005-10-01
     latest: 5.0.96
     support: 2011-12-31
-    eol: false
+    eol: true
   - releaseCycle: "4.1"
-    latest: false
-    support: false
     eol: 2009-12-31
   - releaseCycle: "4.0"
-    latest: false
-    support: false
     eol: 2008-12-31
 
 
@@ -72,7 +68,7 @@ releaseColumn: true
 
 # Whether to increase the release date column
 # optional, default false
-releaseDateColumn: true
+releaseDateColumn: false
 
 # What to call the End of Life (Security Support) column. (optional)
 eolColumn: Extended Support
