@@ -15,7 +15,7 @@ releases:
     lts: false
     release: 2020-11-10
     eol: 2022-02-28
-    latest: 5.0.5
+    latest: 5.0.6
 ---
 
 > [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many different types of applications.
