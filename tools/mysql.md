@@ -4,7 +4,10 @@ layout: post
 category: db
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-__LATEST_SHORT_HAND__.html"
-
+# dates below are for:
+# support -> GA+5 years = Premier support
+# eol -> GA+8 years = Extended Support
+# We show Extended support dates since that match Community Edition timelines
 releases:
   - releaseCycle: "8.0"
     release: 2018-04-01
@@ -57,7 +60,7 @@ command: mysqld --version
 
 ## Premier Support
 
-5 years, starting at GA, of Premier Support that includes MySQL maintenance releases, updates, fixes (error correction), and security alerts.
+5 years, starting at <abbr title="General Availability">GA</abbr>, of Premier Support that includes MySQL maintenance releases, updates, fixes (error correction), and security alerts.
 
 ## Extended Support
 
