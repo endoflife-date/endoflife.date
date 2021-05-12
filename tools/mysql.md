@@ -63,7 +63,7 @@ permalink: /mysql
 link: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 
 # Whether to hide the "Active Support" column (optional, default true)
-activeSupportColumn: true
+activeSupportColumn: false
 
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
 releaseColumn: true
@@ -102,3 +102,7 @@ MySQL is the world's most popular open source database. With its proven performa
 ## MySQL Sustaining Support
 
 Any time, beyond the Premier Support period. Support only. No new releases, no new fixes (no error correction for new issues), no new updates. Only pre-existing updates, fixes and alerts are available.
+
+## Community Edition
+
+MySQL Community Edition is freely available under GPLv2 licensing. Historically, patches have been released at the same time as for the commercial offerings, but no official commitment is made that such a policy will remain.
