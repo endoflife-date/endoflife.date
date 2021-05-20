@@ -14,56 +14,67 @@ releases:
     support: 2021-08-01
     release: 2021-05-12
     lts: false
+    latest: 2.13
   - releaseCycle: "2.12"
     eol: 2021-05-01
     support: 2021-05-01
     release: 2021-02-02
     lts: false
+    latest: 2.12.4
   - releaseCycle: "2.11"
     eol: 2022-02-01
     support: 2021-02-02
     release: 2020-11-02
     lts: true
+    latest: 2.11.7
   - releaseCycle: "2.10"
     eol: 2020-11-02
     support: 2020-11-02
     release: 2020-08-11
     lts: false
+    latest: 2.10.2
   - releaseCycle: "2.9"
     eol: 2020-08-11
     support: 2020-08-11
     release: 2020-05-04
     lts: false
+    latest: 2.9.3
   - releaseCycle: "2.8"
     eol: 2020-05-04
     support: 2020-05-04
     release: 2020-02-03
     lts: false
+    latest: 2.8.2
   - releaseCycle: "2.7"
     eol: 2021-02-02
     support: 2020-02-03
     release: 2019-11-06
     lts: true
+    latest: 2.7.4
   - releaseCycle: "2.6"
     eol: 2019-11-06
     support: 2019-11-06
     release: 2019-08-01
     lts: false
+    latest: 2.6.3
   - releaseCycle: "2.5"
     eol: 2019-08-01
     support: 2019-08-01
     release: 2019-04-24
     lts: false
+    latest: 2.5.2
   - releaseCycle: "2.4"
     eol: 2019-04-24
     support: 2019-04-24
     release: 2018-12-19
     lts: false
+    latest: 2.4
   - releaseCycle: "2.3"
     eol: 2020-02-01
     support: 2018-12-19
     release: 2018-10-23
     lts: true
+    latest: 2.3
 
 ---
 > [Wagtail](https://wagtail.io/) is an open source content management system built on Django, with a strong community and commercial support. It's focused on user experience, and offers precise control for designers and developers.
