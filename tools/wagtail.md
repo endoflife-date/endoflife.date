@@ -7,7 +7,7 @@ link: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.io/en/v__RELEASE_CYCLE__/releases/__LATEST__.html
 activeSupportColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: "cycleShortHand"
 releases:
   - releaseCycle: "2.13"
     eol: 2021-08-01
