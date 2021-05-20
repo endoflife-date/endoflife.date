@@ -16,7 +16,7 @@ releases:
   - releaseCycle: 'Amazon Linux 2'
     release: 2017-12-19
     eol: 2023-06-30
-    latest: 2.0.2021.0421.0
+    latest: 2.0.2021.0427.0
     link: https://aws.amazon.com/amazon-linux-2/release-notes/
 ---
 
