@@ -4,7 +4,7 @@ layout: post
 permalink: /wagtail
 category: framework
 link: https://github.com/wagtail/wagtail/wiki/Release-schedule
-changelogTemplate: https://docs.wagtail.io/en/__RELEASE_CYCLE__/releases/__LATEST__.html
+changelogTemplate: https://docs.wagtail.io/en/v__RELEASE_CYCLE__/releases/__LATEST__.html
 activeSupportColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 sortReleasesBy: "releaseCycle"
