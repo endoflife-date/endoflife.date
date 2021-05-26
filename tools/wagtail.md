@@ -10,13 +10,13 @@ command: python -c "import wagtail; print(wagtail.__version__)"
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "2.13"
-    eol: 2021-08-01
+    eol: 2022-02-01
     support: 2021-08-01
     release: 2021-05-12
     lts: false
     latest: 2.13
   - releaseCycle: "2.12"
-    eol: 2021-05-01
+    eol: 2021-08-01
     support: 2021-05-01
     release: 2021-02-02
     lts: false
@@ -28,19 +28,19 @@ releases:
     lts: true
     latest: "2.11.7"
   - releaseCycle: "2.10"
-    eol: 2020-11-02
+    eol: 2021-02-02
     support: 2020-11-02
     release: 2020-08-11
     lts: false
     latest: "2.10.2"
   - releaseCycle: "2.9"
-    eol: 2020-08-11
+    eol: 2020-11-02
     support: 2020-08-11
     release: 2020-05-04
     lts: false
     latest: "2.9.3"
   - releaseCycle: "2.8"
-    eol: 2020-05-04
+    eol: 2020-08-11
     support: 2020-05-04
     release: 2020-02-03
     lts: false
