@@ -11,10 +11,11 @@ releases:
     release: 2021-05-05
     eol: false
     support: true
-    latest: 5.0.0
+    lts: true
+    latest: 5.0.1
   - releaseCycle: 4.x
     release: 2018-01-18
-    eol: 2022-07-01
+    eol: 2022-11-01
     latest: 4.6.0
     lts: true
     support: false
