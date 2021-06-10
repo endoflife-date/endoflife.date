@@ -1,3 +1,7 @@
+---
+# Setting a layout forces Jekyll to render this file
+layout: null
+---
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
@@ -5,3 +9,22 @@
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET
   Access-Control-Max-Age: 86400
+
+{% comment %}
+The following loop adds "Link" headers to point our tool pages to the APIs
+programatically.
+See Netlify's syntax: https://docs.netlify.com/routing/headers/
+{% endcomment %}
+{% for page in site.pages %}
+
+  {% if page.alternate_urls %}
+
+# Redirects for {{page.path}}
+    {% for url in page.alternate_urls %}
+{{url}}       {{page.permalink}}
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}

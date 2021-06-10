@@ -25,8 +25,9 @@ The Redirect syntax is
 # Redirects for {{page.path}}
     {% for url in page.alternate_urls %}
 {{url}}       {{page.permalink}}
-
+/api{{url}}* /api{{page.permalink}}:splat
     {% endfor %}
+/api{{page.permalink}} /api{{page.permalink}}.json
 
   {% endif %}
 
