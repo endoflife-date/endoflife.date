@@ -109,6 +109,7 @@ paths:
         name: cycle
         in: path
         required: true
+        description: Release Cycle for which the details must be fetched
 components:
   schemas:
     cycle:

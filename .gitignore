@@ -1,8 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
-vendor/
-.bundle
+vendor/bundle
 api/
 .idea/
 .jekyll-cache
