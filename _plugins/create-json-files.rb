@@ -46,10 +46,14 @@ def process_file(markdown_file)
   output_dir = File.join(API_DIR, tool.permalink)
   FileUtils.mkdir_p(output_dir) unless FileTest.directory?(output_dir)
 
+  all_cycles = []
   tool.release_cycles.each do |cycle|
     output_file = json_filename(output_dir, cycle.fetch('name'))
     File.open(output_file, 'w') { |f| f.puts cycle.fetch('data').to_json }
+    all_cycles.append({'cycle' => cycle.fetch('name')}.merge(cycle.fetch('data')))
   end
+  output_file = json_filename(API_DIR, tool.permalink)
+  File.open(output_file, 'w') { |f| f.puts all_cycles.to_json }
 end
 
 ############################################################
