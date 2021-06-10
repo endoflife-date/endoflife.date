@@ -61,13 +61,13 @@ paths:
                       link: 'https://www.python.org/downloads/release/python-3810/'
       operationId: 'get-api-:tool.json'
       description: Get EoL dates of all cycles of a given tool.
-    parameters:
-      - schema:
-          type: string
-        name: tool
-        in: path
-        required: true
-        description: Tool URL as per the canonical URL on the endofife.date website
+      parameters:
+        - schema:
+            type: string
+          name: tool
+          in: path
+          required: true
+          description: Tool URL as per the canonical URL on the endofife.date website
   '/api/{tool}/{cycle}.json':
     get:
       summary: Single cycle details
@@ -97,19 +97,19 @@ paths:
                     link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
       operationId: 'get-api-:tool-:cycle.json'
       description: Gets details of a single cycle
-    parameters:
-      - schema:
-          type: string
-        name: tool
-        in: path
-        required: true
-        description: Tool URL as per the canonical URL on the endofife.date website
-      - schema:
-          type: string
-        name: cycle
-        in: path
-        required: true
-        description: Release Cycle for which the details must be fetched
+      parameters:
+        - schema:
+            type: string
+          name: tool
+          in: path
+          required: true
+          description: Tool URL as per the canonical URL on the endofife.date website
+        - schema:
+            type: string
+          name: cycle
+          in: path
+          required: true
+          description: Release Cycle for which the details must be fetched
 components:
   schemas:
     cycle:
