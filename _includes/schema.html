@@ -1,0 +1,17 @@
+{%- if include.schema.type -%}
+  {%- case include.schema.type -%}
+    {%- when 'array' -%}
+      {%- if include.schema.items.first[0] == '$ref' -%}
+        [
+          {%- include schema/reference.html reference=include.schema.items -%}
+        ]
+      {%- else -%}
+        {%- include schema/array.html properties=include.schema.properties -%}
+      {%- endif -%}
+    {%- when 'object' -%}
+      {%- include schema/object.html properties=include.schema.properties -%}
+  {%- endcase -%}
+{%- endif -%}
+{%- if include.schema.first[0] == '$ref' -%}
+  {%- include schema/reference.html reference=include.schema -%}
+{%- endif -%}

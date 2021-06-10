@@ -1,0 +1,7 @@
+{%- assign id = include.text | slugify -%}
+{%- assign parts = id | split: '' -%}
+{%- assign numbers = '0123456789' | split: '' -%}
+{%- if numbers contains parts.first -%}
+  {%- assign id = id | prepend: '_' -%}
+{% endif %}
+{{- id | xml_escape -}}

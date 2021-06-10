@@ -1,0 +1,13 @@
+{%- assign query_string = '' -%}
+{%- for parameter in include.parameters -%}
+  {%- if parameter.in == 'query' -%}
+    {%- assign query_string = query_string | append: parameter.name | append: '=value' -%}
+    {%- unless forloop.last -%}
+      {%- assign query_string = query_string | append: '&amp;' -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if query_string != '' -%}
+  {%- assign query_string = query_string | prepend: '?' -%}
+{%- endif -%}
+{{- query_string -}}

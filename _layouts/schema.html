@@ -1,0 +1,83 @@
+{%- include utils/variables.html -%}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="title" content="{{- title -}}">
+    <meta name="description" content="{{- description -}}">
+    <meta name="image" content="{{- image -}}">
+    <meta name="theme-color" content="{{- site.theme_color -}}">
+
+    <meta property="og:type" content="{{- site.og.type -}}">
+    <meta property="og:site_name" content="{{- api.info.title -}}">
+    <meta property="og:url" content="{{- url -}}">
+    <meta property="og:title" content="{{- title -}}">
+    <meta property="og:description" content="{{- description -}}">
+    <meta property="og:image" content="{{- image -}}">
+    <meta property="og:image:type" content="{{- site.og.image.type -}}">
+    <meta property="og:image:width" content="{{- site.og.image.width -}}">
+    <meta property="og:image:height" content="{{- site.og.image.height -}}">
+    <meta property="og:image:alt" content="{{- api.info.title -}}">
+
+    <meta property="twitter:card" content="{{- site.twitter.card -}}">
+    <meta property="twitter:url" content="{{- url -}}">
+    <meta property="twitter:title" content="{{- title -}}">
+    <meta property="twitter:description" content="{{- description -}}">
+    {% if site.twitter.site != '' %}<meta property="twitter:site" content="{{- site.twitter.site -}}">{% endif %}
+    <meta property="twitter:image" content="{{- image -}}">
+
+    <meta name="msapplication-config" content="{{- '/browserconfig.xml' | prepend: site.baseurl -}}">
+    <meta name="msapplication-TileColor" content="{{- site.theme_color -}}">
+
+    <title>{{- title -}}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <header class="navbar navbar-light bg-white sticky-top shadow-sm">
+      <a class="navbar-brand" href="{{- '/' | prepend: site.baseurl -}}">{{- api.info.title -}}</a>
+    </header>
+    <div class="row no-gutters">
+      <nav class="d-none d-xl-block col-xl-2 bg-light border-right fixed-top h-100 overflow-auto">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-body" href="{{- '/' | prepend: site.baseurl -}}#introduction">Introduction</a>
+          </li>
+          {%- unless server == '' -%}
+            <li class="nav-item">
+              <a class="nav-link text-body" href="{{- '/' | prepend: site.baseurl -}}#server">Server</a>
+            </li>
+          {%- endunless -%}
+          {%- for collection in collections -%}
+            <li class="nav-item">
+              <a class="nav-link text-body" data-toggle="collapse" href="#{%- include utils/idify.html text=collection -%}" role="button" aria-expanded="false" aria-controls="{%- include utils/idify.html text=collection -%}">{%- include utils/titleize.html word=collection -%}</a>
+              <ul class="list-unstyled collapse" id="{%- include utils/idify.html text=collection -%}">
+                {%- for path in api.paths -%}
+                  {%- assign path_parts = path[0] | split: '/' -%}
+                  {%- if path_parts[1] == collection -%}
+                    {%- for operation in path[1] -%}
+                      {%- assign request_method = operation[0] -%}
+                      {%- assign id = request_method | append: path[0] -%}
+                      <li class="nav-item">
+                        <a class="nav-link py-1 text-body text-nowrap small" href="{{- '/' | prepend: site.baseurl -}}#{%- include utils/idify.html text=id -%}">
+                          <span class="d-inline-block">{%- include utils/request_method.html request_method=request_method -%}</span>
+                          {{ path[0] }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </nav>
+      <main class="col-12 col-xl-10 ml-auto">
+        {{- content -}}
+      </main>
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
