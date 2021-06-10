@@ -3,7 +3,7 @@ info:
   title: endoflife.date
   version: 0.0.1
   summary: endoflife.date API
-  description: Documentation for the endoflife.date API. The API is currently in Alpha.
+  description: 'Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki)'
   license:
     name: MIT
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
