@@ -1,0 +1,49 @@
+{%- include utils/variables.html -%}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="title" content="{{- title -}}">
+    <meta name="description" content="{{- description -}}">
+    <meta name="image" content="{{- image -}}">
+    <meta name="theme-color" content="{{- site.theme_color -}}">
+
+    <meta property="og:type" content="{{- site.og.type -}}">
+    <meta property="og:site_name" content="{{- api.info.title -}}">
+    <meta property="og:url" content="{{- url -}}">
+    <meta property="og:title" content="{{- title -}}">
+    <meta property="og:description" content="{{- description -}}">
+    <meta property="og:image" content="{{- image -}}">
+    <meta property="og:image:type" content="{{- site.og.image.type -}}">
+    <meta property="og:image:width" content="{{- site.og.image.width -}}">
+    <meta property="og:image:height" content="{{- site.og.image.height -}}">
+    <meta property="og:image:alt" content="{{- api.info.title -}}">
+
+    <meta property="twitter:card" content="{{- site.twitter.card -}}">
+    <meta property="twitter:url" content="{{- url -}}">
+    <meta property="twitter:title" content="{{- title -}}">
+    <meta property="twitter:description" content="{{- description -}}">
+    {% if site.twitter.site != '' %}<meta property="twitter:site" content="{{- site.twitter.site -}}">{% endif %}
+    <meta property="twitter:image" content="{{- image -}}">
+
+    <meta name="msapplication-config" content="{{- '/browserconfig.xml' | prepend: site.baseurl -}}">
+    <meta name="msapplication-TileColor" content="{{- site.theme_color -}}">
+
+    <title>{{- title -}}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <header class="navbar navbar-light bg-white sticky-top shadow-sm">
+      <a class="navbar-brand" href="{{- '/' | prepend: site.baseurl -}}">{{- api.info.title -}}</a>
+    </header>
+    <div class="row no-gutters">
+      <main class="col-12">
+        {{- content -}}
+      </main>
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

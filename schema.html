@@ -1,0 +1,145 @@
+---
+layout: schema
+permalink: /docs/api/
+---
+
+{%- include utils/variables.html -%}
+
+<div class="row no-gutters">
+  <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
+    <h1 class="offset-top" id="introduction">
+      {{- api.info.title -}}
+      <small class="ml-2 text-muted">v{{- api.info.version -}}</small>
+    </h1>
+    {%- if api.info.description -%}
+      <div class="lead">{{- api.info.description | markdownify -}}</div>
+    {%- endif -%}
+  </div>
+  <div class="d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless small text-light m-4">
+        <tbody>
+          {%- if api.info.contact -%}
+            <tr>
+              <th class="align-top" scope="row">Contact</th>
+              <td class="align-top">
+                {%- if api.info.contact.name -%}
+                  {{- api.info.contact.name -}}
+                {%- endif -%}
+                {%- if api.info.contact.email -%}
+                  <br><a class="text-light" href="mailto:{{- api.info.contact.email -}}">{{- api.info.contact.email -}}</a>
+                {%- endif -%}
+                {%- if api.info.contact.url -%}
+                  <br><a class="text-light" href="{{- api.info.contact.url -}}" target="_blank">{{- api.info.contact.url -}}</a>
+                {%- endif -%}
+              </td>
+            </tr>
+          {%- endif -%}
+          {%- if api.info.license -%}
+            <tr>
+              <th class="align-top" scope="row">License</th>
+              <td class="align-top">
+                {%- if api.info.license.name -%}
+                  {{- api.info.license.name -}}
+                {%- endif -%}
+                {%- if api.info.license.url -%}
+                  <br><a class="text-light" href="{{- api.info.license.url -}}" target="_blank">{{- api.info.license.url -}}</a>
+                {%- endif -%}
+              </td>
+            </tr>
+          {%- endif -%}
+          {%- if api.info.termsOfService -%}
+            <tr>
+              <th class="align-top" scope="row">Terms of Service</th>
+              <td class="align-top"><a class="text-light" href="{{- api.info.termsOfService -}}" target="_blank">{{- api.info.termsOfService -}}</a></td>
+            </tr>
+          {%- endif -%}
+          {%- if api.externalDocs -%}
+            <tr>
+              <th class="align-top" scope="row">{{- api.externalDocs.description -}}</th>
+              <td class="align-top"><a class="text-light" href="{{- api.externalDocs.url -}}" target="_blank">{{- api.externalDocs.url -}}</a></td>
+            </tr>
+          {%- endif -%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{%- unless api.servers.empty? -%}
+  <div class="row no-gutters">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
+      <h1 class="h4 offset-top" id="server">Server{%- if api.servers.size > 1 %}s{% endif %}</h1>
+    </div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
+      {%- for server in api.servers -%}
+        <p>{{- server.description -}}:</p>
+        <pre class="p-2 border rounded bg-light">{{- server.url -}}</pre>
+      {%- endfor -%}
+    </div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
+  </div>
+{%- endunless -%}
+
+{%- for collection in collections -%}
+
+  <div class="row no-gutters">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
+      <h1 class="h4 offset-top">{%- include utils/titleize.html word=collection -%}</h1>
+    </div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
+  </div>
+
+  {%- for path in api.paths -%}
+    {%- assign path_parts = path[0] | split: '/' -%}
+    {%- if path_parts[1] == collection -%}
+      {%- for operation in path[1] -%}
+
+        {%- assign request_method = operation[0] -%}
+        {%- assign id = request_method | append: path[0] -%}
+        {%- assign description = operation[1].description -%}
+        {%- assign parameters = operation[1].parameters -%}
+        {%- assign request_body = operation[1].requestBody -%}
+        {%- assign responses = operation[1].responses -%}
+
+        <div class="row no-gutters">
+          <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
+            <h2 class="h5 mb-3 offset-top" id="{%- include utils/idify.html text=id -%}">{% include utils/request_method.html request_method=request_method %} {{ path[0] }}</h2>
+
+            {%- if description -%}
+              <div>{{- description | markdownify -}}</div>
+            {%- endif -%}
+
+            <pre class="p-2 border rounded bg-light">{{- server -}}{{- path[0] -}}{% include utils/query_string.html parameters=parameters %}</pre>
+
+            {%- if parameters -%}
+              {%- include parameters.html parameters=parameters in='header' -%}
+              {%- include parameters.html parameters=parameters in='path' -%}
+              {%- include parameters.html parameters=parameters in='query' -%}
+              {%- include parameters.html parameters=parameters in='cookie' -%}
+            {%- endif -%}
+
+            {%- if request_body -%}
+              <h3 class="h6">Request Body</h3>
+              {%- include request_body.html request_body=request_body -%}
+            {%- endif -%}
+
+          </div>
+
+          <div class="d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">
+            {%- if responses -%}
+              <h2 class="h5 font-weight-normal mb-3 px-4 pt-4 text-white-50">Responses</h2>
+              {%- for response in responses -%}
+                {%- include response.html response=response -%}
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

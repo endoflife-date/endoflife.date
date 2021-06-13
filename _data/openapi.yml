@@ -1,0 +1,258 @@
+openapi: 3.1.0
+info:
+  title: endoflife.date
+  version: 0.0.1
+  summary: endoflife.date API
+  description: 'Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki)'
+  license:
+    name: MIT
+    url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
+  contact:
+    url: 'https://github.com/endoflife-date/endoflife.date/issues/new/choose'
+    name: Team endoflife.date
+servers:
+  - url: 'https://endoflife.date'
+    description: Production API
+paths:
+  '/api/{tool}.json':
+    get:
+      summary: Get All Details
+      tags: []
+      responses:
+        '200':
+          description: OK
+          headers: {}
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/cycle'
+              examples:
+                /api/ubuntu.json:
+                  value:
+                    - cycle: '21.04'
+                      cycleShortHand: HirsuteHippo
+                      lts: false
+                      release: '2021-04-22'
+                      support: '2022-01-01'
+                      eol: '2022-01-01'
+                      latest: '21.04'
+                      link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
+                    - cycle: '20.10'
+                      cycleShortHand: GroovyGorilla
+                      lts: false
+                      release: '2020-10-22'
+                      support: '2021-07-07'
+                      eol: '2021-07-07'
+                      latest: '20.10'
+                      link: 'https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/'
+                /api/python.json:
+                  value:
+                    - cycle: 3.9
+                      release: '2020-10-05'
+                      eol: '2025-10-05'
+                      latest: 3.9.5
+                      link: 'https://www.python.org/downloads/release/python-395/'
+                    - cycle: 3.8
+                      release: '2019-10-14'
+                      eol: '2024-10-14'
+                      latest: 3.8.10
+                      link: 'https://www.python.org/downloads/release/python-3810/'
+      operationId: 'get-api-:tool.json'
+      description: Get EoL dates of all cycles of a given tool.
+      parameters:
+        - schema:
+            type: string
+          name: tool
+          in: path
+          required: true
+          description: Tool URL as per the canonical URL on the endofife.date website
+  '/api/{tool}/{cycle}.json':
+    get:
+      summary: Single cycle details
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/cycle'
+              examples:
+                /api/python/3.9.json:
+                  value:
+                    release: '2020-10-05'
+                    eol: '2025-10-05'
+                    latest: 3.9.5
+                    link: 'https://www.python.org/downloads/release/python-395/'
+                /api/ubuntu/21.04.json:
+                  value:
+                    cycleShortHand: HirsuteHippo
+                    lts: false
+                    release: '2021-04-22'
+                    support: '2022-01-01'
+                    eol: '2022-01-01'
+                    latest: '21.04'
+                    link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
+      operationId: 'get-api-:tool-:cycle.json'
+      description: Gets details of a single cycle
+      parameters:
+        - schema:
+            type: string
+          name: tool
+          in: path
+          required: true
+          description: Tool URL as per the canonical URL on the endofife.date website
+        - schema:
+            type: string
+          name: cycle
+          in: path
+          required: true
+          description: Release Cycle for which the details must be fetched
+components:
+  schemas:
+    cycle:
+      x-examples:
+        python:
+          - cycle: 3.9
+            release: '2020-10-05'
+            eol: '2025-10-05'
+            latest: 3.9.5
+            link: 'https://www.python.org/downloads/release/python-395/'
+          - cycle: 3.8
+            release: '2019-10-14'
+            eol: '2024-10-14'
+            latest: 3.8.10
+            link: 'https://www.python.org/downloads/release/python-3810/'
+          - cycle: 3.7
+            release: '2018-06-27'
+            eol: '2023-06-27'
+            latest: 3.7.10
+            link: 'https://www.python.org/downloads/release/python-3710/'
+          - cycle: 3.6
+            release: '2016-12-23'
+            eol: '2021-12-23'
+            latest: 3.6.13
+            link: 'https://www.python.org/downloads/release/python-3613/'
+          - cycle: 3.5
+            release: '2015-09-30'
+            eol: '2020-09-13'
+            latest: 3.5.10
+            link: 'https://www.python.org/downloads/release/python-3510/'
+          - cycle: 3.4
+            release: '2014-03-16'
+            eol: '2019-03-18'
+            latest: 3.4.10
+            link: 'https://www.python.org/downloads/release/python-3410/'
+          - cycle: 3.3
+            release: '2012-09-29'
+            eol: '2017-09-29'
+            latest: 3.3.7
+            link: 'https://www.python.org/downloads/release/python-337/'
+          - cycle: 2.7
+            release: '2010-07-03'
+            eol: '2020-01-01'
+            latest: 2.7.18
+            link: 'https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst'
+        ubuntu:
+          - cycle: '21.04'
+            cycleShortHand: HirsuteHippo
+            lts: false
+            release: '2021-04-22'
+            support: '2022-01-01'
+            eol: '2022-01-01'
+            latest: '21.04'
+            link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
+          - cycle: '20.10'
+            cycleShortHand: GroovyGorilla
+            lts: false
+            release: '2020-10-22'
+            support: '2021-07-07'
+            eol: '2021-07-07'
+            latest: '20.10'
+            link: 'https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/'
+          - cycle: '20.04'
+            cycleShortHand: FocalFossa
+            lts: true
+            release: '2020-04-23'
+            support: '2022-10-01'
+            eol: '2025-04-02'
+            latest: 20.04.2
+          - cycle: '19.10'
+            release: '2019-10-17'
+            support: '2020-07-06'
+            eol: '2020-07-06'
+            latest: '19.10'
+          - cycle: '18.04'
+            cycleShortHand: BionicBeaver
+            lts: true
+            release: '2018-04-26'
+            support: '2020-09-30'
+            eol: '2023-04-02'
+            latest: 18.04.5
+          - cycle: '16.04'
+            cycleShortHand: XenialXerus
+            lts: true
+            release: '2016-04-21'
+            support: '2018-10-01'
+            eol: '2021-04-02'
+            latest: 16.04.7
+          - cycle: '14.04'
+            cycleShortHand: TrustyTahr
+            lts: true
+            release: '2014-04-17'
+            support: '2016-09-30'
+            eol: '2019-04-02'
+            latest: 14.04.6
+      type: object
+      description: Details of a single release cycle of a given tool. There might be some slight variations to this depending on the tool.
+      title: Cycle
+      properties:
+        cycle:
+          type:
+            - number
+            - string
+          description: Release Cycle
+        release:
+          type: string
+          minLength: 10
+          description: Release Date for the first release in this cycle
+          format: date
+          maxLength: 10
+        eol:
+          type:
+            - string
+            - boolean
+          minLength: 1
+          description: End of Life Date for this release cycle
+        latest:
+          type: string
+          minLength: 1
+          description: Latest release in this cycle
+        link:
+          type: string
+          minLength: 1
+          description: 'Link to changelog for the latest release, if available'
+        lts:
+          type: boolean
+          description: Whether this release cycle has long-term-support (LTS)
+        support:
+          type:
+            - string
+            - boolean
+          format: date
+          minLength: 10
+          maxLength: 10
+          description: Wheter this release cycle has active support
+        cycleShortHand:
+          type: string
+          description: Optional shorthand name for this release cycle
+        discontinued:
+          type:
+            - string
+            - boolean
+          description: Whether this cycle is now discontinued.
+          minLength: 10
+          maxLength: 10
+          format: date

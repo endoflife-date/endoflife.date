@@ -1,0 +1,16 @@
+{%- assign request_method = include.request_method | upcase -%}
+{%- case request_method -%}
+  {%- when 'DELETE' -%}
+    {%- assign color = 'danger' -%}
+  {%- when 'GET' -%}
+    {%- assign color = 'success' -%}
+  {%- when 'PATCH' -%}
+    {%- assign color = 'dark' -%}
+  {%- when 'POST' -%}
+    {%- assign color = 'warning' -%}
+  {%- when 'PUT' -%}
+    {%- assign color = 'primary' -%}
+  {%- else -%}
+    {%- assign color = 'secondary' -%}
+{%- endcase -%}
+<span class="text-{{- color -}}">{{- request_method -}}</span>
