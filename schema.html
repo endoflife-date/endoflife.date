@@ -6,7 +6,7 @@ permalink: /schema/
 {%- include utils/variables.html -%}
 
 <div class="row no-gutters">
-  <div class="col-12 col-lg-7 bg-white border-bottom p-4">
+  <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
     <h1 class="offset-top" id="introduction">
       {{- api.info.title -}}
       <small class="ml-2 text-muted">v{{- api.info.version -}}</small>
@@ -15,7 +15,7 @@ permalink: /schema/
       <div class="lead">{{- api.info.description | markdownify -}}</div>
     {%- endif -%}
   </div>
-  <div class="d-lg-block col-lg-5 bg-dark border-bottom-dark">
+  <div class="d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">
     <div class="table-responsive">
       <table class="table table-sm table-borderless small text-light m-4">
         <tbody>
@@ -68,29 +68,29 @@ permalink: /schema/
 
 {%- unless api.servers.empty? -%}
   <div class="row no-gutters">
-    <div class="col-12 col-lg-7 bg-white border-bottom p-4">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
       <h1 class="h4 offset-top" id="server">Server{%- if api.servers.size > 1 %}s{% endif %}</h1>
     </div>
-    <div class="d-none d-lg-block col-lg-5 bg-dark border-bottom-dark">&nbsp;</div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
   </div>
   <div class="row no-gutters">
-    <div class="col-12 col-lg-7 bg-white border-bottom p-4">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
       {%- for server in api.servers -%}
         <p>{{- server.description -}}:</p>
         <pre class="p-2 border rounded bg-light">{{- server.url -}}</pre>
       {%- endfor -%}
     </div>
-    <div class="d-none d-lg-block col-lg-5 bg-dark border-bottom-dark">&nbsp;</div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
   </div>
 {%- endunless -%}
 
 {%- for collection in collections -%}
 
   <div class="row no-gutters">
-    <div class="col-12 col-lg-7 bg-white border-bottom p-4">
+    <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
       <h1 class="h4 offset-top">{%- include utils/titleize.html word=collection -%}</h1>
     </div>
-    <div class="d-none d-lg-block col-lg-5 bg-dark border-bottom-dark">&nbsp;</div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">&nbsp;</div>
   </div>
 
   {%- for path in api.paths -%}
@@ -106,7 +106,7 @@ permalink: /schema/
         {%- assign responses = operation[1].responses -%}
 
         <div class="row no-gutters">
-          <div class="col-12 col-lg-7 bg-white border-bottom p-4">
+          <div class="col-12 col-lg-5 col-xl-5 bg-white border-bottom p-4">
             <h2 class="h5 mb-3 offset-top" id="{%- include utils/idify.html text=id -%}">{% include utils/request_method.html request_method=request_method %} {{ path[0] }}</h2>
 
             {%- if description -%}
@@ -129,7 +129,7 @@ permalink: /schema/
 
           </div>
 
-          <div class="d-lg-block col-lg-5 bg-dark border-bottom-dark">
+          <div class="d-lg-block col-lg-7 col-xl-7 bg-dark border-bottom-dark">
             {%- if responses -%}
               <h2 class="h5 font-weight-normal mb-3 px-4 pt-4 text-white-50">Responses</h2>
               {%- for response in responses -%}
