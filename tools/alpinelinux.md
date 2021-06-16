@@ -4,7 +4,7 @@ alternate_urls:
   - /alpinelinux
 title: Alpine Linux
 layout: post
-link: https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases
+link: https://alpinelinux.org/releases/
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
 command: cat /etc/alpine-release
