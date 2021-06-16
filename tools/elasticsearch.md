@@ -12,7 +12,7 @@ releases:
   - releaseCycle: "7.12"
     cycleShortHand: 712
     eol: 2022-09-23
-    latest: 7.12.0
+    latest: 7.12.1
   - releaseCycle: "7.11"
     cycleShortHand: 711
     eol: 2022-08-10
