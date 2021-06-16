@@ -19,7 +19,7 @@ releases:
   - releaseCycle: 6.0
     release: 2019-08-16
     eol: false
-    latest: 6.0.3.7
+    latest: 6.0.4
   - releaseCycle: 5.2
     release: 2018-04-09
     eol: false
