@@ -4,13 +4,18 @@ alternate_urls:
   - /alpinelinux
 title: Alpine Linux
 layout: post
-link: https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases
+link: https://alpinelinux.org/releases/
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: 'v3.14'
+    release: 2021-06-15
+    eol: 2023-05-01
+    latest: 3.14.0
+    link: https://www.alpinelinux.org/posts/Alpine-3.14.0-released.html
   - releaseCycle: 'v3.13'
     release: 2021-01-14
     eol: 2022-11-01
