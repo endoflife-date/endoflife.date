@@ -11,11 +11,16 @@ command: drush status
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: 9.2
+    release: 2021-06-16
+    support: 2021-12-08
+    eol:     2022-06-01
+    latest:  9.2.0
   - releaseCycle: 9.1
     release: 2020-12-02
     support: 2021-06-16
     eol:     2021-12-08
-    latest:  9.1.7
+    latest:  9.1.10
   - releaseCycle: 9.0
     release: 2020-06-03
     support: 2020-12-02
@@ -42,6 +47,8 @@ releases:
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
+
+**Drupal 9.2** will receive security coverage until June 1, 2022 when Drupal 9.4.0 is released.
 
 **Drupal 9.1** will receive security coverage until December 8, 2021 when Drupal 9.3.0 is released.
 
