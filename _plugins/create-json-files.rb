@@ -61,7 +61,7 @@ def process_all_files()
     tool_cycles = process_tool(tool)
     all_tools.append(tool.permalink)
   end
-  output_file = json_filename(API_DIR, 'all-tools')
+  output_file = json_filename(API_DIR, 'all')
   File.open(output_file, 'w') { |f| f.puts all_tools.sort.to_json }
 end
 
