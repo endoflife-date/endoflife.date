@@ -19,7 +19,7 @@ releases:
     # enters lts: true on 2021-10-26
     support: 2022-10-18
     eol: 2024-04-30
-    latest: 16.3.0
+    latest: 16.4.0
   - releaseCycle: 15
     release: 2020-10-20
     lts: false
