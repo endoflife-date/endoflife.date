@@ -15,7 +15,7 @@ releases:
   - releaseCycle: 6.1
     release: 2020-12-09
     eol: false
-    latest: 6.1.3.2
+    latest: 6.1.4
   - releaseCycle: 6.0
     release: 2019-08-16
     eol: false
