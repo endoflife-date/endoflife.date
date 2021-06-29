@@ -12,27 +12,27 @@ releases:
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06
     eol: 2024-06-01
-    latest: 10.10
+    latest: "10.10"
     link: https://www.debian.org/News/2021/20210619
   - releaseCycle: 'Debian 9 "Stretch" (LTS)'
     release: 2017-06-17
     eol: 2022-06-30
-    latest: 9.12
+    latest: "9.12"
     link: https://lists.debian.org/debian-announce/2020/msg00001.html
   - releaseCycle: 'Debian 9 "Stretch"'
     release: 2017-06-17
     eol: 2020-01-01
-    latest: 9.12
+    latest: "9.12"
     link: https://lists.debian.org/debian-announce/2020/msg00001.html
   - releaseCycle: 'Debian 8 "Jessie" (LTS)'
     release: 2015-04-26
     eol: 2020-06-30
-    latest: 8.11
+    latest: "8.11"
     link: https://www.debian.org/News/2015/20150426
   - releaseCycle: 'Debian 8 "Jessie"'
     release: 2015-04-26
     eol: 2018-06-17
-    latest: 8.11
+    latest: "8.11"
     link: https://www.debian.org/News/2015/20150426
   - releaseCycle: 'Debian 7 "Wheezy" (LTS)'
     release: 2013-05-04
