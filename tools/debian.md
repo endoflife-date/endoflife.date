@@ -12,8 +12,8 @@ releases:
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06
     eol: 2024-06-01
-    latest: 10.9
-    link: https://lists.debian.org/debian-announce/2021/msg00001.html
+    latest: 10.10
+    link: https://www.debian.org/News/2021/20210619
   - releaseCycle: 'Debian 9 "Stretch" (LTS)'
     release: 2017-06-17
     eol: 2022-06-30
