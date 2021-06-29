@@ -12,35 +12,35 @@ releases:
   # feature release 35 expected on 2021-10-27 -> calculate EoL of 33
   #- releaseCycle: "35"
   #  release: 2021-10-27
-  #  latest: 34
+  #  latest: "34"
   #  eol: false
   - releaseCycle: "34"
     release: 2021-04-27
-    latest: 34
+    latest: "34"
     eol: false
   - releaseCycle: "33"
     release: 2020-10-27
-    latest: 33
+    latest: "33"
     eol: false
   - releaseCycle: "32"
     release: 2020-04-28
-    latest: 32
+    latest: "32"
     eol: 2021-05-25
   - releaseCycle: "31"
     release: 2019-10-29
-    latest: 31
+    latest: "31"
     eol: 2020-11-30
   - releaseCycle: "30"
     release: 2019-05-07
-    latest: 30
+    latest: "30"
     eol: 2020-05-26
   - releaseCycle: "29"
     release: 2018-10-30
-    latest: 29
+    latest: "29"
     eol: 2019-11-26
   - releaseCycle: "28"
     release: 2018-05-01
-    latest: 28
+    latest: "28"
     eol: 2019-05-28
 ---
 

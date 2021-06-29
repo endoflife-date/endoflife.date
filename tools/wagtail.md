@@ -14,7 +14,7 @@ releases:
     support: 2021-08-01
     release: 2021-05-12
     lts: false
-    latest: 2.13
+    latest: "2.13"
   - releaseCycle: "2.12"
     eol: 2021-08-01
     support: 2021-05-01

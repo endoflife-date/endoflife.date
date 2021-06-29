@@ -11,37 +11,37 @@ command: drush status
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 9.2
+  - releaseCycle: "9.2"
     release: 2021-06-16
     support: 2021-12-08
     eol:     2022-06-01
-    latest:  9.2.0
-  - releaseCycle: 9.1
+    latest:  "9.2.0"
+  - releaseCycle: "9.1"
     release: 2020-12-02
     support: 2021-06-16
     eol:     2021-12-08
-    latest:  9.1.10
-  - releaseCycle: 9.0
+    latest:  "9.1.10"
+  - releaseCycle: "9.0"
     release: 2020-06-03
     support: 2020-12-02
     eol:     2021-06-16
-    latest:  9.0.12
-  - releaseCycle: 8.9
+    latest:  "9.0.12"
+  - releaseCycle: "8.9"
     release: 2020-06-03
     support: 2020-12-01
     eol:     2021-11-01
-    latest:  8.9.14
+    latest:  "8.9.14"
     lts: true
-  - releaseCycle: 8.8
+  - releaseCycle: "8.8"
     release: 2019-12-04
     support: 2020-06-03
     eol:     2020-12-01
-    latest:  8.8.12
-  - releaseCycle: 7
+    latest:  "8.8.12"
+  - releaseCycle: "7"
     release: 2011-01-05
     support: 2015-11-19
     eol:     2022-11-28
-    latest:  7.80
+    latest:  "7.80"
 ---
 
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.

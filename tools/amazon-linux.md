@@ -10,13 +10,13 @@ releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
   - releaseCycle: 'Amazon Linux AMI'
-    release: 2010-09-14
+    release: "2010-09-14"
     eol: 2020-12-31
-    latest: 2018.03
+    latest: "2018.03"
   - releaseCycle: 'Amazon Linux 2'
     release: 2017-12-19
     eol: 2023-06-30
-    latest: 2.0.20210617.0
+    latest: "2.0.20210617.0"
     link: https://aws.amazon.com/amazon-linux-2/release-notes/
 ---
 

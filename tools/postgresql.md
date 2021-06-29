@@ -13,70 +13,70 @@ command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 13
+  - releaseCycle: "13"
     release: 2020-09-24
     eol: 2025-11-13
-    latest: 13.3
-  - releaseCycle: 12
+    latest: "13.3"
+  - releaseCycle: "12"
     release: 2019-10-03
     eol: 2024-11-14
-    latest: 12.7
-  - releaseCycle: 11
+    latest: "12.7"
+  - releaseCycle: "11"
     release: 2018-10-18
     eol: 2023-11-09
-    latest: 11.12
-  - releaseCycle: 10
+    latest: "11.12"
+  - releaseCycle: "10"
     release: 2017-10-05
     eol: 2022-11-10
-    latest: 10.17
-  - releaseCycle: 9.6
+    latest: "10.17"
+  - releaseCycle: "9.6"
     release: 2016-09-29
     eol: 2021-11-11
-    latest: 9.6.22
-  - releaseCycle: 9.5
+    latest: "9.6.22"
+  - releaseCycle: "9.5"
     release: 2016-01-07
     eol: 2021-02-11
-    latest: 9.5.25
-  - releaseCycle: 9.4
+    latest: "9.5.25"
+  - releaseCycle: "9.4"
     release: 2014-12-08
     eol: 2020-02-13
-    latest: 9.4.26
-  - releaseCycle: 9.3
+    latest: "9.4.26"
+  - releaseCycle: "9.3"
     release: 2013-09-09
     eol: 2018-11-08
-    latest: 9.3.25
-  - releaseCycle: 9.2
+    latest: "9.3.25"
+  - releaseCycle: "9.2"
     release: 2012-09-10
     eol: 2018-11-09
-    latest: 9.2.24
-  - releaseCycle: 9.1
+    latest: "9.2.24"
+  - releaseCycle: "9.1"
     release: 2011-09-12
     eol: 2016-10-27
-    latest: 9.1.24
-  - releaseCycle: 9.0
+    latest: "9.1.24"
+  - releaseCycle: "9.0"
     release: 2010-09-20
     eol: 2015-10-08
-    latest: 9.0.23
-  - releaseCycle: 8.4
+    latest: "9.0.23"
+  - releaseCycle: "8.4"
     release: 2009-07-01
     eol: 2014-07-24
-    latest: 8.4.22
-  - releaseCycle: 8.3
+    latest: "8.4.22"
+  - releaseCycle: "8.3"
     release: 2008-02-04
     eol: 2013-02-07
-    latest: 8.3.23
-  - releaseCycle: 8.2
+    latest: "8.3.23"
+  - releaseCycle: "8.2"
     release: 2006-12-05
     eol: 2011-12-05
-    latest: 8.2.23
-  - releaseCycle: 8.1
+    latest: "8.2.23"
+  - releaseCycle: "8.1"
     release: 2005-11-08
     eol: 2010-11-08
-    latest: 8.1.23
-  - releaseCycle: 8.0
+    latest: "8.1.23"
+  - releaseCycle: "8.0"
     release: 2005-01-19
     eol: 2010-10-01
-    latest: 8.0.26
+    latest: "8.0.26"
 ---
 
 > [PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and technical standards compliance.
