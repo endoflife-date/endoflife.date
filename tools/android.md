@@ -12,10 +12,10 @@ releaseDateColumn: true
 eolColumn: Security Support
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: 1.0
+  - releaseCycle: "1.0"
     release: 2008-09-23
     eol: true
-  - releaseCycle: 1.1
+  - releaseCycle: "1.1"
     release: 2009-02-09
     eol: true
   - releaseCycle: Cupcake (1.5)

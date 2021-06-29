@@ -28,12 +28,12 @@ releases:
     release: 2014-06-10
     support: 2019-12-31
     eol: false
-    latest: 7.6
+    latest: "7.6"
   - releaseCycle: "RHEL 8"
     release: 2019-05-01
     support: 2024-05-31
     eol: false
-    latest: 8.0
+    latest: "8.0"
 ---
 
 Red Hat Enterprise Linux versions 5, 6, and 7 each deliver ten years of support (unless otherwise noted below under Exceptions) in Full Support, Maintenance Support 1 and Maintenance Support 2 Phases followed by an Extended Life Phase. In addition, for Red Hat Enterprise Linux 5 and 6, customers may purchase annual Add-on subscriptions called Extended Life-cycle Support (ELS) to extend limited subscription services beyond the Maintenance Support 2 Phase.

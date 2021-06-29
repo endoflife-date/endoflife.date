@@ -9,13 +9,13 @@ command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: 6.2
+  - releaseCycle: "6.2"
     eol: false
     latest: '6.2.1'
-  - releaseCycle: 6.0
+  - releaseCycle: "6.0"
     eol: false
     latest: '6.0.12'
-  - releaseCycle: 5.0
+  - releaseCycle: "5.0"
     eol: false
     latest: '5.0.12'
 ---
