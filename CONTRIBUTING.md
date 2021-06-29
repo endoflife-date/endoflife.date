@@ -21,7 +21,7 @@ changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
-    # Release range (usually major.minor), put in quotes if a string.
+    # Release range (usually major.minor), always put in quotes
   - releaseCycle: "1.2"
     # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
     eol: 2019-01-01
@@ -33,7 +33,8 @@ releases:
     release: 2017-03-12
     # Current latest release
     # remove is releaseColumn is false
-    latest: 1.2.3
+    # always put in quotes
+    latest: "1.2.3"
 # A few extra fields define overall page behaviour
 
 # URL for the page
