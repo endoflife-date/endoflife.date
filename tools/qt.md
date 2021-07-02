@@ -17,27 +17,27 @@ releases:
       eol: 2021-12-08
       latest: "6.0.4"
       link: https://www.qt.io/blog/qt-6.0.4-released
-    - releaseCycle: "5.15 (LTS only for Commercial licenses)"
+    - releaseCycle: "5.15"
       release: 2020-05-26
       eol: 2023-05-26
       latest: "5.15.5"
       link: https://www.qt.io/blog/qt-5.15-released
-    - releaseCycle: "5.12 LTS"
+    - releaseCycle: "5.12"
       release: 2018-12-06
       eol: 2021-12-05
       latest: "5.12.11"
       link: https://www.qt.io/blog/qt-5.12.11-released
-    - releaseCycle: "5.9 LTS"
+    - releaseCycle: "5.9"
       release: 2017-05-31
       eol: 2020-05-31
       latest: "5.9.9"
       link: https://www.qt.io/blog/qt-5.9.9-released
-    - releaseCycle: "5.6 LTS"
+    - releaseCycle: "5.6"
       release: 2016-03-16
       eol: 2019-03-16
       latest: "5.6.3"
       link: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
-    - releaseCycle: "4.8 LTS"
+    - releaseCycle: "4.8"
       release: 2011-12-15
       eol: 2015-12-31
       latest: "4.8.7"
