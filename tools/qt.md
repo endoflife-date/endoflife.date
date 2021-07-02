@@ -23,7 +23,7 @@ releases:
       latest: "5.15.5"
       link: https://www.qt.io/blog/qt-5.15-released
     - releaseCycle: "5.12 LTS"
-      release: 2021-05-25
+      release: 2018-12-06
       eol: 2021-12-05
       latest: "5.12.11"
       link: https://www.qt.io/blog/qt-5.12.11-released
