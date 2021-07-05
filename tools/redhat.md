@@ -3,6 +3,7 @@ releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_c
 title: Red Hat Enterprise Linux
 layout: post
 permalink: /rhel
+icon_slug: redhat
 alternate_urls:
   - /redhat
   - /redhatlinux
@@ -36,6 +37,8 @@ releases:
     latest: "8.0"
 ---
 
-Red Hat Enterprise Linux versions 5, 6, and 7 each deliver ten years of support (unless otherwise noted below under Exceptions) in Full Support, Maintenance Support 1 and Maintenance Support 2 Phases followed by an Extended Life Phase. In addition, for Red Hat Enterprise Linux 5 and 6, customers may purchase annual Add-on subscriptions called Extended Life-cycle Support (ELS) to extend limited subscription services beyond the Maintenance Support 2 Phase.
+> Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market.
+
+Red Hat Enterprise Linux versions 5, 6, and 7 each deliver ten years of support in Full Support, Maintenance Support 1 and Maintenance Support 2 Phases followed by an Extended Life Phase. In addition, for Red Hat Enterprise Linux 5 and 6, customers may purchase annual Add-on subscriptions called Extended Life-cycle Support (ELS) to extend limited subscription services beyond the Maintenance Support 2 Phase.
 
 With the introduction of Red Hat Enterprise Linux version 8, Red Hat is simplifying the RHEL product phases from four to three: Full Support, Maintenance Support, and Extended Life Phase.

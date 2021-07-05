@@ -41,6 +41,6 @@ releases:
     latest: 1.10.8
 ---
 
-[Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+> [Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
 Each major Go release is supported until there are two newer major releases. For example, Go 1.5 was supported until the Go 1.7 release, and Go 1.6 was supported until the Go 1.8 release. It fixes critical problems, including critical security problems, in supported releases as needed by issuing minor revisions (for example, Go 1.6.1, Go 1.6.2, and so on). The security policy can be found at <https://golang.org/security>.

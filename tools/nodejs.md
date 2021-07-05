@@ -5,6 +5,7 @@ alternate_urls:
   - /node.js
 layout: post
 title: Node.js
+icon_slug: nodedotjs
 link: https://nodejs.org/en/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__

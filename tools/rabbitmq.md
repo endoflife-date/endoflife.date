@@ -8,12 +8,11 @@ changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__L
 activeSupportColumn: false
 releaseDateColumn: true
 command: rabbitmqctl --version
-releaseImage: https://www.rabbitmq.com/img/rabbitmq_logo_strap.png
 releases:
   - releaseCycle: "3.8"
     eol: false
     release: 2019-10-01
-    latest: "3.8.14"
+    latest: "3.8.19"
   - releaseCycle: "3.7"
     eol: 2020-09-30
     release: 2017-11-28

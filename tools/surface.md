@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /surface
+icon_slug: windows
 title: Microsoft Surface
 link: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 activeSupportColumn: false
@@ -75,4 +76,4 @@ releases:
     eol: 2017-04-11
 ---
 
-Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards designed and developed by Microsoft, running the Microsoft Windows operating system.
+> Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards designed and developed by Microsoft, running the Microsoft Windows operating system.

@@ -2,6 +2,7 @@
 layout: post
 permalink: /pixel
 title: Google Pixel
+icon_slug: google
 link: https://support.google.com/nexus/answer/4457705?hl=en
 discontinuedColumn: true
 activeSupportColumn: false
@@ -52,6 +53,8 @@ releases:
     eol: 2018-10-31
     support: 2015-11-19
 ---
+
+> Google Pixel is Google's current line of Android Phones and other consumer electronics.
 
 The Pixel phones come out around the first or second week of October every year (the A series being unpredicatable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
 

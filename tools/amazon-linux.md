@@ -1,6 +1,7 @@
 ---
 permalink: /amazon-linux
 title: Amazon Linux
+icon_slug: amazonaws
 layout: post
 link: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false

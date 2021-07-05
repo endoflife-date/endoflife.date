@@ -4,6 +4,7 @@ permalink: /iphone
 alternate_urls:
   - /ios
 title: iPhone
+icon_slug: apple
 link: https://en.wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
@@ -73,6 +74,8 @@ releases:
     discontinued: false
     eol: false
 ---
+
+> The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system.
 
 Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long. Apple ocassionaly releases security updates for much older devices, such as [this security fix in iOS 12.5.2](https://support.apple.com/en-us/HT212257) which was pushed to iPhone 6 and iPhone 5S.
 

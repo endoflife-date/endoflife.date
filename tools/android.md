@@ -68,9 +68,6 @@ releases:
     eol: false
 ---
 
+>Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.
 
-[Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history)
-
-The development of Android started in 2003 by Android, Inc., which was purchased by Google in 2005.
-
-Major versions of Android are released once a year now, prior to the launch of their Pixel phones.
+Major versions of Android are released once a year now, prior to the launch of their Pixel phones. See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) as well.
