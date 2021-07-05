@@ -6,7 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "bundler"
-    vendor: true
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/_plugins"
+    schedule:
+      interval: "weekly"
