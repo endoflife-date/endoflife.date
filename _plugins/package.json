@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "d3": "^7.0.0",
+    "d3-node": "^2.2.2",
+    "frontmatter": "^0.0.3"
+  },
+  "type": "module"
+}
