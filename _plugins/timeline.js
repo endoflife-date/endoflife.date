@@ -47,7 +47,7 @@ function create (inputData, outputFile) {
   const queryStart = new Date('2018-01-01');
   const queryEnd = new Date('2024-11-31');
   const data = parseInput(inputData);
-  if (inputData['scheduleImage'] == false) {
+  if (inputData['timelineImage'] == false) {
     return null;
   }
   const d3n = new D3Node({ styles: styles, d3Module: D3 });
@@ -161,6 +161,6 @@ function generateToolImage(inputFile, outputDirectory) {
 fs.readdir('../tools', (err, files) => {
   files.forEach((file) => {
     console.log(file)
-    generateToolImage(`../tools/${file}`, '../schedule')
+    generateToolImage(`../tools/${file}`, '../assets/timeline')
   })
 })
