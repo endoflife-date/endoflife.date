@@ -37,6 +37,6 @@ releases:
     latest:  "6.0.5"
 ---
 
-> [PowerShell](https://aka.ms/powershell)  is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+> [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 PowerShell follows the [Modern Lifecycle Policy](https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle).

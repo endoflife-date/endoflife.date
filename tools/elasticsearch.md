@@ -112,6 +112,8 @@ releases:
 
 ---
 
+> Elasticsearch is a search engine that provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.
+
 Each major release of all Elastic products is supported for 18 months from the General Availability date. The last minor release of the two most recent major branches of Elasticsearch (and compatible releases of Kibana, Beats, and Logstash) is maintained.
 
 Major versions, such as 1.0.0, 2.0.0, 5.0.0, 6.0.0, and 7.0.0 will introduce features and break backwards compatibility. Minor versions, such as 7.1.0 and 7.2.0, will only introduce features. Maintenance releases, such as 7.1.1 and 7.1.2, will fix bugs only. Maintenance activity occurs on all releases, but we focus on the minor release stream (e.g., 7.1.x) to define how long we maintain a particular code line. Active maintenance of a minor release implies that we are fixing bugs and backporting some number of fixes into that code branch.

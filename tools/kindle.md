@@ -2,6 +2,7 @@
 title: Amazon Kindle
 layout: post
 category: os
+icon_slug: amazon
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "Kindle Oasis 3 (10th Generation)"
@@ -52,9 +53,8 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
 ---
-[Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) is a series of e-readers designed by Amazon.
-There is no official data of the release cycle. Based on [Wikipedia](https://en.wikipedia.org/wiki/Amazon_Kindle#Specifications) and [INFORMER](https://theinformr.com/ereaders/amazon-kindle-10th-gen/), Amazon Kindle usually releases every year.
+> [Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) is a series of e-readers designed by Amazon.
 
-Also, there is no official information about the end of life date. However, according to the software release notes at [Kindle E-Reader Software Updates](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW), the software update usually lasts about five years.
+There is no official information about the end of life date. However, according to the software release notes at [Kindle E-Reader Software Updates](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW), the software update usually lasts about five years.
 
-Please be noted that the older version of release notes are not available on the Amazon website. The update information can be got from  Kindle -> Menu ->Settings -> Device Info -> What's New
+The older version of release notes are not available on the Amazon website. The changelog is still available in the device by following the `Settings -> Device Info -> What's New` menu.

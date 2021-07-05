@@ -1,6 +1,7 @@
 ---
 title: Windows Server
 permalink: /windowsserver
+icon_slug: windows
 layout: post
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Server
 category: os

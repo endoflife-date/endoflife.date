@@ -2,6 +2,7 @@
 title: Microsoft SQL Server
 permalink: /mssqlserver
 layout: post
+icon_slug: microsoftsqlserver
 category: db
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=SQL%20Server
 activeSupportColumn: true
@@ -41,7 +42,7 @@ releases:
     latest: 10.50.6560.0 SP3 GDR
 ---
 
->[SQLServer](https://www.microsoft.com/en-us/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network
+>[SQLServer](https://www.microsoft.com/en-us/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.
 
 [Latest updates for Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server)
 

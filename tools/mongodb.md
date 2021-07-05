@@ -8,7 +8,6 @@ changelogTemplate: https://docs.mongodb.com/manual/release-notes/__RELEASE_CYCLE
 activeSupportColumn: false
 releaseDateColumn: true
 command: mongod --version
-releaseImage: https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png
 releases:
   - releaseCycle: "4.4"
     eol: false
