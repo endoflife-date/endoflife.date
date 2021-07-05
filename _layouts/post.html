@@ -131,6 +131,26 @@ layout: default
 {% endfor %}
 </table>
 
+<style>
+.maincontent>blockquote {
+  margin-left: 60px;
+}
+.productlogo {
+  float: left;
+}
+.maincontent>p:nth-of-type(1) {
+  clear:  both;
+}
+</style>
+
+{% if page.icon_slug and page.icon_slug != "NA" %}
+<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.icon_slug}}.svg" >
+{% elsif page.icon_slug!="NA" %}
+<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
+{% endif %}
+
+
+
 <div class="maincontent">{{content}}</div>
 
 <p>More information is available on the <a href="{{page.link}}">{{page.title}} website</a>. </p>

@@ -10,20 +10,29 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 
 ```yaml
 ---
-title: timeturner
+title: Timeturner
 layout: post
 # Possible values are os,db,tool,lang,framework
 # If you add a new value, please mention it on the PR Description
 category: os
-# The hash of the `releases` object to be used for sortin in descending order
+
+# What should be used to sort releases. Set to one of:
+# releaseCycle/eol/support/release/cycleShortHand
+# which must be present in the releases underneath
 sortReleasesBy: "releaseCycle"
+
+# Template to be used to generate a link for the release
+# __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
+# __LATEST__ will be replaced by the value of latest
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
+
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
     # Release range (usually major.minor), always put in quotes
   - releaseCycle: "1.2"
     # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
+    # In case there is extended/commercial support available, pick the date most
     eol: 2019-01-01
     # End of Active Support for the product. This is where bugfixes usually stop coming in. (remove if activeSupportColumn=false)
     # Alternatively, set to true|false if it is not pre-decided
@@ -32,20 +41,26 @@ releases:
     # remove if releaseDateColumn is false
     release: 2017-03-12
     # Current latest release
-    # remove is releaseColumn is false
+    # remove if releaseColumn is false
     # always put in quotes
     latest: "1.2.3"
+
+# A slug for https://simpleicons.org/
+# If the icon is not available on simpleicons, set it to "NA"
+icon_slug: ministryofmagic
+
 # A few extra fields define overall page behaviour
 
 # URL for the page
 permalink: /timeturner
-# More information link
+# More information link. This link should contain
+# information about the release policy and schedule
 link: https://jkrowling.com/timeturner-releases
 # Whether to hide the "Active Support" column (optional, default true)
 activeSupportColumn: false
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
 releaseColumn: true
-# Whether to increase the release date column
+# Whether to show the release date column
 # optional, default false
 releaseDateColumn: true
 # What to call the End of Life  (Security Support) column. (optional)
@@ -53,11 +68,13 @@ eolColumn: Service Status
 # Command that can be used to check the current version. (optional)
 command: swish and flick
 # An image that shows a graphical representation of the releases.
+# This is not the product logo
 releaseImage: https://jkrowling.com/timeturner-releases.png
 
 # In the markdown section, ensure that the following are present:
-# 1. A one line statement about what the tool is, with a link to the primary website
+# 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
+# 3. Any additional information that may be of interest
 ---
 > [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
 
