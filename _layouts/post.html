@@ -5,7 +5,11 @@ layout: default
 {% if page.releaseImage %}
 <img src="{{page.releaseImage}}" />
 {% elsif page.timelineImage != false %}
-<img src="/assets/timeline/{{page.name | remove: '.md'}}.svg" />
+<!-- Embed as Object because we need SVG to be interactive -->
+<object type="image/svg+xml" data="/assets/timeline/{{page.name | remove: '.md'}}.svg">
+    <img height=300 src="/assets/timeline/{{page.name | remove: '.md'}}.svg" />
+</object>
+<img src= />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
