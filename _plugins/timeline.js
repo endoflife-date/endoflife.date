@@ -1,3 +1,7 @@
+/**
+ * The code below is derived from https://github.com/nodejs/lts-schedule
+ * which is released under the MIT License
+ */
 import fs from 'fs';
 import path from 'path';
 import * as D3 from 'd3';
@@ -6,10 +10,10 @@ import frontmatter from 'frontmatter';
 
 const styles = `
 .active {
-  fill: #2ecc71;
+  fill: #7bed9f;
 }
 .security {
-  fill: #e67e22;
+  fill: #2ed573;
 }
 .tick text {
   font: 16px sans-serif;
