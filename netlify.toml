@@ -3,7 +3,7 @@
   rake gke
   cd _plugins
   npm install
-  node schedule.js
+  node timeline.js
   cd ..
   jekyll build
   """

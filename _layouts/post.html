@@ -4,6 +4,8 @@ layout: default
 
 {% if page.releaseImage %}
 <img src="{{page.releaseImage}}" />
+{% elsif page.timelineImage != false %}
+<img src="/assets/timeline/{{page.name | remove: '.md'}}.svg" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
