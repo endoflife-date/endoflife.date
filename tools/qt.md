@@ -72,6 +72,8 @@ releases:
 
 A regular release only receives patch releases during the first 6 months until the next feature release is out. An LTS release receives patch releases also after the next feature release is available. Regular releases are supported for one year while LTS releases are supported for three years starting but [only for commercial license holders][lts-limit]. Extended support is available as a [commercial offering][extended-support].
 
+The KDE Project maintains a patch collection to support [Qt 5.15 LTS](https://dot.kde.org/2021/04/06/announcing-kdes-qt-5-patch-collection) for open-source users. It is packaged with most linux distributions.
+
 [license]: https://www.qt.io/licensing/ "Licensing page on the Qt Website"
 [extended-support]: https://www.qt.io/qt-support/
 [lts-limit]: https://www.qt.io/blog/qt-offering-changes-2020 "Qt offering changes 2020"
