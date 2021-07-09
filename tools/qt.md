@@ -70,9 +70,12 @@ releases:
 
 > [Qt](https://www.qt.io/) is a widget toolkit for creating graphical user interfaces as well as native cross-platform applications that supports Linux, Windows, macOS, Android and embedded systems. It is available under [both commercial licenses and open-source][license] GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
-A regular release only receives patch releases during the first 6 months until the next feature release is out. An LTS release receives patch releases also after the next feature release is available. Regular releases are supported for one year while LTS releases are supported for three years starting but [only for commercial license holders][lts-limit]. Extended support is available as a [commercial offering][extended-support].
+A regular release only receives patch releases during the first 6 months until the next feature release is out. An LTS release receives patch releases also after the next feature release is available. Regular releases are supported for one year.
 
-The KDE Project maintains a patch collection to support [Qt 5.15 LTS](https://dot.kde.org/2021/04/06/announcing-kdes-qt-5-patch-collection) for open-source users. It is packaged with most linux distributions.
+- Starting from 5.15, LTS releases are supported for three years but [only for commercial license holders][lts-limit]. For open source users, they are same as regular releases.
+- LTS releases before 5.15 are supported for three years.
+
+The [KDE Project](https://kde.org/) maintains a patch collection to support [Qt 5.15 LTS](https://community.kde.org/Qt5PatchCollection) for open-source users. It is already packaged with [many linux distributions](https://repology.org/project/qt/badges) so you might already be covered. Extended support beyond LTS is available as a [commercial offering][extended-support] from The Qt Company.
 
 [license]: https://www.qt.io/licensing/ "Licensing page on the Qt Website"
 [extended-support]: https://www.qt.io/qt-support/
