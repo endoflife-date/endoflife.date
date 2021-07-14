@@ -14,9 +14,6 @@ sortReleasesBy: "release"
 # __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
 # __LATEST__ will be replaced by the value of latest
 
-# What is this for??
-#changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
-
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
@@ -119,7 +116,7 @@ releases:
 
 # A slug for https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"
-icon_slug: openSUSE # Right??
+icon_slug: opensuse
 
 # A few extra fields define overall page behaviour
 
@@ -136,11 +133,11 @@ activeSupportColumn: false
 releaseColumn: true
 # Whether to show the release date column
 # optional, default false
-releaseDateColumn: true
+releaseDateColumn: false
 # What to call the End of Life  (Security Support) column. (optional)
 eolColumn: End of life
 # Command that can be used to check the current version. (optional)
-command: swish and flick
+command: cat /usr/lib/os-release
 # An image that shows a graphical representation of the releases.
 # This is not the product logo
 #releaseImage: https://jkrowling.com/timeturner-releases.png
