@@ -8,7 +8,7 @@ category: os
 # What should be used to sort releases. Set to one of:
 # releaseCycle/eol/support/release/cycleShortHand
 # which must be present in the releases underneath
-sortReleasesBy: "release"
+sortReleasesBy: "releaseCycle"
 
 # Template to be used to generate a link for the release
 # __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
@@ -21,17 +21,17 @@ releases:
     release: 2021-06-02
     support: 2022-12-1
     eol: 2022-12-1
-    latest: "openSUSE 15.3"
+    latest: "openSUSE Leap 15.3"
   - releaseCycle: "openSUSE Leap 15.2"
     release: 2020-07-02
     support: 2021-12-1
     eol: 2021-12-1
-    latest: "openSUSE 15.2"
+    latest: "openSUSE Leap 15.2"
   - releaseCycle: "openSUSE Leap 15.1"
     release: 2019-05-22
     support: 2021-02-02
     eol: 2021-02-02
-    latest: "openSUSE 15.1"
+    latest: "openSUSE Leap 15.1"
   - releaseCycle: "openSUSE Leap 15.0"
     release: 2018-05-25
     support: 2019-12-03
