@@ -85,34 +85,6 @@ releases:
     release: 2008-06-19
     support: 2010-07-26
     eol: 2010-07-26
-  - releaseCycle: "openSUSE 10.3"
-    release: 2007-10-04
-    support: 2009-10-31
-    eol: 2009-10-31
-  - releaseCycle: "openSUSE 10.2"
-    release: 2006-12-07
-    support: 2008-11-30
-    eol: 2008-11-30
-  - releaseCycle: "SUSE Linux 10.1"
-    release: 2006-03-11
-    support: 2008-05-31
-    eol: 2008-05-31
-  - releaseCycle: "SUSE Linux 10.0"
-    release: 2005-10-06
-    support: 2007-11-30
-    eol: 2007-11-30
-  - releaseCycle: "SUSE Linux 9.3"
-    release: 2005-04-15
-    support: 2007-04-30
-    eol: 2007-04-30
-  - releaseCycle: "SUSE Linux 9.2"
-    release: 2004-10-25
-    support: 2006-10-31
-    eol: 2006-10-31
-  - releaseCycle: "SUSE Linux 9.1"
-    release: 2004-04-21
-    support: 2006-06-30
-    eol: 2006-06-30
 
 # A slug for https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"
