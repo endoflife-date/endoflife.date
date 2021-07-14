@@ -119,10 +119,10 @@ link: https://en.opensuse.org/Lifetime
 # Whether to hide the "Active Support" column (optional, default true)
 activeSupportColumn: false
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
-releaseColumn: true
+releaseColumn: false
 # Whether to show the release date column
 # optional, default false
-releaseDateColumn: false
+releaseDateColumn: true
 # What to call the End of Life  (Security Support) column. (optional)
 eolColumn: End of life
 # Command that can be used to check the current version. (optional)
