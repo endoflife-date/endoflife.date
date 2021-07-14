@@ -8,7 +8,7 @@ category: os
 # What should be used to sort releases. Set to one of:
 # releaseCycle/eol/support/release/cycleShortHand
 # which must be present in the releases underneath
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: "release"
 
 # Template to be used to generate a link for the release
 # __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
