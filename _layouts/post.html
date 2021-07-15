@@ -23,13 +23,56 @@ layout: default
 {% for r in sorted_releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
 {% assign securityFixes = r.eol | date: '%s' | plus:0 %}
-{% assign diff = r.eol | date: '%s' | plus:0|minus:now %}
+
+
+{% comment %}
+diff is the number of days towards EoL. Positive is in the future. Negative is in the past.
+In case we don't have an exact date, we use boolean values (true/false) instead. In such
+cases diff is set to -1 for true (EoL has been reached)
+or +1 (EoL is in the future)
+{% endcomment %}
+{% if r.eol == true %}
+{% assign diff = -1 %}
+{% elsif r.eol == false %}
+{% assign diff = 1 %}
+{% else %}
+{% assign diff = r.eol | date: '%s' | plus:0| minus:now %}
+{% endif %}
+
+
 {% assign diffSupport = support|minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
+{% capture releaseCycleText %}{{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}{%endcapture%}
+{% capture releaseLink %}
+{%if r.link and diff > 0 %}
+{{r.link}}
+{%elsif page.changelogTemplate and diff > 0%}
+{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}
+{%endif%}
+{%endcapture%}
+{% assign releaseLink = releaseLink | strip %}
+<!-- START DEBUG COMMENT
+diffSupport: {{diffSupport}}
+diffSupport6: {{diffSupport6}}
+diff: {{diff}}
+eol: {{r.eol}}
+
+
+: {{releaseLink}}
+
+END DEBUG COMMENT
+-->
+
+<!-- Main Row starts here -->
 <tr>
   <td>
-    {{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}
+    {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
+    {%if releaseLink!="" and page.releaseColumn == false %}
+      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{releaseCycleText}}</a>
+    {%else %}
+      {{releaseCycleText}}
+    {%endif%}
   </td>
 
   {%if page.releaseDateColumn%}
@@ -81,7 +124,7 @@ layout: default
 
   <td class=
     {% if securityFixes > 5 %}
-      {% if diff < 0 and r.eol !=false %}
+      {% if diff < 0 %}
       "bg-red-000"
       {% elsif diffSecurity6 > 0 %}
       "bg-green-000"
@@ -114,17 +157,13 @@ layout: default
 
   {%if page.releaseColumn != false %}
   <td>
-    {% if diff > 0 or r.eol == false %}
-      {%if r.link %}
-        <a href="{{r.link}}" title="Release Notes / Changelog">{{r.latest}}</a>
-      {%elsif page.changelogTemplate %}
-      <a title = "Release Notes / Changelog" href="{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}">
-        {{r.latest}}
-      </a>
-      {%else %}
-        {{r.latest}}
-      {%endif%}
-    {%else%}NA{%endif%}
+    {% if releaseLink!="" and diff > 0 %}
+      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{r.latest}}</a>
+    {%elsif diff > 0 %}
+      {{r.latest}}
+    {%else%}
+      NA
+    {%endif%}
   </td>
   {%endif%}
 </tr>
