@@ -1,5 +1,5 @@
 ---
-title: SUSE
+title: SUSE Linux Enterprise Server
 layout: post
 # Possible values are os,db,tool,lang,framework
 # If you add a new value, please mention it on the PR Description
