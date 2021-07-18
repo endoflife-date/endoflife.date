@@ -14,19 +14,19 @@ releases:
     release: 2020-11-26
     support: 2022-11-26
     eol:     2023-11-26
-    latest:  "8.0.0"
+    latest:  "8.0.8"
   - releaseCycle: "7.4"
     cycleShortHand: "7"
     release: 2019-11-28
     support: 2021-11-28
     eol:     2022-11-28
-    latest:  "7.4.13"
+    latest:  "7.4.21"
   - releaseCycle: "7.3"
     cycleShortHand: "7"
     release: 2018-12-06
     support: 2020-12-06
     eol:     2021-12-06
-    latest:  "7.3.25"
+    latest:  "7.3.29"
   - releaseCycle: "7.2"
     cycleShortHand: "7"
     release: 2017-11-30
