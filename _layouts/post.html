@@ -180,6 +180,28 @@ END DEBUG COMMENT
 .maincontent>p:nth-of-type(1) {
   clear:  both;
 }
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
 </style>
 
 {% if page.icon_slug and page.icon_slug != "NA" %}
@@ -196,7 +218,7 @@ END DEBUG COMMENT
 
 {%if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{%endif%}
 
-{%if page.command%}<p>You can check the version that you are currently using by running: <pre>{{page.command}}</pre></p>{%endif%}
+{%if page.command%}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.command}}</pre></div>{%endif%}
 
 
 <hr>
