@@ -46,7 +46,7 @@ releases:
   - releaseCycle: "Windows Server 2016 (Datacenter, Essentials, Standard)"
     release: 2016-10-15
     support: 2022-01-11
-    eol: 2023-10-10
+    eol: 2027-01-12
   - releaseCycle: "Windows Storage Server 2016"
     release: 2016-10-15
     support: 2022-01-11
