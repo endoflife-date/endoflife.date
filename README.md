@@ -8,6 +8,10 @@ Keep track of various End of Life dates as they are approaching. Visit <https://
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
 
+## API
+
+An API is available for integration with CI platforms. API documentation is available at https://endoflife.date/docs/api/. The API is currently in Alpha, and breaking changes can happen. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki/API-Documentation).
+
 ## Working on the Code
 
 If you'd like to hack on how the site gets built, see [HACKING.md](HACKING.md).

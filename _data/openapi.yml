@@ -110,6 +110,79 @@ paths:
           in: path
           required: true
           description: Release Cycle for which the details must be fetched
+  /api/all.json:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                description: List of all tools.
+                items:
+                  type: string
+              examples:
+                all-tools:
+                  value:
+                    - alpine
+                    - amazon-linux
+                    - android
+                    - bootstrap
+                    - centos
+                    - debian
+                    - django
+                    - dotnet
+                    - dotnetcore
+                    - dotnetfx
+                    - drupal
+                    - elasticsearch
+                    - elixir
+                    - fedora
+                    - filemaker
+                    - freebsd
+                    - go
+                    - godot
+                    - iphone
+                    - java
+                    - kindle
+                    - kubernetes
+                    - laravel
+                    - macos
+                    - magento
+                    - mariadb
+                    - mongodb
+                    - mssqlserver
+                    - mysql
+                    - nodejs
+                    - office
+                    - opensuse
+                    - perl
+                    - php
+                    - pixel
+                    - postgresql
+                    - powershell
+                    - python
+                    - qt
+                    - rabbitmq
+                    - rails
+                    - redis
+                    - rhel
+                    - ros
+                    - ruby
+                    - sles
+                    - spring-framework
+                    - surface
+                    - symfony
+                    - ubuntu
+                    - wagtail
+                    - windows
+                    - windowsembedded
+                    - windowsserver
+      operationId: get-api-all.json
+      description: Return a list of all tools. Each of these can be used for the other API endpoints.
 components:
   schemas:
     cycle:
