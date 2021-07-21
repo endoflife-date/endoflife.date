@@ -3,7 +3,7 @@ permalink: /dotnetcore
 alternate_urls:
   - /.netcore
 layout: post
-icon_slug: dotnet
+iconSlug: dotnet
 title: .NET Core
 command: dotnet --version
 link: https://dotnet.microsoft.com/platform/support/policy/dotnet-core

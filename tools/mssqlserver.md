@@ -2,7 +2,7 @@
 title: Microsoft SQL Server
 permalink: /mssqlserver
 layout: post
-icon_slug: microsoftsqlserver
+iconSlug: microsoftsqlserver
 category: db
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=SQL%20Server
 activeSupportColumn: true

@@ -2,7 +2,7 @@
 layout: post
 permalink: /pixel
 title: Google Pixel
-icon_slug: google
+iconSlug: google
 command: "Settings -> About Phone -> Regulatory labels"
 link: https://support.google.com/nexus/answer/4457705?hl=en
 discontinuedColumn: true

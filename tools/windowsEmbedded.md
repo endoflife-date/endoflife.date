@@ -2,7 +2,7 @@
 title: Windows Embedded
 layout: post
 permalink: /windowsembedded
-icon_slug: windows
+iconSlug: windows
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Windows%20Embedded
 category: os
 activeSupportColumn: true

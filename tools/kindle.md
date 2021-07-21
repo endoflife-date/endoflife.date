@@ -2,7 +2,7 @@
 title: Amazon Kindle
 layout: post
 category: os
-icon_slug: amazon
+iconSlug: amazon
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "Kindle Oasis 3 (10th Generation)"
