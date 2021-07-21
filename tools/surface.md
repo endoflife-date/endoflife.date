@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /surface
-icon_slug: windows
+iconSlug: windows
 title: Microsoft Surface
 link: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 activeSupportColumn: false

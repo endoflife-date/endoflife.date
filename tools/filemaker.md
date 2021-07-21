@@ -3,7 +3,7 @@ title: FileMaker
 layout: post
 permalink: /filemaker
 link: https://www.filemaker.com/support/product-availability.html
-icon_slug: "NA"
+iconSlug: "NA"
 activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status

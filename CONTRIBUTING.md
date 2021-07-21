@@ -45,9 +45,12 @@ releases:
     # always put in quotes
     latest: "1.2.3"
 
-# A slug for https://simpleicons.org/
+# Set an icon for the product from https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"
-icon_slug: ministryofmagic
+# As an example, https://simpleicons.org/?q=opensuse links to
+# https://simpleicons.org/icons/opensuse.svg and https://simpleicons.org/icons/opensuse.pdf
+# So the slug is `opensuse` (the SVG filename without extension).
+iconSlug: ministryofmagic
 
 # A few extra fields define overall page behaviour
 
