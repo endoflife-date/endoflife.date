@@ -39,10 +39,7 @@ def json_filename(output_dir, name)
   File.join(output_dir, filename)
 end
 
-# file is something like 'tools/foo.md'
-def process_file(markdown_file)
-  tool = Tool.new(markdown_file)
-
+def process_tool(tool)
   output_dir = File.join(API_DIR, tool.permalink)
   FileUtils.mkdir_p(output_dir) unless FileTest.directory?(output_dir)
 
@@ -56,6 +53,18 @@ def process_file(markdown_file)
   File.open(output_file, 'w') { |f| f.puts all_cycles.to_json }
 end
 
+# each file is something like 'tools/foo.md'
+def process_all_files()
+  all_tools = []
+  Dir['tools/*.md'].each do |file|
+    tool = Tool.new(file)
+    tool_cycles = process_tool(tool)
+    all_tools.append(tool.permalink)
+  end
+  output_file = json_filename(API_DIR, 'all')
+  File.open(output_file, 'w') { |f| f.puts all_tools.sort.to_json }
+end
+
 ############################################################
 
-Dir['tools/*.md'].each { |file| process_file(file) }
+process_all_files()
