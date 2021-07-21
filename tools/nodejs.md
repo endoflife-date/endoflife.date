@@ -13,6 +13,7 @@ activeSupportColumn: true
 command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+timelineImage: false
 releases:
   - releaseCycle: "16"
     release: 2021-04-20

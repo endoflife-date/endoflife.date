@@ -8,7 +8,6 @@ releaseColumn: true
 eolColumn: End Of Life
 command: rosversion -d
 releaseDateColumn: true
-releaseColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: 'Noetic Ninjemys'

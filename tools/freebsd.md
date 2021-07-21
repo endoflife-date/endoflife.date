@@ -8,6 +8,7 @@ releaseDateColumn: false
 releaseColumn: false
 sortReleasesBy: cycleShortHand
 command: freebsd-version
+timelineImage: false
 releases:
   - releaseCycle: "stable/13"
     cycleShortHand: 13.x
@@ -22,13 +23,11 @@ releases:
     eol: 2024-06-30
   - releaseCycle: "releng/12.2"
     cycleShortHand: 12.2
-    release: 2020-10-27
     release: NA
     # 12.3-RELEASE + 3 months
     eol: false
   - releaseCycle: "releng/12.1"
     cycleShortHand: 12.1
-    release: 2019-11-04
     release: NA
     eol: 2021-01-31
   - releaseCycle: "stable/11"

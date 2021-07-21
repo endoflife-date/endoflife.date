@@ -9,6 +9,7 @@ activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
+timelineImage: false
 releases:
   - releaseCycle: "3.2"
     support: 2021-12-01
