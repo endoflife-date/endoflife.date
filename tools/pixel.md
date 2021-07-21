@@ -26,7 +26,7 @@ releases:
     eol: 2023-11-30
     support: 2015-11-19
   - releaseCycle: "Pixel 4A"
-    cycleShortHand:410
+    cycleShortHand: 410
     release: 2020-08-03
     discontinued: false
     eol: 2023-08-31
