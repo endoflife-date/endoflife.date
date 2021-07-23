@@ -11,18 +11,30 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "1.0"
-    release: 2014-12-01
-    eol: true
+  - releaseCycle: "3.3"
+    release: 2021-04-22
+    support: true
+    eol: false
+    latest: "3.3.2"
+    link: https://godotengine.org/article/maintenance-release-godot-3-3-2
+  - releaseCycle: "3.2"
+    release: 2020-01-01
     support: false
-    latest: "1.1"
-  - releaseCycle: "2.0"
-    release: 2016-02-01
     eol: true
+    latest: "3.2.3"
+    link: https://godotengine.org/article/maintenance-release-godot-3-2-3
+  - releaseCycle: "3.1"
+    release: 2019-03-01
     support: false
-    latest: "2.0.4.1"
-    lts: false
-    link: https://godotengine.org/article/maintenance-release-godot-2-0-4
+    eol: false
+    latest: "3.1.2"
+    link: https://godotengine.org/article/maintenance-release-godot-3-1-2
+  - releaseCycle: "3.0"
+    release: 2018-01-01
+    support: false
+    eol: true
+    latest: "3.0.6"
+    link: https://godotengine.org/article/maintenance-release-godot-3-0-6
   - releaseCycle: "2.1"
     release: 2016-07-01
     eol: false
@@ -30,30 +42,20 @@ releases:
     latest: "2.1.6"
     lts: true
     link: https://godotengine.org/article/maintenance-release-godot-2-1-6
-  - releaseCycle: "3.0"
-    release: 2018-01-01
-    support: false
+  - releaseCycle: "2.0"
+    release: 2016-02-01
     eol: true
-    latest: "3.0.6"
-    link: https://godotengine.org/article/maintenance-release-godot-3-0-6
-  - releaseCycle: "3.1"
-    release: 2019-03-01
     support: false
-    eol: false
-    latest: "3.1.2"
-    link: https://godotengine.org/article/maintenance-release-godot-3-1-2
-  - releaseCycle: "3.2"
-    release: 2020-01-01
-    support: false
+    latest: "2.0.4.1"
+    lts: false
+    link: https://godotengine.org/article/maintenance-release-godot-2-0-4
+  - releaseCycle: "1.0"
+    release: 2014-12-01
     eol: true
-    latest: "3.2.3"
-    link: https://godotengine.org/article/maintenance-release-godot-3-2-3
-  - releaseCycle: "3.3"
-    release: 2021-04-22
-    support: true
-    eol: false
-    latest: "3.3"
-    link: https://godotengine.org/article/godot-3-3-has-arrived
+    support: false
+    latest: "1.1"
+
+
 ---
 >[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/latest/tutorials/export/exporting_basics.html#exporting-by-platform).
 
