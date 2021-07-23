@@ -3,9 +3,8 @@ title: Google Kubernetes Engine
 layout: post
 category: tool
 sortReleasesBy: "releaseCycle"
-changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
 
-# EoL is support + 3 months
+# EoL is support + 3 months, but only for static releases
 # 1. Get the current version in a release channel from https://cloud.google.com/kubernetes-engine/docs/release-notes
 # 2. Get the date when that minor release was first made available in Regular Release from https://cloud.google.com/kubernetes-engine/docs/release-schedule. This is (2)
 # 3. support = Date from (2) + 12 months
@@ -17,15 +16,18 @@ releases:
   - releaseCycle: "Rapid"
     eol: false
     support: true
-    latest: '{% include gke.html channel="RAPID" %}'
+    latest: '{{ site.data.gke.channels.RAPID" }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
   - releaseCycle: "Regular"
     eol: false
     support: true
-    latest: '{% include gke.html channel="REGULAR" %}'
+    latest: '{{ site.data.gke.channels.REGULAR" }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
   - releaseCycle: "Stable"
     eol: false
     support: true
-    latest: '{% include gke.html channel="STABLE" %}'
+    latest: '{{ site.data.gke.channels.STABLE" }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
   # Uncomment when this releases around 2021-08
   # - releaseCycle: "1.21 (static)"
   #   eol: 2022-09-01
@@ -33,19 +35,23 @@ releases:
   - releaseCycle: "1.20"
     eol: 2022-08-01
     support: 2021-12-01
-    latest: '{% include gke.html version="1.20" %}'
+    latest: '{{ site.data.gke.versions["1.20"] }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.19"
     eol: 2022-06-01
     support: 2021-10-01
-    latest: '{% include gke.html version="1.19" %}'
+    latest: '{{ site.data.gke.versions["1.19"] }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.18"
     eol: 2022-03-01
     support: 2021-08-01
-    latest: '{% include gke.html version="1.18" %}'
+    latest: '{{ site.data.gke.versions["1.18"] }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.17"
     eol: 2021-11-01
     support: 2021-07-01
-    latest: '{% include gke.html version="1.17" %}'
+    latest: '{{ site.data.gke.versions["1.17"] }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:
@@ -69,7 +75,7 @@ GKE performs automatic upgrades of your cluster control plane, regardless of whe
 
 GKE provides a total of 14 months of support for each Kubernetes minor version once the version has been made available in the Regular channel. Nodes and node pool versions can be up to two minor versions older than the control plane as per the [Kubernetes version skew policy][skew].
 
-New GKE Standard clusters are created with a default version (currently {{site.data.gke.defaultClusterVersion}}), a stable release of a recent Kubernetes minor version or patch release. Versions newer than the default are also generally available on a weekly basis. Autopilot clusters are enrolled in a release channel (defaults to standard) instead.
+New GKE Standard clusters are created with a default version (currently `{{site.data.gke.default_cluster_version}}`), a stable release of a recent Kubernetes minor version or patch release. Versions newer than the default are also generally available on a weekly basis. Autopilot clusters are enrolled in a release channel (defaults to standard) instead.
 
 ## Release Channels
 

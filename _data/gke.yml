@@ -1,24 +1,16 @@
 # The below is a placeholder version of the output of
-# gcloud container get-server-config --format=yaml --zone us-west1
+# bundle exec rake gke
 # For deploys and deploy previews, a _data/gke.json file is generated
 # By running rake gke (which runs _auto/gke.rb)
 # See https://jekyllrb.com/docs/datafiles/ for how this is used in Jekyll
+# This data is ingested by gke.md
 channels:
-- channel: RAPID
-  defaultVersion: rapidDefaultPlaceholder
-- channel: REGULAR
-  defaultVersion: regularDefaultPlaceholder
-- channel: STABLE
-  defaultVersion: stableDefaultPlaceholder
-defaultClusterVersion: defaultClusterVersionPlaceholder
-validMasterVersions:
-- 1.20.maxplaceholder
-- 1.20.medplaceholder
-- 1.20.minplaceholder
-- 1.20.maxplaceholder
-- 1.20.minplaceholder
-- 1.19.maxplaceholder
-- 1.19.minplaceholder
-- 1.18.maxplaceholder
-- 1.17.maxplaceholder
-- 1.17.minplaceholder
+  RAPID: rapidDefaultPlaceholder
+  REGULAR: regularDefaultPlaceholder
+  STABLE: stableDefaultPlaceholder
+default_cluster_version: defaultClusterVersionPlaceholder
+versions:
+  "1.20": "1.20.8-gke.900"
+  "1.19": "1.19.12-gke.1100"
+  "1.18": "1.18.20-gke.900"
+  "1.17": "1.17.17-gke.9100"
