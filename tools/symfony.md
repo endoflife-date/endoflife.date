@@ -12,16 +12,16 @@ releases:
     release: 2021-05-31
     support: 2022-01-01
     eol: 2022-01-01
-    latest: "5.3.1"
+    latest: "5.3.3"
     lts: false
-    link: https://symfony.com/blog/symfony-5-3-1-released
+    link: https://symfony.com/blog/symfony-5-3-3-released
   - releaseCycle: "5.2"
     release: 2020-11-30
     support: 2021-07-21
     eol: 2021-07-21
-    latest: "5.2.10"
+    latest: "5.2.11"
     lts: false
-    link: https://symfony.com/blog/symfony-5-2-10-released
+    link: https://symfony.com/blog/symfony-5-2-11-released
   - releaseCycle: "5.1"
     release: 2020-05-31
     support: 2021-01-21
@@ -40,9 +40,9 @@ releases:
     release: 2019-11-21
     support: 2022-11-21
     eol: 2023-11-21
-    latest: "4.4.25"
+    latest: "4.4.26"
     lts: true
-    link: https://symfony.com/blog/symfony-4-4-25-released
+    link: https://symfony.com/blog/symfony-4-4-26-released
   - releaseCycle: "4.3"
     release: 2019-05-01
     support: 2020-01-01
@@ -54,9 +54,9 @@ releases:
     release: 2018-11-01
     support: 2019-07-01
     eol: 2020-01-01
-    latest: "4.2.9"
+    latest: "4.2.12"
     lts: false
-    link: https://symfony.com/blog/symfony-4-2-9-released
+    link: https://symfony.com/blog/symfony-4-2-12-released
   - releaseCycle: "4.1"
     release: 2018-05-01
     support: 2019-01-01
