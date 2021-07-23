@@ -47,8 +47,9 @@ releases:
     support: 2021-07-01
     latest: 1.17.17-gke.9100
 iconSlug: kubernetes
-icon_slug: kubernetes
-permalink: /gke
+permalink: /google-kubernetes-engine
+alternate_urls:
+  - gke
 link: https://cloud.google.com/kubernetes-engine/docs/release-schedule
 activeSupportColumn: true
 releaseColumn: true
