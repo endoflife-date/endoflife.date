@@ -204,9 +204,9 @@ END DEBUG COMMENT
 }
 </style>
 
-{% if page.icon_slug and page.icon_slug != "NA" %}
-<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.icon_slug}}.svg" >
-{% elsif page.icon_slug!="NA" %}
+{% if page.iconSlug and page.iconSlug != "NA" %}
+<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+{% elsif page.iconSlug!="NA" %}
 <img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
