@@ -73,24 +73,28 @@ GKE offers two modes of operations: [Standard and Autopilot][compare]:
 
 GKE performs automatic upgrades of your cluster control plane, regardless of whether your cluster is enrolled in a release channel or not. Control plane upgrades cannot be disabled.
 
-GKE provides a total of 14 months of support for each Kubernetes minor version once the version has been made available in the Regular channel. Nodes and node pool versions can be up to two minor versions older than the control plane as per the [Kubernetes version skew policy][skew].
+[GKE provides a total of 14 months of support][versioning] for each Kubernetes minor version once the version has been made available in the Regular channel. Nodes and node pool versions can be up to two minor versions older than the control plane as per the [Kubernetes version skew policy][skew].
 
 New GKE Standard clusters are created with a default version (currently `{{site.data.gke.default_cluster_version}}`), a stable release of a recent Kubernetes minor version or patch release. Versions newer than the default are also generally available on a weekly basis. Autopilot clusters are enrolled in a release channel (defaults to standard) instead.
 
 ## Release Channels
 
-GKE offers 3 release channels: Rapid, Regular (default), and Stable. GKE automatically manages the version and upgrade cadence for a cluster and its node pools if it is enrolled in a release channel. All channels offer supported releases of GKE and are considered generally available (GA).
+GKE offers [3 release channels][channels]: Rapid, Regular (default), and Stable. GKE automatically manages the version and upgrade cadence for a cluster and its node pools if it is enrolled in a release channel. All channels offer supported releases of GKE and are considered generally available (GA).
 
 ## No Channel (Static)
 
 Clusters with a a static GKE version are not enrolled in a release channel. Users are responsible for managing their upgrade strategy in this case. They must still adhere to the Kubernetes version and version skew support policy, and use supported GKE versions.
 
-Google may automatically [upgrade your nodes for security and compatibility purposes](https://cloud.google.com/kubernetes-engine/upgrades) in select cases.
+Google may automatically [upgrade your nodes for security and compatibility purposes][auto-upgrade] in select cases.
 
-[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with a [RSS Feed][rss].
+[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with a [RSS Feed][rss]. Please consult the [upgrade guide][upgrade-guide] before upgrading.
 
 [current-versions]: https://cloud.google.com/kubernetes-engine/docs/release-notes "table lists the latest minor versions available as defaults in GKE for the specified release channels"
 [compare]: https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"
 [gke]: https://cloud.google.com/kubernetes-engine "Google Kubernetes Engine"
 [rss]: https://cloud.google.com/feeds/anthos-gke-security-bulletins.xml "RSS Feed for Security Bulletins for GKE"
 [skew]: https://kubernetes.io/docs/setup/release/version-skew-policy/
+[versioning]: https://cloud.google.com/kubernetes-engine/versioning "GKE versioning and support"
+[channels]: https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels "Release channels documentation on GKE Docs"
+[auto-upgrade]: https://cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility "Requirements for GKE force upgrades"
+[upgrade-guide]: https://cloud.google.com/kubernetes-engine/upgrades "Upgrade documentation for GKE"
