@@ -15,22 +15,22 @@ releases:
     release: 2021-06-16
     support: 2021-12-08
     eol:     2022-06-01
-    latest:  "9.2.0"
+    latest:  "9.2.2"
   - releaseCycle: "9.1"
     release: 2020-12-02
     support: 2021-06-16
     eol:     2021-12-08
-    latest:  "9.1.10"
+    latest:  "9.1.11"
   - releaseCycle: "9.0"
     release: 2020-06-03
     support: 2020-12-02
     eol:     2021-06-16
-    latest:  "9.0.12"
+    latest:  "9.0.14"
   - releaseCycle: "8.9"
     release: 2020-06-03
     support: 2020-12-01
     eol:     2021-11-01
-    latest:  "8.9.14"
+    latest:  "8.9.17"
     lts: true
   - releaseCycle: "8.8"
     release: 2019-12-04
@@ -41,7 +41,7 @@ releases:
     release: 2011-01-05
     support: 2015-11-19
     eol:     2022-11-28
-    latest:  "7.80"
+    latest:  "7.82"
 ---
 
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
