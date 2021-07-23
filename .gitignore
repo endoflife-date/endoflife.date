@@ -5,3 +5,5 @@ vendor/bundle
 api/
 .idea/
 .jekyll-cache
+_private/service-account.json
+_data/gke.json

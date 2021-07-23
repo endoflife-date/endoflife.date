@@ -1,7 +1,8 @@
 # The below is a placeholder version of the output of
 # gcloud container get-server-config --format=yaml --zone us-west1
-# For deploys and deploy previews, this file is regenerated
-# By running the command during the build
+# For deploys and deploy previews, a _data/gke.json file is generated
+# By running rake gke (which runs _auto/gke.rb)
+# See https://jekyllrb.com/docs/datafiles/ for how this is used in Jekyll
 channels:
 - channel: RAPID
   defaultVersion: rapidDefaultPlaceholder

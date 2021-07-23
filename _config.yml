@@ -14,6 +14,8 @@ exclude:
   - vendor/
   - README.md
   - LICENSE
+  - _private
+  - _auto
 include:
   - _redirects
   - _headers
