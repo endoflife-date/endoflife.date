@@ -11,8 +11,9 @@ sortReleasesBy: "releaseCycle"
 # 4. eol = Date from (2) + 14 months
 # We don't write down the "release" date since EoL is counted against Regular release channel, and release dates of a minor release are harder to track (and not helpful) for other release channels. Hence, releaseDateColumn is set to false.
 releases:
-  # To get the first three versions
-  # Run gcloud container get-server-config --flatten="channels" --zone us-west1
+  # The latest data is coming from the _data/gke.{json|yml} file
+  # The file is generated at build-time
+  # See #314 for an explanation
   - releaseCycle: "Rapid"
     eol: false
     support: true
