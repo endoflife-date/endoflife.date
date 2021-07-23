@@ -49,7 +49,7 @@ releases:
     latest: "2.0.4.1"
     lts: false
     link: https://godotengine.org/article/maintenance-release-godot-2-0-4
-- releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     release: 2014-12-01
     eol: true
     support: false
