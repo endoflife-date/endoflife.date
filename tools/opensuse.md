@@ -84,7 +84,7 @@ releases:
     support: 2010-07-26
     eol: 2010-07-26
 
-icon_slug: opensuse
+iconSlug: opensuse
 
 permalink: /opensuse
 alternate_urls:

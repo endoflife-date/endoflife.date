@@ -33,7 +33,7 @@ releases:
     latest: "SLES 10 SP4"
     cycleShortHand: 10-SP4
 
-icon_slug: suse
+iconSlug: suse
 
 # URL for the page
 permalink: /sles

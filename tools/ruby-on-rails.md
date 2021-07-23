@@ -5,7 +5,7 @@ alternate_urls:
   - /ruby-on-rails
   - /roro
 layout: post
-icon_slug: rubyonrails
+iconSlug: rubyonrails
 title: Ruby on Rails
 link: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__

@@ -4,7 +4,7 @@ permalink: /office
 alternate_urls:
   - /msoffice
 layout: post
-icon_slug: microsoftoffice
+iconSlug: microsoftoffice
 link: https://support.microsoft.com/en-us/lifecycle/search?terms=Office
 activeSupportColumn: true
 releaseColumn: false

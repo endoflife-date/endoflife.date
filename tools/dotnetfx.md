@@ -3,7 +3,7 @@ permalink: /dotnetfx
 layout: post
 alternative_urls:
   - /.netfx
-icon_slug: dotnet
+iconSlug: dotnet
 title: .NET Framework
 command: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 link: https://dotnet.microsoft.com/download/dotnet-framework
