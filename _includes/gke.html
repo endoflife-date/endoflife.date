@@ -1,0 +1,12 @@
+{% if include.channel %}
+{% assign R = site.data.gke.channels | find: "channel", include.channel %}
+{{R.defaultVersion}}
+{% elsif include.version %}
+{% assign all = site.data.gke.validMasterVersions | reverse %}
+{% assign vmap = site.EMPTYOBJECT %}
+{% for v in all%}
+{% assign vprefix = v | slice:0,4 %}
+{% assign vmap = vmap|add_to_hash:vprefix,v %}
+{% endfor %}
+{{vmap[include.version]}}
+{% endif %}

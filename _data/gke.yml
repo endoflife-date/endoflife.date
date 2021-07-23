@@ -1,0 +1,23 @@
+# The below is a placeholder version of the output of
+# gcloud container get-server-config --format=yaml --zone us-west1
+# For deploys and deploy previews, this file is regenerated
+# By running the command during the build
+channels:
+- channel: RAPID
+  defaultVersion: rapidDefaultPlaceholder
+- channel: REGULAR
+  defaultVersion: regularDefaultPlaceholder
+- channel: STABLE
+  defaultVersion: stableDefaultPlaceholder
+defaultClusterVersion: defaultClusterVersionPlaceholder
+validMasterVersions:
+- 1.20.maxplaceholder
+- 1.20.medplaceholder
+- 1.20.minplaceholder
+- 1.20.maxplaceholder
+- 1.20.minplaceholder
+- 1.19.maxplaceholder
+- 1.19.minplaceholder
+- 1.18.maxplaceholder
+- 1.17.maxplaceholder
+- 1.17.minplaceholder
