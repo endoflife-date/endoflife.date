@@ -16,7 +16,7 @@ releases:
     release: 2020-05-23
   - releaseCycle: 'Melodic Morenia'
     eol: 2023-04-01
-    release: 2011-01-05
+    release: 2018-05-23
   - releaseCycle: 'Lunar Loggerhead'
     eol: 2019-05-01
     release: 2017-05-23
