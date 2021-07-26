@@ -21,8 +21,8 @@ releases:
     cycleShortHand: "GroovyGorilla"
     lts: false
     release: 2020-10-22
-    support: 2021-07-07
-    eol:     2021-07-07
+    support: 2021-07-22
+    eol:     2021-07-22
     latest: "20.10"
     # remove link (will use changelogTemplate) with release of 20.10.1
     link: https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/
