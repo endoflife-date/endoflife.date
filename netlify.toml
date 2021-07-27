@@ -1,0 +1,6 @@
+[build]
+  command = """
+  rake gke
+  jekyll build
+  """
+  publish = "_site/"

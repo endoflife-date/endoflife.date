@@ -5,3 +5,4 @@ vendor/bundle
 api/
 .idea/
 .jekyll-cache
+_data/gke.json

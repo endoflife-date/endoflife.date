@@ -29,6 +29,17 @@ Browse to http://localhost:4000 and you should see the site running locally. If 
 
 - The layout for the tools page is in `_layouts/post.html`
 - Tools are in the `tools` directory.
+- Automation scripts that fetch latest releases are in the `_auto` directory.
+
+## Automation
+
+Automation is currently focused towards fetching the latest releases for a given release cycle. Scripts for this are in the `_auto` directory, and run using `Rakefile`.
+
+All scripts should have fallback data in some form.
+
+### GKE
+
+The GKE data is fetched at build-time via GKE APIs by calling `rake gke`.
 
 ## API
 

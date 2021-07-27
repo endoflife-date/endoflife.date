@@ -43,12 +43,13 @@ or +1 (EoL is in the future)
 {% assign diffSupport = support|minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
+{% assign latestVersionNumber = r.latest| liquify %}
 {% capture releaseCycleText %}{{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}{%endcapture%}
 {% capture releaseLink %}
 {%if r.link and diff > 0 %}
 {{r.link}}
 {%elsif page.changelogTemplate and diff > 0%}
-{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',r.latest | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}
+{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}
 {%endif%}
 {%endcapture%}
 {% assign releaseLink = releaseLink | strip %}
@@ -158,9 +159,9 @@ END DEBUG COMMENT
   {%if page.releaseColumn != false %}
   <td>
     {% if releaseLink!="" and diff > 0 %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{r.latest}}</a>
+      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
     {%elsif diff > 0 %}
-      {{r.latest}}
+      {{latestVersionNumber}}
     {%else%}
       NA
     {%endif%}
