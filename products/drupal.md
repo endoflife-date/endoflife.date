@@ -9,6 +9,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 command: drush status
+auto:
+  github: drupal/core
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 sortReleasesBy: 'releaseCycle'
 releases:

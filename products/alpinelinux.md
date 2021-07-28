@@ -12,6 +12,8 @@ activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
+auto:
+  git: git+https://git.alpinelinux.org/aports
 releases:
   - releaseCycle: "v3.15"
     release: 2021-11-24

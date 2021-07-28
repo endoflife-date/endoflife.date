@@ -4,11 +4,13 @@ layout: post
 title: Redis
 category: db
 link: https://redis.io/topics/releases
-changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
+changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false
 command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: redis/redis
 releases:
   - releaseCycle: "6.2"
     eol: false

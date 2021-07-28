@@ -12,6 +12,8 @@ changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework
 sortReleasesBy: release
+auto:
+  github: rails/rails
 releases:
   - releaseCycle: "6.1"
     release: 2020-12-09

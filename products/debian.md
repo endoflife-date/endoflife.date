@@ -9,6 +9,8 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  docker: debian
 releases:
   - releaseCycle: 'Debian 11 "Bullseye"'
     release: 2021-08-14

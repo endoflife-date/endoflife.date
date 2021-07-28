@@ -9,6 +9,8 @@ changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "release"
+auto:
+  github: elixir-lang/elixir
 releases:
   - releaseCycle: "1.10"
     release: 2020-01-27

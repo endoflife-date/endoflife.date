@@ -10,6 +10,9 @@ releaseDateColumn: true
 command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: MariaDB/server
+  tagprefix: mariadb-
 releases:
   - releaseCycle: "10.6"
     release: 2021-07-06

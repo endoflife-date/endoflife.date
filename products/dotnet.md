@@ -13,6 +13,8 @@ changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__CY
 releaseDateColumn: true
 sortReleasesBy: "release"
 eolColumn: Support Status
+auto:
+  github: dotnet/runtime
 releases:
   - releaseCycle: "6.0"
     cycleShortHand: "6.0"

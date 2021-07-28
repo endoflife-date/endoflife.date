@@ -8,6 +8,8 @@ changelogTemplate: https://docs.wagtail.io/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 sortReleasesBy: "release"
+auto:
+  github: wagtail/wagtail
 releases:
   - releaseCycle: "2.15"
     support: 2023-02-01

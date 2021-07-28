@@ -11,6 +11,8 @@ eolColumn: Supported
 command: go version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
+auto:
+  github: golang/go
 releases:
   - releaseCycle: "1.17"
     cycleShortHand: 117

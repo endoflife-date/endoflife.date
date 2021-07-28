@@ -10,6 +10,8 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 category: framework
+auto:
+  github: symfony/symfony
 releases:
   - releaseCycle: "6.0"
     release: 2021-11-29

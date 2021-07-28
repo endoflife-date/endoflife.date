@@ -9,6 +9,8 @@ activeSupportColumn: true
 command: php bin/magento --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: magento/magento2
 releases:
   - releaseCycle: "2.4"
     cycleShortHand: 2

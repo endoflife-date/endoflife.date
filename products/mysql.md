@@ -4,6 +4,9 @@ layout: post
 category: db
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-__LATEST_SHORT_HAND__.html"
+auto:
+  github: mysql/mysql-server
+  tagprefix: mysql-
 # dates below are for:
 # support -> GA+5 years = Premier support
 # eol -> GA+8 years = Extended Support

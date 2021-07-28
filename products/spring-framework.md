@@ -6,6 +6,8 @@ layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/__LATEST__"
+auto:
+  github: spring-projects/spring-framework
 releases:
   - releaseCycle: "5.3"
     eol: false

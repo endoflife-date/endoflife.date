@@ -9,6 +9,8 @@ changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/
 activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
+auto:
+  github: django/django
 sortReleasesBy: 'releaseCycle'
 releases:
 #  - releaseCycle: "4.0"

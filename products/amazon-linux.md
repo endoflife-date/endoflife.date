@@ -10,6 +10,9 @@ command: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  dockerhub: amazonlinux
+  skip: major
 releases:
   - releaseCycle: 'Amazon Linux AMI'
     release: "2010-09-14"

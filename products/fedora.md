@@ -9,6 +9,8 @@ command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
 category: os
+auto:
+  docker: fedora
 releases:
   - releaseCycle: "35"
     release: 2021-11-02

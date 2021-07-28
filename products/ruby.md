@@ -8,6 +8,8 @@ category: lang
 releaseDateColumn: true
 eolColumn: Support Status
 sortReleasesBy: 'release'
+auto:
+  github: ruby/ruby
 releases:
 #  - releaseCycle: "3.1"
 #    release: 2021-12-XX

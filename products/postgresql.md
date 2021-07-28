@@ -13,6 +13,8 @@ eolColumn: Support Status
 command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: postgres/postgres
 releases:
   - releaseCycle: "14"
     release: 2021-09-30
