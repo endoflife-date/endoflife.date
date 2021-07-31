@@ -2,7 +2,7 @@
 title: Visual Studio
 layout: post
 category: tool
-sortReleasesBy: "release"
+sortReleasesBy: "releaseCycle"
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
