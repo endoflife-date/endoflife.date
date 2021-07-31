@@ -28,7 +28,7 @@ releases:
     
 iconSlug: visualstudio
 permalink: /visualstudio
-link: https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio
+link: https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
@@ -37,6 +37,6 @@ eolColumn: End of Support
 ---
 > [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform  
 
-- Visual Studio 2019 follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.
-- Visual Studio 2017 and earlier are also supported for 10 years
-- See [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing)
+**Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.
+
+**Visual Studio 2017** and earlier are also supported for 10 years
