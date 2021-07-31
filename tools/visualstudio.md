@@ -9,12 +9,28 @@ sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "2019 version 16.11"
     eol: 2029-04-01
+  - releaseCycle: "2019 version 16.10"
+    eol: false
   - releaseCycle: "2019 version 16.9"
     eol: 2022-10-01
+  - releaseCycle: "2019 version 16.8"
+    eol: true
   - releaseCycle: "2019 version 16.7"
     eol: 2020-04-01
+  - releaseCycle: "2019 version 16.6"
+    eol: true
+  - releaseCycle: "2019 version 16.5"
+    eol: true
   - releaseCycle: "2019 version 16.4"
     eol: 2021-10-01
+  - releaseCycle: "2019 version 16.3"
+    eol: true
+  - releaseCycle: "2019 version 16.2"
+    eol: true
+  - releaseCycle: "2019 version 16.1"
+    eol: true
+  - releaseCycle: "2019 version 16.0"
+    eol: true
   - releaseCycle: "2017"
     eol: 2027-04-01
   - releaseCycle: "2015"
@@ -40,3 +56,5 @@ eolColumn: End of Support
 **Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.
 
 **Visual Studio 2017** and earlier are also supported for 10 years
+
+The **Visual Studio Community edition** is only supported on the recommended latest release of the latest minor version of Visual Studio.
