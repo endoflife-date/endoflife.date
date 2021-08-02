@@ -65,7 +65,7 @@ link: https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
-eolColumn: End of Support
+eolColumn: Active Support
 
 ---
 > [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform  
