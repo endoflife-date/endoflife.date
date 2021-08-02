@@ -7,12 +7,12 @@ activeSupportColumn: false
 releaseDateColumn: true
 command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
-changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__/Schedule
+changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
 releases:
   # feature release 35 expected on 2021-10-27 -> calculate EoL of 33
   #- releaseCycle: "35"
   #  release: 2021-10-27
-  #  latest: "34"
+  #  latest: "35"
   #  eol: false
   - releaseCycle: "34"
     release: 2021-04-27
