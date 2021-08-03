@@ -45,7 +45,7 @@ GitLab has strict policies governing version naming, as well as release pace for
 
 [Current policy](https://docs.gitlab.com/ce/policy/maintenance.html) is:
 
-* Backporting bug fixes for **only the current stable release** at any given time.
+* Only the current stable release gets bug fixes.
 * Backporting security fixes **to the previous two monthly releases in addition to the current stable release**.
 
 GitLab uses Semantic Versioning for its releases: (Major).(Minor).(Patch).
