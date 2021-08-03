@@ -41,7 +41,6 @@ releases:
 ---
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
-GitLab has strict policies governing version naming, as well as release pace for major, minor, patch, and security releases. New releases are announced on the [GitLab blog](https://about.gitlab.com/releases/categories/releases/).
 
 [Current policy](https://docs.gitlab.com/ce/policy/maintenance.html) is:
 
