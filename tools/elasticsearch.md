@@ -9,11 +9,11 @@ command: $ES_HOME/bin/elasticsearch -v
 releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
 releases:
-- releaseCycle: "7.14"
+  - releaseCycle: "7.14"
     cycleShortHand: 714
     eol: 2023-02-03
     latest: 7.14.0
-- releaseCycle: "7.13"
+  - releaseCycle: "7.13"
     cycleShortHand: 713
     eol: 2022-11-25
     latest: 7.13.4
