@@ -3,16 +3,15 @@ nav_exclude: true
 title: Contributing
 permalink: /contribute
 layout: page
-category: tool
 ---
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/tools). Keep the filename as toolname.md
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as productname.md
 
 ```yaml
 ---
 title: Timeturner
 layout: post
-# Possible values are os,db,tool,lang,framework
+# Possible values are os,db,app,lang,framework,device,service
 # If you add a new value, please mention it on the PR Description
 category: os
 
@@ -75,7 +74,7 @@ command: swish and flick
 releaseImage: https://jkrowling.com/timeturner-releases.png
 
 # In the markdown section, ensure that the following are present:
-# 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
+# 1. A one line statement about what the product is, with a link to the primary website (in a quote)
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 # 3. Any additional information that may be of interest
 ---
@@ -86,7 +85,7 @@ Time-turners are no longer released, and the last known stable release was in HP
 
 File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once the pull request is merged, the changes are automatically deployed on the website.
 
-You can visit <https://github.com/endoflife-date/endoflife.date/new/master/tools> to directly create your file.
+You can visit <https://github.com/endoflife-date/endoflife.date/new/master/products> to directly create your file.
 
 ## Hacking
 

@@ -14,7 +14,7 @@ servers:
   - url: 'https://endoflife.date'
     description: Production API
 paths:
-  '/api/{tool}.json':
+  '/api/{product}.json':
     get:
       summary: Get All Details
       tags: []
@@ -59,16 +59,16 @@ paths:
                       eol: '2024-10-14'
                       latest: 3.8.10
                       link: 'https://www.python.org/downloads/release/python-3810/'
-      operationId: 'get-api-:tool.json'
-      description: Get EoL dates of all cycles of a given tool.
+      operationId: 'get-api-:product.json'
+      description: Get EoL dates of all cycles of a given product.
       parameters:
         - schema:
             type: string
-          name: tool
+          name: product
           in: path
           required: true
-          description: Tool URL as per the canonical URL on the endofife.date website
-  '/api/{tool}/{cycle}.json':
+          description: Product URL as per the canonical URL on the endofife.date website
+  '/api/{product}/{cycle}.json':
     get:
       summary: Single cycle details
       tags: []
@@ -95,15 +95,15 @@ paths:
                     eol: '2022-01-01'
                     latest: '21.04'
                     link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
-      operationId: 'get-api-:tool-:cycle.json'
+      operationId: 'get-api-:product-:cycle.json'
       description: Gets details of a single cycle
       parameters:
         - schema:
             type: string
-          name: tool
+          name: product
           in: path
           required: true
-          description: Tool URL as per the canonical URL on the endofife.date website
+          description: Product URL as per the canonical URL on the endofife.date website
         - schema:
             type: string
           name: cycle
@@ -121,11 +121,11 @@ paths:
             application/json:
               schema:
                 type: array
-                description: List of all tools.
+                description: List of all products.
                 items:
                   type: string
               examples:
-                all-tools:
+                all-products:
                   value:
                     - alpine
                     - amazon-linux
@@ -182,7 +182,7 @@ paths:
                     - windowsembedded
                     - windowsserver
       operationId: get-api-all.json
-      description: Return a list of all tools. Each of these can be used for the other API endpoints.
+      description: Return a list of all products. Each of these can be used for the other API endpoints.
 components:
   schemas:
     cycle:
@@ -279,7 +279,7 @@ components:
             eol: '2019-04-02'
             latest: 14.04.6
       type: object
-      description: Details of a single release cycle of a given tool. There might be some slight variations to this depending on the tool.
+      description: Details of a single release cycle of a given product. There might be some slight variations to this depending on the product.
       title: Cycle
       properties:
         cycle:
