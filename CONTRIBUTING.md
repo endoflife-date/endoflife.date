@@ -11,8 +11,12 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 ---
 title: Timeturner
 layout: post
-# Possible values are os,db,app,lang,framework,device,service
-# If you add a new value, please mention it on the PR Description
+# Possible values are os,db,app,lang,framework,device,service,server-app
+# If you add a new value, please mention it on the PR Description. Some rough guidelines:
+# server-app are applications usually installed on the server-side
+# db is databases, os is operating systems, lang is programming languages
+# app is end-user applications
+# service is managed service offerings (SaaS/PaaS etc)
 category: os
 
 # What should be used to sort releases. Set to one of:
