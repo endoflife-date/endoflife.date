@@ -31,8 +31,8 @@ class Package
     return !!@ecosystem
   end
 
-  def dir(ecosystem, release)
-    "_dependabot/#{ecosystem}/#{release}"
+  def dir(release)
+    "_dependabot/#{@ecosystem}/#{@name}/#{release}"
   end
 
   def update
@@ -41,19 +41,18 @@ class Package
       next unless is_supported(release)
       puts "Updating #{@name}"
       puts release
+      setup_dir(release)
       # self.method(m).call(repo, data)
     end
   end
 
-  def setup_dir
-    @releases.each do |release|
-      dir = dir(@ecosystem, release['releaseCycle'])
-      if (is_supported(release) and not Dir.exists? dir)
-        FileUtils.mkdir_p dir
-      elsif (Dir.exists? dir and not is_supported(release))
-        puts "Deleting #{dir}"
-        # FileUtils.rm_rf(dir)
-      end
+  def setup_dir(release)
+    dir = dir(release['releaseCycle'])
+    if (is_supported(release) and not Dir.exists? dir)
+      FileUtils.mkdir_p dir
+    elsif (Dir.exists? dir and not is_supported(release))
+      puts "Deleting #{dir}"
+      # FileUtils.rm_rf(dir)
     end
   end
 end
