@@ -11,7 +11,7 @@ layout: null
   Access-Control-Max-Age: 86400
 
 {% comment %}
-The following loop adds "Link" headers to point our tool pages to the APIs
+The following loop adds "Link" headers to point our product pages to the APIs
 programatically.
 See Netlify's syntax: https://docs.netlify.com/routing/headers/
 {% endcomment %}

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-# This script creates an api/[tool]/[version].json file for each releaseCycle
-# in each markdown source file, where [tool] is the permalink value and
+# This script creates an api/[product]/[version].json file for each releaseCycle
+# in each markdown source file, where [product] is the permalink value and
 # [version] is the releaseCycle value.
 #
 # The contents of the JSON files is the data in the releases, minus the
@@ -13,7 +13,7 @@ require 'yaml'
 
 API_DIR = 'api'.freeze
 
-class Tool
+class Product
   attr_reader :hash
 
   def initialize(markdown_file)
@@ -39,30 +39,30 @@ def json_filename(output_dir, name)
   File.join(output_dir, filename)
 end
 
-def process_tool(tool)
-  output_dir = File.join(API_DIR, tool.permalink)
+def process_product(product)
+  output_dir = File.join(API_DIR, product.permalink)
   FileUtils.mkdir_p(output_dir) unless FileTest.directory?(output_dir)
 
   all_cycles = []
-  tool.release_cycles.each do |cycle|
+  product.release_cycles.each do |cycle|
     output_file = json_filename(output_dir, cycle.fetch('name'))
     File.open(output_file, 'w') { |f| f.puts cycle.fetch('data').to_json }
     all_cycles.append({'cycle' => cycle.fetch('name')}.merge(cycle.fetch('data')))
   end
-  output_file = json_filename(API_DIR, tool.permalink)
+  output_file = json_filename(API_DIR, product.permalink)
   File.open(output_file, 'w') { |f| f.puts all_cycles.to_json }
 end
 
-# each file is something like 'tools/foo.md'
+# each file is something like 'products/foo.md'
 def process_all_files()
-  all_tools = []
-  Dir['tools/*.md'].each do |file|
-    tool = Tool.new(file)
-    tool_cycles = process_tool(tool)
-    all_tools.append(tool.permalink)
+  all_products = []
+  Dir['products/*.md'].each do |file|
+    product = Product.new(file)
+    product_cycles = process_product(product)
+    all_products.append(product.permalink)
   end
   output_file = json_filename(API_DIR, 'all')
-  File.open(output_file, 'w') { |f| f.puts all_tools.sort.to_json }
+  File.open(output_file, 'w') { |f| f.puts all_products.sort.to_json }
 end
 
 ############################################################

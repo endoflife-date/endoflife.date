@@ -10,7 +10,7 @@ STRING_KEYS = ['latest', 'releaseCycle']
 
 def process_files
   success = true
-  Dir['tools/*.md'].each do |markdown_file|
+  Dir['products/*.md'].each do |markdown_file|
     hash = YAML.load_file(markdown_file)
     hash['releases'].each do |r|
       STRING_KEYS.each do |k|
