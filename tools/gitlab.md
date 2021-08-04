@@ -10,7 +10,7 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Maintenance Support
 iconSlug: gitlab
-# The release date for "N" should match the eol date for N-3 release.
+
 releases:
   - releaseCycle: "14.1"
     release: 2021-07-22
@@ -41,20 +41,7 @@ releases:
 ---
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
-
-[Current policy](https://docs.gitlab.com/ce/policy/maintenance.html) is:
-
-* Only the current stable release gets bug fixes.
-* Previous two monthly releases (in addition to the current stable release) get security fixes.
-
-GitLab uses Semantic Versioning for its releases: (Major).(Minor).(Patch).
-
-For example, for GitLab version 13.10.6:
-* _13_ represents the major version. The major release was 13.0.0 but often referred to as 13.0.
-* _10_ represents the minor version. The minor release was 13.10.0 but often referred to as 13.10.
-* _6_ represents the patch number.
-
-Any part of the version number can increment into multiple digits, for example, 13.10.11.
+GitLab has a well [defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/) and you can subscribe to a [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
 
 | Version Type | Description  | Cadence |
 |:-------------|:-------------|:--------|
