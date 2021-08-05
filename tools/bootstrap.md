@@ -12,22 +12,22 @@ releases:
     eol: false
     support: true
     lts: true
-    latest: 5.1
+    latest: "5.1"
   - releaseCycle: 4.x
     release: 2018-01-18
     eol: 2022-11-01
-    latest: 4.6.0
+    latest: "4.6.0"
     lts: true
     support: false
   - releaseCycle: 3.x
     release: 2013-08-19
     eol: 2019-07-24
-    latest: 3.4.1
+    latest: "3.4.1"
     support: false
   - releaseCycle: 2.x
     release: 2013-07-18
     eol: 2013-08-19
-    latest: 2.3.2
+    latest: "2.3.2"
     support: false
 link: https://github.com/twbs/release
 releaseDateColumn: true
