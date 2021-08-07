@@ -1,9 +1,14 @@
 ---
+permalink: /unity
 title: Unity
 layout: post
+link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
 eolColumn: Critical, Security and usability support
 releaseDateColumn: true
 releaseColumn: true
+iconSlug: unity
+activeSupportColumn: true
+
 
 
 releases:
@@ -43,23 +48,7 @@ releases:
     
     
     
-    
-# Set an icon for the product from https://simpleicons.org/
-# If the icon is not available on simpleicons, set it to "NA"
-# As an example, https://simpleicons.org/?q=opensuse links to
-# https://simpleicons.org/icons/opensuse.svg and https://simpleicons.org/icons/opensuse.pdf
-# So the slug is `opensuse` (the SVG filename without extension).
-iconSlug: unity
 
-# A few extra fields define overall page behaviour
-
-# URL for the page
-permalink: /timeturner
-# More information link. This link should contain
-# information about the release policy and schedule
-link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
-# Whether to hide the "Active Support" column (optional, default true)
-activeSupportColumn: true
 
 # In the markdown section, ensure that the following are present:
 # 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
