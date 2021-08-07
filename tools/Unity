@@ -1,0 +1,80 @@
+---
+title: Unity
+layout: post
+eolColumn: Critical, Security and usability support
+releaseDateColumn: true
+releaseColumn: true
+
+
+releases:
+  - releaseCycle: "2017 LTS"
+    release: 2017-03-20
+    eol: 2020-04-20
+    latest: "2017.4.40"
+    link: https://unity3d.com/unity/whats-new/2017.4.40
+    
+    
+  - releaseCycle: "2018 LTS"
+    release: 2019-05-10
+    eol: 2021-06-18
+    latest: "2018.4.36"
+    link: https://unity3d.com/unity/qa/lts-releases?version=2018.4&page=1
+
+  - releaseCycle: "2019 LTS"
+    release: 2020-06-09
+    eol: 2022-06-01
+    latest: "2019.4.29"
+    link: https://unity3d.com/unity/whats-new/2019.4.29
+   
+  - releaseCycle: "2020 LTS"
+    release: 2021-03-11
+    eol: 2023-03-01
+    latest: "2020.3.15"
+    link: https://unity3d.com/unity/whats-new/2020.3.15
+
+  - releaseCycle: "2021.1"
+    release: 2021-03-19
+    eol: false
+    latest: "2021.1.16"
+    link: https://unity3d.com/unity/whats-new/2021.1.16
+
+    
+    
+    
+    
+    
+    
+# Set an icon for the product from https://simpleicons.org/
+# If the icon is not available on simpleicons, set it to "NA"
+# As an example, https://simpleicons.org/?q=opensuse links to
+# https://simpleicons.org/icons/opensuse.svg and https://simpleicons.org/icons/opensuse.pdf
+# So the slug is `opensuse` (the SVG filename without extension).
+iconSlug: unity
+
+# A few extra fields define overall page behaviour
+
+# URL for the page
+permalink: /timeturner
+# More information link. This link should contain
+# information about the release policy and schedule
+link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
+# Whether to hide the "Active Support" column (optional, default true)
+activeSupportColumn: false
+
+# In the markdown section, ensure that the following are present:
+# 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
+# 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
+# 3. Any additional information that may be of interest
+---
+> [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005. The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations and other experiences.
+
+Unity LTS releases as of 2019 LTS offer two years of bi-weekly updates, then an additional year of monthly updates.
+
+
+Unity is a cross-platform engine. The Unity editor is supported on Windows, macOS, and the Linux platform, while the engine itself currently supports building games for more than 19 different platforms, including mobile, desktop, consoles, and virtual reality. Officially supported platforms as of Unity 2020 LTS are:
+
+    Mobile platforms iOS, Android (Android TV), tvOS;
+    Desktop platforms Windows (Universal Windows Platform, Mac, Linux;
+    Web platform WebGL;
+    Console platforms PlayStation (PS4, PS5), Xbox (Xbox One, Xbox Series X/S), Nintendo Switch, Stadia;
+    Virtual/Extended reality platforms Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed Reality (HoloLens), Magic Leap, and via Unity XR SDK Steam VR, Google Cardboard.
