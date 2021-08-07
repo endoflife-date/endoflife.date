@@ -3,7 +3,6 @@ permalink: /unity
 title: Unity
 layout: post
 link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
-eolColumn: Critical, Security and usability support
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
