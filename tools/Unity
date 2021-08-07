@@ -59,7 +59,7 @@ permalink: /timeturner
 # information about the release policy and schedule
 link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
 # Whether to hide the "Active Support" column (optional, default true)
-activeSupportColumn: false
+activeSupportColumn: true
 
 # In the markdown section, ensure that the following are present:
 # 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
