@@ -7,8 +7,8 @@ eolColumn: Critical, Security and usability support
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
-activeSupportColumn: true
-
+activeSupportColumn: false
+sortReleasesBy: "release"
 
 
 releases:
