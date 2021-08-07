@@ -6,7 +6,6 @@ link: https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
-activeSupportColumn: false
 sortReleasesBy: "release"
 
 
