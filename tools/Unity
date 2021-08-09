@@ -60,8 +60,8 @@ Unity LTS releases as of 2019 LTS offer two years of bi-weekly updates, then an 
 
 Unity is a cross-platform engine. The Unity editor is supported on Windows, macOS, and the Linux platform, while the engine itself currently supports building games for more than 19 different platforms, including mobile, desktop, consoles, and virtual reality. Officially supported platforms as of Unity 2020 LTS are:
 
-    Mobile platforms iOS, Android (Android TV), tvOS;
-    Desktop platforms Windows (Universal Windows Platform, Mac, Linux;
-    Web platform WebGL;
-    Console platforms PlayStation (PS4, PS5), Xbox (Xbox One, Xbox Series X/S), Nintendo Switch, Stadia;
-    Virtual/Extended reality platforms Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed Reality (HoloLens), Magic Leap, and via Unity XR SDK Steam VR, Google Cardboard.
+- Mobile: iOS, Android (Android TV), tvOS
+- Desktop: Windows (Universal Windows Platform), Mac, Linux
+- Web: WebGL
+- Consoles: PlayStation (PS4, PS5), Xbox (Xbox One, Xbox Series X/S), Nintendo Switch, Stadia
+- Virtual/Extended reality: Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed Reality (HoloLens), Magic Leap, and via Unity XR SDK Steam VR, Google Cardboard.
