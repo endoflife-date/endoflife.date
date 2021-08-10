@@ -10,47 +10,48 @@ command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "10.6"
+    release: 2021-07-06
+    eol: 2026-07-06
+    latest: "10.6.4"
+    latestShortHand: "1064"
+  - releaseCycle: "10.5"
+    release: 2020-06-24
+    eol: 2025-06-24
+    latest: "10.5.12"
+    latestShortHand: "10512"
+  - releaseCycle: "10.4"
+    release: 2019-06-18
+    eol: 2024-06-18
+    latest: "10.4.21"
+    latestShortHand: "10421"
+  - releaseCycle: "10.3"
+    release: 2018-05-25
+    eol: 2023-05-25
+    latest: "10.3.31"
+    latestShortHand: "10331"
+  - releaseCycle: "10.2"
+    release: 2017-05-23
+    eol: 2022-05-23
+    latest: "10.2.40"
+    latestShortHand: "10240"
+  - releaseCycle: "10.1"
+    release: 2015-10-17
+    eol: 2020-10-17
+    latest: "10.1.48"
+    latestShortHand: "10148"
+  - releaseCycle: "10.0"
+    release: 2014-03-31
+    eol: 2019-03-31
+    latest: "10.0.38"
+    latestShortHand: "10038"
   - releaseCycle: "5.5"
     release: 2012-04-11
     eol: 2020-04-11
     latest: "5.5.68"
     latestShortHand: "5568"
     lts: true
-  - releaseCycle: "10.0"
-    release: 2014-03-31
-    eol: 2019-03-31
-    latestShortHand: "10038"
-    latest: "10.0.38"
-  - releaseCycle: "10.1"
-    release: 2015-10-17
-    eol: 2020-10-17
-    latest: "10.1.48"
-    latestShortHand: "10148"
-  - releaseCycle: "10.2"
-    release: 2017-05-23
-    eol: 2022-05-23
-    latest: "10.2.39"
-    latestShortHand: "10239"
-  - releaseCycle: "10.3"
-    release: 2018-05-25
-    eol: 2023-05-25
-    latest: "10.3.30"
-    latestShortHand: "10330"
-  - releaseCycle: "10.4"
-    release: 2019-06-18
-    eol: 2024-06-18
-    latest: "10.4.20"
-    latestShortHand: "10420"
-  - releaseCycle: "10.5"
-    release: 2020-06-24
-    eol: 2025-06-24
-    latest: "10.5.11"
-    latestShortHand: "10511"
-  - releaseCycle: "10.6"
-    release: 2021-07-06
-    eol: 2026-07-06
-    latest: "10.6.3"
-    latestShortHand: "1063"
+
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
