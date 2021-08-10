@@ -28,7 +28,7 @@ releases:
   - releaseCycle: "2.1"
     lts: true
     release: 2018-05-30
-    latest: "2.1.27"
+    latest: "2.1.28"
     eol: 2021-08-21
   - releaseCycle: "2.0"
     release: 2017-08-14
