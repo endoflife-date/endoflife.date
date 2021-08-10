@@ -12,11 +12,11 @@ layout: default
   <thead>
     <tr>
       <th>Version</th>
-      {%if page.releaseDateColumn%}<th>Released</th>{%endif%}
-      {%if page.activeSupportColumn%}<th>Active Support</th>{%endif%}
-      {%if page.discontinuedColumn%}<th>Discontinued</th>{%endif%}
+      {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
+      {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
+      {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
-      {%if page.releaseColumn != false %}<th>Release</th>{%endif%}
+      {% if page.releaseColumn != false %}<th>Release</th>{% endif %}
     </tr>
   </thead>
 {% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
@@ -36,22 +36,22 @@ or +1 (EoL is in the future)
 {% elsif r.eol == false %}
 {% assign diff = 1 %}
 {% else %}
-{% assign diff = r.eol | date: '%s' | plus:0| minus:now %}
+{% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
 {% endif %}
 
 
-{% assign diffSupport = support|minus:now %}
+{% assign diffSupport = support | minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
-{% assign latestVersionNumber = r.latest| liquify %}
-{% capture releaseCycleText %}{{r.releaseCycle}}{%if r.lts%} (LTS){%endif%}{%endcapture%}
+{% assign latestVersionNumber = r.latest | liquify %}
+{% capture releaseCycleText %}{{r.releaseCycle}}{% if r.lts %} (LTS){% endif %}{% endcapture %}
 {% capture releaseLink %}
-{%if r.link and diff > 0 %}
+{% if r.link and diff > 0 %}
 {{r.link}}
-{%elsif page.changelogTemplate and diff > 0%}
+{% elsif page.changelogTemplate and diff > 0 %}
 {{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}
-{%endif%}
-{%endcapture%}
+{% endif %}
+{% endcapture %}
 {% assign releaseLink = releaseLink | strip %}
 <!-- START DEBUG COMMENT
 diffSupport: {{diffSupport}}
@@ -69,59 +69,59 @@ END DEBUG COMMENT
 <tr>
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-    {%if releaseLink!="" and page.releaseColumn == false %}
+    {% if releaseLink != "" and page.releaseColumn == false %}
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{releaseCycleText}}</a>
-    {%else %}
+    {% else %}
       {{releaseCycleText}}
-    {%endif%}
+    {% endif %}
   </td>
 
-  {%if page.releaseDateColumn%}
+  {% if page.releaseDateColumn %}
   <td>
-    {{r.release|timeago}} <div>({{r.release | date_to_string}})</div>
+    {{r.release | timeago}} <div>({{r.release | date_to_string}})</div>
   </td>
-  {%endif%}
+  {% endif %}
 
-  {% if page.activeSupportColumn%}
+  {% if page.activeSupportColumn %}
     <td class=
     {% if support > 5 %}
-      {% if diffSupport < 0 and r.support !=false %}
+      {% if diffSupport < 0 and r.support != false %}
       "bg-red-000"
       {% elsif diffSupport6 > 0 %}
       "bg-green-000"
-      {%else%}
+      {% else %}
       "bg-yellow-200"
-      {%endif%}
-    {%else%}
-      {% if r.support%}
+      {% endif %}
+    {% else %}
+      {% if r.support %}
       "bg-green-000"
-      {%else%}
+      {% else %}
       "bg-red-000"
-      {%endif%}
-    {%endif%}
+      {% endif %}
+    {% endif %}
     title="{{r.support}}">
     {% if support > 5 %}
       {% if diffSupport < 0 %}
         Ended
-      {%else%}
+      {% else %}
         Ends
-      {%endif%}
+      {% endif %}
     {{r.support | timeago}} <div>({{r.support | date_to_string}})</div>
-    {%else%}
-      {% if r.support%}
+    {% else %}
+      {% if r.support %}
       Yes
-      {%else%}
+      {% else %}
       No
-      {%endif%}
-    {%endif%}
+      {% endif %}
+    {% endif %}
     </td>
-  {%endif%}
+  {% endif %}
 
   {% if page.discontinuedColumn %}
-  <td class="{% unless r.discontinued%}bg-green-000{%endunless%}">
-    {% if r.discontinued %} {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}}){%else%}In Production{%endif%}</div>
+  <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
+    {% if r.discontinued %} {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}}){% else %}In Production{% endif %}</div>
   </td>
-  {%endif%}
+  {% endif %}
 
   <td class=
     {% if securityFixes > 5 %}
@@ -129,44 +129,44 @@ END DEBUG COMMENT
       "bg-red-000"
       {% elsif diffSecurity6 > 0 %}
       "bg-green-000"
-      {%else%}
+      {% else %}
       "bg-yellow-200"
-      {%endif%}
-    {%else%}
-      {% if r.eol%}
+      {% endif %}
+    {% else %}
+      {% if r.eol %}
       "bg-red-000"
-      {%else%}
+      {% else %}
       "bg-green-000"
-      {%endif%}
-    {%endif%}
+      {% endif %}
+    {% endif %}
   title="{{r.eol}}">
     {% if securityFixes > 5 %}
       {% if diff < 0 %}
         Ended
-      {%else%}
+      {% else %}
         Ends
-      {%endif%}
+      {% endif %}
     {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
-    {%else%}
-      {% if r.eol%}
+    {% else %}
+      {% if r.eol %}
       No
-      {%else%}
+      {% else %}
       Yes
-      {%endif%}
-    {%endif%}
+      {% endif %}
+    {% endif %}
   </td>
 
-  {%if page.releaseColumn != false %}
+  {% if page.releaseColumn != false %}
   <td>
-    {% if releaseLink!="" and diff > 0 %}
+    {% if releaseLink != "" and diff > 0 %}
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
-    {%elsif diff > 0 %}
+    {% elsif diff > 0 %}
       {{latestVersionNumber}}
-    {%else%}
+    {% else %}
       NA
-    {%endif%}
+    {% endif %}
   </td>
-  {%endif%}
+  {% endif %}
 </tr>
 {% endfor %}
 </table>
@@ -207,7 +207,7 @@ END DEBUG COMMENT
 
 {% if page.iconSlug and page.iconSlug != "NA" %}
 <img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
-{% elsif page.iconSlug!="NA" %}
+{% elsif page.iconSlug != "NA" %}
 <img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
@@ -217,9 +217,9 @@ END DEBUG COMMENT
 
 <p>More information is available on the <a href="{{page.link}}">{{page.title}} website</a>. </p>
 
-{%if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{%endif%}
+{% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
 
-{%if page.command%}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.command}}</pre></div>{%endif%}
+{% if page.command %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.command}}</pre></div>{% endif %}
 
 
 <hr>
