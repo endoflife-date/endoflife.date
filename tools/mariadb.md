@@ -51,7 +51,6 @@ releases:
     latest: "5.5.68"
     latestShortHand: "5568"
     lts: true
-
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
