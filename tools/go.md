@@ -9,36 +9,43 @@ changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST_
 eolColumn: Supported
 command: go version
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "1.16"
+    cycleShortHand: 116
     release: 2021-02-16
     eol: false
-    latest: 1.16.6
+    latest: "1.16.7"
   - releaseCycle: "1.15"
+    cycleShortHand: 115
     release: 2020-08-11
     eol: false
-    latest: 1.15.14
+    latest: "1.15.15"
   - releaseCycle: "1.14"
+    cycleShortHand: 114
     release: 2020-02-25
     eol: true
-    latest: 1.14.15
+    latest: "1.14.15"
   - releaseCycle: "1.13"
+    cycleShortHand: 113
     release: 2019-09-03
     eol: true
-    latest: 1.13.15
+    latest: "1.13.15"
   - releaseCycle: "1.12"
+    cycleShortHand: 112
     release: 2019-02-25
     eol: true
-    latest: 1.12.17
+    latest: "1.12.17"
   - releaseCycle: "1.11"
+    cycleShortHand: 111
     release: 2018-08-04
     eol: true
-    latest: 1.11.13
+    latest: "1.11.13"
   - releaseCycle: "1.10"
+    cycleShortHand: 110
     release: 2018-02-16
     eol: true
-    latest: 1.10.8
+    latest: "1.10.8"
 ---
 
 > [Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software.
