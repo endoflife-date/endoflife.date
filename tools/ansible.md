@@ -7,21 +7,21 @@ link: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_ma
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
-activeSupportColumn: true
+activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 
 releases:
   - releaseCycle: 4
-    release: 2021-07-20
+    release: 2021-05-11
     eol: false
     latest: "4.3.0"
   - releaseCycle: 3
-    release: 2021-05-11
+    release: 2021-02-09
     eol: true
     latest: "2.10"
   - releaseCycle: 2.10
-    release: 2021-02-09
+    release: 2020-09-15
     eol: true
     latest: "2.10.7"
 
