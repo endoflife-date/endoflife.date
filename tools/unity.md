@@ -61,8 +61,7 @@ Tech stream are released twice a year (each one receiving weekly updates), and a
 
 Unity LTS releases which are released once a year are based off the previous tech stream branch, as of 2019 LTS, LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
 
-
-Unity is a cross-platform engine. The Unity editor is supported on Windows, macOS, and the Linux platform, while the engine itself currently supports building games for more than 19 different platforms, including mobile, desktop, consoles, and virtual reality. Officially supported platforms as of Unity 2020 LTS are:
+Officially supported platforms as of Unity 2020 LTS are:
 
 - Mobile: iOS, Android (Android TV), tvOS
 - Desktop: Windows (Universal Windows Platform), Mac, Linux
