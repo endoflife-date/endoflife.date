@@ -7,15 +7,12 @@ releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
 sortReleasesBy: "release"
-
-
 releases:
   - releaseCycle: "2017 LTS"
     release: 2017-03-20
     eol: 2020-04-20
     latest: "2017.4.40"
     link: https://unity3d.com/unity/whats-new/2017.4.40
-    
     
   - releaseCycle: "2018 LTS"
     release: 2019-05-10
@@ -41,25 +38,14 @@ releases:
     latest: "2021.1.16"
     link: https://unity3d.com/unity/whats-new/2021.1.16
 
-    
-    
-    
-    
-    
-
-
-# In the markdown section, ensure that the following are present:
-# 1. A one line statement about what the tool is, with a link to the primary website (in a quote)
-# 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
-# 3. Any additional information that may be of interest
 ---
 > [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005. The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations and other experiences.
 
-Unity has two releases, the tech stream and LTS branches. 
+Unity has two releases: Tech stream and LTS.
 
-Tech stream are released twice a year (each one receiving weekly updates), and are supported only until the next tech stream release is out.
+*Tech stream* releases are released twice a year (each one receiving weekly updates), and are supported only until the next tech stream release is out.
 
-Unity LTS releases which are released once a year are based off the previous tech stream branch, as of 2019 LTS, LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
+*Unity LTS releases* are released once a year and are based off the previous tech stream branch. LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
 
 Officially supported platforms as of Unity 2020 LTS are:
 
