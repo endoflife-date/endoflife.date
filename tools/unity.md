@@ -32,8 +32,8 @@ releases:
   - releaseCycle: "2020 LTS"
     release: 2021-03-11
     eol: 2023-03-01
-    latest: "2020.3.15"
-    link: https://unity3d.com/unity/whats-new/2020.3.15
+    latest: "2020.3.16"
+    link: https://unity3d.com/unity/whats-new/2020.3.16
 
   - releaseCycle: "2021.1"
     release: 2021-03-19
