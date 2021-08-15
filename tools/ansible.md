@@ -28,6 +28,8 @@ releases:
 ---
 > [Ansible](https://ansible.com) is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
 
-Starting with version 2.10, Ansible distributes two artifacts: a community package called ansible and a minimalist language and runtime called ansible-core (called ansible-base in version 2.10). The two projects have different versioning systems, maintenance structures, contents, and workflows. 
+The Ansible community package (which this page tracks) typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release. `ansible-core`, the package meant for developers, has [a separate maintenance policy](https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html#id14).
 
-**This page describes only ansible community package release cycles.**
+See the [Ansible Roadmap][roadmap] for upcoming release details.
+
+[roadmap]: https://docs.ansible.com/ansible/2.9/roadmap/index.html#roadmaps
