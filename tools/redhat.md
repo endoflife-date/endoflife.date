@@ -1,5 +1,5 @@
 ---
-releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_cycle_8_0519_releases.png
+releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_cycle_8_0620_planning_0.png
 title: Red Hat Enterprise Linux
 layout: post
 permalink: /rhel
