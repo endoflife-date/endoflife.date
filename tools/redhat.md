@@ -1,5 +1,5 @@
 ---
-releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_cycle_8_0519_releases.png
+releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_cycle_8_0620_planning_0.png
 title: Red Hat Enterprise Linux
 layout: post
 permalink: /rhel
@@ -24,17 +24,18 @@ releases:
   - releaseCycle: "RHEL 6"
     release: 2010-11-10
     support: 2016-05-10
-    eol: 2024-06-30
+    eol: 2020-11-30
+    
   - releaseCycle: "RHEL 7"
     release: 2014-06-10
     support: 2019-12-31
-    eol: false
-    latest: "7.6"
+    eol: 2024-06-30
+    latest: "7.9"
   - releaseCycle: "RHEL 8"
     release: 2019-05-01
     support: 2024-05-31
-    eol: false
-    latest: "8.0"
+    eol: 2029-05-31
+    latest: "8.10"
 ---
 
 > Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market.
