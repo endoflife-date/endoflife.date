@@ -35,7 +35,7 @@ releases:
     release: 2019-05-01
     support: 2024-05-31
     eol: 2029-05-31
-    latest: "8.10"
+    latest: "8.4"
 ---
 
 > Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market.
