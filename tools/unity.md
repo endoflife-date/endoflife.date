@@ -55,7 +55,11 @@ releases:
 ---
 > [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005. The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations and other experiences.
 
-Unity LTS releases as of 2019 LTS offer two years of bi-weekly updates, then an additional year of monthly updates.
+Unity has two releases, the tech stream and LTS branches. 
+
+Tech stream are released twice a year (each one receiving weekly updates), and are supported only until the next tech stream release is out.
+
+Unity LTS releases which are released once a year are based off the previous tech stream branch, as of 2019 LTS, LTS releases offer two years of bi-weekly updates, then an additional year of monthly updates.
 
 
 Unity is a cross-platform engine. The Unity editor is supported on Windows, macOS, and the Linux platform, while the engine itself currently supports building games for more than 19 different platforms, including mobile, desktop, consoles, and virtual reality. Officially supported platforms as of Unity 2020 LTS are:
