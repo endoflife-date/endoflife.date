@@ -11,6 +11,11 @@ command: go version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
+  - releaseCycle: "1.17"
+    cycleShortHand: 117
+    release: 2021-08-16
+    eol: false
+    latest: "1.17"
   - releaseCycle: "1.16"
     cycleShortHand: 116
     release: 2021-02-16
@@ -19,7 +24,7 @@ releases:
   - releaseCycle: "1.15"
     cycleShortHand: 115
     release: 2020-08-11
-    eol: false
+    eol: true
     latest: "1.15.15"
   - releaseCycle: "1.14"
     cycleShortHand: 114
