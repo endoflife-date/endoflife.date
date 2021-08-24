@@ -15,34 +15,34 @@ iconSlug: gitlab
 releases:
   - releaseCycle: "14.2"
     release: 2021-08-22
+    support: 2021-09-22
     eol: 2021-11-22
     latest: "14.2.1"
-    support: 2021-08-22
   - releaseCycle: "14.1"
     release: 2021-07-22
+    support: 2021-08-22
     eol: 2021-10-22
     latest: "14.1.3"
-    support: 2021-08-22
   - releaseCycle: "14.0"
     release: 2021-06-22
-    latest: "14.0.7"
-    eol: 2021-09-22
     support: 2021-07-22
+    eol: 2021-09-22
+    latest: "14.0.7"
   - releaseCycle: "13.12"
     release: 2021-05-22
-    latest: "13.12.9"
-    eol: 2021-08-22
     support: 2021-06-22
+    eol: 2021-08-22
+    latest: "13.12.9"
   - releaseCycle: "13.11"
     release: 2021-04-22
-    latest: "13.11.7"
     support: 2021-05-22
     eol: 2021-07-22
+    latest: "13.11.7"
   - releaseCycle: "13.10"
     release: 2021-03-22
-    latest: "13.10.5"
     support: 2021-04-22
     eol: 2021-06-22
+    latest: "13.10.5"
 
 ---
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
