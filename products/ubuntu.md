@@ -10,7 +10,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "21.04"
+  - releaseCycle: "21.04 'Hirsute Hippo'"
     cycleShortHand: "HirsuteHippo"
     lts: false
     release: 2021-04-22
@@ -18,42 +18,41 @@ releases:
     eol:     2022-01-01
     latest: "21.04"
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
-  - releaseCycle: "20.10"
+  - releaseCycle: "20.10 'Groovy Gorilla'"
     cycleShortHand: "GroovyGorilla"
     lts: false
     release: 2020-10-22
     support: 2021-07-22
     eol:     2021-07-22
     latest: "20.10"
-    # remove link (will use changelogTemplate) with release of 20.10.1
-    link: https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/
-  - releaseCycle: "20.04"
+  - releaseCycle: "20.04 'Focal Fossa'"
     cycleShortHand: "FocalFossa"
     lts: true
     release: 2020-04-23
     support: 2022-10-01
     eol:     2025-04-02
     latest: "20.04.2"
-  - releaseCycle: "19.10"
+  - releaseCycle: "19.10 'Karmic Koala'"
+    cycleShortHand: "KarmicKoala"
     release: 2019-10-17
     support: 2020-07-06
     eol:     2020-07-06
     latest: "19.10"
-  - releaseCycle: "18.04"
+  - releaseCycle: "18.04 'Bionic Beaver'"
     cycleShortHand: "BionicBeaver"
     lts: true
     release: 2018-04-26
     support: 2020-09-30
     eol:     2023-04-02
     latest: "18.04.5"
-  - releaseCycle: "16.04"
+  - releaseCycle: "16.04 'Xenial Xerus'"
     cycleShortHand: "XenialXerus"
     lts: true
     release: 2016-04-21
     support: 2018-10-01
     eol:     2021-04-02
     latest: "16.04.7"
-  - releaseCycle: "14.04"
+  - releaseCycle: "14.04 'TrustyTahr'"
     cycleShortHand: "TrustyTahr"
     lts: true
     release: 2014-04-17
