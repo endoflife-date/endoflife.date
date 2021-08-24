@@ -11,6 +11,10 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Windows Server 2022 (Datacenter, Datacenter Azure Edition, Standard)"
+    release: 2021-08-18
+    support: 2026-10-13
+    eol: 2031-10-14
   - releaseCycle: "Windows Server, version 20H2 (Datacenter, Standard)"
     release: 2020-10-20
     support: 2022-05-10
