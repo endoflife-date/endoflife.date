@@ -63,7 +63,7 @@ releases:
     release: 2011-07-07
     support: 2019-07-31
     eol: 2022-07-31
-    latest: "7u221"
+    latest: "7u311"
   - releaseCycle: "6"
     release: 2006-12-11
     support: 2015-12-31
