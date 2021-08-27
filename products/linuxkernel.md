@@ -9,6 +9,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'release'
+command: uname -r
 releases:
   - releaseCycle: "4.4 LTS"
     release: 2016-01-10
