@@ -18,7 +18,7 @@ releases:
     release: 2016-12-11
     eol: 2023-01-01
     
-  - releaseCycle: "4.14 KTS"
+  - releaseCycle: "4.14 LTS"
     release: 2017-11-12
     eol: 2024-01-01
     
