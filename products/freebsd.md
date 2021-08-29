@@ -58,7 +58,7 @@ releases:
   - releaseCycle: "releng/10.0"
     cycleShortHand: "10.0"
     release: 2014-01-20
-    eol: 2016-02-28
+    eol: 2015-02-28
   - releaseCycle: "releng/9.3"
     cycleShortHand: "9.3"
     release: 2014-07-16
@@ -158,7 +158,7 @@ releases:
   - releaseCycle: "releng/5.3"
     cycleShortHand: "5.3"
     release: 2004-11-06
-    eol: 2005-10-31
+    eol: 2006-10-31
   - releaseCycle: "stable/5"
     cycleShortHand: "5"
     eol: 2008-05-31
