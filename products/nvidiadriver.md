@@ -10,6 +10,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'release'
+command: nvidia-smi 
 releases:
   - releaseCycle: "R390 (LTSB)"
     release: 2018-01-04
