@@ -52,7 +52,7 @@ Worth noting that the devices each branch supports depends on the operating syst
 
 Usually on Linux driver support per branch is indicated by architecture, on Windows only specific models are supported. 
 
-While the R390 branch is meant just for security updates for fermi, usually other branches are for specific toolkits or features, for more information you should [read the this document](https://docs.nvidia.com/datacenter/tesla/drivers/#comparison) and [this forum post](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588) to see which branch is for you. 
+While the R390 branch is meant just for security updates for Fermi, usually other branches are for specific toolkits or features, for more information you should [read this document](https://docs.nvidia.com/datacenter/tesla/drivers/#comparison) and [this forum post](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588) to see which branch is for you. 
 
 For the average consumer it is best to use the latest driver supported, even if this is a LTSB. If the latest branch is a LTSB, this still contains the latest features available.
 
