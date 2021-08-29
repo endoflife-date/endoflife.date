@@ -59,6 +59,6 @@ For the average consumer it is best to use the latest driver supported, even if 
 |   | New Feature Branch (NFB) | Production Branch (PB) | Long Term Support Branch (LTSB) |
 |---|---|---|---|
 | Target Customers | Early adopters who want to evaluate new features | Use in production for enterprise/datacenter GPUs | Use in production for enterprise/datacenter GPUs and for customers looking for a longer cycle of support.  |
-| Major Release Cadence | At least once every 3 months | Twice a year. See also note below | At least once per hardware architecture. |
+| Major Release Cadence | At least once every 3 months | Twice a year. | At least once per hardware architecture. |
 | Length of support | N/A | 1 year | 3 years |
 | Minor release (bug updates and critical security updates) | N/A | Yes. Quarterly bug and security releases for 1 year. | Yes. Quarterly bug and security releases for 1 year. |
