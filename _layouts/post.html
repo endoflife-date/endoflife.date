@@ -49,21 +49,10 @@ or +1 (EoL is in the future)
 {% if r.link and diff > 0 %}
 {{r.link}}
 {% elsif page.changelogTemplate and diff > 0 %}
-{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand}}
+{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand }}
 {% endif %}
 {% endcapture %}
-{% assign releaseLink = releaseLink | strip %}
-<!-- START DEBUG COMMENT
-diffSupport: {{diffSupport}}
-diffSupport6: {{diffSupport6}}
-diff: {{diff}}
-eol: {{r.eol}}
-
-
-: {{releaseLink}}
-
-END DEBUG COMMENT
--->
+{% assign releaseLink = releaseLink | liquify | strip %}
 
 <!-- Main Row starts here -->
 <tr>
