@@ -7,6 +7,8 @@ alternate_urls:
 layout: post
 iconSlug: godotengine
 link: https://docs.godotengine.org/en/latest/about/release_policy.html
+changelogTemplate: |
+  https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
@@ -16,33 +18,28 @@ releases:
     release: 2021-04-22
     support: true
     eol: false
-    latest: "3.3.2"
-    link: https://godotengine.org/article/maintenance-release-godot-3-3-2
+    latest: "3.3.3"
   - releaseCycle: "3.2"
     release: 2020-01-01
     support: false
     eol: true
     latest: "3.2.3"
-    link: https://godotengine.org/article/maintenance-release-godot-3-2-3
   - releaseCycle: "3.1"
     release: 2019-03-01
     support: false
     eol: false
     latest: "3.1.2"
-    link: https://godotengine.org/article/maintenance-release-godot-3-1-2
   - releaseCycle: "3.0"
     release: 2018-01-01
     support: false
     eol: true
     latest: "3.0.6"
-    link: https://godotengine.org/article/maintenance-release-godot-3-0-6
   - releaseCycle: "2.1"
     release: 2016-07-01
     eol: false
     support: false
     latest: "2.1.6"
     lts: true
-    link: https://godotengine.org/article/maintenance-release-godot-2-1-6
   - releaseCycle: "2.0"
     release: 2016-02-01
     eol: true

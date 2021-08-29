@@ -6,3 +6,4 @@ api/
 .idea/
 .jekyll-cache
 _data/gke.json
+.bundle/
