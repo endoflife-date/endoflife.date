@@ -14,6 +14,12 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
+  - releaseCycle: "Pixel 5A"
+    cycleShortHand: 510
+    release: 2021-08-26
+    discontinued: false
+    eol: 2024-08-31
+    support: 2015-11-19
   - releaseCycle: "Pixel 5"
     cycleShortHand: 500
     release: 2020-09-30
