@@ -44,11 +44,6 @@ releases:
   - releaseCycle: "5.13"
     release: 2021-06-28
     eol: false
-    
-  - releaseCycle: "5.14"
-    release: 2021-08-29
-    eol: false
-
 
 ---
 
