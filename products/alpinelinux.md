@@ -32,7 +32,7 @@ releases:
   - releaseCycle: "v3.11"
     release: 2019-12-19
     eol: 2021-11-01
-    cycleShortHand: 312
+    cycleShortHand: 311
     latest: "3.11.11"
     link: https://www.alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
   - releaseCycle: "v3.10"
@@ -44,19 +44,19 @@ releases:
   - releaseCycle: "v3.9"
     release: 2019-01-29
     eol: 2021-01-01
-    cycleShortHand: 390
+    cycleShortHand: 309
     latest: "3.9.6"
     link: https://www.alpinelinux.org/posts/Alpine-3.9.6-and-3.10.5-released.html
   - releaseCycle: "v3.8"
     release: 2018-06-26
     eol: 2020-05-01
-    cycleShortHand: 380
+    cycleShortHand: 308
     latest: "3.8.5"
     link: https://git.alpinelinux.org/aports/log/?h=3.8-stable
   - releaseCycle: "v3.7"
     release: 2017-11-30
     eol: 2019-11-01
-    cycleShortHand: 370
+    cycleShortHand: 307
     latest: "3.7.3"
     link: https://git.alpinelinux.org/aports/log/?h=3.7-stable
 ---
