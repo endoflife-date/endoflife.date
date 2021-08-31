@@ -10,7 +10,7 @@ changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: false
+releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
