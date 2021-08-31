@@ -7,48 +7,58 @@ layout: post
 category: os
 link: https://alpinelinux.org/releases/
 iconSlug: alpinelinux
-changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
+changelogTemplate: https://www.alpinelinux.org/posts/Alpine-{{"__LATEST__"}}-released.html
 activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: 'cycleShortHand'
 releases:
-  - releaseCycle: 'v3.14'
+  - releaseCycle: "v3.14"
     release: 2021-06-15
     eol: 2023-05-01
-    latest: 3.14.0
-    link: https://www.alpinelinux.org/posts/Alpine-3.14.0-released.html
-  - releaseCycle: 'v3.13'
+    cycleShortHand: 314
+    latest: "3.14.2"
+  - releaseCycle: "v3.13"
     release: 2021-01-14
     eol: 2022-11-01
-    latest: 3.13.5
-  - releaseCycle: 'v3.12'
+    cycleShortHand: 313
+    latest: "3.13.5"
+  - releaseCycle: "v3.12"
     release: 2020-05-29
     eol: 2022-05-01
-    latest: 3.12.7
-    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
-  - releaseCycle: 'v3.11'
+    cycleShortHand: 312
+    latest: "3.12.7"
+    link: https://www.alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
+  - releaseCycle: "v3.11"
     release: 2019-12-19
     eol: 2021-11-01
-    latest: 3.11.11
-    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
-  - releaseCycle: 'v3.10'
+    cycleShortHand: 312
+    latest: "3.11.11"
+    link: https://www.alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
+  - releaseCycle: "v3.10"
     release: 2019-06-19
     eol: 2021-05-01
-    latest: 3.10.9
-    link: https://alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
-  - releaseCycle: 'v3.9'
+    cycleShortHand: 310
+    latest: "3.10.9"
+    link: https://www.alpinelinux.org/posts/Alpine-3.10.9-3.11.11-3.12.7-released.html
+  - releaseCycle: "v3.9"
     release: 2019-01-29
     eol: 2021-01-01
-    latest: 3.9.6
-  - releaseCycle: 'v3.8'
+    cycleShortHand: 390
+    latest: "3.9.6"
+    link: https://www.alpinelinux.org/posts/Alpine-3.9.6-and-3.10.5-released.html
+  - releaseCycle: "v3.8"
     release: 2018-06-26
     eol: 2020-05-01
-    latest: 3.8.2
-  - releaseCycle: 'v3.7'
+    cycleShortHand: 380
+    latest: "3.8.5"
+    link: https://git.alpinelinux.org/aports/log/?h=3.8-stable
+  - releaseCycle: "v3.7"
     release: 2017-11-30
     eol: 2019-11-01
-    latest: 3.7.0
+    cycleShortHand: 370
+    latest: "3.7.3"
+    link: https://git.alpinelinux.org/aports/log/?h=3.7-stable
 ---
 
 > [Alpine Linux](https://alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
