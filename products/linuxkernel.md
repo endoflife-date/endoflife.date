@@ -5,49 +5,61 @@ permalink: /linux
 category: os
 iconSlug: linux
 link: https://www.kernel.org/
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/7fd581c797074c2059bfdcf078447733.png
+changelogTemplate: |
+  https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: false
-sortReleasesBy: 'release'
+releaseColumn: true
+sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
-  - releaseCycle: "4.4"
-    release: 2016-01-10
-    eol: 2022-02-01
-    lts: true
-    
-  - releaseCycle: "4.9"
-    release: 2016-12-11
-    eol: 2023-01-01
-    lts: true
-    
-  - releaseCycle: "4.14"
-    release: 2017-11-12
-    eol: 2024-01-01
-    lts: true
-    
-  - releaseCycle: "4.19"
-    release: 2018-10-22
-    eol: 2024-12-01
-    lts: true
-    
-  - releaseCycle: "5.4"
-    release: 2019-11-24
-    eol: 2025-12-01
-    lts: true
-    
+  - releaseCycle: "5.14"
+    cycleShortHand: 514
+    release: 2021-08-29
+    eol: false
+    latest: "5.14"
+  - releaseCycle: "5.13"
+    cycleShortHand: 513
+    release: 2021-06-28
+    eol: false
+    latest: "5.13.13"
   - releaseCycle: "5.10"
+    cycleShortHand: 510
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    
-  - releaseCycle: "5.13"
-    release: 2021-06-28
-    eol: false
-    
-  - releaseCycle: "5.14"
-    release: 2021-08-29
-    eol: false
+    latest: "5.10.61"
+  - releaseCycle: "5.4"
+    cycleShortHand: 504
+    release: 2019-11-24
+    eol: 2025-12-01
+    lts: true
+    latest: "5.4.143"
+  - releaseCycle: "4.19"
+    cycleShortHand: 419
+    release: 2018-10-22
+    eol: 2024-12-01
+    lts: true
+    latest: "4.19.205"
+  - releaseCycle: "4.14"
+    cycleShortHand: 414
+    release: 2017-11-12
+    eol: 2024-01-01
+    lts: true
+    latest: "4.14.245"
+  - releaseCycle: "4.9"
+    cycleShortHand: 409
+    release: 2016-12-11
+    eol: 2023-01-01
+    lts: true
+    latest: "4.9.281"
+  - releaseCycle: "4.4"
+    cycleShortHand: 404
+    release: 2016-01-10
+    eol: 2022-02-01
+    lts: true
+    latest: "4.4.282"
 
 ---
 
