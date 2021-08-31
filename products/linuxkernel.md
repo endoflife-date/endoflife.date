@@ -5,7 +5,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 link: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/f1e192a6041fb7ce59d6f8fe305f7f17.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/7fd581c797074c2059bfdcf078447733.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
@@ -18,8 +18,7 @@ releases:
     cycleShortHand: 514
     release: 2021-08-29
     eol: false
-    latest: "5.14.0"
-    link: "#"
+    latest: "5.14"
   - releaseCycle: "5.13"
     cycleShortHand: 513
     release: 2021-06-28
