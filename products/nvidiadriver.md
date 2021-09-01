@@ -9,7 +9,6 @@ link: https://www.nvidia.com/Download/index.aspx
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: 'release'
 command: nvidia-smi 
 releases:
   - releaseCycle: "R390-Linux (LTSB)"
