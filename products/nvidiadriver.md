@@ -18,6 +18,7 @@ releases:
     eol: 2022-12-31
     latest: "390.144"
     link: https://www.nvidia.com/Download/driverResults.aspx/177153/en-us
+    cycleShortHand: 3901
     
   - releaseCycle: "R418-Linux (LTSB)"
     release: 2019-01-30
@@ -25,6 +26,7 @@ releases:
     eol: 2022-03-01
     latest: "418.197.02"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/index.html
+    cycleShortHand: 4181
     
   - releaseCycle: "R450-Linux (LTSB)"
     release: 2020-06-24
@@ -32,6 +34,7 @@ releases:
     eol: 2023-07-01
     latest: "450.142.00"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/index.html
+    cycleShortHand: 4501
 
   - releaseCycle: "R460-Linux (PB)"
     release: 2021-1-7
@@ -39,6 +42,7 @@ releases:
     eol: 2022-01-01
     latest: "460.91.03"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/index.html
+    cycleShortHand: 4601
 
     
   - releaseCycle: "R465-Linux (NFB)"
@@ -47,6 +51,7 @@ releases:
     eol: 2021-5-18
     latest: "465.31"
     link: https://www.nvidia.com/Download/driverResults.aspx/175539/en-us
+    cycleShortHand: 4603
 
   - releaseCycle: "R470-Linux (LTSB)"
     release: 2021-7-19
@@ -54,7 +59,7 @@ releases:
     eol: 2024-07-01
     latest: "470.63.01"
     link: https://www.nvidia.com/Download/driverResults.aspx/179599/en-us
-    
+    cycleShortHand: 4701
 
   - releaseCycle: "R390-Windows (LTSB)"
     release: 2018-01-08
@@ -62,6 +67,7 @@ releases:
     eol: 2022-12-31
     latest: "392.67"
     link: https://www.nvidia.com/download/driverResults.aspx/177167/en-us
+    cycleShortHand: 3902
     
   - releaseCycle: "R418-Windows (LTSB)"
     release: 2019-02-04
@@ -69,6 +75,7 @@ releases:
     eol: 2022-03-01
     latest: "427.45"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/index.html
+    cycleShortHand: 4182
     
     
     
@@ -78,6 +85,7 @@ releases:
     eol: 2023-07-01
     latest: "453.10"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/index.html
+    cycleShortHand: 4502
 
 
 
@@ -87,6 +95,7 @@ releases:
     eol: 2022-01-01
     latest: "462.96"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/index.html
+    cycleShortHand: 4602
 
     
   - releaseCycle: "R470-Windows (LTSB)"
@@ -95,6 +104,7 @@ releases:
     eol: 2024-07-01
     latest: "471.96"
     link: https://www.nvidia.com/download/driverResults.aspx/180223/en-us
+    cycleShortHand: 4702
 
 ---
 
