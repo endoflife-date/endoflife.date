@@ -45,13 +45,6 @@ releases:
     cycleShortHand: 4601
 
     
-  - releaseCycle: "R465-Linux (NFB)"
-    release: 2021-4-14
-    support: 2021-5-18
-    eol: 2021-5-18
-    latest: "465.31"
-    link: https://www.nvidia.com/Download/driverResults.aspx/175539/en-us
-    cycleShortHand: 4603
 
   - releaseCycle: "R470-Linux (LTSB)"
     release: 2021-7-19
