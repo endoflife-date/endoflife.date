@@ -8,7 +8,7 @@ iconSlug: nvidia
 link: https://www.nvidia.com/Download/index.aspx
 activeSupportColumn: true
 releaseDateColumn: true
-releaseColumn: false
+releaseColumn: true
 sortReleasesBy: 'release'
 command: nvidia-smi 
 releases:
