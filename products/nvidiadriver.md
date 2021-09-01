@@ -54,7 +54,7 @@ Usually on Linux driver support per branch is indicated by architecture, on Wind
 
 While the R390 branch is meant just for security updates for Fermi, usually other branches are for specific toolkits or features, for more information you should [read this document](https://docs.nvidia.com/datacenter/tesla/drivers/#comparison) and [this forum post](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588) to see which branch is for you. 
 
-For the average consumer it is best to use the latest driver supported, even if this is a LTSB. If the latest branch is a LTSB, this still contains the latest features available.
+For the average consumer it is best to use the latest driver branch supported by your hardware.
 
 |   | New Feature Branch (NFB) | Production Branch (PB) | Long Term Support Branch (LTSB) |
 |---|---|---|---|
