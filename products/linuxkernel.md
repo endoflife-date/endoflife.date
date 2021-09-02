@@ -61,6 +61,10 @@ releases:
     lts: true
     latest: "4.4.282"
 
+  - releaseCycle: "5.14"
+    release: 2021-08-29
+    eol: false
+
 ---
 
 > The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel.
