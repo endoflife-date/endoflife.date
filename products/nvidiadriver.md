@@ -3,7 +3,7 @@ releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-b
 title: NVIDIA driver
 layout: post
 permalink: /nvidia
-category: os
+category: app
 iconSlug: nvidia
 link: https://www.nvidia.com/Download/index.aspx
 activeSupportColumn: true
@@ -28,7 +28,6 @@ releases:
     link: https://www.nvidia.com/download/driverResults.aspx/177167/en-us
     cycleShortHand: 2
 
-
   - releaseCycle: "R418-Linux (LTSB)"
     release: 2019-01-30
     support: 2019-03-20
@@ -36,7 +35,6 @@ releases:
     latest: "418.197.02"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/index.html
     cycleShortHand: 3
-    
     
   - releaseCycle: "R418-Windows (LTSB)"
     release: 2019-02-04
@@ -62,7 +60,6 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/index.html
     cycleShortHand: 6
 
-
   - releaseCycle: "R460-Linux (PB)"
     release: 2021-1-7
     support: 2021-7-19
@@ -78,7 +75,6 @@ releases:
     latest: "462.96"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/index.html
     cycleShortHand: 8
-    
 
   - releaseCycle: "R470-Linux (LTSB)"
     release: 2021-7-19
@@ -98,13 +94,27 @@ releases:
 
 ---
 
-> Nvidia drivers provide support for different NVIDIA hardware and software. While [legacy releases](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) may only focus on keeping old architectures running on the latest operating systems with the latest security updates such as with the R390 branch for Fermi, usually other branches are for specific toolkits or features, for more information you should [read this document](https://docs.nvidia.com/datacenter/tesla/drivers/#comparison) and [this forum post](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588) to see which branch is for you. Also note that if the latest driver branch is a LTSB, this branch may be listed as a production branch in driver searches until the next driver branch is released. 
+> Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
 
-Worth noting that the devices each branch supports depends on the operating system. For example the R390 branch mainly exists simply to provide security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are supported](http://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html), on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf).
+Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
-Usually on Linux driver support per branch is indicated by architecture, on Windows only specific models are supported. 
+- 32 bit operating systems are [no longer supported](https://nvidia.custhelp.com/app/answers/detail/a_id/4604). 32-bit applications running on x86_64 are still supported.
+- There is a well defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle)
+- A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588)
 
-For the average consumer it is best to use the latest driver branch supported by your hardware.
+Since LTSB branches are also production branches, it  may be listed as a production branch in driver searches until the next driver branch is released. It is best to use the latest driver branch supported by your hardware.
+
+## GPU Support
+
+GPUs supported by any given branch is dependent on the operating system.
+
+- GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
+- A list of [GPUs no longer supported on Windows](https://nvidia.custhelp.com/app/answers/detail/a_id/3473) is available.
+- Usually on Linux driver support per branch is indicated by architecture, but on Windows only specific models are supported. For example the R390 branch mainly exists simply to provide security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are supported](http://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html), on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf)
+
+## Cadence
+
+The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
 
 |   | New Feature Branch (NFB) | Production Branch (PB) | Long Term Support Branch (LTSB) |
 |---|---|---|---|
