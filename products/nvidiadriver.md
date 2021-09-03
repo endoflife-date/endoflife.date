@@ -98,7 +98,7 @@ releases:
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
-- 32 bit operating systems are [no longer supported](https://nvidia.custhelp.com/app/answers/detail/a_id/4604). 32-bit applications running on x86_64 are still supported.
+- 32 bit operating systems are [no longer supported](https://nvidia.custhelp.com/app/answers/detail/a_id/4604) outside of the `R390` branch. 32-bit applications running on x86_64 are still supported.
 - There is a well defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle)
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588)
 
