@@ -55,9 +55,14 @@ releases:
   - releaseCycle: Nougat (7.x)
     release: 2016-08-22
     eol: true
-  - releaseCycle: Oreo (8.x)
+  - releaseCycle: Oreo (8.0.x)
     release: 2017-08-21
+    eol: true
+    
+  - releaseCycle: Oreo (8.1.x)
+    release: 2017-12-05
     eol: false
+
   - releaseCycle: Pie (9.x)
     release: 2018-08-06
     eol: false
