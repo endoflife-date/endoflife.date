@@ -6,6 +6,7 @@ link: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
+releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "2017 LTS"
