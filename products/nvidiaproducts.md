@@ -2,13 +2,14 @@
 title: NVIDIA products
 layout: post
 permalink: /nvidiaproducts
-category: app
+category: device
 iconSlug: nvidia
 link: https://www.nvidia.com/en-us/geforce/graphics-cards/
 activeSupportColumn: true
 releaseDateColumn: true
 discontinuedColumn: true
 sortReleasesBy: 'release'
+releaseColumn: false
 releases:
   - releaseCycle: "Consumer Fermi (GF1xx)*"
     release: 2010-03-26
