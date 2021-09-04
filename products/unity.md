@@ -24,8 +24,8 @@ releases:
   - releaseCycle: "2019 LTS"
     release: 2020-06-09
     eol: 2022-06-01
-    latest: "2019.4.29"
-    link: https://unity3d.com/unity/whats-new/2019.4.29
+    latest: "2019.4.30"
+    link: https://unity3d.com/unity/whats-new/2019.4.30
    
   - releaseCycle: "2020 LTS"
     release: 2021-03-11
