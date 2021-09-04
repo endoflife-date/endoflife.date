@@ -34,7 +34,7 @@ releases:
     lts: true
     latest: "2018.4.36"
 
- - releaseCycle: "2017"
+  - releaseCycle: "2017"
     release: 2017-03-20
     eol: 2020-04-20
     lts: true
