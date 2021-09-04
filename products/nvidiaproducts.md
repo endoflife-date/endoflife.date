@@ -104,7 +104,7 @@ releases:
     release: 2016-08-15
     support: true
     eol: false
-    discontinued: -1
+    discontinued: 2021-09-01
 
 
   - releaseCycle: "Professional Volta (GV100)" 
