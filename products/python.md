@@ -53,3 +53,8 @@ releases:
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
 
 By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
+
+See the Python Developer's Guide for:
+
+* [Active branches](https://devguide.python.org/#status-of-python-branches)
+* [End-of-life branches](https://devguide.python.org/devcycle/#end-of-life-branches)
