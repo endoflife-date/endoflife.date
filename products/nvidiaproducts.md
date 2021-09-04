@@ -10,7 +10,7 @@ releaseDateColumn: true
 discontinuedColumn: true
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: "Consumer Fermi (GF1xx)"
+  - releaseCycle: "Consumer Fermi (GF1xx)*"
     release: 2010-03-26
     support: 2018-03-10
     eol: 2018-03-10
