@@ -1,7 +1,7 @@
 ---
 title: NVIDIA products
 layout: post
-permalink: /nvidia-products
+permalink: /nvidiaproducts
 category: app
 iconSlug: nvidia
 link: https://www.nvidia.com/en-us/geforce/graphics-cards/
@@ -15,6 +15,7 @@ releases:
     support: 2018-03-10
     eol: 2018-03-10
     discontinued: true
+    
   - releaseCycle: "Professional Fermi (GF1xx)"
     release: 2010-07-23
     support: 2018-07-31
