@@ -14,13 +14,13 @@ releases:
     release: 2010-03-26
     support: 2018-03-10
     eol: 2018-03-10
-    discontinued: true
+    discontinued: -1
     
   - releaseCycle: "Professional Fermi (GF1xx)"
     release: 2010-07-23
     support: 2018-07-31
     eol: 2022-12-31
-    discontinued: true
+    discontinued: -1
 
 
 
@@ -28,28 +28,28 @@ releases:
     release: 2012-03-22
     support: true
     eol: 2024-07-01
-    discontinued: true
+    discontinued: -1
 
     
   - releaseCycle: "Professional Kepler (GKxxx)"
     release: 2013-03-01
     support: true
     eol: 2024-07-01
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Professional Kepler (GKxxx)" # Verify release date.
     release: 2012-03-22
     support: 2019-04-23
     eol: 2020-04-30
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Consumer Kepler (GKxxx)" 
     release: 2012-03-22
     support: 2019-03-11
     eol: 2019-04-11
-    discontinued: true
+    discontinued: -1
 
 
 
@@ -57,54 +57,54 @@ releases:
     release: 2014-09-19
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
     
   - releaseCycle: "Professional Maxwell (GMxxx)"
     release: 2015-06-29
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Professional Maxwell (GMxxx)" 
     release: 2015-08-18
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Consumer Maxwell (GMxxx)" 
     release: 2014-10-07
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Consumer Pascal (GP10x)"
     release: 2016-05-27
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
    
   - releaseCycle: "Professional Pascal (GP10x)"
     release: 2016-04-05
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Professional Pascal (GP10x)"
     release: 2017-02-06
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Consumer Pascal (GP10x)" 
     release: 2016-08-15
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Professional Volta (GV100)" 
@@ -118,27 +118,27 @@ releases:
     release: 2018-09-20
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
   - releaseCycle: "Professional Turing (TU1xX)"
     release: 2018-08-13
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Professional Turing (TU1xX)"
     release: 2019-05-27
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Mobile Consumer Turing (TU1xX)" 
     release: 2019-01-29
     support: true
     eol: false
-    discontinued: true
+    discontinued: -1
 
 
   - releaseCycle: "Consumer Ampere (GA10x)"
