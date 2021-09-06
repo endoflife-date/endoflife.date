@@ -1,6 +1,8 @@
 ---
 permalink: /unity
 title: Unity
+alternate_urls:
+  - /unity3d
 layout: post
 link: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
