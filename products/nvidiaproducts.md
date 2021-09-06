@@ -7,7 +7,7 @@ iconSlug: nvidia
 link: https://www.nvidia.com/en-us/geforce/graphics-cards/
 activeSupportColumn: true
 releaseDateColumn: true
-discontinuedColumn: true
+discontinuedColumn: false
 sortReleasesBy: 'release'
 releaseColumn: false
 releases:
