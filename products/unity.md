@@ -1,43 +1,46 @@
 ---
 permalink: /unity
 title: Unity
+alternate_urls:
+  - /unity3d
 layout: post
 link: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
+changelogTemplate: |
+  https://unity3d.com/unity/whats-new/__LATEST__
 releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
 sortReleasesBy: "release"
 releases:
-  - releaseCycle: "2017 LTS"
-    release: 2017-03-20
-    eol: 2020-04-20
-    latest: "2017.4.40"
-    link: https://unity3d.com/unity/whats-new/2017.4.40
-    
-  - releaseCycle: "2018 LTS"
-    release: 2019-05-10
-    eol: 2021-06-18
-    latest: "2018.4.36"
-    link: https://unity3d.com/unity/qa/lts-releases?version=2018.4&page=1
-
-  - releaseCycle: "2019 LTS"
-    release: 2020-06-09
-    eol: 2022-06-01
-    latest: "2019.4.30"
-    link: https://unity3d.com/unity/whats-new/2019.4.30
-   
-  - releaseCycle: "2020 LTS"
-    release: 2021-03-11
-    eol: 2023-03-01
-    latest: "2020.3.17"
-    link: https://unity3d.com/unity/whats-new/2020.3.17
-
   - releaseCycle: "2021.1"
     release: 2021-03-19
     eol: false
     latest: "2021.1.16"
-    link: https://unity3d.com/unity/whats-new/2021.1.16
+
+  - releaseCycle: "2020"
+    release: 2021-03-11
+    eol: 2023-03-01
+    lts: true
+    latest: "2020.3.17"
+
+  - releaseCycle: "2019"
+    release: 2020-06-09
+    eol: 2022-06-01
+    lts: true
+    latest: "2019.4.30"
+
+  - releaseCycle: "2018"
+    release: 2019-05-10
+    eol: 2021-06-18
+    lts: true
+    latest: "2018.4.36"
+
+  - releaseCycle: "2017"
+    release: 2017-03-20
+    eol: 2020-04-20
+    lts: true
+    latest: "2017.4.40"
 
 ---
 > [Unity](https://unity.com/) is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005. The engine can be used to create three-dimensional (3D) and two-dimensional (2D) games, as well as interactive simulations and other experiences.
