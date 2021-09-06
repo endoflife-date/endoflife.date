@@ -174,7 +174,7 @@ releases:
 
 ## Naming scheme
 
-- Professional cards include cards under their `NVS`, `Quadro`, `Quadro RTX`, `GRID`, and `Tesla`.
+- Professional cards include cards under their `NVS`, `Quadro`, `Quadro RTX`, `GRID`, and `Tesla` lineups.
 - Consumer cards include their `GeForce` and `Titan` lineups. 
 
 
@@ -190,6 +190,8 @@ There are multiple GPUs with the same name but part of a different architecture 
 
 
 Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. Easiest way to check this is to [download and run GPU-Z](https://www.techpowerup.com/gpuz/), it'll show you your GPU architecture there, which you can cross reference to see its support status.
+
+
 
 In addition to different architectures being used on the same branded cards, all-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
 
