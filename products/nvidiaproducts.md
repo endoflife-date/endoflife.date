@@ -180,7 +180,7 @@ releases:
 
 ## Common misconceptions
 
-There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are also cases where a card is rebranded across series, for example:
+There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are also other cases to be careful of:
 
 ### Desktop:
 
@@ -190,6 +190,7 @@ There are multiple GPUs with the same name but part of a different architecture 
 - GT 645/620 is a Fermi card, even though all other 600 series are Kepler varients (with the exception of the above)
 - GT 705 has a GF119 (Fermi) and a GK208 (Kepler) varient.
 - GTX 745, 750 and 750 Ti are Maxwell, even though all other 700 series are Kepler varients (with the exception of the above)
+- All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
 
 ### Laptop:
 
@@ -202,9 +203,6 @@ There are multiple GPUs with the same name but part of a different architecture 
 
 Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. Easiest way to check this is to [download and run GPU-Z](https://www.techpowerup.com/gpuz/), it'll show you your GPU architecture there, which you can cross reference to see its support status.
 
-
-
-In addition to different architectures being used on the same branded cards, all-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
 
 *Consumer GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 
