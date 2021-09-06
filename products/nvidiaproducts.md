@@ -42,7 +42,7 @@ releases:
   - releaseCycle: "Mobile Professional Kepler (GKxxx)" # Verify release date.
     release: 2012-03-22
     support: 2019-04-23
-    eol: 2024-07-01
+    eol: 2022-03-01
     discontinued: 2021-09-01
 
 
