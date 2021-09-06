@@ -182,11 +182,22 @@ releases:
 
 There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are also cases where a card is rebranded across series, for example:
 
+### Desktop:
+
 - GT 730: Has a GF108 (Fermi) and a GK208 (Kepler) varient.
 - GT 625: Has a GF108 (Fermi) and a GK107/GK208 (Kepler) varient. 
 - GT 640: Has a GF116 (Fermi) and a GK107/GK208 (Kepler) varient. 
-- GT 645 is a Fermi card, even though all other 600 series are Kepler varients (with the exception of the above)
+- GT 645/620 is a Fermi card, even though all other 600 series are Kepler varients (with the exception of the above)
 - GT 705 has a GF119 (Fermi) and a GK208 (Kepler) varient.
+- GTX 745, 750 and 750 Ti are Maxwell, even though all other 700 series are Kepler varients (with the exception of the above)
+
+### Laptop:
+
+- GT 810M/820M are Fermi cards.
+- GT 825M/870M/880M are Kepler cards.
+- GTX 870M: Has a GM107 (Maxwell) and a GK104 (Kepler) varient.
+- GT 920M is a Kepler card.
+
 
 
 Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. Easiest way to check this is to [download and run GPU-Z](https://www.techpowerup.com/gpuz/), it'll show you your GPU architecture there, which you can cross reference to see its support status.
