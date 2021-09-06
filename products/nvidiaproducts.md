@@ -206,4 +206,4 @@ Due to this confusing naming scheme, one should not look at just the model name 
 
 *Consumer GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 
-** Not all Professional Fermi (GF1xx) GPUs are still supported, see the [official GPU support list](https://us.download.nvidia.com/Windows/Quadro_Certified/392.67/392.67-win10-quadro-release-notes.pdf) for specific models. 
+** Not all Professional Fermi (GF1xx) GPUs are still supported on Windows, see the [official GPU support list](https://us.download.nvidia.com/Windows/Quadro_Certified/392.67/392.67-win10-quadro-release-notes.pdf) for specific models. On Linux there support is for all Fermi GPUs. 
