@@ -172,6 +172,12 @@ releases:
 
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
 
+## Naming scheme
+
+- Professional cards include cards under their `NVS`, `Quadro`, `Quadro RTX`, `GRID`, and `Tesla`.
+- Consumer cards include their `GeForce` and `Titan` lineups. 
+
+
 ## Common misconceptions
 
 There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are also cases where a card is rebranded across series, for example:
@@ -185,7 +191,7 @@ There are multiple GPUs with the same name but part of a different architecture 
 
 Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. Easiest way to check this is to [download and run GPU-Z](https://www.techpowerup.com/gpuz/), it'll show you your GPU architecture there, which you can cross reference to see its support status.
 
-
+In addition to different architectures being used on the same branded cards, all-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
 
 *Consumer GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 
