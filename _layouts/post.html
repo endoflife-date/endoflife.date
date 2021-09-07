@@ -110,7 +110,7 @@ or +1 (EoL is in the future)
   <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
     {% if r.discontinued %}
       {% if r.discontinued == true%}
-        Yes
+        Discontinued
       {% else %}
         {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
       {% endif %}
