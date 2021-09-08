@@ -10,24 +10,27 @@ iconSlug: firefox
 releaseImage: https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2019-07-30-21-30-24-83ef28.png
 changelogTemplate: |
   https://www.mozilla.org/en-US/firefox/__LATEST__/releasenotes/
-sortReleasesBy: "release"
+sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "Firefox 92"
     release: 2021-09-07
     eol: false
     latest: "92.0"
+    cycleShortHand: 3
 
 
   - releaseCycle: "Firefox 91.1 ESR"
     release: 2021-09-07
     eol: false
     latest: "91.1.0"
+    cycleShortHand: 2
 
 
   - releaseCycle: "Firefox 78 ESR"
     release: 2020-06-30
     eol: 2021-11-02
     latest: "78.14.0"
+    cycleShortHand: 1
 
 
 ---
@@ -37,7 +40,7 @@ releases:
 
  - Firefox: Simply named Firefox, this is the default channel and is the one recommended. It's the stable branch with the latest features available. Once a new release is out, the older release immediately stops receiving support and everyone must migrate to the next Firefox release.
 
- - Firefox Extended Support Release (ESR): is an official version of Firefox developed for large organizations like universities and businesses that need to set up and maintain Firefox on a large scale. Firefox ESR does not come with the latest features but it has the latest security and stability fixes. Usually these branches are supported for a year, [with a planned release calendar for new ESR branches.](https://wiki.mozilla.org/Release_Management/Calendar)
+ - Firefox Extended Support Release (ESR): is an official version of Firefox developed for large organizations like universities and businesses that need to set up and maintain Firefox on a large scale. Firefox ESR does not come with the latest features but it has the latest security and stability fixes. Usually these branches are supported for a year, [with a planned release calendar for new ESR branches.](https://wiki.mozilla.org/Release_Management/Calendar) For more information you should review the [release cycle documentation.](https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle)
 
 
 
