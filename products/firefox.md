@@ -7,6 +7,7 @@ link: https://www.mozilla.org/en-US/firefox/
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
+releaseImage: https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2019-07-30-21-30-24-83ef28.png
 changelogTemplate: |
   https://www.mozilla.org/en-US/firefox/__LATEST__/releasenotes/
 sortReleasesBy: "release"
@@ -40,6 +41,7 @@ releases:
 
 
 
+## Special notes 
 
 - Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15, which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when Firefox 78 ESR reaches EOL on 2021-11-02. 
 
