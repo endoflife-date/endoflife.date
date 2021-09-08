@@ -12,21 +12,6 @@ changelogTemplate: |
   https://www.mozilla.org/en-US/firefox/__LATEST__/releasenotes/
 sortReleasesBy: 'cycleShortHand'
 releases:
-  - releaseCycle: "Firefox 94.0 Nightly"
-    release: 2021-09-07
-    eol: false
-    cycleShortHand: 6
-
-
-  - releaseCycle: "Firefox 93.0 Beta"
-    release: 2021-09-07
-    eol: false
-    cycleShortHand: 5
-
-  - releaseCycle: "Firefox 93.0 Developer Edition"
-    release: 2021-09-07
-    eol: false
-    cycleShortHand: 4
 
   - releaseCycle: "Firefox 92"
     release: 2021-09-07
