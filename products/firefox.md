@@ -73,6 +73,7 @@ releases:
 - Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15, which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when Firefox 78 ESR reaches EOL on 2021-11-02. 
 - Firefox 78 ESR is the last version of Firefox that supports macOS versions < 10.12. 
 - Firefox only supports last 3 Mac OS releases, [matching the Apple support cycle.](https://support.mozilla.org/en-US/kb/firefox-mac-osx-users-esr)
+- On iOS Firefox is forced by Apple to use WebKit rendering engine instead of Firefox's own Gecko, for similar reasons browser-addons are not allowed on iOS unlike on Android. [Both of these limitations are due to Apple's rules for submitting apps to the App Store.](https://developer.apple.com/app-store/review/guidelines/)
 
 [ff-win]: https://support.mozilla.org/en-US/kb/how-download-and-install-firefox-windows
 [ff-android]: https://support.mozilla.org/en-US/products/mobile
