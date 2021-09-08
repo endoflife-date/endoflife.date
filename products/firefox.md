@@ -64,7 +64,7 @@ releases:
 
 - **Firefox Developer Edition:** This branch is based off the **Firefox Beta** branch with additional DevTools merged in. It gets released aslongside the **Firefox Beta** release, following the same release pattern. Version number is always `X + 1`, `X` being the **Firefox** version number.
 
-- **Firefox Nightly:** This is the branch that receives all the changes before anything else. It gets daily updates which represent the master branch. This is the brancg that first features new changes/features, which then may be forwarded to **Firefox Beta** after being tested. Version number is always `X + 2`, `X` being the **Firefox** version number.
+- **Firefox Nightly:** This is the branch that receives all the changes before anything else. It gets daily updates which represent the master branch. This is the branch that first features new changes/features, which then may be forwarded to **Firefox Beta** after being tested. Version number is always `X + 2`, `X` being the **Firefox** version number.
 
 
 
