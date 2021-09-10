@@ -108,7 +108,15 @@ or +1 (EoL is in the future)
 
   {% if page.discontinuedColumn %}
   <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
-    {% if r.discontinued %} {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}}){% else %}In Production{% endif %}</div>
+    {% if r.discontinued %}
+      {% if r.discontinued == true%}
+        Discontinued
+      {% else %}
+        {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
+      {% endif %}
+    {% else %}
+      In Production
+    {% endif %}
   </td>
   {% endif %}
 
