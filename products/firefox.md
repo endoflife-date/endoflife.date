@@ -7,7 +7,6 @@ link: https://www.mozilla.org/en-US/firefox/
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
-releaseImage: https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2019-07-30-21-30-24-83ef28.png
 changelogTemplate: |
   https://www.mozilla.org/en-US/firefox/__LATEST__/releasenotes/
 sortReleasesBy: 'cycleShortHand'
