@@ -20,7 +20,7 @@ releases:
     latest: "1.19.8"
   - releaseCycle: "1.18"
     eol: 2022-02-18
-    release: 2020-03-23
+    release: 2020-10-13
     latest: "1.18.16"
   - releaseCycle: "1.17"
     eol: 2021-11-02
