@@ -170,7 +170,7 @@ releases:
 
 ---
 
-> Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
+> Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia GPUs, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
 
 ## Naming scheme
 
@@ -207,9 +207,12 @@ Due to this confusing naming scheme, one should not look at just the model name 
 2. First identify if you have a consumer or a frofessional card. If you see `GeForce` or `Titan` in the Name, you have a consumer card. If you see `NVS`, `Quadro`, `Quadro RTX`, `GRID`, or `Tesla` in the name, you have a professional card.
 3. Next identify the card architecture. This will be the GPU textbox. You can cross reference this with the support table at the top of this page. 
 
+
 This GPU Code follows a similar pattern for most cards, for example we have `GA102`:
 
+
 `G`: This means generation
+
 `A`: This means it belongs to the **Ampere** generation.
 
 Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture. 
