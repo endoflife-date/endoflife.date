@@ -196,13 +196,25 @@ There are multiple GPUs with the same name but part of a different architecture 
 
 - GT 810M/820M are Fermi cards.
 - GT 825M/870M/880M are Kepler cards.
-- GTX 870M: Has a GM107 (Maxwell) and a GK104 (Kepler) varient.
 - GT 920M is a Kepler card.
+- Most cards in the 800M series have multiple varients with varying architectures (A card in this series can be Fermi, Kepler or Maxwell). 
 
+## Identifying your GPU
 
+Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. 
 
-Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture. Easiest way to check this is to [download and run GPU-Z](https://www.techpowerup.com/gpuz/), it'll show you your GPU architecture there, which you can cross reference to see its support status.
+1. [Download and run GPU-Z](https://www.techpowerup.com/gpuz/).
+2. First identify if you have a consumer or a frofessional card. If you see `GeForce` or `Titan` in the Name, you have a consumer card. If you see `NVS`, `Quadro`, `Quadro RTX`, `GRID`, or `Tesla` in the name, you have a professional card.
+3. Next identify the card architecture. This will be the GPU textbox. You can cross reference this with the support table at the top of this page. 
 
+This GPU Code follows a similar pattern for most cards, for example we have `GA102`:
+
+`G`: This means generation
+`A`: This means it belongs to the **Ampere** generation.
+
+Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture. 
+
+## Support disclaimers
 
 *Consumer GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 
