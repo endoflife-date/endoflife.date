@@ -74,6 +74,10 @@ releases:
     release: 2020-11-13
     discontinued: false
     eol: false
+  - releaseCycle: "iPhone 13 / 13 Mini / 13 Pro / 13 Pro Max"
+    release: 2021-09-24
+    discontinued: false
+    eol: false
 ---
 
 > The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system.
