@@ -16,12 +16,12 @@ releases:
     release: 2021-06-16
     support: 2021-12-08
     eol:     2022-06-01
-    latest:  "9.2.4"
+    latest:  "9.2.6"
   - releaseCycle: "9.1"
     release: 2020-12-02
     support: 2021-06-16
     eol:     2021-12-08
-    latest:  "9.1.12"
+    latest:  "9.1.13"
   - releaseCycle: "9.0"
     release: 2020-06-03
     support: 2020-12-02
@@ -31,7 +31,7 @@ releases:
     release: 2020-06-03
     support: 2020-12-01
     eol:     2021-11-01
-    latest:  "8.9.18"
+    latest:  "8.9.19"
     lts: true
   - releaseCycle: "8.8"
     release: 2019-12-04
