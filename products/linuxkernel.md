@@ -18,27 +18,27 @@ releases:
     cycleShortHand: 514
     release: 2021-08-29
     eol: false
-    latest: "5.14.1"
+    latest: "5.14.5"
     
   - releaseCycle: "5.13"
     cycleShortHand: 513
     release: 2021-06-28
     eol: false
-    latest: "5.13.14"
+    latest: "5.13.18"
     
   - releaseCycle: "5.10"
     cycleShortHand: 510
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    latest: "5.10.62"
+    latest: "5.10.66"
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
     release: 2019-11-24
     eol: 2025-12-01
     lts: true
-    latest: "5.4.144"
+    latest: "5.4.147"
     
   - releaseCycle: "4.19"
     cycleShortHand: 419
