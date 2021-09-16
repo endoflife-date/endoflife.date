@@ -20,11 +20,11 @@ releases:
     support: 2022-10-11
     eol: 2027-10-12
     latest: 14.0.2027.2 GDR 14.0.3411.3 CU26
-  - releaseCycle: 2016 SP2
+  - releaseCycle: 2016 SP3
     release: 2018-04-24
     support: 2021-07-13
     eol: 2026-07-14
-    latest: 13.0.5102.14 SP2 GDR 13.0.5888.11 SP2 CU17
+    latest: 13.0.6300.2 SP3 GDR
   - releaseCycle: 2014 SP3
     release: 2018-10-30
     support: 2019-07-09
