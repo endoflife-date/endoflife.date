@@ -53,7 +53,7 @@ Releases are fully supported for 2 minor versions from initial stable release. D
 
 **Drupal 9.1** will receive security coverage until December 8, 2021 when Drupal 9.3.0 is released.
 
-**Drupal 9.0** will receive security coverage until June 16, 2021 when Drupal 9.2.0 is released.
+**Drupal 9.0** received security coverage until June 16, 2021 when Drupal 9.2.0 was released.
 
 **Drupal 8.9.x** as the LTS cycle for Drupal 8 will [be supported until November, 2021](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
 
