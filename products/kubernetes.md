@@ -4,7 +4,7 @@ layout: post
 title: Kubernetes
 category: server-app
 command: kubectl version
-link: https://github.com/kubernetes/sig-release/blob/master/releases/patch-releases.md#support-period
+link: https://github.com/kubernetes/website/blob/main/content/en/releases/patch-releases.md
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 sortReleasesBy: "release"
@@ -14,34 +14,39 @@ alternate_urls:
   - /k8s
 # The release date for "N" should match the eol date for N-3 release.
 releases:
-  - releaseCycle: "1.16"
-    release: 2019-10-22
-    eol: 2020-08-04
-    latest: "1.16.16"
+  - releaseCycle: "1.22"
+    release: 2021-08-04
+    latest: "1.22.2"
+    support: 2022-08-28
+    eol: 2022-10-28
+  - releaseCycle: "1.21"
+    release: 2021-04-08
+    latest: "1.21.5"
+    support: 2022-04-28
+    eol: 2022-06-28
+  - releaseCycle: "1.20"
+    release: 2020-12-08
+    latest: "1.20.11"
+    support: 2021-12-28
+    eol: 2022-02-28
+  - releaseCycle: "1.19"
+    release: 2020-08-27
+    latest: "1.19.15"
+    support: 2021-08-28
+    eol: 2021-10-28
+  - releaseCycle: "1.18"
+    release: 2020-03-25
+    latest: "1.18.20"
+    support: 2021-04-28
+    eol: 2021-06-18
   - releaseCycle: "1.17"
     release: 2019-12-09
     latest: "1.17.17"
     eol: 2020-12-25
-  - releaseCycle: "1.18"
-    release: 2020-03-25
-    latest: "1.18.18"
-    eol: 2021-05-12
-    support: 2021-04-28
-  - releaseCycle: "1.19"
-    release: 2020-08-27
-    latest: "1.19.10"
-    support: 2021-08-28
-    eol: 2021-10-28
-  - releaseCycle: "1.20"
-    release: 2020-12-08
-    latest: "1.20.6"
-    support: 2021-12-28
-    eol: 2022-02-28
-  - releaseCycle: "1.21"
-    release: 2021-04-09
-    latest: "1.21.0"
-    support: 2022-04-28
-    eol: 2022-06-28
+  - releaseCycle: "1.16"
+    release: 2019-10-22
+    eol: 2020-08-04
+    latest: "1.16.16"
 ---
 >[Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
 
