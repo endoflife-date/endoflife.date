@@ -1,7 +1,10 @@
 ---
 title: NVIDIA products
 layout: post
-permalink: /nvidiaproducts
+permalink: /nvidia-products
+alternate_urls:
+  - /nvidia-gpu
+  - /nvidia-gpus
 category: device
 iconSlug: nvidia
 link: https://www.nvidia.com/en-us/geforce/graphics-cards/
