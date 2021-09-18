@@ -44,13 +44,13 @@ alternate_urls:
 # More information link. This link should contain
 # information about the release policy and schedule
 link: https://www.suse.com/lifecycle
-activeSupportColumn: false
+activeSupportColumn: true
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
 releaseColumn: true
 # Whether to show the release date column
 # optional, default false
 releaseDateColumn: true
-eolColumn: End of Life
+eolColumn: LTSS
 command: cat /etc/os-release
 
 ---
