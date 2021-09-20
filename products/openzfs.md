@@ -10,7 +10,6 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: "NA"
-activeSupportColumn: true
 releases:
 
     - releaseCycle: "OpenZFS 2.1"
