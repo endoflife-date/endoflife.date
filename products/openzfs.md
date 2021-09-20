@@ -31,7 +31,7 @@ releases:
 
 ---
 
-> [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that encompasses the functionality of traditional filesystems and volume manager. It includes protection against data corruption, support for high storage capacities, efficient data compression, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, encryption, remote replication with ZFS send and receive, and RAID-Z. [With plans to support for macOS in the future](https://github.com/openzfs/zfs/pull/12110).  
+> [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that encompasses the functionality of traditional filesystems and volume manager. It includes protection against data corruption, support for high storage capacities, efficient data compression, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, encryption, remote replication with ZFS send and receive, and RAID-Z. [With plans to support macOS in the future](https://github.com/openzfs/zfs/pull/12110).  
 
 ## Release branches
 
