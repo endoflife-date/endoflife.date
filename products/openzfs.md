@@ -9,6 +9,7 @@ changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/__LATEST__
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+iconSlug: "NA"
 releases:
 
     - releaseCycle: "OpenZFS 2.1"
