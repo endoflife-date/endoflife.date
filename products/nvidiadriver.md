@@ -80,16 +80,16 @@ releases:
     release: 2021-7-19
     support: true
     eol: 2024-07-01
-    latest: "470.63.01"
-    link: https://www.nvidia.com/Download/driverResults.aspx/179599/en-us
+    latest: "470.74"
+    link: https://www.nvidia.com/Download/driverResults.aspx/180475/en-us
     cycleShortHand: 9
     
   - releaseCycle: "R470-Windows (LTSB)"
     release: 2021-06-22
     support: true
     eol: 2024-07-01
-    latest: "471.96"
-    link: https://www.nvidia.com/download/driverResults.aspx/180223/en-us
+    latest: "472.12"
+    link: https://www.nvidia.com/Download/driverResults.aspx/180557/en-us
     cycleShortHand: 10
 
 ---
