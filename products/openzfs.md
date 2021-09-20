@@ -10,22 +10,23 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: "NA"
+activeSupportColumn: true
 releases:
 
     - releaseCycle: "OpenZFS 2.1"
       release: 2021-07-02
-      eol: 2023-07-02
+      support: 2023-07-02
       lts: true
       latest: "2.1.1"
 
     - releaseCycle: "OpenZFS 2.0"
       release: 2020-11-30
-      eol: false
+      support: false
       latest: "2.0.5"
 
     - releaseCycle: "OpenZFS 0.8"
       release: 2019-06-23
-      eol: 2020-12-14
+      support: 2020-12-14
       latest: "0.8.6"
 
 
