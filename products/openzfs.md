@@ -1,5 +1,7 @@
 ---
 permalink: /openzfs
+alternate_urls:
+  - /zfs
 layout: post
 title: OpenZFS
 category: app
