@@ -30,8 +30,6 @@ releases:
       release: 2019-06-23
       eol: 2020-12-14
       latest: "0.8.6"
-
-
 ---
 
 > [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that encompasses the functionality of traditional filesystems and volume manager. It includes protection against data corruption, support for high storage capacities, efficient data compression, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, encryption, remote replication with ZFS send and receive, and RAID-Z. Linux and FreeBSD are officially supported, [with plans to support macOS in the future](https://github.com/openzfs/zfs/pull/12110).  
@@ -48,9 +46,8 @@ releases:
 - [RHEL-based distributions](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
 - [FreeBSD](https://openzfs.github.io/openzfs-docs/Getting%20Started/FreeBSD.html)
 
-Every Linux release includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
-
 These distributions have repositories provided directly by the OpenZFS community, while other distributions likely will work, they are not frequently tested and may exhibit issues, especially Ubuntu due to their HWE kernel pulling in patches from newer kernels and still claiming the kernel is from an older branch. [Ubuntu is not supported by OpenZFS](https://github.com/openzfs/zfs/issues/10333).
 
+[Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
 
-
+[zol]: https://zfsonlinux.org/ "ZFS On Linux"
