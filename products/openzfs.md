@@ -6,7 +6,7 @@ category: app
 command: zpool get version [zpool name]
 link: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
-  https://github.com/openzfs/zfs/releases/tag/__LATEST__
+  https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: "NA"
