@@ -2,7 +2,7 @@
 permalink: /openzfs
 layout: post
 title: OpenZFS
-category: lang
+category: app
 command: zpool get version [zpool name]
 link: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
