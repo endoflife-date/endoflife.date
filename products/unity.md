@@ -22,7 +22,7 @@ releases:
     release: 2021-03-11
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.17"
+    latest: "2020.3.18"
 
   - releaseCycle: "2019"
     release: 2020-06-09
