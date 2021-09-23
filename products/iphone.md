@@ -82,6 +82,9 @@ releases:
 
 > The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system.
 
-Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long. Apple ocassionaly releases security updates for much older devices, such as [this security fix in iOS 12.5.2](https://support.apple.com/en-us/HT212257) which was pushed to iPhone 6 and iPhone 5S.
+Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long. Apple ocassionaly releases security updates for much older devices, such as [this security fix in iOS 12.5.2](https://support.apple.com/en-us/HT212257) which was pushed to iPhone 6 and iPhone 5S. Apple has committed to [pushing important security updates on iOS 14][ios14] as well for supported devices.
 
 Apple maintains a list of Supported iPhone models at <https://support.apple.com/en-in/guide/iphone/iphe3fa5df43/ios>.
+
+
+[ios14]: https://www.apple.com/ios/ios-15/features/#:~:text=Settings-,Software%20Updates,-iOS%20may%20now "You can update to the latest version of iOS 15 as soon as it’s released for the latest features and most complete set of security updates. Or continue on iOS 14 and still get important security updates."
