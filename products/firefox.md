@@ -15,7 +15,7 @@ releases:
   - releaseCycle: "Firefox 92"
     release: 2021-09-07
     eol: false
-    latest: "92.0"
+    latest: "92.0.1"
     cycleShortHand: 3
 
 
