@@ -12,7 +12,7 @@ sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "Java 17 (LTS)"
     cycleShortHand: 17
-    release: 2021-03-01
+    release: 2021-09-22
     eol: false
     latest: "16.0.2+7"
   - releaseCycle: "Java 16"
