@@ -13,22 +13,22 @@ releases:
   - releaseCycle: "Java 17 (LTS)"
     cycleShortHand: 17
     release: 2021-09-22
-    eol: true
+    eol: false
     latest: "17"
   - releaseCycle: "Java 16"
     cycleShortHand: 16
     release: 2021-03-01
-    eol: false
+    eol: true
     latest: "16.0.2"
   - releaseCycle: "Java 11 (LTS)"
     cycleShortHand: 11
     release: 2018-09-01
-    eol: true
+    eol: false
     latest: "11.0.12"
   - releaseCycle: "Java 8 (LTS)"
     cycleShortHand: 8
     release: 2014-03-01
-    eol: true
+    eol: false
     latest: "jdk8u302"
 ---
 
