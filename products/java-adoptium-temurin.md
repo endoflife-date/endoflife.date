@@ -1,9 +1,10 @@
 ---
-title: Adoptium Temurin build of Java
+title: Java (Adoptium Temurin)
 permalink: /java-adoptium-temurin
 layout: post
 category: lang
 link: https://adoptium.net/support.html
+iconSlug: "NA"
 eolColumn: Supported
 command: java -version
 releaseDateColumn: true
