@@ -13,7 +13,7 @@ releases:
   - releaseCycle: "Java 17 (LTS)"
     cycleShortHand: 17
     release: 2021-09-22
-    eol: false
+    eol: true
     latest: "17"
   - releaseCycle: "Java 16"
     cycleShortHand: 16
