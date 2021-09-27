@@ -13,8 +13,8 @@ layout: default
     <tr>
       <th>Version</th>
       {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
-      {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
       {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
+      {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
       {% if page.releaseColumn != false %}<th>Release</th>{% endif %}
     </tr>
@@ -71,6 +71,20 @@ or +1 (EoL is in the future)
   </td>
   {% endif %}
 
+  {% if page.discontinuedColumn %}
+  <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
+    {% if r.discontinued %}
+      {% if r.discontinued == true%}
+        Discontinued
+      {% else %}
+        {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
+      {% endif %}
+    {% else %}
+      In Production
+    {% endif %}
+  </td>
+  {% endif %}
+
   {% if page.activeSupportColumn %}
     <td class=
     {% if support > 5 %}
@@ -104,20 +118,6 @@ or +1 (EoL is in the future)
       {% endif %}
     {% endif %}
     </td>
-  {% endif %}
-
-  {% if page.discontinuedColumn %}
-  <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
-    {% if r.discontinued %}
-      {% if r.discontinued == true%}
-        Discontinued
-      {% else %}
-        {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
-      {% endif %}
-    {% else %}
-      In Production
-    {% endif %}
-  </td>
   {% endif %}
 
   <td class=
@@ -169,6 +169,7 @@ or +1 (EoL is in the future)
 </table>
 
 <style>
+/* TODO:  Move these styles to proper SCSS */
 .maincontent>blockquote {
   margin-left: 60px;
 }
@@ -208,8 +209,6 @@ or +1 (EoL is in the future)
 <img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
-
-
 <div class="maincontent">{{content}}</div>
 
 <p>More information is available on the <a href="{{page.link}}">{{page.title}} website</a>. </p>
@@ -217,7 +216,6 @@ or +1 (EoL is in the future)
 {% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
 
 {% if page.command %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.command}}</pre></div>{% endif %}
-
 
 <hr>
 
