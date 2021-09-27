@@ -12,6 +12,12 @@ link: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "17"
+    lts: true
+    release: 2021-09-14
+    support: 2026-09-30
+    eol: 2031-09-30
+    latest: "17.0.0"
   - releaseCycle: "16"
     release: 2021-03-16
     support: 2021-09-30
