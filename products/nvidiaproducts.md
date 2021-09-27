@@ -1,9 +1,9 @@
 ---
-title: NVIDIA products
+title: NVIDIA GPUs
 layout: post
-permalink: /nvidia-products
+permalink: /nvidia-gpu
 alternate_urls:
-  - /nvidia-gpu
+  - /nvidia-products
   - /nvidia-gpus
 category: device
 iconSlug: nvidia
@@ -188,7 +188,7 @@ Due to this confusing naming scheme, one should not look at just the model name 
 ### Windows
 
 1. [Download and run GPU-Z](https://www.techpowerup.com/gpuz/).
-2. First identify if you have a consumer or a professional card. If you see `GeForce` or `Titan` in the Name, you have a consumer card. If you see `NVS`, `Quadro`, `Quadro RTX`, `GRID`, or `Tesla` in the name, you have a professional card.
+2. First identify if you have a consumer or a professional card. See the "Naming scheme" section above.
 3. Next identify the card architecture. This will be the GPU textbox. You can cross reference this with the support table at the top of this page. 
 
 ### Linux
