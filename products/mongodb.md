@@ -10,18 +10,22 @@ activeSupportColumn: false
 releaseDateColumn: true
 command: mongod --version
 releases:
+  - releaseCycle: "5.0"
+    eol: false
+    release: 2021-07-13
+    latest: "5.0.3"
   - releaseCycle: "4.4"
     eol: false
     release: 2020-07-30
-    latest: "4.4.5"
+    latest: "4.4.9"
   - releaseCycle: "4.2"
     eol: false
     release: 2019-08-31
-    latest: "4.2.13"
+    latest: "4.2.17"
   - releaseCycle: "4.0"
-    eol: 2022-01-31
+    eol: 2022-04-30
     release: 2018-06-30
-    latest: "4.0.24"
+    latest: "4.0.27"
   - releaseCycle: "3.6"
     eol: 2021-04-30
     release: 2017-11-30
