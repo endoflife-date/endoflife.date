@@ -8,6 +8,7 @@ link: https://wiki.ubuntu.com/Releases
 changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
+releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "21.04 'Hirsute Hippo'"
