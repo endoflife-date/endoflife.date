@@ -11,23 +11,23 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "8.0"
-    cycleShortHand: "80"
+    cycleShortHand: "8"
     release: 2020-11-26
     support: 2022-11-26
     eol:     2023-11-26
-    latest:  "8.0.9"
+    latest:  "8.0.11"
   - releaseCycle: "7.4"
-    cycleShortHand: "74"
+    cycleShortHand: "7"
     release: 2019-11-28
     support: 2021-11-28
     eol:     2022-11-28
-    latest:  "7.4.22"
+    latest:  "7.4.24"
   - releaseCycle: "7.3"
-    cycleShortHand: "73"
+    cycleShortHand: "7"
     release: 2018-12-06
     support: 2020-12-06
     eol:     2021-12-06
-    latest:  "7.3.29"
+    latest:  "7.3.31"
   - releaseCycle: "7.2"
     cycleShortHand: "72"
     release: 2017-11-30
