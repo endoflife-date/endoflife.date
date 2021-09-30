@@ -5,11 +5,23 @@ permalink: /contribute
 layout: page
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [:octocat: Hacktoberfest](#octocat-hacktoberfest)
+- [:new: Adding a new product](#new-adding-a-new-product)
+- [✅ Validating your changes](#-validating-your-changes)
+- [📑 Suggested Reading](#-suggested-reading)
+- [:bookmark: Code of Conduct](#bookmark-code-of-conduct)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## :octocat: Hacktoberfest
 
 This project is participating in Hacktoberfest 2021. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
 
-## Adding a new product
+## :new: Adding a new product
 
 To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as productname.md
 
@@ -136,6 +148,6 @@ We have the following documents which should help you get familiar with the proj
 - [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets a speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is _especially important if you are making non-trivial changes_ that deal with the content or add a new product.
 - [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at https://endoflife.date/contribute
 
-## Code of Conduct
+## :bookmark: Code of Conduct
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
