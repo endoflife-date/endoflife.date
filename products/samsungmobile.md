@@ -154,32 +154,32 @@ releases:
   - releaseCycle: "Galaxy A01" #This loses active support with Android 12.
     release: 2019-12-18
     support: true
-    eol: false
+    eol: false # Quarterly
     
   - releaseCycle: "Galaxy A11" #This loses active support with Android 12.
     release: 2020-05-15
     support: true
-    eol: false
+    eol: false # Quarterly 
 
   - releaseCycle: "Galaxy A31" #This loses active support with Android 12.
     release: 2020-04-27
     support: true
-    eol: false
+    eol: false # Quarterly
 
   - releaseCycle: "Galaxy A41" #This loses active support with Android 12.
     release: 2020-03-18
     support: true
-    eol: false
+    eol: false # Quarterly
 
   - releaseCycle: "Galaxy A21" #This loses active support with Android 12.
     release: 2020-06-26
     support: true
-    eol: false
+    eol: false # Quarterly
 
   - releaseCycle: "Galaxy A21s" #This loses active support with Android 12.
     release: 2020-06-02
     support: true
-    eol: false
+    eol: false # Quarterly
 
   - releaseCycle: "Galaxy A Quantum"
     release: 2020-05-22
@@ -404,6 +404,230 @@ releases:
     release: 2020-09-28
     support: true #This loses active support with Android 12.
     eol: false
+
+# Current Models for Quarterly Security Updates
+# Excluding: Galaxy A90 5G, Galaxy A01, Galaxy A11, Galaxy A21, Galaxy A21s, Galaxy A31, Galaxy A31, Galaxy A41, Galaxy A51, Galaxy A51 5G, Galaxy A71, Galaxy A71 5G ...
+# ... Galaxy A02, Galaxy A02s, Galaxy A03s, Galaxy A12, Galaxy A22, Galaxy A22 5G, Galaxy A32, Galaxy A32 5G, Galaxy A42 5G, Galaxy A72,Galaxy M01,Galaxy M11, Galaxy M21 ...
+# Galaxy M31, Galaxy M31, Galaxy M51, Galaxy M12, Galaxy M32, Galaxy M42 5G, Galaxy M62, Galaxy F12, Galaxy F22, Galaxy F62, Galaxy Tab A 8.4 (2020), Galaxy Tab A7 ...
+# Galaxy Tab A7 Lite,  Galaxy Tab Active 3, Galaxy Tab S6, Galaxy Tab S6 5G, Galaxy Tab S6 Lite, Galaxy Tab S7, Galaxy Tab S7+, Galaxy Tab S7 FE
+
+  - releaseCycle: "Galaxy A70s"
+    release: 2019-09-01 #Unclear date
+    support: false 
+    eol: false
+    
+   
+
+
+
+  - releaseCycle: "Galaxy A50s"
+    release: 2019-09-01 #Unclear date
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy A40"
+    release: 2019-04-01 #Unclear date
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+  - releaseCycle: "Galaxy A20s"
+    release: 2019-10-05
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy Note 9"
+    release: 2018-08-24
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy Note 8"
+    release: 2017-09-01 #Unclear release date
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+  - releaseCycle: "Galaxy S9+"
+    release: 2018-03-09
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy S9"
+    release: 2018-03-09
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+  - releaseCycle: "Galaxy S8 Active"
+    release: 2017-08-01 #Unclear date
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy A8 (2018) Enterprise"
+    release: 2018-01-01 #Unclear date
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+
+
+  - releaseCycle: "Samsung W21 5G"
+    release: 2020-11-04 #Using announcement date.
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Samsung W20 5G"
+    release: 2019-11-20 #Using announcement date.
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy Tab Active Pro"
+    release: 2019-10-01 #Unclear
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy Tab Active 2"
+    release: 2017-10-20
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy M21 2021"
+    release: 2021-07-26
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+
+
+  - releaseCycle: "Galaxy M30s"
+    release: 2019-10-30
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+  - releaseCycle: "Galaxy M10s"
+    release: 2019-09-01 #Unclear
+    support: false 
+    eol: false
+    
+
+
+
+
+
+
+  - releaseCycle: "Galaxy A82 5G"
+    release: 2021-05-05 #Unclear, using announcement date, or more like the day Samsung confirmed it existed.. https://www.gsmarena.com/samsung_accidentally_confirms_the_galaxy_a82_5g_existence-news-48968.php
+    support: false 
+    eol: false
+    
+
+
+
+
+  - releaseCycle: "Galaxy A01 Core"
+    release: 2020-08-06
+    support: false 
+    eol: false
+    
+
 
 
 
