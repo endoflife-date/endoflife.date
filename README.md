@@ -8,7 +8,7 @@ Currently tracking 60+ products.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2021][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide](https://hacktoberfest.digitalocean.com/resources/participation) and [Quality Standards][qs] before filing a pull request.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2021][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide][hack-participate] and [Quality Standards][qs] before filing a pull request.
 
 While participating in the project, you must abide by it's [Code of Conduct](CODE-OF-CONDUCT.md).
 
@@ -21,3 +21,5 @@ An API is available for integration with CI platforms. API documentation is avai
 Licensed under the [MIT License](LICENSE).
 
 [hacktoberfest]: https://github.com/endoflife-date/endoflife.date/issues/408
+[qs]: https://hacktoberfest.digitalocean.com/resources/qualitystandards
+[hack-participate]: https://hacktoberfest.digitalocean.com/resources/participation
