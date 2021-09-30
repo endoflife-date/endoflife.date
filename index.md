@@ -2,6 +2,7 @@
 layout: home
 nav_exclude: true
 title: Home
+# This is the content for the website homepage (https://endoflife.date/)
 ---
 
 This site maintains quick links for checking End Of Life dates for various products.
