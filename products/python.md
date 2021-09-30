@@ -21,11 +21,11 @@ releases:
     - releaseCycle: "3.7"
       release: 2018-06-27
       eol: 2023-06-27
-      latest: "3.7.11"
+      latest: "3.7.12"
     - releaseCycle: "3.6"
       release: 2016-12-23
       eol: 2021-12-23
-      latest: "3.6.14"
+      latest: "3.6.15"
     - releaseCycle: "3.5"
       release: 2015-09-30
       eol: 2020-09-13
