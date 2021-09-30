@@ -1,6 +1,6 @@
 ---
 releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
-title: NVIDIA driver
+title: NVIDIA Driver
 layout: post
 permalink: /nvidia
 category: app
