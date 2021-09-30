@@ -10,6 +10,8 @@ layout: page
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [:octocat: Hacktoberfest](#octocat-hacktoberfest)
+- [🕐 What's this project?](#-whats-this-project)
+- [:pencil: About the codebase](#pencil-about-the-codebase)
 - [:new: Adding a new product](#new-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
 - [📑 Suggested Reading](#-suggested-reading)
@@ -20,6 +22,14 @@ layout: page
 ## :octocat: Hacktoberfest
 
 This project is participating in Hacktoberfest 2021. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
+
+## 🕐 What's this project?
+
+Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: #375, #374, #378, #383.
+
+## :pencil: About the codebase
+
+endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://netlify.com). Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
 
 ## :new: Adding a new product
 
