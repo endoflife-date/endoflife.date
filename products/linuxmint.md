@@ -76,7 +76,7 @@ releases:
 
     
 ---
->[Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution based on Ubuntu (which is then based on Debian), bundled with a variety of free and open-source applications. 
+>[Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution for desktop and laptop computers based on Debian and Ubuntu, bundled with a variety of free and open-source applications.
 
 Linux Mint has its own repositories for Linux Mint specific packages, but relies directly on Ubuntu repositories for the majority of the package base. 
 
