@@ -149,7 +149,7 @@ releases:
   - releaseCycle: "Galaxy A90 5G" #This loses active support with Android 12.
     release: 2019-09-03
     support: true
-    eol: false
+    eol: false # Quarterly Security Updates. This is a weird one. Getting 12 but not under the monthly security support branch.
     
   - releaseCycle: "Galaxy A01" #This loses active support with Android 12.
     release: 2019-12-18
