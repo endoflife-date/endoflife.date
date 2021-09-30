@@ -8,7 +8,9 @@ Currently tracking 60+ products.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms. This project is [participating in Hacktoberfest 2021][hacktoberfest].
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2021][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide](https://hacktoberfest.digitalocean.com/resources/participation) and [Quality Standards][qs] before filing a pull request.
+
+While participating in the project, you must abide by it's [Code of Conduct](CODE-OF-CONDUCT.md).
 
 ## API
 
