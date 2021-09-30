@@ -16,7 +16,7 @@ releases:
     release: 2020-06-03
     eol: 2022-06-01
     support: 2020-08-31
-    latest: "2.83.17"
+    latest: "2.83.18"
     link: https://www.blender.org/download/lts/2-83/
     lts: true
     
