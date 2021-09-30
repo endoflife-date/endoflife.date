@@ -8,12 +8,19 @@ link: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
+    - releaseCycle: "6.2"
+      cycleShortHand: 602
+      release: 2021-09-30
+      eol: 2024-09-30
+      latest: "6.2.0"
+      lts: true
+      link: https://www.qt.io/blog/qt-6.2-lts-released
     - releaseCycle: "6.1"
       cycleShortHand: 601
       release: 2021-05-06
       eol: 2022-05-06
-      latest: "6.1.1"
-      link: https://www.qt.io/blog/qt-6.1.1-released
+      latest: "6.1.3"
+      link: https://www.qt.io/blog/qt-6.1.3-released
     - releaseCycle: "6.0"
       cycleShortHand: 600
       release: 2020-12-08
@@ -24,31 +31,31 @@ releases:
       cycleShortHand: 515
       release: 2020-05-26
       eol: 2023-05-26
-      latest: "5.15.5"
+      latest: "5.15.6"
       lts: true
       link: https://www.qt.io/blog/qt-5.15-released
     - releaseCycle: "5.14"
-      release: 2019-12-12
       cycleShortHand: 514
+      release: 2019-12-12
       eol: 2020-12-12
-      latest: "5.14"
+      latest: "5.14.2"
       link: https://www.qt.io/blog/qt-5.14-has-released
     - releaseCycle: "5.13"
-      release: 2019-06-19
       cycleShortHand: 513
+      release: 2019-06-19
       eol: 2020-06-19
-      latest: "5.13"
+      latest: "5.13.2"
       link: https://blog.qt.io/blog/2019/06/19/qt-5-13-released
     - releaseCycle: "5.12"
-      release: 2018-12-06
       cycleShortHand: 512
+      release: 2018-12-06
       eol: 2021-12-05
       latest: "5.12.11"
       lts: true
       link: https://www.qt.io/blog/qt-5.12.11-released
     - releaseCycle: "5.9"
-      release: 2017-05-31
       cycleShortHand: 509
+      release: 2017-05-31
       eol: 2020-05-31
       latest: "5.9.9"
       link: https://www.qt.io/blog/qt-5.9.9-released
@@ -60,8 +67,8 @@ releases:
       lts: true
       link: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
     - releaseCycle: "4.8"
-      release: 2011-12-15
       cycleShortHand: 408
+      release: 2011-12-15
       eol: 2015-12-31
       latest: "4.8.7"
       lts: true
