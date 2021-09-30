@@ -14,7 +14,7 @@ releases:
   - releaseCycle: "3.2"
     support: 2021-12-01
     eol: 2024-04-01
-    latest: "3.2.6"
+    latest: "3.2.8"
     lts: true
   - releaseCycle: "3.1"
     support: 2021-04-05
