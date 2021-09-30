@@ -628,6 +628,273 @@ releases:
     eol: false
     
 
+# Current Models for Biannual Security Updates
+
+  - releaseCycle: "Galaxy View2"
+    release: 2019-04-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab S5e"
+    release: 2019-04-01 #unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab S4 10.5"
+    release: 2018-08-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab E 8.0"
+    release: 2016-01-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab A 8.0 with S Pen (2019)"
+    release: 2019-04-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab A 10.1 (2019)"
+    release: 2019-04-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab A 8.0 (2019)"
+    release: 2019-07-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab A 10.5 (2018)"
+    release: 2018-08-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy Tab A 8.0 (2017)"
+    release: 2017-09-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J8"
+    release: 2018-07-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J7+"
+    release: 2017-09-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J7 Top"
+    release: 2018-07-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J7 Prime 2"
+    release: 2018-04-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J7 Duo"
+    release: 2018-04-01 #Unclear 
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J6+"
+    release: 2018-10-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J6"
+    release: 2018-05-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J4 Core"
+    release: 2018-11-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J4+"
+    release: 2018-10-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J4"
+    release: 2018-05-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J3"
+    release: 2018-06-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy J2 Core"
+    release: 2018-08-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A80"
+    release: 2019-05-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A70"
+    release: 2019-05-01 #This is good
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A60"
+    release: 2019-06-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A30"
+    release: 2019-03-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A20"
+    release: 2019-04-05
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A20e"
+    release: 2019-05-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A10s"
+    release: 2019-08-27
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A10e"
+    release: 2019-08-27 #confirm
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A10"
+    release: 2019-03-19
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A9 (2018)"
+    release: 2018-11-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A8s"
+    release: 2018-12-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A8 Star"
+    release: 2018-06-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A8+"
+    release: 2018-01-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A7"
+    release: 2018-10-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A6+"
+    release: 2018-05-01 #Unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A6"
+    release: 2018-05-01 #unclear
+    support: false 
+    eol: false
+
+
+
+  - releaseCycle: "Galaxy A2 Core"
+    release: 2019-04-01 #unclear
+    support: false 
+    eol: false
+
+
 
 
 
