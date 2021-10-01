@@ -16,7 +16,7 @@ releases:
   - releaseCycle: "2021.1"
     release: 2021-03-19
     eol: false
-    latest: "2021.1.22"
+    latest: "2021.1.23"
 
   - releaseCycle: "2020"
     release: 2021-03-11
