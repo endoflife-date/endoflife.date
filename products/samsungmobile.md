@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /samsung
-title: Samsung
+permalink: /samsung-mobile
+title: Samsung Mobile
 category: device
 iconSlug: samsung
 link: https://security.samsungmobile.com/workScope.smsb
