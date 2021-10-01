@@ -14,6 +14,10 @@ command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "14"
+    release: 2021-09-30
+    eol: 2026-09-30
+    latest: "14.0"
   - releaseCycle: "13"
     release: 2020-09-24
     eol: 2025-11-13
@@ -33,7 +37,7 @@ releases:
   - releaseCycle: "9.6"
     release: 2016-09-29
     eol: 2021-11-11
-    latest: "9.6.22"
+    latest: "9.6.23"
   - releaseCycle: "9.5"
     release: 2016-01-07
     eol: 2021-02-11
