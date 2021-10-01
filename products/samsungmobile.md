@@ -7,7 +7,7 @@ iconSlug: samsung
 link: https://security.samsungmobile.com/workScope.smsb
 discontinuedColumn: false
 activeSupportColumn: true
-eolColumn: Supported
+eolColumn: Security Updates
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
