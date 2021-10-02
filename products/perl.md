@@ -5,26 +5,31 @@ category: lang
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 releases:
+  - releaseCycle: "5.34"
+    eol: 2024-05-20
+    support: true
+    release: 2021-05-20
+    latest: "5.34.0"
   - releaseCycle: "5.32"
     eol: 2023-06-20
     support: true
     release: 2020-06-20
-    latest: 5.32.0
+    latest: "5.32.1"
   - releaseCycle: "5.30"
     eol: 2022-05-22
     support: true
     release: 2019-05-22
-    latest: 5.30.3
+    latest: "5.30.3"
   - releaseCycle: "5.28"
     eol: 2021-06-23
     support: 2020-06-20
     release: 2018-06-23
-    latest: 5.28.3
+    latest: "5.28.3"
   - releaseCycle: "5.26"
     eol: 2020-05-30
     support: 2019-05-22
     release: 2017-05-30
-    latest: 5.26.3
+    latest: "5.26.3"
 
 permalink: /perl
 link: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
