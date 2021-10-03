@@ -28,7 +28,7 @@ releases:
     release: 2020-06-09
     eol: 2022-06-01
     lts: true
-    latest: "2019.4.33"
+    latest: "2019.4.31"
 
   - releaseCycle: "2018"
     release: 2019-05-10
