@@ -10,6 +10,10 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+    - releaseCycle: "3.10"
+      release: 2021-10-04
+      eol: 2026-10-04
+      latest: "3.10.0"
     - releaseCycle: "3.9"
       release: 2020-10-05
       eol: 2025-10-05
