@@ -12,6 +12,10 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Office 2021"
+    release: 2021-10-05
+    support: 2026-10-13
+    eol: 2026-10-13
   - releaseCycle: "Office 2019"
     release: 2018-09-24
     support: 2023-10-10
