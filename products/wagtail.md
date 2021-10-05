@@ -9,12 +9,18 @@ activeSupportColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 sortReleasesBy: "release"
 releases:
+  - releaseCycle: "2.14"
+    support: 2021-11-01
+    release: 2021-08-01
+    lts: false
+    eol: false
+    latest: "2.14.1"
   - releaseCycle: "2.13"
     eol: 2022-02-01
     support: 2021-08-01
     release: 2021-05-12
     lts: false
-    latest: "2.13"
+    latest: "2.13.4"
   - releaseCycle: "2.12"
     eol: 2021-08-01
     support: 2021-05-01
