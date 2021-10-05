@@ -101,7 +101,7 @@ releases:
 * Unlike Debian and Linux Mint which supports older releases past a new version coming out, LMDE stops supporting a release shortly after a new one comes out. This however is still subject to change on a release by release basis. There is no support period set in stone for any LMDE release.
 
 
-## Cadence
+## Feature Support
 
 * 19.3 'Tricia' is the last Linux Mint release to support 32-bit systems outside of LMDE. 32-bit software support is still supported, following Ubuntu upstream.
 * 18.3 'Sylvia' is the last Linux Mint release to support KDE.
