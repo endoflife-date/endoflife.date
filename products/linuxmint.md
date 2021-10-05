@@ -91,7 +91,7 @@ releases:
 ## Relationship with Ubuntu 
 
 * Linux Mint has its own repositories for Linux Mint specific packages, but relies directly on Ubuntu repositories for the majority of the package base, including its mirrors. 
-* Linux Mint releases follows the support cycle as the Ubuntu release it is based on (which can be [referenced here](https://linuxmint.com/download_all.php), Linux Mint support officially does not extend to the duration of ESM. While Linux Mint users will receive [Extended Security Maintenance](https://ubuntu.com/security/esm) from Ubuntu once the main support period ends, Linux Mint officially considers that release End of Life once it enters that state.
+* Linux Mint releases follows the support cycle as the Ubuntu release it is based on (which can be [referenced here](https://linuxmint.com/download_all.php), Linux Mint support does not extend to the duration of <abbr title="Extended Security Maintenance">ESM</abbr>. Linux Mint users can opt-in to receive [Extended Security Maintenance](https://ubuntu.com/security/esm) via [Ubuntu Advantage](https://ubuntu.com/advantage) for some packages once the main support period ends. But Linux Mint considers that release End of Life once it enters that state, so Linux Mint packages will not be receiving any updates.
 * Linux Mint enables the `Universe` Ubuntu repository by default, unlike Ubuntu which leaves this disabled as it is [maintained by the Ubuntu Community](https://wiki.ubuntu.com/SecurityTeam/FAQ#How_are_components_and_pockets_used_in_the_builds.2C_and_how_do_they_affect_security_updates.3F), and not the Ubuntu security team. Due to this [it may not receive timely security updates](https://help.ubuntu.com/community/Repositories#Universe).
 
 ## Relationship with Debian
