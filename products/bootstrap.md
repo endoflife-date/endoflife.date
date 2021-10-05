@@ -12,7 +12,7 @@ releases:
     eol: false
     support: true
     lts: true
-    latest: "5.1.1"
+    latest: "5.1.2"
   - releaseCycle: 4.x
     release: 2018-01-18
     eol: 2022-11-01
