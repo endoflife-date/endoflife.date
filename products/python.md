@@ -51,6 +51,7 @@ releases:
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
 
 By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
+Python 3.9+ cannot be used on Microsoft Windows 7 or earlier versions. Last Windows 7 installable version is python 3.8 series.
 
 See the Python Developer's Guide for:
 
