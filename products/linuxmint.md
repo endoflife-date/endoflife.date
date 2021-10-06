@@ -18,7 +18,7 @@ releases:
     latest: "4"
     link: https://linuxmint.com/rel_debbie.php
 
-- releaseCycle: "20.2 'Uma'"
+  - releaseCycle: "20.2 'Uma'"
     lts: true
     release: 2021-07-08
     support: true
