@@ -18,7 +18,7 @@ releases:
     cycleShortHand: 514
     release: 2021-08-29
     eol: false
-    latest: "5.14.9"
+    latest: "5.14.10"
     
   - releaseCycle: "5.13"
     cycleShortHand: 513
@@ -66,7 +66,7 @@ releases:
     release: 2016-01-10
     eol: 2022-02-01
     lts: true
-    latest: "4.4.286"
+    latest: "4.4.287"
 
 
 ---
