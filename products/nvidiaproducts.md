@@ -102,7 +102,7 @@ releases:
     release: 2017-12-07
     support: true
     eol: false
-    discontinued: false
+    discontinued: true
 
   - releaseCycle: "Consumer Turing (TU1xX)"
     release: 2018-09-20
