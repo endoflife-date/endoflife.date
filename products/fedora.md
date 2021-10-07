@@ -18,11 +18,11 @@ releases:
   - releaseCycle: "34"
     release: 2021-04-27
     latest: "34"
-    eol: false
+    eol: 2022-05-17
   - releaseCycle: "33"
     release: 2020-10-27
     latest: "33"
-    eol: false
+    eol: 2021-11-16
   - releaseCycle: "32"
     release: 2020-04-28
     latest: "32"
