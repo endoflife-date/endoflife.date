@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-# This script creates an api/[tool]/[version].json file for each releaseCycle
-# in each markdown source file, where [tool] is the permalink value and
+# This script creates an api/[product]/[version].json file for each releaseCycle
+# in each markdown source file, where [product] is the permalink value and
 # [version] is the releaseCycle value.
 #
 # The contents of the JSON files is the data in the releases, minus the
@@ -13,7 +13,7 @@ require 'yaml'
 
 API_DIR = 'api'.freeze
 
-class Tool
+class Product
   attr_reader :hash
 
   def initialize(markdown_file)
@@ -39,19 +39,32 @@ def json_filename(output_dir, name)
   File.join(output_dir, filename)
 end
 
-# file is something like 'tools/foo.md'
-def process_file(markdown_file)
-  tool = Tool.new(markdown_file)
-
-  output_dir = File.join(API_DIR, tool.permalink)
+def process_product(product)
+  output_dir = File.join(API_DIR, product.permalink)
   FileUtils.mkdir_p(output_dir) unless FileTest.directory?(output_dir)
 
-  tool.release_cycles.each do |cycle|
+  all_cycles = []
+  product.release_cycles.each do |cycle|
     output_file = json_filename(output_dir, cycle.fetch('name'))
     File.open(output_file, 'w') { |f| f.puts cycle.fetch('data').to_json }
+    all_cycles.append({'cycle' => cycle.fetch('name')}.merge(cycle.fetch('data')))
   end
+  output_file = json_filename(API_DIR, product.permalink)
+  File.open(output_file, 'w') { |f| f.puts all_cycles.to_json }
+end
+
+# each file is something like 'products/foo.md'
+def process_all_files()
+  all_products = []
+  Dir['products/*.md'].each do |file|
+    product = Product.new(file)
+    product_cycles = process_product(product)
+    all_products.append(product.permalink)
+  end
+  output_file = json_filename(API_DIR, 'all')
+  File.open(output_file, 'w') { |f| f.puts all_products.sort.to_json }
 end
 
 ############################################################
 
-Dir['tools/*.md'].each { |file| process_file(file) }
+process_all_files()

@@ -1,0 +1,21 @@
+{%- assign api = site.data.openapi -%}
+
+{%- capture title -%}
+  {%- if page.title -%}
+    {{- page.title | append: ' - ' -}}
+  {%- endif -%}
+  {{- api.info.title -}}
+{%- endcapture -%}
+
+{%- assign description = api.info.description | xml_escape -%}
+
+{%- assign url = page.url | prepend: site.baseurl | prepend: site.url -%}
+
+{%- assign image = '/assets/img/image.png' | prepend: site.baseurl | prepend: site.url -%}
+
+{%- assign collections = '' -%}
+{%- for path in api.paths -%}
+  {%- assign path_parts = path[0] | split: '/' -%}
+  {%- assign collections = collections | append: path_parts[1] | append: ',' -%}
+{%- endfor -%}
+{%- assign collections = collections | split: ',' | uniq -%}

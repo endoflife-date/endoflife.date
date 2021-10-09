@@ -1,8 +1,4 @@
 title: endoflife.date
-description: >- # this means to ignore newlines until "baseurl:"
-  Check End of Life of php, python, ubuntu, alpine, laravel, debian, centos, django, .NET,
-  fedora, iphone, redhat, postgres, ruby, windows, Node.js, mariadb, laravel, java etc at one place.
-  Verify whether your application needs an update, or if you need to upgrade your device.
 baseurl: /
 markdown: kramdown
 plugins:
@@ -18,8 +14,13 @@ exclude:
   - vendor/
   - README.md
   - LICENSE
+  - _auto
+include:
+  - _redirects
+  - _headers
 # Theme Documentation: https://pmarsceill.github.io/just-the-docs/
 theme: just-the-docs
+nav_sort: case_insensitive
 search_enabled: true
 # These links show up on the top
 aux_links:
