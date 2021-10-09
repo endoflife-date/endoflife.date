@@ -52,7 +52,7 @@ releases:
     eol: false
   - releaseCycle: "iPhone XR"
     release: 2018-10-26
-    discontinued: false
+    discontinued: true
     eol: false
   - releaseCycle: "iPhone 11"
     release: 2019-09-20
@@ -66,13 +66,21 @@ releases:
     release: 2020-04-24
     discontinued: false
     eol: false
-  - releaseCycle: "iPhone 12 / 12 Pro"
+  - releaseCycle: "iPhone 12"
     release: 2020-10-23
     discontinued: false
     eol: false
-  - releaseCycle: "iPhone 12 Mini / 12 Pro Max"
+  - releaseCycle: "iPhone 12 Mini"
     release: 2020-11-13
     discontinued: false
+    eol: false
+  - releaseCycle: "iPhone 12 Pro"
+    release: 2020-10-23
+    discontinued: true
+    eol: false
+  - releaseCycle: "iPhone 12 Pro Max"
+    release: 2020-11-13
+    discontinued: true
     eol: false
   - releaseCycle: "iPhone 13 / 13 Mini / 13 Pro / 13 Pro Max"
     release: 2021-09-24
