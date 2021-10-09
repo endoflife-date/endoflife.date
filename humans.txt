@@ -7,6 +7,9 @@ Name: Nemo
 Contact: endoflife.date [at] captnemo.in
 GitHub: @captn3m0
 
+Name: BiNZGi
+GitHub: @BiNZGi
+
 More: https://github.com/endoflife-date/endoflife.date/graphs/contributors
 
 /* SITE */

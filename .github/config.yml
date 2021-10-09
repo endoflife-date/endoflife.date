@@ -1,0 +1,14 @@
+# We use https://github.com/behaviorbot/welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  Thanks for opening your first issue here! Be sure to follow the issue template!
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  Thanks for opening this pull request! Please check out our [contributing guidelines](https://endoflife.date/contribute).
+  If you are working on site internals, see https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request!

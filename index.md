@@ -2,9 +2,10 @@
 layout: home
 nav_exclude: true
 title: Home
+# This is the content for the website homepage (https://endoflife.date/)
 ---
 
-This site maintains quick links for checking End Of Life dates for various tools and technologies.
+This site maintains quick links for checking End Of Life dates for various products.
 
 ## Suggestion
 
@@ -18,3 +19,5 @@ The reason this site exists is because this information is very often hidden awa
 ## Contributing
 
 Contributions are welcome [at GitHub](https://github.com/endoflife-date/endoflife.date). See the `CONTRIBUTING.md` file for more details.
+
+This site is powered by [Netlify](https://www.netlify.com).
