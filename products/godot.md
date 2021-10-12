@@ -18,7 +18,7 @@ releases:
     release: 2021-04-22
     support: true
     eol: false
-    latest: "3.3.3"
+    latest: "3.3.4"
   - releaseCycle: "3.2"
     release: 2020-01-01
     support: false
