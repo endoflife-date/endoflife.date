@@ -12,15 +12,15 @@ eolColumn: Supported
 iconSlug: ansible
 
 releases:
-  - releaseCycle: 4
+  - releaseCycle: "4"
     release: 2021-05-11
     eol: false
-    latest: "4.5.0"
-  - releaseCycle: 3
+    latest: "4.6.0"
+  - releaseCycle: "3"
     release: 2021-02-09
     eol: true
-    latest: "2.10"
-  - releaseCycle: 2.10
+    latest: "3.4.0"
+  - releaseCycle: "2.10"
     release: 2020-09-15
     eol: true
     latest: "2.10.7"
@@ -32,4 +32,4 @@ The Ansible community package (which this page tracks) typically gets 2 major re
 
 See the [Ansible Roadmap][roadmap] for upcoming release details.
 
-[roadmap]: https://docs.ansible.com/ansible/2.9/roadmap/index.html#roadmaps
+[roadmap]: https://docs.ansible.com/ansible/latest/roadmap/ansible_roadmap_index.html
