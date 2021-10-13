@@ -28,13 +28,13 @@ releases:
 
   - releaseCycle: "Consumer Kepler (GKxxx)"
     release: 2012-03-22
-    support: true
+    support: 2021-09-20
     eol: 2024-07-01
     discontinued: true
 
   - releaseCycle: "Professional Kepler (GKxxx)"
     release: 2013-03-01
-    support: true
+    support: 2021-09-20
     eol: 2024-07-01
     discontinued: true
 
