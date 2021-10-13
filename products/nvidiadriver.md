@@ -92,7 +92,7 @@ releases:
     link: https://www.nvidia.com/Download/driverResults.aspx/180557/en-us
     cycleShortHand: 10
     
-  - releaseCycle: "R495-Windows (LTSB)"
+  - releaseCycle: "R495-Windows (NFB)"
     release: 2021-10-12
     support: true
     eol: false
