@@ -12,7 +12,7 @@ eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'
 auto:
   github: MariaDB/server
-  tagprefix: mariadb-
+  tagPrefix: mariadb-
 releases:
   - releaseCycle: "10.6"
     release: 2021-07-06

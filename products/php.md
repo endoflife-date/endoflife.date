@@ -9,6 +9,9 @@ changelogTemplate: |
 activeSupportColumn: true
 command: php --version
 releaseDateColumn: true
+auto:
+  github: php/php-src
+  tagPrefix: php-
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "8.1"
