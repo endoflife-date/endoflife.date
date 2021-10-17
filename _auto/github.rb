@@ -12,8 +12,6 @@ module GitHub
 EOT
   end
 
-  def
-
   def generate_github(repo, release)
     name = "#{repo}-#{release['releaseCycle']}".sub(/\/\./, '-')
     latest = release['latest']
