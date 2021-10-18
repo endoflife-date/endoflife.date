@@ -8,10 +8,7 @@ link: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://docs.splunk.com/Documentation/Splunk/{{"__LATEST__" | truncate: 5, ""}}/ReleaseNotes/MeetSplunk"
 activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
-eolColumn: Service Status
 command: splunk --version
 
 releases:
@@ -32,4 +29,4 @@ releases:
     release: 2021-02-24
     latest: "7.3.9"
 ---
-> [Splunk](https://www.splunk.com/time-turner) is a data platform built for expansive data access, powerful analytics and automation.
+> [Splunk](https://www.splunk.com/) is a data platform built for expansive data access, powerful analytics and automation.
