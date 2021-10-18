@@ -13,9 +13,9 @@ iconSlug: ansible
 
 releases:
   - releaseCycle: "4"
-    release: 2021-05-11
+    release: 2021-10-13
     eol: false
-    latest: "4.6.0"
+    latest: "4.7.0"
   - releaseCycle: "3"
     release: 2021-02-09
     eol: true
