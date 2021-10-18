@@ -48,19 +48,28 @@ releases:
     release: 2019-12-03
     eol: 2021-01-12
     cycleShortHand: 20191600
-  - releaseCycle: "2017"
+  - releaseCycle: "2017 version 15.9"
+    release: 2018-11-13
     eol: 2027-04-13
+    cycleShortHand: 20171509
+  - releaseCycle: "2017 version 15.0"
+    release: 2017-03-07
+    eol: 2020-01-14
     cycleShortHand: 2017
   - releaseCycle: "2015"
+    release: 2015-07-20
     eol: 2025-10-14
     cycleShortHand: 2015
   - releaseCycle: "2013"
+    release: 2014-01-15
     eol: 2024-04-09
     cycleShortHand: 2013
   - releaseCycle: "2012"
+    release: 2012-10-31
     eol: 2023-01-10
     cycleShortHand: 2012
   - releaseCycle: "2010"
+    release: 2010-06-29
     eol: 2020-07-14
     cycleShortHand: 2010
     
