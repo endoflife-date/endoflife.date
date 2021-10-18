@@ -12,12 +12,13 @@ releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5d
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "21.10 'Impish Indri'"
-    cycleShortHand: "GroovyGorilla"
+    cycleShortHand: "ImpishIndri"
     lts: false
     release: 2021-10-14
     support: 2022-07-31
     eol:     2022-07-31
     latest: "21.10"
+    link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
   - releaseCycle: "21.04 'Hirsute Hippo'"
     cycleShortHand: "HirsuteHippo"
     lts: false
