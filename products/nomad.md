@@ -1,0 +1,27 @@
+---
+title: Nomad
+layout: post
+permalink: /nomad
+category: server-app
+link: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
+sortReleasesBy: "releaseCycle"
+changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
+activeSupportColumn: false
+releaseDateColumn: true
+command: nomad --version
+
+releases:
+  - releaseCycle: "1.1"
+    eol: false
+    release: 2021-05-18
+    latest: "1.1.6"
+  - releaseCycle: "1.0"
+    eol: false
+    release: 2020-12-08
+    latest: "1.0.11"
+  - releaseCycle: "0.12"
+    eol: false
+    release: 2021-05-12
+    latest: "0.12.12"
+---
+> [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
