@@ -11,7 +11,7 @@ releases:
     eol: 2029-04-01
     cycleShortHand: 20191611
   - releaseCycle: "2019 version 16.10"
-    eol: false
+    eol: true
     cycleShortHand: 20191610
   - releaseCycle: "2019 version 16.9"
     eol: 2022-10-01
