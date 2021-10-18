@@ -11,6 +11,13 @@ releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "21.10 'Impish Indri'"
+    cycleShortHand: "GroovyGorilla"
+    lts: false
+    release: 2021-10-14
+    support: 2022-07-31
+    eol:     2022-07-31
+    latest: "21.10"
   - releaseCycle: "21.04 'Hirsute Hippo'"
     cycleShortHand: "HirsuteHippo"
     lts: false
