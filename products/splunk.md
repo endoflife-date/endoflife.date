@@ -6,7 +6,7 @@ category: server-app
 iconSlug: splunk
 link: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 sortReleasesBy: "releaseCycle"
-changelogTemplate: "https://docs.splunk.com/Documentation/Splunk/{{"__LATEST__" | truncate: 5, ""}}/ReleaseNotes/MeetSplunk"
+changelogTemplate: https://docs.splunk.com/Documentation/Splunk/{{"__LATEST__" | truncate: 5, ""}}/ReleaseNotes/MeetSplunk
 activeSupportColumn: false
 releaseDateColumn: true
 command: splunk --version
