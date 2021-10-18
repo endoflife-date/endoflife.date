@@ -13,7 +13,7 @@ iconSlug: ansible
 
 releases:
   - releaseCycle: "4"
-    release: 2021-10-13
+    release: 2021-05-11
     eol: false
     latest: "4.7.0"
   - releaseCycle: "3"
