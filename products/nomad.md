@@ -2,6 +2,7 @@
 title: Nomad
 layout: post
 permalink: /nomad
+iconSlug: "NA"
 category: server-app
 link: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 sortReleasesBy: "releaseCycle"
