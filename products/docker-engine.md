@@ -1,5 +1,5 @@
 ---
-title: Docker
+title: Docker Engine
 layout: post
 # Possible values are os,db,app,lang,framework,device,service,server-app
 # If you add a new value, please mention it on the PR Description. Some rough guidelines:
@@ -155,11 +155,7 @@ iconSlug: docker
 # A few extra fields define overall page behaviour
 
 # URL for the page
-permalink: /docker
-
-# A list of alternate URLs that will redirect to the permalink. This is nice to let people use easier to remember URLs. For eg, we redirect /golang to /go
-alternate_urls:
-  - /docker-engine
+permalink: /docker-engine
 
 # More information link. This link should contain
 # information about the release policy and schedule
@@ -188,6 +184,6 @@ command: docker version
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 # 3. Any additional information that may be of interest
 ---
-> [Docker](https://www.docker.com/) is container technology that allows applications to be packaged independently, avoiding the requirement to install or manage software dependencies. Containers are isolated from one another and bundle their own software, libraries and configuration files.
+> [Docker Engine](https://www.docker.com/) is a containerisation technology that allows applications to be packaged independently, avoiding the requirement to install or manage software dependencies. Containers are isolated from one another and bundle their own software, libraries and configuration files.
 
 Docker Engine releases of a year-month branch are supported with patches as needed for one month after the next year-month general availability release.
