@@ -26,3 +26,9 @@ releases:
     latest: "1.8.16"
 ---
 > [Hashicorp Consul](https://www.consul.io/) automates networking for simple and secure application delivery.
+
+Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch, for up to two (2) releases from the most current major release. 
+
+A major release is identified by a change in the first (X) or second (Y) digit in the following versioning nomenclature: `Version X.Y.Z.`
+
+Hashicorp uses the same support period and EoL Policy for all its products.
