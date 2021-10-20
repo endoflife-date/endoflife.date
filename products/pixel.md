@@ -19,13 +19,13 @@ releases:
     release: 2021-10-19
     discontinued: false
     eol: 2026-10-31
-    support: 2026-10-19
+    support: 2026-10-31
   - releaseCycle: "Pixel 6"
     cycleShortHand: 600
     release: 2021-10-19
     discontinued: false
     eol: 2026-10-31
-    support: 2026-10-19
+    support: 2026-10-31
   - releaseCycle: "Pixel 5A"
     cycleShortHand: 510
     release: 2021-08-26
