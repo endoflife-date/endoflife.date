@@ -24,7 +24,7 @@ This site is powered by [Netlify](https://www.netlify.com).
 
 ## Sponsor
 
-Love the project? You can sponsor it over at [Open Collective](https://opencollective.com/endoflife-date)
+Love the project? You can sponsor it over at [Open Collective](https://opencollective.com/endoflife-date) or at [GitHub](https://github.com/sponsors/endoflife-date)
 The site doesn't cost us much to maintain, so your money goes towards:
 1.  Paying for [Netlify Analytics](https://github.com/endoflife-date/endoflife.date/discussions/382).
 2.  Domain renewals.
