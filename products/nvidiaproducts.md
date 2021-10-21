@@ -166,12 +166,13 @@ There are multiple GPUs with the same name but part of a different architecture 
 
 ### Desktop:
 
-- `GT730`: Has a `GF108` (Fermi) and a `GK208` (Kepler) varient.
-- `GT625`: Has a `GF108` (Fermi) and a `GK107`/`GK208` (Kepler) varient.
-- `GT640`: Has a `GF116` (Fermi) and a `GK107`/`GK208` (Kepler) varient.
+- `GT730`: Has a `GF108` (Fermi) and a `GK208` (Kepler) variant.
+- `GT625`: Has a `GF108` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
+- `GT640`: Has a `GF116` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
 - `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (with the exception of the above)
-- `GT705` has a `GF119` (Fermi) and a `GK208` (Kepler) varient.
-- `GTX745`, `GTX750` and `GTX750 Ti` are Maxwell, even though all other `700` series are Kepler variants (with the exception of the above)
+- `GT705` has a `GF119` (Fermi) and a `GK208` (Kepler) variant.
+- `GTX745`, `GTX750` and `GTX750 Ti` are Maxwell, even though all other `700` series are Kepler variant (with the exception of the above)
+- `GT1030`: Has a `GK107` (Kepler) and a `GP108` (Pascal) variant. 
 - All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
 
 ### Laptop:
