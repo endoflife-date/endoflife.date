@@ -20,14 +20,14 @@ releases:
     lts: false
     support: 2022-04-01
     eol: 2022-06-01
-    latest: "17.0.0"
+    latest: "17.0.1"
   - releaseCycle: "16"
     release: 2021-04-20
     lts: false
     # enters lts: true on 2021-10-26
     support: 2022-10-18
     eol: 2024-04-30
-    latest: "16.11.1"
+    latest: "16.12.0"
   - releaseCycle: "15"
     release: 2020-10-20
     lts: false
