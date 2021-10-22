@@ -73,7 +73,7 @@ releases:
     release: 2020-09-08
     eol: false
   - releaseCycle: Android 12 (12)
-    release: 2020-10-04
+    release: 2021-10-04
     eol: false
 ---
 
