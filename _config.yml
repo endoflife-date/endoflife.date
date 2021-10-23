@@ -48,3 +48,4 @@ defaults:
       path: ""
     values:
       image: /logo.png
+encoding: utf-8
