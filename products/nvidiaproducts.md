@@ -29,13 +29,13 @@ releases:
   - releaseCycle: "Consumer Kepler (GKxxx)"
     release: 2012-03-22
     support: 2021-09-20
-    eol: 2024-07-01
+    eol: 2024-09-01
     discontinued: true
 
   - releaseCycle: "Professional Kepler (GKxxx)"
     release: 2013-03-01
     support: 2021-09-20
-    eol: 2024-07-01
+    eol: 2024-09-01
     discontinued: true
 
   - releaseCycle: "Mobile Professional Kepler (GKxxx)"
@@ -207,5 +207,6 @@ Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which me
 
 ## Driver Support Exceptions
 
+- GKxxx ("Kepler") Desktop GPUs are supported on Windows and Linux via the `R470` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) till September 2024.
 - Consumer `GF1xx` ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 - Not all Professional Fermi (`GF1xx`) GPUs are still supported on Windows, see the [official GPU support list](https://us.download.nvidia.com/Windows/Quadro_Certified/392.67/392.67-win10-quadro-release-notes.pdf) for specific models. On Linux there support is for all Fermi GPUs.
