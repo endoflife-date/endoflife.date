@@ -79,7 +79,7 @@ releases:
   - releaseCycle: "R470-Linux (LTSB)"
     release: 2021-7-19
     support: true
-    eol: 2024-07-01
+    eol: 2024-09-01
     latest: "470.74"
     link: https://www.nvidia.com/Download/driverResults.aspx/180475/en-us
     cycleShortHand: 9
@@ -87,7 +87,7 @@ releases:
   - releaseCycle: "R470-Windows (LTSB)"
     release: 2021-06-22
     support: 2021-09-20
-    eol: 2024-07-01
+    eol: 2024-09-01
     latest: "472.12"
     link: https://www.nvidia.com/Download/driverResults.aspx/180557/en-us
     cycleShortHand: 10
@@ -117,6 +117,7 @@ Since LTSB branches are also production branches, it  may be listed as a product
 
 GPUs supported by any given branch is dependent on the operating system.
 
+- GKxxx ("Kepler") Desktop GPUs are supported on Windows and Linux via the `R470` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) till September 2024.
 - GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 - A list of [GPUs no longer supported on Windows](https://nvidia.custhelp.com/app/answers/detail/a_id/3473) is available.
 - Usually on Linux driver support per branch is indicated by architecture, but on Windows only specific models are supported. For example the R390 branch mainly exists simply to provide security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are supported](http://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html), on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf)
