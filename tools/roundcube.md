@@ -23,7 +23,7 @@ releases:
     latest: "1.3.16"
     release: 2017-06-26
     eol: false
-    support: true
+    support: false
     
   - releaseCycle: "1.2"
     latest: "1.2.13"
