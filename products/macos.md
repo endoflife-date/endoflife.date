@@ -8,6 +8,9 @@ category: device
 sortReleasesBy: "release"
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 releases:
+  - releaseCycle: "macOS 12 (Monterey)"
+    release: 2021-10-25
+    eol: false
   - releaseCycle: "macOS 11 (Big Sur)"
     release: 2020-11-12
     eol: false
@@ -16,7 +19,7 @@ releases:
     eol: false
   - releaseCycle: "macOS 10.14 (Mojave)"
     release: 2018-09-24
-    eol: false
+    eol: 2021-10-25
   - releaseCycle: "macOS 10.13 (High Sierra)"
     release: 2017-09-25
     eol: 2020-12-01
