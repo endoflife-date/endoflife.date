@@ -23,11 +23,10 @@ releases:
     latest: "17.0.1"
   - releaseCycle: "16"
     release: 2021-04-20
-    lts: false
-    # enters lts: true on 2021-10-26
+    lts: true
     support: 2022-10-18
     eol: 2024-04-30
-    latest: "16.12.0"
+    latest: "16.13.0"
   - releaseCycle: "15"
     release: 2020-10-20
     lts: false
