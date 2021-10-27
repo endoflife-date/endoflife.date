@@ -51,6 +51,7 @@ releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 releaseImage: https://docs.moodle.org/dev/Releases#/media/File:releasescurrent.png
+---
 
 > [Moodle](https://moodle.org/) is a Learning Platform or course management system (CMS) - a free Open Source software package designed to help educators create effective online courses based on sound pedagogical principles.
 
