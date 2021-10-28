@@ -58,5 +58,3 @@ releaseImage: https://docs.moodle.org/dev/images_dev/7/7e/releasescurrent.png
 Major (eg. 3.x) releases are made every 6 months, Second Monday of May and November. Minor (eg. 3.x.y) releases are made every 2 months, Second Monday of July, September, November, January, March and May. 
 
 From Moodle 2.6 onwards, the end of support, both general and security, happens the second Monday of May and November, observing the 12, 18... month periods, no matter if the major release was delayed or not.
-
-The most recent long-term support release (LTS) version is Moodle 3.9.
