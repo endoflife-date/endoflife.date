@@ -10,9 +10,9 @@ sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
 category: os
 releases:
-  # feature release 35 expected on 2021-10-27 -> calculate EoL of 33
+  # feature release 35 expected on 2021-11-02 -> calculate EoL of 33
   #- releaseCycle: "35"
-  #  release: 2021-10-27
+  #  release: 2021-11-02
   #  latest: "35"
   #  eol: false
   - releaseCycle: "34"
@@ -22,7 +22,7 @@ releases:
   - releaseCycle: "33"
     release: 2020-10-27
     latest: "33"
-    eol: 2021-11-16
+    eol: 2021-11-30
   - releaseCycle: "32"
     release: 2020-04-28
     latest: "32"
