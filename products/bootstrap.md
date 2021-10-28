@@ -16,7 +16,7 @@ releases:
   - releaseCycle: 4.x
     release: 2018-01-18
     eol: 2022-11-01
-    latest: "4.6.0"
+    latest: "4.6.1"
     lts: true
     support: false
   - releaseCycle: 3.x
