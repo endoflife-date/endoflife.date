@@ -177,7 +177,7 @@ releaseDateColumn: true
 discontinuedColumn: false
 
 # Command that can be used to check the current version. (optional)
-command: docker version
+command: docker version --format '{{.Server.Version}}'
 
 # In the markdown section, ensure that the following are present:
 # 1. A one line statement about what the product is, with a link to the primary website (in a quote)
