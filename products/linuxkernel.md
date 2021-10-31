@@ -19,8 +19,7 @@ releases:
     cycleShortHand: 515
     release: 2021-10-31
     eol: false
-    latest: "5.15.0"
-    link: https://lore.kernel.org/lkml/CAHk-=wjfbfQobW2jygMvgfJXKmzZNB=UTzBrFs2vTEzVpBXA4Q@mail.gmail.com/T/
+    latest: "5.15"
 
   - releaseCycle: "5.14"
     cycleShortHand: 514
