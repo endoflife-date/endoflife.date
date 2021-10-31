@@ -14,6 +14,14 @@ releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
+
+  - releaseCycle: "5.15"
+    cycleShortHand: 515
+    release: 2021-10-31
+    eol: false
+    latest: "5.15.0"
+    link: https://lore.kernel.org/lkml/CAHk-=wjfbfQobW2jygMvgfJXKmzZNB=UTzBrFs2vTEzVpBXA4Q@mail.gmail.com/T/
+
   - releaseCycle: "5.14"
     cycleShortHand: 514
     release: 2021-08-29
