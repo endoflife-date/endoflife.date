@@ -18,7 +18,8 @@ releases:
   - releaseCycle: "5.15"
     cycleShortHand: 515
     release: 2021-10-31
-    eol: false
+    eol: 2023-10-31
+    lts: true
     latest: "5.15"
 
   - releaseCycle: "5.14"
