@@ -4,7 +4,7 @@ layout: post
 category: os
 sortReleasesBy: "cycleShortHand"
 changelogTemplate: |
-  https://docs.yoctoproject.org/migration-guides/migration-{{"__LATEST__"| split: " " | first}}.html
+  https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 iconSlug: NA
 
 releases:
