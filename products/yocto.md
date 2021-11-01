@@ -11,11 +11,13 @@ releases:
 #  - releaseCycle: "3.5 'kirkstone'"
 #    cycleShortHand: 305
 #    lts: true
+#    latest: "3.5.0"
 #    release: 2022-04-01
 #    eol:     2024-04-01
 #
   - releaseCycle: "3.4 'honister'"
     cycleShortHand: 304
+    latest: "3.4.0"
     release: 2021-10-25
     eol:     2022-05-01
 
