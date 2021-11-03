@@ -30,7 +30,7 @@ releases:
   - releaseCycle: "8.9"
     release: 2020-06-03
     support: 2020-12-01
-    eol:     2021-11-01
+    eol:     2021-11-02
     latest:  "8.9.19"
     lts: true
   - releaseCycle: "8.8"
