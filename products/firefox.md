@@ -12,17 +12,17 @@ changelogTemplate: |
 sortReleasesBy: 'cycleShortHand'
 releases:
 
-  - releaseCycle: "Firefox 93"
-    release: 2021-10-05
+  - releaseCycle: "Firefox 94"
+    release: 2021-11-02
     eol: false
-    latest: "93.0"
+    latest: "94.0"
     cycleShortHand: 3
 
 
-  - releaseCycle: "Firefox 91.1 ESR"
-    release: 2021-09-07
+  - releaseCycle: "Firefox 91 ESR"
+    release: 2021-11-02
     eol: false
-    latest: "91.2.0"
+    latest: "91.3.0"
     cycleShortHand: 2
 
 
