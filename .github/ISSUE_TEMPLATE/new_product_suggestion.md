@@ -1,26 +1,25 @@
 ---
 name: New Product Suggestion
-about: Suggest a new product to add into endoflife.date
+about: Suggest a new product for endoflife.date
 title: ''
 labels: 'new-product'
 assignees: ''
 
 ---
 
-`Full and Short Name of Suggested Product`
+**Full and short name of product**
 
-Let us know its full long name and if exist its short name ( ie PowerShell , pwsh )
+Let us know the long, full name and, if it has one, the short name (for example, PowerShell and pwsh).
 
 
-`Does this product have LTS versions ? Date intervals between each LTS versions ?`
+**Does this product have LTS versions? What are the intervals between each LTS version?**
 
-ie. A current release is a release that occurs between LTS releases. Current releases can contain critical fixes,
-innovations, and new features. A current release is supported for three months after the next release (current or LTS).
+For example, a current release is a release that occurs between LTS releases. Current releases can contain critical fixes,
 
-`What is the Website of Suggested Product and its Version information ?`
+**What is the website for the product and for its version information?**
 
-ie. https://github.com/PowerShell/PowerShell/tags
+For example: https://github.com/PowerShell/PowerShell/tags
 
-`Additional context`
+**Additional context**
 
 Add any other context or screenshots about the product which you want us to add endoflife.date .
