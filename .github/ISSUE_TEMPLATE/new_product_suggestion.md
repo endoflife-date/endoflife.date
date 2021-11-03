@@ -16,9 +16,11 @@ Let us know the long, full name and, if it has one, the short name (for example,
 
 For example, a current release is a release that occurs between LTS releases. Current releases can contain critical fixes,
 
+
 **What is the website for the product and for its version information?**
 
 For example: https://github.com/PowerShell/PowerShell/tags
+
 
 **Additional context**
 
