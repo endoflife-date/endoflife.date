@@ -19,7 +19,7 @@ releases:
     cycleShortHand: 3
 
 
-  - releaseCycle: "Firefox 91.3 ESR"
+  - releaseCycle: "Firefox 91 ESR"
     release: 2021-11-02
     eol: false
     latest: "91.3.0"
