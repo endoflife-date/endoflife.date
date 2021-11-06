@@ -15,7 +15,7 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "3.4"
-    release: 2021-11-06
+    release: 2021-11-05
     support: true
     eol: false
     latest: "3.4.0"
