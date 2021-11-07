@@ -14,6 +14,12 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "3.4"
+    release: 2021-11-05
+    support: true
+    eol: false
+    latest: "3.4.0"
+    link: https://godotengine.org/article/godot-3-4-is-released
   - releaseCycle: "3.3"
     release: 2021-04-22
     support: true
