@@ -17,7 +17,7 @@ releases:
     release: 2021-10-22
     support: 2021-11-22
     eol: 2022-01-22
-    latest: "14.4.1"
+    latest: "14.4.2"
   - releaseCycle: "14.3"
     release: 2021-09-22
     support: 2021-10-22
