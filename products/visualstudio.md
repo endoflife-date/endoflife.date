@@ -7,6 +7,10 @@ sortReleasesBy: "cycleShortHand"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
+  - releaseCycle: "2022 version 17.0"
+    release: 2021-11-08
+    eol: 2023-07-11
+    cycleShortHand: 20221700
   - releaseCycle: "2019 version 16.11"
     release: 2021-08-10
     eol: 2029-04-10
