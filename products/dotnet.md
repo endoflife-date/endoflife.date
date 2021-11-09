@@ -20,7 +20,7 @@ releases:
   - releaseCycle: "5.0"
     lts: false
     release: 2020-11-10
-    eol: 2022-05-31
+    eol: 2022-05-08
     latest: "5.0.12"
 ---
 
