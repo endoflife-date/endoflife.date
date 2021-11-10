@@ -5,7 +5,7 @@ title: Home
 # This is the content for the website homepage (https://endoflife.date/)
 ---
 
-endoflife.date is a community-maintained project to document End of Life dates, and support lifecycles of various products.
+endoflife.date is a community-maintained project to document end-of-life dates, and support lifecycles of various products.
 
 If you maintain such information for a project, please read our [Recommendations for Product Maintainers](/recommendations).
 
