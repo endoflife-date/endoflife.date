@@ -10,10 +10,16 @@ releaseDateColumn: true
 sortReleasesBy: "release"
 eolColumn: Support Status
 releases:
+  - releaseCycle: "7.2"
+    cycleShortHand: 7.2
+    lts: true
+    release: 2021-11-08
+    eol:     2024-11-30
+    latest:  "7.2.0"
   - releaseCycle: "7.1"
     cycleShortHand: 7.1
     release: 2020-11-11
-    eol:     2022-02-15
+    eol:     2022-05-31
     latest:  "7.1.5"
   - releaseCycle: "7.0"
     cycleShortHand: 7.0
