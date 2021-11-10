@@ -5,16 +5,9 @@ title: Home
 # This is the content for the website homepage (https://endoflife.date/)
 ---
 
-This site maintains quick links for checking End Of Life dates for various products.
+endoflife.date is a community-maintained project to document End of Life dates, and support lifecycles of various products.
 
-## Suggestion
-
-The reason this site exists is because this information is very often hidden away. If you're releasing something on a regular basis:
-
-1.  List only supported releases.
-2.  Give EoL dates/policy if possible.
-3.  Hide unsupported releases behind a few extra clicks.
-4.  Mention security/active release difference if needed.
+If you maintain such information for a project, please read our [Recommendations for Product Maintainers](/recommendations).
 
 ## Contributing
 
