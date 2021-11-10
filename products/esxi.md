@@ -53,4 +53,4 @@ command: vmware -l
 ---
 > [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that installs directly onto your physical server.
 
-For further details on product lifecycle visit https://lifecycle.vmware.com.
+For further details on product lifecycle visit <https://lifecycle.vmware.com>
