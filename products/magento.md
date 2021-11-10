@@ -15,13 +15,13 @@ releases:
     release: 2020-07-28
     eol: false
     support: true
-    latest: "2.4.0"
+    latest: "2.4.3-p1"
   - releaseCycle: "2.3"
     cycleShortHand: 2
     release: 2018-11-28
     eol: 2021-05-28
     support: 2022-01-28
-    latest: "2.3.5"
+    latest: "2.3.7-p2"
   - releaseCycle: "2.2"
     cycleShortHand: 2
     release: 2017-09-01
