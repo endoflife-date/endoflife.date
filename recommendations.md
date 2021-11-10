@@ -1,8 +1,11 @@
 ---
-layout: post
+layout: home
 nav_exclude: true
 permalink: /recommendations
 title: Recommendations for maintainers
+alternate_urls:
+  - /advise
+  - /advice
 ---
 
 If you maintain a product that has some notion of support lifecycle and end-of-life,
@@ -30,8 +33,9 @@ time, but the link should not.
 
 - Bad: example.com/docs/v3.4/eol
 - Good: example.com/docs/eol
+- Good: example.com/release-policy
 
-## Bad
+### Bad
 
 Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the website:
 
@@ -41,11 +45,11 @@ Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the
 
 Make sure this information is hosted alongside your end-user documentation, not your developer or team documentation.
 
-## Bad
+### Bad
 
 Python maintains the EoL status on the website for Python developers: https://devguide.python.org/#status-of-python-branches
 
-## Bad
+### Bad
 
 The "release and maintenance" document for Ansible is versioned so there are multiple copies:
 
@@ -55,15 +59,11 @@ The "release and maintenance" document for Ansible is versioned so there are mul
 
 This causes confusion, as users on the 2.9 branch might miss out on important information that is reflected on the latest version.
 
-## Bad
+### Bad
 
-Godot similarly uses a versioned release policy with multiple URLs:
-
-- https://docs.godotengine.org/en/stable/about/release_policy.html
-- https://docs.godotengine.org/en/latest/about/release_policy.html
-- https://docs.godotengine.org/en/3.4/about/release_policy.html
-- https://docs.godotengine.org/en/3.3/about/release_policy.html
-- https://docs.godotengine.org/en/3.2/about/release_policy.html
+Godot similarly uses a versioned release policy with multiple URLs: [stable](https://docs.godotengine.org/en/stable/about/release_policy.html),
+[latest](https://docs.godotengine.org/en/latest/about/release_policy.html), [3.4](https://docs.godotengine.org/en/3.4/about/release_policy.html),
+[3.3](https://docs.godotengine.org/en/3.3/about/release_policy.html), [3.2](https://docs.godotengine.org/en/3.2/about/release_policy.html)
 
 Godot needs to maintain and redirect older pages to the stable one, which maintains the correct information.
 This is a workaround, and having a single stable URL would make this problem go away.
@@ -80,7 +80,13 @@ If you have LTS (Long Term Support) releases, clarify how this differs for those
 Not every project has a stable release cadence, but if you have one (even a rough one), document it.
 It is always better if your release cadence is predictable and aligned with your support lifecycles.
 
-- Good: https://alpinelinux.org/releases/
+### Good
+
+>There are several release branches for Alpine Linux available at the same time.
+Each May and November we make a release branch from edge.
+The main repository is typically supported for 2 years and the community repository is supported until next stable release.
+
+Source: <https://alpinelinux.org/releases/>
 
 ## Explain what's supported
 
@@ -150,9 +156,6 @@ more time.
 
 | K8s version | AKS GA   | End of life |
 |-------------|----------|-------------|
-| 1.19        | Nov 2020 | 1.22 GA     |
-| 1.20        | Mar 2021 | 1.23 GA     |
-| 1.21        | Jul 2021 | 1.24 GA     |
 | 1.22        | Nov 2021 | 1.25 GA     |
 | 1.23        | Feb 2022 | 1.26 GA     |
 
@@ -167,14 +170,20 @@ more time.
 
 Release are supported for 2 years from the release date.
 
+### Good
+
+Same as above, but we do the math:
+
+Version|Release Date|EoL Date
+---|---|---
+2.1|3rd March 2021|3rd March 2023
+2.0|1st March 2020|1st March 2022
+
+
 ### Good:
 
 |Kubernetes version|Upstream release|Amazon EKS release|Amazon EKS end of support|
 |------|-------------------|-------------------|--------------------|
-| 1.16 | September 8, 2019 | April 30, 2020    | September 27, 2021 |
-| 1.17 | December 9, 2019  | July 10, 2020     | November 2, 2021   |
-| 1.18 | March 23, 2020    | October 13, 2020  | February 18, 2022  |
-| 1.19 | August 26, 2020   | February 16, 2021 | April, 2022        |
 | 1.20 | December 8, 2020  | May 18, 2021      | July, 2022         |
 | 1.21 | April 8, 2021     | July 19, 2021     | September, 2022    |
 
@@ -184,6 +193,8 @@ Release are supported for 2 years from the release date.
 
 Always document complete dates, instead of just providing a month and year.
 Users should not be left guessing whether the EoL is on the 1st of December or 31st.
+
+Bad: See above AKS and EKS examples.
 
 ## Provide a release schedule image
 
@@ -197,11 +208,11 @@ nice to have.
 - Ensure that all the data in the image is also reflected in text (in a table) for accessibility reasons.
 - Limit the image scale by picking a cut-off date.
 
-- Good: https://www.php.net/supported-versions.php
-- Good: https://jefftriplett.com/django-release-cycle/
-- Good: https://hugovk.github.io/drupal-release-cycle/
-- Bad: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
-- Bad: https://ubuntu.com/about/release-cycle (Does not provide an accessible table)
+- Good: <https://www.php.net/supported-versions.php>
+- Good: <https://jefftriplett.com/django-release-cycle/>
+- Good: <https://hugovk.github.io/drupal-release-cycle/>
+- Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
+- Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table)
 
 ## Checklist
 
