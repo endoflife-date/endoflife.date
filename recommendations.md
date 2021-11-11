@@ -17,7 +17,7 @@ Every recommendation includes a few examples (sometimes real) to help explain ou
 Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
 Every item is linked to the relevant section in the document below.
 
-- [ ] [Document all relevant information *together*](#publishing) in the same place.
+- [ ] [Document all relevant information *together*](#publishing), accessible to your end-users.
 - [ ] [Publish at a stable URL](#publishing), and make sure this link is not versioned.
 - [ ] [Document your release cadence](#release-cadence).
 - [ ] [Explain all levels of support](#explain-whats-supported).
@@ -59,13 +59,13 @@ Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the
 - https://ubuntu.com/about/release-cycle
 - https://wiki.ubuntu.com/Releases
 
-Make sure this information is hosted alongside your end-user documentation, not your developer or team documentation.
+Make sure this information is hosted _alongside your end-user documentation_, not your developer or team documentation.
 
-### Bad
+### Bad - Python
 
 Python maintains the EoL status on the website for Python developers: https://devguide.python.org/#status-of-python-branches
 
-### Bad
+### Bad - Ansible
 
 The "release and maintenance" document for Ansible is versioned so there are multiple copies:
 
@@ -74,15 +74,6 @@ The "release and maintenance" document for Ansible is versioned so there are mul
 - https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 
 This causes confusion, as users on the 2.9 branch might miss out on important information that is reflected on the latest version.
-
-### Bad
-
-Godot similarly uses a versioned release policy with multiple URLs: [stable](https://docs.godotengine.org/en/stable/about/release_policy.html),
-[latest](https://docs.godotengine.org/en/latest/about/release_policy.html), [3.4](https://docs.godotengine.org/en/3.4/about/release_policy.html),
-[3.3](https://docs.godotengine.org/en/3.3/about/release_policy.html), [3.2](https://docs.godotengine.org/en/3.2/about/release_policy.html)
-
-Godot needs to maintain and redirect older pages to the stable one, which maintains the correct information.
-This is a workaround, and having a single stable URL would make this problem go away.
 
 ## Document your support lifecycle
 
@@ -96,7 +87,7 @@ If you have LTS (Long Term Support) releases, clarify how this differs for those
 Not every project has a stable release cadence, but if you have one (even a rough one), document it.
 It is always better if your release cadence is predictable and aligned with your support lifecycles.
 
-### Good
+### Good - Alpine Linux
 
 >There are several release branches for Alpine Linux available at the same time.
 Each May and November we make a release branch from edge.
@@ -128,7 +119,7 @@ security fixes only on the packages within the `base` repository.
 Document your versioning policy. Even if the policy is homebrew and varies between major versions, a clearly
 documented policy is better than none.
 
-Good:
+### Good
 
 > We follow Semantic Versioning, and limit breaking changes to major upgrades.
 
@@ -136,24 +127,27 @@ Good:
 
 ## Release Notes
 
-Release notes are critical for your users doing actual upgrades. If certain upgrade pathways are unsupported
-(such as doing 2 major upgrades at once), document it. Highlight breaking changes in your release notes.
+Release notes are critical for your end-users doing upgrades. If certain upgrade pathways are unsupported
+(such as doing 2 major upgrades at once), document the same. *Highlight breaking changes* in your release notes.
 
-If you have a migration guide, link it on all the release notes.
+If you have a migration guide, ensure it is linked in the release notes.
 
 ## Listing releases
 
 List your releases in a table with all the relevant information for each release cycle. This includes:
 
-1. Link to a changelog.
-2. What's the latest release in that cycle.
-3. What are the supported dates for this release (for *all* different support levels).
+1. Link to a changelog (and/or Release Notes). See [keepachangelog.com](https://keepachangelog.com/) for getting started with one.
+2. What's the latest release in that cycle. This helps users validate whether they are running a supported release or not.
+3. What are the important dates for this release -  EoL/Release/GA/LTS etc. Do this for *all* different support levels.
 4. Download URL, if needed.
-5. Release notes.
-6. Migration guide, if available.
+5. Migration guide, if available.
 
 Prefer listing older/unsupported releases elsewhere (`/historical-releases`). If you think they are important to your
 users, mark them extremely well in the table as unsupported.
+
+- Good: https://nodejs.org/en/about/releases/
+- Good: https://www.php.net/supported-versions.php
+- Bad: https://www.python.org/downloads/ (Lists an unsupported release alongside supported ones)
 
 ## Dates
 
@@ -164,7 +158,7 @@ Many times, your support/EoL policies are relative. Common examples:
 1. The last major release becomes unsupported 90 days after a new major release.
 2. Bug fixes on previous releases will be made till the latest releases gets the first point release.
 
-However, none of this is relevant to your end users. Make sure that all your releases always have a clear dates
+However, your end-users shouldn't have to do the math. Make sure that all your releases always have a clear dates
 (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided. You doing the math once will save your users much
 more time.
 
@@ -179,7 +173,9 @@ more time.
 
 ### Bad:
 
-|Version|Release Date|
+Some projects will often put a note instead of documenting absolute dates:
+
+Version|Release Date
 ---|---
 2.1|3rd March 2021
 2.0|1st March 2020
@@ -203,7 +199,7 @@ Version|Release Date|EoL Date
 | 1.20 | December 8, 2020  | May 18, 2021      | July, 2022         |
 | 1.21 | April 8, 2021     | July 19, 2021     | September, 2022    |
 
-(Source: [Amazon EKS Release Calendar][eks])
+Source: [Amazon EKS Release Calendar][eks].
 
 ## Provide complete dates
 
@@ -215,7 +211,7 @@ Bad: See above AKS and EKS examples.
 ## Provide a release schedule image
 
 This is optional, but a clear graphical representation of release cycles (with different colors for different levels of support) is always
-nice to have.
+nice to have. If you provide such an image, here's some recommendations:
 
 - Label your axes clearly with year boundaries.
 - Have a straight line marking the current date.
@@ -230,7 +226,7 @@ nice to have.
 - Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table)
 
-Feedback is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
+Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
 
 [aks]: https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 [eks]: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
