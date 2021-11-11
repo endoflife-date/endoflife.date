@@ -42,6 +42,9 @@ releases:
   - releaseCycle: "4.5"
     release: 2012-08-15
     eol: 2016-01-12
+  - releaseCycle: "3.5 SP1"
+    release: 2008-11-18
+    eol: 2028-10-10
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library (FCL) and provides language interoperability across several programming languages.
