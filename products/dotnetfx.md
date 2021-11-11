@@ -38,10 +38,13 @@ releases:
     release: 2014-05-05
     eol: 2022-04-26
   - releaseCycle: "4.5.1"
-    release: 2014-05-05
+    release: 2013-10-17
     eol: 2016-01-12
   - releaseCycle: "4.5"
     release: 2012-08-15
+    eol: 2016-01-12
+  - releaseCycle: "4.0"
+    release: 2010-04-12
     eol: 2016-01-12
   - releaseCycle: "3.5 SP1"
     release: 2008-11-18
