@@ -15,14 +15,14 @@ Every recommendation includes a few examples (sometimes real) to help explain ou
 ## Publishing
 
 For larger projects, you'll often have this information split across multiple pages - our recommendation is to keep
-these documents well linked and hosted together in such case. For eg, do not keep your versioning policy in your wiki,
+these documents well linked and hosted together in such case. For example, do not keep your versioning policy in your wiki,
 and the EoL policy on your website.
 
 We recommend limiting yourselves to a single document with appropriate sections, if feasible.
 
-Such a document should be published ideally on your Website or Wiki.
-You can include it in your repository as well (`RELEASE.md` or `EOL.md` for eg), but
-best possible place is your website - it provides a stable URL that can be referenced
+Such a document should be published ideally on your website or wiki.
+You can include it in your repository as well (`RELEASE.md` or `EOL.md` for example), but
+the best place to host it is your website - it provides a stable URL that can be referenced
 by your users.
 
 Make sure that the URL is clearly linked in your release notes, and other places. Make it
@@ -125,16 +125,16 @@ Release notes are critical for your users doing actual upgrades. If certain upgr
 
 If you have a migration guide, link it on all the release notes.
 
-## Listing Releases
+## Listing releases
 
 List your releases in a table with all the relevant information for each release cycle. This includes:
 
 1. Link to a changelog.
 2. What's the latest release in that cycle.
-3. What are the supported dates for this release (for *all* different support levels)
-4. Download URL, if needed
-5. Release notes
-6. Migration Guide, if available
+3. What are the supported dates for this release (for *all* different support levels).
+4. Download URL, if needed.
+5. Release notes.
+6. Migration guide, if available.
 
 Prefer listing older/unsupported releases elsewhere (`/historical-releases`). If you think they are important to your
 users, mark them extremely well in the table as unsupported.
@@ -148,7 +148,7 @@ Many times, your support/EoL policies are relative. Common examples:
 1. The last major release becomes unsupported 90 days after a new major release.
 2. Bug fixes on previous releases will be made till the latest releases gets the first point release.
 
-However, none of this is relevant to your end-users. Make sure that all your releases always have a clear dates
+However, none of this is relevant to your end users. Make sure that all your releases always have a clear dates
 (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided. You doing the math once will save your users much
 more time.
 
@@ -189,7 +189,7 @@ Version|Release Date|EoL Date
 
 (Source: [Amazon EKS Release Calendar][eks])
 
-## Provide Complete Date
+## Provide complete dates
 
 Always document complete dates, instead of just providing a month and year.
 Users should not be left guessing whether the EoL is on the 1st of December or 31st.
@@ -219,18 +219,18 @@ nice to have.
 Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
 
 - [ ] Document all relevant information *together* in the same place.
-- [ ] Publish on a stable URL, and make sure this link is not versioned.
-- [ ] Document your release cadence
-- [ ] Explain all levels of support
-- [ ] Document your versioning policy
+- [ ] Publish at a stable URL, and make sure this link is not versioned.
+- [ ] Document your release cadence.
+- [ ] Explain all levels of support.
+- [ ] Document your versioning policy.
 - [ ] Demarcate your list of releases between supported and unsupported releases.
-- [ ] Provide the latest version in every support cycle
+- [ ] Provide the latest version in every support cycle.
 - [ ] Provide absolute dates, instead of relative ones.
 - [ ] Provide complete dates, include the day of the month.
 - [ ] If you have a release schedule image, label it clearly and mark a current date line.
 
 
-Please provide your feedback on this advice on GitHub:
+Feedback is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
 
 [aks]: https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 [eks]: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
