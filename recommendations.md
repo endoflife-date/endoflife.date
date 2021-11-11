@@ -12,6 +12,22 @@ If you maintain a product that has some notion of support lifecycle and end-of-l
 these are our recommendations on how to best document this information for your users.
 Every recommendation includes a few examples (sometimes real) to help explain our rationale.
 
+## Checklist
+
+Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
+Every item is linked to the relevant section in the document below.
+
+- [ ] [Document all relevant information *together*](#publishing) in the same place.
+- [ ] [Publish at a stable URL](#publishing), and make sure this link is not versioned.
+- [ ] [Document your release cadence](#release-cadence).
+- [ ] [Explain all levels of support](#explain-whats-supported).
+- [ ] [Document your versioning policy](#versioning-policy).
+- [ ] [Demarcate your list of releases](#listing-releases) between supported and unsupported releases.
+- [ ] [Provide the latest version](#listing-releases) in every support cycle.
+- [ ] [Provide absolute dates](#always-use-absolute-dates), instead of relative ones.
+- [ ] [Provide complete dates](#provide-complete-dates), include the day of the month.
+- [ ] If you have a release schedule image, [label it clearly](provide-a-release-schedule-image) and mark a current date line.
+
 ## Publishing
 
 For larger projects, you'll often have this information split across multiple pages - our recommendation is to keep
@@ -213,22 +229,6 @@ nice to have.
 - Good: <https://hugovk.github.io/drupal-release-cycle/>
 - Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table)
-
-## Checklist
-
-Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
-
-- [ ] Document all relevant information *together* in the same place.
-- [ ] Publish at a stable URL, and make sure this link is not versioned.
-- [ ] Document your release cadence.
-- [ ] Explain all levels of support.
-- [ ] Document your versioning policy.
-- [ ] Demarcate your list of releases between supported and unsupported releases.
-- [ ] Provide the latest version in every support cycle.
-- [ ] Provide absolute dates, instead of relative ones.
-- [ ] Provide complete dates, include the day of the month.
-- [ ] If you have a release schedule image, label it clearly and mark a current date line.
-
 
 Feedback is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
 
