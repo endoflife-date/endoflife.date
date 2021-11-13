@@ -14,13 +14,13 @@ releases:
     support: true
     
   - releaseCycle: "1.4"
-    latest: "1.4.11"
+    latest: "1.4.12"
     release: 2019-11-09
     eol: false
     support: false
     
   - releaseCycle: "1.3"
-    latest: "1.3.16"
+    latest: "1.3.17"
     release: 2017-06-26
     eol: false
     support: false
