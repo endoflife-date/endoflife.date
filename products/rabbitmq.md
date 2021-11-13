@@ -17,7 +17,7 @@ releases:
   - releaseCycle: "3.8"
     eol: 2022-01-31
     release: 2019-10-01
-    latest: "3.8.24"
+    latest: "3.8.25"
   - releaseCycle: "3.7"
     eol: 2020-09-30
     release: 2017-11-28
