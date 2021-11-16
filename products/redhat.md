@@ -28,7 +28,7 @@ releases:
     release: 2010-11-10
     support: 2016-05-10
     eol: 2020-11-30
-   - releaseCycle: "RHEL 5"
+  - releaseCycle: "RHEL 5"
     release: 2007-03-15
     support: 2013-01-08
     eol: 2017-03-31
