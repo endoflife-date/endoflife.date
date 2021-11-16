@@ -19,7 +19,7 @@ releases:
     support: 2024-05-31
     eol: 2029-05-31
     latest: "8.5"
-   - releaseCycle: "RHEL 7"
+  - releaseCycle: "RHEL 7"
     release: 2014-06-10
     support: 2019-12-31
     eol: 2024-06-30
