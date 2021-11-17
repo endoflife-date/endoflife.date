@@ -10,11 +10,17 @@ command: composer show laravel/framework|grep versions
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+#  - releaseCycle: "9.x"
+#    release: 2022-01-25
+#    support: 2024-01-30
+#    eol: 2025-01-28
+#    latest: 9.0.0
+#    lts: true
   - releaseCycle: "8.x"
     release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
-    latest: 8.70.2
+    latest: 8.71.0
     lts: false
   - releaseCycle: "7.x"
     release: 2020-03-03
@@ -26,7 +32,7 @@ releases:
     release: 2019-09-03
     support: 2022-01-25
     eol: 2022-09-06
-    latest: 6.20.38
+    latest: 6.20.39
     lts: true
   - releaseCycle: "5.8"
     release: 2019-02-26
