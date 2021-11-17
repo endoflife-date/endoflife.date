@@ -12,17 +12,21 @@ releaseDateColumn: true
 command: nomad --version
 
 releases:
+  - releaseCycle: "1.2"
+    eol: false
+    release: 2021-11-15
+    latest: "1.2.0"
   - releaseCycle: "1.1"
     eol: false
     release: 2021-05-18
-    latest: "1.1.6"
+    latest: "1.1.7"
   - releaseCycle: "1.0"
     eol: false
     release: 2020-12-08
-    latest: "1.0.11"
+    latest: "1.0.13"
   - releaseCycle: "0.12"
     eol: false
-    release: 2021-05-12
+    release: 2020-07-09
     latest: "0.12.12"
 ---
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
