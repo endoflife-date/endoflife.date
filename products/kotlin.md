@@ -9,7 +9,7 @@ alternate_urls:
 command: kotlinc-native -version
 link: https://kotlinlang.org/docs/releases.html
 sortReleasesBy: "cycleShortHand"
-changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v{{__LATEST__}}"
+changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 
 activeSupportColumn: false
 discontinuedColumn: false
