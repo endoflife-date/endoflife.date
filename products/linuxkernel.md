@@ -20,55 +20,55 @@ releases:
     release: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "5.15"
+    latest: "5.15.2"
 
   - releaseCycle: "5.14"
     cycleShortHand: 514
     release: 2021-08-29
     eol: false
-    latest: "5.14.15"
+    latest: "5.14.18"
         
   - releaseCycle: "5.10"
     cycleShortHand: 510
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    latest: "5.10.76"
+    latest: "5.10.79"
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
     release: 2019-11-24
     eol: 2025-12-01
     lts: true
-    latest: "5.4.156"
+    latest: "5.4.159"
     
   - releaseCycle: "4.19"
     cycleShortHand: 419
     release: 2018-10-22
     eol: 2024-12-01
     lts: true
-    latest: "4.19.214"
+    latest: "4.19.217"
     
   - releaseCycle: "4.14"
     cycleShortHand: 414
     release: 2017-11-12
     eol: 2024-01-01
     lts: true
-    latest: "4.14.253"
+    latest: "4.14.255"
     
   - releaseCycle: "4.9"
     cycleShortHand: 409
     release: 2016-12-11
     eol: 2023-01-01
     lts: true
-    latest: "4.9.288"
+    latest: "4.9.290"
     
   - releaseCycle: "4.4"
     cycleShortHand: 404
     release: 2016-01-10
     eol: 2022-02-01
     lts: true
-    latest: "4.4.290"
+    latest: "4.4.292"
 
 
 ---
