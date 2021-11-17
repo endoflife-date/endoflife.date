@@ -14,7 +14,7 @@ releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
 sortReleasesBy: "release"
 releases:
 
- - releaseCycle: "2021.2"
+  - releaseCycle: "2021.2"
     release: 2021-10-26
     eol: false
     latest: "2021.2.2"
