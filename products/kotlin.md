@@ -39,6 +39,12 @@ releases:
     release: 2020-08-17
     latest: "1.4.32"
 
+  - releaseCycle: "1.3"
+    cycleShortHand: 103
+    eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
+    support: false
+    release: 2018-10-29
+    latest: "1.3.72"
 
 ---
 > [Kotlin](https://kotlinlang.org/) is a cross-platform, statically typed, general-purpose programming language with type inference.
