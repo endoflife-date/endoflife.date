@@ -10,6 +10,14 @@ releaseDateColumn: true
 command: winver
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Windows 10, version 21H2 (E)"
+    release: 2021-11-16
+    support: 2024-06-11
+    eol: 2024-06-11
+  - releaseCycle: "Windows 10, version 21H2 (W)"
+    release: 2021-11-16
+    support: 2023-06-13
+    eol: 2023-06-13
   - releaseCycle: "Windows 11, version 21H2 (E)"
     release: 2021-10-04
     support: 2024-10-08
