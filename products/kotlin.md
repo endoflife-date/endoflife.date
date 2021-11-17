@@ -32,7 +32,7 @@ releases:
     release: 2021-05-05
     latest: "1.5.31"
 
- - releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     cycleShortHand: 105
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
