@@ -13,22 +13,28 @@ changelogTemplate: |
 releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
 sortReleasesBy: "release"
 releases:
+
+  - releaseCycle: "2021.2"
+    release: 2021-10-26
+    eol: false
+    latest: "2021.2.2"
+
   - releaseCycle: "2021.1"
     release: 2021-03-19
-    eol: false
-    latest: "2021.1.26"
+    eol: true
+    latest: "2021.1.28"
 
   - releaseCycle: "2020"
     release: 2021-03-11
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.21"
+    latest: "2020.3.22"
 
   - releaseCycle: "2019"
     release: 2020-06-09
     eol: 2022-06-01
     lts: true
-    latest: "2019.4.31"
+    latest: "2019.4.32"
 
   - releaseCycle: "2018"
     release: 2019-05-10
