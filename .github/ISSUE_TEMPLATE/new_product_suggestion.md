@@ -1,8 +1,8 @@
 ---
 name: New product suggestion
 about: Suggest a new product for endoflife.date
-title: ''
-labels: 'request'
+title: '[New Product]: '
+labels: ['new-product','request']
 assignees: ''
 
 ---
