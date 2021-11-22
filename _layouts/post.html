@@ -154,13 +154,11 @@ or +1 (EoL is in the future)
   </td>
 
   {% if page.releaseColumn != false %}
-  <td>
-    {% if releaseLink != "" and diff > 0 %}
+  <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
+    {% if releaseLink != "" %}
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
-    {% elsif diff > 0 %}
-      {{latestVersionNumber}}
     {% else %}
-      NA
+      {{latestVersionNumber}}
     {% endif %}
   </td>
   {% endif %}
@@ -182,6 +180,9 @@ or +1 (EoL is in the future)
 .bg-light {
   background-color: #f8f9fa !important;
 }
+.txt-linethrough {
+  text-decoration:line-through;
+ }
 .card {
   position: relative;
   display: -ms-flexbox;
