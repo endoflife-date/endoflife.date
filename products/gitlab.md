@@ -13,6 +13,11 @@ eolColumn: Maintenance Support
 iconSlug: gitlab
 
 releases:
+  - releaseCycle: "14.5"
+    release: 2021-11-22
+    support: 2021-12-22
+    eol: 2022-02-22
+    latest: "14.5.0"
   - releaseCycle: "14.4"
     release: 2021-10-22
     support: 2021-11-22
