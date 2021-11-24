@@ -90,6 +90,6 @@ releases:
 [Windows 10 release information](https://docs.microsoft.com/en-us/windows/release-health/release-information)  
 [Microsoft Support Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet)
 
-Feature updates will be released twice a year for Windows 10 via the Semi-Annual Channel (SAC), targeting March and September annually.
+Beginning with Windows 10, version 21H2, feature updates for Windows 10 release are released annually, in the second half of the calendar year.
 
 Prior releases (to Windows 10) are governed by the Fixed Lifecycle Policy. This policy comprises two phases: mainstream support and extended support.
