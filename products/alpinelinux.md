@@ -13,6 +13,11 @@ command: cat /etc/alpine-release
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
+  - releaseCycle: "v3.15"
+    release: 2021-11-24
+    eol: 2023-11-01
+    cycleShortHand: 315
+    latest: "3.15.0"
   - releaseCycle: "v3.14"
     release: 2021-06-15
     eol: 2023-05-01
@@ -22,19 +27,19 @@ releases:
     release: 2021-01-14
     eol: 2022-11-01
     cycleShortHand: 313
-    latest: "3.13.6"
+    latest: "3.13.7"
     link: https://alpinelinux.org/posts/Alpine-3.11.12-3.12.8.-3.13.6-released.html
   - releaseCycle: "v3.12"
     release: 2020-05-29
     eol: 2022-05-01
     cycleShortHand: 312
-    latest: "3.12.8"
+    latest: "3.12.9"
     link: https://alpinelinux.org/posts/Alpine-3.11.12-3.12.8.-3.13.6-released.html
   - releaseCycle: "v3.11"
     release: 2019-12-19
     eol: 2021-11-01
     cycleShortHand: 311
-    latest: "3.11.12"
+    latest: "3.11.13"
     link: https://alpinelinux.org/posts/Alpine-3.11.12-3.12.8.-3.13.6-released.html
   - releaseCycle: "v3.10"
     release: 2019-06-19
@@ -66,4 +71,4 @@ releases:
 
 There are several releases of Alpine Linux available at the same time. There is no fixed release cycle but rather a snapshot of edge is taken every 6 months as a release. Stable releases are supported normally for 2 years. Security fixes beyond that are on request and when patches are available.
 
-Only the latest release (ie `v3.13` at this time) gets bug fixes, prior supported releases only get security fixes.
+Only the latest release (ie `v3.15` at this time) gets bug fixes, prior supported releases only get security fixes.
