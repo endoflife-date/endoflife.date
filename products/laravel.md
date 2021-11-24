@@ -20,19 +20,19 @@ releases:
     release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
-    latest: 8.71.0
+    latest: 8.73.2
     lts: false
   - releaseCycle: "7.x"
     release: 2020-03-03
     support: 2020-10-06
     eol: 2021-03-03
-    latest: 7.30.4
+    latest: 7.30.5
     lts: false
   - releaseCycle: "6.x"
     release: 2019-09-03
     support: 2022-01-25
     eol: 2022-09-06
-    latest: 6.20.39
+    latest: 6.20.41
     lts: true
   - releaseCycle: "5.8"
     release: 2019-02-26
