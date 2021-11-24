@@ -10,6 +10,14 @@ releaseDateColumn: true
 command: winver
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "Windows 10, version 21H2 (E)"
+    release: 2021-11-16
+    support: 2024-06-11
+    eol: 2024-06-11
+  - releaseCycle: "Windows 10, version 21H2 (W)"
+    release: 2021-11-16
+    support: 2023-06-13
+    eol: 2023-06-13
   - releaseCycle: "Windows 11, version 21H2 (E)"
     release: 2021-10-04
     support: 2024-10-08
@@ -72,19 +80,16 @@ releases:
     eol: 2020-01-14
 ---
 
-| Note | Comment                                      |
-| ---- | -------------------------------------------- |
-| (E)  | Enterprise and Education editions            |
-| (W)  | Home, Pro, and Pro for Workstations editions |
-| SAC  | Semi-Annual Channel release                  |
-| LTS  | Long-Term Servicing Channel                  |
+| Note | Comment                                                    |
+| ---- | ---------------------------------------------------------- |
+| (E)  | Enterprise, Education and IoT Enterprise editions          |
+| (W)  | Home, Pro, Pro Education and Pro for Workstations editions |
+| LTS  | Long-Term Servicing Channel                                |
 
+[Windows 11 release information](https://docs.microsoft.com/en-us/windows/release-health/windows11-release-information)  
+[Windows 10 release information](https://docs.microsoft.com/en-us/windows/release-health/release-information)  
 [Microsoft Support Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-in/help/13853/windows-lifecycle-fact-sheet)
 
-Windows 10 Semi-Annual Channel (SAC) is governed by the [Modern Lifecycle Policy][mlp] (as of January 25, 2018).
-
-Feature updates will be released twice a year for Windows 10 via the Semi-Annual Channel (SAC), targeting March and September annually.
+Beginning with Windows 10, version 21H2, feature updates for Windows 10 release are released annually, in the second half of the calendar year.
 
 Prior releases (to Windows 10) are governed by the Fixed Lifecycle Policy. This policy comprises two phases: mainstream support and extended support.
-
-[mlp]: http://go.microsoft.com/fwlink/p/?LinkId=722733
