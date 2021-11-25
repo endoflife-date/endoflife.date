@@ -2,31 +2,32 @@
 permalink: /blender
 title: Blender
 layout: post
-link: https://www.blender.org/download/lts/
+link: https://www.blender.org
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: blender
 releaseImage: https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
+changelogTemplate: |
+  https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}
 sortReleasesBy: "release"
 eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
+  - releaseCycle: "2.93"
+    release: 2021-06-02
+    eol: 2023-06-01
+    support: true
+    latest: "2.93.6"
+    lts: true
 
   - releaseCycle: "2.83"
     release: 2020-06-03
     eol: 2022-06-01
     support: 2020-08-31
     latest: "2.83.18"
-    link: https://www.blender.org/download/lts/2-83/
     lts: true
     
-  - releaseCycle: "2.93"
-    release: 2021-06-02
-    eol: 2023-06-01
-    support: true
-    latest: "2.93.6"
-    link: https://www.blender.org/download/lts/2-93/
-    lts: true
+
 ---
 > [Blender](https://blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
 
