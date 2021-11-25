@@ -26,7 +26,7 @@ releases:
     support: 2021-12-31
     eol: 2021-12-31
     latest: "8 (2111)"
-    link:  http://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
+    link:  https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
   - releaseCycle: "CentOS Stream 8"
     release: 2019-09-24
     support: 2024-05-31
