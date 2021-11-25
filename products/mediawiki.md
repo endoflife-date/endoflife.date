@@ -9,17 +9,18 @@ releases:
 #    lts: false
 #    release: 2022-05-01
 #    eol: 2023-05-01
-#
-#  - releaseCycle: "1.37"
-#    lts: false
-#    release: 2021-11-01
-#    eol: 2022-11-01
+
+  - releaseCycle: "1.37"
+    lts: false
+    release: 2021-11-18
+    eol: 2022-11-01
+    latest: "1.37.0"
 
   - releaseCycle: "1.36"
     lts: false
     release: 2021-05-28
     eol: 2022-05-01
-    latest: "1.36.1"
+    latest: "1.36.2"
     
   - releaseCycle: "1.35"
     lts: true
