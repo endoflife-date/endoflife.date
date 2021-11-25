@@ -25,14 +25,22 @@ releases:
     release: 2019-09-24
     support: 2021-12-31
     eol: 2021-12-31
-    latest: "8 (2105)"
-    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2105
+    latest: "8 (2111)"
+    link:  http://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
   - releaseCycle: "CentOS Stream 8"
     release: 2019-09-24
     support: 2024-05-31
     eol: 2024-05-31
     latest: "8"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
+    
+  - releaseCycle: "CentOS Stream 9"
+    release: 2021-09-15
+    support: true
+    eol: false
+    latest: "9"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
+
 ---
 
 > [CentOS](https://centos.org/) is a Linux distribution that provides a free, enterprise-class, community-supported computing platform functionally compatible with Red Hat Enterprise Linux.
