@@ -24,7 +24,7 @@ releases:
     release: 2021-06-02
     eol: 2023-06-01
     support: true
-    latest: "2.93.5"
+    latest: "2.93.6"
     link: https://www.blender.org/download/lts/2-93/
     lts: true
 ---
