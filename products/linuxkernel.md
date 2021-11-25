@@ -5,7 +5,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 link: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/7fd581c797074c2059bfdcf078447733.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/pugqro4rvjv2as8ogxjsgnkwyimpmqa.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
