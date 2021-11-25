@@ -4,7 +4,8 @@ permalink: /php
 layout: post
 category: lang
 link: https://www.php.net/supported-versions.php
-changelogTemplate: https://www.php.net/ChangeLog-{{"__LATEST__"| split: "." | first}}.php#__LATEST__
+changelogTemplate: |
+  https://www.php.net/ChangeLog-{{ "__LATEST__" | split: "." | first }}.php#__LATEST__
 activeSupportColumn: true
 command: php --version
 releaseDateColumn: true
