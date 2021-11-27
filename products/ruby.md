@@ -9,21 +9,27 @@ releaseDateColumn: true
 eolColumn: Support Status
 sortReleasesBy: 'release'
 releases:
+#  - releaseCycle: "3.1"
+#    release: 2021-12-XX
+#    eol: 2025-12-xx
+#    latest: "3.1.0"
+#    link: https://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
   - releaseCycle: "3.0"
     release: 2020-12-25
     eol: 2024-03-31
-    latest: "3.0.2"
-    link: https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/
+    latest: "3.0.3"
+    link: https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/
   - releaseCycle: "2.7"
     release: 2019-12-25
     eol: 2023-03-31
-    latest: "2.7.4"
-    link: https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/
+    latest: "2.7.5"
+    link: https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/
   - releaseCycle: "2.6"
     release: 2018-12-25
     eol: 2022-03-31
-    latest: "2.6.8"
-    link: https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/
+    latest: "2.6.9"
+    link: https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/
   - releaseCycle: "2.5"
     release: 2017-12-25
     eol: 2021-03-31
