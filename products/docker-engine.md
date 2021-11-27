@@ -6,7 +6,7 @@ permalink: /docker-engine
 sortReleasesBy: "releaseCycle"
 link: https://docs.docker.com/engine/release-notes/
 changelogTemplate: |
- "https://docs.docker.com/engine/release-notes/#{{"__LATEST__" | replace:'.',''}}"
+  https://docs.docker.com/engine/release-notes/#{{"__LATEST__" | replace:'.',''}}
 iconSlug: docker
 activeSupportColumn: false
 releaseColumn: true
