@@ -51,6 +51,7 @@ releases:
     support: 2020-09-30
     eol:     2023-04-02
     latest: "18.04.6"
+    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes/
   - releaseCycle: "16.04 'Xenial Xerus'"
     cycleShortHand: "XenialXerus"
     lts: true
