@@ -8,7 +8,7 @@ activeSupportColumn: true
 changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 releases:
   - releaseCycle: "1.5"
-    latest: "1.5.0"
+    latest: "1.5.1"
     release: 2021-10-18
     eol: false
     support: true
