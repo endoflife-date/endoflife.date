@@ -27,27 +27,27 @@ releases:
     release: 2021-09-22
     support: 2021-10-22
     eol: 2021-12-22
-    latest: "14.3.4"
+    latest: "14.3.5"
   - releaseCycle: "14.2"
     release: 2021-08-22
     support: 2021-09-22
     eol: 2021-11-22
-    latest: "14.2.6"
+    latest: "14.2.7"
   - releaseCycle: "14.1"
     release: 2021-07-22
     support: 2021-08-22
     eol: 2021-10-22
-    latest: "14.1.7"
+    latest: "14.1.8"
   - releaseCycle: "14.0"
     release: 2021-06-22
     support: 2021-07-22
     eol: 2021-09-22
-    latest: "14.0.7"
+    latest: "14.0.12"
   - releaseCycle: "13.12"
     release: 2021-05-22
     support: 2021-06-22
     eol: 2021-08-22
-    latest: "13.12.9"
+    latest: "13.12.15"
   - releaseCycle: "13.11"
     release: 2021-04-22
     support: 2021-05-22
