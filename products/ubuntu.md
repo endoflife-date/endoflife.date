@@ -13,7 +13,6 @@ sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "21.10 'Impish Indri'"
     cycleShortHand: "ImpishIndri"
-    lts: false
     release: 2021-10-14
     support: 2022-07-31
     eol:     2022-07-31
@@ -21,7 +20,6 @@ releases:
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
   - releaseCycle: "21.04 'Hirsute Hippo'"
     cycleShortHand: "HirsuteHippo"
-    lts: false
     release: 2021-04-22
     support: 2022-01-01
     eol:     2022-01-01
@@ -29,7 +27,6 @@ releases:
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
   - releaseCycle: "20.10 'Groovy Gorilla'"
     cycleShortHand: "GroovyGorilla"
-    lts: false
     release: 2020-10-22
     support: 2021-07-22
     eol:     2021-07-22
@@ -53,7 +50,8 @@ releases:
     release: 2018-04-26
     support: 2020-09-30
     eol:     2023-04-02
-    latest: "18.04.5"
+    latest: "18.04.6"
+    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes/
   - releaseCycle: "16.04 'Xenial Xerus'"
     cycleShortHand: "XenialXerus"
     lts: true
