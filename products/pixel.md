@@ -84,6 +84,6 @@ releases:
 
 > Google Pixel is Google's current line of Android Phones and other consumer electronics.
 
-The Pixel phones come out around the first or second week of October every year (the A series being unpredicatable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
+The Pixel phones come out around the first or second week of October every year (the A series being unpredictable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
 
 For more info on each model, visit: [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
