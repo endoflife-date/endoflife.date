@@ -15,7 +15,7 @@ releases:
   - releaseCycle: "3.18"
     release: 2021-06-24
     lts: true
-    latest: "3.18.0"
+    latest: "3.18.1"
     support: 2023-06-24
     eol: false
   - releaseCycle: "3.17"
@@ -31,7 +31,7 @@ releases:
   - releaseCycle: "3.15"
     release: 2019-12-18
     lts: true
-    latest: "3.15.4"
+    latest: "3.15.5"
     eol: false
     support: 2022-12-18
 
