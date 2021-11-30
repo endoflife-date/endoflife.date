@@ -15,7 +15,7 @@ releases:
   - releaseCycle: "Firefox 94"
     release: 2021-11-02
     eol: false
-    latest: "94.0"
+    latest: "94.0.2"
     cycleShortHand: 3
 
 
