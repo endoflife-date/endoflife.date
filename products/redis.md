@@ -12,13 +12,13 @@ sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "6.2"
     eol: false
-    latest: '6.2.5'
+    latest: '6.2.6'
   - releaseCycle: "6.0"
     eol: false
-    latest: '6.0.15'
+    latest: '6.0.16'
   - releaseCycle: "5.0"
     eol: false
-    latest: '5.0.13'
+    latest: '5.0.14'
 ---
 
 > [Redis](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via [Redis Sentinel](https://redis.io/topics/sentinel) and automatic partitioning with [Redis Cluster](https://docs.redislabs.com/latest/rc/concepts/clustering/).
