@@ -11,18 +11,18 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 category: framework
 releases:
-#  - releaseCycle: "6.0"
-#    release: 2021-12-XX
-#    support: 2022-12-XX
-#    eol: 2022-12-01
-#    latest: "6.0.0"
+  - releaseCycle: "6.0"
+    release: 2021-11-29
+    support: 2022-07-31
+    eol: 2022-07-31
+    latest: "6.0.0"
 
-#  - releaseCycle: "5.4"
-#    release: 2021-12-xx
-#    support: 2024-12-xx
-#    eol: 2025-12-xx
-#    latest: "5.4.0"
-#    lts: true
+  - releaseCycle: "5.4"
+    release: 2021-11-29
+    support: 2024-11-30
+    eol: 2025-11-30
+    latest: "5.4.0"
+    lts: true
 
   - releaseCycle: "5.3"
     release: 2021-05-31
