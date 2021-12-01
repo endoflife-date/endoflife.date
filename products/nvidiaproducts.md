@@ -44,7 +44,7 @@ releases:
     eol: 2015-02-24
     discontinued: true
     
-  - releaseCycle: "Consumer Tesla (G8x, G9x, GT2xx)*"
+  - releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)*"
     release: 2006-11-08
     support: 2016-04-01
     eol: 2016-12-14
