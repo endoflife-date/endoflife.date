@@ -36,8 +36,8 @@ releases:
 
 [Exchange Server build numbers and release dates](https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates)
 
-CU: Cumulative Update
-SU: Security Update
+CU: Cumulative Update  
+SU: Security Update  
 UR: Update Rollup
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and SU updates will be available.
