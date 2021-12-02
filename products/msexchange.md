@@ -8,7 +8,7 @@ link: https://docs.microsoft.com/en-gb/lifecycle/products/?terms=Exchange%20Serv
 activeSupportColumn: true
 command: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true
-sortReleasesBy: 'latest'
+sortReleasesBy: 'release'
 releases:
   - releaseCycle: "2019"
     release: 2018-10-22
