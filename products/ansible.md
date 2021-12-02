@@ -12,9 +12,13 @@ eolColumn: Supported
 iconSlug: ansible
 
 releases:
+  - releaseCycle: "5"
+    release: 2021-11-30
+    eol: false
+    latest: "5.0.1"
   - releaseCycle: "4"
     release: 2021-05-11
-    eol: false
+    eol: true
     latest: "4.9.0"
   - releaseCycle: "3"
     release: 2021-02-09
