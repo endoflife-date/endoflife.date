@@ -30,6 +30,16 @@ releases:
     support: 2015-01-13
     eol: 2020-10-13
     latest: "14.3.513.0 UR32"
+  - releaseCycle: "2007 SP3"
+    release: 2007-03-08
+    support: 2012-04-10
+    eol: 2017-04-11
+    latest: "8.3.517.0 UR23"
+  - releaseCycle: "2003 SP2"
+    release: 2003-09-28
+    support: 2009-04-14
+    eol: 2014-04-08
+    latest: "6.5.7654.4"
 ---
 
 > [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail server and calendaring server developed by Microsoft.
