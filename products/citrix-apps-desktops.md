@@ -6,6 +6,7 @@ iconSlug: citrix
 category: app
 link: https://www.citrix.com/en-gb/support/product-lifecycle/product-matrix.html
 activeSupportColumn: true
+releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:

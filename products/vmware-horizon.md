@@ -6,6 +6,7 @@ iconSlug: vmware
 category: app
 link: https://lifecycle.vmware.com/
 activeSupportColumn: true
+releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
