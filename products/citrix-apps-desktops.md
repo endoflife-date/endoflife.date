@@ -1,6 +1,6 @@
 ---
 title: Citrix Virtual Apps and Desktops
-permalink: /citrix-apps-desktops
+permalink: /citrixvad
 layout: post
 iconSlug: citrix
 category: app
@@ -29,17 +29,17 @@ releases:
     release: 2020-03-20
     support: 2020-09-20
     eol: 2021-09-26
-  - releaseCycle: "1912 (LTSR)"
+  - releaseCycle: "1912 (LTSR) CU4"
     release: 2019-12-18
     support: 2024-12-18
     eol: 2024-12-18
-  - releaseCycle: "7.15 (LTSR)"
+  - releaseCycle: "7.15 (LTSR) CU8"
     release: 2017-08-15
     support: 2022-08-15
     eol: 2022-08-15
 ---
 
-> Citrix Virtual Apps and Desktops provides virtualization solutions that give IT control of virtual machines, applications, and security while providing anywhere access for any device.
+> Citrix Virtual Apps and Desktops (CVAD) provides virtualization solutions that give IT control of virtual machines, applications, and security while providing anywhere access for any device.
 
 Citrix Virtual Apps and Desktops was previously known as XenApp and XenDesktop, re-branded in 2018.
 
