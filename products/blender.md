@@ -13,6 +13,15 @@ sortReleasesBy: "release"
 eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
+  - releaseCycle: "3.0"
+    release: 2021-12-03
+    eol: false
+    support: true
+    latest: "3.0"
+    lts: false
+
+
+
   - releaseCycle: "2.93"
     release: 2021-06-02
     eol: 2023-06-01
