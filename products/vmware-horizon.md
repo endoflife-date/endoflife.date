@@ -1,6 +1,10 @@
 ---
 title: VMware Horizon
 permalink: /vmware-horizon
+# Since we don't have any other VMware products as of now
+alternate_urls:
+  - /vmware
+  - /horizon
 layout: post
 iconSlug: vmware
 category: app
@@ -48,6 +52,6 @@ releases:
     eol: 2023-03-22
 ---
 
-> VMware Horizon enables a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
+> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
 
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base version release.
