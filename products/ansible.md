@@ -18,7 +18,7 @@ releases:
     latest: "5.0.1"
   - releaseCycle: "4"
     release: 2021-05-11
-    eol: true
+    eol: false
     latest: "4.9.0"
   - releaseCycle: "3"
     release: 2021-02-09
