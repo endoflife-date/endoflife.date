@@ -14,6 +14,42 @@ discontinuedColumn: true
 sortReleasesBy: 'release'
 releaseColumn: false
 releases:
+  - releaseCycle: "Consumer Fahrenheit (NVx)"
+    release: 1998-06-15
+    support: 2005-03-11 # Verify support date.
+    eol: 2005-03-11
+    discontinued: true
+    
+  - releaseCycle: "Consumer Celsius (NV1x)"
+    release: 1999-10-11
+    support: 2005-04-14 # Verify support date.
+    eol: 2005-04-14
+    discontinued: true
+    
+  - releaseCycle: "Consumer Kelvin (NV1x, NV2x)"
+    release: 2001-02-27
+    support: 2006-11-02 # Verify support date.
+    eol: 2006-11-02
+    discontinued: true
+    
+  - releaseCycle: "Consumer Rankine (NV3x)"
+    release: 2003-01-27
+    support: 2008-06-23 # Verify support date.
+    eol: 2008-06-23
+    discontinued: true
+    
+  - releaseCycle: "Consumer Curie (NV4x, G7x)"
+    release: 2004-04-14
+    support: 2013-02-25
+    eol: 2015-02-24
+    discontinued: true
+    
+  - releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
+    release: 2006-11-08
+    support: 2016-04-01
+    eol: 2016-12-14
+    discontinued: true
+    
   - releaseCycle: "Consumer Fermi (GF1xx)*"
     release: 2010-03-26
     support: 2018-03-10
