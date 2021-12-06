@@ -18,7 +18,7 @@ releases:
   - releaseCycle: 'Amazon Linux 2'
     release: 2017-12-19
     eol: 2023-06-30
-    latest: "2.0.20211103.0"
+    latest: "2.0.20211201.0"
     link: https://aws.amazon.com/amazon-linux-2/release-notes/
 ---
 
@@ -28,10 +28,29 @@ The original [Amazon Linux AMI][al1] is now in a [maintenance support phase][al1
 
 [Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until June 30, 2023_. User-space Application Binary Interface (ABI) compatibility is guaranteed for [specific packages][al2-faq].
 
-Security notifications for both versions are announced on the [Amazon Linux Security Center](https://alas.aws.amazon.com/). You can subscribe to [their RSS feed](https://alas.aws.amazon.com/alas.rss).
+## Amazon Linux 2022
+
+AWS announced [Amazon Linux 2022](https://aws.amazon.com/linux/amazon-linux-2022/) as a successor to Amazon Linux 2, which uses Fedora as the upstream and is currently in preview. Starting with AL2022, a new major version of Amazon Linux releases every two years, includes minor quarterly releases, and comes with five years of long-term support. Every major version release will be supported under active development for 2 years, followed by a maintenance phase of 3 years.
+
+## Security Notifications
+
+Amazon Provides security advisories for all versions on the Amazon Linux Security Center.
+
+- Amazon Linux - [[Website][al-sec]] [[RSS Feed][al-sec-rss]]
+- Amazon Linux 2 - [[Website][al2-sec]] [[RSS Feed][al2-sec-rss]]
+- Amazon Linux 2022 - [[Website][al2022-sec]] [[RSS Feed][al2022-sec-rss]]
 
 [al1]: https://aws.amazon.com/amazon-linux-ami/ "Amazon Linux AMI, no longer supported"
 [al2]: https://aws.amazon.com/amazon-linux-2/ "Amazon Linux 2"
 [al1-eol]: https://aws.amazon.com/blogs/aws/update-on-amazon-linux-ami-end-of-life/ "Update on Amazon Linux AMI end-of-life"
 [al1-faq]: https://aws.amazon.com/amazon-linux-ami/faqs/ "Amazon Linux AMI FAQ"
 [al2-faq]: https://aws.amazon.com/amazon-linux-2/faqs/#Long_Term_Support "Amazon Linux 2 FAQs"
+
+[al-sec]: https://alas.aws.amazon.com/
+[al-sec-rss]: https://alas.aws.amazon.com/alas.rss
+
+[al2-sec]: https://alas.aws.amazon.com/alas2.html
+[al2-sec-rss]: https://alas.aws.amazon.com/AL2/alas.rss
+
+[al2022-sec]: https://alas.aws.amazon.com/alas2022.html
+[al2022-sec-rss]: https://alas.aws.amazon.com/AL2022/alas.rss
