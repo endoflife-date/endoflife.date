@@ -16,7 +16,7 @@ releases:
   - releaseCycle: "1.0"
     release: 2008-09-23
     eol: true
-  - releaseCycle: "1.1"
+  - releaseCycle: Petit Four (1.1)
     release: 2009-02-09
     eol: true
   - releaseCycle: Cupcake (1.5)
@@ -66,13 +66,13 @@ releases:
   - releaseCycle: Pie (9.x)
     release: 2018-08-06
     eol: false
-  - releaseCycle: Android 10 (10)
+  - releaseCycle: Queen Cake (10)
     release: 2019-09-03
     eol: false
-  - releaseCycle: Android 11 (11)
+  - releaseCycle: Red Velvet Cake (11)
     release: 2020-09-08
     eol: false
-  - releaseCycle: Android 12 (12)
+  - releaseCycle: Snow Cone (12)
     release: 2021-10-04
     eol: false
 ---
