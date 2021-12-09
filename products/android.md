@@ -66,13 +66,13 @@ releases:
   - releaseCycle: Pie (9.x)
     release: 2018-08-06
     eol: false
-  - releaseCycle: Queen Cake (10)
+  - releaseCycle: Queen Cake (Android 10)
     release: 2019-09-03
     eol: false
-  - releaseCycle: Red Velvet Cake (11)
+  - releaseCycle: Red Velvet Cake (Android 11)
     release: 2020-09-08
     eol: false
-  - releaseCycle: Snow Cone (12)
+  - releaseCycle: Snow Cone (Android 12)
     release: 2021-10-04
     eol: false
 ---
