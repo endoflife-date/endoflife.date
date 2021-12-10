@@ -29,7 +29,7 @@ releases:
   - releaseCycle: "releng/12.2"
     cycleShortHand: "12.2"
     release: 2020-10-27
-    eol: 2022-03*31
+    eol: 2022-03-31
   - releaseCycle: "releng/12.1"
     cycleShortHand: "12.1"
     release: 2019-11-04
