@@ -15,22 +15,24 @@ releases:
     eol: 2026-01-31
   - releaseCycle: "releng/13.0"
     cycleShortHand: "13.0"
-    # 13.1-RELEASE + 3 months
     eol: false
+    # 13.1-RELEASE + 3 months
     release: 2021-04-13
   - releaseCycle: "stable/12"
     cycleShortHand: "12"
     eol: 2024-06-30
+  - releaseCycle: "releng/12.3"
+    cycleShortHand: "12.3"
+    release: 2021-12-07
+    eol: false
+    # EOL will be 2.4-RELEASE + 3 months
   - releaseCycle: "releng/12.2"
     cycleShortHand: "12.2"
     release: 2020-10-27
-    release: NA
-    # 12.3-RELEASE + 3 months
-    eol: false
+    eol: 2022-03-31
   - releaseCycle: "releng/12.1"
     cycleShortHand: "12.1"
     release: 2019-11-04
-    release: NA
     eol: 2021-01-31
   - releaseCycle: "stable/11"
     cycleShortHand: "11.0"
