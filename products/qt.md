@@ -31,7 +31,7 @@ releases:
       cycleShortHand: 515
       release: 2020-05-26
       eol: 2023-05-26
-      latest: "5.15.6"
+      latest: "5.15.7"
       lts: true
       link: https://www.qt.io/blog/qt-5.15-released
     - releaseCycle: "5.14"
