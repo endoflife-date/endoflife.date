@@ -86,6 +86,8 @@ When a new release is ready for installation, any Looker user listed as a Techni
 
 ESR releases are quarterly instead of monthly, and get 3 months of support. Issues deemed S1 and S2 will be patched back to the currently supported ESR releases. Participants in the ESR program are required to pair production instances with staging instances. A ESR release is kept in "ESR-staging" for a month, where it is considered "pre-stable".
 
+![ESR release schedule image](https://docs.looker.com/assets/images/2021-std-esr-supp-releases.png)
+
 ## [Notifications][emails]
 
 All users are able to opt in to release notes from the Account Settings section of Looker. Additionally, anyone listed as a Technical Contact within a Looker instance (Admin -> General Settings) will receive release notifications.
