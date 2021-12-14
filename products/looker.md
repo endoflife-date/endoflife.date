@@ -7,7 +7,7 @@ iconSlug: looker
 link: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
   https://docs.looker.com/relnotes/v{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__"}}
-eolColumn: End of Life
+eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
@@ -22,6 +22,7 @@ releases:
     cycleShortHand: 2118
     release: 2021-10-19
     eol: 2022-02-28
+    lts: true
   - releaseCycle: "21.16"
     cycleShortHand: 2116
     release: 2021-09-14
