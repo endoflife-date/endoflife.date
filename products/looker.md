@@ -29,9 +29,8 @@ releases:
     eol: 2021-12-15
   - releaseCycle: "21.14"
     cycleShortHand: 2114
-    release: 2021-10-16
+    release: 2021-08-16
     eol: 2021-11-16
-    eol: false
   - releaseCycle: "21.12"
     cycleShortHand: 2112
     release: 2021-07-15
