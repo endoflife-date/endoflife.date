@@ -15,8 +15,8 @@ releases:
   - releaseCycle: "3.19"
     release: 2021-12-10
     latest: "3.19.0"
-    eol: true
-    support: false
+    eol: false
+    support: true
   - releaseCycle: "3.18"
     release: 2021-06-24
     lts: true
