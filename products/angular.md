@@ -13,13 +13,13 @@ releases:
     release: 2021-11-04
     support: 2022-05-04
     eol: 2023-05-04
-    latest: "13.1.0"
+    latest: "13.1.1"
   - releaseCycle: "12"
     lts: true
     release: 2021-05-12
     support: 2021-11-12
     eol: 2022-11-12
-    latest: "12.2.14"
+    latest: "12.2.15"
   - releaseCycle: "11"
     lts: true
     release: 2020-11-11
