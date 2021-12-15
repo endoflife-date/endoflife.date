@@ -15,7 +15,7 @@ releases:
     lts: true
     release: 2021-11-08
     eol:     2024-11-30
-    latest:  "7.2.0"
+    latest:  "7.2.1"
   - releaseCycle: "7.1"
     cycleShortHand: 7.1
     release: 2020-11-11
