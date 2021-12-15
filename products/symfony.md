@@ -15,13 +15,13 @@ releases:
     release: 2021-11-29
     support: 2022-07-31
     eol: 2022-07-31
-    latest: "6.0.0"
+    latest: "6.0.1"
 
   - releaseCycle: "5.4"
     release: 2021-11-29
     support: 2024-11-30
     eol: 2025-11-30
-    latest: "5.4.0"
+    latest: "5.4.1"
     lts: true
 
   - releaseCycle: "5.3"
