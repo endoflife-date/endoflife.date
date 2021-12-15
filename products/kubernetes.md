@@ -17,8 +17,8 @@ releases:
   - releaseCycle: "1.23"
     release: 2021-12-07
     latest: "1.23"
-    support: true
-    eol: false
+    support: 2022-12-28
+    eol: 2023-02-28
   - releaseCycle: "1.22"
     release: 2021-08-04
     latest: "1.22.4"
@@ -33,7 +33,7 @@ releases:
     release: 2020-12-08
     latest: "1.20.13"
     support: 2021-12-28
-    eol: 2021-12-07
+    eol: 2022-02-28
   - releaseCycle: "1.19"
     release: 2020-08-27
     latest: "1.19.16"
