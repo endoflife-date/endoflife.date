@@ -26,12 +26,12 @@ releases:
     eol: 2022-10-28
   - releaseCycle: "1.21"
     release: 2021-04-08
-    latest: "1.21.7"
+    latest: "1.21.8"
     support: 2022-04-28
     eol: 2022-06-28
   - releaseCycle: "1.20"
     release: 2020-12-08
-    latest: "1.20.13"
+    latest: "1.20.14"
     support: 2021-12-28
     eol: 2022-02-28
   - releaseCycle: "1.19"
