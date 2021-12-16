@@ -55,32 +55,36 @@ time, but the link should not.
 
 Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the website:
 
-- https://wiki.ubuntu.com/ReleaseCadence
-- https://ubuntu.com/about/release-cycle
-- https://wiki.ubuntu.com/Releases
+- <https://wiki.ubuntu.com/ReleaseCadence>
+- <https://ubuntu.com/about/release-cycle>
+- <https://wiki.ubuntu.com/Releases>
 
 Make sure this information is hosted _alongside your end-user documentation_, not your developer or team documentation.
 
 ### Bad - Python
 
-Python maintains the EoL status on the website for Python developers: https://devguide.python.org/#status-of-python-branches
+Python maintains the EoL status on the website for Python developers: <https://devguide.python.org/#status-of-python-branches>
 
 ### Bad - Ansible
 
 The "release and maintenance" document for Ansible is versioned so there are multiple copies:
 
-- https://docs.ansible.com/ansible/2.9/reference_appendices/release_and_maintenance.html
-- https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html
-- https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+- <https://docs.ansible.com/ansible/2.9/reference_appendices/release_and_maintenance.html>
+- <https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html>
+- <https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html>
 
 This causes confusion, as users on the 2.9 branch might miss out on important information that is reflected on the latest version.
+
+### Good - Angular
+
+The Angular project has a single URL documenting all the information: <https://angular.io/guide/releases>
 
 ## Document your support lifecycle
 
 Your support lifecycle is your guidance on how long each product will be supported.
 If you have LTS (Long Term Support) releases, clarify how this differs for those.
 
-- Bad: https://ubuntu.com/about/release-cycle (Does not explain how long LTS releases are supported)
+- Bad: <https://ubuntu.com/about/release-cycle> (Does not explain how long LTS releases are supported)
 
 ## Release Cadence
 
@@ -112,7 +116,7 @@ security fixes only on the packages within the `base` repository.
 
 > Customers paying for "Premier Support" get additional access to our support team with a guaranteed SLA.
 
-- Good: https://ubuntu.com/security/esm (Clearly explains what ESM means for Ubuntu end users)
+- Good: <https://ubuntu.com/security/esm> (Clearly explains what ESM means for Ubuntu end users)
 
 ## Versioning Policy
 
@@ -130,7 +134,7 @@ documented policy is better than none.
 Release notes are critical for your end-users doing upgrades. If certain upgrade pathways are unsupported
 (such as doing 2 major upgrades at once), document the same. *Highlight breaking changes* in your release notes.
 
-If you have a migration guide, ensure it is linked in the release notes.
+If you have a migration guide, ensure it is linked in all the release notes.
 
 ## Listing releases
 
@@ -145,9 +149,9 @@ List your releases in a table with all the relevant information for each release
 Prefer listing older/unsupported releases elsewhere (`/historical-releases`). If you think they are important to your
 users, mark them extremely well in the table as unsupported.
 
-- Good: https://nodejs.org/en/about/releases/
-- Good: https://www.php.net/supported-versions.php
-- Bad: https://www.python.org/downloads/ (Lists an unsupported release alongside supported ones)
+- Good: <https://nodejs.org/en/about/releases/>
+- Good: <https://www.php.net/supported-versions.php>
+- Bad: <https://www.python.org/downloads/> (Lists an unsupported release alongside supported ones)
 
 ## Dates
 
@@ -207,16 +211,17 @@ Always document complete dates, instead of just providing a month and year.
 Users should not be left guessing whether the EoL is on the 1st of December or 31st.
 
 Bad: See above AKS and EKS examples.
+Good: <https://nodejs.org/en/about/releases/>
 
 ## Provide a release schedule image
 
 This is optional, but a clear graphical representation of release cycles (with different colors for different levels of support) is always
-nice to have. If you provide such an image, here's some recommendations:
+nice to have. If you do provide such an image, here's some recommendations:
 
 - Label your axes clearly with year boundaries.
 - Have a straight line marking the current date.
 - If you can make it interactive, provide a start and end date on hover.
-- Make sure these images are kept updated - it is easy for them to get out of date.
+- Make sure these images are kept updated - it is easy for them to get out of date. An outdated graphic is worse than none.
 - Ensure that all the data in the image is also reflected in text (in a table) for accessibility reasons.
 - Limit the image scale by picking a cut-off date.
 
@@ -224,7 +229,7 @@ nice to have. If you provide such an image, here's some recommendations:
 - Good: <https://jefftriplett.com/django-release-cycle/>
 - Good: <https://hugovk.github.io/drupal-release-cycle/>
 - Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
-- Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table)
+- Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table for desktop users)
 
 Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
 
