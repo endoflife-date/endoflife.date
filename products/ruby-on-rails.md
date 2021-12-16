@@ -16,11 +16,11 @@ releases:
   - releaseCycle: "6.1"
     release: 2020-12-09
     eol: false
-    latest: "6.1.4.3"
+    latest: "6.1.4.4"
   - releaseCycle: "6.0"
     release: 2019-08-16
     eol: false
-    latest: "6.0.4.3"
+    latest: "6.0.4.4"
   - releaseCycle: "5.2"
     release: 2018-04-09
     eol: false
