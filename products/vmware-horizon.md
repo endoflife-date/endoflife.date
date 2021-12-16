@@ -1,10 +1,9 @@
 ---
 title: VMware Horizon
-permalink: /vmware-horizon
-# Since we don't have any other VMware products as of now
+permalink: /horizon
 alternate_urls:
-  - /vmware
-  - /horizon
+  - /vmwarehorizon
+  - /vmware-horizon
 layout: post
 iconSlug: vmware
 category: app
