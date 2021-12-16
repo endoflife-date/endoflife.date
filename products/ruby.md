@@ -67,4 +67,4 @@ releases:
 
 > [Ruby](https://www.ruby-lang.org/) is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
-Since Ruby 2.1 a new major version of Ruby has been released every year on December 25th, and EOLed 3 years, 3 months later. Another resource that can help is [here](https://endoflife.software/programming-languages/server-side-scripting/ruby).
+Since Ruby 2.1 a new major version of Ruby has been released every year on December 25th, and EOLed 3 years, 3 months later.
