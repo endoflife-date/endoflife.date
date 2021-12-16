@@ -86,14 +86,14 @@ If you have LTS (Long Term Support) releases, clarify how this differs for those
 
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not explain how long LTS releases are supported)
 
-## Release Cadence
+## Release cadence
 
 Not every project has a stable release cadence, but if you have one (even a rough one), document it.
 It is always better if your release cadence is predictable and aligned with your support lifecycles.
 
 ### Good - Alpine Linux
 
->There are several release branches for Alpine Linux available at the same time.
+> There are several release branches for Alpine Linux available at the same time.
 Each May and November we make a release branch from edge.
 The main repository is typically supported for 2 years and the community repository is supported until next stable release.
 
@@ -102,7 +102,7 @@ Source: <https://alpinelinux.org/releases/>
 ## Explain what's supported
 
 Every project will have differing levels of what counts as "support" - it is important to document what
-"support" means for your project. If there are different tiers (Active/Security/Extended for eg), document
+"support" means for your project. If there are different tiers (Active/Security/Extended for example), document
 these clearly.
 
 Bad:
@@ -129,7 +129,7 @@ documented policy is better than none.
 
 > The project follows SemVer starting from v12. Prior releases may include breaking changes in minor version upgrades.
 
-## Release Notes
+## Release notes
 
 Release notes are critical for your end-users doing upgrades. If certain upgrade pathways are unsupported
 (such as doing 2 major upgrades at once), document the same. *Highlight breaking changes* in your release notes.
