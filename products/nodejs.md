@@ -44,7 +44,7 @@ releases:
     lts: true
     support: 2020-10-20
     eol: 2022-04-30
-    latest: "12.22.7"
+    latest: "12.22.8"
   - releaseCycle: "10"
     release: 2018-04-24
     lts: true
