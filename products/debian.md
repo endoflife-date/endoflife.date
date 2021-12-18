@@ -13,7 +13,7 @@ releases:
   - releaseCycle: 'Debian 11 "Bullseye"'
     release: 2021-08-14
     eol: 2026-08-15
-    latest: "11.1"
+    latest: "11.2"
     link: https://www.debian.org/News/2021/20211009
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06
