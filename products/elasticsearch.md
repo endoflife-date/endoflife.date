@@ -10,10 +10,14 @@ command: $ES_HOME/bin/elasticsearch -v
 releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
 releases:
+  - releaseCycle: "7.16"
+    cycleShortHand: 716
+    eol: 2023-06-07
+    latest: 7.16.1
   - releaseCycle: "7.15"
     cycleShortHand: 715
     eol: 2023-03-22
-    latest: 7.15.1
+    latest: 7.15.2
   - releaseCycle: "7.14"
     cycleShortHand: 714
     eol: 2023-02-03
@@ -76,8 +80,8 @@ releases:
     latest: 7.0.1
   - releaseCycle: "6.8"
     cycleShortHand: 608
-    eol: 2020-11-20
-    latest: 6.8.15
+    eol: 2022-02-08
+    latest: 6.8.21
   - releaseCycle: "6.7"
     cycleShortHand: 607
     eol: 2020-09-26
@@ -126,3 +130,5 @@ releases:
 Each major release of all Elastic products is supported for 18 months from the General Availability date. The last minor release of the two most recent major branches of Elasticsearch (and compatible releases of Kibana, Beats, and Logstash) is maintained.
 
 Major versions, such as 1.0.0, 2.0.0, 5.0.0, 6.0.0, and 7.0.0 will introduce features and break backwards compatibility. Minor versions, such as 7.1.0 and 7.2.0, will only introduce features. Maintenance releases, such as 7.1.1 and 7.1.2, will fix bugs only. Maintenance activity occurs on all releases, but we focus on the minor release stream (e.g., 7.1.x) to define how long we maintain a particular code line. Active maintenance of a minor release implies that we are fixing bugs and backporting some number of fixes into that code branch.
+
+The last minor of the prior major release is always supported. For example, Elasticsearch 6.8.x will be maintained until the GA release of Elasticsearch 8.0.0.
