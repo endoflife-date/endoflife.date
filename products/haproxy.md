@@ -7,6 +7,7 @@ link: https://haproxy.org
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCYLE__/src/CHANGELOG
 activeSupportColumn: false
 command: haproxy --version
+iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
