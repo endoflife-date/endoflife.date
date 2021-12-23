@@ -17,13 +17,13 @@ releases:
 #
   - releaseCycle: "3.4 'honister'"
     cycleShortHand: 304
-    latest: "3.4.0"
+    latest: "3.4.1"
     release: 2021-10-25
     eol:     2022-05-01
 
   - releaseCycle: "3.3 'hardknott'"
     cycleShortHand: 303
-    latest: "3.3.3"
+    latest: "3.3.4"
     release: 2021-04-01
     eol:     2021-11-01
 
@@ -36,7 +36,7 @@ releases:
   - releaseCycle: "3.1 'dunfell'"
     cycleShortHand: 301
     lts: true
-    latest: "3.1.11"
+    latest: "3.1.12"
     release: 2020-04-01
     eol:     2024-04-01
 
