@@ -58,10 +58,10 @@ releases:
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
-**Feature releases** (A.B, A.B+1, etc.) will happen roughly every eight months. These releases will contain new features, improvements to existing features, and such.
+**Feature releases** (A.B, A.B+1, etc.) will happen roughly every eight months. These releases will contain new features, improvements to existing features, and such. These can include documented backwards incompatibilities where a deprecation path isn’t possible or not worth the cost.
 
 **Patch releases** (A.B.C, etc.) will be issued as needed, to fix bugs and/or security issues. These releases will be 100% compatible with the associated feature release, unless this is impossible for security reasons or to prevent data loss. So the answer to "should I upgrade to the latest patch release?” will always be "yes."
 
-Certain feature releases will be designated as long-term support (LTS) releases. These releases will get security and data loss fixes applied for a guaranteed period of time, typically three years.
+The last feature release for a major version will be designated as long-term support (LTS) release. These releases will get security and data loss fixes applied for a guaranteed period of time, typically three years. Deprecations started in an LTS release (say X.2) will be dropped in a non-dot-zero release (Y.1).
 
 See the [supported versions policy](https://docs.djangoproject.com/en/dev/internals/release-process/#supported-versions) for detailed guidelines about what fixes will be backported.
