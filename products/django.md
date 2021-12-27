@@ -14,7 +14,7 @@ releases:
   - releaseCycle: "4.0"
     support: 2022-08-01
     eol: 2023-04-01
-    latest: "4.0.0"
+    latest: "4.0"
   - releaseCycle: "3.2"
     support: 2021-12-01
     eol: 2024-04-01
