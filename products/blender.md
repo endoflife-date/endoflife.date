@@ -20,13 +20,11 @@ releases:
     latest: "3.0"
     lts: false
 
-
-
   - releaseCycle: "2.93"
     release: 2021-06-02
     eol: 2023-06-01
     support: true
-    latest: "2.93.6"
+    latest: "2.93.7"
     lts: true
 
   - releaseCycle: "2.83"
