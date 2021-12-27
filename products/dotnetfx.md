@@ -3,6 +3,7 @@ permalink: /dotnetfx
 layout: post
 alternative_urls:
   - /.netfx
+  - /dotnetframework
 iconSlug: dotnet
 category: framework
 title: .NET Framework
@@ -47,8 +48,8 @@ releases:
     release: 2010-04-12
     eol: 2016-01-12
   - releaseCycle: "3.5 SP1"
-    release: 2008-11-18
-    eol: 2028-10-10
+    release: 2007-11-19
+    eol: 2029-01-09
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library (FCL) and provides language interoperability across several programming languages.
