@@ -92,4 +92,4 @@ releases:
 
 Beginning with Windows 10, version 21H2, feature updates for Windows 10 release are released annually, in the second half of the calendar year.
 
-Prior releases (to Windows 10) are governed by the Fixed Lifecycle Policy. This policy comprises two phases: mainstream support and extended support.
+Prior releases (to Windows 10) are governed by the [Fixed Lifecycle Policy](https://docs.microsoft.com/lifecycle/policies/fixed). This policy comprises two phases: mainstream support and extended support.
