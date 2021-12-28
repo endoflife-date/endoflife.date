@@ -189,7 +189,7 @@ releases:
     discontinued: false
 ---
 
-> Nvidia designs <abbr title="Graphics Processing Unit">GPUs</abbr> for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia GPUs, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
+> Nvidia designs <abbr title="Graphics Processing Unit">GPUs</abbr> for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia GPUs, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
 
 ## Naming scheme
 

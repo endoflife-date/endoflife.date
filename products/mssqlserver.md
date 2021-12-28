@@ -4,7 +4,7 @@ permalink: /mssqlserver
 layout: post
 iconSlug: microsoftsqlserver
 category: db
-link: https://support.microsoft.com/en-us/lifecycle/search?terms=SQL%20Server
+link: https://docs.microsoft.com/lifecycle/products/?terms=SQL%20Server
 activeSupportColumn: true
 command: select @@version
 releaseDateColumn: true
@@ -42,9 +42,9 @@ releases:
     latest: "10.50.6560.0 SP3 GDR"
 ---
 
->[SQLServer](https://www.microsoft.com/en-us/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.
+>[SQLServer](https://www.microsoft.com/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.
 
-[Latest updates for Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server)
+[Latest updates for Microsoft SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server)
 
 Each of the products has its own Technical Support Policy, which determine the lifetime and scope of product support.
 
