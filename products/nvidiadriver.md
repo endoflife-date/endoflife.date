@@ -17,7 +17,7 @@ releases:
     support: 2018-03-10
     eol: 2022-12-31
     latest: "390.144"
-    link: https://www.nvidia.com/Download/driverResults.aspx/177153/en-us
+    link: https://www.nvidia.com/Download/driverResults.aspx/177153
     cycleShortHand: 1
 
   - releaseCycle: "R390-Windows (LTSB)"
@@ -25,7 +25,7 @@ releases:
     support: 2018-07-31
     eol: 2022-12-31
     latest: "392.67"
-    link: https://www.nvidia.com/download/driverResults.aspx/177167/en-us
+    link: https://www.nvidia.com/download/driverResults.aspx/177167
     cycleShortHand: 2
 
   - releaseCycle: "R418-Linux (LTSB)"
@@ -33,7 +33,7 @@ releases:
     support: 2019-03-20
     eol: 2022-03-01
     latest: "418.197.02"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 3
     
   - releaseCycle: "R418-Windows (LTSB)"
@@ -41,7 +41,7 @@ releases:
     support: 2019-04-23
     eol: 2022-03-01
     latest: "427.45"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 4
 
   - releaseCycle: "R450-Linux (LTSB)"
@@ -49,7 +49,7 @@ releases:
     support: 2020-10-7
     eol: 2023-07-01
     latest: "450.142.00"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
     cycleShortHand: 5
     
   - releaseCycle: "R450-Windows (LTSB)"
@@ -57,7 +57,7 @@ releases:
     support: 2020-12-15
     eol: 2023-07-01
     latest: "453.10"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
     cycleShortHand: 6
 
   - releaseCycle: "R460-Linux (PB)"
@@ -65,7 +65,7 @@ releases:
     support: 2021-7-19
     eol: 2022-01-01
     latest: "460.91.03"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     cycleShortHand: 7
     
   - releaseCycle: "R460-Windows (PB)"
@@ -73,7 +73,7 @@ releases:
     support: 2021-06-23
     eol: 2022-01-01
     latest: "462.96"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/index.html
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     cycleShortHand: 8
 
   - releaseCycle: "R470-Linux (LTSB)"
@@ -81,7 +81,7 @@ releases:
     support: 2021-10-26
     eol: 2024-09-01
     latest: "470.86"
-    link: https://www.nvidia.com/Download/driverResults.aspx/183575/en-us
+    link: https://www.nvidia.com/Download/driverResults.aspx/183575
     cycleShortHand: 9
     
   - releaseCycle: "R470-Windows (LTSB)"
@@ -97,7 +97,7 @@ releases:
     support: true
     eol: false
     latest: "496.98"
-    link: https://nvidia.custhelp.com/app/answers/detail/a_id/5281/?linkId=100000087757792
+    link: https://nvidia.custhelp.com/app/answers/detail/a_id/5281
     cycleShortHand: 11
 
   - releaseCycle: "R495-Linux (NFB)"
@@ -105,12 +105,12 @@ releases:
     support: true
     eol: false
     latest: "495.44"
-    link: https://www.nvidia.com/Download/driverResults.aspx/181274/en-us
+    link: https://www.nvidia.com/Download/driverResults.aspx/181274
     cycleShortHand: 11
 
 ---
 
-> Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx?lang=en-us).
+> Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia drivers, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 

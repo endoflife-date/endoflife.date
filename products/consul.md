@@ -4,7 +4,7 @@ layout: post
 permalink: /consul
 category: server-app
 iconSlug: consul
-link: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
+link: https://support.hashicorp.com/hc/articles/360021185113
 sortReleasesBy: "release"
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 activeSupportColumn: false

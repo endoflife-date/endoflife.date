@@ -98,5 +98,5 @@ A list of officially supported releases is [published](https://docs.looker.com/r
 [esr]: https://docs.looker.com/relnotes/esr-overview "Standard extended support release program overview"
 [emails]: https://docs.looker.com/relnotes/release-emails "Release deployment emails"
 [schedule]: https://docs.looker.com/relnotes/hosted-maintenance-hours "Google maintenance policy for Looker-hosted services"
-[best-practices]: https://help.looker.com/hc/en-us/articles/360023639354-Best-Practices-when-Updating-your-Looker-Instance "Best Practices when Updating your Looker Instance"
+[best-practices]: https://help.looker.com/hc/articles/360023639354 "Best Practices when Updating your Looker Instance"
 [lfs]: https://docs.looker.com/relnotes/legacy-feature-schedule#legacy_feature_schedule "Legacy feature schedule"

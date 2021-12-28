@@ -9,7 +9,7 @@ alternate_urls:
 layout: post
 iconSlug: citrix
 category: app
-link: https://www.citrix.com/en-gb/support/product-lifecycle/product-matrix.html
+link: https://www.citrix.com/support/product-lifecycle/product-matrix
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
