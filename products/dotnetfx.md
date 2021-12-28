@@ -53,3 +53,5 @@ releases:
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library (FCL) and provides language interoperability across several programming languages.
+
+On operating systems prior to Windows 10 version 1809 and Windows Server 2019, .NET 3.5 SP1 [assumes the same lifecycle policy](https://docs.microsoft.com/en-us/lifecycle/faq/dotnet-framework) as the underlying OS on which it is installed.
