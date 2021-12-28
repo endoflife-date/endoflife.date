@@ -33,7 +33,7 @@ releases:
     support: 2019-03-20
     eol: 2022-03-01
     latest: "418.197.02"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 3
     
   - releaseCycle: "R418-Windows (LTSB)"
@@ -41,7 +41,7 @@ releases:
     support: 2019-04-23
     eol: 2022-03-01
     latest: "427.45"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 4
 
   - releaseCycle: "R450-Linux (LTSB)"
@@ -49,7 +49,7 @@ releases:
     support: 2020-10-7
     eol: 2023-07-01
     latest: "450.142.00"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
     cycleShortHand: 5
     
   - releaseCycle: "R450-Windows (LTSB)"
@@ -57,7 +57,7 @@ releases:
     support: 2020-12-15
     eol: 2023-07-01
     latest: "453.10"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
     cycleShortHand: 6
 
   - releaseCycle: "R460-Linux (PB)"
@@ -65,7 +65,7 @@ releases:
     support: 2021-7-19
     eol: 2022-01-01
     latest: "460.91.03"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     cycleShortHand: 7
     
   - releaseCycle: "R460-Windows (PB)"
@@ -73,7 +73,7 @@ releases:
     support: 2021-06-23
     eol: 2022-01-01
     latest: "462.96"
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     cycleShortHand: 8
 
   - releaseCycle: "R470-Linux (LTSB)"
