@@ -45,6 +45,7 @@ layout: post
 # db is databases, os is operating systems, lang is programming languages
 # app is end-user applications
 # service is managed service offerings (SaaS/PaaS etc)
+# library is used for application libraries and SDKs
 category: os
 
 # What should be used to sort releases. Set to one of:
