@@ -62,6 +62,7 @@ sortReleasesBy: "releaseCycle"
 
 # You can even use Liquid Templating inside the template, such as:
 # https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
+# Do not use a localized URL (such as one containing en-us) if possible
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 
 # A list of releases, supported or not
@@ -84,6 +85,10 @@ releases:
     latest: "1.2.3"
     # Can be true/false. Only use if discontinuedColumn is set to true
     discontinued: true
+    # A link to the changelog for this specific release. Use this if the link is not
+    # predictable and you can't use changelogTemplate.
+    # Do not use a localized URL (such as one containing en-us) if possible
+    link: https://example.com/news/2021-12-25/release-1.2.3
 
 # Set an icon for the product from https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"
@@ -104,6 +109,7 @@ alternate_urls:
 # More information link. This link should contain
 # information about the release policy and schedule
 # This is NOT the product URL
+# Do not use a localized URL (such as one containing en-us) if possible
 link: https://jkrowling.com/timeturner-releases
 
 # Whether to hide the "Active Support" column (optional, default true)
@@ -134,6 +140,8 @@ releaseImage: https://jkrowling.com/timeturner-releases.png
 # 1. A one line statement about what the product is, with a link to the primary website (in a quote)
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 # 3. Any additional information that may be of interest
+# See the Guiding Principles on the wiki (https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
+# on tone and voice for the text.
 ---
 > [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
 
