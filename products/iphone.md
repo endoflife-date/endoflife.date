@@ -6,7 +6,7 @@ alternate_urls:
 title: iPhone
 category: device
 iconSlug: apple
-link: https://en.wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
+link: https://wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
