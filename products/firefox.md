@@ -8,7 +8,7 @@ releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
 changelogTemplate: |
-  https://www.mozilla.org/en-US/firefox/__LATEST__/releasenotes/
+  https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 sortReleasesBy: 'cycleShortHand'
 releases:
 
