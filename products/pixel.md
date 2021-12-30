@@ -5,7 +5,7 @@ title: Google Pixel
 iconSlug: google
 category: device
 command: "Settings -> About Phone -> Regulatory labels"
-link: https://support.google.com/nexus/answer/4457705?hl=en
+link: https://support.google.com/nexus/answer/4457705
 discontinuedColumn: true
 activeSupportColumn: false
 latestColumn: true
