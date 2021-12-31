@@ -41,10 +41,14 @@ title: Timeturner
 layout: post
 # Possible values are os,db,app,lang,framework,device,service,server-app
 # If you add a new value, please mention it on the PR Description. Some rough guidelines:
-# server-app are applications usually installed on the server-side
+# os is operating systems (and similar projects)
 # db is databases, os is operating systems, lang is programming languages
 # app is end-user applications
+# lang is programming languages
+# framework is used for application libraries, SDKs, frameworks etc
+# device is physical devices
 # service is managed service offerings (SaaS/PaaS etc)
+# server-app are applications usually installed on the server-side
 category: os
 
 # What should be used to sort releases. Set to one of:

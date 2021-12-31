@@ -2,7 +2,7 @@
 title: Log4j
 permalink: /log4j
 layout: post
-category: server-app
+category: framework
 link: https://logging.apache.org/log4j/2.x/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.x/changes-report.html#a{{"__LATEST__"}}
 activeSupportColumn: false
