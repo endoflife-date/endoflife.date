@@ -15,17 +15,17 @@ releases:
     cycleShortHand: 299
     release:  2014-07-12
     eol: false
-    latest: "2.16.0"
+    latest: "2.17.1"
   - releaseCycle: "2.12.x"
     cycleShortHand: 212
     release: 2019-06-23
     eol: 2021-12-14
-    latest: "2.12.2"
+    latest: "2.12.4"
   - releaseCycle: "2.3"
     cycleShortHand: 203
     release: 2015-05-09
     eol: 2015-09-20
-    latest: "2.3"
+    latest: "2.3.2"
   - releaseCycle: "1"
     cycleShortHand: 100
     release: 2001-01-08
