@@ -23,3 +23,5 @@ releases:
     latest: "2.2.34"
 ---
 > [Apache HTTP Server](https://httpd.apache.org/) is a collaborative software development effort aimed at creating a robust, commercial-grade, feature-rich and freely available source code implementation of an HTTP (Web) server.
+The update and release strategy is _complex_. For release policy information, see https://httpd.apache.org/dev/release.html.
+For licensing information, see https://www.apache.org/licenses/
