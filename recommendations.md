@@ -7,6 +7,7 @@ alternate_urls:
   - /advise
   - /advice
 ---
+# Recommendations for publishing End-of-life dates and support timelines
 
 If you maintain a product that has some notion of support lifecycle and end-of-life,
 these are our recommendations on how to best document this information for your users.

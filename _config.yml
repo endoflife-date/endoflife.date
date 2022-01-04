@@ -24,6 +24,8 @@ nav_sort: case_insensitive
 search_enabled: true
 # These links show up on the top
 aux_links:
+  recommendations:
+    - /recommendations
   contribute:
     - /contribute
   source:

@@ -4,7 +4,9 @@
 
 Keep track of various End of Life dates and support lifecycles for various products. Visit <https://endoflife.date> for a list of supported products. This information is very often [hard to track or badly presented](https://twitter.com/captn3m0/status/1110504412064239617). This project collates this data and presents it in an easily accessible format, with URLs that are easy to guess and remember.
 
-Currently tracking 60+ products.
+If you maintain release information (end-of-life dates, or support information) for a product, we have a [set of recommendations](https://endoflife.date/recommendations) along with a checklist on some best practices for publishing this information.
+
+Currently tracking 89+ products.
 
 ## Contributing
 
