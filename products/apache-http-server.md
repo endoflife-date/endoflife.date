@@ -1,20 +1,23 @@
 ---
 title: Apache HTTP Server
-permalink: /apache-http-server
+permalink: /apache
+alternate_urls:
+  - /httpd
 iconSlug: apache
 layout: post
 link: https://httpd.apache.org/
 category: server-app
 activeSupportColumn: true
-command: winver
+command: httpd -v
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "Apache httpd 2.4.52"
+  - releaseCycle: "2.4"
     release: 2021-12-20
     eol: false
-  - releaseCycle: "Apache httpd 2.2"
+    latest: 2.4.52
+  - releaseCycle: "2.2"
     release: 2005-12-01
     eol: 2017-07-11
 ---
