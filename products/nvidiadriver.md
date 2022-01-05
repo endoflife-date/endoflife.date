@@ -16,16 +16,16 @@ releases:
     release: 2018-01-04
     support: 2018-03-10
     eol: 2022-12-31
-    latest: "390.144"
-    link: https://www.nvidia.com/Download/driverResults.aspx/177153
+    latest: "390.147"
+    link: https://www.nvidia.com/Download/driverResults.aspx/184603
     cycleShortHand: 1
 
   - releaseCycle: "R390-Windows (LTSB)"
     release: 2018-01-08
     support: 2018-07-31
     eol: 2022-12-31
-    latest: "392.67"
-    link: https://www.nvidia.com/download/driverResults.aspx/177167
+    latest: "392.68"
+    link: https://www.nvidia.com/download/driverResults.aspx/181267
     cycleShortHand: 2
 
   - releaseCycle: "R418-Linux (LTSB)"
@@ -80,8 +80,8 @@ releases:
     release: 2021-7-19
     support: 2021-10-26
     eol: 2024-09-01
-    latest: "470.86"
-    link: https://www.nvidia.com/Download/driverResults.aspx/183575
+    latest: "470.94"
+    link: https://www.nvidia.com/Download/driverResults.aspx/184163
     cycleShortHand: 9
     
   - releaseCycle: "R470-Windows (LTSB)"
@@ -96,16 +96,16 @@ releases:
     release: 2021-10-12
     support: true
     eol: false
-    latest: "496.98"
-    link: https://nvidia.custhelp.com/app/answers/detail/a_id/5281
+    latest: "497.29" 
+    link: https://www.nvidia.com/Download/driverResults.aspx/184717
     cycleShortHand: 11
 
   - releaseCycle: "R495-Linux (NFB)"
     release: 2021-10-26
     support: true
     eol: false
-    latest: "495.44"
-    link: https://www.nvidia.com/Download/driverResults.aspx/181274
+    latest: "495.46"
+    link: https://www.nvidia.com/Download/driverResults.aspx/184248
     cycleShortHand: 11
 
 ---
