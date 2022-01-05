@@ -7,14 +7,14 @@ iconSlug: apache
 layout: post
 link: https://httpd.apache.org/
 category: server-app
-activeSupportColumn: true
+activeSupportColumn: false
 command: httpd -v
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "2.4"
-    release: 2012-02-21
+    release: 2021-12-20
     eol: false
     latest: "2.4.52"
   - releaseCycle: "2.2"
@@ -23,5 +23,6 @@ releases:
     latest: "2.2.34"
 ---
 > [Apache HTTP Server](https://httpd.apache.org/) is a collaborative software development effort aimed at creating a robust, commercial-grade, feature-rich and freely available source code implementation of an HTTP (Web) server.
-The update and release strategy is _complex_. For release policy information, see https://httpd.apache.org/dev/release.html.
-For licensing information, see https://www.apache.org/licenses/
+
+The update and release strategy is _complex_. For release policy information, see <https://httpd.apache.org/dev/release.html>.
+For licensing information, see <https://www.apache.org/licenses/>
