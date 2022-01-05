@@ -19,12 +19,12 @@ releases:
       release: 2021-07-02
       eol: 2023-07-02
       lts: true
-      latest: "2.1.1"
+      latest: "2.1.2"
 
     - releaseCycle: "OpenZFS 2.0"
       release: 2020-11-30
       eol: false
-      latest: "2.0.6"
+      latest: "2.0.7"
 
     - releaseCycle: "OpenZFS 0.8"
       release: 2019-06-23
