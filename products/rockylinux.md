@@ -28,7 +28,7 @@ releases:
 
  - Unlike RHEL, [Rocky Linux does not support point releases once a newer one is available.](https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/10) Once a new minor point release is available, the older one is immediately considered end of life and users must upgrade to continue receiving security updates. For example once 8.5 gets a general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
  - Rocky Linux doesn't support [live kernel patching](https://access.redhat.com/solutions/2206511), instead users who need this depend on third party paid services.
- - [Secure Boot is not yet implemented](https://github.com/rhboot/shim-review/issues/194).
+ - Rocky Linux doesn't support [Extended Life Cycle](https://www.redhat.com/en/resources/els-datasheet), resulting in a shorter support cycle compared to upstream RHEL.
 
 
 The project's aim is to provide a community-supported, production-grade enterprise operating system.
