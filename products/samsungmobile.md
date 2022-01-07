@@ -13,6 +13,27 @@ releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
 
+  - releaseCycle: "Galaxy A13 5G"
+    release: 2021-12-03
+    support: true
+    eol: false
+    
+  - releaseCycle: "Galaxy F42 5G"
+    release: 2021-10-03
+    support: true
+    eol: false
+    
+  - releaseCycle: "Galaxy M52 5G"
+    release: 2021-10-03
+    support: true
+    eol: false
+    
+  - releaseCycle: "Galaxy M32"
+    release: 2021-06-28
+    support: true
+    eol: false
+
+
   - releaseCycle: "Galaxy S21 Ultra"
     release: 2021-01-14
     support: true
