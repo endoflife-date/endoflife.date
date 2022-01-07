@@ -28,8 +28,8 @@ releases:
     support: true
     eol: false
     
-  - releaseCycle: "Galaxy M32 5G"
-    release: 2021-09-02
+  - releaseCycle: "Galaxy M32"
+    release: 2021-06-28
     support: true
     eol: false
 
