@@ -13,7 +13,7 @@ releases:
   - releaseCycle: "7.16"
     cycleShortHand: 716
     eol: 2023-06-07
-    latest: 7.16.1
+    latest: 7.16.2
   - releaseCycle: "7.15"
     cycleShortHand: 715
     eol: 2023-03-22
@@ -81,7 +81,7 @@ releases:
   - releaseCycle: "6.8"
     cycleShortHand: 608
     eol: 2022-02-08
-    latest: 6.8.21
+    latest: 6.8.22
   - releaseCycle: "6.7"
     cycleShortHand: 607
     eol: 2020-09-26
