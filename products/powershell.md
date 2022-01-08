@@ -36,7 +36,7 @@ releases:
     cycleShortHand: 6.1
     release: 2018-09-13
     eol:     2019-09-28
-    latest:  "6.1.5"
+    latest:  "6.1.6"
   - releaseCycle: "6.x"
     cycleShortHand: 6.0
     release: 2018-01-10
