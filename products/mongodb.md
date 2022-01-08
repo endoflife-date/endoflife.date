@@ -13,15 +13,15 @@ releases:
   - releaseCycle: "5.0"
     eol: false
     release: 2021-07-13
-    latest: "5.0.3"
+    latest: "5.0.5"
   - releaseCycle: "4.4"
     eol: false
     release: 2020-07-30
-    latest: "4.4.9"
+    latest: "4.4.11"
   - releaseCycle: "4.2"
     eol: false
     release: 2019-08-31
-    latest: "4.2.17"
+    latest: "4.2.18"
   - releaseCycle: "4.0"
     eol: 2022-04-30
     release: 2018-06-30
