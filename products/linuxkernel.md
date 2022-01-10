@@ -19,7 +19,7 @@ releases:
     release: 2022-01-09
     eol: false
     # we need to refine eol of 5.16 when its eol dates announced
-    latest: "5.16.0"
+    latest: "5.16"
 
   - releaseCycle: "5.15"
     cycleShortHand: 515
