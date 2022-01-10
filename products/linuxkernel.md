@@ -14,11 +14,12 @@ releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
-#  - releaseCycle: "5.16"
-#    cycleShortHand: 516
-#    release: 2022-XX-XX
-#    eol: 2023-XX-XX
-#    latest: "5.16.0"
+  - releaseCycle: "5.16"
+    cycleShortHand: 516
+    release: 2022-01-09
+    eol: false
+    # we need to refine eol of 5.16 when its eol dates announced
+    latest: "5.16.0"
 
   - releaseCycle: "5.15"
     cycleShortHand: 515
