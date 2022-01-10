@@ -43,7 +43,7 @@ releases:
     link: https://s3.amazonaws.com/firmwarereleasenotes/update_kindle_oasis/ATVPDKIKX0DER/en_US.html
   - releaseCycle: "Kindle Voyage (7th Generation)"
     release: 2014-11-04
-    eol: 2020-04-01
+    eol: 2021-04-01
     latest: "5.13.6"
     link: https://s3.amazonaws.com/firmwarereleasenotes/update_kindle_voyage/ATVPDKIKX0DER/en_US.html
   - releaseCycle: "Kindle Paperwhite 3 (7th Generation)"
