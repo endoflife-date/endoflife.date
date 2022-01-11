@@ -29,7 +29,7 @@ releases:
       link: https://www.qt.io/blog/qt-6.0.4-released
     - releaseCycle: "5.15"
       cycleShortHand: 515
-      release: 2021-01-04
+      release: 2020-05-26
       eol: 2023-05-26
       latest: "5.15.8"
       lts: true
