@@ -18,8 +18,8 @@ releases:
     release: 2021-11-05
     support: true
     eol: false
-    latest: "3.4.0"
-    link: https://godotengine.org/article/godot-3-4-is-released
+    latest: "3.4.2"
+    link: https://godotengine.org/article/maintenance-release-godot-3-4-2
   - releaseCycle: "3.3"
     release: 2021-04-22
     support: true
