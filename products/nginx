@@ -1,0 +1,81 @@
+---
+title: nginx
+permalink: /nginx
+alternate_urls:
+  - /nginx
+iconSlug: nginx
+layout: post
+link: https://nginx.org/
+category: server-app
+activeSupportColumn: false
+command: nginx -v
+releaseColumn: true
+releaseDateColumn: true
+sortReleasesBy: "releaseCycle"
+releases:
+  - releaseCycle: "1.21 (mainline)"
+    release: 2021-05-25
+    eol: false
+    latest: "1.21.5"
+    link: https://nginx.org/en/CHANGES
+  - releaseCycle: "1.20 (stable)"
+    release: 2021-04-20
+    eol: false
+    latest: "1.20.2"
+    link: https://nginx.org/en/CHANGES-1.20
+  - releaseCycle: "1.18"
+    release: 2020-04-21
+    eol: 2020-04-21
+    latest: "1.18.0"
+    link: https://nginx.org/en/CHANGES-1.18
+  - releaseCycle: "1.16"
+    release: 2019-04-23
+    eol: 2019-08-13
+    latest: "1.16.1"
+    link: https://nginx.org/en/CHANGES-1.16
+  - releaseCycle: "1.14"
+    release: 2018-04-17
+    eol: 2018-12-04
+    latest: "1.14.2"
+    link: https://nginx.org/en/CHANGES-1.14
+  - releaseCycle: "1.12"
+    release: 2017-04-12
+    eol: 2017-10-17
+    latest: "1.12.2"
+    link: https://nginx.org/en/CHANGES-1.12
+  - releaseCycle: "1.10"
+    release: 2016-04-26
+    eol: 2017-01-31
+    latest: "1.10.3"
+    link: https://nginx.org/en/CHANGES-1.10
+  - releaseCycle: "1.8"
+    release: 2015-04-21
+    eol: 2016-01-26
+    latest: "1.8.1"
+    link: https://nginx.org/en/CHANGES-1.8
+  - releaseCycle: "1.6"
+    release: 2014-04-24
+    eol: 2015-04-07
+    latest: "1.6.3"
+    link: https://nginx.org/en/CHANGES-1.6
+  - releaseCycle: "1.4"
+    release: 2013-04-24
+    eol: 2014-03-18
+    latest: "1.4.7"
+    link: https://nginx.org/en/CHANGES-1.4
+  - releaseCycle: "1.2"
+    release: 2012-04-23
+    eol: 2013-05-13
+    latest: "1.2.9"
+    link: https://nginx.org/en/CHANGES-1.2
+  - releaseCycle: "1.0"
+    release: 2011-04-12
+    eol: 2012-04-12
+    latest: "1.0.15"
+    link: https://nginx.org/en/CHANGES-1.0
+---
+> [nginx](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
+
+The update strategy is informal but generally updates are released every month or two.
+
+For licensing information, see <https://nginx.org/LICENSE>
