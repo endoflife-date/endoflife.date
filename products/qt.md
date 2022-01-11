@@ -12,9 +12,9 @@ releases:
       cycleShortHand: 602
       release: 2021-09-30
       eol: 2024-09-30
-      latest: "6.2.1"
+      latest: "6.2.2"
       lts: true
-      link: https://www.qt.io/blog/qt-6.2.1-released
+      link: https://www.qt.io/blog/qt-6.2.2-released
     - releaseCycle: "6.1"
       cycleShortHand: 601
       release: 2021-05-06
