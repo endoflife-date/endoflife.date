@@ -1,11 +1,9 @@
 ---
 title: nginx
 permalink: /nginx
-alternate_urls:
-  - /nginx
 iconSlug: nginx
 layout: post
-link: https://nginx.org/
+link: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 category: server-app
 activeSupportColumn: false
 command: nginx -v
@@ -13,19 +11,19 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "1.21 (mainline)"
+  - releaseCycle: "1.21"
     release: 2021-05-25
     eol: false
     latest: "1.21.5"
     link: https://nginx.org/en/CHANGES
-  - releaseCycle: "1.20 (stable)"
+  - releaseCycle: "1.20"
     release: 2021-04-20
     eol: false
     latest: "1.20.2"
     link: https://nginx.org/en/CHANGES-1.20
   - releaseCycle: "1.18"
-    release: 2020-04-21
-    eol: 2020-04-21
+    release: 2020-04-20
+    eol: 2021-04-20
     latest: "1.18.0"
     link: https://nginx.org/en/CHANGES-1.18
   - releaseCycle: "1.16"
@@ -74,8 +72,21 @@ releases:
     latest: "1.0.15"
     link: https://nginx.org/en/CHANGES-1.0
 ---
-> [nginx](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
+> [NGINX](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
 
 The update strategy is informal but generally updates are released every month or two.
 
-For licensing information, see <https://nginx.org/LICENSE>
+## Versioning Scheme
+
+The open-source NGINX project maintains two branches: mainline and stable:
+
+- **mainline**: 
+    Mainline is the active development branch where the latest features and bug fixes get added. It is denoted by an odd number in the second part of the version number, for example 1.19.0.
+- **stable**:
+    Stable receives fixes for high‑severity bugs, but is not updated with new features. It is denoted by an even number in the second part of the version number, for example 1.18.0. The stable branch never receives new functionality during its lifecycle and typically receives just one or two updates, for critical bug fixes.
+   
+Every April, the current stable branch is retired, after which no further bug fixes are made. The current mainline branch is forked, to create the next stable branch.
+    
+NGINX Plus, the commercial version of NGINX is always based on the latest version of NGINX mainline.
+
+For licensing information, see <https://nginx.org/LICENSE>.
