@@ -17,17 +17,17 @@ releases:
     release: 2021-12-22
     support: 2022-01-22
     eol: 2022-03-22
-    latest: "14.6.1"
+    latest: "14.6.2"
   - releaseCycle: "14.5"
     release: 2021-11-22
     support: 2021-12-22
     eol: 2022-02-22
-    latest: "14.5.2"
+    latest: "14.5.3"
   - releaseCycle: "14.4"
     release: 2021-10-22
     support: 2021-11-22
     eol: 2022-01-22
-    latest: "14.4.4"
+    latest: "14.4.5"
   - releaseCycle: "14.3"
     release: 2021-09-22
     support: 2021-10-22
