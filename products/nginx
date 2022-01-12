@@ -74,8 +74,6 @@ releases:
 ---
 > [NGINX](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
 
-NOTE: This page contains details for the open-source NGINX product not commercial NGINX Plus product.
-
 ## Versioning Scheme
 
 The open-source NGINX project maintains two branches: mainline and stable.
@@ -86,5 +84,3 @@ The open-source NGINX project maintains two branches: mainline and stable.
     Stable receives fixes for high‑severity bugs, but is not updated with new features. It is denoted by an even number in the second part of the version number, for example 1.18.0. The stable branch never receives new functionality during its lifecycle and typically receives just one or two updates, for critical bug fixes.
    
 Every April, the current stable branch is retired, after which no further bug fixes are made. The current mainline branch is forked, to create the next stable branch.
-
-For licensing information, see <https://nginx.org/LICENSE>.
