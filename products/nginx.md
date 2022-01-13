@@ -9,7 +9,7 @@ activeSupportColumn: false
 command: nginx -v
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: "release"
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
 releases:
   - releaseCycle: "1.21"
