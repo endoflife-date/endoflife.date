@@ -15,15 +15,15 @@ releases:
   - releaseCycle: "1.11"
     eol: false
     release: 2021-12-14
-    latest: "1.11.1"
+    latest: "1.11.2"
   - releaseCycle: "1.10"
     eol: false
     release: 2021-06-22
-    latest: "1.10.6"
+    latest: "1.10.7"
   - releaseCycle: "1.9"
     eol: false
     release: 2020-11-24
-    latest: "1.9.13"
+    latest: "1.9.14"
   - releaseCycle: "1.8"
     eol: true
     release: 2020-06-18
