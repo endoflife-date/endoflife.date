@@ -15,7 +15,7 @@ releases:
   - releaseCycle: "1.11"
     eol: false
     release: 2021-12-14
-    latest: "1.11.1"
+    latest: "1.11.2"
   - releaseCycle: "1.10"
     eol: false
     release: 2021-06-22
