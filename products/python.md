@@ -13,11 +13,11 @@ releases:
     - releaseCycle: "3.10"
       release: 2021-10-04
       eol: 2026-10-04
-      latest: "3.10.1"
+      latest: "3.10.2"
     - releaseCycle: "3.9"
       release: 2020-10-05
       eol: 2025-10-05
-      latest: "3.9.9"
+      latest: "3.9.10"
     - releaseCycle: "3.8"
       release: 2019-10-14
       eol: 2024-10-14
