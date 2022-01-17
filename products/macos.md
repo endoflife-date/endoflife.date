@@ -10,15 +10,15 @@ releases:
   - releaseCycle: "macOS 12 (Monterey)"
     release: 2021-10-25
     eol: false
-    link: https://support.apple.com/en-us/HT212585
+    link: https://support.apple.com/HT212585
   - releaseCycle: "macOS 11 (Big Sur)"
     release: 2020-11-12
     eol: false
-    link: https://support.apple.com/en-us/HT211896
+    link: https://support.apple.com/HT211896
   - releaseCycle: "macOS 10.15 (Catalina)"
     release: 2019-10-07
     eol: false
-    link: https://support.apple.com/en-asia/HT210642
+    link: https://support.apple.com/HT210642
   - releaseCycle: "macOS 10.14 (Mojave)"
     release: 2018-09-24
     eol: 2021-10-25
