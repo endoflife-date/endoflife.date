@@ -2,7 +2,7 @@
 permalink: /debian
 layout: post
 title: Debian
-command: lsb_release --release
+command: cat /etc/os-release
 category: os
 link: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
