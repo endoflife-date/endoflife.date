@@ -49,12 +49,14 @@ releases:
     release: 2013-05-04
     eol: 2018-05-31
     lts: true
+    latest: "7.11"
     link: https://www.debian.org/News/2013/20130504
   - releaseCycle: "6"
     cycleShortHand: "Squeeze"
     release: 2011-02-06
     eol: 2016-02-29
     lts: true
+    latest: "6.0.10"
     link: https://www.debian.org/News/2011/20110205a
 ---
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable branch is the most popular edition for personal computers and network servers, and is used as the basis for many other Linux distributions.
