@@ -52,6 +52,7 @@ def process_product(product)
       event.summary = "#{key.upcase} #{cycle.fetch('name')}"
       event.categories = [key]
       event.url = product.link
+      next if key != 'eol'
       event.alarm do |a|
         a.action = 'DISPLAY'
         a.trigger = '-P364DT9H'
