@@ -22,19 +22,11 @@ releases:
     eol: 2024-06-01
     latest: "10.11"
     link: https://www.debian.org/News/2021/2021100902
-    # Debian has its LTS and non-LTS version in same time
-    # We are keeping both of them until non-LTS reaches EOL
   - releaseCycle: "9"
     cycleShortHand: "Stretch"
     release: 2017-06-17
     eol: 2022-06-30
     lts: true
-    latest: "9.13"
-    link: https://lists.debian.org/debian-announce/2020/msg00004.html
-    # Debian has its LTS and non-LTS version in same time
-    # We are keeping both of them until non-LTS reaches EOL
-    release: 2017-06-17
-    eol: 2020-01-01
     latest: "9.13"
     link: https://lists.debian.org/debian-announce/2020/msg00004.html
   - releaseCycle: "8"
