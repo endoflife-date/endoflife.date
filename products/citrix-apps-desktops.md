@@ -15,6 +15,18 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
+  - releaseCycle: "2112 (CR)"
+    release: 2021-12-13
+    support: 2022-06-14
+    eol: 2023-06-14
+  - releaseCycle: "2109 (CR)"
+    release: 2021-09-27
+    support: 2022-03-27
+    eol: 2023-03-27
+  - releaseCycle: "2106 (CR)"
+    release: 2021-06-16
+    support: 2021-12-16
+    eol: 2022-12-16
   - releaseCycle: "2103 (CR)"
     release: 2021-03-17
     support: 2021-09-17
