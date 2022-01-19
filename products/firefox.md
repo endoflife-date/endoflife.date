@@ -3,7 +3,7 @@ permalink: /firefox
 title: Firefox
 
 layout: post
-link: https://www.mozilla.org/firefox/
+releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox

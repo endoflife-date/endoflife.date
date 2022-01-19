@@ -4,7 +4,7 @@ permalink: /surface
 iconSlug: windows
 title: Microsoft Surface
 category: device
-link: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
+releasePolicyLink: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 activeSupportColumn: false
 latestColumn: true
 eolColumn: End of Servicing Date

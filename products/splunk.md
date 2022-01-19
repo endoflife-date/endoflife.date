@@ -4,7 +4,7 @@ layout: post
 permalink: /splunk
 category: server-app
 iconSlug: splunk
-link: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
+releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__CYCLE_SHORT_HAND__/ReleaseNotes/MeetSplunk
 activeSupportColumn: false

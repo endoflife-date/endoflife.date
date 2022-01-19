@@ -4,7 +4,7 @@ permalink: /msexchange
 layout: post
 iconSlug: microsoftexchange
 category: server-app
-link: https://docs.microsoft.com/lifecycle/products/?terms=Exchange%20Server
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 activeSupportColumn: true
 command: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true

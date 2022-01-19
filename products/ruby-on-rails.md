@@ -7,7 +7,7 @@ alternate_urls:
 layout: post
 iconSlug: rubyonrails
 title: Ruby on Rails
-link: https://guides.rubyonrails.org/maintenance_policy.html
+releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework

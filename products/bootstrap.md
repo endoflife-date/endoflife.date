@@ -29,7 +29,7 @@ releases:
     eol: 2013-08-19
     latest: "2.3.2"
     support: false
-link: https://github.com/twbs/release
+releasePolicyLink: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: Critical Support
 ---

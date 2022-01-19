@@ -3,7 +3,7 @@ title: Windows Server
 permalink: /windowsserver
 iconSlug: windows
 layout: post
-link: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Server
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Server
 category: os
 activeSupportColumn: true
 command: winver

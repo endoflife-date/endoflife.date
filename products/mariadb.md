@@ -3,7 +3,7 @@ title: MariaDB
 layout: post
 permalink: /mariadb
 category: db
-link: https://mariadb.org/about/maintenance-policy/
+releasePolicyLink: https://mariadb.org/about/maintenance-policy/
 changelogTemplate: https://mariadb.com/kb/en/mariadb-__LATEST_SHORT_HAND__-changelog/
 activeSupportColumn: false
 releaseDateColumn: true

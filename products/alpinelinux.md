@@ -5,7 +5,7 @@ alternate_urls:
 title: Alpine Linux
 layout: post
 category: os
-link: https://alpinelinux.org/releases/
+releasePolicyLink: https://alpinelinux.org/releases/
 iconSlug: alpinelinux
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false

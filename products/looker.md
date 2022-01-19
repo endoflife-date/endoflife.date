@@ -4,7 +4,7 @@ permalink: /looker
 category: server-app
 layout: post
 iconSlug: looker
-link: https://docs.looker.com/relnotes/release-overview
+releasePolicyLink: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
   https://docs.looker.com/relnotes/v{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__"}}
 eolColumn: Support Status

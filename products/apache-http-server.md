@@ -5,7 +5,7 @@ alternate_urls:
   - /httpd
 iconSlug: apache
 layout: post
-link: https://httpd.apache.org/
+releasePolicyLink: https://httpd.apache.org/
 category: server-app
 activeSupportColumn: false
 command: httpd -v

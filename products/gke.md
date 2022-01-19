@@ -57,7 +57,7 @@ iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:
   - gke
-link: https://cloud.google.com/kubernetes-engine/docs/release-schedule
+releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: false

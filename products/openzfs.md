@@ -6,7 +6,7 @@ layout: post
 title: OpenZFS
 category: app
 command: zpool get version [zpool name]
-link: https://github.com/openzfs/zfs/blob/master/RELEASES.md
+releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true

@@ -2,7 +2,7 @@
 title: Drupal
 layout: post
 permalink: /drupal
-link: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 category: server-app
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true

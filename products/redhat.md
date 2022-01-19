@@ -8,7 +8,7 @@ iconSlug: redhat
 alternate_urls:
   - /redhat
   - /redhatlinux
-link: https://access.redhat.com/support/policy/updates/errata
+releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false

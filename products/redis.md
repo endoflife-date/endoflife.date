@@ -3,7 +3,7 @@ permalink: /redis
 layout: post
 title: Redis
 category: db
-link: https://redis.io/topics/releases
+releasePolicyLink: https://redis.io/topics/releases
 changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false
 command: $ redis-server --version

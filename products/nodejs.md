@@ -7,7 +7,7 @@ layout: post
 category: lang
 title: Node.js
 iconSlug: nodedotjs
-link: https://nodejs.org/about/releases/
+releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true

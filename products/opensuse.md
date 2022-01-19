@@ -89,7 +89,7 @@ alternate_urls:
   - /opensuseleap
 # More information link. This link should contain
 # information about the release policy and schedule
-link: https://en.opensuse.org/Lifetime
+releasePolicyLink: https://en.opensuse.org/Lifetime
 # Whether to hide the "Active Support" column (optional, default true)
 activeSupportColumn: false
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)

@@ -2,7 +2,7 @@
 permalink: /fedora
 title: Fedora Linux
 layout: post
-link: https://fedoraproject.org/wiki/End_of_life
+releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
 command: lsb_release -d

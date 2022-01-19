@@ -8,7 +8,7 @@ title: Java/OpenJDK
 category: lang
 command: java -version
 activeSupportColumn: true
-link: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
+releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:

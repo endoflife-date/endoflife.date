@@ -4,7 +4,7 @@ layout: post
 category: framework
 title: Qt
 command: qmake --version
-link: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
+releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:

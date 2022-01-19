@@ -2,7 +2,7 @@
 permalink: /blender
 title: Blender
 layout: post
-link: https://www.blender.org
+releasePolicyLink: https://www.blender.org
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: blender

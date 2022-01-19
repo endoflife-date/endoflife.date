@@ -5,7 +5,7 @@ alternate_urls:
   - /golang
 layout: post
 category: lang
-link: https://golang.org/doc/devel/release.html#policy
+releasePolicyLink: https://golang.org/doc/devel/release.html#policy
 changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST__
 eolColumn: Supported
 command: go version

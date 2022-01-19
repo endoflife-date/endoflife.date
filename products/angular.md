@@ -3,7 +3,7 @@ permalink: /angular
 layout: post
 title: Angular
 command: ng version
-link: https://angular.io/guide/releases
+releasePolicyLink: https://angular.io/guide/releases
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'

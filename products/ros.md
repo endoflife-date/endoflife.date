@@ -3,7 +3,7 @@ title: ROS
 layout: post
 permalink: /ros
 category: os
-link: https://wiki.ros.org/Distributions
+releasePolicyLink: https://wiki.ros.org/Distributions
 activeSupportColumn: false
 releaseColumn: true
 eolColumn: End Of Life

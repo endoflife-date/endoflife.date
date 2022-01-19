@@ -6,7 +6,7 @@ alternate_urls:
 layout: post
 iconSlug: microsoftoffice
 category: app
-link: https://docs.microsoft.com/lifecycle/products/?terms=Office
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Office
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true

@@ -3,7 +3,7 @@ title: Elasticsearch
 layout: post
 permalink: /elasticsearch
 category: db
-link: https://www.elastic.co/support/eol
+releasePolicyLink: https://www.elastic.co/support/eol
 changelogTemplate: https://www.elastic.co/guide/en/elasticsearch/reference/__RELEASE_CYCLE__/release-notes-__LATEST__.html
 activeSupportColumn: false
 command: $ES_HOME/bin/elasticsearch -v

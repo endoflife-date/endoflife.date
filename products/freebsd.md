@@ -3,7 +3,7 @@ permalink: /freebsd
 title: FreeBSD
 layout: post
 category: os
-link: https://www.freebsd.org/security/#sup
+releasePolicyLink: https://www.freebsd.org/security/#sup
 activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false

@@ -51,7 +51,7 @@ releases:
 
 iconSlug: NA
 permalink: /mediawiki
-link: https://www.mediawiki.org/wiki/Version_lifecycle
+releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

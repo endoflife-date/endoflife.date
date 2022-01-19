@@ -6,7 +6,7 @@ alternate_urls:
   - /godotengine
 layout: post
 iconSlug: godotengine
-link: https://docs.godotengine.org/en/latest/about/release_policy.html
+releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 eolColumn: Critical, Security and Platform support

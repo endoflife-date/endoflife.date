@@ -3,7 +3,7 @@ permalink: /ruby
 layout: post
 title: Ruby
 command: ruby --version
-link: https://www.ruby-lang.org/en/downloads/releases/
+releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
 changelogTemplate: |
   https://rubychangelog.com/versions-all/#ruby-{{"__LATEST__"|replace:'.',''}}
 category: lang

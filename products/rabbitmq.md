@@ -3,7 +3,7 @@ title: RabbitMQ
 layout: post
 permalink: /rabbitmq
 category: server-app
-link: https://www.rabbitmq.com/versions.html
+releasePolicyLink: https://www.rabbitmq.com/versions.html
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
 activeSupportColumn: false
