@@ -24,6 +24,10 @@ class Product
     hash.fetch('link')
   end
 
+  def title
+    hash.fetch('title')
+  end
+
   def release_cycles
     hash.fetch('releases').map do |release|
       name = release.delete('releaseCycle')
@@ -39,6 +43,18 @@ def icalendar_filename(output_dir, name)
   File.join(output_dir, filename)
 end
 
+def notification_message(product, cycle, type)
+  message = "#{product} #{cycle}"
+  case type
+  when 'eol' then
+    message += ' will become End-of-life.'
+  when 'support' then
+    message += ' will end active development.'
+  when 'release' then
+    message += ' will be released.'
+  end
+end
+
 def process_product(product)
   FileUtils.mkdir_p(CALENDAR_DIR)
 
@@ -50,6 +66,7 @@ def process_product(product)
       event.dtstart = Icalendar::Values::Date.new(item)
       event.dtend = Icalendar::Values::Date.new(item + 1)
       event.summary = "#{key.upcase} #{cycle.fetch('name')}"
+      event.description = notification_message(product.title, cycle.fetch('name'), key)
       event.categories = [key]
       event.url = product.link
       next if key != 'eol'
