@@ -15,7 +15,7 @@ releases:
     release: 2021-08-14
     eol: 2026-08-15
     latest: "11.2"
-    link: https://www.debian.org/News/2021/20211009
+    link: https://www.debian.org/News/2021/20211218
   - releaseCycle: "10"
     cycleShortHand: "Buster"
     release: 2019-07-06
