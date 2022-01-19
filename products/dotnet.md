@@ -8,7 +8,7 @@ alternate_urls:
 layout: post
 title: .NET
 command: dotnet --version
-link: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__CYCLE_SHORT_HAND__/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 sortReleasesBy: "release"

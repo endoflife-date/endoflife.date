@@ -9,7 +9,7 @@ alternate_urls:
   - /vmwareesxi
   - /vmesxi
 
-link: https://www.vmware.com/support/policies/lifecycle.html
+releasePolicyLink: https://www.vmware.com/support/policies/lifecycle.html
 activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Service Status

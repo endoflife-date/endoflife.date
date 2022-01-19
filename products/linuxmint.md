@@ -4,7 +4,7 @@ layout: post
 title: Linux Mint
 command: cat /etc/linuxmint/info
 category: os
-link: https://linuxmint.com/download_all.php
+releasePolicyLink: https://linuxmint.com/download_all.php
 activeSupportColumn: true
 releaseDateColumn: true
 iconSlug: linuxmint

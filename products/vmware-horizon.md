@@ -7,7 +7,7 @@ alternate_urls:
 layout: post
 iconSlug: vmware
 category: app
-link: https://lifecycle.vmware.com/
+releasePolicyLink: https://lifecycle.vmware.com/
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true

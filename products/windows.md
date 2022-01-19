@@ -2,7 +2,7 @@
 title: Windows
 layout: post
 permalink: /windows
-link: https://docs.microsoft.com/lifecycle/products/?terms=Windows
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows
 category: os
 activeSupportColumn: true
 releaseColumn: false

@@ -3,7 +3,7 @@ title: Wagtail
 layout: post
 permalink: /wagtail
 category: framework
-link: https://github.com/wagtail/wagtail/wiki/Release-schedule
+releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.io/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"

@@ -43,7 +43,7 @@ alternate_urls:
   - /suselinuxenterprisesever
 # More information link. This link should contain
 # information about the release policy and schedule
-link: https://www.suse.com/lifecycle
+releasePolicyLink: https://www.suse.com/lifecycle
 activeSupportColumn: true
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
 releaseColumn: true

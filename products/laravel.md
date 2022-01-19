@@ -3,7 +3,7 @@ title: Laravel
 layout: post
 permalink: /laravel
 category: framework
-link: https://laravel.com/docs/8.x/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/8.x/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__/releases
 activeSupportColumn: true
 command: composer show laravel/framework|grep versions

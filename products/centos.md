@@ -4,7 +4,7 @@ layout: post
 title: CentOS
 category: os
 command: lsb_release --release
-link: https://wiki.centos.org/About/Product
+releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'

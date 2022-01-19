@@ -4,7 +4,7 @@ layout: post
 permalink: /nomad
 iconSlug: "NA"
 category: server-app
-link: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 activeSupportColumn: false

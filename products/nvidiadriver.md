@@ -5,7 +5,7 @@ layout: post
 permalink: /nvidia
 category: app
 iconSlug: nvidia
-link: https://www.nvidia.com/Download/index.aspx
+releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true

@@ -4,7 +4,7 @@ title: Amazon Linux
 iconSlug: amazonaws
 category: os
 layout: post
-link: https://aws.amazon.com/amazon-linux-2/release-notes/
+releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false
 command: cat /etc/system-release
 eolColumn: Support

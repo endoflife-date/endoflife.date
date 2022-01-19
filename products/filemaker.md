@@ -3,7 +3,7 @@ title: FileMaker
 layout: post
 category: app
 permalink: /filemaker
-link: https://www.filemaker.com/support/product-availability.html
+releasePolicyLink: https://www.filemaker.com/support/product-availability.html
 iconSlug: "NA"
 activeSupportColumn: false
 releaseColumn: false

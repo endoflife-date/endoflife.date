@@ -2,7 +2,7 @@
 title: Symfony
 layout: post
 permalink: /symfony
-link: https://symfony.com/roadmap
+releasePolicyLink: https://symfony.com/roadmap
 activeSupportColumn: true
 command: composer show symfony/symfony | grep versions
 changelogTemplate: |

@@ -4,7 +4,7 @@ layout: post
 title: Python
 category: lang
 command: python --version
-link: https://devguide.python.org/
+releasePolicyLink: https://devguide.python.org/
 changelogTemplate: |
   https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true

@@ -7,7 +7,7 @@ permalink: /kotlin
 alternate_urls:
   - /kotlinlang
 command: kotlinc-native -version
-link: https://kotlinlang.org/docs/releases.html
+releasePolicyLink: https://kotlinlang.org/docs/releases.html
 sortReleasesBy: "cycleShortHand"
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 

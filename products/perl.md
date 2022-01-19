@@ -32,7 +32,7 @@ releases:
     latest: "5.26.3"
 
 permalink: /perl
-link: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
+releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

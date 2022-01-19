@@ -3,7 +3,7 @@ title: HAProxy
 layout: post
 permalink: /haproxy
 category: server-app
-link: https://haproxy.org
+releasePolicyLink: https://haproxy.org
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
 command: haproxy -v

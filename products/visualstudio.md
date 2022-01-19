@@ -79,7 +79,7 @@ releases:
     
 iconSlug: visualstudio
 permalink: /visualstudio
-link: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
+releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false

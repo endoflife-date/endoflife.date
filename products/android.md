@@ -6,7 +6,7 @@ alternate_urls:
 layout: post
 permalink: /android
 category: device
-link: https://developer.android.com/about/versions
+releasePolicyLink: https://developer.android.com/about/versions
 category: os
 activeSupportColumn: false
 releaseColumn: false

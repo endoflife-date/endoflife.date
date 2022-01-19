@@ -4,7 +4,7 @@ permalink: /samsung-mobile
 title: Samsung Mobile
 category: device
 iconSlug: samsung
-link: https://security.samsungmobile.com/workScope.smsb
+releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 discontinuedColumn: false
 activeSupportColumn: true
 eolColumn: Security Updates

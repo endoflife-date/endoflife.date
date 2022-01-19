@@ -4,7 +4,7 @@ permalink: /mssqlserver
 layout: post
 iconSlug: microsoftsqlserver
 category: db
-link: https://docs.microsoft.com/lifecycle/products/?terms=SQL%20Server
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=SQL%20Server
 activeSupportColumn: true
 command: select @@version
 releaseDateColumn: true

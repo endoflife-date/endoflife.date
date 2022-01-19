@@ -55,7 +55,7 @@ releases:
 permalink: /yocto
 alternate_urls:
   - /yocto-project
-link: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
+releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

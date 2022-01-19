@@ -8,7 +8,7 @@ iconSlug: dotnet
 category: framework
 title: .NET Framework
 command: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
-link: https://dotnet.microsoft.com/download/dotnet-framework
+releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"

@@ -38,7 +38,7 @@ alternate_urls:
   - /eks
   - /amazon-eks
   - /amazon-elastic-kubernetes-service
-link: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
+releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

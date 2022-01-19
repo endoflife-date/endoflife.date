@@ -49,7 +49,7 @@ releases:
     release: 2003-03-01
     eol: 2008-12-31
 permalink: /mysql
-link: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
+releasePolicyLink: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 activeSupportColumn: false
 releaseDateColumn: true
 command: mysqld --version

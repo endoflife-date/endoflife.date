@@ -6,7 +6,7 @@ alternate_urls:
   - /couchbase
 category: db
 iconSlug: couchbase
-link: https://www.couchbase.com/support-policy/enterprise-software
+releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
 activeSupportColumn: false

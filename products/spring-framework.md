@@ -38,7 +38,7 @@ releases:
     release: 2019-01-17
     latest: "v3.2.18.RELEASE"
 permalink: /spring-framework
-link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

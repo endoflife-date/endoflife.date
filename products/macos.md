@@ -38,7 +38,7 @@ releases:
     release: 2013-10-22
     eol: 2016-12-01
 permalink: /macos
-link: https://developer.apple.com/documentation/macos-release-notes
+releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true

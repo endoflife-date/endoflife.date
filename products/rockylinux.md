@@ -9,7 +9,7 @@ iconSlug: rockylinux
 alternate_urls:
   - /rocky
   - /rockylinux
-link: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
+releasePolicyLink: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'

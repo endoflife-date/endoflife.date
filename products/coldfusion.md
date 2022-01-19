@@ -3,7 +3,7 @@ title: Adobe ColdFusion
 layout: post
 category: server-app
 permalink: /coldfusion
-link: https://helpx.adobe.com/support/programs/eol-matrix.html
+releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
 iconSlug: adobe
 activeSupportColumn: false
 releaseColumn: false

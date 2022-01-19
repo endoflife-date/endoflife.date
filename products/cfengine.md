@@ -9,7 +9,7 @@ activeSupportColumn: true
 eolColumn: Supported
 iconSlug: NA
 permalink: /cfengine
-link: https://cfengine.com
+releasePolicyLink: https://cfengine.com
 
 releases:
   - releaseCycle: "3.19"

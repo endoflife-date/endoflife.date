@@ -63,7 +63,7 @@ releases:
     link: https://www.amazon.com/update_Kindle_Paperwhite_6th_Gen
 # URL for the page
 permalink: /kindle
-link: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
+releasePolicyLink: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

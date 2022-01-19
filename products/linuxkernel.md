@@ -4,7 +4,7 @@ layout: post
 permalink: /linux
 category: os
 iconSlug: linux
-link: https://www.kernel.org/
+releasePolicyLink: https://www.kernel.org/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/pugqro4rvjv2as8ogxjsgnkwyimpmqa.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}

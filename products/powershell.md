@@ -4,7 +4,7 @@ layout: post
 category: app
 title: PowerShell
 command: pwsh -v
-link: https://docs.microsoft.com/lifecycle/products/powershell
+releasePolicyLink: https://docs.microsoft.com/lifecycle/products/powershell
 changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__CYCLE_SHORT_HAND__.md
 releaseDateColumn: true
 sortReleasesBy: "release"

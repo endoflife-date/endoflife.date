@@ -3,7 +3,7 @@ title: nginx
 permalink: /nginx
 iconSlug: nginx
 layout: post
-link: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
+releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 category: server-app
 activeSupportColumn: false
 command: nginx -v

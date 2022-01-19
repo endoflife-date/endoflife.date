@@ -6,7 +6,7 @@ changelogTemplate: |
   https://www.electronjs.org/releases/stable?version={{"__LATEST__" | split:'.' | first}}#__LATEST__
 iconSlug: electron
 permalink: /electron
-link: https://www.electronjs.org/docs/latest/tutorial/support
+releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/support
 eolColumn: Supported
 activeSupportColumn: false
 command: npm show electron version

@@ -4,7 +4,7 @@ layout: post
 title: Debian
 command: lsb_release --release
 category: os
-link: https://wiki.debian.org/DebianReleases
+releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

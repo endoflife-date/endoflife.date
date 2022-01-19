@@ -45,7 +45,7 @@ releases:
 
 iconSlug: NA
 permalink: /moodle
-link: https://docs.moodle.org/dev/Releases
+releasePolicyLink: https://docs.moodle.org/dev/Releases
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

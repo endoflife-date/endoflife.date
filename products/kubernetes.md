@@ -4,7 +4,7 @@ layout: post
 title: Kubernetes
 category: server-app
 command: kubectl version
-link: https://kubernetes.io/releases/patch-releases/
+releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 sortReleasesBy: "release"

@@ -43,7 +43,7 @@ releases:
     eol: true
     support: false
     
-link: https://roundcube.net/news/2021/10/18/roundcube-1.5.0-released
+releasePolicyLink: https://roundcube.net/news/2021/10/18/roundcube-1.5.0-released
 releaseDateColumn: true
 eolColumn: Security Support
 iconSlug: roundcube
