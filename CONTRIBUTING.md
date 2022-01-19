@@ -85,6 +85,10 @@ releases:
     latest: "1.2.3"
     # Can be true/false. Only use if discontinuedColumn is set to true
     discontinued: true
+    # Optional, can be used to sort releases, and as part of the changelogTemplate (__CYCLE_SHORT_HAND__).
+    # Useful for sorting because 1.2 comes after 1.10 in normal sorting, so using cycleShortHand values of 102, 110
+    # makes sorting much easier
+    cycleShortHand: "102"
     # A link to the changelog for this specific release. Use this if the link is not
     # predictable and you can't use changelogTemplate.
     # Do not use a localized URL (such as one containing en-us) if possible
@@ -110,7 +114,7 @@ alternate_urls:
 # information about the release policy and schedule
 # This is NOT the product URL
 # Do not use a localized URL (such as one containing en-us) if possible
-link: https://jkrowling.com/timeturner-releases
+releasePolicyLink: https://jkrowling.com/timeturner-releases
 
 # Whether to hide the "Active Support" column (optional, default true)
 activeSupportColumn: false
