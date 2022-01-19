@@ -66,6 +66,7 @@ def process_product(product)
       event.dtstart = Icalendar::Values::Date.new(item)
       event.dtend = Icalendar::Values::Date.new(item + 1)
       event.summary = "#{key.upcase} #{cycle.fetch('name')}"
+      event.summary.ical_params = { 'altrep' => "https://endoflife.date/#{product.permalink}" }
       event.description = notification_message(product.title, cycle.fetch('name'), key)
       event.categories = [key]
       event.url = product.link
