@@ -5,6 +5,7 @@ title: Kubernetes
 category: server-app
 command: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/5s3rt0dg6aaqymdat8d2kt61fc3mt29.png
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 sortReleasesBy: "release"
@@ -16,22 +17,22 @@ alternate_urls:
 releases:
   - releaseCycle: "1.23"
     release: 2021-12-07
-    latest: "1.23.1"
+    latest: "1.23.2"
     support: 2022-12-28
     eol: 2023-02-28
   - releaseCycle: "1.22"
     release: 2021-08-04
-    latest: "1.22.5"
+    latest: "1.22.6"
     support: 2022-08-28
     eol: 2022-10-28
   - releaseCycle: "1.21"
     release: 2021-04-08
-    latest: "1.21.8"
+    latest: "1.21.9"
     support: 2022-04-28
     eol: 2022-06-28
   - releaseCycle: "1.20"
     release: 2020-12-08
-    latest: "1.20.14"
+    latest: "1.20.15"
     support: 2021-12-28
     eol: 2022-02-28
   - releaseCycle: "1.19"
