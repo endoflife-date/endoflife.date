@@ -15,21 +15,20 @@ releases:
   - releaseCycle: "Firefox 96"
     release: 2022-01-11
     eol: false
-    latest: "96.0"
-    cycleShortHand: 4
+    latest: "96.0.1"
+    cycleShortHand: 96
 
   - releaseCycle: "Firefox 91 ESR"
     release: 2021-11-02
     eol: 2022-09-20
     latest: "91.5.0"
-    cycleShortHand: 2
-
+    cycleShortHand: 91
 
   - releaseCycle: "Firefox 78 ESR"
     release: 2020-06-30
     eol: 2021-11-02
     latest: "78.15.0"
-    cycleShortHand: 1
+    cycleShortHand: 78
 
 
 ---
