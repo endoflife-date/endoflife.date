@@ -5,23 +5,29 @@ alternate_urls:
 layout: post
 category: os
 category: device
+changelogTemplate: "https://support.apple.com/__CYCLE_SHORT_HAND__"
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "macOS 12 (Monterey)"
+    cycleShortHand: "HT212585"
     release: 2021-10-25
     eol: false
-    link: https://support.apple.com/HT212585
+
   - releaseCycle: "macOS 11 (Big Sur)"
+    cycleShortHand: "HT211896"
     release: 2020-11-12
     eol: false
-    link: https://support.apple.com/HT211896
+
   - releaseCycle: "macOS 10.15 (Catalina)"
+    cycleShortHand: "HT210642"
     release: 2019-10-07
     eol: false
-    link: https://support.apple.com/HT210642
+
   - releaseCycle: "macOS 10.14 (Mojave)"
+    cycleShortHand: "HT209149"
     release: 2018-09-24
     eol: 2021-10-25
+
   - releaseCycle: "macOS 10.13 (High Sierra)"
     release: 2017-09-25
     eol: 2020-12-01
