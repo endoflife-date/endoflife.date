@@ -39,6 +39,7 @@ layout: null
     {% endif %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
+    Link: /calendar{{page.permalink}}.ics; rel=alternate;type=text/calendar
   {% elsif page.permalink == '/docs/api' %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}

@@ -20,6 +20,7 @@ layout: null
 /api{{page.permalink}}       /api{{page.permalink}}.json
     {%- if page.alternate_urls  %}
       {%- for url in page.alternate_urls %}
+/calendar{{url}}.ics       /calendar{{page.permalink}}.ics
 /api{{url}}.json       /api{{page.permalink}}.json
 /api{{url}}/*       /api{{page.permalink}}/:splat
       {%- endfor %}
