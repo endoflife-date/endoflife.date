@@ -22,7 +22,7 @@ releases:
     release: 2021-06-15
     eol: 2023-05-01
     cycleShortHand: 314
-    latest: "3.14.2"
+    latest: "3.14.3"
   - releaseCycle: "v3.13"
     release: 2021-01-14
     eol: 2022-11-01
