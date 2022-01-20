@@ -12,22 +12,24 @@ changelogTemplate: |
 sortReleasesBy: 'cycleShortHand'
 releases:
 
-  - releaseCycle: "Firefox 96"
+  - releaseCycle: "96"
     release: 2022-01-11
     eol: false
     latest: "96.0.1"
     cycleShortHand: 96
 
-  - releaseCycle: "Firefox 91 ESR"
+  - releaseCycle: "91"
     release: 2021-11-02
     eol: 2022-09-20
     latest: "91.5.0"
+    ltsLabel: "ESR"
     cycleShortHand: 91
 
-  - releaseCycle: "Firefox 78 ESR"
+  - releaseCycle: "78"
     release: 2020-06-30
     eol: 2021-11-02
     latest: "78.15.0"
+    ltsLabel: "ESR"
     cycleShortHand: 78
 
 
