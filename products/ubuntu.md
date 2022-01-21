@@ -23,7 +23,7 @@ releases:
     release: 2021-04-22
     support: 2022-01-20
     eol:     2022-01-20
-    latest: "21.10"
+    latest: "21.04"
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
   - releaseCycle: "20.10 'Groovy Gorilla'"
     cycleShortHand: "GroovyGorilla"
