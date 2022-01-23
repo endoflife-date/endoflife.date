@@ -64,7 +64,7 @@ releases:
     release: 2014-03-18
     support: 2022-03-31
     eol: 2025-03-31
-    latest: "8u311"
+    latest: "8u312"
   - releaseCycle: "7"
     release: 2011-07-07
     support: 2019-07-31
