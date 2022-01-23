@@ -7,7 +7,7 @@ category: os
 # releaseCycle/eol/support/release/cycleShortHand
 # which must be present in the releases underneath
 sortReleasesBy: "release"
-
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__CYCLE_SHORT_HAND__/
 
 releases:
