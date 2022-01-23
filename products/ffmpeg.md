@@ -4,6 +4,7 @@ permalink: /ffmpeg
 layout: post
 category: framework
 icon: FFmpeg
+releasePolicyLink: https://ffmpeg.org/
 command: ffmpeg -version
 activeSupportColumn: false
 releaseDateColumn: true
