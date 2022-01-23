@@ -19,14 +19,14 @@ releases:
     release: 2022-01-09
     eol: false
     # we need to refine eol of 5.16 when its eol dates announced
-    latest: "5.16.1"
+    latest: "5.16.2"
 
   - releaseCycle: "5.15"
     cycleShortHand: 515
     release: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "5.15.15"
+    latest: "5.15.16"
 
   - releaseCycle: "5.14"
     cycleShortHand: 514
@@ -39,14 +39,14 @@ releases:
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    latest: "5.10.92"
+    latest: "5.10.93"
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
     release: 2019-11-24
     eol: 2025-12-01
     lts: true
-    latest: "5.4.172"
+    latest: "5.4.173"
     
   - releaseCycle: "4.19"
     cycleShortHand: 419
