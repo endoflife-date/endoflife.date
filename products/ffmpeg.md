@@ -6,7 +6,7 @@ category: framework
 icon: FFmpeg
 changelogTemplate: https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n{{"__LATEST__"}}
 command: ffmpeg -version
-activeSupportColumn: true
+activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
