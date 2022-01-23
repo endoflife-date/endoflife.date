@@ -8,7 +8,6 @@ changelogTemplate: https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n{{"__LATES
 command: ffmpeg -version
 activeSupportColumn: true
 releaseDateColumn: true
-iconSlug: None
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 releases:
