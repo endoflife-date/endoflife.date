@@ -22,11 +22,13 @@ releases:
     release: 2021-11-02
     eol: 2022-09-20
     latest: "91.5.0"
+    lts: true
 
   - releaseCycle: "78"
     release: 2020-06-30
     eol: 2021-11-02
     latest: "78.15.0"
+    lts: true
 
 ---
 > [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser developed by the Mozilla. Firefox is available for [Windows][ff-win], [macOS][ff-mac], [Android][ff-android], [iOS][ff-ios], and [Linux][ff-linux], and [ChromeOS][ff-chromeos].
