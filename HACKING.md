@@ -83,7 +83,7 @@ The API is just JSON files generated in the `api` directory by `_plugins/create-
 
 ### API Documentation
 
-The API Documentation is available at <https://endoflife.date/docs/api> and is generated from an OpenAPI Specification file located at `_data/openapi.yml`. The documentation is generated using an in-tree version of [jekyll-openapi](https://github.com/robertlove/jekyll-openapi).
+The API Documentation is available at <https://endoflife.date/docs/api> and is generated from an OpenAPI Specification file located at `_data/openapi.yml`. The documentation is rendered [Stoplight Elements](https://meta.stoplight.io/docs/elements/ZG9jOjMyNjU4OTY0-introduction-to-elements).
 
 ## Contributing Workflow
 

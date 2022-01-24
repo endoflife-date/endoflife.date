@@ -1,7 +1,0 @@
-{%- assign parts = include.reference.first[1] | split: '/' -%}
-{%- for component_schema in api.components.schemas -%}
-  {%- if component_schema[0] == parts.last -%}
-    {%- assign reference_schema = component_schema[1] -%}
-    {%- include schema.html schema=reference_schema -%}
-  {%- endif -%}
-{%- endfor -%}
