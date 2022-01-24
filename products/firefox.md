@@ -7,30 +7,28 @@ releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
+ltsLabel: ESR
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
-sortReleasesBy: 'cycleShortHand'
+sortReleasesBy: 'release'
 releases:
 
-  - releaseCycle: "Firefox 96"
+  - releaseCycle: "96"
     release: 2022-01-11
     eol: false
-    latest: "96.0"
-    cycleShortHand: 4
+    latest: "96.0.1"
 
-  - releaseCycle: "Firefox 91 ESR"
+  - releaseCycle: "91"
     release: 2021-11-02
     eol: 2022-09-20
     latest: "91.5.0"
-    cycleShortHand: 2
+    lts: true
 
-
-  - releaseCycle: "Firefox 78 ESR"
+  - releaseCycle: "78"
     release: 2020-06-30
     eol: 2021-11-02
     latest: "78.15.0"
-    cycleShortHand: 1
-
+    lts: true
 
 ---
 > [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser developed by the Mozilla. Firefox is available for [Windows][ff-win], [macOS][ff-mac], [Android][ff-android], [iOS][ff-ios], and [Linux][ff-linux], and [ChromeOS][ff-chromeos].
