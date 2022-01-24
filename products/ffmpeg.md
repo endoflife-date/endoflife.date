@@ -11,20 +11,20 @@ releaseDateColumn: true
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 releases:
-  - releaseCycle: "FFmpeg 5.0 'Lorentz'"
+  - releaseCycle: "5.0 'Lorentz'"
     cycleShortHand: 50
     release: 2022-01-17
     eol: false
     latest: "5.0"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.0
-  - releaseCycle: "FFmpeg 4.4 'Rao'"
+  - releaseCycle: "4.4 'Rao'"
     cycleShortHand: 44
     release:  2021-04-09
     eol: false
     latest: "4.4.1"
     link: https://ffmpeg.org/download.html#release_4.4
-  - releaseCycle: "FFmpeg 4.3 '4:3'"
+  - releaseCycle: "4.3 '4:3'"
     cycleShortHand: 43
     release: 2020-06-15
     eol: 2021-10-21
