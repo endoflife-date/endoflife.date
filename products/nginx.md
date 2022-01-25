@@ -15,7 +15,7 @@ releases:
   - releaseCycle: "1.21"
     release: 2021-05-25
     eol: false
-    latest: "1.21.5"
+    latest: "1.21.6"
     link: https://nginx.org/en/CHANGES
   - releaseCycle: "1.20"
     release: 2021-04-20
