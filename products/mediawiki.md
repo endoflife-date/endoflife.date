@@ -14,19 +14,19 @@ releases:
     lts: false
     release: 2021-11-18
     eol: 2022-11-01
-    latest: "1.37.0"
+    latest: "1.37.1"
 
   - releaseCycle: "1.36"
     lts: false
     release: 2021-05-28
     eol: 2022-05-01
-    latest: "1.36.2"
+    latest: "1.36.3"
     
   - releaseCycle: "1.35"
     lts: true
     release: 2020-09-25
     eol: 2023-09-01
-    latest: "1.35.4"
+    latest: "1.35.5"
 
   - releaseCycle: "1.34"
     release: 2019-12-19
