@@ -58,18 +58,15 @@ releases:
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
-**Python Support**
+Django Release|Supported Python Versions
+--------------|-------------------------
+4.0           |3.8-3.10
+3.2           |3.6-3.10
+2.2           |3.5-3.9
+2.0           |3.4-3.7
+1.11.x        |2.7,3.4-3.7
 
-Django 4.0 supports Python 3.8, 3.9, and 3.10
-
-Django 3.2 supports Python 3.6, 3.7, 3.8, 3.9, and 3.10 (as of 3.2.9)
-
-Django 2.2 supports Python 3.5, 3.6, 3.7, 3.8 (as of 2.2.8), and 3.9 (as of 2.2.17)
-
-Django 2.0 supports Python 3.4, 3.5, 3.6, and 3.7
-
-Django 1.11.x series is the last to support Python 2.7
-
+Not all releases in a series will support all Python versions, the matrix above is for the latest patch release.
 **Feature releases** (A.B, A.B+1, etc.) will happen roughly every eight months. These releases will contain new features, improvements to existing features, and such. These can include documented backwards incompatibilities where a deprecation path isn’t possible or not worth the cost.
 
 **Patch releases** (A.B.C, etc.) will be issued as needed, to fix bugs and/or security issues. These releases will be 100% compatible with the associated feature release, unless this is impossible for security reasons or to prevent data loss. So the answer to "should I upgrade to the latest patch release?” will always be "yes."
