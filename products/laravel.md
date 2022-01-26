@@ -11,9 +11,9 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
 #  - releaseCycle: "9.x"
-#    release: 2022-01-25
-#    support: 2024-01-30
-#    eol: 2025-01-28
+#    release: 2022-02-08
+#    support: 2024-02-08
+#    eol: 2025-02-08
 #    latest: 9.0.0
 #    lts: true
   - releaseCycle: "8.x"
