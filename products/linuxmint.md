@@ -34,7 +34,7 @@ releases:
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
     
-  - releaseCycle: "20 'Ulyssa'"
+  - releaseCycle: "20 'Ulyana'"
     lts: true
     release: 2020-06-27
     support: false
