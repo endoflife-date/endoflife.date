@@ -17,6 +17,14 @@ releases:
     eol:     false
     latest: "4"
     link: https://linuxmint.com/rel_debbie.php
+    
+  - releaseCycle: "20.3 'Una'"
+    lts: true
+    release: 2022-01-07
+    support: true
+    eol:     2025-04-01
+    latest: "20.3"
+    link: https://linuxmint.com/edition.php?id=292
 
   - releaseCycle: "20.2 'Uma'"
     lts: true
@@ -34,7 +42,7 @@ releases:
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
     
-  - releaseCycle: "20 'Ulyssa'"
+  - releaseCycle: "20 'Ulyana'"
     lts: true
     release: 2020-06-27
     support: false
