@@ -11,22 +11,22 @@ command: winver
 sortReleasesBy: 'release'
 releases:
   - releaseCycle: "Windows 10, version 21H2 (E)"
-    cycleShortHand: x.x.x
+    cycleShortHand: 10.0.19044
     release: 2021-11-16
     support: 2024-06-11
     eol: 2024-06-11
   - releaseCycle: "Windows 10, version 21H2 (W)"
-    cycleShortHand: x.x.x
+    cycleShortHand: 10.0.19044
     release: 2021-11-16
     support: 2023-06-13
     eol: 2023-06-13
   - releaseCycle: "Windows 11, version 21H2 (E)"
-    cycleShortHand: 11.0.22000
+    cycleShortHand: 10.0.22000
     release: 2021-10-04
     support: 2024-10-08
     eol: 2024-10-08
   - releaseCycle: "Windows 11, version 21H2 (W)"
-    cycleShortHand: 11.0.22000
+    cycleShortHand: 10.0.22000
     release: 2021-10-04
     support: 2023-10-10
     eol: 2023-10-10
