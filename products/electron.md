@@ -15,7 +15,7 @@ sortReleasesBy: releaseCycle
 releases:
   # The approximate EoL going forward will be 8 months for every release
   # but this varies a lot currently due to the cadence change.
-  - releaseCycke: "17"
+  - releaseCycle: "17"
     eol: false
     release: 2022-02-01
     latest: "17.0.0"
