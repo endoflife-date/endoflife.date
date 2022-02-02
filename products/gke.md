@@ -32,9 +32,11 @@ releases:
   - releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01
+    latest: '{{ site.data.gke.versions["1.22"] }}'
   - releaseCycle: "1.21"
     eol: 2023-03-01
     support: 2023-01-01
+    latest: '{{ site.data.gke.versions["1.21"] }}'
   - releaseCycle: "1.20"
     eol: 2022-08-01
     support: 2021-12-01
