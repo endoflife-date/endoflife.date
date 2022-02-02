@@ -12,6 +12,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
 sortReleasesBy: 'release'
+timelineImage: false
 releases:
   - releaseCycle: Snow Cone (Android 12)
     release: 2021-10-04

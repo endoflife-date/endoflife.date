@@ -10,7 +10,7 @@ changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELO
 activeSupportColumn: false
 releaseDateColumn: true
 command: consul --version
-
+timelineImage: false
 releases:
   - releaseCycle: "1.11"
     eol: false
