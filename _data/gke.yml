@@ -10,7 +10,9 @@ channels:
   STABLE: stableDefaultPlaceholder
 default_cluster_version: defaultClusterVersionPlaceholder
 versions:
-  "1.20": "1.20.8-gke.900"
-  "1.19": "1.19.12-gke.1100"
-  "1.18": "1.18.20-gke.900"
-  "1.17": "1.17.17-gke.9100"
+  "1.21": "1.21.x"
+  "1.22": "1.22.x"
+  "1.20": "1.20.x"
+  "1.19": "1.19.x"
+  "1.18": "1.18.x"
+  "1.17": "1.17.x"
