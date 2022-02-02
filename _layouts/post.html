@@ -9,7 +9,6 @@ layout: default
 <object type="image/svg+xml" data="/assets/timeline/{{page.name | remove: '.md'}}.svg">
     <img height=300 src="/assets/timeline/{{page.name | remove: '.md'}}.svg" />
 </object>
-<img src= />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
@@ -210,6 +209,7 @@ or +1 (EoL is in the future)
 }
 </style>
 
+<!-- TODO: Make pageSlug explicit across all pages and remove this hack -->
 {% if page.iconSlug and page.iconSlug != "NA" %}
 <img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
 {% elsif page.iconSlug != "NA" %}
