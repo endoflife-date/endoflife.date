@@ -12,7 +12,7 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
-releaseImage:
+timelineImage:
   expectedLife: 0.33
 releases:
   - releaseCycle: "5.16"

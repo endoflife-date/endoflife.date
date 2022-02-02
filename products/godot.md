@@ -13,7 +13,7 @@ eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
-releaseImage:
+timelineImage:
   expectedLife: 2
   expectedLTSLife: 6
 releases:

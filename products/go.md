@@ -10,7 +10,7 @@ changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST_
 eolColumn: Supported
 command: go version
 releaseDateColumn: true
-releaseImage:
+timelineImage:
   expectedLife: 1
 sortReleasesBy: 'cycleShortHand'
 releases:
