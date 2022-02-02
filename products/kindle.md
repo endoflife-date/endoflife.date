@@ -1,7 +1,6 @@
 ---
 title: Amazon Kindle
 layout: post
-category: os
 iconSlug: amazon
 category: device
 sortReleasesBy: "release"

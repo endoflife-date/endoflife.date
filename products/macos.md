@@ -4,7 +4,6 @@ alternate_urls:
   - /mac
 layout: post
 category: os
-category: device
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "macOS 12 (Monterey)"

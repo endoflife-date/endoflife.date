@@ -2,6 +2,7 @@
 title: Google Kubernetes Engine
 layout: post
 category: service
+timelineImage: false
 sortReleasesBy: "releaseCycle"
 
 # EoL is support + 3 months, but only for static releases

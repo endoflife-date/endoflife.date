@@ -2,6 +2,7 @@
 title: Visual Studio
 layout: post
 category: app
+timelineImage: false
 sortReleasesBy: "cycleShortHand"
 
 # A list of releases, supported or not

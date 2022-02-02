@@ -7,6 +7,7 @@ releasePolicyLink: https://www.freebsd.org/security/#sup
 activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
+timelineImage: false
 sortReleasesBy: cycleShortHand
 command: freebsd-version
 releases:
