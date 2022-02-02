@@ -60,7 +60,7 @@ releases:
     release: 2017-11-12
     eol: 2024-01-01
     lts: true
-    latest: "4.14.262"
+    latest: "4.14.264"
     
   - releaseCycle: "4.9"
     cycleShortHand: 409
