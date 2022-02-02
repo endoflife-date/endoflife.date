@@ -5,7 +5,7 @@ permalink: /ros
 category: os
 releasePolicyLink: https://wiki.ros.org/Distributions
 activeSupportColumn: false
-releaseColumn: true
+releaseColumn: false
 eolColumn: End Of Life
 command: rosversion -d
 releaseDateColumn: true
