@@ -5,7 +5,6 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/pugqro4rvjv2as8ogxjsgnkwyimpmqa.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
@@ -13,6 +12,8 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
+releaseImage:
+  expectedLife: 0.33
 releases:
   - releaseCycle: "5.16"
     cycleShortHand: 516

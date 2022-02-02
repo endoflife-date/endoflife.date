@@ -2,6 +2,7 @@
 title: LineageOS
 layout: post
 category: os
+releaseImage: false
 sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "18.1"

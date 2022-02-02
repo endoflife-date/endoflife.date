@@ -36,12 +36,12 @@ releases:
     release: 2008-12-01
     latest: 5.1.73
     support: 2013-12-31
-    eol: true
+    eol: 2013-12-31
   - releaseCycle: "5.0"
     release: 2005-10-01
     latest: 5.0.96
     support: 2011-12-31
-    eol: true
+    eol:  2011-12-31
   - releaseCycle: "4.1"
     release: 2004-10-01
     eol: 2009-12-31

@@ -15,7 +15,8 @@ activeSupportColumn: false
 discontinuedColumn: false
 releaseDateColumn: true
 releaseColumn: true
-
+releaseImage:
+  expectedLife: 3
 releases:
   - releaseCycle: "1.6"
     cycleShortHand: 106

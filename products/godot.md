@@ -13,6 +13,9 @@ eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+releaseImage:
+  expectedLife: 2
+  expectedLTSLife: 6
 releases:
   - releaseCycle: "3.4"
     release: 2021-11-05
