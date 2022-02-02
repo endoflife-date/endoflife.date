@@ -162,9 +162,9 @@ function generateToolImage(inputFile, outputDirectory) {
   create(frontmatter(contents).data, outputFile)
 }
 
-fs.readdir('../tools', (err, files) => {
+fs.readdir('../products', (err, files) => {
   files.forEach((file) => {
     console.log(file)
-    generateToolImage(`../tools/${file}`, '../assets/timeline')
+    generateToolImage(`../products/${file}`, '../assets/timeline')
   })
 })
