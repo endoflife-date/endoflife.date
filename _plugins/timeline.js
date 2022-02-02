@@ -47,19 +47,48 @@ function parseInput (data) {
   return output;
 }
 
+// Returns good start/end dates for our releases
+function startEndDates(data) {
+  let today = new Date(),
+    past = new Date(new Date().setDate(new Date().getDate() - (365*2))),
+    future = new Date(new Date().setDate(new Date().getDate() + (365*2)));
+
+  for(let release of data.releases) {
+
+    if (release.eol instanceof Date) {
+      let EOLyearsFromToday = (release.eol.getTime() - today.getTime())/(365 * 24 * 60 * 60 * 1000);
+      if (EOLyearsFromToday > 0 && EOLyearsFromToday < 5 && EOLyearsFromToday > 2 && release.eol > future) {
+        future = release.eol
+      }
+    }
+
+    if (release.release instanceof Date) {
+      let releaseYearsFromToday = (today.getTime() - release.release.getTime())/(365 * 24 * 60 * 60 * 1000);
+
+      if (releaseYearsFromToday > 0 && releaseYearsFromToday < 5 && releaseYearsFromToday > 2 && release.release <= past) {
+        past = release.release
+      }
+    }
+  }
+
+  console.log([past, future])
+
+  return([past,future]);
+}
+
 function create (inputData, outputFile) {
-  const queryStart = new Date('2018-01-01');
-  const queryEnd = new Date('2024-11-31');
   const data = parseInput(inputData);
   if (inputData['timelineImage'] == false) {
     return null;
   }
+
+  let [startDate,endDate] = startEndDates(inputData)
   const d3n = new D3Node({ styles: styles, d3Module: D3 });
   const margin = {top: 30, right: 10, bottom: 10, left: 100 };
   const width = 760 - margin.left - margin.right;
   const height = 250 - margin.top - margin.bottom;
   const xScale = D3.scaleTime()
-                   .domain([queryStart, queryEnd])
+                   .domain([startDate, endDate])
                    .range([0, width])
                    .clamp(true);
   const yScale = D3.scaleBand()
@@ -68,7 +97,8 @@ function create (inputData, outputFile) {
                    .padding(0.3);
   const xAxis = D3.axisBottom(xScale)
                   .tickSize(height)
-                  .tickFormat(D3.timeFormat('%b %Y'));
+                  .tickFormat(D3.timeFormat('%b %Y'))
+                  .ticks(D3.timeMonth.filter(function(d) { return d.getMonth() == 0; }))
   const yAxis = D3.axisRight(yScale).tickSize(width);
   const svg = d3n.createSVG()
                  .attr('width', width + margin.left + margin.right)
