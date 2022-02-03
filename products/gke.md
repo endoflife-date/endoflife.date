@@ -3,10 +3,10 @@ title: Google Kubernetes Engine
 layout: post
 category: service
 sortReleasesBy: "releaseCycle"
-
+changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 # EoL is support + 3 months, but only for static releases
 # 1. Get the current version in a release channel from https://cloud.google.com/kubernetes-engine/docs/release-notes
-# 2. Get the date when that minor release was first made available in Regular Release from https://cloud.google.com/kubernetes-engine/docs/release-schedule. This is (2)
+# 2. Get the date when that minor release was first made available in Regular release channel from https://cloud.google.com/kubernetes-engine/docs/release-schedule#schedule_for_release_channels. This is (2)
 # 3. support = Date from (2) + 12 months
 # 4. eol = Date from (2) + 14 months
 # We don't write down the "release" date since EoL is counted against Regular release channel, and release dates of a minor release are harder to track (and not helpful) for other release channels. Hence, releaseDateColumn is set to false.
@@ -29,30 +29,30 @@ releases:
     support: true
     latest: '{{ site.data.gke.channels.STABLE" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
-  # Uncomment when this releases around 2021-08
-  # - releaseCycle: "1.21 (static)"
-  #   eol: 2022-09-01
-  #   support: 2022-02-01
+  - releaseCycle: "1.22"
+    eol: 2023-04-01
+    support: 2023-02-01
+    latest: '{{ site.data.gke.versions["1.22"] }}'
+  - releaseCycle: "1.21"
+    eol: 2023-03-01
+    support: 2023-01-01
+    latest: '{{ site.data.gke.versions["1.21"] }}'
   - releaseCycle: "1.20"
     eol: 2022-08-01
     support: 2021-12-01
     latest: '{{ site.data.gke.versions["1.20"] }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.19"
     eol: 2022-06-01
     support: 2021-10-01
     latest: '{{ site.data.gke.versions["1.19"] }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.18"
     eol: 2022-03-01
     support: 2021-08-01
     latest: '{{ site.data.gke.versions["1.18"] }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
   - releaseCycle: "1.17"
     eol: 2021-11-01
     support: 2021-07-01
     latest: '{{ site.data.gke.versions["1.17"] }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:
