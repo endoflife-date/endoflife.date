@@ -211,8 +211,9 @@ or +1 (EoL is in the future)
 {% endif %}
 
 <div class="maincontent">{{content}}</div>
-
+{% if page.releasePolicyLink and page.releasePolicyLink != "" %}
 <p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>. </p>
+{% endif %}
 
 {% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
 
