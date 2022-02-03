@@ -1,0 +1,32 @@
+---
+title: Composer
+layout: post
+category: app
+sortReleasesBy: "releaseCycle"
+changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
+releases:
+  - releaseCycle: "2.2.x"
+    eol: 2023-12-12
+    support: false
+    release: 2021-12-22
+    latest: "2.2.5"
+    lts: true
+    link: https://blog.packagist.com/composer-2-2/
+  - releaseCycle: "2.x"
+    eol: false
+    support: true
+    release: 2020-10-24
+    latest: "2.2.5"
+    link: https://blog.packagist.com/composer-2-0-is-now-available/
+  - releaseCycle: "1.x"
+    release: 2016-04-05
+    latest: "1.10.25"
+    eol: 2020-10-24
+iconSlug: composer
+permalink: /composer
+activeSupportColumn: true
+releaseColumn: true
+releaseDateColumn: true
+command: composer --version
+---
+> [Composer](https://getcomposer.org/) is dependency manager for PHP projects.
