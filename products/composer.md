@@ -29,4 +29,7 @@ releaseColumn: true
 releaseDateColumn: true
 command: composer --version
 ---
-> [Composer](https://getcomposer.org/) is dependency manager for PHP projects.
+> [Composer](https://getcomposer.org/) is a package manager that is commonly used to manage libraries and other dependencies for PHP projects.
+
+While it still receives critical fixes from time to time, Composer 1 is mostly EOL and the developers urge everyone to switch to Composer 2.
+[Packagist](https://packagist.org/) (the main Composer repository) still supports Composer 1 metadata for now but [with a few caveats](https://blog.packagist.com/deprecating-composer-1-support/).
