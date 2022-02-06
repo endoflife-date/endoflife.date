@@ -9,14 +9,14 @@ releases:
     eol: 2023-12-12
     support: false
     release: 2021-12-22
-    latest: "2.2.5"
+    latest: "2.2.6"
     lts: true
     link: https://blog.packagist.com/composer-2-2/
   - releaseCycle: "2"
     eol: false
     support: true
     release: 2020-10-24
-    latest: "2.2.5"
+    latest: "2.2.6"
     link: https://blog.packagist.com/composer-2-0-is-now-available/
   - releaseCycle: "1.x"
     release: 2016-04-05
