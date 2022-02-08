@@ -52,13 +52,15 @@ layout: post
 category: os
 
 # What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/release/cycleShortHand
+# releaseCycle/eol/support/release/cycleShortHand/latest/latestShortHand
 # which must be present in the releases underneath
 sortReleasesBy: "releaseCycle"
 
 # Template to be used to generate a link for the release
 # __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
+# __CYCLE_SHORT_HAND__ will be replaced by the optional changelogTemplate
 # __LATEST__ will be replaced by the value of latest
+# __LATEST_SHORT_HAND__ will be replaced by the optional latestShortHand
 
 # You can even use Liquid Templating inside the template, such as:
 # https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
@@ -85,6 +87,8 @@ releases:
     latest: "1.2.3"
     # Can be true/false. Only use if discontinuedColumn is set to true
     discontinued: true
+    # Optional, can be used to sort releases, and as part of the changelogTemplate (__LATEST_SHORT_HAND__).
+    latestShortHand: "10203"
     # Optional, can be used to sort releases, and as part of the changelogTemplate (__CYCLE_SHORT_HAND__).
     # Useful for sorting because 1.2 comes after 1.10 in normal sorting, so using cycleShortHand values of 102, 110
     # makes sorting much easier
