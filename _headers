@@ -49,6 +49,6 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
   {% elsif page.permalink == '/docs/api' %}
   Content-Security-Policy: default-src 'none'; connect-src 'https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/
   {% else %}
-  Content-Security-Policy: default-src 'none'; connect-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' 'unsafe-inline; style-src 'self' 'unsafe-inline'; img-src 'self'
   {% endif %}
 {% endfor %}
