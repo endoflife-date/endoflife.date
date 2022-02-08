@@ -50,3 +50,12 @@ releases:
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.
 
 For LTS releases, such as Laravel 5.5 and 6.0, bug fixes are provided for 2 years and security fixes are provided for 3 years. These releases provide the longest window of support and maintenance. For general releases, bug fixes are provided for 6 months and security fixes are provided for 1 year. For all additional libraries, including Lumen, only the latest release receives bug fixes.
+
+## PHP Support
+
+Version | PHP
+--------|-----------
+6 (LTS) | 7.2 - 8.0
+7       | 7.2 - 8.0
+8       | 7.3 - 8.1
+9 (LTS) | 8.0 - 8.1
