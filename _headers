@@ -8,8 +8,8 @@ layout: null
   Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
-   default-src 'none'; connect-src 'self' https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml; img-src *; script-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'none'; connect-src 'self' https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml; img-src *; script-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/
 
 /api*
   Access-Control-Allow-Origin: *
