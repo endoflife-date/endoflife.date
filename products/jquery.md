@@ -31,14 +31,14 @@ The 1.x and 2.x branches no longer receive patches.
 
 ### Desktop
 
-| Browser               | Support Versions               |
-|-----------------------|--------------------------------|
-| Chrome                | Latest 2 major stable releases |
-| Edge                  | Latest 2 major stable releases |
-| Firefox               | Latest 2 major stable releases, [ESR](https://support.mozilla.org/kb/firefox-esr-release-cycle) |
-| Internet Explorer     | 9+                             |
-| Safari                | Latest 2 major stable releases      |
-| Opera                 | Latest stable version                        |
+| Browser           | Support Versions                                                                                |
+|-------------------|-------------------------------------------------------------------------------------------------|
+| Chrome            | Latest 2 major stable releases                                                                  |
+| Edge              | Latest 2 major stable releases                                                                  |
+| Firefox           | Latest 2 major stable releases, [ESR](https://support.mozilla.org/kb/firefox-esr-release-cycle) |
+| Internet Explorer | 9+                                                                                              |
+| Safari            | Latest 2 major stable releases                                                                  |
+| Opera             | Latest stable version                                                                           |
 
 ### Mobile
 
