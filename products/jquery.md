@@ -33,13 +33,12 @@ The 1.x and 2.x branches no longer receive patches.
 
 | Browser               | Support Versions               |
 |-----------------------|--------------------------------|
-| Chrome                | (Current - 1) and Current      |
-| Edge                  | (Current - 1) and Current      |
-| Firefox               | (Current - 1) and Current, ESR |
-| Chrome                | (Current - 1) and Current      |
+| Chrome                | Latest 2 major stable releases |
+| Edge                  | Latest 2 major stable releases |
+| Firefox               | Latest 2 major stable releases, [ESR](https://support.mozilla.org/kb/firefox-esr-release-cycle) |
 | Internet Explorer     | 9+                             |
-| Safari                | (Current - 1) and Current      |
-| Opera                 | Current                        |
+| Safari                | Latest 2 major stable releases      |
+| Opera                 | Latest stable version                        |
 
 ### Mobile
 
