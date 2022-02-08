@@ -3,24 +3,24 @@ title: Laravel
 layout: post
 permalink: /laravel
 category: framework
-releasePolicyLink: https://laravel.com/docs/8.x/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__/releases
 activeSupportColumn: true
 command: composer show laravel/framework|grep versions
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-#  - releaseCycle: "9.x"
-#    release: 2022-02-08
-#    support: 2024-02-08
-#    eol: 2025-02-08
-#    latest: 9.0.0
-#    lts: true
+  - releaseCycle: "9.x"
+    release: 2022-02-08
+    support: 2024-02-08
+    eol: 2025-02-08
+    latest: 9.0.0
+    lts: true
   - releaseCycle: "8.x"
     release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
-    latest: 8.82.0
+    latest: 8.83.0
     lts: false
   - releaseCycle: "7.x"
     release: 2020-03-03
@@ -50,3 +50,12 @@ releases:
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.
 
 For LTS releases, such as Laravel 5.5 and 6.0, bug fixes are provided for 2 years and security fixes are provided for 3 years. These releases provide the longest window of support and maintenance. For general releases, bug fixes are provided for 6 months and security fixes are provided for 1 year. For all additional libraries, including Lumen, only the latest release receives bug fixes.
+
+## PHP Support
+
+Version | PHP
+--------|-----------
+6 (LTS) | 7.2 - 8.0
+7       | 7.2 - 8.0
+8       | 7.3 - 8.1
+9 (LTS) | 8.0 - 8.1
