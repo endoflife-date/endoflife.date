@@ -41,3 +41,11 @@
   min-height: 1px;
   padding: 1.25rem;
 }
+
+body {
+  svg {
+    &:nth-of-type(1) {
+      display: none;
+    }
+  }
+}
