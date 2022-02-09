@@ -9,7 +9,7 @@ command: plasmashell -v
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
 category: os
-iconSlug: KDE
+iconSlug: kde
 eolColumn: Critical bug fixes
 releases:
   - releaseCycle: "5.18"
