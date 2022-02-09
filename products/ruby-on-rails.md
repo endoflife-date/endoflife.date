@@ -16,7 +16,7 @@ releases:
   - releaseCycle: "7.0"
     release: 2021-12-15
     eol: false
-    latest: "7.0.1"
+    latest: "7.0.2"
   - releaseCycle: "6.1"
     release: 2020-12-09
     eol: false
