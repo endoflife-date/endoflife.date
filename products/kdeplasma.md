@@ -39,6 +39,6 @@ releases:
 
 KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_5) for future bug fix releases and major releases. 
 
-## Cadence
+## Release Cadence
 * Plasma 5.24 (LTS) bug fix support will end once the first Plasma 6.0 feature release comes out.
 * Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_5#Bugfix_versions) (1, 1, 2, 3, 5) after each previous release of the same series.
