@@ -1,5 +1,7 @@
 ---
-permalink: /kdeplasma
+permalink: /kde-plasma
+alternate_urls:
+  - /kdeplasma
 title: KDE Plasma
 layout: post
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_5
