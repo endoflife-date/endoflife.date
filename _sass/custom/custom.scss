@@ -1,0 +1,51 @@
+// Overriding styles for some of our pages
+// This gets compiled into the final CSS
+// The file path comes from what the upstream allows:
+// https://pmarsceill.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles
+
+.maincontent {
+  >blockquote {
+    margin-left: 60px;
+  }
+  >p {
+    &:nth-of-type(1) {
+      clear: both;
+    }
+  }
+}
+.productlogo {
+  float: left;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.txt-linethrough {
+  text-decoration: line-through;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+body {
+  svg {
+    &:nth-of-type(1) {
+      display: none;
+    }
+  }
+}

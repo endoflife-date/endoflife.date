@@ -5,17 +5,55 @@ layout: null
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
+  # Generated using https://www.permissionspolicy.com/
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=() interest-cohort=()
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 /api*
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET
   Access-Control-Max-Age: 86400
 
 {% comment %}
-The following loop adds "Link" headers to point our product pages to the APIs
-programatically.
+The following loop runs for all "pages" in the website. This includes:
+
+- product pages
+- "website pages" (/, /recommendations, /docs/api)
+
+1. For all product pages, we add a "Link" header linking to the API and a CSP
+header that takes into account the images we might embed in the page.
+2. For non product pages, we add a much restrictive CSP
+3. For /docs/api, we add a CSP that allows Stoplight Elements to load correctly.
+
+For a rationale of all the CSP headers, please see https://github.com/endoflife-date/endoflife.date/wiki/CSP-Headers
+
 See Netlify's syntax: https://docs.netlify.com/routing/headers/
 {% endcomment %}
-{% for page in site.pages %}
-{{page.permalink}}
-  Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
+
+{% for page in site.html_pages %}
+{{page.url}}
+
+  {% comment %}
+    If it is a product page, add a link to the API page
+  {% endcomment %}
+
+  {% if page.releases %}
+    Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
+    {% assign imgsrc="'self' https://simpleicons.org/ " %}
+    {% comment %}
+      If we have a release image, set a CSP that includes it
+    {% endcomment %}
+    {% if page.releaseImage %}
+
+      {% assign imghost = page.releaseImage|parse_uri:'host' %}
+
+      {% assign imgsrc = imgsrc|append:'https://'|append:imghost %}
+    {% endif %}
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self'
+  {% elsif page.permalink == '/docs/api' %}
+  Content-Security-Policy: default-src 'none'; connect-src 'https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
+  {% else %}
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'
+  {% endif %}
 {% endfor %}

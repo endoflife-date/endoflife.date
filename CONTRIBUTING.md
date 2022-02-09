@@ -150,6 +150,10 @@ releaseImage: https://jkrowling.com/timeturner-releases.png
 # 3. Any additional information that may be of interest
 # See the Guiding Principles on the wiki (https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
 # on tone and voice for the text.
+
+# If you are adding any images in the text, they might get blocked due to our CSP
+# Prefer using releaseImage in such cases.
+# Images on the same website as releaseImage will not be blocked.
 ---
 > [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
 

@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.releaseImage %}
-<img src="{{page.releaseImage}}" />
+<img alt="Release Schedule Image Gantt Chart for {{page.title}}" src="{{page.releaseImage}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
@@ -166,48 +166,10 @@ or +1 (EoL is in the future)
 {% endfor %}
 </table>
 
-<style>
-/* TODO:  Move these styles to proper SCSS */
-.maincontent>blockquote {
-  margin-left: 60px;
-}
-.productlogo {
-  float: left;
-}
-.maincontent>p:nth-of-type(1) {
-  clear:  both;
-}
-.bg-light {
-  background-color: #f8f9fa !important;
-}
-.txt-linethrough {
-  text-decoration:line-through;
- }
-.card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-}
-</style>
-
 {% if page.iconSlug and page.iconSlug != "NA" %}
-<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
 {% elsif page.iconSlug != "NA" %}
-<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
 <div class="maincontent">{{content}}</div>
