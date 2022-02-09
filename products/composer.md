@@ -6,7 +6,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 releases:
   - releaseCycle: "2.2"
-    eol: 2023-12-12
+    eol: 2023-12-31
     support: false
     release: 2021-12-22
     latest: "2.2.6"
