@@ -16,3 +16,4 @@ jobs:
         with:
           urls: |
             ${{ steps.netlify.outputs.url }}/django
+          uploadArtifacts: true
