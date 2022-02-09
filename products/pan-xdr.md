@@ -59,6 +59,9 @@ releases:
   - releaseCycle: "7.5 (Cortex XDR agent)"
     eol: 2022-08-22
     release: 2021-08-22
+  - releaseCycle: "7.5 CE (Cortex XDR agent)"
+    eol: 2024-03-06
+    release: 2022-03-06
   - releaseCycle: "7.6 (Cortex XDR agent)"
     eol: 2022-08-05
     release: 2021-12-05
