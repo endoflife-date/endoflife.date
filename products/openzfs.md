@@ -46,7 +46,7 @@ releases:
 - [RHEL-based distributions](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
 - [FreeBSD](https://openzfs.github.io/openzfs-docs/Getting%20Started/FreeBSD.html)
 
-These distributions have repositories provided directly by the OpenZFS community, while other distributions likely will work, they are not frequently tested and may exhibit issues, especially Ubuntu due to their HWE kernel pulling in patches from newer kernels and still claiming the kernel is from an older branch. [Ubuntu is not supported by OpenZFS](https://github.com/openzfs/zfs/issues/10333).
+These distributions have repositories provided directly by the OpenZFS community, while other distributions likely will work, they are not frequently tested and may exhibit issues, especially Ubuntu due to their HWE kernel pulling in patches from newer kernels and still claiming the kernel is from an older branch. [Ubuntu is not supported by OpenZFS](https://github.com/openzfs/zfs/issues/10333), issues on Ubuntu should first be reported [to Ubuntu's bug tracker for ZFS](https://bugs.launchpad.net/ubuntu/+source/zfs-linux).
 
 [Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
 
