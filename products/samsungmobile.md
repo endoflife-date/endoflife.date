@@ -922,10 +922,6 @@ releases:
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. 
 
-
-Some dates are based on when support status was changed on the Samsung website - they might be approximate.
-
-
 # Security brackets
 
 Samsung devices usually have four support brackets in which a device receives support. Which bracket your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
@@ -936,3 +932,4 @@ Samsung devices usually have four support brackets in which a device receives su
 
 * **Biannual Security Updates**: This bracket provides a device with biannual security update. This bracket takes over once quarterly updates have ended, it usually lasts an an additional year, or until four years have passed since the device has been released. 
 
+**Note**: Some dates are based on when support status was changed on the Samsung website - they might be approximate.
