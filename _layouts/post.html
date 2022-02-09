@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.releaseImage %}
-<img src="{{page.releaseImage}}" />
+<img alt="Release Schedule Image Gantt Chart for {{page.title}}" src="{{page.releaseImage}}" />
 {% endif %}
 
 {% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
@@ -167,9 +167,9 @@ or +1 (EoL is in the future)
 </table>
 
 {% if page.iconSlug and page.iconSlug != "NA" %}
-<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
 {% elsif page.iconSlug != "NA" %}
-<img class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
 <div class="maincontent">{{content}}</div>
