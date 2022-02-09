@@ -922,6 +922,10 @@ releases:
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. 
 
+
+Some dates are based on when support status was changed on the Samsung website - they might be approximate.
+
+
 # Security brackets
 
 Samsung devices usually have four support brackets in which a device receives support. Which bracket your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
