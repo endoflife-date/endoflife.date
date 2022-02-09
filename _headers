@@ -26,6 +26,8 @@ header that takes into account the images we might embed in the page.
 2. For non product pages, we add a much restrictive CSP
 3. For /docs/api, we add a CSP that allows Stoplight Elements to load correctly.
 
+For a rationale of all the CSP headers, please see https://github.com/endoflife-date/endoflife.date/wiki/CSP-Headers
+
 See Netlify's syntax: https://docs.netlify.com/routing/headers/
 {% endcomment %}
 
@@ -45,10 +47,10 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
     {% if page.releaseImage %}
       {% assign imgsrc =imgsrc|append:page.releaseImage %}
     {% endif %}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self' 'unsafe-inline'
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self'
   {% elsif page.permalink == '/docs/api' %}
-  Content-Security-Policy: default-src 'none'; connect-src 'https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' 'unsafe-inline' https://unpkg.com/@stoplight/elements/
+  Content-Security-Policy: default-src 'none'; connect-src 'https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
-  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'
   {% endif %}
 {% endfor %}
