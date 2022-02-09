@@ -12,6 +12,8 @@ command: httpd -v
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+timelineImage:
+  start: 2018-01-01
 releases:
   - releaseCycle: "2.4"
     release: 2012-02-21

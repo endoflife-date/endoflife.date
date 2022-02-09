@@ -5,7 +5,6 @@ alternate_urls:
   - /androidos
 layout: post
 permalink: /android
-category: device
 releasePolicyLink: https://developer.android.com/about/versions
 category: os
 activeSupportColumn: false
@@ -13,6 +12,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
 sortReleasesBy: 'release'
+timelineImage: false
 releases:
   - releaseCycle: Snow Cone (Android 12)
     release: 2021-10-04

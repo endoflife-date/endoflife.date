@@ -2,6 +2,7 @@
 title: Google Kubernetes Engine
 layout: post
 category: service
+timelineImage: false
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 # EoL is support + 3 months, but only for static releases

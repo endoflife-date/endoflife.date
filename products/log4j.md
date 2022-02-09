@@ -10,6 +10,7 @@ releaseDateColumn: true
 iconSlug: apache
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
+releaseImage: false
 releases:
   - releaseCycle: "2.x"
     cycleShortHand: 299

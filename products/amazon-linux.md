@@ -12,7 +12,7 @@ releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
   - releaseCycle: 'Amazon Linux AMI'
-    release: "2010-09-14"
+    release: 2010-09-14
     eol: 2020-12-31
     latest: "2018.03"
   - releaseCycle: 'Amazon Linux 2'

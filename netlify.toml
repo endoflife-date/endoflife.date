@@ -1,6 +1,10 @@
 [build]
   command = """
   rake gke
+  cd _plugins
+  npm install
+  node timeline.js
+  cd ..
   jekyll build
   """
   publish = "_site/"

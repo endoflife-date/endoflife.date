@@ -10,7 +10,7 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
-
+timelineImage: false
 releases:
   - releaseCycle: "5"
     release: 2021-11-30

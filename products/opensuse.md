@@ -13,13 +13,13 @@ changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/_
 releases:
   - releaseCycle: "openSUSE Leap 15.3"
     release: 2021-06-02
-    support: 2022-12-1
-    eol: 2022-12-1
+    support: 2022-12-01
+    eol: 2022-12-01
     cycleShortHand: 15.3
   - releaseCycle: "openSUSE Leap 15.2"
     release: 2020-07-02
-    support: 2021-12-1
-    eol: 2021-12-1
+    support: 2021-12-01
+    eol: 2021-12-01
     cycleShortHand: 15.2
   - releaseCycle: "openSUSE Leap 15.1"
     release: 2019-05-22
@@ -38,7 +38,7 @@ releases:
     support: 2018-01-26
     eol: 2018-01-26
   - releaseCycle: "openSUSE Leap 42.1"
-    release: 2015-11-4
+    release: 2015-11-04
     support: 2017-05-17
     eol: 2017-05-17
   - releaseCycle: "openSUSE 13.2"

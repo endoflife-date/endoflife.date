@@ -1,10 +1,10 @@
 ---
 title: Amazon Kindle
 layout: post
-category: os
 iconSlug: amazon
 category: device
 sortReleasesBy: "release"
+timelineImage: false
 releases:
   - releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
     release: 2021-10-27

@@ -10,7 +10,7 @@ eolColumn: Supported
 iconSlug: NA
 permalink: /cfengine
 releasePolicyLink: https://cfengine.com
-
+timelineImage: false
 releases:
   - releaseCycle: "3.19"
     release: 2021-12-10

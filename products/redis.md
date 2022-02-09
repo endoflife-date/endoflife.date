@@ -9,6 +9,7 @@ activeSupportColumn: false
 command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
+timelineImage: false
 releases:
   - releaseCycle: "6.2"
     eol: false

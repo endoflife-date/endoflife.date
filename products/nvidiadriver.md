@@ -61,8 +61,8 @@ releases:
     cycleShortHand: 6
 
   - releaseCycle: "R460-Linux (PB)"
-    release: 2021-1-7
-    support: 2021-7-19
+    release: 2021-01-07
+    support: 2021-07-19
     eol: 2022-01-01
     latest: "460.91.03"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
@@ -77,7 +77,7 @@ releases:
     cycleShortHand: 8
 
   - releaseCycle: "R470-Linux (LTSB)"
-    release: 2021-7-19
+    release: 2021-07-19
     support: 2021-10-26
     eol: 2024-09-01
     latest: "470.94"
