@@ -493,7 +493,7 @@ releases:
   - releaseCycle: "Galaxy Note 8"
     release: 2017-09-01 #Unclear release date
     support: false 
-    eol: false
+    eol: 2021-11-17
     
 
 
@@ -527,7 +527,7 @@ releases:
   - releaseCycle: "Galaxy S8 Active"
     release: 2017-08-01 #Unclear date
     support: false 
-    eol: false
+    eol: 2021-11-17
     
 
 
@@ -539,7 +539,7 @@ releases:
   - releaseCycle: "Galaxy A8 (2018) Enterprise"
     release: 2018-01-01 #Unclear date
     support: false 
-    eol: false
+    eol: 2021-12-31
     
 
 
@@ -589,7 +589,7 @@ releases:
   - releaseCycle: "Galaxy Tab Active 2"
     release: 2017-10-20
     support: false 
-    eol: false
+    eol: 2021-11-17
     
 
 
@@ -654,7 +654,7 @@ releases:
   - releaseCycle: "Galaxy View2"
     release: 2019-04-01 #Unclear
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
@@ -675,14 +675,14 @@ releases:
   - releaseCycle: "Galaxy Tab E 8.0"
     release: 2016-01-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-11-17
 
 
 
   - releaseCycle: "Galaxy Tab A 8.0 with S Pen (2019)"
     release: 2019-04-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-11-17
 
 
 
@@ -696,7 +696,7 @@ releases:
   - releaseCycle: "Galaxy Tab A 8.0 (2019)"
     release: 2019-07-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-11-17
 
 
 
@@ -710,7 +710,7 @@ releases:
   - releaseCycle: "Galaxy Tab A 8.0 (2017)"
     release: 2017-09-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-11-17
 
 
 
@@ -724,21 +724,21 @@ releases:
   - releaseCycle: "Galaxy J7+"
     release: 2017-09-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-11-17
 
 
 
   - releaseCycle: "Galaxy J7 Top"
     release: 2018-07-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
   - releaseCycle: "Galaxy J7 Prime 2"
     release: 2018-04-01 #Unclear 
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
@@ -746,7 +746,6 @@ releases:
     release: 2018-04-01 #Unclear 
     support: false 
     eol: false
-
 
 
   - releaseCycle: "Galaxy J6+"
@@ -787,14 +786,14 @@ releases:
   - releaseCycle: "Galaxy J3"
     release: 2018-06-01 #Unclear
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
   - releaseCycle: "Galaxy J2 Core"
     release: 2018-08-01 #Unclear
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
@@ -885,7 +884,7 @@ releases:
   - releaseCycle: "Galaxy A8+"
     release: 2018-01-01 #Unclear
     support: false 
-    eol: false
+    eol: 2021-12-31
 
 
 
@@ -933,3 +932,4 @@ Samsung devices usually have four support brackets in which a device receives su
 
 * **Biannual Security Updates**: This bracket provides a device with biannual security update. This bracket takes over once quarterly updates have ended, it usually lasts an an additional year, or until four years have passed since the device has been released. 
 
+**Note**: Some dates are based on when support status was changed on the Samsung website - they might be approximate.
