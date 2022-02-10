@@ -703,7 +703,7 @@ releases:
   - releaseCycle: "Galaxy Tab A 10.5 (2018)"
     release: 2018-08-01 #Unclear 
     support: false 
-    eol: 2021-11-17
+    eol: false
 
 
 
