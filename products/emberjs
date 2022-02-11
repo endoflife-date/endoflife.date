@@ -10,17 +10,19 @@ changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__RELEASE_C
 activeSupportColumn: true
 releaseDateColumn: true
 releases:
-  - releaseCycle: "4.2"
-    release: 2021-12-20
-    support: 2022-08-29
-    eol: 2023-01-02
-    latest: "4.2.0"
-  - releaseCycle: "3.28 LTS"
+  - releaseCycle: "4.x"
+    release: 2021-12-28
+    support: true
+    eol: false
+    latest: "4.1.0"
+  - releaseCycle: "3.28"
+    lts: true
     release: 2021-12-20
     support: 2022-08-29
     eol: 2023-01-02
     latest: "3.28.8"
-  - releaseCycle: "3.24 LTS"
+  - releaseCycle: "3.24"
+    lts: true
     release: 2021-02-25
     support: 2021-10-04
     eol: 2022-03-10
