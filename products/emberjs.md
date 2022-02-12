@@ -31,5 +31,3 @@ releases:
 ---
 
 > [Ember](https://emberjs.com) is an open-source JavaScript web framework.
-
-See <https://emberjs.com/releases/> for current documentation on their release cycle, long term support (LTS), and versioning strategy.
