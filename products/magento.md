@@ -15,25 +15,29 @@ releases:
     release: 2020-07-28
     eol: 2022-11-30
     support: 2022-11-30
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-3.html
     latest: "2.4.3-p1"
   - releaseCycle: "2.4.2"
     cycleShortHand: 2
     release: 2020-07-28
     eol: 2022-11-30
     support: 2022-11-30
-    latest: "2.4.3-p1"
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-2.html
+    latest: "2.4.2-p2"
   - releaseCycle: "2.4.1"
     cycleShortHand: 2
     release: 2020-07-28
     eol: 2022-11-30
     support: 2022-11-30
-    latest: "2.4.3-p1"
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html
+    latest: "2.4.1"
   - releaseCycle: "2.4.0"
     cycleShortHand: 2
     release: 2020-07-28
     eol: 2022-11-30
     support: 2022-11-30
-    latest: "2.4.3-p1"
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
+    latest: "2.4.0"
   - releaseCycle: "2.3"
     cycleShortHand: 2
     release: 2018-11-28
