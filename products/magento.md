@@ -19,8 +19,8 @@ releases:
   - releaseCycle: "2.3"
     cycleShortHand: 2
     release: 2018-11-28
-    eol: 2022-07-31
-    support: 2022-09-30
+    eol: 2022-09-30
+    support: 2022-07-31
     latest: "2.3.7-p2"
   - releaseCycle: "2.2"
     cycleShortHand: 2
