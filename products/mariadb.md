@@ -15,7 +15,7 @@ releases:
     release: 2022-02-14
     eol: 2023-02-14
     latest: "10.7.3"
-    latestShortHand: "1065"
+    latestShortHand: "1073"
   - releaseCycle: "10.6"
     release: 2021-07-06
     eol: 2026-07-06
