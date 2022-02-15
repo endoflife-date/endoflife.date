@@ -43,6 +43,7 @@ releases:
     release: 2018-11-28
     eol: 2022-09-30
     support: 2022-07-31
+    link: https://devdocs.magento.com/guides/v2.3/release-notes/2-3-7-p2.html
     latest: "2.3.7-p2"
   - releaseCycle: "2.2"
     cycleShortHand: 2
