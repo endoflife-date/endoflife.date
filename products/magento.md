@@ -10,7 +10,25 @@ command: php bin/magento --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: "2.4.0-2.4.3"
+  - releaseCycle: "2.4.3"
+    cycleShortHand: 2
+    release: 2020-07-28
+    eol: 2022-11-30
+    support: 2022-11-30
+    latest: "2.4.3-p1"
+  - releaseCycle: "2.4.2"
+    cycleShortHand: 2
+    release: 2020-07-28
+    eol: 2022-11-30
+    support: 2022-11-30
+    latest: "2.4.3-p1"
+  - releaseCycle: "2.4.1"
+    cycleShortHand: 2
+    release: 2020-07-28
+    eol: 2022-11-30
+    support: 2022-11-30
+    latest: "2.4.3-p1"
+  - releaseCycle: "2.4.0"
     cycleShortHand: 2
     release: 2020-07-28
     eol: 2022-11-30
