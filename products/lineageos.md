@@ -27,3 +27,5 @@ discontinuedColumn: false
 > [LineageOS](https://lineageos.org/) is a mobile operating system based on Android 
 
 LineageOS maintains two versions at the same time. Devices that are not ported to one of the two latest versions stop being supported. A list of supported devices is available at the [LineageOS Wiki](https://wiki.lineageos.org/devices/).
+
+The 16.0 branch still gets security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions.
