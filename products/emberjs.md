@@ -2,11 +2,13 @@
 title: Ember
 permalink: /emberjs
 iconSlug: emberdotjs
+alternate_urls:
+  - /ember
 layout: post
 category: framework
 sortReleasesBy: 'releaseCycle'
 releasePolicyLink: https://emberjs.com/releases
-changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__RELEASE_CYCLE__
+changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 releases:
@@ -30,7 +32,7 @@ releases:
 
 ---
 
-> [Ember](https://emberjs.com) is an open-source JavaScript web framework.
+> [Ember](https://emberjs.com) is an open-source JavaScript web framework for building modern web applications.
 
 Ember follows [Semantic Versioning](http://semver.org/). The Ember team aims to ship new features in minor releases, and make major releases as rare as possible. A minor release is published about once every six weeks. 
 
