@@ -61,12 +61,11 @@ releases:
 
 ---
 
-API Platform is a full stack framework dedicated to API-driven projects and implementing the Jamstack architecture.
+> [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven projects and implementing the Jamstack architecture.
 
-New versions are released “when they are ready”.
-The release process follows the Semantic Versioning strategy. Besides the development branch, two versions are maintained:
+New versions are released "when they are ready". Releases follow [Semantic Versioning](https://semver.org/). Besides the development branch, two versions are maintained:
 
 - the latest version is actively supported with regular bug fixes;
 - the previous version is supported for security maintenance only.
 
-The older versions are not maintained.
+Versions older than the latest two are not maintained.
