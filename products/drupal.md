@@ -45,7 +45,7 @@ releases:
   - releaseCycle: "7"
     release: 2011-01-05
     support: 2015-11-19
-    eol:     2022-11-28
+    eol:     2023-11-01
     latest:  "7.88"
     lts: true
 ---
@@ -64,4 +64,4 @@ Releases are fully supported for 2 minor versions from initial stable release. D
 
 **Drupal 8.x** [is EOL](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
 
-**Drupal 7** will receive security patches [until November 2022](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
+**Drupal 7** will receive security patches [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
