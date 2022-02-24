@@ -18,11 +18,11 @@ releases:
   - releaseCycle: "17"
     eol: false
     release: 2022-02-01
-    latest: "17.0.1"
+    latest: "17.1.0"
   - releaseCycle: "16"
     eol: false
     release: 2021-11-16
-    latest: "16.0.9"
+    latest: "16.0.10"
   - releaseCycle: "15"
     eol: false
     release: 2021-09-22
