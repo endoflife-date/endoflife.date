@@ -10,40 +10,40 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: "11"
+  - releaseCycle: "11 (bullseye)"
     cycleShortHand: "Bullseye"
     release: 2021-08-14
     eol: 2026-08-15
     latest: "11.2"
     link: https://www.debian.org/News/2021/20211218
-  - releaseCycle: "10"
+  - releaseCycle: "10 (buster)"
     cycleShortHand: "Buster"
     release: 2019-07-06
     eol: 2024-06-01
     latest: "10.11"
     link: https://www.debian.org/News/2021/2021100902
-  - releaseCycle: "9"
+  - releaseCycle: "9 (stretch)"
     cycleShortHand: "Stretch"
     release: 2017-06-17
     eol: 2022-06-30
     lts: true
     latest: "9.13"
     link: https://lists.debian.org/debian-announce/2020/msg00004.html
-  - releaseCycle: "8"
+  - releaseCycle: "8 (jessie)"
     cycleShortHand: "Jessie"
     release: 2015-04-26
     eol: 2020-06-30
     lts: true
     latest: "8.11"
     link: https://www.debian.org/News/2015/20150426
-  - releaseCycle: "7"
+  - releaseCycle: "7 (wheezy)"
     cycleShortHand: "Wheezy"
     release: 2013-05-04
     eol: 2018-05-31
     lts: true
     latest: "7.11"
     link: https://www.debian.org/News/2013/20130504
-  - releaseCycle: "6"
+  - releaseCycle: "6 (squeeze)"
     cycleShortHand: "Squeeze"
     release: 2011-02-06
     eol: 2016-02-29
