@@ -99,7 +99,7 @@ Linux Mint releases follows [the support cycle](https://linuxmint.com/download_a
 ## Ubuntu Package Support
 
 * Linux Mint has its own repositories for Linux Mint specific packages, but relies directly on Ubuntu repositories for the majority of the package base, including its mirrors. 
-* Linux Mint enables the `Universe` Ubuntu repository by default, unlike Ubuntu which leaves this disabled as it is [maintained by the Ubuntu Community](https://wiki.ubuntu.com/SecurityTeam/FAQ#How_are_components_and_pockets_used_in_the_builds.2C_and_how_do_they_affect_security_updates.3F), and not the Ubuntu security team. Due to this [it may not receive timely security updates](https://help.ubuntu.com/community/Repositories#Universe).
+* Packages installed from the `universe` repository are maintained by the community and [they may not receive timely security updates](https://help.ubuntu.com/community/Repositories#Universe).
 
 ## Feature Support
 
