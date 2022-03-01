@@ -7,6 +7,7 @@ releasePolicyLink: https://www.elastic.co/support/eol
 changelogTemplate: https://www.elastic.co/guide/en/elasticsearch/reference/__RELEASE_CYCLE__/release-notes-__LATEST__.html
 activeSupportColumn: false
 command: $ES_HOME/bin/elasticsearch -v
+releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
 # The dates below will not match the Elastic website. See #883 for more details
