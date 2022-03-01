@@ -11,20 +11,21 @@ releaseDateColumn: true
 eolColumn: Core Support
 sortReleasesBy: "releaseCycle"
 command: writeoutput(server.coldfusion.productversion);
+releaseLabel: "ColdFusion __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "ColdFusion 2021"
+  - releaseCycle: "2021"
     eol: 2025-11-10
     release: 2020-11-11
-  - releaseCycle: "ColdFusion 2018"
+  - releaseCycle: "2018"
     eol: 2023-07-13
     release: 2018-07-12
-  - releaseCycle: "ColdFusion 2016"
+  - releaseCycle: "2016"
     eol: 2021-02-17
     release: 2016-02-16
-  - releaseCycle: "ColdFusion 11"
+  - releaseCycle: "11"
     eol: 2019-04-30
     release: 2014-04-29
-  - releaseCycle: "ColdFusion 10"
+  - releaseCycle: "10"
     eol: 2017-05-16
     release: 2012-05-15
 ---

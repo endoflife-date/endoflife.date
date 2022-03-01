@@ -11,12 +11,12 @@ iconSlug: apache
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 releases:
-  - releaseCycle: "2.x"
+  - releaseCycle: "2"
     cycleShortHand: 299
     release:  2014-07-12
     eol: false
     latest: "2.17.1"
-  - releaseCycle: "2.12.x"
+  - releaseCycle: "2.12"
     cycleShortHand: 212
     release: 2019-06-23
     eol: 2021-12-14

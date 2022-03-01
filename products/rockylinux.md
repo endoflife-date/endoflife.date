@@ -13,8 +13,9 @@ releasePolicyLink: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
+releaseLabel: "Rocky Linux __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "Rocky Linux 8"
+  - releaseCycle: "8"
     release: 2021-06-21
     support: 2024-05-31
     eol: 2029-05-31

@@ -6,47 +6,54 @@ sortReleasesBy: "cycleShortHand"
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 iconSlug: NA
-
+releaseLabel:
 releases:
-#  - releaseCycle: "3.5 'kirkstone'"
+#  - releaseCycle: "3.5"
+#    codename: 'kirkstone'
 #    cycleShortHand: 305
 #    lts: true
 #    latest: "3.5.0"
 #    release: 2022-04-01
 #    eol:     2024-04-01
 #
-  - releaseCycle: "3.4 'honister'"
+  - releaseCycle: "3.4"
+    codename:  'honister'
     cycleShortHand: 304
     latest: "3.4.1"
     release: 2021-10-25
     eol:     2022-05-01
 
-  - releaseCycle: "3.3 'hardknott'"
+  - releaseCycle: "3.3"
+    codename:  'hardknott'
     cycleShortHand: 303
     latest: "3.3.4"
     release: 2021-04-01
     eol:     2021-11-01
 
-  - releaseCycle: "3.2 'gatesgarth'"
+  - releaseCycle: "3.2"
+    codename:  'gatesgarth'
     cycleShortHand: 302
     latest: "3.2.4"
     release: 2020-10-01
     eol:     2021-05-01
 
-  - releaseCycle: "3.1 'dunfell'"
+  - releaseCycle: "3.1"
+    codename:  'dunfell'
     cycleShortHand: 301
     lts: true
     latest: "3.1.12"
     release: 2020-04-01
     eol:     2024-04-01
 
-  - releaseCycle: "3.0 'zeus'"
+  - releaseCycle: "3.0"
+    codename:  'zeus'
     cycleShortHand: 300
     latest: "3.0.4"
     release: 2019-10-01
     eol:     2020-08-01
 
-  - releaseCycle: "2.7 'warrior'"
+  - releaseCycle: "2.7"
+    codename:  'warrior'
     cycleShortHand: 207
     latest: "2.7.4"
     release: 2019-04-01

@@ -7,7 +7,7 @@ releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
-ltsLabel: ESR
+LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 sortReleasesBy: 'release'

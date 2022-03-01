@@ -10,9 +10,11 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
-command: nvidia-smi 
+command: nvidia-smi
+LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
-  - releaseCycle: "R390-Linux (LTSB)"
+  - releaseCycle: "R390-Linux"
+    lts: true
     release: 2018-01-04
     support: 2018-03-10
     eol: 2022-12-31
@@ -20,7 +22,8 @@ releases:
     link: https://www.nvidia.com/Download/driverResults.aspx/184603
     cycleShortHand: 1
 
-  - releaseCycle: "R390-Windows (LTSB)"
+  - releaseCycle: "R390-Windows"
+    lts: true
     release: 2018-01-08
     support: 2018-07-31
     eol: 2022-12-31
@@ -28,7 +31,8 @@ releases:
     link: https://www.nvidia.com/download/driverResults.aspx/181267
     cycleShortHand: 2
 
-  - releaseCycle: "R418-Linux (LTSB)"
+  - releaseCycle: "R418-Linux"
+    lts: true
     release: 2019-01-30
     support: 2019-03-20
     eol: 2022-03-01
@@ -36,7 +40,8 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 3
     
-  - releaseCycle: "R418-Windows (LTSB)"
+  - releaseCycle: "R418-Windows"
+    lts: true
     release: 2019-02-04
     support: 2019-04-23
     eol: 2022-03-01
@@ -44,7 +49,8 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
     cycleShortHand: 4
 
-  - releaseCycle: "R450-Linux (LTSB)"
+  - releaseCycle: "R450-Linux"
+    lts: true
     release: 2020-06-24
     support: 2020-10-7
     eol: 2023-07-01
@@ -52,7 +58,8 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
     cycleShortHand: 5
     
-  - releaseCycle: "R450-Windows (LTSB)"
+  - releaseCycle: "R450-Windows"
+    lts: true
     release: 2020-06-24
     support: 2020-12-15
     eol: 2023-07-01
@@ -76,7 +83,8 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     cycleShortHand: 8
 
-  - releaseCycle: "R470-Linux (LTSB)"
+  - releaseCycle: "R470-Linux"
+    lts: true
     release: 2021-7-19
     support: 2021-10-26
     eol: 2024-09-01
@@ -84,7 +92,8 @@ releases:
     link: https://www.nvidia.com/Download/driverResults.aspx/184163
     cycleShortHand: 9
     
-  - releaseCycle: "R470-Windows (LTSB)"
+  - releaseCycle: "R470-Windows"
+    lts: true
     release: 2021-06-22
     support: 2021-09-20
     eol: 2024-09-01
@@ -133,7 +142,7 @@ GPUs supported by any given branch is dependent on the operating system.
 
 The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
 
-|   | New Feature Branch (NFB) | Production Branch (PB) | Long Term Support Branch (LTSB) |
+|   | New Feature Branch (NFB) | Production Branch (PB) | Long Term Support Branch|
 |---|---|---|---|
 | Target Customers | Early adopters who want to evaluate new features | Use in production for enterprise/datacenter GPUs | Use in production for enterprise/datacenter GPUs and for customers looking for a longer cycle of support.  |
 | Major Release Cadence | At least once every 3 months | Twice a year. | At least once per hardware architecture. |

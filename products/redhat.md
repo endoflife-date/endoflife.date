@@ -13,26 +13,27 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'release'
+releaseLabel: "RHEL __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "RHEL 8"
+  - releaseCycle: "8"
     release: 2019-05-01
     support: 2024-05-31
     eol: 2029-05-31
     latest: "8.5"
-  - releaseCycle: "RHEL 7"
+  - releaseCycle: "7"
     release: 2014-06-10
     support: 2019-12-31
     eol: 2024-06-30
     latest: "7.9"
-  - releaseCycle: "RHEL 6"
+  - releaseCycle: "6"
     release: 2010-11-10
     support: 2016-05-10
     eol: 2020-11-30
-  - releaseCycle: "RHEL 5"
+  - releaseCycle: "5"
     release: 2007-03-15
     support: 2013-01-08
     eol: 2017-03-31
-  - releaseCycle: "RHEL 4"
+  - releaseCycle: "4"
     release: 2005-02-14
     support: 2009-03-31
     eol: 2012-02-29

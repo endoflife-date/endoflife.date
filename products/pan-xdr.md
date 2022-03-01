@@ -41,28 +41,28 @@ releases:
   - releaseCycle: "6.1"
     eol: 2022-07-01
     release: 2019-07-02
-  - releaseCycle: "7.0 (Cortex XDR agent)"
+  - releaseCycle: "7.0"
     eol: 2021-06-04
     release: 2019-12-04
-  - releaseCycle: "7.1 (Cortex XDR agent)"
+  - releaseCycle: "7.1"
     eol: 2021-06-04
     release: 2020-04-22
-  - releaseCycle: "7.2 (Cortex XDR agent)"
+  - releaseCycle: "7.2"
     eol: 2022-03-07
     release: 2020-09-07
-  - releaseCycle: "7.3 (Cortex XDR agent)"
+  - releaseCycle: "7.3"
     eol: 2022-02-01
     release: 2021-02-01
-  - releaseCycle: "7.4 (Cortex XDR agent)"
+  - releaseCycle: "7.4"
     eol: 2022-05-24
     release: 2021-05-24
-  - releaseCycle: "7.5 (Cortex XDR agent)"
+  - releaseCycle: "7.5"
     eol: 2022-08-22
     release: 2021-08-22
-  - releaseCycle: "7.5 CE (Cortex XDR agent)"
+  - releaseCycle: "7.5 CE"
     eol: 2024-03-06
     release: 2022-03-06
-  - releaseCycle: "7.6 (Cortex XDR agent)"
+  - releaseCycle: "7.6"
     eol: 2022-08-05
     release: 2021-12-05
 ---

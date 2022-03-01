@@ -46,7 +46,7 @@ or +1 (EoL is in the future)
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
 {% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename}}{% if r.lts %} ({{LTSLabel}}){% endif %}{% endcapture %}
+{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% if r.lts %} ({{LTSLabel}}){% endif %}{% endcapture %}
 
 {% capture releaseLink %}
 {% if r.link and diff > 0 %}

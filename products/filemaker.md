@@ -9,44 +9,45 @@ activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
 sortReleasesBy: 'release'
+releaseLabel: 'Filemaker Platform __RELEASE_CYCLE__'
 releases:
-  - releaseCycle: "FileMaker Platform 19"
+  - releaseCycle: "19"
     release: 2020-05-01
     eol: false
-  - releaseCycle: "FileMaker Platform 18"
+  - releaseCycle: "18"
     release: 2019-05-01
     eol: 2021-05-30
-  - releaseCycle: "FileMaker Platform 17"
+  - releaseCycle: "17"
     release: 2018-05-01
     eol: 2020-09-18
-  - releaseCycle: "FileMaker Platform 16"
+  - releaseCycle: "16"
     release: 2017-05-01
     eol: 2020-09-18
-  - releaseCycle: "FileMaker Platform 15"
+  - releaseCycle: "15"
     release: 2016-05-01
     eol: 2019-09-20
-  - releaseCycle: "FileMaker Platform 14"
+  - releaseCycle: "14"
     release: 2015-05-01
     eol: 2018-09-21
-  - releaseCycle: "FileMaker Platform 13"
+  - releaseCycle: "13"
     release: 2013-12-01
     eol: 2017-09-22
-  - releaseCycle: "FileMaker Platform 12"
+  - releaseCycle: "12"
     release: 2012-04-01
     eol: 2016-09-23
-  - releaseCycle: "FileMaker Platform 11"
+  - releaseCycle: "11"
     release: 2010-03-01
     eol: 2015-09-25
-  - releaseCycle: "FileMaker Platform 10"
+  - releaseCycle: "10"
     release: 2009-01-01
     eol: 2014-09-27
-  - releaseCycle: "FileMaker Platform 9"
+  - releaseCycle: "9"
     release: 2007-07-01
     eol: 2011-11-15
-  - releaseCycle: "FileMaker Platform 8"
+  - releaseCycle: "8"
     release: 2005-08-01
     eol: 2010-09-23
-  - releaseCycle: "FileMaker Platform 7"
+  - releaseCycle: "7"
     release: 2004-03-01
     eol: 2008-09-26
 ---
