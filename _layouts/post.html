@@ -39,17 +39,20 @@ or +1 (EoL is in the future)
 {% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
 {% endif %}
 
-
 {% assign diffSupport = support | minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
 {% assign latestVersionNumber = r.latest | liquify %}
-{% capture releaseCycleText %}{{r.releaseCycle}}{% if r.lts %} (LTS){% endif %}{% endcapture %}
+{% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
+
+{% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
+{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename}}{% if r.lts %} ({{LTSLabel}}){% endif %}{% endcapture %}
+
 {% capture releaseLink %}
 {% if r.link and diff > 0 %}
 {{r.link}}
 {% elsif page.changelogTemplate and diff > 0 %}
-{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand }}
+{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename}}
 {% endif %}
 {% endcapture %}
 {% assign releaseLink = releaseLink | liquify | strip %}
@@ -59,7 +62,7 @@ or +1 (EoL is in the future)
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
     {% if releaseLink != "" and page.releaseColumn == false %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{releaseCycleText}}</a>
+      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText}}">{{releaseCycleText}}</a>
     {% else %}
       {{releaseCycleText}}
     {% endif %}
