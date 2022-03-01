@@ -168,8 +168,9 @@ releases:
 
 > Elasticsearch is a search engine that provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.
 
-Each major release of all Elastic products is supported for 18 months from the General Availability date. The last minor release of the two most recent major branches of Elasticsearch (and compatible releases of Kibana, Beats, and Logstash) is maintained.
+Each major release of all Elastic products is supported for 18 months from the General Availability date. The last minor release of the two most recent major branches of Elasticsearch (and compatible releases of Kibana, Beats, and Logstash) is maintained. For example, Elasticsearch 7.17 will be maintained until the GA release of Elasticsearch 9.0.0, and Elasticsearch 6.8 was maintained until the 8.0.0 release.
 
-Major versions, such as 1.0.0, 2.0.0, 5.0.0, 6.0.0, and 7.0.0 will introduce features and break backwards compatibility. Minor versions, such as 7.1.0 and 7.2.0, will only introduce features. Maintenance releases, such as 7.1.1 and 7.1.2, will fix bugs only. Maintenance activity occurs on all releases, but we focus on the minor release stream (e.g., 7.1.x) to define how long we maintain a particular code line. Active maintenance of a minor release implies that we are fixing bugs and backporting some number of fixes into that code branch.
+Major versions, such as `8.0.0` introduce features and break backwards compatibility. Minor versions, such as 7.17.0 and 8.1.0, will only introduce features. Maintenance releases, such as 7.1.1 and 7.1.2, will fix bugs only.
 
-The last minor of the prior major release is always supported. For example, Elasticsearch 6.8.x will be maintained until the GA release of Elasticsearch 8.0.0.
+
+Elastic also publishes a [Support Matrix](https://www.elastic.co/support/matrix) for supported configurations of operating systems, JVM versions, Kubernetes versions (for Elastic Cloud), Browsers (for Kibana) and cross-compatibility of various products.
