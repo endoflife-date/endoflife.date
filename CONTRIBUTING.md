@@ -61,11 +61,19 @@ sortReleasesBy: "releaseCycle"
 # __CYCLE_SHORT_HAND__ will be replaced by the optional changelogTemplate
 # __LATEST__ will be replaced by the value of latest
 # __LATEST_SHORT_HAND__ will be replaced by the optional latestShortHand
+# __CODENAME__ will be replaced by the optional codename
 
 # You can even use Liquid Templating inside the template, such as:
 # https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 # Do not use a localized URL (such as one containing en-us) if possible
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
+
+# Optional template that generates names for every release. Supports same templating as changelogTemplate.
+releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
+
+# The label that will be used alongside releases labelled with `lts: true`
+# Optional, only provide if the product has lts releases that are not called LTS, but something else.
+LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
 # Optional information about how release information can be fetched automatically
 # This is mainly used for the `latest` and `latestDate` fields of each release cycle
@@ -120,7 +128,10 @@ releases:
     # predictable and you can't use changelogTemplate.
     # Do not use a localized URL (such as one containing en-us) if possible
     link: https://example.com/news/2021-12-25/release-1.2.3
-    # Optioanlly, you can overwrite the `auto` key if this release was published on a different repository
+    # Optional field, not displayed anywhere by default. Can be used as __CODENAME__ in the releaseLabel and changelogTemplate
+    # Also returned as-as in the API.
+    codename: firebolt
+    # Optional. You can overwrite the `auto` key if this release was published on a different repository
     # Or doesn't have public sources for eg.
     auto: false
 
