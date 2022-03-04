@@ -13,14 +13,14 @@ category: framework
 releases:
 #  - releaseCycle: "6.1"
 #    release: 2022-05-XX
-#    support: 2023-12-XX
-#    eol: 2023-12-XX
+#    support: 2023-01-XX
+#    eol: 2023-01-XX
 #    latest: "6.1.0"
 
   - releaseCycle: "6.0"
     release: 2021-11-29
-    support: 2022-07-31
-    eol: 2022-07-31
+    support: 2023-01-31
+    eol: 2023-01-31
     latest: "6.0.4"
 
   - releaseCycle: "5.4"
