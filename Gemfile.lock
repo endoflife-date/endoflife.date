@@ -1,6 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (7.0.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
@@ -41,6 +46,7 @@ GEM
       googleapis-common-protos-types (>= 1.0.6, < 2.a)
       googleauth (>= 0.17.0, < 2.a)
       grpc (~> 1.36)
+    gemoji (3.0.1)
     google-cloud-container (1.2.3)
       google-cloud-container-v1 (>= 0.0, < 2.a)
       google-cloud-container-v1beta1 (>= 0.0, < 2.a)
@@ -74,6 +80,9 @@ GEM
     grpc (1.42.0)
       google-protobuf (~> 3.18)
       googleapis-common-protos-types (~> 1.0)
+    html-pipeline (2.14.0)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
     http_parser.rb (0.8.0)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
@@ -107,6 +116,10 @@ GEM
       mini_i18n (>= 0.8.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jemoji (0.12.0)
+      gemoji (~> 3.0)
+      html-pipeline (~> 2.2)
+      jekyll (>= 3.0, < 5.0)
     just-the-docs (0.3.3)
       jekyll (>= 3.8.5)
       jekyll-seo-tag (~> 2.0)
@@ -123,13 +136,19 @@ GEM
     memoist (0.16.2)
     mercenary (0.4.0)
     mini_i18n (0.8.0)
+    mini_portile2 (2.7.1)
+    minitest (5.15.0)
     multi_json (1.15.0)
     multipart-post (2.1.1)
+    nokogiri (1.13.1)
+      mini_portile2 (~> 2.7.0)
+      racc (~> 1.4)
     os (1.1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.15)
     public_suffix (4.0.6)
+    racc (1.6.0)
     rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -147,6 +166,8 @@ GEM
       multi_json (~> 1.10)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
 
@@ -161,6 +182,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-timeago
+  jemoji
   just-the-docs
   tzinfo-data
   webrick (~> 1.7)

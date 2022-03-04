@@ -38,9 +38,9 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
     If it is a product page, add a link to the API page
   {% endcomment %}
 
+  {% assign imgsrc="'self' https://simpleicons.org/ https://github.githubassets.com/ " %}
   {% if page.releases %}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
-    {% assign imgsrc="'self' https://simpleicons.org/ " %}
     {% comment %}
       If we have a release image, set a CSP that includes it
     {% endcomment %}
@@ -54,6 +54,6 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
   {% elsif page.permalink == '/docs/api' %}
   Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
-  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{imgsrc}}
   {% endif %}
 {% endfor %}

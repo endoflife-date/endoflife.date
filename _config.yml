@@ -7,6 +7,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-sitemap
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
