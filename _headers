@@ -52,7 +52,7 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
     {% endif %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self'
   {% elsif page.permalink == '/docs/api' %}
-  Content-Security-Policy: default-src 'none'; connect-src 'https://raw.githubusercontent.com/endoflife-date/endoflife.date/master/_data/openapi.yml'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
   Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'
   {% endif %}
