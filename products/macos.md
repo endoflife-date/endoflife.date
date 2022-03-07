@@ -37,16 +37,16 @@ releases:
     eol: 2019-10-01
   - releaseCycle: "10.11"
     codename: "El Capitan"
-    releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+    releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
     release: 2015-09-30
     eol: 2018-12-01
   - releaseCycle: "10.10"
-    releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+    releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Yosemite"
     release: 2014-10-16
     eol: 2017-08-01
   - releaseCycle: "10.9"
-    releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+    releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Mavericks"
     release: 2013-10-22
     eol: 2016-12-01

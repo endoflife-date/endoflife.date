@@ -9,7 +9,7 @@ activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
 sortReleasesBy: 'release'
-releaseLabel: 'Filemaker Platform __RELEASE_CYCLE__'
+releaseLabel: 'FileMaker Platform __RELEASE_CYCLE__'
 releases:
   - releaseCycle: "19"
     release: 2020-05-01
