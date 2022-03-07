@@ -6,7 +6,7 @@ sortReleasesBy: "cycleShortHand"
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 iconSlug: NA
-releaseLabel:
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 #  - releaseCycle: "3.5"
 #    codename: 'kirkstone'
