@@ -12,10 +12,10 @@ sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "9.x"
     release: 2022-02-08
-    support: 2024-02-08
-    eol: 2025-02-08
-    latest: 9.3.1
-    lts: true
+    support: 2023-08-08
+    eol: 2024-02-08
+    latest: 9.4.1
+    lts: false
   - releaseCycle: "8.x"
     release: 2020-09-08
     support: 2022-07-26
@@ -58,5 +58,5 @@ Version | PHP
 6 (LTS) | 7.2 - 8.0
 7       | 7.2 - 8.0
 8       | 7.3 - 8.1
-9 (LTS) | 8.0 - 8.1
+9       | 8.0 - 8.1
 10      | 8.0 - 8.1
