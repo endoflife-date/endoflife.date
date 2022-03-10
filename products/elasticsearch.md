@@ -19,7 +19,7 @@ releases:
     latest: 8.1.0
   - releaseCycle: "8.0"
     cycleShortHand: 800
-    eol: 2023-08-10
+    eol: 2022-03-09
     release: 2022-02-10
     latest: 8.0.1
   - releaseCycle: "7.17"
