@@ -11,12 +11,17 @@ releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
 # The dates below will not match the Elastic website. See #883 for more details
+  - releaseCycle: "8.1"
+    cycleShortHand: 801
+    # Will drop once 8.2 is out
+    eol: 2023-08-08
+    release: 2022-03-09
+    latest: 8.1.0
   - releaseCycle: "8.0"
     cycleShortHand: 800
-    # Will drop once 8.1 is out
-    eol: 2023-08-08
+    eol: 2023-08-10
     release: 2022-02-10
-    latest: 8.0.0
+    latest: 8.0.1
   - releaseCycle: "7.17"
     cycleShortHand: 717
     release: 2022-02-01
