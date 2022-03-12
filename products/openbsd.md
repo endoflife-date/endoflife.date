@@ -6,6 +6,7 @@ category: os
 command: uname -r
 activeSupportColumn: false
 releaseDateColumn: true
+releaseColumn: false
 sortReleasesBy: 'release'
 releases:
   - release: 2021-10-14
