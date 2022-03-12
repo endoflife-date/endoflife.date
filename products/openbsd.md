@@ -4,7 +4,7 @@ layout: post
 title: OpenBSD
 category: os
 command: uname -r
-activeSupportColumn: true
+activeSupportColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
 releases:
@@ -70,6 +70,6 @@ releases:
 
 ---
 
-> [The OpenBSD project](https://www.openbsd.org/) produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography.
+> [The OpenBSD project](https://www.openbsd.org/) produces a free, multi-platform 4.4BSD-based UNIX-like operating system. It emphasizes portability, standardization, correctness, proactive security and integrated cryptography.
 
-The initial release, OpenBSD 1.2, was made in July 1996, followed by OpenBSD 2.0 in October of the same year. Since then, the project has issued a release every six months, each of which is supported for one year.
+The initial release, OpenBSD 1.2, was made in July 1996, followed by OpenBSD 2.0 in October of the same year. Since then, the project has issued a release every six months. Only the two most recent OpenBSD releases receive security and reliability fixes for the base system. Learn more about OpenBSD's flavors in [OpenBSD FAQ](http://www.openbsd.org/faq/faq5.html#Flavors). See OpenBSD errata on a [web page](https://www.openbsd.org/errata.html), subscribe to [mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce) or [RSS feed](https://undeadly.org/errata/errata.rss).
