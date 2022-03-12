@@ -72,4 +72,15 @@ releases:
 
 > [The OpenBSD project](https://www.openbsd.org/) produces a free, multi-platform 4.4BSD-based UNIX-like operating system. It emphasizes portability, standardization, correctness, proactive security and integrated cryptography.
 
-The initial release, OpenBSD 1.2, was made in July 1996, followed by OpenBSD 2.0 in October of the same year. Since then, the project has issued a release every six months. Only the two most recent OpenBSD releases receive security and reliability fixes for the base system. Learn more about OpenBSD's flavors in [OpenBSD FAQ](http://www.openbsd.org/faq/faq5.html#Flavors). See OpenBSD errata on a [web page](https://www.openbsd.org/errata.html), subscribe to [mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce) or [RSS feed](https://undeadly.org/errata/errata.rss).
+OpenBSD has a new release every six months. Only the two most recent releases receive security and reliability fixes for the base system.
+
+## [Flavors][flavors]
+
+* `-release`: The version of OpenBSD shipped every six months.
+* `-current`: The development branch. Every six months, -current is tagged and becomes the next -release.
+* `-stable`: The `-release` branch, plus patches found on [the errata page][errata]. Very important fixes are backported to the supported `-stable` branches.
+
+OpenBSD publishes announcements and security advisories on the [announcements mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce). There's an RSS feed for [errata](https://undeadly.org/errata/errata.rss) as well.
+
+[errata]: https://www.openbsd.org/errata.html "OpenBSD Errata Page"
+[flavors]: https://www.openbsd.org/faq/faq5.html#Flavors "OpenBSD FAQ, Flavors Section"
