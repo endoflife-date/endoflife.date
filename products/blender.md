@@ -22,7 +22,7 @@ releases:
 
   - releaseCycle: "3.0"
     release: 2021-12-03
-    eol: false
+    eol: 2022-03-09
     support: true
     latest: "3.0"
     lts: false
