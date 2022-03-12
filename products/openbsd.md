@@ -74,13 +74,15 @@ releases:
 
 OpenBSD has a new release every six months. Only the two most recent releases receive security and reliability fixes for the base system.
 
-## [Flavors][flavors]
+## [Release Flavors][flavors]
 
 * `-release`: The version of OpenBSD shipped every six months.
-* `-current`: The development branch. Every six months, -current is tagged and becomes the next -release.
+* `-current`: The development branch. Every six months, `-current` is tagged and becomes the next `-release`.
 * `-stable`: The `-release` branch, plus patches found on [the errata page][errata]. Very important fixes are backported to the supported `-stable` branches.
 
-OpenBSD publishes announcements and security advisories on the [announcements mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce). There's an RSS feed for [errata](https://undeadly.org/errata/errata.rss) as well.
+OpenBSD publishes announcements and security advisories on the [announcements mailing list][announce-ml]. There's an RSS feed for [errata][errata-rss] as well.
 
 [errata]: https://www.openbsd.org/errata.html "OpenBSD Errata Page"
+[errata-rss]: https://undeadly.org/errata/errata.rss "Undeadly Errata RSS feed"
+[announce-ml]: https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce "announce@"
 [flavors]: https://www.openbsd.org/faq/faq5.html#Flavors "OpenBSD FAQ, Flavors Section"
