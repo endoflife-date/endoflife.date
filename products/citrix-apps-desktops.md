@@ -47,7 +47,7 @@ releases:
     release: 2020-03-20
     support: 2020-09-20
     eol: 2021-09-26
-  - releaseCycle: "1912 CU4"
+  - releaseCycle: "1912 CU5"
     release: 2019-12-18
     support: 2024-12-18
     eol: 2024-12-18
@@ -63,7 +63,7 @@ releases:
 
 Citrix Virtual Apps and Desktops was previously known as XenApp and XenDesktop, re-branded in 2018.
 
-There are two release types for on-premises deployments, Current Releases (CR) and Long Term Service Releases (LTSR). 
+There are two release types for on-premises deployments, Current Releases (CR) and Long Term Service Releases (LTSR).
 
 * Current Releases will reach end of active support 6 months after release and end of security support 18 months after release.
 * Long Term Service Releases will reach end of active and security support 5 years after release. Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible for paid extended support up to 5 years after active and security support ends and is not reflected above.
