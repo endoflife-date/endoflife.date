@@ -7,24 +7,23 @@ changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 releases:
   - releaseCycle: "2.2"
     eol: 2023-12-31
-    support: false
     release: 2021-12-22
-    latest: "2.2.6"
+    latest: "2.2.7"
     lts: true
-    link: https://blog.packagist.com/composer-2-2/
-  - releaseCycle: "2"
-    eol: false
-    support: true
-    release: 2020-10-24
-    latest: "2.2.6"
-    link: https://blog.packagist.com/composer-2-0-is-now-available/
+    link: https://getcomposer.org/changelog/2.2.7
+#  - releaseCycle: "2"  We will uncomment this series after 2.3 released otherwise we get same version twice and confuse people
+#    eol: false
+#    support: true
+#    release: 2020-10-24
+#    latest: "2.2.6"
+#    link: https://blog.packagist.com/composer-2-0-is-now-available/
   - releaseCycle: "1.x"
     release: 2016-04-05
     latest: "1.10.25"
     eol: 2020-10-24
 iconSlug: composer
 permalink: /composer
-activeSupportColumn: true
+activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 command: composer --version
