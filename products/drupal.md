@@ -21,7 +21,7 @@ releases:
     release: 2021-06-16
     support: 2021-12-08
     eol:     2022-06-01
-    latest:  "9.2.13"
+    latest:  "9.2.14"
   - releaseCycle: "9.1"
     release: 2020-12-02
     support: 2021-06-16
