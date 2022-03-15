@@ -12,6 +12,9 @@ eolColumn: End-of-life Date
 sortReleasesBy: "release"
 command: show system info | match sw-version
 releases:
+  - releaseCycle: "10.2"
+    eol: 2025-08-27
+    release: 2022-02-27
   - releaseCycle: "10.1"
     eol: 2024-12-01
     release: 2021-05-31
