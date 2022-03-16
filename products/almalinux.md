@@ -11,10 +11,10 @@ sortReleasesBy: 'release'
 iconSlug: NA
 releases:
   - releaseCycle: "8"
-    release: 2029-03-01
-    support: true
-    eol: false
-    latest: "8"
+    release: 2019-05-01
+    support: 2024-05-01
+    eol: 2029-03-01
+    latest: "8.5"
     link: https://mirrors.almalinux.org/isos.html
 
 ---
