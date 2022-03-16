@@ -13,19 +13,19 @@ releases:
     - releaseCycle: "3.10"
       release: 2021-10-04
       eol: 2026-10-04
-      latest: "3.10.2"
+      latest: "3.10.3"
     - releaseCycle: "3.9"
       release: 2020-10-05
       eol: 2025-10-05
-      latest: "3.9.10"
+      latest: "3.9.11"
     - releaseCycle: "3.8"
       release: 2019-10-14
       eol: 2024-10-14
-      latest: "3.8.12"
+      latest: "3.8.13"
     - releaseCycle: "3.7"
       release: 2018-06-27
       eol: 2023-06-27
-      latest: "3.7.12"
+      latest: "3.7.13"
     - releaseCycle: "3.6"
       release: 2016-12-23
       eol: 2021-12-23
