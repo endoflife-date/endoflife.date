@@ -21,7 +21,7 @@ releases:
   - releaseCycle: "2021.2"
     release: 2021-10-26
     eol: false
-    latest: "2021.2.10"
+    latest: "2021.2.16"
 
   - releaseCycle: "2021.1"
     release: 2021-03-19
@@ -32,13 +32,13 @@ releases:
     release: 2021-03-11
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.28"
+    latest: "2020.3.31"
 
   - releaseCycle: "2019"
     release: 2020-06-09
     eol: 2022-06-01
     lts: true
-    latest: "2019.4.35"
+    latest: "2019.4.36"
 
   - releaseCycle: "2018"
     release: 2019-05-10
