@@ -17,17 +17,17 @@ alternate_urls:
 releases:
   - releaseCycle: "1.23"
     release: 2021-12-07
-    latest: "1.23.4"
+    latest: "1.23.5"
     support: 2022-12-28
     eol: 2023-02-28
   - releaseCycle: "1.22"
     release: 2021-08-04
-    latest: "1.22.7"
+    latest: "1.22.8"
     support: 2022-08-28
     eol: 2022-10-28
   - releaseCycle: "1.21"
     release: 2021-04-08
-    latest: "1.21.10"
+    latest: "1.21.11"
     support: 2022-04-28
     eol: 2022-06-28
   - releaseCycle: "1.20"
