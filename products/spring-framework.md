@@ -11,7 +11,7 @@ releases:
     eol: false
     support: true
     release: 2020-12-09
-    latest: "v5.3.16"
+    latest: "v5.3.17"
   - releaseCycle: "5.2"
     eol: 2021-12-31
     support: true
