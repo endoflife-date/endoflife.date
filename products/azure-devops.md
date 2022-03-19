@@ -13,27 +13,27 @@ releases:
     release: 2020-08-25
     support: 2025-10-14
     eol: 2030-10-08
-    latest: "2020"
+    latest: "2020.1.1 Patch 4"
   - releaseCycle: "2019"
     release: 2019-03-05
     support: 2024-04-09
     eol: 2029-04-10
-    latest: "2019.1"
+    latest: "Update 1.1 Patch 13"
   - releaseCycle: "2018"
     release: 2017-11-15
     support: 2023-01-10
     eol: 2028-01-11
-    latest: "2018"
+    latest: "Update 3.2 Patch 16"
   - releaseCycle: "2017"
     release: 2016-11-16
     support: 2022-01-11
     eol: 2027-01-11
-    latest: "Update 3"
+    latest: "Update 3.1 Patch 13"
   - releaseCycle: "2015"
     release: 2015-07-30
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "Update 4"
+    latest: "Update 4.2 Patch 6"
   - releaseCycle: "2013"
     release: 2014-01-15
     support: 2019-04-09
