@@ -14,17 +14,17 @@ releases:
     release: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.986.14 CU11"
+    latest: "15.2.986.22 CU11"
   - releaseCycle: "2016"
     release: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2375.17 CU22"
+    latest: "15.1.2375.24 CU22"
   - releaseCycle: "2013 SP1"
     release: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.1497.26 CU23"
+    latest: "15.0.1497.33 CU23"
   - releaseCycle: "2010 SP3"
     release: 2009-11-09
     support: 2015-01-13
@@ -46,8 +46,8 @@ releases:
 
 [Exchange Server build numbers and release dates](https://docs.microsoft.com/exchange/new-features/build-numbers-and-release-dates)
 
-CU: Cumulative Update  
-SU: Security Update  
+CU: Cumulative Update
+SU: Security Update
 UR: Update Rollup
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and SU updates will be available.
