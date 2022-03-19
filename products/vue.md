@@ -14,7 +14,7 @@ iconSlug: vuedotjs
 releases:
   - releaseCycle: "3.x"
     release: 2020-09-18
-    support: false
+    support: true
     eol: false
     latest: "3.2"
     lts: false
@@ -27,13 +27,13 @@ releases:
   - releaseCycle: "1.x"
     release: 2015-10-27
     support: false
-    eol: false
+    eol: true
     latest: "1.0"
     lts: false
   - releaseCycle: "0.x"
     release: 2013-12-08
     support: false
-    eol: false
+    eol: true
     latest: "0.12"
     lts: false
 ---
