@@ -8,9 +8,9 @@ releases:
   - releaseCycle: "2.2"
     eol: 2023-12-31
     release: 2021-12-22
-    latest: "2.2.7"
+    latest: "2.2.9"
     lts: true
-    link: https://getcomposer.org/changelog/2.2.7
+    link: https://getcomposer.org/changelog/2.2.9
 #  - releaseCycle: "2"  We will uncomment this series after 2.3 released otherwise we get same version twice and confuse people
 #    eol: false
 #    support: true
