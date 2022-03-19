@@ -31,7 +31,7 @@ releases:
       eol: 2021-12-23
       latest: "3.6.15"
     - releaseCycle: "3.5"
-      release: 2015-09-30
+      release: 2015-09-13
       eol: 2020-09-13
       latest: "3.5.10"
     - releaseCycle: "3.4"
