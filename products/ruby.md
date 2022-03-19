@@ -14,7 +14,7 @@ releases:
   - releaseCycle: "3.1"
     release: 2021-12-25
     eol: 2025-12-25
-    latest: "3.1.0"
+    latest: "3.1.1"
 
   - releaseCycle: "3.0"
     release: 2020-12-25
