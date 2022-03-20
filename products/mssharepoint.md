@@ -1,6 +1,8 @@
 ---
 title: Microsoft SharePoint
-permalink: /mssharepoint
+permalink: /sharepoint
+alternate_urls:
+- /mssharepoint
 layout: post
 iconSlug: microsoftsharepoint
 category: server-app
@@ -38,6 +40,6 @@ releases:
 
 > [Microsoft SharePoint Server](https://en.wikipedia.org/wiki/SharePoint) is a web-based collaborative platform that integrates with Microsoft Office, developed by Microsoft.
 
-[SharePoint Server build numbers and release dates](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates)
+Microsoft publishes tables for each release [detailing the build numbers, versions, and release dates](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates).
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only security updates are released for the product.
