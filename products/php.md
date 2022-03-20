@@ -56,7 +56,7 @@ releases:
   - releaseCycle: "7.0"
     cycleShortHand: "700"
     release: 2015-12-03
-    support: 2017-12-03
+    support: 2018-01-04
     eol:     2019-01-10
     latest:  "7.0.33"
 
