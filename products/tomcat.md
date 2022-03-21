@@ -25,7 +25,7 @@ releases:
   - releaseCycle: "8"
     release: 2014-02-02
     eol: false
-    latest: "8.5.76"
+    latest: "8.5.77"
     link: https://tomcat.apache.org/download-80.cgi
   - releaseCycle: "7"
     release: 2011-01-13
