@@ -1,7 +1,7 @@
 ---
 title: Apache Tomcat
 permalink: /tomcat
-iconSlug: tomcat
+iconSlug: apachetomcat
 layout: post
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
