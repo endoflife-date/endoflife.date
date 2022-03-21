@@ -5,7 +5,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/e9pbk5ev1vpz7yndqg90m5ay1n7me6t.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
@@ -14,6 +14,12 @@ releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
+  - releaseCycle: "5.17"
+    cycleShortHand: 517
+    release: 
+    eol: false
+    latest: "5.17"
+    
   - releaseCycle: "5.16"
     cycleShortHand: 516
     release: 2022-01-09
