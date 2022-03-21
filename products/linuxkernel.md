@@ -16,7 +16,7 @@ command: uname -r
 releases:
   - releaseCycle: "5.17"
     cycleShortHand: 517
-    release: 
+    release: "5.17"
     eol: false
     latest: "5.17"
     
