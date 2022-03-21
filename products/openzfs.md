@@ -11,7 +11,7 @@ changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
-iconSlug: "NA"
+iconSlug: openzfs
 eolColumn: Critical bug fixes
 releases:
 
