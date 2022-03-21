@@ -40,7 +40,27 @@ releases:
     eol: 2012-09-30
     latest: "5.5.36"
 ---
-> The Apache Tomcat software is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including <abr title="Jakarta Server Pages">[JSP][jsp]</a>, [Servlets][servlet], and [WebSockets][websockets].
+> Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including <abr title="Jakarta Server Pages">[JSP][jsp]</a>, [Servlets][servlet], and [WebSockets][websockets].
+
+## Stability
+
+Initial releases of a new major version typically process from Alpha, through Beta to Stable over a period of several months. However, the Stable level is only available once the Java specifications the release implements have been finalised. This means a release that in all other respects is considered stable, may still be labelled as Beta if the specifications are not final.
+
+## Lifecycle
+
+Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly an year in advance.
+
+## Java Compatibility
+
+Different versions of Apache Tomcat are available for different versions of the specifications, and the Tomcat website has a [table](https://tomcat.apache.org/whichversion.html) documenting which version of the specification is implemented by a given release.
+
+| Tomcat Version | Minimum Java Version |
+|----------------|----------------------|
+| 10.1           | 11                   |
+| 10.0           | 8                    |
+| 9              | 8                    |
+| 8.5            | 7                    |
+| 7.0            | 6                    |
 
 [servlet]: https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"
 [jsp]: https://projects.eclipse.org/projects/ee4j.jsp "Jakarta Server Pages"
