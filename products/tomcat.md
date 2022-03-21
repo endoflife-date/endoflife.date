@@ -1,7 +1,7 @@
 ---
 title: Apache Tomcat
 permalink: /tomcat
-iconSlug: apache
+iconSlug: tomcat
 layout: post
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
@@ -39,9 +39,10 @@ releases:
     release: 2003-09-06
     eol: 2012-09-30
     latest: "5.5.36"
-  - 
 ---
-> The Apache Tomcat® software is an open source implementation of the [Jakarta Servlet](https://projects.eclipse.org/projects/ee4j.servlet), [Jakarta Server Pages](https://projects.eclipse.org/projects/ee4j.jsp), [Jakarta Expression Language](https://projects.eclipse.org/projects/ee4j.el), [Jakarta WebSocket](https://projects.eclipse.org/projects/ee4j.websocket), [Jakarta Annotations](https://projects.eclipse.org/projects/ee4j.ca) and [Jakarta Authentication specifications](https://projects.eclipse.org/projects/ee4j.authentication). These specifications are part of the [Jakarta EE platform](https://projects.eclipse.org/projects/ee4j.jakartaee-platform).
+> The Apache Tomcat software is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including <abr title="Jakarta Server Pages">[JSP][jsp]</a>, [Servlets][servlet], and [WebSockets][websockets].
 
-The update and release strategy is _complex_. For release policy information, see <https://tomcat.apache.org/whichversion.html>.
-For licensing information, see <https://www.apache.org/licenses/>
+[servlet]: https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"
+[jsp]: https://projects.eclipse.org/projects/ee4j.jsp "Jakarta Server Pages"
+[websockets]: https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket"
+[specs]: https://projects.eclipse.org/projects/ee4j.jakartaee-platform
