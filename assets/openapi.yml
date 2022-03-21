@@ -177,6 +177,7 @@ paths:
                     - surface
                     - symfony
                     - ubuntu
+                    - vue
                     - wagtail
                     - windows
                     - windowsembedded
