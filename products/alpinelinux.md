@@ -17,23 +17,23 @@ releases:
     release: 2021-11-24
     eol: 2023-11-01
     cycleShortHand: 315
-    latest: "3.15.0"
+    latest: "3.15.1"
   - releaseCycle: "v3.14"
     release: 2021-06-15
     eol: 2023-05-01
     cycleShortHand: 314
-    latest: "3.14.3"
+    latest: "3.14.4"
   - releaseCycle: "v3.13"
     release: 2021-01-14
     eol: 2022-11-01
     cycleShortHand: 313
-    latest: "3.13.7"
+    latest: "3.13.8"
     link: https://alpinelinux.org/posts/Alpine-3.11.13-3.12.9-3.13.7-released.html
   - releaseCycle: "v3.12"
     release: 2020-05-29
     eol: 2022-05-01
     cycleShortHand: 312
-    latest: "3.12.9"
+    latest: "3.12.10"
     link: https://alpinelinux.org/posts/Alpine-3.11.13-3.12.9-3.13.7-released.html
   - releaseCycle: "v3.11"
     release: 2019-12-19
