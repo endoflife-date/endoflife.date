@@ -5,7 +5,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/e9pbk5ev1vpz7yndqg90m5ay1n7me6t.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
 changelogTemplate: |
   https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
 activeSupportColumn: false
@@ -14,19 +14,25 @@ releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 releases:
+  - releaseCycle: "5.17"
+    cycleShortHand: 517
+    release: "5.17"
+    eol: false
+    latest: "5.17"
+    
   - releaseCycle: "5.16"
     cycleShortHand: 516
     release: 2022-01-09
     eol: false
     # we need to refine eol of 5.16 when its eol dates announced
-    latest: "5.16.9"
+    latest: "5.16.17"
 
   - releaseCycle: "5.15"
     cycleShortHand: 515
     release: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "5.15.23"
+    latest: "5.15.31"
 
   - releaseCycle: "5.14"
     cycleShortHand: 514
@@ -39,35 +45,35 @@ releases:
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    latest: "5.10.100"
+    latest: "5.10.108"
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
     release: 2019-11-24
     eol: 2025-12-01
     lts: true
-    latest: "5.4.179"
+    latest: "5.4.187"
     
   - releaseCycle: "4.19"
     cycleShortHand: 419
     release: 2018-10-22
     eol: 2024-12-01
     lts: true
-    latest: "4.19.229"
+    latest: "4.19.236"
     
   - releaseCycle: "4.14"
     cycleShortHand: 414
     release: 2017-11-12
     eol: 2024-01-01
     lts: true
-    latest: "4.14.266"
+    latest: "4.14.273"
     
   - releaseCycle: "4.9"
     cycleShortHand: 409
     release: 2016-12-11
     eol: 2023-01-01
     lts: true
-    latest: "4.9.301"
+    latest: "4.9.308"
     
   - releaseCycle: "4.4"
     cycleShortHand: 404
@@ -75,8 +81,6 @@ releases:
     eol: 2022-02-01
     lts: true
     latest: "4.4.302"
-
-
 ---
 
 > The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel.
