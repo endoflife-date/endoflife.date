@@ -59,8 +59,6 @@ releases:
   eol: false
 - releaseCycle: "RR4360X"
   eol: false
-- releaseCycle: "RR4360X"
-  eol: false
 - releaseCycle: "RR4360S"
   eol: false
 iconSlug: NA
