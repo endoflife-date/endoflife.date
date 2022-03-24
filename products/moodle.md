@@ -18,21 +18,21 @@ releases:
     eol: 2022-11-14
     support: 2022-05-09
     release: 2021-05-17
-    latest: "3.11.5"
+    latest: "3.11.6"
     lts: false
 
   - releaseCycle: "3.10"
     eol: 2022-05-09
     support: 2021-11-08
     release: 2020-11-09
-    latest: "3.10.9"
+    latest: "3.10.10"
     lts: false
 
   - releaseCycle: "3.9"
     eol: 2023-05-08
     support: 2021-05-10
     release: 2020-06-15
-    latest: "3.9.12"
+    latest: "3.9.13"
     lts: true
 
   - releaseCycle: "3.8"
