@@ -12,7 +12,7 @@ command: go version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 auto:
-  github: https://github.com/golang/go.git
+  git: https://github.com/golang/go.git
 releases:
   - releaseCycle: "1.18"
     cycleShortHand: 118

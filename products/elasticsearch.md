@@ -10,7 +10,7 @@ command: $ES_HOME/bin/elasticsearch -v
 releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
 auto:
-  github: https://github.com/elastic/elasticsearch.git
+  git: https://github.com/elastic/elasticsearch.git
 releases:
   - releaseCycle: "8.0"
     cycleShortHand: 800

@@ -67,6 +67,21 @@ sortReleasesBy: "releaseCycle"
 # Do not use a localized URL (such as one containing en-us) if possible
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 
+# Optional information about how release information can be fetched automatically
+# This is mainly used for the `latest` and `latestDate` fields of each release cycle
+# Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
+# This is currently a WIP, and will not have any impact, but is highly recommended if this can be made available.
+auto:
+  # Any valid git clone URL will work
+  # Support for partialClone is necessary (GitHub does support this)
+  git: https://github.com/abc/def.git
+
+  # Valid OCI Image Registry URL
+  oci: https://index.docker.io/v2/_library/image
+
+  # Link to package on NPM
+  npm: https://www.npmjs.com/package/abc
+
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
@@ -97,6 +112,9 @@ releases:
     # predictable and you can't use changelogTemplate.
     # Do not use a localized URL (such as one containing en-us) if possible
     link: https://example.com/news/2021-12-25/release-1.2.3
+    # Optioanlly, you can overwrite the `auto` key if this release was published on a different repository
+    # Or doesn't have public sources for eg.
+    auto: false
 
 # Set an icon for the product from https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"

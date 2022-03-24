@@ -12,7 +12,7 @@ changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 auto:
-  github: https://github.com/emberjs/ember.js.git
+  git: https://github.com/emberjs/ember.js.git
 releases:
   - releaseCycle: "4"
     release: 2021-12-28
