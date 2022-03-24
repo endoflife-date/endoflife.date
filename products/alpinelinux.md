@@ -12,7 +12,7 @@ activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
 auto:
-  git: git+https://git.alpinelinux.org/aports
+  git: https://git.alpinelinux.org/aports
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "v3.15"
