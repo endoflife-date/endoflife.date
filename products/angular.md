@@ -8,6 +8,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
+auto:
+  git: https://github.com/twbs/bootstrap.git
 releases:
   - releaseCycle: "13"
     release: 2021-11-04

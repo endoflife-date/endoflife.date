@@ -13,6 +13,8 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
+auto:
+  git: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 releases:
   - releaseCycle: "5.17"
     cycleShortHand: 517

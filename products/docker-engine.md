@@ -13,7 +13,8 @@ releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 command: docker version --format '{{.Server.Version}}'
-
+auto:
+  git: https://github.com/moby/moby.git
 releases:
   - releaseCycle: "20.10"
     eol: false

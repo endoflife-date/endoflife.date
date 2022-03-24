@@ -9,6 +9,8 @@ command: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
+auto:
+  git: https://github.com/openzfs/zfs.git
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: openzfs

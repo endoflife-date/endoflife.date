@@ -6,6 +6,8 @@ command: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
 changelogTemplate: |
   https://rubychangelog.com/versions-all/#ruby-{{"__LATEST__"|replace:'.',''}}
+auto:
+  git: https://git.ruby-lang.org/ruby.git
 category: lang
 releaseDateColumn: true
 eolColumn: Support Status

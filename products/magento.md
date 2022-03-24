@@ -7,6 +7,8 @@ releasePolicyLink: https://magento.com/tech-resources/download
 changelogTemplate: https://devdocs.magento.com/guides/v__RELEASE_CYCLE__/release-notes/ReleaseNotes__LATEST__OpenSource.html
 activeSupportColumn: true
 command: php bin/magento --version
+auto:
+  git: https://github.com/magento/magento2.git
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:

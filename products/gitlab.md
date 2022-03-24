@@ -11,7 +11,8 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Maintenance Support
 iconSlug: gitlab
-
+auto:
+  git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
   - releaseCycle: "14.9"
     release: 2022-03-22

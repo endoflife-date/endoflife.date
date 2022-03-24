@@ -10,6 +10,8 @@ command: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
+auto:
+  git: http://git.haproxy.org/git/haproxy.git/
 releases:
   - releaseCycle: "2.5"
     cycleShortHand: 205

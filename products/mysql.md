@@ -8,6 +8,8 @@ changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/e
 # support -> GA+5 years = Premier support
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
+auto:
+  git: https://github.com/mysql/mysql-server.git
 releases:
   - releaseCycle: "8.0"
     release: 2018-04-01

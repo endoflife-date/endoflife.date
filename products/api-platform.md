@@ -11,6 +11,8 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 category: framework
+auto:
+  git: https://github.com/api-platform/core.git
 releases:
 #  - releaseCycle: "2.7"
 #    release: 2022-XX-XX

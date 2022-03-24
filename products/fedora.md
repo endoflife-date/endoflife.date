@@ -8,6 +8,8 @@ releaseDateColumn: true
 command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
+auto:
+  oci: https://index.docker.io/v2/_library/fedora
 category: os
 releases:
   - releaseCycle: "35"

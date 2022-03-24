@@ -9,6 +9,8 @@ iconSlug: couchbase
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
+auto:
+  oci: ttps://index.docker.io/v2/_library/couchbase
 activeSupportColumn: false
 releaseDateColumn: true
 command: cat /opt/couchbase/VERSION.txt

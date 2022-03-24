@@ -7,6 +7,8 @@ releasePolicyLink: https://mariadb.org/about/maintenance-policy/
 changelogTemplate: https://mariadb.com/kb/en/mariadb-__LATEST_SHORT_HAND__-changelog/
 activeSupportColumn: false
 releaseDateColumn: true
+auto:
+  git: https://github.com/MariaDB/server.git
 command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'

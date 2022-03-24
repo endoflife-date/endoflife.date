@@ -10,6 +10,8 @@ activeSupportColumn: true
 command: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
+auto:
+  git: https://github.com/django/django.git
 releases:
   - releaseCycle: "4.0"
     support: 2022-08-01

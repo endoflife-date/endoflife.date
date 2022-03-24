@@ -6,6 +6,8 @@ category: tool
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
+auto:
+  git: https://github.com/roundcube/roundcubemail.git
 releases:
   - releaseCycle: "1.5"
     latest: "1.5.2"

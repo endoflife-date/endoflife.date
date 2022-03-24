@@ -9,6 +9,8 @@ activeSupportColumn: false
 command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
+auto:
+  git: https://github.com/redis/redis.git
 releases:
   - releaseCycle: "6.2"
     eol: false
