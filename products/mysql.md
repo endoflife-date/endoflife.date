@@ -13,14 +13,14 @@ auto:
 releases:
   - releaseCycle: "8.0"
     release: 2018-04-01
-    latest: 8.0.25
-    latestShortHand: 8-0-25
+    latest: 8.0.28
+    latestShortHand: 8-0-28
     support: 2023-04-30
     eol: 2026-04-30
   - releaseCycle: "5.7"
     release: 2015-10-01
-    latest: 5.7.34
-    latestShortHand: 5-7-34
+    latest: 5.7.37
+    latestShortHand: 5-7-37
     support: 2020-10-31
     eol: 2023-10-31
   - releaseCycle: "5.6"
