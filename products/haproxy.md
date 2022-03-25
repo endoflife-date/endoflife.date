@@ -11,7 +11,8 @@ iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 auto:
-  git: http://git.haproxy.org/git/haproxy.git/
+  # Upstream http://git.haproxy.org/git/haproxy.git/ does not support filtering
+  git: https://github.com/haproxy/haproxy.git
 releases:
   - releaseCycle: "2.5"
     cycleShortHand: 205

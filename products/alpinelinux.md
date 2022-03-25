@@ -12,7 +12,8 @@ activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
 auto:
-  git: https://git.alpinelinux.org/aports
+  # upstream does not support filtering https://git.alpinelinux.org/aports
+  git: https://github.com/alpinelinux/aports.git
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "v3.15"
