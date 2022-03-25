@@ -11,7 +11,7 @@ releases:
     eol: 2024-05-20
     support: true
     release: 2021-05-20
-    latest: "5.34.0"
+    latest: "5.34.1"
   - releaseCycle: "5.32"
     eol: 2023-06-20
     support: true
