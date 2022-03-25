@@ -47,7 +47,7 @@ releases:
     release: 2014-12-20
     eol: 2017-04-27
     support: 2016-06-30
-    latest: "4.2.11.1"
+    latest: "4.2.11.3"
 ---
 
 >[Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework written in Ruby.
