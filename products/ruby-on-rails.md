@@ -12,6 +12,8 @@ changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework
 sortReleasesBy: release
+auto:
+  git: https://github.com/rails/rails.git
 releases:
   - releaseCycle: "7.0"
     release: 2021-12-15

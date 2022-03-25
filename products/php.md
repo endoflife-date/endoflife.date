@@ -7,6 +7,8 @@ releasePolicyLink: https://www.php.net/supported-versions.php
 changelogTemplate: |
   https://www.php.net/ChangeLog-{{ "__LATEST__" | split: "." | first }}.php#__LATEST__
 activeSupportColumn: true
+auto:
+  git: https://github.com/php/php-src.git
 command: php --version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'

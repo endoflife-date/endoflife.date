@@ -4,6 +4,8 @@ layout: post
 category: app
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
+auto:
+  git: https://github.com/composer/composer.git
 releases:
   - releaseCycle: "2.2"
     eol: 2023-12-31

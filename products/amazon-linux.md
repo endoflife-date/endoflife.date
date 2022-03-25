@@ -10,12 +10,15 @@ command: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  oci: https://index.docker.io/v2/_library/amazonlinux
 changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__" | slice:4,8 }}.html'
 releases:
   - releaseCycle: 'Amazon Linux AMI'
     release: "2010-09-14"
     eol: 2020-12-31
     latest: "2018.03"
+    auto: false
   - releaseCycle: 'Amazon Linux 2'
     release: 2017-12-19
     eol: 2023-06-30

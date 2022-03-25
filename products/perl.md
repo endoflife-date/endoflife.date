@@ -4,6 +4,8 @@ layout: post
 category: lang
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
+auto:
+  git: https://github.com/Perl/perl5.git
 releases:
   - releaseCycle: "5.34"
     eol: 2024-05-20

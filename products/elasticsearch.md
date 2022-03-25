@@ -9,6 +9,8 @@ activeSupportColumn: false
 command: $ES_HOME/bin/elasticsearch -v
 releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
+auto:
+  git: https://github.com/elastic/elasticsearch.git
 releases:
   - releaseCycle: "8.0"
     cycleShortHand: 800

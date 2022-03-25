@@ -11,6 +11,8 @@ releaseDateColumn: true
 sortReleasesBy: "release"
 activeSupportColumn: true
 eolColumn: Maintenance Support
+auto:
+  git: https://github.com/kubernetes/kubernetes.git
 alternate_urls:
   - /k8s
 # The release date for "N" should match the eol date for N-3 release.

@@ -11,6 +11,8 @@ changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
+auto:
+  git: https://git.alpinelinux.org/aports
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "v3.15"

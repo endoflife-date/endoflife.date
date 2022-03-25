@@ -9,6 +9,8 @@ changelogTemplate: |
   https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  git: https://github.com/python/cpython.git
 releases:
     - releaseCycle: "3.10"
       release: 2021-10-04

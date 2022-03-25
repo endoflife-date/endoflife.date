@@ -11,6 +11,8 @@ releasePolicyLink: https://emberjs.com/releases
 changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
+auto:
+  git: https://github.com/emberjs/ember.js.git
 releases:
   - releaseCycle: "4"
     release: 2021-12-28

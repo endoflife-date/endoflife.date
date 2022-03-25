@@ -11,6 +11,9 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "release"
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
+auto:
+  git: https://github.com/nginx/nginx.git
+  hg: https://hg.nginx.org/nginx
 releases:
   - releaseCycle: "1.21"
     release: 2021-05-25

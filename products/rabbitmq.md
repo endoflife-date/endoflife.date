@@ -9,6 +9,8 @@ changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__L
 activeSupportColumn: false
 releaseDateColumn: true
 command: rabbitmqctl --version
+auto:
+  git: https://github.com/rabbitmq/rabbitmq-server.git
 releases:
   - releaseCycle: "3.9"
     eol: false

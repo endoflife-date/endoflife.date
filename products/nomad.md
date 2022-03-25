@@ -10,7 +10,8 @@ changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG
 activeSupportColumn: false
 releaseDateColumn: true
 command: nomad --version
-
+auto:
+  git: https://github.com/hashicorp/nomad.git
 releases:
   - releaseCycle: "1.2"
     eol: false

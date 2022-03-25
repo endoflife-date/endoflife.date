@@ -9,6 +9,8 @@ activeSupportColumn: true
 command: composer show laravel/framework|grep versions
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  git: https://github.com/laravel/framework.git
 releases:
   - releaseCycle: "9.x"
     release: 2022-02-08

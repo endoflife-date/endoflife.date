@@ -9,6 +9,8 @@ changelogTemplate: https://docs.mongodb.com/manual/release-notes/__RELEASE_CYCLE
 activeSupportColumn: false
 releaseDateColumn: true
 command: mongod --version
+auto:
+  git: https://github.com/mongodb/mongo.git
 releases:
   - releaseCycle: "5.0"
     eol: false

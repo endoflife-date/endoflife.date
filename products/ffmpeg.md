@@ -10,6 +10,8 @@ activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
+auto:
+  git: https://git.ffmpeg.org/ffmpeg.git
 releases:
   - releaseCycle: "5.0 'Lorentz'"
     cycleShortHand: 50

@@ -9,6 +9,8 @@ changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "release"
+auto:
+  git: https://github.com/elixir-lang/elixir.git
 releases:
   - releaseCycle: "1.13"
     release: 2021-12-03 # https://github.com/elixir-lang/elixir/releases/tag/v1.13.0
