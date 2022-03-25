@@ -23,15 +23,14 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     release: 2021-11-16
-    latest: "1.6.0"
-    link: https://blog.jetbrains.com/kotlin/2021/11/kotlin-1-6-0-is-released/
+    latest: "1.6.10"
 
   - releaseCycle: "1.5"
     cycleShortHand: 105
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     release: 2021-05-05
-    latest: "1.5.31"
+    latest: "1.5.32"
 
   - releaseCycle: "1.4"
     cycleShortHand: 104
