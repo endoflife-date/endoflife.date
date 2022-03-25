@@ -7,7 +7,8 @@ releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
 changelogTemplate: |
   https://rubychangelog.com/versions-all/#ruby-{{"__LATEST__"|replace:'.',''}}
 auto:
-  git: https://git.ruby-lang.org/ruby.git
+  # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
+  git: https://github.com/ruby/ruby.git
 category: lang
 releaseDateColumn: true
 eolColumn: Support Status

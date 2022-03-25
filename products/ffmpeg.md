@@ -11,7 +11,8 @@ releaseDateColumn: true
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 auto:
-  git: https://git.ffmpeg.org/ffmpeg.git
+  # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
+  git: https://github.com/FFmpeg/FFmpeg.git
 releases:
   - releaseCycle: "5.0 'Lorentz'"
     cycleShortHand: 50
