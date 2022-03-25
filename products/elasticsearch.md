@@ -12,14 +12,18 @@ sortReleasesBy: 'cycleShortHand'
 auto:
   git: https://github.com/elastic/elasticsearch.git
 releases:
+  - releaseCycle: "8.1"
+    cycleShortHand: 801
+    eol: 2023-09-08
+    latest: 8.1.1
   - releaseCycle: "8.0"
     cycleShortHand: 800
-    eol: 2023-08-08
-    latest: 8.0.0
+    eol: 2023-08-10
+    latest: 8.0.1
   - releaseCycle: "7.17"
     cycleShortHand: 717
     eol: 2023-08-01
-    latest: 7.17.0
+    latest: 7.17.1
   - releaseCycle: "7.16"
     cycleShortHand: 716
     eol: 2023-06-07
