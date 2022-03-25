@@ -1,0 +1,4 @@
+[submodule "_data/release-data"]
+	path = _data/release-data
+	url = https://github.com/endoflife-date/release-data.git
+	branch = main
