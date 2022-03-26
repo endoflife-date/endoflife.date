@@ -81,6 +81,14 @@ auto:
 
   # Link to package on NPM
   npm: https://www.npmjs.com/package/abc
+  # An optional regex that defines how the tags above should translate to releases
+  # Use named capturing groups
+  # Default value should work for most releases of the form a.b or a.b.c
+  # default also skips over any special releases (nightly,beta,pre,rc etc)
+  regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+  # A liquid template using the captured variables from the regex above that renders the final version
+  # You can use liquid templating here
+  template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
