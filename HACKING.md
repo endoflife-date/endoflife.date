@@ -26,7 +26,7 @@ First, you will need to install Ruby and Bundler. Follow [these instructions](ht
 gem install bundler
 
 # Clone the project:
-git clone git@github.com:endoflife-date/endoflife.date.git
+git clone --recurse-submodules git@github.com:endoflife-date/endoflife.date.git
 cd endoflife.date
 
 # Install dependencies (_Note: You must use Bundler 2 or greater_):
