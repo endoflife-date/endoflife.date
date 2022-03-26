@@ -8,6 +8,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/__LATEST__"
 auto:
   git: https://github.com/spring-projects/spring-framework.git
+  regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)\.RELEASE$'
 releases:
   - releaseCycle: "5.3"
     eol: false

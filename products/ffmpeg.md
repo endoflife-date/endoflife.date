@@ -13,6 +13,7 @@ sortReleasesBy: cycleShortHand
 auto:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
   git: https://github.com/FFmpeg/FFmpeg.git
+  regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 releases:
   - releaseCycle: "5.0 'Lorentz'"
     cycleShortHand: 50

@@ -10,6 +10,7 @@ changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/e
 # We show Extended support dates since that match Community Edition timelines
 auto:
   git: https://github.com/mysql/mysql-server.git
+  regex: ^mysql-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
   - releaseCycle: "8.0"
     release: 2018-04-01

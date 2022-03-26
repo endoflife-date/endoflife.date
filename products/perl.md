@@ -5,6 +5,8 @@ category: lang
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 auto:
+  # Using the default regex loses all releases before 5.10
+  # Feel free to file a PR to fix this
   git: https://github.com/Perl/perl5.git
 releases:
   - releaseCycle: "5.34"

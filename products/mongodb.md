@@ -11,6 +11,7 @@ releaseDateColumn: true
 command: mongod --version
 auto:
   git: https://github.com/mongodb/mongo.git
+  regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
   - releaseCycle: "5.0"
     eol: false
