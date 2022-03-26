@@ -9,6 +9,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 auto:
   git: https://github.com/MariaDB/server.git
+  regex: ^mariadb-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'

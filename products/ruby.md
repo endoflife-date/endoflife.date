@@ -9,6 +9,10 @@ changelogTemplate: |
 auto:
   # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
   git: https://github.com/ruby/ruby.git
+  # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
+  # The meaning of patch and tiny below is as per the new policy
+  regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+  template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 category: lang
 releaseDateColumn: true
 eolColumn: Support Status
@@ -62,11 +66,13 @@ releases:
   - releaseCycle: "2.0.0"
     release: 2013-02-24
     eol: 2016-02-24
+    # Keep this pinned
     latest: "2.0.0-p648"
 
   - releaseCycle: "1.9.3"
     release: 2011-10-31
     eol: 2015-02-23
+    # Keep this pinned
     latest: "1.9.3-p551"
 
 ---

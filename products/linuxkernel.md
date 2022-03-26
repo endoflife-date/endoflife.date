@@ -17,6 +17,7 @@ auto:
   # Upstream is https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
   # But does not support filtering
   git: https://github.com/torvalds/linux.git
+  regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 releases:
   - releaseCycle: "5.17"
     cycleShortHand: 517
