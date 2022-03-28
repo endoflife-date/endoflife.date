@@ -9,75 +9,82 @@ category: os
 sortReleasesBy: "release"
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__CYCLE_SHORT_HAND__/
-
+releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "openSUSE Leap 15.3"
+  - releaseCycle: "15.3"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2021-06-02
     support: 2022-12-1
     eol: 2022-12-1
     cycleShortHand: 15.3
-  - releaseCycle: "openSUSE Leap 15.2"
+  - releaseCycle: "15.2"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2020-07-02
     support: 2021-12-1
     eol: 2021-12-1
     cycleShortHand: 15.2
-  - releaseCycle: "openSUSE Leap 15.1"
+  - releaseCycle: "15.1"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2019-05-22
     support: 2021-02-02
     eol: 2021-02-02
-  - releaseCycle: "openSUSE Leap 15.0"
+  - releaseCycle: "15.0"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2018-05-25
     support: 2019-12-03
     eol: 2019-12-03
-  - releaseCycle: "openSUSE Leap 42.3"
+  - releaseCycle: "42.3"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2017-07-26
     support: 2019-07-01
     eol: 2019-07-01
-  - releaseCycle: "openSUSE Leap 42.2"
+  - releaseCycle: "42.2"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2016-11-16
     support: 2018-01-26
     eol: 2018-01-26
-  - releaseCycle: "openSUSE Leap 42.1"
+  - releaseCycle: "42.1"
+    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     release: 2015-11-4
     support: 2017-05-17
     eol: 2017-05-17
-  - releaseCycle: "openSUSE 13.2"
+  - releaseCycle: "13.2"
     release: 2015-12-14
     support: 2017-01-17
     eol: 2017-01-17
-  - releaseCycle: "openSUSE 13.1"
+  - releaseCycle: "13.1"
     release: 2014-01-08
     support: 2016-02-03
     eol: 2016-02-03
-  - releaseCycle: "openSUSE 12.3"
+  - releaseCycle: "12.3"
     release: 2013-03-13
     support: 2015-01-29
     eol: 2015-01-29
-  - releaseCycle: "openSUSE 12.2"
+  - releaseCycle: "12.2"
     release: 2012-09-05
     support: 2014-01-15
     eol: 2014-01-15
-  - releaseCycle: "openSUSE 12.1"
+  - releaseCycle: "12.1"
     release: 2011-11-16
     support: 2013-05-15
     eol: 2013-05-15
-  - releaseCycle: "openSUSE 11.4"
+  - releaseCycle: "11.4"
     release: 2011-03-10
     support: 2012-11-05
     eol: 2012-11-05
-  - releaseCycle: "openSUSE 11.3"
+  - releaseCycle: "11.3"
     release: 2010-07-15
     support: 2012-01-20
     eol: 2012-01-20
-  - releaseCycle: "openSUSE 11.2"
+  - releaseCycle: "11.2"
     release: 2009-11-12
     support: 2011-05-12
     eol: 2011-05-12
-  - releaseCycle: "openSUSE 11.1"
+  - releaseCycle: "11.1"
     release: 2008-12-18
     support: 2011-01-14
     eol: 2011-01-14
-  - releaseCycle: "openSUSE 11.0"
+  - releaseCycle: "11.0"
     release: 2008-06-19
     support: 2010-07-26
     eol: 2010-07-26

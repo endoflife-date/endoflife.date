@@ -13,84 +13,105 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
 sortReleasesBy: 'release'
+releaseLabel: "Android __RELEASE_CYCLE__ '__CODENAME__'"
 releases:
-  - releaseCycle: Snow Cone (Android 12)
+  - releaseCycle: "12"
+    codename: Snow Cone
     release: 2021-10-04
     eol: false
 
-  - releaseCycle: Red Velvet Cake (Android 11)
+  - releaseCycle: "11"
+    codename: Red Velvet Cake
     release: 2020-09-08
     eol: false
 
-  - releaseCycle: Queen Cake (Android 10)
+  - releaseCycle: "10"
+    codename: Queen Cake
     release: 2019-09-03
     eol: false
 
-  - releaseCycle: Pie (Android 9.x)
+  - releaseCycle: "9"
+    codename: Pie
     release: 2018-08-06
     eol: false
 
-  - releaseCycle: Oreo (Android 8.1.x)
+  - releaseCycle: "8.1"
+    codename: Oreo
     release: 2017-12-05
     eol: true
 
-  - releaseCycle: Oreo (Android 8.0.x)
+  - releaseCycle: "8.0"
+    codename: Oreo
     release: 2017-08-21
     eol: true
 
-  - releaseCycle: Nougat (Android 7.x)
+  - releaseCycle: "7"
+    codename: Nougat
     release: 2016-08-22
     eol: true
 
-  - releaseCycle: Marshmallow (Android 6.0.x)
+  - releaseCycle: "6"
+    codename: Marshmallow
     release: 2015-10-05
     eol: true
 
-  - releaseCycle: Lollipop (Android 5.0 – 5.1.1)
+  - releaseCycle: "5"
+    codename: Lollipop
     release: 2014-11-12
     eol: true
 
-  - releaseCycle: KitKat (Android 4.4.x)
+  - releaseCycle: "4.4"
+    codename: KitKat
     release: 2013-10-31
     eol: true
 
-  - releaseCycle: Jelly Bean (Android 4.1 – 4.3.1)
+  - releaseCycle: "4.1"
+    codename: Jelly Bean
     release: 2012-07-09
     eol: true
 
-  - releaseCycle: Ice Cream Sandwich (Android 4.0.x)
+  - releaseCycle: "4"
+    codename: Ice Cream Sandwich
     release: 2011-10-18
     eol: true
 
-  - releaseCycle: Honeycomb (Android 3.x)
+  - releaseCycle: "3"
+    codename: Honeycomb
     release: 2011-02-22
     eol: true
 
-  - releaseCycle: Gingerbread (Android 2.3.x)
+  - releaseCycle: "2.3"
+    codename: Gingerbread
     release: 2010-12-06
     eol: true
 
-  - releaseCycle: Froyo (Android 2.2.x)
+  - releaseCycle: "2.2"
+    codename: Froyo
     release: 2010-05-20
     eol: true
 
-  - releaseCycle: Eclair (Android 2.0-2.1)
+  - releaseCycle: "2.0"
+    codename: Eclair
     release: 2009-10-26
     eol: true
 
-  - releaseCycle: Donut (Android 1.6)
+  - releaseCycle: "1.6"
+    codename: Donut
     release: 2009-09-15
     eol: true
 
-  - releaseCycle: Cupcake (Android 1.5)
+  - releaseCycle: "1.5"
+    codename: Cupcake
     release: 2009-04-27
     eol: true
 
-  - releaseCycle: Petit Four (Android 1.1)
+  - releaseCycle: "1.1"
+    codename: Petit Four
     release: 2009-02-09
     eol: true
 
-  - releaseCycle: "Android 1.0"
+  - releaseCycle: "1.0"
+    releaseLabel: "Android __RELEASE_CYCLE__"
     release: 2008-09-23
     eol: true
 

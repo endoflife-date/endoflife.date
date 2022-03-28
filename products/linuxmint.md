@@ -9,16 +9,19 @@ activeSupportColumn: true
 releaseDateColumn: true
 iconSlug: linuxmint
 sortReleasesBy: "releaseCycle"
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 
-  - releaseCycle: "LMDE 4"
+  - releaseCycle: "lmde4"
+    releaseLabel: "LMDE 4"
     release: 2020-03-20
     support: true
     eol:     false
     latest: "4"
     link: https://linuxmint.com/rel_debbie.php
     
-  - releaseCycle: "20.3 'Una'"
+  - releaseCycle: "20.3"
+    codename: Una
     lts: true
     release: 2022-01-07
     support: true
@@ -26,7 +29,8 @@ releases:
     latest: "20.3"
     link: https://linuxmint.com/edition.php?id=292
 
-  - releaseCycle: "20.2 'Uma'"
+  - releaseCycle: "20.2"
+    codename: Uma
     lts: true
     release: 2021-07-08
     support: true
@@ -34,7 +38,8 @@ releases:
     latest: "20.2"
     link: https://linuxmint.com/edition.php?id=288
     
-  - releaseCycle: "20.1 'Ulyssa'"
+  - releaseCycle: "20.1"
+    codename: Ulyssa
     lts: true
     release: 2021-01-08
     support: false
@@ -42,7 +47,8 @@ releases:
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
     
-  - releaseCycle: "20 'Ulyana'"
+  - releaseCycle: "20"
+    codename: Ulyana
     lts: true
     release: 2020-06-27
     support: false
@@ -50,7 +56,8 @@ releases:
     latest: "20"
     link: https://blog.linuxmint.com/?p=3928
    
-  - releaseCycle: "19.3 'Tricia'"
+  - releaseCycle: "19.3"
+    codename: Tricia
     lts: true
     release: 2019-12-18
     support: false
@@ -58,7 +65,8 @@ releases:
     latest: "19.3"
     link: https://blog.linuxmint.com/?p=3832
     
-  - releaseCycle: "19.2 'Tina'"
+  - releaseCycle: "19.2"
+    codename: Tina
     lts: true
     release: 2019-08-02
     support: false
@@ -66,7 +74,8 @@ releases:
     latest: "19.2"
     link: https://blog.linuxmint.com/?p=3786
     
-  - releaseCycle: "19.1 'Tessa'"
+  - releaseCycle: "19.1"
+    codename: Tessa
     lts: true
     release: 2018-12-19
     support: false
@@ -74,7 +83,8 @@ releases:
     latest: "19.1"
     link: https://blog.linuxmint.com/?p=3669
 
-  - releaseCycle: "19 'Tara'"
+  - releaseCycle: "19"
+    codename: Tara
     lts: true
     release: 2018-06-29
     support: false
@@ -82,7 +92,8 @@ releases:
     latest: "19"
     link: https://blog.linuxmint.com/?p=3597
 
-  - releaseCycle: "18.3 'Sylvia'"
+  - releaseCycle: "18.3"
+    codename: Sylvia
     lts: true
     release: 2017-11-27
     support: false

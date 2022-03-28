@@ -16,20 +16,21 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: openzfs
 eolColumn: Critical bug fixes
+releaseLabel: "OpenZFS __RELEASE_CYCLE__"
 releases:
 
-    - releaseCycle: "OpenZFS 2.1"
+    - releaseCycle: "2.1"
       release: 2021-07-02
       eol: 2023-07-02
       lts: true
       latest: "2.1.4"
 
-    - releaseCycle: "OpenZFS 2.0"
+    - releaseCycle: "2.0"
       release: 2020-11-30
       eol: 2021-12-23
       latest: "2.0.7"
 
-    - releaseCycle: "OpenZFS 0.8"
+    - releaseCycle: "0.8"
       release: 2019-06-23
       eol: 2020-12-14
       latest: "0.8.6"

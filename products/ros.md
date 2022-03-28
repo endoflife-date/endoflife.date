@@ -11,17 +11,23 @@ command: rosversion -d
 releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'releaseCycle'
+releaseLabel: '__CODENAME__'
+changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releases:
-  - releaseCycle: 'Noetic Ninjemys'
+  - releaseCycle: 'noetic'
+    codename: 'Noetic Ninjemys'
     eol: 2025-05-01
     release: 2020-05-23
-  - releaseCycle: 'Melodic Morenia'
+  - releaseCycle: 'melodic'
+    codename: 'Melodic Morenia'
     eol: 2023-04-01
     release: 2018-05-23
-  - releaseCycle: 'Lunar Loggerhead'
+  - releaseCycle: 'lunar'
+    codename: 'Lunar Loggerhead'
     eol: 2019-05-01
     release: 2017-05-23
-  - releaseCycle: 'Kinetic Kame'
+  - releaseCycle: 'kinetic'
+    codename: 'Kinetic Kame'
     eol: 2021-05-01
     release: 2016-04-23
 ---

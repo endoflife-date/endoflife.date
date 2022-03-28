@@ -12,40 +12,49 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
+releaseLabel: 'Horizon __RELEASE_CYCLE__ __CYCLE_SHORT_HAND__'
+LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
-  - releaseCycle: "Horizon 8 2111"
+  - releaseCycle: "8"
+    cycleShortHand: "2111"
     release: 2021-11-30
     support: 2024-11-30
     eol: 2025-11-30
-  - releaseCycle: "Horizon 8 2106"
+  - releaseCycle: "8"
+    cycleShortHand: "2106"
     release: 2021-07-15
     support: 2024-07-15
     eol: 2025-07-15
-  - releaseCycle: "Horizon 8 2103"
+  - releaseCycle: "8"
+    cycleShortHand: "2103"
     release: 2021-03-23
     support: 2024-03-23
     eol: 2025-03-23
-  - releaseCycle: "Horizon 8 2012"
+  - releaseCycle: "8"
+    cycleShortHand: "2012"
     release: 2021-01-07
     support: 2024-01-07
     eol: 2025-01-07
-  - releaseCycle: "Horizon 8 2006"
+  - releaseCycle: "8"
+    cycleShortHand: "2006"
     release: 2020-08-11
     support: 2025-08-11
     eol: 2027-08-11
-  - releaseCycle: "Horizon 7.5 ESB"
+  - releaseCycle: "7.5"
+    lts: true
     release: 2018-05-29
     support: 2020-11-30
     eol: 2023-03-22
-  - releaseCycle: "Horizon 7.13"
+  - releaseCycle: "7.13"
     release: 2020-10-15
     support: 2022-10-15
     eol: 2023-03-23
-  - releaseCycle: "Horizon 7.10 ESB"
+  - releaseCycle: "7.10"
+    lts: true
     release: 2019-09-17
     support: 2022-03-17
     eol: 2023-03-22
-  - releaseCycle: "Horizon 7.0 – 7.9, 7.11, 7.12"
+  - releaseCycle: "7.0 – 7.9, 7.11, 7.12"
     release: 2016-03-22
     support: 2021-03-22
     eol: 2023-03-22

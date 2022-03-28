@@ -14,22 +14,26 @@ auto:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
   git: https://github.com/FFmpeg/FFmpeg.git
   regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
-  - releaseCycle: "5.0 'Lorentz'"
+  - releaseCycle: "5.0"
     cycleShortHand: 50
+    codename: Lorentz
     release: 2022-01-17
     eol: false
     latest: "5.0"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.0
-  - releaseCycle: "4.4 'Rao'"
+  - releaseCycle: "4.4"
     cycleShortHand: 44
+    codename: Rao
     release:  2021-04-09
     eol: false
     latest: "4.4.1"
     link: https://ffmpeg.org/download.html#release_4.4
-  - releaseCycle: "4.3 '4:3'"
+  - releaseCycle: "4.3"
     cycleShortHand: 43
+    codename: '4:3'
     release: 2020-06-15
     eol: 2021-10-21
     latest: "4.3.3"

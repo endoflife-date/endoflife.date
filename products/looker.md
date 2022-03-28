@@ -7,6 +7,7 @@ iconSlug: looker
 releasePolicyLink: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
   https://docs.looker.com/relnotes/v{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__"}}
+LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
