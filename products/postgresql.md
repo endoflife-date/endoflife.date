@@ -15,7 +15,8 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:
   git: https://github.com/postgres/postgres.git
-  regex: REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>0|[1-9]\d*)?
+  # https://rubular.com/r/KlemgnguNe0e5X
+  regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
 releases:
   - releaseCycle: "14"
     release: 2021-09-30
