@@ -19,7 +19,7 @@ releases:
   - releaseCycle: "2203"
     release: 2022-03-24
     support: 2027-03-24
-    eol: 2032-03-24
+    eol: 2027-03-24
     lts: true
   - releaseCycle: "2112 (CR)"
     release: 2021-12-13
