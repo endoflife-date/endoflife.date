@@ -14,7 +14,13 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'release'
+LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 releases:
+  - releaseCycle: "2203"
+    release: 2022-03-24
+    support: 2027-03-24
+    eol: 2032-03-24
+    lts: true
   - releaseCycle: "2112 (CR)"
     release: 2021-12-13
     support: 2022-06-14
