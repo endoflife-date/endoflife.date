@@ -33,7 +33,7 @@ releases:
   - releaseCycle: "9"
     codename: Pie
     release: 2018-08-06
-    eol: false
+    eol: true
 
   - releaseCycle: "8.1"
     codename: Oreo
