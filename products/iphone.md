@@ -86,6 +86,10 @@ releases:
     release: 2021-09-24
     discontinued: false
     eol: false
+  - releaseCycle: "iPhone SE (3rd generation)"
+    release: 2022-03-18
+    discontinued: false
+    eol: false
 ---
 
 > The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system.
