@@ -28,8 +28,6 @@ releases:
 
 > [React](https://reactjs.org/) is an open-source JavaScript web framework for building modern web applications.
 
-React follows [Semantic Versioning](http://semver.org/) principles.
+## Versioning
 
-The only officially supported release channel for user-facing applications is Latest.
-
-See [React Release Channels](https://reactjs.org/docs/release-channels.html) for more information on the React developer community's versioning, release, and support policies.
+React follows [Semantic Versioning](http://semver.org/) principles. The only officially supported release channel for user-facing applications is Latest. New features are released in minor versions. Patch releases are made only for the most critical bugs and security vulnerabilities. Major releases can also contain new features, and any release can include bug fixes.
