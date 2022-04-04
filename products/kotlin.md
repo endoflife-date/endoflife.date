@@ -12,7 +12,8 @@ sortReleasesBy: "cycleShortHand"
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 auto:
   git: https://github.com/JetBrains/kotlin.git
-  regex: ^v(?<__MAJOR__>0|[1-9]\d*)\.(?<__MINOR__>0|[1-9]\d*)\.(?<__PATCH__>0|[1-9]\d*)$
+  # See https://rubular.com/r/KT3q1yE8NDOoPB for regex reference
+  regex: '^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$'
 activeSupportColumn: false
 discontinuedColumn: false
 releaseDateColumn: true
@@ -24,7 +25,7 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     release: 2021-11-16
-    latest: "1.6.10"
+    latest: "1.6.20"
 
   - releaseCycle: "1.5"
     cycleShortHand: 105
