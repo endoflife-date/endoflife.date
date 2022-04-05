@@ -6,10 +6,10 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-__RELEASE_CYCLE__"
 
 releases:
-  # Uncomment once released
-  #- releaseCycle: "1.22"
-  #  eol: 2023-05-01
-  #  release: 2022-03-17
+  - releaseCycle: "1.22"
+    eol: 2023-05-01
+    release: 2022-04-04
+    latest: 1.22.6
   - releaseCycle: "1.21"
     eol: 2023-02-01
     release: 2021-07-19
