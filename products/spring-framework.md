@@ -5,7 +5,7 @@ alternate_urls:
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
-changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/__LATEST__"
+changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__"
 auto:
   git: https://github.com/spring-projects/spring-framework.git
   # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
