@@ -34,7 +34,7 @@ releases:
     release: 2021-09-22
     latest: "15.3.7"
   - releaseCycle: "14"
-    eol: false
+    eol: true
     release: 2021-08-31
     latest: "14.2.6"
   - releaseCycle: "13"
