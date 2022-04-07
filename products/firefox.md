@@ -19,7 +19,7 @@ releases:
     latest: "99.0"
 
   - releaseCycle: "91"
-    release: 2022-04-05
+    release: 2021-11-02
     eol: 2022-09-20
     latest: "91.8.0"
     lts: true
