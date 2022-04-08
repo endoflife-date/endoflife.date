@@ -29,6 +29,7 @@ releases:
     eol: 2017-05-16
     release: 2012-05-15
 ---
+
 > [Adobe ColdFusion](http://coldfusion.com) is java-based commercial web application server and development platform from Adobe.
 
 ColdFusion's lifecycle is typically 5 years after release, with new releases usually about every two years. Adobe has a [Support Lifecycle Policy](https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html) page as well.

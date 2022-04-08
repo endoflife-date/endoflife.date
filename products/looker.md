@@ -73,6 +73,7 @@ releases:
     eol: true
 
 ---
+
 >[Looker](https://looker.com/) is a data exploration and business intelligence platform that offers a wide variety of tools for relational database work, business intelligence, and other related services. It operates as a part of Google Cloud Platform. It is available as both a managed service (Looker-hosted), and a [self-hosted](https://docs.looker.com/setup-and-management/looker-hosted-install) installation.
 
 ## Looker-hosted services

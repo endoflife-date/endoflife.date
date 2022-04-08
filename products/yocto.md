@@ -70,6 +70,7 @@ eolColumn: Support Status
 discontinuedColumn: false
 command: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 ---
+
 > The [Yocto Project](https://www.yoctoproject.org/) is a Linux Foundation project that helps developers create custom Linux-based systems and distributions regardless of the hardware architecture.
 
 Long-Term Support (LTS) releases are made usually every 2 years, and maintained for 2 years after their initial release. Minor releases for supported stable and LTS branches (e.g. 3.0.1, 3.0.2, 3.1.1, …) are released on an unscheduled basis, usually when enough significant bug fixes have been accumulated.

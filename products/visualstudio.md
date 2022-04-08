@@ -101,6 +101,7 @@ releaseDateColumn: false
 eolColumn: Active Support
 
 ---
+
 > [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform  
 
 **Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.

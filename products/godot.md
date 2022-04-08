@@ -61,6 +61,7 @@ releases:
     support: false
     latest: "1.1"
 ---
+
 >[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/latest/tutorials/export/exporting_basics.html#exporting-by-platform).
 
 Each stable branch starts with a `major.minor` release (without the 0 for patch) and is further developed for maintenance releases. _Stable branches are supported at minimum until the next stable branch is released and has received its first patch update_. In practice, stable branches are supported on a best effort basis for as long as they have active users who need maintenance updates.

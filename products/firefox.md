@@ -31,6 +31,7 @@ releases:
     lts: true
 
 ---
+
 > [Firefox](https://www.mozilla.org/firefox/browsers/), is a free and open-source web browser developed by the Mozilla. Firefox is available for [Windows][ff-win], [macOS][ff-mac], [Android][ff-android], [iOS][ff-ios], and [Linux][ff-linux], and [ChromeOS][ff-chromeos].
 
 ## Firefox has two main release channels:

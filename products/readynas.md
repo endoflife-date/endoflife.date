@@ -67,6 +67,7 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
 ---
+
 > ReadyNAS is a line of network-attached storages sold by [Netgear](https://www.netgear.com/).
 
 These devices run [ReadyNAS OS](https://www.netgear.fr/support/product/readynas_os_6.aspx), a Linux distribution based on Debian 8.

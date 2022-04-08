@@ -65,6 +65,7 @@ releases:
     eol: 2012-04-23
     latest: "1.0.15"
 ---
+
 > [NGINX](https://nginx.org/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
 
 ## Versioning Scheme

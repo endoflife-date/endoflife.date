@@ -40,6 +40,7 @@ releases:
     eol: 2020-06-30
     release: 2016-03-29
 ---
+
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [PAN-OS](https://docs.paloaltonetworks.com/pan-os) is the software that runs all Palo Alto Networks next-generation firewalls. These firewalls are deployed as physical appliances, virtual machines, containers, and cloud services.
 
 Software updates are provided as part of a valid support agreement with major releases of new features in the .0 (e.g. 10.0) release and minor releases of new features in the .1 (e.g. 10.1) release. Bug fixes and security fixes are provided for supported major and minor releases.

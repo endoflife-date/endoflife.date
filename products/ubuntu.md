@@ -68,6 +68,7 @@ releases:
     eol:     2024-04-01
     latest: "14.04.6"
 ---
+
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
 Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://www.ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.

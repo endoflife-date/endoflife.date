@@ -57,6 +57,7 @@ releases:
     eol: 2020-08-04
     latest: "1.16.16"
 ---
+
 >[Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
 
 Kubernetes follows an N-2 support policy (meaning that the 3 most recent minor versions receive security and bug fixes) along with a [15-week release cycle][cadence]. This results in a release being supported for 14 months (12 months of support and 2 months of upgrade period) starting from v1.19. (Prior releases received approximately 9 months of patch support).

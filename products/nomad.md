@@ -30,6 +30,7 @@ releases:
     release: 2020-07-09
     latest: "0.12.12"
 ---
+
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch, for up to two (2) releases from the most current major release. 

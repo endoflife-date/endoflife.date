@@ -1,7 +1,6 @@
 ---
 title: Amazon Kindle
 layout: post
-category: os
 iconSlug: amazon
 category: device
 sortReleasesBy: "release"
@@ -66,6 +65,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
 ---
+
 > [Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) is a series of e-readers designed by Amazon.
 
 For more information on the latest software release notes visit: [Kindle E-Reader Software Updates](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW).

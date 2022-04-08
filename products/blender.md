@@ -46,6 +46,7 @@ releases:
     
 
 ---
+
 > [Blender](https://blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
 
 With the release of Blender 2.83, Blender Foundation will start a LTS (Long Term Support) pilot program. The program is aimed at ensuring that long-lasting projects can be executed using a stable Blender version, which will provide critical fixes throughout a 2-year time span. 

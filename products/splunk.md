@@ -33,4 +33,5 @@ releases:
     cycleShortHand: 7.3.9
     latest: "7.3.9"
 ---
+
 > [Splunk](https://www.splunk.com/) is a data platform built for expansive data access, powerful analytics and automation.

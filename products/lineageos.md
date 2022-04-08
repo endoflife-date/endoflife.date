@@ -24,6 +24,7 @@ releaseColumn: false
 releaseDateColumn: true
 discontinuedColumn: false
 ---
+
 > [LineageOS](https://lineageos.org/) is a mobile operating system based on Android 
 
 LineageOS maintains two versions at the same time. Devices that are not ported to one of the two latest versions stop being supported. A list of supported devices is available at the [LineageOS Wiki](https://wiki.lineageos.org/devices/).

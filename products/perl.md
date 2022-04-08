@@ -43,6 +43,7 @@ releaseDateColumn: true
 eolColumn: Critical security patches
 command: perl -v
 ---
+
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30 years of development.
 
 As detailed in the [perlpolicy](https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT) man page, the Perl community will, to the best of its ability, attempt to:
