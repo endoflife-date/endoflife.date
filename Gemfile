@@ -21,7 +21,6 @@ group :jekyll_plugins do
   gem "just-the-docs"
   gem 'jekyll-seo-tag'
   gem 'jekyll-last-modified-at'
-  gem 'jekyll-sitemap'
   gem 'jemoji'
 end
 
