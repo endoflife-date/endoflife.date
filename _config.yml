@@ -1,5 +1,6 @@
 title: endoflife.date
 baseurl: /
+url: https://endoflife.date
 markdown: kramdown
 plugins:
   - jekyll-feed

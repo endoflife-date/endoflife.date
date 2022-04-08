@@ -4,3 +4,10 @@
   jekyll build
   """
   publish = "_site/"
+
+[context.deploy-preview]
+  command = """
+  rake gke
+  printf "url: %s" "$DEPLOY_PRIME_URL" > _config_netlify.yml
+  jekyll build --config _config.yml,_config_netlify.yml
+  """
