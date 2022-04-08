@@ -6,7 +6,6 @@ plugins:
   - jekyll-timeago
   - jekyll-seo-tag
   - jekyll-last-modified-at
-  - jekyll-sitemap
   - jemoji
 exclude:
   - Gemfile

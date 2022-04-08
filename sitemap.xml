@@ -1,0 +1,25 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.url != "/404.html"' %}
+  {% for page in pages %}
+    {% capture last_modified_at %}
+    {% if page.last_modified_at %}
+      <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    {% endcapture %}
+    <url>
+      <loc>{{ page.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
+      {{last_modified_at}}
+    </url>
+    {% if page.releases %}
+    <url>
+      <loc>{{ page.url | replace:'/index.html','/' |  prepend: "/api" | append:'.json' | absolute_url | xml_escape }}</loc>
+      {{last_modified_at}}
+    </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
