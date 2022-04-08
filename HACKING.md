@@ -43,7 +43,7 @@ bundle exec jekyll --version
 Run the site locally:
 
 ```bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --host localhost --port 4000
 ```
 
 Browse to `http://localhost:4000` and you should see the site running locally. If you find any errors at this stage, check [Jekyll's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) or [ask a question in the Q&A category](https://github.com/endoflife-date/endoflife.date/discussions/new/) on GitHub Discussions.
