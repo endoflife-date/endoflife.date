@@ -52,6 +52,7 @@ releases:
     latest: "6.0.10"
     link: https://www.debian.org/News/2011/20110205a
 ---
+
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable branch is the most popular edition for personal computers and network servers, and is used as the basis for many other Linux distributions.
 
 At any given time, there is one stable release of Debian, which has the support of the Debian security team. When a new stable version is released, the security team will usually cover the previous version for a year or so, while they also cover the new/current version. Only stable is recommended for production use.

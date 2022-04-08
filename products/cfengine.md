@@ -41,6 +41,7 @@ releases:
     support: 2022-12-18
 
 ---
+
 > [CFEngine](https://cfengine.com) is an open-source configuration management, automation and knowledge management tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
 
 CFEngine typically has releases once every 6 months. LTS releases occur every 1.5 years and are supported for 3 years.

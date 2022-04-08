@@ -74,6 +74,7 @@ releases:
     release: 2019-04-24
     latest: "5.0.13"
 ---
+
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux.
 
 The latest _four_ stable major versions are currently supported (till May 2022, after which only [3 major versions will be supported](https://www.electronjs.org/blog/8-week-cadence)). Only the latest minor release in each major version is supported. A new major stable version is released every 8 weeks.

@@ -63,6 +63,7 @@ releases:
     support: 2017-07-25 # release date of 1.5.0
     latest: "1.4.5"
 ---
+
 >[Elixir](https://elixir-lang.org/) is a dynamic, functional language designed for building scalable and maintainable applications.
 
 A new backwards compatible minor release happens every 6 months. Patch releases are not scheduled and are made whenever there are bug fixes or security patches.

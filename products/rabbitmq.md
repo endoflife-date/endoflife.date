@@ -54,4 +54,5 @@ releases:
     release: 2012-11-19
     latest: "3.0.4"
 ---
+
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker.

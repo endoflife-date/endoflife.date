@@ -61,6 +61,7 @@ releaseDateColumn: true
 eolColumn: End-of-Life
 command: "https://your-server-url/mediawiki/Special:Version"
 ---
+
 > [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers Wikipedia, but it is also frequently used for other wikis.
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2 years) being an LTS (Long-Term Support) release branch. LTS release branches receive security support and bug fixes for three years after their initial release, while non-LTS release branches are supported for one year after their initial release.

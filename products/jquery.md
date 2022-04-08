@@ -27,6 +27,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 ---
+
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.
 
 The 1.x and 2.x branches no longer receive patches.

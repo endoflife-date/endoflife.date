@@ -110,6 +110,7 @@ eolColumn: End of Life
 command: cat /usr/lib/os-release
 
 ---
+
 > [openSUSE](https://www.opensuse.org/) is a linux distribution developed by the community-supported openSUSE Project and aimed at sysadmins, developers and desktop users.
 
 openSUSE Leap is the name for openSUSE's regular releases, which were previously known as just 'openSUSE' for versions 13.2 and earlier. A Leap Minor Release (42.1, 42.2, 15.1, 15.2, etc.) is expected to be released annually. Users are expected to upgrade to the latest minor release within 6 months of its availability, leading to a _maintenance life cycle of 18 months_. Support is defined as:

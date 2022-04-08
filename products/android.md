@@ -5,7 +5,6 @@ alternate_urls:
   - /androidos
 layout: post
 permalink: /android
-category: device
 releasePolicyLink: https://developer.android.com/about/versions
 category: os
 activeSupportColumn: false
