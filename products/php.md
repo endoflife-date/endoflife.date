@@ -9,7 +9,7 @@ changelogTemplate: |
 activeSupportColumn: true
 auto:
   git: https://github.com/php/php-src.git
-  regex: ^php-(?<__MAJOR__>0|[1-9]\d*)\.(?<__MINOR__>0|[1-9]\d*)\.(?<__PATCH__>0|[1-9]\d*)$
+  regex: ^php-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 command: php --version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'

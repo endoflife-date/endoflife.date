@@ -9,24 +9,24 @@ changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:
   git: https://github.com/twbs/bootstrap.git
 releases:
-  - releaseCycle: 5.x
+  - releaseCycle: "5"
     release: 2021-05-05
     eol: false
     support: true
     lts: true
     latest: "5.1.3"
-  - releaseCycle: 4.x
+  - releaseCycle: "4"
     release: 2018-01-18
     eol: 2022-11-01
     latest: "4.6.1"
     lts: true
     support: false
-  - releaseCycle: 3.x
+  - releaseCycle: "3"
     release: 2013-08-19
     eol: 2019-07-24
     latest: "3.4.1"
     support: false
-  - releaseCycle: 2.x
+  - releaseCycle: "2"
     release: 2013-07-18
     eol: 2013-08-19
     latest: "2.3.2"
