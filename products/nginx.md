@@ -14,6 +14,7 @@ changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
 auto:
   git: https://github.com/nginx/nginx.git
   hg: https://hg.nginx.org/nginx
+  regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
   - releaseCycle: "1.21"
     release: 2021-05-25
