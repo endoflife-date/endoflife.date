@@ -16,7 +16,7 @@ releases:
     release: 2021-12-03 # https://github.com/elixir-lang/elixir/releases/tag/v1.13.0
     eol: 2024-06-01 # projected release date of 1.18.0
     support: 2022-06-01 # projected release date of 1.14.0
-    latest: "1.13.1"
+    latest: "1.13.4"
   - releaseCycle: "1.12"
     release: 2021-05-19 # https://github.com/elixir-lang/elixir/releases/tag/v1.12.0
     eol: 2023-12-01 # projected release date of 1.17.0
