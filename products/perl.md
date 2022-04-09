@@ -34,7 +34,6 @@ releases:
     support: 2019-05-22
     release: 2017-05-30
     latest: "5.26.3"
-
 permalink: /perl
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 activeSupportColumn: true

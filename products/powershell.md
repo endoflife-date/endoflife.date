@@ -17,28 +17,23 @@ releases:
     release: 2021-11-08
     eol:     2024-11-30
     latest:  "7.2.4"
-
   - releaseCycle: "7.1"
     release: 2020-11-11
     eol:     2022-05-31
     latest:  "7.1.7"
-
   - releaseCycle: "7.0"
     lts: true
     release: 2020-03-04
     eol:     2022-12-03
     latest:  "7.0.11"
-
   - releaseCycle: "6.2"
     release: 2019-03-28
     eol:     2020-09-04
     latest:  "6.2.7"
-
   - releaseCycle: "6.1"
     release: 2018-09-13
     eol:     2019-09-28
     latest:  "6.1.6"
-
   - releaseCycle: "6.0"
     release: 2018-01-10
     eol:     2019-02-13
