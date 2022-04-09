@@ -15,14 +15,14 @@ releases:
     codename: "Bullseye"
     release: 2021-08-14
     eol: 2026-08-15
-    latest: "11.2"
-    link: https://www.debian.org/News/2021/20211218
+    latest: "11.3"
+    link: https://www.debian.org/News/2022/20220326
   - releaseCycle: "10"
     codename: "Buster"
     release: 2019-07-06
     eol: 2024-06-01
-    latest: "10.11"
-    link: https://www.debian.org/News/2021/2021100902
+    latest: "10.12"
+    link: https://www.debian.org/News/2022/2022032602
   - releaseCycle: "9"
     codename: "Stretch"
     release: 2017-06-17
