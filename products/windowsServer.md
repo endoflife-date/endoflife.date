@@ -93,5 +93,10 @@ releases:
     release: 2003-05-28
     support: 2010-07-13
     eol: 2015-07-14
+  - releaseCycle: "2000"
+    cycleShortHand: 5.0.2195
+    release: 2000-02-17
+    support: 2005-06-30
+    eol: 2010-07-13
 ---
 
