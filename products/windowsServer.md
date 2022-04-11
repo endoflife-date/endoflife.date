@@ -88,5 +88,15 @@ releases:
     release: 2009-04-29
     support: 2015-01-13
     eol: 2020-01-14
+  - releaseCycle: "2003"
+    cycleShortHand: 5.2.3790
+    release: 2003-05-28
+    support: 2010-07-13
+    eol: 2015-07-14
+  - releaseCycle: "2000"
+    cycleShortHand: 5.0.2195
+    release: 2000-02-17
+    support: 2005-06-30
+    eol: 2010-07-13
 ---
 
