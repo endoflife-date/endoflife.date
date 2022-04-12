@@ -12,7 +12,7 @@ auto:
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "2.16"
-    support: 2022-05-07
+    support: 2022-05-01
     release: 2022-02-07
     lts: false
     eol: false
@@ -24,7 +24,7 @@ releases:
     eol: false
     latest: "2.15.5"
   - releaseCycle: "2.14"
-    eol: 2022-05-07
+    eol: 2022-02-07
     support: 2021-11-04
     release: 2021-08-01
     lts: false
