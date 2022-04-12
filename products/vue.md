@@ -19,7 +19,7 @@ releases:
     release: 2020-09-18
     support: true
     eol: false
-    latest: "3.2.31"
+    latest: "3.2.32"
     lts: false
   - releaseCycle: "2"
     release: 2016-09-30
