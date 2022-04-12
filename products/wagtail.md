@@ -11,17 +11,23 @@ auto:
   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: "release"
 releases:
+  - releaseCycle: "2.16"
+    support: 2022-05-01
+    release: 2022-02-07
+    lts: false
+    eol: false
+    latest: "2.16.2"
   - releaseCycle: "2.15"
     support: 2023-02-01
     release: 2021-11-04
     lts: true
     eol: false
-    latest: "2.15.1"
+    latest: "2.15.5"
   - releaseCycle: "2.14"
+    eol: 2022-02-07
     support: 2021-11-04
     release: 2021-08-01
     lts: false
-    eol: false
     latest: "2.14.2"
   - releaseCycle: "2.13"
     eol: 2022-02-01
@@ -36,11 +42,11 @@ releases:
     lts: false
     latest: "2.12.6"
   - releaseCycle: "2.11"
-    eol: 2022-02-01
+    eol: 2022-02-07
     support: 2021-02-02
     release: 2020-11-02
     lts: true
-    latest: "2.11.8"
+    latest: "2.11.9"
   - releaseCycle: "2.10"
     eol: 2021-02-02
     support: 2020-11-02
