@@ -95,6 +95,19 @@ releases:
     release: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
+  - releaseCycle: "Windows Vista SP2"
+    cycleShortHand: 6.0.6200
+    release: 2009-04-29
+    support: 2012-04-10
+    eol: 2017-04-11
+  - releaseCycle: "Windows XP SP3"
+    cycleShortHand: 5.1.2600
+    release: 2008-04-21
+    support: 2009-04-14
+    eol: 2014-04-08
+
+
+
 ---
 
 | Note | Comment                                                    |
