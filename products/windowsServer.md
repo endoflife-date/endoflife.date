@@ -84,7 +84,7 @@ releases:
     support: 2015-01-13
     eol: 2020-01-14
   - releaseCycle: "2008-SP2"
-    cycleShortHand: 6.0.6002
+    cycleShortHand: 6.0.6003
     release: 2009-04-29
     support: 2015-01-13
     eol: 2020-01-14
