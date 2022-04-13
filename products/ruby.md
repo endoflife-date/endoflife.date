@@ -36,7 +36,7 @@ releases:
   - releaseCycle: "2.6"
     release: 2018-12-25
     eol: 2022-03-31
-    latest: "2.6.9"
+    latest: "2.6.10"
 
   - releaseCycle: "2.5"
     release: 2017-12-25
