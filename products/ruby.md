@@ -21,22 +21,22 @@ releases:
   - releaseCycle: "3.1"
     release: 2021-12-25
     eol: 2025-12-25
-    latest: "3.1.1"
+    latest: "3.1.2"
 
   - releaseCycle: "3.0"
     release: 2020-12-25
     eol: 2024-03-31
-    latest: "3.0.3"
+    latest: "3.0.4"
 
   - releaseCycle: "2.7"
     release: 2019-12-25
     eol: 2023-03-31
-    latest: "2.7.5"
+    latest: "2.7.6"
 
   - releaseCycle: "2.6"
     release: 2018-12-25
     eol: 2022-03-31
-    latest: "2.6.9"
+    latest: "2.6.10"
 
   - releaseCycle: "2.5"
     release: 2017-12-25
