@@ -2,7 +2,7 @@
 permalink: /ansible
 layout: post
 title: Ansible
-#command: ansible --version
+command: python3 -c 'from ansible_collections.ansible_release import ansible_version; print(ansible_version)'
 releasePolicyLink: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
