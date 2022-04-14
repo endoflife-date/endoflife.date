@@ -12,28 +12,27 @@ eolColumn: Supported
 iconSlug: ansible
 auto:
   git: https://github.com/ansible/ansible.git
-# Now we've split ansible & ansible-core, is auto/git enough?
-#releases:
-#  - releaseCycle: "2.13"
-#    release: 2021-11-05
-#    eol: false
-#    latest: "v2.13.0b0"
-#  - releaseCycle: "2.12"
-#    release: 2021-11-05
-#    eol: false
-#    latest: "2.12.4"
-#  - releaseCycle: "2.11"
-#    release: 2021-04-26
-#    eol: true
-#    latest: "2.11.10
-#  - releaseCycle: "2.10"
-#    release: 2020-08-13
-#    eol: true
-#    latest: "2.10.17"
-#  - releaseCycle: "2.9"
-#    release: 2019-10-31
-#    eol: false
-#    latest: "2.9.27"
+releases:
+  - releaseCycle: "2.13"
+    release: 2021-11-05
+    eol: false
+    latest: "v2.13.0b0"
+  - releaseCycle: "2.12"
+    release: 2021-11-05
+    eol: false
+    latest: "2.12.4"
+  - releaseCycle: "2.11"
+    release: 2021-04-26
+    eol: true
+    latest: "2.11.10
+  - releaseCycle: "2.10"
+    release: 2020-08-13
+    eol: true
+    latest: "2.10.17"
+  - releaseCycle: "2.9"
+    release: 2019-10-31
+    eol: false
+    latest: "2.9.27"
 
 ---
 

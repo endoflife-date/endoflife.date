@@ -13,23 +13,23 @@ eolColumn: Supported
 iconSlug: ansible
 auto:
   git: https://github.com/ansible-community/ansible-build-data.git
-#releases:
-#  - releaseCycle: "5"
-#    release: 2021-11-30
-#    eol: false
-#    latest: "5.6.0"
-#  - releaseCycle: "4"
-#    release: 2021-05-11
-#    eol: true
-#    latest: "4.10.0"
-#  - releaseCycle: "3"
-#    release: 2021-02-09
-#    eol: true
-#    latest: "3.4.0"
-#  - releaseCycle: "2.10"
-#    release: 2020-09-15
-#    eol: true
-#    latest: "2.10.7"
+releases:
+  - releaseCycle: "5"
+    release: 2021-11-30
+    eol: false
+    latest: "5.6.0"
+  - releaseCycle: "4"
+    release: 2021-05-11
+    eol: true
+    latest: "4.10.0"
+  - releaseCycle: "3"
+    release: 2021-02-09
+    eol: true
+    latest: "3.4.0"
+  - releaseCycle: "2.10"
+    release: 2020-09-15
+    eol: true
+    latest: "2.10.7"
 
 ---
 
