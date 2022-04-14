@@ -24,7 +24,7 @@ releases:
   - releaseCycle: "2.11"
     release: 2021-04-26
     eol: true
-    latest: "2.11.10
+    latest: "2.11.10"
   - releaseCycle: "2.10"
     release: 2020-08-13
     eol: true
