@@ -2,8 +2,9 @@
 permalink: /ansible
 layout: post
 title: Ansible
-command: ansible --version
+#command: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
@@ -12,30 +13,30 @@ eolColumn: Supported
 iconSlug: ansible
 auto:
   git: https://github.com/ansible-community/ansible-build-data.git
-releases:
-  - releaseCycle: "5"
-    release: 2021-11-30
-    eol: false
-    latest: "5.6.0"
-  - releaseCycle: "4"
-    release: 2021-05-11
-    eol: true
-    latest: "4.10.0"
-  - releaseCycle: "3"
-    release: 2021-02-09
-    eol: true
-    latest: "3.4.0"
-  - releaseCycle: "2.10"
-    release: 2020-09-15
-    eol: true
-    latest: "2.10.7"
+#releases:
+#  - releaseCycle: "5"
+#    release: 2021-11-30
+#    eol: false
+#    latest: "5.6.0"
+#  - releaseCycle: "4"
+#    release: 2021-05-11
+#    eol: true
+#    latest: "4.10.0"
+#  - releaseCycle: "3"
+#    release: 2021-02-09
+#    eol: true
+#    latest: "3.4.0"
+#  - releaseCycle: "2.10"
+#    release: 2020-09-15
+#    eol: true
+#    latest: "2.10.7"
 
 ---
 
 > [Ansible](https://ansible.com) is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
 
-The Ansible community package (which this page tracks) typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release. `ansible-core`, the package meant for developers, has [a separate maintenance policy](https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html#id14).
+The Ansible community package (which this page tracks) typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
 See the [Ansible Roadmap][roadmap] for upcoming release details.
 
-[roadmap]: https://docs.ansible.com/ansible/latest/roadmap/ansible_roadmap_index.html
+[roadmap]: https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html
