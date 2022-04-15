@@ -25,7 +25,7 @@ releases:
   - releaseCycle: "1.9"
     eol: false
     release: 2020-11-24
-    latest: "1.9.16"
+    latest: "1.9.17"
   - releaseCycle: "1.8"
     eol: true
     release: 2020-06-18
