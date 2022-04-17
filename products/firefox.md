@@ -16,7 +16,7 @@ releases:
   - releaseCycle: "99"
     release: 2022-04-05
     eol: false
-    latest: "99.0"
+    latest: "99.0.1"
 
   - releaseCycle: "91"
     release: 2021-08-10
