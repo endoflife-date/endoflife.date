@@ -7,17 +7,17 @@ changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 auto:
   git: https://github.com/composer/composer.git
 releases:
-  - releaseCycle: "2"
+  - releaseCycle: "2.3"
     eol: false
     support: true
-    release: 2020-10-24
-    latest: "2.3.4"
+    release: 2022-03-30
+    latest: "2.3.5"
     link: https://blog.packagist.com/composer-2-3/
 
   - releaseCycle: "2.2"
     eol: 2023-12-31
     release: 2021-12-22
-    latest: "2.2.11"
+    latest: "2.2.12"
     lts: true
 
   - releaseCycle: "1.x"
