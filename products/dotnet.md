@@ -9,7 +9,7 @@ layout: post
 title: .NET
 command: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__CYCLE_SHORT_HAND__/__LATEST__/__LATEST__.md
+changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/__CYCLE_SHORT_HAND__/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 sortReleasesBy: "release"
 eolColumn: Support Status
