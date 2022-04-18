@@ -43,3 +43,12 @@ The `ansible` package (which this page tracks) typically gets 2 major releases e
 See the [Ansible Roadmap][roadmap] for upcoming release details.
 
 [roadmap]: https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html
+
+## Python Compatibility
+
+| ansible-core Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
+|----------------------|-------------------------------------|----------------------------------|
+| 2.9                  | 2.7 or 3.5                          | 2.6 or 3.5                       |
+| 2.10                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
+| 2.11                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
+| 2.12                 | 3.8                                 | 2.6 or 3.5                       |
