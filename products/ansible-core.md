@@ -36,13 +36,14 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
+> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
 
-The `ansible` package (which this page tracks) typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release. `ansible-core`).
+The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 
 See the [Ansible Roadmap][roadmap] for upcoming release details.
 
 [roadmap]: https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html
+[maintenance]: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 
 ## Python Compatibility
 
