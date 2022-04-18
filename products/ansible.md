@@ -49,5 +49,4 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 | ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
 | 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
-| 2.10            | 2.7 or 3.5                          | 2.6 or 3.5                       |
 | 5               | 3.8                                 | 2.6 or 3.5                       |
