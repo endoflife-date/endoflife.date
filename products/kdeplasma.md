@@ -30,7 +30,7 @@ releases:
     
   - releaseCycle: "5.24"
     release: 2022-02-08
-    latest: "5.24.3"
+    latest: "5.24.4"
     support: 2022-06-09 # Scheduled release of 5.25.0
     eol: false # Will end when Plasma 6 comes out
     lts: true
