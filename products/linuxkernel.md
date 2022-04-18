@@ -23,69 +23,56 @@ releases:
     cycleShortHand: 517
     release: "5.17"
     eol: false
-    latest: "5.17"
+    latest: "5.17.3"
     
   - releaseCycle: "5.16"
     cycleShortHand: 516
     release: 2022-01-09
-    eol: false
-    # we need to refine eol of 5.16 when its eol dates announced
-    latest: "5.16.17"
+    eol: 2022-04-13
+    latest: "5.16.20"
 
   - releaseCycle: "5.15"
     cycleShortHand: 515
     release: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "5.15.31"
-
-  - releaseCycle: "5.14"
-    cycleShortHand: 514
-    release: 2021-08-29
-    eol: true
-    latest: "5.14.21"
+    latest: "5.15.34"
         
   - releaseCycle: "5.10"
     cycleShortHand: 510
     release: 2020-12-13
     eol: 2026-12-01
     lts: true
-    latest: "5.10.108"
+    latest: "5.10.111"
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
     release: 2019-11-24
     eol: 2025-12-01
     lts: true
-    latest: "5.4.187"
+    latest: "5.4.189"
     
   - releaseCycle: "4.19"
     cycleShortHand: 419
     release: 2018-10-22
     eol: 2024-12-01
     lts: true
-    latest: "4.19.236"
+    latest: "4.19.238"
     
   - releaseCycle: "4.14"
     cycleShortHand: 414
     release: 2017-11-12
     eol: 2024-01-01
     lts: true
-    latest: "4.14.273"
+    latest: "4.14.275"
     
   - releaseCycle: "4.9"
     cycleShortHand: 409
     release: 2016-12-11
     eol: 2023-01-01
     lts: true
-    latest: "4.9.308"
+    latest: "4.9.310"
     
-  - releaseCycle: "4.4"
-    cycleShortHand: 404
-    release: 2016-01-10
-    eol: 2022-02-01
-    lts: true
-    latest: "4.4.302"
 ---
 
 > The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel.
