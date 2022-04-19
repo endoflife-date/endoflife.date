@@ -17,6 +17,12 @@ command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "18"
+    release: 2022-04-19
+    lts: true
+    support: 2023-10-18
+    eol: 2025-04-30
+    latest: "18.0.0"
   - releaseCycle: "17"
     release: 2021-10-19
     lts: false
