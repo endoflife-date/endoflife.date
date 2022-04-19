@@ -35,9 +35,7 @@ releases:
 
 > [Apache Log4j](https://logging.apache.org/log4j/2.x/) is a Java-based logging utility. It is part of the Apache Logging Services, a project of the Apache Software Foundation.
 
-Log4j 1 reached End-Of-Life on [August 2015](https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces).
-
-[reload4j](https://reload4j.qos.ch/) is a fork of Apache log4j version 1.2.17, initiated by Ceki Gülcü, the original author of Apache log4j 1.x, with the goal of fixing pressing security issues.
+Log4j 1 reached End-Of-Life on [August 2015](https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces). The [reload4j](https://reload4j.qos.ch/) project provides a drop-in replacement for Log4j 1.x with maintenance and security fixes.
 
 ## Java Support
 
