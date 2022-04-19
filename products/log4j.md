@@ -37,6 +37,8 @@ releases:
 
 Log4j 1 reached End-Of-Life on [August 2015](https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces).
 
+[reload4j](https://reload4j.qos.ch/) is a fork of Apache log4j version 1.2.17, initiated by Ceki Gülcü, the original author of Apache log4j 1.x, with the goal of fixing pressing security issues.
+
 ## Java Support
 
 The only supported Java version is Java 8 and above.
