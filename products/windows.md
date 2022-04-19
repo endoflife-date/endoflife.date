@@ -90,6 +90,11 @@ releases:
     release: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
+  - releaseCycle: "Windows 8"
+    cycleShortHand: 6.2.9200 
+    release: 2012-10-30
+    support: 2016-01-12
+    eol: 2016-01-12
   - releaseCycle: "Windows 7 SP1"
     cycleShortHand: 6.1.7601
     release: 2011-02-22
