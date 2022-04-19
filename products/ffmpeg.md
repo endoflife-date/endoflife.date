@@ -21,7 +21,7 @@ releases:
     codename: Lorentz
     release: 2022-01-17
     eol: false
-    latest: "5.0"
+    latest: "5.0.1"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.0
   - releaseCycle: "4.4"
@@ -29,14 +29,14 @@ releases:
     codename: Rao
     release:  2021-04-09
     eol: false
-    latest: "4.4.1"
+    latest: "4.4.2"
     link: https://ffmpeg.org/download.html#release_4.4
   - releaseCycle: "4.3"
     cycleShortHand: 43
     codename: '4:3'
     release: 2020-06-15
     eol: 2021-10-21
-    latest: "4.3.3"
+    latest: "4.3.4"
     link: https://ffmpeg.org/download.html#release_4.3
     
 ---
