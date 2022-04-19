@@ -22,7 +22,7 @@ releases:
 
   - releaseCycle: "1.x"
     release: 2016-04-05
-    latest: "1.10.25"
+    latest: "1.10.26"
     eol: 2020-10-24
 
 iconSlug: composer
