@@ -17,8 +17,8 @@ releases:
     release: 2020-07-28
     eol: 2022-11-30
     support: 2022-11-30
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-3.html
-    latest: "2.4.3-p1"
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
+    latest: "2.4.4"
   - releaseCycle: "2.4.2"
     cycleShortHand: 2
     release: 2020-07-28
