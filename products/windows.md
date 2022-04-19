@@ -90,11 +90,29 @@ releases:
     release: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
+  - releaseCycle: "Windows 8"
+    cycleShortHand: 6.2.9200 
+    release: 2012-10-30
+    support: 2016-01-12
+    eol: 2016-01-12
   - releaseCycle: "Windows 7 SP1"
     cycleShortHand: 6.1.7601
     release: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
+  - releaseCycle: "Windows Vista SP2"
+    cycleShortHand: 6.0.6200
+    release: 2009-04-29
+    support: 2012-04-10
+    eol: 2017-04-11
+  - releaseCycle: "Windows XP SP3"
+    cycleShortHand: 5.1.2600
+    release: 2008-04-21
+    support: 2009-04-14
+    eol: 2014-04-08
+
+
+
 ---
 
 | Note | Comment                                                    |
@@ -105,6 +123,8 @@ releases:
 
 [Windows 11 release information](https://docs.microsoft.com/windows/release-health/windows11-release-information)  
 [Windows 10 release information](https://docs.microsoft.com/windows/release-health/release-information)  
+[Windows 8.1 update information](https://support.microsoft.com/topic/windows-8-1-and-windows-server-2012-r2-update-history-47d81dd2-6804-b6ae-4112-20089467c7a6)
+[Windows 7 update information](https://support.microsoft.com/topic/windows-7-sp1-and-windows-server-2008-r2-sp1-update-history-720c2590-fd58-26ba-16cc-6d8f3b547599)
 [Windows Lifecycle FAQ](https://docs.microsoft.com/lifecycle/faq/windows)
 
 Beginning with Windows 10, version 21H2, feature updates for Windows 10 release are released annually, in the second half of the calendar year.

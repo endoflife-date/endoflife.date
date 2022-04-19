@@ -84,13 +84,13 @@ releases:
     support: 2015-01-13
     eol: 2020-01-14
   - releaseCycle: "2008-SP2"
-    cycleShortHand: 6.0.6002
+    cycleShortHand: 6.0.6003
     release: 2009-04-29
     support: 2015-01-13
     eol: 2020-01-14
   - releaseCycle: "2003"
     cycleShortHand: 5.2.3790
-    release: 2003-05-28
+    release: 2003-04-24
     support: 2010-07-13
     eol: 2015-07-14
   - releaseCycle: "2000"
