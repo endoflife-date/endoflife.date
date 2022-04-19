@@ -123,6 +123,8 @@ releases:
 
 [Windows 11 release information](https://docs.microsoft.com/windows/release-health/windows11-release-information)  
 [Windows 10 release information](https://docs.microsoft.com/windows/release-health/release-information)  
+[Windows 8.1 update information](https://support.microsoft.com/topic/windows-8-1-and-windows-server-2012-r2-update-history-47d81dd2-6804-b6ae-4112-20089467c7a6)
+[Windows 7 update information](https://support.microsoft.com/topic/windows-7-sp1-and-windows-server-2008-r2-sp1-update-history-720c2590-fd58-26ba-16cc-6d8f3b547599)
 [Windows Lifecycle FAQ](https://docs.microsoft.com/lifecycle/faq/windows)
 
 Beginning with Windows 10, version 21H2, feature updates for Windows 10 release are released annually, in the second half of the calendar year.
