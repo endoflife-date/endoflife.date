@@ -25,7 +25,7 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     release: 2021-11-16
-    latest: "1.6.20"
+    latest: "1.6.21"
 
   - releaseCycle: "1.5"
     cycleShortHand: 105
