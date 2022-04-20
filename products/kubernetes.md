@@ -20,7 +20,7 @@ alternate_urls:
 releases:
   - releaseCycle: "1.23"
     release: 2021-12-07
-    latest: "1.23.5"
+    latest: "1.23.6"
     support: 2022-12-28
     eol: 2023-02-28
   - releaseCycle: "1.22"
