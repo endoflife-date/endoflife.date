@@ -25,7 +25,7 @@ releases:
     eol: 2023-02-28
   - releaseCycle: "1.22"
     release: 2021-08-04
-    latest: "1.22.8"
+    latest: "1.22.9"
     support: 2022-08-28
     eol: 2022-10-28
   - releaseCycle: "1.21"
