@@ -35,10 +35,24 @@ releases:
     cycleShortHand: 43
     codename: '4:3'
     release: 2020-06-15
-    eol: 2021-10-21
+    eol: false
     latest: "4.3.4"
     link: https://ffmpeg.org/download.html#release_4.3
-    
+  - releaseCycle: "4.2"
+    cycleShortHand: 42
+    codename: 'Ada'
+    release: 2019-07-21
+    eol: false
+    latest: "4.2.6"
+    link: https://ffmpeg.org/download.html#release_4.2
+  - releaseCycle: "4.1"
+    cycleShortHand: 41
+    codename: 'al-Khwarizmi'
+    release: 2018-11-02
+    eol: false
+    latest: "4.1.9"
+    link: https://ffmpeg.org/download.html#release_4.1
+  
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. It is the core of software such as VLC, MPV, Blender, Audacity, HandBrake, OBS Studio, and much more. Full list of capabilities are found [in their documentation](https://ffmpeg.org/ffmpeg.html).
