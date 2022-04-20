@@ -16,12 +16,10 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releases:
-  # pending releases:
-  # - releaseCycle: "2.8"
-  #   latest: "2.8.0"
-  #   release: 2022-04-18
-  #   eol: false
-  # current releases:
+  - releaseCycle: "2.8"
+    latest: "2.8.0"
+    release: 2022-04-19
+    eol: false
   - releaseCycle: "2.7"
     latest: "2.7.0"
     release: 2022-03-07
