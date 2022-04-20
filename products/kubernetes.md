@@ -30,7 +30,7 @@ releases:
     eol: 2022-10-28
   - releaseCycle: "1.21"
     release: 2021-04-08
-    latest: "1.21.11"
+    latest: "1.21.12"
     support: 2022-04-28
     eol: 2022-06-28
   - releaseCycle: "1.20"
