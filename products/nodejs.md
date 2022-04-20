@@ -19,7 +19,8 @@ sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "18"
     release: 2022-04-19
-    lts: true
+    <!-- Change to true after 2022-10-25 -->
+    lts: false
     support: 2023-10-18
     eol: 2025-04-30
     latest: "18.0.0"
