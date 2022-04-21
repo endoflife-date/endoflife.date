@@ -14,6 +14,10 @@ releaseDateColumn: true
 command: consul --version
 
 releases:
+  - releaseCycle: "1.12"
+    eol: false
+    release: 2022-04-20
+    latest: "1.12.0"
   - releaseCycle: "1.11"
     eol: false
     release: 2021-12-14
@@ -23,7 +27,7 @@ releases:
     release: 2021-06-22
     latest: "1.10.10"
   - releaseCycle: "1.9"
-    eol: false
+    eol: true
     release: 2020-11-24
     latest: "1.9.17"
   - releaseCycle: "1.8"
