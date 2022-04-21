@@ -5,7 +5,9 @@ title: Ubuntu
 command: lsb_release --release
 category: os
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/ReleaseNotes/ChangeSummary/__LATEST__/
+changelogTemplate: |
+  https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/
+
 activeSupportColumn: true
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
