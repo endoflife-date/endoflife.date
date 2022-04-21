@@ -14,6 +14,11 @@ eolColumn: Security Support
 sortReleasesBy: 'release'
 releaseLabel: "Android __RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+  - releaseCycle: "12L"
+    codename: Snow Cone 12.1
+    release: 2022-03-07
+    eol: false
+
   - releaseCycle: "12"
     codename: Snow Cone
     release: 2021-10-04
