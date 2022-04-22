@@ -34,15 +34,16 @@ releases:
     release: 2021-06-02
     eol: 2023-06-01
     support: true
-    latest: "2.93.8"
+    latest: "2.93.9"
     lts: true
 
   - releaseCycle: "2.83"
     release: 2020-06-03
     eol: 2022-06-01
     support: 2020-08-31
-    latest: "2.83.19"
+    latest: "2.83.20"
     lts: true
+    
     
 
 ---
