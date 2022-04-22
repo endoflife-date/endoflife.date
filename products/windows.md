@@ -87,24 +87,24 @@ releases:
     eol: 2020-05-11
   - releaseCycle: "Windows 10, version 1709 (E)"
     cycleShortHand: 10.0.16299
-    release: 2017-09-17
-    support: 2020-09-13
+    release: 2017-10-17
+    support: 2020-10-13
     eol: 2020-09-13
   - releaseCycle: "Windows 10, version 1709 (W)"
     cycleShortHand: 10.0.16299
-    release: 2017-09-17
+    release: 2017-10-17
     support: 2019-04-09
     eol: 2019-04-09
   - releaseCycle: "Windows 10, version 1703 (E)"
     cycleShortHand: 10.0.15063
     release: 2017-04-11
-    support: 2019-09-08
-    eol: 2019-09-08
+    support: 2019-10-08
+    eol: 2019-10-08
   - releaseCycle: "Windows 10, version 1703 (W)"
     cycleShortHand: 10.0.15063
-    release: 2017-04-05
-    support: 2018-09-09
-    eol: 2018-09-09
+    release: 2017-04-11
+    support: 2018-09-10
+    eol: 2018-09-10
   - releaseCycle: "Windows 10, version 1607 (E)"
     cycleShortHand: 10.0.14393
     release: 2016-08-02
@@ -115,22 +115,12 @@ releases:
     release: 2016-08-02
     support: 2018-04-10
     eol: 2018-04-10
-  - releaseCycle: "Windows 10, version 1511 (E)"
+  - releaseCycle: "Windows 10, version 1511 (E)(W)"
     cycleShortHand: 10.0.10586
     release: 2015-11-10
-    support: 2018-04-10
-    eol: 2018-04-10
-  - releaseCycle: "Windows 10, version 1511 (W)"
-    cycleShortHand: 10.0.10586
-    release: 2015-11-10
-    support: 2017-09-10
-    eol: 2017-09-10
-  - releaseCycle: "Windows 10, version 1507 (E)"
-    cycleShortHand: 10.0.10240
-    release: 2015-07-29
-    support: 2017-05-09
-    eol: 2017-05-09
-  - releaseCycle: "Windows 10, version 1507 (W)"
+    support: 2017-10-10
+    eol: 2017-10-10
+  - releaseCycle: "Windows 10, version 1507 (E)(W)"
     cycleShortHand: 10.0.10240
     release: 2015-07-29
     support: 2017-05-09
