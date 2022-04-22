@@ -21,6 +21,7 @@ releases:
     eol:     2032-04-01
     lts: true
     latest: "22.04"
+    link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
 
   - releaseCycle: "21.10"
     codename: "Impish Indri"
@@ -28,6 +29,7 @@ releases:
     support: 2022-07-31
     eol:     2022-07-31
     latest: "21.10"
+    link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
 
   - releaseCycle: "21.04"
     codename: "Hirsute Hippo"
@@ -35,6 +37,7 @@ releases:
     support: 2022-01-20
     eol:     2022-01-20
     latest: "21.04"
+    link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
 
   - releaseCycle: "20.10"
     codename: "Groovy Gorilla"
