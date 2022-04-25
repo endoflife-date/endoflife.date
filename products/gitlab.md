@@ -7,7 +7,7 @@ command: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: "release"
 activeSupportColumn: true
 eolColumn: Maintenance Support
 iconSlug: gitlab
@@ -16,6 +16,11 @@ auto:
   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
   git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
+  - releaseCycle: "14.10"
+    release: 2022-04-22
+    support: 2022-05-22
+    eol: 2022-07-22
+    latest: "14.10"
   - releaseCycle: "14.9"
     release: 2022-03-22
     support: 2022-04-22
