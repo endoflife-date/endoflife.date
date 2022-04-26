@@ -103,13 +103,13 @@ releases:
   - releaseCycle: "Windows 10, version 1703 (W)"
     cycleShortHand: 10.0.15063
     release: 2017-04-11
-    support: 2018-09-10
-    eol: 2018-09-10
+    support: 2018-10-09
+    eol: 2018-10-09
   - releaseCycle: "Windows 10, version 1607 (E)"
     cycleShortHand: 10.0.14393
     release: 2016-08-02
-    support: 2018-10-09
-    eol: 2018-10-09
+    support: 2019-04-09
+    eol: 2019-04-09
   - releaseCycle: "Windows 10, version 1607 (W)"
     cycleShortHand: 10.0.14393
     release: 2016-08-02
