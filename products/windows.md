@@ -108,8 +108,8 @@ releases:
   - releaseCycle: "Windows 10, version 1607 (E)"
     cycleShortHand: 10.0.14393
     release: 2016-08-02
-    support: 2019-04-09
-    eol: 2019-04-09
+    support: 2018-10-09
+    eol: 2018-10-09
   - releaseCycle: "Windows 10, version 1607 (W)"
     cycleShortHand: 10.0.14393
     release: 2016-08-02
