@@ -4,12 +4,16 @@ layout: post
 category: os
 sortReleasesBy: "releaseCycle"
 releases:
+  - releaseCycle: "19"
+    eol: false
+    release: 2021-04-01
+    link: https://lineageos.org/Changelog-26/
   - releaseCycle: "18.1"
     eol: false
     release: 2021-04-01
     link: https://lineageos.org/Changelog-25/
   - releaseCycle: "17.1"
-    eol: false
+    eol: 2021-04-01
     release: 2020-04-01
     link: https://lineageos.org/Changelog-24/
   - releaseCycle: "16.0"
@@ -29,4 +33,4 @@ discontinuedColumn: false
 
 LineageOS maintains two versions at the same time. Devices that are not ported to one of the two latest versions stop being supported. A list of supported devices is available at the [LineageOS Wiki](https://wiki.lineageos.org/devices/).
 
-The 16.0 branch still gets security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions.
+The 16.0 and 17.0 branches still get security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions.
