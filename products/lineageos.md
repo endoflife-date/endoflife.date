@@ -6,14 +6,14 @@ sortReleasesBy: "releaseCycle"
 releases:
   - releaseCycle: "19"
     eol: false
-    release: 2022-04-01
+    release: 2022-04-26
     link: https://lineageos.org/Changelog-26/
   - releaseCycle: "18.1"
     eol: false
     release: 2021-04-01
     link: https://lineageos.org/Changelog-25/
   - releaseCycle: "17.1"
-    eol: 2021-04-01
+    eol: 2022-04-26
     release: 2020-04-01
     link: https://lineageos.org/Changelog-24/
   - releaseCycle: "16.0"
