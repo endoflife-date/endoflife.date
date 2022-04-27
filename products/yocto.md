@@ -16,7 +16,7 @@ releases:
 #    eol:     2023-05-01
 
   - releaseCycle: "4.0"
-    codename: 'kirkstone'
+    codename: 'Kirkstone'
     cycleShortHand: 400
     lts: true
     latest: "4.0"
@@ -24,28 +24,28 @@ releases:
     eol:     2024-04-27
 
   - releaseCycle: "3.4"
-    codename:  'honister'
+    codename:  'Honister'
     cycleShortHand: 304
     latest: "3.4.3"
     release: 2021-10-25
     eol:     2022-05-01
 
   - releaseCycle: "3.3"
-    codename:  'hardknott'
+    codename:  'Hardknott'
     cycleShortHand: 303
     latest: "3.3.6"
     release: 2021-04-01
     eol:     2021-11-01
 
   - releaseCycle: "3.2"
-    codename:  'gatesgarth'
+    codename:  'Gatesgarth'
     cycleShortHand: 302
     latest: "3.2.4"
     release: 2020-10-01
     eol:     2021-05-01
 
   - releaseCycle: "3.1"
-    codename:  'dunfell'
+    codename:  'Dunfell'
     cycleShortHand: 301
     lts: true
     latest: "3.1.15"
@@ -53,14 +53,14 @@ releases:
     eol:     2024-04-01
 
   - releaseCycle: "3.0"
-    codename:  'zeus'
+    codename:  'Zeus'
     cycleShortHand: 300
     latest: "3.0.4"
     release: 2019-10-01
     eol:     2020-08-01
 
   - releaseCycle: "2.7"
-    codename:  'warrior'
+    codename:  'Warrior'
     cycleShortHand: 207
     latest: "2.7.4"
     release: 2019-04-01
