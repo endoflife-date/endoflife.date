@@ -5,7 +5,7 @@ layout: post
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
-command: lsb_release -d
+command: cat /etc/fedora-release 
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
 auto:
@@ -15,11 +15,11 @@ releases:
   - releaseCycle: "35"
     release: 2021-11-02
     latest: "35"
-    eol: 2022-12-07
+    eol: 2022-11-15
   - releaseCycle: "34"
     release: 2021-04-27
     latest: "34"
-    eol: 2022-05-17
+    eol: 2022-05-31
   - releaseCycle: "33"
     release: 2020-10-27
     latest: "33"
