@@ -16,7 +16,7 @@ releases:
     release: 2022-03-29
     support: true
     eol: false
-    latest: "18.0.0"
+    latest: "18.1.0"
   - releaseCycle: "17"
     lts: false
     release: 2020-10-20
