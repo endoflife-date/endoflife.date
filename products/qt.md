@@ -1,4 +1,5 @@
 ---
+releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
 permalink: /qt
 layout: post
 category: framework
