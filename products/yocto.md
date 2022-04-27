@@ -8,25 +8,32 @@ changelogTemplate: |
 iconSlug: NA
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
-#  - releaseCycle: "3.5"
-#    codename: 'kirkstone'
-#    cycleShortHand: 305
-#    lts: true
-#    latest: "3.5.0"
-#    release: 2022-04-01
-#    eol:     2024-04-01
-#
+#  - releaseCycle: "4.1"
+#    codename: 'Langdale'
+#    cycleShortHand: 401
+#    latest: "4.1.0"
+#    release: 2022-10-01
+#    eol:     2023-05-01
+
+  - releaseCycle: "4.0"
+    codename: 'kirkstone'
+    cycleShortHand: 400
+    lts: true
+    latest: "4.0"
+    release: 2022-04-27
+    eol:     2024-04-27
+
   - releaseCycle: "3.4"
     codename:  'honister'
     cycleShortHand: 304
-    latest: "3.4.1"
+    latest: "3.4.3"
     release: 2021-10-25
     eol:     2022-05-01
 
   - releaseCycle: "3.3"
     codename:  'hardknott'
     cycleShortHand: 303
-    latest: "3.3.4"
+    latest: "3.3.6"
     release: 2021-04-01
     eol:     2021-11-01
 
@@ -41,7 +48,7 @@ releases:
     codename:  'dunfell'
     cycleShortHand: 301
     lts: true
-    latest: "3.1.12"
+    latest: "3.1.15"
     release: 2020-04-01
     eol:     2024-04-01
 
