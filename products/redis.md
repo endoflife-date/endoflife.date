@@ -12,14 +12,17 @@ sortReleasesBy: 'releaseCycle'
 auto:
   git: https://github.com/redis/redis.git
 releases:
+  - releaseCycle: "7.0"
+    eol: false
+    latest: '7.0.0'
   - releaseCycle: "6.2"
     eol: false
-    latest: '6.2.6'
+    latest: '6.2.7'
   - releaseCycle: "6.0"
     eol: false
     latest: '6.0.16'
   - releaseCycle: "5.0"
-    eol: false
+    eol: true
     latest: '5.0.14'
 ---
 
