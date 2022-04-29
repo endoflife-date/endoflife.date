@@ -15,17 +15,17 @@ releases:
   - releaseCycle: "10"
     release: 2020-12-08
     eol: false
-    latest: "10.0.18"
+    latest: "10.0.20"
     link: https://tomcat.apache.org/download-10.cgi
   - releaseCycle: "9"
     release: 2017-10-04
     eol: false
-    latest: "9.0.60"
+    latest: "9.0.62"
     link: https://tomcat.apache.org/download-90.cgi
   - releaseCycle: "8"
     release: 2014-02-02
     eol: false
-    latest: "8.5.77"
+    latest: "8.5.78"
     link: https://tomcat.apache.org/download-80.cgi
   - releaseCycle: "7"
     release: 2011-01-13
