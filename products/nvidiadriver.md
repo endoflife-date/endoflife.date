@@ -120,7 +120,7 @@ releases:
   - releaseCycle: "R510-Windows (PB)"
     release: 2022-01-14
     support: true
-    eol: false
+    eol: 2023-01-01
     latest: "512.15" 
     link: https://www.nvidia.com/download/driverResults.aspx/187304/en-us
     cycleShortHand: 12
@@ -128,7 +128,7 @@ releases:
   - releaseCycle: "R510-Linux (PB)"
     release: 2022-01-11
     support: true
-    eol: false
+    eol: 2023-01-01
     latest: "510.60.02"
     link: https://www.nvidia.com/download/driverResults.aspx/187162/en-us
     cycleShortHand: 13
