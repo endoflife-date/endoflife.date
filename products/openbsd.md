@@ -9,13 +9,18 @@ releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'release'
 releases:
+  - release: 2022-04-21
+    eol: 2023-05-01
+    releaseCycle: "7.1"
+    link: https://www.openbsd.org/71.html
+
   - release: 2021-10-14
     eol: 2022-10-01
     releaseCycle: "7.0"
     link: https://www.openbsd.org/70.html
 
   - release: 2021-05-01
-    eol: 2022-05-01
+    eol: 2022-04-21
     releaseCycle: "6.9"
     link: https://www.openbsd.org/69.html
 
