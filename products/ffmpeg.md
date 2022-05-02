@@ -52,7 +52,27 @@ releases:
     eol: false
     latest: "4.1.9"
     link: https://ffmpeg.org/download.html#release_4.1
-  
+  - releaseCycle: "3.4"
+    cycleShortHand: 34
+    codename: 'Cantor'
+    release: 2017-10-11
+    eol: false
+    latest: "3.4.10"
+    link: https://ffmpeg.org/download.html#release_3.4
+  - releaseCycle: "3.2"
+    cycleShortHand: 32
+    codename: 'Hypatia'
+    release: 2016-10-26
+    eol: false
+    latest: "3.2.17"
+    link: https://ffmpeg.org/download.html#release_3.2
+  - releaseCycle: "2.8"
+    cycleShortHand: 28
+    codename: 'Feynman'
+    release: 2015-09-05
+    eol: false
+    latest: "2.8.19"
+    link: https://ffmpeg.org/download.html#release_2.8  
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. It is the core of software such as VLC, MPV, Blender, Audacity, HandBrake, OBS Studio, and much more. Full list of capabilities are found [in their documentation](https://ffmpeg.org/ffmpeg.html).
