@@ -8,17 +8,6 @@ permalink: /unrealircd
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 releaseDateColumn: true
 command: ./unrealircd version
-
-# Template to be used to generate a link for the release
-# __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
-# __CYCLE_SHORT_HAND__ will be replaced by the optional changelogTemplate
-# __LATEST__ will be replaced by the value of latest
-# __LATEST_SHORT_HAND__ will be replaced by the optional latestShortHand
-# __CODENAME__ will be replaced by the optional codename
-
-# You can even use Liquid Templating inside the template, such as:
-# https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
-# Do not use a localized URL (such as one containing en-us) if possible
 changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{"__LATEST__" | replace:'-',''}}"
 
 # A list of releases, supported or not
