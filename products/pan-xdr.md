@@ -65,6 +65,9 @@ releases:
   - releaseCycle: "7.6"
     eol: 2022-08-05
     release: 2021-12-05
+  - releaseCycle: "7.7"
+    eol: 2022-12-27
+    release: 2022-03-27
 ---
-[Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr.html) protects endpoints by preventing known and unknown malware from running on those endpoints and by halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed on a variety of operating systems including Windows, macOS, Android, and Linux.
+> [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr.html) protects endpoints by preventing known and unknown malware from running on those endpoints and by halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed on a variety of operating systems including Windows, macOS, Android, and Linux.
 Software updates are provided as part of a valid support agreement.
