@@ -26,6 +26,18 @@ releases:
     support: 2022-07-01
     eol: 2023-07-01
     latest: "5.2.4"
+  - releaseCycle: "4"
+    cycleShortHand: "unreal42"
+    release: 2015-12-24
+    support: 2019-05-20
+    eol: 2020-12-31
+    latest: "4.2.4.1"
+  - releaseCycle: "3"
+    cycleShortHand: "unreal3_2_fixes"
+    release: 2004-04-25
+    support: 2015-12-11
+    eol: 2016-12-31
+    latest: "3.2.10.7"
 ---
 
 > [UnrealIRCd](https://www.unrealircd.org) is an Open Source IRC Server since 1999. It implements almost all IRCv3 features.
