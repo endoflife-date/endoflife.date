@@ -23,7 +23,7 @@ releases:
     lts: false
     support: 2023-10-18
     eol: 2025-04-30
-    latest: "18.0.0"
+    latest: "18.1.0"
   - releaseCycle: "17"
     release: 2021-10-19
     lts: false
