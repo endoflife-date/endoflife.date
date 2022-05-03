@@ -19,16 +19,18 @@ command: ./unrealircd version
 # You can even use Liquid Templating inside the template, such as:
 # https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 # Do not use a localized URL (such as one containing en-us) if possible
-changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{"__LATEST__" | replace:'-',''}}"
+changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{"__LATEST__" | replace:'-',''}}"
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
   - releaseCycle: "6"
+    cycleShortHand: "unreal60_dev"
     release: 2021-12-17
     eol: false
     latest: "6.0.3"
   - releaseCycle: "5"
+    cycleShortHand: "unreal52"
     release: 2019-12-13
     support: 2022-07-01
     eol: 2023-07-01
@@ -37,8 +39,8 @@ releases:
 
 > [UnrealIRCd](https://www.unrealircd.org) is an Open Source IRC Server since 1999. It implements almost all IRCv3 features.
 
-UnrealIRCd does not have a strict release cadence. When a new major version is released,
-the EOL dates of the previous major version is announced.
+UnrealIRCd always has one "stable" version. It does not have a strictly timed release cadence.
+When a new major version is released, the EOL dates of the previous major version ("oldstable") is announced.
 The previous major version is guaranteed to be supported for at least 12 months.
 The final support period starts with a period where bugs are still being fixed (but no new
 features are being implemented), followed by a "security fixes only" period.
