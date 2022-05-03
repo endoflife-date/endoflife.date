@@ -32,7 +32,7 @@ releases:
     support: 2019-05-20
     eol: 2020-12-31
     latest: "4.2.4.1"
-  - releaseCycle: "3"
+  - releaseCycle: "3.2"
     cycleShortHand: "unreal3_2_fixes"
     release: 2004-04-25
     support: 2015-12-11
