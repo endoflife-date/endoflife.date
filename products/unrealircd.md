@@ -9,6 +9,7 @@ releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 releaseDateColumn: true
 command: ./unrealircd version
 changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__' | replace:'.',''}}"
+iconSlug: NA
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
