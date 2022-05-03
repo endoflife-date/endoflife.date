@@ -8,7 +8,7 @@ permalink: /unrealircd
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 releaseDateColumn: true
 command: ./unrealircd version
-changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__' | replace:'-',''}}"
+changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__' | replace:'.',''}}"
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
@@ -16,6 +16,7 @@ releases:
   - releaseCycle: "6"
     cycleShortHand: "unreal60_dev"
     release: 2021-12-17
+    support: true
     eol: false
     latest: "6.0.3"
   - releaseCycle: "5"
