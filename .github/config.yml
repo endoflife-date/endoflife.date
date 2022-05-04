@@ -15,5 +15,5 @@ newPRWelcomeComment: >
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Thank you and congratulations for the first contribution :1st_place_medal: :100: :tada:
-  We are looking for more...
+  Thank you and congratulations for the first contribution!
+  endoflife.date is a community wiki, and we're always looking for more contributions :1st_place_medal: :100: :tada:
