@@ -16,7 +16,7 @@ releases:
     release: 2022-02-08
     support: 2023-08-08
     eol: 2024-02-08
-    latest: 9.10.0
+    latest: 9.11.0
     lts: false
   - releaseCycle: "8"
     release: 2020-09-08
