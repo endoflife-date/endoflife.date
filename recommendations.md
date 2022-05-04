@@ -27,7 +27,7 @@ Every item is linked to the relevant section in the document below.
 - [ ] [Provide the latest version](#listing-releases) in every support cycle.
 - [ ] [Provide absolute dates](#always-use-absolute-dates), instead of relative ones.
 - [ ] [Provide complete dates](#provide-complete-dates), include the day of the month.
-- [ ] If you have a release schedule image, [label it clearly](provide-a-release-schedule-image) and mark a current date line.
+- [ ] If you have a release schedule image, [label it clearly](#provide-a-release-schedule-image) and mark a current date line.
 
 ## Publishing
 
