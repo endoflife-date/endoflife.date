@@ -24,7 +24,7 @@ releases:
   - releaseCycle: "17"
     eol: false
     release: 2022-02-01
-    latest: "17.4.2"
+    latest: "17.4.3"
   - releaseCycle: "16"
     eol: false
     release: 2021-11-16
