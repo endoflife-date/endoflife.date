@@ -20,7 +20,7 @@ releases:
     release: 2021-11-05
     support: true
     eol: false
-    latest: "3.4.2"
+    latest: "3.4.4"
     link: https://godotengine.org/article/maintenance-release-godot-3-4-2
   - releaseCycle: "3.3"
     release: 2021-04-22
@@ -31,7 +31,7 @@ releases:
     release: 2020-01-01
     support: false
     eol: true
-    latest: "3.2.3"
+    latest: "3.2.4"
   - releaseCycle: "3.1"
     release: 2019-03-01
     support: false
@@ -46,7 +46,7 @@ releases:
     release: 2016-07-01
     eol: false
     support: false
-    latest: "2.1.6"
+    latest: "2.1.7"
     lts: true
   - releaseCycle: "2.0"
     release: 2016-02-01
