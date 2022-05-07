@@ -13,15 +13,15 @@ changelogTemplate: |
 sortReleasesBy: 'release'
 releases:
 
-  - releaseCycle: "99"
-    release: 2022-04-05
+  - releaseCycle: "100"
+    release: 2022-05-03
     eol: false
-    latest: "99.0.1"
+    latest: "100.0"
 
   - releaseCycle: "91"
     release: 2021-08-10
     eol: 2022-09-20
-    latest: "91.8.0"
+    latest: "91.9.0"
     lts: true
 
   - releaseCycle: "78"
