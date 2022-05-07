@@ -31,7 +31,7 @@ releases:
     release: 2020-01-01
     support: false
     eol: true
-    latest: "3.2.4"
+    latest: "3.2.3"
   - releaseCycle: "3.1"
     release: 2019-03-01
     support: false
@@ -46,7 +46,7 @@ releases:
     release: 2016-07-01
     eol: false
     support: false
-    latest: "2.1.7"
+    latest: "2.1.6"
     lts: true
   - releaseCycle: "2.0"
     release: 2016-02-01
