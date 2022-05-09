@@ -14,26 +14,27 @@ category: os
 iconSlug: kde
 eolColumn: Critical bug fixes
 releases:
-  - releaseCycle: "5.18"
-    release: 2020-02-11
-    latest: "5.18.8"
-    support: 2020-06-04
-    eol: 2022-02-11
+  - releaseCycle: "5.24"
+    release: 2022-02-08
+    latest: "5.24.5"
+    support: 2022-06-09 # Scheduled release of 5.25.0
+    eol: false # Will end when Plasma 6 comes out
     lts: true
-    
+
   - releaseCycle: "5.23"
     release: 2021-10-14
     latest: "5.23.5"
     support: 2022-02-03
     eol: 2022-02-03
     lts: false
-    
-  - releaseCycle: "5.24"
-    release: 2022-02-08
-    latest: "5.24.4"
-    support: 2022-06-09 # Scheduled release of 5.25.0
-    eol: false # Will end when Plasma 6 comes out
+
+  - releaseCycle: "5.18"
+    release: 2020-02-11
+    latest: "5.18.8"
+    support: 2020-06-04
+    eol: 2022-02-11
     lts: true
+
 
 ---
 
