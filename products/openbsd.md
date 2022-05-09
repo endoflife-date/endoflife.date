@@ -62,7 +62,7 @@ releases:
   - release: 2017-10-09
     eol: 2018-10-18
     releaseCycle: "6.2"
-    link: https://www.openbsd.org/63.html
+    link: https://www.openbsd.org/62.html
 
   - release: 2017-04-11
     eol: 2018-04-15
