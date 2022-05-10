@@ -17,21 +17,17 @@ releases:
     latest: "3.0.3"
     link: https://www.openssl.org/news/changelog.html#openssl-30
     lts: true
-    
   - releaseCycle: "1.1.1"
     eol: 2023-09-11
     release: 2018-09-11
     latest: "1.1.1o"
     link: https://www.openssl.org/news/changelog.html#openssl-111
     lts: true
-    
-    
   - releaseCycle: "1.1.0"
     eol: 2019-09-11
     release: 2016-08-26
     latest: "1.1.0l"
     link: https://www.openssl.org/news/changelog.html#openssl-110
-    
   - releaseCycle: "1.0.2"
     eol: 2019-12-31
     release: 2015-01-22
