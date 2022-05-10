@@ -45,7 +45,6 @@ releases:
 > [OpenSSL](https://www.openssl.org/) is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. It is widely used by Internet servers, including the majority of HTTPS websites. 
 
 It is supported for [UNIX-like platforms](https://github.com/openssl/openssl/blob/master/NOTES-UNIX.md), [Android](https://github.com/openssl/openssl/blob/master/NOTES-ANDROID.md), [Windows](https://github.com/openssl/openssl/blob/master/NOTES-WINDOWS.md), [DOS platform with DJGPP](https://github.com/openssl/openssl/blob/master/NOTES-DJGPP.md), [OpenVMS](https://github.com/openssl/openssl/blob/master/NOTES-VMS.md), [Perl](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md) and [Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md).
-When a release branch reaches the end of its support cycle, the series will be deprecated in NPM and a final end-of-support release will be made. This release will add a warning to inform that an unsupported version of Electron is in use.
 
 LTS releases will be supported for at least five years and they will specify one at least every four years. Non-LTS releases will be supported for at least two years.
 
