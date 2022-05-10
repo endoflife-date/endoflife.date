@@ -13,7 +13,7 @@ sortReleasesBy: releaseCycle
 releases:
   - releaseCycle: "3.0"
     eol: 2026-09-07
-    release: 2022-09-07
+    release: 2021-09-07
     latest: "3.0.3"
     link: https://www.openssl.org/news/changelog.html#openssl-30
     lts: true
