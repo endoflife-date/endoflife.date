@@ -20,21 +20,21 @@ releases:
   - releaseCycle: "7.0"
     release: 2021-12-15
     eol: false
-    latest: "7.0.2.4"
+    latest: "7.0.3"
   - releaseCycle: "6.1"
     release: 2020-12-09
     eol: false
-    latest: "6.1.5.1"
+    latest: "6.1.6"
   - releaseCycle: "6.0"
     release: 2019-08-16
     eol: 2023-06-01
     support: 2021-12-15
-    latest: "6.0.4.8"
+    latest: "6.0.5"
   - releaseCycle: "5.2"
     release: 2018-04-09
     eol: 2022-06-01
     support: 2021-12-15
-    latest: "5.2.7.1"
+    latest: "5.2.8"
   - releaseCycle: "5.1"
     release: 2017-04-27
     eol: 2019-08-25
