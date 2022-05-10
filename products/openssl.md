@@ -5,6 +5,8 @@ category: framework
 iconSlug: openssl
 permalink: /openssl
 releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
+changelogTemplate: |
+  https://www.openssl.org/news/changelog.html#openssl-{{"__RELEASE_CYCLE__" | replace:'.',''}}
 eolColumn: Supported
 activeSupportColumn: false
 command: openssl version
@@ -15,24 +17,20 @@ releases:
     eol: 2026-09-07
     release: 2021-09-07
     latest: "3.0.3"
-    link: https://www.openssl.org/news/changelog.html#openssl-30
     lts: true
   - releaseCycle: "1.1.1"
     eol: 2023-09-11
     release: 2018-09-11
     latest: "1.1.1o"
-    link: https://www.openssl.org/news/changelog.html#openssl-111
     lts: true
   - releaseCycle: "1.1.0"
     eol: 2019-09-11
     release: 2016-08-26
     latest: "1.1.0l"
-    link: https://www.openssl.org/news/changelog.html#openssl-110
   - releaseCycle: "1.0.2"
     eol: 2019-12-31
     release: 2015-01-22
     latest: "1.0.2u"
-    link: https://www.openssl.org/news/changelog.html#openssl-102
     lts: true
 
 
