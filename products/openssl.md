@@ -36,7 +36,7 @@ releases:
     eol: 2019-12-31
     release: 2015-01-22
     latest: "1.0.2u"
-    link: https://www.openssl.org/news/changelog.html#openssl-110
+    link: https://www.openssl.org/news/changelog.html#openssl-102
     lts: true
 
 
