@@ -16,11 +16,11 @@ releases:
   - releaseCycle: "3.10"
     eol: false
     release: 2022-05-03
-    latest: "3.10.0"
+    latest: "3.10.1"
   - releaseCycle: "3.9"
     eol: false
     release: 2021-07-26
-    latest: "3.9.16"
+    latest: "3.9.17"
   - releaseCycle: "3.8"
     eol: 2022-01-31
     release: 2019-10-01
