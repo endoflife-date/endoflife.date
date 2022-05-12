@@ -12,6 +12,10 @@ auto:
   oci: https://index.docker.io/v2/_library/fedora
 category: os
 releases:
+  - releaseCycle: "36"
+    release: 2022-05-10
+    latest: "36"
+    eol: 2023-05-16
   - releaseCycle: "35"
     release: 2021-11-02
     latest: "35"
