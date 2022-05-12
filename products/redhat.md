@@ -19,7 +19,7 @@ releases:
     release: 2019-05-01
     support: 2024-05-31
     eol: 2029-05-31
-    latest: "8.5"
+    latest: "8.6"
   - releaseCycle: "7"
     release: 2014-06-10
     support: 2019-12-31
