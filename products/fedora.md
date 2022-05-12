@@ -40,6 +40,14 @@ releases:
     release: 2019-05-07
     latest: "30"
     eol: 2020-05-26
+  - releaseCycle: "29"
+    release: 2018-10-30
+    latest: "29"
+    eol: 2019-11-26
+  - releaseCycle: "28"
+    release: 2018-05-01
+    latest: "28"
+    eol: 2019-05-28
 ---
 
 > [Fedora](https://getfedora.org/) is a Linux distribution developed by the community-supported Fedora Project and sponsored by Red Hat.
