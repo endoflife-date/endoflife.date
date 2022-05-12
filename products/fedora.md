@@ -12,6 +12,10 @@ auto:
   oci: https://index.docker.io/v2/_library/fedora
 category: os
 releases:
+  - releaseCycle: "36"
+    release: 2022-05-10
+    latest: "36"
+    eol: 2023-05-16
   - releaseCycle: "35"
     release: 2021-11-02
     latest: "35"
@@ -36,14 +40,6 @@ releases:
     release: 2019-05-07
     latest: "30"
     eol: 2020-05-26
-  - releaseCycle: "29"
-    release: 2018-10-30
-    latest: "29"
-    eol: 2019-11-26
-  - releaseCycle: "28"
-    release: 2018-05-01
-    latest: "28"
-    eol: 2019-05-28
 ---
 
 > [Fedora](https://getfedora.org/) is a Linux distribution developed by the community-supported Fedora Project and sponsored by Red Hat.
