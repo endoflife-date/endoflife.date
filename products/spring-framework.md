@@ -15,12 +15,12 @@ releases:
     eol: false
     support: true
     release: 2020-12-09
-    latest: "5.3.19"
+    latest: "5.3.20"
   - releaseCycle: "5.2"
     eol: 2021-12-31
     support: true
     release: 2021-02-16
-    latest: "5.2.21"
+    latest: "5.2.22"
   - releaseCycle: "5.1"
     eol: 2020-12-09
     support: false
