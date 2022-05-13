@@ -20,11 +20,11 @@ releases:
   - releaseCycle: "4.4"
     eol: false
     release: 2020-07-30
-    latest: "4.4.11"
+    latest: "4.4.14"
   - releaseCycle: "4.2"
     eol: false
     release: 2019-08-31
-    latest: "4.2.18"
+    latest: "4.2.20"
   - releaseCycle: "4.0"
     eol: 2022-04-30
     release: 2018-06-30
