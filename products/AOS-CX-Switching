@@ -1,5 +1,5 @@
 ---
-title: AOS-CX-Switching
+title: Aruba AOS-CX-Switching
 layout: post
 # Possible values are os,db,app,lang,framework,device,service,server-app
 # If you add a new value, please mention it on the PR Description. Some rough guidelines:
@@ -76,7 +76,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
   - releaseCycle: "10.08.xxxx"
@@ -88,7 +88,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
   - releaseCycle: "10.07.xxxx"
@@ -100,7 +100,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
   - releaseCycle: "10.06.xxxx"
@@ -112,7 +112,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
   - releaseCycle: "10.05.xxxx"
@@ -124,7 +124,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
   - releaseCycle: "10.04.xxxx"
@@ -148,7 +148,7 @@ releases:
     lts: false
     discontinued: true
     cycleShortHand: ""
-    link: 
+    link: https://www.arubanetworks.com/support-services/end-of-life/
     codename: nothing
     auto: false
 
