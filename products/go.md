@@ -19,12 +19,12 @@ releases:
     cycleShortHand: 118
     release: 2022-03-15
     eol: false
-    latest: "1.18.1"
+    latest: "1.18.2"
   - releaseCycle: "1.17"
     cycleShortHand: 117
     release: 2021-08-16
     eol: false
-    latest: "1.17.9"
+    latest: "1.17.10"
   - releaseCycle: "1.16"
     cycleShortHand: 116
     release: 2021-02-16
