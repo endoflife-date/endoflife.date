@@ -21,23 +21,23 @@ releases:
   - releaseCycle: "14"
     release: 2021-09-30
     eol: 2026-09-30
-    latest: "14.2"
+    latest: "14.3"
   - releaseCycle: "13"
     release: 2020-09-24
     eol: 2025-11-13
-    latest: "13.6"
+    latest: "13.7"
   - releaseCycle: "12"
     release: 2019-10-03
     eol: 2024-11-14
-    latest: "12.10"
+    latest: "12.11"
   - releaseCycle: "11"
     release: 2018-10-18
     eol: 2023-11-09
-    latest: "11.15"
+    latest: "11.16"
   - releaseCycle: "10"
     release: 2017-10-05
     eol: 2022-11-10
-    latest: "10.20"
+    latest: "10.21"
   - releaseCycle: "9.6"
     release: 2016-09-29
     eol: 2021-11-11
