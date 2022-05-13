@@ -14,7 +14,7 @@ releases:
     release: 2019-05-01
     support: 2024-05-01
     eol: 2029-03-01
-    latest: "8.5"
+    latest: "8.6"
     link: https://mirrors.almalinux.org/isos.html
 
 ---
