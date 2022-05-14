@@ -10,18 +10,18 @@ latestColumn: true
 eolColumn: End of Servicing Date
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: eol
 releases:
-  - releaseCycle: Surface RT1
+  - releaseCycle: Surface RT
     release: 2012-10-26
     eol: 2017-04-11
-  - releaseCycle: Surface Pro1
+  - releaseCycle: Surface Pro
     release: 2013-02-09
     eol: 2017-04-11
-  - releaseCycle: Surface 21
+  - releaseCycle: Surface 2
     release: 2013-10-22
     eol: 2018-04-10
-  - releaseCycle: Surface Pro 21
+  - releaseCycle: Surface Pro 2
     release: 2013-10-22
     eol: 2018-04-10
   - releaseCycle: Surface Pro 3
@@ -120,3 +120,7 @@ releases:
 ---
 
 > Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards designed and developed by Microsoft, running the Microsoft Windows operating system.
+
+Microsoft defines a supported Surface Device as one receiving driver and firmware updates, along with a supported Windows OS version. Surface devices will receive driver and firmware updates for Windows versions released in the prior 30 months. 
+
+Microsoft publishes the [minimum supported Windows version](https://support.microsoft.com/en-gb/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1). Once the device support period is concluded, devices will continue to receive Windows OS feature and security updates.
