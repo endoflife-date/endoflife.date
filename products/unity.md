@@ -13,10 +13,10 @@ changelogTemplate: |
 releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
 sortReleasesBy: "release"
 releases:
-#  - releaseCycle: "2022.1"
+#  - releaseCycle: "2022.2"
 #    release: 2022-XX-XX
 #    eol: false
-#    latest: "2022.1.0"
+#    latest: "2022.2.0"
 
   - releaseCycle: "2022.1"
     release: 2022-05-09
