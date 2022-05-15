@@ -7,32 +7,32 @@ sortReleasesBy: "support"
 changelogTemplate: "https://docs.moodle.org/dev/Moodle___LATEST___release_notes"
 
 releases:
-# - releaseCycle: "4.0"
-#   eol: 2023-05-08
-#   support: 2022-11-14
-#   release: 2021-12-13
-#   latest: "4.0"
-#   lts: false
+  - releaseCycle: "4.0"
+    eol: 2023-11-13
+    support: 2023-05-08
+    release: 2022-04-19
+    latest: "4.0.1"
+    lts: false
 
   - releaseCycle: "3.11"
     eol: 2022-11-14
     support: 2022-05-09
     release: 2021-05-17
-    latest: "3.11.6"
+    latest: "3.11.7"
     lts: false
 
   - releaseCycle: "3.10"
     eol: 2022-05-09
     support: 2021-11-08
     release: 2020-11-09
-    latest: "3.10.10"
+    latest: "3.10.11"
     lts: false
 
   - releaseCycle: "3.9"
     eol: 2023-05-08
     support: 2021-05-10
     release: 2020-06-15
-    latest: "3.9.13"
+    latest: "3.9.14"
     lts: true
 
   - releaseCycle: "3.8"
