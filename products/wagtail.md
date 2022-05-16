@@ -6,16 +6,23 @@ category: framework
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.io/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
+releaseDateColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 auto:
   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: "release"
 releases:
+  - releaseCycle: "3.0"
+    support: 2022-08-01
+    release: 2022-05-16
+    lts: false
+    eol: false
+    latest: "3.0"
   - releaseCycle: "2.16"
     support: 2022-05-01
     release: 2022-02-07
     lts: false
-    eol: false
+    eol: 2022-05-16
     latest: "2.16.2"
   - releaseCycle: "2.15"
     support: 2023-02-01
