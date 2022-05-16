@@ -43,7 +43,7 @@ releases:
     codename: 'Ada'
     release: 2019-07-21
     eol: false
-    latest: "4.2.6"
+    latest: "4.2.7"
     link: https://ffmpeg.org/download.html#release_4.2
   - releaseCycle: "4.1"
     cycleShortHand: 41
@@ -64,7 +64,7 @@ releases:
     codename: 'Cantor'
     release: 2017-10-11
     eol: false
-    latest: "3.4.10"
+    latest: "3.4.11"
     link: https://ffmpeg.org/download.html#release_3.4
   - releaseCycle: "3.3"
     cycleShortHand: 33
@@ -78,7 +78,7 @@ releases:
     codename: 'Hypatia'
     release: 2016-10-26
     eol: false
-    latest: "3.2.17"
+    latest: "3.2.18"
     link: https://ffmpeg.org/download.html#release_3.2
   - releaseCycle: "3.1"
     cycleShortHand: 31
@@ -99,7 +99,7 @@ releases:
     codename: 'Feynman'
     release: 2015-09-05
     eol: false
-    latest: "2.8.19"
+    latest: "2.8.20"
     link: https://ffmpeg.org/download.html#release_2.8  
   - releaseCycle: "2.7"
     cycleShortHand: 27
