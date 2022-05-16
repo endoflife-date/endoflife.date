@@ -5,14 +5,20 @@ permalink: /mongodb
 category: db
 releasePolicyLink: https://www.mongodb.com/support-policy
 sortReleasesBy: "releaseCycle"
-changelogTemplate: https://docs.mongodb.com/manual/release-notes/__RELEASE_CYCLE__
+changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false
 releaseDateColumn: true
+releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 command: mongod --version
 auto:
   git: https://github.com/mongodb/mongo.git
   regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
+  - releaseCycle: "5.3"
+    codename: "rapid"
+    eol: false
+    release: 2022-04-06
+    latest: "5.3.1"
   - releaseCycle: "5.0"
     eol: false
     release: 2021-07-13
@@ -77,3 +83,5 @@ releases:
 ---
 
 > [MongoDB Server](https://www.mongodb.com/) is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
+
+Rapid Releases are made available approximately once each quarter that does not contain a Major Release and introduce new features and improvements. Rapid Releases are only supported within MongoDB Atlas and are not supported for on-premises deployments.
