@@ -8,7 +8,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false
 releaseDateColumn: true
-releaseLabel: "__RELEASE_CYCLE__{%if codename %} ({{codename}}){%endif%}"
+releaseLabel: "__RELEASE_CYCLE__{%if __CODENAME__ %} (__CODENAME__){%endif%}"
 command: mongod --version
 auto:
   git: https://github.com/mongodb/mongo.git
