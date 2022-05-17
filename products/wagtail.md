@@ -87,7 +87,7 @@ Minor/Feature releases of Wagtail are released every three months. A feature rel
 
 The Wagtail team provides [official security support](https://docs.wagtail.io/en/stable/contributing/security.html#supported-versions) for:
 
-* The two most recent Wagtail release series. (Currently `2.13` and `2.12`)
+* The two most recent Wagtail release series.
 * The latest LTS release.
 
 *[LTS]: Long Term Support
