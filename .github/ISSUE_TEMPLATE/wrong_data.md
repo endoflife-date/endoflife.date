@@ -1,5 +1,5 @@
 ---
-name: Wrong data
+name: Report Incorrect Details
 about: Report wrong data of a product on endoflife.date
 title: ''
 labels: 'request'
