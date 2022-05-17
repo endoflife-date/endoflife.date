@@ -9,10 +9,10 @@ assignees: ''
 
 **Link to product page on endoflife.date**
 
-Let us know the to url of the product page on endoflife.date you found the wrong data.
+Let us know the to url of the product page on endoflife.date you found the incorrect details.
 
 
-**Details of wrong and right data you have found**
+**Details of incorrect and correct details you have found**
 
 For example the active support date on endoflife.date is not the same as in the product documentation.
 
@@ -28,4 +28,4 @@ For example: https://github.com/PowerShell/PowerShell/tags
 
 **Additional context**
 
-Add any other context or screenshots about the wrong data.
+Add any other context or screenshots about the incorrect details.
