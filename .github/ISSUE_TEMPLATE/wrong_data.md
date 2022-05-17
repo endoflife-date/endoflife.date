@@ -1,6 +1,6 @@
 ---
 name: Report Incorrect Details
-about: Report wrong data of a product on endoflife.date
+about: Report incorrect details of a product on endoflife.date
 title: ''
 labels: 'request'
 assignees: ''
