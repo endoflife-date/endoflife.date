@@ -6,16 +6,23 @@ category: framework
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.io/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
+releaseDateColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 auto:
   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: "release"
 releases:
+  - releaseCycle: "3.0"
+    support: 2022-08-01
+    release: 2022-05-16
+    lts: false
+    eol: false
+    latest: "3.0"
   - releaseCycle: "2.16"
     support: 2022-05-01
     release: 2022-02-07
     lts: false
-    eol: false
+    eol: 2022-05-16
     latest: "2.16.2"
   - releaseCycle: "2.15"
     support: 2023-02-01
@@ -80,8 +87,53 @@ Minor/Feature releases of Wagtail are released every three months. A feature rel
 
 The Wagtail team provides [official security support](https://docs.wagtail.io/en/stable/contributing/security.html#supported-versions) for:
 
-* The two most recent Wagtail release series. (Currently `2.13` and `2.12`)
+* The two most recent Wagtail release series.
 * The latest LTS release.
 
 *[LTS]: Long Term Support
 [django-lts]: https://www.djangoproject.com/download/#supported-versions
+
+## [Compatible Django / Python versions](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions)
+
+Wagtail release | Compatible Django versions | Compatible Python versions
+----------------|----------------------------|----------------------------
+3               | 3.2, 4.0                   | 3.7, 3.8, 3.9, 3.10
+2.16            | 3.2, 4.0                   | 3.7, 3.8, 3.9, 3.10
+2.15 LTS        | 3.0, 3.1, 3.2              | 3.6, 3.7, 3.8, 3.9, 3.10
+2.14            | 3.0, 3.1, 3.2              | 3.6, 3.7, 3.8, 3.9
+2.13            | 2.2, 3.0, 3.1, 3.2         | 3.6, 3.7, 3.8, 3.9
+2.12            | 2.2, 3.0, 3.1              | 3.6, 3.7, 3.8, 3.9
+2.11 LTS        | 2.2, 3.0, 3.1              | 3.6, 3.7, 3.8
+2.1             | 2.2, 3.0, 3.1              | 3.6, 3.7, 3.8
+2.9             | 2.2, 3.0                   | 3.5, 3.6, 3.7, 3.8
+2.8             | 2.1, 2.2, 3.0              | 3.5, 3.6, 3.7, 3.8
+2.7 LTS         | 2.0, 2.1, 2.2              | 3.5, 3.6, 3.7, 3.8
+2.6             | 2.0, 2.1, 2.2              | 3.5, 3.6, 3.7
+2.5             | 2.0, 2.1, 2.2              | 3.4, 3.5, 3.6, 3.7
+2.4             | 2.0, 2.1                   | 3.4, 3.5, 3.6, 3.7
+2.3 LTS         | 1.11, 2.0, 2.1             | 3.4, 3.5, 3.6
+2.2             | 1.11, 2.0                  | 3.4, 3.5, 3.6
+2.1             | 1.11, 2.0                  | 3.4, 3.5, 3.6
+2               | 1.11, 2.0                  | 3.4, 3.5, 3.6
+1.13 LTS        | 1.8, 1.10, 1.11            | 2.7, 3.4, 3.5, 3.6
+1.12 LTS        | 1.8, 1.10, 1.11            | 2.7, 3.4, 3.5, 3.6
+1.11            | 1.8, 1.10, 1.11            | 2.7, 3.4, 3.5, 3.6
+1.1             | 1.8, 1.10, 1.11            | 2.7, 3.4, 3.5, 3.6
+1.9             | 1.8, 1.9, 1.10             | 2.7, 3.3, 3.4, 3.5
+1.8 LTS         | 1.8, 1.9, 1.10             | 2.7, 3.3, 3.4, 3.5
+1.7             | 1.8, 1.9, 1.10             | 2.7, 3.3, 3.4, 3.5
+1.6             | 1.8, 1.9, 1.10             | 2.7, 3.3, 3.4, 3.5
+1.5             | 1.8, 1.9                   | 2.7, 3.3, 3.4, 3.5
+1.4 LTS         | 1.8, 1.9                   | 2.7, 3.3, 3.4, 3.5
+1.3             | 1.7, 1.8, 1.9              | 2.7, 3.3, 3.4, 3.5
+1.2             | 1.7, 1.8                   | 2.7, 3.3, 3.4, 3.5
+1.1             | 1.7, 1.8                   | 2.7, 3.3, 3.4
+1               | 1.7, 1.8                   | 2.7, 3.3, 3.4
+0.8 LTS         | 1.6, 1.7                   | 2.6, 2.7, 3.2, 3.3, 3.4
+0.7             | 1.6, 1.7                   | 2.6, 2.7, 3.2, 3.3, 3.4
+0.6             | 1.6, 1.7                   | 2.6, 2.7, 3.2, 3.3, 3.4
+0.5             | 1.6                        | 2.6, 2.7, 3.2, 3.3, 3.4
+0.4             | 1.6                        | 2.6, 2.7, 3.2, 3.3, 3.4
+0.3             | 1.6                        | 2.6, 2.7
+0.2             | 1.6                        | 2.7
+0.1             | 1.6                        | 2.7
