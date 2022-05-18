@@ -7,7 +7,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 command: cat /etc/fedora-release 
 sortReleasesBy: 'releaseCycle'
-changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__
+changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 auto:
   oci: https://index.docker.io/v2/_library/fedora
 category: os
