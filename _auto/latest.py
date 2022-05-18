@@ -49,9 +49,9 @@ def yaml_to_str(obj):
   string_stream.close()
   return output_str
 
-for x in glob('products/*.md'):
-  product_name = Path(x).stem
-  with open(x, 'r+') as f:
+def update_product(name):
+  fn = 'products/%s.md' % name
+  with open(fn, 'r+') as f:
     yaml = YAML()
     yaml.preserve_quotes = True
     data = next(yaml.load_all(f))
@@ -60,7 +60,7 @@ for x in glob('products/*.md'):
     _, content = frontmatter.parse(f.read())
 
     for t in ['git', 'custom']:
-      fn = '_data/release-data/releases/%s/%s.json' % (t, product_name)
+      fn = '_data/release-data/releases/%s/%s.json' % (t, name)
       if exists(fn):
         print("Updating %s" % fn)
         with open(fn) as releases_file:
@@ -91,3 +91,10 @@ for x in glob('products/*.md'):
 
               f.seek(0)
               f.write(final_contents)
+
+if __name__ == '__main__':
+  if sys.argv[1]:
+    update_product(sys.argv[1])
+  else:
+    for x in glob('products/*.md'):
+      update_product(Path(x).stem)
