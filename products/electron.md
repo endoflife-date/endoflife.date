@@ -46,7 +46,7 @@ releases:
     latestReleaseDate: 2022-02-01
 -   releaseCycle: "12"
     eol: true
-    release: 2021-03-02
+    release: 2021-03-01
     latest: "12.2.3"
     latestReleaseDate: 2021-11-15
 -   releaseCycle: "11"
@@ -83,7 +83,7 @@ releases:
     eol: true
     release: 2019-04-23
     latest: "5.0.13"
-    latestReleaseDate: 2019-12-17
+    latestReleaseDate: 2019-12-16
 
 ---
 

@@ -48,7 +48,7 @@ releases:
     
   - releaseCycle: "5.4"
     cycleShortHand: 504
-    release: 2019-11-25
+    release: 2019-11-24
     eol: 2025-12-01
     lts: true
     latest: "5.4.195"

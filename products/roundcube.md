@@ -11,7 +11,7 @@ auto:
 releases:
 -   releaseCycle: "1.5"
     latest: "1.5.2"
-    release: 2021-10-17
+    release: 2021-10-18
     eol: false
     support: true
 

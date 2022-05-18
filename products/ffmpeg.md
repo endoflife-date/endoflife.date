@@ -24,7 +24,7 @@ releases:
     latest: "5.0.1"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.0
-    latestReleaseDate: 2022-04-03
+    latestReleaseDate: 2022-04-04
 -   releaseCycle: "4.4"
     cycleShortHand: 44
     codename: Rao
@@ -40,7 +40,7 @@ releases:
     eol: false
     latest: "4.3.4"
     link: https://ffmpeg.org/download.html#release_4.3
-    latestReleaseDate: 2022-04-15
+    latestReleaseDate: 2022-04-16
 -   releaseCycle: "4.2"
     cycleShortHand: 42
     codename: 'Ada'
@@ -48,19 +48,19 @@ releases:
     eol: false
     latest: "4.2.7"
     link: https://ffmpeg.org/download.html#release_4.2
-    latestReleaseDate: 2022-05-09
+    latestReleaseDate: 2022-05-14
 -   releaseCycle: "4.1"
     cycleShortHand: 41
     codename: 'al-Khwarizmi'
-    release: 2018-11-05
+    release: 2018-11-06
     eol: false
     latest: "4.1.9"
     link: https://ffmpeg.org/download.html#release_4.1
-    latestReleaseDate: 2022-04-16
+    latestReleaseDate: 2022-04-17
 -   releaseCycle: "4.0"
     cycleShortHand: 40
     codename: 'Wu'
-    release: 2018-04-19
+    release: 2018-04-20
     eol: 2020-07-03
     latest: "4.0.6"
     link: https://ffmpeg.org/olddownload.html#release_4.0
@@ -72,7 +72,7 @@ releases:
     eol: false
     latest: "3.4.11"
     link: https://ffmpeg.org/download.html#release_3.4
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-14
 -   releaseCycle: "3.3"
     cycleShortHand: 33
     codename: 'Hilbert'
@@ -88,11 +88,11 @@ releases:
     eol: false
     latest: "3.2.18"
     link: https://ffmpeg.org/download.html#release_3.2
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-14
 -   releaseCycle: "3.1"
     cycleShortHand: 31
     codename: 'Laplace'
-    release: 2016-06-26
+    release: 2016-06-27
     eol: 2017-09-25
     latest: "3.1.11"
     link: https://ffmpeg.org/olddownload.html#release_3.1
@@ -104,19 +104,19 @@ releases:
     eol: 2018-10-28
     latest: "3.0.12"
     link: https://ffmpeg.org/olddownload.html#release_3.0
-    latestReleaseDate: 2018-10-27
+    latestReleaseDate: 2018-10-28
 -   releaseCycle: "2.8"
     cycleShortHand: 28
     codename: 'Feynman'
-    release: 2015-09-08
+    release: 2015-09-09
     eol: false
     latest: "2.8.20"
     link: https://ffmpeg.org/download.html#release_2.8
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-15
 -   releaseCycle: "2.7"
     cycleShortHand: 27
     codename: 'Nash'
-    release: 2015-06-09
+    release: 2015-06-10
     eol: 2016-04-30
     latest: "2.7.7"
     link: https://ffmpeg.org/olddownload.html#release_2.7
@@ -124,7 +124,7 @@ releases:
 -   releaseCycle: "2.6"
     cycleShortHand: 26
     codename: 'Grothendieck'
-    release: 2015-03-06
+    release: 2015-03-07
     eol: 2016-05-03
     latest: "2.6.9"
     link: https://ffmpeg.org/olddownload.html#release_2.6
@@ -136,7 +136,7 @@ releases:
     eol: 2016-02-02
     latest: "2.5.11"
     link: https://ffmpeg.org/olddownload.html#release_2.5
-    latestReleaseDate: 2016-02-01
+    latestReleaseDate: 2016-02-02
 -   releaseCycle: "2.4"
     cycleShortHand: 24
     codename: 'Fresnel'
@@ -160,7 +160,7 @@ releases:
     eol: 2015-06-18
     latest: "2.2.16"
     link: https://ffmpeg.org/olddownload.html#release_2.2
-    latestReleaseDate: 2015-06-17
+    latestReleaseDate: 2015-06-18
 -   releaseCycle: "2.1"
     cycleShortHand: 21
     codename: 'Fourier'
@@ -180,7 +180,7 @@ releases:
 -   releaseCycle: "1.2"
     cycleShortHand: 12
     codename: 'Magic'
-    release: 2013-03-14
+    release: 2013-03-15
     eol: 2015-02-12
     latest: "1.2.12"
     link: https://ffmpeg.org/olddownload.html#release_1.2

@@ -19,16 +19,16 @@ releases:
     eol: 2022-11-01
     latest: "1.37.2"
 
-    latestReleaseDate: 2022-03-31
+    latestReleaseDate: 2022-04-01
 -   releaseCycle: "1.36"
     lts: false
-    release: 2021-05-27
+    release: 2021-05-28
     eol: 2022-05-01
     latest: "1.36.4"
     latestReleaseDate: 2022-03-31
 -   releaseCycle: "1.35"
     lts: true
-    release: 2020-09-24
+    release: 2020-09-25
     eol: 2023-09-01
     latest: "1.35.6"
 
@@ -66,6 +66,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-Life
 command: "https://your-server-url/mediawiki/Special:Version"
+
 
 ---
 

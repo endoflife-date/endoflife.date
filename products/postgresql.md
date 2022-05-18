@@ -54,7 +54,7 @@ releases:
     latest: "9.5.25"
     latestReleaseDate: 2021-02-08
 -   releaseCycle: "9.4"
-    release: 2014-12-16
+    release: 2014-12-15
     eol: 2020-02-13
     latest: "9.4.26"
     latestReleaseDate: 2020-02-10
@@ -97,7 +97,7 @@ releases:
     release: 2005-11-05
     eol: 2010-11-08
     latest: "8.1.23"
-    latestReleaseDate: 2010-12-14
+    latestReleaseDate: 2010-12-13
 -   releaseCycle: "8.0"
     release: 2005-01-17
     eol: 2010-10-01

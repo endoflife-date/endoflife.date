@@ -18,14 +18,14 @@ releases:
     eol: 2024-02-08
     latest: 9.13.0
     lts: false
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-17
 -   releaseCycle: "8"
     release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
     latest: 8.83.13
     lts: false
-    latestReleaseDate: 2022-05-10
+    latestReleaseDate: 2022-05-17
 -   releaseCycle: "7"
     release: 2020-03-03
     support: 2020-10-06

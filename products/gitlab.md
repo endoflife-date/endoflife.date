@@ -99,7 +99,7 @@ releases:
     latest: "13.11.7"
     latestReleaseDate: 2021-07-07
 -   releaseCycle: "13.10"
-    release: 2021-03-17
+    release: 2021-03-18
     support: 2021-04-22
     eol: 2021-06-22
     latest: "13.10.5"

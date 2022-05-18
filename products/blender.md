@@ -17,21 +17,21 @@ eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
 -   releaseCycle: "3.1"
-    release: 2022-03-08
+    release: 2022-03-09
     eol: false
     support: true
     latest: "3.1.2"
     lts: false
 
-    latestReleaseDate: 2022-03-31
+    latestReleaseDate: 2022-04-01
 -   releaseCycle: "3.0"
-    release: 2021-12-02
+    release: 2021-12-03
     eol: 2022-03-09
     support: true
     latest: "3.0.1"
     lts: false
 
-    latestReleaseDate: 2022-01-25
+    latestReleaseDate: 2022-01-26
 -   releaseCycle: "2.93"
     release: 2021-06-02
     eol: 2023-06-01
@@ -40,7 +40,7 @@ releases:
     lts: true
     link: https://www.blender.org/download/releases/2-93/
 
-    latestReleaseDate: 2022-04-19
+    latestReleaseDate: 2022-04-20
 -   releaseCycle: "2.83"
     release: 2020-06-03
     eol: 2022-06-01

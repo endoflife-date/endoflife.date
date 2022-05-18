@@ -1,8 +1,8 @@
 ---
 permalink: /nodejs
 alternate_urls:
-  - /node
-  - /node.js
+-   /node
+-   /node.js
 layout: post
 category: lang
 title: Node.js
@@ -17,49 +17,57 @@ command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: "18"
+-   releaseCycle: "18"
     release: 2022-04-19
     # Change to true after 2022-10-25
     lts: false
     support: 2023-10-18
     eol: 2025-04-30
     latest: "18.2.0"
-  - releaseCycle: "17"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "17"
     release: 2021-10-19
     lts: false
     support: 2022-04-01
     eol: 2022-06-01
     latest: "17.9.0"
-  - releaseCycle: "16"
+    latestReleaseDate: 2022-04-07
+-   releaseCycle: "16"
     release: 2021-04-20
     lts: true
     support: 2022-10-18
     eol: 2024-04-30
     latest: "16.15.0"
-  - releaseCycle: "15"
+    latestReleaseDate: 2022-04-26
+-   releaseCycle: "15"
     release: 2020-10-20
     lts: false
     support: 2021-04-01
     eol: 2021-06-01
     latest: "15.14.0"
-  - releaseCycle: "14"
+    latestReleaseDate: 2021-04-06
+-   releaseCycle: "14"
     release: 2020-04-21
     lts: true
     support: 2021-10-19
     eol: 2023-04-30
     latest: "14.19.3"
-  - releaseCycle: "12"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "12"
     release: 2019-04-23
     lts: true
     support: 2020-10-20
     eol: 2022-04-30
     latest: "12.22.12"
-  - releaseCycle: "10"
+    latestReleaseDate: 2022-04-05
+-   releaseCycle: "10"
     release: 2018-04-24
     lts: true
     support: 2020-05-19
     eol: 2021-04-30
     latest: "10.24.1"
+    latestReleaseDate: 2021-04-06
+
 ---
 
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a browser.

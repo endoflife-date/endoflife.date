@@ -14,12 +14,12 @@ sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "2.4.3"
     cycleShortHand: 2
-    release: 2021-07-13
+    release: 2021-08-04
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
     latest: "2.4.3"
-    latestReleaseDate: 2021-07-13
+    latestReleaseDate: 2021-08-04
 -   releaseCycle: "2.4.2"
     cycleShortHand: 2
     release: 2021-02-04
@@ -30,12 +30,12 @@ releases:
     latestReleaseDate: 2021-02-04
 -   releaseCycle: "2.4.1"
     cycleShortHand: 2
-    release: 2020-10-12
+    release: 2020-10-14
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html
     latest: "2.4.1"
-    latestReleaseDate: 2020-10-12
+    latestReleaseDate: 2020-10-14
 -   releaseCycle: "2.4.0"
     cycleShortHand: 2
     release: 2020-07-20
@@ -68,7 +68,7 @@ releases:
     latestReleaseDate: 2019-06-06
 -   releaseCycle: "2.0"
     cycleShortHand: 2
-    release: 2015-11-17
+    release: 2015-11-16
     eol: 2018-03-01
     support: 2018-03-01
     latest: "2.0.18"
@@ -133,6 +133,7 @@ releases:
     eol: 2010-03-01
     support: 2009-03-01
     latest: "1.0.0"
+
 
 ---
 

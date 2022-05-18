@@ -28,7 +28,7 @@ releases:
     latestReleaseDate: 2022-03-07
 -   releaseCycle: "2.6"
     latest: "2.6.1"
-    release: 2022-01-24
+    release: 2022-01-25
     eol: true
     latestReleaseDate: 2022-02-17
 -   releaseCycle: "2.5"
@@ -45,27 +45,27 @@ releases:
     latest: "2.3.16"
     release: 2019-09-04
     eol: false
-    latestReleaseDate: 2021-09-21
+    latestReleaseDate: 2021-10-07
 -   releaseCycle: "2.2"
     latest: "2.2.2"
-    release: 2019-01-10
+    release: 2019-01-11
     eol: true
     latestReleaseDate: 2019-04-15
 -   releaseCycle: "2.1"
     latest: "2.1.3"
-    release: 2018-09-02
+    release: 2018-09-03
     eol: true
-    latestReleaseDate: 2018-10-01
+    latestReleaseDate: 2018-10-02
 -   releaseCycle: "2.0"
     latest: "2.0.4"
     release: 2018-02-22
     eol: true
-    latestReleaseDate: 2018-05-30
+    latestReleaseDate: 2018-05-31
 -   releaseCycle: "1"
     latest: "1.11.16"
-    release: 2012-05-12
+    release: 2012-05-11
     eol: true
-    latestReleaseDate: 2017-12-12
+    latestReleaseDate: 2017-12-20
 
 ---
 

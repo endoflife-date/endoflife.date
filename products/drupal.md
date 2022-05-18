@@ -49,7 +49,7 @@ releases:
     support: 2020-06-03
     eol: 2020-12-01
     latest: "8.8.12"
-    latestReleaseDate: 2020-11-26
+    latestReleaseDate: 2020-11-25
 -   releaseCycle: "7"
     release: 2011-01-05
     support: 2015-11-19

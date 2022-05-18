@@ -59,7 +59,7 @@ releases:
     eol: 2020-10-06 # release date of 1.11.0
     support: 2018-07-25 # release date of 1.7.0
     latest: "1.6.6"
-    latestReleaseDate: 2018-06-19
+    latestReleaseDate: 2018-06-20
 -   releaseCycle: "1.5"
     release: 2017-07-25
     eol: 2020-01-27 # release date of 1.10.0
@@ -67,7 +67,7 @@ releases:
     latest: "1.5.3"
     latestReleaseDate: 2017-12-19
 -   releaseCycle: "1.4"
-    release: 2017-01-04
+    release: 2017-01-05
     eol: 2019-06-24 # release date of 1.9.0
     support: 2017-07-25 # release date of 1.5.0
     latest: "1.4.5"

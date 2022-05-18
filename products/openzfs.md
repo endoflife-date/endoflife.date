@@ -25,13 +25,13 @@ releases:
     lts: true
     latest: "2.1.99"
 
-    latestReleaseDate: 2021-03-30
+    latestReleaseDate: 2021-04-19
 -   releaseCycle: "2.0"
     release: 2020-11-30
     eol: 2021-12-23
     latest: "2.0.7"
 
-    latestReleaseDate: 2021-12-22
+    latestReleaseDate: 2021-12-23
 -   releaseCycle: "0.8"
     release: 2019-05-21
     eol: 2020-12-14

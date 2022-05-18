@@ -44,15 +44,15 @@ releases:
     eol: 2019-08-25
     support: 2018-04-09
     latest: "5.1.7"
-    latestReleaseDate: 2019-03-28
+    latestReleaseDate: 2019-03-27
 -   releaseCycle: "5.0"
     release: 2016-06-30
     eol: 2018-04-09
     support: 2018-04-09
     latest: "5.0.7.2"
-    latestReleaseDate: 2019-03-11
+    latestReleaseDate: 2019-03-13
 -   releaseCycle: "4.2"
-    release: 2014-12-20
+    release: 2014-12-19
     eol: 2017-04-27
     support: 2016-06-30
     latest: "4.2.11.3"

@@ -30,11 +30,11 @@ releases:
     support: false
     latestReleaseDate: 2019-02-13
 -   releaseCycle: "2"
-    release: 2012-02-01
+    release: 2012-01-31
     eol: 2013-08-19
     latest: "2.3.2"
     support: false
-    latestReleaseDate: 2013-07-27
+    latestReleaseDate: 2013-07-26
 releasePolicyLink: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: Critical Support

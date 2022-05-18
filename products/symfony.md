@@ -126,7 +126,7 @@ releases:
     eol: 2017-07-01
     latest: "3.1.10"
 
-    latestReleaseDate: 2017-01-28
+    latestReleaseDate: 2017-01-27
 -   releaseCycle: "3.0"
     release: 2015-11-30
     support: 2016-07-01

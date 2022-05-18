@@ -21,7 +21,7 @@ releases:
     eol: 2024-11-25
     latest: "8.1.6"
 
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-10
 -   releaseCycle: "8.0"
     cycleShortHand: "800"
     release: 2020-11-24

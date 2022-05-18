@@ -43,7 +43,7 @@ releases:
     eol: 2022-06-28
     latestReleaseDate: 2022-04-13
 -   releaseCycle: "1.20"
-    release: 2020-12-04
+    release: 2020-12-08
     latest: "1.20.15"
     support: 2021-12-28
     eol: 2022-02-28
@@ -61,12 +61,12 @@ releases:
     eol: 2021-06-18
     latestReleaseDate: 2021-06-16
 -   releaseCycle: "1.17"
-    release: 2019-12-06
+    release: 2019-12-07
     latest: "1.17.17"
     eol: 2020-12-25
     latestReleaseDate: 2021-01-13
 -   releaseCycle: "1.16"
-    release: 2019-09-13
+    release: 2019-09-18
     eol: 2020-08-04
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02
