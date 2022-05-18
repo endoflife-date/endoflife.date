@@ -97,5 +97,5 @@ The Wagtail team provides [official security support](https://docs.wagtail.io/en
 
 Wagtail release | Compatible Django versions | Compatible Python versions
 ----------------|----------------------------|----------------------------
-3               | 3.2, 4.0                   | 3.7, 3.8, 3.9, 3.10
-2.15 LTS        | 3.0, 3.1, 3.2              | 3.6, 3.7, 3.8, 3.9, 3.10
+3               | 3.2, 4.0                   | 3.7-3.10
+2.15 LTS        | 3.0, 3.1, 3.2              | 3.6-3.10
