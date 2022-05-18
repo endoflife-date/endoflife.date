@@ -15,13 +15,13 @@ releases:
   - releaseCycle: "8.2"
     eol: 2023-05-12
     release: 2021-09-20
-    cycleShortHand: 8.2.5
-    latest: "8.2.5"
+    cycleShortHand: 8.2.6
+    latest: "8.2.6"
   - releaseCycle: "8.1"
     eol: 2022-10-19
     release: 2021-09-09
-    cycleShortHand: 8.1.9
-    latest: "8.1.9"
+    cycleShortHand: 8.1.10
+    latest: "8.1.10"
   - releaseCycle: "8.0"
     eol: 2021-10-22
     release: 2021-04-14
