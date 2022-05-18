@@ -10,7 +10,7 @@ releaseColumn: true
 iconSlug: unity
 changelogTemplate: |
   https://unity3d.com/unity/whats-new/__LATEST__
-releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
+releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 sortReleasesBy: "release"
 releases:
 #  - releaseCycle: "2022.2"
