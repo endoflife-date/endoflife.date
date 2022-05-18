@@ -56,4 +56,4 @@ releases:
 
 Only the latest Rails version gets bug fixes, and the version before that gets security fixes. Severe security issues (as judged by the core team) are backported further; e.g., v4.2.11.1 and v5.0.7.2 are [severe security fixes](https://weblog.rubyonrails.org/2019/3/13/Rails-4-2-5-1-5-1-6-2-have-been-released/) that were created after v4.2 and v5.0 were no longer receiving (non-severe) security updates.
 
-A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions). New releases are published on the [Rails blog](https://weblog.rubyonrails.org/releases/).
+A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions). New releases are published on the [Rails blog](https://rubyonrails.org/category/releases).
