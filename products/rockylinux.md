@@ -19,8 +19,8 @@ releases:
     release: 2021-06-21
     support: 2024-05-31
     eol: 2029-05-31
-    latest: "8.5"
-    link: https://rockylinux.org/news/rocky-linux-8-5-ga-release/
+    latest: "8.6"
+    link: https://rockylinux.org/news/rocky-linux-8-6-ga-release/
 ---
 
 > [Rocky Linux](https://rockylinux.org/) is a Linux distribution that is intended to be a downstream, complete binary-compatible release using the Red Hat Enterprise Linux (RHEL) operating system source code. The project is led by Gregory Kurtzer, founder of the CentOS project.
