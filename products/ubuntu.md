@@ -68,6 +68,7 @@ releases:
     support: 2023-04-02
     eol:     2028-04-01
     latest: "18.04.6"
+    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
 
   - releaseCycle: "16.04"
     codename: "Xenial Xerus"
