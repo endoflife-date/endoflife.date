@@ -29,9 +29,9 @@ releases:
     cycleShortHand: 516
     release: 2022-01-09
     eol: 2022-04-13
-    latest: "5.16"
+    latest: "5.16.20"
 
-    latestReleaseDate: 2022-01-09
+    latestReleaseDate: 2022-04-13
 -   releaseCycle: "5.15"
     cycleShortHand: 515
     release: 2021-10-31
