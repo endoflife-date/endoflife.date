@@ -10,7 +10,7 @@ releaseColumn: true
 iconSlug: unity
 changelogTemplate: |
   https://unity3d.com/unity/whats-new/__LATEST__
-releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
+releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 sortReleasesBy: "release"
 releases:
 #  - releaseCycle: "2022.2"
@@ -23,20 +23,11 @@ releases:
     eol: false
     latest: "2022.1.0"
 
-  - releaseCycle: "2021.3"
-    release: 2022-04-12
-    eol: false
-    latest: "2021.3.2"
-
-  - releaseCycle: "2021.2"
-    release: 2021-10-26
-    eol: false
-    latest: "2021.2.19"
-
-  - releaseCycle: "2021.1"
+  - releaseCycle: "2021"
     release: 2021-03-19
-    eol: true
-    latest: "2021.1.28"
+    eol: 2024-04-19
+    lts: true
+    latest: "2021.3.2"
 
   - releaseCycle: "2020"
     release: 2021-03-11
