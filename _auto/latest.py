@@ -9,6 +9,7 @@ from distutils.version import StrictVersion
 from ruamel.yaml import YAML
 from deepdiff import DeepDiff
 from io import StringIO
+from os.path import exists
 
 """
 Updates the `release`, `latest` and `latestReleaseDate` property in automatically updated pages
@@ -58,38 +59,35 @@ for x in glob('products/*.md'):
     f.seek(0)
     _, content = frontmatter.parse(f.read())
 
-    try:
-      if(data['auto']['git']):
-        print(product_name)
-        with open('_data/release-data/releases/git/%s.json' % product_name) as releases_file:
+    for t in ['git', 'custom']:
+      fn = '_data/release-data/releases/%s/%s.json' % (t, product_name)
+      if exists(fn):
+        print("Updating %s" % fn)
+        with open(fn) as releases_file:
+          # Entire releases data as a dict
           R1 = json.loads(releases_file.read())
+          # Just the list of versions
           R2 = sort_versions(R1.keys())
 
-      for release in data['releases']:
-        old = release.copy()
+        for release in data['releases']:
+          old = release.copy()
 
-        prefix = release['releaseCycle']
-        first_version = find_first(R2, prefix)
-        latest_version = find_last(R2, prefix)
+          prefix = release['releaseCycle']
+          first_version = find_first(R2, prefix)
+          latest_version = find_last(R2, prefix)
 
-        if first_version:
-          release['release'] = datetime.date.fromisoformat(R1[first_version])
-          release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
-          release['latest'] = latest_version
-          diff = DeepDiff(old, release, ignore_order=True)
+          if first_version:
+            release['release'] = datetime.date.fromisoformat(R1[first_version])
+            release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
+            release['latest'] = latest_version
+            diff = DeepDiff(old, release, ignore_order=True)
 
-          if(diff!={}):
-            # We write back to the file
+            if(diff!={}):
+              # We write back to the file
 
-            final_contents = DEFAULT_POST_TEMPLATE.format(
-              metadata=yaml_to_str(data),
-              content=content)
+              final_contents = DEFAULT_POST_TEMPLATE.format(
+                metadata=yaml_to_str(data),
+                content=content)
 
-            f.seek(0)
-            f.write(final_contents)
-
-    except KeyError:
-      pass
-    except FileNotFoundError:
-      print("Failed with file: %s" % x)
-      pass
+              f.seek(0)
+              f.write(final_contents)
