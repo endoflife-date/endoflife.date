@@ -17,6 +17,7 @@ releases:
     latest: "3.19.0"
     eol: false
     support: true
+    link: https://github.com/cfengine/core/blob/3.19.0/ChangeLog
   - releaseCycle: "3.18"
     release: 2021-06-24
     lts: true
