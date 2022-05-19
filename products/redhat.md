@@ -1,5 +1,4 @@
 ---
-releaseImage: https://access.redhat.com/sites/default/files/images/rhel_8_life_cycle_8_0620_planning_0.png
 title: Red Hat Enterprise Linux
 layout: post
 permalink: /rhel
@@ -15,6 +14,11 @@ releaseColumn: false
 sortReleasesBy: 'release'
 releaseLabel: "RHEL __RELEASE_CYCLE__"
 releases:
+  - releaseCycle: "9"
+    release: 2022-05-18
+    support: 2027-05-31
+    eol: 2032-05-31
+    latest: "9.0"
   - releaseCycle: "8"
     release: 2019-05-01
     support: 2024-05-31
