@@ -21,7 +21,7 @@ releases:
     eol: false
     support: false
     release: 2020-12-08
-    latest: "20.10.15"
+    latest: "20.10.16"
   - releaseCycle: "19.03"
     eol: 2021-01-08
     support: false
