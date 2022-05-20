@@ -11,7 +11,7 @@ auto:
   # https://git.blender.org/blender.git does not support partialClone
   git: https://github.com/blender/blender.git
 changelogTemplate: |
-  https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}
+  https://wiki.blender.org/wiki/Reference/Release_Notes/__RELEASE_CYCLE__/Corrective_Releases
 sortReleasesBy: "release"
 eolColumn: Critical bug fixes
 activeSupportColumn: true
@@ -36,6 +36,7 @@ releases:
     support: true
     latest: "2.93.9"
     lts: true
+    link: https://www.blender.org/download/releases/2-93/
 
   - releaseCycle: "2.83"
     release: 2020-06-03
@@ -43,7 +44,7 @@ releases:
     support: 2020-08-31
     latest: "2.83.20"
     lts: true
-    
+    link: https://www.blender.org/download/releases/2-83/
     
 
 ---
