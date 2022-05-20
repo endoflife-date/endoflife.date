@@ -16,7 +16,7 @@ releases:
   - releaseCycle: "100"
     release: 2022-05-03
     eol: false
-    latest: "100.0"
+    latest: "100.0.1"
 
   - releaseCycle: "91"
     release: 2021-08-10
