@@ -20,7 +20,7 @@ releases:
     release: 2022-04-22
     support: 2022-05-22
     eol: 2022-07-22
-    latest: "14.10.2"
+    latest: "14.10.3"
   - releaseCycle: "14.9"
     release: 2022-03-22
     support: 2022-04-22
