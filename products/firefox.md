@@ -16,12 +16,12 @@ releases:
   - releaseCycle: "100"
     release: 2022-05-03
     eol: false
-    latest: "100.0.1"
+    latest: "100.0.2"
 
   - releaseCycle: "91"
     release: 2021-08-10
     eol: 2022-09-20
-    latest: "91.9.0"
+    latest: "91.9.1"
     lts: true
 
   - releaseCycle: "78"
