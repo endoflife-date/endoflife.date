@@ -6,7 +6,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/j6ewb6m3bxxticwu9ifde277qxob995.png
 auto:
-  git: https://github.com/wikimedia/mediawiki.git
+-   git: https://github.com/wikimedia/mediawiki.git
 releases:
 #  - releaseCycle: "1.38"
 #    lts: false

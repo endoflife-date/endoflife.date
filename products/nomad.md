@@ -11,7 +11,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 command: nomad --version
 auto:
-  git: https://github.com/hashicorp/nomad.git
+-   git: https://github.com/hashicorp/nomad.git
 releases:
   - releaseCycle: "1.3"
     eol: false

@@ -8,7 +8,7 @@ releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 sortReleasesBy: "release"
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 auto:
-  git: https://github.com/hashicorp/consul.git
+-   git: https://github.com/hashicorp/consul.git
 activeSupportColumn: false
 releaseDateColumn: true
 command: consul --version

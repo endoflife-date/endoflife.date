@@ -11,8 +11,8 @@ eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: 'release'
 auto:
-  oci: https://index.docker.io/v2/_library/amazonlinux
-changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__" | slice:4,8 }}.html'
+-   oci: https://index.docker.io/v2/_library/amazonlinux
+changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__"| slice:4,8 }}.html'
 releases:
   - releaseCycle: '1'
     releaseLabel: 'Amazon Linux AMI'

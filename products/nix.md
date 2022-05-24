@@ -11,7 +11,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__.html
 command: nix --version
 auto:
-  git: https://github.com/NixOS/nix.git
+-   git: https://github.com/NixOS/nix.git
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

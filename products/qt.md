@@ -10,7 +10,7 @@ releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 auto:
   # Upstream does not support filtering https://code.qt.io/qt/qt5.git
-  git: https://github.com/qt/qt5.git
+-   git: https://github.com/qt/qt5.git
 releases:
     - releaseCycle: "6.3"
       cycleShortHand: 603

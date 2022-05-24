@@ -10,7 +10,7 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:
-  git: https://github.com/symfony/symfony.git
+-   git: https://github.com/symfony/symfony.git
 category: framework
 releases:
 #  - releaseCycle: "6.1"

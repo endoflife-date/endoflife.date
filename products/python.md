@@ -10,10 +10,10 @@ changelogTemplate: |
 releaseDateColumn: true
 sortReleasesBy: 'release'
 auto:
-  git: https://github.com/python/cpython.git
+-   git: https://github.com/python/cpython.git
   # The v is mandatory here because each branch EOL is tagged:
   # eg https://github.com/python/cpython/releases/tag/3.6
-  regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+    regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
     - releaseCycle: "3.10"
       release: 2021-10-04

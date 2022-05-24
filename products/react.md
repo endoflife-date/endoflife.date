@@ -10,7 +10,7 @@ changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 auto:
-  git: https://github.com/facebook/react.git
+-   git: https://github.com/facebook/react.git
 releases:
   - releaseCycle: "18"
     release: 2022-03-29

@@ -7,7 +7,7 @@ command: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
 changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
 auto:
-  git: https://github.com/zabbix/zabbix.git
+-   git: https://github.com/zabbix/zabbix.git
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true

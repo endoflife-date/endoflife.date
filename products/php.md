@@ -8,8 +8,8 @@ changelogTemplate: |
   https://www.php.net/ChangeLog-{{ "__LATEST__" | split: "." | first }}.php#__LATEST__
 activeSupportColumn: true
 auto:
-  git: https://github.com/php/php-src.git
-  regex: ^php-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+-   git: https://github.com/php/php-src.git
+    regex: ^php-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 command: php --version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'

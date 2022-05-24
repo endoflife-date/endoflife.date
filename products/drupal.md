@@ -11,7 +11,7 @@ releaseColumn: true
 command: drush status
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
-  git: https://github.com/drupal/core.git
+-   git: https://github.com/drupal/core.git
 sortReleasesBy: 'releaseCycle'
 releases:
   - releaseCycle: "9.3"

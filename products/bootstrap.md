@@ -7,7 +7,7 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:
-  git: https://github.com/twbs/bootstrap.git
+-   git: https://github.com/twbs/bootstrap.git
 releases:
   - releaseCycle: "5"
     release: 2021-05-05

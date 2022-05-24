@@ -13,8 +13,8 @@ eolColumn: Maintenance Support
 iconSlug: gitlab
 auto:
   # Reference: https://rubular.com/r/mFfxB8FgXXERX4
-  regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
-  git: https://gitlab.com/gitlab-org/gitlab.git
+-   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
+    git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
   - releaseCycle: "15.0"
     release: 2022-05-22

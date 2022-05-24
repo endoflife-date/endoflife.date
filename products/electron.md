@@ -11,7 +11,7 @@ eolColumn: Supported
 activeSupportColumn: false
 command: npm show electron version
 auto:
-  git: https://github.com/electron/electron.git
+-   git: https://github.com/electron/electron.git
 releaseDateColumn: true
 sortReleasesBy: releaseCycle
 releases:

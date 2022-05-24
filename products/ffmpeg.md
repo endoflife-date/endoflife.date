@@ -12,8 +12,8 @@ eolColumn: Supported
 sortReleasesBy: cycleShortHand
 auto:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
-  git: https://github.com/FFmpeg/FFmpeg.git
-  regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+-   git: https://github.com/FFmpeg/FFmpeg.git
+    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
   - releaseCycle: "5.0"

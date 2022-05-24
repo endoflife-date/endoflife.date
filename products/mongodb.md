@@ -11,8 +11,8 @@ releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 command: mongod --version
 auto:
-  git: https://github.com/mongodb/mongo.git
-  regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+-   git: https://github.com/mongodb/mongo.git
+    regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
   - releaseCycle: "5.3"
     codename: "rapid"
