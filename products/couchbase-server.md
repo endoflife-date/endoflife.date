@@ -3,7 +3,7 @@ title: Couchbase Server
 layout: post
 permalink: /couchbase-server
 alternate_urls:
-  - /couchbase
+-   /couchbase
 category: db
 iconSlug: couchbase
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
@@ -17,22 +17,27 @@ releaseDateColumn: true
 command: cat /opt/couchbase/VERSION.txt
 
 releases:
-  - releaseCycle: "7.0"
+-   releaseCycle: "7.0"
     eol: 2023-01-01
-    release: 2021-10-01
+    release: 2021-08-31
     latest: "7.0.3"
-  - releaseCycle: "6.6"
+    latestReleaseDate: 2022-04-30
+-   releaseCycle: "6.6"
     eol: 2023-01-01
-    release: 2021-08-01
+    release: 2021-07-26
     latest: "6.6.5"
-  - releaseCycle: "6.5"
+    latestReleaseDate: 2022-02-02
+-   releaseCycle: "6.5"
     eol: 2021-02-01
-    release: 2021-01-01
+    release: 2021-07-26
     latest: "6.5.2"
-  - releaseCycle: "6.0"
+    latestReleaseDate: 2022-04-30
+-   releaseCycle: "6.0"
     eol: 2020-07-01
-    release: 2021-01-01
+    release: 2019-01-23
     latest: "6.0.5"
+    latestReleaseDate: 2022-04-30
+
 ---
 
 > [Couchbase Server](https://www.couchbase.com/products/server) is a modern cloud-native, distributed database that fuses the strengths of relational databases such as SQL and ACID transactions with JSON flexibility and scale that defines NoSQL. It is available as a service in commercial clouds and supports hybrid and private cloud deployments. 

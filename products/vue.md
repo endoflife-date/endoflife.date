@@ -28,12 +28,14 @@ releases:
     eol: 2023-09-23
     latest: "2.6.14"
     lts: false
+    latestReleaseDate: 2021-06-07
 -   releaseCycle: "1"
-    release: 2015-10-27
+    release: 2015-10-26
     support: false
     eol: true
     latest: "1.0.28"
     lts: false
+    latestReleaseDate: 2016-09-27
 
 ---
 

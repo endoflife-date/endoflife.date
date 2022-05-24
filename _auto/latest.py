@@ -67,38 +67,37 @@ def update_product(name):
     f.seek(0)
     _, content = frontmatter.parse(f.read())
 
-    for t in ['git', 'custom']:
-      fn = '_data/release-data/releases/%s/%s.json' % (t, name)
-      if exists(fn):
-        print("Updating %s" % fn)
-        with open(fn) as releases_file:
-          # Entire releases data as a dict
-          R1 = json.loads(releases_file.read())
-          # Just the list of versions
-          R2 = sort_versions(R1.keys())
+    fn = '_data/release-data/releases/%s.json' % (name)
+    if exists(fn):
+      print("Updating %s" % fn)
+      with open(fn) as releases_file:
+        # Entire releases data as a dict
+        R1 = json.loads(releases_file.read())
+        # Just the list of versions
+        R2 = sort_versions(R1.keys())
 
-        for release in data['releases']:
-          old = release.copy()
+      for release in data['releases']:
+        old = release.copy()
 
-          prefix = release['releaseCycle']
-          first_version = find_first(R2, prefix)
-          latest_version = find_last(R2, prefix)
+        prefix = release['releaseCycle']
+        first_version = find_first(R2, prefix)
+        latest_version = find_last(R2, prefix)
 
-          if first_version:
-            release['release'] = datetime.date.fromisoformat(R1[first_version])
-            release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
-            release['latest'] = latest_version
-            diff = DeepDiff(old, release, ignore_order=True)
+        if first_version:
+          release['release'] = datetime.date.fromisoformat(R1[first_version])
+          release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
+          release['latest'] = latest_version
+          diff = DeepDiff(old, release, ignore_order=True)
 
-            if(diff!={}):
-              # We write back to the file
+          if(diff!={}):
+            # We write back to the file
 
-              final_contents = DEFAULT_POST_TEMPLATE.format(
-                metadata=yaml_to_str(data),
-                content=content)
+            final_contents = DEFAULT_POST_TEMPLATE.format(
+              metadata=yaml_to_str(data),
+              content=content)
 
-              f.seek(0)
-              f.write(final_contents)
+            f.seek(0)
+            f.write(final_contents)
 
 if __name__ == '__main__':
   if len(sys.argv) > 1:

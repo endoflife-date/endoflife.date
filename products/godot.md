@@ -3,7 +3,7 @@ title: Godot
 permalink: /godot
 category: app
 alternate_urls:
-  - /godotengine
+-   /godotengine
 layout: post
 iconSlug: godotengine
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
@@ -14,7 +14,9 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 auto:
--   dockerhub: barichello/godot-ci
+-   git: https://github.com/godotengine/godot.git
+    regex: ^(?<version>\d+(\.\d+){1,3})-stable$
+    template: "{{version}}"
 releases:
   - releaseCycle: "3.4"
     release: 2021-11-05
@@ -60,6 +62,7 @@ releases:
     eol: true
     support: false
     latest: "1.1"
+
 ---
 
 >[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).

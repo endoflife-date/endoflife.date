@@ -36,22 +36,22 @@ releases:
     latest: "3.7.13"
     latestReleaseDate: 2022-03-16
 -   releaseCycle: "3.6"
-    release: 2021-12-31
+    release: 2016-12-22
     eol: 2021-12-23
     latest: "3.6.15"
     latestReleaseDate: 2021-09-03
 -   releaseCycle: "3.5"
-    release: 2020-10-22
+    release: 2015-09-12
     eol: 2020-09-13
     latest: "3.5.10"
     latestReleaseDate: 2020-09-05
 -   releaseCycle: "3.4"
-    release: 2019-05-08
+    release: 2014-03-15
     eol: 2019-03-18
     latest: "3.4.10"
     latestReleaseDate: 2019-03-18
 -   releaseCycle: "3.3"
-    release: 2017-10-06
+    release: 2012-09-29
     eol: 2017-09-29
     latest: "3.3.7"
     latestReleaseDate: 2017-09-19
