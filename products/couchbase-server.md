@@ -10,7 +10,8 @@ releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
 auto:
--   oci: https://index.docker.io/v2/_library/couchbase
+-   dockerhub: library/couchbase
+    regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 activeSupportColumn: false
 releaseDateColumn: true
 command: cat /opt/couchbase/VERSION.txt

@@ -14,7 +14,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 auto:
--   oci: https://index.docker.io/v2/barichello/godot-ci
+-   dockerhub: barichello/godot-ci
 releases:
   - releaseCycle: "3.4"
     release: 2021-11-05

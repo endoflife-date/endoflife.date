@@ -11,7 +11,9 @@ eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: 'release'
 auto:
--   oci: https://index.docker.io/v2/_library/amazonlinux
+-   dockerhub: library/amazonlinux
+    regex: ^(?<version>\d+(\.\d+){2,4})$
+    template: "{{version}}"
 changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__"| slice:4,8 }}.html'
 releases:
   - releaseCycle: '1'
@@ -19,7 +21,6 @@ releases:
     release: "2010-09-14"
     eol: 2020-12-31
     latest: "2018.03"
-    auto: false
   - releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     release: 2017-12-19

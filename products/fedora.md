@@ -9,7 +9,9 @@ command: cat /etc/fedora-release
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 auto:
--   oci: https://index.docker.io/v2/_library/fedora
+-   dockerhub: library/fedora
+    regex: ^(?<version>\d+)$
+    template: '{{version}}'
 category: os
 releases:
   - releaseCycle: "36"

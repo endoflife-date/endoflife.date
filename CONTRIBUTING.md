@@ -95,9 +95,9 @@ auto:
     # You can use liquid templating here
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
-  # The following are currently not supported, but support is planned
-  # Valid OCI Image Registry URL
-  - oci: https://index.docker.io/v2/_library/image
+  # owner/repo combination for a docker hub public image
+  # Use "library" as the owner name for a official docker/community image
+  - dockerhub: ministryofmagic/timeturner
 
   # Link to package on NPM
   - npm: https://www.npmjs.com/package/abc
