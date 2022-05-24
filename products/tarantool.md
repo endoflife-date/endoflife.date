@@ -16,10 +16,15 @@ eolColumn: Support Status
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 releases:
+  - releaseCycle: "2.10"
+    release: 2022-05-22
+    eol: false
+    latest: "2.10.0"
+
   - releaseCycle: "2.8"
     release: 2021-12-22
     eol: false
-    latest: "2.8.3"
+    latest: "2.8.4"
 
   - releaseCycle: "2.7"
     release: 2021-08-19
@@ -55,7 +60,7 @@ releases:
     release: 2021-12-22
     eol: false
     lts: true
-    latest: "1.10.12"
+    latest: "1.10.13"
 
 ---
 
