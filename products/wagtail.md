@@ -9,7 +9,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 command: python -c "import wagtail; print(wagtail.__version__)"
 auto:
-  git: https://github.com/wagtail/wagtail.git
+-   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: "release"
 releases:
   - releaseCycle: "3.0"

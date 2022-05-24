@@ -12,8 +12,8 @@ command: go version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 auto:
-  git: https://github.com/golang/go.git
-  regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+-   git: https://github.com/golang/go.git
+    regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
   - releaseCycle: "1.18"
     cycleShortHand: 118

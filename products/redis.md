@@ -10,7 +10,7 @@ command: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 auto:
-  git: https://github.com/redis/redis.git
+-   git: https://github.com/redis/redis.git
 releases:
   - releaseCycle: "7.0"
     eol: false

@@ -5,7 +5,7 @@ category: app
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 auto:
-  git: https://github.com/composer/composer.git
+-   git: https://github.com/composer/composer.git
 releases:
   - releaseCycle: "2.3"
     eol: false

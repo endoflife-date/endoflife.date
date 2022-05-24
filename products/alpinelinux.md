@@ -13,7 +13,7 @@ command: cat /etc/alpine-release
 releaseDateColumn: true
 auto:
   # upstream does not support filtering https://git.alpinelinux.org/aports
-  git: https://github.com/alpinelinux/aports.git
+-   git: https://github.com/alpinelinux/aports.git
 sortReleasesBy: 'cycleShortHand'
 releases:
   - releaseCycle: "3.15"

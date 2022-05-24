@@ -8,20 +8,20 @@ changelogTemplate: https://mariadb.com/kb/en/mariadb-__LATEST_SHORT_HAND__-chang
 activeSupportColumn: false
 releaseDateColumn: true
 auto:
-  git: https://github.com/MariaDB/server.git
-  # This is not a complicated regex. It only marks the first GA release in each release cycle
-  # So we drop any releases before the GA ones
-  # 5.5.29, 10.0.12, 10.1.18, 10.2.6, 10.3.7, 10.4.6, 10.6.3, 10.5.4, 10.7.2
-  # The regex is ^mariadb-(A|B|C|D)$ where A,B,C,D are sub-matches for each of the cycles
-  # Each cycle itself looks like (?<major>X)\.(?<minor>Y)\.(?<patch>R)
-  # Where X -> Major number, Y = Minor Number
-  # And R is a regex that only matches GA release patch numbers in that cycle. ie
-  # Greater than or equal to the first GA release in that cycle.
-  # For eg for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
-  # where (1[2-9]|[2-9]\d) matches 12-19 OR 2 digit numbers starting from 2-9 (ie 20-99)
-  # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
-  # Note: This will need to be edited when a new GA release is made in a new release cycle
-  regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2})))$
+-   git: https://github.com/MariaDB/server.git
+    # This is not a complicated regex. It only marks the first GA release in each release cycle
+    # So we drop any releases before the GA ones
+    # 5.5.29, 10.0.12, 10.1.18, 10.2.6, 10.3.7, 10.4.6, 10.6.3, 10.5.4, 10.7.2
+    # The regex is ^mariadb-(A|B|C|D)$ where A,B,C,D are sub-matches for each of the cycles
+    # Each cycle itself looks like (?<major>X)\.(?<minor>Y)\.(?<patch>R)
+    # Where X -> Major number, Y = Minor Number
+    # And R is a regex that only matches GA release patch numbers in that cycle. ie
+    # Greater than or equal to the first GA release in that cycle.
+    # For eg for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
+    # where (1[2-9]|[2-9]\d) matches 12-19 OR 2 digit numbers starting from 2-9 (ie 20-99)
+    # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
+    # Note: This will need to be edited when a new GA release is made in a new release cycle
+    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2})))$
 command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'

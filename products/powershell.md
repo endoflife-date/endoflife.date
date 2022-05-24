@@ -10,7 +10,7 @@ releaseDateColumn: true
 sortReleasesBy: "release"
 eolColumn: Support Status
 auto:
-  git: https://github.com/PowerShell/PowerShell.git
+-   git: https://github.com/PowerShell/PowerShell.git
 releases:
   - releaseCycle: "7.2"
     lts: true

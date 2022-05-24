@@ -14,9 +14,9 @@ command: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:
-  git: https://github.com/postgres/postgres.git
+-   git: https://github.com/postgres/postgres.git
   # https://rubular.com/r/KlemgnguNe0e5X
-  regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
+    regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
 releases:
   - releaseCycle: "14"
     release: 2021-09-30

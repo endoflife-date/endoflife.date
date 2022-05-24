@@ -12,8 +12,8 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: vuedotjs
 auto:
-  git: https://github.com/vuejs/core.git
-  npm: https://www.npmjs.com/package/vue
+-   git: https://github.com/vuejs/core.git
+-   git: https://github.com/vuejs/vue.git
 releases:
   - releaseCycle: "3"
     release: 2020-09-18

@@ -7,9 +7,9 @@ category: framework
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__"
 auto:
-  git: https://github.com/spring-projects/spring-framework.git
+-   git: https://github.com/spring-projects/spring-framework.git
   # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
-  regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
+    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 releases:
   - releaseCycle: "5.3"
     eol: false

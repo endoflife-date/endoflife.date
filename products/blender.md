@@ -9,7 +9,7 @@ iconSlug: blender
 releaseImage: https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
 auto:
   # https://git.blender.org/blender.git does not support partialClone
-  git: https://github.com/blender/blender.git
+-   git: https://github.com/blender/blender.git
 changelogTemplate: |
   https://wiki.blender.org/wiki/Reference/Release_Notes/__RELEASE_CYCLE__/Corrective_Releases
 sortReleasesBy: "release"

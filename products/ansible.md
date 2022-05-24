@@ -11,7 +11,7 @@ activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 auto:
-  git: https://github.com/ansible-community/ansible-build-data.git
+-   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
   - releaseCycle: "5"
     release: 2021-11-30

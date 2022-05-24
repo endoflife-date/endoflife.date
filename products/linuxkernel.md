@@ -14,12 +14,10 @@ releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
 command: uname -r
 auto:
-  # Upstream is https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-  # But does not support filtering
-  # Note that we're tracking the linux kernel stable tree, not torvalds' tree
-  # which doesn't contain all tags
-  git: https://github.com/gregkh/linux.git
-  regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
+# Note that we're tracking the linux kernel stable tree, not torvalds' tree
+# which doesn't contain all tags
+-   git: https://github.com/gregkh/linux.git
+    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 releases:
   - releaseCycle: "5.17"
     cycleShortHand: 517

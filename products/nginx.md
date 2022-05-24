@@ -11,10 +11,11 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "release"
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
+# https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
-  git: https://github.com/nginx/nginx.git
-  hg: https://hg.nginx.org/nginx
-  regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+-   git: https://github.com/nginx/nginx.git
+    regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+-   hg: https://hg.nginx.org/nginx
 releases:
   - releaseCycle: "1.21"
     release: 2021-05-25
