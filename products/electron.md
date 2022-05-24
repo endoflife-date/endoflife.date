@@ -19,7 +19,7 @@ releases:
   # but this varies a lot currently due to the cadence change.
   - releaseCycle: "19"
     eol: false
-    release: 2022-05-23
+    release: 2022-05-24
     latest: "19.0.0"
   - releaseCycle: "18"
     eol: false
