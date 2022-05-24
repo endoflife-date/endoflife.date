@@ -10,9 +10,6 @@ command: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
-auto:
-  dockerhub: library/haproxy
-  regex: ^(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 releases:
 -   releaseCycle: "2.5"
     cycleShortHand: 205
