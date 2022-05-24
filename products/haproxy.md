@@ -10,19 +10,6 @@ command: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
-# Upstream https://git.haproxy.org/ does not support filtering
-# So we rely on GitHub mirrors where we can
-auto:
--   git: https://github.com/haproxy/haproxy.git
--   git: https://github.com/fkjellberg/haproxy-1.7.git
--   git: https://github.com/yuxans/haproxy-1.8.git
--   git: https://github.com/fkjellberg/haproxy-1.9
--   git: https://github.com/yuxans/haproxy-2.0.git
--   git: https://github.com/yuxans/haproxy-2.1.git
--   git: https://github.com/yuxans/haproxy-2.2.git
--   git: https://git.haproxy.org/git/haproxy-2.3.git/
--   git: https://git.haproxy.org/git/haproxy-2.4.git/
--   git: https://git.haproxy.org/git/haproxy-2.5.git/
 releases:
   - releaseCycle: "2.5"
     cycleShortHand: 205
