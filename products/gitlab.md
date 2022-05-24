@@ -80,8 +80,8 @@ releases:
     release: 2021-07-21
     support: 2021-08-22
     eol: 2021-10-22
-    latest: "14.10.3"
-    latestReleaseDate: 2022-05-20
+    latest: "14.1.8"
+    latestReleaseDate: 2021-11-15
 -   releaseCycle: "14.0"
     release: 2021-06-21
     support: 2021-07-22
@@ -119,3 +119,4 @@ GitLab has a well [defined versioning policy](https://docs.gitlab.com/ce/policy/
 | Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.  |  Yearly. Subsequent major releases will be scheduled for May 22 each year, by default. |
 | Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out.  | Monthly on the 22nd.  |
 | Patch        | 	For backward-compatible bug fixes that fix incorrect behavior.  | As needed.  |
+

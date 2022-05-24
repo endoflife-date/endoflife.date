@@ -71,8 +71,8 @@ releases:
 -   releaseCycle: "1.2"
     release: 2012-04-23
     eol: 2013-04-24
-    latest: "1.21.6"
-    latestReleaseDate: 2022-01-25
+    latest: "1.2.9"
+    latestReleaseDate: 2013-05-13
 -   releaseCycle: "1.0"
     release: 2011-04-12
     eol: 2012-04-23
@@ -93,3 +93,4 @@ The open-source NGINX project maintains two branches: mainline and stable.
     Stable receives fixes for high‑severity bugs, but is not updated with new features. It is denoted by an even number in the second part of the version number, for example 1.18.0. The stable branch never receives new functionality during its lifecycle and typically receives just one or two updates, for critical bug fixes.
    
 Every April, the current stable branch is retired, after which no further bug fixes are made. The current mainline branch is forked, to create the next stable branch.
+

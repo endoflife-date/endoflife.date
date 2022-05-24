@@ -34,11 +34,19 @@ def sort_versions(data):
         return a
     return sorted(data, key=lambda n: key(n))
 
+"""
+matches releases that are exact (such as 4.1 being the first release for the 4.1 release cycle)
+or releases that include a dot just after the release cycle (4.1.*)
+This is important to avoid edge cases like a 4.10.x release being marked under the 4.1 release cycle.
+"""
+def releases_matches(r, prefix):
+  return (r.startswith(prefix) and (r == prefix or r.startswith(prefix + '.')))
+
 def find_first(releases, prefix):
-  return next(filter(lambda r: r.startswith(prefix), releases), None)
+  return next(filter(lambda r: releases_matches(r, prefix), releases), None)
 
 def find_last(releases, prefix):
-  return next(filter(lambda r: r.startswith(prefix), reversed(releases)), None)
+  return next(filter(lambda r: releases_matches(r, prefix), reversed(releases)), None)
 
 def yaml_to_str(obj):
   yaml = YAML()

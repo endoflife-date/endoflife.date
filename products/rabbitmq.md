@@ -61,8 +61,8 @@ releases:
 -   releaseCycle: "3.1"
     eol: 2014-04-30
     release: 2013-05-01
-    latest: "3.10.2"
-    latestReleaseDate: 2022-05-20
+    latest: "3.1.5"
+    latestReleaseDate: 2013-08-15
 -   releaseCycle: "3.0"
     eol: 2013-11-30
     release: 2012-11-19
@@ -72,3 +72,4 @@ releases:
 ---
 
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker.
+
