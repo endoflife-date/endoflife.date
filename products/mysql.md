@@ -8,9 +8,16 @@ changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/e
 # support -> GA+5 years = Premier support
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
+
+# Regex takes into account the first GA release in each cycle (in parantheses)
+# https://docs.oracle.com/cd/E17952_01/mysql-5.5-relnotes-en/index.html (5.5.8)
+# https://dev.mysql.com/doc/relnotes/mysql/5.6/en/ (5.6.10)
+# https://docs.oracle.com/cd/E17952_01/mysql-5.7-relnotes-en/ (5.7.9)
+# https://dev.mysql.com/doc/relnotes/mysql/8.0/en/ (8.0.11)
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: ^mysql-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))$
+    template: "{{c}}.{{v}}"
 releases:
 -   releaseCycle: "8.0"
     release: 2016-08-25
@@ -39,28 +46,6 @@ releases:
     support: 2015-12-31
     eol: 2018-12-31
     latestReleaseDate: 2018-12-21
--   releaseCycle: "5.1"
-    release: 2005-11-29
-    latest: 5.1.77
-    support: 2013-12-31
-    eol: true
-    latestReleaseDate: 2015-08-17
--   releaseCycle: "5.0"
-    release: 2003-12-22
-    latest: 5.0.96
-    support: 2011-12-31
-    eol: true
-    latestReleaseDate: 2012-03-02
--   releaseCycle: "4.1"
-    release: 2003-04-03
-    eol: 2009-12-31
-    latestReleaseDate: 2008-03-17
-    latest: 4.1.24
--   releaseCycle: "4.0"
-    release: 2001-12-23
-    eol: 2008-12-31
-    latestReleaseDate: 2007-02-16
-    latest: 4.0.30
 permalink: /mysql
 releasePolicyLink: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 activeSupportColumn: false
