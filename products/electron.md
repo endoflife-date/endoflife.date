@@ -17,62 +17,77 @@ sortReleasesBy: releaseCycle
 releases:
   # The approximate EoL going forward will be 8 months for every release
   # but this varies a lot currently due to the cadence change.
-  - releaseCycle: "18"
+-   releaseCycle: "18"
     eol: false
-    release: 2022-03-29
-    latest: "18.2.4"
-  - releaseCycle: "17"
+    release: 2022-03-28
+    latest: "18.3.0"
+    latestReleaseDate: 2022-05-23
+-   releaseCycle: "17"
     eol: false
-    release: 2022-02-01
+    release: 2022-01-31
     latest: "17.4.5"
-  - releaseCycle: "16"
+    latestReleaseDate: 2022-05-18
+-   releaseCycle: "16"
     eol: false
-    release: 2021-11-16
+    release: 2021-11-15
     latest: "16.2.7"
-  - releaseCycle: "15"
+    latestReleaseDate: 2022-05-18
+-   releaseCycle: "15"
     eol: false
-    release: 2021-09-22
-    latest: "15.5.5"
-  - releaseCycle: "14"
+    release: 2021-09-21
+    latest: "15.5.6"
+    latestReleaseDate: 2022-05-23
+-   releaseCycle: "14"
     eol: true
-    release: 2021-08-31
+    release: 2021-08-30
     latest: "14.2.9"
-  - releaseCycle: "13"
+    latestReleaseDate: 2022-03-29
+-   releaseCycle: "13"
     eol: true
-    release: 2021-05-25
+    release: 2021-05-24
     latest: "13.6.9"
-  - releaseCycle: "12"
+    latestReleaseDate: 2022-02-01
+-   releaseCycle: "12"
     eol: true
-    release: 2021-03-02
+    release: 2021-03-01
     latest: "12.2.3"
-  - releaseCycle: "11"
+    latestReleaseDate: 2021-11-15
+-   releaseCycle: "11"
     eol: true
-    release: 2020-11-17
+    release: 2020-11-16
     latest: "11.5.0"
-  - releaseCycle: "10"
+    latestReleaseDate: 2021-08-31
+-   releaseCycle: "10"
     eol: true
-    release: 2020-08-25
+    release: 2020-08-24
     latest: "10.4.7"
-  - releaseCycle: "9"
+    latestReleaseDate: 2021-05-24
+-   releaseCycle: "9"
     eol: true
-    release: 2020-05-19
+    release: 2020-05-18
     latest: "9.4.4"
-  - releaseCycle: "8"
+    latestReleaseDate: 2021-03-03
+-   releaseCycle: "8"
     eol: true
-    release: 2020-02-04
+    release: 2020-02-03
     latest: "8.5.5"
-  - releaseCycle: "7"
+    latestReleaseDate: 2020-11-18
+-   releaseCycle: "7"
     eol: true
-    release: 2019-10-22
+    release: 2019-10-21
     latest: "7.3.3"
-  - releaseCycle: "6"
+    latestReleaseDate: 2020-08-25
+-   releaseCycle: "6"
     eol: true
-    release: 2019-07-30
+    release: 2019-07-29
     latest: "6.1.12"
-  - releaseCycle: "5"
+    latestReleaseDate: 2020-05-18
+-   releaseCycle: "5"
     eol: true
-    release: 2019-04-24
+    release: 2019-04-23
     latest: "5.0.13"
+    latestReleaseDate: 2019-12-16
+
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux.

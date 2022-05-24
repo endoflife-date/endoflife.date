@@ -13,22 +13,27 @@ iconSlug: ansible
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
-  - releaseCycle: "5"
-    release: 2021-11-30
+-   releaseCycle: "5"
+    release: 2021-12-02
     eol: false
     latest: "5.8.0"
-  - releaseCycle: "4"
-    release: 2021-05-11
+    latestReleaseDate: 2022-05-18
+-   releaseCycle: "4"
+    release: 2021-05-18
     eol: true
     latest: "4.10.0"
-  - releaseCycle: "3"
-    release: 2021-02-09
+    latestReleaseDate: 2021-12-21
+-   releaseCycle: "3"
+    release: 2021-02-18
     eol: true
     latest: "3.4.0"
-  - releaseCycle: "2.10"
-    release: 2020-09-15
+    latestReleaseDate: 2021-05-13
+-   releaseCycle: "2.10"
+    release: 2020-09-22
     eol: true
     latest: "2.10.7"
+
+    latestReleaseDate: 2021-02-09
 
 ---
 

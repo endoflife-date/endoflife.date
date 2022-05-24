@@ -9,32 +9,36 @@ auto:
   # Feel free to file a PR to fix this
 -   git: https://github.com/Perl/perl5.git
 releases:
-  - releaseCycle: "5.34"
+-   releaseCycle: "5.34"
     eol: 2024-05-20
     support: true
     release: 2021-05-20
     latest: "5.34.1"
-  - releaseCycle: "5.32"
+    latestReleaseDate: 2022-03-12
+-   releaseCycle: "5.32"
     eol: 2023-06-20
     support: true
     release: 2020-06-20
     latest: "5.32.1"
-  - releaseCycle: "5.30"
+    latestReleaseDate: 2021-01-23
+-   releaseCycle: "5.30"
     eol: 2022-05-22
     support: true
     release: 2019-05-22
     latest: "5.30.3"
-  - releaseCycle: "5.28"
+    latestReleaseDate: 2020-05-29
+-   releaseCycle: "5.28"
     eol: 2021-06-23
     support: 2020-06-20
-    release: 2018-06-23
+    release: 2018-06-22
     latest: "5.28.3"
-  - releaseCycle: "5.26"
+    latestReleaseDate: 2020-05-29
+-   releaseCycle: "5.26"
     eol: 2020-05-30
     support: 2019-05-22
     release: 2017-05-30
     latest: "5.26.3"
-
+    latestReleaseDate: 2018-11-28
 permalink: /perl
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 activeSupportColumn: true
@@ -42,6 +46,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Critical security patches
 command: perl -v
+
 ---
 
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30 years of development.

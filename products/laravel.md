@@ -12,41 +12,48 @@ sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/laravel/framework.git
 releases:
-  - releaseCycle: "9"
+-   releaseCycle: "9"
     release: 2022-02-08
     support: 2023-08-08
     eol: 2024-02-08
     latest: 9.13.0
     lts: false
-  - releaseCycle: "8"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "8"
     release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
     latest: 8.83.13
     lts: false
-  - releaseCycle: "7"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "7"
     release: 2020-03-03
     support: 2020-10-06
     eol: 2021-03-03
     latest: 7.30.6
     lts: false
-  - releaseCycle: "6"
+    latestReleaseDate: 2021-12-07
+-   releaseCycle: "6"
     release: 2019-09-03
     support: 2022-01-25
     eol: 2022-09-06
     latest: 6.20.44
     lts: true
-  - releaseCycle: "5.8"
+    latestReleaseDate: 2022-01-12
+-   releaseCycle: "5.8"
     release: 2019-02-26
     support: 2019-08-26
     eol: 2020-02-26
     latest: 5.8.38
-  - releaseCycle: "5.5"
+    latestReleaseDate: 2020-04-14
+-   releaseCycle: "5.5"
     release: 2017-08-30
     support: 2019-08-30
     eol: 2020-08-30
     latest: 5.5.50
     lts: true
+    latestReleaseDate: 2020-08-18
+
 ---
 
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.

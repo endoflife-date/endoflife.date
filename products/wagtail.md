@@ -12,72 +12,84 @@ auto:
 -   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: "release"
 releases:
-  - releaseCycle: "3.0"
+-   releaseCycle: "3.0"
     support: 2022-08-01
     release: 2022-05-16
     lts: false
     eol: false
     latest: "3.0"
-  - releaseCycle: "2.16"
+    latestReleaseDate: 2022-05-16
+-   releaseCycle: "2.16"
     support: 2022-05-01
     release: 2022-02-07
     lts: false
     eol: 2022-05-16
     latest: "2.16.2"
-  - releaseCycle: "2.15"
+    latestReleaseDate: 2022-04-11
+-   releaseCycle: "2.15"
     support: 2023-02-01
     release: 2021-11-04
     lts: true
     eol: false
     latest: "2.15.5"
-  - releaseCycle: "2.14"
+    latestReleaseDate: 2022-04-11
+-   releaseCycle: "2.14"
     eol: 2022-02-07
     support: 2021-11-04
-    release: 2021-08-01
+    release: 2021-08-02
     lts: false
     latest: "2.14.2"
-  - releaseCycle: "2.13"
+    latestReleaseDate: 2021-10-14
+-   releaseCycle: "2.13"
     eol: 2022-02-01
     support: 2021-08-01
     release: 2021-05-12
     lts: false
     latest: "2.13.5"
-  - releaseCycle: "2.12"
+    latestReleaseDate: 2021-10-14
+-   releaseCycle: "2.12"
     eol: 2021-08-01
     support: 2021-05-12
     release: 2021-02-02
     lts: false
     latest: "2.12.6"
-  - releaseCycle: "2.11"
+    latestReleaseDate: 2021-07-13
+-   releaseCycle: "2.11"
     eol: 2022-02-07
     support: 2021-02-02
     release: 2020-11-02
     lts: true
     latest: "2.11.9"
-  - releaseCycle: "2.10"
+    latestReleaseDate: 2022-01-24
+-   releaseCycle: "2.10"
     eol: 2021-02-02
     support: 2020-11-02
     release: 2020-08-11
     lts: false
     latest: "2.10.2"
-  - releaseCycle: "2.9"
+    latestReleaseDate: 2020-09-25
+-   releaseCycle: "2.9"
     eol: 2020-11-02
     support: 2020-08-11
     release: 2020-05-04
     lts: false
     latest: "2.9.3"
-  - releaseCycle: "2.8"
+    latestReleaseDate: 2020-07-20
+-   releaseCycle: "2.8"
     eol: 2020-08-11
     support: 2020-05-04
     release: 2020-02-03
     lts: false
     latest: "2.8.2"
-  - releaseCycle: "2.7"
+    latestReleaseDate: 2020-05-04
+-   releaseCycle: "2.7"
     eol: 2021-02-02
     support: 2020-02-03
     release: 2019-11-06
     lts: true
     latest: "2.7.4"
+
+    latestReleaseDate: 2020-07-20
 
 ---
 

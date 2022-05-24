@@ -13,50 +13,63 @@ auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
     regex: ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
 releases:
-  - releaseCycle: "3.10"
+-   releaseCycle: "3.10"
     eol: false
     release: 2022-05-03
     latest: "3.10.2"
-  - releaseCycle: "3.9"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.9"
     eol: false
-    release: 2021-07-26
+    release: 2021-07-23
     latest: "3.9.18"
-  - releaseCycle: "3.8"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.8"
     eol: 2022-01-31
     release: 2019-10-01
     latest: "3.8.32"
-  - releaseCycle: "3.7"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.7"
     eol: 2020-09-30
     release: 2017-11-28
     latest: "3.7.28"
-  - releaseCycle: "3.6"
+    latestReleaseDate: 2020-08-17
+-   releaseCycle: "3.6"
     eol: 2018-05-31
     release: 2015-12-22
     latest: "3.6.16"
-  - releaseCycle: "3.5"
+    latestReleaseDate: 2018-06-13
+-   releaseCycle: "3.5"
     eol: 2016-10-31
     release: 2015-03-11
     latest: "3.5.8"
-  - releaseCycle: "3.4"
+    latestReleaseDate: 2016-11-03
+-   releaseCycle: "3.4"
     eol: 2015-10-31
     release: 2014-10-21
     latest: "3.4.4"
-  - releaseCycle: "3.3"
+    latestReleaseDate: 2015-02-11
+-   releaseCycle: "3.3"
     eol: 2015-03-31
     release: 2014-04-02
     latest: "3.3.5"
-  - releaseCycle: "3.2"
+    latestReleaseDate: 2014-08-11
+-   releaseCycle: "3.2"
     eol: 2014-10-31
     release: 2013-10-23
     latest: "3.2.4"
-  - releaseCycle: "3.1"
+    latestReleaseDate: 2014-03-04
+-   releaseCycle: "3.1"
     eol: 2014-04-30
     release: 2013-05-01
     latest: "3.1.5"
-  - releaseCycle: "3.0"
+    latestReleaseDate: 2013-08-15
+-   releaseCycle: "3.0"
     eol: 2013-11-30
     release: 2012-11-19
     latest: "3.0.4"
+    latestReleaseDate: 2013-03-06
+
 ---
 
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker.
+

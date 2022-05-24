@@ -7,20 +7,22 @@ changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 auto:
 -   git: https://github.com/composer/composer.git
 releases:
-  - releaseCycle: "2.3"
+-   releaseCycle: "2.3"
     eol: false
     support: true
     release: 2022-03-30
     latest: "2.3.5"
     link: https://blog.packagist.com/composer-2-3/
 
-  - releaseCycle: "2.2"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "2.2"
     eol: 2023-12-31
     release: 2021-12-22
     latest: "2.2.12"
     lts: true
 
-  - releaseCycle: "1.x"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "1.x"
     release: 2016-04-05
     latest: "1.10.26"
     eol: 2020-10-24
@@ -31,6 +33,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 command: composer --version
+
 ---
 
 > [Composer](https://getcomposer.org/) is a package manager that is commonly used to manage libraries and other dependencies for PHP projects.

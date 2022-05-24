@@ -5,7 +5,7 @@ layout: post
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
-command: cat /etc/fedora-release 
+command: cat /etc/fedora-release
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 auto:
@@ -14,42 +14,52 @@ auto:
     template: '{{version}}'
 category: os
 releases:
-  - releaseCycle: "36"
-    release: 2022-05-10
+-   releaseCycle: "36"
+    release: 2022-05-13
     latest: "36"
     eol: 2023-05-16
-  - releaseCycle: "35"
-    release: 2021-11-02
+    latestReleaseDate: 2022-05-13
+-   releaseCycle: "35"
+    release: 2022-03-20
     latest: "35"
     eol: 2022-11-15
-  - releaseCycle: "34"
-    release: 2021-04-27
+    latestReleaseDate: 2022-03-20
+-   releaseCycle: "34"
+    release: 2022-03-20
     latest: "34"
     eol: 2022-06-07
-  - releaseCycle: "33"
-    release: 2020-10-27
+    latestReleaseDate: 2022-03-20
+-   releaseCycle: "33"
+    release: 2021-11-29
     latest: "33"
     eol: 2021-11-30
-  - releaseCycle: "32"
-    release: 2020-04-28
+    latestReleaseDate: 2021-11-29
+-   releaseCycle: "32"
+    release: 2021-07-23
     latest: "32"
     eol: 2021-05-25
-  - releaseCycle: "31"
-    release: 2019-10-29
+    latestReleaseDate: 2021-07-23
+-   releaseCycle: "31"
+    release: 2021-04-01
     latest: "31"
     eol: 2020-11-30
-  - releaseCycle: "30"
-    release: 2019-05-07
+    latestReleaseDate: 2021-04-01
+-   releaseCycle: "30"
+    release: 2020-02-21
     latest: "30"
     eol: 2020-05-26
-  - releaseCycle: "29"
-    release: 2018-10-30
+    latestReleaseDate: 2020-02-21
+-   releaseCycle: "29"
+    release: 2019-06-05
     latest: "29"
     eol: 2019-11-26
-  - releaseCycle: "28"
-    release: 2018-05-01
+    latestReleaseDate: 2019-06-05
+-   releaseCycle: "28"
+    release: 2019-06-05
     latest: "28"
     eol: 2019-05-28
+    latestReleaseDate: 2019-06-05
+
 ---
 
 > [Fedora](https://getfedora.org/) is a Linux distribution developed by the community-supported Fedora Project and sponsored by Red Hat.

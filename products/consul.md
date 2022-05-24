@@ -14,26 +14,32 @@ releaseDateColumn: true
 command: consul --version
 
 releases:
-  - releaseCycle: "1.12"
+-   releaseCycle: "1.12"
     eol: false
-    release: 2022-04-20
+    release: 2022-04-19
     latest: "1.12.0"
-  - releaseCycle: "1.11"
+    latestReleaseDate: 2022-04-19
+-   releaseCycle: "1.11"
     eol: false
     release: 2021-12-14
     latest: "1.11.5"
-  - releaseCycle: "1.10"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "1.10"
     eol: false
     release: 2021-06-22
     latest: "1.10.10"
-  - releaseCycle: "1.9"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "1.9"
     eol: true
     release: 2020-11-24
     latest: "1.9.17"
-  - releaseCycle: "1.8"
+    latestReleaseDate: 2022-04-14
+-   releaseCycle: "1.8"
     eol: true
     release: 2020-06-18
     latest: "1.8.19"
+    latestReleaseDate: 2021-12-15
+
 ---
 
 > [Hashicorp Consul](https://www.consul.io/) automates networking for simple and secure application delivery.

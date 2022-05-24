@@ -15,52 +15,62 @@ auto:
 -   git: https://github.com/kubernetes/kubernetes.git
     regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 alternate_urls:
-  - /k8s
+-   /k8s
 # The release date for "N" should match the eol date for N-3 release.
 releases:
-  - releaseCycle: "1.24"
+-   releaseCycle: "1.24"
     release: 2022-05-03
-    latest: "1.24"
+    latest: "1.24.0"
     support: 2023-09-29
     eol: 2023-09-29
-  - releaseCycle: "1.23"
+    latestReleaseDate: 2022-05-03
+-   releaseCycle: "1.23"
     release: 2021-12-07
     latest: "1.23.6"
     support: 2022-12-28
     eol: 2023-02-28
-  - releaseCycle: "1.22"
+    latestReleaseDate: 2022-04-14
+-   releaseCycle: "1.22"
     release: 2021-08-04
     latest: "1.22.9"
     support: 2022-08-28
     eol: 2022-10-28
-  - releaseCycle: "1.21"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "1.21"
     release: 2021-04-08
     latest: "1.21.12"
     support: 2022-04-28
     eol: 2022-06-28
-  - releaseCycle: "1.20"
+    latestReleaseDate: 2022-04-13
+-   releaseCycle: "1.20"
     release: 2020-12-08
     latest: "1.20.15"
     support: 2021-12-28
     eol: 2022-02-28
-  - releaseCycle: "1.19"
-    release: 2020-08-27
+    latestReleaseDate: 2022-01-19
+-   releaseCycle: "1.19"
+    release: 2020-08-26
     latest: "1.19.16"
     support: 2021-08-28
     eol: 2021-10-28
-  - releaseCycle: "1.18"
+    latestReleaseDate: 2021-10-27
+-   releaseCycle: "1.18"
     release: 2020-03-25
     latest: "1.18.20"
     support: 2021-04-28
     eol: 2021-06-18
-  - releaseCycle: "1.17"
-    release: 2019-12-09
+    latestReleaseDate: 2021-06-16
+-   releaseCycle: "1.17"
+    release: 2019-12-07
     latest: "1.17.17"
     eol: 2020-12-25
-  - releaseCycle: "1.16"
-    release: 2019-10-22
+    latestReleaseDate: 2021-01-13
+-   releaseCycle: "1.16"
+    release: 2019-09-18
     eol: 2020-08-04
-    latest: "1.16.16"
+    latest: "1.16.15"
+    latestReleaseDate: 2020-09-02
+
 ---
 
 >[Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.

@@ -3,7 +3,7 @@ title: Godot
 permalink: /godot
 category: app
 alternate_urls:
-  - /godotengine
+-   /godotengine
 layout: post
 iconSlug: godotengine
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
@@ -14,52 +14,61 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 auto:
--   dockerhub: barichello/godot-ci
+-   git: https://github.com/godotengine/godot.git
+    regex: ^(?<version>\d+(\.\d+){1,3})-stable$
+    template: "{{version}}"
 releases:
-  - releaseCycle: "3.4"
-    release: 2021-11-05
+-   releaseCycle: "3.4"
+    release: 2021-12-13
     support: true
     eol: false
     latest: "3.4.4"
     link: https://godotengine.org/article/maintenance-release-godot-3-4-2
-  - releaseCycle: "3.3"
-    release: 2021-04-22
+    latestReleaseDate: 2022-03-31
+-   releaseCycle: "3.3"
+    release: 2021-04-21
     support: true
     eol: false
     latest: "3.3.4"
-  - releaseCycle: "3.2"
-    release: 2020-01-01
+    latestReleaseDate: 2021-10-07
+-   releaseCycle: "3.2"
+    release: 2020-04-26
     support: false
     eol: true
     latest: "3.2.3"
-  - releaseCycle: "3.1"
-    release: 2019-03-01
+    latestReleaseDate: 2020-11-15
+-   releaseCycle: "3.1"
+    release: 2019-03-14
     support: false
     eol: false
     latest: "3.1.2"
-  - releaseCycle: "3.0"
-    release: 2018-01-01
+    latestReleaseDate: 2020-01-17
+-   releaseCycle: "3.0"
+    release: 2018-10-24
     support: false
     eol: true
     latest: "3.0.6"
-  - releaseCycle: "2.1"
+    latestReleaseDate: 2018-10-25
+-   releaseCycle: "2.1"
     release: 2016-07-01
     eol: false
     support: false
     latest: "2.1.6"
     lts: true
-  - releaseCycle: "2.0"
+-   releaseCycle: "2.0"
     release: 2016-02-01
     eol: true
     support: false
     latest: "2.0.4.1"
     lts: false
     link: https://godotengine.org/article/maintenance-release-godot-2-0-4
-  - releaseCycle: "1.0"
+-   releaseCycle: "1.0"
     release: 2014-12-01
     eol: true
     support: false
     latest: "1.1"
+
+
 ---
 
 >[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).

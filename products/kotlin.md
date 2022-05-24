@@ -5,7 +5,7 @@ category: lang
 iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
-  - /kotlinlang
+-   /kotlinlang
 command: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
 sortReleasesBy: "cycleShortHand"
@@ -20,33 +20,38 @@ releaseDateColumn: true
 releaseColumn: true
 
 releases:
-  - releaseCycle: "1.6"
+-   releaseCycle: "1.6"
     cycleShortHand: 106
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2021-11-16
+    release: 2021-11-11
     latest: "1.6.21"
 
-  - releaseCycle: "1.5"
+    latestReleaseDate: 2022-04-18
+-   releaseCycle: "1.5"
     cycleShortHand: 105
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2021-05-05
+    release: 2021-04-26
     latest: "1.5.32"
 
-  - releaseCycle: "1.4"
+    latestReleaseDate: 2021-11-26
+-   releaseCycle: "1.4"
     cycleShortHand: 104
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2020-08-17
+    release: 2020-08-13
     latest: "1.4.32"
 
-  - releaseCycle: "1.3"
+    latestReleaseDate: 2021-03-25
+-   releaseCycle: "1.3"
     cycleShortHand: 103
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2018-10-29
+    release: 2018-10-25
     latest: "1.3.72"
+
+    latestReleaseDate: 2020-04-14
 
 ---
 

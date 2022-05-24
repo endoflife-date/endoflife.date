@@ -13,45 +13,51 @@ releases:
 #    release: 2022-05-01
 #    eol: 2023-05-01
 
-  - releaseCycle: "1.37"
+-   releaseCycle: "1.37"
     lts: false
     release: 2021-11-18
     eol: 2022-11-01
-    latest: "1.37.1"
+    latest: "1.37.2"
 
-  - releaseCycle: "1.36"
+    latestReleaseDate: 2022-04-01
+-   releaseCycle: "1.36"
     lts: false
     release: 2021-05-28
     eol: 2022-05-01
-    latest: "1.36.3"
-    
-  - releaseCycle: "1.35"
+    latest: "1.36.4"
+    latestReleaseDate: 2022-03-31
+-   releaseCycle: "1.35"
     lts: true
     release: 2020-09-25
     eol: 2023-09-01
-    latest: "1.35.5"
+    latest: "1.35.6"
 
-  - releaseCycle: "1.34"
+    latestReleaseDate: 2022-03-31
+-   releaseCycle: "1.34"
     release: 2019-12-19
     eol: 2020-11-30
     latest: "1.34.4"
 
-  - releaseCycle: "1.33"
-    release: 2019-06-02
+    latestReleaseDate: 2020-09-24
+-   releaseCycle: "1.33"
+    release: 2019-07-02
     eol: 2020-06-30
     latest: "1.33.4"
 
-  - releaseCycle: "1.32"
-    release: 2019-01-11
+    latestReleaseDate: 2020-06-24
+-   releaseCycle: "1.32"
+    release: 2019-01-10
     eol: 2020-01-24
     latest: "1.32.6"
 
-  - releaseCycle: "1.31"
+    latestReleaseDate: 2019-12-19
+-   releaseCycle: "1.31"
     lts: true
-    release: 2018-06-14
+    release: 2018-06-13
     eol: 2021-09-30
     latest: "1.31.16"
 
+    latestReleaseDate: 2021-09-30
 iconSlug: NA
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
@@ -60,6 +66,8 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-Life
 command: "https://your-server-url/mediawiki/Special:Version"
+
+
 ---
 
 > [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers Wikipedia, but it is also frequently used for other wikis.

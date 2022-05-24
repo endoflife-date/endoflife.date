@@ -12,17 +12,20 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/facebook/react.git
 releases:
-  - releaseCycle: "18"
+-   releaseCycle: "18"
     release: 2022-03-29
     support: true
     eol: false
     latest: "18.1.0"
-  - releaseCycle: "17"
+    latestReleaseDate: 2022-04-26
+-   releaseCycle: "17"
     lts: false
     release: 2020-10-20
     eol: 2021-03-22
     support: false
     latest: "17.0.2"
+
+    latestReleaseDate: 2021-03-22
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Spring Framework
 alternate_urls:
-  - /spring
+-   /spring
 layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
@@ -11,36 +11,42 @@ auto:
   # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 releases:
-  - releaseCycle: "5.3"
+-   releaseCycle: "5.3"
     eol: false
     support: true
-    release: 2020-12-09
+    release: 2020-10-27
     latest: "5.3.20"
-  - releaseCycle: "5.2"
+    latestReleaseDate: 2022-05-11
+-   releaseCycle: "5.2"
     eol: 2021-12-31
     support: true
-    release: 2021-02-16
+    release: 2019-09-30
     latest: "5.2.22"
-  - releaseCycle: "5.1"
+    latestReleaseDate: 2022-05-11
+-   releaseCycle: "5.1"
     eol: 2020-12-09
     support: false
-    release: 2020-12-09
+    release: 2018-09-21
     latest: "5.1.20"
-  - releaseCycle: "5.0"
+    latestReleaseDate: 2020-12-09
+-   releaseCycle: "5.0"
     eol: 2020-12-09
     support: false
-    release: 2020-12-09
+    release: 2017-09-28
     latest: "5.0.20"
-  - releaseCycle: "4.3"
+    latestReleaseDate: 2020-12-09
+-   releaseCycle: "4.3"
     eol: 2020-12-31
     support: false
-    release: 2020-12-09
+    release: 2016-06-10
     latest: "4.3.30"
-  - releaseCycle: "3.2"
+    latestReleaseDate: 2020-12-09
+-   releaseCycle: "3.2"
     eol: 2016-12-31
     support: false
-    release: 2019-01-17
+    release: 2012-12-13
     latest: "3.2.18"
+    latestReleaseDate: 2016-12-21
 permalink: /spring-framework
 releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 activeSupportColumn: true

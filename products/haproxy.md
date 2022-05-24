@@ -10,52 +10,64 @@ command: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
+auto:
+  dockerhub: library/haproxy
+  regex: ^(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 releases:
-  - releaseCycle: "2.5"
+-   releaseCycle: "2.5"
     cycleShortHand: 205
     release: 2021-11-23
     eol: 2023-01-01
     latest: 2.5.0
-  - releaseCycle: "2.4"
+    latestReleaseDate: 2021-11-23
+-   releaseCycle: "2.4"
     cycleShortHand: 204
     release: 2021-05-14
     eol: 2026-04-01
-    latest: 2.4.9
-  - releaseCycle: "2.3"
+    latest: 2.4.0
+    latestReleaseDate: 2021-05-14
+-   releaseCycle: "2.3"
     cycleShortHand: 203
     release: 2020-11-05
     eol: 2022-01-01
-    latest: 2.3.16
-  - releaseCycle: "2.2"
+    latest: 2.3.0
+    latestReleaseDate: 2020-11-05
+-   releaseCycle: "2.2"
     cycleShortHand: 202
     release: 2020-07-07
     eol: 2025-04-01
-    latest: 2.2.19
-  - releaseCycle: "2.1"
+    latest: 2.2.0
+    latestReleaseDate: 2020-07-07
+-   releaseCycle: "2.1"
     cycleShortHand: 201
     release: 2019-11-25
     eol: 2021-03-18
-    latest: 2.1.12
-  - releaseCycle: "2.0"
+    latest: 2.1.0
+    latestReleaseDate: 2019-11-25
+-   releaseCycle: "2.0"
     cycleShortHand: 200
     release: 2019-06-16
     eol: 2024-04-01
-    latest: 2.0.26
-  - releaseCycle: "1.9"
+    latest: 2.0.0
+    latestReleaseDate: 2019-06-16
+-   releaseCycle: "1.9"
     cycleShortHand: 109
     release: 2018-12-19
     eol: 2020-07-31
-    latest: 1.9.16
-  - releaseCycle: "1.8"
+    latest: 1.9.0
+    latestReleaseDate: 2018-12-19
+-   releaseCycle: "1.8"
     cycleShortHand: 108
     release: 2017-11-26
     eol: 2022-10-01
-    latest: 1.8.30
-  - releaseCycle: "1.7"
+    latest: 1.8.0
+    latestReleaseDate: 2017-11-26
+-   releaseCycle: "1.7"
     cycleShortHand: 107
     release: 2016-11-25
     eol: 2021-10-01
-    latest: 1.7.14
+    latest: 1.7.0
+    latestReleaseDate: 2016-11-25
 
 ---
 

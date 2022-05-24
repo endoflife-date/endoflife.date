@@ -1,7 +1,7 @@
 ---
 permalink: /openzfs
 alternate_urls:
-  - /zfs
+-   /zfs
 layout: post
 title: OpenZFS
 category: app
@@ -19,21 +19,25 @@ eolColumn: Critical bug fixes
 releaseLabel: "OpenZFS __RELEASE_CYCLE__"
 releases:
 
-    - releaseCycle: "2.1"
-      release: 2021-07-02
-      eol: 2023-07-02
-      lts: true
-      latest: "2.1.4"
+-   releaseCycle: "2.1"
+    release: 2021-07-02
+    eol: 2023-07-02
+    lts: true
+    latest: "2.1.99"
 
-    - releaseCycle: "2.0"
-      release: 2020-11-30
-      eol: 2021-12-23
-      latest: "2.0.7"
+    latestReleaseDate: 2021-04-19
+-   releaseCycle: "2.0"
+    release: 2020-11-30
+    eol: 2021-12-23
+    latest: "2.0.7"
 
-    - releaseCycle: "0.8"
-      release: 2019-06-23
-      eol: 2020-12-14
-      latest: "0.8.6"
+    latestReleaseDate: 2021-12-23
+-   releaseCycle: "0.8"
+    release: 2019-05-21
+    eol: 2020-12-14
+    latest: "0.8.6"
+    latestReleaseDate: 2020-12-14
+
 ---
 
 > [OpenZFS](https://openzfs.github.io/openzfs-docs/) is an open-source storage platform that encompasses the functionality of traditional filesystems and volume manager. It includes protection against data corruption, support for high storage capacities, efficient data compression, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, encryption, remote replication with ZFS send and receive, and RAID-Z. Linux and FreeBSD are officially supported, [with plans to support macOS in the future](https://github.com/openzfs/zfs/pull/12110).  

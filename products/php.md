@@ -14,103 +14,118 @@ command: php --version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
-  - releaseCycle: "8.1"
+-   releaseCycle: "8.1"
     cycleShortHand: "801"
-    release: 2021-11-25
+    release: 2021-11-23
     support: 2023-11-25
-    eol:     2024-11-25
-    latest:  "8.1.6"
+    eol: 2024-11-25
+    latest: "8.1.6"
 
-  - releaseCycle: "8.0"
+    latestReleaseDate: 2022-05-10
+-   releaseCycle: "8.0"
     cycleShortHand: "800"
-    release: 2020-11-26
+    release: 2020-11-24
     support: 2022-11-26
-    eol:     2023-11-26
-    latest:  "8.0.19"
+    eol: 2023-11-26
+    latest: "8.0.19"
 
-  - releaseCycle: "7.4"
+    latestReleaseDate: 2022-05-10
+-   releaseCycle: "7.4"
     cycleShortHand: "704"
-    release: 2019-11-28
+    release: 2019-11-26
     support: 2021-11-28
-    eol:     2022-11-28
-    latest:  "7.4.29"
+    eol: 2022-11-28
+    latest: "7.4.29"
 
-  - releaseCycle: "7.3"
+    latestReleaseDate: 2022-04-12
+-   releaseCycle: "7.3"
     cycleShortHand: "703"
-    release: 2018-12-06
+    release: 2018-12-04
     support: 2020-12-06
-    eol:     2021-12-06
-    latest:  "7.3.33"
+    eol: 2021-12-06
+    latest: "7.3.33"
 
-  - releaseCycle: "7.2"
+    latestReleaseDate: 2021-11-16
+-   releaseCycle: "7.2"
     cycleShortHand: "702"
-    release: 2017-11-30
+    release: 2017-11-28
     support: 2019-11-30
-    eol:     2020-11-30
-    latest:  "7.2.34"
+    eol: 2020-11-30
+    latest: "7.2.34"
 
-  - releaseCycle: "7.1"
+    latestReleaseDate: 2020-09-30
+-   releaseCycle: "7.1"
     cycleShortHand: "701"
-    release: 2016-12-01
+    release: 2016-11-30
     support: 2018-12-01
-    eol:     2019-12-01
-    latest:  "7.1.33"
+    eol: 2019-12-01
+    latest: "7.1.33"
 
-  - releaseCycle: "7.0"
+    latestReleaseDate: 2019-10-22
+-   releaseCycle: "7.0"
     cycleShortHand: "700"
-    release: 2015-12-03
+    release: 2015-12-01
     support: 2018-01-04
-    eol:     2019-01-10
-    latest:  "7.0.33"
+    eol: 2019-01-10
+    latest: "7.0.33"
 
-  - releaseCycle: "5.6"
+    latestReleaseDate: 2018-12-04
+-   releaseCycle: "5.6"
     cycleShortHand: "506"
-    release: 2014-08-28
+    release: 2014-08-27
     support: 2017-01-19
-    eol:     2018-12-31
-    latest:  "5.6.40"
+    eol: 2018-12-31
+    latest: "5.6.40"
 
-  - releaseCycle: "5.5"
+    latestReleaseDate: 2019-01-09
+-   releaseCycle: "5.5"
     cycleShortHand: "505"
-    release: 2013-06-20
+    release: 2013-06-19
     support: 2015-07-10
-    eol:     2016-07-21
-    latest:  "5.5.38"
+    eol: 2016-07-21
+    latest: "5.5.38"
 
-  - releaseCycle: "5.4"
+    latestReleaseDate: 2016-07-20
+-   releaseCycle: "5.4"
     cycleShortHand: "504"
-    release: 2012-03-01
+    release: 2012-02-29
     support: 2014-09-14
-    eol:     2015-09-14
-    latest:  "5.4.45"
+    eol: 2015-09-14
+    latest: "5.4.45"
 
-  - releaseCycle: "5.3"
+    latestReleaseDate: 2015-09-01
+-   releaseCycle: "5.3"
     cycleShortHand: "503"
-    release: 2009-06-30
+    release: 2009-06-29
     support: 2011-06-30
-    eol:     2014-08-14
-    latest:  "5.3.29"
+    eol: 2014-08-14
+    latest: "5.3.29"
 
-  - releaseCycle: "5.2"
+    latestReleaseDate: 2014-08-13
+-   releaseCycle: "5.2"
     cycleShortHand: "502"
-    release: 2006-11-02
+    release: 2006-11-01
     support: 2008-11-02
-    eol:     2011-01-06
-    latest:  "5.2.17"
+    eol: 2011-01-06
+    latest: "5.2.17"
 
-  - releaseCycle: "5.1"
+    latestReleaseDate: 2011-01-06
+-   releaseCycle: "5.1"
     cycleShortHand: "501"
-    release: 2005-11-24
+    release: 2005-11-23
     support: 2006-08-24
-    eol:     2006-08-24
-    latest:  "5.1.6"
+    eol: 2006-08-24
+    latest: "5.1.6"
 
-  - releaseCycle: "5.0"
+    latestReleaseDate: 2006-08-23
+-   releaseCycle: "5.0"
     cycleShortHand: "500"
-    release: 2004-07-13
+    release: 2004-07-15
     support: 2005-09-05
-    eol:     2005-09-05
-    latest:  "5.0.5"
+    eol: 2005-09-05
+    latest: "5.0.5"
+    latestReleaseDate: 2005-09-05
+
 ---
 
 > [PHP](https://www.php.net/): Hypertext Preprocessor (or simply PHP) is a general-purpose programming language originally designed for web development.

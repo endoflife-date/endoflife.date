@@ -12,37 +12,44 @@ eolColumn: Support Status
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
 releases:
-  - releaseCycle: "7.2"
+-   releaseCycle: "7.2"
     lts: true
-    release: 2021-11-08
-    eol:     2024-11-30
-    latest:  "7.2.4"
+    release: 2021-11-05
+    eol: 2024-11-30
+    latest: "7.2.4"
 
-  - releaseCycle: "7.1"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "7.1"
     release: 2020-11-11
-    eol:     2022-05-31
-    latest:  "7.1.7"
+    eol: 2022-05-31
+    latest: "7.1.7"
 
-  - releaseCycle: "7.0"
+    latestReleaseDate: 2022-04-26
+-   releaseCycle: "7.0"
     lts: true
-    release: 2020-03-04
-    eol:     2022-12-03
-    latest:  "7.0.11"
+    release: 2020-03-03
+    eol: 2022-12-03
+    latest: "7.0.11"
 
-  - releaseCycle: "6.2"
+    latestReleaseDate: 2022-05-17
+-   releaseCycle: "6.2"
     release: 2019-03-28
-    eol:     2020-09-04
-    latest:  "6.2.7"
+    eol: 2020-09-04
+    latest: "6.2.7"
 
-  - releaseCycle: "6.1"
+    latestReleaseDate: 2020-07-16
+-   releaseCycle: "6.1"
     release: 2018-09-13
-    eol:     2019-09-28
-    latest:  "6.1.6"
+    eol: 2019-09-28
+    latest: "6.1.6"
 
-  - releaseCycle: "6.0"
+    latestReleaseDate: 2019-09-12
+-   releaseCycle: "6.0"
     release: 2018-01-10
-    eol:     2019-02-13
-    latest:  "6.0.5"
+    eol: 2019-02-13
+    latest: "6.0.5"
+    latestReleaseDate: 2018-11-13
+
 ---
 
 > [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
