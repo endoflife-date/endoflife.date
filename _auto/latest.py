@@ -93,7 +93,7 @@ def update_product(name):
               f.write(final_contents)
 
 if __name__ == '__main__':
-  if sys.argv[1]:
+  if len(sys.argv) > 1:
     update_product(sys.argv[1])
   else:
     for x in glob('products/*.md'):

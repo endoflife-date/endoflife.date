@@ -48,7 +48,7 @@ releases:
     latest: "2.83.20"
     lts: true
     link: https://www.blender.org/download/releases/2-83/
-    
+    latestReleaseDate: 2022-04-20
 
 ---
 

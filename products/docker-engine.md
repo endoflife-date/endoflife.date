@@ -20,9 +20,10 @@ releases:
 -   releaseCycle: "20.10"
     eol: false
     support: false
-    release: 2020-12-08
+    release: 2020-12-09
     latest: "20.10.16"
-  - releaseCycle: "19.03"
+    latestReleaseDate: 2022-05-12
+-   releaseCycle: "19.03"
     eol: 2021-01-08
     support: false
     release: 2019-07-22

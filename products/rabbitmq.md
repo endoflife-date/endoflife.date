@@ -17,15 +17,18 @@ releases:
     eol: false
     release: 2022-05-03
     latest: "3.10.2"
-  - releaseCycle: "3.9"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.9"
     eol: false
-    release: 2021-07-26
+    release: 2021-07-23
     latest: "3.9.18"
-  - releaseCycle: "3.8"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.8"
     eol: 2022-01-31
     release: 2019-10-01
     latest: "3.8.32"
-  - releaseCycle: "3.7"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "3.7"
     eol: 2020-09-30
     release: 2017-11-28
     latest: "3.7.28"
@@ -58,8 +61,8 @@ releases:
 -   releaseCycle: "3.1"
     eol: 2014-04-30
     release: 2013-05-01
-    latest: "3.10.1"
-    latestReleaseDate: 2022-05-10
+    latest: "3.10.2"
+    latestReleaseDate: 2022-05-20
 -   releaseCycle: "3.0"
     eol: 2013-11-30
     release: 2012-11-19

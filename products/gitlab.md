@@ -16,18 +16,20 @@ auto:
 -   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
     git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
-  - releaseCycle: "15.0"
-    release: 2022-05-22
+-   releaseCycle: "15.0"
+    release: 2022-05-20
     support: 2022-06-22
     eol: 2022-08-22
-    latest: "15.0"
-  - releaseCycle: "14.10"
-    release: 2022-04-22
+    latest: "15.0.0"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "14.10"
+    release: 2022-04-21
     support: 2022-05-22
     eol: 2022-07-22
     latest: "14.10.3"
-  - releaseCycle: "14.9"
-    release: 2022-03-22
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "14.9"
+    release: 2022-03-21
     support: 2022-04-22
     eol: 2022-06-22
     latest: "14.9.4"
@@ -78,8 +80,8 @@ releases:
     release: 2021-07-21
     support: 2021-08-22
     eol: 2021-10-22
-    latest: "14.10.2"
-    latestReleaseDate: 2022-05-04
+    latest: "14.10.3"
+    latestReleaseDate: 2022-05-20
 -   releaseCycle: "14.0"
     release: 2021-06-21
     support: 2021-07-22

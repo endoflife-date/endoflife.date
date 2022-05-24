@@ -21,7 +21,7 @@ releases:
     eol: false
     latest: "3.2.36"
     lts: false
-    latestReleaseDate: 2022-04-14
+    latestReleaseDate: 2022-05-23
 -   releaseCycle: "2"
     release: 2016-09-30
     support: 2022-03-18

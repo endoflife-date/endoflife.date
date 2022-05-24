@@ -16,7 +16,8 @@ releases:
     support: 2022-05-04
     eol: 2023-05-04
     latest: "13.3.9"
-  - releaseCycle: "12"
+    latestReleaseDate: 2022-05-18
+-   releaseCycle: "12"
     lts: true
     release: 2021-05-13
     support: 2021-11-12
