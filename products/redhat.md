@@ -11,7 +11,7 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: 'release'
+sortReleasesBy: 'cycleShortHand'
 releaseLabel: "RHEL __RELEASE_CYCLE__"
 releases:
   - releaseCycle: "9"
