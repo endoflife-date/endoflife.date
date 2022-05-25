@@ -55,8 +55,8 @@ releases:
     release: 2017-12-01
     eol: 2024-01-15
   - releaseCycle: Surface Go
-    release: August 2, 2018
-    eol: August 2, 2022
+    release: 2018-08-02
+    eol: 2022-08-02
   - releaseCycle: Surface Studio 2
     release: 2018-10-02
     eol: 2024-10-2
