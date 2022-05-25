@@ -38,10 +38,10 @@ releases:
     latestReleaseDate: 2022-04-13
 -   releaseCycle: "1.21"
     release: 2021-04-08
-    latest: "1.21.12"
+    latest: "1.21.13"
     support: 2022-04-28
     eol: 2022-06-28
-    latestReleaseDate: 2022-04-13
+    latestReleaseDate: 2022-05-24
 -   releaseCycle: "1.20"
     release: 2020-12-08
     latest: "1.20.15"
