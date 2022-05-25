@@ -16,6 +16,22 @@ jobs:
         uses: dependabot/fetch-metadata@v1.3.1
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: actions/checkout@v3
+        name: Clone self repository
+        with:
+          ref: ${{ github.head_ref }}
+      - name:
+        run: |
+          pip install -r requirements.txt
+          python _auto/latest.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        name: Update latest and latestReleaseDate
+        with:
+          file_pattern: products/*
+          commit_message: "🤖: Update latest release data"
+          status_options: '--untracked-files=no'
+          commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+      # TODO: Leave a comment if there is a new major release that we don't match
       - name: Enable auto-merge for Dependabot PRs for release data
         if: ${{contains(steps.metadata.outputs.dependency-names, '_data/release-data')}}
         run: gh pr merge --auto --rebase "$PR_URL"
