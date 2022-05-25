@@ -14,7 +14,7 @@ eolColumn: Support Status
 releaseDateColumn: false
 sortReleasesBy: 'release'
 releases:
-  - releaseCycle: "2.10"
+-   releaseCycle: "2.10"
     release: 2022-05-22
     eol: false
     latest: "2.10.0"
