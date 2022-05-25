@@ -20,28 +20,28 @@ auto:
     template: "{{c}}.{{v}}"
 releases:
 -   releaseCycle: "8.0"
-    release: 2016-08-25
+    release: 2018-04-08
     latest: 8.0.29
     latestShortHand: 8-0-29
     support: 2023-04-30
     eol: 2026-04-30
     latestReleaseDate: 2022-04-08
 -   releaseCycle: "5.7"
-    release: 2013-04-03
+    release: 2015-10-09
     latest: 5.7.38
     latestShortHand: 5-7-38
     support: 2020-10-31
     eol: 2023-10-31
     latestReleaseDate: 2022-03-07
 -   releaseCycle: "5.6"
-    release: 2011-03-14
+    release: 2013-02-01
     latest: 5.6.51
     latestShortHand: 5-6-51
     support: 2018-02-28
     eol: 2021-02-28
     latestReleaseDate: 2021-01-05
 -   releaseCycle: "5.5"
-    release: 2009-12-07
+    release: 2010-12-03
     latest: 5.5.63
     support: 2015-12-31
     eol: 2018-12-31
