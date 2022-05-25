@@ -14,7 +14,7 @@ category: db
 iconSlug: NA
 eolColumn: Support Status
 releaseDateColumn: false
-sortReleasesBy: 'cycleShortHand'
+sortReleasesBy: 'release'
 releases:
   - releaseCycle: "2.8"
     release: 2021-12-22
