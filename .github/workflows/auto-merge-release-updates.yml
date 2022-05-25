@@ -20,9 +20,11 @@ jobs:
         name: Clone self repository
         with:
           ref: ${{ github.head_ref }}
+          submodules: true
       - name:
         run: |
           pip install -r requirements.txt
+          ls -lah _data/release-data
           python _auto/latest.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Update latest and latestReleaseDate
