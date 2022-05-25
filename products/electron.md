@@ -32,11 +32,11 @@ releases:
   - releaseCycle: "16"
     eol: 2022-05-24
     release: 2021-11-16
-    latest: "16.2.7"
+    latest: "16.2.8"
   - releaseCycle: "15"
     eol: 2022-05-24
     release: 2021-09-22
-    latest: "15.5.6"
+    latest: "15.5.7"
   - releaseCycle: "14"
     eol: true
     release: 2021-08-31
