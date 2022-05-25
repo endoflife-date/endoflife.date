@@ -8,70 +8,85 @@ changelogTemplate: https://mariadb.com/kb/en/mariadb-__LATEST_SHORT_HAND__-chang
 activeSupportColumn: false
 releaseDateColumn: true
 auto:
-  git: https://github.com/MariaDB/server.git
-  # This is not a complicated regex. It only marks the first GA release in each release cycle
-  # So we drop any releases before the GA ones
-  # 5.5.29, 10.0.12, 10.1.18, 10.2.6, 10.3.7, 10.4.6, 10.6.3, 10.5.4, 10.7.2
-  # The regex is ^mariadb-(A|B|C|D)$ where A,B,C,D are sub-matches for each of the cycles
-  # Each cycle itself looks like (?<major>X)\.(?<minor>Y)\.(?<patch>R)
-  # Where X -> Major number, Y = Minor Number
-  # And R is a regex that only matches GA release patch numbers in that cycle. ie
-  # Greater than or equal to the first GA release in that cycle.
-  # For eg for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
-  # where (1[2-9]|[2-9]\d) matches 12-19 OR 2 digit numbers starting from 2-9 (ie 20-99)
-  # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
-  # Note: This will need to be edited when a new GA release is made in a new release cycle
-  regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2})))$
+-   git: https://github.com/MariaDB/server.git
+    # This is not a complicated regex. It only marks the first GA release in each release cycle
+    # So we drop any releases before the GA ones
+    # 5.5.29, 10.0.12, 10.1.18, 10.2.6, 10.3.7, 10.4.6, 10.6.3, 10.5.4, 10.7.2
+    # The regex is ^mariadb-(A|B|C|D)$ where A,B,C,D are sub-matches for each of the cycles
+    # Each cycle itself looks like (?<major>X)\.(?<minor>Y)\.(?<patch>R)
+    # Where X -> Major number, Y = Minor Number
+    # And R is a regex that only matches GA release patch numbers in that cycle. ie
+    # Greater than or equal to the first GA release in that cycle.
+    # For eg for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
+    # where (1[2-9]|[2-9]\d) matches 12-19 OR 2 digit numbers starting from 2-9 (ie 20-99)
+    # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
+    # Note: This will need to be edited when a new GA release is made in a new release cycle
+    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2})))$
 command: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: "10.7"
-    release: 2022-02-14
+-   releaseCycle: "10.8"
+    release: 2022-05-20
+    eol: 2023-05-20
+    latest: "10.8.3"
+    latestShortHand: "1083"
+-   releaseCycle: "10.7"
+    release: 2022-02-08
     eol: 2023-02-14
-    latest: "10.7.3"
-    latestShortHand: "1073"
-  - releaseCycle: "10.6"
-    release: 2021-07-06
+    latest: "10.7.4"
+    latestShortHand: "1074"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.6"
+    release: 2021-07-05
     eol: 2026-07-06
-    latest: "10.6.7"
-    latestShortHand: "1067"
-  - releaseCycle: "10.5"
-    release: 2020-06-24
+    latest: "10.6.8"
+    latestShortHand: "1068"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.5"
+    release: 2020-06-23
     eol: 2025-06-24
-    latest: "10.5.15"
-    latestShortHand: "10515"
-  - releaseCycle: "10.4"
-    release: 2019-06-18
+    latest: "10.5.16"
+    latestShortHand: "10516"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.4"
+    release: 2019-06-17
     eol: 2024-06-18
-    latest: "10.4.24"
-    latestShortHand: "10424"
-  - releaseCycle: "10.3"
-    release: 2018-05-25
+    latest: "10.4.25"
+    latestShortHand: "10425"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.3"
+    release: 2018-05-23
     eol: 2023-05-25
-    latest: "10.3.34"
-    latestShortHand: "10334"
-  - releaseCycle: "10.2"
-    release: 2017-05-23
+    latest: "10.3.35"
+    latestShortHand: "10335"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.2"
+    release: 2017-05-15
     eol: 2022-05-23
-    latest: "10.2.43"
-    latestShortHand: "10243"
-  - releaseCycle: "10.1"
-    release: 2015-10-17
+    latest: "10.2.44"
+    latestShortHand: "10244"
+    latestReleaseDate: 2022-05-20
+-   releaseCycle: "10.1"
+    release: 2016-09-29
     eol: 2020-10-17
     latest: "10.1.48"
     latestShortHand: "10148"
-  - releaseCycle: "10.0"
-    release: 2014-03-31
+    latestReleaseDate: 2020-10-30
+-   releaseCycle: "10.0"
+    release: 2014-06-12
     eol: 2019-03-31
     latest: "10.0.38"
     latestShortHand: "10038"
-  - releaseCycle: "5.5"
-    release: 2012-04-11
+    latestReleaseDate: 2019-01-29
+-   releaseCycle: "5.5"
+    release: 2013-01-29
     eol: 2020-04-11
     latest: "5.5.68"
     latestShortHand: "5568"
     lts: true
+    latestReleaseDate: 2020-05-06
+
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).

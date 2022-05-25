@@ -11,20 +11,25 @@ eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: 'release'
 auto:
-  oci: https://index.docker.io/v2/_library/amazonlinux
-changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__" | slice:4,8 }}.html'
+-   dockerhub: library/amazonlinux
+    # TODO: Fix this regex to exclude RC releases
+    regex: ^(?<version>\d+(\.\d+){2,4})$
+    template: "{{version}}"
+changelogTemplate: |
+  https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__"|slice:4,8 }}.html
 releases:
-  - releaseCycle: '1'
+-   releaseCycle: '1'
     releaseLabel: 'Amazon Linux AMI'
     release: "2010-09-14"
     eol: 2020-12-31
     latest: "2018.03"
-    auto: false
-  - releaseCycle: '2'
+-   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
-    release: 2017-12-19
+    release: 2018-06-26
     eol: 2023-06-30
-    latest: "2.0.20220316.0"
+    latest: "2.0.20220426.0"
+    latestReleaseDate: 2022-05-03
+
 ---
 
 > [Amazon Linux][al2] is a Linux server operating system from Amazon Web Services (AWS) available as an Amazon Machine Image (AMI) for use on Amazon Elastic Compute Cloud ([Amazon EC2](https://aws.amazon.com/ec2/)). It is also available as a [Docker container image](https://hub.docker.com/_/amazonlinux/) and as a [virtual machine image](https://cdn.amazonlinux.com/os-images/latest/) for use on Kernel-based Virtual Machine (KVM), Oracle VM VirtualBox, Microsoft Hyper-V, and VMware ESXi.
