@@ -20,18 +20,18 @@ releases:
 -   releaseCycle: "19"
     eol: false
     release: 2022-05-23
-    latest: "19.0.0"
-    latestReleaseDate: 2022-05-23
+    latest: "19.0.1"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "18"
     eol: false
     release: 2022-03-28
-    latest: "18.3.0"
-    latestReleaseDate: 2022-05-23
+    latest: "18.3.1"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "17"
     eol: false
     release: 2022-01-31
-    latest: "17.4.5"
-    latestReleaseDate: 2022-05-18
+    latest: "17.4.6"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "16"
     eol: 2022-05-24
     release: 2021-11-15

@@ -17,18 +17,18 @@ releases:
 -   releaseCycle: "1.12"
     eol: false
     release: 2022-04-19
-    latest: "1.12.0"
-    latestReleaseDate: 2022-04-19
+    latest: "1.12.1"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "1.11"
     eol: false
     release: 2021-12-14
-    latest: "1.11.5"
-    latestReleaseDate: 2022-04-13
+    latest: "1.11.6"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "1.10"
     eol: false
     release: 2021-06-22
-    latest: "1.10.10"
-    latestReleaseDate: 2022-04-13
+    latest: "1.10.11"
+    latestReleaseDate: 2022-05-25
 -   releaseCycle: "1.9"
     eol: true
     release: 2020-11-24
