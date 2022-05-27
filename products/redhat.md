@@ -85,6 +85,10 @@ With the introduction of Red Hat Enterprise Linux version 8, Red Hat is simplify
 
 * **Maintenance Support Phase:** During the Maintenance Support Phases, qualified RHSAs and RHBAs may be released as they become available. Other errata advisories may be delivered as appropriate. New functionality and new hardware enablement is at the discretion of Red Hat, and varies by operating system release.
     
-* **Extended Life Phase (ELS):** During the Extended Life Phase, a Red Hat Enterprise Linux subscription provides continued access to previously released content on the Red Hat Customer Portal, as well as other content such as documentation and the Red Hat knowledgebase. By default no bug fixes, security fixes, hardware enablement, or root-cause analysis is available during this phase. ELS delivers certain critical-impact security fixes, selected urgent priority bug fixes, and troubleshooting for the last minor release of a given version of Red Hat Enterprise Linux. This is also not available for the architectures System z (Structure A), ARM, and POWER9 on RHEL 7.
+* **Extended Life Phase (ELS):** During the Extended Life Phase, a Red Hat Enterprise Linux subscription provides continued access to previously released content on the Red Hat Customer Portal, as well as other content such as documentation and the Red Hat knowledgebase. By default no bug fixes, security fixes, hardware enablement, or root-cause analysis is available during this phase. ELS delivers certain critical-impact security fixes, selected urgent priority bug fixes, and troubleshooting for the last minor release of a given version of Red Hat Enterprise Linux. 
+
+- ELS is also not available for the architectures System z (Structure A), ARM, and POWER9 on RHEL 7.
+- On RHEL 6 a specific number of packages are supported under ELS which is listed [here](https://access.redhat.com/articles/4997301)
+
 
 
