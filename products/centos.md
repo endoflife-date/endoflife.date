@@ -51,6 +51,6 @@ CentOS Linux currently has 2 major released branches that are active: CentOS Lin
 
 Since minor versions of CentOS are point in time releases of a major branch, starting with CentOS Linux 7, CentOS Linux uses a date code as the minor version. As an example, `CentOS Linux 7 (1406)` means June 2014 and `CentOS Linux 7 (1503)` means March 2015. For releases before CentOS 7 - minor versions are incremental (6.0, 6.1, 6.2, etc.).
 
-CentOS Stream only has major versions, no minor versions.
+CentOS Stream only has major versions, no minor versions. Its support ends when its corresponding RHEL release leaves full support.
 
 The project has [announced](https://blog.centos.org/2020/12/future-is-centos-stream/) that work on CentOS Linux 8 will cease at the end of 2021.
