@@ -15,9 +15,9 @@ releases:
 -   releaseCycle: "8.2"
     cycleShortHand: 802
     eol: 2023-10-26
-    latest: 8.2.1
+    latest: 8.2.2
     release: 2022-05-03
-    latestReleaseDate: 2022-05-24
+    latestReleaseDate: 2022-05-26
 -   releaseCycle: "8.1"
     cycleShortHand: 801
     eol: 2023-09-08
