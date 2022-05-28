@@ -13,6 +13,7 @@ releaseDateColumn: true
 releaseColumn: false
 sortReleasesBy: 'cycleShortHand'
 releaseLabel: "RHEL __RELEASE_CYCLE__"
+LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 releases:
   - releaseCycle: "9"
     release: 2022-05-18
@@ -20,10 +21,11 @@ releases:
     eol: 2032-05-31
     latest: "9.0"
     cycleShortHand: 10
-  - releaseCycle: "9 (ELS)"
+  - releaseCycle: "9"
     release: 2032-05-31
     support: 2034-05-31
     eol: 2034-05-31
+    lts: true 
     cycleShortHand: 9
   - releaseCycle: "8"
     release: 2019-05-01
@@ -31,10 +33,11 @@ releases:
     eol: 2029-05-31
     latest: "8.6"
     cycleShortHand: 8
-  - releaseCycle: "8 (ELS)"
+  - releaseCycle: "8"
     release: 2029-05-31
     support: 2031-05-31
     eol: 2031-05-31
+    lts: true 
     cycleShortHand: 7
   - releaseCycle: "7"
     release: 2014-06-10
@@ -42,30 +45,33 @@ releases:
     eol: 2024-06-30
     latest: "7.9"
     cycleShortHand: 6
-  - releaseCycle: "7 (ELS)"
+  - releaseCycle: "7"
     release: 2024-06-30
     support: 2026-06-30
     eol: 2026-06-30
+    lts: true 
     cycleShortHand: 5
   - releaseCycle: "6"
     release: 2010-11-10
     support: 2016-05-10
     eol: 2020-11-30
     cycleShortHand: 4
-  - releaseCycle: "6 (ELS)"
+  - releaseCycle: "6"
     release: 2020-11-30
     support: 2024-06-30
     eol: 2024-06-30
+    lts: true 
     cycleShortHand: 3
   - releaseCycle: "5"
     release: 2007-03-15
     support: 2013-01-08
     eol: 2017-03-31
     cycleShortHand: 2
-  - releaseCycle: "5 (ELS)"
+  - releaseCycle: "5"
     release: 2017-03-31
     support: 2020-11-30
     eol: 2020-11-30
+    lts: true 
     cycleShortHand: 1
 
   - releaseCycle: "4"
