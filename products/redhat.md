@@ -20,59 +20,59 @@ releases:
     support: 2027-05-31
     eol: 2032-05-31
     latest: "9.0"
-    cycleShortHand: 10
+    cycleShortHand: 90
   - releaseCycle: "9" # ELS Entry
     release: 2032-05-31
     support: 2034-05-31
     eol: 2034-05-31
     lts: true 
-    cycleShortHand: 9
+    cycleShortHand: 91
   - releaseCycle: "8"
     release: 2019-05-01
     support: 2024-05-31
     eol: 2029-05-31
     latest: "8.6"
-    cycleShortHand: 8
+    cycleShortHand: 80
   - releaseCycle: "8" # ELS Entry
     release: 2029-05-31
     support: 2031-05-31
     eol: 2031-05-31
     lts: true 
-    cycleShortHand: 7
+    cycleShortHand: 81
   - releaseCycle: "7"
     release: 2014-06-10
     support: 2019-12-31
     eol: 2024-06-30
     latest: "7.9"
-    cycleShortHand: 6
+    cycleShortHand: 70
   - releaseCycle: "7" # ELS Entry
     release: 2024-06-30
     support: 2026-06-30
     eol: 2026-06-30
     lts: true 
-    cycleShortHand: 5
+    cycleShortHand: 71
   - releaseCycle: "6"
     release: 2010-11-10
     support: 2016-05-10
     eol: 2020-11-30
-    cycleShortHand: 4
+    cycleShortHand: 60
   - releaseCycle: "6" # ELS Entry
     release: 2020-11-30
     support: 2024-06-30
     eol: 2024-06-30
     lts: true 
-    cycleShortHand: 3
+    cycleShortHand: 61
   - releaseCycle: "5"
     release: 2007-03-15
     support: 2013-01-08
     eol: 2017-03-31
-    cycleShortHand: 2
+    cycleShortHand: 50
   - releaseCycle: "5" # ELS Entry
     release: 2017-03-31
     support: 2020-11-30
     eol: 2020-11-30
     lts: true 
-    cycleShortHand: 1
+    cycleShortHand: 51
 
   - releaseCycle: "4"
     release: 2005-02-14
