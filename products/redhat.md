@@ -78,6 +78,7 @@ releases:
     release: 2005-02-14
     support: 2009-03-31
     eol: 2012-02-29
+    cycleShortHand: 40
 
 ---
 
