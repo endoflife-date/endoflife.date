@@ -9,19 +9,19 @@ releases:
   - releaseCycle: "1.22"
     eol: 2023-05-01
     release: 2022-04-04
-    latest: 1.22.6
+    latest: "1.22.6"
   - releaseCycle: "1.21"
     eol: 2023-02-01
     release: 2021-07-19
-    latest: "1.21.5"
+    latest: "1.21.9"
   - releaseCycle: "1.20"
     eol: 2022-09-01
     release: 2021-05-18
-    latest: "1.20.7"
+    latest: "1.20.15"
   - releaseCycle: "1.19"
-    eol: 2022-06-01
+    eol: 2022-06-30
     release: 2021-02-16
-    latest: "1.19.15"
+    latest: "1.19.16"
   - releaseCycle: "1.18"
     eol: 2022-03-31
     release: 2020-10-13
