@@ -8,6 +8,8 @@ activeSupportColumn: false
 command: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
+auto:
+-   custom: true
 sortReleasesBy: 'cycleShortHand'
 releases:
 -   releaseCycle: "2.5"
