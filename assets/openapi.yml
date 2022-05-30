@@ -112,7 +112,7 @@ paths:
           description: Release Cycle for which the details must be fetched
   /api/all.json:
     get:
-      summary: Your GET endpoint
+      summary: All Products
       tags: []
       responses:
         '200':
