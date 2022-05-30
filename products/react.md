@@ -32,4 +32,4 @@ releases:
 
 ## Versioning
 
-React follows [Semantic Versioning](http://semver.org/) principles. The only officially supported release channel for user-facing applications is Latest. New features are released in minor versions. Patch releases are made only for the most critical bugs and security vulnerabilities. Major releases can also contain new features, and any release can include bug fixes.
+React follows [Semantic Versioning](https://semver.org/) principles. The only officially supported release channel for user-facing applications is Latest. New features are released in minor versions. Patch releases are made only for the most critical bugs and security vulnerabilities. Major releases can also contain new features, and any release can include bug fixes.

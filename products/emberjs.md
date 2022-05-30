@@ -39,7 +39,7 @@ releases:
 
 > [Ember](https://emberjs.com) is an open-source JavaScript web framework for building modern web applications.
 
-Ember follows [Semantic Versioning](http://semver.org/). The Ember team aims to ship new features in minor releases, and make major releases as rare as possible. A minor release is published about once every six weeks. 
+Ember follows [Semantic Versioning](https://semver.org/). The Ember team aims to ship new features in minor releases, and make major releases as rare as possible. A minor release is published about once every six weeks.
 
 ## [Long Term Support](https://emberjs.com/releases/lts/)
 
