@@ -10,12 +10,25 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+
   # This updates the _data/release-data submodule once a day
   # which itself is updated twice a day.
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
+      # daily runs M-F, so we add 2 weekly schedules
+      # to run on Saturady and Sunday as workaround
       interval: "daily"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: saturday
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      day: sunday
 
   - package-ecosystem: "github-actions"
     directory: "/"
