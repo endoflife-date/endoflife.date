@@ -17,7 +17,7 @@ updates:
     directory: "/"
     schedule:
       # daily runs M-F, so we add 2 weekly schedules
-      # to run on Saturady and Sunday as workaround
+      # to run on Saturday and Sunday as workaround
       interval: "daily"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
