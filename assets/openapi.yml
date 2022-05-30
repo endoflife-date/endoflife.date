@@ -309,8 +309,12 @@ components:
           minLength: 1
           description: 'Link to changelog for the latest release, if available'
         lts:
-          type: boolean
-          description: Whether this release cycle has long-term-support (LTS)
+          type:
+            - boolean
+            - string
+          description: >
+            Whether this release cycle has long-term-support (LTS). Can be a date instead in YYYY-MM-DD format as well
+            if the release enters LTS status on a given date.
         support:
           type:
             - string
