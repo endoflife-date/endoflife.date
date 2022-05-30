@@ -10,13 +10,18 @@ releaseDateColumn: true
 sortReleasesBy: 'release'
 iconSlug: NA
 releases:
+  - releaseCycle: "9"
+    release: 2022-05-26
+    support: 2027-05-31
+    eol: 2032-05-31
+    latest: "9.0"
+    link: https://mirrors.almalinux.org/isos.html
   - releaseCycle: "8"
     release: 2019-05-01
     support: 2024-05-01
     eol: 2029-03-01
     latest: "8.6"
     link: https://mirrors.almalinux.org/isos.html
-
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. AlmaLinux OS is 1:1 binary compatible with [RHEL®](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and pre-Stream [CentOS](https://centos.org/).
