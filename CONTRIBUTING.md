@@ -79,10 +79,11 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
 # Optional information about how release information can be fetched automatically
-# This is mainly used for the `latest` and `latestDate` fields of each release cycle
+# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for
+# every release.
 # Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
-# This is currently a WIP, and will not have any impact, but is highly recommended if this can be made available.
 auto:
+  - custom: true
   # Any valid git clone URL will work
   # Support for partialClone is necessary (GitHub does support this)
   - git: https://github.com/abc/def.git
@@ -101,6 +102,10 @@ auto:
 
   # Link to package on NPM
   - npm: https://www.npmjs.com/package/abc
+
+  # Use this if the product has a custom script updating releases
+  # in release-data repository
+  - custom: true
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
