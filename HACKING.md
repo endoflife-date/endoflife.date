@@ -12,6 +12,7 @@
 - [Contributing Workflow](#contributing-workflow)
 - [Deployment](#deployment)
 - [Analytics](#analytics)
+- [Automation](#automation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -107,3 +108,7 @@ The build script is kept in `netlify.toml`.
 ## Analytics
 
 There are no javascript trackers or analytics on the website. Netlify Analytics enabled as an experiment. Numbers from Netlify Analytics and Google Search Usability Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki)
+
+## Automation
+
+The endoflife.date project runs a bit of automation on top of GitHub Actions to automate mundane tasks. This is primarily updating the latest version of each product, wherever possible. This is documented in the [wiki](https://github.com/endoflife-date/endoflife.date/wiki/Automation).

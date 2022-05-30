@@ -33,7 +33,7 @@ endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static 
 
 ## :new: Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as productname.md
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request.
 
 ```yaml
 ---
@@ -52,8 +52,8 @@ layout: post
 category: os
 
 # What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/release/cycleShortHand/latest/latestShortHand
-# which must be present in the releases underneath
+# releaseCycle/eol/support/releaseDate/cycleShortHand/latest/latestShortHand
+# which must be present in all of the releases underneath
 sortReleasesBy: "releaseCycle"
 
 # Template to be used to generate a link for the release
@@ -124,7 +124,7 @@ releases:
     # Date of release for the product
     # remove if releaseDateColumn is false
     # An approximate date is better than no date.
-    release: 2017-03-12
+    releaseDate: 2017-03-12
     # Current latest release
     # remove if releaseColumn is false
     # always put in quotes
