@@ -33,7 +33,7 @@ endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static 
 
 ## :new: Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request.
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible.
 
 ```yaml
 ---
@@ -134,6 +134,9 @@ releases:
     # remove if releaseColumn is false
     # always put in quotes
     latest: "1.2.3"
+    # The date of the latest release
+    # This is currently optional.
+    latestReleaseDate: 2022-01-23
     # Whether this is a "LTS" release. What LTS means may differ from product to product (see LTSLabel above)
     # Optional, default false. Only provide for a release that will get a much longer support than usual.
     lts: true
