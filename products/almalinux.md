@@ -13,16 +13,19 @@ auto:
 -   dockerhub: almalinux/9-init
 -   dockerhub: almalinux/8-init
 releases:
-  - releaseCycle: "9"
-    releaseDate: 2022-05-26
+-   releaseCycle: "9"
+    releaseDate: 2022-05-13
     support: 2027-05-31
     eol: 2032-05-31
     latest: "9.0"
-  - releaseCycle: "8"
-    releaseDate: 2019-05-01
+    latestReleaseDate: 2022-05-13
+-   releaseCycle: "8"
+    releaseDate: 2021-09-17
     support: 2024-05-01
     eol: 2029-03-01
     latest: "8.6"
+
+    latestReleaseDate: 2022-05-13
 
 ---
 
