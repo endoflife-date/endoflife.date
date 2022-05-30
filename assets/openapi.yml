@@ -34,7 +34,7 @@ paths:
                     - cycle: '21.04'
                       cycleShortHand: HirsuteHippo
                       lts: false
-                      release: '2021-04-22'
+                      releaseDate: '2021-04-22'
                       support: '2022-01-01'
                       eol: '2022-01-01'
                       latest: '21.04'
@@ -42,7 +42,7 @@ paths:
                     - cycle: '20.10'
                       cycleShortHand: GroovyGorilla
                       lts: false
-                      release: '2020-10-22'
+                      releaseDate: '2020-10-22'
                       support: '2021-07-07'
                       eol: '2021-07-07'
                       latest: '20.10'
@@ -50,12 +50,12 @@ paths:
                 /api/python.json:
                   value:
                     - cycle: 3.9
-                      release: '2020-10-05'
+                      releaseDate: '2020-10-05'
                       eol: '2025-10-05'
                       latest: 3.9.5
                       link: 'https://www.python.org/downloads/release/python-395/'
                     - cycle: 3.8
-                      release: '2019-10-14'
+                      releaseDate: '2019-10-14'
                       eol: '2024-10-14'
                       latest: 3.8.10
                       link: 'https://www.python.org/downloads/release/python-3810/'
@@ -82,7 +82,7 @@ paths:
               examples:
                 /api/python/3.9.json:
                   value:
-                    release: '2020-10-05'
+                    releaseDate: '2020-10-05'
                     eol: '2025-10-05'
                     latest: 3.9.5
                     link: 'https://www.python.org/downloads/release/python-395/'
@@ -90,7 +90,7 @@ paths:
                   value:
                     cycleShortHand: HirsuteHippo
                     lts: false
-                    release: '2021-04-22'
+                    releaseDate: '2021-04-22'
                     support: '2022-01-01'
                     eol: '2022-01-01'
                     latest: '21.04'
@@ -190,42 +190,42 @@ components:
       x-examples:
         python:
           - cycle: 3.9
-            release: '2020-10-05'
+            releaseDate: '2020-10-05'
             eol: '2025-10-05'
             latest: 3.9.5
             link: 'https://www.python.org/downloads/release/python-395/'
           - cycle: 3.8
-            release: '2019-10-14'
+            releaseDate: '2019-10-14'
             eol: '2024-10-14'
             latest: 3.8.10
             link: 'https://www.python.org/downloads/release/python-3810/'
           - cycle: 3.7
-            release: '2018-06-27'
+            releaseDate: '2018-06-27'
             eol: '2023-06-27'
             latest: 3.7.10
             link: 'https://www.python.org/downloads/release/python-3710/'
           - cycle: 3.6
-            release: '2016-12-23'
+            releaseDate: '2016-12-23'
             eol: '2021-12-23'
             latest: 3.6.13
             link: 'https://www.python.org/downloads/release/python-3613/'
           - cycle: 3.5
-            release: '2015-09-30'
+            releaseDate: '2015-09-30'
             eol: '2020-09-13'
             latest: 3.5.10
             link: 'https://www.python.org/downloads/release/python-3510/'
           - cycle: 3.4
-            release: '2014-03-16'
+            releaseDate: '2014-03-16'
             eol: '2019-03-18'
             latest: 3.4.10
             link: 'https://www.python.org/downloads/release/python-3410/'
           - cycle: 3.3
-            release: '2012-09-29'
+            releaseDate: '2012-09-29'
             eol: '2017-09-29'
             latest: 3.3.7
             link: 'https://www.python.org/downloads/release/python-337/'
           - cycle: 2.7
-            release: '2010-07-03'
+            releaseDate: '2010-07-03'
             eol: '2020-01-01'
             latest: 2.7.18
             link: 'https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst'
@@ -233,7 +233,7 @@ components:
           - cycle: '21.04'
             cycleShortHand: HirsuteHippo
             lts: false
-            release: '2021-04-22'
+            releaseDate: '2021-04-22'
             support: '2022-01-01'
             eol: '2022-01-01'
             latest: '21.04'
@@ -241,7 +241,7 @@ components:
           - cycle: '20.10'
             cycleShortHand: GroovyGorilla
             lts: false
-            release: '2020-10-22'
+            releaseDate: '2020-10-22'
             support: '2021-07-07'
             eol: '2021-07-07'
             latest: '20.10'
@@ -249,33 +249,33 @@ components:
           - cycle: '20.04'
             cycleShortHand: FocalFossa
             lts: true
-            release: '2020-04-23'
+            releaseDate: '2020-04-23'
             support: '2022-10-01'
             eol: '2025-04-02'
             latest: 20.04.2
           - cycle: '19.10'
-            release: '2019-10-17'
+            releaseDate: '2019-10-17'
             support: '2020-07-06'
             eol: '2020-07-06'
             latest: '19.10'
           - cycle: '18.04'
             cycleShortHand: BionicBeaver
             lts: true
-            release: '2018-04-26'
+            releaseDate: '2018-04-26'
             support: '2020-09-30'
             eol: '2023-04-02'
             latest: 18.04.5
           - cycle: '16.04'
             cycleShortHand: XenialXerus
             lts: true
-            release: '2016-04-21'
+            releaseDate: '2016-04-21'
             support: '2018-10-01'
             eol: '2021-04-02'
             latest: 16.04.7
           - cycle: '14.04'
             cycleShortHand: TrustyTahr
             lts: true
-            release: '2014-04-17'
+            releaseDate: '2014-04-17'
             support: '2016-09-30'
             eol: '2019-04-02'
             latest: 14.04.6
@@ -288,7 +288,7 @@ components:
             - number
             - string
           description: Release Cycle
-        release:
+        releaseDate:
           type: string
           minLength: 10
           description: Release Date for the first release in this cycle
