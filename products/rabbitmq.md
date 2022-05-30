@@ -7,7 +7,7 @@ sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
-command: rabbitmqctl --version
+versionCommand: rabbitmqctl --version
 auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
     regex: ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$

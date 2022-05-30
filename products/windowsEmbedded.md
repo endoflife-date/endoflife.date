@@ -7,7 +7,7 @@ category: os
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-command: winver
+versionCommand: winver
 sortReleasesBy: releaseDate
 releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
 releases:

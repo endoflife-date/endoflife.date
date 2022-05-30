@@ -106,7 +106,7 @@ releaseDateColumn: true
 # What to call the End of Life  (Security Support) column. (optional)
 eolColumn: End of Life
 # Command that can be used to check the current version. (optional)
-command: cat /usr/lib/os-release
+versionCommand: cat /usr/lib/os-release
 
 ---
 

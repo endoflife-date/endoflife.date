@@ -5,7 +5,7 @@ iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
 -   /kotlinlang
-command: kotlinc-native -version
+versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
 sortReleasesBy: "cycleShortHand"
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"

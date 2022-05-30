@@ -2,7 +2,7 @@
 permalink: /centos
 title: CentOS
 category: os
-command: lsb_release --release
+versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true

@@ -50,7 +50,7 @@ releaseColumn: true
 # optional, default false
 releaseDateColumn: true
 LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
-command: cat /etc/os-release
+versionCommand: cat /etc/os-release
 
 ---
 

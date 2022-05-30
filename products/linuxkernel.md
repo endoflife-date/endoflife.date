@@ -11,7 +11,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
-command: uname -r
+versionCommand: uname -r
 auto:
 # Note that we're tracking the linux kernel stable tree, not torvalds' tree
 # which doesn't contain all tags

@@ -6,7 +6,7 @@ alternate_urls:
 category: framework
 releasePolicyLink: https://vuejs.org/about/releases.html
 activeSupportColumn: true
-command: npm list vue
+versionCommand: npm list vue
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: vuedotjs

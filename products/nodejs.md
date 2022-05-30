@@ -12,7 +12,7 @@ changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHA
 activeSupportColumn: true
 auto:
 -   git: https://github.com/nodejs/node.git
-command: node --version
+versionCommand: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:

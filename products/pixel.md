@@ -3,7 +3,7 @@ permalink: /pixel
 title: Google Pixel
 iconSlug: google
 category: device
-command: "Settings -> About Phone -> Regulatory labels"
+versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
 discontinuedColumn: true
 activeSupportColumn: false

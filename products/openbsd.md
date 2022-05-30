@@ -2,7 +2,7 @@
 permalink: /openbsd
 title: OpenBSD
 category: os
-command: uname -r
+versionCommand: uname -r
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false

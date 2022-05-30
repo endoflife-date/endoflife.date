@@ -61,7 +61,7 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: false
 eolColumn: Maintenance Support
-command: kubectl version
+versionCommand: kubectl version
 ---
 
 > [Google Kubernetes Engine][gke] is the fully managed Kubernetes service from Google.

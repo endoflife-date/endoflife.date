@@ -46,7 +46,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: End of Support
-command: eksctl get cluster --name=cluster-name
+versionCommand: eksctl get cluster --name=cluster-name
 
 ---
 

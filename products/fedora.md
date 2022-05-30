@@ -4,7 +4,7 @@ title: Fedora Linux
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
-command: cat /etc/fedora-release
+versionCommand: cat /etc/fedora-release
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 auto:

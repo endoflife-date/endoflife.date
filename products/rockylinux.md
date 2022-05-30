@@ -3,7 +3,7 @@ releaseImage: https://aws1.discourse-cdn.com/standard14/uploads/rockylinux/origi
 title: Rocky Linux
 permalink: /rocky-linux
 category: os
-command: cat /etc/os-release
+versionCommand: cat /etc/os-release
 iconSlug: rockylinux
 alternate_urls:
 -   /rocky

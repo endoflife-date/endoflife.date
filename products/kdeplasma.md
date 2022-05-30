@@ -6,7 +6,7 @@ title: KDE Plasma
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_5
 activeSupportColumn: true
 releaseDateColumn: true
-command: plasmashell -v
+versionCommand: plasmashell -v
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
 category: os

@@ -9,7 +9,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End-of-life Date
 sortReleasesBy: releaseDate
-command: show system info | match sw-version
+versionCommand: show system info | match sw-version
 releases:
 -   releaseCycle: "10.2"
     eol: 2025-08-27

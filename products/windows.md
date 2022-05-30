@@ -6,7 +6,7 @@ category: os
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-command: winver
+versionCommand: winver
 sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "Windows 10, version 21H2 (E)"

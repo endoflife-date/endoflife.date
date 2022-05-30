@@ -1,7 +1,7 @@
 ---
 permalink: /elixir
 title: Elixir
-command: elixir --version
+versionCommand: elixir --version
 category: lang
 releasePolicyLink: https://hexdocs.pm/elixir/compatibility-and-deprecations.html
 changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__/CHANGELOG.md

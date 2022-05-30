@@ -1,6 +1,6 @@
 ---
 title: CFEngine
-command: cf-agent --version
+versionCommand: cf-agent --version
 changelogTemplate: https://github.com/cfengine/core/blob/__RELEASE_CYCLE__.x/ChangeLog
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"

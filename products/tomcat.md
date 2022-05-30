@@ -6,7 +6,7 @@ releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
 category: server-app
 activeSupportColumn: false
-command: ./bin/version.sh
+versionCommand: ./bin/version.sh
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"

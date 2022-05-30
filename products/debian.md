@@ -1,7 +1,7 @@
 ---
 permalink: /debian
 title: Debian
-command: cat /etc/os-release
+versionCommand: cat /etc/os-release
 category: os
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false

@@ -4,7 +4,7 @@ permalink: /ffmpeg
 category: framework
 icon: FFmpeg
 releasePolicyLink: https://ffmpeg.org/
-command: ffmpeg -version
+versionCommand: ffmpeg -version
 activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported

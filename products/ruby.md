@@ -1,7 +1,7 @@
 ---
 permalink: /ruby
 title: Ruby
-command: ruby --version
+versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
 changelogTemplate: |
   https://rubychangelog.com/versions-all/#ruby-{{"__LATEST__"|replace:'.',''}}

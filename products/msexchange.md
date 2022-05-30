@@ -5,7 +5,7 @@ iconSlug: microsoftexchange
 category: server-app
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 activeSupportColumn: true
-command: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
+versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true
 sortReleasesBy: releaseDate
 releases:

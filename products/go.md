@@ -7,7 +7,7 @@ category: lang
 releasePolicyLink: https://golang.org/doc/devel/release.html#policy
 changelogTemplate: https://github.com/golang/go/issues?q=milestone%3AGo__LATEST__
 eolColumn: Supported
-command: go version
+versionCommand: go version
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 auto:

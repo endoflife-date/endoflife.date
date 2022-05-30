@@ -4,7 +4,7 @@ alternate_urls:
 -   /zfs
 title: OpenZFS
 category: app
-command: zpool get version [zpool name]
+versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__

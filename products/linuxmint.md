@@ -1,7 +1,7 @@
 ---
 permalink: /linuxmint
 title: Linux Mint
-command: cat /etc/linuxmint/info
+versionCommand: cat /etc/linuxmint/info
 category: os
 releasePolicyLink: https://linuxmint.com/download_all.php
 activeSupportColumn: true

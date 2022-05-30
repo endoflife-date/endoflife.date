@@ -9,7 +9,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
-command: nvidia-smi
+versionCommand: nvidia-smi
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
 -   releaseCycle: "R390-Linux"

@@ -2,7 +2,7 @@
 permalink: /gitlab
 category: server-app
 title: GitLab
-command: gitlab-rake gitlab:env:info
+versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true

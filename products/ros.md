@@ -6,7 +6,7 @@ releasePolicyLink: https://wiki.ros.org/Distributions
 activeSupportColumn: false
 releaseColumn: true
 eolColumn: End Of Life
-command: rosversion -d
+versionCommand: rosversion -d
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releaseLabel: '__CODENAME__'
