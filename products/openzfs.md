@@ -2,7 +2,6 @@
 permalink: /openzfs
 alternate_urls:
 -   /zfs
-layout: post
 title: OpenZFS
 category: app
 command: zpool get version [zpool name]
@@ -20,23 +19,23 @@ releaseLabel: "OpenZFS __RELEASE_CYCLE__"
 releases:
 
 -   releaseCycle: "2.1"
-    release: 2021-07-02
     eol: 2023-07-02
     lts: true
     latest: "2.1.99"
 
     latestReleaseDate: 2021-04-19
+    releaseDate: 2021-07-02
 -   releaseCycle: "2.0"
-    release: 2020-11-30
     eol: 2021-12-23
     latest: "2.0.7"
 
     latestReleaseDate: 2021-12-23
+    releaseDate: 2020-11-30
 -   releaseCycle: "0.8"
-    release: 2019-05-21
     eol: 2020-12-14
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
+    releaseDate: 2019-05-21
 
 ---
 

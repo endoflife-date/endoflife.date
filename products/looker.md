@@ -2,7 +2,6 @@
 title: Looker
 permalink: /looker
 category: server-app
-layout: post
 iconSlug: looker
 releasePolicyLink: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
@@ -15,62 +14,62 @@ releaseColumn: false
 sortReleasesBy: "cycleShortHand"
 releaseImage: https://docs.looker.com/assets/images/2021-std-supp-releases.png
 releases:
-  - releaseCycle: "21.20"
+-   releaseCycle: "21.20"
     cycleShortHand: 2120
-    release: 2021-11-16
     eol: false
-  - releaseCycle: "21.18"
+    releaseDate: 2021-11-16
+-   releaseCycle: "21.18"
     cycleShortHand: 2118
-    release: 2021-10-19
     eol: 2022-02-28
     lts: true
-  - releaseCycle: "21.16"
+    releaseDate: 2021-10-19
+-   releaseCycle: "21.16"
     cycleShortHand: 2116
-    release: 2021-09-14
     eol: 2021-12-15
-  - releaseCycle: "21.14"
+    releaseDate: 2021-09-14
+-   releaseCycle: "21.14"
     cycleShortHand: 2114
-    release: 2021-08-16
     eol: 2021-11-16
-  - releaseCycle: "21.12"
+    releaseDate: 2021-08-16
+-   releaseCycle: "21.12"
     cycleShortHand: 2112
-    release: 2021-07-15
     eol: 2021-11-30
     lts: true
-  - releaseCycle: "21.10"
+    releaseDate: 2021-07-15
+-   releaseCycle: "21.10"
     cycleShortHand: 2110
-    release: 2021-06-10
     eol: 2021-09-14
-  - releaseCycle: "21.8"
+    releaseDate: 2021-06-10
+-   releaseCycle: "21.8"
     cycleShortHand: 2108
-    release: 2021-05-13
     eol: 2021-10-16
-  - releaseCycle: "21.6"
+    releaseDate: 2021-05-13
+-   releaseCycle: "21.6"
     cycleShortHand: 2106
-    release: 2021-04-15
     eol: 2021-08-31
     lts: true
-  - releaseCycle: "21.4"
+    releaseDate: 2021-04-15
+-   releaseCycle: "21.4"
     cycleShortHand: 2104
-    release: 2021-03-11
     eol: 2021-06-10
-  - releaseCycle: "21.0"
+    releaseDate: 2021-03-11
+-   releaseCycle: "21.0"
     cycleShortHand: 2100
-    release: 2021-01-20
     eol: 2021-05-31
     lts: true
-  - releaseCycle: "7.20"
+    releaseDate: 2021-01-20
+-   releaseCycle: "7.20"
     cycleShortHand: 720
-    release: 2020-11-15
     eol: true
-  - releaseCycle: "7.18"
+    releaseDate: 2020-11-15
+-   releaseCycle: "7.18"
     cycleShortHand: 718
-    release: 2020-10-15
     eol: true
-  - releaseCycle: "7.16"
+    releaseDate: 2020-10-15
+-   releaseCycle: "7.16"
     cycleShortHand: 716
-    release: 2020-09-17
     eol: true
+    releaseDate: 2020-09-17
 
 ---
 

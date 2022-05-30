@@ -1,6 +1,5 @@
 ---
 title: Electron
-layout: post
 category: framework
 changelogTemplate: |
   https://www.electronjs.org/releases/stable?version={{"__LATEST__" | split:'.' | first}}#__LATEST__
@@ -19,79 +18,79 @@ sortReleasesBy: releaseCycle
 releases:
 -   releaseCycle: "19"
     eol: false
-    release: 2022-05-23
     latest: "19.0.1"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2022-05-23
 -   releaseCycle: "18"
     eol: false
-    release: 2022-03-28
     latest: "18.3.1"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2022-03-28
 -   releaseCycle: "17"
     eol: false
-    release: 2022-01-31
     latest: "17.4.6"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2022-01-31
 -   releaseCycle: "16"
     eol: 2022-05-24
-    release: 2021-11-15
     latest: "16.2.8"
     latestReleaseDate: 2022-05-24
+    releaseDate: 2021-11-15
 -   releaseCycle: "15"
     eol: 2022-05-24
-    release: 2021-09-21
     latest: "15.5.7"
     latestReleaseDate: 2022-05-24
+    releaseDate: 2021-09-21
 -   releaseCycle: "14"
     eol: true
-    release: 2021-08-30
     latest: "14.2.9"
     latestReleaseDate: 2022-03-29
+    releaseDate: 2021-08-30
 -   releaseCycle: "13"
     eol: true
-    release: 2021-05-24
     latest: "13.6.9"
     latestReleaseDate: 2022-02-01
+    releaseDate: 2021-05-24
 -   releaseCycle: "12"
     eol: true
-    release: 2021-03-01
     latest: "12.2.3"
     latestReleaseDate: 2021-11-15
+    releaseDate: 2021-03-01
 -   releaseCycle: "11"
     eol: true
-    release: 2020-11-16
     latest: "11.5.0"
     latestReleaseDate: 2021-08-31
+    releaseDate: 2020-11-16
 -   releaseCycle: "10"
     eol: true
-    release: 2020-08-24
     latest: "10.4.7"
     latestReleaseDate: 2021-05-24
+    releaseDate: 2020-08-24
 -   releaseCycle: "9"
     eol: true
-    release: 2020-05-18
     latest: "9.4.4"
     latestReleaseDate: 2021-03-03
+    releaseDate: 2020-05-18
 -   releaseCycle: "8"
     eol: true
-    release: 2020-02-03
     latest: "8.5.5"
     latestReleaseDate: 2020-11-18
+    releaseDate: 2020-02-03
 -   releaseCycle: "7"
     eol: true
-    release: 2019-10-21
     latest: "7.3.3"
     latestReleaseDate: 2020-08-25
+    releaseDate: 2019-10-21
 -   releaseCycle: "6"
     eol: true
-    release: 2019-07-29
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
+    releaseDate: 2019-07-29
 -   releaseCycle: "5"
     eol: true
-    release: 2019-04-23
     latest: "5.0.13"
     latestReleaseDate: 2019-12-16
+    releaseDate: 2019-04-23
 
 ---
 

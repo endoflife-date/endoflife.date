@@ -1,192 +1,192 @@
 ---
 title: NVIDIA GPUs
-layout: post
 permalink: /nvidia-gpu
 alternate_urls:
-  - /nvidia-products
-  - /nvidia-gpus
+-   /nvidia-products
+-   /nvidia-gpus
 category: device
 iconSlug: nvidia
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
 activeSupportColumn: true
 releaseDateColumn: true
 discontinuedColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releaseColumn: false
 releases:
-  - releaseCycle: "Consumer Fahrenheit (NVx)"
-    release: 1998-06-15
+-   releaseCycle: "Consumer Fahrenheit (NVx)"
     support: 2005-03-11 # Verify support date.
     eol: 2005-03-11
     discontinued: true
-    
-  - releaseCycle: "Consumer Celsius (NV1x)"
-    release: 1999-10-11
+
+    releaseDate: 1998-06-15
+-   releaseCycle: "Consumer Celsius (NV1x)"
     support: 2005-04-14 # Verify support date.
     eol: 2005-04-14
     discontinued: true
-    
-  - releaseCycle: "Consumer Kelvin (NV1x, NV2x)"
-    release: 2001-02-27
+
+    releaseDate: 1999-10-11
+-   releaseCycle: "Consumer Kelvin (NV1x, NV2x)"
     support: 2006-11-02 # Verify support date.
     eol: 2006-11-02
     discontinued: true
-    
-  - releaseCycle: "Consumer Rankine (NV3x)"
-    release: 2003-01-27
+
+    releaseDate: 2001-02-27
+-   releaseCycle: "Consumer Rankine (NV3x)"
     support: 2008-06-23 # Verify support date.
     eol: 2008-06-23
     discontinued: true
-    
-  - releaseCycle: "Consumer Curie (NV4x, G7x)"
-    release: 2004-04-14
+
+    releaseDate: 2003-01-27
+-   releaseCycle: "Consumer Curie (NV4x, G7x)"
     support: 2013-02-25
     eol: 2015-02-24
     discontinued: true
-    
-  - releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
-    release: 2006-11-08
+
+    releaseDate: 2004-04-14
+-   releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
     support: 2016-04-01
     eol: 2016-12-14
     discontinued: true
-    
-  - releaseCycle: "Consumer Fermi (GF1xx)*"
-    release: 2010-03-26
+
+    releaseDate: 2006-11-08
+-   releaseCycle: "Consumer Fermi (GF1xx)*"
     support: 2018-03-10
     eol: 2018-03-10
     discontinued: true
-    
-  - releaseCycle: "Professional Fermi (GF1xx)**"
-    release: 2010-07-23
+
+    releaseDate: 2010-03-26
+-   releaseCycle: "Professional Fermi (GF1xx)**"
     support: 2018-07-31
     eol: 2022-12-31
     discontinued: true
 
-  - releaseCycle: "Consumer Kepler (GKxxx)"
-    release: 2012-03-22
+    releaseDate: 2010-07-23
+-   releaseCycle: "Consumer Kepler (GKxxx)"
     support: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
-  - releaseCycle: "Professional Kepler (GKxxx)"
-    release: 2013-03-01
+    releaseDate: 2012-03-22
+-   releaseCycle: "Professional Kepler (GKxxx)"
     support: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
-  - releaseCycle: "Mobile Professional Kepler (GKxxx)"
-    release: 2012-03-22 # Verify release date.
+    releaseDate: 2013-03-01
+-   releaseCycle: "Mobile Professional Kepler (GKxxx)"
     support: 2019-04-23
     eol: 2022-03-01
     discontinued: true
 
-  - releaseCycle: "Mobile Consumer Kepler (GKxxx)" 
-    release: 2012-03-22
+    releaseDate: 2012-03-22
+-   releaseCycle: "Mobile Consumer Kepler (GKxxx)"
     support: 2019-03-11
     eol: 2019-04-11
     discontinued: true
 
-  - releaseCycle: "Consumer Maxwell (GMxxx)"
-    release: 2014-09-19
+    releaseDate: 2012-03-22
+-   releaseCycle: "Consumer Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Professional Maxwell (GMxxx)"
-    release: 2015-06-29
+    releaseDate: 2014-09-19
+-   releaseCycle: "Professional Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Mobile Professional Maxwell (GMxxx)" 
-    release: 2015-08-18
+    releaseDate: 2015-06-29
+-   releaseCycle: "Mobile Professional Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Mobile Consumer Maxwell (GMxxx)" 
-    release: 2014-10-07
+    releaseDate: 2015-08-18
+-   releaseCycle: "Mobile Consumer Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Consumer Pascal (GP10x)"
-    release: 2016-05-27
+    releaseDate: 2014-10-07
+-   releaseCycle: "Consumer Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Professional Pascal (GP10x)"
-    release: 2016-04-05
+    releaseDate: 2016-05-27
+-   releaseCycle: "Professional Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Mobile Professional Pascal (GP10x)"
-    release: 2017-02-06
+    releaseDate: 2016-04-05
+-   releaseCycle: "Mobile Professional Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Mobile Consumer Pascal (GP10x)" 
-    release: 2016-08-15
+    releaseDate: 2017-02-06
+-   releaseCycle: "Mobile Consumer Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Professional Volta (GV100)" 
-    release: 2017-12-07
+    releaseDate: 2016-08-15
+-   releaseCycle: "Professional Volta (GV100)"
     support: true
     eol: false
     discontinued: true
 
-  - releaseCycle: "Consumer Turing (TU1xX)"
-    release: 2018-09-20
+    releaseDate: 2017-12-07
+-   releaseCycle: "Consumer Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Professional Turing (TU1xX)"
-    release: 2018-08-13
+    releaseDate: 2018-09-20
+-   releaseCycle: "Professional Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Mobile Professional Turing (TU1xX)"
-    release: 2019-05-27
+    releaseDate: 2018-08-13
+-   releaseCycle: "Mobile Professional Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Mobile Consumer Turing (TU1xX)" 
-    release: 2019-01-29
+    releaseDate: 2019-05-27
+-   releaseCycle: "Mobile Consumer Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Consumer Ampere (GA10x)"
-    release: 2020-09-01
-    support: true
-    eol: false
-    discontinued: false
-    
-  - releaseCycle: "Professional Ampere (GA10x)"
-    release: 2020-10-05
+    releaseDate: 2019-01-29
+-   releaseCycle: "Consumer Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Mobile Professional Ampere (GA10x)"
-    release: 2021-04-12
+    releaseDate: 2020-09-01
+-   releaseCycle: "Professional Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
 
-  - releaseCycle: "Mobile Consumer Ampere (GA10x)" 
-    release: 2021-01-12
+    releaseDate: 2020-10-05
+-   releaseCycle: "Mobile Professional Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
+
+    releaseDate: 2021-04-12
+-   releaseCycle: "Mobile Consumer Ampere (GA10x)"
+    support: true
+    eol: false
+    discontinued: false
+    releaseDate: 2021-01-12
+
 ---
 
 > Nvidia designs <abbr title="Graphics Processing Unit">GPUs</abbr> for the gaming and professional markets, as well as system on a chip units (SoCs) for the mobile computing and automotive market. This page tracks Nvidia GPUs, which provide support for their various GPU lineups and are [available for Windows, Linux, Solaris, and FreeBSD](https://www.nvidia.com/Download/index.aspx).

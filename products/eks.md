@@ -1,53 +1,53 @@
 ---
 title: Amazon EKS
-layout: post
 category: service
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-__RELEASE_CYCLE__"
 
 releases:
-  - releaseCycle: "1.22"
+-   releaseCycle: "1.22"
     eol: 2023-05-01
-    release: 2022-04-04
     latest: "1.22.6"
-  - releaseCycle: "1.21"
+    releaseDate: 2022-04-04
+-   releaseCycle: "1.21"
     eol: 2023-02-01
-    release: 2021-07-19
     latest: "1.21.9"
-  - releaseCycle: "1.20"
+    releaseDate: 2021-07-19
+-   releaseCycle: "1.20"
     eol: 2022-09-01
-    release: 2021-05-18
     latest: "1.20.15"
-  - releaseCycle: "1.19"
+    releaseDate: 2021-05-18
+-   releaseCycle: "1.19"
     eol: 2022-06-30
-    release: 2021-02-16
     latest: "1.19.16"
-  - releaseCycle: "1.18"
+    releaseDate: 2021-02-16
+-   releaseCycle: "1.18"
     eol: 2022-03-31
-    release: 2020-10-13
     latest: "1.18.16"
-  - releaseCycle: "1.17"
+    releaseDate: 2020-10-13
+-   releaseCycle: "1.17"
     eol: 2021-11-02
-    release: 2020-07-10
     latest: "1.17.17"
-  - releaseCycle: "1.16"
+    releaseDate: 2020-07-10
+-   releaseCycle: "1.16"
     eol: 2021-09-27
-    release: 2020-04-30
     latest: "1.16.15"
 
+    releaseDate: 2020-04-30
 iconSlug: kubernetes
 
 permalink: /amazon-eks
 alternate_urls:
-  - /eks
-  - /amazon-eks
-  - /amazon-elastic-kubernetes-service
+-   /eks
+-   /amazon-eks
+-   /amazon-elastic-kubernetes-service
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: End of Support
 command: eksctl get cluster --name=cluster-name
+
 ---
 
 > [Amazon Elastic Kubernetes Service (Amazon EKS)](http://aws.amazon.com/eks/) is a managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes. EKS runs upstream Kubernetes and is certified Kubernetes conformant for a predictable experience.

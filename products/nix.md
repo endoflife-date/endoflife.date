@@ -1,6 +1,5 @@
 ---
 title: nix
-layout: post
 category: app
 iconSlug: nixos
 permalink: /nix
@@ -18,54 +17,54 @@ releaseDateColumn: true
 releases:
 -   releaseCycle: "2.8"
     latest: "2.8.1"
-    release: 2022-04-19
     eol: false
     latestReleaseDate: 2022-05-14
+    releaseDate: 2022-04-19
 -   releaseCycle: "2.7"
     latest: "2.7.0"
-    release: 2022-03-07
     eol: false
     latestReleaseDate: 2022-03-07
+    releaseDate: 2022-03-07
 -   releaseCycle: "2.6"
     latest: "2.6.1"
-    release: 2022-01-25
     eol: true
     latestReleaseDate: 2022-02-17
+    releaseDate: 2022-01-25
 -   releaseCycle: "2.5"
     latest: "2.5.1"
-    release: 2021-12-13
     eol: true
     latestReleaseDate: 2021-12-17
+    releaseDate: 2021-12-13
 -   releaseCycle: "2.4"
     latest: "2.4"
-    release: 2021-11-01
     eol: true
     latestReleaseDate: 2021-11-01
+    releaseDate: 2021-11-01
 -   releaseCycle: "2.3"
     latest: "2.3.16"
-    release: 2019-09-04
     eol: false
     latestReleaseDate: 2021-10-07
+    releaseDate: 2019-09-04
 -   releaseCycle: "2.2"
     latest: "2.2.2"
-    release: 2019-01-11
     eol: true
     latestReleaseDate: 2019-04-15
+    releaseDate: 2019-01-11
 -   releaseCycle: "2.1"
     latest: "2.1.3"
-    release: 2018-09-03
     eol: true
     latestReleaseDate: 2018-10-02
+    releaseDate: 2018-09-03
 -   releaseCycle: "2.0"
     latest: "2.0.4"
-    release: 2018-02-22
     eol: true
     latestReleaseDate: 2018-05-31
+    releaseDate: 2018-02-22
 -   releaseCycle: "1"
     latest: "1.11.16"
-    release: 2012-05-11
     eol: true
     latestReleaseDate: 2017-12-20
+    releaseDate: 2012-05-11
 
 ---
 

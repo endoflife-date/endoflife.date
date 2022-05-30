@@ -1,21 +1,20 @@
 ---
 permalink: /almalinux
-layout: post
 title: AlmaLinux
 category: os
 command: lsb_release --release
 releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 iconSlug: NA
 releases:
-  - releaseCycle: "8"
-    release: 2019-05-01
+-   releaseCycle: "8"
     support: 2024-05-01
     eol: 2029-03-01
     latest: "8.6"
     link: https://mirrors.almalinux.org/isos.html
+    releaseDate: 2019-05-01
 
 ---
 

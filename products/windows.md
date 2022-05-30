@@ -1,6 +1,5 @@
 ---
 title: Windows
-layout: post
 permalink: /windows
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows
 category: os
@@ -8,150 +7,148 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 command: winver
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releases:
-  - releaseCycle: "Windows 10, version 21H2 (E)"
+-   releaseCycle: "Windows 10, version 21H2 (E)"
     cycleShortHand: 10.0.19044
-    release: 2021-11-16
     support: 2024-06-11
     eol: 2024-06-11
-  - releaseCycle: "Windows 10, version 21H2 (W)"
+    releaseDate: 2021-11-16
+-   releaseCycle: "Windows 10, version 21H2 (W)"
     cycleShortHand: 10.0.19044
-    release: 2021-11-16
     support: 2023-06-13
     eol: 2023-06-13
-  - releaseCycle: "Windows 11, version 21H2 (E)"
+    releaseDate: 2021-11-16
+-   releaseCycle: "Windows 11, version 21H2 (E)"
     cycleShortHand: 10.0.22000
-    release: 2021-10-04
     support: 2024-10-08
     eol: 2024-10-08
-  - releaseCycle: "Windows 11, version 21H2 (W)"
+    releaseDate: 2021-10-04
+-   releaseCycle: "Windows 11, version 21H2 (W)"
     cycleShortHand: 10.0.22000
-    release: 2021-10-04
     support: 2023-10-10
     eol: 2023-10-10
-  - releaseCycle: "Windows 10, version 21H1 (E)(W)"
+    releaseDate: 2021-10-04
+-   releaseCycle: "Windows 10, version 21H1 (E)(W)"
     cycleShortHand: 10.0.19043
-    release: 2021-05-18
     support: 2022-12-13
     eol: 2022-12-13
-  - releaseCycle: "Windows 10, version 20H2 (E)"
+    releaseDate: 2021-05-18
+-   releaseCycle: "Windows 10, version 20H2 (E)"
     cycleShortHand: 10.0.19042
-    release: 2020-10-20
     support: 2023-05-09
     eol: 2023-05-09
-  - releaseCycle: "Windows 10, version 20H2 (W)"
+    releaseDate: 2020-10-20
+-   releaseCycle: "Windows 10, version 20H2 (W)"
     cycleShortHand: 10.0.19042
-    release: 2020-10-20
     support: 2022-05-10
     eol: 2022-05-10
-  - releaseCycle: "Windows 10, version 2004 (E)(W)"
+    releaseDate: 2020-10-20
+-   releaseCycle: "Windows 10, version 2004 (E)(W)"
     cycleShortHand: 10.0.19041
-    release: 2020-05-27
     support: 2021-12-14
     eol: 2021-12-14
-  - releaseCycle: "Windows 10, version 1909 (E)"
+    releaseDate: 2020-05-27
+-   releaseCycle: "Windows 10, version 1909 (E)"
     cycleShortHand: 10.0.18363
-    release: 2019-11-12
     support: 2022-05-10
     eol: 2022-05-10
-  - releaseCycle: "Windows 10, version 1909 (W)"
+    releaseDate: 2019-11-12
+-   releaseCycle: "Windows 10, version 1909 (W)"
     cycleShortHand: 10.0.18363
-    release: 2019-11-12
     support: 2021-05-11
     eol: 2021-05-11
-  - releaseCycle: "Windows 10, version 1903 (E)(W)"
+    releaseDate: 2019-11-12
+-   releaseCycle: "Windows 10, version 1903 (E)(W)"
     cycleShortHand: 10.0.18362
-    release: 2019-08-29
     support: 2020-12-08
     eol: 2020-12-08
-  - releaseCycle: "Windows 10, version 1809 (E)"
+    releaseDate: 2019-08-29
+-   releaseCycle: "Windows 10, version 1809 (E)"
     cycleShortHand: 10.0.17763
-    release: 2018-11-13
     support: 2021-05-11
     eol: 2021-05-11
-  - releaseCycle: "Windows 10, version 1809 (W)"
+    releaseDate: 2018-11-13
+-   releaseCycle: "Windows 10, version 1809 (W)"
     cycleShortHand: 10.0.17763
-    release: 2018-11-13
     support: 2020-11-10
     eol: 2020-11-10
-  - releaseCycle: "Windows 10, version 1803 (E)"
+    releaseDate: 2018-11-13
+-   releaseCycle: "Windows 10, version 1803 (E)"
     cycleShortHand: 10.0.17134
-    release: 2018-04-30
     support: 2020-05-11
     eol: 2021-05-11
-  - releaseCycle: "Windows 10, version 1803 (W)"
+    releaseDate: 2018-04-30
+-   releaseCycle: "Windows 10, version 1803 (W)"
     cycleShortHand: 10.0.17134
-    release: 2018-04-30
     support: 2019-11-12
     eol: 2020-05-11
-  - releaseCycle: "Windows 10, version 1709 (E)"
+    releaseDate: 2018-04-30
+-   releaseCycle: "Windows 10, version 1709 (E)"
     cycleShortHand: 10.0.16299
-    release: 2017-10-17
     support: 2020-10-13
     eol: 2020-09-13
-  - releaseCycle: "Windows 10, version 1709 (W)"
+    releaseDate: 2017-10-17
+-   releaseCycle: "Windows 10, version 1709 (W)"
     cycleShortHand: 10.0.16299
-    release: 2017-10-17
     support: 2019-04-09
     eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1703 (E)"
+    releaseDate: 2017-10-17
+-   releaseCycle: "Windows 10, version 1703 (E)"
     cycleShortHand: 10.0.15063
-    release: 2017-04-11
     support: 2019-10-08
     eol: 2019-10-08
-  - releaseCycle: "Windows 10, version 1703 (W)"
+    releaseDate: 2017-04-11
+-   releaseCycle: "Windows 10, version 1703 (W)"
     cycleShortHand: 10.0.15063
-    release: 2017-04-11
     support: 2018-10-09
     eol: 2018-10-09
-  - releaseCycle: "Windows 10, version 1607 (E)"
+    releaseDate: 2017-04-11
+-   releaseCycle: "Windows 10, version 1607 (E)"
     cycleShortHand: 10.0.14393
-    release: 2016-08-02
     support: 2019-04-09
     eol: 2019-04-09
-  - releaseCycle: "Windows 10, version 1607 (W)"
+    releaseDate: 2016-08-02
+-   releaseCycle: "Windows 10, version 1607 (W)"
     cycleShortHand: 10.0.14393
-    release: 2016-08-02
     support: 2018-04-10
     eol: 2018-04-10
-  - releaseCycle: "Windows 10, version 1511 (E)(W)"
+    releaseDate: 2016-08-02
+-   releaseCycle: "Windows 10, version 1511 (E)(W)"
     cycleShortHand: 10.0.10586
-    release: 2015-11-10
     support: 2017-10-10
     eol: 2017-10-10
-  - releaseCycle: "Windows 10, version 1507 (E)(W)"
+    releaseDate: 2015-11-10
+-   releaseCycle: "Windows 10, version 1507 (E)(W)"
     cycleShortHand: 10.0.10240
-    release: 2015-07-29
     support: 2017-05-09
     eol: 2017-05-09
-  - releaseCycle: "Windows 8.1"
+    releaseDate: 2015-07-29
+-   releaseCycle: "Windows 8.1"
     cycleShortHand: 6.3.9600
-    release: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
-  - releaseCycle: "Windows 8"
-    cycleShortHand: 6.2.9200 
-    release: 2012-10-30
+    releaseDate: 2013-11-13
+-   releaseCycle: "Windows 8"
+    cycleShortHand: 6.2.9200
     support: 2016-01-12
     eol: 2016-01-12
-  - releaseCycle: "Windows 7 SP1"
+    releaseDate: 2012-10-30
+-   releaseCycle: "Windows 7 SP1"
     cycleShortHand: 6.1.7601
-    release: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
-  - releaseCycle: "Windows Vista SP2"
+    releaseDate: 2011-02-22
+-   releaseCycle: "Windows Vista SP2"
     cycleShortHand: 6.0.6200
-    release: 2009-04-29
     support: 2012-04-10
     eol: 2017-04-11
-  - releaseCycle: "Windows XP SP3"
+    releaseDate: 2009-04-29
+-   releaseCycle: "Windows XP SP3"
     cycleShortHand: 5.1.2600
-    release: 2008-04-21
     support: 2009-04-14
     eol: 2014-04-08
-
-
+    releaseDate: 2008-04-21
 
 ---
 

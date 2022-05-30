@@ -1,6 +1,5 @@
 ---
 title: Vue
-layout: post
 permalink: /vue
 alternate_urls:
 -   /vuejs
@@ -16,26 +15,26 @@ auto:
 -   git: https://github.com/vuejs/vue.git
 releases:
 -   releaseCycle: "3"
-    release: 2020-09-18
     support: true
     eol: false
     latest: "3.2.36"
     lts: false
     latestReleaseDate: 2022-05-23
+    releaseDate: 2020-09-18
 -   releaseCycle: "2"
-    release: 2016-09-30
     support: 2022-03-18
     eol: 2023-09-23
     latest: "2.6.14"
     lts: false
     latestReleaseDate: 2021-06-07
+    releaseDate: 2016-09-30
 -   releaseCycle: "1"
-    release: 2015-10-26
     support: false
     eol: true
     latest: "1.0.28"
     lts: false
     latestReleaseDate: 2016-09-27
+    releaseDate: 2015-10-26
 
 ---
 

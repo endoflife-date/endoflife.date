@@ -1,6 +1,5 @@
 ---
 permalink: /debian
-layout: post
 title: Debian
 command: cat /etc/os-release
 category: os
@@ -8,49 +7,50 @@ releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 releases:
-  - releaseCycle: "11"
+-   releaseCycle: "11"
     codename: "Bullseye"
-    release: 2021-08-14
     eol: 2026-08-15
     latest: "11.3"
     link: https://www.debian.org/News/2022/20220326
-  - releaseCycle: "10"
+    releaseDate: 2021-08-14
+-   releaseCycle: "10"
     codename: "Buster"
-    release: 2019-07-06
     eol: 2024-06-01
     latest: "10.12"
     link: https://www.debian.org/News/2022/2022032602
-  - releaseCycle: "9"
+    releaseDate: 2019-07-06
+-   releaseCycle: "9"
     codename: "Stretch"
-    release: 2017-06-17
     eol: 2022-06-30
     lts: true
     latest: "9.13"
     link: https://lists.debian.org/debian-announce/2020/msg00004.html
-  - releaseCycle: "8"
+    releaseDate: 2017-06-17
+-   releaseCycle: "8"
     codename: "Jessie"
-    release: 2015-04-26
     eol: 2020-06-30
     lts: true
     latest: "8.11"
     link: https://www.debian.org/News/2015/20150426
-  - releaseCycle: "7"
+    releaseDate: 2015-04-26
+-   releaseCycle: "7"
     codename: "Wheezy"
-    release: 2013-05-04
     eol: 2018-05-31
     lts: true
     latest: "7.11"
     link: https://www.debian.org/News/2013/20130504
-  - releaseCycle: "6"
+    releaseDate: 2013-05-04
+-   releaseCycle: "6"
     codename: "Squeeze"
-    release: 2011-02-06
     eol: 2016-02-29
     lts: true
     latest: "6.0.10"
     link: https://www.debian.org/News/2011/20110205a
+    releaseDate: 2011-02-06
+
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable branch is the most popular edition for personal computers and network servers, and is used as the basis for many other Linux distributions.

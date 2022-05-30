@@ -1,6 +1,5 @@
 ---
 permalink: /linuxmint
-layout: post
 title: Linux Mint
 command: cat /etc/linuxmint/info
 category: os
@@ -12,94 +11,95 @@ sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 
-  - releaseCycle: "lmde4"
+-   releaseCycle: "lmde4"
     releaseLabel: "LMDE 4"
-    release: 2020-03-20
     support: true
-    eol:     false
+    eol: false
     latest: "4"
     link: https://linuxmint.com/rel_debbie.php
-    
-  - releaseCycle: "20.3"
+
+    releaseDate: 2020-03-20
+-   releaseCycle: "20.3"
     codename: Una
     lts: true
-    release: 2022-01-07
     support: true
-    eol:     2025-04-01
+    eol: 2025-04-01
     latest: "20.3"
     link: https://linuxmint.com/edition.php?id=292
 
-  - releaseCycle: "20.2"
+    releaseDate: 2022-01-07
+-   releaseCycle: "20.2"
     codename: Uma
     lts: true
-    release: 2021-07-08
     support: true
-    eol:     2025-04-01
+    eol: 2025-04-01
     latest: "20.2"
     link: https://linuxmint.com/edition.php?id=288
-    
-  - releaseCycle: "20.1"
+
+    releaseDate: 2021-07-08
+-   releaseCycle: "20.1"
     codename: Ulyssa
     lts: true
-    release: 2021-01-08
     support: false
-    eol:     2025-04-01
+    eol: 2025-04-01
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
-    
-  - releaseCycle: "20"
+
+    releaseDate: 2021-01-08
+-   releaseCycle: "20"
     codename: Ulyana
     lts: true
-    release: 2020-06-27
     support: false
-    eol:     2025-04-01
+    eol: 2025-04-01
     latest: "20"
     link: https://blog.linuxmint.com/?p=3928
-   
-  - releaseCycle: "19.3"
+
+    releaseDate: 2020-06-27
+-   releaseCycle: "19.3"
     codename: Tricia
     lts: true
-    release: 2019-12-18
     support: false
-    eol:     2023-04-01
+    eol: 2023-04-01
     latest: "19.3"
     link: https://blog.linuxmint.com/?p=3832
-    
-  - releaseCycle: "19.2"
+
+    releaseDate: 2019-12-18
+-   releaseCycle: "19.2"
     codename: Tina
     lts: true
-    release: 2019-08-02
     support: false
-    eol:     2023-04-01
+    eol: 2023-04-01
     latest: "19.2"
     link: https://blog.linuxmint.com/?p=3786
-    
-  - releaseCycle: "19.1"
+
+    releaseDate: 2019-08-02
+-   releaseCycle: "19.1"
     codename: Tessa
     lts: true
-    release: 2018-12-19
     support: false
-    eol:     2023-04-01
+    eol: 2023-04-01
     latest: "19.1"
     link: https://blog.linuxmint.com/?p=3669
 
-  - releaseCycle: "19"
+    releaseDate: 2018-12-19
+-   releaseCycle: "19"
     codename: Tara
     lts: true
-    release: 2018-06-29
     support: false
-    eol:     2023-04-01
+    eol: 2023-04-01
     latest: "19"
     link: https://blog.linuxmint.com/?p=3597
 
-  - releaseCycle: "18.3"
+    releaseDate: 2018-06-29
+-   releaseCycle: "18.3"
     codename: Sylvia
     lts: true
-    release: 2017-11-27
     support: false
-    eol:     2021-05-03
+    eol: 2021-05-03
     latest: "18.3"
     link: https://blog.linuxmint.com/?p=3457
+    releaseDate: 2017-11-27
+
 ---
 
 >[Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution for desktop and laptop computers based on Debian and Ubuntu, bundled with a variety of free and open-source applications. It has an Ubuntu-based release simply named Linux Mint, and a Debian-based release called LMDE (Linux Mint Debian Edition).
@@ -119,3 +119,4 @@ Linux Mint releases follows [the support cycle](https://linuxmint.com/download_a
 * 18.3 'Sylvia' is the last Linux Mint release to support KDE.
 
 [lmde]: https://www.linuxmint.com/download_lmde.php
+com/download_lmde.php

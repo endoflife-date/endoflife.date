@@ -1,7 +1,6 @@
 ---
 permalink: /fedora
 title: Fedora Linux
-layout: post
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
@@ -15,50 +14,50 @@ auto:
 category: os
 releases:
 -   releaseCycle: "36"
-    release: 2022-05-13
     latest: "36"
     eol: 2023-05-16
     latestReleaseDate: 2022-05-13
+    releaseDate: 2022-05-13
 -   releaseCycle: "35"
-    release: 2022-03-20
     latest: "35"
     eol: 2022-11-15
     latestReleaseDate: 2022-03-20
+    releaseDate: 2022-03-20
 -   releaseCycle: "34"
-    release: 2022-03-20
     latest: "34"
     eol: 2022-06-07
     latestReleaseDate: 2022-03-20
+    releaseDate: 2022-03-20
 -   releaseCycle: "33"
-    release: 2021-11-29
     latest: "33"
     eol: 2021-11-30
     latestReleaseDate: 2021-11-29
+    releaseDate: 2021-11-29
 -   releaseCycle: "32"
-    release: 2021-07-23
     latest: "32"
     eol: 2021-05-25
     latestReleaseDate: 2021-07-23
+    releaseDate: 2021-07-23
 -   releaseCycle: "31"
-    release: 2021-04-01
     latest: "31"
     eol: 2020-11-30
     latestReleaseDate: 2021-04-01
+    releaseDate: 2021-04-01
 -   releaseCycle: "30"
-    release: 2020-02-21
     latest: "30"
     eol: 2020-05-26
     latestReleaseDate: 2020-02-21
+    releaseDate: 2020-02-21
 -   releaseCycle: "29"
-    release: 2019-06-05
     latest: "29"
     eol: 2019-11-26
     latestReleaseDate: 2019-06-05
+    releaseDate: 2019-06-05
 -   releaseCycle: "28"
-    release: 2019-06-05
     latest: "28"
     eol: 2019-05-28
     latestReleaseDate: 2019-06-05
+    releaseDate: 2019-06-05
 
 ---
 

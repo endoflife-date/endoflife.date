@@ -1,46 +1,45 @@
 ---
 title: Red Hat Enterprise Linux
-layout: post
 permalink: /rhel
 category: os
 iconSlug: redhat
 alternate_urls:
-  - /redhat
-  - /redhatlinux
+-   /redhat
+-   /redhatlinux
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releaseLabel: "RHEL __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "9"
-    release: 2022-05-18
+-   releaseCycle: "9"
     support: 2027-05-31
     eol: 2032-05-31
     latest: "9.0"
-  - releaseCycle: "8"
-    release: 2019-05-01
+    releaseDate: 2022-05-18
+-   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
     latest: "8.6"
-  - releaseCycle: "7"
-    release: 2014-06-10
+    releaseDate: 2019-05-01
+-   releaseCycle: "7"
     support: 2019-12-31
     eol: 2024-06-30
     latest: "7.9"
-  - releaseCycle: "6"
-    release: 2010-11-10
+    releaseDate: 2014-06-10
+-   releaseCycle: "6"
     support: 2016-05-10
     eol: 2020-11-30
-  - releaseCycle: "5"
-    release: 2007-03-15
+    releaseDate: 2010-11-10
+-   releaseCycle: "5"
     support: 2013-01-08
     eol: 2017-03-31
-  - releaseCycle: "4"
-    release: 2005-02-14
+    releaseDate: 2007-03-15
+-   releaseCycle: "4"
     support: 2009-03-31
     eol: 2012-02-29
+    releaseDate: 2005-02-14
 
 ---
 

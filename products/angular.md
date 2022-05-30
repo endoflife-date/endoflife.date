@@ -1,51 +1,50 @@
 ---
 permalink: /angular
-layout: post
 title: Angular
 command: ng version
 releasePolicyLink: https://angular.io/guide/releases
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 auto:
 -   git: https://github.com/angular/angular.git
 releases:
 -   releaseCycle: "13"
-    release: 2021-11-03
     support: 2022-05-04
     eol: 2023-05-04
     latest: "13.3.10"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-11-03
 -   releaseCycle: "12"
     lts: true
-    release: 2021-05-13
     support: 2021-11-12
     eol: 2022-11-12
     latest: "12.2.16"
     latestReleaseDate: 2022-01-26
+    releaseDate: 2021-05-13
 -   releaseCycle: "11"
     lts: true
-    release: 2020-11-11
     support: 2021-05-11
     eol: 2022-05-11
     latest: "11.2.14"
     latestReleaseDate: 2021-05-12
+    releaseDate: 2020-11-11
 -   releaseCycle: "10"
     lts: true
-    release: 2020-06-24
     support: 2020-12-24
     eol: 2021-12-24
     latest: "10.2.5"
     latestReleaseDate: 2021-04-21
+    releaseDate: 2020-06-24
 -   releaseCycle: "9"
     lts: true
-    release: 2020-02-06
     support: 2020-08-06
     eol: 2021-08-06
     latest: "9.1.13"
 
     latestReleaseDate: 2020-12-16
+    releaseDate: 2020-02-06
 
 ---
 

@@ -1,46 +1,45 @@
 ---
 title: SUSE Linux Enterprise Server
-layout: post
 category: os
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/__CYCLE_SHORT_HAND__/
 releaseLabel: "SUSE Linux Enterprise Server __RELEASE_CYCLE__"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
-  - releaseCycle: "15"
-    release: 2018-07-15
+-   releaseCycle: "15"
     support: 2028-07-31
     eol: 2031-07-31
     latest: "SLES 15 SP 3"
     cycleShortHand: 15-SP3
-  - releaseCycle: "12"
-    release: 2014-10-27
+    releaseDate: 2018-07-15
+-   releaseCycle: "12"
     support: 2024-10-31
     eol: 2027-10-31
     latest: "SLES 12 SP5"
     cycleShortHand: 12-SP5
-  - releaseCycle: "11"
-    release: 2009-03-23
+    releaseDate: 2014-10-27
+-   releaseCycle: "11"
     support: 2019-03-31
     eol: 2022-03-31
     latest: "SLES 11 SP4"
     cycleShortHand: 11-SP4
-  - releaseCycle: "10"
-    release: 2006-07-17
+    releaseDate: 2009-03-23
+-   releaseCycle: "10"
     support: 2013-07-31
     eol: 2016-07-31
     latest: "SLES 10 SP4"
     cycleShortHand: 10-SP4
 
+    releaseDate: 2006-07-17
 iconSlug: suse
 
 # URL for the page
 permalink: /sles
 alternate_urls:
-  - /suseenterpriseserver
-  - /suseserver
-  - /suselinuxenterprisesever
+-   /suseenterpriseserver
+-   /suseserver
+-   /suselinuxenterprisesever
 # More information link. This link should contain
 # information about the release policy and schedule
 releasePolicyLink: https://www.suse.com/lifecycle

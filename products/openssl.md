@@ -1,6 +1,5 @@
 ---
 title: OpenSSL
-layout: post
 category: framework
 iconSlug: openssl
 permalink: /openssl
@@ -13,26 +12,25 @@ command: openssl version
 releaseDateColumn: true
 sortReleasesBy: releaseCycle
 releases:
-  - releaseCycle: "3.0"
+-   releaseCycle: "3.0"
     eol: 2026-09-07
-    release: 2021-09-07
     latest: "3.0.3"
     lts: true
-  - releaseCycle: "1.1.1"
+    releaseDate: 2021-09-07
+-   releaseCycle: "1.1.1"
     eol: 2023-09-11
-    release: 2018-09-11
     latest: "1.1.1o"
     lts: true
-  - releaseCycle: "1.1.0"
+    releaseDate: 2018-09-11
+-   releaseCycle: "1.1.0"
     eol: 2019-09-11
-    release: 2016-08-26
     latest: "1.1.0l"
-  - releaseCycle: "1.0.2"
+    releaseDate: 2016-08-26
+-   releaseCycle: "1.0.2"
     eol: 2019-12-31
-    release: 2015-01-22
     latest: "1.0.2u"
     lts: true
-
+    releaseDate: 2015-01-22
 
 ---
 

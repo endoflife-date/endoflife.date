@@ -1,9 +1,8 @@
 ---
 permalink: /java
 alternate_urls:
-  - /openjdk
-  - /jdk
-layout: post
+-   /openjdk
+-   /jdk
 title: Java/OpenJDK
 category: lang
 command: java -version
@@ -12,74 +11,75 @@ releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadm
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
-  - releaseCycle: "18"
-    release: 2022-03-22
+-   releaseCycle: "18"
     support: 2022-09-30
     eol: 2022-09-30
     latest: "18.0.1"
-  - releaseCycle: "17"
+    releaseDate: 2022-03-22
+-   releaseCycle: "17"
     lts: true
-    release: 2021-09-14
     support: 2026-09-30
     eol: 2031-09-30
     latest: "17.0.3"
-  - releaseCycle: "16"
-    release: 2021-03-16
+    releaseDate: 2021-09-14
+-   releaseCycle: "16"
     support: 2021-09-30
     eol: 2021-09-30
     latest: "16.0.2"
-  - releaseCycle: "15"
-    release: 2020-09-16
+    releaseDate: 2021-03-16
+-   releaseCycle: "15"
     support: 2021-03-31
     eol: 2021-03-31
     latest: "15.0.2"
-  - releaseCycle: "14"
-    release: 2020-03-17
+    releaseDate: 2020-09-16
+-   releaseCycle: "14"
     support: 2020-09-30
     eol: 2020-09-30
     latest: "14.0.2"
-  - releaseCycle: "13"
-    release: 2019-09-17
+    releaseDate: 2020-03-17
+-   releaseCycle: "13"
     support: 2020-03-31
     eol: 2020-03-31
     latest: "13.0.2"
-  - releaseCycle: "12"
-    release: 2019-03-19
+    releaseDate: 2019-09-17
+-   releaseCycle: "12"
     support: 2019-09-30
     eol: 2019-09-30
     latest: "12.0.2"
-  - releaseCycle: "11"
+    releaseDate: 2019-03-19
+-   releaseCycle: "11"
     lts: true
-    release: 2018-09-25
     support: 2023-09-30
     eol: 2026-09-30
     latest: "11.0.15"
-  - releaseCycle: "10"
-    release: 2018-03-20
+    releaseDate: 2018-09-25
+-   releaseCycle: "10"
     support: 2018-09-25
     eol: 2018-09-25
     latest: "10.0.2"
-  - releaseCycle: "9"
-    release: 2017-09-21
+    releaseDate: 2018-03-20
+-   releaseCycle: "9"
     support: 2018-03-20
     eol: 2018-03-20
     latest: "9.0.4"
-  - releaseCycle: "8"
+    releaseDate: 2017-09-21
+-   releaseCycle: "8"
     lts: true
-    release: 2014-03-18
     support: 2022-03-31
     eol: 2025-03-31
     latest: "8u331"
-  - releaseCycle: "7"
-    release: 2011-07-07
+    releaseDate: 2014-03-18
+-   releaseCycle: "7"
     support: 2019-07-31
     eol: 2019-07-01
     latest: "7u341"
-  - releaseCycle: "6"
-    release: 2006-12-11
+    releaseDate: 2011-07-07
+-   releaseCycle: "6"
     support: 2015-12-31
     eol: 2018-12-31
     latest: "6u211"
+    releaseDate: 2006-12-11
+
 ---
 
 > [Java](https://oracle.com/java/) is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.

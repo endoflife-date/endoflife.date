@@ -1,6 +1,5 @@
 ---
 permalink: /zabbix
-layout: post
 category: server-app
 title: Zabbix
 command: zabbix_server -V
@@ -20,32 +19,32 @@ releases:
 #    support: 2022-11-30
 #    eol:     2022-12-31
 -   releaseCycle: "6.0"
-    release: 2022-02-14
     support: 2025-02-28
     eol: 2027-02-28
     lts: true
     latest: "6.0.4"
     latestReleaseDate: 2022-05-03
+    releaseDate: 2022-02-14
 -   releaseCycle: "5.4"
-    release: 2021-05-17
     support: 2022-02-28
     eol: 2022-03-31
     latest: "5.4.12"
+    releaseDate: 2021-05-17
 -   releaseCycle: "5.0"
-    release: 2020-05-11
     support: 2023-05-31
     eol: 2025-05-31
     lts: true
     latest: "5.0.23"
     latestReleaseDate: 2022-05-02
+    releaseDate: 2020-05-11
 -   releaseCycle: "4.0"
-    release: 2018-10-01
     support: 2021-10-31
     eol: 2023-10-31
     lts: true
     latest: "4.0.40"
 
     latestReleaseDate: 2022-05-02
+    releaseDate: 2018-10-01
 
 ---
 

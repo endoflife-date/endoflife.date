@@ -4,7 +4,6 @@ permalink: /godot
 category: app
 alternate_urls:
 -   /godotengine
-layout: post
 iconSlug: godotengine
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
@@ -19,59 +18,59 @@ auto:
     template: "{{version}}"
 releases:
 -   releaseCycle: "3.4"
-    release: 2021-11-05
     support: true
     eol: false
     latest: "3.4.4"
     link: https://godotengine.org/article/maintenance-release-godot-3-4-2
     latestReleaseDate: 2022-03-22
+    releaseDate: 2021-11-05
 -   releaseCycle: "3.3"
-    release: 2021-04-21
     support: true
     eol: false
     latest: "3.3.4"
     latestReleaseDate: 2021-10-01
+    releaseDate: 2021-04-21
 -   releaseCycle: "3.2"
-    release: 2020-01-29
     support: false
     eol: true
     latest: "3.2.3"
     latestReleaseDate: 2020-09-16
+    releaseDate: 2020-01-29
 -   releaseCycle: "3.1"
-    release: 2019-03-13
     support: false
     eol: false
     latest: "3.1.2"
     latestReleaseDate: 2019-12-03
+    releaseDate: 2019-03-13
 -   releaseCycle: "3.0"
-    release: 2018-01-29
     support: false
     eol: true
     latest: "3.0.6"
     latestReleaseDate: 2018-07-31
+    releaseDate: 2018-01-29
 -   releaseCycle: "2.1"
-    release: 2016-08-09
     eol: false
     support: false
     latest: "2.1.6"
     lts: true
     latestReleaseDate: 2019-07-08
+    releaseDate: 2016-08-09
 -   releaseCycle: "2.0"
-    release: 2016-02-22
     eol: true
     support: false
     latest: "2.0.4.1"
     lts: false
     link: https://godotengine.org/article/maintenance-release-godot-2-0-4
     latestReleaseDate: 2016-07-10
+    releaseDate: 2016-02-22
 -   releaseCycle: "1.0"
-    release: 2014-12-15
     eol: true
     support: false
     latest: "1.0"
 
 
     latestReleaseDate: 2014-12-15
+    releaseDate: 2014-12-15
 
 ---
 

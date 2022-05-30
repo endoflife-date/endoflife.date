@@ -4,7 +4,6 @@ permalink: /emberjs
 iconSlug: emberdotjs
 alternate_urls:
 -   /ember
-layout: post
 category: framework
 sortReleasesBy: 'releaseCycle'
 releasePolicyLink: https://emberjs.com/releases
@@ -15,26 +14,26 @@ auto:
 -   git: https://github.com/emberjs/ember.js.git
 releases:
 -   releaseCycle: "4"
-    release: 2021-11-15
     support: true
     eol: false
     latest: "4.4.0"
     latestReleaseDate: 2022-05-02
+    releaseDate: 2021-11-15
 -   releaseCycle: "3.28"
     lts: true
-    release: 2021-08-09
     support: 2022-08-29
     eol: 2023-01-02
     latest: "3.28.9"
     latestReleaseDate: 2022-04-19
+    releaseDate: 2021-08-09
 -   releaseCycle: "3.24"
     lts: true
-    release: 2020-12-28
     support: 2021-11-04
     eol: 2022-03-10
     latest: "3.24.6"
 
     latestReleaseDate: 2021-10-18
+    releaseDate: 2020-12-28
 
 ---
 

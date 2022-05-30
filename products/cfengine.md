@@ -1,6 +1,5 @@
 ---
 title: CFEngine
-layout: post
 command: cf-agent --version
 changelogTemplate: https://github.com/cfengine/core/blob/__RELEASE_CYCLE__.x/ChangeLog
 releaseDateColumn: true
@@ -12,34 +11,34 @@ permalink: /cfengine
 releasePolicyLink: https://cfengine.com
 
 releases:
-  - releaseCycle: "3.19"
-    release: 2021-12-10
+-   releaseCycle: "3.19"
     latest: "3.19.0"
     eol: false
     support: true
     link: https://github.com/cfengine/core/blob/3.19.0/ChangeLog
-  - releaseCycle: "3.18"
-    release: 2021-06-24
+    releaseDate: 2021-12-10
+-   releaseCycle: "3.18"
     lts: true
     latest: "3.18.1"
     support: 2023-06-24
     eol: false
-  - releaseCycle: "3.17"
-    release: 2020-11-18
+    releaseDate: 2021-06-24
+-   releaseCycle: "3.17"
     latest: "3.17.0"
     eol: true
     support: false
-  - releaseCycle: "3.16"
-    release: 2020-06-25
+    releaseDate: 2020-11-18
+-   releaseCycle: "3.16"
     latest: "3.16.0"
     support: false
     eol: true
-  - releaseCycle: "3.15"
-    release: 2019-12-18
+    releaseDate: 2020-06-25
+-   releaseCycle: "3.15"
     lts: true
     latest: "3.15.5"
     eol: false
     support: 2022-12-18
+    releaseDate: 2019-12-18
 
 ---
 
