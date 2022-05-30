@@ -9,7 +9,7 @@ category: db
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
 eolColumn: Support Status
-command: psql -c "SELECT version();"
+versionCommand: psql -c "SELECT version();"
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:

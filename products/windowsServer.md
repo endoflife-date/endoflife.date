@@ -5,7 +5,7 @@ iconSlug: windows
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Server
 category: os
 activeSupportColumn: true
-command: winver
+versionCommand: winver
 releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: releaseDate

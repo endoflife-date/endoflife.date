@@ -4,7 +4,7 @@ permalink: /api-platform
 iconSlug: "NA"
 releasePolicyLink: https://api-platform.com/docs/extra/releases/
 activeSupportColumn: true
-command: composer show api-platform/core | grep versions
+versionCommand: composer show api-platform/core | grep versions
 changelogTemplate: |
   https://github.com/api-platform/core/releases/tag/v__LATEST__
 releaseDateColumn: true

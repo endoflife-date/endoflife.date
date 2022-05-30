@@ -5,7 +5,7 @@ category: server-app
 releasePolicyLink: https://haproxy.org
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
-command: haproxy -v
+versionCommand: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
 auto:

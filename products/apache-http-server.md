@@ -7,7 +7,7 @@ iconSlug: apache
 releasePolicyLink: https://httpd.apache.org/
 category: server-app
 activeSupportColumn: false
-command: httpd -v
+versionCommand: httpd -v
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"

@@ -5,7 +5,7 @@ category: framework
 releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
-command: composer show laravel/framework|grep versions
+versionCommand: composer show laravel/framework|grep versions
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:

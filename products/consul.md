@@ -10,7 +10,7 @@ auto:
 -   git: https://github.com/hashicorp/consul.git
 activeSupportColumn: false
 releaseDateColumn: true
-command: consul --version
+versionCommand: consul --version
 
 releases:
 -   releaseCycle: "1.12"

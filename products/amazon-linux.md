@@ -5,7 +5,7 @@ iconSlug: amazonaws
 category: os
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false
-command: cat /etc/system-release
+versionCommand: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: releaseDate

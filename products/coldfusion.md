@@ -9,7 +9,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Core Support
 sortReleasesBy: "releaseCycle"
-command: writeoutput(server.coldfusion.productversion);
+versionCommand: writeoutput(server.coldfusion.productversion);
 releaseLabel: "ColdFusion __RELEASE_CYCLE__"
 releases:
 -   releaseCycle: "2021"

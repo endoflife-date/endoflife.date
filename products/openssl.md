@@ -8,7 +8,7 @@ changelogTemplate: |
   https://www.openssl.org/news/changelog.html#openssl-{{"__RELEASE_CYCLE__" | replace:'.',''}}
 eolColumn: Supported
 activeSupportColumn: false
-command: openssl version
+versionCommand: openssl version
 releaseDateColumn: true
 sortReleasesBy: releaseCycle
 releases:

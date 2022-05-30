@@ -8,7 +8,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
 activeSupportColumn: false
 releaseDateColumn: true
-command: splunk --version
+versionCommand: splunk --version
 
 releases:
 -   releaseCycle: "8.2"

@@ -3,7 +3,7 @@ releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
 permalink: /qt
 category: framework
 title: Qt
-command: qmake --version
+versionCommand: qmake --version
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'

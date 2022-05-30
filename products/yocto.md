@@ -74,7 +74,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Support Status
 discontinuedColumn: false
-command: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
+versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 
 ---
 

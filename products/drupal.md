@@ -7,7 +7,7 @@ changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
-command: drush status
+versionCommand: drush status
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
 -   git: https://github.com/drupal/core.git

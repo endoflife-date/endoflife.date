@@ -6,7 +6,7 @@ releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.io/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
 releaseDateColumn: true
-command: python -c "import wagtail; print(wagtail.__version__)"
+versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 auto:
 -   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: releaseDate

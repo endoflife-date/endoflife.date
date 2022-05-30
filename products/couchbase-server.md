@@ -13,7 +13,7 @@ auto:
     regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 activeSupportColumn: false
 releaseDateColumn: true
-command: cat /opt/couchbase/VERSION.txt
+versionCommand: cat /opt/couchbase/VERSION.txt
 
 releases:
 -   releaseCycle: "7.0"

@@ -64,7 +64,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-Life
-command: "https://your-server-url/mediawiki/Special:Version"
+versionCommand: "https://your-server-url/mediawiki/Special:Version"
 
 
 

@@ -5,7 +5,7 @@ category: db
 releasePolicyLink: https://www.elastic.co/support/eol
 changelogTemplate: https://www.elastic.co/guide/en/elasticsearch/reference/__RELEASE_CYCLE__/release-notes-__LATEST__.html
 activeSupportColumn: false
-command: $ES_HOME/bin/elasticsearch -v
+versionCommand: $ES_HOME/bin/elasticsearch -v
 releaseDateColumn: false
 sortReleasesBy: 'cycleShortHand'
 auto:

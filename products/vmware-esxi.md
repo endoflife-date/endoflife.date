@@ -13,7 +13,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
 discontinuedColumn: false
-command: vmware -l
+versionCommand: vmware -l
 sortReleasesBy: "releaseCycle"
 
 releases:

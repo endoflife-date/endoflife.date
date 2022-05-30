@@ -49,7 +49,7 @@ permalink: /mysql
 releasePolicyLink: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 activeSupportColumn: false
 releaseDateColumn: true
-command: mysqld --version
+versionCommand: mysqld --version
 
 ---
 

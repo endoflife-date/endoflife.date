@@ -3,7 +3,7 @@ title: Symfony
 permalink: /symfony
 releasePolicyLink: https://symfony.com/roadmap
 activeSupportColumn: true
-command: composer show symfony/symfony | grep versions
+versionCommand: composer show symfony/symfony | grep versions
 changelogTemplate: |
   https://symfony.com/blog/symfony-{{"__LATEST__" | replace:'.','-'}}-released
 releaseDateColumn: true

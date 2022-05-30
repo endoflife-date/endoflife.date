@@ -44,7 +44,7 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Critical security patches
-command: perl -v
+versionCommand: perl -v
 
 ---
 

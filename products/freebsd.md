@@ -7,7 +7,7 @@ activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: false
 sortReleasesBy: cycleShortHand
-command: freebsd-version
+versionCommand: freebsd-version
 releases:
 -   releaseCycle: "stable/13"
     cycleShortHand: "13"

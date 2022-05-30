@@ -5,7 +5,7 @@ iconSlug: microsoftsqlserver
 category: db
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=SQL%20Server
 activeSupportColumn: true
-command: select @@version
+versionCommand: select @@version
 releaseDateColumn: true
 sortReleasesBy: 'latest'
 releases:

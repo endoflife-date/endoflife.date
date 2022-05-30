@@ -54,7 +54,7 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Service Status
-command: sw_vers
+versionCommand: sw_vers
 
 ---
 

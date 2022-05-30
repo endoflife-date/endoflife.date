@@ -31,7 +31,7 @@ permalink: /composer
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
-command: composer --version
+versionCommand: composer --version
 
 ---
 

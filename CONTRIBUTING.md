@@ -196,7 +196,7 @@ eolColumn: Service Status
 discontinuedColumn: false
 
 # Command that can be used to check the current version. (optional)
-command: swish and flick
+versionCommand: swish and flick
 
 # An image that shows a graphical representation of the releases.
 # This is not the product logo. Remove if you don't find a relevant image.

@@ -1,7 +1,7 @@
 ---
 permalink: /ubuntu
 title: Ubuntu
-command: lsb_release --release
+versionCommand: lsb_release --release
 category: os
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 changelogTemplate: |

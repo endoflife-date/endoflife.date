@@ -11,7 +11,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
-command: docker version --format '{{.Server.Version}}'
+versionCommand: docker version --format '{{.Server.Version}}'
 auto:
 -   git: https://github.com/moby/moby.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$

@@ -8,7 +8,7 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 activeSupportColumn: false
 releaseDateColumn: true
-command: nomad --version
+versionCommand: nomad --version
 auto:
 -   git: https://github.com/hashicorp/nomad.git
 releases:

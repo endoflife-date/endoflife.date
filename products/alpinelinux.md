@@ -8,7 +8,7 @@ releasePolicyLink: https://alpinelinux.org/releases/
 iconSlug: alpinelinux
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
-command: cat /etc/alpine-release
+versionCommand: cat /etc/alpine-release
 releaseDateColumn: true
 auto:
   # upstream does not support filtering https://git.alpinelinux.org/aports

@@ -21,7 +21,7 @@ auto:
     # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
     # Note: This will need to be edited when a new GA release is made in a new release cycle
     regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2})))$
-command: mysqld --version
+versionCommand: mysqld --version
 eolColumn: Support Status
 sortReleasesBy: 'releaseCycle'
 releases:

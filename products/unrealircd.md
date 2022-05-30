@@ -6,7 +6,7 @@ activeSupportColumn: true
 permalink: /unrealircd
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 releaseDateColumn: true
-command: ./unrealircd version
+versionCommand: ./unrealircd version
 changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'\
   \ | replace:'.',''}}"
 iconSlug: NA

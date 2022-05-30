@@ -8,7 +8,7 @@ changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes
 activeSupportColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-command: mongod --version
+versionCommand: mongod --version
 auto:
 -   git: https://github.com/mongodb/mongo.git
     regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$

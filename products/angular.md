@@ -1,7 +1,7 @@
 ---
 permalink: /angular
 title: Angular
-command: ng version
+versionCommand: ng version
 releasePolicyLink: https://angular.io/guide/releases
 activeSupportColumn: true
 releaseDateColumn: true
