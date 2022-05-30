@@ -232,7 +232,7 @@ nice to have. If you do provide such an image, here's some recommendations:
 - Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table for desktop users)
 
-Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
+Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions).
 
 [aks]: https://docs.microsoft.com/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 [eks]: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
