@@ -46,7 +46,7 @@ or +1 (EoL is in the future)
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
 {% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% if r.lts %} ({{LTSLabel}}){% endif %}{% endcapture %}
+{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
 
 {% capture releaseLink %}
 {% if r.link and diff > 0 %}
@@ -62,7 +62,7 @@ or +1 (EoL is in the future)
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
     {% if releaseLink != "" and page.releaseColumn == false %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText}}">{{releaseCycleText}}</a>
+      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText | strip_html}}">{{releaseCycleText}}</a>
     {% else %}
       {{releaseCycleText}}
     {% endif %}

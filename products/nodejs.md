@@ -17,49 +17,47 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "18"
-    lts: false
+    lts: 2022-10-25
     support: 2023-10-18
     eol: 2025-04-30
     latest: "18.2.0"
     latestReleaseDate: 2022-05-17
     releaseDate: 2022-04-19
 -   releaseCycle: "17"
-    lts: false
     support: 2022-04-01
     eol: 2022-06-01
     latest: "17.9.0"
     latestReleaseDate: 2022-04-07
     releaseDate: 2021-10-19
 -   releaseCycle: "16"
-    lts: true
+    lts: 2021-10-26
     support: 2022-10-18
     eol: 2024-04-30
     latest: "16.15.0"
     latestReleaseDate: 2022-04-26
     releaseDate: 2021-04-20
 -   releaseCycle: "15"
-    lts: false
     support: 2021-04-01
     eol: 2021-06-01
     latest: "15.14.0"
     latestReleaseDate: 2021-04-06
     releaseDate: 2020-10-20
 -   releaseCycle: "14"
-    lts: true
+    lts: 2020-10-27
     support: 2021-10-19
     eol: 2023-04-30
     latest: "14.19.3"
     latestReleaseDate: 2022-05-17
     releaseDate: 2020-04-21
 -   releaseCycle: "12"
-    lts: true
+    lts: 2019-10-21
     support: 2020-10-20
     eol: 2022-04-30
     latest: "12.22.12"
     latestReleaseDate: 2022-04-05
     releaseDate: 2019-04-23
 -   releaseCycle: "10"
-    lts: true
+    lts: 2018-10-30
     support: 2020-05-19
     eol: 2021-04-30
     latest: "10.24.1"
@@ -73,6 +71,3 @@ releases:
 Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them. After six months, odd-numbered releases (9, 11, etc.) become unsupported, and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use. LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance LTS releases.
 
 If a even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
-
-The Active LTS start date is used as the release date for the table.
-he table.
