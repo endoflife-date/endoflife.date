@@ -50,7 +50,7 @@ versionCommand: eksctl get cluster --name=cluster-name
 
 ---
 
-> [Amazon Elastic Kubernetes Service (Amazon EKS)](http://aws.amazon.com/eks/) is a managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes. EKS runs upstream Kubernetes and is certified Kubernetes conformant for a predictable experience.
+> [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/) is a managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes. EKS runs upstream Kubernetes and is certified Kubernetes conformant for a predictable experience.
 
 Amazon EKS guarantees support for at least four production-ready versions of Kubernetes at any given time. A Kubernetes version is fully supported on EKS for 14 months after first being available on Amazon EKS. This is true even if upstream Kubernetes is no longer supporting a version available on Amazon EKS.
 

@@ -46,7 +46,7 @@ releases:
     latestReleaseDate: 2018-12-21
     releaseDate: 2010-12-03
 permalink: /mysql
-releasePolicyLink: http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
+releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: mysqld --version
