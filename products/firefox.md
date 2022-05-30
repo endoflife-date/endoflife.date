@@ -2,7 +2,6 @@
 permalink: /firefox
 title: Firefox
 
-layout: post
 releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
@@ -10,25 +9,25 @@ iconSlug: firefox
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releases:
 
-  - releaseCycle: "100"
-    release: 2022-05-03
+-   releaseCycle: "100"
     eol: false
     latest: "100.0.2"
 
-  - releaseCycle: "91"
-    release: 2021-08-10
+    releaseDate: 2022-05-03
+-   releaseCycle: "91"
     eol: 2022-09-20
     latest: "91.9.1"
     lts: true
 
-  - releaseCycle: "78"
-    release: 2020-06-30
+    releaseDate: 2021-08-10
+-   releaseCycle: "78"
     eol: 2021-11-02
     latest: "78.15.0"
     lts: true
+    releaseDate: 2020-06-30
 
 ---
 

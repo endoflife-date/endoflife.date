@@ -1,97 +1,96 @@
 ---
 title: Visual Studio
-layout: post
 category: app
 sortReleasesBy: "cycleShortHand"
 releaseLabel: '__RELEASE_CYCLE__ __CODENAME__'
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
-  - releaseCycle: "2022"
+-   releaseCycle: "2022"
     codename: "17.0"
-    release: 2021-11-08
     eol: 2023-07-11
     cycleShortHand: 20221700
-  - releaseCycle: "2019"
+    releaseDate: 2021-11-08
+-   releaseCycle: "2019"
     codename: "16.11"
-    release: 2021-08-10
     eol: 2029-04-10
     cycleShortHand: 20191611
-  - releaseCycle: "2019"
+    releaseDate: 2021-08-10
+-   releaseCycle: "2019"
     codename: "16.10"
     eol: true
     cycleShortHand: 20191610
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.9"
-    release: 2021-03-02
     eol: 2022-10-11
     cycleShortHand: 20191609
-  - releaseCycle: "2019"
+    releaseDate: 2021-03-02
+-   releaseCycle: "2019"
     codename: "16.8"
     eol: true
     cycleShortHand: 20191608
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.7"
-    release: 2020-08-05
     eol: 2022-04-12
     cycleShortHand: 20191607
-  - releaseCycle: "2019"
+    releaseDate: 2020-08-05
+-   releaseCycle: "2019"
     codename: "16.6"
     eol: true
     cycleShortHand: 20191606
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.5"
     eol: true
     cycleShortHand: 20191605
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.4"
-    release: 2019-12-03
     eol: 2021-10-12
     cycleShortHand: 20191604
-  - releaseCycle: "2019"
+    releaseDate: 2019-12-03
+-   releaseCycle: "2019"
     codename: "16.3"
     eol: true
     cycleShortHand: 20191603
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.2"
     eol: true
     cycleShortHand: 20191602
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.1"
     eol: true
     cycleShortHand: 20191601
-  - releaseCycle: "2019"
+-   releaseCycle: "2019"
     codename: "16.0"
-    release: 2019-12-03
     eol: 2021-01-12
     cycleShortHand: 20191600
-  - releaseCycle: "2017"
+    releaseDate: 2019-12-03
+-   releaseCycle: "2017"
     codename: "15.9"
-    release: 2018-11-13
     eol: 2027-04-13
     cycleShortHand: 20171509
-  - releaseCycle: "2017"
+    releaseDate: 2018-11-13
+-   releaseCycle: "2017"
     codename: "15.0"
-    release: 2017-03-07
     eol: 2020-01-14
     cycleShortHand: 2017
-  - releaseCycle: "2015"
-    release: 2015-07-20
+    releaseDate: 2017-03-07
+-   releaseCycle: "2015"
     eol: 2025-10-14
     cycleShortHand: 2015
-  - releaseCycle: "2013"
-    release: 2014-01-15
+    releaseDate: 2015-07-20
+-   releaseCycle: "2013"
     eol: 2024-04-09
     cycleShortHand: 2013
-  - releaseCycle: "2012"
-    release: 2012-10-31
+    releaseDate: 2014-01-15
+-   releaseCycle: "2012"
     eol: 2023-01-10
     cycleShortHand: 2012
-  - releaseCycle: "2010"
-    release: 2010-06-29
+    releaseDate: 2012-10-31
+-   releaseCycle: "2010"
     eol: 2020-07-14
     cycleShortHand: 2010
-    
+
+    releaseDate: 2010-06-29
 iconSlug: visualstudio
 permalink: /visualstudio
 releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing

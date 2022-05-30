@@ -1,48 +1,47 @@
 ---
 title: Moodle
-layout: post
 category: server-app
 
 sortReleasesBy: "support"
 changelogTemplate: "https://docs.moodle.org/dev/Moodle___LATEST___release_notes"
 
 releases:
-  - releaseCycle: "4.0"
+-   releaseCycle: "4.0"
     eol: 2023-11-13
     support: 2023-05-08
-    release: 2022-04-19
     latest: "4.0.1"
     lts: false
 
-  - releaseCycle: "3.11"
+    releaseDate: 2022-04-19
+-   releaseCycle: "3.11"
     eol: 2022-11-14
     support: 2022-05-09
-    release: 2021-05-17
     latest: "3.11.7"
     lts: false
 
-  - releaseCycle: "3.10"
+    releaseDate: 2021-05-17
+-   releaseCycle: "3.10"
     eol: 2022-05-09
     support: 2021-11-08
-    release: 2020-11-09
     latest: "3.10.11"
     lts: false
 
-  - releaseCycle: "3.9"
+    releaseDate: 2020-11-09
+-   releaseCycle: "3.9"
     eol: 2023-05-08
     support: 2021-05-10
-    release: 2020-06-15
     latest: "3.9.14"
     lts: true
 
-  - releaseCycle: "3.8"
+    releaseDate: 2020-06-15
+-   releaseCycle: "3.8"
     eol: 2021-05-10
     support: 2020-11-09
-    release: 2019-11-18
     latest: "3.8.9"
     lts: false
 
 
+    releaseDate: 2019-11-18
 iconSlug: NA
 permalink: /moodle
 releasePolicyLink: https://docs.moodle.org/dev/Releases
@@ -51,6 +50,7 @@ releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 releaseImage: https://docs.moodle.org/dev/images_dev/7/7e/releasescurrent.png
+
 ---
 
 > [Moodle](https://moodle.org/) is a Learning Platform or course management system (CMS) - a free Open Source software package designed to help educators create effective online courses based on sound pedagogical principles.

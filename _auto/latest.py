@@ -84,7 +84,7 @@ def update_product(name):
         latest_version = find_last(R2, prefix)
 
         if first_version:
-          release['release'] = datetime.date.fromisoformat(R1[first_version])
+          release['releaseDate'] = datetime.date.fromisoformat(R1[first_version])
           release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
           release['latest'] = latest_version
           diff = DeepDiff(old, release, ignore_order=True)

@@ -4,7 +4,6 @@ alternate_urls:
 -   /rubyonrails
 -   /ruby-on-rails
 -   /roro
-layout: post
 iconSlug: rubyonrails
 title: Ruby on Rails
 releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
@@ -18,45 +17,45 @@ auto:
     template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}"
 releases:
 -   releaseCycle: "7.0"
-    release: 2021-12-15
     eol: false
     latest: "7.0.3"
     latestReleaseDate: 2022-05-09
+    releaseDate: 2021-12-15
 -   releaseCycle: "6.1"
-    release: 2020-12-09
     eol: false
     latest: "6.1.6"
     latestReleaseDate: 2022-05-09
+    releaseDate: 2020-12-09
 -   releaseCycle: "6.0"
-    release: 2019-08-16
     eol: 2023-06-01
     support: 2021-12-15
     latest: "6.0.5"
     latestReleaseDate: 2022-05-09
+    releaseDate: 2019-08-16
 -   releaseCycle: "5.2"
-    release: 2018-04-09
     eol: 2022-06-01
     support: 2021-12-15
     latest: "5.2.8"
     latestReleaseDate: 2022-05-09
+    releaseDate: 2018-04-09
 -   releaseCycle: "5.1"
-    release: 2017-04-27
     eol: 2019-08-25
     support: 2018-04-09
     latest: "5.1.7"
     latestReleaseDate: 2019-03-27
+    releaseDate: 2017-04-27
 -   releaseCycle: "5.0"
-    release: 2016-06-30
     eol: 2018-04-09
     support: 2018-04-09
     latest: "5.0.7.2"
     latestReleaseDate: 2019-03-13
+    releaseDate: 2016-06-30
 -   releaseCycle: "4.2"
-    release: 2014-12-19
     eol: 2017-04-27
     support: 2016-06-30
     latest: "4.2.11.3"
     latestReleaseDate: 2020-05-15
+    releaseDate: 2014-12-19
 
 ---
 

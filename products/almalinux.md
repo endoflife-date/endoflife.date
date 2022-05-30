@@ -1,13 +1,12 @@
 ---
 permalink: /almalinux
-layout: post
 title: AlmaLinux
 category: os
-command: lsb_release --release
+versionCommand: lsb_release --release
 releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 iconSlug: NA
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 auto:
@@ -15,12 +14,12 @@ auto:
 -   dockerhub: almalinux/8-init
 releases:
   - releaseCycle: "9"
-    release: 2022-05-26
+    releaseDate: 2022-05-26
     support: 2027-05-31
     eol: 2032-05-31
     latest: "9.0"
   - releaseCycle: "8"
-    release: 2019-05-01
+    releaseDate: 2019-05-01
     support: 2024-05-01
     eol: 2029-03-01
     latest: "8.6"

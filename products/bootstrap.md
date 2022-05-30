@@ -1,7 +1,6 @@
 ---
 title: Bootstrap
 permalink: /bootstrap
-layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
@@ -10,31 +9,31 @@ auto:
 -   git: https://github.com/twbs/bootstrap.git
 releases:
 -   releaseCycle: "5"
-    release: 2021-05-05
     eol: false
     support: true
     lts: true
     latest: "5.1.3"
     latestReleaseDate: 2021-10-09
+    releaseDate: 2021-05-05
 -   releaseCycle: "4"
-    release: 2018-01-18
     eol: 2022-11-01
     latest: "4.6.1"
     lts: true
     support: false
     latestReleaseDate: 2021-10-28
+    releaseDate: 2018-01-18
 -   releaseCycle: "3"
-    release: 2013-08-19
     eol: 2019-07-24
     latest: "3.4.1"
     support: false
     latestReleaseDate: 2019-02-13
+    releaseDate: 2013-08-19
 -   releaseCycle: "2"
-    release: 2012-01-31
     eol: 2013-08-19
     latest: "2.3.2"
     support: false
     latestReleaseDate: 2013-07-26
+    releaseDate: 2012-01-31
 releasePolicyLink: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: Critical Support

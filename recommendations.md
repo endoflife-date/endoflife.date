@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 nav_exclude: true
 permalink: /recommendations
 title: Recommendations for maintainers

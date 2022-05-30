@@ -33,7 +33,7 @@ endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static 
 
 ## :new: Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as productname.md
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible.
 
 ```yaml
 ---
@@ -52,8 +52,8 @@ layout: post
 category: os
 
 # What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/release/cycleShortHand/latest/latestShortHand
-# which must be present in the releases underneath
+# releaseCycle/eol/support/releaseDate/cycleShortHand/latest/latestShortHand
+# which must be present in all of the releases underneath
 sortReleasesBy: "releaseCycle"
 
 # Template to be used to generate a link for the release
@@ -79,10 +79,11 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
 # Optional information about how release information can be fetched automatically
-# This is mainly used for the `latest` and `latestDate` fields of each release cycle
+# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for
+# every release.
 # Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
-# This is currently a WIP, and will not have any impact, but is highly recommended if this can be made available.
 auto:
+  - custom: true
   # Any valid git clone URL will work
   # Support for partialClone is necessary (GitHub does support this)
   - git: https://github.com/abc/def.git
@@ -101,6 +102,10 @@ auto:
 
   # Link to package on NPM
   - npm: https://www.npmjs.com/package/abc
+
+  # Use this if the product has a custom script updating releases
+  # in release-data repository
+  - custom: true
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
@@ -124,11 +129,14 @@ releases:
     # Date of release for the product
     # remove if releaseDateColumn is false
     # An approximate date is better than no date.
-    release: 2017-03-12
+    releaseDate: 2017-03-12
     # Current latest release
     # remove if releaseColumn is false
     # always put in quotes
     latest: "1.2.3"
+    # The date of the latest release
+    # This is currently optional.
+    latestReleaseDate: 2022-01-23
     # Whether this is a "LTS" release. What LTS means may differ from product to product (see LTSLabel above)
     # Optional, default false. Only provide for a release that will get a much longer support than usual.
     lts: true
@@ -188,7 +196,7 @@ eolColumn: Service Status
 discontinuedColumn: false
 
 # Command that can be used to check the current version. (optional)
-command: swish and flick
+versionCommand: swish and flick
 
 # An image that shows a graphical representation of the releases.
 # This is not the product logo. Remove if you don't find a relevant image.

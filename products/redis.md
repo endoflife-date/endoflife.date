@@ -1,12 +1,11 @@
 ---
 permalink: /redis
-layout: post
 title: Redis
 category: db
 releasePolicyLink: https://redis.io/topics/releases
 changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false
-command: $ redis-server --version
+versionCommand: $ redis-server --version
 releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 auto:
@@ -15,23 +14,23 @@ releases:
 -   releaseCycle: "7.0"
     eol: false
     latest: '7.0.0'
-    release: 2022-04-27
     latestReleaseDate: 2022-04-27
+    releaseDate: 2022-04-27
 -   releaseCycle: "6.2"
     eol: false
     latest: '6.2.7'
-    release: 2021-02-22
     latestReleaseDate: 2022-04-27
+    releaseDate: 2021-02-22
 -   releaseCycle: "6.0"
     eol: false
     latest: '6.0.16'
-    release: 2020-04-30
     latestReleaseDate: 2021-10-04
+    releaseDate: 2020-04-30
 -   releaseCycle: "5.0"
     eol: true
     latest: '5.0.14'
-    release: 2018-10-17
     latestReleaseDate: 2021-10-04
+    releaseDate: 2018-10-17
 
 ---
 

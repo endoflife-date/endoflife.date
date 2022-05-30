@@ -1,7 +1,6 @@
 ---
 title: Log4j
 permalink: /log4j
-layout: post
 category: framework
 releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.x/changes-report.html#a{{"__LATEST__"}}
@@ -11,26 +10,27 @@ iconSlug: apache
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 releases:
-  - releaseCycle: "2"
+-   releaseCycle: "2"
     cycleShortHand: 299
-    release:  2014-07-12
     eol: false
     latest: "2.17.2"
-  - releaseCycle: "2.12"
+    releaseDate: 2014-07-12
+-   releaseCycle: "2.12"
     cycleShortHand: 212
-    release: 2019-06-23
     eol: 2021-12-14
     latest: "2.12.4"
-  - releaseCycle: "2.3"
+    releaseDate: 2019-06-23
+-   releaseCycle: "2.3"
     cycleShortHand: 203
-    release: 2015-05-09
     eol: 2015-09-20
     latest: "2.3.2"
-  - releaseCycle: "1"
+    releaseDate: 2015-05-09
+-   releaseCycle: "1"
     cycleShortHand: 100
-    release: 2001-01-08
     eol: 2015-10-15
     latest: "1.2.17"
+    releaseDate: 2001-01-08
+
 ---
 
 > [Apache Log4j](https://logging.apache.org/log4j/2.x/) is a Java-based logging utility. It is part of the Apache Logging Services, a project of the Apache Software Foundation.

@@ -1,6 +1,5 @@
 ---
 title: Couchbase Server
-layout: post
 permalink: /couchbase-server
 alternate_urls:
 -   /couchbase
@@ -14,29 +13,29 @@ auto:
     regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 activeSupportColumn: false
 releaseDateColumn: true
-command: cat /opt/couchbase/VERSION.txt
+versionCommand: cat /opt/couchbase/VERSION.txt
 
 releases:
 -   releaseCycle: "7.0"
     eol: 2023-01-01
-    release: 2021-08-31
     latest: "7.0.3"
     latestReleaseDate: 2022-04-30
+    releaseDate: 2021-08-31
 -   releaseCycle: "6.6"
     eol: 2023-01-01
-    release: 2021-07-26
     latest: "6.6.5"
     latestReleaseDate: 2022-02-02
+    releaseDate: 2021-07-26
 -   releaseCycle: "6.5"
     eol: 2021-02-01
-    release: 2021-07-26
     latest: "6.5.2"
     latestReleaseDate: 2022-04-30
+    releaseDate: 2021-07-26
 -   releaseCycle: "6.0"
     eol: 2020-07-01
-    release: 2019-01-23
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30
+    releaseDate: 2019-01-23
 
 ---
 

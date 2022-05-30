@@ -2,7 +2,7 @@
 name: Report Incorrect Details
 about: Report incorrect details of a product on endoflife.date
 title: ''
-labels: 'request'
+labels: 'bug'
 assignees: ''
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Drupal
-layout: post
 permalink: /drupal
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 category: server-app
@@ -8,54 +7,54 @@ changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
-command: drush status
+versionCommand: drush status
 releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
 -   git: https://github.com/drupal/core.git
 sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "9.3"
-    release: 2021-12-08
     support: 2022-06-15
     eol: 2022-12-14
     latest: "9.3.14"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-12-08
 -   releaseCycle: "9.2"
-    release: 2021-06-16
     support: 2021-12-08
     eol: 2022-06-01
     latest: "9.2.20"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-06-16
 -   releaseCycle: "9.1"
-    release: 2020-12-02
     support: 2021-06-16
     eol: 2021-12-08
     latest: "9.1.15"
     latestReleaseDate: 2021-11-24
+    releaseDate: 2020-12-02
 -   releaseCycle: "9.0"
-    release: 2020-06-03
     support: 2020-12-02
     eol: 2021-06-16
     latest: "9.0.14"
     latestReleaseDate: 2021-05-25
+    releaseDate: 2020-06-03
 -   releaseCycle: "8.9"
-    release: 2020-06-03
     support: 2020-12-01
     eol: 2021-11-02
     latest: "8.9.20"
     latestReleaseDate: 2021-11-17
+    releaseDate: 2020-06-03
 -   releaseCycle: "8.8"
-    release: 2019-12-04
     support: 2020-06-03
     eol: 2020-12-01
     latest: "8.8.12"
     latestReleaseDate: 2020-11-25
+    releaseDate: 2019-12-04
 -   releaseCycle: "7"
-    release: 2011-01-05
     support: 2015-11-19
     eol: 2023-11-01
     latest: "7.89"
     lts: true
+    releaseDate: 2011-01-05
 
 ---
 

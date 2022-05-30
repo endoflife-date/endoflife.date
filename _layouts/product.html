@@ -11,12 +11,12 @@ layout: default
 <table class="lifecycle">
   <thead>
     <tr>
-      <th>Version</th>
+      <th>Release</th>
       {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
       {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
       {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
-      {% if page.releaseColumn != false %}<th>Release</th>{% endif %}
+      {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
 {% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
@@ -70,7 +70,7 @@ or +1 (EoL is in the future)
 
   {% if page.releaseDateColumn %}
   <td>
-    {{r.release | timeago}} <div>({{r.release | date_to_string}})</div>
+    {{r.releaseDate | timeago}} <div>({{r.releaseDate | date_to_string}})</div>
   </td>
   {% endif %}
 
@@ -191,3 +191,5 @@ or +1 (EoL is in the future)
 title="Click the Pencil, the link takes you directly to the correct page">on GitHub</a>. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
 
 <p>A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more.</p>
+
+{%if page.auto %}Latest releases on this page are automatically updated{% endif %}
