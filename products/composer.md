@@ -1,6 +1,5 @@
 ---
 title: Composer
-layout: post
 category: app
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
@@ -10,23 +9,23 @@ releases:
 -   releaseCycle: "2.3"
     eol: false
     support: true
-    release: 2022-03-30
     latest: "2.3.5"
     link: https://blog.packagist.com/composer-2-3/
 
     latestReleaseDate: 2022-04-13
+    releaseDate: 2022-03-30
 -   releaseCycle: "2.2"
     eol: 2023-12-31
-    release: 2021-12-22
     latest: "2.2.13"
     lts: true
 
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-12-22
 -   releaseCycle: "1.x"
-    release: 2016-04-05
     latest: "1.10.26"
     eol: 2020-10-24
 
+    releaseDate: 2016-04-05
 iconSlug: composer
 permalink: /composer
 activeSupportColumn: false

@@ -1,6 +1,5 @@
 ---
 permalink: /ruby
-layout: post
 title: Ruby
 command: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
@@ -16,76 +15,76 @@ auto:
 category: lang
 releaseDateColumn: true
 eolColumn: Support Status
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "3.1"
-    release: 2021-12-25
     eol: 2025-12-25
     latest: "3.1.2"
 
     latestReleaseDate: 2022-04-12
+    releaseDate: 2021-12-25
 -   releaseCycle: "3.0"
-    release: 2020-12-25
     eol: 2024-03-31
     latest: "3.0.4"
 
     latestReleaseDate: 2022-04-12
+    releaseDate: 2020-12-25
 -   releaseCycle: "2.7"
-    release: 2019-12-25
     eol: 2023-03-31
     latest: "2.7.6"
 
     latestReleaseDate: 2022-04-12
+    releaseDate: 2019-12-25
 -   releaseCycle: "2.6"
-    release: 2018-12-25
     eol: 2022-03-31
     latest: "2.6.10"
 
     latestReleaseDate: 2022-04-12
+    releaseDate: 2018-12-25
 -   releaseCycle: "2.5"
-    release: 2017-12-25
     eol: 2021-03-31
     latest: "2.5.9"
 
     latestReleaseDate: 2021-04-05
+    releaseDate: 2017-12-25
 -   releaseCycle: "2.4"
-    release: 2016-12-23
     eol: 2020-03-31
     latest: "2.4.10"
 
     latestReleaseDate: 2020-03-31
+    releaseDate: 2016-12-23
 -   releaseCycle: "2.3"
-    release: 2015-12-24
     eol: 2019-03-31
     latest: "2.3.8"
 
     latestReleaseDate: 2018-10-17
+    releaseDate: 2015-12-24
 -   releaseCycle: "2.2"
-    release: 2014-12-25
     eol: 2018-03-31
     latest: "2.2.10"
 
     latestReleaseDate: 2018-03-28
+    releaseDate: 2014-12-25
 -   releaseCycle: "2.1"
-    release: 2013-12-25
     eol: 2017-03-31
     latest: "2.1.10"
 
     latestReleaseDate: 2016-03-31
+    releaseDate: 2013-12-25
 -   releaseCycle: "2.0.0"
-    release: 2013-02-24
     eol: 2016-02-24
     # Keep this pinned
     latest: "2.0.0p648"
 
     latestReleaseDate: 2015-12-16
+    releaseDate: 2013-02-24
 -   releaseCycle: "1.9.3"
-    release: 2011-10-30
     eol: 2015-02-23
     # Keep this pinned
     latest: "1.9.3p551"
 
     latestReleaseDate: 2014-11-13
+    releaseDate: 2011-10-30
 
 ---
 

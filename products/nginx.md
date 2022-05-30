@@ -2,14 +2,13 @@
 title: nginx
 permalink: /nginx
 iconSlug: nginx
-layout: post
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 category: server-app
 activeSupportColumn: false
 command: nginx -v
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
 # https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
@@ -18,71 +17,71 @@ auto:
 -   hg: https://hg.nginx.org/nginx
 releases:
 -   releaseCycle: "1.22"
-    release: 2022-05-24
     eol: false
     latest: "1.22.0"
     latestReleaseDate: 2022-05-24
+    releaseDate: 2022-05-24
 -   releaseCycle: "1.21"
-    release: 2021-05-25
     eol: false
     latest: "1.21.6"
     link: https://nginx.org/en/CHANGES
-    latestReleaseDate: 2022-01-25    
+    latestReleaseDate: 2022-01-25
+    releaseDate: 2021-05-25
 -   releaseCycle: "1.20"
-    release: 2021-04-20
     eol: true
     latest: "1.20.2"
     latestReleaseDate: 2021-11-16
+    releaseDate: 2021-04-20
 -   releaseCycle: "1.18"
-    release: 2020-04-21
     eol: 2021-04-20
     latest: "1.18.0"
     latestReleaseDate: 2020-04-21
+    releaseDate: 2020-04-21
 -   releaseCycle: "1.16"
-    release: 2019-04-23
     eol: 2020-04-20
     latest: "1.16.1"
     latestReleaseDate: 2019-08-13
+    releaseDate: 2019-04-23
 -   releaseCycle: "1.14"
-    release: 2018-04-17
     eol: 2019-04-23
     latest: "1.14.2"
     latestReleaseDate: 2018-12-04
+    releaseDate: 2018-04-17
 -   releaseCycle: "1.12"
-    release: 2017-04-12
     eol: 2018-04-17
     latest: "1.12.2"
     latestReleaseDate: 2017-10-17
+    releaseDate: 2017-04-12
 -   releaseCycle: "1.10"
-    release: 2016-04-26
     eol: 2017-04-12
     latest: "1.10.3"
     latestReleaseDate: 2017-01-31
+    releaseDate: 2016-04-26
 -   releaseCycle: "1.8"
-    release: 2015-04-21
     eol: 2016-04-26
     latest: "1.8.1"
     latestReleaseDate: 2016-01-26
+    releaseDate: 2015-04-21
 -   releaseCycle: "1.6"
-    release: 2014-04-24
     eol: 2015-04-21
     latest: "1.6.3"
     latestReleaseDate: 2015-04-07
+    releaseDate: 2014-04-24
 -   releaseCycle: "1.4"
-    release: 2013-04-24
     eol: 2014-04-24
     latest: "1.4.7"
     latestReleaseDate: 2014-03-18
+    releaseDate: 2013-04-24
 -   releaseCycle: "1.2"
-    release: 2012-04-23
     eol: 2013-04-24
     latest: "1.2.9"
     latestReleaseDate: 2013-05-13
+    releaseDate: 2012-04-23
 -   releaseCycle: "1.0"
-    release: 2011-04-12
     eol: 2012-04-23
     latest: "1.0.15"
     latestReleaseDate: 2012-04-12
+    releaseDate: 2011-04-12
 
 ---
 

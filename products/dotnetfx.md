@@ -1,9 +1,8 @@
 ---
 permalink: /dotnetfx
-layout: post
 alternative_urls:
-  - /.netfx
-  - /dotnetframework
+-   /.netfx
+-   /dotnetframework
 iconSlug: dotnet
 category: framework
 title: .NET Framework
@@ -14,42 +13,43 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
 releases:
-  - releaseCycle: "4.8"
-    release: 2019-04-18
+-   releaseCycle: "4.8"
     eol: false
-  - releaseCycle: "4.7.2"
-    release: 2018-04-30
+    releaseDate: 2019-04-18
+-   releaseCycle: "4.7.2"
     eol: false
-  - releaseCycle: "4.7.1"
-    release: 2017-10-17
+    releaseDate: 2018-04-30
+-   releaseCycle: "4.7.1"
     eol: false
-  - releaseCycle: "4.7"
-    release: 2017-04-05
+    releaseDate: 2017-10-17
+-   releaseCycle: "4.7"
     eol: false
-  - releaseCycle: "4.6.2"
-    release: 2016-08-02
+    releaseDate: 2017-04-05
+-   releaseCycle: "4.6.2"
     eol: false
-  - releaseCycle: "4.6.1"
-    release: 2015-11-30
+    releaseDate: 2016-08-02
+-   releaseCycle: "4.6.1"
     eol: 2022-04-26
-  - releaseCycle: "4.6"
-    release: 2015-07-20
+    releaseDate: 2015-11-30
+-   releaseCycle: "4.6"
     eol: 2022-04-26
-  - releaseCycle: "4.5.2"
-    release: 2014-05-05
+    releaseDate: 2015-07-20
+-   releaseCycle: "4.5.2"
     eol: 2022-04-26
-  - releaseCycle: "4.5.1"
-    release: 2013-10-17
+    releaseDate: 2014-05-05
+-   releaseCycle: "4.5.1"
     eol: 2016-01-12
-  - releaseCycle: "4.5"
-    release: 2012-08-15
+    releaseDate: 2013-10-17
+-   releaseCycle: "4.5"
     eol: 2016-01-12
-  - releaseCycle: "4.0"
-    release: 2010-04-12
+    releaseDate: 2012-08-15
+-   releaseCycle: "4.0"
     eol: 2016-01-12
-  - releaseCycle: "3.5 SP1"
-    release: 2007-11-19
+    releaseDate: 2010-04-12
+-   releaseCycle: "3.5 SP1"
     eol: 2029-01-09
+    releaseDate: 2007-11-19
+
 ---
 
 > [.NET Framework](https://dotnet.microsoft.com/) is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library called Framework Class Library (FCL) and provides language interoperability across several programming languages.

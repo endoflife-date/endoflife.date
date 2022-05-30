@@ -1,6 +1,5 @@
 ---
 title: jQuery
-layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
 auto:
@@ -8,22 +7,22 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    release: 2016-06-09
     latest: "3.6.0"
     link: https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/
     latestReleaseDate: 2021-03-02
+    releaseDate: 2016-06-09
 -   releaseCycle: "2"
     eol: true
-    release: 2013-04-18
     latest: "2.2.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
     latestReleaseDate: 2016-05-20
+    releaseDate: 2013-04-18
 -   releaseCycle: "1"
     eol: true
-    release: 2006-08-31
     latest: "1.12.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
     latestReleaseDate: 2016-05-20
+    releaseDate: 2006-08-31
 iconSlug: jquery
 permalink: /jquery
 activeSupportColumn: false

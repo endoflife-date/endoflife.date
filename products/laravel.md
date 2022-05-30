@@ -1,6 +1,5 @@
 ---
 title: Laravel
-layout: post
 permalink: /laravel
 category: framework
 releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
@@ -13,46 +12,46 @@ auto:
 -   git: https://github.com/laravel/framework.git
 releases:
 -   releaseCycle: "9"
-    release: 2022-02-08
     support: 2023-08-08
     eol: 2024-02-08
     latest: 9.14.1
     lts: false
     latestReleaseDate: 2022-05-25
+    releaseDate: 2022-02-08
 -   releaseCycle: "8"
-    release: 2020-09-08
     support: 2022-07-26
     eol: 2023-01-24
     latest: 8.83.14
     lts: false
     latestReleaseDate: 2022-05-24
+    releaseDate: 2020-09-08
 -   releaseCycle: "7"
-    release: 2020-03-03
     support: 2020-10-06
     eol: 2021-03-03
     latest: 7.30.6
     lts: false
     latestReleaseDate: 2021-12-07
+    releaseDate: 2020-03-03
 -   releaseCycle: "6"
-    release: 2019-09-03
     support: 2022-01-25
     eol: 2022-09-06
     latest: 6.20.44
     lts: true
     latestReleaseDate: 2022-01-12
+    releaseDate: 2019-09-03
 -   releaseCycle: "5.8"
-    release: 2019-02-26
     support: 2019-08-26
     eol: 2020-02-26
     latest: 5.8.38
     latestReleaseDate: 2020-04-14
+    releaseDate: 2019-02-26
 -   releaseCycle: "5.5"
-    release: 2017-08-30
     support: 2019-08-30
     eol: 2020-08-30
     latest: 5.5.50
     lts: true
     latestReleaseDate: 2020-08-18
+    releaseDate: 2017-08-30
 
 ---
 

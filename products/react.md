@@ -2,7 +2,6 @@
 title: React
 permalink: /react
 iconSlug: react
-layout: post
 category: framework
 sortReleasesBy: 'releaseCycle'
 releasePolicyLink: https://reactjs.org/docs/release-channels.html
@@ -13,19 +12,19 @@ auto:
 -   git: https://github.com/facebook/react.git
 releases:
 -   releaseCycle: "18"
-    release: 2022-03-29
     support: true
     eol: false
     latest: "18.1.0"
     latestReleaseDate: 2022-04-26
+    releaseDate: 2022-03-29
 -   releaseCycle: "17"
     lts: false
-    release: 2020-10-20
     eol: 2021-03-22
     support: false
     latest: "17.0.2"
 
     latestReleaseDate: 2021-03-22
+    releaseDate: 2020-10-20
 
 ---
 

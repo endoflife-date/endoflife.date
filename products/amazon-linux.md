@@ -3,13 +3,12 @@ permalink: /amazon-linux
 title: Amazon Linux
 iconSlug: amazonaws
 category: os
-layout: post
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false
 command: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 auto:
 -   dockerhub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases
@@ -20,15 +19,15 @@ changelogTemplate: |
 releases:
 -   releaseCycle: '1'
     releaseLabel: 'Amazon Linux AMI'
-    release: "2010-09-14"
     eol: 2020-12-31
     latest: "2018.03"
+    releaseDate: "2010-09-14"
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
-    release: 2018-06-26
     eol: 2023-06-30
     latest: "2.0.20220426.0"
     latestReleaseDate: 2022-05-03
+    releaseDate: 2018-06-26
 
 ---
 

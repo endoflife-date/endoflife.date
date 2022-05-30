@@ -1,78 +1,77 @@
 ---
 permalink: /openbsd
-layout: post
 title: OpenBSD
 category: os
 command: uname -r
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releases:
-  - release: 2022-04-21
-    eol: 2023-05-01
+-   eol: 2023-05-01
     releaseCycle: "7.1"
     link: https://www.openbsd.org/71.html
 
-  - release: 2021-10-14
-    eol: 2022-10-01
+    releaseDate: 2022-04-21
+-   eol: 2022-10-01
     releaseCycle: "7.0"
     link: https://www.openbsd.org/70.html
 
-  - release: 2021-05-01
-    eol: 2022-04-21
+    releaseDate: 2021-10-14
+-   eol: 2022-04-21
     releaseCycle: "6.9"
     link: https://www.openbsd.org/69.html
 
-  - release: 2020-10-18
-    eol: 2021-10-14
+    releaseDate: 2021-05-01
+-   eol: 2021-10-14
     releaseCycle: "6.8"
     link: https://www.openbsd.org/68.html
 
-  - release: 2020-05-19
-    eol: 2021-05-01
+    releaseDate: 2020-10-18
+-   eol: 2021-05-01
     releaseCycle: "6.7"
     link: https://www.openbsd.org/67.html
 
-  - release: 2019-10-17
-    eol: 2020-10-18
+    releaseDate: 2020-05-19
+-   eol: 2020-10-18
     releaseCycle: "6.6"
     link: https://www.openbsd.org/66.html
 
-  - release: 2019-04-24
-    eol: 2020-05-19
+    releaseDate: 2019-10-17
+-   eol: 2020-05-19
     releaseCycle: "6.5"
     link: https://www.openbsd.org/65.html
 
-  - release: 2018-10-18
-    eol: 2019-10-17
+    releaseDate: 2019-04-24
+-   eol: 2019-10-17
     releaseCycle: "6.4"
     link: https://www.openbsd.org/64.html
 
-  - release: 2018-10-18
-    eol: 2019-10-17
+    releaseDate: 2018-10-18
+-   eol: 2019-10-17
     releaseCycle: "6.4"
     link: https://www.openbsd.org/64.html
 
-  - release: 2018-04-02
-    eol: 2019-05-03
+    releaseDate: 2018-10-18
+-   eol: 2019-05-03
     releaseCycle: "6.3"
     link: https://www.openbsd.org/63.html
 
-  - release: 2017-10-09
-    eol: 2018-10-18
+    releaseDate: 2018-04-02
+-   eol: 2018-10-18
     releaseCycle: "6.2"
     link: https://www.openbsd.org/62.html
 
-  - release: 2017-04-11
-    eol: 2018-04-15
+    releaseDate: 2017-10-09
+-   eol: 2018-04-15
     releaseCycle: "6.1"
     link: https://www.openbsd.org/61.html
 
-  - release: 2016-09-01
-    eol: 2017-10-09
+    releaseDate: 2017-04-11
+-   eol: 2017-10-09
     releaseCycle: "6.0"
     link: https://www.openbsd.org/60.html
+    releaseDate: 2016-09-01
 
   - release: 2016-03-29
     eol: 2017-04-11

@@ -2,7 +2,6 @@
 title: Apache Tomcat
 permalink: /tomcat
 iconSlug: apachetomcat
-layout: post
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
 category: server-app
@@ -12,33 +11,34 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "10"
-    release: 2020-12-08
+-   releaseCycle: "10"
     eol: false
     latest: "10.0.20"
     link: https://tomcat.apache.org/download-10.cgi
-  - releaseCycle: "9"
-    release: 2017-10-04
+    releaseDate: 2020-12-08
+-   releaseCycle: "9"
     eol: false
     latest: "9.0.62"
     link: https://tomcat.apache.org/download-90.cgi
-  - releaseCycle: "8"
-    release: 2014-02-02
+    releaseDate: 2017-10-04
+-   releaseCycle: "8"
     eol: false
     latest: "8.5.78"
     link: https://tomcat.apache.org/download-80.cgi
-  - releaseCycle: "7"
-    release: 2011-01-13
+    releaseDate: 2014-02-02
+-   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
-  - releaseCycle: "6"
-    release: 2006-10-21
+    releaseDate: 2011-01-13
+-   releaseCycle: "6"
     eol: 2016-12-31
     latest: "6.0.53"
-  - releaseCycle: "5"
-    release: 2003-09-06
+    releaseDate: 2006-10-21
+-   releaseCycle: "5"
     eol: 2012-09-30
     latest: "5.5.36"
+    releaseDate: 2003-09-06
+
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including [JSP][jsp], [Servlets][servlet], and [WebSockets][websockets].

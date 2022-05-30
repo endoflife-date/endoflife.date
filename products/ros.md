@@ -1,6 +1,5 @@
 ---
 title: ROS
-layout: post
 permalink: /ros
 category: os
 releasePolicyLink: https://wiki.ros.org/Distributions
@@ -13,22 +12,23 @@ sortReleasesBy: 'releaseCycle'
 releaseLabel: '__CODENAME__'
 changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releases:
-  - releaseCycle: 'noetic'
+-   releaseCycle: 'noetic'
     codename: 'Noetic Ninjemys'
     eol: 2025-05-01
-    release: 2020-05-23
-  - releaseCycle: 'melodic'
+    releaseDate: 2020-05-23
+-   releaseCycle: 'melodic'
     codename: 'Melodic Morenia'
     eol: 2023-04-01
-    release: 2018-05-23
-  - releaseCycle: 'lunar'
+    releaseDate: 2018-05-23
+-   releaseCycle: 'lunar'
     codename: 'Lunar Loggerhead'
     eol: 2019-05-01
-    release: 2017-05-23
-  - releaseCycle: 'kinetic'
+    releaseDate: 2017-05-23
+-   releaseCycle: 'kinetic'
     codename: 'Kinetic Kame'
     eol: 2021-05-01
-    release: 2016-04-23
+    releaseDate: 2016-04-23
+
 ---
 
 > ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications.

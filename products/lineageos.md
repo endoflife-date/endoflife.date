@@ -1,32 +1,32 @@
 ---
 title: LineageOS
-layout: post
 category: os
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "19"
+-   releaseCycle: "19"
     eol: false
-    release: 2022-04-26
     link: https://lineageos.org/Changelog-26/
-  - releaseCycle: "18.1"
+    releaseDate: 2022-04-26
+-   releaseCycle: "18.1"
     eol: false
-    release: 2021-04-01
     link: https://lineageos.org/Changelog-25/
-  - releaseCycle: "17.1"
+    releaseDate: 2021-04-01
+-   releaseCycle: "17.1"
     eol: 2022-04-26
-    release: 2020-02-01
     link: https://lineageos.org/Changelog-24/
-  - releaseCycle: "16.0"
+    releaseDate: 2020-02-01
+-   releaseCycle: "16.0"
     eol: 2021-02-16
-    release: 2019-03-01
+    releaseDate: 2019-03-01
 iconSlug: lineageos
 permalink: /lineageos
 alternate_urls:
-  - /lineage
+-   /lineage
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 discontinuedColumn: false
+
 ---
 
 > [LineageOS](https://lineageos.org/) is a mobile operating system based on Android 

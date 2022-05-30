@@ -1,7 +1,6 @@
 ---
 permalink: /blender
 title: Blender
-layout: post
 releasePolicyLink: https://www.blender.org
 releaseDateColumn: true
 releaseColumn: true
@@ -12,28 +11,27 @@ auto:
 -   git: https://github.com/blender/blender.git
 changelogTemplate: |
   https://wiki.blender.org/wiki/Reference/Release_Notes/__RELEASE_CYCLE__/Corrective_Releases
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
 -   releaseCycle: "3.1"
-    release: 2022-03-09
     eol: false
     support: true
     latest: "3.1.2"
     lts: false
 
     latestReleaseDate: 2022-04-01
+    releaseDate: 2022-03-09
 -   releaseCycle: "3.0"
-    release: 2021-12-03
     eol: 2022-03-09
     support: true
     latest: "3.0.1"
     lts: false
 
     latestReleaseDate: 2022-01-26
+    releaseDate: 2021-12-03
 -   releaseCycle: "2.93"
-    release: 2021-06-02
     eol: 2023-06-01
     support: true
     latest: "2.93.9"
@@ -41,14 +39,15 @@ releases:
     link: https://www.blender.org/download/releases/2-93/
 
     latestReleaseDate: 2022-04-20
+    releaseDate: 2021-06-02
 -   releaseCycle: "2.83"
-    release: 2020-06-03
     eol: 2022-06-01
     support: 2020-08-31
     latest: "2.83.20"
     lts: true
     link: https://www.blender.org/download/releases/2-83/
     latestReleaseDate: 2022-04-20
+    releaseDate: 2020-06-03
 
 ---
 

@@ -1,11 +1,10 @@
 ---
 title: Consul
-layout: post
 permalink: /consul
 category: server-app
 iconSlug: consul
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/consul.git
@@ -16,29 +15,29 @@ command: consul --version
 releases:
 -   releaseCycle: "1.12"
     eol: false
-    release: 2022-04-19
     latest: "1.12.1"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2022-04-19
 -   releaseCycle: "1.11"
     eol: false
-    release: 2021-12-14
     latest: "1.11.6"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-12-14
 -   releaseCycle: "1.10"
     eol: false
-    release: 2021-06-22
     latest: "1.10.11"
     latestReleaseDate: 2022-05-25
+    releaseDate: 2021-06-22
 -   releaseCycle: "1.9"
     eol: true
-    release: 2020-11-24
     latest: "1.9.17"
     latestReleaseDate: 2022-04-14
+    releaseDate: 2020-11-24
 -   releaseCycle: "1.8"
     eol: true
-    release: 2020-06-18
     latest: "1.8.19"
     latestReleaseDate: 2021-12-15
+    releaseDate: 2020-06-18
 
 ---
 

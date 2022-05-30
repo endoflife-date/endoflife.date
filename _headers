@@ -39,7 +39,7 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
   {% endcomment %}
 
   {% assign imgsrc="'self' https://simpleicons.org/ https://github.githubassets.com/ " %}
-  {% if page.releases %}
+  {% if page.layout == 'product' %}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
     {% comment %}
       If we have a release image, set a CSP that includes it

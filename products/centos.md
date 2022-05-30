@@ -1,48 +1,48 @@
 ---
 permalink: /centos
-layout: post
 title: CentOS
 category: os
 command: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
 releaseLabel: "CentOS Stream __RELEASE_CYCLE__"
 releases:
-  - releaseCycle: "6"
-    release: 2011-07-10
+-   releaseCycle: "6"
     releaseLabel: "CentOS 6"
     support: 2017-05-10
     eol: 2020-11-30
     latest: "6.10"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
-  - releaseCycle: "7"
-    release: 2014-07-07
+    releaseDate: 2011-07-10
+-   releaseCycle: "7"
     releaseLabel: "CentOS Linux 7"
     support: 2020-08-06
     eol: 2024-06-30
     latest: "7 (2009)"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
-  - releaseCycle: "8"
-    release: 2019-09-24
+    releaseDate: 2014-07-07
+-   releaseCycle: "8"
     releaseLabel: "CentOS Linux 8"
     support: 2021-12-31
     eol: 2021-12-31
     latest: "8 (2111)"
-    link:  https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
-  - releaseCycle: "stream-8"
-    release: 2019-09-24
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
+    releaseDate: 2019-09-24
+-   releaseCycle: "stream-8"
     support: 2024-05-31
     eol: 2024-05-31
     releaseLabel: "CentOS Stream 8"
     latest: "8"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
-  - releaseCycle: "9"
-    release: 2021-09-15
+    releaseDate: 2019-09-24
+-   releaseCycle: "9"
     support: 2027-05-31
     eol: 2027-05-31
     latest: "9"
+
+    releaseDate: 2021-09-15
 
 ---
 

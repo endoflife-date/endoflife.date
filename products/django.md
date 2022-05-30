@@ -1,6 +1,5 @@
 ---
 title: Django
-layout: post
 permalink: /django
 category: framework
 releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
@@ -18,60 +17,60 @@ releases:
     eol: 2023-04-01
     latest: "4.0.4"
 
-    release: 2021-12-07
     latestReleaseDate: 2022-04-11
+    releaseDate: 2021-12-07
 -   releaseCycle: "3.2"
     support: 2021-12-01
     eol: 2024-04-01
     latest: "3.2.13"
     lts: true
 
-    release: 2021-04-06
     latestReleaseDate: 2022-04-11
+    releaseDate: 2021-04-06
 -   releaseCycle: "3.1"
     support: 2021-04-05
     eol: 2021-12-07
     latest: "3.1.14"
 
-    release: 2020-08-04
     latestReleaseDate: 2021-12-07
+    releaseDate: 2020-08-04
 -   releaseCycle: "3.0"
     support: 2020-08-01
     eol: 2021-04-06
     latest: "3.0.14"
 
-    release: 2019-12-02
     latestReleaseDate: 2021-04-06
+    releaseDate: 2019-12-02
 -   releaseCycle: "2.2"
     lts: true
     support: 2019-12-01
     eol: 2022-04-01
     latest: "2.2.28"
 
-    release: 2019-04-01
     latestReleaseDate: 2022-04-11
+    releaseDate: 2019-04-01
 -   releaseCycle: "2.1"
     support: 2019-04-01
     eol: 2019-12-02
     latest: "2.1.15"
 
-    release: 2018-08-01
     latestReleaseDate: 2019-12-02
+    releaseDate: 2018-08-01
 -   releaseCycle: "2.0"
     support: 2018-08-01
     eol: 2019-04-01
     latest: "2.0.13"
 
-    release: 2017-12-02
     latestReleaseDate: 2019-02-12
+    releaseDate: 2017-12-02
 -   releaseCycle: "1.11"
     lts: true
     support: 2017-12-02
     eol: 2020-04-01
     latest: "1.11.29"
 
-    release: 2017-04-04
     latestReleaseDate: 2020-03-04
+    releaseDate: 2017-04-04
 
 ---
 

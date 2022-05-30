@@ -1,6 +1,5 @@
 ---
 title: Google Kubernetes Engine
-layout: post
 category: service
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel

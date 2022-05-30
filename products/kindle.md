@@ -1,69 +1,69 @@
 ---
 title: Amazon Kindle
-layout: post
 iconSlug: amazon
 category: device
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 releases:
-  - releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
-    release: 2021-10-27
+-   releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Paperwhite11Notes
-  - releaseCycle: "Kindle Oasis 3 (10th Generation)"
-    release: 2019-07-24
+    releaseDate: 2021-10-27
+-   releaseCycle: "Kindle Oasis 3 (10th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Oasis10Notes
-  - releaseCycle: "Kindle 10 (10th Generation)"
-    release: 2019-04-10
+    releaseDate: 2019-07-24
+-   releaseCycle: "Kindle 10 (10th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Kindle10Notes
-  - releaseCycle: "Kindle Paperwhite 4 (10th Generation)"
-    release: 2018-11-07
+    releaseDate: 2019-04-10
+-   releaseCycle: "Kindle Paperwhite 4 (10th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Paperwhite10Notes
-  - releaseCycle: "Kindle Oasis 2 (9th Generation)"
-    release: 2017-10-31
+    releaseDate: 2018-11-07
+-   releaseCycle: "Kindle Oasis 2 (9th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Oasis9Notes
-  - releaseCycle: "Kindle 8 (8th Generation)"
-    release: 2016-06-22
+    releaseDate: 2017-10-31
+-   releaseCycle: "Kindle 8 (8th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Kindle8Notes
-  - releaseCycle: "Kindle Oasis (8th Generation)"
-    release: 2016-04-27
+    releaseDate: 2016-06-22
+-   releaseCycle: "Kindle Oasis (8th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Oasis8Notes
-  - releaseCycle: "Kindle Voyage (7th Generation)"
-    release: 2014-11-04
+    releaseDate: 2016-04-27
+-   releaseCycle: "Kindle Voyage (7th Generation)"
     eol: 2021-04-01
     latest: "5.13.6"
     link: https://www.amazon.com/Voyage7Notes
-  - releaseCycle: "Kindle Paperwhite 3 (7th Generation)"
-    release: 2015-06-30
+    releaseDate: 2014-11-04
+-   releaseCycle: "Kindle Paperwhite 3 (7th Generation)"
     eol: false
-    latest:  "5.14.2"
+    latest: "5.14.2"
     link: https://www.amazon.com/Paperwhite7Notes
-  - releaseCycle: "Kindle 7 (7th Generation)"
-    release: 2014-10-02
+    releaseDate: 2015-06-30
+-   releaseCycle: "Kindle 7 (7th Generation)"
     eol: 2019-10-01
     latest: "5.12.2.2"
-  - releaseCycle: "Kindle Paperwhite 2 (6th Generation)"
-    release: 2013-09-30
+    releaseDate: 2014-10-02
+-   releaseCycle: "Kindle Paperwhite 2 (6th Generation)"
     eol: 2019-10-01
     latest: "5.12.2.2"
+    releaseDate: 2013-09-30
 permalink: /kindle
 releasePolicyLink: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
+
 ---
 
 > [Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) is a series of e-readers designed by Amazon.

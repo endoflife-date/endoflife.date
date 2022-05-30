@@ -1,7 +1,6 @@
 ---
 title: Magento
 permalink: /magento
-layout: post
 category: server-app
 releasePolicyLink: https://magento.com/tech-resources/download
 changelogTemplate: https://devdocs.magento.com/guides/v__RELEASE_CYCLE__/release-notes/ReleaseNotes__LATEST__OpenSource.html
@@ -14,126 +13,127 @@ sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "2.4.3"
     cycleShortHand: 2
-    release: 2021-08-04
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
     latest: "2.4.3"
     latestReleaseDate: 2021-08-04
+    releaseDate: 2021-08-04
 -   releaseCycle: "2.4.2"
     cycleShortHand: 2
-    release: 2021-02-04
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-2.html
     latest: "2.4.2"
     latestReleaseDate: 2021-02-04
+    releaseDate: 2021-02-04
 -   releaseCycle: "2.4.1"
     cycleShortHand: 2
-    release: 2020-10-14
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html
     latest: "2.4.1"
     latestReleaseDate: 2020-10-14
+    releaseDate: 2020-10-14
 -   releaseCycle: "2.4.0"
     cycleShortHand: 2
-    release: 2020-07-20
     eol: 2022-11-30
     support: 2022-11-30
     link: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
     latest: "2.4.0"
     latestReleaseDate: 2020-07-20
+    releaseDate: 2020-07-20
 -   releaseCycle: "2.3"
     cycleShortHand: 2
-    release: 2018-11-23
     eol: 2022-09-30
     support: 2022-07-31
     link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
     latest: "2.3.7"
     latestReleaseDate: 2021-05-07
+    releaseDate: 2018-11-23
 -   releaseCycle: "2.2"
     cycleShortHand: 2
-    release: 2017-09-22
     eol: 2019-12-01
     support: 2019-12-01
     latest: "2.2.11"
     latestReleaseDate: 2020-01-07
+    releaseDate: 2017-09-22
 -   releaseCycle: "2.1"
     cycleShortHand: 2
-    release: 2016-06-23
     eol: 2019-06-01
     support: 2019-06-01
     latest: "2.1.18"
     latestReleaseDate: 2019-06-06
+    releaseDate: 2016-06-23
 -   releaseCycle: "2.0"
     cycleShortHand: 2
-    release: 2015-11-16
     eol: 2018-03-01
     support: 2018-03-01
     latest: "2.0.18"
     latestReleaseDate: 2018-02-20
+    releaseDate: 2015-11-16
 -   releaseCycle: "1.9"
     cycleShortHand: 1
-    release: 2014-05-01
     eol: 2020-06-01
     support: 2020-06-01
     latest: "1.9.4.3"
+    releaseDate: 2014-05-01
 -   releaseCycle: "1.8"
     cycleShortHand: 1
-    release: 2013-09-01
     eol: 2020-06-01
     support: 2014-09-01
     latest: "1.8.1.0"
+    releaseDate: 2013-09-01
 -   releaseCycle: "1.7"
     cycleShortHand: 1
-    release: 2012-04-01
     eol: 2020-06-01
     support: 2013-04-01
     latest: "1.7.0.2"
+    releaseDate: 2012-04-01
 -   releaseCycle: "1.6"
     cycleShortHand: 1
-    release: 2011-08-01
     eol: 2020-06-01
     support: 2012-08-01
     latest: "1.6.2.0"
+    releaseDate: 2011-08-01
 -   releaseCycle: "1.5"
     cycleShortHand: 1
-    release: 2011-02-01
     eol: 2020-06-01
     support: 2012-02-01
     latest: "1.5.1.0"
+    releaseDate: 2011-02-01
 -   releaseCycle: "1.4"
     cycleShortHand: 1
-    release: 2010-02-01
     eol: 2012-02-01
     support: 2011-02-01
     latest: "1.4.2.0"
+    releaseDate: 2010-02-01
 -   releaseCycle: "1.3"
     cycleShortHand: 1
-    release: 2009-03-01
     eol: 2011-03-01
     support: 2010-03-01
     latest: "1.3.3.0"
+    releaseDate: 2009-03-01
 -   releaseCycle: "1.2"
     cycleShortHand: 1
-    release: 2008-12-01
     eol: 2010-12-01
     support: 2009-12-01
     latest: "1.2.1.2"
+    releaseDate: 2008-12-01
 -   releaseCycle: "1.1"
     cycleShortHand: 1
-    release: 2008-07-01
     eol: 2010-07-01
     support: 2009-07-01
     latest: "1.1.8"
+    releaseDate: 2008-07-01
 -   releaseCycle: "1.0"
     cycleShortHand: 1
-    release: 2008-03-01
     eol: 2010-03-01
     support: 2009-03-01
     latest: "1.0.0"
 
+
+    releaseDate: 2008-03-01
 
 ---
 

@@ -15,7 +15,7 @@
       <loc>{{ page.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
       {{last_modified_at}}
     </url>
-    {% if page.releases %}
+    {% if page.layout == 'product' %}
     <url>
       <loc>{{ page.url | replace:'/index.html','/' |  prepend: "/api" | append:'.json' | absolute_url | xml_escape }}</loc>
       {{last_modified_at}}

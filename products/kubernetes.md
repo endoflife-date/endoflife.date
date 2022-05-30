@@ -1,6 +1,5 @@
 ---
 permalink: /kubernetes
-layout: post
 title: Kubernetes
 category: server-app
 command: kubectl version
@@ -8,7 +7,7 @@ releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/5s3rt0dg6aaqymdat8d2kt61fc3mt29.png
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
-sortReleasesBy: "release"
+sortReleasesBy: releaseDate
 activeSupportColumn: true
 eolColumn: Maintenance Support
 auto:
@@ -19,57 +18,57 @@ alternate_urls:
 # The release date for "N" should match the eol date for N-3 release.
 releases:
 -   releaseCycle: "1.24"
-    release: 2022-05-03
     latest: "1.24.1"
     support: 2023-09-29
     eol: 2023-09-29
     latestReleaseDate: 2022-05-24
+    releaseDate: 2022-05-03
 -   releaseCycle: "1.23"
-    release: 2021-12-07
     latest: "1.23.7"
     support: 2022-12-28
     eol: 2023-02-28
     latestReleaseDate: 2022-05-24
+    releaseDate: 2021-12-07
 -   releaseCycle: "1.22"
-    release: 2021-08-04
     latest: "1.22.10"
     support: 2022-08-28
     eol: 2022-10-28
     latestReleaseDate: 2022-05-24
+    releaseDate: 2021-08-04
 -   releaseCycle: "1.21"
-    release: 2021-04-08
     latest: "1.21.13"
     support: 2022-04-28
     eol: 2022-06-28
     latestReleaseDate: 2022-05-24
+    releaseDate: 2021-04-08
 -   releaseCycle: "1.20"
-    release: 2020-12-08
     latest: "1.20.15"
     support: 2021-12-28
     eol: 2022-02-28
     latestReleaseDate: 2022-01-19
+    releaseDate: 2020-12-08
 -   releaseCycle: "1.19"
-    release: 2020-08-26
     latest: "1.19.16"
     support: 2021-08-28
     eol: 2021-10-28
     latestReleaseDate: 2021-10-27
+    releaseDate: 2020-08-26
 -   releaseCycle: "1.18"
-    release: 2020-03-25
     latest: "1.18.20"
     support: 2021-04-28
     eol: 2021-06-18
     latestReleaseDate: 2021-06-16
+    releaseDate: 2020-03-25
 -   releaseCycle: "1.17"
-    release: 2019-12-07
     latest: "1.17.17"
     eol: 2020-12-25
     latestReleaseDate: 2021-01-13
+    releaseDate: 2019-12-07
 -   releaseCycle: "1.16"
-    release: 2019-09-18
     eol: 2020-08-04
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02
+    releaseDate: 2019-09-18
 
 ---
 
