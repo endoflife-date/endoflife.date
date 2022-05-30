@@ -1,16 +1,8 @@
 /* TEAM */
 
-Name: John Michael Ferraris
-GitHub: @jhnferraris
-
-Name: Nemo
-Contact: endoflife.date [at] captnemo.in
-GitHub: @captn3m0
-
-Name: BiNZGi
-GitHub: @BiNZGi
-
-More: https://github.com/endoflife-date/endoflife.date/graphs/contributors
+Team: https://github.com/orgs/endoflife-date/people
+Contributors: https://github.com/endoflife-date/endoflife.date/graphs/contributors
 
 /* SITE */
-Tools: Jekyll, Netlify, GitHub, Ruby
+Software: Jekyll, Netlify, GitHub, Ruby, GitHub Actions
+Components: Just the Docs Jekyll Theme, Stoplight Elements
