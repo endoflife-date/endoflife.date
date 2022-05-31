@@ -12,7 +12,7 @@ auto:
 -   git: https://github.com/symfony/symfony.git
 category: framework
 releases:
-  - releaseCycle: "6.1"
+-   releaseCycle: "6.1"
     release: 2022-05-27
     support: 2023-01-31
     eol: 2023-01-31
