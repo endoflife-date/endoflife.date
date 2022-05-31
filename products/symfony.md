@@ -13,7 +13,7 @@ auto:
 category: framework
 releases:
 -   releaseCycle: "6.1"
-    release: 2022-05-27
+    releaseDate: 2022-05-27
     support: 2023-01-31
     eol: 2023-01-31
     latest: "6.1.0"
