@@ -51,7 +51,6 @@ releases:
     releaseDate: 2020-04-21
 -   releaseCycle: "13"
     release: 2019-10-22
-    lts: false
     support: 2020-04-01
     eol: 2020-06-01
     latest: "13.14.0"
@@ -70,8 +69,8 @@ releases:
     latestReleaseDate: 2021-04-06
     releaseDate: 2018-04-24
 -   releaseCycle: "8"
-    release: 2017-10-31
-    lts: true
+    release: 2017-05-30
+    lts: 2017-10-31
     support: 2019-01-01
     eol: 2019-12-31
     latest: "8.17.0"
