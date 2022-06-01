@@ -14,18 +14,18 @@ auto:
 releases:
 -   releaseCycle: "3.10"
     eol: false
-    latest: "3.10.2"
-    latestReleaseDate: 2022-05-20
+    latest: "3.10.4"
+    latestReleaseDate: 2022-05-31
     releaseDate: 2022-05-03
 -   releaseCycle: "3.9"
     eol: false
-    latest: "3.9.18"
-    latestReleaseDate: 2022-05-20
+    latest: "3.9.19"
+    latestReleaseDate: 2022-05-31
     releaseDate: 2021-07-23
 -   releaseCycle: "3.8"
     eol: 2022-01-31
-    latest: "3.8.32"
-    latestReleaseDate: 2022-05-20
+    latest: "3.8.33"
+    latestReleaseDate: 2022-05-31
     releaseDate: 2019-10-01
 -   releaseCycle: "3.7"
     eol: 2020-09-30
