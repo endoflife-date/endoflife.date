@@ -15,6 +15,11 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releases:
+-   releaseCycle: "2.9"
+    latest: "2.9.0"
+    eol: false
+    latestReleaseDate: 2022-05-30
+    releaseDate: 2022-05-30
 -   releaseCycle: "2.8"
     latest: "2.8.1"
     eol: false
