@@ -9,10 +9,10 @@ releases:
 -   releaseCycle: "2.3"
     eol: false
     support: true
-    latest: "2.3.5"
+    latest: "2.3.6"
     link: https://blog.packagist.com/composer-2-3/
 
-    latestReleaseDate: 2022-04-13
+    latestReleaseDate: 2022-06-01
     releaseDate: 2022-03-30
 -   releaseCycle: "2.2"
     eol: 2023-12-31
