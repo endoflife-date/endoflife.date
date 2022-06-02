@@ -5,6 +5,9 @@ alternate_urls:
 category: os
 sortReleasesBy: releaseDate
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+# Data here: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
+auto:
+-   custom: true
 releases:
 -   releaseCycle: "12"
     codename: "Monterey"
