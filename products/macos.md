@@ -20,7 +20,7 @@ releases:
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
-    releaseDate: 2020-11-05
+    releaseDate: 2020-11-12
     latestReleaseDate: 2022-05-16
     latest: 11.6.6
 -   releaseCycle: "10.15"
@@ -33,27 +33,27 @@ releases:
 -   releaseCycle: "10.14"
     codename: "Mojave"
     eol: 2021-10-25
-    releaseDate: 2022-05-16
+    releaseDate: 2018-09-24
     latestReleaseDate: 2019-07-22
     latest: 10.14.6
 -   releaseCycle: "10.13"
     codename: "High Sierra"
     eol: 2020-12-01
-    releaseDate: 2019-12-10
-    latestReleaseDate: 2022-05-16
+    releaseDate: 2017-09-25
+    latestReleaseDate: 2018-07-09
     latest: 10.13.6
 -   releaseCycle: "10.12"
     codename: "Sierra"
     eol: 2019-10-01
-    releaseDate: 2019-12-10
-    latestReleaseDate: 2019-12-10
+    releaseDate: 2016-09-20
+    latestReleaseDate: 2017-07-19
     latest: 10.12.6
 -   releaseCycle: "10.11"
     codename: "El Capitan"
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
     eol: 2018-12-01
     releaseDate: 2015-09-30
-    latestReleaseDate: 2019-12-10
+    latestReleaseDate: 2016-07-18
     latest: 10.11.6
 -   releaseCycle: "10.10"
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -66,8 +66,8 @@ releases:
     releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Mavericks"
     eol: 2016-12-01
-    releaseDate: 2014-12-09
-    latestReleaseDate: 2015-12-08
+    releaseDate: 2013-10-22
+    latestReleaseDate: 2014-09-17
     latest: 10.9.5
 permalink: /macos
 releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
