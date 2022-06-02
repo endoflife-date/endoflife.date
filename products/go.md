@@ -17,14 +17,14 @@ releases:
 -   releaseCycle: "1.18"
     cycleShortHand: 118
     eol: false
-    latest: "1.18.2"
-    latestReleaseDate: 2022-05-10
+    latest: "1.18.3"
+    latestReleaseDate: 2022-06-01
     releaseDate: 2022-03-15
 -   releaseCycle: "1.17"
     cycleShortHand: 117
     eol: false
-    latest: "1.17.10"
-    latestReleaseDate: 2022-05-10
+    latest: "1.17.11"
+    latestReleaseDate: 2022-06-01
     releaseDate: 2021-08-16
 -   releaseCycle: "1.16"
     cycleShortHand: 116
