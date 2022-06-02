@@ -72,7 +72,7 @@ releases:
 permalink: /macos
 releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
 activeSupportColumn: false
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
 versionCommand: sw_vers
