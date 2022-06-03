@@ -3,7 +3,9 @@ title: Elasticsearch
 permalink: /elasticsearch
 category: db
 releasePolicyLink: https://www.elastic.co/support/eol
-changelogTemplate: https://www.elastic.co/guide/en/elasticsearch/reference/__RELEASE_CYCLE__/release-notes-__LATEST__.html
+# Take the latest version, and drop the patch version to get MAJOR.MINOR
+changelogTemplate: >
+  https://www.elastic.co/guide/en/elasticsearch/reference/{{"__LATEST__"|split:"."|pop|join:'.'}}/release-notes-__LATEST__.html
 versionCommand: $ES_HOME/bin/elasticsearch -v
 sortReleasesBy: releaseDate
 auto:
