@@ -62,6 +62,11 @@ releases:
     latest: "12.22.12"
     latestReleaseDate: 2022-04-05
     releaseDate: 2019-04-23
+-   releaseCycle: "11"
+    support: 2019-04-01
+    eol: 2019-06-30
+    latest: "11.15.0"
+    releaseDate: 2018-10-23
 -   releaseCycle: "10"
     lts: 2018-10-30
     support: 2020-05-19
@@ -69,6 +74,11 @@ releases:
     latest: "10.24.1"
     latestReleaseDate: 2021-04-06
     releaseDate: 2018-04-24
+-   releaseCycle: "9"
+    support: 2018-06-30
+    eol: 2018-06-30
+    latest: "9.11.2"
+    releaseDate: 2017-10-31
 -   releaseCycle: "8"
     lts: 2017-10-31
     support: 2019-01-01
@@ -76,6 +86,44 @@ releases:
     latest: "8.17.0"
     releaseDate: 2017-05-30
     latestReleaseDate: 2019-12-17
+-   releaseCycle: "7"
+    support: 2017-06-30
+    eol: 2017-06-30
+    latest: "7.10.1"
+    releaseDate: 2016-10-25
+-   releaseCycle: "6"
+    support: 2018-04-30
+    lts: 2016-10-18
+    eol: 2019-04-30
+    latest: "6.17.1"
+    releaseDate: 2016-04-26
+-   releaseCycle: "5"
+    support: 2016-06-30
+    eol: 2016-06-30
+    latest: "5.12.0"
+    releaseDate: 2015-10-30
+-   releaseCycle: "4"
+    support: 2017-04-01
+    eol: 2018-04-30
+    latest: "4.9.1"
+    releaseDate: 2015-09-09
+    lts: 2015-10-01
+-   releaseCycle: "3"
+    support: false
+    eol: true
+    latest: "3.3.1"
+    releaseDate: 2015-08-04
+-   releaseCycle: "2"
+    support: false
+    eol: true
+    latest: "2.5.0"
+    releaseDate: 2015-05-04
+-   releaseCycle: "1"
+    support: false
+    eol: true
+    latest: "1.8.4"
+    releaseDate: 2015-01-20
+
 
 ---
 
