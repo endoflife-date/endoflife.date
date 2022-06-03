@@ -75,8 +75,8 @@ releases:
     latestReleaseDate: 2021-04-06
     releaseDate: 2018-04-24
 -   releaseCycle: "9"
-    support: false
-    eol: true
+    support: 2018-06-30
+    eol: 2018-06-30
     latest: "9.11.2"
     releaseDate: 2017-10-31
 -   releaseCycle: "8"
@@ -87,25 +87,27 @@ releases:
     releaseDate: 2017-05-30
     latestReleaseDate: 2019-12-17
 -   releaseCycle: "7"
-    support: false
-    eol: true
+    support: 2017-06-30
+    eol: 2017-06-30
     latest: "7.10.1"
     releaseDate: 2016-10-25
 -   releaseCycle: "6"
-    support: false
-    eol: true
+    support: 2018-04-30
+    lts: 2016-10-18
+    eol: 2019-04-30
     latest: "6.17.1"
     releaseDate: 2016-04-26
 -   releaseCycle: "5"
-    support: false
-    eol: true
+    support: 2016-06-30
+    eol: 2016-06-30
     latest: "5.12.0"
     releaseDate: 2015-10-30
 -   releaseCycle: "4"
-    support: false
-    eol: true
+    support: 2017-04-01
+    eol: 2018-04-30
     latest: "4.9.1"
     releaseDate: 2015-09-09
+    lts: 2015-10-01
 -   releaseCycle: "3"
     support: false
     eol: true
