@@ -10,6 +10,11 @@ changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 auto:
 -   git: https://github.com/angular/angular.git
 releases:
+-   releaseCycle: "14"
+    support: 2022-12-02
+    eol: 2022-12-02
+    latest: "14.0.0"
+    releaseDate: 2022-06-02
 -   releaseCycle: "13"
     support: 2022-05-04
     eol: 2023-05-04
