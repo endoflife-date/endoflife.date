@@ -31,6 +31,7 @@ releases:
     latestReleaseDate: 2022-03-31
     releaseDate: 2021-05-28
 -   releaseCycle: "1.35"
+    lts: true
     eol: 2023-09-01
     latest: "1.35.6"
     latestReleaseDate: 2022-03-31
