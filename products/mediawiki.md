@@ -4,59 +4,6 @@ category: server-app
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/j6ewb6m3bxxticwu9ifde277qxob995.png
-auto:
--   git: https://github.com/wikimedia/mediawiki.git
-releases:
-#  - releaseCycle: "1.38"
-#    lts: false
-#    release: 2022-05-01
-#    eol: 2023-05-01
-
--   releaseCycle: "1.37"
-    lts: false
-    eol: 2022-11-01
-    latest: "1.37.2"
-
-    latestReleaseDate: 2022-04-01
-    releaseDate: 2021-11-18
--   releaseCycle: "1.36"
-    lts: false
-    eol: 2022-05-01
-    latest: "1.36.4"
-    latestReleaseDate: 2022-03-31
-    releaseDate: 2021-05-28
--   releaseCycle: "1.35"
-    lts: true
-    eol: 2023-09-01
-    latest: "1.35.6"
-
-    latestReleaseDate: 2022-03-31
-    releaseDate: 2020-09-25
--   releaseCycle: "1.34"
-    eol: 2020-11-30
-    latest: "1.34.4"
-
-    latestReleaseDate: 2020-09-24
-    releaseDate: 2019-12-19
--   releaseCycle: "1.33"
-    eol: 2020-06-30
-    latest: "1.33.4"
-
-    latestReleaseDate: 2020-06-24
-    releaseDate: 2019-07-02
--   releaseCycle: "1.32"
-    eol: 2020-01-24
-    latest: "1.32.6"
-
-    latestReleaseDate: 2019-12-19
-    releaseDate: 2019-01-10
--   releaseCycle: "1.31"
-    lts: true
-    eol: 2021-09-30
-    latest: "1.31.16"
-
-    latestReleaseDate: 2021-09-30
-    releaseDate: 2018-06-13
 iconSlug: NA
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
@@ -65,8 +12,50 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-Life
 versionCommand: "https://your-server-url/mediawiki/Special:Version"
-
-
+auto:
+-   git: https://github.com/wikimedia/mediawiki.git
+releases:
+-   releaseCycle: "1.38"
+    eol: 2023-06-01
+    latest: "1.38.0"
+    latestReleaseDate: 2022-06-02
+    releaseDate: 2022-06-02
+-   releaseCycle: "1.37"
+    eol: 2022-11-01
+    latest: "1.37.2"
+    latestReleaseDate: 2022-04-01
+    releaseDate: 2021-11-18
+-   releaseCycle: "1.36"
+    eol: 2022-05-01
+    latest: "1.36.4"
+    latestReleaseDate: 2022-03-31
+    releaseDate: 2021-05-28
+-   releaseCycle: "1.35"
+    eol: 2023-09-01
+    latest: "1.35.6"
+    latestReleaseDate: 2022-03-31
+    releaseDate: 2020-09-25
+-   releaseCycle: "1.34"
+    eol: 2020-11-30
+    latest: "1.34.4"
+    latestReleaseDate: 2020-09-24
+    releaseDate: 2019-12-19
+-   releaseCycle: "1.33"
+    eol: 2020-06-30
+    latest: "1.33.4"
+    latestReleaseDate: 2020-06-24
+    releaseDate: 2019-07-02
+-   releaseCycle: "1.32"
+    eol: 2020-01-24
+    latest: "1.32.6"
+    latestReleaseDate: 2019-12-19
+    releaseDate: 2019-01-10
+-   releaseCycle: "1.31"
+    lts: true
+    eol: 2021-09-30
+    latest: "1.31.16"
+    latestReleaseDate: 2021-09-30
+    releaseDate: 2018-06-13
 
 ---
 
