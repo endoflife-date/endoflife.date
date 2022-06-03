@@ -6,7 +6,7 @@ iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
 changelogTemplate: |
-  https://kernelnewbies.org/Linux__RELEASE_CYCLE__
+  https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
