@@ -7,11 +7,11 @@ changelogTemplate: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-
 releases:
 -   releaseCycle: "1.22"
     eol: 2023-05-01
-    latest: "1.22.6"
+    latest: "1.22.9"
     releaseDate: 2022-04-04
 -   releaseCycle: "1.21"
     eol: 2023-02-01
-    latest: "1.21.9"
+    latest: "1.21.12"
     releaseDate: 2021-07-19
 -   releaseCycle: "1.20"
     eol: 2022-09-01
