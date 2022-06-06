@@ -6,7 +6,7 @@ iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
 changelogTemplate: |
-  https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
+  https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
@@ -22,14 +22,14 @@ releases:
 -   releaseCycle: "5.18"
     cycleShortHand: 518
     eol: false
-    latest: "5.18"
+    latest: "5.18.1"
     latestReleaseDate: 2022-05-22
 
     releaseDate: 2022-05-22
 -   releaseCycle: "5.17"
     cycleShortHand: 517
     eol: false
-    latest: "5.17.9"
+    latest: "5.17.12"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2022-03-20
@@ -44,7 +44,7 @@ releases:
     cycleShortHand: 515
     eol: 2023-10-31
     lts: true
-    latest: "5.15.41"
+    latest: "5.15.44"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2021-10-31
@@ -52,7 +52,7 @@ releases:
     cycleShortHand: 510
     eol: 2026-12-01
     lts: true
-    latest: "5.10.117"
+    latest: "5.10.119"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2020-12-13
@@ -60,7 +60,7 @@ releases:
     cycleShortHand: 504
     eol: 2025-12-01
     lts: true
-    latest: "5.4.195"
+    latest: "5.4.196"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2019-11-24
@@ -68,7 +68,7 @@ releases:
     cycleShortHand: 419
     eol: 2024-12-01
     lts: true
-    latest: "4.19.244"
+    latest: "4.19.245"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2018-10-22
@@ -76,7 +76,7 @@ releases:
     cycleShortHand: 414
     eol: 2024-01-01
     lts: true
-    latest: "4.14.280"
+    latest: "4.14.281"
     latestReleaseDate: 2022-05-18
 
     releaseDate: 2017-11-12
@@ -84,7 +84,7 @@ releases:
     cycleShortHand: 409
     eol: 2023-01-01
     lts: true
-    latest: "4.9.315"
+    latest: "4.9.316"
     latestReleaseDate: 2022-05-18
     releaseDate: 2016-12-11
 
