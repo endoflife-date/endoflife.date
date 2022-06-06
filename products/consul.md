@@ -15,8 +15,8 @@ versionCommand: consul --version
 releases:
 -   releaseCycle: "1.12"
     eol: false
-    latest: "1.12.1"
-    latestReleaseDate: 2022-05-25
+    latest: "1.12.2"
+    latestReleaseDate: 2022-06-03
     releaseDate: 2022-04-19
 -   releaseCycle: "1.11"
     eol: false

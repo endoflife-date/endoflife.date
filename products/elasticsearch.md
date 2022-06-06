@@ -24,8 +24,8 @@ releases:
     releaseDate: 2019-04-10
 -   releaseCycle: "6.0"
     eol: 2019-05-14
-    latest: "6.8.9"
-    latestReleaseDate: 2020-05-13
+    latest: "6.0.1"
+    latestReleaseDate: 2017-12-07
     releaseDate: 2017-11-14
 
 ---
