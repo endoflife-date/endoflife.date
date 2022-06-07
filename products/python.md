@@ -16,8 +16,8 @@ auto:
 releases:
 -   releaseCycle: "3.10"
     eol: 2026-10-04
-    latest: "3.10.4"
-    latestReleaseDate: 2022-03-23
+    latest: "3.10.5"
+    latestReleaseDate: 2022-06-06
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05
