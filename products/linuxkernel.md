@@ -22,15 +22,15 @@ releases:
 -   releaseCycle: "5.18"
     cycleShortHand: 518
     eol: false
-    latest: "5.18.1"
-    latestReleaseDate: 2022-05-22
+    latest: "5.18.2"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2022-05-22
 -   releaseCycle: "5.17"
     cycleShortHand: 517
     eol: false
-    latest: "5.17.9"
-    latestReleaseDate: 2022-05-18
+    latest: "5.17.13"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2022-03-20
 -   releaseCycle: "5.16"
@@ -44,48 +44,48 @@ releases:
     cycleShortHand: 515
     eol: 2023-10-31
     lts: true
-    latest: "5.15.41"
-    latestReleaseDate: 2022-05-18
+    latest: "5.15.45"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2021-10-31
 -   releaseCycle: "5.10"
     cycleShortHand: 510
     eol: 2026-12-01
     lts: true
-    latest: "5.10.117"
-    latestReleaseDate: 2022-05-18
+    latest: "5.10.120"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2020-12-13
 -   releaseCycle: "5.4"
     cycleShortHand: 504
     eol: 2025-12-01
     lts: true
-    latest: "5.4.195"
-    latestReleaseDate: 2022-05-18
+    latest: "5.4.197"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2019-11-24
 -   releaseCycle: "4.19"
     cycleShortHand: 419
     eol: 2024-12-01
     lts: true
-    latest: "4.19.244"
-    latestReleaseDate: 2022-05-18
+    latest: "4.19.246"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2018-10-22
 -   releaseCycle: "4.14"
     cycleShortHand: 414
     eol: 2024-01-01
     lts: true
-    latest: "4.14.280"
-    latestReleaseDate: 2022-05-18
+    latest: "4.14.282"
+    latestReleaseDate: 2022-06-06
 
     releaseDate: 2017-11-12
 -   releaseCycle: "4.9"
     cycleShortHand: 409
     eol: 2023-01-01
     lts: true
-    latest: "4.9.315"
-    latestReleaseDate: 2022-05-18
+    latest: "4.9.317"
+    latestReleaseDate: 2022-06-06
     releaseDate: 2016-12-11
 
 ---
@@ -102,4 +102,3 @@ There are several main categories into which kernel releases may fall:
 - **Stable** is labeled after each mainline kernel is released. Any bug fixes for a stable kernel are backported from the mainline tree. There are usually only a few bugfix kernel releases until next mainline kernel becomes available -- unless it is designated a "longterm maintenance kernel". Stable kernel updates are released on as-needed basis, usually once a week.
         
 - **Longterm (LTS)** are usually several longterm maintenance kernel releases provided for the purposes of backporting bugfixes for older kernel trees. By default these are only supported for two years (as opposed to the 4 months of a non-LTS release) [but are usually extended depending on how long companies pledge to back it.](https://lore.kernel.org/lkml/YA%2FE1bHRmZb50MlS@kroah.com/) Only important bugfixes are applied to such kernels and they don't usually see very frequent releases, especially for older trees.
-
