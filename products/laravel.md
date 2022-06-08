@@ -14,16 +14,16 @@ releases:
 -   releaseCycle: "9"
     support: 2023-08-08
     eol: 2024-02-08
-    latest: 9.16.0
+    latest: 9.17.0
     lts: false
-    latestReleaseDate: 2022-06-02
+    latestReleaseDate: 2022-06-07
     releaseDate: 2022-02-08
 -   releaseCycle: "8"
     support: 2022-07-26
     eol: 2023-01-24
-    latest: 8.83.15
+    latest: 8.83.16
     lts: false
-    latestReleaseDate: 2022-05-31
+    latestReleaseDate: 2022-06-07
     releaseDate: 2020-09-08
 -   releaseCycle: "7"
     support: 2020-10-06

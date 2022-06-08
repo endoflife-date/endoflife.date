@@ -16,9 +16,9 @@ releaseColumn: true
 releaseDateColumn: true
 releases:
 -   releaseCycle: "2.9"
-    latest: "2.9.0"
+    latest: "2.9.1"
     eol: false
-    latestReleaseDate: 2022-05-30
+    latestReleaseDate: 2022-06-07
     releaseDate: 2022-05-30
 -   releaseCycle: "2.8"
     latest: "2.8.1"
