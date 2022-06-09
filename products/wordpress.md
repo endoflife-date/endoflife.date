@@ -14,6 +14,8 @@ releases:
     releaseDate: 2022-02-20
     latest: "5.9.3"
     link: https://wordpress.org/news/2022/01/josephine/
+auto:
+-   git: https://github.com/WordPress/wordpress-develop.git
 iconSlug: wordpress
 permalink: /wordpress
 activeSupportColumn: false
