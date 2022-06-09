@@ -74,7 +74,7 @@ releases:
 
 >[Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
 
-Kubernetes follows an N-2 support policy (meaning that the 3 most recent minor versions receive security and bug fixes) along with a [15-week release cycle][cadence]. This results in a release being supported for 14 months (12 months of support and 2 months of upgrade period) starting from v1.19. (Prior releases received approximately 9 months of patch support).
+Kubernetes follows an N-2 support policy (meaning that the 3 most recent minor versions receive security and bug fixes) along with a [15-week release cycle][cadence]. This results in a release being supported for 14 months (12 months of support and 2 months of upgrade period).
 
 Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Patch releases are cut from those branches at a [regular cadence][cadence], plus additional urgent releases, when required. The [Release Managers group](https://kubernetes.io/releases/release-managers) owns this decision. For more information, see [the patch release](https://kubernetes.io/releases/patch-releases/) page, which also lists expected release dates for future releases, along with exact EoL dates for all active branches.
 
