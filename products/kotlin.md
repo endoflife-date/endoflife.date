@@ -19,12 +19,18 @@ releaseDateColumn: true
 releaseColumn: true
 
 releases:
+-   releaseCycle: "1.7"
+    cycleShortHand: 107
+    eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
+    support: false
+    latest: "1.7.0"
+    latestReleaseDate: 2022-06-07
+    releaseDate: 2022-06-07
 -   releaseCycle: "1.6"
     cycleShortHand: 106
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     latest: "1.6.21"
-
     latestReleaseDate: 2022-04-18
     releaseDate: 2021-11-11
 -   releaseCycle: "1.5"
@@ -32,7 +38,6 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     latest: "1.5.32"
-
     latestReleaseDate: 2021-11-26
     releaseDate: 2021-04-26
 -   releaseCycle: "1.4"
@@ -40,7 +45,6 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     latest: "1.4.32"
-
     latestReleaseDate: 2021-03-25
     releaseDate: 2020-08-13
 -   releaseCycle: "1.3"
@@ -48,7 +52,6 @@ releases:
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
     latest: "1.3.72"
-
     latestReleaseDate: 2020-04-14
     releaseDate: 2018-10-25
 
