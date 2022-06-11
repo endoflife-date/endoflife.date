@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "16"
     lts: 2021-10-26
     support: 2022-10-18
-    eol: 2024-04-30
+    eol: 2023-09-11
     latest: "16.15.1"
     latestReleaseDate: 2022-06-01
     releaseDate: 2021-04-20
@@ -140,3 +140,7 @@ releases:
 Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them. After six months, odd-numbered releases (9, 11, etc.) become unsupported, and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use. LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance LTS releases.
 
 If a even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
+
+The End-of-Life date for Node.js 16 was [moved forward by seven months][eol-16] to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
+
+[eol-16]: https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16"
