@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "16"
     lts: 2021-10-26
     support: 2022-10-18
-    eol: 2024-04-30
+    eol: 2023-09-11
     latest: "16.15.1"
     latestReleaseDate: 2022-06-01
     releaseDate: 2021-04-20
