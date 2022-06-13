@@ -15,6 +15,13 @@ auto:
 -   git: https://github.com/alpinelinux/aports.git
 sortReleasesBy: 'cycleShortHand'
 releases:
+-   releaseCycle: "3.16"
+    eol: 2024-05-23
+    cycleShortHand: 316
+    latest: "3.16.0"
+    link: https://alpinelinux.org/posts/Alpine-3.16.0-released.html
+    latestReleaseDate: 2022-05-23
+    releaseDate: 2022-05-23
 -   releaseCycle: "3.15"
     eol: 2023-11-01
     cycleShortHand: 315
@@ -85,4 +92,4 @@ releases:
 
 There are several releases of Alpine Linux available at the same time. There is no fixed release cycle but rather a snapshot of edge is taken every 6 months as a release. Stable releases are supported normally for 2 years. Security fixes beyond that are on request and when patches are available.
 
-Only the latest release (ie `v3.15` at this time) gets bug fixes, prior supported releases only get security fixes.
+Only the latest release (ie `v3.16` at this time) gets bug fixes, prior supported releases only get security fixes.
