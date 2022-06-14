@@ -31,7 +31,7 @@ releases:
     releaseDate: 13-11-2013
     
 -   releaseCycle: "11"
-    eol: false
+    eol: 10-14-2031
     releaseDate: 13-11-2013
 
 
@@ -45,3 +45,4 @@ Microsoft recommends users to transition to [Microsoft Edge](https://www.microso
 
 - Semi-Annual channel Windows installs (Home, Pro, Education, Enterprise, Workstations editions) have Internet Explorer be end of life on June 14, 2022 regardless of their accompanying operating system's life cycle.
 - Internet Explorer 11 is supported on LTSB, LTSC and Server for their appropiate operating system's life cycle, including ESU. For exceptions to this see [Microsoft's documentation](https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-)
+- End of life date for Internet Explorer 11 non semi-annual channel is based on the end of life date of [pWindows Server 2022's extended end date](https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2022). But if the operating system that Internet Explorer 11 is installed on loses support prior to this then your installation is unsupported.
