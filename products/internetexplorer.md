@@ -12,18 +12,18 @@ releases:
 
 -   releaseCycle: "7" 
     eol: 10-10-2023
-    releaseDate: 10-18-2006
+    releaseDate: 18-10-2006
 
 -   releaseCycle: "8"
-    eol: 01-12-2016
-    releaseDate: 06-17-2009
+    eol: 12-01-2016
+    releaseDate: 17-06-2009
     
 -   releaseCycle: "9"
-    eol: 01-12-2016
+    eol: 12-01-2016
     releaseDate: 15-03-2011    
 
 -   releaseCycle: "10"
-    eol: 01-31-2020
+    eol: 31-01-2020
     releaseDate: 30-10-2012
 
 -   releaseCycle: "11 (Semi-Annual Channel)" # This applies to 99% of users
@@ -31,7 +31,7 @@ releases:
     releaseDate: 13-11-2013
     
 -   releaseCycle: "11"
-    eol: 10-14-2031
+    eol: 14-10-2031
     releaseDate: 13-11-2013
 
 
