@@ -11,28 +11,30 @@ sortReleasesBy: releaseDate
 releases:
 
 -   releaseCycle: "7" 
-    eol: 10-10-2023
-    releaseDate: 18-10-2006
+    eol: 2023-10-10
+    releaseDate: 2006-10-18
 
 -   releaseCycle: "8"
-    eol: 12-01-2016
-    releaseDate: 17-06-2009
+    eol: 2016-01-12
+    releaseDate: 2009-09-17
+
     
 -   releaseCycle: "9"
-    eol: 12-01-2016
-    releaseDate: 15-03-2011    
+    eol: 2016-01-12
+    releaseDate: 2011-05-11
 
 -   releaseCycle: "10"
-    eol: 31-01-2020
-    releaseDate: 30-10-2012
+    eol: 2020-01-31
+    releaseDate: 2012-10-30
 
 -   releaseCycle: "11 (Semi-Annual Channel)" # This applies to 99% of users
-    eol: 06-14-2022
-    releaseDate: 13-11-2013
+    eol: 2022-06-14
+    releaseDate: 2013-11-13
+
     
 -   releaseCycle: "11"
-    eol: 14-10-2031
-    releaseDate: 13-11-2013
+    eol: 2031-10-14
+    releaseDate: 2023-11-13
 
 
 ---
