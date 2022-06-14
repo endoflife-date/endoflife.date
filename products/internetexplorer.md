@@ -16,12 +16,12 @@ releases:
 
 -   releaseCycle: "8"
     eol: 2016-01-12
-    releaseDate: 2009-09-17
+    releaseDate: 2009-06-17
 
     
 -   releaseCycle: "9"
     eol: 2016-01-12
-    releaseDate: 2011-05-11
+    releaseDate: 2011-03-15
 
 -   releaseCycle: "10"
     eol: 2020-01-31
