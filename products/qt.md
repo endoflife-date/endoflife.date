@@ -14,10 +14,10 @@ releases:
 -   releaseCycle: "6.3"
     cycleShortHand: 603
     eol: 2022-10-12
-    latest: "6.3.0"
+    latest: "6.3.1"
     lts: false
     link: https://www.qt.io/blog/qt-6.3-released
-    latestReleaseDate: 2022-04-11
+    latestReleaseDate: 2022-06-13
     releaseDate: 2022-04-11
 -   releaseCycle: "6.2"
     cycleShortHand: 602
