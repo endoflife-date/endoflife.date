@@ -13,7 +13,7 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 eolColumn: Support Status
 auto:
--   git: https://github.com/dotnet/runtime.git
+-   git: https://github.com/dotnet/core.git
 releases:
 -   releaseCycle: "6.0"
     cycleShortHand: "6.0"
