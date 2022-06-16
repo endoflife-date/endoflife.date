@@ -14,7 +14,7 @@ sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "2.4"
     eol: false
-    latest: "2.4.53"
+    latest: "2.4.54"
     link: https://downloads.apache.org/httpd/Announcement2.4.html
     releaseDate: 2012-02-21
 -   releaseCycle: "2.2"

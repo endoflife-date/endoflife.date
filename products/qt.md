@@ -17,7 +17,7 @@ releases:
     latest: "6.3.1"
     lts: false
     link: https://www.qt.io/blog/qt-6.3.1-released
-    latestReleaseDate: 2022-04-11
+    latestReleaseDate: 2022-06-13
     releaseDate: 2022-04-11
 -   releaseCycle: "6.2"
     cycleShortHand: 602
@@ -44,7 +44,7 @@ releases:
 -   releaseCycle: "5.15"
     cycleShortHand: 515
     eol: 2023-05-26
-    latest: "5.15.10"
+    latest: "5.15.2"
     lts: true
     link: https://www.qt.io/blog/qt-5.15-released
     latestReleaseDate: 2020-11-13
@@ -108,3 +108,4 @@ The [KDE Project](https://kde.org/) maintains a patch collection to support [Qt 
 [license]: https://www.qt.io/licensing/ "Licensing page on the Qt Website"
 [extended-support]: https://www.qt.io/qt-support/
 [lts-limit]: https://www.qt.io/blog/qt-offering-changes-2020 "Qt offering changes 2020"
+
