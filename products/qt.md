@@ -16,8 +16,8 @@ releases:
     eol: 2022-10-12
     latest: "6.3.1"
     lts: false
-    link: https://www.qt.io/blog/qt-6.3-released
-    latestReleaseDate: 2022-06-13
+    link: https://www.qt.io/blog/qt-6.3.1-released
+    latestReleaseDate: 2022-04-11
     releaseDate: 2022-04-11
 -   releaseCycle: "6.2"
     cycleShortHand: 602
@@ -44,7 +44,7 @@ releases:
 -   releaseCycle: "5.15"
     cycleShortHand: 515
     eol: 2023-05-26
-    latest: "5.15.2"
+    latest: "5.15.10"
     lts: true
     link: https://www.qt.io/blog/qt-5.15-released
     latestReleaseDate: 2020-11-13
