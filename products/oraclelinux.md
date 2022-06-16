@@ -8,7 +8,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
 sortReleasesBy: releaseDate
-iconSlug: NA
+iconSlug: oracle
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releases:
 -   releaseCycle: "8"
@@ -26,7 +26,7 @@ releases:
 
 ---
 
-> [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle.
+> [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle to be 100% application binary compatible alternative to Red Hat Enterprise Linux.
 
 ## Differences with Upstream RHEL:
 
