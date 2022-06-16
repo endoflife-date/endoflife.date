@@ -53,7 +53,8 @@ releases:
 releasePolicyLink: https://roundcube.net/news/2021/10/18/roundcube-1.5.0-released
 releaseDateColumn: true
 eolColumn: Security Support
-iconSlug: roundcube
+icon:
+  simpleicons: roundcube
 
 ---
 

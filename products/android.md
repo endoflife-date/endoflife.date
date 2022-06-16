@@ -118,6 +118,8 @@ releases:
     releaseLabel: "Android __RELEASE_CYCLE__"
     eol: true
     releaseDate: 2008-09-23
+icon:
+  simpleicons: android
 
 ---
 

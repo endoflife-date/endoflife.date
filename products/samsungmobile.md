@@ -2,7 +2,6 @@
 permalink: /samsung-mobile
 title: Samsung Mobile
 category: device
-iconSlug: samsung
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 discontinuedColumn: false
 activeSupportColumn: true
@@ -910,6 +909,8 @@ releases:
     support: false
     eol: false
     releaseDate: 2019-04-01
+icon:
+  simpleicons: samsung
 
 ---
 

@@ -67,6 +67,8 @@ releases:
     latest: "1.0.16"
 
     releaseDate: 2016-06-27
+icon:
+  simpleicons: dotnet
 
 ---
 

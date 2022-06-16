@@ -3,7 +3,6 @@ releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-b
 title: NVIDIA Driver
 permalink: /nvidia
 category: app
-iconSlug: nvidia
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 activeSupportColumn: true
 releaseDateColumn: true
@@ -131,6 +130,8 @@ releases:
     link: https://www.nvidia.com/download/driverResults.aspx/187162/en-us
     cycleShortHand: 13
     releaseDate: 2022-01-11
+icon:
+  simpleicons: nvidia
 
 ---
 

@@ -8,7 +8,6 @@ changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST_
 auto:
 -   git: https://github.com/tarantool/tarantool.git
 category: db
-iconSlug: NA
 eolColumn: Support Status
 releaseDateColumn: false
 sortReleasesBy: releaseDate
@@ -67,6 +66,8 @@ releases:
     latest: "1.10.13"
     latestReleaseDate: 2022-04-26
     releaseDate: 2018-03-07
+icon:
+  simpleicons: tarantool
 
 ---
 
@@ -80,3 +81,4 @@ Here are the most significant changes from the legacy release policy:
 
 - The third number in the version label doesn’t distinguish between pre-release (alpha and beta) and release versions. Instead, it is used for patch (bugfix-only) releases. Pre-release versions have suffixes, like `3.0.0-alpha1`.
 - In the legacy release policy, `1.10` was a long-term support (LTS) series, while `2.x.y` had stable releases, but wasn’t an LTS series. Now both series are long-term supported.
+m supported.

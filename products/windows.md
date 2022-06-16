@@ -149,6 +149,8 @@ releases:
     support: 2009-04-14
     eol: 2014-04-08
     releaseDate: 2008-04-21
+icon:
+  simpleicons: windows
 
 ---
 

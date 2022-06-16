@@ -91,13 +91,14 @@ releases:
     cycleShortHand: 2010
 
     releaseDate: 2010-06-29
-iconSlug: visualstudio
 permalink: /visualstudio
 releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
 eolColumn: Active Support
+icon:
+  simpleicons: visualstudio
 
 ---
 

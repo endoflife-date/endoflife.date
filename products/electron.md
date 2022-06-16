@@ -3,7 +3,6 @@ title: Electron
 category: framework
 changelogTemplate: |
   https://www.electronjs.org/releases/stable?version={{"__LATEST__" | split:'.' | first}}#__LATEST__
-iconSlug: electron
 permalink: /electron
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/support
 eolColumn: Supported
@@ -91,6 +90,8 @@ releases:
     latest: "5.0.13"
     latestReleaseDate: 2019-12-16
     releaseDate: 2019-04-23
+icon:
+  simpleicons: electron
 
 ---
 

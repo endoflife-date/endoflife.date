@@ -6,7 +6,6 @@ alternate_urls:
 -   /cvad
   # This can be removed if we add more citrix products
 -   /citrix
-iconSlug: citrix
 category: app
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix
 activeSupportColumn: true
@@ -62,6 +61,8 @@ releases:
     eol: 2022-08-15
     lts: true
     releaseDate: 2017-08-15
+icon:
+  simpleicons: citrix
 
 ---
 

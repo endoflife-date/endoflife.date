@@ -45,6 +45,8 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Critical security patches
 versionCommand: perl -v
+icon:
+  simpleicons: perl
 
 ---
 

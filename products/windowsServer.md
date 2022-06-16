@@ -1,7 +1,6 @@
 ---
 title: Windows Server
 permalink: /windowsserver
-iconSlug: windows
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Server
 category: os
 activeSupportColumn: true
@@ -97,6 +96,8 @@ releases:
     support: 2005-06-30
     eol: 2010-07-13
     releaseDate: 2000-02-17
+icon:
+  simpleicons: windows
 
 ---
 

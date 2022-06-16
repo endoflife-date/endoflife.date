@@ -34,8 +34,6 @@ releases:
     latest: "1.16.15"
 
     releaseDate: 2020-04-30
-iconSlug: kubernetes
-
 permalink: /amazon-eks
 alternate_urls:
 -   /eks
@@ -47,6 +45,8 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: End of Support
 versionCommand: eksctl get cluster --name=cluster-name
+icon:
+  simpleicons: kubernetes
 
 ---
 

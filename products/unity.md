@@ -6,7 +6,6 @@ alternate_urls:
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: unity
 changelogTemplate: |
   https://unity3d.com/unity/whats-new/__LATEST__
 releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
@@ -52,6 +51,8 @@ releases:
     latest: "2017.4.40"
 
     releaseDate: 2017-03-20
+icon:
+  simpleicons: unity
 
 ---
 

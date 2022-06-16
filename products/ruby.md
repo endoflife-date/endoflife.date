@@ -85,6 +85,8 @@ releases:
 
     latestReleaseDate: 2014-11-13
     releaseDate: 2011-10-30
+icon:
+  simpleicons: ruby
 
 ---
 

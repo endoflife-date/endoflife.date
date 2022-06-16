@@ -58,6 +58,8 @@ releases:
     eol: 2019-05-28
     latestReleaseDate: 2019-06-05
     releaseDate: 2019-06-05
+icon:
+  simpleicons: fedora
 
 ---
 

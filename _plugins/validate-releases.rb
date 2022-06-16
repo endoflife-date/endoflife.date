@@ -10,6 +10,7 @@ STRING_KEYS = ['latest', 'releaseCycle']
 
 def process_files
   success = true
+  t = Time.now
   Dir['products/*.md'].each do |markdown_file|
     hash = YAML.load_file(markdown_file)
     hash['releases'].each do |r|
@@ -23,7 +24,9 @@ def process_files
       end
     end
   end
+  puts "Validated products in #{Time.now - t} seconds"
   success
+
 end
 
 exit(1) unless process_files

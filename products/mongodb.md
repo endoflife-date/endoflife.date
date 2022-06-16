@@ -104,6 +104,8 @@ releases:
     latestReleaseDate: 2009-10-22
     latest: 1.0.1
     releaseDate: 2009-08-27
+icon:
+  simpleicons: mongodb
 
 ---
 

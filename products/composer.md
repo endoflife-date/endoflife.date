@@ -26,12 +26,13 @@ releases:
     eol: 2020-10-24
 
     releaseDate: 2016-04-05
-iconSlug: composer
 permalink: /composer
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 versionCommand: composer --version
+icon:
+  simpleicons: composer
 
 ---
 

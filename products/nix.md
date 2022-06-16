@@ -1,7 +1,6 @@
 ---
 title: nix
 category: app
-iconSlug: nixos
 permalink: /nix
 alternate_urls:
 -   /nixlang
@@ -70,6 +69,8 @@ releases:
     eol: true
     latestReleaseDate: 2017-12-20
     releaseDate: 2012-05-11
+icon:
+  simpleicons: nixos
 
 ---
 

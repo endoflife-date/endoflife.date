@@ -3,7 +3,6 @@ permalink: /dotnetfx
 alternative_urls:
 -   /.netfx
 -   /dotnetframework
-iconSlug: dotnet
 category: framework
 title: .NET Framework
 versionCommand: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
@@ -49,6 +48,8 @@ releases:
 -   releaseCycle: "3.5 SP1"
     eol: 2029-01-09
     releaseDate: 2007-11-19
+icon:
+  simpleicons: dotnet
 
 ---
 

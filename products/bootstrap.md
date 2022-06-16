@@ -37,6 +37,8 @@ releases:
 releasePolicyLink: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: Critical Support
+icon:
+  simpleicons: bootstrap
 
 ---
 

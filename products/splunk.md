@@ -2,7 +2,6 @@
 title: Splunk
 permalink: /splunk
 category: server-app
-iconSlug: splunk
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
@@ -30,6 +29,8 @@ releases:
     eol: 2021-10-22
     latest: "7.3.9"
     releaseDate: 2021-02-24
+icon:
+  simpleicons: splunk
 
 ---
 

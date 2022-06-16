@@ -4,7 +4,6 @@ title: Rocky Linux
 permalink: /rocky-linux
 category: os
 versionCommand: cat /etc/os-release
-iconSlug: rockylinux
 alternate_urls:
 -   /rocky
 -   /rockylinux
@@ -20,6 +19,8 @@ releases:
     latest: "8.6"
     link: https://rockylinux.org/news/rocky-linux-8-6-ga-release/
     releaseDate: 2021-06-21
+icon:
+  simpleicons: rockylinux
 
 ---
 

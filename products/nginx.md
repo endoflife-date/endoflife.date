@@ -1,7 +1,6 @@
 ---
 title: nginx
 permalink: /nginx
-iconSlug: nginx
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 category: server-app
 activeSupportColumn: false
@@ -82,6 +81,8 @@ releases:
     latest: "1.0.15"
     latestReleaseDate: 2012-04-12
     releaseDate: 2011-04-12
+icon:
+  simpleicons: nginx
 
 ---
 

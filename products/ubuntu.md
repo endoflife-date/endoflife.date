@@ -84,6 +84,8 @@ releases:
     eol: 2024-04-01
     latest: "14.04.6"
     releaseDate: 2014-04-17
+icon:
+  simpleicons: ubuntu
 
 ---
 

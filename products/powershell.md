@@ -48,6 +48,8 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
     releaseDate: 2018-01-10
+icon:
+  simpleicons: powershell
 
 ---
 

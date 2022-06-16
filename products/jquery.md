@@ -23,11 +23,12 @@ releases:
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
     latestReleaseDate: 2016-05-20
     releaseDate: 2006-08-31
-iconSlug: jquery
 permalink: /jquery
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
+icon:
+  simpleicons: jquery
 
 ---
 

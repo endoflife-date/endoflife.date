@@ -1,7 +1,6 @@
 ---
 title: NixOS
 category: os
-iconSlug: nixos
 permalink: /nixos
 alternate_urls:
 -   /nixoslinux
@@ -99,6 +98,8 @@ releases:
     latest: "13.10"
     eol: 2014-05-31
     releaseDate: 2013-10-31
+icon:
+  simpleicons: nixos
 
 ---
 

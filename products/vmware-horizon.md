@@ -4,7 +4,6 @@ permalink: /horizon
 alternate_urls:
 -   /vmwarehorizon
 -   /vmware-horizon
-iconSlug: vmware
 category: app
 releasePolicyLink: https://lifecycle.vmware.com/
 activeSupportColumn: true
@@ -57,6 +56,8 @@ releases:
     support: 2021-03-22
     eol: 2023-03-22
     releaseDate: 2016-03-22
+icon:
+  simpleicons: vmware
 
 ---
 

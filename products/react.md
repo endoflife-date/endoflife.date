@@ -1,7 +1,6 @@
 ---
 title: React
 permalink: /react
-iconSlug: react
 category: framework
 sortReleasesBy: 'releaseCycle'
 releasePolicyLink: https://reactjs.org/docs/release-channels.html
@@ -25,6 +24,8 @@ releases:
 
     latestReleaseDate: 2021-03-22
     releaseDate: 2020-10-20
+icon:
+  simpleicons: react
 
 ---
 

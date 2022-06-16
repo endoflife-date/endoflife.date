@@ -4,7 +4,6 @@ category: os
 sortReleasesBy: "cycleShortHand"
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
-iconSlug: NA
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 #  - releaseCycle: "4.1"
@@ -88,4 +87,3 @@ A release enters End-of-Life status if no community maintainer steps up, or when
 
 Yocto stable releases (e.g. 3.0, 3.1, 3.2, 3.3…) are made about every 6 months, usually in April and October.
 Stable releases are maintained seven months after the initial release.
-ase.

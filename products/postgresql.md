@@ -102,6 +102,8 @@ releases:
     latest: "8.0.26"
     latestReleaseDate: 2010-10-01
     releaseDate: 2005-01-17
+icon:
+  simpleicons: postgresql
 
 ---
 

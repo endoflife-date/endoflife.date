@@ -10,7 +10,6 @@ versionCommand: plasmashell -v
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
 category: os
-iconSlug: kde
 eolColumn: Critical bug fixes
 releases:
 -   releaseCycle: "5.24"
@@ -33,6 +32,8 @@ releases:
     eol: 2022-02-11
     lts: true
     releaseDate: 2020-02-11
+icon:
+  simpleicons: kde
 
 ---
 

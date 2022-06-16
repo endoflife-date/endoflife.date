@@ -1,7 +1,6 @@
 ---
 title: OpenSSL
 category: framework
-iconSlug: openssl
 permalink: /openssl
 releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
 changelogTemplate: |
@@ -31,6 +30,8 @@ releases:
     latest: "1.0.2u"
     lts: true
     releaseDate: 2015-01-22
+icon:
+  simpleicons: openssl
 
 ---
 

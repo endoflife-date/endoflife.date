@@ -52,6 +52,8 @@ releases:
     lts: true
     latestReleaseDate: 2020-08-18
     releaseDate: 2017-08-30
+icon:
+  simpleicons: laravel
 
 ---
 

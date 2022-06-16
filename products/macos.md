@@ -76,6 +76,8 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
 versionCommand: sw_vers
+icon:
+  simpleicons: macos
 
 ---
 

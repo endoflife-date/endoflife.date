@@ -134,6 +134,8 @@ releases:
 
 
     releaseDate: 2008-03-01
+icon:
+  simpleicons: magento
 
 ---
 

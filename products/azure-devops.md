@@ -4,7 +4,6 @@ permalink: /azure-devops
 alternate_urls:
 -   /tfs
 -   /team-foundation-server
-iconSlug: azuredevops
 category: server-app
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Azure%20DevOps
 activeSupportColumn: true
@@ -63,6 +62,8 @@ releases:
     eol: 2016-07-12
     latest: "2005.SP2"
     releaseDate: 2006-06-17
+icon:
+  simpleicons: azuredevops
 
 ---
 

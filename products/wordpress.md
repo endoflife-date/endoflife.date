@@ -18,13 +18,14 @@ releases:
     link: https://wordpress.org/support/wordpress-version/version-5-9-3/
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
-iconSlug: wordpress
 permalink: /wordpress
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 versionCommand: wp core version
+icon:
+  simpleicons: wordpress
 
 ---
 

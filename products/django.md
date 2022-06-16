@@ -71,6 +71,8 @@ releases:
 
     latestReleaseDate: 2020-03-04
     releaseDate: 2017-04-04
+icon:
+  simpleicons: django
 
 ---
 

@@ -2,7 +2,8 @@
 title: FFmpeg
 permalink: /ffmpeg
 category: framework
-icon: FFmpeg
+icon:
+  simpleicons: ffmpeg
 releasePolicyLink: https://ffmpeg.org/
 versionCommand: ffmpeg -version
 activeSupportColumn: false

@@ -6,7 +6,6 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Supported
-iconSlug: NA
 permalink: /cfengine
 releasePolicyLink: https://cfengine.com
 
@@ -39,7 +38,8 @@ releases:
     eol: false
     support: 2022-12-18
     releaseDate: 2019-12-18
-
+icon:
+  vectorlogozone: cfengine
 ---
 
 > [CFEngine](https://cfengine.com) is an open-source configuration management, automation and knowledge management tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
@@ -49,3 +49,4 @@ CFEngine typically has releases once every 6 months. LTS releases occur every 1.
 See the [CFEngine blog][blog] for recent announcements.
 
 [blog]: https://cfengine.com/blog
+ine.com/blog

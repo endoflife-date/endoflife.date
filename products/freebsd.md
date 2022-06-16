@@ -215,6 +215,8 @@ releases:
 -   releaseCycle: "stable/4"
     cycleShortHand: "4"
     eol: 2007-01-31
+icon:
+  simpleicons: freebsd
 
 ---
 

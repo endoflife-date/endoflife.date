@@ -8,7 +8,6 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: false
 eolColumn: Supported
-iconSlug: ansible
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
@@ -33,6 +32,8 @@ releases:
 
     latestReleaseDate: 2021-02-09
     releaseDate: 2020-09-22
+icon:
+  simpleicons: ansible
 
 ---
 

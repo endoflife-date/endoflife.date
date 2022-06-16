@@ -1,7 +1,6 @@
 ---
 permalink: /amazon-linux
 title: Amazon Linux
-iconSlug: amazonaws
 category: os
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false
@@ -28,6 +27,8 @@ releases:
     latest: "2.0.20220426.0"
     latestReleaseDate: 2022-05-03
     releaseDate: 2018-06-26
+icon:
+  simpleicons: amazonaws
 
 ---
 

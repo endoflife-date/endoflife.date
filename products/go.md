@@ -68,6 +68,8 @@ releases:
     latest: "1.10.8"
     latestReleaseDate: 2019-01-23
     releaseDate: 2018-02-16
+icon:
+  simpleicons: go
 
 ---
 

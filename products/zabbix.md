@@ -11,7 +11,6 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Security Support
-iconSlug: NA
 releases:
 # Uncomment once 6.2 is released
 #  - releaseCycle: "6.2"
@@ -42,10 +41,10 @@ releases:
     eol: 2023-10-31
     lts: true
     latest: "4.0.41"
-
     latestReleaseDate: 2022-05-30
     releaseDate: 2018-10-01
-
+icon:
+  vectorlogozone: zabbix
 ---
 
 > [Zabbix](https://www.zabbix.com/) is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services.

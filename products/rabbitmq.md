@@ -67,6 +67,8 @@ releases:
     latest: "3.0.4"
     latestReleaseDate: 2013-03-06
     releaseDate: 2012-11-19
+icon:
+  simpleicons: rabbitmq
 
 ---
 

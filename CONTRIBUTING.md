@@ -156,12 +156,21 @@ releases:
     # Also returned as-as in the API.
     codename: firebolt
 
-# Set an icon for the product from https://simpleicons.org/
-# If the icon is not available on simpleicons, set it to "NA"
-# As an example, https://simpleicons.org/?q=opensuse links to
-# https://simpleicons.org/icons/opensuse.svg and https://simpleicons.org/icons/opensuse.pdf
-# So the slug is `opensuse` (the SVG filename without extension).
-iconSlug: ministryofmagic
+# Search on https://logosear.ch/search.html, and pick one of the below icon sets
+# SimpleIcons is preferred, since it has good coverage, and looks consistent.
+# Set an icon for the product from various sources. Only the first icon will be used.
+# Examples for the following URLS:
+# - https://simpleicons.org/icons/suse.svg
+# - https://cdn.jsdelivr.net/gh/devicons/devicon/icons/moodle/moodle-original.svg
+# - https://www.vectorlogo.zone/logos/zabbix/zabbix-icon.svg
+# - https://cdn.svgporn.com/logos/nomad.svg
+# - https://raw.githubusercontent.com/get-icon/geticon/master/icons/mediawiki.svg
+icon:
+  simpleicons: suse
+  devicons: moodle
+  vectorlogozone: zabbix
+  svgporn: nomad
+  geticon: mediawiki
 
 # A few extra fields define overall page behaviour
 

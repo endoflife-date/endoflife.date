@@ -3,7 +3,6 @@ title: Adobe ColdFusion
 category: server-app
 permalink: /coldfusion
 releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
-iconSlug: adobe
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
@@ -27,6 +26,8 @@ releases:
 -   releaseCycle: "10"
     eol: 2017-05-16
     releaseDate: 2012-05-15
+icon:
+  simpleicons: adobe
 
 ---
 

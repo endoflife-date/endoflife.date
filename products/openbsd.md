@@ -267,6 +267,8 @@ releases:
     eol: 1998-05-19
     releaseCycle: "2.1"
     link: https://www.openbsd.org/21.html
+icon:
+  simpleicons: openbsd
 
 ---
 

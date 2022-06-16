@@ -27,6 +27,8 @@ releases:
     latest: "6.0.1"
     latestReleaseDate: 2017-12-07
     releaseDate: 2017-11-14
+icon:
+  simpleicons: elasticsearch
 
 ---
 

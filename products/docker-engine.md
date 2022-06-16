@@ -6,7 +6,6 @@ sortReleasesBy: "releaseCycle"
 releasePolicyLink: https://docs.docker.com/engine/release-notes/
 changelogTemplate: |
   https://docs.docker.com/engine/release-notes/#{{"__LATEST__" | replace:'.',''}}
-iconSlug: docker
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
@@ -126,6 +125,8 @@ releases:
 
     latestReleaseDate: 2017-06-27
     releaseDate: 2017-02-23
+icon:
+  simpleicons: docker
 
 ---
 

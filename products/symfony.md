@@ -138,6 +138,8 @@ releases:
     lts: true
     latestReleaseDate: 2016-05-30
     releaseDate: 2013-06-03
+icon:
+  simpleicons: symfony
 
 ---
 

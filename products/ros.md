@@ -28,6 +28,8 @@ releases:
     codename: 'Kinetic Kame'
     eol: 2021-05-01
     releaseDate: 2016-04-23
+icon:
+  simpleicons: ros
 
 ---
 

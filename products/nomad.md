@@ -1,7 +1,6 @@
 ---
 title: Nomad
 permalink: /nomad
-iconSlug: "NA"
 category: server-app
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 sortReleasesBy: "releaseCycle"
@@ -35,10 +34,9 @@ releases:
 -   releaseCycle: "0.12"
     eol: true
     latest: "0.12.12"
-
-
     releaseDate: 2020-07-09
-
+icon:
+  svgporn: nomad
 ---
 
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.
@@ -48,3 +46,4 @@ Generally Available (GA) releases of active products are supported for up to two
 A major release is identified by a change in the first (X) or second (Y) digit in the following versioning nomenclature: `Version X.Y.Z.`
 
 Hashicorp uses the same support period and EoL Policy for all its products.
+ its products.

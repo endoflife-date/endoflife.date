@@ -1,6 +1,5 @@
 ---
 permalink: /surface
-iconSlug: windows
 title: Microsoft Surface
 category: device
 releasePolicyLink: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
@@ -116,6 +115,8 @@ releases:
 -   releaseCycle: Surface Hub 2S 85"
     eol: 2025-01-11
     releaseDate: 2021-01-11
+icon:
+  simpleicons: windows
 
 ---
 

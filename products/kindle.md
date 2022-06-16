@@ -1,6 +1,5 @@
 ---
 title: Amazon Kindle
-iconSlug: amazon
 category: device
 sortReleasesBy: releaseDate
 releases:
@@ -63,6 +62,8 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Service Status
+icon:
+  simpleicons: amazon
 
 ---
 

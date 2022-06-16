@@ -93,6 +93,8 @@ releases:
     lts: true
     link: https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
     releaseDate: 2011-12-15
+icon:
+  simpleicons: qt
 
 ---
 

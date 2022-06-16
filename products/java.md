@@ -79,6 +79,8 @@ releases:
     eol: 2018-12-31
     latest: "6u211"
     releaseDate: 2006-12-11
+icon:
+  simpleicons: java
 
 ---
 

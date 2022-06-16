@@ -4,7 +4,6 @@ alternate_urls:
 -   /rubyonrails
 -   /ruby-on-rails
 -   /roro
-iconSlug: rubyonrails
 title: Ruby on Rails
 releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
@@ -56,6 +55,8 @@ releases:
     latest: "4.2.11.3"
     latestReleaseDate: 2020-05-15
     releaseDate: 2014-12-19
+icon:
+  simpleicons: rubyonrails
 
 ---
 

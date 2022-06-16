@@ -71,6 +71,8 @@ releases:
     latest: "1.4.5"
     latestReleaseDate: 2017-06-22
     releaseDate: 2017-01-05
+icon:
+  simpleicons: elixir
 
 ---
 

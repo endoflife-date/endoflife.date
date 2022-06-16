@@ -50,6 +50,8 @@ releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-te
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: mysqld --version
+icon:
+  simpleicons: mysql
 
 ---
 

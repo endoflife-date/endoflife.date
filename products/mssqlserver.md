@@ -1,7 +1,6 @@
 ---
 title: Microsoft SQL Server
 permalink: /mssqlserver
-iconSlug: microsoftsqlserver
 category: db
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=SQL%20Server
 activeSupportColumn: true
@@ -39,6 +38,8 @@ releases:
     eol: 2019-07-09
     latest: "10.50.6560.0 SP3 GDR"
     releaseDate: 2014-09-26
+icon:
+  simpleicons: microsoftsqlserver
 
 ---
 

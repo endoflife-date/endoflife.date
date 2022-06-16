@@ -5,7 +5,6 @@ alternate_urls:
 title: Alpine Linux
 category: os
 releasePolicyLink: https://alpinelinux.org/releases/
-iconSlug: alpinelinux
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
 versionCommand: cat /etc/alpine-release
@@ -78,6 +77,8 @@ releases:
     link: https://git.alpinelinux.org/aports/log/?h=3.7-stable
     latestReleaseDate: 2019-03-06
     releaseDate: 2017-11-30
+icon:
+  simpleicons: alpinelinux
 
 ---
 

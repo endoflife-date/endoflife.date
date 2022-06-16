@@ -4,7 +4,6 @@ permalink: /couchbase-server
 alternate_urls:
 -   /couchbase
 category: db
-iconSlug: couchbase
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
 sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
@@ -36,6 +35,8 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30
     releaseDate: 2019-01-23
+icon:
+  simpleicons: couchbase
 
 ---
 

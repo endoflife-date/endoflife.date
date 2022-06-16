@@ -3,7 +3,6 @@ title: FileMaker
 category: app
 permalink: /filemaker
 releasePolicyLink: https://www.filemaker.com/support/product-availability.html
-iconSlug: "NA"
 activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
@@ -49,9 +48,11 @@ releases:
 -   releaseCycle: "7"
     eol: 2008-09-26
     releaseDate: 2004-03-01
-
+icon:
+  vectorlogozone: filemaker
 ---
 
 FileMaker has recently adopted a yearly release cycle, in May. Previously there was an 18-month release cycle.
 
 Source for release dates only gives month and year, so 1st of month assumed.
+month assumed.

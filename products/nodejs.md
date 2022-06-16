@@ -5,7 +5,6 @@ alternate_urls:
 -   /node.js
 category: lang
 title: Node.js
-iconSlug: nodedotjs
 releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
@@ -132,6 +131,8 @@ releases:
     latest: "1.8.4"
     releaseDate: 2015-01-20
     latestReleaseDate: 2015-07-09
+icon:
+  simpleicons: nodedotjs
 
 ---
 

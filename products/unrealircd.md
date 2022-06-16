@@ -9,7 +9,6 @@ releaseDateColumn: true
 versionCommand: ./unrealircd version
 changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/__CYCLE_SHORT_HAND__/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'\
   \ | replace:'.',''}}"
-iconSlug: NA
 auto:
 -   custom: true
 # A list of releases, supported or not
@@ -53,3 +52,4 @@ When a new major version is released, the EOL dates of the previous major versio
 The previous major version is guaranteed to be supported for at least 12 months.
 The final support period starts with a period where bugs are still being fixed (but no new
 features are being implemented), followed by a "security fixes only" period.
+nly" period.

@@ -9,7 +9,6 @@ activeSupportColumn: true
 versionCommand: npm list vue
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
-iconSlug: vuedotjs
 auto:
 -   git: https://github.com/vuejs/core.git
 -   git: https://github.com/vuejs/vue.git
@@ -35,6 +34,8 @@ releases:
     lts: false
     latestReleaseDate: 2016-09-27
     releaseDate: 2015-10-26
+icon:
+  simpleicons: vuedotjs
 
 ---
 

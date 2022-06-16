@@ -5,7 +5,6 @@ alternate_urls:
 -   /nvidia-products
 -   /nvidia-gpus
 category: device
-iconSlug: nvidia
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
 activeSupportColumn: true
 releaseDateColumn: true
@@ -186,6 +185,8 @@ releases:
     eol: false
     discontinued: false
     releaseDate: 2021-01-12
+icon:
+  simpleicons: nvidia
 
 ---
 

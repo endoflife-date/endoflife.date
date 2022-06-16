@@ -1,7 +1,6 @@
 ---
 title: Windows Embedded
 permalink: /windowsembedded
-iconSlug: windows
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
 category: os
 activeSupportColumn: true
@@ -35,6 +34,8 @@ releases:
     support: 2015-10-13
     eol: 2020-10-13
     releaseDate: 2011-02-28
+icon:
+  simpleicons: windows
 
 ---
 

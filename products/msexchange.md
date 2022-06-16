@@ -1,7 +1,6 @@
 ---
 title: Microsoft Exchange
 permalink: /msexchange
-iconSlug: microsoftexchange
 category: server-app
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 activeSupportColumn: true
@@ -39,6 +38,8 @@ releases:
     eol: 2014-04-08
     latest: "6.5.7654.4"
     releaseDate: 2003-09-28
+icon:
+  simpleicons: microsoftexchange
 
 ---
 

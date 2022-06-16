@@ -3,7 +3,6 @@ title: Microsoft Office
 permalink: /office
 alternate_urls:
 -   /msoffice
-iconSlug: microsoftoffice
 category: app
 releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Office
 activeSupportColumn: true
@@ -43,6 +42,8 @@ releases:
     support: 2012-10-09
     eol: 2017-10-10
     releaseDate: 2011-10-25
+icon:
+  simpleicons: microsoftoffice
 
 ---
 

@@ -2,7 +2,6 @@
 title: Looker
 permalink: /looker
 category: server-app
-iconSlug: looker
 releasePolicyLink: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
   https://docs.looker.com/relnotes/v{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__"}}
@@ -94,6 +93,8 @@ releases:
     cycleShortHand: 716
     eol: true
     releaseDate: 2020-09-17
+icon:
+  simpleicons: looker
 
 ---
 

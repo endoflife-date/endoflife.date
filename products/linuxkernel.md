@@ -2,7 +2,6 @@
 title: Linux Kernel
 permalink: /linux
 category: os
-iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
 changelogTemplate: |
@@ -87,6 +86,8 @@ releases:
     latest: "4.9.317"
     latestReleaseDate: 2022-06-06
     releaseDate: 2016-12-11
+icon:
+  simpleicons: linux
 
 ---
 

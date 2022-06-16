@@ -4,7 +4,6 @@ alternate_urls:
 -   /ios
 title: iPhone
 category: device
-iconSlug: apple
 releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
@@ -89,6 +88,8 @@ releases:
     discontinued: false
     eol: false
     releaseDate: 2022-03-18
+icon:
+  simpleicons: apple
 
 ---
 

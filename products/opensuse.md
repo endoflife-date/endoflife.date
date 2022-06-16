@@ -88,8 +88,6 @@ releases:
     eol: 2010-07-26
 
     releaseDate: 2008-06-19
-iconSlug: opensuse
-
 permalink: /opensuse
 alternate_urls:
 -   /opensuseleap
@@ -107,6 +105,8 @@ releaseDateColumn: true
 eolColumn: End of Life
 # Command that can be used to check the current version. (optional)
 versionCommand: cat /usr/lib/os-release
+icon:
+  simpleicons: opensuse
 
 ---
 

@@ -124,6 +124,8 @@ releases:
     latest: "5.0.5"
     latestReleaseDate: 2005-09-05
     releaseDate: 2004-07-15
+icon:
+  simpleicons: php
 
 ---
 

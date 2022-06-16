@@ -13,7 +13,6 @@ auto:
     regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
-iconSlug: openzfs
 eolColumn: Critical bug fixes
 releaseLabel: "OpenZFS __RELEASE_CYCLE__"
 releases:
@@ -36,6 +35,8 @@ releases:
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
     releaseDate: 2019-05-21
+icon:
+  simpleicons: openzfs
 
 ---
 

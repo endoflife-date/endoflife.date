@@ -4,7 +4,6 @@ category: server-app
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/bxn2hc9b02nf015vxy4zlq7sdr9cs6u.png
-iconSlug: NA
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
@@ -57,7 +56,8 @@ releases:
     latest: "1.31.16"
     latestReleaseDate: 2021-09-30
     releaseDate: 2018-06-13
-
+icon:
+  geticon: mediawiki
 ---
 
 > [MediaWiki](https://mediawiki.org) is a wiki engine, and mostly known as the software that powers Wikipedia, but it is also frequently used for other wikis.

@@ -7,7 +7,6 @@ releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: releaseDate
-iconSlug: NA
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 auto:
 -   dockerhub: almalinux/9-init
@@ -26,6 +25,8 @@ releases:
     latest: "8.6"
 
     latestReleaseDate: 2022-05-31
+icon:
+  simpleicons: almalinux
 
 ---
 

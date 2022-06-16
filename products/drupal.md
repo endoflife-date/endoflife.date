@@ -55,6 +55,8 @@ releases:
     latest: "7.89"
     lts: true
     releaseDate: 2011-01-05
+icon:
+  simpleicons: drupal
 
 ---
 

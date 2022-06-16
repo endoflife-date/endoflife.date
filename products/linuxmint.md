@@ -6,7 +6,6 @@ category: os
 releasePolicyLink: https://linuxmint.com/download_all.php
 activeSupportColumn: true
 releaseDateColumn: true
-iconSlug: linuxmint
 sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
@@ -99,6 +98,8 @@ releases:
     latest: "18.3"
     link: https://blog.linuxmint.com/?p=3457
     releaseDate: 2017-11-27
+icon:
+  simpleicons: linuxmint
 
 ---
 

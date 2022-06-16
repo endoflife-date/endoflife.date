@@ -6,7 +6,6 @@ releasePolicyLink: https://haproxy.org
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
 versionCommand: haproxy -v
-iconSlug: NA
 releaseDateColumn: true
 auto:
 -   custom: true
@@ -75,7 +74,8 @@ releases:
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
     releaseDate: 2016-11-25
-
+icon:
+  vectorlogozone: haproxy
 ---
 
 >[HAProxy](https://www.haproxy.org/) is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for very high traffic web sites and powers a significant portion of the world's most visited ones.
@@ -87,3 +87,4 @@ The core team deploys a lot of efforts backporting fixes to older releases while
 Branches with an even number are called "LTS" (for "long term support") and are maintained for 5 years after their release. During this time they will receive fixes for bugs that are discovered after the release. These branches are aimed at general users who seek extreme stability and do not want to qualify a new version too often but still want to receive fixes.
 
 Branches with an odd number are only called "stable", they're aimed at highly skilled users who prefer to upgrade often to benefit from modern features, and who are also able to roll back in case of problem. These versions are maintained between 12 and 18 months. The duration is short and purposely not strict so that the maintenance cycle is decided with users based on feedback, and so that these versions do not end up in embedded products. It may happen that a few features are backported to these version if there is some reasonable demand and the operation is considered riskless enough.
+less enough.

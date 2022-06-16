@@ -69,6 +69,8 @@ releases:
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02
     releaseDate: 2019-09-18
+icon:
+  simpleicons: kubernetes
 
 ---
 

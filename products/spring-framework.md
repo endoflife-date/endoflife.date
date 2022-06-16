@@ -52,7 +52,8 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Security Support
-iconSlug: spring
+icon:
+  simpleicons: spring
 
 ---
 

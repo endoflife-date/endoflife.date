@@ -18,7 +18,6 @@ releases:
 -   releaseCycle: "16.0"
     eol: 2021-02-16
     releaseDate: 2019-03-01
-iconSlug: lineageos
 permalink: /lineageos
 alternate_urls:
 -   /lineage
@@ -26,6 +25,8 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 discontinuedColumn: false
+icon:
+  simpleicons: lineageos
 
 ---
 

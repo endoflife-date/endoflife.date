@@ -4,7 +4,6 @@ permalink: /godot
 category: app
 alternate_urls:
 -   /godotengine
-iconSlug: godotengine
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
@@ -71,6 +70,8 @@ releases:
 
     latestReleaseDate: 2014-12-15
     releaseDate: 2014-12-15
+icon:
+  simpleicons: godotengine
 
 ---
 

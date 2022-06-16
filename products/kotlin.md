@@ -1,7 +1,6 @@
 ---
 title: Kotlin
 category: lang
-iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
 -   /kotlinlang
@@ -51,6 +50,8 @@ releases:
 
     latestReleaseDate: 2020-04-14
     releaseDate: 2018-10-25
+icon:
+  simpleicons: kotlin
 
 ---
 

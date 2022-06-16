@@ -1,7 +1,6 @@
 ---
 title: VMware ESXi
 category: os
-iconSlug: vmware
 permalink: /esxi
 alternate_urls:
 -   /esx
@@ -49,6 +48,8 @@ releases:
 
 
     releaseDate: 2013-09-19
+icon:
+  simpleicons: vmware
 
 ---
 

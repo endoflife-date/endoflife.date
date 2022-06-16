@@ -31,6 +31,8 @@ releases:
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
     releaseDate: 2018-10-17
+icon:
+  simpleicons: redis
 
 ---
 

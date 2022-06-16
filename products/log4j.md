@@ -6,7 +6,6 @@ releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.x/changes-report.html#a{{"__LATEST__"}}
 activeSupportColumn: false
 releaseDateColumn: true
-iconSlug: apache
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
 releases:
@@ -30,6 +29,8 @@ releases:
     eol: 2015-10-15
     latest: "1.2.17"
     releaseDate: 2001-01-08
+icon:
+  simpleicons: apache
 
 ---
 

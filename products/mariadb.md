@@ -85,6 +85,8 @@ releases:
     lts: true
     latestReleaseDate: 2020-05-06
     releaseDate: 2013-01-29
+icon:
+  simpleicons: mariadb
 
 ---
 

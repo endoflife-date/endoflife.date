@@ -52,6 +52,8 @@ releases:
     latest: "9.1.13"
     latestReleaseDate: 2020-12-16
     releaseDate: 2020-02-06
+icon:
+  simpleicons: angular
 
 ---
 

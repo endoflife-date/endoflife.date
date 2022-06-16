@@ -43,6 +43,8 @@ releases:
     latest: "9"
 
     releaseDate: 2021-09-15
+icon:
+  simpleicons: centos
 
 ---
 

@@ -2,7 +2,6 @@
 title: Red Hat Enterprise Linux
 permalink: /rhel
 category: os
-iconSlug: redhat
 alternate_urls:
 -   /redhat
 -   /redhatlinux
@@ -46,6 +45,8 @@ releases:
     support: 2009-03-31
     eol: 2012-02-29
     releaseDate: 2005-02-14
+icon:
+  simpleicons: redhat
 
 ---
 

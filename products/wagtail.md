@@ -89,6 +89,8 @@ releases:
 
     latestReleaseDate: 2020-07-20
     releaseDate: 2019-11-06
+icon:
+  simpleicons: wagtail
 
 ---
 

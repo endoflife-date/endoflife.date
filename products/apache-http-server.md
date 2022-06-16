@@ -3,7 +3,6 @@ title: Apache HTTP Server
 permalink: /apache
 alternate_urls:
 -   /httpd
-iconSlug: apache
 releasePolicyLink: https://httpd.apache.org/
 category: server-app
 activeSupportColumn: false
@@ -29,6 +28,8 @@ releases:
     eol: 2010-02-03
     latest: "1.3.42"
     releaseDate: 1998-06-06
+icon:
+  simpleicons: apache
 
 ---
 

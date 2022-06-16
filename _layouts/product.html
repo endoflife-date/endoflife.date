@@ -169,10 +169,10 @@ or +1 (EoL is in the future)
 {% endfor %}
 </table>
 
-{% if page.iconSlug and page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
-{% elsif page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
+{% assign product_logo_url = page.icon | icon_url %}
+
+{% if product_logo_url %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="{{product_logo_url}}" >
 {% endif %}
 
 <div class="maincontent">{{content}}</div>

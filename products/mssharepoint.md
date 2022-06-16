@@ -3,7 +3,6 @@ title: Microsoft SharePoint
 permalink: /sharepoint
 alternate_urls:
 -   /mssharepoint
-iconSlug: microsoftsharepoint
 category: server-app
 releasePolicyLink: https://docs.microsoft.com/en-us/lifecycle/products/?terms=SharePoint%20Server
 activeSupportColumn: true
@@ -35,6 +34,8 @@ releases:
     eol: 2017-10-10
     latest: "12.0.6690.5000"
     releaseDate: 2007-01-27
+icon:
+  simpleicons: microsoftsharepoint
 
 ---
 

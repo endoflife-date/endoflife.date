@@ -59,6 +59,8 @@ releases:
     latest: "2.7.18"
     latestReleaseDate: 2020-04-19
     releaseDate: 2010-07-03
+icon:
+  simpleicons: python
 
 ---
 

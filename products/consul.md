@@ -2,7 +2,6 @@
 title: Consul
 permalink: /consul
 category: server-app
-iconSlug: consul
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
@@ -38,6 +37,8 @@ releases:
     latest: "1.8.19"
     latestReleaseDate: 2021-12-15
     releaseDate: 2020-06-18
+icon:
+  simpleicons: consul
 
 ---
 

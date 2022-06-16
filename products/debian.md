@@ -52,6 +52,8 @@ releases:
     latest: "6.0.10"
     link: https://www.debian.org/News/2011/20110205a
     releaseDate: 2011-02-06
+icon:
+  simpleicons: debian
 
 ---
 

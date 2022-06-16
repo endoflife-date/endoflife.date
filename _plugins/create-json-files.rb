@@ -55,6 +55,7 @@ end
 
 # each file is something like 'products/foo.md'
 def process_all_files()
+  t = Time.now
   all_products = []
   Dir['products/*.md'].each do |file|
     product = Product.new(file)
@@ -63,6 +64,7 @@ def process_all_files()
   end
   output_file = json_filename(API_DIR, 'all')
   File.open(output_file, 'w') { |f| f.puts all_products.sort.to_json }
+  puts "API/JSON files generated in #{Time.now - t} seconds"
 end
 
 ############################################################

@@ -1,7 +1,6 @@
 ---
 title: Apache Tomcat
 permalink: /tomcat
-iconSlug: apachetomcat
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
 category: server-app
@@ -38,6 +37,8 @@ releases:
     eol: 2012-09-30
     latest: "5.5.36"
     releaseDate: 2003-09-06
+icon:
+  simpleicons: apachetomcat
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Ember
 permalink: /emberjs
-iconSlug: emberdotjs
 alternate_urls:
 -   /ember
 category: framework
@@ -34,6 +33,8 @@ releases:
 
     latestReleaseDate: 2021-10-18
     releaseDate: 2020-12-28
+icon:
+  simpleicons: emberdotjs
 
 ---
 
