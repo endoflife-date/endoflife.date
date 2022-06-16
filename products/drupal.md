@@ -21,7 +21,7 @@ releases:
     releaseDate: 2021-12-08
 -   releaseCycle: "9.2"
     support: 2021-12-08
-    eol: 2022-06-01
+    eol: 2022-06-15
     latest: "9.2.21"
     latestReleaseDate: 2022-06-10
     releaseDate: 2021-06-16
@@ -64,7 +64,7 @@ Releases are fully supported for 2 minor versions from initial stable release. D
 
 **Drupal 9.3** will receive security coverage until December 14, 2022 when either Drupal 9.5.0 or 10.0 is released, based on Drupal 10.0's release date
 
-**Drupal 9.2** will receive security coverage until June 1, 2022 when Drupal 9.4.0 is released.
+**Drupal 9.2** received security coverage until June 15, 2022 when Drupal 9.4.0 was released.
 
 **Drupal 9.1** received security coverage until December 8, 2021 when Drupal 9.3.0 was released.
 
