@@ -33,19 +33,19 @@ releases:
     releaseDate: 2021-08-26
 -   releaseCycle: "Pixel 5"
     cycleShortHand: 500
-    discontinued: false
+    discontinued: 2021-08-20
     eol: 2023-10-31
     support: 2015-11-19
     releaseDate: 2020-09-30
 -   releaseCycle: "Pixel 4A 5G"
     cycleShortHand: 420
-    discontinued: false
+    discontinued: 2021-08-20
     eol: 2023-11-30
     support: 2015-11-19
     releaseDate: 2020-09-30
 -   releaseCycle: "Pixel 4A"
     cycleShortHand: 410
-    discontinued: false
+    discontinued: 2022-01-31
     eol: 2023-08-31
     support: 2015-11-19
     releaseDate: 2020-08-03
@@ -86,4 +86,4 @@ releases:
 
 The Pixel phones come out around the first or second week of October every year (the A series being unpredictable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
 
-For more info on each model, visit: [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
+For more info on each model, visit: [Pixel 6 Pro](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 6](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 5a](https://en.wikipedia.org/wiki/Pixel_5a), [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
