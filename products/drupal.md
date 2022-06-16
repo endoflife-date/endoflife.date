@@ -13,6 +13,12 @@ auto:
 -   git: https://github.com/drupal/core.git
 sortReleasesBy: 'releaseCycle'
 releases:
+-   releaseCycle: "9.4"
+    support: 2022-12-14
+    eol: 2023-06-21
+    latest: "9.4.0"
+    latestReleaseDate: 2022-06-15
+    releaseDate: 2022-06-15
 -   releaseCycle: "9.3"
     support: 2022-06-15
     eol: 2022-12-14
@@ -63,7 +69,9 @@ releases:
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
 
-**Drupal 9.3** will receive security coverage until December 14, 2022 when either Drupal 9.5.0 or 10.0 is released, based on Drupal 10.0's release date
+**Drupal 9.4** will receive security coverage until June 21, 2023 when Drupal 10.1.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
+
+**Drupal 9.3** will receive security coverage until December 14, 2022 when Drupal 9.5.0 and 10.0.0 are [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current).
 
 **Drupal 9.2** received security coverage until June 15, 2022 when Drupal 9.4.0 was released.
 
@@ -73,4 +81,4 @@ Releases are fully supported for 2 minor versions from initial stable release. D
 
 **Drupal 8.x** [is EOL](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
 
-**Drupal 7** will receive security patches [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
+**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
