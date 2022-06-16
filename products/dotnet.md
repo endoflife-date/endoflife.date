@@ -20,15 +20,15 @@ releases:
     lts: true
     eol: 2024-11-08
     latest: "6.0.6"
-    latestReleaseDate: 2022-05-17
-    releaseDate: 2021-10-22
+    latestReleaseDate: 2022-06-14
+    releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     cycleShortHand: "5.0"
     lts: false
     eol: 2022-05-08
     latest: "5.0.17"
-    latestReleaseDate: 2022-04-14
-    releaseDate: 2020-10-19
+    latestReleaseDate: 2022-05-10
+    releaseDate: 2020-11-10
 -   releaseCycle: "Core 3.1"
     cycleShortHand: "3.1"
     lts: true

@@ -16,8 +16,8 @@ releases:
 -   releaseCycle: "5.3"
     codename: "rapid"
     eol: false
-    latest: "5.3.1"
-    latestReleaseDate: 2022-03-31
+    latest: "5.3.2"
+    latestReleaseDate: 2022-06-15
     releaseDate: 2022-03-22
 -   releaseCycle: "5.0"
     eol: false
@@ -26,13 +26,13 @@ releases:
     releaseDate: 2021-07-08
 -   releaseCycle: "4.4"
     eol: false
-    latest: "4.4.14"
-    latestReleaseDate: 2022-05-04
+    latest: "4.4.15"
+    latestReleaseDate: 2022-06-15
     releaseDate: 2020-07-25
 -   releaseCycle: "4.2"
     eol: false
-    latest: "4.2.20"
-    latestReleaseDate: 2022-05-04
+    latest: "4.2.21"
+    latestReleaseDate: 2022-06-15
     releaseDate: 2019-08-09
 -   releaseCycle: "4.0"
     eol: 2022-04-30
