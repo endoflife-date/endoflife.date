@@ -19,8 +19,8 @@ releases:
     cycleShortHand: "unreal60_dev"
     support: true
     eol: false
-    latest: "6.0.3"
-    latestReleaseDate: 2022-04-02
+    latest: "6.0.4"
+    latestReleaseDate: 2022-06-17
     releaseDate: 2021-12-17
 -   releaseCycle: "5"
     cycleShortHand: "unreal52"
