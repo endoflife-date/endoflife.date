@@ -28,7 +28,7 @@ releases:
     releaseDate: 2022-05-22
 -   releaseCycle: "5.17"
     cycleShortHand: 517
-    eol: false
+    eol: true
     latest: "5.17.15"
     latestReleaseDate: 2022-06-14
 
