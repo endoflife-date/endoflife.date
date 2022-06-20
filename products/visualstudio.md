@@ -3,11 +3,26 @@ title: Visual Studio
 category: app
 sortReleasesBy: "cycleShortHand"
 releaseLabel: '__RELEASE_CYCLE__ __CODENAME__'
+iconSlug: visualstudio
+permalink: /visualstudio
+releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
+activeSupportColumn: false
+releaseColumn: false
+releaseDateColumn: false
+eolColumn: Active Support
+LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
 -   releaseCycle: "2022"
+    codename: "17.2"
+    lts: true
+    eol: 2024-01-09
+    cycleShortHand: 20221720
+    releaseDate: 2022-05-10
+-   releaseCycle: "2022"
     codename: "17.0"
+    lts: true
     eol: 2023-07-11
     cycleShortHand: 20221700
     releaseDate: 2021-11-08
@@ -89,19 +104,13 @@ releases:
 -   releaseCycle: "2010"
     eol: 2020-07-14
     cycleShortHand: 2010
-
     releaseDate: 2010-06-29
-iconSlug: visualstudio
-permalink: /visualstudio
-releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
-activeSupportColumn: false
-releaseColumn: false
-releaseDateColumn: false
-eolColumn: Active Support
 
 ---
 
 > [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform  
+
+The Long-Term Servicing Channel (LTSC) enables teams to remain supported on a minor version for up to 18 months after release. The LTSC are separate release Channels based on the even-numbered minor version updates. An LTSC release receives security and bug fixes but not additional new features.
 
 **Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.
 
