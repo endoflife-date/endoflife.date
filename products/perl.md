@@ -8,6 +8,12 @@ auto:
   # Feel free to file a PR to fix this
 -   git: https://github.com/Perl/perl5.git
 releases:
+-   releaseCycle: "5.36"
+    eol: 2025-05-27
+    support: true
+    latest: "5.36.0"
+    latestReleaseDate: 2022-05-27
+    releaseDate: 2022-05-27
 -   releaseCycle: "5.34"
     eol: 2024-05-20
     support: true
@@ -16,13 +22,13 @@ releases:
     releaseDate: 2021-05-20
 -   releaseCycle: "5.32"
     eol: 2023-06-20
-    support: true
+    support: 2022-05-27
     latest: "5.32.1"
     latestReleaseDate: 2021-01-23
     releaseDate: 2020-06-20
 -   releaseCycle: "5.30"
     eol: 2022-05-22
-    support: true
+    support: 2021-05-20
     latest: "5.30.3"
     latestReleaseDate: 2020-05-29
     releaseDate: 2019-05-22
