@@ -5,6 +5,7 @@ alternate_urls:
 -   /jdk
 title: Java/OpenJDK
 category: lang
+iconSlug: openjdk
 versionCommand: java -version
 activeSupportColumn: true
 releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
