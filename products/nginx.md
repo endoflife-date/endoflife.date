@@ -16,13 +16,19 @@ auto:
     regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 -   hg: https://hg.nginx.org/nginx
 releases:
+-   releaseCycle: "1.23"
+    eol: false
+    latest: "1.23.0"
+    link: https://nginx.org/en/CHANGES
+    latestReleaseDate: 2022-06-22
+    releaseDate: 2022-06-21
 -   releaseCycle: "1.22"
     eol: false
     latest: "1.22.0"
     latestReleaseDate: 2022-05-24
     releaseDate: 2022-05-24
 -   releaseCycle: "1.21"
-    eol: false
+    eol: 2022-05-24
     latest: "1.21.6"
     link: https://nginx.org/en/CHANGES
     latestReleaseDate: 2022-01-25
