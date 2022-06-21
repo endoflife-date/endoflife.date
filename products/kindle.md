@@ -6,37 +6,37 @@ sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Paperwhite11Notes
     releaseDate: 2021-10-27
 -   releaseCycle: "Kindle Oasis 3 (10th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Oasis10Notes
     releaseDate: 2019-07-24
 -   releaseCycle: "Kindle 10 (10th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Kindle10Notes
     releaseDate: 2019-04-10
 -   releaseCycle: "Kindle Paperwhite 4 (10th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Paperwhite10Notes
     releaseDate: 2018-11-07
 -   releaseCycle: "Kindle Oasis 2 (9th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Oasis9Notes
     releaseDate: 2017-10-31
 -   releaseCycle: "Kindle 8 (8th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Kindle8Notes
     releaseDate: 2016-06-22
 -   releaseCycle: "Kindle Oasis (8th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3"
     link: https://www.amazon.com/Oasis8Notes
     releaseDate: 2016-04-27
 -   releaseCycle: "Kindle Voyage (7th Generation)"
@@ -46,7 +46,7 @@ releases:
     releaseDate: 2014-11-04
 -   releaseCycle: "Kindle Paperwhite 3 (7th Generation)"
     eol: false
-    latest: "5.14.2"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Paperwhite7Notes
     releaseDate: 2015-06-30
 -   releaseCycle: "Kindle 7 (7th Generation)"
