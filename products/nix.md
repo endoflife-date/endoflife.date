@@ -14,6 +14,8 @@ auto:
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
+# when adding a new release mark the previous release EOL until a more detailed
+# policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
 -   releaseCycle: "2.9"
     latest: "2.9.1"
@@ -22,12 +24,12 @@ releases:
     releaseDate: 2022-05-30
 -   releaseCycle: "2.8"
     latest: "2.8.1"
-    eol: false
+    eol: true
     latestReleaseDate: 2022-05-14
     releaseDate: 2022-04-19
 -   releaseCycle: "2.7"
     latest: "2.7.0"
-    eol: false
+    eol: true
     latestReleaseDate: 2022-03-07
     releaseDate: 2022-03-07
 -   releaseCycle: "2.6"
@@ -47,7 +49,7 @@ releases:
     releaseDate: 2021-11-01
 -   releaseCycle: "2.3"
     latest: "2.3.16"
-    eol: false
+    eol: true
     latestReleaseDate: 2021-10-07
     releaseDate: 2019-09-04
 -   releaseCycle: "2.2"
