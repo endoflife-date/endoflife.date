@@ -10,32 +10,32 @@ releaseDateColumn: true
 sortReleasesBy: 'latest'
 releases:
 -   releaseCycle: "2019"
+    releaseLabel: "2019 CU16"
     support: 2025-01-07
-    releaseLabel:  2019 CU16
     eol: 2030-01-08
     latest: "15.0.4236.7"
     releaseDate: 2019-11-04
 -   releaseCycle: "2017"
+    releaseLabel: "2017 CU29"
     support: 2022-10-11
-    releaseLabel: 2017-CU29
     eol: 2027-10-12
     latest: "14.0.3445.2"
     releaseDate: 2017-09-29
 -   releaseCycle: "2016"
+    releaseLabel: "2016 SP3"
     support: 2021-07-13
-    releaseLabel: 2016 SP3
     eol: 2026-07-14
     latest: "13.0.6419.1"
     releaseDate: 2018-04-24
 -   releaseCycle: "2014"
+    releaseLabel: "2014 SP3 CU4"
     support: 2019-07-09
-    releaseLabel: 2014 SP3 CU4
     eol: 2024-07-09
     latest: "12.0.6439.10"
     releaseDate: 2018-10-30
 -   releaseCycle: "2012"
+    releaseLabel: "2012 SP4"
     support: 2017-07-11
-    releaseLabel: 2012 SP4
     eol: 2022-07-12
     latest: "11.0.7507.2"
     releaseDate: 2017-10-05
