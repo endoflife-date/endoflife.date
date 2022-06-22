@@ -27,12 +27,13 @@ releases:
     eol: 2020-01-31
     releaseDate: 2012-10-30
 
--   releaseCycle: "11 (Semi-Annual Channel)" # This applies to 99% of users
+-   releaseCycle: "11" # This applies to 99% of users
     eol: 2022-06-14
     releaseDate: 2013-11-13
 
     
--   releaseCycle: "11"
+-   releaseCycle: "11-ltsb"
+    releaseLabel: "11 LTSB/LTSC/Server/Embedded"
     eol: 2031-10-14
     releaseDate: 2013-11-13
 
