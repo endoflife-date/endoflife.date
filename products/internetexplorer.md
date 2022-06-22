@@ -1,5 +1,5 @@
 ---
-permalink: /internetexplorer
+permalink: /internet-explorer
 title: Internet Explorer
 releasePolicyLink: https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 releaseDateColumn: true
