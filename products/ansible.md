@@ -16,7 +16,7 @@ releases:
     eol: false
     latest: "6.0.0"
     latestReleaseDate: 2022-06-21
-    releaseDate: 2021-06-21
+    releaseDate: 2022-06-21
 -   releaseCycle: "5"
     eol: false
     latest: "5.9.0"
