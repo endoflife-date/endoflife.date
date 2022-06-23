@@ -14,11 +14,11 @@ releases:
     latest: "1.21.12"
     releaseDate: 2021-07-19
 -   releaseCycle: "1.20"
-    eol: 2022-09-01
+    eol: 2022-10-03
     latest: "1.20.15"
     releaseDate: 2021-05-18
 -   releaseCycle: "1.19"
-    eol: 2022-06-30
+    eol: 2022-08-01
     latest: "1.19.16"
     releaseDate: 2021-02-16
 -   releaseCycle: "1.18"
