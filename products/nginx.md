@@ -20,7 +20,7 @@ releases:
     eol: false
     latest: "1.23.0"
     link: https://nginx.org/en/CHANGES
-    latestReleaseDate: 2022-06-22
+    latestReleaseDate: 2022-06-21
     releaseDate: 2022-06-21
 -   releaseCycle: "1.22"
     eol: false

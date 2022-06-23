@@ -18,13 +18,13 @@ sortReleasesBy: releaseCycle
 releases:
 -   releaseCycle: "19"
     eol: false
-    latest: "19.0.5"
-    latestReleaseDate: 2022-06-20
+    latest: "19.0.6"
+    latestReleaseDate: 2022-06-22
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
     eol: false
-    latest: "18.3.4"
-    latestReleaseDate: 2022-06-15
+    latest: "18.3.5"
+    latestReleaseDate: 2022-06-22
     releaseDate: 2022-03-28
 -   releaseCycle: "17"
     eol: false
