@@ -22,10 +22,10 @@ releases:
     latest: "7.17.4"
     latestReleaseDate: 2022-05-24
     releaseDate: 2019-04-10
--   releaseCycle: "6.0"
-    eol: 2019-05-14
-    latest: "6.0.1"
-    latestReleaseDate: 2017-12-07
+-   releaseCycle: "6"
+    eol: 2022-02-10
+    latest: "6.8.23"
+    latestReleaseDate: 2022-01-13
     releaseDate: 2017-11-14
 
 ---
