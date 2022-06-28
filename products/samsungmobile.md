@@ -12,6 +12,21 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 releases:
 
+-   releaseCycle: "Galaxy A53 5G"
+    support: true
+    eol: false
+    releaseDate: 2022-04-01
+    
+-   releaseCycle: "Galaxy A33 5G"
+    support: true
+    eol: false
+    releaseDate: 2022-04-01
+
+-   releaseCycle: "Galaxy A13 LTE"
+    support: true
+    eol: false
+    releaseDate: 2022-04-22
+
 -   releaseCycle: "Galaxy A13 5G"
     support: true
     eol: false
