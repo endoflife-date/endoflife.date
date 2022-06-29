@@ -13,24 +13,32 @@ releases:
 -   releaseCycle: "2019"
     support: 2024-01-09
     eol: 2026-07-14
-    latest: "16.0.10384.20000"
+    latest: "16.0.10387.20008"
     releaseDate: 2018-10-22
+    latestReleaseDate: 2022-06-14
 -   releaseCycle: "2016"
     support: 2021-07-13
     eol: 2026-07-14
-    latest: "16.0.5290.1000"
+    latest: "16.0.5332.1001"
+    latestReleaseDate: 2022-06-14
     releaseDate: 2016-05-01
--   releaseCycle: "2013 SP1"
+-   releaseCycle: "2013"
+    releaseLabel: "2013 SP1"
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.5431.1000"
+    latest: "15.0.5459.1001"
+    latestReleaseDate: 2022-06-14
     releaseDate: 2013-01-09
--   releaseCycle: "2010 SP2"
+-   releaseCycle: "2010"
+    releaseLabel: "2010 SP2"
+    latestReleaseDate: 2021-04-13
     support: 2015-10-13
     eol: 2021-04-13
     latest: "14.0.7268.5000"
     releaseDate: 2010-07-05
--   releaseCycle: "2007 SP3"
+-   releaseCycle: "2007"
+    releaseLabel: "2007 SP3"
+    latestReleaseDate: 2014-05-13
     support: 2012-10-09
     eol: 2017-10-10
     latest: "12.0.6690.5000"
