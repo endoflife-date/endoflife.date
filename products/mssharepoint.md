@@ -20,6 +20,7 @@ releases:
     support: 2021-07-13
     eol: 2026-07-14
     latest: "16.0.5332.1001"
+    latestReleaseDate: 2022-06-14
     releaseDate: 2016-05-01
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
