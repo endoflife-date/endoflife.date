@@ -10,7 +10,7 @@ changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 auto:
 -   git: https://github.com/openzfs/zfs.git
-    regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]?|100\d*)$
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: openzfs
