@@ -65,8 +65,8 @@ releases:
     releaseDate: 1997-05-23
 -   releaseCycle: "4.0"
     releaseLabel: "4.0 SP5"
-    support: no
-    eol: yes
+    support: false
+    eol: true
     latest: "4.0.996"
     releaseDate: 1996-06-11
 
