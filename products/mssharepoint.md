@@ -37,6 +37,7 @@ releases:
     releaseDate: 2010-07-05
 -   releaseCycle: "2007"
     releaseLabel: "2007 SP3"
+    latestReleaseDate: 2014-05-13
     support: 2012-10-09
     eol: 2017-10-10
     latest: "12.0.6690.5000"
