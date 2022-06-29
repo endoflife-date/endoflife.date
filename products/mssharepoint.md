@@ -15,6 +15,7 @@ releases:
     eol: 2026-07-14
     latest: "16.0.10387.20008"
     releaseDate: 2018-10-22
+    latestReleaseDate: 2022-06-14
 -   releaseCycle: "2016"
     support: 2021-07-13
     eol: 2026-07-14
