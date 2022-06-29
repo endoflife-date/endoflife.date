@@ -26,6 +26,7 @@ releases:
     support: 2018-04-10
     eol: 2023-04-11
     latest: "15.0.5459.1001"
+    latestReleaseDate: 2022-06-14
     releaseDate: 2013-01-09
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
