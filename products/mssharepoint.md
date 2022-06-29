@@ -30,6 +30,7 @@ releases:
     releaseDate: 2013-01-09
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
+    latestReleaseDate: 2021-04-13
     support: 2015-10-13
     eol: 2021-04-13
     latest: "14.0.7268.5000"
