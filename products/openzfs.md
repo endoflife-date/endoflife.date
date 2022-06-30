@@ -8,9 +8,10 @@ versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: |
   https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
+# Ignore the 2.1.99 release, since that's a pre-release (See talk page)  
 auto:
 -   git: https://github.com/openzfs/zfs.git
-    regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: openzfs
