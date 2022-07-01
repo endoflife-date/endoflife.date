@@ -27,3 +27,5 @@ releases:
 > [Varnish](https://varnish-cache.org/) is a caching HTTP reverse proxy.
 
 A new minor version is released every 6 months.
+
+A list of security vulnerabilities is [available here](https://varnish-cache.org/security/index.html). You can also subscribe to the [varnish-announce](https://varnish-cache.org/lists/mailman/listinfo/varnish-announce) mailing list.
