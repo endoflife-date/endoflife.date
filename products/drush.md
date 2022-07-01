@@ -53,16 +53,9 @@ releases:
 
 > [Drush](https://www.drush.org/) is a command line shell and Unix scripting interface for Drupal.
 
-**Drush 11** is supported (for Drupal 9+).
+## PHP/Drupal Compatibility
 
-**Drush 10** was supported until Jan 2022.
-
-**Drush 9** was supported until May 2020.
-
-**Drush 8** is supported (for Drupal 7 - EOL currently set for Nov 2023).
-
-**Drush 7** was supported until Jul 2017.
-
-**Drush 6** was supported until Dec 2015.
-
-**Drush 5** was supported until May 2015.
+| Drush version | Supported PHP versions | Supported Drupal versions |
+|---------------|------------------------|---------------------------|
+| 11            | 7.4+                   | 9+                        |
+| 8             | 5.4.5+                 | 7                         |
