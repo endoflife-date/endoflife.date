@@ -11,10 +11,16 @@ permalink: /cfengine
 releasePolicyLink: https://cfengine.com
 
 releases:
--   releaseCycle: "3.19"
-    latest: "3.19.0"
+-   releaseCycle: "3.20"
+    latest: "3.20.0"
     eol: false
     support: true
+    link: https://github.com/cfengine/core/blob/3.20.0/ChangeLog
+    releaseDate: 2022-07-01
+-   releaseCycle: "3.19"
+    latest: "3.19.0"
+    eol: true
+    support: false
     link: https://github.com/cfengine/core/blob/3.19.0/ChangeLog
     releaseDate: 2021-12-10
 -   releaseCycle: "3.18"
