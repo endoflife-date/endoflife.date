@@ -7,6 +7,9 @@ releasePolicyLink: https://varnish-cache.org/releases/
 changelogTemplate: https://varnish-cache.org/releases/rel__LATEST__.html
 iconSlug: NA
 versionCommand: varnishd -V
+auto:
+-   git: https://github.com/varnishcache/varnish-cache.git
+    regex: ^varnish-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
 -   releaseCycle: "7.1"
     eol: 2023-03-15
