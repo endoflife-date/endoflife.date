@@ -12,6 +12,7 @@ versionCommand: drush --version
 auto:
 -   git: https://github.com/drush-ops/drush.git
 sortReleasesBy: 'releaseCycle'
+iconSlug: drupal
 releases:
 -   releaseCycle: "11"
     eol: false
