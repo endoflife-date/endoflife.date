@@ -29,6 +29,7 @@ releases:
     lts: true
     latest: "3.18.2"
     support: 2023-06-24
+    link: https://github.com/cfengine/core/blob/3.18.2/ChangeLog
     eol: false
     releaseDate: 2021-06-24
     latestReleaseDate: 2022-06-29
@@ -36,11 +37,13 @@ releases:
     latest: "3.17.0"
     eol: true
     support: false
+    link: https://github.com/cfengine/core/blob/3.17.0/ChangeLog
     releaseDate: 2020-11-18
     latestReleaseDate: 2020-11-18
 -   releaseCycle: "3.16"
     latest: "3.16.0"
     support: false
+    link: https://github.com/cfengine/core/blob/3.16.0/ChangeLog
     eol: true
     releaseDate: 2020-06-25
     latestReleaseDate: 2020-06-25
@@ -49,6 +52,7 @@ releases:
     latest: "3.15.6"
     eol: false
     support: 2022-12-18
+    link: https://github.com/cfengine/core/blob/3.15.6/ChangeLog
     releaseDate: 2019-12-18
     latestReleaseDate: 2022-06-29
 
