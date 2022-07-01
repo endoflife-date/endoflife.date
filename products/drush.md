@@ -7,8 +7,8 @@ changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
+eolColumn: Support
 versionCommand: drush --version
-releaseImage: false
 auto:
 -   git: https://github.com/drush-ops/drush.git
 sortReleasesBy: 'releaseCycle'
