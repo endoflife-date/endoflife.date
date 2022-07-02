@@ -15,7 +15,7 @@ releases:
 -   releaseCycle: "18"
     support: 2022-09-30
     eol: 2022-09-30
-    latest: "18.0.1"
+    latest: "18.0.1.1"
     releaseDate: 2022-03-22
 -   releaseCycle: "17"
     lts: true
