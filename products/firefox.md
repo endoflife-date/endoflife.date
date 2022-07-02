@@ -14,6 +14,7 @@ releases:
 
 -   releaseCycle: "102"
     eol: false
+    latest: "102.0"
     lts: false
     releaseDate: 2022-06-28
 
