@@ -23,10 +23,10 @@ releases:
     releaseDate: 2020-09-18
 -   releaseCycle: "2"
     support: 2022-03-18
-    eol: 2023-09-23
-    latest: "2.6.14"
+    eol: 2023-12-31
+    latest: "2.7.0"
     lts: false
-    latestReleaseDate: 2021-06-07
+    latestReleaseDate: 2022-07-01
     releaseDate: 2016-09-30
 -   releaseCycle: "1"
     support: false
