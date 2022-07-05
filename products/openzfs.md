@@ -22,9 +22,9 @@ releases:
 -   releaseCycle: "2.1"
     eol: 2023-07-02
     lts: true
-    latest: "2.1.99"
+    latest: "2.1.5"
 
-    latestReleaseDate: 2021-04-19
+    latestReleaseDate: 2022-06-22
     releaseDate: 2021-07-02
 -   releaseCycle: "2.0"
     eol: 2021-12-23
@@ -59,3 +59,4 @@ These distributions have repositories provided directly by the OpenZFS community
 [Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
 
 [zol]: https://zfsonlinux.org/ "ZFS On Linux"
+

@@ -17,13 +17,13 @@ auto:
 releases:
 -   releaseCycle: "1.38"
     eol: 2023-06-01
-    latest: "1.38.1"
-    latestReleaseDate: 2022-06-06
+    latest: "1.38.2"
+    latestReleaseDate: 2022-06-30
     releaseDate: 2022-06-02
 -   releaseCycle: "1.37"
     eol: 2022-11-01
-    latest: "1.37.2"
-    latestReleaseDate: 2022-04-01
+    latest: "1.37.3"
+    latestReleaseDate: 2022-06-30
     releaseDate: 2021-11-18
 -   releaseCycle: "1.36"
     eol: 2022-05-01
@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "1.35"
     lts: true
     eol: 2023-09-01
-    latest: "1.35.6"
-    latestReleaseDate: 2022-03-31
+    latest: "1.35.7"
+    latestReleaseDate: 2022-06-30
     releaseDate: 2020-09-25
 -   releaseCycle: "1.34"
     eol: 2020-11-30
