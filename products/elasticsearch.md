@@ -14,8 +14,8 @@ releases:
 # The EOL will update on minor 8.x releases
 -   releaseCycle: "8"
     eol: 2023-10-26
-    latest: "8.3.0"
-    latestReleaseDate: 2022-06-28
+    latest: "8.3.1"
+    latestReleaseDate: 2022-06-30
     releaseDate: 2022-02-10
 -   releaseCycle: "7"
     eol: 2023-08-01
