@@ -23,7 +23,7 @@ releases:
     releaseDate: 2020-09-18
 -   releaseCycle: "2"
     support: 2022-03-18
-    eol: 2023-09-23
+    eol: 2023-12-31
     latest: "2.7.2"
     lts: false
     latestReleaseDate: 2022-07-05
