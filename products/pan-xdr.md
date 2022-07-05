@@ -62,7 +62,7 @@ releases:
     eol: 2024-03-06
     releaseDate: 2022-03-06
 -   releaseCycle: "7.6"
-    eol: 2022-08-05
+    eol: 2022-09-05
     releaseDate: 2021-12-05
 -   releaseCycle: "7.7"
     eol: 2022-12-27
