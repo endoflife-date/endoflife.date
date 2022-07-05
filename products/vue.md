@@ -24,9 +24,9 @@ releases:
 -   releaseCycle: "2"
     support: 2022-03-18
     eol: 2023-09-23
-    latest: "2.6.14"
+    latest: "2.7.2"
     lts: false
-    latestReleaseDate: 2021-06-07
+    latestReleaseDate: 2022-07-05
     releaseDate: 2016-09-30
 -   releaseCycle: "1"
     support: false
@@ -43,3 +43,4 @@ releases:
 [Vue does not have a fixed release cycle](https://vuejs.org/about/releases.html). Patch releases are released as needed. Minor releases always contain new features, with a typical time frame of 3-6 months in between. Minor releases always go through a beta pre-release phase. Major releases will be announced ahead of time, and will go through an early discussion phase and alpha / beta pre-release phases.
 
 Every time a new major is released, the last minor in the previous major automatically becomes LTS for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode (security patches only) for another 18 months before entering end of life. "2.7" is the planned LTS release for the v2 cycle.
+

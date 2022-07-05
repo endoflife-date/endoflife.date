@@ -18,9 +18,9 @@ releaseDateColumn: true
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
 -   releaseCycle: "2.9"
-    latest: "2.9.1"
+    latest: "2.9.2"
     eol: false
-    latestReleaseDate: 2022-06-07
+    latestReleaseDate: 2022-06-29
     releaseDate: 2022-05-30
 -   releaseCycle: "2.8"
     latest: "2.8.1"
