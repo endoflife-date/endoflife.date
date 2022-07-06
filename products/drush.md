@@ -36,14 +36,14 @@ releases:
     releaseDate: 2015-11-19
 -   releaseCycle: "7"
     eol: 2017-07-01
-    latest: "7.4.0"
+    latest: "7.4.2"
     latestReleaseDate: 2022-03-25
-    releaseDate: 2016-09-22
+    releaseDate: 2015-05-20
 -   releaseCycle: "6"
     eol: 2015-12-01
     latest: "6.7.0"
     latestReleaseDate: 2015-12-02
-    releaseDate: 2013-07-17
+    releaseDate: 2013-08-16
 -   releaseCycle: "5"
     eol: 2015-05-01
     latest: "5.11.0"
