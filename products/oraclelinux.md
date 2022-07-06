@@ -11,6 +11,12 @@ sortReleasesBy: releaseDate
 iconSlug: oracle
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2022-06-30
+    support: true
+    eol: false
+    latest: "9.0"
+
 -   releaseCycle: "8"
     releaseDate: 2019-07-18
     support: 2029-07-01
