@@ -9,7 +9,8 @@ releaseImage: https://code.blender.org/wp-content/uploads/2020/05/release_cadenc
 auto:
   # https://git.blender.org/blender.git does not support partialClone
 -   git: https://github.com/blender/blender.git
-changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
+changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
+  | replace:'.','-'}}/
 sortReleasesBy: releaseDate
 eolColumn: Critical bug fixes
 activeSupportColumn: true
@@ -17,9 +18,9 @@ releases:
 -   releaseCycle: "3.2"
     eol: false
     support: true
-    latest: "3.2.0"
+    latest: "3.2.1"
     lts: false
-    latestReleaseDate: 2022-06-08
+    latestReleaseDate: 2022-07-06
     releaseDate: 2022-06-08
 -   releaseCycle: "3.1"
     eol: 2022-06-08
