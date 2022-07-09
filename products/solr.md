@@ -21,6 +21,7 @@ releases:
     support: true
     eol: false
     latest: "8.11.2"
+    releaseDate: 2019-03-14
 
 ---
 
