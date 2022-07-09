@@ -16,6 +16,11 @@ releaseDateColumn: true
 versionCommand: cat /opt/couchbase/VERSION.txt
 
 releases:
+-   releaseCycle: "7.1"
+    eol: false
+    latest: "7.1.1"
+    latestReleaseDate: 2022-07-07
+    releaseDate: 2022-06-07
 -   releaseCycle: "7.0"
     eol: 2023-01-01
     latest: "7.0.3"
