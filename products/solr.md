@@ -13,11 +13,11 @@ releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: apachesolr
 releases:
--   releaseCycle: "9.x"
+-   releaseCycle: "9"
     support: true
     eol: false
     latest: "9.0.0"
--   releaseCycle: "8.11.x"
+-   releaseCycle: "8"
     support: true
     eol: false
     latest: "8.11.2"
