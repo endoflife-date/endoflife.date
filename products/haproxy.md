@@ -8,6 +8,9 @@ activeSupportColumn: false
 versionCommand: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
+# Source: https://www.haproxy.org/download/
+# Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
+# Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
 -   custom: true
 sortReleasesBy: 'cycleShortHand'
