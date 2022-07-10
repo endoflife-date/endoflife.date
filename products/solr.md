@@ -1,5 +1,5 @@
 ---
-title: Solr
+title: Apache Solr
 permalink: /solr
 alternate_urls:
   - apache_solr
@@ -17,11 +17,14 @@ releases:
     support: true
     eol: false
     latest: "9.0.0"
+    releaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-11
 -   releaseCycle: "8"
     support: true
     eol: false
     latest: "8.11.2"
     releaseDate: 2019-03-14
+    latestReleaseDate: 2022-06-22
 
 ---
 
