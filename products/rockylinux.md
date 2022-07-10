@@ -13,6 +13,9 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: releaseDate
 releaseLabel: "Rocky Linux __RELEASE_CYCLE__"
+auto:
+-   distrowatch: rocky
+    regex: '^Distribution Release: Rocky Linux (?P<major>\d)\.(?P<minor>\d)$'
 releases:
 -   releaseCycle: "8"
     support: 2024-05-31

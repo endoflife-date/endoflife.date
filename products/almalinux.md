@@ -10,8 +10,8 @@ sortReleasesBy: releaseDate
 iconSlug: NA
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 auto:
--   dockerhub: almalinux/9-init
--   dockerhub: almalinux/8-init
+-   distrowatch: alma
+    regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-07
