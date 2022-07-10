@@ -22,8 +22,8 @@ releases:
     releaseDate: 2022-06-02
 -   releaseCycle: "1.37"
     eol: 2022-11-01
-    latest: "1.37.3"
-    latestReleaseDate: 2022-06-30
+    latest: "1.37.4"
+    latestReleaseDate: 2022-07-08
     releaseDate: 2021-11-18
 -   releaseCycle: "1.36"
     eol: 2022-05-01

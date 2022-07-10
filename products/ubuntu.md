@@ -11,7 +11,8 @@ changelogTemplate: |
 # under the same headline
 auto:
 -   distrowatch: ubuntu
-    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?( LTS|, Kubuntu.*)?$'
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(
+      LTS|, Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 activeSupportColumn: true
 releaseDateColumn: true
@@ -28,6 +29,7 @@ releases:
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
 
     releaseDate: 2022-04-21
+    latestReleaseDate: 2022-04-21
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
     support: 2022-07-31
@@ -36,6 +38,7 @@ releases:
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
 
     releaseDate: 2021-10-14
+    latestReleaseDate: 2021-10-14
 -   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
     support: 2022-01-20
@@ -44,6 +47,7 @@ releases:
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
 
     releaseDate: 2021-04-22
+    latestReleaseDate: 2021-04-22
 -   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
     support: 2021-07-22
@@ -51,6 +55,7 @@ releases:
     latest: "20.10"
 
     releaseDate: 2020-10-22
+    latestReleaseDate: 2020-10-22
 -   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
@@ -59,6 +64,7 @@ releases:
     latest: "20.04.4"
 
     releaseDate: 2020-04-23
+    latestReleaseDate: 2022-02-25
 -   releaseCycle: "19.10"
     codename: "Karmic Koala"
     support: 2020-07-06
@@ -66,6 +72,7 @@ releases:
     latest: "19.10"
 
     releaseDate: 2019-10-17
+    latestReleaseDate: 2019-10-17
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
@@ -75,6 +82,7 @@ releases:
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
 
     releaseDate: 2018-04-26
+    latestReleaseDate: 2021-09-17
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
@@ -83,6 +91,7 @@ releases:
     latest: "16.04.7"
 
     releaseDate: 2016-04-21
+    latestReleaseDate: 2020-08-13
 -   releaseCycle: "14.04"
     codename: "Trusty Tahr"
     lts: true
@@ -90,6 +99,7 @@ releases:
     eol: 2024-04-01
     latest: "14.04.6"
     releaseDate: 2014-04-17
+    latestReleaseDate: 2019-03-07
 
 ---
 

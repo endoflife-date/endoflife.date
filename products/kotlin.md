@@ -23,8 +23,8 @@ releases:
     cycleShortHand: 107
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    latest: "1.7.0"
-    latestReleaseDate: 2022-06-07
+    latest: "1.7.10"
+    latestReleaseDate: 2022-07-04
     releaseDate: 2022-06-07
 -   releaseCycle: "1.6"
     cycleShortHand: 106
