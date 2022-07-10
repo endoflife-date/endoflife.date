@@ -6,7 +6,13 @@ category: os
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 changelogTemplate: |
   https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/
-
+# https://regex101.com/r/Fzt9US/1
+# We return v1 and v2 separated by newline in case 2 releases were marked
+# under the same headline
+auto:
+-   distrowatch: ubuntu
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?( LTS|, Kubuntu.*)?$'
+    template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 activeSupportColumn: true
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png

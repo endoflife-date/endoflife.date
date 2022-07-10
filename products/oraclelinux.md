@@ -10,6 +10,10 @@ eolColumn: Extended Support
 sortReleasesBy: releaseDate
 iconSlug: oracle
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
+# https://regex101.com/r/fRdw9L/1
+auto:
+-   distrowatch: oracle
+    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.| Update )?(?P<minor>\d+)?$'
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-30

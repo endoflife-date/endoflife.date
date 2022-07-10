@@ -9,6 +9,15 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: releaseDate
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+# We have 2 regexes, because there are two variations for headlines
+auto:
+-   distrowatch: debian
+    regex:
+      # https://regex101.com/r/d6SeC6/2
+      - '^Distribution Release: Debian (GNU\/Linux )?(?P<major>\d+)(\.?(?P<minor>\d+)(r(?P<patch>\d))?)?$'
+      # https://regex101.com/r/WQWhwH/1
+      - 'Debian GNU\/Linux (?P<major>\d+)\.(?P<minor>\d+) [Uu]pdated \(r(?P<patch>\d+)\)$'
+    template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}"
 releases:
 -   releaseCycle: "11"
     codename: "Bullseye"

@@ -91,9 +91,11 @@ auto:
     # Use named capturing groups
     # Default value should work for most releases of the form a.b or a.b.c
     # default also skips over any special releases (nightly,beta,pre,rc etc)
+    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
     # A liquid template using the captured variables from the regex above that renders the final version
     # You can use liquid templating here
+    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
   # owner/repo combination for a docker hub public image
@@ -103,8 +105,19 @@ auto:
   # Link to package on NPM
   - npm: https://www.npmjs.com/package/abc
 
+  # Use distrowatch page for a given release. (such as https://distrowatch.com/index.php?distribution=debian)
+  - distrowatch: quibbler #distribution ID from the URL
+    # A mandatory regex that is used to parse headlines.
+    # Parse into major/minor/patch named groups
+    # You can also pass a list of regexes here, and matches for any of those will be considered
+    regex: 'Distribution Release: (?P<version>\d+.\d+)'
+    # A template to render default value is same as in `git` above
+    # https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py
+    template: '{{version}}'
+
   # Use this if the product has a custom script updating releases
-  # in release-data repository
+  # in release-data repository. This will enable the footer note
+  # informing users that releases are automated
   - custom: true
 
 # A list of releases, supported or not
