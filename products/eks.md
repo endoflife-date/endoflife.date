@@ -3,7 +3,11 @@ title: Amazon EKS
 category: service
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-__RELEASE_CYCLE__"
-
+# Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/kubernetes-versions.md as source
+# Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
+# Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
+auto:
+-   custom: true
 releases:
 -   releaseCycle: "1.22"
     eol: 2023-05-01

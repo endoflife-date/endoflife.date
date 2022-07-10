@@ -9,6 +9,11 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End-of-life Date
 sortReleasesBy: releaseDate
+# Data: https://github.com/endoflife-date/release-data/blob/main/releases/pangp.json
+# Source: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+# Script: https://github.com/endoflife-date/release-data/blob/main/src/pan-gp.py
+auto:
+-   custom: true
 releases:
 -   releaseCycle: "3.0"
     eol: 2018-02-15
