@@ -105,57 +105,57 @@ releases:
 
 -   releaseCycle: "Kaby Lake"
     discontinued: 2020-10-09
-    eol: true
+    eol: false
     releaseDate: 2015-08-30
 
 -   releaseCycle: "Gemini Lake"
     discontinued: true
-    eol: true
+    eol: false
     releaseDate: 2017-12-11
 
 -   releaseCycle: "Coffee Lake"
     discontinued: 2021-12-24
-    eol: true
+    eol: false
     releaseDate: 2017-10-05
 
 -   releaseCycle: "Comet Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2019-08-21
 
 -   releaseCycle: "Ice Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2019-09-01
 
 -   releaseCycle: "Elkhart Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2020-09-23
 
 -   releaseCycle: "Lakefield"
     discontinued: true
-    eol: true
+    eol: false
     releaseDate: 2020-06-19
     
 -   releaseCycle: "Tiger Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2020-09-02
 
 -   releaseCycle: "Jasper Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2021-01-11
 
 -   releaseCycle: "Rocket Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2021-03-30
 
 -   releaseCycle: "Alder Lake"
     discontinued: false
-    eol: true
+    eol: false
     releaseDate: 2021-11-04
 
 ---
