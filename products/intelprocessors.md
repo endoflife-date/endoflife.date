@@ -6,7 +6,8 @@ category: device
 versionCommand: "'msinfo32' on Windows, 'cat /proc/cpuinfo' on Linux"
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
 discontinuedColumn: true
-activeSupportColumn: true
+activeSupportColumn: false
+eolColumn: Active Support
 latestColumn: false
 releaseColumn: false
 releaseDateColumn: true
@@ -14,147 +15,147 @@ sortReleasesBy: 'releaseDate'
 releases:
 -   releaseCycle: "Ivy Bridge (excl. Xeon E5v2/E7v2)"
     discontinued: 2015-06-05
-    support: 2019-12-31
+    eol: 2019-12-31
     releaseDate: 2012-04-29
     
 -   releaseCycle: "Ivy Bridge (Xeon E5v2/E7v2)"
     discontinued: 2015-06-05
-    support: 2020-06-30
+    eol: 2020-06-30
     releaseDate: 2012-04-29
     
 -   releaseCycle: "Haswell (excl. Xeon E5v3/E7v3)"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2013-06-04
     
 -   releaseCycle: "Haswell (Xeon E5v3/E7v3)"
     discontinued: true
-    support: 2021-12-31
+    eol: 2021-12-31
     releaseDate: 2013-06-04
     
 -   releaseCycle: "Crystal Well"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2013-06-02
 
 -   releaseCycle: "Devil's Canyon"
     discontinued: 2017-07-14
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2014-06-02
 
 -   releaseCycle: "Broadwell (excl. Xeon E7v4/E7v4)"
     discontinued: 2018-11-01
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2014-10-27
 
 -   releaseCycle: "Broadwell (Xeon E7v4/E7v4)"
     discontinued: 2018-11-01
-    support: 2022-06-30
+    eol: 2022-06-30
     releaseDate: 2014-10-27
 
 -   releaseCycle: "Broadwell DE"
     discontinued: 2018-11-01
-    support: 2022-12-31
+    eol: 2022-12-31
     releaseDate: 2014-10-27
 
 -   releaseCycle: "Skylake"
     discontinued: 2019-03-04
-    support: 2022-09-30
+    eol: 2022-09-30
     releaseDate: 2015-08-05
 
 -   releaseCycle: "Apollo Lake"
     discontinued: false # TODO: This is likely incorrect, but I am assuming it is under production due to this CPU being launched semi recently and having its status say not discontinued: https://ark.intel.com/content/www/us/en/ark/products/195253/intel-pentium-processor-n4200e-2m-cache-up-to-2-50-ghz.html
-    support: 2023-06-30
+    eol: 2023-06-30
     releaseDate: 2016-08-30
 
 -   releaseCycle: "Bay Trail"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2013-09-11
 
 -   releaseCycle: "Braswell"
     discontinued: true
-    support: 2022-06-30
+    eol: 2022-06-30
     releaseDate: 2015-03-01
 
 -   releaseCycle: "Cherry Trail"
     discontinued: true
-    support: 2022-06-30
+    eol: 2022-06-30
     releaseDate: 2013-03-02
 
 -   releaseCycle: "Cannon Lake"
     discontinued: 2020-02-28
-    support: 2021-09-30
+    eol: 2021-09-30
     releaseDate: 2018-05-01
 
 -   releaseCycle: "Avoton"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2013-07-01 # Not accurate, date of start of quarter 3 of 2013
 
 -   releaseCycle: "Briarwood"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2013-04-01 # Not accurate, date of start of quarter 3 of 2013
 
 -   releaseCycle: "Centerton"
     discontinued: true
-    support: 2021-06-30
+    eol: 2021-06-30
     releaseDate: 2012-12-11
 
 -   releaseCycle: "Kaby Lake"
     discontinued: 2020-10-09
-    support: true
+    eol: true
     releaseDate: 2015-08-30
 
 -   releaseCycle: "Gemini Lake"
     discontinued: true
-    support: true
+    eol: true
     releaseDate: 2017-12-11
 
 -   releaseCycle: "Coffee Lake"
     discontinued: 2021-12-24
-    support: true
+    eol: true
     releaseDate: 2017-10-05
 
 -   releaseCycle: "Comet Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2019-08-21
 
 -   releaseCycle: "Ice Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2019-09-01
 
 -   releaseCycle: "Elkhart Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2020-09-23
 
 -   releaseCycle: "Lakefield"
     discontinued: true
-    support: true
+    eol: true
     releaseDate: 2020-06-19
     
 -   releaseCycle: "Tiger Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2020-09-02
 
 -   releaseCycle: "Jasper Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2021-01-11
 
 -   releaseCycle: "Rocket Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2021-03-30
 
 -   releaseCycle: "Alder Lake"
     discontinued: false
-    support: true
+    eol: true
     releaseDate: 2021-11-04
 
 ---
@@ -165,8 +166,6 @@ releases:
 - Intel Compute Support can be found [here](https://github.com/intel/compute-runtime#supported-platforms), with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases)
 - While a CPU may be under security support it may not be supported on a specific Windows release, more information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
 - A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported. 
-
-
 
 
 
