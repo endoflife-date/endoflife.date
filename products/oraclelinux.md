@@ -13,26 +13,30 @@ changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__R
 # https://regex101.com/r/fRdw9L/1
 auto:
 -   distrowatch: oracle
-    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.| Update )?(?P<minor>\d+)?$'
+    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
+      Update )?(?P<minor>\d+)?$'
 releases:
 -   releaseCycle: "9"
-    releaseDate: 2022-06-30
+    releaseDate: 2022-07-06
     support: true
     eol: false
     latest: "9.0"
 
+    latestReleaseDate: 2022-07-06
 -   releaseCycle: "8"
-    releaseDate: 2019-07-18
+    releaseDate: 2019-07-19
     support: 2029-07-01
     eol: 2029-07-01
     latest: "8.6"
-    
+    latestReleaseDate: 2022-05-20
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
     support: 2024-07-01
     eol: 2026-06-01
     latest: "7.9"
 
+
+    latestReleaseDate: 2020-10-08
 
 ---
 

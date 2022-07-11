@@ -12,32 +12,39 @@ releases:
 -   releaseCycle: "1.22"
     eol: 2023-05-01
     latest: "1.22.9"
-    releaseDate: 2022-04-04
+    releaseDate: 2022-04-05
+    latestReleaseDate: 2022-06-13
 -   releaseCycle: "1.21"
     eol: 2023-02-01
     latest: "1.21.12"
-    releaseDate: 2021-07-19
+    releaseDate: 2021-07-20
+    latestReleaseDate: 2022-06-13
 -   releaseCycle: "1.20"
     eol: 2022-10-03
     latest: "1.20.15"
-    releaseDate: 2021-05-18
+    releaseDate: 2021-05-19
+    latestReleaseDate: 2022-05-11
 -   releaseCycle: "1.19"
     eol: 2022-08-01
     latest: "1.19.16"
-    releaseDate: 2021-02-16
+    releaseDate: 2021-02-20
+    latestReleaseDate: 2022-05-11
 -   releaseCycle: "1.18"
     eol: 2022-03-31
     latest: "1.18.16"
-    releaseDate: 2020-10-13
+    releaseDate: 2020-10-27
+    latestReleaseDate: 2021-04-28
 -   releaseCycle: "1.17"
     eol: 2021-11-02
     latest: "1.17.17"
-    releaseDate: 2020-07-10
+    releaseDate: 2020-07-31
+    latestReleaseDate: 2021-04-28
 -   releaseCycle: "1.16"
     eol: 2021-09-27
     latest: "1.16.15"
 
-    releaseDate: 2020-04-30
+    releaseDate: 2020-05-05
+    latestReleaseDate: 2020-11-27
 iconSlug: kubernetes
 
 permalink: /amazon-eks
