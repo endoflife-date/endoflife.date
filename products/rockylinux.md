@@ -23,6 +23,7 @@ releases:
     latest: "8.6"
     link: https://rockylinux.org/news/rocky-linux-8-6-ga-release/
     releaseDate: 2021-06-21
+    latestReleaseDate: 2022-05-17
 
 ---
 
