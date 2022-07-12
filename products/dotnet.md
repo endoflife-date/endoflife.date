@@ -19,8 +19,8 @@ releases:
     cycleShortHand: "6.0"
     lts: true
     eol: 2024-11-12
-    latest: "6.0.6"
-    latestReleaseDate: 2022-06-14
+    latest: "6.0.7"
+    latestReleaseDate: 2022-07-12
     releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     cycleShortHand: "5.0"
@@ -32,8 +32,8 @@ releases:
 -   releaseCycle: "Core 3.1"
     cycleShortHand: "3.1"
     lts: true
-    latest: "3.1.26"
-    latestReleaseDate: 2022-06-14
+    latest: "3.1.27"
+    latestReleaseDate: 2022-07-12
     eol: 2022-12-13
     releaseDate: 2019-12-03
 -   releaseCycle: "Core 3.0"
