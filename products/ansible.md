@@ -14,8 +14,8 @@ auto:
 releases:
 -   releaseCycle: "6"
     eol: false
-    latest: "6.0.0"
-    latestReleaseDate: 2022-06-22
+    latest: "6.1.0"
+    latestReleaseDate: 2022-07-13
     releaseDate: 2022-06-22
 -   releaseCycle: "5"
     eol: false

@@ -16,8 +16,8 @@ iconSlug: drupal
 releases:
 -   releaseCycle: "11"
     eol: false
-    latest: "11.0.9"
-    latestReleaseDate: 2022-04-16
+    latest: "11.1.1"
+    latestReleaseDate: 2022-07-12
     releaseDate: 2022-01-11
 -   releaseCycle: "10"
     eol: 2022-01-01
