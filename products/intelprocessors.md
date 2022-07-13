@@ -3,7 +3,7 @@ permalink: /intel-processors
 title: Intel Processors
 iconSlug: intel
 category: device
-versionCommand: "'msinfo32' on Windows, 'cat /proc/cpuinfo' on Linux"
+versionCommand: "'msinfo32' on Windows, 'cat /sys/devices/cpu/caps/pmu_name' on Linux"
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
 discontinuedColumn: true
 activeSupportColumn: false
