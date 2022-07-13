@@ -40,6 +40,7 @@ releases:
     eol: 2026-07-06
     latest: "10.6.8"
     latestShortHand: "1068"
+    lts: true
     latestReleaseDate: 2022-05-20
     releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
