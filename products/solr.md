@@ -2,8 +2,8 @@
 title: Apache Solr
 permalink: /solr
 alternate_urls:
-  - apache_solr
-  - apache-solr
+-   apache_solr
+-   apache-solr
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 # https://rubular.com/r/WWOqtBih7muRFz
 auto:
@@ -32,8 +32,8 @@ releases:
     support: true
     eol: false
     latest: "8.11.2"
-    releaseDate: 2019-03-14
-    latestReleaseDate: 2022-06-22
+    releaseDate: 2019-03-13
+    latestReleaseDate: 2022-06-17
 
 ---
 

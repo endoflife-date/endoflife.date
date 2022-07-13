@@ -7,9 +7,9 @@ releases:
 -   releaseCycle: "6.0"
     eol: false
     releaseDate: 2022-05-24
-    latest: "6.0.0"
+    latest: "6.0.1"
     link: https://wordpress.org/support/wordpress-version/version-6-0/
-    latestReleaseDate: 2022-05-24
+    latestReleaseDate: 2022-07-12
 -   releaseCycle: "5.9"
     eol: 2022-05-24
     releaseDate: 2022-01-25
