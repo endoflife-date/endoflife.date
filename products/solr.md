@@ -5,6 +5,15 @@ alternate_urls:
   - apache_solr
   - apache-solr
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
+# https://rubular.com/r/WWOqtBih7muRFz
+auto:
+-   git: https://github.com/apache/lucene-solr.git
+    regex: '^releases\/lucene-solr\/(?<version>\d+\.\d+(.\d+)?)$'
+    template: {{version}}
+-   git: https://github.com/apache/solr.git
+    # Only pick new releasse from the new repo
+    regex: '^releases\/solr\/(?<version>\d+\.\d+(.\d+)?)$'
+    template: {{version}}
 category: server-app
 changelogTemplate: https://solr.apache.org/docs/{{"__LATEST__" | replace:'.','_'}}/changes/Changes.html
 activeSupportColumn: false
