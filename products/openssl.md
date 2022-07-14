@@ -14,7 +14,7 @@ sortReleasesBy: releaseCycle
 releases:
 -   releaseCycle: "3.0"
     eol: 2026-09-07
-    latest: "3.0.3"
+    latest: "3.0.5"
     lts: true
     releaseDate: 2021-09-07
 -   releaseCycle: "1.1.1"
