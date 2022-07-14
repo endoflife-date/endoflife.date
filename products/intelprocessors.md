@@ -162,7 +162,7 @@ releases:
 
 ---
 
-> Intel is a corporation that is known for being the world's largest semiconductor chip manufacturer. 
+> Intel designs CPUs for the consumer and commercial space that are named after lakes, which are supported on Microsoft Windows, Linux and macOS.  
 
 # Support exceptions
 - Intel Compute Support can be found [here](https://github.com/intel/compute-runtime#supported-platforms), with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases)
