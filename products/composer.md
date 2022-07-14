@@ -9,14 +9,14 @@ releases:
 -   releaseCycle: "2.3"
     eol: false
     support: true
-    latest: "2.3.9"
-    latestReleaseDate: 2022-07-05
+    latest: "2.3.10"
+    latestReleaseDate: 2022-07-13
     releaseDate: 2022-03-30
 
 -   releaseCycle: "2.2"
     eol: 2023-12-31
-    latest: "2.2.16"
-    latestReleaseDate: 2022-07-05
+    latest: "2.2.17"
+    latestReleaseDate: 2022-07-13
     lts: true
     releaseDate: 2021-12-22
 
