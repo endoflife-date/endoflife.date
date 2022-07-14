@@ -13,17 +13,19 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'releaseDate'
 releases:
--   releaseCycle: "Ivy Bridge (excl. Xeon E5v2/E7v2)"
+-   releaseCycle: "Ivy Bridge"
     discontinued: 2015-06-05
     eol: 2019-12-31
     releaseDate: 2012-04-29
     
--   releaseCycle: "Ivy Bridge (Xeon E5v2/E7v2)"
+-   releaseCycle: ivy_bridge_xeon
+    releaseLabel: Ivy Bridge (Xeon E5v2/E7v2)
     discontinued: 2015-06-05
     eol: 2020-06-30
     releaseDate: 2012-04-29
     
--   releaseCycle: "Haswell (excl. Xeon E5v3/E7v3)"
+-   releaseCycle: haswell_xeon
+    releaseLabel: "Haswell"
     discontinued: true
     eol: 2021-06-30
     releaseDate: 2013-06-04
