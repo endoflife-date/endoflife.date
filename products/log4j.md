@@ -13,7 +13,7 @@ releases:
 -   releaseCycle: "2"
     cycleShortHand: 299
     eol: false
-    latest: "2.17.2"
+    latest: "2.18.0"
     releaseDate: 2014-07-12
 -   releaseCycle: "2.12"
     cycleShortHand: 212
