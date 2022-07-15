@@ -13,17 +13,20 @@ sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "10"
     eol: false
-    latest: "10.0.20"
+    latest: "10.0.22"
+    latestReleaseDate: 2022-06-11
     link: https://tomcat.apache.org/download-10.cgi
     releaseDate: 2020-12-08
 -   releaseCycle: "9"
     eol: false
-    latest: "9.0.62"
+    latest: "9.0.64"
+    latestReleaseDate: 2022-06-09
     link: https://tomcat.apache.org/download-90.cgi
     releaseDate: 2017-10-04
 -   releaseCycle: "8"
     eol: false
-    latest: "8.5.78"
+    latest: "8.5.81"
+    latestReleaseDate: 2022-06-11
     link: https://tomcat.apache.org/download-80.cgi
     releaseDate: 2014-02-02
 -   releaseCycle: "7"
