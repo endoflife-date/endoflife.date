@@ -19,7 +19,7 @@ releases:
     releaseDate: 2021-09-07
 -   releaseCycle: "1.1.1"
     eol: 2023-09-11
-    latest: "1.1.1o"
+    latest: "1.1.1q"
     lts: true
     releaseDate: 2018-09-11
 -   releaseCycle: "1.1.0"
