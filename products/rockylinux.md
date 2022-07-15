@@ -17,6 +17,13 @@ auto:
 -   distrowatch: rocky
     regex: '^Distribution Release: Rocky Linux (?P<major>\d)\.(?P<minor>\d)$'
 releases:
+-   releaseCycle: "9"
+    support: 2025-05-31
+    eol: 2032-05-31
+    latest: "9.0"
+    link: https://rockylinux.org/news/rocky-linux-9-0-ga-release/
+    releaseDate: 2022-07-14
+    latestReleaseDate: 2022-07-14
 -   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
@@ -35,5 +42,4 @@ releases:
  - Rocky Linux doesn't support [live kernel patching](https://access.redhat.com/solutions/2206511), instead users who need this depend on third party paid services.
  - Rocky Linux doesn't support [Extended Life Cycle](https://www.redhat.com/en/resources/els-datasheet), resulting in a shorter support cycle compared to upstream RHEL.
 
-
-The project's aim is to provide a community-supported, production-grade enterprise operating system.
+Extended support for Rocky Linux is available from a variety of [commercial support providers](https://rockylinux.org/support/).
