@@ -25,23 +25,23 @@ releases:
 -   releaseCycle: "3.15"
     eol: 2023-11-01
     cycleShortHand: 315
-    latest: "3.15.4"
+    latest: "3.15.5"
     link: https://alpinelinux.org/posts/Alpine-3.12.12-3.13.10-3.14.6-3.15.4-released.html
-    latestReleaseDate: 2022-04-04
+    latestReleaseDate: 2022-07-19
     releaseDate: 2021-11-24
 -   releaseCycle: "3.14"
     eol: 2023-05-01
     cycleShortHand: 314
-    latest: "3.14.6"
+    latest: "3.14.7"
     link: https://alpinelinux.org/posts/Alpine-3.12.12-3.13.10-3.14.6-3.15.4-released.html
-    latestReleaseDate: 2022-04-04
+    latestReleaseDate: 2022-07-19
     releaseDate: 2021-06-15
 -   releaseCycle: "3.13"
     eol: 2022-11-01
     cycleShortHand: 313
-    latest: "3.13.10"
+    latest: "3.13.11"
     link: https://alpinelinux.org/posts/Alpine-3.12.12-3.13.10-3.14.6-3.15.4-released.html
-    latestReleaseDate: 2022-04-04
+    latestReleaseDate: 2022-07-19
     releaseDate: 2021-01-14
 -   releaseCycle: "3.12"
     eol: 2022-05-01

@@ -12,15 +12,15 @@ releases:
     eol: false
     support: true
     lts: true
-    latest: "5.1.3"
-    latestReleaseDate: 2021-10-09
+    latest: "5.2.0"
+    latestReleaseDate: 2022-07-19
     releaseDate: 2021-05-05
 -   releaseCycle: "4"
     eol: 2022-11-01
-    latest: "4.6.1"
+    latest: "4.6.2"
     lts: true
     support: false
-    latestReleaseDate: 2021-10-28
+    latestReleaseDate: 2022-07-19
     releaseDate: 2018-01-18
 -   releaseCycle: "3"
     eol: 2019-07-24
