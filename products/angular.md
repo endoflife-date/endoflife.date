@@ -13,10 +13,10 @@ releases:
 -   releaseCycle: "14"
     support: 2022-12-02
     eol: 2022-12-02
-    latest: "14.0.6"
+    latest: "14.1.0"
     releaseDate: 2022-06-02
     lts: 2022-12-02
-    latestReleaseDate: 2022-07-13
+    latestReleaseDate: 2022-07-20
 -   releaseCycle: "13"
     support: 2022-05-04
     eol: 2023-05-04

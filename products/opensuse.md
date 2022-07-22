@@ -10,6 +10,11 @@ releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjb
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__CYCLE_SHORT_HAND__/
 releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
 releases:
+-   releaseCycle: "15.4"
+    releaseLabel: "openSUSE LEAP __RELEASE_CYCLE__"
+    support: 2023-12-1
+    eol: 2023-12-1
+    releaseDate: 2022-06-09
 -   releaseCycle: "15.3"
     releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     support: 2022-12-1
