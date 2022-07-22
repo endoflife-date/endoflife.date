@@ -1,6 +1,8 @@
 ---
 title: Vault
 permalink: /hashicorp-vault
+alternate_urls:
+-   /vault
 category: server-app
 iconSlug: vault
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
