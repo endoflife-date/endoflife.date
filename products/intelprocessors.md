@@ -3,7 +3,7 @@ permalink: /intel-processors
 title: Intel Processors
 iconSlug: intel
 category: device
-versionCommand: "'Get-CimInstance Win32_Processor' on Windows Powershell, 'cat /proc/cpuinfo' on Linux. Then check product classification on https://ark.intel.com/"
+versionCommand: "'Get-CimInstance Win32_Processor' on Windows Powershell, 'cat /proc/cpuinfo' on Linux, 'sysctl -n machdep.cpu.brand_string' on macOS. Then check product classification on https://ark.intel.com/"
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
 discontinuedColumn: true
 activeSupportColumn: false
