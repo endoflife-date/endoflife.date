@@ -3,7 +3,7 @@ permalink: /python
 title: Python
 category: lang
 versionCommand: python --version
-releasePolicyLink: https://devguide.python.org/
+releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
@@ -71,8 +71,3 @@ releases:
 
 By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
 Python 3.9+ cannot be used on Microsoft Windows 7 or earlier versions. Last Windows 7 installable version is Python 3.8 series.
-
-See the Python Developer's Guide for:
-
-* [Active branches](https://devguide.python.org/#status-of-python-branches)
-* [End-of-life branches](https://devguide.python.org/devcycle/#end-of-life-branches)
