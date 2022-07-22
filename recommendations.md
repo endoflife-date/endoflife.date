@@ -65,7 +65,7 @@ Make sure this information is hosted _alongside your end-user documentation_, no
 ### Bad - Python
 
 Python maintains the EoL status on the website for Python developers:
-<https://devguide.python.org/versions/#versions>
+<https://devguide.python.org/versions/>
 
 ### Bad - Ansible
 
