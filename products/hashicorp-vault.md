@@ -31,7 +31,7 @@ releases:
 
 ---
 
-> [Hashicorp Vault](https://www.vaultproject.io/) manages secrets and protects sensitive data. Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
+> [Hashicorp Vault](https://www.vaultproject.io/) is a tool for securely accessing secrets. It provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch, for up to two (2) releases from the most current major release. 
 
