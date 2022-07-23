@@ -15,6 +15,16 @@ auto:
     regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+-   releaseCycle: "5.1"
+    cycleShortHand: 51
+    codename: Riemann
+    eol: false
+    latest: "5.1.0"
+    lts: true
+    link: https://ffmpeg.org/download.html#release_5.1
+    latestReleaseDate: 2022-07-22
+    releaseDate: 2022-07-22
+
 -   releaseCycle: "5.0"
     cycleShortHand: 50
     codename: Lorentz
@@ -24,6 +34,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_5.0
     latestReleaseDate: 2022-04-04
     releaseDate: 2022-01-14
+
 -   releaseCycle: "4.4"
     cycleShortHand: 44
     codename: Rao
@@ -32,6 +43,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_4.4
     latestReleaseDate: 2022-04-14
     releaseDate: 2021-04-08
+
 -   releaseCycle: "4.3"
     cycleShortHand: 43
     codename: '4:3'
@@ -40,6 +52,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_4.3
     latestReleaseDate: 2022-04-16
     releaseDate: 2020-06-15
+
 -   releaseCycle: "4.2"
     cycleShortHand: 42
     codename: 'Ada'
@@ -48,6 +61,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_4.2
     latestReleaseDate: 2022-05-14
     releaseDate: 2019-08-05
+
 -   releaseCycle: "4.1"
     cycleShortHand: 41
     codename: 'al-Khwarizmi'
@@ -56,6 +70,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_4.1
     latestReleaseDate: 2022-04-17
     releaseDate: 2018-11-06
+
 -   releaseCycle: "4.0"
     cycleShortHand: 40
     codename: 'Wu'
@@ -64,6 +79,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_4.0
     latestReleaseDate: 2020-07-03
     releaseDate: 2018-04-20
+
 -   releaseCycle: "3.4"
     cycleShortHand: 34
     codename: 'Cantor'
@@ -72,6 +88,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_3.4
     latestReleaseDate: 2022-05-14
     releaseDate: 2017-10-15
+
 -   releaseCycle: "3.3"
     cycleShortHand: 33
     codename: 'Hilbert'
@@ -80,6 +97,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_3.3
     latestReleaseDate: 2018-11-18
     releaseDate: 2017-04-13
+
 -   releaseCycle: "3.2"
     cycleShortHand: 32
     codename: 'Hypatia'
@@ -88,6 +106,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_3.2
     latestReleaseDate: 2022-05-14
     releaseDate: 2016-10-27
+
 -   releaseCycle: "3.1"
     cycleShortHand: 31
     codename: 'Laplace'
@@ -104,6 +123,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_3.0
     latestReleaseDate: 2018-10-28
     releaseDate: 2016-02-15
+
 -   releaseCycle: "2.8"
     cycleShortHand: 28
     codename: 'Feynman'
@@ -112,6 +132,7 @@ releases:
     link: https://ffmpeg.org/download.html#release_2.8
     latestReleaseDate: 2022-05-15
     releaseDate: 2015-09-09
+
 -   releaseCycle: "2.7"
     cycleShortHand: 27
     codename: 'Nash'
@@ -120,6 +141,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.7
     latestReleaseDate: 2016-04-30
     releaseDate: 2015-06-10
+
 -   releaseCycle: "2.6"
     cycleShortHand: 26
     codename: 'Grothendieck'
@@ -128,6 +150,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.6
     latestReleaseDate: 2016-05-03
     releaseDate: 2015-03-07
+
 -   releaseCycle: "2.5"
     cycleShortHand: 25
     codename: 'Bohr'
@@ -136,6 +159,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.5
     latestReleaseDate: 2016-02-02
     releaseDate: 2014-12-04
+
 -   releaseCycle: "2.4"
     cycleShortHand: 24
     codename: 'Fresnel'
@@ -144,6 +168,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.4
     latestReleaseDate: 2017-12-31
     releaseDate: 2014-09-14
+
 -   releaseCycle: "2.3"
     cycleShortHand: 23
     codename: 'Mandelbrot'
@@ -152,6 +177,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.3
     latestReleaseDate: 2015-01-06
     releaseDate: 2014-07-16
+
 -   releaseCycle: "2.2"
     cycleShortHand: 22
     codename: 'Muybridge'
@@ -160,6 +186,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.2
     latestReleaseDate: 2015-06-18
     releaseDate: 2014-03-23
+
 -   releaseCycle: "2.1"
     cycleShortHand: 21
     codename: 'Fourier'
@@ -168,6 +195,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.1
     latestReleaseDate: 2015-04-30
     releaseDate: 2013-10-28
+
 -   releaseCycle: "2.0"
     cycleShortHand: 20
     codename: 'Nameless'
@@ -176,6 +204,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_2.0
     latestReleaseDate: 2015-06-10
     releaseDate: 2013-07-10
+
 -   releaseCycle: "1.2"
     cycleShortHand: 12
     codename: 'Magic'
@@ -184,6 +213,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_1.2
     latestReleaseDate: 2015-02-12
     releaseDate: 2013-03-15
+
 -   releaseCycle: "1.1"
     cycleShortHand: 11
     codename: 'Fire Flower'
@@ -192,6 +222,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_1.1
     latestReleaseDate: 2015-03-13
     releaseDate: 2013-01-06
+
 -   releaseCycle: "1.0"
     cycleShortHand: 10
     codename: 'Angel'
@@ -200,6 +231,7 @@ releases:
     link: https://ffmpeg.org/olddownload.html#release_1.0
     latestReleaseDate: 2014-07-20
     releaseDate: 2012-09-28
+
 -   releaseCycle: "0.11"
     cycleShortHand: 011
     codename: 'Happiness'
@@ -207,6 +239,7 @@ releases:
     latest: "0.11.5"
     link: https://ffmpeg.org/olddownload.html#release_0.11
     releaseDate: 2012-05-25
+
 -   releaseCycle: "0.10"
     cycleShortHand: 010
     codename: 'Freedom'
@@ -214,6 +247,7 @@ releases:
     latest: "0.10.16"
     link: https://ffmpeg.org/olddownload.html#release_0.10
     releaseDate: 2012-01-26
+
 -   releaseCycle: "0.9"
     cycleShortHand: 09
     codename: 'Harmony'
@@ -221,6 +255,7 @@ releases:
     latest: "0.9.4"
     link: https://ffmpeg.org/olddownload.html#release_0.9
     releaseDate: 2011-12-11
+
 -   releaseCycle: "0.8"
     cycleShortHand: 08
     codename: 'Love'
@@ -228,6 +263,7 @@ releases:
     latest: "0.8.15"
     link: https://ffmpeg.org/olddownload.html#release_0.8
     releaseDate: 2011-06-21
+
 -   releaseCycle: "0.7"
     cycleShortHand: 07
     codename: 'Peace'
@@ -235,6 +271,7 @@ releases:
     latest: "0.7.17"
     link: https://ffmpeg.org/olddownload.html#release_0.7
     releaseDate: 2011-06-21
+
 -   releaseCycle: "0.6"
     cycleShortHand: 06
     codename: 'Works with HTML5'
@@ -242,6 +279,7 @@ releases:
     latest: "0.6.7"
     link: https://ffmpeg.org/olddownload.html#release_0.6
     releaseDate: 2010-05-04
+
 -   releaseCycle: "0.5"
     cycleShortHand: 05
     codename: 'half-way to world domination A.K.A. the belligerent blue bike shed'
