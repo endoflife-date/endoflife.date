@@ -24,13 +24,14 @@ releases:
     eol: 2020-06-30
     releaseDate: 2012-04-29
     
--   releaseCycle: haswell_xeon
+-   releaseCycle: haswell
     releaseLabel: "Haswell"
     discontinued: true
     eol: 2021-06-30
     releaseDate: 2013-06-04
     
--   releaseCycle: "Haswell (Xeon E5v3/E7v3)"
+-   releaseCycle: haswell_xeon
+    releaseLabel: Haswell (Xeon E5v3/E7v3)
     discontinued: true
     eol: 2021-12-31
     releaseDate: 2013-06-04
@@ -45,12 +46,14 @@ releases:
     eol: 2021-06-30
     releaseDate: 2014-06-02
 
--   releaseCycle: "Broadwell (excl. Xeon E7v4/E7v4)"
+-   releaseCycle: "broadwell"
+    releaseLabel: Broadwell
     discontinued: 2018-11-01
     eol: 2021-06-30
     releaseDate: 2014-10-27
 
--   releaseCycle: "Broadwell (Xeon E7v4/E7v4)"
+-   releaseCycle: "broadwell_xeon"
+    releaseLabel: Broadwell (Xeon E7v4/E7v4)
     discontinued: 2018-11-01
     eol: 2022-06-30
     releaseDate: 2014-10-27
