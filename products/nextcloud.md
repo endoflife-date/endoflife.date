@@ -18,14 +18,14 @@ versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 releases:
 - releaseCycle: "10"
   latest: "10.0.6"
-  latestReleaseDate: 2017-08-96 
-  eol: true # not sure of date
+  latestReleaseDate: 2017-08-06 
+  eol: 2017-08-30
   releaseDate: 2016-08-24
 
 - releaseCycle: "9"
   latest: "9.1.3"
   latestReleaseDate: 2016-12-12 
-  eol: true # not sure if date is 2017-04-30
+  eol: 2017-04-30
   releaseDate: 2016-03-08
 
 
