@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "5.18"
     cycleShortHand: 518
     eol: false
-    latest: "5.18.12"
-    latestReleaseDate: 2022-07-15
+    latest: "5.18.14"
+    latestReleaseDate: 2022-07-23
 
     releaseDate: 2022-05-22
 -   releaseCycle: "5.17"
@@ -44,8 +44,8 @@ releases:
     cycleShortHand: 515
     eol: 2023-10-31
     lts: true
-    latest: "5.15.56"
-    latestReleaseDate: 2022-07-21
+    latest: "5.15.57"
+    latestReleaseDate: 2022-07-23
 
     releaseDate: 2021-10-31
 -   releaseCycle: "5.10"
