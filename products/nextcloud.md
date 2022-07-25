@@ -5,8 +5,8 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 
 auto:
-  - git: https://github.com/nextcloud/server
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>\d{1,3})?(rc?<rc>\d+)?$
+  - git: https://github.com/nextcloud/server.git
+    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
   - dockerhub: nextcloud
 
 permalink: /nextcloud
@@ -16,15 +16,18 @@ releaseDateColumn: true
 versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 
 releases:
-- eol: 2017-04-30
-  releaseCycle: "9"
-  link: https://github.com/nextcloud/server/releases/tag/v9.0.58
-  releaseDate: 2017-04-24
+- releaseCycle: "10"
+  latest: "10.0.6"
+  latestReleaseDate: 2017-08-96 
+  eol: true # not sure of date
+  releaseDate: 2016-08-24
 
-- eol: 2017-08-31
-  releaseCycle: "10"
-  link: https://github.com/nextcloud/server/releases/tag/v10.0.6
-  releaseDate: 2017-08-07
+- releaseCycle: "9"
+  latest: "9.1.3"
+  latestReleaseDate: 2016-12-12 
+  eol: true # not sure if date is 2017-04-30
+  releaseDate: 2016-03-08
+
 
 ---
 
