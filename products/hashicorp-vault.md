@@ -18,18 +18,18 @@ releases:
 -   releaseCycle: "1.11"
     eol: false
     latest: "1.11.1"
-    latestReleaseDate: 2022-07-21
-    releaseDate: 2022-07-21
+    latestReleaseDate: 2022-07-19
+    releaseDate: 2022-06-17
 -   releaseCycle: "1.10"
     eol: false
     latest: "1.10.5"
-    latestReleaseDate: 2022-07-21
-    releaseDate: 2022-03-23
+    latestReleaseDate: 2022-07-19
+    releaseDate: 2022-03-21
 -   releaseCycle: "1.9"
     eol: false
     latest: "1.9.8"
-    latestReleaseDate: 2022-07-21
-    releaseDate: 2021-11-17
+    latestReleaseDate: 2022-07-19
+    releaseDate: 2021-11-16
 
 ---
 

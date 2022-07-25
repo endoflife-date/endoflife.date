@@ -19,7 +19,7 @@ releases:
     cycleShortHand: 51
     codename: Riemann
     eol: false
-    latest: "5.1.0"
+    latest: "5.1"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.1
     latestReleaseDate: 2022-07-22
@@ -296,3 +296,4 @@ releases:
 ## Releases
 
 Starting with the first LTS release FFmpeg 5.0 "Lorentz", FFmpeg is releasing one major release per year, and a LTS every other year.  Note that these releases are intended for distributors and system integrators, not for end users. End users are usually encouraged to use the [latest git snapshots instead](https://ffmpeg.org/download.html).
+.
