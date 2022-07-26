@@ -22,8 +22,8 @@ releases:
     support: 2025-02-28
     eol: 2027-02-28
     lts: true
-    latest: "6.0.6"
-    latestReleaseDate: 2022-06-27
+    latest: "6.0.7"
+    latestReleaseDate: 2022-07-25
     releaseDate: 2022-02-14
 -   releaseCycle: "5.4"
     support: 2022-02-28
@@ -34,16 +34,16 @@ releases:
     support: 2023-05-31
     eol: 2025-05-31
     lts: true
-    latest: "5.0.25"
-    latestReleaseDate: 2022-06-27
+    latest: "5.0.26"
+    latestReleaseDate: 2022-07-25
     releaseDate: 2020-05-11
 -   releaseCycle: "4.0"
     support: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "4.0.42"
+    latest: "4.0.43"
 
-    latestReleaseDate: 2022-06-28
+    latestReleaseDate: 2022-07-25
     releaseDate: 2018-10-01
 
 ---

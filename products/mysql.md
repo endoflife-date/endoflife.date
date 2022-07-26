@@ -26,11 +26,11 @@ releases:
     latestReleaseDate: 2022-04-08
     releaseDate: 2018-04-08
 -   releaseCycle: "5.7"
-    latest: 5.7.38
+    latest: 5.7.39
     latestShortHand: 5-7-38
     support: 2020-10-31
     eol: 2023-10-31
-    latestReleaseDate: 2022-03-07
+    latestReleaseDate: 2022-06-06
     releaseDate: 2015-10-09
 -   releaseCycle: "5.6"
     latest: 5.6.51
