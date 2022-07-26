@@ -6,7 +6,7 @@ alternate_urls:
   - apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
 category: server-app
-changelogTemplate: https://zooekeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
+changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
@@ -15,11 +15,13 @@ iconSlug: NA
 releases:
 -   releaseCycle: "3.8"
     eol: false
+    support: true
     latest: "3.8.0"
     releaseDate: 2022-03-07
     latestReleaseDate: 2022-03-07
 -   releaseCycle: "3.7"
     eol: false
+    support: true
     latest: "3.7.1"
     releaseDate: 2021-03-27
     latestReleaseDate: 2022-05-12
@@ -46,6 +48,6 @@ releases:
 
 > [Apache ZooKeeper](https://zookeeper.apache.org/) is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
 
-The Apache ZooKeeper community supports two release branches at a time: **stable** and **current**. The stable version of ZooKeeper is 3.7.x and the current version is 3.8.x. Once a new minor version is released, the stable version is expected to be decommissioned soon and in approximately half a year will be announced as End-of-Life. During the half year grace period only security and critical fixes are expected to be released for the version. After EoL is announced no further patches are provided by the community. All ZooKeeper releases will remain accessible from the official Apache Archives.
+The Apache ZooKeeper community supports two release branches at a time: **stable** and **current**. Once a new minor version is released, the stable version is expected to be decommissioned soon and in approximately half a year will be announced as End-of-Life. During the half year grace period only security and critical fixes are expected to be released for the version. After EoL is announced no further patches are provided by the community. All ZooKeeper releases will remain accessible from the official Apache Archives.
 
 No releases are scheduled in advance.
