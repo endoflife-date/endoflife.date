@@ -8,6 +8,7 @@ releasePolicyLink: https://hbase.apache.org/downloads.html
 category: server-app
 changelogTemplate: https://downloads.apache.org/hbase/{{"__LATEST__"}}/CHANGES.md
 activeSupportColumn: false
+eolColumn: Service Status
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
@@ -28,6 +29,11 @@ releases:
     releaseDate: 2020-07-13
     latest: "2.3.7"
     latestReleaseDate: 2021-10-19
+-   releaseCycle: "2.2"
+    eol: 2021-01-07
+    releaseDate: 2019-06-13
+    latest: "2.2.7"
+    latestReleaseDate: 2021-04-16
 -   releaseCycle: "1.7"
     eol: false
     releaseDate: 2021-06-11
