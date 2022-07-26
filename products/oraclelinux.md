@@ -18,8 +18,8 @@ auto:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
-    support: true
-    eol: false
+    support: 2032-07-01
+    eol: 2034-06-01
     latest: "9.0"
 
     latestReleaseDate: 2022-07-06
