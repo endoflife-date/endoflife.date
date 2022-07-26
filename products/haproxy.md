@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "2.5"
     cycleShortHand: 205
     eol: 2023-01-01
-    latest: "2.5.7"
-    latestReleaseDate: 2022-05-13
+    latest: "2.5.8"
+    latestReleaseDate: 2022-07-25
     releaseDate: 2021-11-23
 -   releaseCycle: "2.4"
     cycleShortHand: 204
