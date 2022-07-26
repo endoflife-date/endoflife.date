@@ -6,7 +6,7 @@ alternate_urls:
   - apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 category: server-app
-changelogTemplate: https://downloads.apache.org/hbase/{{"__LATEST__"}}/CHANGES.md/
+changelogTemplate: https://downloads.apache.org/hbase/{{"__LATEST__"}}/CHANGES.md
 activeSupportColumn: true
 releaseDateColumn: false
 releaseColumn: true
