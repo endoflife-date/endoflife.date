@@ -2,8 +2,8 @@
 title: Apache HBase
 permalink: /hbase
 alternate_urls:
-  - apache_hbase
-  - apache-hbase
+  - /apache_hbase
+  - /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 category: server-app
 changelogTemplate: https://downloads.apache.org/hbase/{{"__LATEST__"}}/CHANGES.md
@@ -14,11 +14,12 @@ releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: NA
 releases:
--   releaseCycle: "3.0"
-    eol: false
-    releaseDate: 2021-07-20
-    latest: "3.0.0-alpha-3"
-    latestReleaseDate: 2022-06-27
+# Uncomment when the first v3 stable release is out
+#-   releaseCycle: "3.0"
+#    eol: false
+#    releaseDate: 2021-07-20
+#    latest: "3.0.0-alpha-3"
+#    latestReleaseDate: 2022-06-27
 -   releaseCycle: "2.4"
     eol: false
     releaseDate: 2020-12-15
@@ -42,6 +43,8 @@ releases:
 
 ---
 
-> [Apache HBase](https://hbase.apache.org/) Apache HBase™ is the Hadoop database. Use it when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
+> [Apache HBase](https://hbase.apache.org/) is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It's useful for random, realtime read/write access to Big Data. The project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
+
+You must pick a supported release of Hadoop as per the [compatibility matrix](https://hbase.apache.org/book.html#hadoop)
 
 No releases are scheduled in advance.
