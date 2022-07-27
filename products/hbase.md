@@ -13,6 +13,10 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: NA
+auto:
+-    git: https://github.com/apache/hbase.git
+     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
+     template: "{{major}}.{{minor}}.{{patch}}{%if tiny%}.{{tiny}}{%endif%}"
 releases:
 # Uncomment when the first v3 stable release is out
 #-   releaseCycle: "3.0"
