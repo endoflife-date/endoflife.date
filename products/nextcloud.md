@@ -13,7 +13,6 @@ versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 auto:
   - git: https://github.com/nextcloud/server.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
-  - dockerhub: nextcloud
 
 releases:
 - releaseCycle: "10"
