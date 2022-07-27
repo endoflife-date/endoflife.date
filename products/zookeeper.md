@@ -2,8 +2,8 @@
 title: Apache ZooKeeper
 permalink: /zookeeper
 alternate_urls:
-  - apache_zookeeper
-  - apache-zookeeper
+  - /apache_zookeeper
+  - /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
 category: server-app
 changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
@@ -46,7 +46,7 @@ releases:
 
 ---
 
-> [Apache ZooKeeper](https://zookeeper.apache.org/) is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
+> [Apache ZooKeeper](https://zookeeper.apache.org/) is an open-source server for highly reliable distributed coordination of cloud applications.
 
 The Apache ZooKeeper community supports two release branches at a time: **stable** and **current**. Once a new minor version is released, the stable version is expected to be decommissioned soon and in approximately half a year will be announced as End-of-Life. During the half year grace period only security and critical fixes are expected to be released for the version. After EoL is announced no further patches are provided by the community. All ZooKeeper releases will remain accessible from the official Apache Archives.
 
