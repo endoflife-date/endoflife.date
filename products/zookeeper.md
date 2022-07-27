@@ -12,6 +12,10 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: NA
+auto:
+-   git: https://github.com/apache/zookeeper.git
+    regex: '^release-(?<major>\d)\.(?<minor>\d)\.(?<patch>\d)(-(?<build>\d))?$'
+    template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}{%if build %}-{{build}}{%endif%}"
 releases:
 -   releaseCycle: "3.8"
     eol: false
