@@ -19,11 +19,11 @@ auto:
     template: "{{c}}.{{v}}"
 releases:
 -   releaseCycle: "8.0"
-    latest: 8.0.29
+    latest: 8.0.30
     latestShortHand: 8-0-29
     support: 2023-04-30
     eol: 2026-04-30
-    latestReleaseDate: 2022-04-08
+    latestReleaseDate: 2022-07-06
     releaseDate: 2018-04-08
 -   releaseCycle: "5.7"
     latest: 5.7.39
