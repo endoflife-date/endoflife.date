@@ -14,7 +14,7 @@ sortReleasesBy: 'releaseCycle'
 iconSlug: NA
 auto:
 -   git: https://github.com/apache/zookeeper.git
-    regex: '^release-(?<major>\d)\.(?<minor>\d)\.(?<patch>\d)(-(?<build>\d))?$'
+    regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-(?<build>\d+))?$'
     template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}{%if\
       \ build %}-{{build}}{%endif%}"
 releases:
