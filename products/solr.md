@@ -2,8 +2,8 @@
 title: Apache Solr
 permalink: /solr
 alternate_urls:
--   apache_solr
--   apache-solr
+-   /apache_solr
+-   /apache-solr
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 # https://rubular.com/r/WWOqtBih7muRFz
 auto:
