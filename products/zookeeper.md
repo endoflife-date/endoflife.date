@@ -39,15 +39,15 @@ releases:
 -   releaseCycle: "3.5"
     eol: 2022-06-01
     support: 2021-03-27
-    latest: "3.5.9"
+    latest: "3.5.10"
     releaseDate: 2014-08-06
-    latestReleaseDate: 2021-01-14
+    latestReleaseDate: 2022-06-04
 -   releaseCycle: "3.4"
     eol: 2020-06-01
     support: 2020-03-27
-    latest: "3.4.9"
+    latest: "3.4.14"
     releaseDate: 2011-11-23
-    latestReleaseDate: 2016-09-03
+    latestReleaseDate: 2019-04-01
 
 ---
 
@@ -56,5 +56,3 @@ releases:
 The Apache ZooKeeper community supports two release branches at a time: **stable** and **current**. Once a new minor version is released, the stable version is expected to be decommissioned soon and in approximately half a year will be announced as End-of-Life. During the half year grace period only security and critical fixes are expected to be released for the version. After EoL is announced no further patches are provided by the community. All ZooKeeper releases will remain accessible from the official Apache Archives.
 
 No releases are scheduled in advance.
-
-
