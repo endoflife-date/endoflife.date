@@ -32,8 +32,8 @@ releases:
 -   releaseCycle: "6.5"
     eol: 2023-11-15
     support: 2022-10-15
-    latest: "6.5 PR ESXi650-202110001"
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202110001.html"
+    latest: "6.5 PR ESXi650-202207001"
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202207001.html"
     releaseDate: 2016-11-15
 -   releaseCycle: "6.0"
     eol: 2022-03-12
