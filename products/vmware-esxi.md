@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "6.7"
     eol: 2023-11-15
     support: 2022-10-15
-    latest: "6.7 PR ESXi670-202103001"
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202103001.html"
+    latest: "6.7 PR ESXi670-202207001"
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202207001.html"
     releaseDate: 2018-04-17
 -   releaseCycle: "6.5"
     eol: 2023-11-15
