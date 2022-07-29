@@ -7,3 +7,11 @@ api/
 .jekyll-cache
 _data/gke.json
 .bundle/
+*.swp
+.vscode/*
+.history/
+*.vsix
+.history
+.ionide
+.vscode/*.code-snippets
+*.code-workspace
