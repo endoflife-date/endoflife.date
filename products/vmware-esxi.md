@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "7.0"
     eol: 2027-04-02
     support: 2025-04-02
-    latest: "7.0 Update 3a"
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3a-release-notes.html"
+    latest: "7.0 Update 3f"
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3f-release-notes.html"
     releaseDate: 2020-04-02
 -   releaseCycle: "6.7"
     eol: 2023-11-15
