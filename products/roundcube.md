@@ -8,6 +8,13 @@ changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LAT
 auto:
 -   git: https://github.com/roundcube/roundcubemail.git
 releases:
+-   releaseCycle: "1.6"
+    latest: "1.6.0"
+    eol: false
+    support: true
+
+    latestReleaseDate: 2022-07-28
+    releaseDate: 2022-07-28
 -   releaseCycle: "1.5"
     latest: "1.5.3"
     eol: false
@@ -24,7 +31,7 @@ releases:
     releaseDate: 2019-11-09
 -   releaseCycle: "1.3"
     latest: "1.3.17"
-    eol: false
+    eol: 2022-07-28
     support: false
 
     latestReleaseDate: 2021-11-12
