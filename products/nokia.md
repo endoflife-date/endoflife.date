@@ -2,7 +2,7 @@
 permalink: /nokia
 title: Nokia Android phones (HMD Global)
 category: device
-iconSlug: Nokia
+iconSlug: nokia
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
 activeSupportColumn: false
 releaseDateColumn: true
