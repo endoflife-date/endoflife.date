@@ -20,35 +20,38 @@ releases:
 -   releaseCycle: "7.0"
     eol: 2027-04-02
     support: 2025-04-02
-    latest: "7.0 Update 3a"
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3a-release-notes.html"
+    latest: "7.0 Update 3f"
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3f-release-notes.html"
     releaseDate: 2020-04-02
+    latestReleaseDate: 2022-07-12
 -   releaseCycle: "6.7"
     eol: 2023-11-15
     support: 2022-10-15
-    latest: "6.7 PR ESXi670-202103001"
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202103001.html"
+    latest: "6.7 PR ESXi670-202207001"
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202207001.html"
     releaseDate: 2018-04-17
+    latestReleaseDate: 2022-07-12
 -   releaseCycle: "6.5"
     eol: 2023-11-15
     support: 2022-10-15
-    latest: "6.5 PR ESXi650-202110001"
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202110001.html"
+    latest: "6.5 PR ESXi650-202207001"
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202207001.html"
     releaseDate: 2016-11-15
+    latestReleaseDate: 2022-07-12
 -   releaseCycle: "6.0"
     eol: 2022-03-12
     support: 2020-03-12
     latest: "6.0 PR ESXi600-202002001"
     link: "https://docs.vmware.com/en/VMware-vSphere/6.0/rn/esxi600-202002001.html"
     releaseDate: 2015-03-12
+    latestReleaseDate: 2020-02-20
 -   releaseCycle: "5.5"
     eol: 2020-09-19
     support: 2018-09-19
     latest: "5.5 Update 3b"
     link: "https://docs.vmware.com/en/VMware-vSphere/5.5/rn/vsphere-esxi-55u3b-release-notes.html"
-
-
     releaseDate: 2013-09-19
+    latestReleaseDate: 
 
 ---
 
