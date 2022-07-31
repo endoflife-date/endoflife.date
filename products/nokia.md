@@ -1,6 +1,9 @@
 ---
+title: Nokia Mobile
 permalink: /nokia
-title: Nokia Android phones (HMD Global)
+alternate_urls:
+-   /hmd
+-   /nokiamobile
 category: device
 iconSlug: nokia
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
@@ -229,6 +232,6 @@ releases:
 
 ---
 
-> [HMD Global](https://en.wikipedia.org/wiki/HMD_Global) is a mobile phone company based in Espoo, Finland. The [Nokia](https://en.wikipedia.org/wiki/Nokia) brand has been licensed by former Nokia employees who founded HMD Global and introduced Nokia-branded Android-based devices to the market in 2017.
+> [HMD Global Oy](https://en.wikipedia.org/wiki/HMD_Global) branded as **HMD** and **Nokia Mobile** is a mobile phone company based in Espoo, Finland. The [Nokia](https://en.wikipedia.org/wiki/Nokia) brand has been licensed by former Nokia employees who founded HMD Global and introduced Nokia-branded Android-based devices to the market in 2017.
 
 Most likely, new phone models will be supported for 3 years (except the C line which seems to be supported for 2 years only). All Nokia smartphones are running [Android One](https://www.android.com/one/) or [Android Go](https://www.android.com/versions/go-edition/).
