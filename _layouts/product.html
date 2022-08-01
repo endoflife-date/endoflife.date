@@ -14,7 +14,15 @@ layout: default
       <th>Release</th>
       {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
       {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
-      {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
+      {% if page.activeSupportColumn%}
+        <th>
+          {% if page.activeSupportColumn == true %}
+            Active Support
+          {%else%}
+            {{page.activeSupportColumn}}
+          {%endif%}
+        </th>
+      {% endif %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
       {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
