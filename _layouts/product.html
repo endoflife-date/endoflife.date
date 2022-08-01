@@ -35,6 +35,8 @@ or +1 (EoL is in the future)
 {% assign diff = -1 %}
 {% elsif r.eol == false %}
 {% assign diff = 1 %}
+{% elsif r.eol == nil %}
+{% assign diff = 1 %}
 {% else %}
 {% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
 {% endif %}
