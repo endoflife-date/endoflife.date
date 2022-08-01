@@ -8,7 +8,7 @@ permalink: /fortios
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-eolColumn: End of Engineering Support Date (EOES)
+eolColumn: End of Engineering Support
 discontinuedColumn: false
 versionCommand: get system status
 releases:
