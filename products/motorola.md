@@ -275,6 +275,6 @@ releases:
     link: https://www.motorola.com/us/smartphones-razr-gen-2/p
 ---
 
-> [Motorola Mobility LLC](https://en.wikipedia.org/wiki/Motorola_Mobility), marketed as **Motorola**, is an American consumer electronics and telecommunications company, and a subsidiary of Chinese multinational technology company [Lenovo](https://en.wikipedia.org/wiki/Lenovo). Motorola primarily manufactures smartphones and other mobile devices running the Android operating system developed by Google.
+> [Motorola](https://motorola.com) manufactures smartphones and other mobile devices running the Android operating system.
 
 Phones are supported for 2 to 3 years.
