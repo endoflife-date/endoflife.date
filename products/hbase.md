@@ -47,9 +47,8 @@ releases:
 
 ---
 
-> [Apache HBase](https://hbase.apache.org/) is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It's useful for random, realtime read/write access to Big Data. The project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
+> [Apache HBase](https://hbase.apache.org/) is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It's useful for random, real-time read/write access to Big Data. The project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
 
 You must pick a supported release of Hadoop as per the [compatibility matrix](https://hbase.apache.org/book.html#hadoop)
 
 No releases are scheduled in advance.
-vance.
