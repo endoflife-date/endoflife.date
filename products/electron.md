@@ -96,7 +96,7 @@ releases:
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux.
 
-The latest _four_ stable major versions are currently supported (till May 2022, after which only [3 major versions will be supported](https://www.electronjs.org/blog/8-week-cadence)). Only the latest minor release in each major version is supported. A new major stable version is released every 8 weeks.
+The latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence). Only the latest minor release in each major version is supported. A new major stable version is released every 8 weeks.
 
 All supported release get fixes backported that were previously merged to main, though this may be on a case-by-case basis for some older supported releases. When an API is changed or removed in a way that breaks existing functionality, the previous functionality will be supported for a minimum of two major versions when possible before being removed.
 
@@ -113,5 +113,6 @@ When a release branch reaches the end of its support cycle, the series will be d
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
 - List of [Breaking Changes](https://www.electronjs.org/docs/latest/breaking-changes)
+- [List of releases](https://github.com/electron/releases)
 
 [platforms]: https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms
