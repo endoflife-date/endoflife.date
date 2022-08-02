@@ -36,7 +36,7 @@ releases:
     releaseDate: 2016-06-22
 -   releaseCycle: "Kindle Oasis (8th Generation)"
     eol: false
-    latest: "5.14.3"
+    latest: "5.14.3.0.1"
     link: https://www.amazon.com/Oasis8Notes
     releaseDate: 2016-04-27
 -   releaseCycle: "Kindle Voyage (7th Generation)"
