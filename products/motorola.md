@@ -277,4 +277,4 @@ releases:
 
 > [Motorola](https://motorola.com) manufactures smartphones and other mobile devices running the Android operating system.
 
-Phones are supported for 2 to 3 years.
+Phones are supported for 2 to 3 years, with upgrades pending partner approval in some cases.
