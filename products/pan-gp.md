@@ -63,7 +63,12 @@ releases:
     releaseDate: 2021-06-01
     latestReleaseDate: 2021-06-01
     latest: '5.3'
-
+-   releaseCycle: "6.0"
+    eol: 2024-02-22
+    support: 2024-02-22
+    releaseDate: 2022-02-22
+    latestReleaseDate: 2022-02-22
+    latest: '6.0'
 ---
 
 [Palo Alto Networks](https://www.paloaltonetworks.com/) [GlobalProtect App](https://docs.paloaltonetworks.com/globalprotect.html) is the software client for the VPN service on Palo Alto Networks PAN-OS firewalls and Prisma Access service. The app can be installed on a variety of operating systems including Windows, macOS, Android, iOS, and Linux.
