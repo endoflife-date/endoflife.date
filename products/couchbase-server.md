@@ -19,17 +19,17 @@ releases:
 -   releaseCycle: "7.1"
     eol: false
     latest: "7.1.1"
-    latestReleaseDate: 2022-07-07
+    latestReleaseDate: 2022-08-02
     releaseDate: 2022-06-07
 -   releaseCycle: "7.0"
     eol: 2023-01-01
     latest: "7.0.3"
-    latestReleaseDate: 2022-06-07
+    latestReleaseDate: 2022-08-02
     releaseDate: 2021-08-31
 -   releaseCycle: "6.6"
     eol: 2023-01-01
     latest: "6.6.5"
-    latestReleaseDate: 2022-06-16
+    latestReleaseDate: 2022-08-02
     releaseDate: 2021-07-26
 -   releaseCycle: "6.5"
     eol: 2021-02-01
