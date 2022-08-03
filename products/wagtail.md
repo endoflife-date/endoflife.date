@@ -11,27 +11,39 @@ auto:
 -   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: releaseDate
 releases:
--   releaseCycle: "3.0"
-    support: 2022-08-01
-    lts: false
-    eol: false
-    latest: "3.0.1"
-    latestReleaseDate: 2022-06-16
-    releaseDate: 2022-05-16
--   releaseCycle: "2.16"
-    support: 2022-05-01
-    lts: false
-    eol: 2022-05-16
-    latest: "2.16.2"
-    latestReleaseDate: 2022-04-11
-    releaseDate: 2022-02-07
--   releaseCycle: "2.15"
-    support: 2023-02-01
+-   releaseCycle: "TBD LTS"
     lts: true
-    eol: false
+    latest: "N/A"
+    releaseDate: 2022-11-01
+    support: 2024-02-01
+    eol: 2024-02-01   
+-   releaseCycle: "4.0"
+    lts: false
+    latest: "N/A"
+    releaseDate: 2022-09-01
+    support: 2023-02-01
+    eol: 2023-02-01
+-   releaseCycle: "3.0"
+    lts: false
+    latest: "3.0.1"
+    releaseDate: 2022-05-16
+    latestReleaseDate: 2022-09-01
+    support: 2022-11-01
+    eol: 2022-11-01
+-   releaseCycle: "2.16"
+    lts: false
+    latest: "2.16.2"
+    releaseDate: 2022-02-07
+    latestReleaseDate: 2022-05-01
+    support: 2022-09-01
+    eol: 2022-09-01
+-   releaseCycle: "2.15"
+    lts: true
     latest: "2.15.5"
-    latestReleaseDate: 2022-04-11
     releaseDate: 2021-11-04
+    latestReleaseDate: 2022-04-11
+    support: 2023-02-01
+    eol: 2023-02-01
 -   releaseCycle: "2.14"
     eol: 2022-02-07
     support: 2021-11-04
