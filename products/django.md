@@ -17,12 +17,12 @@ releases:
     eol: 2023-04-01
     latest: "4.0.6"
 
-    latestReleaseDate: 2022-07-04
+    latestReleaseDate: 2022-08-03
     releaseDate: 2021-12-07
 -   releaseCycle: "3.2"
     support: 2021-12-01
     eol: 2024-04-01
-    latest: "3.2.14"
+    latest: "3.2.15"
     lts: true
 
     latestReleaseDate: 2022-07-04
