@@ -17,8 +17,8 @@ versionCommand: vault --version
 releases:
 -   releaseCycle: "1.11"
     eol: false
-    latest: "1.11.1"
-    latestReleaseDate: 2022-07-19
+    latest: "1.11.2"
+    latestReleaseDate: 2022-07-29
     releaseDate: 2022-06-17
 -   releaseCycle: "1.10"
     eol: false
