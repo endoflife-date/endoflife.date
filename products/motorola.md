@@ -1,5 +1,5 @@
 ---
-title: Motorola
+title: Motorola Mobility
 permalink: /motorola
 category: device
 iconSlug: motorola
