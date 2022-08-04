@@ -9,6 +9,11 @@ releaseDateColumn: true
 versionCommand: winver
 sortReleasesBy: releaseDate
 releases:
+-   releaseCycle: "Windows 10, version 21H2 (LTS)"
+    cycleShortHand: 10.0.19044
+    support: 2027-01-12
+    eol: 2032-01-13
+    releaseDate: 2021-11-16
 -   releaseCycle: "Windows 10, version 21H2 (E)"
     cycleShortHand: 10.0.19044
     support: 2024-06-11
@@ -64,6 +69,11 @@ releases:
     support: 2020-12-08
     eol: 2020-12-08
     releaseDate: 2019-08-29
+-   releaseCycle: "Windows 10, version 1809 (LTS)"
+    cycleShortHand: 10.0.17763
+    support: 2024-01-09
+    eol: 2029-01-09
+    releaseDate: 2018-11-13
 -   releaseCycle: "Windows 10, version 1809 (E)"
     cycleShortHand: 10.0.17763
     support: 2021-05-11
@@ -104,6 +114,11 @@ releases:
     support: 2018-10-09
     eol: 2018-10-09
     releaseDate: 2017-04-11
+-   releaseCycle: "Windows 10, version 1607 (LTS)"
+    cycleShortHand: 10.0.14393
+    support: 2021-10-12
+    eol: 2026-10-13
+    releaseDate: 2016-08-02
 -   releaseCycle: "Windows 10, version 1607 (E)"
     cycleShortHand: 10.0.14393
     support: 2019-04-09
@@ -119,6 +134,11 @@ releases:
     support: 2017-10-10
     eol: 2017-10-10
     releaseDate: 2015-11-10
+-   releaseCycle: "Windows 10, version 1507 (LTS)"
+    cycleShortHand: 10.0.10240
+    support: 2020-10-13
+    eol: 2025-10-14
+    releaseDate: 2015-07-29
 -   releaseCycle: "Windows 10, version 1507 (E)(W)"
     cycleShortHand: 10.0.10240
     support: 2017-05-09
