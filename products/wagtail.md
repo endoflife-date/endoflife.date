@@ -11,18 +11,12 @@ auto:
 -   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: releaseDate
 releases:
--   releaseCycle: "TBD LTS"
-    lts: true
-    latest: "N/A"
-    releaseDate: 2022-11-01
-    support: 2024-02-01
-    eol: 2024-02-01   
--   releaseCycle: "4.0"
-    lts: false
-    latest: "N/A"
-    releaseDate: 2022-09-01
-    support: 2023-02-01
-    eol: 2023-02-01
+#-   releaseCycle: "4.0"
+#    lts: false
+#    latest: "N/A"
+#    releaseDate: 2022-09-01
+#    support: 2023-02-01
+#    eol: 2023-02-01
 -   releaseCycle: "3.0"
     lts: false
     latest: "3.0.1"
