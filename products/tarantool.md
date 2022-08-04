@@ -20,7 +20,7 @@ releases:
 
     releaseDate: 2022-05-22
 -   releaseCycle: "2.8"
-    eol: false
+    eol: 2022-04-25
     latest: "2.8.4"
     latestReleaseDate: 2022-04-25
 
