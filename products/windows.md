@@ -176,6 +176,8 @@ releases:
 
 ---
 
+> [Microsoft Windows](https://www.microsoft.com/windows) is the operating system developed by Microsoft Corporation to run on personal computers.
+
 | Note | Comment                                                    |
 | ---- | ---------------------------------------------------------- |
 | (E)  | Enterprise, Education and IoT Enterprise editions          |
