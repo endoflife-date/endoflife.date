@@ -20,6 +20,7 @@ releases:
     latest: "1.19"
     latestReleastDate: 2022-08-02
     releaseDate: 2022-08-02
+    latestReleaseDate: 2022-08-02
 -   releaseCycle: "1.18"
     cycleShortHand: 118
     eol: false
