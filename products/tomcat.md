@@ -27,10 +27,10 @@ releases:
     latestReleaseDate: 2022-07-14
 -   releaseCycle: "8"
     eol: false
-    latest: "8.5.81"
+    latest: "8.5.82"
     link: https://tomcat.apache.org/download-80.cgi
     releaseDate: 2016-03-17
-    latestReleaseDate: 2022-06-08
+    latestReleaseDate: 2022-08-08
 -   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
