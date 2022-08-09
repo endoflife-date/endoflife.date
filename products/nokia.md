@@ -178,9 +178,11 @@ releases:
     link: https://www.nokia.com/phones/en_in/nokia-c-20-plus
 -   releaseCycle: "Nokia C21"
     releaseDate: 2022-05-03
+    eol: false
     link: https://www.nokia.com/phones/en_int/nokia-c-21
 -   releaseCycle: "Nokia C21 Plus"
     releaseDate: 2022-04-29
+    eol: false
     link: https://www.nokia.com/phones/en_int/nokia-c-21-plus
 -   releaseCycle: "Nokia C3"
     releaseDate: 2020-08-13
