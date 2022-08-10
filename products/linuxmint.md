@@ -14,7 +14,7 @@ releases:
 -   releaseCycle: "21"
     codename: Vanessa
     lts: true
-    support: false
+    support: true
     eol: 2027-04-01
     latest: "21"
     link: https://linuxmint.com/rel_vanessa_cinnamon.php
