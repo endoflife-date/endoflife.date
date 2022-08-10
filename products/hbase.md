@@ -42,8 +42,8 @@ releases:
 -   releaseCycle: "1.7"
     eol: false
     releaseDate: 2021-06-12
-    latest: "1.7.1"
-    latestReleaseDate: 2021-07-21
+    latest: "1.7.2"
+    latestReleaseDate: 2022-08-09
 
 ---
 
