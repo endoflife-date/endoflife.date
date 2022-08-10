@@ -11,10 +11,29 @@ sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 
--   releaseCycle: "lmde4"
-    releaseLabel: "LMDE 4"
+-   releaseCycle: "21"
+    codename: Vanessa
+    lts: true
+    support: true
+    eol: 2027-04-01
+    latest: "21"
+    link: https://linuxmint.com/rel_vanessa_cinnamon.php
+    releaseDate: 2022-07-31
+
+-   releaseCycle: "lmde5"
+    releaseLabel: "LMDE 5"
+    codename: Elsie
     support: true
     eol: false
+    latest: "5"
+    link: https://blog.linuxmint.com/?p=4287
+    releaseDate: 2022-03-20
+
+
+-   releaseCycle: "lmde4"
+    releaseLabel: "LMDE 4"
+    support: 2022-08-01
+    eol: 2022-08-01
     latest: "4"
     link: https://linuxmint.com/rel_debbie.php
 
