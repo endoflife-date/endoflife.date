@@ -13,13 +13,13 @@ auto:
 releases:
 -   releaseCycle: "7.1"
     eol: 2023-03-15
-    latestReleaseDate: 2022-03-15
-    latest: 7.1.0
+    latestReleaseDate: 2022-08-05
+    latest: 7.1.1
     releaseDate: 2022-03-15
 -   releaseCycle: "7.0"
     eol: 2022-09-15
-    latestReleaseDate: 2022-01-12
-    latest: 7.0.2
+    latestReleaseDate: 2022-08-05
+    latest: 7.0.3
     releaseDate: 2021-09-15
 -   releaseCycle: "6.0"
     eol: false
