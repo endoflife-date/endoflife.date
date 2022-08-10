@@ -12,22 +12,22 @@ changelogTemplate: |
 sortReleasesBy: releaseDate
 releases:
 
--   releaseCycle: "102"
+-   releaseCycle: "103"
     eol: false
-    latest: "102.0"
+    latest: "103.0.2"
     lts: false
-    releaseDate: 2022-06-28
+    releaseDate: 2022-07-26
 
 -   releaseCycle: "102"
     eol: false
-    latest: "102.0"
+    latest: "102.1.0"
     lts: true
     releaseDate: 2022-06-28
     link: https://www.mozilla.org/firefox/102.0esr/releasenotes/
     
 -   releaseCycle: "91"
     eol: 2022-09-20
-    latest: "91.10.0"
+    latest: "91.12.0"
     lts: true
     releaseDate: 2021-08-10
     
