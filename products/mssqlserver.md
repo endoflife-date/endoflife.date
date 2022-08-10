@@ -16,10 +16,10 @@ releases:
     latest: "15.0.4236.7"
     releaseDate: 2019-11-04
 -   releaseCycle: "2017"
-    releaseLabel: "2017 CU29"
+    releaseLabel: "2017 CU30"
     support: 2022-10-11
     eol: 2027-10-12
-    latest: "14.0.3445.2"
+    latest: "14.0.3451.2"
     releaseDate: 2017-09-29
 -   releaseCycle: "2016"
     releaseLabel: "2016 SP3"
@@ -39,7 +39,8 @@ releases:
     eol: 2022-07-12
     latest: "11.0.7507.2"
     releaseDate: 2017-10-05
--   releaseCycle: "2008"
+-   releaseCycle: "2008 R2"
+    releaseLabel: "2008 R2 SP3"
     support: 2014-07-08
     eol: 2019-07-09
     latest: "10.50.6560.0"
