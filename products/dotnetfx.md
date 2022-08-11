@@ -13,6 +13,9 @@ releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
 releases:
+-   releaseCycle: "4.8.1"
+    eol: false
+    releaseDate: 2022-08-09
 -   releaseCycle: "4.8"
     eol: false
     releaseDate: 2019-04-18
