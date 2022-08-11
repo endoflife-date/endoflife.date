@@ -13,6 +13,11 @@ auto:
 -   git: https://github.com/mongodb/mongo.git
     regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 releases:
+-   releaseCycle: "6.0"
+    eol: false
+    latest: "6.0.0"
+    latestReleaseDate: 2022-07-19
+    releaseDate: 2022-07-19
 -   releaseCycle: "5.3"
     codename: "rapid"
     eol: false
