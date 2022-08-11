@@ -40,6 +40,7 @@ releases:
     latest: "2.2.7"
     latestReleaseDate: 2021-04-19
 -   releaseCycle: "1.7"
+    link: https://downloads.apache.org/hbase/1.7.2/api_compare_1.7.1_to_1.7.2RC0.html
     eol: false
     releaseDate: 2021-06-12
     latest: "1.7.2"
