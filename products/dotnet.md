@@ -32,8 +32,8 @@ releases:
 -   releaseCycle: "Core 3.1"
     cycleShortHand: "3.1"
     lts: true
-    latest: "3.1.27"
-    latestReleaseDate: 2022-07-12
+    latest: "3.1.28"
+    latestReleaseDate: 2022-08-09
     eol: 2022-12-13
     releaseDate: 2019-12-03
 -   releaseCycle: "Core 3.0"
