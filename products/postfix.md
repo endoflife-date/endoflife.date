@@ -9,6 +9,11 @@ versionCommand: postconf mail_version
 iconSlug: NA
 releaseDateColumn: true
 
+auto:
+  - custom: true
+  - git: https://github.com/vdukhovni/postfix.git
+    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
+
 sortReleasesBy: 'cycleShortHand'
 releases:
 -   releaseCycle: "3.7"
