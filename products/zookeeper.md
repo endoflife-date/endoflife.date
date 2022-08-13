@@ -12,28 +12,33 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: NA
-auto:
--   git: https://github.com/apache/zookeeper.git
-    regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-(?<build>\d+))?$'
-    template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}{%if\
-      \ build %}-{{build}}{%endif%}"
+
+#
+# Auto disabled due to a forgetten tag in github ( 3.8.0 )
+# ( check bug https://github.com/endoflife-date/endoflife.date/issues/1446 )
+#auto:
+#-   git: https://github.com/apache/zookeeper.git
+#    regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-(?<build>\d+))?$'
+#    template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}{%if\
+#      \ build %}-{{build}}{%endif%}"
+
 releases:
 -   releaseCycle: "3.8"
     eol: false
     support: true
-    latest: "3.8.0-1"
+    latest: "3.8.0"
     releaseDate: 2022-02-04
     latestReleaseDate: 2022-02-25
 -   releaseCycle: "3.7"
     eol: false
     support: true
-    latest: "3.7.1-1"
+    latest: "3.7.1"
     releaseDate: 2021-03-27
     latestReleaseDate: 2022-05-07
 -   releaseCycle: "3.6"
     eol: false
     support: 2022-03-07
-    latest: "3.6.3-2"
+    latest: "3.6.3"
     releaseDate: 2020-03-03
     latestReleaseDate: 2021-04-08
 -   releaseCycle: "3.5"
