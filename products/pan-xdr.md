@@ -3,6 +3,7 @@ title: Palo Alto Networks Cortex XDR agent
 category: app
 permalink: /cortexxdr
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 iconSlug: NA
 activeSupportColumn: false
 releaseColumn: false
@@ -34,54 +35,42 @@ releases:
 -   releaseCycle: "5.0"
     eol: 2024-06-01
     releaseDate: 2018-03-19
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/5-0/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "6.0"
     eol: 2020-02-26
     releaseDate: 2019-02-26
 -   releaseCycle: "6.1"
     eol: 2022-07-01
     releaseDate: 2019-07-02
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/6-1/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.0"
     eol: 2021-06-04
     releaseDate: 2019-12-04
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-0/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.1"
     eol: 2021-06-04
     releaseDate: 2020-04-22
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-1/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.2"
     eol: 2022-03-07
     releaseDate: 2020-09-07
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-2/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.3"
     eol: 2022-02-01
     releaseDate: 2021-02-01
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-3/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.4"
     eol: 2022-05-24
-    releaseDate: 2021-05-24
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-4/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
+    releaseDate: 2021-05-24n
 -   releaseCycle: "7.5"
     eol: 2022-08-22
     releaseDate: 2021-08-22
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-5/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.5 CE"
     eol: 2024-03-06
     releaseDate: 2022-03-06
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-5/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.6"
     eol: 2022-09-05
     releaseDate: 2021-12-05
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-6/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.7"
     eol: 2022-12-27
     releaseDate: 2022-03-27
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-7/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 -   releaseCycle: "7.8"
     eol: 2023-04-24
     releaseDate: 2022-07-24
-    link: https://docs.paloaltonetworks.com/cortex/cortex-xdr/7-8/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 ---
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr.html) protects endpoints by preventing known and unknown malware from running on those endpoints and by halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed on a variety of operating systems including Windows, macOS, Android, and Linux.
