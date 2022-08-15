@@ -55,7 +55,7 @@ releases:
     releaseDate: 2021-02-01
 -   releaseCycle: "7.4"
     eol: 2022-05-24
-    releaseDate: 2021-05-24n
+    releaseDate: 2021-05-24
 -   releaseCycle: "7.5"
     eol: 2022-08-22
     releaseDate: 2021-08-22
