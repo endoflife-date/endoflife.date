@@ -26,19 +26,19 @@ releases:
 -   releaseCycle: "3.8"
     eol: false
     support: true
-    latest: "3.8.0"
+    latest: "3.8.0-1"
     releaseDate: 2022-02-04
     latestReleaseDate: 2022-02-25
 -   releaseCycle: "3.7"
     eol: false
     support: true
-    latest: "3.7.1"
+    latest: "3.7.1-1"
     releaseDate: 2021-03-27
     latestReleaseDate: 2022-05-07
 -   releaseCycle: "3.6"
     eol: false
     support: 2022-03-07
-    latest: "3.6.3"
+    latest: "3.6.3-2"
     releaseDate: 2020-03-03
     latestReleaseDate: 2021-04-08
 -   releaseCycle: "3.5"

@@ -10,8 +10,8 @@ iconSlug: NA
 releaseDateColumn: true
 
 auto:
-  - custom: true
-  - git: https://github.com/vdukhovni/postfix.git
+-   custom: true
+-   git: https://github.com/vdukhovni/postfix.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
 sortReleasesBy: "releaseCycle"
@@ -19,8 +19,8 @@ releases:
 -   releaseCycle: "3.7"
     eol: false
     latest: "3.7.2"
-    latestReleaseDate: 2022-04-27
-    releaseDate: 2022-02-05
+    latestReleaseDate: 2022-04-28
+    releaseDate: 2022-02-06
 -   releaseCycle: "3.6"
     eol: false
     latest: "3.6.6"
@@ -31,7 +31,7 @@ releases:
     eol: false
     latest: "3.5.16"
     latestReleaseDate: 2022-04-18
-    releaseDate: 2020-03-16
+    releaseDate: 2020-03-15
     link: https://www.postfix.org/announcements/postfix-3.7.1.html
 -   releaseCycle: "3.4"
     eol: false
@@ -42,16 +42,17 @@ releases:
 -   releaseCycle: "3.3"
     eol: 2022-02-05
     latest: "3.3.22"
-    latestReleaseDate: 2022-02-05
-    releaseDate: 2011-01-20
+    latestReleaseDate: 2022-02-06
+    releaseDate: 2018-02-22
     link: https://www.postfix.org/announcements/postfix-3.7.0.html
 -   releaseCycle: "2.8"
     eol: 2015-02-08
     latest: "2.8.20"
-    latestReleaseDate: 2015-02-08
-    releaseDate: 2011-01-20
+    latestReleaseDate: 2018-02-10
+    releaseDate: 2018-02-10
     link: https://www.postfix.org/announcements/postfix-2.11.4.html
+
 ---
 
 >[Postfix](https://www.postfix.org/) is Wietse Venema's mail server that started life at IBM research as an alternative to the widely-used Sendmail program. Now at Google, Wietse continues to support Postfix.
-Postfix attempts to be fast, easy to administer, and secure. The outside has a definite Sendmail-ish flavor, but the inside is completely different. 
+Postfix attempts to be fast, easy to administer, and secure. The outside has a definite Sendmail-ish flavor, but the inside is completely different.
