@@ -25,11 +25,11 @@ releases:
     support: 2027-04-02
     eol: 2032-04-01
     lts: true
-    latest: "22.04"
+    latest: "22.04.1"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
 
     releaseDate: 2022-04-21
-    latestReleaseDate: 2022-04-21
+    latestReleaseDate: 2022-08-11
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
     support: 2022-07-31

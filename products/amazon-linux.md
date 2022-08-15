@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     eol: 2024-06-30
-    latest: "2.0.20220606.1"
-    latestReleaseDate: 2022-06-21
+    latest: "2.0.20220719.0"
+    latestReleaseDate: 2022-08-12
     releaseDate: 2018-06-26
 
 ---
