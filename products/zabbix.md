@@ -13,11 +13,6 @@ activeSupportColumn: true
 eolColumn: Security Support
 iconSlug: NA
 releases:
-# Uncomment once 6.2 is released
-#  - releaseCycle: "6.2"
-#    release: 2022-05-30
-#    support: 2022-11-30
-#    eol:     2022-12-31
 -   releaseCycle: "6.2"
     support: 2023-01-31
     eol: 2023-02-28
@@ -48,7 +43,6 @@ releases:
     eol: 2023-10-31
     lts: true
     latest: "4.0.43"
-
     latestReleaseDate: 2022-07-25
     releaseDate: 2018-10-01
 
