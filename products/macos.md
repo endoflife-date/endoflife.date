@@ -16,8 +16,8 @@ releases:
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2022-07-20
-    latest: '12.5'
+    latestReleaseDate: 2022-08-17
+    latest: '12.5.1'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
