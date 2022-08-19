@@ -3,7 +3,7 @@ title: MariaDB
 permalink: /mariadb
 category: db
 releasePolicyLink: https://mariadb.org/about/maintenance-policy/
-changelogTemplate: https://mariadb.com/kb/en/mariadb-__LATEST_SHORT_HAND__-changelog/
+changelogTemplate: https://mariadb.com/kb/en/mariadb-{{"__LATEST__" | replace:'.',''}}-changelog/
 activeSupportColumn: false
 releaseDateColumn: true
 auto:
