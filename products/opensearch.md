@@ -7,7 +7,7 @@ permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 #releaseColumn: true
 releaseDateColumn: true
-eolColumn: 	Maintenance Window End
+eolColumn: 	Bug fix and security support
 sortReleasesBy: releaseCycle
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
