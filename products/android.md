@@ -18,6 +18,7 @@ releases:
     releaseLabel: Android 13 'Tiramisu'
     eol: false
 
+    releaseDate: 2022-08-15
 -   releaseCycle: "12.1"
     codename: Snow Cone v2
     releaseLabel: Android 12.1 'Snow Cone v2' (aka 12L)
