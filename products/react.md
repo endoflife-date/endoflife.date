@@ -18,8 +18,8 @@ releases:
     latestReleaseDate: 2022-06-14
     releaseDate: 2022-03-29
 -   releaseCycle: "17"
-    lts: false
-    eol: 2022-03-29
+    lts: 2022-03-29
+    eol: false
     support: true
     latest: "17.0.2"
 
