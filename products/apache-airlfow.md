@@ -5,6 +5,7 @@ alternate_urls:
 - /airflow
 iconSlug: apacheairflow
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
+changelogTemplate: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{"__LATEST__" | replace:'.','-'}-__LATEST_RELEASE_DATE__
 category: framework
 activeSupportColumn: false
 versionCommand: airflow version
@@ -16,16 +17,14 @@ releases:
     eol: false
     latest: "2.3.3"
     latestReleaseDate: 2022-07-05
-    link: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-2-3-3-2022-07-05
+    # A small test for changelogthemplate
     releaseDate: 2020-12-07
-    cycleShortHand: ""
 -   releaseCycle: "1.10"
     eol: 2021-07-17
     releaseDate: 2018-08-27
     latest: "1.10.15"
     latestReleaseDate: 2021-03-17
     link: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-1-10-15-2021-03-17
-    cycleShortHand: ""
 -   releaseCycle: "1.9"
     eol: 2018-08-27
     releaseDate: 2018-03-01
