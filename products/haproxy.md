@@ -19,8 +19,8 @@ releases:
     cycleShortHand: 206
     lts: true
     eol: 2027-04-01
-    latest: "2.6.0"
-    latestReleaseDate: 2022-05-31
+    latest: "2.6.3"
+    latestReleaseDate: 2022-08-19
     releaseDate: 2022-05-31
 -   releaseCycle: "2.5"
     cycleShortHand: 205
