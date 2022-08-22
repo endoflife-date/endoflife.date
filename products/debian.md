@@ -13,45 +13,51 @@ releases:
 -   releaseCycle: "11"
     codename: "Bullseye"
     eol: 2026-08-15
-    latest: "11.4"
+    latest: "11"
     link: https://www.debian.org/News/2022/20220326
     releaseDate: 2021-08-14
     lts: 2024-07-01
+    latestReleaseDate: 2021-08-14
 -   releaseCycle: "10"
     codename: "Buster"
     eol: 2024-06-01
-    latest: "10.12"
+    latest: "10"
     link: https://www.debian.org/News/2022/2022032602
     lts: 2022-07-01
     releaseDate: 2019-07-07
+    latestReleaseDate: 2019-07-07
 -   releaseCycle: "9"
     codename: "Stretch"
     eol: 2022-06-30
     lts: 2020-06-06
-    latest: "9.13"
+    latest: "9"
     link: https://lists.debian.org/debian-announce/2020/msg00004.html
     releaseDate: 2017-06-18
+    latestReleaseDate: 2017-06-18
 -   releaseCycle: "8"
     codename: "Jessie"
     eol: 2020-06-30
     lts: 2018-06-17
-    latest: "8.11"
+    latest: "8.0"
     link: https://www.debian.org/News/2015/20150426
     releaseDate: 2015-04-26
+    latestReleaseDate: 2015-04-26
 -   releaseCycle: "7"
     codename: "Wheezy"
     eol: 2018-05-31
     lts: 2016-04-26
-    latest: "7.11"
+    latest: "7.0"
     link: https://www.debian.org/News/2013/20130504
     releaseDate: 2013-05-05
+    latestReleaseDate: 2013-05-05
 -   releaseCycle: "6"
     codename: "Squeeze"
     eol: 2016-02-29
     lts: true
-    latest: "6.0.10"
+    latest: "6.0"
     link: https://www.debian.org/News/2011/20110205a
     releaseDate: 2011-02-06
+    latestReleaseDate: 2011-02-06
 
 ---
 
