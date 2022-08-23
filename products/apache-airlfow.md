@@ -5,8 +5,6 @@ alternate_urls:
 - /airflow
 iconSlug: apacheairflow
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
-auto:
-  - git: https://github.com/apache/airflow.git
 changelogTemplate: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{"__LATEST__" | replace:'.','-'}}-{{"__LATEST_RELEASE_DATE__"}}
 category: framework
 activeSupportColumn: false
