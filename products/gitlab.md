@@ -18,9 +18,9 @@ releases:
 -   releaseCycle: "15.3"
     support: 2022-09-22
     eol: 2022-11-22
-    latest: "15.3.0"
+    latest: "15.3.1"
     latestReleaseDate: 2022-08-22
-    releaseDate: 2022-08-22
+    releaseDate: 2022-08-19
 -   releaseCycle: "15.2"
     support: 2022-08-22
     eol: 2022-10-22
