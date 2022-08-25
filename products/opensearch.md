@@ -29,6 +29,8 @@ releases:
 
 > [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest, search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics, data observability, data ingestion, and more.
 
+OpenSearch is a fork of [Elasticsearch](https://endoflife.date/elasticsearch) 7.10 and provides backwards compatibility with the REST APIs for ingest, search, and management. OpenSearch is backwards compatible with Elasticsearch indices from versions 6.0 up to 7.10.
+
 OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version for that major release. When new major versions are released the previous major version enters a maintenance window – during the maintenance window, the software will continue to receive bug fixes and security patches, but no new features.
 
 The duration of the maintenance window will vary from product to product and release to release. By default, versions will remain under maintenance until the next major version enters maintenance, or 1 year passes, whichever is longer.
