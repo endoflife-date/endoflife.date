@@ -3,7 +3,8 @@ title: Magento
 permalink: /magento
 category: server-app
 releasePolicyLink: https://magento.com/tech-resources/download
-changelogTemplate: https://devdocs.magento.com/guides/v__RELEASE_CYCLE__/release-notes/ReleaseNotes__LATEST__OpenSource.html
+# We might need to fix changelogTemplate if they decide to use double digit version numbers
+changelogTemplate: https://devdocs.magento.com/guides/v{{"__RELEASE_CYCLE__" | slice:0,2 }}/release-notes/open-source-{{"__LATEST__" | replace:'.','-'}}OpenSource.html
 activeSupportColumn: true
 versionCommand: php bin/magento --version
 auto:
@@ -15,7 +16,6 @@ releases:
     cycleShortHand: 2
     eol: 2024-11-25
     support: 2024-11-25
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-5.html
     latest: "2.4.5"
     latestReleaseDate: 2022-08-01
     releaseDate: 2022-08-01
@@ -23,7 +23,6 @@ releases:
     cycleShortHand: 2
     eol: 2024-11-25
     support: 2024-11-25
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
     latest: "2.4.4"
     latestReleaseDate: 2022-03-30
     releaseDate: 2022-03-30
@@ -31,7 +30,6 @@ releases:
     cycleShortHand: 2
     eol: 2022-11-28
     support: 2022-11-28
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-3.html
     latest: "2.4.3"
     latestReleaseDate: 2021-08-04
     releaseDate: 2021-08-04
@@ -39,7 +37,6 @@ releases:
     cycleShortHand: 2
     eol: 2022-11-28
     support: 2022-11-28
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-2.html
     latest: "2.4.2"
     latestReleaseDate: 2021-02-04
     releaseDate: 2021-02-04
@@ -47,7 +44,6 @@ releases:
     cycleShortHand: 2
     eol: 2022-11-28
     support: 2022-11-28
-    link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html
     latest: "2.4.1"
     latestReleaseDate: 2020-10-14
     releaseDate: 2020-10-14
@@ -63,7 +59,6 @@ releases:
     cycleShortHand: 2
     eol: 2022-09-30
     support: 2022-07-31
-    link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
     latest: "2.3.7"
     latestReleaseDate: 2021-05-07
     releaseDate: 2018-11-23
