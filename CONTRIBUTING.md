@@ -192,6 +192,8 @@ alternate_urls:
 releasePolicyLink: https://jkrowling.com/timeturner-releases
 
 # Whether to hide the "Active Support" column (optional, default true)
+# Set it a label text if you'd like to change the label
+# activeSupportColumn: Customer Support
 activeSupportColumn: false
 
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
