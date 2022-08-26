@@ -17,16 +17,16 @@ releases:
     support: 2024-11-25
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-5.html
     latest: "2.4.5"
-    latestReleaseDate: 2022-08-09
-    releaseDate: 2022-08-09
+    latestReleaseDate: 2022-08-01
+    releaseDate: 2022-08-01
 -   releaseCycle: "2.4.4"
     cycleShortHand: 2
     eol: 2024-11-25
     support: 2024-11-25
     link: https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-4.html
     latest: "2.4.4"
-    latestReleaseDate: 2022-04-12
-    releaseDate: 2022-04-12
+    latestReleaseDate: 2022-03-30
+    releaseDate: 2022-03-30
 -   releaseCycle: "2.4.3"
     cycleShortHand: 2
     eol: 2022-11-28
