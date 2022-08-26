@@ -160,6 +160,19 @@ For Magento Commerce 2.3 and subsequent releases, Magento will provide software 
 * Magento will provide security patches for a minor release for a minimum of 18 months from the general availability announcement date of the next minor software release.
 * Quality and security fixes will be made available via cumulative patch releases for the currently supported minor release versions only. They will not be backported to previous minor releases, nor to previous patch releases within supported minor releases. For example, while 2.2 and 2.3 are currently supported minor releases, quality and security fixes will be released as 2.2.X and 2.3.Y, where X and Y represent the next incremental patch release cumulative of all prior patches. They will not be released for prior minor releases out of support (e.g. 2.1.Z), or as patches to prior patch releases (e.g. 2.2.1.X).
 
+## PHP Compatibility
+
+Magento | PHP
+--------|---------
+2.3     | 7.3, 7.4
+2.4     | 7.4
+2.4.1   | 7.4
+2.4.2   | 7.4
+2.4.3   | 7.4
+2.4.4   | 8.1
+2.4.5   | 8.1
+2.4.6   | 8.1
+
 [Magento Semantic Versioning Release Policy](https://devdocs.magento.com/release/policy/)
 
 [Magento Security Patch-Only Releases](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287)
