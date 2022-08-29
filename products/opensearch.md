@@ -1,7 +1,6 @@
 ---
 title: OpenSearch
 category: db
-sortReleasesBy: releaseDate
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
