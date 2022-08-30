@@ -1,7 +1,7 @@
 ---
 title: TYPO3
 category: server-app
-releasePolicyLink: [https://codex.wordpress.org/Supported_Versions](https://get.typo3.org/)
+releasePolicyLink: https://get.typo3.org/
 sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "11"
