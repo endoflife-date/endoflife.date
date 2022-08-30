@@ -27,7 +27,7 @@ sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "10.9"
     eol: 2023-08-22
-    latest: "10.8.2"
+    latest: "10.9.2"
     releaseDate: 2022-08-22
     latestReleaseDate: 2022-08-22
 -   releaseCycle: "10.8"
