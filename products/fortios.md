@@ -6,7 +6,6 @@ alternate_urls:
 - /fortinet
 iconSlug: fortinet
 permalink: /fortios
-activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support
