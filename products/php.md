@@ -17,17 +17,17 @@ releases:
     cycleShortHand: "801"
     support: 2023-11-25
     eol: 2024-11-25
-    latest: "8.1.9"
+    latest: "8.1.10"
 
-    latestReleaseDate: 2022-08-02
+    latestReleaseDate: 2022-08-30
     releaseDate: 2021-11-23
 -   releaseCycle: "8.0"
     cycleShortHand: "800"
     support: 2022-11-26
     eol: 2023-11-26
-    latest: "8.0.22"
+    latest: "8.0.23"
 
-    latestReleaseDate: 2022-08-02
+    latestReleaseDate: 2022-08-30
     releaseDate: 2020-11-24
 -   releaseCycle: "7.4"
     cycleShortHand: "704"
