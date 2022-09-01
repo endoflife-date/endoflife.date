@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "2.4"
     eol: false
     releaseDate: 2020-12-15
-    latest: "2.4.13"
-    latestReleaseDate: 2022-07-01
+    latest: "2.4.14"
+    latestReleaseDate: 2022-08-29
 -   releaseCycle: "2.3"
     eol: 2022-03-17
     releaseDate: 2020-07-13

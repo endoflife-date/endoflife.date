@@ -9,19 +9,19 @@ eolColumn: Bug fix and security support
 sortReleasesBy: releaseCycle
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
-  - git: https://github.com/opensearch-project/OpenSearch.git
+-   git: https://github.com/opensearch-project/OpenSearch.git
 
 releases:
-  - releaseCycle: "2"
+-   releaseCycle: "2"
     eol: false
-    releaseDate: 2022-05-26
+    releaseDate: 2022-05-18
     latest: "2.2.0"
-    latestReleaseDate: 2022-08-11
-  - releaseCycle: "1"
+    latestReleaseDate: 2022-08-08
+-   releaseCycle: "1"
     eol: 2023-12-31
-    releaseDate: 2021-07-12
+    releaseDate: 2021-07-02
     latest: "1.3.4"
-    latestReleaseDate: 2022-07-14
+    latestReleaseDate: 2022-07-12
 
 ---
 

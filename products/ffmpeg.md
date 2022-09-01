@@ -19,10 +19,10 @@ releases:
     cycleShortHand: 51
     codename: Riemann
     eol: false
-    latest: "5.1"
+    latest: "5.1.1"
     lts: true
     link: https://ffmpeg.org/download.html#release_5.1
-    latestReleaseDate: 2022-07-22
+    latestReleaseDate: 2022-08-31
     releaseDate: 2022-07-22
 
 -   releaseCycle: "5.0"
