@@ -1,0 +1,19 @@
+name: Validate Frontmatter
+on: push
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: Clone self repository
+        with:
+          ref: ${{ github.head_ref }}
+          submodules: true
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name:
+        run: |
+          pip install -r requirements.txt
+          python _auto/validate.py
