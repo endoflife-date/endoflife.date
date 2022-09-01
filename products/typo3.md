@@ -29,3 +29,20 @@ discontinuedColumn: false
 ---
 
 > [TYPO3](https://typo3.org/) is a free and open-source content management system written in PHP.
+
+
+## PHP Support
+
+Version | PHP
+--------|-----------
+10      | 7.2 - 7.4
+11      | 7.4 - 8.1
+
+## Extended Long Term Support
+
+Version | Commercial ELTS Support Ends
+--------|---------
+7       | 2022-11-30
+8       | 2023-03-31
+9       | 2024-09-30
+
