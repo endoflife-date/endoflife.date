@@ -61,10 +61,10 @@ releases:
     lts: true
     support: 2025-04-02
     eol: 2030-04-01
-    latest: "20.04.4"
+    latest: "20.04.5"
 
     releaseDate: 2020-04-23
-    latestReleaseDate: 2022-02-25
+    latestReleaseDate: 2022-09-01
 -   releaseCycle: "19.10"
     codename: "Karmic Koala"
     support: 2020-07-06
