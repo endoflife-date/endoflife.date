@@ -22,15 +22,15 @@ releases:
     support: 2022-05-01
     lts: false
     eol: 2022-05-16
-    latest: "2.16.2"
-    latestReleaseDate: 2022-04-11
+    latest: "2.16.3"
+    latestReleaseDate: 2022-09-05
     releaseDate: 2022-02-07
 -   releaseCycle: "2.15"
     support: 2023-02-01
     lts: true
     eol: false
-    latest: "2.15.5"
-    latestReleaseDate: 2022-04-11
+    latest: "2.15.6"
+    latestReleaseDate: 2022-09-05
     releaseDate: 2021-11-04
 -   releaseCycle: "2.14"
     eol: 2022-02-07
