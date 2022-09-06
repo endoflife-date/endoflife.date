@@ -10,26 +10,26 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU12 May22SU"
+    releaseLabel: "2019 CU12 Aug22SU"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1118.9"
-    latestReleaseDate: 2022-05-10
+    latest: "15.2.1118.12"
+    latestReleaseDate: 2022-08-09
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 May22SU"
+    releaseLabel: "2016 CU23 Aug22SU"
     releaseDate: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.9"
-    latestReleaseDate: 2022-05-10
+    latest: "15.1.2507.12"
+    latestReleaseDate: 2022-08-09
 -   releaseCycle: "2013"
-    releaseLabel: "2013 CU23 May22SU"
+    releaseLabel: "2013 CU23 Aug22SU"
     releaseDate: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.1497.36"
-    latestReleaseDate: 2022-05-10
+    latest: "15.0.1497.40"
+    latestReleaseDate: 2022-08-09
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP3 UR32"
     releaseDate: 2009-11-09
