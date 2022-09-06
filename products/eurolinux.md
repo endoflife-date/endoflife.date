@@ -11,7 +11,7 @@ iconSlug: NA
 changelogTemplate: https://en.euro-linux.com/eurolinux/technical-specifications/
 auto:
 -   distrowatch: eurolinux
-    regex: '^Distribution Release: EuroLinux OS (?P<major>\d).(?P<minor>\d)$'
+    regex: '^Distribution Release: EuroLinux (?P<major>\d).(?P<minor>\d)$'
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-13
