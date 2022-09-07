@@ -9,6 +9,8 @@ releaseDateColumn: true
 iconSlug: apache
 eolColumn: Supported
 sortReleasesBy: cycleShortHand
+auto:
+-   maven: org.apache.logging.log4j/log4j-core
 releases:
 -   releaseCycle: "2"
     cycleShortHand: 299
