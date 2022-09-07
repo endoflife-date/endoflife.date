@@ -8,6 +8,8 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: redmine
+auto:
+-   git: https://github.com/redmine/redmine.git
 releases:
 -   releaseCycle: "5.0"
     support: true
