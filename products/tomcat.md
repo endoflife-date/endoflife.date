@@ -13,7 +13,8 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
--   releaseCycle: "10"
+# 10.1 is still in Beta
+-   releaseCycle: "10.0"
     eol: false
     latest: "10.0.23"
     link: https://tomcat.apache.org/download-10.cgi
@@ -63,7 +64,7 @@ Different versions of Apache Tomcat are available for different versions of the 
 
 | Tomcat Version | Minimum Java Version |
 |----------------|----------------------|
-| 10.1           | 11                   |
+| 10.1 (Beta)    | 11                   |
 | 10.0           | 8                    |
 | 9              | 8                    |
 | 8.5            | 7                    |
