@@ -92,6 +92,7 @@ auto:
     # Default value should work for most releases of the form a.b or a.b.c
     # default also skips over any special releases (nightly,beta,pre,rc etc)
     # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
+    # This needs to be a Ruby-Compatible regex
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
     # A liquid template using the captured variables from the regex above that renders the final version
     # You can use liquid templating here
@@ -110,10 +111,14 @@ auto:
     # A mandatory regex that is used to parse headlines.
     # Parse into major/minor/patch named groups
     # You can also pass a list of regexes here, and matches for any of those will be considered
+    # This needs to be a Python-Compatible regex
     regex: 'Distribution Release: (?P<version>\d+.\d+)'
     # A template to render default value is same as in `git` above
     # https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py
     template: '{{version}}'
+  # A maven group/artifact URL. For eg, for tomcat, the search URL is https://search.maven.org/artifact/org.apache.tomcat/tomcat
+  # which would become org.apache.tomcat/tomcat here.
+  - maven: org.apache.x/abc
 
   # Use this if the product has a custom script updating releases
   # in release-data repository. This will enable the footer note
