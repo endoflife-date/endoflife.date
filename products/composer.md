@@ -8,14 +8,12 @@ auto:
 releases:
 -   releaseCycle: "2.4"
     eol: false
-    support: true
     latest: "2.4.1"
     latestReleaseDate: 2022-08-20
     releaseDate: 2022-08-16
 
 -   releaseCycle: "2.3"
-    eol: true
-    support: false
+    eol: 2022-08-16
     latest: "2.3.10"
     latestReleaseDate: 2022-07-13
     releaseDate: 2022-03-30
