@@ -21,18 +21,18 @@ releases:
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05
-    latest: "3.9.13"
-    latestReleaseDate: 2022-05-17
+    latest: "3.9.14"
+    latestReleaseDate: 2022-09-06
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
     eol: 2024-10-14
-    latest: "3.8.13"
-    latestReleaseDate: 2022-03-16
+    latest: "3.8.14"
+    latestReleaseDate: 2022-09-06
     releaseDate: 2019-10-14
 -   releaseCycle: "3.7"
     eol: 2023-06-27
-    latest: "3.7.13"
-    latestReleaseDate: 2022-03-16
+    latest: "3.7.14"
+    latestReleaseDate: 2022-09-06
     releaseDate: 2018-06-26
 -   releaseCycle: "3.6"
     eol: 2021-12-23
