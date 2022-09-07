@@ -15,6 +15,9 @@ versionCommand: docker version --format '{{.Server.Version}}'
 auto:
 -   git: https://github.com/moby/moby.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$
+purls:
+  - repology: docker
+  - repology: docker-ce
 releases:
 -   releaseCycle: "20.10"
     eol: false

@@ -8,6 +8,11 @@ sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/consul.git
+purls:
+  - repology: consul
+  - purl: pkg:brew/consul
+  - purl: pkg:docker/library/consul
+  - purl: pkg:github/hashicorp/consul
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: consul --version

@@ -11,6 +11,8 @@ versionCommand: httpd -v
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+purls:
+  - repology: apache
 releases:
 -   releaseCycle: "2.4"
     eol: false

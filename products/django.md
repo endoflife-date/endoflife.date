@@ -11,6 +11,10 @@ releaseDateColumn: false
 sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/django/django.git
+purls:
+  - repology: python:django
+  - purl: pkg:github/django/django
+  - purl: pkg:pypi/django
 releases:
 -   releaseCycle: "4.1"
     support: 2023-04-01
