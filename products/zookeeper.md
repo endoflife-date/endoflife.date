@@ -12,16 +12,8 @@ releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: NA
-
-#
-# Auto disabled due to a forgetten tag in github ( 3.8.0 )
-# ( check bug https://github.com/endoflife-date/endoflife.date/issues/1446 )
-#auto:
-#-   git: https://github.com/apache/zookeeper.git
-#    regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-(?<build>\d+))?$'
-#    template: "{{major}}{% if minor %}.{{minor}}{% if patch %}.{{patch}}{%endif%}{%endif%}{%if\
-#      \ build %}-{{build}}{%endif%}"
-
+auto:
+-   maven: org.apache.zookeeper/zookeeper
 releases:
 -   releaseCycle: "3.8"
     eol: false
