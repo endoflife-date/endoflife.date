@@ -19,13 +19,13 @@ releases:
     releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     support: 2022-12-1
     eol: 2022-12-1
-    cycleShortHand: 15.3
+    cycleShortHand: '15.3'
     releaseDate: 2021-06-02
 -   releaseCycle: "15.2"
     releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
     support: 2021-12-1
     eol: 2021-12-1
-    cycleShortHand: 15.2
+    cycleShortHand: '15.2'
     releaseDate: 2020-07-02
 -   releaseCycle: "15.1"
     releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"

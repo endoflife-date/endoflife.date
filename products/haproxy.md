@@ -16,64 +16,64 @@ auto:
 sortReleasesBy: 'cycleShortHand'
 releases:
 -   releaseCycle: "2.6"
-    cycleShortHand: 206
+    cycleShortHand: '206'
     lts: true
     eol: 2027-04-01
     latest: "2.6.5"
     latestReleaseDate: 2022-09-03
     releaseDate: 2022-05-31
 -   releaseCycle: "2.5"
-    cycleShortHand: 205
+    cycleShortHand: '205'
     eol: 2023-01-01
     latest: "2.5.8"
     latestReleaseDate: 2022-07-25
     releaseDate: 2021-11-23
 -   releaseCycle: "2.4"
-    cycleShortHand: 204
+    cycleShortHand: '204'
     lts: true
     eol: 2026-04-01
     latest: "2.4.18"
     latestReleaseDate: 2022-07-27
     releaseDate: 2021-05-14
 -   releaseCycle: "2.3"
-    cycleShortHand: 203
+    cycleShortHand: '203'
     eol: 2022-01-01
     latest: "2.3.21"
     latestReleaseDate: 2022-07-27
     releaseDate: 2020-11-05
 -   releaseCycle: "2.2"
-    cycleShortHand: 202
+    cycleShortHand: '202'
     lts: true
     eol: 2025-04-01
     latest: "2.2.25"
     latestReleaseDate: 2022-07-28
     releaseDate: 2020-07-07
 -   releaseCycle: "2.1"
-    cycleShortHand: 201
+    cycleShortHand: '201'
     eol: 2021-03-18
     latest: "2.1.12"
     latestReleaseDate: 2021-03-18
     releaseDate: 2019-11-25
 -   releaseCycle: "2.0"
-    cycleShortHand: 200
+    cycleShortHand: '200'
     eol: 2024-04-01
     latest: "2.0.29"
     latestReleaseDate: 2022-05-13
     releaseDate: 2019-06-16
 -   releaseCycle: "1.9"
-    cycleShortHand: 109
+    cycleShortHand: '109'
     eol: 2020-07-31
     latest: "1.9.16"
     latestReleaseDate: 2020-07-31
     releaseDate: 2018-12-19
 -   releaseCycle: "1.8"
-    cycleShortHand: 108
+    cycleShortHand: '108'
     eol: 2022-10-01
     latest: "1.8.30"
     latestReleaseDate: 2021-04-12
     releaseDate: 2017-11-26
 -   releaseCycle: "1.7"
-    cycleShortHand: 107
+    cycleShortHand: '107'
     eol: 2021-10-01
     latest: "1.7.14"
     latestReleaseDate: 2021-03-31
