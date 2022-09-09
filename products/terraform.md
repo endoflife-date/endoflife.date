@@ -15,8 +15,8 @@ versionCommand: terraform --version
 releases:
 -   releaseCycle: "1.2"
     eol: false
-    latest: "1.12.8"
-    latestReleaseDate: 2022-08-24
+    latest: "1.2.9"
+    latestReleaseDate: 2022-09-07
     releaseDate: 2022-05-19
 -   releaseCycle: "1.1"
     eol: false
