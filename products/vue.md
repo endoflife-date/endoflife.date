@@ -13,6 +13,12 @@ iconSlug: vuedotjs
 auto:
 -   git: https://github.com/vuejs/core.git
 -   git: https://github.com/vuejs/vue.git
+purls:
+  - repology: vue.js
+  - repology: vue
+  - purl: pkg:npm/vue
+  - purl: pkg:github/vuejs/vue
+  - purl: pkg:github/vuejs/core
 releases:
 -   releaseCycle: "3"
     support: true

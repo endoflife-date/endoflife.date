@@ -10,6 +10,10 @@ versionCommand: varnishd -V
 auto:
 -   git: https://github.com/varnishcache/varnish-cache.git
     regex: ^varnish-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+purls:
+  - repology: varnish
+  - purl: pkg:brew/varnish
+  - purl: pkg:docker/library/varnish
 releases:
 -   releaseCycle: "7.1"
     eol: 2023-03-15

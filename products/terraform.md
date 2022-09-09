@@ -11,7 +11,6 @@ auto:
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: terraform --version
-
 releases:
 -   releaseCycle: "1.2"
     eol: false
@@ -23,7 +22,6 @@ releases:
     latest: "1.1.9"
     latestReleaseDate: 2022-04-20
     releaseDate: 2021-12-08
-
 ---
 
 > [Hashicorp Terraform](https://www.terraform.io/) is an open-source, infrastructure as code, software tool by Hashicorp.

@@ -9,6 +9,9 @@ releaseDateColumn: true
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 auto:
 -   git: https://github.com/wagtail/wagtail.git
+purls:
+  - repology: python:wagtail
+  - purl: pkg:pypi/wagtail
 sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "4.0"
