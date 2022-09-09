@@ -18,8 +18,8 @@ sortReleasesBy: releaseCycle
 releases:
 -   releaseCycle: "20"
     eol: false
-    latest: "20.1.2"
-    latestReleaseDate: 2022-09-07
+    latest: "20.1.3"
+    latestReleaseDate: 2022-09-08
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
     eol: false
@@ -28,8 +28,8 @@ releases:
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
     eol: false
-    latest: "18.3.11"
-    latestReleaseDate: 2022-08-31
+    latest: "18.3.12"
+    latestReleaseDate: 2022-09-08
     releaseDate: 2022-03-28
 -   releaseCycle: "17"
     eol: true
