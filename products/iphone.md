@@ -89,6 +89,14 @@ releases:
     discontinued: false
     eol: false
     releaseDate: 2022-03-18
+-   releaseCycle: "iPhone 14 / 14 Pro / 14 Pro Max"
+    discontinued: false
+    eol: false
+    releaseDate: 2022-09-16
+-   releaseCycle: "iPhone 14 Plus"
+    discontinued: false
+    eol: false
+    releaseDate: 2022-10-07
 
 ---
 
