@@ -17,12 +17,12 @@ releases:
     eol: false
     latest: "1.2.9"
     latestReleaseDate: 2022-09-07
-    releaseDate: 2022-05-19
+    releaseDate: 2022-05-18
 -   releaseCycle: "1.1"
     eol: false
     latest: "1.1.9"
     latestReleaseDate: 2022-04-20
-    releaseDate: 2021-12-09
+    releaseDate: 2021-12-08
 
 ---
 
