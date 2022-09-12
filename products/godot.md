@@ -28,7 +28,6 @@ releases:
     support: false
     eol: false
     latest: "3.4.5"
-    link: https://godotengine.org/article/maintenance-release-godot-3-4-5
     latestReleaseDate: 2022-08-01
     releaseDate: 2021-11-05
 -   releaseCycle: "3.3"
