@@ -14,23 +14,23 @@ auto:
     regex: '^Distribution Release: EuroLinux (?P<major>\d).(?P<minor>\d)$'
 releases:
 -   releaseCycle: "9"
-    releaseDate: 2022-06-13
+    releaseDate: 2022-06-14
     support: 2032-05-31
     eol: 2032-06-30
     latest: "9.0"
-    latestReleaseDate: 2022-06-11
+    latestReleaseDate: 2022-06-14
 -   releaseCycle: "8"
-    releaseDate: 2021-06-24
+    releaseDate: 2021-07-12
     support: 2029-03-01
     eol: 2029-06-30
     latest: "8.6"
-    latestReleaseDate: 2022-05-11
+    latestReleaseDate: 2022-05-12
 -   releaseCycle: "7"
-    releaseDate: 2015-02-16
+    releaseDate: 2020-11-25
     support: 2024-07-31
     eol: 2024-07-31
     latest: "7.9"
-    latestReleaseDate: 2020-11-18
+    latestReleaseDate: 2020-11-25
 -   releaseCycle: "6"
     releaseDate: 2015-02-16
     support: 2020-12-31
