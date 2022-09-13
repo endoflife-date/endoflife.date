@@ -15,27 +15,27 @@ sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "iPhone 5C"
     discontinued: 2015-09-09
-    eol: true
+    eol: 2017-09-19
     releaseDate: 2013-09-20
 -   releaseCycle: "iPhone 5S"
     discontinued: 2016-03-21
-    eol: true
+    eol: 2019-09-19
     releaseDate: 2013-09-20
 -   releaseCycle: "iPhone 6 / 6 Plus"
     discontinued: 2016-09-07
-    eol: true
+    eol: 2019-09-19
     releaseDate: 2014-09-25
 -   releaseCycle: "iPhone 6S / 6S Plus"
     discontinued: 2018-09-12
-    eol: false
+    eol: 2022-09-12
     releaseDate: 2015-09-25
 -   releaseCycle: "iPhone SE (1st generation)"
     discontinued: 2018-09-12
-    eol: false
+    eol: 2022-09-12
     releaseDate: 2016-03-31
 -   releaseCycle: "iPhone 7 / 7 Plus"
     discontinued: 2019-09-10
-    eol: false
+    eol: 2022-09-12
     releaseDate: 2016-09-16
 -   releaseCycle: "iPhone 8 / 8 Plus"
     discontinued: 2020-04-15
