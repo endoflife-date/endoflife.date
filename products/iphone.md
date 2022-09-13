@@ -50,11 +50,11 @@ releases:
     eol: false
     releaseDate: 2018-09-21
 -   releaseCycle: "iPhone XR"
-    discontinued: true
+    discontinued: 2021-09-07
     eol: false
     releaseDate: 2018-10-26
 -   releaseCycle: "iPhone 11"
-    discontinued: false
+    discontinued: 2022-09-07
     eol: false
     releaseDate: 2019-09-20
 -   releaseCycle: "iPhone 11 Pro / 11 Pro Max"
@@ -62,7 +62,7 @@ releases:
     eol: false
     releaseDate: 2019-09-20
 -   releaseCycle: "iPhone SE (2nd generation)"
-    discontinued: false
+    discontinued: 2022-03-08
     eol: false
     releaseDate: 2020-04-24
 -   releaseCycle: "iPhone 12"
@@ -70,19 +70,22 @@ releases:
     eol: false
     releaseDate: 2020-10-23
 -   releaseCycle: "iPhone 12 Mini"
-    discontinued: false
+    discontinued: 2022-09-07
     eol: false
     releaseDate: 2020-11-13
 -   releaseCycle: "iPhone 12 Pro"
-    discontinued: true
+    discontinued: 2021-09-14
     eol: false
     releaseDate: 2020-10-23
 -   releaseCycle: "iPhone 12 Pro Max"
-    discontinued: true
+    discontinued: 2021-09-14
     eol: false
     releaseDate: 2020-11-13
--   releaseCycle: "iPhone 13 / 13 Mini / 13 Pro / 13 Pro Max"
+-   releaseCycle: "iPhone 13 / 13 Mini"
     discontinued: false
+    eol: false
+-   releaseCycle: "iPhone 13 Pro / 13 Pro Max"
+    discontinued: 2022-09-07
     eol: false
     releaseDate: 2021-09-24
 -   releaseCycle: "iPhone SE (3rd generation)"
