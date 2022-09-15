@@ -15,8 +15,8 @@ releases:
 -   releaseCycle: "4.1"
     support: 2023-04-01
     eol: 2023-12-01
-    latest: "4.1.1"
-    latestReleaseDate: 2022-09-05
+    latest: "4.1"
+    latestReleaseDate: 2022-08-03
     releaseDate: 2022-08-03
 
 -   releaseCycle: "4.0"
@@ -100,3 +100,4 @@ Not all releases in a series will support all Python versions, the matrix above 
 The last feature release for a major version will be designated as long-term support (LTS) release. These releases will get security and data loss fixes applied for a guaranteed period of time, typically three years. Deprecations started in an LTS release (say X.2) will be dropped in a non-dot-zero release (Y.1).
 
 See the [supported versions policy](https://docs.djangoproject.com/en/dev/internals/release-process/#supported-versions) for detailed guidelines about what fixes will be backported.
+.

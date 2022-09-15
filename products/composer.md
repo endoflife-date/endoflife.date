@@ -8,8 +8,8 @@ auto:
 releases:
 -   releaseCycle: "2.4"
     eol: false
-    latest: "2.4.1"
-    latestReleaseDate: 2022-08-20
+    latest: "2.4.2"
+    latestReleaseDate: 2022-09-14
     releaseDate: 2022-08-16
 
 -   releaseCycle: "2.3"
