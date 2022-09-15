@@ -3,9 +3,7 @@ title: Magento
 permalink: /magento
 category: server-app
 releasePolicyLink: https://magento.com/tech-resources/download
-# We might need to fix changelogTemplate if they decide to use double digit version numbers
-changelogTemplate: https://devdocs.magento.com/guides/v{{"__RELEASE_CYCLE__" | slice:0,3
-  }}/release-notes/open-source-{{"__LATEST__" | replace:'.','-'}}.html
+changelogTemplate: https://devdocs.magento.com/guides/v{{"__RELEASE_CYCLE__" |split:'.'|slice:0,2|join:'.' }}/release-notes/open-source-{{"__LATEST__" | replace:'.','-'}}.html
 activeSupportColumn: true
 versionCommand: php bin/magento --version
 auto:
