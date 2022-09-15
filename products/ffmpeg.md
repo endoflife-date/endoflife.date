@@ -208,7 +208,7 @@ releases:
     codename: 'Love'
     eol: 2013-10-06
     latest: "0.8.15"
-    releaseDate: 2011-06-21
+    releaseDate: 2011-06-22
 
 -   releaseCycle: "0.7"
     codename: 'Peace'
