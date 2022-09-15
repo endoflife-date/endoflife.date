@@ -5,7 +5,6 @@ iconSlug: opensuse
 permalink: /opensuse
 alternate_urls:
 -   /opensuseleap
--   /suse
 releasePolicyLink: https://en.opensuse.org/Lifetime
 activeSupportColumn: false
 releaseColumn: false
