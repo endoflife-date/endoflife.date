@@ -4,6 +4,7 @@ permalink: /qt
 category: framework
 title: Qt
 versionCommand: qmake --version
+changelogTemplate: https://www.qt.io/blog/qt-{{"__LATEST"}}-released
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 releaseDateColumn: true
 sortReleasesBy: 'releaseDate'
@@ -15,33 +16,28 @@ releases:
     eol: 2022-10-12
     latest: "6.3.2"
     lts: false
-    link: https://www.qt.io/blog/qt-6.3.1-released
     latestReleaseDate: 2022-09-08
     releaseDate: 2022-04-11
 -   releaseCycle: "6.2"
     eol: 2024-09-30
     latest: "6.2.4"
     lts: true
-    link: https://www.qt.io/blog/qt-6.2.4-released
     latestReleaseDate: 2022-03-16
     releaseDate: 2021-09-30
 -   releaseCycle: "6.1"
     eol: 2022-05-06
     latest: "6.1.3"
-    link: https://www.qt.io/blog/qt-6.1.3-released
     latestReleaseDate: 2021-08-31
     releaseDate: 2021-05-05
 -   releaseCycle: "6.0"
     eol: 2021-12-08
     latest: "6.0.4"
-    link: https://www.qt.io/blog/qt-6.0.4-released
     latestReleaseDate: 2021-05-03
     releaseDate: 2020-12-08
 -   releaseCycle: "5.15"
     eol: 2023-05-26
     latest: "5.15.2"
     lts: true
-    link: https://www.qt.io/blog/qt-5.15-released
     latestReleaseDate: 2020-11-13
     releaseDate: 2020-05-25
 -   releaseCycle: "5.14"
@@ -60,13 +56,11 @@ releases:
     eol: 2021-12-05
     latest: "5.12.12"
     lts: true
-    link: https://www.qt.io/blog/qt-5.12.12-released
     latestReleaseDate: 2021-11-25
     releaseDate: 2018-12-04
 -   releaseCycle: "5.9"
     eol: 2020-05-31
     latest: "5.9.9"
-    link: https://www.qt.io/blog/qt-5.9.9-released
     latestReleaseDate: 2019-12-16
     releaseDate: 2017-05-29
 -   releaseCycle: "5.6"
