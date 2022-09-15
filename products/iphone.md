@@ -84,6 +84,7 @@ releases:
 -   releaseCycle: "iPhone 13 / 13 Mini"
     discontinued: false
     eol: false
+    releaseDate: 2021-09-24
 -   releaseCycle: "iPhone 13 Pro / 13 Pro Max"
     discontinued: 2022-09-07
     eol: false
