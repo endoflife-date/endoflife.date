@@ -54,7 +54,7 @@ releases:
     releaseLabel: "__RELEASE_CYCLE__"
     support: 2017-01-17
     eol: 2017-01-17
-    releaseDate: 2015-12-14
+    releaseDate: 2014-11-04
 -   releaseCycle: "13.1"
     releaseLabel: "__RELEASE_CYCLE__"
     support: 2016-02-03
