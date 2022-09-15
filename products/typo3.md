@@ -15,7 +15,7 @@ releases:
     eol: 2023-04-30
     support: 2021-10-31
     releaseDate: 2020-04-21
-    latest: "10.4.31"
+    latest: "10.4.32"
     link: https://typo3.org/article/typo3-v10-safe-and-sound/
     latestReleaseDate: 2022-09-13
 -   releaseCycle: "9"
