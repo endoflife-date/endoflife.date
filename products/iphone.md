@@ -19,11 +19,11 @@ releases:
     releaseDate: 2013-09-20
 -   releaseCycle: "iPhone 5S"
     discontinued: 2016-03-21
-    eol: 2019-09-19
+    eol: 2022-08-31
     releaseDate: 2013-09-20
 -   releaseCycle: "iPhone 6 / 6 Plus"
     discontinued: 2016-09-07
-    eol: 2019-09-19
+    eol: 2022-08-31
     releaseDate: 2014-09-25
 -   releaseCycle: "iPhone 6S / 6S Plus"
     discontinued: 2018-09-12
@@ -107,5 +107,7 @@ releases:
 > The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system.
 
 Most likely, new iPhone models will come out in September every year (with a few possible exceptions). iPhone support (supported devices gets the latest iOS updates) is quite long. Apple occasionally releases security updates for much older devices, such as [this security fix in iOS 12.5.6](https://support.apple.com/HT213428) which was pushed to iPhone 6 and iPhone 5S.
+
+On new iOS releases, the [previous iOS version is supported for a few months](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/) as a stop-gap to allow users time to update.
 
 Apple maintains a list of Supported iPhone models at <https://support.apple.com/guide/iphone/iphe3fa5df43>.
