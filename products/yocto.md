@@ -1,70 +1,6 @@
 ---
 title: Yocto Project
 category: os
-sortReleasesBy: "cycleShortHand"
-changelogTemplate: |
-  https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
-iconSlug: NA
-releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releases:
-#  - releaseCycle: "4.1"
-#    codename: 'Langdale'
-#    cycleShortHand: 401
-#    latest: "4.1.0"
-#    release: 2022-10-01
-#    eol:     2023-05-01
-
--   releaseCycle: "4.0"
-    codename: 'Kirkstone'
-    cycleShortHand: '400'
-    lts: true
-    latest: "4.0"
-    eol: 2024-04-27
-
-    releaseDate: 2022-04-27
--   releaseCycle: "3.4"
-    codename: 'Honister'
-    cycleShortHand: '304'
-    latest: "3.4.3"
-    eol: 2022-05-01
-
-    releaseDate: 2021-10-25
--   releaseCycle: "3.3"
-    codename: 'Hardknott'
-    cycleShortHand: '303'
-    latest: "3.3.6"
-    eol: 2021-11-01
-
-    releaseDate: 2021-04-01
--   releaseCycle: "3.2"
-    codename: 'Gatesgarth'
-    cycleShortHand: '302'
-    latest: "3.2.4"
-    eol: 2021-05-01
-
-    releaseDate: 2020-10-01
--   releaseCycle: "3.1"
-    codename: 'Dunfell'
-    cycleShortHand: '301'
-    lts: true
-    latest: "3.1.15"
-    eol: 2024-04-01
-
-    releaseDate: 2020-04-01
--   releaseCycle: "3.0"
-    codename: 'Zeus'
-    cycleShortHand: '300'
-    latest: "3.0.4"
-    eol: 2020-08-01
-
-    releaseDate: 2019-10-01
--   releaseCycle: "2.7"
-    codename: 'Warrior'
-    cycleShortHand: '207'
-    latest: "2.7.4"
-    eol: 2020-06-01
-
-    releaseDate: 2019-04-01
 permalink: /yocto
 alternate_urls:
 -   /yocto-project
@@ -75,6 +11,63 @@ releaseDateColumn: true
 eolColumn: Support Status
 discontinuedColumn: false
 versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
+sortReleasesBy: "releaseDate"
+changelogTemplate: |
+  https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
+iconSlug: NA
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+releases:
+#  - releaseCycle: "4.1"
+#    codename: 'Langdale'
+#    latest: "4.1.0"
+#    release: 2022-10-01
+#    eol:     2023-05-01
+
+-   releaseCycle: "4.0"
+    codename: 'Kirkstone'
+    lts: true
+    latest: "4.0"
+    eol: 2024-04-27
+    releaseDate: 2022-04-27
+
+-   releaseCycle: "3.4"
+    codename: 'Honister'
+    latest: "3.4.3"
+    eol: 2022-05-01
+    releaseDate: 2021-10-25
+
+-   releaseCycle: "3.3"
+    codename: 'Hardknott'
+    latest: "3.3.6"
+    eol: 2021-11-01
+    releaseDate: 2021-04-01
+
+-   releaseCycle: "3.2"
+    codename: 'Gatesgarth'
+    latest: "3.2.4"
+    eol: 2021-05-01
+    releaseDate: 2020-10-01
+
+-   releaseCycle: "3.1"
+    codename: 'Dunfell'
+    lts: true
+    latest: "3.1.15"
+    eol: 2024-04-01
+    releaseDate: 2020-04-01
+
+-   releaseCycle: "3.0"
+    codename: 'Zeus'
+    latest: "3.0.4"
+    eol: 2020-08-01
+    releaseDate: 2019-10-01
+
+-   releaseCycle: "2.7"
+    codename: 'Warrior'
+    latest: "2.7.4"
+    eol: 2020-06-01
+    releaseDate: 2019-04-01
+
+
 
 ---
 
