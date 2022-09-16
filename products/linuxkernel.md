@@ -10,7 +10,7 @@ changelogTemplate: |
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: 'cycleShortHand'
+sortReleasesBy: 'releaseDate'
 versionCommand: uname -r
 auto:
 # Note that we're tracking the linux kernel stable tree, not torvalds' tree
@@ -20,35 +20,30 @@ auto:
 
 releases:
 -   releaseCycle: "5.19"
-    cycleShortHand: '519'
     eol: false
     latest: "5.19.8"
     latestReleaseDate: 2022-09-08
     releaseDate: 2022-07-31
 
 -   releaseCycle: "5.18"
-    cycleShortHand: '518'
     eol: true
     latest: "5.18.19"
     latestReleaseDate: 2022-08-21
     releaseDate: 2022-05-22
 
 -   releaseCycle: "5.17"
-    cycleShortHand: '517'
     eol: true
     latest: "5.17.15"
     latestReleaseDate: 2022-06-14
     releaseDate: 2022-03-20
 
 -   releaseCycle: "5.16"
-    cycleShortHand: '516'
     eol: 2022-04-13
     latest: "5.16.20"
     latestReleaseDate: 2022-04-13
     releaseDate: 2022-01-09
 
 -   releaseCycle: "5.15"
-    cycleShortHand: '515'
     eol: 2023-10-31
     lts: true
     latest: "5.15.67"
@@ -56,7 +51,6 @@ releases:
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
-    cycleShortHand: '510'
     eol: 2026-12-01
     lts: true
     latest: "5.10.142"
@@ -64,7 +58,6 @@ releases:
     releaseDate: 2020-12-13
 
 -   releaseCycle: "5.4"
-    cycleShortHand: '504'
     eol: 2025-12-01
     lts: true
     latest: "5.4.212"
@@ -72,7 +65,6 @@ releases:
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
-    cycleShortHand: '419'
     eol: 2024-12-01
     lts: true
     latest: "4.19.257"
@@ -80,7 +72,6 @@ releases:
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
-    cycleShortHand: '414'
     eol: 2024-01-01
     lts: true
     latest: "4.14.292"
@@ -88,7 +79,6 @@ releases:
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"
-    cycleShortHand: '409'
     eol: 2023-01-01
     lts: true
     latest: "4.9.327"
