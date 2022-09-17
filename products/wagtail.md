@@ -11,10 +11,17 @@ auto:
 -   git: https://github.com/wagtail/wagtail.git
 sortReleasesBy: releaseDate
 releases:
--   releaseCycle: "3.0"
-    support: 2022-08-01
+-   releaseCycle: "4.0"
+    support: 2022-11-01
     lts: false
-    eol: false
+    eol: 2023-02-01
+    latest: "4.0.1"
+    latestReleaseDate: 2022-09-05
+    releaseDate: 2022-08-31
+-   releaseCycle: "3.0"
+    support: 2022-08-31
+    lts: false
+    eol: 2022-11-01
     latest: "3.0.3"
     latestReleaseDate: 2022-09-05
     releaseDate: 2022-05-16
@@ -108,5 +115,6 @@ The Wagtail team provides [official security support](https://docs.wagtail.io/en
 
 Wagtail release | Compatible Django versions | Compatible Python versions
 ----------------|----------------------------|----------------------------
+4               | 3.2, 4.0, 4.1              | 3.7-3.10
 3               | 3.2, 4.0                   | 3.7-3.10
 2.15 LTS        | 3.0, 3.1, 3.2              | 3.6-3.10
