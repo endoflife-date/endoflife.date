@@ -2,8 +2,8 @@
 title: Amazon EKS
 category: service
 sortReleasesBy: "releaseCycle"
-changelogTemplate: "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-__RELEASE_CYCLE__"
-# Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/kubernetes-versions.md as source
+changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__" | replace:".","-"}}
+# Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
 auto:
@@ -39,19 +39,7 @@ releases:
     latest: "1.18-eks-13"
     releaseDate: 2020-10-13
     latestReleaseDate: 2022-08-15
--   releaseCycle: "1.17"
-    eol: 2021-11-02
-    latest: "1.17.17"
-    releaseDate: 2020-07-31
-    latestReleaseDate: 2021-04-28
--   releaseCycle: "1.16"
-    eol: 2021-09-27
-    latest: "1.16.15"
-
-    releaseDate: 2020-05-05
-    latestReleaseDate: 2020-11-27
 iconSlug: kubernetes
-
 permalink: /amazon-eks
 alternate_urls:
 -   /eks
@@ -78,5 +66,14 @@ Amazon EKS will automatically upgrade existing control planes (not nodes) to the
 
 Because Amazon EKS runs a highly available control plane, you can update only [one minor version at a time][skew]. Therefore, if your current version is 1.19, and you want to update to 1.21, then you must first update your cluster to 1.20 and then update it from 1.20 to 1.21. Similarly, your node version can be at most 2 minor version behind the control plane version.
 
+Clusters are always created with the latest available Amazon EKS platform version (eks.n) for the specified Kubernetes version. If you update your cluster to a new Kubernetes minor version, your cluster receives the current Amazon EKS platform version for the Kubernetes minor version that you updated to.
+
+New Amazon EKS platform versions don't introduce breaking changes or cause service interruptions.
+
+## [Platform Versions][platform-versions]
+
+Not every Kubernetes patch release is published on EKS. EKS releases follow a "platform versioning", which starts at `eks.1` for each Kubernetes minor version. The [Platform Versions][platform-versions] lists the underlying Kubernetes version used in each EKS platform version.
+
+[platform-versions]: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
 [upgrade]: https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html#update-existing-cluster
 [skew]: https://kubernetes.io/docs/setup/version-skew-policy/#kube-apiserver
