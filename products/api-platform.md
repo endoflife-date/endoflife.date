@@ -13,21 +13,35 @@ category: framework
 auto:
 -   git: https://github.com/api-platform/core.git
 releases:
-#  - releaseCycle: "2.7"
+#  - releaseCycle: "3.1"
 #    release: 2022-XX-XX
 #    eol: false
-#    latest: "2.7.0"
+#    latest: "3.1.0"
+
+  - releaseCycle: "3.0"
+    release: 2022-09-15
+    eol: false
+    latest: "3.0.0"
+    latestReleaseDate: 2022-09-15
+    releaseDate: 2021-09-15
+
+  - releaseCycle: "2.7"
+    release: 2022-09-15
+    eol: false
+    latest: "2.7.0"
+    latestReleaseDate: 2022-09-15
+    releaseDate: 2021-09-15
 
 -   releaseCycle: "2.6"
     support: true
     eol: false
     latest: "2.6.8"
-
     latestReleaseDate: 2022-01-11
     releaseDate: 2021-01-22
+
 -   releaseCycle: "2.5"
     support: 2021-01-22
-    eol: false
+    eol: 2022-09-15
     latest: "2.5.10"
 
     latestReleaseDate: 2021-01-22
