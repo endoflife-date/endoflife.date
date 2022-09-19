@@ -15,8 +15,8 @@ sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2"
     eol: false
-    latest: "2.3.3"
-    latestReleaseDate: 2022-07-05
+    latest: "2.4.0"
+    latestReleaseDate: 2022-09-19
     releaseDate: 2020-12-07
 -   releaseCycle: "1.10"
     eol: 2021-07-17
