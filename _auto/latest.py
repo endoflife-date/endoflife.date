@@ -40,7 +40,7 @@ or releases that include a dot just after the release cycle (4.1.*)
 This is important to avoid edge cases like a 4.10.x release being marked under the 4.1 release cycle.
 """
 def releases_matches(r, prefix):
-  return (r.startswith(prefix) and (r == prefix or r.startswith(prefix + '.')))
+  return (r.startswith(prefix) and (r == prefix or r.startswith(prefix + '.') or r.startswith(prefix + '-')))
 
 def find_first(releases, prefix):
   return next(filter(lambda r: releases_matches(r, prefix), releases), None)
