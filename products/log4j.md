@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "2"
     cycleShortHand: '299'
     eol: false
-    latest: "2.18.0"
-    latestReleaseDate: 2022-06-28
+    latest: "2.19.0"
+    latestReleaseDate: 2022-09-13
     releaseDate: 2014-07-12
 -   releaseCycle: "2.12"
     cycleShortHand: '212'

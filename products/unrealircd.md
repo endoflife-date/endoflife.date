@@ -7,7 +7,8 @@ permalink: /unrealircd
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 releaseDateColumn: true
 versionCommand: ./unrealircd version
-changelogTemplate: https://github.com/unrealircd/unrealircd/blob/unreal{{"__LATEST__"|split:'.'|slice:0,2|join:''}}/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__' | replace:'.',''}}
+changelogTemplate: https://github.com/unrealircd/unrealircd/blob/unreal{{"__LATEST__"|split:'.'|slice:0,2|join:''}}/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'
+  | replace:'.',''}}
 iconSlug: NA
 # Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/unrealircd.json
@@ -21,8 +22,8 @@ releases:
     link: https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-604
     support: true
     eol: false
-    latest: "6.0.4.1"
-    latestReleaseDate: 2022-08-29
+    latest: "6.0.4"
+    latestReleaseDate: 2022-06-17
     releaseDate: 2021-12-17
 -   releaseCycle: "5"
     support: 2022-07-01
