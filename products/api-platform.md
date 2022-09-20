@@ -19,13 +19,12 @@ releases:
 #    eol: false
 #    latest: "3.1.0"
 
-  - releaseCycle: "3.0"
+-   releaseCycle: "3.0"
     eol: false
     latest: "3.0.0"
     latestReleaseDate: 2022-09-15
     releaseDate: 2021-09-15
-
-  - releaseCycle: "2.7"
+-   releaseCycle: "2.7"
     eol: false
     latest: "2.7.0"
     latestReleaseDate: 2022-09-15
