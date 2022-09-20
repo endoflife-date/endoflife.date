@@ -6,8 +6,6 @@ Keep track of various End of Life dates and support lifecycles for various produ
 
 If you maintain release information (end-of-life dates, or support information) for a product, we have a [set of recommendations](https://endoflife.date/recommendations) along with a checklist on some best practices for publishing this information.
 
-Currently tracking 89+ products.
-
 ## Contributing
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2021][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide][hack-participate] and [Quality Standards][qs] before filing a pull request.

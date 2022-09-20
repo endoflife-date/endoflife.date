@@ -17,16 +17,22 @@ auto:
     regex: ^(?<version>\d+(\.\d+){1,3})-stable$
     template: "{{version}}"
 releases:
--   releaseCycle: "3.4"
+-   releaseCycle: "3.5"
     support: true
     eol: false
+    latest: "3.5"
+    link: https://godotengine.org/article/godot-3-5-cant-stop-wont-stop
+    latestReleaseDate: 2022-08-05
+    releaseDate: 2022-08-05
+-   releaseCycle: "3.4"
+    support: false
+    eol: false
     latest: "3.4.5"
-    link: https://godotengine.org/article/maintenance-release-godot-3-4-2
     latestReleaseDate: 2022-08-01
     releaseDate: 2021-11-05
 -   releaseCycle: "3.3"
-    support: true
-    eol: false
+    support: false
+    eol: true
     latest: "3.3.4"
     latestReleaseDate: 2021-10-01
     releaseDate: 2021-04-21
@@ -38,7 +44,7 @@ releases:
     releaseDate: 2020-01-29
 -   releaseCycle: "3.1"
     support: false
-    eol: false
+    eol: true
     latest: "3.1.2"
     latestReleaseDate: 2019-12-03
     releaseDate: 2019-03-13
@@ -49,7 +55,7 @@ releases:
     latestReleaseDate: 2018-07-31
     releaseDate: 2018-01-29
 -   releaseCycle: "2.1"
-    eol: false
+    eol: true
     support: false
     latest: "2.1.6"
     lts: true

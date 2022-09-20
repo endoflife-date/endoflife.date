@@ -7,34 +7,35 @@ changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__L
 category: server-app
 activeSupportColumn: false
 auto:
--   git: https://github.com/apache/tomcat.git
+-   maven: org.apache.tomcat/tomcat
 versionCommand: ./bin/version.sh
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
--   releaseCycle: "10"
+# 10.1 is still in Beta
+-   releaseCycle: "10.0"
     eol: false
     latest: "10.0.23"
     link: https://tomcat.apache.org/download-10.cgi
-    releaseDate: 2020-12-02
+    releaseDate: 2020-12-03
     latestReleaseDate: 2022-07-14
 -   releaseCycle: "9"
     eol: false
     latest: "9.0.65"
     link: https://tomcat.apache.org/download-90.cgi
-    releaseDate: 2017-09-22
+    releaseDate: 2015-11-13
     latestReleaseDate: 2022-07-14
 -   releaseCycle: "8"
     eol: false
     latest: "8.5.82"
     link: https://tomcat.apache.org/download-80.cgi
-    releaseDate: 2016-03-17
+    releaseDate: 2013-08-01
     latestReleaseDate: 2022-08-08
 -   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
-    releaseDate: 2010-06-13
+    releaseDate: 2013-01-10
     latestReleaseDate: 2021-04-22
 -   releaseCycle: "6"
     eol: 2016-12-31
@@ -63,7 +64,7 @@ Different versions of Apache Tomcat are available for different versions of the 
 
 | Tomcat Version | Minimum Java Version |
 |----------------|----------------------|
-| 10.1           | 11                   |
+| 10.1 (Beta)    | 11                   |
 | 10.0           | 8                    |
 | 9              | 8                    |
 | 8.5            | 7                    |

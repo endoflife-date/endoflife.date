@@ -18,7 +18,7 @@ releases:
     eol: 2022-12-31
     latest: "390.147"
     link: https://www.nvidia.com/Download/driverResults.aspx/184603
-    cycleShortHand: 1
+    cycleShortHand: '1'
 
     releaseDate: 2018-01-04
 -   releaseCycle: "R390-Windows"
@@ -27,7 +27,7 @@ releases:
     eol: 2022-12-31
     latest: "392.68"
     link: https://www.nvidia.com/download/driverResults.aspx/181267
-    cycleShortHand: 2
+    cycleShortHand: '2'
 
     releaseDate: 2018-01-08
 -   releaseCycle: "R418-Linux"
@@ -36,7 +36,7 @@ releases:
     eol: 2022-03-01
     latest: "418.197.02"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
-    cycleShortHand: 3
+    cycleShortHand: '3'
 
     releaseDate: 2019-01-30
 -   releaseCycle: "R418-Windows"
@@ -45,7 +45,7 @@ releases:
     eol: 2022-03-01
     latest: "427.45"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
-    cycleShortHand: 4
+    cycleShortHand: '4'
 
     releaseDate: 2019-02-04
 -   releaseCycle: "R450-Linux"
@@ -54,7 +54,7 @@ releases:
     eol: 2023-07-01
     latest: "450.142.00"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
-    cycleShortHand: 5
+    cycleShortHand: '5'
 
     releaseDate: 2020-06-24
 -   releaseCycle: "R450-Windows"
@@ -63,7 +63,7 @@ releases:
     eol: 2023-07-01
     latest: "453.10"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
-    cycleShortHand: 6
+    cycleShortHand: '6'
 
     releaseDate: 2020-06-24
 -   releaseCycle: "R460-Linux (PB)"
@@ -71,7 +71,7 @@ releases:
     eol: 2022-01-01
     latest: "460.91.03"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
-    cycleShortHand: 7
+    cycleShortHand: '7'
 
     releaseDate: 2021-1-7
 -   releaseCycle: "R460-Windows (PB)"
@@ -79,7 +79,7 @@ releases:
     eol: 2022-01-01
     latest: "462.96"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
-    cycleShortHand: 8
+    cycleShortHand: '8'
 
     releaseDate: 2020-12-15
 -   releaseCycle: "R470-Linux"
@@ -88,7 +88,7 @@ releases:
     eol: 2024-09-01
     latest: "470.94"
     link: https://www.nvidia.com/Download/driverResults.aspx/184163
-    cycleShortHand: 9
+    cycleShortHand: '9'
 
     releaseDate: 2021-7-19
 -   releaseCycle: "R470-Windows"
@@ -97,7 +97,7 @@ releases:
     eol: 2024-09-01
     latest: "472.39"
     link: https://nvidia.custhelp.com/app/answers/detail/a_id/5251
-    cycleShortHand: 10
+    cycleShortHand: '10'
 
     releaseDate: 2021-06-22
 -   releaseCycle: "R495-Windows (NFB)"
@@ -105,7 +105,7 @@ releases:
     eol: 2022-01-14
     latest: "497.29"
     link: https://www.nvidia.com/Download/driverResults.aspx/184717
-    cycleShortHand: 11
+    cycleShortHand: '11'
 
     releaseDate: 2021-10-12
 -   releaseCycle: "R495-Linux (NFB)"
@@ -113,7 +113,7 @@ releases:
     eol: 2022-01-11
     latest: "495.46"
     link: https://www.nvidia.com/Download/driverResults.aspx/184248
-    cycleShortHand: 11
+    cycleShortHand: '11'
 
     releaseDate: 2021-10-26
 -   releaseCycle: "R510-Windows (PB)"
@@ -121,7 +121,7 @@ releases:
     eol: 2023-01-01
     latest: "512.15"
     link: https://www.nvidia.com/download/driverResults.aspx/187304/en-us
-    cycleShortHand: 12
+    cycleShortHand: '12'
 
     releaseDate: 2022-01-14
 -   releaseCycle: "R510-Linux (PB)"
@@ -129,7 +129,7 @@ releases:
     eol: 2023-01-01
     latest: "510.60.02"
     link: https://www.nvidia.com/download/driverResults.aspx/187162/en-us
-    cycleShortHand: 13
+    cycleShortHand: '13'
     releaseDate: 2022-01-11
 
 ---
