@@ -13,6 +13,7 @@ releases:
     eol: 2024-01-01
     latestReleaseDate: 2022-11-01
     releaseDate: 2022-11-01
+    latest: "1.24-eks-1"
 -   releaseCycle: "1.23"
     eol: 2023-10-01
     latest: "1.23-eks-1"
