@@ -9,6 +9,9 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
+purls:
+  - purl: pkg:pypi/ansible
+  - repology: ansible
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:

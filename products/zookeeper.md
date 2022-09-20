@@ -11,6 +11,11 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'releaseCycle'
+purls:
+  - repology: zookeeper
+  - purl: pkg:maven/org.apache.zookeeper/zookeeper
+  - purl: pkg:github/apache/zookeeper
+  - purl: pkg:docker/library/zookeeper
 iconSlug: NA
 auto:
 -   maven: org.apache.zookeeper/zookeeper

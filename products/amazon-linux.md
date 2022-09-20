@@ -9,6 +9,8 @@ versionCommand: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: releaseDate
+purls:
+  - purl: pkg:os/amazonlinux
 auto:
 -   dockerhub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases

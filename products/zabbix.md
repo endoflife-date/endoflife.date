@@ -12,6 +12,10 @@ sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Security Support
 iconSlug: NA
+purls:
+  - repology: zabbix
+  - purl: pkg:brew/zabbix
+  - purl: pkg:github/zabbix/zabbix
 releases:
 -   releaseCycle: "6.2"
     support: 2023-01-31

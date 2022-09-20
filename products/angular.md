@@ -7,6 +7,9 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
+purls:
+  - purl: pkg:npm/@angular/core
+  - purl: pkg:github/angular/angular
 auto:
 -   git: https://github.com/angular/angular.git
 releases:

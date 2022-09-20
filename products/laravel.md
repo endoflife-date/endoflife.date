@@ -10,6 +10,11 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/laravel/framework.git
+purls:
+  - purl: pkg:composer/laravel/laravel
+  - repology: php:laravel-framework
+  - purl: pkg:docker/bitnami/laravel
+  - purl: pkg:github/laravel/framework
 releases:
 -   releaseCycle: "9"
     support: 2023-08-08

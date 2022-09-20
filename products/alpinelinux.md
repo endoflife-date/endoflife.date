@@ -10,6 +10,8 @@ changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
 versionCommand: cat /etc/alpine-release
 releaseDateColumn: true
+purls:
+  - purl: pkg:os/alpinelinux
 auto:
   # upstream does not support filtering https://git.alpinelinux.org/aports
 -   git: https://github.com/alpinelinux/aports.git

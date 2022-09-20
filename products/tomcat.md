@@ -45,7 +45,9 @@ releases:
     eol: 2012-09-30
     latest: "5.5.36"
     releaseDate: 2003-09-06
-
+purls:
+  - repology: tomcat
+  - purl: pkg:maven/org.apache.tomcat/tomcat
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including [JSP][jsp], [Servlets][servlet], and [WebSockets][websockets].
