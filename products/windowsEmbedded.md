@@ -2,7 +2,7 @@
 title: Windows Embedded
 permalink: /windowsembedded
 iconSlug: windows
-releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
 category: os
 activeSupportColumn: true
 releaseColumn: false
@@ -37,5 +37,3 @@ releases:
     releaseDate: 2011-02-28
 
 ---
-
-

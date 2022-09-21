@@ -5,7 +5,7 @@ alternate_urls:
 -   /msoffice
 iconSlug: microsoftoffice
 category: app
-releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Office
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Office
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
@@ -48,4 +48,4 @@ releases:
 
 > Microsoft Office, or simply Office, is a family of client software, server software, and services developed by Microsoft.
 
-Note that Microsoft Office 2019 for Mac is [only supported until 2023-10-10](https://docs.microsoft.com/lifecycle/products/microsoft-office-2019-for-mac).
+Note that Microsoft Office 2019 for Mac is [only supported until 2023-10-10](https://learn.microsoft.com/lifecycle/products/microsoft-office-2019-for-mac).

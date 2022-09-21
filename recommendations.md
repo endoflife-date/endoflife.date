@@ -235,5 +235,5 @@ nice to have. If you do provide such an image, here's some recommendations:
 
 Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions).
 
-[aks]: https://docs.microsoft.com/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
+[aks]: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 [eks]: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar

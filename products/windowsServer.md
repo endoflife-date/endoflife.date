@@ -2,7 +2,7 @@
 title: Windows Server
 permalink: /windowsserver
 iconSlug: windows
-releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Windows%20Server
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
 category: os
 activeSupportColumn: true
 versionCommand: winver
@@ -99,5 +99,3 @@ releases:
     releaseDate: 2000-02-17
 
 ---
-
-
