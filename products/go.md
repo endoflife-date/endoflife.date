@@ -17,7 +17,6 @@ releases:
 -   releaseCycle: "1.19"
     eol: false
     latest: "1.19.1"
-    latestReleastDate: 2022-08-02
     releaseDate: 2022-08-02
     latestReleaseDate: 2022-09-06
 -   releaseCycle: "1.18"
