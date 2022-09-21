@@ -15,3 +15,4 @@ _data/gke.json
 .ionide
 .vscode/*.code-snippets
 *.code-workspace
+node_modules
