@@ -2,7 +2,8 @@
 title: Amazon EKS
 category: service
 sortReleasesBy: "releaseCycle"
-changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__" | replace:".","-"}}
+changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__"
+  | replace:".","-"}}
 # Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
@@ -22,7 +23,7 @@ releases:
 -   releaseCycle: "1.21"
     eol: 2023-02-01
     latest: "1.21-eks-10"
-    releaseDate: 2021-07-20
+    releaseDate: 2021-07-19
     latestReleaseDate: 2022-08-15
 -   releaseCycle: "1.20"
     eol: 2022-11-01

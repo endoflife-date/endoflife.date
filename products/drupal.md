@@ -12,19 +12,19 @@ releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
 -   git: https://github.com/drupal/core.git
 purls:
-  - purl: pkg:composer/drupal/core
-  - repology: php:drupal
-  - purl: pkg:docker/bitnami/drupal
-  - purl: pkg:docker/library/drupal
-  - purl: pkg:docker/bitnami/drupal-nginx
-  - purl: pkg:github/drupal/core
+-   purl: pkg:composer/drupal/core
+-   repology: php:drupal
+-   purl: pkg:docker/bitnami/drupal
+-   purl: pkg:docker/library/drupal
+-   purl: pkg:docker/bitnami/drupal-nginx
+-   purl: pkg:github/drupal/core
 sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "9.4"
     support: 2022-12-14
     eol: 2023-06-21
-    latest: "9.4.5"
-    latestReleaseDate: 2022-08-03
+    latest: "9.4.6"
+    latestReleaseDate: 2022-09-20
     releaseDate: 2022-06-15
 -   releaseCycle: "9.3"
     support: 2022-06-15

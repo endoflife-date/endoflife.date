@@ -27,24 +27,24 @@ sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "10.9"
     eol: 2023-08-22
-    latest: "10.9.2"
+    latest: "10.9.3"
     releaseDate: 2022-08-15
-    latestReleaseDate: 2022-08-15
+    latestReleaseDate: 2022-09-19
 -   releaseCycle: "10.8"
     eol: 2023-05-20
-    latest: "10.8.4"
+    latest: "10.8.5"
     releaseDate: 2022-05-20
-    latestReleaseDate: 2022-08-15
+    latestReleaseDate: 2022-09-19
 -   releaseCycle: "10.7"
     eol: 2023-02-14
-    latest: "10.7.5"
-    latestReleaseDate: 2022-08-15
+    latest: "10.7.6"
+    latestReleaseDate: 2022-09-19
     releaseDate: 2022-02-08
 -   releaseCycle: "10.6"
     eol: 2026-07-06
-    latest: "10.6.9"
+    latest: "10.6.10"
     lts: true
-    latestReleaseDate: 2022-08-14
+    latestReleaseDate: 2022-09-19
     releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
     eol: 2025-06-24
