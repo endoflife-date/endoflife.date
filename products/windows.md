@@ -9,6 +9,16 @@ releaseDateColumn: true
 versionCommand: winver
 sortReleasesBy: releaseDate
 releases:
+-   releaseCycle: "Windows 11, version 22H2 (E)"
+    cycleShortHand: 10.0.22621
+    support: 2025-10-14 
+    eol: 2025-10-14 
+    releaseDate: 2022-09-20 
+-   releaseCycle: "Windows 11, version 22H2 (W)"
+    cycleShortHand: 10.0.22621
+    support: 2024-10-14 
+    eol: 2024-10-14 
+    releaseDate: 2022-09-20 
 -   releaseCycle: "Windows 10, version 21H2"
     lts: true
     cycleShortHand: 10.0.19044
