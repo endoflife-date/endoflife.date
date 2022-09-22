@@ -9,10 +9,10 @@ changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELO
 auto:
 -   git: https://github.com/hashicorp/consul.git
 purls:
-  - repology: consul
-  - purl: pkg:brew/consul
-  - purl: pkg:docker/library/consul
-  - purl: pkg:github/hashicorp/consul
+-   repology: consul
+-   purl: pkg:brew/consul
+-   purl: pkg:docker/library/consul
+-   purl: pkg:github/hashicorp/consul
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: consul --version
@@ -20,13 +20,13 @@ versionCommand: consul --version
 releases:
 -   releaseCycle: "1.12"
     eol: false
-    latest: "1.12.4"
-    latestReleaseDate: 2022-08-10
+    latest: "1.12.5"
+    latestReleaseDate: 2022-09-20
     releaseDate: 2022-04-19
 -   releaseCycle: "1.11"
     eol: false
-    latest: "1.11.8"
-    latestReleaseDate: 2022-08-10
+    latest: "1.11.9"
+    latestReleaseDate: 2022-09-19
     releaseDate: 2021-12-14
 -   releaseCycle: "1.10"
     eol: false

@@ -13,22 +13,22 @@ activeSupportColumn: true
 eolColumn: Security Support
 iconSlug: NA
 purls:
-  - repology: zabbix
-  - purl: pkg:brew/zabbix
-  - purl: pkg:github/zabbix/zabbix
+-   repology: zabbix
+-   purl: pkg:brew/zabbix
+-   purl: pkg:github/zabbix/zabbix
 releases:
 -   releaseCycle: "6.2"
     support: 2023-01-31
     eol: 2023-02-28
-    latest: "6.2.2"
+    latest: "6.2.3"
     releaseDate: 2022-07-04
-    latestReleaseDate: 2022-08-29
+    latestReleaseDate: 2022-09-21
 -   releaseCycle: "6.0"
     support: 2025-02-28
     eol: 2027-02-28
     lts: true
-    latest: "6.0.8"
-    latestReleaseDate: 2022-08-29
+    latest: "6.0.9"
+    latestReleaseDate: 2022-09-21
     releaseDate: 2022-02-14
 -   releaseCycle: "5.4"
     support: 2022-02-28
