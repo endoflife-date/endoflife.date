@@ -15,6 +15,12 @@ auto:
 -   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
     git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
+-   releaseCycle: "15.4"
+    support: 2022-10-22
+    eol: 2022-12-22
+    latest: "15.4.0"
+    latestReleaseDate: 2022-09-22
+    releaseDate: 2022-09-22
 -   releaseCycle: "15.3"
     support: 2022-09-22
     eol: 2022-11-22
