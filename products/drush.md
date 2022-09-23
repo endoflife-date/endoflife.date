@@ -12,16 +12,16 @@ versionCommand: drush --version
 auto:
 -   git: https://github.com/drush-ops/drush.git
 purls:
-  - purl: pkg:composer/drush/drush
-  - repology: drush
-  - purl: pkg:github/drush-ops/drush
+-   purl: pkg:composer/drush/drush
+-   repology: drush
+-   purl: pkg:github/drush-ops/drush
 sortReleasesBy: 'releaseCycle'
 iconSlug: drupal
 releases:
 -   releaseCycle: "11"
     eol: false
-    latest: "11.1.1"
-    latestReleaseDate: 2022-07-12
+    latest: "11.2.0"
+    latestReleaseDate: 2022-09-22
     releaseDate: 2022-01-11
 -   releaseCycle: "10"
     eol: 2022-01-01

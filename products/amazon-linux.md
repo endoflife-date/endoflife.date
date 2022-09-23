@@ -10,7 +10,7 @@ eolColumn: Support
 releaseDateColumn: true
 sortReleasesBy: releaseDate
 purls:
-  - purl: pkg:os/amazonlinux
+-   purl: pkg:os/amazonlinux
 auto:
 -   dockerhub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases
@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     eol: 2024-06-30
-    latest: "2.0.20220805.0"
-    latestReleaseDate: 2022-08-26
+    latest: "2.0.20220912.1"
+    latestReleaseDate: 2022-09-22
     releaseDate: 2018-06-26
 
 ---
