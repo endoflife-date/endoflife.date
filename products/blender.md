@@ -15,9 +15,16 @@ sortReleasesBy: releaseDate
 eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
+-   releaseCycle: "3.3"
+    eol: 2024-09-01
+    support: 2024-09-01
+    latest: "3.2.2"
+    lts: true
+    latestReleaseDate: 2022-09-07
+    releaseDate: 2022-09-07
 -   releaseCycle: "3.2"
-    eol: false
-    support: true
+    eol: 2022-09-07
+    support: 2022-09-07
     latest: "3.2.2"
     lts: false
     latestReleaseDate: 2022-08-03
