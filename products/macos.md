@@ -27,7 +27,7 @@ releases:
     latest: '11.7'
 -   releaseCycle: "10.15"
     codename: "Catalina"
-    eol: false
+    eol: 2022-09-12
     link: https://support.apple.com/HT210642
     releaseDate: 2019-10-07
     latestReleaseDate: 2020-09-24
