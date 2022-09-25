@@ -8,9 +8,9 @@ If you maintain release information (end-of-life dates, or support information) 
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2021][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide][hack-participate] and [Quality Standards][qs] before filing a pull request.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. This project is [participating in Hacktoberfest 2022][hacktoberfest]. Please read through the Hacktoberfest [Participation Guide][hack-participate] before filing a pull request.
 
-While participating in the project, you must abide by it's [Code of Conduct](CODE-OF-CONDUCT.md).
+While participating in the project, you must abide by its [Code of Conduct](CODE-OF-CONDUCT.md).
 
 ## API
 
@@ -21,5 +21,4 @@ An API is available for integration with CI platforms. API documentation is avai
 Licensed under the [MIT License](LICENSE).
 
 [hacktoberfest]: https://github.com/endoflife-date/endoflife.date/issues/408
-[qs]: https://hacktoberfest.digitalocean.com/resources/qualitystandards
-[hack-participate]: https://hacktoberfest.digitalocean.com/resources/participation
+[hack-participate]: https://hacktoberfest.com/participation/

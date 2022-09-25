@@ -25,7 +25,7 @@ This project is participating in Hacktoberfest 2021. If you are looking to contr
 
 ## 🕐 What's this project?
 
-Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: #375, #374, #378, #383.
+Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: [#1598](https://github.com/endoflife-date/endoflife.date/pull/1598), [#1603](https://github.com/endoflife-date/endoflife.date/pull/1603), [#1552](https://github.com/endoflife-date/endoflife.date/pull/1552), [#1596](https://github.com/endoflife-date/endoflife.date/pull/1596).
 
 ## :pencil: About the codebase
 
