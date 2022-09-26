@@ -10,16 +10,16 @@ versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 auto:
 -   git: https://github.com/wagtail/wagtail.git
 purls:
-  - repology: python:wagtail
-  - purl: pkg:pypi/wagtail
+-   repology: python:wagtail
+-   purl: pkg:pypi/wagtail
 sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "4.0"
     support: 2022-11-01
     lts: false
     eol: 2023-02-01
-    latest: "4.0.1"
-    latestReleaseDate: 2022-09-05
+    latest: "4.0.2"
+    latestReleaseDate: 2022-09-23
     releaseDate: 2022-08-31
 -   releaseCycle: "3.0"
     support: 2022-08-31

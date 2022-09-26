@@ -19,9 +19,9 @@ releases:
 -   releaseCycle: "5.1"
     codename: Riemann
     eol: false
-    latest: "5.1.1"
+    latest: "5.1.2"
     lts: true
-    latestReleaseDate: 2022-08-31
+    latestReleaseDate: 2022-09-25
     releaseDate: 2022-07-22
 
 -   releaseCycle: "5.0"

@@ -23,13 +23,13 @@ releases:
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
     eol: false
-    latest: "19.0.17"
-    latestReleaseDate: 2022-09-14
+    latest: "19.1.0"
+    latestReleaseDate: 2022-09-23
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
     eol: false
-    latest: "18.3.13"
-    latestReleaseDate: 2022-09-14
+    latest: "18.3.14"
+    latestReleaseDate: 2022-09-23
     releaseDate: 2022-03-28
 -   releaseCycle: "17"
     eol: true
@@ -121,3 +121,4 @@ When a release branch reaches the end of its support cycle, the series will be d
 - [List of releases](https://github.com/electron/releases)
 
 [platforms]: https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms
+
