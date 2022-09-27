@@ -15,6 +15,11 @@ purls:
   - purl: pkg:brew/varnish
   - purl: pkg:docker/library/varnish
 releases:
+-   releaseCycle: "7.2"
+    eol: 2023-09-15
+    latestReleaseDate: 2022-09-15
+    latest: 7.2.0
+    releaseDate: 2022-09-15
 -   releaseCycle: "7.1"
     eol: 2023-03-15
     latestReleaseDate: 2022-08-05
