@@ -16,16 +16,16 @@ releases:
 # 10.1 is still in Beta
 -   releaseCycle: "10.0"
     eol: false
-    latest: "10.0.23"
+    latest: "10.0.26"
     link: https://tomcat.apache.org/download-10.cgi
     releaseDate: 2020-12-03
-    latestReleaseDate: 2022-07-14
+    latestReleaseDate: 2022-09-23
 -   releaseCycle: "9"
     eol: false
-    latest: "9.0.65"
+    latest: "9.0.67"
     link: https://tomcat.apache.org/download-90.cgi
     releaseDate: 2015-11-13
-    latestReleaseDate: 2022-07-14
+    latestReleaseDate: 2022-09-23
 -   releaseCycle: "8"
     eol: false
     latest: "8.5.82"
@@ -46,8 +46,9 @@ releases:
     latest: "5.5.36"
     releaseDate: 2003-09-06
 purls:
-  - repology: tomcat
-  - purl: pkg:maven/org.apache.tomcat/tomcat
+-   repology: tomcat
+-   purl: pkg:maven/org.apache.tomcat/tomcat
+
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including [JSP][jsp], [Servlets][servlet], and [WebSockets][websockets].
