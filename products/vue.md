@@ -14,18 +14,18 @@ auto:
 -   git: https://github.com/vuejs/core.git
 -   git: https://github.com/vuejs/vue.git
 purls:
-  - repology: vue.js
-  - repology: vue
-  - purl: pkg:npm/vue
-  - purl: pkg:github/vuejs/vue
-  - purl: pkg:github/vuejs/core
+-   repology: vue.js
+-   repology: vue
+-   purl: pkg:npm/vue
+-   purl: pkg:github/vuejs/vue
+-   purl: pkg:github/vuejs/core
 releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.2.39"
+    latest: "3.2.40"
     lts: false
-    latestReleaseDate: 2022-09-08
+    latestReleaseDate: 2022-09-28
     releaseDate: 2020-09-18
 -   releaseCycle: "2"
     support: 2022-03-18
