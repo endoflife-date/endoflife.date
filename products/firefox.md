@@ -19,13 +19,6 @@ releases:
     lts: false
     releaseDate: 2022-09-20
 
--   releaseCycle: "104"
-    eol: false
-    latest: "104.0.2"
-    latestReleaseDate: 2022-09-06
-    lts: false
-    releaseDate: 2022-08-23
-
 -   releaseCycle: "102"
     eol: false
     latest: "102.2.0"
