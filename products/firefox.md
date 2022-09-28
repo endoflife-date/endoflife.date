@@ -12,6 +12,13 @@ changelogTemplate: |
 sortReleasesBy: releaseDate
 releases:
 
+-   releaseCycle: "105"
+    eol: false
+    latest: "105.0.1"
+    latestReleaseDate: 2022-09-23
+    lts: false
+    releaseDate: 2022-09-20
+
 -   releaseCycle: "104"
     eol: false
     latest: "104.0.2"
