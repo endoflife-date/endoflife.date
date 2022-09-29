@@ -20,9 +20,8 @@ releases:
 -   releaseCycle: "3.5"
     support: true
     eol: false
-    latest: "3.5"
-    link: https://godotengine.org/article/godot-3-5-cant-stop-wont-stop
-    latestReleaseDate: 2022-08-05
+    latest: "3.5.1"
+    latestReleaseDate: 2022-09-28
     releaseDate: 2022-08-05
 -   releaseCycle: "3.4"
     support: false
