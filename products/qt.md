@@ -12,6 +12,13 @@ auto:
   # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 -   git: https://github.com/qt/qt5.git
 releases:
+-   releaseCycle: "6.4"
+    eol: false # to be honest i couldnt find eol date for this release
+    # needs to fix after its eol annonced
+    latest: "6.4.0"
+    lts: false
+    latestReleaseDate: 2022-09-30
+    releaseDate: 2022-09-30
 -   releaseCycle: "6.3"
     eol: 2022-10-12
     latest: "6.3.2"
