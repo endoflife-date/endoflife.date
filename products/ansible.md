@@ -10,15 +10,15 @@ activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 purls:
-  - purl: pkg:pypi/ansible
-  - repology: ansible
+-   purl: pkg:pypi/ansible
+-   repology: ansible
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
 -   releaseCycle: "6"
     eol: false
-    latest: "6.3.0"
-    latestReleaseDate: 2022-08-23
+    latest: "6.4.0"
+    latestReleaseDate: 2022-09-28
     releaseDate: 2022-06-22
 -   releaseCycle: "5"
     eol: false

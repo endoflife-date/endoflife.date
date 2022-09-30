@@ -24,7 +24,7 @@ releases:
     support: false
     latest: "1.7.20"
     link: https://kotlinlang.org/docs/whatsnew1720.html
-    latestReleaseDate: 2022-09-29
+    latestReleaseDate: 2022-09-26
     releaseDate: 2022-06-07
 -   releaseCycle: "1.6"
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
