@@ -26,8 +26,8 @@ releases:
     releaseDate: 2022-03-22
 -   releaseCycle: "5.0"
     eol: false
-    latest: "5.0.12"
-    latestReleaseDate: 2022-09-02
+    latest: "5.0.13"
+    latestReleaseDate: 2022-09-29
     releaseDate: 2021-07-08
 -   releaseCycle: "4.4"
     eol: false
@@ -36,8 +36,8 @@ releases:
     releaseDate: 2020-07-25
 -   releaseCycle: "4.2"
     eol: false
-    latest: "4.2.22"
-    latestReleaseDate: 2022-08-11
+    latest: "4.2.23"
+    latestReleaseDate: 2022-09-29
     releaseDate: 2019-08-09
 -   releaseCycle: "4.0"
     eol: 2022-04-30
