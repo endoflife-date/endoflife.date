@@ -3,6 +3,14 @@
 // The file path comes from what the upstream allows:
 // https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles
 
+.bg-red-000, .bg-green-000, .site-footer {
+  color: #1c1c1c;
+}
+
+a {
+  color: #6c4dec;
+}
+
 .maincontent {
   >blockquote {
     margin-left: 60px;
