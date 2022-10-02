@@ -1,6 +1,7 @@
 ---
 title: LibreOffice
 permalink: /libreoffice
+iconSlug: libreoffice
 releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
 activeSupportColumn: false
 releaseDateColumn: true
