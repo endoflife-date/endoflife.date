@@ -13,12 +13,11 @@ auto:
 -   git: https://github.com/qt/qt5.git
 releases:
 -   releaseCycle: "6.4"
-    eol: false # to be honest i couldnt find eol date for this release
-    # needs to fix after its eol annonced
+    eol: 2022-03-30
     latest: "6.4.0"
     lts: false
-    latestReleaseDate: 2022-09-30
-    releaseDate: 2022-09-30
+    latestReleaseDate: 2022-09-29
+    releaseDate: 2022-09-29
 -   releaseCycle: "6.3"
     eol: 2022-10-12
     latest: "6.3.2"
