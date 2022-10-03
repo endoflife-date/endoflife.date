@@ -13,9 +13,9 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "19"
-    support: 2022-03-31
-    eol: 2022-03-31
-    latest: "19.0.1.1"
+    support: 2023-03-01
+    eol: 2023-03-01
+    latest: "19"
     releaseDate: 2022-09-20
 -   releaseCycle: "18"
     support: 2022-09-30
