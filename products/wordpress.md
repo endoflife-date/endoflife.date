@@ -90,6 +90,72 @@ releases:
     releaseDate: 2016-12-06
     latestReleaseDate: 2022-08-30
     latest: "4.7.24"
+-   releaseCycle: "4.6"
+    eol: false
+    support: 2016-12-06
+    releaseDate: 2016-08-16
+    latestReleaseDate: 2022-08-30
+    latest: "4.6.24"
+-   releaseCycle: "4.5"
+    eol: false
+    support: 2016-08-16
+    releaseDate: 2016-04-12
+    latestReleaseDate: 2022-08-30
+    latest: "4.5.27"
+-   releaseCycle: "4.4"
+    eol: false
+    support: 2016-04-12
+    releaseDate: 2015-12-08
+    latestReleaseDate: 2022-08-30
+    latest: "4.4.28"
+-   releaseCycle: "4.3"
+    eol: false
+    support: 2015-12-08
+    releaseDate: 2015-08-18
+    latestReleaseDate: 2022-08-30
+    latest: "4.3.29"
+-   releaseCycle: "4.2"
+    eol: false
+    support: 2015-08-18
+    releaseDate: 2015-04-23
+    latestReleaseDate: 2022-08-30
+    latest: "4.2.33"
+-   releaseCycle: "4.1"
+    eol: false
+    support: 2015-04-23
+    releaseDate: 2014-12-18
+    latestReleaseDate: 2022-08-30
+    latest: "4.1.36"
+-   releaseCycle: "4.0"
+    eol: 2022-12-01
+    support: 2014-12-18
+    releaseDate: 2014-09-04
+    latestReleaseDate: 2022-08-30
+    latest: "4.0.36"
+-   releaseCycle: "3.9"
+    eol: 2022-12-01
+    support: 2014-09-04
+    releaseDate: 2014-04-16
+    latestReleaseDate: 2022-08-30
+    latest: "3.9.37"
+-   releaseCycle: "3.8"
+    eol: 2022-12-01
+    support: 2014-04-16
+    releaseDate: 2013-12-12
+    latestReleaseDate: 2022-08-30
+    latest: "3.8.39"
+-   releaseCycle: "3.7"
+    eol: 2022-12-01
+    support: 2013-12-12
+    releaseDate: 2013-10-24
+    latestReleaseDate: 2022-08-30
+    latest: "3.7.39"
+-   releaseCycle: "3.6"
+    eol: 2013-10-24
+    support: 2013-10-24
+    releaseDate: 2013-08-01
+    latestReleaseDate: 2013-09-11
+    latest: "3.6.1"
 
 
 
