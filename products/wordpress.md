@@ -2,20 +2,19 @@
 title: WordPress
 category: server-app
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
+changelogTemplate:  https://wordpress.org/support/wordpress-version/version-{{"__LATEST__" | replace:'.','-'}}/
 sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "6.0"
     eol: false
     releaseDate: 2022-05-24
     latest: "6.0.2"
-    link: https://wordpress.org/support/wordpress-version/version-6-0-2/
     latestReleaseDate: 2022-08-30
 -   releaseCycle: "5.9"
     eol: 2022-05-24
     releaseDate: 2022-01-25
     latestReleaseDate: 2022-08-30
     latest: "5.9.4"
-    link: https://wordpress.org/support/wordpress-version/version-5-9-4/
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
 purls:
