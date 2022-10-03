@@ -42,6 +42,54 @@ releases:
     releaseDate: 2020-08-11
     latestReleaseDate: 2022-08-30
     latest: "5.5.10"
+-   releaseCycle: "5.4"
+    eol: false
+    support: 2020-08-11
+    releaseDate: 2020-03-31
+    latestReleaseDate: 2022-08-30
+    latest: "5.4.11"
+-   releaseCycle: "5.3"
+    eol: false
+    support: 2020-03-31
+    releaseDate: 2019-11-12
+    latestReleaseDate: 2022-08-30
+    latest: "5.3.13"
+-   releaseCycle: "5.2"
+    eol: false
+    support: 2019-11-12
+    releaseDate: 2019-05-07
+    latestReleaseDate: 2022-08-30
+    latest: "5.2.16"
+-   releaseCycle: "5.1"
+    eol: false
+    support: 2019-05-07
+    releaseDate: 2019-02-21
+    latestReleaseDate: 2022-08-30
+    latest: "5.1.14"
+-   releaseCycle: "5.0"
+    eol: false
+    support: 2019-02-21
+    releaseDate: 2018-12-06
+    latestReleaseDate: 2022-08-30
+    latest: "5.0.17"
+-   releaseCycle: "4.9"
+    eol: false
+    support: 2018-12-06
+    releaseDate: 2017-11-16
+    latestReleaseDate: 2022-08-30
+    latest: "4.9.21"
+-   releaseCycle: "4.8"
+    eol: false
+    support: 2017-11-16
+    releaseDate: 2017-06-08
+    latestReleaseDate: 2022-08-30
+    latest: "4.8.20"
+-   releaseCycle: "4.7"
+    eol: false
+    support: 2017-06-08
+    releaseDate: 2016-12-06
+    latestReleaseDate: 2022-08-30
+    latest: "4.7.24"
 
 
 
