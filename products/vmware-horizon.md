@@ -6,7 +6,7 @@ alternate_urls:
 -   /vmware-horizon
 iconSlug: vmware
 category: app
-releasePolicyLink: https://lifecycle.vmware.com/
+releasePolicyLink: https://lifecycle.vmware.com
 activeSupportColumn: Technical Guidance
 releaseColumn: false
 releaseDateColumn: true
@@ -63,7 +63,8 @@ releases:
     releaseDate: 2019-09-17
     eol: 2022-03-17
     support: 2023-03-22
--   releaseCycle: "7.0 – 7.9, 7.11, 7.12"
+-   releaseCycle: "7.12"
+    releaseLabel: "7.0 – 7.9, 7.11, 7.12"
     releaseDate: 2016-03-22
     eol: 2021-03-22
     support: 2023-03-22
@@ -73,8 +74,7 @@ releases:
 
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base version release.
 
-## Product Lifecycle
-
+## [Product Lifecycle](https://lifecycle.vmware.com/)
 
 **General Support**: The last date on which you can request support; the end of regular VMware maintenance updates and upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription Terms and Conditions.
 
