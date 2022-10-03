@@ -183,7 +183,7 @@ Only the latest major release is supported. Security patches are backported when
 
 ## PHP Support
 
-Version | PHP
+WordPress Version | Supported PHP Versions
 --------|-----------
 3.7     | 5.2 - 5.5 
 3.8     | 5.2 - 5.5 
