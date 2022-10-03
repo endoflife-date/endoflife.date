@@ -14,10 +14,10 @@ auto:
 releases:
 -   releaseCycle: "6.4"
     eol: 2023-03-30
-    latest: "6.4"
+    latest: "6.4.0"
     lts: false
-    latestReleaseDate: 2022-09-29
-    releaseDate: 2022-09-29
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2022-09-28
 -   releaseCycle: "6.3"
     eol: 2022-10-12
     latest: "6.3.2"
