@@ -13,7 +13,7 @@ auto:
 -   git: https://github.com/qt/qt5.git
 releases:
 -   releaseCycle: "6.4"
-    eol: 2022-03-30
+    eol: 2023-03-30
     latest: "6.4.0"
     lts: false
     latestReleaseDate: 2022-09-29
