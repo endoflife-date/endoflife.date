@@ -10,18 +10,19 @@ sortReleasesBy: releaseCycle
 iconSlug: redmine
 auto:
 -   git: https://github.com/redmine/redmine.git
-changelogTemplate: https://www.redmine.org/projects/redmine/wiki/Changelog_{{"__RELEASE_CYCLE__" | replace:'.','_'}}
+changelogTemplate: https://www.redmine.org/projects/redmine/wiki/Changelog_{{"__RELEASE_CYCLE__"
+  | replace:'.','_'}}
 releases:
 -   releaseCycle: "5.0"
     eol: false
-    latest: "5.0.2"
+    latest: "5.0.3"
     releaseDate: 2022-03-28
-    latestReleaseDate: 2022-06-21
+    latestReleaseDate: 2022-10-02
 -   releaseCycle: "4.2"
     eol: false
-    latest: "4.2.7"
+    latest: "4.2.8"
     releaseDate: 2021-03-28
-    latestReleaseDate: 2022-06-21
+    latestReleaseDate: 2022-10-02
 -   releaseCycle: "4.1"
     eol: 2022-03-28
     latest: "4.1.7"
@@ -40,4 +41,3 @@ releases:
 ## Links
 
 - [Security Advisories](https://www.redmine.org/projects/redmine/wiki/Security_Advisories)
-
