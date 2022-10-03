@@ -10,16 +10,16 @@ releaseDateColumn: true
 sortReleasesBy: 'latest'
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU17"
+    releaseLabel: "2019 CU18"
     support: 2025-01-07
     eol: 2030-01-08
-    latest: "15.0.4249.2"
+    latest: "15.0.4261.1"
     releaseDate: 2019-11-04
 -   releaseCycle: "2017"
-    releaseLabel: "2017 CU30"
+    releaseLabel: "2017 CU31"
     support: 2022-10-11
     eol: 2027-10-12
-    latest: "14.0.3451.2"
+    latest: "14.0.3456.2"
     releaseDate: 2017-09-29
 -   releaseCycle: "2016"
     releaseLabel: "2016 SP3"
