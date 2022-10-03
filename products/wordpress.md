@@ -56,7 +56,6 @@ purls:
   - purl: pkg:docker/rapidfort/wordpress
 iconSlug: wordpress
 permalink: /wordpress
-activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
