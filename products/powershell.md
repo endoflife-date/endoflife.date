@@ -3,7 +3,7 @@ permalink: /powershell
 category: app
 title: PowerShell
 versionCommand: pwsh -v
-releasePolicyLink: https://docs.microsoft.com/lifecycle/products/powershell
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
 changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md
 releaseDateColumn: true
 sortReleasesBy: releaseDate
@@ -53,4 +53,4 @@ releases:
 
 > [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
-PowerShell follows the [Modern Lifecycle Policy](https://docs.microsoft.com/powershell/scripting/powershell-support-lifecycle).
+PowerShell follows the [Modern Lifecycle Policy](https://learn.microsoft.com/powershell/scripting/install/PowerShell-Support-Lifecycle).

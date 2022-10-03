@@ -5,7 +5,7 @@ sortReleasesBy: "releaseDate"
 releaseLabel: '__RELEASE_CYCLE__ __CODENAME__'
 iconSlug: visualstudio
 permalink: /visualstudio
-releasePolicyLink: https://docs.microsoft.com/visualstudio/productinfo/vs-servicing
+releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
@@ -113,7 +113,7 @@ releases:
 
 ---
 
-> [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform  
+> [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform
 
 The Long-Term Servicing Channel (LTSC) enables teams to remain supported on a minor version for up to 18 months after release. The LTSC are separate release Channels based on the even-numbered minor version updates. An LTSC release receives security and bug fixes but not additional new features.
 

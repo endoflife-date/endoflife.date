@@ -3,7 +3,7 @@ title: Microsoft Exchange
 permalink: /msexchange
 iconSlug: microsoftexchange
 category: server-app
-releasePolicyLink: https://docs.microsoft.com/lifecycle/products/?terms=Exchange%20Server
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 activeSupportColumn: true
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true
@@ -84,7 +84,7 @@ releases:
 
 > [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail server and calendaring server developed by Microsoft.
 
-[Exchange Server build numbers and release dates](https://docs.microsoft.com/exchange/new-features/build-numbers-and-release-dates)
+[Exchange Server build numbers and release dates](https://learn.microsoft.com/exchange/new-features/build-numbers-and-release-dates)
 
 CU: Cumulative Update
 SU: Security Update

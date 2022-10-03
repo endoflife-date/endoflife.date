@@ -3,7 +3,7 @@ permalink: /surface
 iconSlug: windows
 title: Microsoft Surface
 category: device
-releasePolicyLink: https://docs.microsoft.com/surface/surface-driver-firmware-lifecycle-support
+releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 activeSupportColumn: false
 latestColumn: true
 eolColumn: End of Servicing Date
@@ -121,6 +121,6 @@ releases:
 
 > Microsoft Surface is a series of touchscreen-based personal computers and interactive whiteboards designed and developed by Microsoft, running the Microsoft Windows operating system.
 
-Microsoft defines a supported Surface Device as one receiving driver and firmware updates, along with a supported Windows OS version. Surface devices will receive driver and firmware updates for Windows versions released in the prior 30 months. 
+Microsoft defines a supported Surface Device as one receiving driver and firmware updates, along with a supported Windows OS version. Surface devices will receive driver and firmware updates for Windows versions released in the prior 30 months.
 
-Microsoft publishes the [minimum supported Windows version](https://support.microsoft.com/en-gb/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1). Once the device support period is concluded, devices will continue to receive Windows OS feature and security updates.
+Microsoft publishes the [minimum supported Windows version](https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1). Once the device support period is concluded, devices will continue to receive Windows OS feature and security updates.

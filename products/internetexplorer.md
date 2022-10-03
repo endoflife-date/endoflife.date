@@ -1,7 +1,7 @@
 ---
 permalink: /internet-explorer
 title: Internet Explorer
-releasePolicyLink: https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
+releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 releaseDateColumn: true
 releaseColumn: false
 iconSlug: internetexplorer
@@ -10,7 +10,7 @@ eolColumn: Security and technical support
 sortReleasesBy: releaseDate
 releases:
 
--   releaseCycle: "7" 
+-   releaseCycle: "7"
     eol: 2023-10-10
     releaseDate: 2006-10-18
 
@@ -18,7 +18,7 @@ releases:
     eol: 2016-01-12
     releaseDate: 2009-06-17
 
-    
+
 -   releaseCycle: "9"
     eol: 2016-01-12
     releaseDate: 2011-03-15
@@ -31,7 +31,7 @@ releases:
     eol: 2022-06-14
     releaseDate: 2013-11-13
 
-    
+
 -   releaseCycle: "11-ltsb"
     releaseLabel: "11 LTSB/LTSC/Server/Embedded"
     eol: 2031-10-14
@@ -40,12 +40,12 @@ releases:
 
 ---
 
-> [Internet Explorer](https://www.microsoft.com/en-us/download/internet-explorer.aspx), is a proprietary and no longer recommended web browser developed by Microsoft. Internet Explorer has been included with a variety of devices throughout its lifespan such as Windows, Windows Phone, Mac OS, Xbox 360, Xbox One and others.
+> [Internet Explorer](https://www.microsoft.com/download/internet-explorer.aspx), is a proprietary and no longer recommended web browser developed by Microsoft. Internet Explorer has been included with a variety of devices throughout its lifespan such as Windows, Windows Phone, Mac OS, Xbox 360, Xbox One and others.
 
-Microsoft recommends users to transition to [Microsoft Edge](https://www.microsoft.com/en-us/edge), there is an [Internet Explorer mode](https://docs.microsoft.com/en-us/deployedge/edge-ie-mode) included and supported till 2029.
+Microsoft recommends users to transition to [Microsoft Edge](https://www.microsoft.com/edge), there is an [Internet Explorer mode](https://learn.microsoft.com/deployedge/edge-ie-mode) included and supported till 2029.
 
 ## Special notes
 
 - Internet Explorer is end of life on June 14, 2022 for Semi-Annual channel Windows installs (Home, Pro, Education, Enterprise, Workstations editions), regardless of their accompanying operating system's life cycle.
-- Internet Explorer 11 is supported on LTSB, LTSC and Server for their appropiate operating system's life cycle, including ESU. For exceptions to this see [Microsoft's documentation.](https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-)
-- End of life date for Internet Explorer 11 on non semi-annual channel Windows installs is based on the end of life date of [Windows Server 2022's extended end date](https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2022). But if the operating system that Internet Explorer 11 is installed on loses support prior to this then your installation is unsupported.
+- Internet Explorer 11 is supported on LTSB, LTSC and Server for their appropiate operating system's life cycle, including ESU. For exceptions to this see [Microsoft's documentation.](https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-)
+- End of life date for Internet Explorer 11 on non semi-annual channel Windows installs is based on the end of life date of [Windows Server 2022's extended end date](https://learn.microsoft.com/lifecycle/products/windows-server-2022). But if the operating system that Internet Explorer 11 is installed on loses support prior to this then your installation is unsupported.
