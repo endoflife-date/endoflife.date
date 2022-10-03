@@ -180,3 +180,33 @@ versionCommand: wp core version
 > [WordPress](https://wordpress.org/) is a free and open-source content management system written in PHP.
 
 Only the latest major release is supported. Security patches are backported when possible, but this is not guaranteed. [Version 3.7 to 4.0 won't get security updates after Dec 1, 2022](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/).
+
+## PHP Support
+
+Version | PHP
+--------|-----------
+3.7     | 5.2 - 5.5 
+3.8     | 5.2 - 5.5 
+3.9     | 5.2 - 5.5 
+4.0     | 5.2 - 5.5 
+4.1     | 5.2 - 5.6 
+4.2     | 5.2 - 5.6 
+4.3     | 5.2 - 5.6 
+4.4     | 5.2 - 7.0 
+4.5     | 5.2 - 7.0 
+4.6     | 5.2 - 7.0 
+4.7     | 5.2 - 7.1
+4.8     | 5.2 - 7.1
+4.9     | 5.2 - 7.2
+5.0     | 5.2 - 7.3
+5.1     | 5.2 - 7.3
+5.2     | 5.6 - 7.3
+5.3     | 5.6 - 7.4
+5.4     | 5.6 - 7.4
+5.5     | 5.6 - 7.4
+5.6     | 5.6 - 8.0
+5.7     | 5.6 - 8.0
+5.8     | 5.6 - 8.0
+5.9     | 5.6 - 8.1
+6.0     | 5.6 - 8.1
+
