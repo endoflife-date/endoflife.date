@@ -12,6 +12,11 @@ releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadm
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+-   releaseCycle: "19"
+    support: 2023-03-31
+    eol: 2023-03-31
+    latest: "19.0.0"
+    releaseDate: 2022-09-20
 -   releaseCycle: "18"
     support: 2022-09-30
     eol: 2022-09-30
