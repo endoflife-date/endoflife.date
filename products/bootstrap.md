@@ -8,19 +8,19 @@ changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:
 -   git: https://github.com/twbs/bootstrap.git
 purls:
-  - repology: bootstrap
-  - purl: pkg:npm/bootstrap
-  - purl: pkg:nuget/bootstrap
-  - purl: pkg:gem/bootstrap
-  - purl: pkg:composer/twbs/bootstrap
-  - purl: pkg:github/twbs/bootstrap
+-   repology: bootstrap
+-   purl: pkg:npm/bootstrap
+-   purl: pkg:nuget/bootstrap
+-   purl: pkg:gem/bootstrap
+-   purl: pkg:composer/twbs/bootstrap
+-   purl: pkg:github/twbs/bootstrap
 releases:
 -   releaseCycle: "5"
     eol: false
     support: true
     lts: true
-    latest: "5.2.1"
-    latestReleaseDate: 2022-09-07
+    latest: "5.2.2"
+    latestReleaseDate: 2022-10-03
     releaseDate: 2021-05-05
 -   releaseCycle: "4"
     eol: 2023-01-01

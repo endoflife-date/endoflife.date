@@ -2,7 +2,8 @@
 title: WordPress
 category: server-app
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
-changelogTemplate:  https://wordpress.org/support/wordpress-version/version-{{"__LATEST__" | replace:'.','-'}}/
+changelogTemplate: https://wordpress.org/support/wordpress-version/version-{{"__LATEST__"
+  | replace:'.','-'}}/
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 releases:
@@ -105,7 +106,7 @@ releases:
 -   releaseCycle: "4.4"
     eol: false
     support: 2016-04-12
-    releaseDate: 2015-12-08
+    releaseDate: 2015-12-09
     latestReleaseDate: 2022-08-30
     latest: "4.4.28"
 -   releaseCycle: "4.3"
@@ -162,12 +163,12 @@ releases:
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
 purls:
-  - repology: wordpress
-  - purl: pkg:docker/library/wordpress
-  - purl: pkg:docker/bitnami/wordpress
-  - purl: pkg:docker/bitnami/wordpress-nginx
-  - purl: pkg:docker/bitnami/wordpress-intel
-  - purl: pkg:docker/rapidfort/wordpress
+-   repology: wordpress
+-   purl: pkg:docker/library/wordpress
+-   purl: pkg:docker/bitnami/wordpress
+-   purl: pkg:docker/bitnami/wordpress-nginx
+-   purl: pkg:docker/bitnami/wordpress-intel
+-   purl: pkg:docker/rapidfort/wordpress
 iconSlug: wordpress
 permalink: /wordpress
 releaseColumn: true
