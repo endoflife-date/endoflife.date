@@ -4,7 +4,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/fw9pnpeabrho7yyk314d2u9rrtbtq3s.png
 changelogTemplate: |
   https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -19,6 +19,12 @@ auto:
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
 releases:
+-   releaseCycle: "6.0"
+    eol: false
+    latest: "6.0"
+    latestReleaseDate: 2022-10-02
+    releaseDate: 2022-10-02
+
 -   releaseCycle: "5.19"
     eol: false
     latest: "5.19.12"
@@ -32,7 +38,7 @@ releases:
     releaseDate: 2022-05-22
 
 -   releaseCycle: "5.17"
-    eol: true
+    eol: 2022-06-14
     latest: "5.17.15"
     latestReleaseDate: 2022-06-14
     releaseDate: 2022-03-20
