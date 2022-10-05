@@ -16,13 +16,13 @@ auto:
 releases:
 -   releaseCycle: "1.19"
     eol: false
-    latest: "1.19.1"
+    latest: "1.19.2"
     releaseDate: 2022-08-02
-    latestReleaseDate: 2022-09-06
+    latestReleaseDate: 2022-10-04
 -   releaseCycle: "1.18"
     eol: false
-    latest: "1.18.6"
-    latestReleaseDate: 2022-09-06
+    latest: "1.18.7"
+    latestReleaseDate: 2022-10-04
     releaseDate: 2022-03-15
 -   releaseCycle: "1.17"
     eol: 2022-08-02
