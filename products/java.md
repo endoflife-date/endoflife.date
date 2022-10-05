@@ -12,16 +12,21 @@ releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadm
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 releases:
+-   releaseCycle: "19"
+    support: 2023-03-01
+    eol: 2023-03-01
+    latest: "19"
+    releaseDate: 2022-09-20
 -   releaseCycle: "18"
     support: 2022-09-30
     eol: 2022-09-30
-    latest: "18.0.1.1"
+    latest: "18.0.2.1"
     releaseDate: 2022-03-22
 -   releaseCycle: "17"
     lts: true
     support: 2026-09-30
     eol: 2031-09-30
-    latest: "17.0.3"
+    latest: "17.0.4.1"
     releaseDate: 2021-09-14
 -   releaseCycle: "16"
     support: 2021-09-30
@@ -52,7 +57,7 @@ releases:
     lts: true
     support: 2023-09-30
     eol: 2026-09-30
-    latest: "11.0.15"
+    latest: "11.0.16.1"
     releaseDate: 2018-09-25
 -   releaseCycle: "10"
     support: 2018-09-25
@@ -68,12 +73,12 @@ releases:
     lts: true
     support: 2022-03-31
     eol: 2025-03-31
-    latest: "8u331"
+    latest: "8u341"
     releaseDate: 2014-03-18
 -   releaseCycle: "7"
     support: 2019-07-31
     eol: 2019-07-01
-    latest: "7u341"
+    latest: "7u351"
     releaseDate: 2011-07-07
 -   releaseCycle: "6"
     support: 2015-12-31
