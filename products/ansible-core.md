@@ -2,7 +2,7 @@
 permalink: /ansible-core
 layout: post
 title: Ansible-core
-command: ansible --version
+versionCommand: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
