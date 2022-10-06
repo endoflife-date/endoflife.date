@@ -2,43 +2,53 @@
 title: Apache Tomcat
 permalink: /tomcat
 iconSlug: apachetomcat
-layout: post
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
 category: server-app
 activeSupportColumn: false
-command: ./bin/version.sh
+auto:
+-   maven: org.apache.tomcat/tomcat
+versionCommand: ./bin/version.sh
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 releases:
-  - releaseCycle: "10"
-    release: 2020-12-08
+# 10.1 is still in Beta
+-   releaseCycle: "10.0"
     eol: false
-    latest: "10.0.18"
+    latest: "10.0.26"
     link: https://tomcat.apache.org/download-10.cgi
-  - releaseCycle: "9"
-    release: 2017-10-04
+    releaseDate: 2020-12-03
+    latestReleaseDate: 2022-09-23
+-   releaseCycle: "9"
     eol: false
-    latest: "9.0.60"
+    latest: "9.0.67"
     link: https://tomcat.apache.org/download-90.cgi
-  - releaseCycle: "8"
-    release: 2014-02-02
+    releaseDate: 2015-11-13
+    latestReleaseDate: 2022-09-23
+-   releaseCycle: "8"
     eol: false
-    latest: "8.5.77"
+    latest: "8.5.82"
     link: https://tomcat.apache.org/download-80.cgi
-  - releaseCycle: "7"
-    release: 2011-01-13
+    releaseDate: 2013-08-01
+    latestReleaseDate: 2022-08-08
+-   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
-  - releaseCycle: "6"
-    release: 2006-10-21
+    releaseDate: 2013-01-10
+    latestReleaseDate: 2021-04-22
+-   releaseCycle: "6"
     eol: 2016-12-31
     latest: "6.0.53"
-  - releaseCycle: "5"
-    release: 2003-09-06
+    releaseDate: 2006-10-21
+-   releaseCycle: "5"
     eol: 2012-09-30
     latest: "5.5.36"
+    releaseDate: 2003-09-06
+purls:
+-   repology: tomcat
+-   purl: pkg:maven/org.apache.tomcat/tomcat
+
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It implements various [Jakarta web specifications][specs], including [JSP][jsp], [Servlets][servlet], and [WebSockets][websockets].
@@ -57,7 +67,7 @@ Different versions of Apache Tomcat are available for different versions of the 
 
 | Tomcat Version | Minimum Java Version |
 |----------------|----------------------|
-| 10.1           | 11                   |
+| 10.1 (Beta)    | 11                   |
 | 10.0           | 8                    |
 | 9              | 8                    |
 | 8.5            | 7                    |

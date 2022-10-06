@@ -1,113 +1,104 @@
 ---
 title: openSUSE
-layout: post
 category: os
-
-# What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/release/cycleShortHand
-# which must be present in the releases underneath
-sortReleasesBy: "release"
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
-changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__CYCLE_SHORT_HAND__/
-releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-releases:
-  - releaseCycle: "15.3"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2021-06-02
-    support: 2022-12-1
-    eol: 2022-12-1
-    cycleShortHand: 15.3
-  - releaseCycle: "15.2"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2020-07-02
-    support: 2021-12-1
-    eol: 2021-12-1
-    cycleShortHand: 15.2
-  - releaseCycle: "15.1"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2019-05-22
-    support: 2021-02-02
-    eol: 2021-02-02
-  - releaseCycle: "15.0"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2018-05-25
-    support: 2019-12-03
-    eol: 2019-12-03
-  - releaseCycle: "42.3"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2017-07-26
-    support: 2019-07-01
-    eol: 2019-07-01
-  - releaseCycle: "42.2"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2016-11-16
-    support: 2018-01-26
-    eol: 2018-01-26
-  - releaseCycle: "42.1"
-    releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
-    release: 2015-11-4
-    support: 2017-05-17
-    eol: 2017-05-17
-  - releaseCycle: "13.2"
-    release: 2015-12-14
-    support: 2017-01-17
-    eol: 2017-01-17
-  - releaseCycle: "13.1"
-    release: 2014-01-08
-    support: 2016-02-03
-    eol: 2016-02-03
-  - releaseCycle: "12.3"
-    release: 2013-03-13
-    support: 2015-01-29
-    eol: 2015-01-29
-  - releaseCycle: "12.2"
-    release: 2012-09-05
-    support: 2014-01-15
-    eol: 2014-01-15
-  - releaseCycle: "12.1"
-    release: 2011-11-16
-    support: 2013-05-15
-    eol: 2013-05-15
-  - releaseCycle: "11.4"
-    release: 2011-03-10
-    support: 2012-11-05
-    eol: 2012-11-05
-  - releaseCycle: "11.3"
-    release: 2010-07-15
-    support: 2012-01-20
-    eol: 2012-01-20
-  - releaseCycle: "11.2"
-    release: 2009-11-12
-    support: 2011-05-12
-    eol: 2011-05-12
-  - releaseCycle: "11.1"
-    release: 2008-12-18
-    support: 2011-01-14
-    eol: 2011-01-14
-  - releaseCycle: "11.0"
-    release: 2008-06-19
-    support: 2010-07-26
-    eol: 2010-07-26
-
 iconSlug: opensuse
-
 permalink: /opensuse
 alternate_urls:
-  - /opensuseleap
-# More information link. This link should contain
-# information about the release policy and schedule
+-   /opensuseleap
 releasePolicyLink: https://en.opensuse.org/Lifetime
-# Whether to hide the "Active Support" column (optional, default true)
 activeSupportColumn: false
-# Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
 releaseColumn: false
-# Whether to show the release date column
-# optional, default false
 releaseDateColumn: true
-# What to call the End of Life  (Security Support) column. (optional)
 eolColumn: End of Life
-# Command that can be used to check the current version. (optional)
-command: cat /usr/lib/os-release
+versionCommand: cat /usr/lib/os-release
+sortReleasesBy: releaseDate
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
+changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
+releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
+
+releases:
+-   releaseCycle: "15.4"
+    support: 2023-12-1
+    eol: 2023-12-1
+    releaseDate: 2022-06-09
+-   releaseCycle: "15.3"
+    support: 2022-12-1
+    eol: 2022-12-1
+    releaseDate: 2021-06-02
+-   releaseCycle: "15.2"
+    support: 2021-12-1
+    eol: 2021-12-1
+    releaseDate: 2020-07-02
+-   releaseCycle: "15.1"
+    support: 2021-02-02
+    eol: 2021-02-02
+    releaseDate: 2019-05-22
+-   releaseCycle: "15.0"
+    support: 2019-12-03
+    eol: 2019-12-03
+    releaseDate: 2018-05-25
+-   releaseCycle: "42.3"
+    support: 2019-07-01
+    eol: 2019-07-01
+    releaseDate: 2017-07-26
+-   releaseCycle: "42.2"
+    support: 2018-01-26
+    eol: 2018-01-26
+    releaseDate: 2016-11-16
+-   releaseCycle: "42.1"
+    support: 2017-05-17
+    eol: 2017-05-17
+    releaseDate: 2015-11-4
+-   releaseCycle: "13.2"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2017-01-17
+    eol: 2017-01-17
+    releaseDate: 2014-11-04
+-   releaseCycle: "13.1"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2016-02-03
+    eol: 2016-02-03
+    releaseDate: 2014-01-08
+-   releaseCycle: "12.3"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2015-01-29
+    eol: 2015-01-29
+    releaseDate: 2013-03-13
+-   releaseCycle: "12.2"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2014-01-15
+    eol: 2014-01-15
+    releaseDate: 2012-09-05
+-   releaseCycle: "12.1"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2013-05-15
+    eol: 2013-05-15
+    releaseDate: 2011-11-16
+-   releaseCycle: "11.4"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2012-11-05
+    eol: 2012-11-05
+    releaseDate: 2011-03-10
+-   releaseCycle: "11.3"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2012-01-20
+    eol: 2012-01-20
+    releaseDate: 2010-07-15
+-   releaseCycle: "11.2"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2011-05-12
+    eol: 2011-05-12
+    releaseDate: 2009-11-12
+-   releaseCycle: "11.1"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2011-01-14
+    eol: 2011-01-14
+    releaseDate: 2008-12-18
+-   releaseCycle: "11.0"
+    releaseLabel: "__RELEASE_CYCLE__"
+    support: 2010-07-26
+    eol: 2010-07-26
+    releaseDate: 2008-06-19
 
 ---
 

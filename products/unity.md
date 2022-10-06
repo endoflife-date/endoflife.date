@@ -2,55 +2,55 @@
 permalink: /unity
 title: Unity
 alternate_urls:
-  - /unity3d
-layout: post
+-   /unity3d
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
 releaseColumn: true
 iconSlug: unity
 changelogTemplate: |
   https://unity3d.com/unity/whats-new/__LATEST__
-releaseImage: https://forum.unity.com/attachments/timeline-png.914387/
-sortReleasesBy: "release"
+releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
+sortReleasesBy: releaseDate
 releases:
-#  - releaseCycle: "2022.1"
+#  - releaseCycle: "2022.2"
 #    release: 2022-XX-XX
 #    eol: false
-#    latest: "2022.1.0"
+#    latest: "2022.2.0"
 
-  - releaseCycle: "2021.2"
-    release: 2021-10-26
+-   releaseCycle: "2022.1"
     eol: false
-    latest: "2021.2.16"
-
-  - releaseCycle: "2021.1"
-    release: 2021-03-19
-    eol: true
-    latest: "2021.1.28"
-
-  - releaseCycle: "2020"
-    release: 2021-03-11
+    latest: "2022.1.14"
+    releaseDate: 2022-05-09
+    
+-   releaseCycle: "2021"
+    eol: 2024-04-19
+    lts: true
+    latest: "2021.3.8"
+    releaseDate: 2021-03-19
+    
+-   releaseCycle: "2020"
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.31"
-
-  - releaseCycle: "2019"
-    release: 2020-06-09
+    latest: "2020.3.38"
+    releaseDate: 2021-03-11
+    
+-   releaseCycle: "2019"
     eol: 2022-06-01
     lts: true
-    latest: "2019.4.36"
-
-  - releaseCycle: "2018"
-    release: 2019-05-10
+    latest: "2019.4.40"
+    releaseDate: 2020-06-09
+    
+-   releaseCycle: "2018"
     eol: 2021-06-18
     lts: true
     latest: "2018.4.36"
-
-  - releaseCycle: "2017"
-    release: 2017-03-20
+    releaseDate: 2019-05-10
+    
+-   releaseCycle: "2017"
     eol: 2020-04-20
     lts: true
     latest: "2017.4.40"
+    releaseDate: 2017-03-20
 
 ---
 

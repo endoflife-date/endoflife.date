@@ -1,38 +1,47 @@
 ---
 title: Vue
-layout: post
 permalink: /vue
 alternate_urls:
-  - /vuejs
+-   /vuejs
 category: framework
 releasePolicyLink: https://vuejs.org/about/releases.html
 activeSupportColumn: true
-command: npm list vue
+versionCommand: npm list vue
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 iconSlug: vuedotjs
 auto:
-  git: https://github.com/vuejs/core.git
-  npm: https://www.npmjs.com/package/vue
+-   git: https://github.com/vuejs/core.git
+-   git: https://github.com/vuejs/vue.git
+purls:
+-   repology: vue.js
+-   repology: vue
+-   purl: pkg:npm/vue
+-   purl: pkg:github/vuejs/vue
+-   purl: pkg:github/vuejs/core
 releases:
-  - releaseCycle: "3"
-    release: 2020-09-18
+-   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.2.32"
+    latest: "3.2.40"
     lts: false
-  - releaseCycle: "2"
-    release: 2016-09-30
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2020-09-18
+-   releaseCycle: "2"
     support: 2022-03-18
-    eol: 2023-09-23 
-    latest: "2.6.14"
-    lts: false 
-  - releaseCycle: "1"
-    release: 2015-10-27
+    eol: 2023-12-31
+    latest: "2.7.10"
+    lts: false
+    latestReleaseDate: 2022-08-23
+    releaseDate: 2016-09-30
+-   releaseCycle: "1"
     support: false
     eol: true
     latest: "1.0.28"
     lts: false
+    latestReleaseDate: 2016-09-27
+    releaseDate: 2015-10-26
+
 ---
 
 > [Vue](https://vuejs.org/) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript, and provides a declarative and component-based programming model to efficiently develop user interfaces.

@@ -1,72 +1,108 @@
 ---
 permalink: /ubuntu
-layout: post
 title: Ubuntu
-command: lsb_release --release
+versionCommand: lsb_release --release
 category: os
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-changelogTemplate: https://wiki.ubuntu.com/__CYCLE_SHORT_HAND__/ReleaseNotes/ChangeSummary/__LATEST__/
+changelogTemplate: |
+  https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/
+# https://regex101.com/r/Fzt9US/1
+# We return v1 and v2 separated by newline in case 2 releases were marked
+# under the same headline
+auto:
+-   distrowatch: ubuntu
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(
+      LTS|, Kubuntu.*)?$'
+    template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
+purls:
+  - purl: pkg:os/ubuntu
 activeSupportColumn: true
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
 sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
-  - releaseCycle: "21.10"
+-   releaseCycle: "22.04"
+    codename: "Jammy Jellyfish"
+    support: 2027-04-02
+    eol: 2032-04-01
+    lts: true
+    latest: "22.04.1"
+    link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
+
+    releaseDate: 2022-04-21
+    latestReleaseDate: 2022-08-11
+-   releaseCycle: "21.10"
     codename: "Impish Indri"
-    release: 2021-10-14
     support: 2022-07-31
-    eol:     2022-07-31
+    eol: 2022-07-31
     latest: "21.10"
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
-  - releaseCycle: "21.04"
+
+    releaseDate: 2021-10-14
+    latestReleaseDate: 2021-10-14
+-   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
-    release: 2021-04-22
     support: 2022-01-20
-    eol:     2022-01-20
+    eol: 2022-01-20
     latest: "21.04"
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
-  - releaseCycle: "20.10"
+
+    releaseDate: 2021-04-22
+    latestReleaseDate: 2021-04-22
+-   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
-    release: 2020-10-22
     support: 2021-07-22
-    eol:     2021-07-22
+    eol: 2021-07-22
     latest: "20.10"
-  - releaseCycle: "20.04"
+
+    releaseDate: 2020-10-22
+    latestReleaseDate: 2020-10-22
+-   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
-    release: 2020-04-23
     support: 2025-04-02
-    eol:     2030-04-01
-    latest: "20.04.3"
-  - releaseCycle: "19.10"
+    eol: 2030-04-01
+    latest: "20.04.5"
+
+    releaseDate: 2020-04-23
+    latestReleaseDate: 2022-09-01
+-   releaseCycle: "19.10"
     codename: "Karmic Koala"
-    release: 2019-10-17
     support: 2020-07-06
-    eol:     2020-07-06
+    eol: 2020-07-06
     latest: "19.10"
-  - releaseCycle: "18.04"
+
+    releaseDate: 2019-10-17
+    latestReleaseDate: 2019-10-17
+-   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
-    release: 2018-04-26
     support: 2023-04-02
-    eol:     2028-04-01
+    eol: 2028-04-01
     latest: "18.04.6"
-    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes/
-  - releaseCycle: "16.04"
+    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
+
+    releaseDate: 2018-04-26
+    latestReleaseDate: 2021-09-17
+-   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
-    release: 2016-04-21
     support: 2021-04-02
-    eol:     2026-04-01
+    eol: 2026-04-01
     latest: "16.04.7"
-  - releaseCycle: "14.04"
+
+    releaseDate: 2016-04-21
+    latestReleaseDate: 2020-08-13
+-   releaseCycle: "14.04"
     codename: "Trusty Tahr"
     lts: true
-    release: 2014-04-17
     support: 2019-04-02
-    eol:     2024-04-01
+    eol: 2024-04-01
     latest: "14.04.6"
+    releaseDate: 2014-04-17
+    latestReleaseDate: 2019-03-07
+
 ---
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).

@@ -25,7 +25,7 @@ This project is participating in Hacktoberfest 2021. If you are looking to contr
 
 ## 🕐 What's this project?
 
-Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: #375, #374, #378, #383.
+Before you get started, get to know the project a little bit. Open [endoflife.date](https://endoflife.date) and browse around a little bit. Take a look at some of these recently merged PRs to get a better idea: [#1598](https://github.com/endoflife-date/endoflife.date/pull/1598), [#1603](https://github.com/endoflife-date/endoflife.date/pull/1603), [#1552](https://github.com/endoflife-date/endoflife.date/pull/1552), [#1596](https://github.com/endoflife-date/endoflife.date/pull/1596).
 
 ## :pencil: About the codebase
 
@@ -33,7 +33,7 @@ endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static 
 
 ## :new: Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as productname.md
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible.
 
 ```yaml
 ---
@@ -52,8 +52,8 @@ layout: post
 category: os
 
 # What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/release/cycleShortHand/latest/latestShortHand
-# which must be present in the releases underneath
+# releaseCycle/eol/support/releaseDate/cycleShortHand/latest/latestShortHand
+# which must be present in all of the releases underneath
 sortReleasesBy: "releaseCycle"
 
 # Template to be used to generate a link for the release
@@ -79,28 +79,51 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
 # Optional information about how release information can be fetched automatically
-# This is mainly used for the `latest` and `latestDate` fields of each release cycle
+# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for
+# every release.
 # Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
-# This is currently a WIP, and will not have any impact, but is highly recommended if this can be made available.
 auto:
+  - custom: true
   # Any valid git clone URL will work
   # Support for partialClone is necessary (GitHub does support this)
-  git: https://github.com/abc/def.git
+  - git: https://github.com/abc/def.git
+    # An optional regex that defines how the tags above should translate to releases
+    # Use named capturing groups
+    # Default value should work for most releases of the form a.b or a.b.c
+    # default also skips over any special releases (nightly,beta,pre,rc etc)
+    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
+    # This needs to be a Ruby-Compatible regex
+    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+    # A liquid template using the captured variables from the regex above that renders the final version
+    # You can use liquid templating here
+    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
+    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
-  # Valid OCI Image Registry URL
-  oci: https://index.docker.io/v2/_library/image
+  # owner/repo combination for a docker hub public image
+  # Use "library" as the owner name for a official docker/community image
+  - dockerhub: ministryofmagic/timeturner
 
   # Link to package on NPM
-  npm: https://www.npmjs.com/package/abc
-  # An optional regex that defines how the tags above should translate to releases
-  # Use named capturing groups
-  # Default value should work for most releases of the form a.b or a.b.c
-  # default also skips over any special releases (nightly,beta,pre,rc etc)
-  regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
-  # A liquid template using the captured variables from the regex above that renders the final version
-  # You can use liquid templating here
-  template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
+  - npm: https://www.npmjs.com/package/abc
 
+  # Use distrowatch page for a given release. (such as https://distrowatch.com/index.php?distribution=debian)
+  - distrowatch: quibbler #distribution ID from the URL
+    # A mandatory regex that is used to parse headlines.
+    # Parse into major/minor/patch named groups
+    # You can also pass a list of regexes here, and matches for any of those will be considered
+    # This needs to be a Python-Compatible regex
+    regex: 'Distribution Release: (?P<version>\d+.\d+)'
+    # A template to render default value is same as in `git` above
+    # https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py
+    template: '{{version}}'
+  # A maven group/artifact URL. For eg, for tomcat, the search URL is https://search.maven.org/artifact/org.apache.tomcat/tomcat
+  # which would become org.apache.tomcat/tomcat here.
+  - maven: org.apache.x/abc
+
+  # Use this if the product has a custom script updating releases
+  # in release-data repository. This will enable the footer note
+  # informing users that releases are automated
+  - custom: true
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
@@ -124,11 +147,14 @@ releases:
     # Date of release for the product
     # remove if releaseDateColumn is false
     # An approximate date is better than no date.
-    release: 2017-03-12
+    releaseDate: 2017-03-12
     # Current latest release
     # remove if releaseColumn is false
     # always put in quotes
     latest: "1.2.3"
+    # The date of the latest release
+    # This is currently optional.
+    latestReleaseDate: 2022-01-23
     # Whether this is a "LTS" release. What LTS means may differ from product to product (see LTSLabel above)
     # Optional, default false. Only provide for a release that will get a much longer support than usual.
     lts: true
@@ -147,9 +173,6 @@ releases:
     # Optional field, not displayed anywhere by default. Can be used as __CODENAME__ in the releaseLabel and changelogTemplate
     # Also returned as-as in the API.
     codename: firebolt
-    # Optional. You can overwrite the `auto` key if this release was published on a different repository
-    # Or doesn't have public sources for eg.
-    auto: false
 
 # Set an icon for the product from https://simpleicons.org/
 # If the icon is not available on simpleicons, set it to "NA"
@@ -174,6 +197,8 @@ alternate_urls:
 releasePolicyLink: https://jkrowling.com/timeturner-releases
 
 # Whether to hide the "Active Support" column (optional, default true)
+# Set it a label text if you'd like to change the label
+# activeSupportColumn: Customer Support
 activeSupportColumn: false
 
 # Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
@@ -191,7 +216,7 @@ eolColumn: Service Status
 discontinuedColumn: false
 
 # Command that can be used to check the current version. (optional)
-command: swish and flick
+versionCommand: swish and flick
 
 # An image that shows a graphical representation of the releases.
 # This is not the product logo. Remove if you don't find a relevant image.
@@ -207,7 +232,11 @@ releaseImage: https://jkrowling.com/timeturner-releases.png
 # If you are adding any images in the text, they might get blocked due to our CSP
 # Prefer using releaseImage in such cases.
 # Images on the same website as releaseImage will not be blocked.
+
+# Please leave a newline both above and below the triple-dashes
+
 ---
+
 > [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
 
 Time-turners are no longer released, and the last known stable release was in HP.5 release.

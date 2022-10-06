@@ -1,31 +1,34 @@
 ---
 title: jQuery
-layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
 auto:
-  git: https://github.com/jquery/jquery.git
+-   git: https://github.com/jquery/jquery.git
 releases:
-  - releaseCycle: "3"
+-   releaseCycle: "3"
     eol: false
-    release: 2016-06-09
-    latest: "3.6.0"
+    latest: "3.6.1"
     link: https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/
-  - releaseCycle: "2"
+    latestReleaseDate: 2022-08-26
+    releaseDate: 2016-06-09
+-   releaseCycle: "2"
     eol: true
-    release: 2013-04-18
     latest: "2.2.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
-  - releaseCycle: "1"
+    latestReleaseDate: 2016-05-20
+    releaseDate: 2013-04-18
+-   releaseCycle: "1"
     eol: true
-    release: 2006-08-31
     latest: "1.12.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
+    latestReleaseDate: 2016-05-20
+    releaseDate: 2006-08-31
 iconSlug: jquery
 permalink: /jquery
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
+
 ---
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.

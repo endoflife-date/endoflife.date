@@ -11,12 +11,20 @@ layout: default
 <table class="lifecycle">
   <thead>
     <tr>
-      <th>Version</th>
+      <th>Release</th>
       {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
       {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
-      {% if page.activeSupportColumn%}<th>Active Support</th>{% endif %}
+      {% if page.activeSupportColumn%}
+        <th>
+          {% if page.activeSupportColumn == true %}
+            Active Support
+          {%else%}
+            {{page.activeSupportColumn}}
+          {%endif%}
+        </th>
+      {% endif %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
-      {% if page.releaseColumn != false %}<th>Release</th>{% endif %}
+      {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
 {% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
@@ -35,6 +43,8 @@ or +1 (EoL is in the future)
 {% assign diff = -1 %}
 {% elsif r.eol == false %}
 {% assign diff = 1 %}
+{% elsif r.eol == nil %}
+{% assign diff = 1 %}
 {% else %}
 {% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
 {% endif %}
@@ -46,13 +56,13 @@ or +1 (EoL is in the future)
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
 {% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% if r.lts %} ({{LTSLabel}}){% endif %}{% endcapture %}
+{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
 
 {% capture releaseLink %}
 {% if r.link and diff > 0 %}
 {{r.link}}
 {% elsif page.changelogTemplate and diff > 0 %}
-{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename}}
+{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate}}
 {% endif %}
 {% endcapture %}
 {% assign releaseLink = releaseLink | liquify | strip %}
@@ -62,7 +72,7 @@ or +1 (EoL is in the future)
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
     {% if releaseLink != "" and page.releaseColumn == false %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText}}">{{releaseCycleText}}</a>
+      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText | strip_html}}">{{releaseCycleText}}</a>
     {% else %}
       {{releaseCycleText}}
     {% endif %}
@@ -70,7 +80,7 @@ or +1 (EoL is in the future)
 
   {% if page.releaseDateColumn %}
   <td>
-    {{r.release | timeago}} <div>({{r.release | date_to_string}})</div>
+    {{r.releaseDate | timeago}} <div>({{r.releaseDate | date_to_string}})</div>
   </td>
   {% endif %}
 
@@ -182,11 +192,14 @@ or +1 (EoL is in the future)
 
 {% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
 
-{% if page.command %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.command}}</pre></div>{% endif %}
+{% if page.versionCommand %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.versionCommand}}</pre></div>{% endif %}
 
 <hr>
 
-You can submit an improvement to this page by
+<p>You can submit an improvement to this page
 <a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{page.path}}"
-title="Click the Pencil, the link takes you directly to the correct page">visiting GitHub</a>.
-You will need to fork the website and submit a Pull Request. A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more.
+title="Click the Pencil, the link takes you directly to the correct page">on GitHub</a>. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
+
+<p>A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more.</p>
+
+{%if page.auto %}Latest releases on this page are automatically updated{% endif %}

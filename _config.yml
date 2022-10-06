@@ -51,4 +51,8 @@ defaults:
       path: ""
     values:
       image: /logo.png
+  - scope:
+      path: "products"
+    values:
+      layout: product
 encoding: utf-8

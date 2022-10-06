@@ -1,6 +1,5 @@
 ---
 title: Netgear ReadyNAS
-layout: post
 category: device
 sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://www.netgear.com/support/product/__RELEASE_CYCLE__.aspx"

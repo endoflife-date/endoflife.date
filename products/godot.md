@@ -3,8 +3,7 @@ title: Godot
 permalink: /godot
 category: app
 alternate_urls:
-  - /godotengine
-layout: post
+-   /godotengine
 iconSlug: godotengine
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
@@ -14,55 +13,73 @@ activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 auto:
-  oci: https://index.docker.io/v2/barichello/godot-ci
+-   git: https://github.com/godotengine/godot.git
+    regex: ^(?<version>\d+(\.\d+){1,3})-stable$
+    template: "{{version}}"
 releases:
-  - releaseCycle: "3.4"
-    release: 2021-11-05
+-   releaseCycle: "3.5"
     support: true
     eol: false
-    latest: "3.4.2"
-    link: https://godotengine.org/article/maintenance-release-godot-3-4-2
-  - releaseCycle: "3.3"
-    release: 2021-04-22
-    support: true
+    latest: "3.5.1"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2022-08-05
+-   releaseCycle: "3.4"
+    support: false
     eol: false
+    latest: "3.4.5"
+    latestReleaseDate: 2022-08-01
+    releaseDate: 2021-11-05
+-   releaseCycle: "3.3"
+    support: false
+    eol: true
     latest: "3.3.4"
-  - releaseCycle: "3.2"
-    release: 2020-01-01
+    latestReleaseDate: 2021-10-01
+    releaseDate: 2021-04-21
+-   releaseCycle: "3.2"
     support: false
     eol: true
     latest: "3.2.3"
-  - releaseCycle: "3.1"
-    release: 2019-03-01
+    latestReleaseDate: 2020-09-16
+    releaseDate: 2020-01-29
+-   releaseCycle: "3.1"
     support: false
-    eol: false
+    eol: true
     latest: "3.1.2"
-  - releaseCycle: "3.0"
-    release: 2018-01-01
+    latestReleaseDate: 2019-12-03
+    releaseDate: 2019-03-13
+-   releaseCycle: "3.0"
     support: false
     eol: true
     latest: "3.0.6"
-  - releaseCycle: "2.1"
-    release: 2016-07-01
-    eol: false
+    latestReleaseDate: 2018-07-31
+    releaseDate: 2018-01-29
+-   releaseCycle: "2.1"
+    eol: true
     support: false
     latest: "2.1.6"
     lts: true
-  - releaseCycle: "2.0"
-    release: 2016-02-01
+    latestReleaseDate: 2019-07-08
+    releaseDate: 2016-08-09
+-   releaseCycle: "2.0"
     eol: true
     support: false
     latest: "2.0.4.1"
     lts: false
     link: https://godotengine.org/article/maintenance-release-godot-2-0-4
-  - releaseCycle: "1.0"
-    release: 2014-12-01
+    latestReleaseDate: 2016-07-10
+    releaseDate: 2016-02-22
+-   releaseCycle: "1.0"
     eol: true
     support: false
-    latest: "1.1"
+    latest: "1.0"
+
+
+    latestReleaseDate: 2014-12-15
+    releaseDate: 2014-12-15
+
 ---
 
->[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/latest/tutorials/export/exporting_basics.html#exporting-by-platform).
+>[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface released under the MIT License. It provides a comprehensive set of common tools, so users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).
 
 Each stable branch starts with a `major.minor` release (without the 0 for patch) and is further developed for maintenance releases. _Stable branches are supported at minimum until the next stable branch is released and has received its first patch update_. In practice, stable branches are supported on a best effort basis for as long as they have active users who need maintenance updates.
 

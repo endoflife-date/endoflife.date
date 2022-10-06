@@ -1,39 +1,50 @@
 ---
 title: Bootstrap
 permalink: /bootstrap
-layout: post
 category: framework
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:
-  git: https://github.com/twbs/bootstrap.git
+-   git: https://github.com/twbs/bootstrap.git
+purls:
+-   repology: bootstrap
+-   purl: pkg:npm/bootstrap
+-   purl: pkg:nuget/bootstrap
+-   purl: pkg:gem/bootstrap
+-   purl: pkg:composer/twbs/bootstrap
+-   purl: pkg:github/twbs/bootstrap
 releases:
-  - releaseCycle: "5"
-    release: 2021-05-05
+-   releaseCycle: "5"
     eol: false
     support: true
     lts: true
-    latest: "5.1.3"
-  - releaseCycle: "4"
-    release: 2018-01-18
-    eol: 2022-11-01
-    latest: "4.6.1"
+    latest: "5.2.2"
+    latestReleaseDate: 2022-10-03
+    releaseDate: 2021-05-05
+-   releaseCycle: "4"
+    eol: 2023-01-01
+    latest: "4.6.2"
     lts: true
     support: false
-  - releaseCycle: "3"
-    release: 2013-08-19
+    latestReleaseDate: 2022-07-19
+    releaseDate: 2018-01-18
+-   releaseCycle: "3"
     eol: 2019-07-24
     latest: "3.4.1"
     support: false
-  - releaseCycle: "2"
-    release: 2013-07-18
+    latestReleaseDate: 2019-02-13
+    releaseDate: 2013-08-19
+-   releaseCycle: "2"
     eol: 2013-08-19
     latest: "2.3.2"
     support: false
+    latestReleaseDate: 2013-07-26
+    releaseDate: 2012-01-31
 releasePolicyLink: https://github.com/twbs/release
 releaseDateColumn: true
 eolColumn: Critical Support
+
 ---
 
 > [Bootstrap](https://getbootstrap.com/) is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.

@@ -1,6 +1,5 @@
 ---
 title: Nomad
-layout: post
 permalink: /nomad
 iconSlug: "NA"
 category: server-app
@@ -9,26 +8,37 @@ sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 activeSupportColumn: false
 releaseDateColumn: true
-command: nomad --version
+versionCommand: nomad --version
 auto:
-  git: https://github.com/hashicorp/nomad.git
+-   git: https://github.com/hashicorp/nomad.git
 releases:
-  - releaseCycle: "1.2"
+-   releaseCycle: "1.3"
     eol: false
-    release: 2021-11-15
-    latest: "1.2.6"
-  - releaseCycle: "1.1"
+    latest: "1.3.5"
+    latestReleaseDate: 2022-08-31
+    releaseDate: 2022-05-11
+-   releaseCycle: "1.2"
     eol: false
-    release: 2021-05-18
-    latest: "1.1.12"
-  - releaseCycle: "1.0"
+    latest: "1.2.12"
+    latestReleaseDate: 2022-08-31
+    releaseDate: 2021-11-15
+-   releaseCycle: "1.1"
     eol: false
-    release: 2020-12-08
-    latest: "1.0.18"
-  - releaseCycle: "0.12"
+    latest: "1.1.18"
+    latestReleaseDate: 2022-08-31
+    releaseDate: 2021-05-17
+-   releaseCycle: "1.0"
     eol: true
-    release: 2020-07-09
+    latest: "1.0.18"
+    latestReleaseDate: 2022-02-10
+    releaseDate: 2020-12-08
+-   releaseCycle: "0.12"
+    eol: true
     latest: "0.12.12"
+
+
+    releaseDate: 2020-07-09
+
 ---
 
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds at scale.

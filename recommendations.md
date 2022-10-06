@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 nav_exclude: true
 permalink: /recommendations
 title: Recommendations for maintainers
@@ -27,7 +27,7 @@ Every item is linked to the relevant section in the document below.
 - [ ] [Provide the latest version](#listing-releases) in every support cycle.
 - [ ] [Provide absolute dates](#always-use-absolute-dates), instead of relative ones.
 - [ ] [Provide complete dates](#provide-complete-dates), include the day of the month.
-- [ ] If you have a release schedule image, [label it clearly](provide-a-release-schedule-image) and mark a current date line.
+- [ ] If you have a release schedule image, [label it clearly](#provide-a-release-schedule-image) and mark a current date line.
 
 ## Publishing
 
@@ -64,7 +64,8 @@ Make sure this information is hosted _alongside your end-user documentation_, no
 
 ### Bad - Python
 
-Python maintains the EoL status on the website for Python developers: <https://devguide.python.org/#status-of-python-branches>
+Python maintains the EoL status on the website for Python developers:
+<https://devguide.python.org/versions/>
 
 ### Bad - Ansible
 
@@ -232,7 +233,7 @@ nice to have. If you do provide such an image, here's some recommendations:
 - Bad: <https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png> (Cryptic)
 - Bad: <https://ubuntu.com/about/release-cycle> (Does not provide an accessible table for desktop users)
 
-Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions/new?title=Feedback%20on%20Recommendations%20for%20Maintainers&category=general).
+Feedback on this document is welcome [on GitHub](https://github.com/endoflife-date/endoflife.date/discussions).
 
-[aks]: https://docs.microsoft.com/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
+[aks]: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 [eks]: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar

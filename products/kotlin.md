@@ -1,52 +1,55 @@
 ---
 title: Kotlin
-layout: post
 category: lang
 iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
-  - /kotlinlang
-command: kotlinc-native -version
+-   /kotlinlang
+versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
-sortReleasesBy: "cycleShortHand"
+sortReleasesBy: "releaseDate"
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 auto:
-  git: https://github.com/JetBrains/kotlin.git
-  # See https://rubular.com/r/KT3q1yE8NDOoPB for regex reference
-  regex: '^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$'
+-   git: https://github.com/JetBrains/kotlin.git
+    # See https://rubular.com/r/KT3q1yE8NDOoPB for regex reference
+    regex: '^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$'
 activeSupportColumn: false
 discontinuedColumn: false
 releaseDateColumn: true
 releaseColumn: true
 
 releases:
-  - releaseCycle: "1.6"
-    cycleShortHand: 106
+-   releaseCycle: "1.7"
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2021-11-16
-    latest: "1.6.20"
-
-  - releaseCycle: "1.5"
-    cycleShortHand: 105
+    latest: "1.7.20"
+    link: https://kotlinlang.org/docs/whatsnew1720.html
+    latestReleaseDate: 2022-09-26
+    releaseDate: 2022-06-07
+-   releaseCycle: "1.6"
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2021-05-05
+    latest: "1.6.21"
+    latestReleaseDate: 2022-04-18
+    releaseDate: 2021-11-11
+-   releaseCycle: "1.5"
+    eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
+    support: false
     latest: "1.5.32"
-
-  - releaseCycle: "1.4"
-    cycleShortHand: 104
+    latestReleaseDate: 2021-11-26
+    releaseDate: 2021-04-26
+-   releaseCycle: "1.4"
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2020-08-17
     latest: "1.4.32"
-
-  - releaseCycle: "1.3"
-    cycleShortHand: 103
+    latestReleaseDate: 2021-03-25
+    releaseDate: 2020-08-13
+-   releaseCycle: "1.3"
     eol: false #not sure about eol dates of kotlin if you find any information about this please change this part
     support: false
-    release: 2018-10-29
     latest: "1.3.72"
+    latestReleaseDate: 2020-04-14
+    releaseDate: 2018-10-25
 
 ---
 

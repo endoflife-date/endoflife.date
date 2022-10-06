@@ -3,28 +3,34 @@ permalink: /amazon-linux
 title: Amazon Linux
 iconSlug: amazonaws
 category: os
-layout: post
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 activeSupportColumn: false
-command: cat /etc/system-release
+versionCommand: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
-sortReleasesBy: 'release'
+sortReleasesBy: releaseDate
+purls:
+-   purl: pkg:os/amazonlinux
 auto:
-  oci: https://index.docker.io/v2/_library/amazonlinux
-changelogTemplate: 'https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__" | slice:4,8 }}.html'
+-   dockerhub: library/amazonlinux
+    # TODO: Fix this regex to exclude RC releases
+    regex: ^(?<version>\d+(\.\d+){2,4})$
+    template: "{{version}}"
+changelogTemplate: |
+  https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__"|slice:4,8 }}.html
 releases:
-  - releaseCycle: '1'
+-   releaseCycle: '1'
     releaseLabel: 'Amazon Linux AMI'
-    release: "2010-09-14"
     eol: 2020-12-31
     latest: "2018.03"
-    auto: false
-  - releaseCycle: '2'
+    releaseDate: "2010-09-14"
+-   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
-    release: 2017-12-19
-    eol: 2023-06-30
-    latest: "2.0.20220316.0"
+    eol: 2024-06-30
+    latest: "2.0.20220912.1"
+    latestReleaseDate: 2022-09-22
+    releaseDate: 2018-06-26
+
 ---
 
 > [Amazon Linux][al2] is a Linux server operating system from Amazon Web Services (AWS) available as an Amazon Machine Image (AMI) for use on Amazon Elastic Compute Cloud ([Amazon EC2](https://aws.amazon.com/ec2/)). It is also available as a [Docker container image](https://hub.docker.com/_/amazonlinux/) and as a [virtual machine image](https://cdn.amazonlinux.com/os-images/latest/) for use on Kernel-based Virtual Machine (KVM), Oracle VM VirtualBox, Microsoft Hyper-V, and VMware ESXi.

@@ -1,38 +1,50 @@
 ---
 permalink: /ansible
-layout: post
 title: Ansible
-command: python3 -c 'from ansible_collections.ansible_release import ansible_version; print(ansible_version)'
-releasePolicyLink: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
+versionCommand: ansible --version
+releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
+purls:
+-   purl: pkg:pypi/ansible
+-   repology: ansible
 auto:
-  git: https://github.com/ansible-community/ansible-build-data.git
+-   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
-  - releaseCycle: "5"
-    release: 2021-11-30
+-   releaseCycle: "6"
     eol: false
-    latest: "5.6.0"
-  - releaseCycle: "4"
-    release: 2021-05-11
+    latest: "6.4.0"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2022-06-22
+-   releaseCycle: "5"
+    eol: false
+    latest: "5.9.0"
+    latestReleaseDate: 2022-06-08
+    releaseDate: 2021-12-02
+-   releaseCycle: "4"
     eol: true
     latest: "4.10.0"
-  - releaseCycle: "3"
-    release: 2021-02-09
+    latestReleaseDate: 2021-12-21
+    releaseDate: 2021-05-18
+-   releaseCycle: "3"
     eol: true
     latest: "3.4.0"
-  - releaseCycle: "2.10"
-    release: 2020-09-15
+    latestReleaseDate: 2021-05-13
+    releaseDate: 2021-02-18
+-   releaseCycle: "2.10"
     eol: true
     latest: "2.10.7"
   - releaseCycle: "2.9"
     release: 2019-10-31
     eol: false
     latest: "2.9.27"
+
+    latestReleaseDate: 2021-02-09
+    releaseDate: 2020-09-22
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
 title: NVIDIA Driver
-layout: post
 permalink: /nvidia
 category: app
 iconSlug: nvidia
@@ -10,112 +9,128 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 sortReleasesBy: 'cycleShortHand'
-command: nvidia-smi
+versionCommand: nvidia-smi
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
-  - releaseCycle: "R390-Linux"
+-   releaseCycle: "R390-Linux"
     lts: true
-    release: 2018-01-04
     support: 2018-03-10
     eol: 2022-12-31
     latest: "390.147"
     link: https://www.nvidia.com/Download/driverResults.aspx/184603
-    cycleShortHand: 1
+    cycleShortHand: '1'
 
-  - releaseCycle: "R390-Windows"
+    releaseDate: 2018-01-04
+-   releaseCycle: "R390-Windows"
     lts: true
-    release: 2018-01-08
     support: 2018-07-31
     eol: 2022-12-31
     latest: "392.68"
     link: https://www.nvidia.com/download/driverResults.aspx/181267
-    cycleShortHand: 2
+    cycleShortHand: '2'
 
-  - releaseCycle: "R418-Linux"
+    releaseDate: 2018-01-08
+-   releaseCycle: "R418-Linux"
     lts: true
-    release: 2019-01-30
     support: 2019-03-20
     eol: 2022-03-01
     latest: "418.197.02"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
-    cycleShortHand: 3
-    
-  - releaseCycle: "R418-Windows"
+    cycleShortHand: '3'
+
+    releaseDate: 2019-01-30
+-   releaseCycle: "R418-Windows"
     lts: true
-    release: 2019-02-04
     support: 2019-04-23
     eol: 2022-03-01
     latest: "427.45"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
-    cycleShortHand: 4
+    cycleShortHand: '4'
 
-  - releaseCycle: "R450-Linux"
+    releaseDate: 2019-02-04
+-   releaseCycle: "R450-Linux"
     lts: true
-    release: 2020-06-24
     support: 2020-10-7
     eol: 2023-07-01
     latest: "450.142.00"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
-    cycleShortHand: 5
-    
-  - releaseCycle: "R450-Windows"
+    cycleShortHand: '5'
+
+    releaseDate: 2020-06-24
+-   releaseCycle: "R450-Windows"
     lts: true
-    release: 2020-06-24
     support: 2020-12-15
     eol: 2023-07-01
     latest: "453.10"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/
-    cycleShortHand: 6
+    cycleShortHand: '6'
 
-  - releaseCycle: "R460-Linux (PB)"
-    release: 2021-1-7
+    releaseDate: 2020-06-24
+-   releaseCycle: "R460-Linux (PB)"
     support: 2021-7-19
     eol: 2022-01-01
     latest: "460.91.03"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
-    cycleShortHand: 7
-    
-  - releaseCycle: "R460-Windows (PB)"
-    release: 2020-12-15
+    cycleShortHand: '7'
+
+    releaseDate: 2021-1-7
+-   releaseCycle: "R460-Windows (PB)"
     support: 2021-06-23
     eol: 2022-01-01
     latest: "462.96"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
-    cycleShortHand: 8
+    cycleShortHand: '8'
 
-  - releaseCycle: "R470-Linux"
+    releaseDate: 2020-12-15
+-   releaseCycle: "R470-Linux"
     lts: true
-    release: 2021-7-19
     support: 2021-10-26
     eol: 2024-09-01
     latest: "470.94"
     link: https://www.nvidia.com/Download/driverResults.aspx/184163
-    cycleShortHand: 9
-    
-  - releaseCycle: "R470-Windows"
+    cycleShortHand: '9'
+
+    releaseDate: 2021-7-19
+-   releaseCycle: "R470-Windows"
     lts: true
-    release: 2021-06-22
     support: 2021-09-20
     eol: 2024-09-01
     latest: "472.39"
     link: https://nvidia.custhelp.com/app/answers/detail/a_id/5251
-    cycleShortHand: 10
-    
-  - releaseCycle: "R495-Windows (NFB)"
-    release: 2021-10-12
-    support: true
-    eol: false
-    latest: "497.29" 
-    link: https://www.nvidia.com/Download/driverResults.aspx/184717
-    cycleShortHand: 11
+    cycleShortHand: '10'
 
-  - releaseCycle: "R495-Linux (NFB)"
-    release: 2021-10-26
-    support: true
-    eol: false
+    releaseDate: 2021-06-22
+-   releaseCycle: "R495-Windows (NFB)"
+    support: false
+    eol: 2022-01-14
+    latest: "497.29"
+    link: https://www.nvidia.com/Download/driverResults.aspx/184717
+    cycleShortHand: '11'
+
+    releaseDate: 2021-10-12
+-   releaseCycle: "R495-Linux (NFB)"
+    support: false
+    eol: 2022-01-11
     latest: "495.46"
     link: https://www.nvidia.com/Download/driverResults.aspx/184248
-    cycleShortHand: 11
+    cycleShortHand: '11'
+
+    releaseDate: 2021-10-26
+-   releaseCycle: "R510-Windows (PB)"
+    support: true
+    eol: 2023-01-01
+    latest: "512.15"
+    link: https://www.nvidia.com/download/driverResults.aspx/187304/en-us
+    cycleShortHand: '12'
+
+    releaseDate: 2022-01-14
+-   releaseCycle: "R510-Linux (PB)"
+    support: true
+    eol: 2023-01-01
+    latest: "510.60.02"
+    link: https://www.nvidia.com/download/driverResults.aspx/187162/en-us
+    cycleShortHand: '13'
+    releaseDate: 2022-01-11
 
 ---
 
@@ -136,7 +151,7 @@ GPUs supported by any given branch is dependent on the operating system.
 - GKxxx ("Kepler") Desktop GPUs are supported on Windows and Linux via the `R470` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) till September 2024.
 - GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases) till the end of 2022.
 - A list of [GPUs no longer supported on Windows](https://nvidia.custhelp.com/app/answers/detail/a_id/3473) is available.
-- Usually on Linux driver support per branch is indicated by architecture, but on Windows only specific models are supported. For example the R390 branch mainly exists simply to provide security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are supported](http://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html), on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf)
+- Usually on Linux driver support per branch is indicated by architecture, but on Windows only specific models are supported. For example the R390 branch mainly exists simply to provide security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are supported](https://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html), on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf)
 
 ## Cadence
 

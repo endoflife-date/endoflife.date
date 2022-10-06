@@ -1,91 +1,96 @@
 ---
 title: Linux Kernel
-layout: post
 permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/ebiqfbdzyuxdbre7104smcbs2skj37k.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/fw9pnpeabrho7yyk314d2u9rrtbtq3s.png
 changelogTemplate: |
-  https://cdn.kernel.org/pub/linux/kernel/v{{"__LATEST__"| split: "." | first}}.x/ChangeLog-{{"__LATEST__"}}
+  https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: 'cycleShortHand'
-command: uname -r
+sortReleasesBy: 'releaseDate'
+versionCommand: uname -r
 auto:
-  # Upstream is https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-  # But does not support filtering
-  git: https://github.com/torvalds/linux.git
-  regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
-releases:
-  - releaseCycle: "5.17"
-    cycleShortHand: 517
-    release: "5.17"
-    eol: false
-    latest: "5.17"
-    
-  - releaseCycle: "5.16"
-    cycleShortHand: 516
-    release: 2022-01-09
-    eol: false
-    # we need to refine eol of 5.16 when its eol dates announced
-    latest: "5.16.17"
+# Note that we're tracking the linux kernel stable tree, not torvalds' tree
+# which doesn't contain all tags
+-   git: https://github.com/gregkh/linux.git
+    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
-  - releaseCycle: "5.15"
-    cycleShortHand: 515
-    release: 2021-10-31
+releases:
+-   releaseCycle: "6.0"
+    eol: false
+    latest: "6.0"
+    latestReleaseDate: 2022-10-02
+    releaseDate: 2022-10-02
+
+-   releaseCycle: "5.19"
+    eol: false
+    latest: "5.19.12"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2022-07-31
+
+-   releaseCycle: "5.18"
+    eol: true
+    latest: "5.18.19"
+    latestReleaseDate: 2022-08-21
+    releaseDate: 2022-05-22
+
+-   releaseCycle: "5.17"
+    eol: 2022-06-14
+    latest: "5.17.15"
+    latestReleaseDate: 2022-06-14
+    releaseDate: 2022-03-20
+
+-   releaseCycle: "5.16"
+    eol: 2022-04-13
+    latest: "5.16.20"
+    latestReleaseDate: 2022-04-13
+    releaseDate: 2022-01-09
+
+-   releaseCycle: "5.15"
     eol: 2023-10-31
     lts: true
-    latest: "5.15.31"
+    latest: "5.15.71"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2021-10-31
 
-  - releaseCycle: "5.14"
-    cycleShortHand: 514
-    release: 2021-08-29
-    eol: true
-    latest: "5.14.21"
-        
-  - releaseCycle: "5.10"
-    cycleShortHand: 510
-    release: 2020-12-13
+-   releaseCycle: "5.10"
     eol: 2026-12-01
     lts: true
-    latest: "5.10.108"
-    
-  - releaseCycle: "5.4"
-    cycleShortHand: 504
-    release: 2019-11-24
+    latest: "5.10.146"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2020-12-13
+
+-   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.187"
-    
-  - releaseCycle: "4.19"
-    cycleShortHand: 419
-    release: 2018-10-22
+    latest: "5.4.215"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2019-11-24
+
+-   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.236"
-    
-  - releaseCycle: "4.14"
-    cycleShortHand: 414
-    release: 2017-11-12
+    latest: "4.19.260"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2018-10-22
+
+-   releaseCycle: "4.14"
     eol: 2024-01-01
     lts: true
-    latest: "4.14.273"
-    
-  - releaseCycle: "4.9"
-    cycleShortHand: 409
-    release: 2016-12-11
+    latest: "4.14.295"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2017-11-12
+
+-   releaseCycle: "4.9"
     eol: 2023-01-01
     lts: true
-    latest: "4.9.308"
-    
-  - releaseCycle: "4.4"
-    cycleShortHand: 404
-    release: 2016-01-10
-    eol: 2022-02-01
-    lts: true
-    latest: "4.4.302"
+    latest: "4.9.330"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2016-12-11
+
 ---
 
 > The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel.
@@ -99,5 +104,4 @@ There are several main categories into which kernel releases may fall:
 
 - **Stable** is labeled after each mainline kernel is released. Any bug fixes for a stable kernel are backported from the mainline tree. There are usually only a few bugfix kernel releases until next mainline kernel becomes available -- unless it is designated a "longterm maintenance kernel". Stable kernel updates are released on as-needed basis, usually once a week.
         
-- **Longterm (LTS)** are usually several longterm maintenance kernel releases provided for the purposes of backporting bugfixes for older kernel trees. By default these are only supported for two years (as opposed to the 4 months of a non-LTS release) [but are usually extended depending on how long companies pledge to back it.](https://lore.kernel.org/lkml/YA%2FE1bHRmZb50MlS@kroah.com/) Only important bugfixes are applied to such kernels and they don't usually see very frequent releases, especially for older trees. 
-
+- **Longterm (LTS)** are usually several longterm maintenance kernel releases provided for the purposes of backporting bugfixes for older kernel trees. By default these are only supported for two years (as opposed to the 4 months of a non-LTS release) [but are usually extended depending on how long companies pledge to back it.](https://lore.kernel.org/lkml/YA%2FE1bHRmZb50MlS@kroah.com/) Only important bugfixes are applied to such kernels and they don't usually see very frequent releases, especially for older trees.

@@ -2,7 +2,6 @@
 title: Looker
 permalink: /looker
 category: server-app
-layout: post
 iconSlug: looker
 releasePolicyLink: https://docs.looker.com/relnotes/release-overview
 changelogTemplate: |
@@ -12,65 +11,71 @@ eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: "cycleShortHand"
-releaseImage: https://docs.looker.com/assets/images/2021-std-supp-releases.png
+sortReleasesBy: "releaseDate"
+releaseImage: https://docs.looker.com/assets/images/2022-std-supp-releases.png
 releases:
-  - releaseCycle: "21.20"
-    cycleShortHand: 2120
-    release: 2021-11-16
-    eol: false
-  - releaseCycle: "21.18"
-    cycleShortHand: 2118
-    release: 2021-10-19
+-   releaseCycle: "22.8"
+    releaseDate: 2022-05-06
+    # Update once 22.14 is released
+    eol: 2022-08-15
+-   releaseCycle: "22.6"
+    releaseDate: 2022-04-18
+    lts: 2022-06-01
+    eol: 2022-08-31
+-   releaseCycle: "22.4"
+    releaseDate: 2022-03-14
+    # Update once 22.10 is released
+    eol: 2022-06-15
+-   releaseCycle: "22.2"
+    releaseDate: 2022-02-15
+    eol: 2022-05-16
+-   releaseCycle: "22.0"
+    releaseDate: 2022-01-18
+    eol: 2022-05-31
+    lts: 2022-03-01
+-   releaseCycle: "21.20"
+    eol: 2022-03-15
+    releaseDate: 2021-11-16
+-   releaseCycle: "21.18"
     eol: 2022-02-28
-    lts: true
-  - releaseCycle: "21.16"
-    cycleShortHand: 2116
-    release: 2021-09-14
+    lts: 2021-12-01
+    releaseDate: 2021-10-19
+-   releaseCycle: "21.16"
     eol: 2021-12-15
-  - releaseCycle: "21.14"
-    cycleShortHand: 2114
-    release: 2021-08-16
+    releaseDate: 2021-09-14
+-   releaseCycle: "21.14"
     eol: 2021-11-16
-  - releaseCycle: "21.12"
-    cycleShortHand: 2112
-    release: 2021-07-15
+    releaseDate: 2021-08-16
+-   releaseCycle: "21.12"
     eol: 2021-11-30
-    lts: true
-  - releaseCycle: "21.10"
-    cycleShortHand: 2110
-    release: 2021-06-10
+    lts: 2021-09-01
+    releaseDate: 2021-07-15
+-   releaseCycle: "21.10"
     eol: 2021-09-14
-  - releaseCycle: "21.8"
-    cycleShortHand: 2108
-    release: 2021-05-13
+    releaseDate: 2021-06-10
+-   releaseCycle: "21.8"
     eol: 2021-10-16
-  - releaseCycle: "21.6"
-    cycleShortHand: 2106
-    release: 2021-04-15
+    releaseDate: 2021-05-13
+-   releaseCycle: "21.6"
     eol: 2021-08-31
-    lts: true
-  - releaseCycle: "21.4"
-    cycleShortHand: 2104
-    release: 2021-03-11
+    lts: 2021-06-01
+    releaseDate: 2021-04-15
+-   releaseCycle: "21.4"
     eol: 2021-06-10
-  - releaseCycle: "21.0"
-    cycleShortHand: 2100
-    release: 2021-01-20
+    releaseDate: 2021-03-11
+-   releaseCycle: "21.0"
     eol: 2021-05-31
-    lts: true
-  - releaseCycle: "7.20"
-    cycleShortHand: 720
-    release: 2020-11-15
+    lts: 2021-03-01
+    releaseDate: 2021-01-20
+-   releaseCycle: "7.20"
     eol: true
-  - releaseCycle: "7.18"
-    cycleShortHand: 718
-    release: 2020-10-15
+    releaseDate: 2020-11-15
+-   releaseCycle: "7.18"
     eol: true
-  - releaseCycle: "7.16"
-    cycleShortHand: 716
-    release: 2020-09-17
+    releaseDate: 2020-10-15
+-   releaseCycle: "7.16"
     eol: true
+    releaseDate: 2020-09-17
 
 ---
 
@@ -88,7 +93,7 @@ When a new release is ready for installation, any Looker user listed as a Techni
 
 ESR releases are quarterly instead of monthly, and get 3 months of support. Issues deemed S1 and S2 will be patched back to the currently supported ESR releases. Participants in the ESR program are required to pair production instances with staging instances. A ESR release is kept in "ESR-staging" for a month, where it is considered "pre-stable".
 
-![ESR release schedule image](https://docs.looker.com/assets/images/2021-std-esr-supp-releases.png)
+![ESR release schedule image](https://docs.looker.com/assets/images/2022-std-esr-supp-releases.png)
 
 ## [Notifications][emails]
 

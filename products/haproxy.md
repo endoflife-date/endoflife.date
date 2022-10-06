@@ -1,64 +1,73 @@
 ---
 title: HAProxy
-layout: post
 permalink: /haproxy
 category: server-app
 releasePolicyLink: https://haproxy.org
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
-command: haproxy -v
+versionCommand: haproxy -v
 iconSlug: NA
 releaseDateColumn: true
-sortReleasesBy: 'cycleShortHand'
+# Source: https://www.haproxy.org/download/
+# Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
+# Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
-  # Upstream http://git.haproxy.org/git/haproxy.git/ does not support filtering
-  git: https://github.com/haproxy/haproxy.git
+-   custom: true
+sortReleasesBy: 'releaseDate'
 releases:
-  - releaseCycle: "2.5"
-    cycleShortHand: 205
-    release: 2021-11-23
+-   releaseCycle: "2.6"
+    lts: true
+    eol: 2027-04-01
+    latest: "2.6.6"
+    latestReleaseDate: 2022-09-22
+    releaseDate: 2022-05-31
+-   releaseCycle: "2.5"
     eol: 2023-01-01
-    latest: 2.5.0
-  - releaseCycle: "2.4"
-    cycleShortHand: 204
-    release: 2021-05-14
+    latest: "2.5.9"
+    latestReleaseDate: 2022-09-23
+    releaseDate: 2021-11-23
+-   releaseCycle: "2.4"
+    lts: true
     eol: 2026-04-01
-    latest: 2.4.9
-  - releaseCycle: "2.3"
-    cycleShortHand: 203
-    release: 2020-11-05
+    latest: "2.4.19"
+    latestReleaseDate: 2022-09-28
+    releaseDate: 2021-05-14
+-   releaseCycle: "2.3"
     eol: 2022-01-01
-    latest: 2.3.16
-  - releaseCycle: "2.2"
-    cycleShortHand: 202
-    release: 2020-07-07
+    latest: "2.3.21"
+    latestReleaseDate: 2022-07-27
+    releaseDate: 2020-11-05
+-   releaseCycle: "2.2"
+    lts: true
     eol: 2025-04-01
-    latest: 2.2.19
-  - releaseCycle: "2.1"
-    cycleShortHand: 201
-    release: 2019-11-25
+    latest: "2.2.25"
+    latestReleaseDate: 2022-07-28
+    releaseDate: 2020-07-07
+-   releaseCycle: "2.1"
     eol: 2021-03-18
-    latest: 2.1.12
-  - releaseCycle: "2.0"
-    cycleShortHand: 200
-    release: 2019-06-16
+    latest: "2.1.12"
+    latestReleaseDate: 2021-03-18
+    releaseDate: 2019-11-25
+-   releaseCycle: "2.0"
     eol: 2024-04-01
-    latest: 2.0.26
-  - releaseCycle: "1.9"
-    cycleShortHand: 109
-    release: 2018-12-19
+    latest: "2.0.29"
+    latestReleaseDate: 2022-05-13
+    releaseDate: 2019-06-16
+-   releaseCycle: "1.9"
     eol: 2020-07-31
-    latest: 1.9.16
-  - releaseCycle: "1.8"
-    cycleShortHand: 108
-    release: 2017-11-26
+    latest: "1.9.16"
+    latestReleaseDate: 2020-07-31
+    releaseDate: 2018-12-19
+-   releaseCycle: "1.8"
     eol: 2022-10-01
-    latest: 1.8.30
-  - releaseCycle: "1.7"
-    cycleShortHand: 107
-    release: 2016-11-25
+    latest: "1.8.30"
+    latestReleaseDate: 2021-04-12
+    releaseDate: 2017-11-26
+-   releaseCycle: "1.7"
     eol: 2021-10-01
-    latest: 1.7.14
+    latest: "1.7.14"
+    latestReleaseDate: 2021-03-31
+    releaseDate: 2016-11-25
 
 ---
 

@@ -1,86 +1,135 @@
 ---
 permalink: /gitlab
-layout: post
 category: server-app
 title: GitLab
-command: gitlab-rake gitlab:env:info
+versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: releaseDate
 activeSupportColumn: true
 eolColumn: Maintenance Support
 iconSlug: gitlab
 auto:
   # Reference: https://rubular.com/r/mFfxB8FgXXERX4
-  regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
-  git: https://gitlab.com/gitlab-org/gitlab.git
+-   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
+    git: https://gitlab.com/gitlab-org/gitlab.git
 releases:
-  - releaseCycle: "14.9"
-    release: 2022-03-22
+-   releaseCycle: "15.4"
+    support: 2022-10-22
+    eol: 2022-12-22
+    latest: "15.4.2"
+    latestReleaseDate: 2022-10-04
+    releaseDate: 2022-09-21
+-   releaseCycle: "15.3"
+    support: 2022-09-22
+    eol: 2022-11-22
+    latest: "15.3.4"
+    latestReleaseDate: 2022-09-29
+    releaseDate: 2022-08-19
+-   releaseCycle: "15.2"
+    support: 2022-08-22
+    eol: 2022-10-22
+    latest: "15.2.5"
+    latestReleaseDate: 2022-09-29
+    releaseDate: 2022-07-21
+-   releaseCycle: "15.1"
+    support: 2022-07-22
+    eol: 2022-09-22
+    latest: "15.1.6"
+    latestReleaseDate: 2022-08-30
+    releaseDate: 2022-06-21
+-   releaseCycle: "15.0"
+    support: 2022-06-22
+    eol: 2022-08-22
+    latest: "15.0.5"
+    latestReleaseDate: 2022-07-28
+    releaseDate: 2022-05-20
+-   releaseCycle: "14.10"
+    support: 2022-05-22
+    eol: 2022-07-22
+    latest: "14.10.5"
+    latestReleaseDate: 2022-06-30
+    releaseDate: 2022-04-21
+-   releaseCycle: "14.9"
     support: 2022-04-22
     eol: 2022-06-22
-    latest: "14.9.2"
-  - releaseCycle: "14.8"
-    release: 2022-02-22
+    latest: "14.9.5"
+    latestReleaseDate: 2022-06-01
+    releaseDate: 2022-03-21
+-   releaseCycle: "14.8"
     support: 2022-03-22
     eol: 2022-05-22
-    latest: "14.8.5"
-  - releaseCycle: "14.7"
-    release: 2022-01-22
+    latest: "14.8.6"
+    latestReleaseDate: 2022-04-29
+    releaseDate: 2022-02-21
+-   releaseCycle: "14.7"
     support: 2022-02-22
     eol: 2022-04-22
     latest: "14.7.7"
-  - releaseCycle: "14.6"
-    release: 2021-12-22
+    latestReleaseDate: 2022-03-31
+    releaseDate: 2022-01-21
+-   releaseCycle: "14.6"
     support: 2022-01-22
     eol: 2022-03-22
     latest: "14.6.7"
-  - releaseCycle: "14.5"
-    release: 2021-11-22
+    latestReleaseDate: 2022-03-31
+    releaseDate: 2021-12-21
+-   releaseCycle: "14.5"
     support: 2021-12-22
     eol: 2022-02-22
     latest: "14.5.4"
-  - releaseCycle: "14.4"
-    release: 2021-10-22
+    latestReleaseDate: 2022-02-03
+    releaseDate: 2021-11-19
+-   releaseCycle: "14.4"
     support: 2021-11-22
     eol: 2022-01-22
     latest: "14.4.5"
-  - releaseCycle: "14.3"
-    release: 2021-09-22
+    latestReleaseDate: 2022-01-11
+    releaseDate: 2021-10-21
+-   releaseCycle: "14.3"
     support: 2021-10-22
     eol: 2021-12-22
     latest: "14.3.6"
-  - releaseCycle: "14.2"
-    release: 2021-08-22
+    latestReleaseDate: 2021-12-03
+    releaseDate: 2021-09-21
+-   releaseCycle: "14.2"
     support: 2021-09-22
     eol: 2021-11-22
     latest: "14.2.7"
-  - releaseCycle: "14.1"
-    release: 2021-07-22
+    latestReleaseDate: 2021-11-26
+    releaseDate: 2021-08-20
+-   releaseCycle: "14.1"
     support: 2021-08-22
     eol: 2021-10-22
     latest: "14.1.8"
-  - releaseCycle: "14.0"
-    release: 2021-06-22
+    latestReleaseDate: 2021-11-15
+    releaseDate: 2021-07-21
+-   releaseCycle: "14.0"
     support: 2021-07-22
     eol: 2021-09-22
     latest: "14.0.12"
-  - releaseCycle: "13.12"
-    release: 2021-05-22
+    latestReleaseDate: 2021-11-05
+    releaseDate: 2021-06-21
+-   releaseCycle: "13.12"
     support: 2021-06-22
     eol: 2021-08-22
     latest: "13.12.15"
-  - releaseCycle: "13.11"
-    release: 2021-04-22
+    latestReleaseDate: 2021-11-03
+    releaseDate: 2021-05-21
+-   releaseCycle: "13.11"
     support: 2021-05-22
     eol: 2021-07-22
     latest: "13.11.7"
-  - releaseCycle: "13.10"
-    release: 2021-03-22
+    latestReleaseDate: 2021-07-07
+    releaseDate: 2021-04-21
+-   releaseCycle: "13.10"
     support: 2021-04-22
     eol: 2021-06-22
     latest: "13.10.5"
+
+    latestReleaseDate: 2021-06-01
+    releaseDate: 2021-03-18
 
 ---
 
