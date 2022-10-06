@@ -20,19 +20,21 @@ releases:
 #    latest: "3.1.0"
 
 -   releaseCycle: "3.0"
+    support: true
     eol: false
     latest: "3.0.0"
     latestReleaseDate: 2022-09-15
-    releaseDate: 2021-09-15
+    releaseDate: 2022-09-15
 
 -   releaseCycle: "2.7"
+    support: true
     eol: false
     latest: "2.7.0"
     latestReleaseDate: 2022-09-15
-    releaseDate: 2021-09-15
+    releaseDate: 2022-09-15
 
 -   releaseCycle: "2.6"
-    support: true
+    support: 2022-09-15
     eol: false
     latest: "2.6.8"
     latestReleaseDate: 2022-01-11
