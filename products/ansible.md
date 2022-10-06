@@ -20,29 +20,35 @@ releases:
     latest: "6.4.0"
     latestReleaseDate: 2022-09-28
     releaseDate: 2022-06-22
+
 -   releaseCycle: "5"
     eol: false
     latest: "5.9.0"
     latestReleaseDate: 2022-06-08
     releaseDate: 2021-12-02
+
 -   releaseCycle: "4"
     eol: true
     latest: "4.10.0"
     latestReleaseDate: 2021-12-21
     releaseDate: 2021-05-18
+
 -   releaseCycle: "3"
     eol: true
     latest: "3.4.0"
     latestReleaseDate: 2021-05-13
     releaseDate: 2021-02-18
+
 -   releaseCycle: "2.10"
     eol: true
     latest: "2.10.7"
-  - releaseCycle: "2.9"
+    latestReleaseDate: 2021-02-09
+    releaseDate: 2020-09-22
+
+-   releaseCycle: "2.9"
     release: 2019-10-31
     eol: false
     latest: "2.9.27"
-
     latestReleaseDate: 2021-02-09
     releaseDate: 2020-09-22
 
