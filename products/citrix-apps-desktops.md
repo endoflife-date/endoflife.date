@@ -15,6 +15,10 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 releases:
+-   releaseCycle: "2209 (CR)"
+    support: 2023-03-29
+    eol: 2024-03-29
+    releaseDate: 2022-09-29
 -   releaseCycle: "2206 (CR)"
     support: 2022-12-28
     eol: 2023-12-28
