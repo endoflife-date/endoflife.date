@@ -6,7 +6,7 @@ versionCommand: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
+sortReleasesBy: "releaseDate"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
@@ -14,22 +14,28 @@ auto:
   git: https://github.com/ansible/ansible.git
 releases:
   - releaseCycle: "2.12"
-    release: 2021-11-05
+    releaseDate: 2021-11-05
     eol: false
-    latest: "2.12.4"
+    latest: "2.12.9"
+    latestReleaseDate: 2022-09-12
+
   - releaseCycle: "2.11"
-    release: 2021-04-26
+    releaseDate: 2021-04-26
     eol: false
-    latest: "2.11.10"
+    latest: "2.11.12"
+    latestReleaseDate: 2022-05-23
+    
   - releaseCycle: "2.10"
-    release: 2020-08-13
+    releaseDate: 2020-08-13
     eol: false
     latest: "2.10.17"
+    latestReleaseDate: 2022-01-31
+
   - releaseCycle: "2.9"
-    release: 2019-10-31
+    releaseDate: 2019-10-31
     eol: false
     latest: "2.9.27"
-
+    latestReleaseDate: 2021-10-11
 ---
 
 > [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
