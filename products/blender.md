@@ -18,9 +18,9 @@ releases:
 -   releaseCycle: "3.3"
     eol: 2024-09-01
     support: 2024-09-01
-    latest: "3.3.0"
+    latest: "3.3.1"
     lts: true
-    latestReleaseDate: 2022-09-07
+    latestReleaseDate: 2022-10-05
     releaseDate: 2022-09-07
 -   releaseCycle: "3.2"
     eol: 2022-09-07
@@ -46,9 +46,9 @@ releases:
 -   releaseCycle: "2.93"
     eol: 2023-06-01
     support: 2023-06-01
-    latest: "2.93.10"
+    latest: "2.93.11"
     lts: true
-    latestReleaseDate: 2022-08-03
+    latestReleaseDate: 2022-10-05
     releaseDate: 2021-06-02
 -   releaseCycle: "2.83"
     eol: 2022-06-01

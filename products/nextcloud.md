@@ -17,13 +17,13 @@ releases:
 -   releaseCycle: "24"
     releaseDate: 2022-05-02
     eol: 2023-05-01
-    latest: "24.0.5"
-    latestReleaseDate: 2022-09-08
+    latest: "24.0.6"
+    latestReleaseDate: 2022-10-06
 -   releaseCycle: "23"
     releaseDate: 2021-11-26
     eol: 2022-12-01
-    latest: "23.0.9"
-    latestReleaseDate: 2022-09-08
+    latest: "23.0.10"
+    latestReleaseDate: 2022-10-06
 -   releaseCycle: "22"
     releaseDate: 2021-07-05
     eol: 2022-07-01
@@ -89,4 +89,3 @@ If an issue is found that was not caught during pre-release testing, the roll-ou
 [enterprise]: https://nextcloud.com/enterprise "Nextcloud Enterprise"
 [beta]: https://download.nextcloud.com/server/prereleases/ "Beta releases"
 [channels]: https://nextcloud.com/release-channels/
-
