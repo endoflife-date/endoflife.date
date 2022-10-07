@@ -13,6 +13,18 @@ releaseColumn: false
 releaseDateColumn: true
 sortReleasesBy: 'cycleShortHand'
 releases:
+-   releaseCycle: "Pixel 7 Pro"
+    cycleShortHand: '710'
+    discontinued: false
+    eol: 2027-10-13
+    support: 2027-10-13
+    releaseDate: 2022-10-13
+-   releaseCycle: "Pixel 7"
+    cycleShortHand: '700'
+    discontinued: false
+    eol: 2027-10-13
+    support: 2027-10-13
+    releaseDate: 2022-10-13
 -   releaseCycle: "Pixel 6a"
     cycleShortHand: '620'
     discontinued: false
@@ -92,4 +104,4 @@ releases:
 
 The Pixel phones come out around the first or second week of October every year (the A series being unpredictable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
 
-For more info on each model, visit: [Pixel 6a](https://en.wikipedia.org/wiki/Pixel_6a), [Pixel 6 Pro](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 6](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 5a](https://en.wikipedia.org/wiki/Pixel_5a), [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
+For more info on each model, visit: [Pixel 7](https://en.wikipedia.org/wiki/Pixel_7), [Pixel 6a](https://en.wikipedia.org/wiki/Pixel_6a), [Pixel 6 Pro](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 6](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 5a](https://en.wikipedia.org/wiki/Pixel_5a), [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
