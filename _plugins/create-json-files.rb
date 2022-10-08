@@ -10,6 +10,7 @@
 require 'fileutils'
 require 'json'
 require 'yaml'
+import 'date'
 
 API_DIR = 'api'.freeze
 
@@ -17,7 +18,7 @@ class Product
   attr_reader :hash
 
   def initialize(markdown_file)
-    @hash = YAML.load_file(markdown_file)
+    @hash = YAML.load_file(markdown_file, permitted_classes: [Date])
   end
 
   def permalink

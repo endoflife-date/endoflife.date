@@ -51,16 +51,9 @@ layout: post
 # server-app are applications usually installed on the server-side
 category: os
 
-# What should be used to sort releases. Set to one of:
-# releaseCycle/eol/support/releaseDate/cycleShortHand/latest/latestShortHand
-# which must be present in all of the releases underneath
-sortReleasesBy: "releaseCycle"
-
 # Template to be used to generate a link for the release
 # __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
-# __CYCLE_SHORT_HAND__ will be replaced by the optional changelogTemplate
 # __LATEST__ will be replaced by the value of latest
-# __LATEST_SHORT_HAND__ will be replaced by the optional latestShortHand
 # __CODENAME__ will be replaced by the optional codename
 
 # You can even use Liquid Templating inside the template, such as:
@@ -140,6 +133,7 @@ releases:
     releaseLabel: "Timeturner Firebolt (1.2)"
     # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
     # In case there is extended/commercial support available, pick the date that would apply to the majority of users.
+    # Use valid dates, and do not add quotes around dates.
     eol: 2019-01-01
     # End of Active Support for the product. This is where bugfixes usually stop coming in. (remove if activeSupportColumn=false)
     # Alternatively, set to true|false if it is not pre-decided
@@ -160,12 +154,6 @@ releases:
     lts: true
     # Can be true/false. Only use if discontinuedColumn is set to true
     discontinued: true
-    # Optional, can be used to sort releases, and as part of the changelogTemplate (__LATEST_SHORT_HAND__).
-    latestShortHand: "10203"
-    # Optional, can be used to sort releases, and as part of the changelogTemplate (__CYCLE_SHORT_HAND__).
-    # Useful for sorting because 1.2 comes after 1.10 in normal sorting, so using cycleShortHand values of 102, 110
-    # makes sorting much easier
-    cycleShortHand: "102"
     # A link to the changelog for this specific release. Use this if the link is not
     # predictable and you can't use changelogTemplate.
     # Do not use a localized URL (such as one containing en-us) if possible

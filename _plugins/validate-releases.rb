@@ -1,6 +1,7 @@
 require 'fileutils'
 require 'json'
 require 'yaml'
+require 'date'
 
 # These are fields we expect to be strings, but YAML
 # picks up version numbers (like 3.10) as numbers and would
@@ -11,7 +12,7 @@ STRING_KEYS = ['latest', 'releaseCycle']
 def process_files
   success = true
   Dir['products/*.md'].each do |markdown_file|
-    hash = YAML.load_file(markdown_file)
+    hash = YAML.load_file(markdown_file, permitted_classes: [Date])
     hash['releases'].each do |r|
       STRING_KEYS.each do |k|
         if r.key? k
