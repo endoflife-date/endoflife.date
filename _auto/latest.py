@@ -97,6 +97,7 @@ def update_product(name):
               content=content)
 
             f.seek(0)
+            f.truncate()
             f.write(final_contents)
 
 if __name__ == '__main__':
