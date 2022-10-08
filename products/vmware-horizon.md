@@ -68,6 +68,7 @@ releases:
     releaseDate: 2016-03-22
     eol: 2021-03-22
     support: 2023-03-22
+
 ---
 
 > [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.

@@ -10,7 +10,7 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 purls:
-  - purl: pkg:os/debian
+-   purl: pkg:os/debian
 releases:
 -   releaseCycle: "11"
     codename: "Bullseye"

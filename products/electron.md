@@ -121,4 +121,3 @@ When a release branch reaches the end of its support cycle, the series will be d
 - [List of releases](https://github.com/electron/releases)
 
 [platforms]: https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms
-

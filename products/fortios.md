@@ -3,7 +3,7 @@ title: FortiOS
 category: os
 sortReleasesBy: "releaseCycle"
 alternate_urls:
-- /fortinet
+-   /fortinet
 iconSlug: fortinet
 permalink: /fortios
 releaseColumn: false
@@ -14,23 +14,23 @@ discontinuedColumn: false
 versionCommand: get system status
 changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 releases:
-  - releaseCycle: "7.2"
+-   releaseCycle: "7.2"
     eol: 2026-09-30
     support: 2025-03-31
     releaseDate: 2022-03-31
-  - releaseCycle: "7.0"
+-   releaseCycle: "7.0"
     eol: 2025-09-30
     support: 2024-03-30
     releaseDate: 2021-03-30
-  - releaseCycle: "6.4"
+-   releaseCycle: "6.4"
     eol: 2024-09-30
     support: 2023-03-31
     releaseDate: 2020-03-31
-  - releaseCycle: "6.2"
+-   releaseCycle: "6.2"
     eol: 2023-09-28
     support: 2022-03-28
     releaseDate: 2019-03-28
-  - releaseCycle: "6.0"
+-   releaseCycle: "6.0"
     eol: 2022-09-29
     support: 2021-03-29
     releaseDate: 2018-03-29

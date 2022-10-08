@@ -10,8 +10,8 @@ iconSlug: NA
 permalink: /cfengine
 releasePolicyLink: https://cfengine.com
 purls:
-  - repology: cfengine
-  - purl: pkg:homebrew/cfengine
+-   repology: cfengine
+-   purl: pkg:homebrew/cfengine
 releases:
 -   releaseCycle: "3.20"
     latest: "3.20.0"

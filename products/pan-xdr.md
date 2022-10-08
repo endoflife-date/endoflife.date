@@ -3,7 +3,8 @@ title: Palo Alto Networks Cortex XDR agent
 category: app
 permalink: /cortexxdr
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__" | split:' ' | first | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
+changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__"
+  | split:' ' | first | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 iconSlug: NA
 activeSupportColumn: false
 releaseColumn: false
@@ -71,6 +72,7 @@ releases:
 -   releaseCycle: "7.8"
     eol: 2023-04-24
     releaseDate: 2022-07-24
+
 ---
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr.html) protects endpoints by preventing known and unknown malware from running on those endpoints and by halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed on a variety of operating systems including Windows, macOS, Android, and Linux.

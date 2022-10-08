@@ -16,25 +16,25 @@ releases:
     discontinued: 2015-06-05
     eol: 2019-12-31
     releaseDate: 2012-04-29
-    
+
 -   releaseCycle: ivy_bridge_xeon
     releaseLabel: Ivy Bridge (Xeon E5v2/E7v2)
     discontinued: 2015-06-05
     eol: 2020-06-30
     releaseDate: 2012-04-29
-    
+
 -   releaseCycle: haswell
     releaseLabel: "Haswell"
     discontinued: true
     eol: 2021-06-30
     releaseDate: 2013-06-04
-    
+
 -   releaseCycle: haswell_xeon
     releaseLabel: Haswell (Xeon E5v3/E7v3)
     discontinued: true
     eol: 2021-12-31
     releaseDate: 2013-06-04
-    
+
 -   releaseCycle: "Crystal Well"
     discontinued: true
     eol: 2021-06-30
@@ -141,7 +141,7 @@ releases:
     discontinued: true
     eol: false
     releaseDate: 2020-06-19
-    
+
 -   releaseCycle: "Tiger Lake"
     discontinued: false
     eol: false
@@ -180,4 +180,3 @@ One can run the following command depending on your operating system to see whic
 * FreeBSD/OpenBSD: 'sysctl -n hw.model' 
 
 Then check product classification on https://ark.intel.com/
-

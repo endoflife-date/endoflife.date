@@ -50,7 +50,8 @@ releases:
     latest: "5.5 Update 3b"
     link: "https://docs.vmware.com/en/VMware-vSphere/5.5/rn/vsphere-esxi-55u3b-release-notes.html"
     releaseDate: 2013-09-19
-    latestReleaseDate: 
+    latestReleaseDate:
+
 
 ---
 

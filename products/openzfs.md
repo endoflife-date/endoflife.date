@@ -59,4 +59,3 @@ These distributions have repositories provided directly by the OpenZFS community
 [Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
 
 [zol]: https://zfsonlinux.org/ "ZFS On Linux"
-

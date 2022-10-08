@@ -6,10 +6,10 @@ changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 auto:
 -   git: https://github.com/composer/composer.git
 purls:
-  - purl: pkg:composer/composer/composer
-  - repology: php:composer
-  - purl: pkg:docker/library/composer
-  - purl: pkg:github/composer/composer
+-   purl: pkg:composer/composer/composer
+-   repology: php:composer
+-   purl: pkg:docker/library/composer
+-   purl: pkg:github/composer/composer
 releases:
 -   releaseCycle: "2.4"
     eol: false

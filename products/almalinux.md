@@ -10,7 +10,7 @@ sortReleasesBy: releaseDate
 iconSlug: NA
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 purls:
-  - purl: pkg:os/almalinux
+-   purl: pkg:os/almalinux
 auto:
 -   distrowatch: alma
     regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
