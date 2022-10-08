@@ -110,3 +110,5 @@ Most likely, new iPhone models will come out in September every year (with a few
 On new iOS releases, the [previous iOS version is supported for a few months](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/) as a stop-gap to allow users time to update.
 
 Apple maintains a list of Supported iPhone models at <https://support.apple.com/guide/iphone/iphe3fa5df43>.
+
+Support information for iOS versions are available at [/ios](/ios).
