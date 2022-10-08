@@ -12,6 +12,8 @@ activeSupportColumn: false
 versionCommand: airflow version
 releaseColumn: true
 releaseDateColumn: true
+auto:
+-   pypi: apache-airflow
 purls:
 -   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
