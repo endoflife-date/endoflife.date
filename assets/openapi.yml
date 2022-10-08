@@ -32,7 +32,6 @@ paths:
                 /api/ubuntu.json:
                   value:
                     - cycle: '21.04'
-                      cycleShortHand: HirsuteHippo
                       lts: false
                       releaseDate: '2021-04-22'
                       support: '2022-01-01'
@@ -40,7 +39,6 @@ paths:
                       latest: '21.04'
                       link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
                     - cycle: '20.10'
-                      cycleShortHand: GroovyGorilla
                       lts: false
                       releaseDate: '2020-10-22'
                       support: '2021-07-07'
@@ -88,7 +86,6 @@ paths:
                     link: 'https://www.python.org/downloads/release/python-395/'
                 /api/ubuntu/21.04.json:
                   value:
-                    cycleShortHand: HirsuteHippo
                     lts: false
                     releaseDate: '2021-04-22'
                     support: '2022-01-01'
@@ -231,7 +228,6 @@ components:
             link: 'https://github.com/python/cpython/blob/2.7/Misc/NEWS.d/2.7.18rc1.rst'
         ubuntu:
           - cycle: '21.04'
-            cycleShortHand: HirsuteHippo
             lts: false
             releaseDate: '2021-04-22'
             support: '2022-01-01'
@@ -239,7 +235,6 @@ components:
             latest: '21.04'
             link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
           - cycle: '20.10'
-            cycleShortHand: GroovyGorilla
             lts: false
             releaseDate: '2020-10-22'
             support: '2021-07-07'
@@ -247,7 +242,6 @@ components:
             latest: '20.10'
             link: 'https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/'
           - cycle: '20.04'
-            cycleShortHand: FocalFossa
             lts: true
             releaseDate: '2020-04-23'
             support: '2022-10-01'
@@ -259,21 +253,18 @@ components:
             eol: '2020-07-06'
             latest: '19.10'
           - cycle: '18.04'
-            cycleShortHand: BionicBeaver
             lts: true
             releaseDate: '2018-04-26'
             support: '2020-09-30'
             eol: '2023-04-02'
             latest: 18.04.5
           - cycle: '16.04'
-            cycleShortHand: XenialXerus
             lts: true
             releaseDate: '2016-04-21'
             support: '2018-10-01'
             eol: '2021-04-02'
             latest: 16.04.7
           - cycle: '14.04'
-            cycleShortHand: TrustyTahr
             lts: true
             releaseDate: '2014-04-17'
             support: '2016-09-30'
@@ -323,9 +314,6 @@ components:
           minLength: 10
           maxLength: 10
           description: Wheter this release cycle has active support
-        cycleShortHand:
-          type: string
-          description: Optional shorthand name for this release cycle
         discontinued:
           type:
             - string

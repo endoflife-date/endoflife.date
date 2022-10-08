@@ -27,8 +27,8 @@ layout: default
       {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
-{% assign sorted_releases = page.releases | sort: page.sortReleasesBy | reverse  %}
-{% for r in sorted_releases %}
+
+{% for r in page.releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
 {% assign securityFixes = r.eol | date: '%s' | plus:0 %}
 
@@ -56,13 +56,25 @@ or +1 (EoL is in the future)
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
 {% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{t | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | liquify }}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
+{% capture releaseCycleText %}{{
+  t |
+  replace: '__RELEASE_CYCLE__',r.releaseCycle  |
+  replace: '__LATEST__',latestVersionNumber |
+  replace: '__CODENAME__',r.codename |
+  liquify
+}}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
 
 {% capture releaseLink %}
 {% if r.link and diff > 0 %}
 {{r.link}}
 {% elsif page.changelogTemplate and diff > 0 %}
-{{page.changelogTemplate | replace: '__RELEASE_CYCLE__',r.releaseCycle  | replace: '__LATEST__',latestVersionNumber | replace: '__LATEST_SHORT_HAND__',r.latestShortHand | replace: '__CYCLE_SHORT_HAND__',r.cycleShortHand | replace: '__CODENAME__',r.codename | replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate}}
+{{
+  page.changelogTemplate |
+  replace: '__RELEASE_CYCLE__',r.releaseCycle |
+  replace: '__LATEST__',latestVersionNumber |
+  replace: '__CODENAME__',r.codename |
+  replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate
+}}
 {% endif %}
 {% endcapture %}
 {% assign releaseLink = releaseLink | liquify | strip %}

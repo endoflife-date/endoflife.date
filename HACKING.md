@@ -112,3 +112,7 @@ There are no javascript trackers or analytics on the website. Netlify Analytics 
 ## Automation
 
 The endoflife.date project runs a bit of automation on top of GitHub Actions to automate mundane tasks. This is primarily updating the latest version of each product, wherever possible. This is documented in the [wiki](https://github.com/endoflife-date/endoflife.date/wiki/Automation).
+
+## Bulk Updates
+
+To faciliate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.
