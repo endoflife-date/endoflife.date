@@ -11,19 +11,12 @@ activeSupportColumn: false
 eolColumn: Service Status
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: 'releaseCycle'
 iconSlug: NA
 auto:
 -   git: https://github.com/apache/hbase.git
     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
     template: "{{major}}.{{minor}}.{{patch}}{%if tiny%}.{{tiny}}{%endif%}"
 releases:
-# Uncomment when the first v3 stable release is out
-#-   releaseCycle: "3.0"
-#    eol: false
-#    releaseDate: 2021-07-20
-#    latest: "3.0.0-alpha-3"
-#    latestReleaseDate: 2022-06-27
 -   releaseCycle: "2.4"
     eol: false
     releaseDate: 2020-12-15

@@ -18,7 +18,6 @@ purls:
 -   purl: pkg:docker/library/drupal
 -   purl: pkg:docker/bitnami/drupal-nginx
 -   purl: pkg:github/drupal/core
-sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "9.4"
     support: 2022-12-14

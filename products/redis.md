@@ -7,7 +7,6 @@ changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYC
 activeSupportColumn: false
 versionCommand: $ redis-server --version
 releaseDateColumn: false
-sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/redis/redis.git
 releases:

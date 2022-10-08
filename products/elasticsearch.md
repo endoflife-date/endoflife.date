@@ -7,11 +7,9 @@ releasePolicyLink: https://www.elastic.co/support/eol
 changelogTemplate: >
   https://www.elastic.co/guide/en/elasticsearch/reference/{{"__LATEST__"|split:"."|pop|join:'.'}}/release-notes-__LATEST__.html
 versionCommand: $ES_HOME/bin/elasticsearch -v
-sortReleasesBy: releaseDate
 auto:
 -   git: https://github.com/elastic/elasticsearch.git
 releases:
-# The EOL will update on minor 8.x releases
 -   releaseCycle: "8"
     eol: 2023-10-26
     latest: "8.4.3"

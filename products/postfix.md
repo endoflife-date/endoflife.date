@@ -14,7 +14,6 @@ auto:
 -   git: https://github.com/vdukhovni/postfix.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
-sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "3.7"
     eol: false

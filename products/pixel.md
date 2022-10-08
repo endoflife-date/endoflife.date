@@ -11,88 +11,73 @@ latestColumn: true
 eolColumn: Software Update (Guaranteed)
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: 'cycleShortHand'
 releases:
 -   releaseCycle: "Pixel 7 Pro"
-    cycleShortHand: '710'
     discontinued: false
     eol: 2027-10-13
     support: 2027-10-13
     releaseDate: 2022-10-13
 -   releaseCycle: "Pixel 7"
-    cycleShortHand: '700'
     discontinued: false
     eol: 2027-10-13
     support: 2027-10-13
     releaseDate: 2022-10-13
 -   releaseCycle: "Pixel 6a"
-    cycleShortHand: '620'
     discontinued: false
     eol: 2027-07-31
     support: 2027-07-31
     releaseDate: 2022-07-28
 -   releaseCycle: "Pixel 6 Pro"
-    cycleShortHand: '610'
     discontinued: false
     eol: 2026-10-31
     support: 2026-10-31
     releaseDate: 2021-10-28
 -   releaseCycle: "Pixel 6"
-    cycleShortHand: '600'
     discontinued: false
     eol: 2026-10-31
     support: 2026-10-31
     releaseDate: 2021-10-28
 -   releaseCycle: "Pixel 5A"
-    cycleShortHand: '510'
     discontinued: false
     eol: 2024-08-31
     support: 2015-11-19
     releaseDate: 2021-08-26
 -   releaseCycle: "Pixel 5"
-    cycleShortHand: '500'
     discontinued: 2021-08-20
     eol: 2023-10-31
     support: 2015-11-19
     releaseDate: 2020-09-30
 -   releaseCycle: "Pixel 4A 5G"
-    cycleShortHand: '420'
     discontinued: 2021-08-20
     eol: 2023-11-30
     support: 2015-11-19
     releaseDate: 2020-09-30
 -   releaseCycle: "Pixel 4A"
-    cycleShortHand: '410'
     discontinued: 2022-01-31
     eol: 2023-08-31
     support: 2015-11-19
     releaseDate: 2020-08-03
 -   releaseCycle: "Pixel 4 / XL"
-    cycleShortHand: '400'
     discontinued: 2020-08-06
     eol: 2022-10-31
     support: 2015-11-19
     releaseDate: 2019-10-15
 -   releaseCycle: "Pixel 3A / XL"
-    cycleShortHand: '310'
     discontinued: 2020-07-01
     eol: 2022-05-31
     support: 2015-11-19
     releaseDate: 2019-05-07
 -   releaseCycle: "Pixel 3 / XL"
-    cycleShortHand: '300'
     discontinued: 2020-03-31
     eol: 2021-10-31
     support: 2015-11-19
     releaseDate: 2018-10-09
 -   releaseCycle: "Pixel 2 / XL"
-    cycleShortHand: '200'
     discontinued: 2019-04-01
     eol: 2020-10-31
     support: 2015-11-19
     releaseDate: 2017-10-04
 -   releaseCycle: "Pixel / Pixel XL"
-    cycleShortHand: '100'
     discontinued: 2018-04-11
     eol: 2018-10-31
     support: 2015-11-19

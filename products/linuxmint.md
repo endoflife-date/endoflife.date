@@ -7,10 +7,24 @@ releasePolicyLink: https://linuxmint.com/download_all.php
 activeSupportColumn: true
 releaseDateColumn: true
 iconSlug: linuxmint
-sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+-   releaseCycle: "lmde5"
+    releaseLabel: "LMDE 5"
+    codename: Elsie
+    support: true
+    eol: false
+    latest: "5"
+    link: https://blog.linuxmint.com/?p=4287
+    releaseDate: 2022-03-20
+-   releaseCycle: "lmde4"
+    releaseLabel: "LMDE 4"
+    support: 2022-08-01
+    eol: 2022-08-01
+    latest: "4"
+    link: https://linuxmint.com/rel_debbie.php
 
+    releaseDate: 2020-03-20
 -   releaseCycle: "21"
     codename: Vanessa
     lts: true
@@ -20,24 +34,6 @@ releases:
     link: https://linuxmint.com/rel_vanessa_cinnamon.php
     releaseDate: 2022-07-31
 
--   releaseCycle: "lmde5"
-    releaseLabel: "LMDE 5"
-    codename: Elsie
-    support: true
-    eol: false
-    latest: "5"
-    link: https://blog.linuxmint.com/?p=4287
-    releaseDate: 2022-03-20
-
-
--   releaseCycle: "lmde4"
-    releaseLabel: "LMDE 4"
-    support: 2022-08-01
-    eol: 2022-08-01
-    latest: "4"
-    link: https://linuxmint.com/rel_debbie.php
-
-    releaseDate: 2020-03-20
 -   releaseCycle: "20.3"
     codename: Una
     lts: true

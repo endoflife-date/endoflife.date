@@ -1,7 +1,6 @@
 ---
 title: UnrealIRCd
 category: server-app
-sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 permalink: /unrealircd
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases

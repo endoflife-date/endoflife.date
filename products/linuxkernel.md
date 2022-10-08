@@ -10,7 +10,6 @@ changelogTemplate: |
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: 'releaseDate'
 versionCommand: uname -r
 auto:
 # Note that we're tracking the linux kernel stable tree, not torvalds' tree
@@ -24,7 +23,6 @@ releases:
     latest: "6.0"
     latestReleaseDate: 2022-10-02
     releaseDate: 2022-10-02
-
 -   releaseCycle: "5.19"
     eol: false
     latest: "5.19.12"

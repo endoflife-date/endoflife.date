@@ -11,7 +11,6 @@ alternate_urls:
 releasePolicyLink: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releaseLabel: "Rocky Linux __RELEASE_CYCLE__"
 auto:
 -   distrowatch: rocky

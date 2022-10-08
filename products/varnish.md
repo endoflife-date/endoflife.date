@@ -2,7 +2,6 @@
 title: Varnish
 permalink: /varnish
 category: server-app
-sortReleasesBy: "releaseCycle"
 releasePolicyLink: https://varnish-cache.org/releases/
 changelogTemplate: https://varnish-cache.org/releases/rel__LATEST__.html
 iconSlug: NA

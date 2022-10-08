@@ -12,9 +12,6 @@ versionCommand: npm show electron version
 auto:
 -   git: https://github.com/electron/electron.git
 releaseDateColumn: true
-sortReleasesBy: releaseCycle
-# The approximate EoL going forward will be 8 months for every release
-# but this varies a lot currently due to the cadence change.
 releases:
 -   releaseCycle: "20"
     eol: false

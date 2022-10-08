@@ -7,7 +7,6 @@ releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 purls:
 -   purl: pkg:os/debian

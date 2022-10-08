@@ -10,7 +10,6 @@ versionCommand: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
 releases:
 -   releaseCycle: "4.8.1"

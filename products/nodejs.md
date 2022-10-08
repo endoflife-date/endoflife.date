@@ -14,7 +14,6 @@ auto:
 -   git: https://github.com/nodejs/node.git
 versionCommand: node --version
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "18"
     lts: 2022-10-25

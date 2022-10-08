@@ -1,7 +1,6 @@
 ---
 title: FortiOS
 category: os
-sortReleasesBy: "releaseCycle"
 alternate_urls:
 -   /fortinet
 iconSlug: fortinet

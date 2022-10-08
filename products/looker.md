@@ -11,7 +11,6 @@ eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: "releaseDate"
 releaseImage: https://docs.looker.com/assets/images/2022-std-supp-releases.png
 releases:
 -   releaseCycle: "22.8"

@@ -10,7 +10,6 @@ versionCommand: php bin/magento --version
 auto:
 -   git: https://github.com/magento/magento2.git
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "2.4.5"
     eol: 2024-11-25

@@ -15,7 +15,6 @@ auto:
 category: lang
 releaseDateColumn: true
 eolColumn: Support Status
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "3.1"
     eol: 2025-12-25

@@ -13,12 +13,10 @@ auto:
 -   git: https://github.com/openzfs/zfs.git
     regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 iconSlug: openzfs
 eolColumn: Critical bug fixes
 releaseLabel: "OpenZFS __RELEASE_CYCLE__"
 releases:
-
 -   releaseCycle: "2.1"
     eol: 2023-07-02
     lts: true

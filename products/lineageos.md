@@ -1,7 +1,6 @@
 ---
 title: LineageOS
 category: os
-sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "19"
     eol: false

@@ -4,7 +4,6 @@ permalink: /nomad
 iconSlug: "NA"
 category: server-app
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 activeSupportColumn: false
 releaseDateColumn: true
@@ -17,7 +16,6 @@ releases:
     latest: "1.4.1"
     latestReleaseDate: 2022-10-06
     releaseDate: 2022-10-04
-
 -   releaseCycle: "1.3"
     eol: false
     latest: "1.3.6"

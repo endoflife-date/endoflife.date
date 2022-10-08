@@ -8,7 +8,6 @@ activeSupportColumn: false
 versionCommand: nginx -v
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
 # https://rubular.com/r/bVKLuLKLLrHCTI
 auto:

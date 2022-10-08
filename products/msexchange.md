@@ -7,7 +7,6 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchang
 activeSupportColumn: true
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU12 Aug22SU"

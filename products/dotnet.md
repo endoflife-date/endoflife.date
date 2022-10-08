@@ -10,7 +10,6 @@ versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 eolColumn: Support Status
 auto:
 -   git: https://github.com/dotnet/core.git

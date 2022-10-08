@@ -1,7 +1,6 @@
 ---
 title: Google Kubernetes Engine
 category: service
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 # EoL is support + 3 months, but only for static releases
 # 1. Get the current version in a release channel from https://cloud.google.com/kubernetes-engine/docs/release-notes
@@ -9,25 +8,27 @@ changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes
 # 3. support = Date from (2) + 12 months
 # 4. eol = Date from (2) + 14 months
 # We don't write down the "release" date since EoL is counted against Regular release channel, and release dates of a minor release are harder to track (and not helpful) for other release channels. Hence, releaseDateColumn is set to false.
+
+# The latest data is coming from the _data/gke.{json|yml} file
+# The file is generated at build-time
+# See #314 for an explanation
+
 releases:
-  # The latest data is coming from the _data/gke.{json|yml} file
-  # The file is generated at build-time
-  # See #314 for an explanation
--   releaseCycle: "Rapid"
-    eol: false
-    support: true
-    latest: '{{ site.data.gke.channels.RAPID" }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
--   releaseCycle: "Regular"
-    eol: false
-    support: true
-    latest: '{{ site.data.gke.channels.REGULAR" }}'
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
 -   releaseCycle: "Stable"
     eol: false
     support: true
     latest: '{{ site.data.gke.channels.STABLE" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
+-   releaseCycle: "Regular"
+    eol: false
+    support: true
+    latest: '{{ site.data.gke.channels.REGULAR" }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
+-   releaseCycle: "Rapid"
+    eol: false
+    support: true
+    latest: '{{ site.data.gke.channels.RAPID" }}'
+    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
 -   releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01

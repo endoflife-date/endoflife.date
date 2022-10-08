@@ -1,7 +1,6 @@
 ---
 title: Nextcloud
 category: server-app
-sortReleasesBy: "releaseCycle"
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 permalink: /nextcloud

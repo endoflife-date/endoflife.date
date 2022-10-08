@@ -1,7 +1,6 @@
 ---
 title: Visual Studio
 category: app
-sortReleasesBy: "releaseDate"
 releaseLabel: '__RELEASE_CYCLE__ __CODENAME__'
 iconSlug: visualstudio
 permalink: /visualstudio
@@ -18,7 +17,6 @@ releases:
     lts: true
     eol: 2024-01-09
     releaseDate: 2022-05-10
-
 -   releaseCycle: "2022"
     codename: "17.0"
     lts: true

@@ -6,7 +6,6 @@ alternate_urls:
 category: db
 iconSlug: couchbase
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
 auto:
 -   dockerhub: library/couchbase

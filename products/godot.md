@@ -11,7 +11,6 @@ changelogTemplate: |
 eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
 auto:
 -   git: https://github.com/godotengine/godot.git
     regex: ^(?<version>\d+(\.\d+){1,3})-stable$

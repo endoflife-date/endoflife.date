@@ -1,65 +1,64 @@
 ---
 title: Netgear ReadyNAS
 category: device
-sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://www.netgear.com/support/product/__RELEASE_CYCLE__.aspx"
 releases:
--   releaseCycle: "RN102"
-    eol: true
--   releaseCycle: "RN104"
-    eol: true
--   releaseCycle: "RN202"
-    eol: true
--   releaseCycle: "RN204"
-    eol: true
--   releaseCycle: "RN212"
-    eol: false
--   releaseCycle: "RN214"
-    eol: false
--   releaseCycle: "RN2120"
-    eol: true
--   releaseCycle: "RN312"
-    eol: true
--   releaseCycle: "RN314"
-    eol: true
--   releaseCycle: "RN316"
-    eol: true
--   releaseCycle: "RN422"
-    eol: false
--   releaseCycle: "RN424"
-    eol: false
--   releaseCycle: "RN426"
-    eol: false
--   releaseCycle: "RN516"
-    eol: true
--   releaseCycle: "RN524X"
-    eol: false
--   releaseCycle: "RN526X"
-    eol: false
--   releaseCycle: "RN528X"
-    eol: false
--   releaseCycle: "RN626X"
-    eol: false
--   releaseCycle: "RN628X"
-    eol: false
--   releaseCycle: "RN716X"
-    eol: true
--   releaseCycle: "RR2304"
-    eol: false
--   releaseCycle: "RN3130"
-    eol: false
--   releaseCycle: "RN3138"
-    eol: false
--   releaseCycle: "RN3220"
-    eol: true
--   releaseCycle: "RR3312"
-    eol: false
--   releaseCycle: "RR4312X"
-    eol: false
 -   releaseCycle: "RR4360X"
     eol: false
 -   releaseCycle: "RR4360S"
     eol: false
+-   releaseCycle: "RR4312X"
+    eol: false
+-   releaseCycle: "RR3312"
+    eol: false
+-   releaseCycle: "RR2304"
+    eol: false
+-   releaseCycle: "RN716X"
+    eol: true
+-   releaseCycle: "RN628X"
+    eol: false
+-   releaseCycle: "RN626X"
+    eol: false
+-   releaseCycle: "RN528X"
+    eol: false
+-   releaseCycle: "RN526X"
+    eol: false
+-   releaseCycle: "RN524X"
+    eol: false
+-   releaseCycle: "RN516"
+    eol: true
+-   releaseCycle: "RN426"
+    eol: false
+-   releaseCycle: "RN424"
+    eol: false
+-   releaseCycle: "RN422"
+    eol: false
+-   releaseCycle: "RN3220"
+    eol: true
+-   releaseCycle: "RN316"
+    eol: true
+-   releaseCycle: "RN314"
+    eol: true
+-   releaseCycle: "RN3138"
+    eol: false
+-   releaseCycle: "RN3130"
+    eol: false
+-   releaseCycle: "RN312"
+    eol: true
+-   releaseCycle: "RN214"
+    eol: false
+-   releaseCycle: "RN2120"
+    eol: true
+-   releaseCycle: "RN212"
+    eol: false
+-   releaseCycle: "RN204"
+    eol: true
+-   releaseCycle: "RN202"
+    eol: true
+-   releaseCycle: "RN104"
+    eol: true
+-   releaseCycle: "RN102"
+    eol: true
 iconSlug: NA
 permalink: /readynas
 activeSupportColumn: false

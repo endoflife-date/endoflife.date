@@ -4,7 +4,6 @@ category: server-app
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
 changelogTemplate: https://wordpress.org/support/wordpress-version/version-{{"__LATEST__"
   | replace:'.','-'}}/
-sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 releases:
 -   releaseCycle: "6.0"

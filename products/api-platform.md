@@ -8,24 +8,16 @@ versionCommand: composer show api-platform/core | grep versions
 changelogTemplate: |
   https://github.com/api-platform/core/releases/tag/v__LATEST__
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 category: framework
 auto:
 -   git: https://github.com/api-platform/core.git
 releases:
-#  - releaseCycle: "3.1"
-#    releaseDate: 202X-XX-XX
-#    latestReleaseDate: 202X-XX-XX
-#    eol: false
-#    latest: "3.1.0"
-
 -   releaseCycle: "3.0"
     support: true
     eol: false
     latest: "3.0.1"
     latestReleaseDate: 2022-09-29
     releaseDate: 2022-09-15
-
 -   releaseCycle: "2.7"
     support: true
     eol: false

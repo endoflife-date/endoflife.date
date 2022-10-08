@@ -7,7 +7,6 @@ iconSlug: "NA"
 activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
-sortReleasesBy: releaseDate
 releaseLabel: 'FileMaker Platform __RELEASE_CYCLE__'
 releases:
 -   releaseCycle: "19"

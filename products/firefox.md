@@ -9,16 +9,13 @@ iconSlug: firefox
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
-sortReleasesBy: releaseDate
 releases:
-
 -   releaseCycle: "105"
     eol: false
     latest: "105.0.1"
     latestReleaseDate: 2022-09-23
     lts: false
     releaseDate: 2022-09-20
-
 -   releaseCycle: "102"
     eol: false
     latest: "102.2.0"

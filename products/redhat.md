@@ -11,7 +11,6 @@ LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: releaseDate
 releaseLabel: "RHEL __RELEASE_CYCLE__"
 releases:
 -   releaseCycle: "9"

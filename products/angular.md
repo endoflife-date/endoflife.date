@@ -5,7 +5,6 @@ versionCommand: ng version
 releasePolicyLink: https://angular.io/guide/releases
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 purls:
 -   purl: pkg:npm/@angular/core

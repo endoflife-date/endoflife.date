@@ -13,8 +13,6 @@ releaseDateColumn: true
 eolColumn: Service Status
 discontinuedColumn: false
 versionCommand: vmware -l
-sortReleasesBy: "releaseCycle"
-
 releases:
 -   releaseCycle: "7.0"
     support: 2027-04-02
@@ -51,7 +49,6 @@ releases:
     link: "https://docs.vmware.com/en/VMware-vSphere/5.5/rn/vsphere-esxi-55u3b-release-notes.html"
     releaseDate: 2013-09-19
     latestReleaseDate:
-
 
 ---
 

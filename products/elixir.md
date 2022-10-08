@@ -7,7 +7,6 @@ releasePolicyLink: https://hexdocs.pm/elixir/compatibility-and-deprecations.html
 changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__/CHANGELOG.md
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 auto:
 -   git: https://github.com/elixir-lang/elixir.git
 releases:

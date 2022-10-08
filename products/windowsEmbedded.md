@@ -8,13 +8,8 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 versionCommand: winver
-sortReleasesBy: releaseDate
 releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
 releases:
--   releaseCycle: "Compact 2013"
-    support: 2018-10-09
-    eol: 2023-10-10
-    releaseDate: 2013-08-11
 -   releaseCycle: "8.1 Industry"
     support: 2018-07-10
     eol: 2023-07-11
@@ -23,6 +18,10 @@ releases:
     support: 2018-01-01
     eol: 2023-01-01
     releaseDate: 2013-11-13
+-   releaseCycle: "Compact 2013"
+    support: 2018-10-09
+    eol: 2023-10-10
+    releaseDate: 2013-08-11
 -   releaseCycle: "POSReady 7"
     support: 2016-10-11
     eol: 2021-10-12

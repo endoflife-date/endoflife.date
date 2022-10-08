@@ -2,7 +2,6 @@
 title: TYPO3
 category: server-app
 releasePolicyLink: https://get.typo3.org/
-sortReleasesBy: "releaseCycle"
 releases:
 -   releaseCycle: "11"
     eol: 2024-10-31

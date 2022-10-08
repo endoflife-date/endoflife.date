@@ -4,7 +4,6 @@ permalink: /terraform
 category: app
 iconSlug: terraform
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/terraform.git
