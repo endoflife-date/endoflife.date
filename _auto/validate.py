@@ -21,10 +21,7 @@ def validate_product(name):
     yaml.preserve_quotes = True
     data = next(yaml.load_all(f))
     for r in data['releases']:
-      if 'cycleShortHand' in r:
-        if not isinstance(r['cycleShortHand'], str):
-          print("%s cycleShortHand=%s is not a string" % (name, r['cycleShortHand']))
-          fail = True
+      pass
 
     f.seek(0)
     _, content = frontmatter.parse(f.read())
