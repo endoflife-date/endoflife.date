@@ -13,55 +13,56 @@ releases:
   # The latest data is coming from the _data/gke.{json|yml} file
   # The file is generated at build-time
   # See #314 for an explanation
-  - releaseCycle: "Rapid"
+-   releaseCycle: "Rapid"
     eol: false
     support: true
     latest: '{{ site.data.gke.channels.RAPID" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
-  - releaseCycle: "Regular"
+-   releaseCycle: "Regular"
     eol: false
     support: true
     latest: '{{ site.data.gke.channels.REGULAR" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
-  - releaseCycle: "Stable"
+-   releaseCycle: "Stable"
     eol: false
     support: true
     latest: '{{ site.data.gke.channels.STABLE" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
-  - releaseCycle: "1.22"
+-   releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01
     latest: '{{ site.data.gke.versions["1.22"] }}'
-  - releaseCycle: "1.21"
+-   releaseCycle: "1.21"
     eol: 2023-03-01
     support: 2023-01-01
     latest: '{{ site.data.gke.versions["1.21"] }}'
-  - releaseCycle: "1.20"
+-   releaseCycle: "1.20"
     eol: 2022-08-01
     support: 2021-12-01
     latest: '{{ site.data.gke.versions["1.20"] }}'
-  - releaseCycle: "1.19"
+-   releaseCycle: "1.19"
     eol: 2022-06-01
     support: 2021-10-01
     latest: '{{ site.data.gke.versions["1.19"] }}'
-  - releaseCycle: "1.18"
+-   releaseCycle: "1.18"
     eol: 2022-03-01
     support: 2021-08-01
     latest: '{{ site.data.gke.versions["1.18"] }}'
-  - releaseCycle: "1.17"
+-   releaseCycle: "1.17"
     eol: 2021-11-01
     support: 2021-07-01
     latest: '{{ site.data.gke.versions["1.17"] }}'
 iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:
-  - gke
+-   gke
 releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: false
 eolColumn: Maintenance Support
 versionCommand: kubectl version
+
 ---
 
 > [Google Kubernetes Engine][gke] is the fully managed Kubernetes service from Google.

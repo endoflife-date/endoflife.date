@@ -51,6 +51,7 @@ releases:
     eol: 2020-01-31
     latest: "7.0.13.1"
     latestReleaseDate: 2019-12-05
+
 ---
 
 > [Splunk](https://www.splunk.com/) is a data platform built for expansive data access, powerful analytics and automation.

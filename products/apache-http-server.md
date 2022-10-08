@@ -12,7 +12,7 @@ releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 purls:
-  - repology: apache
+-   repology: apache
 releases:
 -   releaseCycle: "2.4"
     eol: false

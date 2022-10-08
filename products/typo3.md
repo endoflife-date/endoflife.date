@@ -40,8 +40,8 @@ releases:
     link: https://typo3.org/download/release-notes/typo3-v8-release-notes/
     latestReleaseDate: 2018-12-11
 purls:
-  - repology: typo3
-  - purl: pkg:composer/typo3/cms
+-   repology: typo3
+-   purl: pkg:composer/typo3/cms
 iconSlug: typo3
 permalink: /typo3
 activeSupportColumn: true
@@ -71,4 +71,3 @@ Version | Commercial ELTS Support Ends
 7       | 2022-11-30
 8       | 2023-03-31
 9       | 2024-09-30
-

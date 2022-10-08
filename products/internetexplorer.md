@@ -37,7 +37,6 @@ releases:
     eol: 2031-10-14
     releaseDate: 2013-11-13
 
-
 ---
 
 > [Internet Explorer](https://www.microsoft.com/download/internet-explorer.aspx), is a proprietary and no longer recommended web browser developed by Microsoft. Internet Explorer has been included with a variety of devices throughout its lifespan such as Windows, Windows Phone, Mac OS, Xbox 360, Xbox One and others.

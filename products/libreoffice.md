@@ -22,7 +22,6 @@ releases:
     latestReleaseDate: 2022-08-26
     releaseDate: 2022-09-08
 
-
 ---
 
 > LibreOffice is a free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, an open-sourced version of the earlier StarOffice.

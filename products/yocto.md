@@ -67,8 +67,6 @@ releases:
     eol: 2020-06-01
     releaseDate: 2019-04-01
 
-
-
 ---
 
 > The [Yocto Project](https://www.yoctoproject.org/) is a Linux Foundation project that helps developers create custom Linux-based systems and distributions regardless of the hardware architecture.

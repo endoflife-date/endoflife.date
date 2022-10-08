@@ -14,7 +14,8 @@ releaseDateColumn: true
 LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
 versionCommand: cat /etc/os-release
 sortReleasesBy: releaseDate
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"| replace:'SLES ','' | replace:' ','-'}}/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"|
+  replace:'SLES ','' | replace:' ','-'}}/
 releaseLabel: "SUSE Linux Enterprise Server __RELEASE_CYCLE__"
 
 releases:

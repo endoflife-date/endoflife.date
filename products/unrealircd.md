@@ -11,8 +11,8 @@ changelogTemplate: https://github.com/unrealircd/unrealircd/blob/unreal{{"__LATE
   | replace:'.',''}}
 iconSlug: NA
 purls:
-  - repology: unrealircd
-  - purl: pkg:docker/bbriggs/unrealircd
+-   repology: unrealircd
+-   purl: pkg:docker/bbriggs/unrealircd
 # Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/unrealircd.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/unrealircd.py

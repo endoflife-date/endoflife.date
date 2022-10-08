@@ -9,7 +9,7 @@ releaseDateColumn: true
 sortReleasesBy: releaseDate
 releaseLabel: "CentOS Stream __RELEASE_CYCLE__"
 purls:
-  - purl: pkg:os/centos
+-   purl: pkg:os/centos
 releases:
 -   releaseCycle: "6"
     releaseLabel: "CentOS 6"
