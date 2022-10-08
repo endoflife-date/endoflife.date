@@ -1,7 +1,6 @@
 ---
 title: Perl
 category: lang
-sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 auto:
   # Using the default regex loses all releases before 5.10

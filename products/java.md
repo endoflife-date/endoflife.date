@@ -10,7 +10,6 @@ versionCommand: java -version
 activeSupportColumn: true
 releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 releases:
 -   releaseCycle: "19"
     support: 2023-03-01

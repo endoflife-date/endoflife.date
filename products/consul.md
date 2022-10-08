@@ -4,7 +4,6 @@ permalink: /consul
 category: server-app
 iconSlug: consul
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/consul.git

@@ -11,7 +11,6 @@ activeSupportColumn: false
 eolColumn: Support Status
 versionCommand: psql -c "SELECT version();"
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/postgres/postgres.git
   # https://rubular.com/r/KlemgnguNe0e5X

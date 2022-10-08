@@ -11,7 +11,6 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Life
 versionCommand: cat /usr/lib/os-release
-sortReleasesBy: releaseDate
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"

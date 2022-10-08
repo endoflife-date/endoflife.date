@@ -11,9 +11,7 @@ auto:
 versionCommand: ./bin/version.sh
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
 releases:
-# 10.1 is still in Beta
 -   releaseCycle: "10.0"
     eol: false
     latest: "10.0.26"

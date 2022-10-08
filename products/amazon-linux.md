@@ -8,7 +8,6 @@ activeSupportColumn: false
 versionCommand: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 purls:
 -   purl: pkg:os/amazonlinux
 auto:
@@ -19,17 +18,18 @@ auto:
 changelogTemplate: |
   https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST__"|slice:4,8 }}.html
 releases:
--   releaseCycle: '1'
-    releaseLabel: 'Amazon Linux AMI'
-    eol: 2020-12-31
-    latest: "2018.03"
-    releaseDate: "2010-09-14"
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     eol: 2024-06-30
     latest: "2.0.20220912.1"
     latestReleaseDate: 2022-09-22
     releaseDate: 2018-06-26
+-   releaseCycle: '1'
+    releaseLabel: 'Amazon Linux AMI'
+    eol: 2020-12-31
+    latest: "2018.03"
+    releaseDate: 2010-09-14
+
 
 ---
 

@@ -2,7 +2,6 @@
 title: Amazon Kindle
 iconSlug: amazon
 category: device
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
     eol: false
@@ -39,16 +38,16 @@ releases:
     latest: "5.14.3.0.1"
     link: https://www.amazon.com/Oasis8Notes
     releaseDate: 2016-04-27
--   releaseCycle: "Kindle Voyage (7th Generation)"
-    eol: 2021-04-01
-    latest: "5.13.6"
-    link: https://www.amazon.com/Voyage7Notes
-    releaseDate: 2014-11-04
 -   releaseCycle: "Kindle Paperwhite 3 (7th Generation)"
     eol: false
     latest: "5.14.3.0.1"
     link: https://www.amazon.com/Paperwhite7Notes
     releaseDate: 2015-06-30
+-   releaseCycle: "Kindle Voyage (7th Generation)"
+    eol: 2021-04-01
+    latest: "5.13.6"
+    link: https://www.amazon.com/Voyage7Notes
+    releaseDate: 2014-11-04
 -   releaseCycle: "Kindle 7 (7th Generation)"
     eol: 2019-10-01
     latest: "5.12.2.2"

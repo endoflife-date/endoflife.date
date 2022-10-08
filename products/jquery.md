@@ -1,7 +1,6 @@
 ---
 title: jQuery
 category: framework
-sortReleasesBy: "releaseCycle"
 auto:
 -   git: https://github.com/jquery/jquery.git
 releases:

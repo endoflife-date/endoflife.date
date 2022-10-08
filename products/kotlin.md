@@ -7,7 +7,6 @@ alternate_urls:
 -   /kotlinlang
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
-sortReleasesBy: "releaseDate"
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
 auto:
 -   git: https://github.com/JetBrains/kotlin.git

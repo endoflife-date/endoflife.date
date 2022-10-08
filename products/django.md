@@ -8,7 +8,6 @@ changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/
 activeSupportColumn: true
 versionCommand: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
-sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/django/django.git
 purls:
@@ -22,7 +21,6 @@ releases:
     latest: "4.1.2"
     latestReleaseDate: 2022-10-04
     releaseDate: 2022-08-03
-
 -   releaseCycle: "4.0"
     support: 2022-08-01
     eol: 2023-04-01

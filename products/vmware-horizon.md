@@ -10,7 +10,6 @@ releasePolicyLink: https://lifecycle.vmware.com
 activeSupportColumn: Technical Guidance
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releaseLabel: 'Horizon __RELEASE_CYCLE__ __CODENAME__'
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
@@ -44,24 +43,24 @@ releases:
     releaseDate: 2021-01-07
     eol: 2024-01-07
     support: 2025-01-07
+-   releaseCycle: "7.13"
+    releaseDate: 2020-10-15
+    eol: 2022-10-15
+    support: 2023-03-23
 -   releaseCycle: "8"
     codename: "2006"
     releaseDate: 2020-08-11
     eol: 2025-08-11
     support: 2027-08-11
--   releaseCycle: "7.5"
-    lts: true
-    releaseDate: 2018-05-29
-    eol: 2020-11-30
-    support: 2023-03-22
--   releaseCycle: "7.13"
-    releaseDate: 2020-10-15
-    eol: 2022-10-15
-    support: 2023-03-23
 -   releaseCycle: "7.10"
     lts: true
     releaseDate: 2019-09-17
     eol: 2022-03-17
+    support: 2023-03-22
+-   releaseCycle: "7.5"
+    lts: true
+    releaseDate: 2018-05-29
+    eol: 2020-11-30
     support: 2023-03-22
 -   releaseCycle: "7.12"
     releaseLabel: "7.0 – 7.9, 7.11, 7.12"

@@ -15,7 +15,6 @@ purls:
 auto:
   # upstream does not support filtering https://git.alpinelinux.org/aports
 -   git: https://github.com/alpinelinux/aports.git
-sortReleasesBy: 'releaseDate'
 releases:
 -   releaseCycle: "3.16"
     eol: 2024-05-23

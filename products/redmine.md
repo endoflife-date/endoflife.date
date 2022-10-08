@@ -6,7 +6,6 @@ category: server-app
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-sortReleasesBy: releaseCycle
 iconSlug: redmine
 auto:
 -   git: https://github.com/redmine/redmine.git

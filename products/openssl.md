@@ -10,7 +10,6 @@ eolColumn: Supported
 activeSupportColumn: false
 versionCommand: openssl version
 releaseDateColumn: true
-sortReleasesBy: releaseCycle
 releases:
 -   releaseCycle: "3.0"
     eol: 2026-09-07

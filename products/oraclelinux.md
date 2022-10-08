@@ -7,7 +7,6 @@ releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
-sortReleasesBy: releaseDate
 iconSlug: oracle
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 # https://regex101.com/r/fRdw9L/1

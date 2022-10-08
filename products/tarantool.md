@@ -11,7 +11,6 @@ category: db
 iconSlug: NA
 eolColumn: Support Status
 releaseDateColumn: false
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2.10"
     eol: false

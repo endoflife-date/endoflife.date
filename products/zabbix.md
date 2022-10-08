@@ -8,7 +8,6 @@ changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
 auto:
 -   git: https://github.com/zabbix/zabbix.git
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 eolColumn: Security Support
 iconSlug: NA

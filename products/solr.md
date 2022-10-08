@@ -19,7 +19,6 @@ changelogTemplate: https://solr.apache.org/docs/{{"__LATEST__" | replace:'.','_'
 activeSupportColumn: false
 releaseDateColumn: false
 releaseColumn: true
-sortReleasesBy: 'releaseCycle'
 iconSlug: apachesolr
 releases:
 -   releaseCycle: "9"

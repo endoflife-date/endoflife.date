@@ -7,35 +7,30 @@ releaseColumn: false
 iconSlug: internetexplorer
 activeSupportColumn: false
 eolColumn: Security and technical support
-sortReleasesBy: releaseDate
 releases:
-
--   releaseCycle: "7"
-    eol: 2023-10-10
-    releaseDate: 2006-10-18
-
--   releaseCycle: "8"
-    eol: 2016-01-12
-    releaseDate: 2009-06-17
-
-
--   releaseCycle: "9"
-    eol: 2016-01-12
-    releaseDate: 2011-03-15
-
--   releaseCycle: "10"
-    eol: 2020-01-31
-    releaseDate: 2012-10-30
-
 -   releaseCycle: "11" # This applies to 99% of users
     eol: 2022-06-14
     releaseDate: 2013-11-13
-
 
 -   releaseCycle: "11-ltsb"
     releaseLabel: "11 LTSB/LTSC/Server/Embedded"
     eol: 2031-10-14
     releaseDate: 2013-11-13
+-   releaseCycle: "10"
+    eol: 2020-01-31
+    releaseDate: 2012-10-30
+
+-   releaseCycle: "9"
+    eol: 2016-01-12
+    releaseDate: 2011-03-15
+
+-   releaseCycle: "8"
+    eol: 2016-01-12
+    releaseDate: 2009-06-17
+
+-   releaseCycle: "7"
+    eol: 2023-10-10
+    releaseDate: 2006-10-18
 
 ---
 

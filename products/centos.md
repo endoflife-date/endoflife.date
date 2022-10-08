@@ -6,32 +6,15 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releaseLabel: "CentOS Stream __RELEASE_CYCLE__"
 purls:
 -   purl: pkg:os/centos
 releases:
--   releaseCycle: "6"
-    releaseLabel: "CentOS 6"
-    support: 2017-05-10
-    eol: 2020-11-30
-    latest: "6.10"
-    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
-    releaseDate: 2011-07-10
--   releaseCycle: "7"
-    releaseLabel: "CentOS Linux 7"
-    support: 2020-08-06
-    eol: 2024-06-30
-    latest: "7 (2009)"
-    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
-    releaseDate: 2014-07-07
--   releaseCycle: "8"
-    releaseLabel: "CentOS Linux 8"
-    support: 2021-12-31
-    eol: 2021-12-31
-    latest: "8 (2111)"
-    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
-    releaseDate: 2019-09-24
+-   releaseCycle: "9"
+    support: 2027-05-31
+    eol: 2027-05-31
+    latest: "9"
+    releaseDate: 2021-09-15
 -   releaseCycle: "stream-8"
     support: 2024-05-31
     eol: 2024-05-31
@@ -39,12 +22,27 @@ releases:
     latest: "8"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
     releaseDate: 2019-09-24
--   releaseCycle: "9"
-    support: 2027-05-31
-    eol: 2027-05-31
-    latest: "9"
-
-    releaseDate: 2021-09-15
+-   releaseCycle: "8"
+    releaseLabel: "CentOS Linux 8"
+    support: 2021-12-31
+    eol: 2021-12-31
+    latest: "8 (2111)"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
+    releaseDate: 2019-09-24
+-   releaseCycle: "7"
+    releaseLabel: "CentOS Linux 7"
+    support: 2020-08-06
+    eol: 2024-06-30
+    latest: "7 (2009)"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
+    releaseDate: 2014-07-07
+-   releaseCycle: "6"
+    releaseLabel: "CentOS 6"
+    support: 2017-05-10
+    eol: 2020-11-30
+    latest: "6.10"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
+    releaseDate: 2011-07-10
 
 ---
 

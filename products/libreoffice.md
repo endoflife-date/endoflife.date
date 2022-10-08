@@ -6,7 +6,6 @@ releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
 activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Support Status
-sortReleasesBy: 'releaseCycle'
 category: app
 releases:
 -   releaseCycle: "7.4"

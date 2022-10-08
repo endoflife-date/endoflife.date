@@ -9,7 +9,6 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Office
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "Office 2021"
     support: 2026-10-13
@@ -27,22 +26,22 @@ releases:
     support: 2018-04-10
     eol: 2023-04-11
     releaseDate: 2014-02-25
--   releaseCycle: "Office for Mac 2011 SP3"
-    support: 2017-10-10
-    eol: 2017-10-10
-    releaseDate: 2013-01-29
 -   releaseCycle: "Office 2010 SP2"
     support: 2015-10-13
     eol: 2020-10-13
     releaseDate: 2013-07-23
--   releaseCycle: "Office 2008 for Mac SP2"
-    support: 2013-04-09
-    eol: 2013-04-09
-    releaseDate: 2009-10-18
+-   releaseCycle: "Office for Mac 2011 SP3"
+    support: 2017-10-10
+    eol: 2017-10-10
+    releaseDate: 2013-01-29
 -   releaseCycle: "Office 2007 SP3"
     support: 2012-10-09
     eol: 2017-10-10
     releaseDate: 2011-10-25
+-   releaseCycle: "Office 2008 for Mac SP2"
+    support: 2013-04-09
+    eol: 2013-04-09
+    releaseDate: 2009-10-18
 
 ---
 

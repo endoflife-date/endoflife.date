@@ -1,7 +1,6 @@
 ---
 title: MySQL
 category: db
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{"__LATEST__"
   | replace:'.','-'}}.html
 # dates below are for:

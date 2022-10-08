@@ -6,7 +6,6 @@ permalink: /nixos
 alternate_urls:
 -   /nixoslinux
 releasePolicyLink: https://nixos.org/blog/announcements.html
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__LATEST__
 versionCommand: cat /etc/os-release
 activeSupportColumn: false

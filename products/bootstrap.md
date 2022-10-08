@@ -2,7 +2,6 @@
 title: Bootstrap
 permalink: /bootstrap
 category: framework
-sortReleasesBy: "releaseCycle"
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:

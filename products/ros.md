@@ -8,7 +8,6 @@ releaseColumn: true
 eolColumn: End Of Life
 versionCommand: rosversion -d
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 releaseLabel: '__CODENAME__'
 changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releases:

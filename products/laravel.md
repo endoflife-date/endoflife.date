@@ -7,7 +7,6 @@ changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
 versionCommand: composer show laravel/framework|grep versions
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/laravel/framework.git
 purls:

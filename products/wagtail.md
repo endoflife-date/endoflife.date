@@ -12,7 +12,6 @@ auto:
 purls:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "4.0"
     support: 2022-11-01

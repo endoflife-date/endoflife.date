@@ -13,7 +13,6 @@ releaseDateColumn: true
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
 -   custom: true
-sortReleasesBy: 'releaseDate'
 releases:
 -   releaseCycle: "2.6"
     lts: true

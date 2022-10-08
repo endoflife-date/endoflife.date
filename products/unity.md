@@ -10,18 +10,15 @@ iconSlug: unity
 changelogTemplate: |
   https://unity3d.com/unity/whats-new/__LATEST__
 releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
-sortReleasesBy: releaseDate
 releases:
 #  - releaseCycle: "2022.2"
 #    release: 2022-XX-XX
 #    eol: false
 #    latest: "2022.2.0"
-
 -   releaseCycle: "2022.1"
     eol: false
     latest: "2022.1.14"
     releaseDate: 2022-05-09
-
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true

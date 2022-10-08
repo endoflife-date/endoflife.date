@@ -19,7 +19,6 @@ purls:
 activeSupportColumn: true
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
-sortReleasesBy: "releaseCycle"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 -   releaseCycle: "22.04"

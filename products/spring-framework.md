@@ -3,7 +3,6 @@ title: Spring Framework
 alternate_urls:
 -   /spring
 category: framework
-sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__"
 auto:
 -   git: https://github.com/spring-projects/spring-framework.git

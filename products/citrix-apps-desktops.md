@@ -12,7 +12,6 @@ releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matr
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 releases:
 -   releaseCycle: "2209 (CR)"

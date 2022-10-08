@@ -8,7 +8,6 @@ category: server-app
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2019"
     support: 2024-01-09

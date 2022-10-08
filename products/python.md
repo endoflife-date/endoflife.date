@@ -7,7 +7,6 @@ releasePolicyLink: https://devguide.python.org/versions.html
 changelogTemplate: |
   https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 auto:
 -   git: https://github.com/python/cpython.git
   # The v is mandatory here because each branch EOL is tagged:

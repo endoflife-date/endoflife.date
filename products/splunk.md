@@ -4,7 +4,6 @@ permalink: /splunk
 category: server-app
 iconSlug: splunk
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
 activeSupportColumn: false
 releaseDateColumn: true

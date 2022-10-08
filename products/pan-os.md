@@ -8,7 +8,6 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-life Date
-sortReleasesBy: releaseDate
 versionCommand: show system info | match sw-version
 releases:
 -   releaseCycle: "10.2"

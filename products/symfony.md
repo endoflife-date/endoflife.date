@@ -7,7 +7,6 @@ versionCommand: composer show symfony/symfony | grep versions
 changelogTemplate: |
   https://symfony.com/blog/symfony-{{"__LATEST__" | replace:'.','-'}}-released
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 auto:
 -   git: https://github.com/symfony/symfony.git
 category: framework

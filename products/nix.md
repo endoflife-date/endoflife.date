@@ -6,7 +6,6 @@ permalink: /nix
 alternate_urls:
 -   /nixlang
 releasePolicyLink: https://nixos.org/blog/announcements.html
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__.html
 versionCommand: nix --version
 auto:

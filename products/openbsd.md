@@ -6,7 +6,6 @@ versionCommand: uname -r
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: releaseDate
 releases:
 -   eol: 2023-05-01
     releaseCycle: "7.1"

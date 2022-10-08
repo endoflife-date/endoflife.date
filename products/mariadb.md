@@ -23,8 +23,13 @@ auto:
     regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2})))$
 versionCommand: mysqld --version
 eolColumn: Support Status
-sortReleasesBy: 'releaseCycle'
 releases:
+-   releaseCycle: "5.5"
+    eol: 2020-04-11
+    latest: "5.5.68"
+    lts: true
+    latestReleaseDate: 2020-05-06
+    releaseDate: 2013-01-29
 -   releaseCycle: "10.9"
     eol: 2023-08-22
     latest: "10.9.3"
@@ -76,12 +81,6 @@ releases:
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
     releaseDate: 2014-06-12
--   releaseCycle: "5.5"
-    eol: 2020-04-11
-    latest: "5.5.68"
-    lts: true
-    latestReleaseDate: 2020-05-06
-    releaseDate: 2013-01-29
 
 ---
 

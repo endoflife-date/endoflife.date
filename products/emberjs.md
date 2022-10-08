@@ -5,7 +5,6 @@ iconSlug: emberdotjs
 alternate_urls:
 -   /ember
 category: framework
-sortReleasesBy: 'releaseCycle'
 releasePolicyLink: https://emberjs.com/releases
 changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true

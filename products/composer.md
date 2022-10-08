@@ -1,7 +1,6 @@
 ---
 title: Composer
 category: app
-sortReleasesBy: "releaseCycle"
 changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
 auto:
 -   git: https://github.com/composer/composer.git

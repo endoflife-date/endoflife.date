@@ -15,7 +15,6 @@ purls:
 -   purl: pkg:composer/drush/drush
 -   repology: drush
 -   purl: pkg:github/drush-ops/drush
-sortReleasesBy: 'releaseCycle'
 iconSlug: drupal
 releases:
 -   releaseCycle: "11"

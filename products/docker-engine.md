@@ -2,7 +2,6 @@
 title: Docker Engine
 category: app
 permalink: /docker-engine
-sortReleasesBy: "releaseCycle"
 releasePolicyLink: https://docs.docker.com/engine/release-notes/
 changelogTemplate: |
   https://docs.docker.com/engine/release-notes/#{{"__LATEST__" | replace:'.',''}}

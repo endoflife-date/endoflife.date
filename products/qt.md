@@ -7,7 +7,6 @@ versionCommand: qmake --version
 changelogTemplate: https://www.qt.io/blog/qt-{{"__LATEST__"}}-released
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 releaseDateColumn: true
-sortReleasesBy: 'releaseDate'
 auto:
   # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 -   git: https://github.com/qt/qt5.git

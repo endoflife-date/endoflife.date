@@ -8,7 +8,6 @@ releasePolicyLink: https://vuejs.org/about/releases.html
 activeSupportColumn: true
 versionCommand: npm list vue
 releaseDateColumn: true
-sortReleasesBy: 'releaseCycle'
 iconSlug: vuedotjs
 auto:
 -   git: https://github.com/vuejs/core.git

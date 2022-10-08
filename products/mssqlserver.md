@@ -7,7 +7,6 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20S
 activeSupportColumn: true
 versionCommand: select @@version
 releaseDateColumn: true
-sortReleasesBy: 'latest'
 releases:
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU18"

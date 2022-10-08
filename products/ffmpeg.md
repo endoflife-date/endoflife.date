@@ -9,7 +9,6 @@ versionCommand: ffmpeg -version
 activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
-sortReleasesBy: releaseDate
 auto:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
 -   git: https://github.com/FFmpeg/FFmpeg.git
@@ -23,7 +22,6 @@ releases:
     lts: true
     latestReleaseDate: 2022-09-25
     releaseDate: 2022-07-22
-
 -   releaseCycle: "5.0"
     codename: Lorentz
     eol: false

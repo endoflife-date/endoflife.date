@@ -10,7 +10,6 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
-sortReleasesBy: releaseDate
 releaseLabel: "Android __RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 -   releaseCycle: "13"
@@ -18,7 +17,6 @@ releases:
     releaseLabel: Android 13 'Tiramisu'
     eol: false
     releaseDate: 2022-08-15
-
 -   releaseCycle: "12.1"
     codename: Snow Cone v2
     releaseLabel: Android 12.1 'Snow Cone v2' (aka 12L)

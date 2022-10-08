@@ -2,7 +2,6 @@
 title: Moodle
 category: server-app
 
-sortReleasesBy: "support"
 changelogTemplate: "https://docs.moodle.org/dev/Moodle___LATEST___release_notes"
 
 releases:

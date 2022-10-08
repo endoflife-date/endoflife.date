@@ -3,7 +3,6 @@ title: MongoDB Server
 permalink: /mongodb
 category: db
 releasePolicyLink: https://www.mongodb.com/support-policy
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false
 releaseDateColumn: true

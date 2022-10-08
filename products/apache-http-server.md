@@ -10,7 +10,6 @@ activeSupportColumn: false
 versionCommand: httpd -v
 releaseColumn: true
 releaseDateColumn: true
-sortReleasesBy: "releaseCycle"
 purls:
 -   repology: apache
 releases:

@@ -9,7 +9,6 @@ changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
 releaseDateColumn: true
-sortReleasesBy: 'releaseDate'
 auto:
 -   git: https://github.com/golang/go.git
     regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$

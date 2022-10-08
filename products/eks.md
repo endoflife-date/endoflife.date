@@ -1,7 +1,6 @@
 ---
 title: Amazon EKS
 category: service
-sortReleasesBy: "releaseCycle"
 changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__"
   | replace:".","-"}}
 # Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source

@@ -11,7 +11,6 @@ auto:
     regex: ^php-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 versionCommand: php --version
 releaseDateColumn: true
-sortReleasesBy: 'releaseDate'
 releases:
 -   releaseCycle: "8.1"
     support: 2023-11-25

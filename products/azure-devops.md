@@ -9,7 +9,6 @@ category: server-app
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Azure%20DevOps
 activeSupportColumn: true
 releaseDateColumn: true
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "2020"
     support: 2025-10-14

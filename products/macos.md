@@ -3,7 +3,6 @@ title: macOS
 alternate_urls:
 -   /mac
 category: os
-sortReleasesBy: releaseDate
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
 # Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)

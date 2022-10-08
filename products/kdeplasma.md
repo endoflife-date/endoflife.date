@@ -7,7 +7,6 @@ releasePolicyLink: https://community.kde.org/Schedules/Plasma_5
 activeSupportColumn: true
 releaseDateColumn: true
 versionCommand: plasmashell -v
-sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
 category: os
 iconSlug: kde
@@ -20,7 +19,6 @@ releases:
     lts: false
     releaseDate: 2022-06-14
     latestReleaseDate: 2022-06-28
-
 -   releaseCycle: "5.24"
     latest: "5.24.5"
     support: 2022-06-14

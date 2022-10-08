@@ -6,7 +6,6 @@ alternate_urls:
 category: server-app
 iconSlug: vault
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-sortReleasesBy: releaseDate
 changelogTemplate: https://github.com/hashicorp/vault/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/vault.git

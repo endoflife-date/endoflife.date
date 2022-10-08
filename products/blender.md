@@ -11,7 +11,6 @@ auto:
 -   git: https://github.com/blender/blender.git
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
-sortReleasesBy: releaseDate
 eolColumn: Critical bug fixes
 activeSupportColumn: true
 releases:
