@@ -10,15 +10,23 @@
 require 'fileutils'
 require 'json'
 require 'yaml'
-import 'date'
+require 'date'
 
 API_DIR = 'api'.freeze
+
+def load_yaml(file)
+  if YAML.respond_to?(:unsafe_load)
+    YAML.unsafe_load_file(file)
+  else
+    YAML.load_file(self[:encoded_value])
+  end
+end
 
 class Product
   attr_reader :hash
 
   def initialize(markdown_file)
-    @hash = YAML.load_file(markdown_file, permitted_classes: [Date])
+    @hash = load_yaml(markdown_file)
   end
 
   def permalink
