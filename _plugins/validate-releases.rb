@@ -9,10 +9,18 @@ require 'date'
 # read as strings instead.
 STRING_KEYS = ['latest', 'releaseCycle']
 
+def load_yaml(file)
+  if YAML.respond_to?(:unsafe_load)
+    YAML.unsafe_load_file(file)
+  else
+    YAML.load_file(self[:encoded_value])
+  end
+end
+
 def process_files
   success = true
   Dir['products/*.md'].each do |markdown_file|
-    hash = YAML.load_file(markdown_file, permitted_classes: [Date])
+    hash = @hash = load_yaml(markdown_file)
     hash['releases'].each do |r|
       STRING_KEYS.each do |k|
         if r.key? k
