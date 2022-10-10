@@ -5,7 +5,7 @@ releasePolicyLink: https://get.typo3.org/
 # https://rubular.com/r/3pouRtwM0s9Usv
 auto:
 -   git: https://github.com/TYPO3/typo3.git
-    regex: '^(v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?)|(TYPO3_(?<major>\d)-(?<minor>\d)-(?<patch>\d+(FINAL)?))$'
+    regex: '^(v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?)|(TYPO3_(?<major>\d)-(?<minor>\d)-((?<patch>\d+)(FINAL)?))$'
 releases:
 -   releaseCycle: "11"
     eol: 2024-10-31
