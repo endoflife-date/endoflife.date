@@ -11,21 +11,27 @@ activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: terraform --version
 releases:
+# EOL(R) = releaseDate(R+2)
 -   releaseCycle: "1.3"
-    eol: false
+    eol: false # releaseDate(1.5)
     releaseDate: 2022-09-21
     latestReleaseDate: 2022-10-06
     latest: "1.3.2"
 -   releaseCycle: "1.2"
-    eol: false
+    eol: false # releaseDate(1.4)
     latest: "1.2.9"
     latestReleaseDate: 2022-09-07
     releaseDate: 2022-05-18
 -   releaseCycle: "1.1"
-    eol: false
+    eol: 2022-09-21
     latest: "1.1.9"
     latestReleaseDate: 2022-04-20
     releaseDate: 2021-12-08
+-   releaseCycle: "1.0"
+    eol: 2022-05-18
+    releaseDate: 2021-06-08
+    latestReleaseDate: 2021-11-10
+    latest: '1.0.11'
 
 ---
 
