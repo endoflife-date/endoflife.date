@@ -15,50 +15,41 @@ releases:
     eol: 2023-04-24
     releaseDate: 2022-07-24
     latestReleaseDate: 2022-07-24
-    latest: '7.8'
 -   releaseCycle: "7.7"
     eol: 2022-12-27
     releaseDate: 2022-03-27
     latestReleaseDate: 2022-03-27
-    latest: '7.7'
--   releaseCycle: "7.5 CE"
+-   releaseCycle: "7.5-ce"
     eol: 2024-03-06
     releaseDate: 2022-03-06
 -   releaseCycle: "7.6"
     eol: 2022-09-05
     releaseDate: 2021-12-05
     latestReleaseDate: 2021-12-05
-    latest: '7.6'
 -   releaseCycle: "7.5"
     eol: 2022-08-22
     releaseDate: 2021-08-22
     latestReleaseDate: 2022-03-06
-    latest: '7.5-ce'
 -   releaseCycle: "7.4"
     eol: 2022-05-24
     releaseDate: 2021-05-24
     latestReleaseDate: 2021-05-24
-    latest: '7.4'
 -   releaseCycle: "7.3"
     eol: 2022-02-01
     releaseDate: 2021-02-01
     latestReleaseDate: 2021-02-01
-    latest: '7.3'
 -   releaseCycle: "7.2"
     eol: 2022-03-07
     releaseDate: 2020-09-07
     latestReleaseDate: 2020-09-07
-    latest: '7.2'
 -   releaseCycle: "7.1"
     eol: 2021-06-04
     releaseDate: 2020-04-22
     latestReleaseDate: 2020-04-22
-    latest: '7.1'
 -   releaseCycle: "7.0"
     eol: 2021-06-04
     releaseDate: 2019-12-04
     latestReleaseDate: 2019-12-04
-    latest: '7.0'
 -   releaseCycle: "6.1"
     eol: 2022-07-01
     releaseDate: 2019-07-02
