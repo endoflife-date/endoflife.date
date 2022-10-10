@@ -1,9 +1,10 @@
 ---
 title: Moodle
 category: server-app
-
 changelogTemplate: "https://docs.moodle.org/dev/Moodle___LATEST___release_notes"
-
+# https://rubular.com/r/rPNtHvPDccyoU3
+auto:
+-   git: https://github.com/moodle/moodle.git
 releases:
 -   releaseCycle: "4.0"
     eol: 2023-11-13
