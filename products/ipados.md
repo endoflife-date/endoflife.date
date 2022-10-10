@@ -20,12 +20,13 @@ releases:
     eol: 2021-10-01
     releaseDate: 2020-09-16
     latestReleaseDate: 2021-10-26
-    latest: 14.8.1
+    latest: '14.8.1'
 -   releaseCycle: "13"
     eol: 2020-09-16
     releaseDate: 2019-09-24
     latestReleaseDate: 2020-07-15
     latest: '13.6'
+
 
 ---
 

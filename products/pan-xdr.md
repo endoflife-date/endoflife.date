@@ -33,7 +33,7 @@ releases:
     eol: 2022-08-22
     releaseDate: 2021-08-22
     latestReleaseDate: 2022-03-06
-    latest: 7.5-ce
+    latest: '7.5-ce'
 -   releaseCycle: "7.4"
     eol: 2022-05-24
     releaseDate: 2021-05-24

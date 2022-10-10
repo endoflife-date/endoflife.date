@@ -21,7 +21,7 @@ releases:
     eol: false
     releaseDate: 2022-08-09
     latestReleaseDate: 2022-09-20
-    latest: 1.13.2
+    latest: '1.13.2'
 -   releaseCycle: "1.12"
     eol: false
     latest: "1.12.5"

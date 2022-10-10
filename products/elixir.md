@@ -10,9 +10,15 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/elixir-lang/elixir.git
 releases:
+-   releaseCycle: "1.14"
+    releaseDate: 2022-09-01
+    eol: false # release date of 1.19
+    support: true # release date of 1.15
+    latestReleaseDate: 2022-09-01
+    latest: "1.14.0"
 -   releaseCycle: "1.13"
     eol: 2024-06-01 # projected release date of 1.18.0
-    support: 2022-06-01 # projected release date of 1.14.0
+    support: 2022-09-01 # release date of 1.14.0
     latest: "1.13.4"
     latestReleaseDate: 2022-04-07
     releaseDate: 2021-12-03
@@ -35,7 +41,7 @@ releases:
     latestReleaseDate: 2020-07-04
     releaseDate: 2020-01-27
 -   releaseCycle: "1.9"
-    eol: 2022-06-01 # projected release date of 1.14.0
+    eol: 2022-09-01 # release date of 1.14.0
     support: 2020-01-27 # release date of 1.10.0
     latest: "1.9.4"
     latestReleaseDate: 2019-11-05

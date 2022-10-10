@@ -15,17 +15,17 @@ releases:
     eol: false
     releaseDate: 2022-09-22
     latestReleaseDate: 2022-09-22
-    latest: 9.0.1
+    latest: '9.0.1'
 -   releaseCycle: "8"
     eol: 2022-09-22
     releaseDate: 2021-10-11
     latestReleaseDate: 2022-08-17
-    latest: 8.7.1
+    latest: '8.7.1'
 -   releaseCycle: "7"
     eol: 2021-10-11
     releaseDate: 2020-09-16
     latestReleaseDate: 2021-09-13
-    latest: 7.6.2
+    latest: '7.6.2'
 -   releaseCycle: "6"
     eol: 2020-09-16
     releaseDate: 2019-09-30
@@ -35,17 +35,17 @@ releases:
     eol: 2019-09-30
     releaseDate: 2018-09-27
     latestReleaseDate: 2020-11-05
-    latest: 5.3.9
+    latest: '5.3.9'
 -   releaseCycle: "4"
     eol: 2018-09-27
     releaseDate: 2017-10-04
     latestReleaseDate: 2018-07-09
-    latest: 4.3.2
+    latest: '4.3.2'
 -   releaseCycle: "3"
     eol: 2017-10-04
     releaseDate: 2016-10-24
     latestReleaseDate: 2017-07-19
-    latest: 3.2.3
+    latest: '3.2.3'
 
 ---
 
