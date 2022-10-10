@@ -15,18 +15,26 @@ releases:
     codename: 'Noetic Ninjemys'
     eol: 2025-05-01
     releaseDate: 2020-05-23
+    latestReleaseDate: 2020-05-23
+    latest: noetic
 -   releaseCycle: 'melodic'
     codename: 'Melodic Morenia'
     eol: 2023-04-01
     releaseDate: 2018-05-23
+    latestReleaseDate: 2018-05-23
+    latest: melodic
 -   releaseCycle: 'lunar'
     codename: 'Lunar Loggerhead'
     eol: 2019-05-01
     releaseDate: 2017-05-23
+    latestReleaseDate: 2017-05-23
+    latest: lunar
 -   releaseCycle: 'kinetic'
     codename: 'Kinetic Kame'
     eol: 2021-05-01
-    releaseDate: 2016-04-23
+    releaseDate: 2016-05-23
+    latestReleaseDate: 2016-05-23
+    latest: kinetic
 
 ---
 
