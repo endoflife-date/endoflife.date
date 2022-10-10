@@ -7,6 +7,7 @@ from glob import glob
 from pathlib import Path
 from distutils.version import StrictVersion
 from ruamel.yaml import YAML
+from ruamel.yaml.resolver import Resolver
 from deepdiff import DeepDiff
 from io import StringIO
 from os.path import exists
@@ -33,6 +34,18 @@ def sort_versions(data):
         a[1::2] = map(int, a[1::2])
         return a
     return sorted(data, key=lambda n: key(n))
+
+# https://stackoverflow.com/a/71329221/368328
+# Force encoding version numbers as strings
+Resolver.add_implicit_resolver(
+    'tag:yaml.org,2002:string',
+    re.compile(r'\d+\.\d+\.\d+', re.X),
+    list('.0123456789'))
+Resolver.add_implicit_resolver(
+    'tag:yaml.org,2002:string',
+    re.compile(r'\d+\.\d+', re.X),
+    list('.0123456789'))
+
 
 """
 matches releases that are exact (such as 4.1 being the first release for the 4.1 release cycle)
