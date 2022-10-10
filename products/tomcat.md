@@ -65,13 +65,15 @@ Initial releases of a new major version typically process from Alpha, through Be
 
 Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly an year in advance.
 
+Generally 3 major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as stable Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
+
 ## Java Compatibility
 
 Different versions of Apache Tomcat are available for different versions of the specifications, and the Tomcat website has a [table](https://tomcat.apache.org/whichversion.html) documenting which version of the specification is implemented by a given release.
 
 | Tomcat Version | Minimum Java Version |
 |----------------|----------------------|
-| 10.1 (Beta)    | 11                   |
+| 10.1           | 11                   |
 | 10.0           | 8                    |
 | 9              | 8                    |
 | 8.5            | 7                    |
