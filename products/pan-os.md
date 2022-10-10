@@ -31,8 +31,9 @@ releases:
 -   releaseCycle: "9.1"
     eol: 2023-12-13
     releaseDate: 2019-12-13
-    latest: "9.1.14-h4"
+    latest: "9.1"
     link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues
+    latestReleaseDate: 2019-12-13
 -   releaseCycle: "9.0-XFR (VM-Series only)"
     eol: 2020-09-19
     releaseDate: 2019-09-19
@@ -41,15 +42,16 @@ releases:
     latestReleaseDate: 2019-09-19
 -   releaseCycle: "9.0"
     eol: 2022-03-01
-    releaseDate: 2019-09-19
-    latest: "9.0-XFR (VM-Series only)"
+    releaseDate: 2019-02-06
+    latest: "9.0-xfr"
     link: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-release-notes/pan-os-9-0-addressed-issues
     latestReleaseDate: 2019-09-19
 -   releaseCycle: "8.1"
     eol: 2022-03-01
     releaseDate: 2018-03-01
-    latest: "8.1.23-h1"
+    latest: "8.1"
     link: https://docs.paloaltonetworks.com/pan-os/8-1/pan-os-release-notes/pan-os-8-1-addressed-issues
+    latestReleaseDate: 2018-03-01
 -   releaseCycle: "8.0"
     eol: 2019-10-31
     releaseDate: 2017-01-29
