@@ -9,6 +9,7 @@ auto:
 releases:
 -   releaseCycle: "11"
     eol: 2024-10-31
+    lts: 2021-10-05
     support: 2023-03-31
     releaseDate: 2021-10-05
     latest: "11.5.16"
@@ -16,6 +17,7 @@ releases:
     latestReleaseDate: 2022-09-13
 -   releaseCycle: "10"
     eol: 2023-04-30
+    lts: 2020-04-07
     support: 2021-10-31
     releaseDate: 2020-04-21
     latest: "10.4.32"
