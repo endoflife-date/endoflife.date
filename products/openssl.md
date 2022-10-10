@@ -19,20 +19,24 @@ releases:
     latest: "3.0.5"
     lts: true
     releaseDate: 2021-09-07
+    latestReleaseDate: 2022-07-05
 -   releaseCycle: "1.1.1"
     eol: 2023-09-11
-    latest: "1.1.1q"
+    latest: "1.1.1"
     lts: true
     releaseDate: 2018-09-11
+    latestReleaseDate: 2018-09-11
 -   releaseCycle: "1.1.0"
     eol: 2019-09-11
-    latest: "1.1.0l"
-    releaseDate: 2016-08-26
+    latest: "1.1.0"
+    releaseDate: 2016-08-25
+    latestReleaseDate: 2016-08-25
 -   releaseCycle: "1.0.2"
     eol: 2019-12-31
-    latest: "1.0.2u"
+    latest: "1.0.2"
     lts: true
     releaseDate: 2015-01-22
+    latestReleaseDate: 2015-01-22
 
 ---
 

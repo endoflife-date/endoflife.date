@@ -17,25 +17,25 @@ auto:
 releases:
 -   releaseCycle: "3.7"
     eol: false
-    latest: "3.7.2"
-    latestReleaseDate: 2022-04-28
+    latest: "3.7.3"
+    latestReleaseDate: 2022-10-08
     releaseDate: 2022-02-06
 -   releaseCycle: "3.6"
     eol: false
-    latest: "3.6.6"
-    latestReleaseDate: 2022-04-18
+    latest: "3.6.7"
+    latestReleaseDate: 2022-10-08
     releaseDate: 2021-04-29
     link: https://www.postfix.org/announcements/postfix-3.7.1.html
 -   releaseCycle: "3.5"
     eol: false
-    latest: "3.5.16"
-    latestReleaseDate: 2022-04-18
+    latest: "3.5.17"
+    latestReleaseDate: 2022-10-08
     releaseDate: 2020-03-15
     link: https://www.postfix.org/announcements/postfix-3.7.1.html
 -   releaseCycle: "3.4"
     eol: false
-    latest: "3.4.26"
-    latestReleaseDate: 2022-04-18
+    latest: "3.4.27"
+    latestReleaseDate: 2022-10-08
     releaseDate: 2019-02-27
     link: https://www.postfix.org/announcements/postfix-3.7.1.html
 -   releaseCycle: "3.3"

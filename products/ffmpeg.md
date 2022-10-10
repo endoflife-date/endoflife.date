@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "4.4"
     codename: Rao
     eol: false
-    latest: "4.4.2"
-    latestReleaseDate: 2022-04-14
+    latest: "4.4.3"
+    latestReleaseDate: 2022-10-09
     releaseDate: 2021-04-08
 
 -   releaseCycle: "4.3"
