@@ -48,6 +48,9 @@ def find_first(releases, prefix):
 def find_last(releases, prefix):
   return next(filter(lambda r: releases_matches(r, prefix), reversed(releases)), None)
 
+def find_all(releases, prefix):
+  return set(filter(lambda r: releases_matches(r, prefix), releases))
+
 def yaml_to_str(obj):
   yaml = YAML()
   yaml.indent(sequence=4)
@@ -69,12 +72,14 @@ def update_product(name):
 
     fn = '_data/release-data/releases/%s.json' % (name)
     if exists(fn):
-      print("Updating %s" % fn)
       with open(fn) as releases_file:
         # Entire releases data as a dict
         R1 = json.loads(releases_file.read())
         # Just the list of versions
         R2 = sort_versions(R1.keys())
+        R3 = set(R2)
+
+      updated = False
 
       for release in data['releases']:
         old = release.copy()
@@ -83,22 +88,34 @@ def update_product(name):
         first_version = find_first(R2, prefix)
         latest_version = find_last(R2, prefix)
 
+        R3 = R3 - find_all(R3, prefix)
+
         if first_version:
           release['releaseDate'] = datetime.date.fromisoformat(R1[first_version])
           release['latestReleaseDate'] = datetime.date.fromisoformat(R1[latest_version])
           release['latest'] = latest_version
           diff = DeepDiff(old, release, ignore_order=True)
 
+          # We write back to the file
           if(diff!={}):
-            # We write back to the file
+            updated = True
 
-            final_contents = DEFAULT_POST_TEMPLATE.format(
-              metadata=yaml_to_str(data),
-              content=content)
+      if updated:
+        print("Updating %s" % fn)
+        final_contents = DEFAULT_POST_TEMPLATE.format(
+          metadata=yaml_to_str(data),
+          content=content)
 
-            f.seek(0)
-            f.truncate()
-            f.write(final_contents)
+        f.seek(0)
+        f.truncate()
+        f.write(final_contents)
+
+      if len(R3) != 0:
+        for x in R3:
+          date = datetime.date.fromisoformat(R1[x])
+          days_since_release = (datetime.date.today() - date).days
+          if days_since_release < 30:
+            print("[WARN] %s:%s (%s) not included" % (name, x, R1[x]))
 
 if __name__ == '__main__':
   if len(sys.argv) > 1:
