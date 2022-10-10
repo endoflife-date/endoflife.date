@@ -28,13 +28,13 @@ releases:
     eol: 2022-04-01
     releaseDate: 2022-01-13
     latestReleaseDate: 2022-02-17
-    latest: 5.2.1
+    latest: '5.2.1'
 -   releaseCycle: "5.1"
     codename: "rapid"
     eol: 2022-01-01
     releaseDate: 2021-11-04
     latestReleaseDate: 2021-12-01
-    latest: 5.1.1
+    latest: '5.1.1'
 -   releaseCycle: "5.0"
     eol: 2024-10-01
     latest: "5.0.13"
@@ -88,37 +88,37 @@ releases:
 -   releaseCycle: "2.2"
     eol: 2014-02-28
     latestReleaseDate: 2014-01-15
-    latest: 2.2.7
+    latest: '2.2.7'
     releaseDate: 2012-08-28
 -   releaseCycle: "2.0"
     eol: 2013-03-31
     latestReleaseDate: 2013-04-02
-    latest: 2.0.9
+    latest: '2.0.9'
     releaseDate: 2011-09-11
 -   releaseCycle: "1.8"
     eol: 2012-09-30
     latestReleaseDate: 2012-02-01
-    latest: 1.8.5
+    latest: '1.8.5'
     releaseDate: 2011-03-16
 -   releaseCycle: "1.6"
     eol: 2012-02-28
     latestReleaseDate: 2010-12-08
-    latest: 1.6.5
+    latest: '1.6.5'
     releaseDate: 2010-08-05
 -   releaseCycle: "1.4"
     eol: 2012-09-30
     latestReleaseDate: 2010-08-31
-    latest: 1.4.5
+    latest: '1.4.5'
     releaseDate: 2010-03-25
 -   releaseCycle: "1.2"
     eol: 2011-06-30
     latestReleaseDate: 2010-04-07
-    latest: 1.2.5
+    latest: '1.2.5'
     releaseDate: 2009-12-10
 -   releaseCycle: "1.0"
     eol: 2010-08-31
     latestReleaseDate: 2009-10-22
-    latest: 1.0.1
+    latest: '1.0.1'
     releaseDate: 2009-08-27
 
 ---

@@ -2,25 +2,35 @@
 title: Perl
 category: lang
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
+releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 auto:
   # Using the default regex loses all releases before 5.10
   # Feel free to file a PR to fix this
 -   git: https://github.com/Perl/perl5.git
 releases:
+# eol dates are always releaseDate + 3 YEARS
+# support: true for latest 2 releases
+# support: releaseDate(R+2) for R-th release
+# So the support(5.34) = releaseDate(5.36)
 -   releaseCycle: "5.37"
-    eol: false
+    eol: 2025-05-27
+    support: true
     releaseDate: 2022-05-27
     latestReleaseDate: 2022-09-20
-    latest: 5.37.4
+    latest: "5.37.4"
 -   releaseCycle: "5.36"
     eol: 2025-05-27
     support: true
     latest: "5.36.0"
     latestReleaseDate: 2022-05-27
     releaseDate: 2022-05-27
+-   releaseCycle: "5.35"
+    releaseDate: 2021-05-20
+    latestReleaseDate: 2022-04-20
+    latest: '5.35.11'
 -   releaseCycle: "5.34"
     eol: 2024-05-20
-    support: true
+    support: 2022-05-27
     latest: "5.34.1"
     latestReleaseDate: 2022-03-12
     releaseDate: 2021-05-20

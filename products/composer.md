@@ -29,7 +29,7 @@ releases:
     lts: true
     releaseDate: 2021-12-22
 
--   releaseCycle: "1.x"
+-   releaseCycle: "1"
     latest: "1.10.26"
     latestReleaseDate: 2022-04-13
     eol: 2020-10-24

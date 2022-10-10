@@ -17,6 +17,11 @@ auto:
     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
     template: "{{major}}.{{minor}}.{{patch}}{%if tiny%}.{{tiny}}{%endif%}"
 releases:
+-   releaseCycle: "2.5"
+    eol: false
+    releaseDate: 2022-08-31
+    latestReleaseDate: 2022-08-31
+    latest: '2.5.0'
 -   releaseCycle: "2.4"
     eol: false
     releaseDate: 2020-12-15
