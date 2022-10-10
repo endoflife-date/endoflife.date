@@ -10,6 +10,9 @@ eolColumn: Supported
 activeSupportColumn: false
 versionCommand: openssl version
 releaseDateColumn: true
+auto:
+-   git: https://github.com/openssl/openssl.git
+    regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?<major>\d+)[\.|_](?<minor>\d+)[\.|_](?<patch>\d+\w{0,2})?$'
 releases:
 -   releaseCycle: "3.0"
     eol: 2026-09-07
