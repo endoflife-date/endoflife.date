@@ -11,6 +11,11 @@ auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
     regex: ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
 releases:
+-   releaseCycle: "3.11"
+    eol: false
+    releaseDate: 2022-09-26
+    latestReleaseDate: 2022-09-26
+    latest: 3.11.0
 -   releaseCycle: "3.10"
     eol: false
     latest: "3.10.8"
@@ -22,7 +27,7 @@ releases:
     latestReleaseDate: 2022-09-22
     releaseDate: 2021-07-23
 -   releaseCycle: "3.8"
-    eol: 2022-01-31
+    eol: 2022-07-31
     latest: "3.8.35"
     latestReleaseDate: 2022-07-09
     releaseDate: 2019-10-01
