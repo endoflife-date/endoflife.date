@@ -22,7 +22,7 @@ releases:
     eol: false
     latest: "2.4.1"
     latestReleaseDate: 2022-09-30
-    releaseDate: 2020-12-07
+    releaseDate: 2020-12-17
 -   releaseCycle: "1.10"
     eol: 2021-07-17
     releaseDate: 2018-08-27
@@ -30,12 +30,12 @@ releases:
     latestReleaseDate: 2021-03-17
 -   releaseCycle: "1.9"
     eol: 2018-08-27
-    releaseDate: 2018-03-01
+    releaseDate: 2018-01-02
     latest: "1.9.0"
     latestReleaseDate: 2018-01-02
 -   releaseCycle: "1.8"
     eol: 2018-01-03
-    releaseDate: 2017-03-19
+    releaseDate: 2017-05-09
     latest: "1.8.2"
     latestReleaseDate: 2017-09-04
 -   releaseCycle: "1.7"
