@@ -7,6 +7,11 @@ auto:
   # Feel free to file a PR to fix this
 -   git: https://github.com/Perl/perl5.git
 releases:
+-   releaseCycle: "5.37"
+    eol: false
+    releaseDate: 2022-05-27
+    latestReleaseDate: 2022-09-20
+    latest: 5.37.4
 -   releaseCycle: "5.36"
     eol: 2025-05-27
     support: true

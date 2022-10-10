@@ -26,37 +26,50 @@ releases:
     latest: "5.0.17"
     latestReleaseDate: 2022-05-10
     releaseDate: 2020-11-10
--   releaseCycle: "Core 3.1"
+-   releaseCycle: "3.1"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     lts: true
-    latest: "3.1.29"
-    latestReleaseDate: 2022-09-13
+    latest: "3.1.201"
+    latestReleaseDate: 2020-03-24
     eol: 2022-12-13
     releaseDate: 2019-12-03
--   releaseCycle: "Core 3.0"
+-   releaseCycle: "3.0"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     latest: "3.0.3"
     eol: 2020-03-03
     releaseDate: 2019-09-23
--   releaseCycle: "Core 2.2"
+    latestReleaseDate: 2020-02-19
+-   releaseCycle: "2.2"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     latest: "2.2.8"
     eol: 2019-12-23
     releaseDate: 2018-12-04
--   releaseCycle: "Core 2.1"
+    latestReleaseDate: 2019-11-19
+-   releaseCycle: "2.1"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     lts: true
     latest: "2.1.30"
     eol: 2021-08-21
     releaseDate: 2018-05-30
--   releaseCycle: "Core 2.0"
+    latestReleaseDate: 2021-08-19
+-   releaseCycle: "2.0"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     eol: 2018-10-01
     latest: "2.0.9"
     releaseDate: 2017-08-14
--   releaseCycle: "Core 1.1"
+    latestReleaseDate: 2018-07-10
+-   releaseCycle: "1.1"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     eol: 2019-06-27
     latest: "1.1.13"
     releaseDate: 2016-11-16
--   releaseCycle: "Core 1.0"
+    latestReleaseDate: 2019-05-15
+-   releaseCycle: "1.0"
+    releaseLabel: "Core __RELEASE_CYCLE__"
     eol: 2019-06-27
     latest: "1.0.16"
-    releaseDate: 2016-06-27
+    releaseDate: 2022-04-27
+    latestReleaseDate: 2019-05-15
 
 ---
 
