@@ -2,9 +2,14 @@
 title: TYPO3
 category: server-app
 releasePolicyLink: https://get.typo3.org/
+# https://rubular.com/r/3pouRtwM0s9Usv
+auto:
+-   git: https://github.com/TYPO3/typo3.git
+    regex: '^(v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?)|(TYPO3_(?<major>\d)-(?<minor>\d)-((?<patch>\d+)(FINAL)?))$'
 releases:
 -   releaseCycle: "11"
     eol: 2024-10-31
+    lts: 2021-10-05
     support: 2023-03-31
     releaseDate: 2021-10-05
     latest: "11.5.16"
@@ -12,6 +17,7 @@ releases:
     latestReleaseDate: 2022-09-13
 -   releaseCycle: "10"
     eol: 2023-04-30
+    lts: 2020-04-07
     support: 2021-10-31
     releaseDate: 2020-04-21
     latest: "10.4.32"
