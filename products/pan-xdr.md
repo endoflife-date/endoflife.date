@@ -10,6 +10,8 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End-of-life Date
+auto:
+-   custom: true
 releases:
 -   releaseCycle: "7.8"
     eol: 2023-04-24
@@ -17,7 +19,8 @@ releases:
 -   releaseCycle: "7.7"
     eol: 2022-12-27
     releaseDate: 2022-03-27
--   releaseCycle: "7.5 CE"
+-   releaseCycle: "7.5-ce"
+    releaseLabel: "7.5 CE"
     eol: 2024-03-06
     releaseDate: 2022-03-06
 -   releaseCycle: "7.6"
