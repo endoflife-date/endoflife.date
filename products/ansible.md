@@ -47,7 +47,7 @@ releases:
 
 -   releaseCycle: "2.9"
     release: 2019-10-31
-    eol: false
+    eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-02-09
     releaseDate: 2020-09-22
