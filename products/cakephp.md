@@ -26,6 +26,22 @@ releases:
     latestReleaseDate: 2022-08-28
     link: https://bakery.cakephp.org/2022/08/28/cakephp_445_released.html
     codename: Strawberry
+  - releaseCycle: "4.3"
+    eol: true
+    support: false
+    releaseDate: 2021-10-24
+  - releaseCycle: "4.2"
+    eol: true
+    support: 2021-10-24
+    releaseDate: 2020-12-21
+  - releaseCycle: "4.1"
+    eol: true
+    support: 2020-12-21
+    releaseDate: 2020-07-05
+  - releaseCycle: "4.0"
+    eol: true
+    support: 2020-07-05
+    releaseDate: 2019-12-16
   - releaseCycle: "3.10"
     eol: 2022-12-15
     support: 2021-12-15
