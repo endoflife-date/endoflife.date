@@ -21,7 +21,7 @@ layout: page
 
 ## :octocat: Hacktoberfest
 
-This project is participating in Hacktoberfest 2021. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
+This project is participating in Hacktoberfest 2022. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
 
 ## 🕐 What's this project?
 
