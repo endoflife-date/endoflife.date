@@ -8,6 +8,7 @@ iconSlug: vmware
 category: app
 releasePolicyLink: https://lifecycle.vmware.com
 activeSupportColumn: Technical Guidance
+eolColumn: General Support
 releaseColumn: false
 releaseDateColumn: true
 releaseLabel: 'Horizon __RELEASE_CYCLE__ __CODENAME__'

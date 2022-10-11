@@ -10,7 +10,7 @@ alternate_urls:
 activeSupportColumn: Technical Guidance
 releasePolicyLink: https://lifecycle.vmware.com
 releaseDateColumn: true
-eolColumn: Service Status
+eolColumn: General Support
 discontinuedColumn: false
 versionCommand: vmware -l
 releases:
