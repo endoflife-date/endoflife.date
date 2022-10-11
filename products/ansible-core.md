@@ -33,7 +33,7 @@ releases:
     
   - releaseCycle: "2.10"
     releaseDate: 2020-08-13
-    eol: false
+    eol: 2022-05-23
     latest: "2.10.17"
     latestReleaseDate: 2022-01-31
 
