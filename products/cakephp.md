@@ -22,9 +22,9 @@ releases:
     eol: false
     support: true
     releaseDate: 2019-12-15
-    latest: "4.4.5"
-    latestReleaseDate: 2022-08-28
-    link: https://bakery.cakephp.org/2022/08/28/cakephp_445_released.html
+    latest: "4.4.6"
+    latestReleaseDate: 2022-10-02
+    link: https://github.com/cakephp/cakephp/releases/4.4.6
     codename: Strawberry
   - releaseCycle: "4.3"
     eol: true
