@@ -28,8 +28,11 @@ releases:
     codename: Strawberry
   - releaseCycle: "4.3"
     eol: true
-    support: false
+    support: true
     releaseDate: 2021-10-24
+    latest: "4.3.10"
+    latestReleaseDate: 2022-06-03
+    link: https://github.com/cakephp/cakephp/releases/4.3.10
   - releaseCycle: "4.2"
     eol: true
     support: 2021-10-24
