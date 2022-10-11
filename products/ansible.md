@@ -40,7 +40,7 @@ releases:
     releaseDate: 2021-02-18
 
 -   releaseCycle: "2.10"
-    eol: true
+    eol: 2021-02-09
     latest: "2.10.7"
     latestReleaseDate: 2021-02-09
     releaseDate: 2020-09-22
