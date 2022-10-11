@@ -11,7 +11,7 @@ releases:
     eol: 2024-10-31
     lts: 2021-10-05
     support: 2023-03-31
-    releaseDate: 2021-10-05
+    releaseDate: 2020-12-22
     latest: "11.5.16"
     link: https://typo3.org/article/typo3-v11-lts-warp-speed
     latestReleaseDate: 2022-09-13
@@ -19,29 +19,29 @@ releases:
     eol: 2023-04-30
     lts: 2020-04-07
     support: 2021-10-31
-    releaseDate: 2020-04-21
+    releaseDate: 2019-07-23
     latest: "10.4.32"
     link: https://typo3.org/article/typo3-v10-safe-and-sound/
     latestReleaseDate: 2022-09-13
 -   releaseCycle: "9"
     eol: 2021-09-30
     support: 2020-04-30
-    releaseDate: 2018-08-02
+    releaseDate: 2017-12-12
     latest: "9.5.31"
     link: https://typo3.org/article/typo3-v9-lts-you-re-the-one-that-i-want
     latestReleaseDate: 2021-09-21
 -   releaseCycle: "8"
     eol: 2020-03-31
     support: 2018-09-30
-    releaseDate: 2017-04-04
+    releaseDate: 2016-03-22
     latest: "8.7.32"
     link: https://typo3.org/download/release-notes/typo3-v8-release-notes/
     latestReleaseDate: 2020-03-31
 -   releaseCycle: "7"
     eol: 2018-12-01
     support: 2017-04-01
-    releaseDate: 2015-11-10
-    latest: "7.6.36"
+    releaseDate: 2014-12-02
+    latest: "7.6.32"
     link: https://typo3.org/download/release-notes/typo3-v8-release-notes/
     latestReleaseDate: 2018-12-11
 purls:
