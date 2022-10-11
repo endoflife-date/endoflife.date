@@ -7,6 +7,7 @@ alternate_urls:
 category: framework
 iconSlug: cakephp
 releasePolicyLink: https://book.cakephp.org/4/en/release-policy.html
+changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 releaseLabel: "CakePHP __RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
 releaseDateColumn: true
@@ -24,7 +25,6 @@ releases:
     releaseDate: 2019-12-15
     latest: "4.4.6"
     latestReleaseDate: 2022-10-02
-    link: https://github.com/cakephp/cakephp/releases/4.4.6
     codename: Strawberry
   - releaseCycle: "4.3"
     eol: true
@@ -32,7 +32,6 @@ releases:
     releaseDate: 2021-10-24
     latest: "4.3.10"
     latestReleaseDate: 2022-06-03
-    link: https://github.com/cakephp/cakephp/releases/4.3.10
   - releaseCycle: "4.2"
     eol: true
     support: 2021-10-24
