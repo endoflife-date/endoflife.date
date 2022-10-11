@@ -11,7 +11,6 @@ releaseLabel: "CakePHP __RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
-eolColumn: End of Life
 discontinuedColumn: false
 versionCommand: php bin/cake.php version
 
