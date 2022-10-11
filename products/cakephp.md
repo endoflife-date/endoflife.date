@@ -20,23 +20,19 @@ auto:
 
 releases:
   - releaseCycle: "4.4"
-    releaseLabel: "CakePHP 4.4 Strawberry"
     eol: false
-    support: false
+    support: true
     releaseDate: 2019-12-15
     latest: "4.4.5"
     latestReleaseDate: 2022-08-28
-    lts: false
     link: https://bakery.cakephp.org/2019/12/15/cakephp_400_released.html
     codename: Strawberry
   - releaseCycle: "3.10"
-    releaseLabel: "CakePHP 3.10"
     eol: 2022-12-15
     support: 2021-12-15
     releaseDate: 2021-06-20
     latest: "3.10.4"
     latestReleaseDate: 2022-05-21
-    lts: false
     link: https://bakery.cakephp.org/2021/06/19/cakephp_3100_released.html
 
 ---
