@@ -57,7 +57,6 @@ releases:
     eol: 2022-12-15
     support: 2021-12-15
     releaseDate: 2021-06-20
-    latest: "3.10.4"
     latestReleaseDate: 2022-05-21
     link: https://bakery.cakephp.org/2022/05/21/cakephp_3104_released.html
 
