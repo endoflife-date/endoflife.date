@@ -132,7 +132,7 @@ releases:
   - releaseCycle: "1.3"
     latest: "1.3.21"
     eol: true
-    support:false
+    support: false
     releaseDate: 2010-04-25
     latestReleaseDate: 2015-11-01
     link: https://bakery.cakephp.org/2015/11/01/cakephp_1_3_21_released.html
