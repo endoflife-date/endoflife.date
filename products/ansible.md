@@ -34,7 +34,7 @@ releases:
     releaseDate: 2021-05-18
 
 -   releaseCycle: "3"
-    eol: true
+    eol: 2021-05-11
     latest: "3.4.0"
     latestReleaseDate: 2021-05-13
     releaseDate: 2021-02-18
