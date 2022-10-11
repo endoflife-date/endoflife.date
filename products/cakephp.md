@@ -36,33 +36,43 @@ releases:
   - releaseCycle: "3.9"
     eol: true
     support: false
+    releaseDate: 2020-06-21
   - releaseCycle: "3.8"
     eol: true
-    support: false
+    support: 2020-06-21
+    releaseDate: 2019-06-27
   - releaseCycle: "3.7"
     eol: true
-    support: false
+    support: 2019-06-27
+    releaseDate: 2018-12-09
   - releaseCycle: "3.6"
     eol: true
-    support: false
+    support: 2018-12-09
+    releaseDate: 2018-04-15
   - releaseCycle: "3.5"
     eol: true
-    support: false
+    support: 2018-04-15
+    releaseDate: 2017-08-19
   - releaseCycle: "3.4"
     eol: true
-    support: false
+    support: 2017-08-19
+    releaseDate: 2017-02-13
   - releaseCycle: "3.3"
     eol: true
-    support: false
+    support: 2017-02-13
+    releaseDate: 2016-08-13
   - releaseCycle: "3.2"
     eol: true
-    support: false
+    support: 2016-08-13
+    releaseDate: 2016-01-16
   - releaseCycle: "3.1"
-    eol: true
-    support: false
+    eol: 2017-02-13
+    support: 2016-01-16
+    releaseDate: 2015-09-20
   - releaseCycle: "3.0"
     eol: true
-    support: false
+    support: 2015-09-20
+    releaseDate: 2015-03-22
 
 ---
 
