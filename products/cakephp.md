@@ -37,7 +37,7 @@ releases:
     latest: "3.10.4"
     latestReleaseDate: 2022-05-21
     lts: false
-    link: [https://bakery.cakephp.org/2019/12/15/cakephp_400_released.html](https://bakery.cakephp.org/2021/06/19/cakephp_3100_released.html)
+    link: https://bakery.cakephp.org/2021/06/19/cakephp_3100_released.html
 
 ---
 
