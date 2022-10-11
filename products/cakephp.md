@@ -128,6 +128,14 @@ releases:
     releaseDate: 2017-07-22
     latestReleaseDate: 2020-12-16
     link: https://bakery.cakephp.org/2020/12/15/cakephp_21024_released.html
+    
+  - releaseCycle: "1.3"
+    latest: "1.3.21"
+    eol: true
+    support:false
+    releaseDate: 2010-04-25
+    latestReleaseDate: 2015-11-01
+    link: https://bakery.cakephp.org/2015/11/01/cakephp_1_3_21_released.html
 
 ---
 
