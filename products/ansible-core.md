@@ -13,6 +13,12 @@ iconSlug: ansible
 auto:
   git: https://github.com/ansible/ansible.git
 releases:
+  - releaseCycle: "2.13"
+    releaseDate: 2022-05-16
+    eol: false
+    latest: "2.13.4"
+    latestReleaseDate: 2022-09-12
+
   - releaseCycle: "2.12"
     releaseDate: 2021-11-05
     eol: false
