@@ -120,6 +120,14 @@ releases:
     eol: true
     support: 2015-09-20
     releaseDate: 2015-03-22
+    
+  - releaseCycle: "2.10"
+    latest: "2.10.24"
+    eol: true
+    support: 2019-12-16
+    releaseDate: 2017-07-22
+    latestReleaseDate: 2020-12-16
+    link: https://bakery.cakephp.org/2020/12/15/cakephp_21024_released.html
 
 ---
 
