@@ -100,10 +100,13 @@ Have a look at the [Bakery](https://bakery.cakephp.org/) for fresh [releases](ht
   
 ## PHP Support
 
-Version    | PHP
------------|-----------
-4.4        | 7.4+
-4.0 - 4.3  | 7.2 - 8.0
-3          | 5.6 - 7.4
+Version    | Min PHP | Max PHP
+-----------|---------|--------
+4.4        | 7.4     | Latest
+4.0 - 4.3  | 7.2     | 
+3.4 - 3.10 | 5.6     | 7.4
+3.2 - 3.3  | 5.5     |
+3.0 - 3.1  | 5.4     |
+2          | 5.4     | 7.4
  
-  
+See [Version map](https://github.com/cakephp/cakephp/wiki#version-map)
