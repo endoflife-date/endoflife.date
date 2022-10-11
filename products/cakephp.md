@@ -37,7 +37,7 @@ releases:
 
 ---
 
-> [CakePHP](https://cakephp.org/) is a free & open source PHP web development framework.
+> [CakePHP](https://cakephp.org/) is a free & open source PHP web development framework.  It follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 Have a look at our [Bakery](https://bakery.cakephp.org/) for fresh [releases](https://bakery.cakephp.org/categories/release.html).
   
