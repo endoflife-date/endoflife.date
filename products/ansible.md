@@ -28,7 +28,7 @@ releases:
     releaseDate: 2021-12-02
 
 -   releaseCycle: "4"
-    eol: true
+    eol: 2021-12-14
     latest: "4.10.0"
     latestReleaseDate: 2021-12-21
     releaseDate: 2021-05-18
