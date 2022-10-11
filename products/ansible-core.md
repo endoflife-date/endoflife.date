@@ -55,3 +55,4 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 | 2.10                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
 | 2.11                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
 | 2.12                 | 3.8                                 | 2.6 or 3.5                       |
+| 2.13                 | 3.8                                 | 2.7 or 3.5                       |
