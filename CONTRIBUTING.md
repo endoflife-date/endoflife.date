@@ -76,7 +76,6 @@ LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 # every release.
 # Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
 auto:
-  - custom: true
   # Any valid git clone URL will work
   # Support for partialClone is necessary (GitHub does support this)
   - git: https://github.com/abc/def.git
