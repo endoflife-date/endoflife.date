@@ -154,7 +154,7 @@ releases:
     lts: true
     # Can be true/false. Only use if discontinuedColumn is set to true
     discontinued: true
-    # A link to the changelog for this specific release. Use this if the link is not
+    # A link to the changelog for this latest release. Use this if the link is not
     # predictable and you can't use changelogTemplate.
     # Do not use a localized URL (such as one containing en-us) if possible
     link: https://example.com/news/2021-12-25/release-1.2.3
