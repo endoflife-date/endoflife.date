@@ -64,7 +64,7 @@ releases:
   - releaseCycle: "3.9"
     latest: "3.9.10"
     eol: true
-    support: false
+    support: 2021-06-20
     releaseDate: 2020-06-21
 
   - releaseCycle: "3.8"
