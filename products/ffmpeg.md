@@ -40,8 +40,8 @@ releases:
 -   releaseCycle: "4.3"
     codename: '4:3'
     eol: false
-    latest: "4.3.4"
-    latestReleaseDate: 2022-04-16
+    latest: "4.3.5"
+    latestReleaseDate: 2022-10-10
     releaseDate: 2020-06-15
 
 -   releaseCycle: "4.2"
