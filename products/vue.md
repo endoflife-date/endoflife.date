@@ -29,9 +29,9 @@ releases:
 -   releaseCycle: "2"
     support: 2022-03-18
     eol: 2023-12-31
-    latest: "2.7.10"
+    latest: "2.7.11"
     lts: false
-    latestReleaseDate: 2022-08-23
+    latestReleaseDate: 2022-10-11
     releaseDate: 2016-09-30
 -   releaseCycle: "1"
     support: false

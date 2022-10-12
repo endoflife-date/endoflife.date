@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "6.0"
     lts: true
     eol: 2024-11-12
-    latest: "6.0.9"
-    latestReleaseDate: 2022-09-13
+    latest: "6.0.10"
+    latestReleaseDate: 2022-10-11
     releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     lts: false

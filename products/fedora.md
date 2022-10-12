@@ -15,18 +15,18 @@ releases:
 -   releaseCycle: "36"
     latest: "36"
     eol: 2023-05-16
-    latestReleaseDate: 2022-05-13
-    releaseDate: 2022-05-13
+    latestReleaseDate: 2022-10-11
+    releaseDate: 2022-10-11
 -   releaseCycle: "35"
     latest: "35"
     eol: 2022-11-15
-    latestReleaseDate: 2022-03-20
-    releaseDate: 2022-03-20
+    latestReleaseDate: 2022-10-11
+    releaseDate: 2022-10-11
 -   releaseCycle: "34"
     latest: "34"
     eol: 2022-06-07
-    latestReleaseDate: 2022-03-20
-    releaseDate: 2022-03-20
+    latestReleaseDate: 2022-10-11
+    releaseDate: 2022-10-11
 -   releaseCycle: "33"
     latest: "33"
     eol: 2021-11-30
