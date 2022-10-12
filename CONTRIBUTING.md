@@ -108,6 +108,7 @@ auto:
     # A template to render default value is same as in `git` above
     # https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py
     template: '{{version}}'
+
   # A maven group/artifact URL. For eg, for tomcat, the search URL is https://search.maven.org/artifact/org.apache.tomcat/tomcat
   # which would become org.apache.tomcat/tomcat here.
   - maven: org.apache.x/abc
@@ -199,7 +200,6 @@ releaseDateColumn: true
 eolColumn: Service Status
 
 # Whether to hide/show the discontinued column. Set to true, if you're tracking a device. This usually means the device is no longer available for sale or is no longer being manufactured. Set discontinued: true/false inside a release.
-
 discontinuedColumn: false
 
 # Command that can be used to check the current version. (optional)
