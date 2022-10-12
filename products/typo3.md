@@ -7,6 +7,13 @@ auto:
 -   git: https://github.com/TYPO3/typo3.git
     regex: '^(v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?)|(TYPO3_(?<major>\d)-(?<minor>\d)-((?<patch>\d+)(FINAL)?))$'
 releases:
+-   releaseCycle: "12"
+    eol: 2026-04-30
+    lts: false
+    support: 2024-10-31
+    releaseDate: 2022-10-04
+    latestReleaseDate: 2022-10-04
+    latest: '12.0.0'
 -   releaseCycle: "11"
     eol: 2024-10-31
     lts: 2021-10-05
@@ -66,8 +73,9 @@ Version | PHP
 7       | 5.5 - 7.3
 8       | 7.0 - 7.4
 9       | 7.2 - 8.1
-10      | 7.2 - 7.4
-11      | 7.4 - 8.1
+10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)
+11      | [7.4.1 - 8.1](https://get.typo3.org/version/11#system-requirements)
+12      | [8.1](https://get.typo3.org/version/12#system-requirements)
 
 ## Extended Long Term Support
 
@@ -76,3 +84,6 @@ Version | Commercial ELTS Support Ends
 7       | 2022-11-30
 8       | 2023-03-31
 9       | 2024-09-30
+10      | 2026-04-30
+11      | 2027-10-31
+12      | 2029-04-30
