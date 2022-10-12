@@ -47,8 +47,8 @@ releases:
 -   releaseCycle: "4.2"
     codename: 'Ada'
     eol: false
-    latest: "4.2.7"
-    latestReleaseDate: 2022-05-14
+    latest: "4.2.8"
+    latestReleaseDate: 2022-10-11
     releaseDate: 2019-08-05
 
 -   releaseCycle: "4.1"
