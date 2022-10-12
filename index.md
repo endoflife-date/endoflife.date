@@ -11,7 +11,7 @@ If you maintain such information for a project, please read our [Recommendations
 
 ## Contributing
 
-Contributions are welcome [at GitHub](https://github.com/endoflife-date/endoflife.date). See the `CONTRIBUTING.md` file for more details.
+Contributions are welcome [at GitHub](https://github.com/endoflife-date/endoflife.date). See the [`CONTRIBUTING.md`](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) file for more details.
 
 This site is powered by [Netlify](https://www.netlify.com).
 
