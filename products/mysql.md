@@ -19,16 +19,16 @@ auto:
     template: "{{c}}.{{v}}"
 releases:
 -   releaseCycle: "8.0"
-    latest: '8.0.30'
+    latest: '8.0.31'
     support: 2023-04-30
     eol: 2026-04-30
-    latestReleaseDate: 2022-07-06
+    latestReleaseDate: 2022-09-20
     releaseDate: 2018-04-08
 -   releaseCycle: "5.7"
-    latest: '5.7.39'
+    latest: '5.7.40'
     support: 2020-10-31
     eol: 2023-10-31
-    latestReleaseDate: 2022-06-06
+    latestReleaseDate: 2022-08-29
     releaseDate: 2015-10-09
 -   releaseCycle: "5.6"
     latest: '5.6.51'

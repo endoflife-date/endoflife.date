@@ -16,10 +16,10 @@ auto:
 releases:
 -   releaseCycle: "3.0"
     eol: 2026-09-07
-    latest: "3.0.5"
+    latest: "3.0.6"
     lts: true
     releaseDate: 2021-09-07
-    latestReleaseDate: 2022-07-05
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "1.1.1"
     eol: 2023-09-11
     latest: "1.1.1"

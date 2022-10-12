@@ -15,23 +15,23 @@ auto:
 releases:
 -   releaseCycle: "3.10"
     eol: 2026-10-04
-    latest: "3.10.7"
-    latestReleaseDate: 2022-09-05
+    latest: "3.10.8"
+    latestReleaseDate: 2022-10-11
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05
-    latest: "3.9.14"
-    latestReleaseDate: 2022-09-06
+    latest: "3.9.15"
+    latestReleaseDate: 2022-10-11
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
     eol: 2024-10-14
-    latest: "3.8.14"
-    latestReleaseDate: 2022-09-06
+    latest: "3.8.15"
+    latestReleaseDate: 2022-10-11
     releaseDate: 2019-10-14
 -   releaseCycle: "3.7"
     eol: 2023-06-27
-    latest: "3.7.14"
-    latestReleaseDate: 2022-09-06
+    latest: "3.7.15"
+    latestReleaseDate: 2022-10-10
     releaseDate: 2018-06-26
 -   releaseCycle: "3.6"
     eol: 2021-12-23
