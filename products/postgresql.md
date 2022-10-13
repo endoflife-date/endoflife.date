@@ -16,6 +16,11 @@ auto:
   # https://rubular.com/r/KlemgnguNe0e5X
     regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
 releases:
+-   releaseCycle: "15"
+    eol: 2024-11-14
+    latest: "15.0"
+    latestReleaseDate: 2022-10-13
+    releaseDate: 2022-10-13
 -   releaseCycle: "14"
     eol: 2026-09-30
     latest: "14.5"
