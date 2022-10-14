@@ -17,7 +17,7 @@ auto:
     regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
 releases:
 -   releaseCycle: "15"
-    eol: 2024-11-14
+    eol: 2027-11-11
     latest: "15.0"
     latestReleaseDate: 2022-10-13
     releaseDate: 2022-10-13
