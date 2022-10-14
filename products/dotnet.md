@@ -29,7 +29,7 @@ releases:
 -   releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     lts: true
-    latest: "3.1.201"
+    latest: "3.1.30"
     latestReleaseDate: 2020-03-24
     eol: 2022-12-13
     releaseDate: 2019-12-03
