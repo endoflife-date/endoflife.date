@@ -8,10 +8,9 @@ changelogTemplate: https://github.com/apache/cassandra/blob/trunk/CHANGES.txt
 category: db
 
 auto:
-  - git: https://github.com/apache/cassandra
+  - git: https://github.com/apache/cassandra.git
     regex: ^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)?(?<rest>-.+)$
     template: '{{major}}.{{minor}}.{%if patch %}{{patch}}{%endif%}{%if rest %}{{rest}}{%endif%}'
-    dockerhub: _/cassandra
 
 releases:
 - releaseCycle: "4.0"
