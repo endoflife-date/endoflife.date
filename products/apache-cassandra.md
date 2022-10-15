@@ -9,7 +9,7 @@ category: db
 
 auto:
   - git: https://github.com/apache/cassandra.git
-    regex: ^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)?(?<rest>-.+)$
+    regex: ^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?(?<rest>-.+)?$
     template: '{{major}}.{{minor}}.{%if patch %}{{patch}}{%endif%}{%if rest %}{{rest}}{%endif%}'
 
 releases:
