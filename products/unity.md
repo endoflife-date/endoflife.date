@@ -3,6 +3,7 @@ permalink: /unity
 title: Unity
 alternate_urls:
 -   /unity3d
+category: app
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 releaseDateColumn: true
 releaseColumn: true

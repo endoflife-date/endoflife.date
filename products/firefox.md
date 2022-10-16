@@ -1,7 +1,7 @@
 ---
 permalink: /firefox
 title: Firefox
-
+category: app
 releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true

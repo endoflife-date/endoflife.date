@@ -1,7 +1,7 @@
 ---
 title: Roundcube Webmail
 permalink: /roundcube
-category: tool
+category: server-app
 activeSupportColumn: true
 changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 auto:

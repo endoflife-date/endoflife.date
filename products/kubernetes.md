@@ -65,12 +65,14 @@ releases:
     latestReleaseDate: 2021-06-16
     releaseDate: 2020-03-25
 -   releaseCycle: "1.17"
+    support: false
     latest: "1.17.17"
     eol: 2020-12-25
     latestReleaseDate: 2021-01-13
     releaseDate: 2019-12-07
 -   releaseCycle: "1.16"
     eol: 2020-08-04
+    support: false
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02
     releaseDate: 2019-09-18

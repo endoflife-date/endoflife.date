@@ -10,6 +10,7 @@ sortReleasesBy: "releaseDate"
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
+category: framework
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:

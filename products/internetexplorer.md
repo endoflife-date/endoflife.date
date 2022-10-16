@@ -6,6 +6,7 @@ releaseDateColumn: true
 releaseColumn: false
 iconSlug: internetexplorer
 activeSupportColumn: false
+category: app
 eolColumn: Security and technical support
 releases:
 -   releaseCycle: "11" # This applies to 99% of users
