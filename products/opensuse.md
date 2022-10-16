@@ -17,16 +17,16 @@ releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
 
 releases:
 -   releaseCycle: "15.4"
-    support: 2023-12-1
-    eol: 2023-12-1
+    support: 2023-12-01
+    eol: 2023-12-01
     releaseDate: 2022-06-09
 -   releaseCycle: "15.3"
-    support: 2022-12-1
-    eol: 2022-12-1
+    support: 2022-12-01
+    eol: 2022-12-01
     releaseDate: 2021-06-02
 -   releaseCycle: "15.2"
-    support: 2021-12-1
-    eol: 2021-12-1
+    support: 2021-12-01
+    eol: 2021-12-01
     releaseDate: 2020-07-02
 -   releaseCycle: "15.1"
     support: 2021-02-02
@@ -47,7 +47,7 @@ releases:
 -   releaseCycle: "42.1"
     support: 2017-05-17
     eol: 2017-05-17
-    releaseDate: 2015-11-4
+    releaseDate: 2015-11-04
 -   releaseCycle: "13.2"
     releaseLabel: "__RELEASE_CYCLE__"
     support: 2017-01-17

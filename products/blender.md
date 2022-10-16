@@ -12,6 +12,7 @@ auto:
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
 eolColumn: Critical bug fixes
+category: app
 activeSupportColumn: true
 releases:
 -   releaseCycle: "3.3"

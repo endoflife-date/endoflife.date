@@ -14,13 +14,13 @@ releases:
     eol: 2026-01-11
     releaseDate: 2022-01-11
 -   releaseCycle: Surface Pro 8
-    eol: 2025-10-5
+    eol: 2025-10-05
     releaseDate: 2021-10-05
 -   releaseCycle: Surface Laptop Studio
-    eol: 2025-10-5
+    eol: 2025-10-05
     releaseDate: 2021-10-05
 -   releaseCycle: Surface Go 3
-    eol: 2025-10-5
+    eol: 2025-10-05
     releaseDate: 2021-10-05
 -   releaseCycle: Surface Laptop 4
     eol: 2025-04-15
@@ -32,7 +32,7 @@ releases:
     eol: 2025-01-11
     releaseDate: 2021-01-11
 -   releaseCycle: Surface Studio 2
-    eol: 2024-10-2
+    eol: 2024-10-02
     releaseDate: 2018-10-02
 -   releaseCycle: Surface Pro X
     eol: 2024-10-13
@@ -41,7 +41,7 @@ releases:
     eol: 2024-10-13
     releaseDate: 2020-10-13
 -   releaseCycle: Surface Go 2
-    eol: 2024-05-6
+    eol: 2024-05-06
     releaseDate: 2020-05-06
 -   releaseCycle: Surface Book 3
     eol: 2024-05-26

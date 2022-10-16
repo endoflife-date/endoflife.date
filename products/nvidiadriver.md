@@ -48,7 +48,7 @@ releases:
     eol: 2024-09-01
     latest: "470.94"
     link: https://www.nvidia.com/Download/driverResults.aspx/184163
-    releaseDate: 2021-7-19
+    releaseDate: 2021-07-19
 -   releaseCycle: "R460-Windows (PB)"
     support: 2021-06-23
     eol: 2022-01-01
@@ -56,11 +56,11 @@ releases:
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
     releaseDate: 2020-12-15
 -   releaseCycle: "R460-Linux (PB)"
-    support: 2021-7-19
+    support: 2021-07-19
     eol: 2022-01-01
     latest: "460.91.03"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
-    releaseDate: 2021-1-7
+    releaseDate: 2021-01-07
 -   releaseCycle: "R450-Windows"
     lts: true
     support: 2020-12-15
@@ -70,7 +70,7 @@ releases:
     releaseDate: 2020-06-24
 -   releaseCycle: "R450-Linux"
     lts: true
-    support: 2020-10-7
+    support: 2020-10-07
     eol: 2023-07-01
     latest: "450.142.00"
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-142-00/

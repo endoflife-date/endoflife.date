@@ -1,6 +1,7 @@
 ---
 title: CFEngine
 versionCommand: cf-agent --version
+category: app
 changelogTemplate: https://github.com/cfengine/core/blob/__RELEASE_CYCLE__.x/ChangeLog
 releaseDateColumn: true
 activeSupportColumn: true

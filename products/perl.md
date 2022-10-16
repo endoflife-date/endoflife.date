@@ -26,6 +26,8 @@ releases:
     releaseDate: 2022-05-27
 -   releaseCycle: "5.35"
     releaseDate: 2021-05-20
+    eol: 2024-05-20
+    support: 2022-05-27
     latestReleaseDate: 2022-04-20
     latest: '5.35.11'
 -   releaseCycle: "5.34"
