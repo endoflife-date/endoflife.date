@@ -5,8 +5,8 @@ category: framework
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
 auto:
--   git: https://github.com/numpy/numpy
--   regex: ^v(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)$
+-   git: https://github.com/numpy/numpy.git
+    regex: ^v(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)$
 releases:
 -   releaseCycle: "1.22"
     eol: 2024-01-01
