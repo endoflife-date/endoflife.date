@@ -11,7 +11,7 @@ activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 auto:
-  git: https://github.com/ansible/ansible.git
+-   git: https://github.com/ansible/ansible.git
 releases:
   - releaseCycle: "2.13"
     releaseDate: 2022-05-16
