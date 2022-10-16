@@ -59,3 +59,8 @@ releases:
 ---
 
 > [NumPy](https://numpy.org/) offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+
+All minor versions of NumPy released in the prior 24 months, and at minimum the last three minor versions, are supported.
+The project uses semantic versioning.
+
+For more details, have a look at [NEP 0029](https://numpy.org/neps/nep-0029-deprecation_policy.html).
