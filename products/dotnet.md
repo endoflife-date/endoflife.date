@@ -11,8 +11,12 @@ releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-c
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
+# The regex ignores 3 digit patch versions, which are incorrect tags upstream
+# such as https://github.com/dotnet/core/releases/tag/v3.1.201
+# https://rubular.com/r/CSjmTuMTbmRBQZ
 auto:
 -   git: https://github.com/dotnet/core.git
+    regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 releases:
 -   releaseCycle: "6.0"
     lts: true
