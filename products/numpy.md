@@ -8,6 +8,10 @@ auto:
 -   git: https://github.com/numpy/numpy.git
     regex: ^v(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)$
 releases:
+-   releaseCycle: "1.23"
+    releaseDate: 2022-06-23
+    latest: "1.23.4"
+
 -   releaseCycle: "1.22"
     eol: 2024-01-01
     releaseDate: 2021-12-31
