@@ -61,3 +61,9 @@ releases:
 > [NumPy](https://numpy.org/) offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
 
 All minor versions of NumPy released in the prior 24 months, and at minimum the last three minor versions, are supported. NumPy follows SemVer.
+
+NumPy's support policy is defined via [NEP-29](https://numpy.org/neps/nep-0029-deprecation_policy.html), which is also followed by other tooling in the Scientific Python Ecosystem.
+
+## Python Support
+
+All minor versions of Python released 42 months prior to the project, and at minimum the two latest minor versions.
