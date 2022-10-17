@@ -9,39 +9,46 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePo
 activeSupportColumn: true
 releaseDateColumn: true
 releases:
+-   releaseCycle: "subscription"
+    releaseLabel: "Subscription Edition"
+    releaseDate: 2021-11-02
+    support: true
+    eol: false
+    latest: "16.0.15601.20158"
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "2019"
+    releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2026-07-14
-    latest: "16.0.10387.20008"
-    releaseDate: 2018-10-22
-    latestReleaseDate: 2022-06-14
+    latest: "16.0.10391.20000"
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "2016"
+    releaseDate: 2016-05-01
     support: 2021-07-13
     eol: 2026-07-14
-    latest: "16.0.5332.1001"
-    latestReleaseDate: 2022-06-14
-    releaseDate: 2016-05-01
+    latest: "16.0.5365.1000"
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
+    releaseDate: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.5459.1001"
-    latestReleaseDate: 2022-06-14
-    releaseDate: 2013-01-09
+    latest: "15.0.5493.1000"
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
-    latestReleaseDate: 2021-04-13
+    releaseDate: 2010-07-05
     support: 2015-10-13
     eol: 2021-04-13
     latest: "14.0.7268.5000"
-    releaseDate: 2010-07-05
+    latestReleaseDate: 2021-04-13
 -   releaseCycle: "2007"
     releaseLabel: "2007 SP3"
-    latestReleaseDate: 2014-05-13
+    releaseDate: 2007-01-27
     support: 2012-10-09
     eol: 2017-10-10
     latest: "12.0.6690.5000"
-    releaseDate: 2007-01-27
+    latestReleaseDate: 2014-05-13
 
 ---
 
