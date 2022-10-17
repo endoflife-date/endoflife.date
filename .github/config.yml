@@ -3,7 +3,7 @@
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
   Thank you for opening your first issue here. :+1:
-  Be sure to follow the issue template.
+  Be sure to follow the issue template if you chose one.
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
