@@ -4,13 +4,12 @@ permalink: /apache-cassandra
 alternate_urls:
 - /cassandra
 iconSlug: apachecassandra
-changelogTemplate: https://github.com/apache/cassandra/blob/trunk/CHANGES.txt
+changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 category: db
-
+releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
 auto:
   - git: https://github.com/apache/cassandra.git
-    regex: ^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$
-    template: '{{major}}.{{minor}}.{%if patch %}{{patch}}{%endif%}'
+    regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
 
 releases:
 - releaseCycle: "4.0"
@@ -35,3 +34,19 @@ releases:
 
 ---
 > [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+
+The Cassandra development community has committed to supporting three GA releases (MAJOR and/or MINOR) at any given time; with an exception being made for 3.0. The release of a new MINOR or MAJOR will cause the oldest supported GA release to go End-of-Life.
+
+The 3.0 release will be supported for one more cycle, on an exceptional basis.
+
+## [Versioning](https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html)
+
+Cassandra follows [SemVer](https://semver.org/). These are the rough heuristics followed for what can be included in a given release.
+
+* Patch releases on a GA branch should only include bug fixes.
+* Minor release should prioritize introducing new, non-API changing, and non-default behavior breaking features and changes (Bug Fix, Improvements, New Features).
+* Disruptive changes (API changes, protocol changes, etc.) are deferred to Major releases.
+
+## Release Cadence
+
+The project currently targets yearly Minor or Major releases (depending on whether they’re API breaking or not). Patch releases are cut based on either volume of fixes or severity of bugfixes that get committed to the project.
