@@ -110,7 +110,16 @@ releases:
 
 > [Nutanix AOS](https://www.nutanixbible.com/4a-book-of-aos-architecture.html) is an operating system that provides the core functionality leveraged by workloads and services running on the Nutanix platform.
 
-Nutanix offer two types of releases:
+AOS releases and the associated policy is inclusive of software such as AHV, Foundation and Nutanix Cluster Check (NCC). Only the latest patch release in any given release cycle is supported.
 
-* Short Term Support (STS) which have new features, and also provide a regular upgrade path and are released every 3-6 months
-* Long Term Support (LTS) which are maintained for a longer duration and provide primarily bug fixes for an extended period of time on a particular release family.
+## [Releases](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG)
+
+* **Short Term Support (STS)** have new features, and also provide a regular upgrade path and are released every 3-6 months. They receive security and phone support for three (3) months from the next major/minor release.
+
+* **Long Term Support (LTS)** which are maintained for a longer duration and provide primarily bug fixes for an extended period of time on a particular release family. Each LTS Release is maintained for 3 months after the next LTS major/minor release is made. Each LTS release will then receive security and phone support for next 9 months.
+
+## Release Cadence
+
+* Major/Minor releases are typically made available every 3-6 months for STS Releases and every 12-15 months for LTS Releases.
+* Maintenance releases are typically made available every 4-6 weeks.
+* Patch Releases are made available on an as-needed basis.
