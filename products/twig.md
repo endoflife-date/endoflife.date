@@ -5,6 +5,8 @@ category: framework
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
+iconSlug: NA
+changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 auto:
 -   git: https://github.com/twigphp/Twig.git
 releases:
