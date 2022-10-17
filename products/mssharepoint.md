@@ -9,7 +9,8 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePo
 activeSupportColumn: true
 releaseDateColumn: true
 releases:
--   releaseCycle: "Subscription Edition"
+-   releaseCycle: "subscription"
+    releaseLabel: "Subscription Edition"
     releaseDate: 2021-11-02
     support: true
     eol: false
