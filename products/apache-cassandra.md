@@ -2,36 +2,39 @@
 title: Apache Cassandra
 permalink: /apache-cassandra
 alternate_urls:
-- /cassandra
+-   /cassandra
 iconSlug: apachecassandra
 releaseDateColumn: true
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 category: db
 releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
 auto:
-- git: https://github.com/apache/cassandra.git
-  regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+-   git: https://github.com/apache/cassandra.git
+    regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
 
 releases:
-- releaseCycle: "4.0"
-  eol: 2024-05-01
-  support: true
-  releaseDate: 2022-08-25
-  latest: "4.0.6"
+-   releaseCycle: "4.0"
+    eol: 2024-05-01
+    support: true
+    releaseDate: 2021-07-26
+    latest: "4.0.6"
 
-- releaseCycle: "3.11"
-  eol: 2023-05-01
-  support: true
-  releaseDate: 2022-06-17
-  latest: "3.11.13"
-  discontinued: true
+    latestReleaseDate: 2022-08-25
+-   releaseCycle: "3.11"
+    eol: 2023-05-01
+    support: true
+    releaseDate: 2017-06-23
+    latest: "3.11.13"
+    discontinued: true
 
-- releaseCycle: "3.0"
-  eol: 2023-05-01
-  support: true
-  releaseDate: 2022-06-17
-  latest: "3.0.27"
-  discontinued: true
+    latestReleaseDate: 2022-05-14
+-   releaseCycle: "3.0"
+    eol: 2023-05-01
+    support: true
+    releaseDate: 2015-11-09
+    latest: "3.0.27"
+    discontinued: true
+    latestReleaseDate: 2022-05-14
 
 ---
 
