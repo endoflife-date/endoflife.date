@@ -4,10 +4,9 @@ permalink: /motorola
 category: device
 iconSlug: motorola
 releasePolicyLink: https://motorola-global-en-roe.custhelp.com/app/software-upgrade/
-activeSupportColumn: false
+activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: false
-sortReleasesBy: releaseDate
 releases:
 -   releaseCycle: "moto-g-pro"
     releaseLabel: "moto g pro"
@@ -21,11 +20,13 @@ releases:
     link: https://www.motorola.com/we/smartphones-motorola-one-action/p
 -   releaseCycle: "moto-g-stylus-5g-2022"
     releaseLabel: "moto g stylus 5g (2022)"
+    support: true
     releaseDate: 2022-04-01
     eol: 2025-04-01
     link: https://www.motorola.com/us/smartphones-moto-g-stylus-5g-gen-2/p
 -   releaseCycle: "moto-g-5g-2022"
     releaseLabel: "moto g 5g (2022)"
+    support: true
     releaseDate: 2022-04-01
     eol: 2025-04-01
     link: https://www.motorola.com/we/smartphones-moto-g-5g/p
@@ -34,8 +35,8 @@ releases:
     releaseDate: 2022-02-01
     eol: 2024-02-01
     link: https://www.motorola.com/us/smartphones-moto-g-stylus/p
--   releaseCycle: "moto-g-stylus-5g-2022"
-    releaseLabel: "moto g stylus 5g (2022)"
+-   releaseCycle: "moto-g-stylus"
+    releaseLabel: "moto g stylus"
     releaseDate: 2022-04-01
     eol: 2025-04-01
     link: https://www.motorola.com/us/smartphones-moto-g-stylus-5g-gen-2/p
@@ -66,6 +67,7 @@ releases:
     link: https://www.motorola.com/we/smartphones-moto-g-100/p
 -   releaseCycle: "moto-g82-5g"
     releaseLabel: "moto g82 5g"
+    support: true
     releaseDate: 2022-05-01
     eol: 2025-05-01
     link: https://www.motorola.com/we/smartphones-moto-g-82-5g/p
@@ -76,6 +78,7 @@ releases:
     link: https://www.motorola.com/we/smartphones-moto-g-71-5g/p
 -   releaseCycle: "moto-g62-5g"
     releaseLabel: "moto g62 5g"
+    support: true
     releaseDate: 2022-06-01
     eol: 2025-06-01
     link: https://www.motorola.com/we/smartphones-moto-g-62-5g/p
@@ -116,6 +119,7 @@ releases:
     link: https://www.motorola.com/we/smartphones-moto-g-50/p
 -   releaseCycle: "moto-g42"
     releaseLabel: "moto g42"
+    support: true
     releaseDate: 2022-06-01
     eol: 2025-06-01
     link: https://www.motorola.com/we/smartphones-moto-g-42/p
@@ -129,6 +133,11 @@ releases:
     releaseDate: 2021-05-01
     eol: 2023-05-01
     link: https://www.motorola.in/smartphones-moto-g40-fusion/p
+-   releaseCycle: "moto-g32"
+    releaseDate: 2022-08-01
+    eol: 2025-08-01
+    support: true
+    link: https://www.motorola.in/smartphones-moto-g32/p
 -   releaseCycle: "moto-g31"
     releaseLabel: "moto g31"
     releaseDate: 2021-11-01
@@ -272,18 +281,27 @@ releases:
     releaseDate: 2021-02-01
     eol: 2023-02-01
     link: https://www.motorola.com/we/smartphones-moto-e-i-gen-6/p
+-   releaseCycle: "motorola-edge-30-ultra"
+    releaseLabel: "motorola edge 30 ultra"
+    releaseDate: 2022-09-01
+    eol: 2025-09-01
+    support: true
+    link: https://www.motorola.com/we/smartphones-motorola-edge-30-ultra/p
 -   releaseCycle: "motorola-edge-30-pro"
     releaseLabel: "motorola edge 30 pro"
     releaseDate: 2022-02-01
     eol: 2025-02-01
+    support: true
     link: https://www.motorola.com/we/smartphones-motorola-edge-30-pro/p
 -   releaseCycle: "motorola-edge-30"
     releaseLabel: "motorola edge 30"
     releaseDate: 2022-05-01
     eol: 2025-05-01
+    support: true
     link: https://www.motorola.com/we/smartphones-motorola-edge-30/p
 -   releaseCycle: "motorola-edge-plus-2022"
     releaseLabel: "motorola edge+ (2022)"
+    support: true
     releaseDate: 2022-02-01
     eol: 2025-02-01
     link: https://www.motorola.com/us/smartphones-motorola-edge-plus-gen-2/p
