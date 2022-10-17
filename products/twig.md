@@ -5,6 +5,8 @@ category: framework
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
+auto:
+-   git: https://github.com/twigphp/Twig.git
 releases:
 -   releaseCycle: "3"
     eol: false
