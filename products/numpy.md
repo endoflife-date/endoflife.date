@@ -4,6 +4,7 @@ permalink: /numpy
 category: framework
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
+releaseDateColumn: true
 auto:
 -   pypi: numpy
 
@@ -66,4 +67,13 @@ NumPy's support policy is defined via [NEP-29](https://numpy.org/neps/nep-0029-d
 
 ## Python Support
 
-All minor versions of Python released 42 months prior to the project, and at minimum the two latest minor versions.
+All minor versions of Python released 42 months prior, and at minimum the two latest minor versions are supported. Python support is only dropped in a major/minor version, and never on a patch release.
+
+NumPy | Python
+------|-------
+1.20  | 3.7+
+1.21  | 3.7+
+1.22  | 3.8+
+1.23  | 3.8+
+
+NumPy stopped supporting Python 3.7 from Dec 26, 2021. Any older releases (1.20, 1.21) still support Python 3.7. Releases made after that only support Python 3.8 and above.
