@@ -85,7 +85,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-feed (0.16.0)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-last-modified-at (1.3.0)
       jekyll (>= 3.7, < 5.0)
@@ -156,7 +156,7 @@ PLATFORMS
 DEPENDENCIES
   google-cloud-container (~> 1.3)
   jekyll (~> 4.2.2)
-  jekyll-feed (~> 0.16)
+  jekyll-feed (~> 0.17)
   jekyll-last-modified-at
   jekyll-seo-tag
   jekyll-timeago
