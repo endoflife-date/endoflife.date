@@ -4,6 +4,7 @@ permalink: /apache-cassandra
 alternate_urls:
 - /cassandra
 iconSlug: apachecassandra
+releaseDateColumn: true
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 category: db
 releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
@@ -35,9 +36,7 @@ releases:
 ---
 > [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
 
-The Cassandra development community has committed to supporting three GA releases (MAJOR and/or MINOR) at any given time; with an exception being made for 3.0. The release of a new MINOR or MAJOR will cause the oldest supported GA release to go End-of-Life.
-
-The 3.0 release will be supported for one more cycle, on an exceptional basis.
+Three GA releases (MAJOR and/or MINOR) are supported at any given time. The release of a new MINOR or MAJOR will cause the oldest supported GA release to go End-of-Life. The 3.0 release will be supported for one more cycle, on an exceptional basis.
 
 ## [Versioning](https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html)
 
