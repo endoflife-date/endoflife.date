@@ -12,54 +12,65 @@ auto:
 # But at no point should any of the last 3 releases become unsupported.
 releases:
 -   releaseCycle: "1.23"
-    releaseDate: 2022-06-23
+    releaseDate: 2022-06-22
     latest: "1.23.4"
     eol: 2024-06-24
 
+    latestReleaseDate: 2022-10-12
 -   releaseCycle: "1.22"
     eol: 2024-01-01
     releaseDate: 2021-12-31
     latest: "1.22.4"
 
+    latestReleaseDate: 2022-05-20
 -   releaseCycle: "1.21"
     eol: 2023-06-23
     releaseDate: 2021-06-22
     latest: "1.21.6"
 
+    latestReleaseDate: 2022-04-12
 -   releaseCycle: "1.20"
     eol: 2023-01-31
-    releaseDate: 2021-01-31
+    releaseDate: 2021-01-30
     latest: "1.20.3"
 
+    latestReleaseDate: 2021-05-10
 -   releaseCycle: "1.19"
     eol: 2022-06-21
     releaseDate: 2020-06-20
     latest: "1.19.5"
 
+    latestReleaseDate: 2021-01-05
 -   releaseCycle: "1.18"
     eol: 2021-12-22
     releaseDate: 2019-12-22
     latest: "1.18.5"
 
+    latestReleaseDate: 2020-06-04
 -   releaseCycle: "1.17"
     eol: 2021-07-26
     releaseDate: 2019-07-26
     latest: "1.17.5"
 
+    latestReleaseDate: 2020-01-01
 -   releaseCycle: "1.16"
     eol: 2021-01-13
-    releaseDate: 2019-01-13
+    releaseDate: 2019-01-14
     latest: "1.16.6"
 
+    latestReleaseDate: 2019-12-29
 -   releaseCycle: "1.15"
     eol: 2020-07-23
     releaseDate: 2018-07-23
     latest: "1.15.4"
 
+    latestReleaseDate: 2018-11-04
 -   releaseCycle: "1.14"
     eol: 2020-01-07
     releaseDate: 2018-01-06
     latest: "1.14.6"
+    latestReleaseDate: 2018-09-23
+
 ---
 
 > [NumPy](https://numpy.org/) offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
