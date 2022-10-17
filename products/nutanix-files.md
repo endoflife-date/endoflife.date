@@ -56,8 +56,15 @@ releases:
 
 > [Nutanix Files](https://www.nutanix.com/uk/products/files) is a simple, scalable and smart cloud-based file management platform.
 
-When an Update is made available, the previous Update within the same Upgrade family shall cease to be Maintained.
+Only the latest release cycle is actively maintained (new features).
 
-* Each Release is Maintained for three (3) months after the Release Date for the next Release that is an Upgrade.
-* Each Release will receive Troubleshooting for 12 months after the Release Date for the next Release that is an Upgrade.
-* For example, if Nutanix releases Files 3.1.0 on September 1, 2018 and Files 3.2.0 on November 1, 2018 then Files 3.1.0 will be Maintained until February 28, 2019 and Troubleshooting for Files 3.1.0 will be available until November 30, 2019.
+* A release is supported (with workarounds and bug fixes) for 3 months after a new major/minor version is released.
+* Troubleshooting (security fixes, phone support) is provided for 12 months after a new major/minor version is released.
+
+For example, if Nutanix releases Files 3.1.0 on September 1, 2018 and Files 3.2.0 on November 1, 2018 then Files 3.1.0 will be Maintained until February 28, 2019 and Troubleshooting for Files 3.1.0 will be available until November 30, 2019.
+
+## Release Cadence
+
+* A new major/minor release is typically made every 3-6 months.
+* Maintenance releases are typically made every 4-6 weeks.
+* Patch releases are made on a as-needed basis.
