@@ -1,5 +1,5 @@
 ---
-title: Nutanix Prism
+title: Nutanix Prism Central
 category: app
 iconSlug: nutanix
 permalink: /nutanix-prism
@@ -11,7 +11,6 @@ releasePolicyLink: "https://www.nutanix.com/support-services/product-support/sup
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 versionCommand: ncli cluster version
 releases:
 -   releaseCycle: "pc.2022.6"
@@ -121,8 +120,13 @@ releases:
 
 > [Nutanix Prism](https://www.nutanix.com/uk/products/prism) is the control plane that simplifies and streamlines common workflows to make hypervisor and VM setup as easy as checking your email.
 
-When an Update is made available to Prism, the previous Update within the same Upgrade family shall cease to be Maintained.
+Only the latest patch release in a release cycle is supported.
 
-* Prism Central will target to have an Upgrades Release available every four to six weeks.
-* Each Upgrade Release is Maintained for two (2) months from the Release Date of the next Release that is an Upgrade and shall receive Troubleshooting for the three (3) months subsequent to such Upgrade.
-* For example, if Nutanix releases PC.2020.8 on Aug 1, 2020 and releases PC.2020.9 on Sep 1, 2020 then PC.2020.8 will be Maintained until Nov 30, 2020 and Troubleshooting for PC.2020.8 will be available until Feb 28, 2021.
+Each release cycle (Upgrade) is maintained (with workarounds, bug fixes) for 2 months from the release date of the next release cycle. It then further receives Troubleshooting (phone support, security fixes) for another 3 months.
+
+For example, if Nutanix releases PC.2020.8 on Aug 1, 2020 and releases PC.2020.9 on Sep 1, 2020 then PC.2020.8 will be Maintained until Nov 30, 2020 and Troubleshooting for PC.2020.8 will be available until Feb 28, 2021.
+
+## Release Cadence
+
+* A new major/minor release is typically made every 4-6 weeks.
+* Patch releases are made available on an as-needed basis.
