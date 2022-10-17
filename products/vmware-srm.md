@@ -4,7 +4,7 @@ permalink: /vmware-srm
 alternate_urls:
 -   /vmwaresrm
 iconSlug: vmware
-category: app
+category: server-app
 releasePolicyLink: https://lifecycle.vmware.com
 eolColumn: General Support
 activeSupportColumn: Technical Guidance
