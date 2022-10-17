@@ -4,6 +4,7 @@ alternate_urls:
 -   /rubyonrails
 -   /ruby-on-rails
 -   /roro
+-   /ror
 iconSlug: rubyonrails
 title: Ruby on Rails
 releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html

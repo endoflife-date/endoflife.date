@@ -21,4 +21,3 @@ An API is available for integration with CI platforms. API documentation is avai
 Licensed under the [MIT License](LICENSE).
 
 [hacktoberfest]: https://github.com/endoflife-date/endoflife.date/issues/408
-[hack-participate]: https://hacktoberfest.com/participation/

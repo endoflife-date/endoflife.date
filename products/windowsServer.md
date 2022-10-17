@@ -1,6 +1,8 @@
 ---
 title: Windows Server
-permalink: /windowsserver
+permalink: /windows-server
+alternate_urls:
+  - /windowsserver
 iconSlug: windows
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
 category: os
