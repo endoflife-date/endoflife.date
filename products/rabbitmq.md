@@ -14,12 +14,12 @@ releases:
 -   releaseCycle: "3.11"
     eol: false
     releaseDate: 2022-09-26
-    latestReleaseDate: 2022-09-26
-    latest: "3.11.0"
+    latestReleaseDate: 2022-10-13
+    latest: "3.11.1"
 -   releaseCycle: "3.10"
     eol: false
-    latest: "3.10.8"
-    latestReleaseDate: 2022-09-23
+    latest: "3.10.9"
+    latestReleaseDate: 2022-10-13
     releaseDate: 2022-05-03
 -   releaseCycle: "3.9"
     eol: false
