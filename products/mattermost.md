@@ -9,14 +9,6 @@ releaseDateColumn: true
 releaseColumn: false
 iconSlug: mattermost
 releases:
--   releaseCycle: "7.6"
-    eol: 2023-03-15
-    releaseDate: 2022-12-16
-
--   releaseCycle: "7.5"
-    eol: 2023-02-15
-    releaseDate: 2022-11-16
-
 -   releaseCycle: "7.4"
     eol: 2023-01-15
     releaseDate: 2022-10-16
