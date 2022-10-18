@@ -19,129 +19,28 @@ auto:
 -   git: https://github.com/cakephp/cakephp.git
 
 releases:
--   releaseCycle: "4.4"
+-   releaseCycle: "4"
     eol: false
     support: true
-    releaseDate: 2022-06-06
+    releaseDate: 2019-12-15
     latest: "4.4.6"
     latestReleaseDate: 2022-10-01
     codename: Strawberry
-
--   releaseCycle: "4.3"
-    eol: true
-    support: true
-    releaseDate: 2021-10-23
-    latest: "4.3.10"
-    latestReleaseDate: 2022-06-02
-
--   releaseCycle: "4.2"
-    latest: "4.2.10"
-    eol: true
-    support: 2021-10-24
-    releaseDate: 2020-12-20
-
-    latestReleaseDate: 2021-10-13
--   releaseCycle: "4.1"
-    latest: "4.1.7"
-    eol: true
-    support: 2020-12-21
-    releaseDate: 2020-07-04
-
-    latestReleaseDate: 2020-12-12
--   releaseCycle: "4.0"
-    latest: "4.0.10"
-    eol: true
-    support: 2020-07-05
-    releaseDate: 2019-12-15
-
-    latestReleaseDate: 2020-12-07
--   releaseCycle: "3.10"
+-   releaseCycle: "3"
     latest: "3.10.4"
     eol: 2022-12-15
     support: 2021-12-15
-    releaseDate: 2021-06-19
+    releaseDate: 2015-03-22
     latestReleaseDate: 2022-05-21
     link: https://bakery.cakephp.org/2022/05/21/cakephp_3104_released.html
-
--   releaseCycle: "3.9"
-    latest: "3.9.10"
-    eol: true
-    support: 2021-06-20
-    releaseDate: 2020-06-20
-
-    latestReleaseDate: 2021-05-30
--   releaseCycle: "3.8"
-    latest: "3.8.13"
-    eol: true
-    support: 2020-06-21
-    releaseDate: 2019-06-26
-
-    latestReleaseDate: 2020-06-19
--   releaseCycle: "3.7"
-    latest: "3.7.9"
-    eol: true
-    support: 2019-06-27
-    releaseDate: 2018-12-08
-
-    latestReleaseDate: 2019-06-19
--   releaseCycle: "3.6"
-    latest: "3.6.15"
-    eol: true
-    support: 2018-12-09
-    releaseDate: 2018-04-14
-
-    latestReleaseDate: 2019-04-23
--   releaseCycle: "3.5"
-    latest: "3.5.18"
-    eol: true
-    support: 2018-04-15
-    releaseDate: 2017-08-18
-
-    latestReleaseDate: 2019-04-23
--   releaseCycle: "3.4"
-    latest: "3.4.14"
-    eol: true
-    support: 2017-08-19
-    releaseDate: 2017-02-12
-
-    latestReleaseDate: 2018-05-20
--   releaseCycle: "3.3"
-    latest: "3.3.16"
-    eol: true
-    support: 2017-02-13
-    releaseDate: 2016-08-12
-
-    latestReleaseDate: 2017-04-06
--   releaseCycle: "3.2"
-    latest: "3.2.14"
-    eol: true
-    support: 2016-08-13
-    releaseDate: 2016-01-29
-
-    latestReleaseDate: 2016-08-12
--   releaseCycle: "3.1"
-    latest: "3.1.14"
-    eol: 2017-02-13
-    support: 2016-01-16
-    releaseDate: 2015-09-19
-
-    latestReleaseDate: 2016-11-25
--   releaseCycle: "3.0"
-    latest: "3.0.19"
-    eol: true
-    support: 2015-09-20
-    releaseDate: 2015-03-22
-
-    latestReleaseDate: 2016-11-25
--   releaseCycle: "2.10"
+-   releaseCycle: "2"
     latest: "2.10.24"
-    eol: true
-    support: 2019-12-16
+    eol: 2021-06-15
+    support: 2020-12-15
     releaseDate: 2017-07-22
     latestReleaseDate: 2020-12-15
     link: https://bakery.cakephp.org/2020/12/15/cakephp_21024_released.html
-
--   releaseCycle: "1.3"
+-   releaseCycle: "1"
     latest: "1.3.21"
     eol: true
     support: false
