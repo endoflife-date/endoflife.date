@@ -57,15 +57,15 @@ releases:
 -   releaseCycle: "5.10"
     eol: 2026-12-01
     lts: true
-    latest: "5.10.148"
-    latestReleaseDate: 2022-10-15
+    latest: "5.10.149"
+    latestReleaseDate: 2022-10-17
     releaseDate: 2020-12-13
 
 -   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.218"
-    latestReleaseDate: 2022-10-15
+    latest: "5.4.219"
+    latestReleaseDate: 2022-10-17
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
