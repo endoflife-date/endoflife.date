@@ -3,6 +3,11 @@ title: Amazon Kindle
 iconSlug: amazon
 category: device
 releases:
+-   releaseCycle: "Kindle 11 (11th Generation)"
+    eol: false
+    latest: "5.15.1"
+    link: https://www.amazon.com/Kindle11Notes
+    releaseDate: 2021-10-27
 -   releaseCycle: "Kindle Paperwhite 5 (11th Generation)"
     eol: false
     latest: "5.14.3.0.1"
