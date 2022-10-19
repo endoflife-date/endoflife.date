@@ -14,7 +14,7 @@ releases:
 -   releaseCycle: "19"
     support: 2023-03-21
     eol: 2023-03-21
-    latest: "19"
+    latest: "19.0.1"
     releaseDate: 2022-09-20
 -   releaseCycle: "18"
     support: 2022-09-20
@@ -25,7 +25,7 @@ releases:
     lts: true
     support: 2026-09-30
     eol: 2029-09-30
-    latest: "17.0.4.1"
+    latest: "17.0.5"
     releaseDate: 2021-09-14
 -   releaseCycle: "16"
     support: 2021-09-14
@@ -56,7 +56,7 @@ releases:
     lts: true
     support: 2023-09-30
     eol: 2026-09-30
-    latest: "11.0.16.1"
+    latest: "11.0.17"
     releaseDate: 2018-09-25
 -   releaseCycle: "10"
     support: 2018-09-25
@@ -72,13 +72,13 @@ releases:
     lts: true
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8u341"
+    latest: "8u351"
     releaseDate: 2014-03-18
 -   releaseCycle: "7"
     lts: true
     support: 2019-07-31
     eol: 2022-07-31
-    latest: "7u351"
+    latest: "7u361"
     releaseDate: 2011-07-07
 -   releaseCycle: "6"
     lts: true
