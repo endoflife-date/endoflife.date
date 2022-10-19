@@ -166,12 +166,12 @@ releases:
     link: https://bakery.cakephp.org/2016/03/13/cakephp_2613_2711_282_3017_3112_325_released.html
  
 -   releaseCycle: "2.6"
-    latest: "2.6.7"
+    latest: "2.6.13"
     eol: true
     support: false
     releaseDate: 2014-12-23
-    latestReleaseDate: 2015-05-29
-    link: https://bakery.cakephp.org/2015/05/28/cakephp_2_6_7_released.html
+    latestReleaseDate: 2016-03-14 
+    link: https://bakery.cakephp.org/2016/03/13/cakephp_2613_2711_282_3017_3112_325_released.html
 
 -   releaseCycle: "2.5"
     latest: "2.5.9"
