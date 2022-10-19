@@ -27,6 +27,7 @@ releases:
     lts: false
     releaseDate: 2022-06-14
     latestReleaseDate: 2022-06-28
+    
 -   releaseCycle: "5.24"
     latest: "5.24.5"
     support: 2022-06-14
