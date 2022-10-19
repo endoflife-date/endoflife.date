@@ -12,13 +12,22 @@ category: os
 iconSlug: kde
 eolColumn: Critical bug fixes
 releases:
+-   releaseCycle: "5.26"
+    latest: "5.26.1"
+    support: 2023-02-14 # Scheduled release of 5.27
+    eol: 2023-02-14 # Scheduled release of 5.27
+    lts: false
+    releaseDate: 2022-10-11
+    latestReleaseDate: 2022-10-25
+
 -   releaseCycle: "5.25"
     latest: "5.25.2"
-    support: 2022-10-11 # Scheduled release of 5.26
-    eol: 2022-10-11 # Scheduled release of 5.26
+    support: 2022-10-11
+    eol: 2022-10-11
     lts: false
     releaseDate: 2022-06-14
     latestReleaseDate: 2022-06-28
+    
 -   releaseCycle: "5.24"
     latest: "5.24.5"
     support: 2022-06-14
