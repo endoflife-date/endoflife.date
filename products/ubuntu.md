@@ -21,23 +21,29 @@ releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+-   releaseCycle: "22.10"
+    codename: "Kinetic Kudu"
+    support: 2023-07-20
+    eol: 2023-07-20
+    latest: "22.10"
+    link: https://wiki.ubuntu.com/KineticKudu/ReleaseNotes/
+    releaseDate: 2022-10-20
+    latestReleaseDate: 2022-10-20
 -   releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
-    support: 2027-04-02
+    support: 2027-04-21
     eol: 2032-04-01
     lts: true
     latest: "22.04.1"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
-
     releaseDate: 2022-04-21
     latestReleaseDate: 2022-08-11
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
-    support: 2022-07-31
-    eol: 2022-07-31
+    support: 2022-07-14
+    eol: 2022-07-14
     latest: "21.10"
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
-
     releaseDate: 2021-10-14
     latestReleaseDate: 2021-10-14
 -   releaseCycle: "21.04"
@@ -46,7 +52,6 @@ releases:
     eol: 2022-01-20
     latest: "21.04"
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
-
     releaseDate: 2021-04-22
     latestReleaseDate: 2021-04-22
 -   releaseCycle: "20.10"
@@ -54,7 +59,6 @@ releases:
     support: 2021-07-22
     eol: 2021-07-22
     latest: "20.10"
-
     releaseDate: 2020-10-22
     latestReleaseDate: 2020-10-22
 -   releaseCycle: "20.04"
@@ -63,7 +67,6 @@ releases:
     support: 2025-04-02
     eol: 2030-04-01
     latest: "20.04.5"
-
     releaseDate: 2020-04-23
     latestReleaseDate: 2022-09-01
 -   releaseCycle: "19.10"
@@ -71,7 +74,6 @@ releases:
     support: 2020-07-06
     eol: 2020-07-06
     latest: "19.10"
-
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
 -   releaseCycle: "18.04"
@@ -81,7 +83,6 @@ releases:
     eol: 2028-04-01
     latest: "18.04.6"
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
-
     releaseDate: 2018-04-26
     latestReleaseDate: 2021-09-17
 -   releaseCycle: "16.04"
@@ -90,7 +91,6 @@ releases:
     support: 2021-04-02
     eol: 2026-04-01
     latest: "16.04.7"
-
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
 -   releaseCycle: "14.04"
@@ -101,7 +101,6 @@ releases:
     latest: "14.04.6"
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
-
 ---
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
