@@ -17,14 +17,14 @@ auto:
 releases:
 -   releaseCycle: "1.23"
     eol: false
-    latest: "1.23.1"
+    latest: "1.23.2"
     link: https://nginx.org/en/CHANGES
-    latestReleaseDate: 2022-07-19
+    latestReleaseDate: 2022-10-19
     releaseDate: 2022-06-21
 -   releaseCycle: "1.22"
     eol: false
-    latest: "1.22.0"
-    latestReleaseDate: 2022-05-24
+    latest: "1.22.1"
+    latestReleaseDate: 2022-10-19
     releaseDate: 2022-05-24
 -   releaseCycle: "1.21"
     eol: 2022-05-24

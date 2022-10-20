@@ -16,12 +16,12 @@ releases:
 -   releaseCycle: "21"
     eol: false
     releaseDate: 2022-09-26
-    latestReleaseDate: 2022-10-12
-    latest: "21.1.1"
+    latestReleaseDate: 2022-10-19
+    latest: "21.2.0"
 -   releaseCycle: "20"
     eol: false
-    latest: "20.3.2"
-    latestReleaseDate: 2022-10-12
+    latest: "20.3.3"
+    latestReleaseDate: 2022-10-19
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
     eol: false
