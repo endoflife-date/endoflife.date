@@ -21,15 +21,14 @@ releases:
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     eol: 2024-06-30
-    latest: "2.0.20220912.1"
-    latestReleaseDate: 2022-09-22
+    latest: "2.0.20221004.0"
+    latestReleaseDate: 2022-10-21
     releaseDate: 2018-06-26
 -   releaseCycle: '1'
     releaseLabel: 'Amazon Linux AMI'
     eol: 2020-12-31
     latest: "2018.03"
     releaseDate: 2010-09-14
-
 
 ---
 
