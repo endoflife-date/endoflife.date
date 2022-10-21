@@ -11,10 +11,16 @@ latestColumn: false
 releaseColumn: false
 releaseDateColumn: true
 releases:
+-   releaseCycle: "Raptor Lake"
+    discontinued: false
+    eol: false
+    releaseDate: 2022-10-20
+    
 -   releaseCycle: "Alder Lake"
     discontinued: false
     eol: false
     releaseDate: 2021-11-04
+
 -   releaseCycle: "Rocket Lake"
     discontinued: false
     eol: false
