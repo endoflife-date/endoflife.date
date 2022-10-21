@@ -120,7 +120,7 @@ GEM
     mini_i18n (0.8.0)
     minitest (5.16.3)
     multi_json (1.15.0)
-    nokogiri (1.13.8-x86_64-linux)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     os (1.1.4)
     pathutil (0.16.2)
