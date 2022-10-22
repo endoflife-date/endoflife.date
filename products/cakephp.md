@@ -140,6 +140,85 @@ releases:
     releaseDate: 2017-07-22
     latestReleaseDate: 2020-12-15
     link: https://bakery.cakephp.org/2020/12/15/cakephp_21024_released.html
+    
+-   releaseCycle: "2.9"
+    latest: "2.9.9"
+    eol: true
+    support: false
+    releaseDate: 2016-09-19
+    latestReleaseDate: 2017-05-26
+    link: https://bakery.cakephp.org/2017/05/25/cakephp_299_released.html    
+    
+-   releaseCycle: "2.8"
+    latest: "2.8.9"
+    eol: true
+    support: false
+    releaseDate: 2016-02-07
+    latestReleaseDate: 2016-09-19
+    link: https://bakery.cakephp.org/2016/09/18/cakephp_290_289_released.html
+    
+-   releaseCycle: "2.7"
+    latest: "2.7.11"
+    eol: true
+    support: false
+    releaseDate: 2015-07-12
+    latestReleaseDate: 2016-03-14
+    link: https://bakery.cakephp.org/2016/03/13/cakephp_2613_2711_282_3017_3112_325_released.html
+ 
+-   releaseCycle: "2.6"
+    latest: "2.6.13"
+    eol: true
+    support: false
+    releaseDate: 2014-12-23
+    latestReleaseDate: 2016-03-14 
+    link: https://bakery.cakephp.org/2016/03/13/cakephp_2613_2711_282_3017_3112_325_released.html
+
+-   releaseCycle: "2.5"
+    latest: "2.5.9"
+    eol: true
+    support: false
+    releaseDate: 2014-05-13
+    latestReleaseDate: 2015-08-07
+    link: https://bakery.cakephp.org/2015/08/06/cakephp_2_5_9_2_6_10_2_7_2_released.html
+    
+-   releaseCycle: "2.4"
+    latest: "2.4.10"
+    eol: true
+    support: false
+    releaseDate: 2013-08-30
+    latestReleaseDate: 2014-05-18
+    link: https://bakery.cakephp.org/2014/05/18/CakePHP-2-4-10-and-2-5-1-released.html
+    
+-   releaseCycle: "2.3"
+    latest: "2.3.10"
+    eol: true
+    support: false
+    releaseDate: 2013-01-28
+    latestReleaseDate: 2013-08-30 
+
+-   releaseCycle: "2.2"
+    latest: "2.2.9"
+    eol: true
+    support: false
+    releaseDate: 2012-07-02
+    latestReleaseDate: 2013-07-18
+    link: https://bakery.cakephp.org/2012/07/14/Security-Release-CakePHP-2-1-5-2-2-1.html
+
+-   releaseCycle: "2.1"
+    latest: "2.1.5"
+    eol: true
+    support: false
+    releaseDate: 2012-03-05
+    latestReleaseDate: 2012-07-14
+    link: https://bakery.cakephp.org/2012/07/14/Security-Release-CakePHP-2-1-5-2-2-1.html  
+    
+-   releaseCycle: "2.0"
+    latest: "2.0.6"
+    eol: true
+    support: false
+    releaseDate: 2011-08-17
+    latestReleaseDate: 2012-02-06
+    link: https://bakery.cakephp.org/2012/02/06/CakePHP-2-0-6-released.html
 
 -   releaseCycle: "1.3"
     latest: "1.3.21"
