@@ -15,6 +15,11 @@ releaseLabel: 'Horizon __RELEASE_CYCLE__ __CODENAME__'
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
 -   releaseCycle: "8"
+    codename: "2209"
+    releaseDate: 2022-10-20
+    eol: 2025-10-20
+    support: 2026-10-20
+-   releaseCycle: "8"
     codename: "2206"
     releaseDate: 2022-07-19
     eol: 2025-07-19
