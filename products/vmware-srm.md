@@ -12,6 +12,13 @@ releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 releases:
+-   releaseCycle: "8.6"
+    releaseDate: 2022-10-11
+    eol: 2025-10-11
+    support: 2026-10-11
+    latest: "8.6"
+    latestReleaseDate: 2022-10-11
+    link: "https://docs.vmware.com/en/Site-Recovery-Manager/8.6/rn/vmware-site-recovery-manager-86-release-notes/index.html"
 -   releaseCycle: "8.5"
     releaseDate: 2021-10-05
     eol: 2023-04-01

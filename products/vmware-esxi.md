@@ -14,6 +14,13 @@ eolColumn: General Support
 discontinuedColumn: false
 versionCommand: vmware -l
 releases:
+-   releaseCycle: "8.0"
+    support: 2029-10-11
+    eol: 2027-10-11
+    latest: "8.0"
+    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vmware-vsphere-80-release-notes/index.html"
+    releaseDate: 2022-10-11
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "7.0"
     support: 2027-04-02
     eol: 2025-04-02
