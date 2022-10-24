@@ -62,7 +62,7 @@ releases:
     eol: 2022-10-23
     support: 2022-10-23
     releaseDate: 2019-10-24
--   releaseCycle: "Pixel 3A / XL"
+-   releaseCycle: "Pixel 3a / XL"
     discontinued: 2020-07-01
     eol: 2022-05-06
     support: 2022-05-06
