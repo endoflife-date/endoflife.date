@@ -54,8 +54,8 @@ releases:
 -   releaseCycle: "4.1"
     codename: 'al-Khwarizmi'
     eol: false
-    latest: "4.1.9"
-    latestReleaseDate: 2022-04-17
+    latest: "4.1.10"
+    latestReleaseDate: 2022-10-21
     releaseDate: 2018-11-06
 
 -   releaseCycle: "4.0"
