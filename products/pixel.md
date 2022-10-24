@@ -14,74 +14,74 @@ releaseDateColumn: true
 releases:
 -   releaseCycle: "Pixel 7 Pro"
     discontinued: false
-    eol: 2027-10-13
-    support: 2027-10-13
+    eol: 2027-10-12
+    support: 2025-10-12
     releaseDate: 2022-10-13
 -   releaseCycle: "Pixel 7"
     discontinued: false
-    eol: 2027-10-13
-    support: 2027-10-13
+    eol: 2027-10-12
+    support: 2025-10-12
     releaseDate: 2022-10-13
 -   releaseCycle: "Pixel 6a"
     discontinued: false
-    eol: 2027-07-31
-    support: 2027-07-31
+    eol: 2027-07-27
+    support: 2025-07-27
     releaseDate: 2022-07-28
 -   releaseCycle: "Pixel 6 Pro"
     discontinued: false
-    eol: 2026-10-31
-    support: 2026-10-31
+    eol: 2026-10-27
+    support: 2024-10-27
     releaseDate: 2021-10-28
 -   releaseCycle: "Pixel 6"
     discontinued: false
-    eol: 2026-10-31
-    support: 2026-10-31
+    eol: 2026-10-27
+    support: 2024-10-27
     releaseDate: 2021-10-28
--   releaseCycle: "Pixel 5A"
+-   releaseCycle: "Pixel 5a"
     discontinued: false
-    eol: 2024-08-31
-    support: 2015-11-19
+    eol: 2024-08-25
+    support: 2024-08-25
     releaseDate: 2021-08-26
 -   releaseCycle: "Pixel 5"
     discontinued: 2021-08-20
-    eol: 2023-10-31
-    support: 2015-11-19
-    releaseDate: 2020-09-30
--   releaseCycle: "Pixel 4A 5G"
+    eol: 2023-10-14
+    support: 2023-10-14
+    releaseDate: 2020-10-15
+-   releaseCycle: "Pixel 4a (5G)"
     discontinued: 2021-08-20
-    eol: 2023-11-30
-    support: 2015-11-19
-    releaseDate: 2020-09-30
--   releaseCycle: "Pixel 4A"
+    eol: 2023-11-04
+    support: 2023-11-04
+    releaseDate: 2020-11-05
+-   releaseCycle: "Pixel 4a"
     discontinued: 2022-01-31
-    eol: 2023-08-31
-    support: 2015-11-19
-    releaseDate: 2020-08-03
+    eol: 2023-08-19
+    support: 2023-08-19
+    releaseDate: 2020-08-20
 -   releaseCycle: "Pixel 4 / XL"
     discontinued: 2020-08-06
-    eol: 2022-10-31
-    support: 2015-11-19
-    releaseDate: 2019-10-15
+    eol: 2022-10-23
+    support: 2022-10-23
+    releaseDate: 2019-10-24
 -   releaseCycle: "Pixel 3A / XL"
     discontinued: 2020-07-01
-    eol: 2022-05-31
-    support: 2015-11-19
+    eol: 2022-05-06
+    support: 2022-05-06
     releaseDate: 2019-05-07
 -   releaseCycle: "Pixel 3 / XL"
     discontinued: 2020-03-31
-    eol: 2021-10-31
-    support: 2015-11-19
+    eol: 2021-10-08
+    support: 2021-10-08
     releaseDate: 2018-10-09
 -   releaseCycle: "Pixel 2 / XL"
     discontinued: 2019-04-01
-    eol: 2020-10-31
-    support: 2015-11-19
-    releaseDate: 2017-10-04
+    eol: 2020-10-18
+    support: 2020-10-18
+    releaseDate: 2017-10-19
 -   releaseCycle: "Pixel / Pixel XL"
     discontinued: 2018-04-11
-    eol: 2018-10-31
-    support: 2015-11-19
-    releaseDate: 2016-10-04
+    eol: 2019-10-19
+    support: 2019-10-19
+    releaseDate: 2016-10-20
 
 ---
 
