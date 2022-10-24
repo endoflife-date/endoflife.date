@@ -85,8 +85,23 @@ releases:
 
 ---
 
-> Google Pixel is Google's current line of Android Phones and other consumer electronics.
+> Pixel is Google's current line of Android phones and other consumer electronics.
 
-The Pixel phones come out around the first or second week of October every year (the A series being unpredictable). Pixels support their devices for about three years with guaranteed software/security updates. That is only the guaranteed date, however Google may provide additional year(s) of updates, but is not bound to.
+In recent years, flagship Pixel phones have been released in October each year, followed by an additional mid-range variant known as the 'A-series' several months later. Pixel phones are supported with guaranteed software updates for three years.
 
-For more info on each model, visit: [Pixel 7](https://en.wikipedia.org/wiki/Pixel_7), [Pixel 6a](https://en.wikipedia.org/wiki/Pixel_6a), [Pixel 6 Pro](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 6](https://en.wikipedia.org/wiki/Pixel_6), [Pixel 5a](https://en.wikipedia.org/wiki/Pixel_5a), [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5), [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a), [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4), [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a), [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3), [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2), [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
+Starting with the Pixel 6, Google has committed to at least five years of security updates, extending an additional two years beyond the 3-year Android version update commitment. The end date for guaranteed Android version updates is indicated in the 'Active Support' column.
+
+More information on each model can be found on Wikipedia:
+
+- [Pixel 7](https://en.wikipedia.org/wiki/Pixel_7)
+- [Pixel 6a](https://en.wikipedia.org/wiki/Pixel_6a)
+- [Pixel 6 Pro](https://en.wikipedia.org/wiki/Pixel_6)
+- [Pixel 6](https://en.wikipedia.org/wiki/Pixel_6)
+- [Pixel 5a](https://en.wikipedia.org/wiki/Pixel_5a)
+- [Pixel 5](https://en.wikipedia.org/wiki/Pixel_5)
+- [Pixel 4a](https://en.wikipedia.org/wiki/Pixel_4a)
+- [Pixel 4](https://en.wikipedia.org/wiki/Pixel_4)
+- [Pixel 3a](https://en.wikipedia.org/wiki/Pixel_3a)
+- [Pixel 3](https://en.wikipedia.org/wiki/Pixel_3)
+- [Pixel 2](https://en.wikipedia.org/wiki/Pixel_2)
+- [Pixel (1st generation)](https://en.wikipedia.org/wiki/Pixel_(1st_generation))
