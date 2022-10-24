@@ -6,9 +6,9 @@ category: device
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
 discontinuedColumn: true
-activeSupportColumn: false
+activeSupportColumn: true
 latestColumn: true
-eolColumn: Software Update (Guaranteed)
+eolColumn: End of guaranteed security updates
 releaseColumn: false
 releaseDateColumn: true
 releases:
