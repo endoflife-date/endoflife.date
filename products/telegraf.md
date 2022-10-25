@@ -23,7 +23,13 @@ releases:
     releaseDate: 2022-03-23
     latest: "1.22.4"
     latestReleaseDate: 2022-05-17
-    link: https://github.com/influxdata/telegraf/releases/tag/v1.22.4    
+    link: https://github.com/influxdata/telegraf/releases/tag/v1.22.4
+  - releaseCycle: "1.21"
+    eol: 2022-06-13
+    releaseDate: 2021-12-16
+    latest: "1.21.4"
+    latestReleaseDate: 2022-02-16
+    link: https://github.com/influxdata/telegraf/releases/tag/v1.21.4
 iconSlug: NA
 permalink: /telegraf
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
