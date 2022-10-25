@@ -28,18 +28,17 @@ releases:
     latest: "2.4.14"
     latestReleaseDate: 2022-08-29
 -   releaseCycle: "2.3"
-    eol: 2022-03-17
+    eol: 2021-10-19
     releaseDate: 2020-07-13
     latest: "2.3.7"
     latestReleaseDate: 2021-10-19
 -   releaseCycle: "2.2"
-    eol: 2021-01-07
+    eol: 2021-04-19
     releaseDate: 2019-07-25
     latest: "2.2.7"
     latestReleaseDate: 2021-04-19
 -   releaseCycle: "1.7"
-    link: https://downloads.apache.org/hbase/1.7.2/api_compare_1.7.1_to_1.7.2RC0.html
-    eol: false
+    eol: 2022-08-09
     releaseDate: 2021-06-12
     latest: "1.7.2"
     latestReleaseDate: 2022-08-09
