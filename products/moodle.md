@@ -1,7 +1,7 @@
 ---
 title: Moodle
 category: server-app
-changelogTemplate: "https://moodledev.io/general/releases/__RELEASECYCLE__/__LATEST__"
+changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__/__LATEST__"
 # https://rubular.com/r/rPNtHvPDccyoU3
 auto:
 -   git: https://github.com/moodle/moodle.git
