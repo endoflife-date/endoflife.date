@@ -35,5 +35,5 @@ discontinuedColumn: false
 
 > [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
 
-Based on a plugin system to enable developers in the community to easily add support for additional metric collection.
+Telegraf is based on a plugin system, and this page only covers the Telegraf server.
 Only the latest two minor releases are supported with maintenance patch releases. 
