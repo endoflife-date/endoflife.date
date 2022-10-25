@@ -36,9 +36,4 @@ discontinuedColumn: false
 > [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
 
 Based on a plugin system to enable developers in the community to easily add support for additional metric collection.
-InfluxData will provide Support Services for the current Minor Release (x.Y) of the Software and the immediately preceding Minor Release (x.Y)
-of the Software, inclusive of all Maintenance Releases (x.y.Z) included in the respective Minor Release. (By way of example only,
-InfluxData releases 1.8 (Major release version 1, Minor release version 8) and several maintenance releases thereafter (1.8.1, 1.8.2 and so forth).
-InfluxData then releases a new Minor Release, 1.9 (Major release version 1, Minor release version 9) and several maintenance releases
-thereafter (1.9.1, 1.9.2 and so forth). In this example, InfluxData would provide Support Services for 1.8 and 1.9 and all of its respective
-maintenance releases).
+Only the latest two minor releases are supported with maintenance patch releases. 
