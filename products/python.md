@@ -13,6 +13,11 @@ auto:
   # eg https://github.com/python/cpython/releases/tag/3.6
     regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
+-   releaseCycle: "3.11"
+    eol: 2027-10-24
+    latest: "3.11.0"
+    latestReleaseDate: 2022-10-24
+    releaseDate: 2022-10-24
 -   releaseCycle: "3.10"
     eol: 2026-10-04
     latest: "3.10.8"
