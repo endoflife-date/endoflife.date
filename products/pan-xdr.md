@@ -3,8 +3,7 @@ title: Palo Alto Networks Cortex XDR agent
 category: app
 permalink: /cortexxdr
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__"
-  | split:' ' | first | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
+changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__" | remove:'-' | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 iconSlug: NA
 activeSupportColumn: false
 releaseColumn: false
