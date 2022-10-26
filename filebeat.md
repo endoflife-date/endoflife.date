@@ -30,7 +30,7 @@ discontinuedColumn: false
 
 ---
 
-> [Filebeat](https://www.elastic.co/beats/filebeat) is a lightweight shipper for logs.
+> [Filebeat](https://www.elastic.co/beats/filebeat) is a lightweight shipper for logs, provided by Elastic.
 
 Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify,
 collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
