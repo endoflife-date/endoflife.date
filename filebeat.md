@@ -35,4 +35,3 @@ discontinuedColumn: false
 Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify,
 collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
-[EOL Policy](https://www.elastic.co/support/eol)
