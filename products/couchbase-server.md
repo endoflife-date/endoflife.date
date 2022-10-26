@@ -22,7 +22,7 @@ releases:
 -   releaseCycle: "7.1"
     eol: false
     latest: "7.1.2"
-    latestReleaseDate: 2022-10-24
+    latestReleaseDate: 2022-10-26
     releaseDate: 2022-06-07
 -   releaseCycle: "7.0"
     eol: 2023-01-01
