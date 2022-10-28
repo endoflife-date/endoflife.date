@@ -22,7 +22,7 @@ releases:
     releaseDate: 2021-12-07
     latest: "7.16.3"
     latestReleaseDate: 2022-01-13
-iconSlug: NA
+iconSlug: elastic
 permalink: /filebeat
 releasePolicyLink: https://www.elastic.co/support/eol
 releaseColumn: true
@@ -36,3 +36,6 @@ discontinuedColumn: false
 Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify,
 collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
+Each major release of all Elastic products is supported for at least 18 months from the General Availability date. Elastic maintains the most recent minor release from the current major release stream and the most recent minor release from the prior major release stream.
+
+A [compatibility matrix](https://www.elastic.co/support/matrix) is available for validating compatibility with other Elastic products.
