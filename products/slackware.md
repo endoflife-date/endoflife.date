@@ -12,7 +12,7 @@ activeSupportColumn: false
 versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
-realseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
 purls:
 -   purl: pkg:os/slackwarelinux
