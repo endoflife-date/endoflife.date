@@ -17,7 +17,7 @@ purls:
 -   purl: pkg:os/slackwarelinux
 auto:
 -   distrowatch: slackware
-    regex: '^Distribution Release: Slackware Linux (?P<major>\d)\.(?P<minor>\d)$'
+    regex: '^Distribution Release: Slackware (Linux )?(?P<major>\d+)\.(?P<minor>\d+)$'
 releases:
 -   releaseCycle: "current"
     codename: "-current"
