@@ -78,7 +78,7 @@ releases:
 
 ---
 
-> [MX Linux](https://mxlinux.org/) is a desktop-oriented GNU/Linux distribution based on Debian's stable branch releases.  Its name is sourced from the first letter of MEPIS and last letter of antiX, two communities that collaborate on development.  MX Linux uses the XFCE desktop environment by default but also offers releases defaulting to KDE Plasma and Fluxbox desktops to produce "a midweight operating system designed to combine an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint."
+> [MX Linux](https://mxlinux.org/) is a desktop-oriented GNU/Linux distribution based on Debian's stable branch releases. MX Linux uses the [XFCE](https://xfce.org/) by default and aims for "an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint."
 
 There are several releases of MX Linux supported concurrently.  These typically follow Debian's periods of active development and extended, long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support. (MX Linux releases follow and correspond to Debian stable's major and point releases.)[https://mxlinux.org/release-cycle/]
 
