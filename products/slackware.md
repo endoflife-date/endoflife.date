@@ -96,7 +96,7 @@ releases:
     link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2002-06-19
 -   releaseCycle: "8.0"
-    eol: true
+    eol: 2003-03-29
     link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2001-06-28
 
