@@ -161,8 +161,8 @@ or +1 (EoL is in the future)
       "bg-green-000"
       {% endif %}
     {% endif %}
-  title="{{r.eol}}">
     {% if securityFixes > 5 %}
+      title="{{r.eol}}">
       {% if diff < 0 %}
         Ended
       {% else %}
@@ -170,6 +170,7 @@ or +1 (EoL is in the future)
       {% endif %}
     {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
     {% else %}
+      >
       {% if r.eol %}
       No
       {% else %}
