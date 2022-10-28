@@ -21,6 +21,7 @@ auto:
 releases:
 -   releaseCycle: "current"
     codename: "-current"
+    releaseLabel: Current
     eol: false
     link: http://www.slackware.com/changelog/current.php?cpu=i386
     releaseDate: 1993-07-27
