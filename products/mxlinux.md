@@ -2,6 +2,8 @@
 permalink: /mxlinux
 alternate_urls:
 -   /mx_linux
+-   /mx-linux
+-   /mx
 title: MX Linux
 category: os
 releasePolicyLink: https://mxlinux.org/release-cycle/
