@@ -68,8 +68,8 @@ releases:
 -   releaseCycle: "3.4"
     codename: 'Cantor'
     eol: false
-    latest: "3.4.11"
-    latestReleaseDate: 2022-05-14
+    latest: "3.4.12"
+    latestReleaseDate: 2022-10-27
     releaseDate: 2017-10-15
 
 -   releaseCycle: "3.3"
