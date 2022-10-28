@@ -107,4 +107,6 @@ There are several releases of Slackware Linux supported concurrently.  A [stabil
 
 Slackware's `-current` development tree closely follows bleeding edge of upstream releases. The latest stable release gets bug and security fixes while previous non End-of-Life releases receive only security patches.
 
-Slackware does not use systemd, instead using the traditional SysV for init (though extracted components from systemd such as [eudev](https://wiki.gentoo.org/wiki/Eudev) and [elogind](https://wiki.gentoo.org/wiki/Elogind) are present and utilized.)  Slackware officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit x86 processors.  Unofficial builds are available for the arm and s/390 architectures.
+Slackware officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit x86 processors.  Unofficial builds are available for the arm and s/390 architectures.
+
+Security Advisories are published [here](http://www.slackware.com/security/), and can be subscribed via the [slackware-security](http://www.slackware.com/lists/) mailing list.
