@@ -82,4 +82,4 @@ releases:
 
 There are several releases of MX Linux supported concurrently.  These typically follow Debian's periods of active development and extended long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
 
-While MX Linux includes systemd installed by default, the traditional SysVinit is configured to serve as the init daemon.  This coexistence is fostered by the "systemd-shim" package, which was formerly developed by Debian that the MX developers now maintain.  MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors, and the Raspberry Pi's 32-bit armhf architecture.  Like [antiX](https://antixlinux.com) MX Linux features many custom-developed tools.  These assist with tasks such as package management, bootloader configuration, and persistent bootable media creation making MX Linux a great choice for both live boot and disk installations.
+MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors, and the Raspberry Pi's 32-bit armhf architecture.
