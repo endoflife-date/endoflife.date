@@ -2,6 +2,7 @@
 permalink: /slackware
 alternate_urls:
 -   /slackwarelinux
+-   /slackware-linux
 title: Slackware Linux
 category: os
 releasePolicyLink: http://www.slackware.com/changelog/
