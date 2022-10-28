@@ -53,7 +53,7 @@ releases:
 
 ---
 
-> [Devuan GNU+Linux](https://www.devuan.org/) is a [fork of Debian without systemd](https://www.devuan.org/os/announce/) that allows users to reclaim control over their system by avoiding unnecessary entanglements???  and ensuring [Init Freedom](https://www.devuan.org/os/init-freedom).
+> [Devuan GNU+Linux](https://www.devuan.org/) is a [fork of Debian without systemd](https://www.devuan.org/os/announce/) to support [Init Freedom](https://www.devuan.org/os/init-freedom).
 
 At any given time, there is one stable release of Devuan, where package versions stay relatively static, only receiving security patches.  Changes beyond security patches such as package version bumps often occur at point releases.  Devuan makes stable releases when they are ready, not on a fixed schedule.  This roughly follows the [Debian](http://endoflife.date/debian) release cadence.  When a new stable version is released, the previous stable versions continue to [maintained](https://www.devuan.org/os/releases) until those releases are [archived](https://www.devuan.org/os/releases#archive).
 
