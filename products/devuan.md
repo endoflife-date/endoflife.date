@@ -12,7 +12,7 @@ purls:
 -   purl: pkg:os/devuan
 auto:
 -   distrowatch: devuan
-    regex: '^Distribution Release: Devuan GNU+Linux (?P<major>\d)\.(?P<minor>\d)\.(?P<patch>\d)$'
+    regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
 releases:
 -   releaseCycle: "4"
     codename: "Chimaera"
