@@ -101,7 +101,7 @@ releases:
 
 ---
 
-> [Slackware](http://www.slackware.com/) is a general-purpose GNU/Linux distribution that aims to be most ["UNIX-like", simple and stable](http://www.slackware.com/info/).  The developers strive to minimize the number of changes to upstream software relases.  It is the oldest actively developed GNU/Linux distribution with development being led by creator Patrick Volkerding continuously since 1993.
+> [Slackware](http://www.slackware.com/) is a general-purpose GNU/Linux distribution that aims to be most ["UNIX-like", simple and stable](http://www.slackware.com/info/). It strives to minimize the number of changes to upstream software releases.  It is the oldest actively developed GNU/Linux distribution with development being led by creator Patrick Volkerding continuously since 1993.
 
 There are several releases of Slackware Linux supported concurrently.  A [stability based release cycle](http://www.slackware.com/faq/do_faq.php?faq=general#4) is used and therefore releases are not due on a fixed schedule but have typically occured every few years.
 
