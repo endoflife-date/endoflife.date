@@ -8,6 +8,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+iconSlug: NA
 purls:
 -   purl: pkg:os/devuan
 auto:
