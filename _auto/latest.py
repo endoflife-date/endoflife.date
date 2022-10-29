@@ -127,6 +127,8 @@ def update_product(name):
                     didn't catch-up in time.
                     """
                     def new_version_is_higher(new_version):
+                        if 'latest' not in release:
+                            return True
                         old_version = release['latest']
                         old_date = release.get('latestReleaseDate', None)
                         # Do our best attempt at comparing the version numbers
