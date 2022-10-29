@@ -7,7 +7,7 @@ title: Slackware Linux
 category: os
 releasePolicyLink: http://www.slackware.com/changelog/
 iconSlug: slackware
-changelogTemplate: http://mirrors.slackware.com/slackware/slackware-__RELEASE_CYCLE__/ChangeLog.txt
+changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 activeSupportColumn: false
 versionCommand: cat /etc/os-release
 releaseColumn: false
@@ -29,43 +29,33 @@ releases:
 -   releaseCycle: "15.0"
     codename: "stable"
     eol: false
-    link: http://www.slackware.com/announce/15.0.php
     releaseDate: 2022-02-02
 -   releaseCycle: "14.2"
     eol: false
-    link: http://www.slackware.com/announce/14.2.php
     releaseDate: 2016-06-30
 -   releaseCycle: "14.1"
     eol: false
-    link: http://www.slackware.com/announce/14.1.php
     releaseDate: 2013-11-04
 -   releaseCycle: "14.0"
     eol: false
-    link: http://www.slackware.com/announce/14.0.php
     releaseDate: 20l2-09-26
 -   releaseCycle: "13.37"
     eol: 2018-07-05
-    link: http://www.slackware.com/announce/13.37.php
     releaseDate: 2011-04-25
 -   releaseCycle: "13.1"
     eol: 2018-07-05
-    link: http://www.slackware.com/announce/13.1.php
     releaseDate: 2010-05-19
 -   releaseCycle: "13.0"
     eol: 2018-07-05
-    link: http://www.slackware.com/announce/13.0.php
     releaseDate: 2009-08-26
 -   releaseCycle: "12.2"
     eol: 2013-12-09
-    link: http://www.slackware.com/announce/12.2.php
     releaseDate: 2008-12-09
 -   releaseCycle: "12.1"
     eol: 2013-12-09
-    link: http://www.slackware.com/announce/12.1.php
     releaseDate: 2008-05-01
 -   releaseCycle: "12.0"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2007-07-01
 -   releaseCycle: "11.0"
     eol: 2012-08-01
