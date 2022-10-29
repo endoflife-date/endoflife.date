@@ -69,35 +69,27 @@ releases:
     releaseDate: 2007-07-01
 -   releaseCycle: "11.0"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2006-10-01
 -   releaseCycle: "10.2"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2005-09-13
 -   releaseCycle: "10.1"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2005-02-02
 -   releaseCycle: "10.0"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2004-06-22
 -   releaseCycle: "9.1"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2003-09-25
 -   releaseCycle: "9.0"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2003-03-18
 -   releaseCycle: "8.1"
     eol: 2012-08-01
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2002-06-19
 -   releaseCycle: "8.0"
     eol: 2003-03-29
-    link: http://www.slackware.com/announce/12.0.php
     releaseDate: 2001-06-28
 
 ---
