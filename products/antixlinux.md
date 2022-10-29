@@ -29,11 +29,11 @@ releases:
 -   releaseCycle: "19"
     codename: "Marielle Franco / Hannie Schaft / Manolis Glezos / Grup Yorum"
     releaseDate: 2019-10-17
-    latest: "19.4"
-    latestRelaseDate: 2021-05-21
+    latest: "19.5"
+    latestRelaseDate: 2022-01-25
     support: 2022-09-10
     eol: 2024-06-30
-    link: https://mxlinux.org/blog/mx-19-4-now-available/
+    link: https://antixlinux.com/antix-19-5-point-release-update/
 -   releaseCycle: "17"
     codename: "Heather Heyer / Helen Keller"
     releaseDate: 2017-10-24
