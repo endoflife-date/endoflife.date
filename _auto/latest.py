@@ -5,7 +5,6 @@ import re
 import datetime
 from glob import glob
 from pathlib import Path
-from distutils.version import StrictVersion
 from ruamel.yaml import YAML
 from ruamel.yaml.resolver import Resolver
 from deepdiff import DeepDiff
@@ -27,16 +26,6 @@ DEFAULT_POST_TEMPLATE = """\
 {content}
 """
 
-# https://stackoverflow.com/a/63092850/368328
-def sort_versions(data):
-    def key(n):
-        a = re.split(r"(\d+)", n)
-        a[1::2] = map(int, a[1::2])
-        return a
-
-    return sorted(data, key=lambda n: key(n))
-
-
 # https://stackoverflow.com/a/71329221/368328
 # Force encoding version numbers as strings
 Resolver.add_implicit_resolver(
@@ -56,7 +45,18 @@ This is important to avoid edge cases like a 4.10.x release being marked under t
 
 def releases_matches(r, prefix):
     return r.startswith(prefix) and (
-        r == prefix or r.startswith(prefix + ".") or r.startswith(prefix + "-")
+        # It exactly matches the release cycle
+        r == prefix or
+        # It matches the prefix with an extra alphabet as a character
+        # this is notably used in openssl
+        # prefix = 1.1.0, r = 1.1.0r
+        ((len(r) - len(prefix) == 1) and ord(r[len(prefix):]) in range(ord('a'),ord('z'))) or
+        # It matches the release cycle as a patch release
+        # prefix = 1.1, r = 1.1.2
+        r.startswith(prefix + ".") or
+        # It matches the release cycle as a version suffix
+        # prefix = 1.2, r = 1.2-final
+        r.startswith(prefix + "-")
     )
 
 
@@ -98,8 +98,11 @@ def update_product(name):
                 # Entire releases data as a dict
                 R1 = json.loads(releases_file.read())
                 # Just the list of versions
-                R2 = sort_versions(R1.keys())
-                R3 = set(R2)
+                # Sort the versions by the date of release
+                R2 = sorted(R1.keys(), key=lambda n: R1[n])
+                # Set of versions, we remove all matched
+                # versions from this to get to "unmatched" versions
+                version_set = set(R2)
 
             updated = False
 
@@ -110,12 +113,13 @@ def update_product(name):
                 first_version = find_first(R2, prefix)
                 latest_version = find_last(R2, prefix)
 
-                R3 = R3 - find_all(R3, prefix)
+                version_set = version_set - find_all(version_set, prefix)
 
                 if first_version:
                     release["releaseDate"] = datetime.date.fromisoformat(
                         R1[first_version]
                     )
+
                     release["latestReleaseDate"] = datetime.date.fromisoformat(
                         R1[latest_version]
                     )
@@ -136,8 +140,9 @@ def update_product(name):
                 f.truncate()
                 f.write(final_contents)
 
-            if len(R3) != 0:
-                for x in R3:
+            # Print all unmatched versions released in the last 30 days
+            if len(version_set) != 0:
+                for x in version_set:
                     date = datetime.date.fromisoformat(R1[x])
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
