@@ -22,21 +22,21 @@ releases:
     latestReleaseDate: 2022-10-11
 -   releaseCycle: "1.1.1"
     eol: 2023-09-11
-    latest: "1.1.1"
+    latest: "1.1.1r"
     lts: true
     releaseDate: 2018-09-11
-    latestReleaseDate: 2018-09-11
+    latestReleaseDate: 2022-10-11
 -   releaseCycle: "1.1.0"
     eol: 2019-09-11
-    latest: "1.1.0"
+    latest: "1.1.0l"
     releaseDate: 2016-08-25
-    latestReleaseDate: 2016-08-25
+    latestReleaseDate: 2019-09-10
 -   releaseCycle: "1.0.2"
     eol: 2019-12-31
-    latest: "1.0.2"
+    latest: "1.0.2u"
     lts: true
     releaseDate: 2015-01-22
-    latestReleaseDate: 2015-01-22
+    latestReleaseDate: 2019-12-20
 
 ---
 
