@@ -5,7 +5,6 @@ alternate_urls:
 -   /slackware-linux
 title: Slackware Linux
 category: os
-releasePolicyLink: http://www.slackware.com/changelog/
 iconSlug: slackware
 changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 activeSupportColumn: false
