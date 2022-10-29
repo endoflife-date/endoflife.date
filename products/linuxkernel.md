@@ -23,6 +23,7 @@ releases:
     latest: "6.0.5"
     latestReleaseDate: 2022-10-26
     releaseDate: 2022-10-02
+
 -   releaseCycle: "5.19"
     eol: 2022-10-24
     latest: "5.19.17"
@@ -30,7 +31,7 @@ releases:
     releaseDate: 2022-07-31
 
 -   releaseCycle: "5.18"
-    eol: true
+    eol: 2022-08-21
     latest: "5.18.19"
     latestReleaseDate: 2022-08-21
     releaseDate: 2022-05-22
