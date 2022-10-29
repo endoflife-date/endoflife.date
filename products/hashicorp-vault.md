@@ -14,6 +14,11 @@ releaseDateColumn: true
 versionCommand: vault --version
 
 releases:
+-   releaseCycle: "1.12"
+    eol: false
+    latest: "1.12.0"
+    latestReleaseDate: 2022-10-10
+    releaseDate: 2022-10-10
 -   releaseCycle: "1.11"
     eol: false
     latest: "1.11.4"
@@ -25,7 +30,7 @@ releases:
     latestReleaseDate: 2022-09-22
     releaseDate: 2022-03-21
 -   releaseCycle: "1.9"
-    eol: false
+    eol: 2022-10-10
     latest: "1.9.10"
     latestReleaseDate: 2022-09-15
     releaseDate: 2021-11-16
