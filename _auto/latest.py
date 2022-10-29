@@ -81,7 +81,6 @@ def yaml_to_str(obj):
     string_stream.close()
     return output_str
 
-
 def update_product(name):
     fn = "products/%s.md" % name
     with open(fn, "r+") as f:
@@ -120,10 +119,34 @@ def update_product(name):
                         R1[first_version]
                     )
 
-                    release["latestReleaseDate"] = datetime.date.fromisoformat(
-                        R1[latest_version]
-                    )
-                    release["latest"] = latest_version
+                    """
+                    Does some checks to make sure that the latest+latestReleaseDate
+                    is only updated in cases where both are higher than the current values
+                    this is important to make sure that we never "downgrade" a release cycle
+                    because we manually updated something too early, and our automation
+                    didn't catch-up in time.
+                    """
+                    def new_version_is_higher(new_version):
+                        old_version = release['latest']
+                        old_date = release.get('latestReleaseDate', None)
+                        # We compare the dates if we have one
+                        if old_date:
+                            return old_date <= datetime.date.fromisoformat(R1[new_version])
+                        # Otherwise, we do our best attempt at comparing the version numbers
+                        try:
+                            return Version(new_version) >= Version(old_version)
+                        except:
+                            # Since the list is already sorted, we assume we've gotten a okay
+                            # chance at this point that the new version is higher
+                            return True
+
+                    # Never downgrade a custom pinned version
+                    # that is higher
+                    if(new_version_is_higher(latest_version)):
+                        release["latestReleaseDate"] = datetime.date.fromisoformat(
+                            R1[latest_version]
+                        )
+                        release["latest"] = latest_version
                     diff = DeepDiff(old, release, ignore_order=True)
 
                     # We write back to the file
