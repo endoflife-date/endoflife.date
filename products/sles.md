@@ -21,7 +21,7 @@ releases:
 -   releaseCycle: "15"
     support: 2028-07-31
     eol: 2031-07-31
-    latest: "SLES 15 SP3"
+    latest: "SLES 15 SP4"
     releaseDate: 2018-07-15
 -   releaseCycle: "12"
     support: 2024-10-31

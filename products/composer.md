@@ -12,8 +12,8 @@ purls:
 releases:
 -   releaseCycle: "2.4"
     eol: false
-    latest: "2.4.3"
-    latestReleaseDate: 2022-10-14
+    latest: "2.4.4"
+    latestReleaseDate: 2022-10-27
     releaseDate: 2022-08-16
 
 -   releaseCycle: "2.3"
