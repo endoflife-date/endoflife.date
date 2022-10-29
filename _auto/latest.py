@@ -129,17 +129,14 @@ def update_product(name):
                     def new_version_is_higher(new_version):
                         old_version = release['latest']
                         old_date = release.get('latestReleaseDate', None)
-                        # We compare the dates if we have one
-                        # Since multiple releases can show up on the same date, we want a better
-                        # guarantee, and err on the side of using the next check instead.
-                        if old_date:
-                            return old_date < datetime.date.fromisoformat(R1[new_version])
-                        # Otherwise, we do our best attempt at comparing the version numbers
+                        # Do our best attempt at comparing the version numbers
                         try:
                             return Version(new_version) >= Version(old_version)
                         except:
-                            # Since the list is already sorted, we assume we've gotten a okay
-                            # chance at this point that the new version is higher
+                            # We compare the dates if we have one
+                            # Note that multiple releases can show up on the same date
+                            if old_date:
+                                return old_date < datetime.date.fromisoformat(R1[new_version])
                             return True
 
                     # Never downgrade a custom pinned version
