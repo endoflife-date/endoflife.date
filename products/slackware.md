@@ -36,7 +36,7 @@ releases:
     releaseDate: 2013-11-04
 -   releaseCycle: "14.0"
     eol: false
-    releaseDate: 20l2-09-26
+    releaseDate: 2012-09-26
 -   releaseCycle: "13.37"
     eol: 2018-07-05
     releaseDate: 2011-04-25
