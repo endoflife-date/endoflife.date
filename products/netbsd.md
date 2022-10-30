@@ -46,7 +46,7 @@ releases:
 
 ---
 
-> [NetBSD](https://www.netbsd.org/) is a a free, fast, secure and extremely portable UNIX-like operating system.
+> [NetBSD](https://www.netbsd.org/) is a free, fast, secure and extremely portable UNIX-like operating system.
 
 NetBSD makes new major [releases](https://www.netbsd.org/releases/) approximately every 2-3 years, with point releases occurring every 6-12 months for the latest and prior major release.  One month after a new major release, support typically ends for the NetBSD major release 2 versions prior.  NetBSD also releases daily snapshots of the development source code tree as [NetBSD-current][current].
 
