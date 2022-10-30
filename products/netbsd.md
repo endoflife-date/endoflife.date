@@ -7,40 +7,36 @@ activeSupportColumn: false
 releasePolicyLink: https://www.netbsd.org/releases/
 releaseDateColumn: true
 releaseColumn: false
+changelogTemplate: https://www.netbsd.org/releases/formal___RELEASE_CYCLE__/__LATEST__.html
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-02-14
     latest: "9.3"
     latestRelaseDate: 2022-08-04
-    link: https://www.netbsd.org/releases/formal-9/NetBSD-9.3.html
     support: true
     eol: false
 -   releaseCycle: "8"
     releaseDate: 2018-07-17
     latest: "8.2"
     latestRelaseDate: 2020-03-31
-    link: https://www.netbsd.org/releases/formal-8/NetBSD-8.2.html
     support: 2022-02-14
     eol: false
 -   releaseCycle: "7"
     releaseDate: 2015-09-25
     latest: "7.2"
     latestRelaseDate: 2018-08-29
-    link: https://www.netbsd.org/releases/formal-7/NetBSD-7.2.html
     support: 2018-07-17
     eol: 2020-06-30
 -   releaseCycle: "6"
     releaseDate: 2012-10-17
     latest: "6.1.5"
     latestRelaseDate: 2014-09-22
-    link: https://www.netbsd.org/releases/formal-6/NetBSD-6.1.5.html
     support: 2015-09-25
     eol: 2018-08-17
 -   releaseCycle: "5"
     releaseDate: 2009-04-29
     latest: "5.2.3"
     latestRelaseDate: 2014-11-15
-    link: https://www.netbsd.org/releases/formal-5/NetBSD-5.2.3.html
     support: 2012-10-17
     eol: 2015-10-25
 
