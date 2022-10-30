@@ -7,7 +7,7 @@ activeSupportColumn: false
 releasePolicyLink: https://www.netbsd.org/releases/
 releaseDateColumn: true
 releaseColumn: false
-changelogTemplate: https://www.netbsd.org/releases/formal___RELEASE_CYCLE__/__LATEST__.html
+changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/__LATEST__.html
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-02-14
