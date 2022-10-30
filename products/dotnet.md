@@ -62,18 +62,6 @@ releases:
     latest: "2.0.9"
     releaseDate: 2017-08-14
     latestReleaseDate: 2018-07-10
--   releaseCycle: "1.1"
-    releaseLabel: "Core __RELEASE_CYCLE__"
-    eol: 2019-06-27
-    latest: "1.1.13"
-    releaseDate: 2016-11-16
-    latestReleaseDate: 2019-05-15
--   releaseCycle: "1.0"
-    releaseLabel: "Core __RELEASE_CYCLE__"
-    eol: 2019-06-27
-    latest: "1.0.16"
-    releaseDate: 2022-04-27
-    latestReleaseDate: 2019-05-15
 
 ---
 
