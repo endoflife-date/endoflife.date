@@ -50,8 +50,8 @@ NetBSD makes new major [releases](https://www.netbsd.org/releases/) approximatel
 At any given time typically [3 branches][maintenance] of NetBSD are [supported with security patches][security] and bug fixes:
 
 * [NetBSD-current][current]: Snapshots of the development branch.
-* The Latest Major Release: The latest major [formal release][formal] of NetBSD.
-* The Prior Major Release:  The previous major [formal release][formal] of NetBSD.
+* [The Latest Major Release][formal-latest]: The latest major [formal release][formal] of NetBSD.
+* [The Prior Major Release][supported-releases]:  The previous major [formal release][formal] of NetBSD.
 (The release before the previous release is typically supported for one month after a new major release, leading to 4 releases being currently supported.)
 
 NetBSD publishes security advisories on the [announcements mailing list][announce-ml], the [security announcements mailing list][security-announce-ml], and the [tech-security discussion mailing list][tech-security-ml]. [RSS feeds][rss] providing [news][news-rss] and [security][security-rss] information are also available.
@@ -60,6 +60,8 @@ NetBSD publishes security advisories on the [announcements mailing list][announc
 [security]: https://www.netbsd.org/support/security/ "Security and NetBSD"
 [formal]: https://www.netbsd.org/releases/formal.html "NetBSD Formal Releases"
 [maintenance]: https://www.netbsd.org/releases/release-map.html#maintenance "NetBSD Maintenance Branches"
+[formal-latest]: https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"
+[supported-releases]: https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"
 [rss]: http://netbsd.org/changes/rss.html "NetBSD RSS Feeds"
 [news-rss]: http://www.netbsd.org/changes/rss-netbsd.xml "NetBSD News RSS Feed"
 [security-rss]: http://www.netbsd.org/support/security/rss-advisories.xml "NetBSD Security RSS Feed"
