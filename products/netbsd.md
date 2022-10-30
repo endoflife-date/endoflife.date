@@ -58,7 +58,7 @@ At any given time typically [3 branches][maintenance] of NetBSD are [supported w
 * The Prior Major Release:  The previous major [formal release][formal] of NetBSD.
 (The release before the previous release is typically supported for one month after a new major release, leading to 4 releases being currently supported.)
 
-NetBSD publishes security advisories on the [announcements mailing list][announce-ml], the [security announcements mailing list][security-annouce-ml], and the [tech-security discussion mailing list][tech-security-ml]. [RSS feeds][rss] providing [news][news-rss] and [security][security-rss] information are also available.
+NetBSD publishes security advisories on the [announcements mailing list][announce-ml], the [security announcements mailing list][security-announce-ml], and the [tech-security discussion mailing list][tech-security-ml]. [RSS feeds][rss] providing [news][news-rss] and [security][security-rss] information are also available.
 
 [release-engineering]: http://releng.netbsd.org/ "NetBSD Release Engineering Status Site"
 [security]: https://www.netbsd.org/support/security/ "Security and NetBSD"
