@@ -6,14 +6,13 @@ alternate_urls:
 title: antiX
 category: os
 releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
-iconSlug: mxlinux
 activeSupportColumn: true
 versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
 realseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 purls:
--   purl: pkg:os/mxlinux
+-   purl: pkg:os/antix
 auto:
 -   distrowatch: antix
     regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
@@ -27,7 +26,7 @@ releases:
     eol: 2026-06-30
     link: https://antixlinux.com/antix-22-released/
 -   releaseCycle: "19"
-    codename: "Marielle Franco / Hannie Schaft / Manolis Glezos / Grup Yorum"
+    codename: "Grup Yorum"
     releaseDate: 2019-10-17
     latest: "19.5"
     latestRelaseDate: 2022-01-25
@@ -35,7 +34,7 @@ releases:
     eol: 2024-06-30
     link: https://antixlinux.com/antix-19-5-point-release-update/
 -   releaseCycle: "17"
-    codename: "Heather Heyer / Helen Keller"
+    codename: "Helen Keller"
     releaseDate: 2017-10-24
     latest: "17.4.1"
     latestRelaseDate: 2019-03-28
@@ -43,7 +42,7 @@ releases:
     eol: 2022-06-30
     link: https://antixlinux.com/antix-17-4-1-now-out/
 -   releaseCycle: "16"
-    codename: "Killah P / Fusion / Berta Cáceres"
+    codename: "Berta Cáceres"
     releaseDate: 2016-06-27
     latest: "16.3"
     latestRelaseDate: 2017-12-21
@@ -51,7 +50,7 @@ releases:
     eol: 2020-06-30
     link: https://antixlinux.com/antix-16-3-full-iso-files-available/
 -   releaseCycle: "15"
-    codename: "Killah P / Fusion / Berta Cáceres"
+    codename: "Berta Cáceres"
     releaseDate: 2015-06-30
     latest: "15"
     latestRelaseDate: 2015-06-30
