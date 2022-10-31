@@ -60,8 +60,8 @@ releases:
 
 ---
 
-> [antiX](https://antixlinux.com/) is a lightweight desktop-oriented systemd-free GNU/Linux distribution based on Debian's stable branch releases.  AntiX Linux uses the "antiX Magic" IceWM-based desktop to reduce system resource usage.  This allows for antiX to run smoothly on old and new hardware, both from live media and from an installation to disk.
+> [antiX](https://antixlinux.com/) is a lightweight desktop-oriented systemd-free GNU/Linux distribution based on Debian's stable branch releases. AntiX Linux uses the lightweight "antiX Magic" IceWM-based desktop which allows for antiX to run smoothly on old and new hardware.
 
-There are several releases of antiX supported concurrently.  These typically follow Debian's periods of active development and extended, long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
+There are several releases of antiX supported concurrently.  These typically follow Debian's periods of active development and extended long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
 
-While antiX defaults to using SysVinit as the default init daemon, runit is offered as an alternative.  AntiX officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit x86 processors.  Like [MX Linux](https://antixlinux.com) antiX features many custom-developed tools.  These assist with tasks such as package management, bootloader configuration, and persistent bootable media creation making MX Linux a great choice for both live boot and disk installations.  Unlike MX Linux, antiX does not offer systemd as init and now as of [antiX-22](https://antixlinux.com/antix-22-released/) further removes systemd-derived components such as elogind (although eudevd is still used at this time).
+AntiX officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit x86 processors.
