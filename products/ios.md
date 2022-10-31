@@ -78,7 +78,7 @@ releases:
 
 ---
 
-> [iOS](https://www.apple.com/ios/) is Aple's mobile operating system created by Apple, and used in the company's mobile devices, including the iPhone. It is the world's second-most widely installed operating system, after Android.
+> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple, and used in the company's mobile devices, including the iPhone. It is the world's second-most widely installed operating system, after Android.
 
 Major versions of iOS are released annually. Apple significantly extended the cycle of updates for iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple. Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/), for a short period of time.
 
