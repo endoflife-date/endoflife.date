@@ -11,6 +11,7 @@ releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Support Status
+changelogTemplate: https://github.com/microsoft/dotnet/blob/main/releases/net{{"__RELEASE_CYCLE__"| replace:'.',''}}/README.md
 releases:
 -   releaseCycle: "4.8.1"
     eol: false
@@ -51,6 +52,7 @@ releases:
 -   releaseCycle: "3.5 SP1"
     eol: 2029-01-09
     releaseDate: 2007-11-19
+    link: ''
 
 ---
 
