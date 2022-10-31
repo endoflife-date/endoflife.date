@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "3.5 SP1"
     eol: 2029-01-09
     releaseDate: 2007-11-19
-    link: ''
+    link: "https://support.microsoft.com/en-us/topic/list-of-changes-and-fixed-issues-in-the-net-framework-3-5-service-pack-1-7e580459-9f9a-3f0d-ecb3-ee3ea374044f"
 
 ---
 
