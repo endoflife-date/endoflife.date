@@ -8,7 +8,7 @@ category: os
 releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
 activeSupportColumn: true
 versionCommand: cat /etc/os-release
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 purls:
