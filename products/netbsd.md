@@ -6,7 +6,7 @@ versionCommand: uname -r
 activeSupportColumn: false
 releasePolicyLink: https://www.netbsd.org/releases/
 releaseDateColumn: true
-releaseColumn: false
+releaseColumn: true
 changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
 releases:
 -   releaseCycle: "9"
