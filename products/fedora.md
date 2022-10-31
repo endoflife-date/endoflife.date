@@ -19,7 +19,7 @@ releases:
     releaseDate: 2022-05-10
 -   releaseCycle: "35"
     latest: "35"
-    eol: 2022-11-15
+    eol: 2022-12-13
     latestReleaseDate: 2021-11-02
     releaseDate: 2021-11-02
 -   releaseCycle: "34"
