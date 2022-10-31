@@ -23,13 +23,13 @@ releases:
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true
-    latest: "2021.3.8"
+    latest: "2021.3.8f1"
     releaseDate: 2021-03-19
 
 -   releaseCycle: "2020"
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.38"
+    latest: "2020.3.38f1"
     releaseDate: 2021-03-11
 
 -   releaseCycle: "2019"
