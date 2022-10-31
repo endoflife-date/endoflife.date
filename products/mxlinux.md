@@ -82,4 +82,6 @@ releases:
 
 There are several releases of MX Linux supported concurrently.  These typically follow Debian's periods of active development and extended long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
 
+MX Linux matches the year of release (21 was released in 2021 for eg) for versioning.
+
 MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors, and the Raspberry Pi's 32-bit armhf architecture.
