@@ -30,7 +30,7 @@ releases:
     latest: "3.1.0"
     link: https://www.devuan.org/os/announce/beowulf-point-release-announce-021421
     lts: 2022-07-01
-    releaseDate: 2020-06-01
+    releaseDate: 2020-06-02
     latestReleaseDate: 2021-02-15
     discontinued: false
 -   releaseCycle: "2"
@@ -39,7 +39,7 @@ releases:
     lts: 2020-06-06
     latest: "2.1"
     link: https://www.devuan.org/os/announce/ascii-point-release-announce-112119
-    releaseDate: 2018-06-08
+    releaseDate: 2018-06-09
     latestReleaseDate: 2019-11-25
     discontinued: false
 -   releaseCycle: "1"
