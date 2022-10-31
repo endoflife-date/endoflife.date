@@ -1,5 +1,5 @@
 ---
-releaseImage: https://aws1.discourse-cdn.com/standard14/uploads/rockylinux/original/2X/a/aa4ff9ead76ab2a0e52518e778a69cc666add4e9.png
+releaseImage: https://global.discourse-cdn.com/standard14/uploads/rockylinux/original/2X/a/aa4ff9ead76ab2a0e52518e778a69cc666add4e9.png
 title: Rocky Linux
 permalink: /rocky-linux
 category: os
