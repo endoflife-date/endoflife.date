@@ -10,6 +10,7 @@ activeSupportColumn: true
 versionCommand: cat /etc/os-release
 releaseColumn: true
 releaseDateColumn: true
+iconSlug: NA
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 purls:
 -   purl: pkg:os/antix
