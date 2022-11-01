@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "7.4"
     support: 2021-11-28
     eol: 2022-11-28
-    latest: "7.4.32"
-    latestReleaseDate: 2022-09-28
+    latest: "7.4.33"
+    latestReleaseDate: 2022-10-31
     releaseDate: 2019-11-26
 -   releaseCycle: "7.3"
     support: 2020-12-06
