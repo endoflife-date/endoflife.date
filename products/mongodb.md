@@ -7,7 +7,13 @@ changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes
 activeSupportColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-versionCommand: mongod --version
+versionCommand: mongod --version\
+purls:
+-   purl: pkg:deb/debian/mongodb-org-server
+-   purl: pkg:deb/ubuntu/mongodb-org-server
+-   purl: pkg:rpm/amzn/mongodb-org-server
+-   purl: pkg:rpm/redhat/mongodb-org-server
+-   purl: pkg:rpm/centos/mongodb-org-server
 auto:
 -   git: https://github.com/mongodb/mongo.git
     regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
