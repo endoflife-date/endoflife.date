@@ -7,7 +7,7 @@ changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes
 activeSupportColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-versionCommand: mongod --version\
+versionCommand: mongod --version
 purls:
 -   purl: pkg:deb/debian/mongodb-org-server
 -   purl: pkg:deb/ubuntu/mongodb-org-server
