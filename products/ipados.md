@@ -35,7 +35,7 @@ releases:
 
 ---
 
-> [iPadOS](https://www.apple.com/ipados/) is Aple's mobile operating system created by Apple for its iPad line of devices. It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
+> [iPadOS](https://www.apple.com/ipados/) is a mobile operating system created by Apple for its iPad line of devices. It is a rebranded variant of iOS, and introduced in 2019 as iPadOS 13.
 
 Major versions of iPadOS are released annually, and might lag behind corresponding iOS releases.
 
