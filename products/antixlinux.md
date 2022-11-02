@@ -22,39 +22,43 @@ releases:
     codename: "Grup Yorum"
     releaseDate: 2021-10-31
     latest: "22"
-    latestRelaseDate: 2022-10-19
+    latestReleaseDate: 2022-10-19
     support: 2024-06-30
     eol: 2026-06-30
     link: https://antixlinux.com/antix-22-released/
+
 -   releaseCycle: "19"
     codename: "Grup Yorum"
     releaseDate: 2019-10-17
     latest: "19.5"
-    latestRelaseDate: 2022-01-25
+    latestReleaseDate: 2022-01-25
     support: 2022-09-10
     eol: 2024-06-30
     link: https://antixlinux.com/antix-19-5-point-release-update/
+
 -   releaseCycle: "17"
     codename: "Helen Keller"
     releaseDate: 2017-10-24
     latest: "17.4.1"
-    latestRelaseDate: 2019-03-28
+    latestReleaseDate: 2019-03-28
     support: 2020-06-05
     eol: 2022-06-30
     link: https://antixlinux.com/antix-17-4-1-now-out/
+
 -   releaseCycle: "16"
     codename: "Berta Cáceres"
     releaseDate: 2016-06-27
     latest: "16.3"
-    latestRelaseDate: 2017-12-21
+    latestReleaseDate: 2017-12-21
     support: 2018-06-23
     eol: 2020-06-30
     link: https://antixlinux.com/antix-16-3-full-iso-files-available/
+
 -   releaseCycle: "15"
     codename: "Berta Cáceres"
     releaseDate: 2015-06-30
     latest: "15"
-    latestRelaseDate: 2015-06-30
+    latestReleaseDate: 2015-06-30
     support: 2018-06-23
     eol: 2020-06-30
     link: https://antixlinux.com/forum-archive/antix-15-released-t5697.html
