@@ -14,8 +14,7 @@ While participating in the project, you must abide by its [Code of Conduct](CODE
 
 ## API
 
-An API is available for integration with CI platforms. API documentation is available at https://endoflife.date/docs/api/. The API is currently in Alpha, and breaking changes can happen. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki/API-Documentation).
-
+An API is available for integration with CI platforms. API documentation is available at https://endoflife.date/docs/api/. The API is currently in Alpha, and breaking changes can happen.
 ## License
 
 Licensed under the [MIT License](LICENSE).
