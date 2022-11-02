@@ -9,9 +9,9 @@ releases:
 -   releaseCycle: "6.1"
     eol: false
     support: true
-    releaseDate: 2022-11-01
+    releaseDate: 2022-11-02
     latest: "6.1"
-    latestReleaseDate: 2022-11-01
+    latestReleaseDate: 2022-11-02
 -   releaseCycle: "6.0"
     eol: false
     support: 2022-11-01
