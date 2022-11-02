@@ -14,6 +14,7 @@ purls:
 -   purl: pkg:rpm/amzn/mongodb-org-server
 -   purl: pkg:rpm/redhat/mongodb-org-server
 -   purl: pkg:rpm/centos/mongodb-org-server
+-   repology: mongodb
 auto:
 -   git: https://github.com/mongodb/mongo.git
     regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
