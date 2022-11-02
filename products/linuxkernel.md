@@ -65,22 +65,22 @@ releases:
 -   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.221"
-    latestReleaseDate: 2022-10-29
+    latest: "5.4.222"
+    latestReleaseDate: 2022-11-01
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.262"
-    latestReleaseDate: 2022-10-26
+    latest: "4.19.263"
+    latestReleaseDate: 2022-11-01
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
     eol: 2024-01-01
     lts: true
-    latest: "4.14.296"
-    latestReleaseDate: 2022-10-26
+    latest: "4.14.297"
+    latestReleaseDate: 2022-11-01
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"

@@ -10,8 +10,8 @@ releases:
 -   releaseCycle: "8"
     eol: false
     releaseDate: 2022-02-10
-    latest: "8.4.3"
-    latestReleaseDate: 2022-10-05
+    latest: "8.5.0"
+    latestReleaseDate: 2022-11-01
 -   releaseCycle: "7.17"
     eol: false
     releaseDate: 2022-02-01
