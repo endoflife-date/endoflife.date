@@ -13,6 +13,13 @@ purls:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
 releases:
+-   releaseCycle: "4.1"
+    support: 2024-02-01
+    lts: true
+    eol: 2024-02-01
+    latest: "4.1"
+    latestReleaseDate: 2022-11-01
+    releaseDate: 2022-11-01
 -   releaseCycle: "4.0"
     support: 2022-11-01
     lts: false
