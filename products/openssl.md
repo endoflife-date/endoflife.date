@@ -22,10 +22,10 @@ releases:
     latestReleaseDate: 2022-11-01
 -   releaseCycle: "1.1.1"
     eol: 2023-09-11
-    latest: "1.1.1r"
+    latest: "1.1.1s"
     lts: true
     releaseDate: 2018-09-11
-    latestReleaseDate: 2022-10-11
+    latestReleaseDate: 2022-11-01
 -   releaseCycle: "1.1.0"
     eol: 2019-09-11
     latest: "1.1.0l"
