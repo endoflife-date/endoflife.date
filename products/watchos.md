@@ -51,6 +51,6 @@ releases:
 
 ---
 
-> [watchOS](https://www.apple.com/watchos/) is Aple's mobile operating system for its Apple Watches. It is based on iOS, and introduced in 2015.
+> [watchOS](https://www.apple.com/watchos/) is Apple's mobile operating system for its Apple Watches. It is based on iOS, and introduced in 2015.
 
 Major versions of watchOS are released annually, with the previous major version losing support.
