@@ -6,6 +6,13 @@ releasePolicyLink: https://mariadb.org/about/maintenance-policy/
 changelogTemplate: https://mariadb.com/kb/en/mariadb-{{"__LATEST__" | replace:'.',''}}-changelog/
 activeSupportColumn: false
 releaseDateColumn: true
+purls:
+-   repology: mariadb
+-   purl: pkg:deb/debian/mariadb-server
+-   purl: pkg:deb/ubuntu/mariadb-server
+-   purl: pkg:rpm/amzn/mariadb-server
+-   purl: pkg:rpm/redhat/mariadb-server
+-   purl: pkg:rpm/centos/mariadb-server
 auto:
 -   git: https://github.com/MariaDB/server.git
     # This is not a complicated regex. It only marks the first GA release in each release cycle
