@@ -17,16 +17,16 @@ releases:
     latest: "8.5.13"
     latestReleaseDate: 2022-09-20
   - releaseCycle: "7"
-    eol: false
+    eol: 2022-06-14
     releaseDate: 2020-05-18
     latest: "7.5.13"
     latestReleaseDate: 2022-01-18
   - releaseCycle: "6"
-    eol: 2021-03-18
+    eol: 2021-06-08
     releaseDate: 2019-02-25
     latest: "6.7.6"
     latestReleaseDate: 2021-03-18
-iconSlug: NA
+iconSlug: grafana
 permalink: /grafana
 releaseColumn: true
 releaseDateColumn: true
@@ -34,6 +34,6 @@ discontinuedColumn: false
 
 ---
 
-> [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on and
-> understand your metrics no matter where they are stored. Create, explore, and share dashboards
-> with your team and foster a data-driven culture.
+> [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture.
+
+Only the 2 latest major versions are supported.
