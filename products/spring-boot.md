@@ -45,31 +45,31 @@ releases:
 -   releaseCycle: "2.3"
     eol: 2021-05-20
     support: 2022-08-20
-    latest: "v2.3.12"
+    latest: "2.3.12"
     latestReleaseDate: 2021-06-10 
     releaseDate: 2020-05-15
 -   releaseCycle: "2.2"
     eol: 2020-10-16
     support: 2022-01-16
-    latest: "v2.2.13"
+    latest: "2.2.13"
     latestReleaseDate: 2021-01-15 
     releaseDate: 2019-10-16
 -   releaseCycle: "2.1"
     eol: 2019-10-30
     support: 2021-01-30
-    latest: " v2.1.18"
+    latest: "2.1.18"
     latestReleaseDate: 2020-10-29 
     releaseDate: 2018-10-30
 -   releaseCycle: "2.0"
     eol: 2019-03-01
     support: 2020-06-01
-    latest: "v2.0.9"
+    latest: "2.0.9"
     latestReleaseDate: 2019-04-04
     releaseDate: 2018-03-01
 -   releaseCycle: "1.5"
     eol: 2019-08-06
     support: 2020-11-06
-    latest: "v1.5.20"
+    latest: "1.5.20"
     latestReleaseDate: 2019-04-04 
     releaseDate: 2017-01-30
 activeSupportColumn: true
