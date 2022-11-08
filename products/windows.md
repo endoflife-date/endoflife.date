@@ -8,6 +8,16 @@ releaseColumn: false
 releaseDateColumn: true
 versionCommand: winver
 releases:
+-   releaseCycle: "Windows 10, version 22H2 (E)"
+    buildID: 10.0.19045
+    support: 2025-05-13
+    eol: 2025-05-13
+    releaseDate: 2022-10-18
+-   releaseCycle: "Windows 10, version 22H2 (W)"
+    buildID: 10.0.19045
+    support: 2024-05-14
+    eol: 2024-05-14
+    releaseDate: 2022-10-18
 -   releaseCycle: "Windows 11, version 22H2 (E)"
     buildID: 10.0.22621
     support: 2025-10-14

@@ -82,8 +82,8 @@ releases:
 -   releaseCycle: "3.2"
     codename: 'Hypatia'
     eol: false
-    latest: "3.2.18"
-    latestReleaseDate: 2022-05-14
+    latest: "3.2.19"
+    latestReleaseDate: 2022-10-28
     releaseDate: 2016-10-27
 
 -   releaseCycle: "3.1"
@@ -103,8 +103,8 @@ releases:
 -   releaseCycle: "2.8"
     codename: 'Feynman'
     eol: false
-    latest: "2.8.20"
-    latestReleaseDate: 2022-05-15
+    latest: "2.8.21"
+    latestReleaseDate: 2022-10-30
     releaseDate: 2015-09-09
 
 -   releaseCycle: "2.7"

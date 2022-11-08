@@ -6,6 +6,13 @@ releasePolicyLink: https://mariadb.org/about/maintenance-policy/
 changelogTemplate: https://mariadb.com/kb/en/mariadb-{{"__LATEST__" | replace:'.',''}}-changelog/
 activeSupportColumn: false
 releaseDateColumn: true
+purls:
+-   repology: mariadb
+-   purl: pkg:deb/debian/mariadb-server
+-   purl: pkg:deb/ubuntu/mariadb-server
+-   purl: pkg:rpm/amzn/mariadb-server
+-   purl: pkg:rpm/redhat/mariadb-server
+-   purl: pkg:rpm/centos/mariadb-server
 auto:
 -   git: https://github.com/MariaDB/server.git
     # This is not a complicated regex. It only marks the first GA release in each release cycle
@@ -24,12 +31,6 @@ auto:
 versionCommand: mysqld --version
 eolColumn: Support Status
 releases:
--   releaseCycle: "5.5"
-    eol: 2020-04-11
-    latest: "5.5.68"
-    lts: true
-    latestReleaseDate: 2020-05-06
-    releaseDate: 2013-01-29
 -   releaseCycle: "10.9"
     eol: 2023-08-22
     latest: "10.9.3"
@@ -81,7 +82,12 @@ releases:
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
     releaseDate: 2014-06-12
-
+-   releaseCycle: "5.5"
+    eol: 2020-04-11
+    latest: "5.5.68"
+    lts: true
+    latestReleaseDate: 2020-05-06
+    releaseDate: 2013-01-29
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).

@@ -17,20 +17,20 @@ releases:
 -   releaseCycle: "15.5"
     support: 2022-11-22
     eol: 2023-01-22
-    latest: "15.5.1"
-    latestReleaseDate: 2022-10-24
+    latest: "15.5.2"
+    latestReleaseDate: 2022-11-02
     releaseDate: 2022-10-21
 -   releaseCycle: "15.4"
     support: 2022-10-22
     eol: 2022-12-22
-    latest: "15.4.3"
-    latestReleaseDate: 2022-10-19
+    latest: "15.4.4"
+    latestReleaseDate: 2022-11-02
     releaseDate: 2022-09-21
 -   releaseCycle: "15.3"
     support: 2022-09-22
     eol: 2022-11-22
-    latest: "15.3.4"
-    latestReleaseDate: 2022-09-29
+    latest: "15.3.5"
+    latestReleaseDate: 2022-11-02
     releaseDate: 2022-08-19
 -   releaseCycle: "15.2"
     support: 2022-08-22

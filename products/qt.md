@@ -14,6 +14,8 @@ releases:
 -   releaseCycle: "6.4"
     eol: 2023-03-30
     latest: "6.4.0"
+    link: https://www.qt.io/blog/qt-6.4-released
+    # remove link tag after we got a point versions
     lts: false
     latestReleaseDate: 2022-09-28
     releaseDate: 2022-09-28

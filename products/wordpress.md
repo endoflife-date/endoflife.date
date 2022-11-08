@@ -6,9 +6,15 @@ changelogTemplate: https://wordpress.org/support/wordpress-version/version-{{"__
   | replace:'.','-'}}/
 activeSupportColumn: true
 releases:
--   releaseCycle: "6.0"
+-   releaseCycle: "6.1"
     eol: false
     support: true
+    releaseDate: 2022-11-02
+    latest: "6.1"
+    latestReleaseDate: 2022-11-02
+-   releaseCycle: "6.0"
+    eol: false
+    support: 2022-11-01
     releaseDate: 2022-05-24
     latest: "6.0.3"
     latestReleaseDate: 2022-10-17
@@ -185,6 +191,7 @@ Only the latest major release is supported. Security patches are backported when
 
 WordPress Version | Supported PHP Versions
 --------------|--------------
+6.1           | 5.6 - 8.2
 5.9 - 6.0     | 5.6 - 8.1
 5.6 - 5.8     | 5.6 - 8.0
 5.3 - 5.5     | 5.6 - 7.4

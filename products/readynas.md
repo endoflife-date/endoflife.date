@@ -4,35 +4,35 @@ category: device
 changelogTemplate: "https://www.netgear.com/support/product/__RELEASE_CYCLE__.aspx"
 releases:
 -   releaseCycle: "RR4360X"
-    eol: false
+    eol: true
 -   releaseCycle: "RR4360S"
-    eol: false
+    eol: true
 -   releaseCycle: "RR4312X"
-    eol: false
+    eol: true
 -   releaseCycle: "RR3312"
-    eol: false
+    eol: true
 -   releaseCycle: "RR2304"
-    eol: false
+    eol: true
 -   releaseCycle: "RN716X"
     eol: true
 -   releaseCycle: "RN628X"
-    eol: false
+    eol: true
 -   releaseCycle: "RN626X"
-    eol: false
+    eol: true
 -   releaseCycle: "RN528X"
-    eol: false
+    eol: true
 -   releaseCycle: "RN526X"
-    eol: false
+    eol: true
 -   releaseCycle: "RN524X"
-    eol: false
+    eol: true
 -   releaseCycle: "RN516"
     eol: true
 -   releaseCycle: "RN426"
-    eol: false
+    eol: true
 -   releaseCycle: "RN424"
-    eol: false
+    eol: true
 -   releaseCycle: "RN422"
-    eol: false
+    eol: true
 -   releaseCycle: "RN3220"
     eol: true
 -   releaseCycle: "RN316"
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "RN3138"
     eol: false
 -   releaseCycle: "RN3130"
-    eol: false
+    eol: true
 -   releaseCycle: "RN312"
     eol: true
 -   releaseCycle: "RN214"

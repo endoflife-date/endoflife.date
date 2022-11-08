@@ -45,12 +45,6 @@ releases:
     support: 2021-12-16
     eol: 2022-12-16
     releaseDate: 2021-06-16
--   releaseCycle: "1912"
-    latest: "1912 CU5"
-    support: 2024-12-18
-    eol: 2024-12-18
-    lts: true
-    releaseDate: 2019-12-18
 -   releaseCycle: "2103"
     latest: "2103"
     support: 2021-09-17
@@ -76,6 +70,12 @@ releases:
     support: 2020-09-20
     eol: 2021-09-26
     releaseDate: 2020-03-20
+-   releaseCycle: "1912"
+    latest: "1912 CU6"
+    support: 2024-12-18
+    eol: 2024-12-18
+    lts: true
+    releaseDate: 2019-12-18
 -   releaseCycle: "7.15"
     latest: "7.15 CU8"
     support: 2022-08-15

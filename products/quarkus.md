@@ -13,9 +13,9 @@ auto:
 releases:
 -   releaseCycle: "2.13"
     eol: 2025-05-18
-    support: 2015-11-18
-    latest: "2.13.3"
-    latestReleaseDate: 2022-10-19
+    support: 2025-11-18
+    latest: "2.13.4"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2022-09-28
 
 -   releaseCycle: "2.12"

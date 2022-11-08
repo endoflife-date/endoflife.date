@@ -5,19 +5,19 @@ category: server-app
 versionCommand: filebeat version
 changelogTemplate: https://github.com/elastic/beats/releases/tag/v__LATEST__
 auto:
-  - git: https://github.com/elastic/beats
+-   git: https://github.com/elastic/beats
 releases:
-  - releaseCycle: "8"
+-   releaseCycle: "8"
     eol: false
-    releaseDate: 2022-08-24
-    latest: "8.4.3"
-    latestReleaseDate: 2022-10-05
-  - releaseCycle: "7.17"
+    releaseDate: 2022-02-10
+    latest: "8.5.0"
+    latestReleaseDate: 2022-11-01
+-   releaseCycle: "7.17"
     eol: false
     releaseDate: 2022-02-01
     latest: "7.17.7"
     latestReleaseDate: 2022-10-25
-  - releaseCycle: "7.16"
+-   releaseCycle: "7.16"
     eol: 2022-01-13
     releaseDate: 2021-12-07
     latest: "7.16.3"

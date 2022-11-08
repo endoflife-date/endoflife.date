@@ -9,6 +9,13 @@ versionCommand: nginx -v
 releaseColumn: true
 releaseDateColumn: true
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
+purls:
+-   repology: nginx
+-   purl: pkg:deb/debian/nginx
+-   purl: pkg:deb/ubuntu/nginx
+-   purl: pkg:rpm/amzn/nginx
+-   purl: pkg:rpm/redhat/nginx
+-   purl: pkg:rpm/centos/nginx
 # https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
 -   git: https://github.com/nginx/nginx.git
@@ -96,9 +103,9 @@ releases:
 
 The open-source NGINX project maintains two branches: mainline and stable.
 
-- **mainline**: 
+- **mainline**:
     Mainline is the active development branch where the latest features and bug fixes get added. It is denoted by an odd number in the second part of the version number, for example 1.21.0.
 - **stable**:
     Stable receives fixes for high‑severity bugs, but is not updated with new features. It is denoted by an even number in the second part of the version number, for example 1.22.0. The stable branch never receives new functionality during its lifecycle and typically receives just one or two updates, for critical bug fixes.
-   
+
 Every April, the current stable branch is retired, after which no further bug fixes are made. The current mainline branch is forked, to create the next stable branch.
