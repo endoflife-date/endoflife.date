@@ -8,7 +8,7 @@ changelogTemplate: https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 
-# Regex takes into account the first GA release in each cycle (in parantheses)
+# Regex takes into account the first GA release in each cycle (in parentheses)
 # https://docs.oracle.com/cd/E17952_01/mysql-5.5-relnotes-en/index.html (5.5.8)
 # https://dev.mysql.com/doc/relnotes/mysql/5.6/en/ (5.6.10)
 # https://docs.oracle.com/cd/E17952_01/mysql-5.7-relnotes-en/ (5.7.9)

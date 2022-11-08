@@ -82,6 +82,6 @@ releases:
 
 Major versions of iOS are released annually. Apple significantly extended the cycle of updates for iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple. Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/), for a short period of time.
 
-Ocassionally, Apple releases security patches for unsupported iOS versions, such as with 12.5.6 being released in August 2022, despite iOS 12 being unsupported since September 2019 (When iOS 13 was released).
+Occasionally, Apple releases security patches for unsupported iOS versions, such as with 12.5.6 being released in August 2022, despite iOS 12 being unsupported since September 2019 (When iOS 13 was released).
 
 Support information for iPhone devices are available at [/iphone](/iphone).

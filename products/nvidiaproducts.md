@@ -193,11 +193,11 @@ releases:
 ## Naming scheme
 
 - Professional cards include cards under their `NVS`, `Quadro`, `Quadro RTX`, `GRID`, and `Tesla` lineups.
-- Consumer cards include their `GeForce` and `Titan` lineups. 
+- Consumer cards include their `GeForce` and `Titan` lineups.
 
 ## Common misconceptions
 
-There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are also other cases to be careful of:
+There are multiple GPUs with the same name but part of a different architecture (therefore different support status length), and there are other cases to be careful of:
 
 ### Desktop:
 
@@ -207,8 +207,8 @@ There are multiple GPUs with the same name but part of a different architecture 
 - `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (with the exception of the above)
 - `GT705` has a `GF119` (Fermi) and a `GK208` (Kepler) variant.
 - `GTX745`, `GTX750` and `GTX750 Ti` are Maxwell, even though all other `700` series are Kepler variant (with the exception of the above)
-- `GT1030`: Has a `GK107` (Kepler) and a `GP108` (Pascal) variant. 
-- All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle. 
+- `GT1030`: Has a `GK107` (Kepler) and a `GP108` (Pascal) variant.
+- All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a different (and often shorter) support cycle.
 
 ### Laptop:
 
@@ -217,7 +217,7 @@ There are multiple GPUs with the same name but part of a different architecture 
 - `GT920M` is a Kepler card.
 - Most cards in the `800M` series have multiple variant with varying architectures (A card in this series can be Fermi, Kepler or Maxwell).
 
-## Identifying your GPU 
+## Identifying your GPU
 
 Due to this confusing naming scheme, one should not look at just the model name when seeing their support status, but instead their architecture.
 
@@ -225,20 +225,20 @@ Due to this confusing naming scheme, one should not look at just the model name 
 
 1. [Download and run GPU-Z](https://www.techpowerup.com/gpuz/).
 2. First identify if you have a consumer or a professional card. See the "Naming scheme" section above.
-3. Next identify the card architecture. This will be the GPU textbox. You can cross reference this with the support table at the top of this page. 
+3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this with the support table at the top of this page.
 
 ### Linux
 
 1. Install the `lshw` package from your distribution's repositories.
-2. Run the command `sudo lshw -C display`, your GPU code is the `product` column. 
-3. Next identify the card architecture. This will be the GPU textbox. You can cross reference this with the support table at the top of this page. 
+2. Run the command `sudo lshw -C display`, your GPU code is the `product` column.
+3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this with the support table at the top of this page.
 
 This GPU Code follows a similar pattern for most cards, for example we have `GA102`:
 
 - `G`: This means generation
 - `A`: This means it belongs to the **Ampere** generation.
 
-Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture. 
+Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture.
 
 ## Driver Support Exceptions
 

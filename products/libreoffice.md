@@ -25,7 +25,7 @@ releases:
 
 > LibreOffice is a free and open-source office productivity software suite, a project of The Document Foundation. It was forked in 2010 from OpenOffice.org, an open-sourced version of the earlier StarOffice.
 
-LibreOffice follows a predictable time based release schedule. LibreOffice does bi-annual, predictable releases that are in sync with other Free Software projects (eg. Gnome) and are at least one month ahead major Linux distribution releases. The first X.Y.0 release is intended for early adopters. More conservative users are advised to wait for a later X.Y.Z bugfix release.
+LibreOffice follows a predictable time based release schedule. LibreOffice does bi-annual, predictable releases that are in sync with other Free Software projects (e.g. Gnome) and are at least one month ahead major Linux distribution releases. The first X.Y.0 release is intended for early adopters. More conservative users are advised to wait for a later X.Y.Z bugfix release.
 
 There are 2 branches: **Fresh** (the newest release) and **Still** (the previous release), which are intended for mainstream feature users and conservative, corporate deployments respectively.
 

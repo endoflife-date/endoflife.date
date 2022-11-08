@@ -89,5 +89,5 @@ versionCommand: sw_vers
 
 >[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
-Major versions of macOS are released once a year now, and usually maintained for three years. Apple usually provides security updates for the latest 3 releases, but this isn't consistenly applied and some security fixes aren't available for the non-latest releases.
+Major versions of macOS are released once a year now, and usually maintained for three years. Apple usually provides security updates for the latest 3 releases, but this isn't consistently applied and some security fixes aren't available for the non-latest releases.
 .

@@ -11,7 +11,7 @@ auto:
     regex: '^releases\/lucene-solr\/(?<version>\d+\.\d+(.\d+)?)$'
     template: '{{version}}'
 -   git: https://github.com/apache/solr.git
-    # Only pick new releasse from the new repo
+    # Only pick new release from the new repo
     regex: '^releases\/solr\/(?<version>\d+\.\d+(.\d+)?)$'
     template: '{{version}}'
 category: server-app

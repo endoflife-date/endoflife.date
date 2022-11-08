@@ -76,7 +76,7 @@ Daily     | Daily builds are meant to reproduce bugs as well as to enable tester
 
 Skipping major versions when upgrading and downgrading to older versions is not supported. If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later is in stable until a new update will become available.
 
-The safest way to upgrade is to always update to the latest minor release before upgrading to a new version. The Nexcloud updater does this automatically whenever possible.
+The safest way to upgrade is to always update to the latest minor release before upgrading to a new version. The Nextcloud updater does this automatically whenever possible.
 
 ## Cadence
 

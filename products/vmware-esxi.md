@@ -61,7 +61,7 @@ releases:
 
 > [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that installs directly onto your physical server.
 
-VMware typically support ESXi for a duration of 7 years with 5 years of general support and an additional 2 years of technical guidance during which ESXi will no longer receieve bug fixes and security updates. Additional information on lifecycle phases can be found at <https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
+VMware typically support ESXi for a duration of 7 years with 5 years of general support and an additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and security updates. Additional information on lifecycle phases can be found at <https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
 
 ## [Product Lifecycle](https://www.vmware.com/support/policies/lifecycle.html)
 

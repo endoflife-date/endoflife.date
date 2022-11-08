@@ -140,7 +140,7 @@ releases:
 
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
-GitLab has a well [defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/) and you can subscribe to a [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
+GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/), and you can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
 
 | Version Type | Description  | Cadence |
 |:-------------|:-------------|:--------|
