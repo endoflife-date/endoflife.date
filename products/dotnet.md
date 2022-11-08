@@ -71,6 +71,6 @@ releases:
 
 ---
 
-> [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many different types of applications.
+> [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many types of applications.
 
 Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will happen every November and every other release will be LTS. LTS releases are supported for three years after the initial release.

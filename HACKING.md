@@ -115,4 +115,4 @@ The endoflife.date project runs a bit of automation on top of GitHub Actions to 
 
 ## Bulk Updates
 
-To faciliate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.
+To facilitate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.

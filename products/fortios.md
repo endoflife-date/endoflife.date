@@ -45,12 +45,12 @@ Fortinet offers the following major lifecycle milestones:
 existing contract, for a hardware or software product. This is 12 months before the EOS date for most products, and 90 days after the End-of-life notification for stand-alone services.
 3. **End of Engineering Support for Software** (`EOES`): The date beyond which Fortinet no longer commits to
 provide engineering support for software. After this date the software enters a **must-fix** support phase,
-during which, maintenance builds will only be produced for industry wide critical issues and PSIRT
+during which, maintenance builds will only be produced for industry-wide critical issues and PSIRT
 vulnerabilities. The EOES date is generally 36 months after the GA date.
 4. **End of Support Date** (`EOS`): Fortinet will not sell, manufacture or improve the product after this date and is under no obligation to provide support services. In general the EOS takes place as follows:
   - Hardware - 60 months after the EOO Date
   - Software - 54 months after the GA date
-  - Stand Alone Services – on the service contract termination date
+  - Stand-alone Services – on the service contract termination date
 
 This page tracks the End of Engineering Support and End of Support dates for FortiOS. The support website for Fortinet requires a free FortiCloud account, which can be created [here][signup]
 

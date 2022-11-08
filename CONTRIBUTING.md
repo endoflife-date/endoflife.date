@@ -124,7 +124,7 @@ releases:
     # Release range (usually major.minor), always put in quotes
     # Do not prefix with "v" or suffix with ".x"
     # This becomes part of our API URL, so try to keep this hyphenated, instead of using spaces
-    # And use consistent case (lowercase prefered) if it uses words.
+    # And use consistent case (lowercase preferred) if it uses words.
     # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly)
   - releaseCycle: "1.2"
     # Optionally, overwrite the release label on a per-release basis
