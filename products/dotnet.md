@@ -18,6 +18,12 @@ auto:
 -   git: https://github.com/dotnet/core.git
     regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 releases:
+-   releaseCycle: "7.0"
+    lts: false
+    eol: 2024-05-14
+    latest: "7.0.0"
+    latestReleaseDate: 2022-11-08
+    releaseDate: 2022-11-08
 -   releaseCycle: "6.0"
     lts: true
     eol: 2024-11-12
