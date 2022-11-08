@@ -11,7 +11,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
 changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
-releaseLabel: "Mule Runtime ( __RELEASE_CYCLE__ )"
+releaseLabel: "Mule Runtime (__RELEASE_CYCLE__)"
 releases:
   - releaseCycle: "4.4"
     eol: 2025-02-07
