@@ -95,7 +95,7 @@ Google may automatically [upgrade your nodes for security and compatibility purp
 [compare]: https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"
 [gke]: https://cloud.google.com/kubernetes-engine "Google Kubernetes Engine"
 [rss]: https://cloud.google.com/feeds/anthos-gke-security-bulletins.xml "RSS Feed for Security Bulletins for GKE"
-[skew]: https://kubernetes.io/docs/setup/release/version-skew-policy/
+[skew]: https://kubernetes.io/releases/version-skew-policy/
 [versioning]: https://cloud.google.com/kubernetes-engine/versioning "GKE versioning and support"
 [channels]: https://cloud.google.com/kubernetes-engine/docs/concepts/release-channels "Release channels documentation on GKE Docs"
 [auto-upgrade]: https://cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility "Requirements for GKE force upgrades"

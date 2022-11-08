@@ -61,7 +61,7 @@ releases:
 
 ---
 
-> [Nextcloud](https://www.nextcloud.com) is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options. It is licensed with Affero General Public License v3.0 (AGPL-v3.0).
+> [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options. It is licensed with Affero General Public License v3.0 (AGPL-v3.0).
 
 ## [Release Channels][channels]
 
@@ -85,6 +85,6 @@ Nextcloud makes new versions incrementally available to user installations in th
 If an issue is found that was not caught during pre-release testing, the roll-out might be delayed. As a result new release is typically only available in the stable channel after the first minor release. Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.
 
 [stable]: https://nextcloud.com/install/
-[enterprise]: https://nextcloud.com/enterprise "Nextcloud Enterprise"
+[enterprise]: https://nextcloud.com/enterprise/ "Nextcloud Enterprise"
 [beta]: https://download.nextcloud.com/server/prereleases/ "Beta releases"
 [channels]: https://nextcloud.com/release-channels/

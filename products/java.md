@@ -8,7 +8,7 @@ category: lang
 iconSlug: openjdk
 versionCommand: java -version
 activeSupportColumn: true
-releasePolicyLink: https://www.oracle.com/technetwork/java/java-se-support-roadmap.html
+releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 releaseDateColumn: true
 releases:
 -   releaseCycle: "19"
@@ -89,8 +89,8 @@ releases:
 
 ---
 
-> [Java](https://oracle.com/java/) is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
+> [Java](https://www.oracle.com/java/) is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
 
-Java as developed by the [OpenJDK Project](https://openjdk.java.net/), owned and primarily employed by Oracle, has been on a 6-month rapid-release cycle since the release of Java 10, and starting with Java 11, has new LTS releases every six releases, or three years. Java 8 is the last release on the old cycle methodology still in active support. Non-LTS releases are supported for 6 months. The latest supported release in each release cycle can be found at <https://www.oracle.com/java/technologies/java-se-glance.html>.
+Java as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by Oracle, has been on a 6-month rapid-release cycle since the release of Java 10, and starting with Java 11, has new LTS releases every six releases, or three years. Java 8 is the last release on the old cycle methodology still in active support. Non-LTS releases are supported for 6 months. The latest supported release in each release cycle can be found at <https://www.oracle.com/java/technologies/java-se-glance.html>.
 
 Official builds and support from Oracle come in two varieties: open source under the GNU GPL, and a proprietary license that must be purchased. Only the very latest Java release is available pre-built with the open source license, one must purchase support to get builds from Oracle for 8 or 11. Other projects such as [Adoptium](https://adoptium.net/) or Linux distributions may provide builds external of Oracle and are governed under the open source license.

@@ -27,7 +27,7 @@ Standards             | [PCI-DSS][pci-dss]
 
 If you maintain release information (end-of-life dates, or support information) for a product, we have a [set of recommendations](/recommendations) along with a checklist on some best practices for publishing this information.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://opensource.guide/how-to-contribute/#opening-a-pull-request) ![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/https/endoflife.date.svg)](https://endoflife.date/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![](https://img.shields.io/badge/Hacktoberfest-Welcome-green)][hacktoberfest] [![Gitter](https://img.shields.io/badge/chat%20on-gitter-green)](https://gitter.im/endoflife-date/community)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://opensource.guide/how-to-contribute/#opening-a-pull-request) ![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/https/endoflife.date.svg)](https://endoflife.date/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org) [![](https://img.shields.io/badge/Hacktoberfest-Welcome-green)][hacktoberfest] [![Gitter](https://img.shields.io/badge/chat%20on-gitter-green)](https://gitter.im/endoflife-date/community)
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
 

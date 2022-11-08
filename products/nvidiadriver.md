@@ -15,39 +15,39 @@ releases:
     support: true
     eol: 2023-01-01
     latest: "510.60.02"
-    link: https://www.nvidia.com/download/driverResults.aspx/187162/en-us
+    link: https://www.nvidia.com/download/driverResults.aspx/187162/
     releaseDate: 2022-01-11
 -   releaseCycle: "R510-Windows (PB)"
     support: true
     eol: 2023-01-01
     latest: "512.15"
-    link: https://www.nvidia.com/download/driverResults.aspx/187304/en-us
+    link: https://www.nvidia.com/download/driverResults.aspx/187304/
     releaseDate: 2022-01-14
 -   releaseCycle: "R495-Windows (NFB)"
     support: false
     eol: 2022-01-14
     latest: "497.29"
-    link: https://www.nvidia.com/Download/driverResults.aspx/184717
+    link: https://www.nvidia.com/Download/driverResults.aspx/184717/
     releaseDate: 2021-10-12
 -   releaseCycle: "R495-Linux (NFB)"
     support: false
     eol: 2022-01-11
     latest: "495.46"
-    link: https://www.nvidia.com/Download/driverResults.aspx/184248
+    link: https://www.nvidia.com/Download/driverResults.aspx/184248/
     releaseDate: 2021-10-26
 -   releaseCycle: "R470-Windows"
     lts: true
     support: 2021-09-20
     eol: 2024-09-01
     latest: "472.39"
-    link: https://nvidia.custhelp.com/app/answers/detail/a_id/5251
+    link: https://nvidia.custhelp.com/app/answers/detail/a_id/5251/
     releaseDate: 2021-06-22
 -   releaseCycle: "R470-Linux"
     lts: true
     support: 2021-10-26
     eol: 2024-09-01
     latest: "470.94"
-    link: https://www.nvidia.com/Download/driverResults.aspx/184163
+    link: https://www.nvidia.com/Download/driverResults.aspx/184163/
     releaseDate: 2021-07-19
 -   releaseCycle: "R460-Windows (PB)"
     support: 2021-06-23
@@ -94,14 +94,14 @@ releases:
     support: 2018-07-31
     eol: 2022-12-31
     latest: "392.68"
-    link: https://www.nvidia.com/download/driverResults.aspx/181267
+    link: https://www.nvidia.com/download/driverResults.aspx/181267/
     releaseDate: 2018-01-08
 -   releaseCycle: "R390-Linux"
     lts: true
     support: 2018-03-10
     eol: 2022-12-31
     latest: "390.147"
-    link: https://www.nvidia.com/Download/driverResults.aspx/184603
+    link: https://www.nvidia.com/Download/driverResults.aspx/184603/
     releaseDate: 2018-01-04
 
 ---

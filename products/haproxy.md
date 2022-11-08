@@ -2,7 +2,7 @@
 title: HAProxy
 permalink: /haproxy
 category: server-app
-releasePolicyLink: https://haproxy.org
+releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
 versionCommand: haproxy -v
