@@ -61,4 +61,4 @@ releases:
 
 ---
 
-> [MuleSoft Runtime](https://docs.mulesoft.com/mule-runtime/latest/) Mule runtime engine (Mule) is a lightweight integration engine that runs Mule applications and supports domains and policies. Mule applications, domains, and policies share an XML DSL (domain-specific language).
+> [MuleSoft Runtime](https://docs.mulesoft.com/mule-runtime/latest/) engine (Mule) is a lightweight integration engine that runs Mule applications and supports domains and policies. Mule applications, domains, and policies share an XML DSL (domain-specific language).
