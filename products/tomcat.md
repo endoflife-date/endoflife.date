@@ -30,12 +30,18 @@ releases:
     link: https://tomcat.apache.org/download-90.cgi
     releaseDate: 2015-11-13
     latestReleaseDate: 2022-10-03
--   releaseCycle: "8"
+-   releaseCycle: "8.5"
     eol: false
     latest: "8.5.83"
+    link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
+    releaseDate: 2016-03-17
+    latestReleaseDate: 2022-10-03
+-   releaseCycle: "8.0"
+    eol: 2018-06-30
+    latest: "8.0.53"
     link: https://tomcat.apache.org/download-80.cgi
     releaseDate: 2013-08-01
-    latestReleaseDate: 2022-10-03
+    latestReleaseDate: 2018-06-29
 -   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
