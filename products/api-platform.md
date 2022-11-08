@@ -79,7 +79,7 @@ releases:
 
 > [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven projects and implementing the Jamstack architecture.
 
-Releases follow [Semantic Versioning](https://semver.org/). A new minor version is released every six months, and a new major version very two years along with a minor version that brings an upgrade path. Besides the development branch, two versions are maintained:
+Releases follow [Semantic Versioning](https://semver.org/). A new minor version is released every six months, and a new major version every two years along with a minor version that brings an upgrade path. Besides the development branch, two versions are maintained:
 
 - the latest version is actively supported with regular bug fixes;
 - the previous version is supported for security maintenance only.
