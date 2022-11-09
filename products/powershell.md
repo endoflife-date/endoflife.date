@@ -14,6 +14,8 @@ releases:
     lts: false
     eol: false
     latest: "7.3.0"
+    latestReleaseDate: 2022-11-08
+    releaseDate: 2022-11-08
 -   releaseCycle: "7.2"
     lts: true
     eol: 2024-11-30
