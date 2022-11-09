@@ -18,15 +18,15 @@ releases:
 -   releaseCycle: "19"
     support: 2023-04-01
     eol: 2023-06-01
-    latest: "19.0.0"
-    latestReleaseDate: 2022-10-18
+    latest: "19.0.1"
+    latestReleaseDate: 2022-11-04
     releaseDate: 2022-10-18
 -   releaseCycle: "18"
     lts: 2022-10-25
     support: 2023-10-18
     eol: 2025-04-30
-    latest: "18.12.0"
-    latestReleaseDate: 2022-10-25
+    latest: "18.12.1"
+    latestReleaseDate: 2022-11-04
     releaseDate: 2022-04-19
 -   releaseCycle: "17"
     support: 2022-04-01
@@ -38,8 +38,8 @@ releases:
     lts: 2021-10-26
     support: 2022-10-18
     eol: 2023-09-11
-    latest: "16.18.0"
-    latestReleaseDate: 2022-10-12
+    latest: "16.18.1"
+    latestReleaseDate: 2022-11-04
     releaseDate: 2021-04-20
 -   releaseCycle: "15"
     support: 2021-04-01
@@ -51,8 +51,8 @@ releases:
     lts: 2020-10-27
     support: 2021-10-19
     eol: 2023-04-30
-    latest: "14.21.0"
-    latestReleaseDate: 2022-11-01
+    latest: "14.21.1"
+    latestReleaseDate: 2022-11-04
     releaseDate: 2020-04-21
 -   releaseCycle: "13"
     support: 2020-04-01
@@ -144,7 +144,7 @@ releases:
 
 Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them. After six months, odd-numbered releases (9, 11, etc.) become unsupported, and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use. LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance LTS releases.
 
-If a even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
+If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months][eol-16] to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
 

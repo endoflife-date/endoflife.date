@@ -18,11 +18,17 @@ auto:
 -   git: https://github.com/dotnet/core.git
     regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 releases:
+-   releaseCycle: "7.0"
+    lts: false
+    eol: 2024-05-14
+    latest: "7.0.0"
+    latestReleaseDate: 2022-11-08
+    releaseDate: 2022-11-08
 -   releaseCycle: "6.0"
     lts: true
     eol: 2024-11-12
-    latest: "6.0.10"
-    latestReleaseDate: 2022-10-11
+    latest: "6.0.11"
+    latestReleaseDate: 2022-11-08
     releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     lts: false
@@ -33,8 +39,8 @@ releases:
 -   releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     lts: true
-    latest: "3.1.30"
-    latestReleaseDate: 2022-10-11
+    latest: "3.1.31"
+    latestReleaseDate: 2022-11-08
     eol: 2022-12-13
     releaseDate: 2019-12-03
 -   releaseCycle: "3.0"
@@ -65,6 +71,6 @@ releases:
 
 ---
 
-> [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many different types of applications.
+> [.NET](https://dotnet.microsoft.com/) is a free, cross-platform, open source developer platform for building many types of applications.
 
 Microsoft publishes new major releases of .NET Core on a regular cadence, enabling developers, the community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will happen every November and every other release will be LTS. LTS releases are supported for three years after the initial release.

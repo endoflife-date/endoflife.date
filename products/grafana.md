@@ -4,24 +4,24 @@ category: server-app
 versionCommand: grafana-server -v
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 auto:
-  - git: https://github.com/grafana/grafana
+-   git: https://github.com/grafana/grafana
 releases:
-  - releaseCycle: "9"
+-   releaseCycle: "9"
     eol: false
-    releaseDate: 2022-06-14
-    latest: "9.2.3"
-    latestReleaseDate: 2022-10-31
-  - releaseCycle: "8"
+    releaseDate: 2022-06-13
+    latest: "9.2.4"
+    latestReleaseDate: 2022-11-08
+-   releaseCycle: "8"
     eol: false
     releaseDate: 2021-06-08
-    latest: "8.5.13"
-    latestReleaseDate: 2022-09-20
-  - releaseCycle: "7"
+    latest: "8.5.15"
+    latestReleaseDate: 2022-10-25
+-   releaseCycle: "7"
     eol: 2022-06-14
-    releaseDate: 2020-05-18
-    latest: "7.5.13"
-    latestReleaseDate: 2022-01-18
-  - releaseCycle: "6"
+    releaseDate: 2020-05-15
+    latest: "7.5.17"
+    latestReleaseDate: 2022-09-26
+-   releaseCycle: "6"
     eol: 2021-06-08
     releaseDate: 2019-02-25
     latest: "6.7.6"

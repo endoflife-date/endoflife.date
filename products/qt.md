@@ -93,7 +93,7 @@ A regular release only receives patch releases during the first 6 months until t
 - Starting from 5.15, LTS releases are supported for three years but [only for commercial license holders][lts-limit]. For open source users, they are same as regular releases.
 - LTS releases before 5.15 are supported for three years.
 
-The [KDE Project](https://kde.org/) maintains a patch collection to support [Qt 5.15 LTS](https://community.kde.org/Qt5PatchCollection) for open-source users. It is already packaged with [many linux distributions](https://repology.org/project/qt/badges) so you might already be covered. Extended support beyond LTS is available as a [commercial offering][extended-support] from The Qt Company.
+The [KDE Project](https://kde.org/) maintains a patch collection to support [Qt 5.15 LTS](https://community.kde.org/Qt5PatchCollection) for open-source users. It is already packaged with [many linux distributions](https://repology.org/project/qt/badges), so you might already be covered. Extended support beyond LTS is available as a [commercial offering][extended-support] from The Qt Company.
 
 [license]: https://www.qt.io/licensing/ "Licensing page on the Qt Website"
 [extended-support]: https://www.qt.io/qt-support/

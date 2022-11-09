@@ -67,4 +67,4 @@ For example, if Nutanix releases Files 3.1.0 on September 1, 2018 and Files 3.2.
 
 * A new major/minor release is typically made every 3-6 months.
 * Maintenance releases are typically made every 4-6 weeks.
-* Patch releases are made on a as-needed basis.
+* Patch releases are made on an as-needed basis.

@@ -16,13 +16,13 @@ releases:
 -   releaseCycle: "24"
     releaseDate: 2022-05-02
     eol: 2023-05-01
-    latest: "24.0.6"
-    latestReleaseDate: 2022-10-06
+    latest: "24.0.7"
+    latestReleaseDate: 2022-11-03
 -   releaseCycle: "23"
     releaseDate: 2021-11-26
     eol: 2022-12-01
-    latest: "23.0.10"
-    latestReleaseDate: 2022-10-06
+    latest: "23.0.11"
+    latestReleaseDate: 2022-11-03
 -   releaseCycle: "22"
     releaseDate: 2021-07-05
     eol: 2022-07-01
@@ -76,7 +76,7 @@ Daily     | Daily builds are meant to reproduce bugs as well as to enable tester
 
 Skipping major versions when upgrading and downgrading to older versions is not supported. If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later is in stable until a new update will become available.
 
-The safest way to upgrade is to always update to the latest minor release before upgrading to a new version. The Nexcloud updater does this automatically whenever possible.
+The safest way to upgrade is to always update to the latest minor release before upgrading to a new version. The Nextcloud updater does this automatically whenever possible.
 
 ## Cadence
 

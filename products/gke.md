@@ -85,11 +85,11 @@ GKE offers [3 release channels][channels]: Rapid, Regular (default), and Stable.
 
 ## No Channel (Static)
 
-Clusters with a a static GKE version are not enrolled in a release channel. Users are responsible for managing their upgrade strategy in this case. They must still adhere to the Kubernetes version and version skew support policy, and use supported GKE versions.
+Clusters with a static GKE version are not enrolled in a release channel. Users are responsible for managing their upgrade strategy in this case. They must still adhere to the Kubernetes version and version skew support policy, and use supported GKE versions.
 
 Google may automatically [upgrade your nodes for security and compatibility purposes][auto-upgrade] in select cases.
 
-[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with a [RSS Feed][rss]. Please consult the [upgrade guide][upgrade-guide] before upgrading.
+[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with an [RSS Feed][rss]. Please consult the [upgrade guide][upgrade-guide] before upgrading.
 
 [current-versions]: https://cloud.google.com/kubernetes-engine/docs/release-notes "table lists the latest minor versions available as defaults in GKE for the specified release channels"
 [compare]: https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"

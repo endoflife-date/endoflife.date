@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2022-05-16
     eol: false
-    latest: "2.13.5"
-    latestReleaseDate: 2022-10-11
+    latest: "2.13.6"
+    latestReleaseDate: 2022-11-07
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-11-08
@@ -46,7 +46,7 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
+> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems and Microsoft Windows.
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 

@@ -68,5 +68,5 @@ releases:
 
 > [Mattermost](https://mattermost.com/) is an open-source messaging service.
 
-Mattermost backports high severity or high impact security fixes to the previous three monthly releases
+Mattermost backports high-severity or high-impact security fixes to the previous three monthly releases
 and to LTS releases that are not EOL yet.
