@@ -29,7 +29,7 @@ releases:
     eol: false
     releaseDate: 2017-04-05
 -   releaseCycle: "4.6.2"
-    eol: false
+    eol: 2027-01-12
     releaseDate: 2016-08-02
 -   releaseCycle: "4.6.1"
     eol: 2022-04-26
