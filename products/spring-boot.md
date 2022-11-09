@@ -4,7 +4,6 @@ category: framework
 permalink: /spring-boot
 alternate_urls:
 -   /springboot
--   /sb
 releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported-Versions
 changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
 auto:
@@ -80,11 +79,9 @@ iconSlug: springboot
 
 ---
 
-> [Spring Boot](https://github.com/spring-projects/spring-boot) helps you to create Spring-powered (see [ dedicated `endoflife.date` page](https://endoflife.date/spring-framework)), production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.
+> [Spring Boot](https://github.com/spring-projects/spring-boot) helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.
 
-See [Supported Versions](https://github.com/spring-projects/spring-boot/wiki/Supported-Versions) for upcoming releases and features. See [here](https://spring.io/projects/spring-boot#support) for more details about support roadmap.
+See [here](https://spring.io/projects/spring-boot#support) for more details about support roadmap.
 
 - Spring Boot 3.x requires **at least a Java 17 runtime**
 - Spring Boot 2.7.5 (and therefore the latest Spring Framework 5.3.23) supports Java 19 while also remaining compatible with Java 11 and 8.
-
-Spring Boot is available under [`Apache License 2.0` license](https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt).
