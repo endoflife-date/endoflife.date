@@ -15,30 +15,31 @@ activeSupportColumn: Active Milestones
 eolColumn: Deprecated Milestones
 versionCommand: cat /etc/os-release /etc/lsb-release
 
+releaseLabel: "m__RELEASE_CYCLE__"
 releases:
   # LTS Milestones
-  - releaseCycle: "m101"
+  - releaseCycle: "101"
     releaseDate: 2022-08-01
     latest: "cos-101-17162-40-25"
     latestReleaseDate: 2022-11-07
     lts: true
     eol: 2024-09-01
     support: 2024-09-01
-  - releaseCycle: "m97"
+  - releaseCycle: "97"
     releaseDate: 2022-02-28
     latest: "cos-97-16919-189-9"
     latestReleaseDate: 2022-11-07
     lts: true
     eol: 2024-03-01
     support: 2024-03-01
-  - releaseCycle: "m93"
+  - releaseCycle: "93"
     releaseDate: 2021-08-23
     latest: "cos-93-16623-295-11"
     latestReleaseDate: 2022-11-07
     lts: true
     eol: 2023-10-01
     support: 2023-10-01
-  - releaseCycle: "m89"
+  - releaseCycle: "89"
     releaseDate: 2021-04-07
     latest: "cos-89-16108-766-9"
     latestReleaseDate: 2022-11-07
@@ -46,35 +47,35 @@ releases:
     eol: 2023-03-01
     support: 2023-03-01
   # Deprecated Milestones
-  - releaseCycle: "m85"
+  - releaseCycle: "85"
     releaseDate: 2020-09-24
     latest: "cos-85-13310-1498-13"
     latestReleaseDate: 2022-08-22
     lts: false
     eol: 2022-09-01
     support: 2022-09-01
-  - releaseCycle: "m81"
+  - releaseCycle: "81"
     releaseDate: 2020-03-27
     latest: "cos-81-12871-1317-8"
     latestReleaseDate: 2022-01-10
     lts: false
     eol: 2021-09-01
     support: 2021-09-01
-  - releaseCycle: "m77"
+  - releaseCycle: "77"
     releaseDate: 2019-09-27
     latest: "cos-77-12371-1109-0"
     latestReleaseDate: 2021-01-11
     lts: false
     eol: 2021-04-01
     support: 2021-04-01
-  - releaseCycle: "m73"
+  - releaseCycle: "73"
     releaseDate: 2019-03-25
     latest: "cos-73-11647-656-0"
     latestReleaseDate: 2020-09-05
     lts: false
     eol: 2020-06-01
     support: 2020-06-01
-  - releaseCycle: "m69"
+  - releaseCycle: "69"
     releaseDate: 2018-11-18
     latest: "cos-69-10895-385-0"
     latestReleaseDate: 2019-10-08
