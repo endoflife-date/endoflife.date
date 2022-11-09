@@ -21,9 +21,9 @@ releases:
     latestReleaseDate: 2022-09-21
 -   releaseCycle: "1.21"
     eol: 2023-02-01
-    latest: "1.21-eks-11"
+    latest: "1.21-eks-local-outposts-2"
     releaseDate: 2021-07-19
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-11-04
 -   releaseCycle: "1.20"
     eol: 2022-11-01
     latest: "1.20-eks-9"

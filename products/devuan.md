@@ -18,7 +18,7 @@ releases:
 -   releaseCycle: "4"
     codename: "Chimaera"
     eol: 2026-08-15
-    latest: "4.0"
+    latest: "4.0.0"
     lts: 2024-07-01
     link: https://www.devuan.org/os/announce/chimaera-release-announce-2021-10-14
     releaseDate: 2021-10-14
