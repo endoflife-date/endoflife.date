@@ -119,7 +119,7 @@ releases:
 
 >[Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution for desktop and laptop computers based on Debian and Ubuntu, bundled with a variety of free and open-source applications. It has an Ubuntu-based release simply named Linux Mint, and a Debian-based release called LMDE (Linux Mint Debian Edition).
 
-Linux Mint releases follows [the support cycle](https://linuxmint.com/download_all.php) of the Ubuntu release they are based on. This support does not extend to the duration of <abbr title="Extended Security Maintenance">ESM</abbr>. Linux Mint users can opt in to receive [Extended Security Maintenance](https://ubuntu.com/security/esm) via [Ubuntu Advantage](https://ubuntu.com/advantage) for some packages once the main support period ends. But Linux Mint considers that release End of Life once it enters that state, so Linux Mint packages will not be receiving any updates.
+Linux Mint releases follows [the support cycle](https://linuxmint.com/download_all.php) of the Ubuntu release they are based on. This support does not extend to the duration of <abbr title="Extended Security Maintenance">ESM</abbr>. Linux Mint users can opt in to receive [Extended Security Maintenance](https://ubuntu.com/security/esm) via [Ubuntu Pro](https://ubuntu.com/pro) for some packages once the main support period ends. But Linux Mint considers that release End of Life once it enters that state, so Linux Mint packages will not be receiving any updates.
 
 [Linux Mint Debian Edition][lmde] (LMDE) stops supporting a release shortly after a new LMDE release comes out. This however is still subject to change on a release by release basis.
 

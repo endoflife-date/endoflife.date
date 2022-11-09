@@ -111,7 +111,7 @@ LTS releases are in "General Support" for 5 years and "Extended Security Mainten
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Advantage subscription or a Free subscription. Please see the [Ubuntu Website]({{page.link}}) for details.
+Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Pro subscription or a Free subscription. Please see the [Ubuntu Website]({{page.link}}) for details.
 
 The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://ubuntu.com/about/release-cycle).
 
