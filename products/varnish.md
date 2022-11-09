@@ -16,13 +16,13 @@ purls:
 releases:
 -   releaseCycle: "7.2"
     eol: 2023-09-15
-    latestReleaseDate: 2022-09-15
-    latest: '7.2.0'
+    latestReleaseDate: 2022-11-08
+    latest: '7.2.1'
     releaseDate: 2022-09-15
 -   releaseCycle: "7.1"
     eol: 2023-03-15
-    latestReleaseDate: 2022-08-05
-    latest: '7.1.1'
+    latestReleaseDate: 2022-11-08
+    latest: '7.1.2'
     releaseDate: 2022-03-15
 -   releaseCycle: "7.0"
     eol: 2022-09-15
@@ -31,8 +31,8 @@ releases:
     releaseDate: 2021-09-15
 -   releaseCycle: "6.0"
     eol: false
-    latestReleaseDate: 2022-01-12
-    latest: '6.0.10'
+    latestReleaseDate: 2022-11-08
+    latest: '6.0.11'
     lts: true
     releaseDate: 2018-03-15
 
