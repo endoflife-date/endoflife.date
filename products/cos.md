@@ -2,7 +2,7 @@
 title: Google Container-Optimized OS (COS)
 layout: product
 category: os
-changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/__RELEASE_CYCLE__#__LATEST__"
+changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m__RELEASE_CYCLE__#__LATEST__"
 iconSlug: googlecloud
 permalink: /cos
 alternate_urls:
