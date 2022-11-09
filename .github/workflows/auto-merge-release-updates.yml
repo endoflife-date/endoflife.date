@@ -44,7 +44,7 @@ jobs:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Comment on PR about missing releases
-        uses: github-actions-up-and-running/pr-comment@v1.0.0
+        uses: github-actions-up-and-running/pr-comment@v1.0.1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: |
