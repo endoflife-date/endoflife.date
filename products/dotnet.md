@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "6.0"
     lts: true
     eol: 2024-11-12
-    latest: "6.0.10"
-    latestReleaseDate: 2022-10-11
+    latest: "6.0.11"
+    latestReleaseDate: 2022-11-08
     releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     lts: false
@@ -39,8 +39,8 @@ releases:
 -   releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
     lts: true
-    latest: "3.1.30"
-    latestReleaseDate: 2022-10-11
+    latest: "3.1.31"
+    latestReleaseDate: 2022-11-08
     eol: 2022-12-13
     releaseDate: 2019-12-03
 -   releaseCycle: "3.0"

@@ -33,39 +33,39 @@ eolColumn: Support Status
 releases:
 -   releaseCycle: "10.9"
     eol: 2023-08-22
-    latest: "10.9.3"
+    latest: "10.9.4"
     releaseDate: 2022-08-15
-    latestReleaseDate: 2022-09-19
+    latestReleaseDate: 2022-11-07
 -   releaseCycle: "10.8"
     eol: 2023-05-20
-    latest: "10.8.5"
+    latest: "10.8.6"
     releaseDate: 2022-05-20
-    latestReleaseDate: 2022-09-19
+    latestReleaseDate: 2022-11-07
 -   releaseCycle: "10.7"
     eol: 2023-02-14
-    latest: "10.7.6"
-    latestReleaseDate: 2022-09-19
+    latest: "10.7.7"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2022-02-08
 -   releaseCycle: "10.6"
     eol: 2026-07-06
-    latest: "10.6.10"
+    latest: "10.6.11"
     lts: true
-    latestReleaseDate: 2022-09-19
+    latestReleaseDate: 2022-11-07
     releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
     eol: 2025-06-24
-    latest: "10.5.17"
-    latestReleaseDate: 2022-08-14
+    latest: "10.5.18"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2020-06-23
 -   releaseCycle: "10.4"
     eol: 2024-06-18
-    latest: "10.4.26"
-    latestReleaseDate: 2022-08-14
+    latest: "10.4.27"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2019-06-17
 -   releaseCycle: "10.3"
     eol: 2023-05-25
-    latest: "10.3.36"
-    latestReleaseDate: 2022-08-14
+    latest: "10.3.37"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2018-05-23
 -   releaseCycle: "10.2"
     eol: 2022-05-23
@@ -88,6 +88,7 @@ releases:
     lts: true
     latestReleaseDate: 2020-05-06
     releaseDate: 2013-01-29
+
 ---
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
