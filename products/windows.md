@@ -28,11 +28,17 @@ releases:
     support: 2024-10-14
     eol: 2024-10-14
     releaseDate: 2022-09-20
--   releaseCycle: "Windows 10, version 21H2"
+-   releaseCycle: "Windows 10, version 21H2 IoT"
     lts: true
     buildID: 10.0.19044
     support: 2027-01-12
     eol: 2032-01-13
+    releaseDate: 2021-11-16
+-   releaseCycle: "Windows 10, version 21H2"
+    lts: true
+    buildID: 10.0.19044
+    support: 2027-01-12
+    eol: 2027-01-12
     releaseDate: 2021-11-16
 -   releaseCycle: "Windows 10, version 21H2 (E)"
     buildID: 10.0.19044
