@@ -3,15 +3,15 @@ title: Looker
 permalink: /looker
 category: server-app
 iconSlug: looker
-releasePolicyLink: https://docs.looker.com/relnotes/release-overview
+releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
 changelogTemplate: |
-  https://docs.looker.com/relnotes/v{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__"}}
+  https://cloud.google.com/looker/docs/looker-{{"__RELEASE_CYCLE__" | split:'.' | first}}-changelog#{{"__RELEASE_CYCLE__" | replace:'.',''}}
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
-releaseImage: https://docs.looker.com/assets/images/2022-std-supp-releases.png
+releaseImage: https://cloud.google.com/static/looker/docs/images/2022-std-supp-releases.png
 releases:
 -   releaseCycle: "22.8"
     releaseDate: 2022-05-06
@@ -92,7 +92,7 @@ When a new release is ready for installation, any Looker user listed as a Techni
 
 ESR releases are quarterly instead of monthly, and get 3 months of support. Issues deemed S1 and S2 will be patched back to the currently supported ESR releases. Participants in the ESR program are required to pair production instances with staging instances. A ESR release is kept in "ESR-staging" for a month, where it is considered "pre-stable".
 
-![ESR release schedule image](https://docs.looker.com/assets/images/2022-std-esr-supp-releases.png)
+![ESR release schedule image](https://cloud.google.com/static/looker/docs/images/2022-std-esr-supp-releases.png)
 
 ## [Notifications][emails]
 
