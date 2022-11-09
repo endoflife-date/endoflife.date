@@ -5,7 +5,7 @@ iconSlug: mulesoft
 permalink: /muleruntime
 alternate_urls:
   - /mulesoftruntime
-releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy
+releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 activeSupportColumn: Standard Support
 releaseColumn: true
 releaseDateColumn: true
