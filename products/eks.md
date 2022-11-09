@@ -20,7 +20,7 @@ releases:
     releaseDate: 2022-04-04
     latestReleaseDate: 2022-09-21
 -   releaseCycle: "1.21"
-    eol: 2023-02-01
+    eol: 2023-02-15
     latest: "1.21-eks-local-outposts-2"
     releaseDate: 2021-07-19
     latestReleaseDate: 2022-11-04
