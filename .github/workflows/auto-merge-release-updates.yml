@@ -23,11 +23,12 @@ jobs:
           submodules: true
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-      - name:
-        run: |
-          pip install -r requirements.txt
-          python _auto/latest.py
+          python-version: '3.11'
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+      - name: Update latest releases
+        id: latest
+        run: python _auto/latest.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Update latest and latestReleaseDate
         with:
@@ -42,3 +43,12 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Comment on PR about missing releases
+        uses: github-actions-up-and-running/pr-comment@v1.0.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            :warning: The following recent releases are not listed:
+            ```
+            ${{ steps.latest.outputs.warning }}
+            ```
