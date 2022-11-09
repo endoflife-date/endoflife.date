@@ -5,7 +5,7 @@ category: lang
 versionCommand: python --version
 releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
-  https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
+  https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
 auto:
 -   git: https://github.com/python/cpython.git

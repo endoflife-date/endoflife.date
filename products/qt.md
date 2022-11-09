@@ -56,7 +56,7 @@ releases:
 -   releaseCycle: "5.13"
     eol: 2020-06-19
     latest: "5.13.2"
-    link: https://blog.qt.io/blog/2019/06/19/qt-5-13-released
+    link: https://www.qt.io/blog/2019/06/19/qt-5-13-released
     latestReleaseDate: 2019-10-28
     releaseDate: 2019-06-18
 -   releaseCycle: "5.12"

@@ -58,7 +58,7 @@ releases:
 
 ---
 
-> [Angular](https://www.angular.io/) is a TypeScript-based free and open-source web application framework led from Google that was designed as a ground-up rewrite of AngularJS.
+> [Angular](https://angular.io/) is a TypeScript-based free and open-source web application framework led from Google that was designed as a ground-up rewrite of AngularJS.
 
 All major releases are typically supported for 18 months. This includes 6 months of active support (updates and patches), and 12 months of <abbr title="Long Term Support">LTS</abbr> support (critical fixes and security patches). Only newly identified security vulnerabilities and regression fixes are considered for LTS versions.
 
