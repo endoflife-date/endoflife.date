@@ -70,9 +70,9 @@ releases:
 
 ---
 
->[HAProxy](https://www.haproxy.org/) is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for very high traffic web sites and powers a significant portion of the world's most visited ones.
+>[HAProxy](https://www.haproxy.org/) is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for very high traffic websites and powers a significant portion of the world's most visited ones.
 
-The HAProxy core team maintains multiple versions in parallel. Since version 1.8, two major version are released every year. The first digit usually indicates a breaking change (config format etc) but in practice rarely changes. The second digit indicates new features. Both constitute a branch. One extra number appears after these digits to indicate the bug fix release.
+The HAProxy core team maintains multiple versions in parallel. Since version 1.8, two major version are released every year. The first digit usually indicates a breaking change (config format etc.) but in practice rarely changes. The second digit indicates new features. Both constitute a branch. One extra number appears after these digits to indicate the bug fix release.
 
 The core team deploys a lot of efforts backporting fixes to older releases while being extremely careful not to break anything. For this reason, it is really important to stay up to date within one branch, i.e. having the highest possible number on the last digits.
 

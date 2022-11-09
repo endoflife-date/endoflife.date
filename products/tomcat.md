@@ -30,12 +30,18 @@ releases:
     link: https://tomcat.apache.org/download-90.cgi
     releaseDate: 2015-11-13
     latestReleaseDate: 2022-10-03
--   releaseCycle: "8"
+-   releaseCycle: "8.5"
     eol: false
     latest: "8.5.83"
+    link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
+    releaseDate: 2016-03-17
+    latestReleaseDate: 2022-10-03
+-   releaseCycle: "8.0"
+    eol: 2018-06-30
+    latest: "8.0.53"
     link: https://tomcat.apache.org/download-80.cgi
     releaseDate: 2013-08-01
-    latestReleaseDate: 2022-10-03
+    latestReleaseDate: 2018-06-29
 -   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
@@ -63,7 +69,7 @@ Initial releases of a new major version typically process from Alpha, through Be
 
 ## Lifecycle
 
-Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly an year in advance.
+Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly a year in advance.
 
 Generally 3 major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as stable Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
 

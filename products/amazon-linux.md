@@ -10,6 +10,7 @@ eolColumn: Support
 releaseDateColumn: true
 purls:
 -   purl: pkg:os/amazonlinux
+-   purl: pkg:docker/library/amazonlinux
 auto:
 -   dockerhub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases

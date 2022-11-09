@@ -8,6 +8,8 @@ alternate_urls:
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
+purls:
+-   repology: kotlin
 auto:
 -   git: https://github.com/JetBrains/kotlin.git
     # See https://rubular.com/r/KT3q1yE8NDOoPB for regex reference

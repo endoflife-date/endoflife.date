@@ -10,7 +10,7 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-11-02
-    latest: "6.1"
+    latest: "6.1.0"
     latestReleaseDate: 2022-11-02
 -   releaseCycle: "6.0"
     eol: false

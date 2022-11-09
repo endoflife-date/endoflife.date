@@ -82,7 +82,7 @@ releases:
 
 ## Looker-hosted services
 
-Looker publishes a [planned maintenance schedule][schedule] - during which your instance may be temporarily unavailable for updates, server upgrades, or other system work. Upgrades are still triggered by [reaching out to customer support][best-practices]. A new minor version is slowly rolled out over 2-3 weeks, and every release includes a "Expected rollout start" and a "Expected final deployment and download available" date in the [Release Highlights page](https://docs.looker.com/relnotes). No new releases nor deployments happen in the month of December, which equates to 11 releases in a year.
+Looker publishes a [planned maintenance schedule][schedule] - during which your instance may be temporarily unavailable for updates, server upgrades, or other system work. Upgrades are still triggered by [reaching out to customer support][best-practices]. A new minor version is slowly rolled out over 2-3 weeks, and every release includes an "Expected rollout start" and an "Expected final deployment and download available" date in the [Release Highlights page](https://docs.looker.com/relnotes). No new releases nor deployments happen in the month of December, which equates to 11 releases in a year.
 
 ## [Customer-hosted Looker][self-hosted] instances
 
