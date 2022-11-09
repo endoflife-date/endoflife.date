@@ -2,9 +2,11 @@
 title: Mule Runtime
 category: server-app
 iconSlug: mulesoft
-permalink: /muleruntime
+permalink: /mulesoft-runtime
 alternate_urls:
-  - /mulesoftruntime
+  - /mule-runtime
+  - /mulesoft-runtimes
+  - /mule-runtimes
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 activeSupportColumn: Standard Support
 releaseColumn: true
@@ -56,8 +58,6 @@ releases:
     latest: "3.8.7"
     latestReleaseDate: 2018-05-28
     lts: true
-
-
 
 ---
 
