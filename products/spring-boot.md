@@ -8,7 +8,7 @@ releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported
 changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
 auto:
 -   git: https://github.com/spring-projects/spring-boot.git
-# See https://rubular.com/r/XQUdQN2MHdmmCD for reference
+# See https://rubular.com/r/stJ20etRIblK0J for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 releases:
 -   releaseCycle: "2.7"
