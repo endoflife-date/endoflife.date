@@ -1,6 +1,6 @@
 ---
 title: Google Container-Optimized OS (COS)
-layout: post
+layout: product
 category: os
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/__RELEASE_CYCLE__#__LATEST__"
 iconSlug: googlecloud
