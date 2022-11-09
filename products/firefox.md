@@ -12,8 +12,8 @@ changelogTemplate: |
 releases:
 -   releaseCycle: "106"
     eol: false
-    latest: "106.0.2"
-    latestReleaseDate: 2022-10-26
+    latest: "106.0.5"
+    latestReleaseDate: 2022-11-04
     lts: false
     releaseDate: 2022-09-20
 -   releaseCycle: "102"
