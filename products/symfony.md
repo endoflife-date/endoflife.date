@@ -1,7 +1,7 @@
 ---
 title: Symfony
 permalink: /symfony
-releasePolicyLink: https://symfony.com/roadmap
+releasePolicyLink: https://symfony.com/releases
 activeSupportColumn: true
 versionCommand: composer show symfony/symfony | grep versions
 changelogTemplate: |

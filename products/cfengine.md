@@ -66,4 +66,4 @@ CFEngine typically has releases once every 6 months. LTS releases occur every 1.
 
 See the [CFEngine blog][blog] for recent announcements.
 
-[blog]: https://cfengine.com/blog
+[blog]: https://cfengine.com/blog/

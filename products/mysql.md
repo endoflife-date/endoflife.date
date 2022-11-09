@@ -50,7 +50,7 @@ versionCommand: mysqld --version
 
 ---
 
-> [MySQL](https://www.mysql.com/about) is an open source database developed by Oracle. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more.
+> [MySQL](https://www.mysql.com/about/) is an open source database developed by Oracle. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more.
 
 [Oracle's Lifetime Support Policy](https://www.mysql.com/support/) has three options.
 

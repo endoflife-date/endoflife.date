@@ -8,7 +8,7 @@ alternate_urls:
 -   /citrix
 iconSlug: citrix
 category: app
-releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix
+releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

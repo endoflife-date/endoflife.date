@@ -76,4 +76,4 @@ Not every Kubernetes patch release is published on EKS. EKS releases follow a "p
 
 [platform-versions]: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
 [upgrade]: https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html#update-existing-cluster
-[skew]: https://kubernetes.io/docs/setup/version-skew-policy/#kube-apiserver
+[skew]: https://kubernetes.io/releases/version-skew-policy/#kube-apiserver

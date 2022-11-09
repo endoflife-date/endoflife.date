@@ -55,7 +55,7 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
 
 The `ansible` community package typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
 

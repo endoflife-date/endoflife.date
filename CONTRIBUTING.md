@@ -29,7 +29,7 @@ Before you get started, get to know the project a little bit. Open [endoflife.da
 
 ## :pencil: About the codebase
 
-endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://netlify.com). Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
+endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://www.netlify.com/). Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
 
 ## :new: Adding a new product
 

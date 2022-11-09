@@ -63,7 +63,7 @@ releases:
 
 VMware typically support ESXi for a duration of 7 years with 5 years of general support and an additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and security updates. Additional information on lifecycle phases can be found at <https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
 
-## [Product Lifecycle](https://www.vmware.com/support/policies/lifecycle.html)
+## [Product Lifecycle](https://www.vmware.com/support/lifecycle-policies.html)
 
 **General Support**: The last date on which you can request support; the end of regular VMware maintenance updates and upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription Terms and Conditions.
 

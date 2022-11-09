@@ -60,15 +60,15 @@ At any given time typically [3 branches][maintenance] of NetBSD are [supported w
 
 NetBSD publishes security advisories on the [announcements mailing list][announce-ml], the [security announcements mailing list][security-announce-ml], and the [tech-security discussion mailing list][tech-security-ml]. [RSS feeds][rss] providing [news][news-rss] and [security][security-rss] information are also available.
 
-[release-engineering]: http://releng.netbsd.org/ "NetBSD Release Engineering Status Site"
+[release-engineering]: https://releng.netbsd.org/ "NetBSD Release Engineering Status Site"
 [security]: https://www.netbsd.org/support/security/ "Security and NetBSD"
 [formal]: https://www.netbsd.org/releases/formal.html "NetBSD Formal Releases"
 [maintenance]: https://www.netbsd.org/releases/release-map.html#maintenance "NetBSD Maintenance Branches"
 [formal-latest]: https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"
 [supported-releases]: https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"
-[rss]: http://netbsd.org/changes/rss.html "NetBSD RSS Feeds"
-[news-rss]: http://www.netbsd.org/changes/rss-netbsd.xml "NetBSD News RSS Feed"
-[security-rss]: http://www.netbsd.org/support/security/rss-advisories.xml "NetBSD Security RSS Feed"
+[rss]: https://netbsd.org/changes/rss.html "NetBSD RSS Feeds"
+[news-rss]: https://www.netbsd.org/changes/rss-netbsd.xml "NetBSD News RSS Feed"
+[security-rss]: https://www.netbsd.org/support/security/rss-advisories.xml "NetBSD Security RSS Feed"
 [current]: https://www.netbsd.org/releases/current.html "NetBSD-current"
 [announce-ml]: https://www.netbsd.org/mailinglists/#netbsd-announce "General NetBSD Announcements Mailing List"
 [security-announce-ml]: https://www.netbsd.org/mailinglists/#security-announce "Announcements of NetBSD Security Advisories"

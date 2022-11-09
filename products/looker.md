@@ -78,7 +78,7 @@ releases:
 
 ---
 
->[Looker](https://looker.com/) is a data exploration and business intelligence platform that offers a wide variety of tools for relational database work, business intelligence, and other related services. It operates as a part of Google Cloud Platform. It is available as both a managed service (Looker-hosted), and a [self-hosted](https://docs.looker.com/setup-and-management/looker-hosted-install) installation.
+>[Looker](https://www.looker.com/) is a data exploration and business intelligence platform that offers a wide variety of tools for relational database work, business intelligence, and other related services. It operates as a part of Google Cloud Platform. It is available as both a managed service (Looker-hosted), and a [self-hosted](https://cloud.google.com/looker/docs/looker-hosted-installation-steps) installation.
 
 ## Looker-hosted services
 
@@ -98,11 +98,11 @@ ESR releases are quarterly instead of monthly, and get 3 months of support. Issu
 
 All users are able to opt in to release notes from the Account Settings section of Looker. Additionally, anyone listed as a Technical Contact within a Looker instance (Admin -> General Settings) will receive release notifications.
 
-A list of officially supported releases is [published](https://docs.looker.com/relnotes/supported-releases) as well, along with a ["Legacy feature schedule"][lfs] which provides a timeline that shows when current legacy features have been or will be formally removed.
+A list of officially supported releases is [published](https://cloud.google.com/looker/docs/officially-supported-releases) as well, along with a ["Legacy feature schedule"][lfs] which provides a timeline that shows when current legacy features have been or will be formally removed.
 
-[self-hosted]: https://docs.looker.com/setup-and-management/on-prem-mgmt "Managing a customer-hosted deployment"
-[esr]: https://docs.looker.com/relnotes/esr-overview "Standard extended support release program overview"
-[emails]: https://docs.looker.com/relnotes/release-emails "Release deployment emails"
-[schedule]: https://docs.looker.com/relnotes/hosted-maintenance-hours "Google maintenance policy for Looker-hosted services"
-[best-practices]: https://help.looker.com/hc/articles/360023639354 "Best Practices when Updating your Looker Instance"
-[lfs]: https://docs.looker.com/relnotes/legacy-feature-schedule#legacy_feature_schedule "Legacy feature schedule"
+[self-hosted]: https://cloud.google.com/looker/docs/managing-customer-hosted-deployment "Managing a customer-hosted deployment"
+[esr]: https://cloud.google.com/looker/docs/standard-extended-support-release-program-overview "Standard extended support release program overview"
+[emails]: https://cloud.google.com/looker/docs/release-deployment-emails "Release deployment emails"
+[schedule]: https://cloud.google.com/looker/docs/google-maintenance-policy-for-looker-hosted-services "Google maintenance policy for Looker-hosted services"
+[best-practices]: https://cloud.google.com/looker/docs/updating-your-looker-instance "Best Practices when Updating your Looker Instance"
+[lfs]: https://cloud.google.com/looker/docs/legacy-feature-schedule#legacy_feature_schedule "Legacy feature schedule"

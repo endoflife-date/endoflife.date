@@ -5,7 +5,7 @@ iconSlug: emberdotjs
 alternate_urls:
 -   /ember
 category: framework
-releasePolicyLink: https://emberjs.com/releases
+releasePolicyLink: https://emberjs.com/releases/
 changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
@@ -42,8 +42,8 @@ Ember follows [Semantic Versioning](https://semver.org/). The Ember team aims to
 
 ## [Long Term Support](https://emberjs.com/releases/lts/)
 
-Once a release of Ember gets promoted to LTS, it receives bugfixes for 36 weeks and security updates for 54 weeks.  
+Once a release of Ember gets promoted to LTS, it receives bugfixes for 36 weeks and security updates for 54 weeks.
 
-An LTS is declared roughly every 4 minor versions, excluding the x.0 minor version. The last minor version before the next major release is also considered to be an LTS. For example, in Ember 2.x, the following versions were considered LTS's: 2.4, 2.8, 2.12, 2.16, and 2.18 (last version).  
+An LTS is declared roughly every 4 minor versions, excluding the x.0 minor version. The last minor version before the next major release is also considered to be an LTS. For example, in Ember 2.x, the following versions were considered LTS's: 2.4, 2.8, 2.12, 2.16, and 2.18 (last version).
 
 Before a version can be called an "LTS" release, it has to spend at least 6 weeks as a stable release, where it is used and tested by thousands of developers.

@@ -75,7 +75,7 @@ releases:
 
 ---
 
-> [VMware vCenter Server](https://www.vmware.com/products/vcenter-server.html) is an advanced server management software that provides a centralized platform for controlling vSphere environments for visibility across hybrid clouds.
+> [VMware vCenter Server](https://www.vmware.com/products/vcenter.html) is an advanced server management software that provides a centralized platform for controlling vSphere environments for visibility across hybrid clouds.
 
 VMware typically support vCenter for a duration of 7 years with 5 years of general support and an additional 2 years of technical guidance during which vCenter will no longer receive bug fixes and security updates. Additional information on lifecycle phases can be found at <https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
 

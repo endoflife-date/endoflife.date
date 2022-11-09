@@ -3,7 +3,7 @@ permalink: /python
 title: Python
 category: lang
 versionCommand: python --version
-releasePolicyLink: https://devguide.python.org/versions.html
+releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true

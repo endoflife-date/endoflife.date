@@ -46,7 +46,7 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems and Microsoft Windows.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems and Microsoft Windows.
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 
