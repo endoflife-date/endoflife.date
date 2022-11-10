@@ -23,7 +23,7 @@ jobs:
           submodules: true
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.10'
       - name: Install Python Dependencies
         run: pip install -r requirements.txt
       - name: Update latest releases
