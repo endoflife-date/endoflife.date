@@ -9,6 +9,7 @@ changelogTemplate: |
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 activeSupportColumn: false
+releaseColumn: false
 releaseDateColumn: true
 releaseImage: https://cloud.google.com/static/looker/docs/images/2022-std-supp-releases.png
 releases:
@@ -16,79 +17,81 @@ releases:
     releaseDate: 2022-05-06
     # Update once 22.14 is released
     eol: 2022-08-15
-    latest: "22.8"
+
 -   releaseCycle: "22.6"
     releaseDate: 2022-04-18
     lts: 2022-06-01
     eol: 2022-08-31
-    latest: "22.8"
+
 -   releaseCycle: "22.4"
     releaseDate: 2022-03-14
     # Update once 22.10 is released
     eol: 2022-06-15
-    latest: "22.4"
+
 -   releaseCycle: "22.2"
     releaseDate: 2022-02-15
     eol: 2022-05-16
-    latest: "22.2"
+
 -   releaseCycle: "22.0"
     releaseDate: 2022-01-18
     eol: 2022-05-31
     lts: 2022-03-01
-    latest: "22.0"
+
 -   releaseCycle: "21.20"
     eol: 2022-03-15
     releaseDate: 2021-11-16
+
 -   releaseCycle: "21.18"
     eol: 2022-02-28
     lts: 2021-12-01
     releaseDate: 2021-10-19
-    latest: "21.18"
+
 -   releaseCycle: "21.16"
     eol: 2021-12-15
     releaseDate: 2021-09-14
-    latest: "21.16"
+
 -   releaseCycle: "21.14"
     eol: 2021-11-16
     releaseDate: 2021-08-16
+
 -   releaseCycle: "21.12"
     eol: 2021-11-30
     lts: 2021-09-01
     releaseDate: 2021-07-15
+
 -   releaseCycle: "21.10"
     eol: 2021-09-14
     releaseDate: 2021-06-10
-    latest: "21.10"
+
 -   releaseCycle: "21.8"
     eol: 2021-10-16
     releaseDate: 2021-05-13
-    latest: "21.8"
+
 -   releaseCycle: "21.6"
     eol: 2021-08-31
     lts: 2021-06-01
     releaseDate: 2021-04-15
-    latest: "21.6"
+
 -   releaseCycle: "21.4"
     eol: 2021-06-10
     releaseDate: 2021-03-11
-    latest: "21.4"
+
 -   releaseCycle: "21.0"
     eol: 2021-05-31
     lts: 2021-03-01
     releaseDate: 2021-01-20
-    latest: "21.0"
+
 -   releaseCycle: "7.20"
     eol: true
     releaseDate: 2020-11-15
-    latest: "7.20"
+
 -   releaseCycle: "7.18"
     eol: true
     releaseDate: 2020-10-15
-    latest: "7.18"
+
 -   releaseCycle: "7.16"
     eol: true
     releaseDate: 2020-09-17
-    latest: "7.16"
 
 ---
 
