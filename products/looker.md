@@ -10,7 +10,6 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: false
 releaseImage: https://cloud.google.com/static/looker/docs/images/2022-std-supp-releases.png
 releases:
 -   releaseCycle: "22.8"
