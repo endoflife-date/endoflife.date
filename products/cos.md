@@ -85,7 +85,7 @@ releases:
 
 ---
 
-> [Google Container-Optimized OS (COS)][cos] is an operating system image for [GCP Compute Engine VMs](https://cloud.google.com/compute) that is optimized for running Docker containers. It is maintained by Google and is based on the open source [Chromium OS](https://www.chromium.org/chromium-os) project.
+> [Google Container-Optimized OS (COS)](https://cloud.google.com/container-optimized-os/docs/concepts/features-and-benefits) is an operating system image for [GCP Compute Engine VMs](https://cloud.google.com/compute) which is optimized for running Docker containers. It is maintained by Google and is based on the open source [Chromium OS](https://www.chromium.org/chromium-os) project.
 
 ## Support policy
 
