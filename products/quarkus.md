@@ -11,6 +11,13 @@ auto:
 # See https://rubular.com/r/NyoXd9iCLFcl25 for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
 releases:
+-   releaseCycle: "2.14"
+    eol: 2025-05-18
+    support: 2025-11-18
+    latest: "2.14.0"
+    latestReleaseDate: 2022-11-09
+    releaseDate: 2022-11-09
+
 -   releaseCycle: "2.13"
     eol: 2025-05-18
     support: 2025-11-18
