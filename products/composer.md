@@ -1,7 +1,7 @@
 ---
 title: Composer
 category: app
-changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
+changelogTemplate: https://github.com/composer/composer/releases/tag/__LATEST__
 auto:
 -   git: https://github.com/composer/composer.git
 purls:
