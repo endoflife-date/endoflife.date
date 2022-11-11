@@ -108,7 +108,7 @@ During this support window:
 
 ## Deprecation
 
-At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-lts` and `cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://cloud.google.com/compute/docs/reference/latest/images/deprecate) is set on images in that milestone and those images stop appearing in the active list of images in the `cos-cloud` project.
+At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-lts` and `cos-arm64-[MILESTONE]-lts` families are deprecated. Specifically, the [DEPRECATED flag](https://cloud.google.com/compute/docs/reference/rest/v1/images/deprecate) is set on images in that milestone and those images stop appearing in the active list of images in the `cos-cloud` project.
 
 **Warning: Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily) references to the deprecated image family will return errors and break any workflows depending on it. You should not use this API to create production instances.**
 
