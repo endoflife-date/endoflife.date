@@ -17,28 +17,28 @@ alternate_urls:
 # The release date for "N" should match the eol date for N-3 release.
 releases:
 -   releaseCycle: "1.25"
-    latest: "1.25.3"
+    latest: "1.25.4"
     support: 2023-08-27
     eol: 2023-10-27
-    latestReleaseDate: 2022-10-12
+    latestReleaseDate: 2022-11-09
     releaseDate: 2022-08-23
 -   releaseCycle: "1.24"
-    latest: "1.24.7"
+    latest: "1.24.8"
     support: 2023-05-28
     eol: 2023-07-28
-    latestReleaseDate: 2022-10-12
+    latestReleaseDate: 2022-11-09
     releaseDate: 2022-05-03
 -   releaseCycle: "1.23"
-    latest: "1.23.13"
+    latest: "1.23.14"
     support: 2022-12-28
     eol: 2023-02-28
-    latestReleaseDate: 2022-10-12
+    latestReleaseDate: 2022-11-09
     releaseDate: 2021-12-07
 -   releaseCycle: "1.22"
-    latest: "1.22.15"
+    latest: "1.22.16"
     support: 2022-08-28
     eol: 2022-10-28
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-11-09
     releaseDate: 2021-08-04
 -   releaseCycle: "1.21"
     latest: "1.21.14"
