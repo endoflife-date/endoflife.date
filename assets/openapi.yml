@@ -313,7 +313,7 @@ components:
           format: date
           minLength: 10
           maxLength: 10
-          description: Wheter this release cycle has active support
+          description: Whether this release cycle has active support
         discontinued:
           type:
             - string
