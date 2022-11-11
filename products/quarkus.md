@@ -116,103 +116,19 @@ releases:
     latestReleaseDate: 2021-07-21
     releaseDate: 2021-06-23
 
--   releaseCycle: "1.13"
+-   releaseCycle: "1.x"
     eol: 2021-10-20
     support: 2021-11-20
     latest: "1.13.7"
     latestReleaseDate: 2021-06-09
-    releaseDate: 2021-03-24
-
--   releaseCycle: "1.12"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.12.2"
-    latestReleaseDate: 2021-03-11
-    releaseDate: 2021-02-17
-
--   releaseCycle: "1.11"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.11.7"
-    latestReleaseDate: 2021-05-19
-    releaseDate: 2021-01-13
-
--   releaseCycle: "1.10"
-    eol: 2022-04-20
-    support: 2021-11-20
-    latest: "1.10.5"
-    latestReleaseDate: 2020-12-16
-    releaseDate: 2020-11-19
-
--   releaseCycle: "1.9"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.9.2"
-    latestReleaseDate: 2020-11-05
-    releaseDate: 2020-10-14
-
--   releaseCycle: "1.8"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.8.3"
-    latestReleaseDate: 2020-10-09
-    releaseDate: 2020-09-09
-
--   releaseCycle: "1.7"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.7.6"
-    latestReleaseDate: 2020-12-16
-    releaseDate: 2020-08-07
-
--   releaseCycle: "1.6"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.6.1"
-    latestReleaseDate: 2020-07-21
-    releaseDate: 2020-07-02
-
--   releaseCycle: "1.5"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.5.2"
-    latestReleaseDate: 2020-06-18
-    releaseDate: 2020-05-27
-
--   releaseCycle: "1.4"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.4.2"
-    latestReleaseDate: 2020-05-05
-    releaseDate: 2020-04-23
-
--   releaseCycle: "1.3"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.3.4"
-    latestReleaseDate: 2020-06-02
-    releaseDate: 2020-03-13
-
--   releaseCycle: "1.2"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.2.1"
-    latestReleaseDate: 2020-02-19
-    releaseDate: 2020-01-23
-
--   releaseCycle: "1.1"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.1.1"
-    latestReleaseDate: 2020-01-07
-    releaseDate: 2019-12-17
-
--   releaseCycle: "1.0"
-    eol: 2021-10-20
-    support: 2021-11-20
-    latest: "1.0.1"
-    latestReleaseDate: 2019-11-28
     releaseDate: 2019-11-25
+
+-   releaseCycle: "0.x"
+    eol: 2021-10-20
+    support: 2021-11-20
+    latest: "0.28.1"
+    latestReleaseDate: 2019-11-04
+    releaseDate: 2018-12-12
 
 activeSupportColumn: true
 releaseColumn: true
