@@ -13,9 +13,31 @@ releaseColumn: false
 releaseDateColumn: true
 releaseImage: https://cloud.google.com/static/looker/docs/images/2022-std-supp-releases.png
 releases:
+-   releaseCycle: "22.18"
+    releaseDate: 2022-10-17
+    lts: 2022-12-01
+    eol: 2023-02-28
+
+-   releaseCycle: "22.16"
+    releaseDate: 2022-09-19
+    # Update once 23.0 is released ?
+    eol: 2022-12-19
+
+-   releaseCycle: "22.14"
+    releaseDate: 2022-08-15
+    eol: 2022-11-14
+
+-   releaseCycle: "22.12"
+    releaseDate: 2022-07-18
+    lts: 2022-09-01
+    eol: 2022-11-30
+
+-   releaseCycle: "22.10"
+    releaseDate: 2022-06-13
+    eol: 2022-09-19
+
 -   releaseCycle: "22.8"
-    releaseDate: 2022-05-06
-    # Update once 22.14 is released
+    releaseDate: 2022-05-16
     eol: 2022-08-15
 
 -   releaseCycle: "22.6"
@@ -25,8 +47,7 @@ releases:
 
 -   releaseCycle: "22.4"
     releaseDate: 2022-03-14
-    # Update once 22.10 is released
-    eol: 2022-06-15
+    eol: 2022-06-13
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-02-15
