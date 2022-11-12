@@ -12,6 +12,7 @@ auto:
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
 releases:
 -   releaseCycle: "2.14"
+    eol: false
     support: true
     latest: "2.14.0"
     latestReleaseDate: 2022-11-02
