@@ -31,6 +31,7 @@ releases:
     support: 2026-04-05
 -   releaseCycle: "8"
     codename: "2111"
+    lts: true
     releaseDate: 2021-11-30
     eol: 2024-11-30
     support: 2025-11-30
