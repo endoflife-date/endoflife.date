@@ -18,8 +18,8 @@ auto:
 releases:
 -   releaseCycle: "3.16"
     eol: 2024-05-23
-    latest: "3.16.2"
-    link: https://alpinelinux.org/posts/Alpine-3.16.0-released.html
+    latest: "3.16.3"
+    link: https://alpinelinux.org/posts/Alpine-3.16.3-released.html
     latestReleaseDate: 2022-08-09
     releaseDate: 2022-05-23
 -   releaseCycle: "3.15"
