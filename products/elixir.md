@@ -14,8 +14,8 @@ releases:
     releaseDate: 2022-09-01
     eol: false # release date of 1.19
     support: true # release date of 1.15
-    latestReleaseDate: 2022-10-10
-    latest: "1.14.1"
+    latestReleaseDate: 2022-11-11
+    latest: "1.14.2"
 -   releaseCycle: "1.13"
     eol: 2024-06-01 # projected release date of 1.18.0
     support: 2022-09-01 # release date of 1.14.0
