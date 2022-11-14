@@ -17,8 +17,8 @@ releases:
     support: 2024-02-01
     lts: true
     eol: 2024-02-01
-    latest: "4.1"
-    latestReleaseDate: 2022-11-01
+    latest: "4.1.1"
+    latestReleaseDate: 2022-11-11
     releaseDate: 2022-11-01
 -   releaseCycle: "4.0"
     support: 2022-11-01
