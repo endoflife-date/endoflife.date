@@ -10,12 +10,12 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 releases:
--   releaseCycle: "106"
+-   releaseCycle: "107"
     eol: false
-    latest: "106.0.5"
-    latestReleaseDate: 2022-11-04
+    latest: "107.0"
+    latestReleaseDate: 2022-11-15
     lts: false
-    releaseDate: 2022-09-20
+    releaseDate: 2022-11-15
 -   releaseCycle: "102"
     eol: false
     latest: "102.4.0"
