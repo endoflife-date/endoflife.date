@@ -12,6 +12,11 @@ auto:
     template: '{{version}}'
 category: os
 releases:
+-   releaseCycle: "37"
+    latest: "37"
+    eol: 2023-12-15 #this might be revised for now based on 13months prediction
+    latestReleaseDate: 2022-11-15
+    releaseDate: 2022-11-15
 -   releaseCycle: "36"
     latest: "36"
     eol: 2023-05-16
