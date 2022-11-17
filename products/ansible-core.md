@@ -14,21 +14,27 @@ category: framework
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:
+-   releaseCycle: "2.14"
+    releaseDate: 2022-11-07
+    eol: 2024-05-31
+    latest: "2.14.0"
+    latestReleaseDate: 2022-11-07
+
 -   releaseCycle: "2.13"
     releaseDate: 2022-05-16
-    eol: false
+    eol: 2023-11-30
     latest: "2.13.6"
     latestReleaseDate: 2022-11-07
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-11-08
-    eol: false
+    eol: 2023-05-31
     latest: "2.12.10"
     latestReleaseDate: 2022-10-11
 
 -   releaseCycle: "2.11"
     releaseDate: 2021-04-26
-    eol: false
+    eol: 2022-11-07
     latest: "2.11.12"
     latestReleaseDate: 2022-05-23
 
