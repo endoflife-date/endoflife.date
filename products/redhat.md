@@ -16,10 +16,10 @@ releases:
 -   releaseCycle: "9"
     support: 2027-05-31
     eol: 2032-05-31
-    latest: "9.0"
+    latest: "9.1"
     releaseDate: 2022-05-17
     lts: 2032-05-31
-    latestReleaseDate: 2022-05-17
+    latestReleaseDate: 2022-11-15
 -   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
@@ -54,6 +54,7 @@ releases:
     releaseDate: 2005-02-15
     latestReleaseDate: 2011-02-16
     latest: '4.9'
+
 
 
 ---
