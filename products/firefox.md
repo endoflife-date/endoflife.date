@@ -18,11 +18,11 @@ releases:
     releaseDate: 2022-11-15
 -   releaseCycle: "102"
     eol: false
-    latest: "102.4.0"
-    latestReleaseDate: 2022-10-18
+    latest: "102.5.0"
+    latestReleaseDate: 2022-11-15
     lts: true
     releaseDate: 2022-06-28
-    link: https://www.mozilla.org/firefox/102.4.0/releasenotes/
+    link: https://www.mozilla.org/firefox/102.5.0/releasenotes/
 
 -   releaseCycle: "91"
     eol: 2022-09-20
