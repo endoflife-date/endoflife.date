@@ -11,7 +11,7 @@ activeSupportColumn: Technical Guidance
 eolColumn: General Support
 releaseColumn: true
 releaseDateColumn: true
-releaseLabel: 'Horizon __RELEASE_CYCLE__ __LATEST__'
+releaseLabel: 'Horizon __RELEASE_CYCLE__ {{ "__LATEST__" | split: "." | first }}'
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/__RELEASE_CYCLE__-__LATEST__/rn/vmware-horizon-__RELEASE_CYCLE__-{{"__LATEST__"|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
