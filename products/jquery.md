@@ -7,7 +7,7 @@ releases:
 -   releaseCycle: "3"
     eol: false
     latest: "3.6.1"
-    link: https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/
+    link: https://blog.jquery.com/2022/08/26/jquery-3-6-1-maintenance-release/
     latestReleaseDate: 2022-08-26
     releaseDate: 2016-06-09
 -   releaseCycle: "2"
