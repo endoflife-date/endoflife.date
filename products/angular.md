@@ -13,6 +13,12 @@ purls:
 auto:
 -   git: https://github.com/angular/angular.git
 releases:
+-   releaseCycle: "15"
+    support: true
+    eol: false
+    latest: "15.0.0"
+    releaseDate: 2022-11-16
+    latestReleaseDate: 2022-11-16
 -   releaseCycle: "14"
     support: 2022-12-02
     eol: 2023-12-02
