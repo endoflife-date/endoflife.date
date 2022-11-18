@@ -12,7 +12,7 @@ eolColumn: General Support
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: 'Horizon __RELEASE_CYCLE__'
-changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/__RELEASE_CYCLE__-__LATEST__/rn/vmware-horizon-__RELEASE_CYCLE__-{{"__LATEST__" | replace: ".","" }}-release-notes/index.html
+changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/__RELEASE_CYCLE__-__LATEST__/rn/vmware-horizon-__RELEASE_CYCLE__-{{"__LATEST__"|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
 -   releaseCycle: "8"
@@ -72,7 +72,6 @@ releases:
     support: 2023-03-23
     latest: "7.13.2"
     latestReleaseDate: 2022-03-10
-    link: "https://docs.vmware.com/en/VMware-Horizon-7/7.13.2/rn/vmware-horizon-7-7132-release-notes/index.html"
 
 -   releaseCycle: "8"
     releaseDate: 2020-08-11
