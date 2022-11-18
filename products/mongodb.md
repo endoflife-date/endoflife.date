@@ -50,8 +50,8 @@ releases:
     latest: '5.1.1'
 -   releaseCycle: "5.0"
     eol: 2024-10-01
-    latest: "5.0.13"
-    latestReleaseDate: 2022-09-29
+    latest: "5.0.14"
+    latestReleaseDate: 2022-11-17
     releaseDate: 2021-07-08
 -   releaseCycle: "4.4"
     eol: 2024-02-01
