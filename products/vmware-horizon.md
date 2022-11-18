@@ -11,7 +11,7 @@ activeSupportColumn: Technical Guidance
 eolColumn: General Support
 releaseColumn: true
 releaseDateColumn: true
-releaseLabel: 'Horizon __RELEASE_CYCLE__'
+releaseLabel: 'Horizon __RELEASE_CYCLE__ __LATEST__'
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/__RELEASE_CYCLE__-__LATEST__/rn/vmware-horizon-__RELEASE_CYCLE__-{{"__LATEST__"|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 releases:
@@ -51,6 +51,7 @@ releases:
     support: 2025-07-15
     latest: "2106"
     latestReleaseDate: 2021-07-05
+    link: https://docs.vmware.com/en/VMware-Horizon/2106/rn/horizon-2106-release-notes.html
 
 -   releaseCycle: "8"
     releaseDate: 2021-03-23
@@ -58,6 +59,7 @@ releases:
     support: 2025-03-23
     latest: "2103"
     latestReleaseDate: 2021-03-23
+    link: https://docs.vmware.com/en/VMware-Horizon/2103/rn/horizon-2103-release-notes.html
 
 -   releaseCycle: "8"
     releaseDate: 2021-01-07
@@ -65,13 +67,7 @@ releases:
     support: 2025-01-07
     latest: "2012"
     latestReleaseDate: 2021-01-07
-
--   releaseCycle: "7.13"
-    releaseDate: 2020-10-15
-    eol: 2022-10-15
-    support: 2023-03-23
-    latest: "7.13.2"
-    latestReleaseDate: 2022-03-10
+    link: https://docs.vmware.com/en/VMware-Horizon/2012/rn/horizon-2012-release-notes.html
 
 -   releaseCycle: "8"
     releaseDate: 2020-08-11
@@ -79,14 +75,15 @@ releases:
     support: 2027-08-11
     latest: "2006"
     latestReleaseDate: 2020-08-11
+    link: https://docs.vmware.com/en/VMware-Horizon/2006/rn/horizon-2006-release-notes.html
 
 -   releaseCycle: "7"
     releaseLabel: "7.X NonLTS branch"
     releaseDate: 2016-03-22
-    eol: 2021-03-22
-    support: 2023-03-22
-    latest: "7.12"
-    latestReleaseDate: 2020-03-17
+    eol: 2022-10-15
+    support: 2023-03-23
+    latest: "7.13.2"
+    latestReleaseDate: 2022-03-10
 
 -   releaseCycle: "7.10"
     lts: true
