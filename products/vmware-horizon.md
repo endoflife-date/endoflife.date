@@ -78,28 +78,33 @@ releases:
     link: https://docs.vmware.com/en/VMware-Horizon/2006/rn/horizon-2006-release-notes.html
 
 -   releaseCycle: "7"
-    releaseLabel: "7.X NonLTS branch"
+    releaseLabel: "Horizon 7.X NonLTS branch"
     releaseDate: 2016-03-22
     eol: 2022-10-15
     support: 2023-03-23
     latest: "7.13.2"
     latestReleaseDate: 2022-03-10
+    link: https://docs.vmware.com/en/VMware-Horizon-7/7.13.2/rn/vmware-horizon-7-7132-release-notes/index.html
 
 -   releaseCycle: "7.10"
+    releaseLabel: "Horizon 7.10"
     lts: true
     releaseDate: 2019-09-17
     eol: 2022-03-17
     support: 2023-03-22
     latest: "7.10.3"
     latestReleaseDate: 2020-10-22
+    link: ' '
 
 -   releaseCycle: "7.5"
+    releaseLabel: "Horizon 7.5"
     lts: true
     releaseDate: 2018-05-29
     eol: 2020-11-30
     support: 2023-03-22
     latest: "7.5.4"
     latestReleaseDate: 2019-12-19
+    link: ' '
 
 
 ---
