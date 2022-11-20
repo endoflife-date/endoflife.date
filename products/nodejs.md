@@ -7,8 +7,8 @@ category: lang
 title: Node.js
 iconSlug: nodedotjs
 releasePolicyLink: https://nodejs.org/about/releases/
-releaseImage: https://raw.githubusercontent.com/nodejs/Release/master/schedule.svg?sanitize=true
-changelogTemplate: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
+releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
+changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
 auto:
 -   git: https://github.com/nodejs/node.git
