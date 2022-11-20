@@ -106,7 +106,7 @@ releases:
 -   releaseCycle: "Nokia 8.3 5G"
     releaseDate: 2020-09-15
     eol: 2023-11-01
-    link: https://www.nokia.com/phones/en_int/nokia-8-3-5g
+    link: https://www.nokia.com/phones/en_gb/nokia-8-3-5g-promo
 -   releaseCycle: "Nokia C3"
     releaseDate: 2020-08-13
     eol: 2022-11-01
