@@ -15,6 +15,8 @@ releases:
     latest: "8.5.1"
     latestReleaseDate: 2022-11-15
     releaseDate: 2022-02-10
+    # temporary fix until they publish 8.5.1's changelog
+    link: https://www.elastic.co/guide/en/elasticsearch/reference/8.5/release-notes-8.5.0.html
 -   releaseCycle: "7"
     eol: 2023-08-01
     latest: "7.17.7"
