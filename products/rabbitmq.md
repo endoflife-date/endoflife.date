@@ -50,6 +50,7 @@ releases:
     releaseDate: 2015-12-22
 -   releaseCycle: "3.5"
     eol: 2016-10-31
+    support: 2016-10-31
     latest: "3.5.8"
     latestReleaseDate: 2016-11-03
     releaseDate: 2015-03-11
@@ -86,7 +87,7 @@ releases:
 
 ---
 
-> [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker.
+> [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that supports multiple messaging protocols.
 
 - **General Support**: includes regular patch releases
 - **Extended Support**: includes security patches, and high-severity issues reported by users with a commercial license.
