@@ -20,8 +20,8 @@ releases:
     latest: "21.3.0"
 -   releaseCycle: "20"
     eol: false
-    latest: "20.3.5"
-    latestReleaseDate: 2022-11-09
+    latest: "20.3.6"
+    latestReleaseDate: 2022-11-21
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
     eol: false

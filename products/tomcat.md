@@ -32,10 +32,10 @@ releases:
     latestReleaseDate: 2022-11-09
 -   releaseCycle: "8.5"
     eol: false
-    latest: "8.5.83"
+    latest: "8.5.84"
     link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
     releaseDate: 2016-03-17
-    latestReleaseDate: 2022-10-03
+    latestReleaseDate: 2022-11-16
 -   releaseCycle: "8.0"
     eol: 2018-06-30
     latest: "8.0.53"
