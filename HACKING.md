@@ -62,8 +62,8 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
   - `_plugins` holds scripts invoked by the Jekyll build code
   - `_config.yml` holds the Jekyll configuration, including list of plugins, exclude/include filelist, theme configuration, and plugin settings.
   - `Gemfile` and `Gemfile.lock` are package files for bundler.
-- `_headers` holds the template for generating a list of custom HTTP headers, in the Netlify Headers Format. A rendered version (might be dated) of the file can be seen [here](http://hastebin.com/fajomitewu.yaml).
-- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a rendered version [here](http://hastebin.com/gihahuguvu.http).
+- `_headers` holds the template for generating a list of custom HTTP headers, in the Netlify Headers Format. A rendered version (might be dated) of the file can be seen [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_headers).
+- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a rendered version [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_redirects).
 - `Rakefile` configures the entrypoint for our automation scripts.
 - [`robots.txt`](https://en.wikipedia.org/wiki/Robots.txt) is for web scraping robots.
 - [`humans.txt`](https://endoflife.date/humans.txt) holds details about the people and tech behind the project.
