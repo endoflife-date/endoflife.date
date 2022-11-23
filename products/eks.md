@@ -9,6 +9,11 @@ changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__
 auto:
 -   custom: true
 releases:
+-   releaseCycle: "1.24"
+    eol: 2024-01-01
+    latest: "1.24-eks-2"
+    latestReleaseDate: 2022-11-15
+    releaseDate: 2022-11-07
 -   releaseCycle: "1.23"
     eol: 2023-10-01
     latest: "1.23-eks-4"
