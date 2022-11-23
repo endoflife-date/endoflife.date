@@ -16,8 +16,14 @@ purls:
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
--   releaseCycle: "6"
+-   releaseCycle: "7"
     eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2022-11-22
+    releaseDate: 2022-11-22
+
+-   releaseCycle: "6"
+    eol: 2022-12-22 # will have to be updated with 6.7.0 release date
     latest: "6.6.0"
     latestReleaseDate: 2022-11-08
     releaseDate: 2022-06-22
@@ -67,5 +73,6 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 
 | ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
-| 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
+| 7               | 3.9                                 | N/A                              |
 | 6               | 3.8                                 | 2.7 or 3.5                       |
+| 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
