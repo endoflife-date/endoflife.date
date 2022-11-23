@@ -9,7 +9,7 @@ changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__
 auto:
 -   custom: true
 releases:
--   releaseCycle: "1.23"
+-   releaseCycle: "1.24"
     eol: 2024-01-01
     latest: "1.24-eks-2"
     releaseDate: 2022-11-15
