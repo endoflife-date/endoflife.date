@@ -21,8 +21,8 @@ versionCommand: cat /opt/couchbase/VERSION.txt
 releases:
 -   releaseCycle: "7.1"
     eol: false
-    latest: "7.1.2"
-    latestReleaseDate: 2022-10-26
+    latest: "7.1.3"
+    latestReleaseDate: 2022-11-22
     releaseDate: 2022-06-07
 -   releaseCycle: "7.0"
     eol: 2023-01-01
