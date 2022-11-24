@@ -29,7 +29,7 @@ releases:
     eol: 2021-01-31
     releaseDate: 2019-11-04
 -   releaseCycle: "stable/12"
-    eol: 2024-06-30
+    eol: 2023-12-31
 -   releaseCycle: "releng/11.4"
     eol: 2021-09-30
     releaseDate: 2020-06-16
