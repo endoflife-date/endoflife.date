@@ -72,8 +72,8 @@ releases:
 -   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.265"
-    latestReleaseDate: 2022-11-10
+    latest: "4.19.266"
+    latestReleaseDate: 2022-11-23
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
