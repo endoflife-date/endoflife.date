@@ -120,6 +120,6 @@ When a release branch reaches the end of its support cycle, the series will be d
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
 - List of [Breaking Changes](https://www.electronjs.org/docs/latest/breaking-changes)
-- [Electron Releases](https://releases.electronjs.org/) website. A [RSS Feed](https://electronjs.org/releases.xml) is available as well.
+- [Electron Releases](https://releases.electronjs.org/) website.
 
 [platforms]: https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms
