@@ -12,8 +12,8 @@ auto:
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 releases:
 -   releaseCycle: "3.0"
-    eol: 2023-11-18
-    support: 2025-02-18
+    eol: 2023-11-24
+    support: 2025-02-24
     latest: "3.0.0"
     latestReleaseDate: 2022-11-24
     releaseDate: 2022-11-24
