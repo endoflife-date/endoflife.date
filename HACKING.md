@@ -68,6 +68,30 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
 - [`robots.txt`](https://en.wikipedia.org/wiki/Robots.txt) is for web scraping robots.
 - [`humans.txt`](https://endoflife.date/humans.txt) holds details about the people and tech behind the project.
 
+## Extending the Jekyll theme
+
+The site is based on the [Just the Docs](https://github.com/just-the-docs/just-the-docs) Jekyll theme. Take a look at
+[the documentation](https://just-the-docs.github.io/just-the-docs/) for knowing more about its configuration (beware,
+this configuration is for the current `main` branch, not for the version used by this site).
+
+If you need to override some parts, take a look at [the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/)
+of the documentation.
+
+
+## Logo
+
+The site logo is [Material's _update_ icon](https://fonts.google.com/icons?selected=Material+Icons+Outlined:update:). It
+is [permitted by Google](https://developers.google.com/fonts/faq#can_i_use_the_font_in_a_logo). Derived icons for
+various usages, such as [the web app manifest](/manifest.json) were also generated from Material's SVG icon using
+[RealFaviconGenerator.net](https://realfavicongenerator.net/).
+
+All icons were placed in the [`assets`](/assets) directory, except [`favicon.ico`](/favicon.ico). The _Just the Docs_
+Jekyll theme mandates its path to `/favicon.ico`, and it seems a lot of browsers
+[assume this location anyway](https://stackoverflow.com/a/21359390/374236).
+
+Note that generated `android-chrome-*.png` icons were renamed to `logo-*.png`. Those icons are used in other contexts,
+such as on the site as a logo.
+
 ## Automation
 
 Automation is currently focused towards fetching the latest releases for a given release cycle. Scripts for this are in the `_auto` directory, and run using `Rakefile`.

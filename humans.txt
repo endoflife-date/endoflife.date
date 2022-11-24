@@ -5,4 +5,4 @@ Contributors: https://github.com/endoflife-date/endoflife.date/graphs/contributo
 
 /* SITE */
 Software: Jekyll, Netlify, GitHub, Ruby, GitHub Actions
-Components: Just the Docs Jekyll Theme, Stoplight Elements
+Components: Just the Docs Jekyll Theme, Stoplight Elements, Simple Icons, Material Icons

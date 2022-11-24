@@ -59,7 +59,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /logo.png
+      image: /logo-512.png
   - scope:
       path: "products"
     values:

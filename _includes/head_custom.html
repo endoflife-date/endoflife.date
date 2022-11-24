@@ -7,3 +7,14 @@ Check End of Life, Support Schedule, and release timelines for  {% for page in s
 {% endcapture %}
 <meta name="description" content="{{ d | strip }}" />
 <meta property="og:description" content="{{ d | strip }}" />
+
+<!-- favicons - see https://realfavicongenerator.net -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ 'manifest.json' | relative_url }}">
+<link rel="mask-icon" href="{{ '/assets/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="{{ '/browserconfig.xml' | relative_url }}">
+<meta name="theme-color" content="#ffffff">
+
