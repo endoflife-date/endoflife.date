@@ -9,7 +9,7 @@ layout: page
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [:octocat: Hacktoberfest](#octocat-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#octocat-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
 - [:pencil: About the codebase](#pencil-about-the-codebase)
 - [:new: Adding a new product](#new-adding-a-new-product)
@@ -19,7 +19,7 @@ layout: page
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## :octocat: Hacktoberfest
+## <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest
 
 This project is participating in Hacktoberfest 2022. If you are looking to contribute, please check out our [detailed guide for hacktoberfest participants](https://github.com/endoflife-date/endoflife.date/issues/408).
 
