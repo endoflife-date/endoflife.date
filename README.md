@@ -15,8 +15,26 @@ While participating in the project, you must abide by its [Code of Conduct](CODE
 ## API
 
 An API is available for integration with CI platforms. API documentation is available at https://endoflife.date/docs/api. The API is currently in Alpha, and breaking changes can happen.
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
+
+## Credits
+
+endoflife.date is relying on various amazing software and components :
+
+- [GitHub](https://github.com/), an Internet hosting service for software development and version control,
+- [Jekyll](https://jekyllrb.com/), a static site generator.
+- [Ruby](https://jekyllrb.com/), a dynamic and open source programming language with a focus on simplicity and
+  productivity.
+- [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
+- [Stoplight Elements](https://stoplight.io/open-source/elements), a collection of UI components for displaying
+  beautiful developer documentation from any OpenAPI document.
+- [Simple Icons](https://simpleicons.org/), free SVG icons for popular brands.
+- [An hourglass in a round icon](https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg)
+  by David Abián and Serhio Magpie.
+- [RealFaviconGenerator](https://realfavicongenerator.net/), a favicon Generator, for real.
+- [Netlify](https://www.netlify.com/), an all-in-one platform for automating modern web projects.
 
 [hacktoberfest]: https://github.com/endoflife-date/endoflife.date/issues/408

@@ -1,0 +1,26 @@
+---
+# See https://web.dev/add-manifest/
+
+# Setting a layout forces Jekyll to render this file.
+layout: null
+---
+{
+    "name": "endoflife.date",
+    "short_name": "endoflife",
+    "icons": [
+        {
+            "src": "{{ '/assets/logo-192x192.png' | absolute_url }}",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "{{ '/assets/logo-512x512.png' | absolute_url }}",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "{{ '/' | absolute_url }}?utm_source=homescreen",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
