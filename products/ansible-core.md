@@ -56,7 +56,7 @@ releases:
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 
-See the [Ansible Roadmap][roadmap] for upcoming release details.
+See the [ansible-core Roadmap][roadmap] for upcoming release details.
 
 [roadmap]: https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html
 [maintenance]: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
@@ -70,3 +70,4 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 | 2.11                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
 | 2.12                 | 3.8                                 | 2.6 or 3.5                       |
 | 2.13                 | 3.8                                 | 2.7 or 3.5                       |
+| 2.14                 | 3.9                                 | 2.7 or 3.5                       |
