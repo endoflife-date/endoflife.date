@@ -9,13 +9,21 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 exclude:
+  - _auto
+  - CODE-OF-CONDUCT.md
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/
-  - README.md
+  - HACKING.md
   - LICENSE
-  - _auto
+  - netlify.toml
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor/
+  - Rakefile
+  - README.md
+  - requirements.txt
+  - runtime.txt
 include:
   - _redirects
   - _headers
