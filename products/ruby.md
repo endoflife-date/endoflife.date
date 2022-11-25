@@ -21,21 +21,21 @@ eolColumn: Support Status
 releases:
 -   releaseCycle: "3.1"
     eol: 2025-12-25
-    latest: "3.1.2"
+    latest: "3.1.3"
 
-    latestReleaseDate: 2022-04-12
+    latestReleaseDate: 2022-11-24
     releaseDate: 2021-12-25
 -   releaseCycle: "3.0"
     eol: 2024-03-31
-    latest: "3.0.4"
+    latest: "3.0.5"
 
-    latestReleaseDate: 2022-04-12
+    latestReleaseDate: 2022-11-24
     releaseDate: 2020-12-25
 -   releaseCycle: "2.7"
     eol: 2023-03-31
-    latest: "2.7.6"
+    latest: "2.7.7"
 
-    latestReleaseDate: 2022-04-12
+    latestReleaseDate: 2022-11-24
     releaseDate: 2019-12-25
 -   releaseCycle: "2.6"
     eol: 2022-03-31
