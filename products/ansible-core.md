@@ -56,7 +56,7 @@ releases:
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 
-See the [Ansible-core Roadmap][roadmap] for upcoming release details.
+See the [ansible-core Roadmap][roadmap] for upcoming release details.
 
 [roadmap]: https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html
 [maintenance]: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
