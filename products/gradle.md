@@ -33,11 +33,13 @@ releases:
 > flexible model that can support the entire development lifecycle from compiling and packaging code to publishing
 > websites.
 
-Officially, each Gradle release causes the previous release to become end-of-life (EOL). There is an exception for
-Gradle 6.9 which receive from time to time backported bugfixes from Gradle 7.x.
+Only the latest release is supported. There is an exception for 6.9 which is still getting bug and security fixes.
 
-As seen in [the Compatibility Matrix](https://docs.gradle.org/current/userguide/compatibility.html), any supported
-version of Java can be used for compile or test. But Gradle itself is tested with the following versions:
+## [Java Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
+
+A Java version between 8 and 19 is required to execute Gradle. Java 20 and later versions are not yet supported. Java 6 and 7 can still be used for compilation and forked test execution.
+
+Gradle itself is tested with the following versions:
 
 | Gradle                                                          | Java | Kotlin        | Groovy       | Android                           |
 |-----------------------------------------------------------------|------|---------------|--------------|-----------------------------------|
