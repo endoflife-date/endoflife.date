@@ -17,15 +17,16 @@ releases:
     eol: false
     support: true
     latest: "7.6.0"
-    latestReleaseDate: 2022-11-25
+    latestReleaseDate: 2022-11-22
     releaseDate: 2021-04-09
 
 -   releaseCycle: "6"
     eol: false
     support: false
     latest: "6.9.3"
-    latestReleaseDate: 2022-10-17
+    latestReleaseDate: 2022-10-14
     releaseDate: 2019-11-08
+
 ---
 
 > [Gradle](https://gradle.org/) is a build tool with a focus on build automation and support for multi-language

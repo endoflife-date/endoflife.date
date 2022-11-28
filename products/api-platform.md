@@ -15,15 +15,15 @@ releases:
 -   releaseCycle: "3.0"
     support: true
     eol: false
-    latest: "3.0.4"
-    latestReleaseDate: 2022-11-15
+    latest: "3.0.5"
+    latestReleaseDate: 2022-11-25
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.7"
     support: true
     eol: false
-    latest: "2.7.4"
-    latestReleaseDate: 2022-11-15
+    latest: "2.7.5"
+    latestReleaseDate: 2022-11-25
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.6"
