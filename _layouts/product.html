@@ -183,6 +183,7 @@ or +1 (EoL is in the future)
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
     {% if releaseLink != "" %}
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
+{% if  diff > 1 %}
       &ensp;
       <a href="http://www.google.com/calendar/render?action=TEMPLATE
 &text=[endoflife.date] {{page.title}} {{r.releaseCycle}} EOL reached
@@ -192,7 +193,8 @@ or +1 (EoL is in the future)
 &sprop=
 &sprop=name:" target="_blank" rel="nofollow">
 <img alt="Add to Calendar" src="/assets/calendar-with-plus-sign.svg" width="20" height="20">
-      </a>
+      </a>{% endif %}
+
     {% else %}
       {{latestVersionNumber}}
     {% endif %}
