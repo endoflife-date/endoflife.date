@@ -8,6 +8,12 @@ activeSupportColumn: true
 versionCommand: select @@version
 releaseDateColumn: true
 releases:
+-   releaseCycle: "2022"
+    releaseLabel: "2022 RTM"
+    support: 2028-01-11
+    eol: 2033-01-11
+    latest: "16.0.1000.6"
+    releaseDate: 2022-11-16
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU18"
     support: 2025-01-07
