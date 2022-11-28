@@ -9,26 +9,26 @@ versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersio
 releaseDateColumn: true
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU12 Oct22SU"
+    releaseLabel: "2019 CU12 Nov22SU"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1118.15"
-    latestReleaseDate: 2022-08-09
+    latest: "15.2.1118.20"
+    latestReleaseDate: 2022-11-08
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 Oct22SU"
+    releaseLabel: "2016 CU23 Nov22SU"
     releaseDate: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.13"
-    latestReleaseDate: 2022-08-09
+    latest: "15.1.2507.16"
+    latestReleaseDate: 2022-11-08
 -   releaseCycle: "2013"
-    releaseLabel: "2013 CU23 Oct22SU"
+    releaseLabel: "2013 CU23 Nov22SU"
     releaseDate: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.1497.42"
-    latestReleaseDate: 2022-08-09
+    latest: "15.0.1497.44"
+    latestReleaseDate: 2022-11-08
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP3 UR32"
     releaseDate: 2009-11-09
