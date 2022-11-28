@@ -9,6 +9,7 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 exclude:
+  - .idea
   - _auto
   - CODE-OF-CONDUCT.md
   - Gemfile
