@@ -38,7 +38,6 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 ```yaml
 ---
 title: Timeturner
-layout: post
 # Possible values are os,db,app,lang,framework,device,service,server-app
 # If you add a new value, please mention it on the PR Description. Some rough guidelines:
 # os is operating systems (and similar projects)
