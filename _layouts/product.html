@@ -185,9 +185,9 @@ or +1 (EoL is in the future)
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
       &ensp;
       <a href="http://www.google.com/calendar/render?action=TEMPLATE
-&text='[endoflife.date] {{page.title}} {{releaseCycleText}} EOL reached'
+&text='[endoflife.date] {{page.title}} {{__RELEASE_CYCLE__}} EOL reached'
 &dates='{{r.eol | replace:'-',''}}T000000/{{r.eol | replace:'-',''}}T000000'
-&details='It will be end of support for  {{page.title}} {{releaseCycleText}}'
+&details='It will be end of support for  {{page.title}} {{__RELEASE_CYCLE__}}'
 &trp=false
 &sprop=
 &sprop=name:" target="_blank" rel="nofollow">
