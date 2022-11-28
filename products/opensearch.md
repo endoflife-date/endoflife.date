@@ -24,13 +24,26 @@ releases:
 
 ---
 
-> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest, search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics, data observability, data ingestion, and more.
+> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest,
+> search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics,
+> data observability, data ingestion, and more.
+
+## Official Release schedule
+
+For more information on the changes planned for each release, see:
+
+- [Official Release Schedule](https://opensearch.org/releases.html)
+- [Project Roadmap](https://github.com/orgs/opensearch-project/projects/1).
+- [Maintenance Policy](https://opensearch.org/releases.html#maintenance-policy)
 
 ## Versioning
 
-OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version for that major release. When new major versions are released the previous major version enters a maintenance window – during the maintenance window, the software will continue to receive bug fixes and security patches, but no new features.
+OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version
+for that major release. When new major versions are released the previous major version enters a maintenance window
+– during the maintenance window, the software will continue to receive bug fixes and security patches, but no new features.
 
-The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance until the next major version enters maintenance, or 1 year passes, whichever is longer.
+The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance
+until the next major version enters maintenance, or 1 year passes, whichever is longer.
 
 ## Elasticsearch Compatibility
 
