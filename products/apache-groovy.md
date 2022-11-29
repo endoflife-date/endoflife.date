@@ -2,8 +2,8 @@
 title: Apache Groovy
 permalink: /apache-groovy
 alternate_urls:
-- /groovy
-- /groovy-lang
+-   /groovy
+-   /groovy-lang
 category: lang
 iconSlug: apachegroovy
 releasePolicyLink: https://groovy.apache.org/versioning.html
@@ -16,38 +16,38 @@ versionCommand: groovy --version
 
 auto:
 
-- maven: org.apache.groovy/groovy
-- maven: org.codehaus.groovy/groovy
+-   maven: org.apache.groovy/groovy
+-   maven: org.codehaus.groovy/groovy
 
 releases:
 
-- releaseCycle: "4.0"
-  eol: false
-  support: true
-  latest: "4.0.6"
-  latestReleaseDate: 2022-10-16
-  releaseDate: 2022-01-28
+-   releaseCycle: "4.0"
+    eol: false
+    support: true
+    latest: "4.0.6"
+    latestReleaseDate: 2022-10-16
+    releaseDate: 2022-01-28
 
-- releaseCycle: "3.0"
-  eol: false
-  support: false
-  latest: "3.0.13"
-  latestReleaseDate: 2022-09-18
-  releaseDate: 2020-02-07
+-   releaseCycle: "3.0"
+    eol: false
+    support: false
+    latest: "3.0.13"
+    latestReleaseDate: 2022-09-18
+    releaseDate: 2020-02-10
 
-- releaseCycle: "2.5"
-  eol: false
-  support: false
-  latest: "2.5.19"
-  latestReleaseDate: 2022-10-16
-  releaseDate: 2018-05-30
+-   releaseCycle: "2.5"
+    eol: false
+    support: false
+    latest: "2.5.19"
+    latestReleaseDate: 2022-10-16
+    releaseDate: 2018-05-30
 
-- releaseCycle: "2.4"
-  eol: true
-  support: false
-  latest: "2.4.21"
-  latestReleaseDate: 2020-12-03
-  releaseDate: 2015-01-21
+-   releaseCycle: "2.4"
+    eol: true
+    support: false
+    latest: "2.4.21"
+    latestReleaseDate: 2020-12-03
+    releaseDate: 2015-01-21
 
 ---
 
