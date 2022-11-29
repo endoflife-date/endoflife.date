@@ -183,17 +183,15 @@ or +1 (EoL is in the future)
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
     {% if releaseLink != "" %}
       <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
-{% if  diff > 1 %}
+      {% if  diff > 1 %}
       &ensp;
       <a href="http://www.google.com/calendar/render?action=TEMPLATE
 &text=[endoflife.date] {{page.title}} {{r.releaseCycle}} EOL reached
 &dates={{r.eol | replace:'-',''}}T000000/{{r.eol | replace:'-',''}}T000000
 &details=It will be end of life for {{page.title}} {{r.releaseCycle}} . You can visit https://endoflife.date{{page.permalink}} to get more information.
-&trp=false
-&sprop=
-&sprop=name:" target="_blank" rel="nofollow" title="Add to Calendar">
-<img alt="Add to Calendar" src="/assets/calendar-with-plus-sign.svg" width="20" height="20">
-      </a>{% endif %}
+&trp=false&sprop=&sprop=name:" target="_blank" rel="nofollow" title="Add to Calendar">
+<img alt="Add to Calendar" src="/assets/calendar-with-plus-sign.svg" width="20" height="20"></a>
+      {% endif %}
 
     {% else %}
       {{latestVersionNumber}}
