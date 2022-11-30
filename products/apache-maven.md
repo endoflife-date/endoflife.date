@@ -1,6 +1,6 @@
 ---
 title: Apache Maven
-category: build
+category: app
 versionCommand: mvn --version
 permalink: /maven
 alternate_urls:
