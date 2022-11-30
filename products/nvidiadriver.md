@@ -11,12 +11,24 @@ releaseColumn: true
 versionCommand: nvidia-smi
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
+-   releaseCycle: "R525-Linux (PB)"
+    support: true
+    eol: 2024-01-01
+    latest: "525.60.11"
+    link: https://www.nvidia.com/download/driverResults.aspx/196723/
+    releaseDate: 2022-11-10
+-   releaseCycle: "R515-Linux (NFB)"
+    support: true
+    eol: 2023-01-01
+    latest: "515.86.01"
+    link: https://www.nvidia.com/download/driverResults.aspx/194662/
+    releaseDate: 2022-05-11
 -   releaseCycle: "R510-Linux (PB)"
     support: true
     eol: 2023-01-01
-    latest: "510.60.02"
-    link: https://www.nvidia.com/download/driverResults.aspx/187162/
-    releaseDate: 2022-01-11
+    latest: "510.108.03"
+    link: https://www.nvidia.com/download/driverResults.aspx/194569/
+    releaseDate: 2022-01-14
 -   releaseCycle: "R510-Windows (PB)"
     support: true
     eol: 2023-01-01
