@@ -32,8 +32,9 @@ releases:
 > [Joomla!](https://www.joomla.org/) is an award-winning content management system (CMS), which enables you to
 > build websites and powerful online applications.
 
-Each major version will have a minimum of 4 years of support (including 2 years of minimum active development).
-This may be followed by further development as per the [roadmap][roadmap].
+- Each major version is supported for atleast 4 years.
+- Each major version gets a minimum of 2 years of active development.
+- This may be followed by further development as per the [roadmap][roadmap].
 
 ## Links
 
