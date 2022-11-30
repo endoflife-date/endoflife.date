@@ -1,6 +1,5 @@
 ---
 permalink: /ansible-core
-layout: product
 title: Ansible-core
 versionCommand: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html

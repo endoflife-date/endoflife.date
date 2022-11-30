@@ -1,5 +1,4 @@
 ---
-layout: product
 title: Filebeat
 category: server-app
 versionCommand: filebeat version
