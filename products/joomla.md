@@ -5,10 +5,9 @@ iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
 changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__' | split: '.' | slice: 0, 2 | join: '.'}}_version_history#Joomla___LATEST__"
-activeSupportColumn: false
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: Bug and Security Fixes
 
 auto:
 - git: https://github.com/joomla/joomla-cms.git
@@ -23,7 +22,7 @@ releases:
 
 - releaseCycle: "3"
   eol: 2023-08-17
-  support: 2023-08-17
+  support: false
   releaseDate: 2012-09-27
   latest: "3.10.11"
   latestReleaseDate: 2022-08-16
