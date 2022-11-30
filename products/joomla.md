@@ -33,15 +33,12 @@ releases:
 > [Joomla!](https://www.joomla.org/) is an award-winning content management system (CMS), which enables you to
 > build websites and powerful online applications.
 
-Each major version of Joomla! is supported by The Joomla! Project for a limited amount of time, beginning from the
-initial date of its official release. Joomla will actively develop each major version for a minimum of 2 years. This may
-be followed by continued development of a major version as per scheduled on a major version's roadmap. A short summary
-would be:
+Each major version will have a minimum of 4 years of support (including 2 years of minimum active development).
+This may be followed by further development as per the [roadmap][roadmap].
 
-- Each major version will have a minimum of 4 years of support.
-- You should always use or update to the latest major version's `minor.patch`.
-- Each minor version update released is backwards compatible with the previous minor version of the same major version.
+## Links
 
-More information can be found on the [Joomla! CMS Development Roadmap](https://docs.joomla.org/Special:MyLanguage/Joomla_CMS_Development_Roadmap)
-or the [Joomla! CMS versions table](https://docs.joomla.org/Special:MyLanguage/Joomla!_CMS_versions) to determine the
-estimated EOS (end of support) for each `major.minor` version(s) or the entire major version.
+- [Joomla! CMS Development Roadmap][roadmap]
+- [Joomla! CMS versions table](https://docs.joomla.org/Special:MyLanguage/Joomla!_CMS_versions).
+
+[roadmap]: https://docs.joomla.org/Special:MyLanguage/Joomla_CMS_Development_Roadmap
