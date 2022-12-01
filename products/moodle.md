@@ -1,60 +1,59 @@
 ---
 title: Moodle
 category: server-app
+iconSlug: NA
+permalink: /moodle
+releasePolicyLink: https://moodledev.io/general/releases
 changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__/__LATEST__"
-# https://rubular.com/r/rPNtHvPDccyoU3
+activeSupportColumn: true
+releaseColumn: true
+releaseDateColumn: true
+discontinuedColumn: false
+releaseImage: https://moodledev.io/assets/images/4010_release_graph-773a9f767c2a486113610b0eab0e324d.png
+
 auto:
 -   git: https://github.com/moodle/moodle.git
+
 releases:
 -   releaseCycle: "4.0"
     eol: 2023-11-13
     support: 2023-05-08
     latest: "4.0.5"
     lts: false
-
     releaseDate: 2022-04-17
     latestReleaseDate: 2022-11-12
+
 -   releaseCycle: "3.11"
     eol: 2023-11-13
     support: 2022-11-14
     latest: "3.11.11"
     lts: false
-
     releaseDate: 2021-05-15
     latestReleaseDate: 2022-11-12
+
 -   releaseCycle: "3.10"
     eol: 2022-05-09
     support: 2021-11-08
     latest: "3.10.11"
     lts: false
-
     releaseDate: 2020-11-07
     latestReleaseDate: 2022-05-07
+
 -   releaseCycle: "3.9"
     eol: 2023-11-13
     support: 2021-05-10
     latest: "3.9.18"
     lts: true
-
     releaseDate: 2020-06-13
     latestReleaseDate: 2022-11-12
+
 -   releaseCycle: "3.8"
     eol: 2021-05-10
     support: 2020-11-09
     latest: "3.8.9"
     lts: false
-
-
     releaseDate: 2019-11-16
     latestReleaseDate: 2021-05-08
-iconSlug: NA
-permalink: /moodle
-releasePolicyLink: https://moodledev.io/general/releases
-activeSupportColumn: true
-releaseColumn: true
-releaseDateColumn: true
-discontinuedColumn: false
-releaseImage: https://moodledev.io/assets/images/4010_release_graph-773a9f767c2a486113610b0eab0e324d.png
 
 ---
 
