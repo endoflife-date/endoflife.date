@@ -15,15 +15,15 @@ releases:
 -   releaseCycle: "4"
     support: true
     eol: false
-    latest: "4.9.0"
-    latestReleaseDate: 2022-11-28
+    latest: "4.9.1"
+    latestReleaseDate: 2022-11-30
     releaseDate: 2021-11-15
 -   releaseCycle: "3.28"
     lts: true
     support: 2022-08-29
     eol: 2023-01-02
-    latest: "3.28.10"
-    latestReleaseDate: 2022-11-02
+    latest: "3.28.11"
+    latestReleaseDate: 2022-11-30
     releaseDate: 2021-08-09
 -   releaseCycle: "3.24"
     lts: true

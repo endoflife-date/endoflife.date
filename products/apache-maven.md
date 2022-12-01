@@ -22,14 +22,14 @@ releases:
     support: true
     latest: "3.8.6"
     latestReleaseDate: 2022-06-06
-    releaseDate: 2010-10-08
+    releaseDate: 2010-10-04
 
 -   releaseCycle: "2"
     eol: 2014-02-18
     support: 2014-02-18
     latest: "2.2.1"
     latestReleaseDate: 2009-11-08
-    releaseDate: 2005-10-20
+    releaseDate: 2006-05-07
 
 -   releaseCycle: "1"
     eol: 2014-02-18
@@ -37,6 +37,7 @@ releases:
     latest: "1.1"
     latestReleaseDate: 2007-06-25
     releaseDate: 2004-07-13
+
 ---
 
 > [Apache Maven](https://maven.apache.org/) is a software project management and comprehension tool.
