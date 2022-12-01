@@ -186,6 +186,9 @@ or +1 (EoL is in the future)
     {% else %}
       {{latestVersionNumber}}
     {% endif %}
+    {% if diff > 0 and r.latestReleaseDate %}
+    <div>({{r.latestReleaseDate | date_to_string}})</div>
+    {% endif %}
   </td>
   {% endif %}
 </tr>
