@@ -12,6 +12,18 @@ releaseDateColumn: true
 discontinuedColumn: true
 releaseColumn: false
 releases:
+-   releaseCycle: "Professional Ada Lovelace (AD1xx)"
+    support: true
+    eol: false
+    discontinued: false
+
+    releaseDate: 2022-10-13
+-   releaseCycle: "Consumer Ada Lovelace (AD1xx)"
+    support: true
+    eol: false
+    discontinued: false
+
+    releaseDate: 2022-09-20
 -   releaseCycle: "Mobile Professional Ampere (GA10x)"
     support: true
     eol: false
@@ -238,7 +250,7 @@ This GPU Code follows a similar pattern for most cards, for example we have `GA1
 - `G`: This means generation
 - `A`: This means it belongs to the **Ampere** generation.
 
-Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture.
+Most GPU codes follow this same pattern, with the exceptions of `TUxxx` which means Turing architecture, and `AD1xx` which means Ada Lovelace architecture.
 
 ## Driver Support Exceptions
 
