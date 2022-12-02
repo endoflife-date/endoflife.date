@@ -2,7 +2,7 @@
 title: MediaWiki
 category: server-app
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/bxn2hc9b02nf015vxy4zlq7sdr9cs6u.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/of9ibgdvah78ld94hnu3ob5qeiwy4em.png
 iconSlug: NA
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
