@@ -12,24 +12,37 @@ versionCommand: npm show electron version
 auto:
 -   git: https://github.com/electron/electron.git
 releaseDateColumn: true
+
+# The EOL dates will needed to be corrected
+# once a new release comes out.
+# v23 (releaseDate) = v20 (eol)
+# v24 (releaseDate) = v21 (eol)
+# v25 (releaseDate) = v22 (eol)
+# and so on...
+
 releases:
+-   releaseCycle: "22"
+    eol: 2023-07-07
+    releaseDate: 2022-11-30
+    latestReleaseDate: 2022-11-30
+    latest: "22.0.0"
 -   releaseCycle: "21"
-    eol: false
+    eol: 2023-04-05
     releaseDate: 2022-09-26
     latestReleaseDate: 2022-11-30
     latest: "21.3.3"
 -   releaseCycle: "20"
-    eol: false
+    eol: 2023-02-01
     latest: "20.3.8"
     latestReleaseDate: 2022-11-30
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
-    eol: false
+    eol: 2022-11-30
     latest: "19.1.9"
     latestReleaseDate: 2022-11-30
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
-    eol: false
+    eol: 2022-09-27
     latest: "18.3.15"
     latestReleaseDate: 2022-09-27
     releaseDate: 2022-03-28
@@ -112,6 +125,8 @@ The Chromium version of Electron is usually bumped within one or two weeks after
 ## End-of-life
 
 When a release branch reaches the end of its support cycle, the series will be deprecated in NPM and a final end-of-support release will be made. This release will add a warning to inform that an unsupported version of Electron is in use.
+
+The End-of-life dates for current releases are approximated using 6 months (8x3 weeks) as the lifecycle of a release.
 
 ## Other Links
 
