@@ -13,6 +13,11 @@ auto:
 -   git: https://github.com/electron/electron.git
 releaseDateColumn: true
 releases:
+-   releaseCycle: "22"
+    eol: false
+    releaseDate: 2022-11-30
+    latestReleaseDate: 2022-11-30
+    latest: "22.0.0"
 -   releaseCycle: "21"
     eol: false
     releaseDate: 2022-09-26
@@ -24,12 +29,12 @@ releases:
     latestReleaseDate: 2022-11-30
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
-    eol: false
+    eol: 2022-11-30
     latest: "19.1.9"
     latestReleaseDate: 2022-11-30
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
-    eol: false
+    eol: 2022-09-27
     latest: "18.3.15"
     latestReleaseDate: 2022-09-27
     releaseDate: 2022-03-28
