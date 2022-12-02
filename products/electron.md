@@ -14,17 +14,17 @@ auto:
 releaseDateColumn: true
 releases:
 -   releaseCycle: "22"
-    eol: false
+    eol: 2023-07-07
     releaseDate: 2022-11-30
     latestReleaseDate: 2022-11-30
     latest: "22.0.0"
 -   releaseCycle: "21"
-    eol: false
+    eol: 2023-04-05
     releaseDate: 2022-09-26
     latestReleaseDate: 2022-11-30
     latest: "21.3.3"
 -   releaseCycle: "20"
-    eol: false
+    eol: 2023-02-01
     latest: "20.3.8"
     latestReleaseDate: 2022-11-30
     releaseDate: 2022-08-01
@@ -117,6 +117,8 @@ The Chromium version of Electron is usually bumped within one or two weeks after
 ## End-of-life
 
 When a release branch reaches the end of its support cycle, the series will be deprecated in NPM and a final end-of-support release will be made. This release will add a warning to inform that an unsupported version of Electron is in use.
+
+The End-of-life dates for current releases are approximated using 6 months (8x3 weeks) as the lifecycle of a release.
 
 ## Other Links
 
