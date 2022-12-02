@@ -17,13 +17,13 @@ releases:
     latestReleaseDate: 2022-06-14
     releaseDate: 2022-06-14
 -   releaseCycle: "18.1"
-    support: false
+    support: 2022-06-14
     eol: false
-    latest: "18.2.0"
+    latest: "18.1.0"
     latestReleaseDate: 2022-04-26
     releaseDate: 2022-04-26
 -   releaseCycle: "18.0"
-    support: false
+    support: 2022-04-26
     eol: false
     latest: "18.0.0"
     latestReleaseDate: 2022-03-29
@@ -55,6 +55,9 @@ releases:
 
 React follows [Semantic Versioning](https://semver.org/) principles. The only officially supported release channel for user-facing applications is Latest. New features are released in minor versions. Patch releases are made only for the most critical bugs and security vulnerabilities. Major releases can also contain new features, and any release can include bug fixes.
 
-## Support
+## [Support](https://github.com/reactjs/reactjs.org/issues/1745)
 
-Critical Security fixes will be backported to all minor releases of the current major, as well as to latest minor release of previous major releases.
+**Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
+
+**Security Support**: Critical Security fixes are backported to all minor releases of the current major, as well as to latest minor release of previous major releases.
+
