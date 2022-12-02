@@ -14,6 +14,12 @@ releaseDateColumn: true
 auto:
 -   custom: true
 releases:
+-   releaseCycle: "2.7"
+    lts: false
+    eol: 2024-01-01
+    latest: "2.7.0"
+    latestReleaseDate: 2022-12-01
+    releaseDate: 2022-12-01
 -   releaseCycle: "2.6"
     lts: true
     eol: 2027-04-01
