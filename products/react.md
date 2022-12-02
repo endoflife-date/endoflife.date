@@ -43,8 +43,8 @@ releases:
 -   releaseCycle: "15"
     eol: false
     support: 2017-09-26
-    latest: "15.0.2"
-    latestReleaseDate: 2016-04-29
+    latest: "15.7.0"
+    latestReleaseDate: 2020-10-14
     releaseDate: 2016-04-08
 
 ---
@@ -60,4 +60,3 @@ React follows [Semantic Versioning](https://semver.org/) principles. The only of
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
 **Security Support**: Critical Security fixes are backported to all minor releases of the current major, as well as to latest minor release of previous major releases.
-
