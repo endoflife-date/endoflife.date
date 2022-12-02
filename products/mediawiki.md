@@ -14,18 +14,24 @@ versionCommand: "https://your-server-url/mediawiki/Special:Version"
 auto:
 -   git: https://github.com/wikimedia/mediawiki.git
 releases:
+-   releaseCycle: "1.39"
+    eol: 2025-11-01
+    latest: "1.39.0"
+    latestReleaseDate: 2022-11-30
+    releaseDate: 2022-11-30
+    lts: true
 -   releaseCycle: "1.38"
     eol: 2023-06-01
     latest: "1.38.4"
     latestReleaseDate: 2022-09-29
     releaseDate: 2022-06-02
 -   releaseCycle: "1.37"
-    eol: 2022-11-01
+    eol: 2022-11-30
     latest: "1.37.6"
     latestReleaseDate: 2022-09-29
     releaseDate: 2021-11-18
 -   releaseCycle: "1.36"
-    eol: 2022-05-01
+    eol: 2022-06-03
     latest: "1.36.4"
     latestReleaseDate: 2022-03-31
     releaseDate: 2021-05-28
