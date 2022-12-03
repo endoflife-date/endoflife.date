@@ -25,7 +25,7 @@ releases:
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true
-    latest: "2021.3.14f1"
+    latest: "2021.3.15f1"
     releaseDate: 2021-03-19
 
 -   releaseCycle: "2020"
