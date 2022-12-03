@@ -17,7 +17,7 @@ releases:
     latest: "525.60.11"
     link: https://www.nvidia.com/download/driverResults.aspx/196723/
     releaseDate: 2022-11-10
--   releaseCycle: "R525-Windows (PB)"
+-   releaseCycle: "R525-Windows"
     support: true
     eol: 2024-01-01
     latest: "527.37"
@@ -29,7 +29,7 @@ releases:
     latest: "515.86.01"
     link: https://www.nvidia.com/download/driverResults.aspx/194662/
     releaseDate: 2022-05-11
--   releaseCycle: "R515-Windows (NFB)"
+-   releaseCycle: "R515-Windows"
     support: true
     eol: 2022-10-01
     latest: "517.48"
@@ -41,7 +41,7 @@ releases:
     latest: "510.108.03"
     link: https://www.nvidia.com/download/driverResults.aspx/194569/
     releaseDate: 2022-01-14
--   releaseCycle: "R510-Windows (PB)"
+-   releaseCycle: "R510-Windows"
     support: true
     eol: 2023-01-01
     latest: "512.95"
