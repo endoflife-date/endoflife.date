@@ -20,8 +20,8 @@ releases:
     support: 2023-11-13
     latest: "4.1.0"
     lts: true
-    releaseDate: 2022-11-28
-    latestReleaseDate: 2023-11-13
+    releaseDate: 2022-11-26
+    latestReleaseDate: 2022-11-26
     link: "https://moodledev.io/general/releases/4.1" # remove once 4.1.1 is released
 
 -   releaseCycle: "4.0"

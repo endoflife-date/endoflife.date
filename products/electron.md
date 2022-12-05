@@ -23,8 +23,8 @@ releaseDateColumn: true
 releases:
 -   releaseCycle: "22"
     eol: 2023-07-07
-    releaseDate: 2022-11-30
-    latestReleaseDate: 2022-11-30
+    releaseDate: 2022-11-29
+    latestReleaseDate: 2022-11-29
     latest: "22.0.0"
 -   releaseCycle: "21"
     eol: 2023-04-05
