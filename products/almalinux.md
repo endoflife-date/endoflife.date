@@ -1,6 +1,6 @@
 ---
 permalink: /almalinux
-title: AlmaLinux
+title: AlmaLinux OS
 category: os
 versionCommand: lsb_release --release
 releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
