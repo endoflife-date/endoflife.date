@@ -16,186 +16,186 @@ releases:
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2022-10-13
+
 -   releaseCycle: "Consumer Ada Lovelace (AD1xx)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2022-09-20
+
 -   releaseCycle: "Mobile Professional Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2021-04-12
+
 -   releaseCycle: "Mobile Consumer Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
     releaseDate: 2021-01-12
+
 -   releaseCycle: "Professional Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2020-10-05
+
 -   releaseCycle: "Consumer Ampere (GA10x)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2020-09-01
+
 -   releaseCycle: "Mobile Professional Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2019-05-27
+
 -   releaseCycle: "Mobile Consumer Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2019-01-29
+
 -   releaseCycle: "Consumer Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2018-09-20
+
 -   releaseCycle: "Professional Turing (TU1xX)"
     support: true
     eol: false
     discontinued: false
-
     releaseDate: 2018-08-13
+
 -   releaseCycle: "Professional Volta (GV100)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2017-12-07
+
 -   releaseCycle: "Mobile Professional Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2017-02-06
+
 -   releaseCycle: "Mobile Consumer Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2016-08-15
+
 -   releaseCycle: "Consumer Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2016-05-27
+
 -   releaseCycle: "Professional Pascal (GP10x)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2016-04-05
+
 -   releaseCycle: "Mobile Professional Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2015-08-18
+
 -   releaseCycle: "Professional Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2015-06-29
+
 -   releaseCycle: "Mobile Consumer Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2014-10-07
+
 -   releaseCycle: "Consumer Maxwell (GMxxx)"
     support: true
     eol: false
     discontinued: true
-
     releaseDate: 2014-09-19
+
 -   releaseCycle: "Professional Kepler (GKxxx)"
     support: 2021-09-20
     eol: 2024-09-01
     discontinued: true
-
     releaseDate: 2013-03-01
+
 -   releaseCycle: "Consumer Kepler (GKxxx)"
     support: 2021-09-20
     eol: 2024-09-01
     discontinued: true
-
     releaseDate: 2012-03-22
+
 -   releaseCycle: "Mobile Professional Kepler (GKxxx)"
     support: 2019-04-23
     eol: 2022-03-01
     discontinued: true
-
     releaseDate: 2012-03-22
+
 -   releaseCycle: "Mobile Consumer Kepler (GKxxx)"
     support: 2019-03-11
     eol: 2019-04-11
     discontinued: true
-
     releaseDate: 2012-03-22
+
 -   releaseCycle: "Professional Fermi (GF1xx)**"
     support: 2018-07-31
     eol: 2022-12-31
     discontinued: true
-
     releaseDate: 2010-07-23
+
 -   releaseCycle: "Consumer Fermi (GF1xx)*"
     support: 2018-03-10
     eol: 2018-03-10
     discontinued: true
-
     releaseDate: 2010-03-26
+
 -   releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
     support: 2016-04-01
     eol: 2016-12-14
     discontinued: true
-
     releaseDate: 2006-11-08
+
 -   releaseCycle: "Consumer Curie (NV4x, G7x)"
     support: 2013-02-25
     eol: 2015-02-24
     discontinued: true
-
     releaseDate: 2004-04-14
+
 -   releaseCycle: "Consumer Rankine (NV3x)"
     support: 2008-06-23 # Verify support date.
     eol: 2008-06-23
     discontinued: true
-
     releaseDate: 2003-01-27
+
 -   releaseCycle: "Consumer Kelvin (NV1x, NV2x)"
     support: 2006-11-02 # Verify support date.
     eol: 2006-11-02
     discontinued: true
-
     releaseDate: 2001-02-27
+
 -   releaseCycle: "Consumer Celsius (NV1x)"
     support: 2005-04-14 # Verify support date.
     eol: 2005-04-14
     discontinued: true
-
     releaseDate: 1999-10-11
+
 -   releaseCycle: "Consumer Fahrenheit (NVx)"
     support: 2005-03-11 # Verify support date.
     eol: 2005-03-11
     discontinued: true
-
     releaseDate: 1998-06-15
 
 ---
