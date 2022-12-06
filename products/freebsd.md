@@ -18,9 +18,11 @@ releases:
     releaseDate: 2021-04-13
 -   releaseCycle: "stable/13"
     eol: 2026-01-31
+-   releaseCycle: "releng/12.4"
+    releaseDate: 2022-12-05
+    eol: 2023-12-31
 -   releaseCycle: "releng/12.3"
-    eol: false
-    # EOL will be 12.4-RELEASE + 3 months
+    eol: 2023-03-05
     releaseDate: 2021-12-07
 -   releaseCycle: "releng/12.2"
     eol: 2022-03-31
