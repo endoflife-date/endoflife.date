@@ -26,10 +26,10 @@ releases:
     latestReleaseDate: 2022-10-03
 -   releaseCycle: "9"
     eol: false
-    latest: "9.0.69"
+    latest: "9.0.70"
     link: https://tomcat.apache.org/download-90.cgi
     releaseDate: 2015-11-13
-    latestReleaseDate: 2022-11-09
+    latestReleaseDate: 2022-12-01
 -   releaseCycle: "8.5"
     eol: false
     latest: "8.5.84"
