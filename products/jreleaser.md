@@ -1,7 +1,7 @@
 ---
-title: JReleaser
+title: JReleaser2
 category: app
-permalink: /jreleaser
+permalink: jreleaser
 iconSlug: NA
 versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html
