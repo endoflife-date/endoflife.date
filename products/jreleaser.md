@@ -11,6 +11,9 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: Security Support
 
+auto:
+-   maven: org.jreleaser/jreleaser
+
 releases:
 -   releaseCycle: "1"
     eol: false
