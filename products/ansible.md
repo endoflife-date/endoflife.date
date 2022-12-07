@@ -24,8 +24,8 @@ releases:
 
 -   releaseCycle: "6"
     eol: 2022-12-22 # will have to be updated with 6.7.0 release date
-    latest: "6.6.0"
-    latestReleaseDate: 2022-11-08
+    latest: "6.7.0"
+    latestReleaseDate: 2022-12-06
     releaseDate: 2022-06-22
 
 -   releaseCycle: "5"
