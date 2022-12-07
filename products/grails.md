@@ -14,8 +14,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/grails/grails-core.git
-# See https://rubular.com/r/uG0lfOgBjyKR1T for reference
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$'
 
 releases:
 - releaseCycle: "5"
