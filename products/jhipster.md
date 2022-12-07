@@ -63,7 +63,8 @@ releases:
     releaseDate: 2013-11-29
 ---
 
-☝️ **Only the latest release is supported, with active feature development, and security fixes.**
-
 > JHipster is a development platform to quickly generate, develop, & deploy modern
 > web applications & microservice architectures. 
+
+
+Only the latest release is supported, with active feature development, and security fixes.
