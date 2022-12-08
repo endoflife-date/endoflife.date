@@ -11,8 +11,9 @@ releaseDateColumn: true
 eolColumn: Supported
 #iconSlug: jhipster , WIP see https://github.com/jhipster/generator-jhipster/issues/20533
 
-#auto:
-#-   maven: org.apache.maven/maven-core
+auto:
+-   npm: https://www.npmjs.com/package/generator-jhipster
+
 releases:
 -   releaseCycle: "7"
     eol: false
@@ -65,7 +66,7 @@ releases:
 ---
 
 > JHipster is a development platform to quickly generate, develop, & deploy modern
-> web applications & microservice architectures. 
+> web applications & microservice architectures.
 
 
 Only the latest release is supported, with active feature development, and security fixes.
