@@ -16,40 +16,40 @@ auto:
 -   git: https://github.com/grails/grails-core.git
 
 releases:
-- releaseCycle: "5"
-  releaseDate: 2021-10-12
-  eol: false
-  support: true
-  latest: "5.2.5"
-  latestReleaseDate: 2022-11-09
+-   releaseCycle: "5"
+    releaseDate: 2021-10-12
+    eol: false
+    support: true
+    latest: "5.2.5"
+    latestReleaseDate: 2022-11-09
 
-- releaseCycle: "4"
-  releaseDate: 2019-07-11
-  eol: 2023-03-31
-  support: false
-  latest: "4.1.2"
-  latestReleaseDate: 2022-08-25
+-   releaseCycle: "4"
+    releaseDate: 2019-07-11
+    eol: 2023-03-31
+    support: false
+    latest: "4.1.2"
+    latestReleaseDate: 2022-08-25
 
-- releaseCycle: "3"
-  releaseDate: 2015-03-31
-  eol: 2021-09-30
-  support: false
-  latest: "3.3.16"
-  latestReleaseDate: 2022-08-24
+-   releaseCycle: "3"
+    releaseDate: 2015-03-31
+    eol: 2021-09-30
+    support: false
+    latest: "3.3.16"
+    latestReleaseDate: 2022-08-24
 
-- releaseCycle: "2"
-  releaseDate: 2015-03-31
-  eol: 2021-06-30
-  support: false
-  latest: "2.5.6"
-  latestReleaseDate: 2017-03-23
+-   releaseCycle: "2"
+    releaseDate: 2011-12-15
+    eol: 2021-06-30
+    support: false
+    latest: "2.5.6"
+    latestReleaseDate: 2017-03-23
 
-- releaseCycle: "1"
-  releaseDate: 2008-02-01
-  eol: 2012-05-01
-  support: false
-  latest: "1.3.9"
-  latestReleaseDate: 2012-05-01
+-   releaseCycle: "1"
+    releaseDate: 2009-05-14
+    eol: 2012-05-01
+    support: false
+    latest: "1.3.9"
+    latestReleaseDate: 2012-05-01
 
 ---
 
