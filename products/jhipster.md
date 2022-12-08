@@ -16,6 +16,7 @@ eolColumn: Supported
 releases:
 -   releaseCycle: "7"
     eol: false
+    support: true
     latest: "7.9.3"
     latestReleaseDate: 2022-09-03
     releaseDate: 2021-03-21
