@@ -1,15 +1,15 @@
 ---
 title: JHipster
 category: app
-versionCommand: yo jhipster
 permalink: /jhipster
+iconSlug: NA
+versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
 changelogTemplate: "https://github.com/jhipster/generator-jhipster/tag/__LATEST__"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
-#iconSlug: jhipster , WIP see https://github.com/jhipster/generator-jhipster/issues/20533
 
 auto:
 -   npm: https://www.npmjs.com/package/generator-jhipster
