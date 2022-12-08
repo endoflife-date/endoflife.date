@@ -63,6 +63,7 @@ releases:
     latest: "0.18.1"
     latestReleaseDate: 2014-07-24
     releaseDate: 2013-11-29
+
 ---
 
 > JHipster is a development platform to quickly generate, develop, & deploy modern
