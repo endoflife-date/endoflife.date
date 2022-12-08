@@ -6,7 +6,7 @@ iconSlug: NA
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
 changelogTemplate: "https://github.com/jhipster/generator-jhipster/tag/__LATEST__"
-activeSupportColumn: true
+activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
@@ -17,7 +17,6 @@ auto:
 releases:
 -   releaseCycle: "7"
     eol: false
-    support: true
     latest: "7.9.3"
     latestReleaseDate: 2022-09-02
     releaseDate: 2021-03-21
