@@ -4,7 +4,7 @@ permalink: /qt
 category: framework
 title: Qt
 versionCommand: qmake --version
-changelogTemplate: https://www.qt.io/blog/qt-{{"__LATEST__"}}-released
+changelogTemplate: https://www.qt.io/blog/qt-__CYCLE_THEN_LATEST__-released
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 releaseDateColumn: true
 auto:
@@ -13,7 +13,7 @@ auto:
 releases:
 -   releaseCycle: "6.4"
     eol: 2023-03-30
-    latest: "6.4.1"
+    latest: "6.4.0"
     lts: false
     latestReleaseDate: 2022-11-14
     releaseDate: 2022-09-28

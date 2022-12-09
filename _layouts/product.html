@@ -68,10 +68,17 @@ or +1 (EoL is in the future)
 {% if r.link and diff > 0 %}
 {{r.link}}
 {% elsif page.changelogTemplate and diff > 0 %}
+  {% assign fixVersion = latestVersionNumber | split:'.' | last %}
+  {% if fixVersion == '0' %}
+    {% assign cycleThenLatestVersionNumber = r.releaseCycle %}
+  {% else %}
+    {% assign cycleThenLatestVersionNumber = latestVersionNumber %}
+  {% endif %}
 {{
   page.changelogTemplate |
   replace: '__RELEASE_CYCLE__',r.releaseCycle |
   replace: '__LATEST__',latestVersionNumber |
+  replace: '__CYCLE_THEN_LATEST__',cycleThenLatestVersionNumber |
   replace: '__CODENAME__',r.codename |
   replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate
 }}
