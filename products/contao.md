@@ -1,7 +1,14 @@
 ---
 title: Contao
 category: server-app
+permalink: /contao
+iconSlug: NA
+releasePolicyLink: https://contao.org/en/release-plan.html
 changelogTemplate: "https://github.com/contao/contao/blob/__RELEASE_CYCLE__/CHANGELOG.md"
+versionCommand: composer show contao/core
+releaseColumn: true
+releaseDateColumn: true
+
 auto:
   - git: https://github.com/contao/contao.git
 
@@ -22,13 +29,6 @@ releases:
     latestReleaseDate: 2022-11-30
     lts: true
     discontinued: false
-
-iconSlug: NA
-permalink: /contao
-releasePolicyLink: https://contao.org/en/release-plan.html
-releaseColumn: true
-releaseDateColumn: true
-versionCommand: composer show contao/core
 
 ---
 
