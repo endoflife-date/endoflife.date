@@ -15,6 +15,13 @@ eolColumn: Critical bug fixes
 category: app
 activeSupportColumn: true
 releases:
+-   releaseCycle: "3.4"
+    eol: 2023-03-07
+    support: 2023-03-07
+    latest: "3.4.0"
+    lts: false
+    latestReleaseDate: 2022-12-07
+    releaseDate: 2022-12-07
 -   releaseCycle: "3.3"
     eol: 2024-09-01
     support: 2024-09-01
