@@ -12,8 +12,6 @@ releases:
     releaseDate: 2022-11-02
     latest: "6.1.1"
     latestReleaseDate: 2022-11-15
-    #temporary link until a point version released
-    link: https://wordpress.org/support/wordpress-version/version-6-1/
 -   releaseCycle: "6.0"
     eol: false
     support: 2022-11-01
