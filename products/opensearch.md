@@ -30,6 +30,15 @@ releases:
 
 ## Official Release schedule
 
+Find below the next releases after `2.4.0` : 
+
+- [`2.4.0`](https://opensearch.org/blog/opensearch-2-4-is-available-today/) released on `2022-11-15`
+- `2.5.0` is planned for `2023-01-17`
+- `2.6.0` is planned for `2023-02-28`
+- `2.7.0` is planned for `2023-04-18`
+- `2.8.0` is planned for `2023-06-06`
+- `2.9.0` is planned for `2023-07-18``
+
 For more information on the changes planned for each release, see:
 
 - [Official Release Schedule](https://opensearch.org/releases.html)
