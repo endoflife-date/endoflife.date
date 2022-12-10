@@ -5,7 +5,6 @@ permalink: /contao
 iconSlug: NA
 releasePolicyLink: https://contao.org/release-plan.html
 changelogTemplate: "https://github.com/contao/contao/blob/__RELEASE_CYCLE__/CHANGELOG.md"
-versionCommand: composer show contao/core
 releaseColumn: true
 releaseDateColumn: true
 
@@ -29,10 +28,17 @@ releases:
     latestReleaseDate: 2022-11-30
     lts: true
     discontinued: false
-
+  - releaseCycle: "4.9"
+    releaseDate: 2020-02-18
+    support: 2023-02-14
+    eol: 2024-02-14
+    latest: "4.9.37"
+    latestReleaseDate: 2022-11-28
+    lts: true
+    discontinued: false
 ---
 
 > [Contao Open Source CMS](https://contao.org) is a content management system written in PHP.
 
-LTS release are actively supported for three years + one year with security fixes. Non-LTS versions are supported for half a year.
+LTS releases are actively supported for three years + one year with security fixes. Non-LTS versions are supported for half a year.
 Contao follows semantic versioning.
