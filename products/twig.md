@@ -37,5 +37,5 @@ Twig 1, 2 and 3 still receive security updates.
 Twig Version | Supported PHP Version
 -------------|----------------------
 [3](https://packagist.org/packages/twig/twig#3.x-dev) | `>=7.2.5`
-[2](https://packagist.org/packages/twig/twig#2.x-dev) | `>=7.1.3`
+[2](https://packagist.org/packages/twig/twig#2.x-dev) | `>=7.2.5`
 [1](https://packagist.org/packages/twig/twig#1.x-dev) | `>=7.2.5`
