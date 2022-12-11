@@ -7,6 +7,7 @@ releasePolicyLink: https://contao.org/release-plan.html
 changelogTemplate: "https://github.com/contao/contao/blob/__RELEASE_CYCLE__/CHANGELOG.md"
 releaseColumn: true
 releaseDateColumn: true
+activeSupportColumn: true
 
 auto:
   - git: https://github.com/contao/contao.git
