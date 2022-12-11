@@ -48,8 +48,8 @@ For more information on the changes planned for each release, see:
 ## Versioning
 
 OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version
-for that major release. When new major versions are released the previous major version enters a maintenance window
-– during the maintenance window, the software will continue to receive bug fixes and security patches, but no new features.
+for that major release. When new major versions are released the previous major version enters maintenance, with only
+bug fixes and security patches.
 
 The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance
 until the next major version enters maintenance, or 1 year passes, whichever is longer.
