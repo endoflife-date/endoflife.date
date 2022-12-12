@@ -6,7 +6,7 @@ permalink: /pop_os
 alternate_urls:
 -   /popos
 versionCommand: lsb_release --release
-releasePolicyLink: https://support.system76.com/articles/pop-os-development-approach
+releasePolicyLink: https://pop.system76.com/
 releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: false
