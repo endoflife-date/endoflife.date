@@ -2,18 +2,18 @@
 
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
-  Thank you for opening your first issue here. :+1:
+  Thank you for opening your first issue here :+1:.
   Be sure to follow the issue template if you chose one.
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-  Thank you for opening this pull request. :+1:
-  If you are not familiar with the project, please check out:
-  * [Contributing Guidelines](https://endoflife.date/contribute)
-  * [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
-  * [Hacking Guide](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md) for working on site internals
+  Thank you for opening this pull request :+1:.
+  If you are not familiar with the project, please check out our
+  [Contributing Guidelines](https://endoflife.date/contribute) and our
+  [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles).
+  Also take a look at our [Hacking Guide](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md) if you intend to work on site internals.
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Thank you and congratulations for the first contribution!
-  endoflife.date is a community wiki, and we're always looking for more contributions :1st_place_medal: :100: :tada:
+  Thank you and congratulations for your first contribution!
+  endoflife.date is a community wiki, and we're always looking for more contributions :1st_place_medal: :100: :tada:.
