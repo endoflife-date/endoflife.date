@@ -24,9 +24,9 @@ releases:
     releaseDate: 2020-04-02
     eol: 2025-04-02
     support: 2027-04-02
-    latest: "7.0 U3h"
-    latestReleaseDate: 2022-09-13
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3h-release-notes.html"
+    latest: "7.0 U3i"
+    latestReleaseDate: 2022-12-08
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3i-release-notes.html"
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
     eol: 2022-10-15
