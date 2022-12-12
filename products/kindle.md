@@ -62,6 +62,8 @@ releases:
     latest: "5.12.2.2"
     releaseDate: 2013-09-30
 permalink: /kindle
+alternate_urls:
+-   /amazon-kindle
 releasePolicyLink: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
 activeSupportColumn: false
 releaseColumn: true
