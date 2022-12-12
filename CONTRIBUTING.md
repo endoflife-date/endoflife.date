@@ -37,193 +37,211 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 
 ```yaml
 ---
+# Name of the product (mandatory).
 title: Timeturner
-# Possible values are os,db,app,lang,framework,device,service,server-app
+
+# Category of the product (mandatory).
+# Possible values are os,db,app,lang,framework,device,service,server-app.
 # If you add a new value, please mention it on the PR Description. Some rough guidelines:
-# os is operating systems (and similar projects)
-# db is databases, os is operating systems, lang is programming languages
-# app is end-user applications
-# lang is programming languages
-# framework is used for application libraries, SDKs, frameworks etc
-# device is physical devices
-# service is managed service offerings (SaaS/PaaS etc)
-# server-app are applications usually installed on the server-side
+# - os is for operating systems (and similar projects),
+# - db is for databases,
+# - app is for end-user applications,
+# - lang is for programming languages,
+# - framework is for application libraries, SDKs, frameworks...,
+# - device is for physical devices,
+# - service is for managed service offerings (SaaS/PaaS...),
+# - server-app is for applications usually installed on the server-side.
 category: os
 
-# Template to be used to generate a link for the release
-# __RELEASE_CYCLE__ will be replaced by the value of releaseCycle
-# __LATEST__ will be replaced by the value of latest
-# __CODENAME__ will be replaced by the optional codename
+# Simple Icons (https://simpleicons.org/) icon slug (mandatory).
+# If the icon is not available on Simple Icons, set it to `NA`.
+# As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg,
+# so the slug is `opensuse` (the SVG filename without extension).
+# A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md.
+iconSlug: codemagic
 
+# Main URL for the page (mandatory).
+permalink: /timeturner
+
+# Alternate URLs that will redirect to the permalink (optional).
+# This is nice to let people use easier to remember URLs. For example, we redirect /golang to /go.
+alternate_urls:
+-   /hourglass
+
+# Command that can be used to check the current product version (optional).
+versionCommand: swish and flick
+
+# The more information link (optional).
+# If provided, this link is displayed after the product's description.
+# This link should contain information about the release policy and schedule. This is NOT the product URL!
+# Do not use a localized URL (such as one containing en-us) if possible.
+releasePolicyLink: https://nodejs.org/about/releases/
+
+# An image that shows a graphical representation of the releases (optional).
+# If provided, this image will be displayed at the top of the product's page.
+# This is not the product logo. Remove if you don't find a relevant image.
+releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
+
+# Template to be used to generate a link for the releases (optional).
+# Available variables inside the template are:
+# - __RELEASE_CYCLE__: will be replaced by the value of `releaseCycle`,
+# - __LATEST__: will be replaced by the value of `latest`,
+# - __CODENAME__: will be replaced by the optional `codename`.
 # You can even use Liquid Templating inside the template, such as:
-# https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
-# Do not use a localized URL (such as one containing en-us) if possible
+#   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
+# Do not use a localized URL (such as one containing en-us) if possible.
 changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version"
 
-# Optional template that generates names for every release. Supports same templating as changelogTemplate.
-# Default value is `__RELEASE_CYCLE__``
+# Template that generates names for every release (optional, default = "__RELEASE_CYCLE__").
+# It supports the same variables as changelogTemplate.
 releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 
-# The label that will be used alongside releases labelled with `lts: true`
-# Optional, only provide if the product has lts releases that are not called LTS, but something else.
-# Default Value is <abbr title='Long Term Support'>LTS</abbr>
+# The label that will be used alongside releases labelled with `lts: true` (optional, default = "<abbr title='Long Term Support'>LTS</abbr>").
+# Only provide if the product has LTS releases that are not called LTS, but something else.
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
-# Optional information about how release information can be fetched automatically
-# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for
-# every release.
-# Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details
-auto:
-  # Any valid git clone URL will work
-  # Support for partialClone is necessary (GitHub does support this)
-  - git: https://github.com/abc/def.git
-    # An optional regex that defines how the tags above should translate to releases
-    # Use named capturing groups
-    # Default value should work for most releases of the form a.b or a.b.c
-    # default also skips over any special releases (nightly,beta,pre,rc etc)
-    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
-    # This needs to be a Ruby-Compatible regex
-    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
-    # A liquid template using the captured variables from the regex above that renders the final version
-    # You can use liquid templating here
-    # The default values can be found here: https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
-
-  # owner/repo combination for a docker hub public image
-  # Use "library" as the owner name for a official docker/community image
-  - dockerhub: ministryofmagic/timeturner
-
-  # Link to package on NPM
-  - npm: https://www.npmjs.com/package/abc
-
-  # Use distrowatch page for a given release. (such as https://distrowatch.com/index.php?distribution=debian)
-  - distrowatch: quibbler #distribution ID from the URL
-    # A mandatory regex that is used to parse headlines.
-    # Parse into major/minor/patch named groups
-    # You can also pass a list of regexes here, and matches for any of those will be considered
-    # This needs to be a Python-Compatible regex
-    regex: 'Distribution Release: (?P<version>\d+.\d+)'
-    # A template to render default value is same as in `git` above
-    # https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py
-    template: '{{version}}'
-
-  # A maven group/artifact URL. For eg, for tomcat, the search URL is https://search.maven.org/artifact/org.apache.tomcat/tomcat
-  # which would become org.apache.tomcat/tomcat here.
-  - maven: org.apache.x/abc
-
-  # Use this if the product has a custom script updating releases
-  # in release-data repository. This will enable the footer note
-  # informing users that releases are automated
-  - custom: true
-
-# A list of releases, supported or not
-# Newer releases go on top of the list, in order
-releases:
-    # Release range (usually major.minor), always put in quotes
-    # Do not prefix with "v" or suffix with ".x"
-    # This becomes part of our API URL, so try to keep this hyphenated, instead of using spaces
-    # And use consistent case (lowercase preferred) if it uses words.
-    # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly)
-  - releaseCycle: "1.2"
-    # Optionally, overwrite the release label on a per-release basis
-    # You can use templating here, though usually not required.
-    # Template parameters are same as releaseLabel above
-    releaseLabel: "Timeturner Firebolt (1.2)"
-    # End of Security Support for the product. Alternatively, set to true|false if EOL is not pre-decided
-    # In case there is extended/commercial support available, pick the date that would apply to the majority of users.
-    # Use valid dates, and do not add quotes around dates.
-    eol: 2019-01-01
-    # End of Active Support for the product. This is where bugfixes usually stop coming in. (remove if activeSupportColumn=false)
-    # Alternatively, set to true|false if it is not pre-decided
-    support: 2018-01-31
-    # Date of release for the product
-    # remove if releaseDateColumn is false
-    # An approximate date is better than no date.
-    releaseDate: 2017-03-12
-    # Current latest release
-    # remove if releaseColumn is false
-    # always put in quotes
-    latest: "1.2.3"
-    # The date of the latest release
-    # This is currently optional.
-    latestReleaseDate: 2022-01-23
-    # Whether this is a "LTS" release. What LTS means may differ from product to product (see LTSLabel above)
-    # Optional, default false. Only provide for a release that will get a much longer support than usual.
-    lts: true
-    # Can be true/false. Only use if discontinuedColumn is set to true
-    discontinued: true
-    # A link to the changelog for this latest release. Use this if the link is not
-    # predictable and you can't use changelogTemplate.
-    # Do not use a localized URL (such as one containing en-us) if possible
-    link: https://example.com/news/2021-12-25/release-1.2.3
-    # Optional field, not displayed anywhere by default. Can be used as __CODENAME__ in the releaseLabel and changelogTemplate
-    # Also returned as-as in the API.
-    codename: firebolt
-
-# Set an icon for the product from https://simpleicons.org/
-# If the icon is not available on simpleicons, set it to "NA"
-# As an example, https://simpleicons.org/?q=opensuse links to
-# https://simpleicons.org/icons/opensuse.svg and https://simpleicons.org/icons/opensuse.pdf
-# So the slug is `opensuse` (the SVG filename without extension).
-iconSlug: ministryofmagic
-
-# A few extra fields define overall page behaviour
-
-# URL for the page
-permalink: /timeturner
-
-# A list of alternate URLs that will redirect to the permalink. This is nice to let people use easier to remember URLs. For eg, we redirect /golang to /go
-alternate_urls:
-  - /hourglass
-
-# More information link. This link should contain
-# information about the release policy and schedule
-# This is NOT the product URL
-# Do not use a localized URL (such as one containing en-us) if possible
-releasePolicyLink: https://jkrowling.com/timeturner-releases
-
-# Whether to hide the "Active Support" column (optional, default true)
-# Set it a label text if you'd like to change the label
-# activeSupportColumn: Customer Support
-activeSupportColumn: false
-
-# Whether to hide/show the latest release column. If the product doesn't have patch releases, set this to false. (optional, default true)
-releaseColumn: true
-
-# Whether to show the release date column
-# optional, default false
-releaseDateColumn: true
-
-# What to call the End of Life  (Security Support) column. (optional)
+# The name of the End of Life column (optional, default = Security Support).
 eolColumn: Service Status
 
-# Whether to hide/show the discontinued column. Set to true, if you're tracking a device. This usually means the device is no longer available for sale or is no longer being manufactured. Set discontinued: true/false inside a release.
+# Whether to display the "Active Support" column (optional, default = false).
+# You can also set this variable with a text label if you want to change the column name:
+#   activeSupportColumn: Customer Support
+activeSupportColumn: false
+
+# Whether to display the "Latest" column (optional, default = true).
+# If the product doesn't have patch releases, set this to false.
+releaseColumn: true
+
+# Whether to show the "Released" column (optional, default = false).
+releaseDateColumn: true
+
+# Whether to show the discontinued column (optional, default = false).
+# Set to true if you're tracking a device.
+# This usually means the device is no longer available for sale or is no longer being manufactured.
 discontinuedColumn: false
 
-# Command that can be used to check the current version. (optional)
-versionCommand: swish and flick
+# Auto-update release configuration (optional).
+# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
+# Multiple configuration are allowed. Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
+# The presence of such configuration enables a footer note on the product page informing users that latest releases are automatically updated.
+auto:
+  # Configuration for auto-update based on git.
+  # Any valid git clone URL will work, but support for partialClone is necessary (GitHub and GitLab support it).
+  - git: https://github.com/abc/def.git
+    # Ruby-compatible regex that defines how the tags above should translate to releases
+    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20).
+    # Use named capturing groups to capture the version or version's parts.
+    # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
+    # skip over any special releases (such as nightly,beta,pre,rc...).
+    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+    # A liquid template using the captured variables from the regex above that renders the final
+    # version (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20).
+    # You can use liquid templating here.
+    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
-# An image that shows a graphical representation of the releases.
-# This is not the product logo. Remove if you don't find a relevant image.
-releaseImage: https://jkrowling.com/timeturner-releases.png
+  # Configuration for auto-update based on Docker Hub.
+  # The value must be the "owner/repo" combination for a docker hub public image.
+  # Use "library" as the owner name for an official docker/community image.
+  - dockerhub: ministryofmagic/timeturner
 
-# In the markdown section, ensure that the following are present:
-# 1. A one line statement about what the product is, with a link to the primary website (in a quote)
+  # Configuration for auto-update based on the npm registry.
+  # The value must be a link to a package on https://www.npmjs.com.
+  - npm: https://www.npmjs.com/package/abc
+
+  # Configuration for auto-update based on DistroWatch.
+  # The value must be the distribution ID. It can be found in the distribution URL.
+  # For example, for https://distrowatch.com/index.php?distribution=debian, use "debian".
+  - distrowatch: quibbler
+    # The Python-Compatible regex used to parse headlines (mandatory).
+    # Use named capturing groups to capture the version or version's parts.
+    # You can also pass a list of regexes here, and matches for any of those will be considered.
+    regex: 'Distribution Release: (?P<version>\d+.\d+)'
+    # A liquid template using the captured variables from the regex above that renders the final
+    # version (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13).
+    # You can use liquid templating here.
+    template: '{{version}}'
+
+  # Configuration for auto-update based on Maven Central (https://search.maven.org).
+  # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
+  # For example, for Apache Tomcat (https://search.maven.org/artifact/org.apache.tomcat/tomcat):
+  - maven: org.apache.tomcat/tomcat
+
+  # Configuration for auto-update based on a custom script in release-data repository.
+  # The value must always be `true`.
+  - custom: true
+
+# A list of releases, supported or not (mandatory).
+# Releases must be sort from the newest (on top of the list) to the lowest.
+# Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
+releases:
+    # Release range (mandatory, always put in quotes).
+    # This is usually major.minor. Do not prefix with "v" or suffix with ".x".
+    # This becomes part of our API URL, so try to avoid spaces and use lowercase for words.
+-   releaseCycle: "1.2"
+    # Name displayed for the release (optional, default = global releaseLabel value).
+    # Use this property if you need to override the release label on a per-release basis.
+    # You can use templating here, though it is usually not required.
+    # Template parameters are the same as the global releaseLabel property.
+    releaseLabel: "Timeturner Firebolt (1.2)"
+    # Codename of the release (optional, not displayed anywhere by default).
+    # It can be used as __CODENAME__ in the releaseLabel and changelogTemplate.
+    # It is also returned as-is in the API.
+    codename: firebolt
+    # Date of the release (optional if releaseDateColumn is false, else mandatory).
+    # It should be removed if releaseDateColumn is false.
+    # Note that an approximate date is better than no date at all.
+    releaseDate: 2017-03-12
+    # End of active support date (optional if activeSupportColumn is false, else mandatory).
+    # This is where bugfixes usually stop coming in.
+    # Use valid dates, and do not add quotes around dates.
+    # Alternatively, set to true|false if the date has not been decided yet.
+    support: 2018-01-31
+    # EOL date (mandatory).
+    # This is where all support stops (including security support).
+    # In case there is extended/commercial support available, pick the date that would apply to the majority of users.
+    # Use valid dates, and do not add quotes around dates.
+    # Alternatively, set to true|false the date has not been decided yet.
+    eol: 2019-01-01
+    # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
+    # Usually this is the release cycle's latest "patch" release.
+    # It should be removed if releaseColumn is false.
+    # Always add quotes around this value.
+    latest: "1.2.3"
+    # Latest release date (optional).
+    # Use valid dates, and do not add quotes around dates.
+    latestReleaseDate: 2022-01-23
+    # Whether this is a "LTS" release (optional, default = false).
+    # What LTS means may differ from product to product (see LTSLabel above).
+    # Only provide for a release that will get much longer support than usual.
+    lts: true
+    # Whether this is a "discontinued" release (optional).
+    # Can be set to true/false.
+    # Only use if discontinuedColumn is set to true.
+    discontinued: true
+    # A link to the changelog for the latest release (optional, default = the URL generated from changelogTemplate if it is provided).
+    # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
+    # or if the changelogTemplate generated link must be overriden.
+    # Do not use a localized URL (such as one containing en-us) if possible.
+    link: https://example.com/news/2021-12-25/release-1.2.3
+
+# In the following markdown section, ensure that all the above are present:
+# 1. A one line statement about what the product is, with a link to the primary website (in a quote).
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
-# 3. Any additional information that may be of interest
-# See the Guiding Principles on the wiki (https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
-# on tone and voice for the text.
+# 3. Any additional information that may be of interest.
+#
+# See also the Guiding Principles on the wiki (https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
+# for indication on the tone and voice to use for the text.
 
-# If you are adding any images in the text, they might get blocked due to our CSP
-# Prefer using releaseImage in such cases.
-# Images on the same website as releaseImage will not be blocked.
+# If you are adding any images in the text, they might get blocked due to our CSP.
+# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
+# will not be blocked.
 
-# Please leave a newline both above and below the triple-dashes
+# Please leave a newline both above and below the triple-dashes.
 
 ---
 
-> [Time Turner](https://jkrowling.com/time-turner) is device that powers short-term time travel.
+> [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
 
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
