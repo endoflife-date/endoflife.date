@@ -3,10 +3,13 @@ title: Amazon OpenSearch
 category: db
 iconSlug: opensearch
 permalink: /opensearch
+alternate_urls:
+-   /amazon-opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 releaseDateColumn: true
 eolColumn: Bug fix and security support
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
+
 auto:
 -   git: https://github.com/opensearch-project/OpenSearch.git
 
@@ -30,7 +33,7 @@ releases:
 
 ## Official Release schedule
 
-Find below the next releases after `2.4.0` : 
+Find below the next releases after `2.4.0` :
 
 - [`2.4.0`](https://opensearch.org/blog/opensearch-2-4-is-available-today/) released on `2022-11-15`
 - `2.5.0` is planned for `2023-01-17`
