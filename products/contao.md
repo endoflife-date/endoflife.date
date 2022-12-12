@@ -13,30 +13,30 @@ auto:
   - git: https://github.com/contao/contao.git
 
 releases:
-  - releaseCycle: "5.0"
+-   releaseCycle: "5.0"
     releaseDate: 2022-08-18
     support: 2023-02-14
     eol: 2023-02-14
     latest: "5.0.7"
     latestReleaseDate: 2022-11-30
     lts: false
-    discontinued: false
-  - releaseCycle: "4.13"
+
+-   releaseCycle: "4.13"
     releaseDate: 2022-02-17
     support: 2025-02-14
     eol: 2026-02-14
     latest: "4.13.14"
     latestReleaseDate: 2022-11-30
     lts: true
-    discontinued: false
-  - releaseCycle: "4.9"
+
+-   releaseCycle: "4.9"
     releaseDate: 2020-02-18
     support: 2023-02-14
     eol: 2024-02-14
     latest: "4.9.37"
     latestReleaseDate: 2022-11-28
     lts: true
-    discontinued: false
+
 ---
 
 > [Contao Open Source CMS](https://contao.org) is a content management system written in PHP.
