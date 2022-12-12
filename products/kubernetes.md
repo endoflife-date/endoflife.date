@@ -4,7 +4,7 @@ title: Kubernetes
 category: server-app
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/5s3rt0dg6aaqymdat8d2kt61fc3mt29.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/hwofyi7fnfgyjzfs6er9ha6mvxnakw7.png
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 activeSupportColumn: true
