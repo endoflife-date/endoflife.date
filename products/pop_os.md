@@ -7,7 +7,6 @@ alternate_urls:
 -   /popos
 versionCommand: lsb_release --release
 releasePolicyLink: https://support.system76.com/articles/pop-os-development-approach
-changelogTemplate: https://support.system76.com/articles/roadmap#pop_os-{{"__RELEASE_CYCLE__"|replace:'.',''}}
 releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: false
