@@ -3,6 +3,8 @@ title: Pop!_OS
 category: os
 iconSlug: popos
 permalink: /pop_os
+alternate_urls:
+-   /popos
 versionCommand: lsb_release --release
 releaseColumn: false
 releaseDateColumn: true
