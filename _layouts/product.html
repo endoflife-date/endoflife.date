@@ -220,7 +220,11 @@ title="Click the Pencil, the link takes you directly to the correct page">on Git
 <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
 . This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
 
-<p>A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more. You can subscribe icalendar feed at <a href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics">/calendar{{page.permalink}}.ics</a>.</p>
+<p>
+  A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>.
+  See the <a href="/docs/api/">API Documentation</a> for more information.
+  You can subscribe to the icalendar feed at <a href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics">/calendar{{page.permalink}}.ics</a>.
+</p>
 
 <p>
 This page was last updated on {{ page.last_modified_at | date_to_long_string }}.
