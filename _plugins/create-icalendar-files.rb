@@ -9,11 +9,19 @@ require 'yaml'
 
 CALENDAR_DIR = 'calendar'.freeze
 
+def load_yaml(file)
+  if YAML.respond_to?(:unsafe_load)
+    YAML.unsafe_load_file(file)
+  else
+    YAML.load_file(self[:encoded_value])
+  end
+end
+
 class Product
   attr_reader :hash
 
   def initialize(markdown_file)
-    @hash = YAML.load_file(markdown_file)
+    @hash = load_yaml(markdown_file)
   end
 
   def permalink
@@ -21,7 +29,7 @@ class Product
   end
 
   def link
-    hash.fetch('link')
+    "https://endoflife.date/#{permalink}"
   end
 
   def title
@@ -66,7 +74,7 @@ def process_product(product)
       event.dtstart = Icalendar::Values::Date.new(item)
       event.dtend = Icalendar::Values::Date.new(item + 1)
       event.summary = "#{key.upcase} #{cycle.fetch('name')}"
-      event.summary.ical_params = { 'altrep' => "https://endoflife.date/#{product.permalink}" }
+      event.summary.ical_params = { 'altrep' => product.link }
       event.description = notification_message(product.title, cycle.fetch('name'), key)
       event.categories = [key]
       event.url = product.link
