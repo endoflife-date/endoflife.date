@@ -1,5 +1,5 @@
 ---
-title: Windows Server
+title: Microsoft Windows Server
 permalink: /windows-server
 alternate_urls:
   - /windowsserver
