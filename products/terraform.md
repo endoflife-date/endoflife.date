@@ -1,5 +1,5 @@
 ---
-title: Terraform
+title: HashiCorp Terraform
 permalink: /terraform
 category: app
 iconSlug: terraform
