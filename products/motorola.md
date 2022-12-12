@@ -358,6 +358,7 @@ releases:
     releaseDate: 2020-09-01
     eol: 2022-09-01
     link: https://www.motorola.com/us/smartphones-razr-gen-2/p
+
 ---
 
 > [Motorola](https://motorola.com) manufactures smartphones and other mobile devices running the Android operating system.
