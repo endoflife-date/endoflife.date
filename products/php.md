@@ -16,8 +16,8 @@ releases:
     support: 2024-12-08
     eol: 2025-12-08
     latest: "8.2.0"
-    latestReleaseDate: 2022-12-08
-    releaseDate: 2022-12-08
+    latestReleaseDate: 2022-12-06
+    releaseDate: 2022-12-06
 -   releaseCycle: "8.1"
     support: 2023-11-25
     eol: 2024-11-25

@@ -12,15 +12,15 @@ auto:
 releases:
 -   releaseCycle: "8"
     eol: 2023-10-26
-    latest: "8.5.2"
-    latestReleaseDate: 2022-11-22
+    latest: "8.5.3"
+    latestReleaseDate: 2022-12-08
     releaseDate: 2022-02-10
     # temporary fix until they publish 8.5.1's changelog
     link: https://www.elastic.co/guide/en/elasticsearch/reference/8.5/release-notes-8.5.0.html
 -   releaseCycle: "7"
     eol: 2023-08-01
-    latest: "7.17.7"
-    latestReleaseDate: 2022-10-25
+    latest: "7.17.8"
+    latestReleaseDate: 2022-12-08
     releaseDate: 2019-04-10
 -   releaseCycle: "6"
     eol: 2022-02-10

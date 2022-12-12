@@ -9,13 +9,13 @@ releases:
 -   releaseCycle: "8"
     eol: false
     releaseDate: 2022-02-10
-    latest: "8.5.2"
-    latestReleaseDate: 2022-11-22
+    latest: "8.5.3"
+    latestReleaseDate: 2022-12-08
 -   releaseCycle: "7.17"
     eol: false
     releaseDate: 2022-02-01
-    latest: "7.17.7"
-    latestReleaseDate: 2022-10-25
+    latest: "7.17.8"
+    latestReleaseDate: 2022-12-08
 -   releaseCycle: "7.16"
     eol: 2022-01-13
     releaseDate: 2021-12-07

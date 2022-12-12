@@ -16,8 +16,8 @@ releases:
     eol: false
     link: https://tomcat.apache.org/tomcat-10.1-doc/
     releaseDate: 2022-09-23
-    latestReleaseDate: 2022-11-09
-    latest: "10.1.2"
+    latestReleaseDate: 2022-12-05
+    latest: "10.1.4"
 -   releaseCycle: "10.0"
     eol: false
     latest: "10.0.27"
