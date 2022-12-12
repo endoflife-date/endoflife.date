@@ -48,7 +48,6 @@ iconSlug: kubernetes
 permalink: /amazon-eks
 alternate_urls:
 -   /eks
--   /amazon-eks
 -   /amazon-elastic-kubernetes-service
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
 activeSupportColumn: false
