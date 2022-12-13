@@ -1,5 +1,5 @@
 ---
-title: Amazon OpenSearch
+title: OpenSearch
 category: db
 iconSlug: opensearch
 permalink: /opensearch
