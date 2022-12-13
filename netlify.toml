@@ -1,13 +1,11 @@
 [build]
   command = """
-  rake gke
   bundle exec jekyll build
   """
   publish = "_site/"
 
 [context.deploy-preview]
   command = """
-  rake gke
   printf "url: %s" "$DEPLOY_PRIME_URL" > _config_netlify.yml
   bundle exec jekyll build --config _config.yml,_config_netlify.yml
   """

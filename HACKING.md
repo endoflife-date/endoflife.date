@@ -6,7 +6,6 @@
 - [Build](#build)
 - [File and Directory structure](#file-and-directory-structure)
 - [Automation](#automation)
-  - [GKE](#gke)
 - [API](#api)
   - [API Documentation](#api-documentation)
 - [Contributing Workflow](#contributing-workflow)
@@ -73,10 +72,6 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
 Automation is currently focused towards fetching the latest releases for a given release cycle. Scripts for this are in the `_auto` directory, and run using `Rakefile`.
 
 All scripts should have fallback data in some form.
-
-### GKE
-
-The GKE data is fetched at build-time via GKE APIs by calling `rake gke`.
 
 ## API
 
