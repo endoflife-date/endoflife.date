@@ -32,27 +32,39 @@ releases:
 -   releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01
-    latest: '{{ site.data.gke.versions["1.22"] }}'
+    latest: '1.22.16-gke.1300'
+    releaseDate: 2022-03-07
+    latestReleaseDate: 2022-12-05
 -   releaseCycle: "1.21"
     eol: 2023-03-01
     support: 2023-01-01
-    latest: '{{ site.data.gke.versions["1.21"] }}'
+    latest: '1.21.14-gke.9500'
+    releaseDate: 2021-10-01
+    latestReleaseDate: 2022-11-04
 -   releaseCycle: "1.20"
     eol: 2022-08-01
     support: 2021-12-01
-    latest: '{{ site.data.gke.versions["1.20"] }}'
+    latest: '1.20.15-gke.13700'
+    releaseDate: 2021-06-09
+    latestReleaseDate: 2022-08-18
 -   releaseCycle: "1.19"
     eol: 2022-06-01
     support: 2021-10-01
-    latest: '{{ site.data.gke.versions["1.19"] }}'
+    latest: '1.19.16-gke.15700'
+    releaseDate: 2021-04-14
+    latestReleaseDate: 2022-06-23
 -   releaseCycle: "1.18"
     eol: 2022-03-01
     support: 2021-08-01
-    latest: '{{ site.data.gke.versions["1.18"] }}'
+    latest: '1.18.20-gke.6000'
+    releaseDate: 2021-03-29
+    latestReleaseDate: 2021-09-17
 -   releaseCycle: "1.17"
     eol: 2021-11-01
     support: 2021-07-01
-    latest: '{{ site.data.gke.versions["1.17"] }}'
+    latest: '1.17.17-gke.9100'
+    releaseDate: 2021-03-29
+    latestReleaseDate: 2021-06-09
 iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:

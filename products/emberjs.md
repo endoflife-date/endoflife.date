@@ -15,8 +15,8 @@ releases:
 -   releaseCycle: "4"
     support: true
     eol: false
-    latest: "4.9.1"
-    latestReleaseDate: 2022-11-30
+    latest: "4.9.2"
+    latestReleaseDate: 2022-12-12
     releaseDate: 2021-11-15
 -   releaseCycle: "3.28"
     lts: true

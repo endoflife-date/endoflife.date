@@ -17,11 +17,11 @@ alternate_urls:
 # The release date for "N" should match the eol date for N-3 release.
 releases:
 -   releaseCycle: "1.26"
-    releaseDate: 2022-12-12
+    releaseDate: 2022-12-08
     support: 2023-12-28
     eol: 2024-02-24
     latest: "1.26.0"
-    latestReleaseDate: 2022-12-12
+    latestReleaseDate: 2022-12-08
 -   releaseCycle: "1.25"
     latest: "1.25.5"
     support: 2023-08-27
