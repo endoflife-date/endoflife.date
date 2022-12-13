@@ -2,39 +2,22 @@
 title: Google Kubernetes Engine
 category: service
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
-# support is eol-2 months, but only for static releases. Release channels are always supported.
 releases:
--   releaseCycle: "stable"
-    releaseLabel: "Stable"
-    eol: false
-    support: true
-    auto: gke-stable
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
--   releaseLabel: "Regular"
-    releaseCycle: "regular"
-    eol: false
-    auto: gke-regular
-    support: true
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
--   releaseLabel: "Rapid"
-    releaseCycle: "rapid"
-    eol: false
-    auto: gke-rapid
-    support: true
-    link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
-# -   releaseCycle: "1.26"
-#     eol: 2024-05-31
-#     support: 2024-03-31
-#     latest:
 -   releaseCycle: "1.25"
     eol: 2024-02-29
     support: 2023-12-29
 -   releaseCycle: "1.24"
     eol: 2023-10-31
     support: 2023-08-31
+    releaseDate: 2022-06-23
+    latestReleaseDate: 2022-12-05
+    latest: '1.24.8-gke.401'
 -   releaseCycle: "1.23"
     eol: 2023-07-31
     support: 2023-05-31
+    releaseDate: 2022-05-03
+    latestReleaseDate: 2022-12-05
+    latest: '1.23.14-gke.401'
 -   releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01
@@ -72,6 +55,8 @@ releases:
     releaseDate: 2021-03-29
     latestReleaseDate: 2021-06-09
 iconSlug: kubernetes
+auto:
+-   custom: true
 permalink: /google-kubernetes-engine
 alternate_urls:
 -   /gke
@@ -99,7 +84,7 @@ New GKE Standard clusters are created with a default version (currently `{{site.
 
 ## Release Channels
 
-GKE offers [3 release channels][channels]: Rapid, Regular (default), and Stable. GKE automatically manages the version and upgrade cadence for a cluster and its node pools if it is enrolled in a release channel. All channels offer supported releases of GKE and are considered generally available (GA).
+GKE offers [3 release channels][channels]: Rapid, Regular (default), and Stable. GKE automatically manages the version and upgrade cadence for a cluster and its node pools if it is enrolled in a release channel. All channels offer supported releases of GKE and are considered generally available (GA). The End-of-life dates for a specific release will match the above, regardless.
 
 ## No Channel (Static)
 
