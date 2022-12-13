@@ -3,9 +3,6 @@ title: Google Kubernetes Engine
 category: service
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 releases:
--   releaseCycle: "1.25"
-    eol: 2024-02-29
-    support: 2023-12-29
 -   releaseCycle: "1.24"
     eol: 2023-10-31
     support: 2023-08-31
