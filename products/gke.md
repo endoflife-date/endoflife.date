@@ -2,33 +2,39 @@
 title: Google Kubernetes Engine
 category: service
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
-# EoL is support + 3 months, but only for static releases
-# 1. Get the current version in a release channel from https://cloud.google.com/kubernetes-engine/docs/release-notes
-# 2. Get the date when that minor release was first made available in Regular release channel from https://cloud.google.com/kubernetes-engine/docs/release-schedule#schedule_for_release_channels. This is (2)
-# 3. support = Date from (2) + 12 months
-# 4. eol = Date from (2) + 14 months
-# We don't write down the "release" date since EoL is counted against Regular release channel, and release dates of a minor release are harder to track (and not helpful) for other release channels. Hence, releaseDateColumn is set to false.
-
-# The latest data is coming from the _data/gke.{json|yml} file
-# The file is generated at build-time
-# See #314 for an explanation
-
+# support is eol-2 months, but only for static releases. Release channels are always supported.
 releases:
--   releaseCycle: "Stable"
+-   releaseCycle: "stable"
+    releaseLabel: "Stable"
     eol: false
     support: true
-    latest: '{{ site.data.gke.channels.STABLE" }}'
+    auto: gke-stable
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-stable
--   releaseCycle: "Regular"
+-   releaseLabel: "Regular"
+    releaseCycle: "regular"
     eol: false
+    auto: gke-regular
     support: true
-    latest: '{{ site.data.gke.channels.REGULAR" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-regular
--   releaseCycle: "Rapid"
+-   releaseLabel: "Rapid"
+    releaseCycle: "rapid"
     eol: false
+    auto: gke-rapid
     support: true
-    latest: '{{ site.data.gke.channels.RAPID" }}'
     link: https://cloud.google.com/kubernetes-engine/docs/release-notes-rapid
+# -   releaseCycle: "1.26"
+#     eol: 2024-05-31
+#     support: 2024-03-31
+#     latest:
+-   releaseCycle: "1.25"
+    eol: 2024-02-29
+    support: 2023-12-29
+-   releaseCycle: "1.24"
+    eol: 2023-10-31
+    support: 2023-08-31
+-   releaseCycle: "1.23"
+    eol: 2023-07-31
+    support: 2023-05-31
 -   releaseCycle: "1.22"
     eol: 2023-04-01
     support: 2023-02-01
@@ -101,7 +107,7 @@ Clusters with a static GKE version are not enrolled in a release channel. Users 
 
 Google may automatically [upgrade your nodes for security and compatibility purposes][auto-upgrade] in select cases.
 
-[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with an [RSS Feed][rss]. Please consult the [upgrade guide][upgrade-guide] before upgrading.
+[Security bulletins for GKE](https://cloud.google.com/anthos/clusters/docs/security-bulletins) are published along with an [RSS Feed][rss]. Please consult the [upgrade guide][upgrade-guide] before upgrading. [Upgrade notifications](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-notifications) are available over Pub/Sub as well.
 
 [current-versions]: https://cloud.google.com/kubernetes-engine/docs/release-notes "table lists the latest minor versions available as defaults in GKE for the specified release channels"
 [compare]: https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"
