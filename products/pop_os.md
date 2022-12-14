@@ -74,4 +74,4 @@ releases:
 
 >[Pop!_OS](https://pop.system76.com) is a free and open-source Linux distribution based on Ubuntu.
 
-Releases of Pop!_OS are the same as Ubuntu, with new releases every six months in April and October. Long term support releases are made every two years, in April of even-numbered years. Each non-LTS release is supported for three months after the release of the next version, and LTS releases are supported for five years. However, after the release of Pop!_OS 22.04, System76 announced that they will be skipping the release of 22.10 to better focus their resources in the development of Cosmic DE based on Rust.
+The release schedule of Pop!_OS is the same as Ubuntu, with new releases every six months in April and October. Long term support releases are made every two years, in April of even-numbered years. Each non-LTS release is supported for three months after the release of the next version, and LTS releases are supported for five years. However, after the release of Pop!_OS 22.04, System76 announced that they will be skipping the release of 22.10 to better focus their resources in the development of Cosmic DE based on Rust.
