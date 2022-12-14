@@ -1,5 +1,5 @@
 ---
-title: Windows
+title: Microsoft Windows
 permalink: /windows
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
 category: os
