@@ -14,7 +14,7 @@ releases:
     # 13.2-RELEASE + 3 months
     releaseDate: 2022-05-16
 -   releaseCycle: "releng/13.0"
-    eol: 2022-08-16
+    eol: 2022-08-31
     releaseDate: 2021-04-13
 -   releaseCycle: "stable/13"
     eol: 2026-01-31
