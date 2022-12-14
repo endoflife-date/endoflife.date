@@ -19,29 +19,29 @@ releases:
   # LTS Milestones
   - releaseCycle: "101"
     releaseDate: 2022-08-01
-    latest: "cos-101-17162-40-25"
-    latestReleaseDate: 2022-11-07
+    latest: "cos-101-17162-40-42"
+    latestReleaseDate: 2022-12-12
     lts: true
     eol: 2024-09-01
     support: 2024-09-01
   - releaseCycle: "97"
     releaseDate: 2022-02-28
-    latest: "cos-97-16919-189-9"
-    latestReleaseDate: 2022-11-07
+    latest: "cos-97-16919-189-20"
+    latestReleaseDate: 2022-12-12
     lts: true
     eol: 2024-03-01
     support: 2024-03-01
   - releaseCycle: "93"
     releaseDate: 2021-08-23
-    latest: "cos-93-16623-295-11"
-    latestReleaseDate: 2022-11-07
+    latest: "cos-93-16623-295-22"
+    latestReleaseDate: 2022-12-12
     lts: true
     eol: 2023-10-01
     support: 2023-10-01
   - releaseCycle: "89"
     releaseDate: 2021-04-07
-    latest: "cos-89-16108-766-9"
-    latestReleaseDate: 2022-11-07
+    latest: "cos-89-16108-766-19"
+    latestReleaseDate: 2022-12-12
     lts: true
     eol: 2023-03-01
     support: 2023-03-01
@@ -103,7 +103,7 @@ During this support window:
 * New releases containing high priority bug and security fixes are released on-demand.
 * New releases containing medium and low priority bug and security fixes are released every 3 months.
 * To maintain stability, no new breaking features are introduced.
-* All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families) page.
+* All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes) page.
 
 ## Deprecation
 
