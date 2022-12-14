@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps
+title:  Microsoft Azure DevOps
 permalink: /azure-devops
 alternate_urls:
 -   /tfs
