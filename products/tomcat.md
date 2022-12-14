@@ -31,7 +31,7 @@ releases:
     releaseDate: 2015-11-13
     latestReleaseDate: 2022-12-01
 -   releaseCycle: "8.5"
-    eol: false
+    eol: 2024-03-31
     latest: "8.5.84"
     link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
     releaseDate: 2016-03-17
