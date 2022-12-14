@@ -6,13 +6,18 @@ changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST
 auto:
 -   git: https://github.com/influxdata/telegraf
 releases:
+-   releaseCycle: "1.25"
+    eol: false
+    releaseDate: 2022-12-12
+    latest: "1.25.0"
+    latestReleaseDate: 2022-12-12
 -   releaseCycle: "1.24"
     eol: false
     releaseDate: 2022-09-12
     latest: "1.24.4"
     latestReleaseDate: 2022-11-29
 -   releaseCycle: "1.23"
-    eol: false
+    eol: 2022-12-12
     releaseDate: 2022-06-13
     latest: "1.23.4"
     latestReleaseDate: 2022-08-16
