@@ -24,9 +24,9 @@ auto:
 releases:
 -   releaseCycle: "1.23"
     eol: false
-    latest: "1.23.2"
+    latest: "1.23.3"
     link: https://nginx.org/en/CHANGES
-    latestReleaseDate: 2022-10-19
+    latestReleaseDate: 2022-12-13
     releaseDate: 2022-06-21
 -   releaseCycle: "1.22"
     eol: false

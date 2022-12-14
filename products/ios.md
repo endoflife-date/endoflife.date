@@ -14,13 +14,13 @@ releases:
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     eol: false
-    latestReleaseDate: 2022-11-30
-    latest: "16.1.2"
+    latestReleaseDate: 2022-12-13
+    latest: "16.2"
 -   releaseCycle: "15"
     eol: false
     releaseDate: 2021-09-20
-    latestReleaseDate: 2022-10-27
-    latest: "15.7.1"
+    latestReleaseDate: 2022-12-13
+    latest: "15.7.2"
 -   releaseCycle: "14"
     eol: 2021-10-01
     releaseDate: 2020-09-16
@@ -71,6 +71,7 @@ releases:
     releaseDate: 2011-10-12
     latestReleaseDate: 2012-05-07
     latest: "5.1.1"
+
 
 
 

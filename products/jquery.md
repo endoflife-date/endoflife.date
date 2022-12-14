@@ -6,9 +6,9 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.6.1"
+    latest: "3.6.2"
     link: https://blog.jquery.com/2022/08/26/jquery-3-6-1-maintenance-release/
-    latestReleaseDate: 2022-08-26
+    latestReleaseDate: 2022-12-13
     releaseDate: 2016-06-09
 -   releaseCycle: "2"
     eol: true

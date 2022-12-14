@@ -12,24 +12,24 @@ releases:
     lts: false
     support: 2024-10-31
     releaseDate: 2022-10-04
-    latestReleaseDate: 2022-12-06
-    latest: '12.1.0'
+    latestReleaseDate: 2022-12-13
+    latest: '12.1.2'
 -   releaseCycle: "11"
     eol: 2024-10-31
     lts: 2021-10-05
     support: 2023-03-31
     releaseDate: 2020-12-22
-    latest: "11.5.19"
+    latest: "11.5.20"
     link: https://typo3.org/article/typo3-v11-lts-warp-speed
-    latestReleaseDate: 2022-11-15
+    latestReleaseDate: 2022-12-13
 -   releaseCycle: "10"
     eol: 2023-04-30
     lts: 2020-04-07
     support: 2021-10-31
     releaseDate: 2019-07-23
-    latest: "10.4.32"
+    latest: "10.4.33"
     link: https://typo3.org/article/typo3-v10-safe-and-sound/
-    latestReleaseDate: 2022-09-13
+    latestReleaseDate: 2022-12-13
 -   releaseCycle: "9"
     eol: 2021-09-30
     support: 2020-04-30
