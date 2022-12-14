@@ -1,5 +1,5 @@
 ---
-title: macOS
+title: Amazon macOS
 alternate_urls:
 -   /mac
 category: os
