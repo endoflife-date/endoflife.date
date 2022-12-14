@@ -22,15 +22,15 @@ releases:
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2022-10-24
-    latest: '12.6.1'
+    latestReleaseDate: 2022-12-13
+    latest: '12.6.2'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2022-10-24
-    latest: '11.7.1'
+    latestReleaseDate: 2022-12-13
+    latest: '11.7.2'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12

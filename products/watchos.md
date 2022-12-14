@@ -14,8 +14,8 @@ releases:
 -   releaseCycle: "9"
     eol: false
     releaseDate: 2022-09-12
-    latestReleaseDate: 2022-10-24
-    latest: '9.1'
+    latestReleaseDate: 2022-12-13
+    latest: '9.2'
 -   releaseCycle: "8"
     eol: 2022-09-22
     releaseDate: 2021-09-20
@@ -46,6 +46,7 @@ releases:
     releaseDate: 2016-09-13
     latestReleaseDate: 2017-07-19
     latest: '3.2.3'
+
 
 
 
