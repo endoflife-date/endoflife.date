@@ -44,7 +44,7 @@ releases:
     latest: "1.18-eks-13"
     releaseDate: 2020-10-13
     latestReleaseDate: 2022-08-15
-iconSlug: kubernetes
+iconSlug: amazoneks
 permalink: /amazon-eks
 alternate_urls:
 -   /eks
