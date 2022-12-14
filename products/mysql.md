@@ -1,5 +1,5 @@
 ---
-title: MySQL
+title: Oracle MySQL
 category: db
 changelogTemplate: https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{"__LATEST__"
   | replace:'.','-'}}.html
