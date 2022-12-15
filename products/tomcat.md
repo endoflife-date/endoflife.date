@@ -19,7 +19,7 @@ releases:
     latestReleaseDate: 2022-12-05
     latest: "10.1.4"
 -   releaseCycle: "10.0"
-    eol: false
+    eol: 2022-10-31
     latest: "10.0.27"
     link: https://tomcat.apache.org/download-10.cgi
     releaseDate: 2020-12-03
