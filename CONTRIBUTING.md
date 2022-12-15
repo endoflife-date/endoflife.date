@@ -131,8 +131,10 @@ discontinuedColumn: false
 auto:
 
   # Configuration for auto-update based on git.
-  # Any valid git clone URL will work, but support for partialClone is necessary (GitHub and GitLab support it).
-  - git: https://github.com/abc/def.git
+  # Any valid git clone URL will work, but support for partialClone is necessary
+  # (GitHub and GitLab support it).
+  # For example, for Apache Maven:
+  - git: https://github.com/apache/maven.git
 
     # Ruby-compatible regex that defines how the tags above should translate to releases
     # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
@@ -149,16 +151,18 @@ auto:
   # Configuration for auto-update based on Docker Hub.
   # The value must be the "owner/repo" combination for a docker hub public image.
   # Use "library" as the owner name for an official docker/community image.
-  - dockerhub: ministryofmagic/timeturner
+  # For example, for PostgreSQL:
+  - dockerhub: library/postgres
 
   # Configuration for auto-update based on the npm registry.
-  # The value must be a link to a package on https://www.npmjs.com .
-  - npm: https://www.npmjs.com/package/abc
+  # The value must be the package identifier on https://www.npmjs.com .
+  # For example, for Vue:
+  - npm: vue
 
   # Configuration for auto-update based on DistroWatch.
   # The value must be the distribution ID. It can be found in the distribution URL.
   # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
-  - distrowatch: quibbler
+  - distrowatch: debian
 
     # The Python-Compatible regex used to parse headlines (mandatory).
     # Use named capturing groups to capture the version or version's parts.
