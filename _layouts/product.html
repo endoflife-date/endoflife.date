@@ -220,4 +220,7 @@ title="Click the Pencil, the link takes you directly to the correct page">on Git
 
 <p>A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more.</p>
 
-{%if page.auto %}Latest releases on this page are automatically updated{% endif %}
+<p>
+This page was last updated on {{ page.last_modified_at | date_to_long_string }}.
+{%if page.auto %}Latest releases are automatically updated.{% endif %}
+</p>
