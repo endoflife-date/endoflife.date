@@ -1,9 +1,11 @@
 ---
 title: mageia
 category: os
+iconSlug: NA
 permalink: /mageia
-releasePolicyLink: https://www.mageia.org/en/support/
+releasePolicyLink: https://www.mageia.org/support/
 releaseDateColumn: true
+releaseColumn: false
 eolColumn: End of Life
 versionCommand: cat /usr/lib/os-release
 changelogTemplate: https://wiki.mageia.org/en/Mageia___RELEASE_CYCLE___Release_Notes
@@ -36,4 +38,6 @@ releases:
 
 ---
 
-> [mageia](https://www.mageia.org/en/) is a GNU/Linux-based, Free Software operating system. It is a community project, supported by a nonprofit organisation of elected contributors.
+> [Mageia](https://www.mageia.org/) is a GNU/Linux-based, Free Software operating system. It is a community project, supported by a nonprofit organisation of elected contributors.
+
+Mageia releases are supported at least for 18 months. Or a minimum of 3 months after the next release, whichever is longer.
