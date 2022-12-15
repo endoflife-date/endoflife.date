@@ -5,8 +5,8 @@ changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release
 iconSlug: googlecloud
 permalink: /cos
 alternate_urls:
-  - /google-cos
-  - /container-optimized-os
+-   /google-cos
+-   /container-optimized-os
 releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
 releaseColumn: true
 releaseDateColumn: true
@@ -14,73 +14,76 @@ activeSupportColumn: Active Milestones
 eolColumn: Deprecated Milestones
 versionCommand: cat /etc/os-release /etc/lsb-release
 
-releaseLabel: "m__RELEASE_CYCLE__"
+releaseLabel: |
+  m{{"__RELEASE_CYCLE__" | split:'-' | last}}
+auto:
+-   custom: true
 releases:
-  # LTS Milestones
-  - releaseCycle: "101"
-    releaseDate: 2022-08-01
-    latest: "cos-101-17162-40-42"
-    latestReleaseDate: 2022-12-12
+  # Active Milestones
+-   releaseCycle: "cos-101"
     lts: true
     eol: 2024-09-01
     support: 2024-09-01
-  - releaseCycle: "97"
-    releaseDate: 2022-02-28
-    latest: "cos-97-16919-189-20"
+    releaseDate: 2022-09-15
     latestReleaseDate: 2022-12-12
+    latest: cos-101-17162-40-42
+-   releaseCycle: "cos-97"
     lts: true
     eol: 2024-03-01
     support: 2024-03-01
-  - releaseCycle: "93"
-    releaseDate: 2021-08-23
-    latest: "cos-93-16623-295-22"
+    releaseDate: 2022-03-29
     latestReleaseDate: 2022-12-12
+    latest: cos-97-16919-189-20
+-   releaseCycle: "cos-93"
     lts: true
     eol: 2023-10-01
     support: 2023-10-01
-  - releaseCycle: "89"
-    releaseDate: 2021-04-07
-    latest: "cos-89-16108-766-19"
+    releaseDate: 2021-10-18
     latestReleaseDate: 2022-12-12
+    latest: cos-93-16623-295-22
+-   releaseCycle: "cos-89"
     lts: true
     eol: 2023-03-01
     support: 2023-03-01
   # Deprecated Milestones
-  - releaseCycle: "85"
-    releaseDate: 2020-09-24
-    latest: "cos-85-13310-1498-13"
-    latestReleaseDate: 2022-08-22
+    releaseDate: 2021-04-07
+    latestReleaseDate: 2022-12-12
+    latest: cos-89-16108-766-19
+-   releaseCycle: "cos-85"
     lts: false
     eol: 2022-09-01
     support: 2022-09-01
-  - releaseCycle: "81"
-    releaseDate: 2020-03-27
-    latest: "cos-81-12871-1317-8"
-    latestReleaseDate: 2022-01-10
+    releaseDate: 2020-09-24
+    latestReleaseDate: 2022-08-22
+    latest: cos-85-13310-1498-13
+-   releaseCycle: "cos-81"
     lts: false
     eol: 2021-09-01
     support: 2021-09-01
-  - releaseCycle: "77"
-    releaseDate: 2019-09-27
-    latest: "cos-77-12371-1109-0"
-    latestReleaseDate: 2021-01-11
+    releaseDate: 2020-03-27
+    latestReleaseDate: 2022-01-10
+    latest: cos-81-12871-1317-8
+-   releaseCycle: "cos-77"
     lts: false
     eol: 2021-04-01
     support: 2021-04-01
-  - releaseCycle: "73"
-    releaseDate: 2019-03-25
-    latest: "cos-73-11647-656-0"
-    latestReleaseDate: 2020-09-05
+    releaseDate: 2019-09-27
+    latestReleaseDate: 2021-01-11
+    latest: cos-77-12371-1109-0
+-   releaseCycle: "cos-73"
     lts: false
     eol: 2020-06-01
     support: 2020-06-01
-  - releaseCycle: "69"
-    releaseDate: 2018-11-18
-    latest: "cos-69-10895-385-0"
-    latestReleaseDate: 2019-10-08
+    releaseDate: 2019-03-25
+    latestReleaseDate: 2020-09-05
+    latest: cos-73-11647-656-0
+-   releaseCycle: "cos-69"
     lts: false
     eol: 2019-12-01
     support: 2019-12-01
+    releaseDate: 2018-09-18
+    latestReleaseDate: 2019-10-08
+    latest: cos-69-10895-385-0
 
 ---
 
