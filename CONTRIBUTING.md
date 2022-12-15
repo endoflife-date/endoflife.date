@@ -55,16 +55,16 @@ category: os
 
 # Simple Icons (https://simpleicons.org/) icon slug (mandatory).
 # If the icon is not available on Simple Icons, set it to `NA`.
-# As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg,
-# so the slug is `opensuse` (the SVG filename without extension).
-# A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md.
+# As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg ,
+# so the slug is `codemagic` (the SVG filename without extension).
+# A list of all slugs is also available on https://github.com/simple-icons/simple-icons/blob/develop/slugs.md .
 iconSlug: codemagic
 
 # Main URL for the page (mandatory).
 permalink: /timeturner
 
 # Alternate URLs that will redirect to the permalink (optional).
-# This is nice to let people use easier to remember URLs. For example, we redirect /golang to /go.
+# This is nice to let people use easier to remember URLs. For example, we redirect /golang to /go .
 alternate_urls:
 -   /hourglass
 
@@ -96,7 +96,8 @@ changelogTemplate: "https://link/of/the/__RELEASE_CYCLE__/and/__LATEST__/version
 # It supports the same variables as changelogTemplate.
 releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 
-# The label that will be used alongside releases labelled with `lts: true` (optional, default = "<abbr title='Long Term Support'>LTS</abbr>").
+# The label that will be used alongside releases labelled with `lts: true`
+# (optional, default = "<abbr title='Long Term Support'>LTS</abbr>" ).
 # Only provide if the product has LTS releases that are not called LTS, but something else.
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
@@ -123,20 +124,25 @@ discontinuedColumn: false
 
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
-# Multiple configuration are allowed. Please see https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration enables a footer note on the product page informing users that latest releases are automatically updated.
+# Multiple configuration are allowed.
+# Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
+# The presence of such configuration enables a footer note on the product page
+# informing users that latest releases are automatically updated.
 auto:
+
   # Configuration for auto-update based on git.
   # Any valid git clone URL will work, but support for partialClone is necessary (GitHub and GitLab support it).
   - git: https://github.com/abc/def.git
+
     # Ruby-compatible regex that defines how the tags above should translate to releases
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20).
+    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
     # Use named capturing groups to capture the version or version's parts.
     # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
     # skip over any special releases (such as nightly,beta,pre,rc...).
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
-    # A liquid template using the captured variables from the regex above that renders the final
-    # version (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20).
+
+    # A liquid template using the captured variables from the regex above that renders the final version
+    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
     # You can use liquid templating here.
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
@@ -153,18 +159,20 @@ auto:
   # The value must be the distribution ID. It can be found in the distribution URL.
   # For example, for https://distrowatch.com/index.php?distribution=debian, use "debian".
   - distrowatch: quibbler
+
     # The Python-Compatible regex used to parse headlines (mandatory).
     # Use named capturing groups to capture the version or version's parts.
     # You can also pass a list of regexes here, and matches for any of those will be considered.
     regex: 'Distribution Release: (?P<version>\d+.\d+)'
-    # A liquid template using the captured variables from the regex above that renders the final
-    # version (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13).
+
+    # A liquid template using the captured variables from the regex above that renders the final version
+    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
     # You can use liquid templating here.
     template: '{{version}}'
 
-  # Configuration for auto-update based on Maven Central (https://search.maven.org).
+  # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
   # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
-  # For example, for Apache Tomcat (https://search.maven.org/artifact/org.apache.tomcat/tomcat):
+  # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
   - maven: org.apache.tomcat/tomcat
 
   # Configuration for auto-update based on a custom script in release-data repository.
@@ -175,51 +183,63 @@ auto:
 # Releases must be sort from the newest (on top of the list) to the lowest.
 # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
 releases:
+
     # Release range (mandatory, always put in quotes).
     # This is usually major.minor. Do not prefix with "v" or suffix with ".x".
     # This becomes part of our API URL, so try to avoid spaces and use lowercase for words.
 -   releaseCycle: "1.2"
+
     # Name displayed for the release (optional, default = global releaseLabel value).
     # Use this property if you need to override the release label on a per-release basis.
     # You can use templating here, though it is usually not required.
     # Template parameters are the same as the global releaseLabel property.
     releaseLabel: "Timeturner Firebolt (1.2)"
+
     # Codename of the release (optional, not displayed anywhere by default).
     # It can be used as __CODENAME__ in the releaseLabel and changelogTemplate.
     # It is also returned as-is in the API.
     codename: firebolt
+
     # Date of the release (optional if releaseDateColumn is false, else mandatory).
     # It should be removed if releaseDateColumn is false.
     # Note that an approximate date is better than no date at all.
     releaseDate: 2017-03-12
+
     # End of active support date (optional if activeSupportColumn is false, else mandatory).
     # This is where bugfixes usually stop coming in.
     # Use valid dates, and do not add quotes around dates.
     # Alternatively, set to true|false if the date has not been decided yet.
     support: 2018-01-31
+
     # EOL date (mandatory).
     # This is where all support stops (including security support).
     # In case there is extended/commercial support available, pick the date that would apply to the majority of users.
     # Use valid dates, and do not add quotes around dates.
     # Alternatively, set to true|false the date has not been decided yet.
     eol: 2019-01-01
+
     # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
     # It should be removed if releaseColumn is false.
     # Always add quotes around this value.
     latest: "1.2.3"
+
     # Latest release date (optional).
     # Use valid dates, and do not add quotes around dates.
     latestReleaseDate: 2022-01-23
+
     # Whether this is a "LTS" release (optional, default = false).
     # What LTS means may differ from product to product (see LTSLabel above).
     # Only provide for a release that will get much longer support than usual.
     lts: true
+
     # Whether this is a "discontinued" release (optional).
     # Can be set to true/false.
     # Only use if discontinuedColumn is set to true.
     discontinued: true
-    # A link to the changelog for the latest release (optional, default = the URL generated from changelogTemplate if it is provided).
+
+    # A link to the changelog for the latest release
+    # (optional, default = the URL generated from changelogTemplate if it is provided).
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
     # or if the changelogTemplate generated link must be overriden.
     # Do not use a localized URL (such as one containing en-us) if possible.
@@ -230,16 +250,18 @@ releases:
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 # 3. Any additional information that may be of interest.
 #
-# See also the Guiding Principles on the wiki (https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles)
+# See also the Guiding Principles on the wiki ( https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles )
 # for indication on the tone and voice to use for the text.
 
-# If you are adding any images in the text, they might get blocked due to our CSP.
-# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
-# will not be blocked.
 
 # Please leave a newline both above and below the triple-dashes.
 
 ---
+
+# All the product information text should be under triple-dashes.
+# If you are adding any images in the text, they might get blocked due to our CSP.
+# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
+# will not be blocked.
 
 > [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
 
