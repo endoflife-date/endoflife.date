@@ -22,7 +22,7 @@ releases:
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
-    eol: 2023-03-28
+    eol: false
     lts: false
     latest: "0.105.0"
     latestReleaseDate: 2022-05-04
