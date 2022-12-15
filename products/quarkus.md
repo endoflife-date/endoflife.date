@@ -11,9 +11,16 @@ auto:
 # See https://rubular.com/r/NyoXd9iCLFcl25 for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
 releases:
--   releaseCycle: "2.14"
+-   releaseCycle: "2.15"
     eol: false
     support: true
+    latest: "2.14.3"
+    latestReleaseDate: 2022-12-14
+    releaseDate: 2022-12-14
+
+-   releaseCycle: "2.14"
+    eol: 2022-12-14
+    support: 2022-12-14
     latest: "2.14.3"
     latestReleaseDate: 2022-12-06
     releaseDate: 2022-11-02
@@ -130,10 +137,10 @@ releases:
     latestReleaseDate: 2019-11-04
     releaseDate: 2018-12-12
 
-activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
-eolColumn: Security Support
+activeSupportColumn: false
+eolColumn: Support
+releaseColumn: true
 iconSlug: quarkus
 
 ---
