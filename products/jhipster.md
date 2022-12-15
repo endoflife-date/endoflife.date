@@ -12,7 +12,7 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   npm: https://www.npmjs.com/package/generator-jhipster
+-   npm: generator-jhipster
 
 releases:
 -   releaseCycle: "7"
