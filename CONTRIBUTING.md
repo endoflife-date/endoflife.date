@@ -152,12 +152,12 @@ auto:
   - dockerhub: ministryofmagic/timeturner
 
   # Configuration for auto-update based on the npm registry.
-  # The value must be a link to a package on https://www.npmjs.com.
+  # The value must be a link to a package on https://www.npmjs.com .
   - npm: https://www.npmjs.com/package/abc
 
   # Configuration for auto-update based on DistroWatch.
   # The value must be the distribution ID. It can be found in the distribution URL.
-  # For example, for https://distrowatch.com/index.php?distribution=debian, use "debian".
+  # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
   - distrowatch: quibbler
 
     # The Python-Compatible regex used to parse headlines (mandatory).
