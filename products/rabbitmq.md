@@ -1,5 +1,5 @@
 ---
-title: VMware RabbitMQ
+title: RabbitMQ
 permalink: /rabbitmq
 category: server-app
 releasePolicyLink: https://www.rabbitmq.com/versions.html
