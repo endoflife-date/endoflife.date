@@ -1,15 +1,25 @@
 ---
 title: Palo Alto Networks Cortex XDR agent
 category: app
-permalink: /cortexxdr
+permalink: /cortex-xdr
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__" | remove:'-' | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
 iconSlug: NA
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
-eolColumn: End-of-life Date
+eolColumn: Support Status
+alternate_urls:
+-   /pan-xdr
+-   /cortexxdr
+-   /xdr
+-   /pan-cortex-xdr
 releases:
+-   releaseCycle: "7.9"
+    eol: 2023-09-11
+    releaseDate: 2022-12-04
+    latestReleaseDate: 2022-12-04
+    latest: '7.9'
 -   releaseCycle: "7.8"
     eol: 2023-04-24
     releaseDate: 2022-07-24
