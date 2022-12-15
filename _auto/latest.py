@@ -23,6 +23,7 @@ This is written in Python because the only package that supports writing back YA
 DEFAULT_POST_TEMPLATE = """\
 ---
 {metadata}
+
 ---
 
 {content}
@@ -86,7 +87,7 @@ def yaml_to_str(obj):
     yaml.dump(obj, string_stream)
     output_str = string_stream.getvalue()
     string_stream.close()
-    return output_str
+    return output_str.strip()
 
 warnings = ""
 
