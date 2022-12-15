@@ -1,6 +1,6 @@
 ---
 permalink: /ansible
-title: Red Hat Ansible
+title: Ansible
 category: app
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
