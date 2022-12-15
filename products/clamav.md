@@ -82,3 +82,7 @@ Regular (non-LTS) releases are supported with critical patch versions for at lea
 the initial publication date of the next release, or until the next-next release is published.
 Non-LTS releases are allowed access to download signatures until at least four months after the
 next-next release is published.
+
+A [Version Support Matrix](https://docs.clamav.net/faq/faq-eol.html#version-support-matrix) is
+available for information about unsupported releases that are actively blocked from downloading new
+software updates or signatures.
