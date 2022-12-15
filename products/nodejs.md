@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "19"
     support: 2023-04-01
     eol: 2023-06-01
-    latest: "19.2.0"
-    latestReleaseDate: 2022-11-29
+    latest: "19.3.0"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2022-10-18
 -   releaseCycle: "18"
     lts: 2022-10-25

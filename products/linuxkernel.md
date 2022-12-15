@@ -20,8 +20,8 @@ auto:
 releases:
 -   releaseCycle: "6.0"
     eol: false
-    latest: "6.0.12"
-    latestReleaseDate: 2022-12-08
+    latest: "6.0.13"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2022-10-02
 
 -   releaseCycle: "5.19"
@@ -51,43 +51,43 @@ releases:
 -   releaseCycle: "5.15"
     eol: 2023-10-31
     lts: true
-    latest: "5.15.82"
-    latestReleaseDate: 2022-12-08
+    latest: "5.15.83"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
     eol: 2026-12-01
     lts: true
-    latest: "5.10.158"
-    latestReleaseDate: 2022-12-08
+    latest: "5.10.159"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2020-12-13
 
 -   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.226"
-    latestReleaseDate: 2022-12-08
+    latest: "5.4.227"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.268"
-    latestReleaseDate: 2022-12-08
+    latest: "4.19.269"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
     eol: 2024-01-01
     lts: true
-    latest: "4.14.301"
-    latestReleaseDate: 2022-12-08
+    latest: "4.14.302"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"
     eol: 2023-01-01
     lts: true
-    latest: "4.9.335"
-    latestReleaseDate: 2022-12-08
+    latest: "4.9.336"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2016-12-11
 
 ---

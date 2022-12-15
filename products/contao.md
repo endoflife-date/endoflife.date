@@ -10,7 +10,7 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
-  - git: https://github.com/contao/contao.git
+-   git: https://github.com/contao/contao.git
 
 releases:
 -   releaseCycle: "5.0"
@@ -26,7 +26,7 @@ releases:
     support: 2025-02-14
     eol: 2026-02-14
     latest: "4.13.14"
-    latestReleaseDate: 2022-11-30
+    latestReleaseDate: 2022-11-28
     lts: true
 
 -   releaseCycle: "4.12"
@@ -66,7 +66,7 @@ releases:
     support: 2020-12-14
     eol: 2021-12-14
     latest: "4.4.57"
-    latestReleaseDate: 2021-08-21
+    latestReleaseDate: 2021-08-23
     lts: true
 
 -   releaseCycle: "3.5"
