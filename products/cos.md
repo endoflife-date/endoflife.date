@@ -21,28 +21,24 @@ auto:
 releases:
   # Active Milestones
 -   releaseCycle: "cos-101"
-    lts: true
     eol: 2024-09-01
     support: 2024-09-01
     releaseDate: 2022-09-15
     latestReleaseDate: 2022-12-12
     latest: cos-101-17162-40-42
 -   releaseCycle: "cos-97"
-    lts: true
     eol: 2024-03-01
     support: 2024-03-01
     releaseDate: 2022-03-29
     latestReleaseDate: 2022-12-12
     latest: cos-97-16919-189-20
 -   releaseCycle: "cos-93"
-    lts: true
     eol: 2023-10-01
     support: 2023-10-01
     releaseDate: 2021-10-18
     latestReleaseDate: 2022-12-12
     latest: cos-93-16623-295-22
 -   releaseCycle: "cos-89"
-    lts: true
     eol: 2023-03-01
     support: 2023-03-01
   # Deprecated Milestones
@@ -50,35 +46,30 @@ releases:
     latestReleaseDate: 2022-12-12
     latest: cos-89-16108-766-19
 -   releaseCycle: "cos-85"
-    lts: false
     eol: 2022-09-01
     support: 2022-09-01
     releaseDate: 2020-09-24
     latestReleaseDate: 2022-08-22
     latest: cos-85-13310-1498-13
 -   releaseCycle: "cos-81"
-    lts: false
     eol: 2021-09-01
     support: 2021-09-01
     releaseDate: 2020-03-27
     latestReleaseDate: 2022-01-10
     latest: cos-81-12871-1317-8
 -   releaseCycle: "cos-77"
-    lts: false
     eol: 2021-04-01
     support: 2021-04-01
     releaseDate: 2019-09-27
     latestReleaseDate: 2021-01-11
     latest: cos-77-12371-1109-0
 -   releaseCycle: "cos-73"
-    lts: false
     eol: 2020-06-01
     support: 2020-06-01
     releaseDate: 2019-03-25
     latestReleaseDate: 2020-09-05
     latest: cos-73-11647-656-0
 -   releaseCycle: "cos-69"
-    lts: false
     eol: 2019-12-01
     support: 2019-12-01
     releaseDate: 2018-09-18
