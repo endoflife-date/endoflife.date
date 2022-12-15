@@ -47,10 +47,6 @@ releases:
     latestReleaseDate: 2017-07-19
     latest: '3.2.3'
 
-
-
-
-
 ---
 
 > [watchOS](https://www.apple.com/watchos/) is Apple's mobile operating system for its Apple Watches. It is based on iOS, and introduced in 2015.
