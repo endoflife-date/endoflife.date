@@ -71,14 +71,14 @@ releases:
 
 ---
 
-> [ClamAV®](https://www.clamav.net/) is an open source antivirus engine for detecting trojans,
+> [ClamAV](https://www.clamav.net/) is an open source antivirus engine for detecting trojans,
 > viruses, malware & other malicious threats.
 
 LTS releases are supported for at least three years, and new LTS release are identified
-approximately every two years. Each LTS release are supported with critical patch versions and
+approximately every two years. Each LTS release is supported with critical patch versions and
 access to download signatures.
 
 Regular (non-LTS) releases are supported with critical patch versions for at least four months from
 the initial publication date of the next release, or until the next-next release is published.
-Non-LTS releases will be allowed access to download signatures until at least four months after the
+Non-LTS releases are allowed access to download signatures until at least four months after the
 next-next release is published.
