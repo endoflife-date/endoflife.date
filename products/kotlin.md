@@ -55,3 +55,7 @@ releases:
 > (e.g., for frontend web applications using React) or native code (via LLVM); e.g., for native iOS apps sharing business logic with Android apps.
   
 Only the latest version sees active development and gets security fixes.
+
+## [API Compatibility](https://kotlinlang.org/docs/whatsnew16.html#supporting-previous-api-versions-for-a-longer-period)
+
+Development is supported for three previous API versions, along with the current stable one.
