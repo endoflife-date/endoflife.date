@@ -1,5 +1,5 @@
 ---
-title: macOS
+title: Apple macOS
 alternate_urls:
 -   /mac
 category: os

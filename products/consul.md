@@ -1,5 +1,5 @@
 ---
-title: Consul
+title: Hashicorp Consul
 permalink: /consul
 category: server-app
 iconSlug: consul

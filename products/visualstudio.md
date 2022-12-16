@@ -1,5 +1,5 @@
 ---
-title: Visual Studio
+title: Microsoft Visual Studio
 category: app
 releaseLabel: '__RELEASE_CYCLE__ __CODENAME__'
 iconSlug: visualstudio

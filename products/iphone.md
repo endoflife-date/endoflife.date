@@ -2,7 +2,7 @@
 permalink: /iphone
 alternate_urls:
 -   /ios
-title: iPhone
+title: Apple iPhone
 category: device
 iconSlug: apple
 releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_and_iPadOS_devices#In_production_and_supported

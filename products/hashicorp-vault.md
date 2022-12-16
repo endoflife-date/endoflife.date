@@ -1,5 +1,5 @@
 ---
-title: Vault
+title: Hashicorp Vault
 permalink: /hashicorp-vault
 alternate_urls:
 -   /vault
