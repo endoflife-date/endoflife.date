@@ -9,9 +9,10 @@ activeSupportColumn: true
 versionCommand: npm list vue
 releaseDateColumn: true
 iconSlug: vuedotjs
+
 auto:
--   git: https://github.com/vuejs/core.git
--   git: https://github.com/vuejs/vue.git
+-   npm: vue
+
 purls:
 -   repology: vue.js
 -   repology: vue
