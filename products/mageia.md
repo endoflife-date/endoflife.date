@@ -14,6 +14,7 @@ releaseLabel: "mageia __RELEASE_CYCLE__"
 releases:
 -   releaseCycle: "8"
     releaseDate: 2021-02-26
+    eol: false
 -   releaseCycle: "7"
     eol: 2021-06-30
     releaseDate: 2019-07-01
