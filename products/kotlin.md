@@ -32,7 +32,7 @@ releases:
     latestReleaseDate: 2022-04-18
     releaseDate: 2021-11-11
 -   releaseCycle: "1.5"
-    eol:2021-11-26
+    eol: 2021-11-26
     latest: "1.5.32"
     latestReleaseDate: 2021-11-26
     releaseDate: 2021-04-26
