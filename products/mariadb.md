@@ -34,8 +34,8 @@ releases:
 -   releaseCycle: "10.10"
     eol: 2023-11-17
     latest: "10.10.2"
-    releaseDate: 2022-11-17
-    latestReleaseDate: 2022-11-17
+    releaseDate: 2022-11-07
+    latestReleaseDate: 2022-11-07
 -   releaseCycle: "10.9"
     eol: 2023-08-22
     latest: "10.9.4"

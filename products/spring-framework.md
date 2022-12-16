@@ -12,8 +12,8 @@ releases:
 -   releaseCycle: "6.0"
     eol: 2024-08-31
     support: 2024-08-31
-    latest: "6.0.2"
-    latestReleaseDate: 2022-11-24
+    latest: "6.0.3"
+    latestReleaseDate: 2022-12-15
     releaseDate: 2022-11-16
 -   releaseCycle: "5.3"
     lts: true

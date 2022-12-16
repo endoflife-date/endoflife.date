@@ -18,9 +18,9 @@ releases:
 -   releaseCycle: "9"
     support: 2023-08-08
     eol: 2024-02-08
-    latest: '9.43.0'
+    latest: '9.44.0'
     lts: false
-    latestReleaseDate: 2022-12-06
+    latestReleaseDate: 2022-12-15
     releaseDate: 2022-02-08
 -   releaseCycle: "8"
     support: 2022-07-26

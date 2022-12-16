@@ -40,7 +40,7 @@ releases:
     latest: "1.0.28"
     lts: false
     latestReleaseDate: 2016-09-27
-    releaseDate: 2015-10-26
+    releaseDate: 2015-10-27
 
 ---
 
