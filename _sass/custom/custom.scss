@@ -20,6 +20,8 @@ a {
       clear: both;
     }
   }
+  // Icons are 50x50, so this adds another 10 pixels
+  min-height: 60px;
 }
 .productlogo {
   float: left;
