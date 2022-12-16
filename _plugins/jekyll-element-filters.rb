@@ -1,6 +1,6 @@
 require 'nokogiri'
 
-module LiquidFilter
+module ElementFilter
   def extract_element(html, element)
     entries = []
     @doc = Nokogiri::HTML::DocumentFragment.parse(html)
@@ -21,7 +21,7 @@ module LiquidFilter
   end
 end
 
-Liquid::Template.register_filter(LiquidFilter)
+Liquid::Template.register_filter(ElementFilter)
 
 
 

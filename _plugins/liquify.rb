@@ -1,6 +1,6 @@
 # https://fettblog.eu/snippets/jekyll/liquid-in-frontmatter/
 # This lets use use Liquid templating in front matter
-module LiquidFilter
+module LiquifyFilter
   def liquify(input)
     Liquid::Template.parse(input).render(@context)
   end
@@ -20,4 +20,4 @@ module LiquidFilter
     URI::parse(uri_str).send(part.to_s)
   end
 end
-Liquid::Template.register_filter(LiquidFilter)
+Liquid::Template.register_filter(LiquifyFilter)
