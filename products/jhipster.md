@@ -49,7 +49,7 @@ releases:
     eol: 2016-03-23
     latest: "2.27.2"
     latestReleaseDate: 2016-03-07
-    releaseDate: 2015-01-09
+    releaseDate: 2015-01-12
 
 -   releaseCycle: "1"
     eol: 2015-01-09
@@ -61,7 +61,7 @@ releases:
     eol: 2014-09-01
     latest: "0.18.1"
     latestReleaseDate: 2014-07-24
-    releaseDate: 2013-11-29
+    releaseDate: 2013-10-21
 
 ---
 
