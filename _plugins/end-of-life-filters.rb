@@ -47,6 +47,15 @@ module EndOfLifeFilter
     e.first.remove if e&.first
     doc.to_html
   end
+
+  # Remove the '.0' if the input ends with '.0', else do nothing.
+  #
+  # Usage:
+  # {{ '2.1.0' | drop_zero_patch }} => '2.1'
+  # {{ '2.1.1' | drop_zero_patch }} => '2.1.1'
+  def drop_zero_patch(input)
+    input.end_with?(".0") ? input[0, input.length - 2] : input
+  end
 end
 
 Liquid::Template.register_filter(EndOfLifeFilter)

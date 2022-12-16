@@ -2,8 +2,7 @@
 title: WordPress
 category: server-app
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
-changelogTemplate: https://wordpress.org/support/wordpress-version/version-{{"__LATEST__"
-  | replace:'.','-'}}/
+changelogTemplate: "https://wordpress.org/support/wordpress-version/version-{{'__LATEST__' | drop_zero_patch | replace:'.','-'}}/"
 activeSupportColumn: true
 releases:
 -   releaseCycle: "6.1"
