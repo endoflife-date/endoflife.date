@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{% if page.iconSlug and page.iconSlug != "NA" %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+{% elsif page.iconSlug != "NA" %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
+{% endif %}
+
+<div class="description">{{content | extract_element:'blockquote' | first }}</div>
+
 {% if page.releaseImage %}
 <img alt="Release Schedule Image Gantt Chart for {{page.title}}" src="{{page.releaseImage}}" />
 {% endif %}
@@ -195,13 +203,9 @@ or +1 (EoL is in the future)
 {% endfor %}
 </table>
 
-{% if page.iconSlug and page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
-{% elsif page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
-{% endif %}
-
-<div class="maincontent">{{content}}</div>
+<div class="policytext">
+  {{content | remove_first_element:'blockquote'}}
+</div>
 {% if page.releasePolicyLink and page.releasePolicyLink != "" %}
 <p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>. </p>
 {% endif %}
