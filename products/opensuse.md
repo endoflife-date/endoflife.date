@@ -5,15 +5,15 @@ iconSlug: opensuse
 permalink: /opensuse
 alternate_urls:
 -   /opensuseleap
+versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://en.opensuse.org/Lifetime
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
+changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
+releaseLabel: "Leap __RELEASE_CYCLE__"
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Life
-versionCommand: cat /usr/lib/os-release
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
-changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
-releaseLabel: "openSUSE Leap __RELEASE_CYCLE__"
 
 releases:
 -   releaseCycle: "15.4"

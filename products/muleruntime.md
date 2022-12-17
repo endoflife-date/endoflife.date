@@ -8,12 +8,12 @@ alternate_urls:
   - /mulesoft-runtimes
   - /mule-runtimes
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
+changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
 activeSupportColumn: Standard Support
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
-changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
-releaseLabel: "Mule Runtime (__RELEASE_CYCLE__)"
+
 releases:
   - releaseCycle: "4.4"
     eol: 2025-02-07
@@ -75,4 +75,4 @@ Each release gets:
 
 **Extended Support**: Technical support on and around the software for production environments, including troubleshooting, diagnosis and resolution of issues which do not require source code patches. Patches for Critical Security Vulnerabilities.
 
-**End-of-Life**: End-of-Life versions are not available or supported on CloudHub/Anypoint Studio. 
+**End-of-Life**: End-of-Life versions are not available or supported on CloudHub/Anypoint Studio.

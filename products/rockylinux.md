@@ -1,20 +1,21 @@
 ---
-releaseImage: https://global.discourse-cdn.com/standard14/uploads/rockylinux/original/2X/a/aa4ff9ead76ab2a0e52518e778a69cc666add4e9.png
 title: Rocky Linux
-permalink: /rocky-linux
 category: os
-versionCommand: cat /etc/os-release
 iconSlug: rockylinux
+permalink: /rocky-linux
 alternate_urls:
 -   /rocky
 -   /rockylinux
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
+releaseImage: https://global.discourse-cdn.com/standard14/uploads/rockylinux/original/2X/a/aa4ff9ead76ab2a0e52518e778a69cc666add4e9.png
 activeSupportColumn: true
 releaseDateColumn: true
-releaseLabel: "Rocky Linux __RELEASE_CYCLE__"
+
 auto:
 -   distrowatch: rocky
     regex: '^Distribution Release: Rocky Linux (?P<major>\d)\.(?P<minor>\d)$'
+
 releases:
 -   releaseCycle: "9"
     support: 2025-05-31

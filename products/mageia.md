@@ -3,13 +3,12 @@ title: Mageia
 category: os
 iconSlug: NA
 permalink: /mageia
+versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://www.mageia.org/support/
+changelogTemplate: https://wiki.mageia.org/en/Mageia___RELEASE_CYCLE___Release_Notes
 releaseDateColumn: true
 releaseColumn: false
 eolColumn: Supported
-versionCommand: cat /usr/lib/os-release
-changelogTemplate: https://wiki.mageia.org/en/Mageia___RELEASE_CYCLE___Release_Notes
-releaseLabel: "mageia __RELEASE_CYCLE__"
 
 releases:
 -   releaseCycle: "8"

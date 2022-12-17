@@ -13,11 +13,11 @@ releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support Status
 versionCommand: cat /etc/os-release /etc/lsb-release
+releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 
-releaseLabel: |
-  m{{"__RELEASE_CYCLE__" | split:'-' | last}}
 auto:
 -   custom: true
+
 releases:
   # Active Milestones
 -   releaseCycle: "cos-101"

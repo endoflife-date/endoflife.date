@@ -1,14 +1,14 @@
 ---
 title: CakePHP
+category: framework
+iconSlug: cakephp
 permalink: /cakephp
 alternate_urls:
 -   /cake-php
 -   /cake
-category: framework
-iconSlug: cakephp
 releasePolicyLink: https://book.cakephp.org/4/en/release-policy.html
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
-releaseLabel: "CakePHP __RELEASE_CYCLE__ __CODENAME__"
+releaseLabel: "__RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
@@ -233,16 +233,16 @@ releases:
 > [CakePHP](https://cakephp.org/) is a free & open source PHP web development framework.  It follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 Have a look at the [Bakery](https://bakery.cakephp.org/) for fresh [releases](https://bakery.cakephp.org/categories/release.html).
-  
+
 ## PHP Support
 
 Version    | Min PHP | Max PHP
 -----------|---------|--------
 4.4        | 7.4     | Latest
-4.0 - 4.3  | 7.2     | 
+4.0 - 4.3  | 7.2     |
 3.4 - 3.10 | 5.6     | 7.4
 3.2 - 3.3  | 5.5     |
 3.0 - 3.1  | 5.4     |
 2          | 5.4     | 7.4
- 
+
 See [Version map](https://github.com/cakephp/cakephp/wiki#version-map)
