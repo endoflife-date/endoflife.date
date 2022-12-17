@@ -9,6 +9,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 auto:
 -   git: https://github.com/jenkinsci/jenkins.git
+    regex: '^jenkins-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+
 releases:
 -   releaseCycle: "2"
     releaseLabel: "Regular"
