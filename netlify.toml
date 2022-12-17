@@ -1,5 +1,8 @@
 [build]
   command = """
+  git submodule update --remote
+  pip install -r requirements.txt
+  python _auto/latest.py
   bundle exec jekyll build
   """
   publish = "_site/"
@@ -7,6 +10,9 @@
 [context.deploy-preview]
   command = """
   printf "url: %s" "$DEPLOY_PRIME_URL" > _config_netlify.yml
+  git submodule update --remote
+  pip install -r requirements.txt
+  python _auto/latest.py
   bundle exec jekyll build --config _config.yml,_config_netlify.yml
   """
 
