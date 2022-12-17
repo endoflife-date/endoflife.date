@@ -7,22 +7,22 @@ alternate_urls:
 -   /aosp
 -   /androidos
 releasePolicyLink: https://developer.android.com/about/versions
+changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
-releaseLabel: "Android __RELEASE_CYCLE__ '__CODENAME__'"
-changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+
 releases:
 -   releaseCycle: "13"
     codename: Tiramisu
-    releaseLabel: Android 13 'Tiramisu'
     eol: false
     releaseDate: 2022-08-15
 
 -   releaseCycle: "12.1"
     codename: Snow Cone v2
-    releaseLabel: Android 12.1 'Snow Cone v2' (aka 12L)
+    releaseLabel: 12.1 'Snow Cone v2' (aka 12L)
     eol: false
     releaseDate: 2022-03-07
     link: https://developer.android.com/about/versions/12/12L
@@ -123,7 +123,7 @@ releases:
     releaseDate: 2009-02-09
 
 -   releaseCycle: "1.0"
-    releaseLabel: "Android __RELEASE_CYCLE__"
+    releaseLabel: "__RELEASE_CYCLE__"
     eol: true
     releaseDate: 2008-09-23
 

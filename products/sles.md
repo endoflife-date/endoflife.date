@@ -1,21 +1,19 @@
 ---
 title: SUSE Linux Enterprise Server
 category: os
+iconSlug: suse
 permalink: /sles
 alternate_urls:
 -   /suseenterpriseserver
 -   /suseserver
 -   /suselinuxenterpriseserver
-iconSlug: suse
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"| replace:'SLES ','' | replace:' ','-'}}/
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
-versionCommand: cat /etc/os-release
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"|
-  replace:'SLES ','' | replace:' ','-'}}/
-releaseLabel: "SUSE Linux Enterprise Server __RELEASE_CYCLE__"
 
 releases:
 -   releaseCycle: "15"

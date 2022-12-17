@@ -1,8 +1,8 @@
 ---
 title: Red Hat Enterprise Linux
-permalink: /rhel
 category: os
 iconSlug: redhat
+permalink: /rhel
 alternate_urls:
 -   /redhat
 -   /redhatlinux
@@ -12,7 +12,7 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 activeSupportColumn: true
 releaseDateColumn: true
-releaseLabel: "RHEL __RELEASE_CYCLE__"
+
 releases:
 -   releaseCycle: "9"
     support: 2027-05-31
@@ -60,7 +60,6 @@ releases:
     releaseDate: 2005-02-15
     latestReleaseDate: 2011-02-16
     latest: '4.9'
-
 
 ---
 

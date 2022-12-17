@@ -1,15 +1,15 @@
 ---
 title: Adobe ColdFusion
 category: server-app
-permalink: /coldfusion
-releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
 iconSlug: adobe
+permalink: /coldfusion
+versionCommand: writeoutput(server.coldfusion.productversion);
+releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Core Support
-versionCommand: writeoutput(server.coldfusion.productversion);
-releaseLabel: "ColdFusion __RELEASE_CYCLE__"
+
 releases:
 -   releaseCycle: "2021"
     eol: 2025-11-10
