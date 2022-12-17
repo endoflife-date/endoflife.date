@@ -56,6 +56,10 @@ layout: null
     Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
     Link: /calendar{{page.permalink}}.ics; rel=alternate;type=text/calendar
+  {% elsif page.permalink contains '/docs/api/v' %}
+    {%- comment %}Used contains to match all API version (startswith does not exist){% endcomment %}
+    # unsafe-inline and data: should not be an issue for a static site
+    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com/; style-src 'self' https://unpkg.com/; img-src 'self' data:
   {% elsif page.permalink == '/docs/api' %}
     Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/ 'unsafe-inline'
   {% else %}

@@ -5,5 +5,5 @@ Contributors: https://github.com/endoflife-date/endoflife.date/graphs/contributo
 
 /* SITE */
 Software: Jekyll, Netlify, GitHub, Ruby, GitHub Actions
-Components: Just the Docs Jekyll Theme, Stoplight Elements, Simple Icons
+Components: Just the Docs Jekyll Theme, Stoplight Elements, Swagger UI, Simple Icons
 Logo: adaptation of "An hourglass in a round icon" by David Abián and Serhio Magpie (https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg)
