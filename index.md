@@ -11,7 +11,7 @@ End-of-life (EOL) and support information is [often hard to track, or very badly
 endoflife.date documents EOL dates and support lifecycles for various products.
 
 endoflife.date aggregates data from various sources and presents it in an understandable and
-succinct manner. It also makes the data available using an [easily accessible API](https://endoflife.date/docs/api)
+succinct manner. It also makes the data available using an [easily accessible API](/docs/api/v1/)
 and has iCalendar support.
 
 endoflife.date currently tracks {{ site.pages | where: "layout", "product" | size }} products.
@@ -41,7 +41,7 @@ If you maintain release information for a product (end-of-life dates or support 
 also have a [set of recommendations](/recommendations) along with a checklist on some best practices
 for publishing this information.
 
-And do not hesitate to [play with our API](https://endoflife.date/docs/api). Here are a few awesome
+And do not hesitate to [play with our API](/docs/api/v1/). Here are a few awesome
 tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianblue),
 [end_of_life](https://github.com/MatheusRich/end_of_life), and
 [cicada](https://github.com/mcandre/cicada). Find more on
