@@ -1,5 +1,7 @@
 ---
 title: Symfony
+category: framework
+iconSlug: symfony
 permalink: /symfony
 releasePolicyLink: https://symfony.com/releases
 activeSupportColumn: true
@@ -9,7 +11,6 @@ changelogTemplate: |
 releaseDateColumn: true
 auto:
 -   git: https://github.com/symfony/symfony.git
-category: framework
 releases:
 -   releaseCycle: "6.2"
     releaseDate: 2022-11-30

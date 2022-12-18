@@ -1,7 +1,8 @@
 ---
 title: Wagtail
-permalink: /wagtail
 category: framework
+iconSlug: wagtail
+permalink: /wagtail
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
 activeSupportColumn: true

@@ -1,14 +1,24 @@
 ---
 title: Apple macOS
+category: os
+iconSlug: macos
+permalink: /macos
 alternate_urls:
 -   /mac
-category: os
+releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
+activeSupportColumn: false
+releaseColumn: true
+releaseDateColumn: true
+eolColumn: Service Status
+versionCommand: sw_vers
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
 # Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/apple.py
 auto:
 -   custom: true
+
 releases:
 -   releaseCycle: "13"
     codename: "Ventura"
@@ -77,13 +87,6 @@ releases:
     releaseDate: 2013-10-22
     latestReleaseDate: 2014-09-17
     latest: '10.9.5'
-permalink: /macos
-releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
-activeSupportColumn: false
-releaseColumn: true
-releaseDateColumn: true
-eolColumn: Service Status
-versionCommand: sw_vers
 
 ---
 

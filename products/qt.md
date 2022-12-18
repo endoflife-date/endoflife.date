@@ -1,8 +1,9 @@
 ---
-releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
-permalink: /qt
-category: framework
 title: Qt
+category: framework
+iconSlug: qt
+permalink: /qt
+releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
 versionCommand: qmake --version
 releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"

@@ -1,7 +1,8 @@
 ---
-permalink: /freebsd
 title: FreeBSD
 category: os
+iconSlug: freebsd
+permalink: /freebsd
 releasePolicyLink: https://www.freebsd.org/security/#sup
 changelogTemplate: https://www.freebsd.org/releases/{{"__RELEASE_CYCLE__" | split:'/' | last}}R/
 activeSupportColumn: false

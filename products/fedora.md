@@ -1,16 +1,19 @@
 ---
-permalink: /fedora
 title: Fedora Linux
+category: os
+iconSlug: fedora
+permalink: /fedora
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: cat /etc/fedora-release
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
+
 auto:
 -   distrowatch: fedora
     regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
     template: '{{version}}'
-category: os
+
 releases:
 -   releaseCycle: "37"
     latest: "37"

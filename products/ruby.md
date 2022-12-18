@@ -1,6 +1,8 @@
 ---
-permalink: /ruby
 title: Ruby
+category: lang
+iconSlug: ruby
+permalink: /ruby
 versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
 changelogTemplate: |
@@ -15,7 +17,6 @@ auto:
 purls:
 -   repology: ruby
 -   purl: pkg:docker/library/ruby
-category: lang
 releaseDateColumn: true
 eolColumn: Support Status
 releases:

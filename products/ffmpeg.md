@@ -1,8 +1,8 @@
 ---
 title: FFmpeg
-permalink: /ffmpeg
 category: framework
-icon: FFmpeg
+iconSlug: ffmpeg
+permalink: /ffmpeg
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 versionCommand: ffmpeg -version

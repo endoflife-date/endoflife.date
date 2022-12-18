@@ -1,8 +1,9 @@
 ---
-permalink: /ubuntu
 title: Ubuntu
-versionCommand: lsb_release --release
 category: os
+iconSlug: ubuntu
+permalink: /ubuntu
+versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 changelogTemplate: |
   https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/

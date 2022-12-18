@@ -1,7 +1,8 @@
 ---
-permalink: /python
 title: Python
 category: lang
+iconSlug: python
+permalink: /python
 versionCommand: python --version
 releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |

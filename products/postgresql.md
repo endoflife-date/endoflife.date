@@ -1,11 +1,12 @@
 ---
 title: PostgreSQL
+category: db
+iconSlug: postgresql
 permalink: /postgresql
 alternate_urls:
 -   /postgres
 -   /pg
 releasePolicyLink: https://www.postgresql.org/support/versioning/
-category: db
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
 eolColumn: Support Status

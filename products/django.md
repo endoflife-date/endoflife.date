@@ -1,7 +1,8 @@
 ---
 title: Django
-permalink: /django
 category: framework
+iconSlug: django
+permalink: /django
 releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
 releaseImage: https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/

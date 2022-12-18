@@ -1,7 +1,8 @@
 ---
 title: Elasticsearch
-permalink: /elasticsearch
 category: db
+iconSlug: elasticsearch
+permalink: /elasticsearch
 releasePolicyLink: https://www.elastic.co/support/eol
 # Take the latest version, and drop the patch version to get MAJOR.MINOR
 changelogTemplate: >

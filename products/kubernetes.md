@@ -1,7 +1,8 @@
 ---
-permalink: /kubernetes
 title: Kubernetes
 category: server-app
+iconSlug: kubernetes
+permalink: /kubernetes
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/hwofyi7fnfgyjzfs6er9ha6mvxnakw7.png

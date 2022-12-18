@@ -1,9 +1,10 @@
 ---
 title: Go
+category: lang
+iconSlug: go
 permalink: /go
 alternate_urls:
 -   /golang
-category: lang
 releasePolicyLink: https://go.dev/doc/devel/release#policy
 changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported

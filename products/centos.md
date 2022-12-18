@@ -1,7 +1,8 @@
 ---
-permalink: /centos
 title: CentOS
 category: os
+iconSlug: centos
+permalink: /centos
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true

@@ -1,8 +1,9 @@
 ---
-permalink: /debian
 title: Debian
-versionCommand: cat /etc/os-release
 category: os
+iconSlug: debian
+permalink: /debian
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: true

@@ -1,7 +1,8 @@
 ---
-permalink: /redis
 title: Redis
 category: db
+iconSlug: redis
+permalink: /redis
 releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false

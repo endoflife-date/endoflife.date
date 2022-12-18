@@ -1,7 +1,8 @@
 ---
 title: MariaDB
-permalink: /mariadb
 category: db
+iconSlug: mariadb
+permalink: /mariadb
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 changelogTemplate: https://mariadb.com/kb/en/mariadb-{{"__LATEST__" | replace:'.','-'}}-changelog/
 activeSupportColumn: false

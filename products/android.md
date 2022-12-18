@@ -1,11 +1,12 @@
 ---
 title: Android OS
+category: os
+iconSlug: android
+permalink: /android
 alternate_urls:
 -   /aosp
 -   /androidos
-permalink: /android
 releasePolicyLink: https://developer.android.com/about/versions
-category: os
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
