@@ -1,7 +1,8 @@
 ---
 title: MongoDB Server
-permalink: /mongodb
 category: db
+iconSlug: mongodb
+permalink: /mongodb
 releasePolicyLink: https://www.mongodb.com/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false

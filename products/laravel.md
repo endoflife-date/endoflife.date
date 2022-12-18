@@ -1,7 +1,8 @@
 ---
 title: Laravel
-permalink: /laravel
 category: framework
+iconSlug: laravel
+permalink: /laravel
 releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true

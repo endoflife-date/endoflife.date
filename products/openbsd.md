@@ -1,7 +1,8 @@
 ---
-permalink: /openbsd
 title: OpenBSD
 category: os
+iconSlug: openbsd
+permalink: /openbsd
 versionCommand: uname -r
 activeSupportColumn: false
 releaseDateColumn: true

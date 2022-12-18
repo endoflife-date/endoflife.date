@@ -2,10 +2,8 @@
 layout: default
 ---
 
-{% if page.iconSlug and page.iconSlug != "NA" %}
+{% if page.iconSlug != "NA" %}
 <img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
-{% elsif page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
 {% endif %}
 
 <div class="description">{{content | extract_element:'blockquote' | first }}</div>

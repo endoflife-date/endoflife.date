@@ -1,7 +1,8 @@
 ---
-permalink: /netbsd
 title: NetBSD
 category: os
+iconSlug: netbsd
+permalink: /netbsd
 versionCommand: uname -r
 activeSupportColumn: false
 releasePolicyLink: https://www.netbsd.org/releases/

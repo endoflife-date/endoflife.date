@@ -1,7 +1,8 @@
 ---
 title: ROS
-permalink: /ros
 category: os
+iconSlug: ros
+permalink: /ros
 releasePolicyLink: https://wiki.ros.org/Distributions
 activeSupportColumn: false
 releaseColumn: true

@@ -1,7 +1,8 @@
 ---
-permalink: /powershell
 category: app
 title: Microsoft PowerShell
+iconSlug: powershell
+permalink: /powershell
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
 changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md#{{"__LATEST__"

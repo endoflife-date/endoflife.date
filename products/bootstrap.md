@@ -1,7 +1,8 @@
 ---
 title: Bootstrap
-permalink: /bootstrap
 category: framework
+iconSlug: bootstrap
+permalink: /bootstrap
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:

@@ -1,7 +1,8 @@
 ---
 title: NumPy
-permalink: /numpy
 category: framework
+iconSlug: numpy
+permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
 releaseDateColumn: true

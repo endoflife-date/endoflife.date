@@ -1,8 +1,9 @@
 ---
 title: Drupal
+category: server-app
+iconSlug: drupal
 permalink: /drupal
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-category: server-app
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true

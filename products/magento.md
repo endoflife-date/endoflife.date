@@ -1,7 +1,8 @@
 ---
 title: Magento
-permalink: /magento
 category: server-app
+iconSlug: magento
+permalink: /magento
 releasePolicyLink: https://magento.com/tech-resources/download
 changelogTemplate: https://devdocs.magento.com/guides/v{{"__RELEASE_CYCLE__" |split:'.'|slice:0,2|join:'.'
   }}/release-notes/open-source-{{"__LATEST__" | replace:'.','-'}}.html

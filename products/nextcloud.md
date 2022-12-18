@@ -1,10 +1,10 @@
 ---
 title: Nextcloud
 category: server-app
+iconSlug: nextcloud
+permalink: /nextcloud
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
-permalink: /nextcloud
-icon: nextcloud
 releaseDateColumn: true
 versionCommand: su -m www -c 'php $WEBROOT/occ config:system:get version'
 

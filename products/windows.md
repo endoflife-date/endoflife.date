@@ -1,8 +1,9 @@
 ---
 title: Microsoft Windows
+category: os
+iconSlug: windows
 permalink: /windows
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
-category: os
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true

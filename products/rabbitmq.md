@@ -1,7 +1,8 @@
 ---
 title: RabbitMQ
-permalink: /rabbitmq
 category: server-app
+iconSlug: rabbitmq
+permalink: /rabbitmq
 releasePolicyLink: https://www.rabbitmq.com/versions.html
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
 activeSupportColumn: General Support
