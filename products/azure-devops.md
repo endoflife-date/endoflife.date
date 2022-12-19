@@ -36,7 +36,7 @@ releases:
     support: 2023-01-10
     eol: 2028-01-11
     latest: "2018.3.2patch17"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-17
     releaseDate: 2017-11-15
 
@@ -44,7 +44,7 @@ releases:
     support: 2022-01-11
     eol: 2027-01-11
     latest: "2017.3.1patch15"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2017-update3#details-of-whats-new-in-team-foundation-server-2017-update-31-patch-15
     releaseDate: 2016-11-16
 
@@ -52,7 +52,7 @@ releases:
     support: 2020-10-13
     eol: 2025-10-14
     latest: "2015.4.2patch8"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2015-update4-vs#details-of-whats-new-in-team-foundation-server-2015-update-42-patch-8
     releaseDate: 2015-07-30
 
@@ -60,7 +60,7 @@ releases:
     support: 2019-04-09
     eol: 2024-04-09
     latest: "2013.5"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
     releaseDate: 2014-01-15
 
@@ -68,7 +68,7 @@ releases:
     support: 2019-01-09
     eol: 2023-01-10
     latest: "2012.4"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     link: https://learn.microsoft.com/troubleshoot/developer/visualstudio/installation/visual-studio-2012-update-4
     releaseDate: 2012-10-31
 
@@ -76,14 +76,14 @@ releases:
     support: 2015-07-14
     eol: 2020-07-14
     latest: "2010.SP1"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2010-06-29
 
 -   releaseCycle: "2005"
     support: 2011-07-12
     eol: 2016-07-12
     latest: "2005.SP2"
-    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
+    releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2006-06-17
 
 ---
