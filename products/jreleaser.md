@@ -20,7 +20,7 @@ releases:
     support: true
     latest: "1.3.1"
     latestReleaseDate: 2022-11-05
-    releaseDate: 2022-03-26
+    releaseDate: 2022-04-10
 
 -   releaseCycle: "0"
     eol: 2022-04-10

@@ -28,7 +28,7 @@ releases:
     eol: false
     latest: "9.0.70"
     link: https://tomcat.apache.org/download-90.cgi
-    releaseDate: 2015-11-13
+    releaseDate: 2017-09-27
     latestReleaseDate: 2022-12-01
 -   releaseCycle: "8.5"
     eol: 2024-03-31
@@ -40,7 +40,7 @@ releases:
     eol: 2018-06-30
     latest: "8.0.53"
     link: https://tomcat.apache.org/download-80.cgi
-    releaseDate: 2013-08-01
+    releaseDate: 2014-01-29
     latestReleaseDate: 2018-06-29
 -   releaseCycle: "7"
     eol: 2021-03-31
