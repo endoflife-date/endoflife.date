@@ -76,12 +76,14 @@ releases:
     support: 2015-07-14
     eol: 2020-07-14
     latest: "2010.SP1"
+    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
     releaseDate: 2010-06-29
 
 -   releaseCycle: "2005"
     support: 2011-07-12
     eol: 2016-07-12
     latest: "2005.SP2"
+    releaseLabel: "Team Foundation Server __RELEASE_CYCLE__"
     releaseDate: 2006-06-17
 
 ---
