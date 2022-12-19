@@ -154,10 +154,10 @@ releases:
 
 ---
 
-> [FreeBSD](https://www.freebsd.org/) is an operating system used to power modern servers, desktops, and embedded platforms.
+> [FreeBSD](https://www.freebsd.org/) is an operating system for servers, desktops, and embedded platforms.
 
-Each major version’s stable branch (named `stable/x`) is explicitly supported for 5 years, while each individual point
-release (named `releng/x.y`) is only supported for three months after the next point release.
+Each major version’s stable branch (named `stable/x`) is supported for five years. 
 
-The _Security Support_ column indicates the earliest date on which support for that branch or release will end. Please
-note that these dates may be pushed back if circumstances warrant it.
+Each individual point release (branch named `releng/x.y`) is supported for three months after the next point release from the same branch.
+
+The _Security Support_ column indicates the earliest date on which support for that branch or release will end. 
