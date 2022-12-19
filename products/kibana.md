@@ -1,6 +1,6 @@
 ---
 title: Kibana
-category: db
+category: server-app
 iconSlug: kibana
 permalink: /kibana
 releasePolicyLink: https://www.elastic.co/support_policy
