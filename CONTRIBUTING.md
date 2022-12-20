@@ -245,7 +245,7 @@ releases:
     # A link to the changelog for the latest release
     # (optional, default = the URL generated from changelogTemplate if it is provided).
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
-    # or if the changelogTemplate generated link must be overriden.
+    # or if the changelogTemplate generated link must be overridden.
     # Do not use a localized URL (such as one containing en-us) if possible.
     link: https://example.com/news/2021-12-25/release-1.2.3
 
