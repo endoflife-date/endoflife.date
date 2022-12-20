@@ -1,15 +1,15 @@
 ---
-title: Kibana
+title: Logstash
 category: server-app
-iconSlug: kibana
-permalink: /kibana
+iconSlug: logstash
+permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy
-changelogTemplate: "https://www.elastic.co/guide/en/kibana/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
+changelogTemplate: "https://www.elastic.co/guide/en/logstash/{{'__LATEST__'|split:'.'|pop|join:'.'}}/logstash-{{'__LATEST__'|replace:'.','-'}}.html"
 eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/elastic/kibana.git
+-   git: https://github.com/elastic/logstash.git
 
 releases:
 -   releaseCycle: "8"
@@ -34,18 +34,18 @@ releases:
 
 ---
 
-> [Kibana](https://www.elastic.co/kibana/) is a free and open user interface that lets you visualize
-> your Elasticsearch data and navigate the Elastic Stack.
+> [Logstash](https://www.elastic.co/logstash/) is a tool to collect, process, and forward events and
+> log messages.
 
-Kibana is part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), also known as the
+Logstash is part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), also known as the
 [ELK Stack](https://www.elastic.co/what-is/elk-stack). It shares the same support policy as the
-other products in the Elastic Stack (Elasticsearch, Logstash, Beats...).
+other products in the Elastic Stack (Elasticsearch, Kibana, Beats...).
 
 Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
 maintenance for each major release series for the longest of 30 months after the GA date of the
 major release or 6 months after the GA date of the subsequent major release.
 
-End of life dates for Kibana can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
+End of life dates for Logstash can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
 
 *[GA]: General Availability
