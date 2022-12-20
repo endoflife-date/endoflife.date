@@ -63,7 +63,18 @@ activeSupportColumn: true
 
 > [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture.
 
+## Support Policy
+
 - Only latest version sees active development.
 - The previous minor version, and the last minor version of the previous major version gets security and critical bug fixes.
 
 Grafana Cloud, the hosed Grafana offering from Grafana Labs has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
+
+## [Release Schedule](https://grafana.com/blog/2022/12/13/grafana-releases-new-2023-release-schedule/)
+
+Starting from January 2023, a monthly Grafana release cycle applies:
+
+- On even-numbered months (February, April, etc.) a minor version will be released with new features, bug fixes, and security updates.
+- On odd-numbered months (March, May, etc.) patch releases will be made, which will only include bug fixes and security updates.
+
+Release builds are cut a week in advance, to validate and prepare for each release internally.
