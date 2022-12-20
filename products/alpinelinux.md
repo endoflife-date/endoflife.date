@@ -1,20 +1,23 @@
 ---
+title: Alpine Linux
+category: os
+iconSlug: alpinelinux
 permalink: /alpine
 alternate_urls:
 -   /alpinelinux
-title: Alpine Linux
-category: os
+versionCommand: cat /etc/alpine-release
 releasePolicyLink: https://alpinelinux.org/releases/
-iconSlug: alpinelinux
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
 activeSupportColumn: false
-versionCommand: cat /etc/alpine-release
 releaseDateColumn: true
+
 identifiers:
 -   purl: pkg:os/alpinelinux
+
 auto:
-  # upstream does not support filtering https://git.alpinelinux.org/aports
+# upstream does not support filtering https://git.alpinelinux.org/aports
 -   git: https://github.com/alpinelinux/aports.git
+
 releases:
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
@@ -94,8 +97,13 @@ releases:
 
 ---
 
-> [Alpine Linux](https://alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
+> [Alpine Linux](https://alpinelinux.org/) is a security-oriented, lightweight Linux distribution
+> based on musl libc and busybox.
 
-There are several releases of Alpine Linux available at the same time. There is no fixed release cycle but rather a snapshot of edge is taken every 6 months as a release. Stable releases are supported normally for 2 years. Security fixes beyond that are on request and when patches are available.
+There are several releases of Alpine Linux available at the same time. There is no fixed release
+cycle but rather a snapshot of edge is taken every 6 months as a release. Stable releases are
+supported normally for 2 years. Security fixes beyond that are on request and when patches are
+available.
 
-Only the latest release (ie `v3.16` at this time) gets bug fixes, prior supported releases only get security fixes.
+Only the latest release (i.e. `v3.16` at this time) gets bug fixes, prior supported releases only
+get security fixes.
