@@ -38,7 +38,7 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
     If it is a product page, add a link to the API page
   {% endcomment %}
 
-  {% assign imgsrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ " %}
+  {% assign imgsrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
   {% if page.layout == 'product' %}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
     {% comment %}
