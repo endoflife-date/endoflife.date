@@ -41,6 +41,5 @@ releases:
 
 Only the latest version of each major release is supported.
 
-Sonatype provide [commercial support](https://sonatype.com/usage/software-support-policy) with
-additional features with their [Nexus Repository Pro offer](https://www.sonatype.com/products/repository-oss-vs-pro-features).
-
+Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
+additional features with [Nexus Repository Pro](https://www.sonatype.com/products/repository-oss-vs-pro-features).
