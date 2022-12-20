@@ -6,7 +6,6 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
 activeSupportColumn: true
 releaseDateColumn: true
-iconSlug: NA
 changelogTemplate: https://euro-linux.com/eurolinux/technical-specifications/
 auto:
 -   distrowatch: eurolinux

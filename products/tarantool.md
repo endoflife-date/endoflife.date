@@ -8,7 +8,6 @@ changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST_
 auto:
 -   git: https://github.com/tarantool/tarantool.git
 category: db
-iconSlug: NA
 eolColumn: Support Status
 releaseDateColumn: false
 releases:

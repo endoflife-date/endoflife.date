@@ -1,7 +1,6 @@
 ---
 title: Mageia
 category: os
-iconSlug: NA
 permalink: /mageia
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://www.mageia.org/support/

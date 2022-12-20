@@ -3,7 +3,6 @@ title: MediaWiki
 category: server-app
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/of9ibgdvah78ld94hnu3ob5qeiwy4em.png
-iconSlug: NA
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
@@ -69,6 +68,6 @@ releases:
 
 MediaWiki releases are made about every 6 months, with every fourth release (i.e. about every 2 years) being an LTS (Long-Term Support) release branch. LTS release branches receive security support and bug fixes for three years after their initial release, while non-LTS release branches are supported for one year after their initial release.
 
-Since Version 1.36, MediaWiki only supports [upgrading from two major long-term support releases (LTS) ago][upgrade]. Upgrades from older versions of MediaWiki will have to be performed in multiple steps. 
+Since Version 1.36, MediaWiki only supports [upgrading from two major long-term support releases (LTS) ago][upgrade]. Upgrades from older versions of MediaWiki will have to be performed in multiple steps.
 
 [upgrade]: https://phabricator.wikimedia.org/T259771 "RFC: Drop support for older database upgrades on MediaWiki Phabricator"

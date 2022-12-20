@@ -3,7 +3,6 @@ title: Palo Alto Networks PAN-OS
 category: os
 permalink: /panos
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-iconSlug: NA
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true

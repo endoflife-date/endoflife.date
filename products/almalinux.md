@@ -6,7 +6,6 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
 activeSupportColumn: true
 releaseDateColumn: true
-iconSlug: NA
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 purls:
 -   purl: pkg:os/almalinux

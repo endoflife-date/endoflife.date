@@ -1,7 +1,6 @@
 ---
 title: FileMaker Platform
 category: app
-iconSlug: NA
 permalink: /filemaker
 releasePolicyLink: https://www.filemaker.com/support/product-availability.html
 activeSupportColumn: false

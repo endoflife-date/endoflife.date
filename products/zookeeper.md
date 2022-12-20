@@ -15,7 +15,6 @@ purls:
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
-iconSlug: NA
 auto:
 -   maven: org.apache.zookeeper/zookeeper
 releases:

@@ -1,7 +1,6 @@
 ---
 title: Grails Framework
 category: framework
-iconSlug: NA
 permalink: /grails
 alternate_urls:
 -   /grails-framework

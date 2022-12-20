@@ -1,7 +1,6 @@
 ---
 title: ClamAV
 category: app
-iconSlug: NA
 permalink: /clamav
 releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"

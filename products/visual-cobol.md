@@ -1,7 +1,6 @@
 ---
 title: Visual COBOL
 category: lang
-iconSlug: NA
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
 changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"

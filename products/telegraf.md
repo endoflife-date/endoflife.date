@@ -31,7 +31,6 @@ releases:
     releaseDate: 2021-12-15
     latest: "1.21.4"
     latestReleaseDate: 2022-02-16
-iconSlug: NA
 permalink: /telegraf
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 releaseColumn: true
@@ -43,5 +42,5 @@ discontinuedColumn: false
 > [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
 
 Telegraf is based on a plugin system, and this page only covers the Telegraf server.
-Only the latest two minor releases are supported with maintenance patch releases. 
+Only the latest two minor releases are supported with maintenance patch releases.
 Compatibility is not guaranteed across major releases. Each major release is supported for a minimum of 12 months.
