@@ -93,7 +93,7 @@ Releases are fully supported for 2 minor versions from initial stable release. D
 
 **Drupal 9.4** will receive security coverage until June 21, 2023 when Drupal 10.1.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
 
-**Drupal 9.3** will receive security coverage until December 14, 2022 when Drupal 9.5.0 and 10.0.0 are [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current).
+**Drupal 9.3** received security coverage until December 15, 2022 when Drupal 9.5.0 and 10.0.0 were [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current).
 
 **Drupal 9.2** received security coverage until June 15, 2022 when Drupal 9.4.0 was released.
 
