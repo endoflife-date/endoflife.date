@@ -7,7 +7,7 @@ pip install -r requirements.txt
 # If the latest.py script fails,
 # We don't want to raise any errors
 # just undo the changes, and carry on
-if ! python _auto/latest.py ; then
+if ! python3 _auto/latest.py ; then
   git checkout -- products/
 fi
 
