@@ -21,7 +21,7 @@ endoflife.date uses [Jekyll](https://jekyllrb.com/), the static website generato
 
 First, you will need to install Ruby and Bundler. Follow [these instructions](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby, and then run the following commands:
 
-```
+```sh
 # Install bundler
 gem install bundler
 
@@ -42,7 +42,7 @@ bundle exec jekyll --version
 
 Run the site locally:
 
-```bash
+```sh
 $ bundle exec jekyll serve --host localhost --port 4000
 ```
 

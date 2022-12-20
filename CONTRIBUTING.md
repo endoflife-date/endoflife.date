@@ -286,6 +286,28 @@ If all of the checks pass, you can click the "Details" link on the "Deploy Previ
 
 Click through, and validate your changes. Click all the links in the page you've changed and make sure they're not broken.
 
+### Test on your workstation with Docker
+
+You may want to read the [HACKING documentation](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md).
+
+If you have Docker, you can use this one line to test your changes:
+
+```sh
+# Run this command and wait to see "Server running..."
+
+# About the volume Z flag: https://stackoverflow.com/a/35222815/5155484
+# You can use another port by changing the port number on the command line
+
+docker run --rm \
+  -v "$PWD:/srv/jekyll:Z" \
+  -p 4000:4000 \
+  jekyll/jekyll:4 \
+  jekyll serve --port 4000
+
+# Browse: http://127.0.0.1:4000/
+# CTRL+C to exit and kill the instance
+```
+
 ## 📑 Suggested Reading
 
 We have the following documents which should help you get familiar with the project and the codebase. You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
