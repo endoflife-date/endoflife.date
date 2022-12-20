@@ -8,11 +8,11 @@ alternate_urls:
 -   /androidos
 releasePolicyLink: https://developer.android.com/about/versions
 changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
-releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 releases:
 -   releaseCycle: "13"
@@ -146,6 +146,9 @@ releases:
 
 ---
 
->Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.
+> Android is a mobile operating system based on a modified version of the Linux kernel and other
+> open source software, designed primarily for touchscreen mobile devices such as smartphones and
+> tablets.
 
-Major versions of Android are released once a year now, prior to the launch of their Pixel phones. See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) as well.
+Major versions of Android are released once a year now, prior to the launch of their Pixel phones.
+See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) as well.
