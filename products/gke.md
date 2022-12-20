@@ -4,9 +4,9 @@ category: service
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 releases:
 -   releaseCycle: "1.25"
-    eol: 2024-03-31
-    support: 2024-01-31
-    releaseDate: 2022-08-23
+    eol: 2024-02-29
+    support: 2023-12-29
+    releaseDate: 2022-12-14
     latestReleaseDate: 2022-12-14
     latest: '1.25.4-gke.2100'
 -   releaseCycle: "1.24"
