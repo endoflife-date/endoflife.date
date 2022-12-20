@@ -9,7 +9,6 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 versionCommand: drush status
-releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
 -   git: https://github.com/drupal/core.git
 purls:
