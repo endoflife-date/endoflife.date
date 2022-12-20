@@ -16,9 +16,9 @@ releases:
     releaseLabel: "Regular"
     support: true
     eol: false
-    latest: "2.378"
-    latestReleaseDate: 2022-11-15
-    releaseDate: 2016-05-01
+    latest: "2.382"
+    latestReleaseDate: 2022-12-13
+    releaseDate: 2016-04-20
 
 -   releaseCycle: "2.361"
     lts: true
@@ -34,7 +34,8 @@ releases:
     eol: 2022-09-07 # release date of 2.361.1 (next LTS)
     latest: "2.346.3"
     latestReleaseDate: 2022-08-10
-    releaseDate: 2022-05-04
+    releaseDate: 2022-05-03
+
 ---
 
 > [Jenkins](https://www.jenkins.io/) is an open source automation server. It helps automate the parts of software
