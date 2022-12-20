@@ -2,7 +2,6 @@
 title: JHipster
 category: app
 permalink: /jhipster
-iconSlug: NA
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
 changelogTemplate: "https://github.com/jhipster/generator-jhipster/releases/tag/v__LATEST__"

@@ -59,7 +59,6 @@ releases:
     eol: true
 -   releaseCycle: "RN102"
     eol: true
-iconSlug: NA
 permalink: /readynas
 activeSupportColumn: false
 releaseColumn: false

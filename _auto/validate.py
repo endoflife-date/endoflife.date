@@ -41,7 +41,6 @@ def validate_product(name):
             assert isinstance(data["auto"], comments.CommentedSeq)
         assert data["category"] in VALID_CATEGORIES
         assert data["permalink"][0] == "/"
-        assert isinstance(data["iconSlug"], str)
         if "alternate_urls" in data:
             for url in data["alternate_urls"]:
                 assert url[0] == "/"

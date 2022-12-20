@@ -13,7 +13,6 @@ discontinuedColumn: false
 versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
-iconSlug: NA
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 -   releaseCycle: "4.1"

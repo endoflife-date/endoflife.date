@@ -6,7 +6,6 @@ releasePolicyLink: https://www.postfix.org/announcements.html
 changelogTemplate: https://www.postfix.org/announcements/postfix-__LATEST__.html
 activeSupportColumn: false
 versionCommand: postconf mail_version
-iconSlug: NA
 releaseDateColumn: true
 
 auto:

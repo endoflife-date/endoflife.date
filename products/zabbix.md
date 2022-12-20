@@ -10,7 +10,6 @@ auto:
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Security Support
-iconSlug: NA
 purls:
 -   repology: zabbix
 -   purl: pkg:brew/zabbix

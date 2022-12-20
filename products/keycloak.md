@@ -2,7 +2,6 @@
 title: Keycloak
 category: server-app
 # https://github.com/simple-icons/simple-icons/issues/8125
-iconSlug: NA
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://github.com/keycloak/keycloak/releases/tag/__LATEST__"

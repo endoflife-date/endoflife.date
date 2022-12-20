@@ -2,7 +2,6 @@
 title: JReleaser
 category: app
 permalink: /jreleaser
-iconSlug: NA
 versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html
 changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATEST__"

@@ -4,7 +4,6 @@ permalink: /varnish
 category: server-app
 releasePolicyLink: https://varnish-cache.org/releases/
 changelogTemplate: https://varnish-cache.org/releases/rel__LATEST__.html
-iconSlug: NA
 versionCommand: varnishd -V
 auto:
 -   git: https://github.com/varnishcache/varnish-cache.git

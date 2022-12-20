@@ -11,7 +11,6 @@ activeSupportColumn: false
 eolColumn: Service Status
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: NA
 auto:
 -   git: https://github.com/apache/hbase.git
     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'

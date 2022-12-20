@@ -2,7 +2,6 @@
 title: Contao
 category: server-app
 permalink: /contao
-iconSlug: NA
 releasePolicyLink: https://contao.org/release-plan.html
 changelogTemplate: "https://github.com/contao/contao/blob/__RELEASE_CYCLE__/CHANGELOG.md"
 releaseColumn: true

@@ -1,7 +1,6 @@
 ---
 title: Micronaut Framework
 category: framework
-iconSlug: NA
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework

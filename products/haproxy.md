@@ -6,7 +6,6 @@ releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 activeSupportColumn: false
 versionCommand: haproxy -v
-iconSlug: NA
 releaseDateColumn: true
 # Source: https://www.haproxy.org/download/
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json

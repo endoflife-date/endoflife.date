@@ -6,7 +6,6 @@ changelogTemplate: https://github.com/cfengine/core/blob/__RELEASE_CYCLE__.x/Cha
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Supported
-iconSlug: NA
 permalink: /cfengine
 releasePolicyLink: https://cfengine.com
 purls:
