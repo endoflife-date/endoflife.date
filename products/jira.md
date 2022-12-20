@@ -123,6 +123,6 @@ which receive security support and bug fixes for 2 years. Non-LTS releases are s
 6 months (there may be some exception). More information can be found in
 [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
 
-Note that Atlassian will definitely end support for Jira Software Server
+Atlassian will end support for Jira Software Server
 [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud),
 but Jira Software Data Center will still be available.
