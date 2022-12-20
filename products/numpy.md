@@ -10,13 +10,13 @@ releaseDateColumn: true
 auto:
 -   pypi: numpy
 
-# EOL(R) = releaseDate(R)+1yr+1day
+# EOL(R) = releaseDate(R)+2yr+1day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
 -   releaseCycle: "1.24"
     releaseDate: 2022-12-18
     latest: "1.24.0"
-    eol: 2023-12-19
+    eol: 2024-12-19
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-22
