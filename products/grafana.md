@@ -12,11 +12,9 @@ activeSupportColumn: true
 auto:
 -   git: https://github.com/grafana/grafana
 
-# The policy before 9.0 release was to support
-# 2 major versions. After 9.0, 2 latest minors
-# are supported, along with the last minor.
-# Hence, we break the latest series into minors
-# but only keep the previous major.
+# The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
+# supported, along with the last minor of the previous major. Hence, we break the latest series into
+# minors but only keep the previous major.
 releases:
 -   releaseCycle: "9.3"
     eol: false
