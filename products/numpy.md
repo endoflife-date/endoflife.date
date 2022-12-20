@@ -9,9 +9,14 @@ releaseDateColumn: true
 auto:
 -   pypi: numpy
 
-# EOL(R) = releaseDate(R)+1yr,1day
+# EOL(R) = releaseDate(R)+1yr+1day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+-   releaseCycle: "1.24"
+    releaseDate: 2022-12-18
+    latest: "1.24.0"
+    eol: 2023-12-19
+
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-22
     latest: "1.23.5"
@@ -86,9 +91,9 @@ All minor versions of Python released 42 months prior, and at minimum the two la
 
 NumPy | Python
 ------|-------
-1.20  | 3.7+
-1.21  | 3.7+
-1.22  | 3.8+
 1.23  | 3.8+
+1.22  | 3.8+
+1.21  | 3.7+
+1.20  | 3.7+
 
 NumPy stopped supporting Python 3.7 from Dec 26, 2021. Any older releases (1.20, 1.21) still support Python 3.7. Releases made after that only support Python 3.8 and above.
