@@ -4,6 +4,7 @@ category: framework
 iconSlug: numpy
 permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
+changelogTemplate: https://numpy.org/doc/stable/release/__LATEST__-notes.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
 releaseDateColumn: true
 auto:
