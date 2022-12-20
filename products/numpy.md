@@ -92,6 +92,7 @@ All minor versions of Python released 42 months prior, and at minimum the two la
 
 NumPy | Python
 ------|-------
+1.24  | 3.8+
 1.23  | 3.8+
 1.22  | 3.8+
 1.21  | 3.7+
