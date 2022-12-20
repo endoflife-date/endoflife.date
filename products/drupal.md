@@ -20,6 +20,18 @@ purls:
 -   purl: pkg:docker/bitnami/drupal-nginx
 -   purl: pkg:github/drupal/core
 releases:
+-   releaseCycle: "10.0"
+    support: 2023-12-13
+    eol: 2023-12-13
+    latest: "10.0.0"
+    latestReleaseDate: 2022-12-15
+    releaseDate: 2022-12-15
+-   releaseCycle: "9.5"
+    support: 2023-11-01
+    eol: 2023-11-01
+    latest: "9.5.0"
+    latestReleaseDate: 2022-12-15
+    releaseDate: 2022-12-15
 -   releaseCycle: "9.4"
     support: 2022-12-14
     eol: 2023-06-21
@@ -75,6 +87,10 @@ releases:
 > [Drupal](https://www.drupal.org/) is a free and open-source content management framework written in PHP and distributed under the GNU General Public License.
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
+
+**Drupal 10.0** will receive security coverage until December 13, 2023 when Drupal 10.2.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
+
+**Drupal 9.5** is the final minor release of the 9.x series. It will be supported until November 2023.
 
 **Drupal 9.4** will receive security coverage until June 21, 2023 when Drupal 10.1.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
 
