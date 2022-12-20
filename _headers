@@ -48,7 +48,7 @@ See Netlify's syntax: https://docs.netlify.com/routing/headers/
 
       {% assign imghost = page.releaseImage|parse_uri:'host' %}
 
-      {% assign imgsrc = imgsrc|append:'https://'|append:imghost %}
+      {% assign imgsrc = imgsrc|append:' https://'|append:imghost %}
     {% endif %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self'
   {% elsif page.permalink == '/docs/api' %}
