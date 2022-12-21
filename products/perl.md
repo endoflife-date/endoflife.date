@@ -26,8 +26,8 @@ releases:
     eol: 2025-05-27
     support: true
     releaseDate: 2022-05-27
-    latestReleaseDate: 2022-11-20
-    latest: "5.37.6"
+    latestReleaseDate: 2022-12-20
+    latest: "5.37.7"
 -   releaseCycle: "5.36"
     eol: 2025-05-27
     support: true
