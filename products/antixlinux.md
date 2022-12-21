@@ -11,7 +11,7 @@ versionCommand: cat /etc/os-release
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-purls:
+identifiers:
 -   purl: pkg:os/antix
 auto:
 -   distrowatch: antix

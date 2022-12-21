@@ -10,7 +10,7 @@ releaseDateColumn: true
 versionCommand: composer --version
 auto:
 -   git: https://github.com/composer/composer.git
-purls:
+identifiers:
 -   purl: pkg:composer/composer/composer
 -   repology: php:composer
 -   purl: pkg:docker/library/composer

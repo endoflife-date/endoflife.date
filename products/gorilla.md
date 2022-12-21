@@ -8,7 +8,7 @@ releaseDateColumn: false
 iconSlug: go
 eolColumn: Support
 releaseColumn: false
-purls:
+identifiers:
 
 -   repology: go:github-gorilla-context
 -   repology: go:github-gorilla-csrf

@@ -168,7 +168,7 @@ releases:
 
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
-purls:
+identifiers:
 -   repology: wordpress
 -   purl: pkg:docker/library/wordpress
 -   purl: pkg:docker/bitnami/wordpress

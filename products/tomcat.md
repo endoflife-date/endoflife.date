@@ -55,7 +55,7 @@ releases:
     eol: 2012-09-30
     latest: "5.5.36"
     releaseDate: 2003-09-06
-purls:
+identifiers:
 -   repology: tomcat
 -   purl: pkg:maven/org.apache.tomcat/tomcat
 

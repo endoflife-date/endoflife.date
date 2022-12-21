@@ -10,7 +10,7 @@ changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenot
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
-purls:
+identifiers:
 -   repology: zookeeper
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper

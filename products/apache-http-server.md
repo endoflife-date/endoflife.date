@@ -11,7 +11,7 @@ versionCommand: httpd -v
 releaseColumn: true
 releaseDateColumn: true
 
-purls:
+identifiers:
 -   repology: apache
 
 releases:

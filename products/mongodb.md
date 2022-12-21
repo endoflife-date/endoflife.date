@@ -9,7 +9,7 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 versionCommand: mongod --version
-purls:
+identifiers:
 -   purl: pkg:deb/debian/mongodb-org-server
 -   purl: pkg:deb/ubuntu/mongodb-org-server
 -   purl: pkg:rpm/amzn/mongodb-org-server

@@ -11,7 +11,7 @@ releaseColumn: true
 versionCommand: drush status
 auto:
 -   git: https://github.com/drupal/core.git
-purls:
+identifiers:
 -   purl: pkg:composer/drupal/core
 -   repology: php:drupal
 -   purl: pkg:docker/bitnami/drupal

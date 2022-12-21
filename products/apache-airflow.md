@@ -14,7 +14,7 @@ releaseColumn: true
 releaseDateColumn: true
 auto:
 -   pypi: apache-airflow
-purls:
+identifiers:
 -   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
 releases:

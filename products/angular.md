@@ -8,7 +8,7 @@ releasePolicyLink: https://angular.io/guide/releases
 activeSupportColumn: true
 releaseDateColumn: true
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
-purls:
+identifiers:
 -   purl: pkg:npm/@angular/core
 -   purl: pkg:github/angular/angular
 auto:

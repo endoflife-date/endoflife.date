@@ -8,7 +8,7 @@ activeSupportColumn: true
 eolColumn: Supported
 permalink: /cfengine
 releasePolicyLink: https://cfengine.com
-purls:
+identifiers:
 -   repology: cfengine
 -   purl: pkg:homebrew/cfengine
 releases:

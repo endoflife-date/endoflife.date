@@ -8,7 +8,7 @@ releaseDateColumn: true
 versionCommand: ./unrealircd version
 changelogTemplate: https://github.com/unrealircd/unrealircd/blob/unreal{{"__LATEST__"|split:'.'|slice:0,2|join:''}}/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'
   | replace:'.',''}}
-purls:
+identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
 # Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw

@@ -13,7 +13,7 @@ versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-purls:
+identifiers:
 -   purl: pkg:os/mxlinux
 auto:
 -   distrowatch: mxlinux

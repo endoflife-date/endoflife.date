@@ -7,7 +7,7 @@ activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 auto:
 -   git: https://github.com/twbs/bootstrap.git
-purls:
+identifiers:
 -   repology: bootstrap
 -   purl: pkg:npm/bootstrap
 -   purl: pkg:nuget/bootstrap

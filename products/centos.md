@@ -8,7 +8,7 @@ releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
 releaseLabel: "CentOS Stream __RELEASE_CYCLE__"
-purls:
+identifiers:
 -   purl: pkg:os/centos
 releases:
 -   releaseCycle: "9"

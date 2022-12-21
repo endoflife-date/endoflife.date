@@ -10,7 +10,7 @@ versionCommand: composer show laravel/framework|grep versions
 releaseDateColumn: true
 auto:
 -   git: https://github.com/laravel/framework.git
-purls:
+identifiers:
 -   purl: pkg:composer/laravel/laravel
 -   repology: php:laravel-framework
 -   purl: pkg:docker/bitnami/laravel

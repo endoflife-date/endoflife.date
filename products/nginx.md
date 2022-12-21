@@ -9,7 +9,7 @@ versionCommand: nginx -v
 releaseColumn: true
 releaseDateColumn: true
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-purls:
+identifiers:
 -   repology: nginx
 -   purl: pkg:deb/debian/nginx
 -   purl: pkg:deb/ubuntu/nginx
