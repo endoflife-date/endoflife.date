@@ -8,7 +8,7 @@ activeSupportColumn: false
 versionCommand: cat /etc/system-release
 eolColumn: Support
 releaseDateColumn: true
-purls:
+identifiers:
 -   purl: pkg:os/amazonlinux
 -   purl: pkg:docker/library/amazonlinux
 auto:

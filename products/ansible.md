@@ -10,7 +10,7 @@ releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
-purls:
+identifiers:
 -   purl: pkg:pypi/ansible
 -   repology: ansible
 auto:

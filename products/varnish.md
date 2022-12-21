@@ -8,7 +8,7 @@ versionCommand: varnishd -V
 auto:
 -   git: https://github.com/varnishcache/varnish-cache.git
     regex: ^varnish-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
-purls:
+identifiers:
 -   repology: varnish
 -   purl: pkg:brew/varnish
 -   purl: pkg:docker/library/varnish

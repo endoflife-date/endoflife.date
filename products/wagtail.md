@@ -10,7 +10,7 @@ releaseDateColumn: true
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 auto:
 -   git: https://github.com/wagtail/wagtail.git
-purls:
+identifiers:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
 releases:

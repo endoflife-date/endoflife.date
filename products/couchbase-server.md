@@ -10,7 +10,7 @@ changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-n
 auto:
 -   dockerhub: library/couchbase
     regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
-purls:
+identifiers:
 -   repology: couchbase-server-community
 -   purl: pkg:docker/library/couchbase
 -   purl: pkg:docker/couchbase/server

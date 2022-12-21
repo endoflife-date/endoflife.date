@@ -13,7 +13,7 @@ iconSlug: vuedotjs
 auto:
 -   npm: vue
 
-purls:
+identifiers:
 -   repology: vue.js
 -   repology: vue
 -   purl: pkg:npm/vue

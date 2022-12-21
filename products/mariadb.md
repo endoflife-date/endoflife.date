@@ -7,7 +7,7 @@ releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 changelogTemplate: https://mariadb.com/kb/en/mariadb-{{"__LATEST__" | replace:'.','-'}}-changelog/
 activeSupportColumn: false
 releaseDateColumn: true
-purls:
+identifiers:
 -   repology: mariadb
 -   purl: pkg:deb/debian/mariadb-server
 -   purl: pkg:deb/ubuntu/mariadb-server

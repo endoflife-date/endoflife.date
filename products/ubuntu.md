@@ -15,7 +15,7 @@ auto:
     regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(
       LTS|, Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
-purls:
+identifiers:
 -   purl: pkg:os/ubuntu
 activeSupportColumn: true
 releaseDateColumn: true

@@ -11,7 +11,7 @@ eolColumn: Support
 versionCommand: drush --version
 auto:
 -   git: https://github.com/drush-ops/drush.git
-purls:
+identifiers:
 -   purl: pkg:composer/drush/drush
 -   repology: drush
 -   purl: pkg:github/drush-ops/drush

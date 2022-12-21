@@ -12,7 +12,7 @@ versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
-purls:
+identifiers:
 -   purl: pkg:os/slackwarelinux
 auto:
 -   distrowatch: slackware

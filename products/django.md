@@ -11,7 +11,7 @@ versionCommand: python -c "import django; print(django.get_version())"
 releaseDateColumn: false
 auto:
 -   git: https://github.com/django/django.git
-purls:
+identifiers:
 -   repology: python:django
 -   purl: pkg:github/django/django
 -   purl: pkg:pypi/django

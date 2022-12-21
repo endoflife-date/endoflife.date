@@ -7,7 +7,7 @@ releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community
 activeSupportColumn: true
 releaseDateColumn: true
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
-purls:
+identifiers:
 -   purl: pkg:os/almalinux
 auto:
 -   distrowatch: alma

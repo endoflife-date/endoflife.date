@@ -183,6 +183,26 @@ auto:
   # The value must always be `true`.
   - custom: true
 
+# A list of identifiers that can be used to detect this product as being used,
+# especially by SBOM tooling
+identifiers:
+  # Each identifier is a way of linking this product to various methods of installing it
+
+  # This is a shorthand to use repology as the source data
+  # https://repology.org/project/:package-name-/versions
+  # should return a valid list of packages linked to this product.
+  - repology: package-name
+
+  # See the PURL spec https://github.com/package-url/purl-spec
+  # for details, and avoid packages that are already mentioned on
+  # the repology page
+  # Common examples would be to use
+  # - pkg:os to document operating systems (https://github.com/package-url/purl-spec/pull/161)
+  # - pkg:github to link to github pages
+  # - pkg:golang/pypi/gem/maven/npm etc for common package managers
+  # - pkg:docker for linking to docker images on Docker Hub
+  - purl: pkg:package-manager/package-name
+
 # A list of releases, supported or not (mandatory).
 # Releases must be sort from the newest (on top of the list) to the lowest.
 # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
