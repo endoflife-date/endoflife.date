@@ -87,4 +87,4 @@ releases:
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
 
-**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es).
+**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es). A decision to extend this further will be taken by July 2023.
