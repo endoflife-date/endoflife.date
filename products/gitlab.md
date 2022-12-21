@@ -13,7 +13,17 @@ auto:
   # Reference: https://rubular.com/r/mFfxB8FgXXERX4
 -   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
     git: https://gitlab.com/gitlab-org/gitlab.git
+# EOL of R = releaseDate(R+2)
+# Support of R = releaseDate(R+1)
+# Since releases are monthly (22nd of every month)
+# This is quite predictable.
 releases:
+-   releaseCycle: "15.7"
+    support: 2023-01-22
+    eol: 2023-03-22
+    latest: "15.7.0"
+    latestReleaseDate: 2022-12-21
+    releaseDate: 2022-12-21
 -   releaseCycle: "15.6"
     support: 2022-12-22
     eol: 2023-02-22
@@ -146,6 +156,8 @@ releases:
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
 GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/), and you can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
+  
+Only the latest release is actively maintained. The previous two minor (monthly) releases get security fixes. Critical bug fixes can rarely be backported based on [a set criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
 
 | Version Type | Description  | Cadence |
 |:-------------|:-------------|:--------|
