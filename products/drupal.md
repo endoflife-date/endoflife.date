@@ -87,20 +87,4 @@ releases:
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
 
-**Drupal 10.0** will receive security coverage until December 13, 2023 when Drupal 10.2.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
-
-**Drupal 9.5** is the final minor release of the 9.x series. It will be supported until November 2023.
-
-**Drupal 9.4** will receive security coverage until June 21, 2023 when Drupal 10.1.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
-
-**Drupal 9.3** received security coverage until December 15, 2022 when Drupal 9.5.0 and 10.0.0 were [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current).
-
-**Drupal 9.2** received security coverage until June 15, 2022 when Drupal 9.4.0 was released.
-
-**Drupal 9.1** received security coverage until December 8, 2021 when Drupal 9.3.0 was released.
-
-**Drupal 9.0** received security coverage until June 16, 2021 when Drupal 9.2.0 was released.
-
-**Drupal 8.x** [is EOL](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
-
-**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
+**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es). A decision to extend this further will be taken by July 2023.
