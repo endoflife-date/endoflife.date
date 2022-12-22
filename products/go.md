@@ -30,37 +30,37 @@ releases:
     latestReleaseDate: 2022-08-01
     releaseDate: 2021-08-16
 -   releaseCycle: "1.16"
-    eol: true
+    eol: 2022-03-15
     latest: "1.16.15"
     latestReleaseDate: 2022-03-03
     releaseDate: 2021-02-16
 -   releaseCycle: "1.15"
-    eol: true
+    eol: 2021-08-16
     latest: "1.15.15"
     latestReleaseDate: 2021-08-04
     releaseDate: 2020-08-11
 -   releaseCycle: "1.14"
-    eol: true
+    eol: 2021-02-16
     latest: "1.14.15"
     latestReleaseDate: 2021-02-04
     releaseDate: 2020-02-25
 -   releaseCycle: "1.13"
-    eol: true
+    eol: 2020-08-11
     latest: "1.13.15"
     latestReleaseDate: 2020-08-06
     releaseDate: 2019-09-03
 -   releaseCycle: "1.12"
-    eol: true
+    eol: 2020-02-25
     latest: "1.12.17"
     latestReleaseDate: 2020-02-12
     releaseDate: 2019-02-25
 -   releaseCycle: "1.11"
-    eol: true
+    eol: 2019-09-03
     latest: "1.11.13"
     latestReleaseDate: 2019-08-13
     releaseDate: 2018-08-24
 -   releaseCycle: "1.10"
-    eol: true
+    eol: 2019-02-25
     latest: "1.10.8"
     latestReleaseDate: 2019-01-23
     releaseDate: 2018-02-16
