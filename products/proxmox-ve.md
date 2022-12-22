@@ -22,7 +22,7 @@ releases:
     eol: 2022-07-01
     latest: "6.4"
 
--   releaseCycle: "6.x"
+-   releaseCycle: "5.x"
     releaseDate: 2017-04-07
     eol: 2020-07-01
     latest: "5.4"
