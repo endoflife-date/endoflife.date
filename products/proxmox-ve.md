@@ -11,6 +11,11 @@ releasePolicyLink: https://pve.proxmox.com/wiki/FAQ
 changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___RELEASE_CYCLE__"
 releaseDateColumn: true
 
+# https://regex101.com/r/ahCFde/1
+auto:
+-   distrowatch: proxmox
+    regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual Environment"$'
+
 releases:
 -   releaseCycle: "7"
     releaseDate: 2021-07-06
