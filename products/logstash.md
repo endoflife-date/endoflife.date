@@ -24,13 +24,13 @@ releases:
     eol: 2023-08-01
     latest: "7.17.8"
     latestReleaseDate: 2022-12-08
-    releaseDate: 2019-04-10
+    releaseDate: 2019-04-05
 
 -   releaseCycle: "6"
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-    releaseDate: 2017-11-14
+    releaseDate: 2017-11-08
 
 ---
 
