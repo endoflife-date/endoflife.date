@@ -72,13 +72,6 @@ releases:
     eol: 2027-01-12
     releaseDate: 2016-10-15
 
--   releaseCycle: "2016"
-    releaseLabel: "Windows Storage Server 2016"
-    buildID: 10.0.14393
-    support: 2022-01-11
-    eol: 2027-01-12
-    releaseDate: 2016-10-15
-
 -   releaseCycle: "2012-R2"
     buildID: 6.3.9600
     support: 2018-10-09
