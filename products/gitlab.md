@@ -13,7 +13,7 @@ auto:
   # Reference: https://rubular.com/r/mFfxB8FgXXERX4
 -   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
     git: https://gitlab.com/gitlab-org/gitlab.git
-# EOL of R = releaseDate(R+2)
+# EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
 # Since releases are monthly (22nd of every month)
 # This is quite predictable.
