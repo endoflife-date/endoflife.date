@@ -23,12 +23,12 @@ releases:
     latest: "6.4"
 
 -   releaseCycle: "5"
-    releaseDate: 2017-04-07
+    releaseDate: 2017-07-04
     eol: 2020-07-01
     latest: "5.4"
 
 -   releaseCycle: "4"
-    releaseDate: 2015-05-10
+    releaseDate: 2015-10-05
     eol: 2018-06-01
     latest: "4.4"
 
@@ -38,7 +38,7 @@ releases:
     latest: "3.4"
 
 -   releaseCycle: "2"
-    releaseDate: 2012-05-04
+    releaseDate: 2012-04-05
     eol: 2014-02-01
     latest: "2.3"
 
