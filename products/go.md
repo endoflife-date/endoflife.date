@@ -30,7 +30,7 @@ releases:
     latestReleaseDate: 2022-08-01
     releaseDate: 2021-08-16
 -   releaseCycle: "1.16"
-    eol: 2022-12-06
+    eol: 2022-03-15
     latest: "1.16.15"
     latestReleaseDate: 2022-03-03
     releaseDate: 2021-02-16
