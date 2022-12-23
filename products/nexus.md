@@ -19,7 +19,7 @@ auto:
 
 releases:
 -   releaseCycle: "3"
-    releaseDate: 2016-10-03
+    releaseDate: 2017-04-07
     eol: false
     latest: "3.44.0"
     latestReleaseDate: 2022-12-19
@@ -27,7 +27,7 @@ releases:
 
 -   releaseCycle: "2"
     # closest date I found is for 2.0.6 on https://help.sonatype.com/repomanager2/download/download-archives---repository-manager-2#DownloadArchivesRepositoryManager2-NexusProfessional2.0.6
-    releaseDate: 2012-06-25
+    releaseDate: 2017-04-07
     eol: false
     latest: "2.15.1"
     latestReleaseDate: 2022-03-23
