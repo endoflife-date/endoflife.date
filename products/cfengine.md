@@ -38,9 +38,9 @@ releases:
 -   releaseCycle: "3.18"
     lts: true
     latest: "3.18.3"
-    support: 2023-06-24
+    support: 2024-06-24
     link: https://github.com/cfengine/core/blob/3.18.3/ChangeLog
-    eol: 2023-06-24
+    eol: 2024-06-24
     releaseDate: 2021-06-24
     latestReleaseDate: 2022-11-14
 -   releaseCycle: "3.17"
