@@ -59,5 +59,20 @@ releases:
     releaseDate: 2020-01-15
 ---
 
+|        Edition        |    Details   |                       Feature                      |               Support                  |
+| --------------------- | ------------ | -------------------------------------------------- | -------------------------------------  |
+| Community (Free)      | On-premise   | Single-node, no clustering                         | Community Support                      |
+| Enterprise            | On-premise   | Clustering, hot-backups, monitoring                | ???                                    |
+| AuraDB Free           | Cloud-only   | GCP only, Limits on node and relationship counts   | Community Support                      |
+| AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                           | Support Portal, no SLA                 |
+| AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                   | Premium ticket-based support, with SLA |
+
+Refs:
+
+- https://neo4j.com/docs/aura/auradb/
+- https://neo4j.com/docs/aura/auradb/support/
+- https://neo4j.com/cloud/platform/aura-graph-database/
+
+
 > [Neo4j](https://neo4j.com/) is a high-performance graph database with
 > with a friendly query language and ACID transactions. 
