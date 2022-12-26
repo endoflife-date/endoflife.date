@@ -1,7 +1,17 @@
 ---
-# Setting a layout forces Jekyll to render this file
+# Netlify _headers template. See syntax on https://docs.netlify.com/routing/headers/.
+#
+# This configuration sets default headers for pages and API responses, and:
+# - a CSP and a "Link" header pointing to the API for product pages,
+# - a more restrictive CSP for non-product pages,
+# - a CSP that allows Stoplight Elements to load correctly for /docs/api.
+#
+# For a rationale of all the CSP headers, see https://github.com/endoflife-date/endoflife.date/wiki/CSP-Headers.
+
+# Setting a layout forces Jekyll to render this file.
 layout: null
 ---
+# Default headers for all pages.
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
@@ -10,50 +20,28 @@ layout: null
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# Default headers for API resources.
 /api*
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET
   Access-Control-Max-Age: 86400
 
-{% comment %}
-The following loop runs for all "pages" in the website. This includes:
-
-- product pages
-- "website pages" (/, /recommendations, /docs/api)
-
-1. For all product pages, we add a "Link" header linking to the API and a CSP
-header that takes into account the images we might embed in the page.
-2. For non product pages, we add a much restrictive CSP
-3. For /docs/api, we add a CSP that allows Stoplight Elements to load correctly.
-
-For a rationale of all the CSP headers, please see https://github.com/endoflife-date/endoflife.date/wiki/CSP-Headers
-
-See Netlify's syntax: https://docs.netlify.com/routing/headers/
-{% endcomment %}
-
-{% for page in site.html_pages %}
+# Configuration for all "pages" in the website (e.g. product pages, website pages such as / or /recommendations, API "pages"...).
+{% assign defaultCspImgSrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
+{%- for page in site.html_pages -%}
 {{page.url}}
-
-  {% comment %}
-    If it is a product page, add a link to the API page
-  {% endcomment %}
-
-  {% assign imgsrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
-  {% if page.layout == 'product' %}
-    Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
-    {% comment %}
-      If we have a release image, set a CSP that includes it
-    {% endcomment %}
-    {% if page.releaseImage %}
-
-      {% assign imghost = page.releaseImage|parse_uri:'host' %}
-
-      {% assign imgsrc = imgsrc|append:' https://'|append:imghost %}
+  {%- if page.layout == 'product' %}
+    {%- if page.releaseImage %}
+      {% capture releaseImageSrc %}https://{{ page.releaseImage | parse_uri: 'host' }}{% endcapture %}
+    {% else %}
+      {% assign releaseImageSrc="" %}
     {% endif %}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; img-src {{imgsrc}}; script-src 'self'; style-src 'self'
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
+    Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
   {% elsif page.permalink == '/docs/api' %}
-  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
-  Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{imgsrc}}
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }}
   {% endif %}
 {% endfor %}
