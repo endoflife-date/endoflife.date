@@ -22,8 +22,14 @@ identifiers:
 -   purl: pkg:docker/library/ruby
 
 releases:
+-   releaseCycle: "3.2"
+    eol: 2026-03-31
+    latest: "3.2.0"
+    latestReleaseDate: 2022-12-25
+    releaseDate: 2022-12-25
+
 -   releaseCycle: "3.1"
-    eol: 2025-12-25
+    eol: 2025-03-31
     latest: "3.1.3"
     latestReleaseDate: 2022-11-24
     releaseDate: 2021-12-25
