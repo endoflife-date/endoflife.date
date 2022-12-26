@@ -46,86 +46,103 @@ releases:
     codename: Pie
     eol: true
     releaseDate: 2018-08-06
+    link: https://developer.android.com/about/versions/pie
 
 -   releaseCycle: "8.1"
     codename: Oreo
     eol: true
     releaseDate: 2017-12-05
+    link: https://developer.android.com/about/versions/oreo/android-8.1
 
 -   releaseCycle: "8.0"
     codename: Oreo
     eol: true
     releaseDate: 2017-08-21
+    link: https://developer.android.com/about/versions/oreo
 
 -   releaseCycle: "7"
     codename: Nougat
     eol: true
     releaseDate: 2016-08-22
+    link: https://developer.android.com/about/versions/nougat
 
 -   releaseCycle: "6"
     codename: Marshmallow
     eol: true
     releaseDate: 2015-10-05
+    link: https://developer.android.com/about/versions/marshmallow
 
 -   releaseCycle: "5"
     codename: Lollipop
     eol: true
     releaseDate: 2014-11-12
+    link: https://developer.android.com/about/versions/lollipop
 
 -   releaseCycle: "4.4"
     codename: KitKat
     eol: true
     releaseDate: 2013-10-31
+    link: https://developer.android.com/about/versions/kitkat
 
 -   releaseCycle: "4.1"
     codename: Jelly Bean
     eol: true
     releaseDate: 2012-07-09
+    link: ''
 
 -   releaseCycle: "4"
     codename: Ice Cream Sandwich
     eol: true
     releaseDate: 2011-10-18
+    link: ''
 
 -   releaseCycle: "3"
     codename: Honeycomb
     eol: true
     releaseDate: 2011-02-22
+    link: ''
 
 -   releaseCycle: "2.3"
     codename: Gingerbread
     eol: true
     releaseDate: 2010-12-06
+    link: ''
 
 -   releaseCycle: "2.2"
     codename: Froyo
     eol: true
     releaseDate: 2010-05-20
+    link: ''
 
 -   releaseCycle: "2.0"
     codename: Eclair
     eol: true
     releaseDate: 2009-10-26
+    link: ''
 
 -   releaseCycle: "1.6"
     codename: Donut
     eol: true
     releaseDate: 2009-09-15
+    link: ''
 
 -   releaseCycle: "1.5"
     codename: Cupcake
     eol: true
     releaseDate: 2009-04-27
+    link: ''
 
 -   releaseCycle: "1.1"
     codename: Petit Four
     eol: true
     releaseDate: 2009-02-09
+    link: ''
 
 -   releaseCycle: "1.0"
     releaseLabel: "__RELEASE_CYCLE__"
     eol: true
     releaseDate: 2008-09-23
+    link: ''
 
 ---
 
