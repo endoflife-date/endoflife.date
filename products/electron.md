@@ -1,25 +1,25 @@
 ---
 title: Electron
 category: framework
-changelogTemplate: |
-  https://www.electronjs.org/releases/stable?version={{"__LATEST__" | split:'.' | first}}#__LATEST__
 iconSlug: electron
 permalink: /electron
+versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/support
+changelogTemplate: "https://www.electronjs.org/releases/stable?version={{'__LATEST__'|split:'.'|first}}#__LATEST__"
 eolColumn: Supported
 activeSupportColumn: false
-versionCommand: npm show electron version
-auto:
--   git: https://github.com/electron/electron.git
 releaseDateColumn: true
 
-# The EOL dates will needed to be corrected
-# once a new release comes out.
+# NPM is more accurate than git and remove unreleased version would.
+# 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
+auto:
+-   npm: electron
+
+# The EOL dates will need to be corrected once a new release comes out.
 # v23 (releaseDate) = v20 (eol)
 # v24 (releaseDate) = v21 (eol)
 # v25 (releaseDate) = v22 (eol)
 # and so on...
-
 releases:
 -   releaseCycle: "22"
     eol: 2023-07-07
