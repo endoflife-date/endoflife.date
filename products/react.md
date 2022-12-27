@@ -7,8 +7,11 @@ releasePolicyLink: https://reactjs.org/docs/release-channels.html
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
+
+# NPM dates are more accurate than git tag dates.
 auto:
--   git: https://github.com/facebook/react.git
+-   npm: react
+
 releases:
 -   releaseCycle: "18.2"
     support: true
