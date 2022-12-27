@@ -27,6 +27,12 @@ layout: null
   Access-Control-Allow-Methods: GET
   Access-Control-Max-Age: 86400
 
+# Default headers for calendar resources.
+/calendar/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET
+  Access-Control-Max-Age: 86400
+
 # Configuration for all "pages" in the website (e.g. product pages, website pages such as / or /recommendations, API "pages"...).
 {% assign defaultCspImgSrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
 {%- for page in site.html_pages -%}
@@ -39,6 +45,7 @@ layout: null
     {% endif %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
+    Link: /calendar{{page.permalink}}.ics; rel=alternate;type=text/calendar
   {% elsif page.permalink == '/docs/api' %}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
