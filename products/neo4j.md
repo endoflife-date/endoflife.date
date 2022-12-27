@@ -3,10 +3,10 @@ title: Neo4j
 permalink: /neo4j
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 category: db
-changelogTemplate: https://github.com/neo4j/neo4j/tags/__LATEST__/
+changelogTemplate: https://github.com/neo4j/neo4j/tags/__LATEST__
 activeSupportColumn: false
 eolColumn: Support Status
-versionCommand: call dbms.components() yield versions  unwind versions as version return  version;
+versionCommand: call dbms.components() yield versions unwind versions as version return version;
 releaseDateColumn: true
 iconSlug: neo4j
 auto:
@@ -59,6 +59,23 @@ releases:
     releaseDate: 2020-01-15
 ---
 
+> [Neo4j](https://neo4j.com/) is a high-performance graph database with
+> with a friendly query language and ACID transactions. 
+
+Neo4j has separate policies for different versions:
+
+### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
+
+Each minor release is supported for 18 months from the GA date, except for the final minor release (currently 4.4), which is supported for 36 months.
+
+### [Latest Support Terms](https://neo4j.com/terms/support-terms/) for 5.x and above
+
+Only the latest minor version is supported. A LTS release is supported till a separate published End-of-Life date.
+
+This page tracks End-of-Life as per the Neo4j Enterprise Edition. Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/). AuraDB, the hosted offering by Neo4j is automatically updated, and support is available depending on the plan.
+
+A high-level overview of different Neo4j editions:
+
 |        Edition        |    Details   |                       Feature                      |               Support                  |
 | --------------------- | ------------ | -------------------------------------------------- | -------------------------------------  |
 | Community (Free)      | On-premise   | Single-node, no clustering                         | Community Support                      |
@@ -67,12 +84,8 @@ releases:
 | AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                           | Support Portal, no SLA                 |
 | AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                   | Premium ticket-based support, with SLA |
 
-Refs:
+## References
 
-- https://neo4j.com/docs/aura/auradb/
-- https://neo4j.com/docs/aura/auradb/support/
-- https://neo4j.com/cloud/platform/aura-graph-database/
-
-
-> [Neo4j](https://neo4j.com/) is a high-performance graph database with
-> with a friendly query language and ACID transactions. 
+- [Neo4j Supported Versions](https://neo4j.com/developer/kb/neo4j-supported-versions/)
+- [Features in various AuraDB Editions](https://neo4j.com/docs/aura/auradb/)
+- [Support differences in AuraDB Editions](https://neo4j.com/docs/aura/auradb/support/)
