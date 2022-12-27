@@ -21,6 +21,16 @@ layout: null
   Referrer-Policy: strict-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
+# Default headers for static resources
+/assets/*
+  Cache-Control : public, max-age=3600;
+/browserconfig.xml
+  Cache-Control : public, max-age=3600;
+/favicon.ico
+  Cache-Control : public, max-age=3600;
+/manifest.json
+  Cache-Control : public, max-age=3600;
+
 # Default headers for API resources.
 /api*
   Access-Control-Allow-Origin: *
