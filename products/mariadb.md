@@ -24,7 +24,7 @@ auto:
     # Where X -> Major number, Y = Minor Number
     # And R is a regex that only matches GA release patch numbers in that cycle. ie
     # Greater than or equal to the first GA release in that cycle.
-    # For eg for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
+    # For e.g. for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
     # where (1[2-9]|[2-9]\d) matches 12-19 OR 2-digit numbers starting from 2-9 (ie 20-99)
     # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
     # Note: This will need to be edited when a new GA release is made in a new release cycle

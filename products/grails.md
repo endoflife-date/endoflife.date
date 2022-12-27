@@ -57,7 +57,7 @@ releases:
 
 ## Support
 
-- **Active Development**: Thes versions get regular updates, including new features, performance enhancements, and bug fixes. Recommended for new and existing Grails applications.
+- **Active Development**: These versions get regular updates, including new features, performance enhancements, and bug fixes. Recommended for new and existing Grails applications.
 - **Active Maintenance**: These versions receive limited bug fixes and patches, mostly focused around the resolution of critical security advisories. New features, performance improvements, and minor bug fixes are unlikely.
 
 The Grails Foundation offers [commercial support](https://grails.org/support.html). This typically lasts a few years after active maintenance ends.
