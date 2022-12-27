@@ -8,16 +8,17 @@ alternate_urls:
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/releases.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
-identifiers:
--   repology: kotlin
-auto:
--   git: https://github.com/JetBrains/kotlin.git
-    # See https://rubular.com/r/KT3q1yE8NDOoPB for regex reference
-    regex: '^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$'
 activeSupportColumn: false
 discontinuedColumn: false
 releaseDateColumn: true
 releaseColumn: true
+
+identifiers:
+-   repology: kotlin
+
+# NPM looks a lot more accurate than git, even if it does not reference a few 1.x versions.
+auto:
+-   npm: kotlin
 
 releases:
 -   releaseCycle: "1.7"
