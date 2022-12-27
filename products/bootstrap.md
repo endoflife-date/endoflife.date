@@ -5,8 +5,7 @@ iconSlug: bootstrap
 permalink: /bootstrap
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
-auto:
--   git: https://github.com/twbs/bootstrap.git
+
 identifiers:
 -   repology: bootstrap
 -   purl: pkg:npm/bootstrap
@@ -14,6 +13,11 @@ identifiers:
 -   purl: pkg:gem/bootstrap
 -   purl: pkg:composer/twbs/bootstrap
 -   purl: pkg:github/twbs/bootstrap
+
+# NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
+auto:
+-   git: https://github.com/twbs/bootstrap.git
+
 releases:
 -   releaseCycle: "5"
     eol: false
