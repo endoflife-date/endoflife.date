@@ -65,7 +65,7 @@ releases:
 
 Each release gets:
 
-- Standard Support for 12 months after a new Minor version is released. The latest minor release from the previous major version will continue to get standard support for atleast 3 years from the release date of the new Major Version.
+- Standard Support for 12 months after a new Minor version is released. The latest minor release from the previous major version will continue to get standard support for at least 3 years from the release date of the new Major Version.
 - Extended Support for an additional 12 months (2-3 years for older releases) after Standard Support ends.
 - Extended Support versions are only available on CloudHub for applications already deployed on it.
 
