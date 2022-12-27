@@ -54,11 +54,6 @@ releases:
     link: https://www.openbsd.org/64.html
     releaseDate: 2018-10-18
 
--   eol: 2019-10-17
-    releaseCycle: "6.4"
-    link: https://www.openbsd.org/64.html
-    releaseDate: 2018-10-18
-
 -   eol: 2019-05-03
     releaseCycle: "6.3"
     link: https://www.openbsd.org/63.html
