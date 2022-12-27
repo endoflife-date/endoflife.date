@@ -52,6 +52,8 @@ def validate_product(name):
             # Support Dates can either be bool or a string but are optional
             if "activeSupportColumn" in data and data["activeSupportColumn"]:
                 assert isinstance(r["support"], (bool, date))
+            if "extendedSupportColumn" in data and data["extendedSupportColumn"]:
+                assert isinstance(r["extendedSupport"], (bool, date))
             if "discontinuedColumn" in data and data["discontinuedColumn"]:
                 assert isinstance(r["discontinued"], (bool, date))
             if "releaseDateColumn" not in data or data["releaseDateColumn"]:
