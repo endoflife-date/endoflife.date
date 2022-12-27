@@ -14,7 +14,8 @@ releaseDateColumn: true
 # https://regex101.com/r/ahCFde/1
 auto:
 -   distrowatch: proxmox
-    regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual Environment"$'
+    regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual
+      Environment"$'
 
 releases:
 -   releaseCycle: "7"
@@ -36,7 +37,7 @@ releases:
     latestReleaseDate: 2019-04-11
 
 -   releaseCycle: "4"
-    releaseDate: 2015-10-05
+    releaseDate: 2015-10-06
     eol: 2018-06-30
     latest: "4.4"
     latestReleaseDate: 2016-12-13
@@ -48,13 +49,13 @@ releases:
     latestReleaseDate: 2015-02-19
 
 -   releaseCycle: "2"
-    releaseDate: 2012-04-05
+    releaseDate: 2012-03-30
     eol: 2014-05-31
     latest: "2.3"
     latestReleaseDate: 2013-03-04
 
 -   releaseCycle: "1"
-    releaseDate: 2008-10-29
+    releaseDate: 2011-09-13
     eol: 2013-01-31
     latest: "1.9"
     latestReleaseDate: 2011-09-13

@@ -15,10 +15,10 @@ auto:
 releases:
 -   releaseCycle: "1.24"
     releaseDate: 2022-12-18
-    latest: "1.24.0"
+    latest: "1.24.1"
     eol: 2024-12-19
 
-    latestReleaseDate: 2022-12-18
+    latestReleaseDate: 2022-12-26
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-22
     latest: "1.23.5"
