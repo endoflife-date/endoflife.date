@@ -81,11 +81,6 @@ releases:
     eol: false
     releaseDate: 2021-06-28
 
--   releaseCycle: "Galaxy M32"
-    support: true
-    eol: false
-    releaseDate: 2021-06-28
-
 -   releaseCycle: "Galaxy A22 5G"
     support: true
     eol: false
