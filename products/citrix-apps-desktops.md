@@ -30,7 +30,7 @@ releases:
     eol: 2023-12-28
     releaseDate: 2022-06-28
 -   releaseCycle: "2203"
-    latest: "2203 CU1"
+    latest: "2203 CU2"
     support: 2027-03-23
     eol: 2027-03-23
     lts: true
