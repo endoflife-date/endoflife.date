@@ -20,6 +20,7 @@ releases:
     support: 2023-06-19
     eol: 2024-06-19
     releaseDate: 2022-12-19
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html
 -   releaseCycle: "2209"
     latest: "2209"
     support: 2023-03-29
