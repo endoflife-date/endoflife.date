@@ -1,6 +1,7 @@
 ---
 title: Citrix Virtual Apps and Desktops
 permalink: /citrix-vad
+changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
 alternate_urls:
 -   /citrixvad
 -   /cvad
@@ -35,6 +36,7 @@ releases:
     eol: 2027-03-23
     lts: true
     releaseDate: 2022-03-23
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-2.html
 -   releaseCycle: "2112"
     latest: "2112"
     support: 2022-06-14
@@ -77,6 +79,7 @@ releases:
     releaseDate: 2020-03-20
 -   releaseCycle: "1912"
     latest: "1912 CU6"
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-6.html
     support: 2024-12-18
     eol: 2024-12-18
     lts: true
@@ -86,6 +89,7 @@ releases:
     support: 2022-08-15
     eol: 2022-08-15
     lts: true
+    link: ''
     releaseDate: 2017-08-15
 
 ---
