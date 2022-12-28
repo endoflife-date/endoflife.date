@@ -89,10 +89,10 @@ are named _maintenance releases_ and are maintained for a long time (because mig
 ## Scala 3 future release policy
 
 [The release policy of Scala 3 is about to change](https://www.scala-lang.org/blog/2022/08/17/long-term-compatibility-plans.html "Long-term compatibility plans for Scala 3").
-Starting with Scala 3.3, development should be split into two lines called _Scala Next_ (for newest
+Starting with Scala 3.3, development will be split into two lines called _Scala Next_ (for newest
 and experimental features) and _Scala LTS_ (only bug fixes, non-language changes and minor
-quality-of-life enhancements). LTS releases are expected to be released every two years and each LTS
-release is expected to be supported for at least three years.
+quality-of-life enhancements). LTS releases will be released every two years and each LTS
+release will be supported for at least three years.
 
 ## Version compatibility table
 
