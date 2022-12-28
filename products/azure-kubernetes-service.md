@@ -14,7 +14,7 @@ eolColumn: End of Support
 
 releases:
 -   releaseCycle: "1.25"
-    # not found in release notes, date found in https://github.com/Azure/AKS/issues/3206
+    # https://azure.microsoft.com/en-us/updates/generally-available-kubernetes-125-support-in-aks/
     releaseDate: 2022-12-14
     # guessed, not yet announced
     eol: 2023-09-30
@@ -60,3 +60,6 @@ Each supported minor version also supports a maximum of two stable patches.
 AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).
 News about AKS can be received by following [the AKS feed in Azure Updates](https://azure.microsoft.com/updates/?product=kubernetes-service).
 Release status by regions can be monitored at [AKS-Release-Tracker](https://releases.aks.azure.com/).
+AKS Docs include an [Upgrade Guide](https://learn.microsoft.com/en-us/azure/aks/upgrade-cluster).
+
+Note that Calico isn't supported in AKS 1.25 and above.
