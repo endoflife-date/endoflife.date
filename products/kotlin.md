@@ -54,7 +54,7 @@ releases:
 > but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript
 > (e.g., for frontend web applications using React) or native code (via LLVM); e.g., for native iOS apps sharing business logic with Android apps.
   
-Only the latest version sees active development and gets security fixes.
+Kotlin support policy [is not clearly defined](https://discuss.kotlinlang.org/t/kotlin-support-roadmap/11454). But usually only the latest version sees active development and [gets bug and security fixes](https://kotlinlang.org/docs/kotlin-evolution.html#dealing-with-compiler-bugs).
 
 ## [API Compatibility](https://kotlinlang.org/docs/whatsnew16.html#supporting-previous-api-versions-for-a-longer-period)
 
