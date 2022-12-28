@@ -32,11 +32,12 @@ releases:
     link: https://wiki.ubuntu.com/KineticKudu/ReleaseNotes/
     releaseDate: 2022-10-20
     latestReleaseDate: 2022-10-20
+    extendedSupport: false
 -   releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
     support: 2024-09-30
     eol: 2027-04-01
-    extended: 2032-04-09
+    extendedSupport: 2032-04-09
     lts: true
     latest: "22.04.1"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
@@ -50,6 +51,7 @@ releases:
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
     releaseDate: 2021-10-14
     latestReleaseDate: 2021-10-14
+    extendedSupport: false
 -   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
     support: 2022-01-20
@@ -58,6 +60,7 @@ releases:
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
     releaseDate: 2021-04-22
     latestReleaseDate: 2021-04-22
+    extendedSupport: false
 -   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
     support: 2021-07-22
@@ -65,12 +68,13 @@ releases:
     latest: "20.10"
     releaseDate: 2020-10-22
     latestReleaseDate: 2020-10-22
+    extendedSupport: false
 -   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
     support: 2022-10-01
     eol: 2025-04-02
-    extended: 2030-04-02
+    extendedSupport: 2030-04-02
     latest: "20.04.5"
     releaseDate: 2020-04-23
     latestReleaseDate: 2022-09-01
@@ -81,12 +85,13 @@ releases:
     latest: "19.10"
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
+    extendedSupport: false
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
     support: 2023-04-02
     eol: 2023-04-02
-    lts: 2028-04-01
+    extendedSupport: 2028-04-01
     latest: "18.04.6"
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
     releaseDate: 2018-04-26
@@ -96,7 +101,7 @@ releases:
     lts: true
     support: 2021-04-02
     eol: 2021-04-02
-    extended: 2026-04-02
+    extendedSupport: 2026-04-02
     latest: "16.04.7"
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
@@ -105,7 +110,7 @@ releases:
     lts: true
     support: 2019-04-02
     eol: 2019-04-02
-    extended: 2024-04-02
+    extendedSupport: 2024-04-02
     latest: "14.04.6"
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
@@ -122,5 +127,7 @@ During the lifetime of an Ubuntu release, Canonical provides security maintenanc
 Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Pro subscription or a Free subscription. Please see the [Ubuntu Website](https://ubuntu.com/pro) for details.
 
 The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://ubuntu.com/about/release-cycle).
+
+Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories. Ubuntu Pro (Infra-only) - previously known as Ubuntu Advantage - only guarantees security fixes for packages in the `main` repository - other packages are on a best-effort basis.
 
 For package specific support details, run the `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`).
