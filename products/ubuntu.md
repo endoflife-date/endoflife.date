@@ -17,7 +17,9 @@ auto:
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 identifiers:
 -   purl: pkg:os/ubuntu
-activeSupportColumn: true
+activeSupportColumn: Hardware and Maintenance Updates
+eol: Maintenance Updates
+extendedSupportColumn: Extended Security Maintenance
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
@@ -30,10 +32,12 @@ releases:
     link: https://wiki.ubuntu.com/KineticKudu/ReleaseNotes/
     releaseDate: 2022-10-20
     latestReleaseDate: 2022-10-20
+    extendedSupport: false
 -   releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
-    support: 2027-04-21
-    eol: 2032-04-01
+    support: 2024-09-30
+    eol: 2027-04-01
+    extendedSupport: 2032-04-09
     lts: true
     latest: "22.04.1"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
@@ -47,6 +51,7 @@ releases:
     link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
     releaseDate: 2021-10-14
     latestReleaseDate: 2021-10-14
+    extendedSupport: false
 -   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
     support: 2022-01-20
@@ -55,6 +60,7 @@ releases:
     link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
     releaseDate: 2021-04-22
     latestReleaseDate: 2021-04-22
+    extendedSupport: false
 -   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
     support: 2021-07-22
@@ -62,11 +68,13 @@ releases:
     latest: "20.10"
     releaseDate: 2020-10-22
     latestReleaseDate: 2020-10-22
+    extendedSupport: false
 -   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
-    support: 2025-04-02
-    eol: 2030-04-01
+    support: 2022-10-01
+    eol: 2025-04-02
+    extendedSupport: 2030-04-02
     latest: "20.04.5"
     releaseDate: 2020-04-23
     latestReleaseDate: 2022-09-01
@@ -77,11 +85,13 @@ releases:
     latest: "19.10"
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
+    extendedSupport: false
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
     support: 2023-04-02
-    eol: 2028-04-01
+    eol: 2023-04-02
+    extendedSupport: 2028-04-01
     latest: "18.04.6"
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
     releaseDate: 2018-04-26
@@ -90,7 +100,8 @@ releases:
     codename: "Xenial Xerus"
     lts: true
     support: 2021-04-02
-    eol: 2026-04-01
+    eol: 2021-04-02
+    extendedSupport: 2026-04-02
     latest: "16.04.7"
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
@@ -98,7 +109,8 @@ releases:
     codename: "Trusty Tahr"
     lts: true
     support: 2019-04-02
-    eol: 2024-04-01
+    eol: 2019-04-02
+    extendedSupport: 2024-04-02
     latest: "14.04.6"
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
@@ -112,8 +124,10 @@ LTS releases are in "General Support" for 5 years and "Extended Security Mainten
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Pro subscription or a Free subscription. Please see the [Ubuntu Website]({{page.link}}) for details.
+Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Pro subscription or a Free subscription. Please see the [Ubuntu Website](https://ubuntu.com/pro) for details.
 
 The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://ubuntu.com/about/release-cycle).
+
+Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories. Ubuntu Pro (Infra-only) - previously known as Ubuntu Advantage - only guarantees security fixes for packages in the `main` repository - other packages are on a best-effort basis.
 
 For package specific support details, run the `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`).
