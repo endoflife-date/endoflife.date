@@ -7,7 +7,7 @@ releaseImage: https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/ima
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
 eolColumn: Support Status
-releaseDateColumn: false
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/tarantool/tarantool.git
