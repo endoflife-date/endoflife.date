@@ -9,7 +9,7 @@ alternate_urls:
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 activeSupportColumn: false
-releaseDateColumn: false
+releaseDateColumn: true
 releaseColumn: true
 
 # https://rubular.com/r/WWOqtBih7muRFz
@@ -24,14 +24,12 @@ auto:
 
 releases:
 -   releaseCycle: "9"
-    support: true
     eol: false
     latest: "9.1.0"
     releaseDate: 2022-05-11
     latestReleaseDate: 2022-11-17
 
 -   releaseCycle: "8"
-    support: true
     eol: false
     latest: "8.11.2"
     releaseDate: 2019-03-13
