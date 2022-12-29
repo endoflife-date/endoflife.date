@@ -1,15 +1,15 @@
 ---
 title: Microsoft Visual Studio
 category: app
-releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
 iconSlug: visualstudio
 permalink: /visualstudio
 releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
+releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
+LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: false
 eolColumn: Active Support
-LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 
 releases:
 -   releaseCycle: "17.2"
@@ -116,12 +116,19 @@ releases:
 
 ---
 
-> [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test, and deploy to any platform
+> [Visual Studio](https://visualstudio.microsoft.com/) is a full-featured IDE to code, debug, test,
+> and deploy to any platform.
 
-The Long-Term Servicing Channel (LTSC) enables teams to remain supported on a minor version for up to 18 months after release. The LTSC are separate release Channels based on the even-numbered minor version updates. An LTSC release receives security and bug fixes but not additional new features.
+The Long-Term Servicing Channel (LTSC) enables teams to remain supported on a minor version for up
+to 18 months after release. The LTSC are separate release Channels based on the even-numbered minor
+version updates. An LTSC release receives security and bug fixes but not additional new features.
 
-**Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first 5 years of Mainstream Support provide feature updates, platform updates, security updates, and functionality fixes, and the second 5 years of Extended support provide security updates. For more information, search the Support Lifecycle Database.
+**Visual Studio 2019** follows the Microsoft Product Fixed Lifecycle Policy of 10 years. The first
+5 years of Mainstream Support provide feature updates, platform updates, security updates, and
+functionality fixes, and the second 5 years of Extended support provide security updates. For more
+information, search the Support Lifecycle Database.
 
 **Visual Studio 2017** and earlier are also supported for 10 years
 
-The **Visual Studio Community edition** is only supported on the recommended latest release of the latest minor version of Visual Studio.
+The **Visual Studio Community edition** is only supported on the recommended latest release of the
+latest minor version of Visual Studio.
