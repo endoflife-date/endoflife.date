@@ -122,6 +122,11 @@ releaseDateColumn: true
 # This usually means the device is no longer available for sale or is no longer being manufactured.
 discontinuedColumn: false
 
+# Whether to display the "Extended Support" column (optional, default = false).
+# You can also set this variable with a text label if you want to change the column name:
+#   extendedSupportColumn: Commercial Support
+extendedSupportColumn: false
+
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
 # Multiple configuration are allowed.
@@ -237,10 +242,18 @@ releases:
 
     # EOL date (mandatory).
     # This is where all support stops (including security support).
-    # In case there is extended/commercial support available, pick the date that would apply to the majority of users.
+    # In case there is extended/commercial support available, pick the date that would apply to the
+    # majority of users (and use the extendedSupport field if necessary).
     # Use valid dates, and do not add quotes around dates.
     # Alternatively, set to true|false the date has not been decided yet.
     eol: 2019-01-01
+
+    # End of extended/commercial support date (optional if extendedSupportColumn is false, else mandatory).
+    # Note that extended/commercial support is different from Long-Term Support. Extended/commercial
+    # support must be used only when additional support is available after EOL, usually against payment.
+    # Use valid dates, and do not add quotes around dates.
+    # Alternatively, set to true|false if the date has not been decided yet.
+    extendedSupport: 2020-01-01
 
     # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
