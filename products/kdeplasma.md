@@ -1,16 +1,17 @@
 ---
+title: KDE Plasma
+category: os
+iconSlug: kde
 permalink: /kde-plasma
 alternate_urls:
 -   /kdeplasma
-title: KDE Plasma
+versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_5
+changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
-versionCommand: plasmashell -v
-changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
-category: os
-iconSlug: kde
 eolColumn: Critical bug fixes
+
 releases:
 -   releaseCycle: "5.26"
     latest: "5.26.4"
@@ -27,7 +28,7 @@ releases:
     lts: false
     releaseDate: 2022-06-14
     latestReleaseDate: 2022-09-06
-    
+
 -   releaseCycle: "5.24"
     latest: "5.24.7"
     support: 2022-06-14
@@ -54,10 +55,15 @@ releases:
 
 ---
 
-> [KDE Plasma](https://kde.org/plasma-desktop/) is a graphical desktop environment with customizable layouts and panels, supporting virtual desktops and widgets. It is available on most Linux distributions and FreeBSD.
+> [KDE Plasma](https://kde.org/plasma-desktop/) is a graphical desktop environment with customizable
+> layouts and panels, supporting virtual desktops and widgets. It is available on most Linux
+> distributions and FreeBSD.
 
-KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_5) for future bug fix releases and major releases. 
+KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release
+every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_5) for
+future bug fix releases and major releases.
 
 ## Release Cadence
 * Plasma 5.24 (LTS) bug fix support will end once the first Plasma 6.0 feature release comes out.
-* Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_5#Bugfix_versions) (1, 1, 2, 3, 5) after each previous release of the same series.
+* Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_5#Bugfix_versions)
+  (1, 1, 2, 3, 5) after each previous release of the same series.
