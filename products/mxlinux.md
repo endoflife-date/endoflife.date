@@ -1,23 +1,26 @@
 ---
+title: MX Linux
+category: os
+iconSlug: mxlinux
 permalink: /mxlinux
 alternate_urls:
 -   /mx_linux
 -   /mx-linux
 -   /mx
-title: MX Linux
-category: os
-releasePolicyLink: https://mxlinux.org/release-cycle/
-iconSlug: mxlinux
-activeSupportColumn: true
 versionCommand: cat /etc/os-release
+releasePolicyLink: https://mxlinux.org/release-cycle/
+releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
-releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+
 identifiers:
 -   purl: pkg:os/mxlinux
+
 auto:
 -   distrowatch: mxlinux
 -   regex: '^Distribution Release: MX Linux (?P<major>\d)\.(?P<minor>\d)$'
+
 releases:
 -   releaseCycle: "21"
     codename: "Wildflower"
@@ -83,10 +86,17 @@ releases:
 
 ---
 
-> [MX Linux](https://mxlinux.org/) is a desktop-oriented GNU/Linux distribution based on Debian's stable branch releases. MX Linux uses the [XFCE](https://xfce.org/) by default and aims for "an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint."
+> [MX Linux](https://mxlinux.org/) is a desktop-oriented GNU/Linux distribution based on Debian's
+> stable branch releases. MX Linux uses the [XFCE](https://xfce.org/) by default and aims for "an
+> elegant and efficient desktop with simple configuration, high stability, solid performance and
+> medium-sized footprint."
 
-There are several releases of MX Linux supported concurrently.  These typically follow Debian's periods of active development and extended long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
+There are several releases of MX Linux supported concurrently. These typically follow Debian's
+periods of active development and extended long-term support, which provides security patches to a
+limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term
+security patch support.
 
 MX Linux matches the year of release (21 was released in 2021 for eg) for versioning.
 
-MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors, and the Raspberry Pi's 32-bit armhf architecture.
+MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors,
+and the Raspberry Pi's 32-bit armhf architecture.
