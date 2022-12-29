@@ -10,7 +10,7 @@ releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-sched
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 activeSupportColumn: true
 releaseColumn: true
-releaseDateColumn: false
+releaseDateColumn: true
 eolColumn: Maintenance Support
 
 auto:
