@@ -12,9 +12,8 @@ releaseDateColumn: true
 eolColumn: Acceptance
 
 releases:
--   releaseCycle: "4"
+-   releaseCycle: "4.0"
     eol: false
-    latest: "4.0"
     releaseDate: 2022-03-31
     link: https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub
 
