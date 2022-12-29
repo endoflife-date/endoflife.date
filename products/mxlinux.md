@@ -32,7 +32,7 @@ releases:
     link: https://mxlinux.org/blog/mx-21-2-1-wildflower-released/
 
 -   releaseCycle: "19"
-    codename: "patito feo"
+    codename: "Patito Feo"
     releaseDate: 2019-10-21
     latest: "19.4"
     latestReleaseDate: 2021-03-31
@@ -50,6 +50,7 @@ releases:
     link: https://mxlinux.org/blog/mx-18-3-refreshed-isos-now-available/
 
 -   releaseCycle: "17"
+    codename: "Horizon"
     releaseDate: 2017-12-15
     latest: "17.1"
     latestReleaseDate: 2018-03-14
