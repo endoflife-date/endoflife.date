@@ -16,22 +16,29 @@ identifiers:
 
 releases:
 -   releaseCycle: "2.4"
+    releaseDate: 2012-02-21
     eol: false
     latest: "2.4.54"
+    latestReleaseDate: 2022-06-08
     link: https://downloads.apache.org/httpd/Announcement2.4.html
-    releaseDate: 2012-02-21
+
 -   releaseCycle: "2.2"
+    releaseDate: 2005-12-01
     eol: 2017-07-11
     latest: "2.2.34"
-    releaseDate: 2005-12-01
+    latestReleaseDate: 2017-07-11
+
 -   releaseCycle: "2.0"
+    releaseDate: 2002-04-06
     eol: 2013-07-10
     latest: "2.0.65"
-    releaseDate: 2002-04-06
+    latestReleaseDate: 2013-07-10
+
 -   releaseCycle: "1.3"
+    releaseDate: 1998-06-06
     eol: 2010-02-03
     latest: "1.3.42"
-    releaseDate: 1998-06-06
+    latestReleaseDate: 2010-02-03
 
 ---
 
