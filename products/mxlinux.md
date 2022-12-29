@@ -11,7 +11,7 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://mxlinux.org/release-cycle/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 activeSupportColumn: true
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
