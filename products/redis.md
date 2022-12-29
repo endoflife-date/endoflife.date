@@ -7,7 +7,7 @@ versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false
-releaseDateColumn: false
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/redis/redis.git
