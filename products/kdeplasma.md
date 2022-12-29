@@ -12,6 +12,9 @@ activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+auto:
+-   git: https://github.com/KDE/plasma-desktop.git
+
 releases:
 -   releaseCycle: "5.26"
     latest: "5.26.4"
