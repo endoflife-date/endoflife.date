@@ -11,13 +11,11 @@ eolColumn: Support Status
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2022-08-18
-    support: 2023-06-12
     eol: 2023-06-12
     latest: "7.4.3"
     latestReleaseDate: 2022-11-24
 
 -   releaseCycle: "7.3"
-    support: 2022-11-30
     eol: 2022-11-30
     latest: "7.3.7"
     latestReleaseDate: 2022-08-26
