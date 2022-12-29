@@ -1,6 +1,7 @@
 ---
 title: Citrix Virtual Apps and Desktops
 permalink: /citrix-vad
+changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
 alternate_urls:
 -   /citrixvad
 -   /cvad
@@ -14,6 +15,12 @@ releaseColumn: true
 releaseDateColumn: true
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 releases:
+-   releaseCycle: "2212"
+    latest: "2212"
+    support: 2023-06-19
+    eol: 2024-06-19
+    releaseDate: 2022-12-19
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html
 -   releaseCycle: "2209"
     latest: "2209"
     support: 2023-03-29
@@ -25,11 +32,12 @@ releases:
     eol: 2023-12-28
     releaseDate: 2022-06-28
 -   releaseCycle: "2203"
-    latest: "2203 CU1"
+    latest: "2203 CU2"
     support: 2027-03-23
     eol: 2027-03-23
     lts: true
     releaseDate: 2022-03-23
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-2.html
 -   releaseCycle: "2112"
     latest: "2112"
     support: 2022-06-14
@@ -72,15 +80,18 @@ releases:
     releaseDate: 2020-03-20
 -   releaseCycle: "1912"
     latest: "1912 CU6"
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-6.html
     support: 2024-12-18
     eol: 2024-12-18
     lts: true
     releaseDate: 2019-12-18
 -   releaseCycle: "7.15"
+    releaseLabel: XenDesktop __RELEASE_CYCLE__
     latest: "7.15 CU8"
     support: 2022-08-15
     eol: 2022-08-15
     lts: true
+    link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-8.html
     releaseDate: 2017-08-15
 
 ---
@@ -93,3 +104,5 @@ There are two release types for on-premises deployments, Current Releases and Lo
 
 * Current Releases will reach end of active support 6 months after release and end of security support 18 months after release.
 * Long Term Service Releases will reach end of active and security support 5 years after release. Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible for paid extended support up to 5 years after active and security support ends and is not reflected above.
+
+This page tracks the on-premise version of the product, and not the cloud-hosted version (Citrix Virtual Apps and Desktops _service_).
