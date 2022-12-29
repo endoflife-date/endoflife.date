@@ -6,8 +6,9 @@ permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
-activeSupportColumn: false
 releaseDateColumn: true
+activeSupportColumn: Premier Support
+eolColumn: Extended Support
 
 # Regex takes into account the first GA release in each cycle (in parentheses)
 # https://docs.oracle.com/cd/E17952_01/mysql-5.5-relnotes-en/index.html (5.5.8)
