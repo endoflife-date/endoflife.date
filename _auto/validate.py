@@ -28,7 +28,6 @@ def yaml_to_str(obj):
     string_stream.close()
     return output_str
 
-
 def validate_product(name):
     print("Validating %s" % name)
     fail = False
@@ -45,7 +44,7 @@ def validate_product(name):
             for url in data["alternate_urls"]:
                 assert url[0] == "/"
         for r in data["releases"]:
-            # Release Cycle must be a string
+            # must be a string (or numbers such as 3.10 will be formatted as 3.1)
             assert isinstance(r["releaseCycle"], str)
             # EOL dates must be present, and either be a bool or a string
             assert isinstance(r["eol"], (bool, date))
@@ -57,6 +56,7 @@ def validate_product(name):
             if "releaseDateColumn" not in data or data["releaseDateColumn"]:
                 assert isinstance(r["releaseDate"], date)
             if "releaseColumn" in data and data["releaseColumn"]:
+                # must be a string (or numbers such as 3.10 will be formatted as 3.1)
                 assert isinstance(r["latest"], str)
 
         f.seek(0)
