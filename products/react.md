@@ -48,7 +48,7 @@ releases:
     support: 2017-09-26
     latest: "15.7.0"
     latestReleaseDate: 2020-10-14
-    releaseDate: 2016-04-08
+    releaseDate: 2016-04-07
 
 ---
 

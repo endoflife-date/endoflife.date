@@ -21,18 +21,18 @@ auto:
 
 releases:
 -   releaseCycle: "3.2"
-    releaseDate: 2022-09-01
+    releaseDate: 2022-08-31
     support: true
     eol: false
     latest: "3.2.1"
-    latestReleaseDate: 2022-11-07
+    latestReleaseDate: 2022-10-26
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-10-18
     support: 2022-09-01
     eol: 2022-09-01
     latest: "3.1.3"
-    latestReleaseDate: 2022-06-21
+    latestReleaseDate: 2022-06-14
 
 -   releaseCycle: "3.0"
     releaseDate: 2021-05-13
@@ -46,23 +46,23 @@ releases:
     support: true
     eol: false
     latest: "2.13.10"
-    latestReleaseDate: 2022-10-13
+    latestReleaseDate: 2022-10-08
     link: https://github.com/scala/scala/releases/tag/v2.13.10
 
 -   releaseCycle: "2.12"
-    releaseDate: 2016-11-03
+    releaseDate: 2016-10-28
     support: 2019-06-07
     eol: false
     latest: "2.12.17"
-    latestReleaseDate: 2022-09-16
+    latestReleaseDate: 2022-09-14
     link: https://github.com/scala/scala/releases/tag/v2.12.17
 
 -   releaseCycle: "2.11"
-    releaseDate: 2014-04-17
+    releaseDate: 2014-04-16
     support: 2016-11-03
     eol: false
     latest: "2.11.12"
-    latestReleaseDate: 2017-11-09
+    latestReleaseDate: 2017-11-06
     link: https://github.com/scala/scala/releases/tag/v2.11.12
 
 -   releaseCycle: "2.10"
@@ -70,7 +70,7 @@ releases:
     support: 2014-04-17
     eol: false
     latest: "2.10.7"
-    latestReleaseDate: 2017-11-09
+    latestReleaseDate: 2017-11-06
     link: https://github.com/scala/scala/releases/tag/v2.10.7
 
 ---

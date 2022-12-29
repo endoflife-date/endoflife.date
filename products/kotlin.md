@@ -25,28 +25,28 @@ releases:
     eol: false
     latest: "1.7.22"
     link: https://kotlinlang.org/docs/whatsnew1720.html
-    latestReleaseDate: 2022-11-25
-    releaseDate: 2022-06-07
+    latestReleaseDate: 2022-11-28
+    releaseDate: 2022-06-09
 -   releaseCycle: "1.6"
     eol: 2022-06-07
     latest: "1.6.21"
-    latestReleaseDate: 2022-04-18
-    releaseDate: 2021-11-11
+    latestReleaseDate: 2022-04-19
+    releaseDate: 2021-11-15
 -   releaseCycle: "1.5"
     eol: 2021-11-26
     latest: "1.5.32"
-    latestReleaseDate: 2021-11-26
+    latestReleaseDate: 2021-11-29
     releaseDate: 2021-04-26
 -   releaseCycle: "1.4"
     eol: 2021-11-26
     latest: "1.4.32"
-    latestReleaseDate: 2021-03-25
-    releaseDate: 2020-08-13
+    latestReleaseDate: 2021-03-22
+    releaseDate: 2020-08-14
 -   releaseCycle: "1.3"
     eol: 2020-04-14
     latest: "1.3.72"
-    latestReleaseDate: 2020-04-14
-    releaseDate: 2018-10-25
+    latestReleaseDate: 2020-04-15
+    releaseDate: 2018-10-29
 
 ---
 
