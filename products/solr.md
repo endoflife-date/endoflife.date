@@ -1,10 +1,17 @@
 ---
 title: Apache Solr
+category: server-app
+iconSlug: apachesolr
 permalink: /solr
 alternate_urls:
 -   /apache_solr
 -   /apache-solr
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
+changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
+activeSupportColumn: false
+releaseDateColumn: false
+releaseColumn: true
+
 # https://rubular.com/r/WWOqtBih7muRFz
 auto:
 -   git: https://github.com/apache/lucene-solr.git
@@ -14,12 +21,7 @@ auto:
     # Only pick new release from the new repo
     regex: '^releases\/solr\/(?<version>\d+\.\d+(.\d+)?)$'
     template: '{{version}}'
-category: server-app
-changelogTemplate: https://solr.apache.org/docs/{{"__LATEST__" | replace:'.','_'}}/changes/Changes.html
-activeSupportColumn: false
-releaseDateColumn: false
-releaseColumn: true
-iconSlug: apachesolr
+
 releases:
 -   releaseCycle: "9"
     support: true
@@ -27,6 +29,7 @@ releases:
     latest: "9.1.0"
     releaseDate: 2022-05-11
     latestReleaseDate: 2022-11-17
+
 -   releaseCycle: "8"
     support: true
     eol: false
