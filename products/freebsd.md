@@ -7,7 +7,7 @@ versionCommand: freebsd-version
 releasePolicyLink: https://www.freebsd.org/security/#sup
 changelogTemplate: https://www.freebsd.org/releases/{{"__RELEASE_CYCLE__" | split:'/' | last}}R/
 activeSupportColumn: false
-releaseDateColumn: false
+releaseDateColumn: true
 releaseColumn: false
 
 releases:
@@ -21,6 +21,7 @@ releases:
     releaseDate: 2021-04-13
 
 -   releaseCycle: "stable/13"
+    releaseDate: 2021-04-13
     eol: 2026-01-31
     # prevent the link to be generated using the changelogTemplate
     link: ""
@@ -46,6 +47,7 @@ releases:
     releaseDate: 2018-12-11
 
 -   releaseCycle: "stable/12"
+    releaseDate: 2018-12-11
     eol: 2023-12-31
     # prevent the link to be generated using the changelogTemplate
     link: ""
@@ -55,6 +57,7 @@ releases:
     releaseDate: 2020-06-16
 
 -   releaseCycle: "stable/11"
+    releaseDate: 2016-10-10
     eol: 2021-09-30
     link: ""
 
@@ -79,6 +82,7 @@ releases:
     releaseDate: 2014-01-20
 
 -   releaseCycle: "stable/10"
+    releaseDate: 2014-01-20
     eol: 2018-10-31
     link: ""
 
@@ -99,6 +103,7 @@ releases:
     releaseDate: 2012-01-10
 
 -   releaseCycle: "stable/9"
+    releaseDate: 2012-01-10
     eol: 2016-12-31
     link: ""
 
@@ -123,6 +128,7 @@ releases:
     releaseDate: 2009-11-25
 
 -   releaseCycle: "stable/8"
+    releaseDate: 2009-11-25
     eol: 2015-08-01
     link: ""
 
@@ -147,6 +153,7 @@ releases:
     releaseDate: 2008-02-27
 
 -   releaseCycle: "stable/7"
+    releaseDate: 2008-02-27
     eol: 2013-02-28
     link: ""
 
@@ -171,6 +178,7 @@ releases:
     releaseDate: 2005-11-04
 
 -   releaseCycle: "stable/6"
+    releaseDate: 2005-11-04
     eol: 2010-11-30
     link: ""
 
@@ -187,6 +195,7 @@ releases:
     releaseDate: 2004-11-06
 
 -   releaseCycle: "stable/5"
+    releaseDate: 2004-11-06
     eol: 2008-05-31
     link: ""
 
@@ -195,6 +204,7 @@ releases:
     releaseDate: 2005-01-25
 
 -   releaseCycle: "stable/4"
+    releaseDate: 2000-03-14
     eol: 2007-01-31
     link: ""
 
