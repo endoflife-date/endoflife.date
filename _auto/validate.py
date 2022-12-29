@@ -74,6 +74,12 @@ def validate_product(file):
             elif "support" in r:
                 warn_of_unnecessary_field('support', f"{file}/{r['releaseCycle']}")
 
+        if "extendedSupportColumn" in data:
+            if data["extendedSupportColumn"]:
+                assert_that_type_is((bool, date), r["extendedSupport"], 'extendedSupport', file)
+            elif "extendedSupport" in r:
+                warn_of_unnecessary_field('extendedSupport', f"{file}/{r['releaseCycle']}")
+
         if "discontinuedColumn" in data:
             if data["discontinuedColumn"]:
                 assert_that_type_is((bool, date), r["discontinued"], 'discontinued', file)

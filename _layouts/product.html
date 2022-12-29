@@ -32,6 +32,15 @@ layout: default
       {% if page.eolColumn != false %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
       {% endif %}
+      {% if page.extendedSupportColumn%}
+      <th>
+        {% if page.extendedSupportColumn == true %}
+        Extended Support
+        {%else%}
+        {{page.extendedSupportColumn}}
+        {%endif%}
+      </th>
+      {% endif %}
       {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
@@ -39,6 +48,7 @@ layout: default
 {% for r in page.releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
 {% assign securityFixes = r.eol | date: '%s' | plus:0 %}
+{% assign extendedSupport = r.extendedSupport | date: '%s' | plus:0 %}
 
 
 {% comment %}
@@ -58,8 +68,10 @@ or +1 (EoL is in the future)
 {% endif %}
 
 {% assign diffSupport = support | minus:now %}
+{% assign diffExtendedSupport = extendedSupport | minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
+{% assign diffExtendedSupport6  = diffExtendedSupport | minus:10651938 %}
 {% assign latestVersionNumber = r.latest | liquify %}
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
@@ -185,6 +197,41 @@ or +1 (EoL is in the future)
       {% else %}
       Yes
       {% endif %}
+    {% endif %}
+  </td>
+  {% endif %}
+
+  {% if page.extendedSupportColumn %}
+  <td class=
+        {% if extendedSupport > 5 %}
+    {% if diffExtendedSupport < 0 and r.extendedSupport != false %}
+    "bg-red-000"
+    {% elsif diffExtendedSupport6 > 0 %}
+    "bg-green-000"
+    {% else %}
+    "bg-yellow-200"
+    {% endif %}
+    {% else %}
+    {% if r.extendedSupport %}
+    "bg-green-000"
+    {% else %}
+    "bg-red-000"
+    {% endif %}
+    {% endif %}
+    title="{{r.extendedSupport}}">
+    {% if extendedSupport > 5 %}
+    {% if diffExtendedSupport < 0 %}
+    Ended
+    {% else %}
+    Ends
+    {% endif %}
+    {{r.extendedSupport | timeago}} <div>({{r.extendedSupport | date_to_string}})</div>
+    {% else %}
+    {% if r.extendedSupport %}
+    Yes
+    {% else %}
+    No
+    {% endif %}
     {% endif %}
   </td>
   {% endif %}
