@@ -2,7 +2,9 @@
 title: Microsoft Visual Studio
 category: app
 iconSlug: visualstudio
-permalink: /visualstudio
+permalink: /visual-studio
+alternate_urls:
+-   /visualstudio
 releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
 releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
