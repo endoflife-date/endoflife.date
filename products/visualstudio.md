@@ -10,7 +10,7 @@ releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 activeSupportColumn: false
 releaseColumn: false
-releaseDateColumn: false
+releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
