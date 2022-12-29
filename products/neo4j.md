@@ -1,57 +1,65 @@
 ---
 title: Neo4j
-permalink: /neo4j
-releasePolicyLink: https://neo4j.com/terms/support-terms/
 category: db
+iconSlug: neo4j
+permalink: /neo4j
+versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
+releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/tags/__LATEST__
 activeSupportColumn: false
 eolColumn: Support Status
-versionCommand: call dbms.components() yield versions unwind versions as version return
-  version;
 releaseDateColumn: true
-iconSlug: neo4j
+
 auto:
 -   git: https://github.com/neo4j/neo4j.git
+
 releases:
 -   releaseCycle: "5.2"
     eol: false
     latest: "5.2.0"
     latestReleaseDate: 2022-11-21
     releaseDate: 2022-11-21
+
 -   releaseCycle: "5.1"
     eol: 2022-11-21
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
     releaseDate: 2022-10-21
+
 -   releaseCycle: "5.0"
     eol: 2022-10-24
     latest: "5.0.0"
     latestReleaseDate: 2022-10-28
     releaseDate: 2022-10-28
+
 -   releaseCycle: "4.4"
     eol: 2025-06-30
     latest: "4.4.16"
     lts: true
     latestReleaseDate: 2022-12-21
     releaseDate: 2021-12-02
+
 -   releaseCycle: "4.3"
     eol: 2022-12-16
     latest: "4.3.23"
     lts: false
     latestReleaseDate: 2022-12-21
     releaseDate: 2021-06-10
+
 -   releaseCycle: "4.2"
     eol: 2022-05-16
     latest: "4.2.19"
     lts: false
     latestReleaseDate: 2022-08-11
     releaseDate: 2020-11-17
+
 -   releaseCycle: "4.1"
     eol: 2021-12-22
     latest: "4.1.12"
     lts: false
     latestReleaseDate: 2022-08-11
     releaseDate: 2020-06-23
+
 -   releaseCycle: "4.0"
     eol: 2021-07-14
     latest: "4.0.12"
@@ -61,10 +69,10 @@ releases:
 
 ---
 
-> [Neo4j](https://neo4j.com/) is a high-performance graph database with
-> with a friendly query language and ACID transactions. 
+> [Neo4j](https://neo4j.com/) is a high-performance graph database with with a friendly query
+> language and ACID transactions.
 
-Neo4j has separate policies for different versions:
+Neo4j has separate policies for different versions.
 
 ### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
 
@@ -78,13 +86,13 @@ This page tracks End-of-Life as per the Neo4j Enterprise Edition. Support or fix
 
 A high-level overview of different Neo4j editions:
 
-|        Edition        |    Details   |                       Feature                      |               Support                  |
-| --------------------- | ------------ | -------------------------------------------------- | -------------------------------------  |
-| Community (Free)      | On-premise   | Single-node, no clustering                         | Community Support                      |
-| Enterprise            | On-premise   | Clustering, hot-backups, monitoring                | ???                                    |
-| AuraDB Free           | Cloud-only   | GCP only, Limits on node and relationship counts   | Community Support                      |
-| AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                           | Support Portal, no SLA                 |
-| AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                   | Premium ticket-based support, with SLA |
+|        Edition        |    Details   |                       Feature                    |               Support                  |
+| --------------------- | ------------ | ------------------------------------------------ | -------------------------------------  |
+| Community (Free)      | On-premise   | Single-node, no clustering                       | Community Support                      |
+| Enterprise            | On-premise   | Clustering, hot-backups, monitoring              | ???                                    |
+| AuraDB Free           | Cloud-only   | GCP only, Limits on node and relationship counts | Community Support                      |
+| AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                         | Support Portal, no SLA                 |
+| AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                 | Premium ticket-based support, with SLA |
 
 ## References
 
