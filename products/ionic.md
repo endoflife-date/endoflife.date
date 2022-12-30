@@ -60,7 +60,7 @@ releases:
 
 ---
 
-> [The Ionic Framework](https://micronaut.io/) is an open source mobile UI toolkit for building
+> [The Ionic Framework](https://ionicframework.com) is an open source mobile UI toolkit for building
 > modern cross-platform mobile apps from a single code base in Angular, React or Vue.
 
 Only the latest version sees active development. The previous release gets critical bug and security
