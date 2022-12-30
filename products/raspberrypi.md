@@ -7,7 +7,7 @@ alternate_urls:
 -   /raspberypi
 -   /raspi
 -   /rpi
-releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_and_iPadOS_devices#In_production_and_supported
+releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: false
