@@ -145,8 +145,9 @@ releases:
 Most likely, new iPad models will come out in September every year (with a few possible exceptions).
 Apple occasionally releases security updates for much older devices, such as
 [this security fix in iOS 12.5.6](https://support.apple.com/HT213428) which was pushed to iPad Air,
-iPad mini2, and iPad mini 3.
+iPad mini 2, and iPad mini 3.
 
-Apple maintains a list of Supported iPhone models at <https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados>.
+Apple maintains a list of Supported iPhone models
+[on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
-Support information for iPadOS versions are available at [/ipados](/ipados).
+Support information for iPadOS versions are also available [on endoflife.date](/ipados).
