@@ -19,7 +19,7 @@ identifiers:
 -   purl: pkg:os/ubuntu
 activeSupportColumn: true
 releaseDateColumn: true
-releaseImage: https://user-images.githubusercontent.com/44484725/135176160-a1d5dd88-fc56-44ee-9ce8-98d52a41da2b.png
+releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 -   releaseCycle: "22.10"
