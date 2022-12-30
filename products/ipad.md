@@ -14,8 +14,8 @@ releases:
 -   releaseCycle: "10"
     releaseLabel: "iPad (10th generation)"
     releaseDate: 2022-10-26
-    eol: false
     discontinued: false
+    eol: false
 
 -   releaseCycle: "air-5"
     releaseLabel: "iPad Air (5th generation)"
@@ -25,9 +25,9 @@ releases:
 
 -   releaseCycle: "9"
     releaseLabel: "iPad (9th generation)"
-    releaseDate: 2021-09-25
-    eol: false
+    releaseDate: 2021-09-24
     discontinued: false
+    eol: false
 
 -   releaseCycle: "mini-6"
     releaseLabel: "iPad Mini (6th generation)"
@@ -38,12 +38,12 @@ releases:
 -   releaseCycle: "8"
     releaseLabel: "iPad (8th generation)"
     releaseDate: 2020-09-18
-    eol: false
     discontinued: 2021-09-14
+    eol: false
 
 -   releaseCycle: "air-4"
     releaseLabel: "iPad Air (4th generation)"
-    releaseDate: 2022-10-23
+    releaseDate: 2020-10-23
     discontinued: 2022-03-08
     eol: false
 
@@ -110,8 +110,8 @@ releases:
 -   releaseCycle: "4"
     releaseLabel: "iPad (4th generation)"
     releaseDate: 2012-11-02
-    eol: 2019-07-22
     discontinued: 2014-10-16
+    eol: 2019-07-22
 
 -   releaseCycle: "3"
     releaseLabel: "iPad (3rd generation)"
@@ -121,8 +121,8 @@ releases:
 
 -   releaseCycle: "mini-1"
     releaseLabel: "iPad Mini (1st generation)"
-    discontinued: 2015-06-19
     releaseDate: 2012-11-02
+    discontinued: 2015-06-19
     eol: 2019-07-22
 
 -   releaseCycle: "2"
