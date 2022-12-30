@@ -1,17 +1,19 @@
 ---
 title: VMware vCenter Server
+category: app
+iconSlug: vmware
 permalink: /vcenter
 alternate_urls:
 -   /vmwarevcenter
 -   /vmware-vcenter
-iconSlug: vmware
-category: app
 releasePolicyLink: https://lifecycle.vmware.com
-eolColumn: General Support
+
 activeSupportColumn: Technical Guidance
 releaseColumn: true
 releaseDateColumn: true
+eolColumn: General Support
 discontinuedColumn: false
+
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2022-10-11
@@ -20,6 +22,7 @@ releases:
     latest: "8.0a"
     latestReleaseDate: 2022-12-15
     link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80a-release-notes/index.html"
+
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
     eol: 2025-04-02
@@ -27,6 +30,7 @@ releases:
     latest: "7.0 U3i"
     latestReleaseDate: 2022-12-08
     link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3i-release-notes.html"
+
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
     eol: 2022-10-15
@@ -34,6 +38,7 @@ releases:
     latest: "6.7 U3s"
     latestReleaseDate: 2022-10-06
     link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/vsphere-vcenter-server-67u3s-release-notes.html"
+
 -   releaseCycle: "6.5"
     releaseDate: 2016-11-15
     eol: 2022-10-15
@@ -41,6 +46,7 @@ releases:
     latest: "6.5 U3u"
     latestReleaseDate: 2022-10-06
     link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-vcenter-server-65u3u-release-notes.html"
+
 -   releaseCycle: "6.0"
     releaseDate: 2015-03-12
     eol: 2020-03-12
@@ -48,24 +54,28 @@ releases:
     latest: "6.0 U3j"
     latestReleaseDate: 2019-09-12
     link: "https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html"
+
 -   releaseCycle: "5.5"
     releaseDate: 2013-09-19
     eol: 2018-09-19
     support: 2020-09-19
     latest: "5.5 U3k"
     latestReleaseDate: 2018-09-14
+
 -   releaseCycle: "5.1"
     releaseDate: 2012-08-13
     eol: 2016-08-24
     support: 2018-08-24
     latest: "5.1 U3d"
     latestReleaseDate: 2016-05-19
+
 -   releaseCycle: "5.0"
     releaseDate: 2011-08-24
     eol: 2016-08-24
     support: 2018-08-24
     latest: "5.0 U3g"
     latestReleaseDate: 2016-05-19
+
 -   releaseCycle: "4"
     releaseDate: 2009-05-21
     eol: 2014-05-21
