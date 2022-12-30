@@ -9,8 +9,14 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 
+# We fetch dates from Git, and then override a few
+# older releases with more accurate dates from distrowatch
+# pre-1.3 releases were tagged later, so git data isn't accurate for those.
 auto:
--   git: https://gitlab.tails.boum.org/tails/tails.git
+-   distrowatch: tails
+    regex:
+    - '^Distribution Release: Tails (?P<major>\d).(?P<minor>\d)$'
+    - '^Distribution Release: Incognito Live System (?P<major>\d).(?P<minor>\d)$'
 
 releases:
 -   releaseCycle: "5"
