@@ -6,7 +6,7 @@ alternate_urls:
 -   /rpi
 title: Raspberry Pi
 category: device
-iconSlug: raspberypi
+iconSlug: raspberrypi
 releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_and_iPadOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
