@@ -23,7 +23,7 @@ releases:
 -   releaseCycle: "CM3"
     releaseLabel: Compute Module 3, 3 Lite, 3+
     link: https://www.raspberrypi.com/documentation/computers/compute-module.html
-    discontued: 2026-01-01
+    discontinued: 2026-01-01
 -   releaseCycle: "pico"
     releaseLabel: Pico
     discontinued: 2028-01-01

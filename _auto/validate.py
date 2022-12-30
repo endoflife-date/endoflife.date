@@ -48,7 +48,9 @@ def validate_product(name):
             # Release Cycle must be a string
             assert isinstance(r["releaseCycle"], str)
             # EOL dates must be present, and either be a bool or a string
-            assert isinstance(r["eol"], (bool, date))
+            # eolColumn is assumed to be present, so check it unless it is disabled:
+            if not ("eolColumn" in data and data["eolColumn"]==False):
+                assert isinstance(r["eol"], (bool, date))
             # Support Dates can either be bool or a string but are optional
             if "activeSupportColumn" in data and data["activeSupportColumn"]:
                 assert isinstance(r["support"], (bool, date))
