@@ -3,7 +3,7 @@ permalink: /antix
 alternate_urls:
 -   /antixlinux
 -   /antix-linux
-title: antiX
+title: antiX Linux
 category: os
 releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
 activeSupportColumn: true
