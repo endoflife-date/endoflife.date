@@ -101,7 +101,7 @@ for each Kubernetes minor version once the version has been made available in th
 Nodes and node pool versions can be up to two minor versions older than the control plane as per the
 [Kubernetes version skew policy](https://kubernetes.io/releases/version-skew-policy/).
 
-New GKE Standard clusters are created with a default version (currently `{{site.data.gke.default_cluster_version}}`),
+New GKE Standard clusters are created with a default version,
 a stable release of a recent Kubernetes minor version or patch release.
 Versions newer than the default are also generally available on a weekly basis.
 Autopilot clusters are enrolled in a release channel (defaults to standard) instead.
