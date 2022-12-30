@@ -23,8 +23,8 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-06-06
-    latest: "4.4.8"
-    latestReleaseDate: 2022-12-01
+    latest: "4.4.9"
+    latestReleaseDate: 2022-12-29
     codename: Strawberry
 
 -   releaseCycle: "4.3"
