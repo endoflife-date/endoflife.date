@@ -5,7 +5,7 @@ category: os
 iconSlug: apple
 releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 discontinuedColumn: false
-activeSupportColumn: false
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 auto:
@@ -13,36 +13,43 @@ auto:
 releases:
 -   releaseCycle: "9"
     eol: false
+    support: true
     releaseDate: 2022-09-12
     latestReleaseDate: 2022-12-13
     latest: '9.2'
 -   releaseCycle: "8"
     eol: 2022-09-22
+    support: false
     releaseDate: 2021-09-20
     latestReleaseDate: 2022-08-17
     latest: '8.7.1'
 -   releaseCycle: "7"
     eol: 2021-10-11
+    support: false
     releaseDate: 2020-09-16
     latestReleaseDate: 2021-09-13
     latest: '7.6.2'
 -   releaseCycle: "6"
     eol: 2020-09-16
+    support: false
     releaseDate: 2019-09-19
     latestReleaseDate: 2020-12-14
     latest: '6.3'
 -   releaseCycle: "5"
     eol: 2019-09-30
+    support: false
     releaseDate: 2018-09-17
     latestReleaseDate: 2020-11-05
     latest: '5.3.9'
 -   releaseCycle: "4"
     eol: 2018-09-27
+    support: false
     releaseDate: 2017-09-19
     latestReleaseDate: 2018-07-09
     latest: '4.3.2'
 -   releaseCycle: "3"
     eol: 2017-10-04
+    support: false
     releaseDate: 2016-09-13
     latestReleaseDate: 2017-07-19
     latest: '3.2.3'
