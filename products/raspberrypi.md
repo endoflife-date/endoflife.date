@@ -25,32 +25,46 @@ releases:
 
 -   releaseCycle: "CM3"
     releaseLabel: Compute Module 3, 3 Lite, 3+
-    link: https://www.raspberrypi.com/documentation/computers/compute-module.html
     discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/compute-module-3-launch/
 
 -   releaseCycle: "pico"
     releaseLabel: Pico
+    releaseDate: 2021-01-21
     discontinued: 2028-01-01
+    link: https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/
 
 -   releaseCycle: "4"
+    releaseDate: 2019-06-24
     discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/
 
 -   releaseCycle: "3"
+    releaseDate: 2016-02-29
     discontinued: 2026-01-01
-
--   releaseCycle: "zero"
-    releaseLabel: "Zero 1, Zero W"
-    discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/
 
 -   releaseCycle: "zero-2"
     releaseLabel: "Zero 2 W"
+    releaseDate: 2021-10-28
     discontinued: 2028-01-01
+    link: https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/
+
+-   releaseCycle: "zero"
+    releaseLabel: "Zero 1, Zero W"
+    releaseDate: 2015-11-26
+    discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/raspberry-pi-zero/
 
 -   releaseCycle: "2"
+    releaseDate: 2015-02-02
     discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/raspberry-pi-2-on-sale/
 
 -   releaseCycle: "1"
+    releaseDate: 2012-03-01
     discontinued: 2026-01-01
+    link: https://www.raspberrypi.com/news/the-raspberry-pi-launch/
 
 ---
 
