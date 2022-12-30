@@ -17,8 +17,8 @@ releases:
     releaseDate: 2022-08-03
     support: true
     eol: false
-    latest: "pc.2022.6.0.1"
-    latestReleaseDate: 2022-10-13
+    latest: "pc.2022.6.0.2"
+    latestReleaseDate: 2022-12-16
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16
     support: 2022-10-31
