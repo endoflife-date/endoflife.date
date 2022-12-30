@@ -59,4 +59,5 @@ releases:
 > and open design.
 
 Some of Raspberry Pi hardware comes with an Obsolescence statement guaranteeing production till a
-specific date.
+specific date. [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) supports
+all Raspberry Pi variants (excluding Pico).
