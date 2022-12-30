@@ -14,6 +14,12 @@ auto:
 -   git: https://github.com/neo4j/neo4j.git
 
 releases:
+-   releaseCycle: "5.3"
+    eol: false
+    latest: "5.3.0"
+    latestReleaseDate: 2022-12-15
+    releaseDate: 2022-12-15
+
 -   releaseCycle: "5.2"
     eol: false
     latest: "5.2.0"
