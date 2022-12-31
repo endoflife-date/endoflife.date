@@ -63,4 +63,39 @@ defaults:
       path: "products"
     values:
       layout: product
+      releaseCycleColumn: true
+      releaseDateColumn: false
+      discontinuedColumn: false
+      activesupportColumn: false
+      eolColumn: true
+      columns:
+        # The spaces before Yes/No
+        # are intentional to avoid the
+        # YAML norway problem
+        support:
+          if: activeSupportColumn
+          type: date
+          defaults:
+            on-true:
+              text: " Yes"
+              color: green
+            on-false:
+              text: " No"
+              color: red
+        eol:
+          if: eolColumn
+          type: date
+          defaults:
+            on-false:
+              text: " Yes"
+              color: green
+            on-true:
+              text: " No"
+              color: red
+
+      releaseColumn: true
 encoding: utf-8
+colorClass:
+  green: bg-green-000
+  red: bg-red-000
+  yellow: bg-yellow-200

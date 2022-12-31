@@ -2,8 +2,9 @@
 layout: default
 ---
 
-{% if page.iconSlug %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+
+{% if page.iconUrl %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="{{page.iconUrl}}" >
 {% endif %}
 
 <div class="description">{{content | extract_element:'blockquote' | first }}</div>
@@ -12,54 +13,17 @@ layout: default
 <img alt="Release Schedule Image Gantt Chart for {{page.title}}" src="{{page.releaseImage}}" />
 {% endif %}
 
-{% capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
-
 <table class="lifecycle">
   <thead>
     <tr>
-      <th>Release</th>
-      {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
-      {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
-      {% if page.activeSupportColumn%}
-        <th>
-          {% if page.activeSupportColumn == true %}
-            Active Support
-          {%else%}
-            {{page.activeSupportColumn}}
-          {%endif%}
-        </th>
-      {% endif %}
-      {% if page.eolColumn != false %}
-      <th>{{ page.eolColumn | default: "Security Support" }}</th>
-      {% endif %}
-      {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
+      {% for h in page.headers %}
+      <th>{{h}}</th>
+      {% endfor %}
     </tr>
   </thead>
 
 {% for r in page.releases %}
-{% assign support =r.support | date: '%s' | plus:0 %}
-{% assign securityFixes = r.eol | date: '%s' | plus:0 %}
 
-
-{% comment %}
-diff is the number of days towards EoL. Positive is in the future. Negative is in the past.
-In case we don't have an exact date, we use boolean values (true/false) instead. In such
-cases diff is set to -1 for true (EoL has been reached)
-or +1 (EoL is in the future)
-{% endcomment %}
-{% if r.eol == true %}
-{% assign diff = -1 %}
-{% elsif r.eol == false %}
-{% assign diff = 1 %}
-{% elsif r.eol == nil %}
-{% assign diff = 1 %}
-{% else %}
-{% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
-{% endif %}
-
-{% assign diffSupport = support | minus:now %}
-{% assign diffSecurity6  = diff | minus:10651938 %}
-{% assign diffSupport6  = diffSupport | minus:10651938 %}
 {% assign latestVersionNumber = r.latest | liquify %}
 {% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
 
@@ -118,76 +82,17 @@ or +1 (EoL is in the future)
   </td>
   {% endif %}
 
-  {% if page.activeSupportColumn %}
-    <td class=
-    {% if support > 5 %}
-      {% if diffSupport < 0 and r.support != false %}
-      "bg-red-000"
-      {% elsif diffSupport6 > 0 %}
-      "bg-green-000"
-      {% else %}
-      "bg-yellow-200"
-      {% endif %}
-    {% else %}
-      {% if r.support %}
-      "bg-green-000"
-      {% else %}
-      "bg-red-000"
-      {% endif %}
-    {% endif %}
-    title="{{r.support}}">
-    {% if support > 5 %}
-      {% if diffSupport < 0 %}
-        Ended
-      {% else %}
-        Ends
-      {% endif %}
-    {{r.support | timeago}} <div>({{r.support | date_to_string}})</div>
-    {% else %}
-      {% if r.support %}
-      Yes
-      {% else %}
-      No
-      {% endif %}
-    {% endif %}
-    </td>
-  {% endif %}
+  {% include date-element.html
+    field='support'
+    enabled=page.activeSupportColumn
+    r=r
+  %}
 
-  {% if page.eolColumn != false %}
-  <td class=
-    {% if securityFixes > 5 %}
-      {% if diff < 0 %}
-      "bg-red-000"
-      {% elsif diffSecurity6 > 0 %}
-      "bg-green-000"
-      {% else %}
-      "bg-yellow-200"
-      {% endif %}
-    {% else %}
-      {% if r.eol %}
-      "bg-red-000"
-      {% else %}
-      "bg-green-000"
-      {% endif %}
-    {% endif %}
-    {% if securityFixes > 5 %}
-      title="{{r.eol}}">
-      {% if diff < 0 %}
-        Ended
-      {% else %}
-        Ends
-      {% endif %}
-    {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
-    {% else %}
-      >
-      {% if r.eol %}
-      No
-      {% else %}
-      Yes
-      {% endif %}
-    {% endif %}
-  </td>
-  {% endif %}
+  {% include date-element.html
+    field='eol'
+    enabled=page.eolColumn
+    r=r
+  %}
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
@@ -208,29 +113,15 @@ or +1 (EoL is in the future)
 <div class="policytext">
   {{content | remove_first_element:'blockquote'}}
 </div>
-{% if page.releasePolicyLink and page.releasePolicyLink != "" %}
-<p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>. </p>
-{% endif %}
 
-{% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
-
-{% if page.versionCommand %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.versionCommand}}</pre></div>{% endif %}
-
-<hr>
-
-<p>You can submit an improvement to this page
-<a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{page.path}}"
-title="Click the Pencil, the link takes you directly to the correct page">on GitHub</a>
-<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
-. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
-
-<p>
-  A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>.
-  See the <a href="/docs/api/">API Documentation</a> for more information.
-  You can subscribe to the icalendar feed at <a href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics">/calendar{{page.permalink}}.ics</a>.
-</p>
-
-<p>
-This page was last updated on {{ page.last_modified_at | date_to_long_string }}.
-{%if page.auto %}Latest releases are automatically updated.{% endif %}
-</p>
+{%
+  include product-footer.html
+  releasePolicyLink=page.releasePolicyLink
+  title=page.title
+  versionCommand=page.versionCommand
+  path=page.path
+  permalink=page.permalink
+  shortlink=page.shortlink
+  last_modified_at=page.last_modified_at
+  auto=page.auto
+%}

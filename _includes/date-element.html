@@ -1,0 +1,15 @@
+{% assign f=include.field %}
+{% if include.enabled %}
+  {% assign d=include.r[f]%}
+
+  {% assign color=include.r.colors[f] %}
+  {% assign colorClass=site.colorClass[color] %}
+  <td class={{colorClass}} title="{{d}}">
+    {% if d == true or d==false %}
+      {{include.r.text[f]}}
+    {% else %}
+      {{include.r.text[f]}} {{d | timeago}}
+      <div>({{d | date_to_string}})</div>
+      {%endif%}
+  </td>
+{% endif %}

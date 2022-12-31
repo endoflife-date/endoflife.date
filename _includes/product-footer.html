@@ -1,0 +1,27 @@
+{% if include.releasePolicyLink and include.releasePolicyLink != "" %}
+<p>More information is available on the <a href="{{include.releasePolicyLink}}">{{include.title}} website</a>. </p>
+{% endif %}
+
+{% if include.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
+
+{% if include.versionCommand %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{include.versionCommand}}</pre></div>{% endif %}
+
+<hr>
+
+  <a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{include.path}}"
+    title="Click the Pencil, the link takes you directly to the correct page">[Edit]</a>|
+  <a title="Talk Page for {{include.title}}" href="https://github.com/endoflife-date/talk/wiki{{include.permalink}}">[Talk]</a> |
+  <a href="/api{{include.permalink}}.json">[JSON]</a> |
+  <a href="webcal://{{site.url | split: '://' | last}}/calendar{{include.permalink}}.ics">[ICS (Calendar)]</a>
+  {% if include.permalink != include.shortlink %}
+    | <a title="short memorable url ({{include.shortlink}})" href="{{include.shortlink}}">
+    endoflife.date{{include.shortlink}}</a>
+  {% endif %}
+</p>
+
+
+
+<p>
+This page was last updated on {{ include.last_modified_at | date_to_long_string }}.
+{%if include.auto %}Latest releases are automatically updated.{% endif %}
+</p>
