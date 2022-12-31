@@ -1,5 +1,5 @@
 ---
-title: CentOS
+title: CentOS Linux
 category: os
 iconSlug: centos
 permalink: /centos
