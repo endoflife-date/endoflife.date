@@ -1,5 +1,5 @@
 ---
-title: Ubuntu
+title: Ubuntu Linux
 category: os
 iconSlug: ubuntu
 permalink: /ubuntu
