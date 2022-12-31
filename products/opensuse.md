@@ -1,5 +1,5 @@
 ---
-title: openSUSE
+title: openSUSE Linux
 category: os
 iconSlug: opensuse
 permalink: /opensuse
