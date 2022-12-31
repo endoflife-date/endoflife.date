@@ -29,7 +29,9 @@ layout: default
           {%endif%}
         </th>
       {% endif %}
+      {% if page.eolColumn != false %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
+      {% endif %}
       {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
@@ -151,6 +153,7 @@ or +1 (EoL is in the future)
     </td>
   {% endif %}
 
+  {% if page.eolColumn != false %}
   <td class=
     {% if securityFixes > 5 %}
       {% if diff < 0 %}
@@ -184,6 +187,7 @@ or +1 (EoL is in the future)
       {% endif %}
     {% endif %}
   </td>
+  {% endif %}
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
