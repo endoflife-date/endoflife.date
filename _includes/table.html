@@ -1,0 +1,24 @@
+{%- assign labels = include.labels | split:',' %}
+{%- assign fields = include.fields | split:',' %}
+{%- assign types = include.types | split:',' %}
+{%- assign rows = include.rows %}
+<table>
+  <thead>
+    <tr>
+      {% for label in labels %}<th>{{ label }}</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+{%- for row in rows %}
+    <tr>
+  {%- for field in fields %}
+    {%- if types[forloop.index0] == "date" %}
+      <td>{{ row[field] | date_to_string }}</td>
+    {% else %}
+      <td>{{ row[field] }}</td>
+    {% endif %}
+  {% endfor %}
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
