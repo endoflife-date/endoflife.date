@@ -21,6 +21,8 @@ Parameters:
          - raw: display the value "as is". The raw type is also used when type is unknown.
          - date: display the value using the date_to_string filter,
                  see https://jekyllrb.com/docs/liquid/filters/#date-to-string.
+         - timeago: display the value using the timeago filter,
+                 see https://github.com/markets/jekyll-timeago.
 {% endcomment %}
 {%- assign labels = include.labels | split:',' %}
 {%- assign fields = include.fields | split:',' %}
@@ -38,6 +40,8 @@ Parameters:
   {%- for field in fields %}
     {%- if types[forloop.index0] == "date" %}
       <td>{{ row[field] | date_to_string }}</td>
+    {%- elsif types[forloop.index0] == "timeago" %}
+      <td>{{ row[field] | timeago }}</td>
     {%- else %}
       <td>{{ row[field] }}</td>
     {%- endif %}
