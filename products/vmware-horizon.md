@@ -133,5 +133,5 @@ support, server/client/guest OS updates, new security patches or bug fixes unles
 {% include table.html
    labels="Release,Technical Guidance Ends"
    fields="releaseCycle,technicalGuidance"
-   types="raw,timeago"
+   types="raw,end-date"
    rows=page.releases %}

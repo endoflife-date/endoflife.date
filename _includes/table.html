@@ -23,6 +23,11 @@ Parameters:
                  see https://jekyllrb.com/docs/liquid/filters/#date-to-string.
          - timeago: display the value using the timeago filter,
                  see https://github.com/markets/jekyll-timeago.
+         - end-date: display the value as an end of something date (such as support or EOL).
+                 This is the "classic" way do display end of support or EOL date on endoflife.date, with:
+                 - a background color as a visual indication,
+                 - the value displayed using both the date_to_string and timeago filters,
+                 - a support for both boolean and date values.
 {% endcomment %}
 {%- assign labels = include.labels | split:',' %}
 {%- assign fields = include.fields | split:',' %}
@@ -38,10 +43,29 @@ Parameters:
 {%- for row in rows %}
     <tr>
   {%- for field in fields %}
-    {%- if types[forloop.index0] == "date" %}
-      <td>{{ row[field] | date_to_string }}</td>
-    {%- elsif types[forloop.index0] == "timeago" %}
-      <td>{{ row[field] | timeago }}</td>
+    {%- assign type = types[forloop.index0] %}
+    {%- assign value = row[field] %}
+    {%- if type == "date" %}
+      <td>{{ value | date_to_string }}</td>
+    {%- elsif type == "timeago" %}
+      <td>{{ value | timeago }}</td>
+    {%- elsif type == "end-date" %}
+      {%- if value == true %}
+      <td class="bg-green-000">Yes</td>
+      {%- elsif value == false %}
+      <td class="bg-red-000">No</td>
+      {%- else %}
+        {%- assign row_date = row[field] | date: '%s' %}
+        {%- assign site_date = site.time | date: '%s' %}
+        {%- assign days_between = row_date | minus: site_date | divided_by: 86400 %}
+        {%- if days_between < 0 %}
+      <td class="bg-red-000">Ended {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
+        {%- elsif days_between < 120 %}
+      <td class="bg-yellow-200">Ends {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
+        {%- else %}
+      <td class="bg-green-000">Ends {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
+        {%- endif %}
+      {%- endif %}
     {%- else %}
       <td>{{ row[field] }}</td>
     {%- endif %}
