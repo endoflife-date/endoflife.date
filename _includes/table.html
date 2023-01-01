@@ -50,22 +50,16 @@ Parameters:
     {%- elsif type == "timeago" %}
       <td>{{ value | timeago }}</td>
     {%- elsif type == "end-date" %}
-      {%- if value == true %}
-      <td class="bg-green-000">Yes</td>
+      <td class="{{ row[field] | end_color }}">
+      {%- if value == true %}}
+        Yes
       {%- elsif value == false %}
-      <td class="bg-red-000">No</td>
+        No
       {%- else %}
-        {%- assign row_date = row[field] | date: '%s' %}
-        {%- assign site_date = site.time | date: '%s' %}
-        {%- assign days_between = row_date | minus: site_date | divided_by: 86400 %}
-        {%- if days_between < 0 %}
-      <td class="bg-red-000">Ended {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
-        {%- elsif days_between < 120 %}
-      <td class="bg-yellow-200">Ends {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
-        {%- else %}
-      <td class="bg-green-000">Ends {{ row[field] | timeago }} <div>({{ row[field] | date_to_string }})</div></td>
-        {%- endif %}
+        {{ row[field] | date_to_string }}
+        <div>({{ row[field] | timeago }})</div>
       {%- endif %}
+      </td>
     {%- else %}
       <td>{{ row[field] }}</td>
     {%- endif %}
