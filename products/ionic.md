@@ -45,11 +45,11 @@ releases:
     latestReleaseDate: 2019-01-14
 
 -   releaseCycle: "2"
-    releaseDate: 2017-01-25
+    releaseDate: 2017-01-24
     support: 2017-04-05
     eol: 2017-04-05
     latest: "2.3.0"
-    latestReleaseDate: 2017-03-22
+    latestReleaseDate: 2017-03-17
 
 -   releaseCycle: "1"
     releaseDate: 2015-05-12

@@ -25,12 +25,12 @@ releases:
     latestReleaseDate: 2022-11-29
 
 -   releaseCycle: "5.25"
-    latest: "5.25.5"
+    latest: "5.25.90"
     support: 2022-10-11
     eol: 2022-10-11
     lts: false
     releaseDate: 2022-06-14
-    latestReleaseDate: 2022-09-06
+    latestReleaseDate: 2022-09-15
 
 -   releaseCycle: "5.24"
     latest: "5.24.7"
@@ -41,12 +41,12 @@ releases:
     latestReleaseDate: 2022-10-14
 
 -   releaseCycle: "5.23"
-    latest: "5.23.5"
+    latest: "5.23.90"
     support: 2022-02-03
     eol: 2022-02-03
     lts: false
     releaseDate: 2021-10-14
-    latestReleaseDate: 2022-01-04
+    latestReleaseDate: 2022-01-13
 
 -   releaseCycle: "5.18"
     latest: "5.18.8"
@@ -54,7 +54,7 @@ releases:
     eol: 2022-02-11
     lts: true
     releaseDate: 2020-02-11
-    latestReleaseDate: 2021-10-05
+    latestReleaseDate: 2021-10-19
 
 ---
 
