@@ -12,6 +12,9 @@ releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-road
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-relnotes.html"
 releaseDateColumn: true
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "19"
     support: 2023-03-21
@@ -123,3 +126,5 @@ proprietary license that must be purchased. Only the very latest Java release is
 with the open source license, one must purchase support to get builds from Oracle for 8 or 11.
 Other projects such as [Adoptium](https://adoptium.net/) or Linux distributions may provide builds
 external of Oracle and are governed under the open source license.
+
+JDK releases information can be found on <https://www.java.com/releases/>.
