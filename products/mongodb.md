@@ -10,11 +10,19 @@ releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 versionCommand: mongod --version
 identifiers:
+# MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
+# are the same for both, but the package names are different, hence the two different
+# purl identifiers.
 -   purl: pkg:deb/debian/mongodb-org-server
 -   purl: pkg:deb/ubuntu/mongodb-org-server
 -   purl: pkg:rpm/amzn/mongodb-org-server
 -   purl: pkg:rpm/redhat/mongodb-org-server
 -   purl: pkg:rpm/centos/mongodb-org-server
+-   purl: pkg:deb/debian/mongodb-enterprise-server
+-   purl: pkg:deb/ubuntu/mongodb-enterprise-server
+-   purl: pkg:rpm/amzn/mongodb-enterprise-server
+-   purl: pkg:rpm/redhat/mongodb-enterprise-server
+-   purl: pkg:rpm/centos/mongodb-enterprise-server
 -   repology: mongodb
 auto:
 -   git: https://github.com/mongodb/mongo.git
