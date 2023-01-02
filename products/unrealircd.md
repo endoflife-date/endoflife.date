@@ -23,8 +23,8 @@ releases:
     link: https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-604
     support: true
     eol: false
-    latest: "6.0.4.2"
-    latestReleaseDate: 2022-11-18
+    latest: "6.0.5"
+    latestReleaseDate: 2022-12-29
     releaseDate: 2021-12-17
 -   releaseCycle: "5"
     support: 2022-07-01

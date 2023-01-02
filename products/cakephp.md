@@ -56,11 +56,11 @@ releases:
 
     latestReleaseDate: 2020-12-07
 -   releaseCycle: "3.10"
-    latest: "3.10.4"
+    latest: "3.10.5"
     eol: 2022-12-15
     support: 2021-12-15
     releaseDate: 2021-06-19
-    latestReleaseDate: 2022-05-21
+    latestReleaseDate: 2023-01-01
     link: https://bakery.cakephp.org/2022/05/21/cakephp_3104_released.html
 
 -   releaseCycle: "3.9"

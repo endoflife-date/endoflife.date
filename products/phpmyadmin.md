@@ -42,14 +42,14 @@ releases:
     eol: false
     lts: true
     latest: "4.9.10"
-    latestReleaseDate: 2022-02-11
+    latestReleaseDate: 2022-02-10
 
 -   releaseCycle: "4.8"
     releaseDate: 2018-04-07
     support: 2019-06-04
     eol: 2019-06-04
     latest: "4.8.5"
-    latestReleaseDate: 2019-01-26
+    latestReleaseDate: 2019-01-25
 
 -   releaseCycle: "4.7"
     releaseDate: 2017-03-29
@@ -59,7 +59,7 @@ releases:
     latestReleaseDate: 2018-03-05
 
 -   releaseCycle: "4.6"
-    releaseDate: 2016-03-22
+    releaseDate: 2016-03-17
     support: 2017-04-01
     eol: 2017-04-01
     latest: "4.6.6"
@@ -70,7 +70,7 @@ releases:
     support: 2016-04-01
     eol: 2016-04-01
     latest: "4.5.5.1"
-    latestReleaseDate: 2016-03-07
+    latestReleaseDate: 2016-02-29
 
 -   releaseCycle: "4.4"
     releaseDate: 2015-04-01
@@ -94,7 +94,7 @@ releases:
     latestReleaseDate: 2015-05-13
 
 -   releaseCycle: "4.1"
-    releaseDate: 2013-12-12
+    releaseDate: 2013-12-11
     support: 2015-01-01
     eol: 2015-01-01
     latest: "4.1.14.8"
@@ -106,7 +106,8 @@ releases:
     eol: 2017-04-01
     lts: true
     latest: "4.0.10.20"
-    latestReleaseDate: 2017-03-29
+    latestReleaseDate: 2017-03-28
+
 ---
 
 > [PHPMyAdmin](https://www.phpmyadmin.net/) is a free software tool written in PHP, intended to
