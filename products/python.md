@@ -24,7 +24,7 @@ identifiers:
 -   purl: pkg:rpm/centos/python
 -   purl: pkg:rpm/centos/python2
 -   purl: pkg:rpm/centos/python3
-- repology: python
+-   repology: python
 auto:
 -   git: https://github.com/python/cpython.git
   # The v is mandatory here because each branch EOL is tagged:
