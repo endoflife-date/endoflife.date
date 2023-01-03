@@ -8,7 +8,13 @@ releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
 releaseDateColumn: true
-
+identifiers:
+-   purl: pkg:deb/debian/elasticsearch
+-   purl: pkg:deb/ubuntu/elasticsearch
+-   purl: pkg:rpm/amzn/elasticsearch
+-   purl: pkg:rpm/redhat/elasticsearch
+-   purl: pkg:rpm/centos/elasticsearch
+-   repology: elasticsearch
 auto:
 -   git: https://github.com/elastic/elasticsearch.git
 
