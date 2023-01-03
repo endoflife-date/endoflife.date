@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% if page.iconSlug %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
+{% if page.iconUrl %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="{{page.iconUrl}}" >
 {% endif %}
 
 <div class="description">{{content | extract_element:'blockquote' | first }}</div>
@@ -72,60 +72,30 @@ or +1 (EoL is in the future)
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
 {% assign diffExtendedSupport6  = diffExtendedSupport | minus:10651938 %}
-{% assign latestVersionNumber = r.latest | liquify %}
-{% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
-
-{% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{
-  t |
-  replace: '__RELEASE_CYCLE__',r.releaseCycle  |
-  replace: '__LATEST__',latestVersionNumber |
-  replace: '__CODENAME__',r.codename |
-  liquify
-}}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
-
-{% capture releaseLink %}
-{% if r.link and diff > 0 %}
-{{r.link}}
-{% elsif page.changelogTemplate and diff > 0 %}
-{{
-  page.changelogTemplate |
-  replace: '__RELEASE_CYCLE__',r.releaseCycle |
-  replace: '__LATEST__',latestVersionNumber |
-  replace: '__CODENAME__',r.codename |
-  replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate
-}}
-{% endif %}
-{% endcapture %}
-{% assign releaseLink = releaseLink | liquify | strip %}
 
 <!-- Main Row starts here -->
 <tr>
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-    {% if releaseLink != "" and page.releaseColumn == false %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText | strip_html}}">{{releaseCycleText}}</a>
+    {% if r.link and page.releaseColumn == false %}
+      <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
     {% else %}
-      {{releaseCycleText}}
+      {{ r.label }}
     {% endif %}
   </td>
 
   {% if page.releaseDateColumn %}
-  <td>
-    {{r.releaseDate | timeago}} <div>({{r.releaseDate | date_to_string}})</div>
-  </td>
+  <td>{{ r.releaseDate | timeago }} <div>({{ r.releaseDate | date_to_string }})</div></td>
   {% endif %}
 
   {% if page.discontinuedColumn %}
   <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
-    {% if r.discontinued %}
-      {% if r.discontinued == true%}
-        Discontinued
-      {% else %}
-        {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
-      {% endif %}
+    {% if r.discontinued  == true %}
+    Discontinued
+    {% elsif r.discontinued  == false %}
+    In Production
     {% else %}
-      In Production
+    {{ r.discontinued | timeago }} <div>({{ r.discontinued | date_to_string }})</div>
     {% endif %}
   </td>
   {% endif %}
@@ -238,13 +208,13 @@ or +1 (EoL is in the future)
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
-    {% if releaseLink != "" %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
+    {% if r.link != "" %}
+      <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
     {% else %}
-      {{latestVersionNumber}}
+      {{ r.latest }}
     {% endif %}
     {% if diff > 0 and r.latestReleaseDate %}
-    <div>({{r.latestReleaseDate | date_to_string}})</div>
+    <div>({{ r.latestReleaseDate | date_to_string }})</div>
     {% endif %}
   </td>
   {% endif %}
