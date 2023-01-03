@@ -8,6 +8,23 @@ releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
+identifiers:
+-   purl: pkg:deb/ubuntu/python
+-   purl: pkg:deb/ubuntu/python2
+-   purl: pkg:deb/ubuntu/python3
+-   purl: pkg:deb/debian/python
+-   purl: pkg:deb/debian/python2
+-   purl: pkg:deb/debian/python3
+-   purl: pkg:rpm/amzn/python
+-   purl: pkg:rpm/amzn/python2
+-   purl: pkg:rpm/amzn/python3
+-   purl: pkg:rpm/redhat/python
+-   purl: pkg:rpm/redhat/python2
+-   purl: pkg:rpm/redhat/python3
+-   purl: pkg:rpm/centos/python
+-   purl: pkg:rpm/centos/python2
+-   purl: pkg:rpm/centos/python3
+- repology: python
 auto:
 -   git: https://github.com/python/cpython.git
   # The v is mandatory here because each branch EOL is tagged:
