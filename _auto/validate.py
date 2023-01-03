@@ -64,6 +64,9 @@ def validate_product(file):
     for r in data["releases"]:
         assert_that_type_is(str, r["releaseCycle"], 'releaseCycle', file)
 
+        if "releaseLabel" in r:
+            assert_that_type_is(str, r["releaseLabel"], 'releaseLabel', file)
+
         # eolColumn is assumed to be present, so check it unless it is disabled:
         if not ("eolColumn" in data and data["eolColumn"]==False):
             assert_that_type_is((bool, date), r["eol"], 'eol', file)
