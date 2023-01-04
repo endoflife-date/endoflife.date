@@ -21,8 +21,14 @@ auto:
 -   npm: kotlin
 
 releases:
--   releaseCycle: "1.7"
+-   releaseCycle: "1.8"
     eol: false
+    latest: "1.8.0"
+    latestReleaseDate: 2022-12-28
+    releaseDate: 2022-12-28
+
+-   releaseCycle: "1.7"
+    eol: 2022-12-28
     latest: "1.7.22"
     link: https://kotlinlang.org/docs/whatsnew1720.html
     latestReleaseDate: 2022-11-28
