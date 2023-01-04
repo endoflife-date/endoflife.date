@@ -13,7 +13,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
 identifiers:
-    - pkg:os/photon
+    - purl: pkg:os/photon
 # EOL Dates for 3.0 and 4.0 are tentative, as they are documented as:
 # Early 2024, and Late 2025.
 releases:
