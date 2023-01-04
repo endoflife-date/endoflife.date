@@ -30,8 +30,8 @@ auto:
 releases:
 -   releaseCycle: "6.1"
     releaseDate: 2022-10-04
-    latestReleaseDate: 2022-10-04
-    latest: '6.1.0'
+    latestReleaseDate: 2023-01-03
+    latest: '6.1.1'
     codename: "rapid"
     eol: false
 -   releaseCycle: "6.0"
