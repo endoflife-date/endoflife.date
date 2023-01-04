@@ -16,7 +16,7 @@ layout: null
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   # Generated using https://www.permissionspolicy.com/
-  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=() interest-cohort=()
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), unload=(), window-placement=(), vertical-scroll=()
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -53,12 +53,12 @@ layout: null
     {% else %}
       {% assign releaseImageSrc="" %}
     {% endif %}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
+    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }} {{ releaseImageSrc }}
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
     Link: /calendar{{page.permalink}}.ics; rel=alternate;type=text/calendar
   {% elsif page.permalink == '/docs/api' %}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
+    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
   {% else %}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }}
+    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }}
   {% endif %}
 {% endfor %}
