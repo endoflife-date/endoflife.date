@@ -65,6 +65,11 @@ def releases_matches(r, prefix):
         # It matches the release cycle as a version suffix
         # prefix = 1.2, r = 1.2-final
         r.startswith(prefix + "-")
+        or
+        # It matches the release cycle with an extra 'u' as a patch release
+        # this is notably used in java
+        # prefix = 7, r = 7u72
+        r.startswith(prefix + "u")
     )
 
 
