@@ -21,102 +21,105 @@ releases:
     eol: 2023-03-21
     latest: "19.0.1"
     releaseDate: 2022-10-18
-
     latestReleaseDate: 2022-10-18
+
 -   releaseCycle: "18"
     support: 2022-09-20
     eol: 2022-09-20
     latest: "18.0.2.1"
     releaseDate: 2022-03-22
-
     latestReleaseDate: 2022-08-18
+
 -   releaseCycle: "17"
     lts: true
     support: 2026-09-30
     eol: 2029-09-30
     latest: "17.0.5"
     releaseDate: 2021-10-19
-
     latestReleaseDate: 2022-10-18
+
 -   releaseCycle: "16"
     support: 2021-09-14
     eol: 2021-09-14
     latest: "16.0.2"
     releaseDate: 2021-03-16
-
     latestReleaseDate: 2021-07-20
+
 -   releaseCycle: "15"
     support: 2021-03-16
     eol: 2021-03-16
     latest: "15.0.2"
     releaseDate: 2020-10-20
+    latestReleaseDate: 2021-01-19
 
 -   releaseCycle: "14"
     support: 2020-09-16
     eol: 2020-09-16
     latest: "14.0.2"
     releaseDate: 2020-03-17
-
     latestReleaseDate: 2020-07-14
+
 -   releaseCycle: "13"
     support: 2020-03-17
     eol: 2020-03-17
     latest: "13.0.2"
     releaseDate: 2019-10-15
+    latestReleaseDate: 2020-01-14
 
 -   releaseCycle: "12"
     support: 2019-09-17
     eol: 2019-09-17
     latest: "12.0.2"
     releaseDate: 2019-03-19
-
     latestReleaseDate: 2019-07-16
+
 -   releaseCycle: "11"
     lts: true
     support: 2023-09-30
     eol: 2026-09-30
     latest: "11.0.17"
     releaseDate: 2018-10-16
-
     latestReleaseDate: 2022-10-18
+
 -   releaseCycle: "10"
     support: 2018-09-25
     eol: 2018-09-25
     latest: "10.0.2"
     releaseDate: 2018-03-20
-
     latestReleaseDate: 2018-07-17
+
 -   releaseCycle: "9"
     support: 2018-03-20
     eol: 2018-03-20
     latest: "9.0.4"
     releaseDate: 2017-10-17
+    latestReleaseDate: 2018-01-16
 
 -   releaseCycle: "8"
     lts: true
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8"
+    latest: "8u351"
     releaseDate: 2014-03-18
+    latestReleaseDate: 2022-10-18
 
-    latestReleaseDate: 2014-03-18
 -   releaseCycle: "7"
     lts: true
     support: 2019-07-31
     eol: 2022-07-31
-    latest: "7"
+    latest: "7u343"
     releaseDate: 2011-07-11
     link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361
+    latestReleaseDate: 2022-05-02
 
-    latestReleaseDate: 2011-07-11
 -   releaseCycle: "6"
     lts: true
     support: 2015-12-31
     eol: 2018-12-31
-    latest: "6"
+    latest: "6u211"
     releaseDate: 2006-12-12
     link: https://www.oracle.com/java/technologies/javase/6-relnotes.html#R160_211
-    latestReleaseDate: 2006-12-12
+    latestReleaseDate: 2018-10-16
 
 ---
 
