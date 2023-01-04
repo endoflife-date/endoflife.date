@@ -9,6 +9,7 @@ changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
 identifiers:
+-   purl: pkg:generic/python
 -   purl: pkg:deb/ubuntu/python
 -   purl: pkg:deb/ubuntu/python-minimal
 -   purl: pkg:deb/ubuntu/python2
