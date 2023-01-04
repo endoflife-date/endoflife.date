@@ -8,6 +8,84 @@ releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 releaseDateColumn: true
+identifiers:
+-   purl: pkg:generic/python
+-   purl: pkg:deb/ubuntu/python
+-   purl: pkg:deb/ubuntu/python-minimal
+-   purl: pkg:deb/ubuntu/python2
+-   purl: pkg:deb/ubuntu/python3
+-   purl: pkg:deb/ubuntu/python3.11
+-   purl: pkg:deb/ubuntu/python3.10
+-   purl: pkg:deb/ubuntu/python3.9
+-   purl: pkg:deb/ubuntu/python3.8
+-   purl: pkg:deb/ubuntu/python3.7
+-   purl: pkg:deb/ubuntu/python3.6
+-   purl: pkg:deb/ubuntu/python3.5
+-   purl: pkg:deb/ubuntu/python3.4
+-   purl: pkg:deb/ubuntu/python3.3
+-   purl: pkg:deb/ubuntu/python3.2
+-   purl: pkg:deb/ubuntu/python3.1
+-   purl: pkg:deb/ubuntu/python3.0
+-   purl: pkg:deb/ubuntu/python2.9
+-   purl: pkg:deb/ubuntu/python2.8
+-   purl: pkg:deb/ubuntu/python2.7
+-   purl: pkg:deb/ubuntu/python2.6
+-   purl: pkg:deb/ubuntu/python2.5
+-   purl: pkg:deb/ubuntu/python2.4
+-   purl: pkg:deb/ubuntu/python2.3
+-   purl: pkg:deb/ubuntu/python2.2
+-   purl: pkg:deb/ubuntu/python2.1
+-   purl: pkg:deb/ubuntu/python2.0
+-   purl: pkg:deb/ubuntu/python1.6
+-   purl: pkg:deb/ubuntu/python1.5
+-   purl: pkg:deb/ubuntu/python1.4
+
+-   purl: pkg:deb/debian/python
+-   purl: pkg:deb/debian/python-minimal
+-   purl: pkg:deb/debian/python2
+-   purl: pkg:deb/debian/python3
+-   purl: pkg:deb/debian/python3.11
+-   purl: pkg:deb/debian/python3.10
+-   purl: pkg:deb/debian/python3.9
+-   purl: pkg:deb/debian/python3.8
+-   purl: pkg:deb/debian/python3.7
+-   purl: pkg:deb/debian/python3.6
+-   purl: pkg:deb/debian/python3.5
+-   purl: pkg:deb/debian/python3.4
+-   purl: pkg:deb/debian/python3.3
+-   purl: pkg:deb/debian/python3.2
+-   purl: pkg:deb/debian/python3.1
+-   purl: pkg:deb/debian/python3.0
+-   purl: pkg:deb/debian/python2.9
+-   purl: pkg:deb/debian/python2.8
+-   purl: pkg:deb/debian/python2.7
+-   purl: pkg:deb/debian/python2.6
+-   purl: pkg:deb/debian/python2.5
+-   purl: pkg:deb/debian/python2.4
+-   purl: pkg:deb/debian/python2.3
+-   purl: pkg:deb/debian/python2.2
+-   purl: pkg:deb/debian/python2.1
+-   purl: pkg:deb/debian/python2.0
+-   purl: pkg:deb/debian/python1.6
+-   purl: pkg:deb/debian/python1.5
+-   purl: pkg:deb/debian/python1.4
+
+-   purl: pkg:rpm/amzn/python
+-   purl: pkg:rpm/amzn/python2
+-   purl: pkg:rpm/amzn/python3
+
+-   purl: pkg:rpm/redhat/python
+-   purl: pkg:rpm/redhat/python2
+-   purl: pkg:rpm/redhat/python3
+
+-   purl: pkg:rpm/centos/python
+-   purl: pkg:rpm/centos/python2
+-   purl: pkg:rpm/centos/python3
+
+-   purl: pkg:docker/library/python
+-   purl: pkg:docker/circleci/python
+-   purl: pkg:docker/bitnami/python
+-   repology: python
 auto:
 -   git: https://github.com/python/cpython.git
   # The v is mandatory here because each branch EOL is tagged:
