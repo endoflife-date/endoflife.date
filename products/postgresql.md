@@ -6,6 +6,7 @@ permalink: /postgresql
 alternate_urls:
 -   /postgres
 -   /pg
+-   /psql
 releasePolicyLink: https://www.postgresql.org/support/versioning/
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
