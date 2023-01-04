@@ -81,6 +81,10 @@ identifiers:
 -   purl: pkg:rpm/centos/python
 -   purl: pkg:rpm/centos/python2
 -   purl: pkg:rpm/centos/python3
+
+-   purl: pkg:docker/library/python
+-   purl: pkg:docker/circleci/python
+-   purl: pkg:docker/bitnami/python
 -   repology: python
 auto:
 -   git: https://github.com/python/cpython.git
