@@ -19,19 +19,19 @@ releases:
     latest: '16.2'
 -   releaseCycle: "15"
     eol: false
-    support: false
+    support: 2022-10-24
     releaseDate: 2021-09-20
     latestReleaseDate: 2022-12-13
     latest: '15.7.2'
 -   releaseCycle: "14"
     eol: 2021-10-01
-    support: false
+    support: 2021-09-20
     releaseDate: 2020-09-16
     latestReleaseDate: 2021-10-26
     latest: '14.8.1'
 -   releaseCycle: "13"
     eol: 2020-09-16
-    support: false
+    support: 2020-09-16
     releaseDate: 2019-09-24
     latestReleaseDate: 2020-07-15
     latest: '13.6'
