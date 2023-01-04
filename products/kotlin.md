@@ -20,6 +20,7 @@ identifiers:
 auto:
 -   npm: kotlin
 
+# EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
 -   releaseCycle: "1.8"
     eol: false
@@ -30,30 +31,29 @@ releases:
 -   releaseCycle: "1.7"
     eol: 2022-12-28
     latest: "1.7.22"
-    link: https://kotlinlang.org/docs/whatsnew1720.html
     latestReleaseDate: 2022-11-28
     releaseDate: 2022-06-09
 
 -   releaseCycle: "1.6"
-    eol: 2022-06-07
+    eol: 2022-06-09
     latest: "1.6.21"
     latestReleaseDate: 2022-04-19
     releaseDate: 2021-11-15
 
 -   releaseCycle: "1.5"
-    eol: 2021-11-26
+    eol: 2021-11-29
     latest: "1.5.32"
     latestReleaseDate: 2021-11-29
     releaseDate: 2021-04-26
 
 -   releaseCycle: "1.4"
-    eol: 2021-11-26
+    eol: 2021-04-26
     latest: "1.4.32"
     latestReleaseDate: 2021-03-22
     releaseDate: 2020-08-14
 
 -   releaseCycle: "1.3"
-    eol: 2020-04-14
+    eol: 2020-08-14
     latest: "1.3.72"
     latestReleaseDate: 2020-04-15
     releaseDate: 2018-10-29
