@@ -2,67 +2,75 @@
 title: Palo Alto Networks PAN-OS
 category: os
 permalink: /panos
+versionCommand: show system info | match sw-version
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: End-of-life Date
-versionCommand: show system info | match sw-version
+
 releases:
 -   releaseCycle: "10.2"
     eol: 2025-08-27
     releaseDate: 2022-02-27
-    latest: "10.2"
-    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-3-known-and-addressed-issues
-    latestReleaseDate: 2022-02-27
+    latest: "10.2.3-h2"
+    latestReleaseDate: 2022-12-13
+    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-3-known-and-addressed-issues/pan-os-10-2-3-h2-addressed-issues
+
 -   releaseCycle: "10.1"
     eol: 2024-12-01
     releaseDate: 2021-05-31
-    latest: "10.1"
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-7-known-and-addressed-issues
-    latestReleaseDate: 2021-05-31
+    latest: "10.1.8-h2"
+    latestReleaseDate: 2022-12-19
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-8-known-and-addressed-issues/pan-os-10-1-8-h2-addressed-issues
+
 -   releaseCycle: "10.0"
     eol: 2022-07-16
     releaseDate: 2020-07-16
-    latest: "10.0"
-    link: https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-release-notes/pan-os-10-0-addressed-issues
-    latestReleaseDate: 2020-07-16
+    latest: "10.0.11-h1"
+    latestReleaseDate: 2022-08-17
+    link: https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-release-notes/pan-os-10-0-addressed-issues/pan-os-10-0-11-h1-addressed-issues
+
 -   releaseCycle: "9.1"
     eol: 2023-12-13
     releaseDate: 2019-12-13
-    latest: "9.1"
-    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues
-    latestReleaseDate: 2019-12-13
+    latest: "9.1.15-h1"
+    latestReleaseDate: 2022-12-20
+    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-15-h1-addressed-issues
+
 -   releaseCycle: "9.0-XFR (VM-Series only)"
     eol: 2020-09-19
     releaseDate: 2019-09-19
     latest: "9.0-XFR (VM-Series only)"
-    link: https://docs.paloaltonetworks.com/vm-series/9-0/pan-os-xfr-release-notes/pan-os-90-xfr/pan-os-9-0-xfr-addressed-issues
     latestReleaseDate: 2019-09-19
+    link: https://docs.paloaltonetworks.com/vm-series/9-0/pan-os-xfr-release-notes/pan-os-90-xfr/pan-os-9-0-xfr-addressed-issues
+
 -   releaseCycle: "9.0"
     eol: 2022-03-01
     releaseDate: 2019-02-06
-    latest: "9.0-xfr"
-    link: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-release-notes/pan-os-9-0-addressed-issues
-    latestReleaseDate: 2019-09-19
+    latest: "9.0.16-h3"
+    latestReleaseDate: 2022-08-17
+    link: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-release-notes/pan-os-9-0-addressed-issues/pan-os-9-0-16-h3-addressed-issues
+
 -   releaseCycle: "8.1"
     eol: 2022-03-01
     releaseDate: 2018-03-01
-    latest: "8.1"
-    link: https://docs.paloaltonetworks.com/pan-os/8-1/pan-os-release-notes/pan-os-8-1-addressed-issues
-    latestReleaseDate: 2018-03-01
+    latest: "8.1.24"
+    latestReleaseDate: 2022-10-11
+    link: https://docs.paloaltonetworks.com/pan-os/8-1/pan-os-release-notes/pan-os-8-1-addressed-issues/pan-os-8-1-24-addressed-issues
+
 -   releaseCycle: "8.0"
     eol: 2019-10-31
     releaseDate: 2017-01-29
-    latest: "8.0"
-    link: https://docs.paloaltonetworks.com/pan-os/8-0/pan-os-release-notes/pan-os-8-0-addressed-issues
-    latestReleaseDate: 2017-01-29
+    latest: "8.0.20"
+    latestReleaseDate: 2019-10-23
+
 -   releaseCycle: "7.1"
     eol: 2020-06-30
     releaseDate: 2016-03-29
-    latest: "7.1"
-    link: https://docs.paloaltonetworks.com/pan-os/7-1/pan-os-release-notes/pan-os-7-1-addressed-issues
-    latestReleaseDate: 2016-03-29
+    latest: "7.1.26"
+    latestReleaseDate: 2020-04-30
 
 ---
 
