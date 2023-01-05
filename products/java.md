@@ -11,7 +11,8 @@ activeSupportColumn: true
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-relnotes.html"
 releaseDateColumn: true
-
+identifiers:
+- purl: pkg:generic/java
 auto:
 -   custom: true
 
