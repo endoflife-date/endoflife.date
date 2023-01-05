@@ -64,7 +64,7 @@ releases:
 -   releaseCycle: "4"
     support: 2009-03-31
     eol: 2012-02-29
-    extendedSupport: false
+    extendedSupport: 2017-03-31
     releaseDate: 2005-02-15
     latestReleaseDate: 2011-02-16
     latest: '4.9'
