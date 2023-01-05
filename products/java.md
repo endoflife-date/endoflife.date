@@ -20,7 +20,7 @@ releases:
     support: 2023-03-21
     eol: 2023-03-21
     latest: "19.0.1"
-    releaseDate: 2022-10-18
+    releaseDate: 2022-09-20
     latestReleaseDate: 2022-10-18
 
 -   releaseCycle: "18"
@@ -35,7 +35,7 @@ releases:
     support: 2026-09-30
     eol: 2029-09-30
     latest: "17.0.5"
-    releaseDate: 2021-10-19
+    releaseDate: 2021-09-14
     latestReleaseDate: 2022-10-18
 
 -   releaseCycle: "16"
@@ -49,7 +49,7 @@ releases:
     support: 2021-03-16
     eol: 2021-03-16
     latest: "15.0.2"
-    releaseDate: 2020-10-20
+    releaseDate: 2020-09-15
     latestReleaseDate: 2021-01-19
 
 -   releaseCycle: "14"
@@ -63,7 +63,7 @@ releases:
     support: 2020-03-17
     eol: 2020-03-17
     latest: "13.0.2"
-    releaseDate: 2019-10-15
+    releaseDate: 2019-09-17
     latestReleaseDate: 2020-01-14
 
 -   releaseCycle: "12"
@@ -78,7 +78,7 @@ releases:
     support: 2023-09-30
     eol: 2026-09-30
     latest: "11.0.17"
-    releaseDate: 2018-10-16
+    releaseDate: 2018-09-25
     latestReleaseDate: 2022-10-18
 
 -   releaseCycle: "10"
@@ -92,7 +92,7 @@ releases:
     support: 2018-03-20
     eol: 2018-03-20
     latest: "9.0.4"
-    releaseDate: 2017-10-17
+    releaseDate: 2017-09-21
     latestReleaseDate: 2018-01-16
 
 -   releaseCycle: "8"
@@ -107,10 +107,10 @@ releases:
     lts: true
     support: 2019-07-31
     eol: 2022-07-31
-    latest: "7u343"
+    latest: "7u351"
     releaseDate: 2011-07-11
     link: https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361
-    latestReleaseDate: 2022-05-02
+    latestReleaseDate: 2022-07-19
 
 -   releaseCycle: "6"
     lts: true
