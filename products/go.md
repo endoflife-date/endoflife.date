@@ -1,4 +1,4 @@
----
+-   purl: pkg:docker/-   purl: pkg:docker/---
 title: Go
 category: lang
 iconSlug: go
@@ -12,6 +12,10 @@ versionCommand: go version
 releaseDateColumn: true
 identifiers:
 -   purl: pkg:generic/go
+-   purl: pkg:docker/library/golang
+-   purl: pkg:docker/circleci/golang
+-   purl: pkg:docker/cimg/go
+-   purl: pkg:docker/bitnami/golang
 -   repology: go
 auto:
 -   git: https://github.com/golang/go.git
