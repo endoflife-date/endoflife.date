@@ -1,4 +1,4 @@
--   purl: pkg:docker/-   purl: pkg:docker/---
+---
 title: Go
 category: lang
 iconSlug: go
