@@ -12,6 +12,10 @@ changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANG
 activeSupportColumn: true
 identifiers:
 - purl: pkg:generic/node
+- purl: pkg:docker/circleci/node
+- purl: pkg:docker/library/node
+- purl: pkg:docker/cimg/node
+- purl: pkg:docker/bitnami/node
 - repology: nodejs
 auto:
 -   git: https://github.com/nodejs/node.git
