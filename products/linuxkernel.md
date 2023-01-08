@@ -90,10 +90,10 @@ releases:
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"
-    eol: 2023-01-01
+    eol: 2023-01-07
     lts: true
-    latest: "4.9.336"
-    latestReleaseDate: 2022-12-14
+    latest: "4.9.337"
+    latestReleaseDate: 2023-01-07
     releaseDate: 2016-12-11
 
 ---
