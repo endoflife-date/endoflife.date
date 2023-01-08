@@ -10,11 +10,13 @@ alternate_urls:
 -   /citrix
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
+
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: true
+
 releases:
 -   releaseCycle: "2212"
     releaseDate: 2022-12-19
