@@ -4,7 +4,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/fw9pnpeabrho7yyk314d2u9rrtbtq3s.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sj9emk30expqiyyrr4kztv7g5t8qj9u.png
 changelogTemplate: |
   https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -90,10 +90,10 @@ releases:
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"
-    eol: 2023-01-01
+    eol: 2023-01-07
     lts: true
-    latest: "4.9.336"
-    latestReleaseDate: 2022-12-14
+    latest: "4.9.337"
+    latestReleaseDate: 2023-01-07
     releaseDate: 2016-12-11
 
 ---
