@@ -26,10 +26,11 @@ releases:
     releaseDate: 2022-04-11
 -   releaseCycle: "6.2"
     eol: 2024-09-30
-    latest: "6.2.4"
+    latest: "6.2.7"
     lts: true
-    latestReleaseDate: 2022-03-16
+    latestReleaseDate: 2023-01-02
     releaseDate: 2021-09-30
+    link: https://www.qt.io/blog/commercial-lts-qt-6.2.7-released
 -   releaseCycle: "6.1"
     eol: 2022-05-06
     latest: "6.1.3"
