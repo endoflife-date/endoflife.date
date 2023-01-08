@@ -4,7 +4,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/fw9pnpeabrho7yyk314d2u9rrtbtq3s.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sj9emk30expqiyyrr4kztv7g5t8qj9u.png
 changelogTemplate: |
   https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
