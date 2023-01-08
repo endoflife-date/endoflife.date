@@ -14,6 +14,7 @@ LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
+extendedSupportColumn: true
 releases:
 -   releaseCycle: "2212"
     releaseDate: 2022-12-19
@@ -38,6 +39,7 @@ releases:
     releaseDate: 2022-03-23
     support: 2027-03-23
     eol: 2027-03-23
+    extendedSupport: 2032-03-23
     latest: "2203 CU2"
     lts: true
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-2.html
@@ -94,6 +96,7 @@ releases:
     releaseDate: 2019-12-18
     support: 2024-12-18
     eol: 2024-12-18
+    extendedSupport: 2029-12-18
     latest: "1912 CU6"
     lts: true
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-6.html
@@ -103,6 +106,7 @@ releases:
     releaseDate: 2017-08-15
     support: 2022-08-15
     eol: 2022-08-15
+    extendedSupport: 2027-08-15
     latest: "7.15 CU8"
     lts: true
     link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-8.html
@@ -116,6 +120,6 @@ Citrix Virtual Apps and Desktops was previously known as XenApp and XenDesktop, 
 There are two release types for on-premises deployments, Current Releases and Long Term Service Releases (LTSR).
 
 * Current Releases will reach end of active support 6 months after release and end of security support 18 months after release.
-* Long Term Service Releases will reach end of active and security support 5 years after release. Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible for paid extended support up to 5 years after active and security support ends and is not reflected above.
+* Long Term Service Releases will reach end of active and security support 5 years after release. Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible for paid extended support up to 5 years after active and security support ends.
 
 This page tracks the on-premise version of the product, and not the cloud-hosted version (Citrix Virtual Apps and Desktops _service_).
