@@ -18,6 +18,8 @@ versionCommand: php bin/cake.php version
 auto:
 -   git: https://github.com/cakephp/cakephp.git
 
+# support(X) = releaseDate(X+1) + 1 day
+# For a given major version, the last three minor versions have security support.
 releases:
 -   releaseCycle: "4.4"
     eol: false
@@ -28,15 +30,15 @@ releases:
     codename: Strawberry
 
 -   releaseCycle: "4.3"
-    eol: true
-    support: true
+    eol: false
+    support: 2022-06-07
     releaseDate: 2021-10-23
     latest: "4.3.11"
     latestReleaseDate: 2023-01-05
 
 -   releaseCycle: "4.2"
     latest: "4.2.12"
-    eol: true
+    eol: false
     support: 2021-10-24
     releaseDate: 2020-12-20
     latestReleaseDate: 2023-01-06
@@ -135,8 +137,8 @@ releases:
 
 -   releaseCycle: "2.10"
     latest: "2.10.24"
-    eol: true
-    support: 2019-12-16
+    eol: 2021-06-15
+    support: 2020-12-15
     releaseDate: 2017-07-22
     latestReleaseDate: 2020-12-15
     link: https://bakery.cakephp.org/2020/12/15/cakephp_21024_released.html
@@ -222,8 +224,8 @@ releases:
 
 -   releaseCycle: "1.3"
     latest: "1.3.21"
-    eol: true
-    support: false
+    eol: 2015-11-01
+    support: 2015-11-01
     releaseDate: 2010-04-25
     latestReleaseDate: 2015-10-31
     link: https://bakery.cakephp.org/2015/11/01/cakephp_1_3_21_released.html
