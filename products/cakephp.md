@@ -35,12 +35,12 @@ releases:
     latestReleaseDate: 2023-01-05
 
 -   releaseCycle: "4.2"
-    latest: "4.2.11"
+    latest: "4.2.12"
     eol: true
     support: 2021-10-24
     releaseDate: 2020-12-20
 
-    latestReleaseDate: 2023-01-05
+    latestReleaseDate: 2023-01-06
 -   releaseCycle: "4.1"
     latest: "4.1.7"
     eol: true
