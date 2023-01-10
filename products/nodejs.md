@@ -10,6 +10,13 @@ releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
+identifiers:
+- purl: pkg:generic/node
+- purl: pkg:docker/circleci/node
+- purl: pkg:docker/library/node
+- purl: pkg:docker/cimg/node
+- purl: pkg:docker/bitnami/node
+- repology: nodejs
 auto:
 -   git: https://github.com/nodejs/node.git
 versionCommand: node --version
