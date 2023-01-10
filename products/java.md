@@ -14,8 +14,6 @@ releaseDateColumn: true
 identifiers:
 - purl: pkg:generic/java
 - purl: pkg:docker/library/openjdk
-- purl: pkg:docker/library/amazoncorretto
-- purl: pkg:docker/library/imbjava
 - purl: pkg:docker/circleci/openjdk
 - purl: pkg:docker/cimg/openjdk
 - repology: openjdk
