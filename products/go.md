@@ -10,6 +10,13 @@ changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
 releaseDateColumn: true
+identifiers:
+-   purl: pkg:generic/go
+-   purl: pkg:docker/library/golang
+-   purl: pkg:docker/circleci/golang
+-   purl: pkg:docker/cimg/go
+-   purl: pkg:docker/bitnami/golang
+-   repology: go
 auto:
 -   git: https://github.com/golang/go.git
     regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
