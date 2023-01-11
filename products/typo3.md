@@ -9,6 +9,7 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
+extendedSupportColumn: Extended Long Term Support
 
 identifiers:
 -   repology: typo3
@@ -24,6 +25,7 @@ releases:
     eol: 2026-04-30
     lts: false
     support: 2024-10-31
+    extendedSupport: 2029-04-30
     releaseDate: 2022-10-04
     latestReleaseDate: 2022-12-15
     latest: '12.1.3'
@@ -32,6 +34,7 @@ releases:
     eol: 2024-10-31
     lts: 2021-10-05
     support: 2023-03-31
+    extendedSupport: 2027-10-31
     releaseDate: 2020-12-22
     latest: "11.5.22"
     latestReleaseDate: 2023-01-10
@@ -40,6 +43,7 @@ releases:
     eol: 2023-04-30
     lts: 2020-04-07
     support: 2021-10-31
+    extendedSupport: 2026-04-30
     releaseDate: 2019-07-23
     latest: "10.4.34"
     latestReleaseDate: 2022-12-15
@@ -47,6 +51,7 @@ releases:
 -   releaseCycle: "9"
     eol: 2021-09-30
     support: 2020-04-30
+    extendedSupport: 2024-09-30
     releaseDate: 2017-12-12
     latest: "9.5.31"
     latestReleaseDate: 2021-09-21
@@ -54,6 +59,7 @@ releases:
 -   releaseCycle: "8"
     eol: 2020-03-31
     support: 2018-09-30
+    extendedSupport: 2023-03-31
     releaseDate: 2016-03-22
     latest: "8.7.32"
     latestReleaseDate: 2020-03-31
@@ -61,6 +67,7 @@ releases:
 -   releaseCycle: "7"
     eol: 2018-12-01
     support: 2017-04-01
+    extendedSupport: 2022-11-30
     releaseDate: 2014-12-02
     latest: "7.6.32"
     latestReleaseDate: 2018-12-11
@@ -81,13 +88,6 @@ Version | PHP
 8       | 7.0 - 7.4
 7       | 5.5 - 7.3
 
-## Extended Long Term Support
+## Extended Long Term Support (ELTS)
 
-Version | Commercial ELTS Support Ends
---------|---------
-12      | 2029-04-30
-11      | 2027-10-31
-10      | 2026-04-30
-9       | 2024-09-30
-8       | 2023-03-31
-7       | 2022-11-30
+ELTS is the commerical offer with three additional years of support.
