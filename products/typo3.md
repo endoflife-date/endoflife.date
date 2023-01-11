@@ -19,9 +19,9 @@ releases:
     lts: 2021-10-05
     support: 2023-03-31
     releaseDate: 2020-12-22
-    latest: "11.5.21"
+    latest: "11.5.22"
     link: https://typo3.org/article/typo3-v11-lts-warp-speed
-    latestReleaseDate: 2022-12-15
+    latestReleaseDate: 2023-01-10
 -   releaseCycle: "10"
     eol: 2023-04-30
     lts: 2020-04-07
