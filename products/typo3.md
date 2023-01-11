@@ -90,4 +90,4 @@ Version | PHP
 
 ## Extended Long Term Support (ELTS)
 
-ELTS is the commerical offer with three additional years of support.
+[Extended Long Term Support (ELTS)](https://typo3.com/services/extended-support-elts) is the commerical offer with three additional years of support.
