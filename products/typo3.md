@@ -14,6 +14,7 @@ releases:
     releaseDate: 2022-10-04
     latestReleaseDate: 2022-12-15
     latest: '12.1.3'
+    link: https://typo3.org/article/typo3-v120-release-your-power
 -   releaseCycle: "11"
     eol: 2024-10-31
     lts: 2021-10-05
