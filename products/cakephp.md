@@ -6,7 +6,7 @@ permalink: /cakephp
 alternate_urls:
 -   /cake-php
 -   /cake
-releasePolicyLink: https://book.cakephp.org/4/en/release-policy.html
+releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
