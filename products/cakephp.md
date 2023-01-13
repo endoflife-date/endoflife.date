@@ -8,7 +8,6 @@ alternate_urls:
 -   /cake
 releasePolicyLink: https://book.cakephp.org/4/en/release-policy.html
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
-releaseLabel: "__RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
@@ -27,7 +26,6 @@ releases:
     releaseDate: 2022-06-06
     latest: "4.4.10"
     latestReleaseDate: 2023-01-05
-    codename: Strawberry
 
 -   releaseCycle: "4.3"
     eol: false
