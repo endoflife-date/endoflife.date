@@ -76,7 +76,7 @@ module Jekyll
       end
 
       def set_cycle_link(page, cycle)
-        if !cycle['link'] && page['changelogTemplate']
+        if !cycle.has_key?('link') && page['changelogTemplate']
           link = page['changelogTemplate'].gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
           link.gsub!('__CODENAME__', cycle['codename'] || '')
           link.gsub!('__LATEST__', cycle['latest'] || '')

@@ -88,61 +88,61 @@ releases:
     codename: Jelly Bean
     eol: true
     releaseDate: 2012-07-09
-    link: ''
+    link: null
 
 -   releaseCycle: "4"
     codename: Ice Cream Sandwich
     eol: true
     releaseDate: 2011-10-18
-    link: ''
+    link: null
 
 -   releaseCycle: "3"
     codename: Honeycomb
     eol: true
     releaseDate: 2011-02-22
-    link: ''
+    link: null
 
 -   releaseCycle: "2.3"
     codename: Gingerbread
     eol: true
     releaseDate: 2010-12-06
-    link: ''
+    link: null
 
 -   releaseCycle: "2.2"
     codename: Froyo
     eol: true
     releaseDate: 2010-05-20
-    link: ''
+    link: null
 
 -   releaseCycle: "2.0"
     codename: Eclair
     eol: true
     releaseDate: 2009-10-26
-    link: ''
+    link: null
 
 -   releaseCycle: "1.6"
     codename: Donut
     eol: true
     releaseDate: 2009-09-15
-    link: ''
+    link: null
 
 -   releaseCycle: "1.5"
     codename: Cupcake
     eol: true
     releaseDate: 2009-04-27
-    link: ''
+    link: null
 
 -   releaseCycle: "1.1"
     codename: Petit Four
     eol: true
     releaseDate: 2009-02-09
-    link: ''
+    link: null
 
 -   releaseCycle: "1.0"
     releaseLabel: "__RELEASE_CYCLE__"
     eol: true
     releaseDate: 2008-09-23
-    link: ''
+    link: null
 
 ---
 
