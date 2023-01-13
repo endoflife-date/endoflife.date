@@ -23,8 +23,7 @@ releases:
 -   releaseCycle: "stable/13"
     releaseDate: 2021-04-13
     eol: 2026-01-31
-    # prevent the link to be generated using the changelogTemplate
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/12.4"
     releaseDate: 2022-12-05
@@ -49,8 +48,7 @@ releases:
 -   releaseCycle: "stable/12"
     releaseDate: 2018-12-11
     eol: 2023-12-31
-    # prevent the link to be generated using the changelogTemplate
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/11.4"
     eol: 2021-09-30
@@ -59,7 +57,7 @@ releases:
 -   releaseCycle: "stable/11"
     releaseDate: 2016-10-10
     eol: 2021-09-30
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/10.4"
     eol: 2018-10-31
@@ -84,7 +82,7 @@ releases:
 -   releaseCycle: "stable/10"
     releaseDate: 2014-01-20
     eol: 2018-10-31
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/9.3"
     eol: 2016-12-31
@@ -105,7 +103,7 @@ releases:
 -   releaseCycle: "stable/9"
     releaseDate: 2012-01-10
     eol: 2016-12-31
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/8.4"
     eol: 2015-08-01
@@ -130,7 +128,7 @@ releases:
 -   releaseCycle: "stable/8"
     releaseDate: 2009-11-25
     eol: 2015-08-01
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/7.4"
     eol: 2013-02-28
@@ -155,7 +153,7 @@ releases:
 -   releaseCycle: "stable/7"
     releaseDate: 2008-02-27
     eol: 2013-02-28
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/6.4"
     eol: 2010-11-30
@@ -180,7 +178,7 @@ releases:
 -   releaseCycle: "stable/6"
     releaseDate: 2005-11-04
     eol: 2010-11-30
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/5.5"
     eol: 2008-05-31
@@ -197,7 +195,7 @@ releases:
 -   releaseCycle: "stable/5"
     releaseDate: 2004-11-06
     eol: 2008-05-31
-    link: ""
+    link: null
 
 -   releaseCycle: "releng/4.11"
     eol: 2007-01-31
@@ -206,7 +204,7 @@ releases:
 -   releaseCycle: "stable/4"
     releaseDate: 2000-03-14
     eol: 2007-01-31
-    link: ""
+    link: null
 
 ---
 

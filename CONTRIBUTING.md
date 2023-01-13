@@ -280,6 +280,8 @@ releases:
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
     # or if the changelogTemplate generated link must be overridden.
     # Do not use a localized URL (such as one containing en-us) if possible.
+    # Use the special value 'null' (unquoted) if you want to disable link for a specific cycle of a
+    # product having a changelogTemplate.
     link: https://example.com/news/2021-12-25/release-1.2.3
 
 # In the following markdown section, ensure that all the above are present:
