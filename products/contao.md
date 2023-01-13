@@ -56,8 +56,8 @@ releases:
     releaseDate: 2020-02-18
     support: 2023-02-14
     eol: 2024-02-14
-    latest: "4.9.37"
-    latestReleaseDate: 2022-11-28
+    latest: "4.9.38"
+    latestReleaseDate: 2023-01-13
     lts: true
 
 -   releaseCycle: "4.4"

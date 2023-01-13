@@ -20,14 +20,14 @@ auto:
 releases:
 -   releaseCycle: "6.1"
     eol: false
-    latest: "6.1.4"
-    latestReleaseDate: 2023-01-07
+    latest: "6.1.5"
+    latestReleaseDate: 2023-01-12
     releaseDate: 2022-12-11
 
 -   releaseCycle: "6.0"
     eol: false
-    latest: "6.0.18"
-    latestReleaseDate: 2023-01-07
+    latest: "6.0.19"
+    latestReleaseDate: 2023-01-12
     releaseDate: 2022-10-02
 
 -   releaseCycle: "5.19"
@@ -57,8 +57,8 @@ releases:
 -   releaseCycle: "5.15"
     eol: 2023-10-31
     lts: true
-    latest: "5.15.86"
-    latestReleaseDate: 2022-12-31
+    latest: "5.15.87"
+    latestReleaseDate: 2023-01-12
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
