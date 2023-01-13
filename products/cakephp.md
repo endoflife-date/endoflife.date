@@ -8,7 +8,6 @@ alternate_urls:
 -   /cake
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
-releaseLabel: "__RELEASE_CYCLE__ __CODENAME__"
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
@@ -20,6 +19,7 @@ auto:
 
 # support(X) = releaseDate(X+1) + 1 day
 # For a given major version, the last three minor versions have security support.
+# Do not forget to document the codename in the product's description when adding a new major version.
 releases:
 -   releaseCycle: "4.4"
     eol: false
@@ -27,7 +27,6 @@ releases:
     releaseDate: 2022-06-06
     latest: "4.4.10"
     latestReleaseDate: 2023-01-05
-    codename: Strawberry
 
 -   releaseCycle: "4.3"
     eol: false
@@ -232,11 +231,26 @@ releases:
 
 ---
 
-> [CakePHP](https://cakephp.org/) is a free & open source PHP web development framework.  It follows
-> the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby
-> on Rails, and distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+> [CakePHP](https://cakephp.org/) is a free and open source PHP web development framework. It
+> follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts
+> of Ruby on Rails.
 
-Have a look at the [Bakery](https://bakery.cakephp.org/) for fresh [releases](https://bakery.cakephp.org/categories/release.html).
+CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
+onward, major versions have a name:
+
+| Version | Name       |
+|---------|------------|
+| 3.x     | Red Velvet |
+| 4.x     | Strawberry |
+
+Support and EOL policy for 1.x [was not clearly defined](https://stackoverflow.com/questions/20162089/cakephp-1-x-end-of-support-date).
+2.x and 3.x support and EOL policies are documented on <https://github.com/cakephp/cakephp/wiki>.
+From 3.x onward, [it seems](https://bakery.cakephp.org/2023/01/01/cakephp_3_end_of_life_3105_released.html)
+only the last major release will be actively developed, and older major releases will receive
+bugfixes for 24 months and security fixes for 36 months.
+
+Minor releases also do hold significance for the CakePHP project: the last three minor versions of
+the last major release cycle have security support.
 
 ## PHP Support
 
