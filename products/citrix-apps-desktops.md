@@ -6,7 +6,7 @@ permalink: /citrix-vad
 alternate_urls:
 -   /citrixvad
 -   /cvad
-  # This can be removed if we add more citrix products
+# This can be removed if we add more citrix products
 -   /citrix
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
@@ -22,6 +22,7 @@ releases:
     releaseDate: 2022-12-19
     support: 2023-06-19
     eol: 2024-06-19
+    extendedSupport: false
     latest: "2212"
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html
 
@@ -29,12 +30,14 @@ releases:
     releaseDate: 2022-09-29
     support: 2023-03-29
     eol: 2024-03-29
+    extendedSupport: false
     latest: "2209"
 
 -   releaseCycle: "2206"
     releaseDate: 2022-06-28
     support: 2022-12-28
     eol: 2023-12-28
+    extendedSupport: false
     latest: "2206"
 
 -   releaseCycle: "2203"
@@ -50,48 +53,56 @@ releases:
     releaseDate: 2021-12-13
     support: 2022-06-14
     eol: 2023-06-14
+    extendedSupport: false
     latest: "2112"
 
 -   releaseCycle: "2109"
     releaseDate: 2021-09-27
     support: 2022-03-27
     eol: 2023-03-27
+    extendedSupport: false
     latest: "2109"
 
 -   releaseCycle: "2106"
     releaseDate: 2021-06-16
     support: 2021-12-16
     eol: 2022-12-16
+    extendedSupport: false
     latest: "2106"
 
 -   releaseCycle: "2103"
     releaseDate: 2021-03-17
     support: 2021-09-17
     eol: 2022-09-17
+    extendedSupport: false
     latest: "2103"
 
 -   releaseCycle: "2012"
     releaseDate: 2020-12-14
     support: 2021-06-14
     eol: 2022-06-14
+    extendedSupport: false
     latest: "2012"
 
 -   releaseCycle: "2009"
     releaseDate: 2020-09-29
     support: 2021-03-29
     eol: 2022-03-29
+    extendedSupport: false
     latest: "2009"
 
 -   releaseCycle: "2006"
     releaseDate: 2020-06-17
     support: 2020-12-17
     eol: 2021-12-17
+    extendedSupport: false
     latest: "2006"
 
 -   releaseCycle: "2003"
     releaseDate: 2020-03-20
     support: 2020-09-20
     eol: 2021-09-26
+    extendedSupport: false
     latest: "2003"
 
 -   releaseCycle: "1912"
