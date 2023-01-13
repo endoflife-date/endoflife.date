@@ -77,7 +77,7 @@ or +1 (EoL is in the future)
 <tr>
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-    {% if r.link and page.releaseColumn == false %}
+    {% if r.link and diff > 0 and page.releaseColumn == false %}
       <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
     {% else %}
       {{ r.label }}
@@ -208,7 +208,7 @@ or +1 (EoL is in the future)
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
-    {% if r.link != "" %}
+    {% if r.link != "" and diff > 0 %}
       <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
     {% else %}
       {{ r.latest }}
