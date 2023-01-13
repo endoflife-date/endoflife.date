@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "20.0"
     releaseDate: 2022-11-01
     eol: false
-    latest: "20.0.2"
-    latestReleaseDate: 2022-12-13
+    latest: "20.0.3"
+    latestReleaseDate: 2023-01-12
 
 -   releaseCycle: "19.0"
     releaseDate: 2022-07-27
