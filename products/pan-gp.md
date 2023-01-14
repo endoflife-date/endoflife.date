@@ -35,15 +35,15 @@ releases:
     link: https://docs.paloaltonetworks.com/globalprotect/5-3/globalprotect-app-release-notes/gp-app-release-information
 
 -   releaseCycle: "5.2"
-    eol: 2023-02-28
-    support: 2023-02-28
+    eol: 2024-02-28
+    support: 2023-08-31
     releaseDate: 2020-07-30
     latest: "5.2.12"
     latestReleaseDate: 2022-05-26
     link: https://docs.paloaltonetworks.com/globalprotect/5-2/globalprotect-app-release-notes
 
 -   releaseCycle: "5.1"
-    eol: 2022-12-12
+    eol: 2023-06-30
     support: 2021-03-12
     releaseDate: 2019-12-12
     latest: "5.1.11"
