@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "1.22"
     eol: 2023-04-30
-    support: 2023-02-30
+    support: 2023-02-28
     latest: '1.22.17-gke.1900'
     releaseDate: 2022-03-07
     latestReleaseDate: 2023-01-13
