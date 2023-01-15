@@ -5,6 +5,7 @@ iconSlug: windows
 permalink: /windows
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
+releaseLabel: "__RELEASE_CYCLE__ (__BUILDID__)"
 
 activeSupportColumn: true
 releaseColumn: false
