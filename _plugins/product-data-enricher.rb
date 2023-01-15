@@ -92,6 +92,7 @@ module Jekyll
           label = template.gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
           label.gsub!('__CODENAME__', cycle['codename'] || '')
           label.gsub!('__LATEST__', cycle['latest'] || '')
+          label.gsub!('__BUILDID__', cycle['buildID'] || '')
           cycle['label'] = Liquid::Template.parse(label).render(@context)
         else
           cycle['label'] = cycle['releaseCycle']
