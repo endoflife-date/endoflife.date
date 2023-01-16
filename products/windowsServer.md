@@ -7,7 +7,7 @@ alternate_urls:
   - /windowsserver
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
-releaseLabel: 'Windows Server __RELEASE_CYCLE__ (__BUILDID__)'
+releaseLabel: 'Windows Server __RELEASE_CYCLE__ (build __BUILDID__)'
 activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
