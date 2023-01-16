@@ -10,38 +10,38 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 releases:
--   releaseCycle: "Office 2021"
+-   releaseCycle: "2021"
     support: 2026-10-13
     eol: 2026-10-13
     releaseDate: 2021-10-05
--   releaseCycle: "Office 2019"
+-   releaseCycle: "2019"
     support: 2023-10-10
     eol: 2025-10-14
     releaseDate: 2018-09-24
--   releaseCycle: "Office 2016"
+-   releaseCycle: "2016"
     support: 2020-10-13
     eol: 2025-10-14
     releaseDate: 2015-09-22
--   releaseCycle: "Office 2013 SP1"
+-   releaseCycle: "2013 SP1"
     support: 2018-04-10
     eol: 2023-04-11
     releaseDate: 2014-02-25
--   releaseCycle: "Office 2010 SP2"
-    support: 2015-10-13
-    eol: 2020-10-13
-    releaseDate: 2013-07-23
--   releaseCycle: "Office for Mac 2011 SP3"
+-   releaseCycle: "2011 for Mac SP3"
     support: 2017-10-10
     eol: 2017-10-10
     releaseDate: 2013-01-29
--   releaseCycle: "Office 2007 SP3"
-    support: 2012-10-09
-    eol: 2017-10-10
-    releaseDate: 2011-10-25
--   releaseCycle: "Office 2008 for Mac SP2"
+-   releaseCycle: "2010 SP2"
+    support: 2015-10-13
+    eol: 2020-10-13
+    releaseDate: 2013-07-23
+-   releaseCycle: "2008 for Mac SP2"
     support: 2013-04-09
     eol: 2013-04-09
     releaseDate: 2009-10-18
+-   releaseCycle: "2007 SP3"
+    support: 2012-10-09
+    eol: 2017-10-10
+    releaseDate: 2011-10-25
 
 ---
 
