@@ -1,31 +1,36 @@
 ---
-permalink: /debian
 title: Debian
-versionCommand: cat /etc/os-release
 category: os
+iconSlug: debian
+permalink: /debian
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-purls:
+identifiers:
 -   purl: pkg:os/debian
+
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "11"
     codename: "Bullseye"
     eol: 2026-08-15
-    latest: "11.5"
+    latest: "11.6"
     link: https://www.debian.org/News/2022/2022091002
     releaseDate: 2021-08-14
     lts: 2024-07-01
-    latestReleaseDate: 2022-09-10
+    latestReleaseDate: 2022-12-17
 -   releaseCycle: "10"
     codename: "Buster"
     eol: 2024-06-01
     latest: "10.13"
     link: https://www.debian.org/News/2022/20220910
     lts: 2022-07-01
-    releaseDate: 2019-07-07
+    releaseDate: 2019-07-06
     latestReleaseDate: 2022-09-10
 -   releaseCycle: "9"
     codename: "Stretch"
@@ -33,7 +38,7 @@ releases:
     lts: 2020-06-06
     latest: "9.13"
     link: https://lists.debian.org/debian-announce/2020/msg00004.html
-    releaseDate: 2017-06-18
+    releaseDate: 2017-06-17
     latestReleaseDate: 2020-07-18
 -   releaseCycle: "8"
     codename: "Jessie"
@@ -41,16 +46,16 @@ releases:
     lts: 2018-06-17
     latest: "8.11"
     link: https://www.debian.org/News/2015/20150426
-    releaseDate: 2015-04-26
-    latestReleaseDate: 2018-06-18
+    releaseDate: 2015-04-25
+    latestReleaseDate: 2018-06-23
 -   releaseCycle: "7"
     codename: "Wheezy"
     eol: 2018-05-31
     lts: 2016-04-26
     latest: "7.11"
     link: https://www.debian.org/News/2013/20130504
-    releaseDate: 2013-05-05
-    latestReleaseDate: 2018-06-04
+    releaseDate: 2013-05-04
+    latestReleaseDate: 2016-06-04
 -   releaseCycle: "6"
     codename: "Squeeze"
     eol: 2016-02-29
@@ -58,7 +63,7 @@ releases:
     latest: "6.0.10"
     link: https://www.debian.org/News/2011/20110205a
     releaseDate: 2011-02-06
-    latestReleaseDate: 2016-02-29
+    latestReleaseDate: 2014-07-19
 
 ---
 

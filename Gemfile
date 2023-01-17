@@ -24,4 +24,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
 
-gem 'google-cloud-container', '~> 1.3'
+gem 'icalendar', '~> 2.7'

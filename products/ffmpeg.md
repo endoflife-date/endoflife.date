@@ -1,8 +1,8 @@
 ---
 title: FFmpeg
-permalink: /ffmpeg
 category: framework
-icon: FFmpeg
+iconSlug: ffmpeg
+permalink: /ffmpeg
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 versionCommand: ffmpeg -version
@@ -25,9 +25,9 @@ releases:
 -   releaseCycle: "5.0"
     codename: Lorentz
     eol: false
-    latest: "5.0.1"
+    latest: "5.0.2"
     lts: true
-    latestReleaseDate: 2022-04-04
+    latestReleaseDate: 2022-11-04
     releaseDate: 2022-01-14
 
 -   releaseCycle: "4.4"

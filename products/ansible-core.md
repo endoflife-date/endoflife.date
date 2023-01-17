@@ -1,6 +1,5 @@
 ---
 permalink: /ansible-core
-layout: product
 title: Ansible-core
 versionCommand: ansible --version
 releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
@@ -14,21 +13,27 @@ category: framework
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:
+-   releaseCycle: "2.14"
+    releaseDate: 2022-11-07
+    eol: 2024-05-31
+    latest: "2.14.1"
+    latestReleaseDate: 2022-12-06
+
 -   releaseCycle: "2.13"
     releaseDate: 2022-05-16
-    eol: false
-    latest: "2.13.5"
-    latestReleaseDate: 2022-10-11
+    eol: 2023-11-30
+    latest: "2.13.7"
+    latestReleaseDate: 2022-12-05
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-11-08
-    eol: false
+    eol: 2023-05-31
     latest: "2.12.10"
     latestReleaseDate: 2022-10-11
 
 -   releaseCycle: "2.11"
     releaseDate: 2021-04-26
-    eol: false
+    eol: 2022-11-07
     latest: "2.11.12"
     latestReleaseDate: 2022-05-23
 
@@ -46,11 +51,11 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, and can configure both Unix-like systems and Microsoft Windows.
 
 The `ansible-core` package has a graduated maintenance structure that extends to three major releases. For detailed information, see Ansible [Releases and maintenance][maintenance].
 
-See the [Ansible Roadmap][roadmap] for upcoming release details.
+See the [ansible-core Roadmap][roadmap] for upcoming release details.
 
 [roadmap]: https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html
 [maintenance]: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
@@ -64,3 +69,4 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 | 2.11                 | 2.7 or 3.5                          | 2.6 or 3.5                       |
 | 2.12                 | 3.8                                 | 2.6 or 3.5                       |
 | 2.13                 | 3.8                                 | 2.7 or 3.5                       |
+| 2.14                 | 3.9                                 | 2.7 or 3.5                       |

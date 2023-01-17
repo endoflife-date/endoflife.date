@@ -1,6 +1,7 @@
 import sys
 import frontmatter
 import json
+import os
 import re
 import datetime
 from glob import glob
@@ -9,6 +10,7 @@ from ruamel.yaml import YAML
 from ruamel.yaml.resolver import Resolver
 from deepdiff import DeepDiff
 from io import StringIO
+from packaging.version import Version
 from os.path import exists
 
 """
@@ -21,6 +23,7 @@ This is written in Python because the only package that supports writing back YA
 DEFAULT_POST_TEMPLATE = """\
 ---
 {metadata}
+
 ---
 
 {content}
@@ -42,21 +45,31 @@ or releases that include a dot just after the release cycle (4.1.*)
 This is important to avoid edge cases like a 4.10.x release being marked under the 4.1 release cycle.
 """
 
-
 def releases_matches(r, prefix):
     return r.startswith(prefix) and (
         # It exactly matches the release cycle
-        r == prefix or
+        r == prefix
+        or
         # It matches the prefix with an extra alphabet as a character
         # this is notably used in openssl
         # prefix = 1.1.0, r = 1.1.0r
-        ((len(r) - len(prefix) == 1) and ord(r[len(prefix):]) in range(ord('a'),ord('z'))) or
+        (
+            (len(r) - len(prefix) == 1)
+            and ord(r[len(prefix) :]) in range(ord("a"), ord("z"))
+        )
+        or
         # It matches the release cycle as a patch release
         # prefix = 1.1, r = 1.1.2
-        r.startswith(prefix + ".") or
+        r.startswith(prefix + ".")
+        or
         # It matches the release cycle as a version suffix
         # prefix = 1.2, r = 1.2-final
         r.startswith(prefix + "-")
+        or
+        # It matches the release cycle with an extra 'u' as a patch release
+        # this is notably used in java
+        # prefix = 7, r = 7u72
+        r.startswith(prefix + "u")
     )
 
 
@@ -79,7 +92,9 @@ def yaml_to_str(obj):
     yaml.dump(obj, string_stream)
     output_str = string_stream.getvalue()
     string_stream.close()
-    return output_str
+    return output_str.strip()
+
+warnings = ""
 
 def update_product(name):
     fn = "products/%s.md" % name
@@ -126,11 +141,12 @@ def update_product(name):
                     because we manually updated something too early, and our automation
                     didn't catch-up in time.
                     """
+
                     def new_version_is_higher(new_version):
-                        if 'latest' not in release:
+                        if "latest" not in release:
                             return True
-                        old_version = release['latest']
-                        old_date = release.get('latestReleaseDate', None)
+                        old_version = release["latest"]
+                        old_date = release.get("latestReleaseDate", None)
                         # Do our best attempt at comparing the version numbers
                         try:
                             return Version(new_version) >= Version(old_version)
@@ -138,12 +154,14 @@ def update_product(name):
                             # We compare the dates if we have one
                             # Note that multiple releases can show up on the same date
                             if old_date:
-                                return old_date < datetime.date.fromisoformat(R1[new_version])
+                                return old_date < datetime.date.fromisoformat(
+                                    R1[new_version]
+                                )
                             return True
 
                     # Never downgrade a custom pinned version
                     # that is higher
-                    if(new_version_is_higher(latest_version)):
+                    if new_version_is_higher(latest_version):
                         release["latestReleaseDate"] = datetime.date.fromisoformat(
                             R1[latest_version]
                         )
@@ -171,6 +189,9 @@ def update_product(name):
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
                         print("[WARN] %s:%s (%s) not included" % (name, x, R1[x]))
+                        # Update global warnings
+                        global warnings
+                        warnings += "%s:%s (%s)\\n" % (name, x, R1[x])
 
 
 if __name__ == "__main__":
@@ -179,3 +200,6 @@ if __name__ == "__main__":
     else:
         for x in glob("products/*.md"):
             update_product(Path(x).stem)
+    if os.getenv("GITHUB_OUTPUT"):
+        with open(os.getenv("GITHUB_OUTPUT"), 'a') as f:
+            f.write("WARNING=" + warnings)

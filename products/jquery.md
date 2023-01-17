@@ -1,32 +1,38 @@
 ---
 title: jQuery
 category: framework
+iconSlug: jquery
+permalink: /jquery
+changelogTemplate: "https://github.com/jquery/jquery/releases/tag/__LATEST__"
+activeSupportColumn: false
+releaseColumn: true
+releaseDateColumn: true
+
+# NPM is also possible, but versions up to 1.10.2 and between 2.0.0 to 2.0.3 are not on
+# https://www.npmjs.com/package/jquery, so better it's better to keep git.
 auto:
 -   git: https://github.com/jquery/jquery.git
+
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.6.1"
-    link: https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/
-    latestReleaseDate: 2022-08-26
+    latest: "3.6.3"
+    latestReleaseDate: 2022-12-20
     releaseDate: 2016-06-09
+
 -   releaseCycle: "2"
     eol: true
     latest: "2.2.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
     latestReleaseDate: 2016-05-20
     releaseDate: 2013-04-18
+
 -   releaseCycle: "1"
     eol: true
     latest: "1.12.4"
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
     latestReleaseDate: 2016-05-20
     releaseDate: 2006-08-31
-iconSlug: jquery
-permalink: /jquery
-activeSupportColumn: false
-releaseColumn: true
-releaseDateColumn: true
 
 ---
 

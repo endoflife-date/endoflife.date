@@ -11,7 +11,6 @@ activeSupportColumn: false
 eolColumn: Service Status
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: NA
 auto:
 -   git: https://github.com/apache/hbase.git
     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
@@ -20,8 +19,8 @@ releases:
 -   releaseCycle: "2.5"
     eol: false
     releaseDate: 2022-08-31
-    latestReleaseDate: 2022-10-28
-    latest: '2.5.1'
+    latestReleaseDate: 2022-12-04
+    latest: '2.5.2'
 -   releaseCycle: "2.4"
     eol: false
     releaseDate: 2020-12-15

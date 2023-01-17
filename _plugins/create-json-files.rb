@@ -36,6 +36,7 @@ class Product
   def release_cycles
     hash.fetch('releases').map do |release|
       name = release.delete('releaseCycle')
+      release['lts'] = release['lts'] || false
       { 'name' => name, 'data' => release }
     end
   end

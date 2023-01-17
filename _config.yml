@@ -1,5 +1,4 @@
 title: endoflife.date
-baseurl: /
 url: https://endoflife.date
 markdown: kramdown
 plugins:
@@ -9,13 +8,22 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 exclude:
+  - .idea
+  - _auto
+  - CODE-OF-CONDUCT.md
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/
-  - README.md
+  - HACKING.md
   - LICENSE
-  - _auto
+  - netlify.toml
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor/
+  - Rakefile
+  - README.md
+  - requirements.txt
+  - runtime.txt
 include:
   - _redirects
   - _headers
@@ -50,9 +58,10 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /logo.png
+      image: /assets/logo-512x512.png
   - scope:
       path: "products"
     values:
       layout: product
+      LTSLabel: <abbr title="Long Term Support">LTS</abbr>
 encoding: utf-8

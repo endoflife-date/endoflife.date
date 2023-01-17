@@ -1,47 +1,56 @@
 ---
-permalink: /powershell
 category: app
-title: PowerShell
+title: Microsoft PowerShell
+iconSlug: powershell
+permalink: /powershell
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
-changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md
+changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md#{{"__LATEST__"
+  | replace:'.','' }}---__LATEST_RELEASE_DATE__
 releaseDateColumn: true
 eolColumn: Support Status
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
 releases:
+-   releaseCycle: "7.3"
+    lts: false
+    eol: false
+    latest: "7.3.1"
+    latestReleaseDate: 2022-12-13
+    releaseDate: 2022-11-08
+
 -   releaseCycle: "7.2"
     lts: true
     eol: 2024-11-30
-    latest: "7.2.7"
-
-    latestReleaseDate: 2022-10-20
+    latest: "7.2.8"
+    latestReleaseDate: 2022-12-13
     releaseDate: 2021-11-05
+
 -   releaseCycle: "7.1"
     eol: 2022-05-31
     latest: "7.1.7"
-
     latestReleaseDate: 2022-04-26
     releaseDate: 2020-11-11
+
 -   releaseCycle: "7.0"
     lts: true
     eol: 2022-12-03
     latest: "7.0.13"
-
     latestReleaseDate: 2022-10-20
     releaseDate: 2020-03-03
+
 -   releaseCycle: "6.2"
     eol: 2020-09-04
     latest: "6.2.7"
-
     latestReleaseDate: 2020-07-16
     releaseDate: 2019-03-28
+
 -   releaseCycle: "6.1"
     eol: 2019-09-28
     latest: "6.1.6"
-
     latestReleaseDate: 2019-09-12
     releaseDate: 2018-09-13
+
 -   releaseCycle: "6.0"
     eol: 2019-02-13
     latest: "6.0.5"

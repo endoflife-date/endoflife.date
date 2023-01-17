@@ -1,22 +1,24 @@
 ---
+title: antiX Linux
+category: os
 permalink: /antix
 alternate_urls:
 -   /antixlinux
 -   /antix-linux
-title: antiX
-category: os
-releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
-activeSupportColumn: true
 versionCommand: cat /etc/os-release
+releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
+releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-iconSlug: NA
-releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-purls:
+
+identifiers:
 -   purl: pkg:os/antix
+
 auto:
 -   distrowatch: antix
     regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
+
 releases:
 -   releaseCycle: "21"
     codename: "Grup Yorum"
@@ -65,8 +67,14 @@ releases:
 
 ---
 
-> [antiX](https://antixlinux.com/) is a lightweight desktop-oriented systemd-free GNU/Linux distribution based on Debian's stable branch releases. AntiX Linux uses the lightweight "antiX Magic" IceWM-based desktop which allows for antiX to run smoothly on old and new hardware.
+> [antiX Linux](https://antixlinux.com/) is a lightweight desktop-oriented systemd-free GNU/Linux
+> distribution based on Debian's stable branch releases. AntiX Linux uses the lightweight
+> "antiX Magic" IceWM-based desktop which allows for antiX to run smoothly on old and new hardware.
 
-There are several releases of antiX supported concurrently.  These typically follow Debian's periods of active development and extended long-term support, which provides security patches to a limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security patch support.
+There are several releases of antiX supported concurrently. These typically follow Debian's periods
+of active development and extended long-term support, which provides security patches to a limited
+set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security
+patch support.
 
-AntiX officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit x86 processors.
+AntiX officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit
+x86 processors.

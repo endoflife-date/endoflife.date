@@ -1,25 +1,30 @@
 ---
 title: Bootstrap
-permalink: /bootstrap
 category: framework
+iconSlug: bootstrap
+permalink: /bootstrap
 activeSupportColumn: true
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
-auto:
--   git: https://github.com/twbs/bootstrap.git
-purls:
+
+identifiers:
 -   repology: bootstrap
 -   purl: pkg:npm/bootstrap
 -   purl: pkg:nuget/bootstrap
 -   purl: pkg:gem/bootstrap
 -   purl: pkg:composer/twbs/bootstrap
 -   purl: pkg:github/twbs/bootstrap
+
+# NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
+auto:
+-   git: https://github.com/twbs/bootstrap.git
+
 releases:
 -   releaseCycle: "5"
     eol: false
     support: true
     lts: true
-    latest: "5.2.2"
-    latestReleaseDate: 2022-10-03
+    latest: "5.2.3"
+    latestReleaseDate: 2022-11-21
     releaseDate: 2021-05-05
 -   releaseCycle: "4"
     eol: 2023-01-01

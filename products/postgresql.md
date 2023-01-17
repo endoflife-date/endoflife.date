@@ -1,11 +1,13 @@
 ---
 title: PostgreSQL
+category: db
+iconSlug: postgresql
 permalink: /postgresql
 alternate_urls:
 -   /postgres
 -   /pg
+-   /psql
 releasePolicyLink: https://www.postgresql.org/support/versioning/
-category: db
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
 eolColumn: Support Status
@@ -18,33 +20,33 @@ auto:
 releases:
 -   releaseCycle: "15"
     eol: 2027-11-11
-    latest: "15.0"
-    latestReleaseDate: 2022-10-10
+    latest: "15.1"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2022-10-10
 -   releaseCycle: "14"
     eol: 2026-09-30
-    latest: "14.5"
-    latestReleaseDate: 2022-08-08
+    latest: "14.6"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2021-09-27
 -   releaseCycle: "13"
     eol: 2025-11-13
-    latest: "13.8"
-    latestReleaseDate: 2022-08-08
+    latest: "13.9"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2020-09-21
 -   releaseCycle: "12"
     eol: 2024-11-14
-    latest: "12.12"
-    latestReleaseDate: 2022-08-08
+    latest: "12.13"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2019-09-30
 -   releaseCycle: "11"
     eol: 2023-11-09
-    latest: "11.17"
-    latestReleaseDate: 2022-08-08
+    latest: "11.18"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2018-10-15
 -   releaseCycle: "10"
     eol: 2022-11-10
-    latest: "10.22"
-    latestReleaseDate: 2022-08-08
+    latest: "10.23"
+    latestReleaseDate: 2022-11-07
     releaseDate: 2017-10-02
 -   releaseCycle: "9.6"
     eol: 2021-11-11
@@ -113,6 +115,6 @@ releases:
 
 **Postgres recommends that all users run the latest available minor release for whatever major version is in use.**
 
-The PostgreSQL Global Development Group supports a major version for 5 years after its initial release. After its five year anniversary, a major version will have one last minor release containing any fixes and will be considered end-of-life (EOL) and no longer supported.
+The PostgreSQL Global Development Group supports a major version for 5 years after its initial release. After its five-year anniversary, a major version will have one last minor release containing any fixes and will be considered end-of-life (EOL) and no longer supported.
 
 The [Release roadmap](https://www.postgresql.org/developer/roadmap/) lists upcoming minor and major releases. If the release team determines that a critical bug or security fix is too important to wait until the regularly scheduled minor release, it may make a release available outside of the minor release roadmap.

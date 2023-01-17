@@ -10,16 +10,22 @@ releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
-purls:
+identifiers:
 -   purl: pkg:pypi/ansible
 -   repology: ansible
 auto:
 -   git: https://github.com/ansible-community/ansible-build-data.git
 releases:
--   releaseCycle: "6"
+-   releaseCycle: "7"
     eol: false
-    latest: "6.5.0"
-    latestReleaseDate: 2022-10-13
+    latest: "7.0.0"
+    latestReleaseDate: 2022-11-22
+    releaseDate: 2022-11-22
+
+-   releaseCycle: "6"
+    eol: 2022-12-22 # will have to be updated with 6.7.0 release date
+    latest: "6.7.0"
+    latestReleaseDate: 2022-12-06
     releaseDate: 2022-06-22
 
 -   releaseCycle: "5"
@@ -55,7 +61,7 @@ releases:
 
 ---
 
-> [Ansible](https://ansible.com) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
 
 The `ansible` community package typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
@@ -67,5 +73,6 @@ See the [Ansible Roadmap][roadmap] for upcoming release details.
 
 | ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
-| 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
+| 7               | 3.9                                 | 2.7 or 3.5                       |
 | 6               | 3.8                                 | 2.7 or 3.5                       |
+| 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |

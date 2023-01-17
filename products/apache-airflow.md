@@ -14,14 +14,14 @@ releaseColumn: true
 releaseDateColumn: true
 auto:
 -   pypi: apache-airflow
-purls:
+identifiers:
 -   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
 releases:
 -   releaseCycle: "2"
     eol: false
-    latest: "2.4.2"
-    latestReleaseDate: 2022-10-24
+    latest: "2.5.0"
+    latestReleaseDate: 2022-12-02
     releaseDate: 2020-12-17
 -   releaseCycle: "1.10"
     eol: 2021-07-17
@@ -65,7 +65,7 @@ releases:
   is a breaking change for provider because installing the new provider might automatically
   upgrade Airflow (which might be an undesired side effect of upgrading provider).
 * **Airflow Helm Chart**: SemVer rules apply to changes in the chart only. SemVer MAJOR and MINOR
-  versions for the chart are independent from the Airflow version. Backwards
+  versions for the chart are independent of the Airflow version. Backwards
   compatibility of the Helm Chart with all released Airflow 2 versions is attempted, but some new features might
   only work starting from specific Airflow releases. A minimum Airflow version might be enforced for the new Helm Chart
   in such cases.

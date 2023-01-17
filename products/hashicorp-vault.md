@@ -1,5 +1,5 @@
 ---
-title: Vault
+title: Hashicorp Vault
 permalink: /hashicorp-vault
 alternate_urls:
 -   /vault
@@ -16,18 +16,18 @@ versionCommand: vault --version
 releases:
 -   releaseCycle: "1.12"
     eol: false
-    latest: "1.12.1"
-    latestReleaseDate: 2022-10-27
+    latest: "1.12.2"
+    latestReleaseDate: 2022-11-23
     releaseDate: 2022-10-10
 -   releaseCycle: "1.11"
     eol: false
-    latest: "1.11.5"
-    latestReleaseDate: 2022-10-27
+    latest: "1.11.6"
+    latestReleaseDate: 2022-11-23
     releaseDate: 2022-06-17
 -   releaseCycle: "1.10"
     eol: false
-    latest: "1.10.8"
-    latestReleaseDate: 2022-10-27
+    latest: "1.10.9"
+    latestReleaseDate: 2022-11-23
     releaseDate: 2022-03-21
 -   releaseCycle: "1.9"
     eol: 2022-10-10

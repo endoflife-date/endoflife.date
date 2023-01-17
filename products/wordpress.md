@@ -2,16 +2,15 @@
 title: WordPress
 category: server-app
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
-changelogTemplate: https://wordpress.org/support/wordpress-version/version-{{"__LATEST__"
-  | replace:'.','-'}}/
+changelogTemplate: "https://wordpress.org/support/wordpress-version/version-{{'__LATEST__' | drop_zero_patch | replace:'.','-'}}/"
 activeSupportColumn: true
 releases:
 -   releaseCycle: "6.1"
     eol: false
     support: true
     releaseDate: 2022-11-02
-    latest: "6.1"
-    latestReleaseDate: 2022-11-02
+    latest: "6.1.1"
+    latestReleaseDate: 2022-11-15
 -   releaseCycle: "6.0"
     eol: false
     support: 2022-11-01
@@ -136,26 +135,28 @@ releases:
     eol: 2022-12-01
     support: 2014-12-18
     releaseDate: 2014-09-04
-    latestReleaseDate: 2022-10-17
-    latest: "4.0.37"
+    latestReleaseDate: 2022-11-30
+    latest: "4.0.38"
 -   releaseCycle: "3.9"
     eol: 2022-12-01
     support: 2014-09-04
     releaseDate: 2014-04-16
-    latestReleaseDate: 2022-10-17
-    latest: "3.9.39"
+    latestReleaseDate: 2022-11-30
+    latest: "3.9.40"
+    # 3.9.39 was a mistakenly released and equals to 3.9.38 ( without a changelog )
+    link: https://wordpress.org/support/wordpress-version/version-3-9-38/
 -   releaseCycle: "3.8"
     eol: 2022-12-01
     support: 2014-04-16
     releaseDate: 2013-12-12
-    latestReleaseDate: 2022-10-17
-    latest: "3.8.40"
+    latestReleaseDate: 2022-11-30
+    latest: "3.8.41"
 -   releaseCycle: "3.7"
     eol: 2022-12-01
     support: 2013-12-12
     releaseDate: 2013-10-24
-    latestReleaseDate: 2022-10-17
-    latest: "3.7.40"
+    latestReleaseDate: 2022-11-30
+    latest: "3.7.41"
 -   releaseCycle: "3.6"
     eol: 2013-10-24
     support: 2013-10-24
@@ -167,7 +168,7 @@ releases:
 
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
-purls:
+identifiers:
 -   repology: wordpress
 -   purl: pkg:docker/library/wordpress
 -   purl: pkg:docker/bitnami/wordpress

@@ -1,12 +1,22 @@
 ---
 title: Perl
 category: lang
+iconSlug: perl
+permalink: /perl
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
+releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
+activeSupportColumn: true
+releaseColumn: true
+releaseDateColumn: true
+eolColumn: Critical security patches
+versionCommand: perl -v
+
 auto:
   # Using the default regex loses all releases before 5.10
   # Feel free to file a PR to fix this
 -   git: https://github.com/Perl/perl5.git
+
 releases:
 # eol dates are always releaseDate + 3 YEARS
 # support: true for latest 2 releases
@@ -16,8 +26,8 @@ releases:
     eol: 2025-05-27
     support: true
     releaseDate: 2022-05-27
-    latestReleaseDate: 2022-10-20
-    latest: "5.37.5"
+    latestReleaseDate: 2022-12-20
+    latest: "5.37.7"
 -   releaseCycle: "5.36"
     eol: 2025-05-27
     support: true
@@ -60,13 +70,6 @@ releases:
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
     releaseDate: 2017-05-30
-permalink: /perl
-releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
-activeSupportColumn: true
-releaseColumn: true
-releaseDateColumn: true
-eolColumn: Critical security patches
-versionCommand: perl -v
 
 ---
 

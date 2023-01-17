@@ -1,48 +1,61 @@
 ---
 title: Electron
 category: framework
-changelogTemplate: |
-  https://www.electronjs.org/releases/stable?version={{"__LATEST__" | split:'.' | first}}#__LATEST__
 iconSlug: electron
 permalink: /electron
+versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/support
+changelogTemplate: "https://www.electronjs.org/releases/stable?version={{'__LATEST__'|split:'.'|first}}#__LATEST__"
 eolColumn: Supported
 activeSupportColumn: false
-versionCommand: npm show electron version
-auto:
--   git: https://github.com/electron/electron.git
 releaseDateColumn: true
+
+# NPM is more accurate than git and remove unreleased version would.
+# 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
+auto:
+-   npm: electron
+
+# The EOL dates will need to be corrected once a new release comes out.
+# v23 (releaseDate) = v20 (eol)
+# v24 (releaseDate) = v21 (eol)
+# v25 (releaseDate) = v22 (eol)
+# and so on...
 releases:
+-   releaseCycle: "22"
+    eol: 2023-07-07
+    releaseDate: 2022-11-30
+    latestReleaseDate: 2023-01-13
+    latest: "22.0.2"
 -   releaseCycle: "21"
-    eol: false
+    eol: 2023-04-05
     releaseDate: 2022-09-26
-    latestReleaseDate: 2022-10-31
-    latest: "21.2.1"
+    latestReleaseDate: 2023-01-11
+    latest: "21.3.4"
 -   releaseCycle: "20"
-    eol: false
-    latest: "20.3.3"
-    latestReleaseDate: 2022-10-19
+    eol: 2023-02-01
+    latest: "20.3.9"
+    latestReleaseDate: 2023-01-11
     releaseDate: 2022-08-01
 -   releaseCycle: "19"
-    eol: false
-    latest: "19.1.4"
-    latestReleaseDate: 2022-10-31
+    eol: 2022-11-30
+    latest: "19.1.9"
+    latestReleaseDate: 2022-11-30
     releaseDate: 2022-05-23
 -   releaseCycle: "18"
-    eol: false
+    eol: 2022-09-27
     latest: "18.3.15"
     latestReleaseDate: 2022-09-27
-    releaseDate: 2022-03-28
+    releaseDate: 2022-03-29
 -   releaseCycle: "17"
     eol: true
     latest: "17.4.11"
     latestReleaseDate: 2022-08-01
-    releaseDate: 2022-01-31
+    releaseDate: 2022-02-01
 -   releaseCycle: "16"
     eol: 2022-05-24
     latest: "16.2.8"
     latestReleaseDate: 2022-05-24
-    releaseDate: 2021-11-15
+    releaseDate: 2021-11-16
 -   releaseCycle: "15"
     eol: 2022-05-24
     latest: "15.5.7"
@@ -51,18 +64,18 @@ releases:
 -   releaseCycle: "14"
     eol: true
     latest: "14.2.9"
-    latestReleaseDate: 2022-03-29
+    latestReleaseDate: 2022-03-30
     releaseDate: 2021-08-30
 -   releaseCycle: "13"
     eol: true
     latest: "13.6.9"
     latestReleaseDate: 2022-02-01
-    releaseDate: 2021-05-24
+    releaseDate: 2021-05-25
 -   releaseCycle: "12"
     eol: true
     latest: "12.2.3"
     latestReleaseDate: 2021-11-15
-    releaseDate: 2021-03-01
+    releaseDate: 2021-03-02
 -   releaseCycle: "11"
     eol: true
     latest: "11.5.0"
@@ -77,7 +90,7 @@ releases:
     eol: true
     latest: "9.4.4"
     latestReleaseDate: 2021-03-03
-    releaseDate: 2020-05-18
+    releaseDate: 2020-05-19
 -   releaseCycle: "8"
     eol: true
     latest: "8.5.5"
@@ -96,8 +109,8 @@ releases:
 -   releaseCycle: "5"
     eol: true
     latest: "5.0.13"
-    latestReleaseDate: 2019-12-16
-    releaseDate: 2019-04-23
+    latestReleaseDate: 2019-12-17
+    releaseDate: 2019-04-24
 
 ---
 
@@ -113,6 +126,8 @@ The Chromium version of Electron is usually bumped within one or two weeks after
 
 When a release branch reaches the end of its support cycle, the series will be deprecated in NPM and a final end-of-support release will be made. This release will add a warning to inform that an unsupported version of Electron is in use.
 
+The End-of-life dates for current releases are approximated using 6 months (8x3 weeks) as the lifecycle of a release.
+
 ## Other Links
 
 - A list of [officially supported platforms][platforms]
@@ -120,6 +135,6 @@ When a release branch reaches the end of its support cycle, the series will be d
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
 - List of [Breaking Changes](https://www.electronjs.org/docs/latest/breaking-changes)
-- [List of releases](https://github.com/electron/releases)
+- [Electron Releases](https://releases.electronjs.org/) website.
 
 [platforms]: https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms

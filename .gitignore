@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 vendor/bundle
 api/
+calendar/
 .idea/
 .jekyll-cache
 _data/gke.json

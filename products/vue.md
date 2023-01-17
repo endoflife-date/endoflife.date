@@ -9,10 +9,11 @@ activeSupportColumn: true
 versionCommand: npm list vue
 releaseDateColumn: true
 iconSlug: vuedotjs
+
 auto:
--   git: https://github.com/vuejs/core.git
--   git: https://github.com/vuejs/vue.git
-purls:
+-   npm: vue
+
+identifiers:
 -   repology: vue.js
 -   repology: vue
 -   purl: pkg:npm/vue
@@ -22,16 +23,16 @@ releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.2.41"
+    latest: "3.2.45"
     lts: false
-    latestReleaseDate: 2022-10-14
+    latestReleaseDate: 2022-11-11
     releaseDate: 2020-09-18
 -   releaseCycle: "2"
     support: 2022-03-18
     eol: 2023-12-31
-    latest: "2.7.13"
+    latest: "2.7.14"
     lts: false
-    latestReleaseDate: 2022-10-14
+    latestReleaseDate: 2022-11-09
     releaseDate: 2016-09-30
 -   releaseCycle: "1"
     support: false
@@ -39,7 +40,7 @@ releases:
     latest: "1.0.28"
     lts: false
     latestReleaseDate: 2016-09-27
-    releaseDate: 2015-10-26
+    releaseDate: 2015-10-27
 
 ---
 

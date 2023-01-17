@@ -3,7 +3,7 @@
 // The file path comes from what the upstream allows:
 // https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles
 
-.bg-red-000, .bg-green-000, .site-footer {
+.bg-red-000, .bg-yellow-200, .bg-green-000, .bg-grey-lt-100, .site-footer {
   color: #1c1c1c;
 }
 
@@ -11,7 +11,7 @@ a {
   color: #6c4dec;
 }
 
-.maincontent {
+.description {
   >blockquote {
     margin-left: 60px;
   }
@@ -20,6 +20,8 @@ a {
       clear: both;
     }
   }
+  // Icons are 50x50, so this adds another 10 pixels
+  min-height: 60px;
 }
 .productlogo {
   float: left;
@@ -55,5 +57,20 @@ body {
     &:nth-of-type(1) {
       display: none;
     }
+  }
+}
+
+.site-title {
+  margin-left: 2rem;
+
+  &:before {
+    content: '';
+    background:url('/assets/logo-192x192.png');
+    background-size:cover;
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -2.1rem;
+    margin-bottom: -.3rem;
   }
 }

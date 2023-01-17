@@ -1,17 +1,29 @@
 ---
 title: Composer
 category: app
-changelogTemplate: "https://getcomposer.org/changelog/__LATEST__"
+changelogTemplate: https://getcomposer.org/changelog/__LATEST__
+iconSlug: composer
+permalink: /composer
+activeSupportColumn: false
+releaseColumn: true
+releaseDateColumn: true
+versionCommand: composer --version
 auto:
 -   git: https://github.com/composer/composer.git
-purls:
+identifiers:
 -   purl: pkg:composer/composer/composer
 -   repology: php:composer
 -   purl: pkg:docker/library/composer
 -   purl: pkg:github/composer/composer
 releases:
--   releaseCycle: "2.4"
+-   releaseCycle: "2.5"
     eol: false
+    latest: "2.5.1"
+    latestReleaseDate: 2022-12-22
+    releaseDate: 2022-12-20
+
+-   releaseCycle: "2.4"
+    eol: 2022-12-20
     latest: "2.4.4"
     latestReleaseDate: 2022-10-27
     releaseDate: 2022-08-16
@@ -34,13 +46,6 @@ releases:
     latestReleaseDate: 2022-04-13
     eol: 2020-10-24
     releaseDate: 2016-04-05
-
-iconSlug: composer
-permalink: /composer
-activeSupportColumn: false
-releaseColumn: true
-releaseDateColumn: true
-versionCommand: composer --version
 
 ---
 

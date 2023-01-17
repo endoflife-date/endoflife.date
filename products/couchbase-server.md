@@ -10,7 +10,7 @@ changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-n
 auto:
 -   dockerhub: library/couchbase
     regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
-purls:
+identifiers:
 -   repology: couchbase-server-community
 -   purl: pkg:docker/library/couchbase
 -   purl: pkg:docker/couchbase/server
@@ -21,18 +21,18 @@ versionCommand: cat /opt/couchbase/VERSION.txt
 releases:
 -   releaseCycle: "7.1"
     eol: false
-    latest: "7.1.2"
-    latestReleaseDate: 2022-10-26
+    latest: "7.1.3"
+    latestReleaseDate: 2022-12-09
     releaseDate: 2022-06-07
 -   releaseCycle: "7.0"
     eol: 2023-01-01
-    latest: "7.0.4"
-    latestReleaseDate: 2022-10-26
+    latest: "7.0.5"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2021-08-31
 -   releaseCycle: "6.6"
     eol: 2023-01-01
     latest: "6.6.5"
-    latestReleaseDate: 2022-10-26
+    latestReleaseDate: 2022-12-09
     releaseDate: 2021-07-26
 -   releaseCycle: "6.5"
     eol: 2021-02-01

@@ -1,17 +1,25 @@
 ---
-permalink: /fedora
 title: Fedora Linux
+category: os
+iconSlug: fedora
+permalink: /fedora
 releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: cat /etc/fedora-release
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
+
 auto:
 -   distrowatch: fedora
     regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
     template: '{{version}}'
-category: os
+
 releases:
+-   releaseCycle: "37"
+    latest: "37"
+    eol: 2023-12-15 #this might be revised for now based on 13months prediction
+    latestReleaseDate: 2022-11-15
+    releaseDate: 2022-11-15
 -   releaseCycle: "36"
     latest: "36"
     eol: 2023-05-16

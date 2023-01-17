@@ -1,5 +1,5 @@
 ---
-title: Consul
+title: Hashicorp Consul
 permalink: /consul
 category: server-app
 iconSlug: consul
@@ -7,28 +7,34 @@ releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 auto:
 -   git: https://github.com/hashicorp/consul.git
-purls:
+identifiers:
 -   repology: consul
 -   purl: pkg:brew/consul
 -   purl: pkg:docker/library/consul
 -   purl: pkg:github/hashicorp/consul
+-   purl: pkg:golang/github.com/hashicorp/consul
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: consul --version
 
 releases:
+-   releaseCycle: "1.14"
+    eol: false
+    releaseDate: 2022-11-15
+    latestReleaseDate: 2022-12-13
+    latest: '1.14.3'
 -   releaseCycle: "1.13"
     eol: false
     releaseDate: 2022-08-09
-    latestReleaseDate: 2022-10-19
-    latest: '1.13.3'
+    latestReleaseDate: 2022-12-13
+    latest: '1.13.5'
 -   releaseCycle: "1.12"
     eol: false
-    latest: "1.12.6"
-    latestReleaseDate: 2022-10-19
+    latest: "1.12.8"
+    latestReleaseDate: 2022-12-13
     releaseDate: 2022-04-19
 -   releaseCycle: "1.11"
-    eol: false
+    eol: 2022-11-15
     latest: "1.11.11"
     latestReleaseDate: 2022-10-19
     releaseDate: 2021-12-14
@@ -52,7 +58,7 @@ releases:
 
 > [Hashicorp Consul](https://www.consul.io/) automates networking for simple and secure application delivery.
 
-Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch, for up to two (2) releases from the most current major release. 
+Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch, for up to two (2) releases from the most current major release.
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following versioning nomenclature: `Version X.Y.Z.`
 

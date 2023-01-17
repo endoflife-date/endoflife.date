@@ -5,21 +5,20 @@ category: framework
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: NA
 changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 auto:
 -   git: https://github.com/twigphp/Twig.git
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.4.3"
+    latest: "3.5.0"
     releaseDate: 2019-11-15
-    latestReleaseDate: 2022-09-28
+    latestReleaseDate: 2022-12-27
 -   releaseCycle: "2"
     eol: false
-    latest: "2.15.3"
+    latest: "2.15.4"
     releaseDate: 2017-01-05
-    latestReleaseDate: 2022-09-28
+    latestReleaseDate: 2022-12-27
 -   releaseCycle: "1"
     eol: false
     latest: "1.44.7"
@@ -37,5 +36,5 @@ Twig 1, 2 and 3 still receive security updates.
 Twig Version | Supported PHP Version
 -------------|----------------------
 [3](https://packagist.org/packages/twig/twig#3.x-dev) | `>=7.2.5`
-[2](https://packagist.org/packages/twig/twig#2.x-dev) | `>=7.1.3`
+[2](https://packagist.org/packages/twig/twig#2.x-dev) | `>=7.2.5`
 [1](https://packagist.org/packages/twig/twig#1.x-dev) | `>=7.2.5`

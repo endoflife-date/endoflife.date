@@ -1,15 +1,15 @@
 ---
 title: Adobe ColdFusion
 category: server-app
-permalink: /coldfusion
-releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
 iconSlug: adobe
+permalink: /coldfusion
+versionCommand: writeoutput(server.coldfusion.productversion);
+releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Core Support
-versionCommand: writeoutput(server.coldfusion.productversion);
-releaseLabel: "ColdFusion __RELEASE_CYCLE__"
+
 releases:
 -   releaseCycle: "2021"
     eol: 2025-11-10
@@ -29,7 +29,7 @@ releases:
 
 ---
 
-> [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) is java-based commercial web application server and development platform from Adobe.
+> [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) is Java-based commercial web application server and development platform from Adobe.
 
 ColdFusion's lifecycle is typically 5 years after release, with new releases usually about every two years. Adobe has a [Support Lifecycle Policy](https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html) page as well.
 

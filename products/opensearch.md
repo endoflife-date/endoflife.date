@@ -14,23 +14,45 @@ releases:
 -   releaseCycle: "2"
     eol: false
     releaseDate: 2022-05-18
-    latest: "2.3.0"
-    latestReleaseDate: 2022-09-08
+    latest: "2.4.1"
+    latestReleaseDate: 2022-12-02
 -   releaseCycle: "1"
     eol: 2023-12-31
     releaseDate: 2021-07-02
-    latest: "1.3.6"
-    latestReleaseDate: 2022-09-30
+    latest: "1.3.7"
+    latestReleaseDate: 2022-12-06
 
 ---
 
-> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest, search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics, data observability, data ingestion, and more.
+> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest,
+> search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics,
+> data observability, data ingestion, and more.
+
+## Official Release schedule
+
+Find below the next releases after `2.4.0` : 
+
+- [`2.4.0`](https://opensearch.org/blog/opensearch-2-4-is-available-today/) released on `2022-11-15`
+- `2.5.0` is planned for `2023-01-17`
+- `2.6.0` is planned for `2023-02-28`
+- `2.7.0` is planned for `2023-04-18`
+- `2.8.0` is planned for `2023-06-06`
+- `2.9.0` is planned for `2023-07-18``
+
+For more information on the changes planned for each release, see:
+
+- [Official Release Schedule](https://opensearch.org/releases.html)
+- [Project Roadmap](https://github.com/orgs/opensearch-project/projects/1).
+- [Maintenance Policy](https://opensearch.org/releases.html#maintenance-policy)
 
 ## Versioning
 
-OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version for that major release. When new major versions are released the previous major version enters a maintenance window – during the maintenance window, the software will continue to receive bug fixes and security patches, but no new features.
+OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version
+for that major release. When new major versions are released the previous major version enters maintenance, with only
+bug fixes and security patches.
 
-The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance until the next major version enters maintenance, or 1 year passes, whichever is longer.
+The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance
+until the next major version enters maintenance, or 1 year passes, whichever is longer.
 
 ## Elasticsearch Compatibility
 

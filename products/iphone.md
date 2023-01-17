@@ -1,11 +1,9 @@
 ---
 permalink: /iphone
-alternate_urls:
--   /ios
-title: iPhone
+title: Apple iPhone
 category: device
 iconSlug: apple
-releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_devices#In_production_and_supported
+releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_and_iPadOS_devices#In_production_and_supported
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
@@ -76,17 +74,20 @@ releases:
     discontinued: 2018-09-12
     eol: false
     releaseDate: 2017-09-12
+# iOS 15.7.2 was released on 13th Dec 2022
+# exclusively for 7/7+/SE1/6S/6S+
+# so these are marked as not yet dead devices.
 -   releaseCycle: "iPhone 7 / 7 Plus"
     discontinued: 2019-09-10
-    eol: 2022-09-12
+    eol: false
     releaseDate: 2016-09-16
 -   releaseCycle: "iPhone SE (1st generation)"
     discontinued: 2018-09-12
-    eol: 2022-09-12
+    eol: false
     releaseDate: 2016-03-31
 -   releaseCycle: "iPhone 6S / 6S Plus"
     discontinued: 2018-09-12
-    eol: 2022-09-12
+    eol: false
     releaseDate: 2015-09-25
 -   releaseCycle: "iPhone 6 / 6 Plus"
     discontinued: 2016-09-07

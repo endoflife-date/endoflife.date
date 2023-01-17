@@ -1,7 +1,8 @@
 ---
 title: PHP
-permalink: /php
 category: lang
+iconSlug: php
+permalink: /php
 releasePolicyLink: https://www.php.net/supported-versions.php
 changelogTemplate: |
   https://www.php.net/ChangeLog-{{ "__LATEST__" | split: "." | first }}.php#__LATEST__
@@ -12,17 +13,23 @@ auto:
 versionCommand: php --version
 releaseDateColumn: true
 releases:
+-   releaseCycle: "8.2"
+    support: 2024-12-08
+    eol: 2025-12-08
+    latest: "8.2.1"
+    latestReleaseDate: 2023-01-03
+    releaseDate: 2022-12-06
 -   releaseCycle: "8.1"
     support: 2023-11-25
     eol: 2024-11-25
-    latest: "8.1.12"
-    latestReleaseDate: 2022-10-25
+    latest: "8.1.14"
+    latestReleaseDate: 2023-01-04
     releaseDate: 2021-11-23
 -   releaseCycle: "8.0"
     support: 2022-11-26
     eol: 2023-11-26
-    latest: "8.0.25"
-    latestReleaseDate: 2022-10-25
+    latest: "8.0.27"
+    latestReleaseDate: 2023-01-03
     releaseDate: 2020-11-24
 -   releaseCycle: "7.4"
     support: 2021-11-28
@@ -103,4 +110,4 @@ releases:
 
 Each release branch of PHP is fully supported for two years from its initial stable release. During this period, bugs and security issues that have been reported are fixed and are released in regular point releases.
 
-After this two year period of active support, each branch is then supported for an additional year for critical security issues only. Releases during this period are made on an as-needed basis: there may be multiple point releases, or none, depending on the number of reports.
+After this two-year period of active support, each branch is then supported for an additional year for critical security issues only. Releases during this period are made on an as-needed basis: there may be multiple point releases, or none, depending on the number of reports.

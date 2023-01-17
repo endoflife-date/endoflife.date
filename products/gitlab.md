@@ -13,24 +13,40 @@ auto:
   # Reference: https://rubular.com/r/mFfxB8FgXXERX4
 -   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
     git: https://gitlab.com/gitlab-org/gitlab.git
+# EOL of R = releaseDate(R+3)
+# Support of R = releaseDate(R+1)
+# Since releases are monthly (22nd of every month)
+# This is quite predictable.
 releases:
+-   releaseCycle: "15.7"
+    support: 2023-01-22
+    eol: 2023-03-22
+    latest: "15.7.3"
+    latestReleaseDate: 2023-01-11
+    releaseDate: 2022-12-21
+-   releaseCycle: "15.6"
+    support: 2022-12-22
+    eol: 2023-02-22
+    latest: "15.6.4"
+    latestReleaseDate: 2023-01-09
+    releaseDate: 2022-11-21
 -   releaseCycle: "15.5"
     support: 2022-11-22
     eol: 2023-01-22
-    latest: "15.5.1"
-    latestReleaseDate: 2022-10-24
+    latest: "15.5.7"
+    latestReleaseDate: 2023-01-09
     releaseDate: 2022-10-21
 -   releaseCycle: "15.4"
     support: 2022-10-22
     eol: 2022-12-22
-    latest: "15.4.3"
-    latestReleaseDate: 2022-10-19
+    latest: "15.4.6"
+    latestReleaseDate: 2022-11-30
     releaseDate: 2022-09-21
 -   releaseCycle: "15.3"
     support: 2022-09-22
     eol: 2022-11-22
-    latest: "15.3.4"
-    latestReleaseDate: 2022-09-29
+    latest: "15.3.5"
+    latestReleaseDate: 2022-11-02
     releaseDate: 2022-08-19
 -   releaseCycle: "15.2"
     support: 2022-08-22
@@ -132,7 +148,6 @@ releases:
     support: 2021-04-22
     eol: 2021-06-22
     latest: "13.10.5"
-
     latestReleaseDate: 2021-06-01
     releaseDate: 2021-03-18
 
@@ -140,7 +155,9 @@ releases:
 
 > [GitLab](https://about.gitlab.com/) is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
-GitLab has a well [defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/) and you can subscribe to a [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
+GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html) based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/), and you can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features) to track new features since a given version.
+  
+Only the latest release is actively maintained. The previous two minor (monthly) releases get security fixes. Critical bug fixes can rarely be backported based on [a set criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
 
 | Version Type | Description  | Cadence |
 |:-------------|:-------------|:--------|

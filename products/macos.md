@@ -1,36 +1,46 @@
 ---
-title: macOS
+title: Apple macOS
+category: os
+iconSlug: macos
+permalink: /macos
 alternate_urls:
 -   /mac
-category: os
+releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
+activeSupportColumn: false
+releaseColumn: true
+releaseDateColumn: true
+eolColumn: Service Status
+versionCommand: sw_vers
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
+
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
 # Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/apple.py
 auto:
 -   custom: true
+
 releases:
 -   releaseCycle: "13"
     codename: "Ventura"
     eol: false
     link: https://support.apple.com/HT213268
     releaseDate: 2022-10-24
-    latestReleaseDate: 2022-10-24
-    latest: '13.0'
+    latestReleaseDate: 2022-12-13
+    latest: '13.1'
 -   releaseCycle: "12"
     codename: "Monterey"
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2022-10-24
-    latest: '12.6.1'
+    latestReleaseDate: 2022-12-13
+    latest: '12.6.2'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2022-10-24
-    latest: '11.7.1'
+    latestReleaseDate: 2022-12-13
+    latest: '11.7.2'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12
@@ -77,17 +87,10 @@ releases:
     releaseDate: 2013-10-22
     latestReleaseDate: 2014-09-17
     latest: '10.9.5'
-permalink: /macos
-releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
-activeSupportColumn: false
-releaseColumn: true
-releaseDateColumn: true
-eolColumn: Service Status
-versionCommand: sw_vers
 
 ---
 
 >[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
-Major versions of macOS are released once a year now, and usually maintained for three years. Apple usually provides security updates for the latest 3 releases, but this isn't consistenly applied and some security fixes aren't available for the non-latest releases.
-.
+Major versions of macOS are released once a year now, and usually maintained for three years. Apple usually provides security updates for the latest 3 releases, but this isn't consistently applied and some security fixes aren't available for the non-latest releases.
+

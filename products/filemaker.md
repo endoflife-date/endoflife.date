@@ -1,13 +1,12 @@
 ---
-title: FileMaker
+title: FileMaker Platform
 category: app
 permalink: /filemaker
 releasePolicyLink: https://www.filemaker.com/support/product-availability.html
-iconSlug: "NA"
 activeSupportColumn: false
 releaseColumn: false
 eolColumn: Support Status
-releaseLabel: 'FileMaker Platform __RELEASE_CYCLE__'
+
 releases:
 -   releaseCycle: "19"
     eol: false
@@ -50,6 +49,8 @@ releases:
     releaseDate: 2004-03-01
 
 ---
+
+> FileMaker Platform is a cross-platform relational database application from Claris International.
 
 FileMaker has recently adopted a yearly release cycle, in May. Previously there was an 18-month release cycle.
 

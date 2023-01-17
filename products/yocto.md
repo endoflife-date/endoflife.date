@@ -13,18 +13,24 @@ discontinuedColumn: false
 versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
-iconSlug: NA
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+-   releaseCycle: "4.1"
+    codename: 'Langdale'
+    latest: "4.1.1"
+    eol: 2023-05-27
+    releaseDate: 2022-10-25
+
 -   releaseCycle: "4.0"
     codename: 'Kirkstone'
     lts: true
-    latest: "4.0"
+    latest: "4.0.5"
     eol: 2024-04-27
     releaseDate: 2022-04-27
+
 -   releaseCycle: "3.4"
     codename: 'Honister'
-    latest: "3.4.3"
+    latest: "3.4.4"
     eol: 2022-05-01
     releaseDate: 2021-10-25
 
@@ -43,7 +49,7 @@ releases:
 -   releaseCycle: "3.1"
     codename: 'Dunfell'
     lts: true
-    latest: "3.1.15"
+    latest: "3.1.20"
     eol: 2024-04-01
     releaseDate: 2020-04-01
 

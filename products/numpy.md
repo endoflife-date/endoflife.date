@@ -1,22 +1,30 @@
 ---
 title: NumPy
-permalink: /numpy
 category: framework
+iconSlug: numpy
+permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
+changelogTemplate: https://numpy.org/doc/stable/release/__LATEST__-notes.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
 releaseDateColumn: true
 auto:
 -   pypi: numpy
 
-# EOL(R) = releaseDate(R)+1yr,1day
+# EOL(R) = releaseDate(R)+2yr+1day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+-   releaseCycle: "1.24"
+    releaseDate: 2022-12-18
+    latest: "1.24.1"
+    eol: 2024-12-19
+
+    latestReleaseDate: 2022-12-26
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-22
-    latest: "1.23.4"
+    latest: "1.23.5"
     eol: 2024-06-24
 
-    latestReleaseDate: 2022-10-12
+    latestReleaseDate: 2022-11-20
 -   releaseCycle: "1.22"
     eol: 2024-01-01
     releaseDate: 2021-12-31
@@ -85,9 +93,10 @@ All minor versions of Python released 42 months prior, and at minimum the two la
 
 NumPy | Python
 ------|-------
-1.20  | 3.7+
-1.21  | 3.7+
-1.22  | 3.8+
+1.24  | 3.8+
 1.23  | 3.8+
+1.22  | 3.8+
+1.21  | 3.7+
+1.20  | 3.7+
 
 NumPy stopped supporting Python 3.7 from Dec 26, 2021. Any older releases (1.20, 1.21) still support Python 3.7. Releases made after that only support Python 3.8 and above.

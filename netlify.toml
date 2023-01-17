@@ -1,15 +1,14 @@
 [build]
   command = """
-  rake gke
-  bundle exec jekyll build
+  ./_auto/deploy.sh
   """
   publish = "_site/"
 
 [context.deploy-preview]
   command = """
-  rake gke
-  printf "url: %s" "$DEPLOY_PRIME_URL" > _config_netlify.yml
-  bundle exec jekyll build --config _config.yml,_config_netlify.yml
+  # Replace the Deploy URL with the Preview URL
+  sed -i "/url\:/curl\: $DEPLOY_PRIME_URL" _config.yml
+  ./_auto/deploy.sh
   """
 
 [[plugins]]

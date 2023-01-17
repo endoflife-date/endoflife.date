@@ -8,8 +8,7 @@ releaseDateColumn: true
 versionCommand: ./unrealircd version
 changelogTemplate: https://github.com/unrealircd/unrealircd/blob/unreal{{"__LATEST__"|split:'.'|slice:0,2|join:''}}/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'
   | replace:'.',''}}
-iconSlug: NA
-purls:
+identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
 # Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
@@ -24,8 +23,8 @@ releases:
     link: https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-604
     support: true
     eol: false
-    latest: "6.0.4"
-    latestReleaseDate: 2022-06-17
+    latest: "6.0.5"
+    latestReleaseDate: 2022-12-29
     releaseDate: 2021-12-17
 -   releaseCycle: "5"
     support: 2022-07-01

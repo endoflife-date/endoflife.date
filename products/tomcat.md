@@ -16,26 +16,32 @@ releases:
     eol: false
     link: https://tomcat.apache.org/tomcat-10.1-doc/
     releaseDate: 2022-09-23
-    latestReleaseDate: 2022-10-03
-    latest: "10.1.1"
+    latestReleaseDate: 2023-01-09
+    latest: "10.1.5"
 -   releaseCycle: "10.0"
-    eol: false
+    eol: 2022-10-31
     latest: "10.0.27"
     link: https://tomcat.apache.org/download-10.cgi
     releaseDate: 2020-12-03
     latestReleaseDate: 2022-10-03
 -   releaseCycle: "9"
     eol: false
-    latest: "9.0.68"
+    latest: "9.0.71"
     link: https://tomcat.apache.org/download-90.cgi
-    releaseDate: 2015-11-13
-    latestReleaseDate: 2022-10-03
--   releaseCycle: "8"
-    eol: false
-    latest: "8.5.83"
+    releaseDate: 2017-09-27
+    latestReleaseDate: 2023-01-09
+-   releaseCycle: "8.5"
+    eol: 2024-03-31
+    latest: "8.5.84"
+    link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
+    releaseDate: 2016-03-17
+    latestReleaseDate: 2022-11-16
+-   releaseCycle: "8.0"
+    eol: 2018-06-30
+    latest: "8.0.53"
     link: https://tomcat.apache.org/download-80.cgi
-    releaseDate: 2013-08-01
-    latestReleaseDate: 2022-10-03
+    releaseDate: 2014-01-29
+    latestReleaseDate: 2018-06-29
 -   releaseCycle: "7"
     eol: 2021-03-31
     latest: "7.0.109"
@@ -49,7 +55,7 @@ releases:
     eol: 2012-09-30
     latest: "5.5.36"
     releaseDate: 2003-09-06
-purls:
+identifiers:
 -   repology: tomcat
 -   purl: pkg:maven/org.apache.tomcat/tomcat
 
@@ -63,7 +69,7 @@ Initial releases of a new major version typically process from Alpha, through Be
 
 ## Lifecycle
 
-Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly an year in advance.
+Prior major releases have been supported for approximately 10 years. When a release is sunset and moved to End-of-life status, a notice is provided roughly a year in advance.
 
 Generally 3 major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as stable Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
 

@@ -1,7 +1,8 @@
 ---
 title: Laravel
-permalink: /laravel
 category: framework
+iconSlug: laravel
+permalink: /laravel
 releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
@@ -9,7 +10,7 @@ versionCommand: composer show laravel/framework|grep versions
 releaseDateColumn: true
 auto:
 -   git: https://github.com/laravel/framework.git
-purls:
+identifiers:
 -   purl: pkg:composer/laravel/laravel
 -   repology: php:laravel-framework
 -   purl: pkg:docker/bitnami/laravel
@@ -18,16 +19,16 @@ releases:
 -   releaseCycle: "9"
     support: 2023-08-08
     eol: 2024-02-08
-    latest: '9.38.0'
+    latest: '9.47.0'
     lts: false
-    latestReleaseDate: 2022-11-01
+    latestReleaseDate: 2023-01-10
     releaseDate: 2022-02-08
 -   releaseCycle: "8"
     support: 2022-07-26
     eol: 2023-01-24
-    latest: '8.83.26'
+    latest: '8.83.27'
     lts: false
-    latestReleaseDate: 2022-11-01
+    latestReleaseDate: 2022-12-08
     releaseDate: 2020-09-08
 -   releaseCycle: "7"
     support: 2020-10-06
@@ -70,5 +71,5 @@ Version | PHP
 6 (LTS) | 7.2 - 8.0
 7       | 7.2 - 8.0
 8       | 7.3 - 8.1
-9       | 8.0 - 8.1
-10      | 8.1
+9       | 8.0 - 8.2
+10      | 8.1 - 8.2

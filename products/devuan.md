@@ -8,8 +8,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-iconSlug: NA
-purls:
+identifiers:
 -   purl: pkg:os/devuan
 auto:
 -   distrowatch: devuan
@@ -18,7 +17,7 @@ releases:
 -   releaseCycle: "4"
     codename: "Chimaera"
     eol: 2026-08-15
-    latest: "4.0"
+    latest: "4.0.0"
     lts: 2024-07-01
     link: https://www.devuan.org/os/announce/chimaera-release-announce-2021-10-14
     releaseDate: 2021-10-14
@@ -58,4 +57,4 @@ releases:
 
 At any given time, there is one stable release of Devuan, where package versions stay relatively static, only receiving security patches.  Changes beyond security patches such as package version bumps often occur at point releases.  Devuan makes stable releases when they are ready, not on a fixed schedule.  This roughly follows the [Debian](/debian) release cadence.  When a new stable version is released, the previous stable versions continue to [maintained](https://www.devuan.org/os/releases) until those releases are [archived](https://www.devuan.org/os/releases#archive).
 
-With source code for updates often being pulled from the [Debian Long Term Support (LTS) project](https://wiki.debian.org/LTS), stable releases are often supported for [3 years of active support and an additional 2 years of security patches](https://www.debian.org/releases/). [Only a limited number](https://wiki.debian.org/LTS) of software packages are supported for the final 2 year LTS period (of the approximately 5 year support lifecycle) with security patches.
+With source code for updates often being pulled from the [Debian Long Term Support (LTS) project](https://wiki.debian.org/LTS), stable releases are often supported for [3 years of active support and an additional 2 years of security patches](https://www.debian.org/releases/). [Only a limited number](https://wiki.debian.org/LTS) of software packages are supported for the final 2-year LTS period (of the approximately 5 year support lifecycle) with security patches.

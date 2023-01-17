@@ -6,7 +6,6 @@
 - [Build](#build)
 - [File and Directory structure](#file-and-directory-structure)
 - [Automation](#automation)
-  - [GKE](#gke)
 - [API](#api)
   - [API Documentation](#api-documentation)
 - [Contributing Workflow](#contributing-workflow)
@@ -22,7 +21,7 @@ endoflife.date uses [Jekyll](https://jekyllrb.com/), the static website generato
 
 First, you will need to install Ruby and Bundler. Follow [these instructions](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby, and then run the following commands:
 
-```
+```sh
 # Install bundler
 gem install bundler
 
@@ -43,7 +42,7 @@ bundle exec jekyll --version
 
 Run the site locally:
 
-```bash
+```sh
 $ bundle exec jekyll serve --host localhost --port 4000
 ```
 
@@ -62,21 +61,43 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
   - `_plugins` holds scripts invoked by the Jekyll build code
   - `_config.yml` holds the Jekyll configuration, including list of plugins, exclude/include filelist, theme configuration, and plugin settings.
   - `Gemfile` and `Gemfile.lock` are package files for bundler.
-- `_headers` holds the template for generating a list of custom HTTP headers, in the Netlify Headers Format. A rendered version (might be dated) of the file can be seen [here](http://hastebin.com/fajomitewu.yaml).
-- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a rendered version [here](http://hastebin.com/gihahuguvu.http).
+- `_headers` holds the template for generating a list of custom HTTP headers, in the Netlify Headers Format. A rendered version (might be dated) of the file can be seen [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_headers).
+- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a rendered version [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_redirects).
 - `Rakefile` configures the entrypoint for our automation scripts.
 - [`robots.txt`](https://en.wikipedia.org/wiki/Robots.txt) is for web scraping robots.
 - [`humans.txt`](https://endoflife.date/humans.txt) holds details about the people and tech behind the project.
+
+## Extending the Jekyll theme
+
+The site is based on the [Just the Docs](https://github.com/just-the-docs/just-the-docs) Jekyll theme. Take a look at
+[the documentation](https://just-the-docs.github.io/just-the-docs/) for knowing more about its configuration (beware,
+this configuration is for the current `main` branch, not for the version used by this site).
+
+If you need to override some parts, take a look at [the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/)
+of the documentation.
+
+
+## Logo
+
+The [site logo](/assets/logo.svg) is an adaptation of [An hourglass in a round icon](https://commons.wikimedia.org/wiki/File:Hourglass_icon_%28orange%29.svg)
+by David Abián and Serhio Magpie. The logo is representing the concepts of time (with the hourglass)
+and EOL/cycles (with the colored split circle).
+
+Derived icons for various usages, such as [the web app manifest](/manifest.json) were generated
+using [RealFaviconGenerator.net](https://realfavicongenerator.net/).
+
+All icons were placed in the [`assets`](/assets) directory, except [`favicon.ico`](/favicon.ico).
+The _Just the Docs_ Jekyll theme mandates its path to `/favicon.ico`, and it seems a lot of browsers
+[assume this location anyway](https://stackoverflow.com/a/21359390/374236).
+
+Note that `android-chrome-*.png` icons were renamed to `logo-*.png`. Those icons are used in other
+contexts, such as on the site as a logo.
 
 ## Automation
 
 Automation is currently focused towards fetching the latest releases for a given release cycle. Scripts for this are in the `_auto` directory, and run using `Rakefile`.
 
 All scripts should have fallback data in some form.
-
-### GKE
-
-The GKE data is fetched at build-time via GKE APIs by calling `rake gke`.
 
 ## API
 
@@ -115,4 +136,4 @@ The endoflife.date project runs a bit of automation on top of GitHub Actions to 
 
 ## Bulk Updates
 
-To faciliate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.
+To facilitate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.

@@ -6,7 +6,6 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
 activeSupportColumn: true
 releaseDateColumn: true
-iconSlug: NA
 changelogTemplate: https://euro-linux.com/eurolinux/technical-specifications/
 auto:
 -   distrowatch: eurolinux
@@ -16,14 +15,14 @@ releases:
     releaseDate: 2022-06-14
     support: 2032-05-31
     eol: 2032-06-30
-    latest: "9.0"
-    latestReleaseDate: 2022-06-14
+    latest: "9.1"
+    latestReleaseDate: 2022-11-30
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
     support: 2029-03-01
     eol: 2029-06-30
-    latest: "8.6"
-    latestReleaseDate: 2022-05-12
+    latest: "8.7"
+    latestReleaseDate: 2022-11-15
 -   releaseCycle: "7"
     releaseDate: 2020-11-25
     support: 2024-07-31
@@ -41,6 +40,6 @@ releases:
 
 > [EuroLinux](https://euro-linux.com) is a Polish Enterprise Linux distribution that has been in development since 2013. EuroLinux guarantees its compatibility with RHEL and CentOS. It is available in two versions: paid and free, with the paid version providing additional technical support cover.
 
-EuroLinux releases regular updates within 1 business day from RHEL. Each release, like RHEL, comes with a 10 year lifecycle.
+EuroLinux releases regular updates within 1 business day from RHEL. Each release, like RHEL, comes with a 10-year lifecycle.
 
 The table above showcases Standard Support dates. EuroLinux 6 paid Extended Support ends at July 31, 2024

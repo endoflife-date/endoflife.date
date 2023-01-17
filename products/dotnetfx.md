@@ -5,7 +5,7 @@ alternative_urls:
 -   /dotnetframework
 iconSlug: dotnet
 category: framework
-title: .NET Framework
+title: Microsoft .NET Framework
 versionCommand: reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s
 releasePolicyLink: https://dotnet.microsoft.com/download/dotnet-framework
 releaseColumn: false
@@ -29,7 +29,7 @@ releases:
     eol: false
     releaseDate: 2017-04-05
 -   releaseCycle: "4.6.2"
-    eol: false
+    eol: 2027-01-12
     releaseDate: 2016-08-02
 -   releaseCycle: "4.6.1"
     eol: 2022-04-26

@@ -15,12 +15,19 @@ eolColumn: Critical bug fixes
 category: app
 activeSupportColumn: true
 releases:
+-   releaseCycle: "3.4"
+    eol: 2023-03-07
+    support: 2023-03-07
+    latest: "3.4.1"
+    lts: false
+    latestReleaseDate: 2022-12-20
+    releaseDate: 2022-12-07
 -   releaseCycle: "3.3"
     eol: 2024-09-01
     support: 2024-09-01
-    latest: "3.3.1"
+    latest: "3.3.2"
     lts: true
-    latestReleaseDate: 2022-10-05
+    latestReleaseDate: 2022-12-07
     releaseDate: 2022-09-07
 -   releaseCycle: "3.2"
     eol: 2022-09-07
@@ -46,9 +53,9 @@ releases:
 -   releaseCycle: "2.93"
     eol: 2023-06-01
     support: 2023-06-01
-    latest: "2.93.11"
+    latest: "2.93.13"
     lts: true
-    latestReleaseDate: 2022-10-05
+    latestReleaseDate: 2022-12-21
     releaseDate: 2021-06-02
 -   releaseCycle: "2.83"
     eol: 2022-06-01
@@ -60,9 +67,9 @@ releases:
 
 ---
 
-> [Blender](https://blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
+> [Blender](https://www.blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
 
-With the release of Blender 2.83, Blender Foundation will start a LTS (Long Term Support) pilot program. The program is aimed at ensuring that long-lasting projects can be executed using a stable Blender version, which will provide critical fixes throughout a 2-year time span. 
+With the release of Blender 2.83, Blender Foundation will start a LTS (Long Term Support) pilot program. The program is aimed at ensuring that long-lasting projects can be executed using a stable Blender version, which will provide critical fixes throughout a 2-year time span.
 
 Currently, for non-LTS releases, Blender only has a corrective release if severity 1 issues (high priority bugs) are found. When the corrective release is agreed on, however, severity 2 (high priority and normal bugs) fixes are ported along.
 

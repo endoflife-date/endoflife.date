@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.iconUrl %}
+<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="{{page.iconUrl}}" >
+{% endif %}
+
+<div class="description">{{content | extract_element:'blockquote' | first }}</div>
+
 {% if page.releaseImage %}
 <img alt="Release Schedule Image Gantt Chart for {{page.title}}" src="{{page.releaseImage}}" />
 {% endif %}
@@ -23,7 +29,18 @@ layout: default
           {%endif%}
         </th>
       {% endif %}
+      {% if page.eolColumn != false %}
       <th>{{ page.eolColumn | default: "Security Support" }}</th>
+      {% endif %}
+      {% if page.extendedSupportColumn%}
+      <th>
+        {% if page.extendedSupportColumn == true %}
+        Extended Support
+        {%else%}
+        {{page.extendedSupportColumn}}
+        {%endif%}
+      </th>
+      {% endif %}
       {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
     </tr>
   </thead>
@@ -31,6 +48,7 @@ layout: default
 {% for r in page.releases %}
 {% assign support =r.support | date: '%s' | plus:0 %}
 {% assign securityFixes = r.eol | date: '%s' | plus:0 %}
+{% assign extendedSupport = r.extendedSupport | date: '%s' | plus:0 %}
 
 
 {% comment %}
@@ -50,62 +68,34 @@ or +1 (EoL is in the future)
 {% endif %}
 
 {% assign diffSupport = support | minus:now %}
+{% assign diffExtendedSupport = extendedSupport | minus:now %}
 {% assign diffSecurity6  = diff | minus:10651938 %}
 {% assign diffSupport6  = diffSupport | minus:10651938 %}
-{% assign latestVersionNumber = r.latest | liquify %}
-{% assign LTSLabel = page.LTSLabel | default: '<abbr title="Long Term Support">LTS</abbr>' %}
-
-{% if r.releaseLabel %}{% assign t=r.releaseLabel%}{%else%}{%assign t=page.releaseLabel | default: '__RELEASE_CYCLE__' %}{%endif%}
-{% capture releaseCycleText %}{{
-  t |
-  replace: '__RELEASE_CYCLE__',r.releaseCycle  |
-  replace: '__LATEST__',latestVersionNumber |
-  replace: '__CODENAME__',r.codename |
-  liquify
-}}{% include ltslabel.html lts=r.lts label=LTSLabel %}{% endcapture %}
-
-{% capture releaseLink %}
-{% if r.link and diff > 0 %}
-{{r.link}}
-{% elsif page.changelogTemplate and diff > 0 %}
-{{
-  page.changelogTemplate |
-  replace: '__RELEASE_CYCLE__',r.releaseCycle |
-  replace: '__LATEST__',latestVersionNumber |
-  replace: '__CODENAME__',r.codename |
-  replace: '__LATEST_RELEASE_DATE__', r.latestReleaseDate
-}}
-{% endif %}
-{% endcapture %}
-{% assign releaseLink = releaseLink | liquify | strip %}
+{% assign diffExtendedSupport6  = diffExtendedSupport | minus:10651938 %}
 
 <!-- Main Row starts here -->
 <tr>
   <td>
     {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-    {% if releaseLink != "" and page.releaseColumn == false %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog for {{releaseCycleText | strip_html}}">{{releaseCycleText}}</a>
+    {% if r.link and diff > 0 and page.releaseColumn == false %}
+      <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
     {% else %}
-      {{releaseCycleText}}
+      {{ r.label }}
     {% endif %}
   </td>
 
   {% if page.releaseDateColumn %}
-  <td>
-    {{r.releaseDate | timeago}} <div>({{r.releaseDate | date_to_string}})</div>
-  </td>
+  <td>{{ r.releaseDate | timeago }} <div>({{ r.releaseDate | date_to_string }})</div></td>
   {% endif %}
 
   {% if page.discontinuedColumn %}
   <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
-    {% if r.discontinued %}
-      {% if r.discontinued == true%}
-        Discontinued
-      {% else %}
-        {{r.discontinued | timeago}} <div>({{r.discontinued | date_to_string}})</div>
-      {% endif %}
+    {% if r.discontinued  == true %}
+    Discontinued
+    {% elsif r.discontinued  == false %}
+    In Production
     {% else %}
-      In Production
+    {{ r.discontinued | timeago }} <div>({{ r.discontinued | date_to_string }})</div>
     {% endif %}
   </td>
   {% endif %}
@@ -145,6 +135,7 @@ or +1 (EoL is in the future)
     </td>
   {% endif %}
 
+  {% if page.eolColumn != false %}
   <td class=
     {% if securityFixes > 5 %}
       {% if diff < 0 %}
@@ -178,13 +169,52 @@ or +1 (EoL is in the future)
       {% endif %}
     {% endif %}
   </td>
+  {% endif %}
+
+  {% if page.extendedSupportColumn %}
+  <td class=
+        {% if extendedSupport > 5 %}
+    {% if diffExtendedSupport < 0 and r.extendedSupport != false %}
+    "bg-red-000"
+    {% elsif diffExtendedSupport6 > 0 %}
+    "bg-green-000"
+    {% else %}
+    "bg-yellow-200"
+    {% endif %}
+    {% else %}
+    {% if r.extendedSupport %}
+    "bg-green-000"
+    {% else %}
+    "bg-grey-lt-100"
+    {% endif %}
+    {% endif %}
+    title="{{r.extendedSupport}}">
+    {% if extendedSupport > 5 %}
+    {% if diffExtendedSupport < 0 %}
+    Ended
+    {% else %}
+    Ends
+    {% endif %}
+    {{r.extendedSupport | timeago}} <div>({{r.extendedSupport | date_to_string}})</div>
+    {% else %}
+    {% if r.extendedSupport %}
+    Yes
+    {% else %}
+    Unavailable
+    {% endif %}
+    {% endif %}
+  </td>
+  {% endif %}
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
-    {% if releaseLink != "" %}
-      <a href="{{releaseLink}}" title="Release Notes / Changelog">{{latestVersionNumber}}</a>
+    {% if r.link != "" and diff > 0 %}
+      <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
     {% else %}
-      {{latestVersionNumber}}
+      {{ r.latest }}
+    {% endif %}
+    {% if diff > 0 and r.latestReleaseDate %}
+    <div>({{ r.latestReleaseDate | date_to_string }})</div>
     {% endif %}
   </td>
   {% endif %}
@@ -192,13 +222,9 @@ or +1 (EoL is in the future)
 {% endfor %}
 </table>
 
-{% if page.iconSlug and page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons/{{page.iconSlug}}.svg" >
-{% elsif page.iconSlug != "NA" %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="https://simpleicons.org/icons{{page.permalink}}.svg" >
-{% endif %}
-
-<div class="maincontent">{{content}}</div>
+<div class="policytext">
+  {{content | remove_first_element:'blockquote'}}
+</div>
 {% if page.releasePolicyLink and page.releasePolicyLink != "" %}
 <p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>. </p>
 {% endif %}
@@ -211,8 +237,17 @@ or +1 (EoL is in the future)
 
 <p>You can submit an improvement to this page
 <a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{page.path}}"
-title="Click the Pencil, the link takes you directly to the correct page">on GitHub :octocat: </a>. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
+title="Click the Pencil, the link takes you directly to the correct page">on GitHub</a>
+<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
+. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
 
-<p>A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>. See the <a href="/docs/api/">API Documentation</a> for more.</p>
+<p>
+  A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>.
+  See the <a href="/docs/api/">API Documentation</a> for more information.
+  You can subscribe to the iCalendar feed at <a href="webcal://{{site.url | split: '://' | last}}/calendar{{page.permalink}}.ics">/calendar{{page.permalink}}.ics</a>.
+</p>
 
-{%if page.auto %}Latest releases on this page are automatically updated{% endif %}
+<p>
+This page was last updated on {{ page.last_modified_at | date_to_long_string }}.
+{%if page.auto %}Latest releases are automatically updated.{% endif %}
+</p>

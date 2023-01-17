@@ -13,6 +13,11 @@ releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+-   releaseCycle: "22.11"
+    codename: "Raccoon"
+    latest: "22.11"
+    eol: 2023-06-30
+    releaseDate: 2022-11-30
 -   releaseCycle: "22.05"
     codename: "Quokka"
     latest: "22.05"

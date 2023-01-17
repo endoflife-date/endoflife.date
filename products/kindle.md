@@ -62,6 +62,8 @@ releases:
     latest: "5.12.2.2"
     releaseDate: 2013-09-30
 permalink: /kindle
+alternate_urls:
+-   /amazon-kindle
 releasePolicyLink: https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW
 activeSupportColumn: false
 releaseColumn: true
@@ -74,6 +76,6 @@ eolColumn: Service Status
 
 For more information on the latest software release notes visit: [Kindle E-Reader Software Updates](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW).
 
-Kindles are guaranted four years of security updates from when the device was last sold on Amazon.com. For more information visit the [Kindle Device Software Security Updates webpage](https://www.amazon.com/gp/help/customer/display.html?nodeId=GF3LDHSB5YM9BYF7).
+Kindles are guaranteed four years of security updates from when the device was last sold on Amazon.com. For more information visit the [Kindle Device Software Security Updates webpage](https://www.amazon.com/gp/help/customer/display.html?nodeId=GF3LDHSB5YM9BYF7).
 
 The older version of release notes are not available on the Amazon website. The changelog is still available in the device by following the `Settings -> Device Info -> What's New` menu.

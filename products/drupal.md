@@ -1,17 +1,17 @@
 ---
 title: Drupal
+category: server-app
+iconSlug: drupal
 permalink: /drupal
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-category: server-app
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 versionCommand: drush status
-releaseImage: https://www.drupal.org/files/2019_minor_release_schedule.png
 auto:
 -   git: https://github.com/drupal/core.git
-purls:
+identifiers:
 -   purl: pkg:composer/drupal/core
 -   repology: php:drupal
 -   purl: pkg:docker/bitnami/drupal
@@ -19,11 +19,23 @@ purls:
 -   purl: pkg:docker/bitnami/drupal-nginx
 -   purl: pkg:github/drupal/core
 releases:
+-   releaseCycle: "10.0"
+    support: 2023-06-21
+    eol: 2023-12-13
+    latest: "10.0.1"
+    latestReleaseDate: 2023-01-04
+    releaseDate: 2022-12-15
+-   releaseCycle: "9.5"
+    support: 2023-06-21
+    eol: 2023-11-01
+    latest: "9.5.1"
+    latestReleaseDate: 2023-01-04
+    releaseDate: 2022-12-15
 -   releaseCycle: "9.4"
     support: 2022-12-14
     eol: 2023-06-21
-    latest: "9.4.8"
-    latestReleaseDate: 2022-10-06
+    latest: "9.4.9"
+    latestReleaseDate: 2022-12-07
     releaseDate: 2022-06-15
 -   releaseCycle: "9.3"
     support: 2022-06-15
@@ -75,16 +87,4 @@ releases:
 
 Releases are fully supported for 2 minor versions from initial stable release. During this period, bugs and security issues that have been reported are fixed and are released during the [release windows on the first and third Wednesdays of each month](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#windows) (US time). The final minor release in major release cycle is a long-term support (LTS) release and has extended security coverage.
 
-**Drupal 9.4** will receive security coverage until June 21, 2023 when Drupal 10.1.0 is [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#next).
-
-**Drupal 9.3** will receive security coverage until December 14, 2022 when Drupal 9.5.0 and 10.0.0 are [released](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current).
-
-**Drupal 9.2** received security coverage until June 15, 2022 when Drupal 9.4.0 was released.
-
-**Drupal 9.1** received security coverage until December 8, 2021 when Drupal 9.3.0 was released.
-
-**Drupal 9.0** received security coverage until June 16, 2021 when Drupal 9.2.0 was released.
-
-**Drupal 8.x** [is EOL](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-8-eol).
-
-**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es)
+**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol) and [limited vendor extended support](https://www.drupal.org/project/d7es). A decision to extend this further will be taken by July 2023.

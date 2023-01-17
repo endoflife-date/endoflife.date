@@ -19,15 +19,15 @@ releases:
     releaseDate: 2022-07-06
     support: 2032-07-01
     eol: 2034-06-01
-    latest: "9.0"
+    latest: "9.1"
 
-    latestReleaseDate: 2022-07-06
+    latestReleaseDate: 2022-11-30
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
     support: 2029-07-01
     eol: 2029-07-01
-    latest: "8.6"
-    latestReleaseDate: 2022-05-20
+    latest: "8.7"
+    latestReleaseDate: 2022-11-21
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
     support: 2024-07-01
@@ -44,5 +44,5 @@ releases:
 ## Differences with Upstream RHEL:
 
  - Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available.](https://community.oracle.com/tech/apps-infra/discussion/4481998/what-is-the-lifecycle-of-oracle-linux-for-minor-releases) Once a new minor point release is available, the older one is immediately considered end of life and users must upgrade to continue receiving security updates. For example once 8.5 gets a general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
- - Oracle Linux offers different support periods than upstream RHEL, with extra fees for using extended support which is explained [here](https://www.oracle.com/a/ocom/docs/oracle-linux-extended-support-oct2020.pdf)
- - By default Oracle Linux does not use the same kernel upstream RHEL uses, instead they support their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available as an alternative.](https://community.oracle.com/tech/apps-infra/discussion/4467791/oracle-linux-how-to-change-default-kernel)
+ - Oracle Linux offers different support periods than upstream RHEL, with extra fees for using extended support which is explained [here](https://www.oracle.com/a/ocom/docs/linux/oracle-linux-extended-support-ds.pdf)
+ - By default, Oracle Linux does not use the same kernel upstream RHEL uses, instead they support their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available as an alternative.](https://community.oracle.com/tech/apps-infra/discussion/4467791/oracle-linux-how-to-change-default-kernel)

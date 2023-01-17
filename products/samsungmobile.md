@@ -81,11 +81,6 @@ releases:
     eol: false
     releaseDate: 2021-06-28
 
--   releaseCycle: "Galaxy M32"
-    support: true
-    eol: false
-    releaseDate: 2021-06-28
-
 -   releaseCycle: "Galaxy A22 5G"
     support: true
     eol: false
@@ -728,16 +723,16 @@ releases:
 
 ---
 
-> Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. 
+> Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.
 
 # Security brackets
 
 Samsung devices usually have four support brackets in which a device receives support. Which bracket your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
- 
-* **Active Android support:** This bracket provides a device with new Android versions as they come out. This bracket also with limited exceptions provides monthly security updates. This covers a device for up to two years after launch, averaging a year. 
 
-* **Quarterly Security Updates**: This bracket provides a device with quarterly security update. This bracket takes over once monthly updates have ended, it usually lasts an a year. 
+* **Active Android support:** This bracket provides a device with new Android versions as they come out. This bracket also with limited exceptions provides monthly security updates. This covers a device for up to two years after launch, averaging a year.
 
-* **Biannual Security Updates**: This bracket provides a device with biannual security update. This bracket takes over once quarterly updates have ended, it usually lasts an an additional year, or until four years have passed since the device has been released. 
+* **Quarterly Security Updates**: This bracket provides a device with quarterly security update. This bracket takes over once monthly updates have ended, it usually lasts a year.
+
+* **Biannual Security Updates**: This bracket provides a device with biannual security update. This bracket takes over once quarterly updates have ended, it usually lasts an additional year, or until four years have passed since the device has been released.
 
 **Note**: Some dates are based on when support status was changed on the Samsung website - they might be approximate.

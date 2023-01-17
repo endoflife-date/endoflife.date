@@ -1,0 +1,15 @@
+---
+# See https://webmasters.stackexchange.com/q/131077
+
+# Setting a layout forces Jekyll to render this file.
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="{{ '/assets/mstile-150x150.png' | absolute_url }}"/>
+            <TileColor>#2d89ef</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

@@ -10,12 +10,11 @@ changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenot
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
-purls:
+identifiers:
 -   repology: zookeeper
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
-iconSlug: NA
 auto:
 -   maven: org.apache.zookeeper/zookeeper
 releases:
@@ -34,9 +33,9 @@ releases:
 -   releaseCycle: "3.6"
     eol: false
     support: 2022-03-07
-    latest: "3.6.3"
+    latest: "3.6.4"
     releaseDate: 2020-02-25
-    latestReleaseDate: 2021-04-08
+    latestReleaseDate: 2022-12-18
 -   releaseCycle: "3.5"
     eol: 2022-06-01
     support: 2021-03-27

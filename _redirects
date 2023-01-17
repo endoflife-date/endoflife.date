@@ -1,34 +1,30 @@
 ---
+# Netlify _redirects template. Documentation can be found on https://docs.netlify.com/routing/redirects/.
+#
+# The _redirects file is included in _config.yml/include key otherwise Jekyll doesn't copy it to
+# _site directory, where Netlify expects it.
+#
+# To create a new redirect, add an alternate_urls array in the page front-matter.
+
 # Setting a layout forces Jekyll to render this file
 layout: null
 ---
-{% comment %}
-
-The following loop creates a _redirects file as per
-Netlify's syntax: https://docs.netlify.com/routing/redirects/
-
-This also creates a lot of whitespace in the resulting file.
-
-To create a new redirect, add a alternate_urls array in the page front-matter.
-
-The _redirects file is included in _config.yml/include key otherwise
-Jekyll doesn't copy it to _site directory, where Netlify expects it.
-
-The Redirect syntax is
-/redirect-this /to-that
-
-{% endcomment %}
-{% for page in site.pages %}
-
-  {% if page.alternate_urls %}
-
+{%- for page in site.pages -%}
 # Redirects for {{page.path}}
-    {% for url in page.alternate_urls %}
+  {%- if page.alternate_urls %}
+    {%- for url in page.alternate_urls %}
 {{url}}       {{page.permalink}}
-/api{{url}}.json /api{{page.permalink}}.json
-/api{{url}}/* /api{{page.permalink}}/:splat
-    {% endfor %}
-  {% endif %}
-/api{{page.permalink}} /api{{page.permalink}}.json
+    {%- endfor %}
+  {%- endif %}
+  {%- if page.layout == 'product'  %}
+/api{{page.permalink}}       /api{{page.permalink}}.json
+    {%- if page.alternate_urls  %}
+      {%- for url in page.alternate_urls %}
+/calendar{{url}}.ics       /calendar{{page.permalink}}.ics
+/api{{url}}.json       /api{{page.permalink}}.json
+/api{{url}}/*       /api{{page.permalink}}/:splat
+      {%- endfor %}
+    {%- endif %}
+  {%- endif %}
 
 {% endfor %}

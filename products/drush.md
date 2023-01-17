@@ -11,7 +11,7 @@ eolColumn: Support
 versionCommand: drush --version
 auto:
 -   git: https://github.com/drush-ops/drush.git
-purls:
+identifiers:
 -   purl: pkg:composer/drush/drush
 -   repology: drush
 -   purl: pkg:github/drush-ops/drush
@@ -19,8 +19,8 @@ iconSlug: drupal
 releases:
 -   releaseCycle: "11"
     eol: false
-    latest: "11.3.2"
-    latestReleaseDate: 2022-10-24
+    latest: "11.4.0"
+    latestReleaseDate: 2022-12-14
     releaseDate: 2022-01-11
 -   releaseCycle: "10"
     eol: 2022-01-01

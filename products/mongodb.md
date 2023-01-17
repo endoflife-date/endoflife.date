@@ -1,19 +1,28 @@
 ---
 title: MongoDB Server
-permalink: /mongodb
 category: db
+iconSlug: mongodb
+permalink: /mongodb
 releasePolicyLink: https://www.mongodb.com/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 versionCommand: mongod --version
-purls:
+identifiers:
+# MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
+# are the same for both, but the package names are different, hence the two different
+# purl identifiers.
 -   purl: pkg:deb/debian/mongodb-org-server
 -   purl: pkg:deb/ubuntu/mongodb-org-server
 -   purl: pkg:rpm/amzn/mongodb-org-server
 -   purl: pkg:rpm/redhat/mongodb-org-server
 -   purl: pkg:rpm/centos/mongodb-org-server
+-   purl: pkg:deb/debian/mongodb-enterprise-server
+-   purl: pkg:deb/ubuntu/mongodb-enterprise-server
+-   purl: pkg:rpm/amzn/mongodb-enterprise-server
+-   purl: pkg:rpm/redhat/mongodb-enterprise-server
+-   purl: pkg:rpm/centos/mongodb-enterprise-server
 -   repology: mongodb
 auto:
 -   git: https://github.com/mongodb/mongo.git
@@ -21,14 +30,14 @@ auto:
 releases:
 -   releaseCycle: "6.1"
     releaseDate: 2022-10-04
-    latestReleaseDate: 2022-10-04
-    latest: '6.1.0'
+    latestReleaseDate: 2023-01-03
+    latest: '6.1.1'
     codename: "rapid"
     eol: false
 -   releaseCycle: "6.0"
-    eol: false
-    latest: "6.0.2"
-    latestReleaseDate: 2022-09-28
+    eol: 2025-07-01
+    latest: "6.0.3"
+    latestReleaseDate: 2022-11-14
     releaseDate: 2022-07-05
 -   releaseCycle: "5.3"
     codename: "rapid"
@@ -50,13 +59,13 @@ releases:
     latest: '5.1.1'
 -   releaseCycle: "5.0"
     eol: 2024-10-01
-    latest: "5.0.13"
-    latestReleaseDate: 2022-09-29
+    latest: "5.0.14"
+    latestReleaseDate: 2022-11-17
     releaseDate: 2021-07-08
 -   releaseCycle: "4.4"
     eol: 2024-02-01
-    latest: "4.4.17"
-    latestReleaseDate: 2022-09-28
+    latest: "4.4.18"
+    latestReleaseDate: 2022-11-14
     releaseDate: 2020-07-25
 -   releaseCycle: "4.2"
     eol: 2023-04-01

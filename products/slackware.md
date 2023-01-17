@@ -12,20 +12,15 @@ versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
-purls:
+identifiers:
 -   purl: pkg:os/slackwarelinux
 auto:
 -   distrowatch: slackware
     regex: '^Distribution Release: Slackware (Linux )?(?P<major>\d+)\.(?P<minor>\d+)$'
 releases:
--   releaseCycle: "current"
-    codename: "-current"
-    releaseLabel: Current
-    eol: false
-    link: http://www.slackware.com/changelog/current.php?cpu=i386
-    releaseDate: 1993-07-27
 -   releaseCycle: "15.0"
     codename: "stable"
+    releaseLabel: "15.0 (Stable)"
     eol: false
     releaseDate: 2022-02-03
     latestReleaseDate: 2022-02-03

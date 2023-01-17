@@ -9,26 +9,31 @@ changelogTemplate: https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__
 auto:
 -   custom: true
 releases:
+-   releaseCycle: "1.24"
+    eol: 2024-01-01
+    latest: "1.24-eks-3"
+    latestReleaseDate: 2022-12-05
+    releaseDate: 2022-11-15
 -   releaseCycle: "1.23"
     eol: 2023-10-01
-    latest: "1.23-eks-2"
+    latest: "1.23-eks-5"
     releaseDate: 2022-08-11
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-12-05
 -   releaseCycle: "1.22"
     eol: 2023-05-01
-    latest: "1.22-eks-6"
+    latest: "1.22-eks-9"
     releaseDate: 2022-04-04
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-12-05
 -   releaseCycle: "1.21"
-    eol: 2023-02-01
-    latest: "1.21-eks-11"
+    eol: 2023-02-15
+    latest: "1.21-eks-14"
     releaseDate: 2021-07-19
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-12-05
 -   releaseCycle: "1.20"
     eol: 2022-11-01
-    latest: "1.20-eks-9"
+    latest: "1.20-eks-12"
     releaseDate: 2021-05-18
-    latestReleaseDate: 2022-09-21
+    latestReleaseDate: 2022-12-05
 -   releaseCycle: "1.19"
     eol: 2022-08-01
     latest: "1.19-eks-11"
@@ -39,11 +44,10 @@ releases:
     latest: "1.18-eks-13"
     releaseDate: 2020-10-13
     latestReleaseDate: 2022-08-15
-iconSlug: kubernetes
+iconSlug: amazoneks
 permalink: /amazon-eks
 alternate_urls:
 -   /eks
--   /amazon-eks
 -   /amazon-elastic-kubernetes-service
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
 activeSupportColumn: false
@@ -76,4 +80,4 @@ Not every Kubernetes patch release is published on EKS. EKS releases follow a "p
 
 [platform-versions]: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
 [upgrade]: https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html#update-existing-cluster
-[skew]: https://kubernetes.io/docs/setup/version-skew-policy/#kube-apiserver
+[skew]: https://kubernetes.io/releases/version-skew-policy/#kube-apiserver

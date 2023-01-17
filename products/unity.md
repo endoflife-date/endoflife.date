@@ -16,20 +16,22 @@ releases:
 #    release: 2022-XX-XX
 #    eol: false
 #    latest: "2022.2.0"
+
 -   releaseCycle: "2022.1"
     eol: false
-    latest: "2022.1.20f1"
+    latest: "2022.1.23f1"
     releaseDate: 2022-05-09
+
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true
-    latest: "2021.3.8f1"
+    latest: "2021.3.15f1"
     releaseDate: 2021-03-19
 
 -   releaseCycle: "2020"
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.38f1"
+    latest: "2020.3.42f1"
     releaseDate: 2021-03-11
 
 -   releaseCycle: "2019"
