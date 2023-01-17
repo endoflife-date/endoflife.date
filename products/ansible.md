@@ -1,7 +1,8 @@
 ---
-permalink: /ansible
 title: Ansible
 category: app
+iconSlug: ansible
+permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
@@ -9,12 +10,14 @@ changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
-iconSlug: ansible
+
 identifiers:
 -   purl: pkg:pypi/ansible
 -   repology: ansible
+
 auto:
--   git: https://github.com/ansible-community/ansible-build-data.git
+-   pypi: ansible
+
 releases:
 -   releaseCycle: "7"
     eol: false
@@ -61,13 +64,16 @@ releases:
 
 ---
 
-> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration
+> management and application-deployment tool enabling infrastructure as code. `ansible` extends the
+> basic `ansible-core` with additional modules by delivering several collections in an
+> easy-to-consume PyPI package.
 
-The `ansible` community package typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
+The `ansible` community package typically gets 2 major releases every year. A new minor version is
+released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
-See the [Ansible Roadmap][roadmap] for upcoming release details.
-
-[roadmap]: https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html
+See the [Ansible Roadmap](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html)
+for upcoming release details.
 
 ## Python Compatibility
 
