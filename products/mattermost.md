@@ -6,7 +6,6 @@ category: server-app
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: false
 iconSlug: mattermost
 auto:
 -   git: https://github.com/mattermost/mattermost-server.git
