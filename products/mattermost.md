@@ -8,6 +8,8 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
 iconSlug: mattermost
+auto:
+-   git: https://github.com/mattermost/mattermost-server.git
 releases:
 -   releaseCycle: "7.4"
     eol: 2023-01-15
