@@ -10,6 +10,10 @@ activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
 releases:
+-   releaseCycle: "365"
+    support: true
+    eol: false
+    releaseDate: 2015-09-22
 -   releaseCycle: "2021"
     support: 2026-10-13
     eol: 2026-10-13
