@@ -17,11 +17,11 @@ releases:
     releaseDate: 2023-01-16
 
 -   releaseCycle: "7.5"
-    eol: 2023-03-15
+    eol: 2023-02-15
     releaseDate: 2022-11-15
 
 -   releaseCycle: "7.4"
-    eol: 2023-02-15
+    eol: 2023-01-15
     releaseDate: 2022-10-16
 
 -   releaseCycle: "7.3"
