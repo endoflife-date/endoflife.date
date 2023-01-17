@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "3.10"
     eol: false
     support: true
-    latest: "3.10.13"
-    latestReleaseDate: 2022-12-13
+    latest: "3.10.14"
+    latestReleaseDate: 2023-01-16
     releaseDate: 2022-05-03
 -   releaseCycle: "3.9"
     eol: 2023-07-31

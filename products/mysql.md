@@ -33,10 +33,10 @@ releases:
     releaseDate: 2018-04-08
 
 -   releaseCycle: "5.7"
-    latest: '5.7.40'
+    latest: '5.7.41'
     support: 2020-10-31
     eol: 2023-10-31
-    latestReleaseDate: 2022-08-29
+    latestReleaseDate: 2022-12-07
     releaseDate: 2015-10-09
 
 -   releaseCycle: "5.6"
