@@ -6,9 +6,20 @@ category: server-app
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: false
 iconSlug: mattermost
+changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
+auto:
+-   git: https://github.com/mattermost/mattermost-server.git
+# Last 3 releases are supported.
 releases:
+-   releaseCycle: "7.7"
+    eol: 2023-04-15
+    releaseDate: 2023-01-16
+
+-   releaseCycle: "7.5"
+    eol: 2023-02-15
+    releaseDate: 2022-11-15
+
 -   releaseCycle: "7.4"
     eol: 2023-01-15
     releaseDate: 2022-10-12
