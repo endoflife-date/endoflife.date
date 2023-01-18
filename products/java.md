@@ -24,9 +24,9 @@ releases:
 -   releaseCycle: "19"
     support: 2023-03-21
     eol: 2023-03-21
-    latest: "19.0.1"
+    latest: "19.0.2"
     releaseDate: 2022-09-20
-    latestReleaseDate: 2022-10-18
+    latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "18"
     support: 2022-09-20
@@ -39,9 +39,9 @@ releases:
     lts: true
     support: 2026-09-30
     eol: 2029-09-30
-    latest: "17.0.5"
+    latest: "17.0.6"
     releaseDate: 2021-09-14
-    latestReleaseDate: 2022-10-18
+    latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "16"
     support: 2021-09-14
@@ -82,9 +82,9 @@ releases:
     lts: true
     support: 2023-09-30
     eol: 2026-09-30
-    latest: "11.0.17"
+    latest: "11.0.18"
     releaseDate: 2018-09-25
-    latestReleaseDate: 2022-10-18
+    latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "10"
     support: 2018-09-25
@@ -104,9 +104,9 @@ releases:
     lts: true
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8u351"
+    latest: "8u361"
     releaseDate: 2014-03-18
-    latestReleaseDate: 2022-10-18
+    latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "7"
     lts: true
@@ -133,11 +133,13 @@ releases:
 > applications are typically compiled to bytecode that can run on any Java virtual machine (JVM)
 > regardless of the underlying computer architecture.
 
-Java as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by
-Oracle, has been on a 6-month rapid-release cycle since the release of Java 10, and starting with
-Java 11, has new LTS releases every six releases, or three years. Java 8 is the last release on the
-old cycle methodology still in active support. Non-LTS releases are supported for 6 months. The
-latest supported release in each release cycle can be found at
+Java, as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by
+Oracle, has been on a 6-month rapid-release cycle since the release of Java 10. Starting with
+Java 11, had new LTS releases every six releases (three years), followed by Java 17, after which
+the LTS frequency will be increased to every four releases (2 years).
+
+Java 8 is the last release on the old cycle methodology still in active support. Non-LTS releases
+are supported for 6 months. The latest supported release in each release cycle can be found at
 <https://www.oracle.com/java/technologies/java-se-glance.html>.
 
 Official builds and support from Oracle come in two varieties: open source under the GNU GPL, and a
