@@ -26,7 +26,6 @@ releases:
     lts: true
     latest: "102.7.0"
     latestReleaseDate: 2023-01-17
-    link: https://www.mozilla.org/firefox/102.5.0/releasenotes/
 
 -   releaseCycle: "91"
     releaseDate: 2021-08-10
