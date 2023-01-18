@@ -21,14 +21,14 @@ releases:
 
 -   releaseCycle: "6.2"
     eol: false
-    latest: '6.2.9'
-    latestReleaseDate: 2023-01-16
+    latest: '6.2.10'
+    latestReleaseDate: 2023-01-17
     releaseDate: 2021-02-22
 
 -   releaseCycle: "6.0"
     eol: false
-    latest: '6.0.16'
-    latestReleaseDate: 2021-10-04
+    latest: '6.0.17'
+    latestReleaseDate: 2023-01-17
     releaseDate: 2020-04-30
 
 -   releaseCycle: "5.0"
