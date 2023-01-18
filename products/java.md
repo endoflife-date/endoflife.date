@@ -104,7 +104,7 @@ releases:
     lts: true
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8u362"
+    latest: "8u361"
     releaseDate: 2014-03-18
     latestReleaseDate: 2023-01-17
 
