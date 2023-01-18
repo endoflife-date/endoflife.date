@@ -9,6 +9,9 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 releaseColumn: true
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "108"
     releaseDate: 2022-12-13
