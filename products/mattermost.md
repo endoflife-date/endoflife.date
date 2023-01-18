@@ -14,12 +14,16 @@ auto:
 releases:
 -   releaseCycle: "7.7"
     eol: 2023-04-15
-    releaseDate: 2023-01-16
+    releaseDate: 2023-01-13
 
+    latestReleaseDate: 2023-01-13
+    latest: '7.7.0'
 -   releaseCycle: "7.5"
     eol: 2023-02-15
-    releaseDate: 2022-11-15
+    releaseDate: 2022-11-09
 
+    latestReleaseDate: 2022-12-15
+    latest: '7.5.2'
 -   releaseCycle: "7.4"
     eol: 2023-01-15
     releaseDate: 2022-10-12

@@ -18,8 +18,8 @@ releases:
     releaseDate: 2022-12-13
 -   releaseCycle: "102"
     eol: false
-    latest: "102.6.0"
-    latestReleaseDate: 2022-12-13
+    latest: "102.7.0"
+    latestReleaseDate: 2023-01-17
     lts: true
     releaseDate: 2022-06-28
     link: https://www.mozilla.org/firefox/102.5.0/releasenotes/
