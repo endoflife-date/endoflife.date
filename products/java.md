@@ -133,10 +133,10 @@ releases:
 > applications are typically compiled to bytecode that can run on any Java virtual machine (JVM)
 > regardless of the underlying computer architecture.
 
-Java as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by
+Java, as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by
 Oracle, has been on a 6-month rapid-release cycle since the release of Java 10. Starting with
 Java 11, had new LTS releases every six releases (three years), followed by Java 17, after which
-the LTS frequency will be increased this to every four releases (2 years).
+the LTS frequency will be increased to every four releases (2 years).
 
 Java 8 is the last release on the old cycle methodology still in active support. Non-LTS releases
 are supported for 6 months. The latest supported release in each release cycle can be found at
