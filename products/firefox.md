@@ -10,19 +10,19 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: |
   https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 releases:
--   releaseCycle: "108"
+-   releaseCycle: "109"
     eol: false
-    latest: "108.0.2"
-    latestReleaseDate: 2023-01-05
+    latest: "109.0"
+    latestReleaseDate: 2023-01-17
     lts: false
-    releaseDate: 2022-12-13
+    releaseDate: 2023-01-17
+    
 -   releaseCycle: "102"
     eol: false
     latest: "102.7.0"
     latestReleaseDate: 2023-01-17
     lts: true
     releaseDate: 2022-06-28
-    link: https://www.mozilla.org/firefox/102.5.0/releasenotes/
 
 -   releaseCycle: "91"
     eol: 2022-09-20
