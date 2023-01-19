@@ -598,7 +598,7 @@ releases:
 
 -   releaseCycle: "Galaxy A7"
     support: false
-    eol: false
+    eol: 2022-07-01
     releaseDate: 2018-10-01
 
 -   releaseCycle: "Galaxy Note 9"
