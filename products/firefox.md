@@ -7,8 +7,11 @@ releaseDateColumn: true
 releaseColumn: true
 iconSlug: firefox
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-changelogTemplate: |
-  https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "109"
     eol: false
@@ -16,7 +19,7 @@ releases:
     latestReleaseDate: 2023-01-17
     lts: false
     releaseDate: 2023-01-17
-    
+
 -   releaseCycle: "102"
     eol: false
     latest: "102.7.0"
