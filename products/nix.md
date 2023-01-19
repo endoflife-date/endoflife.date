@@ -16,21 +16,26 @@ releaseDateColumn: true
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
--   releaseCycle: "2.12"
+-   releaseCycle: "2.13"
     eol: false
+    releaseDate: 2023-01-17
+    latestReleaseDate: 2023-01-18
+    latest: "2.13.1"
+-   releaseCycle: "2.12"
+    eol: true
     releaseDate: 2022-12-06
     latestReleaseDate: 2022-12-06
     latest: "2.12.0"
 -   releaseCycle: "2.11"
     eol: true
-    releaseDate: 2022-08-29
+    releaseDate: 2022-08-25
     latestReleaseDate: 2022-09-15
     latest: "2.11.1"
 -   releaseCycle: "2.10"
     eol: true
     releaseDate: 2022-07-11
     latestReleaseDate: 2022-07-15
-    latest: '2.10.3'
+    latest: "2.10.3"
 -   releaseCycle: "2.9"
     latest: "2.9.2"
     eol: true
@@ -50,7 +55,7 @@ releases:
     latest: "2.6.1"
     eol: true
     latestReleaseDate: 2022-02-17
-    releaseDate: 2022-01-25
+    releaseDate: 2022-01-24
 -   releaseCycle: "2.5"
     latest: "2.5.1"
     eol: true
@@ -75,7 +80,7 @@ releases:
     latest: "2.1.3"
     eol: true
     latestReleaseDate: 2018-10-02
-    releaseDate: 2018-09-03
+    releaseDate: 2018-09-02
 -   releaseCycle: "2.0"
     latest: "2.0.4"
     eol: true
