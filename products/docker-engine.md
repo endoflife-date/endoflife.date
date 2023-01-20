@@ -22,8 +22,8 @@ auto:
 releases:
 -   releaseCycle: "20.10"
     eol: false
-    latest: "20.10.22"
-    latestReleaseDate: 2022-12-16
+    latest: "20.10.23"
+    latestReleaseDate: 2023-01-20
     releaseDate: 2020-12-09
 
 -   releaseCycle: "19.03"
