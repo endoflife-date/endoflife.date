@@ -8,7 +8,20 @@ releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: false
 releaseDateColumn: true
-
+identifiers:
+-   purl: pkg:generic/redis
+-   purl: pkg:deb/ubuntu/redis-server
+-   purl: pkg:deb/debian/redis-server
+-   purl: pkg:rpm/amzn/redis
+-   purl: pkg:rpm/redhat/redis
+-   purl: pkg:rpm/centos/redis
+-   purl: pkg:docker/library/redis
+-   purl: pkg:docker/redislabs/redis
+-   purl: pkg:docker/bitnami/redis
+-   purl: pkg:docker/circleci/redis
+-   purl: pkg:docker/cimg/redis
+-   purl: pkg:docker/ubuntu/redis
+-   repology: redis
 auto:
 -   git: https://github.com/redis/redis.git
 
