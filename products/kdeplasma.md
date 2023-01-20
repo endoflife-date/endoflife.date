@@ -17,12 +17,12 @@ auto:
 
 releases:
 -   releaseCycle: "5.26"
-    latest: "5.26.5"
+    latest: "5.26.90"
     support: 2023-02-14 # Scheduled release of 5.27
     eol: 2023-02-14 # Scheduled release of 5.27
     lts: false
     releaseDate: 2022-10-11
-    latestReleaseDate: 2023-01-03
+    latestReleaseDate: 2023-01-19
 
 -   releaseCycle: "5.25"
     latest: "5.25.90"
