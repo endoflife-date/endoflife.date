@@ -11,6 +11,11 @@ releaseColumn: false
 releaseDateColumn: true
 releases:
 
+-   releaseCycle: "Samsung Galaxy A23 5G"
+    support: true
+    eol: false
+    releaseDate: 2022-09-02
+
 -   releaseCycle: "Galaxy A13 LTE"
     support: true
     eol: false
