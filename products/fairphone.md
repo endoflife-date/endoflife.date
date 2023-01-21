@@ -1,0 +1,58 @@
+---
+permalink: /fairphone
+title: Fairphone
+category: device
+releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
+discontinuedColumn: true
+activeSupportColumn: false
+eolColumn: Supported
+releaseColumn: false
+releaseDateColumn: true
+releases:
+-   releaseCycle: "Fairphone 4"
+    discontinued: false
+    eol: false
+    releaseDate: 2021-09-30
+-   releaseCycle: "Fairphone 3+"
+    discontinued: 2021-09-01
+    eol: 2021-09-01
+    releaseDate: 2020-09-30
+-   releaseCycle: "Fairphone 3"
+    discontinued: 2021-09-01
+    eol: 2021-09-01
+    releaseDate: 2019-09-30
+-   releaseCycle: "Fairphone 2"
+    discontinued: 2023-03-01
+    eol: 2023-03-01
+    releaseDate: 2015-12-01
+-   releaseCycle: "Fairphone 1"
+    discontinued: 2017-07-13
+    eol: 2017-07-13
+    releaseDate: 2013-12-01
+---
+
+> Fairphone is a Dutch electronics manufacturer that designs and produces smartphones with the goal of having a lower environmental footprint and better social impact than is common in the industry.
+
+Key facts:
+
+- [5-year warranty and electronic waste neutral](https://shop.fairphone.com/en/#warranty)
+- [iFixit score: 10 out of 10]()
+- [Fairtrade Gold, recycled materials](https://shop.fairphone.com/en/#fairtrade-gold)
+- **Fairphone 4 5G (FP4)** runs **Fairphone OS** (Operating System), an OS based on [Android 11](https://www.android.com/android-11), with a set of standard Google Apps.
+- [Fairphone 4 is electronic waste neutral](https://shop.fairphone.com/en/#electronic-waste-neutral)
+
+Some useful resources :
+
+- [Fairphone Shop](https://shop.fairphone.com/)
+- [Spare parts](https://shop.fairphone.com/en/spare-parts)
+- [Accessories](https://shop.fairphone.com/en/accessories)
+- [Buy Fairphone 4](https://shop.fairphone.com/en/buy-fairphone-4)
+
+
+> We aim to support Fairphone 4 with security and software upgrades for approximately five years from its launch
+> date (September 2021).
+> For Fairphone 4, we guarantee software support until the end of 2026, this includes an upgrade to Android 12 and, later on, Android 13.
+> We also aim to provide upgrades for Android 14 and 15. However, since Qualcomm will not offer support in the development, we cannot guarantee them.
+[`ref`](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-)
+
+See [`Android` versions](https://endoflife.date/android) for more.
