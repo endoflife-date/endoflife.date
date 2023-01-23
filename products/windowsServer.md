@@ -20,7 +20,7 @@ releases:
     eol: 2031-10-14
     extendedSupport: false
     latest: 10.0.20348
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2022
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "20H2"
     releaseDate: 2020-10-20
@@ -60,7 +60,7 @@ releases:
     eol: 2029-01-09
     extendedSupport: false
     latest: 10.0.17763
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2019
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "1903"
     releaseDate: 2018-05-21
@@ -92,7 +92,7 @@ releases:
     eol: 2027-01-12
     extendedSupport: false
     latest: 10.0.14393
-    link: https://learn.microsoft.com/lifecycle/products/windows-server-2016
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "2012-R2"
     releaseDate: 2013-11-25
