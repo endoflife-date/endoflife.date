@@ -231,7 +231,7 @@ releases:
     eol: false
     releaseDate: 2020-11-06
 
--   releaseCycle: "Samsung W21 5G"
+-   releaseCycle: "Galaxy W21 5G"
     support: false
     eol: false
     releaseDate: 2020-11-04
