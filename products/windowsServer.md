@@ -9,121 +9,138 @@ versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
 releaseLabel: 'Windows Server __RELEASE_CYCLE__'
 activeSupportColumn: true
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: Extended Security Updates
+
 releases:
 -   releaseCycle: "2022"
-    buildID: 10.0.20348
     releaseDate: 2021-08-18
     support: 2026-10-13
     eol: 2031-10-14
     extendedSupport: false
+    latest: 10.0.20348
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "20H2"
-    buildID: 10.0.19042
     releaseDate: 2020-10-20
-    support: 2022-05-10
-    eol: 2022-05-10
+    support: 2022-08-09
+    eol: 2022-08-09
     extendedSupport: false
+    latest: 10.0.19042
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring
 
 -   releaseCycle: "2004"
-    buildID: 10.0.19041
     releaseDate: 2020-05-27
     support: 2021-12-14
     eol: 2021-12-14
     extendedSupport: false
+    latest: 10.0.19041
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-version-2004-end-of-servicing
 
 -   releaseCycle: "1909"
-    buildID: 10.0.18363
     releaseDate: 2019-11-12
     support: 2021-05-11
     eol: 2021-05-11
     extendedSupport: false
+    latest: 10.0.18363
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1909-end-of-servicing
 
 -   releaseCycle: "1809"
-    buildID: 10.0.17763
     releaseDate: 2018-11-13
     support: 2020-11-10
     eol: 2020-11-10
     extendedSupport: false
+    latest: 10.0.17763
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1809-end-of-servicing
 
 -   releaseCycle: "2019"
-    buildID: 10.0.17763
     releaseDate: 2018-11-13
     support: 2024-01-09
     eol: 2029-01-09
     extendedSupport: false
+    latest: 10.0.17763
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "1903"
-    buildID: 10.0.18362
     releaseDate: 2018-05-21
     support: 2020-12-08
     eol: 2020-12-08
     extendedSupport: false
+    latest: 10.0.18362
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1809-end-of-servicing
 
 -   releaseCycle: "1803"
-    buildID: 10.0.17134
     releaseDate: 2018-04-30
     support: 2019-11-12
     eol: 2019-11-12
     extendedSupport: false
+    latest: 10.0.17134
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1803-end-of-servicing
 
 -   releaseCycle: "1709"
-    buildID: 10.0.16299
     releaseDate: 2017-10-17
     support: 2019-04-09
     eol: 2019-04-09
     extendedSupport: false
+    latest: 10.0.16299
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1709-end-of-servicing
 
 -   releaseCycle: "2016"
-    buildID: 10.0.14393
     releaseDate: 2016-10-15
     support: 2022-01-11
     eol: 2027-01-12
     extendedSupport: false
+    latest: 10.0.14393
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "2012-R2"
-    buildID: 6.3.9600
     releaseDate: 2013-11-25
     support: 2018-10-09
     eol: 2023-10-10
     extendedSupport: 2026-10-13
+    latest: 6.3.9600
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012-r2
 
 -   releaseCycle: "2012"
-    buildID: 6.2.9200
     releaseDate: 2012-10-30
     support: 2018-10-09
     eol: 2023-10-10
     extendedSupport: 2026-10-13
+    latest: 6.2.9200
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012
 
 -   releaseCycle: "2008-R2-SP1"
-    buildID: 6.1.7601
     releaseDate: 2011-02-22
     support: 2015-01-13
     eol: 2020-01-14
     extendedSupport: 2023-01-10
+    latest: 6.1.7601
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
 
 -   releaseCycle: "2008-SP2"
-    buildID: 6.0.6003
     releaseDate: 2009-04-29
     support: 2015-01-13
     eol: 2020-01-14
     extendedSupport: 2023-01-10
+    latest: 6.0.6003
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
 
 -   releaseCycle: "2003-SP2"
-    buildID: 5.2.3790
     releaseDate: 2003-04-24
     support: 2010-07-13
     eol: 2015-07-14
     extendedSupport: false
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
 -   releaseCycle: "2000"
-    buildID: 5.0.2195
     releaseDate: 2000-02-17
     support: 2005-06-30
     eol: 2010-07-13
     extendedSupport: false
+    latest: 5.0.2195
+    link: null
 
 ---
 
@@ -149,7 +166,7 @@ environments. All Semi-Annual releases are now unsupported.
 
 ## Extended Security Updates (ESU)
 
-For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates).
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates).
 It includes Critical and/or Important security updates for a maximum of three years after the
 product's End of Extended Support date. Customers can also get technical support for the ESU period
 as long as they also have an active support plan.
