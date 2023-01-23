@@ -33,22 +33,6 @@ releases:
 
 > Fairphone is a Dutch electronics manufacturer that designs and produces smartphones with the goal of having a lower environmental footprint and better social impact than is common in the industry.
 
-Key facts:
-
-- [5-year warranty and electronic waste neutral](https://shop.fairphone.com/en/#warranty)
-- [iFixit score: 10 out of 10]()
-- [Fairtrade Gold, recycled materials](https://shop.fairphone.com/en/#fairtrade-gold)
-- **Fairphone 4 5G (FP4)** runs **Fairphone OS** (Operating System), an OS based on [Android 11](https://www.android.com/android-11), with a set of standard Google Apps.
-- [Fairphone 4 is electronic waste neutral](https://shop.fairphone.com/en/#electronic-waste-neutral)
-
-Some useful resources :
-
-- [Fairphone Shop](https://shop.fairphone.com/)
-- [Spare parts](https://shop.fairphone.com/en/spare-parts)
-- [Accessories](https://shop.fairphone.com/en/accessories)
-- [Buy Fairphone 4](https://shop.fairphone.com/en/buy-fairphone-4)
-
-
 > We aim to support Fairphone 4 with security and software upgrades for approximately five years from its launch
 > date (September 2021).
 > For Fairphone 4, we guarantee software support until the end of 2026, this includes an upgrade to Android 12 and, later on, Android 13.
