@@ -416,7 +416,7 @@ releases:
     eol: false # Quarterly
     releaseDate: 2019-12-18
 
--   releaseCycle: "W20 5G"
+-   releaseCycle: Galaxy W20 5G"
     support: false
     eol: false
     releaseDate: 2019-11-20
