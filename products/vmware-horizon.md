@@ -100,7 +100,7 @@ releases:
     technicalGuidance: 2023-03-22
     latest: "7.10.3"
     latestReleaseDate: 2020-10-22
-    link: ' '
+    link: null
 
 -   releaseCycle: "7.5"
     lts: true
@@ -109,7 +109,7 @@ releases:
     technicalGuidance: 2023-03-22
     latest: "7.5.4"
     latestReleaseDate: 2019-12-19
-    link: ' '
+    link: null
 
 
 ---
