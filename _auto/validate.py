@@ -36,6 +36,9 @@ def assert_that_in(values, value, name, file):
     assert value in values, f"{name} '{value}' is not valid in {file}, it must be in {values}"
 
 
+def assert_not_blank(value, name, file):
+    assert value.strip(), f"{name} must not be blank in {file}"
+
 def assert_that_starts_with(prefix, value, name, file):
     assert value.startswith(prefix), f"{name} '{value}' must start with {prefix} in {file}"
 
@@ -63,6 +66,9 @@ def validate_product(file):
     assert_that_type_is(comments.CommentedSeq, data["releases"], 'releases', file)
     for r in data["releases"]:
         assert_that_type_is(str, r["releaseCycle"], 'releaseCycle', file)
+
+        if "link" in r and r["link"] != None:
+            assert_not_blank(r["link"], 'link', file)
 
         if "releaseLabel" in r:
             assert_that_type_is(str, r["releaseLabel"], 'releaseLabel', file)

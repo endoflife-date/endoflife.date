@@ -208,7 +208,7 @@ or +1 (EoL is in the future)
 
   {% if page.releaseColumn != false %}
   <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
-    {% if r.link != "" and diff > 0 %}
+    {% if r.link and diff > 0 %}
       <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
     {% else %}
       {{ r.latest }}
