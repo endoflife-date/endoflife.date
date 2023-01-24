@@ -195,7 +195,7 @@ releases:
 
 ---
 
-> [Apache Camel](https://www.groovy-lang.org/) is an open source framework for message-oriented
+> [Apache Camel](https://camel.apache.org/) is an open source framework for message-oriented
 > middleware with a rule-based routing and mediation engine that provides a Java object-based
 > implementation of the Enterprise Integration Patterns using an application programming interface
 > (or declarative Java domain-specific language) to configure routing and mediation rules.
@@ -206,7 +206,7 @@ supported for one year with security and important/critical bug fixes. Non-LTS r
 [don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/), which is
 why they are marked EOL as soon as they are released.
 
-Camel have [the following Java requirements](https://groovy.apache.org/download.html):
+Camel have [the following Java requirements](https://camel.apache.org/manual/what-are-the-dependencies.html):
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
 {%- include table.html
@@ -215,4 +215,4 @@ fields="releaseCycle,supportedJavaVersions"
 types="string,string"
 rows=collapsedCycles %}
 
-A list of know CVEs is available [on the security information page](https://camel.apache.org/security/).
+A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).
