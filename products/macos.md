@@ -25,22 +25,22 @@ releases:
     eol: false
     link: https://support.apple.com/HT213268
     releaseDate: 2022-10-24
-    latestReleaseDate: 2022-12-13
-    latest: '13.1'
+    latestReleaseDate: 2023-01-23
+    latest: '13.2'
 -   releaseCycle: "12"
     codename: "Monterey"
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2022-12-13
-    latest: '12.6.2'
+    latestReleaseDate: 2023-01-23
+    latest: '12.6.3'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2022-12-13
-    latest: '11.7.2'
+    latestReleaseDate: 2023-01-23
+    latest: '11.7.3'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12
@@ -93,4 +93,3 @@ releases:
 >[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system for Apple's Mac computers.
 
 Major versions of macOS are released once a year now, and usually maintained for three years. Apple usually provides security updates for the latest 3 releases, but this isn't consistently applied and some security fixes aren't available for the non-latest releases.
-
