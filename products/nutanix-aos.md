@@ -12,13 +12,20 @@ releaseDateColumn: true
 discontinuedColumn: false
 
 releases:
+-   releaseCycle: "6.6"
+    releaseDate: 2023-01-23
+    support: true
+    eol: false
+    latest: "6.6"
+    latestReleaseDate: 2023-01-23
+
 -   releaseCycle: "6.5"
     releaseDate: 2022-07-26
     support: true
     eol: false
     lts: true
-    latest: "6.5.1.8"
-    latestReleaseDate: 2022-12-13
+    latest: "6.5.2"
+    latestReleaseDate: 2023-01-24
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24
