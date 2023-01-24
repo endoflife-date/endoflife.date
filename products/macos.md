@@ -39,8 +39,8 @@ releases:
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2022-12-13
-    latest: '11.7.2'
+    latestReleaseDate: 2023-01-23
+    latest: '11.7.3'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12
