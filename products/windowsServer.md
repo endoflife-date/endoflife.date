@@ -8,6 +8,7 @@ alternate_urls:
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
 releaseLabel: 'Windows Server __RELEASE_CYCLE__'
+LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -20,6 +21,7 @@ releases:
     eol: 2031-10-14
     extendedSupport: false
     latest: 10.0.20348
+    lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
 -   releaseCycle: "20H2"
@@ -56,6 +58,7 @@ releases:
 
 -   releaseCycle: "2019"
     releaseDate: 2018-11-13
+    lts: true
     support: 2024-01-09
     eol: 2029-01-09
     extendedSupport: false
@@ -88,6 +91,7 @@ releases:
 
 -   releaseCycle: "2016"
     releaseDate: 2016-10-15
+    lts: true
     support: 2022-01-11
     eol: 2027-01-12
     extendedSupport: false
@@ -96,6 +100,7 @@ releases:
 
 -   releaseCycle: "2012-R2"
     releaseDate: 2013-11-25
+    lts: true
     support: 2018-10-09
     eol: 2023-10-10
     extendedSupport: 2026-10-13
@@ -103,6 +108,7 @@ releases:
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2012-r2
 
 -   releaseCycle: "2012"
+    lts: true
     releaseDate: 2012-10-30
     support: 2018-10-09
     eol: 2023-10-10
@@ -112,6 +118,7 @@ releases:
 
 -   releaseCycle: "2008-R2-SP1"
     releaseDate: 2011-02-22
+    lts: true
     support: 2015-01-13
     eol: 2020-01-14
     extendedSupport: 2023-01-10
@@ -120,6 +127,7 @@ releases:
 
 -   releaseCycle: "2008-SP2"
     releaseDate: 2009-04-29
+    lts: true
     support: 2015-01-13
     eol: 2020-01-14
     extendedSupport: 2023-01-10
@@ -128,6 +136,7 @@ releases:
 
 -   releaseCycle: "2003-SP2"
     releaseDate: 2003-04-24
+    lts: true
     support: 2010-07-13
     eol: 2015-07-14
     extendedSupport: false
@@ -136,6 +145,7 @@ releases:
 
 -   releaseCycle: "2000"
     releaseDate: 2000-02-17
+    lts: true
     support: 2005-06-30
     eol: 2010-07-13
     extendedSupport: false
