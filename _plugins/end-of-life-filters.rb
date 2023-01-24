@@ -54,7 +54,7 @@ module EndOfLifeFilter
   # {{ '2.1.0' | drop_zero_patch }} => '2.1'
   # {{ '2.1.1' | drop_zero_patch }} => '2.1.1'
   def drop_zero_patch(input)
-    input.end_with?(".0") ? input[0, input.length - 2] : input
+    input.delete_suffix(".0")
   end
 end
 
