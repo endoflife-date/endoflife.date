@@ -4,7 +4,6 @@ title: Oracle Linux
 category: os
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
-activeSupportColumn: true
 releaseDateColumn: true
 activeSupportColumn: false
 extendedSupportColumn: Extended Support
