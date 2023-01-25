@@ -25,7 +25,7 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
     support: 2029-07-01
-    eol: 2029-07-01
+    eol: 2031-07-01
     latest: "8.7"
     latestReleaseDate: 2022-11-21
 -   releaseCycle: "7"
