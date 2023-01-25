@@ -10,7 +10,8 @@ changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: Security Support
+eolColumn: OSS support
+extendedSupportColumn: Commercial Support
 
 auto:
 -   git: https://github.com/spring-projects/spring-boot.git
@@ -20,60 +21,70 @@ auto:
 releases:
 -   releaseCycle: "3.0"
     eol: 2023-11-24
+    extendedSupport: 2025-02-24
     latest: "3.0.2"
     latestReleaseDate: 2023-01-20
     releaseDate: 2022-11-24
 
 -   releaseCycle: "2.7"
     eol: 2023-11-18
+    extendedSupport: 2025-02-18
     latest: "2.7.8"
     latestReleaseDate: 2023-01-19
     releaseDate: 2022-05-19
 
 -   releaseCycle: "2.6"
     eol: 2022-11-24
+    extendedSupport: 2024-02-24
     latest: "2.6.14"
     latestReleaseDate: 2022-11-24
     releaseDate: 2021-11-19
 
 -   releaseCycle: "2.5"
     eol: 2022-05-19
+    extendedSupport: 2023-08-24
     latest: "2.5.14"
     latestReleaseDate: 2022-05-19
     releaseDate: 2021-05-20
 
 -   releaseCycle: "2.4"
     eol: 2021-11-18
+    extendedSupport: 2023-02-23
     latest: "2.4.13"
     latestReleaseDate: 2021-11-18
     releaseDate: 2020-11-12
 
 -   releaseCycle: "2.3"
     eol: 2021-05-20
+    extendedSupport: 2022-08-20
     latest: "2.3.12"
     latestReleaseDate: 2021-06-10
     releaseDate: 2020-05-15
 
 -   releaseCycle: "2.2"
     eol: 2020-10-16
+    extendedSupport: 2022-01-16
     latest: "2.2.13"
     latestReleaseDate: 2021-01-14
     releaseDate: 2019-10-16
 
 -   releaseCycle: "2.1"
     eol: 2019-10-30
+    extendedSupport: 2021-01-30
     latest: "2.1.18"
     latestReleaseDate: 2020-10-29
     releaseDate: 2018-10-30
 
 -   releaseCycle: "2.0"
     eol: 2019-03-01
+    extendedSupport: 2020-06-01
     latest: "2.0.9"
     latestReleaseDate: 2019-04-03
     releaseDate: 2018-03-01
 
 -   releaseCycle: "1.5"
     eol: 2019-08-06
+    extendedSupport: 2020-11-06
     latest: "1.5.22"
     latestReleaseDate: 2019-08-06
     releaseDate: 2017-01-30
