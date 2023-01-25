@@ -200,13 +200,11 @@ releases:
 > implementation of the Enterprise Integration Patterns using an application programming interface
 > (or declarative Java domain-specific language) to configure routing and mediation rules.
 
-Apache Camel follows [Semantic Versioning](https://semver.org/). From Camel 2.25 onward,
-the project has both LTS and non-LTS releases. There is two LTS releases per year, and they are
-supported for one year with security and important/critical bug fixes. Non-LTS releases
-[don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/), which is
-why they are marked EOL as soon as they are released.
+Apache Camel follows [Semantic Versioning](https://semver.org/). There is two LTS releases per year, 
+and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
+[don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
 
-Camel have [the following Java requirements](https://camel.apache.org/manual/what-are-the-dependencies.html):
+Camel has [the following Java requirements](https://camel.apache.org/manual/what-are-the-dependencies.html):
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
 {%- include table.html
