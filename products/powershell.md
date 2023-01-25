@@ -5,7 +5,7 @@ iconSlug: powershell
 permalink: /powershell
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
-changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__.md
+changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
 auto:
