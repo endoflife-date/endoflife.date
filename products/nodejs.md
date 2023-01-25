@@ -11,12 +11,12 @@ releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
 identifiers:
-- purl: pkg:generic/node
-- purl: pkg:docker/circleci/node
-- purl: pkg:docker/library/node
-- purl: pkg:docker/cimg/node
-- purl: pkg:docker/bitnami/node
-- repology: nodejs
+-   purl: pkg:generic/node
+-   purl: pkg:docker/circleci/node
+-   purl: pkg:docker/library/node
+-   purl: pkg:docker/cimg/node
+-   purl: pkg:docker/bitnami/node
+-   repology: nodejs
 auto:
 -   git: https://github.com/nodejs/node.git
 versionCommand: node --version
@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "19"
     support: 2023-04-01
     eol: 2023-06-01
-    latest: "19.4.0"
-    latestReleaseDate: 2023-01-06
+    latest: "19.5.0"
+    latestReleaseDate: 2023-01-24
     releaseDate: 2022-10-18
 -   releaseCycle: "18"
     lts: 2022-10-25
