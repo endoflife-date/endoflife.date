@@ -1,19 +1,20 @@
 ---
 title: Linux Kernel
-permalink: /linux
 category: os
 iconSlug: linux
+permalink: /linux
 releasePolicyLink: https://www.kernel.org/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sj9emk30expqiyyrr4kztv7g5t8qj9u.png
-changelogTemplate: |
-  https://kernelnewbies.org/Linux___RELEASE_CYCLE__
+changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
 versionCommand: uname -r
+
+# Note that:
+# - we're tracking the linux kernel stable tree, not torvalds' tree which doesn't contain all tags
+# - gregkh/linux.git is a mirror which is manual synced, so it sometimes get delayed (https://github.com/endoflife-date/endoflife.date/pull/2386#discussion_r1088113678).
 auto:
-# Note that we're tracking the linux kernel stable tree, not torvalds' tree
-# which doesn't contain all tags
 -   git: https://github.com/gregkh/linux.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
