@@ -33,9 +33,7 @@ releases:
 > Fairphone is a Dutch electronics manufacturer that designs and produces smartphones with the goal of having a lower environmental footprint and better social impact than is common in the industry.
 
 > We aim to support Fairphone 4 with security and software upgrades for approximately five years from its launch
-> date (September 2021).
-> For Fairphone 4, we guarantee software support until the end of 2026, this includes an upgrade to Android 12 and, later on, Android 13.
-> We also aim to provide upgrades for Android 14 and 15. However, since Qualcomm will not offer support in the development, we cannot guarantee them.
+Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [might happen on a best effort basis](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-).
 [`ref`](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-)
 
 See [`Android` versions](https://endoflife.date/android) for more.
