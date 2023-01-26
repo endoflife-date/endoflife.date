@@ -126,11 +126,6 @@ releases:
     eol: false # https://doc.samsungmobile.com/SM-A736B/XSA/doc.html
     releaseDate: 2022-04-22
 
--   releaseCycle: "Galaxy A13 LTE"
-    support: true
-    eol: false
-    releaseDate: 2022-04-22
-
 -   releaseCycle: "Galaxy A53 5G"
     support: true
     eol: false
@@ -217,7 +212,7 @@ releases:
     releaseDate: 2021-12-06
     
 -   releaseCycle: "Galaxy A13 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false
     releaseDate: 2021-12-03
 
