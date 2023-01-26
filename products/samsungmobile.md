@@ -2062,11 +2062,6 @@ releases:
     eol: 2017-04-01 # https://doc.samsungmobile.com/SM-G900H/XXV/doc.html
     releaseDate: 2014-04-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy S5 (USA)"
-    support: false
-    eol: true # TODO
-    releaseDate: 2014-04-01 # Approximate to the month and year.
-
 -   releaseCycle: "Galaxy S5"
     support: false
     eol: 2017-04-01 # https://doc.samsungmobile.com/SM-G900H/XXV/doc.html
