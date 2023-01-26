@@ -91,4 +91,4 @@ releases:
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that supports multiple messaging protocols.
 
 - **General Support**: includes regular patch releases
-- **[Extended Support](https://tanzu.vmware.com/rabbitmq)**: includes security patches, and high-severity issues reported by users with a commercial license from VMWare.
+- **[Extended Support](https://tanzu.vmware.com/rabbitmq)**: includes security patches, and fixes for high-severity issues reported by users with a commercial license from VMWare.
