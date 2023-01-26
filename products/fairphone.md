@@ -21,8 +21,8 @@ releases:
     eol: 2021-09-01
     releaseDate: 2019-09-30
 -   releaseCycle: "Fairphone 2"
-    discontinued: 2023-03-01
-    eol: 2023-03-01
+    discontinued: 2021-11-01
+    eol: 2019-03-22
     releaseDate: 2015-12-01
 -   releaseCycle: "Fairphone 1"
     discontinued: 2017-07-13
