@@ -20,6 +20,7 @@ auto:
 
 releases:
 -   releaseCycle: "3.0"
+    supportedJavaVersions: "17 - 19" # https://docs.spring.io/spring-boot/docs/3.0.2/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2023-11-24
     extendedSupport: 2025-02-24
     latest: "3.0.2"
@@ -27,6 +28,7 @@ releases:
     releaseDate: 2022-11-24
 
 -   releaseCycle: "2.7"
+    supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.7.8/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2023-11-18
     extendedSupport: 2025-02-18
     latest: "2.7.8"
@@ -34,6 +36,7 @@ releases:
     releaseDate: 2022-05-19
 
 -   releaseCycle: "2.6"
+    supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.6.14/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2022-11-24
     extendedSupport: 2024-02-24
     latest: "2.6.14"
@@ -41,6 +44,7 @@ releases:
     releaseDate: 2021-11-19
 
 -   releaseCycle: "2.5"
+    supportedJavaVersions: "8 - 18" # https://docs.spring.io/spring-boot/docs/2.5.14/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2022-05-19
     extendedSupport: 2023-08-24
     latest: "2.5.14"
@@ -48,6 +52,7 @@ releases:
     releaseDate: 2021-05-20
 
 -   releaseCycle: "2.4"
+    supportedJavaVersions: "8 - 16" # https://docs.spring.io/spring-boot/docs/2.4.13/reference/html/getting-started.html#getting-started-system-requirements
     eol: 2021-11-18
     extendedSupport: 2023-02-23
     latest: "2.4.13"
@@ -55,6 +60,7 @@ releases:
     releaseDate: 2020-11-12
 
 -   releaseCycle: "2.3"
+    supportedJavaVersions: "8 - 15" # https://docs.spring.io/spring-boot/docs/2.3.12.RELEASE/reference/html/getting-started.html#getting-started-system-requirements
     eol: 2021-05-20
     extendedSupport: 2022-08-20
     latest: "2.3.12"
@@ -62,6 +68,7 @@ releases:
     releaseDate: 2020-05-15
 
 -   releaseCycle: "2.2"
+    supportedJavaVersions: "8 - 15" # https://docs.spring.io/spring-boot/docs/2.2.13.RELEASE/reference/html/getting-started.html#getting-started-system-requirements
     eol: 2020-10-16
     extendedSupport: 2022-01-16
     latest: "2.2.13"
@@ -69,6 +76,7 @@ releases:
     releaseDate: 2019-10-16
 
 -   releaseCycle: "2.1"
+    supportedJavaVersions: "8 - 12" # https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/reference/html/getting-started-system-requirements.html
     eol: 2019-10-30
     extendedSupport: 2021-01-30
     latest: "2.1.18"
@@ -76,6 +84,7 @@ releases:
     releaseDate: 2018-10-30
 
 -   releaseCycle: "2.0"
+    supportedJavaVersions: "8 - 9" # https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/html/getting-started-system-requirements.html
     eol: 2019-03-01
     extendedSupport: 2020-06-01
     latest: "2.0.9"
@@ -83,6 +92,7 @@ releases:
     releaseDate: 2018-03-01
 
 -   releaseCycle: "1.5"
+    supportedJavaVersions: "6 - 8" # https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/reference/html/getting-started-system-requirements.html
     eol: 2019-08-06
     extendedSupport: 2020-11-06
     latest: "1.5.22"
@@ -99,9 +109,14 @@ See [Spring Boot Milestones page](https://github.com/spring-projects/spring-boot
 upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-boot#support) for
 more details about support roadmap.
 
-- Spring Boot 3.x requires **at least a Java 17 runtime**,
-- Spring Boot 2.7.5 (and therefore the latest Spring Framework 5.3.23) supports Java 19 while also
-  remaining compatible with Java 11 and 8.
-
 A commercial offer for extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+
+## Java Compatibility
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
+{% include table.html
+  labels="Release,Java"
+  fields="releaseCycle,supportedJavaVersions"
+  types="string,string"
+  rows=collapsedCycles %}
