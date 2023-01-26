@@ -7,24 +7,25 @@ discontinuedColumn: true
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+releaseLabel: "Fairphone __RELEASE_CYCLE__"
 releases:
--   releaseCycle: "Fairphone 4"
+-   releaseCycle: "4"
     discontinued: false
     eol: false
     releaseDate: 2021-09-30
--   releaseCycle: "Fairphone 3+"
+-   releaseCycle: "3+"
     discontinued: false
     eol: 2021-09-01
     releaseDate: 2020-09-30
--   releaseCycle: "Fairphone 3"
+-   releaseCycle: "3"
     discontinued: 2021-09-01
     eol: 2021-09-02
     releaseDate: 2019-09-30
--   releaseCycle: "Fairphone 2"
+-   releaseCycle: "2"
     discontinued: 2021-11-01
     eol: 2019-03-22
     releaseDate: 2015-12-01
--   releaseCycle: "Fairphone 1"
+-   releaseCycle: "1"
     discontinued: 2017-07-13
     eol: 2015-02-01
     releaseDate: 2013-12-01
