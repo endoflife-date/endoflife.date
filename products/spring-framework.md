@@ -82,5 +82,5 @@ for more details about support roadmap.
 - Spring Framework 6.x requires **at least a Java 17 runtime**,
 - Spring Framework 5.3.x supports Java 19 while also remaining compatible with Java 11 and 8.
 
-A commercial offer for extended support after OSS End-Of-Life is available
-[since February 2022](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+Extended support is available
+[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
