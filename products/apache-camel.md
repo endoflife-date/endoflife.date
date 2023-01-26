@@ -198,11 +198,11 @@ releases:
 ---
 
 > [Apache Camel](https://camel.apache.org/) is an open source framework for message-oriented
-> middleware with a rule-based routing and mediation engine that provides a Java object-based
+> middleware with a rule-based routing and mediation engine. It provides a Java object-based
 > implementation of the Enterprise Integration Patterns using an application programming interface
 > (or declarative Java domain-specific language) to configure routing and mediation rules.
 
-Apache Camel follows [Semantic Versioning](https://semver.org/). There is two LTS releases per year,
+Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
 and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
 [don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
 
