@@ -56,6 +56,34 @@ module EndOfLifeFilter
   def drop_zero_patch(input)
     input.delete_suffix(".0")
   end
+
+  # Collapse the given cycles according to the given field.
+  #
+  # Cycle fields are transformed to a cycle range using the given range_separator. For example if
+  # cycles are [1, 2, 3] and the separator is " -> ", the cycle range will be "1 -> 3".
+  #
+  # Usage:
+  # cycles = [
+  #   {releaseCycle:'1', java:'8', other:'a'},
+  #   {releaseCycle:'2', java:'8', other:'b'},
+  #   {releaseCycle:'3', java:'11', other:'c'},
+  #   {releaseCycle:'4', java:'11', other:'d'},
+  #   {releaseCycle:'5', java:'11', other:'d'},
+  #   {releaseCycle:'6', java:'17', other:'e'}
+  # ]
+  #
+  # {{ cycles | collapse:'java',' -> ' }}
+  # => [{releaseCycle:'1 -> 2', java:'8'}, {releaseCycle:'3 -> 5', java:'11'}, {releaseCycle:'6', java:'17'}]
+  def collapse_cycles(cycles, field, range_separator)
+    cycles
+      .to_h { |e| [e['releaseCycle'], e[field]] }
+      .group_by { |releaseCycle, value| value } # see https://stackoverflow.com/a/18841831/374236
+      .map { |value, entries|
+        cycles = entries.map { |e| e[0] }.sort_by { |cycle| Gem::Version.new(cycle) }
+        cycles.length() == 1 ? [cycles.first.to_s, value] : [cycles.first.to_s + range_separator + cycles.last.to_s, value]
+      }
+      .map { |cycleRange, value| Hash['releaseCycle', cycleRange, field, value] }
+  end
 end
 
 Liquid::Template.register_filter(EndOfLifeFilter)
