@@ -42,7 +42,7 @@ releases:
     releaseDate: 2022-09-22
 
 -   releaseCycle: "Galaxy A04"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-A045F/XXV/doc.html
     releaseDate: 2022-10-10
 
@@ -52,7 +52,7 @@ releases:
     releaseDate: 2022-09-13 # TODO: Verify date
 
 -   releaseCycle: "Galaxy A23 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false
     releaseDate: 2022-09-02
     
@@ -122,12 +122,12 @@ releases:
     releaseDate: 2022-04-01
 
 -   releaseCycle: "Galaxy A73 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-A736B/XSA/doc.html
     releaseDate: 2022-04-22
 
 -   releaseCycle: "Galaxy A13 LTE"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false
     releaseDate: 2022-04-22
 
@@ -137,7 +137,7 @@ releases:
     releaseDate: 2022-04-01
 
 -   releaseCycle: "Galaxy A33 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false
     releaseDate: 2022-04-01
     
@@ -147,12 +147,12 @@ releases:
     releaseDate: 2022-03-16
 
 -   releaseCycle: "Galaxy M33"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-M336BU/INS/doc.html
     releaseDate: 2022-04-08
 
 -   releaseCycle: "Galaxy M23"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-M236B/XXV/doc.html
     releaseDate: 2022-04-08
 
