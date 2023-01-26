@@ -44,13 +44,15 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 [cicada](https://github.com/mcandre/cicada). Find more on
 [our Known Users page](https://github.com/endoflife-date/endoflife.date/wiki/Known-Users).
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://opensource.guide/how-to-contribute/#opening-a-pull-request)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/endoflife-date/endoflife.date/issues/408)
 [![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg)](https://jekyllrb.com/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/https/endoflife.date.svg)](https://endoflife.date/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org)
 [![Gitter](https://img.shields.io/badge/chat%20on-gitter-green)](https://gitter.im/endoflife-date/community)
-[![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
 [![Twitter Follow Badge](https://img.shields.io/twitter/url.svg?label=@endoflife_date&style=social&url=https%3A%2F%2Ftwitter.com%2Fendoflife_date)](https://twitter.com/endoflife_date)
+
+[![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
+
 
 [python]: /python
 [nodejs]: /nodejs
