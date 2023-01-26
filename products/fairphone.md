@@ -13,12 +13,12 @@ releases:
     eol: false
     releaseDate: 2021-09-30
 -   releaseCycle: "Fairphone 3+"
-    discontinued: 2021-09-01
+    discontinued: false
     eol: 2021-09-01
     releaseDate: 2020-09-30
 -   releaseCycle: "Fairphone 3"
     discontinued: 2021-09-01
-    eol: 2021-09-01
+    eol: 2021-09-02
     releaseDate: 2019-09-30
 -   releaseCycle: "Fairphone 2"
     discontinued: 2021-11-01
