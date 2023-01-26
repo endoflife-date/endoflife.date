@@ -50,6 +50,7 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org)
 [![Gitter](https://img.shields.io/badge/chat%20on-gitter-green)](https://gitter.im/endoflife-date/community)
 [![Twitter Follow Badge](https://img.shields.io/twitter/url.svg?label=@endoflife_date&style=social&url=https%3A%2F%2Ftwitter.com%2Fendoflife_date)](https://twitter.com/endoflife_date)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/109754740897361848?domain=https%3A%2F%2Finfosec.exchange&style=social)
 
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
 
