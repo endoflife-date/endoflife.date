@@ -32,12 +32,12 @@ releases:
     releaseDate: 2022-11-21
 
 -   releaseCycle: "Galaxy A04e"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-A042F/XXV/doc.html
     releaseDate: 2022-11-07
 
 -   releaseCycle: "Galaxy A04s"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-A047F/XXV/doc.html
     releaseDate: 2022-09-22
 
@@ -47,7 +47,7 @@ releases:
     releaseDate: 2022-10-10
 
 -   releaseCycle: "Galaxy Tab Active 4 Pro"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-T636B/XSA/doc.html
     releaseDate: 2022-09-13 # TODO: Verify date
 
@@ -77,12 +77,12 @@ releases:
     releaseDate: 2022-08-26
 
 -   releaseCycle: "Galaxy M13 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-M136B/INS/doc.html
     releaseDate: 2022-07-23
 
 -   releaseCycle: "Galaxy M13 (India)"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-M135FU/INS/doc.html
     releaseDate: 2022-07-23
 
@@ -92,27 +92,27 @@ releases:
     releaseDate: 2022-07-13
 
 -   releaseCycle: "Galaxy A13 (SM-A137)"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # TODO
     releaseDate: 2022-07-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy F13"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-E135F/INS/doc.html
     releaseDate: 2022-06-29
 
 -   releaseCycle: "Galaxy M13"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # TODO
     releaseDate: 2022-07-01
 
 -   releaseCycle: "Galaxy Tab S6 Lite (2022)"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-P619/ATO/doc.html
     releaseDate: 2022-05-23
 
 -   releaseCycle: "Galaxy M53"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-M536B/SER/doc.html
     releaseDate: 2022-04-22
     
