@@ -26,7 +26,7 @@ releases:
     releaseDate: 2015-12-01
 -   releaseCycle: "Fairphone 1"
     discontinued: 2017-07-13
-    eol: 2017-07-13
+    eol: 2015-02-01
     releaseDate: 2013-12-01
 ---
 
