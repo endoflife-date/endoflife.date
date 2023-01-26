@@ -5,7 +5,6 @@ category: device
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
 discontinuedColumn: true
 activeSupportColumn: false
-eolColumn: Supported
 releaseColumn: false
 releaseDateColumn: true
 releases:
