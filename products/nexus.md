@@ -2,7 +2,6 @@
 title: Nexus Repository OSS
 category: server-app
 # https://github.com/simple-icons/simple-icons/issues/7924
-iconSlug: NA
 permalink: /nexus
 alternate_urls:
 -   /nexus-repository
