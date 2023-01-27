@@ -31,7 +31,7 @@ releases:
     releaseDate: 2013-12-01
 ---
 
-> Fairphone is a Dutch electronics manufacturer that designs and produces smartphones with the goal of having a lower environmental footprint and better social impact than is common in the industry.
+> Fairphone is a line of smartphones that are designed with the goal of having a lower environmental footprint and better social impact than is common in the industry.
 
 Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [might happen on a best effort basis](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-).
 
