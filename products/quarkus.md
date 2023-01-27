@@ -17,9 +17,18 @@ auto:
     # See https://rubular.com/r/NyoXd9iCLFcl25 for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
 
+# Note:
+# - eol(x) = releaseDate(x+1)
+# - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
--   releaseCycle: "2.15"
+-   releaseCycle: "2.16"
     eol: false
+    latest: "2.16.0"
+    latestReleaseDate: 2023-01-25
+    releaseDate: 2023-01-25
+
+-   releaseCycle: "2.15"
+    eol: 2023-06-25
     latest: "2.15.3"
     latestReleaseDate: 2023-01-10
     releaseDate: 2022-12-07
@@ -114,13 +123,13 @@ releases:
     latestReleaseDate: 2021-07-21
     releaseDate: 2021-06-23
 
--   releaseCycle: "1.x"
+-   releaseCycle: "1"
     eol: 2021-06-23
     latest: "1.13.7"
     latestReleaseDate: 2021-06-09
     releaseDate: 2019-11-25
 
--   releaseCycle: "0.x"
+-   releaseCycle: "0"
     eol: 2019-11-25
     latest: "0.28.1"
     latestReleaseDate: 2019-11-04
