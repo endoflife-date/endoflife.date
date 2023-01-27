@@ -18,16 +18,16 @@ releases:
     eol: 2021-09-01
     releaseDate: 2020-09-30
 -   releaseCycle: "3"
-    discontinued: 2021-09-01
+    discontinued: false
     eol: 2021-09-02
     releaseDate: 2019-09-30
 -   releaseCycle: "2"
-    discontinued: 2021-11-01
+    discontinued: 2023-03-01
     eol: 2019-03-22
     releaseDate: 2015-12-01
 -   releaseCycle: "1"
     discontinued: 2017-07-13
-    eol: 2015-02-01
+    eol: 2017-07-13
     releaseDate: 2013-12-01
 ---
 
