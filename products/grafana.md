@@ -20,8 +20,8 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-11-29
-    latest: "9.3.4"
-    latestReleaseDate: 2023-01-11
+    latest: "9.3.6"
+    latestReleaseDate: 2023-01-26
 
 -   releaseCycle: "9.2"
     support: false
