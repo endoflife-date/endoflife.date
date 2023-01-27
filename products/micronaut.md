@@ -4,6 +4,7 @@ category: framework
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework
+-   /mn
 releasePolicyLink: https://micronaut.io/support-schedule/
 changelogTemplate: "https://github.com/micronaut-projects/micronaut-core/releases/tag/v__LATEST__"
 activeSupportColumn: Active Development
