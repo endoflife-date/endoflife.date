@@ -5,7 +5,8 @@ iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
-changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__|replace:'-',''}}.html"
+changelogTemplate: |
+  https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{"__LATEST_RELEASE_DATE__"|replace:'-',''}}.html
 activeSupportColumn: false
 eolColumn: Support
 releaseDateColumn: true
