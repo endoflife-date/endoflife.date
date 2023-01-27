@@ -123,13 +123,13 @@ releases:
     latestReleaseDate: 2021-07-21
     releaseDate: 2021-06-23
 
--   releaseCycle: "1.x"
+-   releaseCycle: "1"
     eol: 2021-06-23
     latest: "1.13.7"
     latestReleaseDate: 2021-06-09
     releaseDate: 2019-11-25
 
--   releaseCycle: "0.x"
+-   releaseCycle: "0"
     eol: 2019-11-25
     latest: "0.28.1"
     latestReleaseDate: 2019-11-04
