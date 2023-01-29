@@ -15,12 +15,12 @@ releases:
     releaseDate: 2021-09-30
 
 -   releaseCycle: "3+"
-    discontinued: false
+    discontinued: 2022-11-01
     eol: 2025-09-30
     releaseDate: 2020-09-30
 
 -   releaseCycle: "3"
-    discontinued: false
+    discontinued: 2021-09-01
     eol: 2024-09-30
     releaseDate: 2019-09-30
 
@@ -38,5 +38,9 @@ releases:
 > Fairphone is a line of smartphones that are designed with the goal of having a lower environmental footprint and better social impact than is common in the industry.
 
 Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [might happen on a best effort basis](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-).
+
+- [Fairphone 4](https://shop.fairphone.com/en/buy-fairphone-4)
+- [Fairphone 3+](https://shop.fairphone.com/en/fairphone-3-plus)
+- [Fairphone 3](https://shop.fairphone.com/en/fairphone-3)
 
 See [`Android` versions](https://endoflife.date/android) for more.
