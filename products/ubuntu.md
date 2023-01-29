@@ -66,6 +66,7 @@ releases:
     support: 2021-07-22
     eol: 2021-07-22
     latest: "20.10"
+    link: https://old-releases.ubuntu.com/releases/20.10/
     releaseDate: 2020-10-22
     latestReleaseDate: 2020-10-22
     extendedSupport: false
@@ -76,6 +77,7 @@ releases:
     eol: 2025-04-02
     extendedSupport: 2030-04-02
     latest: "20.04.5"
+    link: https://old-releases.ubuntu.com/releases/20.04/
     releaseDate: 2020-04-23
     latestReleaseDate: 2022-09-01
 -   releaseCycle: "19.10"
@@ -83,6 +85,7 @@ releases:
     support: 2020-07-06
     eol: 2020-07-06
     latest: "19.10"
+    link: https://old-releases.ubuntu.com/releases/19.10/
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
     extendedSupport: false
@@ -93,7 +96,7 @@ releases:
     eol: 2023-04-02
     extendedSupport: 2028-04-01
     latest: "18.04.6"
-    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
+    link: https://old-releases.ubuntu.com/releases/19.10/
     releaseDate: 2018-04-26
     latestReleaseDate: 2021-09-17
 -   releaseCycle: "16.04"
@@ -103,6 +106,7 @@ releases:
     eol: 2021-04-02
     extendedSupport: 2026-04-02
     latest: "16.04.7"
+    link: https://releases.ubuntu.com/16.04/
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
 -   releaseCycle: "14.04"
@@ -112,6 +116,7 @@ releases:
     eol: 2019-04-02
     extendedSupport: 2024-04-02
     latest: "14.04.6"
+    link: https://releases.ubuntu.com/14.04/
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
 ---
