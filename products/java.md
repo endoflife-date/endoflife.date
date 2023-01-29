@@ -1,5 +1,5 @@
 ---
-title: Java/OpenJDK
+title: Java
 category: lang
 iconSlug: openjdk
 permalink: /java
