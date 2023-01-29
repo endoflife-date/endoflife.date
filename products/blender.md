@@ -1,6 +1,7 @@
 ---
 permalink: /blender
 title: Blender
+category: app
 releasePolicyLink: https://www.blender.org
 releaseDateColumn: true
 releaseColumn: true
