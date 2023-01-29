@@ -4,7 +4,7 @@ permalink: /apache-camel
 alternate_urls:
 -   /camel
 -   /camel-lang
-category: lang
+category: framework
 releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
 releaseColumn: true
