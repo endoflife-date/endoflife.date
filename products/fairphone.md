@@ -11,22 +11,22 @@ releaseLabel: "Fairphone __RELEASE_CYCLE__"
 releases:
 -   releaseCycle: "4"
     discontinued: false
-    eol: false
+    eol: 2026-09-30
     releaseDate: 2021-09-30
 
 -   releaseCycle: "3+"
     discontinued: false
-    eol: 2021-09-01
+    eol: 2025-09-30
     releaseDate: 2020-09-30
 
 -   releaseCycle: "3"
     discontinued: false
-    eol: 2021-09-02
+    eol: 2024-09-30
     releaseDate: 2019-09-30
 
 -   releaseCycle: "2"
     discontinued: 2023-03-01
-    eol: 2019-03-22
+    eol: 2023-03-01
     releaseDate: 2015-12-01
 
 -   releaseCycle: "1"
