@@ -1,6 +1,9 @@
 ---
 permalink: /internet-explorer
-title: Internet Explorer
+alternate_urls:
+-   /ie
+-   /iexplore
+title: Microsoft Internet Explorer 
 releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 releaseDateColumn: true
 releaseColumn: false
