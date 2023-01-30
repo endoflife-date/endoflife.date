@@ -112,11 +112,6 @@ policy](https://www.vmware.com/support/policies/application-platform.html), prov
 years with 3 years of general support and an additional 1 year of technical guidance during which
 bug fixes and security updates are no longer provided.
 
-Prior to Site Recovery Manager 8.3 the product followed the [Enterprise Infrastructure Support
-lifecycle policy](https://www.vmware.com/support/policies/enterprise-infrastructure.html), providing
-support for 7 years with 5 years of general support and an additional 2 years of technical guidance
-during which bug fixes and security updates are no longer provided.
-
 ## [General Support](https://lifecycle.vmware.com/)
 
 The last date on which you can request support; the end of regular VMware
