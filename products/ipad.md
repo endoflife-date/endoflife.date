@@ -87,7 +87,7 @@ releases:
     releaseLabel: "iPad Mini 3"
     releaseDate: 2014-10-22
     discontinued: 2015-09-09
-    eol: 2022-08-31
+    eol: false
 
 -   releaseCycle: "air-2"
     releaseLabel: "iPad Air 2"
@@ -99,13 +99,13 @@ releases:
     releaseLabel: "iPad Mini 2"
     releaseDate: 2013-11-12
     discontinued: 2017-03-21
-    eol: 2022-08-31
+    eol: false
 
 -   releaseCycle: "air-1"
     releaseLabel: "iPad Air (1st generation)"
     releaseDate: 2013-11-01
     discontinued: 2016-03-21
-    eol: 2022-08-31
+    eol: false
 
 -   releaseCycle: "4"
     releaseLabel: "iPad (4th generation)"
@@ -142,10 +142,7 @@ releases:
 > The iPad is a line of tablet based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
 
-Most likely, new iPad models will come out in September every year (with a few possible exceptions).
-Apple occasionally releases security updates for much older devices, such as
-[this security fix in iOS 12.5.6](https://support.apple.com/HT213428) which was pushed to iPad Air,
-iPad Mini 2, and iPad Mini 3.
+iPad Air, iPad Mini 2, and iPad Mini 3 are still receiving [iOS 12 security updates](https://support.apple.com/en-us/HT213597).
 
 Apple maintains a list of Supported iPhone models
 [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).

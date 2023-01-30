@@ -89,9 +89,11 @@ releases:
     discontinued: 2018-09-12
     eol: false
     releaseDate: 2015-09-25
+# iOS 12.5.7 was released on 23rd Jan 2023
+# so 6/6+/5S are marked as supported.
 -   releaseCycle: "iPhone 6 / 6 Plus"
     discontinued: 2016-09-07
-    eol: 2022-08-31
+    eol: false
     releaseDate: 2014-09-25
 -   releaseCycle: "iPhone 5C"
     discontinued: 2015-09-09
@@ -99,7 +101,7 @@ releases:
     releaseDate: 2013-09-20
 -   releaseCycle: "iPhone 5S"
     discontinued: 2016-03-21
-    eol: 2022-08-31
+    eol: false
     releaseDate: 2013-09-20
 
 ---
