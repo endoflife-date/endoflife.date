@@ -167,9 +167,8 @@ the latest version every week in between. Every `major.minor` version
 is no LTS versions. See [Quarkus Roadmap/planning](https://github.com/orgs/quarkusio/projects/13)
 for upcoming releases and features.
 
-If you need additional guarantees you can take a look at the
-[Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus). The code base used
-for this build is the same as the one used for the community version, but it comes with support,
-a [slower release cadence](https://access.redhat.com/support/policy/updates/jboss_notes#p_quarkus),
-and [certified builds of Quarkus and its dependencies](https://code.quarkus.redhat.com/). The Red
-Hat build of Quarkus requires a Red Hat subscription to run in production.
+Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus),
+with a longer support timeline. The code base used for this build is the same as the one used for
+the community version, but it comes with support, a [slower release cadence](https://access.redhat.com/support/policy/updates/jboss_notes#p_quarkus)
+and [certified builds of Quarkus and its dependencies](https://code.quarkus.redhat.com/). It
+requires a Red Hat subscription to run in production.
