@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "2.4"
     lts: true
     eol: 2026-04-01
-    latest: "2.4.20"
-    latestReleaseDate: 2022-12-09
+    latest: "2.4.21"
+    latestReleaseDate: 2023-01-27
     releaseDate: 2021-05-14
 -   releaseCycle: "2.3"
     eol: 2022-01-01
@@ -44,8 +44,8 @@ releases:
 -   releaseCycle: "2.2"
     lts: true
     eol: 2025-04-01
-    latest: "2.2.26"
-    latestReleaseDate: 2022-12-09
+    latest: "2.2.27"
+    latestReleaseDate: 2023-01-27
     releaseDate: 2020-07-07
 -   releaseCycle: "2.1"
     eol: 2021-03-18
