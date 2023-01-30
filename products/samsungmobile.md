@@ -1,7 +1,6 @@
 ---
 permalink: /samsung-mobile
 alternate_urls:
--   /samsung
 -   /samsungmobile
 title: Samsung Mobile
 category: device
