@@ -31,7 +31,7 @@ releases:
     releaseDate: 2023-01-18
 
 -   releaseCycle: "2.15"
-    eol: 2023-06-25
+    eol: 2023-01-25
     extendedSupport: false
     latest: "2.15.3"
     latestReleaseDate: 2023-01-10
