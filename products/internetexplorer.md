@@ -4,7 +4,7 @@ alternate_urls:
 -   /ie
 -   /msie
 -   /iexplore
-title: Microsoft Internet Explorer 
+title: Internet Explorer 
 releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 releaseDateColumn: true
 releaseColumn: false
