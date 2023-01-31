@@ -13,15 +13,22 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/neo4j/neo4j.git
 
+# eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "5.3"
+-   releaseCycle: "5.4"
     eol: false
+    latest: "5.4.0"
+    latestReleaseDate: 2023-01-26
+    releaseDate: 2023-01-26
+
+-   releaseCycle: "5.3"
+    eol: 2023-01-26
     latest: "5.3.0"
     latestReleaseDate: 2022-12-15
     releaseDate: 2022-12-15
 
 -   releaseCycle: "5.2"
-    eol: false
+    eol: 2022-12-15
     latest: "5.2.0"
     latestReleaseDate: 2022-11-21
     releaseDate: 2022-11-21
