@@ -1,22 +1,25 @@
 ---
 title: Apache ZooKeeper
+category: server-app
 permalink: /zookeeper
 alternate_urls:
 -   /apache_zookeeper
 -   /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
-category: server-app
 changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
+
 identifiers:
 -   repology: zookeeper
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
+
 auto:
 -   maven: org.apache.zookeeper/zookeeper
+
 releases:
 -   releaseCycle: "3.8"
     eol: false
@@ -24,24 +27,28 @@ releases:
     latest: "3.8.1"
     releaseDate: 2022-02-25
     latestReleaseDate: 2023-01-25
+
 -   releaseCycle: "3.7"
     eol: false
     support: true
     latest: "3.7.1"
     releaseDate: 2021-03-17
     latestReleaseDate: 2022-05-07
+
 -   releaseCycle: "3.6"
-    eol: false
+    eol: 2022-12-30
     support: 2022-03-07
     latest: "3.6.4"
     releaseDate: 2020-02-25
     latestReleaseDate: 2022-12-18
+
 -   releaseCycle: "3.5"
     eol: 2022-06-01
     support: 2021-03-27
     latest: "3.5.10"
     releaseDate: 2019-05-03
     latestReleaseDate: 2022-05-29
+
 -   releaseCycle: "3.4"
     eol: 2020-06-01
     support: 2020-03-27
