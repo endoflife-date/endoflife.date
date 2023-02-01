@@ -107,4 +107,4 @@ The 2016 version was the last to which SP appeared. As of 2017, only CU updates 
 
 ## Extended Security Updates (ESU)
 
-For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates). It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date. Customers can also get technical support for the ESU period as long as they also have an active support plan.
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates). It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date. Customers can also get technical support for the ESU period as long as they also have an active support plan.
