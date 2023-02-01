@@ -30,6 +30,9 @@ include:
 # Theme Documentation: https://pmarsceill.github.io/just-the-docs/
 theme: just-the-docs
 nav_sort: case_insensitive
+nav_external_links:
+  - title: Release Data
+    url: https://github.com/endoflife-date/release-data
 search_enabled: true
 # These links show up on the top
 aux_links:
