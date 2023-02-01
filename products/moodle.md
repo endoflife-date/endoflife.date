@@ -8,7 +8,7 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
-releaseImage: https://moodledev.io/assets/images/4010_release_graph-773a9f767c2a486113610b0eab0e324d.png
+releaseImage: https://moodledev.io/assets/images/4011_release_graph-67c5dac3e7ba705cf567a8624dc50c3d.png
 
 auto:
 -   git: https://github.com/moodle/moodle.git
