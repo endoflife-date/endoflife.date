@@ -10,7 +10,7 @@ gem "jekyll", "~> 4.3.1"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem 'jekyll-timeago'
-  gem "just-the-docs"
+  gem "just-the-docs", "~> 0.4.0.rc4"
   gem 'jekyll-seo-tag'
   gem 'jekyll-last-modified-at'
   gem 'jemoji'
