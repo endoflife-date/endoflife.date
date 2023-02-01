@@ -30,4 +30,4 @@ layout: null
 {% endfor %}
 
 # Send API 404 responses in JSON
-/api/*.json /assets/404.json 404
+/api/* /assets/404.json 404
