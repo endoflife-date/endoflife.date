@@ -84,4 +84,4 @@ defaults:
       extendedSupportWarnThreshold: 121
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 encoding: utf-8
-logo: "/assets/favicon-32x32.png"
+logo: "/assets/logo-with-text.png"

@@ -52,30 +52,3 @@ a {
   min-height: 1px;
   padding: 1.25rem;
 }
-
-body {
-  >svg {
-    &:nth-of-type(1) {
-      display: none;
-    }
-  }
-}
-
-.site-title {
-  margin-left: 2rem;
-
-  &:before {
-    content: '';
-    background:url('/assets/logo-192x192.png');
-    background-size:cover;
-    position:absolute;
-    width: 2rem;
-    height: 2rem;
-    margin-left: -2.1rem;
-    margin-bottom: -.3rem;
-  }
-}
-
-.align-items-center {
-  align-items: center;
-}

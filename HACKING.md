@@ -54,7 +54,7 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
 
 - The layout for the products page is in `_layouts/post.html`
 - Product data is in the `products` directory.
-- Automation scripts that fetch latest releases are in the `_auto` directory.
+- Automation scripts that updates latest releases are in the `_auto` directory. Also see the [`release-data`](https://github.com/endoflife-date/release-data/) repository, where the updates are fetched, and the [Automation](https://github.com/endoflife-date/endoflife.date/wiki/Automation) page on the wiki.
 - We follow the Jekyll directory structure:
   - `_includes` holds partial templates, such as the content for the `<head>` tag.
   - `assets` includes CSS/JS/Logo images etc
@@ -62,8 +62,7 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
   - `_config.yml` holds the Jekyll configuration, including list of plugins, exclude/include filelist, theme configuration, and plugin settings.
   - `Gemfile` and `Gemfile.lock` are package files for bundler.
 - `_headers` holds the template for generating a list of custom HTTP headers, in the Netlify Headers Format. A rendered version (might be dated) of the file can be seen [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_headers).
-- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a rendered version [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_redirects).
-- `Rakefile` configures the entrypoint for our automation scripts.
+- `_redirects` similarly holds the template for generating redirects from alternate URLs to main product pages, again in the Netlify format. You can see a (dated) rendered version [here](https://gist.github.com/captn3m0/e97ef4c3944ff32a2612800d1a2eca36#file-_redirects).
 - [`robots.txt`](https://en.wikipedia.org/wiki/Robots.txt) is for web scraping robots.
 - [`humans.txt`](https://endoflife.date/humans.txt) holds details about the people and tech behind the project.
 
@@ -73,8 +72,8 @@ The site is based on the [Just the Docs](https://github.com/just-the-docs/just-t
 [the documentation](https://just-the-docs.github.io/just-the-docs/) for knowing more about its configuration (beware,
 this configuration is for the current `main` branch, not for the version used by this site).
 
-If you need to override some parts, take a look at [the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/)
-of the documentation.
+If you need to override some parts, take a look at 
+[the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/) of the documentation.
 
 
 ## Logo
@@ -86,22 +85,23 @@ and EOL/cycles (with the colored split circle).
 Derived icons for various usages, such as [the web app manifest](/manifest.json) were generated
 using [RealFaviconGenerator.net](https://realfavicongenerator.net/).
 
-All icons were placed in the [`assets`](/assets) directory, except [`favicon.ico`](/favicon.ico).
-The _Just the Docs_ Jekyll theme mandates its path to `/favicon.ico`, and it seems a lot of browsers
-[assume this location anyway](https://stackoverflow.com/a/21359390/374236).
+All icons are placed in the [`assets`](/assets) directory.
+Our theme tries to pick the favicon from `/favicon.ico`, which we don't have to avoid this behaviour.
+However, many browsers will [assume this location anyway](https://stackoverflow.com/a/21359390/374236),
+so we have a redirect from /favicon.ico to a PNG version instead.
 
 Note that `android-chrome-*.png` icons were renamed to `logo-*.png`. Those icons are used in other
 contexts, such as on the site as a logo.
 
+The site logo is used as per the theme documentation.
+
 ## Automation
 
-Automation is currently focused towards fetching the latest releases for a given release cycle. Scripts for this are in the `_auto` directory, and run using `Rakefile`.
-
-All scripts should have fallback data in some form.
+Automation is currently focused towards updating the latest releases for a given release cycle against the `release-data` repository. Scripts for this are in the `_auto` directory.
 
 ## API
 
-The API is just JSON files generated in the `api` directory by `_plugins/create-json-files.rb`. The API is not stable, because the key names or release names are not consistent.
+The API is just JSON files generated in the `api` directory by `_plugins/create-json-files.rb`. The API is not yet stable, because the key names or release names are not consistent. See #2080 for a v1 release of the API.
 
 ### API Documentation
 
@@ -121,14 +121,16 @@ If you just want to add a new product or make some trivial changes, please see [
 
 The code is built and deployed to Netlify under it's Open Source Plan. We use the following Netlify Features:
 
-- Custom HTTP Headers (`_headers` file)
-- Custom Redirects (`_redirects` file)
+- Custom HTTP Headers (`_headers` file).
+- Custom Redirects (`_redirects` file).
+- Easy deploy previews.
+- Future plans to use Netlify Functions.
 
 The build script is kept in `netlify.toml`.
 
 ## Analytics
 
-There are no javascript trackers or analytics on the website. Netlify Analytics enabled as an experiment. Numbers from Netlify Analytics and Google Search Usability Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki)
+There are no javascript trackers or analytics on the website. Numbers from Google Search Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki). The data provided by Google is for publishers, and is based on search queries that showed endoflife.date in the search results. Google has more details [here](https://support.google.com/webmasters/answer/96568), including limitations of this data. Rare queries are ommitted by Google from this data to protect user privacy.
 
 ## Automation
 
