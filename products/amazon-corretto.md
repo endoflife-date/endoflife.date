@@ -5,6 +5,7 @@ iconSlug: openjdk
 permalink: /amazon-corretto
 alternate_urls:
 -   /corretto
+-   /amzn-corretto
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
 changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
