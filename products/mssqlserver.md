@@ -19,6 +19,7 @@ releases:
     eol: 2033-01-11
     extendedSupport: false
     latest: "16.0.1000.6"
+    link: https://www.microsoft.com/sql-server/sql-server-2022
 
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU18"
@@ -88,6 +89,7 @@ releases:
     releaseDate: 2006-01-14
     support: 2011-04-12
     eol: 2016-04-12
+    extendedSupport: false
     latest: "9.00.5324.0"
     link: https://support.microsoft.com/help/2716427
 
