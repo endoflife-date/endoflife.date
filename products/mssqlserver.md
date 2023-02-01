@@ -27,6 +27,7 @@ releases:
     eol: 2030-01-08
     extendedSupport: false
     latest: "15.0.4261.1"
+    link: https://support.microsoft.com/help/5017593
 
 -   releaseCycle: "2017"
     releaseLabel: "2017 CU31"
@@ -35,6 +36,7 @@ releases:
     eol: 2027-10-12
     extendedSupport: false
     latest: "14.0.3456.2"
+    link: https://support.microsoft.com/help/5016884
 
 -   releaseCycle: "2016"
     releaseLabel: "2016 SP3"
@@ -43,6 +45,7 @@ releases:
     eol: 2026-07-14
     extendedSupport: false
     latest: "13.0.6419.1"
+    link: https://support.microsoft.com/help/5014355
 
 -   releaseCycle: "2014"
     releaseLabel: "2014 SP3 CU4"
@@ -51,6 +54,7 @@ releases:
     eol: 2024-07-09
     extendedSupport: false
     latest: "12.0.6439.10"
+    link: https://support.microsoft.com/help/5014164
 
 -   releaseCycle: "2012"
     releaseLabel: "2012 SP4"
@@ -59,6 +63,7 @@ releases:
     eol: 2022-07-12
     extendedSupport: 2025-07-08
     latest: "11.0.7507.2"
+    link: https://support.microsoft.com/help/4583465
 
 -   releaseCycle: "2008 R2"
     releaseLabel: "2008 R2 SP3"
@@ -67,6 +72,24 @@ releases:
     eol: 2019-07-09
     extendedSupport: 2022-07-12
     latest: "10.50.6560.0"
+    link: https://support.microsoft.com/help/4057113
+
+-   releaseCycle: "2008"
+    releaseLabel: "2008 SP4"
+    releaseDate: 2008-11-06
+    support: 2014-07-08
+    eol: 2019-07-09
+    extendedSupport: 2022-07-12
+    latest: "10.0.6556.0"
+    link: https://support.microsoft.com/help/4057114
+
+-   releaseCycle: "2005"
+    releaseLabel: "2005 SP4"
+    releaseDate: 2006-01-14
+    support: 2011-04-12
+    eol: 2016-04-12
+    latest: "9.00.5324.0"
+    link: https://support.microsoft.com/help/2716427
 
 ---
 
