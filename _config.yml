@@ -37,6 +37,11 @@ search_enabled: true
 search:
   button: true
   placeholder_text: "Search for a product"
+# https://just-the-docs.github.io/just-the-docs/docs/configuration/#callouts
+callouts:
+  warning:
+    title: Warning
+    color: yellow
 # These links show up on the top
 aux_links:
   recommendations:
