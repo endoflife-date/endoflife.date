@@ -1,6 +1,7 @@
 ---
 layout: page
 nav_exclude: true
+search_exclude: true
 title: Home
 description: Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
 # This is the content for the website homepage (https://endoflife.date/)
