@@ -17,8 +17,8 @@ auto:
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 identifiers:
 -   purl: pkg:os/ubuntu
-activeSupportColumn: Hardware and Maintenance Updates
-eol: Maintenance Updates
+activeSupportColumn: Hardware & Maintenance
+eol: Maintenance/Security Support
 extendedSupportColumn: Extended Security Maintenance
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
@@ -29,7 +29,6 @@ releases:
     support: 2023-07-20
     eol: 2023-07-20
     latest: "22.10"
-    link: https://wiki.ubuntu.com/KineticKudu/ReleaseNotes/
     releaseDate: 2022-10-20
     latestReleaseDate: 2022-10-20
     extendedSupport: false
@@ -118,16 +117,39 @@ releases:
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
-Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
-
-LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below) for an additional 5 years. Interim releases are supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
+LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below) for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates" (2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
 
-Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the Ubuntu Pro subscription or a Free subscription. Please see the [Ubuntu Website](https://ubuntu.com/pro) for details.
+Packages in `universe` are expected to be community-supported on a best-effort basis during the LTS phase, but in practice, security-updates are only released to pro subscribtions.
 
-The dates for active and security support are taken from [here](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/static/js/src/chart-data.js) what is used for the graph rendering on the [Release Cycle Page](https://ubuntu.com/about/release-cycle).
+Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a [Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
 
-Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories. Ubuntu Pro (Infra-only) - previously known as Ubuntu Advantage - only guarantees security fixes for packages in the `main` repository - other packages are on a best-effort basis.
+Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories. Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in the `main` repository.
 
-For package specific support details, run the `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`).
+## Support Comparison
+
+Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
+-----|------------|------------------------------|-----------
+Main repository | 5 years | 10 years             | 10 years
+Restricted repository | 5 years | 10 years[^2]   |10 years [^2]
+Universe repository | Best Effort | Best Effort | 10 years 
+Phone/Ticket Support | No | Yes | Yes
+Kernel Live Patching | No  | Yes | Yes
+[Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No | Yes | Yes
+[Ubuntu Landscape](https://ubuntu.com/landscape) | No | Yes | Yes
+
+For package specific support details, the following commands are available:
+
+- `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
+- [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
+
+## Release Cadence
+
+Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
+
+[^1]: previously known as Ubuntu Advantage.
+[^2]: The restricted repository isn't explicitly listed in the Ubuntu Pro list of supported repositories, but it is likely supported.
+[^3]: This includes NIST-certified FIPS crypto-modules, USG hardening with CIS and DISA-STIG profiles, and Common Criteria EAL2.
+[^4]: Anyone can use Ubuntu Pro for free on up to 5 machines, or 50 if you are an official Ubuntu Community member.
+[^5]: The difference between these 2 is unclear, and not explained.
