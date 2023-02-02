@@ -21,13 +21,18 @@ auto:
 -   git: https://github.com/golang/go.git
     regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
+-   releaseCycle: "1.20"
+    eol: false
+    latest: "1.20"
+    releaseDate: 2023-02-01
+    latestReleaseDate: 2023-02-01
 -   releaseCycle: "1.19"
     eol: false
     latest: "1.19.5"
     releaseDate: 2022-08-02
     latestReleaseDate: 2023-01-10
 -   releaseCycle: "1.18"
-    eol: false
+    eol: 2023-02-01
     latest: "1.18.10"
     latestReleaseDate: 2023-01-10
     releaseDate: 2022-03-15
