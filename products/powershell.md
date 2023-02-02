@@ -3,6 +3,10 @@ category: app
 title: Microsoft PowerShell
 iconSlug: powershell
 permalink: /powershell
+alternate_urls:
+-   /pwsh
+-   /ps
+-   /ps1
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
