@@ -90,7 +90,7 @@ releases:
     support: 2011-04-12
     eol: 2016-04-12
     extendedSupport: false
-    latest: "9.00.5324.0"
+    latest: "9.0.5324.0"
     link: https://support.microsoft.com/help/2716427
 
 ---
