@@ -7,6 +7,7 @@ alternate_urls:
 -   /suseenterpriseserver
 -   /suseserver
 -   /suselinuxenterpriseserver
+-   /suse
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"| replace:'SLES ','' | replace:' ','-'}}/
