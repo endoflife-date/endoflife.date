@@ -1,6 +1,6 @@
 ---
 title: SonarQube
-category: lang
+category: server-app
 iconSlug: sonarqube
 permalink: /sonar
 alternate_urls:
