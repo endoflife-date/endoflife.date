@@ -153,6 +153,11 @@ releases:
     eol: false
     releaseDate: 2021-03-12
 
+-   releaseCycle: "Galaxy Xcover 4"
+    support: false
+    eol: 2021-04-01
+    releaseDate: 2017-04-01
+
 -   releaseCycle: "Galaxy M62"
     support: true
     eol: false
