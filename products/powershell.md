@@ -1,5 +1,5 @@
 ---
-category: app
+category: lang
 title: Microsoft PowerShell
 iconSlug: powershell
 permalink: /powershell
