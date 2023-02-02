@@ -17,3 +17,4 @@ _data/gke.json
 .vscode/*.code-snippets
 *.code-workspace
 node_modules
+.DS_Store
