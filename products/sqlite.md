@@ -3,6 +3,8 @@ title: SQLite
 category: db
 iconSlug: sqlite
 permalink: /sqlite
+alternate_urls:
+-   /sqlite3
 releasePolicyLink: https://www.sqlite.org/news.html
 changelogTemplate: https://sqlite.org/releaselog/__LATEST__/.html
 activeSupportColumn: false
@@ -327,7 +329,21 @@ releases:
 
 > The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private
 
+## Long Term Support
 
-- https://sqlite.org/src/timeline
-- https://www.sqlite.org/changes.html
-- https://www.sqlite.org/chronology.html
+_"The intent of the developers is to support SQLite through the year 2050."_
+
+> In addition to "supporting" SQLite through the year 2050, the developers also promise to keep
+> the SQLite [`C-language API`](https://www.sqlite.org/cintro.html) and [`on-disk format`](https://www.sqlite.org/fileformat2.html)
+> fully backwards compatible.
+> This means that application written to use SQLite today should be able to link against and
+> use future versions of SQLite released decades in the future.
+
+See [Long Term Support official and dedicated page](https://www.sqlite.org/lts.html) for more.
+
+## Useful links
+
+- [Timeline](https://sqlite.org/src/timeline)
+- [Changes](https://www.sqlite.org/changes.html)
+- [Chronology](https://www.sqlite.org/chronology.html)
+- [Long Term Support](https://www.sqlite.org/lts.html)
