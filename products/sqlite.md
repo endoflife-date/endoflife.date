@@ -316,7 +316,7 @@ releases:
     latestReleaseDate: 2001-11-04
     releaseDate: 2001-09-28
 
--   releaseCycle: "1.0"
+-   releaseCycle: "1"
     eol: false
     latest: "1.00.32"
     latestReleaseDate: 2001-07-23
