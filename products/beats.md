@@ -31,8 +31,8 @@ releases:
 -   releaseCycle: "7"
     # Maintained until 9.0.0
     eol: 2023-08-01
-    latest: "7.17.8"
-    latestReleaseDate: 2022-12-08
+    latest: "7.17.9"
+    latestReleaseDate: 2023-02-02
     releaseDate: 2019-04-05
 
 -   releaseCycle: "6"

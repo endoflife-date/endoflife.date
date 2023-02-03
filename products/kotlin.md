@@ -24,8 +24,8 @@ auto:
 releases:
 -   releaseCycle: "1.8"
     eol: false
-    latest: "1.8.0"
-    latestReleaseDate: 2022-12-28
+    latest: "1.8.10"
+    latestReleaseDate: 2023-02-02
     releaseDate: 2022-12-28
 
 -   releaseCycle: "1.7"
