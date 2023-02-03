@@ -183,8 +183,6 @@ releases:
     releaseDate: 2014-04-16
     latestReleaseDate: 2022-11-30
     latest: "3.9.40"
-    # 3.9.39 was a mistakenly released and equals to 3.9.38 ( without a changelog )
-    link: https://wordpress.org/support/wordpress-version/version-3-9-38/
 
 -   releaseCycle: "3.8"
     eol: 2022-12-01
