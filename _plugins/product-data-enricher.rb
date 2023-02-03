@@ -76,23 +76,22 @@ module Jekyll
       end
 
       def set_cycle_link(page, cycle)
-        if !cycle.has_key?('link') && page['changelogTemplate']
-          link = page['changelogTemplate'].gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
-          link.gsub!('__CODENAME__', cycle['codename'] || '')
-          link.gsub!('__LATEST__', cycle['latest'] || '')
-          link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
-          cycle['link'] = Liquid::Template.parse(link).render(@context)
+        if cycle.has_key?('link')
+          # null link means no changelog template
+          if cycle['link'] && cycle['link'].include?('__')
+            cycle['link'] = render_eol_template(cycle['link'], cycle)
+          end
+        else
+          if page['changelogTemplate']
+            cycle['link'] = render_eol_template(page['changelogTemplate'], cycle)
+          end
         end
       end
 
       def set_cycle_label(page, cycle)
         template = cycle['releaseLabel'] || page.data['releaseLabel']
-
         if template
-          label = template.gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
-          label.gsub!('__CODENAME__', cycle['codename'] || '')
-          label.gsub!('__LATEST__', cycle['latest'] || '')
-          cycle['label'] = Liquid::Template.parse(label).render(@context)
+          cycle['label'] = render_eol_template(template, cycle)
         else
           cycle['label'] = cycle['releaseCycle']
         end
@@ -113,6 +112,16 @@ module Jekyll
             end
           end
         end
+      end
+
+      private
+
+      def render_eol_template(template, cycle)
+        link = template.gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
+        link.gsub!('__CODENAME__', cycle['codename'] || '')
+        link.gsub!('__LATEST__', cycle['latest'] || '')
+        link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
+        cycle['link'] = Liquid::Template.parse(link).render(@context)
       end
     end
   end

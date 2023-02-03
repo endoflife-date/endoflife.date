@@ -47,7 +47,7 @@ releases:
     eol: false
     latest: "2.13.10"
     latestReleaseDate: 2022-10-08
-    link: https://github.com/scala/scala/releases/tag/v2.13.10
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"
     releaseDate: 2016-10-28
@@ -55,7 +55,7 @@ releases:
     eol: false
     latest: "2.12.17"
     latestReleaseDate: 2022-09-14
-    link: https://github.com/scala/scala/releases/tag/v2.12.17
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.11"
     releaseDate: 2014-04-16
@@ -63,7 +63,7 @@ releases:
     eol: false
     latest: "2.11.12"
     latestReleaseDate: 2017-11-06
-    link: https://github.com/scala/scala/releases/tag/v2.11.12
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.10"
     releaseDate: 2012-12-19
@@ -71,7 +71,7 @@ releases:
     eol: false
     latest: "2.10.7"
     latestReleaseDate: 2017-11-06
-    link: https://github.com/scala/scala/releases/tag/v2.10.7
+    link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 ---
 
