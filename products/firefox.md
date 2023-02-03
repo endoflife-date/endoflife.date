@@ -5,7 +5,7 @@ category: app
 releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: firefox
+iconSlug: firefoxbrowser
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 
