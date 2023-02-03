@@ -18,6 +18,7 @@ releases:
     support: 2027-05-31
     eol: 2027-05-31
     latest: "9"
+    link: https://blog.centos.org/2021/12/introducing-centos-stream-9/
 
 -   releaseCycle: "stream-8"
     releaseLabel: "CentOS Stream 8"
