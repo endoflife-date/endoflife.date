@@ -6,6 +6,8 @@ alternate_urls:
 -   /xcpng
 versionCommand: software-version
 releasePolicyLink: https://xcp-ng.org/docs/releases.html
+activeSupportColumn: false
+eolColumn: Support
 
 auto:
 -   git: https://github.com/xcp-ng/xcp-ng-release.git
@@ -13,43 +15,37 @@ auto:
 releases:
 -   releaseCycle: "8.2"
     releaseDate: 2020-11-18
-    eol: false
-    support: 2025-06-25
+    eol: 2025-06-25
     lts: true
     latest: "8.2.1"
 
 -   releaseCycle: "8.1"
     releaseDate: 2020-03-31
-    eol: true
-    support: 2021-03-31
+    eol: 2021-03-31
     lts: false
     latest: "8.1"
 
 -   releaseCycle: "8.0"
     releaseDate: 2019-07-25
-    eol: true
-    support: 2020-11-13
+    eol: 2020-11-13
     lts: false
     latest: "8.0"
 
 -   releaseCycle: "7.6"
     releaseDate: 2018-10-31
-    eol: true
-    support: 2020-03-30
+    eol: 2020-03-30
     lts: false
     latest: "7.6"
 
 -   releaseCycle: "7.5"
     releaseDate: 2018-08-10
-    eol: true
-    support: 2019-07-25
+    eol: 2019-07-25
     lts: false
     latest: "7.5"
 
 -   releaseCycle: "7.4"
     releaseDate: 2018-03-31
-    eol: true
-    support: 2018-10-31
+    eol: 2018-10-31
     lts: false
     latest: "7.4"
 
