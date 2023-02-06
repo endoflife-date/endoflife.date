@@ -1,7 +1,6 @@
 ---
 title: XCP-ng
 category: os
-iconSlug: xcp-ng
 permalink: /xcp-ng
 alternate_urls:
 -   /xcpng
