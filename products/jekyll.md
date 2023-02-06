@@ -27,23 +27,23 @@ releases:
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     latest: "3.9.3"
     latestReleaseDate: 2023-01-30
-    releaseDate: 2015-10-27
+    releaseDate: 2015-10-26
 
 -   releaseCycle: "2"
     eol: 2015-10-27
     support: false
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     latest: "2.5.3"
-    latestReleaseDate: 2015-01-24
-    releaseDate: 2014-05-07
+    latestReleaseDate: 2014-12-22
+    releaseDate: 2014-05-06
 
 -   releaseCycle: "1"
     eol: 2014-05-07
     support: false
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://github.com/jekyll/jekyll/releases/tag/v1.2.0
     latest: "1.5.1"
-    latestReleaseDate: 2014-04-23
-    releaseDate: 2013-06-14
+    latestReleaseDate: 2014-03-28
+    releaseDate: 2013-05-06
 
 -   releaseCycle: "0"
     eol: 2014-05-07
