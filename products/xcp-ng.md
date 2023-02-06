@@ -7,6 +7,9 @@ alternate_urls:
 versionCommand: software-version
 releasePolicyLink: https://xcp-ng.org/docs/releases.html
 
+auto:
+-   git: https://github.com/xcp-ng/xcp-ng-release.git
+
 releases:
 -   releaseCycle: "8.2"
     releaseDate: 2020-11-18
