@@ -5,7 +5,7 @@ permalink: /xcp-ng
 alternate_urls:
 -   /xcpng
 versionCommand: software-version
-releasePolicyLink: https://xcp-ng.org/docs/releases.html#all-releases
+releasePolicyLink: https://xcp-ng.org/docs/releases.html
 
 releases:
 -   releaseCycle: "8.2"
