@@ -16,11 +16,18 @@ auto:
 -   npm: electron
 
 # The EOL dates will need to be corrected once a new release comes out.
-# v23 (releaseDate) = v20 (eol)
 # v24 (releaseDate) = v21 (eol)
 # v25 (releaseDate) = v22 (eol)
+# v26 (releaseDate) = v23 (eol)
 # and so on...
 releases:
+-   releaseCycle: "23"
+    # 2023-02-06 + 6 months
+    eol: 2023-08-06
+    releaseDate: 2023-02-06
+    latestReleaseDate: 2023-02-06
+    latest: "23.0.0"
+
 -   releaseCycle: "22"
     eol: 2023-07-07
     releaseDate: 2022-11-30
@@ -34,7 +41,7 @@ releases:
     latest: "21.4.1"
 
 -   releaseCycle: "20"
-    eol: 2023-02-01
+    eol: 2023-02-06
     latest: "20.3.11"
     latestReleaseDate: 2023-01-25
     releaseDate: 2022-08-01
