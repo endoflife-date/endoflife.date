@@ -17,6 +17,14 @@ identifiers:
 -   purl: pkg:pypi/wagtail
 
 releases:
+-   releaseCycle: "4.2"
+    support: 2023-05-02
+    lts: false
+    eol: 2023-08-01
+    latest: "4.2"
+    latestReleaseDate: 2023-02-06
+    releaseDate: 2023-02-06
+
 -   releaseCycle: "4.1"
     support: 2024-02-01
     lts: true
@@ -143,7 +151,7 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 
 Wagtail release | Compatible Django versions | Compatible Python versions
 ----------------|----------------------------|----------------------------
-4               | 3.2, 4.0, 4.1              | 3.7-3.10
+4               | 3.2, 4.0, 4.1              | 3.7-3.11
 3               | 3.2, 4.0                   | 3.7-3.10
 2.15 LTS        | 3.0, 3.1, 3.2              | 3.6-3.10
 
