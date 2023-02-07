@@ -22,7 +22,7 @@ releases:
     support: true
     eol: false
     latest: "9.9.0"
-    latestReleaseDate: 2023-02-04
+    latestReleaseDate: 2023-02-06
 
 -   releaseCycle: "8"
     releaseDate: 2020-05-08
