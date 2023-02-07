@@ -77,7 +77,7 @@ releases:
     support: 2015-11-19
     latestReleaseDate: 2022-06-01
     eol: 2023-11-01
-    latest: "7.90"
+    latest: "7.94"
     lts: true
     releaseDate: 2011-01-05
 
