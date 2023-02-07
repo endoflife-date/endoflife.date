@@ -11,7 +11,7 @@ releaseDateColumn: true
 releaseColumn: true
 
 auto:
--   git: https://github.com/drupal/core.git
+-   git: https://github.com/drupal/drupal.git
 
 identifiers:
 -   purl: pkg:composer/drupal/core
