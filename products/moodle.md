@@ -21,7 +21,6 @@ releases:
     lts: true
     releaseDate: 2022-11-26
     latestReleaseDate: 2023-01-14
-    link: "https://moodledev.io/general/releases/4.1" # remove once 4.1.1 is released
 
 -   releaseCycle: "4.0"
     eol: 2023-11-13
