@@ -130,7 +130,7 @@ releases:
     lts: false
     support: 2009-11-03
     eol: 2009-11-03
-    latest: "1.5.0_85"
+    latest: "5.0u85"
     releaseDate: 2004-09-29
     link: https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html
     latestReleaseDate: 2015-04-14
