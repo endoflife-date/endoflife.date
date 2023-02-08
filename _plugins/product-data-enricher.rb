@@ -121,7 +121,7 @@ module Jekyll
         link.gsub!('__CODENAME__', cycle['codename'] || '')
         link.gsub!('__LATEST__', cycle['latest'] || '')
         link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
-        cycle['link'] = Liquid::Template.parse(link).render(@context)
+        return Liquid::Template.parse(link).render(@context)
       end
     end
   end
