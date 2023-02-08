@@ -125,6 +125,15 @@ releases:
     releaseDate: 2006-12-12
     link: https://www.oracle.com/java/technologies/javase/6-relnotes.html#R160_211
     latestReleaseDate: 2018-10-16
+    
+-   releaseCycle: "5"
+    lts: false
+    support: 2009-11-03
+    eol: 2009-11-03
+    latest: "5.0u85"
+    releaseDate: 2004-09-29
+    link: https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html
+    latestReleaseDate: 2015-04-14
 
 ---
 
