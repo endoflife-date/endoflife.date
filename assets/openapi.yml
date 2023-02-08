@@ -296,7 +296,9 @@ components:
           minLength: 1
           description: Latest release in this cycle
         link:
-          type: string
+          type: 
+          - string
+          - 'null'
           minLength: 1
           description: 'Link to changelog for the latest release, if available'
         lts:
