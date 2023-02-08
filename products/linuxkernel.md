@@ -58,8 +58,8 @@ releases:
 -   releaseCycle: "5.15"
     eol: 2026-10-31
     lts: true
-    latest: "5.15.91"
-    latestReleaseDate: 2023-02-01
+    latest: "5.15.92"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
