@@ -125,6 +125,15 @@ releases:
     releaseDate: 2006-12-12
     link: https://www.oracle.com/java/technologies/javase/6-relnotes.html#R160_211
     latestReleaseDate: 2018-10-16
+    
+-   releaseCycle: "5"
+    lts: false
+    support: 2015-04-01
+    eol: 2009-11-01
+    latest: "1_5_0_22"
+    releaseDate: 2004-09-29
+    link: https://www.oracle.com/java/technologies/javase/releasenotes-v150.html
+    latestReleaseDate: 2015-04-14
 
 ---
 
