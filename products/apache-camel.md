@@ -24,8 +24,8 @@ releases:
     eol: 2023-12-31
     lts: true
     supportedJavaVersions: 11, 17
-    latest: "3.20.1"
-    latestReleaseDate: 2023-01-03
+    latest: "3.20.2"
+    latestReleaseDate: 2023-02-03
 
 -   releaseCycle: "3.19"
     releaseDate: 2022-09-29
