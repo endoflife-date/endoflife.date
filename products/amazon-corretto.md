@@ -78,9 +78,9 @@ releases:
 > the Java SE standard. It is available on Linux, Windows, macOS and Docker.
 
 Initially, only LTS versions of OpenJDK were released.
-Since OpenJDK 15 Corretto follows the same cadence as OpenJDK, with 6-month rapid-release cycle.
-Starting with OpenJDK 11, there is a new LTS releases every 3 years (six OpenJDK releases).
-After OpenJDK 17, the LTS frequency will be increased to every 2 years (four OpenJDK releases).
+Since OpenJDK 15, Corretto follows the same cadence as OpenJDK, with 6-month rapid-release cycle.
+Starting with OpenJDK 11, there is a new LTS release every 3 years (every sixth OpenJDK release).
+After OpenJDK 17, the LTS frequency will be increased to every 2 years (every fourth OpenJDK release).
 
 LTS releases includes performance enhancements and security updates, both from the upstream OpenJDK
 project and from Amazon. The list of Amazon patches can be seen in [each version's documentation](https://docs.aws.amazon.com/corretto/).
