@@ -11,23 +11,24 @@ changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.
 releaseDateColumn: true
 
 # There is one repository for each major release (except for 15 and 16).
+auto:
 -   git: https://github.com/corretto/corretto-jdk.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 -   git: https://github.com/corretto/corretto-8.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 -   git: https://github.com/corretto/corretto-11.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 -   git: https://github.com/corretto/corretto-17.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 -   git: https://github.com/corretto/corretto-18.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 -   git: https://github.com/corretto/corretto-19.git
-    regex: ^(?<version>[\d\.]+)$
+    regex: "^(?<version>[\d\.]+)$"
     template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
