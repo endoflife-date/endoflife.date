@@ -18,7 +18,7 @@ auto:
 identifiers:
 -   purl: pkg:os/ubuntu
 activeSupportColumn: Hardware & Maintenance
-eol: Maintenance/Security Support
+eolColumn: Maintenance/Security Support
 extendedSupportColumn: Extended Security Maintenance
 releaseDateColumn: true
 releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
