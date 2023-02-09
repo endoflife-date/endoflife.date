@@ -7,11 +7,17 @@ releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
+eolColumn: Bug and Security Fixes
 
 auto:
 -   git: https://github.com/jenkinsci/jenkins.git
     regex: '^jenkins-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
 
+# releaseCycle 2 catches weekly releases, other are LTS.
+# For an LTS :
+# - Its support date is its release date, meaning there will never be backport of features.
+# - Its EOL date is the releaseDate of the next LTS version, meaning the release date of the first
+#   patch version of the minor version choosed to be the next LTS (e.g. 2.361.1).
 releases:
 -   releaseCycle: "2"
     releaseLabel: "Regular"
@@ -21,18 +27,26 @@ releases:
     latestReleaseDate: 2023-02-07
     releaseDate: 2016-04-20
 
+-   releaseCycle: "2.375"
+    lts: true
+    support: 2022-10-25
+    eol: false
+    latest: "2.375.3"
+    latestReleaseDate: 2023-02-08
+    releaseDate: 2022-10-25
+
 -   releaseCycle: "2.361"
     lts: true
-    support: true
-    eol: false
+    support: 2022-07-26
+    eol: 2022-11-30
     latest: "2.361.4"
     latestReleaseDate: 2022-11-14
     releaseDate: 2022-07-26
 
 -   releaseCycle: "2.346"
     lts: true
-    support: 2022-09-07
-    eol: 2022-09-07 # release date of 2.361.1 (next LTS)
+    support: 2022-05-03
+    eol: 2022-09-07
     latest: "2.346.3"
     latestReleaseDate: 2022-08-10
     releaseDate: 2022-05-03
