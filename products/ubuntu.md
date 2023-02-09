@@ -117,6 +117,12 @@ releases:
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
+## Release Cadence
+
+Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
+
+## Support Lifecycle
+
 LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below) for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates" (2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
 
 During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
@@ -143,10 +149,6 @@ For package specific support details, the following commands are available:
 
 - `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
 - [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
-
-## Release Cadence
-
-Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
 
 ---
 
