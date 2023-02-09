@@ -150,7 +150,7 @@ Releases of Ubuntu get a development codename ("Breezy Badger") and are versione
 
 ---
 
-[^1]: previously known as Ubuntu Advantage.
+[^1]: Previously known as Ubuntu Advantage.
 [^2]: The restricted repository isn't explicitly listed in the Ubuntu Pro list of supported repositories, but it is likely supported.
 [^3]: This includes NIST-certified FIPS crypto-modules, USG hardening with CIS and DISA-STIG profiles, and Common Criteria EAL2.
 [^4]: Anyone can use Ubuntu Pro for free on up to 5 machines, or 50 if you are an official Ubuntu Community member.
