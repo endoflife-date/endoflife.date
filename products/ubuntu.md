@@ -139,7 +139,7 @@ Feature/Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
 -----|------------|------------------------------|-----------
 Main repository | 5 years | 10 years             | 10 years
 Restricted repository | 5 years | 10 years[^2]   |10 years [^2]
-Universe repository | Best Effort | Best Effort | 10 years 
+Universe repository | Best Effort[^6] | Best Effort | 10 years 
 Phone/Ticket Support | No | Yes | Yes
 Kernel Live Patching | No  | Yes | Yes
 [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No | Yes | Yes
@@ -157,3 +157,4 @@ For package specific support details, the following commands are available:
 [^3]: This includes NIST-certified FIPS crypto-modules, USG hardening with CIS and DISA-STIG profiles, and Common Criteria EAL2.
 [^4]: Anyone can use Ubuntu Pro for free on up to 5 machines, or 50 if you are an official Ubuntu Community member.
 [^5]: The difference between these 2 is unclear, and not explained.
+[^6]: While promised, Canonical doesn't seem to be backporting any security-fixes in the universe repository to users without a Pro subscription.
