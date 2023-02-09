@@ -3,7 +3,7 @@ title: Jenkins
 category: server-app
 iconSlug: jenkins
 permalink: /jenkins
-releasePolicyLink: https://www.jenkins.io/download/
+releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
