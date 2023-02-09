@@ -12,11 +12,11 @@ releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-road
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-relnotes.html"
 releaseDateColumn: true
 identifiers:
-- purl: pkg:generic/java
-- purl: pkg:docker/library/openjdk
-- purl: pkg:docker/circleci/openjdk
-- purl: pkg:docker/cimg/openjdk
-- repology: openjdk
+-   purl: pkg:generic/java
+-   purl: pkg:docker/library/openjdk
+-   purl: pkg:docker/circleci/openjdk
+-   purl: pkg:docker/cimg/openjdk
+-   repology: openjdk
 auto:
 -   custom: true
 
@@ -125,13 +125,13 @@ releases:
     releaseDate: 2006-12-12
     link: https://www.oracle.com/java/technologies/javase/6-relnotes.html#R160_211
     latestReleaseDate: 2018-10-16
-    
+
 -   releaseCycle: "5"
     lts: false
     support: 2009-11-03
     eol: 2009-11-03
     latest: "5.0u85"
-    releaseDate: 2004-09-29
+    releaseDate: 2004-09-30
     link: https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html
     latestReleaseDate: 2015-04-14
 
