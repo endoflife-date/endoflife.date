@@ -135,7 +135,7 @@ Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in
 
 ## Support Comparison
 
-Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
+Feature/Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
 -----|------------|------------------------------|-----------
 Main repository | 5 years | 10 years             | 10 years
 Restricted repository | 5 years | 10 years[^2]   |10 years [^2]
