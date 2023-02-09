@@ -148,6 +148,8 @@ For package specific support details, the following commands are available:
 
 Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
 
+---
+
 [^1]: previously known as Ubuntu Advantage.
 [^2]: The restricted repository isn't explicitly listed in the Ubuntu Pro list of supported repositories, but it is likely supported.
 [^3]: This includes NIST-certified FIPS crypto-modules, USG hardening with CIS and DISA-STIG profiles, and Common Criteria EAL2.
