@@ -3,16 +3,18 @@ title: SQLite
 category: db
 iconSlug: sqlite
 permalink: /sqlite
+versionCommand: sqlite3 --version
 releasePolicyLink: https://sqlite.org/com/tech.html
 changelogTemplate: https://sqlite.org/releaselog/__LATEST__/.html
+releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support Status
-versionCommand: sqlite3 --version
-releaseDateColumn: true
+
 auto:
 -   git: https://github.com/sqlite/sqlite.git
   # https://rubular.com/r/KlemgnguNe0e5X
   #  regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
+
 releases:
 -   releaseCycle: "3.40"
     eol: false
@@ -323,9 +325,8 @@ releases:
 ---
 
 > SQLite is an in-process library that implements a self-contained, serverless, zero-configuration,
-> transactional SQL database engine.
-
-> The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private
+> transactional SQL database engine. The code for SQLite is in the public domain and is thus free
+> for use for any purpose, commercial or private
 
 ## Long Term Support
 
