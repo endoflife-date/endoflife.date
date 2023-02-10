@@ -6,7 +6,7 @@ permalink: /sqlite
 alternate_urls:
 -   /sqlite3
 versionCommand: sqlite3 --version
-releasePolicyLink: https://www.sqlite.org/prosupport.html
+releasePolicyLink: https://www.sqlite.org/support.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
 releaseDateColumn: true
 activeSupportColumn: false
