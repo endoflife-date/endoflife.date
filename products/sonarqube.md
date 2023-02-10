@@ -21,14 +21,14 @@ releases:
     releaseDate: 2021-07-02
     support: true
     eol: false
+    lts: 2023-02-07
     latest: "9.9.0"
     latestReleaseDate: 2023-02-06
 
 -   releaseCycle: "8"
     releaseDate: 2020-05-08
     support: 2021-07-05
-    # Should be 2022-11-04 as per the policy, but is now in the past
-    eol: false
+    eol: 2023-02-07
     lts: 2021-05-04
     latest: "8.9.10"
     latestReleaseDate: 2022-12-19
