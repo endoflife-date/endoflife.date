@@ -22,8 +22,8 @@ auto:
 releases:
 -   releaseCycle: "23.0"
     eol: false
-    latest: "23.0.0"
-    latestReleaseDate: 2023-02-02
+    latest: "23.0.1"
+    latestReleaseDate: 2023-02-10
     releaseDate: 2023-02-02
 
 -   releaseCycle: "20.10"
