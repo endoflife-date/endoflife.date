@@ -3,6 +3,8 @@ title: SQLite
 category: db
 iconSlug: sqlite
 permalink: /sqlite
+alternate_urls:
+-   /sqlite3
 versionCommand: sqlite3 --version
 releasePolicyLink: https://sqlite.org/com/tech.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
