@@ -5,7 +5,7 @@ iconSlug: sqlite
 permalink: /sqlite
 versionCommand: sqlite3 --version
 releasePolicyLink: https://sqlite.org/com/tech.html
-changelogTemplate: https://sqlite.org/releaselog/__LATEST__/.html
+changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support Status
