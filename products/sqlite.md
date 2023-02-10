@@ -6,13 +6,13 @@ permalink: /sqlite
 alternate_urls:
 -   /sqlite3
 versionCommand: sqlite3 --version
-releasePolicyLink: https://sqlite.org/com/tech.html
+releasePolicyLink: https://www.sqlite.org/prosupport.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support Status
 
-# Only contains versions from version 3.6.10.
+# This git mirror only contains versions from 3.6.10.
 auto:
 -   git: https://github.com/sqlite/sqlite.git
     regex: '^version-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
@@ -41,23 +41,13 @@ releases:
 
 > SQLite is an in-process library that implements a self-contained, serverless, zero-configuration,
 > transactional SQL database engine. The code for SQLite is in the public domain and is thus free
-> for use for any purpose, commercial or private
+> for use for any purpose, commercial or private.
 
-## Long Term Support
+SQLite follows [semantic versioning](https://semver.org) since [3.9.0](https://www.sqlite.org/versionnumbers.html).
+Only the latest version is supported, but [various professional support options](https://www.sqlite.org/prosupport.html)
+are available. The most notable one is the [Technical Support](https://sqlite.org/com/tech.html)
+which gives access to support for any version of SQLite up to a year old.
 
-_"The intent of the developers is to support SQLite through the year 2050."_
-
-> In addition to "supporting" SQLite through the year 2050, the developers also promise to keep
-> the SQLite [`C-language API`](https://www.sqlite.org/cintro.html) and [`on-disk format`](https://www.sqlite.org/fileformat2.html)
-> fully backwards compatible.
-> This means that application written to use SQLite today should be able to link against and
-> use future versions of SQLite released decades in the future.
-
-See [Long Term Support official and dedicated page](https://www.sqlite.org/lts.html) for more.
-
-## Useful links
-
-- [Timeline](https://sqlite.org/src/timeline)
-- [Changes](https://www.sqlite.org/changes.html)
-- [Chronology](https://www.sqlite.org/chronology.html)
-- [Long Term Support](https://www.sqlite.org/lts.html)
+Developers made a pledge to [_support SQLite through the year 2050_](https://www.sqlite.org/lts.html).
+This doesn't mean they are supporting [all SQLite releases](https://www.sqlite.org/chronology.html),
+it means they plan as if they will be supporting SQLite until 2050.
