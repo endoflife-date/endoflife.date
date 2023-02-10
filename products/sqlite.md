@@ -5,7 +5,7 @@ iconSlug: sqlite
 permalink: /sqlite
 alternate_urls:
 -   /sqlite3
-releasePolicyLink: https://www.sqlite.org/news.html
+releasePolicyLink: https://sqlite.org/com/tech.html
 changelogTemplate: https://sqlite.org/releaselog/__LATEST__/.html
 activeSupportColumn: false
 eolColumn: Support Status
@@ -73,7 +73,7 @@ releases:
 -   releaseCycle: "3.31"
     eol: false
     latest: "3.31.1"
-    latestReleaseDate: 2020-01-27 	
+    latestReleaseDate: 2020-01-27
     releaseDate: 2020-01-22
 
 -   releaseCycle: "3.30"
@@ -86,7 +86,7 @@ releases:
     eol: false
     latest: "3.29.0"
     latestReleaseDate: 2019-07-10
-    releaseDate: 2019-07-10 	
+    releaseDate: 2019-07-10
 
 -   releaseCycle: "3.28"
     eol: false
@@ -324,7 +324,7 @@ releases:
 
 ---
 
-> SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, 
+> SQLite is an in-process library that implements a self-contained, serverless, zero-configuration,
 > transactional SQL database engine.
 
 > The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private
