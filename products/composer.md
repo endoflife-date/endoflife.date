@@ -18,8 +18,8 @@ identifiers:
 releases:
 -   releaseCycle: "2.5"
     eol: false
-    latest: "2.5.2"
-    latestReleaseDate: 2023-02-04
+    latest: "2.5.3"
+    latestReleaseDate: 2023-02-10
     releaseDate: 2022-12-20
 
 -   releaseCycle: "2.4"
