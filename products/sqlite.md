@@ -19,10 +19,10 @@ auto:
 
 releases:
 -   releaseCycle: "3"
+    releaseDate: 2004-06-18
     eol: false
     latest: "3.40.1"
     latestReleaseDate: 2022-12-28
-    releaseDate: 2004-06-18
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28
