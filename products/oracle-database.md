@@ -85,10 +85,7 @@ releases:
  
 ---
 
-## Product description
-
-> Oracle Database is a relational database management system (RDBMS) developed
-> by Oracle Corporation.
+> Oracle Database is a relational database management system (RDBMS) developed by Oracle Corporation.
 
 > It is widely used in enterprise environments for managing large amounts of structured data,
 >such as financial information, customer data, and inventory management.
