@@ -5,7 +5,7 @@ iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
-activeSupportColumn: true
+activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
