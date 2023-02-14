@@ -16,10 +16,18 @@ auto:
 -   git: https://github.com/KDE/plasma-desktop.git
 
 releases:
+-   releaseCycle: "5.27"
+    latest: "5.27.01"
+    support: true
+    eol: false
+    lts: true
+    releaseDate: 2023-02-14
+    latestReleaseDate: 2023-02-14
+
 -   releaseCycle: "5.26"
     latest: "5.26.90"
-    support: 2023-02-14 # Scheduled release of 5.27
-    eol: 2023-02-14 # Scheduled release of 5.27
+    support: 2023-02-14
+    eol: 2023-02-14
     lts: false
     releaseDate: 2022-10-11
     latestReleaseDate: 2023-01-19
