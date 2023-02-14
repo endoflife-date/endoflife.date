@@ -88,24 +88,22 @@ releases:
 ## Product description
 
 > Oracle Database is a relational database management system (RDBMS) developed
-by Oracle Corporation.
+> by Oracle Corporation.
 
 > It is widely used in enterprise environments for managing large amounts of structured data,
-such as financial information, customer data, and inventory management.
+>such as financial information, customer data, and inventory management.
 
 > Oracle Database uses the Structured Query Language (SQL) for data manipulation and
-management, and it provides advanced features such as robust security, transactional
-consistency, and high availability. Additionally, Oracle Database offers a wide range
-of tools and technologies for data warehousing, business intelligence, and application 
-development, making it a versatile and powerful platform for businesses of all sizes.
+> management, and it provides advanced features such as robust security, transactional
+> consistency, and high availability. Additionally, Oracle Database offers a wide range
+> of tools and technologies for data warehousing, business intelligence, and application 
+> development, making it a versatile and powerful platform for businesses of all sizes.
 
 ## Oracle Lifetime Support Policy
 
-> With Oracle Support, you know up front and with certainty how long your Oracle products are supported. The
-> Lifetime Support Policy provides access to technical experts for as long as you license your Oracle products and
-> consists of three support stages: Premier Support, Extended Support, and Sustaining Support. It delivers
-> maximum value by providing you with rights to major product releases so you can take full advantage of
-> technology and product enhancements. Your technology and your business keep moving forward together.
+> The "Lifetime Support Policy" provides access to technical experts for as long as
+> you license your Oracle products.
+> It consists of three support stages: Premier Support, Extended Support, and Sustaining Support.
 
 ## Premier Support
 
