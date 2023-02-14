@@ -1,16 +1,17 @@
 ---
 title: Gradle
-permalink: /gradle
 category: app
 iconSlug: gradle
+permalink: /gradle
+versionCommand: gradle --version
 releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support
 changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
-auto:
--   git: https://github.com/gradle/gradle.git
 activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
-versionCommand: gradle --version
+
+auto:
+-   git: https://github.com/gradle/gradle.git
 
 releases:
 -   releaseCycle: "8"
@@ -36,16 +37,18 @@ releases:
 
 ---
 
-> [Gradle](https://gradle.org/) is a build tool with a focus on build automation and support for multi-language
-> development. If you are building, testing, publishing, and deploying software on any platform, Gradle offers a
-> flexible model that can support the entire development lifecycle from compiling and packaging code to publishing
-> websites.
+> [Gradle](https://gradle.org/) is a build tool with a focus on build automation and support for
+> multi-language development. If you are building, testing, publishing, and deploying software on
+> any platform, Gradle offers a flexible model that can support the entire development lifecycle
+> from compiling and packaging code to publishing websites.
 
-Only the latest release is supported. There is an exception for 6.9 which is still getting bug and security fixes.
+Only the latest release is supported. There is an exception for 6.9 which is still getting bug and
+security fixes.
 
 ## [Java Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 
-A Java version between 8 and 19 is required to execute Gradle. Java 20 and later versions are not yet supported. Java 6 and 7 can still be used for compilation and forked test execution.
+A Java version between 8 and 19 is required to execute Gradle. Java 20 and later versions are not
+yet supported. Java 6 and 7 can still be used for compilation and forked test execution.
 
 Gradle itself is tested with the following versions:
 
