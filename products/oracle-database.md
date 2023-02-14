@@ -36,7 +36,7 @@ releases:
     eol: false
     latestReleaseDate: 2023-01-13
     releaseDate: 2019-02-01
-    link: "https://support.oracle.com/knowledge/Oracle%20Cloud/18202104_9.html"
+    link: "https://docs.oracle.com/en/database/oracle/oracle-database/18/rnrdm/index.html"
   
 -   releaseCycle: "12c"
     lts: false
