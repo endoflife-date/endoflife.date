@@ -14,6 +14,12 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
+-   releaseCycle: "17.4"
+    codename: "2022"
+    lts: true
+    eol: 2024-07-11
+    releaseDate: 2022-11-08
+
 -   releaseCycle: "17.2"
     codename: "2022"
     lts: true
