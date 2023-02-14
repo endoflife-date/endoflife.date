@@ -1,5 +1,5 @@
 ---
-title: Oracle
+title: Oracle Database
 category: db
 iconSlug: oracle
 permalink: /oracle-database
