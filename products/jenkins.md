@@ -20,12 +20,10 @@ auto:
 #   patch version of the minor version choosed to be the next LTS (e.g. 2.361.1).
 releases:
 -   releaseCycle: "2"
-    releaseLabel: "Regular"
     support: true
     eol: false
     latest: "2.391"
     latestReleaseDate: 2023-02-14
-    releaseDate: 2016-04-20
 
 -   releaseCycle: "2.375"
     lts: true
