@@ -11,7 +11,7 @@ releasePolicyLink: https://www.postgresql.org/support/versioning/
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 activeSupportColumn: false
 eolColumn: Support Status
-versionCommand: psql -c "SELECT version();"
+versionCommand: psql -c "SELECT version();" | grep PostgreSQL | awk '{print $2}'
 releaseDateColumn: true
 auto:
 -   git: https://github.com/postgres/postgres.git
