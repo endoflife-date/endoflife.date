@@ -90,32 +90,32 @@ releases:
 > It is widely used in enterprise environments for managing large amounts of structured data,
 >such as financial information, customer data, and inventory management.
 
-> Oracle Database uses the Structured Query Language (SQL) for data manipulation and
-> management, and it provides advanced features such as robust security, transactional
-> consistency, and high availability. Additionally, Oracle Database offers a wide range
-> of tools and technologies for data warehousing, business intelligence, and application 
-> development, making it a versatile and powerful platform for businesses of all sizes.
+Oracle Database uses the Structured Query Language (SQL) for data manipulation and 
+management, and it provides advanced features such as robust security, transactional
+consistency, and high availability. Additionally, Oracle Database offers a wide range
+of tools and technologies for data warehousing, business intelligence, and application 
+development, making it a versatile and powerful platform for businesses of all sizes.
 
 ## Oracle Lifetime Support Policy
 
-> The "Lifetime Support Policy" provides access to technical experts for as long as
-> you license your Oracle products.
-> It consists of three support stages: Premier Support, Extended Support, and Sustaining Support.
+The "Lifetime Support Policy" provides access to technical experts for as long as
+you license your Oracle products.
+It consists of three support stages: Premier Support, Extended Support, and Sustaining Support.
 
 ## Premier Support
 
-> Premier Support provides you with maintenance and support for your Oracle Database
-> products for five years from their general availability date
+Premier Support provides you with maintenance and support for your Oracle Database
+products for five years from their general availability date
   
 ## Extended Support
   
-> Extended Support lets you stay competitive, with the freedom to upgrade on your
-> timetable. If you take advantage of Extended Support, it provides you with
-> an extra three years of support for specific Oracle releases for an additional fee.
+Extended Support lets you stay competitive, with the freedom to upgrade on your
+timetable. If you take advantage of Extended Support, it provides you with
+an extra three years of support for specific Oracle releases for an additional fee.
 
 ## Sustaining Support
   
-> Sustaining Support puts you in control of your upgrade strategy. When Premier Support expires, if you choose
-> not to purchase Extended Support, or when Extended Support expires, Sustaining Support will be available for
-> as long as you license your Oracle products. With Sustaining Support, you receive technical support, including
-> access to our online support tools, knowledgebases, and technical support experts.
+Sustaining Support puts you in control of your upgrade strategy. When Premier Support expires, if you choose
+not to purchase Extended Support, or when Extended Support expires, Sustaining Support will be available for
+as long as you license your Oracle products. With Sustaining Support, you receive technical support, including
+access to our online support tools, knowledgebases, and technical support experts.
