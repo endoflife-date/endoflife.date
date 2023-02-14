@@ -4,7 +4,7 @@ category: db
 iconSlug: oracle
 permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;
-releasePolicyLink: https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf
+releasePolicyLink: https://www.oracle.com/support/lifetime-support/software.html
 releaseDateColumn: true
 activeSupportColumn: Premier Support
 eolColumn: Extended Support
