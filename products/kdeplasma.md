@@ -17,7 +17,7 @@ auto:
 
 releases:
 -   releaseCycle: "5.27"
-    latest: "5.27.01"
+    latest: "5.27.0"
     support: true
     eol: false
     lts: true
