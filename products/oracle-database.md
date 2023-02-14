@@ -11,7 +11,6 @@ eolColumn: Extended Support
 
 releases:
 
-# https://docs.oracle.com/en/database/other-databases/essbase/21/essop/21.1.0.0.0-december-2020.html
 -   releaseCycle: "21c"
     lts: false
     latest: "21.4.2.0.0"
@@ -19,6 +18,7 @@ releases:
     eol: false
     latestReleaseDate: 2022-12-16
     releaseDate: 2020-12-01
+    link : "https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html" 
 
 -   releaseCycle: "19c"
     lts: true
@@ -27,6 +27,7 @@ releases:
     eol: false
     latestReleaseDate: 2023-01-13
     releaseDate: 2019-02-01
+    link: "https://docs.oracle.com/en/database/oracle/oracle-database/19/rnrdm/database-release-notes.pdf"
 
 -   releaseCycle: "18c"
     lts: true
@@ -35,6 +36,7 @@ releases:
     eol: false
     latestReleaseDate: 2023-01-13
     releaseDate: 2019-02-01
+    link: "https://support.oracle.com/knowledge/Oracle%20Cloud/18202104_9.html"
   
 -   releaseCycle: "12c"
     lts: false
@@ -43,6 +45,7 @@ releases:
     eol: false
     latestReleaseDate: 2022-04-01
     releaseDate: 2013-07-01
+    link: "https://docs.oracle.com/en/database/oracle/oracle-database/12.2/ladbn/index.html"
   
 -   releaseCycle: "11g"
     lts: false
@@ -51,6 +54,7 @@ releases:
     eol: true
     latestReleaseDate: 2022-09-13
     releaseDate: 2007-09-01
+    link: "https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html"
   
 -   releaseCycle: "10g"
     lts: false
@@ -59,6 +63,7 @@ releases:
     eol: true
     latestReleaseDate: 2005-07-01
     releaseDate: 2004-01-01
+    link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
   
 -   releaseCycle: "9i"
     lts: false
@@ -67,6 +72,7 @@ releases:
     eol: true
     latestReleaseDate: 2007-04-01
     releaseDate: 2004-01-01
+    link: "https://www.oracle.com/database/technologies/oracle9i.html"
 
 -   releaseCycle: "8i"
     lts: false
@@ -75,6 +81,7 @@ releases:
     eol: true
     latestReleaseDate: 2008-08-01
     releaseDate: 1997-06-01
+    link: "https://www.oracle.com/database/technologies/oracle8i.html"
  
 ---
 
