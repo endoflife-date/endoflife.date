@@ -3,7 +3,7 @@ title: Oracle Database
 category: db
 iconSlug: oracle
 permalink: /oracle-database
-versionCommand: show version
+versionCommand: SELECT BANNER_FULL FROM V$VERSION;
 releasePolicyLink: https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf
 releaseDateColumn: true
 activeSupportColumn: Premier Support
