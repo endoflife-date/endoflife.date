@@ -54,7 +54,7 @@ releases:
     eol: true
     latestReleaseDate: 2022-09-13
     releaseDate: 2007-09-01
-    link: "https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html"
+    link: "https://docs.oracle.com/cd/E11882_01/relnotes.112/e23558/toc.htm"
   
 -   releaseCycle: "10g"
     lts: false
