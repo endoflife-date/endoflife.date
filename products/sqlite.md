@@ -19,7 +19,7 @@ auto:
 
 releases:
 -   releaseCycle: "3"
-    releaseDate: 2004-06-18
+    releaseDate: 2009-01-15
     eol: false
     latest: "3.40.1"
     latestReleaseDate: 2022-12-28
