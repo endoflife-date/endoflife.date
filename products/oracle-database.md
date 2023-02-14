@@ -13,10 +13,10 @@ releases:
 
 -   releaseCycle: "21c"
     lts: false
-    latest: "21.4.2.0.0"
+    latest: " 21.7.0.0"
     support: 2024-04-30
     eol: false
-    latestReleaseDate: 2022-12-16
+    latestReleaseDate: 2023-01-18
     releaseDate: 2020-12-01
     link : "https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html" 
 
