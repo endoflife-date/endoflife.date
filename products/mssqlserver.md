@@ -18,8 +18,8 @@ releases:
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.1000.6"
-    link: https://www.microsoft.com/sql-server/sql-server-2022
+    latest: "16.0.1050.5"
+    link: https://support.microsoft.com/help/5021522
 
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU18"
@@ -27,8 +27,8 @@ releases:
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4261.1"
-    link: https://support.microsoft.com/help/5017593
+    latest: "15.0.4280.7"
+    link: https://support.microsoft.com/help/5021124
 
 -   releaseCycle: "2017"
     releaseLabel: "2017 CU31"
@@ -36,8 +36,8 @@ releases:
     support: 2022-10-11
     eol: 2027-10-12
     extendedSupport: false
-    latest: "14.0.3456.2"
-    link: https://support.microsoft.com/help/5016884
+    latest: "14.0.3460.9"
+    link: https://support.microsoft.com/help/5021126
 
 -   releaseCycle: "2016"
     releaseLabel: "2016 SP3"
@@ -45,8 +45,8 @@ releases:
     support: 2021-07-13
     eol: 2026-07-14
     extendedSupport: false
-    latest: "13.0.6419.1"
-    link: https://support.microsoft.com/help/5014355
+    latest: "13.0.6430.49"
+    link: https://support.microsoft.com/help/5021129
 
 -   releaseCycle: "2014"
     releaseLabel: "2014 SP3 CU4"
@@ -54,8 +54,8 @@ releases:
     support: 2019-07-09
     eol: 2024-07-09
     extendedSupport: false
-    latest: "12.0.6439.10"
-    link: https://support.microsoft.com/help/5014164
+    latest: "12.0.6444.4"
+    link: https://support.microsoft.com/help/5021045
 
 -   releaseCycle: "2012"
     releaseLabel: "2012 SP4"
