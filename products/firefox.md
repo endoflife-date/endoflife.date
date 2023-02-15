@@ -13,17 +13,17 @@ auto:
 -   custom: true
 
 releases:
--   releaseCycle: "109"
+-   releaseCycle: "110"
     eol: false
-    latest: "109.0.1"
-    latestReleaseDate: 2023-01-31
+    latest: "110.0"
+    latestReleaseDate: 2023-02-14
     lts: false
-    releaseDate: 2023-01-17
+    releaseDate: 2023-02-14
 
 -   releaseCycle: "102"
     eol: false
-    latest: "102.7.0"
-    latestReleaseDate: 2023-01-17
+    latest: "102.8.0"
+    latestReleaseDate: 2023-02-14
     lts: true
     releaseDate: 2022-06-28
 
