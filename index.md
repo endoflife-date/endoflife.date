@@ -12,6 +12,7 @@ endoflife.date aggregates data from various sources and presents it in an unders
 succinct manner. It also makes the data available using an [easily accessible API](https://endoflife.date/docs/api)
 and has iCalendar support.
 
+endoflife.date currently tracks {{ site.pages | where: "layout", "product" | size }} products.
 Here are some of our most popular pages:
 
 Programming           | [Python][python] | [Ruby][ruby] | [Java][java] | [PHP][php]
