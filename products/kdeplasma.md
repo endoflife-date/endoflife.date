@@ -75,6 +75,9 @@ every other year. There is a [detailed schedule](https://community.kde.org/Sched
 future bug fix releases and major releases.
 
 ## Release Cadence
-* Plasma 5.24 LTS will get critical bug fixes updates until start of Plasma 6 development (timetable unsure). The last Plasma 5 release will be version 5.27 LTS and the end of critical bug fixes is not yet announced.
+
+* Plasma 5.24 LTS will get critical bug fixes updates until the start of Plasma 6 development
+  (timetable unsure). The last Plasma 5 release will be version 5.27 LTS and the end of critical bug
+  fixes is not yet announced.
 * Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_5#Bugfix_versions)
   (1, 1, 2, 3, 5) after each previous release of the same series.
