@@ -18,7 +18,7 @@ releases:
     eol: false
     latestReleaseDate: 2023-01-18
     releaseDate: 2020-12-01
-    link : "https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html" 
+    link : "https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html"
 
 -   releaseCycle: "19c"
     lts: true
@@ -37,7 +37,7 @@ releases:
     latestReleaseDate: 2023-01-13
     releaseDate: 2019-02-01
     link: "https://docs.oracle.com/en/database/oracle/oracle-database/18/rnrdm/index.html"
-  
+
 -   releaseCycle: "12c"
     lts: false
     latest: "12.2.0.1.210720"
@@ -46,7 +46,7 @@ releases:
     latestReleaseDate: 2022-04-01
     releaseDate: 2013-07-01
     link: "https://docs.oracle.com/en/database/oracle/oracle-database/12.2/ladbn/index.html"
-  
+
 -   releaseCycle: "11g"
     lts: false
     latest: "11.2.0.4"
@@ -55,7 +55,7 @@ releases:
     latestReleaseDate: 2022-09-13
     releaseDate: 2007-09-01
     link: "https://docs.oracle.com/cd/E11882_01/relnotes.112/e23558/toc.htm"
-  
+
 -   releaseCycle: "10g"
     lts: false
     latest: "10.2.0.5"
@@ -64,7 +64,7 @@ releases:
     latestReleaseDate: 2005-07-01
     releaseDate: 2004-01-01
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
-  
+
 -   releaseCycle: "9i"
     lts: false
     latest: "9.2.0.8"
@@ -82,14 +82,12 @@ releases:
     latestReleaseDate: 2008-08-01
     releaseDate: 1997-06-01
     link: "https://www.oracle.com/database/technologies/oracle8i.html"
- 
+
 ---
 
-> Oracle Database is a relational database management system (RDBMS) developed by Oracle Corporation.
-
-Oracle Database uses the Structured Query Language (SQL) for data manipulation and 
-management, and it provides features such as robust security, transactional
-consistency, and high availability. 
+> Oracle Database is a relational database management system (RDBMS) developed by Oracle
+> Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
+> it provides features such as robust security, transactional consistency, and high availability.
 
 ## Oracle Lifetime Support Policy
 
@@ -101,14 +99,14 @@ It consists of three support stages: Premier Support, Extended Support, and Sust
 
 Premier Support provides maintenance and support for five years from the general
 availability date of a given release.
-  
+
 ## Extended Support
-  
+
 Extended Support lets upgrade on a chosen timetable. It provides an extra three years
 of support for specific Oracle releases for an additional fee.
 
 ## Sustaining Support
-  
+
 Sustaining Support puts people in control of your upgrade strategy.
 When Premier Support expires, if one choose not to purchase Extended Support, or when
 Extended Support expires,
