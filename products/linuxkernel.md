@@ -17,7 +17,7 @@ auto:
 -   git: https://github.com/gregkh/linux.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
-identifier:
+identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
