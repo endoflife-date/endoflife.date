@@ -4,84 +4,108 @@ category: db
 iconSlug: oracle
 permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;
-releasePolicyLink: https://www.oracle.com/support/lifetime-support/software.html
+releasePolicyLink: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+LTSLabel: <abbr title="Long Term Release">LTR</abbr>
+releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: Premier Support
-eolColumn: Extended Support
+eolColumn: Premier Support
+extendedSupportColumn: Extended Support
 
 releases:
-
 -   releaseCycle: "21c"
     lts: false
-    latest: " 21.7.0.0"
-    support: 2024-04-30
-    eol: false
-    latestReleaseDate: 2023-01-18
-    releaseDate: 2020-12-01
-    link : "https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html"
+    releaseDate: 2021-08-13
+    eol: 2024-04-30
+    extendedSupport: false
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
 -   releaseCycle: "19c"
     lts: true
-    latest: "19.17.0.0.221018"
-    support: 2027-04-30
-    eol: false
-    latestReleaseDate: 2023-01-13
-    releaseDate: 2019-02-01
-    link: "https://docs.oracle.com/en/database/oracle/oracle-database/19/rnrdm/database-release-notes.pdf"
+    releaseDate: 2019-04-25
+    eol: 2024-04-30
+    # The first year of extended support is free.
+    extendedSupport: 2027-04-30
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
 -   releaseCycle: "18c"
+    lts: false
+    releaseDate: 2018-07-23
+    eol: 2021-06-30
+    extendedSupport: false
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
+
+-   releaseCycle: "12cR2"
+    releaseLabel: "12c Release 2"
+    lts: false
+    releaseDate: 2017-03-01
+    eol: 2022-03-31
+    extendedSupport: false
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
+
+-   releaseCycle: "12cR1"
+    releaseLabel: "12c Release 1"
     lts: true
-    latest: "19.17.0.0.221018"
-    support: 2027-04-30
-    eol: false
-    latestReleaseDate: 2023-01-13
-    releaseDate: 2019-02-01
-    link: "https://docs.oracle.com/en/database/oracle/oracle-database/18/rnrdm/index.html"
+    releaseDate: 2013-06-25
+    eol: 2018-07-31
+    extendedSupport: 2022-07-31
+    link: https://docs.oracle.com/database/121/index.htm
 
--   releaseCycle: "12c"
-    lts: false
-    latest: "12.2.0.1.210720"
-    support: 2017-03-01
-    eol: false
-    latestReleaseDate: 2022-04-01
-    releaseDate: 2013-07-01
-    link: "https://docs.oracle.com/en/database/oracle/oracle-database/12.2/ladbn/index.html"
+-   releaseCycle: "11gR2"
+    releaseLabel: "11g Release 2"
+    lts: true
+    # https://www.orafaq.com/wiki/Oracle_11gR2
+    releaseDate: 2009-09-01
+    eol: 2015-01-31
+    extendedSupport: 2020-12-31
+    link: https://docs.oracle.com/cd/E11882_01/index.htm
 
--   releaseCycle: "11g"
-    lts: false
-    latest: "11.2.0.4"
-    support: 2015-01-01
-    eol: true
-    latestReleaseDate: 2022-09-13
-    releaseDate: 2007-09-01
-    link: "https://docs.oracle.com/cd/E11882_01/relnotes.112/e23558/toc.htm"
+-   releaseCycle: "11gR1"
+    releaseLabel: "11g Release 1"
+    lts: true
+    # https://www.orafaq.com/wiki/Oracle_11gR1
+    releaseDate: 2007-08-09
+    # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html#foot1
+    eol: 2012-08-31
+    extendedSupport: 2015-08-31
+    link: https://docs.oracle.com/cd/B28359_01/index.htm
 
--   releaseCycle: "10g"
-    lts: false
-    latest: "10.2.0.5"
-    support: 2010-07-01
-    eol: true
-    latestReleaseDate: 2005-07-01
-    releaseDate: 2004-01-01
+-   releaseCycle: "10gR2"
+    releaseLabel: "10g Release 2"
+    lts: true
+    # https://web.archive.org/web/20180405025608/http://www.oracle.com/us/corporate/press/017324_EN
+    releaseDate: 2005-07-11
+    # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+    eol: 2010-07-31
+    extendedSupport: 2015-07-31
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
--   releaseCycle: "9i"
-    lts: false
-    latest: "9.2.0.8"
-    support: 2007-07-01
-    eol: true
-    latestReleaseDate: 2007-04-01
-    releaseDate: 2004-01-01
-    link: "https://www.oracle.com/database/technologies/oracle9i.html"
+-   releaseCycle: "10gR1"
+    releaseCycle: "10g Release 1"
+    lts: true
+    # https://www.orafaq.com/wiki/2003
+    releaseDate: 2003-09-08
+    # https://www.orafaq.com/wiki/Oracle_10g
+    eol: 2009-01-31
+    extendedSupport: 2012-01-01
+    link: https://www.oracle.com/database/technologies/database10g-doc.html
 
--   releaseCycle: "8i"
+-   releaseCycle: "9iR2"
+    releaseLabel: "9i Release 2"
+    lts: true
+    # https://www.orafaq.com/wiki/Oracle_9i
+    releaseDate: 2002-05-01
+    eol: 2007-07-31
+    extendedSupport: 2010-07-31
+    link: https://www.oracle.com/database/technologies/oracle9i.html
+
+-   releaseCycle: "9iR1"
+    releaseCycle: "9i Release 1"
     lts: false
-    latest: "8.1.7.4"
-    support: 2004-12-01
-    eol: true
-    latestReleaseDate: 2008-08-01
-    releaseDate: 1997-06-01
-    link: "https://www.oracle.com/database/technologies/oracle8i.html"
+    # https://www.orafaq.com/wiki/Oracle_9i
+    releaseDate: 2001-06-01
+    eol: 2003-12-31
+    extendedSupport: false
+    link: https://www.oracle.com/database/technologies/database10g-doc.html
 
 ---
 
@@ -89,27 +113,26 @@ releases:
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
 
-## Oracle Lifetime Support Policy
+Oracle Database is a complex product distributed in various flavor (multiple cloud and on-premises
+offers), with support for various operating systems (such as Linux, Oracle Solaris or Microsoft
+Windows), and with [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
+(such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these offers release
+dates may vary. This page is only documenting Premier and Extended support dates for Oracle Database
+On-Premises Server Releases for Linux x86-64.
 
-The "Lifetime Support Policy" provides access to technical experts for as long as
-the Oracle products licence lasts..
-It consists of three support stages: Premier Support, Extended Support, and Sustaining Support.
+According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)
+(february 13, 2023 update) there are two types of Oracle Database releases:
 
-## Premier Support
+- Long Term Release (LTR), which are supported for 5 years with Premier Support, followed by 3 years
+  with Extended Support. Note that Oracle Corporation may offer, for some LTR, one year of free
+  Extended Support.
+- Innovation Release, which are supported for at least 2 years with Premier Support and have no
+  Extended Support.
 
-Premier Support provides maintenance and support for five years from the general
-availability date of a given release.
-
-## Extended Support
-
-Extended Support lets upgrade on a chosen timetable. It provides an extra three years
-of support for specific Oracle releases for an additional fee.
-
-## Sustaining Support
-
-Sustaining Support puts people in control of your upgrade strategy.
-When Premier Support expires, if one choose not to purchase Extended Support, or when
-Extended Support expires,
-Sustaining Support will be available for as long as the Oracle products lasts.
-With Sustaining Support, there is technical support, including access to online support
-tools, knowledgebases, and technical support experts.
+The version and patch policy is also complex and changing, but some interesting information can be
+found on:
+- [Oracle Database - Wikipedia](https://wikipedia.org/wiki/Oracle_Database#Patch_updates_and_security_alerts),
+- [All You Need to Know about Oracle Database Patching - GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
+- [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) - support.oracle.com](https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html) and
+- [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/161818_1.html)
+  (requires an Oracle account with appropriate permissions).
