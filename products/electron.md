@@ -25,14 +25,14 @@ releases:
     # 2023-02-06 + 6 months
     eol: 2023-08-06
     releaseDate: 2023-02-07
-    latestReleaseDate: 2023-02-07
-    latest: "23.0.0"
+    latestReleaseDate: 2023-02-16
+    latest: "23.1.0"
 
 -   releaseCycle: "22"
     eol: 2023-07-07
     releaseDate: 2022-11-30
-    latestReleaseDate: 2023-02-09
-    latest: "22.2.1"
+    latestReleaseDate: 2023-02-16
+    latest: "22.3.0"
 
 -   releaseCycle: "21"
     eol: 2023-04-05
