@@ -5,9 +5,9 @@ iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
-activeSupportColumn: true
+activeSupportColumn: false
 releaseDateColumn: true
-eolColumn: Bug and Security Fixes
+eolColumn: Support
 
 auto:
 -   git: https://github.com/jenkinsci/jenkins.git
@@ -60,7 +60,7 @@ releases:
 The Jenkins project produces two release lines: Stable (LTS) and regular (Weekly).
 
 [Stable (LTS)](https://www.jenkins.io/download/lts/) releases are chosen every 12 weeks from the
-stream of regular releases, and patched every 4 weeks with bug and security fix backports.
+stream of regular releases, and patched every 4 weeks with bug, security fix, and minor feature backports.
 
 [Regular (Weekly)](https://www.jenkins.io/download/weekly/) releases deliver bug fixes and new
 features rapidly to users and plugin developers who need them.
