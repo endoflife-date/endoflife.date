@@ -7,7 +7,7 @@ releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
-eolColumn: Bug and Security Fixes
+eolColumn: Support
 
 auto:
 -   git: https://github.com/jenkinsci/jenkins.git
