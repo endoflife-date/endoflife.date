@@ -10,7 +10,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/centos
+-   cpe: cpe:/o:centos:centos
+-   cpe: cpe:2.3:o:centos:centos
 
 releases:
 -   releaseCycle: "9"

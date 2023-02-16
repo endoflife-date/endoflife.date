@@ -11,7 +11,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/amazonlinux
+-   cpe: cpe:2.3:o:amazon:amazon_linux
+-   cpe: cpe:/o:amazon:amazon_linux
 -   purl: pkg:docker/library/amazonlinux
 
 auto:

@@ -12,7 +12,8 @@ activeSupportColumn: false
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/alpinelinux
+-   cpe: cpe:/o:alpinelinux:alpine_linux
+-   cpe: cpe:2.3:o:alpinelinux:alpine_linux
 
 auto:
 # upstream does not support filtering https://git.alpinelinux.org/aports

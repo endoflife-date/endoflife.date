@@ -14,6 +14,10 @@ auto:
     regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
     template: '{{version}}'
 
+identifier:
+-   cpe: cpe:/o:fedoraproject:fedora
+-   cpe: cpe:2.3:o:fedoraproject:fedora
+
 releases:
 -   releaseCycle: "37"
     latest: "37"

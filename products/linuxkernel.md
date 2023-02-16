@@ -17,6 +17,10 @@ auto:
 -   git: https://github.com/gregkh/linux.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
+identifier:
+-   cpe: cpe:/o:linux:linux_kernel
+-   cpe: cpe:2.3:o:linux:linux_kernel
+
 releases:
 -   releaseCycle: "6.1"
     eol: 2026-12-31

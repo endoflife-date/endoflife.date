@@ -16,6 +16,10 @@ auto:
 -   distrowatch: rocky
     regex: '^Distribution Release: Rocky Linux (?P<major>\d)\.(?P<minor>\d)$'
 
+idenfitiers:
+-   cpe: cpe:/o:rocky:rocky
+-   cpe: cpe:2.3:o:rocky:rocky
+
 releases:
 -   releaseCycle: "9"
     support: 2025-05-31

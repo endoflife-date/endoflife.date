@@ -15,8 +15,11 @@ auto:
     regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(
       LTS|, Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
+
 identifiers:
--   purl: pkg:os/ubuntu
+-   cpe: cpe:2.3:o:canonical:ubuntu_linux
+-   cpe: cpe:/o:canonical:ubuntu_linux
+
 activeSupportColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 extendedSupportColumn: Extended Security Maintenance
@@ -139,7 +142,7 @@ Feature/Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
 -----|------------|------------------------------|-----------
 Main repository | 5 years | 10 years             | 10 years
 Restricted repository | 5 years | 10 years[^2]   |10 years [^2]
-Universe repository | Best Effort[^6] | Best Effort | 10 years 
+Universe repository | Best Effort[^6] | Best Effort | 10 years
 Phone/Ticket Support | No | Yes | Yes
 Kernel Live Patching | No  | Yes | Yes
 [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No | Yes | Yes
