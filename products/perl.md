@@ -123,8 +123,8 @@ releases:
     releaseDate: 2010-05-12
 
 -   releaseCycle: "5.10"
-    support: 
-    eol: 
+    support: 2011-12-20
+    eol: 2011-12-20
     latest: "5.10.0"
     latestReleaseDate: 2011-12-20
     releaseDate: 2007-12-18
