@@ -14,6 +14,13 @@ auto:
 
 # Last 3 releases are supported.
 releases:
+-   releaseCycle: "7.8"
+    lts: true
+    releaseDate: 2023-02-16
+    eol: 2023-11-15
+    latestReleaseDate: 2023-02-16
+    latest: '7.8.0'
+
 -   releaseCycle: "7.7"
     releaseDate: 2023-01-13
     eol: 2023-04-15
