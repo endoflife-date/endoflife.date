@@ -88,8 +88,8 @@ releases:
     releaseDate: 2015-06-01
 
 -   releaseCycle: "5.20"
-    support: 
-    eol: 
+    support: 2016-05-10
+    eol: 2016-05-10
     latest: "5.20.0"
     latestReleaseDate: 2014-05-27
     releaseDate: 2014-05-27
