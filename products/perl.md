@@ -74,8 +74,8 @@ releases:
     releaseDate: 2017-05-30
     
 -   releaseCycle: "5.24"
-    support: 
-    eol: 
+    support: 2017-09-12
+    eol: 2017-09-12
     latest: "5.24.0"
     latestReleaseDate: 2016-05-08
     releaseDate: 2016-05-08
