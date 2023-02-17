@@ -102,8 +102,8 @@ releases:
     releaseDate: 2013-05-18
 
 -   releaseCycle: "5.16"
-    support: 
-    eol: 
+    support: 2016-05-09
+    eol: 2016-05-09
     latest: "5.16.0"
     latestReleaseDate: 2012-05-20
     releaseDate: 2012-05-20
@@ -126,14 +126,14 @@ releases:
     support: 
     eol: 
     latest: "5.10.0"
-    latestReleaseDate: 2007-12-18
+    latestReleaseDate: 2011-12-20
     releaseDate: 2007-12-18
 
 -   releaseCycle: "5.8"
     support: 
     eol: 
     latest: "5.8.0"
-    latestReleaseDate: 2002-07-18
+    latestReleaseDate: 
     releaseDate: 2002-07-18
     
 -   releaseCycle: "5.6"
