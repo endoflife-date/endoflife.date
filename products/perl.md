@@ -95,8 +95,8 @@ releases:
     releaseDate: 2014-05-27
 
 -   releaseCycle: "5.18"
-    support: 
-    eol: 
+    support: 2015-01-26
+    eol: 2015-01-26
     latest: "5.18.0"
     latestReleaseDate: 2013-05-18
     releaseDate: 2013-05-18
