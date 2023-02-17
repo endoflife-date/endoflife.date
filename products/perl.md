@@ -137,8 +137,8 @@ releases:
     releaseDate: 2002-07-18
     
 -   releaseCycle: "5.6"
-    support: 
-    eol: 
+    support: 2004-12-31
+    eol: 2004-12-31
     latest: "5.6.0 "
     latestReleaseDate: 2000-03-22
     releaseDate: 2000-03-22
