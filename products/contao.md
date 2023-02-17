@@ -12,6 +12,14 @@ auto:
 -   git: https://github.com/contao/contao.git
 
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2023-02-16
+    support: 2023-08-14
+    eol: 2023-08-14
+    latest: "5.1.0"
+    latestReleaseDate: 2023-02-16
+    lts: false
+
 -   releaseCycle: "5.0"
     releaseDate: 2022-08-18
     support: 2023-02-14
