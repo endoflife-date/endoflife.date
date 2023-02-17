@@ -116,8 +116,8 @@ releases:
     releaseDate: 2011-05-14
 
 -   releaseCycle: "5.12"
-    support: 
-    eol: 
+    support: 2012-07-29
+    eol: 2012-07-29
     latest: "5.12.0"
     latestReleaseDate: 2010-05-12
     releaseDate: 2010-05-12
