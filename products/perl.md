@@ -72,7 +72,76 @@ releases:
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
     releaseDate: 2017-05-30
+    
+-   releaseCycle: "5.24"
+    support: 
+    eol: 
+    latest: "5.24.0"
+    latestReleaseDate: 2016-05-08
+    releaseDate: 2016-05-08
 
+-   releaseCycle: "5.22"
+    support: 
+    eol: 
+    latest: "5.22.0"
+    latestReleaseDate: 2015-06-01
+    releaseDate: 2015-06-01
+
+-   releaseCycle: "5.20"
+    support: 
+    eol: 
+    latest: "5.20.0"
+    latestReleaseDate: 2014-05-27
+    releaseDate: 2014-05-27
+
+-   releaseCycle: "5.18"
+    support: 
+    eol: 
+    latest: "5.18.0"
+    latestReleaseDate: 2013-05-18
+    releaseDate: 2013-05-18
+
+-   releaseCycle: "5.16"
+    support: 
+    eol: 
+    latest: "5.16.0"
+    latestReleaseDate: 2012-05-20
+    releaseDate: 2012-05-20
+
+-   releaseCycle: "5.14"
+    support: 
+    eol: 
+    latest: "5.14.0"
+    latestReleaseDate: 2011-05-14
+    releaseDate: 2011-05-14
+
+-   releaseCycle: "5.12"
+    support: 
+    eol: 
+    latest: "5.12.0"
+    latestReleaseDate: 2010-05-12
+    releaseDate: 2010-05-12
+
+-   releaseCycle: "5.10"
+    support: 
+    eol: 
+    latest: "5.10.0"
+    latestReleaseDate: 2007-12-18
+    releaseDate: 2007-12-18
+
+-   releaseCycle: "5.8"
+    support: 
+    eol: 
+    latest: "5.8.0"
+    latestReleaseDate: 2002-07-18
+    releaseDate: 2002-07-18
+    
+-   releaseCycle: "5.6"
+    support: 
+    eol: 
+    latest: "5.6.0 "
+    latestReleaseDate: 2000-03-22
+    releaseDate: 2000-03-22
 ---
 
 > [Perl](https://www.perl.org/) is a highly capable, feature-rich programming language with over 30
