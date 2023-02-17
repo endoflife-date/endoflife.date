@@ -130,8 +130,8 @@ releases:
     releaseDate: 2007-12-18
 
 -   releaseCycle: "5.8"
-    support: 
-    eol: 
+    support: 2008-05-29
+    eol: 2008-05-29
     latest: "5.8.0"
     latestReleaseDate: 
     releaseDate: 2002-07-18
