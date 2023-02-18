@@ -19,10 +19,10 @@ releases:
 -   releaseCycle: "8.0"
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0a Patch"
-    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-80a-release-notes/index.html"
+    latest: "8.0b"
+    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-80b-release-notes/index.html"
     releaseDate: 2022-10-11
-    latestReleaseDate: 2022-12-08
+    latestReleaseDate: 2023-02-14
 
 -   releaseCycle: "7.0"
     eol: 2025-04-02
