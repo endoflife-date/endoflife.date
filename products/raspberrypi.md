@@ -37,7 +37,7 @@ releases:
     link: https://www.raspberrypi.com/products/raspberry-pi-pico/
 
 -   releaseCycle: "4-400"
-    releaseLabel: 400
+    releaseLabel: "400"
     # https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/
     releaseDate: 2020-11-02
     discontinued: 2026-01-01

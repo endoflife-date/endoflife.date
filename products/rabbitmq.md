@@ -17,19 +17,19 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-09-26
-    latestReleaseDate: 2022-12-13
-    latest: "3.11.5"
+    latestReleaseDate: 2023-02-12
+    latest: "3.11.9"
 -   releaseCycle: "3.10"
     eol: false
     support: true
-    latest: "3.10.13"
-    latestReleaseDate: 2022-12-13
+    latest: "3.10.18"
+    latestReleaseDate: 2023-02-12
     releaseDate: 2022-05-03
 -   releaseCycle: "3.9"
     eol: 2023-07-31
     support: 2023-01-31
-    latest: "3.9.27"
-    latestReleaseDate: 2022-12-13
+    latest: "3.9.28"
+    latestReleaseDate: 2023-01-30
     releaseDate: 2021-07-23
 -   releaseCycle: "3.8"
     eol: 2022-07-31
@@ -91,4 +91,4 @@ releases:
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that supports multiple messaging protocols.
 
 - **General Support**: includes regular patch releases
-- **Extended Support**: includes security patches, and high-severity issues reported by users with a commercial license.
+- **[Extended Support](https://tanzu.vmware.com/rabbitmq)**: is available from VMWare. It includes security patches, and fixes for high-severity issues reported by users with a commercial license.

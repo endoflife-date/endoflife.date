@@ -4,6 +4,7 @@ category: framework
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework
+-   /mn
 releasePolicyLink: https://micronaut.io/support-schedule/
 changelogTemplate: "https://github.com/micronaut-projects/micronaut-core/releases/tag/v__LATEST__"
 activeSupportColumn: Active Development
@@ -19,8 +20,8 @@ releases:
     releaseDate: 2021-08-18
     eol: false
     support: true
-    latest: "3.8.0"
-    latestReleaseDate: 2022-12-28
+    latest: "3.8.5"
+    latestReleaseDate: 2023-02-17
 
 -   releaseCycle: "2"
     releaseDate: 2020-06-26

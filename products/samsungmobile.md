@@ -1,5 +1,7 @@
 ---
 permalink: /samsung-mobile
+alternate_urls:
+-   /samsungmobile
 title: Samsung Mobile
 category: device
 iconSlug: samsung
@@ -10,6 +12,11 @@ eolColumn: Security Updates
 releaseColumn: false
 releaseDateColumn: true
 releases:
+
+-   releaseCycle: "Galaxy A23 5G"
+    support: true
+    eol: false
+    releaseDate: 2022-09-02
 
 -   releaseCycle: "Galaxy A13 LTE"
     support: true
@@ -145,6 +152,11 @@ releases:
     support: true
     eol: false
     releaseDate: 2021-03-12
+
+-   releaseCycle: "Galaxy Xcover 4"
+    support: false
+    eol: 2019-12-01
+    releaseDate: 2017-04-01
 
 -   releaseCycle: "Galaxy M62"
     support: true
@@ -411,7 +423,7 @@ releases:
     eol: false # Quarterly
     releaseDate: 2019-12-18
 
--   releaseCycle: "Samsung W20 5G"
+-   releaseCycle: "W20 5G"
     support: false
     eol: false
     releaseDate: 2019-11-20
@@ -483,7 +495,7 @@ releases:
 
 -   releaseCycle: "Galaxy Tab A 8.0 (2019)"
     support: false
-    eol: 2021-11-17
+    eol: false
     releaseDate: 2019-07-01
 
 -   releaseCycle: "Galaxy A60"
@@ -538,7 +550,7 @@ releases:
 
 -   releaseCycle: "Galaxy A2 Core"
     support: false
-    eol: false
+    eol: 2021-10-01
     releaseDate: 2019-04-01
 
 -   releaseCycle: "Galaxy A10"
@@ -578,42 +590,42 @@ releases:
 
 -   releaseCycle: "Galaxy J4 Core"
     support: false
-    eol: false
+    eol: 2020-12-01
     releaseDate: 2018-11-01
 
 -   releaseCycle: "Galaxy A9 (2018)"
     support: false
-    eol: false
+    eol: 2022-06-01
     releaseDate: 2018-11-01
 
 -   releaseCycle: "Galaxy J6+"
     support: false
-    eol: false
+    eol: 2022-06-01
     releaseDate: 2018-10-01
 
 -   releaseCycle: "Galaxy J4+"
     support: false
-    eol: false
+    eol: 2020-12-01
     releaseDate: 2018-10-01
 
 -   releaseCycle: "Galaxy A7"
     support: false
-    eol: false
+    eol: 2022-07-01
     releaseDate: 2018-10-01
 
 -   releaseCycle: "Galaxy Note 9"
     support: false
-    eol: false
+    eol: 2022-07-01
     releaseDate: 2018-08-24
 
 -   releaseCycle: "Galaxy Tab S4 10.5"
     support: false
-    eol: false
+    eol: 2022-06-01
     releaseDate: 2018-08-01
 
 -   releaseCycle: "Galaxy Tab A 10.5 (2018)"
     support: false
-    eol: false
+    eol: 2022-06-01
     releaseDate: 2018-08-01
 
 -   releaseCycle: "Galaxy J2 Core"
@@ -623,7 +635,7 @@ releases:
 
 -   releaseCycle: "Galaxy J8"
     support: false
-    eol: false
+    eol: 2021-09-01
     releaseDate: 2018-07-01
 
 -   releaseCycle: "Galaxy J7 Top"
@@ -638,27 +650,27 @@ releases:
 
 -   releaseCycle: "Galaxy A8 Star"
     support: false
-    eol: false
+    eol: 2022-06-01
     releaseDate: 2018-06-01
 
 -   releaseCycle: "Galaxy J6"
     support: false
-    eol: false
+    eol: 2022-02-01
     releaseDate: 2018-05-01
 
 -   releaseCycle: "Galaxy J4"
     support: false
-    eol: false
+    eol: 2022-02-01
     releaseDate: 2018-05-01
 
 -   releaseCycle: "Galaxy A6+"
     support: false
-    eol: false
+    eol: 2022-02-01
     releaseDate: 2018-05-01
 
 -   releaseCycle: "Galaxy A6"
     support: false
-    eol: false
+    eol: 2022-02-01
     releaseDate: 2018-05-01
 
 -   releaseCycle: "Galaxy J7 Prime 2"
@@ -668,17 +680,17 @@ releases:
 
 -   releaseCycle: "Galaxy J7 Duo"
     support: false
-    eol: false
+    eol: 2021-12-31
     releaseDate: 2018-04-01
 
 -   releaseCycle: "Galaxy S9+"
     support: false
-    eol: false
+    eol: 2022-04-05
     releaseDate: 2018-03-09
 
 -   releaseCycle: "Galaxy S9"
     support: false
-    eol: false
+    eol: 2022-04-05
     releaseDate: 2018-03-09
 
 -   releaseCycle: "Galaxy A8 (2018) Enterprise"

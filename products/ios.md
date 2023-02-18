@@ -15,14 +15,14 @@ releases:
     support: true
     releaseDate: 2022-09-12
     eol: false
-    latestReleaseDate: 2022-12-13
-    latest: "16.2"
+    latestReleaseDate: 2023-02-13
+    latest: "16.3.1"
 -   releaseCycle: "15"
     eol: false
     support: 2022-09-12
     releaseDate: 2021-09-20
-    latestReleaseDate: 2022-12-13
-    latest: "15.7.2"
+    latestReleaseDate: 2023-01-23
+    latest: "15.7.3"
 -   releaseCycle: "14"
     eol: 2021-10-01
     support: 2021-09-20
@@ -35,12 +35,13 @@ releases:
     releaseDate: 2019-09-19
     latestReleaseDate: 2020-09-01
     latest: "13.7"
+# iOS 12 is still getting updates
 -   releaseCycle: "12"
-    eol: 2022-08-31
+    eol: false
     support: 2019-09-19
     releaseDate: 2018-09-17
-    latestReleaseDate: 2022-08-31
-    latest: "12.5.6"
+    latestReleaseDate: 2023-01-23
+    latest: "12.5.7"
 -   releaseCycle: "11"
     eol: 2018-10-08
     support: 2018-09-17
@@ -84,19 +85,12 @@ releases:
     latestReleaseDate: 2012-05-07
     latest: "5.1.1"
 
-
-
-
-
-
-
-
 ---
 
 > [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple, and used in the company's mobile devices, including the iPhone. It is the world's second-most widely installed operating system, after Android.
 
 Major versions of iOS are released annually. Apple significantly extended the cycle of updates for iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple. Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/), for a short period of time.
 
-Occasionally, Apple releases security patches for unsupported iOS versions, such as with 12.5.6 being released in August 2022, despite iOS 12 being unsupported since September 2019 (When iOS 13 was released).
+iOS 12 is [still receving security updates](https://support.apple.com/en-us/HT213597).
 
 Support information for iPhone devices are available at [/iphone](/iphone).

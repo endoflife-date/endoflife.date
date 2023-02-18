@@ -5,7 +5,7 @@ iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://docs.docker.com/engine/release-notes/
-changelogTemplate: "https://docs.docker.com/engine/release-notes/#{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
@@ -20,10 +20,16 @@ auto:
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$
 
 releases:
--   releaseCycle: "20.10"
+-   releaseCycle: "23.0"
     eol: false
-    latest: "20.10.22"
-    latestReleaseDate: 2022-12-16
+    latest: "23.0.1"
+    latestReleaseDate: 2023-02-10
+    releaseDate: 2023-02-02
+
+-   releaseCycle: "20.10"
+    eol: 2023-03-01
+    latest: "20.10.23"
+    latestReleaseDate: 2023-01-20
     releaseDate: 2020-12-09
 
 -   releaseCycle: "19.03"

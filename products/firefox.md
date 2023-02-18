@@ -5,24 +5,27 @@ category: app
 releasePolicyLink: https://www.mozilla.org/firefox/
 releaseDateColumn: true
 releaseColumn: true
-iconSlug: firefox
+iconSlug: firefoxbrowser
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-changelogTemplate: |
-  https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+
+auto:
+-   custom: true
+
 releases:
--   releaseCycle: "108"
+-   releaseCycle: "110"
     eol: false
-    latest: "108.0"
-    latestReleaseDate: 2022-12-13
+    latest: "110.0"
+    latestReleaseDate: 2023-02-14
     lts: false
-    releaseDate: 2022-12-13
+    releaseDate: 2023-02-14
+
 -   releaseCycle: "102"
     eol: false
-    latest: "102.5.0"
-    latestReleaseDate: 2022-11-15
+    latest: "102.8.0"
+    latestReleaseDate: 2023-02-14
     lts: true
     releaseDate: 2022-06-28
-    link: https://www.mozilla.org/firefox/102.5.0/releasenotes/
 
 -   releaseCycle: "91"
     eol: 2022-09-20
@@ -56,14 +59,10 @@ releases:
 
 - **Firefox Nightly:** This is the branch that receives all the changes before anything else. It gets daily updates which represent the master branch. This is the branch that first features new changes/features, which then may be forwarded to **Firefox Beta** after being tested. Version number is always `X + 2`, `X` being the **Firefox** version number.
 
-
-
 ## Special notes
 
-- Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15, which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when Firefox 78 ESR reaches EOL on 2021-11-02.
-- Firefox 78 ESR is the last version of Firefox that supports macOS versions < 10.12.
+- Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports last 3 macOS releases, [matching the Apple support cycle.](https://support.mozilla.org/kb/firefox-mac-osx-users-esr)
-- On iOS Firefox is forced by Apple to use WebKit rendering engine instead of Firefox's own Gecko, for similar reasons browser-addons are not allowed on iOS unlike on Android. [Both of these limitations are due to Apple's rules for submitting apps to the App Store.](https://developer.apple.com/app-store/review/guidelines/)
 
 [ff-win]: https://support.mozilla.org/kb/how-install-firefox-windows
 [ff-android]: https://support.mozilla.org/products/mobile

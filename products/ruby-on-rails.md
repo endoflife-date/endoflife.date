@@ -18,19 +18,19 @@ auto:
 releases:
 -   releaseCycle: "7.0"
     eol: false
-    latest: "7.0.4"
-    latestReleaseDate: 2022-09-09
+    latest: "7.0.4.2"
+    latestReleaseDate: 2023-01-24
     releaseDate: 2021-12-15
 -   releaseCycle: "6.1"
     eol: false
-    latest: "6.1.7"
-    latestReleaseDate: 2022-09-09
+    latest: "6.1.7.2"
+    latestReleaseDate: 2023-01-24
     releaseDate: 2020-12-09
 -   releaseCycle: "6.0"
     eol: 2023-06-01
     support: 2021-12-15
-    latest: "6.0.6"
-    latestReleaseDate: 2022-09-09
+    latest: "6.0.6.1"
+    latestReleaseDate: 2023-01-17
     releaseDate: 2019-08-16
 -   releaseCycle: "5.2"
     eol: 2022-06-01
@@ -61,7 +61,7 @@ releases:
 
 >[Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework written in Ruby.
 
-Only the latest Rails version gets bug fixes, and the version before that gets security fixes. Severe security issues (as judged by the core team) are backported further; e.g., v4.2.11.1 and v5.0.7.2 are [severe security fixes](https://rubyonrails.org/2019/3/13/Rails-4-2-5-1-5-1-6-2-have-been-released) that were created after v4.2 and v5.0 were no longer receiving (non-severe) security updates.
+Only the latest Rails version gets bug fixes, and the version before that gets security fixes. Severe security issues (as judged by the core team) are backported further; e.g., v5.2.8.1 is a [severe security fix](https://rubyonrails.org/2022/7/12/Rails-Versions-7-0-3-1-6-1-6-1-6-0-5-1-and-5-2-8-1-have-been-released) that was created after v5.2 was no longer receiving (non-severe) security updates.
 
 A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions). New releases are published on the [Rails blog](https://rubyonrails.org/category/releases).
 .

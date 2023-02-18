@@ -63,4 +63,5 @@ defaults:
       path: "products"
     values:
       layout: product
+      LTSLabel: <abbr title="Long Term Support">LTS</abbr>
 encoding: utf-8

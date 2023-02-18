@@ -16,12 +16,19 @@ identifiers:
 -   purl: pkg:docker/bitnami/laravel
 -   purl: pkg:github/laravel/framework
 releases:
+-   releaseCycle: "10"
+    support: 2024-08-06
+    eol: 2025-02-04
+    latest: '10.0.3'
+    lts: false
+    latestReleaseDate: 2023-02-16
+    releaseDate: 2023-02-14
 -   releaseCycle: "9"
     support: 2023-08-08
     eol: 2024-02-08
-    latest: '9.46.0'
+    latest: '9.52.0'
     lts: false
-    latestReleaseDate: 2023-01-03
+    latestReleaseDate: 2023-02-14
     releaseDate: 2022-02-08
 -   releaseCycle: "8"
     support: 2022-07-26

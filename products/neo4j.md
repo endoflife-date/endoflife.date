@@ -3,7 +3,8 @@ title: Neo4j
 category: db
 iconSlug: neo4j
 permalink: /neo4j
-versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
+versionCommand: "call dbms.components() yield versions unwind versions as version\
+  \ return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 activeSupportColumn: false
@@ -13,15 +14,22 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/neo4j/neo4j.git
 
+# eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "5.3"
+-   releaseCycle: "5.4"
     eol: false
+    latest: "5.4.0"
+    latestReleaseDate: 2023-01-26
+    releaseDate: 2023-01-26
+
+-   releaseCycle: "5.3"
+    eol: 2023-01-26
     latest: "5.3.0"
     latestReleaseDate: 2022-12-15
     releaseDate: 2022-12-15
 
 -   releaseCycle: "5.2"
-    eol: false
+    eol: 2022-12-15
     latest: "5.2.0"
     latestReleaseDate: 2022-11-21
     releaseDate: 2022-11-21
@@ -40,9 +48,9 @@ releases:
 
 -   releaseCycle: "4.4"
     eol: 2025-06-30
-    latest: "4.4.16"
+    latest: "4.4.17"
     lts: true
-    latestReleaseDate: 2022-12-21
+    latestReleaseDate: 2023-02-02
     releaseDate: 2021-12-02
 
 -   releaseCycle: "4.3"

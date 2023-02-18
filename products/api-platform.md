@@ -1,28 +1,36 @@
 ---
 title: API Platform
-permalink: /api-platform
-releasePolicyLink: https://api-platform.com/docs/extra/releases/
-activeSupportColumn: true
-versionCommand: composer show api-platform/core | grep versions
-changelogTemplate: |
-  https://github.com/api-platform/core/releases/tag/v__LATEST__
-releaseDateColumn: true
 category: framework
+permalink: /api-platform
+versionCommand: composer show api-platform/core | grep versions
+releasePolicyLink: https://api-platform.com/docs/extra/releases/
+changelogTemplate: https://github.com/api-platform/core/releases/tag/v__LATEST__
+activeSupportColumn: true
+releaseDateColumn: true
+
 auto:
 -   git: https://github.com/api-platform/core.git
+
 releases:
--   releaseCycle: "3.0"
+-   releaseCycle: "3.1"
     support: true
     eol: false
-    latest: "3.0.8"
-    latestReleaseDate: 2022-12-16
+    latest: "3.1.2"
+    latestReleaseDate: 2023-02-03
+    releaseDate: 2023-01-23
+
+-   releaseCycle: "3.0"
+    support: 2023-01-23
+    eol: false
+    latest: "3.0.11"
+    latestReleaseDate: 2023-01-23
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.7"
-    support: true
-    eol: false
-    latest: "2.7.5"
-    latestReleaseDate: 2022-11-25
+    support: 2023-01-27
+    eol: 2023-01-27
+    latest: "2.7.9"
+    latestReleaseDate: 2023-02-03
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.6"

@@ -8,7 +8,7 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
-releaseImage: https://moodledev.io/assets/images/4010_release_graph-773a9f767c2a486113610b0eab0e324d.png
+releaseImage: https://moodledev.io/assets/images/4011_release_graph-67c5dac3e7ba705cf567a8624dc50c3d.png
 
 auto:
 -   git: https://github.com/moodle/moodle.git
@@ -17,27 +17,26 @@ releases:
 -   releaseCycle: "4.1"
     eol: 2025-11-10
     support: 2023-11-13
-    latest: "4.1.0"
+    latest: "4.1.1"
     lts: true
     releaseDate: 2022-11-26
-    latestReleaseDate: 2022-11-26
-    link: "https://moodledev.io/general/releases/4.1" # remove once 4.1.1 is released
+    latestReleaseDate: 2023-01-14
 
 -   releaseCycle: "4.0"
     eol: 2023-11-13
     support: 2023-05-08
-    latest: "4.0.5"
+    latest: "4.0.6"
     lts: false
     releaseDate: 2022-04-17
-    latestReleaseDate: 2022-11-12
+    latestReleaseDate: 2023-01-14
 
 -   releaseCycle: "3.11"
     eol: 2023-11-13
     support: 2022-11-14
-    latest: "3.11.11"
+    latest: "3.11.12"
     lts: false
     releaseDate: 2021-05-15
-    latestReleaseDate: 2022-11-12
+    latestReleaseDate: 2023-01-14
 
 -   releaseCycle: "3.10"
     eol: 2022-05-09
@@ -50,10 +49,10 @@ releases:
 -   releaseCycle: "3.9"
     eol: 2023-11-13
     support: 2021-05-10
-    latest: "3.9.18"
+    latest: "3.9.19"
     lts: true
     releaseDate: 2020-06-13
-    latestReleaseDate: 2022-11-12
+    latestReleaseDate: 2023-01-14
 
 -   releaseCycle: "3.8"
     eol: 2021-05-10

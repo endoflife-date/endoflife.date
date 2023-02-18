@@ -22,14 +22,14 @@ releases:
 -   releaseCycle: "7.0"
     lts: false
     eol: 2024-05-14
-    latest: "7.0.1"
-    latestReleaseDate: 2022-12-13
+    latest: "7.0.3"
+    latestReleaseDate: 2023-02-14
     releaseDate: 2022-11-08
 -   releaseCycle: "6.0"
     lts: true
     eol: 2024-11-12
-    latest: "6.0.12"
-    latestReleaseDate: 2022-12-13
+    latest: "6.0.14"
+    latestReleaseDate: 2023-02-14
     releaseDate: 2021-11-08
 -   releaseCycle: "5.0"
     lts: false

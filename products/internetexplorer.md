@@ -1,6 +1,10 @@
 ---
 permalink: /internet-explorer
-title: Internet Explorer
+alternate_urls:
+-   /ie
+-   /msie
+-   /iexplore
+title: Internet Explorer 
 releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 releaseDateColumn: true
 releaseColumn: false
@@ -14,9 +18,25 @@ releases:
     releaseDate: 2013-11-13
 
 -   releaseCycle: "11-ltsb"
-    releaseLabel: "11 LTSB/LTSC/Server/Embedded"
+    releaseLabel: "11 LTSB"
     eol: 2031-10-14
     releaseDate: 2013-11-13
+
+-   releaseCycle: "11-ltsc"
+    releaseLabel: "11 LTSC"
+    eol: 2031-10-14
+    releaseDate: 2013-11-13
+
+-   releaseCycle: "11-server"
+    releaseLabel: "11 Server"
+    eol: 2031-10-14
+    releaseDate: 2013-11-13
+
+-   releaseCycle: "11-embedded"
+    releaseLabel: "11 Embedded"
+    eol: 2031-10-14
+    releaseDate: 2013-11-13
+
 -   releaseCycle: "10"
     eol: 2020-01-31
     releaseDate: 2012-10-30

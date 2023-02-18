@@ -1,12 +1,15 @@
 ---
-category: app
+category: lang
 title: Microsoft PowerShell
 iconSlug: powershell
 permalink: /powershell
+alternate_urls:
+-   /pwsh
+-   /ps
+-   /ps1
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
-changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELOG/__RELEASE_CYCLE__.md#{{"__LATEST__"
-  | replace:'.','' }}---__LATEST_RELEASE_DATE__
+changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
 auto:
@@ -15,15 +18,15 @@ releases:
 -   releaseCycle: "7.3"
     lts: false
     eol: false
-    latest: "7.3.1"
-    latestReleaseDate: 2022-12-13
+    latest: "7.3.2"
+    latestReleaseDate: 2023-01-24
     releaseDate: 2022-11-08
 
 -   releaseCycle: "7.2"
     lts: true
     eol: 2024-11-30
-    latest: "7.2.8"
-    latestReleaseDate: 2022-12-13
+    latest: "7.2.9"
+    latestReleaseDate: 2023-01-24
     releaseDate: 2021-11-05
 
 -   releaseCycle: "7.1"

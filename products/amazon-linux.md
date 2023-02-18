@@ -5,7 +5,7 @@ iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
-changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__|replace:'-',''}}.html"
+changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__'|replace:'-',''}}.html"
 activeSupportColumn: false
 eolColumn: Support
 releaseDateColumn: true
@@ -23,9 +23,9 @@ auto:
 releases:
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
-    eol: 2024-06-30
-    latest: "2.0.20221210.0"
-    latestReleaseDate: 2022-12-16
+    eol: 2025-06-30
+    latest: "2.0.20230207.0"
+    latestReleaseDate: 2023-02-16
     releaseDate: 2018-06-26
 
 -   releaseCycle: '1'

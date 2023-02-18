@@ -15,12 +15,19 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
--   releaseCycle: "pc.2022.6"
-    releaseDate: 2022-08-03
+-   releaseCycle: "pc.2022.9"
+    releaseDate: 2023-01-20
     support: true
     eol: false
-    latest: "pc.2022.6.0.2"
-    latestReleaseDate: 2022-12-16
+    latest: "pc.2022.9.1"
+    latestReleaseDate: 2023-01-24
+
+-   releaseCycle: "pc.2022.6"
+    releaseDate: 2022-08-03
+    support: 2023-07-31
+    eol: 2024-01-31
+    latest: "pc.2022.6.0.3"
+    latestReleaseDate: 2023-01-24
 
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16

@@ -10,19 +10,31 @@ changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
 releaseDateColumn: true
+identifiers:
+-   purl: pkg:generic/go
+-   purl: pkg:docker/library/golang
+-   purl: pkg:docker/circleci/golang
+-   purl: pkg:docker/cimg/go
+-   purl: pkg:docker/bitnami/golang
+-   repology: go
 auto:
 -   git: https://github.com/golang/go.git
     regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
+-   releaseCycle: "1.20"
+    eol: false
+    latest: "1.20.1"
+    releaseDate: 2023-02-01
+    latestReleaseDate: 2023-02-14
 -   releaseCycle: "1.19"
     eol: false
-    latest: "1.19.4"
+    latest: "1.19.6"
     releaseDate: 2022-08-02
-    latestReleaseDate: 2022-12-06
+    latestReleaseDate: 2023-02-14
 -   releaseCycle: "1.18"
-    eol: false
-    latest: "1.18.9"
-    latestReleaseDate: 2022-12-06
+    eol: 2023-02-01
+    latest: "1.18.10"
+    latestReleaseDate: 2023-01-10
     releaseDate: 2022-03-15
 -   releaseCycle: "1.17"
     eol: 2022-08-02

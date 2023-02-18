@@ -1,7 +1,8 @@
 ---
-permalink: /ansible
 title: Ansible
 category: app
+iconSlug: ansible
+permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
@@ -9,41 +10,43 @@ changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
-iconSlug: ansible
+
 identifiers:
 -   purl: pkg:pypi/ansible
 -   repology: ansible
+
 auto:
--   git: https://github.com/ansible-community/ansible-build-data.git
+-   pypi: ansible
+
 releases:
 -   releaseCycle: "7"
     eol: false
-    latest: "7.0.0"
-    latestReleaseDate: 2022-11-22
+    latest: "7.2.0"
+    latestReleaseDate: 2023-01-31
     releaseDate: 2022-11-22
 
 -   releaseCycle: "6"
     eol: 2022-12-22 # will have to be updated with 6.7.0 release date
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
-    releaseDate: 2022-06-22
+    releaseDate: 2022-06-21
 
 -   releaseCycle: "5"
     eol: 2022-06-08
-    latest: "5.9.0"
-    latestReleaseDate: 2022-06-08
+    latest: "5.10.0"
+    latestReleaseDate: 2022-06-28
     releaseDate: 2021-12-02
 
 -   releaseCycle: "4"
     eol: 2021-12-14
     latest: "4.10.0"
-    latestReleaseDate: 2021-12-21
+    latestReleaseDate: 2021-12-14
     releaseDate: 2021-05-18
 
 -   releaseCycle: "3"
     eol: 2021-05-11
     latest: "3.4.0"
-    latestReleaseDate: 2021-05-13
+    latestReleaseDate: 2021-05-11
     releaseDate: 2021-02-18
 
 -   releaseCycle: "2.10"
@@ -56,18 +59,21 @@ releases:
     release: 2019-10-31
     eol: 2022-05-23
     latest: "2.9.27"
-    latestReleaseDate: 2021-02-09
-    releaseDate: 2020-09-22
+    latestReleaseDate: 2021-10-11
+    releaseDate: 2019-10-31
 
 ---
 
-> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management and application-deployment tool enabling infrastructure as code. `ansible` extends the basic `ansible-core` with additional modules by delivering several collections in an easy-to-consume PyPI package.
+> [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration
+> management and application-deployment tool enabling infrastructure as code. `ansible` extends the
+> basic `ansible-core` with additional modules by delivering several collections in an
+> easy-to-consume PyPI package.
 
-The `ansible` community package typically gets 2 major releases every year. A new minor version is released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
+The `ansible` community package typically gets 2 major releases every year. A new minor version is
+released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
-See the [Ansible Roadmap][roadmap] for upcoming release details.
-
-[roadmap]: https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html
+See the [Ansible Roadmap](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html)
+for upcoming release details.
 
 ## Python Compatibility
 

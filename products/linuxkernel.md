@@ -4,7 +4,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/fw9pnpeabrho7yyk314d2u9rrtbtq3s.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sj9emk30expqiyyrr4kztv7g5t8qj9u.png
 changelogTemplate: |
   https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -19,15 +19,16 @@ auto:
 
 releases:
 -   releaseCycle: "6.1"
-    eol: false
-    latest: "6.1.2"
-    latestReleaseDate: 2022-12-31
+    eol: 2026-12-31
+    lts: true
+    latest: "6.1.12"
+    latestReleaseDate: 2023-02-14
     releaseDate: 2022-12-11
 
 -   releaseCycle: "6.0"
-    eol: false
-    latest: "6.0.16"
-    latestReleaseDate: 2022-12-31
+    eol: 2023-01-12
+    latest: "6.0.19"
+    latestReleaseDate: 2023-01-12
     releaseDate: 2022-10-02
 
 -   releaseCycle: "5.19"
@@ -55,45 +56,45 @@ releases:
     releaseDate: 2022-01-09
 
 -   releaseCycle: "5.15"
-    eol: 2023-10-31
+    eol: 2026-10-31
     lts: true
-    latest: "5.15.86"
-    latestReleaseDate: 2022-12-31
+    latest: "5.15.94"
+    latestReleaseDate: 2023-02-14
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
     eol: 2026-12-01
     lts: true
-    latest: "5.10.161"
-    latestReleaseDate: 2022-12-21
+    latest: "5.10.168"
+    latestReleaseDate: 2023-02-15
     releaseDate: 2020-12-13
 
 -   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.228"
-    latestReleaseDate: 2022-12-19
+    latest: "5.4.231"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.269"
-    latestReleaseDate: 2022-12-14
+    latest: "4.19.272"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
     eol: 2024-01-01
     lts: true
-    latest: "4.14.302"
-    latestReleaseDate: 2022-12-14
+    latest: "4.14.305"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"
-    eol: 2023-01-01
+    eol: 2023-01-07
     lts: true
-    latest: "4.9.336"
-    latestReleaseDate: 2022-12-14
+    latest: "4.9.337"
+    latestReleaseDate: 2023-01-07
     releaseDate: 2016-12-11
 
 ---

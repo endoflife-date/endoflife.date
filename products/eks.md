@@ -11,24 +11,24 @@ auto:
 releases:
 -   releaseCycle: "1.24"
     eol: 2024-01-01
-    latest: "1.24-eks-3"
-    latestReleaseDate: 2022-12-05
+    latest: "1.24-eks-4"
+    latestReleaseDate: 2023-01-27
     releaseDate: 2022-11-15
 -   releaseCycle: "1.23"
     eol: 2023-10-01
-    latest: "1.23-eks-5"
+    latest: "1.23-eks-6"
     releaseDate: 2022-08-11
-    latestReleaseDate: 2022-12-05
+    latestReleaseDate: 2023-01-27
 -   releaseCycle: "1.22"
     eol: 2023-05-01
-    latest: "1.22-eks-9"
+    latest: "1.22-eks-10"
     releaseDate: 2022-04-04
-    latestReleaseDate: 2022-12-05
+    latestReleaseDate: 2023-01-27
 -   releaseCycle: "1.21"
     eol: 2023-02-15
-    latest: "1.21-eks-14"
+    latest: "1.21-eks-15"
     releaseDate: 2021-07-19
-    latestReleaseDate: 2022-12-05
+    latestReleaseDate: 2023-01-27
 -   releaseCycle: "1.20"
     eol: 2022-11-01
     latest: "1.20-eks-12"
