@@ -10,6 +10,10 @@ releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "Windows __RELEASE_CYCLE__"
 
+identifiers:
+-   cpe: cpe:2.3:o:microsoft:windows
+-   cpe: cpe:/o:microsoft:windows
+
 releases:
 -   releaseCycle: "10, version 22H2 (E)"
     releaseDate: 2022-10-18

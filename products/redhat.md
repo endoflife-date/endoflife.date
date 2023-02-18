@@ -15,6 +15,10 @@ eolColumn: Maintenance Support
 releaseDateColumn: true
 extendedSupportColumn: Extended Life Cycle Support
 
+identifiers:
+-   cpe: cpe:/o:redhat:enterprise_linux
+-   cpe: cpe:2.3:o:redhat:enterprise_linux
+
 releases:
 -   releaseCycle: "9"
     support: 2027-05-31

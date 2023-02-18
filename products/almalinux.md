@@ -9,7 +9,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/almalinux
+-   cpe: cpe:/o:almalinux:almalinux
+-   cpe: cpe:2.3:o:almalinux:almalinux
 
 auto:
 -   distrowatch: alma

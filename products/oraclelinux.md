@@ -17,6 +17,10 @@ auto:
     regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
       Update )?(?P<minor>\d+)?$'
 
+identifiers:
+-   cpe: cpe:/o:oracle:linux
+-   cpe: cpe:2.3:o:oracle:linux
+
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
