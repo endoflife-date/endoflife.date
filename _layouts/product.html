@@ -3,7 +3,9 @@ layout: default
 ---
 
 {% if page.iconUrl %}
-<img alt="{{page.title}} Logo" class=productlogo width=50 height=50 src="{{page.iconUrl}}" >
+<img alt="{{ page.title }} logo" class=productlogo width=50 height=50 src="{{ page.iconUrl }}">
+{% else %}
+<img alt="No product logo" class=productlogo width=50 height=50 src="{{ '/assets/default-product-logo.svg' | relative_url }}">
 {% endif %}
 
 <div class="description">{{content | extract_element:'blockquote' | first }}</div>
