@@ -12,6 +12,7 @@ module Jekyll
         set_id(page)
         set_icon_url(page)
         set_tags(page)
+        set_overridden_columns_label(page)
 
         page.data["releases"].each { |release| enrich_release(page, release) }
       end
@@ -47,6 +48,20 @@ module Jekyll
 
         tags << page.data['category']
         page.data['tags'] = tags
+      end
+
+      # Set properly the column presence/label if it was overridden.
+      def set_overridden_columns_label(page)
+        columnNames = [
+          'releaseDateColumn', 'releaseColumn', 'discontinuedColumn',
+          'activeSupportColumn', 'eolColumn', 'extendedSupportColumn'
+        ]
+        for columnName in columnNames
+          if page.data[columnName].is_a? String
+            page.data[columnName + 'Label'] = page.data[columnName]
+            page.data[columnName] = true
+          end
+        end
       end
 
       def enrich_release(page, cycle)

@@ -63,5 +63,17 @@ defaults:
       path: "products"
     values:
       layout: product
-      LTSLabel: <abbr title="Long Term Support">LTS</abbr>
+      releaseColumn: true
+      releaseColumnLabel: 'Latest'
+      releaseDateColumn: false
+      releaseDateColumnLabel: 'Released'
+      discontinuedColumn: false
+      discontinuedColumnLabel: 'Discontinued'
+      activeSupportColumn: false
+      activeSupportColumnLabel: 'Active Support'
+      eolColumn: true
+      eolColumnLabel: 'Security Support'
+      extendedSupportColumn: false
+      extendedSupportColumnLabel: 'Extended Support'
+      LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 encoding: utf-8
