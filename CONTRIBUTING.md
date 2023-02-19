@@ -102,30 +102,31 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
-# The name of the End of Life column (optional, default = Security Support).
-eolColumn: Service Status
+# Whether the "End of Life" column should be displayed (optional, default = true).
+# The value of this property can be set to any string to override the default column label.
+eolColumn: Security Support
 
-# Whether to display the "Active Support" column (optional, default = false).
-# You can also set this variable with a text label if you want to change the column name:
-#   activeSupportColumn: Customer Support
-activeSupportColumn: false
+# Whether the "Active Support" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+activeSupportColumn: Active Support
 
-# Whether to display the "Latest" column (optional, default = true).
-# If the product doesn't have patch releases, set this to false.
-releaseColumn: true
+# Whether the "Latest" column should be displayed (optional, default = true).
+# The value of this property can be set to any string to override the default column label.
+releaseColumn: Latest
 
-# Whether to show the "Released" column (optional, default = false).
-releaseDateColumn: true
+# Whether the "Released" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+releaseDateColumn: Released
 
-# Whether to show the discontinued column (optional, default = false).
-# Set to true if you're tracking a device.
-# This usually means the device is no longer available for sale or is no longer being manufactured.
-discontinuedColumn: false
+# Whether the "Discontinued" column should be displayed (optional, default = false).
+# Set to true if you're tracking a device. This usually means the device is no longer available for
+# sale or is no longer being manufactured.
+# The value of this property can be set to any string to override the default column label.
+discontinuedColumn: Discontinued
 
-# Whether to display the "Extended Support" column (optional, default = false).
-# You can also set this variable with a text label if you want to change the column name:
-#   extendedSupportColumn: Commercial Support
-extendedSupportColumn: false
+# Whether the "Extended Support" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+extendedSupportColumn: Extended Support
 
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.

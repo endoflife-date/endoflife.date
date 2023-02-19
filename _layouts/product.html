@@ -18,30 +18,12 @@ layout: default
   <thead>
     <tr>
       <th>Release</th>
-      {% if page.releaseDateColumn%}<th>Released</th>{% endif %}
-      {% if page.discontinuedColumn%}<th>Discontinued</th>{% endif %}
-      {% if page.activeSupportColumn%}
-        <th>
-          {% if page.activeSupportColumn == true %}
-            Active Support
-          {%else%}
-            {{page.activeSupportColumn}}
-          {%endif%}
-        </th>
-      {% endif %}
-      {% if page.eolColumn != false %}
-      <th>{{ page.eolColumn | default: "Security Support" }}</th>
-      {% endif %}
-      {% if page.extendedSupportColumn%}
-      <th>
-        {% if page.extendedSupportColumn == true %}
-        Extended Support
-        {%else%}
-        {{page.extendedSupportColumn}}
-        {%endif%}
-      </th>
-      {% endif %}
-      {% if page.releaseColumn != false %}<th>Latest</th>{% endif %}
+      {% if page.releaseDateColumn %}<th>{{ page.releaseDateColumnLabel }}</th>{% endif %}
+      {% if page.discontinuedColumn %}<th>{{ page.releaseDateColumnLabel }}</th>{% endif %}
+      {% if page.activeSupportColumn %}<th>{{ page.activeSupportColumnLabel }}</th>{% endif %}
+      {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% endif %}
+      {% if page.extendedSupportColumn %}<th>{{ page.extendedSupportColumnLabel }}</th>{% endif %}
+      {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% endif %}
     </tr>
   </thead>
 
