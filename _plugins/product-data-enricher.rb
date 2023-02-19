@@ -71,6 +71,7 @@ module Jekyll
         set_cycle_link(page, cycle)
         set_cycle_label(page, cycle)
         add_lts_label_to_cycle_label(page, cycle)
+        compute_days_toward_now_for_all_dates(page, cycle)
       end
 
       # Build the cycle id from the permalink.
@@ -129,7 +130,39 @@ module Jekyll
         end
       end
 
+      # Compute the number of days toward now for all cycle's dates (support, eol...), and add those
+      # values to the cycle's data in new fields (daysTowardSupport, daysTowardEol...).
+      def compute_days_toward_now_for_all_dates(page, cycle)
+        for field in ['support', 'eol', 'discontinued', 'extendedSupport']
+          next if not cycle.has_key?(field)
+
+          field_value = cycle[field] # either a date or a boolean
+          new_field_name = 'daysToward' + field
+          new_field_name[10] = new_field_name[10].upcase! # daysTowardeol => daysTowardEol
+
+          if field_value.is_a?(Date)
+            cycle[new_field_name] = days_toward_now(field_value)
+          elsif ['eol', 'discontinued'].include?(field)
+            cycle[new_field_name] = field_value ? -4096 : 4096 # if eol     is true, then negative days
+          else
+            cycle[new_field_name] = field_value ? 4096 : -4096 # if support is true, then positive days
+          end
+        end
+      end
+
       private
+
+      # Compute the number of days from now to the given date.
+      #
+      # Usage (assuming now is '2023-01-01'):
+      # {{ '2023-01-10' | days_from_now }} => 9
+      # {{ '2023-01-01' | days_from_now }} => 0
+      # {{ '2022-12-31' | days_from_now }} => -1
+      def days_toward_now(date)
+        date_timestamp = date.to_time.to_i # date at midnight
+        now_timestamp = Date.today.to_time.to_i # today at midnight
+        return (date_timestamp - now_timestamp) / (60 * 60 * 24)
+      end
 
       def render_eol_template(template, cycle)
         link = template.gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')

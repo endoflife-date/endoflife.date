@@ -28,200 +28,131 @@ layout: default
   </thead>
 
 {% for r in page.releases %}
-{% assign support =r.support | date: '%s' | plus:0 %}
-{% assign securityFixes = r.eol | date: '%s' | plus:0 %}
-{% assign extendedSupport = r.extendedSupport | date: '%s' | plus:0 %}
+  <tr>
+    <td>
+      {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
+      {% if page.releaseColumn == false and r.link and r.daysTowardEol > 0  %}
+        <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
+      {% else %}
+        {{ r.label }}
+      {% endif %}
+    </td>
 
-
-{% comment %}
-diff is the number of days towards EoL. Positive is in the future. Negative is in the past.
-In case we don't have an exact date, we use boolean values (true/false) instead. In such
-cases diff is set to -1 for true (EoL has been reached)
-or +1 (EoL is in the future)
-{% endcomment %}
-{% if r.eol == true %}
-{% assign diff = -1 %}
-{% elsif r.eol == false %}
-{% assign diff = 1 %}
-{% elsif r.eol == nil %}
-{% assign diff = 1 %}
-{% else %}
-{% assign diff = r.eol | date: '%s' | plus:0 | minus:now %}
-{% endif %}
-
-{% assign diffSupport = support | minus:now %}
-{% assign diffExtendedSupport = extendedSupport | minus:now %}
-{% assign diffSecurity6  = diff | minus:10651938 %}
-{% assign diffSupport6  = diffSupport | minus:10651938 %}
-{% assign diffExtendedSupport6  = diffExtendedSupport | minus:10651938 %}
-
-<!-- Main Row starts here -->
-<tr>
-  <td>
-    {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
-    {% if r.link and diff > 0 and page.releaseColumn == false %}
-      <a href="{{ r.link }}" title="Release Notes / Changelog for {{ r.label | strip_html }}">{{ r.label }}</a>
-    {% else %}
-      {{ r.label }}
+    {% if page.releaseDateColumn %}
+    <td>{{ r.releaseDate | timeago }} <div>({{ r.releaseDate | date_to_string }})</div></td>
     {% endif %}
-  </td>
 
-  {% if page.releaseDateColumn %}
-  <td>{{ r.releaseDate | timeago }} <div>({{ r.releaseDate | date_to_string }})</div></td>
-  {% endif %}
-
-  {% if page.discontinuedColumn %}
-  <td class="{% unless r.discontinued %}bg-green-000{% endunless %}">
-    {% if r.discontinued  == true %}
-    Discontinued
-    {% elsif r.discontinued  == false %}
-    In Production
+    {% if page.discontinuedColumn %}
+    {%- assign colorClass = 'bg-green-000' %}
+    {%- if r.daysTowardDiscontinued < 121 %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.daysTowardDiscontinued < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    <td class="{{ colorClass }}">
+    {% if r.discontinued == true %}
+      Discontinued
+    {% elsif r.discontinued == false %}
+      In Production
     {% else %}
-    {{ r.discontinued | timeago }} <div>({{ r.discontinued | date_to_string }})</div>
-    {% endif %}
-  </td>
-  {% endif %}
-
-  {% if page.activeSupportColumn %}
-    <td class=
-    {% if support > 5 %}
-      {% if diffSupport < 0 and r.support != false %}
-      "bg-red-000"
-      {% elsif diffSupport6 > 0 %}
-      "bg-green-000"
-      {% else %}
-      "bg-yellow-200"
-      {% endif %}
-    {% else %}
-      {% if r.support %}
-      "bg-green-000"
-      {% else %}
-      "bg-red-000"
-      {% endif %}
-    {% endif %}
-    title="{{r.support}}">
-    {% if support > 5 %}
-      {% if diffSupport < 0 %}
-        Ended
-      {% else %}
-        Ends
-      {% endif %}
-    {{r.support | timeago}} <div>({{r.support | date_to_string}})</div>
-    {% else %}
-      {% if r.support %}
-      Yes
-      {% else %}
-      No
-      {% endif %}
+      {{ r.discontinued | timeago }} <div>({{ r.discontinued | date_to_string }})</div>
     {% endif %}
     </td>
-  {% endif %}
-
-  {% if page.eolColumn != false %}
-  <td class=
-    {% if securityFixes > 5 %}
-      {% if diff < 0 %}
-      "bg-red-000"
-      {% elsif diffSecurity6 > 0 %}
-      "bg-green-000"
-      {% else %}
-      "bg-yellow-200"
-      {% endif %}
-    {% else %}
-      {% if r.eol %}
-      "bg-red-000"
-      {% else %}
-      "bg-green-000"
-      {% endif %}
     {% endif %}
-    {% if securityFixes > 5 %}
-      title="{{r.eol}}">
-      {% if diff < 0 %}
-        Ended
-      {% else %}
-        Ends
-      {% endif %}
-    {{r.eol | timeago}} <div>({{r.eol | date_to_string}})</div>
-    {% else %}
-      >
-      {% if r.eol %}
-      No
-      {% else %}
+
+    {% if page.activeSupportColumn %}
+    {%- assign colorClass = 'bg-green-000' %}
+    {%- if r.daysTowardSupport < 121 %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.daysTowardSupport < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    <td class="{{ colorClass }}">
+    {% if r.support == true %}
       Yes
+    {% elsif r.support == false %}
+      No
+    {% else %}
+      {% if r.daysTowardSupport < 0 %}Ended{% else %}Ends{% endif %}
+      {{ r.support | timeago }} <div>({{ r.support | date_to_string }})</div>
+    {% endif %}
+    </td>
+    {% endif %}
+
+    {% if page.eolColumn != false %}
+    {%- assign colorClass = 'bg-green-000' %}
+    {%- if r.daysTowardEol < 121 %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.daysTowardEol < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    <td class="{{ colorClass }}">
+      {% if r.eol == true %}
+        No
+      {% elsif r.eol == false %}
+        Yes
+      {% else %}
+        {% if r.daysTowardEol < 0 %}Ended{% else %}Ends{% endif %}
+        {{ r.eol | timeago }} <div>({{ r.eol | date_to_string }})</div>
       {% endif %}
+    </td>
     {% endif %}
-  </td>
-  {% endif %}
 
-  {% if page.extendedSupportColumn %}
-  <td class=
-        {% if extendedSupport > 5 %}
-    {% if diffExtendedSupport < 0 and r.extendedSupport != false %}
-    "bg-red-000"
-    {% elsif diffExtendedSupport6 > 0 %}
-    "bg-green-000"
-    {% else %}
-    "bg-yellow-200"
+    {% if page.extendedSupportColumn %}
+    {%- assign colorClass = 'bg-green-000' %}
+    {%- if r.daysTowardExtendedSupport < 121 %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.daysTowardExtendedSupport < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.extendedSupport == false %}{% assign colorClass = 'bg-grey-lt-100' %}{% endif %}
+    <td class="{{ colorClass }}">
+      {% if r.extendedSupport == true %}
+        Yes
+      {% elsif r.extendedSupport == false %}
+        Unavailable
+      {% else %}
+        {% if r.daysTowardExtendedSupport < 0 %}Ended{% else %}Ends{% endif %}
+        {{ r.extendedSupport | timeago }} <div>({{ r.extendedSupport | date_to_string }})</div>
+      {% endif %}
+    </td>
     {% endif %}
-    {% else %}
-    {% if r.extendedSupport %}
-    "bg-green-000"
-    {% else %}
-    "bg-grey-lt-100"
-    {% endif %}
-    {% endif %}
-    title="{{r.extendedSupport}}">
-    {% if extendedSupport > 5 %}
-    {% if diffExtendedSupport < 0 %}
-    Ended
-    {% else %}
-    Ends
-    {% endif %}
-    {{r.extendedSupport | timeago}} <div>({{r.extendedSupport | date_to_string}})</div>
-    {% else %}
-    {% if r.extendedSupport %}
-    Yes
-    {% else %}
-    Unavailable
-    {% endif %}
-    {% endif %}
-  </td>
-  {% endif %}
 
-  {% if page.releaseColumn != false %}
-  <td {% if diff <= 0 %} class = "txt-linethrough" {% endif %} >      <!-- if the support finished add txt-linethrough class -->
-    {% if r.link and diff > 0 %}
-      <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
-    {% else %}
-      {{ r.latest }}
+    {% if page.releaseColumn != false %}
+    {%- assign releaseColumnClass = '' %}
+    {%- if r.daysTowardEol < 0 %}{% assign releaseColumnClass = 'txt-linethrough' %}{% endif %}
+    <td class="{{ releaseColumnClass }}">
+      {% if r.link and r.daysTowardEol > 0 %}
+        <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
+      {% else %}
+        {{ r.latest }}
+      {% endif %}
+      {% if r.daysTowardEol > 0 and r.latestReleaseDate %}
+        <div>({{ r.latestReleaseDate | date_to_string }})</div>
+      {% endif %}
+    </td>
     {% endif %}
-    {% if diff > 0 and r.latestReleaseDate %}
-    <div>({{ r.latestReleaseDate | date_to_string }})</div>
-    {% endif %}
-  </td>
-  {% endif %}
-</tr>
+  </tr>
 {% endfor %}
 </table>
 
 <div class="policytext">
-  {{content | remove_first_element:'blockquote'}}
+  {{ content | remove_first_element:'blockquote' }}
 </div>
-{% if page.releasePolicyLink and page.releasePolicyLink != "" %}
-<p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>. </p>
+
+{% if page.releasePolicyLink %}
+<p>More information is available on the <a href="{{page.releasePolicyLink}}">{{page.title}} website</a>.</p>
 {% endif %}
 
-{% if page.releaseColumn != false %}<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>{% endif %}
+{% if page.releaseColumn %}
+<p>You should be running one of the supported release numbers listed above in the rightmost column.</p>
+{% endif %}
 
-{% if page.versionCommand %}<div id="version-command" class="card card-body bg-light">You can check the version that you are currently using by running: <pre>{{page.versionCommand}}</pre></div>{% endif %}
+{% if page.versionCommand %}
+<div id="version-command" class="card card-body bg-light">
+  You can check the version that you are currently using by running: <pre>{{page.versionCommand}}</pre>
+</div>
+{% endif %}
 
 <hr>
 
-<p>You can submit an improvement to this page
-<a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{page.path}}"
-title="Click the Pencil, the link takes you directly to the correct page">on GitHub</a>
-<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
-. This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.</p>
+<p>
+  You can submit an improvement to this page
+  <a href="https://github.com/endoflife-date/endoflife.date/blob/master/{{page.path}}" title="Click the Pencil, the link takes you directly to the correct page">
+    on GitHub
+    <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
+  </a>.
+  This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">
+  Talk Page</a>.
+</p>
 
 <p>
   A JSON version of this page is available at <a href="/api{{page.permalink}}.json">/api{{page.permalink}}.json</a>.
