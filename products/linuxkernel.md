@@ -23,6 +23,7 @@ identifiers:
 
 releases:
 -   releaseCycle: "6.2"
+    eol: 2023-06-01
     latest: "6.2"
     latestReleaseDate: 2023-02-19
     releaseDate: 2023-02-19
