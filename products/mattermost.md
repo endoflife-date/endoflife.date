@@ -16,9 +16,9 @@ auto:
 releases:
 -   releaseCycle: "7.8"
     lts: true
-    releaseDate: 2023-02-16
+    releaseDate: 2023-02-14
     eol: 2023-11-15
-    latestReleaseDate: 2023-02-16
+    latestReleaseDate: 2023-02-14
     latest: '7.8.0'
 
 -   releaseCycle: "7.7"
