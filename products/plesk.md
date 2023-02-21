@@ -5,6 +5,7 @@ iconSlug: plesk
 permalink: /plesk
 versionCommand: plesk version
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
+changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
@@ -15,14 +16,12 @@ releases:
     eol: 2023-04-23
     latest: "18.0.50.2"
     latestReleaseDate: 2023-02-14
-    link: https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-18050
 
 -   releaseCycle: "18.0.49"
     releaseDate: 2022-12-20
     eol: 2023-03-12
     latest: "18.0.49.2"
     latestReleaseDate: 2023-01-11
-    link: https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-18049
 
 -   releaseCycle: "17"
     releaseDate: 2016-10-11
