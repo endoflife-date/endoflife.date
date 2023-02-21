@@ -3,6 +3,9 @@ title: Microsoft SQL Server
 category: db
 iconSlug: microsoftsqlserver
 permalink: /mssqlserver
+alternate_urls:
+-   /mssql
+-   /microsoftsqlserver
 versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
@@ -13,22 +16,24 @@ extendedSupportColumn: Extended Security Updates
 
 releases:
 -   releaseCycle: "2022"
-    releaseLabel: "2022"
+    releaseLabel: "2022 CU1"
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.1050.5"
-    link: https://support.microsoft.com/help/5021522
+    latest: "16.0.4003.1"
+    latestReleaseDate: 2023-02-16
+    link: https://support.microsoft.com/help/5022375
 
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU18"
+    releaseLabel: "2019 CU19"
     releaseDate: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4280.7"
-    link: https://support.microsoft.com/help/5021124
+    latest: "15.0.4298.1"
+    latestReleaseDate: 2023-02-16
+    link: https://support.microsoft.com/help/5023049
 
 -   releaseCycle: "2017"
     releaseLabel: "2017 CU31"
@@ -37,6 +42,7 @@ releases:
     eol: 2027-10-12
     extendedSupport: false
     latest: "14.0.3460.9"
+    latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021126
 
 -   releaseCycle: "2016"
@@ -46,6 +52,7 @@ releases:
     eol: 2026-07-14
     extendedSupport: false
     latest: "13.0.6430.49"
+    latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021129
 
 -   releaseCycle: "2014"
@@ -55,6 +62,7 @@ releases:
     eol: 2024-07-09
     extendedSupport: false
     latest: "12.0.6444.4"
+    latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021045
 
 -   releaseCycle: "2012"
@@ -64,6 +72,7 @@ releases:
     eol: 2022-07-12
     extendedSupport: 2025-07-08
     latest: "11.0.7507.2"
+    latestReleaseDate: 2021-01-12
     link: https://support.microsoft.com/help/4583465
 
 -   releaseCycle: "2008 R2"
@@ -73,6 +82,7 @@ releases:
     eol: 2019-07-09
     extendedSupport: 2022-07-12
     latest: "10.50.6560.0"
+    latestReleaseDate: 2018-01-06
     link: https://support.microsoft.com/help/4057113
 
 -   releaseCycle: "2008"
@@ -82,6 +92,7 @@ releases:
     eol: 2019-07-09
     extendedSupport: 2022-07-12
     latest: "10.0.6556.0"
+    latestReleaseDate: 2018-01-06
     link: https://support.microsoft.com/help/4057114
 
 -   releaseCycle: "2005"
@@ -91,6 +102,7 @@ releases:
     eol: 2016-04-12
     extendedSupport: false
     latest: "9.0.5324.0"
+    latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
 
 ---
