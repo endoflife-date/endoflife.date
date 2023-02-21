@@ -35,8 +35,11 @@ releases:
 > [WebPros](https://webpros.com/). It is designed to help IT specialists manage web, DNS, mail and
 > other services through a graphical user interface.
 
-Starting from Plesk Obsidian (18.x) the lifecycle policy is the following:
-* A new release every 6 weeks
-* Two last releases are supported
-* Automatic upgrade to the latest version during 6-weeks cycle
-* A few minor hotfixes can be issued for the release
+In the past (e.g. 12.x > 17.x), Plesk used to release one major version per year.
+
+Starting from 18.x (Obsidian), a new version is released every 6 weeks and supported for 12 weeks,
+with hotfixes and security patches.
+
+With 18.x, Plesk [also took the continuous delivery approach](https://www.plesk.com/blog/partners/obsidian-short-releases-automatic-updates/).
+It is now recommended to enable automatic updates to keep Plesk secure and to keep having access to
+support.
