@@ -31,7 +31,9 @@ releases:
     link: https://docs.plesk.com/release-notes/onyx/change-log/
 ---
 
-> [Plesk](https://www.plesk.com/) is a proprietary hosting control panel developed by [WebPros](https://webpros.com/).
+> [Plesk](https://www.plesk.com/) is a proprietary hosting control panel developed by
+> [WebPros](https://webpros.com/). It is designed to help IT specialists manage web, DNS, mail and
+> other services through a graphical user interface.
 
 Starting from Plesk Obsidian (18.x) the lifecycle policy is the following:
 * A new release every 6 weeks
