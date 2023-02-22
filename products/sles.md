@@ -14,7 +14,12 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
+identifiers:
+-   cpe: cpe:/o:suse:sles
+-   cpe: cpe:/o:suse:sles_sap
 
+-   cpe: cpe:2.3:o:suse:sles
+-   cpe: cpe:2.3:o:suse:sles_sap
 releases:
 -   releaseCycle: "15"
     support: 2028-07-31
