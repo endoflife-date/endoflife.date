@@ -24,12 +24,6 @@ auto:
     template: "{{version}}"
 
 releases:
--   releaseCycle: '2022'
-    releaseLabel: 'Amazon Linux 2022'
-    eol: 2027-11-01
-    releaseDate: 2021-11-22
-    link: https://aws.amazon.com/about-aws/whats-new/2021/11/preview-amazon-linux-2022/
-
 -   releaseCycle: '2'
     releaseLabel: 'Amazon Linux 2'
     eol: 2025-06-30
