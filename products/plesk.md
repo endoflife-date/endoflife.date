@@ -10,6 +10,9 @@ eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "18.0.50"
     releaseDate: 2023-01-31
