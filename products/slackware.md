@@ -13,7 +13,8 @@ releaseColumn: false
 releaseDateColumn: true
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
 identifiers:
--   purl: pkg:os/slackwarelinux
+-   cpe: cpe:/o:slackware:slackware_linux
+-   cpe: cpe:2.3:o:slackware:slackware_linux
 auto:
 -   distrowatch: slackware
     regex: '^Distribution Release: Slackware (Linux )?(?P<major>\d+)\.(?P<minor>\d+)$'
