@@ -12,6 +12,9 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+identifiers:
+-   cpe: cpe:/o:nixos:nixos
+-   cpe: cpe:2.3:o:nixos:nixos
 releases:
 -   releaseCycle: "22.11"
     codename: "Raccoon"
