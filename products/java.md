@@ -26,6 +26,7 @@ releases:
     eol: 2023-03-21
     latest: "19.0.2"
     releaseDate: 2022-09-20
+    link: https://www.oracle.com/java/technologies/javase/19-0-2-relnotes.html
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "18"
@@ -33,6 +34,7 @@ releases:
     eol: 2022-09-20
     latest: "18.0.2.1"
     releaseDate: 2022-03-22
+    link: https://www.oracle.com/java/technologies/javase/18-0-2-1-relnotes.html
     latestReleaseDate: 2022-08-18
 
 -   releaseCycle: "17"
@@ -41,6 +43,7 @@ releases:
     eol: 2029-09-30
     latest: "17.0.6"
     releaseDate: 2021-09-14
+    link: https://www.oracle.com/java/technologies/javase/17-0-6-relnotes.html
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "16"
@@ -48,6 +51,7 @@ releases:
     eol: 2021-09-14
     latest: "16.0.2"
     releaseDate: 2021-03-16
+    link: https://www.oracle.com/java/technologies/javase/16-0-2-relnotes.html
     latestReleaseDate: 2021-07-20
 
 -   releaseCycle: "15"
@@ -55,6 +59,7 @@ releases:
     eol: 2021-03-16
     latest: "15.0.2"
     releaseDate: 2020-09-15
+    link: https://www.oracle.com/java/technologies/javase/15-0-2-relnotes.html
     latestReleaseDate: 2021-01-19
 
 -   releaseCycle: "14"
@@ -62,6 +67,7 @@ releases:
     eol: 2020-09-16
     latest: "14.0.2"
     releaseDate: 2020-03-17
+    link: https://www.oracle.com/java/technologies/javase/14-0-2-relnotes.html
     latestReleaseDate: 2020-07-14
 
 -   releaseCycle: "13"
@@ -69,6 +75,7 @@ releases:
     eol: 2020-03-17
     latest: "13.0.2"
     releaseDate: 2019-09-17
+    link: https://www.oracle.com/java/technologies/javase/13-0-2-relnotes.html
     latestReleaseDate: 2020-01-14
 
 -   releaseCycle: "12"
@@ -76,6 +83,7 @@ releases:
     eol: 2019-09-17
     latest: "12.0.2"
     releaseDate: 2019-03-19
+    link: https://www.oracle.com/java/technologies/javase/12-0-2-relnotes.html
     latestReleaseDate: 2019-07-16
 
 -   releaseCycle: "11"
@@ -84,6 +92,7 @@ releases:
     eol: 2026-09-30
     latest: "11.0.18"
     releaseDate: 2018-09-25
+    link: https://www.oracle.com/java/technologies/javase/11-0-18-relnotes.html
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "10"
@@ -91,6 +100,7 @@ releases:
     eol: 2018-09-25
     latest: "10.0.2"
     releaseDate: 2018-03-20
+    link: https://www.oracle.com/java/technologies/javase/10-0-2-relnotes.html
     latestReleaseDate: 2018-07-17
 
 -   releaseCycle: "9"
@@ -98,6 +108,7 @@ releases:
     eol: 2018-03-20
     latest: "9.0.4"
     releaseDate: 2017-09-21
+    link: https://www.oracle.com/java/technologies/javase/9-all-relnotes.html#R9_0_4
     latestReleaseDate: 2018-01-16
 
 -   releaseCycle: "8"
@@ -106,6 +117,7 @@ releases:
     eol: 2030-12-31
     latest: "8u361"
     releaseDate: 2014-03-18
+    link: https://www.oracle.com/java/technologies/javase/8all-relnotes.html#R180_361
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "7"
