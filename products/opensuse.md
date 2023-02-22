@@ -18,12 +18,8 @@ eolColumn: End of Life
 identifiers:
 -   cpe: cpe:/o:opensuse:opensuse
 -   cpe: cpe:/o:opensuse:leap
--   cpe: cpe:/o:opensuse:tumbleweed
-
 -   cpe: cpe:2.3:o:opensuse:opensuse
 -   cpe: cpe:2.3:o:opensuse:leap
--   cpe: cpe:2.3:o:opensuse:tumbleweed
-
 releases:
 -   releaseCycle: "15.4"
     eol: 2023-12-01
