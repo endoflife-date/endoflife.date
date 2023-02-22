@@ -13,10 +13,8 @@ releaseDateColumn: true
 identifiers:
 -   cpe: cpe:2.3:o:amazon:linux
 -   cpe: cpe:2.3:o:amazon:amazon_linux
--   cpe: cpe:2.3:o:amazon:amazon_linux:2022
 -   cpe: cpe:/o:amazon:linux
 -   cpe: cpe:/o:amazon:amazon_linux
--   cpe: cpe:/o:amazon:amazon_linux:2022
 -   purl: pkg:docker/library/amazonlinux
 
 auto:
