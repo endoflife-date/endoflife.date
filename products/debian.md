@@ -11,6 +11,8 @@ releaseDateColumn: true
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 identifiers:
 -   purl: pkg:os/debian
+-   cpe: cpe:2.3:o:debian:debian_linux
+-   cpe: cpe:/o:debian:debian_linux
 
 auto:
 -   custom: true
