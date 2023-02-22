@@ -25,15 +25,15 @@ releases:
 -   releaseCycle: "19"
     support: 2023-04-01
     eol: 2023-06-01
-    latest: "19.6.1"
-    latestReleaseDate: 2023-02-16
+    latest: "19.7.0"
+    latestReleaseDate: 2023-02-21
     releaseDate: 2022-10-18
 -   releaseCycle: "18"
     lts: 2022-10-25
     support: 2023-10-18
     eol: 2025-04-30
-    latest: "18.14.1"
-    latestReleaseDate: 2023-02-16
+    latest: "18.14.2"
+    latestReleaseDate: 2023-02-21
     releaseDate: 2022-04-19
 -   releaseCycle: "17"
     support: 2022-04-01
