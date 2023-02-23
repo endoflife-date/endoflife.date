@@ -6,8 +6,10 @@ permalink: /angular
 versionCommand: ng version
 releasePolicyLink: https://angular.io/guide/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
-activeSupportColumn: true
 releaseDateColumn: true
+activeSupportColumn: true
+activeSupportWarnThreshold: 30
+eolWarnThreshold: 90
 
 identifiers:
 -   purl: pkg:npm/@angular/core
