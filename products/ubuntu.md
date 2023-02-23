@@ -88,6 +88,22 @@ releases:
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
     extendedSupport: false
+-   releaseCycle: "19.04"
+    codename: "Disco Dingo"
+    support: 2020-01-23
+    eol: 2020-01-23
+    latest: "19.04"
+    releaseDate: 2019-04-18
+    latestReleaseDate: 2019-04-18
+    extendedSupport: false
+-   releaseCycle: "18.10"
+    codename: "Cosmic Cuttlefish"
+    support: 2019-07-18
+    eol: 2019-07-18
+    latest: "18.10"
+    releaseDate: 2018-10-18
+    latestReleaseDate: 2018-10-18
+    extendedSupport: false
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
@@ -98,6 +114,22 @@ releases:
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
     releaseDate: 2018-04-26
     latestReleaseDate: 2021-09-17
+-   releaseCycle: "17.10"
+    codename: "Artful Aardvark"
+    support: 2018-07-19
+    eol: 2018-07-19
+    latest: "17.10"
+    releaseDate: 2017-10-19
+    latestReleaseDate: 2017-10-19
+    extendedSupport: false
+-   releaseCycle: "17.04"
+    codename: "Zesty Zapus"
+    support: 2018-01-13
+    eol: 2018-01-13
+    latest: "17.04"
+    releaseDate: 2017-04-13
+    latestReleaseDate: 2017-04-13
+    extendedSupport: false
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
@@ -107,6 +139,30 @@ releases:
     latest: "16.04.7"
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
+-   releaseCycle: "15.10"
+    codename: "Wily Werewolf"
+    support: 2016-07-28
+    eol: 2016-07-28
+    latest: "15.10"
+    releaseDate: 2015-10-22
+    latestReleaseDate: 2015-10-22
+    extendedSupport: false
+-   releaseCycle: "15.04"
+    codename: "Vivid Vervet"
+    support: 2016-02-04
+    eol: 2016-02-04
+    latest: "15.04"
+    releaseDate: 2015-04-23
+    latestReleaseDate: 2015-04-23
+    extendedSupport: false
+-   releaseCycle: "14.10"
+    codename: "Utopic Unicorn"
+    support: 2015-07-23
+    eol: 2015-07-23
+    latest: "14.10"
+    releaseDate: 2014-10-23
+    latestReleaseDate: 2014-10-23
+    extendedSupport: false
 -   releaseCycle: "14.04"
     codename: "Trusty Tahr"
     lts: true
@@ -116,6 +172,16 @@ releases:
     latest: "14.04.6"
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
+-   releaseCycle: "12.04"
+    codename: "Precise Pangolin"
+    lts: true
+    support: 2017-04-28
+    eol: 2017-04-28
+    extendedSupport: 2019-04-26
+    latest: "12.04.5"
+    releaseDate: 2012-04-26
+    latestReleaseDate: 2014-08-07
+
 ---
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
