@@ -5,27 +5,27 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
+releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: |
   https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/
+releaseDateColumn: true
+activeSupportColumn: Hardware & Maintenance
+eolColumn: Maintenance & Security Support
+extendedSupportColumn: Extended Security Maintenance
+
 # https://regex101.com/r/Fzt9US/1
 # We return v1 and v2 separated by newline in case 2 releases were marked
 # under the same headline
 auto:
 -   distrowatch: ubuntu
-    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(
-      LTS|, Kubuntu.*)?$'
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
 -   cpe: cpe:2.3:o:canonical:ubuntu_linux
 -   cpe: cpe:/o:canonical:ubuntu_linux
 
-activeSupportColumn: Hardware & Maintenance
-eolColumn: Maintenance & Security Support
-extendedSupportColumn: Extended Security Maintenance
-releaseDateColumn: true
-releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
-releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
 -   releaseCycle: "22.10"
     codename: "Kinetic Kudu"
@@ -35,6 +35,7 @@ releases:
     releaseDate: 2022-10-20
     latestReleaseDate: 2022-10-20
     extendedSupport: false
+
 -   releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
     support: 2024-09-30
@@ -45,6 +46,7 @@ releases:
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
     releaseDate: 2022-04-21
     latestReleaseDate: 2022-08-11
+
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
     support: 2022-07-14
@@ -54,6 +56,7 @@ releases:
     releaseDate: 2021-10-14
     latestReleaseDate: 2021-10-14
     extendedSupport: false
+
 -   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
     support: 2022-01-20
@@ -63,6 +66,7 @@ releases:
     releaseDate: 2021-04-22
     latestReleaseDate: 2021-04-22
     extendedSupport: false
+
 -   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
     support: 2021-07-22
@@ -71,6 +75,7 @@ releases:
     releaseDate: 2020-10-22
     latestReleaseDate: 2020-10-22
     extendedSupport: false
+
 -   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
@@ -80,6 +85,7 @@ releases:
     latest: "20.04.5"
     releaseDate: 2020-04-23
     latestReleaseDate: 2022-09-01
+
 -   releaseCycle: "19.10"
     codename: "Karmic Koala"
     support: 2020-07-06
@@ -88,6 +94,7 @@ releases:
     releaseDate: 2019-10-17
     latestReleaseDate: 2019-10-17
     extendedSupport: false
+
 -   releaseCycle: "19.04"
     codename: "Disco Dingo"
     support: 2020-01-23
@@ -96,6 +103,7 @@ releases:
     releaseDate: 2019-04-18
     latestReleaseDate: 2019-04-18
     extendedSupport: false
+
 -   releaseCycle: "18.10"
     codename: "Cosmic Cuttlefish"
     support: 2019-07-18
@@ -104,6 +112,7 @@ releases:
     releaseDate: 2018-10-18
     latestReleaseDate: 2018-10-18
     extendedSupport: false
+
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
@@ -114,6 +123,7 @@ releases:
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
     releaseDate: 2018-04-26
     latestReleaseDate: 2021-09-17
+
 -   releaseCycle: "17.10"
     codename: "Artful Aardvark"
     support: 2018-07-19
@@ -122,6 +132,7 @@ releases:
     releaseDate: 2017-10-19
     latestReleaseDate: 2017-10-19
     extendedSupport: false
+
 -   releaseCycle: "17.04"
     codename: "Zesty Zapus"
     support: 2018-01-13
@@ -130,6 +141,7 @@ releases:
     releaseDate: 2017-04-13
     latestReleaseDate: 2017-04-13
     extendedSupport: false
+
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
@@ -139,6 +151,7 @@ releases:
     latest: "16.04.7"
     releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
+
 -   releaseCycle: "15.10"
     codename: "Wily Werewolf"
     support: 2016-07-28
@@ -147,6 +160,7 @@ releases:
     releaseDate: 2015-10-22
     latestReleaseDate: 2015-10-22
     extendedSupport: false
+
 -   releaseCycle: "15.04"
     codename: "Vivid Vervet"
     support: 2016-02-04
@@ -155,6 +169,7 @@ releases:
     releaseDate: 2015-04-23
     latestReleaseDate: 2015-04-23
     extendedSupport: false
+
 -   releaseCycle: "14.10"
     codename: "Utopic Unicorn"
     support: 2015-07-23
@@ -163,6 +178,7 @@ releases:
     releaseDate: 2014-10-23
     latestReleaseDate: 2014-10-23
     extendedSupport: false
+
 -   releaseCycle: "14.04"
     codename: "Trusty Tahr"
     lts: true
@@ -172,6 +188,7 @@ releases:
     latest: "14.04.6"
     releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
+
 -   releaseCycle: "12.04"
     codename: "Precise Pangolin"
     lts: true
@@ -184,35 +201,52 @@ releases:
 
 ---
 
->[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
+>[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu
+> is officially released in three editions: Desktop, Server, and Core (for IoT devices and robots).
 
 ## Release Cadence
 
-Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term Support" releases are published every two years in April. Every six months between LTS versions, Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle) for more details on the Ubuntu Release Cycle.
+Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and
+month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term
+Support" releases are published every two years in April. Every six months between LTS versions,
+Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle)
+for more details on the Ubuntu Release Cycle.
 
 ## Support Lifecycle
 
-LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below) for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates" (2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support their packages for 3 years in LTS releases but there are exceptions.
+LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below)
+for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates"
+(2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are
+supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term
+support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support
+their packages for 3 years in LTS releases but there are exceptions.
 
-During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security Maintenance covers binary packages that reside in the `main` and `restricted` components of the Ubuntu archive, typically for a period of 5 years from LTS release.
+During the lifetime of an Ubuntu release, Canonical provides security maintenance. Basic Security
+Maintenance covers binary packages that reside in the `main` and `restricted` components of the
+Ubuntu archive, typically for a period of 5 years from LTS release.
 
-Packages in `universe` are expected to be community-supported on a best-effort basis during the LTS phase, but in practice, security-updates are only released to pro subscribtions.
+Packages in `universe` are expected to be community-supported on a best-effort basis during the LTS
+phase, but in practice, security-updates are only released to pro subscriptions.
 
-Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional 5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a [Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
+Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional
+5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a
+[Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
 
-Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and `universe` repositories. Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in the `main` repository.
+Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and
+`universe` repositories. Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in
+the `main` repository.
 
 ## Support Comparison
 
-Feature/Plan | Ubuntu LTS | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro
------|------------|------------------------------|-----------
-Main repository | 5 years | 10 years             | 10 years
-Restricted repository | 5 years | 10 years[^2]   |10 years [^2]
-Universe repository | Best Effort[^6] | Best Effort | 10 years
-Phone/Ticket Support | No | Yes | Yes
-Kernel Live Patching | No  | Yes | Yes
-[Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No | Yes | Yes
-[Ubuntu Landscape](https://ubuntu.com/landscape) | No | Yes | Yes
+| Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    |
+|-----------------------------------------------------------------------------------------|-----------------|------------------------------|---------------|
+| Main repository                                                                         | 5 years         | 10 years                     | 10 years      |
+| Restricted repository                                                                   | 5 years         | 10 years[^2]                 | 10 years [^2] |
+| Universe repository                                                                     | Best Effort[^6] | Best Effort                  | 10 years      |
+| Phone/Ticket Support                                                                    | No              | Yes                          | Yes           |
+| Kernel Live Patching                                                                    | No              | Yes                          | Yes           |
+| [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes                          | Yes           |
+| [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes                          | Yes           |
 
 For package specific support details, the following commands are available:
 
