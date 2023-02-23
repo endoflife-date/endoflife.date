@@ -69,11 +69,15 @@ defaults:
       releaseDateColumnLabel: 'Released'
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'
+      discontinuedWarnThreshold: 121
       activeSupportColumn: false
       activeSupportColumnLabel: 'Active Support'
+      activeSupportWarnThreshold: 121
       eolColumn: true
       eolColumnLabel: 'Security Support'
+      eolWarnThreshold: 121
       extendedSupportColumn: false
       extendedSupportColumnLabel: 'Extended Support'
+      extendedSupportWarnThreshold: 121
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 encoding: utf-8
