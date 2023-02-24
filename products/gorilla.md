@@ -1,15 +1,14 @@
 ---
 title: Gorilla Toolkit
-permalink: /gorilla
 category: framework
-releasePolicyLink: https://github.com/gorilla/
-activeSupportColumn: false
-releaseDateColumn: false
 iconSlug: go
+permalink: /gorilla
+releasePolicyLink: https://github.com/gorilla/
+releaseDateColumn: true
+releaseColumn: true
 eolColumn: Support
-releaseColumn: false
-identifiers:
 
+identifiers:
 -   repology: go:github-gorilla-context
 -   repology: go:github-gorilla-csrf
 -   repology: go:github-gorilla-css
@@ -48,10 +47,16 @@ identifiers:
 
 releases:
 -   releaseCycle: "1"
+    releaseDate: 2016-04-28
     eol: 2022-12-09
+    latest: 1.5.0
+    latestReleaseDate: 2022-01-04
+    link: https://github.com/gorilla#gorilla-toolkit
 
 ---
 
-> [Gorilla](https://github.com/gorilla/) is a toolkit for building HTTP-based applications with the Go programming language.
+> [Gorilla](https://github.com/gorilla/) is a toolkit for building HTTP-based applications with the
+> Go programming language.
 
-Gorilla project's repositories were archived near the end of 2022, and the project is no longer maintained.
+Gorilla project's repositories were archived near the end of 2022, and the project is no longer
+maintained.
