@@ -3,6 +3,8 @@ title: MongoDB Server
 category: db
 iconSlug: mongodb
 permalink: /mongodb
+alternate_urls:
+-   /mongo
 releasePolicyLink: https://www.mongodb.com/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 activeSupportColumn: false
