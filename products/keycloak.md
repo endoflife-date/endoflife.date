@@ -13,10 +13,17 @@ eolColumn: Supported
 auto:
 -   git: https://github.com/keycloak/keycloak.git
 
+# eol(x) = release(x+1)
 releases:
+-   releaseCycle: "21.0"
+    releaseDate: 2023-02-23
+    eol: false
+    latest: "21.0.0"
+    latestReleaseDate: 2023-02-23
+
 -   releaseCycle: "20.0"
     releaseDate: 2022-11-01
-    eol: false
+    eol: 2023-02-23
     latest: "20.0.5"
     latestReleaseDate: 2023-02-21
 
