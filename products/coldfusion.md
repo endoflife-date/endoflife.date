@@ -5,6 +5,7 @@ iconSlug: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
 releasePolicyLink: https://helpx.adobe.com/support/programs/eol-matrix.html
+changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
