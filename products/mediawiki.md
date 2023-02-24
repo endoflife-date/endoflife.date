@@ -15,8 +15,8 @@ auto:
 releases:
 -   releaseCycle: "1.39"
     eol: 2025-11-01
-    latest: "1.39.1"
-    latestReleaseDate: 2022-12-22
+    latest: "1.39.2"
+    latestReleaseDate: 2023-02-22
     releaseDate: 2022-11-30
     lts: true
 -   releaseCycle: "1.38"
