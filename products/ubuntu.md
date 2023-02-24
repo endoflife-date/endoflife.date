@@ -19,7 +19,8 @@ extendedSupportColumn: Extended Security Maintenance
 # under the same headline
 auto:
 -   distrowatch: ubuntu
-    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|,
+      Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
@@ -197,7 +198,7 @@ releases:
     extendedSupport: 2019-04-26
     latest: "12.04.5"
     releaseDate: 2012-04-26
-    latestReleaseDate: 2014-08-07
+    latestReleaseDate: 2014-08-08
 
 ---
 
