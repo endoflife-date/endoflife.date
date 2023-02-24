@@ -2,7 +2,9 @@
 title: Microsoft Windows Embedded
 category: os
 iconSlug: windows
-permalink: /windowsembedded
+permalink: /windows-embedded
+alternate_urls:
+- /windowsembedded
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
 releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
