@@ -1,13 +1,3 @@
-{% capture d %}
-{% if page.layout == 'post' %}
-Check End of Life, Support Schedule, and release timelines for {{page.title}}. {%if page.alternate_urls %}endoflife.date{{page.alternate_urls[0]}}{%endif%}. {{page.title}} release policy. {{page.title}} release schedule. {{page.title}} end of life.
-{% else %}
-Check End of Life, Support Schedule, and release timelines for  {% for page in site.pages%}{%if page.releases%}{{page.title}}, {%endif%}{% endfor %} etc at one place.
-{% endif %}
-{% endcapture %}
-<meta name="description" content="{{ d | strip }}" />
-<meta property="og:description" content="{{ d | strip }}" />
-
 {%- comment %}
 Favicons were generated from the SVG icons with https://realfavicongenerator.net.
 

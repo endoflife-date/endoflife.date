@@ -3,6 +3,7 @@ layout: page
 nav_exclude: true
 permalink: /recommendations
 title: Recommendations for maintainers
+description: If you maintain a product that has some notion of support lifecycle and end-of-life, these are endoflife.date recommendations on how to best document this information for your users.
 alternate_urls:
   - /advise
   - /advice
