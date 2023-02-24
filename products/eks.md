@@ -20,7 +20,14 @@ eolColumn: End of Support
 auto:
 -   custom: true
 
+# EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:
+-   releaseCycle: "1.25"
+    releaseDate: 2023-02-21
+    eol: 2024-05-01
+    latest: "1.25-eks-1"
+    latestReleaseDate: 2023-02-21
+
 -   releaseCycle: "1.24"
     eol: 2024-01-01
     latest: "1.24-eks-4"
