@@ -19,7 +19,8 @@ extendedSupportColumn: Extended Security Maintenance
 # under the same headline
 auto:
 -   distrowatch: ubuntu
-    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
+    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|,
+      Kubuntu.*)?$'
     template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
@@ -42,10 +43,10 @@ releases:
     eol: 2027-04-01
     extendedSupport: 2032-04-09
     lts: true
-    latest: "22.04.1"
+    latest: "22.04.2"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
     releaseDate: 2022-04-21
-    latestReleaseDate: 2022-08-11
+    latestReleaseDate: 2023-02-24
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
@@ -197,7 +198,7 @@ releases:
     extendedSupport: 2019-04-26
     latest: "12.04.5"
     releaseDate: 2012-04-26
-    latestReleaseDate: 2014-08-07
+    latestReleaseDate: 2014-08-08
 
 ---
 
