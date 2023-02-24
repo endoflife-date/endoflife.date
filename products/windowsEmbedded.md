@@ -42,3 +42,8 @@ releases:
     eol: 2020-10-13
 
 ---
+
+> [Windows Embedded](https://developer.microsoft.com/windows/iot/), now called Windows IoT, is a
+> family of operating systems from Microsoft designed for use in embedded systems. Windows Embedded
+> operating systems are available to original equipment manufacturers (OEMs), who make it available
+> to end users preloaded with their hardware.
