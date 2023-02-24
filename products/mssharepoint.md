@@ -6,7 +6,6 @@ permalink: /sharepoint
 alternate_urls:
 -   /mssharepoint
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
-
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -59,8 +58,11 @@ releases:
 
 ---
 
-> [Microsoft SharePoint Server](https://en.wikipedia.org/wiki/SharePoint) is a web-based collaborative platform that integrates with Microsoft Office, developed by Microsoft.
+> [Microsoft SharePoint Server](https://en.wikipedia.org/wiki/SharePoint) is a web-based collaborative
+> platform that integrates with Microsoft Office, developed by Microsoft.
 
-Microsoft publishes tables for each release [detailing the build numbers, versions, and release dates](https://learn.microsoft.com/officeupdates/sharepoint-updates).
+Microsoft publishes tables for each release [detailing the build numbers, versions, and
+release dates](https://learn.microsoft.com/officeupdates/sharepoint-updates).
 
-The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only security updates are released for the product.
+The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only security
+updates are released for the product.
