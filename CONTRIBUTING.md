@@ -1,8 +1,9 @@
 ---
+layout: page
 nav_exclude: true
 title: Contributing
+description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
-layout: page
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

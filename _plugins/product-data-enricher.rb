@@ -10,6 +10,7 @@ module Jekyll
         Jekyll.logger.debug TOPIC, "Enriching #{page.name}"
 
         set_id(page)
+        set_description(page)
         set_icon_url(page)
         set_tags(page)
         set_overridden_columns_label(page)
@@ -26,6 +27,13 @@ module Jekyll
       # Build the product id from the permalink.
       def set_id(page)
         page.data['id'] = page.data['permalink'][1..page.data['permalink'].length]
+      end
+
+      # Build the product description, if it's not already set in the product's front matter.
+      def set_description(page)
+        if !page.data['description']
+          page.data['description'] = "Check end-of-life, release policy and support schedule for #{page.data['title']}."
+        end
       end
 
       # Build the icon URL from the icon slug.
