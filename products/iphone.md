@@ -12,97 +12,97 @@ releaseDateColumn: true
 
 # All links can be found on https://support.apple.com/en-us/HT201296.
 releases:
--   releaseCycle: "iPhone 14 Plus"
+-   releaseCycle: "14 Plus"
     releaseDate: 2022-10-07
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP874
 
--   releaseCycle: "iPhone 14 / 14 Pro / 14 Pro Max"
+-   releaseCycle: "14 / 14 Pro / 14 Pro Max"
     releaseDate: 2022-09-16
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP873
 
--   releaseCycle: "iPhone SE (3rd generation)"
+-   releaseCycle: "SE (3rd generation)"
     releaseDate: 2022-03-18
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP867
 
--   releaseCycle: "iPhone 13 / 13 Mini"
+-   releaseCycle: "13 / 13 Mini"
     releaseDate: 2021-09-24
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP851
 
--   releaseCycle: "iPhone 13 Pro / 13 Pro Max"
+-   releaseCycle: "13 Pro / 13 Pro Max"
     releaseDate: 2021-09-24
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP852
 
--   releaseCycle: "iPhone 12 Mini"
+-   releaseCycle: "12 Mini"
     releaseDate: 2020-11-13
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP829
 
--   releaseCycle: "iPhone 12 Pro Max"
+-   releaseCycle: "12 Pro Max"
     releaseDate: 2020-11-13
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP832
 
--   releaseCycle: "iPhone 12"
+-   releaseCycle: "12"
     releaseDate: 2020-10-23
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP830
 
--   releaseCycle: "iPhone 12 Pro"
+-   releaseCycle: "12 Pro"
     releaseDate: 2020-10-23
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP831
 
--   releaseCycle: "iPhone SE (2nd generation)"
+-   releaseCycle: "SE (2nd generation)"
     releaseDate: 2020-04-24
     discontinued: 2022-03-08
     eol: false
     link: https://support.apple.com/kb/SP820
 
--   releaseCycle: "iPhone 11"
+-   releaseCycle: "11"
     releaseDate: 2019-09-20
     discontinued: 2022-09-07
     eol: false
     link: https://support.apple.com/kb/SP804
 
--   releaseCycle: "iPhone 11 Pro / 11 Pro Max"
+-   releaseCycle: "11 Pro / 11 Pro Max"
     releaseDate: 2019-09-20
     discontinued: 2020-10-13
     eol: false
     link: https://support.apple.com/kb/SP805
 
--   releaseCycle: "iPhone XR"
+-   releaseCycle: "XR"
     releaseDate: 2018-10-26
     discontinued: 2021-09-07
     eol: false
     link: https://support.apple.com/kb/SP781
 
--   releaseCycle: "iPhone XS / XS Max"
+-   releaseCycle: "XS / XS Max"
     releaseDate: 2018-09-21
     discontinued: 2019-09-10
     eol: false
     link: https://support.apple.com/kb/SP779
 
--   releaseCycle: "iPhone 8 / 8 Plus"
+-   releaseCycle: "8 / 8 Plus"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
     eol: false
     link: https://support.apple.com/kb/SP767
 
--   releaseCycle: "iPhone X"
+-   releaseCycle: "X"
     releaseDate: 2017-09-12
     discontinued: 2018-09-12
     eol: false
@@ -111,19 +111,19 @@ releases:
 # iOS 15.7.2 was released on 13th Dec 2022
 # exclusively for 7/7+/SE1/6S/6S+
 # so these are marked as not yet dead devices.
--   releaseCycle: "iPhone 7 / 7 Plus"
+-   releaseCycle: "7 / 7 Plus"
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
     eol: false
     link: https://support.apple.com/kb/SP743
 
--   releaseCycle: "iPhone SE (1st generation)"
+-   releaseCycle: "SE (1st generation)"
     releaseDate: 2016-03-31
     discontinued: 2018-09-12
     eol: false
     link: https://support.apple.com/kb/SP738
 
--   releaseCycle: "iPhone 6S / 6S Plus"
+-   releaseCycle: "6S / 6S Plus"
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
     eol: false
@@ -131,19 +131,19 @@ releases:
 
 # iOS 12.5.7 was released on 23rd Jan 2023
 # so 6/6+/5S are marked as supported.
--   releaseCycle: "iPhone 6 / 6 Plus"
+-   releaseCycle: "6 / 6 Plus"
     releaseDate: 2014-09-25
     discontinued: 2016-09-07
     eol: false
     link: https://support.apple.com/kb/SP705
 
--   releaseCycle: "iPhone 5C"
+-   releaseCycle: "5C"
     releaseDate: 2013-09-20
     discontinued: 2015-09-09
     eol: 2017-09-19
     link: https://support.apple.com/kb/SP684
 
--   releaseCycle: "iPhone 5S"
+-   releaseCycle: "5S"
     releaseDate: 2013-09-20
     discontinued: 2016-03-21
     eol: false
