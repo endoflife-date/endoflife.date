@@ -4,6 +4,9 @@ category: os
 iconSlug: apple
 permalink: /watchos
 releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
+# Release notes are not published for all minor or patch versions, so using only the major version.
+# Other release notes are easily accessible from that page, if available.
+changelogTemplate: "https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes"
 discontinuedColumn: false
 activeSupportColumn: true
 releaseColumn: true
@@ -54,6 +57,7 @@ releases:
     eol: 2018-09-27
     latestReleaseDate: 2018-07-09
     latest: '4.3.2'
+    link: https://support.apple.com/HT208071
 
 -   releaseCycle: "3"
     releaseDate: 2016-09-13
@@ -61,6 +65,7 @@ releases:
     eol: 2017-10-04
     latestReleaseDate: 2017-07-19
     latest: '3.2.3'
+    link: https://support.apple.com/kb/DL1894
 
 ---
 
