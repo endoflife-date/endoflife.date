@@ -16,6 +16,9 @@ module Jekyll
         set_overridden_columns_label(page)
 
         page.data["releases"].each { |release| enrich_release(page, release) }
+
+        # DO NOT MOVE : below methods need information computed by enrich_release.
+        flag_oldest_unmaintained_releases(page)
       end
 
       def is_product?(page)
@@ -70,6 +73,72 @@ module Jekyll
             page.data[date_column] = true
           end
         end
+      end
+
+      # Flag all cycles that can be hidden (see #50).
+      #
+      # The goal of this function is to hide only a single run of rows, at the very end, if they are
+      # all unmaintained. This function presume that all cycles are ordered by their release date,
+      # so a cycle can be hidden only if:
+      # - it is not the first cycle,
+      # - it is unmaintained (see set_is_maintained below),
+      # - the previous cycle is still maintained,
+      # - all next cycles are unmaintained.
+      #
+      # This function applies only if there are more than 6 cycles and more than 2 cycles that can
+      # be hidden.
+      #
+      # For example, given there are 10 cycles with various state of maintainability:
+      # - cycle 1 to 3 are maintained => cannot be hidden because they are maintained.
+      # - cycle 4 is unmaintained => cannot be hidden because cycle 5 is maintained.
+      # - cycle 5 is maintained => cannot be hidden because it is maintained.
+      # - cycle 6 is unmaintained => cannot be hidden because cycle 5 is maintained.
+      # - cycle 7 to 10 are unmaintained => can be hidden.
+      def flag_oldest_unmaintained_releases(page)
+        min_total_cycles = 6 # apply only if the number of cycles is greater than this
+        min_hidden_cycles = 3 # apply only if the number of hidden cycles is greater than this (must be < min_total_cycles)
+
+        releases = page.data['releases']
+        if releases.length <= min_total_cycles
+          Jekyll.logger.debug TOPIC, "Less than #{min_total_cycles} cycles on #{page.name}, will not try to hide cycles"
+          return
+        end
+
+        hidden_cycles = mark_cycles_that_can_be_hidden(releases)
+
+        if releases[0]['can_be_hidden']
+          Jekyll.logger.debug TOPIC, "First cycle is hidden on #{page.name}, unhide cycle"
+          releases[0].delete('can_be_hidden')
+          hidden_cycles.delete(releases[0])
+        end
+
+        if hidden_cycles.length > 0 and hidden_cycles.length < min_hidden_cycles
+          Jekyll.logger.debug TOPIC, "Less than #{min_hidden_cycles} hidden cycles on #{page.name}, unhide #{hidden_cycles.length} cycles"
+          hidden_cycles.each { |cycle| cycle.delete('can_be_hidden') }
+          hidden_cycles.clear()
+        end
+
+        Jekyll.logger.debug TOPIC, "Hide #{hidden_cycles.length} cycles on #{page.name}"
+      end
+
+      def mark_cycles_that_can_be_hidden(ordered_by_date_desc_releases)
+        hidden_cycles = []
+        previous_cycle = nil
+
+        for cycle in ordered_by_date_desc_releases.reverse
+          if not cycle['is_maintained']
+            if previous_cycle
+              previous_cycle['can_be_hidden'] = true
+              hidden_cycles << previous_cycle
+            end
+
+            previous_cycle = cycle
+          else
+            break
+          end
+        end
+
+        return hidden_cycles
       end
 
       def enrich_release(page, cycle)
@@ -171,8 +240,6 @@ module Jekyll
 
         cycle['is_maintained'] = is_maintained
       end
-
-      private
 
       # Compute the number of days from now to the given date.
       #
