@@ -78,7 +78,7 @@ module Jekyll
         set_cycle_link(page, cycle)
         set_cycle_label(page, cycle)
         add_lts_label_to_cycle_label(page, cycle)
-        compute_days_toward_now_for_all_dates(page, cycle)
+        compute_days_toward_now_for_all_dates(cycle)
       end
 
       # Build the cycle id from the permalink.
@@ -133,7 +133,7 @@ module Jekyll
 
       # Compute the number of days toward now for all cycle's dates (support, eol...), and add those
       # values to the cycle's data in new fields (daysTowardSupport, daysTowardEol...).
-      def compute_days_toward_now_for_all_dates(page, cycle)
+      def compute_days_toward_now_for_all_dates(cycle)
         for field in ['support', 'eol', 'discontinued', 'extendedSupport']
           next if not cycle.has_key?(field)
 
