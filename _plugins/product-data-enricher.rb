@@ -75,7 +75,6 @@ module Jekyll
       def enrich_release(page, cycle)
         set_cycle_id(cycle)
         set_cycle_lts(cycle)
-        set_cycle_discontinued(cycle)
         set_cycle_link(page, cycle)
         set_cycle_label(page, cycle)
         add_lts_label_to_cycle_label(page, cycle)
@@ -90,12 +89,6 @@ module Jekyll
       def set_cycle_lts(cycle)
         if !cycle['lts']
           cycle['lts'] = false
-        end
-      end
-
-      def set_cycle_discontinued(cycle)
-        if !cycle['discontinued']
-          cycle['discontinued'] = false
         end
       end
 
