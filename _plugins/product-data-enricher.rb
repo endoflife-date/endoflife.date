@@ -79,6 +79,7 @@ module Jekyll
         set_cycle_label(page, cycle)
         add_lts_label_to_cycle_label(page, cycle)
         compute_days_toward_now_for_all_dates(cycle)
+        set_is_maintained(cycle) # must be called after compute_days_toward_now_for_all_dates
       end
 
       # Build the cycle id from the permalink.
@@ -149,6 +150,26 @@ module Jekyll
             cycle[new_field_name] = field_value ? 4096 : -4096 # if support is true, then positive days
           end
         end
+      end
+
+      # Compute whether the cycle is still maintained and add the result to the cycle's data.
+      #
+      # A cycle is maintained if at least one of the active support / eol / discontinued / extended
+      # support dates is in the future or is true.
+      #
+      # This function must be executed after compute_days_toward_now_for_all_dates because it makes
+      # use of the fields injected by this function.
+      def set_is_maintained(cycle)
+        is_maintained = false
+
+        for daysTowardField in ['daysTowardSupport', 'daysTowardEol', 'daysTowardDiscontinued', 'daysTowardExtendedSupport']
+          if cycle.has_key?(daysTowardField) and cycle[daysTowardField] >= 0
+            is_maintained = true
+            break
+          end
+        end
+
+        cycle['is_maintained'] = is_maintained
       end
 
       private
