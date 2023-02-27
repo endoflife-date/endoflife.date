@@ -14,6 +14,13 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
+-   releaseCycle: "17.5"
+    codename: "2022"
+    lts: false
+    # eol: true when 17.6 will be released, see https://learn.microsoft.com/visualstudio/productinfo/release-rhythm
+    eol: false
+    releaseDate: 2023-02-21
+
 -   releaseCycle: "17.4"
     codename: "2022"
     lts: true
