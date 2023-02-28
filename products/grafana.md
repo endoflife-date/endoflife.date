@@ -15,17 +15,26 @@ auto:
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
 # minors but only keep the previous major.
+# - support(x) = releaseDate(x+1)
+# - eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "9.3"
-    eol: false
+-   releaseCycle: "9.4"
     support: true
+    eol: false
+    releaseDate: 2023-02-27
+    latest: "9.4.2"
+    latestReleaseDate: 2023-03-01
+
+-   releaseCycle: "9.3"
+    support: 2023-02-27
+    eol: false
     releaseDate: 2022-11-29
     latest: "9.3.8"
     latestReleaseDate: 2023-02-27
 
 -   releaseCycle: "9.2"
-    support: false
-    eol: false
+    support: 2022-11-29
+    eol: 2023-02-27
     releaseDate: 2022-10-11
     latest: "9.2.13"
     latestReleaseDate: 2023-02-27
