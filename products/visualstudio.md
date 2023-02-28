@@ -6,6 +6,7 @@ permalink: /visual-studio
 alternate_urls:
 -   /visualstudio
 releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
+changelogTemplate: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes-v__RELEASE_CYCLE__
 releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 activeSupportColumn: false
@@ -96,31 +97,37 @@ releases:
     codename: "2017"
     eol: 2027-04-13
     releaseDate: 2018-11-13
+    link: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-v15.9
 
 -   releaseCycle: "15.0"
     codename: "2017"
     eol: 2020-01-14
     releaseDate: 2017-03-07
+    link: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-v15.0
 
 -   releaseCycle: "14.0"
     codename: "2015"
     eol: 2025-10-14
     releaseDate: 2015-07-20
+    link: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2015-update3-vs
 
 -   releaseCycle: "12.0"
     codename: "2013"
     eol: 2024-04-09
     releaseDate: 2014-01-15
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
 
 -   releaseCycle: "11.0"
     codename: "2012"
     eol: 2023-01-10
     releaseDate: 2012-10-31
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2012-update4-vs
 
 -   releaseCycle: "10.0"
     codename: "2010"
     eol: 2020-07-14
     releaseDate: 2010-06-29
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2010-sp1-vs
 
 ---
 
