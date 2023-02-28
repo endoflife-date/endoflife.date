@@ -19,7 +19,14 @@ identifiers:
 -   purl: pkg:github/hashicorp/consul
 -   purl: pkg:golang/github.com/hashicorp/consul
 
+# eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.15"
+    releaseDate: 2023-02-23
+    eol: false
+    latestReleaseDate: 2023-02-23
+    latest: '1.15.0'
+
 -   releaseCycle: "1.14"
     eol: false
     releaseDate: 2022-11-15
@@ -33,7 +40,7 @@ releases:
     latest: '1.13.6'
 
 -   releaseCycle: "1.12"
-    eol: false
+    eol: 2023-02-23
     latest: "1.12.9"
     latestReleaseDate: 2023-01-26
     releaseDate: 2022-04-19
