@@ -17,6 +17,14 @@ auto:
     regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 
 releases:
+-   releaseCycle: "6.0"
+    codename: Von Neumann
+    lts: true
+    releaseDate: 2023-02-27
+    eol: false
+    latest: "6.0.0"
+    latestReleaseDate: 2023-02-27
+
 -   releaseCycle: "5.1"
     codename: Riemann
     lts: true
