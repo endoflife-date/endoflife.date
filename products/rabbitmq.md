@@ -5,7 +5,7 @@ iconSlug: rabbitmq
 permalink: /rabbitmq
 releasePolicyLink: https://www.rabbitmq.com/versions.html
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
-activeSupportColumn: General Support
+activeSupportColumn: Community Support
 eolColumn: Extended Support
 releaseDateColumn: true
 versionCommand: rabbitmqctl --version
@@ -20,8 +20,8 @@ releases:
     latestReleaseDate: 2023-02-12
     latest: "3.11.9"
 -   releaseCycle: "3.10"
-    eol: false
-    support: true
+    eol: 2023-12-30
+    support: 2023-07-31
     latest: "3.10.18"
     latestReleaseDate: 2023-02-12
     releaseDate: 2022-05-03
@@ -90,5 +90,5 @@ releases:
 
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that supports multiple messaging protocols.
 
-- **General Support**: includes regular patch releases
+- **Community Support**: includes regular patch releases. Was earlier called "General Support", but renamed to avoid confusion with [VMware terminology](https://tanzu.vmware.com/support/lifecycle_policy) related to support lifecycle policy.
 - **[Extended Support](https://tanzu.vmware.com/rabbitmq)**: is available from VMWare. It includes security patches, and fixes for high-severity issues reported by users with a commercial license.
