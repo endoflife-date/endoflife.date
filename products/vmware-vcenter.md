@@ -28,7 +28,7 @@ releases:
     eol: 2025-04-02
     technicalGuidance: 2027-04-02
     latest: "7.0 U3k"
-    latestReleaseDate: 2022-02-22
+    latestReleaseDate: 2023-02-22
     link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3k-release-notes.html"
 
 -   releaseCycle: "6.7"
