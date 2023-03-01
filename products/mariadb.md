@@ -35,6 +35,7 @@ releases:
 -   releaseCycle: "10.11"
     eol: 2028-02-16
     latest: "10.11.2"
+    lts: true
     releaseDate: 2023-02-16
     latestReleaseDate: 2023-02-16
 -   releaseCycle: "10.10"
