@@ -134,7 +134,8 @@ releases:
     extendedSupport: false
     latest: "7.0.1152"
     latestReleaseDate: 2012-05-09
-    link: https://support.microsoft.com/help/948113
+    # Original KB941203 but 404 in the meantime: https://support.microsoft.com/help/948113
+    link: https://support.microsoft.com/help/941203
 
 -   releaseCycle: "6.5"
     codename: Hydra
@@ -145,7 +146,8 @@ releases:
     extendedSupport: false
     latest: "6.50.480"
     latestReleaseDate: 2005-10-07
-    link: https://support.microsoft.com/help/238621
+    # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/238621
 
 -   releaseCycle: "6.0"
     codename: SQL95
@@ -156,7 +158,8 @@ releases:
     extendedSupport: false
     latest: "6.0.151"
     latestReleaseDate: 2005-10-07
-    link: https://support.microsoft.com/help/152616
+    # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/152616
 
 ---
 
