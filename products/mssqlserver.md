@@ -16,6 +16,7 @@ extendedSupportColumn: Extended Security Updates
 
 releases:
 -   releaseCycle: "2022"
+    codename: Dallas
     releaseLabel: "2022 CU1"
     releaseDate: 2022-11-16
     support: 2028-01-11
@@ -26,6 +27,7 @@ releases:
     link: https://support.microsoft.com/help/5022375
 
 -   releaseCycle: "2019"
+    codename: Seattle
     releaseLabel: "2019 CU19"
     releaseDate: 2019-11-04
     support: 2025-01-07
@@ -36,6 +38,7 @@ releases:
     link: https://support.microsoft.com/help/5023049
 
 -   releaseCycle: "2017"
+    codename: Helsinki
     releaseLabel: "2017 CU31"
     releaseDate: 2017-09-29
     support: 2022-10-11
@@ -46,6 +49,7 @@ releases:
     link: https://support.microsoft.com/help/5021126
 
 -   releaseCycle: "2016"
+    codename: SQL16
     releaseLabel: "2016 SP3"
     releaseDate: 2018-04-24
     support: 2021-07-13
@@ -56,6 +60,7 @@ releases:
     link: https://support.microsoft.com/help/5021129
 
 -   releaseCycle: "2014"
+    codename: Hekaton
     releaseLabel: "2014 SP3 CU4"
     releaseDate: 2018-10-30
     support: 2019-07-09
@@ -66,6 +71,7 @@ releases:
     link: https://support.microsoft.com/help/5021045
 
 -   releaseCycle: "2012"
+    codename: Denali
     releaseLabel: "2012 SP4"
     releaseDate: 2017-10-05
     support: 2017-07-11
@@ -76,6 +82,7 @@ releases:
     link: https://support.microsoft.com/help/4583465
 
 -   releaseCycle: "2008 R2"
+    codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2014-09-26
     support: 2014-07-08
@@ -86,6 +93,7 @@ releases:
     link: https://support.microsoft.com/help/4057113
 
 -   releaseCycle: "2008"
+    codename: Katmai
     releaseLabel: "2008 SP4"
     releaseDate: 2008-11-06
     support: 2014-07-08
@@ -96,6 +104,7 @@ releases:
     link: https://support.microsoft.com/help/4057114
 
 -   releaseCycle: "2005"
+    codename: Yukon
     releaseLabel: "2005 SP4"
     releaseDate: 2006-01-14
     support: 2011-04-12
@@ -104,6 +113,53 @@ releases:
     latest: "9.0.5324.0"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
+
+-   releaseCycle: "2000"
+    codename: Shiloh
+    releaseLabel: "2000 SP4"
+    releaseDate: 2000-11-30
+    support: 2008-04-08
+    eol: 2013-04-09
+    extendedSupport: false
+    latest: "8.0.2305"
+    latestReleaseDate: 2012-08-14
+    link: https://support.microsoft.com/help/983811
+
+-   releaseCycle: "7.0"
+    codename: Sphinx
+    releaseLabel: "7.0 SP4"
+    releaseDate: 1998-11-27
+    support: 2005-12-31
+    eol: 2011-01-11
+    extendedSupport: false
+    latest: "7.0.1152"
+    latestReleaseDate: 2012-05-09
+    # Original KB941203 but 404 in the meantime: https://support.microsoft.com/help/948113
+    link: https://support.microsoft.com/help/941203
+
+-   releaseCycle: "6.5"
+    codename: Hydra
+    releaseLabel: "6.5 SP5a"
+    releaseDate: 1996-06-30
+    support: 2002-01-01
+    eol: 2002-01-01
+    extendedSupport: false
+    latest: "6.50.480"
+    latestReleaseDate: 2005-10-07
+    # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/238621
+
+-   releaseCycle: "6.0"
+    codename: SQL95
+    releaseLabel: "6.0 SP3"
+    releaseDate: 1995-06-13
+    support: 1999-03-31
+    eol: 1999-03-31
+    extendedSupport: false
+    latest: "6.0.151"
+    latestReleaseDate: 2005-10-07
+    # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/152616
 
 ---
 
