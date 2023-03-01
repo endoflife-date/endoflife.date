@@ -16,6 +16,7 @@ auto:
 -   git: https://github.com/FFmpeg/FFmpeg.git
     regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 
+# EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
 -   releaseCycle: "6.0"
     codename: Von Neumann
@@ -93,7 +94,7 @@ releases:
 -   releaseCycle: "3.2"
     codename: 'Hypatia'
     releaseDate: 2016-10-27
-    eol: false
+    eol: 2022-10-28
     latest: "3.2.19"
     latestReleaseDate: 2022-10-28
 
