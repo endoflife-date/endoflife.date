@@ -15,8 +15,8 @@ auto:
 releases:
 -   releaseCycle: "110"
     eol: false
-    latest: "110.0"
-    latestReleaseDate: 2023-02-14
+    latest: "110.0.1"
+    latestReleaseDate: 2023-02-28
     lts: false
     releaseDate: 2023-02-14
 
