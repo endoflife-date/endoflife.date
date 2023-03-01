@@ -24,7 +24,7 @@ releases:
     releaseDate: 2021-08-14
     eol: 2024-07-01
     extendedSupport: 2026-06-30
-    link: https://www.debian.org/News/2022/2022091002
+    link: https://www.debian.org/News/2022/20221217
     latest: "11.6"
     latestReleaseDate: 2022-12-17
 
@@ -42,7 +42,7 @@ releases:
     releaseDate: 2017-06-17
     eol: 2020-07-18
     extendedSupport: 2022-07-01
-    link: https://lists.debian.org/debian-announce/2020/msg00004.html
+    link: https://www.debian.org/News/2020/20200718
     latest: "9.13"
     latestReleaseDate: 2020-07-18
 
@@ -51,7 +51,7 @@ releases:
     releaseDate: 2015-04-25
     eol: 2018-06-17
     extendedSupport: 2020-06-30
-    link: https://www.debian.org/News/2015/20150426
+    link: https://www.debian.org/News/2018/20180623
     latest: "8.11"
     latestReleaseDate: 2018-06-23
 
@@ -60,7 +60,7 @@ releases:
     releaseDate: 2013-05-04
     eol: 2016-04-25
     extendedSupport: 2018-05-31
-    link: https://www.debian.org/News/2013/20130504
+    link: https://www.debian.org/News/2016/2016060402
     latest: "7.11"
     latestReleaseDate: 2016-06-04
 
@@ -69,7 +69,7 @@ releases:
     releaseDate: 2011-02-06
     eol: 2014-05-31
     extendedSupport: 2016-02-29
-    link: https://www.debian.org/News/2011/20110205a
+    link: https://www.debian.org/News/2014/20140719
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
 
