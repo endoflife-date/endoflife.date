@@ -23,8 +23,8 @@ releases:
     releaseLabel: "Regular"
     support: true
     eol: false
-    latest: "2.392"
-    latestReleaseDate: 2023-02-21
+    latest: "2.393"
+    latestReleaseDate: 2023-02-28
     releaseDate: 2016-04-20
 
 -   releaseCycle: "2.375"

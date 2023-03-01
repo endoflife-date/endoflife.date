@@ -35,33 +35,37 @@ releases:
     releaseLabel: 'AMI 2018.03'
     support: 2020-12-31
     eol: 2023-06-30
-    latest: "2018.03"
-    releaseDate: 2018-03-31
+    latest: "2018.03.0.20230207.0"
+    releaseDate: 2018-04-25
 
+    latestReleaseDate: 2023-02-10
 -   releaseCycle: '2017.09'
     releaseLabel: 'AMI 2017.09'
     support: 2020-12-31
     eol: 2023-06-30
-    latest: "2017.09"
-    releaseDate: 2017-10-03
+    latest: "2017.09.1.20180409"
+    releaseDate: 2017-11-03
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2017-09/
 
+    latestReleaseDate: 2018-04-10
 -   releaseCycle: '2017.03'
     releaseLabel: 'AMI 2017.03'
     support: 2020-12-31
     eol: 2023-06-30
-    latest: "2017.03"
-    releaseDate: 2017-04-27
+    latest: "2017.03.1.20170812"
+    releaseDate: 2017-04-07
     link: https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/ # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
 
+    latestReleaseDate: 2017-11-03
 -   releaseCycle: '2016.09'
     releaseLabel: 'AMI 2016.09'
     support: 2020-12-31
     eol: 2023-06-30
-    latest: "2016.09"
-    releaseDate: 2016-09-27
+    latest: "2016.09.1.20161221"
+    releaseDate: 2016-11-16
     link: https://aws.amazon.com/blogs/aws/now-available-amazon-linux-ami-2016-09/
 
+    latestReleaseDate: 2017-11-03
 -   releaseCycle: '2016.03'
     releaseLabel: 'AMI 2016.03'
     support: 2020-12-31
