@@ -20,7 +20,6 @@ auto:
 releases:
 -   releaseCycle: "6.0"
     codename: Von Neumann
-    lts: true
     releaseDate: 2023-02-27
     eol: false
     latest: "6.0.0"
@@ -36,7 +35,6 @@ releases:
 
 -   releaseCycle: "5.0"
     codename: Lorentz
-    lts: true
     releaseDate: 2022-01-14
     eol: false
     latest: "5.0.2"
@@ -245,10 +243,19 @@ releases:
 > the core of software such as VLC, MPV, Blender, Audacity, HandBrake, OBS Studio, and much more.
 > Full list of capabilities are found [in their documentation](https://ffmpeg.org/ffmpeg.html).
 
+FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
+defined but, looking at the releases history, there is at least a `x.y` release every year which is
+supported for at least a year with important bug fixes.
 
-## Releases
+While several past FFmpeg releases have enjoyed long term support, 5.1 is the first release where
+such an intention is made clear at release. It is not defined what LTS means precisely, but it can
+be safely assumed that such releases will receive important bug fixes for multiple years. As an
+example, 2.8 (released in 2015), 3.4 (released in 2017) and 4.1 (released in 2018) are still
+supported.
 
-Starting with the first LTS release FFmpeg 5.0 "Lorentz", FFmpeg is releasing one major release per
-year, and a LTS every other year. Note that these releases are intended for distributors and system
-integrators, not for end users. End users are usually encouraged to use the [latest git snapshots
-instead](https://ffmpeg.org/download.html).
+Note that these releases are intended for distributors and system integrators, not for end users.
+Users that wish to compile from source themselves are strongly encouraged to consider using [the
+development branch](https://ffmpeg.org/download.html).
+
+Maintained releases are listed on the [_Download Page_](https://ffmpeg.org/download.html#releases)
+and unmaintained releases are listed on the [_Old Releases Page_](https://ffmpeg.org/olddownload.html).
