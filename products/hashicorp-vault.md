@@ -6,7 +6,7 @@ permalink: /hashicorp-vault
 alternate_urls:
 -   /vault
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
-changelogTemplate: https://github.com/hashicorp/vault/blob/v__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
 versionCommand: vault --version
