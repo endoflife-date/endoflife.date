@@ -17,13 +17,13 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-09-26
-    latestReleaseDate: 2023-02-12
-    latest: "3.11.9"
+    latestReleaseDate: 2023-03-02
+    latest: "3.11.10"
 -   releaseCycle: "3.10"
     eol: 2023-12-30
     support: 2023-07-31
-    latest: "3.10.18"
-    latestReleaseDate: 2023-02-12
+    latest: "3.10.19"
+    latestReleaseDate: 2023-03-02
     releaseDate: 2022-05-03
 -   releaseCycle: "3.9"
     eol: 2023-07-31

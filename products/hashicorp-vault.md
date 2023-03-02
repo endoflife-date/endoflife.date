@@ -16,18 +16,18 @@ versionCommand: vault --version
 releases:
 -   releaseCycle: "1.12"
     eol: false
-    latest: "1.12.3"
-    latestReleaseDate: 2023-02-02
+    latest: "1.12.4"
+    latestReleaseDate: 2023-02-28
     releaseDate: 2022-10-10
 -   releaseCycle: "1.11"
     eol: false
-    latest: "1.11.7"
-    latestReleaseDate: 2023-02-01
+    latest: "1.11.8"
+    latestReleaseDate: 2023-02-24
     releaseDate: 2022-06-17
 -   releaseCycle: "1.10"
     eol: false
-    latest: "1.10.10"
-    latestReleaseDate: 2023-02-01
+    latest: "1.10.11"
+    latestReleaseDate: 2023-02-24
     releaseDate: 2022-03-21
 -   releaseCycle: "1.9"
     eol: 2022-10-10
