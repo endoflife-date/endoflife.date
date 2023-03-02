@@ -13,8 +13,8 @@ releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   dockerhub: library/sonarqube
-    regex: ^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-community$
+-   git: https://github.com/SonarSource/sonarqube.git
+    regex: ^(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?(\.(?<build>\d+))?$
 
 releases:
 -   releaseCycle: "9"
