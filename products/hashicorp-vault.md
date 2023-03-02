@@ -14,7 +14,14 @@ versionCommand: vault --version
 auto:
 -   git: https://github.com/hashicorp/vault.git
 
+# eol(x) = release(x+3)
 releases:
+-   releaseCycle: "1.13"
+    releaseDate: 2023-03-01
+    eol: false
+    latest: "1.13.0"
+    latestReleaseDate: 2023-03-01
+
 -   releaseCycle: "1.12"
     releaseDate: 2022-10-10
     eol: false
@@ -29,7 +36,7 @@ releases:
 
 -   releaseCycle: "1.10"
     releaseDate: 2022-03-21
-    eol: false
+    eol: 2023-03-01
     latest: "1.10.11"
     latestReleaseDate: 2023-02-24
 
