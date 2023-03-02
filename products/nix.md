@@ -18,9 +18,15 @@ auto:
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.14"
+    releaseDate: 2023-02-28
+    eol: false
+    latest: "2.14.1"
+    latestReleaseDate: 2023-03-02
+
 -   releaseCycle: "2.13"
     releaseDate: 2023-01-17
-    eol: false
+    eol: true
     latest: "2.13.3"
     latestReleaseDate: 2023-02-27
 
