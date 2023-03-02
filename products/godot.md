@@ -17,7 +17,16 @@ auto:
     regex: ^(?<version>\d+(\.\d+){1,3})-stable$
     template: "{{version}}"
 
+# Do not forget to remove the link after the first patch release.
 releases:
+-   releaseCycle: "4.0"
+    releaseDate: 2023-03-01
+    support: true
+    eol: false
+    latest: "4.0"
+    latestReleaseDate: 2023-03-01
+    link: https://godotengine.org/article/godot-4-0-sets-sail/
+
 -   releaseCycle: "3.5"
     releaseDate: 2022-08-05
     support: true
