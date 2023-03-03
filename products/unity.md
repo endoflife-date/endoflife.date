@@ -12,27 +12,28 @@ changelogTemplate: |
   https://unity3d.com/unity/whats-new/{{"__LATEST__" | split:'f' | first}}#section-{{"__LATEST__" | remove:'.'}}-release-notes
 releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releases:
-#  - releaseCycle: "2022.2"
-#    release: 2022-XX-XX
-#    eol: false
-#    latest: "2022.2.0"
+  - releaseCycle: "2022.2"
+    release: 2022-12-07
+    eol: false
+    latest: "2022.2.8"
+    releaseDate: 2023-02-23
 
 -   releaseCycle: "2022.1"
     eol: false
-    latest: "2022.1.23f1"
-    releaseDate: 2022-05-09
+    latest: "2022.1.24"
+    releaseDate: 2022-12-06
 
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true
-    latest: "2021.3.15f1"
-    releaseDate: 2021-03-19
+    latest: "2021.3.19"
+    releaseDate: 2023-02-19
 
 -   releaseCycle: "2020"
     eol: 2023-03-01
     lts: true
-    latest: "2020.3.42f1"
-    releaseDate: 2021-03-11
+    latest: "2020.3.45"
+    releaseDate: 2023-02-14
 
 -   releaseCycle: "2019"
     eol: 2022-06-01
