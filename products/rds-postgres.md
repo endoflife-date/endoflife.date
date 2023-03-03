@@ -116,7 +116,9 @@ releases:
   - releaseCycle: '10.17'
     releaseDate: 2021-7-12
     eol: 2023-3-20
+
 ---
+
 > [AWS RDS Postgres] is AWS's implementation of the popular postgres database.
 
 Releases as well as deprecation dates do not match perfectly with source postgres releases (typically releasing about a month behind).
