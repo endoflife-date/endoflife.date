@@ -4,6 +4,7 @@ import json
 import os
 import re
 import datetime
+from time import time_ns
 from glob import glob
 from pathlib import Path
 from ruamel.yaml import YAML
@@ -82,6 +83,12 @@ def find_all(releases, prefix):
     return set(filter(lambda r: releases_matches(r, prefix), releases))
 
 
+def github_output(str):
+    if os.getenv("GITHUB_OUTPUT"):
+        with open(os.getenv("GITHUB_OUTPUT"), 'a') as f:
+            f.write(str)
+
+
 def yaml_to_str(obj):
     yaml = YAML()
     yaml.indent(sequence=4)
@@ -91,7 +98,6 @@ def yaml_to_str(obj):
     string_stream.close()
     return output_str.strip()
 
-warnings = ""
 
 def update_product(name):
     fn = "products/%s.md" % name
@@ -185,18 +191,18 @@ def update_product(name):
                     date = datetime.date.fromisoformat(R1[x])
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
-                        print("[WARN] %s:%s (%s) not included" % (name, x, R1[x]))
-                        # Update global warnings
-                        global warnings
-                        warnings += "%s:%s (%s)\\n" % (name, x, R1[x])
+                        print(f"[WARN] {name}:{x} ({R1[x]}) not included")
+                        github_output(f"{name}:{x} ({R1[x]})\n")
 
 
 if __name__ == "__main__":
+    # See https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string
+    github_output("warning<<$EOF\n")
+
     if len(sys.argv) > 1:
         update_product(sys.argv[1])
     else:
         for x in glob("products/*.md"):
             update_product(Path(x).stem)
-    if os.getenv("GITHUB_OUTPUT"):
-        with open(os.getenv("GITHUB_OUTPUT"), 'a') as f:
-            f.write("WARNING=" + warnings)
+
+    github_output("$EOF")
