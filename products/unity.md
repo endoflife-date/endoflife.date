@@ -12,13 +12,13 @@ changelogTemplate: |
   https://unity3d.com/unity/whats-new/{{"__LATEST__" | split:'f' | first}}#section-{{"__LATEST__" | remove:'.'}}-release-notes
 releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releases:
-  - releaseCycle: "2022.2"
+-   releaseCycle: "2022.2"
     eol: false
     latest: "2022.2.8f1"
     latestReleaseDate: 2023-02-23
     releaseDate: 2022-12-07
 
-  - releaseCycle: "2022.1"
+-   releaseCycle: "2022.1"
     eol: 2022-12-06
     latest: "2022.1.24f1"
     latestReleaseDate: 2022-12-06
