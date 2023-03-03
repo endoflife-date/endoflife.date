@@ -13,45 +13,69 @@ changelogTemplate: |
 releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releases:
   - releaseCycle: "2022.2"
-    release: 2022-12-07
     eol: false
-    latest: "2022.2.8"
-    releaseDate: 2023-02-23
+    latest: "2022.2.8f1"
+    latestReleaseDate: 2023-02-23
+    releaseDate: 2022-12-07
 
--   releaseCycle: "2022.1"
-    eol: false
-    latest: "2022.1.24"
-    releaseDate: 2022-12-06
+  - releaseCycle: "2022.1"
+    eol: 2022-12-06
+    latest: "2022.1.24f1"
+    latestReleaseDate: 2022-12-06
+    releaseDate: 2022-05-09
 
 -   releaseCycle: "2021"
     eol: 2024-04-19
     lts: true
-    latest: "2021.3.19"
-    releaseDate: 2023-02-19
+    latest: "2021.3.19f1"
+    latestReleaseDate: 2023-02-17
+    releaseDate: 2021-03-22
+
+-   releaseCycle: "2021.3"
+    eol: 2022-02-17
+    latest: "2022.3.19f1"
+    latestReleaseDate: 2022-02-17
+    releaseDate: 2022-04-11
+
+-   releaseCycle: "2021.2"
+    eol: 2022-04-05
+    latest: "2022.2.19f1"
+    latestReleaseDate: 2022-04-05
+    releaseDate: 2021-10-25
+
+-   releaseCycle: "2021.1"
+    eol: 2022-11-04
+    latest: "2022.1.28f1"
+    latestReleaseDate: 2022-11-04
+    releaseDate: 2021-03-22
 
 -   releaseCycle: "2020"
-    eol: 2023-03-01
+    eol: 2023-02-14
     lts: true
-    latest: "2020.3.45"
-    releaseDate: 2023-02-14
+    latest: "2020.3.45f1"
+    latestReleaseDate: 2023-02-14
+    releaseDate: 2020-06-20
 
 -   releaseCycle: "2019"
-    eol: 2022-06-01
+    eol: 2022-06-16
     lts: true
-    latest: "2019.4.40"
-    releaseDate: 2020-06-09
+    latest: "2019.4.40f1"
+    latestReleaseDate: 2022-06-16
+    releaseDate: 2019-04-08
 
 -   releaseCycle: "2018"
-    eol: 2021-06-18
+    eol: 2021-06-17
     lts: true
-    latest: "2018.4.36"
-    releaseDate: 2019-05-10
+    latest: "2018.4.36f1"
+    latestReleaseDate: 2021-06-17
+    releaseDate: 2018-04-26
 
 -   releaseCycle: "2017"
-    eol: 2020-04-20
+    eol: 2020-05-18
     lts: true
-    latest: "2017.4.40"
-    releaseDate: 2017-03-20
+    latest: "2017.4.40f1"
+    latestReleaseDate: 2020-05-18
+    releaseDate: 2017-06-26
 
 ---
 
