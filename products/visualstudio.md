@@ -153,7 +153,7 @@ releases:
     eol: 2027-04-13
     releaseDate: 2018-11-13
     latest: "15.9.52"
-    latestReleaseDate: 2020-01-12
+    latestReleaseDate: 2023-02-14
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.52
     
 #### TODO: Insert missing versions from https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-history
