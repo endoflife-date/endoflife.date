@@ -108,7 +108,7 @@ On a new major version release, the previous stable branch becomes a long-term s
 This is the case for the 2.1 branch, and will be the case for the latest 3.x stable branch by the
 time Godot 4.0 is released.
 
-Starting with Godot 3.3, the planned development cycle aims for a new minor release every 3 to 6
+The development cycle aims for a new minor release every 3 to 6
 months. The Godot release policy is a set of guidelines and "what will actually happen depends on
 the choices of core contributors, and the needs of the community at a given time". Godot loosely
 follows [Semantic Versioning](https://semver.org/).
