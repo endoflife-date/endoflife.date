@@ -18,7 +18,7 @@ releases:
     releaseDate: 2023-1-24
     eol: 2024-1-1
   - releaseCycle: '14.5'
-    releaseDate: '2022-11-18'
+    releaseDate: 2022-11-18
     eol: 2023-11-1
   - releaseCycle: '14.4'
     releaseDate: 2022-9-1
@@ -36,7 +36,7 @@ releases:
     releaseDate: 2023-1-24
     eol: 2024-1-1
   - releaseCycle: '13.8'
-    releaseDate: '2022-11-18'
+    releaseDate: 2022-11-18
     eol: 2023-11-1
   - releaseCycle: '13.7'
     releaseDate: 2022-8-4
@@ -57,7 +57,7 @@ releases:
     releaseDate: 2023-1-24
     eol: 2024-1-1
   - releaseCycle: '12.12'
-    releaseDate: '2022-11-18'
+    releaseDate: 2022-11-18
     eol: 2023-11-1
   - releaseCycle: '12.11'
     releaseDate: 2022-8-4
@@ -78,7 +78,7 @@ releases:
     releaseDate: 2023-1-24
     eol: 2024-1-1
   - releaseCycle: '11.17'
-    releaseDate: '2022-11-18'
+    releaseDate: 2022-11-18
     eol: 2023-11-1
   - releaseCycle: '11.16'
     releaseDate: 2022-8-4
@@ -99,7 +99,7 @@ releases:
     releaseDate: 2023-1-24
     eol: 2023-4-17
   - releaseCycle: '10.22'
-    releaseDate: '2022-11-18'
+    releaseDate: 2022-11-18
     eol: 2023-4-17
   - releaseCycle: '10.21'
     releaseDate: 2022-8-4
