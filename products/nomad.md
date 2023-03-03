@@ -11,7 +11,14 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/hashicorp/nomad.git
 
+# eol(x) = releaseCycle(x+3)
 releases:
+-   releaseCycle: "1.5"
+    releaseDate: 2023-03-01
+    eol: false
+    latest: "1.5.0"
+    latestReleaseDate: 2023-03-01
+
 -   releaseCycle: "1.4"
     releaseDate: 2022-10-04
     eol: false
@@ -26,7 +33,7 @@ releases:
 
 -   releaseCycle: "1.2"
     releaseDate: 2021-11-15
-    eol: false
+    eol: 2023-03-01
     latest: "1.2.16"
     latestReleaseDate: 2023-02-14
 
