@@ -172,7 +172,7 @@ releases:
     releaseDate: 2015-07-20
     latest: "Update 3"
     latestReleaseDate: 2016-06-27
-    link: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2015-update3-vs
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2015-update3-vs
 
 -   releaseCycle: "12.0"
     codename: "2013"
