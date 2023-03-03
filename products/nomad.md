@@ -46,6 +46,7 @@ releases:
     releaseDate: 2020-07-09
     eol: 2021-11-15
     latest: "0.12.12"
+    latestReleaseDate: 2021-05-11
 
 ---
 
