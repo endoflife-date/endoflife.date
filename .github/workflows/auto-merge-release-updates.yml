@@ -11,31 +11,38 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: Dependabot metadata
-        id: metadata
+      - id: metadata
+        name: Dependabot metadata
         uses: dependabot/fetch-metadata@v1.3.6
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: actions/checkout@v3
-        name: Clone self repository
+
+      - name: Clone self repository
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
           submodules: true
-      - uses: actions/setup-python@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+
       - name: Install Python Dependencies
         run: pip install -r requirements.txt
-      - name: Update latest releases
-        id: latest
+
+      - id: latest
+        name: Update latest releases
         run: python _auto/latest.py
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        name: Update latest and latestReleaseDate
+
+      - name: Update latest and latestReleaseDate
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: products/*
           commit_message: "🤖: Update latest release data"
           status_options: '--untracked-files=no'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+
       # TODO: Leave a comment if there is a new major release that we don't match
       - name: Enable auto-merge for Dependabot PRs for release data
         if: ${{contains(steps.metadata.outputs.dependency-names, '_data/release-data')}}
@@ -43,6 +50,7 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
       - name: Comment on PR about missing releases
         uses: github-actions-up-and-running/pr-comment@v1.0.1
         with:
