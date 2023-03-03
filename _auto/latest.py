@@ -32,10 +32,7 @@ DEFAULT_POST_TEMPLATE = """\
 # https://stackoverflow.com/a/71329221/368328
 # Force encoding version numbers as strings
 Resolver.add_implicit_resolver(
-    "tag:yaml.org,2002:string", re.compile(r"\d+\.\d+\.\d+", re.X), list(".0123456789")
-)
-Resolver.add_implicit_resolver(
-    "tag:yaml.org,2002:string", re.compile(r"\d+\.\d+", re.X), list(".0123456789")
+    "tag:yaml.org,2002:string", re.compile(r"\d+(\.\d+){0,3}", re.X), list(".0123456789")
 )
 
 
