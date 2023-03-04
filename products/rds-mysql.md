@@ -5,7 +5,6 @@ iconSlug: mysql
 permalink: /rds-mysql
 releasePolicyLink: >-
   https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
-releaseImage: https://docs.aws.amazon.com/assets/r/images/aws_logo_dark.png
 releases:
   - latest: "8.0.32"
     releaseCycle: "8.0"
@@ -22,14 +21,16 @@ releases:
 
 ---
 
-> Amazon RDS for MySQL is a PaaS offering from Amazon for creating MySQL Databases on AWS.
-> RDS makes it easier to set up, operate, and scale MySQL deployments on AWS cloud.
-> MySQL runs against its source Community Edition.
+> [Amazon RDS for MySQL](https://aws.amazon.com/rds) is a PaaS offering from Amazon for creating MySQL Databases on AWS. RDS makes it easier to set up, operate, and scale MySQL deployments on AWS cloud. MySQL runs against its source Community Edition.
 
-- AWS will provide support for major releases for at least 3 years after their RDS release date.
+**MySQL recommends that all users run the latest available minor release for whatever major version is in use.**
 
-- AWS will provide support for minor versions for at least 1 year after their RDS release date.
+- AWS will provide support for major releases 3 years after their RDS release date.
+
+- AWS will provide support for minor versions 1 year after their RDS release date.
 
 Keep in mind that by default minor versions are automatically upgraded during maintenance windows.
 
 For more info on how RDS versions are deprecated see the AWS [documentation](https://aws.amazon.com/rds/faqs/#What_happens_when_an_Amazon_RDS_DB_engine_version_is_deprecated.3F).
+
+Please follow [best practices](https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-and-amazon-rds-for-mariadb) when performing upgrades to your RDS instance.
