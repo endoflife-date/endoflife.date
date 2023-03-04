@@ -93,4 +93,9 @@ LTS release and is supported for at least four years.
 Temurin is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#adoptium-eclipse-temurin).
 
+Temurin also is distributed as Docker image:
+
+- [`eclipse-temurin`'s homepage on DockerHub](https://hub.docker.com/_/eclipse-temurin)
+- [`eclipse-temurin` tags](https://hub.docker.com/_/eclipse-temurin/tags)
+    
 *[LTS]: Long Term Support
