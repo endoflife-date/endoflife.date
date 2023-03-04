@@ -2,6 +2,17 @@
 title: Red Hat Satellite
 category: server-app
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
+iconSlug: redhat
+permalink: /redhat-satellite
+alternate_urls:
+-   /rhsat
+releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
+releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
+activeSupportColumn: Full support
+activeSupportWarnThreshold: 30
+releaseDateColumn: General availability
+eolColumn: Maintenance support
+versionCommand: yum info satellite
 releases:
 -   releaseCycle: "6.12"
     eol: 2024-05-31
@@ -24,20 +35,9 @@ releases:
 -   releaseCycle: "6.9"
     eol: 2022-11-30
     support: 2021-11-30
-    releaseDate: 2021-04-16
+    releaseDate: 2021-04-21
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17
-iconSlug: redhat
-permalink: /redhat-satellite
-alternate_urls:
--   /rhsat
-releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
-activeSupportColumn: Full support
-releaseColumn: true
-releaseDateColumn: true
-eolColumn: Maintenance support
-discontinuedColumn: false
-versionCommand: yum info satellite
 
 ---
 
