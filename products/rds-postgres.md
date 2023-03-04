@@ -4,11 +4,12 @@ category: db
 iconSlug: postgresql
 permalink: /rds-postgres
 alternate_urls:
-  - /rds-postgresql
-  - /rds-psql
+-   /rds-postgresql
+-   /rds-psql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
-releaseImage: 'https://docs.aws.amazon.com/assets/r/images/aws_logo_dark.png'
+releaseImage: https://docs.aws.amazon.com/assets/r/images/aws_logo_dark.png
 activeSupportColumn: Active Support
+releaseDateColumn: Released
 releases:
 -   releaseCycle: "15.2"
     eol: 2023-04-01
