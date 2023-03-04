@@ -13,9 +13,9 @@ releaseDateColumn: true
 releases:
 -   releaseCycle: "15.2"
     eol: 2021-03-16
-    releaseDate: 2020-09-24
+    latest: "15.2"
     latestReleaseDate: 2021-01-20
-
+    releaseDate: 2020-09-24
 ---
 
 [AWS RDS Postgres] is AWS's implementation of the popular postgres database.
