@@ -21,7 +21,7 @@ releases:
 
 ---
 
-> [Amazon RDS for MySQL](https://aws.amazon.com/rds) is a PaaS offering from Amazon for creating MySQL Databases on AWS. RDS makes it easier to set up, operate, and scale MySQL deployments on AWS cloud. MySQL runs against its source Community Edition.
+> [Amazon RDS for MySQL](https://aws.amazon.com/rds/MySQL) is a PaaS offering from Amazon for creating MySQL Databases on AWS. RDS makes it easier to set up, operate, and scale MySQL deployments on AWS cloud. MySQL runs against its source Community Edition.
 
 **MySQL recommends that all users run the latest available minor release for whatever major version is in use.**
 
