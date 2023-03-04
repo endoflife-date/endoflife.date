@@ -38,6 +38,7 @@ For more info on how RDS versions are deprecated see the AWS [documentation](htt
 Please follow [best practices](https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-and-amazon-rds-for-mariadb) when performing upgrades to your RDS instance.
 
 ### Minor Version Support
+
 | Release | Security Support | RDS Release |
 | ------- | ---------------- | ----------- |
 | 8.0.32  | 2024-02-01       | 2023-02-07  |
