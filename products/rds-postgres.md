@@ -12,9 +12,9 @@ activeSupportColumn: Active Support
 releaseDateColumn: true
 releases:
 -   releaseCycle: "15.2"
-    eol: 2023-04-01
-    releaseDate: 2022-09-20
-    latestReleaseDate: 2023-01-17
+    eol: 2021-03-16
+    releaseDate: 2020-09-24
+    latestReleaseDate: 2021-01-20
 
 ---
 
