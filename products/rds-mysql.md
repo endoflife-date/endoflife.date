@@ -34,3 +34,12 @@ Keep in mind that by default minor versions are automatically upgraded during ma
 For more info on how RDS versions are deprecated see the AWS [documentation](https://aws.amazon.com/rds/faqs/#What_happens_when_an_Amazon_RDS_DB_engine_version_is_deprecated.3F).
 
 Please follow [best practices](https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-and-amazon-rds-for-mariadb) when performing upgrades to your RDS instance.
+
+
+
+I wonder if markdown tables work in this bitch
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
