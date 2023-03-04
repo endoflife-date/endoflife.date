@@ -9,7 +9,7 @@ alternate_urls:
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
 releaseImage: https://docs.aws.amazon.com/assets/r/images/aws_logo_dark.png
 activeSupportColumn: Active Support
-releaseDateColumn: Released
+releaseDateColumn: true
 releases:
 -   releaseCycle: "15.2"
     eol: 2023-04-01
