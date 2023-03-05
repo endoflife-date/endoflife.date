@@ -3,29 +3,34 @@ title: Amazon RDS for MySQL
 category: db
 iconSlug: mysql
 permalink: /rds-mysql
-releasePolicyLink: >-
-  https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+
 releases:
-  - latest: "8.0.32"
-    releaseCycle: "8.0"
+-   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-04-01
+    latest: "8.0.32"
     latestReleaseDate: 2023-02-07
-  - latest: "5.7.41"
-    releaseCycle: "5.7"
+
+-   releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eol: 2023-10-01
+    latest: "5.7.41"
     latestReleaseDate: 2023-02-07
-  - latest: ""
-    releaseCycle: "5.6"
+
+-   releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
+    latest: "unknown"
 
 ---
 
-> [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for creating MySQL Databases on AWS. RDS makes it easier to set up, operate, and scale MySQL deployments on AWS cloud. MySQL runs against its source Community Edition.
+> [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for
+> creating MySQL Databases on AWS. RDS makes it easier to set up, operate, and scale MySQL
+> deployments on AWS cloud. MySQL runs against its source Community Edition.
 
-**MySQL recommends that all users run the latest available minor release for whatever major version is in use.**
+**MySQL recommends that all users run the latest available minor release for whatever major version
+is in use.**
 
 - AWS will provide support for major releases 3 years after their RDS release date.
 
