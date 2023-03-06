@@ -26,32 +26,22 @@ releases:
 > creating managed MySQL Community Edition databases. RDS makes it easier to set up, operate, and
 > scale MySQL deployments on AWS cloud.
 
-**Running the latest version in RDS improves performance and security.
-However, keep in mind that there are risks attached and
-upgrades should be done carefully in production environments.**
+Version numbers on Amazon RDS for MySQL are identical to those of [MySQL](/mysql). As a general
+guidance, new versions of the MySQL engine become available on Amazon RDS within 5 months of their
+general availability by Oracle.
 
-- AWS will provide support for major releases **3 years** after their RDS release date.
+Major versions (`x.y` in Amazon RDS terminology) are supported at least [until the MySQL Community
+Edition end of life](/mysql) and for at least 3 years after their release date on Amazon RDS.
+Minor versions (`x.y.z` in Amazon RDS terminology) are supported at least for 1 year after their
+release date on Amazon RDS. Note that in some cases Amazon may deprecate specific major or minor
+versions sooner, such as when there are security issues.
 
-- AWS will provide support for minor versions **1 year** after their RDS release date.
+Depending on the configuration, the kind of version (major or minor) and their deprecation status,
+[upgrades can be manual, automatic or forced](https://aws.amazon.com/rds/faqs/#How_do_I_control_if_and_when_the_engine_version_of_my_DB_instance_is_upgraded_to_new_supported_versions.3F).
+When a minor release is deprecated, users are expected to upgrade within a 3 months period. This
+period is increased to 6 months for major releases. Upgrades are performed during the configured
+scheduled maintenance windows. These windows are initially set automatically by AWS but can be
+overridden in the AWS console.
 
-By default instances with security and durability minor version upgrades available are
-automatically upgraded during maintenance windows.
-
-#### Deprecation
-
-> For the most current information surrounding deprecation read the AWS
-> [documentation](https://aws.amazon.com/rds/faqs/#What_happens_when_an_Amazon_RDS_DB_engine_version_is_deprecated.3F).
-
-- When a minor version of a database engine is deprecated in Amazon RDS,
-a client will have **3 months** before an automatic upgrade (if enabled).
-
-- When a major version of a database engine is deprecated in Amazon RDS,
-a client will have **6 months** before an automatic upgrade.
-
-Deprecated versions will have scheduled maintenance performed during their configured
-scheduled maintenance windows. 
-
-While maintenance windows have an end time please be aware that this is just an estimate and
-depending on the size, upgrades can take longer.
-
-These windows are set automatically by AWS but can be overridden within the AWS console.
+For the most up-to-date information about the Amazon RDS deprecation policy for MySQL, see [Amazon
+RDS FAQs](http://aws.amazon.com/rds/faqs/).
