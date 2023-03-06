@@ -4,21 +4,24 @@ category: db
 iconSlug: mysql
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+
 releases:
-  - latest: "8.0.32"
-    releaseCycle: "8.0"
+-   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-04-01
+    latest: "8.0.32"
     latestReleaseDate: 2023-02-07
-  - latest: "5.7.41"
-    releaseCycle: "5.7"
+
+-   releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eol: 2023-10-01
+    latest: "5.7.41"
     latestReleaseDate: 2023-02-07
-  - latest: "unknown"
-    releaseCycle: "5.6"
+
+-   releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
+    latest: "unknown"
 
 ---
 
