@@ -11,6 +11,13 @@ releaseDateColumn: true
 eolColumn: End-of-life Date
 
 releases:
+-   releaseCycle: "11.0"
+    eol: 2024-11-17
+    releaseDate: 2022-11-17
+    latest: "11.0.0"
+    latestReleaseDate: 2022-11-17
+    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-0-known-and-addressed-issues/pan-os-11-0-0-addressed-issues
+
 -   releaseCycle: "10.2"
     eol: 2025-08-27
     releaseDate: 2022-02-27
