@@ -60,7 +60,7 @@ releases:
 -   releaseCycle: "2.15"
     support: 2023-02-01
     lts: true
-    eol: false
+    eol: 2023-02-01
     latest: "2.15.6"
     latestReleaseDate: 2022-09-05
     releaseDate: 2021-11-04
