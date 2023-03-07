@@ -36,8 +36,8 @@ Version numbers on Amazon RDS for MySQL are identical to those of [MySQL](/mysql
 guidance, new versions of the MySQL engine become available on Amazon RDS within 5 months of their
 general availability by Oracle.
 
-Major versions (`x.y` in Amazon RDS terminology) are supported at least [until the MySQL Community
-Edition end of life](/mysql) and for at least 3 years after their release date on Amazon RDS.
+Major versions (`x.y` in Amazon RDS terminology) are supported [until the MySQL Community
+Edition end of life](/mysql), with a minimum of 3 years from their release date on Amazon RDS.
 Minor versions (`x.y.z` in Amazon RDS terminology) are supported at least for 1 year after their
 release date on Amazon RDS. Note that in some cases Amazon may deprecate specific major or minor
 versions sooner, such as when there are security issues.
