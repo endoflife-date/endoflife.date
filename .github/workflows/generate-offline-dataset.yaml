@@ -8,17 +8,17 @@ on:
       - master
 
 jobs:
-  build-release-bundle:
+  generate-offline-dataset:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'  # Not needed with a .ruby-version file
-        bundler-cache: true  # runs 'bundle install' and caches installed gems automatically
+        ruby-version: '3.0'
+        bundler-cache: true  # Runs 'bundle install' and caches installed gems
     # Generate .json files under ./api/
     - run: bundle exec ruby ./_plugins/create-json-files.rb
-    # Generate a tar bundle from those files.
+    # Generate a tar bundle from those files
     - run: (cd ./api/ && tar --mode='a+rw' -czvf ../dataset.tar.gz *.json)
     # Publish the release
     - uses: ncipollo/release-action@v1
