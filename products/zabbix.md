@@ -37,8 +37,8 @@ releases:
     support: 2023-05-31
     eol: 2025-05-31
     lts: true
-    latest: "5.0.31"
-    latestReleaseDate: 2023-01-30
+    latest: "5.0.32"
+    latestReleaseDate: 2023-03-06
     releaseDate: 2020-05-11
 -   releaseCycle: "4.0"
     support: 2021-10-31
