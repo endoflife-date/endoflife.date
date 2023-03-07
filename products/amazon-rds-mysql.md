@@ -1,6 +1,6 @@
 ---
 title: Amazon RDS for MySQL
-category: db
+category: service
 iconSlug: amazonaws
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
