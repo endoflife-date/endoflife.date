@@ -17,7 +17,17 @@ identifiers:
 auto:
 -   git: https://github.com/zabbix/zabbix.git
 
+# For non-LTS releases :
+# - support(x) = release(x) + 6 months
+# - eol(x) = release(x) + 7 months
 releases:
+-   releaseCycle: "6.4"
+    releaseDate: 2023-03-06
+    support: 2023-09-30
+    eol: 2023-10-31
+    latest: "6.4.0"
+    latestReleaseDate: 2023-03-06
+
 -   releaseCycle: "6.2"
     support: 2023-01-31
     eol: 2023-02-28
