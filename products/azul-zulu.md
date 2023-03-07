@@ -189,12 +189,11 @@ Azul Zulu builds are available for Java 6 and greater. It follows the same caden
 - a new LTS release every 3 years (every sixth OpenJDK release) after the release of OpenJDK 11,
 - a new LTS release every 2 years (every fourth OpenJDK release) after the release of OpenJDK 17.
 
-LTS releases are supported for at least 8 years with bug fixes and security updates. Azul also have
-MTS releases that are supported for at least 1.5 years after the general availability of the next
-LTS release.
+LTS releases are supported for at least 8 years with bug fixes and security updates. Azul also has
+Medium Term Support (MTS) releases that are supported for at least 1.5 years after the 
+general availability of the next LTS release.
 
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
-More details are available on the [Azul support roadmap](https://www.azul.com/products/azul-support-roadmap/).
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#azul-zulu).
