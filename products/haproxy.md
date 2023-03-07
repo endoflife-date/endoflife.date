@@ -30,7 +30,7 @@ releases:
 
 -   releaseCycle: "2.5"
     releaseDate: 2021-11-23
-    eol: 2023-05-23
+    eol: 2023-02-14
     latest: "2.5.12"
     latestReleaseDate: 2023-02-14
 
@@ -112,3 +112,10 @@ purposely not strict so that the maintenance cycle is decided with users based o
 that these versions do not end up in embedded products. It may happen that a few features are
 backported to these version if there is some reasonable demand and the operation is considered
 riskless enough.
+
+EOL dates on [HAProxy](https://www.haproxy.org/) website are formatted as `YYYY-Qn`, with `YYYY`
+being the year, and `Qn` the quarter of that year. This is intentional and more can be read about it
+[on HAProxy mailing list](https://www.mail-archive.com/haproxy@formilux.org/msg41669.html).
+EndOfLife.date resolves that by being conservative, using the start of quarter as the EOL date
+(`YYYY-01-01` for Q1, `YYYY-04-01` for Q2, `YYYY-07-01` for Q3, `YYYY-10-01` for Q4). The EOL date
+will then be adjusted if a new version is released after that initial date.
