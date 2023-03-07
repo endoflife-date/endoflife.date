@@ -172,13 +172,15 @@ details.
 June 30, 2023_. User-space Application Binary Interface (ABI) compatibility is guaranteed for
 [specific packages][al2-faq].
 
-## Amazon Linux 2022
+## Amazon Linux 2023
 
-AWS announced [Amazon Linux 2022](https://aws.amazon.com/linux/amazon-linux-2022/) as a successor to
-Amazon Linux 2, which uses Fedora as the upstream and is currently in preview. Starting with AL2022,
+AWS announced [Amazon Linux 2023][al2023] as a successor to
+Amazon Linux 2, which uses Fedora as the upstream and is currently in preview. Starting with AL2023,
 a new major version of Amazon Linux releases every two years, includes minor quarterly releases, and
 comes with five years of long-term support. Every major version release will be supported under
 active development for 2 years, followed by a maintenance phase of 3 years.
+
+See the [frequently asked questions][al2023-faq] for more details.
 
 ## Security Notifications
 
@@ -186,13 +188,17 @@ Amazon Provides security advisories for all versions on the Amazon Linux Securit
 
 - Amazon Linux - [[Website][al-sec]] [[RSS Feed][al-sec-rss]]
 - Amazon Linux 2 - [[Website][al2-sec]] [[RSS Feed][al2-sec-rss]]
-- Amazon Linux 2022 - [[Website][al2022-sec]] [[RSS Feed][al2022-sec-rss]]
+- Amazon Linux 2023 - [[Website][al2023-sec]] [[RSS Feed][al2023-sec-rss]]
 
 [al1]: https://aws.amazon.com/amazon-linux-ami/ "Amazon Linux AMI, no longer supported"
 [al2]: https://aws.amazon.com/amazon-linux-2/ "Amazon Linux 2"
+[al2023]: https://aws.amazon.com/linux/amazon-linux-2023/ "Amazon Linux 2023"
+
 [al1-eol]: https://aws.amazon.com/blogs/aws/update-on-amazon-linux-ami-end-of-life/ "Update on Amazon Linux AMI end-of-life"
+
 [al1-faq]: https://aws.amazon.com/amazon-linux-ami/faqs/ "Amazon Linux AMI FAQ"
 [al2-faq]: https://aws.amazon.com/amazon-linux-2/faqs/#Long_Term_Support "Amazon Linux 2 FAQs"
+[al2023-faq]: https://aws.amazon.com/linux/amazon-linux-2023/faqs/#Long_Term_Support "Amazon Linux 2023 FAQs"
 
 [al-sec]: https://alas.aws.amazon.com/
 [al-sec-rss]: https://alas.aws.amazon.com/alas.rss
@@ -200,5 +206,5 @@ Amazon Provides security advisories for all versions on the Amazon Linux Securit
 [al2-sec]: https://alas.aws.amazon.com/alas2.html
 [al2-sec-rss]: https://alas.aws.amazon.com/AL2/alas.rss
 
-[al2022-sec]: https://alas.aws.amazon.com/alas2022.html
-[al2022-sec-rss]: https://alas.aws.amazon.com/AL2022/alas.rss
+[al2023-sec]: https://alas.aws.amazon.com/alas2023.html
+[al2023-sec-rss]: https://alas.aws.amazon.com/AL2023/alas.rss
