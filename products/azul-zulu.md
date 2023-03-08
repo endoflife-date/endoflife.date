@@ -148,7 +148,7 @@ releases:
 
 -   releaseCycle: "8"
     lts: true
-    releaseDate: 2014-03-18
+    releaseDate: 2014-04-08
     eol: 2030-12-31
     extendedSupport: 2032-12-31
     latest: "8.68.0.21"
