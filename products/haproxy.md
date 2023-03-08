@@ -91,23 +91,26 @@ releases:
 > suited for very high traffic websites and powers a significant portion of the world's most visited
 > ones.
 
-The HAProxy core team maintains multiple versions in parallel. Since version 1.8, two major version
+## Release Cadence and Versioning
+
+The HAProxy core team maintains multiple versions in parallel. Two major versions
 are released every year. The first digit usually indicates a breaking change (config format etc.)
 but in practice rarely changes. The second digit indicates new features. Both constitute a branch.
 One extra number appears after these digits to indicate the bug fix release.
 
-The core team deploys a lot of efforts backporting fixes to older releases while being extremely
-careful not to break anything. For this reason, it is really important to stay up to date within
-one branch, i.e. having the highest possible number on the last digits.
+Fixes are backported to older releases with extreme care not to break anything. For this reason,
+it is highly recommended to stay on the latest version within a release cycle.
 
-Branches with an even number are called "LTS" (for "long term support") and are maintained for 5
-years after their release. During this time they will receive fixes for bugs that are discovered
+## Support Policy
+
+**LTS**: Branches with an even number are designated as "LTS" and are maintained for 5
+years after their release. During this time they receive fixes for bugs that are discovered
 after the release. These branches are aimed at general users who seek extreme stability and do not
-want to qualify a new version too often but still want to receive fixes.
+want to perform upgrades too often but still want to receive fixes.
 
-Branches with an odd number are only called "stable", they're aimed at highly skilled users who
+**Stable**: Branches with an odd number are only called "stable" and they are aimed at highly skilled users who
 prefer to upgrade often to benefit from modern features, and who are also able to roll back in case
-of problem. These versions are maintained between 12 and 18 months. The duration is short and
+of problems. These versions are maintained between 12 and 18 months. The duration is short and
 purposely not strict so that the maintenance cycle is decided with users based on feedback, and so
 that these versions do not end up in embedded products. It may happen that a few features are
 backported to these version if there is some reasonable demand and the operation is considered
@@ -115,7 +118,7 @@ riskless enough.
 
 EOL dates on [HAProxy](https://www.haproxy.org/) website are formatted as `YYYY-Qn`, with `YYYY`
 being the year, and `Qn` the quarter of that year. This is intentional and more can be read about it
-[on HAProxy mailing list](https://www.mail-archive.com/haproxy@formilux.org/msg41669.html).
-EndOfLife.date resolves that by being conservative, using the start of quarter as the EOL date
+[on the HAProxy mailing list](https://www.mail-archive.com/haproxy@formilux.org/msg41669.html).
+This page takes a conservative approach, using the start of quarter as the EOL date
 (`YYYY-01-01` for Q1, `YYYY-04-01` for Q2, `YYYY-07-01` for Q3, `YYYY-10-01` for Q4). The EOL date
 will then be adjusted if a new version is released after that initial date.
