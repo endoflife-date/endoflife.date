@@ -5,6 +5,8 @@ iconSlug: amazonaws
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 
+releaseDateColumn: true
+
 # Auto updates are possible using a custom script.
 # Releases and their date are documented on https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 
