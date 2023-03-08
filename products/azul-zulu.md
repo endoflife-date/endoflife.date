@@ -96,7 +96,7 @@ releases:
     latestReleaseDate: 2020-07-17
 
 -   releaseCycle: "13"
-    releaseLabel: "15 (<abbr title='Medium Term Support'>MTS</abbr>)"
+    releaseLabel: "13 (<abbr title='Medium Term Support'>MTS</abbr>)"
     lts: false
     releaseDate: 2019-09-17
     eol: 2023-03-31
