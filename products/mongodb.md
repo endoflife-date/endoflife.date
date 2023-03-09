@@ -38,8 +38,8 @@ releases:
     eol: false
 -   releaseCycle: "6.0"
     eol: 2025-07-01
-    latest: "6.0.4"
-    latestReleaseDate: 2023-01-17
+    latest: "6.0.5"
+    latestReleaseDate: 2023-03-08
     releaseDate: 2022-07-05
 -   releaseCycle: "5.3"
     codename: "rapid"
