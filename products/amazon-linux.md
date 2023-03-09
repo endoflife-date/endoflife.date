@@ -174,7 +174,7 @@ June 30, 2023_. User-space Application Binary Interface (ABI) compatibility is g
 
 ## Amazon Linux 2023
 
-AWS announced [Amazon Linux 2023][al2023] as a successor to
+AWS announced [Amazon Linux 2023][al2023] [^1] as a successor to
 Amazon Linux 2, which uses Fedora as the upstream and is currently in preview. Starting with AL2023,
 a new major version of Amazon Linux releases every two years, includes minor quarterly releases, and
 comes with five years of long-term support. Every major version release will be supported under
@@ -208,3 +208,5 @@ Amazon Provides security advisories for all versions on the Amazon Linux Securit
 
 [al2023-sec]: https://alas.aws.amazon.com/alas2023.html
 [al2023-sec-rss]: https://alas.aws.amazon.com/AL2023/alas.rss
+
+[^1]: It was announced as Amazon Linux 2022, and renamed to Amazon Linux 2023.
