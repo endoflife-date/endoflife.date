@@ -3,6 +3,9 @@ title: Red Hat OpenShift
 category: server-app
 iconSlug: redhatopenshift
 permalink: /red-hat-openshift
+alternate_urls:
+-   /openshift
+-   /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
 releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
