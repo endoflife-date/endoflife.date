@@ -113,9 +113,7 @@ releases:
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
 
-Oracle Database is a complex product distributed in various flavor (multiple cloud and on-premises
-offers), with support for various operating systems (such as Linux, Oracle Solaris or Microsoft
-Windows), and with [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
+Oracle Database has [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
 (such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these offers release
 dates may vary. This page documents Premier and Extended support dates for Oracle Database
 On-Premises Server Releases for Linux x86-64.
