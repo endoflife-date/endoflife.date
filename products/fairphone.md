@@ -8,6 +8,7 @@ activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 releaseLabel: "Fairphone __RELEASE_CYCLE__"
+
 releases:
 -   releaseCycle: "4"
     discontinued: false
@@ -28,7 +29,9 @@ releases:
     link: https://shop.fairphone.com/fairphone-3
 
 -   releaseCycle: "2"
+    # https://github.com/endoflife-date/endoflife.date/pull/2656#discussion_r1131930081
     discontinued: 2019-03-31
+    # https://www.linkedin.com/posts/fairphone_fairphone2forever-unlaunching-changeisinyourhands-activity-7038910425882615808-DS7c
     eol: 2023-03-07
     releaseDate: 2015-12-21
     link: https://support.fairphone.com/hc/articles/213290023-FP2-Fairphone-OS-downloads
