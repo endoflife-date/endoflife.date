@@ -28,8 +28,8 @@ releases:
     link: https://shop.fairphone.com/fairphone-3
 
 -   releaseCycle: "2"
-    discontinued: 2023-03-01
-    eol: 2023-03-01
+    discontinued: 2023-03-08
+    eol: 2023-03-08
     releaseDate: 2015-12-01
     link: https://support.fairphone.com/hc/articles/213290023-FP2-Fairphone-OS-downloads
 
