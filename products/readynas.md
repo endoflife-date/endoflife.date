@@ -65,6 +65,7 @@ releases:
     link: https://www.netgear.com/support/product/RN3130.aspx
 -   releaseCycle: "RN312"
     eol: true
+    link: https://www.netgear.com/support/product/RN312.aspx
 -   releaseCycle: "RN214"
     eol: false
     link: https://www.netgear.com/support/product/RN214.aspx
@@ -82,8 +83,10 @@ releases:
     link: https://www.netgear.com/support/product/RN202.aspx
 -   releaseCycle: "RN104"
     eol: true
+    link: https://www.netgear.com/support/product/RN104.aspx
 -   releaseCycle: "RN102"
     eol: true
+    link: https://www.netgear.com/support/product/RN102.aspx
 permalink: /readynas
 activeSupportColumn: false
 releaseColumn: false
