@@ -12,14 +12,16 @@ eolColumn: Premier Support
 extendedSupportColumn: Extended Support
 
 releases:
--   releaseCycle: "21c"
+-   releaseCycle: "21"
+    releaseLabel: "21c"
     lts: false
     releaseDate: 2021-08-13
     eol: 2024-04-30
     extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
--   releaseCycle: "19c"
+-   releaseCycle: "19"
+    releaseLabel: "19c"
     lts: true
     releaseDate: 2019-04-25
     eol: 2024-04-30
@@ -27,14 +29,15 @@ releases:
     extendedSupport: 2027-04-30
     link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
--   releaseCycle: "18c"
+-   releaseCycle: "18"
+    releaseLabel: "18c"
     lts: false
     releaseDate: 2018-07-23
     eol: 2021-06-30
     extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
 
--   releaseCycle: "12cR2"
+-   releaseCycle: "12.2"
     releaseLabel: "12c Release 2"
     lts: false
     releaseDate: 2017-03-01
@@ -42,7 +45,7 @@ releases:
     extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
 
--   releaseCycle: "12cR1"
+-   releaseCycle: "12.1"
     releaseLabel: "12c Release 1"
     lts: true
     releaseDate: 2013-06-25
@@ -50,7 +53,7 @@ releases:
     extendedSupport: 2022-07-31
     link: https://docs.oracle.com/database/121/index.htm
 
--   releaseCycle: "11gR2"
+-   releaseCycle: "11.2"
     releaseLabel: "11g Release 2"
     lts: true
     # https://www.orafaq.com/wiki/Oracle_11gR2
@@ -59,7 +62,7 @@ releases:
     extendedSupport: 2020-12-31
     link: https://docs.oracle.com/cd/E11882_01/index.htm
 
--   releaseCycle: "11gR1"
+-   releaseCycle: "11.1"
     releaseLabel: "11g Release 1"
     lts: true
     # https://www.orafaq.com/wiki/Oracle_11gR1
@@ -69,7 +72,7 @@ releases:
     extendedSupport: 2015-08-31
     link: https://docs.oracle.com/cd/B28359_01/index.htm
 
--   releaseCycle: "10gR2"
+-   releaseCycle: "10.2"
     releaseLabel: "10g Release 2"
     lts: true
     # https://web.archive.org/web/20180405025608/http://www.oracle.com/us/corporate/press/017324_EN
@@ -79,7 +82,7 @@ releases:
     extendedSupport: 2015-07-31
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
--   releaseCycle: "10gR1"
+-   releaseCycle: "10.1"
     releaseCycle: "10g Release 1"
     lts: true
     # https://www.orafaq.com/wiki/2003
@@ -89,7 +92,7 @@ releases:
     extendedSupport: 2012-01-01
     link: https://www.oracle.com/database/technologies/database10g-doc.html
 
--   releaseCycle: "9iR2"
+-   releaseCycle: "9.2"
     releaseLabel: "9i Release 2"
     lts: true
     # https://www.orafaq.com/wiki/Oracle_9i
@@ -98,7 +101,7 @@ releases:
     extendedSupport: 2010-07-31
     link: https://www.oracle.com/database/technologies/oracle9i.html
 
--   releaseCycle: "9iR1"
+-   releaseCycle: "9.0"
     releaseCycle: "9i Release 1"
     lts: false
     # https://www.orafaq.com/wiki/Oracle_9i
