@@ -83,7 +83,7 @@ releases:
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
 -   releaseCycle: "10.1"
-    releaseCycle: "10g Release 1"
+    releaseLabel: "10g Release 1"
     lts: true
     # https://www.orafaq.com/wiki/2003
     releaseDate: 2003-09-08
