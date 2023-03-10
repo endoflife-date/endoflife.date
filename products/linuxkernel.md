@@ -24,15 +24,15 @@ identifiers:
 releases:
 -   releaseCycle: "6.2"
     eol: false
-    latest: "6.2.2"
-    latestReleaseDate: 2023-03-03
+    latest: "6.2.3"
+    latestReleaseDate: 2023-03-10
     releaseDate: 2023-02-19
 
 -   releaseCycle: "6.1"
     eol: 2026-12-31
     lts: true
-    latest: "6.1.15"
-    latestReleaseDate: 2023-03-03
+    latest: "6.1.16"
+    latestReleaseDate: 2023-03-10
     releaseDate: 2022-12-11
 
 -   releaseCycle: "6.0"
@@ -68,8 +68,8 @@ releases:
 -   releaseCycle: "5.15"
     eol: 2026-10-31
     lts: true
-    latest: "5.15.98"
-    latestReleaseDate: 2023-03-03
+    latest: "5.15.99"
+    latestReleaseDate: 2023-03-10
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
