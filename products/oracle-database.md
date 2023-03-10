@@ -102,7 +102,7 @@ releases:
     link: https://www.oracle.com/database/technologies/oracle9i.html
 
 -   releaseCycle: "9.0"
-    releaseCycle: "9i Release 1"
+    releaseLabel: "9i Release 1"
     lts: false
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
