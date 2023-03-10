@@ -129,7 +129,8 @@ releases:
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
     lts: false
-    releaseDate: 2018-03-20
+    # https://www.azul.com/blog/zulu-10-has-landed/
+    releaseDate: 2018-03-27
     eol: 2018-09-30
     extendedSupport: 2019-03-31
     latest: "10.3.5"
@@ -148,6 +149,7 @@ releases:
 
 -   releaseCycle: "8"
     lts: true
+    # https://www.azul.com/newsroom/azul-systems-extends-zulu-runtime-for-java-to-support-java-8/
     releaseDate: 2014-04-08
     eol: 2030-12-31
     extendedSupport: 2032-12-31
@@ -158,6 +160,8 @@ releases:
 
 -   releaseCycle: "7"
     lts: true
+    # https://www.infoq.com/news/2013/10/azul-zulu/
+    # http://web.archive.org/web/20131006021330/http://msopentech.com/blog/2013/09/25/azul-systems-releases-zulu-an-openjdk-build-for-windows-azure-in-partnership-with-ms-open-tech/
     releaseDate: 2011-07-11
     eol: 2022-07-31
     extendedSupport: 2027-12-31
@@ -168,7 +172,8 @@ releases:
 
 -   releaseCycle: "6"
     lts: true
-    releaseDate: 2006-12-12
+    # https://www.azul.com/newsroom/azul-systems-extends-zulu-to-support-java-6-and-major-linux-distributions/
+    releaseDate: 2014-01-21
     eol: 2018-12-31
     extendedSupport: 2027-12-31
     latest: "6.22.0.3"
@@ -190,7 +195,7 @@ Azul Zulu builds are available for Java 6 and greater. It follows the same caden
 - a new LTS release every 2 years (every fourth OpenJDK release) after the release of OpenJDK 17.
 
 LTS releases are supported for at least 8 years with bug fixes and security updates. Azul also has
-Medium Term Support (MTS) releases that are supported for at least 1.5 years after the 
+Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
 
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
