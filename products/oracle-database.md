@@ -116,10 +116,11 @@ releases:
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
 
-Oracle Database has [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
-(such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these offers release
-dates may vary. This page documents Premier and Extended support dates for Oracle Database
-On-Premises Server Releases for Linux x86-64.
+Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
+[various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
+(such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these, release dates
+may vary. This page documents Premier and Extended support dates for Oracle Database On-Premises
+Server Releases for Linux x86-64.
 
 According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)
 (february 13, 2023 update) there are two types of Oracle Database releases:
