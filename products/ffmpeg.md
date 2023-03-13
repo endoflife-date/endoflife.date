@@ -22,7 +22,7 @@ releases:
     codename: Von Neumann
     releaseDate: 2023-02-27
     eol: false
-    latest: "6.0.0"
+    latest: "6.0"
     latestReleaseDate: 2023-02-27
 
 -   releaseCycle: "5.1"
