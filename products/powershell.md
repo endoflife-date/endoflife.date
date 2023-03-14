@@ -1,6 +1,6 @@
 ---
-category: lang
 title: Microsoft PowerShell
+category: lang
 iconSlug: powershell
 permalink: /powershell
 alternate_urls:
@@ -14,9 +14,7 @@ releaseDateColumn: true
 eolColumn: Support Status
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
-
 releases:
-
 -   releaseCycle: "7.3"
     lts: false
     eol: false
@@ -65,42 +63,36 @@ releases:
 -   releaseCycle: "5.1"
     eol: 2027-01-12
     latest: "5.1"
-    latestReleaseDate: 2016-08-02
     releaseDate: 2016-08-02
     link: null
 
 -   releaseCycle: "5.0"
     eol: 2016-08-02
     latest: "5.0"
-    latestReleaseDate: 2016-02-24
     releaseDate: 2016-02-24
     link: null
 
 -   releaseCycle: "4.0"
     eol: 2023-10-10
     latest: "4.0"
-    latestReleaseDate: 2013-10-01
     releaseDate: 2013-10-01
     link: null
 
 -   releaseCycle: "3.0"
     eol: 2023-10-10
     latest: "3.0"
-    latestReleaseDate: 2012-10-01
     releaseDate: 2012-10-01
     link: null
 
 -   releaseCycle: "2.0"
     eol: 2020-01-14
     latest: "2.0"
-    latestReleaseDate: 2009-07-01
     releaseDate: 2009-07-01
     link: null
 
 -   releaseCycle: "1.0"
     eol: 2020-01-14
     latest: "1.0"
-    latestReleaseDate: 2006-11-14
     releaseDate: 2006-11-14
     link: null
 
