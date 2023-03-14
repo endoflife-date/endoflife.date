@@ -21,7 +21,7 @@ layout: default
     <tr>
       <th>Release</th>{% assign colCount = 1 %}
       {% if page.releaseDateColumn %}<th>{{ page.releaseDateColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
-      {% if page.discontinuedColumn %}<th>{{ page.releaseDateColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
+      {% if page.discontinuedColumn %}<th>{{ page.discontinuedColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.activeSupportColumn %}<th>{{ page.activeSupportColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.extendedSupportColumn %}<th>{{ page.extendedSupportColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
