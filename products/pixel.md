@@ -8,7 +8,7 @@ releasePolicyLink: https://support.google.com/nexus/answer/4457705
 releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: true
-discontinuedColumn: true
+discontinuedColumn: Discontinued
 eolColumn: Guaranteed Security Updates
 
 releases:
