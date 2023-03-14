@@ -18,13 +18,13 @@ auto:
 releases:
 -   releaseCycle: "7.0"
     eol: false
-    latest: "7.0.4.2"
-    latestReleaseDate: 2023-01-24
+    latest: "7.0.4.3"
+    latestReleaseDate: 2023-03-13
     releaseDate: 2021-12-15
 -   releaseCycle: "6.1"
     eol: false
-    latest: "6.1.7.2"
-    latestReleaseDate: 2023-01-24
+    latest: "6.1.7.3"
+    latestReleaseDate: 2023-03-13
     releaseDate: 2020-12-09
 -   releaseCycle: "6.0"
     eol: 2023-06-01
