@@ -1,6 +1,6 @@
 ---
-category: lang
 title: Microsoft PowerShell
+category: lang
 iconSlug: powershell
 permalink: /powershell
 alternate_urls:
@@ -60,8 +60,55 @@ releases:
     latestReleaseDate: 2018-11-13
     releaseDate: 2018-01-10
 
+-   releaseCycle: "5.1"
+    eol: 2027-01-12
+    latest: "5.1"
+    releaseDate: 2016-08-02
+    link: null
+
+-   releaseCycle: "5.0"
+    eol: 2016-08-02
+    latest: "5.0"
+    releaseDate: 2016-02-24
+    link: null
+
+-   releaseCycle: "4.0"
+    eol: 2023-10-10
+    latest: "4.0"
+    releaseDate: 2013-10-01
+    link: null
+
+-   releaseCycle: "3.0"
+    eol: 2023-10-10
+    latest: "3.0"
+    releaseDate: 2012-10-01
+    link: null
+
+-   releaseCycle: "2.0"
+    eol: 2020-01-14
+    latest: "2.0"
+    releaseDate: 2009-07-01
+    link: null
+
+-   releaseCycle: "1.0"
+    eol: 2020-01-14
+    latest: "1.0"
+    releaseDate: 2006-11-14
+    link: null
+
 ---
 
 > [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 PowerShell follows the [Modern Lifecycle Policy](https://learn.microsoft.com/powershell/scripting/install/PowerShell-Support-Lifecycle).
+
+Windows PowerShell (1.0 - 5.1) is a component of the Windows operating system. Components receive the same support as their parent product or platform:
+
+| Version   | Note                                                                       |
+|-----------|----------------------------------------------------------------------------|
+| 5.1       | Released in Windows 10 Anniversary Update and Windows Server 2016, WMF 5.1 |
+| 5.0       | Released in Windows Management Framework (WMF) 5.0                         |
+| 4.0       | Integrated in Windows 8.1 and with Windows Server 2012 R2, WMF 4.0         |
+| 3.0       | Integrated in Windows 8 and with Windows Server 2012 WMF 3.0               |
+| 2.0       | Integrated in Windows 7 and Windows Server 2008 R2, WMF 2.0                |
+| 1.0       | Optional component of Windows Server 2008                                  |
