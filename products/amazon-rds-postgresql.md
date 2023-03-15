@@ -42,7 +42,7 @@ releases:
 
 -   releaseCycle: "10"
     releaseDate: 2018-02-27
-    eol: 2023-04-01
+    eol: 2023-04-17
     latest: "10.23"
     latestReleaseDate: 2023-01-24
 
