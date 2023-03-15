@@ -72,7 +72,7 @@ releases:
     eol: 2023-06-30
     latest: "2016.03"
     releaseDate: 2016-03-22
-    link: https://twitter.com/jeffbarr/status/712393595962007552
+    link: https://aws.amazon.com/amazon-linux-ami/2016.03-release-notes/
 
 -   releaseCycle: '2015.09'
     releaseLabel: 'AMI 2015.09'
