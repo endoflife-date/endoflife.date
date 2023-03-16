@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: '2'
     eol: 2025-06-30
-    support: true
+    support: 2023-06-30
     latest: "2.0.20230307.0"
     latestReleaseDate: 2023-03-10
     releaseDate: 2018-06-26
