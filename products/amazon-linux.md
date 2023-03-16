@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: '2'
     eol: 2025-06-30
-    support: 2023-06-30
+    support: false
     latest: "2.0.20230307.0"
     latestReleaseDate: 2023-03-10
     releaseDate: 2018-06-26
@@ -179,8 +179,8 @@ supported. The [Amazon Linux AMI FAQ](https://aws.amazon.com/amazon-linux-ami/fa
 details.
 
 [Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until
-June 30, 2023_. User-space Application Binary Interface (ABI) compatibility is guaranteed for
-[specific packages][al2-faq].
+June 30, 2025_. User-space Application Binary Interface (ABI) compatibility is guaranteed for
+[specific packages][al2-faq]. It only seems to receive critical bug fixes and security patches.
 
 ## Amazon Linux 2023
 
