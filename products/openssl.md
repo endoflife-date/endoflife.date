@@ -15,7 +15,14 @@ auto:
 -   git: https://github.com/openssl/openssl.git
     regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?<major>\d+)[\.|_](?<minor>\d+)[\.|_](?<patch>\d+\w{0,2})?$'
 
+# EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2023-03-14
+    eol: 2025-03-14
+    latest: "3.1.0"
+    latestReleaseDate: 2023-03-14
+
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
