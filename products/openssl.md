@@ -5,8 +5,7 @@ iconSlug: openssl
 permalink: /openssl
 versionCommand: openssl version
 releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
-changelogTemplate: |
-  https://www.openssl.org/news/changelog.html#openssl-{{"__RELEASE_CYCLE__" | replace:'.',''}}
+changelogTemplate: "https://www.openssl.org/news/cl{{'__RELEASE_CYCLE__'|replace:'.',''}}.txt"
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
@@ -42,6 +41,7 @@ releases:
     eol: 2019-09-11
     latest: "1.1.0l"
     latestReleaseDate: 2019-09-10
+    link: https://www.openssl.org/news/changelog.txt
 
 -   releaseCycle: "1.0.2"
     lts: true
@@ -49,6 +49,7 @@ releases:
     eol: 2019-12-31
     latest: "1.0.2u"
     latestReleaseDate: 2019-12-20
+    link: https://www.openssl.org/news/changelog.txt
 
 ---
 
