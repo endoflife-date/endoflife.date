@@ -31,7 +31,7 @@ releases:
     latest: "2023.0.20230315.0"
     latestReleaseDate: 2023-03-15
     releaseDate: 2023-03-15
-    link: 
+    link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
     eol: 2025-06-30
@@ -199,6 +199,9 @@ package manager receive support for the lifetime of the major AL2023 release.
 Packages that aren't part of the core packages are supported based
 on their specific upstream sources. Support status and dates of individual packages
 can be checked via the `dnf supportinfo` command.
+
+A [comparision with Amazon Linux 2](https://docs.aws.amazon.com/linux/al2023/ug/compare-with-al2.html)
+is available as well.
 
 See the [frequently asked questions][al2023-faq] for more details.
 
