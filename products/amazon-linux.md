@@ -37,6 +37,7 @@ releases:
     eol: 2023-06-30
     latest: "2018.03.0.20230306.1"
     releaseDate: 2018-04-25
+    link: https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 
     latestReleaseDate: 2023-03-10
 -   releaseCycle: '2017.09'
