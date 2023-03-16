@@ -12,8 +12,14 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/mattermost/mattermost-server.git
 
-# Last 3 releases are supported.
+# EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
+-   releaseCycle: "7.9"
+    releaseDate: 2023-03-14
+    eol: 2023-06-15
+    latest: '7.9.0'
+    latestReleaseDate: 2023-03-14
+
 -   releaseCycle: "7.8"
     lts: true
     releaseDate: 2023-02-14
