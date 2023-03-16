@@ -15,7 +15,14 @@ auto:
 -   git: https://github.com/varnishcache/varnish-cache.git
     regex: ^varnish-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 
+# EOL dates can be found on https://varnish-cache.org/releases/
 releases:
+-   releaseCycle: "7.3"
+    releaseDate: 2023-03-15
+    eol: 2024-03-15
+    latest: '7.3.0'
+    latestReleaseDate: 2023-03-15
+
 -   releaseCycle: "7.2"
     releaseDate: 2022-09-15
     eol: 2023-09-15
