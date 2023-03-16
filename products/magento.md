@@ -12,7 +12,15 @@ activeSupportColumn: true
 auto:
 -   git: https://github.com/magento/magento2.git
 
+# EOL dates on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
 releases:
+-   releaseCycle: "2.4.6"
+    releaseDate: 2023-02-28
+    support: true
+    eol: false
+    latest: "2.4.6"
+    latestReleaseDate: 2023-02-28
+
 -   releaseCycle: "2.4.5"
     releaseDate: 2022-08-01
     support: 2024-11-25
