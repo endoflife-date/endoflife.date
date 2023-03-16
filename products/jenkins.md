@@ -15,9 +15,10 @@ auto:
 
 # releaseCycle 2 catches weekly releases, other are LTS.
 # For an LTS :
-# - Its support date is its release date, meaning there will never be backport of features.
+# - Its end of support date is the 'x.y.1' release date. Most of the new features backported in LTS
+#   releases are included in the first patch versions.
 # - Its EOL date is the releaseDate of the next LTS version, meaning the release date of the first
-#   patch version of the minor version choosed to be the next LTS (e.g. 2.361.1).
+#   patch version of the minor version chosen to be the next LTS (e.g. 2.361.1).
 releases:
 -   releaseCycle: "2"
     releaseLabel: "Regular"
@@ -27,12 +28,20 @@ releases:
     latestReleaseDate: 2023-03-14
     releaseDate: 2016-04-20
 
+-   releaseCycle: "2.387"
+    lts: true
+    support: 2023-03-08
+    eol: false
+    latest: "2.387.1"
+    latestReleaseDate: 2023-03-08
+    releaseDate: 2023-03-08
+
 -   releaseCycle: "2.375"
     lts: true
     support: 2022-10-25
-    eol: false
+    eol: 2023-03-08
     latest: "2.375.4"
-    latestReleaseDate: 2023-03-06
+    latestReleaseDate: 2023-03-08
     releaseDate: 2022-10-25
 
 -   releaseCycle: "2.361"
