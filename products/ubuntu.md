@@ -117,8 +117,8 @@ releases:
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
-    support: 2023-04-02
-    eol: 2023-04-02
+    support: 2023-05-31
+    eol: 2023-05-31
     extendedSupport: 2028-04-01
     latest: "18.04.6"
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
