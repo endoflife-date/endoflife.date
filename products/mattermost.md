@@ -5,15 +5,24 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
+releaseImage: https://docs.mattermost.com/_images/esr.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
+LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 activeSupportColumn: false
+eolWarnThreshold: 30
 releaseDateColumn: true
 
 auto:
 -   git: https://github.com/mattermost/mattermost-server.git
 
-# Last 3 releases are supported.
+# EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
+-   releaseCycle: "7.9"
+    releaseDate: 2023-03-14
+    eol: 2023-06-15
+    latest: '7.9.0'
+    latestReleaseDate: 2023-03-14
+
 -   releaseCycle: "7.8"
     lts: true
     releaseDate: 2023-02-14
@@ -120,4 +129,9 @@ releases:
 > companies.
 
 Mattermost backports high-severity or high-impact security fixes to the previous three monthly
-releases and to LTS releases that are not EOL yet.
+releases and to supported [ESR releases](https://docs.mattermost.com/upgrade/extended-support-release.html).
+A new ESR release is made when a significant number of new features and improvements
+have been added to the product, and have had sufficient time to stabilize. A new ESR
+is released twice a year in January and July. ESR releases are supported for nine months.
+
+Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).
