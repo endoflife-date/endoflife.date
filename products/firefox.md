@@ -13,11 +13,11 @@ auto:
 -   custom: true
 
 releases:
--   releaseCycle: "110"
-    releaseDate: 2023-02-14
+-   releaseCycle: "111"
+    releaseDate: 2023-03-14
     eol: false
-    latest: "110.0.1"
-    latestReleaseDate: 2023-02-28
+    latest: "111.0"
+    latestReleaseDate: 2023-03-14
 
 -   releaseCycle: "102"
     lts: true
