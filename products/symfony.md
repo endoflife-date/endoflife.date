@@ -5,7 +5,7 @@ iconSlug: symfony
 permalink: /symfony
 releasePolicyLink: https://symfony.com/releases
 activeSupportColumn: true
-versionCommand: composer show symfony/symfony | grep versions
+versionCommand: composer show | grep "symfony/"
 changelogTemplate: |
   https://symfony.com/blog/symfony-{{"__LATEST__" | replace:'.','-'}}-released
 releaseDateColumn: true
