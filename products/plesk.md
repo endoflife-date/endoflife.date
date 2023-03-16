@@ -13,7 +13,14 @@ releaseDateColumn: true
 auto:
 -   custom: true
 
+# eol(x) = releaseDate(x) + 12 weeks
 releases:
+-   releaseCycle: "18.0.51"
+    releaseDate: 2023-03-14
+    eol: 2023-06-06
+    latest: "18.0.51"
+    latestReleaseDate: 2023-03-14
+
 -   releaseCycle: "18.0.50"
     releaseDate: 2023-01-31
     eol: 2023-04-23
