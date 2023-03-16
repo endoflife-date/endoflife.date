@@ -6,8 +6,8 @@ permalink: /amazon-linux
 versionCommand: cat /etc/system-release
 releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
 changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__'|replace:'-',''}}.html"
-activeSupportColumn: false
-eolColumn: Support
+activeSupportColumn: Standard Support
+eolColumn: Security Support
 releaseDateColumn: true
 
 identifiers:
@@ -24,8 +24,18 @@ auto:
     template: "{{version}}"
 
 releases:
+
+-   releaseCycle: '2013'
+    eol: 2028-03-15
+    support: 2025-03-15
+    latest: "2023.0.20230315.0"
+    latestReleaseDate: 2023-03-15
+    releaseDate: 2023-03-15
+    link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
+
 -   releaseCycle: '2'
     eol: 2025-06-30
+    support: 2025-06-30
     latest: "2.0.20230307.0"
     latestReleaseDate: 2023-03-10
     releaseDate: 2018-06-26
@@ -170,16 +180,29 @@ supported. The [Amazon Linux AMI FAQ](https://aws.amazon.com/amazon-linux-ami/fa
 details.
 
 [Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until
-June 30, 2023_. User-space Application Binary Interface (ABI) compatibility is guaranteed for
-[specific packages][al2-faq].
+June 30, 2025_. User-space Application Binary Interface (ABI) compatibility is guaranteed for
+[specific packages][al2-faq]. It only seems to receive critical bug fixes and security patches.
 
 ## Amazon Linux 2023
 
 AWS announced [Amazon Linux 2023][al2023] [^1] as a successor to
-Amazon Linux 2, which uses Fedora as the upstream and is currently in preview. Starting with AL2023,
-a new major version of Amazon Linux releases every two years, includes minor quarterly releases, and
-comes with five years of long-term support. Every major version release will be supported under
-active development for 2 years, followed by a maintenance phase of 3 years.
+Amazon Linux 2, which uses Fedora as the upstream. It reached
+GA (General Availability) in March 2023.
+
+Every major version release is supported by Standard Support for 2 years, 
+followed by a maintenance phase of 3 years. Quarterly minor releases will be made
+during the Standard Support phase and include security updates, 
+bug fixes, and new features and packages. Minor releases do not
+break backward-compatibility.
+
+Core packages such as the glibc library, OpenSSL, OpenSSH, and the DNF
+package manager receive support for the lifetime of the major AL2023 release.
+Packages that aren't part of the core packages are supported based
+on their specific upstream sources. Support status and dates of individual packages
+can be checked via the `dnf supportinfo` command.
+
+A [comparision with Amazon Linux 2](https://docs.aws.amazon.com/linux/al2023/ug/compare-with-al2.html)
+is available as well.
 
 See the [frequently asked questions][al2023-faq] for more details.
 
