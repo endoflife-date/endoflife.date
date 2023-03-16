@@ -5,6 +5,7 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
+releaseImage: https://docs.mattermost.com/_images/esr.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 activeSupportColumn: false
