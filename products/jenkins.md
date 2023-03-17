@@ -13,52 +13,49 @@ auto:
 -   git: https://github.com/jenkinsci/jenkins.git
     regex: '^jenkins-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
 
-# releaseCycle 2 catches weekly releases, other are LTS.
-# For an LTS :
-# - Its end of support date is the 'x.y.1' release date. Most of the new features backported in LTS
-#   releases are included in the first patch versions.
-# - Its EOL date is the releaseDate of the next LTS version, meaning the release date of the first
-#   patch version of the minor version chosen to be the next LTS (e.g. 2.361.1).
+# releaseCycle 2 catches weekly releases, other releases are LTS.
+#
+# LTS releases start at patch version .1 ('x.y.1') and, when a new LTS is released, it replaces the
+# previous one. So, for an x.y LTS releases :
+# - releaseDate(x.y) = releaseDate(x.y.1)
+# - eol(x.y) = releaseDate(next LTS)
+#
+# See https://github.com/endoflife-date/endoflife.date/pull/2695#issuecomment-1472929098
 releases:
 -   releaseCycle: "2"
     releaseLabel: "Regular"
-    support: true
+    releaseDate: 2016-04-20
     eol: false
     latest: "2.395"
     latestReleaseDate: 2023-03-14
-    releaseDate: 2016-04-20
 
 -   releaseCycle: "2.387"
     lts: true
-    support: 2023-03-08
+    releaseDate: 2023-03-08
     eol: false
     latest: "2.387.1"
     latestReleaseDate: 2023-03-08
-    releaseDate: 2023-03-08
 
 -   releaseCycle: "2.375"
     lts: true
-    support: 2022-10-25
+    releaseDate: 2022-11-30
     eol: 2023-03-08
     latest: "2.375.4"
     latestReleaseDate: 2023-03-08
-    releaseDate: 2022-10-25
 
 -   releaseCycle: "2.361"
     lts: true
-    support: 2022-07-26
+    releaseDate: 2022-09-07
     eol: 2022-11-30
     latest: "2.361.4"
     latestReleaseDate: 2022-11-14
-    releaseDate: 2022-07-26
 
 -   releaseCycle: "2.346"
     lts: true
-    support: 2022-05-03
+    releaseDate: 2022-06-22
     eol: 2022-09-07
     latest: "2.346.3"
     latestReleaseDate: 2022-08-10
-    releaseDate: 2022-05-03
 
 ---
 
