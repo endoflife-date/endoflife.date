@@ -30,7 +30,7 @@ releases:
     support: 2025-03-15
     latest: "2023.0.20230315.0"
     latestReleaseDate: 2023-03-15
-    releaseDate: 2023-03-15
+    releaseDate: 2023-03-01
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
