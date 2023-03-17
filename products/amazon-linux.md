@@ -25,7 +25,7 @@ auto:
 
 releases:
 
--   releaseCycle: '2013'
+-   releaseCycle: '2023'
     eol: 2028-03-15
     support: 2025-03-15
     latest: "2023.0.20230315.0"
