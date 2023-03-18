@@ -70,71 +70,63 @@ layout: default
 
     {% if page.discontinuedColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.daysTowardDiscontinued < page.discontinuedWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.daysTowardDiscontinued < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.days_toward_discontinued < page.discontinuedWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.days_toward_discontinued < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
-    {% if r.discontinued == true %}
-      Discontinued
-    {% elsif r.discontinued == false %}
-      In Production
+    {% if r.discontinued_from %}
+      {{ r.discontinued_from | timeago }} <div>({{ r.discontinued_from | date_to_string }})</div>
     {% else %}
-      {{ r.discontinued | timeago }} <div>({{ r.discontinued | date_to_string }})</div>
+      {% if r.is_discontinued %}Discontinued{% else %}In Production{% endif %}
     {% endif %}
     </td>
     {% endif %}
 
     {% if page.activeSupportColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.daysTowardSupport < page.activeSupportWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.daysTowardSupport < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.days_toward_support < page.activeSupportWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.days_toward_support < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
-    {% if r.support == true %}
-      Yes
-    {% elsif r.support == false %}
-      No
+    {% if r.active_support_until %}
+      {% if r.is_active_support_over %}Ended{% else %}Ends{% endif %}
+      {{ r.active_support_until | timeago }} <div>({{ r.active_support_until | date_to_string }})</div>
     {% else %}
-      {% if r.daysTowardSupport < 0 %}Ended{% else %}Ends{% endif %}
-      {{ r.support | timeago }} <div>({{ r.support | date_to_string }})</div>
+      {% if r.is_active_support_over %}No{% else %}Yes{% endif %}
     {% endif %}
     </td>
     {% endif %}
 
     {% if page.eolColumn != false %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.daysTowardEol < page.eolWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.daysTowardEol < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.days_toward_eol < page.eolWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.days_toward_eol < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     <td class="{{ colorClass }}">
-      {% if r.eol == true %}
-        No
-      {% elsif r.eol == false %}
-        Yes
+      {% if r.eol_from %}
+        {% if r.is_eol %}Ended{% else %}Ends{% endif %}
+        {{ r.eol_from | timeago }} <div>({{ r.eol_from | date_to_string }})</div>
       {% else %}
-        {% if r.daysTowardEol < 0 %}Ended{% else %}Ends{% endif %}
-        {{ r.eol | timeago }} <div>({{ r.eol | date_to_string }})</div>
+        {% if r.is_eol %}No{% else %}Yes{% endif %}
       {% endif %}
     </td>
     {% endif %}
 
     {% if page.extendedSupportColumn %}
     {%- assign colorClass = 'bg-green-000' %}
-    {%- if r.daysTowardExtendedSupport < page.extendedSupportWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
-    {%- if r.daysTowardExtendedSupport < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
+    {%- if r.days_toward_extendedSupport < page.extendedSupportWarnThreshold %}{% assign colorClass = 'bg-yellow-200' %}{% endif %}
+    {%- if r.days_toward_extendedSupport < 0 %}{% assign colorClass = 'bg-red-000' %}{% endif %}
     {%- if r.extendedSupport == false %}{% assign colorClass = 'bg-grey-lt-100' %}{% endif %}
     <td class="{{ colorClass }}">
-      {% if r.extendedSupport == true %}
-        Yes
-      {% elsif r.extendedSupport == false %}
-        Unavailable
+      {% if r.extended_support_until %}
+        {% if r.is_extended_support_over %}Ended{% else %}Ends{% endif %}
+        {{ r.extended_support_until | timeago }} <div>({{ r.extended_support_until | date_to_string }})</div>
       {% else %}
-        {% if r.daysTowardExtendedSupport < 0 %}Ended{% else %}Ends{% endif %}
-        {{ r.extendedSupport | timeago }} <div>({{ r.extendedSupport | date_to_string }})</div>
+        {% if r.is_extended_support_over %}Unavailable{% else %}Yes{% endif %}
       {% endif %}
     </td>
     {% endif %}
 
     {% if page.releaseColumn != false %}
     {%- assign releaseColumnClass = '' %}
-    {%- if r.daysTowardEol < 0 %}{% assign releaseColumnClass = 'txt-linethrough' %}{% endif %}
+    {%- if r.days_toward_eol < 0 %}{% assign releaseColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ releaseColumnClass }}">
       {% if r.link %}
         <a href="{{ r.link }}" title="Release Notes / Changelog">{{ r.latest }}</a>
