@@ -17,7 +17,8 @@ auto:
 #
 # LTS releases start at patch version .1 ('x.y.1') and, when a new LTS is released, it replaces the
 # previous one. So, for an x.y LTS releases :
-# - releaseDate(x.y) = releaseDate(x.y.1)
+# - lts(x.y) = releaseDate(x.y.1)
+# - releaseDate(x.y) = releaseDate(x.y.0)
 # - eol(x.y) = releaseDate(next LTS)
 #
 # See https://github.com/endoflife-date/endoflife.date/pull/2695#issuecomment-1472929098
@@ -30,29 +31,29 @@ releases:
     latestReleaseDate: 2023-03-14
 
 -   releaseCycle: "2.387"
-    lts: true
-    releaseDate: 2023-03-08
+    lts: 2023-03-08
+    releaseDate: 2023-01-17
     eol: false
     latest: "2.387.1"
     latestReleaseDate: 2023-03-08
 
 -   releaseCycle: "2.375"
-    lts: true
-    releaseDate: 2022-11-30
+    lts: 2022-11-30
+    releaseDate: 2022-10-25
     eol: 2023-03-08
     latest: "2.375.4"
     latestReleaseDate: 2023-03-08
 
 -   releaseCycle: "2.361"
-    lts: true
-    releaseDate: 2022-09-07
+    lts: 2022-09-07
+    releaseDate: 2022-07-26
     eol: 2022-11-30
     latest: "2.361.4"
     latestReleaseDate: 2022-11-14
 
 -   releaseCycle: "2.346"
-    lts: true
-    releaseDate: 2022-06-22
+    lts: 2022-06-22
+    releaseDate: 2022-05-03
     eol: 2022-09-07
     latest: "2.346.3"
     latestReleaseDate: 2022-08-10
