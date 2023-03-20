@@ -10,6 +10,7 @@ alternate_urls:
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 changelogTemplate: https://docs.paloaltonetworks.com/cortex/cortex-xdr/{{"__RELEASE_CYCLE__"
   | remove:'-' | replace:'.','-'}}/cortex-xdr-agent-release-notes/cortex-xdr-agent-release-information
+LTSLabel: CE
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
@@ -23,12 +24,20 @@ releases:
     latest: '8.0'
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/8.0/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-8.0-Release-Information
 
+-   releaseCycle: "7.9-ce"
+    lts: true 
+    eol: 2025-03-19
+    releaseDate: 2023-03-19
+    latestReleaseDate: 2023-03-19
+    latest: '7.9-ce'
+    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
+
 -   releaseCycle: "7.9"
     eol: 2023-09-11
     releaseDate: 2022-12-04
     latestReleaseDate: 2023-03-19
     latest: '7.9-ce'
-    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
+    link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-Release-Information
 
 -   releaseCycle: "7.8"
     eol: 2023-04-24
@@ -42,23 +51,24 @@ releases:
     latestReleaseDate: 2022-03-27
     latest: '7.7'
 
--   releaseCycle: "7.5-ce"
-    eol: 2024-03-06
-    releaseDate: 2022-03-06
-    latestReleaseDate: 2022-03-06
-    latest: '7.5-ce'
-
 -   releaseCycle: "7.6"
     eol: 2022-09-05
     releaseDate: 2021-12-05
     latestReleaseDate: 2021-12-05
     latest: '7.6'
 
+-   releaseCycle: "7.5-ce"
+    lts: true 
+    eol: 2024-03-06
+    releaseDate: 2022-03-06
+    latestReleaseDate: 2022-03-06
+    latest: '7.5-ce'
+
 -   releaseCycle: "7.5"
     eol: 2022-08-22
     releaseDate: 2021-08-22
-    latestReleaseDate: 2022-03-06
-    latest: '7.5-ce'
+    latestReleaseDate: 2021-08-22
+    latest: '7.5'
 
 -   releaseCycle: "7.4"
     eol: 2022-05-24
@@ -154,3 +164,7 @@ releases:
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr) protects endpoints by preventing known and unknown malware from running on those endpoints and by halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed on a variety of operating systems including Windows, macOS, Android, and Linux.
 Software updates are provided as part of a valid support agreement.
+
+## Critical Environment (CE)
+The critical environment (CE) line, released every 12-18 months is supported for 24 months. This CE line is based on an existing agent line, already available, and becomes a critical environment line only after its stability has been verified. The line receives content updates and minor version releases relating to high and critical-severity bug fixes alongside security fixes within the existing capabilities for its entire support cycle.
+The CE line is recommended for customers running in regulated environments, looking for less frequent upgrades and stability-focused versions.
