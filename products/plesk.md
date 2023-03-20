@@ -11,6 +11,11 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "18.0.51"
+    releaseDate: 2023-03-14
+    eol: 2023-06-04
+    latest: "18.0.51.0"
+    latestReleaseDate: 2023-03-14
 -   releaseCycle: "18.0.50"
     releaseDate: 2023-01-31
     eol: 2023-04-23
