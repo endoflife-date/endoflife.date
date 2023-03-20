@@ -21,19 +21,19 @@ releases:
     releaseDate: 2022-12-08
     support: 2023-12-28
     eol: 2024-02-28
-    latest: "1.26.2"
-    latestReleaseDate: 2023-02-22
+    latest: "1.26.3"
+    latestReleaseDate: 2023-03-15
 -   releaseCycle: "1.25"
-    latest: "1.25.7"
+    latest: "1.25.8"
     support: 2023-08-27
     eol: 2023-10-27
-    latestReleaseDate: 2023-02-22
+    latestReleaseDate: 2023-03-15
     releaseDate: 2022-08-23
 -   releaseCycle: "1.24"
-    latest: "1.24.11"
+    latest: "1.24.12"
     support: 2023-05-28
     eol: 2023-07-28
-    latestReleaseDate: 2023-02-22
+    latestReleaseDate: 2023-03-15
     releaseDate: 2022-05-03
 -   releaseCycle: "1.23"
     latest: "1.23.17"

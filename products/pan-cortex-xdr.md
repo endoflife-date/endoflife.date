@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "7.9"
     eol: 2023-09-11
     releaseDate: 2022-12-04
-    latestReleaseDate: 2022-12-04
-    latest: '7.9'
+    latestReleaseDate: 2023-03-19
+    latest: '7.9-ce'
 -   releaseCycle: "7.8"
     eol: 2023-04-24
     releaseDate: 2022-07-24

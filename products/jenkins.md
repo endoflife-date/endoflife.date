@@ -35,14 +35,14 @@ releases:
     releaseDate: 2023-01-17
     eol: false
     latest: "2.387.1"
-    latestReleaseDate: 2023-03-08
+    latestReleaseDate: 2023-03-06
 
 -   releaseCycle: "2.375"
     lts: 2022-11-30
     releaseDate: 2022-10-25
     eol: 2023-03-08
     latest: "2.375.4"
-    latestReleaseDate: 2023-03-08
+    latestReleaseDate: 2023-03-06
 
 -   releaseCycle: "2.361"
     lts: 2022-09-07
