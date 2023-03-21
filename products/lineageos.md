@@ -2,6 +2,10 @@
 title: LineageOS
 category: os
 releases:
+-   releaseCycle: "20"
+    eol: false
+    link: https://lineageos.org/Changelog-27/
+    releaseDate: 2022-12-31
 -   releaseCycle: "19"
     eol: false
     link: https://lineageos.org/Changelog-26/
