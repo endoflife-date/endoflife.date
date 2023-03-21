@@ -34,7 +34,7 @@ auto:
 
 releases:
 -   releaseCycle: "6.1"
-    codename: "rapid"
+    releaseLabel: "6.1 (Rapid Release)"
     releaseDate: 2022-10-04
     eol: false
     latest: '6.1.1'
@@ -47,21 +47,21 @@ releases:
     latestReleaseDate: 2023-03-08
 
 -   releaseCycle: "5.3"
-    codename: "rapid"
+    releaseLabel: "5.3 (Rapid Release)"
     releaseDate: 2022-03-22
     eol: 2022-07-01
     latest: "5.3.2"
     latestReleaseDate: 2022-06-15
 
 -   releaseCycle: "5.2"
-    codename: "rapid"
+    releaseLabel: "5.2 (Rapid Release)"
     releaseDate: 2022-01-13
     eol: 2022-04-01
     latest: '5.2.1'
     latestReleaseDate: 2022-02-17
 
 -   releaseCycle: "5.1"
-    codename: "rapid"
+    releaseLabel: "5.1 (Rapid Release)"
     releaseDate: 2021-11-04
     eol: 2022-01-01
     latest: '5.1.1'
