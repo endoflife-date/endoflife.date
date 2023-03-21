@@ -32,11 +32,21 @@ auto:
 -   git: https://github.com/mongodb/mongo.git
     regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 
+# Dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because we are using
+# git tag dates.
 releases:
+-   releaseCycle: "6.2"
+    releaseLabel: "6.2 (Rapid Release)"
+    releaseDate: 2023-01-19
+    eol: false
+    latest: '6.2.1'
+    latestReleaseDate: 2023-02-28
+
 -   releaseCycle: "6.1"
     releaseLabel: "6.1 (Rapid Release)"
     releaseDate: 2022-10-04
-    eol: false
+    # 6.2.1 tag date, better than using
+    eol: 2023-02-28
     latest: '6.1.1'
     latestReleaseDate: 2023-01-03
 
