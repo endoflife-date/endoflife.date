@@ -25,7 +25,7 @@ releases:
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/8.0/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-8.0-Release-Information
 
 -   releaseCycle: "7.9-ce"
-    lts: true 
+    lts: true
     eol: 2025-03-19
     releaseDate: 2023-03-19
     latestReleaseDate: 2023-03-19
@@ -58,7 +58,7 @@ releases:
     latest: '7.6'
 
 -   releaseCycle: "7.5-ce"
-    lts: true 
+    lts: true
     eol: 2024-03-06
     releaseDate: 2022-03-06
     latestReleaseDate: 2022-03-06
@@ -67,8 +67,8 @@ releases:
 -   releaseCycle: "7.5"
     eol: 2022-08-22
     releaseDate: 2021-08-22
-    latestReleaseDate: 2021-08-22
-    latest: '7.5'
+    latestReleaseDate: 2022-03-06
+    latest: '7.5-ce'
 
 -   releaseCycle: "7.4"
     eol: 2022-05-24

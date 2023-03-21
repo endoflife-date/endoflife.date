@@ -40,8 +40,8 @@ releases:
     supportedJavaVersions: "8, 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview
     eol: 2021-12-31
     extendedSupport: 2023-12-31
-    latest: "5.2.22"
-    latestReleaseDate: 2022-05-11
+    latest: "5.2.23"
+    latestReleaseDate: 2023-03-20
     releaseDate: 2019-09-30
 
 -   releaseCycle: "5.1"
