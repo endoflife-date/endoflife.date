@@ -24,14 +24,14 @@ releases:
     eol: 2024-09-01
     lts: true
     releaseDate: 2022-09-15
-    latestReleaseDate: 2023-03-13
-    latest: cos-101-17162-127-33
+    latestReleaseDate: 2023-03-20
+    latest: cos-101-17162-127-42
 -   releaseCycle: "cos-97"
     eol: 2024-03-01
     lts: true
     releaseDate: 2022-03-29
-    latestReleaseDate: 2023-03-13
-    latest: cos-97-16919-235-31
+    latestReleaseDate: 2023-03-20
+    latest: cos-97-16919-235-36
 -   releaseCycle: "cos-93"
     eol: 2023-10-01
     lts: true
@@ -43,8 +43,8 @@ releases:
     lts: true
   # Deprecated Milestones
     releaseDate: 2021-04-07
-    latestReleaseDate: 2023-03-06
-    latest: cos-89-16108-798-17
+    latestReleaseDate: 2023-03-20
+    latest: cos-89-16108-798-18
 -   releaseCycle: "cos-85"
     eol: 2022-09-01
     lts: true

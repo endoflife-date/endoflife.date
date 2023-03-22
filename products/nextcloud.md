@@ -17,6 +17,7 @@ releases:
     releaseDate: 2023-03-21
     eol: 2024-03-01
     latest: "26.0.0"
+    latestReleaseDate: 2023-03-21
 -   releaseCycle: "25"
     releaseDate: 2022-10-18
     eol: 2023-10-01
