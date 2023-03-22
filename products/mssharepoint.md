@@ -17,7 +17,7 @@ releases:
     eol: false
     latest: "16.0.16130.20206"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002353
+    link: https://support.microsoft.com/help/5002355
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
@@ -25,7 +25,7 @@ releases:
     eol: 2026-07-14
     latest: "16.0.10396.20000"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002342
+    link: https://support.microsoft.com/help/5002358
 
 -   releaseCycle: "2016"
     releaseDate: 2016-05-01
@@ -33,7 +33,7 @@ releases:
     eol: 2026-07-14
     latest: "16.0.5387.1000"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002350
+    link: https://support.microsoft.com/help/5002368
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
@@ -42,7 +42,7 @@ releases:
     eol: 2023-04-11
     latest: "15.0.5537.1000"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002344
+    link: https://support.microsoft.com/help/5002168
 
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
