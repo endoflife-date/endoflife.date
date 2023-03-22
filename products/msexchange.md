@@ -7,8 +7,8 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchang
 activeSupportColumn: true
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releaseDateColumn: true
-releases:
 
+releases:
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU12 Mar23SU"
     releaseDate: 2018-10-22
@@ -16,8 +16,8 @@ releases:
     eol: 2025-10-14
     latest: "15.2.1118.26"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5023038
-    
+    link: https://support.microsoft.com/help/5024296
+
 -   releaseCycle: "2016"
     releaseLabel: "2016 CU23 Mar23SU"
     releaseDate: 2015-10-01
@@ -25,7 +25,7 @@ releases:
     eol: 2025-10-14
     latest: "15.1.2507.23"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5023038
+    link: https://support.microsoft.com/help/5024296
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 CU23 Mar23SU"
@@ -34,7 +34,7 @@ releases:
     eol: 2023-04-11
     latest: "15.0.1497.48"
     latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5023038
+    link: https://support.microsoft.com/help/5024296
 
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP3 UR32"
@@ -94,7 +94,8 @@ releases:
 
 ---
 
-> [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail server and calendaring server developed by Microsoft.
+> [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail
+> server and calendaring server developed by Microsoft.
 
 [Exchange Server build numbers and release dates](https://learn.microsoft.com/exchange/new-features/build-numbers-and-release-dates)
 
@@ -102,4 +103,5 @@ CU: Cumulative Update
 SU: Security Update
 UR: Update Rollup
 
-The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and SU updates will be available.
+The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and
+SU updates will be available.
