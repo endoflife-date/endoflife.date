@@ -1412,7 +1412,7 @@ releases:
     eol: 2020-04-01 # https://doc.samsungmobile.com/SM-T580/ATO/doc.html
     releaseDate: 2016-05-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy Xcover 3 G389F"
+-   releaseCycle: "Galaxy Xcover3 G389F"
     support: false
     eol: 2018-06-01 # https://doc.samsungmobile.com/SM-G389F/ATO/doc.html
     releaseDate: 2016-04-01 # Approximate to the month and year.
@@ -1439,12 +1439,12 @@ releases:
 
 -   releaseCycle: "Galaxy Tab A 7.0 (2016)"
     support: false
-    eol: true # TODO
+    eol: 2016-12-30 # https://doc.samsungmobile.com/SM-T280/KOO/doc.html
     releaseDate: 2016-03-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy S7 edge"
     support: false
-    eol: 2019-03-01 # https://doc.samsungmobile.com/SM-G935U/VZW/doc.html
+    eol: 2019-03-01 # https://doc.samsungmobile.com/SM-G935F/AFR/doc.html
     releaseDate: 2016-03-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy S7"
@@ -1452,14 +1452,9 @@ releases:
     eol: 2019-06-01 # https://doc.samsungmobile.com/SM-G930F/CHL/doc.html
     releaseDate: 2016-03-11
 
--   releaseCycle: "Galaxy S7 edge"
-    support: false
-    eol: 2019-06-01 # https://doc.samsungmobile.com/SM-G935F/CHL/doc.html
-    releaseDate: 2016-03-11
-
 -   releaseCycle: "Galaxy J3 (2016)"
     support: false
-    eol: true # TODO
+    eol: 2019-04-02 # https://doc.samsungmobile.com/SM-J320H/AFR/doc.html
     releaseDate: 2016-05-06
 
 -   releaseCycle: "Galaxy J1 Nxt"
@@ -1479,7 +1474,7 @@ releases:
 
 -   releaseCycle: "Galaxy Tab E 8.0"
     support: false
-    eol: 2021-11-17
+    eol: 2020-11-10 # https://doc.samsungmobile.com/SM-A710S/SKC/doc.html
     releaseDate: 2016-01-01
 
 -   releaseCycle: "Galaxy A7 (2016)"
@@ -1504,7 +1499,7 @@ releases:
 
 -   releaseCycle: "Galaxy On7"
     support: false
-    eol: true # TODO
+    eol: 2018-01-01 # https://doc.samsungmobile.com/SM-G600S/SKC/doc.html
     releaseDate: 2015-11-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy On5"
@@ -1524,17 +1519,17 @@ releases:
 
 -   releaseCycle: "Gear S2 classic"
     support: false
-    eol: true # TODO
+    eol: 2018-03-26 # https://doc.samsungmobile.com/SM-R720/CHC/doc.html
     releaseDate: 2015-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Gear S2"
     support: false
-    eol: true # TODO
+    eol: 2018-03-26 # https://doc.samsungmobile.com/SM-R720/CHC/doc.html
     releaseDate: 2015-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Gear S2 3G"
     support: false
-    eol: true # TODO
+    eol: 2018-03-26 # https://doc.samsungmobile.com/SM-R720/CHC/doc.html
     releaseDate: 2015-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy Tab S2 9.7"
@@ -1599,7 +1594,7 @@ releases:
 
 -   releaseCycle: "Galaxy J5"
     support: false
-    eol: true # TODO
+    eol: 2019-12-03 # https://doc.samsungmobile.com/SM-J500F/INS/doc.html
     releaseDate: 2015-07-28
 
 -   releaseCycle: "Galaxy J7"
@@ -1792,7 +1787,7 @@ releases:
     eol: true # TODO
     releaseDate: 2014-10-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy Note 4"
+-   releaseCycle: "Galaxy Note4"
     support: false
     eol: 2017-08-01 # https://doc.samsungmobile.com/SM-N910U/TNZ/doc.html
     releaseDate: 2014-10-01 # Approximate to the month and year.
@@ -1904,7 +1899,7 @@ releases:
 
 -   releaseCycle: "Galaxy S5 LTE-A G906S"
     support: false
-    eol: true # TODO
+    eol: 2017-01-04 # https://doc.samsungmobile.com/sm-g906s/skc/doc.html
     releaseDate: 2014-07-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy Tab S 8.4 LTE"
