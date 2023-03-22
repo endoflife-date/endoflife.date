@@ -9,8 +9,9 @@ activeSupportColumn: true
 eolColumn: Security Updates
 releaseColumn: false
 releaseDateColumn: true
-releases:
 
+# Models compatible with Android 12+ are considered fully supported.
+releases:
 -   releaseCycle: "Galaxy A14 5G"
     support: true
     eol: false # https://doc.samsungmobile.com/SM-A146B/INS/doc.html
@@ -18,7 +19,7 @@ releases:
 
 -   releaseCycle: "Galaxy F04"
     support: true
-    eol: false # TODO
+    eol: false # No associated page on https://doc.samsungmobile.com
     releaseDate: 2023-01-12
 
 -   releaseCycle: "Galaxy M04"
@@ -322,8 +323,8 @@ releases:
     releaseDate: 2021-06-01
 
 -   releaseCycle: "Galaxy Tab A7 Lite"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-T220/CHN/doc.html
     releaseDate: 2021-05-27
 
 -   releaseCycle: "Galaxy Tab S7 FE"
@@ -347,8 +348,8 @@ releases:
     releaseDate: 2021-04-23
 
 -   releaseCycle: "Galaxy F12"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-F127G/017298210201/wel.html
     releaseDate: 2021-04-12
 
 -   releaseCycle: "Galaxy F02s" #This loses active support with Android 12.
@@ -362,8 +363,8 @@ releases:
     releaseDate: 2021-03-26
 
 -   releaseCycle: "Galaxy A72"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-A725F/XEO/doc.html
     releaseDate: 2021-03-26
 
 -   releaseCycle: "Galaxy M12 (India)"
@@ -387,8 +388,8 @@ releases:
     releaseDate: 2021-03-03
 
 -   releaseCycle: "Galaxy A32"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/sm-a325f/ins/doc.html
     releaseDate: 2021-02-25
 
 -   releaseCycle: "Galaxy F62"
@@ -486,9 +487,9 @@ releases:
     eol: false # https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
     releaseDate: 2020-10-02
 
--   releaseCycle: "Galaxy Tab Active 3" # Confirm this.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy Tab Active3"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-T575/XEF/doc.html
     releaseDate: 2020-09-28
 
 -   releaseCycle: "Galaxy Z Fold 2"
@@ -538,7 +539,7 @@ releases:
 
 -   releaseCycle: "Galaxy A51 5G"
     support: true
-    eol: false
+    eol: false # https://doc.samsungmobile.com/SM-A516B/012784200623/nld.html
     releaseDate: 2020-08-07
 
 -   releaseCycle: "Galaxy M51" #This loses active support with Android 12.
@@ -557,13 +558,8 @@ releases:
     releaseDate: 2020-08-06
 
 -   releaseCycle: "Galaxy Tab S7+"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
-    releaseDate: 2020-08-05
-
--   releaseCycle: "Galaxy Tab S7 "
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-T970/XAR/doc.html
     releaseDate: 2020-08-05
 
 -   releaseCycle: "Galaxy M01 Core"
@@ -632,13 +628,13 @@ releases:
     releaseDate: 2020-04-27
 
 -   releaseCycle: "Galaxy J2 Core (2020)"
-    support: true
+    support: false # Android 8.1 Oreo (Go edition) is not supported anymore
     eol: false # https://doc.samsungmobile.com/SM-J260FU/SER/doc.html
     releaseDate: 2020-04-27
 
 -   releaseCycle: "Galaxy Xcover FieldPro"
     support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false # TODO
+    eol: false # https://doc.samsungmobile.com/SM-G889YB/DBT/doc.html
     releaseDate: 2020-04-06
 
 -   releaseCycle: "Galaxy Tab A 8.4 (2020)" # Yeah we need to specify the year here, multiple models from different years with the same name.
@@ -752,13 +748,13 @@ releases:
     releaseDate: 2019-10-01
 
 -   releaseCycle: "Galaxy A30s"
-    support: true
+    support: false
     eol: false # https://doc.samsungmobile.com/SM-A307GN/XXV/doc.html
     releaseDate: 2019-09-11
 
 -   releaseCycle: "Galaxy Fold"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-F900F/XEH/doc.html
     releaseDate: 2019-09-06
 
 -   releaseCycle: "Galaxy A90 5G" #This loses active support with Android 12.
@@ -782,7 +778,7 @@ releases:
     releaseDate: 2019-09-01
 
 -   releaseCycle: "Galaxy Fold 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
+    support: true
     eol: false # https://doc.samsungmobile.com/SM-F907B/BTU/doc.html
     releaseDate: 2019-09-01 # Approximate to the month and year.
 
@@ -806,14 +802,14 @@ releases:
     eol: false
     releaseDate: 2019-08-27
 
--   releaseCycle: "Galaxy Note 10+" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy Note10+"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-N975U/008579190821/fra.html
     releaseDate: 2019-08-23
 
--   releaseCycle: "Galaxy Note 10" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy Note10"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-N970F/XEF/doc.html
     releaseDate: 2019-08-23
 
 -   releaseCycle: "Galaxy Tab S6" #This loses active support with Android 12.
@@ -821,14 +817,14 @@ releases:
     eol: false
     releaseDate: 2019-08-01
 
--   releaseCycle: "Galaxy Note 10+ 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false # https://doc.samsungmobile.com/SM-N976U/TMB/doc.html
+-   releaseCycle: "Galaxy Note10+ 5G"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-N976B/SFR/doc.html
     releaseDate: 2019-08-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy Note 10 5G"
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false # TODO
+-   releaseCycle: "Galaxy Note10 5G"
+    support: true
+    eol: false # https://doc.samsungmobile.com/sm-n971n/koo/doc.html
     releaseDate: 2019-08-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy Tab A 8.0 (2019)"
@@ -931,34 +927,34 @@ releases:
     eol: false # https://doc.samsungmobile.com/SM-M305M/XXV/doc.html
     releaseDate: 2019-03-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy S10 5G" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy S10 5G"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-G977B/EVR/doc.html
     releaseDate: 2019-02-20
 
--   releaseCycle: "Galaxy S10" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy S10"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-G973F/XEF/doc.html
     releaseDate: 2019-02-20
 
--   releaseCycle: "Galaxy S10+" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy S10+"
+    support: true
+    eol: false # https://doc.samsungmobile.com/SM-G975F/XEF/doc.html
     releaseDate: 2019-02-20
 
--   releaseCycle: "Galaxy S10e" #This loses active support with Android 12.
-    support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+-   releaseCycle: "Galaxy S10e"
+    support: true
+    eol: false # https://doc.samsungmobile.com/sm-g970f/dbt/doc.html
     releaseDate: 2019-02-20
 
 -   releaseCycle: "Galaxy M20"
     support: false
-    eol: 2022-10-01 # https://doc.samsungmobile.com/SM-M205FN/SER/doc.html
+    eol: false # https://doc.samsungmobile.com/SM-M205F/INS/doc.html
     releaseDate: 2019-02-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy M10"
     support: false
-    eol: 2022-10-01 # https://doc.samsungmobile.com/SM-M105G/SER/doc.html
+    eol: false # https://doc.samsungmobile.com/SM-M105F/INS/doc.html
     releaseDate: 2019-02-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy A8s"
@@ -968,7 +964,7 @@ releases:
 
 -   releaseCycle: "Galaxy Tab Advanced2"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-T583/KOO/doc.html
     releaseDate: 2018-12-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J4 Core"
@@ -978,7 +974,7 @@ releases:
 
 -   releaseCycle: "Galaxy A6s"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-A600FN/XEF/doc.html
     releaseDate: 2018-11-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy A9 (2018)"
@@ -1003,7 +999,7 @@ releases:
 
 -   releaseCycle: "Galaxy Tab A 8.0 (2018)"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-A530F/FTM/doc.html
     releaseDate: 2018-09-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy Note 9"
@@ -1023,7 +1019,7 @@ releases:
 
 -   releaseCycle: "Galaxy Watch"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-R810/001398180827/fra.html
     releaseDate: 2018-08-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J2 Core"
@@ -1038,17 +1034,17 @@ releases:
 
 -   releaseCycle: "Galaxy On6"
     support: false
-    eol: 2022-02-01 # https://doc.samsungmobile.com/SM-J600GF/INS/doc.html
+    eol: 2022-02-01 # TODO
     releaseDate: 2018-07-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J7 (2018)"
     support: false
-    eol: 2021-12-01 # https://doc.samsungmobile.com/SM-J737U/XAR/doc.html
+    eol: 2021-12-01 # https://doc.samsungmobile.com/SM-J700F/023395220803/roh.html
     releaseDate: 2018-07-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J7 Top"
     support: false
-    eol: 2021-12-31
+    eol: 2021-12-31 # https://doc.samsungmobile.com/SM-J737U/XAR/doc.html
     releaseDate: 2018-07-01
 
 -   releaseCycle: "Galaxy J3"
@@ -1058,7 +1054,7 @@ releases:
 
 -   releaseCycle: "Galaxy J3 (2018)"
     support: false
-    eol: 2021-11-01 # https://doc.samsungmobile.com/SM-J337U/XAR/doc.html
+    eol: 2021-11-01 # https://doc.samsungmobile.com/SM-J3300/CHC/doc.html
     releaseDate: 2018-06-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy A8 Star"
@@ -1138,12 +1134,12 @@ releases:
 
 -   releaseCycle: "Galaxy C7 (2017)"
     support: false
-    eol: 2019-05-01 # https://doc.samsungmobile.com/SM-C710F/XXV/doc.html
+    eol: false # https://doc.samsungmobile.com/SM-C710F/XXV/doc.html
     releaseDate: 2017-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Gear Sport"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-R600/CHC/doc.html
     releaseDate: 2017-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy Tab Active 2"
@@ -1193,10 +1189,10 @@ releases:
 
 -   releaseCycle: "Galaxy Folder2"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-G160N/KOO/doc.html
     releaseDate: 2017-07-01 # Approximate to the month and year.
 
--   releaseCycle: "Galaxy J7 Nxt"
+-   releaseCycle: "Galaxy J7 Neo"
     support: false
     eol: 2019-05-01 # https://doc.samsungmobile.com/SM-J701M/PET/doc.html
     releaseDate: 2017-07-01 # Approximate to the month and year.
@@ -1208,7 +1204,7 @@ releases:
 
 -   releaseCycle: "Galaxy J5 (2017)"
     support: false
-    eol: 2019-05-01 # https://doc.samsungmobile.com/SM-J530GM/CHL/doc.html
+    eol: 2019-03-01 # https://doc.samsungmobile.com/SM-J530F/XEO/doc.html
     releaseDate: 2017-06-01 # Approximate to the month and year.
 
 -   releaseCycle: "Z4"
@@ -1218,7 +1214,7 @@ releases:
 
 -   releaseCycle: "Gear S3 classic LTE"
     support: false
-    eol: true # TODO
+    eol: false # https://doc.samsungmobile.com/SM-R770/BRI/doc.html
     releaseDate: 2017-05-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy S8"
@@ -1248,7 +1244,7 @@ releases:
 
 -   releaseCycle: "Galaxy C5 Pro"
     support: false
-    eol: true # TODO
+    eol: 2018-10-01 # https://doc.samsungmobile.com/SM-C5010/TGY/doc.html
     releaseDate: 2017-03-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy C7 Pro"
@@ -1303,22 +1299,22 @@ releases:
 
 -   releaseCycle: "Gear S3 classic"
     support: false
-    eol: true # TODO
+    eol: false # https://doc.samsungmobile.com/SM-R770/BRI/doc.html
     releaseDate: 2016-11-01 # Approximate to the month and year.
 
 -   releaseCycle: "Gear S3 frontier"
     support: false
-    eol: true # TODO
+    eol: false # https://doc.samsungmobile.com/SM-R770/BRI/doc.html
     releaseDate: 2016-11-01 # Approximate to the month and year.
 
 -   releaseCycle: "Gear S3 frontier LTE"
     support: false
-    eol: true # TODO
+    eol: false # https://doc.samsungmobile.com/SM-R770/BRI/doc.html
     releaseDate: 2016-11-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy A8 (2016)"
     support: false
-    eol: true # TODO
+    eol: true # https://doc.samsungmobile.com/SM-A800IZ/000065170406/zho-tw.htmll
     releaseDate: 2016-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy On8"
@@ -1328,7 +1324,7 @@ releases:
 
 -   releaseCycle: "Galaxy On7 (2016)"
     support: false
-    eol: true # TODO
+    eol: 2020-07-01 # https://doc.samsungmobile.com/SM-G6100/TGY/doc.html
     releaseDate: 2016-10-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J5 Prime"
@@ -1373,7 +1369,7 @@ releases:
 
 -   releaseCycle: "Galaxy J2 Pro (2016)"
     support: false
-    eol: 2018-08-01 # https://doc.samsungmobile.com/SM-J210F/INS/doc.html
+    eol: 2019-10-01 # https://doc.samsungmobile.com/SM-J250F/TUR/doc.html
     releaseDate: 2016-07-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy J2 (2016)"
@@ -1393,17 +1389,17 @@ releases:
 
 -   releaseCycle: "Galaxy J3 Pro"
     support: false
-    eol: true # TODO
+    eol: 2021-04-01 # https://doc.samsungmobile.com/SM-J330G/BRI/doc.html
     releaseDate: 2016-06-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy C7"
     support: false
-    eol: true # TODO
+    eol: 2018-10-01 # https://doc.samsungmobile.com/SM-C7000/CHC/doc.html
     releaseDate: 2016-06-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy C5"
     support: false
-    eol: true # TODO
+    eol: 2019-01-01 # https://doc.samsungmobile.com/sm-c5000/tgy/doc.html
     releaseDate: 2016-06-01 # Approximate to the month and year.
 
 -   releaseCycle: "Galaxy A9 Pro (2016)"
