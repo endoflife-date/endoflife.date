@@ -30,9 +30,9 @@ layout: default
   </thead>
 
 {% for r in page.releases %}
-{%- assign hideClass = '' %}
-{%- if r.can_be_hidden %}{% assign hideClass = 'd-none' %}{% endif %}
-  <tr class="release {{ hideClass }}">
+{%- assign releaseClasses = 'release' %}
+{%- if r.can_be_hidden %}{% assign releaseClasses = 'release can-be-hidden' %}{% endif %}
+  <tr class="{{ releaseClasses }}">
     <td>
       {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
       {% if page.releaseColumn == false and r.link and r.daysTowardEol > 0  %}
@@ -128,7 +128,7 @@ layout: default
 {% endfor %}
 {% assign can_be_hidden_releases_count = page.releases | where: 'can_be_hidden', true | size %}
 {% if can_be_hidden_releases_count > 0 %}
-  <tr id="show-more-row">
+  <tr id="show-more-row" class="d-none">
     <td colspan="{{ colCount }}" class="text-center">
       <button id="show-hidden-releases-button" class="btn">
         Show more unmaintained releases
