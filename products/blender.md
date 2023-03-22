@@ -53,9 +53,9 @@ releases:
 -   releaseCycle: "2.93"
     eol: 2023-06-01
     support: 2023-06-01
-    latest: "2.93.15"
+    latest: "2.93.16"
     lts: true
-    latestReleaseDate: 2023-02-21
+    latestReleaseDate: 2023-03-21
     releaseDate: 2021-06-02
 -   releaseCycle: "2.83"
     eol: 2022-06-01
