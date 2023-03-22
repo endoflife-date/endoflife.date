@@ -11,16 +11,26 @@ activeSupportColumn: true
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-relnotes.html"
 releaseDateColumn: true
+
 identifiers:
 -   purl: pkg:generic/java
 -   purl: pkg:docker/library/openjdk
 -   purl: pkg:docker/circleci/openjdk
 -   purl: pkg:docker/cimg/openjdk
 -   repology: openjdk
+
 auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "20"
+    releaseDate: 2023-03-21
+    support: 2023-09-19
+    eol: 2023-09-19
+    latest: "20"
+    latestReleaseDate: 2023-03-21
+    link: https://www.oracle.com/java/technologies/javase/20-relnote-issues.html
+
 -   releaseCycle: "19"
     support: 2023-03-21
     eol: 2023-03-21
