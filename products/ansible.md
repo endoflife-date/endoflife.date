@@ -20,47 +20,46 @@ auto:
 
 releases:
 -   releaseCycle: "7"
+    releaseDate: 2022-11-22
     eol: false
     latest: "7.4.0"
     latestReleaseDate: 2023-03-28
-    releaseDate: 2022-11-22
 
 -   releaseCycle: "6"
+    releaseDate: 2022-06-21
     eol: 2022-12-22 # will have to be updated with 6.7.0 release date
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
-    releaseDate: 2022-06-21
 
 -   releaseCycle: "5"
+    releaseDate: 2021-12-02
     eol: 2022-06-08
     latest: "5.10.0"
     latestReleaseDate: 2022-06-28
-    releaseDate: 2021-12-02
 
 -   releaseCycle: "4"
+    releaseDate: 2021-05-18
     eol: 2021-12-14
     latest: "4.10.0"
     latestReleaseDate: 2021-12-14
-    releaseDate: 2021-05-18
 
 -   releaseCycle: "3"
+    releaseDate: 2021-02-18
     eol: 2021-05-11
     latest: "3.4.0"
     latestReleaseDate: 2021-05-11
-    releaseDate: 2021-02-18
 
 -   releaseCycle: "2.10"
+    releaseDate: 2020-09-22
     eol: 2021-02-09
     latest: "2.10.7"
     latestReleaseDate: 2021-02-09
-    releaseDate: 2020-09-22
 
 -   releaseCycle: "2.9"
-    release: 2019-10-31
+    releaseDate: 2019-10-31
     eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
-    releaseDate: 2019-10-31
 
 ---
 
@@ -77,8 +76,8 @@ for upcoming release details.
 
 ## Python Compatibility
 
-| ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
+| Ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
 | 7               | 3.9                                 | 2.7 or 3.5                       |
-| 6               | 3.8                                 | 2.7 or 3.5                       |
+| 5               | 3.8                                 | 2.7 or 3.5                       |
 | 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
