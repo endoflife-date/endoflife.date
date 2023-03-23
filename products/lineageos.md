@@ -23,7 +23,7 @@ releases:
     link: https://lineageos.org/Changelog-26/
 
 -   releaseCycle: "18.1"
-    eol: 2022-12-31
+    eol: false
     releaseDate: 2021-04-01
     link: https://lineageos.org/Changelog-25/
 
@@ -41,4 +41,6 @@ releases:
 
 LineageOS maintains two versions at the same time. Devices that are not ported to one of the two latest versions stop being supported. A list of supported devices is available at the [LineageOS Wiki](https://wiki.lineageos.org/devices/).
 
-The 16.0 and 17.1 branches still get security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions.
+Some devices which didn't upgraded to 19.1 or 20.0 are still getting 18.1 monthly updates with latest Android Security Patch, but may dropped in the future.
+
+Some old branches may still get security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions. For details, please visit [LineageOS Gerrit](https://review.lineageos.org/) to check commits.
