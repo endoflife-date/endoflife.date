@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "10"
     codename: Queen Cake
-    eol: false
+    eol: true
     releaseDate: 2019-09-03
 
 -   releaseCycle: "9"
