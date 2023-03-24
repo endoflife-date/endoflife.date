@@ -23,16 +23,16 @@ releases:
     supportedJavaVersions: "17 - 19" # https://docs.spring.io/spring-boot/docs/3.0.2/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2023-11-24
     extendedSupport: 2025-02-24
-    latest: "3.0.4"
-    latestReleaseDate: 2023-03-03
+    latest: "3.0.5"
+    latestReleaseDate: 2023-03-23
     releaseDate: 2022-11-24
 
 -   releaseCycle: "2.7"
     supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.7.8/reference/html/getting-started.html#getting-started.system-requirements
     eol: 2023-11-18
     extendedSupport: 2025-02-18
-    latest: "2.7.9"
-    latestReleaseDate: 2023-02-23
+    latest: "2.7.10"
+    latestReleaseDate: 2023-03-23
     releaseDate: 2022-05-19
 
 -   releaseCycle: "2.6"
