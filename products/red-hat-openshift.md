@@ -11,9 +11,9 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
 releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
 changelogTemplate: https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes.html
 releaseDateColumn: true
-activeSupportColumn: true
+activeSupportColumn: Full Support
 eolColumn: Maintenance Support
-extendedSupportColumn: true
+extendedSupportColumn: Extended Update Support
 
 releases:
 -   releaseCycle: "4.12"
@@ -50,7 +50,7 @@ releases:
 
 -   releaseCycle: "4.8"
     releaseDate: 2021-07-27
-    support: 2022-07-27
+    support: 2022-01-27
     eol: 2023-01-27
     latest: "4.8.57"
     latestReleaseDate: 2023-01-25
