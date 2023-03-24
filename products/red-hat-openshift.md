@@ -20,97 +20,97 @@ releases:
     releaseDate: 2023-01-17
     support: true
     eol: 2024-07-17
+    extendedSupport: 2025-01-17
     latest: "4.12.6"
     latestReleaseDate: 2023-03-07
-    extendedSupport: 2025-01-17
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
     support: 2023-04-17
     eol: 2024-02-10
+    extendedSupport: false
     latest: "4.11.30"
     latestReleaseDate: 2023-03-07
-    extendedSupport: false
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10
     support: 2022-11-10
     eol: 2023-09-10
+    extendedSupport: false
     latest: "4.10.53"
     latestReleaseDate: 2023-03-01
-    extendedSupport: false
 
 -   releaseCycle: "4.9"
     releaseDate: 2021-10-18
     support: 2022-06-10
     eol: 2023-04-18
+    extendedSupport: false
     latest: "4.9.56"
     latestReleaseDate: 2023-02-22
-    extendedSupport: false
 
 -   releaseCycle: "4.8"
     releaseDate: 2021-07-27
     support: 2022-01-27
     eol: 2023-01-27
+    extendedSupport: 2023-04-27
     latest: "4.8.57"
     latestReleaseDate: 2023-01-25
-    extendedSupport: 2023-04-27
 
 -   releaseCycle: "4.7"
     releaseDate: 2021-02-24
     support: 2021-10-27
     eol: 2022-08-24
+    extendedSupport: false
     latest: "4.7.60"
     latestReleaseDate: 2022-11-10
-    extendedSupport: false
 
 -   releaseCycle: "4.6"
     releaseDate: 2020-10-27
     support: 2021-03-24
     eol: 2022-10-27
+    extendedSupport: false
     latest: "4.6.62"
     latestReleaseDate: 2022-11-10
-    extendedSupport: false
 
 -   releaseCycle: "4.5"
     releaseDate: 2020-07-13
     support: 2020-11-27
     eol: 2021-07-27
+    extendedSupport: false
     latest: "4.5.41"
     latestReleaseDate: 2021-06-30
-    extendedSupport: false
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-05-05
     support: 2020-08-13
     eol: 2021-02-24
+    extendedSupport: false
     latest: "4.4.33"
     latestReleaseDate: 2021-02-02
-    extendedSupport: false
 
 -   releaseCycle: "4.3"
     releaseDate: 2020-01-23
     support: 2020-06-05
     eol: 2020-10-27
+    extendedSupport: false
     latest: "4.3.40"
     latestReleaseDate: 2020-10-20
-    extendedSupport: false
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-10-16
     support: 2020-02-23
     eol: 2020-07-13
+    extendedSupport: false
     latest: "4.2.36"
     latestReleaseDate: 2020-07-01
-    extendedSupport: false
 
 -   releaseCycle: "4.1"
     releaseDate: 2019-06-04
     support: 2019-11-16
     eol: 2020-05-05
+    extendedSupport: false
     latest: "4.1.41"
     latestReleaseDate: 2020-04-22
-    extendedSupport: false
 
 ---
 
