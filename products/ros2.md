@@ -30,6 +30,36 @@ releases:
     releaseDate: 2020-06-05
     latestReleaseDate: 2020-06-05
     latest: foxy
+-   releaseCycle: 'eloquent'
+    codename: 'Eloquent Elusor'
+    eol: 2020-11-01
+    releaseDate: 2019-11-22
+    latestReleaseDate: 2019-11-22
+    latest: 'eloquent'
+-   releaseCycle: 'dashing'
+    codename: 'Dashing Diademata'
+    eol: 2021-05-01
+    releaseDate: 2019-05-31
+    latestReleaseDate: 2019-05-31
+    latest: 'dashing'
+-   releaseCycle: 'crystal'
+    codename: 'Crystal Clemmys'
+    eol: 2019-12-01
+    releaseDate: 2018-12-14
+    latestReleaseDate: 2018-12-14
+    latest: 'crystal'
+-   releaseCycle: 'bouncy'
+    codename: 'Bouncy Bolson'
+    eol: 2019-07-01
+    releaseDate: 2018-07-02
+    latestReleaseDate: 2018-07-02
+    latest: 'bouncy'
+-   releaseCycle: 'ardent'
+    codename: 'Ardent Apalone'
+    eol: 2018-12-01
+    releaseDate: 2017-12-08
+    latestReleaseDate: 2017-12-08
+    latest: 'ardent'
 
 
 ---
@@ -38,7 +68,7 @@ releases:
 
 Release rules:
 
-- There is a ROS release every year in May.
+- There is a ROS release every year in May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
 - Releases on odd numbered years are normal ROS releases, supported for two years.
 - ROS releases will drop support for EOL Ubuntu distributions, even if the ROS release is still supported.
