@@ -25,14 +25,14 @@ releases:
     support: 2025-05-31
     eol: 2032-05-31
     latest: "9.1"
-    link: https://rockylinux.org/news/rocky-linux-9-0-ga-release/
+    link: https://rockylinux.org/news/rocky-linux-9-1-ga-release/
     releaseDate: 2022-07-14
     latestReleaseDate: 2022-11-28
 -   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
     latest: "8.7"
-    link: https://rockylinux.org/news/rocky-linux-8-6-ga-release/
+    link: https://rockylinux.org/news/rocky-linux-8-7-ga-release/
     releaseDate: 2021-06-21
     latestReleaseDate: 2022-11-16
 
