@@ -12,6 +12,14 @@ releaseDateColumn: true
 eolColumn: Service Status
 
 releases:
+-   releaseCycle: "kindle-scribe"
+    releaseLabel: "Kindle Scribe"
+    # https://ebookfriendly.com/amazon-kindle-scribe-2022-full-specs/
+    releaseDate: 2022-11-30
+    eol: false
+    latest: "5.16.1.2"
+    link: https://www.amazon.com/KindleScribeNotes
+
 -   releaseCycle: "kindle-11"
     releaseLabel: "Kindle 11 (11th Generation)"
     releaseDate: 2022-09-13
