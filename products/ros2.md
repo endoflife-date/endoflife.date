@@ -7,10 +7,10 @@ releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
 activeSupportColumn: false
 releaseColumn: true
 eolColumn: End Of Life
-versionCommand: rosversion -d
+versionCommand: printenv | grep -i ROS
 releaseDateColumn: true
 releaseLabel: '__CODENAME__'
-changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
+changelogTemplate: 'http://docs.ros.org/en/__RELEASE_CYCLE__/index.html'
 releases:
 -   releaseCycle: 'humble'
     codename: 'Humble Hawksbill'
@@ -68,7 +68,7 @@ releases:
 
 Release rules:
 
-- There is a ROS release every year in May 23rd.
+- There is a ROS2 release every year in May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
 - Releases on odd numbered years are normal ROS releases, supported for two years.
 - ROS releases will drop support for EOL Ubuntu distributions, even if the ROS release is still supported.
@@ -81,5 +81,3 @@ Side effects of the release policy:
 - ROS releases will not add support for new Ubuntu distributions after their release date.
 
 These simplified rules and side effects are subject to change with changes to the underlying Ubuntu release policy.
-
-For more details see the official [Release Policy](https://wiki.ros.org/Distributions/ReleasePolicy).
