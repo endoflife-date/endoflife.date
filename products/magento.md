@@ -198,7 +198,7 @@ There are two phases of support for releases : a "bug fix maintenance" phase, wi
 fixes, and a "security maintenance" phase, with only security fixes. The duration of each phase is
 documented here and in the [Magento Open Source Software Maintenance Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf).
 
-Being build on top of Magento Open Source, Adobe Commerce have the same versions,
+Being build on top of Magento Open Source, Adobe Commerce has the same versions,
 but with [additional _security patch only releases_](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-Patch-Release/ba-p/141287),
 a [future releases schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
 and [additional support](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html).
