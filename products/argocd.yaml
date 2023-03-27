@@ -1,0 +1,97 @@
+---
+title: Argo CD
+category: server-app
+iconSlug: argo
+permalink: /argocd
+versionCommand: argocd version
+releasePolicyLink: https://argo-cd.readthedocs.io/en/stable/developer-guide/release-process-and-cadence/
+changelogTemplate: "https://github.com/argoproj/argo-cd/releases/tag/v__LATEST__"
+releaseLabel: "v__LATEST__"
+
+
+# Auto-update release configuration (optional).
+# This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
+# Multiple configuration are allowed.
+# Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
+# The presence of such configuration enables a footer note on the product page
+# informing users that latest releases are automatically updated.
+auto:
+  - git: https://github.com/argoproj/argo-cd.git
+    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+    template: '..'
+
+identifiers:
+  - repology: argocd
+  - pkg:docker/argoproj/argocd
+
+
+releases:
+-   releaseCycle: "2.6"
+    releaseDate: 2023-02-07
+    support: 2018-01-31
+
+    # EOL date (mandatory).
+    # This is where all support stops (including security support).
+    # In case there is extended/commercial support available, pick the date that would apply to the
+    # majority of users (and use the extendedSupport field if necessary).
+    # Use valid dates, and do not add quotes around dates.
+    # Alternatively, set to true|false the date has not been decided yet.
+    eol: 2019-01-01
+
+    # End of extended/commercial support date (optional if extendedSupportColumn is false, else mandatory).
+    # Note that extended/commercial support is different from Long-Term Support. Extended/commercial
+    # support must be used only when additional support is available after EOL, usually against payment.
+    # Use valid dates, and do not add quotes around dates.
+    # Alternatively, set to true|false if the date has not been decided yet.
+    extendedSupport: 2020-01-01
+
+    # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
+    # Usually this is the release cycle's latest "patch" release.
+    # It should be removed if releaseColumn is false.
+    # Always add quotes around this value.
+    latest: "1.2.3"
+
+    # Latest release date (optional).
+    # Use valid dates, and do not add quotes around dates.
+    latestReleaseDate: 2022-01-23
+
+    # Whether this is a "LTS" release (optional, default = false).
+    # What LTS means may differ from product to product (see LTSLabel above).
+    # Only provide for a release that will get much longer support than usual.
+    lts: true
+
+    # Whether this is a "discontinued" release (optional).
+    # Can be set to true/false.
+    # Only use if discontinuedColumn is set to true.
+    discontinued: true
+
+    # A link to the changelog for the latest release
+    # (optional, default = the URL generated from changelogTemplate if it is provided).
+    # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
+    # or if the changelogTemplate generated link must be overridden.
+    # Do not use a localized URL (such as one containing en-us) if possible.
+    # Use the special value 'null' (unquoted) if you want to disable link for a specific cycle of a
+    # product having a changelogTemplate.
+    link: https://example.com/news/2021-12-25/release-1.2.3
+
+# In the following markdown section, ensure that all the above are present:
+# 1. A one line statement about what the product is, with a link to the primary website (in a quote).
+# 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
+# 3. Any additional information that may be of interest.
+#
+# See also the Guiding Principles on the wiki ( https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles )
+# for indication on the tone and voice to use for the text.
+
+
+# Please leave a newline both above and below the triple-dashes.
+
+---
+
+# All the product information text should be under triple-dashes.
+# If you are adding any images in the text, they might get blocked due to our CSP.
+# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
+# will not be blocked.
+
+> [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
+
+Time-turners are no longer released, and the last known stable release was in HP.5 release
