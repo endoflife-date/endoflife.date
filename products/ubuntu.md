@@ -83,9 +83,9 @@ releases:
     support: 2022-10-01
     eol: 2025-04-02
     extendedSupport: 2030-04-02
-    latest: "20.04.5"
+    latest: "20.04.6"
     releaseDate: 2020-04-23
-    latestReleaseDate: 2022-09-01
+    latestReleaseDate: 2023-03-23
 
 -   releaseCycle: "19.10"
     codename: "Karmic Koala"

@@ -8,7 +8,7 @@ alternate_urls:
 -   /proxmoxve
 versionCommand: pveversion –v
 releasePolicyLink: https://pve.proxmox.com/wiki/FAQ
-changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___RELEASE_CYCLE__"
+changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___LATEST__"
 releaseDateColumn: true
 
 # https://regex101.com/r/ahCFde/1
@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2021-07-06
     eol: false
-    latest: "7.3"
-    latestReleaseDate: 2022-11-22
+    latest: "7.4"
+    latestReleaseDate: 2023-03-23
 
 -   releaseCycle: "6"
     releaseDate: 2019-07-16
