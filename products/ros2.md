@@ -70,7 +70,7 @@ Release rules:
 
 - There is a ROS2 release every year in May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
-- Releases on odd numbered years are normal ROS releases, supported for two years.
+- Releases on odd numbered years are normal ROS releases, supported for 1.5 years.
 - ROS releases will drop support for EOL Ubuntu distributions, even if the ROS release is still supported.
 
 Side effects of the release policy:
