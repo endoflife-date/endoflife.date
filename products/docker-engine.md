@@ -22,12 +22,14 @@ auto:
 releases:
 -   releaseCycle: "23.0"
     eol: false
-    latest: "23.0.0"
-    latestReleaseDate: 2023-02-02
+    latest: "23.0.1"
+    latestReleaseDate: 2023-02-10
     releaseDate: 2023-02-02
 
+# 20.10 should expire March 2023, as per guidance
+# but hasn't https://github.com/moby/moby/discussions/45104
 -   releaseCycle: "20.10"
-    eol: 2023-03-01
+    eol: false
     latest: "20.10.23"
     latestReleaseDate: 2023-01-20
     releaseDate: 2020-12-09

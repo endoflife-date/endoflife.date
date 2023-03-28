@@ -1,8 +1,9 @@
 ---
+layout: page
 nav_exclude: true
 title: Contributing
+description: Some information on how to contribute to https://endoflife.date.
 permalink: /contribute
-layout: page
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -102,30 +103,47 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
-# The name of the End of Life column (optional, default = Security Support).
-eolColumn: Service Status
+# Whether the "End of Life" column should be displayed (optional, default = true).
+# The value of this property can be set to any string to override the default column label.
+eolColumn: Security Support
 
-# Whether to display the "Active Support" column (optional, default = false).
-# You can also set this variable with a text label if you want to change the column name:
-#   activeSupportColumn: Customer Support
-activeSupportColumn: false
+# Threshold at which the background color of the cycle's "eol" cell changes to indicate
+# that the EOL date is approaching (optional, default = 121 days).
+eolWarnThreshold: 121
 
-# Whether to display the "Latest" column (optional, default = true).
-# If the product doesn't have patch releases, set this to false.
-releaseColumn: true
+# Whether the "Active Support" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+activeSupportColumn: Active Support
 
-# Whether to show the "Released" column (optional, default = false).
-releaseDateColumn: true
+# Threshold at which the background color of the cycle's "activeSupport" cell changes to indicate
+# that the end of active support date is approaching (optional, default = 121 days).
+activeSupportWarnThreshold: 121
 
-# Whether to show the discontinued column (optional, default = false).
-# Set to true if you're tracking a device.
-# This usually means the device is no longer available for sale or is no longer being manufactured.
-discontinuedColumn: false
+# Whether the "Latest" column should be displayed (optional, default = true).
+# The value of this property can be set to any string to override the default column label.
+releaseColumn: Latest
 
-# Whether to display the "Extended Support" column (optional, default = false).
-# You can also set this variable with a text label if you want to change the column name:
-#   extendedSupportColumn: Commercial Support
-extendedSupportColumn: false
+# Whether the "Released" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+releaseDateColumn: Released
+
+# Whether the "Discontinued" column should be displayed (optional, default = false).
+# Set to true if you're tracking a device. This usually means the device is no longer available for
+# sale or is no longer being manufactured.
+# The value of this property can be set to any string to override the default column label.
+discontinuedColumn: Discontinued
+
+# Threshold at which the background color of the cycle's "discontinued" cell changes to indicate
+# that the discontinued date is approaching (optional, default = 121 days).
+discontinuedWarnThreshold: 121
+
+# Whether the "Extended Support" column should be displayed (optional, default = false).
+# The value of this property can be set to any string to override the default column label.
+extendedSupportColumn: Extended Support
+
+# Threshold at which the background color of the cycle's "extendedSupport" cell changes to indicate
+# that the extended support date is approaching (optional, default = 121 days).
+extendedSupportWarnThreshold: 121
 
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.

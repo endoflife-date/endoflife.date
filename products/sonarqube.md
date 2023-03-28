@@ -13,35 +13,36 @@ releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   dockerhub: library/sonarqube
-    regex: ^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-community$
+-   git: https://github.com/SonarSource/sonarqube.git
+    regex: ^(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?(\.(?<build>\d+))?$
 
 releases:
 -   releaseCycle: "9"
-    releaseDate: 2021-07-02
+    releaseDate: 2021-07-05
     support: true
     eol: false
+    lts: 2023-02-07
     latest: "9.9.0"
-    latestReleaseDate: 2023-02-04
+    latestReleaseDate: 2023-02-03
+    link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"
-    releaseDate: 2020-05-08
+    releaseDate: 2019-10-15
     support: 2021-07-05
-    # Should be 2022-11-04 as per the policy, but is now in the past
-    eol: false
+    eol: 2023-02-07
     lts: 2021-05-04
     latest: "8.9.10"
-    latestReleaseDate: 2022-12-19
+    latestReleaseDate: 2022-10-14
     link: https://www.sonarqube.org/sonarqube-8-9-lts/
 
 -   releaseCycle: "7"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
-    releaseDate: 2019-12-04
+    releaseDate: 2018-02-02
     support: 2019-10-16
     eol: 2021-05-04
     lts: 2019-07-01
     latest: "7.9.6"
-    latestReleaseDate: 2021-04-22
+    latestReleaseDate: 2021-03-01
     link: https://www.sonarqube.org/sonarqube-7-9-lts/
 
 ---

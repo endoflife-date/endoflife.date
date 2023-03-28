@@ -14,7 +14,7 @@ auto:
 
 releases:
 -   releaseCycle: "8.2"
-    releaseDate: 2020-11-18
+    releaseDate: 2020-11-13
     eol: 2025-06-25
     lts: true
     latest: "8.2.1"

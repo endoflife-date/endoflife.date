@@ -23,8 +23,8 @@ releases:
     supportedJavaVersions: "17" # https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview
     eol: 2024-08-31
     extendedSupport: 2025-12-31
-    latest: "6.0.4"
-    latestReleaseDate: 2023-01-11
+    latest: "6.0.7"
+    latestReleaseDate: 2023-03-20
     releaseDate: 2022-11-16
 
 -   releaseCycle: "5.3"
@@ -32,16 +32,16 @@ releases:
     eol: 2024-12-31
     extendedSupport: 2026-12-31
     lts: true
-    latest: "5.3.25"
-    latestReleaseDate: 2023-01-11
+    latest: "5.3.26"
+    latestReleaseDate: 2023-03-20
     releaseDate: 2020-10-27
 
 -   releaseCycle: "5.2"
     supportedJavaVersions: "8, 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview
     eol: 2021-12-31
     extendedSupport: 2023-12-31
-    latest: "5.2.22"
-    latestReleaseDate: 2022-05-11
+    latest: "5.2.23"
+    latestReleaseDate: 2023-03-20
     releaseDate: 2019-09-30
 
 -   releaseCycle: "5.1"

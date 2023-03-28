@@ -16,9 +16,9 @@ auto:
 releases:
 -   releaseCycle: "6.4"
     eol: 2023-03-30
-    latest: "6.4.2"
+    latest: "6.4.3"
     lts: false
-    latestReleaseDate: 2023-01-03
+    latestReleaseDate: 2023-03-16
     releaseDate: 2022-09-28
 
 -   releaseCycle: "6.3"

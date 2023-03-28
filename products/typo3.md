@@ -27,8 +27,8 @@ releases:
     support: 2024-10-31
     extendedSupport: 2029-04-30
     releaseDate: 2022-10-04
-    latestReleaseDate: 2022-12-15
-    latest: '12.1.3'
+    latestReleaseDate: 2023-02-07
+    latest: '12.2.0'
 
 -   releaseCycle: "11"
     eol: 2024-10-31
@@ -36,8 +36,8 @@ releases:
     support: 2023-03-31
     extendedSupport: 2027-10-31
     releaseDate: 2020-12-22
-    latest: "11.5.22"
-    latestReleaseDate: 2023-01-10
+    latest: "11.5.25"
+    latestReleaseDate: 2023-03-14
 
 -   releaseCycle: "10"
     eol: 2023-04-30
@@ -45,8 +45,8 @@ releases:
     support: 2021-10-31
     extendedSupport: 2026-04-30
     releaseDate: 2019-07-23
-    latest: "10.4.34"
-    latestReleaseDate: 2022-12-15
+    latest: "10.4.36"
+    latestReleaseDate: 2023-02-07
 
 -   releaseCycle: "9"
     eol: 2021-09-30
@@ -81,8 +81,8 @@ releases:
 
 Version | PHP
 --------|-----------
-12      | [8.1](https://get.typo3.org/version/12#system-requirements)
-11      | [7.4.1 - 8.1](https://get.typo3.org/version/11#system-requirements)
+12      | [8.1 - 8.2](https://get.typo3.org/version/12#system-requirements)
+11      | [7.4.1 - 8.2](https://get.typo3.org/version/11#system-requirements)
 10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)
 9       | 7.2 - 8.1
 8       | 7.0 - 7.4

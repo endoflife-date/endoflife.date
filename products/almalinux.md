@@ -9,7 +9,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/almalinux
+-   cpe: cpe:/o:almalinux:almalinux
+-   cpe: cpe:2.3:o:almalinux:almalinux
 
 auto:
 -   distrowatch: alma
@@ -22,6 +23,7 @@ releases:
     eol: 2032-05-31
     latest: "9.1"
     latestReleaseDate: 2022-11-17
+    link: https://almalinux.org/blog/almalinux-91-now-available/
 
 -   releaseCycle: "8"
     releaseDate: 2021-03-30
@@ -29,7 +31,7 @@ releases:
     eol: 2029-03-01
     latest: "8.7"
     latestReleaseDate: 2022-11-10
-
+    link: https://almalinux.org/blog/almalinux-87-now-available/
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open source, community owned and governed,

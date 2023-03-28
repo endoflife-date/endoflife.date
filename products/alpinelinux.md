@@ -12,7 +12,8 @@ activeSupportColumn: false
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:os/alpinelinux
+-   cpe: cpe:/o:alpinelinux:alpine_linux
+-   cpe: cpe:2.3:o:alpinelinux:alpine_linux
 
 auto:
 # upstream does not support filtering https://git.alpinelinux.org/aports
@@ -22,28 +23,28 @@ releases:
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22
-    latest: "3.17.1"
-    latestReleaseDate: 2023-01-09
+    latest: "3.17.2"
+    latestReleaseDate: 2023-02-10
 
 -   releaseCycle: "3.16"
     eol: 2024-05-23
-    latest: "3.16.3"
+    latest: "3.16.4"
     link: https://alpinelinux.org/posts/Alpine-3.16.3-released.html
-    latestReleaseDate: 2022-11-11
+    latestReleaseDate: 2023-02-10
     releaseDate: 2022-05-23
 
 -   releaseCycle: "3.15"
     eol: 2023-11-01
-    latest: "3.15.6"
+    latest: "3.15.7"
     link: https://alpinelinux.org/posts/Alpine-3.12.12-3.13.10-3.14.6-3.15.4-released.html
-    latestReleaseDate: 2022-08-09
+    latestReleaseDate: 2023-02-10
     releaseDate: 2021-11-24
 
 -   releaseCycle: "3.14"
     eol: 2023-05-01
-    latest: "3.14.8"
+    latest: "3.14.9"
     link: https://alpinelinux.org/posts/Alpine-3.12.12-3.13.10-3.14.6-3.15.4-released.html
-    latestReleaseDate: 2022-08-09
+    latestReleaseDate: 2023-02-10
     releaseDate: 2021-06-15
 
 -   releaseCycle: "3.13"

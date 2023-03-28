@@ -6,8 +6,10 @@ permalink: /angular
 versionCommand: ng version
 releasePolicyLink: https://angular.io/guide/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
-activeSupportColumn: true
 releaseDateColumn: true
+activeSupportColumn: true
+activeSupportWarnThreshold: 30
+eolWarnThreshold: 90
 
 identifiers:
 -   purl: pkg:npm/@angular/core
@@ -20,17 +22,17 @@ releases:
 -   releaseCycle: "15"
     support: 2023-05-18
     eol: 2024-05-18
-    latest: "15.1.3"
+    latest: "15.2.4"
     releaseDate: 2022-11-16
-    latestReleaseDate: 2023-02-02
+    latestReleaseDate: 2023-03-22
 
 -   releaseCycle: "14"
     support: 2022-11-18
     eol: 2023-11-18
-    latest: "14.2.12"
+    latest: "14.3.0"
     releaseDate: 2022-06-02
     lts: 2022-12-02
-    latestReleaseDate: 2022-11-21
+    latestReleaseDate: 2023-03-13
 
 -   releaseCycle: "13"
     support: 2022-06-02

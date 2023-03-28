@@ -94,13 +94,13 @@ auto:
 releases:
 -   releaseCycle: "3.11"
     eol: 2027-10-24
-    latest: "3.11.1"
-    latestReleaseDate: 2022-12-06
+    latest: "3.11.2"
+    latestReleaseDate: 2023-02-07
     releaseDate: 2022-10-24
 -   releaseCycle: "3.10"
     eol: 2026-10-04
-    latest: "3.10.9"
-    latestReleaseDate: 2022-12-06
+    latest: "3.10.10"
+    latestReleaseDate: 2023-02-07
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05

@@ -24,15 +24,15 @@ releases:
 -   releaseCycle: "4.0"
     eol: false
     support: true
-    latest: "4.0.8"
-    latestReleaseDate: 2023-01-19
+    latest: "4.0.10"
+    latestReleaseDate: 2023-03-09
     releaseDate: 2022-01-25
 
 -   releaseCycle: "3.0"
     eol: false
     support: false
-    latest: "3.0.14"
-    latestReleaseDate: 2022-12-24
+    latest: "3.0.16"
+    latestReleaseDate: 2023-03-12
     releaseDate: 2020-02-10
 
 -   releaseCycle: "2.5"

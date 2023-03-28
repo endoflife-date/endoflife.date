@@ -16,15 +16,15 @@ releases:
     releaseDate: 2022-11-28
     eol: 2025-11-28
     lts: true
-    latest: "1.0.0"
-    latestReleaseDate: 2022-11-28
+    latest: "1.0.1"
+    latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
     eol: false
     lts: false
-    latest: "0.105.1"
-    latestReleaseDate: 2022-07-26
+    latest: "0.105.2"
+    latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "0.104"
     releaseDate: 2021-09-02
@@ -37,8 +37,8 @@ releases:
     releaseDate: 2020-09-11
     eol: 2023-09-14
     lts: true
-    latest: "0.103.7"
-    latestReleaseDate: 2022-07-26
+    latest: "0.103.8"
+    latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "0.102"
     releaseDate: 2019-10-02

@@ -4,7 +4,7 @@ permalink: /linux
 category: os
 iconSlug: linux
 releasePolicyLink: https://www.kernel.org/
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/sj9emk30expqiyyrr4kztv7g5t8qj9u.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/if28hfqufnfyz4idebda0bctokh1xrf.png
 changelogTemplate: |
   https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -17,11 +17,22 @@ auto:
 -   git: https://github.com/gregkh/linux.git
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
+identifiers:
+-   cpe: cpe:/o:linux:linux_kernel
+-   cpe: cpe:2.3:o:linux:linux_kernel
+
 releases:
--   releaseCycle: "6.1"
+-   releaseCycle: "6.2"
     eol: false
-    latest: "6.1.9"
-    latestReleaseDate: 2023-02-01
+    latest: "6.2.8"
+    latestReleaseDate: 2023-03-22
+    releaseDate: 2023-02-19
+
+-   releaseCycle: "6.1"
+    eol: 2026-12-31
+    lts: true
+    latest: "6.1.21"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2022-12-11
 
 -   releaseCycle: "6.0"
@@ -55,38 +66,38 @@ releases:
     releaseDate: 2022-01-09
 
 -   releaseCycle: "5.15"
-    eol: 2023-10-31
+    eol: 2026-10-31
     lts: true
-    latest: "5.15.91"
-    latestReleaseDate: 2023-02-01
+    latest: "5.15.104"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2021-10-31
 
 -   releaseCycle: "5.10"
     eol: 2026-12-01
     lts: true
-    latest: "5.10.166"
-    latestReleaseDate: 2023-02-01
+    latest: "5.10.176"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2020-12-13
 
 -   releaseCycle: "5.4"
     eol: 2025-12-01
     lts: true
-    latest: "5.4.230"
-    latestReleaseDate: 2023-01-24
+    latest: "5.4.238"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
     eol: 2024-12-01
     lts: true
-    latest: "4.19.271"
-    latestReleaseDate: 2023-01-24
+    latest: "4.19.279"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2018-10-22
 
 -   releaseCycle: "4.14"
     eol: 2024-01-01
     lts: true
-    latest: "4.14.304"
-    latestReleaseDate: 2023-01-24
+    latest: "4.14.311"
+    latestReleaseDate: 2023-03-22
     releaseDate: 2017-11-12
 
 -   releaseCycle: "4.9"

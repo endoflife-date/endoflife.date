@@ -15,20 +15,29 @@ auto:
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
 # minors but only keep the previous major.
+# - support(x) = releaseDate(x+1)
+# - eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "9.3"
-    eol: false
+-   releaseCycle: "9.4"
     support: true
+    eol: false
+    releaseDate: 2023-02-27
+    latest: "9.4.3"
+    latestReleaseDate: 2023-03-02
+
+-   releaseCycle: "9.3"
+    support: 2023-02-27
+    eol: false
     releaseDate: 2022-11-29
-    latest: "9.3.6"
-    latestReleaseDate: 2023-01-26
+    latest: "9.3.11"
+    latestReleaseDate: 2023-03-16
 
 -   releaseCycle: "9.2"
-    support: false
-    eol: false
+    support: 2022-11-29
+    eol: 2023-02-27
     releaseDate: 2022-10-11
-    latest: "9.2.10"
-    latestReleaseDate: 2023-01-24
+    latest: "9.2.15"
+    latestReleaseDate: 2023-03-22
 
 -   releaseCycle: "9.1"
     support: 2022-10-11
@@ -48,8 +57,8 @@ releases:
     support: 2022-06-13
     eol: false
     releaseDate: 2021-06-08
-    latest: "8.5.20"
-    latestReleaseDate: 2023-01-11
+    latest: "8.5.22"
+    latestReleaseDate: 2023-03-22
 
 -   releaseCycle: "7"
     support: 2021-06-08
@@ -82,11 +91,9 @@ Grafana Cloud, the hosted Grafana offering from Grafana Labs has separate
 
 ## [Release Schedule](https://grafana.com/blog/2022/12/13/grafana-releases-new-2023-release-schedule/)
 
-Starting from January 2023, a monthly Grafana release cycle applies:
-
-- On even-numbered months (February, April, etc.) a minor version will be released with new
+- On even-numbered months (February, April, etc.) a minor version is released with new
   features, bug fixes, and security updates.
-- On odd-numbered months (March, May, etc.) patch releases will be made, which will only include bug
+- On odd-numbered months (March, May, etc.) patch releases are made, which will only include bug
   fixes and security updates.
 
 Release builds are cut a week in advance, to validate and prepare for each release internally.

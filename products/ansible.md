@@ -21,8 +21,8 @@ auto:
 releases:
 -   releaseCycle: "7"
     eol: false
-    latest: "7.2.0"
-    latestReleaseDate: 2023-01-31
+    latest: "7.3.0"
+    latestReleaseDate: 2023-02-28
     releaseDate: 2022-11-22
 
 -   releaseCycle: "6"

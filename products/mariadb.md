@@ -26,52 +26,58 @@ auto:
     # Greater than or equal to the first GA release in that cycle.
     # For e.g. for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
     # where (1[2-9]|[2-9]\d) matches 12-19 OR 2-digit numbers starting from 2-9 (ie 20-99)
-    # See https://rubular.com/r/OS1xeaKSCzAaBN for sample testcases before you edit.
+    # See https://rubular.com/r/jbw5wsv80lhy9h for sample testcases before you edit.
     # Note: This will need to be edited when a new GA release is made in a new release cycle
-    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2})))$
+    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>11)\.(?<patch>([2-9]|\d{2})))$
 versionCommand: mysqld --version
 eolColumn: Support Status
 releases:
+-   releaseCycle: "10.11"
+    eol: 2028-02-16
+    latest: "10.11.2"
+    lts: true
+    releaseDate: 2023-02-16
+    latestReleaseDate: 2023-02-16
 -   releaseCycle: "10.10"
     eol: 2023-11-17
-    latest: "10.10.2"
+    latest: "10.10.3"
     releaseDate: 2022-11-07
-    latestReleaseDate: 2022-11-07
+    latestReleaseDate: 2023-02-06
 -   releaseCycle: "10.9"
     eol: 2023-08-22
-    latest: "10.9.4"
+    latest: "10.9.5"
     releaseDate: 2022-08-15
-    latestReleaseDate: 2022-11-07
+    latestReleaseDate: 2023-02-06
 -   releaseCycle: "10.8"
     eol: 2023-05-20
-    latest: "10.8.6"
+    latest: "10.8.7"
     releaseDate: 2022-05-20
-    latestReleaseDate: 2022-11-07
+    latestReleaseDate: 2023-02-06
 -   releaseCycle: "10.7"
     eol: 2023-02-14
-    latest: "10.7.7"
-    latestReleaseDate: 2022-11-07
+    latest: "10.7.8"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2022-02-08
 -   releaseCycle: "10.6"
     eol: 2026-07-06
-    latest: "10.6.11"
+    latest: "10.6.12"
     lts: true
-    latestReleaseDate: 2022-11-07
+    latestReleaseDate: 2023-02-06
     releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
     eol: 2025-06-24
-    latest: "10.5.18"
-    latestReleaseDate: 2022-11-07
+    latest: "10.5.19"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2020-06-23
 -   releaseCycle: "10.4"
     eol: 2024-06-18
-    latest: "10.4.27"
-    latestReleaseDate: 2022-11-07
+    latest: "10.4.28"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2019-06-17
 -   releaseCycle: "10.3"
     eol: 2023-05-25
-    latest: "10.3.37"
-    latestReleaseDate: 2022-11-07
+    latest: "10.3.38"
+    latestReleaseDate: 2023-02-06
     releaseDate: 2018-05-23
 -   releaseCycle: "10.2"
     eol: 2022-05-23

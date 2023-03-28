@@ -15,22 +15,22 @@ releases:
 -   releaseCycle: "3.1"
     support: true
     eol: false
-    latest: "3.1.2"
-    latestReleaseDate: 2023-02-03
+    latest: "3.1.5"
+    latestReleaseDate: 2023-03-20
     releaseDate: 2023-01-23
 
 -   releaseCycle: "3.0"
     support: 2023-01-23
     eol: false
-    latest: "3.0.11"
-    latestReleaseDate: 2023-01-23
+    latest: "3.0.12"
+    latestReleaseDate: 2023-02-28
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.7"
     support: 2023-01-27
     eol: 2023-01-27
-    latest: "2.7.9"
-    latestReleaseDate: 2023-02-03
+    latest: "2.7.11"
+    latestReleaseDate: 2023-03-10
     releaseDate: 2022-09-15
 
 -   releaseCycle: "2.6"

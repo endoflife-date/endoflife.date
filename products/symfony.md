@@ -5,7 +5,7 @@ iconSlug: symfony
 permalink: /symfony
 releasePolicyLink: https://symfony.com/releases
 activeSupportColumn: true
-versionCommand: composer show symfony/symfony | grep versions
+versionCommand: composer show | grep "symfony/"
 changelogTemplate: |
   https://symfony.com/blog/symfony-{{"__LATEST__" | replace:'.','-'}}-released
 releaseDateColumn: true
@@ -16,8 +16,8 @@ releases:
     releaseDate: 2022-11-30
     support: 2023-07-31
     eol: 2023-07-31
-    latest: "6.2.6"
-    latestReleaseDate: 2023-02-01
+    latest: "6.2.7"
+    latestReleaseDate: 2023-02-28
 -   releaseCycle: "6.1"
     releaseDate: 2022-05-27
     support: 2023-01-31
@@ -33,9 +33,9 @@ releases:
 -   releaseCycle: "5.4"
     support: 2024-11-30
     eol: 2025-11-30
-    latest: "5.4.20"
+    latest: "5.4.21"
     lts: true
-    latestReleaseDate: 2023-02-01
+    latestReleaseDate: 2023-02-28
     releaseDate: 2021-11-29
 -   releaseCycle: "5.3"
     support: 2022-01-01
