@@ -22,8 +22,8 @@ auto:
 releases:
 -   releaseCycle: "23.0"
     eol: false
-    latest: "23.0.1"
-    latestReleaseDate: 2023-02-10
+    latest: "23.0.2"
+    latestReleaseDate: 2023-03-28
     releaseDate: 2023-02-02
 
 # 20.10 should expire March 2023, as per guidance

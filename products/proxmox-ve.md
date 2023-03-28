@@ -8,7 +8,7 @@ alternate_urls:
 -   /proxmoxve
 versionCommand: pveversion –v
 releasePolicyLink: https://pve.proxmox.com/wiki/FAQ
-changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___RELEASE_CYCLE__"
+changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___LATEST__"
 releaseDateColumn: true
 
 # https://regex101.com/r/ahCFde/1
