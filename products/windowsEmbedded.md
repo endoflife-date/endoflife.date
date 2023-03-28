@@ -7,6 +7,7 @@ alternate_urls:
 - /windowsembedded
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
+releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
 releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: true
@@ -20,8 +21,8 @@ releases:
 
 -   releaseCycle: "8.1 Pro"
     releaseDate: 2013-11-13
-    support: 2018-01-01
-    eol: 2023-01-01
+    support: 2018-01-09
+    eol: 2023-01-10
     link: https://learn.microsoft.com/lifecycle/products/windows-embedded-81-pro
 
 -   releaseCycle: "Compact 2013"
