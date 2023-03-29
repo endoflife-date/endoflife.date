@@ -1,6 +1,7 @@
 ---
 title: Mastodon
 category: server-app
+tags: javascript-runtime ruby-runtime
 iconSlug: mastodon
 permalink: /mastodon
 releasePolicyLink: https://github.com/mastodon/mastodon/security/policy

@@ -1,6 +1,7 @@
 ---
 title: Neo4j
 category: db
+tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
 versionCommand: "call dbms.components() yield versions unwind versions as version\

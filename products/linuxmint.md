@@ -3,6 +3,7 @@ permalink: /linuxmint
 title: Linux Mint
 versionCommand: cat /etc/linuxmint/info
 category: os
+tags: linux-distribution
 releasePolicyLink: https://linuxmint.com/download_all.php
 activeSupportColumn: true
 releaseDateColumn: true

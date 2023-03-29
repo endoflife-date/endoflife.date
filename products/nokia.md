@@ -5,6 +5,7 @@ alternate_urls:
 -   /hmd
 -   /nokiamobile
 category: device
+tags: mobile-phone
 iconSlug: nokia
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
 activeSupportColumn: false

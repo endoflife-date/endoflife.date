@@ -1,6 +1,7 @@
 ---
 title: RabbitMQ
 category: server-app
+tags: erlang-runtime
 iconSlug: rabbitmq
 permalink: /rabbitmq
 versionCommand: rabbitmqctl --version

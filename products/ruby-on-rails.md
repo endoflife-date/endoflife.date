@@ -11,6 +11,7 @@ releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 category: framework
+tags: ruby-runtime
 auto:
 -   git: https://github.com/rails/rails.git
     regex: v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.(?<tiny>0|[1-9]\d*))?$

@@ -1,6 +1,7 @@
 ---
 title: Internet Explorer
 category: app
+tags: microsoft web-browser
 iconSlug: internetexplorer
 permalink: /internet-explorer
 alternate_urls:

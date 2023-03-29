@@ -1,6 +1,7 @@
 ---
 title: Jira Software
 category: server-app
+tags: atlassian java-runtime
 iconSlug: jirasoftware
 permalink: /jira-software
 alternate_urls:

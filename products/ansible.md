@@ -1,6 +1,7 @@
 ---
 title: Ansible
 category: app
+tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:

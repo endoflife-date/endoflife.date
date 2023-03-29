@@ -1,6 +1,7 @@
 ---
 title: Confluence
 category: server-app
+tags: atlassian java-runtime
 iconSlug: confluence
 permalink: /confluence
 alternate_urls:

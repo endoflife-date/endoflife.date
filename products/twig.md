@@ -2,6 +2,7 @@
 title: Twig
 permalink: /twig
 category: framework
+tags: php-runtime
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true

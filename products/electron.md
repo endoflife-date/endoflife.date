@@ -1,6 +1,7 @@
 ---
 title: Electron
 category: framework
+tags: javascript-runtime
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version

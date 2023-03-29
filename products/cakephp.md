@@ -1,6 +1,7 @@
 ---
 title: CakePHP
 category: framework
+tags: php-runtime
 iconSlug: cakephp
 permalink: /cakephp
 alternate_urls:

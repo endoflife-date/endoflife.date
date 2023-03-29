@@ -1,6 +1,7 @@
 ---
 title: Nutanix AOS
 category: os
+tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version

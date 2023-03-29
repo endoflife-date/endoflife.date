@@ -1,6 +1,7 @@
 ---
 title: Apache Maven
 category: app
+tags: apache java-runtime
 versionCommand: mvn --version
 permalink: /maven
 alternate_urls:

@@ -1,6 +1,7 @@
 ---
 title: Apple watchOS
 category: os
+tags: apple smartwatch
 iconSlug: apple
 permalink: /watchos
 releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history

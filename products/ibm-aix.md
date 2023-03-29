@@ -1,6 +1,7 @@
 ---
 title: IBM AIX
 category: os
+tags: ibm
 iconSlug: ibm
 permalink: /ibm-aix
 alternate_urls:

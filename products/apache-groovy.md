@@ -5,6 +5,7 @@ alternate_urls:
 -   /groovy
 -   /groovy-lang
 category: lang
+tags: apache java-runtime
 iconSlug: apachegroovy
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html

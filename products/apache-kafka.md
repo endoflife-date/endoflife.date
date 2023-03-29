@@ -1,6 +1,7 @@
 ---
 title: Apache Kafka
 category: server-app
+tags: apache java-runtime
 iconSlug: apachekafka
 permalink: /apache-kafka
 alternate_urls:

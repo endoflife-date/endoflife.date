@@ -1,6 +1,7 @@
 ---
 title: MX Linux
 category: os
+tags: linux-distribution
 iconSlug: mxlinux
 permalink: /mxlinux
 alternate_urls:

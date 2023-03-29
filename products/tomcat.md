@@ -1,6 +1,7 @@
 ---
 title: Apache Tomcat
 category: server-app
+tags: apache web-server
 iconSlug: apachetomcat
 permalink: /tomcat
 versionCommand: ./bin/version.sh

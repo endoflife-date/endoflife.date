@@ -1,6 +1,7 @@
 ---
 title: Alpine Linux
 category: os
+tags: linux-distribution
 iconSlug: alpinelinux
 permalink: /alpine
 alternate_urls:

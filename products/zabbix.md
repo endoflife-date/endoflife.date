@@ -1,6 +1,7 @@
 ---
 title: Zabbix
 category: server-app
+tags: php-runtime
 permalink: /zabbix
 versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy

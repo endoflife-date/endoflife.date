@@ -1,6 +1,7 @@
 ---
 title: Symfony
 category: framework
+tags: php-runtime
 iconSlug: symfony
 permalink: /symfony
 versionCommand: composer show | grep "symfony/"

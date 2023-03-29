@@ -1,6 +1,7 @@
 ---
 title: Varnish
 category: server-app
+tags: web-server
 permalink: /varnish
 versionCommand: varnishd -V
 releasePolicyLink: https://varnish-cache.org/releases/

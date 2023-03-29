@@ -2,6 +2,7 @@
 permalink: /oraclelinux
 title: Oracle Linux
 category: os
+tags: linux-distribution oracle
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 releaseDateColumn: true

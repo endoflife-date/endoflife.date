@@ -1,6 +1,7 @@
 ---
 title: Apple macOS
 category: os
+tags: apple
 iconSlug: macos
 permalink: /macos
 alternate_urls:

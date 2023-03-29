@@ -1,6 +1,7 @@
 ---
 title: Amazon Corretto
 category: lang
+tags: amazon java-distribution
 iconSlug: openjdk
 permalink: /amazon-corretto
 alternate_urls:

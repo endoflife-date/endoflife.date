@@ -1,6 +1,7 @@
 ---
 title: Microsoft .NET Framework
 category: framework
+tags: microsoft
 iconSlug: dotnet
 permalink: /dotnetfx
 alternative_urls:

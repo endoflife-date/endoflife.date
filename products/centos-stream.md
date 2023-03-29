@@ -1,6 +1,7 @@
 ---
 title: CentOS Stream
 category: os
+tags: linux-distribution
 iconSlug: centos
 permalink: /centos-stream
 versionCommand: cat /etc/redhat-release

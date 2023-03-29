@@ -1,6 +1,7 @@
 ---
 title: Amazon RDS for PostgreSQL
 category: service
+tags: amazon managed-postgresql
 iconSlug: amazonaws
 permalink: /amazon-rds-postgresql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html

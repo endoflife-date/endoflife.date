@@ -1,6 +1,7 @@
 ---
 title: nginx
 category: server-app
+tags: web-server
 iconSlug: nginx
 permalink: /nginx
 versionCommand: nginx -v

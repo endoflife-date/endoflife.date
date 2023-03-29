@@ -1,6 +1,7 @@
 ---
 title: Laravel
 category: framework
+tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions

@@ -1,6 +1,7 @@
 ---
 title: JReleaser
 category: app
+tags: java-runtime
 permalink: /jreleaser
 versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html

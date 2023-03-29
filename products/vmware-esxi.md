@@ -1,6 +1,7 @@
 ---
 title: VMware ESXi
 category: os
+tags: vmware
 iconSlug: vmware
 permalink: /esxi
 alternate_urls:

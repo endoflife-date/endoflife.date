@@ -1,6 +1,7 @@
 ---
 title: Oracle Database
 category: db
+tags: oracle
 iconSlug: oracle
 permalink: /oracle-database
 versionCommand: SELECT BANNER_FULL FROM V$VERSION;

@@ -1,6 +1,7 @@
 ---
 title: Mule Runtime
 category: server-app
+tags: java-runtime
 iconSlug: mulesoft
 permalink: /mulesoft-runtime
 alternate_urls:

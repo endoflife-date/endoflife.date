@@ -1,6 +1,7 @@
 ---
 title: GraalVM
 category: lang
+tags: java-distribution oracle
 permalink: /graalvm
 releasePolicyLink: https://www.graalvm.org/release-notes/release-calendar/
 changelogTemplate: "https://www.graalvm.org/latest/release-notes/{{ '__RELEASE_CYCLE__' | replace:'.','_' }}/"

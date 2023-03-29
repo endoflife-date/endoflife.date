@@ -1,6 +1,7 @@
 ---
 title: Amazon Linux
 category: os
+tags: amazon linux-distribution
 iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
@@ -192,9 +193,9 @@ AWS announced [Amazon Linux 2023][al2023] [^1] as a successor to
 Amazon Linux 2, which uses Fedora as the upstream. It reached
 GA (General Availability) in March 2023.
 
-Every major version release is supported by Standard Support for 2 years, 
+Every major version release is supported by Standard Support for 2 years,
 followed by a maintenance phase of 3 years. Quarterly minor releases will be made
-during the Standard Support phase and include security updates, 
+during the Standard Support phase and include security updates,
 bug fixes, and new features and packages. Minor releases do not
 break backward-compatibility.
 

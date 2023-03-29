@@ -1,6 +1,7 @@
 ---
 title: Wagtail
 category: framework
+tags: python-runtime
 iconSlug: wagtail
 permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"

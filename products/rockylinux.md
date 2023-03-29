@@ -1,6 +1,7 @@
 ---
 title: Rocky Linux
 category: os
+tags: linux-distribution
 iconSlug: rockylinux
 permalink: /rocky-linux
 alternate_urls:

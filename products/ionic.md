@@ -1,6 +1,7 @@
 ---
 title: Ionic Framework
 category: framework
+tags: javascript-runtime
 iconSlug: ionic
 permalink: /ionic
 alternate_urls:

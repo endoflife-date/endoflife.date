@@ -5,6 +5,7 @@ alternate_urls:
 -   /nvidia-products
 -   /nvidia-gpus
 category: device
+tags: nvidia
 iconSlug: nvidia
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
 activeSupportColumn: true

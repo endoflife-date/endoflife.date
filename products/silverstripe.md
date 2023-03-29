@@ -1,12 +1,13 @@
 ---
 title: Silverstripe CMS
 category: server-app
+tags: php-runtime
 permalink: /silverstripe
 alternate_urls:
 -   /silverstripe-cms
 -   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: 
+releaseImage:
   https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: https://github.com/silverstripe/silverstripe-cms/releases/__LATEST__

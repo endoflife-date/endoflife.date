@@ -1,6 +1,7 @@
 ---
 title: Nexus Repository OSS
 category: server-app
+tags: java-runtime
 # https://github.com/simple-icons/simple-icons/issues/7924
 permalink: /nexus
 alternate_urls:

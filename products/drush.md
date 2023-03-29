@@ -3,6 +3,7 @@ title: Drush
 permalink: /drush
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 category: app
+tags: php-runtime
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true

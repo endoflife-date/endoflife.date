@@ -1,6 +1,7 @@
 ---
 title: Elasticsearch
 category: db
+tags: elastic java-runtime
 iconSlug: elasticsearch
 permalink: /elasticsearch
 versionCommand: $ES_HOME/bin/elasticsearch -v

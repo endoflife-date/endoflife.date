@@ -1,6 +1,7 @@
 ---
 title: phpMyAdmin
 category: server-app
+tags: php-runtime
 iconSlug: phpmyadmin
 permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support

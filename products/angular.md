@@ -1,6 +1,7 @@
 ---
 title: Angular
 category: framework
+tags: google javascript-runtime
 iconSlug: angular
 permalink: /angular
 versionCommand: ng version

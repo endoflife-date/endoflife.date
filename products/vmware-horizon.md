@@ -1,6 +1,7 @@
 ---
 title: VMware Horizon
 category: app
+tags: vmware
 iconSlug: vmware
 permalink: /horizon
 alternate_urls:

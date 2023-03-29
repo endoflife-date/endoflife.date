@@ -1,6 +1,7 @@
 ---
 title: Nextcloud
 category: server-app
+tags: php-runtime
 iconSlug: nextcloud
 permalink: /nextcloud
 releasePolicyLink: https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule

@@ -1,6 +1,7 @@
 ---
 title: Logstash
 category: server-app
+tags: elastic
 iconSlug: logstash
 permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy

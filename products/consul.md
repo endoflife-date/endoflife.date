@@ -1,6 +1,7 @@
 ---
 title: Hashicorp Consul
 category: server-app
+tags: hashicorp
 iconSlug: consul
 permalink: /consul
 versionCommand: consul --version

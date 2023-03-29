@@ -1,6 +1,7 @@
 ---
 title: Google Kubernetes Engine
 category: service
+tags: google managed-kubernetes
 iconSlug: kubernetes
 permalink: /google-kubernetes-engine
 alternate_urls:

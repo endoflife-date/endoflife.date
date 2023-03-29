@@ -1,6 +1,7 @@
 ---
 title: Amazon EKS
 category: service
+tags: amazon managed-kubernetes
 iconSlug: amazoneks
 permalink: /amazon-eks
 versionCommand: eksctl get cluster --name=cluster-name

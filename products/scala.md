@@ -1,6 +1,7 @@
 ---
 title: Scala
 category: lang
+tags: java-runtime
 iconSlug: scala
 permalink: /scala
 alternate_urls:

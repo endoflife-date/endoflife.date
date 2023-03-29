@@ -1,6 +1,7 @@
 ---
 title: TYPO3
 category: server-app
+tags: php-runtime
 permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
 changelogTemplate: https://get.typo3.org/release-notes/__LATEST__

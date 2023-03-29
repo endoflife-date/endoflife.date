@@ -1,6 +1,7 @@
 ---
 title: Microsoft Visual Studio
 category: app
+tags: microsoft
 iconSlug: visualstudio
 permalink: /visual-studio
 alternate_urls:

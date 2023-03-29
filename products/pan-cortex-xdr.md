@@ -1,6 +1,7 @@
 ---
 title: Palo Alto Networks Cortex XDR agent
 category: app
+tags: palo-alto-networks
 permalink: /cortex-xdr
 alternate_urls:
 -   /pan-xdr

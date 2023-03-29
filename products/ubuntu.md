@@ -1,6 +1,7 @@
 ---
 title: Ubuntu
 category: os
+tags: linux-distribution
 iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release

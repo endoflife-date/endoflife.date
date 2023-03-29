@@ -1,6 +1,7 @@
 ---
 title: Tails
 category: os
+tags: linux-distribution
 iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version

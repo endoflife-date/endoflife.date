@@ -1,6 +1,7 @@
 ---
 title: Dependency-Track
 category: server-app
+tags: java-runtime
 permalink: /dependency-track
 alternate_urls:
 -   /dependencytrack
