@@ -1,6 +1,7 @@
 ---
 title: Firefox
 category: app
+tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
 releasePolicyLink: https://www.mozilla.org/firefox/

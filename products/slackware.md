@@ -1,6 +1,7 @@
 ---
 title: Slackware Linux
 category: os
+tags: linux-distribution
 iconSlug: slackware
 permalink: /slackware
 alternate_urls:

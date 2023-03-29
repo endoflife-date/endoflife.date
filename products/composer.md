@@ -1,6 +1,7 @@
 ---
 title: Composer
 category: app
+tags: php-runtime
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
 iconSlug: composer
 permalink: /composer

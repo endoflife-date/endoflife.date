@@ -1,6 +1,7 @@
 ---
 title: Quarkus
 category: framework
+tags: java-runtime
 iconSlug: quarkus
 permalink: /quarkus-framework
 alternate_urls:

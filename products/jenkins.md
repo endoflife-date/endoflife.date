@@ -1,6 +1,7 @@
 ---
 title: Jenkins
 category: server-app
+tags: java-runtime
 iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/

@@ -1,6 +1,7 @@
 ---
 title: OpenSearch
 category: db
+tags: amazon java-runtime
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html

@@ -1,6 +1,7 @@
 ---
 title: Apache Log4j
 category: framework
+tags: java-runtime
 iconSlug: apache
 permalink: /log4j
 alternate_urls:

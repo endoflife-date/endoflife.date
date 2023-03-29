@@ -1,6 +1,7 @@
 ---
 title: JHipster
 category: app
+tags: java-runtime javascript-runtime
 permalink: /jhipster
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/

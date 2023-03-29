@@ -1,6 +1,7 @@
 ---
 title: Craft CMS
 category: server-app
+tags: php-runtime
 iconSlug: craftcms
 permalink: /craft-cms
 alternate_urls:

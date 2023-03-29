@@ -1,6 +1,7 @@
 ---
 title: Yocto Project
 category: os
+tags: linux-distribution
 permalink: /yocto
 alternate_urls:
 -   /yocto-project

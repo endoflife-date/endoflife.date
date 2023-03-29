@@ -1,6 +1,7 @@
 ---
 title: Apple iPadOS
 category: os
+tags: apple
 iconSlug: apple
 permalink: /ipados
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview

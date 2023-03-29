@@ -1,6 +1,7 @@
 ---
 title: Plesk
 category: server-app
+tags: php-runtime
 iconSlug: plesk
 permalink: /plesk
 versionCommand: plesk version

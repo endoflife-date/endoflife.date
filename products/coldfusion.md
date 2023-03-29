@@ -1,6 +1,7 @@
 ---
 title: Adobe ColdFusion
 category: server-app
+tags: adobe
 iconSlug: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);

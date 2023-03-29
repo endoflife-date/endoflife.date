@@ -1,6 +1,7 @@
 ---
 title: FortiOS
 category: os
+tags: fortinet
 alternate_urls:
 -   /fortinet
 iconSlug: fortinet

@@ -1,6 +1,7 @@
 ---
 title: Bellsoft Liberica JDK
 category: lang
+tags: bellsoft java-distribution
 iconSlug: openjdk
 permalink: /bellsoft-liberica
 alternate_urls:

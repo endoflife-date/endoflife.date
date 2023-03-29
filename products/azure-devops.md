@@ -1,6 +1,7 @@
 ---
 title: Azure DevOps Server
 category: server-app
+tags: microsoft
 iconSlug: azuredevops
 permalink: /azure-devops-server
 alternate_urls:

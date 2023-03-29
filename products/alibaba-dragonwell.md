@@ -1,6 +1,7 @@
 ---
 title: Alibaba Dragonwell
 category: lang
+tags: alibaba java-distribution
 iconSlug: openjdk
 permalink: /alibaba-dragonwell
 

@@ -1,6 +1,7 @@
 ---
 title: Bootstrap
 category: framework
+tags: css-runtime javascript-runtime
 iconSlug: bootstrap
 permalink: /bootstrap
 activeSupportColumn: true

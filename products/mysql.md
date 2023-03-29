@@ -1,6 +1,7 @@
 ---
 title: MySQL
 category: db
+tags: oracle
 iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version

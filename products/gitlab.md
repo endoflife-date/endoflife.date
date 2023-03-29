@@ -1,6 +1,7 @@
 ---
 title: GitLab
 category: server-app
+tags: gitlab
 iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info

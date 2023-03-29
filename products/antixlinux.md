@@ -1,6 +1,7 @@
 ---
 title: antiX Linux
 category: os
+tags: linux-distribution
 permalink: /antix
 alternate_urls:
 -   /antixlinux

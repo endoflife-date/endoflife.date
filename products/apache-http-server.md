@@ -1,6 +1,7 @@
 ---
 title: Apache HTTP Server
 category: server-app
+tags: apache web-server
 iconSlug: apache
 permalink: /apache
 alternate_urls:

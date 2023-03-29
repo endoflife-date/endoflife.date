@@ -1,6 +1,7 @@
 ---
 title: Nomad
 category: server-app
+tags: hashicorp
 permalink: /nomad
 versionCommand: nomad --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113

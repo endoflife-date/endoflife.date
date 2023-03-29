@@ -1,6 +1,7 @@
 ---
 title: VMware vCenter Server
 category: app
+tags: vmware
 iconSlug: vmware
 permalink: /vcenter
 alternate_urls:

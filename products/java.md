@@ -1,6 +1,7 @@
 ---
 title: Java/OpenJDK
 category: lang
+tags: java-distribution oracle
 iconSlug: openjdk
 permalink: /java
 alternate_urls:

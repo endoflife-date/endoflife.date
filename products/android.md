@@ -1,6 +1,7 @@
 ---
 title: Android OS
 category: os
+tags: google
 iconSlug: android
 permalink: /android
 alternate_urls:

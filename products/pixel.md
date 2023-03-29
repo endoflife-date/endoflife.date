@@ -1,6 +1,7 @@
 ---
 title: Google Pixel
 category: device
+tags: google mobile-phone
 iconSlug: google
 permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"

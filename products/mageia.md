@@ -1,6 +1,7 @@
 ---
 title: Mageia
 category: os
+tags: linux-distribution
 permalink: /mageia
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://www.mageia.org/support/

@@ -1,6 +1,7 @@
 ---
 title: Red Hat Enterprise Linux
 category: os
+tags: red-hat
 iconSlug: redhat
 permalink: /rhel
 alternate_urls:

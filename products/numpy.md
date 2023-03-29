@@ -1,6 +1,7 @@
 ---
 title: NumPy
 category: framework
+tags: python-runtime
 iconSlug: numpy
 permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html

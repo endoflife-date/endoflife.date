@@ -1,6 +1,7 @@
 ---
 title: Hashicorp Terraform
 category: app
+tags: hashicorp
 iconSlug: terraform
 permalink: /terraform
 versionCommand: terraform --version

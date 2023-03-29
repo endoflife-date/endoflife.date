@@ -1,6 +1,7 @@
 ---
 title: Debian
 category: os
+tags: linux-distribution
 iconSlug: debian
 permalink: /debian
 versionCommand: cat /etc/os-release

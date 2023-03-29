@@ -1,6 +1,7 @@
 ---
 title: HAProxy
 category: server-app
+tags: web-server
 permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/

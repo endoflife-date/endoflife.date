@@ -1,6 +1,7 @@
 ---
 title: Joomla!
 category: server-app
+tags: php-runtime
 iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle

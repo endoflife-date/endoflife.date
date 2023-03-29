@@ -2,6 +2,7 @@
 permalink: /eurolinux
 title: EuroLinux
 category: os
+tags: linux-distribution
 versionCommand: lsb_release --release
 releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
 activeSupportColumn: true

@@ -1,6 +1,7 @@
 ---
 title: Spring Framework
 category: framework
+tags: java-runtime vmware
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
