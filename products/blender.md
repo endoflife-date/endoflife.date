@@ -16,12 +16,17 @@ auto:
 -   git: https://github.com/blender/blender.git
 
 releases:
-# 3.5 was still in beta on 2023-03-07, so the release is still marked as supported / not eol for the
-# time being. See https://github.com/endoflife-date/endoflife.date/pull/2725#discussion_r1144817190.
+-   releaseCycle: "3.5"
+    releaseDate: 2023-03-29
+    support: 2023-07-01
+    eol: 2023-07-01
+    latest: "3.5.0"
+    latestReleaseDate: 2023-03-29
+
 -   releaseCycle: "3.4"
     releaseDate: 2022-12-07
-    support: true
-    eol: false
+    support: 2023-04-01
+    eol: 2023-04-01
     latest: "3.4.1"
     latestReleaseDate: 2022-12-20
 
