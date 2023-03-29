@@ -23,8 +23,9 @@ a {
   // Icons are 50x50, so this adds another 10 pixels
   min-height: 60px;
 }
-.productlogo {
+.product-logo {
   float: left;
+  margin-right: .5em;
 }
 .bg-light {
   background-color: #f8f9fa !important;
@@ -73,4 +74,8 @@ body {
     margin-left: -2.1rem;
     margin-bottom: -.3rem;
   }
+}
+
+.align-items-center {
+  align-items: center;
 }
