@@ -1,11 +1,11 @@
 ---
 title: Istio
 category: server-app
-iconSlug: Istio
+iconSlug: istio
 permalink: /istio
 versionCommand: istioctl version
 releasePolicyLink: https://istio.io/latest/docs/releases/supported-releases/#support-policy
-changelogTemplate: https://istio.io/latest/news/releases/1.17.x/announcing-1.17.1/
+changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-__LATEST__/
 activeSupportColumn: false
 releaseDateColumn: true
 
@@ -46,11 +46,6 @@ releases:
 
 ---
 
-> [Istio](https://www.istio.io/) addresses the challenges developers and operators face with a distributed or microservices architecture.
+> [Istio](https://www.istio.io/) is a service mesh that extends Kubernetes to establish a programmable, application-aware network using the Envoy service proxy. Working with both Kubernetes and traditional workloads, Istio brings standard, universal traffic management, telemetry, and security to complex deployments.
 
-Support provided until 6 weeks after the N+2 minor release (ex. 1.14 supported until 6 weeks after 1.16.0 is released)
-
-A major release is identified by a change in the first (X) or second (Y) digit in the following
-versioning nomenclature: `Version X.Y.Z.`
-
-Istio's support period and EoL Policies are documented on their [website](https://istio.io/latest/docs/releases/supported-releases/#support-policy).
+Istio follows [Semantic Versioning](https://istio.io/latest/docs/releases/supported-releases/#naming-scheme). A new minor version is released approximately once a quarter. Minor releases are supported for 6 weeks after the N+2 minor release (for example 1.14 supported until 6 weeks after 1.16.0 is released).
