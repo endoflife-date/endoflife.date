@@ -129,9 +129,9 @@ releases:
 > companies.
 
 Mattermost backports high-severity or high-impact security fixes to the previous three monthly
-releases and to supported [ESR releases](https://docs.mattermost.com/upgrade/extended-support-release.html).
-A new ESR release is made when a significant number of new features and improvements
-have been added to the product, and have had sufficient time to stabilize. A new ESR
-is released twice a year in January and July. ESR releases are supported for nine months.
+releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release.html).
+A new ESR release is made when a significant number of new features and improvements have been added
+to the product, and have had sufficient time to stabilize. A new ESR is released twice a year in
+January and July. ESR releases are supported for nine months.
 
 Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).
