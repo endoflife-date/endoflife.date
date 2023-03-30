@@ -247,11 +247,11 @@ is not guaranteed. [Version 3.7 to 4.0 won't get security updates after Dec 1, 2
 
 ## [PHP Support](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/)
 
-:warning: Note that PHP 8 compatibility is 
+:warning: Note that PHP 8 compatibility is
 [considered as beta](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/),
 and thoroughly testing a site is recommended before upgrading it to PHP 8.
 
-{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPHPVersions"," - " %}
+{%- assign collapsedCycles = page.releases  | where_exp:"r","r.releaseCycle != '3.6'" | collapse_cycles:"supportedPHPVersions"," - " %}
 {% include table.html
   labels="Release,Supported PHP Versions"
   fields="releaseCycle,supportedPHPVersions"
