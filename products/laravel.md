@@ -9,6 +9,7 @@ changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
 releaseDateColumn: true
 
+# Note that laravel/laravel is just a started application.
 auto:
 -   git: https://github.com/laravel/framework.git
 
@@ -18,6 +19,7 @@ identifiers:
 -   purl: pkg:docker/bitnami/laravel
 -   purl: pkg:github/laravel/framework
 
+# Support/EOL dates and supported PHP versions can be found on https://laravel.com/docs/9.x/releases#support-policy
 releases:
 -   releaseCycle: "10"
     releaseDate: 2023-02-14
