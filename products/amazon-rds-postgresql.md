@@ -6,8 +6,8 @@ permalink: /amazon-rds-postgresql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
 releaseDateColumn: true
 
-# Auto updates are possible using a custom script.
-# Releases and their date are documented on https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+auto:
+-   custom: true
 
 releases:
 -   releaseCycle: "15"
