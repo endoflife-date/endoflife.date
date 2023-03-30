@@ -22,7 +22,6 @@ releases:
     lts: false
     latestReleaseDate: 2023-03-28
     releaseDate: 2022-11-01
-    link: https://github.com/vuetifyjs/vuetify/releases/tag/v3.1.12
 
 -   releaseCycle: "2"
     support: 2021-11-15
