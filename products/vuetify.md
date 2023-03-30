@@ -34,7 +34,7 @@ releases:
     link: https://github.com/vuetifyjs/vuetify/releases/tag/v2.6.14
 
 -   releaseCycle: "1.5"
-    support: 2020-07-31
+    support: 2019-06-24
     eol: 2020-07-31
     latest: "1.5.23"
     lts: 2019-07-31
