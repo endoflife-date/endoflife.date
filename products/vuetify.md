@@ -47,9 +47,7 @@ releases:
 > [Vuetify](https://vuetifyjs.com/) is a no design skills required UI Library with 
 > beautifully handcrafted Vue Components.
 
-[Vuetify release cycle](https://vuetifyjs.com/en/introduction/long-term-support/). 
-Vuetify provides long-term support to the last major release for 18 months
-for critical bugs and security vulnerabilities.
+Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/en/introduction/long-term-support/) from the date of release of the last minor version in a given cycle, which marks the start of LTS.
 
 We understand that many projects that utilize Vuetify have development cycles
 that prevent upgrading to the latest version. In order to provide developers
