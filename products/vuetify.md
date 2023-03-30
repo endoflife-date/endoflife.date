@@ -25,7 +25,7 @@ releases:
     link: https://github.com/vuetifyjs/vuetify/releases/tag/v3.1.12
 
 -   releaseCycle: "2"
-    support: true
+    support: 2021-11-15
     eol: false
     latest: "2.6.14"
     lts: false
