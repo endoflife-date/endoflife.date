@@ -24,26 +24,26 @@ identifiers:
 releases:
 -   releaseCycle: "3.2"
     eol: 2026-03-31
-    latest: "3.2.1"
-    latestReleaseDate: 2023-02-08
+    latest: "3.2.2"
+    latestReleaseDate: 2023-03-30
     releaseDate: 2022-12-25
 
 -   releaseCycle: "3.1"
     eol: 2025-03-31
-    latest: "3.1.3"
-    latestReleaseDate: 2022-11-24
+    latest: "3.1.4"
+    latestReleaseDate: 2023-03-30
     releaseDate: 2021-12-25
 
 -   releaseCycle: "3.0"
     eol: 2024-03-31
-    latest: "3.0.5"
-    latestReleaseDate: 2022-11-24
+    latest: "3.0.6"
+    latestReleaseDate: 2023-03-30
     releaseDate: 2020-12-25
 
 -   releaseCycle: "2.7"
     eol: 2023-03-31
-    latest: "2.7.7"
-    latestReleaseDate: 2022-11-24
+    latest: "2.7.8"
+    latestReleaseDate: 2023-03-30
     releaseDate: 2019-12-25
 
 -   releaseCycle: "2.6"
