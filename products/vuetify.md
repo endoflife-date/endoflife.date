@@ -5,7 +5,7 @@ iconSlug: vuetify
 permalink: /vuetify
 
 versionCommand: npm list vuetify
-releasePolicyLink: https://vuetifyjs.com/en/introduction/roadmap/#released
+releasePolicyLink: https://vuetifyjs.com/en/introduction/long-term-support/
 activeSupportColumn: true
 releaseDateColumn: true
 
