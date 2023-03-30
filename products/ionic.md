@@ -22,6 +22,7 @@ releases:
     releaseDate: 2021-12-08
     support: 2023-03-29
     eol: false
+    extendedSupport: false
     latest: "6.7.1"
     latestReleaseDate: 2023-03-29
 
@@ -29,6 +30,7 @@ releases:
     releaseDate: 2021-12-08
     support: 2023-03-29
     eol: false
+    extendedSupport: false
     latest: "6.7.2"
     latestReleaseDate: 2023-04-05
 
