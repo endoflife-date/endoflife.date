@@ -6,6 +6,7 @@ permalink: /vuetify
 
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/en/introduction/long-term-support/
+changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
