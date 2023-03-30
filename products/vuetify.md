@@ -38,7 +38,6 @@ releases:
     lts: 2019-07-31
     latestReleaseDate: 2020-02-21
     releaseDate: 2019-02-05
-    link: https://github.com/vuetifyjs/vuetify/releases/tag/v1.5.23
 
 ---
 
