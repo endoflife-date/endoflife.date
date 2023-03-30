@@ -41,6 +41,6 @@ releases:
 
 LineageOS maintains two versions at the same time. Devices that are not ported to one of the two latest versions stop being supported. A list of supported devices is available at the [LineageOS Wiki](https://wiki.lineageos.org/devices/).
 
-Some devices which didn't upgraded to 19.1 or 20.0 are still getting 18.1 monthly updates with latest Android Security Patch, but may dropped in the future.
+Some devices that weren't upgraded to 19.1 or 20.0 are still getting 18.1 monthly updates with latest Android Security Patch.
 
-Some old branches may still get security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions. For details, please visit [LineageOS Gerrit](https://review.lineageos.org/) to check commits.
+Some old branches may still get security updates via Android Security Patches, but users will have to do their own builds to get these updates - official builds are only maintained for the last two versions (with the exception of devices stuck on 18.1). For details, please visit [LineageOS Gerrit](https://review.lineageos.org/) to check commits.
