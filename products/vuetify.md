@@ -14,6 +14,8 @@ releaseDateColumn: true
 auto:
 -   npm: vuetify
 
+identifiers:
+-   purl: pkg:npm/vuetify
 releases:
 -   releaseCycle: "3"
     support: true
