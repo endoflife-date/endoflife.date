@@ -23,6 +23,13 @@ identifiers:
 -   purl: pkg:docker/rapidfort/wordpress
 
 releases:
+-   releaseCycle: "6.2"
+    eol: false
+    support: true
+    releaseDate: 2023-03-29
+    latest: "6.2.0"
+    latestReleaseDate: 2023-03-29
+
 -   releaseCycle: "6.1"
     eol: false
     support: true
@@ -214,8 +221,13 @@ is not guaranteed. [Version 3.7 to 4.0 won't get security updates after Dec 1, 2
 
 ## [PHP Support](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/)
 
+:warning: Note that PHP 8 compatibility is 
+[considered as beta](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/),
+and thoroughly testing a site is recommended before upgrading it to PHP 8.
+
 | WordPress Version  | Supported PHP Versions |
 ---------------------|------------------------|
+| 6.2                | 5.6 - 8.2              |
 | 6.1                | 5.6 - 8.2              |
 | 5.9 - 6.0          | 5.6 - 8.1              |
 | 5.6 - 5.8          | 5.6 - 8.0              |
