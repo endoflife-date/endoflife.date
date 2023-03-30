@@ -3,8 +3,6 @@ title: Vuetify
 category: framework
 iconSlug: vuetify
 permalink: /vuetify
-alternate_urls:
--   /vuetify
 
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/en/introduction/roadmap/#released
