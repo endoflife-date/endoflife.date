@@ -30,7 +30,7 @@ releases:
     support: true
     eol: false
     latest: "2.6.14"
-    lts: true
+    lts: false
     latestReleaseDate: 2023-01-10
     releaseDate: 2019-07-23
     link: https://github.com/vuetifyjs/vuetify/releases/tag/v2.6.14
