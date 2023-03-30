@@ -49,7 +49,3 @@ releases:
 
 Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/en/introduction/long-term-support/) from the date of release of the last minor version in a given cycle, which marks the start of LTS.
 
-We understand that many projects that utilize Vuetify have development cycles
-that prevent upgrading to the latest version. In order to provide developers
-and businesses peace of mind when adopting Vuetify, we commit to at minimu
-of 18 months for critical bugs and security vulnerabilities for the latest minor of the last major release.
