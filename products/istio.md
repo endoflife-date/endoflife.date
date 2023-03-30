@@ -11,6 +11,16 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/istio/istio.git
+-   purl: pkg:docker/istio/pilot
+-   purl: pkg:docker/istio/distroless
+-   purl: pkg:docker/istio/install-cni
+-   purl: pkg:docker/istio/app
+-   purl: pkg:docker/istio/proxyv2
+-   purl: pkg:docker/istio/operator
+-   repology: istio
+-   repology: istioctl
+-   repology: go:istio-pkg
+-   repology: go:istio-api
 
 identifiers:
 -   repology: istioctl
