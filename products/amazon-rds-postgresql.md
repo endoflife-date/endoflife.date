@@ -11,13 +11,13 @@ auto:
 
 releases:
 -   releaseCycle: "15"
-    releaseDate: 2023-02-28
+    releaseDate: 2023-02-27
     eol: 2027-11-01
     latest: "15.2"
     latestReleaseDate: 2023-02-28
 
 -   releaseCycle: "14"
-    releaseDate: 2022-02-03
+    releaseDate: 2022-01-27
     eol: 2026-11-01
     latest: "14.7"
     latestReleaseDate: 2023-03-07
