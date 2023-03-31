@@ -25,7 +25,9 @@ releases:
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
-    latest: "unknown"
+    latest: "5.6"
+
+    latestReleaseDate: 2013-07-01
 
 ---
 

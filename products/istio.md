@@ -53,7 +53,7 @@ releases:
     latestReleaseDate: 2023-02-21
 
 -   releaseCycle: "1.14"
-    releaseDate: 2022-05-24
+    releaseDate: 2022-06-01
     eol: 2022-12-27
     supportedKubernetesVersions: 1.21 - 1.24
     latest: "1.14.6"
@@ -78,14 +78,14 @@ releases:
     eol: 2022-03-25
     supportedKubernetesVersions: 1.18 - 1.22
     latest: "1.11.8"
-    latestReleaseDate: 2022-03-10
+    latestReleaseDate: 2022-03-09
 
 -   releaseCycle: "1.10"
     releaseDate: 2021-05-18
     eol: 2022-01-07
     supportedKubernetesVersions: 1.18 - 1.21
     latest: "1.10.6"
-    latestReleaseDate: 2021-12-07
+    latestReleaseDate: 2021-12-06
 
 -   releaseCycle: "1.9"
     releaseDate: 2021-02-09
@@ -95,7 +95,7 @@ releases:
     latestReleaseDate: 2021-10-08
 
 -   releaseCycle: "1.8"
-    releaseDate: 2020-11-10
+    releaseDate: 2020-11-19
     eol: 2021-05-12
     supportedKubernetesVersions: 1.16 - 1.19
     latest: "1.8.6"

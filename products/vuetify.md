@@ -22,7 +22,7 @@ releases:
     latest: "3.1.12"
     lts: false
     latestReleaseDate: 2023-03-28
-    releaseDate: 2022-11-01
+    releaseDate: 2022-10-31
 
 -   releaseCycle: "2"
     support: 2021-11-15
@@ -35,9 +35,9 @@ releases:
 -   releaseCycle: "1.5"
     support: 2019-06-24
     eol: 2020-07-31
-    latest: "1.5.23"
+    latest: "1.5.24"
     lts: 2019-07-31
-    latestReleaseDate: 2020-02-21
+    latestReleaseDate: 2020-03-03
     releaseDate: 2019-02-05
 
 ---
@@ -45,4 +45,3 @@ releases:
 > [Vuetify](https://vuetifyjs.com/) is an open-source Vue Component Framework. It is a collection of consistently styled UI components with features such as dynamic themes, global defaults, application layouts, and more.
 
 Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/en/introduction/long-term-support/) from the date of release of the last minor version in a given cycle, which marks the start of LTS.
-
