@@ -11,8 +11,14 @@ releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 
+# This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
+# The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
+# But note that this regex would not work if WordPress releases a x.y.0.t version.
+# That should not be a problem though, such version were only used with 1.5.1.
+# See https://github.com/endoflife-date/endoflife.date/pull/2768#issuecomment-1491875624.
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
+    regex: '^(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>[1-9][0-9.]*)?'
 
 identifiers:
 -   repology: wordpress
