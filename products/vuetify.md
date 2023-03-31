@@ -42,8 +42,7 @@ releases:
 
 ---
 
-> [Vuetify](https://vuetifyjs.com/) is a no design skills required UI Library with 
-> beautifully handcrafted Vue Components.
+> [Vuetify](https://vuetifyjs.com/) is an open-source Vue Component Framework. It is a collection of consistently styled UI components with features such as dynamic themes, global defaults, application layouts, and more.
 
 Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/en/introduction/long-term-support/) from the date of release of the last minor version in a given cycle, which marks the start of LTS.
 
