@@ -5,7 +5,8 @@ iconSlug: wordpress
 permalink: /wordpress
 versionCommand: wp core version
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
-changelogTemplate: "https://wordpress.org/support/wordpress-version/version-{{'__LATEST__' | drop_zero_patch | replace:'.','-'}}/"
+changelogTemplate: "https://wordpress.org/support/wordpress-version/version-{{'__LATEST__'\
+  \ | drop_zero_patch | replace:'.','-'}}/"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -33,7 +34,7 @@ releases:
     eol: false
     support: true
     releaseDate: 2023-03-29
-    latest: "6.2.0"
+    latest: "6.2"
     latestReleaseDate: 2023-03-29
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
 
