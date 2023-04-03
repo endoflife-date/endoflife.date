@@ -41,7 +41,7 @@ endoflife.date is relying on various amazing software and components :
 - [GitHub](https://github.com/), an Internet hosting service for software development and version
   control,
 - [Jekyll](https://jekyllrb.com/), a static site generator.
-- [Ruby](https://jekyllrb.com/), a dynamic and open source programming language with a focus on
+- [Ruby](https://www.ruby-lang.org/), a dynamic and open source programming language with a focus on
   simplicity and productivity.
 - [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
 - [Stoplight Elements](https://stoplight.io/open-source/elements), a collection of UI components for
