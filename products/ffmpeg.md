@@ -37,8 +37,8 @@ releases:
     codename: Lorentz
     releaseDate: 2022-01-14
     eol: false
-    latest: "5.0.2"
-    latestReleaseDate: 2022-11-04
+    latest: "5.0.3"
+    latestReleaseDate: 2023-04-02
 
 -   releaseCycle: "4.4"
     codename: Rao
