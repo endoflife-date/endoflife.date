@@ -18,7 +18,7 @@ auto:
 
 releases:
 -   releaseCycle: "10"
-    releaseDate: 2021-07-05
+    releaseDate: 2023-03-30
     support: true
     eol: false
     lts: false
