@@ -112,6 +112,14 @@ releases:
     latest: "18.3"
     link: https://blog.linuxmint.com/?p=3457
     releaseDate: 2017-11-27
+-   releaseCycle: "18.1"
+    codename: Serena
+    lts: false
+    support: false
+    eol: 2021-04-01
+    latest: "18.1"
+    link: https://blog.linuxmint.com/?p=3223
+    releaseDate: 2017-01-27
 ---
 
 >[Linux Mint](https://linuxmint.com/) is a community-driven Linux distribution for desktop and laptop computers based on Debian and Ubuntu, bundled with a variety of free and open-source applications. It has an Ubuntu-based release simply named Linux Mint, and a Debian-based release called LMDE (Linux Mint Debian Edition).
