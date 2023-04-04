@@ -18,18 +18,18 @@ auto:
 
 # support(R) = releaseDate(R+1)
 releases:
--   releaseCycle: "6"
-    releaseDate: 2021-12-08
-    support: 2023-03-29
+-   releaseCycle: "7"
+    releaseDate: 2023-03-29
+    support: true
     eol: false
     extendedSupport: false
-    latest: "6.7.1"
+    latest: "7.0.0"
     latestReleaseDate: 2023-03-29
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08
     support: 2023-03-29
-    eol: false
+    eol: 2024-03-29
     extendedSupport: false
     latest: "6.7.2"
     latestReleaseDate: 2023-04-05
