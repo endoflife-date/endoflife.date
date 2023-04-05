@@ -29,7 +29,7 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2021-12-08
     support: 2023-03-29
-    eol: 2024-03-29
+    eol: 2024-09-29
     extendedSupport: 2024-03-29
     latest: "6.7.2"
     latestReleaseDate: 2023-04-05
