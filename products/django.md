@@ -19,6 +19,14 @@ auto:
 -   git: https://github.com/django/django.git
 
 releases:
+-   releaseCycle: "4.2"
+    support: 2023-12-01
+    eol: 2026-04-01
+    latest: "4.2"
+    lts: true
+    latestReleaseDate: 2023-04-03
+    releaseDate: 2023-04-03
+
 -   releaseCycle: "4.1"
     support: 2023-04-01
     eol: 2023-12-01
