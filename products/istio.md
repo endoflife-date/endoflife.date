@@ -35,22 +35,22 @@ releases:
     releaseDate: 2023-02-14
     eol: 2023-09-30
     supportedKubernetesVersions: 1.23 - 1.26
-    latest: "1.17.1"
-    latestReleaseDate: 2023-02-23
+    latest: "1.17.2"
+    latestReleaseDate: 2023-04-04
 
 -   releaseCycle: "1.16"
     releaseDate: 2022-11-15
     eol: 2023-06-30
     supportedKubernetesVersions: 1.22 - 1.25
-    latest: "1.16.3"
-    latestReleaseDate: 2023-02-21
+    latest: "1.16.4"
+    latestReleaseDate: 2023-04-04
 
 -   releaseCycle: "1.15"
     releaseDate: 2022-08-31
     eol: 2023-03-31
     supportedKubernetesVersions: 1.22 - 1.25
-    latest: "1.15.6"
-    latestReleaseDate: 2023-02-21
+    latest: "1.15.7"
+    latestReleaseDate: 2023-04-04
 
 -   releaseCycle: "1.14"
     releaseDate: 2022-06-01
