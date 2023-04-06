@@ -43,6 +43,13 @@ releases:
     latest: "7.9"
     latestReleaseDate: 2020-10-08
 
+-   releaseCycle: "6"
+    releaseDate: 2011-02-11
+    eol: 2021-03-01
+    extendedSupport: 2024-07-01
+    latest: "6.10"
+    latestReleaseDate: 2018-07-02
+
 ---
 
 > [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed by Oracle to be 100% application binary compatible alternative to Red Hat Enterprise Linux.
