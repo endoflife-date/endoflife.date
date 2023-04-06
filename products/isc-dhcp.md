@@ -38,7 +38,7 @@ releases:
 
 > [ISC DHCP](https://www.isc.org/dhcp/) is an open source solution for DHCP servers, relay agents,
 > and clients, both IPv4 and IPv6. It is suitable for use in high-volume and high-reliability
-> applications. It [has reached EOL](https://www.isc.org/blogs/isc-dhcp-eol/) since October 5, 2022.
+> applications. It [reached End-of-Life](https://www.isc.org/blogs/isc-dhcp-eol/) on October 5, 2022.
 
 The 4.4.3-P1 and 4.1-ESV-R16-P2 versions of ISC DHCP, released on October 5, 2022, were the last
 maintenance versions that ISC planned to publish. An exception might be made in case of a
