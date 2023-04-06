@@ -5,7 +5,7 @@ iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"
 releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
-releaseImage: https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png
+releaseImage: https://static.djangoproject.com/img/release-roadmap.4cf783b31fbe.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
