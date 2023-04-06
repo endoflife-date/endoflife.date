@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "18.0.51"
     releaseDate: 2023-03-14
     eol: 2023-06-06
-    latest: "18.0.51"
-    latestReleaseDate: 2023-03-14
+    latest: "18.0.51.1"
+    latestReleaseDate: 2023-04-05
 
 -   releaseCycle: "18.0.50"
     releaseDate: 2023-01-31
@@ -39,6 +39,7 @@ releases:
     latest: "17.8.11.95"
     latestReleaseDate: 2021-01-25
     link: https://docs.plesk.com/release-notes/onyx/change-log/
+
 ---
 
 > [Plesk](https://www.plesk.com/) is a proprietary hosting control panel developed by
