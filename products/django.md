@@ -5,7 +5,7 @@ iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"
 releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
-releaseImage: https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png
+releaseImage: https://static.djangoproject.com/img/release-roadmap.4cf783b31fbe.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
@@ -19,6 +19,14 @@ auto:
 -   git: https://github.com/django/django.git
 
 releases:
+-   releaseCycle: "4.2"
+    support: 2023-12-01
+    eol: 2026-04-01
+    latest: "4.2"
+    lts: true
+    latestReleaseDate: 2023-04-03
+    releaseDate: 2023-04-03
+
 -   releaseCycle: "4.1"
     support: 2023-04-01
     eol: 2023-12-01
