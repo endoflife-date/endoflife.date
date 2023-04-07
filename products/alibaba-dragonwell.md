@@ -71,7 +71,7 @@ releases:
 # First official release is 11.0.7.2.
 -   releaseCycle: "11"
     lts: true
-    releaseDate: 2020-04-24
+    releaseDate: 2020-07-20
     eol: 2027-09-30
     latest: "11.0.18.14"
     latestReleaseDate: 2023-02-06

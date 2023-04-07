@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2020-10-08
 
 -   releaseCycle: "6"
-    releaseDate: 2011-02-11
+    releaseDate: 2011-02-12
     eol: 2021-03-01
     extendedSupport: 2024-07-01
     latest: "6.10"

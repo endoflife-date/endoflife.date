@@ -80,8 +80,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-01
-    latest: "5.0.15"
-    latestReleaseDate: 2023-02-23
+    latest: "5.0.16"
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
