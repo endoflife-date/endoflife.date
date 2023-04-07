@@ -1,3 +1,34 @@
+{%- comment %}
+Render a table from the given rows.
+
+Considering a table with N column and M rows, the equivalent Markdown table will be :
+
+| labels[0]          | labels[1]          | ... | labels[N]          |
+|--------------------|--------------------|-----|--------------------|
+| rows[0][fields[0]] | rows[0][fields[1]] | ... | rows[0][fields[N]] |
+| rows[1][fields[0]] | rows[1][fields[1]] | ... | rows[1][fields[N]] |
+| ...                | ...                | ... | ...                |
+| rows[M][fields[0]] | rows[M][fields[1]] | ... | rows[M][fields[N]] |
+
+Parameters:
+- rows: Rows used to build the table.
+- fields: A comma-separated list of row field names.
+- labels: A comma-separated list of column labels.
+          The size of the list must be identical to the fields list size.
+- types: A comma-separated list of column types.
+         The size of the list must be identical to the fields list size.
+         Available type are :
+         - raw: display the value "as is". The raw type is also used when type is unknown.
+         - date: display the value using the date_to_string filter,
+                 see https://jekyllrb.com/docs/liquid/filters/#date-to-string.
+         - timeago: display the value using the timeago filter,
+                 see https://github.com/markets/jekyll-timeago.
+         - end-date: display the value as an end of something date (such as support or EOL).
+                 This is the "classic" way do display end of support or EOL date on endoflife.date, with:
+                 - a background color as a visual indication,
+                 - the value displayed using both the date_to_string and timeago filters,
+                 - a support for both boolean and date values.
+{% endcomment %}
 {%- assign labels = include.labels | split:',' %}
 {%- assign fields = include.fields | split:',' %}
 {%- assign types = include.types | split:',' %}
@@ -5,20 +36,35 @@
 <table>
   <thead>
     <tr>
-      {% for label in labels %}<th>{{ label }}</th>{% endfor %}
+      {%- for label in labels %}<th>{{ label }}</th>{% endfor %}
     </tr>
   </thead>
   <tbody>
 {%- for row in rows %}
     <tr>
   {%- for field in fields %}
-    {%- if types[forloop.index0] == "date" %}
-      <td>{{ row[field] | date_to_string }}</td>
-    {% else %}
+    {%- assign type = types[forloop.index0] %}
+    {%- assign value = row[field] %}
+    {%- if type == "date" %}
+      <td>{{ value | date_to_string }}</td>
+    {%- elsif type == "timeago" %}
+      <td>{{ value | timeago }}</td>
+    {%- elsif type == "end-date" %}
+      <td class="{{ row[field] | end_color }}">
+      {%- if value == true %}}
+        Yes
+      {%- elsif value == false %}
+        No
+      {%- else %}
+        {{ row[field] | date_to_string }}
+        <div>({{ row[field] | timeago }})</div>
+      {%- endif %}
+      </td>
+    {%- else %}
       <td>{{ row[field] }}</td>
-    {% endif %}
-  {% endfor %}
+    {%- endif %}
+  {%- endfor %}
     </tr>
-{% endfor %}
+{%- endfor %}
   </tbody>
 </table>

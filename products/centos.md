@@ -53,6 +53,14 @@ releases:
     latest: "6.10"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
 
+-   releaseCycle: "5"
+    releaseLabel: "CentOS 5"
+    releaseDate: 2007-04-12
+    support: 2014-01-31
+    eol: 2017-03-31
+    latest: "5.11"
+    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS5.11
+
 ---
 
 > [CentOS](https://centos.org/) is a Linux distribution that provides a free, enterprise-class,

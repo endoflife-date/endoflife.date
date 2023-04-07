@@ -84,6 +84,49 @@ module EndOfLifeFilter
       }
       .map { |cycleRange, value| Hash['releaseCycle', cycleRange, field, value] }
   end
+
+  # Compute the number of days from now to the given date.
+  #
+  # Usage (assuming now is '2023-01-01'):
+  # {{ '2023-01-10' | days_from_now }} => 9
+  # {{ '2023-01-01' | days_from_now }} => 0
+  # {{ '2022-12-31' | days_from_now }} => -1
+  def days_from_now(from)
+    from_timestamp = Date.parse(from.to_s).to_time.to_i
+    to_timestamp = Date.today.to_time.to_i
+    return (from_timestamp - to_timestamp) / (60 * 60 * 24)
+  end
+
+  # Compute the color according to the given number of days until the end.
+  #
+  # Usage:
+  # {{ true | end_color }} => bg-green-000
+  # {{ false | end_color }} => bg-red-000
+  # {{ -1 | end_color }} => bg-green-000
+  # {{ 1 | end_color }} => bg-yellow-200
+  # {{ 365 | end_color }} => bg-red-000
+  # {{ '2025-01-01' | days_from_now | end_color }} => bg-green-000
+  # {{ '2023-01-02' | days_from_now | end_color }} => bg-yellow-200
+  # {{ '2021-01-01' | days_from_now | end_color }} => bg-red-000
+  # {{ '2025-01-01' | end_color }} => bg-green-000
+  def end_color(input)
+    if input == true
+      return 'bg-green-000'
+    elsif input == false
+      return 'bg-red-000'
+    elsif input.is_a? Integer
+      if input < 0
+        return 'bg-red-000'
+      elsif input < 120
+        return 'bg-yellow-200'
+      else
+        return 'bg-green-000'
+      end
+    else
+      # Assuming it's a date
+      return end_color(days_from_now(input))
+    end
+  end
 end
 
 Liquid::Template.register_filter(EndOfLifeFilter)

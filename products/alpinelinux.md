@@ -106,5 +106,5 @@ cycle but rather a snapshot of edge is taken every 6 months as a release. Stable
 supported normally for 2 years. Security fixes beyond that are on request and when patches are
 available.
 
-Only the latest release (i.e. `v3.16` at this time) gets bug fixes, prior supported releases only
+Only the latest release (i.e. `v3.17` at this time) gets bug fixes, prior supported releases only
 get security fixes.
