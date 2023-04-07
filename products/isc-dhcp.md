@@ -42,7 +42,7 @@ releases:
 
 The 4.4.3-P1 and 4.1-ESV-R16-P2 versions of ISC DHCP, released on October 5, 2022, were the last
 maintenance versions that ISC planned to publish. An exception might be made in case of a
-significant security vulnerability, but ISC intention is to cease actively maintaining ISC DHCP
+significant security vulnerability, but ISC's intention is to cease actively maintaining ISC DHCP
 codebase.
 
 ISC suggests new users to consider [ISC Kea DHCP server](https://www.isc.org/kea/) or [any other
