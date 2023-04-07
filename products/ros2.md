@@ -64,9 +64,9 @@ releases:
 
 ---
 
-> ROS (Robot Operating System) provides libraries and tools to help software developers create robotic applications. As robotic applications becomes more complex, ROS2 is introduced in 2018 as an improvement to the original ROS (ROS 1), bringing along a more stable and secure robotics middleware. As ROS1 will no longer be supported past May 2025, it is highly recommended for new projects to start using ROS2.
+> ROS2 (Robot Operating System) provides libraries and tools to help software developers create robotic applications. ROS2 is a major revision of the ROS 1, which adds support for real-time code and embedded system hardware. As ROS1 will no longer be supported past May 2025, it is highly recommended for new projects to start using ROS2.
 
-Release rules:
+## Release Cadence
 
 - There is a ROS2 release every year on May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
