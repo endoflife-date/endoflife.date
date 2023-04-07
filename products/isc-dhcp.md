@@ -7,6 +7,10 @@ changelogTemplate: https://ftp.isc.org/isc/dhcp/__LATEST__/dhcp-__LATEST__-RELNO
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: dhcp
+-   purl: pkg:docker/networkboot/dhcpd
+
 releases:
 -   releaseCycle: "4.4"
     releaseDate: 2018-01-31
