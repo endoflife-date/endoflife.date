@@ -3,12 +3,28 @@ title: Alibaba Dragonwell
 category: lang
 iconSlug: openjdk
 permalink: /alibaba-dragonwell
+
 alternate_urls:
 -   /dragonwell
 versionCommand: java -version
 releasePolicyLink: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
 changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 releaseDateColumn: true
+
+# The repology ones are only AUR right now
+# The docker images and rpm repo are official ones
+# and the yum repo is the official one.
+identifiers:
+-   repology: jdk8-dragonwell-extended
+-   repology: jdk8-dragonwell-standard
+-   repology: jdk17-dragonwell
+-   repology: jdk17-dragonwell-standard
+-   repology: jdk11-dragonwell-extended
+-   repology: jdk11-dragonwell-standard
+-   purl: pkg:docker/alibabadragonwell/dragonwell
+-   purl: pkg:oci/dragonwell?repository_url=dragonwell-registry.cn-hangzhou.cr.aliyuncs.com/dragonwell/dragonwell
+# Alibaba Cloud Linux OS plus repository, but only for x86_64 architecture
+-   purl: pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
 
 # There is one repository for each major LTS release.
 # And yes, tagging at Alibaba is a mess !
@@ -76,8 +92,8 @@ releases:
 > Edition optimized for the Alibaba cloud. Both editions are certified using the [AQAvit quality
 > verification suite](https://adoptium.net/aqavit/). It is available on Linux, Windows and Docker.
 
-Alibaba only provide support for Dragonwell builds based on LTS OpenJDK releases (8, 11, 17, 21...).
-The Dragonwell release cadence follows the OpenJDK release cadence, with a new major version every
+Dragonwell builds are only released for LTS OpenJDK releases (8, 11, 17, 21...), following
+the OpenJDK release cadence - a new major version every
 two years (since 2021) supported for at least four years with quarterly maintenance/security updates
 (typically January, April, July, and October).
 
