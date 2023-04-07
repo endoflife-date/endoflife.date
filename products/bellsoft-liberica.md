@@ -12,6 +12,28 @@ releaseDateColumn: true
 eolColumn: Public support
 extendedSupportColumn: Commercial support
 
+identifiers:
+# Official Docker Images
+-   purl: pkg:docker/bellsoft/liberica-openjdk-alpine
+-   purl: pkg:docker/bellsoft/liberica-openjdk-alpine-musl
+-   purl: pkg:docker/bellsoft/liberica-openjdk-debian
+-   purl: pkg:docker/bellsoft/liberica-openjdk-centospkg
+# Repology only lists AUR packages right now
+-   repology: liberica-jdk-11-full
+-   repology: liberica-jdk-11
+-   repology: liberica-jdk-11-lite
+# These are undefined TYPEs in the PURL spec
+# so subject to change https://github.com/package-url/purl-spec/blob/master/PURL-TYPES.rst
+-   purl: pkg:brew/liberica-jdk17
+-   purl: pkg:scoop/liberica17
+-   purl: pkg:chocolatey/libericajdk
+# TODO: List all from https://github.com/microsoft/winget-pkgs/tree/master/manifests/b/BellSoft/LibericaJDK
+# Repology lists them all, but they're unlinked.
+-   purl: pkg:winget/BellSoft.LibericaJDK.8
+-   purl: pkg:winget/BellSoft.LibericaJDK.8.Full
+# TODO: Add official packages as per https://bell-sw.com/pages/repositories/#yum
+
+
 # There is one repository for each major release (except for 15 and 16).
 auto:
 -   github_releases: "bell-sw/Liberica"
