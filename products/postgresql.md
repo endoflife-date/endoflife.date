@@ -17,6 +17,10 @@ auto:
 -   git: https://github.com/postgres/postgres.git
   # https://rubular.com/r/KlemgnguNe0e5X
     regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_?(?<patch>\d+)?$
+identifiers:
+-   repology: postgresql
+-   purl: pkg:generic/postgresql
+-   purl: pkg:docker/library/postgres
 releases:
 -   releaseCycle: "15"
     eol: 2027-11-11
