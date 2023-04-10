@@ -10,11 +10,15 @@ releaseDateColumn: true
 releaseColumn: false
 
 releases:
+-   eol: 2024-05-01
+    releaseCycle: "7.3"
+    releaseDate: 2023-04-10
+
 -   eol: 2023-11-01
     releaseCycle: "7.2"
     releaseDate: 2022-10-20
 
--   eol: 2023-05-01
+-   eol: 2023-04-10
     releaseCycle: "7.1"
     releaseDate: 2022-04-21
 
