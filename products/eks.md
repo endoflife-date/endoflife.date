@@ -5,7 +5,8 @@ iconSlug: amazoneks
 permalink: /amazon-eks
 versionCommand: eksctl get cluster --name=cluster-name
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
-changelogTemplate: 'https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__"| replace:".","-"}}'
+changelogTemplate: 'https://github.com/aws/eks-distro/releases/tag/v{{"__LATEST__"|
+  replace:".","-"}}'
 alternate_urls:
 -   /eks
 -   /amazon-elastic-kubernetes-service
@@ -25,38 +26,38 @@ releases:
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
-    latest: "1.25-eks-1"
-    latestReleaseDate: 2023-02-21
+    latest: "1.25-eks-3"
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.24"
     eol: 2024-01-01
-    latest: "1.24-eks-4"
-    latestReleaseDate: 2023-01-27
+    latest: "1.24-eks-6"
+    latestReleaseDate: 2023-04-06
     releaseDate: 2022-11-15
 
 -   releaseCycle: "1.23"
     eol: 2023-10-01
-    latest: "1.23-eks-6"
+    latest: "1.23-eks-8"
     releaseDate: 2022-08-11
-    latestReleaseDate: 2023-01-27
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.22"
     eol: 2023-06-04
-    latest: "1.22-eks-10"
+    latest: "1.22-eks-12"
     releaseDate: 2022-04-04
-    latestReleaseDate: 2023-01-27
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.21"
     eol: 2023-02-15
-    latest: "1.21-eks-15"
+    latest: "1.21-eks-17"
     releaseDate: 2021-07-19
-    latestReleaseDate: 2023-01-27
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.20"
     eol: 2022-11-01
-    latest: "1.20-eks-12"
+    latest: "1.20-eks-14"
     releaseDate: 2021-05-18
-    latestReleaseDate: 2022-12-05
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.19"
     eol: 2022-08-01

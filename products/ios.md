@@ -25,8 +25,8 @@ releases:
     eol: false
     support: 2022-09-12
     releaseDate: 2021-09-20
-    latestReleaseDate: 2023-03-27
-    latest: "15.7.4"
+    latestReleaseDate: 2023-04-10
+    latest: "15.7.5"
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"
