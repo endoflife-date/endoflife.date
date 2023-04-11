@@ -25,8 +25,8 @@ releases:
     releaseDate: 2021-09-20
     support: 2022-10-24
     eol: false
-    latestReleaseDate: 2023-03-27
-    latest: '15.7.4'
+    latestReleaseDate: 2023-04-10
+    latest: '15.7.5'
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-15-release-notes
 
 -   releaseCycle: "14"
