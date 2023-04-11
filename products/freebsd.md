@@ -11,6 +11,10 @@ releaseDateColumn: true
 releaseColumn: false
 
 releases:
+-   releaseCycle: "releng/13.2"
+    eol: false
+    releaseDate: 2023-04-11
+
 -   releaseCycle: "releng/13.1"
     eol: false
     # 13.2-RELEASE + 3 months
