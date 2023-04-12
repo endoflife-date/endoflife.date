@@ -21,32 +21,32 @@ releases:
     support: true
     eol: 2024-07-17
     extendedSupport: 2025-01-17
-    latest: "4.12.6"
-    latestReleaseDate: 2023-03-07
+    latest: "4.12.11"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.30"
-    latestReleaseDate: 2023-03-07
+    latest: "4.11.35"
+    latestReleaseDate: 2023-04-12
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10
     support: 2022-11-10
     eol: 2023-09-10
     extendedSupport: false
-    latest: "4.10.53"
-    latestReleaseDate: 2023-03-01
+    latest: "4.10.55"
+    latestReleaseDate: 2023-03-29
 
 -   releaseCycle: "4.9"
     releaseDate: 2021-10-18
     support: 2022-06-10
     eol: 2023-04-18
     extendedSupport: false
-    latest: "4.9.56"
-    latestReleaseDate: 2023-02-22
+    latest: "4.9.59"
+    latestReleaseDate: 2023-04-05
 
 -   releaseCycle: "4.8"
     releaseDate: 2021-07-27
