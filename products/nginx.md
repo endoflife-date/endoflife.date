@@ -24,7 +24,14 @@ auto:
     regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 -   hg: https://hg.nginx.org/nginx
 
+# eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.24"
+    releaseDate: 2023-04-11
+    eol: false
+    latest: "1.24.0"
+    latestReleaseDate: 2023-04-11
+
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-21
     eol: false
@@ -34,13 +41,13 @@ releases:
 
 -   releaseCycle: "1.22"
     releaseDate: 2022-05-24
-    eol: false
+    eol: 2023-04-11
     latest: "1.22.1"
     latestReleaseDate: 2022-10-19
 
 -   releaseCycle: "1.21"
     releaseDate: 2021-05-25
-    eol: 2022-05-24
+    eol: 2022-06-21
     link: https://nginx.org/en/CHANGES
     latest: "1.21.6"
     latestReleaseDate: 2022-01-25
