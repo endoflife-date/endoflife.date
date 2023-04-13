@@ -17,8 +17,15 @@ auto:
 -   git: https://github.com/kubernetes/kubernetes.git
     regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
 
-# The release date for "N" should match the eol date for N-3 release.
+# Support and EOL dates can be found on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
 releases:
+-   releaseCycle: "1.27"
+    releaseDate: 2023-04-11
+    support: 2024-04-28
+    eol: 2024-06-28
+    latest: "1.27.0"
+    latestReleaseDate: 2023-04-11
+
 -   releaseCycle: "1.26"
     releaseDate: 2022-12-08
     support: 2023-12-28
