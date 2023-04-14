@@ -23,7 +23,7 @@ releases:
     eol: 2033-01-11
     extendedSupport: false
     latest: "16.0.4025.1"
-    latestReleaseDate: 2023-04-14
+    latestReleaseDate: 2023-04-13
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate3
 
 -   releaseCycle: "2019"
