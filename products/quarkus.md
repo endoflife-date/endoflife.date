@@ -23,6 +23,13 @@ auto:
 # - eol(x) = releaseDate(x+1)
 # - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
+-   releaseCycle: "3.0"
+    releaseDate: 2023-04-12
+    eol: false
+    extendedSupport: false
+    latest: "3.0.0"
+    latestReleaseDate: 2023-04-12
+
 -   releaseCycle: "2.16"
     eol: false
     extendedSupport: false
