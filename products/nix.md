@@ -98,7 +98,7 @@ releases:
 
 -   releaseCycle: "2.2"
     releaseDate: 2019-01-11
-    eol: 2021-11-01
+    eol: 2019-09-04
     latest: "2.2.2"
     latestReleaseDate: 2019-04-15
 
