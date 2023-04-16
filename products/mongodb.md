@@ -80,14 +80,14 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-01
-    latest: "5.0.15"
-    latestReleaseDate: 2023-02-23
+    latest: "5.0.16"
+    latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
     eol: 2024-02-01
-    latest: "4.4.19"
-    latestReleaseDate: 2023-02-23
+    latest: "4.4.20"
+    latestReleaseDate: 2023-04-07
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-08-09

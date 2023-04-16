@@ -30,10 +30,23 @@ auto:
 -   git: "https://github.com/corretto/corretto-19.git"
     regex: '^(?<version>[\d\.]+)$'
     template: '{{version}}'
+-   git: "https://github.com/corretto/corretto-20.git"
+    regex: '^(?<version>[\d\.]+)$'
+    template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
 releases:
+-   releaseCycle: "20"
+    # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
+    # Official release was on march : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
+    releaseDate: 2023-02-10
+    # Not yet announced on https://aws.amazon.com/corretto/faqs/,
+    # using the next 1th or the month from Java 21 release (that what they usually do).
+    eol: 2023-10-01
+    latest: "20.0.0.36.1"
+    latestReleaseDate: 2023-02-21
+
 -   releaseCycle: "19"
     eol: 2023-04-01
     latest: "19.0.2.7.1"

@@ -17,24 +17,30 @@ auto:
 
 # EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
+-   releaseCycle: "7.10"
+    releaseDate: 2023-04-12
+    eol: 2023-07-15
+    latest: '7.10.0'
+    latestReleaseDate: 2023-04-12
+
 -   releaseCycle: "7.9"
     releaseDate: 2023-03-14
     eol: 2023-06-15
-    latest: '7.9.1'
-    latestReleaseDate: 2023-03-16
+    latest: '7.9.2'
+    latestReleaseDate: 2023-04-05
 
 -   releaseCycle: "7.8"
     lts: true
     releaseDate: 2023-02-14
     eol: 2023-11-15
-    latestReleaseDate: 2023-03-16
-    latest: '7.8.2'
+    latestReleaseDate: 2023-04-05
+    latest: '7.8.3'
 
 -   releaseCycle: "7.7"
     releaseDate: 2023-01-13
     eol: 2023-04-15
-    latestReleaseDate: 2023-03-16
-    latest: '7.7.3'
+    latestReleaseDate: 2023-04-05
+    latest: '7.7.4'
 
 -   releaseCycle: "7.5"
     releaseDate: 2022-11-09
@@ -64,8 +70,8 @@ releases:
     lts: true
     releaseDate: 2022-07-13
     eol: 2023-04-15
-    latest: '7.1.7'
-    latestReleaseDate: 2023-03-16
+    latest: '7.1.8'
+    latestReleaseDate: 2023-04-05
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-06-13
@@ -129,9 +135,9 @@ releases:
 > companies.
 
 Mattermost backports high-severity or high-impact security fixes to the previous three monthly
-releases and to supported [ESR releases](https://docs.mattermost.com/upgrade/extended-support-release.html).
-A new ESR release is made when a significant number of new features and improvements
-have been added to the product, and have had sufficient time to stabilize. A new ESR
-is released twice a year in January and July. ESR releases are supported for nine months.
+releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release.html).
+A new ESR release is made when a significant number of new features and improvements have been added
+to the product, and have had sufficient time to stabilize. A new ESR is released twice a year in
+January and July. ESR releases are supported for nine months.
 
 Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).

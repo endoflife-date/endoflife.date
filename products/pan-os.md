@@ -14,23 +14,23 @@ releases:
 -   releaseCycle: "11.0"
     eol: 2024-11-17
     releaseDate: 2022-11-17
-    latest: "11.0"
-    latestReleaseDate: 2022-11-17
-    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-0-known-and-addressed-issues/pan-os-11-0-0-addressed-issues
+    latest: "11.0.1"
+    latestReleaseDate: 2023-03-29
+    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-1-known-and-addressed-issues/pan-os-11-0-1-addressed-issues
 
 -   releaseCycle: "10.2"
     eol: 2025-08-27
     releaseDate: 2022-02-27
-    latest: "10.2.3-h4"
-    latestReleaseDate: 2023-02-13
-    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-3-known-and-addressed-issues/pan-os-10-2-3-h4-addressed-issues
+    latest: "10.2.4"
+    latestReleaseDate: 2023-03-30
+    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-4-known-and-addressed-issues/pan-os-10-2-4-addressed-issues
 
 -   releaseCycle: "10.1"
     eol: 2024-12-01
     releaseDate: 2021-05-31
-    latest: "10.1.9"
-    latestReleaseDate: 2023-02-05
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-9-known-and-addressed-issues/pan-os-10-1-9-addressed-issues
+    latest: "10.1.9-h1"
+    latestReleaseDate: 2023-03-07
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-9-known-and-addressed-issues/pan-os-10-1-9-h1-addressed-issues
 
 -   releaseCycle: "10.0"
     eol: 2022-07-16
@@ -42,9 +42,9 @@ releases:
 -   releaseCycle: "9.1"
     eol: 2023-12-13
     releaseDate: 2019-12-13
-    latest: "9.1.15-h1"
-    latestReleaseDate: 2022-12-20
-    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-15-h1-addressed-issues
+    latest: "9.1.16"
+    latestReleaseDate: 2023-04-05
+    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-16-addressed-issues
 
 -   releaseCycle: "9.0-XFR (VM-Series only)"
     eol: 2020-09-19

@@ -4,11 +4,10 @@ category: service
 iconSlug: amazonaws
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
-
 releaseDateColumn: true
 
-# Auto updates are possible using a custom script.
-# Releases and their date are documented on https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+auto:
+-   custom: true
 
 releases:
 -   releaseCycle: "8.0"
@@ -26,7 +25,9 @@ releases:
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
-    latest: "unknown"
+    latest: "5.6"
+
+    latestReleaseDate: 2013-07-01
 
 ---
 

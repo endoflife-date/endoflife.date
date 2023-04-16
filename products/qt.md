@@ -9,11 +9,18 @@ releasePolicyLink: https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offe
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 releaseDateColumn: true
 
+# Upstream does not support filtering https://code.qt.io/qt/qt5.git
 auto:
-  # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 -   git: https://github.com/qt/qt5.git
 
 releases:
+-   releaseCycle: "6.5"
+    lts: true
+    releaseDate: 2023-03-31
+    eol: 2026-03-31
+    latest: "6.5.0"
+    latestReleaseDate: 2023-03-31
+    link: https://www.qt.io/blog/qt-6.5-lts-released
 -   releaseCycle: "6.4"
     eol: 2023-03-30
     latest: "6.4.3"
