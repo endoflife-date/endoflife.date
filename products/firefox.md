@@ -46,8 +46,8 @@ releases:
 -   releaseCycle: "107"
     releaseDate: 2022-11-15
     eol: 2022-12-13
-    latest: "107.0"
-    latestReleaseDate: 2022-11-15
+    latest: "107.0.1"
+    latestReleaseDate: 2022-11-29
     
 -   releaseCycle: "106"
     releaseDate: 2022-10-18
