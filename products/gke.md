@@ -16,10 +16,20 @@ eolColumn: Maintenance Support
 auto:
 -   custom: true
 
+# eol: As on the release schedule page
+# releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
+# support: last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.26"
+    eol: 2024-05-31
+    support: 2024-03-31
+    releaseDate: 2023-03-31
+    latestReleaseDate: 2023-03-31
+    latest: '1.26.3-gke.400'
+
 -   releaseCycle: "1.25"
     eol: 2024-02-29
-    support: 2023-12-29
+    support: 2023-12-31
     releaseDate: 2022-12-14
     latestReleaseDate: 2023-03-31
     latest: '1.25.8-gke.500'
