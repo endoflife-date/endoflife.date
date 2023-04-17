@@ -20,61 +20,67 @@ auto:
 
 releases:
   # Active Milestones
+-   releaseCycle: "cos-105"
+    eol: 2025-04-01
+    lts: true
+    releaseDate: 2023-04-03
+    latestReleaseDate: 2023-04-10
+    latest: "cos-105-17412-1-61"
 -   releaseCycle: "cos-101"
     eol: 2024-09-01
     lts: true
     releaseDate: 2022-09-15
     latestReleaseDate: 2023-04-10
-    latest: cos-101-17162-127-57
+    latest: "cos-101-17162-127-57"
 -   releaseCycle: "cos-97"
     eol: 2024-03-01
     lts: true
     releaseDate: 2022-03-29
     latestReleaseDate: 2023-04-10
-    latest: cos-97-16919-294-3
+    latest: "cos-97-16919-294-3"
 -   releaseCycle: "cos-93"
     eol: 2023-10-01
     lts: true
     releaseDate: 2021-10-18
     latestReleaseDate: 2023-04-10
-    latest: cos-93-16623-341-46
+    latest: "cos-93-16623-341-46"
+  # Deprecated Milestones
 -   releaseCycle: "cos-89"
     eol: 2023-03-01
     lts: true
-  # Deprecated Milestones
     releaseDate: 2021-04-07
     latestReleaseDate: 2023-04-03
-    latest: cos-89-16108-798-22
+    latest: "cos-89-16108-798-22"
 -   releaseCycle: "cos-85"
     eol: 2022-09-01
     lts: true
     releaseDate: 2020-09-24
     latestReleaseDate: 2022-08-22
-    latest: cos-85-13310-1498-13
+    latest: "cos-85-13310-1498-13"
 -   releaseCycle: "cos-81"
     eol: 2021-09-01
     lts: true
     releaseDate: 2020-03-27
     latestReleaseDate: 2022-01-10
-    latest: cos-81-12871-1317-8
+    latest: "cos-81-12871-1317-8"
 -   releaseCycle: "cos-77"
     eol: 2021-04-01
     lts: true
     releaseDate: 2019-09-27
     latestReleaseDate: 2021-01-11
-    latest: cos-77-12371-1109-0
+    latest: "cos-77-12371-1109-0"
 -   releaseCycle: "cos-73"
     eol: 2020-06-01
     lts: true
     releaseDate: 2019-03-25
     latestReleaseDate: 2020-09-05
-    latest: cos-73-11647-656-0
+    latest: "cos-73-11647-656-0"
 -   releaseCycle: "cos-69"
     eol: 2019-12-01
     lts: true
     releaseDate: 2018-09-18
     latestReleaseDate: 2019-10-08
-    latest: cos-69-10895-385-0
+    latest: "cos-69-10895-385-0"
 
 ---
 
