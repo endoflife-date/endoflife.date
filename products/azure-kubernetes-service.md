@@ -62,9 +62,14 @@ available in all regions. AKS supports three GA minor versions of Kubernetes:
 
 Each supported minor version also supports a maximum of two stable patches.
 
-AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).
-News about AKS can be received by following [the AKS feed in Azure Updates](https://azure.microsoft.com/updates/?product=kubernetes-service).
-Release status by regions can be monitored at [AKS-Release-Tracker](https://releases.aks.azure.com/).
-AKS Docs include an [Upgrade Guide](https://learn.microsoft.com/azure/aks/upgrade-cluster).
+## [Long Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
+
+LTS releases receive support and security updates for two years (instead of the usual one year).
+The first Long Term Support AKS release will be 1.27, to be released in May 2023.
+
+- AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).
+- News about AKS can be received by following [the AKS feed in Azure Updates](https://azure.microsoft.com/updates/?product=kubernetes-service).
+- Release status by regions can be monitored at [AKS-Release-Tracker](https://releases.aks.azure.com/).
+- AKS Docs include an [Upgrade Guide](https://learn.microsoft.com/azure/aks/upgrade-cluster).
 
 Note that Calico isn't supported in AKS 1.25 and above.
