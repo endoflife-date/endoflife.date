@@ -16,57 +16,57 @@ releases:
 -   releaseCycle: "112"
     releaseDate: 2023-04-11
     eol: false
-    latest: "112.0"
-    latestReleaseDate: 2023-04-11
-    
+    latest: "112.0.1"
+    latestReleaseDate: 2023-04-17
+
 -   releaseCycle: "111"
     releaseDate: 2023-03-14
     eol: 2023-04-11
     latest: "111.0.1"
     latestReleaseDate: 2023-03-21
-    
+
 -   releaseCycle: "110"
     releaseDate: 2023-02-14
     eol: 2023-03-14
     latest: "110.0.1"
     latestReleaseDate: 2023-02-28
-    
+
 -   releaseCycle: "109"
     releaseDate: 2023-01-17
     eol: 2023-02-14
     latest: "109.0.1"
     latestReleaseDate: 2023-01-31
-    
+
 -   releaseCycle: "108"
     releaseDate: 2022-12-13
     eol: 2023-01-17
     latest: "108.0.2"
     latestReleaseDate: 2023-01-05
-    
+
 -   releaseCycle: "107"
     releaseDate: 2022-11-15
     eol: 2022-12-13
     latest: "107.0.1"
     latestReleaseDate: 2022-11-29
-    
+
 -   releaseCycle: "106"
     releaseDate: 2022-10-18
     eol: 2022-11-15
     latest: "106.0.5"
     latestReleaseDate: 2022-11-04
-    
+
 -   releaseCycle: "105"
     releaseDate: 2022-09-20
     eol: 2022-10-18
     latest: "105.0.3"
     latestReleaseDate: 2022-10-07
-    
+
 -   releaseCycle: "104"
     releaseDate: 2022-08-23
     eol: 2022-09-20
     latest: "104.0.2"
     latestReleaseDate: 2022-09-06
-    
+
 -   releaseCycle: "103"
     releaseDate: 2022-07-26
     eol: 2022-08-23

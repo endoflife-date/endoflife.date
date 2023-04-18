@@ -28,20 +28,20 @@ auto:
 releases:
 -   releaseCycle: "7.0"
     eol: false
-    latest: '7.0.10'
-    latestReleaseDate: 2023-03-20
+    latest: '7.0.11'
+    latestReleaseDate: 2023-04-17
     releaseDate: 2022-04-27
 
 -   releaseCycle: "6.2"
     eol: false
-    latest: '6.2.11'
-    latestReleaseDate: 2023-02-28
+    latest: '6.2.12'
+    latestReleaseDate: 2023-04-17
     releaseDate: 2021-02-22
 
 -   releaseCycle: "6.0"
     eol: false
-    latest: '6.0.18'
-    latestReleaseDate: 2023-02-28
+    latest: '6.0.19'
+    latestReleaseDate: 2023-04-17
     releaseDate: 2020-04-30
 
 -   releaseCycle: "5.0"
