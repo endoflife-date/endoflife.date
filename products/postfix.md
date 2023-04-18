@@ -14,6 +14,12 @@ auto:
     regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
 
 releases:
+-   releaseCycle: "3.8"
+    releaseDate: 2023-04-17
+    eol: false
+    latest: "3.8.0"
+    latestReleaseDate: 2023-04-17
+
 -   releaseCycle: "3.7"
     eol: false
     latest: "3.7.4"
