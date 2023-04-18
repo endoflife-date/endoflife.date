@@ -35,10 +35,17 @@ auto:
 # Dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because we are using
 # git tag dates.
 releases:
+-   releaseCycle: "6.3"
+    releaseLabel: "6.3 (Rapid Release)"
+    releaseDate: 2023-04-11
+    eol: false
+    latest: '6.3.0'
+    latestReleaseDate: 2023-04-11
+
 -   releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
     releaseDate: 2023-01-19
-    eol: false
+    eol: 2023-04-11
     latest: '6.2.1'
     latestReleaseDate: 2023-02-28
 
