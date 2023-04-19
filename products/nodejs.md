@@ -22,6 +22,13 @@ auto:
 versionCommand: node --version
 releaseDateColumn: true
 releases:
+-   releaseCycle: "20"
+    lts: 2023-10-24
+    support: 2024-10-22
+    eol: 2026-04-30
+    latest: "20.0.0"
+    latestReleaseDate: 2023-04-18
+    releaseDate: 2023-04-18
 -   releaseCycle: "19"
     support: 2023-04-01
     eol: 2023-06-01
