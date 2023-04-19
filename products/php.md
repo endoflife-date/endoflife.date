@@ -16,92 +16,92 @@ releases:
     support: 2024-12-08
     eol: 2025-12-08
     latest: "8.2.5"
-    latestReleaseDate: 2023-04-11
-    releaseDate: 2022-12-06
+    latestReleaseDate: 2023-04-13
+    releaseDate: 2022-12-08
 -   releaseCycle: "8.1"
     support: 2023-11-25
     eol: 2024-11-25
     latest: "8.1.18"
-    latestReleaseDate: 2023-04-11
-    releaseDate: 2021-11-23
+    latestReleaseDate: 2023-04-13
+    releaseDate: 2021-11-25
 -   releaseCycle: "8.0"
     support: 2022-11-26
     eol: 2023-11-26
     latest: "8.0.28"
     latestReleaseDate: 2023-02-14
-    releaseDate: 2020-11-24
+    releaseDate: 2020-11-26
 -   releaseCycle: "7.4"
     support: 2021-11-28
     eol: 2022-11-28
     latest: "7.4.33"
-    latestReleaseDate: 2022-10-31
-    releaseDate: 2019-11-26
+    latestReleaseDate: 2022-11-03
+    releaseDate: 2019-11-28
 -   releaseCycle: "7.3"
     support: 2020-12-06
     eol: 2021-12-06
     latest: "7.3.33"
-    latestReleaseDate: 2021-11-16
-    releaseDate: 2018-12-04
+    latestReleaseDate: 2021-11-18
+    releaseDate: 2018-12-06
 -   releaseCycle: "7.2"
     support: 2019-11-30
     eol: 2020-11-30
     latest: "7.2.34"
-    latestReleaseDate: 2020-09-30
-    releaseDate: 2017-11-28
+    latestReleaseDate: 2020-10-01
+    releaseDate: 2017-11-30
 -   releaseCycle: "7.1"
     support: 2018-12-01
     eol: 2019-12-01
     latest: "7.1.33"
-    latestReleaseDate: 2019-10-22
-    releaseDate: 2016-11-30
+    latestReleaseDate: 2019-10-24
+    releaseDate: 2016-12-01
 -   releaseCycle: "7.0"
     support: 2018-01-04
     eol: 2019-01-10
     latest: "7.0.33"
-    latestReleaseDate: 2018-12-04
-    releaseDate: 2015-12-01
+    latestReleaseDate: 2019-01-10
+    releaseDate: 2015-12-03
 -   releaseCycle: "5.6"
     support: 2017-01-19
     eol: 2018-12-31
     latest: "5.6.40"
-    latestReleaseDate: 2019-01-09
-    releaseDate: 2014-08-27
+    latestReleaseDate: 2019-01-10
+    releaseDate: 2014-08-28
 -   releaseCycle: "5.5"
     support: 2015-07-10
     eol: 2016-07-21
     latest: "5.5.38"
-    latestReleaseDate: 2016-07-20
-    releaseDate: 2013-06-19
+    latestReleaseDate: 2016-07-21
+    releaseDate: 2013-06-20
 -   releaseCycle: "5.4"
     support: 2014-09-14
     eol: 2015-09-14
     latest: "5.4.45"
-    latestReleaseDate: 2015-09-01
-    releaseDate: 2012-02-29
+    latestReleaseDate: 2015-09-03
+    releaseDate: 2012-03-01
 -   releaseCycle: "5.3"
     support: 2011-06-30
     eol: 2014-08-14
     latest: "5.3.29"
-    latestReleaseDate: 2014-08-13
-    releaseDate: 2009-06-29
+    latestReleaseDate: 2014-08-14
+    releaseDate: 2009-06-30
 -   releaseCycle: "5.2"
     support: 2008-11-02
     eol: 2011-01-06
     latest: "5.2.17"
     latestReleaseDate: 2011-01-06
-    releaseDate: 2006-11-01
+    releaseDate: 2006-11-02
 -   releaseCycle: "5.1"
     support: 2006-08-24
     eol: 2006-08-24
     latest: "5.1.6"
-    latestReleaseDate: 2006-08-23
-    releaseDate: 2005-11-23
+    latestReleaseDate: 2006-08-24
+    releaseDate: 2005-11-24
 -   releaseCycle: "5.0"
     support: 2005-09-05
     eol: 2005-09-05
     latest: "5.0.5"
     latestReleaseDate: 2005-09-05
-    releaseDate: 2004-07-15
+    releaseDate: 2004-07-13
 
 ---
 
