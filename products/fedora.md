@@ -36,7 +36,7 @@ releases:
     latest: "36"
     # releaseDate(38) + 1 month for now
     # Update with https://docs.fedoraproject.org/en-US/releases/eol/
-    eol: 2023-06-18
+    eol: 2023-05-18
     latestReleaseDate: 2022-05-10
     releaseDate: 2022-05-10
 -   releaseCycle: "35"
