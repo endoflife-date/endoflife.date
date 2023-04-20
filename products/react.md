@@ -3,7 +3,7 @@ title: React
 permalink: /react
 iconSlug: react
 category: framework
-releasePolicyLink: https://reactjs.org/docs/release-channels.html
+releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
@@ -52,13 +52,13 @@ releases:
 
 ---
 
-> [React](https://reactjs.org/) is an open-source JavaScript web framework for building modern web applications.
+> [React](https://react.dev/) is an open-source JavaScript web framework for building modern web applications.
 
 ## Versioning
 
 React follows [Semantic Versioning](https://semver.org/) principles. The only officially supported release channel for user-facing applications is Latest. New features are released in minor versions. Patch releases are made only for the most critical bugs and security vulnerabilities. Major releases can also contain new features, and any release can include bug fixes.
 
-## [Support](https://github.com/reactjs/reactjs.org/issues/1745)
+## [Support](https://github.com/reactjs/react.dev/issues/1745)
 
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
