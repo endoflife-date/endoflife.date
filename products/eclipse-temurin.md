@@ -79,8 +79,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u362-b09"
-    latestReleaseDate: 2023-01-20
+    latest: "8u372-b07"
+    latestReleaseDate: 2023-04-20
 
 ---
 
