@@ -86,7 +86,7 @@ releases:
     releaseDate: 2013-09-02
 
 -   releaseCycle: "9.2"
-    eol: 2018-11-09
+    eol: 2017-11-09
     latest: "9.2.24"
     latestReleaseDate: 2017-11-06
     releaseDate: 2012-09-06
