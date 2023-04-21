@@ -28,6 +28,17 @@ identifiers:
 -   cpe: cpe:/o:canonical:ubuntu_linux
 
 releases:
+
+-   releaseCycle: "23.04"
+    codename: "Lunar Lobster"
+    support: 2024-01-20
+    eol: 2024-01-20
+    latest: "23.04"
+    link: https://wiki.ubuntu.com/LunarLobster/ReleaseNotes/
+    releaseDate: 2023-04-20
+    latestReleaseDate: 2023-04-20
+    extendedSupport: false
+
 -   releaseCycle: "22.10"
     codename: "Kinetic Kudu"
     support: 2023-07-20
