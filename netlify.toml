@@ -6,9 +6,7 @@
 
 [context.deploy-preview]
   command = """
-  # Replace the Deploy URL with the Preview URL
-  sed -i "/url\:/curl\: $DEPLOY_PRIME_URL" _config.yml
-  ./_auto/deploy.sh
+  ./_auto/deploy.sh $DEPLOY_PRIME_URL
   """
 
 [[plugins]]

@@ -1,0 +1,23 @@
+name: Check URLs
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # At 00:00 on Sunday.
+
+jobs:
+  check_urls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v2
+
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+
+      - name: Perform URLs check
+        run: bundle exec jekyll build
+        env:
+          MUST_CHECK_URLS: true

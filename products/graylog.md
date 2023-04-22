@@ -11,7 +11,6 @@ versionCommand: |-
 
   # RedHat based
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
-releasePolicyLink: N/A
 changelogTemplate: "https://go2docs.graylog.org/5-0/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
 releaseDateColumn: true

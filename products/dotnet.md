@@ -5,8 +5,6 @@ tags: microsoft
 iconSlug: dotnet
 permalink: /dotnet
 alternate_urls:
--   /.net
--   /.netcore
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core

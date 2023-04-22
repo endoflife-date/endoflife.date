@@ -43,7 +43,6 @@ jobs:
           status_options: '--untracked-files=no'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
 
-      # TODO: Leave a comment if there is a new major release that we don't match
       - name: Enable auto-merge for Dependabot PRs for release data
         if: ${{contains(steps.metadata.outputs.dependency-names, '_data/release-data')}}
         run: gh pr merge --auto --rebase "$PR_URL"
