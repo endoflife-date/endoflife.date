@@ -157,6 +157,7 @@ releases:
     releaseDate: 2015-08-04
     support: false
     eol: true
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "3.3.1"
     latestReleaseDate: 2015-09-15
 
@@ -164,6 +165,7 @@ releases:
     releaseDate: 2015-05-04
     support: false
     eol: true
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "2.5.0"
     latestReleaseDate: 2015-07-28
 
@@ -171,6 +173,7 @@ releases:
     releaseDate: 2015-01-20
     support: false
     eol: true
+    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
     latestReleaseDate: 2015-07-09
 
