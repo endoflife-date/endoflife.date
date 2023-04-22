@@ -9,6 +9,10 @@ releaseDateColumn: true
 releaseColumn: false
 eolColumn: Supported
 
+auto:
+-   distrowatch: mageia
+    regex: '^Distribution Release: Mageia (?P<major>\d+)$'
+
 # link must be retained only on the last release (and maybe for some time on the previous release).
 releases:
 -   releaseCycle: "8"
