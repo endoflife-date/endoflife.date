@@ -11,28 +11,22 @@ changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.
 releaseDateColumn: true
 
 # There is one repository for each major release (except for 15 and 16).
+# Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
 auto:
--   git: "https://github.com/corretto/corretto-jdk.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-8.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-11.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-17.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-18.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-19.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
--   git: "https://github.com/corretto/corretto-20.git"
-    regex: '^(?<version>[\d\.]+)$'
-    template: '{{version}}'
+-   github_releases: "corretto/corretto-jdk"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-8"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-11"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-17"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-18"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-19"
+    regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-20"
+    regex: '^(?P<version>[\d\.]+)$'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
