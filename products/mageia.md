@@ -4,15 +4,17 @@ category: os
 permalink: /mageia
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://www.mageia.org/support/
-changelogTemplate: https://wiki.mageia.org/en/Mageia___RELEASE_CYCLE___Release_Notes
+changelogTemplate: https://wiki.mageia.org/en/Archive:_Mageia___RELEASE_CYCLE___Release_Notes
 releaseDateColumn: true
 releaseColumn: false
 eolColumn: Supported
 
+# link must be retained only on the last release (and maybe for some time on the previous release).
 releases:
 -   releaseCycle: "8"
     releaseDate: 2021-02-26
     eol: false
+    link: https://wiki.mageia.org/en/Mageia___RELEASE_CYCLE___Release_Notes
 
 -   releaseCycle: "7"
     releaseDate: 2019-07-01
