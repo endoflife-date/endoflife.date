@@ -34,10 +34,10 @@ releases:
     releaseDate: 2023-03-21
     eol: 2023-09-19
     extendedSupport: 2024-03-31
-    latest: "20.28.85"
-    latestJdkVersion: "20.0.0+36"
-    latestReleaseDate: 2023-03-21
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/20-ga
+    latest: "20.30.11"
+    latestJdkVersion: "20.0.1+9"
+    latestReleaseDate: 2023-04-18
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/april-2023
 
 -   releaseCycle: "19"
     releaseLabel: "19 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -69,10 +69,10 @@ releases:
     releaseDate: 2021-09-15
     eol: 2029-09-30
     extendedSupport: 2031-09-30
-    latest: "17.40.19"
-    latestJdkVersion: "17.0.6+10"
-    latestReleaseDate: 2023-01-17
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/january-2023
+    latest: "17.42.19"
+    latestJdkVersion: "17.0.7+7"
+    latestReleaseDate: 2023-04-18
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/april-2023
 
 -   releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -133,10 +133,10 @@ releases:
     releaseDate: 2018-09-25
     eol: 2026-09-30
     extendedSupport: 2028-09-30
-    latest: "11.62.17"
-    latestJdkVersion: "11.0.18+10"
-    latestReleaseDate: 2019-07-16
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/january-2023
+    latest: "11.64.19"
+    latestJdkVersion: "11.0.19+7"
+    latestReleaseDate: 2023-04-18
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/april-2023
 
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -165,10 +165,10 @@ releases:
     releaseDate: 2014-04-08
     eol: 2030-12-31
     extendedSupport: 2032-12-31
-    latest: "8.68.0.21"
-    latestJdkVersion: "8u362-b09"
-    latestReleaseDate: 2023-01-24
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/january-2023-8.68
+    latest: "8.70.0.23"
+    latestJdkVersion: "8u372-b05"
+    latestReleaseDate: 2023-04-18
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/april-2023
 
 -   releaseCycle: "7"
     lts: true
