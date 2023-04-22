@@ -210,6 +210,7 @@ LTS releases are supported for at least 8 years with bug fixes and security upda
 Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
 
+This page is tracking CA Azul Zulu builds of OpenJDK, which are free to download and use.
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
