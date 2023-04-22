@@ -15,6 +15,13 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "8.2303"
+    releaseDate: 2023-03-30
+    eol: 2026-03-30
+    technicalGuidance: 2027-03-30
+    latest: "8.2303"
+    latestReleaseDate: 2023-03-30
+
 -   releaseCycle: "8.2212"
     releaseDate: 2023-01-12
     eol: 2026-01-12
@@ -27,8 +34,8 @@ releases:
     releaseDate: 2022-10-20
     eol: 2025-10-20
     technicalGuidance: 2026-10-20
-    latest: "8.2209"
-    latestReleaseDate: 2022-10-20
+    latest: "8.2209.1"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "8.2206"
     releaseDate: 2022-07-19
