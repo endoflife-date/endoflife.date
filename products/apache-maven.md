@@ -37,6 +37,7 @@ releases:
     latest: "1.1"
     latestReleaseDate: 2007-06-25
     releaseDate: 2004-07-13
+    link: https://maven.apache.org/archives/maven-1.x/start/release-notes-LATEST.html
 
 ---
 
