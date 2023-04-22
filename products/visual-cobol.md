@@ -28,14 +28,17 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2018-06-14
     eol: 2022-06-30
+    link: https://www.microfocus.com/documentation/visual-cobol/visualcobol40/
 
 -   releaseCycle: "3.0"
     releaseDate: 2017-07-07
     eol: 2021-07-31
+    link: https://www.microfocus.com/documentation/visual-cobol/visualcobol30/
 
 -   releaseCycle: "2.3"
     releaseDate: 2016-10-03
     eol: 2019-09-30
+    link: https://www.microfocus.com/documentation/visual-cobol/visualcobol23/
 
 ---
 
