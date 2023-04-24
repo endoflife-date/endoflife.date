@@ -34,8 +34,8 @@ releases:
 -   releaseCycle: "5.36"
     support: true
     eol: 2025-05-27
-    latest: "5.36.0"
-    latestReleaseDate: 2022-05-27
+    latest: "5.36.1"
+    latestReleaseDate: 2023-04-23
     releaseDate: 2022-05-27
 
 -   releaseCycle: "5.34"
