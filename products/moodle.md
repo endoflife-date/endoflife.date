@@ -14,6 +14,14 @@ auto:
 -   git: https://github.com/moodle/moodle.git
 
 releases:
+-   releaseCycle: "4.2"
+    lts: false
+    releaseDate: 2023-04-22
+    support: 2024-04-22
+    eol: 2024-10-07
+    latest: "4.2.0"
+    latestReleaseDate: 2023-04-22
+
 -   releaseCycle: "4.1"
     eol: 2025-11-10
     support: 2023-11-13
