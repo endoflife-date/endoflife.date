@@ -53,15 +53,15 @@ releases:
     support: 2020-04-30
     extendedSupport: 2024-09-30
     releaseDate: 2017-12-12
-    latest: "9.5.31"
+    latest: "9.5.40"
     latestReleaseDate: 2021-09-21
 
 -   releaseCycle: "8"
     eol: 2020-03-31
     support: 2018-09-30
-    extendedSupport: 2023-03-31
+    extendedSupport: 2024-03-31
     releaseDate: 2016-03-22
-    latest: "8.7.32"
+    latest: "8.7.51"
     latestReleaseDate: 2020-03-31
 
 -   releaseCycle: "7"
@@ -69,7 +69,7 @@ releases:
     support: 2017-04-01
     extendedSupport: 2022-11-30
     releaseDate: 2014-12-02
-    latest: "7.6.32"
+    latest: "7.6.58"
     latestReleaseDate: 2018-12-11
 
 ---
