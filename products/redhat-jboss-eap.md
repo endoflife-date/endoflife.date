@@ -34,7 +34,7 @@ releases:
     releaseDate: 2012-06-01
     lts: 2022-06-30
     latestReleaseDate: 2022-06-30
-    link! https://access.redhat.com/articles/3099701
+    link: https://access.redhat.com/articles/3099701
 
 -   releaseCycle: "5"
     support: 2013-11-30
