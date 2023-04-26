@@ -162,6 +162,7 @@ releases:
     latest: "0.28.1"
     latestReleaseDate: 2019-11-04
     releaseDate: 2018-12-12
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 
 ---
 
