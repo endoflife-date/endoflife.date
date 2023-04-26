@@ -60,6 +60,7 @@ releases:
     eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
+    link: https://github.com/ansible/ansible/blob/stable-2.9/changelogs/CHANGELOG-v2.9.rst
 
 ---
 
