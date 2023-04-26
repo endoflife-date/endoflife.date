@@ -7,8 +7,7 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-changelogTemplate: |
-  https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/ChangeSummary/__LATEST__/
+changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
 activeSupportColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
@@ -35,7 +34,6 @@ releases:
     support: 2024-01-20
     eol: 2024-01-20
     extendedSupport: false
-    link: https://wiki.ubuntu.com/LunarLobster/ReleaseNotes/
     latest: "23.04"
     latestReleaseDate: 2023-04-20
 
@@ -55,7 +53,6 @@ releases:
     support: 2024-09-30
     eol: 2027-04-01
     extendedSupport: 2032-04-09
-    link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
     latest: "22.04.2"
     latestReleaseDate: 2023-02-24
 
@@ -65,7 +62,6 @@ releases:
     support: 2022-07-14
     eol: 2022-07-14
     extendedSupport: false
-    link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
     latest: "21.10"
     latestReleaseDate: 2021-10-14
 
@@ -75,7 +71,6 @@ releases:
     support: 2022-01-20
     eol: 2022-01-20
     extendedSupport: false
-    link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
     latest: "21.04"
     latestReleaseDate: 2021-04-22
 
@@ -132,7 +127,6 @@ releases:
     support: 2023-05-31
     eol: 2023-05-31
     extendedSupport: 2028-04-01
-    link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
     latest: "18.04.6"
     latestReleaseDate: 2021-09-17
 
