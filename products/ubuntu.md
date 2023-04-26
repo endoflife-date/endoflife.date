@@ -31,184 +31,184 @@ releases:
 
 -   releaseCycle: "23.04"
     codename: "Lunar Lobster"
+    releaseDate: 2023-04-20
     support: 2024-01-20
     eol: 2024-01-20
-    latest: "23.04"
-    link: https://wiki.ubuntu.com/LunarLobster/ReleaseNotes/
-    releaseDate: 2023-04-20
-    latestReleaseDate: 2023-04-20
     extendedSupport: false
+    link: https://wiki.ubuntu.com/LunarLobster/ReleaseNotes/
+    latest: "23.04"
+    latestReleaseDate: 2023-04-20
 
 -   releaseCycle: "22.10"
     codename: "Kinetic Kudu"
+    releaseDate: 2022-10-20
     support: 2023-07-20
     eol: 2023-07-20
-    latest: "22.10"
-    releaseDate: 2022-10-20
-    latestReleaseDate: 2022-10-20
     extendedSupport: false
+    latest: "22.10"
+    latestReleaseDate: 2022-10-20
 
 -   releaseCycle: "22.04"
     codename: "Jammy Jellyfish"
+    lts: true
+    releaseDate: 2022-04-21
     support: 2024-09-30
     eol: 2027-04-01
     extendedSupport: 2032-04-09
-    lts: true
-    latest: "22.04.2"
     link: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
-    releaseDate: 2022-04-21
+    latest: "22.04.2"
     latestReleaseDate: 2023-02-24
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
+    releaseDate: 2021-10-14
     support: 2022-07-14
     eol: 2022-07-14
-    latest: "21.10"
-    link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
-    releaseDate: 2021-10-14
-    latestReleaseDate: 2021-10-14
     extendedSupport: false
+    link: https://wiki.ubuntu.com/ImpishIndri/ReleaseNotes/
+    latest: "21.10"
+    latestReleaseDate: 2021-10-14
 
 -   releaseCycle: "21.04"
     codename: "Hirsute Hippo"
+    releaseDate: 2021-04-22
     support: 2022-01-20
     eol: 2022-01-20
-    latest: "21.04"
-    link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
-    releaseDate: 2021-04-22
-    latestReleaseDate: 2021-04-22
     extendedSupport: false
+    link: https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/
+    latest: "21.04"
+    latestReleaseDate: 2021-04-22
 
 -   releaseCycle: "20.10"
     codename: "Groovy Gorilla"
+    releaseDate: 2020-10-22
     support: 2021-07-22
     eol: 2021-07-22
-    latest: "20.10"
-    releaseDate: 2020-10-22
-    latestReleaseDate: 2020-10-22
     extendedSupport: false
+    latest: "20.10"
+    latestReleaseDate: 2020-10-22
 
 -   releaseCycle: "20.04"
     codename: "Focal Fossa"
     lts: true
+    releaseDate: 2020-04-23
     support: 2022-10-01
     eol: 2025-04-02
     extendedSupport: 2030-04-02
     latest: "20.04.6"
-    releaseDate: 2020-04-23
     latestReleaseDate: 2023-03-23
 
 -   releaseCycle: "19.10"
     codename: "Karmic Koala"
+    releaseDate: 2019-10-17
     support: 2020-07-06
     eol: 2020-07-06
-    latest: "19.10"
-    releaseDate: 2019-10-17
-    latestReleaseDate: 2019-10-17
     extendedSupport: false
+    latest: "19.10"
+    latestReleaseDate: 2019-10-17
 
 -   releaseCycle: "19.04"
     codename: "Disco Dingo"
+    releaseDate: 2019-04-18
     support: 2020-01-23
     eol: 2020-01-23
-    latest: "19.04"
-    releaseDate: 2019-04-18
-    latestReleaseDate: 2019-04-18
     extendedSupport: false
+    latest: "19.04"
+    latestReleaseDate: 2019-04-18
 
 -   releaseCycle: "18.10"
     codename: "Cosmic Cuttlefish"
+    releaseDate: 2018-10-18
     support: 2019-07-18
     eol: 2019-07-18
-    latest: "18.10"
-    releaseDate: 2018-10-18
-    latestReleaseDate: 2018-10-18
     extendedSupport: false
+    latest: "18.10"
+    latestReleaseDate: 2018-10-18
 
 -   releaseCycle: "18.04"
     codename: "Bionic Beaver"
     lts: true
+    releaseDate: 2018-04-26
     support: 2023-05-31
     eol: 2023-05-31
     extendedSupport: 2028-04-01
-    latest: "18.04.6"
     link: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes
-    releaseDate: 2018-04-26
+    latest: "18.04.6"
     latestReleaseDate: 2021-09-17
 
 -   releaseCycle: "17.10"
     codename: "Artful Aardvark"
+    releaseDate: 2017-10-19
     support: 2018-07-19
     eol: 2018-07-19
-    latest: "17.10"
-    releaseDate: 2017-10-19
-    latestReleaseDate: 2017-10-19
     extendedSupport: false
+    latest: "17.10"
+    latestReleaseDate: 2017-10-19
 
 -   releaseCycle: "17.04"
     codename: "Zesty Zapus"
+    releaseDate: 2017-04-13
     support: 2018-01-13
     eol: 2018-01-13
-    latest: "17.04"
-    releaseDate: 2017-04-13
-    latestReleaseDate: 2017-04-13
     extendedSupport: false
+    latest: "17.04"
+    latestReleaseDate: 2017-04-13
 
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
+    releaseDate: 2016-04-21
     support: 2021-04-02
     eol: 2021-04-02
     extendedSupport: 2026-04-02
     latest: "16.04.7"
-    releaseDate: 2016-04-21
     latestReleaseDate: 2020-08-13
 
 -   releaseCycle: "15.10"
     codename: "Wily Werewolf"
+    releaseDate: 2015-10-22
     support: 2016-07-28
     eol: 2016-07-28
-    latest: "15.10"
-    releaseDate: 2015-10-22
-    latestReleaseDate: 2015-10-22
     extendedSupport: false
+    latest: "15.10"
+    latestReleaseDate: 2015-10-22
 
 -   releaseCycle: "15.04"
     codename: "Vivid Vervet"
+    releaseDate: 2015-04-23
     support: 2016-02-04
     eol: 2016-02-04
-    latest: "15.04"
-    releaseDate: 2015-04-23
-    latestReleaseDate: 2015-04-23
     extendedSupport: false
+    latest: "15.04"
+    latestReleaseDate: 2015-04-23
 
 -   releaseCycle: "14.10"
     codename: "Utopic Unicorn"
+    releaseDate: 2014-10-23
     support: 2015-07-23
     eol: 2015-07-23
-    latest: "14.10"
-    releaseDate: 2014-10-23
-    latestReleaseDate: 2014-10-23
     extendedSupport: false
+    latest: "14.10"
+    latestReleaseDate: 2014-10-23
 
 -   releaseCycle: "14.04"
     codename: "Trusty Tahr"
     lts: true
+    releaseDate: 2014-04-17
     support: 2019-04-02
     eol: 2019-04-02
     extendedSupport: 2024-04-02
     latest: "14.04.6"
-    releaseDate: 2014-04-17
     latestReleaseDate: 2019-03-07
 
 -   releaseCycle: "12.04"
     codename: "Precise Pangolin"
     lts: true
+    releaseDate: 2012-04-26
     support: 2017-04-28
     eol: 2017-04-28
     extendedSupport: 2019-04-26
     latest: "12.04.5"
-    releaseDate: 2012-04-26
     latestReleaseDate: 2014-08-08
 
 ---
