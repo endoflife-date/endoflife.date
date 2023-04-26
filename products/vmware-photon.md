@@ -32,12 +32,12 @@ releases:
 -   releaseCycle: "2.0"
     releaseDate: 2017-11-01
     eol: 2022-12-01
-    link: https://blogs.vmware.com/cloudnative/2017/11/01/version-2-0-project-photon-os/
+    link: https://web.archive.org/web/20221224152228/https://blogs.vmware.com/cloudnative/2017/11/01/version-2-0-project-photon-os/
 
 -   releaseCycle: "1.0"
     releaseDate: 2016-06-11
     eol: 2022-02-28
-    link: https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/
+    link: https://web.archive.org/web/20220628122239/https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/
 
 ---
 
