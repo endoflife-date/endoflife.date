@@ -5,7 +5,7 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage: https://user-images.githubusercontent.com/10281587/210113332-7a65b33c-c900-429a-8e73-83cefcb4e684.png
+releaseImage: https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
