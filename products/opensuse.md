@@ -20,88 +20,89 @@ identifiers:
 -   cpe: cpe:/o:opensuse:leap
 -   cpe: cpe:2.3:o:opensuse:opensuse
 -   cpe: cpe:2.3:o:opensuse:leap
+
 releases:
 -   releaseCycle: "15.4"
-    eol: 2023-12-01
     releaseDate: 2022-06-09
+    eol: 2023-12-01
 
 -   releaseCycle: "15.3"
-    eol: 2022-12-01
     releaseDate: 2021-06-02
+    eol: 2022-12-01
 
 -   releaseCycle: "15.2"
-    eol: 2021-12-01
     releaseDate: 2020-07-02
+    eol: 2021-12-01
 
 -   releaseCycle: "15.1"
-    eol: 2021-02-02
     releaseDate: 2019-05-22
+    eol: 2021-02-02
 
 -   releaseCycle: "15.0"
-    eol: 2019-12-03
     releaseDate: 2018-05-25
+    eol: 2019-12-03
 
 -   releaseCycle: "42.3"
-    eol: 2019-07-01
     releaseDate: 2017-07-26
+    eol: 2019-07-01
 
 -   releaseCycle: "42.2"
-    eol: 2018-01-26
     releaseDate: 2016-11-16
+    eol: 2018-01-26
 
 -   releaseCycle: "42.1"
-    eol: 2017-05-17
     releaseDate: 2015-11-04
+    eol: 2017-05-17
 
 -   releaseCycle: "13.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2017-01-17
     releaseDate: 2014-11-04
+    eol: 2017-01-17
 
 -   releaseCycle: "13.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2016-02-03
     releaseDate: 2014-01-08
+    eol: 2016-02-03
 
 -   releaseCycle: "12.3"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2015-01-29
     releaseDate: 2013-03-13
+    eol: 2015-01-29
 
 -   releaseCycle: "12.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2014-01-15
     releaseDate: 2012-09-05
+    eol: 2014-01-15
 
 -   releaseCycle: "12.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2013-05-15
     releaseDate: 2011-11-16
+    eol: 2013-05-15
 
 -   releaseCycle: "11.4"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2012-11-05
     releaseDate: 2011-03-10
+    eol: 2012-11-05
 
 -   releaseCycle: "11.3"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2012-01-20
     releaseDate: 2010-07-15
+    eol: 2012-01-20
 
 -   releaseCycle: "11.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2011-05-12
     releaseDate: 2009-11-12
+    eol: 2011-05-12
 
 -   releaseCycle: "11.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2011-01-14
     releaseDate: 2008-12-18
+    eol: 2011-01-14
 
 -   releaseCycle: "11.0"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2010-07-26
     releaseDate: 2008-06-19
+    eol: 2010-07-26
 
 ---
 
