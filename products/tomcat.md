@@ -5,7 +5,7 @@ iconSlug: apachetomcat
 permalink: /tomcat
 versionCommand: ./bin/version.sh
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
-changelogTemplate: https://dlcdn.apache.org/tomcat/tomcat-__RELEASE_CYCLE__/v__LATEST__/RELEASE-NOTES
+changelogTemplate: "https://tomcat.apache.org/tomcat-{{'__LATEST__'|split:'.'|pop|join:'.'}}-doc/changelog.html"
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
@@ -21,7 +21,6 @@ releases:
 -   releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
-    link: https://tomcat.apache.org/tomcat-10.1-doc/
     minJavaVersion: 11
     latest: "10.1.8"
     latestReleaseDate: 2023-04-14
@@ -29,7 +28,6 @@ releases:
 -   releaseCycle: "10.0"
     releaseDate: 2020-12-03
     eol: 2022-10-31
-    link: https://tomcat.apache.org/download-10.cgi
     minJavaVersion: 8
     latest: "10.0.27"
     latestReleaseDate: 2022-10-03
@@ -37,7 +35,6 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2017-09-27
     eol: false
-    link: https://tomcat.apache.org/download-90.cgi
     minJavaVersion: 8
     latest: "9.0.74"
     latestReleaseDate: 2023-04-13
@@ -45,7 +42,6 @@ releases:
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
     eol: 2024-03-31
-    link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
     minJavaVersion: 7
     latest: "8.5.88"
     latestReleaseDate: 2023-04-14
@@ -53,7 +49,6 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2014-01-29
     eol: 2018-06-30
-    link: https://tomcat.apache.org/download-80.cgi
     minJavaVersion: 7
     latest: "8.0.53"
     latestReleaseDate: 2018-06-29
