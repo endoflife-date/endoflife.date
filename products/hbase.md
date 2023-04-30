@@ -6,7 +6,7 @@ alternate_urls:
 -   /apache_hbase
 -   /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
-changelogTemplate: https://downloads.apache.org/hbase/{{"__LATEST__"}}/CHANGES.md
+changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: false
@@ -45,6 +45,7 @@ releases:
 -   releaseCycle: "1.7"
     releaseDate: 2021-06-12
     eol: 2022-08-09
+    link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
     latest: "1.7.2"
     latestReleaseDate: 2022-08-09
 
