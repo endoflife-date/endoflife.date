@@ -18,10 +18,10 @@ releases:
     eol: true
 
 -   releaseCycle: "RR3312"
-    eol: false
+    eol: true
 
 -   releaseCycle: "RR2304"
-    eol: false
+    eol: true
 
 -   releaseCycle: "RN716X"
     eol: true
