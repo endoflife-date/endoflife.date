@@ -22,6 +22,7 @@ releases:
     releaseDate: 2022-09-23
     eol: false
     link: https://tomcat.apache.org/tomcat-10.1-doc/
+    minJavaVersion: 11
     latest: "10.1.8"
     latestReleaseDate: 2023-04-14
 
@@ -29,6 +30,7 @@ releases:
     releaseDate: 2020-12-03
     eol: 2022-10-31
     link: https://tomcat.apache.org/download-10.cgi
+    minJavaVersion: 8
     latest: "10.0.27"
     latestReleaseDate: 2022-10-03
 
@@ -36,6 +38,7 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     link: https://tomcat.apache.org/download-90.cgi
+    minJavaVersion: 8
     latest: "9.0.74"
     latestReleaseDate: 2023-04-13
 
@@ -43,6 +46,7 @@ releases:
     releaseDate: 2016-03-17
     eol: 2024-03-31
     link: https://tomcat.apache.org/tomcat-8.5-doc/index.html
+    minJavaVersion: 7
     latest: "8.5.88"
     latestReleaseDate: 2023-04-14
 
@@ -50,23 +54,27 @@ releases:
     releaseDate: 2014-01-29
     eol: 2018-06-30
     link: https://tomcat.apache.org/download-80.cgi
+    minJavaVersion: 7
     latest: "8.0.53"
     latestReleaseDate: 2018-06-29
 
 -   releaseCycle: "7"
     releaseDate: 2013-01-10
     eol: 2021-03-31
+    minJavaVersion: 6
     latest: "7.0.109"
     latestReleaseDate: 2021-04-22
 
 -   releaseCycle: "6"
     releaseDate: 2006-10-21
     eol: 2016-12-31
+    minJavaVersion: 5
     latest: "6.0.53"
 
 -   releaseCycle: "5"
     releaseDate: 2003-09-06
     eol: 2012-09-30
+    minJavaVersion: 1.4
     latest: "5.5.36"
 
 ---
@@ -98,10 +106,8 @@ Different versions of Apache Tomcat are available for different versions of the 
 and the Tomcat website has a [table](https://tomcat.apache.org/whichversion.html) documenting which
 version of the specification is implemented by a given release.
 
-| Tomcat Version | Minimum Java Version |
-|----------------|----------------------|
-| 10.1           | 11                   |
-| 10.0           | 8                    |
-| 9              | 8                    |
-| 8.5            | 7                    |
-| 7.0            | 6                    |
+{% include table.html
+labels="Tomcat Version,Minimum Java Version"
+fields="releaseCycle,minJavaVersion"
+types="string,string"
+rows=page.releases %}
