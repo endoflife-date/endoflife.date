@@ -27,8 +27,8 @@ releases:
     releaseDate: 2023-03-21
     support: 2023-09-19
     eol: 2023-09-19
-    latest: "20"
-    latestReleaseDate: 2023-03-21
+    latest: "20.0.1"
+    latestReleaseDate: 2023-04-18
     link: https://www.oracle.com/java/technologies/javase/20-relnote-issues.html
 
 -   releaseCycle: "19"
@@ -49,9 +49,9 @@ releases:
     lts: true
     support: 2026-09-30
     eol: 2029-09-30
-    latest: "17.0.6"
+    latest: "17.0.7"
     releaseDate: 2021-09-14
-    latestReleaseDate: 2023-01-17
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "16"
     support: 2021-09-14
@@ -92,9 +92,9 @@ releases:
     lts: true
     support: 2023-09-30
     eol: 2026-09-30
-    latest: "11.0.18"
+    latest: "11.0.19"
     releaseDate: 2018-09-25
-    latestReleaseDate: 2023-01-17
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "10"
     support: 2018-09-25
@@ -114,9 +114,9 @@ releases:
     lts: true
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8u361"
+    latest: "8u371"
     releaseDate: 2014-03-18
-    latestReleaseDate: 2023-01-17
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "7"
     lts: true

@@ -2,7 +2,7 @@
 title: AlmaLinux OS
 category: os
 permalink: /almalinux
-versionCommand: lsb_release --release
+versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 activeSupportColumn: true

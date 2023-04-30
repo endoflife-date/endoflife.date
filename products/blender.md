@@ -5,7 +5,8 @@ iconSlug: blender
 permalink: /blender
 releasePolicyLink: https://www.blender.org
 releaseImage: https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
-changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
+changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
+  | replace:'.','-'}}/
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
@@ -20,8 +21,8 @@ releases:
     releaseDate: 2023-03-29
     support: 2023-07-01
     eol: 2023-07-01
-    latest: "3.5.0"
-    latestReleaseDate: 2023-03-29
+    latest: "3.5.1"
+    latestReleaseDate: 2023-04-25
 
 -   releaseCycle: "3.4"
     releaseDate: 2022-12-07
@@ -35,8 +36,8 @@ releases:
     releaseDate: 2022-09-07
     support: 2024-09-01
     eol: 2024-09-01
-    latest: "3.3.5"
-    latestReleaseDate: 2023-03-21
+    latest: "3.3.6"
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-06-08
@@ -64,8 +65,8 @@ releases:
     releaseDate: 2021-06-02
     support: 2023-06-01
     eol: 2023-06-01
-    latest: "2.93.16"
-    latestReleaseDate: 2023-03-21
+    latest: "2.93.17"
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "2.83"
     lts: true

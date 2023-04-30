@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
     eol: false
-    latest: "7.4.0"
-    latestReleaseDate: 2023-03-28
+    latest: "7.5.0"
+    latestReleaseDate: 2023-04-26
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-21
@@ -60,6 +60,7 @@ releases:
     eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
+    link: https://github.com/ansible/ansible/blob/stable-2.9/changelogs/CHANGELOG-v2.9.rst
 
 ---
 

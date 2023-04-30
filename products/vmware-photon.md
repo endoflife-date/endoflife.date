@@ -8,31 +8,36 @@ alternate_urls:
 -   /vmwarephoton
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2022/01/photon-1-x-end-of-support-announcement.html
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+activeSupportColumn: false
 eolColumn: Security Support
+
 identifiers:
-    - purl: pkg:os/photon
+-   purl: pkg:os/photon
+
 # EOL Dates for 3.0 and 4.0 are tentative, as they are documented as:
 # Early 2024, and Late 2025.
 releases:
 -   releaseCycle: "4.0"
     releaseDate: 2021-02-25
-    link: "https://blogs.vmware.com/vsphere/2021/02/photon-os-4-0-release-announcement.html"
     eol: 2025-07-01
+    link: https://blogs.vmware.com/vsphere/2021/02/photon-os-4-0-release-announcement.html
+
 -   releaseCycle: "3.0"
     releaseDate: 2019-02-08
-    link: "https://vmware.github.io/photon/assets/files/html/3.0/What-is-New-in-Photon-OS-3.0.html"
     eol: 2024-02-01
+    link: https://vmware.github.io/photon/assets/files/html/3.0/What-is-New-in-Photon-OS-3.0.html
+
 -   releaseCycle: "2.0"
     releaseDate: 2017-11-01
-    link: "https://blogs.vmware.com/cloudnative/2017/11/01/version-2-0-project-photon-os/"
     eol: 2022-12-01
+    link: https://web.archive.org/web/20221224152228/https://blogs.vmware.com/cloudnative/2017/11/01/version-2-0-project-photon-os/
+
 -   releaseCycle: "1.0"
     releaseDate: 2016-06-11
-    link: "https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/"
     eol: 2022-02-28
+    link: https://web.archive.org/web/20220628122239/https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/
 
 ---
 

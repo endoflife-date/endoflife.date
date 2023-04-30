@@ -17,35 +17,41 @@ auto:
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
-# Since releases are monthly (22nd of every month)
-# This is quite predictable.
+# This is quite predictable since releases are monthly (usually 22nd of every month).
 releases:
+-   releaseCycle: "15.11"
+    releaseDate: 2023-04-21
+    support: 2023-05-22
+    eol: 2023-07-22
+    latest: "15.11.0"
+    latestReleaseDate: 2023-04-21
+
 -   releaseCycle: "15.10"
+    releaseDate: 2023-03-21
     support: 2023-04-22
     eol: 2023-06-22
-    latest: "15.10.3"
-    latestReleaseDate: 2023-04-14
-    releaseDate: 2023-03-21
+    latest: "15.10.4"
+    latestReleaseDate: 2023-04-21
 
 -   releaseCycle: "15.9"
     support: 2023-03-22
     eol: 2023-05-22
-    latest: "15.9.4"
-    latestReleaseDate: 2023-03-30
+    latest: "15.9.5"
+    latestReleaseDate: 2023-04-21
     releaseDate: 2023-02-21
 
 -   releaseCycle: "15.8"
     support: 2023-02-22
     eol: 2023-04-22
-    latest: "15.8.5"
-    latestReleaseDate: 2023-03-30
+    latest: "15.8.6"
+    latestReleaseDate: 2023-04-18
     releaseDate: 2023-01-20
 
 -   releaseCycle: "15.7"
     support: 2023-01-22
     eol: 2023-03-22
-    latest: "15.7.8"
-    latestReleaseDate: 2023-03-02
+    latest: "15.7.9"
+    latestReleaseDate: 2023-04-20
     releaseDate: 2022-12-21
 
 -   releaseCycle: "15.6"

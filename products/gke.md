@@ -16,34 +16,44 @@ eolColumn: Maintenance Support
 auto:
 -   custom: true
 
+# eol: As on the release schedule page
+# releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
+# support: last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.26"
+    eol: 2024-05-31
+    support: 2024-03-31
+    releaseDate: 2023-03-31
+    latestReleaseDate: 2023-04-19
+    latest: '1.26.3-gke.1000'
+
 -   releaseCycle: "1.25"
     eol: 2024-02-29
-    support: 2023-12-29
+    support: 2023-12-31
     releaseDate: 2022-12-14
-    latestReleaseDate: 2023-03-31
-    latest: '1.25.8-gke.500'
+    latestReleaseDate: 2023-04-19
+    latest: '1.25.8-gke.1000'
 
 -   releaseCycle: "1.24"
     eol: 2023-10-31
     support: 2023-08-31
     releaseDate: 2022-06-23
-    latestReleaseDate: 2023-03-31
-    latest: '1.24.12-gke.500'
+    latestReleaseDate: 2023-04-19
+    latest: '1.24.12-gke.1000'
 
 -   releaseCycle: "1.23"
     eol: 2023-07-31
     support: 2023-05-31
     releaseDate: 2022-05-03
-    latestReleaseDate: 2023-03-31
-    latest: '1.23.17-gke.1700'
+    latestReleaseDate: 2023-04-19
+    latest: '1.23.17-gke.2000'
 
 -   releaseCycle: "1.22"
     eol: 2023-04-30
     support: 2023-02-28
-    latest: '1.22.17-gke.7500'
+    latest: '1.22.17-gke.8000'
     releaseDate: 2022-03-07
-    latestReleaseDate: 2023-03-31
+    latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "1.21"
     eol: 2023-01-31

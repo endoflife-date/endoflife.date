@@ -47,7 +47,7 @@ releases:
     lts: false
     latestReleaseDate: 2016-09-27
     releaseDate: 2015-10-27
-    link: https://github.com/vuejs/vue/releases/tag/v__LATEST_
+    link: https://github.com/vuejs/vue/releases/tag/v__LATEST__
 
 ---
 
