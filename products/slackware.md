@@ -121,12 +121,14 @@ releases:
 -   releaseCycle: "8.1"
     releaseDate: 2002-06-19
     eol: 2012-08-01
+    link: https://mirrors.slackware.com/slackware/slackware-8.1/ANNOUNCE.8_1
     latest: '8.1'
     latestReleaseDate: 2002-06-19
 
 -   releaseCycle: "8.0"
     releaseDate: 2001-07-01
     eol: 2003-03-29
+    link: https://mirrors.slackware.com/slackware/slackware-8.0/ANNOUNCE.TXT
     latest: '8.0'
     latestReleaseDate: 2001-07-01
 
