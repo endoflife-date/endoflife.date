@@ -25,8 +25,8 @@ releases:
     eol: 2024-07-01
     extendedSupport: 2026-06-30
     link: https://www.debian.org/News/2022/20221217
-    latest: "11.6"
-    latestReleaseDate: 2022-12-17
+    latest: "11.7"
+    latestReleaseDate: 2023-04-29
 
 -   releaseCycle: "10"
     codename: "Buster"
