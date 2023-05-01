@@ -129,6 +129,7 @@ releases:
     extendedSupport: 2028-04-01
     latest: "18.04.6"
     latestReleaseDate: 2021-09-17
+    link: https://www.omgubuntu.co.uk/2023/05/ubuntu-18-04-end-of-support
 
 -   releaseCycle: "17.10"
     codename: "Artful Aardvark"
