@@ -96,6 +96,8 @@ releases:
     releaseDate: 2018-05-30
     support: 2019-01-01
     eol: 2019-07-01
+    # No announcement for 4.1.13, which was tagged the same day
+    link: https://symfony.com/blog/symfony-4-1-12-released
     latest: "4.1.13"
     latestReleaseDate: 2019-04-17
 
@@ -155,6 +157,8 @@ releases:
     releaseDate: 2015-05-30
     support: 2018-05-01
     eol: 2019-05-01
+    # no announcement for 2.7.52, which was tagged the same day
+    link: https://symfony.com/blog/symfony-2-7-51-released
     latest: "2.7.52"
     latestReleaseDate: 2019-04-17
 
