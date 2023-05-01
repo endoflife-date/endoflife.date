@@ -3,68 +3,79 @@ title: ROS2
 category: os
 iconSlug: ros
 permalink: /ros2
-releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
-activeSupportColumn: false
-releaseColumn: true
-eolColumn: End Of Life
 versionCommand: printenv | grep -i ROS
-releaseDateColumn: true
-releaseLabel: '__CODENAME__'
+releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
 changelogTemplate: 'http://docs.ros.org/en/__RELEASE_CYCLE__/index.html'
+releaseLabel: '__CODENAME__'
+releaseColumn: true
+releaseDateColumn: true
+activeSupportColumn: false
+eolColumn: End Of Life
+
 releases:
 -   releaseCycle: 'humble'
     codename: 'Humble Hawksbill'
-    eol: 2027-05-01
     releaseDate: 2022-05-23
-    latestReleaseDate: 2022-05-23
+    eol: 2027-05-01
     latest: humble
+    latestReleaseDate: 2022-05-23
+
 -   releaseCycle: 'galactic'
     codename: 'Galactic Geochelone'
-    eol: 2022-12-09
     releaseDate: 2021-05-23
-    latestReleaseDate: 2021-05-23
+    eol: 2022-12-09
     latest: galactic
+    latestReleaseDate: 2021-05-23
+
 -   releaseCycle: 'foxy'
     codename: 'Foxy Fitzroy'
-    eol: 2023-05-01
     releaseDate: 2020-06-05
-    latestReleaseDate: 2020-06-05
+    eol: 2023-05-01
     latest: foxy
+    latestReleaseDate: 2020-06-05
+
 -   releaseCycle: 'eloquent'
     codename: 'Eloquent Elusor'
-    eol: 2020-11-01
     releaseDate: 2019-11-22
-    latestReleaseDate: 2019-11-22
+    eol: 2020-11-01
     latest: 'eloquent'
+    latestReleaseDate: 2019-11-22
+
 -   releaseCycle: 'dashing'
     codename: 'Dashing Diademata'
-    eol: 2021-05-01
     releaseDate: 2019-05-31
-    latestReleaseDate: 2019-05-31
+    eol: 2021-05-01
     latest: 'dashing'
+    latestReleaseDate: 2019-05-31
+
 -   releaseCycle: 'crystal'
     codename: 'Crystal Clemmys'
-    eol: 2019-12-01
     releaseDate: 2018-12-14
-    latestReleaseDate: 2018-12-14
+    eol: 2019-12-01
     latest: 'crystal'
+    latestReleaseDate: 2018-12-14
+
 -   releaseCycle: 'bouncy'
     codename: 'Bouncy Bolson'
-    eol: 2019-07-01
     releaseDate: 2018-07-02
-    latestReleaseDate: 2018-07-02
+    eol: 2019-07-01
     latest: 'bouncy'
+    latestReleaseDate: 2018-07-02
+
 -   releaseCycle: 'ardent'
     codename: 'Ardent Apalone'
-    eol: 2018-12-01
     releaseDate: 2017-12-08
-    latestReleaseDate: 2017-12-08
+    eol: 2018-12-01
     latest: 'ardent'
+    latestReleaseDate: 2017-12-08
 
 
 ---
 
-> ROS2 (Robot Operating System) provides libraries and tools to help software developers create robotic applications. ROS2 is a major revision of [ROS 1](https://wiki.ros.org/), which adds support for real-time code and embedded system hardware. As ROS1 will no longer be [supported past May 2025](/ros), it is highly recommended for new projects to start using ROS2.
+> ROS2 (Robot Operating System) provides libraries and tools to help software developers create
+> robotic applications. ROS2 is a major revision of [ROS 1](https://wiki.ros.org/), which adds
+> support for real-time code and embedded system hardware. As ROS1 will no longer be [supported past
+> May 2025](/ros), it is highly recommended for new projects to start using ROS2.
 
 ## Release Cadence
 
@@ -80,4 +91,5 @@ Side effects of the release policy:
 - LTS releases will not share a common Ubuntu release with any previous releases.
 - ROS releases will not add support for new Ubuntu distributions after their release date.
 
-These simplified rules and side effects are subject to change with changes to the underlying Ubuntu release policy.
+These simplified rules and side effects are subject to change with changes to the underlying Ubuntu
+release policy.
