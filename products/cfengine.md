@@ -17,8 +17,8 @@ releases:
     releaseDate: 2022-12-21
     eol: 2025-12-21
     lts: true
-    latest: "3.21.0"
-    latestReleaseDate: 2022-12-21
+    latest: "3.21.1"
+    latestReleaseDate: 2023-04-24
 
 -   releaseCycle: "3.20"
     releaseDate: 2022-07-01
@@ -36,8 +36,8 @@ releases:
     releaseDate: 2021-06-24
     eol: 2024-06-24
     lts: true
-    latest: "3.18.3"
-    latestReleaseDate: 2022-11-14
+    latest: "3.18.4"
+    latestReleaseDate: 2023-04-24
 
 -   releaseCycle: "3.17"
     releaseDate: 2020-11-18
