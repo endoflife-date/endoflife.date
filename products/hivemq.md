@@ -1,9 +1,7 @@
 ---
 title: HiveMQ
 category: server-app
-permalink: /HiveMQ
-alternate_urls:
--   /Hive-MQ
+permalink: /hivemq
 releasePolicyLink: "https://www.hivemq.com/blog/hivemq-moves-to-new-release-cadence/"
 releaseColumn: true
 releaseDateColumn: true
@@ -71,10 +69,10 @@ releases:
 
 ---
 
-> [HiveMQ] (https://www.hivemq.com/hivemq/mqtt-broker/) is an MQTT broker and a client based messaging platform designed for the fast, 
->efficient and reliable movement of data to and from connected IoT devices. 
+> [HiveMQ] (https://www.hivemq.com/hivemq/mqtt-broker/) is an MQTT broker and a client based messaging platform designed for the fast,
+>efficient and reliable movement of data to and from connected IoT devices.
 > It uses the MQTT protocol for instant, bi-directional push of data between your device and your enterprise systems.
-Starting with HiveMQ 4.10, feature releases for the HiveMQ Enterprise MQTT Platform take on a monthly schedule. 
+Starting with HiveMQ 4.10, feature releases for the HiveMQ Enterprise MQTT Platform take on a monthly schedule.
 HiveMQ  ships a new version of the platform every month, each monthly release includes a mix of major and minor features.
 Shorter release cycles help to benefit from new functionality as soon as possible
 Two Release Types;
