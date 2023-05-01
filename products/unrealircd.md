@@ -4,7 +4,6 @@ category: server-app
 permalink: /unrealircd
 versionCommand: ./unrealircd version
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
-changelogTemplate: "https://github.com/unrealircd/unrealircd/blob/unreal{{'__LATEST__'|split:'.'|slice:0,2|join:''}}/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -25,7 +24,7 @@ releases:
     releaseDate: 2021-12-17
     support: true
     eol: false
-    link: https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-604
+    link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
     latest: "6.0.7"
     latestReleaseDate: 2023-03-24
 
@@ -33,6 +32,7 @@ releases:
     releaseDate: 2019-12-13
     support: 2022-07-01
     eol: 2023-07-01
+    link: "https://github.com/unrealircd/unrealircd/blob/unreal52/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
     latest: "5.2.4"
     latestReleaseDate: 2022-01-28
 
@@ -40,6 +40,7 @@ releases:
     releaseDate: 2015-12-24
     support: 2019-05-20
     eol: 2020-12-31
+    link: https://github.com/unrealircd/unrealircd/blob/unreal42/doc/RELEASE-NOTES
     latest: "4.2.4.1"
     latestReleaseDate: 2019-07-07
 
@@ -47,6 +48,7 @@ releases:
     releaseDate: 2004-04-25
     support: 2015-12-11
     eol: 2016-12-31
+    link: https://forums.unrealircd.org/viewtopic.php?f=1&t=8588
     latest: "3.2.10.7"
     latestReleaseDate: 2016-09-03
 
