@@ -2,7 +2,8 @@
 title: HiveMQ
 category: server-app
 permalink: /hivemq
-releasePolicyLink: "https://www.hivemq.com/blog/hivemq-moves-to-new-release-cadence/"
+releasePolicyLink: https://www.hivemq.com/blog/hivemq-moves-to-new-release-cadence/
+changelogTemplate: "https://www.hivemq.com/blog/whats-new-in-hivemq-{{'__RELEASE_CYCLE__'|replace:'.','-'}}/"
 releaseColumn: true
 releaseDateColumn: true
 
@@ -10,7 +11,6 @@ releases:
 -   releaseCycle: "4.13"
     releaseDate: 2023-03-07
     eol: 2024-03-29
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-13/"
     latest: "4.13"
     latestReleaseDate: 2023-03-07
 
@@ -18,7 +18,6 @@ releases:
     lts: true
     releaseDate: 2022-09-29
     eol: 2024-09-29
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-9"
     latest: "4.9.5"
     latestReleaseDate: 2023-03-07
 
@@ -26,28 +25,24 @@ releases:
     lts: true
     releaseDate: 2022-04-28
     eol: 2024-04-26
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-8/"
     latest: "4.8.10"
     latestReleaseDate: 2023-03-07
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-02-07
     eol: 2024-03-29
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-12/"
     latest: "4.12"
     latestReleaseDate: 2023-02-07
 
 -   releaseCycle: "4.11"
     releaseDate: 2023-01-10
     eol: 2024-03-29
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-11/"
     latest: "4.11"
     latestReleaseDate: 2023-01-10
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-12-06
     eol: 2024-03-29
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-10"
     latest: "4.10"
     latestReleaseDate: 2022-12-06
 
@@ -55,7 +50,6 @@ releases:
     lts: true
     releaseDate: 2021-09-14
     eol: 2022-09-14
-    link: "https://www.hivemq.com/blog/whats-new-in-hivemq-4-7/"
     latest: "4.7.12"
     latestReleaseDate: 2022-10-11
 
