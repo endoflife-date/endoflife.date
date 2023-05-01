@@ -3,43 +3,48 @@ title: ROS
 category: os
 iconSlug: ros
 permalink: /ros
+versionCommand: rosversion -d
 releasePolicyLink: https://wiki.ros.org/Distributions
+changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
+releaseLabel: '__CODENAME__'
 activeSupportColumn: false
 releaseColumn: true
 eolColumn: End Of Life
-versionCommand: rosversion -d
 releaseDateColumn: true
-releaseLabel: '__CODENAME__'
-changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
+
 releases:
 -   releaseCycle: 'noetic'
     codename: 'Noetic Ninjemys'
-    eol: 2025-05-01
     releaseDate: 2020-05-23
-    latestReleaseDate: 2020-05-23
+    eol: 2025-05-01
     latest: noetic
+    latestReleaseDate: 2020-05-23
+
 -   releaseCycle: 'melodic'
     codename: 'Melodic Morenia'
-    eol: 2023-04-01
     releaseDate: 2018-05-23
-    latestReleaseDate: 2018-05-23
+    eol: 2023-04-01
     latest: melodic
+    latestReleaseDate: 2018-05-23
+
 -   releaseCycle: 'lunar'
     codename: 'Lunar Loggerhead'
-    eol: 2019-05-01
     releaseDate: 2017-05-23
-    latestReleaseDate: 2017-05-23
+    eol: 2019-05-01
     latest: lunar
+    latestReleaseDate: 2017-05-23
+
 -   releaseCycle: 'kinetic'
     codename: 'Kinetic Kame'
-    eol: 2021-05-01
     releaseDate: 2016-05-23
-    latestReleaseDate: 2016-05-23
+    eol: 2021-05-01
     latest: kinetic
+    latestReleaseDate: 2016-05-23
 
 ---
 
-> ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications.
+> ROS (Robot Operating System) provides libraries and tools to help software developers create robot
+> applications.
 
 Release rules:
 
@@ -55,6 +60,7 @@ Side effects of the release policy:
 - LTS releases will not share a common Ubuntu release with any previous releases.
 - ROS releases will not add support for new Ubuntu distributions after their release date.
 
-These simplified rules and side effects are subject to change with changes to the underlying Ubuntu release policy.
+These simplified rules and side effects are subject to change with changes to the underlying Ubuntu
+release policy.
 
 For more details see the official [Release Policy](https://wiki.ros.org/Distributions/ReleasePolicy).
