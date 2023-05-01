@@ -1546,7 +1546,7 @@ releases:
     releaseDate: 2016-10-01 # Approximate to the month and year.
     support: false
     eol: true
-    link: https://doc.samsungmobile.com/SM-A800IZ/000065170406/zho-tw.htmll
+    link: https://doc.samsungmobile.com/SM-A800IZ/000065170406/zho-tw.html
 
 -   releaseCycle: "Galaxy On8"
     releaseDate: 2016-10-01 # Approximate to the month and year.
