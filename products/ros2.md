@@ -7,9 +7,8 @@ versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
 changelogTemplate: 'http://docs.ros.org/en/__RELEASE_CYCLE__/index.html'
 releaseLabel: '__CODENAME__'
-releaseColumn: true
+releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: End Of Life
 
 releases:
@@ -17,58 +16,41 @@ releases:
     codename: 'Humble Hawksbill'
     releaseDate: 2022-05-23
     eol: 2027-05-01
-    latest: humble
-    latestReleaseDate: 2022-05-23
 
 -   releaseCycle: 'galactic'
     codename: 'Galactic Geochelone'
     releaseDate: 2021-05-23
     eol: 2022-12-09
-    latest: galactic
-    latestReleaseDate: 2021-05-23
 
 -   releaseCycle: 'foxy'
     codename: 'Foxy Fitzroy'
     releaseDate: 2020-06-05
     eol: 2023-05-01
-    latest: foxy
-    latestReleaseDate: 2020-06-05
 
 -   releaseCycle: 'eloquent'
     codename: 'Eloquent Elusor'
     releaseDate: 2019-11-22
     eol: 2020-11-01
-    latest: 'eloquent'
-    latestReleaseDate: 2019-11-22
 
 -   releaseCycle: 'dashing'
     codename: 'Dashing Diademata'
     releaseDate: 2019-05-31
     eol: 2021-05-01
-    latest: 'dashing'
-    latestReleaseDate: 2019-05-31
 
 -   releaseCycle: 'crystal'
     codename: 'Crystal Clemmys'
     releaseDate: 2018-12-14
     eol: 2019-12-01
-    latest: 'crystal'
-    latestReleaseDate: 2018-12-14
 
 -   releaseCycle: 'bouncy'
     codename: 'Bouncy Bolson'
     releaseDate: 2018-07-02
     eol: 2019-07-01
-    latest: 'bouncy'
-    latestReleaseDate: 2018-07-02
 
 -   releaseCycle: 'ardent'
     codename: 'Ardent Apalone'
     releaseDate: 2017-12-08
     eol: 2018-12-01
-    latest: 'ardent'
-    latestReleaseDate: 2017-12-08
-
 
 ---
 
