@@ -5,7 +5,7 @@ iconSlug: ros
 permalink: /ros2
 versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
-changelogTemplate: 'http://docs.ros.org/en/__RELEASE_CYCLE__/index.html'
+changelogTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
 releaseLabel: '__CODENAME__'
 releaseColumn: false
 releaseDateColumn: true
@@ -46,11 +46,13 @@ releases:
     codename: 'Bouncy Bolson'
     releaseDate: 2018-07-02
     eol: 2019-07-01
+    link: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
 
 -   releaseCycle: 'ardent'
     codename: 'Ardent Apalone'
     releaseDate: 2017-12-08
     eol: 2018-12-01
+    link: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
 
 ---
 
