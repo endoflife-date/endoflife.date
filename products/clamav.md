@@ -11,7 +11,15 @@ auto:
 -   git: https://github.com/Cisco-Talos/clamav.git
     regex: '^clamav-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
 
+# See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
+-   releaseCycle: "1.1"
+    lts: false
+    releaseDate: 2023-05-01
+    eol: false
+    latest: "1.1.0"
+    latestReleaseDate: 2023-05-01
+
 -   releaseCycle: "1.0"
     releaseDate: 2022-11-28
     eol: 2025-11-28
