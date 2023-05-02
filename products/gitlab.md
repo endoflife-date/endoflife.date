@@ -23,21 +23,21 @@ releases:
     releaseDate: 2023-04-21
     support: 2023-05-22
     eol: 2023-07-22
-    latest: "15.11.0"
-    latestReleaseDate: 2023-04-21
+    latest: "15.11.1"
+    latestReleaseDate: 2023-05-01
 
 -   releaseCycle: "15.10"
     releaseDate: 2023-03-21
     support: 2023-04-22
     eol: 2023-06-22
-    latest: "15.10.4"
-    latestReleaseDate: 2023-04-21
+    latest: "15.10.5"
+    latestReleaseDate: 2023-05-01
 
 -   releaseCycle: "15.9"
     support: 2023-03-22
     eol: 2023-05-22
-    latest: "15.9.5"
-    latestReleaseDate: 2023-04-21
+    latest: "15.9.6"
+    latestReleaseDate: 2023-05-01
     releaseDate: 2023-02-21
 
 -   releaseCycle: "15.8"
