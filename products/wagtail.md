@@ -16,7 +16,16 @@ identifiers:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
 
+# See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
+-   releaseCycle: "5.0"
+    lts: false
+    releaseDate: 2023-05-02
+    support: 2023-08-01
+    eol: 2023-11-01
+    latest: "5.0"
+    latestReleaseDate: 2023-05-02
+
 -   releaseCycle: "4.2"
     support: 2023-05-02
     lts: false
