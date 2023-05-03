@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "2020"
     lts: true
     releaseDate: 2020-06-20
-    eol: 2023-05-01
+    eol: 2023-05-05
     latest: "2020.3.47f1"
     latestReleaseDate: 2023-04-05
 
