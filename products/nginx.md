@@ -17,6 +17,7 @@ identifiers:
 -   purl: pkg:rpm/amzn/nginx
 -   purl: pkg:rpm/redhat/nginx
 -   purl: pkg:rpm/centos/nginx
+-   purl: pkg:apk/alpine/nginx
 
 # https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
