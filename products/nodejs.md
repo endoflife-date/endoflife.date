@@ -4,8 +4,8 @@ category: framework
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
-  -   /node
-  -   /node.js
+-   /node
+-   /node.js
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
@@ -30,8 +30,8 @@ releases:
     lts: 2023-10-24
     support: 2024-10-22
     eol: 2026-04-30
-    latest: "20.0.0"
-    latestReleaseDate: 2023-04-18
+    latest: "20.1.0"
+    latestReleaseDate: 2023-05-03
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
