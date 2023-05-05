@@ -4,7 +4,7 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/if28hfqufnfyz4idebda0bctokh1xrf.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -19,6 +19,12 @@ identifiers:
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
 releases:
+-   releaseCycle: "6.3"
+    eol: false
+    latest: "6.3.1"
+    latestReleaseDate: 2023-04-30
+    releaseDate: 2023-04-23
+
 -   releaseCycle: "6.2"
     eol: false
     latest: "6.2.14"
@@ -81,7 +87,7 @@ releases:
     lts: true
     latest: "5.4.242"
     latestReleaseDate: 2023-04-26
-    releaseDate: 2019-11-25
+    releaseDate: 2019-11-24
 
 -   releaseCycle: "4.19"
     eol: 2024-12-01
@@ -113,8 +119,10 @@ There are several main categories into which kernel releases may fall:
 
 - **Prepatch or "RC"** kernels are mainline kernel pre-releases that are mostly aimed at other kernel developers and Linux enthusiasts. They must be compiled from source and usually contain new features that must be tested before they can be put into a stable release.
 
-- **Mainline tree**  It's the tree where all new features are introduced and where all the exciting new development happens. New mainline kernels are released every 2-3 months.
+- **Mainline**  is the tree where all new features are introduced and where all the exciting new development happens. New mainline kernels are released every 9-10 weeks.
 
-- **Stable** is labeled after each mainline kernel is released. Any bug fixes for a stable kernel are backported from the mainline tree. There are usually only a few bugfix kernel releases until next mainline kernel becomes available -- unless it is designated a "longterm maintenance kernel". Stable kernel updates are released on as-needed basis, usually once a week.
+- **Stable** is labeled after each mainline kernel is released. Any bug fixes for a stable kernel are backported from the mainline tree and applied by a designated stable kernel maintainer. There are usually only a few bugfix kernel releases until next mainline kernel becomes available -- unless it is designated a "longterm maintenance kernel." Stable kernel updates are released on as-needed basis, usually once a week.
 
-- **Longterm (LTS)** are usually several longterm maintenance kernel releases provided for the purposes of backporting bugfixes for older kernel trees. By default, these are only supported for two years (as opposed to the 4 months of a non-LTS release) [but are usually extended depending on how long companies pledge to back it.](https://lore.kernel.org/lkml/YA%2FE1bHRmZb50MlS@kroah.com/) Only important bugfixes are applied to such kernels, and they don't usually see very frequent releases, especially for older trees.
+- **Longterm (LTS)** are usually several "longterm maintenance" kernel releases provided for the purposes of backporting bugfixes for older kernel trees. Only important bugfixes are applied to such kernels and they don't usually see very frequent releases, especially for older trees.
+
+The "projected EOL" dates are not set in stone. Each new longterm kernel usually starts with only a 2-year projected EOL (as opposed to the 4 months of a non-LTS release) that can be extended further if there is enough interest from the industry at large to [help support it](http://www.kroah.com/log/blog/2021/02/03/helping-out-with-lts-kernel-releases) for a longer period of time.
