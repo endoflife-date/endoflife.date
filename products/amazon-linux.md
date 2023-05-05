@@ -28,16 +28,16 @@ releases:
 -   releaseCycle: '2023'
     eol: 2028-03-15
     support: 2025-03-15
-    latest: "2023.0.20230322.0"
-    latestReleaseDate: 2023-03-28
+    latest: "2023.0.20230503.0"
+    latestReleaseDate: 2023-05-04
     releaseDate: 2023-03-01
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
     eol: 2025-06-30
     support: 2025-06-30
-    latest: "2.0.20230320.0"
-    latestReleaseDate: 2023-03-28
+    latest: "2.0.20230418.0"
+    latestReleaseDate: 2023-05-04
     releaseDate: 2018-06-26
     link: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
@@ -45,11 +45,11 @@ releases:
     releaseLabel: 'AMI 2018.03'
     support: 2020-12-31
     eol: 2023-06-30
-    latest: "2018.03.0.20230322.0"
+    latest: "2018.03.0.20230419.0"
     releaseDate: 2018-04-25
     link: https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 
-    latestReleaseDate: 2023-03-28
+    latestReleaseDate: 2023-05-04
 -   releaseCycle: '2017.09'
     releaseLabel: 'AMI 2017.09'
     support: 2020-12-31
