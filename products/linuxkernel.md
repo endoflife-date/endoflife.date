@@ -1,21 +1,18 @@
 ---
 title: Linux Kernel
-permalink: /linux
 category: os
 iconSlug: linux
-releasePolicyLink: https://www.kernel.org/
+permalink: /linux
+versionCommand: uname -r
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/if28hfqufnfyz4idebda0bctokh1xrf.png
-changelogTemplate: |
-  https://kernelnewbies.org/Linux___RELEASE_CYCLE__
+releasePolicyLink: https://www.kernel.org/
+changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
-versionCommand: uname -r
+
 auto:
-# Note that we're tracking the linux kernel stable tree, not torvalds' tree
-# which doesn't contain all tags
--   git: https://github.com/gregkh/linux.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
+-   custom: true
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel

@@ -90,6 +90,7 @@ releases:
     extendedSupport: false
     # https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html#platform-upgrades
     supportedPhpVersions: 7.2, 7.3
+    link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
     latest: "2.3.7"
     latestReleaseDate: 2021-05-07
 
@@ -98,6 +99,7 @@ releases:
     support: 2019-12-01
     eol: 2019-12-01
     extendedSupport: false
+    link: https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
     latest: "2.2.11"
     latestReleaseDate: 2020-01-07
 
@@ -106,6 +108,7 @@ releases:
     support: 2019-06-01
     eol: 2019-06-01
     extendedSupport: false
+    link: https://magento.github.io/devdocs/guides/v2.1/release-notes/bk-release-notes.html
     latest: "2.1.18"
     latestReleaseDate: 2019-06-06
 
@@ -114,6 +117,7 @@ releases:
     support: 2018-03-01
     eol: 2018-03-01
     extendedSupport: false
+    link: https://magento.github.io/devdocs/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
     latest: "2.0.18"
     latestReleaseDate: 2018-02-20
 
@@ -122,6 +126,7 @@ releases:
     support: 2020-06-01
     eol: 2020-06-01
     extendedSupport: false
+    link: null
     latest: "1.9.4.3"
 
 -   releaseCycle: "1.8"
@@ -129,6 +134,7 @@ releases:
     support: 2014-09-01
     eol: 2020-06-01
     extendedSupport: false
+    link: null
     latest: "1.8.1.0"
 
 -   releaseCycle: "1.7"
@@ -136,6 +142,7 @@ releases:
     support: 2013-04-01
     eol: 2020-06-01
     extendedSupport: false
+    link: null
     latest: "1.7.0.2"
 
 -   releaseCycle: "1.6"
@@ -143,6 +150,7 @@ releases:
     support: 2012-08-01
     eol: 2020-06-01
     extendedSupport: false
+    link: null
     latest: "1.6.2.0"
 
 -   releaseCycle: "1.5"
@@ -150,6 +158,7 @@ releases:
     support: 2012-02-01
     eol: 2020-06-01
     extendedSupport: false
+    link: null
     latest: "1.5.1.0"
 
 -   releaseCycle: "1.4"
@@ -157,6 +166,7 @@ releases:
     support: 2011-02-01
     eol: 2012-02-01
     extendedSupport: false
+    link: null
     latest: "1.4.2.0"
 
 -   releaseCycle: "1.3"
@@ -164,6 +174,7 @@ releases:
     support: 2010-03-01
     eol: 2011-03-01
     extendedSupport: false
+    link: null
     latest: "1.3.3.0"
 
 -   releaseCycle: "1.2"
@@ -171,6 +182,7 @@ releases:
     support: 2009-12-01
     eol: 2010-12-01
     extendedSupport: false
+    link: null
     latest: "1.2.1.2"
 
 -   releaseCycle: "1.1"
@@ -178,6 +190,7 @@ releases:
     support: 2009-07-01
     eol: 2010-07-01
     extendedSupport: false
+    link: null
     latest: "1.1.8"
 
 -   releaseCycle: "1.0"
@@ -185,6 +198,7 @@ releases:
     support: 2009-03-01
     eol: 2010-03-01
     extendedSupport: false
+    link: null
     latest: "1.0.0"
 
 ---

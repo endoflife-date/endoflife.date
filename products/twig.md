@@ -11,14 +11,14 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.5.1"
+    latest: "3.6.0"
     releaseDate: 2019-11-15
-    latestReleaseDate: 2023-02-08
+    latestReleaseDate: 2023-05-03
 -   releaseCycle: "2"
     eol: false
-    latest: "2.15.4"
+    latest: "2.15.5"
     releaseDate: 2017-01-05
-    latestReleaseDate: 2022-12-27
+    latestReleaseDate: 2023-05-03
 -   releaseCycle: "1"
     eol: false
     latest: "1.44.7"

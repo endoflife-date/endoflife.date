@@ -5,8 +5,7 @@ iconSlug: wordpress
 permalink: /wordpress
 versionCommand: wp core version
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
-changelogTemplate: "https://wordpress.org/support/wordpress-version/version-{{'__LATEST__'\
-  \ | drop_zero_patch | replace:'.','-'}}/"
+changelogTemplate: "https://wordpress.org/documentation/wordpress-version/version-{{'__LATEST__'|drop_zero_patch|replace:'.','-'}}/"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

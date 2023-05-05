@@ -17,15 +17,15 @@ identifiers:
 releases:
 -   releaseCycle: "10, version 22H2 (E)"
     releaseDate: 2022-10-18
-    support: 2025-05-13
-    eol: 2025-05-13
+    support: 2025-10-14
+    eol: 2025-10-14
     latest: 10.0.19045
     link: https://learn.microsoft.com/windows/release-health/release-information
 
 -   releaseCycle: "10, version 22H2 (W)"
     releaseDate: 2022-10-18
-    support: 2024-05-14
-    eol: 2024-05-14
+    support: 2025-10-14
+    eol: 2025-10-14
     latest: 10.0.19045
     link: https://learn.microsoft.com/windows/release-health/release-information
 
@@ -38,8 +38,8 @@ releases:
 
 -   releaseCycle: "11, version 22H2 (W)"
     releaseDate: 2022-09-20
-    support: 2024-10-14
-    eol: 2024-10-14
+    support: 2024-10-08
+    eol: 2024-10-08
     latest: 10.0.22621
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 

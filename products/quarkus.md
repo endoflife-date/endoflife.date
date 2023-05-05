@@ -27,14 +27,14 @@ releases:
     releaseDate: 2023-04-12
     eol: false
     extendedSupport: false
-    latest: "3.0.1"
-    latestReleaseDate: 2023-04-25
+    latest: "3.0.2"
+    latestReleaseDate: 2023-05-03
 
 -   releaseCycle: "2.16"
     eol: false
     extendedSupport: false
-    latest: "2.16.6"
-    latestReleaseDate: 2023-04-03
+    latest: "2.16.7"
+    latestReleaseDate: 2023-05-04
     releaseDate: 2023-01-18
 
 -   releaseCycle: "2.15"
