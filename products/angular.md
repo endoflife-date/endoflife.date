@@ -22,12 +22,12 @@ releases:
 -   releaseCycle: "16"
     releaseDate: 2023-05-03
     support: 2023-11-03
-    eol: 2024-12-03
+    eol: 2024-11-08
     latest: "16.0.0"
     latestReleaseDate: 2023-05-03
 
 -   releaseCycle: "15"
-    support: 2023-05-18
+    support: 2023-05-03
     eol: 2024-05-18
     latest: "15.2.9"
     releaseDate: 2022-11-16
