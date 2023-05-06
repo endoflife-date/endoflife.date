@@ -247,7 +247,7 @@ the `main` repository.
 | Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    |
 |-----------------------------------------------------------------------------------------|-----------------|------------------------------|---------------|
 | Main repository                                                                         | 5 years         | 10 years                     | 10 years      |
-| Restricted repository                                                                   | 5 years         | 10 years[^2]                 | 10 years [^2] |
+| Restricted repository                                                                   | 5 years         | 5 years                      | 5 years       |
 | Universe repository                                                                     | Best Effort[^6] | Best Effort                  | 10 years      |
 | Phone/Ticket Support                                                                    | No              | Yes                          | Yes           |
 | Kernel Live Patching                                                                    | No              | Yes                          | Yes           |
@@ -257,7 +257,7 @@ the `main` repository.
 For package specific support details, the following commands are available:
 
 - `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
-- [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.
+- [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) command (`ua status` on older releases) for ESM.
 
 ---
 
