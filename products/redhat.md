@@ -7,7 +7,7 @@ alternate_urls:
 -   /redhat
 -   /redhatlinux
 versionCommand: cat /etc/redhat-release
-changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/overview
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 activeSupportColumn: Full Support
