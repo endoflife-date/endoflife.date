@@ -9,8 +9,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 identifiers:
--   cpe: cpe:/o:centos:centos
--   cpe: cpe:2.3:o:centos:centos
+-   cpe: cpe:/o:centos:stream
+-   cpe: cpe:2.3:o:centos:stream
 
 releases:
 -   releaseCycle: "9"
