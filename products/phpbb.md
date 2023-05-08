@@ -2,10 +2,9 @@
 title: phpBB
 category: server-app
 permalink: /phpbb
-activeSupportColumn: false
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: true
 auto:
 -   git: https://github.com/phpbb/phpbb.git
     regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
