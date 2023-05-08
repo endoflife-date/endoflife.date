@@ -55,6 +55,8 @@ releases:
     eol: 2021-11-16
     support: 2018-11-16
     releaseDate: 2016-05-16
+    # https://docs.mulesoft.com/release-notes/mule-runtime/mule-3.8.7-release-notes returns a 404
+    link: null
     latest: "3.8.7"
     latestReleaseDate: 2018-05-28
     lts: true
