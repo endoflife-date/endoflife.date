@@ -69,6 +69,7 @@ releases:
     latest: "2.0.9"
     releaseDate: 2017-08-14
     latestReleaseDate: 2018-07-10
+    link: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
 
 ---
 
