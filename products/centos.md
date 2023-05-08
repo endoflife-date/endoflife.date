@@ -43,24 +43,14 @@ releases:
 
 ---
 
-> [CentOS](https://centos.org/) is a Linux distribution that provides a free, enterprise-class,
-> community-supported computing platform functionally compatible with Red Hat Enterprise Linux.
+> [CentOS Linux](https://centos.org/centos-linux/) is a Linux distribution that provides a free,
+> enterprise-class, community-supported computing platform functionally compatible with Red Hat
+> Enterprise Linux.
 
-CentOS Linux is rebuilt from [Red Hat Enterprise Linux (RHEL)](/rhel) source code and referred to as
-the downstream variant.
+CentOS Linux is a rebuild of [Red Hat Enterprise Linux (RHEL)](/rhel) source code. Major versions
+are supported with security and bugfix updates as long as its corresponding RHEL release is not EOL,
+except for CentOS Linux 8.
 
-CentOS Linux currently has 2 major released branches that are active: CentOS Linux 7 and CentOS Linux 8.
-**The CentOS Project provides updates or other changes ONLY for the latest version of each major branch**.
-Thus, if the latest minor version of CentOS Linux 7 is version 7.9 then the CentOS Project only
-provides updated software for this minor version in the 7 branch.
-If you are using an older minor version than the latest in a given branch, then you are missing
-security and bugfix updates.
-
-Since minor versions of CentOS are point in time releases of a major branch, starting with CentOS
-Linux 7, CentOS Linux uses a date code as the minor version.
-As an example, `CentOS Linux 7 (1406)` means June 2014 and `CentOS Linux 7 (1503)` means March 2015.
-For releases before CentOS 7 - minor versions are incremental (6.0, 6.1, 6.2, etc.).
-
-The project [has announced](https://blog.centos.org/2020/12/future-is-centos-stream/) that work on
-CentOS Linux 8 will cease at the end of 2021 and that shifts will focus to CentOS Stream.
-Support information for CentOS Stream are available at [CentOS Stream page](/centos-stream).
+[It was announced on December 8th, 2023](https://blog.centos.org/2020/12/future-is-centos-stream/)
+that work on CentOS Linux 8 will cease at the end of 2021 and that shifts will focus to CentOS
+Stream. Support information for CentOS Stream are available on the [CentOS Stream page](/centos-stream).
