@@ -22,7 +22,7 @@ releases:
 -   releaseCycle: "3.1"
     eol: 2016-05-01
     latest: "3.1.12"
-    releaseDate: 2014-28-10
+    releaseDate: 2014-10-28
 -   releaseCycle: "3.0"
     eol: 2015-05-01
     latest: "3.0.14"
