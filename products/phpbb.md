@@ -6,6 +6,9 @@ releasePolicyLink: https://www.phpbb.com/community/viewtopic.php?f=14&t=2302466
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: false
+auto:
+-   git: https://github.com/phpbb/phpbb.git
+    regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 releases:
 -   releaseCycle: "3.3"
     eol: false
