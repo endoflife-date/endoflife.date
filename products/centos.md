@@ -5,7 +5,6 @@ iconSlug: centos
 permalink: /centos
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
-releaseLabel: "CentOS Linux __RELEASE_CYCLE__"
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -15,7 +14,6 @@ identifiers:
 
 releases:
 -   releaseCycle: "8"
-    releaseLabel: "CentOS Linux 8"
     releaseDate: 2019-09-24
     support: 2021-12-31
     eol: 2021-12-31
@@ -23,7 +21,6 @@ releases:
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
 
 -   releaseCycle: "7"
-    releaseLabel: "CentOS Linux 7"
     releaseDate: 2014-07-07
     support: 2020-08-06
     eol: 2024-06-30
@@ -31,7 +28,6 @@ releases:
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
 
 -   releaseCycle: "6"
-    releaseLabel: "CentOS 6"
     releaseDate: 2011-07-10
     support: 2017-05-10
     eol: 2020-11-30
@@ -39,7 +35,6 @@ releases:
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
 
 -   releaseCycle: "5"
-    releaseLabel: "CentOS 5"
     releaseDate: 2007-04-12
     support: 2014-01-31
     eol: 2017-03-31
@@ -67,3 +62,5 @@ For releases before CentOS 7 - minor versions are incremental (6.0, 6.1, 6.2, et
 
 The project has [announced](https://blog.centos.org/2020/12/future-is-centos-stream/) that work on
 CentOS Linux 8 will cease at the end of 2021.
+
+For information about CentOS Stream, go to [our CentOS Stream page](/centos-stream).
