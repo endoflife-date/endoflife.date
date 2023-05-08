@@ -178,7 +178,7 @@ releases:
 
 ---
 
-> [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs.paloaltonetworks.com/cortex/cortex-xdr)
+> [Palo Alto Networks](https://www.paloaltonetworks.com/) [Cortex XDR agent](https://docs-cortex.paloaltonetworks.com/p/XDR)
 > protects endpoints by preventing known and unknown malware from running on those endpoints and by
 > halting any attempts to leverage software exploits and vulnerabilities. The agent can be installed
 > on a variety of operating systems including Windows, macOS, Android, and Linux. Software updates

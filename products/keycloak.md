@@ -115,5 +115,5 @@ Depending on the severity of a vulnerability, the issue may be fixed in the curr
 lower severity vulnerabilities or hardening, in the following release.
 
 A commercial offering with long term support of specific versions of Keycloak is provided by Red Hat
-with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on).
+with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/).
 It should be noted that RH-SSO must be running [under a supported configuration](https://access.redhat.com/articles/2342861).
