@@ -67,6 +67,7 @@ releases:
     support: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
+    link: https://laravel.com/docs/5.8/releases
     latest: '5.8.38'
     latestReleaseDate: 2020-04-14
 
@@ -76,6 +77,7 @@ releases:
     support: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
+    link: https://laravel.com/docs/5.5/releases
     latest: '5.5.50'
     latestReleaseDate: 2020-08-18
 
