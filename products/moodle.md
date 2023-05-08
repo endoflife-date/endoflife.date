@@ -8,7 +8,6 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
-releaseImage: https://moodledev.io/assets/images/4011_release_graph-67c5dac3e7ba705cf567a8624dc50c3d.png
 
 auto:
 -   git: https://github.com/moodle/moodle.git
@@ -19,6 +18,8 @@ releases:
     releaseDate: 2023-04-22
     support: 2024-04-22
     eol: 2024-10-07
+    # Remove this link after 4.2.1 is released
+    link: https://moodledev.io/general/releases/4.2
     latest: "4.2.0"
     latestReleaseDate: 2023-04-22
 
