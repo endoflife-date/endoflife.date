@@ -17,6 +17,8 @@ releases:
     releaseDate: 2022-12-18
     latest: "1.24.3"
     eol: 2024-12-19
+    # https://numpy.org/doc/stable/release/1.24.3-notes.html returns a 404
+    link: https://numpy.org/doc/stable/release/1.24.0-notes.html
 
     latestReleaseDate: 2023-04-22
 -   releaseCycle: "1.23"
