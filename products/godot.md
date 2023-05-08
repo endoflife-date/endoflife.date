@@ -89,6 +89,7 @@ releases:
     releaseDate: 2014-12-15
     support: false
     eol: true
+    link: https://godotengine.org/article/godot-engine-reaches-1-0/
     latest: "1.0"
     latestReleaseDate: 2014-12-15
 
