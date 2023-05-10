@@ -52,5 +52,5 @@ are supported with security and bugfix updates as long as its corresponding RHEL
 except for CentOS Linux 8.
 
 [It was announced on December 8th, 2023](https://blog.centos.org/2020/12/future-is-centos-stream/)
-that work on CentOS Linux 8 will cease at the end of 2021 and that shifts will focus to CentOS
-Stream. Support information for CentOS Stream are available on the [CentOS Stream page](/centos-stream).
+that work on CentOS Linux 8 will cease at the end of 2021 and that shift will focus to CentOS Stream.
+Support information for CentOS Stream are available on the [CentOS Stream page](/centos-stream).
