@@ -3,7 +3,7 @@ title: CentOS
 category: os
 iconSlug: centos
 permalink: /centos
-versionCommand: lsb_release --release
+versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
