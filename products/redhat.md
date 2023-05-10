@@ -24,10 +24,10 @@ releases:
     support: 2027-05-31
     eol: 2032-05-31
     extendedSupport: 2034-05-31
-    latest: "9.1"
+    latest: "9.2"
     releaseDate: 2022-05-17
     lts: 2032-05-31
-    latestReleaseDate: 2022-11-15
+    latestReleaseDate: 2023-05-10
 
 -   releaseCycle: "8"
     support: 2024-05-31

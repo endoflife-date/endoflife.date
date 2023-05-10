@@ -34,25 +34,25 @@ eolColumn: Support Status
 releases:
 -   releaseCycle: "10.11"
     eol: 2028-02-16
-    latest: "10.11.2"
+    latest: "10.11.3"
     lts: true
     releaseDate: 2023-02-16
-    latestReleaseDate: 2023-02-16
+    latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.10"
     eol: 2023-11-17
-    latest: "10.10.3"
+    latest: "10.10.4"
     releaseDate: 2022-11-07
-    latestReleaseDate: 2023-02-06
+    latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.9"
     eol: 2023-08-22
-    latest: "10.9.5"
+    latest: "10.9.6"
     releaseDate: 2022-08-15
-    latestReleaseDate: 2023-02-06
+    latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.8"
     eol: 2023-05-20
-    latest: "10.8.7"
+    latest: "10.8.8"
     releaseDate: 2022-05-20
-    latestReleaseDate: 2023-02-06
+    latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.7"
     eol: 2023-02-14
     latest: "10.7.8"
@@ -60,24 +60,24 @@ releases:
     releaseDate: 2022-02-08
 -   releaseCycle: "10.6"
     eol: 2026-07-06
-    latest: "10.6.12"
+    latest: "10.6.13"
     lts: true
-    latestReleaseDate: 2023-02-06
+    latestReleaseDate: 2023-05-10
     releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
     eol: 2025-06-24
-    latest: "10.5.19"
-    latestReleaseDate: 2023-02-06
+    latest: "10.5.20"
+    latestReleaseDate: 2023-05-10
     releaseDate: 2020-06-23
 -   releaseCycle: "10.4"
     eol: 2024-06-18
-    latest: "10.4.28"
-    latestReleaseDate: 2023-02-06
+    latest: "10.4.29"
+    latestReleaseDate: 2023-05-10
     releaseDate: 2019-06-17
 -   releaseCycle: "10.3"
     eol: 2023-05-25
-    latest: "10.3.38"
-    latestReleaseDate: 2023-02-06
+    latest: "10.3.39"
+    latestReleaseDate: 2023-05-10
     releaseDate: 2018-05-23
 -   releaseCycle: "10.2"
     eol: 2022-05-23
