@@ -27,32 +27,32 @@ identifiers:
 releases:
 -   releaseCycle: "15"
     eol: 2027-11-11
-    latest: "15.2"
-    latestReleaseDate: 2023-02-06
+    latest: "15.3"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2022-10-10
 
 -   releaseCycle: "14"
     eol: 2026-09-30
-    latest: "14.7"
-    latestReleaseDate: 2023-02-06
+    latest: "14.8"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2021-09-27
 
 -   releaseCycle: "13"
     eol: 2025-11-13
-    latest: "13.10"
-    latestReleaseDate: 2023-02-06
+    latest: "13.11"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2020-09-21
 
 -   releaseCycle: "12"
     eol: 2024-11-14
-    latest: "12.14"
-    latestReleaseDate: 2023-02-06
+    latest: "12.15"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2019-09-30
 
 -   releaseCycle: "11"
     eol: 2023-11-09
-    latest: "11.19"
-    latestReleaseDate: 2023-02-06
+    latest: "11.20"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2018-10-15
 
 -   releaseCycle: "10"

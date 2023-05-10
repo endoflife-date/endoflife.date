@@ -77,8 +77,8 @@ releases:
     lts: true
     releaseDate: 2022-06-28
     eol: false
-    latest: "102.10.0"
-    latestReleaseDate: 2023-04-11
+    latest: "102.11.0"
+    latestReleaseDate: 2023-05-09
 
 -   releaseCycle: "91"
     lts: true
