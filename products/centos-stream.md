@@ -1,7 +1,7 @@
 ---
 title: CentOS Stream
 category: os
-iconSlug: centos-stream
+iconSlug: centos
 permalink: /centos-stream
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.centos.org/About/Product
