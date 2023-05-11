@@ -12,10 +12,17 @@ releaseDateColumn: true
 auto:
 -   custom: true
 
+# For non-LTS versions, eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "113"
+    releaseDate: 2023-05-09
+    eol: false
+    latest: "113.0"
+    latestReleaseDate: 2023-05-09
+
 -   releaseCycle: "112"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2023-05-09
     latest: "112.0.2"
     latestReleaseDate: 2023-04-25
 
