@@ -21,8 +21,8 @@ releases:
     releaseDate: 2022-05-26
     support: 2027-05-31
     eol: 2032-05-31
-    latest: "9.1"
-    latestReleaseDate: 2022-11-17
+    latest: "9.2"
+    latestReleaseDate: 2023-05-11
     link: https://almalinux.org/blog/almalinux-91-now-available/
 
 -   releaseCycle: "8"
@@ -32,6 +32,7 @@ releases:
     latest: "8.7"
     latestReleaseDate: 2022-11-10
     link: https://almalinux.org/blog/almalinux-87-now-available/
+
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open source, community owned and governed,

@@ -26,44 +26,44 @@ releases:
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
     eol: false
-    latest: "1.26-eks-1"
-    latestReleaseDate: 2023-04-11
+    latest: "1.26-eks-2"
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
     latest: "1.25-eks-3"
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.24"
     eol: 2024-01-01
     latest: "1.24-eks-6"
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
     releaseDate: 2022-11-15
 
 -   releaseCycle: "1.23"
     eol: 2023-10-01
     latest: "1.23-eks-8"
     releaseDate: 2022-08-11
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.22"
     eol: 2023-06-04
     latest: "1.22-eks-12"
     releaseDate: 2022-04-04
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.21"
     eol: 2023-02-15
     latest: "1.21-eks-17"
     releaseDate: 2021-07-19
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.20"
     eol: 2022-11-01
     latest: "1.20-eks-14"
     releaseDate: 2021-05-18
-    latestReleaseDate: 2023-04-06
+    latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "1.19"
     eol: 2022-08-01

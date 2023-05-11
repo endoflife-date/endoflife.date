@@ -11,8 +11,8 @@ releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
-  -   repology: tomcat
-  -   purl: pkg:maven/org.apache.tomcat/tomcat
+-   repology: tomcat
+-   purl: pkg:maven/org.apache.tomcat/tomcat
 
 auto:
 -   maven: org.apache.tomcat/tomcat
@@ -36,8 +36,8 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: 8
-    latest: "9.0.74"
-    latestReleaseDate: 2023-04-13
+    latest: "9.0.75"
+    latestReleaseDate: 2023-05-04
 
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
