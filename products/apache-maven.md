@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "3"
     eol: false
     support: true
-    latest: "3.9.1"
-    latestReleaseDate: 2023-03-15
+    latest: "3.9.2"
+    latestReleaseDate: 2023-05-08
     releaseDate: 2010-10-04
 
 -   releaseCycle: "2"
