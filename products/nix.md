@@ -117,6 +117,8 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2012-05-11
     eol: 2018-02-22
+    # https://nixos.org/manual/nix/stable/release-notes/rl-1.html return a 404
+    link: null
     latest: "1.11.16"
     latestReleaseDate: 2017-12-20
 
