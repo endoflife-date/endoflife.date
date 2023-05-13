@@ -11,18 +11,32 @@ releaseColumn: true
 versionCommand: nvidia-smi
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
+-   releaseCycle: "R530-Windows (NFB)"
+    support: true
+    eol: 2023-06-24
+    latest: "531.79"
+    link: https://www.nvidia.com/Download/driverResults.aspx/204772/
+    releaseDate: 2023-03-23
+
+-   releaseCycle: "R530-Linux (NFB)"
+    support: true
+    eol: 2023-06-24
+    latest: "530.41.03"
+    link: https://www.nvidia.com/Download/driverResults.aspx/200481/
+    releaseDate: 2023-03-23
+
 -   releaseCycle: "R525-Windows (PB)"
     support: true
-    eol: 2024-01-01
-    latest: "527.37"
-    link: https://www.nvidia.com/download/driverResults.aspx/197300/en-us/
+    eol: 2023-12-01
+    latest: "528.95"
+    link: https://www.nvidia.com/Download/driverResults.aspx/204574/
     releaseDate: 2022-11-10
     
 -   releaseCycle: "R525-Linux (PB)"
     support: true
-    eol: 2024-01-01
-    latest: "525.60.11"
-    link: https://www.nvidia.com/download/driverResults.aspx/196723/
+    eol: 2023-12-01
+    latest: "525.116.03"
+    link: https://www.nvidia.com/Download/driverResults.aspx/204639/
     releaseDate: 2022-11-10
     
 -   releaseCycle: "R515-Windows (PB)"
@@ -35,22 +49,22 @@ releases:
 -   releaseCycle: "R515-Linux (PB)"
     support: true
     eol: 2023-05-01
-    latest: "515.86.01"
-    link: https://www.nvidia.com/download/driverResults.aspx/194662/
+    latest: "515.105.01"
+    link: https://www.nvidia.com/Download/driverResults.aspx/202059/
     releaseDate: 2022-05-11
-    
--   releaseCycle: "R510-Linux (PB)"
-    support: true
-    eol: 2023-01-01
-    latest: "510.108.03"
-    link: https://www.nvidia.com/download/driverResults.aspx/194569/
-    releaseDate: 2022-01-14
     
 -   releaseCycle: "R510-Windows (PB)"
     support: true
     eol: 2023-01-01
     latest: "513.91"
     link: https://www.nvidia.com/download/driverResults.aspx/194565/
+    releaseDate: 2022-01-14
+    
+-   releaseCycle: "R510-Linux (PB)"
+    support: true
+    eol: 2023-01-01
+    latest: "510.108.03"
+    link: https://www.nvidia.com/download/driverResults.aspx/194569/
     releaseDate: 2022-01-14
     
 -   releaseCycle: "R495-Windows (NFB)"
@@ -70,7 +84,7 @@ releases:
 -   releaseCycle: "R470-Windows"
     lts: true
     support: 2021-09-20
-    eol: 2024-09-01
+    eol: 2024-07-01
     latest: "474.04"
     link: https://www.nvidia.com/Download/driverResults.aspx/196634/
     releaseDate: 2021-06-22
@@ -78,9 +92,9 @@ releases:
 -   releaseCycle: "R470-Linux"
     lts: true
     support: 2021-10-26
-    eol: 2024-09-01
-    latest: "470.161.03"
-    link: http://www.nvidia.com/Download/driverResults.aspx/194637/
+    eol: 2024-07-20
+    latest: "470.182.03"
+    link: https://www.nvidia.com/Download/driverResults.aspx/200634/
     releaseDate: 2021-07-19
     
 -   releaseCycle: "R460-Windows (PB)"
