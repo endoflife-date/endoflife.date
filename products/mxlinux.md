@@ -18,8 +18,8 @@ identifiers:
 -   purl: pkg:os/mxlinux
 
 auto:
--   distrowatch: mxlinux
--   regex: '^Distribution Release: MX Linux (?P<major>\d)\.(?P<minor>\d)$'
+-   distrowatch: mx
+    regex: '^Distribution Release: MX Linux (?P<major>\d+)\.(?P<minor>\d+)$'
 
 releases:
 -   releaseCycle: "21"
