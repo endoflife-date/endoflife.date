@@ -94,7 +94,7 @@ releases:
     latestReleaseDate: 2023-03-23
 
 -   releaseCycle: "19.10"
-    codename: "Karmic Koala"
+    codename: "Eoan Ermine"
     releaseDate: 2019-10-17
     support: 2020-07-06
     eol: 2020-07-06
