@@ -19,7 +19,7 @@ identifiers:
 
 auto:
 -   distrowatch: mx
-    regex: '^Distribution Release: MX Linux (?P<major>\d+)\.(?P<minor>\d+)$'
+    regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
 
 releases:
 -   releaseCycle: "21"
