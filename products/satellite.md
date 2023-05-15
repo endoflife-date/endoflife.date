@@ -43,6 +43,13 @@ releases:
     latest: "6.10.7.2"
     latestReleaseDate: 2023-03-01
 
+-   releaseCycle: "6.9"
+    releaseDate: 2021-04-21
+    eol: 2022-11-30
+    support: 2021-11-30
+    latest: "6.9.10"
+    latestReleaseDate: 2022-11-17
+
 ---
 
 > [Red Hat Satellite](https://www.redhat.com/technologies/management/satellite) is an infrastructure
