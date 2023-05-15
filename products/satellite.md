@@ -52,6 +52,7 @@ releases:
     support: 2021-11-30
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17
+    link: https://access.redhat.com/errata/RHSA-2022:8532
 
 ---
 
