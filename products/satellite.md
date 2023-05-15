@@ -16,7 +16,7 @@ eolColumn: Maintenance support
 
 releases:
 -   releaseCycle: "6.13"
-    releaseDate 2023-05-03
+    releaseDate: 2023-05-03
     eol: 2024-11-30
     support: 2023-11-30
     latest: "6.13.0"
