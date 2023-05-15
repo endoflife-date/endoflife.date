@@ -28,6 +28,7 @@ releases:
     support: 2023-05-31
     latest: "6.12.4"
     latestReleaseDate: 2023-04-27
+    link: https://access.redhat.com/errata/RHBA-2023:2052
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
@@ -35,6 +36,7 @@ releases:
     support: 2022-11-30
     latest: "6.11.5.2"
     latestReleaseDate: 2023-03-27
+    link: https://access.redhat.com/errata/RHBA-2023:1478
 
 -   releaseCycle: "6.10"
     releaseDate: 2021-11-16
@@ -42,6 +44,7 @@ releases:
     support: 2022-06-30
     latest: "6.10.7.2"
     latestReleaseDate: 2023-03-01
+    link: https://access.redhat.com/errata/RHBA-2023:1041
 
 -   releaseCycle: "6.9"
     releaseDate: 2021-04-21
