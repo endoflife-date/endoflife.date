@@ -17,14 +17,14 @@ extendedSupportColumn: Extended Security Updates
 releases:
 -   releaseCycle: "2022"
     codename: Dallas
-    releaseLabel: "2022 CU3"
+    releaseLabel: "2022 CU4"
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.4025.1"
-    latestReleaseDate: 2023-04-13
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate3
+    latest: "16.0.4035.4"
+    latestReleaseDate: 2023-05-11
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate4
 
 -   releaseCycle: "2019"
     codename: Seattle
