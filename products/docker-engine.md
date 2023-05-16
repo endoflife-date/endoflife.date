@@ -30,8 +30,8 @@ releases:
 # but hasn't https://github.com/moby/moby/discussions/45104
 -   releaseCycle: "20.10"
     eol: false
-    latest: "20.10.24"
-    latestReleaseDate: 2023-04-04
+    latest: "20.10.25"
+    latestReleaseDate: 2023-05-15
     releaseDate: 2020-12-09
 
 -   releaseCycle: "19.03"

@@ -24,7 +24,7 @@ auto:
 releases:
 -   releaseCycle: "21"
     codename: "Wildflower"
-    releaseDate: 2022-04-10
+    releaseDate: 2021-10-21
     latest: "21.3"
     latestReleaseDate: 2023-01-15
     support: 2024-06-30
@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "19"
     codename: "Patito Feo"
-    releaseDate: 2020-02-16
+    releaseDate: 2019-10-22
     latest: "19.4"
     latestReleaseDate: 2021-04-01
     support: 2022-09-10
@@ -42,7 +42,7 @@ releases:
 
 -   releaseCycle: "18"
     codename: "Continuum"
-    releaseDate: 2019-02-10
+    releaseDate: 2018-12-20
     latest: "18.3"
     latestReleaseDate: 2019-05-28
     support: 2020-06-05
@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "17"
     codename: "Horizon"
-    releaseDate: 2018-03-15
+    releaseDate: 2017-12-15
     latest: "17.1"
     latestReleaseDate: 2018-03-15
     support: 2020-06-05
@@ -60,7 +60,7 @@ releases:
 
 -   releaseCycle: "16"
     codename: "Metamorphosis"
-    releaseDate: 2017-06-08
+    releaseDate: 2016-12-14
     latest: "16.1"
     latestReleaseDate: 2017-06-08
     support: 2018-06-23
@@ -78,7 +78,7 @@ releases:
 
 -   releaseCycle: "14"
     codename: "Symbiosis"
-    releaseDate: 2014-07-01
+    releaseDate: 2014-03-25
     latest: "14.4"
     latestReleaseDate: 2015-03-24
     support: 2016-06-04
