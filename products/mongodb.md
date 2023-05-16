@@ -87,8 +87,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-01
-    latest: "5.0.17"
-    latestReleaseDate: 2023-04-20
+    latest: "5.0.18"
+    latestReleaseDate: 2023-05-15
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
@@ -188,7 +188,7 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2009-08-27
     eol: 2010-08-31
-    link: null
+    link:
     latest: '1.0.1'
     latestReleaseDate: 2009-10-22
 

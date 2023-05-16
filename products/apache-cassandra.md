@@ -36,9 +36,9 @@ releases:
     eol: 2023-05-01
     support: true
     releaseDate: 2015-11-09
-    latest: "3.0.28"
+    latest: "3.0.29"
     discontinued: true
-    latestReleaseDate: 2022-10-23
+    latestReleaseDate: 2023-05-15
 
 ---
 
