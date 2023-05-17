@@ -33,10 +33,10 @@ releases:
     support: 2024-05-31
     eol: 2029-05-31
     extendedSupport: 2031-05-31
-    latest: "8.7"
+    latest: "8.8"
     releaseDate: 2019-05-07
     lts: 2029-05-31
-    latestReleaseDate: 2022-11-09
+    latestReleaseDate: 2023-05-16
 
 -   releaseCycle: "7"
     support: 2019-12-31
