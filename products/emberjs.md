@@ -16,27 +16,44 @@ auto:
 -   npm: ember-source
 
 releases:
--   releaseCycle: "4"
+-   releaseCycle: "4.12"
+    releaseDate: 2023-04-03
     support: true
     eol: false
     latest: "4.12.0"
     latestReleaseDate: 2023-04-03
-    releaseDate: 2021-11-15
+
+-   releaseCycle: "4.8"
+    lts: true
+    releaseDate: 2022-11-28
+    support: 2023-08-07
+    eol: 2023-12-11
+    latest: "4.8.4"
+    latestReleaseDate: 2022-12-04
+
+-   releaseCycle: "4.4"
+    lts: true
+    releaseDate: 2022-07-13
+    support: 2023-03-22
+    eol: 2023-07-26
+    latest: "4.4.5"
+    latestReleaseDate: 2023-05-04
+
 -   releaseCycle: "3.28"
     lts: true
+    releaseDate: 2021-08-10
     support: 2022-08-29
     eol: 2023-01-02
     latest: "3.28.12"
     latestReleaseDate: 2023-05-04
-    releaseDate: 2021-08-10
+
 -   releaseCycle: "3.24"
     lts: true
+    releaseDate: 2020-12-28
     support: 2021-11-04
     eol: 2022-03-10
     latest: "3.24.7"
-
     latestReleaseDate: 2022-11-02
-    releaseDate: 2020-12-28
 
 ---
 
