@@ -1,10 +1,10 @@
 ---
-title: PHPMyAdmin
+title: phpMyAdmin
 category: server-app
 iconSlug: phpmyadmin
 permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
-changelogTemplate: https://www.phpmyadmin.net/files/__LATEST__/
+changelogTemplate: https://github.com/phpmyadmin/phpmyadmin/blob/QA___CYCLE_SHORT_HAND__/ChangeLog
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
@@ -13,6 +13,15 @@ auto:
 -   git: https://github.com/phpmyadmin/phpmyadmin.git
     regex: '^RELEASE_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)(_(?<tiny>\d+))?$'
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}'
+
+
+identifiers:
+-   repology: phpmyadmin
+-   purl: pkg:deb/debian/phpmyadmin
+-   purl: pkg:deb/ubuntu/phpmyadmin
+-   purl: pkg:rpm/redhat/phpmyadmin
+-   purl: pkg:rpm/centos/phpmyadmin
+-   dockerhub: library/phpmyadmin
 
 releases:
 -   releaseCycle: "5.2"
