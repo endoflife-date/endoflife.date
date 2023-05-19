@@ -67,31 +67,37 @@ releases:
 -   releaseCycle: "10.5"
     eol: 2025-06-24
     latest: "10.5.20"
+    lts: true
     latestReleaseDate: 2023-05-10
     releaseDate: 2020-06-23
 -   releaseCycle: "10.4"
     eol: 2024-06-18
     latest: "10.4.29"
+    lts: true
     latestReleaseDate: 2023-05-10
     releaseDate: 2019-06-17
 -   releaseCycle: "10.3"
     eol: 2023-05-25
     latest: "10.3.39"
+    lts: true
     latestReleaseDate: 2023-05-10
     releaseDate: 2018-05-23
 -   releaseCycle: "10.2"
     eol: 2022-05-23
     latest: "10.2.44"
+    lts: true
     latestReleaseDate: 2022-05-20
     releaseDate: 2017-05-15
 -   releaseCycle: "10.1"
     eol: 2020-10-17
     latest: "10.1.48"
+    lts: true
     latestReleaseDate: 2020-10-30
     releaseDate: 2016-09-29
 -   releaseCycle: "10.0"
     eol: 2019-03-31
     latest: "10.0.38"
+    lts: true
     latestReleaseDate: 2019-01-29
     releaseDate: 2014-06-12
 -   releaseCycle: "5.5"
