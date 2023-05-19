@@ -19,7 +19,6 @@ plugins:
 
 # just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs
-logo: /assets/logo-with-text.png
 nav_sort: case_insensitive
 
 # https://just-the-docs.com/docs/configuration/#search

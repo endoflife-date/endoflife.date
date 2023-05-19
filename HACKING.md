@@ -72,7 +72,7 @@ The site is based on the [Just the Docs](https://github.com/just-the-docs/just-t
 [the documentation](https://just-the-docs.github.io/just-the-docs/) for knowing more about its configuration (beware,
 this configuration is for the current `main` branch, not for the version used by this site).
 
-If you need to override some parts, take a look at 
+If you need to override some parts, take a look at
 [the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/) of the documentation.
 
 
@@ -92,8 +92,6 @@ so we have a redirect from /favicon.ico to a PNG version instead.
 
 Note that `android-chrome-*.png` icons were renamed to `logo-*.png`. Those icons are used in other
 contexts, such as on the site as a logo.
-
-The site logo is used as per the theme documentation.
 
 ## Automation
 
