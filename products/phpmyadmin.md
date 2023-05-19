@@ -4,7 +4,7 @@ category: server-app
 iconSlug: phpmyadmin
 permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
-changelogTemplate: https://github.com/phpmyadmin/phpmyadmin/blob/QA___CYCLE_SHORT_HAND__/ChangeLog
+changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
@@ -46,10 +46,10 @@ releases:
     latestReleaseDate: 2020-10-15
 
 -   releaseCycle: "4.9"
+    lts: true
     releaseDate: 2019-06-04
     support: 2019-12-31
     eol: false
-    lts: true
     latest: "4.9.11"
     latestReleaseDate: 2023-02-07
 
@@ -78,6 +78,7 @@ releases:
     releaseDate: 2015-09-23
     support: 2016-04-01
     eol: 2016-04-01
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.5.5.1"
     latestReleaseDate: 2016-02-29
 
@@ -85,6 +86,7 @@ releases:
     releaseDate: 2015-04-01
     support: 2016-10-01
     eol: 2016-10-01
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.4.15.10"
     latestReleaseDate: 2017-01-23
 
@@ -92,6 +94,7 @@ releases:
     releaseDate: 2014-12-05
     support: 2015-10-01
     eol: 2015-10-01
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.3.13.3"
     latestReleaseDate: 2015-09-09
 
@@ -99,6 +102,7 @@ releases:
     releaseDate: 2014-05-08
     support: 2015-07-01
     eol: 2015-07-01
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.2.13.3"
     latestReleaseDate: 2015-05-13
 
@@ -106,14 +110,16 @@ releases:
     releaseDate: 2013-12-11
     support: 2015-01-01
     eol: 2015-01-01
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.1.14.8"
     latestReleaseDate: 2014-12-03
 
 -   releaseCycle: "4.0"
+    lts: true
     releaseDate: 2013-05-03
     support: 2013-12-31
     eol: 2017-04-01
-    lts: true
+    link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.0.10.20"
     latestReleaseDate: 2017-03-28
 
