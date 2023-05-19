@@ -107,6 +107,6 @@ releases:
 
 A new MariaDB Server version will be announced once per quarter bringing new features to the server. These release series are maintained for approximately a year after their General Availability (GA) date.
 
-There will be long term support releases selected that will be maintained for five years. This long term support series will be selected approximately every 2 years.
+Every 2 years since 10.6, some release series are selected for longer maintenance windows. These LTS release series are maintained for five years with security and bug fixes. Prior to that, release series were maintained for five years (or even more for 5.5) but were never officially called LTS.
 
 These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL 2 license as-is, without warranties.
