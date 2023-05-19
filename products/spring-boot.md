@@ -40,16 +40,16 @@ releases:
     releaseDate: 2021-11-19
     eol: 2022-11-24
     extendedSupport: 2024-02-24
-    latest: "2.6.14"
-    latestReleaseDate: 2022-11-24
+    latest: "2.6.15"
+    latestReleaseDate: 2023-05-18
 
 -   releaseCycle: "2.5"
     supportedJavaVersions: "8 - 18" # https://docs.spring.io/spring-boot/docs/2.5.14/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2021-05-20
     eol: 2022-05-19
     extendedSupport: 2023-08-24
-    latest: "2.5.14"
-    latestReleaseDate: 2022-05-19
+    latest: "2.5.15"
+    latestReleaseDate: 2023-05-18
 
 -   releaseCycle: "2.4"
     supportedJavaVersions: "8 - 16" # https://docs.spring.io/spring-boot/docs/2.4.13/reference/html/getting-started.html#getting-started-system-requirements
