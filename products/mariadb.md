@@ -105,7 +105,7 @@ releases:
 
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational database management system (RDBMS) originally forked from MySQL.
 
-A new MariaDB Server version will be announced one per quarter bringing new features to the server. These release series are maintainced for approximately once a year after their General Availability (stable) date.
+A new MariaDB Server version will be announced once per quarter bringing new features to the server. These release series are maintained for approximately a year after their General Availability (GA) date.
 
 There will be long term support releases selected that will be maintained for five years. This long term support series will be selected approximately every 2 years.
 
