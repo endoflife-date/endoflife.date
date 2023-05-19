@@ -4,7 +4,7 @@ category: os
 iconSlug: fedora
 permalink: /fedora
 versionCommand: cat /etc/fedora-release
-releasePolicyLink: https://fedoraproject.org/wiki/End_of_life
+releasePolicyLink: https://docs.fedoraproject.org/en-US/releases/lifecycle/
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 activeSupportColumn: false
 releaseDateColumn: true
@@ -97,7 +97,7 @@ releases:
 
 ---
 
-> [Fedora](https://getfedora.org/) is a Linux distribution developed by the community-supported
+> [Fedora](https://fedoraproject.org/) is a Linux distribution developed by the community-supported
 > Fedora Project and sponsored by Red Hat.
 
 Fedora end of life dates are not typically known far in advance with to-the-day accuracy. Fedora has
@@ -105,6 +105,6 @@ a relatively short life cycle: Release X is supported until one month (4 weeks) 
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
-See [this link](https://fedoraproject.org/wiki/Releases) for a list of all releases, and
-[this link](https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle) for more information about the
-Fedora Release Cycle. A list of all EOL releases can be found [here](https://fedoraproject.org/wiki/End_of_life).
+See [this link](https://docs.fedoraproject.org/en-US/releases/) for a list of all releases, and
+[this link](https://docs.fedoraproject.org/en-US/releases/lifecycle/) for more information about the
+Fedora Release Cycle. A list of all EOL releases can be found [here](https://docs.fedoraproject.org/en-US/releases/eol/).
