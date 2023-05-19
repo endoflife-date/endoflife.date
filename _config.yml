@@ -31,7 +31,7 @@ search:
 # https://just-the-docs.com/docs/navigation-structure/#external-navigation-links
 nav_external_links:
   - title: Release Data
-    url: https://github.com/endoflife-date/release-data
+    url: https://github.com/endoflife-date/release-data/
 
 # https://just-the-docs.com/docs/configuration/#aux-links
 aux_links:
