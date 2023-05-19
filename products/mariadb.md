@@ -109,4 +109,4 @@ A new MariaDB Server version will be announced once per quarter bringing new fea
 
 There will be long term support releases selected that will be maintained for five years. This long term support series will be selected approximately every 2 years.
 
-These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL-2 license as-is, without warranties.
+These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL 2 license as-is, without warranties.
