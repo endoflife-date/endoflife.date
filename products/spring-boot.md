@@ -18,7 +18,16 @@ auto:
 # See https://rubular.com/r/stJ20etRIblK0J for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 
+# EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:
+-   releaseCycle: "3.1"
+    supportedJavaVersions: "17 - 20" # https://docs.spring.io/spring-boot/docs/3.1.0/reference/html/getting-started.html#getting-started.system-requirements
+    releaseDate: 2023-05-18
+    eol: 2024-05-18
+    extendedSupport: 2025-08-18
+    latest: "3.1.0"
+    latestReleaseDate: 2023-05-18
+
 -   releaseCycle: "3.0"
     supportedJavaVersions: "17 - 19" # https://docs.spring.io/spring-boot/docs/3.0.2/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-11-24
