@@ -103,10 +103,10 @@ releases:
 
 ---
 
-> [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
+> [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational database management system (RDBMS) originally forked from MySQL.
 
-A new MariaDB Server version will be announced for General Availability approximately once a year. The MariaDB Foundation guarantees that every release will be maintained for at least 5 years.
+A new MariaDB Server version will be announced one per quarter bringing new features to the server. These release series are maintainced for approximately once a year after their General Availability (stable) date.
 
-The MariaDB Foundation may decide to maintain selected releases beyond the normal 5 years if they are in exceptionally widespread use. As MariaDB 5.5 is included in multiple prominent Linux distributions with a lifespan beyond 2017, the Foundation is committed in maintaining it until 2020.
+There will be long term support releases selected that will be maintained for five years. This long term support series will be selected approximately every 2 years.
 
-These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL license as-is, without warranties.
+These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL-2 license as-is, without warranties.
