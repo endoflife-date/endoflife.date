@@ -28,11 +28,6 @@ search:
   button: true
   placeholder_text: "Search for a product"
 
-# https://just-the-docs.com/docs/navigation-structure/#external-navigation-links
-nav_external_links:
-  - title: Release Data
-    url: https://github.com/endoflife-date/release-data/
-
 # https://just-the-docs.com/docs/configuration/#aux-links
 aux_links:
   Recommendations:
@@ -43,6 +38,8 @@ aux_links:
     - https://github.com/endoflife-date/endoflife.date
   API:
     - /docs/api
+  "Release Data":
+    - https://github.com/endoflife-date/release-data/
 
 # https://just-the-docs.com/docs/configuration/#callouts
 callouts:
