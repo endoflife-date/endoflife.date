@@ -9,8 +9,13 @@ activeSupportColumn: false
 releaseDateColumn: true
 identifiers:
 -   repology: mariadb
+-   purl: pkg:apk/alpine/mariadb
 -   purl: pkg:deb/debian/mariadb-server
 -   purl: pkg:deb/ubuntu/mariadb-server
+-   purl: pkg:docker/library/mariadb
+-   purl: pkg:docker/bitnami/mariadb
+-   purl: pkg:docker/bitnami/mariadb-galera
+-   purl: pkg:homebrew/mariadb
 -   purl: pkg:rpm/amzn/mariadb-server
 -   purl: pkg:rpm/redhat/mariadb-server
 -   purl: pkg:rpm/centos/mariadb-server
