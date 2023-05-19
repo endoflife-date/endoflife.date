@@ -53,6 +53,7 @@ layout: default
 {%- assign releaseClasses = 'release' %}
 {%- if r.can_be_hidden %}{% assign releaseClasses = 'release can-be-hidden' %}{% endif %}
   <tr class="{{ releaseClasses }}">
+    {%- assign cycleColumnClass = '' %}
     {%- if r.daysTowardEol < 0 %}{% assign cycleColumnClass = 'txt-linethrough' %}{% endif %}
     <td class="{{ cycleColumnClass }}">
       {% comment %}Only put a link in the version column if the release column is not shown{% endcomment %}
