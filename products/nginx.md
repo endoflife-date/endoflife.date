@@ -23,7 +23,6 @@ identifiers:
 auto:
 -   git: https://github.com/nginx/nginx.git
     regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
--   hg: https://hg.nginx.org/nginx
 
 # eol(x) = releaseDate(x+2)
 releases:
