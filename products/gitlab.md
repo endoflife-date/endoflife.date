@@ -12,8 +12,9 @@ eolColumn: Maintenance Support
 
 auto:
 # Reference: https://rubular.com/r/mFfxB8FgXXERX4
--   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
-    git: https://gitlab.com/gitlab-org/gitlab.git
+-   git: https://gitlab.com/gitlab-org/gitlab.git
+    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
+
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
