@@ -154,7 +154,7 @@ releases:
 
 ---
 
-> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) that is tested and verified to be
 > compliant with the Java SE specification using OpenJDK Technology Compatibility Kit test suite for
 > Linux, Windows, macOS, and Solaris operating systems.
@@ -166,7 +166,7 @@ Liberica JDK builds are available for Java 6 and greater. It follows the same ca
 - a new LTS release every 2 years (every fourth OpenJDK release) after the release of OpenJDK 17.
 
 Following the upstream OpenJDK project, Liberica JDK updates are released quarterly. LTS versions
-are supported for at least 4 years, and non-LTS are only supported for 6 months.
+are supported at least 2 years (but usually much more), and non-LTS are only supported for 6 months.
 
 For LTS releases, [commercial support can be purchased](https://bell-sw.com/roadmap/) with at least
 8 years (from the initial release) of access to bug fixes, security updates, and other fixes as
