@@ -41,7 +41,6 @@ auto:
     -   '^(?P<version>[0-9.u+]+)$'
     -   '^OpenJDK (?P<version>[0-9.u+]+)$'
 
-# Do not forget to update the "auto" configuration on each new major release.
 # EOL dates are OpenJDK EOL dates, which are not fixed. This page is using Eclipse Temurin
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/roadmap/.
@@ -50,8 +49,8 @@ releases:
     releaseDate: 2023-03-22
     eol: 2023-09-19
     extendedSupport: false
-    latest: "20+37"
-    latestReleaseDate: 2023-03-22
+    latest: "20.0.1+10"
+    latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "19"
     releaseDate: 2022-09-21
@@ -72,8 +71,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     extendedSupport: 2030-03-31
-    latest: "17.0.6+10"
-    latestReleaseDate: 2023-01-18
+    latest: "17.0.7+7"
+    latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
@@ -115,8 +114,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     extendedSupport: 2027-03-31
-    latest: "11.0.18+10"
-    latestReleaseDate: 2023-01-18
+    latest: "11.0.19+7"
+    latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -134,8 +133,8 @@ releases:
     releaseDate: 2019-01-30
     eol: 2026-11-30
     extendedSupport: 2031-03-31
-    latest: "8u362+9"
-    latestReleaseDate: 2023-01-18
+    latest: "8u372+7"
+    latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "7"
     lts: true
