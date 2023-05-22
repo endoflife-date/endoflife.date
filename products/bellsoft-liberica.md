@@ -46,21 +46,21 @@ auto:
 # Extended support dates can be found on https://bell-sw.com/roadmap/.
 releases:
 -   releaseCycle: "20"
-    releaseDate: 2023-04-19
+    releaseDate: 2023-03-22
     eol: 2023-09-19
     extendedSupport: false
     latest: "20.0.1+10"
     latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "19"
-    releaseDate: 2022-10-21
+    releaseDate: 2022-09-21
     eol: 2023-03-21
     extendedSupport: false
     latest: "19.0.2+9"
     latestReleaseDate: 2023-01-18
 
 -   releaseCycle: "18"
-    releaseDate: 2022-04-21
+    releaseDate: 2022-03-23
     eol: 2022-09-20
     extendedSupport: false
     latest: "18.0.2.1+1"
@@ -68,28 +68,28 @@ releases:
 
 -   releaseCycle: "17"
     lts: true
-    releaseDate: 2021-10-22
+    releaseDate: 2021-09-17
     eol: 2027-10-31
     extendedSupport: 2030-03-31
     latest: "17.0.7+7"
     latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "16"
-    releaseDate: 2021-04-21
+    releaseDate: 2021-03-19
     eol: 2021-09-14
     extendedSupport: false
     latest: "16.0.2+7"
     latestReleaseDate: 2021-07-23
 
 -   releaseCycle: "15"
-    releaseDate: 2020-10-22
+    releaseDate: 2020-09-17
     eol: 2021-03-16
     extendedSupport: false
     latest: "15.0.2+10"
     latestReleaseDate: 2021-01-22
 
 -   releaseCycle: "14"
-    releaseDate: 2020-04-15
+    releaseDate: 2020-03-19
     eol: 2020-09-16
     extendedSupport: false
     latest: "14.0.2+13"
