@@ -16,6 +16,11 @@ identifiers:
 -   cpe: cpe:/o:nixos:nixos
 -   cpe: cpe:2.3:o:nixos:nixos
 releases:
+-   releaseCycle: "23.05
+    codename: "Stoat"
+    latest: "23.05"
+    eol: 2023-12-31
+    releaseDate: 2023-05-31
 -   releaseCycle: "22.11"
     codename: "Raccoon"
     latest: "22.11"
