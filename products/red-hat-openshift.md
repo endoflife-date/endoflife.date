@@ -16,9 +16,17 @@ eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
 
 releases:
+-   releaseCycle: "4.13"
+    releaseDate: 2023-05-17
+    support: true
+    eol: 2024-11-17
+    extendedSupport: 2025-01-17
+    latest: "4.13.0"
+    latestReleaseDate: 2023-05-17
+
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
-    support: true
+    support: 2023-08-17
     eol: 2024-07-17
     extendedSupport: 2025-01-17
     latest: "4.12.17"
