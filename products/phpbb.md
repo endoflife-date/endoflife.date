@@ -34,3 +34,6 @@ releases:
 ---
 
 > [phpBB](https://www.phpbb.com/) is an open-source forum software written in PHP.
+
+phpBB [follows semantic versioning](https://area51.phpbb.com/docs/dev/master/development/processes.html#target-versions).
+The support policy is not clearly defined, but it seems only the latest minor release sees active development and gets bug and security fixes.
