@@ -19,11 +19,19 @@ auto:
     # Scala >= 3
 -   git: https://github.com/lampepfl/dotty.git
 
+# For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "3.2"
-    releaseDate: 2022-08-31
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-23
     support: true
     eol: false
+    latest: "3.3.2"
+    latestReleaseDate: 2023-05-23
+
+-   releaseCycle: "3.2"
+    releaseDate: 2022-08-31
+    support: 2023-05-23
+    eol: 2023-05-23
     latest: "3.2.2"
     latestReleaseDate: 2023-01-11
 
