@@ -12,6 +12,7 @@ VALID_CATEGORIES = [
     "device",
     "framework",
     "lang",
+    "library",
     "os",
     "server-app",
     "service",
