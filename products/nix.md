@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
     eol: false # Update to release date of 2.16 when released
-    latest: "2.15.0"
-    latestReleaseDate: 2023-04-11
+    latest: "2.15.1"
+    latestReleaseDate: 2023-05-23
 
 -   releaseCycle: "2.14"
     releaseDate: 2023-02-28
@@ -118,7 +118,7 @@ releases:
     releaseDate: 2012-05-11
     eol: 2018-02-22
     # https://nixos.org/manual/nix/stable/release-notes/rl-1.html return a 404
-    link: null
+    link:
     latest: "1.11.16"
     latestReleaseDate: 2017-12-20
 

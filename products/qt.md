@@ -18,8 +18,8 @@ releases:
     lts: true
     releaseDate: 2023-03-31
     eol: 2026-03-31
-    latest: "6.5.0"
-    latestReleaseDate: 2023-03-31
+    latest: "6.5.1"
+    latestReleaseDate: 2023-05-23
     link: https://www.qt.io/blog/qt-6.5-lts-released
 -   releaseCycle: "6.4"
     eol: 2023-03-30
