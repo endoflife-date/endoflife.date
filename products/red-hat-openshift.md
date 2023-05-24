@@ -18,7 +18,7 @@ extendedSupportColumn: Extended Update Support
 releases:
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
-    support: true
+    support: true # will have to be updated with release of 4.14 see https://access.redhat.com/support/policy/updates/openshift#dates
     eol: 2024-11-17
     extendedSupport: 2025-01-17
     latest: "4.13.0"
