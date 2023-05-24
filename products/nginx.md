@@ -36,6 +36,7 @@ releases:
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
     eol: false
+    link: http://nginx.org/en/CHANGES-1.24
     latest: "1.24.0"
     latestReleaseDate: 2023-04-11
 
@@ -49,6 +50,7 @@ releases:
 -   releaseCycle: "1.22"
     releaseDate: 2022-05-24
     eol: 2023-04-11
+    link: http://nginx.org/en/CHANGES-1.22
     latest: "1.22.1"
     latestReleaseDate: 2022-10-19
 
@@ -62,66 +64,77 @@ releases:
 -   releaseCycle: "1.20"
     releaseDate: 2021-04-20
     eol: 2022-05-24
+    link: http://nginx.org/en/CHANGES-1.20
     latest: "1.20.2"
     latestReleaseDate: 2021-11-16
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-04-21
     eol: 2021-04-20
+    link: http://nginx.org/en/CHANGES-1.10
     latest: "1.18.0"
     latestReleaseDate: 2020-04-21
 
 -   releaseCycle: "1.16"
     releaseDate: 2019-04-23
     eol: 2020-04-20
+    link: http://nginx.org/en/CHANGES-1.16
     latest: "1.16.1"
     latestReleaseDate: 2019-08-13
 
 -   releaseCycle: "1.14"
     releaseDate: 2018-04-17
     eol: 2019-04-23
+    link: http://nginx.org/en/CHANGES-1.14
     latest: "1.14.2"
     latestReleaseDate: 2018-12-04
 
 -   releaseCycle: "1.12"
     releaseDate: 2017-04-12
     eol: 2018-04-17
+    link: http://nginx.org/en/CHANGES-1.12
     latest: "1.12.2"
     latestReleaseDate: 2017-10-17
 
 -   releaseCycle: "1.10"
     releaseDate: 2016-04-26
     eol: 2017-04-12
+    link: http://nginx.org/en/CHANGES-1.10
     latest: "1.10.3"
     latestReleaseDate: 2017-01-31
 
 -   releaseCycle: "1.8"
     releaseDate: 2015-04-21
     eol: 2016-04-26
+    link: http://nginx.org/en/CHANGES-1.8
     latest: "1.8.1"
     latestReleaseDate: 2016-01-26
 
 -   releaseCycle: "1.6"
     releaseDate: 2014-04-24
     eol: 2015-04-21
+    link: http://nginx.org/en/CHANGES-1.6
     latest: "1.6.3"
     latestReleaseDate: 2015-04-07
 
 -   releaseCycle: "1.4"
     releaseDate: 2013-04-24
     eol: 2014-04-24
+    link: http://nginx.org/en/CHANGES-1.4
     latest: "1.4.7"
     latestReleaseDate: 2014-03-18
 
 -   releaseCycle: "1.2"
     releaseDate: 2012-04-23
     eol: 2013-04-24
+    link: http://nginx.org/en/CHANGES-1.2
     latest: "1.2.9"
     latestReleaseDate: 2013-05-13
 
 -   releaseCycle: "1.0"
     releaseDate: 2011-04-12
     eol: 2012-04-23
+    link: http://nginx.org/en/CHANGES-1.0
     latest: "1.0.15"
     latestReleaseDate: 2012-04-12
 
