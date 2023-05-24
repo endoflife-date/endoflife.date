@@ -13,6 +13,8 @@ releaseDateColumn: true
 eolColumn: End of Support
 
 # releaseDate can be found by following each cycle's link.
+# EOL date are announced on https://github.com/Azure/AKS/releases or must be computed with this formula:
+# eol(x) ~= releaseDate(x) + 1 year
 releases:
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
@@ -69,7 +71,7 @@ available in all regions. AKS supports three GA minor versions of Kubernetes:
 Each supported minor version also supports a maximum of two stable patches.
 
 [Long Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
-releases receive support and security updates for two years (instead of the usual one year). 
+releases receive support and security updates for two years (instead of the usual one year).
 The first Long Term Support AKS release will be 1.27, to be released in May 2023.
 
 - AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).
