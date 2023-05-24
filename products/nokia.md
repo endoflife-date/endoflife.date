@@ -28,7 +28,7 @@ releases:
     eol: 2025-12-01
     link: https://www.nokia.com/phones/en_int/nokia-g-60
 -   releaseCycle: "Nokia X30 5G"
-    releaseDate: 2022-08-06
+    releaseDate: 2022-09-01
     eol: 2026-01-01
     link: https://www.nokia.com/phones/en_int/nokia-x-30
 -   releaseCycle: "Nokia C21"
