@@ -16,13 +16,13 @@ releases:
 -   releaseCycle: "26"
     releaseDate: 2023-03-21
     eol: 2024-03-01
-    latest: "26.0.1"
-    latestReleaseDate: 2023-04-19
+    latest: "26.0.2"
+    latestReleaseDate: 2023-05-25
 -   releaseCycle: "25"
     releaseDate: 2022-10-18
     eol: 2023-10-01
-    latest: "25.0.6"
-    latestReleaseDate: 2023-04-19
+    latest: "25.0.7"
+    latestReleaseDate: 2023-05-25
 -   releaseCycle: "24"
     releaseDate: 2022-05-02
     eol: 2023-05-01
