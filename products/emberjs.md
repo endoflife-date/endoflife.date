@@ -17,6 +17,14 @@ auto:
 -   npm: ember-source
 
 releases:
+
+-   releaseCycle: "5.0"
+    releaseDate: 2023-05-15
+    support: true
+    eol: false
+    latest: "5.0.0"
+    latestReleaseDate: 2023-05-15
+
 -   releaseCycle: "4.12"
     releaseDate: 2023-04-03
     support: true
