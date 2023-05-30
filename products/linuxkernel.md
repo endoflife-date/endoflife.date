@@ -79,29 +79,29 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-01
-    latest: "5.10.180"
-    latestReleaseDate: 2023-05-17
+    latest: "5.10.181"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-01
-    latest: "5.4.243"
-    latestReleaseDate: 2023-05-17
+    latest: "5.4.244"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-01
-    latest: "4.19.283"
-    latestReleaseDate: 2023-05-17
+    latest: "4.19.284"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
     eol: 2024-01-01
-    latest: "4.14.315"
-    latestReleaseDate: 2023-05-17
+    latest: "4.14.316"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "4.9"
     lts: true
