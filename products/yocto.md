@@ -15,6 +15,14 @@ changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releases:
+
+-   releaseCycle: "4.2"
+    codename: 'Mickledore'
+    releaseDate: 2022-05-05
+    eol: 2023-11-05
+    latest: "4.2.1"
+    latestReleaseDate: 2023-05-29
+
 -   releaseCycle: "4.1"
     codename: 'Langdale'
     latest: "4.1.1"
@@ -23,10 +31,12 @@ releases:
 
 -   releaseCycle: "4.0"
     codename: 'Kirkstone'
-    lts: true
-    latest: "4.0.5"
-    eol: 2024-04-27
     releaseDate: 2022-04-27
+    lts: true
+    eol: 2024-04-27
+    latest: "4.0.9"
+    latestReleaseDate: 2023-04-20
+    
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -48,10 +58,11 @@ releases:
 
 -   releaseCycle: "3.1"
     codename: 'Dunfell'
-    lts: true
-    latest: "3.1.20"
-    eol: 2024-04-01
     releaseDate: 2020-04-01
+    lts: true
+    eol: 2024-04-01
+    latest: "3.1.24"
+    latestReleaseDate: 2023-03-21
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'
