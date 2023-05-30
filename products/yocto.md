@@ -14,6 +14,9 @@ versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+auto:
+-   git: https://github.com/yoctoproject/poky.git
+    regex: '^yocto-(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 releases:
 
 -   releaseCycle: "4.2"
