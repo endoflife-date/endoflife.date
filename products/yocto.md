@@ -14,7 +14,18 @@ versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+auto:
+-   git: https://github.com/yoctoproject/poky.git
+    regex: '^yocto-(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
 releases:
+
+-   releaseCycle: "4.2"
+    codename: 'Mickledore'
+    releaseDate: 2022-05-05
+    eol: 2023-11-05
+    latest: "4.2.1"
+    latestReleaseDate: 2023-05-29
+
 -   releaseCycle: "4.1"
     codename: 'Langdale'
     latest: "4.1.1"
@@ -23,10 +34,12 @@ releases:
 
 -   releaseCycle: "4.0"
     codename: 'Kirkstone'
-    lts: true
-    latest: "4.0.5"
-    eol: 2024-04-27
     releaseDate: 2022-04-27
+    lts: true
+    eol: 2024-04-27
+    latest: "4.0.9"
+    latestReleaseDate: 2023-04-20
+    
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -48,10 +61,11 @@ releases:
 
 -   releaseCycle: "3.1"
     codename: 'Dunfell'
-    lts: true
-    latest: "3.1.20"
-    eol: 2024-04-01
     releaseDate: 2020-04-01
+    lts: true
+    eol: 2024-04-01
+    latest: "3.1.24"
+    latestReleaseDate: 2023-03-21
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'
@@ -77,4 +91,5 @@ A release enters End-of-Life status if no community maintainer steps up, or when
 
 Yocto stable releases (e.g. 3.0, 3.1, 3.2, 3.3…) are made about every 6 months, usually in April and October.
 Stable releases are maintained seven months after the initial release.
-ase.
+  
+A list of releases is published at <https://wiki.yoctoproject.org/wiki/Releases>.
