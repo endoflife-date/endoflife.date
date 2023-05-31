@@ -91,4 +91,5 @@ A release enters End-of-Life status if no community maintainer steps up, or when
 
 Yocto stable releases (e.g. 3.0, 3.1, 3.2, 3.3…) are made about every 6 months, usually in April and October.
 Stable releases are maintained seven months after the initial release.
-ase.
+  
+A list of releases is published at <https://wiki.yoctoproject.org/wiki/Releases>.
