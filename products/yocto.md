@@ -28,18 +28,19 @@ releases:
 
 -   releaseCycle: "4.1"
     codename: 'Langdale'
-    latest: "4.1.1"
+    latest: "4.1.2"
     eol: 2023-05-27
-    releaseDate: 2022-10-25
+    releaseDate: 2022-10-23
 
+    latestReleaseDate: 2023-01-17
 -   releaseCycle: "4.0"
     codename: 'Kirkstone'
-    releaseDate: 2022-04-27
+    releaseDate: 2022-04-25
     lts: true
     eol: 2024-04-27
     latest: "4.0.9"
     latestReleaseDate: 2023-04-20
-    
+
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -47,21 +48,24 @@ releases:
     eol: 2022-05-01
     releaseDate: 2021-10-25
 
+    latestReleaseDate: 2022-05-12
 -   releaseCycle: "3.3"
     codename: 'Hardknott'
     latest: "3.3.6"
     eol: 2021-11-01
-    releaseDate: 2021-04-01
+    releaseDate: 2021-04-19
 
+    latestReleaseDate: 2022-04-27
 -   releaseCycle: "3.2"
     codename: 'Gatesgarth'
     latest: "3.2.4"
     eol: 2021-05-01
-    releaseDate: 2020-10-01
+    releaseDate: 2020-11-03
 
+    latestReleaseDate: 2021-05-17
 -   releaseCycle: "3.1"
     codename: 'Dunfell'
-    releaseDate: 2020-04-01
+    releaseDate: 2020-04-21
     lts: true
     eol: 2024-04-01
     latest: "3.1.24"
@@ -71,13 +75,15 @@ releases:
     codename: 'Zeus'
     latest: "3.0.4"
     eol: 2020-08-01
-    releaseDate: 2019-10-01
+    releaseDate: 2019-10-22
 
+    latestReleaseDate: 2020-08-20
 -   releaseCycle: "2.7"
     codename: 'Warrior'
     latest: "2.7.4"
     eol: 2020-06-01
-    releaseDate: 2019-04-01
+    releaseDate: 2019-05-01
+    latestReleaseDate: 2020-06-02
 
 ---
 
