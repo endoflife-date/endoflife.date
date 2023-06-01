@@ -37,7 +37,7 @@ Find below the next releases after `2.4.0` :
 - `2.6.0` is planned for `2023-02-28`
 - `2.7.0` is planned for `2023-04-18`
 - `2.8.0` is planned for `2023-06-06`
-- `2.9.0` is planned for `2023-07-18``
+- `2.9.0` is planned for `2023-07-18`
 
 For more information on the changes planned for each release, see:
 
