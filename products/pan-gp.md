@@ -10,6 +10,14 @@ releaseDateColumn: true
 eolColumn: End-of-life Date
 
 releases:
+-   releaseCycle: "6.2"
+    eol: 2025-05-23
+    support: 2025-05-23
+    releaseDate: 2023-05-23
+    latest: "6.2.0"
+    latestReleaseDate: 2023-05-23
+    link: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes
+
 -   releaseCycle: "6.1"
     eol: 2024-09-01
     support: 2024-09-01
