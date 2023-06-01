@@ -2,6 +2,8 @@
 title: squid
 category: server-app
 permalink: /squid
+alternate_urls:
+-   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
 #https://github.com/squid-cache/squid/blob/master/SECURITY.md
