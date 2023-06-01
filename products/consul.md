@@ -24,50 +24,58 @@ releases:
 -   releaseCycle: "1.15"
     releaseDate: 2023-02-23
     eol: false
-    latestReleaseDate: 2023-03-30
-    latest: '1.15.2'
+    latestReleaseDate: 2023-06-01
+    latest: '1.15.3'
+    link: https://github.com/hashicorp/consul/releases/tag/v1.15.3
 
 -   releaseCycle: "1.14"
     eol: false
     releaseDate: 2022-11-15
     latestReleaseDate: 2023-05-15
     latest: '1.14.7'
+    link: https://github.com/hashicorp/consul/releases/tag/v1.14.7
 
 -   releaseCycle: "1.13"
     eol: false
     releaseDate: 2022-08-09
     latestReleaseDate: 2023-05-15
     latest: '1.13.8'
+    link: https://github.com/hashicorp/consul/releases/tag/v1.13.8
 
 -   releaseCycle: "1.12"
     eol: 2023-02-23
     latest: "1.12.9"
     latestReleaseDate: 2023-01-26
     releaseDate: 2022-04-19
+    link: https://github.com/hashicorp/consul/releases/tag/v1.12.9
 
 -   releaseCycle: "1.11"
     eol: 2022-11-15
     latest: "1.11.11"
     latestReleaseDate: 2022-10-19
     releaseDate: 2021-12-14
+    https://github.com/hashicorp/consul/releases/tag/v1.11.11
 
 -   releaseCycle: "1.10"
     eol: 2022-08-09
     latest: "1.10.12"
     latestReleaseDate: 2022-07-13
     releaseDate: 2021-06-22
+    link: https://github.com/hashicorp/consul/releases/tag/v1.10.12
 
 -   releaseCycle: "1.9"
     eol: true
     latest: "1.9.17"
     latestReleaseDate: 2022-04-14
     releaseDate: 2020-11-24
+    link: https://github.com/hashicorp/consul/releases/tag/v1.9.17
 
 -   releaseCycle: "1.8"
     eol: true
     latest: "1.8.19"
     latestReleaseDate: 2021-12-15
     releaseDate: 2020-06-18
+    link: https://github.com/hashicorp/consul/releases/tag/v1.8.19
 
 ---
 
