@@ -64,7 +64,6 @@ releases:
     extendedSupport: true
     latest: "2.13.8"
     latestReleaseDate: 2023-05-25
-    releaseDate: 2022-09-21
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-08-24
