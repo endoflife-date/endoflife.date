@@ -4,7 +4,7 @@ category: app
 iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
-releasePolicyLink: https://docs.docker.com/engine/release-notes/
+releasePolicyLink: https://github.com/moby/moby/milestones
 changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
 activeSupportColumn: false
 releaseColumn: true
@@ -33,10 +33,9 @@ releases:
     latestReleaseDate: 2023-05-08
     releaseDate: 2023-02-02
 
-# 20.10 should expire March 2023, as per guidance
-# but hasn't https://github.com/moby/moby/discussions/45104
+  # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"
-    eol: false
+    eol: 2023-12-10
     latest: "20.10.25"
     latestReleaseDate: 2023-05-15
     releaseDate: 2020-12-09
@@ -150,5 +149,12 @@ releases:
 > Containers are isolated from one another and bundle their own software, libraries and
 > configuration files.
 
-Docker Engine releases of a year-month branch are supported with patches as needed for one month
-after the next year-month general availability release.
+Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support), 
+and as such - there's no list of supported releases.
+This page uses the [Open milestones](https://github.com/moby/moby/milestones) as a guide for which releases
+are still getting fixes.
+  
+Mirantis has [promised to backport backport security](https://github.com/moby/moby/discussions/45104#discussioncomment-6013686)
+fixes and fixes for bugs which impact Mirantis customers 
+to the 20.10 branch until Mirantis Container Runtime 20.10 reaches end-of-life on 2023 December 10. Microsoft is also
+committed to maintaining the 20.10 branch in public for now.
