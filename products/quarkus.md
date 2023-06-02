@@ -32,7 +32,7 @@ releases:
 
 -   releaseCycle: "3.0"
     releaseDate: 2023-04-12
-    eol: 2023-05-24
+    eol: 2023-05-31
     extendedSupport: false
     latest: "3.0.4"
     latestReleaseDate: 2023-05-24
