@@ -13,6 +13,14 @@ auto:
 -   git: https://github.com/symfony/symfony.git
 
 releases:
+
+-   releaseCycle: "6.3"
+    releaseDate: 2023-05-30
+    support: 2024-01-31
+    eol: 2024-01-31
+    latest: "6.3.0"
+    latestReleaseDate: 2023-05-30
+
 -   releaseCycle: "6.2"
     releaseDate: 2022-11-30
     support: 2023-07-31
