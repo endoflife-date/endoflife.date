@@ -128,4 +128,5 @@ New Amazon EKS platform versions don't introduce breaking changes or cause servi
 Not every Kubernetes patch release is published on EKS. EKS releases follow a "platform versioning",
 which starts at `eks.1` for each Kubernetes minor version. The
 [Platform Versions page](https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html)
-lists the underlying Kubernetes version used in each EKS platform version.
+lists the underlying Kubernetes version used in each EKS platform version. Note that the latest
+EKS Distro version is not always available on the EKS platform.
