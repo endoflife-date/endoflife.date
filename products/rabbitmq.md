@@ -20,7 +20,6 @@ releases:
     releaseDate: 2022-09-26
     support: 2023-12-31
     extendedSupport: 2024-07-31
-    support: true
     latest: "3.11.17"
     latestReleaseDate: 2023-05-29
 
