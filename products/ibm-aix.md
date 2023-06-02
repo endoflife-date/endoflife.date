@@ -3,7 +3,7 @@ title: IBM AIX
 category: os
 iconSlug: ibm
 permalink: /ibm-aix
-versionCommand: cat /etc/redhat-release
+versionCommand: oslevel -s
 releasePolicyLink: https://www.ibm.com/support/pages/standard-and-enhanced-ibm-support-lifecycle-policies
 activeSupportColumn: true
 releaseDateColumn: true
@@ -14,8 +14,8 @@ auto:
 releases:
 -   releaseCycle: "7.3 TL1"
     releaseDate: 2022-12-01
-    support: 2025-12-41
-    eol: 2025-12-41
+    support: 2025-12-31
+    eol: 2025-12-31
     latestReleaseDate: 2023-04-28
     link: https://www.ibm.com/docs/en/aix/7.3?topic=notes-aix-731-release
 
