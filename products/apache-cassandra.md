@@ -17,14 +17,14 @@ releases:
     eol: 2025-05-01
     support: true
     releaseDate: 2022-12-13
-    latest: "4.1.1"
-    latestReleaseDate: 2023-03-21
+    latest: "4.1.2"
+    latestReleaseDate: 2023-05-29
 -   releaseCycle: "4.0"
     eol: 2024-05-01
     support: true
     releaseDate: 2021-07-26
-    latest: "4.0.9"
-    latestReleaseDate: 2023-04-14
+    latest: "4.0.10"
+    latestReleaseDate: 2023-05-29
 -   releaseCycle: "3.11"
     eol: 2023-05-01
     support: true

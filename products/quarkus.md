@@ -62,8 +62,9 @@ releases:
     releaseDate: 2022-09-21
     eol: 2022-11-07
     extendedSupport: true
-    latest: "2.13.7"
-    latestReleaseDate: 2023-01-19
+    latest: "2.13.8"
+    latestReleaseDate: 2023-05-25
+    releaseDate: 2022-09-21
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-08-24
