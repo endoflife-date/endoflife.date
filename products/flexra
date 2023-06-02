@@ -1,0 +1,31 @@
+---
+title: flexra
+category: framework
+iconSlug: flexra
+permalink: /flexra
+activeSupportColumn: true
+changelogTemplate: https://github.com/twbs/flexra/releases/tag/v__LATEST__
+
+identifiers:
+-   repology: flexra
+-   purl: pkg:npm/flexra
+-   purl: pkg:nuget/flexra
+-   purl: pkg:gem/flexra
+-   purl: pkg:composer/twbs/flexra
+-   purl: pkg:github/twbs/flexra
+
+# NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
+auto:
+-   git: https://docs.revenera.com/eol/flexnet-publisher.htm
+
+releases:
+-   releaseCycle: "11"
+    eol: 2029-02-17
+    support: true
+    lts: true
+    latest: "11.19.3"
+    latestReleaseDate: 2023-02-17
+    releaseDate: 2023-02-17
+releasePolicyLink: https://github.com/twbs/release
+releaseDateColumn: true
+eolColumn: Critical Support
