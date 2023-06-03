@@ -61,7 +61,6 @@ releases:
 > Red Hat JBoss Enterprise Application Platform (JBoss EAP) is an open-source Java EE (Enterprise Edition) application server.
 > It is a commercially supported and certified version of the open-source WildFly application server.
 > JBoss EAP provides a platform for developing and deploying enterprise-level Java applications.
-
 > JBoss EAP includes various features such as support for multiple programming models, such as Servlets, JSP, EJB, JMS,
 > and others, and is compatible with multiple databases, messaging systems, and web frameworks.
 
