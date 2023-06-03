@@ -17,6 +17,7 @@ auto:
 releases:
 
 -   releaseCycle: "2.8"
+    lts: true
     releaseDate: 2023-05-31
     eol: 2028-04-01
     latest: "2.8.0"
