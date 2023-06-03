@@ -40,7 +40,7 @@ releases:
     extendedSupport: 2019-11-30
     latest: "5.2.0"
     releaseDate: 2009-11-01
-    latestReleaseDate: 2013-12-23
+    latestReleaseDate: 2013-10-31
     link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
 -   releaseCycle: "4"
