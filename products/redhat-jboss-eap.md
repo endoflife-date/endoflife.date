@@ -22,7 +22,6 @@ releases:
     extendedSupport: 2029-11-30
     latest: "7.4.6"
     releaseDate: 2016-05-01
-    lts: 2026-11-30
     latestReleaseDate: 2023-03-01
     link: https://access.redhat.com/articles/6716841
 
@@ -32,7 +31,6 @@ releases:
     extendedSupport: 2025-06-30
     latest: "6.4"
     releaseDate: 2012-06-01
-    lts: 2022-06-30
     latestReleaseDate: 2022-06-30
     link: https://access.redhat.com/articles/3099701
 
@@ -42,7 +40,6 @@ releases:
     extendedSupport: 2019-11-30
     latest: "5.2"
     releaseDate: 2009-11-01
-    lts: 2019-11-30
     latestReleaseDate: 2013-12-23
     link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
@@ -51,7 +48,6 @@ releases:
     eol: 2010-10-31
     extendedSupport: 2019-11-30
     releaseDate: 2007-06-01
-    lts: 2016-11-30
     latestReleaseDate: 2009-12-15
     latest: '4.3'
     link: https://www.redhat.com/en/blog/jboss-enterprise-application-platform-43-is-here
