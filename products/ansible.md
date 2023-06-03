@@ -19,9 +19,15 @@ auto:
 -   pypi: ansible
 
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2023-05-30
+    eol: false
+    latest: "8.0.0"
+    latestReleaseDate: 2023-05-30
+
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
-    eol: false
+    eol: 2023-05-30
     latest: "7.6.0"
     latestReleaseDate: 2023-05-23
 
@@ -70,7 +76,7 @@ releases:
 > easy-to-consume PyPI package.
 
 The `ansible` community package typically gets 2 major releases every year. A new minor version is
-released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
+released every 4 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
 See the [Ansible Roadmap](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html)
 for upcoming release details.
@@ -79,6 +85,7 @@ for upcoming release details.
 
 | Ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
+| 8               | 3.9                                 | 2.7 or 3.5                       |
 | 7               | 3.9                                 | 2.7 or 3.5                       |
 | 5               | 3.8                                 | 2.7 or 3.5                       |
 | 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |
