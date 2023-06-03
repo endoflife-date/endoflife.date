@@ -149,12 +149,12 @@ releases:
 > Containers are isolated from one another and bundle their own software, libraries and
 > configuration files.
 
-Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support), 
+Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support),
 and as such - there's no list of supported releases.
 This page uses the [Open milestones](https://github.com/moby/moby/milestones) as a guide for which releases
 are still getting fixes.
-  
-Mirantis has [promised to backport backport security](https://github.com/moby/moby/discussions/45104#discussioncomment-6013686)
-fixes and fixes for bugs which impact Mirantis customers 
-to the 20.10 branch until Mirantis Container Runtime 20.10 reaches end-of-life on 2023 December 10. Microsoft is also
+
+Mirantis [has promised](https://github.com/moby/moby/discussions/45104#discussioncomment-6013686)
+to backport security fixes and fixes for bugs which impact their customers to the 20.10 branch until
+Mirantis Container Runtime 20.10 reaches end-of-life on 2023 December 10. Microsoft is also
 committed to maintaining the 20.10 branch in public for now.
