@@ -29,10 +29,10 @@ releases:
     support: 2016-06-30
     eol: 2019-06-30
     extendedSupport: 2025-06-30
-    latest: "6.4"
+    latest: "6.4.24"
     releaseDate: 2012-06-01
     latestReleaseDate: 2022-06-30
-    link: https://access.redhat.com/articles/3099701
+    link: https://access.redhat.com/articles/6958003
 
 -   releaseCycle: "5"
     support: 2013-11-30
