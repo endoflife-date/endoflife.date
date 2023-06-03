@@ -43,14 +43,23 @@ releases:
     latestReleaseDate: 2013-10-31
     link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
--   releaseCycle: "4"
+-   releaseCycle: "4.3"
     support: 2011-01-31
-    eol: 2010-10-31
-    extendedSupport: 2019-11-30
-    releaseDate: 2007-06-01
-    latestReleaseDate: 2009-12-15
+    eol: 2013-01-31
+    extendedSupport: 2016-11-30
+    releaseDate: 2008-01-11
+    latestReleaseDate: 2008-01-11
     latest: '4.3'
     link: https://www.redhat.com/en/blog/jboss-enterprise-application-platform-43-is-here
+
+-   releaseCycle: "4.2"
+    support: 2010-06-30
+    eol: 2012-06-30
+    extendedSupport: 2015-06-30
+    releaseDate: 2007-06-01
+    latestReleaseDate: 
+    latest: '4.2'
+    link: https://access.redhat.com/articles/3434311
     
 ---
 
