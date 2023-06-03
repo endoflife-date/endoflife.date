@@ -70,7 +70,6 @@ releases:
     releaseDate: 2017-01-30
     latest: "4.0"
     latestReleaseDate: 2017-01-30
-    link: https://docs.paloaltonetworks.com/globalprotect/4-0/globalprotect-app-release-notes/gp-app-release-information/features-introduced-in-gp-app
 
 -   releaseCycle: "3.1"
     eol: 2018-06-23
