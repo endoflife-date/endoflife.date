@@ -20,10 +20,10 @@ releases:
     support: 2023-06-30
     eol: 2025-06-30
     extendedSupport: 2029-11-30
-    latest: "7.4.6"
+    latest: "7.4.11"
     releaseDate: 2016-05-01
-    latestReleaseDate: 2023-03-01
-    link: https://access.redhat.com/articles/6716841
+    latestReleaseDate: 2023-05-26
+    link: https://access.redhat.com/articles/6999113
 
 -   releaseCycle: "6"
     support: 2016-06-30
