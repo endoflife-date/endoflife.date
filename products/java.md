@@ -174,7 +174,6 @@ releases:
     releaseDate: 1997-02-18
     support: 2002-10-09
     eol: 2002-10-09
-    link: null
     latest: "1.1.8_010"
     latestReleaseDate: 2002-10-09
 
@@ -182,7 +181,6 @@ releases:
     releaseDate: 1996-01-23
     support: 1996-05-07
     eol: 1996-05-07
-    link: null
     latest: "1.0.2"
     latestReleaseDate: 1996-05-07
 
