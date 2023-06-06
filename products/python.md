@@ -104,8 +104,8 @@ releases:
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05
-    latest: "3.9.16"
-    latestReleaseDate: 2022-12-06
+    latest: "3.9.17"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
     eol: 2024-10-14
