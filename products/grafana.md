@@ -22,29 +22,29 @@ releases:
     releaseDate: 2023-04-06
     support: true
     eol: false
-    latest: "9.5.2"
-    latestReleaseDate: 2023-05-08
+    latest: "9.5.3"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27
     support: 2023-04-06
     eol: false
-    latest: "9.4.10"
-    latestReleaseDate: 2023-05-08
+    latest: "9.4.12"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "9.3"
     releaseDate: 2022-11-29
     support: 2023-02-27
     eol: 2023-04-06
-    latest: "9.3.14"
-    latestReleaseDate: 2023-05-08
+    latest: "9.3.15"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "9.2"
     releaseDate: 2022-10-11
     support: 2022-11-29
     eol: 2023-02-27
-    latest: "9.2.18"
-    latestReleaseDate: 2023-05-08
+    latest: "9.2.19"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "9.1"
     releaseDate: 2022-08-16
@@ -64,8 +64,8 @@ releases:
     releaseDate: 2021-06-08
     support: 2022-06-13
     eol: false
-    latest: "8.5.24"
-    latestReleaseDate: 2023-04-26
+    latest: "8.5.26"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "7"
     releaseDate: 2020-05-15
