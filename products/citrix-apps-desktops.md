@@ -52,9 +52,9 @@ releases:
     support: 2027-03-23
     eol: 2027-03-23
     extendedSupport: 2032-03-23
-    latest: "2203 CU2"
+    latest: "2203 CU3"
     lts: true
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-2.html
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-3.html
 
 -   releaseCycle: "2112"
     releaseDate: 2021-12-13
