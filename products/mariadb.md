@@ -9,8 +9,13 @@ activeSupportColumn: false
 releaseDateColumn: true
 identifiers:
 -   repology: mariadb
+-   purl: pkg:apk/alpine/mariadb
 -   purl: pkg:deb/debian/mariadb-server
 -   purl: pkg:deb/ubuntu/mariadb-server
+-   purl: pkg:docker/library/mariadb
+-   purl: pkg:docker/bitnami/mariadb
+-   purl: pkg:docker/bitnami/mariadb-galera
+-   purl: pkg:homebrew/mariadb
 -   purl: pkg:rpm/amzn/mariadb-server
 -   purl: pkg:rpm/redhat/mariadb-server
 -   purl: pkg:rpm/centos/mariadb-server
@@ -28,85 +33,90 @@ auto:
     # where (1[2-9]|[2-9]\d) matches 12-19 OR 2-digit numbers starting from 2-9 (ie 20-99)
     # See https://rubular.com/r/jbw5wsv80lhy9h for sample testcases before you edit.
     # Note: This will need to be edited when a new GA release is made in a new release cycle
-    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>11)\.(?<patch>([2-9]|\d{2})))$
-versionCommand: mysqld --version
+    regex: ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>11)\.(?<minor>0)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>11)\.(?<patch>([2-9]|\d{2})))$
+versionCommand: mariadbd --version
 eolColumn: Support Status
 releases:
+-   releaseCycle: "11.0"
+    releaseDate: 2023-06-07
+    eol: 2024-06-07
+    latest: "11.0.2"
+    latestReleaseDate: 2023-06-07
 -   releaseCycle: "10.11"
+    releaseDate: 2023-02-16
     eol: 2028-02-16
     latest: "10.11.3"
     lts: true
-    releaseDate: 2023-02-16
     latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.10"
+    releaseDate: 2022-11-07
     eol: 2023-11-17
     latest: "10.10.4"
-    releaseDate: 2022-11-07
     latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.9"
+    releaseDate: 2022-08-15
     eol: 2023-08-22
     latest: "10.9.6"
-    releaseDate: 2022-08-15
     latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.8"
+    releaseDate: 2022-05-20
     eol: 2023-05-20
     latest: "10.8.8"
-    releaseDate: 2022-05-20
     latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.7"
+    releaseDate: 2022-02-08
     eol: 2023-02-14
     latest: "10.7.8"
     latestReleaseDate: 2023-02-06
-    releaseDate: 2022-02-08
 -   releaseCycle: "10.6"
+    releaseDate: 2021-07-05
     eol: 2026-07-06
     latest: "10.6.13"
     lts: true
     latestReleaseDate: 2023-05-10
-    releaseDate: 2021-07-05
 -   releaseCycle: "10.5"
+    releaseDate: 2020-06-23
     eol: 2025-06-24
     latest: "10.5.20"
     latestReleaseDate: 2023-05-10
-    releaseDate: 2020-06-23
 -   releaseCycle: "10.4"
+    releaseDate: 2019-06-17
     eol: 2024-06-18
     latest: "10.4.29"
     latestReleaseDate: 2023-05-10
-    releaseDate: 2019-06-17
 -   releaseCycle: "10.3"
+    releaseDate: 2018-05-23
     eol: 2023-05-25
     latest: "10.3.39"
     latestReleaseDate: 2023-05-10
-    releaseDate: 2018-05-23
 -   releaseCycle: "10.2"
+    releaseDate: 2017-05-15
     eol: 2022-05-23
     latest: "10.2.44"
     latestReleaseDate: 2022-05-20
-    releaseDate: 2017-05-15
 -   releaseCycle: "10.1"
+    releaseDate: 2016-09-29
     eol: 2020-10-17
     latest: "10.1.48"
     latestReleaseDate: 2020-10-30
-    releaseDate: 2016-09-29
 -   releaseCycle: "10.0"
+    releaseDate: 2014-06-12
     eol: 2019-03-31
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
-    releaseDate: 2014-06-12
 -   releaseCycle: "5.5"
     eol: 2020-04-11
+    releaseDate: 2013-01-29
     latest: "5.5.68"
     lts: true
     latestReleaseDate: 2020-05-06
-    releaseDate: 2013-01-29
 
 ---
 
-> [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS).
+> [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational database management system (RDBMS) originally forked from MySQL.
 
-A new MariaDB Server version will be announced for General Availability approximately once a year. The MariaDB Foundation guarantees that every release will be maintained for at least 5 years.
+A new MariaDB Server version will be announced once per quarter bringing new features to the server. These release series are maintained for approximately a year after their General Availability (GA) date.
 
-The MariaDB Foundation may decide to maintain selected releases beyond the normal 5 years if they are in exceptionally widespread use. As MariaDB 5.5 is included in multiple prominent Linux distributions with a lifespan beyond 2017, the Foundation is committed in maintaining it until 2020.
+Every 2 years since 10.6, some release series are selected for longer maintenance windows. These LTS release series are maintained for five years with security and bug fixes. Prior to that, release series were maintained for five years (or even more for 5.5) but were never officially called LTS.
 
-These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL license as-is, without warranties.
+These dates constitute the public policy of the MariaDB Foundation and are not legally binding. The software is released with the GPL 2 license as-is, without warranties.

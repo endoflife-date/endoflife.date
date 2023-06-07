@@ -23,58 +23,68 @@ auto:
 
 # EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:
+-   releaseCycle: "1.27"
+    releaseDate: 2023-05-24
+    eol: 2024-07-01
+    latestReleaseDate: 2023-05-24
+    latest: '1.27-eks-1'
+
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
-    eol: false
-    latest: "1.26-eks-2"
+    eol: 2024-06-01
     latestReleaseDate: 2023-05-05
+    latest: '1.26-eks-2'
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
-    latest: "1.25-eks-3"
     latestReleaseDate: 2023-05-05
+    latest: '1.25-eks-3'
 
 -   releaseCycle: "1.24"
     eol: 2024-01-01
-    latest: "1.24-eks-6"
-    latestReleaseDate: 2023-05-05
     releaseDate: 2022-11-15
+    latestReleaseDate: 2023-05-05
+    latest: '1.24-eks-6'
 
 -   releaseCycle: "1.23"
-    eol: 2023-10-01
-    latest: "1.23-eks-8"
+    eol: 2023-10-11
     releaseDate: 2022-08-11
     latestReleaseDate: 2023-05-05
+    latest: '1.23-eks-8'
 
 -   releaseCycle: "1.22"
     eol: 2023-06-04
-    latest: "1.22-eks-12"
     releaseDate: 2022-04-04
     latestReleaseDate: 2023-05-05
+    latest: '1.22-eks-12'
 
 -   releaseCycle: "1.21"
     eol: 2023-02-15
-    latest: "1.21-eks-17"
     releaseDate: 2021-07-19
     latestReleaseDate: 2023-05-05
+    latest: '1.21-eks-17'
 
 -   releaseCycle: "1.20"
     eol: 2022-11-01
-    latest: "1.20-eks-14"
     releaseDate: 2021-05-18
     latestReleaseDate: 2023-05-05
+    latest: '1.20-eks-14'
 
 -   releaseCycle: "1.19"
     eol: 2022-08-01
-    latest: "1.19-eks-11"
     releaseDate: 2021-02-16
+    latest: "1.19-eks-11"
     latestReleaseDate: 2022-08-15
 
 -   releaseCycle: "1.18"
-    eol: 2022-03-31
-    latest: "1.18-eks-13"
+    # Official EOL was on March 31
+    # but it got fixes till August (see link below)
+    eol: 2022-08-15
     releaseDate: 2020-10-13
+    # Last mention for 1.18 was on Sep 2022
+    # https://github.com/awsdocs/amazon-eks-user-guide/blob/306ec81574cb60ae47b8dbc8834d6c9d0dd3fe66/doc_source/platform-versions.md
+    latest: "1.18-eks-13"
     latestReleaseDate: 2022-08-15
 
 ---
@@ -118,4 +128,5 @@ New Amazon EKS platform versions don't introduce breaking changes or cause servi
 Not every Kubernetes patch release is published on EKS. EKS releases follow a "platform versioning",
 which starts at `eks.1` for each Kubernetes minor version. The
 [Platform Versions page](https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html)
-lists the underlying Kubernetes version used in each EKS platform version.
+lists the underlying Kubernetes version used in each EKS platform version. Note that the latest
+EKS Distro version is not always available on the EKS platform.

@@ -18,11 +18,17 @@ auto:
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.16"
+    releaseDate: 2023-05-31
+    eol: false # Update to release date of 2.17 when released
+    latest: "2.16.1"
+    latestReleaseDate: 2023-06-06
+
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
-    eol: false # Update to release date of 2.16 when released
-    latest: "2.15.0"
-    latestReleaseDate: 2023-04-11
+    eol: 2023-05-31
+    latest: "2.15.1"
+    latestReleaseDate: 2023-05-23
 
 -   releaseCycle: "2.14"
     releaseDate: 2023-02-28
@@ -33,8 +39,8 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2023-01-17
     eol: 2023-02-28
-    latest: "2.13.3"
-    latestReleaseDate: 2023-02-27
+    latest: "2.13.4"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-12-06
@@ -118,7 +124,7 @@ releases:
     releaseDate: 2012-05-11
     eol: 2018-02-22
     # https://nixos.org/manual/nix/stable/release-notes/rl-1.html return a 404
-    link: null
+    link:
     latest: "1.11.16"
     latestReleaseDate: 2017-12-20
 

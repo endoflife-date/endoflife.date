@@ -13,23 +13,31 @@ releaseDateColumn: true
 eolColumn: End of Support
 
 # releaseDate can be found by following each cycle's link.
+# EOL date are announced on https://github.com/Azure/AKS/releases or must be computed with this formula:
+# eol(x) ~= releaseDate(x) + 1 year
 releases:
+-   releaseCycle: "1.26"
+    releaseDate: 2023-04-18
+    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    eol: 2024-03-31
+    link: https://azure.microsoft.com/updates/generally-available-kubernetes-126-support-in-aks/
+
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
-    # guessed, not yet announced
-    eol: 2023-09-30
+    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    eol: 2023-12-31
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-125-support-in-aks/
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-08-17
-    # guessed, not yet announced
-    eol: 2023-06-30
+    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    eol: 2023-07-31
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-124-support/
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-04-26
-    # guessed, not yet announced
-    eol: 2023-03-31
+    # https://github.com/Azure/AKS/releases/tag/2023-02-19
+    eol: 2023-04-02
     link: https://github.com/Azure/AKS/issues/2730
 
 -   releaseCycle: "1.22"
@@ -63,7 +71,7 @@ available in all regions. AKS supports three GA minor versions of Kubernetes:
 Each supported minor version also supports a maximum of two stable patches.
 
 [Long Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
-releases receive support and security updates for two years (instead of the usual one year). 
+releases receive support and security updates for two years (instead of the usual one year).
 The first Long Term Support AKS release will be 1.27, to be released in May 2023.
 
 - AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).

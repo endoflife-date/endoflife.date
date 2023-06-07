@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "113"
     releaseDate: 2023-05-09
     eol: false
-    latest: "113.0.1"
-    latestReleaseDate: 2023-05-12
+    latest: "113.0.2"
+    latestReleaseDate: 2023-05-23
 
 -   releaseCycle: "112"
     releaseDate: 2023-04-11
@@ -84,8 +84,8 @@ releases:
     lts: true
     releaseDate: 2022-06-28
     eol: false
-    latest: "102.11.0"
-    latestReleaseDate: 2023-05-09
+    latest: "102.12.0"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "91"
     lts: true

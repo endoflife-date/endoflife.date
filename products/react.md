@@ -2,7 +2,7 @@
 title: React
 permalink: /react
 iconSlug: react
-category: framework
+category: library
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 activeSupportColumn: true
@@ -52,7 +52,7 @@ releases:
 
 ---
 
-> [React](https://react.dev/) is an open-source JavaScript web framework for building modern web applications.
+> [React](https://react.dev/) is an open-source JavaScript library for building modern web applications.
 
 ## Versioning
 

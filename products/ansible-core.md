@@ -13,17 +13,23 @@ category: framework
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:
+-   releaseCycle: "2.15"
+    releaseDate: 2023-05-15
+    eol: 2024-11-01
+    latest: "2.15.0"
+    latestReleaseDate: 2023-05-15
+
 -   releaseCycle: "2.14"
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.5"
-    latestReleaseDate: 2023-04-24
+    latest: "2.14.6"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "2.13"
     releaseDate: 2022-05-16
     eol: 2023-11-30
-    latest: "2.13.9"
-    latestReleaseDate: 2023-04-24
+    latest: "2.13.10"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-11-08
@@ -70,3 +76,4 @@ See the [ansible-core Roadmap][roadmap] for upcoming release details.
 | 2.12                 | 3.8                                 | 2.6 or 3.5                       |
 | 2.13                 | 3.8                                 | 2.7 or 3.5                       |
 | 2.14                 | 3.9                                 | 2.7 or 3.5                       |
+| 2.15                 | 3.9                                 | 2.7 or 3.5                       |

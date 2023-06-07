@@ -12,26 +12,34 @@ eolColumn: Maintenance Support
 
 auto:
 # Reference: https://rubular.com/r/mFfxB8FgXXERX4
--   regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
-    git: https://gitlab.com/gitlab-org/gitlab.git
+-   git: https://gitlab.com/gitlab-org/gitlab.git
+    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)-ee?$'
+
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
 # This is quite predictable since releases are monthly (usually 22nd of every month).
 releases:
+-   releaseCycle: "16.0"
+    releaseDate: 2023-05-18
+    support: 2023-06-22
+    eol: 2023-08-22
+    latest: "16.0.3"
+    latestReleaseDate: 2023-06-06
+
 -   releaseCycle: "15.11"
     releaseDate: 2023-04-21
     support: 2023-05-22
     eol: 2023-07-22
-    latest: "15.11.3"
-    latestReleaseDate: 2023-05-10
+    latest: "15.11.8"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "15.10"
     releaseDate: 2023-03-21
     support: 2023-04-22
     eol: 2023-06-22
-    latest: "15.10.7"
-    latestReleaseDate: 2023-05-10
+    latest: "15.10.8"
+    latestReleaseDate: 2023-06-05
 
 -   releaseCycle: "15.9"
     support: 2023-03-22
