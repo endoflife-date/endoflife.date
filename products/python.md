@@ -99,8 +99,8 @@ releases:
     releaseDate: 2022-10-24
 -   releaseCycle: "3.10"
     eol: 2026-10-04
-    latest: "3.10.11"
-    latestReleaseDate: 2023-04-04
+    latest: "3.10.12"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     eol: 2025-10-05
@@ -109,13 +109,13 @@ releases:
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
     eol: 2024-10-14
-    latest: "3.8.16"
-    latestReleaseDate: 2022-12-06
+    latest: "3.8.17"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2019-10-14
 -   releaseCycle: "3.7"
     eol: 2023-06-27
-    latest: "3.7.16"
-    latestReleaseDate: 2022-12-06
+    latest: "3.7.17"
+    latestReleaseDate: 2023-06-05
     releaseDate: 2018-06-26
 -   releaseCycle: "3.6"
     eol: 2021-12-23
