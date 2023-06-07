@@ -64,4 +64,6 @@ releases:
 
 For major releases that are in "Active development" or "Full support", minor versions are released approximately every three months, and their End-of-Life (EOL) is announced at least six months in advance. The latest minor release is supported as long as its underlying major release.
 
+Silverstripe 5 will receive security fixes till April 2027.
+
 Bug and security fixes are managed differently depending on whether the underlying major release is in "Full support" or "Limited support". For more information, read our [Release Process](https://docs.silverstripe.org/en/5/contributing/release_process/).
