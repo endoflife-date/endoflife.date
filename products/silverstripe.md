@@ -9,7 +9,7 @@ versionCommand: composer info silverstripe/cms
 releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png 
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: https://github.com/silverstripe/silverstripe-cms/releases/__LATEST__
-activeSupportColumn: ActiveDevelopment
+activeSupportColumn: Active Development
 eolColumn: Security Support
 releaseDateColumn: true
 releaseColumn: true
@@ -66,4 +66,4 @@ For major releases that are in "Active development" or "Full support", minor ver
 
 Silverstripe 5 will receive security fixes till April 2027.
 
-Bug and security fixes are managed differently depending on whether the underlying major release is in "Full support" or "Limited support". For more information, read our [Release Process](https://docs.silverstripe.org/en/5/contributing/release_process/).
+Bug and security fixes are managed differently depending on whether the underlying major release is in "Full support" or "Limited support". For more information, read the [Release Process](https://docs.silverstripe.org/en/5/contributing/release_process/) documentation.
