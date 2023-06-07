@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "2.16"
     releaseDate: 2023-05-31
     eol: false # Update to release date of 2.17 when released
-    latest: "2.16.0"
-    latestReleaseDate: 2023-05-31
+    latest: "2.16.1"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
