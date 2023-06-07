@@ -24,8 +24,8 @@ identifiers:
 
 releases:
 -   releaseCycle: "5.0"
-    support: 2028-04-01
-    eol: 2028-04-01
+    support: true
+    eol: false
     latest: "5.0.4"
     latestReleaseDate: 2023-05-31
     releaseDate: 2023-05-01
