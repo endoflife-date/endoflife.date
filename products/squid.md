@@ -1,13 +1,14 @@
 ---
-title: squid
+title: Squid
 category: server-app
 permalink: /squid
 alternate_urls:
 -   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-#https://github.com/squid-cache/squid/blob/master/SECURITY.md
-#changelogTemplate: "https://github.com/squid-cache/squid/releases/tag/v__LATEST__"
+changelogTemplate:
+  http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
+
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
@@ -21,111 +22,99 @@ identifiers:
 -   purl: pkg:rpm/centos/squid
 -   purl: pkg:apk/alpine/squid
 
-# https://rubular.com/r/bVKLuLKLLrHCTI
-#auto:
-#-   git: https://github.com/nginx/nginx.git
-#    regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+# https://rubular.com/r/mwE2FvyQrDjXzx
+# v4+ has stable releases as major.minor
+# v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
+# v2 sources are now archived in a separate repo, we use that as well
+auto:
+-   git: https://github.com/squid-cache/squid.git
+    regex:
+      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
+-   git: https://github.com/squid-cache/squid2.git
+    regex:
+      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 
 releases:
 -   releaseCycle: "5"
-    releaseDate: 2021-08-01
+    releaseDate: 2021-07-31
+    link: http://www.squid-cache.org/Versions/v5/squid-__LATEST__-RELEASENOTES.html
     eol: false
-    link: https://wiki.squid-cache.org/Releases/Squid-5
-    latest: "5.9"
-    latestReleaseDate: 2023-04-30
+    latest: '5.9'
+    latestReleaseDate: 2023-05-01
 
 -   releaseCycle: "4"
-    releaseDate: 2018-06-01
-    eol: 2021-08-01
-    link: http://www.squid-cache.org/Versions/v4/
-    latest: "4.16"
-    latestReleaseDate: 2021-07-05 
+    releaseDate: 2018-07-03
+    eol: 2021-10-04
+    link: http://www.squid-cache.org/Versions/v4/squid-__LATEST__-RELEASENOTES.html
+    latest: '4.17'
+    latestReleaseDate: 2021-10-04
 
 -   releaseCycle: "3.5"
-    releaseDate: 2015-01-17
-    eol: 2019-09-09
-    link: http://www.squid-cache.org/Versions/v3/3.5/
-    latest: "3.5.28"
-    latestReleaseDate: 2018-07-15
+    releaseDate: 2015-01-13
+    eol: 2018-08-07
+    latest: '3.5.27'
+    latestReleaseDate: 2018-08-07
 
 -   releaseCycle: "3.4"
-    releaseDate: 2013-12-09
-    eol: 2016-05-10
-    link: http://www.squid-cache.org/Versions/v3/3.4/
-    latest: "3.4.14"
+    releaseDate: 2013-12-08
+    eol: 2015-08-01
+    latest: '3.4.14'
     latestReleaseDate: 2015-08-01
 
 -   releaseCycle: "3.3"
     releaseDate: 2013-02-09
     eol: 2015-05-01
-    link: http://www.squid-cache.org/Versions/v3/3.3/
-    latest: "3.3.14"
+    latest: '3.3.14'
     latestReleaseDate: 2015-05-01
 
 -   releaseCycle: "3.2"
     releaseDate: 2012-08-14
-    eol: 2013-07-21
-    link: http://www.squid-cache.org/Versions/v3/3.2/
-    latest: "3.2.14"
+    eol: 2015-05-01
+    latest: '3.2.14'
     latestReleaseDate: 2015-05-01
 
 -   releaseCycle: "3.1"
     releaseDate: 2010-03-29
-    eol: 2013-07-21
-    link: http://www.squid-cache.org/Versions/v3/3.1/
-    latest: "3.1.23"
-    latestReleaseDate: 2013-01-09
+    eol: 2013-01-08
+    latest: '3.1.23'
+    latestReleaseDate: 2013-01-08
 
 -   releaseCycle: "3.0"
-    releaseDate: 2007-12-13
+    releaseDate: 2007-12-14
     eol: 2011-08-27
-    link: http://www.squid-cache.org/Versions/v3/3.0/
-    latest: "3.0.STABLE26"
-    latestReleaseDate: 011-08-28
+    latest: '3.0.26'
+    latestReleaseDate: 2011-08-27
 
 -   releaseCycle: "2.7"
-    releaseDate: 2000-05-31
-    eol: 2007-12-13
-    link: http://www.squid-cache.org/Versions/v2/2.7/
-    latest: "2.7.STABLE9"
-    latestReleaseDate: 2010-03-16
+    releaseDate: 2008-05-27
+    eol: 2010-03-14
+    latest: '2.7.9'
+    latestReleaseDate: 2010-03-14
 
 -   releaseCycle: "2.6"
     releaseDate: 2006-07-01
-    eol: 2000-05-31
-    link: http://www.squid-cache.org/Versions/v2/2.6/
-    latest: "2.6.STABLE24"
-    latestReleaseDate: 2009-09-17
+    eol: 2010-03-26
+    latest: '2.6.24'
+    latestReleaseDate: 2010-03-26
 
 -   releaseCycle: "2.5"
-    releaseDate: 2002-09-25
-    eol: 2006-07-01
-    link: http://www.squid-cache.org/Versions/v2/2.5/
-    latest: "2.5.STABLE14"
+    releaseDate: 2002-09-24
+    eol: 2006-05-20
+    latest: '2.5.14'
     latestReleaseDate: 2006-05-20
 
 -   releaseCycle: "2.4"
-    releaseDate: 2002-03-20
-    eol: 2003-05-12
-    link: http://www.squid-cache.org/Versions/v2/2.4/
-    latest: "2.4.STABLE7"
+    releaseDate: 2001-03-20
+    eol: 2002-07-02
+    latest: '2.4.7'
     latestReleaseDate: 2002-07-02
+
 ---
 
-> [Squid](http://www.squid-cache.org/) Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL. See its [dedicated Wiki](https://wiki.squid-cache.org/) for more.
-### Release schedule
+> [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. It runs on most available operating systems, and is licensed under the GNU GPL.
 
-See [Future Release Schedule ](https://wiki.squid-cache.org/ReleaseSchedule#future-release-schedule) for more.
+## [Release schedule](https://wiki.squid-cache.org/ReleaseSchedule#future-release-schedule)
 
-### Useful resources
+Major stable versions are released in July every 2 years. Beta branches are spawned six months before the corresponding major stable release. The v6 Stable release is due to be released around July 2023. A [Roadmap](https://wiki.squid-cache.org/RoadMap/) is maintained for planned features.
 
-- [Squid Web Cache wiki](https://wiki.squid-cache.org/)
-- [Squid Roadmap](https://wiki.squid-cache.org/RoadMap/)
-- [Roadmap rules](https://wiki.squid-cache.org/RoadMap/#roadmap-rules)
-- [Squid 6](https://wiki.squid-cache.org/RoadMap/#squid-6)
-- [Main Squid site](http://www.squid-cache.org/)
-- [Bugzilla database](https://bugs.squid-cache.org/index.cgi)
-- [Security Advisories](http://www.squid-cache.org/Advisories/)
-- [Major or higher bugs currently affecting this version](https://bugs.squid-cache.org/buglist.cgi?bug_id_type=anyexact&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&chfieldto=Now&columnlist=bug_severity%2Cversion%2Cop_sys%2Cshort_desc&f1=version&o1=lessthaneq&o2=equals&order=version%20DESC%2Cbug_severity%2Cbug_id&product=Squid&query_format=advanced&v1=6&v2=unspecified)
-- [Wanted features](https://wiki.squid-cache.org/Categories/WantedFeature)
-- [`squid-cache/squid` on Github.com](https://github.com/squid-cache/squid)
+[Security Advisories](https://github.com/squid-cache/squid/security/advisories) are published on GitHub and can be [subscribed](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) with a GitHub account or via the [squid-announce](http://www.squid-cache.org/Support/mailing-lists.html#squid-announce) mailing list. Commercial support is available from [various companies](http://www.squid-cache.org/Support/services.html).
