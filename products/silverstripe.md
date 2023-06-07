@@ -52,7 +52,7 @@ releases:
     releaseDate: 2022-06-28
 
 -   releaseCycle: "4.10"
-    support: 2022-12-31
+    support: 2022-06-30
     eol: 2022-12-31
     latest: "4.10.11"
     latestReleaseDate: 2022-11-21
