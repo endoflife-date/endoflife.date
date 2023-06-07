@@ -1,7 +1,7 @@
-deepdiff==5.7.0
-ordered-set==4.0.2
+deepdiff==6.3.0
+ordered-set==4.1.0
 python-frontmatter==1.0.0
 PyYAML==6.0
-ruamel.yaml==0.17.21
-ruamel.yaml.clib==0.2.6
-packaging==21.3
+ruamel.yaml==0.17.31
+ruamel.yaml.clib==0.2.7
+packaging==23.1
