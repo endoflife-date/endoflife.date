@@ -9,7 +9,8 @@ versionCommand: composer info silverstripe/cms
 releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png 
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: https://github.com/silverstripe/silverstripe-cms/releases/__LATEST__
-activeSupportColumn: true
+activeSupportColumn: ActiveDevelopment
+eolColumn: Security Support
 releaseDateColumn: true
 releaseColumn: true
 eolWarnThreshold: 182
