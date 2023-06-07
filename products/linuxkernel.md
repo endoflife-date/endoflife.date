@@ -12,8 +12,11 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
 
+# https://regex101.com/r/cuuOlQ/2
 auto:
--   custom: true
+-   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/refs/tags
+    regex: ^v(?P<major>0|[1-9]\d*)\.(?P<minor>0|[1-9]\d*)(\.(?P<patch>0|[1-9]\d*))?(\.(?P<tiny>\d+))?$
+    template: '{{major}}.{{minor}}{%if patch%}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}{%endif%}'
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
