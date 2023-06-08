@@ -14,9 +14,15 @@ auto:
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "114"
+    releaseDate: 2023-06-06
+    eol: false
+    latest: "114"
+    latestReleaseDate: 2023-06-06
+
 -   releaseCycle: "113"
     releaseDate: 2023-05-09
-    eol: false
+    eol: 2023-06-06
     latest: "113.0.2"
     latestReleaseDate: 2023-05-23
 
