@@ -21,7 +21,7 @@ releases:
     eol: false
     latest: "12.0.0"
     latestReleaseDate: 
-    releaseDate: 
+    releaseDate: 2023-06-03
 -   releaseCycle: "11"
     eol: 2023-11-01
     latest: "11.6.0"
