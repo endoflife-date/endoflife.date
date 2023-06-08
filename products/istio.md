@@ -31,6 +31,14 @@ identifiers:
 # https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases.
 # Approximate EOL date are always set on the last day of the month (and updated when the exact date is known).
 releases:
+
+-   releaseCycle: "1.18"
+    releaseDate: 2023-06-07
+    eol: 2023-12-31
+    supportedKubernetesVersions: 1.24 - 1.27
+    latest: "1.18.0"
+    latestReleaseDate: 2023-06-07
+
 -   releaseCycle: "1.17"
     releaseDate: 2023-02-14
     eol: 2023-09-30
@@ -47,7 +55,7 @@ releases:
 
 -   releaseCycle: "1.15"
     releaseDate: 2022-08-31
-    eol: 2023-03-31
+    eol: 2023-04-04
     supportedKubernetesVersions: 1.22 - 1.25
     latest: "1.15.7"
     latestReleaseDate: 2023-04-04
