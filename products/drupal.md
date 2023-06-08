@@ -88,7 +88,7 @@ releases:
 -   releaseCycle: "7"
     support: 2015-11-19
     latestReleaseDate: 2023-04-21
-    eol: 2023-11-01
+    eol: 2025-01-05
     latest: "7.97"
     lts: true
     releaseDate: 2011-01-05
@@ -104,6 +104,5 @@ bugs and security issues that have been reported are fixed and are released duri
 (US time). The final minor release in major release cycle is a long-term support (LTS) release and
 has extended security coverage.
 
-**Drupal 7** will receive security coverage [until November 2023](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#drupal-7-eol)
-and [limited vendor extended support](https://www.drupal.org/project/d7es). A decision to extend
-this further will be taken by July 2023.
+**Drupal 7** will receive security coverage [until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
+and [limited vendor extended support](https://www.drupal.org/psa-2023-06-07). This will be the final extension.
