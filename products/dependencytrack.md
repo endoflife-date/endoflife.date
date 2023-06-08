@@ -8,11 +8,6 @@ eolColumn: Security Support
 eolWarnThreshold: 121
 releaseColumn: Latest
 auto:
-
-  # Configuration for auto-update based on git.
-  # Any valid git clone URL will work, but support for partialClone is necessary
-  # (GitHub and GitLab support it).
-  # For example, for Apache Maven:
   - git: https://github.com/apache/maven.git
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
@@ -29,4 +24,3 @@ releases:
 > [Dependency-Track](https://dependencytrack.org/) is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
 
 There seems to be no fixed release cycle.
-  
