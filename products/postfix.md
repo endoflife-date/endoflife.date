@@ -10,9 +10,8 @@ releaseDateColumn: true
 
 
 auto:
--   custom: true
 -   git: https://github.com/vdukhovni/postfix.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
+    regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
 
 # eol(R) = releaseDate(R+4)
 releases:
