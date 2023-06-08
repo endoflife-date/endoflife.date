@@ -87,9 +87,9 @@ releases:
 
 -   releaseCycle: "7"
     support: 2015-11-19
-    latestReleaseDate: 2023-04-21
+    latestReleaseDate: 2023-06-07
     eol: 2025-01-05
-    latest: "7.97"
+    latest: "7.98"
     lts: true
     releaseDate: 2011-01-05
 

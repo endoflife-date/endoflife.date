@@ -3,10 +3,11 @@ title: Silverstripe CMS
 category: server-app
 permalink: /silverstripe
 alternate_urls:
-- /silverstripe-cms
-- /silverstripe-framework
+-   /silverstripe-cms
+-   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png 
+releaseImage: 
+  https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: https://github.com/silverstripe/silverstripe-cms/releases/__LATEST__
 activeSupportColumn: Active Development
@@ -28,7 +29,7 @@ releases:
     eol: false
     latest: "5.0.4"
     latestReleaseDate: 2023-05-31
-    releaseDate: 2023-05-01
+    releaseDate: 2023-05-04
 
 -   releaseCycle: "4.13"
     support: 2024-04-01
@@ -42,14 +43,14 @@ releases:
     eol: 2023-10-26
     latest: "4.12.7"
     latestReleaseDate: 2023-05-31
-    releaseDate: 2022-11-30
+    releaseDate: 2022-12-19
 
 -   releaseCycle: "4.11"
     support: 2022-12-19
     eol: 2023-05-19
     latest: "4.11.16"
     latestReleaseDate: 2023-05-31
-    releaseDate: 2022-06-28
+    releaseDate: 2022-05-11
 
 -   releaseCycle: "4.10"
     support: 2022-06-30

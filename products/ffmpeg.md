@@ -65,8 +65,8 @@ releases:
     codename: 'al-Khwarizmi'
     releaseDate: 2018-11-06
     eol: false
-    latest: "4.1.10"
-    latestReleaseDate: 2022-10-21
+    latest: "4.1.11"
+    latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "4.0"
     codename: 'Wu'
