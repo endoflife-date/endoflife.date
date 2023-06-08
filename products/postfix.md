@@ -71,14 +71,14 @@ releases:
     eol: 2019-02-27 # 3.4 release
     latest: "3.1.15"
     latestReleaseDate: 2019-02-26
-    releaseDate: 2018-02-08
+    releaseDate: 2015-02-08
     link: https://www.postfix.org/announcements/postfix-3.3.3.html
 
 -   releaseCycle: "2.11"
     eol: 2018-02-21 # 3.3 release
     latest: "2.11.11"
     latestReleaseDate: 2018-01-28
-    releaseDate: 2013-02-11
+    releaseDate: 2014-01-15
     link: https://www.postfix.org/announcements/postfix-3.2.5.html
 
 -   releaseCycle: "2.10"
