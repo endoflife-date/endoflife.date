@@ -26,11 +26,12 @@ identifiers:
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
 # v2 sources are now archived in a separate repo, we use that as well
+# the squidadm repository is the one where releases are made
 auto:
--   git: https://github.com/squid-cache/squid.git
+-   git: https://github.com/squid-cache/squid2.git
     regex:
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
--   git: https://github.com/squid-cache/squid2.git
+-   git: https://github.com/squidadm/squid.git
     regex:
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 
