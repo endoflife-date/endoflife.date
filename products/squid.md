@@ -52,8 +52,8 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2015-01-13
     eol: 2018-08-07
-    latest: '3.5.27'
-    latestReleaseDate: 2018-08-07
+    latest: '3.5.28'
+    latestReleaseDate: 2018-07-15
 
 -   releaseCycle: "3.4"
     releaseDate: 2013-12-08
