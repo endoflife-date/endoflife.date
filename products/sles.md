@@ -9,7 +9,8 @@ alternate_urls:
 -   /suselinuxenterpriseserver
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"| replace:'SLES ','' | replace:' ','-'}}/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"|
+  replace:'SLES ','' | replace:' ','-'}}/
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -21,23 +22,27 @@ releases:
 -   releaseCycle: "15"
     support: 2028-07-31
     eol: 2031-07-31
-    latest: "SLES 15 SP4"
-    releaseDate: 2018-07-15
+    latest: "15.4"
+    releaseDate: 2018-07-16
+    latestReleaseDate: 2022-06-21
 -   releaseCycle: "12"
     support: 2024-10-31
     eol: 2027-10-31
-    latest: "SLES 12 SP5"
+    latest: "12.5"
     releaseDate: 2014-10-27
+    latestReleaseDate: 2019-12-09
 -   releaseCycle: "11"
     support: 2019-03-31
     eol: 2022-03-31
-    latest: "SLES 11 SP4"
-    releaseDate: 2009-03-23
+    latest: "11.4"
+    releaseDate: 2009-03-24
+    latestReleaseDate: 2015-07-15
 -   releaseCycle: "10"
     support: 2013-07-31
     eol: 2016-07-31
-    latest: "SLES 10 SP4"
+    latest: "10.4"
     releaseDate: 2006-07-17
+    latestReleaseDate: 2011-04-12
 
 ---
 
