@@ -17,8 +17,13 @@ identifiers:
 -   purl: pkg:github/drush-ops/drush
 iconSlug: drupal
 releases:
--   releaseCycle: "11"
+-   releaseCycle: "12"
     eol: false
+    latest: "12.0.0"
+    latestReleaseDate: 
+    releaseDate: 
+-   releaseCycle: "11"
+    eol: 2023-11-01
     latest: "11.6.0"
     latestReleaseDate: 2023-06-06
     releaseDate: 2022-01-11
@@ -33,7 +38,7 @@ releases:
     latestReleaseDate: 2021-03-22
     releaseDate: 2018-01-24
 -   releaseCycle: "8"
-    eol: false
+    eol: 2025-01-01
     latest: "8.4.12"
     latestReleaseDate: 2023-03-15
     releaseDate: 2015-11-19
@@ -61,5 +66,6 @@ releases:
 
 | Drush version | Supported PHP versions | Supported Drupal versions |
 |---------------|------------------------|---------------------------|
+| 12            | 8.1+                   | 10+                       |
 | 11            | 7.4+                   | 9+                        |
 | 8             | 5.4.5+                 | 7                         |
