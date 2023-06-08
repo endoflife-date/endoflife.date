@@ -65,7 +65,7 @@ releases:
     latestReleaseDate: 2023-05-10
 -   releaseCycle: "10.7"
     releaseDate: 2022-02-08
-    eol: 2023-02-14
+    eol: 2023-02-09
     latest: "10.7.8"
     latestReleaseDate: 2023-02-06
 -   releaseCycle: "10.6"
