@@ -19,6 +19,14 @@ releases:
     latest: "4.8.2"
     latestReleaseDate: 2023-05-17
     link: https://docs.dependencytrack.org/changelog/
+-   releaseCycle: "4.7"
+    releaseDate: 2022-12-16
+    eol: true
+    latest: "4.7.1"
+    latestReleaseDate: 2023-01-31
+    link: https://docs.dependencytrack.org/changelog/
+
+
 ---
 
 > [Dependency-Track](https://dependencytrack.org/) is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
