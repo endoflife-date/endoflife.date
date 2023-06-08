@@ -93,7 +93,7 @@ releases:
     eol:  2016-02-24 # 3.1 release
     latest: "2.9.15"
     latestReleaseDate: 2015-10-10
-    releaseDate: 2018-02-08
+    releaseDate: 2012-02-01
     link: https://www.postfix.org/announcements/postfix-3.0.3.html
 
 -   releaseCycle: "2.8"
