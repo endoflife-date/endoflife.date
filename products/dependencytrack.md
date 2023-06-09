@@ -1,17 +1,13 @@
 ---
 title: Dependency-Track
 category: server-app
-permalink: /dependencytrack
+permalink: /dependency-track
 alternate_urls:
--   /dependency-track
-eolColumn: Security Support
-releaseColumn: Latest
-changelogTemplate: "https://docs.dependencytrack.org/changelog/"
+-   /dependencytrack
+changelogTemplate: https://docs.dependencytrack.org/changelog/
 iconSlug: owasp
 auto:
   - git: https://github.com/DependencyTrack/dependency-track.git
-    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 releases:
 -   releaseCycle: "4.8"
     releaseDate: 2023-04-18
@@ -24,9 +20,11 @@ releases:
     latest: "4.7.1"
     latestReleaseDate: 2023-01-31
 
-
 ---
 
-> OWASP [Dependency-Track](https://dependencytrack.org/) is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
+> [OWASP Dependency-Track](https://dependencytrack.org/) is an intelligent API-first Component Analysis platform
+> that allows organizations to identify and reduce risk in the software supply chain.
+> It monitors component usage across all versions of every application
+> in order to proactively identify risk across an organization.
 
-There seems to be no fixed release cycle.
+Dependency-Track does not have a fixed release cycle, and only the latest version is supported.
