@@ -9,7 +9,8 @@ alternate_urls:
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
-changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
+changelogTemplate: 
+  https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -30,8 +31,8 @@ releases:
     lts: 2023-10-24
     support: 2024-10-22
     eol: 2026-04-30
-    latest: "20.2.0"
-    latestReleaseDate: 2023-05-16
+    latest: "20.3.0"
+    latestReleaseDate: 2023-06-08
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -157,7 +158,8 @@ releases:
     releaseDate: 2015-08-04
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "3.3.1"
     latestReleaseDate: 2015-09-15
 
@@ -165,7 +167,8 @@ releases:
     releaseDate: 2015-05-04
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "2.5.0"
     latestReleaseDate: 2015-07-28
 
@@ -173,7 +176,8 @@ releases:
     releaseDate: 2015-01-20
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
     latestReleaseDate: 2015-07-09
 
