@@ -7,13 +7,13 @@ alternate_urls:
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 iconSlug: owasp
 auto:
-  - git: https://github.com/DependencyTrack/dependency-track.git
+-   git: https://github.com/DependencyTrack/dependency-track.git
 releases:
 -   releaseCycle: "4.8"
     releaseDate: 2023-04-18
     eol: false
     latest: "4.8.2"
-    latestReleaseDate: 2023-05-17
+    latestReleaseDate: 2023-05-16
 -   releaseCycle: "4.7"
     releaseDate: 2022-12-16
     eol: 2023-04-18
