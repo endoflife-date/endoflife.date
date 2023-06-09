@@ -9,6 +9,7 @@ changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#pl
 eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
+eolWarnThreshold: 21
 
 auto:
 -   custom: true
