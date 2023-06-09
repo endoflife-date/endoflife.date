@@ -5,6 +5,7 @@ permalink: /phpbb
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
+# https://rubular.com/r/Bw8rQ9JJR5RoEc
 auto:
 -   git: https://github.com/phpbb/phpbb.git
     regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
