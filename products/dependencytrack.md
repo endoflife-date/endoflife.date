@@ -6,6 +6,7 @@ alternate_urls:
 -   /dependency-track
 eolColumn: Security Support
 releaseColumn: Latest
+changelogTemplate: "https://docs.dependencytrack.org/changelog/"
 auto:
   - git: https://github.com/apache/maven.git
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
@@ -16,13 +17,11 @@ releases:
     eol: false
     latest: "4.8.2"
     latestReleaseDate: 2023-05-17
-    link: https://docs.dependencytrack.org/changelog/
 -   releaseCycle: "4.7"
     releaseDate: 2022-12-16
     eol: 2023-04-18
     latest: "4.7.1"
     latestReleaseDate: 2023-01-31
-    link: https://docs.dependencytrack.org/changelog/
 
 
 ---
