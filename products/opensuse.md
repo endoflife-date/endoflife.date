@@ -23,7 +23,7 @@ identifiers:
 
 releases:
 -   releaseCycle: "15.5"
-    releaseDate: 2023-06-08
+    releaseDate: 2023-06-07
     eol: 2024-12-31
 
 -   releaseCycle: "15.4"
