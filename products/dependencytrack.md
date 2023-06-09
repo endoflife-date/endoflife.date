@@ -5,7 +5,6 @@ permalink: /dependencytrack
 alternate_urls:
 -   /dependency-track
 eolColumn: Security Support
-eolWarnThreshold: 121
 releaseColumn: Latest
 auto:
   - git: https://github.com/apache/maven.git
