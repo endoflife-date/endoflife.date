@@ -7,10 +7,9 @@ alternate_urls:
 eolColumn: Security Support
 releaseColumn: Latest
 auto:
-  - git: https://github.com/apache/maven.git
+  - git: [https://github.com/apache/maven.git](https://github.com/DependencyTrack/dependency-track.git)
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
-  - dockerhub: dependencytrack/bundled
 releases:
 -   releaseCycle: "4.8"
     releaseDate: 2023-04-18
