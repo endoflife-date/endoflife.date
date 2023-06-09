@@ -7,6 +7,7 @@ alternate_urls:
 eolColumn: Security Support
 releaseColumn: Latest
 changelogTemplate: "https://docs.dependencytrack.org/changelog/"
+iconSlug: owasp
 auto:
   - git: https://github.com/apache/maven.git
     regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
@@ -26,6 +27,6 @@ releases:
 
 ---
 
-> [Dependency-Track](https://dependencytrack.org/) is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
+> OWASP [Dependency-Track](https://dependencytrack.org/) is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
 
 There seems to be no fixed release cycle.
