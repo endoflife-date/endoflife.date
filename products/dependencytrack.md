@@ -20,7 +20,7 @@ releases:
     link: https://docs.dependencytrack.org/changelog/
 -   releaseCycle: "4.7"
     releaseDate: 2022-12-16
-    eol: true
+    eol: 2023-04-18
     latest: "4.7.1"
     latestReleaseDate: 2023-01-31
     link: https://docs.dependencytrack.org/changelog/
