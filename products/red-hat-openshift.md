@@ -21,24 +21,24 @@ releases:
     support: true # will have to be updated with release of 4.14 see https://access.redhat.com/support/policy/updates/openshift#dates
     eol: 2024-11-17
     extendedSupport: 2025-01-17
-    latest: "4.13.0"
-    latestReleaseDate: 2023-05-17
+    latest: "4.13.2"
+    latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
     support: 2023-08-17
     eol: 2024-07-17
     extendedSupport: 2025-01-17
-    latest: "4.12.18"
-    latestReleaseDate: 2023-05-23
+    latest: "4.12.19"
+    latestReleaseDate: 2023-05-31
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.41"
-    latestReleaseDate: 2023-05-24
+    latest: "4.11.42"
+    latestReleaseDate: 2023-05-31
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10

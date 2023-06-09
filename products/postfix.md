@@ -9,34 +9,33 @@ activeSupportColumn: false
 releaseDateColumn: true
 
 auto:
--   custom: true
 -   git: https://github.com/vdukhovni/postfix.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)(\.(?<patch>0|[1-9]\d*))?$
+    regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
 
 releases:
 -   releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
-    latest: "3.8.0"
-    latestReleaseDate: 2023-04-17
+    latest: "3.8.1"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "3.7"
     eol: false
-    latest: "3.7.5"
-    latestReleaseDate: 2023-04-19
+    latest: "3.7.6"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2022-02-06
 
 -   releaseCycle: "3.6"
     eol: false
-    latest: "3.6.9"
-    latestReleaseDate: 2023-04-19
+    latest: "3.6.10"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2021-04-29
     link: https://www.postfix.org/announcements/postfix-3.7.4.html
 
 -   releaseCycle: "3.5"
     eol: false
-    latest: "3.5.19"
-    latestReleaseDate: 2023-04-19
+    latest: "3.5.20"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2020-03-15
     link: https://www.postfix.org/announcements/postfix-3.7.4.html
 

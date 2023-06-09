@@ -13,6 +13,14 @@ auto:
 -   git: https://github.com/symfony/symfony.git
 
 releases:
+
+-   releaseCycle: "6.3"
+    releaseDate: 2023-05-30
+    support: 2024-01-31
+    eol: 2024-01-31
+    latest: "6.3.0"
+    latestReleaseDate: 2023-05-30
+
 -   releaseCycle: "6.2"
     releaseDate: 2022-11-30
     support: 2023-07-31
@@ -181,5 +189,5 @@ a long-term support version and the other ones are considered standard versions:
 
 | Version Type            | Bugs are fixed for | Security issues are fixed for |
 | :---------------------- | :----------------- | :---------------------------- |
-| Standard                | 8 months           | 14 months                     |
+| Standard                | 8 months           | [8 months](https://symfony.com/blog/symfony-maintenance-changes-for-standard-releases)|
 | Long-Term Support (LTS) | 3 years            | 4 years                       |

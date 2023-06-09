@@ -21,25 +21,25 @@ releases:
 
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
-    releaseDate: 2022-05-05
+    releaseDate: 2023-05-03
     eol: 2023-11-05
     latest: "4.2.1"
-    latestReleaseDate: 2023-05-29
+    latestReleaseDate: 2023-05-28
 
 -   releaseCycle: "4.1"
     codename: 'Langdale'
-    latest: "4.1.2"
+    latest: "4.1.4"
     eol: 2023-05-27
     releaseDate: 2022-10-23
 
-    latestReleaseDate: 2023-01-17
+    latestReleaseDate: 2023-05-11
 -   releaseCycle: "4.0"
     codename: 'Kirkstone'
     releaseDate: 2022-04-25
     lts: true
     eol: 2024-04-27
-    latest: "4.0.9"
-    latestReleaseDate: 2023-04-20
+    latest: "4.0.10"
+    latestReleaseDate: 2023-05-23
 
 
 -   releaseCycle: "3.4"
@@ -68,8 +68,8 @@ releases:
     releaseDate: 2020-04-21
     lts: true
     eol: 2024-04-01
-    latest: "3.1.24"
-    latestReleaseDate: 2023-03-21
+    latest: "3.1.25"
+    latestReleaseDate: 2023-05-11
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'
