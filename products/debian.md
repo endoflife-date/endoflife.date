@@ -33,7 +33,7 @@ releases:
     releaseDate: 2021-08-14
     eol: 2024-07-01
     extendedSupport: 2026-06-30
-    link: https://www.debian.org/News/2022/20221217 https://www.debian.org/News/2023/20230429
+    link: https://www.debian.org/News/2023/20230429
     latest: "11.7"
     latestReleaseDate: 2023-04-29
 
