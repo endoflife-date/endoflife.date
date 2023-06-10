@@ -8,10 +8,14 @@ changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactor
 iconSlug: jfrog
 releases:
 -   releaseCycle: "7.59"
-    releaseDate: 2023-04-18
-    eol: false
-    latest: "5.59.9"
+    eol: 2024-11-28
+    latest: "7.59.9"
     latestReleaseDate: 2023-05-28
+-   releaseCycle: "7.29"
+    eol: 2024-06-05
+    latest: "7.29.9"
+    latestReleaseDate: 2021-01-11
+
 
 ---
 
