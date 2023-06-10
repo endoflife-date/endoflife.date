@@ -72,6 +72,16 @@ releases:
     latest: "7.29.9"
     latestReleaseDate: 2021-01-11
 
+-   releaseCycle: "7.27"
+    eol: 2023-03-30
+    latest: "7.27.10
+    latestReleaseDate: 2021-11-07
+
+-   releaseCycle: "6.23"
+    eol: 2022-04-20
+    latest: "6.23.42
+    latestReleaseDate: 2022-04-14
+
 
 ---
 
