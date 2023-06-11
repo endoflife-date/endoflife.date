@@ -12,6 +12,9 @@ identifiers:
 -   repology: cfengine
 -   purl: pkg:homebrew/cfengine
 
+auto:
+-   git: https://github.com/cfengine/core.git
+
 releases:
 -   releaseCycle: "3.21"
     releaseDate: 2022-12-21
