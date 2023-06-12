@@ -3,6 +3,8 @@ title: IBM AIX
 category: os
 iconSlug: ibm
 permalink: /ibm-aix
+alternate_urls:
+-   aix
 versionCommand: oslevel -s
 releasePolicyLink: https://www.ibm.com/support/pages/standard-and-enhanced-ibm-support-lifecycle-policies
 activeSupportColumn: true
