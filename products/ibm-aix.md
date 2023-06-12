@@ -7,8 +7,7 @@ versionCommand: oslevel -s
 releasePolicyLink: https://www.ibm.com/support/pages/standard-and-enhanced-ibm-support-lifecycle-policies
 activeSupportColumn: true
 releaseDateColumn: true
-releaseLabel: >-
-  {{'__RELEASE_CYCLE__' | split:'.' | pop:2 | join(".")}} TL{{'__RELEASE_CYCLE__' | split:'.' | last}}
+releaseLabel: "{{'__RELEASE_CYCLE__' | split:'.' | pop:2 | join('.')}} TL{{'__RELEASE_CYCLE__' | split:'.' | last}}"
 
 auto:
 -   custom: true
@@ -27,28 +26,28 @@ releases:
     eol: 2024-12-31
     latestReleaseDate: 2023-03-10
     link: https://www.ibm.com/docs/en/aix/7.3?topic=notes-aix-73-release
-    
+
 -   releaseCycle: "7.2.5"
     releaseDate: 2020-11-01
     support: true
     eol: false
     latestReleaseDate: 2023-04-28
     link: https://www.ibm.com/docs/en/aix/7.2?topic=notes-aix-725-release
-    
+
 -   releaseCycle: "7.2.4"
     releaseDate: 2019-11-01
     support: 2022-11-30
     eol: 2022-11-30
     latestReleaseDate: 2022-09-09
     link: https://www.ibm.com/docs/en/aix/7.2?topic=notes-aix-724-release
-    
+
 -   releaseCycle: "7.2.3"
     releaseDate: 2018-09-01
     support: 2021-11-30
     eol: 2021-11-30
     latestReleaseDate: 2021-06-25
     link: https://www.ibm.com/docs/en/aix/7.2?topic=notes-aix-723-release
-    
+
 -   releaseCycle: "7.2.2"
     releaseDate: 2017-10-01
     support: 2020-10-31
@@ -85,7 +84,9 @@ releases:
 
 ---
 
-> [IBM AIX](https://www.ibm.com/products/aix) is a Unix-based operating system created by IBM,
-> used mainly in mainframes and working on POWER-based architectures.
+> [IBM AIX](https://www.ibm.com/products/aix) is a Unix-based operating system created by IBM, used
+> mainly in mainframes and working on POWER-based architectures.
 
-Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates on [AIX support lifecycle information](https://www.ibm.com/support/pages/aix-support-lifecycle-information) page.
+Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
+on [AIX support lifecycle information](https://www.ibm.com/support/pages/aix-support-lifecycle-information)
+page.
