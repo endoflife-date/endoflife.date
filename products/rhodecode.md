@@ -13,4 +13,6 @@ releases:
 
 ---
 
-> [RhodeCode]https://rhodecode.com/) is an open source self-hosted platform for behind-the-firewall source code management.
+> [RhodeCode](https://rhodecode.com/) is an open source self-hosted platform for behind-the-firewall source code management.
+
+There seems to be no fixed release cycle.
