@@ -4,7 +4,7 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
-releaseImage: 
+releaseImage:
   https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
@@ -14,9 +14,7 @@ releaseColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:
--   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/refs/tags
-    regex: ^v(?P<major>0|[1-9]\d*)\.(?P<minor>0|[1-9]\d*)(\.(?P<patch>0|[1-9]\d*))?(\.(?P<tiny>\d+))?$
-    template: '{{major}}.{{minor}}{%if patch%}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}{%endif%}'
+-   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
