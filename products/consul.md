@@ -70,7 +70,7 @@ releases:
     releaseDate: 2020-06-18
 
 -   releaseCycle: "1.7"
-    eol: true
+    eol: 2021-06-22
     latest: "1.7.14"
     latestReleaseDate: 2021-04-15
     releaseDate: 2020-06-10
