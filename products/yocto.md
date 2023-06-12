@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "3.3"
     codename: 'Hardknott'
     latest: "3.3.6"
-    eol: 2021-11-01
+    eol: 2022-04-20
     releaseDate: 2021-04-19
 
     latestReleaseDate: 2022-04-27
