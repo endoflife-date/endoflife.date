@@ -76,7 +76,7 @@ releases:
     releaseDate: 2020-06-10
   
 -   releaseCycle: "1.6"
-    eol: true
+    eol: 2020-11-24
     latest: "1.6.10"
     latestReleaseDate: 2020-11-19
     releaseDate: 2020-06-10
