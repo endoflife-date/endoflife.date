@@ -25,7 +25,7 @@ releases:
     eol: 2026-06-10
     extendedSupport: 2028-06-10
     link: https://www.debian.org/News/2023/20230610
-    latest: "12.0"
+    latest: "12"
     latestReleaseDate: 2023-06-10
 
 -   releaseCycle: "11"

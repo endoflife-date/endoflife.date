@@ -34,8 +34,7 @@ releases:
     support: 2020-01-31
     eol: 2022-01-31
     latest: "2.9.2"
-    latestReleaseDate: 2020-03-07
-
+    latestReleaseDate: 2020-03-06
 
 ---
 

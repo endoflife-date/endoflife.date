@@ -53,7 +53,7 @@ releases:
     eol: 2022-02-05 # 3.7 release
     latest: "3.3.22"
     latestReleaseDate: 2022-02-06
-    releaseDate: 2018-02-21
+    releaseDate: 2018-02-22
     link: https://www.postfix.org/announcements/postfix-3.6.5.html
 
 -   releaseCycle: "3.2"
@@ -62,14 +62,14 @@ releases:
     latestReleaseDate: 2021-04-12
     releaseDate: 2017-02-28
     link: https://www.postfix.org/announcements/postfix-3.5.10.html
-  
+
 -   releaseCycle: "3.1"
     eol: 2020-03-15  # 3.5 release
     latest: "3.1.15"
     latestReleaseDate: 2020-02-03
     releaseDate: 2016-02-24
     link: https://www.postfix.org/announcements/postfix-3.5.10.html
-  
+
 -   releaseCycle: "3.0"
     eol: 2019-02-27 # 3.4 release
     latest: "3.1.15"
