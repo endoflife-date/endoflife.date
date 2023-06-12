@@ -27,7 +27,7 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
-    eol: 2023-05-30
+    eol: false
     latest: "7.6.0"
     latestReleaseDate: 2023-05-23
 
