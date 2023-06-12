@@ -4,7 +4,6 @@ category: server-app
 permalink: /postfix
 versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
-changelogTemplate: https://www.postfix.org/announcements/postfix-3.8.1.html
 activeSupportColumn: false
 releaseDateColumn: true
 
@@ -20,24 +19,28 @@ releases:
     eol: false
     latest: "3.8.1"
     latestReleaseDate: 2023-06-06
+    link: https://www.postfix.org/announcements/postfix-3.8.1.html
 
 -   releaseCycle: "3.7"
     eol: false
     latest: "3.7.6"
     latestReleaseDate: 2023-06-06
     releaseDate: 2022-02-06
+    link: https://www.postfix.org/announcements/postfix-3.8.1.html
 
 -   releaseCycle: "3.6"
     eol: false
     latest: "3.6.10"
     latestReleaseDate: 2023-06-06
     releaseDate: 2021-04-29
+    link: https://www.postfix.org/announcements/postfix-3.8.1.html
 
 -   releaseCycle: "3.5"
     eol: false
     latest: "3.5.20"
     latestReleaseDate: 2023-06-06
     releaseDate: 2020-03-15
+    link: https://www.postfix.org/announcements/postfix-3.8.1.html
 
 -   releaseCycle: "3.4"
     eol: 2023-04-17 # 3.8 release
@@ -89,7 +92,7 @@ releases:
     link: https://www.postfix.org/announcements/postfix-3.1.1.html
 
 -   releaseCycle: "2.9"
-    eol:  2016-02-24 # 3.1 release
+    eol: 2016-02-24 # 3.1 release
     latest: "2.9.15"
     latestReleaseDate: 2015-10-10
     releaseDate: 2012-02-01
