@@ -20,8 +20,8 @@ extendedSupportColumn: true
 releases:
 -   releaseCycle: "2305"
     releaseDate: 2023-05-31
-    support: 2023-11-31
-    eol: 2024-11-31
+    support: 2023-11-30
+    eol: 2024-11-30
     extendedSupport: false
     latest: "2305"
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html
@@ -46,7 +46,7 @@ releases:
     eol: 2024-03-29
     extendedSupport: false
     latest: "2209"
-    
+
 -   releaseCycle: "2206"
     releaseDate: 2022-06-28
     support: 2022-12-28
