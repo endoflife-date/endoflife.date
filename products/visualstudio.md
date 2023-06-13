@@ -15,22 +15,29 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
+-   releaseCycle: "17.6"
+    codename: "2022"
+    lts: lts
+    eol: 2025-01-09
+    releaseDate: 2023-05-16
+    latest: "17.6.2"
+    latestReleaseDate: 2023-05-25
+
 -   releaseCycle: "17.5"
     codename: "2022"
     lts: false
-    # eol: true when 17.6 will be released, see https://learn.microsoft.com/visualstudio/productinfo/release-rhythm
-    eol: false
+    eol: 2023-05-16
     releaseDate: 2023-02-21
-    latest: "17.5.3"
-    latestReleaseDate: 2023-03-21
+    latest: "17.5.4"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "17.4"
     codename: "2022"
     lts: true
     eol: 2024-07-11
     releaseDate: 2022-11-08
-    latest: "17.4.6"
-    latestReleaseDate: 2023-03-14
+    latest: "17.4.7"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "17.3"
     codename: "2022"
@@ -45,8 +52,8 @@ releases:
     lts: true
     eol: 2024-01-09
     releaseDate: 2022-05-10
-    latest: "17.2.14"
-    latestReleaseDate: 2022-03-14
+    latest: "17.2.15"
+    latestReleaseDate: 2022-04-11
 
 -   releaseCycle: "17.1"
     codename: "2022"
@@ -61,15 +68,15 @@ releases:
     lts: true
     eol: 2023-07-11
     releaseDate: 2021-11-08
-    latest: "17.0.20"
-    latestReleaseDate: 2023-03-14
+    latest: "17.0.21"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "16.11"
     codename: "2019"
     eol: 2029-04-10
     releaseDate: 2021-08-10
-    latest: "16.11.25"
-    latestReleaseDate: 2023-03-14
+    latest: "16.11.26"
+    latestReleaseDate: 2023-04-11
 
 -   releaseCycle: "16.10"
     codename: "2019"
@@ -152,9 +159,9 @@ releases:
     codename: "2017"
     eol: 2027-04-13
     releaseDate: 2018-11-13
-    latest: "15.9.53"
-    latestReleaseDate: 2023-03-14
-    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.53
+    latest: "15.9.54"
+    latestReleaseDate: 2023-04-11
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.54
 
 -   releaseCycle: "15.8"
     codename: "2017"
