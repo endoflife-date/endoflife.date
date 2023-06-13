@@ -1,9 +1,7 @@
 ---
 title: Artifactory
 category: server-app
-permalink: /Artifactory
-alternate_urls:
--   /artifactory
+permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
 iconSlug: jfrog
 releases:
