@@ -3,6 +3,7 @@ title: Artifactory
 category: server-app
 permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
+releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
 iconSlug: jfrog
 releases:
 -   releaseCycle: "7.59"
