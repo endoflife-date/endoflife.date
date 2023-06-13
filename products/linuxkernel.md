@@ -4,7 +4,7 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
-releaseImage: 
+releaseImage:
   https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
@@ -12,8 +12,9 @@ activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
 
+# https://regex101.com/r/cuuOlQ/2
 auto:
--   custom: true
+-   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
