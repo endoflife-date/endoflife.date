@@ -1,9 +1,7 @@
 ---
 title: RhodeCode
 category: server-app
-permalink: /RhodeCode
-alternate_urls:
--   /rhodecode
+permalink: /rhodecode
 changelogTemplate: https://docs.rhodecode.com/RhodeCode-Enterprise/release-notes/release-notes-__LATEST__.html
 releases:
 -   releaseCycle: "4.27"
