@@ -58,16 +58,28 @@ releases:
     releaseDate: 2021-06-22
 
 -   releaseCycle: "1.9"
-    eol: true
+    eol: 2022-04-19
     latest: "1.9.17"
     latestReleaseDate: 2022-04-14
     releaseDate: 2020-11-24
 
 -   releaseCycle: "1.8"
-    eol: true
+    eol: 2021-12-14
     latest: "1.8.19"
     latestReleaseDate: 2021-12-15
     releaseDate: 2020-06-18
+
+-   releaseCycle: "1.7"
+    eol: 2021-06-22
+    latest: "1.7.14"
+    latestReleaseDate: 2021-04-15
+    releaseDate: 2020-02-11
+
+-   releaseCycle: "1.6"
+    eol: 2020-11-24
+    latest: "1.6.10"
+    latestReleaseDate: 2020-11-19
+    releaseDate: 2019-08-23
 
 ---
 

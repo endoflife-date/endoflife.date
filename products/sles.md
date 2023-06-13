@@ -9,8 +9,7 @@ alternate_urls:
 -   /suselinuxenterpriseserver
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"|
-  replace:'SLES ','' | replace:' ','-'}}/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__" | replace:'.','-SP'}}/
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

@@ -17,6 +17,7 @@ layout: null
     {%- endfor %}
   {%- endif %}
   {%- if page.layout == 'product'  %}
+{{page.permalink}}/_edit     https://github.com/endoflife-date/endoflife.date/edit/master/{{page.path}}
 /api{{page.permalink}}       /api{{page.permalink}}.json
     {%- if page.alternate_urls  %}
       {%- for url in page.alternate_urls %}
