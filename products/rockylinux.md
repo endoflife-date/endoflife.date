@@ -32,8 +32,8 @@ releases:
     releaseDate: 2021-06-21
     support: 2024-05-31
     eol: 2029-05-31
-    latest: "8.7"
-    latestReleaseDate: 2022-11-16
+    latest: "8.8"
+    latestReleaseDate: 2023-05-30
 
 ---
 
