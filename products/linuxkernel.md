@@ -4,7 +4,7 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
-releaseImage:
+releaseImage: 
   https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
     eol: false
-    latest: "6.3.7"
-    latestReleaseDate: 2023-06-09
+    latest: "6.3.8"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "6.2"
     releaseDate: 2023-02-19
@@ -37,8 +37,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31
-    latest: "6.1.33"
-    latestReleaseDate: 2023-06-09
+    latest: "6.1.34"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -74,36 +74,36 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31
-    latest: "5.15.116"
-    latestReleaseDate: 2023-06-09
+    latest: "5.15.117"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-01
-    latest: "5.10.183"
-    latestReleaseDate: 2023-06-09
+    latest: "5.10.184"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-01
-    latest: "5.4.246"
-    latestReleaseDate: 2023-06-09
+    latest: "5.4.247"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-01
-    latest: "4.19.285"
-    latestReleaseDate: 2023-06-09
+    latest: "4.19.286"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
     eol: 2024-01-01
-    latest: "4.14.317"
-    latestReleaseDate: 2023-06-09
+    latest: "4.14.318"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "4.9"
     lts: true

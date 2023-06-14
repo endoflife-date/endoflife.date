@@ -7,7 +7,8 @@ iconSlug: apachecassandra
 releaseDateColumn: true
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 category: db
-releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
+releasePolicyLink: 
+  https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
 auto:
 -   git: https://github.com/apache/cassandra.git
     regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
@@ -38,7 +39,7 @@ releases:
     releaseDate: 2015-11-09
     latest: "3.0.29"
     discontinued: true
-    latestReleaseDate: 2023-05-01
+    latestReleaseDate: 2023-05-15
 
 ---
 
