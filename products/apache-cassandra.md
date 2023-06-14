@@ -51,8 +51,8 @@ Three major GA releases (MAJOR and/or MINOR versions) are supported at any given
 Cassandra follows [SemVer](https://semver.org/). These are the rough heuristics followed for what can be included in a given release.
 
 * Patch releases on a GA branch should only include bug fixes.
-* Minor versions are always upgradable without downtime from any minor version from the previous major version. For example an upgrade from a 3.x version to a 5.x version is not supported. Only upgrades stepping through each major version (3.x -> 4.x -> 5.x) are supported. 
-* Disruptive changes that prevent always-up upgrades from the previous major versions are deferred to the next non-adjacent Major version.
+* Minor versions are always upgradable without downtime from any minor version from the previous major version. For example an upgrade from a 3.x version to a 5.x version is not supported. Only upgrades stepping through each major version (3.x -> 4.x -> 5.x) are supported.
+* Disruptive changes that prevent always-up upgrades from the previous major versions are deferred to the next-to-next major version.
 
 As an always-on technology, Cassandra does not break user-facing API compatabilities without a deprecated grace period demarcated by major versions.
 
