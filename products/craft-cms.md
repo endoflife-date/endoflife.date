@@ -21,14 +21,14 @@ releases:
     releaseDate: 2022-05-04
     support: 2024-04-30
     eol: 2025-05-30
-    latest: '4.4.13'
-    latestReleaseDate: 2023-05-24
+    latest: '4.4.14'
+    latestReleaseDate: 2023-06-13
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
     support: 2023-04-30
     eol: 2024-04-30
-    latest: '3.8.13'
-    latestReleaseDate: 2023-05-24
+    latest: '3.8.14'
+    latestReleaseDate: 2023-06-13
 -   releaseCycle: "2"
     releaseDate: 2014-04-01
     support: 2020-01-31
