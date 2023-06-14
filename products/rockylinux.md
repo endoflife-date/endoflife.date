@@ -26,7 +26,7 @@ releases:
     support: 2027-05-31
     eol: 2032-05-31
     latest: "9.2"
-    latestReleaseDate: 2023-05-16
+    latestReleaseDate: 2023-05-20
 
 -   releaseCycle: "8"
     releaseDate: 2021-06-21
