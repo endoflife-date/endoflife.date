@@ -7,8 +7,7 @@ alternate_urls:
 -   /rocky
 -   /rockylinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/2
-releaseImage: https://global.discourse-cdn.com/standard14/uploads/rockylinux/original/2X/a/aa4ff9ead76ab2a0e52518e778a69cc666add4e9.png
+releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 activeSupportColumn: true
 releaseDateColumn: true
@@ -24,7 +23,7 @@ identifiers:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-14
-    support: 2025-05-31
+    support: 2027-05-31
     eol: 2032-05-31
     latest: "9.2"
     latestReleaseDate: 2023-05-16
@@ -32,7 +31,7 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2021-06-21
     support: 2024-05-31
-    eol: 2029-05-31
+    eol: 2032-05-31
     latest: "8.7"
     latestReleaseDate: 2022-11-16
 
