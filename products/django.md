@@ -1,6 +1,7 @@
 ---
 title: Django
 category: framework
+tags: python-runtime
 iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"
@@ -22,9 +23,9 @@ releases:
 -   releaseCycle: "4.2"
     support: 2023-12-01
     eol: 2026-04-01
-    latest: "4.2.1"
+    latest: "4.2.2"
     lts: true
-    latestReleaseDate: 2023-05-03
+    latestReleaseDate: 2023-06-05
     releaseDate: 2023-04-03
 
 -   releaseCycle: "4.1"

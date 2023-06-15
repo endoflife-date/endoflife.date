@@ -1,6 +1,7 @@
 ---
 title: Adobe ColdFusion
 category: server-app
+tags: adobe
 iconSlug: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
@@ -13,6 +14,11 @@ eolColumn: Core Support
 extendedSupportColumn: true
 
 releases:
+-   releaseCycle: "2023"
+    releaseDate: 2023-05-17
+    eol: 2028-05-16
+    extendedSupport: 2029-05-16
+
 -   releaseCycle: "2021"
     releaseDate: 2020-11-11
     eol: 2025-11-10

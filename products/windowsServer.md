@@ -1,6 +1,7 @@
 ---
 title: Microsoft Windows Server
 category: os
+tags: microsoft windows
 iconSlug: windows
 permalink: /windows-server
 alternate_urls:
@@ -87,7 +88,7 @@ releases:
     eol: 2019-04-09
     extendedSupport: false
     latest: 10.0.16299
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1709-end-of-servicing
+    link: https://techcommunity.microsoft.com/t5/windows-server-for-developers/windows-server-version-1709-lifecycle-announcement/m-p/379766
 
 -   releaseCycle: "2016"
     releaseDate: 2016-10-15

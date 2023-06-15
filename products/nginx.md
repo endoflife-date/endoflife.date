@@ -1,6 +1,7 @@
 ---
 title: nginx
 category: server-app
+tags: web-server
 iconSlug: nginx
 permalink: /nginx
 versionCommand: nginx -v
@@ -23,10 +24,16 @@ identifiers:
 auto:
 -   git: https://github.com/nginx/nginx.git
     regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
--   hg: https://hg.nginx.org/nginx
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.25"
+    releaseDate: 2023-05-23
+    eol: false
+    link: https://nginx.org/en/CHANGES
+    latest: "1.25.1"
+    latestReleaseDate: 2023-06-13
+
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
     eol: false
@@ -35,7 +42,7 @@ releases:
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-21
-    eol: false
+    eol: 2023-05-23
     link: https://nginx.org/en/CHANGES
     latest: "1.23.4"
     latestReleaseDate: 2023-03-28

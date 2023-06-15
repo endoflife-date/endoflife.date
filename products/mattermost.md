@@ -20,21 +20,21 @@ releases:
 -   releaseCycle: "7.10"
     releaseDate: 2023-04-12
     eol: 2023-07-15
-    latest: '7.10.0'
-    latestReleaseDate: 2023-04-12
+    latest: '7.10.2'
+    latestReleaseDate: 2023-05-18
 
 -   releaseCycle: "7.9"
     releaseDate: 2023-03-14
     eol: 2023-06-15
-    latest: '7.9.3'
-    latestReleaseDate: 2023-04-27
+    latest: '7.9.4'
+    latestReleaseDate: 2023-05-11
 
 -   releaseCycle: "7.8"
     lts: true
     releaseDate: 2023-02-14
     eol: 2023-11-15
-    latestReleaseDate: 2023-04-26
-    latest: '7.8.4'
+    latestReleaseDate: 2023-05-31
+    latest: '7.8.6'
 
 -   releaseCycle: "7.7"
     releaseDate: 2023-01-13

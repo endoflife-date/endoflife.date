@@ -1,6 +1,7 @@
 ---
 title: FortiOS
 category: os
+tags: fortinet
 alternate_urls:
 -   /fortinet
 iconSlug: fortinet
@@ -13,6 +14,10 @@ discontinuedColumn: false
 versionCommand: get system status
 changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 releases:
+-   releaseCycle: "7.4"
+    eol: 2027-11-11
+    support: 2026-05-11
+    releaseDate: 2023-05-11
 -   releaseCycle: "7.2"
     eol: 2026-09-30
     support: 2025-03-31

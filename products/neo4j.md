@@ -1,6 +1,7 @@
 ---
 title: Neo4j
 category: db
+tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
 versionCommand: "call dbms.components() yield versions unwind versions as version\
@@ -16,9 +17,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "5.8"
+    releaseDate: 2023-05-16
+    eol: false
+    latest: "5.8.0"
+    latestReleaseDate: 2023-05-16
+
 -   releaseCycle: "5.7"
     releaseDate: 2023-04-20
-    eol: false
+    eol: 2023-05-16
     latest: "5.7.0"
     latestReleaseDate: 2023-04-20
 
@@ -66,9 +73,9 @@ releases:
 
 -   releaseCycle: "4.4"
     eol: 2025-06-30
-    latest: "4.4.19"
+    latest: "4.4.21"
     lts: true
-    latestReleaseDate: 2023-03-28
+    latestReleaseDate: 2023-05-24
     releaseDate: 2021-12-02
 
 -   releaseCycle: "4.3"

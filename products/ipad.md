@@ -1,6 +1,7 @@
 ---
 title: Apple iPad
 category: device
+tags: apple tablet
 iconSlug: apple
 permalink: /ipad
 releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iOS,_iPadOS,_tvOS,_and_watchOS_devices#iPad_(lineup)

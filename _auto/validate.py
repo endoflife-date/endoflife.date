@@ -1,3 +1,5 @@
+import re
+
 import sys
 import frontmatter
 from datetime import date
@@ -12,6 +14,7 @@ VALID_CATEGORIES = [
     "device",
     "framework",
     "lang",
+    "library",
     "os",
     "server-app",
     "service",
@@ -35,6 +38,8 @@ def load_product_data(file):
 def assert_that_in(values, value, name, file):
     assert value in values, f"{name} '{value}' is not valid in {file}, it must be in {values}"
 
+def assert_that_match(regex, value, name, file):
+    assert bool(re.fullmatch(regex, value)), f"{name} '{value}' does not match {regex} in {file}"
 
 def assert_not_blank(value, name, file):
     assert value.strip(), f"{name} must not be blank in {file}"
@@ -55,6 +60,9 @@ def validate_product(file):
 
     assert_that_in(VALID_CATEGORIES, data['category'], 'category', file)
     assert_that_starts_with('/', data['permalink'], 'permalink', file)
+
+    if "tags" in data:
+        assert_that_match("^[a-z0-9\-]+( [a-z0-9\-]+)*", data['tags'], 'tags', file)
 
     if "alternate_urls" in data:
         for url in data["alternate_urls"]:

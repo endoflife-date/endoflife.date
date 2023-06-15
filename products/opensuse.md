@@ -1,6 +1,7 @@
 ---
 title: openSUSE
 category: os
+tags: linux-distribution
 iconSlug: opensuse
 permalink: /opensuse
 alternate_urls:
@@ -20,88 +21,106 @@ identifiers:
 -   cpe: cpe:/o:opensuse:leap
 -   cpe: cpe:2.3:o:opensuse:opensuse
 -   cpe: cpe:2.3:o:opensuse:leap
+
 releases:
+-   releaseCycle: "15.5"
+    releaseDate: 2023-06-07
+    eol: 2024-12-31
+
 -   releaseCycle: "15.4"
-    eol: 2023-12-01
     releaseDate: 2022-06-09
+    eol: 2023-12-07
 
 -   releaseCycle: "15.3"
-    eol: 2022-12-01
     releaseDate: 2021-06-02
+    eol: 2022-12-01
 
 -   releaseCycle: "15.2"
-    eol: 2021-12-01
     releaseDate: 2020-07-02
+    eol: 2021-12-01
 
 -   releaseCycle: "15.1"
-    eol: 2021-02-02
     releaseDate: 2019-05-22
+    eol: 2021-02-02
 
 -   releaseCycle: "15.0"
-    eol: 2019-12-03
     releaseDate: 2018-05-25
+    eol: 2019-12-03
 
 -   releaseCycle: "42.3"
-    eol: 2019-07-01
     releaseDate: 2017-07-26
+    eol: 2019-07-01
+    link: https://web.archive.org/web/20210415073632/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.3/
 
 -   releaseCycle: "42.2"
-    eol: 2018-01-26
     releaseDate: 2016-11-16
+    eol: 2018-01-26
+    link: https://web.archive.org/web/20211005130439/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/
 
 -   releaseCycle: "42.1"
-    eol: 2017-05-17
     releaseDate: 2015-11-04
+    eol: 2017-05-17
+    link: https://web.archive.org/web/20211005130439/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.1/
 
 -   releaseCycle: "13.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2017-01-17
     releaseDate: 2014-11-04
+    eol: 2017-01-17
+    link: https://doc.opensuse.org/release-notes/x86_64/openSUSE/13.2/
 
 -   releaseCycle: "13.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2016-02-03
     releaseDate: 2014-01-08
+    eol: 2016-02-03
+    link: https://doc.opensuse.org/release-notes/x86_64/openSUSE/13.1/
 
 -   releaseCycle: "12.3"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2015-01-29
     releaseDate: 2013-03-13
+    eol: 2015-01-29
+    link: https://doc.opensuse.org/release-notes/x86_64/openSUSE/12.3/
 
 -   releaseCycle: "12.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2014-01-15
     releaseDate: 2012-09-05
+    eol: 2014-01-15
+    link: https://doc.opensuse.org/release-notes/x86_64/openSUSE/12.2/
 
 -   releaseCycle: "12.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2013-05-15
     releaseDate: 2011-11-16
+    eol: 2013-05-15
+    link: https://doc.opensuse.org/release-notes/x86_64/openSUSE/12.1/
 
 -   releaseCycle: "11.4"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2012-11-05
     releaseDate: 2011-03-10
+    eol: 2012-11-05
+    link: https://en.opensuse.org/Archive:Product_highlights_11.4
 
 -   releaseCycle: "11.3"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2012-01-20
     releaseDate: 2010-07-15
+    eol: 2012-01-20
+    link: https://en.opensuse.org/Archive:Product_highlights_11.3
 
 -   releaseCycle: "11.2"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2011-05-12
     releaseDate: 2009-11-12
+    eol: 2011-05-12
+    link: https://en.opensuse.org/Archive:Product_highlights_11.2
 
 -   releaseCycle: "11.1"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2011-01-14
     releaseDate: 2008-12-18
+    eol: 2011-01-14
+    link: https://www.suse.com/releasenotes/x86_64/openSUSE/11.1/index.html
 
 -   releaseCycle: "11.0"
     releaseLabel: "__RELEASE_CYCLE__"
-    eol: 2010-07-26
     releaseDate: 2008-06-19
+    eol: 2010-07-26
+    link: https://www.suse.com/releasenotes/x86_64/openSUSE/11.0/index.html
 
 ---
 

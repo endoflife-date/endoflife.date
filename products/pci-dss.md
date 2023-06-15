@@ -44,6 +44,6 @@ releases:
 
 - PCI DSS 3.2 remained valid till 31 December 2018 and was retired on 1 January 2019.
 
-- PCI DSS [3.1 retired on 31 October 2016](https://listings.pcisecuritystandards.org/pdfs/PCI_DSS_Resource_Guide_(003).pdf).
+- PCI DSS [3.1 retired on 31 October 2016](https://listings.pcisecuritystandards.org/pdfs/PCI_DSS_Resource_Guide_%28003%29.pdf).
   The new requirements introduced in PCI DSS 3.2 were considered best practices until 31 January 2018.
   Starting 1 February 2018 they are effective as requirements and must be used.

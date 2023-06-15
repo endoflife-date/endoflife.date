@@ -58,7 +58,7 @@ module Jekyll
         end
 
         tags << page.data['category']
-        page.data['tags'] = tags
+        page.data['tags'] = tags.sort
       end
 
       # Set properly the column presence/label if it was overridden.

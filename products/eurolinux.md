@@ -2,6 +2,7 @@
 permalink: /eurolinux
 title: EuroLinux
 category: os
+tags: linux-distribution
 versionCommand: lsb_release --release
 releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
 activeSupportColumn: true
@@ -15,8 +16,8 @@ releases:
     releaseDate: 2022-06-14
     support: 2032-05-31
     eol: 2032-06-30
-    latest: "9.1"
-    latestReleaseDate: 2022-11-30
+    latest: "9.2"
+    latestReleaseDate: 2023-05-11
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
     support: 2029-03-01

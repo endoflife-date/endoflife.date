@@ -1,6 +1,7 @@
 ---
 title: Samsung Mobile
 category: device
+tags: mobile-phone smartwatch tablet
 iconSlug: samsung
 permalink: /samsung-mobile
 alternate_urls:

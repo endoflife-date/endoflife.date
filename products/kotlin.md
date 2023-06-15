@@ -1,6 +1,7 @@
 ---
 title: Kotlin
 category: lang
+tags: jetbrains
 iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:
@@ -24,8 +25,8 @@ auto:
 releases:
 -   releaseCycle: "1.8"
     eol: false
-    latest: "1.8.21"
-    latestReleaseDate: 2023-04-25
+    latest: "1.8.22"
+    latestReleaseDate: 2023-06-07
     releaseDate: 2022-12-28
 
 -   releaseCycle: "1.7"

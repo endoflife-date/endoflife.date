@@ -1,6 +1,7 @@
 ---
 title: MediaWiki
 category: server-app
+tags: php-runtime
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/of9ibgdvah78ld94hnu3ob5qeiwy4em.png
 permalink: /mediawiki

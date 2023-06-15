@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23
     eol: false
-    latest: "1.22.2"
-    latestReleaseDate: 2023-04-11
+    latest: "1.22.3"
+    latestReleaseDate: 2023-05-19
 
 -   releaseCycle: "1.20"
     releaseDate: 2022-02-03
@@ -71,18 +71,24 @@ releases:
 -   releaseCycle: "1.4"
     releaseDate: 2014-07-19
     eol: true
+    # no known changelog for this versions
+    link:
     latest: "1.4.5"
     latestReleaseDate: 2014-12-18
 
 -   releaseCycle: "1.2"
     releaseDate: 2013-09-24
     eol: true
+    # no known changelog for this versions
+    link:
     latest: "1.2.4"
     latestReleaseDate: 2014-04-18
 
 -   releaseCycle: "1.0"
     releaseDate: 2012-09-24
     eol: true
+    # no known changelog for this versions
+    link:
     latest: "1.0.10"
     latestReleaseDate: 2013-08-28
 

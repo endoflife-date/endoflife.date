@@ -1,6 +1,7 @@
 ---
 title: Laravel
 category: framework
+tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
@@ -26,16 +27,16 @@ releases:
     support: 2024-08-06
     eol: 2025-02-04
     supportedPhpVersions: 8.1 - 8.2
-    latest: '10.9.0'
-    latestReleaseDate: 2023-04-25
+    latest: '10.13.5'
+    latestReleaseDate: 2023-06-08
 
 -   releaseCycle: "9"
     releaseDate: 2022-02-08
     support: 2023-08-08
     eol: 2024-02-08
     supportedPhpVersions: 8.0 - 8.2
-    latest: '9.52.7'
-    latestReleaseDate: 2023-04-25
+    latest: '9.52.9'
+    latestReleaseDate: 2023-06-08
 
 -   releaseCycle: "8"
     releaseDate: 2020-09-08
@@ -67,6 +68,7 @@ releases:
     support: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
+    link: https://laravel.com/docs/5.8/releases
     latest: '5.8.38'
     latestReleaseDate: 2020-04-14
 
@@ -76,6 +78,7 @@ releases:
     support: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
+    link: https://laravel.com/docs/5.5/releases
     latest: '5.5.50'
     latestReleaseDate: 2020-08-18
 

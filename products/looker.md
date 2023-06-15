@@ -2,6 +2,7 @@
 title: Looker
 permalink: /looker
 category: server-app
+tags: google
 iconSlug: looker
 releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
 changelogTemplate: |

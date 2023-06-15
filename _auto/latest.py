@@ -68,6 +68,11 @@ def releases_matches(r, prefix):
         # this is notably used in java
         # prefix = 7, r = 7u72
         r.startswith(prefix + "u")
+        or
+        # It matches the release cycle with an extra '+' as a build number
+        # this is notably used in java
+        # prefix = 17, r = 17.0.7+7
+        r.startswith(prefix + "+")
     )
 
 

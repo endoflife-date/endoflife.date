@@ -3,6 +3,7 @@ title: Microsoft Exchange
 permalink: /msexchange
 iconSlug: microsoftexchange
 category: server-app
+tags: microsoft
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 activeSupportColumn: true
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion

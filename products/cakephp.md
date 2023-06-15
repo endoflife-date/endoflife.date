@@ -1,6 +1,7 @@
 ---
 title: CakePHP
 category: framework
+tags: php-runtime
 iconSlug: cakephp
 permalink: /cakephp
 alternate_urls:
@@ -25,8 +26,8 @@ releases:
     eol: false
     support: true
     releaseDate: 2022-06-06
-    latest: "4.4.13"
-    latestReleaseDate: 2023-04-22
+    latest: "4.4.14"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "4.3"
     eol: false

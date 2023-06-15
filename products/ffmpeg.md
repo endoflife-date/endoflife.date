@@ -65,8 +65,8 @@ releases:
     codename: 'al-Khwarizmi'
     releaseDate: 2018-11-06
     eol: false
-    latest: "4.1.10"
-    latestReleaseDate: 2022-10-21
+    latest: "4.1.11"
+    latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "4.0"
     codename: 'Wu'
@@ -79,8 +79,8 @@ releases:
     codename: 'Cantor'
     releaseDate: 2017-10-15
     eol: false
-    latest: "3.4.12"
-    latestReleaseDate: 2022-10-27
+    latest: "3.4.13"
+    latestReleaseDate: 2023-06-12
 
 -   releaseCycle: "3.3"
     codename: 'Hilbert'

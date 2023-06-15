@@ -1,6 +1,7 @@
 ---
 title: Micronaut Framework
 category: framework
+tags: java-runtime
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework
@@ -20,8 +21,8 @@ releases:
     releaseDate: 2021-08-18
     eol: false
     support: true
-    latest: "3.9.1"
-    latestReleaseDate: 2023-04-28
+    latest: "3.9.3"
+    latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "2"
     releaseDate: 2020-06-26

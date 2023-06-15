@@ -1,6 +1,7 @@
 ---
 title: Apache Solr
 category: server-app
+tags: apache java-runtime
 iconSlug: apachesolr
 permalink: /solr
 alternate_urls:

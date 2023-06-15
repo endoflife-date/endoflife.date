@@ -5,6 +5,7 @@ alternate_urls:
 -   /groovy
 -   /groovy-lang
 category: lang
+tags: apache java-runtime
 iconSlug: apachegroovy
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
@@ -24,8 +25,8 @@ releases:
 -   releaseCycle: "4.0"
     eol: false
     support: true
-    latest: "4.0.11"
-    latestReleaseDate: 2023-03-28
+    latest: "4.0.12"
+    latestReleaseDate: 2023-05-05
     releaseDate: 2022-01-25
 
 -   releaseCycle: "3.0"

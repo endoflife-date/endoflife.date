@@ -1,6 +1,7 @@
 ---
 title: Nomad
 category: server-app
+tags: hashicorp
 permalink: /nomad
 versionCommand: nomad --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
@@ -16,20 +17,20 @@ releases:
 -   releaseCycle: "1.5"
     releaseDate: 2023-03-01
     eol: false
-    latest: "1.5.4"
-    latestReleaseDate: 2023-05-02
+    latest: "1.5.6"
+    latestReleaseDate: 2023-05-19
 
 -   releaseCycle: "1.4"
     releaseDate: 2022-10-04
     eol: false
-    latest: "1.4.9"
-    latestReleaseDate: 2023-05-02
+    latest: "1.4.10"
+    latestReleaseDate: 2023-05-19
 
 -   releaseCycle: "1.3"
     releaseDate: 2022-05-11
     eol: false
-    latest: "1.3.14"
-    latestReleaseDate: 2023-05-03
+    latest: "1.3.15"
+    latestReleaseDate: 2023-05-19
 
 -   releaseCycle: "1.2"
     releaseDate: 2021-11-15

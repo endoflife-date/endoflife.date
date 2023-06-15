@@ -1,6 +1,7 @@
 ---
 title: Scala
 category: lang
+tags: java-runtime
 iconSlug: scala
 permalink: /scala
 alternate_urls:
@@ -19,11 +20,19 @@ auto:
     # Scala >= 3
 -   git: https://github.com/lampepfl/dotty.git
 
+# For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "3.2"
-    releaseDate: 2022-08-31
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-23
     support: true
     eol: false
+    latest: "3.3.2"
+    latestReleaseDate: 2023-05-23
+
+-   releaseCycle: "3.2"
+    releaseDate: 2022-08-31
+    support: 2023-05-23
+    eol: 2023-05-23
     latest: "3.2.2"
     latestReleaseDate: 2023-01-11
 
@@ -45,16 +54,16 @@ releases:
     releaseDate: 2019-06-07
     support: true
     eol: false
-    latest: "2.13.10"
-    latestReleaseDate: 2022-10-08
+    latest: "2.13.11"
+    latestReleaseDate: 2023-06-01
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"
     releaseDate: 2016-10-28
     support: 2019-06-07
     eol: false
-    latest: "2.12.17"
-    latestReleaseDate: 2022-09-14
+    latest: "2.12.18"
+    latestReleaseDate: 2023-05-31
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.11"

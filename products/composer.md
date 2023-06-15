@@ -1,6 +1,7 @@
 ---
 title: Composer
 category: app
+tags: php-runtime
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
 iconSlug: composer
 permalink: /composer
@@ -18,8 +19,8 @@ identifiers:
 releases:
 -   releaseCycle: "2.5"
     eol: false
-    latest: "2.5.5"
-    latestReleaseDate: 2023-03-21
+    latest: "2.5.8"
+    latestReleaseDate: 2023-06-09
     releaseDate: 2022-12-20
 
 -   releaseCycle: "2.4"

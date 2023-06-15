@@ -14,14 +14,15 @@ eolColumn: Critical bug fixes
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
 -   git: https://github.com/openzfs/zfs.git
-    regex: ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+    regex: 
+      ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
 releases:
 -   releaseCycle: "2.1"
     eol: 2023-07-02
     lts: true
-    latest: "2.1.11"
-    latestReleaseDate: 2023-04-19
+    latest: "2.1.12"
+    latestReleaseDate: 2023-06-06
     releaseDate: 2021-07-02
 
 -   releaseCycle: "2.0"

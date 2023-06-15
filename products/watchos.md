@@ -1,6 +1,7 @@
 ---
 title: Apple watchOS
 category: os
+tags: apple smartwatch
 iconSlug: apple
 permalink: /watchos
 releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
@@ -20,8 +21,8 @@ releases:
     releaseDate: 2022-09-12
     support: true
     eol: false
-    latestReleaseDate: 2023-03-27
-    latest: '9.4'
+    latestReleaseDate: 2023-05-30
+    latest: '9.5.1'
 
 -   releaseCycle: "8"
     releaseDate: 2021-09-20

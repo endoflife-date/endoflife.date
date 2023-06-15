@@ -1,6 +1,7 @@
 ---
 title: Telegraf
 category: server-app
+iconSlug: influxdb
 permalink: /telegraf
 versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
@@ -13,14 +14,20 @@ auto:
 -   git: https://github.com/influxdata/telegraf
 
 releases:
+-   releaseCycle: "1.27"
+    eol: false # releaseDate(1.29)
+    releaseDate: 2023-06-12
+    latest: "1.27.0"
+    latestReleaseDate: 2023-06-12
+
 -   releaseCycle: "1.26"
-    eol: false
+    eol: false # releaseDate(1.28)
     releaseDate: 2023-03-13
-    latest: "1.26.2"
-    latestReleaseDate: 2023-04-24
+    latest: "1.26.3"
+    latestReleaseDate: 2023-05-22
 
 -   releaseCycle: "1.25"
-    eol: false
+    eol: 2023-06-12
     releaseDate: 2022-12-12
     latest: "1.25.3"
     latestReleaseDate: 2023-02-27

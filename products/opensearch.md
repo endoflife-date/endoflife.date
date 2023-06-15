@@ -1,6 +1,7 @@
 ---
 title: OpenSearch
 category: db
+tags: amazon java-runtime
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
@@ -14,13 +15,13 @@ releases:
 -   releaseCycle: "2"
     eol: false
     releaseDate: 2022-05-18
-    latest: "2.7.0"
-    latestReleaseDate: 2023-04-25
+    latest: "2.8.0"
+    latestReleaseDate: 2023-06-02
 -   releaseCycle: "1"
     eol: 2023-12-31
     releaseDate: 2021-07-02
-    latest: "1.3.9"
-    latestReleaseDate: 2023-03-09
+    latest: "1.3.10"
+    latestReleaseDate: 2023-05-09
 
 ---
 
@@ -28,20 +29,22 @@ releases:
 > search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics,
 > data observability, data ingestion, and more.
 
-## Official Release schedule
+## [Planned Release schedule](https://opensearch.org/releases.html)
 
-Find below the next releases after `2.4.0` : 
-
-- [`2.4.0`](https://opensearch.org/blog/opensearch-2-4-is-available-today/) released on `2022-11-15`
-- `2.5.0` is planned for `2023-01-17`
-- `2.6.0` is planned for `2023-02-28`
-- `2.7.0` is planned for `2023-04-18`
-- `2.8.0` is planned for `2023-06-06`
-- `2.9.0` is planned for `2023-07-18``
+Release  | Release Date
+-------- | ------------
+ 2.8.0   | {{ "2023-06-06" | date_to_string }}
+ 1.3.11  | {{ "2023-06-29" | date_to_string }}
+ 2.9.0   | {{ "2023-07-18" | date_to_string }}
+ 1.3.12  | {{ "2023-08-10" | date_to_string }}
+ 2.10.0  | {{ "2023-08-29" | date_to_string }}
+ 1.3.13  | {{ "2023-09-21" | date_to_string }}
+ 2.11.0  | {{ "2023-10-17" | date_to_string }}
+ 1.3.14  | {{ "2023-11-16" | date_to_string }}
+ 2.23.0  | {{ "2023-12-07" | date_to_string }}
 
 For more information on the changes planned for each release, see:
 
-- [Official Release Schedule](https://opensearch.org/releases.html)
 - [Project Roadmap](https://github.com/orgs/opensearch-project/projects/1).
 - [Maintenance Policy](https://opensearch.org/releases.html#maintenance-policy)
 

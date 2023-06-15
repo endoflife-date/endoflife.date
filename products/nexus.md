@@ -1,6 +1,7 @@
 ---
 title: Nexus Repository OSS
 category: server-app
+tags: java-runtime
 # https://github.com/simple-icons/simple-icons/issues/7924
 permalink: /nexus
 alternate_urls:
@@ -20,8 +21,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.53.0"
-    latestReleaseDate: 2023-05-03
+    latest: "3.55.0"
+    latestReleaseDate: 2023-06-06
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"

@@ -1,6 +1,7 @@
 ---
 title: Zabbix
 category: server-app
+tags: php-runtime
 permalink: /zabbix
 versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
@@ -25,8 +26,8 @@ releases:
     releaseDate: 2023-03-06
     support: 2023-09-30
     eol: 2023-10-31
-    latest: "6.4.2"
-    latestReleaseDate: 2023-04-25
+    latest: "6.4.3"
+    latestReleaseDate: 2023-05-30
 
 -   releaseCycle: "6.2"
     support: 2023-01-31
@@ -39,8 +40,8 @@ releases:
     support: 2025-02-28
     eol: 2027-02-28
     lts: true
-    latest: "6.0.17"
-    latestReleaseDate: 2023-04-24
+    latest: "6.0.18"
+    latestReleaseDate: 2023-05-30
     releaseDate: 2022-02-14
 
 -   releaseCycle: "5.4"
@@ -53,16 +54,16 @@ releases:
     support: 2023-05-31
     eol: 2025-05-31
     lts: true
-    latest: "5.0.34"
-    latestReleaseDate: 2023-04-24
+    latest: "5.0.35"
+    latestReleaseDate: 2023-05-29
     releaseDate: 2020-05-11
 
 -   releaseCycle: "4.0"
     support: 2021-10-31
     eol: 2023-10-31
     lts: true
-    latest: "4.0.45"
-    latestReleaseDate: 2023-03-31
+    latest: "4.0.46"
+    latestReleaseDate: 2023-05-29
     releaseDate: 2018-10-01
 
 ---

@@ -1,6 +1,7 @@
 ---
 title: Alpine Linux
 category: os
+tags: linux-distribution
 iconSlug: alpinelinux
 permalink: /alpine
 alternate_urls:
@@ -19,7 +20,14 @@ auto:
 # upstream does not support filtering https://git.alpinelinux.org/aports
 -   git: https://github.com/alpinelinux/aports.git
 
+# eol(x) = releaseDate(x) + 2 years
 releases:
+-   releaseCycle: "3.18"
+    releaseDate: 2023-05-09
+    eol: 2025-05-09
+    latest: "3.18.0"
+    latestReleaseDate: 2023-05-09
+
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22

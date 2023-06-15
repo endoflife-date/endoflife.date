@@ -2,6 +2,7 @@
 title: Twig
 permalink: /twig
 category: framework
+tags: php-runtime
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
@@ -11,9 +12,9 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.6.0"
+    latest: "3.6.1"
     releaseDate: 2019-11-15
-    latestReleaseDate: 2023-05-03
+    latestReleaseDate: 2023-06-08
 -   releaseCycle: "2"
     eol: false
     latest: "2.15.5"

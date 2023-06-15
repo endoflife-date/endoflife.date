@@ -1,6 +1,7 @@
 ---
 title: Nuxt
 category: framework
+tags: javascript-runtime
 permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
@@ -16,15 +17,15 @@ releases:
     releaseDate: 2022-11-16
     support: true
     eol: false
-    latest: "3.4.3"
-    latestReleaseDate: 2023-04-28
+    latest: "3.5.3"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
     support: 2022-11-16
     eol: 2023-12-31
-    latest: "2.16.3"
-    latestReleaseDate: 2023-03-17
+    latest: "2.17.0"
+    latestReleaseDate: 2023-06-09
 
 ---
 

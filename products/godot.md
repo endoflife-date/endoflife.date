@@ -23,8 +23,8 @@ releases:
     releaseDate: 2023-03-01
     support: true
     eol: false
-    latest: "4.0.2"
-    latestReleaseDate: 2023-04-04
+    latest: "4.0.3"
+    latestReleaseDate: 2023-05-19
     link: https://godotengine.org/article/godot-4-0-sets-sail/
 
 -   releaseCycle: "3.5"
@@ -89,6 +89,7 @@ releases:
     releaseDate: 2014-12-15
     support: false
     eol: true
+    link: https://godotengine.org/article/godot-engine-reaches-1-0/
     latest: "1.0"
     latestReleaseDate: 2014-12-15
 

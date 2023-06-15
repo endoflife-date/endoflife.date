@@ -1,6 +1,7 @@
 ---
 title: Apple iOS
 category: os
+tags: apple
 iconSlug: apple
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
@@ -17,16 +18,16 @@ releases:
     support: true
     releaseDate: 2022-09-12
     eol: false
-    latestReleaseDate: 2023-04-07
-    latest: "16.4.1"
+    latestReleaseDate: 2023-05-18
+    latest: "16.5"
     link: https://support.apple.com/HT213407
 
 -   releaseCycle: "15"
     eol: false
     support: 2022-09-12
     releaseDate: 2021-09-20
-    latestReleaseDate: 2023-04-10
-    latest: "15.7.5"
+    latestReleaseDate: 2023-05-18
+    latest: "15.7.6"
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"

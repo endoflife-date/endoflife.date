@@ -1,6 +1,7 @@
 ---
 title: Red Hat Satellite
 category: server-app
+tags: red-hat
 iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:
@@ -15,12 +16,20 @@ activeSupportWarnThreshold: 30
 eolColumn: Maintenance support
 
 releases:
+-   releaseCycle: "6.13"
+    releaseDate: 2023-05-03
+    eol: 2024-11-30
+    support: 2023-11-30
+    latest: "6.13.0"
+    latestReleaseDate: 2023-05-03
+
 -   releaseCycle: "6.12"
     releaseDate: 2022-11-16
     eol: 2024-05-31
     support: 2023-05-31
-    latest: "6.12.2"
-    latestReleaseDate: 2023-02-08
+    latest: "6.12.4"
+    latestReleaseDate: 2023-04-27
+    link: https://access.redhat.com/errata/RHBA-2023:2052
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
@@ -28,6 +37,7 @@ releases:
     support: 2022-11-30
     latest: "6.11.5.2"
     latestReleaseDate: 2023-03-27
+    link: https://access.redhat.com/errata/RHBA-2023:1478
 
 -   releaseCycle: "6.10"
     releaseDate: 2021-11-16
@@ -35,6 +45,7 @@ releases:
     support: 2022-06-30
     latest: "6.10.7.2"
     latestReleaseDate: 2023-03-01
+    link: https://access.redhat.com/errata/RHBA-2023:1041
 
 -   releaseCycle: "6.9"
     releaseDate: 2021-04-21
@@ -42,6 +53,7 @@ releases:
     support: 2021-11-30
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17
+    link: https://access.redhat.com/errata/RHSA-2022:8532
 
 ---
 

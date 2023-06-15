@@ -1,6 +1,7 @@
 ---
 title: Vue
 category: framework
+tags: javascript-runtime
 iconSlug: vuedotjs
 permalink: /vue
 alternate_urls:
@@ -25,9 +26,9 @@ releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.2.47"
+    latest: "3.3.4"
     lts: false
-    latestReleaseDate: 2023-02-02
+    latestReleaseDate: 2023-05-18
     releaseDate: 2020-09-18
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 

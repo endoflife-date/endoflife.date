@@ -1,6 +1,7 @@
 ---
 title: Umbraco CMS
 category: server-app
+tags: dotnet-runtime
 iconSlug: umbraco
 permalink: /umbraco
 alternative_urls:
@@ -31,8 +32,8 @@ releases:
     releaseDate: 2022-11-29
     support: 2023-08-29
     eol: 2023-11-29
-    latest: '11.3.1'
-    latestReleaseDate: 2023-04-27
+    latest: '11.4.0'
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "10"
     lts: true

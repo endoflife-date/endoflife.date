@@ -1,6 +1,7 @@
 ---
 title: Nutanix Prism Central
 category: server-app
+tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-prism
 alternate_urls:

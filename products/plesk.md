@@ -1,6 +1,7 @@
 ---
 title: Plesk
 category: server-app
+tags: php-runtime
 iconSlug: plesk
 permalink: /plesk
 versionCommand: plesk version
@@ -9,17 +10,25 @@ changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#pl
 eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
+eolWarnThreshold: 21
 
 auto:
 -   custom: true
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+
+-   releaseCycle: "18.0.53"
+    releaseDate: 2023-06-06
+    eol: 2023-09-04
+    latest: "18.0.53.1"
+    latestReleaseDate: 2023-06-13
+
 -   releaseCycle: "18.0.52"
     releaseDate: 2023-04-25
     eol: 2023-07-18
-    latest: "18.0.52.2"
-    latestReleaseDate: 2023-05-03
+    latest: "18.0.52.3"
+    latestReleaseDate: 2023-05-17
 
 -   releaseCycle: "18.0.51"
     releaseDate: 2023-03-14

@@ -1,6 +1,7 @@
 ---
 title: TYPO3
 category: server-app
+tags: php-runtime
 permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
 changelogTemplate: https://get.typo3.org/release-notes/__LATEST__
@@ -27,8 +28,8 @@ releases:
     support: 2024-10-31
     extendedSupport: 2029-04-30
     releaseDate: 2022-10-04
-    latestReleaseDate: 2023-04-25
-    latest: '12.4.0'
+    latestReleaseDate: 2023-06-13
+    latest: '12.4.2'
 
 -   releaseCycle: "11"
     eol: 2024-10-31
@@ -36,8 +37,8 @@ releases:
     support: 2023-03-31
     extendedSupport: 2027-10-31
     releaseDate: 2020-12-22
-    latest: "11.5.26"
-    latestReleaseDate: 2023-04-11
+    latest: "11.5.28"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "10"
     eol: 2023-04-30

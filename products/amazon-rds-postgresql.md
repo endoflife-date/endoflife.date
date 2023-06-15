@@ -1,6 +1,7 @@
 ---
 title: Amazon RDS for PostgreSQL
 category: service
+tags: amazon managed-postgresql
 iconSlug: amazonaws
 permalink: /amazon-rds-postgresql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
@@ -13,32 +14,32 @@ releases:
 -   releaseCycle: "15"
     releaseDate: 2023-02-27
     eol: 2027-11-01
-    latest: "15.2"
-    latestReleaseDate: 2023-02-28
+    latest: "15.3"
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "14"
     releaseDate: 2022-01-27
     eol: 2026-11-01
-    latest: "14.7"
-    latestReleaseDate: 2023-03-07
+    latest: "14.8"
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "13"
     releaseDate: 2021-02-24
     eol: 2025-11-01
-    latest: "13.10"
-    latestReleaseDate: 2023-03-07
+    latest: "13.11"
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "12"
     releaseDate: 2020-03-31
     eol: 2024-11-01
-    latest: "12.14"
-    latestReleaseDate: 2023-03-07
+    latest: "12.15"
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "11"
     releaseDate: 2019-03-13
     eol: 2023-11-01
-    latest: "11.19"
-    latestReleaseDate: 2023-03-07
+    latest: "11.20"
+    latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "10"
     releaseDate: 2018-02-27

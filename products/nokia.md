@@ -5,19 +5,40 @@ alternate_urls:
 -   /hmd
 -   /nokiamobile
 category: device
+tags: mobile-phone
 iconSlug: nokia
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
 releases:
+-   releaseCycle: "Nokia XR21"
+    releaseDate: 2023-05-24
+    eol: false
+    link: https://www.nokia.com/phones/en_int/nokia-xr-21
+-   releaseCycle: "Nokia C32"
+    releaseDate: 2023-02-25
+    eol: 2025-02-25
+    link: https://www.nokia.com/phones/en_int/nokia-c-32
+-   releaseCycle: "Nokia G22"
+    releaseDate: 2023-02-17
+    eol: 2026-04-01
+    link: https://www.nokia.com/phones/en_int/nokia-g-22
+-   releaseCycle: "Nokia G60 5G"
+    releaseDate: 2022-08-05
+    eol: 2025-12-01
+    link: https://www.nokia.com/phones/en_int/nokia-g-60
+-   releaseCycle: "Nokia X30 5G"
+    releaseDate: 2022-09-01
+    eol: 2026-01-01
+    link: https://www.nokia.com/phones/en_int/nokia-x-30
 -   releaseCycle: "Nokia C21"
     releaseDate: 2022-05-03
-    eol: false
+    eol: 2024-06-01
     link: https://www.nokia.com/phones/en_int/nokia-c-21
 -   releaseCycle: "Nokia C21 Plus"
     releaseDate: 2022-04-29
-    eol: false
+    eol: 2024-06-01
     link: https://www.nokia.com/phones/en_int/nokia-c-21-plus
 -   releaseCycle: "Nokia C2 2nd Edition"
     releaseDate: 2022-04-19

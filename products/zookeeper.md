@@ -1,6 +1,7 @@
 ---
 title: Apache ZooKeeper
 category: server-app
+tags: apache java-runtime
 permalink: /zookeeper
 alternate_urls:
 -   /apache_zookeeper

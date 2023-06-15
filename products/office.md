@@ -1,6 +1,7 @@
 ---
 title: Microsoft Office
 category: app
+tags: microsoft
 iconSlug: microsoftoffice
 permalink: /office
 alternate_urls:

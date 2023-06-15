@@ -1,13 +1,14 @@
 ---
 title: Red Hat Enterprise Linux
 category: os
+tags: red-hat
 iconSlug: redhat
 permalink: /rhel
 alternate_urls:
 -   /redhat
 -   /redhatlinux
 versionCommand: cat /etc/redhat-release
-changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/overview
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 activeSupportColumn: Full Support
@@ -24,19 +25,19 @@ releases:
     support: 2027-05-31
     eol: 2032-05-31
     extendedSupport: 2034-05-31
-    latest: "9.1"
+    latest: "9.2"
     releaseDate: 2022-05-17
     lts: 2032-05-31
-    latestReleaseDate: 2022-11-15
+    latestReleaseDate: 2023-05-10
 
 -   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
     extendedSupport: 2031-05-31
-    latest: "8.7"
+    latest: "8.8"
     releaseDate: 2019-05-07
     lts: 2029-05-31
-    latestReleaseDate: 2022-11-09
+    latestReleaseDate: 2023-05-16
 
 -   releaseCycle: "7"
     support: 2019-12-31

@@ -1,6 +1,7 @@
 ---
 title: Google Pixel
 category: device
+tags: google mobile-phone
 iconSlug: google
 permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"
@@ -12,6 +13,13 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
+-   releaseCycle: "Pixel 7a"
+    releaseDate: 2023-05-10
+    support: 2026-05-10
+    eol: 2028-05-10
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_7a
+
 -   releaseCycle: "Pixel 7 Pro"
     releaseDate: 2022-10-13
     support: 2025-10-12

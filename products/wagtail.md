@@ -1,6 +1,7 @@
 ---
 title: Wagtail
 category: framework
+tags: python-runtime
 iconSlug: wagtail
 permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
@@ -16,21 +17,30 @@ identifiers:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
 
+# See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
+-   releaseCycle: "5.0"
+    lts: false
+    releaseDate: 2023-05-02
+    support: 2023-08-01
+    eol: 2023-11-01
+    latest: "5.0.1"
+    latestReleaseDate: 2023-05-25
+
 -   releaseCycle: "4.2"
     support: 2023-05-02
     lts: false
     eol: 2023-08-01
-    latest: "4.2.3"
-    latestReleaseDate: 2023-05-02
+    latest: "4.2.4"
+    latestReleaseDate: 2023-05-25
     releaseDate: 2023-02-06
 
 -   releaseCycle: "4.1"
     support: 2024-02-01
     lts: true
     eol: 2024-02-01
-    latest: "4.1.5"
-    latestReleaseDate: 2023-05-02
+    latest: "4.1.6"
+    latestReleaseDate: 2023-05-25
     releaseDate: 2022-11-01
 
 -   releaseCycle: "4.0"

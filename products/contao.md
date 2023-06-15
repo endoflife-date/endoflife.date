@@ -4,7 +4,7 @@ category: server-app
 iconSlug: contao
 permalink: /contao
 releasePolicyLink: https://contao.org/release-plan.html
-changelogTemplate: "https://github.com/contao/contao/blob/__RELEASE_CYCLE__/CHANGELOG.md"
+changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
 releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
@@ -17,8 +17,8 @@ releases:
     releaseDate: 2023-02-16
     support: 2023-08-14
     eol: 2023-08-14
-    latest: "5.1.6"
-    latestReleaseDate: 2023-05-03
+    latest: "5.1.7"
+    latestReleaseDate: 2023-05-25
     lts: false
 
 -   releaseCycle: "5.0"
@@ -33,8 +33,8 @@ releases:
     releaseDate: 2022-02-17
     support: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.23"
-    latestReleaseDate: 2023-05-03
+    latest: "4.13.24"
+    latestReleaseDate: 2023-05-25
     lts: true
 
 -   releaseCycle: "4.12"
@@ -81,6 +81,7 @@ releases:
     releaseDate: 2015-06-05
     support: 2018-06-30
     eol: 2019-05-31
+    link:
     latest: "3.5.40"
     latestReleaseDate: 2019-04-11
     lts: true

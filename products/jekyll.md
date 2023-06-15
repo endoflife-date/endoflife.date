@@ -1,6 +1,7 @@
 ---
 title: Jekyll
 category: app
+tags: ruby-runtime
 iconSlug: jekyll
 permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
