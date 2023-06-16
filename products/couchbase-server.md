@@ -26,28 +26,28 @@ auto:
 # We use the "End of Full Maintenance" date on the last day of the month.
 releases:
 -   releaseCycle: "7.2"
-    releaseDate: 2023-05-24
+    releaseDate: 2023-06-16
     eol: 2024-01-31 # Still to be confirmed on https://www.couchbase.com/support-policy/enterprise-software/
     latest: "7.2.0"
-    latestReleaseDate: 2023-05-24
+    latestReleaseDate: 2023-06-16
 
 -   releaseCycle: "7.1"
     releaseDate: 2022-06-07
     eol: 2023-12-31
     latest: "7.1.4"
-    latestReleaseDate: 2023-04-18
+    latestReleaseDate: 2023-06-16
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-08-31
     eol: 2023-01-31
     latest: "7.0.5"
-    latestReleaseDate: 2023-04-18
+    latestReleaseDate: 2023-06-16
 
 -   releaseCycle: "6.6"
     releaseDate: 2021-07-26
     eol: 2023-01-31
     latest: "6.6.6"
-    latestReleaseDate: 2023-04-18
+    latestReleaseDate: 2023-06-16
 
 -   releaseCycle: "6.5"
     releaseDate: 2021-07-26
