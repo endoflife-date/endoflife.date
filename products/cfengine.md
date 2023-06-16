@@ -4,7 +4,7 @@ category: app
 permalink: /cfengine
 versionCommand: cf-agent --version
 releasePolicyLink: https://cfengine.com
-changelogTemplate: 
+changelogTemplate:
   https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 releaseDateColumn: true
 eolColumn: Supported
@@ -17,11 +17,20 @@ auto:
 -   git: https://github.com/cfengine/core.git
 
 releases:
+-   releaseCycle: "3.22"
+    releaseDate: 2023-06-16
+    eol: true
+    lts: false
+    link:
+      https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
+    latest: "3.22.0"
+    latestReleaseDate: 2023-06-16
+
 -   releaseCycle: "3.21"
     releaseDate: 2022-12-21
     eol: 2025-12-21
     lts: true
-    link: 
+    link:
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
     latest: "3.21.2"
     latestReleaseDate: 2023-06-09
