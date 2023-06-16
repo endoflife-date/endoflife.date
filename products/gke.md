@@ -21,6 +21,13 @@ auto:
 # releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
 # support: last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.27"
+    eol: 2024-08-31
+    support: 2024-06-30
+    releaseDate: 2023-06-14
+    latestReleaseDate: 2023-06-15
+    latest: '1.27.2-gke.1200'
+
 -   releaseCycle: "1.26"
     eol: 2024-05-31
     support: 2024-03-31
