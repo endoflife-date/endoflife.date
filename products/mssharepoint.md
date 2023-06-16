@@ -18,7 +18,7 @@ releases:
     eol: false
     latest: "16.0.16130.20548"
     latestReleaseDate: 2023-06-13
-    link: https://support.microsoft.com/help/5002355
+    link: https://support.microsoft.com/help/5002416
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
