@@ -103,17 +103,18 @@ and experimental features) and _Scala LTS_ (only bug fixes, non-language changes
 quality-of-life enhancements). LTS releases will be released every two years and each LTS
 release will be supported for at least three years.
 
-## Version compatibility table
+## [JDK Compatibility](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
 
 Scala’s primary platform is the Java Virtual Machine (JVM).
 
 | JDK version | Minimum Scala versions         |
 |-------------|--------------------------------|
+| 21 (ea)     | 3.3.1, 2.13.11, 2.12.18        |
+| 20          | 3.3.0, 2.13.11, 2.12.18        |
 | 19          | 3.2.0, 2.13.9, 2.12.16         |
 | 18          | 3.1.3, 2.13.7, 2.12.15         |
 | 17 (LTS)    | 3.0.0, 2.13.6, 2.12.15         |
 | 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
 | 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
 
-Using the latest patch version is always recommended. Details are documented on the
-[Scala JDK Compatibility page](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html).
+Using the latest patch version is always recommended.
