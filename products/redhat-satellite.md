@@ -15,6 +15,9 @@ activeSupportColumn: Full support
 activeSupportWarnThreshold: 30
 eolColumn: Maintenance support
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
