@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "1.27"
     eol: 2024-08-31
     support: 2024-06-30
-    releaseDate: 2023-06-14
+    releaseDate: 2023-06-15
     latestReleaseDate: 2023-06-15
     latest: '1.27.2-gke.1200'
 
