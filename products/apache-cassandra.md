@@ -55,7 +55,7 @@ Cassandra follows [SemVer](https://semver.org/). These are the rough heuristics 
 * Minor versions contain new features and improvements, and are always compatible with all minor versions in the same and adjacent (next-to-next) major versions.
 * Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version.  Deprecated APIs may then be removed in the next-next Major version. 
 
-As an always-on technology during major upgrades, Cassandra maintains compatbility across adjacent major versions.  Cassandra does not break API compatabilities without a deprecated grace period demarcated by major versions.  Upgrades without downtime are supported from any major version to the next major version.  Cassandra does not support upgrades that skip a major version, e.g. an upgrade from a 3.x version to a 5.x version is not supported.  Only upgrades stepping through each major version (3.x -> 4.x -> 5.x) are supported.
+As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent major versions. Cassandra does not break API compatabilities without a deprecated grace period demarcated by major versions. Upgrades without downtime are supported from any major version to the next major version. Upgrades that skip a major version are not supported. For e.g. an upgrade from a 3.x version to a 5.x version is not supported. Only upgrades stepping through each major version (3.x -> 4.x -> 5.x) are supported.
 
 ## Release Cadence
 
