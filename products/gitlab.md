@@ -9,7 +9,9 @@ releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true
 activeSupportColumn: true
+activeSupportWarnThreshold: 20
 eolColumn: Maintenance Support
+eolWarnThreshold: 60
 
 auto:
 # Reference: https://rubular.com/r/mFfxB8FgXXERX4
