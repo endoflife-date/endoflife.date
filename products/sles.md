@@ -18,9 +18,14 @@ identifiers:
 -   cpe: cpe:/o:suse:sles
 -   cpe: cpe:2.3:o:suse:sles
 releases:
+-   releaseCycle: "15.5"
+    support: true
+    eol: true
+    latest: "15.5"
+    releaseDate: 2023-06-20
 -   releaseCycle: "15.4"
-    support: false
-    eol: false
+    support: 2023-12-31
+    eol: 2026-12-31
     latest: "15.4"
     releaseDate: 2022-06-21
 -   releaseCycle: "15.3"
