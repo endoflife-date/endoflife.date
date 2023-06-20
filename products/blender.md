@@ -4,7 +4,8 @@ category: app
 iconSlug: blender
 permalink: /blender
 releasePolicyLink: https://www.blender.org
-releaseImage: https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
+releaseImage: 
+  https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
 releaseColumn: true
@@ -36,8 +37,8 @@ releases:
     releaseDate: 2022-09-07
     support: 2024-09-01
     eol: 2024-09-01
-    latest: "3.3.7"
-    latestReleaseDate: 2023-05-23
+    latest: "3.3.8"
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-06-08

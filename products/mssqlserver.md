@@ -18,25 +18,25 @@ extendedSupportColumn: Extended Security Updates
 releases:
 -   releaseCycle: "2022"
     codename: Dallas
-    releaseLabel: "2022 CU4"
+    releaseLabel: "2022 CU5"
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.4035.4"
-    latestReleaseDate: 2023-05-11
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate4
+    latest: "16.0.4045.3"
+    latestReleaseDate: 2023-06-15
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate5
 
 -   releaseCycle: "2019"
     codename: Seattle
-    releaseLabel: "2019 CU20"
+    releaseLabel: "2019 CU21"
     releaseDate: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4312.2"
-    latestReleaseDate: 2023-04-13
-    link: https://support.microsoft.com/help/5024276
+    latest: "15.0.4316.3"
+    latestReleaseDate: 2023-06-15
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate21
 
 -   releaseCycle: "2017"
     codename: Helsinki
@@ -78,9 +78,9 @@ releases:
     support: 2017-07-11
     eol: 2022-07-12
     extendedSupport: 2025-07-08
-    latest: "11.0.7507.2"
-    latestReleaseDate: 2021-01-12
-    link: https://support.microsoft.com/help/4583465
+    latest: "11.0.7512.11"
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5021123
 
 -   releaseCycle: "2008 R2"
     codename: Kilimanjaro
@@ -89,9 +89,9 @@ releases:
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
-    latest: "10.50.6560.0"
-    latestReleaseDate: 2018-01-06
-    link: https://support.microsoft.com/help/4057113
+    latest: "10.50.6785.2"
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5021112
 
 -   releaseCycle: "2008"
     codename: Katmai
@@ -100,9 +100,9 @@ releases:
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
-    latest: "10.0.6556.0"
-    latestReleaseDate: 2018-01-06
-    link: https://support.microsoft.com/help/4057114
+    latest: "10.0.6814.4"
+    latestReleaseDate: 2023-02-14
+    link: https://support.microsoft.com/help/5020863
 
 -   releaseCycle: "2005"
     codename: Yukon
@@ -135,7 +135,6 @@ releases:
     extendedSupport: false
     latest: "7.0.1152"
     latestReleaseDate: 2012-05-09
-    # Original KB941203 but 404 in the meantime: https://support.microsoft.com/help/948113
     link: https://support.microsoft.com/help/941203
 
 -   releaseCycle: "6.5"

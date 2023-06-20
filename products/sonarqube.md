@@ -23,8 +23,8 @@ releases:
     support: true
     eol: false
     lts: false
-    latest: "10.0.0"
-    latestReleaseDate: 2023-03-30
+    latest: "10.1.0"
+    latestReleaseDate: 2023-06-19
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"
