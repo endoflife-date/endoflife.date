@@ -22,8 +22,8 @@ releases:
     releaseDate: "2023-06-01"
     eol: "2027-06-01"
     technicalGuidance: "2028-06-01"
-    latest: "2023-06-01"
-    latestReleaseDate:
+    latest: "5.0"
+    latestReleaseDate: "2023-06-01"
     link: "https://docs.vmware.com/en/VMware-Cloud-Foundation/5.0/rn/vmware-cloud-foundation-50-release-notes/index.html"
 
 releases:
