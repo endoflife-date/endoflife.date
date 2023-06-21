@@ -15,8 +15,8 @@ eolColumn: Guaranteed Security Updates
 releases:
 -   releaseCycle: "Pixel 7a"
     releaseDate: 2023-05-10
-    support: 2026-05-10
-    eol: 2028-05-10
+    support: 2026-05-08
+    eol: 2028-05-07
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7a
 
