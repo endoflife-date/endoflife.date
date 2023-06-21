@@ -1,6 +1,7 @@
 ---
 title: Red Hat OpenShift
 category: server-app
+tags: red-hat
 iconSlug: redhatopenshift
 permalink: /red-hat-openshift
 alternate_urls:

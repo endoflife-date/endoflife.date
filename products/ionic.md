@@ -1,6 +1,7 @@
 ---
 title: Ionic Framework
 category: framework
+tags: javascript-runtime
 iconSlug: ionic
 permalink: /ionic
 alternate_urls:
@@ -23,8 +24,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "7.0.12"
-    latestReleaseDate: 2023-06-08
+    latest: "7.0.14"
+    latestReleaseDate: 2023-06-15
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08

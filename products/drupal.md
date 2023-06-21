@@ -1,6 +1,7 @@
 ---
 title: Drupal
 category: server-app
+tags: php-runtime
 iconSlug: drupal
 permalink: /drupal
 versionCommand: drush status

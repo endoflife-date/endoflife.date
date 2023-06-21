@@ -5,6 +5,7 @@ iconSlug: emberdotjs
 alternate_urls:
 -   /ember
 category: framework
+tags: javascript-runtime
 releasePolicyLink: https://emberjs.com/releases/
 changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 activeSupportColumn: true
@@ -20,16 +21,16 @@ releases:
     releaseDate: 2023-04-03
     support: true
     eol: false
-    latest: "4.12.0"
-    latestReleaseDate: 2023-04-03
+    latest: "4.12.1"
+    latestReleaseDate: 2023-06-12
 
 -   releaseCycle: "4.8"
     lts: 2022-11-28
     releaseDate: 2022-10-17
     support: 2023-08-07
     eol: 2023-12-11
-    latest: "4.8.5"
-    latestReleaseDate: 2023-05-04
+    latest: "4.8.6"
+    latestReleaseDate: 2023-06-12
 
 -   releaseCycle: "4.4"
     lts: 2022-07-13

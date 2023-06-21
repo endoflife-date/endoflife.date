@@ -1,6 +1,7 @@
 ---
 title: Amazon Kindle
 category: device
+tags: amazon e-reader
 iconSlug: amazon
 permalink: /kindle
 alternate_urls:

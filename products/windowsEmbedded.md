@@ -1,6 +1,7 @@
 ---
 title: Microsoft Windows Embedded
 category: os
+tags: microsoft windows
 iconSlug: windows
 permalink: /windows-embedded
 alternate_urls:

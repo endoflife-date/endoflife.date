@@ -1,6 +1,7 @@
 ---
 title: API Platform
 category: framework
+tags: php-runtime
 permalink: /api-platform
 versionCommand: composer show api-platform/core | grep versions
 releasePolicyLink: https://api-platform.com/docs/extra/releases/

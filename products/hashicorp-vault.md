@@ -1,6 +1,7 @@
 ---
 title: Hashicorp Vault
 category: server-app
+tags: hashicorp
 iconSlug: vault
 permalink: /hashicorp-vault
 alternate_urls:

@@ -1,6 +1,7 @@
 ---
 title: Grails Framework
 category: framework
+tags: java-runtime
 permalink: /grails
 alternate_urls:
 -   /grails-framework

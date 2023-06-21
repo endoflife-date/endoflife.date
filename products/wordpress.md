@@ -1,6 +1,7 @@
 ---
 title: WordPress
 category: server-app
+tags: php-runtime
 iconSlug: wordpress
 permalink: /wordpress
 versionCommand: wp core version

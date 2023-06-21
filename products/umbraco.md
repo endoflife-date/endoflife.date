@@ -1,6 +1,7 @@
 ---
 title: Umbraco CMS
 category: server-app
+tags: dotnet-runtime
 iconSlug: umbraco
 permalink: /umbraco
 alternative_urls:

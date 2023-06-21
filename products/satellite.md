@@ -1,6 +1,7 @@
 ---
 title: Red Hat Satellite
 category: server-app
+tags: red-hat
 iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:

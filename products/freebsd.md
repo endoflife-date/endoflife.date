@@ -1,6 +1,7 @@
 ---
 title: FreeBSD
 category: os
+tags: bsd-distribution
 iconSlug: freebsd
 permalink: /freebsd
 versionCommand: freebsd-version

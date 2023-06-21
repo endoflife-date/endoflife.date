@@ -1,6 +1,7 @@
 ---
 title: Micronaut Framework
 category: framework
+tags: java-runtime
 permalink: /micronaut
 alternate_urls:
 -   /micronaut-framework

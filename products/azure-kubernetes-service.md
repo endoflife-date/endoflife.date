@@ -1,6 +1,7 @@
 ---
 title: Azure Kubernetes Service
 category: service
+tags: managed-kubernetes microsoft
 iconSlug: microsoftazure
 permalink: /azure-kubernetes-service
 alternate_urls:

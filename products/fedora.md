@@ -1,6 +1,7 @@
 ---
 title: Fedora Linux
 category: os
+tags: linux-distribution
 iconSlug: fedora
 permalink: /fedora
 versionCommand: cat /etc/fedora-release

@@ -1,6 +1,7 @@
 ---
 title: Go
 category: lang
+tags: google
 iconSlug: go
 permalink: /go
 alternate_urls:

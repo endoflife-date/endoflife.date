@@ -1,6 +1,7 @@
 ---
 title: VMware Photon
 category: os
+tags: vmware
 iconSlug: vmware
 permalink: /photon
 alternate_urls:

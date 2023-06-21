@@ -1,6 +1,7 @@
 ---
 title: Elastic Beats
 category: server-app
+tags: elastic
 iconSlug: beats
 permalink: /beats
 alternate_urls:

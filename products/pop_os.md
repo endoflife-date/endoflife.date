@@ -1,6 +1,7 @@
 ---
 title: Pop!_OS
 category: os
+tags: linux-distribution
 iconSlug: popos
 permalink: /pop_os
 alternate_urls:

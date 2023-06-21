@@ -1,6 +1,7 @@
 ---
 title: Microsoft .NET
 category: framework
+tags: microsoft
 iconSlug: dotnet
 permalink: /dotnet
 alternate_urls:
@@ -9,7 +10,8 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
+changelogTemplate: 
+  https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
 
@@ -25,15 +27,15 @@ releases:
     lts: false
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.5"
-    latestReleaseDate: 2023-04-11
+    latest: "7.0.7"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "6.0"
     lts: true
     releaseDate: 2021-11-08
     eol: 2024-11-12
-    latest: "6.0.16"
-    latestReleaseDate: 2023-04-11
+    latest: "6.0.18"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "5.0"
     lts: false

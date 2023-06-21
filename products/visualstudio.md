@@ -1,6 +1,7 @@
 ---
 title: Microsoft Visual Studio
 category: app
+tags: microsoft
 iconSlug: visualstudio
 permalink: /visual-studio
 alternate_urls:
@@ -20,8 +21,8 @@ releases:
     lts: lts
     eol: 2025-01-09
     releaseDate: 2023-05-16
-    latest: "17.6.2"
-    latestReleaseDate: 2023-05-25
+    latest: "17.6.3"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -36,8 +37,8 @@ releases:
     lts: true
     eol: 2024-07-11
     releaseDate: 2022-11-08
-    latest: "17.4.7"
-    latestReleaseDate: 2023-04-11
+    latest: "17.4.8"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "17.3"
     codename: "2022"
@@ -52,8 +53,8 @@ releases:
     lts: true
     eol: 2024-01-09
     releaseDate: 2022-05-10
-    latest: "17.2.15"
-    latestReleaseDate: 2022-04-11
+    latest: "17.2.16"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "17.1"
     codename: "2022"
@@ -68,15 +69,15 @@ releases:
     lts: true
     eol: 2023-07-11
     releaseDate: 2021-11-08
-    latest: "17.0.21"
-    latestReleaseDate: 2023-04-11
+    latest: "17.0.22"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "16.11"
     codename: "2019"
     eol: 2029-04-10
     releaseDate: 2021-08-10
-    latest: "16.11.26"
-    latestReleaseDate: 2023-04-11
+    latest: "16.11.27"
+    latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "16.10"
     codename: "2019"
@@ -159,9 +160,9 @@ releases:
     codename: "2017"
     eol: 2027-04-13
     releaseDate: 2018-11-13
-    latest: "15.9.54"
-    latestReleaseDate: 2023-04-11
-    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.54
+    latest: "15.9.55"
+    latestReleaseDate: 2023-06-13
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.55
 
 -   releaseCycle: "15.8"
     codename: "2017"

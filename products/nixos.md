@@ -1,6 +1,7 @@
 ---
 title: NixOS
 category: os
+tags: linux-distribution
 iconSlug: nixos
 permalink: /nixos
 alternate_urls:

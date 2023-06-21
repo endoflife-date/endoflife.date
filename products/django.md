@@ -1,6 +1,7 @@
 ---
 title: Django
 category: framework
+tags: python-runtime
 iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"

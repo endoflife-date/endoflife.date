@@ -1,6 +1,7 @@
 ---
 title: Electron
 category: framework
+tags: javascript-runtime
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version
@@ -26,28 +27,28 @@ releases:
     # 2023-05-30 + 6 months
     eol: 2023-11-30
     releaseDate: 2023-05-29
-    latestReleaseDate: 2023-06-07
-    latest: "25.1.0"
+    latestReleaseDate: 2023-06-14
+    latest: "25.1.1"
 
 -   releaseCycle: "24"
     # 2023-04-05 + 6 months
     eol: 2023-10-05
     releaseDate: 2023-04-04
-    latestReleaseDate: 2023-06-08
-    latest: "24.5.0"
+    latestReleaseDate: 2023-06-14
+    latest: "24.5.1"
 
 -   releaseCycle: "23"
     # 2023-02-06 + 6 months
     eol: 2023-08-06
     releaseDate: 2023-02-07
-    latestReleaseDate: 2023-06-08
-    latest: "23.3.6"
+    latestReleaseDate: 2023-06-14
+    latest: "23.3.7"
 
 -   releaseCycle: "22"
     eol: 2023-05-29
     releaseDate: 2022-11-30
-    latestReleaseDate: 2023-05-31
-    latest: "22.3.12"
+    latestReleaseDate: 2023-06-14
+    latest: "22.3.13"
 
 -   releaseCycle: "21"
     eol: 2023-04-04

@@ -1,6 +1,7 @@
 ---
 title: VMware Site Recovery Manager
 category: server-app
+tags: vmware
 iconSlug: vmware
 permalink: /vmware-srm
 alternate_urls:

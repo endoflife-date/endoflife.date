@@ -3,6 +3,7 @@ title: Redmine
 permalink: /redmine
 releasePolicyLink: https://www.redmine.org/projects/redmine/news
 category: server-app
+tags: ruby-runtime
 activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true

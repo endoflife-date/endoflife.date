@@ -54,6 +54,23 @@ title: Timeturner
 # - server-app is for applications usually installed on the server-side.
 category: os
 
+# Tags of the product (optional).
+#
+# Tags :
+# - must match [a-z0-9\-]+,
+# - must be declared with a space-separated string,
+# - must be alphabetically ordered,
+# - must use singular (for example web-server, not web-servers),
+# - should be used at least twice,
+# - must be added for one of the following reasons :
+#   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
+#   - set a product vendor such as adobe, amazon or apache,
+#   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
+#
+# Remember that no tag is better than useless tag. Also note that categories are automatically tags, but don't
+# use another category as a tag.
+tags: amazon linux
+
 # Simple Icons (https://simpleicons.org/) icon slug (optional).
 # Remove this property if the icon is not available on Simple Icons.
 # As an example, https://simpleicons.org/?q=codemagic links to https://simpleicons.org/icons/codemagic.svg ,

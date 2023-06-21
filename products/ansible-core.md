@@ -10,6 +10,7 @@ activeSupportColumn: false
 eolColumn: Supported
 iconSlug: ansible
 category: framework
+tags: python-runtime red-hat
 auto:
 -   git: https://github.com/ansible/ansible.git
 releases:

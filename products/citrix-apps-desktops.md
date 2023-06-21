@@ -1,6 +1,7 @@
 ---
 title: Citrix Virtual Apps and Desktops
 category: app
+tags: citrix
 iconSlug: citrix
 permalink: /citrix-vad
 alternate_urls:

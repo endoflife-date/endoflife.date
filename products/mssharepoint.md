@@ -1,6 +1,7 @@
 ---
 title: Microsoft SharePoint
 category: server-app
+tags: microsoft
 iconSlug: microsoftsharepoint
 permalink: /sharepoint
 alternate_urls:
@@ -15,34 +16,34 @@ releases:
     releaseDate: 2021-11-02
     support: true
     eol: false
-    latest: "16.0.16130.20206"
-    latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002355
+    latest: "16.0.16130.20548"
+    latestReleaseDate: 2023-06-13
+    link: https://support.microsoft.com/help/5002416
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2026-07-14
-    latest: "16.0.10396.20000"
-    latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002358
+    latest: "16.0.10399.20005"
+    latestReleaseDate: 2023-06-13
+    link: https://support.microsoft.com/help/5002402
 
 -   releaseCycle: "2016"
     releaseDate: 2016-05-01
     support: 2021-07-13
     eol: 2026-07-14
-    latest: "16.0.5387.1000"
-    latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002368
+    latest: "16.0.5400.1001"
+    latestReleaseDate: 2023-06-13
+    link: https://support.microsoft.com/help/5002404
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
     releaseDate: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
-    latest: "15.0.5537.1000"
-    latestReleaseDate: 2023-03-14
-    link: https://support.microsoft.com/help/5002168
+    latest: "15.0.5545.1000"
+    latestReleaseDate: 2023-04-11
+    link: https://support.microsoft.com/help/5002379
 
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"

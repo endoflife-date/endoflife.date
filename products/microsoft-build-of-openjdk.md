@@ -1,6 +1,7 @@
 ---
 title: Microsoft Build of OpenJDK
 category: lang
+tags: java-distribution microsoft
 iconSlug: openjdk
 permalink: /microsoft-build-of-openjdk
 versionCommand: java -version

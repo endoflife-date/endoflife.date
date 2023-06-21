@@ -1,6 +1,7 @@
 ---
 title: Azul Zulu
 category: lang
+tags: azul java-distribution
 iconSlug: openjdk
 permalink: /azul-zulu
 alternate_urls:

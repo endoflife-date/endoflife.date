@@ -1,6 +1,7 @@
 ---
 title: Angular
 category: framework
+tags: google javascript-runtime
 iconSlug: angular
 permalink: /angular
 versionCommand: ng version
@@ -23,14 +24,15 @@ releases:
     releaseDate: 2023-05-03
     support: 2023-11-03
     eol: 2024-11-08
-    latest: "16.0.5"
-    latestReleaseDate: 2023-06-08
+    latest: "16.1.1"
+    latestReleaseDate: 2023-06-14
 
 -   releaseCycle: "15"
     support: 2023-05-03
     eol: 2024-05-18
     latest: "15.2.9"
     releaseDate: 2022-11-16
+    lts: 2023-05-03
     latestReleaseDate: 2023-05-03
 
 -   releaseCycle: "14"

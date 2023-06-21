@@ -1,6 +1,7 @@
 ---
 title: Magento
 category: server-app
+tags: php-runtime
 iconSlug: magento
 permalink: /magento
 alternate_urls:

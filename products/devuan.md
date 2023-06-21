@@ -3,6 +3,7 @@ permalink: /devuan
 title: Devuan
 versionCommand: cat /etc/os-release
 category: os
+tags: linux-distribution
 releasePolicyLink: https://www.devuan.org/os/releases
 activeSupportColumn: false
 releaseColumn: true

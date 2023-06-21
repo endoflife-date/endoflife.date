@@ -1,6 +1,7 @@
 ---
 title: SUSE Linux Enterprise Server
 category: os
+tags: linux-distribution
 iconSlug: suse
 permalink: /sles
 alternate_urls:
@@ -9,7 +10,8 @@ alternate_urls:
 -   /suselinuxenterpriseserver
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__" | replace:'.','-SP'}}/
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{"__LATEST__"
+  | replace:'.','-SP'}}/
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true

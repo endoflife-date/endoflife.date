@@ -1,6 +1,7 @@
 ---
 title: Nutanix Files
 category: server-app
+tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"

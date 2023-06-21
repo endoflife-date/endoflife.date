@@ -1,6 +1,7 @@
 ---
 title: Spring Boot
 category: framework
+tags: java-runtime vmware
 iconSlug: springboot
 permalink: /spring-boot
 alternate_urls:

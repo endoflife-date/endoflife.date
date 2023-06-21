@@ -1,6 +1,7 @@
 ---
 title: OpenWrt
 category: os
+tags: linux-distribution
 iconSlug: openwrt
 permalink: /openwrt
 alternate_urls:

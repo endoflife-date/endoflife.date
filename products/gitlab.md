@@ -1,6 +1,7 @@
 ---
 title: GitLab
 category: server-app
+tags: gitlab
 iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
@@ -8,7 +9,9 @@ releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true
 activeSupportColumn: true
+activeSupportWarnThreshold: 20
 eolColumn: Maintenance Support
+eolWarnThreshold: 60
 
 auto:
 # Reference: https://rubular.com/r/mFfxB8FgXXERX4
@@ -24,15 +27,15 @@ releases:
     releaseDate: 2023-05-18
     support: 2023-06-22
     eol: 2023-08-22
-    latest: "16.0.4"
-    latestReleaseDate: 2023-06-08
+    latest: "16.0.5"
+    latestReleaseDate: 2023-06-16
 
 -   releaseCycle: "15.11"
     releaseDate: 2023-04-21
     support: 2023-05-22
     eol: 2023-07-22
-    latest: "15.11.8"
-    latestReleaseDate: 2023-06-06
+    latest: "15.11.9"
+    latestReleaseDate: 2023-06-15
 
 -   releaseCycle: "15.10"
     releaseDate: 2023-03-21

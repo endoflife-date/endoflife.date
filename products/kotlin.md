@@ -1,6 +1,7 @@
 ---
 title: Kotlin
 category: lang
+tags: jetbrains
 iconSlug: kotlin
 permalink: /kotlin
 alternate_urls:

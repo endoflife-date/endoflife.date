@@ -1,6 +1,7 @@
 ---
 title: openSUSE
 category: os
+tags: linux-distribution
 iconSlug: opensuse
 permalink: /opensuse
 alternate_urls:

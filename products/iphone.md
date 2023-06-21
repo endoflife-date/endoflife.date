@@ -1,6 +1,7 @@
 ---
 title: Apple iPhone
 category: device
+tags: apple mobile-phone
 iconSlug: apple
 permalink: /iphone
 releasePolicyLink: https://wikipedia.org/wiki/List_of_iOS_and_iPadOS_devices#In_production_and_supported
