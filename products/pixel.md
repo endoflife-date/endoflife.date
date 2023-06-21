@@ -13,6 +13,12 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
+-   releaseCycle: "Pixel Tablet"
+    releaseDate: 2023-06-20
+    support: 2026-06-20
+    eol: 2028-06-20
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_Tablet
 -   releaseCycle: "Pixel 7a"
     releaseDate: 2023-05-10
     support: 2026-05-10
