@@ -14,14 +14,18 @@ auto:
 # EOL(R) = releaseDate(R)+2yr+1day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+-   releaseCycle: "1.25"
+    releaseDate: 2023-06-17
+    eol: 2025-06-18
+    latest: "1.25.0"
+    latestReleaseDate: 2023-06-17
+
 -   releaseCycle: "1.24"
     releaseDate: 2022-12-18
     latest: "1.24.3"
     eol: 2024-12-19
-    # https://numpy.org/doc/stable/release/1.24.3-notes.html returns a 404
-    link: https://numpy.org/doc/stable/release/1.24.0-notes.html
-
     latestReleaseDate: 2023-04-22
+
 -   releaseCycle: "1.23"
     releaseDate: 2022-06-22
     latest: "1.23.5"
@@ -96,6 +100,7 @@ All minor versions of Python released 42 months prior, and at minimum the two la
 
 NumPy | Python
 ------|-------
+1.25  | 3.9+
 1.24  | 3.8+
 1.23  | 3.8+
 1.22  | 3.8+
