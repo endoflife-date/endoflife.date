@@ -20,14 +20,7 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7a
 
--   releaseCycle: "Pixel 7 Pro"
-    releaseDate: 2022-10-13
-    support: 2025-10-12
-    eol: 2027-10-12
-    discontinued: false
-    link: https://en.wikipedia.org/wiki/Pixel_7
-
--   releaseCycle: "Pixel 7"
+-   releaseCycle: "Pixel 7 / Pro"
     releaseDate: 2022-10-13
     support: 2025-10-12
     eol: 2027-10-12
@@ -41,14 +34,7 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6a
 
--   releaseCycle: "Pixel 6 Pro"
-    releaseDate: 2021-10-28
-    support: 2024-10-27
-    eol: 2026-10-27
-    discontinued: false
-    link: https://en.wikipedia.org/wiki/Pixel_6
-
--   releaseCycle: "Pixel 6"
+-   releaseCycle: "Pixel 6 / Pro"
     releaseDate: 2021-10-28
     support: 2024-10-27
     eol: 2026-10-27
