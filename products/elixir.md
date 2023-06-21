@@ -14,15 +14,15 @@ auto:
 
 releases:
 -   releaseCycle: "1.15"
-    releaseDate: 2023-06-19
+    releaseDate: 2023-06-21
     support: true # release date of 1.16
     eol: false # release date of 1.20
     latest: "1.15.0"
-    latestReleaseDate: 2023-06-19
+    latestReleaseDate: 2023-06-21
 
 -   releaseCycle: "1.14"
     releaseDate: 2022-09-01
-    support: 2023-06-19 # release date of 1.15.0
+    support: 2023-06-21 # release date of 1.15.0
     eol: false # release date of 1.19
     latest: "1.14.5"
     latestReleaseDate: 2023-05-22
