@@ -31,8 +31,8 @@ releases:
     eol: 2024-09-01
     lts: true
     releaseDate: 2022-09-15
-    latestReleaseDate: 2023-06-12
-    latest: "cos-101-17162-210-26"
+    latestReleaseDate: 2023-06-20
+    latest: "cos-101-17162-210-32"
 -   releaseCycle: "cos-97"
     eol: 2024-03-01
     lts: true
@@ -43,8 +43,8 @@ releases:
     eol: 2023-10-01
     lts: true
     releaseDate: 2021-10-18
-    latestReleaseDate: 2023-06-12
-    latest: "cos-93-16623-402-27"
+    latestReleaseDate: 2023-06-20
+    latest: "cos-93-16623-402-30"
   # Deprecated Milestones
 -   releaseCycle: "cos-89"
     eol: 2023-03-01
