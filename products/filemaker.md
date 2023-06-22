@@ -7,6 +7,11 @@ releaseColumn: false
 eolColumn: Support
 
 releases:
+-   releaseCycle: "20"
+    releaseDate: 2023-06-06
+    eol: false
+    link: https://help.claris.com/en/server-release-notes/content/index.html
+
 -   releaseCycle: "19"
     releaseDate: 2020-05-01
     eol: false
