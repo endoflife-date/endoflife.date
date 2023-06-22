@@ -28,13 +28,13 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
-    eol: false
-    latest: "7.6.0"
-    latestReleaseDate: 2023-05-23
+    eol: 2023-06-22
+    latest: "7.7.0"
+    latestReleaseDate: 2023-06-22
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-21
-    eol: 2022-12-22 # will have to be updated with 6.7.0 release date
+    eol: 2022-12-06
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
 
