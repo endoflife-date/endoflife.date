@@ -21,15 +21,15 @@ releases:
     releaseDate: 2022-09-12
     support: true
     eol: false
-    latestReleaseDate: 2023-05-30
-    latest: '9.5.1'
+    latestReleaseDate: 2023-06-21
+    latest: '9.5.2'
 
 -   releaseCycle: "8"
     releaseDate: 2021-09-20
     support: 2022-09-12
     eol: 2022-09-22
-    latestReleaseDate: 2022-08-17
-    latest: '8.7.1'
+    latestReleaseDate: 2023-06-21
+    latest: '8.8.1'
 
 -   releaseCycle: "7"
     releaseDate: 2020-09-16
