@@ -26,22 +26,22 @@ releases:
     eol: false
     link: https://support.apple.com/HT213268
     releaseDate: 2022-10-24
-    latestReleaseDate: 2023-05-18
-    latest: '13.4'
+    latestReleaseDate: 2023-06-21
+    latest: '13.4.1'
 -   releaseCycle: "12"
     codename: "Monterey"
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2023-05-18
-    latest: '12.6.6'
+    latestReleaseDate: 2023-06-21
+    latest: '12.6.7'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2023-05-18
-    latest: '11.7.7'
+    latestReleaseDate: 2023-06-21
+    latest: '11.7.8'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12
