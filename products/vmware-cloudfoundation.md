@@ -18,7 +18,7 @@ releaseDateColumn: true
 eolColumn: General Support
 
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
-eolThreshold: 180
+eolWarnThreshold: 180
 
 changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__RELEASE_CYCLE__" | remove:'.'}}-release-notes/index.html
 
