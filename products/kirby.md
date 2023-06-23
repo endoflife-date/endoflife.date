@@ -56,7 +56,7 @@ releases:
     releaseDate: 2020-07-07
     latest: "3.4.5"
     latestReleaseDate: 2020-12-01
-    link: https://github.com/getkirby/kirby/releases/tag/3.4.0
+    link: https://github.com/getkirby/kirby/releases/tag/3.4.5
     codename: "Furcifer"
     eol: true
 
@@ -64,7 +64,7 @@ releases:
     releaseDate: 2019-11-05
     latest: "3.3.6"
     latestReleaseDate: 2020-04-27
-    link: https://github.com/getkirby/kirby/releases/tag/3.3.0
+    link: https://github.com/getkirby/kirby/releases/tag/3.3.6
     codename: "Trioceros"
     eol: true
 
@@ -72,7 +72,7 @@ releases:
     releaseDate: 2019-06-25
     latest: "3.2.5"
     latestReleaseDate: 2019-09-24
-    link: https://github.com/getkirby/kirby/releases/tag/3.2.0
+    link: https://github.com/getkirby/kirby/releases/tag/3.2.5
     codename: "Archaius"
     eol: true
 
@@ -80,7 +80,7 @@ releases:
     releaseDate: 2019-03-19
     latest: "3.1.4"
     latestReleaseDate: 2019-05-21
-    link: https://github.com/getkirby/kirby/releases/tag/3.1.0
+    link: https://github.com/getkirby/kirby/releases/tag/3.1.4
     codename: "Chamaeleo"
     eol: true
 
@@ -95,47 +95,55 @@ releases:
     eol: 2020-12-31
     latest: "2.5.14"
     latestReleaseDate: 2020-12-01
+    link: ''
 
 -   releaseCycle: "2.4"
     releaseDate: 2016-11-03
     latest: "2.4.2"
     latestReleaseDate: 2017-10-13
+    link: ''
     eol: true
 
 -   releaseCycle: "2.3"
     releaseDate: 2016-05-17
     latest: "2.3.3"
     latestReleaseDate: 2017-10-31
+    link: ''
     eol: true
 
 -   releaseCycle: "2.2"
     releaseDate: 2015-11-17
     latest: "2.2.3"
     latestReleaseDate: 2015-12-09
+    link: ''
     eol: true
 
 -   releaseCycle: "2.1"
     releaseDate: 2015-05-19
     latest: "2.1.1"
     latestReleaseDate: 2015-08-11
+    link: ''
     eol: true
 
 -   releaseCycle: "2.0"
     releaseDate: 2014-10-07
     latest: "2.0.6"
     latestReleaseDate: 2015-01-15
+    link: ''
     eol: true
 
 -   releaseCycle: "1.1"
     releaseDate: 2012-06-19
     latest: "1.1.2"
     latestReleaseDate: 2013-02-04
+    link: ''
     eol: true
 
 -   releaseCycle: "1.0"
     releaseDate: 2012-01-09
     latest: "1.0.9"
     latestReleaseDate: 2012-04-20
+    link: ''
     eol: true
 
 ---
