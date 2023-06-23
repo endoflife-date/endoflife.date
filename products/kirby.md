@@ -29,14 +29,14 @@ releases:
     latest: "3.8.4"
     latestReleaseDate: 2023-01-10
     codename: "Rhampholeon"
-    eol: false
+    eol: 2025-01-16
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-06-27
     latest: "3.7.5.1"
     latestReleaseDate: 2022-10-18
     codename: "Kinyongia"
-    eol: false
+    eol: 2024-10-05
 
 -   releaseCycle: "3.6"
     releaseDate: 2021-11-16
@@ -151,4 +151,4 @@ releases:
 
 > [Kirby CMS](https://getkirby.com) is a flat-file content management system written in PHP. 
 
-As of Version 4 it will follow semantic-versioning.
+As of Version 4 Kirby CMS will follow semantic-versioning. A minor version will be actively supported for two more years after the release of the next minor version. 
