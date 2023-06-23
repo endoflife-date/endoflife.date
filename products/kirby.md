@@ -8,7 +8,7 @@ alternate_urls:
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: false
+eolColumn: true
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 changelogTemplate: https://getkirby.com/releases/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}
 
