@@ -2530,5 +2530,6 @@ your device falls under [can be found here](https://security.samsungmobile.com/w
   bracket takes over once quarterly updates have ended, it usually lasts an additional year, or
   until four years have passed since the device has been released.
 
-**Note**: Some dates are based on when support status was changed on the Samsung website - they
+**Note** 1: Some dates are based on when support status was changed on the Samsung website - they
 might be approximate.
+**Note** 2: Some release dates may vary depending on the country or region.
