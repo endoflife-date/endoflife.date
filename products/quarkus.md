@@ -15,10 +15,11 @@ extendedSupport: Support
 extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 releaseColumn: true
 
+# The Quarkus team forgot to declare a GitHub release for 2.11.0.
 auto:
--   git: https://github.com/quarkusio/quarkus.git
+-   github_releases: quarkusio/quarkus
     # See https://rubular.com/r/NyoXd9iCLFcl25 for reference
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.Final)?$'
+    regex: '^(?P<version>[1-9][\d\.]+)(\.Final)?$'
 
 # Note:
 # - eol(x) = releaseDate(x+1)
