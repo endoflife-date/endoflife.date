@@ -18,9 +18,15 @@ auto:
       Environment"$'
 
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2023-06-22
+    eol: false
+    latest: "8.0"
+    latestReleaseDate: 2023-06-22
+
 -   releaseCycle: "7"
     releaseDate: 2021-07-06
-    eol: false
+    eol: 2024-07-31
     latest: "7.4"
     latestReleaseDate: 2023-03-23
 
