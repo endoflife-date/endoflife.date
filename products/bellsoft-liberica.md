@@ -64,6 +64,7 @@ releases:
     releaseDate: 2022-03-23
     eol: 2022-09-20
     extendedSupport: false
+    link: https://bell-sw.com/pages/liberica-release-notes-18.0.2/
     latest: "18.0.2.1+1"
     latestReleaseDate: 2022-08-25
 
