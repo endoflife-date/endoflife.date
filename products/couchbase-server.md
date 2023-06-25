@@ -52,12 +52,14 @@ releases:
 -   releaseCycle: "6.5"
     releaseDate: 2021-07-26
     eol: 2021-02-28
+    link: https://web.archive.org/web/20230519160357/https://docs.couchbase.com/server/6.5/release-notes/relnotes.html
     latest: "6.5.2"
     latestReleaseDate: 2022-04-30
 
 -   releaseCycle: "6.0"
     releaseDate: 2019-01-23
     eol: 2020-07-31
+    link: https://web.archive.org/web/20230519162206/https://docs.couchbase.com/server/6.0/release-notes/relnotes.html
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30
 
