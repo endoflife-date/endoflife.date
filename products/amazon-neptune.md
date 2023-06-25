@@ -1,10 +1,8 @@
 ---
 title: Amazon-Neptune
-category: db
+category: service
 tags: amazon
 permalink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
-auto:
--   custom: true
 releases:
 -   releaseCycle: "1.2"
     releaseDate: 2022-07-21
