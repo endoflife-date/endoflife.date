@@ -24,75 +24,75 @@ identifiers:
 
 releases:
 -   releaseCycle: "10.0"
+    releaseDate: 2022-12-15
     support: 2023-06-21
     eol: 2023-12-13
     latest: "10.0.9"
     latestReleaseDate: 2023-05-03
-    releaseDate: 2022-12-15
 
 -   releaseCycle: "9.5"
+    releaseDate: 2022-12-15
     support: 2023-06-21
     eol: 2023-11-01
     latest: "9.5.9"
     latestReleaseDate: 2023-05-03
-    releaseDate: 2022-12-15
 
 -   releaseCycle: "9.4"
+    releaseDate: 2022-06-15
     support: 2022-12-14
     eol: 2023-06-21
     latest: "9.4.15"
     latestReleaseDate: 2023-05-03
-    releaseDate: 2022-06-15
 
 -   releaseCycle: "9.3"
+    releaseDate: 2021-12-08
     support: 2022-06-15
     eol: 2022-12-14
     latest: "9.3.22"
     latestReleaseDate: 2022-09-28
-    releaseDate: 2021-12-08
 
 -   releaseCycle: "9.2"
+    releaseDate: 2021-06-16
     support: 2021-12-08
     eol: 2022-06-15
     latest: "9.2.21"
     latestReleaseDate: 2022-06-10
-    releaseDate: 2021-06-16
 
 -   releaseCycle: "9.1"
+    releaseDate: 2020-12-02
     support: 2021-06-16
     eol: 2021-12-08
     latest: "9.1.15"
     latestReleaseDate: 2021-11-24
-    releaseDate: 2020-12-02
 
 -   releaseCycle: "9.0"
+    releaseDate: 2020-06-03
     support: 2020-12-02
     eol: 2021-06-16
     latest: "9.0.14"
     latestReleaseDate: 2021-05-25
-    releaseDate: 2020-06-03
 
 -   releaseCycle: "8.9"
+    releaseDate: 2020-06-03
     support: 2020-12-01
     eol: 2021-11-02
     latest: "8.9.20"
     latestReleaseDate: 2021-11-17
-    releaseDate: 2020-06-03
 
 -   releaseCycle: "8.8"
+    releaseDate: 2019-12-04
     support: 2020-06-03
     eol: 2020-12-01
     latest: "8.8.12"
     latestReleaseDate: 2020-11-25
-    releaseDate: 2019-12-04
 
 -   releaseCycle: "7"
-    support: 2015-11-19
-    latestReleaseDate: 2023-06-07
-    eol: 2025-01-05
-    latest: "7.98"
     lts: true
     releaseDate: 2011-01-05
+    support: 2015-11-19
+    eol: 2025-01-05
+    latest: "7.98"
+    latestReleaseDate: 2023-06-07
 
 ---
 
@@ -106,4 +106,5 @@ bugs and security issues that have been reported are fixed and are released duri
 has extended security coverage.
 
 **Drupal 7** will receive security coverage [until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
-and [limited vendor extended support](https://www.drupal.org/psa-2023-06-07). This will be the final extension.
+and [limited vendor extended support](https://www.drupal.org/psa-2023-06-07). This will be the final
+extension.
