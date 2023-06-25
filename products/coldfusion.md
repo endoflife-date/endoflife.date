@@ -18,6 +18,7 @@ releases:
     releaseDate: 2023-05-17
     eol: 2028-05-16
     extendedSupport: 2029-05-16
+    link: null # does not exist yet, will probably become valid after the first update
 
 -   releaseCycle: "2021"
     releaseDate: 2020-11-11
