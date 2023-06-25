@@ -41,7 +41,7 @@ releases:
     releaseDate: 2021-06-01
     latest: "5.3.4"
     latestReleaseDate: 2022-05-31
-    link: https://docs.paloaltonetworks.com/globalprotect/5-3/globalprotect-app-release-notes/gp-app-release-information
+    link: https://web.archive.org/web/20221203201532/https://docs.paloaltonetworks.com/globalprotect/5-3/globalprotect-app-release-notes/gp-app-release-information
 
 -   releaseCycle: "5.2"
     eol: 2024-02-28
@@ -64,14 +64,14 @@ releases:
     support: 2020-05-12
     releaseDate: 2019-02-12
     latest: "5.0.10"
-    link: https://docs.paloaltonetworks.com/globalprotect/5-0/globalprotect-app-release-notes/gp-app-release-information/globalprotect-50-addressed-issues
+    link: https://web.archive.org/web/20220815074700/https://docs.paloaltonetworks.com/globalprotect/5-0/globalprotect-app-release-notes/gp-app-release-information/globalprotect-50-addressed-issues
 
 -   releaseCycle: "4.1"
     eol: 2020-03-01
     support: 2019-06-01
     releaseDate: 2018-03-01
     latest: "4.1.13"
-    link: https://docs.paloaltonetworks.com/globalprotect/4-1/globalprotect-app-release-notes/gp-app-release-information/globalprotect-app-4113-addressed-issues
+    link: https://web.archive.org/web/20220813143321/https://docs.paloaltonetworks.com/globalprotect/4-1/globalprotect-app-release-notes/gp-app-release-information/globalprotect-app-4113-addressed-issues
 
 -   releaseCycle: "4.0"
     eol: 2019-01-30
