@@ -3,6 +3,7 @@ title: Amazon-Neptune
 category: service
 tags: amazon
 permalink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
+versionCommand: aws neptune describe-db-clusters --db-cluster-identifier your-neptune-db-identifier --filters Name=engine,Values=neptune
 releases:
 -   releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
