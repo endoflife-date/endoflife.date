@@ -17,10 +17,8 @@ identifiers:
 -   purl: pkg:docker/library/couchbase
 -   purl: pkg:docker/couchbase/server
 
-# FIXME : gives really wrong dates, find something different.
 auto:
--   dockerhub: library/couchbase
-    regex: ^(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+-   custom: true
 
 # End of life dates available on https://www.couchbase.com/support-policy/enterprise-software/
 # We use the "End of Full Maintenance" date on the last day of the month.
