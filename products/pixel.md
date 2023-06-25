@@ -13,98 +13,112 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
--   releaseCycle: "Pixel Tablet"
+-   releaseCycle: "tablet"
+    releaseLabel: "Pixel Tablet"
     releaseDate: 2023-06-20
     support: 2026-06-20
     eol: 2028-06-20
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
 
--   releaseCycle: "Pixel 7a"
+-   releaseCycle: "7a"
+    releaseLabel: "Pixel 7a"
     releaseDate: 2023-05-10
     support: 2026-05-08
     eol: 2028-05-07
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7a
 
--   releaseCycle: "Pixel 7 / Pro"
+-   releaseCycle: "7"
+    releaseLabel: "Pixel 7 / Pro"
     releaseDate: 2022-10-13
     support: 2025-10-12
     eol: 2027-10-12
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7
 
--   releaseCycle: "Pixel 6a"
+-   releaseCycle: "6a"
+    releaseLabel: "Pixel 6a"
     releaseDate: 2022-07-28
     support: 2025-07-27
     eol: 2027-07-27
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6a
 
--   releaseCycle: "Pixel 6 / Pro"
+-   releaseCycle: "6"
+    releaseLabel: "Pixel 6 / Pro"
     releaseDate: 2021-10-28
     support: 2024-10-27
     eol: 2026-10-27
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6
 
--   releaseCycle: "Pixel 5a"
+-   releaseCycle: "5a"
+    releaseLabel: "Pixel 5a"
     releaseDate: 2021-08-26
     support: 2024-08-25
     eol: 2024-08-25
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_5a
 
--   releaseCycle: "Pixel 5"
+-   releaseCycle: "5"
+    releaseLabel: "Pixel 5"
     releaseDate: 2020-10-15
     support: 2023-10-14
     eol: 2023-10-14
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_5
 
--   releaseCycle: "Pixel 4a (5G)"
+-   releaseCycle: "4a-5g"
+    releaseLabel: "Pixel 4a (5G)"
     releaseDate: 2020-11-05
     support: 2023-11-04
     eol: 2023-11-04
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_4a
 
--   releaseCycle: "Pixel 4a"
+-   releaseCycle: "4a"
+    releaseLabel: "Pixel 4a"
     releaseDate: 2020-08-20
     support: 2023-08-19
     eol: 2023-08-19
     discontinued: 2022-01-31
     link: https://en.wikipedia.org/wiki/Pixel_4a
 
--   releaseCycle: "Pixel 4 / XL"
+-   releaseCycle: "4"
+    releaseLabel: "Pixel 4 / XL"
     releaseDate: 2019-10-24
     support: 2022-10-23
     eol: 2022-10-23
     discontinued: 2020-08-06
     link: https://en.wikipedia.org/wiki/Pixel_4
 
--   releaseCycle: "Pixel 3a / XL"
+-   releaseCycle: "3a"
+    releaseLabel: "Pixel 3a / XL"
     releaseDate: 2019-05-07
     support: 2022-05-06
     eol: 2022-05-06
     discontinued: 2020-07-01
     link: https://en.wikipedia.org/wiki/Pixel_3a
 
--   releaseCycle: "Pixel 3 / XL"
+-   releaseCycle: "3"
+    releaseLabel: "Pixel 3 / XL"
     releaseDate: 2018-10-09
     support: 2021-10-08
     eol: 2021-10-08
     discontinued: 2020-03-31
     link: https://en.wikipedia.org/wiki/Pixel_3
 
--   releaseCycle: "Pixel 2 / XL"
+-   releaseCycle: "2"
+    releaseLabel: "Pixel 2 / XL"
     releaseDate: 2017-10-19
     support: 2020-10-18
     eol: 2020-10-18
     discontinued: 2019-04-01
     link: https://en.wikipedia.org/wiki/Pixel_2
 
--   releaseCycle: "Pixel / Pixel XL"
+-   releaseCycle: "1"
+    releaseLabel: "Pixel / Pixel XL"
     releaseDate: 2016-10-20
     support: 2019-10-19
     eol: 2019-10-19
