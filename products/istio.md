@@ -36,6 +36,7 @@ releases:
     releaseDate: 2023-06-07
     eol: 2023-12-31
     supportedKubernetesVersions: 1.24 - 1.27
+    link: https://istio.io/latest/news/releases/1.18.x/announcing-1.18/
     latest: "1.18.0"
     latestReleaseDate: 2023-06-07
 
