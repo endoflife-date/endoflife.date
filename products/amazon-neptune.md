@@ -8,51 +8,51 @@ releases:
 -   releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
     eol: 2025-10-30
-    latest: "1.2.1.0"
-    latestReleaseDate: 2023-03-08
+    latest: "1.2.1.0.R3"
+    latestReleaseDate: 2023-06-13
     upgradeVersion: "N/A"
 
 -   releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-16
     eol: 2024-10-31
-    latest: "1.2.0.2"
-    latestReleaseDate: 2022-11-16
+    latest: "1.2.0.2.R4"
+    latestReleaseDate: 2023-05-08
     upgradeVersion: "1.2.1.0"
 
 -   releaseCycle: "1.2.0.1"
     releaseDate: 2022-10-26
     eol: 2024-10-31
-    latest: "1.2.0.1"
-    latestReleaseDate: 2022-10-26
+    latest: "1.2.0.1.R2"
+    latestReleaseDate: 2022-12-13
     upgradeVersion: "1.2.1.0"
 
 -   releaseCycle: "1.2.0.0"
     releaseDate: 2022-07-21
     eol: 2024-10-31
-    latest: "1.2.0.0"
-    latestReleaseDate: 2022-07-21
+    latest: "1.2.0.0.R2"
+    latestReleaseDate: 2022-10-14
     upgradeVersion: "1.2.1.0"
 
 -   releaseCycle: "1.1.1.0"
     releaseDate: 2022-04-19
     eol: 2024-10-31
-    latest: "1.1.1.0"
-    latestReleaseDate: 2022-04-19
+    latest: "1.1.1.0.R6"
+    latestReleaseDate: 2022-09-23
     upgradeVersion: "1.2.1.0"
 
 -   releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     eol: 2024-01-30
-    latest: "1.1.0.0"
-    latestReleaseDate: 2021-11-19
+    latest: "1.1.0.0.R2"
+    latestReleaseDate: 2022-05-16
     upgradeVersion: "1.1.1.0"
 
 # Use a single row for all 1.0.x releases
 -   releaseCycle: "1.0"
     releaseDate: 2019-07-02
     eol: 2023-01-30
-    latest: "1.0.5.1"
-    latestReleaseDate: 2021-10-01
+    latest: "1.0.5.1.R4"
+    latestReleaseDate: 2022-05-16
     upgradeVersion: "1.1.0.0"
 ---
 
@@ -70,6 +70,10 @@ In general, Neptune engine versions continue to be available as follows:
 
 - **Minor engine versions**: remain available for at least 6 months following their release.
 - **Major engine versions**: remain available for at least 12 months following their release.
+
+New engine versions are announced on the [Changes and Updates](https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html)
+page, as well as [published via an RSS feed](https://docs.aws.amazon.com/neptune/latest/userguide/rssupdates.rss).
+It takes several days for a new release to become available in every region.
 
 At least 3 months before an engine version reaches its End-of-life, AWS sends an
 automated email notification and posts the same message to the AWS Health Dashboard. This
