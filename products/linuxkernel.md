@@ -21,6 +21,12 @@ identifiers:
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
 releases:
+-   releaseCycle: "6.4"
+    releaseDate: 2023-06-25
+    eol: false
+    latest: "6.4"
+    latestReleaseDate: 2023-06-25
+
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
     eol: false
