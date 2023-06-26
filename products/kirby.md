@@ -85,7 +85,7 @@ releases:
     eol: 2021-11-16
 
 -   releaseCycle: "3.0"
-    releaseDate: 2019-02-05
+    releaseDate: 2019-01-17
     latest: "3.0.3"
     latestReleaseDate: 2019-03-05
     eol: 2021-11-16
