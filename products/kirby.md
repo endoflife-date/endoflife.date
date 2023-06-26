@@ -9,7 +9,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: true
-releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
+releaseLabel: "__RELEASE_CYCLE__{%if '__CODENAME__' %} (__CODENAME__){%endif%}"
 changelogTemplate: https://getkirby.com/releases/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}
 
 auto:
