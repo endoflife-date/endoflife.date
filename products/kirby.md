@@ -92,7 +92,6 @@ releases:
 
 -   releaseCycle: "2.5"
     releaseDate: 2017-06-20
-    eol: 2020-12-31
     latest: "2.5.14"
     latestReleaseDate: 2020-12-01
     link: ''
