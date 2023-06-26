@@ -9,7 +9,7 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: true
-releaseLabel: "__RELEASE_CYCLE__{%if '__CODENAME__' %} (__CODENAME__){%endif%}"
+releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
 changelogTemplate: https://getkirby.com/releases/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}
 
 auto:
@@ -94,56 +94,56 @@ releases:
     releaseDate: 2017-06-20
     latest: "2.5.14"
     latestReleaseDate: 2020-12-01
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "2.4"
     releaseDate: 2016-11-03
     latest: "2.4.2"
     latestReleaseDate: 2017-10-13
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "2.3"
     releaseDate: 2016-05-17
     latest: "2.3.3"
     latestReleaseDate: 2017-10-31
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "2.2"
     releaseDate: 2015-11-17
     latest: "2.2.3"
     latestReleaseDate: 2015-12-09
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "2.1"
     releaseDate: 2015-05-19
     latest: "2.1.1"
     latestReleaseDate: 2015-08-11
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "2.0"
     releaseDate: 2014-10-07
     latest: "2.0.6"
     latestReleaseDate: 2015-01-15
-    link: ''
+    link: null
     eol: 2021-01-01
 
 -   releaseCycle: "1.1"
     releaseDate: 2012-06-19
     latest: "1.1.2"
     latestReleaseDate: 2013-02-04
-    link: ''
+    link: null
     eol: 2016-02-01
 
 -   releaseCycle: "1.0"
     releaseDate: 2012-01-09
     latest: "1.0.9"
     latestReleaseDate: 2012-04-20
-    link: ''
+    link: null
     eol: 2016-02-01
 
 ---
