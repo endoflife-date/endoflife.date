@@ -14,18 +14,19 @@ category: framework
 tags: ruby-runtime
 auto:
 -   git: https://github.com/rails/rails.git
-    regex: v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.(?<tiny>0|[1-9]\d*))?$
+    regex: 
+      v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.(?<tiny>0|[1-9]\d*))?$
     template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}"
 releases:
 -   releaseCycle: "7.0"
     eol: false
-    latest: "7.0.5"
-    latestReleaseDate: 2023-05-24
+    latest: "7.0.5.1"
+    latestReleaseDate: 2023-06-26
     releaseDate: 2021-12-15
 -   releaseCycle: "6.1"
     eol: false
-    latest: "6.1.7.3"
-    latestReleaseDate: 2023-03-13
+    latest: "6.1.7.4"
+    latestReleaseDate: 2023-06-26
     releaseDate: 2020-12-09
 -   releaseCycle: "6.0"
     eol: 2023-06-01

@@ -17,8 +17,8 @@ releases:
     releaseDate: 2022-11-16
     support: true
     eol: false
-    latest: "3.6.0"
-    latestReleaseDate: 2023-06-23
+    latest: "3.6.1"
+    latestReleaseDate: 2023-06-26
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
