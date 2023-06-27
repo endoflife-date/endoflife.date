@@ -22,6 +22,9 @@ auto:
 -   git: https://github.com/dotnet/core.git
     regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 
+identifiers:
+-   purl: pkg:nuget/Microsoft.NETCore.App
+
 releases:
 -   releaseCycle: "7.0"
     lts: false
