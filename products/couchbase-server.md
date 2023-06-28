@@ -24,40 +24,42 @@ auto:
 # We use the "End of Full Maintenance" date on the last day of the month.
 releases:
 -   releaseCycle: "7.2"
-    releaseDate: 2023-06-16
+    releaseDate: 2023-06-01
     eol: 2024-01-31 # Still to be confirmed on https://www.couchbase.com/support-policy/enterprise-software/
     latest: "7.2.0"
-    latestReleaseDate: 2023-06-16
+    latestReleaseDate: 2023-06-01
 
 -   releaseCycle: "7.1"
-    releaseDate: 2022-06-07
+    releaseDate: 2022-05-15
     eol: 2023-12-31
     latest: "7.1.4"
-    latestReleaseDate: 2023-06-16
+    latestReleaseDate: 2023-03-15
 
 -   releaseCycle: "7.0"
-    releaseDate: 2021-08-31
+    releaseDate: 2021-07-15
     eol: 2023-01-31
     latest: "7.0.5"
-    latestReleaseDate: 2023-06-16
+    latestReleaseDate: 2022-12-15
 
 -   releaseCycle: "6.6"
-    releaseDate: 2021-07-26
+    releaseDate: 2020-08-15
     eol: 2023-01-31
     latest: "6.6.6"
-    latestReleaseDate: 2023-06-16
+    latestReleaseDate: 2023-01-15
 
 -   releaseCycle: "6.5"
-    releaseDate: 2021-07-26
+    releaseDate: 2020-01-15
     eol: 2021-02-28
-    link: https://web.archive.org/web/20230519160357/https://docs.couchbase.com/server/6.5/release-notes/relnotes.html
+    link: 
+      https://web.archive.org/web/20230519160357/https://docs.couchbase.com/server/6.5/release-notes/relnotes.html
     latest: "6.5.2"
-    latestReleaseDate: 2022-04-30
+    latestReleaseDate: 2021-02-15
 
 -   releaseCycle: "6.0"
-    releaseDate: 2019-01-23
+    releaseDate: 2018-10-31
     eol: 2020-07-31
-    link: https://web.archive.org/web/20230519162206/https://docs.couchbase.com/server/6.0/release-notes/relnotes.html
+    link: 
+      https://web.archive.org/web/20230519162206/https://docs.couchbase.com/server/6.0/release-notes/relnotes.html
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30
 
