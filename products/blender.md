@@ -4,8 +4,7 @@ category: app
 iconSlug: blender
 permalink: /blender
 releasePolicyLink: https://www.blender.org
-releaseImage: 
-  https://code.blender.org/wp-content/uploads/2020/05/release_cadence_4th_wall-1-1024x224.png
+releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
 releaseColumn: true
@@ -18,6 +17,14 @@ auto:
 -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "3.5"
+    lts: true
+    releaseDate: 2023-06-27
+    support: 2025-07-01
+    eol: 2025-07-01
+    latest: "3.6.0"
+    latestReleaseDate: 2023-06-27
+
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
     support: 2023-07-01
@@ -83,15 +90,25 @@ releases:
 > entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and
 > motion tracking, video editing and 2D animation pipeline.
 
-With the release of Blender 2.83, Blender Foundation will start a LTS (Long Term Support) pilot
-program. The program is aimed at ensuring that long-lasting projects can be executed using a stable
-Blender version, which will provide critical fixes throughout a 2-year time span.
+## [Long Term Support](https://wiki.blender.org/wiki/Process/LTS)
 
-Currently, for non-LTS releases, Blender only has a corrective release if severity 1 issues (high
+LTS releases are supported for 2 years with critical bug-fixes.
+
+For non-LTS releases, Blender only has a corrective release if severity 1 issues (high
 priority bugs) are found. When the corrective release is agreed on, however, severity 2 (high
 priority and normal bugs) fixes are ported along.
 
-For the LTS releases, a more limited policy would apply (only porting severity 1 issues after the
+For LTS releases, a more limited policy applies. Only severity 1 issues are ported (after the
 next stable release), on a fixed schedule (e.g., every 3 months) after the fix was tested in master
-for some time (e.g., 1 week). For more information on how this process works see the
-[related wiki](https://wiki.blender.org/wiki/Process/LTS).
+for some time (e.g., 1 week).
+
+## [Release Schedule](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule)
+
+An updated release schedule was proposed in [February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
+with the following goals:
+
+- A new LTS release every year around June, supported for two years, 
+- A major version and breaking release every 2 years (3.0, 4.0, 5.0…).
+
+With the new schedule, the 3.7 release will be skipped, and 4.0 is expected to be released in
+late November 2023.
