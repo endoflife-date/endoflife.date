@@ -8,8 +8,10 @@ alternate_urls:
 -   /puppet-osp
 -   /puppet-agent
 versionCommand: puppet --version
-releasePolicyLink: https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
-changelogTemplate: "https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
+releasePolicyLink:
+  https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
+changelogTemplate:
+  https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
@@ -59,4 +61,4 @@ releases:
 
 Puppet OSP has an Update Track: Puppet versions that are not associated with any PE version get updated minor (or "y") releases about once a month.
 Releases in this track include fixes and new features, but typically do not get patch (or "z") releases. Developmental releases ('latest') are superseded by new versions about once a month.
-Open source releases that are associated with PE versions have projected End of Life (EOL) dates. 
+Open source releases that are associated with PE versions have projected End of Life (EOL) dates.
