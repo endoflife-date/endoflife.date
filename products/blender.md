@@ -17,7 +17,7 @@ auto:
 -   git: https://github.com/blender/blender.git
 
 releases:
--   releaseCycle: "3.5"
+-   releaseCycle: "3.6"
     lts: true
     releaseDate: 2023-06-27
     support: 2025-07-01
