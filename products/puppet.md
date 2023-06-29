@@ -1,6 +1,7 @@
 ---
 title: Puppet
 category: server-app
+tags: configuration-management
 iconSlug: puppet
 permalink: /puppet
 alternate_urls:
@@ -12,9 +13,13 @@ changelogTemplate: "https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
-category: framework
+
+identifiers:
+-   repology: puppet
+
 auto:
 -   git: https://github.com/puppetlabs/puppet.git
+
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-04-21
@@ -49,6 +54,7 @@ releases:
     link: https://www.puppet.com/docs/puppet/5.5/release_notes.html
 
 ---
+
 > [Puppet](https://www.puppet.com/) Puppet is a tool that helps you manage and automate the configuration of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of its open-source Puppet software.
 
 Puppet OSP has an Update Track: Puppet versions that are not associated with any PE version get updated minor (or "y") releases about once a month.
