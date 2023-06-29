@@ -39,8 +39,8 @@ releases:
     releaseLabel: "6.3 (Rapid Release)"
     releaseDate: 2023-04-11
     eol: false
-    latest: '6.3.1'
-    latestReleaseDate: 2023-05-02
+    latest: '6.3.2'
+    latestReleaseDate: 2023-06-28
 
 -   releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
