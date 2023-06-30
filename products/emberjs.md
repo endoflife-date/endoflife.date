@@ -18,6 +18,13 @@ auto:
 
 releases:
 
+-   releaseCycle: "5.1"
+    releaseDate: 2023-06-26
+    support: true
+    eol: false
+    latest: "5.1.0"
+    latestReleaseDate: 2023-06-29
+
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-15
     support: true
@@ -27,8 +34,9 @@ releases:
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-04-03
-    support: true
-    eol: false
+    lts: 2023-05-15
+    support: 2024-01-22
+    eol: 2024-05-27
     latest: "4.12.2"
     latestReleaseDate: 2023-06-28
 
