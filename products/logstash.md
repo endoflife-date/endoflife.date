@@ -16,15 +16,15 @@ releases:
 -   releaseCycle: "8"
     # the longest between this date and 6 months after the 9.0.0
     eol: 2023-10-26
-    latest: "8.8.1"
-    latestReleaseDate: 2023-06-08
+    latest: "8.8.2"
+    latestReleaseDate: 2023-06-29
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
     # Maintained until 9.0.0
     eol: 2023-08-01
-    latest: "7.17.10"
-    latestReleaseDate: 2023-05-02
+    latest: "7.17.11"
+    latestReleaseDate: 2023-06-29
     releaseDate: 2019-04-05
 
 -   releaseCycle: "6"
