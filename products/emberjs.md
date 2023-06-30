@@ -16,8 +16,17 @@ releaseDateColumn: true
 auto:
 -   npm: ember-source
 
+# For LTS :
+# every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
+# see https://emberjs.com/releases/lts/
+# - lts(x) = release(x) + 6 weeks
+# - support(x) = lts(x) + 36 weeks
+# - eol(x) = lts(x) + 54 months
+#
+# For non-LTS :
+# - support(x) = release(x+1)
+# - eol(x) = release(x+1)
 releases:
-
 -   releaseCycle: "5.1"
     releaseDate: 2023-06-26
     support: true
