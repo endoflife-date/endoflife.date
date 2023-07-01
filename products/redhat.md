@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "9"
     support: 2027-05-31
     eol: 2032-05-31
-    extendedSupport: 2034-05-31
+    extendedSupport: 2035-05-31
     latest: "9.2"
     releaseDate: 2022-05-17
     lts: 2032-05-31
@@ -33,7 +33,7 @@ releases:
 -   releaseCycle: "8"
     support: 2024-05-31
     eol: 2029-05-31
-    extendedSupport: 2031-05-31
+    extendedSupport: 2032-05-31
     latest: "8.8"
     releaseDate: 2019-05-07
     lts: 2029-05-31
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "7"
     support: 2019-12-31
     eol: 2024-06-30
-    extendedSupport: 2026-06-30
+    extendedSupport: 2028-06-30
     latest: "7.9"
     releaseDate: 2013-12-11
     lts: 2024-06-30
