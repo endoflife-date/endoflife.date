@@ -1,8 +1,9 @@
 ---
-title: Amazon-Neptune
+title: Amazon Neptune
 category: service
 tags: amazon
-permalink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
+permalink: /amazon-neptune
+releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
 versionCommand: >
     aws neptune describe-db-clusters
     --db-cluster-identifier your-neptune-db-identifier
