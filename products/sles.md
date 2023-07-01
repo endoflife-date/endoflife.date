@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "15.5"
     releaseDate: 2023-06-20
     support: true
-    eol: true
+    eol: false
     latest: "15.5"
 
 -   releaseCycle: "15.4"
@@ -114,7 +114,7 @@ releases:
 -   releaseCycle: "11.1"
     releaseDate: 2010-06-02
     support: 2012-08-31
-    eol: 2012-08-31
+    eol: 2015-08-30
     latest: "11.1"
 
 -   releaseCycle: "11"
@@ -126,7 +126,7 @@ releases:
 -   releaseCycle: "10.4"
     releaseDate: 2011-04-12
     support: 2013-07-31
-    eol: 2016-07-31
+    eol: 2016-07-30
     latest: "10.4"
 
 -   releaseCycle: "10.3"
