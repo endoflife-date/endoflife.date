@@ -14,6 +14,11 @@ versionCommand: "https://your-server-url/mediawiki/Special:Version"
 auto:
 -   git: https://github.com/wikimedia/mediawiki.git
 releases:
+-   releaseCycle: "1.40"
+    releaseDate: 2023-06-30
+    eol: 2024-06-01
+    latest: "1.40.0"
+    latestReleaseDate: 2023-06-30
 -   releaseCycle: "1.39"
     eol: 2025-11-01
     latest: "1.39.3"
