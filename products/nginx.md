@@ -68,7 +68,7 @@ releases:
 
 -   releaseCycle: "1.19"
     releaseDate: 2020-05-26
-    eol: 2021-07-01
+    eol: 2021-05-25
     latest: "1.19.10"
     latestReleaseDate: 2021-04-13
 
