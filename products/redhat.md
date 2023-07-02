@@ -96,7 +96,8 @@ functionality may be provided at Red Hat’s discretion.
 
 ## Maintenance Support Phase
 
-During the Maintenance Support Phases, qualified RHSAs and RHBAs may be released as they become
+During the Maintenance Support Phase (called "Maintenance Support 2" for RHEL 7),
+qualified RHSAs and RHBAs may be released as they become
 available. Other errata advisories may be delivered as appropriate. New functionality and new
 hardware enablement is at the discretion of Red Hat, and varies by operating system release.
 
