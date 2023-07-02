@@ -3,7 +3,7 @@ title: MediaWiki
 category: server-app
 tags: php-runtime
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/of9ibgdvah78ld94hnu3ob5qeiwy4em.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/oltvw06kmz7bhqd8bsfm1x4c2l7suw8.png
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
