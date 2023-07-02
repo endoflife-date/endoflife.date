@@ -40,7 +40,7 @@ releases:
     latestReleaseDate: 2023-05-16
 
 -   releaseCycle: "7"
-    support: 2019-12-31
+    support: 2019-08-06
     eol: 2024-06-30
     extendedSupport: 2028-06-30
     latest: "7.9"
