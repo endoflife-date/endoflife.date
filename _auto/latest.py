@@ -73,6 +73,11 @@ def releases_matches(r, prefix):
         # this is notably used in java
         # prefix = 17, r = 17.0.7+7
         r.startswith(prefix + "+")
+        or
+        # It matches the release cycle with an extra 'R' as a build number
+        # this is notably used for Amazon Neptune
+        # prefix = 1.1.1.0, r = 1.1.1.0.R7
+        r.startswith(prefix + ".R")
     )
 
 

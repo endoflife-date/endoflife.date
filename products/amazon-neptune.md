@@ -10,6 +10,9 @@ versionCommand: >
     --db-cluster-identifier your-neptune-db-identifier
     --filters Name=engine,Values=neptune
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
