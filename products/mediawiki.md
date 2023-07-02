@@ -3,7 +3,7 @@ title: MediaWiki
 category: server-app
 tags: php-runtime
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/of9ibgdvah78ld94hnu3ob5qeiwy4em.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/oltvw06kmz7bhqd8bsfm1x4c2l7suw8.png
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
@@ -14,6 +14,11 @@ versionCommand: "https://your-server-url/mediawiki/Special:Version"
 auto:
 -   git: https://github.com/wikimedia/mediawiki.git
 releases:
+-   releaseCycle: "1.40"
+    releaseDate: 2023-06-30
+    eol: 2024-06-01
+    latest: "1.40.0"
+    latestReleaseDate: 2023-06-30
 -   releaseCycle: "1.39"
     eol: 2025-11-01
     latest: "1.39.3"
