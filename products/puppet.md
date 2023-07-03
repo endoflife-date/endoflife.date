@@ -49,7 +49,7 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2018-09-18
-    eol: true
+    eol: 2021-01-01
     lts: false
     latest: "5.5.22"
     latestReleaseDate: 2020-10-09
