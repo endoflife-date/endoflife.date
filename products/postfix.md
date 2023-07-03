@@ -105,6 +105,20 @@ releases:
     releaseDate: 2011-01-20
     link: https://www.postfix.org/announcements/postfix-2.11.4.html
 
+-   releaseCycle: "2.6"
+    releaseDate: 2009-05-12
+    eol: 2013-02-11 # 2.10 release
+    latest: "2.6.19"
+    latestReleaseDate: 2013-02-04
+    link: https://www.postfix.org/announcements/postfix-2.9.6.html
+
+-   releaseCycle: "2.5"
+    releaseDate: 2008-01-24
+    eol: 2012-02-06 # never announced, so set to latestReleaseDate
+    latest: "2.5.17"
+    latestReleaseDate: 2012-02-06
+    link: https://www.postfix.org/announcements/postfix-2.7.8.html
+
 ---
 
 >[Postfix](https://www.postfix.org/) is Wietse Venema's mail server that started life at IBM
