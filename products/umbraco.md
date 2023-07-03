@@ -29,11 +29,11 @@ auto:
 # - eol(x) = support(x) + 3 months
 releases:
 -   releaseCycle: "12"
-    releaseDate: 2023-06-29
+    releaseDate: 2023-06-27
     support: 2024-03-29
     eol: 2024-06-29
     latest: '12.0.0'
-    latestReleaseDate: 2023-06-29
+    latestReleaseDate: 2023-06-27
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
