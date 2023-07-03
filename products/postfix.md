@@ -7,7 +7,7 @@ releasePolicyLink: https://www.postfix.org/announcements.html
 activeSupportColumn: false
 releaseDateColumn: true
 
-
+# We ignore tags before 3.3 because they don't have the correct date
 auto:
 -   git: https://github.com/vdukhovni/postfix.git
     regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
@@ -68,11 +68,11 @@ releases:
     latest: "3.1.15"
     latestReleaseDate: 2020-02-03
     releaseDate: 2016-02-24
-    link: https://www.postfix.org/announcements/postfix-3.5.10.html
+    link: https://www.postfix.org/announcements/postfix-3.4.9.html
 
 -   releaseCycle: "3.0"
     eol: 2019-02-27 # 3.4 release
-    latest: "3.1.15"
+    latest: "3.0.15"
     latestReleaseDate: 2019-02-26
     releaseDate: 2015-02-08
     link: https://www.postfix.org/announcements/postfix-3.3.3.html
