@@ -26,7 +26,6 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-04-21
     eol: false
-    lts: false
     latest: "8.1.0"
     latestReleaseDate: 2023-06-13
     link: https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
@@ -34,7 +33,6 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: false
-    lts: false
     latest: "7.25.0"
     latestReleaseDate: 2023-06-12
     link: https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
@@ -42,7 +40,6 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2018-09-18
     eol: 2023-02-01
-    lts: false
     latest: "6.29.0"
     latestReleaseDate: 2023-01-24
     link: https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
@@ -50,7 +47,6 @@ releases:
 -   releaseCycle: "5"
     releaseDate: 2018-09-18
     eol: 2021-01-01
-    lts: false
     latest: "5.5.22"
     latestReleaseDate: 2020-10-09
     link: https://www.puppet.com/docs/puppet/5.5/release_notes.html
