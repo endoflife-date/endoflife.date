@@ -27,6 +27,7 @@ releases:
     eol: 2025-05-09
     latest: "3.18.2"
     latestReleaseDate: 2023-06-14
+    link: https://alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
