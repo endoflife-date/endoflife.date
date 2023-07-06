@@ -18,6 +18,13 @@ eolColumn: Support Status
 
 # EOL dates can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
+
+-   releaseCycle: "8.1"
+    releaseDate: 2023-06-25
+    eol: 2024-04-09
+    latest: '8.1'
+    latestReleaseDate: 2023-06-25
+
 -   releaseCycle: "8.0"
     releaseDate: 2023-03-05
     eol: 2023-12-19
