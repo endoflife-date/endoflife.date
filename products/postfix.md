@@ -122,8 +122,7 @@ releases:
 ---
 
 >[Postfix](https://www.postfix.org/) is Wietse Venema's mail server that started life at IBM
-> research as an alternative to the widely-used Sendmail program. Now at Google, Wietse continues to
-> support Postfix. Postfix attempts to be fast, easy to administer, and secure. The outside has a
-> definite Sendmail-ish flavor, but the inside is completely different.
+> research as an alternative to the widely-used Sendmail program.
+> Postfix attempts to be fast, easy to administer, and secure.
 
 Typically last 4 releases are supported and receive patches.
