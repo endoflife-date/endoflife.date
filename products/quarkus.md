@@ -18,8 +18,8 @@ releaseColumn: true
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 auto:
 -   github_releases: quarkusio/quarkus
-    # See https://rubular.com/r/NyoXd9iCLFcl25 for reference
-    regex: '^(?P<version>[1-9][\d\.]+)(\.Final)?$'
+    # See https://regex101.com/r/4mf9xU/1 for reference
+    regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
 
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
