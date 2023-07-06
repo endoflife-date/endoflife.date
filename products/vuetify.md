@@ -20,17 +20,17 @@ releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.3.6"
+    latest: "3.3.7"
     lts: false
-    latestReleaseDate: 2023-06-27
+    latestReleaseDate: 2023-07-05
     releaseDate: 2022-10-31
 
 -   releaseCycle: "2"
     support: 2021-11-15
     eol: false
-    latest: "2.6.15"
+    latest: "2.7.0"
     lts: false
-    latestReleaseDate: 2023-04-12
+    latestReleaseDate: 2023-07-05
     releaseDate: 2019-07-23
 
 -   releaseCycle: "1.5"
