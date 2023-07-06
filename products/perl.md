@@ -31,6 +31,13 @@ auto:
 #   - true for the last 2 releases
 #   - releaseDate(R+2) for other releases (e.g. support(5.34) = releaseDate(5.36))
 releases:
+-   releaseCycle: "5.38"
+    support: true
+    eol: 2026-07-02
+    latest: "5.38.0"
+    latestReleaseDate: 2023-07-02
+    releaseDate: 2023-07-02
+
 -   releaseCycle: "5.36"
     support: true
     eol: 2025-05-27
