@@ -35,11 +35,18 @@ auto:
     regex:
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 
-releases:
+releases: 
+-   releaseCycle: "6"
+    releaseDate: 2023-07-06
+    link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
+    eol: false
+    latest: '6.1'
+    latestReleaseDate: 
+
 -   releaseCycle: "5"
     releaseDate: 2021-07-31
     link: http://www.squid-cache.org/Versions/v5/squid-__LATEST__-RELEASENOTES.html
-    eol: false
+    eol: 2023-07-06
     latest: '5.9'
     latestReleaseDate: 2023-05-01
 
