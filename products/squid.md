@@ -41,7 +41,7 @@ releases:
     link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
     eol: false
     latest: '6.1'
-    latestReleaseDate: 
+    latestReleaseDate: 2023-07-06
 
 -   releaseCycle: "5"
     releaseDate: 2021-07-31
