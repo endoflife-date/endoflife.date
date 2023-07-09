@@ -17,6 +17,8 @@ identifiers:
 
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
 
+# eol(x) = releaseDate(x) + 6m (non-LTS)
+# For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
 
 -   releaseCycle: "2.45"
