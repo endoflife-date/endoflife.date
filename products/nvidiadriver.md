@@ -12,61 +12,87 @@ releaseColumn: true
 versionCommand: nvidia-smi
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 releases:
-  -   releaseCycle: "R530-Windows (NFB)"
+  -   releaseCycle: "R535-Windows"
+      lts: true
       support: true
+      eol: 2026-06-01
+      latest: "536.25"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-54-03/
+      releaseDate: 2023-05-30
+      latestReleaseDate: 2023-06-26
+
+  -   releaseCycle: "R535-Linux"
+      lts: true
+      support: true
+      eol: 2026-06-01
+      latest: "535.54.03"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-54-03/
+      releaseDate: 2023-06-14
+      latestReleaseDate: 2023-06-26
+
+  -   releaseCycle: "R530-Windows (NFB)"
+      support: false
       eol: 2023-06-24
       latest: "531.79"
       link: https://www.nvidia.com/Download/driverResults.aspx/204772/
-      releaseDate: 2023-03-23
+      releaseDate: 2023-02-28
+      latestReleaseDate: 2023-05-02
 
   -   releaseCycle: "R530-Linux (NFB)"
-      support: true
+      support: false
       eol: 2023-06-24
       latest: "530.41.03"
       link: https://www.nvidia.com/Download/driverResults.aspx/200481/
       releaseDate: 2023-03-23
+      latestReleaseDate: 2023-03-23
 
   -   releaseCycle: "R525-Windows (PB)"
       support: true
       eol: 2023-12-01
-      latest: "528.95"
-      link: https://www.nvidia.com/Download/driverResults.aspx/204574/
+      latest: "529.11"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-525-125-06/
       releaseDate: 2022-11-10
+      latestReleaseDate: 2023-06-26
 
   -   releaseCycle: "R525-Linux (PB)"
       support: true
       eol: 2023-12-01
-      latest: "525.116.03"
-      link: https://www.nvidia.com/Download/driverResults.aspx/204639/
+      latest: "525.125.06"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-525-125-06/
       releaseDate: 2022-11-10
+      latestReleaseDate: 2023-06-26
 
   -   releaseCycle: "R515-Windows (PB)"
-      support: true
+      support: false
       eol: 2023-05-01
-      latest: "517.71"
-      link: https://www.nvidia.com/download/driverResults.aspx/195851/
+      latest: "518.03"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-105-01/
       releaseDate: 2022-05-11
+      latestReleaseDate: 2023-03-30
 
   -   releaseCycle: "R515-Linux (PB)"
-      support: true
+      support: false
       eol: 2023-05-01
       latest: "515.105.01"
-      link: https://www.nvidia.com/Download/driverResults.aspx/202059/
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-105-01/
       releaseDate: 2022-05-11
+      latestReleaseDate: 2023-03-30
 
   -   releaseCycle: "R510-Windows (PB)"
-      support: true
+      support: false
       eol: 2023-01-01
       latest: "513.91"
       link: https://www.nvidia.com/download/driverResults.aspx/194565/
       releaseDate: 2022-01-14
+      latestReleaseDate: 2022-11-22
 
   -   releaseCycle: "R510-Linux (PB)"
-      support: true
+      support: false
       eol: 2023-01-01
       latest: "510.108.03"
       link: https://www.nvidia.com/download/driverResults.aspx/194569/
       releaseDate: 2022-01-14
+      latestReleaseDate: 2022-11-22
 
   -   releaseCycle: "R495-Windows (NFB)"
       support: false
@@ -74,6 +100,7 @@ releases:
       latest: "497.29"
       link: https://www.nvidia.com/Download/driverResults.aspx/184717/
       releaseDate: 2021-10-12
+      latestReleaseDate: 2021-12-20
 
   -   releaseCycle: "R495-Linux (NFB)"
       support: false
@@ -81,22 +108,25 @@ releases:
       latest: "495.46"
       link: https://www.nvidia.com/Download/driverResults.aspx/184248/
       releaseDate: 2021-10-26
+      latestReleaseDate: 2021-12-13
 
   -   releaseCycle: "R470-Windows"
       lts: true
       support: 2021-09-20
       eol: 2024-07-01
-      latest: "474.04"
-      link: https://www.nvidia.com/Download/driverResults.aspx/196634/
+      latest: "474.44"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-199-02/
       releaseDate: 2021-06-22
+      latestReleaseDate: 2023-06-23
 
   -   releaseCycle: "R470-Linux"
       lts: true
       support: 2021-10-26
       eol: 2024-07-20
-      latest: "470.182.03"
-      link: https://www.nvidia.com/Download/driverResults.aspx/200634/
+      latest: "470.199.02"
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-199-02/
       releaseDate: 2021-07-19
+      latestReleaseDate: 2023-06-23
 
   -   releaseCycle: "R460-Windows (PB)"
       support: 2021-06-23
@@ -104,6 +134,7 @@ releases:
       latest: "462.96"
       link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
       releaseDate: 2020-12-15
+      latestReleaseDate: 2021-07-20
 
   -   releaseCycle: "R460-Linux (PB)"
       support: 2021-07-19
@@ -111,22 +142,25 @@ releases:
       latest: "460.91.03"
       link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-91-03/
       releaseDate: 2021-01-07
+      latestReleaseDate: 2021-07-20
 
   -   releaseCycle: "R450-Windows"
       lts: true
       support: 2020-12-15
       eol: 2023-07-01
       latest: "453.94"
-      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-216-04/index.html
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-216-04/
       releaseDate: 2020-06-24
+      latestReleaseDate: 2022-11-22
 
   -   releaseCycle: "R450-Linux"
       lts: true
       support: 2020-10-07
       eol: 2023-07-01
       latest: "450.216.04"
-      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-216-04/index.html
+      link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-216-04/
       releaseDate: 2020-06-24
+      latestReleaseDate: 2022-11-22
 
   -   releaseCycle: "R418-Windows"
       lts: true
@@ -135,6 +169,7 @@ releases:
       latest: "427.45"
       link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
       releaseDate: 2019-02-04
+      latestReleaseDate: 2021-04-20
 
   -   releaseCycle: "R418-Linux"
       lts: true
@@ -143,6 +178,7 @@ releases:
       latest: "418.197.02"
       link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
       releaseDate: 2019-01-30
+      latestReleaseDate: 2021-04-19
 
   -   releaseCycle: "R390-Windows"
       lts: true
@@ -151,6 +187,8 @@ releases:
       latest: "392.68"
       link: https://www.nvidia.com/download/driverResults.aspx/181267/
       releaseDate: 2018-01-08
+      latestReleaseDate: 2021-10-26
+
   -   releaseCycle: "R390-Linux"
       lts: true
       support: 2018-03-10
@@ -158,6 +196,7 @@ releases:
       latest: "390.157"
       link: https://www.nvidia.com/Download/driverResults.aspx/196214/
       releaseDate: 2018-01-04
+      latestReleaseDate: 2022-11-22
 
 ---
 
