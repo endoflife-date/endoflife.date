@@ -116,8 +116,8 @@ releases:
 > Artifactory provides support for a number of package formats such as Maven, Conan, Debian APT,
 > NPM, Helm, Ruby, Python, and Docker.
 
-Artifactory is proposed both as self-hosted and SaaS. This page only tracks releases for the
-self-hosted offer. Note that not all releases are made available to self-hosted customers, hence
+Artifactory is available in self-hosted and SaaS editions. This page only tracks releases for the
+self-hosted offering. Note that not all releases are made available to self-hosted customers, hence
 the gaps between the release cycles.
 
 JFrog supports all versions of Artifactory from their date of release going forward 18 months. But
