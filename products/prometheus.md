@@ -12,7 +12,7 @@ auto:
 identifiers:
 -   repology: prometheus
 -   purl: pkg:docker/prom/prometheus
--   purl: pkg:oci/prometheus?repository_url=https://quay.io/repository/prometheus
+-   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
 -   purl: pkg:github/prometheus/prometheus
 
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
