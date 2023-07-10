@@ -23,8 +23,14 @@ auto:
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
--   releaseCycle: "1.8"
+-   releaseCycle: "1.9"
+    releaseDate: 2023-07-06
     eol: false
+    latest: "1.9.0"
+    latestReleaseDate: 2023-07-06
+
+-   releaseCycle: "1.8"
+    eol: 2023-07-06
     latest: "1.8.22"
     latestReleaseDate: 2023-06-07
     releaseDate: 2022-12-28

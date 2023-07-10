@@ -7,7 +7,7 @@ releasePolicyLink: https://www.postfix.org/announcements.html
 activeSupportColumn: false
 releaseDateColumn: true
 
-
+# We ignore tags before 3.3 because they don't have the correct date
 auto:
 -   git: https://github.com/vdukhovni/postfix.git
     regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
@@ -68,11 +68,11 @@ releases:
     latest: "3.1.15"
     latestReleaseDate: 2020-02-03
     releaseDate: 2016-02-24
-    link: https://www.postfix.org/announcements/postfix-3.5.10.html
+    link: https://www.postfix.org/announcements/postfix-3.4.9.html
 
 -   releaseCycle: "3.0"
     eol: 2019-02-27 # 3.4 release
-    latest: "3.1.15"
+    latest: "3.0.15"
     latestReleaseDate: 2019-02-26
     releaseDate: 2015-02-08
     link: https://www.postfix.org/announcements/postfix-3.3.3.html
@@ -105,11 +105,24 @@ releases:
     releaseDate: 2011-01-20
     link: https://www.postfix.org/announcements/postfix-2.11.4.html
 
+-   releaseCycle: "2.6"
+    releaseDate: 2009-05-12
+    eol: 2013-02-11 # 2.10 release
+    latest: "2.6.19"
+    latestReleaseDate: 2013-02-04
+    link: https://www.postfix.org/announcements/postfix-2.9.6.html
+
+-   releaseCycle: "2.5"
+    releaseDate: 2008-01-24
+    eol: 2012-02-06 # never announced, so set to latestReleaseDate
+    latest: "2.5.17"
+    latestReleaseDate: 2012-02-06
+    link: https://www.postfix.org/announcements/postfix-2.7.8.html
+
 ---
 
 >[Postfix](https://www.postfix.org/) is Wietse Venema's mail server that started life at IBM
-> research as an alternative to the widely-used Sendmail program. Now at Google, Wietse continues to
-> support Postfix. Postfix attempts to be fast, easy to administer, and secure. The outside has a
-> definite Sendmail-ish flavor, but the inside is completely different.
+> research as an alternative to the widely-used Sendmail program.
+> Postfix attempts to be fast, easy to administer, and secure.
 
 Typically last 4 releases are supported and receive patches.

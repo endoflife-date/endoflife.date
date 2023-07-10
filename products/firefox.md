@@ -15,9 +15,16 @@ auto:
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 releases:
+
+-   releaseCycle: "115"
+    releaseDate: 2023-07-04
+    eol: false
+    latest: "115.0"
+    latestReleaseDate: 2023-07-04
+
 -   releaseCycle: "114"
     releaseDate: 2023-06-06
-    eol: false
+    eol: 2023-07-04
     latest: "114.0.2"
     latestReleaseDate: 2023-06-20
 
@@ -91,8 +98,8 @@ releases:
     lts: true
     releaseDate: 2022-06-28
     eol: false
-    latest: "102.12.0"
-    latestReleaseDate: 2023-06-06
+    latest: "102.13.0"
+    latestReleaseDate: 2023-07-04
 
 -   releaseCycle: "91"
     lts: true
