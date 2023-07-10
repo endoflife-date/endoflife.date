@@ -20,9 +20,9 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 U1a"
-    latestReleaseDate: 2023-06-01
-    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u1a-release-notes/index.html"
+    latest: "8.0 U1b"
+    latestReleaseDate: 2023-06-22
+    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u1b-release-notes/index.html"
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
