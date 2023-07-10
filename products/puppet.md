@@ -8,10 +8,8 @@ alternate_urls:
 -   /puppet-osp
 -   /puppet-agent
 versionCommand: puppet --version
-releasePolicyLink:
-  https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
-changelogTemplate:
-  https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
+releasePolicyLink: https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
+changelogTemplate: https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
@@ -28,24 +26,27 @@ releases:
     eol: false
     latest: "8.1.0"
     latestReleaseDate: 2023-06-13
-    link: https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
+    link: 
+      https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
 
 -   releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: false
     latest: "7.25.0"
     latestReleaseDate: 2023-06-12
-    link: https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
+    link: 
+      https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
 
 -   releaseCycle: "6"
     releaseDate: 2018-09-18
     eol: 2023-02-01
     latest: "6.29.0"
     latestReleaseDate: 2023-01-24
-    link: https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
+    link: 
+      https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
 
 -   releaseCycle: "5"
-    releaseDate: 2018-09-18
+    releaseDate: 2017-06-27
     eol: 2021-01-01
     latest: "5.5.22"
     latestReleaseDate: 2020-10-09

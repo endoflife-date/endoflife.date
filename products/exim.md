@@ -9,7 +9,7 @@ releaseDateColumn: true
 # https://rubular.com/r/oNyoh1qDT1V2eF
 auto:
 -   git: https://github.com/Exim/exim
-    regex:
+    regex: 
       ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
 
 identifiers:
@@ -148,17 +148,17 @@ releases:
     link: https://github.com/Exim/exim/releases/tag/exim-4_75
 
 -   releaseCycle: "4.74"
-    releaseDate: 2011-01-25
+    releaseDate: 2011-01-24
     eol: 2011-03-22
     latest: "4.74"
-    latestReleaseDate: 2011-01-25
+    latestReleaseDate: 2011-01-24
     link: https://github.com/Exim/exim/releases/tag/exim-4_74
 
 -   releaseCycle: "4.73"
-    releaseDate: 2010-12-27
+    releaseDate: 2010-12-26
     eol: 2011-01-25
     latest: "4.73"
-    latestReleaseDate: 2010-12-27
+    latestReleaseDate: 2010-12-26
     link: https://github.com/Exim/exim/releases/tag/exim-4_73
 
 -   releaseCycle: "4.72"
@@ -169,39 +169,39 @@ releases:
     link: https://github.com/Exim/exim/releases/tag/exim-4_72
 
 -   releaseCycle: "4.71"
-    releaseDate: 2009-11-24
+    releaseDate: 2009-11-23
     eol: 2010-06-03
     latest: "4.71"
-    latestReleaseDate: 2009-11-24
+    latestReleaseDate: 2009-11-23
     link: https://github.com/Exim/exim/releases/tag/exim-4_71
 
 
 -   releaseCycle: "4.70"
-    releaseDate: 2009-11-14
+    releaseDate: 2009-11-13
     eol: 2009-11-24
     latest: "4.70"
-    latestReleaseDate: 2009-11-14
+    latestReleaseDate: 2009-11-13
     link: https://github.com/Exim/exim/releases/tag/exim-4_70
 
 -   releaseCycle: "4.69"
-    releaseDate: 2007-12-02
+    releaseDate: 2007-12-01
     eol: 2009-11-14
     latest: "4.69"
-    latestReleaseDate: 2007-12-02
+    latestReleaseDate: 2007-12-01
     link: https://github.com/Exim/exim/releases/tag/exim-4_69
 
 -   releaseCycle: "4.68"
-    releaseDate: 2007-08-31
+    releaseDate: 2007-08-30
     eol: 2007-12-02
     latest: "4.68"
-    latestReleaseDate: 2007-08-31
+    latestReleaseDate: 2007-08-30
     link: https://github.com/Exim/exim/releases/tag/exim-4_68
 
 -   releaseCycle: "4.67"
-    releaseDate: 2007-04-18
+    releaseDate: 2007-04-17
     eol: 2007-08-31
     latest: "4.67"
-    latestReleaseDate: 2007-04-18
+    latestReleaseDate: 2007-04-17
     link: https://github.com/Exim/exim/releases/tag/exim-4_67
 
 -   releaseCycle: "4.66"
@@ -226,24 +226,24 @@ releases:
     link: https://github.com/Exim/exim/releases/tag/exim-4_64
 
 -   releaseCycle: "4.63"
-    releaseDate: 2006-08-01
+    releaseDate: 2006-07-31
     eol: 2006-12-20
     latest: "4.63"
-    latestReleaseDate: 2006-08-01
+    latestReleaseDate: 2006-07-31
     link: https://github.com/Exim/exim/releases/tag/exim-4_63
 
 -   releaseCycle: "4.62"
-    releaseDate: 2006-04-29
+    releaseDate: 2006-04-28
     eol: 2006-08-01
     latest: "4.62"
-    latestReleaseDate: 2006-04-29
+    latestReleaseDate: 2006-04-28
     link: https://github.com/Exim/exim/releases/tag/exim-4_62
 
 -   releaseCycle: "4.61"
-    releaseDate: 2006-04-05
+    releaseDate: 2006-04-04
     eol: 2006-04-29
     latest: "4.61"
-    latestReleaseDate: 2006-04-05
+    latestReleaseDate: 2006-04-04
     link: https://github.com/Exim/exim/releases/tag/exim-4_61
 
 -   releaseCycle: "4.54"
@@ -275,11 +275,12 @@ releases:
     link: https://github.com/Exim/exim/releases/tag/exim-4_51
 
 -   releaseCycle: "4.50"
-    releaseDate: 2005-02-18
+    releaseDate: 2005-02-17
     eol: 2005-05-04
     latest: "4.50"
-    latestReleaseDate: 2005-02-18
+    latestReleaseDate: 2005-02-17
     link: https://github.com/Exim/exim/releases/tag/exim-4_50
+
 ---
 
 > [Exim](https://www.exim.org/) is a message transfer agent (MTA) licensed

@@ -4,7 +4,8 @@ category: service
 tags: amazon managed-postgresql
 iconSlug: amazonaws
 permalink: /amazon-rds-postgresql
-releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+releasePolicyLink: 
+  https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
 releaseDateColumn: true
 
 auto:
@@ -18,7 +19,7 @@ releases:
     latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "14"
-    releaseDate: 2022-01-27
+    releaseDate: 2022-02-03
     eol: 2026-11-01
     latest: "14.8"
     latestReleaseDate: 2023-05-25
