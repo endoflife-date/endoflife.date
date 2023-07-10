@@ -104,7 +104,7 @@ releases:
     latestReleaseDate: 2021-09-10
 
 -   releaseCycle: "7.24"
-    releaseDate: 2021-09-02
+    releaseDate: 2021-08-11
     eol: 2023-02-11
     latest: "7.24.7"
     latestReleaseDate: 2021-12-16
