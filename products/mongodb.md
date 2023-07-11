@@ -60,8 +60,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-01
-    latest: "6.0.7"
-    latestReleaseDate: 2023-06-22
+    latest: "6.0.8"
+    latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -87,14 +87,14 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-01
-    latest: "5.0.18"
-    latestReleaseDate: 2023-05-15
+    latest: "5.0.19"
+    latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
     eol: 2024-02-01
-    latest: "4.4.22"
-    latestReleaseDate: 2023-05-16
+    latest: "4.4.23"
+    latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-08-09
