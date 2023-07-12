@@ -162,3 +162,5 @@ LimeSurvey usually supports multiple major versions at a time, however, within a
 - **Extended Support**: On top of normal support, major versions receive additional security-only fixes for at least one additional year.
 
 Even though LimeSurvey has dropped the previously used Long-Term-Support (LTS) model, the project might decide to extend support for some versions. For example, extended support of LimeSurvey 3 was prolonged till the end of July 2023. Customers of LimeSurvey's paid *LimeSurvey Cloud* service receive additional support of LimeSurvey 3 till the end of September 2023.
+
+LimeSurvey loosely follows [Semantic Versioning](https://semver.org): Major releases (e.g. LimeSurvey 6) include new features and may break backwards compatibility, minor releases (e.g. LimeSurvey 6.1) include new features without breaking backwards compatibility, and patch releases (e.g. LimeSurvey 6.1.2) usually include just bug fixes. New patch versions are usually released once a week.
