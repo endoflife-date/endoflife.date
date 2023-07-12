@@ -12,9 +12,9 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'}}/"
 LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
-activeSupportColumn: true
 releaseColumn: false
 releaseDateColumn: true
+extendedSupportColumn: true
 
 identifiers:
 -   cpe: cpe:/o:suse:sles
