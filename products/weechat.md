@@ -5,7 +5,7 @@ permalink: /weechat
 releaseDateColumn: true
 eolColumn: Active Support
 releaseColumn: true
-changelogTemplate: "https://weechat.org/files/doc/weechat/ReleaseNotes-__LATEST__.html"
+changelogTemplate: "https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.html"
 
 versionCommand: weechat --version
 
