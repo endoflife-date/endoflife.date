@@ -69,8 +69,8 @@ releases:
     lts: true
     eol: 2023-07-11
     releaseDate: 2021-11-08
-    latest: "17.0.22"
-    latestReleaseDate: 2023-06-13
+    latest: "17.0.23"
+    latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "16.11"
     codename: "2019"
