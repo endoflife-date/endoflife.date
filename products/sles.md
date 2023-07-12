@@ -11,10 +11,10 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-SLES/{{'__RELEASE_CYCLE__'|replace:'.','-SP'}}/"
-LTSLabel: "<abbr title='Long Term Service Pack Support'>LTSS</abbr>"
 releaseColumn: false
 releaseDateColumn: true
-extendedSupportColumn: true
+eolColumn: General Support
+extendedSupportColumn: Long Term Service Pack Support
 
 identifiers:
 -   cpe: cpe:/o:suse:sles
@@ -137,7 +137,7 @@ releases:
 > [Suse Linux Enterprise Server](https://www.suse.com/products/server/) is a modular linux
 > distribution for both multimodal and traditional IT.
 
-SLES has a thirteen-year product lifecycle. The current support model consists of 10 years of
+SLES has a thirteen-year product lifecycle for major versions. The current support model consists of 10 years of
 general support, followed by up to 3 years of paid Long Term Service Pack Support (LTSS). Major versions are
 released at an interval of 3–4 years, while minor versions (called "Service Packs") are released
 about every 12 months. SLES receives more intense testing than the upstream openSUSE community
