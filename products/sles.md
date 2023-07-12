@@ -130,6 +130,7 @@ releases:
     releaseDate: 2006-07-17
     eol: 2007-12-31
     extendedSupport: 2007-12-31
+    link: null
 
 ---
 
