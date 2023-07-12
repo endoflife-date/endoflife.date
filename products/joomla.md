@@ -5,8 +5,8 @@ tags: php-runtime
 iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
-changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'\
-  \ | split: '.' | slice: 0, 2 | join: '.'}}_version_history#Joomla___LATEST__"
+changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'
+  | split: '.' | slice: 0, 2 | join: '.'}}_version_history#Joomla___LATEST__"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -19,15 +19,15 @@ releases:
     eol: false
     support: true
     releaseDate: 2021-08-17
-    latest: "4.3.2"
-    latestReleaseDate: 2023-05-27
+    latest: "4.3.3"
+    latestReleaseDate: 2023-07-06
 
 -   releaseCycle: "3"
     eol: 2023-08-17
     support: false
     releaseDate: 2012-09-27
-    latest: "3.10.11"
-    latestReleaseDate: 2022-08-14
+    latest: "3.10.12"
+    latestReleaseDate: 2023-07-08
 
 ---
 
