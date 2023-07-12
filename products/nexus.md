@@ -35,11 +35,11 @@ releases:
 
 ---
 
-> [Nexus Repository OSS](https://www.sonatype.com/products/repository-oss-download) is an open
+> [Nexus Repository OSS](https://help.sonatype.com/repomanager3/product-information/download) is an open
 > source repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
 
 Only the latest version of each major release is supported.
 
 Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
-additional features with [Nexus Repository Pro](https://www.sonatype.com/products/repository-oss-vs-pro-features).
+additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
