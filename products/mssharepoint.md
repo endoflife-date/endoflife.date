@@ -26,7 +26,7 @@ releases:
     eol: 2026-07-14
     latest: "16.0.10400.20008"
     latestReleaseDate: 2023-07-11
-    link: https://support.microsoft.com/help/500242
+    link: https://support.microsoft.com/help/5002423
 
 -   releaseCycle: "2016"
     releaseDate: 2016-05-01
