@@ -11,6 +11,7 @@ releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#maj
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
+
 auto:
 -   git: https://github.com/envoyproxy/envoy.git
 
