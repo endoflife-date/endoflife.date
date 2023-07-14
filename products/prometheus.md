@@ -22,6 +22,7 @@ changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATE
 releases:
 
 -   releaseCycle: "2.45"
+    lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
     latestReleaseDate: 2023-06-23
