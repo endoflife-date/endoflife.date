@@ -68,7 +68,7 @@ releases:
 > accessed by a distributed system or cluster of machines. It is used as the
 > backing store by [Kubernetes](/kubernetes).
 
-Backwards-compatible bugs are fixed for the latest two stable releases. A
+etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are fixed for the latest two stable releases. A
 patch release to each supported release branch, incorporating any bug fixes
 happens every two weeks.
 
