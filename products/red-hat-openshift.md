@@ -16,6 +16,9 @@ activeSupportColumn: Full Support
 eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
