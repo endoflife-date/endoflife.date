@@ -200,5 +200,6 @@ releases:
 All stable releases released in the last 12 months are supported with
 security, stability fixes, and any other bugfixes deemed worthwhile.
 
-Major releases happen quartely on a fixed release schedule (the 15th day of each quarter),
-with an acceptable delay of up to 2 weeks and a hard deadline of 3 weeks.
+Major releases [happen quartely on a fixed release schedule](https://bit.ly/envoy-stable-releases)
+(the 15th day of each quarter), with an acceptable delay of up to
+2 weeks and a hard deadline of 3 weeks.
