@@ -98,6 +98,6 @@ Prometheus promises API stability within a major version, and strives to avoid b
 Prometheus LTS only receive bug, security, and documentation fixes, but over a time window of one year. The build toolchain will also be kept up-to-date.
 The following features are excluded from [LTS Support](https://prometheus.io/docs/introduction/release-cycle/#limitations-of-lts-support):
 
-- Features listed as `unstable` in the [API stability guarantees](https://prometheus.io/docs/prometheus/latest/stability/).
-- Experimental features.
+- features listed as `unstable` in the [API stability guarantees](https://prometheus.io/docs/prometheus/latest/stability/),
+- experimental features,
 - OpenBSD support.
