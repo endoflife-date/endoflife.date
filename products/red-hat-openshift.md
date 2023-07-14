@@ -17,8 +17,7 @@ eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
 
 auto:
-  # You can find the script here: https://github.com/endoflife-date/release-data/tree/main/src
-  - custom: true
+-   custom: true
 
 releases:
 -   releaseCycle: "4.13"
