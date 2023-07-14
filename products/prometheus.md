@@ -71,6 +71,7 @@ releases:
     latest: "2.38.0"
 
 -   releaseCycle: "2.37"
+    lts: true
     releaseDate: 2022-07-14
     eol: 2023-07-31
     latestReleaseDate: 2023-05-05
