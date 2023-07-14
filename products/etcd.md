@@ -63,7 +63,7 @@ releases:
 
 ---
 
-> [etcd](https://etcd.io) is an open-source, strongly consistent, distributed
+> [etcd](https://etcd.io) is an open-source, strongly consistent and distributed
 > key-value store that provides a reliable way to store data that needs to be
 > accessed by a distributed system or cluster of machines. It is used as the
 > backing store by Kubernetes.
