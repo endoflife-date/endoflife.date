@@ -123,8 +123,8 @@ releases:
     latestReleaseDate: 2019-10-08
 
 -   releaseCycle: "1.10"
-    eol: 2019-07-11
     releaseDate: 2019-04-05
+    eol: 2019-07-11
     latest: '1.10.0'
     latestReleaseDate: 2019-04-05
 
