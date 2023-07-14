@@ -84,9 +84,9 @@ releases:
 
 ---
 
-[Prometheus](https://prometheus.io/) is an open-source systems monitoring and alerting toolkit. Prometheus
-is part of the Cloud Native Computing Foundation and is released under the
-Apace 2.0 License.
+> [Prometheus](https://prometheus.io/) is an open-source system monitoring and alerting toolkit.
+> Prometheus is part of the Cloud Native Computing Foundation (CNCF) and is released under the
+> Apache 2.0 license.
 
 ## Release Cadence
 
