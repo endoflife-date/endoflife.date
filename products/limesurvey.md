@@ -3,13 +3,12 @@ title: LimeSurvey
 category: server-app
 tags: php-runtime
 permalink: /limesurvey
+versionCommand: php -r 'require($_SERVER["argv"][1]); echo $config["versionnumber"]."\n";' -- "$WEBROOT/application/config/version.php"
+releasePolicyLink: https://manual.limesurvey.org/LimeSurvey_roadmap
 releaseDateColumn: true
 activeSupportColumn: Normal Support
 eolColumn: Extended Support
 releaseColumn: true
-releasePolicyLink: https://manual.limesurvey.org/LimeSurvey_roadmap
-
-versionCommand: php -r 'require($_SERVER["argv"][1]); echo $config["versionnumber"]."\n";' -- "$WEBROOT/application/config/version.php"
 
 auto:
   - git: https://github.com/LimeSurvey/LimeSurvey.git
@@ -154,13 +153,13 @@ releases:
 
 ---
 
-> [LimeSurvey](https://www.limesurvey.org/) is a free and open source online statistical survey web app written in PHP based on a relational database, distributed under the GNU General Public License.
+> [LimeSurvey](https://www.limesurvey.org/) is a free and open source online statistical survey web app written in PHP, based on a relational database and distributed under the GNU General Public License.
 
-LimeSurvey usually supports multiple major versions at a time, however, within a major version support is limited to the respective latest version. The support of minor versions ends by the release of the next minor version (i.e. the release of LimeSurvey 6.1 ends the support of LimeSurvey 6.0). Each major version will have support periods as follows:
+LimeSurvey usually supports multiple major versions at a time, however, within a major version support is limited to the respective latest version. The support of minor versions ends with the release of the next minor version (i.e. the release of LimeSurvey 6.1 ends the support of LimeSurvey 6.0). Each major version will have support periods as follows:
 
-- **Normal Support**: A new major release receives security fixes as well as non-breaking changes and updates for at last two years from the initial release.
+- **Normal Support**: A new major release receives security fixes as well as non-breaking changes and updates for at least two years from the initial release.
 - **Extended Support**: On top of normal support, major versions receive additional security-only fixes for at least one additional year.
 
 Even though LimeSurvey has dropped the previously used Long-Term-Support (LTS) model, the project might decide to extend support for some versions. For example, extended support of LimeSurvey 3 was prolonged till the end of July 2023. Customers of LimeSurvey's paid *LimeSurvey Cloud* service receive additional support of LimeSurvey 3 till the end of September 2023.
 
-LimeSurvey loosely follows [Semantic Versioning](https://semver.org): Major releases (e.g. LimeSurvey 6) include new features and may break backwards compatibility, minor releases (e.g. LimeSurvey 6.1) include new features without breaking backwards compatibility, and patch releases (e.g. LimeSurvey 6.1.2) usually include just bug fixes. New patch versions are usually released once a week.
+LimeSurvey loosely follows [Semantic Versioning](https://semver.org): major releases (e.g. LimeSurvey 6) include new features and may break backwards compatibility, minor releases (e.g. LimeSurvey 6.1) include new features without breaking backwards compatibility, and patch releases (e.g. LimeSurvey 6.1.2) usually include just bug fixes. New patch versions are usually released once a week.
