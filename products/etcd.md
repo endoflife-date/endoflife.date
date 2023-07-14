@@ -7,7 +7,7 @@ permalink: /etcd
 versionCommand: etcdctl version
 releasePolicyLink: 
   https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/branch_management.md#stable-branches
-changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 activeSupportColumn: false
 releaseDateColumn: true
 
