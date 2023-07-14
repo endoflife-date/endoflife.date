@@ -57,7 +57,7 @@ releases:
 
 -   releaseCycle: "3.0"
     releaseDate: 2016-06-30
-    eol: 2017-01-20 # latestReleaseDate(3.2)
+    eol: 2017-01-20 # latestReleaseDate(3.0)
     latest: '3.0.17'
     latestReleaseDate: 2017-01-20
 
