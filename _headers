@@ -44,7 +44,7 @@ layout: null
   Access-Control-Max-Age: 86400
 
 # Configuration for all "pages" in the website (e.g. product pages, website pages such as / or /recommendations, API "pages"...).
-{% assign defaultCspImgSrc="'self' https://img.shields.io https://www.netlify.com https://simpleicons.org/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
+{% assign defaultCspImgSrc="'self' https://img.shields.io https://www.netlify.com https://cdn.jsdelivr.net/ https://github.githubassets.com/ https://user-images.githubusercontent.com/" %}
 {%- for page in site.html_pages -%}
 {{page.url}}
   {%- if page.layout == 'product' %}
