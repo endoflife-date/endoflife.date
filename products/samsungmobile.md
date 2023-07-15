@@ -1078,7 +1078,7 @@ releases:
 -   releaseCycle: "Galaxy A50"
     releaseDate: 2019-03-18
     support: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-A505G/CHL/doc.html
 
 -   releaseCycle: "Galaxy A30"
@@ -1101,20 +1101,20 @@ releases:
 
 -   releaseCycle: "Galaxy S10"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-G973F/XEF/doc.html
 
 -   releaseCycle: "Galaxy S10+"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-G975F/XEF/doc.html
 
 -   releaseCycle: "Galaxy S10e"
     releaseDate: 2019-02-20
-    support: true
-    eol: false
+    support: false
+    eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/sm-g970f/dbt/doc.html
 
 -   releaseCycle: "Galaxy M20"
