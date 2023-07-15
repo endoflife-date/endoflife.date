@@ -45,7 +45,7 @@ releases:
     latest: "23.3.10"
 
 -   releaseCycle: "22"
-    eol: 2023-05-29
+    eol: 2023-10-10
     releaseDate: 2022-11-30
     latestReleaseDate: 2023-07-05
     latest: "22.3.16"
@@ -159,9 +159,15 @@ releases:
 > to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS,
 > and Linux.
 
-The latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
+Typically, the latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
 Only the latest minor release in each major version is supported. A new major stable version is
 released every 8 weeks.
+
+ℹ️ Electron 22 is temporarily supported until October 10, 2023. This extended
+support is intended to help developers who still need support for Windows 7/8/8.1, which
+ended support in Electron 23. The October support date follows the extended support dates from
+both Chromium and Microsoft. On October 11, support will drop back to the
+latest three stable major versions.
 
 All supported release get fixes backported that were previously merged to main, though this may be
 on a case-by-case basis for some older supported releases. When an API is changed or removed in a
