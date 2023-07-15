@@ -65,7 +65,7 @@ module Jekyll
       # Build the icon URL from the icon slug.
       def set_icon_url(page)
         if page['iconSlug']
-          page.data['iconUrl'] = "https://simpleicons.org/icons/#{page['iconSlug']}.svg"
+          page.data['iconUrl'] = "https://cdn.jsdelivr.net/npm/simple-icons/icons/#{page['iconSlug']}.svg"
         end
       end
 
