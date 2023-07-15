@@ -163,7 +163,7 @@ Typically, the latest [_three_ stable major versions are currently supported](ht
 Only the latest minor release in each major version is supported. A new major stable version is
 released every 8 weeks.
 
-:info: Electron 22 is temporarily supported until October 10, 2023. This extended
+ℹ️ Electron 22 is temporarily supported until October 10, 2023. This extended
 support is intended to help developers who still need support for Windows 7/8/8.1, which
 ended support in Electron 23. The October support date follows the extended support dates from
 both Chromium and Microsoft. On October 11, support will drop back to the
