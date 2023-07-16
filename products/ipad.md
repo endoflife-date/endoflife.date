@@ -21,6 +21,13 @@ releases:
     eol: false
     link: https://support.apple.com/kb/SP884
 
+-   releaseCycle: "pro-6"
+    releaseLabel: "iPad Pro (6th generation)"
+    releaseDate: 2022-10-26
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/kb/SP844
+
 -   releaseCycle: "air-5"
     releaseLabel: "iPad Air (5th generation)"
     releaseDate: 2022-03-18
@@ -42,6 +49,13 @@ releases:
     eol: false
     link: https://support.apple.com/kb/SP850
 
+-   releaseCycle: "pro-5"
+    releaseLabel: "iPad Pro (5th generation)"
+    releaseDate: 2021-05-21
+    discontinued: 2022-10-18
+    eol: false
+    link: https://support.apple.com/kb/SP844
+
 -   releaseCycle: "8"
     releaseLabel: "iPad (8th generation)"
     releaseDate: 2020-09-18
@@ -55,6 +69,13 @@ releases:
     discontinued: 2022-03-08
     eol: false
     link: https://support.apple.com/kb/SP828
+
+-   releaseCycle: "pro-4"
+    releaseLabel: "iPad Pro (4th generation)"
+    releaseDate: 2020-03-25
+    discontinued: 2021-04-20
+    eol: false
+    link: https://support.apple.com/kb/SP815
 
 -   releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
@@ -77,6 +98,13 @@ releases:
     eol: false
     link: https://support.apple.com/kb/SP787
 
+-   releaseCycle: "pro-3"
+    releaseLabel: "iPad Pro (3rd generation)"
+    releaseDate: 2018-11-07
+    discontinued: 2020-03-18
+    eol: false
+    link: https://support.apple.com/kb/SP785
+
 -   releaseCycle: "6"
     releaseLabel: "iPad (6th generation)"
     releaseDate: 2018-03-27
@@ -84,12 +112,26 @@ releases:
     eol: false
     link: https://support.apple.com/kb/SP774
 
+-   releaseCycle: "pro-2"
+    releaseLabel: "iPad Pro (2nd generation)"
+    releaseDate: 2017-06-05
+    discontinued: 2018-10-30
+    eol: false
+    link: https://support.apple.com/kb/SP761
+
 -   releaseCycle: "5"
     releaseLabel: "iPad (5th generation)"
     releaseDate: 2017-03-24
     discontinued: 2018-03-27
     eol: false
     link: https://support.apple.com/kb/SP751
+
+-   releaseCycle: "pro-1"
+    releaseLabel: "iPad Pro (1st generation)"
+    releaseDate: 2015-11-11
+    discontinued: 2017-06-05
+    eol: false
+    link: https://support.apple.com/kb/SP723
 
 -   releaseCycle: "mini-4"
     releaseLabel: "iPad Mini 4"
