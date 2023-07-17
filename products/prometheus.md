@@ -1,6 +1,7 @@
 ---
 title: Prometheus
 category: server-app
+iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 activeSupportColumn: false
@@ -97,7 +98,7 @@ Prometheus promises API stability within a major version, and strives to avoid b
 
 ## Long Term Support
 
-Prometheus LTS only receive bug, security, and documentation fixes, but over a time window of one year. The build toolchain will also be kept up-to-date.
+Prometheus LTS releases only receive bug, security, and documentation fixes, but over a time window of one year. The build toolchain is also be kept up-to-date.
 The following features are excluded from [LTS Support](https://prometheus.io/docs/introduction/release-cycle/#limitations-of-lts-support):
 
 - features listed as `unstable` in the [API stability guarantees](https://prometheus.io/docs/prometheus/latest/stability/),
