@@ -23,6 +23,8 @@ identifiers:
 -   purl: pkg:golang/github.com/etcd-io/etcd
 
 
+# tentative rule:
+# eol(x) = max(latestReleaseDate(x), releaseDate(x+1))
 releases:
 
 -   releaseCycle: "3.5"
@@ -72,7 +74,5 @@ etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are fixed 
 patch release to each supported release branch, incorporating any bug fixes
 happens every two weeks.
 
-Dependencies are _not bumped proactively_ for stable releases unless
-there are any CVEs or bugs that affect etcd.
-
-The list of currently maintained release is [available on GitHub](https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/release.md#release-management).
+The list of currently maintained releases is 
+[available on GitHub](https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/release.md#release-management).
