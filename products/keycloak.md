@@ -5,7 +5,7 @@ tags: java-runtime red-hat
 # https://github.com/simple-icons/simple-icons/issues/8125
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
-changelogTemplate: "https://github.com/keycloak/keycloak/releases/tag/__LATEST__"
+changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
@@ -16,9 +16,15 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "22.0"
+    releaseDate: 2023-07-11
+    eol: false
+    latest: "22.0.0"
+    latestReleaseDate: 2023-06-28
+
 -   releaseCycle: "21.1"
     releaseDate: 2023-04-19
-    eol: false
+    eol: 2023-07-11
     latest: "21.1.2"
     latestReleaseDate: 2023-06-28
 
