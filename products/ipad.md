@@ -114,7 +114,7 @@ releases:
 
 -   releaseCycle: "pro-2"
     releaseLabel: "iPad Pro (2nd generation)"
-    releaseDate: 2017-06-05
+    releaseDate: 2017-06-13
     discontinued: 2018-10-30
     eol: false
     link: https://support.apple.com/kb/SP761
