@@ -30,44 +30,44 @@ releases:
     latest: "2.45.0"
 
 -   releaseCycle: "2.44"
-    releaseDate: 2023-05-14
+    releaseDate: 2023-06-25
     eol: 2023-11-14
     latestReleaseDate: 2023-05-14
     latest: "2.44.0"
 
 -   releaseCycle: "2.43"
     releaseDate: 2023-03-21
-    eol: 2023-09-21
+    eol: 2023-05-02
     latestReleaseDate: 2023-05-04
     latest: "2.43.1"
 
 -   releaseCycle: "2.42"
     releaseDate: 2023-01-31
-    eol: 2023-07-31
+    eol: 2023-03-14
     latestReleaseDate: 2023-01-31
     latest: "2.42.0"
 
 -   releaseCycle: "2.41"
     releaseDate: 2022-12-20
-    eol: 2023-06-20
+    eol: 2023-01-31
     latestReleaseDate: 2022-12-20
     latest: "2.41.0"
 
 -   releaseCycle: "2.40"
     releaseDate: 2022-11-07
-    eol: 2023-05-07
+    eol: 2022-12-19
     latestReleaseDate: 2022-12-14
     latest: "2.40.7"
 
 -   releaseCycle: "2.39"
     releaseDate: 2022-10-05
-    eol: 2023-04-05
+    eol: 2022-11-16
     latestReleaseDate: 2022-11-09
     latest: "2.39.2"
 
 -   releaseCycle: "2.38"
     releaseDate: 2022-08-16
-    eol: 2023-02-16
+    eol: 2022-09-27
     latestReleaseDate: 2022-08-16
     latest: "2.38.0"
 
@@ -80,7 +80,7 @@ releases:
 
 -   releaseCycle: "2.36"
     releaseDate: 2022-05-30
-    eol: 2022-11-30
+    eol: 2022-07-11
     latestReleaseDate: 2022-06-20
     latest: "2.36.2"
 
