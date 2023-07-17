@@ -22,7 +22,7 @@ This page lists recent releases across all known products.
 {% assign releases = site.data.releases | sort: 'cycle.latestReleaseDate' |reverse %}
 {% for r in releases %}
 <tr>
-  <td>{% if r.page.iconUrl %}<img class="product-logo" height=32 width=32 src="{{r.page.iconUrl}}">{%endif%}<a href="{{r.page.permalink}}" title="{{r.page.title}}">{{r.page.title}}</a> {{r.cycle.label}}</td>
+  <td>{% if r.page.iconUrl %}<img class="product-logo" style="float: right" height=32 width=32 src="{{r.page.iconUrl}}">{%endif%}<a href="{{r.page.permalink}}" title="{{r.page.title}}">{{r.page.title}}</a> {{r.cycle.label}}</td>
   <td>
     {% if r.cycle.link %}
     <a href="{{r.cycle.link}}">{{r.cycle.latest}}</a>
