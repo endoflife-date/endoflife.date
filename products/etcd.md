@@ -70,9 +70,9 @@ releases:
 > accessed by a distributed system or cluster of machines. It is used as the
 > backing store by [Kubernetes](/kubernetes).
 
-etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are fixed for the latest two stable releases. A
-patch release to each supported release branch, incorporating any bug fixes
-happens every two weeks.
+etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are
+fixed for the latest two stable releases. A patch release to each supported
+release branch, incorporating any bug fixes, happens every two weeks.
 
 The list of currently maintained releases is 
 [available on GitHub](https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/release.md#release-management).
