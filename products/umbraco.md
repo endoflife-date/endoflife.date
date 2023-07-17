@@ -32,23 +32,23 @@ releases:
     releaseDate: 2023-06-27
     support: 2024-03-29
     eol: 2024-06-29
-    latest: '12.0.0'
-    latestReleaseDate: 2023-06-27
+    latest: '12.0.1'
+    latestReleaseDate: 2023-07-13
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
     support: 2023-08-29
     eol: 2023-11-29
-    latest: '11.4.1'
-    latestReleaseDate: 2023-06-20
+    latest: '11.4.2'
+    latestReleaseDate: 2023-07-13
 
 -   releaseCycle: "10"
     lts: true
     releaseDate: 2022-06-10
     support: 2024-06-10
     eol: 2025-06-10
-    latest: '10.6.0'
-    latestReleaseDate: 2023-07-05
+    latest: '10.6.1'
+    latestReleaseDate: 2023-07-13
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-26

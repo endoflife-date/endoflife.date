@@ -43,7 +43,7 @@ releases:
     releaseDate: 2021-09-16
     eol: 2026-11-30
     latest: '8u372-b07'
-    latestReleaseDate: 2023-11-30
+    latestReleaseDate: 2023-05-26
 
 ---
 

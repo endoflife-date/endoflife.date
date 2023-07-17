@@ -17,8 +17,8 @@ releases:
     releaseDate: 2023-06-19
     support: true # release date of 1.16
     eol: false # release date of 1.20
-    latest: "1.15.2"
-    latestReleaseDate: 2023-07-01
+    latest: "1.15.3"
+    latestReleaseDate: 2023-07-15
 
 -   releaseCycle: "1.14"
     releaseDate: 2022-09-01
