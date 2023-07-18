@@ -30,7 +30,7 @@ releases:
     latest: "2.45.0"
 
 -   releaseCycle: "2.44"
-    releaseDate: 2023-06-25
+    releaseDate: 2023-05-14
     eol: 2023-08-06
     latestReleaseDate: 2023-05-14
     latest: "2.44.0"
