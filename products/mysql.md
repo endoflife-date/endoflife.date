@@ -14,12 +14,12 @@ eolColumn: Extended Support
 # Regex takes into account the first GA release in each cycle (in parentheses)
 # https://docs.oracle.com/cd/E17952_01/mysql-5.5-relnotes-en/index.html (5.5.8)
 # https://dev.mysql.com/doc/relnotes/mysql/5.6/en/ (5.6.10)
-# https://docs.oracle.com/cd/E17952_01/mysql-5.7-relnotes-en/ (5.7.9)
+# https://dev.mysql.com/doc/relnotes/mysql/5.7/en/ (5.7.9)
 # https://dev.mysql.com/doc/relnotes/mysql/8.0/en/ (8.0.11)
+# https://dev.mysql.com/doc/relnotes/mysql/8.1/en/ (8.1.0)
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: 
-      ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))$
+    regex: ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))|((?<c>8\.1)\.(?<v>(1[1-9]|[2-9]\d))))$
     template: "{{c}}.{{v}}"
 
 # dates below are for:
@@ -27,6 +27,13 @@ auto:
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
+-   releaseCycle: "8.1"
+    latest: '8.1.0'
+    support:
+    eol:
+    latestReleaseDate: 2023-07-18
+    releaseDate: 2023-07-18
+
 -   releaseCycle: "8.0"
     latest: '8.0.34'
     support: 2025-04-30
