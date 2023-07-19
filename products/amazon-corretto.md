@@ -39,8 +39,8 @@ releases:
     # Not yet announced on https://aws.amazon.com/corretto/faqs/,
     # using the next 1th or the month from Java 21 release (that what they usually do).
     eol: 2023-10-01
-    latest: "20.0.1.9.1"
-    latestReleaseDate: 2023-04-19
+    latest: "20.0.2.9.1"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "19"
     eol: 2023-04-01
@@ -57,9 +57,9 @@ releases:
 -   releaseCycle: "17"
     lts: true
     eol: 2029-10-01
-    latest: "17.0.7.7.1"
+    latest: "17.0.8.7.1"
     releaseDate: 2021-08-24
-    latestReleaseDate: 2023-04-19
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "16"
     eol: 2021-10-19
@@ -73,22 +73,23 @@ releases:
     latest: "15.0.2.7.1"
     releaseDate: 2020-08-26
     latestReleaseDate: 2021-01-21
-    link: https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
+    link: 
+      https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"
     lts: true
     eol: 2027-09-01
-    latest: "11.0.19.7.1"
+    latest: "11.0.20.8.1"
     releaseDate: 2019-02-18
-    latestReleaseDate: 2023-04-19
+    latestReleaseDate: 2023-07-18
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     eol: 2026-06-30
-    latest: "8.372.07.1"
+    latest: "8.382.05.1"
     releaseDate: 2019-02-20
-    latestReleaseDate: 2023-04-19
+    latestReleaseDate: 2023-07-18
 
 ---
 

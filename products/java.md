@@ -28,8 +28,8 @@ releases:
     releaseDate: 2023-03-21
     support: 2023-09-19
     eol: 2023-09-19
-    latest: "20.0.1"
-    latestReleaseDate: 2023-04-18
+    latest: "20.0.2"
+    latestReleaseDate: 2023-07-18
     link: https://www.oracle.com/java/technologies/javase/20-relnote-issues.html
 
 -   releaseCycle: "19"
@@ -51,8 +51,8 @@ releases:
     releaseDate: 2021-09-14
     support: 2026-09-30
     eol: 2029-09-30
-    latest: "17.0.7"
-    latestReleaseDate: 2023-04-18
+    latest: "17.0.8"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -94,8 +94,8 @@ releases:
     releaseDate: 2018-09-25
     support: 2023-09-30
     eol: 2026-09-30
-    latest: "11.0.19"
-    latestReleaseDate: 2023-04-18
+    latest: "11.0.20"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -116,8 +116,8 @@ releases:
     releaseDate: 2014-03-18
     support: 2022-03-31
     eol: 2030-12-31
-    latest: "8u371"
-    latestReleaseDate: 2023-04-18
+    latest: "8u381"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "7"
     releaseDate: 2011-07-11
@@ -149,7 +149,8 @@ releases:
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     support: 2008-10-30
     eol: 2008-10-30
-    link: https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
+    link: 
+      https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
     latest: "1.4.2_42"
     latestReleaseDate: 2013-02-19
 
@@ -167,7 +168,8 @@ releases:
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     support: 2003-11-30
     eol: 2003-11-30
-    link: https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
+    link: 
+      https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     latest: "1.2.2_18"
     latestReleaseDate: 2007-01-12
 
@@ -175,7 +177,7 @@ releases:
     releaseDate: 1997-02-18
     support: 2002-10-09
     eol: 2002-10-09
-    link: null
+    link:
     latest: "1.1.8_010"
     latestReleaseDate: 2002-10-09
 
@@ -183,7 +185,7 @@ releases:
     releaseDate: 1996-01-23
     support: 1996-05-07
     eol: 1996-05-07
-    link: null
+    link:
     latest: "1.0.2"
     latestReleaseDate: 1996-05-07
 
