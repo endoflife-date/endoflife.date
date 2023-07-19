@@ -8,7 +8,7 @@ releaseDateColumn: true
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 category: db
 tags: apache java-runtime
-releasePolicyLink:
+releasePolicyLink: 
   https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
 auto:
 -   git: https://github.com/apache/cassandra.git
@@ -25,8 +25,8 @@ releases:
     eol: 2024-07-15
     support: true
     releaseDate: 2021-07-26
-    latest: "4.0.10"
-    latestReleaseDate: 2023-05-29
+    latest: "4.0.11"
+    latestReleaseDate: 2023-07-18
 -   releaseCycle: "3.11"
     eol: 2023-12-15
     support: true

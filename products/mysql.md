@@ -18,7 +18,8 @@ eolColumn: Extended Support
 # https://dev.mysql.com/doc/relnotes/mysql/8.0/en/ (8.0.11)
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))$
+    regex: 
+      ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))$
     template: "{{c}}.{{v}}"
 
 # dates below are for:
@@ -27,17 +28,17 @@ auto:
 # We show Extended support dates since that match Community Edition timelines
 releases:
 -   releaseCycle: "8.0"
-    latest: '8.0.33'
+    latest: '8.0.34'
     support: 2025-04-30
     eol: 2026-04-30
-    latestReleaseDate: 2023-03-16
+    latestReleaseDate: 2023-06-22
     releaseDate: 2018-04-08
 
 -   releaseCycle: "5.7"
-    latest: '5.7.42'
+    latest: '5.7.43'
     support: 2020-10-31
     eol: 2023-10-31
-    latestReleaseDate: 2023-03-16
+    latestReleaseDate: 2023-06-21
     releaseDate: 2015-10-09
 
 -   releaseCycle: "5.6"

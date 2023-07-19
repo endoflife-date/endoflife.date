@@ -4,7 +4,8 @@ category: app
 iconSlug: blender
 permalink: /blender
 releasePolicyLink: https://www.blender.org
-releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
+releaseImage: 
+  https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
 releaseColumn: true
@@ -22,8 +23,8 @@ releases:
     releaseDate: 2023-06-27
     support: 2025-07-01
     eol: 2025-07-01
-    latest: "3.6.0"
-    latestReleaseDate: 2023-06-27
+    latest: "3.6.1"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
@@ -44,8 +45,8 @@ releases:
     releaseDate: 2022-09-07
     support: 2024-09-01
     eol: 2024-09-01
-    latest: "3.3.8"
-    latestReleaseDate: 2023-06-20
+    latest: "3.3.9"
+    latestReleaseDate: 2023-07-18
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-06-08
