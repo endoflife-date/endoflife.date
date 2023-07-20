@@ -24,8 +24,8 @@ releases:
     codename: 'Mickledore'
     releaseDate: 2023-05-03
     eol: 2023-11-05
-    latest: "4.2.1"
-    latestReleaseDate: 2023-05-28
+    latest: "4.2.2"
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "4.1"
     codename: 'Langdale'
