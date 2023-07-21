@@ -50,8 +50,8 @@ releases:
     releaseDate: 2023-03-22
     eol: 2023-09-19
     extendedSupport: false
-    latest: "20.0.1+10"
-    latestReleaseDate: 2023-04-19
+    latest: "20.0.2+10"
+    latestReleaseDate: 2023-07-20
 
 -   releaseCycle: "19"
     releaseDate: 2022-09-21
