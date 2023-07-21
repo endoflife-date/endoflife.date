@@ -8,7 +8,8 @@ alternate_urls:
 -   /temurin
 versionCommand: java -version
 releasePolicyLink: https://adoptium.net/support/
-changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
+changelogTemplate: 
+  https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 releaseDateColumn: true
 
 # There is one repository for each major release.
@@ -57,8 +58,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.7+7"
-    latestReleaseDate: 2023-04-19
+    latest: "17.0.8+7"
+    latestReleaseDate: 2023-07-20
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
@@ -72,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01
     eol: 2024-10-31
-    latest: "11.0.19+7"
-    latestReleaseDate: 2023-04-19
+    latest: "11.0.20+8"
+    latestReleaseDate: 2023-07-20
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
@@ -82,7 +83,8 @@ releases:
     eol: 2026-11-30
     latest: "8u372-b07"
     latestReleaseDate: 2023-04-20
-    link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
+    link: 
+      https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---
 
