@@ -77,7 +77,7 @@ Oracle offers two release streams for MySQL:
 Innovation releases are similar to MySQL 8.0 continuous development model (< 8.0.34) and include bugfixes,
 security patches, and new features. Support for Innovation releases is limited until the next minor release
 (Innovation or LTS). Patch releases within Innovation releases are possible but are less likely to happen.
-Innovation releases are considered GA are recommended to be used in production environments.
+Innovation releases are production-grade quality and can be safely used in production environments.
 
 LTS releases have a 5 year premier and 3 year extended support, the same as the previously supported releases.
 The last version of a major release cycle will be designated as LTS. (With the exception of 8.0).
