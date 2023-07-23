@@ -15,6 +15,9 @@ releaseDateColumn: true
 identifiers:
 -   repology: apache
 
+auto:
+-   custom: true
+
 releases:
 -   releaseCycle: "2.4"
     releaseDate: 2012-02-21
