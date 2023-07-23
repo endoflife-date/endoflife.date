@@ -18,10 +18,12 @@ eolColumn: Extended Support
 # https://dev.mysql.com/doc/relnotes/mysql/5.7/en/ (5.7.9)
 # https://dev.mysql.com/doc/relnotes/mysql/8.0/en/ (8.0.11)
 # https://dev.mysql.com/doc/relnotes/mysql/8.1/en/ (8.1.0)
+#
+# See https://rubular.com/r/qi5jDueXMwunrS.
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: ^mysql-((?<c>5\.5)\.(?<v>([8-9]|\d{2}))|((?<c>5\.6)\.(?<v>\d{2}))|((?<c>5\.7)\.(?<v>([9]|\d{2})))|((?<c>8\.0)\.(?<v>(1[1-9]|[2-9]\d))))|((?<c>8\.1)\.(?<v>(1[1-9]|[2-9]\d))))$
-    template: "{{c}}.{{v}}"
+    regex: ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.1\.\d+))$
+    template: "{{v}}"
 
 # dates below are for:
 # support -> GA+5 years = Premier support
