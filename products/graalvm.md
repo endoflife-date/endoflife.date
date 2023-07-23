@@ -17,7 +17,22 @@ releaseDateColumn: true
 #    # https://rubular.com/r/mQMD3DVwhwZf6M
 #    regex: '^vm-(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)(\.(?<tiny>[0-9]+))?$'
 
+# See https://www.graalvm.org/release-calendar/
 releases:
+-   releaseCycle: "jdk-20"
+    releaseLabel: "JDK 20"
+    releaseDate: 2023-06-13
+    eol: false
+    latest: "20.0.1"
+    latestReleaseDate: 2023-06-13
+
+-   releaseCycle: "jdk-17"
+    releaseLabel: "JDK 17"
+    releaseDate: 2023-06-13
+    eol: false
+    latest: "17.0.7"
+    latestReleaseDate: 2023-06-13
+
 -   releaseCycle: "22.3"
     releaseDate: 2022-10-25
     eol: 2023-10-25
@@ -118,12 +133,14 @@ releases:
 > Java. It supports additional programming languages and execution modes, like ahead-of-time
 > compilation of Java applications for fast startup and low memory footprint.
 
-GraalVM Community release cadence is fixed. There is one feature release every three months, always
-on the Tuesday closest to the 17th of the months of January, April, July, and October. Each feature
-release supersedes any previous one, except annual releases.
+GraalVM Community release cadence used to be fixed, with one feature release every three months and
+an additional annual releases. But starting with JDK 20 in June 2023, GraalVM follows the JDK’s
+six-month release cadence and is only supporting the latest JDK version (just as Oracle OpenJDK
+releases do).
 
-Each year, the fourth feature release (for example 22.3) receives bugfixes for the next 12 months.
-Such releases are called annual releases.
+As part of this alignment, GraalVM adopted the JDK’s release numbering scheme based on the supported
+Java version. To avoid confusion with older releases, new releases are named _GraalVM for JDK
+<Java version>_, for example _GraalVM for JDK 20_.
 
 A commercial offering with long term support is provided by Oracle as
-[GraalVM Enterprise](https://docs.oracle.com/en/graalvm/index.html).
+[Oracle GraalVM](https://docs.oracle.com/en/graalvm/index.html).
