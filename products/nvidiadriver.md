@@ -12,11 +12,18 @@ activeSupportColumn: true
 releaseDateColumn: true
 releaseColumn: true
 
+# support(x) is:
+# - false for NFB releases
+# - releaseDate(x) + 1 year for PB and LTS releases
+#
+# eol(x) is:
+# - releaseDate(x) + 1 year for NFB and PB releases
+# - releaseDate(x) + 3 years for LTS releases
 releases:
 -   releaseCycle: "R535-Windows"
     lts: true
     releaseDate: 2023-05-30
-    support: true
+    support: 2024-06-01
     eol: 2026-06-01
     latest: "536.25"
     latestReleaseDate: 2023-06-26
@@ -25,7 +32,7 @@ releases:
 -   releaseCycle: "R535-Linux"
     lts: true
     releaseDate: 2023-06-14
-    support: true
+    support: 2024-06-01
     eol: 2026-06-01
     latest: "535.54.03"
     latestReleaseDate: 2023-06-26
@@ -49,7 +56,7 @@ releases:
 
 -   releaseCycle: "R525-Windows (PB)"
     releaseDate: 2022-11-10
-    support: true
+    support: 2023-12-01
     eol: 2023-12-01
     latest: "529.11"
     latestReleaseDate: 2023-06-26
@@ -57,7 +64,7 @@ releases:
 
 -   releaseCycle: "R525-Linux (PB)"
     releaseDate: 2022-11-10
-    support: true
+    support: 2023-12-01
     eol: 2023-12-01
     latest: "525.125.06"
     latestReleaseDate: 2023-06-26
@@ -65,7 +72,7 @@ releases:
 
 -   releaseCycle: "R515-Windows (PB)"
     releaseDate: 2022-05-11
-    support: false
+    support: 2023-05-01
     eol: 2023-05-01
     latest: "518.03"
     latestReleaseDate: 2023-03-30
@@ -73,7 +80,7 @@ releases:
 
 -   releaseCycle: "R515-Linux (PB)"
     releaseDate: 2022-05-11
-    support: false
+    support: 2023-05-01
     eol: 2023-05-01
     latest: "515.105.01"
     latestReleaseDate: 2023-03-30
@@ -81,7 +88,7 @@ releases:
 
 -   releaseCycle: "R510-Windows (PB)"
     releaseDate: 2022-01-14
-    support: false
+    support: 2023-01-01
     eol: 2023-01-01
     latest: "513.91"
     latestReleaseDate: 2022-11-22
@@ -89,7 +96,7 @@ releases:
 
 -   releaseCycle: "R510-Linux (PB)"
     releaseDate: 2022-01-14
-    support: false
+    support: 2023-01-01
     eol: 2023-01-01
     latest: "510.108.03"
     latestReleaseDate: 2022-11-22
