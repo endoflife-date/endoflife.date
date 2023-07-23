@@ -1,6 +1,7 @@
 ---
 title: GStreamer
 category: framework
+iconSlug: gstreamer
 permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
