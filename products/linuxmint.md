@@ -25,6 +25,14 @@ releases:
     latest: "4"
     link: https://blog.linuxmint.com/?p=3867
     releaseDate: 2020-03-20
+-   releaseCycle: "21.2"
+    codename: Victoria
+    lts: true
+    support: true
+    eol: 2027-04-01
+    latest: "21.2"
+    link: https://blog.linuxmint.com/?p=4543
+    releaseDate: 2023-07-16
 -   releaseCycle: "21.1"
     codename: Vera
     lts: true
