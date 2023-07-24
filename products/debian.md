@@ -26,8 +26,8 @@ releases:
     eol: 2026-06-10
     extendedSupport: 2028-06-10
     link: https://www.debian.org/News/2023/20230610
-    latest: "12"
-    latestReleaseDate: 2023-06-10
+    latest: "12.1"
+    latestReleaseDate: 2023-07-22
 
 -   releaseCycle: "11"
     codename: "Bullseye"

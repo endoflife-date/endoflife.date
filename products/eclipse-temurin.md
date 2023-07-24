@@ -39,8 +39,8 @@ releases:
     releaseDate: 2023-03-23
     # expected 21 release date (see https://www.java.com/releases/)
     eol: 2023-09-19
-    latest: "20.0.1+9"
-    latestReleaseDate: 2023-04-20
+    latest: "20.0.2+9"
+    latestReleaseDate: 2023-07-21
 
 -   releaseCycle: "19"
     releaseDate: 2022-09-26
@@ -81,8 +81,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u372-b07"
-    latestReleaseDate: 2023-04-20
+    latest: "8u382-b05"
+    latestReleaseDate: 2023-07-21
     link: 
       https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
