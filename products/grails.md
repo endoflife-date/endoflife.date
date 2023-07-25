@@ -16,6 +16,13 @@ auto:
 -   git: https://github.com/grails/grails-core.git
 
 releases:
+-   releaseCycle: "6" # support information not yet available on https://grails.org/support-schedule.html
+    releaseDate: 2023-07-24
+    eol: false
+    support: true
+    latest: "6.0.0"
+    latestReleaseDate: 2023-07-24
+
 -   releaseCycle: "5"
     releaseDate: 2021-10-12
     eol: false
@@ -53,12 +60,16 @@ releases:
 
 ---
 
-> [Grails](https://grails.org/) is a powerful Groovy-based web application framework for the JVM built on top of
-> Spring Boot.
+> [Grails](https://grails.org/) is a powerful Groovy-based web application framework for the JVM
+> built on top of Spring Boot.
 
 ## Support
 
-- **Active Development**: These versions get regular updates, including new features, performance enhancements, and bug fixes. Recommended for new and existing Grails applications.
-- **Active Maintenance**: These versions receive limited bug fixes and patches, mostly focused around the resolution of critical security advisories. New features, performance improvements, and minor bug fixes are unlikely.
+- **Active Development**: These versions get regular updates, including new features, performance
+  enhancements, and bug fixes. Recommended for new and existing Grails applications.
+- **Active Maintenance**: These versions receive limited bug fixes and patches, mostly focused
+  around the resolution of critical security advisories. New features, performance improvements,
+  and minor bug fixes are unlikely.
 
-The Grails Foundation offers [commercial support](https://grails.org/support.html). This typically lasts a few years after active maintenance ends.
+The Grails Foundation offers [commercial support](https://grails.org/support.html). This typically
+lasts a few years after active maintenance ends.
