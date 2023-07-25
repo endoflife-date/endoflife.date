@@ -219,10 +219,11 @@ def update_product(name):
                     if days_since_release < 30:
                         print(f'[WARN] {name}:{x} ({R1[x]}) not included{f" (maintainers: {maintainers_info})" if maintainers else ""}')
 
+                        bold = "**" if days_since_release > 22 else ""
                         if days_since_release % 7 == 0:
-                            github_output(f'- {info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}\n')
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}{bold}\n')
                         else:
-                            github_output(f'- {info} version `{x}` ({R1[x]})\n')
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}){bold}\n')
 
 
 if __name__ == "__main__":
