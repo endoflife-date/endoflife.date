@@ -99,6 +99,12 @@ def github_output(str):
             f.write(str)
 
 
+def github_file_url(file):
+    if os.getenv("GITHUB_SERVER_URL") and os.getenv("GITHUB_REPOSITORY"):
+        return f'{os.getenv("GITHUB_SERVER_URL")}/{os.getenv("GITHUB_REPOSITORY")}/blob/master/{file}'
+    return None
+
+
 def yaml_to_str(obj):
     yaml = YAML()
     yaml.indent(sequence=4)
@@ -197,12 +203,15 @@ def update_product(name):
 
             # Print all unmatched versions released in the last 30 days
             if len(version_set) != 0:
+                gh = github_file_url(fn)
+                info = f'[`{name}`]({gh})' if gh else f'`{name}`'
+
                 for x in version_set:
                     date = datetime.date.fromisoformat(R1[x])
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
                         print(f"[WARN] {name}:{x} ({R1[x]}) not included")
-                        github_output(f'- `{name}` version `{x}` ({R1[x]})\n')
+                        github_output(f'- {info} version `{x}` ({R1[x]})\n')
 
 
 if __name__ == "__main__":
