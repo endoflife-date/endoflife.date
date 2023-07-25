@@ -57,6 +57,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: |
             :warning: The following recent releases are not listed:
-            ```
             ${{ steps.latest.outputs.warning }}
-            ```

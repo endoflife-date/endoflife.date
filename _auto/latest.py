@@ -202,7 +202,7 @@ def update_product(name):
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
                         print(f"[WARN] {name}:{x} ({R1[x]}) not included")
-                        github_output(f"{name}:{x} ({R1[x]})\n")
+                        github_output(f'- `{name}` version `{x}` ({R1[x]})\n')
 
 
 if __name__ == "__main__":
