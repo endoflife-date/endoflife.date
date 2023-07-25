@@ -119,9 +119,9 @@ def update_product(name):
         f.seek(0)
         _, content = frontmatter.parse(f.read())
 
-        fn = "_data/release-data/releases/%s.json" % (name)
-        if exists(fn):
-            with open(fn) as releases_file:
+        rfn = "_data/release-data/releases/%s.json" % (name)
+        if exists(rfn):
+            with open(rfn) as releases_file:
                 # Entire releases data as a dict
                 R1 = json.loads(releases_file.read())
                 # Just the list of versions
