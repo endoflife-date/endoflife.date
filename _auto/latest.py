@@ -226,11 +226,10 @@ def update_product(name):
                             github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
                                           f'{f", notifying maintainers {maintainers_info}" if maintainers else ""}{bold}\n')
                         else:
-                            maintainers = [f'@&#8288;{i[1:]}' for i in maintainers]
-                            maintainers_info = " ".join(maintainers)
+                            maintainers_silent = [f'@&#8288;{i[1:]}' for i in maintainers]
+                            maintainers_silent_info = f', maintained by {" ".join(maintainers_silent)}' if maintainers_silent else ""
 
-                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
-                                          f'{f", maintained by {maintainers_info}" if maintainers else ""}{bold}\n')
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info}){maintainers_silent_info}{bold}\n')
 
 
 if __name__ == "__main__":
