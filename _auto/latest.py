@@ -215,15 +215,18 @@ def update_product(name):
 
                 for x in version_set:
                     date = datetime.date.fromisoformat(R1[x])
-                    days_since_release = (datetime.date.today() - date).days
-                    if days_since_release < 30:
+                    age_days = (datetime.date.today() - date).days
+                    age_days_info = f'{age_days} day{"s"[:age_days^1]} ago' if age_days > 0 else "today"
+
+                    if age_days < 30:
                         print(f'[WARN] {name}:{x} ({R1[x]}) not included{f" (maintainers: {maintainers_info})" if maintainers else ""}')
 
-                        bold = "**" if days_since_release > 22 else ""
-                        if days_since_release % 7 == 0:
-                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}{bold}\n')
+                        bold = "**" if age_days > 22 else ""
+                        if age_days % 7 == 0:
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
+                                          f'{f", notifying {maintainers_info}" if maintainers else ""}{bold}\n')
                         else:
-                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}){bold}\n')
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info}){bold}\n')
 
 
 if __name__ == "__main__":
