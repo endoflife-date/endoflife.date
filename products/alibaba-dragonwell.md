@@ -4,7 +4,6 @@ category: lang
 tags: alibaba java-distribution
 iconSlug: openjdk
 permalink: /alibaba-dragonwell
-
 alternate_urls:
 -   /dragonwell
 versionCommand: java -version
