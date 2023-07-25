@@ -224,9 +224,13 @@ def update_product(name):
                         bold = "**" if age_days > 22 else ""
                         if age_days % 7 == 0:
                             github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
-                                          f'{f", notifying {maintainers_info}" if maintainers else ""}{bold}\n')
+                                          f'{f", notifying maintainers {maintainers_info}" if maintainers else ""}{bold}\n')
                         else:
-                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info}){bold}\n')
+                            maintainers = [f'@&#8288;{i[1:]}' for i in maintainers]
+                            maintainers_info = " ".join(maintainers)
+
+                            github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
+                                          f'{f", maintained by {maintainers_info}" if maintainers else ""}{bold}\n')
 
 
 if __name__ == "__main__":
