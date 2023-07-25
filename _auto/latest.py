@@ -201,17 +201,23 @@ def update_product(name):
                 f.truncate()
                 f.write(final_contents)
 
-            # Print all unmatched versions released in the last 30 days
+            # Print all unmatched versions released in the last 30 days, and ping maintainers
             if len(version_set) != 0:
                 gh = github_file_url(fn)
                 info = f'[`{name}`]({gh})' if gh else f'`{name}`'
+
+                # Only allow valid GitHub usernames prefixed by "@" as maintainer
+                # https://github.com/shinnn/github-username-regex/blob/0794566cc10e8c5a0e562823f8f8e99fa044e5f4/module.js
+                maintainers_regex = re.compile(r'^@[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$', re.I)
+                maintainers = [i for i in data.get("maintainers", []) if maintainers_regex.match(i)]
+                maintainers_info = " ".join(maintainers)
 
                 for x in version_set:
                     date = datetime.date.fromisoformat(R1[x])
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
-                        print(f"[WARN] {name}:{x} ({R1[x]}) not included")
-                        github_output(f'- {info} version `{x}` ({R1[x]})\n')
+                        print(f'[WARN] {name}:{x} ({R1[x]}) not included{f" (maintainers: {maintainers_info})" if maintainers else ""}')
+                        github_output(f'- {info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}\n')
 
 
 if __name__ == "__main__":

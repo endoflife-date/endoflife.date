@@ -223,6 +223,15 @@ auto:
   # The value must always be `true`.
   - custom: true
 
+# Auto-update maintainers (optional).
+# Automation allows automatically updating the data of existing releases, but doesn't allow adding new releases.
+# However, Automation can notify GitHub users about new releases, so that they can be added manually.
+# Adding new products is great, maintaining products is even better - so you might want to add yourself here?
+# Notifications are sent by mentioning the maintainer in the auto updater pull request.
+# Add one or more GitHub usernames prefixed by "@" here (note: you MUST add quotes around the string).
+maintainers:
+  - "@octocat"
+
 # A list of identifiers that can be used to detect this product as being used,
 # especially by SBOM tooling
 identifiers:
