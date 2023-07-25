@@ -201,7 +201,8 @@ def update_product(name):
                 f.truncate()
                 f.write(final_contents)
 
-            # Print all unmatched versions released in the last 30 days, and ping maintainers
+            # Print all unmatched versions released in the last 30 days
+            # Ping product maintainers only once a week (on 1st, 7th, 14th, 21st, and 28th day)
             if len(version_set) != 0:
                 gh = github_file_url(fn)
                 info = f'[`{name}`]({gh})' if gh else f'`{name}`'
@@ -217,7 +218,11 @@ def update_product(name):
                     days_since_release = (datetime.date.today() - date).days
                     if days_since_release < 30:
                         print(f'[WARN] {name}:{x} ({R1[x]}) not included{f" (maintainers: {maintainers_info})" if maintainers else ""}')
-                        github_output(f'- {info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}\n')
+
+                        if days_since_release % 7 == 0:
+                            github_output(f'- {info} version `{x}` ({R1[x]}){f", notifying {maintainers_info}" if maintainers else ""}\n')
+                        else:
+                            github_output(f'- {info} version `{x}` ({R1[x]})\n')
 
 
 if __name__ == "__main__":
