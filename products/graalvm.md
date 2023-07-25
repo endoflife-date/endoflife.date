@@ -22,8 +22,8 @@ releases:
     releaseDate: 2022-10-25
     eol: 2023-10-25
     lts: true
-    latest: "22.3.0"
-    latestReleaseDate: 2022-10-25
+    latest: "22.3.2"
+    latestReleaseDate: 2023-04-25
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-07-26
