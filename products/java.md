@@ -196,6 +196,9 @@ releases:
 > applications are typically compiled to bytecode that can run on any Java virtual machine (JVM)
 > regardless of the underlying computer architecture.
 
+{: .warning }
+This page is being actively re-written to support multiple JDK vendors. Please see this [this discussion](https://github.com/endoflife-date/endoflife.date/discussions/364#discussioncomment-4744466).
+
 Java, as developed by the [OpenJDK Project](https://openjdk.org/), owned and primarily employed by
 Oracle, has been on a 6-month rapid-release cycle since the release of Java 10. Starting with
 Java 11, had new LTS releases every six releases (three years), followed by Java 17, after which

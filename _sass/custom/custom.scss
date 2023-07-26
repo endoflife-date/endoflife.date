@@ -53,14 +53,11 @@ a {
   padding: 1.25rem;
 }
 
-body {
-  >svg {
-    &:nth-of-type(1) {
-      display: none;
-    }
-  }
+.align-items-center {
+  align-items: center;
 }
 
+// Inject site logo before the site title
 .site-title {
   margin-left: 2rem;
 
@@ -74,8 +71,4 @@ body {
     margin-left: -2.1rem;
     margin-bottom: -.3rem;
   }
-}
-
-.align-items-center {
-  align-items: center;
 }

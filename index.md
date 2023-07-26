@@ -1,6 +1,7 @@
 ---
 layout: page
 nav_exclude: true
+search_exclude: true
 title: Home
 description: Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
 # This is the content for the website homepage (https://endoflife.date/)
@@ -23,7 +24,7 @@ Operating Systems     | [Windows][windows] | [Windows Server][windows-server] | 
 Frameworks            | [Angular][angular] | [Django][django] | [Ruby on Rails][rails] | [.NET][net]
 Desktop Applications  | [Firefox][firefox] | [Internet Explorer][ie] | [Godot][godot] | [Unity][unity]
 Server Applications   | [Nginx][nginx] | [Kubernetes][k8s] | [Tomcat][tomcat] | [HAProxy][haproxy]
-Cloud Services        | [Amazon<br>Elastic Kubernetes Service][eks] | [Google<br>Kubernetes Engine][gke] | [Azure<br>Kubernetes Service][aks]
+Cloud Services        | [Amazon Elastic Kubernetes Service][eks] | [Google Kubernetes Engine][gke] | [Azure Kubernetes Service][aks]
 Standards             | [PCI-DSS][pci-dss]
 
 ## Contributing

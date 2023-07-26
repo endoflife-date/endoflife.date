@@ -1,46 +1,53 @@
-title: endoflife.date
+# Jekyll configuration - https://jekyllrb.com/docs/configuration/
+
+# Site settings
 url: https://endoflife.date
+title: endoflife.date
+
+
+# Build settings
+encoding: utf-8
 markdown: kramdown
+strict_front_matter: true # Cause a build to fail if there is a YAML syntax error (#40).
 plugins:
   - jekyll-feed
   - jekyll-timeago
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jemoji
-exclude:
-  - .idea
-  - _auto
-  - CODE-OF-CONDUCT.md
-  - Gemfile
-  - Gemfile.lock
-  - HACKING.md
-  - LICENSE
-  - netlify.toml
-  - node_modules
-  - package.json
-  - package-lock.json
-  - vendor/
-  - Rakefile
-  - README.md
-  - requirements.txt
-  - runtime.txt
-include:
-  - _redirects
-  - _headers
-# Theme Documentation: https://pmarsceill.github.io/just-the-docs/
+
+
+# just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs
 nav_sort: case_insensitive
+
+# https://just-the-docs.com/docs/configuration/#search
 search_enabled: true
-# These links show up on the top
+search:
+  button: true
+  placeholder_text: "Search for a product"
+
+# https://just-the-docs.com/docs/configuration/#aux-links
 aux_links:
-  recommendations:
+  Recommendations:
     - /recommendations
-  contribute:
+  Contribute:
     - /contribute
-  source:
+  Source:
     - https://github.com/endoflife-date/endoflife.date
-  api:
+  API:
     - /docs/api
+  "Release Data":
+    - https://github.com/endoflife-date/release-data/
+
+# https://just-the-docs.com/docs/configuration/#callouts
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+
+
+# jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago
 jekyll_timeago:
   # Use 2 terms in relative timestamps:
   # [YES] x years, y months
@@ -52,8 +59,9 @@ jekyll_timeago:
   # See https://github.com/markets/jekyll-timeago/pull/24
   # for what this does
   threshold: 0.1
-# Cause a build to fail if there is a YAML syntax error in a page's front matter.  (#40)
-strict_front_matter: true
+
+
+# Default pages / products values
 defaults:
   - scope:
       path: ""
@@ -80,4 +88,27 @@ defaults:
       extendedSupportColumnLabel: 'Extended Support'
       extendedSupportWarnThreshold: 121
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
-encoding: utf-8
+
+
+# Include & excludes
+include:
+  - _redirects
+  - _headers
+
+exclude:
+  - .idea
+  - _auto
+  - CODE-OF-CONDUCT.md
+  - Gemfile
+  - Gemfile.lock
+  - HACKING.md
+  - LICENSE
+  - netlify.toml
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor/
+  - Rakefile
+  - README.md
+  - requirements.txt
+  - runtime.txt

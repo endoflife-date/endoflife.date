@@ -2,14 +2,12 @@
 Favicons were generated from the SVG icons with https://realfavicongenerator.net.
 
 The SVG favicon supports dark mode (https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/).
-But unfortunately it works only in Firefox. It is not picked up by Chrome because the just-the-doc
-theme is declaring a favicon at the top of the header (and it cannot be removed without overriding
-the full header.html template).
 {% endcomment %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
 <link rel="icon alternate" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
 <link rel="icon alternate" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+
 <link rel="manifest" href="{{ 'manifest.json' | relative_url }}">
 <link rel="mask-icon" href="{{ '/assets/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
