@@ -33,16 +33,16 @@ releases:
     latestReleaseDate: 2017-07-11
 
 -   releaseCycle: "2.0"
-    releaseDate: 2002-04-06
+    releaseDate: 2002-04-05
     eol: 2013-07-10
     latest: "2.0.65"
-    latestReleaseDate: 2013-07-10
+    latestReleaseDate: 2013-07-09
 
 -   releaseCycle: "1.3"
-    releaseDate: 1998-06-06
+    releaseDate: 1998-06-01
     eol: 2010-02-03
     latest: "1.3.42"
-    latestReleaseDate: 2010-02-03
+    latestReleaseDate: 2010-02-02
 
 ---
 
