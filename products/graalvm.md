@@ -135,7 +135,7 @@ releases:
 
 GraalVM Community release cadence used to be fixed, with one feature release every three months and
 an additional annual releases. But starting with JDK 20 in June 2023, GraalVM follows the JDK’s
-six-month release cadence and is only supporting the latest JDK version (just as Oracle OpenJDK
+six-month release cadence and only supports the latest JDK version (just as Oracle OpenJDK
 releases do).
 
 As part of this alignment, GraalVM adopted the JDK’s release numbering scheme based on the supported
