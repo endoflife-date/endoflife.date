@@ -12,9 +12,9 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.6.1"
+    latest: "3.7.0"
     releaseDate: 2019-11-15
-    latestReleaseDate: 2023-06-08
+    latestReleaseDate: 2023-07-26
 -   releaseCycle: "2"
     eol: false
     latest: "2.15.5"

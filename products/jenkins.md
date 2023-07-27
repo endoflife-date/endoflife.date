@@ -28,15 +28,15 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.415"
-    latestReleaseDate: 2023-07-18
+    latest: "2.416"
+    latestReleaseDate: 2023-07-24
 
 -   releaseCycle: "2.401"
     lts: 2023-05-31
     releaseDate: 2023-04-18
     eol: false
-    latest: "2.401.2"
-    latestReleaseDate: 2023-06-28
+    latest: "2.401.3"
+    latestReleaseDate: 2023-07-24
 
 -   releaseCycle: "2.387"
     lts: 2023-03-08

@@ -24,8 +24,8 @@ releases:
     eol: false
     support: true
     lts: true
-    latest: "5.3.0"
-    latestReleaseDate: 2023-05-30
+    latest: "5.3.1"
+    latestReleaseDate: 2023-07-26
     releaseDate: 2021-05-05
 -   releaseCycle: "4"
     eol: 2023-01-01
