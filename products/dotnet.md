@@ -24,6 +24,21 @@ auto:
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.osx-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-musl-arm
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
+-   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
 
 releases:
 -   releaseCycle: "7.0"
