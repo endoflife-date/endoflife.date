@@ -22,10 +22,15 @@ identifiers:
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
 
-releases:
-
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
+releases:
+-   releaseCycle: "1.27"
+    releaseDate: 2023-07-26
+    eol: 2024-07-27
+    latest: '1.27.0'
+    latestReleaseDate: 2023-07-26
+
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
