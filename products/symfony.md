@@ -181,6 +181,9 @@ releases:
 
 ---
 
+> [Symfony](https://symfony.com/) is a free and open-source PHP web application framework and a set
+> of reusable PHP component libraries.
+
 Symfony manages its releases through a time-based model. A new Symfony minor version comes out every
 six months, one in May and one in November.
 
@@ -188,7 +191,7 @@ Starting from the Symfony 3.x branch, the number of minor versions is limited to
 (X.0, X.1, X.2, X.3 and X.4). The last minor version of a branch (e.g. 3.4, 4.4, 5.4) is considered
 a long-term support version and the other ones are considered standard versions:
 
-| Version Type            | Bugs are fixed for | Security issues are fixed for |
-| :---------------------- | :----------------- | :---------------------------- |
-| Standard                | 8 months           | [8 months](https://symfony.com/blog/symfony-maintenance-changes-for-standard-releases)|
-| Long-Term Support (LTS) | 3 years            | 4 years                       |
+| Version Type            | Bugs are fixed for | Security issues are fixed for                                                          |
+|:------------------------|:-------------------|:---------------------------------------------------------------------------------------|
+| Standard                | 8 months           | [8 months](https://symfony.com/blog/symfony-maintenance-changes-for-standard-releases) |
+| Long-Term Support (LTS) | 3 years            | 4 years                                                                                |

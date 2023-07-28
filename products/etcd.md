@@ -1,11 +1,11 @@
 ---
 title: etcd
 category: db
-tags: cncf db
+tags: cncf
 iconSlug: etcd
 permalink: /etcd
 versionCommand: etcdctl version
-releasePolicyLink: 
+releasePolicyLink:
   https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/branch_management.md#stable-branches
 changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 activeSupportColumn: false
@@ -74,5 +74,5 @@ etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are
 fixed for the latest two stable releases. A patch release to each supported
 release branch, incorporating any bug fixes, happens every two weeks.
 
-The list of currently maintained releases is 
+The list of currently maintained releases is
 [available on GitHub](https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/release.md#release-management).

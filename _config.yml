@@ -29,6 +29,8 @@ search:
 
 # https://just-the-docs.com/docs/configuration/#aux-links
 aux_links:
+  Tags:
+    - /tags/
   Recommendations:
     - /recommendations
   Contribute:

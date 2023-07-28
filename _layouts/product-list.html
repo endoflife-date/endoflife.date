@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{% for product in page.products %}
+<div class="product-list-item">
+  <div class="d-flex flex-justify-between align-items-center">
+    <div class="product-title">
+      <h2>
+        {% include product-icon.html product=product size=30 %}
+        <a href="{{ product.permalink }}">{{ product.title }}</a>
+      </h2>
+
+      <time datetime="{{ product.last_modified_at | date_to_xmlschema }}" class="fw-300">
+        📅 Last updated on {{ product.last_modified_at | date_to_long_string }}
+        {%- if product.auto and product.auto.size != 0 %}
+        <span title="Latest releases on this product are automatically updated.">🤖</span>
+        {%- endif %}
+      </time>
+    </div>
+    <span class="labels">
+      {%- for tag in product.tags %}
+        <a href="/tags/{{ tag }}"><span class="label">{{ tag }}</span></a>
+      {%- endfor %}
+    </span>
+  </div>
+
+  <div class="product-description">
+    {{ product.content | extract_element:'blockquote' | first | extract_element:'p' }}
+  </div>
+</div>
+{% endfor %}

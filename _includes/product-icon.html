@@ -1,0 +1,8 @@
+{%- assign product_icon_url = include.product.iconUrl %}
+{%- assign product_icon_description = include.product.title %}
+{%- assign product_icon_size = include.size %}
+{%- unless product_icon_url %}
+  {%- assign product_icon_url = '/assets/default-product-logo.svg' | relative_url %}
+  {%- assign product_icon_description = 'No product' %}
+{%- endunless %}
+<img class="product-logo" width="{{ product_icon_size }}" src="{{ product_icon_url }}" alt="{{ product_icon_description }} logo">
