@@ -21,6 +21,11 @@ changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATE
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "2.46"
+    releaseDate: 2023-07-25
+    eol: 2024-09-05
+    latestReleaseDate: 2023-07-25
+    latest: "2.46.0"
 
 -   releaseCycle: "2.45"
     lts: true
