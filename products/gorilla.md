@@ -48,7 +48,7 @@ identifiers:
 releases:
 -   releaseCycle: "1"
     releaseDate: 2016-04-28
-    eol: 2022-12-09
+    eol: false
     latest: 1.5.0
     latestReleaseDate: 2022-01-04
     link: https://github.com/gorilla#gorilla-toolkit
@@ -58,5 +58,6 @@ releases:
 > [Gorilla](https://github.com/gorilla/) is a toolkit for building HTTP-based applications with the
 > Go programming language.
 
-Gorilla project's repositories were archived near the end of 2022, and the project is no longer
-maintained.
+The Gorilla project's repositories [were archived](https://www.reddit.com/r/golang/comments/zh0w0p/gorilla_web_toolkit_is_now_in_archive_only_mode/)
+near the end of 2022, and the project were no longer maintained until its [revival on July
+2023](https://gorilla.github.io/blog/2023-07-17-project-status-update/).
