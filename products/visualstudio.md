@@ -18,7 +18,7 @@ eolColumn: Active Support
 releases:
 -   releaseCycle: "17.6"
     codename: "2022"
-    lts: lts
+    lts: true
     eol: 2025-01-09
     releaseDate: 2023-05-16
     latest: "17.6.5"
