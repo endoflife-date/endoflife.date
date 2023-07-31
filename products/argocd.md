@@ -126,6 +126,8 @@ releases:
 
 > [Argo CD](https://argo-cd.readthedocs.io) is a declarative, GitOps continuous delivery tool for Kubernetes.
 
-- [🗓️ Release Process And Cadence](https://argo-cd.readthedocs.io/en/stable/developer-guide/release-process-and-cadence/)
-- [🎫 Argo CD roadmap](https://github.com/orgs/argoproj/projects/25/views/14)
-- [🐦 Argo CD on Twitter](https://twitter.com/argoproj)
+Only the three most recent minor versions are eligible for patch releases. Versions older than the three most recent minor versions are considered EOL and will not receive bug fixes or security updates.
+
+## [Release Cadence](https://argo-cd.readthedocs.io/en/stable/developer-guide/release-process-and-cadence/)
+
+A minor release occurs four times a year, once every three months. Patch releases occur on an as-needed basis. 
