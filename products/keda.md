@@ -4,7 +4,7 @@ category: server-app
 tags: kubernetes
 permalink: /keda
 releasePolicyLink: https://keda.sh/docs/latest/operate/cluster/
-changelogTemplate: "https://github.com/kedacore/keda/releases/tag/__LATEST__"
+changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: false
 releaseColumn: Latest
 releaseDateColumn: Released
