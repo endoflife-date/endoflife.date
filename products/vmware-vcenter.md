@@ -30,7 +30,7 @@ releases:
     technicalGuidance: 2027-04-02
     latest: "7.0 U3n"
     latestReleaseDate: 2023-07-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3n-release-notes.html"
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3n-release-notes/index.html"
 
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
