@@ -15,8 +15,7 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/jenkinsci/jenkins.git
-    regex: '^v-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+-   git: https://github.com/argoproj/argo-cd.git
 
 
 releases:
