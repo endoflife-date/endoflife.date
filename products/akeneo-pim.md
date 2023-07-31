@@ -66,24 +66,7 @@ releases:
     latest: "3.0.84"
     latestReleaseDate: 2020-08-19
 
-# The following commented versions only contained Enterprise fixes or improvements.
-#-   releaseCycle: "2.3"
-#    releaseDate: 2018-06-25
-#    eol: 2020-01-31
-#    latest: "2.3.78"
-#    latestReleaseDate: 2020-03-24
-#
-#-   releaseCycle: "2.2"
-#    releaseDate: 2018-03-21
-#    eol: 2018-06-30
-#    latest: "2.2.12"
-#    latestReleaseDate: 2018-07-25
-#
-#-   releaseCycle: "2.1"
-#    releaseDate: 2017-12-21
-#    eol: 2018-03-31
-#    latest: "2.1.9"
-#    latestReleaseDate: 2018-04-10
+# Versions 2.1 to 2.3 only contained enterprise fixes or improvements.
 
 -   releaseCycle: "2.0"
     codename: "Rebel Rabbit"
