@@ -5,8 +5,7 @@ tags: php-runtime
 permalink: /akeneo-pim
 alternate_urls:
 -   /akeneo
-releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-changelogTemplate: "https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v{{'__RELEASE_CYCLE__'|replace:'.',''}}"
+changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
@@ -133,7 +132,16 @@ releases:
 
 ---
 
-> [Akeneo PIM Community Edition](https://www.akeneo.com/akeneo-pim-community-edition/) is a free and
-> open-source PIM.
+> [Akeneo PIM](https://www.akeneo.com/akeneo-pim-community-edition/) is a Product Information
+> Management (PIM) solution that provides a single place to collect, manage, and enrich product
+> information, create a product catalog, and distribute it to sales and eCommerce channels.
 
-[Github Repository](https://github.com/akeneo/pim-community-dev/tree/master).
+{: .warning }
+> Akeneo PIM is available through [multiple offerings](https://www.akeneo.com/compare-editions/).
+> This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
+> Edition_.
+
+Akeneo PIM does follow a documented release policy. But looking at the latest releases, it seems
+that there is a new major release every year, with frequent patch versions containing bug fixes for
+supported releases in between. All active releases, along with their EOL dates, are listed on
+<https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates>.
