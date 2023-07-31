@@ -5,7 +5,7 @@ iconSlug: qt
 permalink: /qt
 versionCommand: qmake --version
 releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
-releasePolicyLink: 
+releasePolicyLink:
   https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 releaseDateColumn: true
@@ -22,88 +22,87 @@ releases:
     latest: "6.5.2"
     latestReleaseDate: 2023-07-18
     link: https://www.qt.io/blog/qt-6.5-lts-released
+
 -   releaseCycle: "6.4"
+    releaseDate: 2022-09-28
     eol: 2023-03-30
     latest: "6.4.3"
-    lts: false
     latestReleaseDate: 2023-03-16
-    releaseDate: 2022-09-28
 
 -   releaseCycle: "6.3"
+    releaseDate: 2022-04-11
     eol: 2022-10-12
     latest: "6.3.2"
-    lts: false
     latestReleaseDate: 2022-09-08
-    releaseDate: 2022-04-11
 
 -   releaseCycle: "6.2"
+    lts: true
+    releaseDate: 2021-09-30
     eol: 2024-09-30
     latest: "6.2.7"
-    lts: true
     latestReleaseDate: 2023-01-02
-    releaseDate: 2021-09-30
     link: https://www.qt.io/blog/commercial-lts-qt-6.2.7-released
 
 -   releaseCycle: "6.1"
+    releaseDate: 2021-05-05
     eol: 2022-05-06
     latest: "6.1.3"
     latestReleaseDate: 2021-08-31
-    releaseDate: 2021-05-05
 
 -   releaseCycle: "6.0"
+    releaseDate: 2020-12-08
     eol: 2021-12-08
     latest: "6.0.4"
     latestReleaseDate: 2021-05-03
-    releaseDate: 2020-12-08
 
 -   releaseCycle: "5.15"
+    lts: true
+    releaseDate: 2020-05-25
     eol: 2023-05-26
     latest: "5.15.2"
-    lts: true
     latestReleaseDate: 2020-11-13
-    releaseDate: 2020-05-25
 
 -   releaseCycle: "5.14"
+    releaseDate: 2019-12-11
     eol: 2020-12-12
     latest: "5.14.2"
-    link: https://www.qt.io/blog/qt-5.14-has-released
     latestReleaseDate: 2020-03-30
-    releaseDate: 2019-12-11
+    link: https://www.qt.io/blog/qt-5.14-has-released
 
 -   releaseCycle: "5.13"
+    releaseDate: 2019-06-18
     eol: 2020-06-19
     latest: "5.13.2"
-    link: https://www.qt.io/blog/2019/06/19/qt-5-13-released
     latestReleaseDate: 2019-10-28
-    releaseDate: 2019-06-18
+    link: https://www.qt.io/blog/2019/06/19/qt-5-13-released
 
 -   releaseCycle: "5.12"
+    lts: true
+    releaseDate: 2018-12-04
     eol: 2021-12-05
     latest: "5.12.12"
-    lts: true
     latestReleaseDate: 2021-11-25
-    releaseDate: 2018-12-04
 
 -   releaseCycle: "5.9"
+    releaseDate: 2017-05-29
     eol: 2020-05-31
     latest: "5.9.9"
     latestReleaseDate: 2019-12-16
-    releaseDate: 2017-05-29
 
 -   releaseCycle: "5.6"
+    lts: true
+    releaseDate: 2016-03-15
     eol: 2019-03-16
     latest: "5.6.3"
-    lts: true
-    link: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
     latestReleaseDate: 2017-09-20
-    releaseDate: 2016-03-15
+    link: https://www.qt.io/blog/2017/09/21/qt-5-6-3-released
 
 -   releaseCycle: "4.8"
+    lts: true
+    releaseDate: 2011-12-15
     eol: 2015-12-31
     latest: "4.8.7"
-    lts: true
     link: https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
-    releaseDate: 2011-12-15
 
 ---
 
