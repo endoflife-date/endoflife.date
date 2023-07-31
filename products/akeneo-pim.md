@@ -12,6 +12,9 @@ eolColumn: 	Support
 eolWarnThreshold: 200 # march to september
 releaseDateColumn: true
 
+auto:
+-   git: https://github.com/akeneo/pim-community-dev.git
+
 releases:
   - releaseCycle: "7.0"
     codename: "Sahara hare"
