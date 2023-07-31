@@ -6,7 +6,7 @@ permalink: /akeneo-pim
 alternate_urls:
 -   /akeneo
 releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-changelogTemplate: "https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md"
+changelogTemplate: "https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
