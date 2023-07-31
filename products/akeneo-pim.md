@@ -8,9 +8,9 @@ alternate_urls:
 releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 changelogTemplate: "https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md"
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-eolColumn: 	End of support date
+eolColumn: 	Support
 eolWarnThreshold: 200 # march to september
-releaseDateColumn: Release date
+releaseDateColumn: true
 
 releases:
   - releaseCycle: "7.0"
