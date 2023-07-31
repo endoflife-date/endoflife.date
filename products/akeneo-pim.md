@@ -1,7 +1,7 @@
 ---
 title: Akeneo PIM
 category: server-app
-tags: pim products php-runtime
+tags: php-runtime
 permalink: /akeneo-pim
 alternate_urls:
   - /akeneo
