@@ -18,6 +18,7 @@ auto:
 -   git: https://github.com/argoproj/argo-cd.git
 
 
+# eol(X) = releaseDate(X+2)
 releases:
 
 -   releaseCycle: "2.7"
