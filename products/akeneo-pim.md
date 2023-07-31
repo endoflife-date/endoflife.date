@@ -15,6 +15,7 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/akeneo/pim-community-dev.git
 
+# EOL dates are available at https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 releases:
 -   releaseCycle: "7.0"
     codename: "Sahara hare"
@@ -64,6 +65,88 @@ releases:
     eol: 2020-08-31
     latest: "3.0.84"
     latestReleaseDate: 2020-08-19
+
+# The following commented versions only contained Enterprise fixes or improvements.
+#-   releaseCycle: "2.3"
+#    releaseDate: 2018-06-25
+#    eol: 2020-01-31
+#    latest: "2.3.78"
+#    latestReleaseDate: 2020-03-24
+#
+#-   releaseCycle: "2.2"
+#    releaseDate: 2018-03-21
+#    eol: 2018-06-30
+#    latest: "2.2.12"
+#    latestReleaseDate: 2018-07-25
+#
+#-   releaseCycle: "2.1"
+#    releaseDate: 2017-12-21
+#    eol: 2018-03-31
+#    latest: "2.1.9"
+#    latestReleaseDate: 2018-04-10
+
+-   releaseCycle: "2.0"
+    codename: "Rebel Rabbit"
+    releaseDate: 2017-09-28
+    eol: 2019-04-30
+    latest: "2.0.52"
+    latestReleaseDate: 2019-04-23
+
+-   releaseCycle: "1.7"
+    codename: "The Old Grey Hare"
+    releaseDate: 2017-03-14
+    eol: 2019-04-30
+    latest: "1.7.41"
+    latestReleaseDate: 2019-04-04
+
+-   releaseCycle: "1.6"
+    codename: "Wackiki Wabbit"
+    releaseDate: 2016-08-30
+    eol: 2018-03-31
+    latest: "1.6.23"
+    latestReleaseDate: 2018-04-03
+
+-   releaseCycle: "1.5"
+    codename: "Fresh Hare"
+    releaseDate: 2016-03-08
+    eol: 2017-09-30
+    latest: "1.5.27"
+    latestReleaseDate: 2017-09-22
+
+-   releaseCycle: "1.4"
+    codename: "Rhapsody Rabbit"
+    releaseDate: 2015-09-23
+    eol: 2017-03-31
+    latest: "1.4.28"
+    latestReleaseDate: 2016-12-13
+
+-   releaseCycle: "1.3"
+    codename: "Hare Force"
+    releaseDate: 2015-02-12
+    eol: 2016-09-30
+    latest: "1.3.41"
+    latestReleaseDate: 2016-04-01
+
+-   releaseCycle: "1.2"
+    codename: "Acrobatty Bunny"
+    releaseDate: 2014-08-28
+    eol: 2015-08-18 # not documented
+    latest: "1.2.37"
+    latestReleaseDate: 2015-08-18
+
+-   releaseCycle: "1.1"
+    codename: "Rabbit Punch"
+    releaseDate: 2014-04-16
+    eol: 2014-07-22 # not documented
+    latest: "1.1.3"
+    latestReleaseDate: 2014-07-22
+
+-   releaseCycle: "1.0"
+    codename: "Hare We Go"
+    releaseDate: 2014-03-06
+    eol: 2016-03-31
+    latest: "1.0.3"
+    latestReleaseDate: 2014-03-27
 
 ---
 
