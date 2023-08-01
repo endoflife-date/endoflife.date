@@ -14,7 +14,9 @@ auto:
 
 identifiers:
   - purl: pkg:github/kedacore/keda
-  - purl: pkg:github/kedacore/charts
+  - purl: pkg:oci/keda-admission-webhooks?repository_url=ghcr.io/kedacore
+  - purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
+  - purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
 releases:
 -   releaseCycle: "2.11"
