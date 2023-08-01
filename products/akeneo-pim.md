@@ -3,6 +3,7 @@ title: Akeneo PIM
 category: server-app
 tags: php-runtime
 permalink: /akeneo-pim
+releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
@@ -145,7 +146,7 @@ releases:
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 
-Akeneo PIM does follow a documented release policy. But looking at the latest releases, it seems
+Akeneo PIM does not follow a documented release policy. But looking at the latest releases, it seems
 that there is a new major release every year, with frequent patch versions containing bug fixes for
-supported releases in between. All active releases, along with their EOL dates, are listed on
-<https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates>.
+supported releases in between. All active releases, along with their EOL dates, are documented
+[on their help center](https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates).
