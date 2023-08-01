@@ -31,16 +31,16 @@ releases:
     releaseDate: 2022-11-16
     eol: 2024-05-31
     support: 2023-05-31
-    latest: "6.12.4"
-    latestReleaseDate: 2023-04-27
+    latest: "6.12.4.1"
+    latestReleaseDate: 2023-06-15
     link: https://access.redhat.com/errata/RHBA-2023:2052
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
     eol: 2024-01-31
     support: 2022-11-30
-    latest: "6.11.5.3"
-    latestReleaseDate: 2023-05-10
+    latest: "6.11.5.4"
+    latestReleaseDate: 2023-06-15
     link: https://access.redhat.com/errata/RHBA-2023:1478
 
 -   releaseCycle: "6.10"
