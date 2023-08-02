@@ -21,24 +21,24 @@ releases:
     releaseDate: 2023-03-14
     eol: 2025-03-14
     extendedSupport: false
-    latest: "3.1.1"
-    latestReleaseDate: 2023-05-30
+    latest: "3.1.2"
+    latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
     extendedSupport: true
-    latest: "3.0.9"
-    latestReleaseDate: 2023-05-30
+    latest: "3.0.10"
+    latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "1.1.1"
     lts: true
     releaseDate: 2018-09-11
     eol: 2023-09-11
     extendedSupport: true
-    latest: "1.1.1u"
-    latestReleaseDate: 2023-05-30
+    latest: "1.1.1v"
+    latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
