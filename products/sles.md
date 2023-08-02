@@ -23,8 +23,8 @@ identifiers:
 releases:
 -   releaseCycle: "15.5"
     releaseDate: 2023-06-20
-    eol: true
-    extendedSupport: false
+    eol: false
+    extendedSupport: true
 
     latestReleaseDate: 2023-06-20
     latest: '15.5'
