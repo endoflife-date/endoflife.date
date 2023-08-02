@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "15.5"
     releaseDate: 2023-06-20
     eol: false
-    extendedSupport: false
+    extendedSupport: true
 
     latestReleaseDate: 2023-06-20
     latest: '15.5'
