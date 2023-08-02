@@ -20,6 +20,7 @@ auto:
 identifiers:
 -   repology: ruby
 -   purl: pkg:docker/library/ruby
+-   purl: pkg:generic/ruby
 
 releases:
 -   releaseCycle: "3.2"
