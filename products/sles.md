@@ -23,7 +23,7 @@ identifiers:
 releases:
 -   releaseCycle: "15.5"
     releaseDate: 2023-06-20
-    eol: true
+    eol: false
     extendedSupport: false
 
     latestReleaseDate: 2023-06-20
