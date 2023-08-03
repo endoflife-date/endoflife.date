@@ -14,6 +14,9 @@ activeSupportColumn: Active Support
 releaseColumn: true
 releaseDateColumn: true
 
+auto:
+  - git: https://github.com/saltstack/salt.git
+
 identifiers:
   - repology: salt
 
