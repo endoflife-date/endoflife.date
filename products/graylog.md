@@ -25,14 +25,14 @@ releases:
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11
     eol: false
-    latest: "5.1.3"
-    latestReleaseDate: 2023-07-05
+    latest: "5.1.4"
+    latestReleaseDate: 2023-08-02
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-11-30
     eol: false
-    latest: "5.0.9"
-    latestReleaseDate: 2023-07-05
+    latest: "5.0.10"
+    latestReleaseDate: 2023-08-02
 
 -   releaseCycle: "4.3"
     releaseDate: 2022-05-17
