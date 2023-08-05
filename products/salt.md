@@ -53,9 +53,9 @@ releases:
 
 
 ## Support Lifecycle
-Beginning with the 3006 release of Salt, the Salt Project will follow an LTS/STS release strategy. Under this strategy, the Salt Project will release one LTS (long-term support) release of Salt per year and one STS (short-term support) release each year. The LTS release will receive bug fix releases for a longer period of time than STS releases.
+Beginning with the 3006 release of Salt, the Salt Project will follow an LTS/STS release strategy. Under this strategy, the Salt Project will release one LTS (long-term support) release of Salt per year and one STS (short-term support) release each year.
 
-The purpose of the LTS release is to provide users with a stable version of Salt for a longer period (2 years). The purpose of the STS release is to provide a feature release to users who need or prefer access to the latest features in between LTS releases.
+LTS prioritize stability, and are supported for 2 years. STS releases provide access to newer features in between LTS releases, and are only supported for 6 months.
 
 ## Support Comparison
 
