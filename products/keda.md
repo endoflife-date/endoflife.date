@@ -5,7 +5,7 @@ tags: cncf
 permalink: /keda
 releasePolicyLink: https://keda.sh/docs/latest/operate/cluster/
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
-eolColumn: false
+eolColumn: Support
 releaseDateColumn: true
 
 auto:
@@ -41,14 +41,14 @@ releases:
 
 -   releaseCycle: "2.8"
     releaseDate: 2022-08-10
-    eol: false
+    eol: 2023-01-19
     supportedKubernetesVersions: 1.17 - 1.25
     latest: "2.8.2"
     latestReleaseDate: 2023-01-19
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-05-05
-    eol: false
+    eol: 2022-08-10
     supportedKubernetesVersions: 1.17 - 1.25
     latest: "2.7.1"
     latestReleaseDate: 2022-05-10
