@@ -23,22 +23,22 @@ releases:
     releaseLabel: "JDK 20"
     releaseDate: 2023-06-13
     eol: false
-    latest: "20.0.1"
-    latestReleaseDate: 2023-06-13
+    latest: "20.0.2"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "jdk-17"
     releaseLabel: "JDK 17"
     releaseDate: 2023-06-13
     eol: false
-    latest: "17.0.7"
-    latestReleaseDate: 2023-06-13
+    latest: "17.0.8"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "22.3"
     releaseDate: 2022-10-25
     eol: 2023-10-25
     lts: true
-    latest: "22.3.2"
-    latestReleaseDate: 2023-04-25
+    latest: "22.3.3"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-07-26
