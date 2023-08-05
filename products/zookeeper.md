@@ -21,7 +21,16 @@ identifiers:
 auto:
 -   maven: org.apache.zookeeper/zookeeper
 
+# support(X) = releaseDate(X+2)
+# eol(X) ~= releaseDate(X+2)+6m, unless declared
 releases:
+-   releaseCycle: "3.9"
+    eol: false
+    support: true
+    latest: "3.9.0"
+    releaseDate: 2023-07-19
+    latestReleaseDate: 2023-07-19
+
 -   releaseCycle: "3.8"
     eol: false
     support: true
@@ -30,8 +39,8 @@ releases:
     latestReleaseDate: 2023-07-05
 
 -   releaseCycle: "3.7"
-    eol: false
-    support: true
+    eol: 2024-01-19
+    support: 2023-07-19
     latest: "3.7.1"
     releaseDate: 2021-03-17
     latestReleaseDate: 2022-05-07
