@@ -1,7 +1,7 @@
 ---
 title: KEDA
 category: server-app
-tags: kubernetes
+tags: cncf
 permalink: /keda
 releasePolicyLink: https://keda.sh/docs/latest/operate/cluster/
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
