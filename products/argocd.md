@@ -1,7 +1,7 @@
 ---
 title: Argo CD
 category: server-app
-tags: kubernetes
+tags: cncf
 iconSlug: argo
 permalink: /argo-cd
 alternate_urls:
@@ -16,6 +16,13 @@ eolColumn: Support
 
 auto:
 -   git: https://github.com/argoproj/argo-cd.git
+
+identifiers:
+-   repology: argocd
+-   purl: pkg:docker/argoproj/argocd
+-   purl: pkg:oci/argocd?repository_url=quay.io/argoproj
+-   purl: pkg:oci/argocd?repository_url=ghcr.io/argoproj
+-   purl: pkg:github/argoproj/argo-cd
 
 # eol(X) = releaseDate(X+3)
 releases:
@@ -125,7 +132,9 @@ releases:
 
 > [Argo CD](https://argo-cd.readthedocs.io) is a declarative, GitOps continuous delivery tool for Kubernetes.
 
-Only the three most recent minor versions are eligible for patch releases. Versions older than the three most recent minor versions are considered EOL and will not receive bug fixes or security updates.
+Only the three most recent minor versions are eligible for patch releases.
+Versions older than the three most recent minor versions are considered End-of-Life
+and do not receive bug fixes or security updates.
 
 ## [Release Cadence](https://argo-cd.readthedocs.io/en/stable/developer-guide/release-process-and-cadence/)
 
