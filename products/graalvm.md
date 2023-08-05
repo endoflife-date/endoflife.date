@@ -10,27 +10,22 @@ eolColumn: Maintenance
 releaseColumn: true
 releaseDateColumn: true
 
-# Disabled because tags date on https://github.com/graalvm/graalvm-ce-builds/tags are not the
-# release dates. Release dates can be found on https://www.graalvm.org/release-notes/
-#auto:
-#-   git: https://github.com/graalvm/graalvm-ce-builds.git
-#    # https://rubular.com/r/mQMD3DVwhwZf6M
-#    regex: '^vm-(?<major>[0-9]+)\.(?<minor>[0-9]+)\.(?<patch>[0-9]+)(\.(?<tiny>[0-9]+))?$'
+auto:
+-   custom: true
 
-# See https://www.graalvm.org/release-calendar/
 releases:
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
     releaseDate: 2023-06-13
     eol: false
-    latest: "20.0.1"
+    latest: "jdk-20.0.1"
     latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "jdk-17"
     releaseLabel: "JDK 17"
     releaseDate: 2023-06-13
     eol: false
-    latest: "17.0.7"
+    latest: "jdk-17.0.7"
     latestReleaseDate: 2023-06-13
 
 -   releaseCycle: "22.3"
@@ -140,7 +135,7 @@ releases do).
 
 As part of this alignment, GraalVM adopted the JDK’s release numbering scheme based on the supported
 Java version. To avoid confusion with older releases, new releases are named _GraalVM for JDK
-&lt;Java version&gt;_, for example _GraalVM for JDK 20_.
+&lt;Java version&gt;_, for example _GraalVM for JDK 20_ (and are prefixed with `jdk-` on this page).
 
 A commercial offering with long term support is provided by Oracle as
 [Oracle GraalVM](https://docs.oracle.com/en/graalvm/index.html).
