@@ -31,8 +31,8 @@ releases:
     eol: 2024-07-05
     lts: true
     extendedSupport: false
-    latest: "3.2.2"
-    latestReleaseDate: 2023-07-24
+    latest: "3.2.3"
+    latestReleaseDate: 2023-08-02
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-05-31

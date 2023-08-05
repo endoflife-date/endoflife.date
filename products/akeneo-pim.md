@@ -4,7 +4,8 @@ category: server-app
 tags: php-runtime
 permalink: /akeneo-pim
 releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
+changelogTemplate: 
+  https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
@@ -26,8 +27,8 @@ releases:
     codename: "Buccaneer Bunny"
     releaseDate: 2022-02-04
     eol: 2023-09-30
-    latest: "6.0.95"
-    latestReleaseDate: 2023-07-31
+    latest: "6.0.96"
+    latestReleaseDate: 2023-08-03
 
 -   releaseCycle: "5.0"
     codename: "Bully for Bugs"
@@ -91,7 +92,8 @@ releases:
     codename: "Fresh Hare"
     releaseDate: 2016-03-08
     eol: 2017-09-30
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v15
+    link: 
+      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v15
     latest: "1.5.27"
     latestReleaseDate: 2017-09-22
 
@@ -99,7 +101,8 @@ releases:
     codename: "Rhapsody Rabbit"
     releaseDate: 2015-09-23
     eol: 2017-03-31
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v14
+    link: 
+      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v14
     latest: "1.4.28"
     latestReleaseDate: 2016-12-13
 
@@ -107,7 +110,8 @@ releases:
     codename: "Hare Force"
     releaseDate: 2015-02-12
     eol: 2016-09-30
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v13
+    link: 
+      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v13
     latest: "1.3.41"
     latestReleaseDate: 2016-04-01
 
@@ -115,7 +119,7 @@ releases:
     codename: "Acrobatty Bunny"
     releaseDate: 2014-08-28
     eol: 2015-08-18 # not documented
-    link: null
+    link:
     latest: "1.2.37"
     latestReleaseDate: 2015-08-18
 
@@ -123,7 +127,7 @@ releases:
     codename: "Rabbit Punch"
     releaseDate: 2014-04-16
     eol: 2014-07-22 # not documented
-    link: null
+    link:
     latest: "1.1.3"
     latestReleaseDate: 2014-07-22
 
@@ -131,7 +135,8 @@ releases:
     codename: "Hare We Go"
     releaseDate: 2014-03-06
     eol: 2016-03-31
-    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
+    link: 
+      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
     latest: "1.0.3"
     latestReleaseDate: 2014-03-27
 
