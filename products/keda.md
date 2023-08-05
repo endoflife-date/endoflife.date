@@ -6,8 +6,7 @@ permalink: /keda
 releasePolicyLink: https://keda.sh/docs/latest/operate/cluster/
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: false
-releaseColumn: Latest
-releaseDateColumn: Released
+releaseDateColumn: true
 
 auto:
   - git: https://github.com/kedacore/keda.git
@@ -62,6 +61,7 @@ releases:
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
 A new minor version is released approximately once a quarter on Thursdays.
 
+KEDA does not have a clearly defined support policy, but looking at the recent history it seems only the latest release is supported.
 ## [Supported Kubernetes Versions](https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility)
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedKubernetesVersions"," - " %}
