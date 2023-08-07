@@ -5,6 +5,8 @@ category: server-app
 tags: python-runtime
 iconSlug: saltproject
 permalink: /salt
+alternate_urls:
+-   /saltstack
 versionCommand: salt --version
 releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
 releaseImage: https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
