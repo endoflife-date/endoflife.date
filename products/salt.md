@@ -12,7 +12,7 @@ releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topi
 releaseImage: https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
 changelogTemplate: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html#changelog
 eolColumn: CVE & Critical Support
-activeSupportColumn: Active Support
+activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 
