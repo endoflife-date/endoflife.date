@@ -2,7 +2,7 @@
 
 title: Salt
 category: server-app
-tags: salt
+tags: python-runtime
 iconSlug: saltproject
 permalink: /salt
 versionCommand: salt --version
