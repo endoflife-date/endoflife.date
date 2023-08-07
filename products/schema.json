@@ -1,0 +1,483 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "title": "Title",
+      "description": "The title of this product",
+      "type": "string"
+    },
+    "versionCommand": {
+      "title": "Version command",
+      "description": "Command to fetch the products version.",
+      "examples": [
+        "helm version",
+        "go version"
+      ],
+      "type": "string"
+    },
+    "releasePolicyLink": {
+      "title": "Release policy link",
+      "description": "URL to the producs release policy page.",
+      "type": "string",
+      "pattern": "^https?://.+$"
+    },
+    "iconUrl": {
+      "title": "Icon url",
+      "description": "URL to the product icon.",
+      "type": "string",
+      "format": "uri-template"
+    },
+    "category": {
+      "title": "Category",
+      "description": "Specify the category of this product.",
+      "enum": [
+        "app",
+        "db",
+        "device",
+        "framework",
+        "lang",
+        "library",
+        "os",
+        "server-app",
+        "service",
+        "standard"
+      ]
+    },
+    "permalink": {
+      "title": "Permalink",
+      "description": "The URL to this product. Must start with a slash.",
+      "examples": [
+        "/foo",
+        "/bar"
+      ],
+      "$ref": "#/$defs/link"
+    },
+    "tags": {
+      "title": "Tags",
+      "description": "Tags which fit this product. Only lowercase, numbers and minus are allowed. Separated via spaces.",
+      "type": "string",
+      "pattern": "^[a-z0-9\\-]+( [a-z0-9\\-]+)*$",
+      "examples": [
+        "foo bar"
+      ]
+    },
+    "alternate_urls": {
+      "title": "Alternate URLs",
+      "description": "Array of alternate urls for this product. Must start with a slash.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/link"
+      }
+    },
+    "auto": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "git": {
+                "title": "Git",
+                "description": "URL to git repo. Fetches releases from tags.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "git"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "npm": {
+                "title": "Npm",
+                "description": "Name of the npm package to track.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "npm"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "dockerhub": {
+                "title": "Dockerhub",
+                "description": "Image name on dockerhub to track.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "dockerhub"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "distrowatch": {
+                "title": "Distrowatch",
+                "description": "Name of the distro on distrowatch.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "distrowatch"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "custom": {
+                "title": "Custom",
+                "description": "Use a custom script in the release-data repo.",
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "github_releases": {
+                "title": "Github releases",
+                "description": "Github repo to track the releases from in the format {author}/{repo}.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              }
+            },
+            "required": [
+              "github_releases"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "pypi": {
+                "title": "Pypi",
+                "description": "Package name on pypi.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "pypi"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "maven": {
+                "title": "Maven",
+                "description": "Package name on maven.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "maven"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "releases": {
+      "title": "Releases",
+      "description": "Array of releases for this product.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/release"
+      }
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "permalink",
+    "releases"
+  ],
+  "$defs": {
+    "boolOrDate": {
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    "link": {
+      "type": "string",
+      "pattern": "^/"
+    },
+    "template": {
+      "title": "Template",
+      "description": "Template which will be used to create the final release.",
+      "type": "string"
+    },
+    "regex": {
+      "title": "Regex",
+      "description": "Regex which will be used to filter the releases.",
+      "type": "string"
+    },
+    "release": {
+      "type": "object",
+      "properties": {
+        "releaseCycle": {
+          "title": "releaseCycle",
+          "description": "The release cycle which this release is part of.",
+          "examples": [
+            "1",
+            "1.0"
+          ],
+          "type": "string"
+        },
+        "link": {
+          "title": "Link",
+          "description": "Link to changelog for the latest release.",
+          "type": "string",
+          "pattern": "[^ ]+"
+        },
+        "releaseLabel": {
+          "title": "Release label",
+          "description": "The human readable name of this release.",
+          "type": "string"
+        },
+        "eolColumn": {
+          "title": "EOL column",
+          "description": "Name of the EOL column or `false` to disable the column.",
+          "examples": [
+            "General Support",
+            false
+          ],
+          "oneOf": [
+            {
+              "const": false
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "eol": {
+          "title": "EOL",
+          "description": "Date in the format `yyyy-mm-dd` or `false` if not available.",
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "string",
+              "format": "date-time"
+            }
+          ]
+        },
+        "activeSupportColumn": {
+          "title": "Active support column",
+          "description": "Name of the active support column or `false` to disable the column.",
+          "type": "boolean"
+        },
+        "support": {
+          "$ref": "#/$defs/boolOrDate"
+        },
+        "extendedSupportColumn": {
+          "title": "Extended support column",
+          "description": "Name of the extended support column or `false` to disable the column.",
+          "type": "boolean"
+        },
+        "extendedSupport": {
+          "$ref": "#/$defs/boolOrDate"
+        },
+        "discontinuedColumn": {
+          "title": "Discontinued column",
+          "description": "Name of the discontinued column or `false` to disable the column.",
+          "type": "boolean"
+        },
+        "discontinued": {
+          "title": "Discontinued",
+          "description": "Whether this cycle is now discontinued.",
+          "$ref": "#/$defs/boolOrDate"
+        },
+        "releaseDateColumn": {
+          "title": "Release date column",
+          "description": "Name of the release date column or `false` to disable the column.",
+          "type": "boolean"
+        },
+        "releaseDate": {
+          "title": "Release date",
+          "description": "Release Date for the first release in this cycle.",
+          "$ref": "#/$defs/boolOrDate"
+        },
+        "releaseColumn": {
+          "title": "Release column",
+          "description": "Name of the release column or `false` to disable the column.",
+          "type": "boolean"
+        },
+        "latest": {
+          "title": "Latest release",
+          "description": "The latest release in this cycle.",
+          "type": "string"
+        },
+        "latestReleaseDate": {
+          "title": "Latest release date",
+          "description": "The date of the latest release.",
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "eolColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "eolColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "eol"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "activeSupportColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "activeSupportColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "support"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "extendedSupportColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "extendedSupportColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "extendedSupport"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "discontinuedColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "discontinuedColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "discontinued"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "releaseDateColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "releaseDateColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "releaseDate"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "releaseColumn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "releaseColumn"
+            ]
+          },
+          "then": {
+            "required": [
+              "latest"
+            ]
+          }
+        }
+      ],
+      "required": [
+        "releaseCycle"
+      ]
+    }
+  }
+}
