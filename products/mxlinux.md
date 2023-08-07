@@ -30,8 +30,8 @@ releases:
     releaseDate: 2023-07-31
     support: 2026-06-10
     eol: 2028-06-10
-    latest: "21.3"
-    latestReleaseDate: 2023-01-15
+    latest: "23"
+    latestReleaseDate: 2023-07-31
     link: https://mxlinux.org/blog/mx-23-libretto-now-available/
 
 -   releaseCycle: "21"
@@ -86,7 +86,8 @@ releases:
     eol: 2020-06-30
     latest: "15"
     latestReleaseDate: 2015-12-24
-    link: https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
+    link: 
+      https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
 
 -   releaseCycle: "14"
     codename: "Symbiosis"
@@ -95,7 +96,8 @@ releases:
     eol: 2018-05-31
     latest: "14.4"
     latestReleaseDate: 2015-03-24
-    link: https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
+    link: 
+      https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
 
 ---
 
