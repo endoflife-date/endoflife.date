@@ -21,6 +21,8 @@ auto:
 
 identifiers:
   - repology: salt
+  - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
+  - purl: pkg:docker/saltstack/salt
 
 releases:
 
