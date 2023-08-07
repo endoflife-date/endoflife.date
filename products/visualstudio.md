@@ -76,8 +76,8 @@ releases:
     codename: "2019"
     eol: 2029-04-10
     releaseDate: 2021-08-10
-    latest: "16.11.27"
-    latestReleaseDate: 2023-06-13
+    latest: "16.11.28"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "16.10"
     codename: "2019"
