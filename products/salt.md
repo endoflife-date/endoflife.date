@@ -17,7 +17,10 @@ releaseColumn: true
 releaseDateColumn: true
 
 auto:
-  - git: https://github.com/saltstack/salt.git
+# https://rubular.com/r/ELfj6SIxS0dZk7
+-   git: https://github.com/saltstack/salt.git
+    regex: ^v(?<version>([1-9]\d*)(\.\d+){0,3})$
+    template: "{{version}}"
 
 identifiers:
   - repology: salt
