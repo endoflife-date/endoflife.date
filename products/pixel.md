@@ -13,6 +13,14 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
+-   releaseCycle: "fold"
+    releaseLabel: "Pixel Fold"
+    releaseDate: 2023-06-28
+    support: 2026-06-26
+    eol: 2028-06-25
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_Fold
+
 -   releaseCycle: "tablet"
     releaseLabel: "Pixel Tablet"
     releaseDate: 2023-06-20
@@ -20,7 +28,7 @@ releases:
     eol: 2028-06-20
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
-
+    
 -   releaseCycle: "7a"
     releaseLabel: "Pixel 7a"
     releaseDate: 2023-05-10
