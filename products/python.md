@@ -3,7 +3,11 @@ title: Python
 category: lang
 iconSlug: python
 permalink: /python
-versionCommand: python3 --version
+versionCommand: |-
+  python --version
+
+  # or alternatively
+  python3 --version
 releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
