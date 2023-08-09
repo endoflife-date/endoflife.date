@@ -202,7 +202,8 @@ def update_product(name):
                 f.write(final_contents)
 
             # Print all unmatched versions released in the last 30 days
-            # Ping product maintainers only once a week (on 1st, 7th, 14th, 21st, and 28th day)
+            # Highlight versions older than 21 days (i.e. starting with the 22nd day)
+            # Ping product maintainers only once every 3 days (on 1st, 4th, 7th, 10th, 13th, 16th, 19th, 22nd, 25th, and 28th day)
             if len(version_set) != 0:
                 gh = github_file_url(fn)
                 info = f'[`{name}`]({gh})' if gh else f'`{name}`'
@@ -221,8 +222,8 @@ def update_product(name):
                     if age_days < 30:
                         print(f'[WARN] {name}:{x} ({R1[x]}) not included{f" (maintainers: {maintainers_info})" if maintainers else ""}')
 
-                        bold = "**" if age_days > 22 else ""
-                        if age_days % 7 == 0:
+                        bold = "**" if age_days >= 21 else ""
+                        if age_days % 3 == 0:
                             github_output(f'- {bold}{info} version `{x}` ({R1[x]}, {age_days_info})'
                                           f'{f", notifying maintainers {maintainers_info}" if maintainers else ""}{bold}\n')
                         else:

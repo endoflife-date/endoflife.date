@@ -227,7 +227,7 @@ auto:
 # Automation allows automatically updating the data of existing releases, but doesn't allow adding new releases.
 # However, Automation can notify GitHub users about new releases, so that they can be added manually.
 # Adding new products is great, maintaining products is even better - so you might want to add yourself here?
-# Notifications are sent by mentioning the maintainer in the auto updater pull request, no more than once a week.
+# Notifications are sent by mentioning the maintainer in the auto updater PR, no more than once every 3 days.
 # Add one or more GitHub usernames prefixed by "@" here (note: you MUST add quotes around the string).
 maintainers:
   - "@octocat"
