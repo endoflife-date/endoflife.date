@@ -28,106 +28,107 @@ identifiers:
 releases:
 
 -   releaseCycle: "2.7"
-    releaseDate: 2023-05-02
+    releaseDate: 2023-05-01
     eol: false
-    latest: "2.7.9"
-    latestReleaseDate: 2023-07-25
+    latest: "2.7.11"
+    latestReleaseDate: 2023-08-07
 
 -   releaseCycle: "2.6"
-    releaseDate: 2023-02-07
+    releaseDate: 2023-02-06
     eol: false
-    latest: "2.6.13"
-    latestReleaseDate: 2023-07-20
+    latest: "2.6.14"
+    latestReleaseDate: 2023-08-07
 
 -   releaseCycle: "2.5"
-    releaseDate: 2022-10-26
+    releaseDate: 2022-10-25
     eol: false
-    latest: "2.5.21"
-    latestReleaseDate: 2023-07-20
+    latest: "2.5.22"
+    latestReleaseDate: 2023-08-07
 
 -   releaseCycle: "2.4"
-    releaseDate: 2022-06-11
+    releaseDate: 2022-06-10
     eol: 2023-05-02
     latest: "2.4.28"
-    latestReleaseDate: 2023-03-24
+    latestReleaseDate: 2023-03-23
 
 -   releaseCycle: "2.3"
     releaseDate: 2022-03-06
     eol: 2023-02-07
     latest: "2.3.17"
-    latestReleaseDate: 2023-02-17
+    latestReleaseDate: 2023-02-16
 
 -   releaseCycle: "2.2"
-    releaseDate: 2021-12-15
+    releaseDate: 2021-12-14
     eol: 2022-10-26
     latest: "2.2.16"
-    latestReleaseDate: 2022-11-02
+    latestReleaseDate: 2022-11-01
 
 -   releaseCycle: "2.1"
     releaseDate: 2021-08-20
     eol: 2022-06-11
     latest: "2.1.16"
-    latestReleaseDate: 2022-06-22
+    latestReleaseDate: 2022-06-21
 
 -   releaseCycle: "2.0"
-    releaseDate: 2021-12-15
+    releaseDate: 2021-04-07
     eol: 2022-03-06
     latest: "2.0.5"
-    latestReleaseDate: 2021-07-23
+    latestReleaseDate: 2021-07-22
 
 -   releaseCycle: "1.8"
-    releaseDate: 2020-12-10
+    releaseDate: 2020-12-09
     eol: 2021-12-15
     latest: "1.8.7"
-    latestReleaseDate: 2021-03-03 
+    latestReleaseDate: 2021-03-03
 
 -   releaseCycle: "1.7"
-    releaseDate: 2020-08-26
+    releaseDate: 2020-08-25
     eol: 2021-08-20
     latest: "1.7.14"
-    latestReleaseDate: 2021-03-04 
+    latestReleaseDate: 2021-03-03
 
 -   releaseCycle: "1.6"
-    releaseDate: 2020-06-17
+    releaseDate: 2020-06-16
     eol: 2021-12-15
     latest: "1.6.2"
-    latestReleaseDate: 2020-08-01
+    latestReleaseDate: 2020-07-31
 
 -   releaseCycle: "1.5"
-    releaseDate: 2020-04-03
+    releaseDate: 2020-04-02
     eol: 2020-12-10
     latest: "1.5.8"
-    latestReleaseDate: 2020-06-17
+    latestReleaseDate: 2020-06-16
 
 -   releaseCycle: "1.4"
-    releaseDate: 2020-01-18
+    releaseDate: 2020-01-17
     eol: 2020-08-26
     latest: "1.4.3"
-    latestReleaseDate: 2020-04-16
+    latestReleaseDate: 2020-04-15
 
 -   releaseCycle: "1.3"
-    releaseDate: 2019-11-13
+    releaseDate: 2019-11-12
     eol: 2020-06-17
     latest: "1.3.6"
-    latestReleaseDate: 2019-12-11
+    latestReleaseDate: 2019-12-10
 
 -   releaseCycle: "1.2"
-    releaseDate: 2019-09-05
+    releaseDate: 2019-09-04
     eol: 2020-01-18
     latest: "1.2.5"
-    latestReleaseDate: 2019-10-29
+    latestReleaseDate: 2019-10-28
 
 -   releaseCycle: "1.1"
-    releaseDate: 2019-06-25
+    releaseDate: 2019-07-22
     eol: 2020-01-18
     latest: "1.1.2"
-    latestReleaseDate: 2019-07-31
+    latestReleaseDate: 2019-07-30
 
 -   releaseCycle: "1.0"
-    releaseDate: 2019-05-17
+    releaseDate: 2019-05-16
     eol: 2019-11-13
     latest: "1.0.2"
-    latestReleaseDate: 2019-06-15
+    latestReleaseDate: 2019-06-14
+
 ---
 
 > [Argo CD](https://argo-cd.readthedocs.io) is a declarative, GitOps continuous delivery tool for Kubernetes.
