@@ -16,13 +16,21 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
+-   releaseCycle: "17.7"
+    codename: "2022"
+    lts: false
+    eol: false # eol with release of 17.8 or 18.0
+    releaseDate: 2023-08-08
+    latest: "17.7.0"
+    latestReleaseDate: 2023-08-08
+
 -   releaseCycle: "17.6"
     codename: "2022"
     lts: true
     eol: 2025-01-09
     releaseDate: 2023-05-16
-    latest: "17.6.5"
-    latestReleaseDate: 2023-07-11
+    latest: "17.6.6"
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -53,8 +61,8 @@ releases:
     lts: true
     eol: 2024-01-09
     releaseDate: 2022-05-10
-    latest: "17.2.17"
-    latestReleaseDate: 2023-07-11
+    latest: "17.2.18"
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "17.1"
     codename: "2022"
@@ -76,8 +84,8 @@ releases:
     codename: "2019"
     eol: 2029-04-10
     releaseDate: 2021-08-10
-    latest: "16.11.28"
-    latestReleaseDate: 2023-07-25
+    latest: "16.11.29"
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "16.10"
     codename: "2019"
@@ -160,9 +168,9 @@ releases:
     codename: "2017"
     eol: 2027-04-13
     releaseDate: 2018-11-13
-    latest: "15.9.55"
-    latestReleaseDate: 2023-06-13
-    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.55
+    latest: "15.9.56"
+    latestReleaseDate: 2023-08-08
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.56
 
 -   releaseCycle: "15.8"
     codename: "2017"
