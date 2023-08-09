@@ -1,7 +1,7 @@
 ---
 title: AngularJS
 category: framework
-tags: javascript javascript-runtime
+tags: google javascript-runtime
 iconSlug: angularjs
 permalink: /angularjs
 alternate_urls:
