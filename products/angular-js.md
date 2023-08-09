@@ -84,12 +84,4 @@ releases:
 
 AngularJS was [deprecated](https://docs.angularjs.org/misc/version-support-status) on December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c) on the final version 1.8.3 which was released April 7, 2022.
 
-## Extended Long Term Support
-
-The independent team at XLTS.dev offers [extended long term support for AngularJS](https://xlts.dev/angularjs?utm_source=endoflife.date&utm_medium=open-source-pr&utm_campaign=xlts-angularjs-blog&utm_content=pr-link). On January 1st 2022, the XLTS.dev team began maintaining, supporting and releasing a fork of the latest version of AngularJS and provides software updates that fit any of the following criteria:
-
-- Security Patches: A security flaw is detected in XLTS for AngularJS
-- Browser Breaking Changes: One of the major browsers releases a version that will cause current production applications using the XLTS for AngularJS to stop working
-- jQuery Patches: The jQuery library releases a version that will cause current production applications using XLTS for AngularJS to stop working
-
-More information is about extended long term support for AngularJS available on their website: [https://xlts.dev/angularjs](https://xlts.dev/angularjs)
+**Extended Long Term Support:** Beginning January 1, 2022, [extended long term support for AngularJS](https://xlts.dev/angularjs) became available for 1.5.x and 1.8.x versions through the independent team at [XLTS.dev](http://xlts.dev/).
