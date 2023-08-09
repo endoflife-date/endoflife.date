@@ -45,15 +45,15 @@ releases:
     lts: false
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.9"
-    latestReleaseDate: 2023-07-11
+    latest: "7.0.10"
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "6.0"
     lts: true
     releaseDate: 2021-11-08
     eol: 2024-11-12
-    latest: "6.0.20"
-    latestReleaseDate: 2023-07-11
+    latest: "6.0.21"
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "5.0"
     lts: false
