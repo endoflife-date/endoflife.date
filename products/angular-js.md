@@ -9,11 +9,11 @@ alternate_urls:
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
 
-eolColumn: false
-activeSupportColumn: Community Support
+activeSupportColumn: false
+eolColumn: Active Support
 releaseColumn: Latest
 releaseDateColumn: Released
-extendedSupportColumn: Extended Long Term Support
+changelogTemplate: https://github.com/angular/angular.js/blob/v__RELEASE_CYCLE__.x/CHANGELOG.md
 
 auto:
   - npm: angular
@@ -25,75 +25,58 @@ identifiers:
 releases:
 -   releaseCycle: "1.8"
     releaseDate: 2020-06-04
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.8.3"
     latestReleaseDate: 2022-04-17
     lts: true
-    link: https://github.com/angular/angular.js/blob/v1.8.x/CHANGELOG.md
 
 -   releaseCycle: "1.7"
     releaseDate: 2018-04-30
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.7.9"
     latestReleaseDate: 2019-11-19
-    link: https://github.com/angular/angular.js/blob/v1.7.x/CHANGELOG.md
 
 -   releaseCycle: "1.6"
     releaseDate: 2016-12-08
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.6.10"
     latestReleaseDate: 2018-04-17
-    link: https://github.com/angular/angular.js/blob/v1.6.x/CHANGELOG.md
 
 -   releaseCycle: "1.5"
     releaseDate: 2016-02-17
-    support: 2021-12-31
+    eol: 2021-12-31
     latest: "1.5.11"
     latestReleaseDate: 2017-01-12
-    link: https://github.com/angular/angular.js/blob/v1.5.x/CHANGELOG.md
 
 -   releaseCycle: "1.4"
     releaseDate: 2015-04-13
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.4.14"
     latestReleaseDate: 2016-10-11
-    link: https://github.com/angular/angular.js/blob/v1.4.x/CHANGELOG.md
 
 -   releaseCycle: "1.3"
     releaseDate: 2014-10-13
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.3.20"
     latestReleaseDate: 2015-09-29
-    link: https://github.com/angular/angular.js/blob/v1.3.x/CHANGELOG.md
 
 -   releaseCycle: "1.2"
     releaseDate: 2013-11-06
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.2.32"
     latestReleaseDate: 2016-10-11
-    link: https://github.com/angular/angular.js/blob/v1.2.x/CHANGELOG.md
 
 -   releaseCycle: "1.1"
     releaseDate: 2012-08-13
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.1.5"
     latestReleaseDate: 2013-05-22
-    link: https://github.com/angular/angular.js/blob/v1.1.x/CHANGELOG.md
 
 -   releaseCycle: "1.0"
     releaseDate: 2010-10-20
-    support: 2021-12-31
     eol: 2021-12-31
     latest: "1.0.8"
     latestReleaseDate: 2013-08-22
-    link: https://github.com/angular/angular.js/blob/v1.0.x/CHANGELOG.md
 
 ---
 
