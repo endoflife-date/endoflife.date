@@ -163,7 +163,12 @@ releases:
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
 
-By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
-In the first 1.5 year there are planned releases with bugfixes. In the next 3.5 year there are only security fixes and only source distribution without precompiled binaries. Starting with Python 3.13 it will change to 2 + 3 years.
+The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
+
+In the first 1.5 years there are planned releases with bugfixes. In the next 3.5 year there are only security fixes
+and source distribution without precompiled binaries. Starting with Python 3.13 it will change to 2 + 3 years.
+
 The detailed release information (including schedules) can be found among [Release PEPs](https://peps.python.org/topic/release/)
-Python 3.9+ cannot be used on Microsoft Windows 7 or earlier versions. Last Windows 7 installable version is Python 3.8 series.
+
+A Python release only supports a Windows platform while Microsoft considers the platform under extended support.
+Python 3.8 was the last version to support Windows 7.
