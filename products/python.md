@@ -134,26 +134,31 @@ releases:
     latestReleaseDate: 2021-09-03
     releaseDate: 2016-12-22
 -   releaseCycle: "3.5"
+    support: false
     eol: 2020-09-13
     latest: "3.5.10"
     latestReleaseDate: 2020-09-05
     releaseDate: 2015-09-12
 -   releaseCycle: "3.4"
+    support: false
     eol: 2019-03-18
     latest: "3.4.10"
     latestReleaseDate: 2019-03-18
     releaseDate: 2014-03-15
 -   releaseCycle: "3.3"
+    support: false
     eol: 2017-09-29
     latest: "3.3.7"
     latestReleaseDate: 2017-09-19
     releaseDate: 2012-09-29
 -   releaseCycle: "2.7"
+    support: false
     eol: 2020-01-01
     latest: "2.7.18"
     latestReleaseDate: 2020-04-19
     releaseDate: 2010-07-03
 -   releaseCycle: "2.6"
+    support: false
     eol: 2013-10-29
     latest: "2.6.9"
     latestReleaseDate: 2013-10-29
