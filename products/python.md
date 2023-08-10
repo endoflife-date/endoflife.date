@@ -3,10 +3,15 @@ title: Python
 category: lang
 iconSlug: python
 permalink: /python
-versionCommand: python --version
+versionCommand: |-
+  python --version
+
+  # or alternatively
+  python3 --version
 releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
+activeSupportColumn: true
 releaseDateColumn: true
 identifiers:
 -   purl: pkg:generic/python
@@ -93,31 +98,37 @@ auto:
     regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 releases:
 -   releaseCycle: "3.11"
+    support: 2024-04-01
     eol: 2027-10-24
     latest: "3.11.4"
     latestReleaseDate: 2023-06-06
     releaseDate: 2022-10-24
 -   releaseCycle: "3.10"
+    support: 2023-04-05
     eol: 2026-10-04
     latest: "3.10.12"
     latestReleaseDate: 2023-06-06
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
+    support: 2022-05-17
     eol: 2025-10-05
     latest: "3.9.17"
     latestReleaseDate: 2023-06-06
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
+    support: 2021-05-03
     eol: 2024-10-14
     latest: "3.8.17"
     latestReleaseDate: 2023-06-06
     releaseDate: 2019-10-14
 -   releaseCycle: "3.7"
+    support: 2020-06-27
     eol: 2023-06-27
     latest: "3.7.17"
     latestReleaseDate: 2023-06-05
     releaseDate: 2018-06-26
 -   releaseCycle: "3.6"
+    support: 2018-12-24
     eol: 2021-12-23
     latest: "3.6.15"
     latestReleaseDate: 2021-09-03
@@ -152,5 +163,12 @@ releases:
 
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming language.
 
-By default, the end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
-Python 3.9+ cannot be used on Microsoft Windows 7 or earlier versions. Last Windows 7 installable version is Python 3.8 series.
+The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release manager of each branch.
+
+In the first 1.5 years there are planned releases with bugfixes. In the next 3.5 year there are only security fixes
+and source distribution without precompiled binaries. Starting with Python 3.13 it will change to 2 + 3 years.
+
+The detailed release information (including schedules) can be found among [Release PEPs](https://peps.python.org/topic/release/)
+
+A Python release only supports a Windows platform while Microsoft considers the platform under extended support.
+Python 3.8 was the last version to support Windows 7.
