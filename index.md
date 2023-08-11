@@ -53,7 +53,12 @@ tools that already did it: [norwegianblue](https://github.com/hugovk/norwegianbl
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://commonmark.org)
 [![](https://img.shields.io/badge/Hacktoberfest-Welcome-green)](https://github.com/endoflife-date/endoflife.date/issues/408)
 [![Gitter](https://img.shields.io/badge/chat%20on-gitter-green)](https://gitter.im/endoflife-date/community)
+
+## Sponsors
+
 [![Powered by Netlify](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com)
+[![Sponsored under Datadog OSS Plan](assets/datadog-logo.png)](https://datadog.com)
+
 
 [python]: /python
 [nodejs]: /nodejs
