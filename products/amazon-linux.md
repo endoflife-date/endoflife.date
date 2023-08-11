@@ -19,10 +19,9 @@ identifiers:
 -   purl: pkg:docker/library/amazonlinux
 
 auto:
--   dockerhub: library/amazonlinux
+-   docker_hub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases
-    regex: ^(?<version>\d+(\.\d+){2,4})$
-    template: "{{version}}"
+    regex: ^(?:\d+(\.\d+){2,4})$
 
 releases:
 
@@ -40,7 +39,7 @@ releases:
     latest: "2.0.20230727.0"
     latestReleaseDate: 2023-08-07
     releaseDate: 2018-06-26
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
 -   releaseCycle: '2018.03'
@@ -67,7 +66,7 @@ releases:
     eol: 2023-12-31
     latest: "2017.03.1.20170812"
     releaseDate: 2017-04-07
-    link: 
+    link:
       https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/         # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
 
     latestReleaseDate: 2017-11-03
@@ -158,7 +157,7 @@ releases:
     eol: 2023-12-31
     latest: "2011.09"
     releaseDate: 2011-09-26
-    link: 
+    link:
       https://aws.amazon.com/blogs/aws/amazon-linux-ami-production-status-new-features/
 
 -   releaseCycle: '2010.11'
