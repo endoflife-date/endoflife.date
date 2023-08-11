@@ -3,6 +3,9 @@ title: Amazon Neptune
 category: service
 tags: amazon
 iconSlug: amazonaws
+alternate_urls:
+-   /aws-neptune
+-   /neptune
 permalink: /amazon-neptune
 releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
 versionCommand: >
