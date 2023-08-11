@@ -13,9 +13,10 @@ changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|repla
 activeSupportColumn: true
 releaseDateColumn: true
 
+# distrowatch misses a few releases
+# so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
--   distrowatch: rocky
-    regex: '^Distribution Release: Rocky Linux (?P<major>\d)\.(?P<minor>\d)$'
+-   custom: true
 
 identifiers:
 -   cpe: cpe:/o:rocky:rocky
