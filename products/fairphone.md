@@ -53,7 +53,7 @@ Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [mi
 | Device       | Highest Android Version |
 | -------------| ----------------------- |
 | Fairphone 4  | 12                      |
-| Fairphone 3+ | 11                      |
-| Fairphone 3  | 11                      |
+| Fairphone 3+ | 13                      |
+| Fairphone 3  | 13                      |
 | Fairphone 2  | 10                      |
 | Fairphone 1  | 4.2                     |
