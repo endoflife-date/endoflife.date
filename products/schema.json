@@ -143,7 +143,17 @@
                 "type": "string"
               },
               "regex": {
-                "$ref": "#/$defs/regex"
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/regex"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/$defs/regex"
+                    }
+                  }
+                ]
               },
               "template": {
                 "$ref": "#/$defs/template"
@@ -174,7 +184,17 @@
                 "type": "string"
               },
               "regex": {
-                "$ref": "#/$defs/regex"
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/regex"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/$defs/regex"
+                    }
+                  }
+                ]
               }
             },
             "required": [
@@ -219,6 +239,26 @@
             },
             "required": [
               "maven"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "cgit": {
+                "title": "Cgit",
+                "description": "Fetch versions (from tags) with their dates from a cgit repository.",
+                "type": "string"
+              },
+              "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "template": {
+                "$ref": "#/$defs/template"
+              }
+            },
+            "required": [
+              "cgit"
             ],
             "additionalProperties": false
           }
@@ -281,8 +321,15 @@
         "link": {
           "title": "Link",
           "description": "Link to changelog for the latest release.",
-          "type": "string",
-          "pattern": "[^ ]+"
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "[^ ]+"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "releaseLabel": {
           "title": "Release label",
