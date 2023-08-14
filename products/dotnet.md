@@ -39,6 +39,22 @@ identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
+-   purl: pkg:rpm/rhel/dotnet-sdk-7.0
+-   purl: pkg:rpm/rhel/dotnet-sdk-6.0
+-   purl: pkg:rpm/rhel/dotnet-sdk-5.0
+-   purl: pkg:rpm/rhel/dotnet-sdk-3.1
+-   purl: pkg:rpm/rhel/dotnet-sdk-3.0
+-   purl: pkg:rpm/rhel/dotnet-sdk-2.2
+-   purl: pkg:rpm/rhel/dotnet-sdk-2.1
+-   purl: pkg:rpm/rhel/dotnet-sdk-2.0
+-   purl: pkg:rpm/rhel/dotnet-runtime-7.0
+-   purl: pkg:rpm/rhel/dotnet-runtime-6.0
+-   purl: pkg:rpm/rhel/dotnet-runtime-5.0
+-   purl: pkg:rpm/rhel/dotnet-runtime-3.1
+-   purl: pkg:rpm/rhel/dotnet-runtime-3.0
+-   purl: pkg:rpm/rhel/dotnet-runtime-2.2
+-   purl: pkg:rpm/rhel/dotnet-runtime-2.1
+-   purl: pkg:rpm/rhel/dotnet-runtime-2.0
 
 releases:
 -   releaseCycle: "7.0"
