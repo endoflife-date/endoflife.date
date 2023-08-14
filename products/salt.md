@@ -43,7 +43,6 @@ releases:
     eol: 2024-02-25
     latest: "3005.1"
     latestReleaseDate: 2022-11-08
-    link: https://docs.saltproject.io/en/latest/topics/releases/3005.1.html
 
 -   releaseCycle: "3004"
     releaseDate: 2021-10-18
