@@ -36,7 +36,6 @@ releases:
     latest: "3006.1"
     latestReleaseDate: 2023-05-05
     lts: true
-    link: https://docs.saltproject.io/en/latest/topics/releases/3006.0.html#changelog
 
 -   releaseCycle: "3005"
     releaseDate: 2022-08-25
