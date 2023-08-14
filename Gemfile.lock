@@ -25,7 +25,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    icalendar (2.8.0)
+    icalendar (2.9.0)
       ice_cube (~> 0.16)
     ice_cube (0.16.4)
     jekyll (4.3.2)
@@ -92,9 +92,10 @@ GEM
     rexml (3.2.6)
     rouge (4.1.3)
     safe_yaml (1.0.5)
-    sass-embedded (1.64.2)
+    sass-embedded (1.64.2-aarch64-linux-gnu)
       google-protobuf (~> 3.23)
-      rake (>= 13.0.0)
+    sass-embedded (1.64.2-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     tzinfo (2.0.6)
@@ -107,7 +108,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  icalendar (~> 2.7)
+  icalendar (~> 2.9)
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.17)
   jekyll-last-modified-at
