@@ -56,7 +56,6 @@ releases:
 > [Salt](https://saltproject.io/index.html) is software to automate the management and configuration of any infrastructure or application at scale.
 
 
-## Support Lifecycle
 Beginning with the 3006 release of Salt, the Salt Project will follow an LTS/STS release strategy. Under this strategy, the Salt Project will release one LTS (long-term support) release of Salt per year and one STS (short-term support) release each year.
 
 LTS prioritize stability, and are supported for 2 years. STS releases provide access to newer features in between LTS releases, and are only supported for 6 months.
