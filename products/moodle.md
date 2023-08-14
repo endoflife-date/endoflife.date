@@ -21,32 +21,32 @@ releases:
     eol: 2024-10-07
     # Remove this link after 4.2.1 is released
     link: https://moodledev.io/general/releases/4.2
-    latest: "4.2.1"
-    latestReleaseDate: 2023-06-10
+    latest: "4.2.2"
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "4.1"
     eol: 2025-11-10
     support: 2023-11-13
-    latest: "4.1.4"
+    latest: "4.1.5"
     lts: true
     releaseDate: 2022-11-26
-    latestReleaseDate: 2023-06-10
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "4.0"
     eol: 2023-11-13
     support: 2023-05-08
-    latest: "4.0.9"
+    latest: "4.0.10"
     lts: false
     releaseDate: 2022-04-17
-    latestReleaseDate: 2023-06-10
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "3.11"
     eol: 2023-11-13
     support: 2022-11-14
-    latest: "3.11.15"
+    latest: "3.11.16"
     lts: false
     releaseDate: 2021-05-15
-    latestReleaseDate: 2023-06-10
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "3.10"
     eol: 2022-05-09
@@ -59,10 +59,10 @@ releases:
 -   releaseCycle: "3.9"
     eol: 2023-11-13
     support: 2021-05-10
-    latest: "3.9.22"
+    latest: "3.9.23"
     lts: true
     releaseDate: 2020-06-13
-    latestReleaseDate: 2023-06-10
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "3.8"
     eol: 2021-05-10
