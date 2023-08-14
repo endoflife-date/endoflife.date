@@ -8,12 +8,10 @@ alternate_urls:
 -   /angular-js
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
-
-activeSupportColumn: false
-eolColumn: Active Support
-releaseColumn: Latest
-releaseDateColumn: Released
 changelogTemplate: https://github.com/angular/angular.js/blob/v__RELEASE_CYCLE__.x/CHANGELOG.md
+eolColumn: Support
+releaseColumn: true
+releaseDateColumn: true
 
 auto:
   - npm: angular
@@ -24,11 +22,11 @@ identifiers:
 
 releases:
 -   releaseCycle: "1.8"
+    lts: true
     releaseDate: 2020-06-04
     eol: 2021-12-31
     latest: "1.8.3"
     latestReleaseDate: 2022-04-17
-    lts: true
 
 -   releaseCycle: "1.7"
     releaseDate: 2018-04-30
@@ -80,8 +78,16 @@ releases:
 
 ---
 
-> AngularJS is a free and open-source JavaScript-based web framework for developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications. AngularJS, referred to as Angular 1, was built and maintained by Google.
+> AngularJS is a free and open-source JavaScript-based web framework for developing single-page
+> applications. It aims to simplify both the development and the testing of such applications by
+> providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel
+> (MVVM) architectures, along with components commonly used in web applications and progressive
+> web applications. AngularJS, referred to as Angular 1, was built and maintained by Google.
 
-AngularJS was [deprecated](https://docs.angularjs.org/misc/version-support-status) on December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c) on the final version 1.8.3 which was released April 7, 2022.
+AngularJS was [deprecated](https://docs.angularjs.org/misc/version-support-status) on
+December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c)
+on the final version 1.8.3 which was released April 7, 2022.
 
-**Extended Long Term Support:** Beginning January 1, 2022, [extended long term support for AngularJS](https://xlts.dev/angularjs) became available for 1.5.x and 1.8.x versions through the independent team at [XLTS.dev](http://xlts.dev/).
+Beginning January 1, 2022, [extended long term support for AngularJS](https://xlts.dev/angularjs)
+became available for 1.5.x and 1.8.x versions through a fork of the project maintained by the
+independent team at [XLTS.dev](http://xlts.dev/).
