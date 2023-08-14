@@ -28,22 +28,22 @@ releases:
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: '17.0.7+7'
-    latestReleaseDate: 2023-05-26
+    latest: '17.0.8+7'
+    latestReleaseDate: 2023-08-12
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2024-10-31
-    latest: '11.0.19+7'
-    latestReleaseDate: 2023-05-26
+    latest: '11.0.20+8'
+    latestReleaseDate: 2023-08-12
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-30
-    latest: '8u372-b07'
-    latestReleaseDate: 2023-05-26
+    latest: '8u382-b05'
+    latestReleaseDate: 2023-08-12
 
 ---
 

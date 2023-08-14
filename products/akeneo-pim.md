@@ -27,8 +27,8 @@ releases:
     codename: "Buccaneer Bunny"
     releaseDate: 2022-02-04
     eol: 2023-09-30
-    latest: "6.0.96"
-    latestReleaseDate: 2023-08-03
+    latest: "6.0.97"
+    latestReleaseDate: 2023-08-11
 
 -   releaseCycle: "5.0"
     codename: "Bully for Bugs"
