@@ -50,7 +50,6 @@ releases:
     eol: 2023-04-18
     latest: "3004.2"
     latestReleaseDate: 2022-06-21
-    link: https://docs.saltproject.io/en/latest/topics/releases/3004.html
 
 ---
 
