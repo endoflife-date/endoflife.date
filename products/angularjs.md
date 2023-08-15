@@ -14,11 +14,11 @@ releaseColumn: true
 releaseDateColumn: true
 
 auto:
-  - npm: angular
+-   npm: angular
 
 identifiers:
-  - repology: angular.js
-  - purl: pkg:npm/angular
+-   repology: angular.js
+-   purl: pkg:npm/angular
 
 releases:
 -   releaseCycle: "1.8"
@@ -26,10 +26,10 @@ releases:
     releaseDate: 2020-06-04
     eol: 2021-12-31
     latest: "1.8.3"
-    latestReleaseDate: 2022-04-17
+    latestReleaseDate: 2022-04-07
 
 -   releaseCycle: "1.7"
-    releaseDate: 2018-04-30
+    releaseDate: 2018-05-11
     eol: 2021-12-31
     latest: "1.7.9"
     latestReleaseDate: 2019-11-19
@@ -41,13 +41,13 @@ releases:
     latestReleaseDate: 2018-04-17
 
 -   releaseCycle: "1.5"
-    releaseDate: 2016-02-17
+    releaseDate: 2016-02-05
     eol: 2021-12-31
     latest: "1.5.11"
     latestReleaseDate: 2017-01-12
 
 -   releaseCycle: "1.4"
-    releaseDate: 2015-04-13
+    releaseDate: 2015-05-27
     eol: 2021-12-31
     latest: "1.4.14"
     latestReleaseDate: 2016-10-11
@@ -59,22 +59,22 @@ releases:
     latestReleaseDate: 2015-09-29
 
 -   releaseCycle: "1.2"
-    releaseDate: 2013-11-06
+    releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.2.32"
     latestReleaseDate: 2016-10-11
 
 -   releaseCycle: "1.1"
-    releaseDate: 2012-08-13
+    releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.1.5"
-    latestReleaseDate: 2013-05-22
+    latestReleaseDate: 2013-11-23
 
 -   releaseCycle: "1.0"
-    releaseDate: 2010-10-20
+    releaseDate: 2013-11-23
     eol: 2021-12-31
     latest: "1.0.8"
-    latestReleaseDate: 2013-08-22
+    latestReleaseDate: 2013-11-23
 
 ---
 

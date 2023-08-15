@@ -1,5 +1,4 @@
 ---
-
 title: Salt
 category: server-app
 tags: python-runtime
@@ -8,8 +7,10 @@ permalink: /salt
 alternate_urls:
 -   /saltstack
 versionCommand: salt --version
-releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-releaseImage: https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
+releasePolicyLink: 
+  https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+releaseImage: 
+  https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
 changelogTemplate: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html#changelog
 eolColumn: CVE & Critical Support
 activeSupportColumn: true
@@ -23,9 +24,9 @@ auto:
     template: "{{version}}"
 
 identifiers:
-  - repology: salt
-  - purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
-  - purl: pkg:docker/saltstack/salt
+-   repology: salt
+-   purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
+-   purl: pkg:docker/saltstack/salt
 
 releases:
 
@@ -33,23 +34,23 @@ releases:
     releaseDate: 2023-04-18
     support: 2024-04-18
     eol: 2025-04-18
-    latest: "3006.1"
-    latestReleaseDate: 2023-05-05
+    latest: "3006.2"
+    latestReleaseDate: 2023-08-10
     lts: true
 
 -   releaseCycle: "3005"
-    releaseDate: 2022-08-25
+    releaseDate: 2022-08-22
     support: 2023-08-25
     eol: 2024-02-25
-    latest: "3005.1"
-    latestReleaseDate: 2022-11-08
+    latest: "3005.2"
+    latestReleaseDate: 2023-08-03
 
 -   releaseCycle: "3004"
-    releaseDate: 2021-10-18
+    releaseDate: 2021-10-12
     support: 2022-10-18
     eol: 2023-04-18
     latest: "3004.2"
-    latestReleaseDate: 2022-06-21
+    latestReleaseDate: 2022-05-13
 
 ---
 
