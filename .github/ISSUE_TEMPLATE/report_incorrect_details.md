@@ -9,12 +9,12 @@ assignees: ''
 
 **Link to product page on endoflife.date**
 
-Let us know the to url of the product page on endoflife.date you found the incorrect details.
+Let us know the URL of the product page on endoflife.date you found the incorrect details.
 
 
 **Details of incorrect and correct details you have found**
 
-For example the active support date on endoflife.date is not the same as in the product documentation.
+For example, the active support date on endoflife.date is not the same as in the product documentation.
 
 endoflife.date: 2021-02-02
 
