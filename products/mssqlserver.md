@@ -34,7 +34,7 @@ releases:
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4316.3"
+    latest: "15.0.4322.2"
     latestReleaseDate: 2023-08-14
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate22
 
