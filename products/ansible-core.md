@@ -5,9 +5,9 @@ iconSlug: ansible
 tags: python-runtime red-hat
 permalink: /ansible-core
 versionCommand: ansible --version
-releasePolicyLink:
+releasePolicyLink: 
   https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate:
+changelogTemplate: 
   https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 activeSupportColumn: false
@@ -24,8 +24,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-15
     eol: 2024-11-01
-    latest: "2.15.2"
-    latestReleaseDate: 2023-07-17
+    latest: "2.15.3"
+    latestReleaseDate: 2023-08-14
 
 -   releaseCycle: "2.14"
     pythonVersionsControlNode: 3.9 - 3.11
@@ -33,8 +33,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.8"
-    latestReleaseDate: 2023-07-17
+    latest: "2.14.9"
+    latestReleaseDate: 2023-08-14
 
 -   releaseCycle: "2.13"
     pythonVersionsControlNode: 3.8 - 3.10
