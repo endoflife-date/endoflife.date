@@ -46,13 +46,13 @@ releases:
     releaseDate: 2021-02-22
 
 -   releaseCycle: "6.0"
-    eol: false
+    eol: 2023-08-15
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
     releaseDate: 2020-04-30
 
 -   releaseCycle: "5.0"
-    eol: true
+    eol: 2022-04-27
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
     releaseDate: 2018-10-17
