@@ -93,8 +93,8 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
     eol: 2024-02-01
-    latest: "4.4.23"
-    latestReleaseDate: 2023-07-10
+    latest: "4.4.24"
+    latestReleaseDate: 2023-08-15
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-08-09
