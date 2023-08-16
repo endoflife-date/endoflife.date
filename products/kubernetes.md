@@ -23,7 +23,7 @@ auto:
 releases:
 -   releaseCycle: "1.28"
     releaseDate: 2023-08-15
-    support: 2024-08-28
+    support: 2023-08-28
     eol: 2024-10-28
     latest: "1.28.0"
     latestReleaseDate: 2023-08-15
