@@ -27,6 +27,12 @@ auto:
 -   git: https://github.com/redis/redis.git
 
 releases:
+-   releaseCycle: "7.2"
+    eol: false
+    latest: '7.2.0'
+    latestReleaseDate: 2023-08-15
+    releaseDate: 2023-08-15
+
 -   releaseCycle: "7.0"
     eol: false
     latest: '7.0.12'
