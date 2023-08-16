@@ -17,11 +17,22 @@ auto:
 -   distrowatch: devuan
     regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
 
+# lts(x) = eol(corresponding Debian version)
+# eol(x) = extendedSupport(corresponding Debian version)
 releases:
+-   releaseCycle: "5"
+    codename: "Daedalus"
+    releaseDate: 2023-08-14
+    lts: 2026-06-10
+    eol: 2028-06-10
+    latest: "5.0.0"
+    latestReleaseDate: 2023-08-14
+    link: https://www.devuan.org/os/announce/daedalus-release-announce-2023-08-14
+
 -   releaseCycle: "4"
     codename: "Chimaera"
-    lts: 2024-07-01
     releaseDate: 2021-10-14
+    lts: 2024-07-01
     eol: 2026-08-15
     latest: "4.0.0"
     latestReleaseDate: 2021-10-14
@@ -29,8 +40,8 @@ releases:
 
 -   releaseCycle: "3"
     codename: "Beowulf"
-    lts: 2022-07-01
     releaseDate: 2020-06-02
+    lts: 2022-07-01
     eol: 2024-06-01
     latest: "3.1.0"
     latestReleaseDate: 2021-02-15
@@ -38,8 +49,8 @@ releases:
 
 -   releaseCycle: "2"
     codename: "ASCII"
-    lts: 2020-06-06
     releaseDate: 2018-06-09
+    lts: 2020-06-06
     eol: 2022-06-30
     latest: "2.1"
     latestReleaseDate: 2019-11-25
