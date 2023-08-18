@@ -22,11 +22,11 @@ auto:
 releases:
 -   releaseCycle: "5"
     codename: "Daedalus"
-    releaseDate: 2023-08-14
+    releaseDate: 2023-08-15
     lts: 2026-06-10
     eol: 2028-06-10
     latest: "5.0.0"
-    latestReleaseDate: 2023-08-14
+    latestReleaseDate: 2023-08-15
     link: https://www.devuan.org/os/announce/daedalus-release-announce-2023-08-14
 
 -   releaseCycle: "4"
