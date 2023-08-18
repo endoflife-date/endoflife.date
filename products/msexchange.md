@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU13 Aug23SUv2"
+    releaseLabel: "2019 CU13 SU2V2"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
@@ -20,7 +20,7 @@ releases:
     link: https://support.microsoft.com/help/5030524
 
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 Aug23SUv2"
+    releaseLabel: "2016 CU23 SU9V2"
     releaseDate: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
@@ -29,7 +29,7 @@ releases:
     link: https://support.microsoft.com/help/5030524
 
 -   releaseCycle: "2013"
-    releaseLabel: "2013 CU23 Mar23SU"
+    releaseLabel: "2013 CU23 SU21"
     releaseDate: 2013-01-09
     support: 2018-04-10
     eol: 2023-04-11
