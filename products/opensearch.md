@@ -33,12 +33,11 @@ releases:
 
 Release  | Release Date
 -------- | ------------
- 1.3.12  | {{ "2023-08-10" | date_to_string }}
- 2.10.0  | {{ "2023-08-29" | date_to_string }}
+ 2.10.0  | {{ "2023-09-19" | date_to_string }}
  1.3.13  | {{ "2023-09-21" | date_to_string }}
- 2.11.0  | {{ "2023-10-17" | date_to_string }}
- 1.3.14  | {{ "2023-11-16" | date_to_string }}
- 2.23.0  | {{ "2023-12-07" | date_to_string }}
+ 2.11.0  | {{ "2023-11-16" | date_to_string }}
+ 1.3.14  | {{ "2023-12-12" | date_to_string }}
+ 2.12.0  | {{ "2024-01-23" | date_to_string }}
 
 For more information on the changes planned for each release, see:
 
