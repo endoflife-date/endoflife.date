@@ -30,15 +30,19 @@ module EndOfLifeHooks
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
-  SUPPRESSED_BECAUSE_READ_TIMEOUT = 'may trigger a Net::ReadTimeout'
+  SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger a Net::ReadTimeout'
   SUPPRESSED_BECAUSE_FORBIDDEN = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_BAD_GATEWAY = 'may return a 502 Bad Gateway'
   SUPPRESSED_BECAUSE_EOF = 'may return an "end of file reached" error'
+  SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
+  SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
-    'https://business.adobe.com': SUPPRESSED_BECAUSE_READ_TIMEOUT,
+    'https://ark.intel.com': SUPPRESSED_BECAUSE_FORBIDDEN,
+    'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_FORBIDDEN,
+    'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_BAD_GATEWAY,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_BAD_GATEWAY,
@@ -48,13 +52,16 @@ module EndOfLifeHooks
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_FORBIDDEN,
-    'https://www.atlassian.com': SUPPRESSED_BECAUSE_READ_TIMEOUT,
-    'https://www.adobe.com': SUPPRESSED_BECAUSE_READ_TIMEOUT,
+    'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.citrix.com/products/citrix-virtual-apps-and-desktops/': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://www.clamav.net': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://www.drupal.org/': SUPPRESSED_BECAUSE_FORBIDDEN,
-    'https://www.java.com/releases/': SUPPRESSED_BECAUSE_READ_TIMEOUT,
-    'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_READ_TIMEOUT,
+    'https://www.intel.com': SUPPRESSED_BECAUSE_FORBIDDEN,
+    'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_FORBIDDEN,
+    'https://xenserver.org/': SUPPRESSED_BECAUSE_CERT,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
   URL_CHECK_OPEN_TIMEOUT = 3
