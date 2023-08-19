@@ -25,3 +25,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "webrick", "~> 1.8"
 
 gem 'icalendar', '~> 2.9'
+
+# Used in product-data-validator to check URLs
+gem "open-uri", "~> 0.3"

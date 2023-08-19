@@ -3,9 +3,10 @@ title: Pop!_OS
 category: os
 tags: linux-distribution
 iconSlug: popos
-permalink: /pop_os
+permalink: /pop-os
 alternate_urls:
 -   /popos
+-   /pop_os
 versionCommand: lsb_release --release
 releaseColumn: false
 releaseDateColumn: true

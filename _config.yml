@@ -71,6 +71,9 @@ defaults:
       path: "products"
     values:
       layout: product
+      alternate_urls: []
+      identifiers: []
+      auto: []
       releaseColumn: true
       releaseColumnLabel: 'Latest'
       releaseDateColumn: false

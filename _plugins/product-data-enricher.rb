@@ -337,6 +337,6 @@ module Jekyll
   end
 end
 
-Jekyll::Hooks.register [:pages], :post_init do |page|
+Jekyll::Hooks.register [:pages], :post_init, priority: Jekyll::Hooks::PRIORITY_MAP[:normal] do |page|
   Jekyll::ProductDataEnricher.enrich(page) if Jekyll::ProductDataEnricher.is_product?(page)
 end

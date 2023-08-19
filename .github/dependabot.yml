@@ -10,6 +10,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+
   # This updates the _data/release-data submodule once a day
   # which itself is updated twice a day.
   - package-ecosystem: "gitsubmodule"

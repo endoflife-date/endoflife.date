@@ -6,7 +6,6 @@ iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
 -   /node
--   /node.js
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
