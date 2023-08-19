@@ -6,27 +6,22 @@ layout: default
   <div class="d-flex flex-justify-between align-items-center">
     <h1>{{ page.title }}</h1>
     <span class="labels">
-      {% for tag in page.tags %}<span class="label">{{ tag }}</span>{% endfor %}
+      {%- for tag in page.tags %}
+        <a href="/tags/{{ tag }}"><span class="label">{{ tag }}</span></a>
+      {%- endfor %}
     </span>
   </div>
 
   <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="fw-300">
     📅 Last updated on {{ page.last_modified_at | date_to_long_string }}
-    {%- if page.auto %}
+    {%- if page.auto and page.auto.size != 0 %}
     <span title="Latest releases on this page are automatically updated.">🤖</span>
     {%- endif %}
   </time>
 </div>
 
 <div class="product-description">
-  {%- assign iconUrl = page.iconUrl %}
-  {%- assign iconDescription = page.title %}
-  {%- unless iconUrl %}
-    {%- assign iconDescription = 'No product' %}
-    {%- assign iconUrl = '/assets/default-product-logo.svg' | relative_url %}
-  {%- endunless %}
-  <img class="product-logo" width="50" src="{{ iconUrl }}" alt="{{ iconDescription }} logo">
-
+  {% include product-icon.html product=page size=50 %}
   {{content | extract_element:'blockquote' | first | extract_element:'p' }}
 </div>
 

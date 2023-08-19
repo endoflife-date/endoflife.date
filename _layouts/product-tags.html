@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="tag-cloud" role="navigation" aria-label="Product tag cloud">
+{% for tag_with_weight in page.tags %}
+  {% assign tag = tag_with_weight | split:'|' | first %}
+  {% assign weight = tag_with_weight | split:'|' | last %}
+  <li><a href="/tags/{{ tag }}" data-weight="{{ weight }}">{{ tag }} ({{ weight }})</a></li>
+{% endfor %}
+</ul>

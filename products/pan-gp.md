@@ -96,5 +96,9 @@ releases:
 
 ---
 
-[Palo Alto Networks](https://www.paloaltonetworks.com/) [GlobalProtect App](https://docs.paloaltonetworks.com/globalprotect) is the software client for the VPN service on Palo Alto Networks PAN-OS firewalls and Prisma Access service. The app can be installed on a variety of operating systems including Windows, macOS, Android, iOS, and Linux.
+> [Palo Alto Networks GlobalProtect App](https://docs.paloaltonetworks.com/globalprotect) is the
+> software client for the VPN service on Palo Alto Networks PAN-OS firewalls and Prisma Access
+> service. The app can be installed on a variety of operating systems including Windows, macOS,
+> Android, iOS, and Linux.
+
 Software updates are provided as part of a valid support agreement.

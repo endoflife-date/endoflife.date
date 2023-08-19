@@ -81,3 +81,86 @@ a {
 #version-command {
   overflow: scroll;
 }
+
+
+// Based on https://dev.to/alvaromontoro/create-a-tag-cloud-with-html-and-css-1e90
+ul.tag-cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+
+  li::before { content: none !important; } // override JtD CSS
+  li:nth-child(2n+1) a { --color: #181; }
+  li:nth-child(3n+1) a { --color: #33a; }
+  li:nth-child(4n+1) a { --color: #c38; }
+
+  --tag-size-xs: 2;
+  --tag-size-s: 4;
+  --tag-size-m: 6;
+  --tag-size-l: 8;
+  --tag-size-xl: 10;
+  a[data-weight="1"] { --size: var(--tag-size-xs); }
+  a[data-weight="2"] { --size: var(--tag-size-xs); }
+  a[data-weight="3"] { --size: var(--tag-size-xs); }
+  a[data-weight="4"] { --size: var(--tag-size-xs); }
+  a[data-weight="5"] { --size: var(--tag-size-xs); }
+  a[data-weight="6"] { --size: var(--tag-size-xs); }
+  a[data-weight="7"] { --size: var(--tag-size-xs); }
+  a[data-weight="8"] { --size: var(--tag-size-xs); }
+  a[data-weight="9"] { --size: var(--tag-size-xs); }
+  a[data-weight="10"] { --size: var(--tag-size-xs); }
+  a[data-weight="11"] { --size: var(--tag-size-s); }
+  a[data-weight="12"] { --size: var(--tag-size-s); }
+  a[data-weight="13"] { --size: var(--tag-size-s); }
+  a[data-weight="14"] { --size: var(--tag-size-s); }
+  a[data-weight="15"] { --size: var(--tag-size-s); }
+  a[data-weight="16"] { --size: var(--tag-size-s); }
+  a[data-weight="17"] { --size: var(--tag-size-s); }
+  a[data-weight="18"] { --size: var(--tag-size-s); }
+  a[data-weight="19"] { --size: var(--tag-size-s); }
+  a[data-weight="20"] { --size: var(--tag-size-s); }
+  a[data-weight="21"] { --size: var(--tag-size-m); }
+  a[data-weight="22"] { --size: var(--tag-size-m); }
+  a[data-weight="23"] { --size: var(--tag-size-m); }
+  a[data-weight="24"] { --size: var(--tag-size-m); }
+  a[data-weight="25"] { --size: var(--tag-size-m); }
+  a[data-weight="26"] { --size: var(--tag-size-m); }
+  a[data-weight="27"] { --size: var(--tag-size-m); }
+  a[data-weight="28"] { --size: var(--tag-size-m); }
+  a[data-weight="29"] { --size: var(--tag-size-m); }
+  a[data-weight="30"] { --size: var(--tag-size-m); }
+  a[data-weight="31"] { --size: var(--tag-size-l); }
+  a[data-weight="32"] { --size: var(--tag-size-l); }
+  a[data-weight="33"] { --size: var(--tag-size-l); }
+  a[data-weight="34"] { --size: var(--tag-size-l); }
+  a[data-weight="35"] { --size: var(--tag-size-l); }
+  a[data-weight="36"] { --size: var(--tag-size-l); }
+  a[data-weight="37"] { --size: var(--tag-size-l); }
+  a[data-weight="38"] { --size: var(--tag-size-l); }
+  a[data-weight="39"] { --size: var(--tag-size-l); }
+  a[data-weight="40"] { --size: var(--tag-size-l); }
+  a[data-weight="41"] { --size: var(--tag-size-l); }
+  a[data-weight="42"] { --size: var(--tag-size-l); }
+  a[data-weight="43"] { --size: var(--tag-size-l); }
+  a[data-weight="44"] { --size: var(--tag-size-l); }
+  a[data-weight="45"] { --size: var(--tag-size-l); }
+  a[data-weight="46"] { --size: var(--tag-size-l); }
+  a[data-weight="47"] { --size: var(--tag-size-l); }
+  a[data-weight="48"] { --size: var(--tag-size-l); }
+  a[data-weight="49"] { --size: var(--tag-size-l); }
+  a[data-weight="50"] { --size: var(--tag-size-l); }
+
+  a {
+    --size: var(--tag-size-l);
+    color: var(--color);
+    font-size: calc(var(--size) * 0.25rem + 0.5rem);
+    display: block;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+  }
+}
