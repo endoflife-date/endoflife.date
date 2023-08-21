@@ -7,8 +7,9 @@ versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: 
   https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
-activeSupportColumn: false
+activeSupportColumn: true
 releaseDateColumn: true
+
 identifiers:
 -   purl: pkg:generic/redis
 -   purl: pkg:deb/ubuntu/redis-server
@@ -23,39 +24,47 @@ identifiers:
 -   purl: pkg:docker/cimg/redis
 -   purl: pkg:docker/ubuntu/redis
 -   repology: redis
+
 auto:
 -   git: https://github.com/redis/redis.git
 
+# - support(x) = release(x+1)
+# - eol(x) = release(x+3)
 releases:
 -   releaseCycle: "7.2"
+    releaseDate: 2023-08-15
+    support: true
     eol: false
     latest: '7.2.0'
     latestReleaseDate: 2023-08-15
-    releaseDate: 2023-08-15
 
 -   releaseCycle: "7.0"
+    releaseDate: 2022-04-27
+    support: 2023-08-15
     eol: false
     latest: '7.0.12'
     latestReleaseDate: 2023-07-10
-    releaseDate: 2022-04-27
 
 -   releaseCycle: "6.2"
+    releaseDate: 2021-02-22
+    support: 2022-04-27
     eol: false
     latest: '6.2.13'
     latestReleaseDate: 2023-07-10
-    releaseDate: 2021-02-22
 
 -   releaseCycle: "6.0"
-    eol: 2023-08-16 # date of documentation update from here https://github.com/redis/redis/pull/12488
+    releaseDate: 2020-04-30
+    support: 2021-02-22
+    eol: 2023-08-15
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
-    releaseDate: 2020-04-30
 
 -   releaseCycle: "5.0"
-    eol: 2022-05-11 # date of documentation update from here https://github.com/redis/redis/pull/10712
+    releaseDate: 2018-10-17
+    support: 2020-04-30
+    eol: 2022-04-27
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
-    releaseDate: 2018-10-17
 
 ---
 
