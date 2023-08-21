@@ -46,13 +46,13 @@ releases:
     releaseDate: 2021-02-22
 
 -   releaseCycle: "6.0"
-    eol: false
+    eol: 2023-08-16 # date of documentation update from here https://github.com/redis/redis/pull/12488
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
     releaseDate: 2020-04-30
 
 -   releaseCycle: "5.0"
-    eol: true
+    eol: 2022-05-11 # date of documentation update from here https://github.com/redis/redis/pull/10712
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
     releaseDate: 2018-10-17
@@ -77,3 +77,5 @@ major security issues are committed and released as patches:
 
 - The previous minor version of the latest stable release.
 - The previous stable major release.
+
+[Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisiories.
