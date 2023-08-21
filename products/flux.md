@@ -2,11 +2,10 @@
 title: Flux
 category: server-app
 tags: cncf
-iconSlug: flux2
 permalink: /flux
 alternate_urls:
--   /flux2
--  /fluxcd
+- /flux2
+- /fluxcd
 versionCommand: flux version
 releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
 changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
@@ -27,9 +26,10 @@ releases:
 
 ---
 
-> [Flux](https://fluxcd.io) is an open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.
+> [Flux](https://fluxcd.io) Flux is a tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy.
+> Flux is built from the ground up to use Kubernetes' API extension system, and to integrate with Prometheus and other core components of the Kubernetes ecosystem. Flux supports multi-tenancy and support for syncing an arbitrary number of Git repositories.
 
-For the CLI and its controllers the project support the last three minor releases. Critical bug fixes, such as security fixes, may be back-ported to those three minor versions as patch releases, depending on severity and feasibility.
+The project supports the last three minor releases of the CLI and its controllers with critical bug and security fixes.
 
 ## [Release Cadence](https://fluxcd.io/flux/releases/#release-cadence)
 
