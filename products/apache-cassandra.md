@@ -31,9 +31,9 @@ releases:
     eol: 2023-12-15
     support: true
     releaseDate: 2017-06-23
-    latest: "3.11.15"
+    latest: "3.11.16"
     discontinued: true
-    latestReleaseDate: 2023-05-05
+    latestReleaseDate: 2023-08-20
 -   releaseCycle: "3.0"
     eol: 2023-12-15
     support: true
