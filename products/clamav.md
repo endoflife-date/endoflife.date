@@ -43,7 +43,7 @@ releases:
 
 -   releaseCycle: "0.103"
     releaseDate: 2020-09-11
-    eol: 2023-09-14
+    eol: 2024-09-14
     lts: true
     latest: "0.103.9"
     latestReleaseDate: 2023-08-16
