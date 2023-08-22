@@ -3,6 +3,7 @@ title: Flux
 category: server-app
 tags: cncf
 permalink: /flux
+iconSlug: flux
 alternate_urls:
 - /flux2
 - /fluxcd
