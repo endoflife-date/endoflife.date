@@ -14,9 +14,8 @@ auto:
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
 -   releaseCycle: "1.1"
-    lts: false
     releaseDate: 2023-05-01
-    eol: false
+    eol: false # releaseDate(1.3) + 4 months
     latest: "1.1.1"
     latestReleaseDate: 2023-08-16
 
@@ -29,15 +28,13 @@ releases:
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
-    eol: false
-    lts: false
+    eol: 2023-09-01
     latest: "0.105.2"
     latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "0.104"
     releaseDate: 2021-09-02
     eol: 2023-03-28
-    lts: false
     latest: "0.104.4"
     latestReleaseDate: 2022-07-26
 
@@ -51,28 +48,24 @@ releases:
 -   releaseCycle: "0.102"
     releaseDate: 2019-10-02
     eol: 2022-01-03
-    lts: false
     latest: "0.102.4"
     latestReleaseDate: 2020-07-15
 
 -   releaseCycle: "0.101"
     releaseDate: 2018-12-02
     eol: 2022-01-03
-    lts: false
     latest: "0.101.5"
     latestReleaseDate: 2019-11-20
 
 -   releaseCycle: "0.100"
     releaseDate: 2018-04-04
     eol: 2021-10-29
-    lts: false
     latest: "0.100.3"
     latestReleaseDate: 2019-03-26
 
 -   releaseCycle: "0.99"
     releaseDate: 2015-11-25
     eol: 2021-03-01
-    lts: false
     latest: "0.99.4"
     latestReleaseDate: 2018-03-01
 
