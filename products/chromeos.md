@@ -9,6 +9,7 @@ alternate_urls:
 versionCommand: cat /etc/issue
 releasePolicyLink: https://chromeos.dev/en/education/chromeos-lts
 changelogTemplate: https://support.google.com/chrome/a/answer/__RELEASE_CYCLE__
+releaseColumn: false
 activeSupportColumn: false
 releaseDateColumn: true
 
@@ -16,6 +17,7 @@ releases:
 
 -   releaseCycle: "116"
     releaseDate: 2023-08-22
+    eol: false
 
 -   releaseCycle: "115"
     releaseDate: 2023-07-12
@@ -56,7 +58,7 @@ releases:
 
 -   releaseCycle: "106"
     releaseDate: 2022-09-27
-    eol: 
+    eol: 2022-10-25
 
 -   releaseCycle: "105"
     releaseDate: 2022-08-30
@@ -101,7 +103,7 @@ releases:
 
 -   releaseCycle: "95"
     releaseDate: 2021-10-19
-    eol: 
+    eol: 2021-12-06
 
 -   releaseCycle: "94"
     releaseDate: 2021-09-21
