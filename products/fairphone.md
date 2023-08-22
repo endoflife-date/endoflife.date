@@ -53,7 +53,7 @@ releases:
 > footprint and better social impact than is common in the industry.
 
 Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [might happen on a best
-effort basis](https://support.fairphone.com/hc/en-us/articles/4405858006545-FP4-Fairphone-OS-Android-11-).
+effort basis](https://support.fairphone.com/hc/en-us/articles/9979180437393).
 
 [Android](https://endoflife.date/android) versions support is:
 
