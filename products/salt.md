@@ -7,11 +7,11 @@ permalink: /salt
 alternate_urls:
 -   /saltstack
 versionCommand: salt --version
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-releaseImage: 
+releaseImage:
   https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
-changelogTemplate: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html#changelog
+changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 activeSupportColumn: true
 releaseColumn: true
@@ -28,15 +28,18 @@ identifiers:
 -   purl: pkg:oci/docker-salt-master?repository_url=ghcr.io/cdalvaro
 -   purl: pkg:docker/saltstack/salt
 
+# link(x) =
+# - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+# - other: see changelogTemplate
 releases:
-
 -   releaseCycle: "3006"
+    lts: true
     releaseDate: 2023-04-18
     support: 2024-04-18
     eol: 2025-04-18
     latest: "3006.2"
     latestReleaseDate: 2023-08-10
-    lts: true
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
 -   releaseCycle: "3005"
     releaseDate: 2022-08-22
@@ -54,11 +57,17 @@ releases:
 
 ---
 
-> [Salt](https://saltproject.io/index.html) is software to automate the management and configuration of any infrastructure or application at scale.
+> [Salt](https://saltproject.io/index.html) is software to automate the management and configuration
+> of any infrastructure or application at scale.
 
 
-Beginning with the 3006 release of Salt, the Salt Project is following an LTS/STS release strategy. Under this strategy, there is one long-term support (LTS) and one short-term support (STS) release a year.
+Beginning with the 3006 release of Salt, the Salt Project is following an LTS/STS release strategy.
+Under this strategy, there is one long-term support (LTS) and one short-term support (STS) release a
+year.
 
-LTS prioritize stability. They are released usually in the first 4 months of the year and receive one year of full support, with bug/security fixes, followed by one year of security support.
+LTS prioritize stability. They are released usually in the first 4 months of the year and receive
+one year of full support, with bug/security fixes, followed by one year of security support.
 
-STS releases provide access to newer features in between LTS. They are released around the midpoint the year and receive three months of full support, with new OS support and bug/security fixes, followed by three months of security support.
+STS releases provide access to newer features in between LTS. They are released around the midpoint
+the year and receive three months of full support, with new OS support and bug/security fixes,
+followed by three months of security support.

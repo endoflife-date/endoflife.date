@@ -9,6 +9,7 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://bell-sw.com/roadmap/
 changelogTemplate: "https://bell-sw.com/pages/liberica-release-notes-{{'__LATEST__'|split:'+'|first}}/"
+changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
 releaseDateColumn: true
 eolColumn: Public support
 extendedSupportColumn: Commercial support
@@ -64,9 +65,9 @@ releases:
     releaseDate: 2022-03-23
     eol: 2022-09-20
     extendedSupport: false
-    link: https://bell-sw.com/pages/liberica-release-notes-18.0.2/
     latest: "18.0.2.1+1"
     latestReleaseDate: 2022-08-25
+    link: https://docs.bell-sw.com/liberica-jdk/18.0.2b10/general/release-notes/
 
 -   releaseCycle: "17"
     lts: true
@@ -89,6 +90,7 @@ releases:
     extendedSupport: false
     latest: "15.0.2+10"
     latestReleaseDate: 2021-01-22
+    link: https://docs.bell-sw.com/liberica-jdk/15.0.2b8/general/release-notes/
 
 -   releaseCycle: "14"
     releaseDate: 2020-03-19
@@ -110,6 +112,7 @@ releases:
     extendedSupport: false
     latest: "12.0.2"
     latestReleaseDate: 2019-07-20
+    link: https://docs.bell-sw.com/liberica-jdk/12.0.2b10/general/release-notes/
 
 -   releaseCycle: "11"
     lts: true

@@ -71,6 +71,7 @@ releases:
     eol: 2021-05-25
     latest: "1.19.10"
     latestReleaseDate: 2021-04-13
+    link: https://nginx.org/en/CHANGES # https://nginx.org/en/CHANGES-1.19 does not exist
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-04-21

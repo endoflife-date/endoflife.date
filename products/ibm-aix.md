@@ -7,8 +7,7 @@ permalink: /ibm-aix
 alternate_urls:
 -   /aix
 versionCommand: oslevel -s
-releasePolicyLink: 
-  https://www.ibm.com/support/pages/standard-and-enhanced-ibm-support-lifecycle-policies
+releasePolicyLink: https://www.ibm.com/support/pages/aix-support-lifecycle-information
 releaseLabel: "{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}} TL{{'__RELEASE_CYCLE__'|split:'.'|last}}"
 changelogTemplate: "https://www.ibm.com/docs/en/aix/{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}}?topic=notes-aix-{{'__RELEASE_CYCLE__'|replace:'.',''}}-release"
 releaseDateColumn: true

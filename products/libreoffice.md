@@ -10,6 +10,12 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 releases:
+-   releaseCycle: "7.6"
+    releaseDate: 2023-08-21
+    eol: 2024-06-12
+    latest: "7.6.0"
+    latestReleaseDate: 2023-08-21
+    
 -   releaseCycle: "7.5"
     releaseDate: 2023-02-02
     eol: 2023-11-30

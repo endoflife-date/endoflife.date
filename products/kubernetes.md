@@ -8,7 +8,7 @@ alternate_urls:
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 releaseImage: 
-  https://upload.wikimedia.org/wikipedia/en/timeline/ss2e7boz2yrsj4ipyu6e9m44zv1fuo2.png
+  https://upload.wikimedia.org/wikipedia/en/timeline/fxdhzv3oeut1ywyfx5ubxghu9fnow69.png
 changelogTemplate: 
   https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
