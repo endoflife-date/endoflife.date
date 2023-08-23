@@ -39,6 +39,7 @@ releases:
     eol: false
     latestReleaseDate: 2022-06-08
     latest: '1.22.19'
+    link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---
 
@@ -49,5 +50,5 @@ Yarn's support and EOL policy is not clearly defined.
 
 Yarn Classic (v1) [entered maintenance mode in January 2020](https://dev.to/arcanis/introducing-yarn-2-4eh1#what-will-happen-to-the-legacy-codebase)
 and will eventually reach end-of-life. It is highly recommended to
-[Migrate](https://yarnpkg.com/migration/guide) to the latest version. Yarn
+[Migrate](https://yarnpkg.com/migration/overview) to the latest version. Yarn
 Classic only receives critical and security fixes.
