@@ -8,7 +8,6 @@ alternate_urls:
 -   /liberica
 versionCommand: java -version
 releasePolicyLink: https://bell-sw.com/roadmap/
-changelogTemplate: "https://bell-sw.com/pages/liberica-release-notes-{{'__LATEST__'|split:'+'|first}}/"
 changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
 releaseDateColumn: true
 eolColumn: Public support
