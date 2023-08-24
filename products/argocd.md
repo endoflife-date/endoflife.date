@@ -30,13 +30,13 @@ releases:
     releaseDate: 2023-08-07
     eol: false
     latest: "2.8.1"
-    latestReleaseDate: 2023-08-21
+    latestReleaseDate: 2023-08-22
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-05-01
     eol: false
     latest: "2.7.12"
-    latestReleaseDate: 2023-08-21
+    latestReleaseDate: 2023-08-22
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-02-06

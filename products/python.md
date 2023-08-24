@@ -100,14 +100,14 @@ releases:
 -   releaseCycle: "3.11"
     support: 2024-04-01
     eol: 2027-10-24
-    latest: "3.11.4"
-    latestReleaseDate: 2023-06-06
+    latest: "3.11.5"
+    latestReleaseDate: 2023-08-24
     releaseDate: 2022-10-24
 -   releaseCycle: "3.10"
     support: 2023-04-05
     eol: 2026-10-04
-    latest: "3.10.12"
-    latestReleaseDate: 2023-06-06
+    latest: "3.10.13"
+    latestReleaseDate: 2023-08-24
     releaseDate: 2021-10-04
 -   releaseCycle: "3.9"
     support: 2022-05-17
