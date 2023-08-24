@@ -24,11 +24,11 @@ auto:
 # This is quite predictable since releases are monthly (usually 22nd of every month).
 releases:
 -   releaseCycle: "16.3"
-    releaseDate: 2023-08-22
+    releaseDate: 2023-08-21
     support: 2023-09-22
     eol: 2023-11-22
     latest: "16.3.0"
-    latestReleaseDate: 2023-08-22
+    latestReleaseDate: 2023-08-21
 
 -   releaseCycle: "16.2"
     releaseDate: 2023-07-21

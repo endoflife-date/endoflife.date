@@ -35,7 +35,7 @@ releases:
     latestReleaseDate: 2023-05-26
 
 -   releaseCycle: "3.3"
-    releaseDate: 2017-07-28
+    releaseDate: 2022-09-28
     eol: 2023-02-06
     extendedSupport: 2024-11-04
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
@@ -43,7 +43,7 @@ releases:
     latestReleaseDate: 2019-02-13
 
 -   releaseCycle: "3.2"
-    releaseDate: 2017-03-01
+    releaseDate: 2022-05-09
     eol: 2022-09-28
     extendedSupport: 2024-07-06
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
@@ -51,7 +51,7 @@ releases:
     latestReleaseDate: 2018-07-24
 
 -   releaseCycle: "3.1"
-    releaseDate: 2016-11-11
+    releaseDate: 2022-01-21
     eol: 2022-09-19
     extendedSupport: 2024-04-05
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
@@ -59,7 +59,7 @@ releases:
     latestReleaseDate: 2022-09-09
 
 -   releaseCycle: "3.0"
-    releaseDate: 2016-05-20
+    releaseDate: 2021-09-20
     eol: 2022-09-19
     extendedSupport: 2023-10-27
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
@@ -131,12 +131,12 @@ releases:
     latestReleaseDate: 2019-02-15
 
 -   releaseCycle: "2.0"
-    releaseDate: 2015-12-15
+    releaseDate: 2018-07-28
     eol: 2018-11-20
     extendedSupport: 2020-07-31
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "2.0.1"
-    latestReleaseDate: 2016-02-12
+    latestReleaseDate: 2018-11-08
 
 -   releaseCycle: "1.1"
     releaseDate: 2018-03-28
