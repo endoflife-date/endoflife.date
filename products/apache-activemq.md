@@ -60,18 +60,21 @@ releases:
     eol: 2016-12-16 # estimated based on latest release date
     latest: "5.13.5"
     latestReleaseDate: 2016-12-16
+    link: https://activemq.apache.org/activemq-5013004-release # no 5.13.5 changelog
 
 -   releaseCycle: "5.12"
     releaseDate: 2015-08-10
     eol: 2016-02-03 # estimated based on latest release date
     latest: "5.12.3"
     latestReleaseDate: 2016-02-03
+    link: https://activemq.apache.org/activemq-5012002-release # no 5.12.3 changelog
 
 -   releaseCycle: "5.11"
     releaseDate: 2015-01-30
     eol: 2016-02-03 # estimated based on latest release date
     latest: "5.11.4"
     latestReleaseDate: 2016-02-03
+    link: https://activemq.apache.org/activemq-5011003-release # no 5.11.4 changelog
 
 -   releaseCycle: "5.10"
     releaseDate: 2014-06-05
