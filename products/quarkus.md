@@ -7,7 +7,8 @@ permalink: /quarkus-framework
 alternate_urls:
 -   /quarkus
 releasePolicyLink: https://quarkus.io/security/
-changelogTemplate: "https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final"
+# See https://github.com/endoflife-date/endoflife.date/issues/3462
+changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Support
@@ -26,6 +27,13 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2023-08-23
+    eol: false
+    extendedSupport: false
+    latest: "3.3.0"
+    latestReleaseDate: 2023-08-23
+
 -   releaseCycle: "3.2"
     releaseDate: 2023-07-05
     eol: 2024-07-05
@@ -33,6 +41,7 @@ releases:
     extendedSupport: false
     latest: "3.2.4"
     latestReleaseDate: 2023-08-11
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-05-31
@@ -40,6 +49,7 @@ releases:
     extendedSupport: false
     latest: "3.1.3"
     latestReleaseDate: 2023-06-29
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.0"
     releaseDate: 2023-04-26
@@ -47,6 +57,7 @@ releases:
     extendedSupport: false
     latest: "3.0.4"
     latestReleaseDate: 2023-05-25
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-01-25
@@ -54,6 +65,7 @@ releases:
     extendedSupport: false
     latest: "2.16.9"
     latestReleaseDate: 2023-07-31
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.15"
     releaseDate: 2022-12-14
@@ -61,6 +73,7 @@ releases:
     extendedSupport: false
     latest: "2.15.3"
     latestReleaseDate: 2023-01-10
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.14"
     releaseDate: 2022-11-09
@@ -68,6 +81,7 @@ releases:
     extendedSupport: false
     latest: "2.14.3"
     latestReleaseDate: 2022-12-06
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.13"
     releaseDate: 2022-09-28
@@ -75,6 +89,7 @@ releases:
     extendedSupport: true
     latest: "2.13.8"
     latestReleaseDate: 2023-05-25
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-08-31
@@ -82,6 +97,7 @@ releases:
     extendedSupport: false
     latest: "2.12.3"
     latestReleaseDate: 2022-09-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.11"
     releaseDate: 2022-07-27
@@ -89,6 +105,7 @@ releases:
     extendedSupport: false
     latest: "2.11.3"
     latestReleaseDate: 2022-08-24
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-06-22
@@ -96,6 +113,7 @@ releases:
     extendedSupport: false
     latest: "2.10.4"
     latestReleaseDate: 2022-07-27
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.9"
     releaseDate: 2022-05-11
@@ -103,6 +121,7 @@ releases:
     extendedSupport: false
     latest: "2.9.2"
     latestReleaseDate: 2022-05-25
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.8"
     releaseDate: 2022-04-12
@@ -110,6 +129,7 @@ releases:
     extendedSupport: false
     latest: "2.8.3"
     latestReleaseDate: 2022-05-06
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-02-02
@@ -117,6 +137,7 @@ releases:
     extendedSupport: 2023-06-14
     latest: "2.7.7"
     latestReleaseDate: 2023-01-26
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.6"
     releaseDate: 2021-12-22
@@ -124,6 +145,7 @@ releases:
     extendedSupport: false
     latest: "2.6.3"
     latestReleaseDate: 2022-01-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.5"
     releaseDate: 2021-11-24
@@ -131,6 +153,7 @@ releases:
     extendedSupport: false
     latest: "2.5.4"
     latestReleaseDate: 2021-12-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.4"
     releaseDate: 2021-10-27
@@ -138,6 +161,7 @@ releases:
     extendedSupport: false
     latest: "2.4.2"
     latestReleaseDate: 2021-11-12
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.3"
     releaseDate: 2021-10-06
@@ -145,6 +169,7 @@ releases:
     extendedSupport: false
     latest: "2.3.1"
     latestReleaseDate: 2021-10-20
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.2"
     releaseDate: 2021-08-31
@@ -152,6 +177,7 @@ releases:
     extendedSupport: 2022-07-18
     latest: "2.2.5"
     latestReleaseDate: 2021-12-21
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.1"
     releaseDate: 2021-07-29
@@ -159,6 +185,7 @@ releases:
     extendedSupport: false
     latest: "2.1.4"
     latestReleaseDate: 2021-08-26
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.0"
     releaseDate: 2021-06-30
@@ -166,6 +193,7 @@ releases:
     extendedSupport: false
     latest: "2.0.3"
     latestReleaseDate: 2021-07-22
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "1"
     releaseDate: 2019-11-25
@@ -173,14 +201,15 @@ releases:
     extendedSupport: 2021-11-20
     latest: "1.13.7"
     latestReleaseDate: 2021-06-09
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "0"
     releaseDate: 2018-12-12
     eol: 2019-11-25
     extendedSupport: false
-    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
     latest: "0.28.1"
     latestReleaseDate: 2019-11-04
+    link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 
 ---
 
