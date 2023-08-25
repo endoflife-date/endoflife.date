@@ -112,14 +112,14 @@ releases:
 -   releaseCycle: "3.9"
     support: 2022-05-17
     eol: 2025-10-05
-    latest: "3.9.17"
-    latestReleaseDate: 2023-06-06
+    latest: "3.9.18"
+    latestReleaseDate: 2023-08-24
     releaseDate: 2020-10-05
 -   releaseCycle: "3.8"
     support: 2021-05-03
     eol: 2024-10-14
-    latest: "3.8.17"
-    latestReleaseDate: 2023-06-06
+    latest: "3.8.18"
+    latestReleaseDate: 2023-08-24
     releaseDate: 2019-10-14
 -   releaseCycle: "3.7"
     support: 2020-06-27
