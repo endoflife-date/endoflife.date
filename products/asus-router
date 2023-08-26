@@ -10,3 +10,104 @@ releaseColumn: false
 releaseDateColumn: false
 activeSupportColumn: true
 eolColumn: Security Updates
+
+releases:
+-   releaseCycle: "RT-G32"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-G32_B1"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-G32_C1"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-320GE"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-330N"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-330N3G"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-330NUL"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-500GP"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-500GPV2"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-500W"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-520GC"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-520GU"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-530GV2"
+    support: false
+    eol: true
+
+-   releaseCycle: "WL-700GE"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N10"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N10_B1"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-G32_C1"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N10_D1"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N10+"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N10+_B1"
+    support: false
+    eol: true
+
+-   releaseCycle: "TM-AC1900"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N56U"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N56U_B1"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N600"
+    support: false
+    eol: true
+
+-   releaseCycle: "RT-N600P"
+    support: false
+    eol: true
