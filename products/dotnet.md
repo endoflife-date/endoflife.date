@@ -44,9 +44,7 @@ identifiers:
 -   purl: pkg:rpm/rhel/dotnet-sdk-5.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-3.1
 -   purl: pkg:rpm/rhel/dotnet-sdk-3.0
--   purl: pkg:rpm/rhel/dotnet-sdk-2.2
 -   purl: pkg:rpm/rhel/dotnet-sdk-2.1
--   purl: pkg:rpm/rhel/dotnet-sdk-2.0
 
 releases:
 -   releaseCycle: "7.0"
