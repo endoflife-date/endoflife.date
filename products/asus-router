@@ -1,0 +1,12 @@
+---
+title: Asus Router
+category: device
+tags: asus router
+iconSlug: asus
+permalink: /asus-router
+alternate_urls:
+-   /asusrouter
+releaseColumn: false
+releaseDateColumn: false
+activeSupportColumn: true
+eolColumn: Security Updates
