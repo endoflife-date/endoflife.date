@@ -9,7 +9,7 @@ alternate_urls:
 -   /nextdotjs
 versionCommand: npx next --version
 releasePolicyLink: https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md
-changelogTemplate: https://github.com/vercel/next.js/releases/latest
+changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
