@@ -25,6 +25,13 @@ releases:
     latest: "2.0.1"
     latestReleaseDate: 2023-07-11
 
+-   releaseCycle: "1.25"
+    releaseDate: 2022-03-30
+    eol: 2022-11-02 # https://github.com/endoflife-date/endoflife.date/pull/3420#discussion_r1306636700
+    latest: "1.25.4"
+    latestReleaseDate: 2022-08-30
+    link: https://github.com/fluxcd/flux/releases/tag/1.25.4
+
 ---
 
 > [Flux](https://fluxcd.io) is a tool for keeping Kubernetes clusters in sync with sources of
