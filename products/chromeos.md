@@ -8,7 +8,7 @@ alternate_urls:
 -   /chrome-os
 versionCommand: cat /etc/issue
 releasePolicyLink: https://chromeos.dev/en/education/chromeos-lts
-changelogTemplate: https://support.google.com/chrome/a/answer/10314655/__RELEASE_CYCLE__
+changelogTemplate: https://support.google.com/chrome/a/answer/10314655#__RELEASE_CYCLE__
 releaseColumn: false
 activeSupportColumn: false
 releaseDateColumn: true
