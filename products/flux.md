@@ -15,6 +15,7 @@ eolColumn: Support
 
 auto:
 -   git: https://github.com/fluxcd/flux2.git
+-   git: https://github.com/fluxcd/flux.git
 
 # eol(X) = releaseDate(X+3)
 releases:
