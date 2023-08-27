@@ -33,11 +33,11 @@ releases:
 
 -   releaseCycle: "15.3"
     releaseDate: 2021-06-02
-    eol: 2022-12-01
+    eol: 2022-12-31
 
 -   releaseCycle: "15.2"
     releaseDate: 2020-07-02
-    eol: 2021-12-01
+    eol: 2022-01-04
 
 -   releaseCycle: "15.1"
     releaseDate: 2019-05-22
