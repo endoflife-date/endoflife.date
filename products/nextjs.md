@@ -9,7 +9,6 @@ alternate_urls:
 -   /nextdotjs
 versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
-activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
