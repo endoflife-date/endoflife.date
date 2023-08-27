@@ -17,6 +17,12 @@ eolColumn: End of Support
 # EOL date are announced on https://github.com/Azure/AKS/releases or must be computed with this formula:
 # eol(x) ~= releaseDate(x) + 1 year
 releases:
+-   releaseCycle: "1.27"
+    releaseDate: 2023-08-16
+    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    eol: 2024-07-31
+    link: https://azure.microsoft.com/updates/generally-available-kubernetes-127-support-in-aks/
+
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     # waiting for exact date announcement at https://github.com/Azure/AKS/releases
