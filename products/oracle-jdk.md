@@ -197,9 +197,8 @@ releases:
 ---
 
 > [Oracle Java SE Development Kit (JDK)](https://www.oracle.com/java/) is a commercial,
-> closed-source, TCK-tested and certified build of OpenJDK. Oracle JDK is free of charge for
-> development and testing, but [may not be for production depending on the release](https://whichjdk.com/#oracle-java-se-development-kit-jdk).
-> Builds of Oracle JDK are available for multiple platforms, including Windows, macOS and Linux.
+> closed-source, TCK-tested and certified build of OpenJDK. Builds of Oracle JDK are available for
+> multiple platforms, including Windows, macOS and Linux.
 
 Oracle JDK follows the same cadence as OpenJDK, with a 6-month rapid-release cycle (since the
 release of Java 10) and a new LTS release every 2 years (since OpenJDK 17, previously every 3 years).
@@ -213,6 +212,11 @@ which defines 3 support levels:
   additional 3 years from the end of Premier Support.
 - Sustaining Support (LTS releases only): includes assistance from Oracle for an indefinite period,
   but with no bug nor security fixes.
+
+Oracle JDK is free of charge for development and testing, but [may not be for production depending
+on the release](https://www.oracle.com/java/technologies/javase/jdk-faqs.html). In 2021, Oracle
+announced that [Oracle JDK 17 and later will be free for production](https://blogs.oracle.com/java/post/free-java-license),
+but you should be cautious [as the situation is not that simple](https://bell-sw.com/announcements/2022/02/24/java-licensing-changes-in-2021/).
 
 Oracle JDK is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#oracle-java-se-development-kit-jdk).
