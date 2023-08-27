@@ -107,6 +107,3 @@ and are made whenever there are bug fixes or security patches.
 
 Elixir applies bug fixes only to the latest minor branch. Security patches are available for the
 last 5 minor branches.
-r the last 5 minor branches.
-ity patches are available for the last 5 minor branches.
-ity patches are available for the last 5 minor branches.
