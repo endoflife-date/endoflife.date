@@ -1,7 +1,7 @@
 ---
 title: Next.js
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime vercel
 iconSlug: nextdotjs
 permalink: /nextjs
 alternate_urls:
