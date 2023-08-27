@@ -99,11 +99,14 @@ releases:
 
 ---
 
->[Elixir](https://elixir-lang.org/) is a dynamic, functional language designed for building scalable and maintainable applications.
+>[Elixir](https://elixir-lang.org/) is a dynamic, functional language designed for building scalable
+> and maintainable applications.
 
-A new backwards compatible minor release happens every 6 months. Patch releases are not scheduled and are made whenever there are bug fixes or security patches.
+A new backwards compatible minor release happens every 6 months. Patch releases are not scheduled
+and are made whenever there are bug fixes or security patches.
 
-Elixir applies bug fixes only to the latest minor branch. Security patches are available for the last 5 minor branches.
+Elixir applies bug fixes only to the latest minor branch. Security patches are available for the
+last 5 minor branches.
 r the last 5 minor branches.
 ity patches are available for the last 5 minor branches.
 ity patches are available for the last 5 minor branches.
