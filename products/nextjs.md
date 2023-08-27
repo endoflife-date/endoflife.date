@@ -53,12 +53,6 @@ releases:
 > developers to build performant and scalable web applications. The framework is designed to be
 > developer-friendly, with a focus on fast refresh and an optimized production build.
 
-## Versioning
+Next.js is following [semantic versioning](https://semver.org/), but does not have a clearly defined release and support policy. Looking at the latest releases, it seems only the latest major release is supported with mainly bug and security fixes.
 
-Next.js has two release channels: stable and canary.
-
-- **stable**: The stable release is what is installed when you `npm install next`. This channel is used by the majority of Next.js users, and is published at a regular cadence following [semantic versioning](https://semver.org/).
-
-- **canary**: The canary channel has to be explicitly installed by users through `npm install next@canary`. This channel is published early based on the canary branch. It holds all changes that are waiting to be published to the stable channel, and is used to test the latest features and bugfixes on real-world applications.
-
-Only the latest version of each major release is supported.
+Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md): stable and canary. Only stable releases are suitable for production.
