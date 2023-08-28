@@ -7,7 +7,7 @@ alternate_urls:
 -   /silverstripe-cms
 -   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage:
+releaseImage: 
   https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
@@ -29,7 +29,7 @@ releases:
     support: true
     eol: false
     latest: "5.0.4"
-    latestReleaseDate: 2023-05-31
+    latestReleaseDate: 2023-08-26
     releaseDate: 2023-05-04
 
 -   releaseCycle: "4.13"

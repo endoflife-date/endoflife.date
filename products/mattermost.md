@@ -19,10 +19,10 @@ auto:
 releases:
 -   releaseCycle: "8.1"
     lts: true
-    releaseDate: 2023-08-24
+    releaseDate: 2023-08-10
     eol: 2024-05-15
     latest: '8.1.0'
-    latestReleaseDate: 2023-08-24
+    latestReleaseDate: 2023-08-10
 
 -   releaseCycle: "8.0"
     releaseDate: 2023-07-09
