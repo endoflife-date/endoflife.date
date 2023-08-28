@@ -16,26 +16,26 @@ auto:
 releases:
 -   releaseCycle: "15"
     releaseDate: 2023-02-27
-    support: 2028-01-31
+    eol: 2028-01-31
     latest: "15.3"
     latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "14.6"
     releaseDate: 2023-01-20
-    support: 2027-01-31
+    eol: 2027-01-31
     latest: "14.8"
     latestReleaseDate: 2023-05-25
     lts: true
 
 -   releaseCycle: "14"
     releaseDate: 2022-02-03
-    support: 2027-01-31
+    eol: 2027-01-31
     latest: "14.8"
     latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "13.9"
     releaseDate: 2023-01-20
-    support: 2026-01-31
+    eol: 2026-01-31
     latest: "13.11"
     latestReleaseDate: 2023-05-25
     lts: true
@@ -49,20 +49,20 @@ releases:
 
 -   releaseCycle: "13"
     releaseDate: 2021-02-24
-    support: 2026-01-31
+    eol: 2026-01-31
     latest: "13.11"
     latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "12.9"
     releaseDate: 2020-02-25
-    support: 2025-02-28
+    eol: 2025-02-28
     latest: "12.15"
     latestReleaseDate: 2023-05-25
     lts: true
 
 -   releaseCycle: "12"
     releaseDate: 2020-03-31
-    support: 2025-02-28
+    eol: 2025-02-28
     latest: "12.15"
     latestReleaseDate: 2023-05-25
 
@@ -70,7 +70,7 @@ releases:
     releaseDate: 2019-03-13
     latest: "11.20"
     latestReleaseDate: 2023-05-25
-    support: 2024-01-31
+    eol: 2024-01-31
 
 -   releaseCycle: "10.21"
     releaseDate: 2018-02-28
