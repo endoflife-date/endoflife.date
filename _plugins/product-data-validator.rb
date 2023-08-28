@@ -51,6 +51,7 @@ module EndOfLifeHooks
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
+    'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
