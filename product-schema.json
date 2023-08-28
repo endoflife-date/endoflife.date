@@ -117,7 +117,7 @@
           {
             "type": "object",
             "properties": {
-              "dockerhub": {
+              "docker_hub": {
                 "title": "Dockerhub",
                 "description": "Image name on dockerhub to track.",
                 "type": "string"
@@ -130,7 +130,7 @@
               }
             },
             "required": [
-              "dockerhub"
+              "docker_hub"
             ],
             "additionalProperties": false
           },
