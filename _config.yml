@@ -1,3 +1,4 @@
+---
 # Jekyll configuration - https://jekyllrb.com/docs/configuration/
 
 # Site settings
@@ -117,3 +118,4 @@ exclude:
   - README.md
   - requirements.txt
   - runtime.txt
+  - scripts

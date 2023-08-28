@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This script is used by the pre-commit hook.
+# It's required because the product files contain invalid yaml data at the end.
+
+for file in "$@"; do
+  echo "Checking $file"
+  check-jsonschema --schemafile product-schema.json <(awk 'BEGIN { x=0 } $1=="---"{x+=1} x<2{print $0}' "$file" | yq -o=j '.' -)
+done

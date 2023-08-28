@@ -4,6 +4,8 @@ repos:
     rev: 0.26.3
     hooks:
       - id: check-jsonschema
-        name: Validate Products
-        args: ["--schemafile", "product-schema.json"]
-        files: ^products/.*\.md$
+        name: Validating products
+        entry: scripts/check-jsonschema-wrapper
+        files: 'products/.*\.md$'
+        types_or: []
+        verbose: true
