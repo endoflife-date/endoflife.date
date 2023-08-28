@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "2.414"
     lts: 2023-08-23
-    releaseDate: 2023-08-23
+    releaseDate: 2023-07-11
     eol: false
     latest: "2.414.1"
     latestReleaseDate: 2023-08-23
