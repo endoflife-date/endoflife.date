@@ -349,16 +349,16 @@ You can visit <https://github.com/endoflife-date/endoflife.date/new/master/produ
 ## ✅ Validating your changes
 
 If you're using an IDE like `vscode` or `vim` (or any other IDE that support jsonschema validation),
-you can use [this jsonschema](./products/schema.json) to validate the new product.
+you can use [this jsonschema](./product-schema.json) to validate the new product.
 
-For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./products/schema.json) file on it:
+For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./product-schema.json) file on it:
 
 ```json
   "files.associations": {
     "**/products/*.md": "yaml"
   },
   "yaml.schemas": {
-    "schema.json": "products/*.md"
+    "../product-schema.json": "products/*.md"
   }
 ```
 
@@ -366,7 +366,7 @@ In `vim` you also could use the [yaml-language-server](https://github.com/redhat
 
 ```yaml
 # vim: set ft=yaml :
-# yaml-language-server: $schema=schema.json
+# yaml-language-server: $schema=../product-schema.json
 ```
 
 Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks is failed, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
