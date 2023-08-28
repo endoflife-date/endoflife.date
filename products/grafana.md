@@ -35,7 +35,7 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2023-04-06
     support: 2023-06-09
-    eol: 2023-08-23
+    eol: false # eol(x) = releaseDate(11.x)
     latest: "9.5.8"
     latestReleaseDate: 2023-08-17
 
