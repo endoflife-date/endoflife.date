@@ -348,6 +348,19 @@ You can visit <https://github.com/endoflife-date/endoflife.date/new/master/produ
 
 ## ✅ Validating your changes
 
+If you're using an IDE like `vscode` or `vim` (or any other IDE that support jsonschema validation),
+you can use [this jsonschema](./product-schema.json) to validate the new product.
+
+It's also possible to use [pre-commit](https://pre-commit.com/) [hooks](./.pre-commit-config.yaml) to validate the changed files.
+Install these hook with:
+
+```bash
+pre-commit install
+pre-commit install-hooks
+# You can manually run the hooks with
+# pre-commit run --all-files
+```
+
 Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks is failed, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
 
 If all of the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website _with your changes_.
