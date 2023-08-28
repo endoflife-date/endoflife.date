@@ -1,0 +1,9 @@
+---
+repos:
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.26.3
+    hooks:
+      - id: check-jsonschema
+        name: Validate Products
+        args: ["--schemafile", "product-schema.json"]
+        files: ^products/.*\.md$
