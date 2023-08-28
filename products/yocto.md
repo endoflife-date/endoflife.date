@@ -38,7 +38,7 @@ releases:
     codename: 'Kirkstone'
     releaseDate: 2022-04-25
     lts: true
-    eol: 2024-04-27
+    eol: 2026-04-27
     latest: "4.0.12"
     latestReleaseDate: 2023-08-24
 
