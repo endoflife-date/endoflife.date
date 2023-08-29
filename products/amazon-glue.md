@@ -17,20 +17,20 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2022-11-28
     eol: false
-    pythonVersion: 3.10
-    sparkVersion: 3.3
+    pythonVersion: "3.10"
+    sparkVersion: "3.3"
 
 -   releaseCycle: "3.0"
     releaseDate: 2021-08-19
     eol: false
-    pythonVersion: 3.7
-    sparkVersion: 3.1
+    pythonVersion: "3.7"
+    sparkVersion: "3.1"
 
 -   releaseCycle: "2.0"
     releaseDate: 2020-08-10
     eol: 2024-01-31
-    pythonVersion: 3.7
-    sparkVersion: 2.4
+    pythonVersion: "3.7"
+    sparkVersion: "2.4"
 
 ---
 
