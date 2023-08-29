@@ -7,6 +7,7 @@ permalink: /amazon-glue
 releasePolicyLink:
   https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 releaseDateColumn: true
+releaseColumn: false
 
 auto:
 -   custom: true
