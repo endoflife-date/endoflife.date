@@ -13,6 +13,12 @@ auto:
 
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
+-   releaseCycle: "1.2"
+    releaseDate: 2023-08-27
+    eol: false # releaseDate(1.4) + 4 months
+    latest: "1.2.0"
+    latestReleaseDate: 2023-08-27
+
 -   releaseCycle: "1.1"
     releaseDate: 2023-05-01
     eol: false # releaseDate(1.3) + 4 months
