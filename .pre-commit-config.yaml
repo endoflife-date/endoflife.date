@@ -9,3 +9,5 @@ repos:
         files: 'products/.*\.md$'
         types_or: []
         verbose: true
+        additional_dependencies:
+          - pyyaml

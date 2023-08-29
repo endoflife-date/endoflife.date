@@ -5,5 +5,10 @@
 
 for file in "$@"; do
   echo "Checking $file"
-  check-jsonschema --schemafile product-schema.json <(awk 'BEGIN { x=0 } $1=="---"{x+=1} x<2{print $0}' "$file" | yq -o=j '.' -)
+  check-jsonschema \
+    --schemafile product-schema.json \
+    <(
+      awk 'BEGIN { x=0 } $1=="---"{x+=1} x<2{print $0}' "$file" \
+      | python -c "import sys, json, yaml; json.dump(yaml.safe_load(sys.stdin), sys.stdout, indent=4, default=str)" -
+    )
 done
