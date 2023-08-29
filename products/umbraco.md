@@ -32,8 +32,8 @@ releases:
     releaseDate: 2023-06-27
     support: 2024-03-29
     eol: 2024-06-29
-    latest: '12.1.1'
-    latestReleaseDate: 2023-08-14
+    latest: '12.1.2'
+    latestReleaseDate: 2023-08-28
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
@@ -63,8 +63,8 @@ releases:
     releaseDate: 2019-02-21
     support: 2024-02-24
     eol: 2025-02-24
-    latest: '8.18.8'
-    latestReleaseDate: 2023-05-03
+    latest: '8.18.9'
+    latestReleaseDate: 2023-08-28
 
 # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-7-end-of-life-eol/
 -   releaseCycle: "7"
