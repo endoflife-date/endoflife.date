@@ -58,8 +58,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.8+7"
-    latestReleaseDate: 2023-07-20
+    latest: "17.0.8.1+1"
+    latestReleaseDate: 2023-08-29
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
@@ -73,8 +73,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01
     eol: 2024-10-31
-    latest: "11.0.20+8"
-    latestReleaseDate: 2023-07-20
+    latest: "11.0.20.1+1"
+    latestReleaseDate: 2023-08-29
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
