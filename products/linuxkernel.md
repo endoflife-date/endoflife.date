@@ -4,8 +4,8 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
-releaseImage: 
-  https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
+# Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -20,7 +20,14 @@ identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
+# See https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releases:
+-   releaseCycle: "6.5"
+    releaseDate: 2023-08-27
+    eol: false
+    latest: "6.5"
+    latestReleaseDate: 2023-08-27
+
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
     eol: false
@@ -29,7 +36,7 @@ releases:
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
-    eol: false
+    eol: 2023-07-11
     latest: "6.3.13"
     latestReleaseDate: 2023-07-11
 
