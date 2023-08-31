@@ -23,7 +23,7 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2023-06-13
     eol: false
-    extendedSupport: 2025-08-29
+    extendedSupport: 2025-08-25
     latest: "3.5.1"
     latestReleaseDate: 2023-07-20
 
