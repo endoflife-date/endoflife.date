@@ -18,11 +18,10 @@ eolColumn: Active Support
 releases:
 -   releaseCycle: "17.7"
     codename: "2022"
-    lts: false
     eol: false # eol with release of 17.8 or 18.0
     releaseDate: 2023-08-08
-    latest: "17.7.2"
-    latestReleaseDate: 2023-08-22
+    latest: "17.7.3"
+    latestReleaseDate: 2023-08-29
 
 -   releaseCycle: "17.6"
     codename: "2022"
@@ -34,7 +33,6 @@ releases:
 
 -   releaseCycle: "17.5"
     codename: "2022"
-    lts: false
     eol: 2023-05-16
     releaseDate: 2023-02-21
     latest: "17.5.4"
@@ -50,7 +48,6 @@ releases:
 
 -   releaseCycle: "17.3"
     codename: "2022"
-    lts: false
     eol: 2022-11-08
     releaseDate: 2022-08-16
     latest: "17.3.6"
@@ -66,7 +63,6 @@ releases:
 
 -   releaseCycle: "17.1"
     codename: "2022"
-    lts: false
     eol: 2022-05-10
     releaseDate: 2022-02-15
     latest: "17.1.7"
