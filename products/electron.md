@@ -31,14 +31,14 @@ releases:
 -   releaseCycle: "25"
     releaseDate: 2023-05-29
     eol: 2023-11-30 # 2023-05-30 + 6 months
-    latestReleaseDate: 2023-08-23
-    latest: "25.7.0"
+    latestReleaseDate: 2023-08-30
+    latest: "25.8.0"
 
 -   releaseCycle: "24"
     releaseDate: 2023-04-04
     eol: 2023-10-05 # 2023-04-05 + 6 months
-    latest: "24.8.1"
-    latestReleaseDate: 2023-08-23
+    latest: "24.8.2"
+    latestReleaseDate: 2023-08-30
 
 -   releaseCycle: "23"
     releaseDate: 2023-02-07
@@ -49,8 +49,8 @@ releases:
 -   releaseCycle: "22"
     releaseDate: 2022-11-30
     eol: 2023-10-10
-    latest: "22.3.22"
-    latestReleaseDate: 2023-08-23
+    latest: "22.3.23"
+    latestReleaseDate: 2023-08-30
 
 -   releaseCycle: "21"
     releaseDate: 2022-09-26
