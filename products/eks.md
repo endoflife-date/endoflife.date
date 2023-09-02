@@ -23,48 +23,49 @@ auto:
 -   custom: true
 
 # EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
+# Latest release derived from tags in eks-distro Github repo https://github.com/aws/eks-distro
 releases:
 -   releaseCycle: "1.27"
     releaseDate: 2023-05-24
     eol: 2024-07-01
     latestReleaseDate: 2023-08-30
-    latest: '1.27-eks-5'
+    latest: '1.27-eks-11'
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
     eol: 2024-06-01
     latestReleaseDate: 2023-08-30
-    latest: '1.26-eks-6'
+    latest: '1.26-eks-17'
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
     latestReleaseDate: 2023-08-30
-    latest: '1.25-eks-7'
+    latest: '1.25-eks-21'
 
 -   releaseCycle: "1.24"
     eol: 2024-01-31
     releaseDate: 2022-11-15
     latestReleaseDate: 2023-08-30
-    latest: '1.24-eks-10'
+    latest: '1.24-eks-25'
 
 -   releaseCycle: "1.23"
     eol: 2023-10-11
     releaseDate: 2022-08-11
     latestReleaseDate: 2023-08-30
-    latest: '1.23-eks-12'
+    latest: '1.23-eks-30'
 
 -   releaseCycle: "1.22"
     eol: 2023-06-04
     releaseDate: 2022-04-04
     latestReleaseDate: 2023-06-30
-    latest: '1.22-eks-14'
+    latest: '1.22-eks-28'
 
 -   releaseCycle: "1.21"
     eol: 2023-02-15
     releaseDate: 2021-07-19
     latestReleaseDate: 2023-06-09
-    latest: '1.21-eks-18'
+    latest: 'v1-21-eks-26'
 
 -   releaseCycle: "1.20"
     eol: 2022-11-01
