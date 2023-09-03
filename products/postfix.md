@@ -18,7 +18,7 @@ releases:
     releaseDate: 2023-04-17
     eol: false
     latest: "3.8.2"
-    latestReleaseDate: 2023-09-1
+    latestReleaseDate: 2023-09-01
     link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.7"
