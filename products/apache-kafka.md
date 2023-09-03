@@ -39,16 +39,16 @@ releases:
     eol: 2023-02-06
     extendedSupport: 2024-11-04
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
-    latest: "3.3.3"
-    latestReleaseDate: 2019-02-13
+    latest: "3.3.2"
+    latestReleaseDate: 2023-01-11
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-05-09
     eol: 2022-09-28
     extendedSupport: 2024-07-06
     link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
-    latest: "3.2.4"
-    latestReleaseDate: 2018-07-24
+    latest: "3.2.3"
+    latestReleaseDate: 2022-09-17
 
 -   releaseCycle: "3.1"
     releaseDate: 2022-01-21
@@ -190,7 +190,7 @@ releases:
     releaseDate: 2012-01-04
     eol: 2013-12-03
     extendedSupport: false
-    link: 
+    link:
       https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
