@@ -12,7 +12,7 @@ releaseDateColumn: true
 releases:
 
 -   releaseCycle: "5"
-    highestAndroidVersion: "12"
+    highestAndroidVersion: "13"
     releaseDate: 2023-09-14
     discontinued: false
     eol: 2031-09-14
