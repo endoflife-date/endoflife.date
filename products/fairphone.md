@@ -16,7 +16,7 @@ releases:
     releaseDate: 2023-09-14
     discontinued: false
     eol: 2031-09-14
-    link: https://www.gsmarena.com/fairphone_5-12540.php
+    link: https://support.fairphone.com/hc/en-us/articles/18020671537041-Fairphone-5-FAQ
 
 -   releaseCycle: "4"
     highestAndroidVersion: "12"
