@@ -17,30 +17,30 @@ releases:
 -   releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
-    latest: "3.8.1"
-    latestReleaseDate: 2023-06-06
-    link: https://www.postfix.org/announcements/postfix-3.8.1.html
+    latest: "3.8.2"
+    latestReleaseDate: 2023-09-1
+    link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.7"
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2023-06-06
+    latest: "3.7.7"
+    latestReleaseDate: 2023-09-01
     releaseDate: 2022-02-06
-    link: https://www.postfix.org/announcements/postfix-3.8.1.html
+    link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.6"
     eol: false
-    latest: "3.6.10"
-    latestReleaseDate: 2023-06-06
+    latest: "3.6.11"
+    latestReleaseDate: 2023-09-01
     releaseDate: 2021-04-29
-    link: https://www.postfix.org/announcements/postfix-3.8.1.html
+    link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.5"
     eol: false
-    latest: "3.5.20"
-    latestReleaseDate: 2023-06-06
+    latest: "3.5.21"
+    latestReleaseDate: 2023-09-01
     releaseDate: 2020-03-15
-    link: https://www.postfix.org/announcements/postfix-3.8.1.html
+    link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.4"
     eol: 2023-04-17 # 3.8 release
