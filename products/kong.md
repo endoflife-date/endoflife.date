@@ -53,7 +53,7 @@ releases:
 
   - releaseCycle: "2.8"
     releaseDate: 2022-03-01
-    eol: March 2025
+    eol: 2023-03-01
     lts: true
     latest: "2.8.3"
     latestReleaseDate: 2022-11-03
