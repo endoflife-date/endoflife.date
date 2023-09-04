@@ -6,7 +6,8 @@ permalink: /kong
 releasePolicyLink: https://docs.konghq.com/gateway/latest/support-policy/
 changelogTemplate: https://docs.konghq.com/gateway/changelog/#{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'-'}}
 releaseDateColumn: true
-activeSupportColumn: true
+activeSupportColumn: false
+eolColumn: Support
 
 auto:
   - git: https://github.com/Kong/kong.git
