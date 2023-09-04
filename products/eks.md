@@ -70,7 +70,7 @@ releases:
     eol: 2023-02-15
     releaseDate: 2021-07-19
     latestReleaseDate: 2023-06-09
-    latest: 'v1-21-eks-26'
+    latest: '1-21-eks-26'
 
 -   releaseCycle: "1.20"
     eol: 2022-11-01
