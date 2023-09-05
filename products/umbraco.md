@@ -72,8 +72,8 @@ releases:
     releaseDate: 2013-11-21
     support: 2021-07-01
     eol: 2023-09-30
-    latest: '7.15.10'
-    latestReleaseDate: 2022-10-13
+    latest: '7.15.11'
+    latestReleaseDate: 2023-08-30
 
 -   releaseCycle: "6"
     # https://umbraco.com/blog/umbraco-600-released/
