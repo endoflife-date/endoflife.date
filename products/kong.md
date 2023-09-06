@@ -1,12 +1,11 @@
 ---
 title: Kong
 category: server-app
-tags: gateway
+tags: api-gateway
 permalink: /kong
 releasePolicyLink: https://docs.konghq.com/gateway/latest/support-policy/
-changelogTemplate: https://docs.konghq.com/gateway/changelog/#{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'-'}}
+changelogTemplate: https://docs.konghq.com/gateway/changelog/#{{'__LATEST__'|replace:'.',''}}0
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Support
 
 auto:
@@ -26,34 +25,30 @@ releases:
   - releaseCycle: "3.3"
     releaseDate: 2023-05-18
     eol: 2024-05-18
-    lts: false
     latest: "3.3.1"
     latestReleaseDate: 2023-07-11
 
   - releaseCycle: "3.2"
     releaseDate: 2023-02-20
     eol: 2024-02-20
-    lts: false
     latest: "3.2.2"
     latestReleaseDate: 2023-03-16
 
   - releaseCycle: "3.1"
     releaseDate: 2022-06-12
     eol: 2023-06-12
-    lts: false
     latest: "3.1.1"
     latestReleaseDate: 2022-12-09
 
   - releaseCycle: "3.0"
     releaseDate: 2022-09-12
     eol: 2023-09-12
-    lts: false
     latest: "3.0.2"
     latestReleaseDate: 2022-12-09
 
   - releaseCycle: "2.8"
     releaseDate: 2022-03-01
-    eol: 2023-03-01
+    eol: 2025-03-01
     lts: true
     latest: "2.8.3"
     latestReleaseDate: 2022-11-03
