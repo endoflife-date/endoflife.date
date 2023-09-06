@@ -32,9 +32,17 @@ identifiers:
 # Approximate EOL date are always set on the last day of the month (and updated when the exact date is known).
 releases:
 
+-   releaseCycle: "1.19"
+    releaseDate: 2023-09-05
+    eol: 2024-03-31 # ~March 2024 (Expected)
+    supportedKubernetesVersions: 1.25 - 1.28
+    link: https://istio.io/latest/news/releases/1.19.x/announcing-1.19/
+    latest: "1.19.0"
+    latestReleaseDate: 2023-09-05
+
 -   releaseCycle: "1.18"
     releaseDate: 2023-06-07
-    eol: 2023-12-31
+    eol: 2023-12-31 # ~Dec 2023 (Expected)
     supportedKubernetesVersions: 1.24 - 1.27
     link: https://istio.io/latest/news/releases/1.18.x/announcing-1.18/
     latest: "1.18.2"
@@ -42,14 +50,14 @@ releases:
 
 -   releaseCycle: "1.17"
     releaseDate: 2023-02-14
-    eol: 2023-09-30
+    eol: 2023-10-31 # ~Oct 2023 (Expected) 
     supportedKubernetesVersions: 1.23 - 1.26
     latest: "1.17.5"
     latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "1.16"
     releaseDate: 2022-11-15
-    eol: 2023-06-30
+    eol: 2023-07-25
     supportedKubernetesVersions: 1.22 - 1.25
     latest: "1.16.7"
     latestReleaseDate: 2023-07-25
