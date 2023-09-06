@@ -36,15 +36,13 @@ releases:
     releaseDate: 2023-09-05
     eol: 2024-03-31 # ~March 2024 (Expected)
     supportedKubernetesVersions: 1.25 - 1.28
-    link: https://istio.io/latest/news/releases/1.19.x/announcing-1.19/
-    latest: "1.19.0"
+    latest: "1.19"
     latestReleaseDate: 2023-09-05
 
 -   releaseCycle: "1.18"
     releaseDate: 2023-06-07
     eol: 2023-12-31 # ~Dec 2023 (Expected)
     supportedKubernetesVersions: 1.24 - 1.27
-    link: https://istio.io/latest/news/releases/1.18.x/announcing-1.18/
     latest: "1.18.2"
     latestReleaseDate: 2023-07-25
 
