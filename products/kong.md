@@ -57,7 +57,6 @@ releases:
 > Kong or Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins.
 > By providing functionality for proxying, routing, load balancing, health checking, authentication (and more), Kong serves as the central layer for orchestrating microservices or conventional API traffic with ease.
 
-[Kong Support Policy](https://docs.konghq.com/gateway/latest/support-policy/) declares
-that each minor version is supported for 1 year after release.
+Kong follows [Semantic Versioning](https://semver.org/). Minor versions are released every 10 weeks and supported for 1 year with bug and security fixes. Some minor versions are designated LTS and supported for 3 years.
 
-A minor version can be designated as a LTS version, which has support for the next 3 years
+Kong versions follow a pattern of `{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`. For enterprise users Kong releases patches based on the Kong Community (see the Patches section in the Release Policy Link)
