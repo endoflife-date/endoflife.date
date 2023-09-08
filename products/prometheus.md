@@ -6,6 +6,7 @@ permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 activeSupportColumn: false
 releaseDateColumn: true
+eolWarnThreshold: 14
 
 auto:
 -   git: https://github.com/prometheus/prometheus.git
