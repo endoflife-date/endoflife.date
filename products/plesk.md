@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "18.0.55"
     releaseDate: 2023-08-29
     eol: 2023-11-21
-    latest: "18.0.55"
-    latestReleaseDate: 2023-08-29
+    latest: "18.0.55.1"
+    latestReleaseDate: 2023-09-07
 
 -   releaseCycle: "18.0.54"
     releaseDate: 2023-07-18
