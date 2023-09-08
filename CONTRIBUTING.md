@@ -126,6 +126,8 @@ eolColumn: Security Support
 
 # Threshold at which the background color of the cycle's "eol" cell changes to indicate
 # that the EOL date is approaching (optional, default = 121 days).
+# If a fixed EOL calculation is taken the rule of thumb one third of the time can be applied.
+# e.g. eol = releaseDate + 6w -> 2w eolWarnThreshold: 14
 eolWarnThreshold: 121
 
 # Whether the "Active Support" column should be displayed (optional, default = false).
@@ -134,6 +136,8 @@ activeSupportColumn: Active Support
 
 # Threshold at which the background color of the cycle's "activeSupport" cell changes to indicate
 # that the end of active support date is approaching (optional, default = 121 days).
+# If a fixed support calculation is taken the rule of thumb one third of the time can be applied.
+# e.g. activeSupport = releaseDate + 3w -> 1w activeSupportWarnThreshold: 7
 activeSupportWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
