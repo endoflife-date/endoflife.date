@@ -18,9 +18,9 @@ releases:
     support: true
     releaseDate: 2022-09-12
     eol: false
-    latestReleaseDate: 2023-07-24
-    latest: "16.6"
-    link: https://support.apple.com/HT213407
+    latestReleaseDate: 2023-09-07
+    latest: "16.6.1"
+    link: https://support.apple.com/HT213905
 
 -   releaseCycle: "15"
     eol: false
