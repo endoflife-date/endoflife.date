@@ -22,13 +22,18 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
+-   releaseCycle: "5.0"
+    eol: false
+    support: true
+    releaseDate: 2023-09-09
+    latest: "5.0.0"
+    latestReleaseDate: 2023-09-09
 -   releaseCycle: "4.4"
     eol: false
     support: true
     releaseDate: 2022-06-06
     latest: "4.4.17"
     latestReleaseDate: 2023-08-19
-
 -   releaseCycle: "4.3"
     eol: false
     support: 2022-06-07
