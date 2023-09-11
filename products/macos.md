@@ -26,7 +26,7 @@ releases:
     eol: false
     link: https://support.apple.com/HT213906
     releaseDate: 2022-10-24
-    latestReleaseDate: 2023-08-17
+    latestReleaseDate: 2023-09-07
     latest: '13.5.2'
 -   releaseCycle: "12"
     codename: "Monterey"
