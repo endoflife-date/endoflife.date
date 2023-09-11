@@ -125,9 +125,9 @@ releases:
     support: 2024-12-18
     eol: 2024-12-18
     extendedSupport: 2029-12-18
-    latest: "1912 CU7"
+    latest: "1912 CU8"
     lts: true
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-7.html
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-8.html
 
 -   releaseCycle: "7.15"
     releaseLabel: XenDesktop __RELEASE_CYCLE__
