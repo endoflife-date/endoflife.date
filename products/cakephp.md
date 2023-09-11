@@ -238,6 +238,7 @@ onward, major versions have a name:
 
 | Version | Name       |
 |---------|------------|
+| 5.x     | Chiffon    |
 | 3.x     | Red Velvet |
 | 4.x     | Strawberry |
 
@@ -254,6 +255,7 @@ the last major release cycle have security support.
 
 Version    | Min PHP | Max PHP
 -----------|---------|--------
+5.0        | 8.1     | Latest
 4.4        | 7.4     | Latest
 4.0 - 4.3  | 7.2     |
 3.4 - 3.10 | 5.6     | 7.4
