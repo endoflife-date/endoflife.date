@@ -233,13 +233,15 @@ releases:
 > follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts
 > of Ruby on Rails.
 
-CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
+CakePHP follows [Semantic Versioning](https://book.cakephp.org/5/en/release-policy.html). From 3.x
 onward, major versions have a name:
 
 | Version | Name       |
 |---------|------------|
-| 3.x     | Red Velvet |
+| 5.x     | Chiffon    |
 | 4.x     | Strawberry |
+| 3.x     | Red Velvet |
+
 
 Support and EOL policy for 1.x [was not clearly defined](https://stackoverflow.com/questions/20162089/cakephp-1-x-end-of-support-date).
 2.x and 3.x support and EOL policies are documented on <https://github.com/cakephp/cakephp/wiki>.
