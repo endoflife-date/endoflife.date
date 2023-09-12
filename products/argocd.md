@@ -29,20 +29,20 @@ releases:
 -   releaseCycle: "2.8"
     releaseDate: 2023-08-07
     eol: false
-    latest: "2.8.2"
-    latestReleaseDate: 2023-08-24
+    latest: "2.8.3"
+    latestReleaseDate: 2023-09-07
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-05-01
     eol: false
-    latest: "2.7.13"
-    latestReleaseDate: 2023-08-24
+    latest: "2.7.14"
+    latestReleaseDate: 2023-09-07
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-02-06
     eol: false
-    latest: "2.6.14"
-    latestReleaseDate: 2023-08-24
+    latest: "2.6.15"
+    latestReleaseDate: 2023-09-07
 
 -   releaseCycle: "2.5"
     releaseDate: 2022-10-25

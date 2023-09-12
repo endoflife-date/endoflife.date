@@ -5,7 +5,8 @@ iconSlug: istio
 permalink: /istio
 versionCommand: istioctl version
 releasePolicyLink: https://istio.io/latest/docs/releases/supported-releases/#support-policy
-changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
+changelogTemplate: 
+  https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
 activeSupportColumn: false
 releaseDateColumn: true
 
@@ -43,8 +44,8 @@ releases:
     releaseDate: 2023-06-07
     eol: 2023-12-31 # ~Dec 2023 (Expected)
     supportedKubernetesVersions: 1.24 - 1.27
-    latest: "1.18.2"
-    latestReleaseDate: 2023-07-25
+    latest: "1.18.3"
+    latestReleaseDate: 2023-09-08
 
 -   releaseCycle: "1.17"
     releaseDate: 2023-02-14
