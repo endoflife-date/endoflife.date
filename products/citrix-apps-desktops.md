@@ -135,9 +135,9 @@ releases:
     support: 2022-08-15
     eol: 2022-08-15
     extendedSupport: 2027-08-15
-    latest: "7.15 CU8"
+    latest: "7.15 CU9"
     lts: true
-    link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-8.html
+    link: https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/whats-new/cumulative-update-9.html
 
 ---
 
