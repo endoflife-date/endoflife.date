@@ -48,7 +48,7 @@ releases:
 
 Yarn's support and EOL policy is not clearly defined.
 
-Yarn Classic (v1) [entered maintenance mode in January 2020](https://dev.to/arcanis/introducing-yarn-2-4eh1#what-will-happen-to-the-legacy-codebase)
-and will eventually reach end-of-life. It is highly recommended to
+Yarn Classic (v1) [entered maintenance mode in January 2020](https://dev.to/arcanis/introducing-yarn-2-4eh1#what-will-happen-to-the-legacy-codebase) and subsequently [entered frozen mode in September 2022](https://github.com/yarnpkg/yarn/commit/158d96dce95313d9a00218302631cd263877d164)
+and is considered to have reached end-of-life. It is highly recommended to
 [Migrate](https://yarnpkg.com/migration/overview) to the latest version. Yarn
 Classic only receives critical and security fixes.
