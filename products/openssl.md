@@ -37,8 +37,8 @@ releases:
     releaseDate: 2018-09-11
     eol: 2023-09-11
     extendedSupport: true
-    latest: "1.1.1v"
-    latestReleaseDate: 2023-08-01
+    latest: "1.1.1w"
+    latestReleaseDate: 2023-09-11
 
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
