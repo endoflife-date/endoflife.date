@@ -25,9 +25,9 @@ releases:
 -   releaseCycle: "5.0"
     eol: false
     support: true
-    releaseDate: 2023-09-09
+    releaseDate: 2023-09-10
     latest: "5.0.0"
-    latestReleaseDate: 2023-09-09
+    latestReleaseDate: 2023-09-10
 
 -   releaseCycle: "4.4"
     eol: false
@@ -239,8 +239,8 @@ onward, major versions have a name:
 | Version | Name       |
 |---------|------------|
 | 5.x     | Chiffon    |
-| 3.x     | Red Velvet |
 | 4.x     | Strawberry |
+| 3.x     | Red Velvet |
 
 Support and EOL policy for 1.x [was not clearly defined](https://stackoverflow.com/questions/20162089/cakephp-1-x-end-of-support-date).
 2.x and 3.x support and EOL policies are documented on <https://github.com/cakephp/cakephp/wiki>.
