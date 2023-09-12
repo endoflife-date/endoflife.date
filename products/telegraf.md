@@ -14,6 +14,12 @@ auto:
 -   git: https://github.com/influxdata/telegraf
 
 releases:
+-   releaseCycle: "1.28"
+    eol: false # releaseDate(1.30)
+    releaseDate: 2023-09-11
+    latest: "1.28.0"
+    latestReleaseDate: 2023-09-11
+
 -   releaseCycle: "1.27"
     eol: false # releaseDate(1.29)
     releaseDate: 2023-06-12
@@ -21,7 +27,7 @@ releases:
     latestReleaseDate: 2023-08-21
 
 -   releaseCycle: "1.26"
-    eol: false # releaseDate(1.28)
+    eol: 2023-09-11
     releaseDate: 2023-03-13
     latest: "1.26.3"
     latestReleaseDate: 2023-05-22
