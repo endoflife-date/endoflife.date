@@ -22,6 +22,13 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
+-   releaseCycle: "5.0"
+    eol: false
+    support: true
+    releaseDate: 2023-09-10
+    latest: "5.0.0"
+    latestReleaseDate: 2023-09-10
+
 -   releaseCycle: "4.4"
     eol: false
     support: true
@@ -247,6 +254,7 @@ the last major release cycle have security support.
 
 Version    | Min PHP | Max PHP
 -----------|---------|--------
+5          | 8.1     | Latest
 4.4        | 7.4     | Latest
 4.0 - 4.3  | 7.2     |
 3.4 - 3.10 | 5.6     | 7.4
