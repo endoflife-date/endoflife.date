@@ -10,6 +10,14 @@ releaseColumn: false
 releaseDateColumn: true
 
 releases:
+
+-   releaseCycle: "5"
+    highestAndroidVersion: "13"
+    releaseDate: 2023-09-14
+    discontinued: false
+    eol: 2031-09-14 # according to https://www.gsmarena.com/fairphone_5_goes_official_with_5_years_warranty_up_to_10_years_of_software_support-news-59724.php
+    link: https://support.fairphone.com/hc/en-us/articles/18020671537041-Fairphone-5-FAQ
+
 -   releaseCycle: "4"
     highestAndroidVersion: "12"
     releaseDate: 2021-09-30
