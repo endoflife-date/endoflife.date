@@ -26,14 +26,14 @@ releases:
 -   releaseCycle: "1.13"
     releaseDate: 2023-03-01
     eol: false
-    latest: "1.13.6"
-    latestReleaseDate: 2023-08-24
+    latest: "1.13.7"
+    latestReleaseDate: 2023-09-11
 
 -   releaseCycle: "1.12"
     releaseDate: 2022-10-10
     eol: false
-    latest: "1.12.10"
-    latestReleaseDate: 2023-08-24
+    latest: "1.12.11"
+    latestReleaseDate: 2023-09-11
 
 -   releaseCycle: "1.11"
     releaseDate: 2022-06-17
