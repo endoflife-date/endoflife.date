@@ -59,7 +59,7 @@ releases:
     eol: 2024-01-09
     releaseDate: 2022-05-10
     latest: "17.2.19"
-    latestReleaseDate: 2023-09-09
+    latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "17.1"
     codename: "2022"
