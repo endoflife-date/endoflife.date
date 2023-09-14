@@ -26,14 +26,14 @@ releases:
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
     eol: false
-    latest: "6.5.2"
-    latestReleaseDate: 2023-09-06
+    latest: "6.5.3"
+    latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
     eol: false
-    latest: "6.4.15"
-    latestReleaseDate: 2023-09-06
+    latest: "6.4.16"
+    latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
@@ -51,8 +51,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31
-    latest: "6.1.52"
-    latestReleaseDate: 2023-09-06
+    latest: "6.1.53"
+    latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
