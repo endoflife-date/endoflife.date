@@ -27,7 +27,7 @@ identifiers:
 releases:
 -   releaseCycle: "16"
     releaseDate: 2023-09-14
-    eol: false
+    eol: 2028-11-09
     latest: "16.0"
     latestReleaseDate: 2023-09-14
 
