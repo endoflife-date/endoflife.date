@@ -1,17 +1,12 @@
 ---
 title: Amazon Aurora for PostgreSQL
 category: service
-tags: amazon managed-postgresql aurora
+tags: amazon managed-postgresql
 iconSlug: amazonaws
 permalink: /amazon-aurora-postgresql
 releasePolicyLink:
-  https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
-  https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html
   https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.VersionPolicy.html#Aurora.VersionPolicy.MajorVersionLifetime
 releaseDateColumn: true
-
-auto:
--   custom: true
 
 releases:
 -   releaseCycle: "15"
@@ -110,19 +105,17 @@ releases:
 -   releaseCycle: "9.6"
     releaseDate: 2016-11-11
     eol: 2022-04-30
-    # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
     deprecated: true
 
 ---
 
-> [What is Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html) Amazon Aurora (Aurora) is a fully managed relational database engine
-> that's compatible with MySQL and PostgreSQL. You already know how PostgreSQL combine the speed and reliability of high-end commercial databases with the simplicity and
-> cost-effectiveness of open-source databases. The code, tools, and applications you use today with your existing MySQL and PostgreSQL databases can be used with Aurora. With some workloads, Aurora can deliver up to five times the throughput of MySQL and up to three times the throughput of PostgreSQL without requiring changes to most of your existing applications.
->
-> [Working with Amazon Aurora PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.AuroraPostgreSQL.html) Amazon Aurora PostgreSQL is a fully managed, PostgreSQL–compatible, and ACID–compliant relational database engine that combines the speed, reliability, and manageability of Amazon Aurora with the simplicity and cost-effectiveness of
-> open-source databases. Aurora PostgreSQL is a drop-in replacement for PostgreSQL and makes it simple and cost-effective to set up, operate, and scale your new and existing PostgreSQL deployments, thus freeing you to focus on your business and applications.
+> [Amazon Aurora for PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.AuroraPostgreSQL.html) is a fully managed, PostgreSQL–compatible,
+> and ACID–compliant relational database engine that combines the speed, reliability, and manageability of Amazon Aurora with the simplicity and cost-effectiveness
+> of open-source databases and is a drop-in replacement for PostgreSQL.
 
+
+## Versioning and Compatibility
 Amazon Aurora reuses code and maintains compatibility with the underlying MySQL and PostgreSQL DB engines.
 However, Aurora has its own version numbers, release cycle, time line for version deprecation, and so on.
 
@@ -135,6 +128,7 @@ Amazon intends to make each Amazon Aurora minor version of a particular major ve
 ## Long-term support for selected Amazon Aurora minor versions++
 For each Aurora major version, certain minor versions are designated as long-term-support (LTS) versions and made available for at least three years. That is, at least one minor version per major version is made available for longer than the typical 12 months.
 
-For the most up-to-date information about the Amazon RDS deprecation policy for PostgreSQL, see
-[Major Version End of Standard Support Dates](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.VersionPolicy.html#Aurora.VersionPolicy.MajorVersionLifetime)
+Additional links related to end of life for Aurora PostgresSQL
+[Amazon RDS Postgres Release Calendar](https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html)
+[Amazon RDS Aurora Postgres Updates](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html)
 
