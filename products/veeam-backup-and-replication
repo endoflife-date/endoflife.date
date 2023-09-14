@@ -3,9 +3,9 @@ title: Veeam Backup & Replication
 category: app
 tags: veeam
 iconSlug: veeam
-permalink: /veeam-backupandreplication
+permalink: /veeam-backup-and-replication
 alternate_urls:
--   /veeambackupandreplication
+-   /veeam-backup
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 activeSupportColumn: End of Fix
 releaseColumn: false
@@ -14,70 +14,82 @@ eolColumn: End of support
 
 releases:
 -   releaseCycle: "12.0"
-    releaseDate: 2023-02-01
+    releaseDate: 2023-01-30
     support: true
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
 
--   releaseCycle: "11.0"
-    releaseDate: 2021-02-01
+-   releaseCycle: "11.0a"
+    releaseDate: 2021-10-07
     support: 2023-02-01
     eol: 2024-02-01
-    link: null
+    link: "https://www.veeam.com/kb4245"
+
+-   releaseCycle: "11.0"
+    releaseDate: 2021-02-11
+    support: 2023-02-01
+    eol: 2024-02-01
+    link: "https://www.veeam.com/kb4126"
 
 -   releaseCycle: "10.0"
-    releaseDate: 2020-02-01
+    releaseDate: 2020-02-04
     support: 2021-02-01
     eol: 2023-02-01
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "9.5"
-    releaseDate: 2016-01-01
+    releaseDate: 2016-11-16
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "9.0"
-    releaseDate: 2016-01-01
+    releaseDate: 2016-01-12
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "8.0"
-    releaseDate: 2014-01-01
+    releaseDate: 2014-11-06
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "7.0"
-    releaseDate: 2013-01-01
+    releaseDate: 2013-08-20
     support: false    
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "6.5"
-    releaseDate: 2012-01-01
+    releaseDate: 2012-10-09
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
+
+-   releaseCycle: "6.1"
+    releaseDate: 2012-06-04
+    support: false
+    eol: true
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "6.0"
-    releaseDate: 2011-01-01
+    releaseDate: 2011-08-22
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "5.0"
-    releaseDate: 2010-01-01
+    releaseDate: 2010-08-30
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "4.0"
     releaseDate: 2009-10-29
     support: false
     eol: true
-    link: null
+    link: "https://www.veeam.com/kb2680"
 
 -   releaseCycle: "3.0"
     releaseDate: 2009-01-01
@@ -102,10 +114,10 @@ releases:
 
 > [Veeam Backup & Replication](https://helpcenter.veeam.com/docs/backup/qsg_vsphere/about_vbr.html?ver=120) is a data protection and disaster recovery solution for virtual, physical and cloud environments.
 
-## [End of Fix](https://www.veeam.com/product-lifecycle.html)
+## End of Fix
 
 When a product version reaches this stage, no further Updates, Patches or Hotfixes will be created for it (exceptions may be made on a case-by-case basis). A version that has reached End of Fix, but that has not reached End of Support is still fully supported. However, if Veeam determines that an issue is being experinced is fixed in a generally available version, an update to later release is required.
 
-## [End of support](https://www.veeam.com/product-lifecycle.html)
+## End of support
   
 When a product version reaches this stage, this version will no longer be supported by Veeam. To get support, one needs to have an active maintenance contract and perform an upgrade to at least the version that has not reached the End of Support stage yet.
