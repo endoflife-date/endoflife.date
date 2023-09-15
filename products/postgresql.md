@@ -26,10 +26,10 @@ identifiers:
 
 releases:
 -   releaseCycle: "16"
-    releaseDate: 2023-09-14
+    releaseDate: 2023-09-11
     eol: 2028-11-09
     latest: "16.0"
-    latestReleaseDate: 2023-09-14
+    latestReleaseDate: 2023-09-11
 
 -   releaseCycle: "15"
     releaseDate: 2022-10-10
