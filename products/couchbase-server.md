@@ -27,7 +27,7 @@ releases:
     releaseDate: 2023-06-01
     eol: 2024-01-31 # Still to be confirmed on https://www.couchbase.com/support-policy/enterprise-software/
     latest: "7.2.1"
-    latestReleaseDate: 2023-08-15
+    latestReleaseDate: 2023-09-15
 
 -   releaseCycle: "7.1"
     releaseDate: 2022-05-15
