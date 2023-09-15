@@ -12,84 +12,92 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of support
 
+# Release dates (RTM) can be found on https://www.veeam.com/kb2680.
+# EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
 releases:
--   releaseCycle: "12.0"
-    releaseDate: 2023-01-30
-    support: true
+-   releaseCycle: "12 GA"
+    releaseDate: 2023-02-14
+    support: true # will be 13.0 GA date
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
 
--   releaseCycle: "11.0a"
+-   releaseCycle: "11a"
     releaseDate: 2021-10-07
     support: 2023-02-01
     eol: 2024-02-01
     link: "https://www.veeam.com/kb4245"
 
--   releaseCycle: "11.0"
-    releaseDate: 2021-02-11
+-   releaseCycle: "11 GA"
+    releaseDate: 2021-02-24
     support: 2023-02-01
     eol: 2024-02-01
     link: "https://www.veeam.com/kb4126"
 
--   releaseCycle: "10.0"
-    releaseDate: 2020-02-04
+-   releaseCycle: "10a GA"
+    releaseDate: 2020-07-30
     support: 2021-02-01
     eol: 2023-02-01
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb3228"
 
--   releaseCycle: "9.5"
+-   releaseCycle: "10 GA"
+    releaseDate: 2020-02-18
+    support: 2021-02-01
+    eol: 2023-02-01
+    link: "https://www.veeam.com/kb3161"
+
+-   releaseCycle: "9.5 GA"
     releaseDate: 2016-11-16
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb2970"
 
--   releaseCycle: "9.0"
+-   releaseCycle: "9.0 GA"
     releaseDate: 2016-01-12
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb2147"
 
--   releaseCycle: "8.0"
+-   releaseCycle: "8.0 GA"
     releaseDate: 2014-11-06
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb2068"
 
--   releaseCycle: "7.0"
+-   releaseCycle: "7.0 GA"
     releaseDate: 2013-08-20
     support: false    
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "http://www.veeam.com/kb1891"
 
--   releaseCycle: "6.5"
+-   releaseCycle: "6.5 GA"
     releaseDate: 2012-10-09
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb1751"
 
--   releaseCycle: "6.1"
+-   releaseCycle: "6.1 GA"
     releaseDate: 2012-06-04
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "https://www.veeam.com/kb1671"
 
--   releaseCycle: "6.0"
+-   releaseCycle: "6.0 GA"
     releaseDate: 2011-08-22
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: "http://www.veeam.com/kb1442"
 
--   releaseCycle: "5.0"
+-   releaseCycle: "5.0 RTM"
     releaseDate: 2010-08-30
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: null
 
 -   releaseCycle: "4.0"
     releaseDate: 2009-10-29
     support: false
     eol: true
-    link: "https://www.veeam.com/kb2680"
+    link: null
 
 -   releaseCycle: "3.0"
     releaseDate: 2009-01-01
@@ -121,3 +129,9 @@ When a product version reaches this stage, no further Updates, Patches or Hotfix
 ## End of support
   
 When a product version reaches this stage, this version will no longer be supported by Veeam. To get support, one needs to have an active maintenance contract and perform an upgrade to at least the version that has not reached the End of Support stage yet.
+
+## RTM (Release to Manufacturing) vs GA (General Availability)
+
+RTM: This is the version of the software that is provided to manufacturers to bundle into future versions of their hardware products. It’s a more or less finalized version of the software but might still have some bugs that were not found during the testing phase.
+GA: This is the fully tested and finalized version of the software that is available to all customers. It’s intended for all users and is considered ready for production environments.
+Source [1](https://forums.veeam.com/post476799.html#p476799), [2](https://forums.veeam.com/veeam-backup-replication-f2/rtm-to-ga-update-t64886.html)
