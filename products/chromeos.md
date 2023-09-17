@@ -146,6 +146,8 @@ releases:
     eol: 2020-10-06
 
 ---
-> Chrome OS follows a regular release schedule, similar to other operating systems. New versions of Chrome OS are released approximately every six weeks. These releases include updates, bug fixes, security enhancements, and sometimes new features. Chrome OS releases are identified by version numbers, such as "Chrome OS 95," "Chrome OS 96," and so on.
-> Devices receive automatic software updates for approximately 6.5 years from their original launch date. During the first 5 years, devices receive both security and feature updates. In the last 1.5 years, devices continue to receive security updates but might not receive feature updates.
 > [chromeOS](https://www.google.com/chromebook/chrome-os/) is a Linux-based operating system developed and designed by Google. It is derived from the open-source ChromiumOS and uses the Google Chrome web browser as its principal user interface.
+
+Chrome OS follows a regular release schedule, similar to other operating systems. New versions of Chrome OS are released approximately every six weeks. These releases include updates, bug fixes, security enhancements, and sometimes new features. Chrome OS releases are identified by version numbers, such as "Chrome OS 95," "Chrome OS 96," and so on.
+
+Devices receive automatic software updates for approximately 6.5 years from their original launch date. During the first 5 years, devices receive both security and feature updates. In the last 1.5 years, devices continue to receive security updates but might not receive feature updates.
