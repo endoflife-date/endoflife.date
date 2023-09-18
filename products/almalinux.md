@@ -36,8 +36,15 @@ releases:
 
 ---
 
-[AlmaLinux OS](https://almalinux.org/) is an open source, community-owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. AlmaLinux OS is binary-compatible with [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), and is owned and controlled by the non-profit AlmaLinux OS Foundation, managed by a community-elected board of directors.
+> [AlmaLinux OS](https://almalinux.org/) is an open source, community-owned and governed,
+> forever-free enterprise Linux distribution, focused on long-term stability, providing a robust
+> production-grade platform. AlmaLinux OS is binary-compatible with
+> [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), and is owned
+> and controlled by the non-profit AlmaLinux OS Foundation, managed by a community-elected
+> board of directors.
 
-AlmaLinux OS attempts to release regular updates within 1 business day from RHEL. Each release, like RHEL, comes with a 10-year lifecycle. Major releases are typically available within a few days to a few weeks following a major RHEL release.
+AlmaLinux OS attempts to release regular updates within 1 business day from RHEL. Each release, like
+RHEL, comes with a 10-year lifecycle. Major releases are typically available within a few days to a
+few weeks following a major RHEL release.
 
 *[RHEL]: Red Hat Enterprise Linux
