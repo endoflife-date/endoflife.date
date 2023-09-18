@@ -146,7 +146,7 @@ releases:
     eol: 2020-10-06
 
 ---
-> [chromeOS](https://www.google.com/chromebook/chrome-os/) is a Linux-based operating system developed and designed by Google. It is derived from the open-source ChromiumOS and uses the Google Chrome web browser as its principal user interface.
+> [ChromeOS](https://www.google.com/chromebook/chrome-os/) is a Linux-based operating system developed and designed by Google. It is derived from the open-source Chromium OS and uses the Google Chrome web browser as its principal user interface.
 
 Chrome OS follows a regular release schedule, similar to other operating systems. New versions of Chrome OS are released approximately every six weeks. These releases include updates, bug fixes, security enhancements, and sometimes new features. Chrome OS releases are identified by version numbers, such as "Chrome OS 95," "Chrome OS 96," and so on.
 
