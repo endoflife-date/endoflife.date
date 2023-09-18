@@ -101,10 +101,6 @@ releases:
     releaseDate: 2021-12-06
     eol: 2022-01-04
 
--   releaseCycle: "95"
-    releaseDate: 2021-10-19
-    eol: 2021-12-06
-
 -   releaseCycle: "94"
     releaseDate: 2021-09-21
     eol: 2021-12-06
