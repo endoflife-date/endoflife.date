@@ -38,7 +38,7 @@ releases:
     eol: 2023-09-11
     extendedSupport: true
     latest: "1.1.1w"
-    latestReleaseDate: 2023-09-11
+    latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
