@@ -16,7 +16,7 @@ releaseDateColumn: true
 releases:
 
 -   releaseCycle: "116"
-    releaseDate: 2023-08-22
+    releaseDate: 2023-08-09
     eol: false
 
 -   releaseCycle: "115"
