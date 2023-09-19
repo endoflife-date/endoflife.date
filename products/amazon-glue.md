@@ -9,9 +9,6 @@ releasePolicyLink:
 releaseDateColumn: true
 releaseColumn: false
 
-auto:
--   custom: true
-
 # Versions taken from https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 releases:
 -   releaseCycle: "4.0"
