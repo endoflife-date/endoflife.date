@@ -75,6 +75,36 @@ identifiers:
 -   purl: pkg:deb/debian/python1.5
 -   purl: pkg:deb/debian/python1.4
 
+-   purl: pkg:rpm/fedora/python
+-   purl: pkg:rpm/fedora/python-minimal
+-   purl: pkg:rpm/fedora/python2
+-   purl: pkg:rpm/fedora/python3
+-   purl: pkg:rpm/fedora/python3.11
+-   purl: pkg:rpm/fedora/python3.10
+-   purl: pkg:rpm/fedora/python3.9
+-   purl: pkg:rpm/fedora/python3.8
+-   purl: pkg:rpm/fedora/python3.7
+-   purl: pkg:rpm/fedora/python3.6
+-   purl: pkg:rpm/fedora/python3.5
+-   purl: pkg:rpm/fedora/python3.4
+-   purl: pkg:rpm/fedora/python3.3
+-   purl: pkg:rpm/fedora/python3.2
+-   purl: pkg:rpm/fedora/python3.1
+-   purl: pkg:rpm/fedora/python3.0
+-   purl: pkg:rpm/fedora/python2.9
+-   purl: pkg:rpm/fedora/python2.8
+-   purl: pkg:rpm/fedora/python2.7
+-   purl: pkg:rpm/fedora/python2.6
+-   purl: pkg:rpm/fedora/python2.5
+-   purl: pkg:rpm/fedora/python2.4
+-   purl: pkg:rpm/fedora/python2.3
+-   purl: pkg:rpm/fedora/python2.2
+-   purl: pkg:rpm/fedora/python2.1
+-   purl: pkg:rpm/fedora/python2.0
+-   purl: pkg:rpm/fedora/python1.6
+-   purl: pkg:rpm/fedora/python1.5
+-   purl: pkg:rpm/fedora/python1.4
+
 -   purl: pkg:rpm/amzn/python
 -   purl: pkg:rpm/amzn/python2
 -   purl: pkg:rpm/amzn/python3
