@@ -28,6 +28,17 @@ extendedSupportColumn: true
 # - STS : EOL + 6 months
 # - custom for Java 6/7
 releases:
+-   releaseCycle: "21"
+    lts: true
+    # https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
+    releaseDate: 2023-09-19
+    eol: 2031-09-30
+    extendedSupport: 2033-09-30
+    latest: "21.28.85"
+    latestJdkVersion: "21.0.0+35"
+    latestReleaseDate: 2023-09-19
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
+
 -   releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
     lts: false
