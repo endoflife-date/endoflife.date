@@ -6,8 +6,8 @@ iconSlug: shopware
 permalink: /shopware
 versionCommand: ./bin/console -V
 releasePolicyLink: https://www.shopware.com/en/news/shopware-6-versioning-strategy/
-changelogTemplate: "https://www.shopware.com/en/changelog/#release-{{"__LATEST__" | replace:'.','-'}}"
-releaseLabel: "{{"__RELEASE_CYCLE__" | replace:'.','-'}}"
+changelogTemplate: "https://www.shopware.com/en/changelog/#release-{{'__LATEST__' | replace:'.','-'}}"
+releaseLabel: "{{'__RELEASE_CYCLE__' | replace:'.','-'}}"
 releaseColumn: true
 releaseDateColumn: true
 releases:
