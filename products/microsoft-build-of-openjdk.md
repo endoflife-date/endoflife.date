@@ -17,10 +17,20 @@ auto:
 -   git: "https://github.com/microsoft/openjdk-jdk17u.git"
     regex: '^jdk-(?<version>[\d\.]+)-ga$'
     template: '{{version}}'
+-   git: "https://github.com/microsoft/openjdk-jdk21u.git"
+    regex: '^jdk-(?<version>[\d\.]+)-ga$'
+    template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates available on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
 releases:
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-09-19
+    eol: false # not yet announced on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
+    latest: "21"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
