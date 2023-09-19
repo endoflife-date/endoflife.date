@@ -24,6 +24,14 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-09-19
+    support: 2026-09-30
+    eol: 2026-09-30
+    latest: "21.0.0"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
     support: 2023-09-19
