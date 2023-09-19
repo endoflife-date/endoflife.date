@@ -16,24 +16,33 @@ releases:
     eol: false
     latest: "6.5.5.1"
     latestReleaseDate: 2023-09-05
+
 -   releaseCycle: "6.4"
+    eol: 2021-05-04
     releaseDate: 2021-05-04
     latest: "6.4.19.0"
     latestReleaseDate: 2023-02-07
+
 -   releaseCycle: "6.3"
+    eol: 2021-05-04
     releaseDate: 2020-08-03
     latest: "6.3.5.4"
     latestReleaseDate: 2021-04-19
+
 -   releaseCycle: "6.2"
-    releaseDate: 2017-05-09
+    eol: 2020-08-03
+    releaseDate: 2020-05-09
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
+
 -   releaseCycle: "6.1"
-    eol: 2017-03-19
+    eol: 2020-03-09
     releaseDate: 2020-01-15
     latest: "6.1.6"
     latestReleaseDate: 2020-05-14
+
 -   releaseCycle: "5"
+    lts: true
     eol: 2024-07-01
     releaseDate: 2015-04-27
     latest: "5.7.18"
