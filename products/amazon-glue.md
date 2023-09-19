@@ -1,7 +1,7 @@
 ---
 title: Amazon Glue
 category: service
-tags: amazon glue
+tags: amazon
 iconSlug: amazonaws
 permalink: /amazon-glue
 releasePolicyLink:
