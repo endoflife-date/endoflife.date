@@ -18,6 +18,12 @@ auto:
 
 # EOL dates can be found on https://varnish-cache.org/releases/
 releases:
+-   releaseCycle: "7.4"
+    releaseDate: 2023-09-15
+    eol: 2024-09-15
+    latest: '7.4.0'
+    latestReleaseDate: 2023-09-15
+
 -   releaseCycle: "7.3"
     releaseDate: 2023-03-15
     eol: 2024-03-15
