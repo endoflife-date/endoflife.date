@@ -15,6 +15,12 @@ auto:
 # EOL(R) = releaseDate(R) + 2 year + 1 day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+-   releaseCycle: "1.26"
+    releaseDate: 2023-09-16
+    eol: 2025-09-17
+    latest: "1.26.0"
+    latestReleaseDate: 2023-09-16
+
 -   releaseCycle: "1.25"
     releaseDate: 2023-06-17
     eol: 2025-06-18
