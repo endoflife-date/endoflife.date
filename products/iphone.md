@@ -13,6 +13,13 @@ releaseDateColumn: true
 
 # All links can be found on https://support.apple.com/en-us/HT201296.
 releases:
+
+-   releaseCycle: "15 /15 Plus /15 Pro /15 Pro Max"
+    releaseDate: 2023-09-22
+    discontinued: false
+    eol: false
+    link: N/A
+
 -   releaseCycle: "14 Plus"
     releaseDate: 2022-10-07
     discontinued: false
