@@ -7,7 +7,7 @@ permalink: /chromeos
 alternate_urls:
 -   /chrome-os
 versionCommand: cat /etc/issue
-releasePolicyLink: https://chromeos.dev/en/education/chromeos-lts
+releasePolicyLink: https://support.google.com/chrome/a/answer/6220366?hl=en
 changelogTemplate: https://support.google.com/chrome/a/answer/10314655#__RELEASE_CYCLE__
 releaseColumn: false
 activeSupportColumn: false
@@ -144,6 +144,7 @@ releases:
 ---
 > [ChromeOS](https://www.google.com/chromebook/chrome-os/) is a Linux-based operating system developed and designed by Google. It is derived from the open-source Chromium OS and uses the Google Chrome web browser as its principal user interface.
 
-Chrome OS follows a regular release schedule, similar to other operating systems. New versions of Chrome OS are released approximately every six weeks. These releases include updates, bug fixes, security enhancements, and sometimes new features. Chrome OS releases are identified by version numbers, such as "Chrome OS 95," "Chrome OS 96," and so on.
+According to [Auto Update policy](https://support.google.com/chrome/a/answer/6220366?hl=en), Chrome devices (e.g. Chromebook, Chromebox, Chromebase, Chromebit) receive automatic updates that enhance both the device and its software. Automatic updates provide the latest features, keep the device secure, and are applied across the operating system, browser and hardware. These updates depend on many device specific non-Google hardware and software providers that work with Google to provide the highest level of security and stability support.
 
-Devices receive automatic software updates for approximately 6.5 years from their original launch date. During the first 5 years, devices receive both security and feature updates. In the last 1.5 years, devices continue to receive security updates but might not receive feature updates.
+ChromeOS devices receive 10 years of updates.
+For devices prior to 2021 that will receive extended updates, some features and services might not be supported. 
