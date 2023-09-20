@@ -29,7 +29,7 @@ releases:
     releaseDate: 2023-09-19
     support: 2026-09-30
     eol: 2026-09-30
-    latest: "21.0.0"
+    latest: "21"
     latestReleaseDate: 2023-09-19
     link: https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
 
