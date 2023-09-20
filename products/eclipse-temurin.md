@@ -31,6 +31,8 @@ auto:
     regex: '^jdk-(?P<version>[\d\.+]+)$'
 -   github_releases: "adoptium/temurin20-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+-   github_releases: "adoptium/temurin21-binaries"
+    regex: '^jdk-(?P<version>[\d\.+]+)$'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
