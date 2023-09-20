@@ -17,8 +17,6 @@ auto:
 -   custom: true
 
 releases:
-watchos
-
 -   releaseCycle: "10"
     releaseDate: 2023-09-18
     support: true
