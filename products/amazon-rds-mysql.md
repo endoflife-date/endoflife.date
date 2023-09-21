@@ -4,7 +4,7 @@ category: service
 tags: amazon managed-mysql
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
 
