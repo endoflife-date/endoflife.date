@@ -22,15 +22,22 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
--   releaseCycle: "4.4"
+-   releaseCycle: "5.0"
     eol: false
     support: true
+    releaseDate: 2023-09-09
+    latest: "5.0.0"
+    latestReleaseDate: 2023-09-09
+
+-   releaseCycle: "4.4"
+    eol: 2026-09-09
+    support: 2025-09-09
     releaseDate: 2022-06-06
     latest: "4.4.17"
     latestReleaseDate: 2023-08-19
 
 -   releaseCycle: "4.3"
-    eol: false
+    eol: 2026-09-09
     support: 2022-06-07
     releaseDate: 2021-10-23
     latest: "4.3.11"
@@ -38,7 +45,7 @@ releases:
 
 -   releaseCycle: "4.2"
     latest: "4.2.12"
-    eol: false
+    eol: 2026-09-09
     support: 2021-10-24
     releaseDate: 2020-12-20
     latestReleaseDate: 2023-01-06
@@ -231,8 +238,9 @@ onward, major versions have a name:
 
 | Version | Name       |
 |---------|------------|
-| 3.x     | Red Velvet |
+| 5.x     | Chiffon    |
 | 4.x     | Strawberry |
+| 3.x     | Red Velvet |
 
 Support and EOL policy for 1.x [was not clearly defined](https://stackoverflow.com/questions/20162089/cakephp-1-x-end-of-support-date).
 2.x and 3.x support and EOL policies are documented on <https://github.com/cakephp/cakephp/wiki>.
@@ -247,6 +255,7 @@ the last major release cycle have security support.
 
 Version    | Min PHP | Max PHP
 -----------|---------|--------
+5.0        | 8.1     | Latest
 4.4        | 7.4     | Latest
 4.0 - 4.3  | 7.2     |
 3.4 - 3.10 | 5.6     | 7.4

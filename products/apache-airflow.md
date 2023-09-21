@@ -22,8 +22,8 @@ identifiers:
 releases:
 -   releaseCycle: "2"
     eol: false
-    latest: "2.7.0"
-    latestReleaseDate: 2023-08-18
+    latest: "2.7.1"
+    latestReleaseDate: 2023-09-07
     releaseDate: 2020-12-17
 -   releaseCycle: "1.10"
     eol: 2021-07-17

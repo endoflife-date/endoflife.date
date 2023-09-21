@@ -5,8 +5,8 @@ tags: cncf
 permalink: /flux
 iconSlug: flux
 alternate_urls:
-- /flux2
-- /fluxcd
+-   /flux2
+-   /fluxcd
 versionCommand: flux version
 releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
 changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "2.1"
     releaseDate: 2023-08-24
     eol: false
-    latest: "2.1.0"
-    latestReleaseDate: 2023-08-24
+    latest: "2.1.1"
+    latestReleaseDate: 2023-09-19
 
 -   releaseCycle: "2.0"
     releaseDate: 2023-07-05

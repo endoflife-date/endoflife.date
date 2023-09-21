@@ -3,7 +3,7 @@ title: GraalVM
 category: lang
 tags: java-distribution oracle
 permalink: /graalvm
-releasePolicyLink: https://www.graalvm.org/release-notes/release-calendar/
+releasePolicyLink: https://www.graalvm.org/release-calendar/
 changelogTemplate: "https://www.graalvm.org/release-notes/{{'__RELEASE_CYCLE__'|replace:'.','_'|replace:'-','_'|upcase}}/"
 LTSLabel: "<abbr title='Annual Release'>AR</abbr>"
 eolColumn: Maintenance
@@ -14,6 +14,13 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "jdk-21"
+    releaseLabel: "JDK 21"
+    releaseDate: 2023-09-19
+    eol: false
+    latest: "jdk-21"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
     releaseDate: 2023-07-25

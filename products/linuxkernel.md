@@ -4,8 +4,9 @@ category: os
 iconSlug: linux
 permalink: /linux
 versionCommand: uname -r
+# Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releaseImage: 
-  https://upload.wikimedia.org/wikipedia/en/timeline/dpi5kh7zrbnsv0awp42ul4evaq7vltm.png
+  https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 activeSupportColumn: false
@@ -20,16 +21,23 @@ identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
+# See https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releases:
+-   releaseCycle: "6.5"
+    releaseDate: 2023-08-27
+    eol: false
+    latest: "6.5.4"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
     eol: false
-    latest: "6.4.12"
-    latestReleaseDate: 2023-08-23
+    latest: "6.4.16"
+    latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
-    eol: false
+    eol: 2023-07-11
     latest: "6.3.13"
     latestReleaseDate: 2023-07-11
 
@@ -43,8 +51,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31
-    latest: "6.1.49"
-    latestReleaseDate: 2023-08-27
+    latest: "6.1.54"
+    latestReleaseDate: 2023-09-19
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -80,36 +88,36 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31
-    latest: "5.15.128"
-    latestReleaseDate: 2023-08-26
+    latest: "5.15.132"
+    latestReleaseDate: 2023-09-19
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-01
-    latest: "5.10.192"
-    latestReleaseDate: 2023-08-26
+    latest: "5.10.195"
+    latestReleaseDate: 2023-09-19
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-01
-    latest: "5.4.254"
-    latestReleaseDate: 2023-08-16
+    latest: "5.4.256"
+    latestReleaseDate: 2023-09-02
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-01
-    latest: "4.19.292"
-    latestReleaseDate: 2023-08-16
+    latest: "4.19.294"
+    latestReleaseDate: 2023-09-02
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
     eol: 2024-01-01
-    latest: "4.14.323"
-    latestReleaseDate: 2023-08-16
+    latest: "4.14.325"
+    latestReleaseDate: 2023-09-02
 
 -   releaseCycle: "4.9"
     lts: true

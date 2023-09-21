@@ -17,8 +17,8 @@ auto:
 releases:
 -   releaseCycle: "3"
     eol: false
-    latest: "3.7.0"
-    latestReleaseDate: 2023-05-11
+    latest: "3.7.1"
+    latestReleaseDate: 2023-08-28
     releaseDate: 2016-06-09
 
 -   releaseCycle: "2"
@@ -39,7 +39,7 @@ releases:
 
 > [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.
 
-The 1.x and 2.x branches no longer receive patches.
+Only the latest version in the current release cycle is supported. The 1.x and 2.x branches no longer receive patches, although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675) serious security patches have been backported and that they would consider it again in the future.
 
 ## [Browser Support](https://jquery.com/browser-support/)
 

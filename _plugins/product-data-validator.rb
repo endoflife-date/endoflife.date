@@ -30,28 +30,33 @@ module EndOfLifeHooks
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
-  SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger a Net::ReadTimeout'
+  SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger an open or read timeout'
   SUPPRESSED_BECAUSE_FORBIDDEN = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_BAD_GATEWAY = 'may return a 502 Bad Gateway'
-  SUPPRESSED_BECAUSE_EOF = 'may return an "end of file reached" error'
+  SUPPRESSED_BECAUSE_EOF = 'may return an "unexpected eof while reading" error'
   SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
   SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
     'https://ark.intel.com': SUPPRESSED_BECAUSE_FORBIDDEN,
+    'https://azure.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://blogs.oracle.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://codex.wordpress.org/Supported_Versions': SUPPRESSED_BECAUSE_EOF,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_FORBIDDEN,
-    'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_BAD_GATEWAY,
+    'https://github.com/angular/angular.js/blob/v1.6.10/CHANGELOG.md': SUPPRESSED_BECAUSE_BAD_GATEWAY,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_BAD_GATEWAY,
+    'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_BAD_GATEWAY,
     'https://make.wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_FORBIDDEN,
-    'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://wiki.debian.org': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -61,6 +66,7 @@ module EndOfLifeHooks
     'https://www.intel.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_FORBIDDEN,
     'https://xenserver.org/': SUPPRESSED_BECAUSE_CERT,
   }

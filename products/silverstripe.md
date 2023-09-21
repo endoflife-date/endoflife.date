@@ -28,15 +28,15 @@ releases:
 -   releaseCycle: "5.0"
     support: true
     eol: false
-    latest: "5.0.4"
-    latestReleaseDate: 2023-08-26
+    latest: "5.0.6"
+    latestReleaseDate: 2023-09-18
     releaseDate: 2023-05-04
 
 -   releaseCycle: "4.13"
     support: 2024-04-01
     eol: 2025-04-01
-    latest: "4.13.6"
-    latestReleaseDate: 2023-05-31
+    latest: "4.13.7"
+    latestReleaseDate: 2023-09-07
     releaseDate: 2023-04-26
 
 -   releaseCycle: "4.12"

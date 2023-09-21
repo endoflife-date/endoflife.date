@@ -16,10 +16,17 @@ auto:
 -   git: https://github.com/neo4j/neo4j.git
 
 # eol(x) = releaseDate(x+1)
+# See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.
 releases:
+-   releaseCycle: "5.12"
+    releaseDate: 2023-09-14
+    eol: false
+    latest: "5.12.0"
+    latestReleaseDate: 2023-09-14
+
 -   releaseCycle: "5.11"
     releaseDate: 2023-08-15
-    eol: false
+    eol: 2023-09-14
     latest: "5.11.0"
     latestReleaseDate: 2023-08-15
 

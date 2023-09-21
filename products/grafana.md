@@ -22,29 +22,29 @@ releases:
     releaseDate: 2023-08-23
     support: true
     eol: false
-    latest: "10.1.0"
-    latestReleaseDate: 2023-08-23
+    latest: "10.1.2"
+    latestReleaseDate: 2023-09-18
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
     support: 2023-08-23
     eol: false
-    latest: "10.0.4"
-    latestReleaseDate: 2023-08-23
+    latest: "10.0.6"
+    latestReleaseDate: 2023-09-18
 
 -   releaseCycle: "9.5"
     releaseDate: 2023-04-06
     support: 2023-06-09
     eol: false # eol(x) = releaseDate(11.x)
-    latest: "9.5.8"
-    latestReleaseDate: 2023-08-17
+    latest: "9.5.10"
+    latestReleaseDate: 2023-09-18
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27
     support: 2023-04-06
     eol: 2023-06-09
-    latest: "9.4.13"
-    latestReleaseDate: 2023-06-07
+    latest: "9.4.15"
+    latestReleaseDate: 2023-09-18
 
 -   releaseCycle: "9.3"
     releaseDate: 2022-11-29

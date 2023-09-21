@@ -24,24 +24,24 @@ releases:
 -   releaseCycle: "13"
     codename: "Ventura"
     eol: false
-    link: https://support.apple.com/HT213268
+    link: https://support.apple.com/HT213906
     releaseDate: 2022-10-24
-    latestReleaseDate: 2023-08-17
-    latest: '13.5.1'
+    latestReleaseDate: 2023-09-07
+    latest: '13.5.2'
 -   releaseCycle: "12"
     codename: "Monterey"
     eol: false
     link: https://support.apple.com/HT212585
     releaseDate: 2021-10-25
-    latestReleaseDate: 2023-07-24
-    latest: '12.6.8'
+    latestReleaseDate: 2023-09-11
+    latest: '12.6.9'
 -   releaseCycle: "11"
     codename: "Big Sur"
     eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
-    latestReleaseDate: 2023-07-24
-    latest: '11.7.9'
+    latestReleaseDate: 2023-09-11
+    latest: '11.7.10'
 -   releaseCycle: "10.15"
     codename: "Catalina"
     eol: 2022-09-12

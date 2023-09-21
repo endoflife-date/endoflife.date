@@ -126,6 +126,8 @@ eolColumn: Security Support
 
 # Threshold at which the background color of the cycle's "eol" cell changes to indicate
 # that the EOL date is approaching (optional, default = 121 days).
+# If a fixed EOL calculation is taken the rule of thumb one third of the time can be applied.
+# e.g. eol = releaseDate + 6w -> 2w eolWarnThreshold: 14
 eolWarnThreshold: 121
 
 # Whether the "Active Support" column should be displayed (optional, default = false).
@@ -134,6 +136,8 @@ activeSupportColumn: Active Support
 
 # Threshold at which the background color of the cycle's "activeSupport" cell changes to indicate
 # that the end of active support date is approaching (optional, default = 121 days).
+# If a fixed support calculation is taken the rule of thumb one third of the time can be applied.
+# e.g. activeSupport = releaseDate + 3w -> 1w activeSupportWarnThreshold: 7
 activeSupportWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
@@ -347,6 +351,27 @@ For the product text, please make sure you read the [Guiding Principles](https:/
 You can visit <https://github.com/endoflife-date/endoflife.date/new/master/products> to directly create your file.
 
 ## ✅ Validating your changes
+
+If you're using an IDE like `vscode` or `vim` (or any other IDE that support jsonschema validation),
+you can use [this jsonschema](./product-schema.json) to validate the new product.
+
+For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./product-schema.json) file on it:
+
+```json
+  "files.associations": {
+    "**/products/*.md": "yaml"
+  },
+  "yaml.schemas": {
+    "../product-schema.json": "products/*.md"
+  }
+```
+
+In `vim` you also could use the [yaml-language-server](https://github.com/redhat-developer/yaml-language-server) and just add the following snippet at the top of the product file:
+
+```yaml
+# vim: set ft=yaml :
+# yaml-language-server: $schema=../product-schema.json
+```
 
 Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks is failed, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
 

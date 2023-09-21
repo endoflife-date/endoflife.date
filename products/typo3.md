@@ -28,8 +28,8 @@ releases:
     support: 2024-10-31
     extendedSupport: 2029-04-30
     releaseDate: 2022-10-04
-    latestReleaseDate: 2023-08-08
-    latest: '12.4.5'
+    latestReleaseDate: 2023-09-12
+    latest: '12.4.6'
 
 -   releaseCycle: "11"
     eol: 2024-10-31
@@ -37,8 +37,8 @@ releases:
     support: 2023-03-31
     extendedSupport: 2027-10-31
     releaseDate: 2020-12-22
-    latest: "11.5.30"
-    latestReleaseDate: 2023-07-25
+    latest: "11.5.31"
+    latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "10"
     eol: 2023-04-30

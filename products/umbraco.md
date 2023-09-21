@@ -32,23 +32,23 @@ releases:
     releaseDate: 2023-06-27
     support: 2024-03-29
     eol: 2024-06-29
-    latest: '12.1.1'
-    latestReleaseDate: 2023-08-14
+    latest: '12.1.2'
+    latestReleaseDate: 2023-08-28
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
     support: 2023-08-29
     eol: 2023-11-29
-    latest: '11.4.2'
-    latestReleaseDate: 2023-07-13
+    latest: '11.5.0'
+    latestReleaseDate: 2023-09-05
 
 -   releaseCycle: "10"
     lts: true
     releaseDate: 2022-06-10
     support: 2024-06-10
     eol: 2025-06-10
-    latest: '10.6.1'
-    latestReleaseDate: 2023-07-13
+    latest: '10.7.0'
+    latestReleaseDate: 2023-09-05
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-26
@@ -63,8 +63,8 @@ releases:
     releaseDate: 2019-02-21
     support: 2024-02-24
     eol: 2025-02-24
-    latest: '8.18.8'
-    latestReleaseDate: 2023-05-03
+    latest: '8.18.9'
+    latestReleaseDate: 2023-08-28
 
 # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-7-end-of-life-eol/
 -   releaseCycle: "7"
@@ -72,8 +72,8 @@ releases:
     releaseDate: 2013-11-21
     support: 2021-07-01
     eol: 2023-09-30
-    latest: '7.15.10'
-    latestReleaseDate: 2022-10-13
+    latest: '7.15.11'
+    latestReleaseDate: 2023-09-05
 
 -   releaseCycle: "6"
     # https://umbraco.com/blog/umbraco-600-released/

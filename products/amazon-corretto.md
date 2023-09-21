@@ -28,6 +28,8 @@ auto:
     regex: '^(?P<version>[\d\.]+)$'
 -   github_releases: "corretto/corretto-20"
     regex: '^(?P<version>[\d\.]+)$'
+-   github_releases: "corretto/corretto-21"
+    regex: '^(?P<version>[\d\.]+)$'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://aws.amazon.com/corretto/faqs/.

@@ -11,6 +11,7 @@ versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
 activeSupportColumn: true
 releaseDateColumn: true
+extendedSupportColumn: Commercial Support
 
 auto:
 -   npm: vue
@@ -29,6 +30,7 @@ releases:
     latest: "3.3.4"
     lts: false
     latestReleaseDate: 2023-05-18
+    extendedSupport: false
     releaseDate: 2020-09-18
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
@@ -38,6 +40,7 @@ releases:
     latest: "2.7.14"
     lts: false
     latestReleaseDate: 2022-11-09
+    extendedSupport: true
     releaseDate: 2016-09-30
     link: https://github.com/vuejs/vue/blob/main/CHANGELOG.md
 
@@ -47,6 +50,7 @@ releases:
     latest: "1.0.28"
     lts: false
     latestReleaseDate: 2016-09-27
+    extendedSupport: false
     releaseDate: 2015-10-27
     link: https://github.com/vuejs/vue/releases/tag/v__LATEST__
 
@@ -65,4 +69,7 @@ phases.
 Every time a new major is released, the last minor in the previous major automatically becomes LTS
 for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode
 (security patches only) for another 18 months before entering end of life. "2.7" is the planned LTS
-release for the v2 cycle.
+release for the v2 cycle with an [announced 2.x end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
+
+Commercial support for Vue 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-vue) initiative. For more information, see NES Vue [2.6](https://docs.herodevs.com/docs/vue2/2.6) and
+[2.7](https://docs.herodevs.com/docs/vue2/2.7) docs.

@@ -24,14 +24,14 @@ auto:
 releases:
 -   releaseCycle: "8"
     eol: 2024-08-10 # later of 2024-08-10 or 6 months after the release date of 9.0
-    latest: "8.9.1"
-    latestReleaseDate: 2023-08-17
+    latest: "8.10.1"
+    latestReleaseDate: 2023-09-18
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.12"
-    latestReleaseDate: 2023-07-25
+    latest: "7.17.13"
+    latestReleaseDate: 2023-09-06
     releaseDate: 2019-04-05
 
 -   releaseCycle: "6"
