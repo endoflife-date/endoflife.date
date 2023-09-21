@@ -16,6 +16,12 @@ auto:
 # EOL dates are either false, if no information could be found, or the date found in
 # https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.
 releases:
+-   releaseCycle: "4.2"
+    releaseDate: 2023-09-21
+    eol: false
+    latest: "4.1.8"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "4.1"
     releaseDate: 2023-02-10
     eol: false
@@ -24,13 +30,13 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-11-14
-    eol: false
+    eol: 2023-10-31
     latest: "4.0.10"
     latestReleaseDate: 2023-09-19
 
 -   releaseCycle: "3.5"
     releaseDate: 2022-03-30
-    eol: false
+    eol: 2023-12-31
     latest: "3.5.14"
     latestReleaseDate: 2023-09-19
 
