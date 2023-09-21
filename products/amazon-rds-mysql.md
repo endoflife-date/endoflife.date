@@ -2,9 +2,9 @@
 title: Amazon RDS for MySQL
 category: service
 tags: amazon managed-mysql
-iconSlug: amazonaws
+iconSlug: amazonrds
 permalink: /amazon-rds-mysql
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
 
