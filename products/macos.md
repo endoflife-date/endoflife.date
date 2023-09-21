@@ -21,6 +21,13 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "14"
+    codename: "Sonoma"
+    eol: false
+    link: https://support.apple.com/
+    releaseDate: 2023-09-26
+    latestReleaseDate: 2023-09-26
+    latest: '14.0.0'
 -   releaseCycle: "13"
     codename: "Ventura"
     eol: false
