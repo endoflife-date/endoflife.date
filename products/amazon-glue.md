@@ -29,6 +29,23 @@ releases:
     pythonVersion: "3.7"
     sparkVersion: "2.4"
 
+-   releaseCycle: "1.0 (Python 3)"
+    releaseDate: 2019-07-25
+    eol: 2022-09-30
+    pythonVersion: "3.6"
+    sparkVersion: "2.4"
+
+-   releaseCycle: "1.0 (Python 2)"
+    releaseDate: 2019-07-25
+    eol: 2022-06-01
+    pythonVersion: "2.7"
+    sparkVersion: "2.4"
+
+-   releaseCycle: "0.9"
+    releaseDate: 2019-07-25
+    eol: 2022-06-01
+    pythonVersion: "2.7"
+    sparkVersion: "2.2"
 ---
 
 > [Amazon Glue](https://aws.amazon.com/glue/) is a serverless data integration service that makes
