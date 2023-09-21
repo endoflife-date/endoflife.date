@@ -13,6 +13,7 @@ releaseColumn: true
 
 releases:
 -   releaseCycle: "2022.3"
+    lts: true
     releaseDate: 2023-05-30
     eol: false
     latest: "2022.3.10f1"
