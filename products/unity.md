@@ -21,7 +21,7 @@ releases:
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07
-    eol: true
+    eol: 2023-06-12
     latest: "2022.2.21f1"
     latestReleaseDate: 2023-05-24
 
