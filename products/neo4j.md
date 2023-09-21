@@ -133,7 +133,7 @@ releases:
 
 ---
 
-> [Neo4j](https://neo4j.com/) is a high-performance graph database with with a friendly query
+> [Neo4j](https://neo4j.com/) is a high-performance graph database with a friendly query
 > language and ACID transactions.
 
 Neo4j has separate policies for different versions.
