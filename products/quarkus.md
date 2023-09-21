@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-08-23
-    eol: false
+    eol: 2023-09-20
     extendedSupport: false
     latest: "3.3.3"
     latestReleaseDate: 2023-09-14
