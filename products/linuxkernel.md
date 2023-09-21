@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
-    eol: false
+    eol: 2023-09-13
     latest: "6.4.16"
     latestReleaseDate: 2023-09-13
 
