@@ -28,7 +28,7 @@ auto:
 # - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
 -   releaseCycle: "3.4"
-    releaseDate: 2023-09-21
+    releaseDate: 2023-09-20
     eol: false
     extendedSupport: false
     latest: "3.4.1"
