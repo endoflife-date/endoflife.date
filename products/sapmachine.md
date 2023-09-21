@@ -16,6 +16,7 @@ auto:
 # non-LTS : EOL(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
 -   releaseCycle: "21"
+    lts: true
     releaseDate: 2023-09-19
     eol: false
     latest: '21'
