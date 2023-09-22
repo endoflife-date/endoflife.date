@@ -95,8 +95,8 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-01
-    latest: "5.10.195"
-    latestReleaseDate: 2023-09-19
+    latest: "5.10.196"
+    latestReleaseDate: 2023-09-21
 
 -   releaseCycle: "5.4"
     lts: true
