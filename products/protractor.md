@@ -32,7 +32,7 @@ releases:
     eol: true
     extendedSupport: false
     latest: "6.0.0"
-    latestReleaseDate: 2190-03-23
+    latestReleaseDate: 2019-03-23
     releaseDate: 2019-03-23
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#600
 
