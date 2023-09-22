@@ -23,6 +23,13 @@ auto:
 # Support of R = releaseDate(R+1)
 # This is quite predictable since releases are monthly (usually 22nd of every month).
 releases:
+-   releaseCycle: "16.4"
+    releaseDate: 2023-09-22
+    support: 2023-10-22
+    eol: 2023-12-22
+    latest: "16.4.0"
+    latestReleaseDate: 2023-09-22
+    
 -   releaseCycle: "16.3"
     releaseDate: 2023-08-21
     support: 2023-09-22
