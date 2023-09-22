@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "9.10"
     releaseDate: 2023-06-11
     eol: 2025-07-11
-    latest: "9.10.1"
-    latestReleaseDate: 2023-08-03
+    latest: "9.10.2"
+    latestReleaseDate: 2023-09-20
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-10-x-release-notes-1255446432.html
 
 -   releaseCycle: "9.9"
