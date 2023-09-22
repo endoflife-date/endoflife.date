@@ -16,7 +16,7 @@ activeSupportColumn: true
 # https://rubular.com/r/yAjCDkpr90mU0w
 auto:
 -   git: https://github.com/openwrt/openwrt.git
-    regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
+    regex: ^v(?<major>\d+\.\d+)\.(?<minor>\d+)$
 
 # EOL(R)=MAX(releaseDate(R+1)+6m, releaseDate(R)+1y)
 # Support(R) = releaseDate(R+1)
