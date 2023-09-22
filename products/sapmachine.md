@@ -17,10 +17,10 @@ auto:
 releases:
 -   releaseCycle: "21"
     lts: true
-    releaseDate: 2023-09-19
+    releaseDate: 2023-09-18
     eol: false
     latest: '21'
-    latestReleaseDate: 2023-09-19
+    latestReleaseDate: 2023-09-18
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-17

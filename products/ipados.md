@@ -18,8 +18,8 @@ releases:
     releaseDate: 2023-09-18
     support: true
     eol: false
-    latestReleaseDate: 2023-09-18
-    latest: '17.0'
+    latestReleaseDate: 2023-09-21
+    latest: '17.0.1'
     link: 
       https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
@@ -27,8 +27,8 @@ releases:
     releaseDate: 2022-10-24
     support: 2023-09-18
     eol: false
-    latestReleaseDate: 2023-09-07
-    latest: '16.6.1'
+    latestReleaseDate: 2023-09-21
+    latest: '16.7'
     link: 
       https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes
 
