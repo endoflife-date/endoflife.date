@@ -16,10 +16,8 @@ identifiers:
 -   repology: typo3
 -   purl: pkg:composer/typo3/cms
 
-# https://rubular.com/r/3pouRtwM0s9Usv
 auto:
--   git: https://github.com/TYPO3/typo3.git
-    regex: '^(v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?)|(TYPO3_(?<major>\d)-(?<minor>\d)-((?<patch>\d+)(FINAL)?))$'
+-   custom: true
 
 releases:
 -   releaseCycle: "12"
