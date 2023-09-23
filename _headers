@@ -57,7 +57,7 @@ layout: null
     Link: /api{{page.permalink}}.json; rel=alternate;type=application/json
     Link: /calendar{{page.permalink}}.ics; rel=alternate;type=text/calendar
   {% elsif page.permalink == '/docs/api' %}
-    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/
+    Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self' https://unpkg.com/@stoplight/elements/web-components.min.js; style-src 'self' https://unpkg.com/@stoplight/elements/ 'unsafe-inline'
   {% else %}
     Content-Security-Policy: default-src 'none'; manifest-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self'; img-src {{ defaultCspImgSrc }}
   {% endif %}
