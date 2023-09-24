@@ -5,7 +5,7 @@ tags: palo-alto-networks
 permalink: /panos
 versionCommand: show system info | match sw-version
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-
+iconSlug: paloaltonetworks
 activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
