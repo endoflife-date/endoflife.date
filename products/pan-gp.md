@@ -4,7 +4,7 @@ category: app
 tags: palo-alto-networks
 permalink: /pangp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-
+iconSlug: paloaltonetworks
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
