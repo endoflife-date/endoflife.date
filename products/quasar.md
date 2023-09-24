@@ -29,7 +29,6 @@ releases:
     support: 2021-04-01
     eol: 2023-06-30
     latest: "1.22.10"
-    lts: false
     latestReleaseDate: 2023-08-09
     releaseDate: 2019-03-07
 
