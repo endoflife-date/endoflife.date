@@ -67,7 +67,7 @@ releases:
     releaseDate: 2013-08-20
     support: false    
     eol: true
-    link: "http://www.veeam.com/kb1891"
+    link: "https://www.veeam.com/kb1891"
 
 -   releaseCycle: "6.5 GA"
     releaseDate: 2012-10-09
