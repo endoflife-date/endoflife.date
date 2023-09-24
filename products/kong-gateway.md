@@ -6,10 +6,10 @@ permalink: /kong-gateway
 alternate_urls:
 -   /kong
 -   /kong-api-gateway
-releasePolicyLink: https://docs.konghq.com/gateway/latest/support-policy/
-changelogTemplate: https://docs.konghq.com/gateway/changelog/#{{'__LATEST__'|replace:'.',''}}0
+changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
 releaseDateColumn: true
 eolColumn: Support
+extendedSupportColumn: Enterprise Support
 
 auto:
 -   git: https://github.com/Kong/kong.git
@@ -17,44 +17,60 @@ auto:
 identifiers:
 -   purl: pkg:github/Kong/kong
 
+# Policy is not clear, maybe a more precise answer will be available someday on
+# https://discuss.konghq.com/t/question-about-the-support-policy-on-kong-community/11891.
+#
+# For now, for non-LTS releases:
+# - eol(x) = MAX(latestReleaseDate, releaseDate(X+1))
+# - extendedSupport(x) = releaseDate(x) + 1 year
+#
+# For now, for LTS releases:
+# - eol(x) = true / false (the rule is still unclear)
+# - extendedSupport(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "3.4"
     lts: true
     releaseDate: 2023-08-09
     eol: 2026-08-09
+    extendedSupport: 2026-08-09
     latest: "3.4.0"
     latestReleaseDate: 2023-08-09
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-05-18
-    eol: 2024-05-18
+    eol: 2023-08-09
+    extendedSupport: 2024-05-18
     latest: "3.3.1"
     latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-02-20
-    eol: 2024-02-20
+    eol: 2023-05-18
+    extendedSupport: 2024-02-20
     latest: "3.2.2"
     latestReleaseDate: 2023-03-16
 
 -   releaseCycle: "3.1"
     releaseDate: 2022-06-12
-    eol: 2023-06-12
+    eol: 2023-02-20
+    extendedSupport: 2023-06-12
     latest: "3.1.1"
     latestReleaseDate: 2022-12-09
 
 -   releaseCycle: "3.0"
     releaseDate: 2022-09-12
-    eol: 2023-09-12
+    eol: 2022-12-09
+    extendedSupport: 2023-09-12
     latest: "3.0.2"
     latestReleaseDate: 2022-12-09
 
 -   releaseCycle: "2.8"
     lts: true
     releaseDate: 2022-03-01
-    eol: 2025-03-01
-    latest: "2.8.3"
-    latestReleaseDate: 2022-11-03
+    eol: false
+    extendedSupport: 2025-03-01
+    latest: "2.8.4"
+    latestReleaseDate: 2023-09-22
 
 ---
 
@@ -64,10 +80,16 @@ releases:
 > proxying, routing, load balancing, health checking, authentication (and more), Kong Gateway
 > serves as the central layer for orchestrating microservices or conventional API traffic.
 
-Kong Gateway follows [Semantic Versioning](https://semver.org/). Minor versions are released
-every 10 weeks and supported for 1 year with bug and security fixes. Some minor versions are
-designated LTS and supported for 3 years.
+{: .warning }
+This page is about the Community Edition of Kong Gateway, which serves as the foundation
+of the Enterprise Edition.
 
-Kong Gateway versions follow a pattern of `{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`.
-For enterprise users Kong releases patches based on the Kong Community (see the Patches
-section in the Release Policy Link)
+Kong Gateway follows [Semantic Versioning](https://semver.org/).
+The Community Edition does not have a clearly defined release policy but, looking at the
+recent history, minor versions are released every 10 weeks and supported until the next minor
+release. Some minor versions are also designated LTS and supported much longer.
+
+Extended support by Kong Inc. is also available with [Kong Gateway Enterprise Edition](https://docs.konghq.com/gateway/latest/support-policy/).
+With this edition there is 1 year of support for minor versions and 3 years for LTS versions.
+This edition also follows a [different versioning scheme](https://docs.konghq.com/gateway/latest/support-policy/#semantic-versioning)
+with a fourth number called _Enterprise Patch Version_ (`{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`).
