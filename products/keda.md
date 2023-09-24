@@ -3,7 +3,7 @@ title: KEDA
 category: server-app
 tags: cncf
 permalink: /keda
-releasePolicyLink: https://keda.sh/docs/latest/operate/cluster/
+releasePolicyLink: https://github.com/kedacore/keda?tab=security-ov-file#readme
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
 releaseDateColumn: true
@@ -17,38 +17,39 @@ identifiers:
   - purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
   - purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
+# See https://github.com/kedacore/keda?tab=security-ov-file#readme.
 releases:
 -   releaseCycle: "2.11"
     releaseDate: 2023-06-22
-    eol: false
+    eol: false # releaseDate(2.13)
     supportedKubernetesVersions: 1.25 - 1.27
     latest: "2.11.2"
     latestReleaseDate: 2023-07-27
 
 -   releaseCycle: "2.10"
     releaseDate: 2023-03-09
-    eol: false
+    eol: false # releaseDate(2.12)
     supportedKubernetesVersions: 1.24 - 1.26
     latest: "2.10.1"
     latestReleaseDate: 2023-04-13
 
 -   releaseCycle: "2.9"
     releaseDate: 2022-12-09
-    eol: false
+    eol: 2023-06-22
     supportedKubernetesVersions: 1.23 - 1.25
     latest: "2.9.3"
     latestReleaseDate: 2023-01-31
 
 -   releaseCycle: "2.8"
     releaseDate: 2022-08-10
-    eol: 2023-01-19
+    eol: 2023-03-09
     supportedKubernetesVersions: 1.17 - 1.25
     latest: "2.8.2"
     latestReleaseDate: 2023-01-19
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-05-05
-    eol: 2022-08-10
+    eol: 2022-12-09
     supportedKubernetesVersions: 1.17 - 1.25
     latest: "2.7.1"
     latestReleaseDate: 2022-05-10
@@ -59,9 +60,9 @@ releases:
 > the scaling of any container in Kubernetes based on the number of events needing to be processed.
 
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
-A new minor version is released approximately once a quarter on Thursdays.
-
-KEDA does not have a clearly defined support policy, but looking at the recent history it seems only the latest release is supported.
+A new minor version is released every three months. KEDA commits to supporting the last two minor
+versions of the current major release, as well as the last minor version of the previous major
+release.
 
 ## [Supported Kubernetes Versions](https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility)
 
