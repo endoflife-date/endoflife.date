@@ -16,6 +16,12 @@ supportColumn: false
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
 # Usually only two path versions are released during the support period.
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2023-09-19
+    eol: 2024-03-19
+    latest: "21"
+    latestReleaseDate: 2023-09-19
+
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
     eol: 2023-09-19
