@@ -85,7 +85,7 @@ releases:
     releaseDate: 2011-08-22
     support: false
     eol: true
-    link: "http://www.veeam.com/kb1442"
+    link: "https://www.veeam.com/kb1442"
 
 -   releaseCycle: "5.0 RTM"
     releaseDate: 2010-08-30
