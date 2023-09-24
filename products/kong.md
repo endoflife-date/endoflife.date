@@ -1,8 +1,11 @@
 ---
-title: Kong
+title: Kong Gateway
 category: server-app
 tags: api-gateway
-permalink: /kong
+permalink: /kong-gateway
+alternate_urls:
+-   /kong
+-   /kong-api-gateway
 releasePolicyLink: https://docs.konghq.com/gateway/latest/support-policy/
 changelogTemplate: https://docs.konghq.com/gateway/changelog/#{{'__LATEST__'|replace:'.',''}}0
 releaseDateColumn: true
@@ -55,15 +58,16 @@ releases:
 
 ---
 
-> Kong or Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished
-> for its high performance and extensibility via plugins. By providing functionality for proxying,
-> routing, load balancing, health checking, authentication (and more), Kong serves as the central
-> layer for orchestrating microservices or conventional API traffic.
+> [Kong Gateway](https://konghq.com/products/kong-gateway) (also referred as _Kong_ or
+> _Kong API Gateway_) is a cloud-native, platform-agnostic, scalable API Gateway distinguished
+> for its high performance and extensibility via plugins. By providing functionality for
+> proxying, routing, load balancing, health checking, authentication (and more), Kong Gateway
+> serves as the central layer for orchestrating microservices or conventional API traffic.
 
-Kong follows [Semantic Versioning](https://semver.org/). Minor versions are released every 10 weeks
-and supported for 1 year with bug and security fixes. Some minor versions are designated LTS and
-supported for 3 years.
+Kong Gateway follows [Semantic Versioning](https://semver.org/). Minor versions are released
+every 10 weeks and supported for 1 year with bug and security fixes. Some minor versions are
+designated LTS and supported for 3 years.
 
-Kong versions follow a pattern of `{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`. For enterprise
-users Kong releases patches based on the Kong Community (see the Patches section in the Release
-Policy Link)
+Kong Gateway versions follow a pattern of `{MAJOR}.{MINOR}.{PATCH}.{ENTERPRISE_PATCH}`.
+For enterprise users Kong releases patches based on the Kong Community (see the Patches
+section in the Release Policy Link)
