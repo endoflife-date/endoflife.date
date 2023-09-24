@@ -17,6 +17,7 @@ auto:
 identifiers:
 -   purl: pkg:npm/quasar
 
+# Support and EOL dates can be found on https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule.
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-06-21
