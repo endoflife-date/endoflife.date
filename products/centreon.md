@@ -27,7 +27,7 @@ releases:
     eol: 2025-04-01
     latest: "23.04"
     latestReleaseDate: 2023-04-01 
-    link: https://www.centreon.com/centreon-23-04-discover-the-latest-release/
+    link: https://docs.centreon.com/23.04/en/releases/introduction.html
 
 -   releaseCycle: "22"
     releaseDate: 2022-05-01
@@ -35,7 +35,7 @@ releases:
     eol: 2024-10
     latest: "22.10"
     latestReleaseDate: 2022-10
-    link: https://www.centreon.com/centreon-fall22-whats-new-in-the-22-10-software-version/
+    link: https://docs.centreon.com/22.10/en/releases/introduction.html
 
 -   releaseCycle: "21"
     releaseDate: 2021-04-01
@@ -43,7 +43,7 @@ releases:
     eol: 2023-11
     latest: "21.10"
     latestReleaseDate: 2021-11
-    link: https://docs.centreon.com/docs/21.10/releases/introduction/
+    link: https://docs.centreon.com/21.10/en/releases/introduction.html
 
 -   releaseCycle: "20"
     releaseDate: 2020-04-01
@@ -51,7 +51,7 @@ releases:
     eol: 2022-05
     latest: "20.10"
     latestReleaseDate: 2020-10
-    link: https://www.centreon.com/new-software-release-centreon-20-10/
+    link: https://docs.centreon.com/20.10/en/releases/introduction.html
 
 -   releaseCycle: "19"
     releaseDate: 2019-04
@@ -59,7 +59,7 @@ releases:
     eol: 2021-04
     latest: "19.10"
     latestReleaseDate: 2019-10
-    link: https://docs-older.centreon.com/docs/centreon/en/19.10/release_notes/
+    link: https://documentation.centreon.com/docs/centreon/en/19.10/release_notes/centreon-19.10/index.html
 
 -   releaseCycle: "18"
     releaseDate: 2018-10-01
@@ -67,7 +67,7 @@ releases:
     eol: 2020-04-01
     latest: "18.10"
     latestReleaseDate: 2018-10
-    link: https://docs-older.centreon.com/docs/centreon/en/18.10/release_notes/
+    link: https://documentation.centreon.com/docs/centreon/en/18.10/release_notes/centreon-18.10/index.html
 
 
 ---
