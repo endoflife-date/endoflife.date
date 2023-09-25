@@ -75,12 +75,8 @@ releases:
 > [Centreon](https://docs.centreon.com/docs/getting-started/welcome/) is atool to monitor IT infrastructure
 > such as networks, servers, virtual machines, and cloud services.
 
-According to its [Products lifecycle policy](https://docs.centreon.com/docs/releases/lifecycle/), 
-Centreon has been publishing new releases of the Centreon solution at regular intervals
-since version 18.10, enabling the community, businesses and developers to plan their
-roadmaps with the guarantee of upstream visibility on the latest open source capabilities.
-
-
-Releases of Centreon are named according to the year and period of delivery: XX.04 for the spring release, and XX.10 for the fall release. For example, Centreon 21.04 was released in spring 2021. All modules and components of the Centreon software suite use the same version numbers
-
-Centreon delivers two releases per year. The first will occur in the spring and will be major (including new products or features as well as larger architecture changes), while the second will be in the fall and will be minor (including primarily enhancements and fixes to existing features). Between these two, Centreon will regularly deliver minor updates (versioned YY.MM.NN), including security/vulnerability fixes, bug fixes and enhancements to the software.
+Centreon delivers two releases per year. The first will occur in the spring and will be major (including
+new products or features as well as larger architecture changes), while the second will be in the fall
+and will be minor (including primarily enhancements and fixes to existing features).
+Since 21.10 all releases are supported for 2 years: 1 year with bug and security fixes,
+and the next year with only critical bug and security fixes.
