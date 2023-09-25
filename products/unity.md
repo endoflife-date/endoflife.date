@@ -4,8 +4,9 @@ category: app
 iconSlug: unity
 permalink: /unity
 alternate_urls:
-  -   /unity3d
-releaseImage: https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
+-   /unity3d
+releaseImage: 
+  https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 releaseDateColumn: true
@@ -36,7 +37,7 @@ releases:
 
 -   releaseCycle: "2021"
     lts: true
-    releaseDate: 2021-03-22
+    releaseDate: 2022-04-11
     eol: 2024-04-19
     latest: "2021.3.30f1"
     latestReleaseDate: 2023-08-29
@@ -61,10 +62,10 @@ releases:
 
 -   releaseCycle: "2020"
     lts: true
-    releaseDate: 2020-06-20
+    releaseDate: 2020-07-20
     eol: 2023-05-05
     latest: "2020.3.48f1"
-    latestReleaseDate: 2023-04-17
+    latestReleaseDate: 2023-05-17
 
 -   releaseCycle: "2019"
     lts: true
