@@ -1,15 +1,14 @@
 ---
 title: Protractor
 category: framework
-tags: google javascript-runtime test
+tags: google javascript-runtime
 iconSlug: protractor
 permalink: /protractor
 versionCommand: npm list protractor
 
 releaseDateColumn: true
-activeSupportColumn: Community Support
 extendedSupportColumn: Commercial Support
-eolColumn: false
+eolColumn: Community Support
 
 auto:
 -   npm: protractor
@@ -20,7 +19,7 @@ identifiers:
 releases:
 -   releaseCycle: "7.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: true
     latest: "7.0.0"
     latestReleaseDate: 2020-05-13
@@ -29,7 +28,7 @@ releases:
 
 -   releaseCycle: "6.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "6.0.0"
     latestReleaseDate: 2019-03-23
@@ -38,7 +37,7 @@ releases:
 
 -   releaseCycle: "5.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "5.4.4"
     latestReleaseDate: 2020-04-16
@@ -47,7 +46,7 @@ releases:
 
 -   releaseCycle: "4.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "4.0.14"
     latestReleaseDate: 2016-12-20
@@ -56,7 +55,7 @@ releases:
 
 -   releaseCycle: "3.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "3.3.0"
     latestReleaseDate: 2016-04-25
@@ -65,7 +64,7 @@ releases:
 
 -   releaseCycle: "2.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "2.5.1"
     latestReleaseDate: 2015-10-08
@@ -74,21 +73,13 @@ releases:
 
 -   releaseCycle: "1.0"
     support: 2023-08-31
-    eol: true
+    eol: 2023-08-31
     extendedSupport: false
     latest: "1.8.0"
     latestReleaseDate: 2015-03-02
     releaseDate: 2014-07-21
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#180
 
--   releaseCycle: "0.1.0"
-    support: 2023-08-31
-    eol: true
-    extendedSupport: false
-    latest: "0.24.2"
-    latestReleaseDate: 2014-06-17
-    releaseDate: 2013-02-23
-    link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#0242
 ---
 
 > [Protractor](https://www.protractortest.org/#/) is an end-to-end test framework for Angular and AngularJS
