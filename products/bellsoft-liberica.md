@@ -47,6 +47,7 @@ auto:
 # Extended support dates can be found on https://bell-sw.com/roadmap/.
 releases:
 -   releaseCycle: "21"
+    lts: true
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     extendedSupport: 2032-03-31
