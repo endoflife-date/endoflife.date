@@ -12,7 +12,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of support
 
-# Release dates (RTM) can be found on https://www.veeam.com/kb2680.
+# Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
 releases:
 -   releaseCycle: "12"
