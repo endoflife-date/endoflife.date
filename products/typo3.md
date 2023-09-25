@@ -44,24 +44,24 @@ releases:
     support: 2021-10-31
     extendedSupport: 2026-04-30
     releaseDate: 2019-07-23
-    latest: "10.4.37"
-    latestReleaseDate: 2023-04-11
+    latest: "10.4.40"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "9"
     eol: 2021-09-30
     support: 2020-04-30
     extendedSupport: 2024-09-30
     releaseDate: 2017-12-12
-    latest: "9.5.40"
-    latestReleaseDate: 2023-02-07
+    latest: "9.5.43"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "8"
     eol: 2020-03-31
     support: 2018-09-30
     extendedSupport: 2024-03-31
     releaseDate: 2016-03-22
-    latest: "8.7.51"
-    latestReleaseDate: 2023-02-07
+    latest: "8.7.54"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "7"
     eol: 2018-12-01
