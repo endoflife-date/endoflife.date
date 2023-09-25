@@ -13,6 +13,18 @@ releaseDateColumn: true
 
 # All links can be found on https://support.apple.com/en-us/HT201296.
 releases:
+-   releaseCycle: "15"
+    releaseDate: 2022-09-12
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/iphone-15/specs/
+
+-   releaseCycle: "15 Plus"
+    releaseDate: 2022-09-12
+    discontinued: false
+    eol: false
+    link: https://www.apple.com/iphone-15/specs/
+
 -   releaseCycle: "14 Plus"
     releaseDate: 2022-10-07
     discontinued: false
