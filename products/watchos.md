@@ -17,9 +17,16 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2023-09-18
+    support: true
+    eol: false
+    latest: '10.0.1'
+    latestReleaseDate: 2023-09-21
+
 -   releaseCycle: "9"
     releaseDate: 2022-09-12
-    support: true
+    support: 2023-09-18
     eol: false
     latestReleaseDate: 2023-09-21
     latest: '9.6.3'
