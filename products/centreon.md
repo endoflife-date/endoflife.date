@@ -55,7 +55,7 @@ releases:
 
 -   releaseCycle: "19"
     releaseDate: 2019-04
-    support: falase
+    support: false
     eol: 2021-04
     latest: "19.10"
     latestReleaseDate: 2019-10
