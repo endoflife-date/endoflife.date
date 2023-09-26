@@ -14,27 +14,71 @@ eolColumn: Bug and Security Fixes
 auto:
 -   git: https://github.com/gradle/gradle.git
 
+# support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "8"
-    support: true
-    eol: false
+    releaseDate: 2023-02-10
+    support: true  # releaseDate(9)
+    eol: false # releaseDate(10)
     latest: "8.3.0"
     latestReleaseDate: 2023-08-16
-    releaseDate: 2023-02-10
 
 -   releaseCycle: "7"
-    support: false
-    eol: false
+    releaseDate: 2021-04-09
+    support: 2023-02-10
+    eol: false # releaseDate(9)
     latest: "7.6.2"
     latestReleaseDate: 2023-06-30
-    releaseDate: 2021-04-09
 
 -   releaseCycle: "6"
-    support: false
-    eol: false
+    releaseDate: 2019-11-08
+    support: 2021-04-09
+    eol: 2023-02-10
     latest: "6.9.4"
     latestReleaseDate: 2023-02-21
-    releaseDate: 2019-11-08
+
+-   releaseCycle: "5"
+    releaseDate: 2018-11-26
+    support: 2019-11-08
+    eol: 2019-11-08
+    latest: "5.6.4"
+    latestReleaseDate: 2019-11-01
+
+-   releaseCycle: "4"
+    releaseDate: 2017-06-14
+    support: 2018-11-26
+    eol: 2018-11-26
+    latest: "4.10.3"
+    latestReleaseDate: 2018-12-05
+
+-   releaseCycle: "3"
+    releaseDate: 2016-08-15
+    support: 2017-06-14
+    eol: 2017-06-14
+    latest: "3.5.1"
+    latestReleaseDate: 2017-06-16
+
+-   releaseCycle: "2"
+    releaseDate: 2014-07-01
+    support: 2016-08-15
+    eol: 2016-08-15
+    latest: "2.14.1"
+    latestReleaseDate: 2016-07-18
+
+-   releaseCycle: "1"
+    releaseDate: 2012-06-12
+    support: 2014-07-01
+    eol: 2014-07-01
+    latest: "1.12"
+    latestReleaseDate: 2014-04-29
+
+-   releaseCycle: "0"
+    releaseDate: 2009-07-20
+    support: 2012-06-12
+    eol: 2012-06-12
+    latest: "0.9.2"
+    latestReleaseDate: 2011-01-23
 
 ---
 
@@ -58,7 +102,7 @@ Gradle itself is tested with the following versions:
 | Gradle                                                          | Java | Kotlin        | Groovy       | Android                           |
 |-----------------------------------------------------------------|------|---------------|--------------|-----------------------------------|
 | [8](https://docs.gradle.org/8.0/userguide/compatibility.html)   | 8-19 | 1.6.10-1.8.10 | 1.5.8-4.0.0  | 7.3, 7.4, 8.0                     |
-| [7](https://docs.gradle.org/7.6/userguide/compatibility.html)   | 8-19 | 1.3.72-1.7.10 | 1.5.8-4.0.0  | 4.1, 4.2, 7.0, 7.1, 7.2, 7.3, 7.4 |
+| [7](https://docs.gradle.org/7.6.2/userguide/compatibility.html) | 8-19 | 1.3.72-1.7.10 | 1.5.8-4.0.0  | 4.1, 4.2, 7.0, 7.1, 7.2, 7.3, 7.4 |
 | [6](https://docs.gradle.org/6.9.3/userguide/compatibility.html) | 8-15 | 1.3.21-1.4.20 | 1.5.8-2.5.12 | 3.4, 3.5, 3.6, 4.0, 4.1, 4.2      |
 
 Java 6 and 7 can still be used for compilation and forked test execution.
