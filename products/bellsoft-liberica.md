@@ -46,6 +46,14 @@ auto:
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/roadmap/.
 releases:
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-09-20
+    eol: false # Temurin EOL date not yet announced
+    extendedSupport: 2032-03-31
+    latest: "21+37"
+    latestReleaseDate: 2023-09-20
+
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
     eol: 2023-09-19
