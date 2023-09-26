@@ -35,7 +35,7 @@ releases:
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#600
 
 -   releaseCycle: "5.0"
-    releaseDate: 2017-01-09
+    releaseDate: 2017-01-10
     support: 2023-08-31
     eol: 2023-08-31
     extendedSupport: false
@@ -44,16 +44,16 @@ releases:
     link: https://github.com/angular/protractor/blob/release-5.4/CHANGELOG.md#544
 
 -   releaseCycle: "4.0"
-    releaseDate: 2016-06-12
+    releaseDate: 2016-07-12
     support: 2023-08-31
     eol: 2023-08-31
     extendedSupport: false
     latest: "4.0.14"
-    latestReleaseDate: 2016-12-20
+    latestReleaseDate: 2016-12-21
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#4014
 
 -   releaseCycle: "3.0"
-    releaseDate: 2015-11-17
+    releaseDate: 2015-11-18
     support: 2023-08-31
     eol: 2023-08-31
     extendedSupport: false
