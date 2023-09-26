@@ -24,10 +24,10 @@ releases:
 -   releaseCycle: "14"
     codename: "Sonoma"
     eol: false
-    link: https://support.apple.com/
+    link: https://support.apple.com/HT213940
     releaseDate: 2023-09-26
     latestReleaseDate: 2023-09-26
-    latest: '14.0.0'
+    latest: '14.0'
 -   releaseCycle: "13"
     codename: "Ventura"
     eol: false
@@ -44,7 +44,7 @@ releases:
     latest: '12.6.9'
 -   releaseCycle: "11"
     codename: "Big Sur"
-    eol: false
+    eol: 2023-09-26
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
     latestReleaseDate: 2023-09-11
