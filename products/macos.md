@@ -44,7 +44,7 @@ releases:
     latest: '12.6.9'
 -   releaseCycle: "11"
     codename: "Big Sur"
-    eol: 2023-09-26
+    eol: false
     link: https://support.apple.com/HT211896
     releaseDate: 2020-11-12
     latestReleaseDate: 2023-09-11
