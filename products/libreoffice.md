@@ -13,14 +13,14 @@ releases:
 -   releaseCycle: "7.6"
     releaseDate: 2023-08-21
     eol: 2024-06-12
-    latest: "7.6.0"
-    latestReleaseDate: 2023-08-21
+    latest: "7.6.2"
+    latestReleaseDate: 2023-09-26
     
 -   releaseCycle: "7.5"
     releaseDate: 2023-02-02
     eol: 2023-11-30
-    latest: "7.5.5"
-    latestReleaseDate: 2023-07-20
+    latest: "7.5.7"
+    latestReleaseDate: 2023-09-26
 
 -   releaseCycle: "7.4"
     releaseDate: 2022-08-18
