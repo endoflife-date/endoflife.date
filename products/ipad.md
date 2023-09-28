@@ -4,7 +4,7 @@ category: device
 tags: apple tablet
 iconSlug: apple
 permalink: /ipad
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iOS,_iPadOS,_tvOS,_and_watchOS_devices#iPad_(lineup)
+releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#Supported
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
@@ -13,6 +13,7 @@ releaseColumn: false
 
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/en-us/HT201471.
+# All supported iPadOS versions can be found on https://iosref.com/ios#ipad.
 releases:
 -   releaseCycle: "10"
     releaseLabel: "iPad (10th generation)"
@@ -20,6 +21,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP884
+    supportedIpadOsVersions: 16, 17
 
 -   releaseCycle: "pro-6"
     releaseLabel: "iPad Pro (6th generation)"
@@ -27,6 +29,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP844
+    supportedIpadOsVersions: 16, 17
 
 -   releaseCycle: "air-5"
     releaseLabel: "iPad Air (5th generation)"
@@ -34,6 +37,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP866
+    supportedIpadOsVersions: 15, 16, 17
 
 -   releaseCycle: "9"
     releaseLabel: "iPad (9th generation)"
@@ -41,6 +45,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP849
+    supportedIpadOsVersions: 15, 16, 17
 
 -   releaseCycle: "mini-6"
     releaseLabel: "iPad Mini (6th generation)"
@@ -48,6 +53,7 @@ releases:
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP850
+    supportedIpadOsVersions: 15, 16, 17
 
 -   releaseCycle: "pro-5"
     releaseLabel: "iPad Pro (5th generation)"
@@ -55,6 +61,7 @@ releases:
     discontinued: 2022-10-18
     eol: false
     link: https://support.apple.com/kb/SP844
+    supportedIpadOsVersions: 14, 15, 16, 17
 
 -   releaseCycle: "8"
     releaseLabel: "iPad (8th generation)"
@@ -62,6 +69,7 @@ releases:
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP822
+    supportedIpadOsVersions: 14, 15, 16, 17
 
 -   releaseCycle: "air-4"
     releaseLabel: "iPad Air (4th generation)"
@@ -69,6 +77,7 @@ releases:
     discontinued: 2022-03-08
     eol: false
     link: https://support.apple.com/kb/SP828
+    supportedIpadOsVersions: 14, 15, 16, 17
 
 -   releaseCycle: "pro-4"
     releaseLabel: "iPad Pro (4th generation)"
@@ -76,6 +85,7 @@ releases:
     discontinued: 2021-04-20
     eol: false
     link: https://support.apple.com/kb/SP815
+    supportedIpadOsVersions: 13, 14, 15, 16, 17
 
 -   releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
@@ -83,6 +93,7 @@ releases:
     discontinued: 2020-09-15
     eol: false
     link: https://support.apple.com/kb/SP807
+    supportedIpadOsVersions: 13, 14, 15, 16, 17
 
 -   releaseCycle: "mini-5"
     releaseLabel: "iPad Mini (5th generation)"
@@ -90,6 +101,7 @@ releases:
     discontinued: 2021-09-14
     eol: false
     link: https://support.apple.com/kb/SP788
+    supportedIpadOsVersions: 12, 13, 14, 15, 16, 17
 
 -   releaseCycle: "air-3"
     releaseLabel: "iPad Air (3rd generation)"
@@ -97,6 +109,7 @@ releases:
     discontinued: 2021-09-15
     eol: false
     link: https://support.apple.com/kb/SP787
+    supportedIpadOsVersions: 12, 13, 14, 15, 16, 17
 
 -   releaseCycle: "pro-3"
     releaseLabel: "iPad Pro (3rd generation)"
@@ -104,6 +117,7 @@ releases:
     discontinued: 2020-03-18
     eol: false
     link: https://support.apple.com/kb/SP785
+    supportedIpadOsVersions: 12, 13, 14, 15, 16, 17
 
 -   releaseCycle: "6"
     releaseLabel: "iPad (6th generation)"
@@ -111,6 +125,7 @@ releases:
     discontinued: 2019-09-10
     eol: false
     link: https://support.apple.com/kb/SP774
+    supportedIpadOsVersions: 11, 12, 13, 14, 15, 16, 17
 
 -   releaseCycle: "pro-2"
     releaseLabel: "iPad Pro (2nd generation)"
@@ -118,6 +133,7 @@ releases:
     discontinued: 2018-10-30
     eol: false
     link: https://support.apple.com/kb/SP761
+    supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17
 
 -   releaseCycle: "5"
     releaseLabel: "iPad (5th generation)"
@@ -125,6 +141,7 @@ releases:
     discontinued: 2018-03-27
     eol: false
     link: https://support.apple.com/kb/SP751
+    supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16
 
 -   releaseCycle: "pro-1"
     releaseLabel: "iPad Pro (1st generation)"
@@ -132,6 +149,7 @@ releases:
     discontinued: 2017-06-05
     eol: false
     link: https://support.apple.com/kb/SP723
+    supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16
 
 -   releaseCycle: "mini-4"
     releaseLabel: "iPad Mini 4"
@@ -139,6 +157,7 @@ releases:
     discontinued: 2019-03-18
     eol: false
     link: https://support.apple.com/kb/SP725
+    supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15
 
 -   releaseCycle: "mini-3"
     releaseLabel: "iPad Mini 3"
@@ -146,6 +165,7 @@ releases:
     discontinued: 2015-09-09
     eol: false
     link: https://support.apple.com/kb/SP709
+    supportedIpadOsVersions: 8, 9, 10, 11, 12
 
 -   releaseCycle: "air-2"
     releaseLabel: "iPad Air 2"
@@ -153,6 +173,7 @@ releases:
     discontinued: 2017-03-21
     eol: false
     link: https://support.apple.com/kb/SP708
+    supportedIpadOsVersions: 8, 9, 10, 11, 12, 13, 14, 15
 
 -   releaseCycle: "mini-2"
     releaseLabel: "iPad Mini 2"
@@ -160,6 +181,7 @@ releases:
     discontinued: 2017-03-21
     eol: false
     link: https://support.apple.com/kb/SP693
+    supportedIpadOsVersions: 7, 8, 9, 10, 11, 12
 
 -   releaseCycle: "air-1"
     releaseLabel: "iPad Air (1st generation)"
@@ -167,6 +189,7 @@ releases:
     discontinued: 2016-03-21
     eol: false
     link: https://support.apple.com/kb/SP692
+    supportedIpadOsVersions: 7, 8, 9, 10, 11, 12
 
 -   releaseCycle: "4"
     releaseLabel: "iPad (4th generation)"
@@ -174,6 +197,7 @@ releases:
     discontinued: 2014-10-16
     eol: 2019-07-22
     link: https://support.apple.com/kb/SP662
+    supportedIpadOsVersions: 6, 7, 8, 9, 10
 
 -   releaseCycle: "3"
     releaseLabel: "iPad (3rd generation)"
@@ -181,6 +205,7 @@ releases:
     discontinued: 2012-10-23
     eol: 2019-07-22
     link: https://support.apple.com/kb/SP647
+    supportedIpadOsVersions: 5, 6, 7, 8, 9
 
 -   releaseCycle: "mini-1"
     releaseLabel: "iPad Mini (1st generation)"
@@ -188,6 +213,7 @@ releases:
     discontinued: 2015-06-19
     eol: 2019-07-22
     link: https://support.apple.com/kb/SP661
+    supportedIpadOsVersions: 6, 7, 8, 9
 
 -   releaseCycle: "2"
     releaseLabel: "iPad 2"
@@ -195,6 +221,7 @@ releases:
     discontinued: 2014-03-18
     eol: 2019-07-22
     link: https://support.apple.com/kb/sp622
+    supportedIpadOsVersions: 4, 5, 6, 7, 8, 9
 
 -   releaseCycle: "1"
     releaseLabel: "iPad (1st generation)"
@@ -202,6 +229,7 @@ releases:
     discontinued: 2011-03-02
     eol: 2012-09-19
     link: https://support.apple.com/kb/SP580
+    supportedIpadOsVersions: 3, 4, 5
 
 ---
 
@@ -214,3 +242,12 @@ Apple maintains a list of Supported iPhone models
 [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
 Support information for iPadOS versions are also available [on endoflife.date](/ipados).
+
+## iOS Compatibility
+
+{%- assign collapsedCycles = page.releases %}
+{% include table.html
+  labels="Release,iPadOS"
+  fields="releaseLabel,supportedIpadOsVersions"
+  types="string,string"
+  rows=collapsedCycles %}
