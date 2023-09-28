@@ -29,15 +29,15 @@ releases:
 
 -   releaseCycle: "23.0"
     eol: false
-    latest: "23.0.6"
-    latestReleaseDate: 2023-05-08
+    latest: "23.0.7"
+    latestReleaseDate: 2023-09-27
     releaseDate: 2023-02-02
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"
     eol: 2023-12-10
-    latest: "20.10.25"
-    latestReleaseDate: 2023-05-15
+    latest: "20.10.26"
+    latestReleaseDate: 2023-09-27
     releaseDate: 2020-12-09
 
 -   releaseCycle: "19.03"
