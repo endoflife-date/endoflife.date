@@ -4,7 +4,7 @@ category: server-app
 tags: php-runtime
 changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
 releaseImage: 
-  https://upload.wikimedia.org/wikipedia/mediawiki/timeline/oltvw06kmz7bhqd8bsfm1x4c2l7suw8.png
+  https://upload.wikimedia.org/wikipedia/mediawiki/timeline/llebggzr6u9gj415qxtfcde01ij1mcd.png
 permalink: /mediawiki
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 activeSupportColumn: false
@@ -17,17 +17,17 @@ auto:
 releases:
 -   releaseCycle: "1.40"
     releaseDate: 2023-06-30
-    eol: 2024-06-01
+    eol: 2024-06-30
     latest: "1.40.1"
     latestReleaseDate: 2023-09-29
 -   releaseCycle: "1.39"
-    eol: 2025-11-01
+    eol: 2025-11-30
     latest: "1.39.5"
     latestReleaseDate: 2023-09-28
     releaseDate: 2022-11-30
     lts: true
 -   releaseCycle: "1.38"
-    eol: 2023-06-01
+    eol: 2023-06-30
     latest: "1.38.7"
     latestReleaseDate: 2023-06-30
     releaseDate: 2022-06-02
@@ -43,7 +43,7 @@ releases:
     releaseDate: 2021-05-28
 -   releaseCycle: "1.35"
     lts: true
-    eol: 2023-09-01
+    eol: 2023-11-30
     latest: "1.35.13"
     latestReleaseDate: 2023-09-29
     releaseDate: 2020-09-25
