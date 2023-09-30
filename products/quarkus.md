@@ -237,3 +237,5 @@ with a longer support timeline. The code base used for this build is the same as
 the community version, but it comes with support, a [slower release cadence](https://access.redhat.com/support/policy/updates/jboss_notes#p_quarkus)
 and [certified builds of Quarkus and its dependencies](https://code.quarkus.redhat.com/). It
 requires a Red Hat subscription to run in production.
+
+For more about how Quarkus handles LTS, take a look at [Long-Term Support (LTS) for Quarkus](https://quarkus.io/blog/lts-releases/).
