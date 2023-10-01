@@ -100,7 +100,5 @@ December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-
 on the final version 1.8.3 which was released April 7, 2022.
 
 Beginning January 1, 2022, [extended long term support for AngularJS](https://xlts.dev/angularjs)
-became available for 1.5.x and 1.8.x versions through a fork of the project maintained by the
-independent team at [XLTS.dev](http://xlts.dev/).
-
-AngularJS version 1.8 has continued commercial support through the XLTS 1.9 forked version where XLTS 1.9 is a compatible replacement for AngularJS version 1.8.
+became available for 1.5.x and 1.8.x (with XLTS 1.9 which is a compatible replacement) through a
+fork of the project maintained by the independent team at [XLTS.dev](https://xlts.dev/).
