@@ -21,23 +21,11 @@ releases:
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
 
--   releaseCycle: "11a"
-    releaseDate: 2021-10-07
-    support: 2023-02-01
-    eol: 2024-02-01
-    link: "https://www.veeam.com/kb4245"
-
 -   releaseCycle: "11"
     releaseDate: 2021-02-24
     support: 2023-02-01
     eol: 2024-02-01
     link: "https://www.veeam.com/kb4126"
-
--   releaseCycle: "10a"
-    releaseDate: 2020-07-30
-    support: 2021-02-01
-    eol: 2023-02-01
-    link: "https://www.veeam.com/kb3228"
 
 -   releaseCycle: "10"
     releaseDate: 2020-02-18
