@@ -47,8 +47,8 @@ releases:
 
 -   releaseCycle: "9.5"
     releaseDate: 2016-11-16
-    support: false
-    eol: true
+    support: 2020-02-01
+    eol: 2022-01-01 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
     link: "https://www.veeam.com/kb2970"
 
 -   releaseCycle: "9.0"
@@ -65,7 +65,7 @@ releases:
 
 -   releaseCycle: "7.0"
     releaseDate: 2013-08-20
-    support: false    
+    support: false
     eol: true
     link: "https://www.veeam.com/kb1891"
 
@@ -127,7 +127,7 @@ releases:
 When a product version reaches this stage, no further Updates, Patches or Hotfixes will be created for it (exceptions may be made on a case-by-case basis). A version that has reached End of Fix, but that has not reached End of Support is still fully supported. However, if Veeam determines that an issue is being experinced is fixed in a generally available version, an update to later release is required.
 
 ## End of support
-  
+
 When a product version reaches this stage, this version will no longer be supported by Veeam. To get support, one needs to have an active maintenance contract and perform an upgrade to at least the version that has not reached the End of Support stage yet.
 
 ## RTM (Release to Manufacturing) vs GA (General Availability)
