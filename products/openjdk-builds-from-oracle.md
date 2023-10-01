@@ -93,6 +93,7 @@ releases:
     eol: 2018-03-20
     latest: "9.0.4"
     latestReleaseDate: 2018-01-16
+    link: https://openjdk.org/projects/jdk9/
 
 # Not sure if this applies to 7 and 8, so didn't include those versions.
 
