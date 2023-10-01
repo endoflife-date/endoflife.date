@@ -4,7 +4,7 @@ category: device
 tags: apple tablet
 iconSlug: apple
 permalink: /ipad
-releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#Supported
+releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 activeSupportColumn: false
 eolColumn: Supported
