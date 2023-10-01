@@ -125,20 +125,21 @@ releases:
 > replication functionality for virtual machines, physical servers and workstations as well as
 > cloud-based workload.
 
-## End of Fix
+{: .warning }
+Veeam Backup & Replication is available in two editions: Community (free) and Enterprise (paid).
+This page only covers the Enterprise edition.
 
-When a product version reaches this stage, no further Updates, Patches or Hotfixes will be created for it (exceptions may be made on a case-by-case basis). A version that has reached End of Fix, but that has not reached End of Support is still fully supported. However, if Veeam determines that an issue is being experinced is fixed in a generally available version, an update to later release is required.
+Support for Veeam Backup & Replication always require an active maintenance contract and is divided
+into two phases.
 
-## End of support
+The first phase is ending with the end of fix date. During this phase updates, patches and hotfixes
+are provided for the product.
 
-When a product version reaches this stage, this version will no longer be supported by Veeam. To get support, one needs to have an active maintenance contract and perform an upgrade to at least the version that has not reached the End of Support stage yet.
+The second phase is ending with the end of support date. Updates, patches and hotfixes may also be
+provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
+in a later supported generally available version, an update to the later release is required.
 
-## RTM (Release to Manufacturing) vs GA (General Availability)
-
-RTM: This is the version of the software that is provided to manufacturers to bundle into future versions of their hardware products. It’s a more or less finalized version of the software but might still have some bugs that were not found during the testing phase.
-GA: This is the fully tested and finalized version of the software that is available to all customers. It’s intended for all users and is considered ready for production environments.
-Source [1](https://forums.veeam.com/post476799.html#p476799), [2](https://forums.veeam.com/veeam-backup-replication-f2/rtm-to-ga-update-t64886.html)
-
-## Note about release dates
-
-The GA date is used as the release date, except for 5.0 because it was not provided
+This page is using GA dates as release dates, except for 5.0 which used the RTM release date
+because it was not provided on <https://www.veeam.com/kb2680>. RTM versions are more or less
+finalized versions provided to manufacturers, whereas GA versions are fully tested and finalized
+versions available to all customers.
