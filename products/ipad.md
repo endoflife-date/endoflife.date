@@ -13,7 +13,7 @@ releaseColumn: false
 
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/en-us/HT201471.
-# All supported iPadOS versions can be found on https://iosref.com/ios#ipad.
+# All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
 releases:
 -   releaseCycle: "10"
     releaseLabel: "iPad (10th generation)"
