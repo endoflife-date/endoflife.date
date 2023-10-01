@@ -120,7 +120,10 @@ releases:
 
 ---
 
-> [Veeam Backup & Replication](https://helpcenter.veeam.com/docs/backup/qsg_vsphere/about_vbr.html?ver=120) is a data protection and disaster recovery solution for virtual, physical and cloud environments.
+> [Veeam Backup & Replication](https://www.veeam.com/vm-backup-recovery-replication-software.html)
+> is a commercial data protection and disaster recovery solution. It provides backup, restore and
+> replication functionality for virtual machines, physical servers and workstations as well as
+> cloud-based workload.
 
 ## End of Fix
 
