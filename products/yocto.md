@@ -71,8 +71,8 @@ releases:
     releaseDate: 2020-04-21
     lts: true
     eol: 2024-04-01
-    latest: "3.1.27"
-    latestReleaseDate: 2023-08-10
+    latest: "3.1.28"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'

@@ -38,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
-    latestReleaseDate: 2023-06-23
-    latest: "2.45.0"
+    latestReleaseDate: 2023-09-29
+    latest: "2.45.1"
 
 -   releaseCycle: "2.44"
     releaseDate: 2023-05-14
