@@ -34,13 +34,20 @@ auto:
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
 releases:
+-   releaseCycle: "21"
+    # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
+    # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
+    releaseDate: 2023-09-21
+    # Not yet announced on https://aws.amazon.com/corretto/faqs/
+    eol: 2023-10-01
+    latest: "21.0.0.35.1"
+    latestReleaseDate: 2023-09-21
+
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
     # Official release was on march : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
     releaseDate: 2023-02-23
-    # Not yet announced on https://aws.amazon.com/corretto/faqs/,
-    # using the next 1th or the month from Java 21 release (that what they usually do).
-    eol: 2023-10-01
+    eol: 2023-09-21
     latest: "20.0.2.10.1"
     latestReleaseDate: 2023-08-23
 
