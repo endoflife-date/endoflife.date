@@ -123,6 +123,13 @@ auto:
     regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
 
 releases:
+-   releaseCycle: "3.12"
+    releaseDate: 2023-10-02
+    support: 2025-04-02
+    eol: 2028-10-02
+    latest: "3.12.0"
+    latestReleaseDate: 2023-10-02
+
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
     support: 2024-04-01
