@@ -42,8 +42,8 @@ releases:
     releaseDate: 2022-07-21
     eol: 2024-10-31
     upgradeVersion: "1.2.1.0"
-    latest: "1.2.0.0.R3"
-    latestReleaseDate: 2022-12-15
+    latest: "1.2.0.0.R4"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "1.1.1.0"
     releaseDate: 2022-04-19
