@@ -12,11 +12,47 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "8.5"
+    releaseDate: 2023-08-21
+    eol: 2025-08-21
+    lts: true
+    latest: "8.5.1"
+    latestReleaseDate: 2023-09-05
+    link: https://confluence.atlassian.com/doc/confluence-8-5-release-notes-1252010185.html
+
+-   releaseCycle: "8.4"
+    releaseDate: 2023-07-05
+    eol: 2024-01-05
+    latest: "8.4.2"
+    latestReleaseDate: 2023-08-15
+    link: https://confluence.atlassian.com/doc/confluence-8-4-release-notes-1251411547.html
+
+-   releaseCycle: "8.3"
+    releaseDate: 2023-05-22
+    eol: 2023-11-22
+    latest: "8.3.2"
+    latestReleaseDate: 2023-06-20
+    link: https://confluence.atlassian.com/doc/confluence-8-3-release-notes-1236928237.html
+
+-   releaseCycle: "8.2"
+    releaseDate: 2023-03-28
+    eol: 2023-09-28
+    latest: "8.2.3"
+    latestReleaseDate: 2023-05-15
+    link: https://confluence.atlassian.com/doc/confluence-8-2-release-notes-1216971744.html
+    
+-   releaseCycle: "8.1"
+    releaseDate: 2023-02-13
+    eol: 2023-08-13
+    latest: "8.1.4"
+    latestReleaseDate: 2023-04-04
+    link: https://confluence.atlassian.com/doc/confluence-8-1-release-notes-1206791873.html
+    
 -   releaseCycle: "8.0"
     releaseDate: 2022-11-29
-    eol: 2023-05-29
-    latest: "8.0.1"
-    latestReleaseDate: 2022-12-13
+    eol: 2023-04-29
+    latest: "8.0.4"
+    latestReleaseDate: 2022-02-12
     link: https://confluence.atlassian.com/doc/confluence-8-0-release-notes-1127254402.html
 
 -   releaseCycle: "7.20"
