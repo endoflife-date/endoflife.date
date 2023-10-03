@@ -10,7 +10,7 @@ alternate_urls:
 -   /jdk
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-relnotes.html"
+changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|drop_zero_patch|replace:'.','-'}}-relnotes.html"
 eolColumn: Premier Support
 extendedSupportColumn: Extended Support
 releaseDateColumn: true
@@ -28,7 +28,6 @@ releases:
     extendedSupport: 2031-09-30
     latest: "21"
     latestReleaseDate: 2023-09-19
-    link: https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
