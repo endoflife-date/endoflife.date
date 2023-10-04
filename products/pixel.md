@@ -13,6 +13,14 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
+-   releaseCycle: "8"
+    releaseLabel: "Pixel 8 / Pro"
+    releaseDate: 2023-10-04
+    support: 2030-10-04
+    eol: 2030-10-04
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_8
+
 -   releaseCycle: "fold"
     releaseLabel: "Pixel Fold"
     releaseDate: 2023-06-28
