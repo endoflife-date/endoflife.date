@@ -13,6 +13,7 @@ discontinuedColumn: false
 auto:
 -   git: https://github.com/influxdata/telegraf
 
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-11
