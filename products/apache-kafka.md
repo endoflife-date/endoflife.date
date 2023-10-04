@@ -20,9 +20,16 @@ auto:
 # Extended support date can be found in the "Standard End of Support" column on
 # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
 releases:
+-   releaseCycle: "3.6"
+    releaseDate: 2023-10-03
+    eol: false
+    extendedSupport: false # not yet announced at # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
+    latest: "3.6.0"
+    latestReleaseDate: 2023-10-03
+
 -   releaseCycle: "3.5"
     releaseDate: 2023-06-13
-    eol: false
+    eol: 2023-10-03
     extendedSupport: 2025-08-25
     latest: "3.5.1"
     latestReleaseDate: 2023-07-20
