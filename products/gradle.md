@@ -18,15 +18,15 @@ releases:
 -   releaseCycle: "8"
     support: true
     eol: false
-    latest: "8.3.0"
-    latestReleaseDate: 2023-08-16
+    latest: "8.4.0"
+    latestReleaseDate: 2023-10-04
     releaseDate: 2023-02-10
 
 -   releaseCycle: "7"
     support: false
     eol: false
-    latest: "7.6.2"
-    latestReleaseDate: 2023-06-30
+    latest: "7.6.3"
+    latestReleaseDate: 2023-10-04
     releaseDate: 2021-04-09
 
 -   releaseCycle: "6"
