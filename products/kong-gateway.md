@@ -33,8 +33,8 @@ releases:
     releaseDate: 2023-08-09
     eol: false
     extendedSupport: 2026-08-09
-    latest: "3.4.0"
-    latestReleaseDate: 2023-08-09
+    latest: "3.4.1"
+    latestReleaseDate: 2023-10-03
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-05-18
@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "3.2"
-    releaseDate: 2023-02-21
+    releaseDate: 2023-02-20
     eol: 2023-05-18
     extendedSupport: 2024-02-21
     latest: "3.2.2"
@@ -55,7 +55,7 @@ releases:
     eol: 2023-02-21
     extendedSupport: 2023-12-06
     latest: "3.1.1"
-    latestReleaseDate: 2022-12-10
+    latestReleaseDate: 2022-12-09
 
 -   releaseCycle: "3.0"
     releaseDate: 2022-09-12
@@ -70,7 +70,7 @@ releases:
     eol: false
     extendedSupport: 2025-03-01
     latest: "2.8.4"
-    latestReleaseDate: 2023-09-22
+    latestReleaseDate: 2023-09-20
 
 ---
 
