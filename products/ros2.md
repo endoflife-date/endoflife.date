@@ -12,6 +12,11 @@ releaseDateColumn: true
 eolColumn: End Of Life
 
 releases:
+-   releaseCycle: 'iron'
+    codename: 'Iron Irwini'
+    releaseDate: 2023-05-23
+    eol: 2024-11-01
+
 -   releaseCycle: 'humble'
     codename: 'Humble Hawksbill'
     releaseDate: 2022-05-23
