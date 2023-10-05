@@ -16,6 +16,11 @@ releaseDateColumn: true
 eolColumn: Security Support
 
 releases:
+-   releaseCycle: "14"
+    codename: Upside Down Cake
+    eol: false
+    releaseDate: 2023-10-04
+
 -   releaseCycle: "13"
     codename: Tiramisu
     eol: false
