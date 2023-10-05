@@ -75,12 +75,6 @@ releases:
     latest: "1.12"
     latestReleaseDate: 2014-04-29
 
--   releaseCycle: "0"
-    releaseDate: 2009-07-20
-    support: 2012-06-12
-    eol: 2012-06-12
-    latest: "0.9.2"
-    latestReleaseDate: 2011-01-23
 
 ---
 
