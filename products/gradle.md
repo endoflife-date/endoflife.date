@@ -22,17 +22,17 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    support: true  # releaseDate(9)
-    eol: false # releaseDate(10)
-    latest: "8.3.0"
-    latestReleaseDate: 2023-08-16
+    support: true
+    eol: false
+    latest: "8.4.0"
+    latestReleaseDate: 2023-10-04
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
-    support: 2023-02-10
-    eol: false # releaseDate(9)
-    latest: "7.6.2"
-    latestReleaseDate: 2023-06-30
+    support: false
+    eol: false
+    latest: "7.6.3"
+    latestReleaseDate: 2023-10-04
 
 -   releaseCycle: "6"
     releaseDate: 2019-11-08

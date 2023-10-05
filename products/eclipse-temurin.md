@@ -2,7 +2,7 @@
 title: Eclipse Temurin
 category: lang
 tags: eclipse java-distribution
-iconSlug: openjdk
+iconSlug: eclipseadoptium
 permalink: /eclipse-temurin
 alternate_urls:
 -   /temurin

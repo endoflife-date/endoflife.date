@@ -98,7 +98,7 @@ releases:
     lts: true
     releaseDate: 2018-09-25
     eol: 2023-09-30
-    extendedSupport: 2026-09-30
+    extendedSupport: 2032-01-31
     latest: "11.0.20"
     latestReleaseDate: 2023-07-18
 

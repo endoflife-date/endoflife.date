@@ -21,61 +21,77 @@ auto:
 
 releases:
   # Active Milestones
+-   releaseCycle: "cos-109"
+    eol: 2025-09-01
+    lts: true
+    releaseDate: 2023-09-27
+    latestReleaseDate: 2023-09-27
+    latest: "cos-109-17800-0-45"
+
 -   releaseCycle: "cos-105"
     eol: 2025-04-01
     lts: true
     releaseDate: 2023-04-03
-    latestReleaseDate: 2023-09-20
-    latest: "cos-105-17412-156-59"
+    latestReleaseDate: 2023-09-26
+    latest: "cos-105-17412-156-63"
+
 -   releaseCycle: "cos-101"
     eol: 2024-09-01
     lts: true
     releaseDate: 2022-09-15
-    latestReleaseDate: 2023-09-18
-    latest: "cos-101-17162-279-47"
+    latestReleaseDate: 2023-09-26
+    latest: "cos-101-17162-279-55"
+
 -   releaseCycle: "cos-97"
     eol: 2024-03-01
     lts: true
     releaseDate: 2022-03-29
-    latestReleaseDate: 2023-09-18
-    latest: "cos-97-16919-353-46"
+    latestReleaseDate: 2023-09-26
+    latest: "cos-97-16919-353-50"
+
+# Deprecated Milestones
 -   releaseCycle: "cos-93"
     eol: 2023-10-01
     lts: true
     releaseDate: 2021-10-18
-    latestReleaseDate: 2023-09-11
-    latest: "cos-93-16623-461-30"
-  # Deprecated Milestones
+    latestReleaseDate: 2023-09-26
+    latest: "cos-93-16623-461-35"
+
 -   releaseCycle: "cos-89"
     eol: 2023-03-01
     lts: true
     releaseDate: 2021-04-07
     latestReleaseDate: 2023-04-03
     latest: "cos-89-16108-798-22"
+
 -   releaseCycle: "cos-85"
     eol: 2022-09-01
     lts: true
     releaseDate: 2020-09-24
     latestReleaseDate: 2022-08-22
     latest: "cos-85-13310-1498-13"
+
 -   releaseCycle: "cos-81"
     eol: 2021-09-01
     lts: true
     releaseDate: 2020-03-27
     latestReleaseDate: 2022-01-10
     latest: "cos-81-12871-1317-8"
+
 -   releaseCycle: "cos-77"
     eol: 2021-04-01
     lts: true
     releaseDate: 2019-09-27
     latestReleaseDate: 2021-01-11
     latest: "cos-77-12371-1109-0"
+
 -   releaseCycle: "cos-73"
     eol: 2020-06-01
     lts: true
     releaseDate: 2019-03-25
     latestReleaseDate: 2020-09-05
     latest: "cos-73-11647-656-0"
+
 -   releaseCycle: "cos-69"
     eol: 2019-12-01
     lts: true

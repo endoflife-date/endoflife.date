@@ -109,7 +109,7 @@ releases:
     support: 2019-06-01
     eol: 2019-06-01
     extendedSupport: false
-    link: https://magento.github.io/devdocs/guides/v2.1/release-notes/bk-release-notes.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
     latest: "2.1.18"
     latestReleaseDate: 2019-06-06
 
@@ -118,7 +118,7 @@ releases:
     support: 2018-03-01
     eol: 2018-03-01
     extendedSupport: false
-    link: https://magento.github.io/devdocs/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
     latest: "2.0.18"
     latestReleaseDate: 2018-02-20
 
