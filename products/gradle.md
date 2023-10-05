@@ -9,7 +9,7 @@ releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.h
 changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
-eolColumn: Bug and Security Fixes
+eolColumn: Critical Bug and Security Fixes
 
 auto:
 -   git: https://github.com/gradle/gradle.git
@@ -84,13 +84,9 @@ releases:
 > any platform, Gradle offers a flexible model that can support the entire development lifecycle
 > from compiling and packaging code to publishing websites.
 
-Gradle follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
-defined, but [looking at the releases history](https://gradle.org/releases/) and
-[Feature Lifecycle page](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support):
-
-- only the latest release is receiving new features,
-- after 7, 6 started to receive bug and security fixes,
-- before 7, only the latest release were receiving bug and security fixes.
+Gradle follows [Semantic Versioning](https://semver.org/). The [support and EOL policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support) states that each major release causes:
+- The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
+- The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.
 
 ## [Java Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 
