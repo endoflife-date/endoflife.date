@@ -16,19 +16,29 @@ releaseColumn: true
 releaseDateColumn: true
 
 releases:
--   releaseCycle: "pc.2022.9"
-    releaseDate: 2023-01-20
+-   releaseCycle: "pc.2023.3"
+    releaseDate: 2023-08-30
     support: true
     eol: false
-    latest: "pc.2022.9.1"
-    latestReleaseDate: 2023-01-24
+    latest: "pc.2023.3.0.1"
+
+-   releaseCycle: "pc.2023.1"
+    releaseDate: 2023-04-19
+    support: 2023-10-31
+    eol: 2024-01-31
+    latest: "pc.2023.1.0.2"
+
+-   releaseCycle: "pc.2022.9"
+    releaseDate: 2023-01-20
+    support: 2023-06-30
+    eol: 2023-09-30
+    latest: "pc.2022.9"
 
 -   releaseCycle: "pc.2022.6"
     releaseDate: 2022-08-03
-    support: 2023-07-31
-    eol: 2024-01-31
-    latest: "pc.2022.6.0.3"
-    latestReleaseDate: 2023-01-24
+    support: 2024-01-31
+    eol: 2024-07-31
+    latest: "pc.2022.6.0.8"
 
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16
