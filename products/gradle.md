@@ -42,18 +42,18 @@ releases:
     latestReleaseDate: 2023-02-21
 
 -   releaseCycle: "5"
-    releaseDate: 2018-11-26
+    releaseDate: 2018-11-23
     support: 2019-11-08
     eol: 2019-11-08
     latest: "5.6.4"
-    latestReleaseDate: 2019-11-01
+    latestReleaseDate: 2019-10-31
 
 -   releaseCycle: "4"
     releaseDate: 2017-06-14
     support: 2018-11-26
     eol: 2018-11-26
     latest: "4.10.3"
-    latestReleaseDate: 2018-12-05
+    latestReleaseDate: 2018-12-04
 
 -   releaseCycle: "3"
     releaseDate: 2016-08-15
@@ -75,7 +75,6 @@ releases:
     eol: 2014-07-01
     latest: "1.12"
     latestReleaseDate: 2014-04-29
-
 
 ---
 

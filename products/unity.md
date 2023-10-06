@@ -39,14 +39,14 @@ releases:
     lts: true
     releaseDate: 2022-04-11
     eol: 2024-04-19
-    latest: "2021.3.30f1"
-    latestReleaseDate: 2023-08-29
+    latest: "2021.3.31f1"
+    latestReleaseDate: 2023-10-03
 
 -   releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2022-02-17
-    latest: "2021.3.30f1"
-    latestReleaseDate: 2023-08-29
+    latest: "2021.3.31f1"
+    latestReleaseDate: 2023-10-03
 
 -   releaseCycle: "2021.2"
     releaseDate: 2021-10-25
