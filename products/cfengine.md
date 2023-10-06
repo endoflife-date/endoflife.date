@@ -32,8 +32,8 @@ releases:
     lts: true
     link:
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
-    latest: "3.21.2"
-    latestReleaseDate: 2023-06-09
+    latest: "3.21.3"
+    latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "3.20"
     releaseDate: 2022-07-01
@@ -51,8 +51,8 @@ releases:
     releaseDate: 2021-06-24
     eol: 2024-06-24
     lts: true
-    latest: "3.18.5"
-    latestReleaseDate: 2023-06-09
+    latest: "3.18.6"
+    latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "3.17"
     releaseDate: 2020-11-19
