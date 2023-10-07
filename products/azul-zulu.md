@@ -41,7 +41,6 @@ releases:
 
 -   releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/20-ga
     releaseDate: 2023-03-21
     eol: 2023-09-19
@@ -53,7 +52,6 @@ releases:
 
 -   releaseCycle: "19"
     releaseLabel: "19 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/19-ga
     releaseDate: 2022-09-20
     eol: 2023-03-31
@@ -65,7 +63,6 @@ releases:
 
 -   releaseCycle: "18"
     releaseLabel: "18 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/18-ga
     releaseDate: 2022-03-12
     eol: 2022-09-30
@@ -88,7 +85,6 @@ releases:
 
 -   releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-release-notes/16-ga/ZuluReleaseNotes/Title.htm
     releaseDate: 2021-03-16
     eol: 2021-09-30
@@ -100,7 +96,6 @@ releases:
 
 -   releaseCycle: "15"
     releaseLabel: "15 (<abbr title='Medium Term Support'>MTS</abbr>)"
-    lts: false
     releaseDate: 2020-09-15
     eol: 2023-03-31
     extendedSupport: 2024-03-31
@@ -111,7 +106,6 @@ releases:
 
 -   releaseCycle: "14"
     releaseLabel: "14 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2020-03-17
     eol: 2020-09-30
     extendedSupport: 2021-03-31
@@ -121,7 +115,6 @@ releases:
 
 -   releaseCycle: "13"
     releaseLabel: "13 (<abbr title='Medium Term Support'>MTS</abbr>)"
-    lts: false
     releaseDate: 2019-09-17
     eol: 2023-03-31
     extendedSupport: 2024-03-31
@@ -132,7 +125,6 @@ releases:
 
 -   releaseCycle: "12"
     releaseLabel: "12 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2019-03-19
     eol: 2019-09-30
     extendedSupport: 2020-03-31
@@ -152,7 +144,6 @@ releases:
 
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://www.azul.com/blog/zulu-10-has-landed/
     releaseDate: 2018-03-27
     eol: 2018-09-30
@@ -163,7 +154,6 @@ releases:
 
 -   releaseCycle: "9"
     releaseLabel: "9 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2017-09-21
     eol: 2018-03-31
     extendedSupport: 2018-09-30
