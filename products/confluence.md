@@ -147,7 +147,7 @@ Confluence is available both as SaaS and on-premises offer, with three editions:
 - Confluence Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
 - Confluence Server: Self-hosted edition.
 - Confluence Data Center: Self-hosted edition, targeted to enterprises (see [Confluence Server and Data
-  Center feature comparison](https://confluence.atlassian.com/doc/confluence-server-and-data-center-feature-comparison-953652032.html)
+  Center feature comparison](https://confluence.atlassian.com/display/DOC/Confluence+Server+and+Data+Center+feature+comparison)
   for more information).
 
 This page is **only** about Confluence Server and Confluence Data Center. Confluence Cloud is a part
