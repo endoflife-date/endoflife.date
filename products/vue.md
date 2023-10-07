@@ -28,7 +28,6 @@ releases:
     support: true
     eol: false
     latest: "3.3.4"
-    lts: false
     latestReleaseDate: 2023-05-18
     extendedSupport: false
     releaseDate: 2020-09-18
@@ -38,7 +37,6 @@ releases:
     support: 2022-03-18
     eol: 2023-12-31
     latest: "2.7.14"
-    lts: false
     latestReleaseDate: 2022-11-09
     extendedSupport: true
     releaseDate: 2016-09-30
@@ -48,7 +46,6 @@ releases:
     support: false
     eol: true
     latest: "1.0.28"
-    lts: false
     latestReleaseDate: 2016-09-27
     extendedSupport: false
     releaseDate: 2015-10-27
