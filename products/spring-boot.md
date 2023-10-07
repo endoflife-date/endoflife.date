@@ -22,7 +22,6 @@ auto:
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot
 
-
 # EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:
 -   releaseCycle: "3.1"
