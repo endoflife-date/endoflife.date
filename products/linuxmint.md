@@ -123,7 +123,6 @@ releases:
     releaseDate: 2017-11-27
 -   releaseCycle: "18.1"
     codename: Serena
-    lts: false
     support: false
     eol: 2021-04-01
     latest: "18.1"
