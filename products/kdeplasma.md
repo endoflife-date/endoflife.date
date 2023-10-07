@@ -28,7 +28,6 @@ releases:
     latest: "5.26.90"
     support: 2023-02-14
     eol: 2023-02-14
-    lts: false
     releaseDate: 2022-10-11
     latestReleaseDate: 2023-01-19
 
@@ -36,7 +35,6 @@ releases:
     latest: "5.25.90"
     support: 2022-10-11
     eol: 2022-10-11
-    lts: false
     releaseDate: 2022-06-14
     latestReleaseDate: 2022-09-15
 
@@ -52,7 +50,6 @@ releases:
     latest: "5.23.90"
     support: 2022-02-03
     eol: 2022-02-03
-    lts: false
     releaseDate: 2021-10-14
     latestReleaseDate: 2022-01-13
 
