@@ -76,7 +76,7 @@ releases:
     releaseDate: 2022-02-01
     eol: 2022-08-02
     latest: "17.4.11"
-    latestReleaseDate: 2022-08-02
+    latestReleaseDate: 2022-08-01
 
 -   releaseCycle: "16"
     releaseDate: 2021-11-16
