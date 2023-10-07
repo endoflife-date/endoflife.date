@@ -20,9 +20,20 @@ auto:
 -   distrowatch: antix
     regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
 
+# support(x) = Corresponding Debian support(x)
+# EOL(x) = Corresponding Debian EOL(x)
 releases:
+-   releaseCycle: "23"
+    codename: "Arditi del Popolo" # Bookworm
+    releaseDate: 2023-08-28
+    latest: "23"
+    latestReleaseDate: 2023-08-28
+    support: 2026-06-10
+    eol: 2028-06-10
+    link: https://antixlinux.com/antix-23-released/
+
 -   releaseCycle: "21"
-    codename: "Grup Yorum"
+    codename: "Grup Yorum" # Bullseye
     releaseDate: 2021-10-31
     latest: "22"
     latestReleaseDate: 2022-10-19
@@ -31,7 +42,7 @@ releases:
     link: https://antixlinux.com/antix-22-released/
 
 -   releaseCycle: "19"
-    codename: "Grup Yorum"
+    codename: "Grup Yorum" # Buster
     releaseDate: 2019-10-17
     latest: "19.5"
     latestReleaseDate: 2022-01-25
@@ -40,7 +51,7 @@ releases:
     link: https://antixlinux.com/antix-19-5-point-release-update/
 
 -   releaseCycle: "17"
-    codename: "Helen Keller"
+    codename: "Helen Keller" # Stretch
     releaseDate: 2017-10-24
     latest: "17.4.1"
     latestReleaseDate: 2019-03-28
@@ -74,7 +85,7 @@ releases:
 
 There are several releases of antiX supported concurrently. These typically follow Debian's periods
 of active development and extended long-term support, which provides security patches to a limited
-set of packages.  Often this equates to ~2 years of active support and 2 years of long-term security
+set of packages. Often this equates to ~2 years of active support and 2 years of long-term security
 patch support.
 
 AntiX officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and 64-bit
