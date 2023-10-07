@@ -2,7 +2,9 @@
 title: ROS 2
 category: os
 iconSlug: ros
-permalink: /ros2
+permalink: /ros-2
+alternate_urls:
+-   /ros2
 versionCommand: printenv | grep -i ROS
 releasePolicyLink: https://docs.ros.org/en/rolling/Releases.html
 changelogTemplate: "https://docs.ros.org/en/__RELEASE_CYCLE__/Releases/Release-{{'__CODENAME__'|replace:' ','-'}}.html"
