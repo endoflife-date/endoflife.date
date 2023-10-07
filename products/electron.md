@@ -16,6 +16,7 @@ releaseDateColumn: true
 auto:
 -   npm: electron
 
+# EOL dates documented on https://www.electronjs.org/docs/latest/tutorial/electron-timelines.
 releases:
 -   releaseCycle: "26"
     releaseDate: 2023-08-14
