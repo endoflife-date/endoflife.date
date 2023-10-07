@@ -89,7 +89,7 @@ releases:
     eol: 2020-07-14
     latest: "2010.SP1"
     latestReleaseDate: 2011-03-08
-    link: https://learn.microsoft.com/lifecycle/products/visual-studio-team-foundation-server-2010
+    link: https://devblogs.microsoft.com/bharry/vstfs-2010-sp1-and-tfs-project-server-integration-feature-pack-have-released/
 
 -   releaseCycle: "2005"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -98,7 +98,7 @@ releases:
     eol: 2016-07-12
     latest: "2005.SP2"
     latestReleaseDate: 2007-03-21
-    link: https://devblogs.microsoft.com/bharry/vstfs-2010-sp1-and-tfs-project-server-integration-feature-pack-have-released/
+    link: https://devblogs.microsoft.com/bharry/tfs-2005-sql-server-2005-sp2/
 
 ---
 
