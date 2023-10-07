@@ -19,6 +19,9 @@ auto:
 # See https://rubular.com/r/stJ20etRIblK0J for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
 
+identifiers:
+-   purl: pkg:maven/org.springframework.boot/spring-boot
+
 # EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:
 -   releaseCycle: "3.1"
