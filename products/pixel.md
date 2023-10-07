@@ -146,9 +146,13 @@ releases:
 > Pixel is Google's current line of Android phones and other consumer electronics.
 
 In recent years, flagship Pixel phones have been released in October each year, followed by an
-additional mid-range variant known as the 'A-series' several months later. Pixel phones are
-supported with guaranteed software updates for three years.
+additional mid-range variant known as the 'A-series' several months later. Since the introduction
+of the Pixel 6 in 2021, Pixel phones have been supported with guaranteed Android version updates
+for three years and security updates for five years.
 
-Starting with the Pixel 6, Google has committed to at least five years of security updates,
-extending an additional two years beyond the 3-year Android version update commitment. The end date
-for guaranteed Android version updates is indicated in the 'Active Support' column.
+In October 2023, it was
+[announced](https://blog.google/products/pixel/software-support-pixel-8-pixel-8-pro/) that the
+Pixel 8 and Pixel 8 Pro will guarantee both Android version updates and security updates for
+seven years, offering full support until October 2030.
+
+The end date for guaranteed Android version updates is indicated in the 'Active Support' column.
