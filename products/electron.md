@@ -94,7 +94,7 @@ releases:
     releaseDate: 2021-08-30
     eol: 2022-03-29
     latest: "14.2.9"
-    latestReleaseDate: 2022-03-29
+    latestReleaseDate: 2022-03-30
 
 -   releaseCycle: "13"
     releaseDate: 2021-05-25
