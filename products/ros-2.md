@@ -1,5 +1,5 @@
 ---
-title: ROS2
+title: ROS 2
 category: os
 iconSlug: ros
 permalink: /ros2
@@ -61,24 +61,24 @@ releases:
 
 ---
 
-> ROS2 (Robot Operating System) provides libraries and tools to help software developers create
-> robotic applications. ROS2 is a major revision of [ROS 1](https://wiki.ros.org/), which adds
-> support for real-time code and embedded system hardware. As ROS1 will no longer be [supported past
-> May 2025](/ros), it is highly recommended for new projects to start using ROS2.
+> ROS 2 (Robot Operating System) provides libraries and tools to help software developers create
+> robotic applications. ROS 2 is a major revision of [ROS 1](https://wiki.ros.org/), which adds
+> support for real-time code and embedded system hardware. As ROS 1 will no longer be [supported past
+> May 2025](/ros), it is highly recommended for new projects to start using ROS 2.
 
 ## Release Cadence
 
-- There is a ROS2 release every year on May 23rd.
+- There is a ROS 2 release every year on May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
-- Releases on odd numbered years are normal ROS releases, supported for 1.5 years.
-- ROS releases will drop support for EOL Ubuntu distributions, even if the ROS release is still supported.
+- Releases on odd numbered years are normal ROS 2 releases, supported for 1.5 years.
+- ROS 2 releases will drop support for EOL Ubuntu distributions, even if the ROS 2 release is still supported.
 
 Side effects of the release policy:
 
-- Every ROS release will be supported on exactly one Ubuntu LTS.
-- Releases on odd numbered years will share a common Ubuntu release with the LTS ROS release of the previous year.
+- Every ROS 2 release will be supported on exactly one Ubuntu LTS.
+- Releases on odd numbered years will share a common Ubuntu release with the LTS ROS 2 release of the previous year.
 - LTS releases will not share a common Ubuntu release with any previous releases.
-- ROS releases will not add support for new Ubuntu distributions after their release date.
+- ROS 2 releases will not add support for new Ubuntu distributions after their release date.
 
 These simplified rules and side effects are subject to change with changes to the underlying Ubuntu
 release policy.
