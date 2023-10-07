@@ -18,7 +18,15 @@ auto:
 
 # Release dates from https://www.atlassian.com/software/confluence/download-archives,
 # They may vary by a day or two from what can be seen in the release notes.
+# EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
+-   releaseCycle: "8.6"
+    releaseDate: 2023-10-04
+    eol: 2025-08-22
+    latest: "8.6.0"
+    latestReleaseDate: 2025-10-05
+    link: https://confluence.atlassian.com/doc/confluence-8-6-release-notes-1289421595.html
+
 -   releaseCycle: "8.5"
     lts: true
     releaseDate: 2023-08-21
