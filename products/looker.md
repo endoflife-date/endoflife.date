@@ -5,114 +5,196 @@ tags: google
 iconSlug: looker
 permalink: /looker
 releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
-releaseImage: https://cloud.google.com/static/looker/docs/images/2022-std-supp-releases.png
-changelogTemplate: "https://cloud.google.com/looker/docs/looker-{{'__RELEASE_CYCLE__'|split:'.'|first}}-changelog#{{'__RELEASE_CYCLE__'|replace:'.',''}}"
+releaseImage: https://cloud.google.com/static/looker/docs/images/2023-std-supp-releases.png
+changelogTemplate: https://cloud.google.com/looker/docs/release-notes
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 
+# Used only for detecting new minor releases.
+auto:
+-   custom: true
+
+# ESR dates visible on https://cloud.google.com/looker/docs/standard-extended-support-release-program-overview.
+# or https://cloud.google.com/static/looker/docs/images/2023-std-supp-releases.png.
 releases:
+-   releaseCycle: "23.18"
+    releaseDate: 2023-10-11
+    lts: 2023-12-01
+    eol: 2024-02-28
+
+-   releaseCycle: "23.16"
+    releaseDate: 2023-09-13
+    eol: 2023-12-12
+
+-   releaseCycle: "23.14"
+    releaseDate: 2023-08-09
+    eol: 2023-11-08
+
+-   releaseCycle: "23.12"
+    releaseDate: 2023-07-12
+    lts: 2023-09-07
+    eol: 2023-11-30
+
+-   releaseCycle: "23.10"
+    releaseDate: 2023-06-14
+    eol: 2023-09-13
+
+-   releaseCycle: "23.8"
+    releaseDate: 2023-05-10
+    eol: 2023-08-09
+
+-   releaseCycle: "23.6"
+    releaseDate: 2023-04-14
+    lts: 2023-06-05
+    eol: 2023-08-31
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#236
+
+-   releaseCycle: "23.4"
+    releaseDate: 2023-03-14
+    eol: 2023-06-13
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#234
+
+-   releaseCycle: "23.2"
+    releaseDate: 2023-02-10
+    eol: 2023-05-09
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#232
+
+-   releaseCycle: "23.0"
+    releaseDate: 2023-01-11
+    lts: 2023-03-07
+    eol: 2023-05-31
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#230
+
+-   releaseCycle: "22.20"
+    releaseDate: 2022-11-14
+    eol: 2023-03-13
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2220
+
 -   releaseCycle: "22.18"
     releaseDate: 2022-10-17
     lts: 2022-12-01
     eol: 2023-02-28
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2218
 
 -   releaseCycle: "22.16"
     releaseDate: 2022-09-19
-    eol: 2022-12-19 # Update once 23.0 is released ?
+    eol: 2022-12-18
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2216
 
 -   releaseCycle: "22.14"
     releaseDate: 2022-08-15
     eol: 2022-11-14
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2214
 
 -   releaseCycle: "22.12"
     releaseDate: 2022-07-18
     lts: 2022-09-01
     eol: 2022-11-30
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2212
 
 -   releaseCycle: "22.10"
     releaseDate: 2022-06-13
     eol: 2022-09-19
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#2210
 
 -   releaseCycle: "22.8"
     releaseDate: 2022-05-16
     eol: 2022-08-15
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#228
 
 -   releaseCycle: "22.6"
     releaseDate: 2022-04-18
     lts: 2022-06-01
     eol: 2022-08-31
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#226
 
 -   releaseCycle: "22.4"
     releaseDate: 2022-03-14
     eol: 2022-06-13
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#224
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-02-15
     eol: 2022-05-16
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#222
 
 -   releaseCycle: "22.0"
     releaseDate: 2022-01-18
     lts: 2022-03-01
     eol: 2022-05-31
+    link: https://cloud.google.com/looker/docs/looker-22-changelog#220
 
 -   releaseCycle: "21.20"
     releaseDate: 2021-11-16
     eol: 2022-03-15
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2120
 
 -   releaseCycle: "21.18"
     releaseDate: 2021-10-19
     lts: 2021-12-01
     eol: 2022-02-28
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2118
 
 -   releaseCycle: "21.16"
     releaseDate: 2021-09-14
     eol: 2021-12-15
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2116
 
 -   releaseCycle: "21.14"
     releaseDate: 2021-08-16
     eol: 2021-11-16
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2114
 
 -   releaseCycle: "21.12"
     releaseDate: 2021-07-15
     lts: 2021-09-01
     eol: 2021-11-30
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2112
 
 -   releaseCycle: "21.10"
     releaseDate: 2021-06-10
     eol: 2021-09-14
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#2110
 
 -   releaseCycle: "21.8"
     releaseDate: 2021-05-13
     eol: 2021-10-16
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#218
 
 -   releaseCycle: "21.6"
     releaseDate: 2021-04-15
     lts: 2021-06-01
     eol: 2021-08-31
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#216
 
 -   releaseCycle: "21.4"
     releaseDate: 2021-03-11
     eol: 2021-06-10
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#214
 
 -   releaseCycle: "21.0"
     releaseDate: 2021-01-20
     lts: 2021-03-01
     eol: 2021-05-31
+    link: https://cloud.google.com/looker/docs/looker-21-changelog#210
 
 -   releaseCycle: "7.20"
     releaseDate: 2020-11-15
     eol: true
+    link: https://cloud.google.com/looker/docs/looker-7-changelog#720
 
 -   releaseCycle: "7.18"
     releaseDate: 2020-10-15
     eol: true
+    link: https://cloud.google.com/looker/docs/looker-7-changelog#718
 
 -   releaseCycle: "7.16"
     releaseDate: 2020-09-17
     eol: true
+    link: https://cloud.google.com/looker/docs/looker-7-changelog#716
 
 ---
 
@@ -145,7 +227,7 @@ will be patched back to the currently supported ESR releases. Participants in th
 required to pair production instances with staging instances. A ESR release is kept in
 "ESR-staging" for a month, where it is considered "pre-stable".
 
-![ESR release schedule image](https://cloud.google.com/static/looker/docs/images/2022-std-esr-supp-releases.png)
+![ESR release schedule image](https://cloud.google.com/static/looker/docs/images/2023-std-esr-supp-releases.png)
 
 ## [Notifications][emails]
 
