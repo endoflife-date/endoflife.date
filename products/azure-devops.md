@@ -71,7 +71,7 @@ releases:
     eol: 2024-04-09
     latest: "2013.5"
     latestReleaseDate: 2015-07-20
-    link: https://learn.microsoft.com/lifecycle/products/visual-studio-team-foundation-server-2013
+    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2013-update5-vs
 
 -   releaseCycle: "2012"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -80,7 +80,7 @@ releases:
     eol: 2023-01-10
     latest: "2012.4"
     latestReleaseDate: 2013-11-13
-    link: https://learn.microsoft.com/en-us/lifecycle/products/visual-studio-team-foundation-server-2012
+    link: https://learn.microsoft.com/troubleshoot/developer/visualstudio/installation/visual-studio-2012-update-4
 
 -   releaseCycle: "2010"
     releaseLabel: "TFS __RELEASE_CYCLE__"
@@ -98,7 +98,7 @@ releases:
     eol: 2016-07-12
     latest: "2005.SP2"
     latestReleaseDate: 2007-03-21
-    link: https://devblogs.microsoft.com/bharry/tfs-2005-sql-server-2005-sp2/
+    link: https://devblogs.microsoft.com/bharry/vstfs-2010-sp1-and-tfs-project-server-integration-feature-pack-have-released/
 
 ---
 
