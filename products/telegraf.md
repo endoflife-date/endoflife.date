@@ -110,84 +110,98 @@ releases:
     eol: 2020-07-22
     latest: "1.13.4"
     latestReleaseDate: 2020-02-25
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.12"
     releaseDate: 2019-09-03
     eol: 2020-03-26
     latest: "1.12.6"
     latestReleaseDate: 2019-11-19
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.11"
     releaseDate: 2019-06-11
     eol: 2019-12-12
     latest: "1.11.5"
     latestReleaseDate: 2019-08-27
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.10"
     releaseDate: 2019-03-05
     eol: 2019-09-03
     latest: "1.10.4"
     latestReleaseDate: 2019-05-14
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.9"
     releaseDate: 2018-11-20
     eol: 2019-06-11
     latest: "1.9.5"
     latestReleaseDate: 2019-02-26
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.8"
     releaseDate: 2018-09-21
     eol: 2019-03-05
     latest: "1.8.3"
     latestReleaseDate: 2018-10-30
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.7"
     releaseDate: 2018-06-12
     eol: 2018-11-20
     latest: "1.7.4"
     latestReleaseDate: 2018-08-29
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.6"
     releaseDate: 2018-04-16
     eol: 2018-09-21
     latest: "1.6.4"
     latestReleaseDate: 2018-06-05
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-12-14
     eol: 2018-06-12
     latest: "1.5.3"
     latestReleaseDate: 2018-03-14
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.4"
     releaseDate: 2017-09-05
     eol: 2018-04-16
     latest: "1.4.5"
     latestReleaseDate: 2017-12-01
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.3"
     releaseDate: 2017-05-15
     eol: 2017-12-14
     latest: "1.3.5"
     latestReleaseDate: 2017-07-26
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.2"
     releaseDate: 2017-01-23
     eol: 2017-09-05
     latest: "1.2.1"
     latestReleaseDate: 2017-02-01
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.1"
     releaseDate: 2016-11-08
     eol: 2017-05-15
     latest: "1.1.2"
     latestReleaseDate: 2016-12-12
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 -   releaseCycle: "1.0"
     releaseDate: 2016-09-02
     eol: 2017-01-23
     latest: "1.0.1"
     latestReleaseDate: 2016-09-28
+    link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 
 ---
 
