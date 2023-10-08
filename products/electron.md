@@ -158,7 +158,7 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2018-09-18
-    eol: 2019-07-31
+    eol: 2019-07-30
     latest: "3.1.13"
     latestReleaseDate: 2019-07-31
 
