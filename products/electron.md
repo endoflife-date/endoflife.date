@@ -46,7 +46,7 @@ releases:
     releaseDate: 2022-11-30
     eol: 2023-10-10
     latest: "22.3.26"
-    latestReleaseDate: 2023-10-10
+    latestReleaseDate: 2023-10-04
 
 -   releaseCycle: "21"
     releaseDate: 2022-09-26
@@ -58,13 +58,13 @@ releases:
     releaseDate: 2022-08-01
     eol: 2023-02-06
     latest: "20.3.12"
-    latestReleaseDate: 2023-02-07
+    latestReleaseDate: 2023-02-09
 
 -   releaseCycle: "19"
     releaseDate: 2022-05-23
     eol: 2022-11-30
     latest: "19.1.9"
-    latestReleaseDate: 2022-11-29
+    latestReleaseDate: 2022-11-30
 
 -   releaseCycle: "18"
     releaseDate: 2022-03-29
@@ -98,75 +98,75 @@ releases:
 
 -   releaseCycle: "13"
     releaseDate: 2021-05-25
-    eol: true
+    eol: 2022-02-01
     latest: "13.6.9"
     latestReleaseDate: 2022-02-01
 
 -   releaseCycle: "12"
     releaseDate: 2021-03-02
-    eol: true
+    eol: 2021-11-16
     latest: "12.2.3"
-    latestReleaseDate: 2021-11-16
+    latestReleaseDate: 2021-11-15
 
 -   releaseCycle: "11"
     releaseDate: 2020-11-16
-    eol: true
+    eol: 2021-08-31
     latest: "11.5.0"
     latestReleaseDate: 2021-08-31
 
 -   releaseCycle: "10"
     releaseDate: 2020-08-24
-    eol: true
+    eol: 2021-05-25
     latest: "10.4.7"
-    latestReleaseDate: 2021-05-25
+    latestReleaseDate: 2021-05-24
 
 -   releaseCycle: "9"
     releaseDate: 2020-05-19
-    eol: true
+    eol: 2021-03-02
     latest: "9.4.4"
-    latestReleaseDate: 2021-03-02
+    latestReleaseDate: 2021-03-03
 
 -   releaseCycle: "8"
     releaseDate: 2020-02-03
-    eol: true
+    eol: 2020-11-17
     latest: "8.5.5"
-    latestReleaseDate: 2020-11-17
+    latestReleaseDate: 2020-11-18
 
 -   releaseCycle: "7"
     releaseDate: 2019-10-21
-    eol: true
+    eol: 2020-08-25
     latest: "7.3.3"
     latestReleaseDate: 2020-08-25
 
 -   releaseCycle: "6"
     releaseDate: 2019-07-29
-    eol: true
+    eol: 2020-05-19
     latest: "6.1.12"
-    latestReleaseDate: 2020-05-19
+    latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5"
     releaseDate: 2019-04-24
-    eol: true
+    eol: 2020-02-04
     latest: "5.0.13"
-    latestReleaseDate: 2020-02-04
+    latestReleaseDate: 2019-12-17
 
 -   releaseCycle: "4"
     releaseDate: 2018-12-20
-    eol: true
-    latest: "5.0.13"
-    latestReleaseDate: 2019-10-22
+    eol: 2019-10-22
+    latest: "4.2.12"
+    latestReleaseDate: 2019-10-16
 
 -   releaseCycle: "3"
-    releaseDate: 2018-07-18
-    eol: true
-    latest: "5.0.13"
-    latestReleaseDate: 2019-07-30
+    releaseDate: 2018-09-18
+    eol: 2019-07-31
+    latest: "3.1.13"
+    latestReleaseDate: 2019-07-31
 
 -   releaseCycle: "2"
     releaseDate: 2018-05-01
-    eol: true
-    latest: "5.0.13"
-    latestReleaseDate: 2019-04-23
+    eol: 2019-04-23
+    latest: "2.0.18"
+    latestReleaseDate: 2019-03-08
 
 ---
 
