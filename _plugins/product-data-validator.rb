@@ -70,6 +70,7 @@ module EndOfLifeHooks
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
