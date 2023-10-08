@@ -8,7 +8,7 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate: 
+changelogTemplate:
   https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
@@ -46,7 +46,6 @@ identifiers:
 
 releases:
 -   releaseCycle: "7.0"
-    lts: false
     releaseDate: 2022-11-08
     eol: 2024-05-14
     latest: "7.0.11"
@@ -60,7 +59,6 @@ releases:
     latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "5.0"
-    lts: false
     releaseDate: 2020-11-10
     eol: 2022-05-08
     latest: "5.0.17"
