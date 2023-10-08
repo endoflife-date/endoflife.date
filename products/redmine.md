@@ -15,14 +15,14 @@ changelogTemplate: https://www.redmine.org/projects/redmine/wiki/Changelog_{{"__
 releases:
 -   releaseCycle: "5.0"
     eol: false
-    latest: "5.0.5"
+    latest: "5.0.6"
     releaseDate: 2022-03-28
-    latestReleaseDate: 2023-03-05
+    latestReleaseDate: 2023-09-30
 -   releaseCycle: "4.2"
     eol: false
-    latest: "4.2.10"
+    latest: "4.2.11"
     releaseDate: 2021-03-28
-    latestReleaseDate: 2023-03-05
+    latestReleaseDate: 2023-09-30
 -   releaseCycle: "4.1"
     eol: 2022-03-28
     latest: "4.1.7"

@@ -18,6 +18,11 @@ auto:
       v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.(?<tiny>0|[1-9]\d*))?$
     template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}"
 releases:
+-   releaseCycle: "7.1"
+    eol: false
+    latest: "7.1.0"
+    latestReleaseDate: 2023-10-05
+    releaseDate: 2023-10-05
 -   releaseCycle: "7.0"
     eol: false
     latest: "7.0.8"

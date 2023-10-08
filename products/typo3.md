@@ -22,7 +22,6 @@ auto:
 releases:
 -   releaseCycle: "12"
     eol: 2026-04-30
-    lts: false
     support: 2024-10-31
     extendedSupport: 2029-04-30
     releaseDate: 2022-10-04

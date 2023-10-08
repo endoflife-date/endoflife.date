@@ -31,8 +31,8 @@ releases:
     releaseDate: 2023-09-20
     eol: false
     extendedSupport: false
-    latest: "3.4.1"
-    latestReleaseDate: 2023-09-20
+    latest: "3.4.2"
+    latestReleaseDate: 2023-10-05
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-08-23
@@ -224,13 +224,11 @@ releases:
 > for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting
-the latest version every week in between. Every `major.minor` version
-[deprecates the previous version](https://github.com/quarkusio/quarkus/discussions/29161) and there
-is no LTS versions. See [Quarkus Roadmap/planning](https://github.com/orgs/quarkusio/projects/13)
-for upcoming releases and features.
+the latest version every week in between. [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/),
+a new LTS version is also published every 6 months.
 
-A new LTS release is published every 6 months.[LTS releases](https://quarkus.io/blog/lts-releases/)
-get security patches, critical bug-fixes, and performance enhancements for 12 months.
+Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161). LTS releases are supported for 12 months
+with critical bug fixes and security patches.
 
 Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus/),
 with a longer support timeline. The code base used for this build is the same as the one used for

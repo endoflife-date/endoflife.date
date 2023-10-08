@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-01
     eol: false
-    latest: "2.6.3"
-    latestReleaseDate: 2023-09-15
+    latest: "2.6.4"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "2.5"
     releaseDate: 2022-12-20
@@ -48,14 +48,14 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: 2023-12-31
-    latest: "2.2.21"
-    latestReleaseDate: 2023-02-15
+    latest: "2.2.22"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "1"
     releaseDate: 2016-04-05
     eol: 2020-10-24
-    latest: "1.10.26"
-    latestReleaseDate: 2022-04-13
+    latest: "1.10.27"
+    latestReleaseDate: 2023-09-29
 
 ---
 

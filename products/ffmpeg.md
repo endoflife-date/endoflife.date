@@ -241,7 +241,7 @@ releases:
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of
 > libraries and programs for handling video, audio, and other multimedia files and streams. It is
 > the core of software such as VLC, MPV, Blender, Audacity, HandBrake, OBS Studio, and much more.
-> Full list of capabilities are found [in their documentation](https://ffmpeg.org/ffmpeg.html).
+> Full list of capabilities is found [in their documentation](https://ffmpeg.org/documentation.html).
 
 FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
 defined but, looking at the releases history, there is at least a `x.y` release every year which is

@@ -17,7 +17,6 @@ auto:
 -   git: https://github.com/PowerShell/PowerShell.git
 releases:
 -   releaseCycle: "7.3"
-    lts: false
     eol: false
     latest: "7.3.7"
     latestReleaseDate: 2023-09-18

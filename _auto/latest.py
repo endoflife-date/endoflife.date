@@ -1,10 +1,10 @@
+import argparse
 import sys
 import frontmatter
 import json
 import os
 import re
 import datetime
-from time import time_ns
 from glob import glob
 from pathlib import Path
 from ruamel.yaml import YAML
@@ -21,6 +21,7 @@ _data/release-data and commits back the updated data.
 This is written in Python because the only package that supports writing back YAML with comments is ruamel
 """
 
+DEFAULT_DATA_DIR = '_data/release-data/releases'
 DEFAULT_POST_TEMPLATE = """\
 ---
 {metadata}
@@ -109,7 +110,7 @@ def yaml_to_str(obj):
     return output_str.strip()
 
 
-def update_product(name):
+def update_product(data_dir, name):
     fn = "products/%s.md" % name
     with open(fn, "r+") as f:
         yaml = YAML()
@@ -119,7 +120,7 @@ def update_product(name):
         f.seek(0)
         _, content = frontmatter.parse(f.read())
 
-        fn = "_data/release-data/releases/%s.json" % (name)
+        fn = "%s/%s.json" % (data_dir, name)
         if exists(fn):
             with open(fn) as releases_file:
                 # Entire releases data as a dict
@@ -209,10 +210,15 @@ if __name__ == "__main__":
     # See https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string
     github_output("warning<<$EOF\n")
 
-    if len(sys.argv) > 1:
-        update_product(sys.argv[1])
+    parser = argparse.ArgumentParser(description='Update product releases.')
+    parser.add_argument('product', nargs='?', help='restrict update to the given product')
+    parser.add_argument('-d', '--data-dir', default=DEFAULT_DATA_DIR, help='path to the release data directory')
+    args = parser.parse_args()
+
+    if args.product:
+        update_product(args.data_dir, args.product)
     else:
         for x in glob("products/*.md"):
-            update_product(Path(x).stem)
+            update_product(args.data_dir, Path(x).stem)
 
     github_output("$EOF")

@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "2.47"
     releaseDate: 2023-09-06
     eol: 2023-10-18
-    latestReleaseDate: 2023-09-06
-    latest: "2.47.0"
+    latestReleaseDate: 2023-10-04
+    latest: "2.47.1"
 
 -   releaseCycle: "2.46"
     releaseDate: 2023-07-25
@@ -38,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
-    latestReleaseDate: 2023-06-23
-    latest: "2.45.0"
+    latestReleaseDate: 2023-09-29
+    latest: "2.45.1"
 
 -   releaseCycle: "2.44"
     releaseDate: 2023-05-14

@@ -12,12 +12,23 @@ releaseDateColumn: true
 discontinuedColumn: false
 
 releases:
--   releaseCycle: "4.2"
-    releaseDate: 2022-09-28
+-   releaseCycle: "4.4"
+    releaseDate: 2023-09-14
     support: true
     eol: false
-    latest: "4.2.1"
-    latestReleaseDate: 2022-12-14
+    latest: "4.4.0"
+
+-   releaseCycle: "4.3"
+    releaseDate: 2023-04-26
+    support: 2023-12-31
+    eol: 2024-09-30
+    latest: "4.3.0.1"
+
+-   releaseCycle: "4.2"
+    releaseDate: 2022-09-28
+    support: 2023-07-31
+    eol: 2024-04-30
+    latest: "4.2.1.1"
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-04-13

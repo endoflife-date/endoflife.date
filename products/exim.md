@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "4.96"
     releaseDate: 2022-06-25
     eol: false
-    latest: "4.96"
-    latestReleaseDate: 2022-06-25
+    latest: "4.96.1"
+    latestReleaseDate: 2023-10-01
 
 -   releaseCycle: "4.95"
     releaseDate: 2021-09-28
