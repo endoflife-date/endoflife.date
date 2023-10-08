@@ -15,7 +15,6 @@ extendedSupportColumn: Extended Support
 releases:
 -   releaseCycle: "21"
     releaseLabel: "21c"
-    lts: false
     releaseDate: 2021-08-13
     eol: 2024-04-30
     extendedSupport: false
@@ -32,7 +31,6 @@ releases:
 
 -   releaseCycle: "18"
     releaseLabel: "18c"
-    lts: false
     releaseDate: 2018-07-23
     eol: 2021-06-30
     extendedSupport: false
@@ -40,7 +38,6 @@ releases:
 
 -   releaseCycle: "12.2"
     releaseLabel: "12c Release 2"
-    lts: false
     releaseDate: 2017-03-01
     eol: 2022-03-31
     extendedSupport: false
@@ -104,7 +101,6 @@ releases:
 
 -   releaseCycle: "9.0"
     releaseLabel: "9i Release 1"
-    lts: false
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
     eol: 2003-12-31
