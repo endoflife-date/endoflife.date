@@ -9,6 +9,7 @@ releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
 releaseDateColumn: true
+
 identifiers:
 -   purl: pkg:deb/debian/elasticsearch
 -   purl: pkg:deb/ubuntu/elasticsearch
@@ -16,27 +17,28 @@ identifiers:
 -   purl: pkg:rpm/redhat/elasticsearch
 -   purl: pkg:rpm/centos/elasticsearch
 -   repology: elasticsearch
+
 auto:
 -   git: https://github.com/elastic/elasticsearch.git
 
 releases:
 -   releaseCycle: "8"
+    releaseDate: 2022-02-10
     eol: 2024-08-10 # later of 2024-08-10 or 6 months after the release date of 9.0
     latest: "8.10.2"
     latestReleaseDate: 2023-09-21
-    releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
+    releaseDate: 2019-04-10
     eol: false # later of 2023-08-01 or the release date of 9.0
     latest: "7.17.13"
     latestReleaseDate: 2023-09-06
-    releaseDate: 2019-04-10
 
 -   releaseCycle: "6"
+    releaseDate: 2017-11-14
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-    releaseDate: 2017-11-14
 
 ---
 
