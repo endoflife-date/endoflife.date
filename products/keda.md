@@ -20,6 +20,13 @@ identifiers:
 # See https://github.com/kedacore/keda?tab=security-ov-file#readme.
 # Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md.
 releases:
+-   releaseCycle: "2.12"
+    releaseDate: 2023-09-28
+    eol: false
+    supportedKubernetesVersions: 1.26 - 1.28
+    latest: "2.12.0"
+    latestReleaseDate: 2023-09-28
+
 -   releaseCycle: "2.11"
     releaseDate: 2023-06-22
     eol: 2024-01-11 # expected releaseDate of 2.13
