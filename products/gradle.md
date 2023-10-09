@@ -73,7 +73,7 @@ releases:
     releaseDate: 2012-06-12
     support: 2014-07-01
     eol: 2014-07-01
-    latest: "1.12"
+    latest: "1.12.0"
     latestReleaseDate: 2014-04-29
 
 ---
