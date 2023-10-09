@@ -36,7 +36,7 @@ jobs:
         run: python _auto/latest.py
 
       - name: Update latest and latestReleaseDate
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: products/*
           commit_message: "🤖: Update latest release data"
