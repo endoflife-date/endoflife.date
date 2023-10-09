@@ -20,8 +20,8 @@ releases:
 
 -   releaseCycle: "3.9"
     releaseDate: 2023-01-17
-    latest: "3.9.6"
-    latestReleaseDate: 2023-07-26
+    latest: "3.9.7"
+    latestReleaseDate: 2023-10-06
     codename: "Brookesia"
     eol: false
 
