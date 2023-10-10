@@ -12,7 +12,18 @@ eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
 
+# release date: https://www.atlassian.com/software/confluence/download-archives
+# eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "8.6"
+    releaseLabel: "8.6 Data Center"
+    releaseDate: 2023-10-04
+    eol: 2025-10-05
+    latest: "8.6.0"
+    latestReleaseDate: 2023-10-04
+    link: 
+      https://confluence.atlassian.com/doc/confluence-8-6-release-notes-1289421595.html
+
 -   releaseCycle: "8.5"
     releaseDate: 2023-08-21
     eol: 2025-08-22
