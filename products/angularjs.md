@@ -99,9 +99,9 @@ AngularJS was [deprecated](https://docs.angularjs.org/misc/version-support-statu
 December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c)
 on the final version 1.8.3 which was released April 7, 2022.
 
-Beginning January 1, 2022, [extended long term support for AngularJS](https://xlts.dev/angularjs)
+Beginning January 1, 2022, [extended long term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
 became available for 1.5.x and 1.8.x versions through a fork of the project maintained by the
-independent team at [XLTS.dev](http://xlts.dev/).
+independent team at [HeroDevs](https://www.herodevs.com/) (formely XLTS.dev).
 
-AngularJS version 1.8 has continued commercial support through the XLTS 1.9 forked version, where
-XLTS 1.9 is a compatible replacement for AngularJS version 1.8.
+AngularJS version 1.8 has continued commercial support through the HeroDevs Never-Ending Support initiative.
+AngularJS NES 1.9 is a compatible replacement for AngularJS version 1.8.
