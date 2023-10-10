@@ -18,6 +18,12 @@ auto:
 
 # EOL dates documented on https://www.electronjs.org/docs/latest/tutorial/electron-timelines.
 releases:
+-   releaseCycle: "27"
+    releaseDate: 2023-10-10
+    eol: false # TBD on https://www.electronjs.org/docs/latest/tutorial/electron-timelines
+    latest: "27.0.0"
+    latestReleaseDate: 2023-10-10
+
 -   releaseCycle: "26"
     releaseDate: 2023-08-14
     eol: 2024-02-27
