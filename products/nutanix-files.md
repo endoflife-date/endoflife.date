@@ -5,12 +5,12 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 
+# Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
 -   releaseCycle: "4.4"
     releaseDate: 2023-09-14

@@ -162,6 +162,8 @@ releases:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-5-x-release-notes-975014654.html
 
 -   releaseCycle: "7.13"
+    releaseDate: 2018-11-27
+    eol: 2020-11-28
     lts: true
     releaseDate: 2018-11-27
     eol: 2020-11-28

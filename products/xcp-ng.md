@@ -24,7 +24,6 @@ releases:
 -   releaseCycle: "8.1"
     releaseDate: 2020-03-25
     eol: 2021-03-31
-    lts: false
     latest: "8.1.0"
     latestReleaseDate: 2020-03-25
     link: https://xcp-ng.org/docs/release-8-1.html
@@ -32,28 +31,24 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2019-07-18
     eol: 2020-11-13
-    lts: false
     latest: "8.0.0"
     latestReleaseDate: 2019-07-18
 
 -   releaseCycle: "7.6"
     releaseDate: 2018-10-10
     eol: 2020-03-30
-    lts: false
     latest: "7.6.0"
     latestReleaseDate: 2018-10-10
 
 -   releaseCycle: "7.5"
     releaseDate: 2018-08-09
     eol: 2019-07-25
-    lts: false
     latest: "7.5.0"
     latestReleaseDate: 2018-08-09
 
 -   releaseCycle: "7.4"
     releaseDate: 2018-03-31
     eol: 2018-10-31
-    lts: false
     latest: "7.4.0"
     latestReleaseDate: 2018-03-31
 

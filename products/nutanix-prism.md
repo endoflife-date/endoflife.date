@@ -10,11 +10,11 @@ alternate_urls:
 -   /prismcentral
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 
+# Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
 -   releaseCycle: "pc.2023.3"
     releaseDate: 2023-08-30
