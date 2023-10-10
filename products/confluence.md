@@ -12,7 +12,17 @@ eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
 
+# release date: https://www.atlassian.com/software/confluence/download-archives
+# eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "8.6"
+    releaseDate: 2023-10-04
+    eol: 2025-10-05
+    latest: "8.6.0"
+    latestReleaseDate: 2023-10-04
+    link: 
+      https://confluence.atlassian.com/doc/confluence-8-6-release-notes-1289421595.html
+
 -   releaseCycle: "8.5"
     releaseDate: 2023-08-21
     eol: 2025-08-22
@@ -158,6 +168,10 @@ releases:
 > [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki
 > developed by Atlassian.
 
+{: .warning }
+> Atlassian will end support for Confluence Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
+> And starting from 8.6.x, new releases of Confluence are available only to Data Center customers.
+
 Confluence is available both as SaaS and on-premises offer, with three editions:
 
 - Confluence Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
@@ -178,7 +192,3 @@ More information about enterprise LTS releases can be found in
 [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
 Information about Atlassian Support End of Life Policy can be found in
 [this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
-
-Atlassian will end support for Confluence Server
-[on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud),
-but Confluence Data Center will still be available.
