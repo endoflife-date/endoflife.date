@@ -90,7 +90,7 @@ releases:
 
 {: .warning }
 > This page is tracking the [Laravel framework](https://github.com/laravel/framework), not the
-> [Laravel application](https://github.com/laravel/laravel), which is just the starter application.
+> [Laravel application](https://github.com/laravel/laravel) which is just the starter application.
 
 For LTS releases, such as Laravel 5.5 and 6.0, bug fixes are provided for 2 years and security fixes
 are provided for 3 years. These releases provide the longest window of support and maintenance. For
