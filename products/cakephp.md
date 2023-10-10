@@ -23,215 +23,215 @@ auto:
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
 -   releaseCycle: "5.0"
-    eol: false
-    support: true
     releaseDate: 2023-09-09
+    support: true
+    eol: false
     latest: "5.0.1"
     latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "4.4"
-    eol: 2026-09-09
-    support: 2025-09-09
     releaseDate: 2022-06-06
+    support: 2025-09-09
+    eol: 2026-09-09
     latest: "4.4.18"
     latestReleaseDate: 2023-09-22
 
 -   releaseCycle: "4.3"
-    eol: 2026-09-09
-    support: 2022-06-07
     releaseDate: 2021-10-23
+    support: 2022-06-07
+    eol: 2026-09-09
     latest: "4.3.11"
     latestReleaseDate: 2023-01-05
 
 -   releaseCycle: "4.2"
-    latest: "4.2.12"
-    eol: 2026-09-09
-    support: 2021-10-24
     releaseDate: 2020-12-20
+    support: 2021-10-24
+    eol: 2026-09-09
+    latest: "4.2.12"
     latestReleaseDate: 2023-01-06
 
 -   releaseCycle: "4.1"
-    latest: "4.1.7"
-    eol: true
-    support: 2020-12-21
     releaseDate: 2020-07-04
+    support: 2020-12-21
+    eol: true
+    latest: "4.1.7"
     latestReleaseDate: 2020-12-12
 
 -   releaseCycle: "4.0"
-    latest: "4.0.10"
-    eol: true
-    support: 2020-07-05
     releaseDate: 2019-12-15
+    support: 2020-07-05
+    eol: true
+    latest: "4.0.10"
     latestReleaseDate: 2020-12-07
 
 -   releaseCycle: "3.10"
-    latest: "3.10.5"
-    eol: 2022-12-15
-    support: 2021-12-15
     releaseDate: 2021-06-19
+    support: 2021-12-15
+    eol: 2022-12-15
+    latest: "3.10.5"
     latestReleaseDate: 2023-01-01
 
 -   releaseCycle: "3.9"
-    latest: "3.9.10"
-    eol: true
-    support: 2021-06-20
     releaseDate: 2020-06-20
+    support: 2021-06-20
+    eol: true
+    latest: "3.9.10"
     latestReleaseDate: 2021-05-30
 
 -   releaseCycle: "3.8"
-    latest: "3.8.13"
-    eol: true
-    support: 2020-06-21
     releaseDate: 2019-06-26
+    support: 2020-06-21
+    eol: true
+    latest: "3.8.13"
     latestReleaseDate: 2020-06-19
 
 -   releaseCycle: "3.7"
-    latest: "3.7.9"
-    eol: true
-    support: 2019-06-27
     releaseDate: 2018-12-08
+    support: 2019-06-27
+    eol: true
+    latest: "3.7.9"
     latestReleaseDate: 2019-06-19
 
 -   releaseCycle: "3.6"
-    latest: "3.6.15"
-    eol: true
-    support: 2018-12-09
     releaseDate: 2018-04-14
+    support: 2018-12-09
+    eol: true
+    latest: "3.6.15"
     latestReleaseDate: 2019-04-23
 
 -   releaseCycle: "3.5"
-    latest: "3.5.18"
-    eol: true
-    support: 2018-04-15
     releaseDate: 2017-08-18
+    support: 2018-04-15
+    eol: true
+    latest: "3.5.18"
     latestReleaseDate: 2019-04-23
 
 -   releaseCycle: "3.4"
-    latest: "3.4.14"
-    eol: true
-    support: 2017-08-19
     releaseDate: 2017-02-12
+    support: 2017-08-19
+    eol: true
+    latest: "3.4.14"
     latestReleaseDate: 2018-05-20
 
 -   releaseCycle: "3.3"
-    latest: "3.3.16"
-    eol: true
-    support: 2017-02-13
     releaseDate: 2016-08-12
+    support: 2017-02-13
+    eol: true
+    latest: "3.3.16"
     latestReleaseDate: 2017-04-06
 
 -   releaseCycle: "3.2"
-    latest: "3.2.14"
-    eol: true
-    support: 2016-08-13
     releaseDate: 2016-01-29
+    support: 2016-08-13
+    eol: true
+    latest: "3.2.14"
     latestReleaseDate: 2016-08-12
 
 -   releaseCycle: "3.1"
-    latest: "3.1.14"
-    eol: 2017-02-13
-    support: 2016-01-16
     releaseDate: 2015-09-19
+    support: 2016-01-16
+    eol: 2017-02-13
+    latest: "3.1.14"
     latestReleaseDate: 2016-11-25
 
 -   releaseCycle: "3.0"
-    latest: "3.0.19"
-    eol: true
-    support: 2015-09-20
     releaseDate: 2015-03-22
+    support: 2015-09-20
+    eol: true
+    latest: "3.0.19"
     latestReleaseDate: 2016-11-25
 
 -   releaseCycle: "2.10"
-    latest: "2.10.24"
-    eol: 2021-06-15
-    support: 2020-12-15
     releaseDate: 2017-07-22
+    support: 2020-12-15
+    eol: 2021-06-15
+    latest: "2.10.24"
     latestReleaseDate: 2020-12-15
 
 -   releaseCycle: "2.9"
-    latest: "2.9.9"
-    eol: true
-    support: false
     releaseDate: 2016-09-18
+    support: false
+    eol: true
+    latest: "2.9.9"
     latestReleaseDate: 2017-05-25
 
 -   releaseCycle: "2.8"
-    latest: "2.8.9"
-    eol: true
-    support: false
     releaseDate: 2016-02-06
+    support: false
+    eol: true
+    latest: "2.8.9"
     latestReleaseDate: 2016-09-18
 
 -   releaseCycle: "2.7"
-    latest: "2.7.11"
-    eol: true
-    support: false
     releaseDate: 2015-07-11
+    support: false
+    eol: true
+    latest: "2.7.11"
     latestReleaseDate: 2016-03-13
 
 -   releaseCycle: "2.6"
-    latest: "2.6.13"
-    eol: true
-    support: false
     releaseDate: 2014-12-23
+    support: false
+    eol: true
+    latest: "2.6.13"
     latestReleaseDate: 2016-03-13
 
 -   releaseCycle: "2.5"
-    latest: "2.5.9"
-    eol: true
-    support: false
     releaseDate: 2014-05-12
+    support: false
+    eol: true
+    latest: "2.5.9"
     latestReleaseDate: 2015-08-06
 
 -   releaseCycle: "2.4"
-    latest: "2.4.10"
-    eol: true
-    support: false
     releaseDate: 2013-08-30
+    support: false
+    eol: true
+    latest: "2.4.10"
     latestReleaseDate: 2014-05-17
 
 -   releaseCycle: "2.3"
-    latest: "2.3.10"
-    eol: true
-    support: false
     releaseDate: 2013-01-28
+    support: false
+    eol: true
+    latest: "2.3.10"
     latestReleaseDate: 2013-08-30
 
 -   releaseCycle: "2.2"
-    latest: "2.2.9"
-    eol: true
-    support: false
     releaseDate: 2012-07-01
+    support: false
+    eol: true
+    latest: "2.2.9"
     latestReleaseDate: 2013-07-17
 
 -   releaseCycle: "2.1"
-    latest: "2.1.5"
-    eol: true
-    support: false
     releaseDate: 2012-03-04
+    support: false
+    eol: true
+    latest: "2.1.5"
     latestReleaseDate: 2012-07-14
     link: https://bakery.cakephp.org/2012/07/14/Security-Release-CakePHP-2-1-5-2-2-1.html
 
 -   releaseCycle: "2.0"
-    latest: "2.0.6"
-    eol: true
-    support: false
     releaseDate: 2011-10-16
+    support: false
+    eol: true
+    latest: "2.0.6"
     latestReleaseDate: 2012-02-05
     link: https://bakery.cakephp.org/2012/02/06/CakePHP-2-0-6-released.html
 
 -   releaseCycle: "1.3"
-    latest: "1.3.21"
-    eol: 2015-11-01
-    support: 2015-11-01
     releaseDate: 2010-04-25
+    support: 2015-11-01
+    eol: 2015-11-01
+    latest: "1.3.21"
     latestReleaseDate: 2015-10-31
 
 ---
 
 > [CakePHP](https://cakephp.org/) is a free and open source PHP web development framework. It
-> follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts
-> of Ruby on Rails.
+> follows the model–view–controller (MVC) approach and is written in PHP, modeled after the
+> concepts of Ruby on Rails.
 
 CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
 onward, major versions have a name:
@@ -253,14 +253,14 @@ the last major release cycle have security support.
 
 ## PHP Support
 
-Version    | Min PHP | Max PHP
------------|---------|--------
-5.0        | 8.1     | Latest
-4.4        | 7.4     | Latest
-4.0 - 4.3  | 7.2     |
-3.4 - 3.10 | 5.6     | 7.4
-3.2 - 3.3  | 5.5     |
-3.0 - 3.1  | 5.4     |
-2          | 5.4     | 7.4
+| Version    | Min PHP | Max PHP |
+|------------|---------|---------|
+| 5.0        | 8.1     | Latest  |
+| 4.4        | 7.4     | Latest  |
+| 4.0 - 4.3  | 7.2     |         |
+| 3.4 - 3.10 | 5.6     | 7.4     |
+| 3.2 - 3.3  | 5.5     |         |
+| 3.0 - 3.1  | 5.4     |         |
+| 2          | 5.4     | 7.4     |
 
-See [Version map](https://github.com/cakephp/cakephp/wiki#version-map)
+See [Version map](https://github.com/cakephp/cakephp/wiki#version-map).

@@ -20,7 +20,6 @@ identifiers:
 # See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
 -   releaseCycle: "5.1"
-    lts: false
     releaseDate: 2023-08-01
     support: 2023-11-01
     eol: 2024-02-01
@@ -28,7 +27,6 @@ releases:
     latestReleaseDate: 2023-09-25
 
 -   releaseCycle: "5.0"
-    lts: false
     releaseDate: 2023-05-02
     support: 2023-08-01
     eol: 2023-11-01
@@ -37,7 +35,6 @@ releases:
 
 -   releaseCycle: "4.2"
     support: 2023-05-02
-    lts: false
     eol: 2023-08-01
     latest: "4.2.4"
     latestReleaseDate: 2023-05-25
@@ -53,7 +50,6 @@ releases:
 
 -   releaseCycle: "4.0"
     support: 2022-11-01
-    lts: false
     eol: 2023-02-01
     latest: "4.0.4"
     latestReleaseDate: 2022-10-18
@@ -61,7 +57,6 @@ releases:
 
 -   releaseCycle: "3.0"
     support: 2022-08-31
-    lts: false
     eol: 2022-11-01
     latest: "3.0.3"
     latestReleaseDate: 2022-09-05
@@ -69,7 +64,6 @@ releases:
 
 -   releaseCycle: "2.16"
     support: 2022-05-01
-    lts: false
     eol: 2022-05-16
     latest: "2.16.3"
     latestReleaseDate: 2022-09-05
@@ -86,7 +80,6 @@ releases:
 -   releaseCycle: "2.14"
     eol: 2022-02-07
     support: 2021-11-04
-    lts: false
     latest: "2.14.2"
     latestReleaseDate: 2021-10-14
     releaseDate: 2021-08-02
@@ -94,7 +87,6 @@ releases:
 -   releaseCycle: "2.13"
     eol: 2022-02-01
     support: 2021-08-01
-    lts: false
     latest: "2.13.5"
     latestReleaseDate: 2021-10-14
     releaseDate: 2021-05-12
@@ -102,7 +94,6 @@ releases:
 -   releaseCycle: "2.12"
     eol: 2021-08-01
     support: 2021-05-12
-    lts: false
     latest: "2.12.6"
     latestReleaseDate: 2021-07-13
     releaseDate: 2021-02-02
@@ -118,7 +109,6 @@ releases:
 -   releaseCycle: "2.10"
     eol: 2021-02-02
     support: 2020-11-02
-    lts: false
     latest: "2.10.2"
     latestReleaseDate: 2020-09-25
     releaseDate: 2020-08-11
@@ -126,7 +116,6 @@ releases:
 -   releaseCycle: "2.9"
     eol: 2020-11-02
     support: 2020-08-11
-    lts: false
     latest: "2.9.3"
     latestReleaseDate: 2020-07-20
     releaseDate: 2020-05-04
@@ -134,7 +123,6 @@ releases:
 -   releaseCycle: "2.8"
     eol: 2020-08-11
     support: 2020-05-04
-    lts: false
     latest: "2.8.2"
     latestReleaseDate: 2020-05-04
     releaseDate: 2020-02-03
