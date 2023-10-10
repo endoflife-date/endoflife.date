@@ -7,19 +7,26 @@ permalink: /jira-software
 alternate_urls:
 -   /jira
 -   /jira-core
-releasePolicyLink: 
+releasePolicyLink:
   https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
 releaseColumn: true
 releaseDateColumn: true
 
+# Script: https://github.com/endoflife-date/release-data/blob/main/src/jira.py
+auto:
+-   custom: true
+
+# Release dates from https://www.atlassian.com/software/jira/update,
+# They may vary by a day or two from what can be seen in the release notes.
+# EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
 -   releaseCycle: "9.11"
     releaseDate: 2023-08-30
     eol: 2025-08-30
     latest: "9.11.2"
     latestReleaseDate: 2023-10-05
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-11-x-release-notes-1272283668.html
 
 -   releaseCycle: "9.10"
@@ -27,7 +34,7 @@ releases:
     eol: 2025-07-11
     latest: "9.10.2"
     latestReleaseDate: 2023-09-19
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-10-x-release-notes-1255446432.html
 
 -   releaseCycle: "9.9"
@@ -35,7 +42,7 @@ releases:
     eol: 2025-06-02
     latest: "9.9.2"
     latestReleaseDate: 2023-08-30
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-9-x-release-notes-1236934945.html
 
 -   releaseCycle: "9.8"
@@ -43,7 +50,7 @@ releases:
     eol: 2025-04-25
     latest: "9.8.2"
     latestReleaseDate: 2023-08-30
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-8-x-release-notes-1224776099.html
 
 -   releaseCycle: "9.7"
@@ -51,7 +58,7 @@ releases:
     eol: 2025-03-20
     latest: "9.7.2"
     latestReleaseDate: 2023-08-30
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-7-x-release-notes-1217298752.html
 
 -   releaseCycle: "9.6"
@@ -59,7 +66,7 @@ releases:
     eol: 2025-01-24
     latest: "9.6.0"
     latestReleaseDate: 2023-01-24
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-6-x-release-notes-1207174461.html
 
 -   releaseCycle: "9.5"
@@ -67,7 +74,7 @@ releases:
     eol: 2024-12-06
     latest: "9.5.1"
     latestReleaseDate: 2023-01-19
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-5-x-release-notes-1188764867.html
 
 -   releaseCycle: "9.4"
@@ -76,7 +83,7 @@ releases:
     lts: true
     latest: "9.4.11"
     latestReleaseDate: 2023-10-04
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-4-x-release-notes-1178869757.html
 
 -   releaseCycle: "9.3"
@@ -84,7 +91,7 @@ releases:
     eol: 2024-09-29
     latest: "9.3.3"
     latestReleaseDate: 2023-01-19
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-3-x-release-notes-1168850570.html
 
 -   releaseCycle: "9.2"
@@ -92,7 +99,7 @@ releases:
     eol: 2024-08-25
     latest: "9.2.1"
     latestReleaseDate: 2022-12-22
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-2-x-release-notes-1163763245.html
 
 -   releaseCycle: "9.1"
@@ -100,7 +107,7 @@ releases:
     eol: 2024-07-21
     latest: "9.1.1"
     latestReleaseDate: 2022-08-23
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-1-x-release-notes-1142452845.html
 
 -   releaseCycle: "9.0"
@@ -108,7 +115,7 @@ releases:
     eol: 2024-06-21
     latest: "9.0.0"
     latestReleaseDate: 2022-06-21
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-9-0-x-release-notes-1142227613.html
 
 -   releaseCycle: "8.22"
@@ -116,7 +123,7 @@ releases:
     eol: 2024-02-16
     latest: "8.22.6"
     latestReleaseDate: 2022-07-20
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html
 
 -   releaseCycle: "8.21"
@@ -124,7 +131,7 @@ releases:
     eol: 2023-12-09
     latest: "8.21.1"
     latestReleaseDate: 2022-01-27
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-21-x-release-notes-1095249705.html
 
 -   releaseCycle: "8.20"
@@ -133,7 +140,7 @@ releases:
     lts: true
     latest: "8.20.27"
     latestReleaseDate: 2023-10-03
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-20-x-release-notes-1086411771.html
 
 -   releaseCycle: "8.13"
@@ -142,7 +149,7 @@ releases:
     lts: true
     latest: "8.13.27"
     latestReleaseDate: 2022-10-24
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-13-x-release-notes-1018783360.html
 
 -   releaseCycle: "8.5"
@@ -151,16 +158,18 @@ releases:
     lts: true
     latest: "8.5.19"
     latestReleaseDate: 2021-09-13
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-8-5-x-release-notes-975014654.html
 
 -   releaseCycle: "7.13"
     releaseDate: 2018-11-27
     eol: 2020-11-28
     lts: true
+    releaseDate: 2018-11-27
+    eol: 2020-11-28
     latest: "7.13.18"
     latestReleaseDate: 2020-10-11
-    link: 
+    link:
       https://confluence.atlassian.com/jirasoftware/jira-software-7-13-x-release-notes-957981568.html
 
 ---
@@ -170,11 +179,10 @@ releases:
 
 Jira Software is available both as SaaS and on-premises offer, with three editions:
 
-- Jira Software Cloud: Cloud edition, available through
-  [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
+- Jira Software Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
 - Jira Software Server: Self-hosted edition.
-- Jira Software Data Center: Self-hosted edition, targeted to enterprises (see [Jira Server and Data
-  Center feature comparison](https://confluence.atlassian.com/enterprise/jira-server-and-data-center-feature-comparison-953651628.html)
+- Jira Software Data Center: Self-hosted edition, targeted to enterprises (see [Jira
+  Server and Data Center feature comparison](https://confluence.atlassian.com/enterprise/jira-server-and-data-center-feature-comparison-953651628.html)
   for more information).
 
 This page is **only** about Jira Software Server and Jira Software Data Center. Jira Software Cloud
@@ -185,6 +193,5 @@ which receive security support and bug fixes for 2 years. Non-LTS releases are s
 6 months (there may be some exception). More information can be found in
 [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
 
-Atlassian will end support for Jira Software Server
-[on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud),
+Atlassian will end support for Jira Software Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud),
 but Jira Software Data Center will still be available.
