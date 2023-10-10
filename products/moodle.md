@@ -13,13 +13,21 @@ discontinuedColumn: false
 auto:
 -   git: https://github.com/moodle/moodle.git
 
+# Support and EOL dates on https://moodledev.io/general/releases
 releases:
+-   releaseCycle: "4.3"
+    releaseDate: 2023-10-07
+    support: 2024-10-14
+    eol: 2025-04-14
+    # Remove this link after 4.3.1 is released
+    link: https://moodledev.io/general/releases/4.3
+    latest: "4.3.0"
+    latestReleaseDate: 2023-10-07
+
 -   releaseCycle: "4.2"
     releaseDate: 2023-04-22
     support: 2024-04-22
     eol: 2024-10-07
-    # Remove this link after 4.2.1 is released
-    link: https://moodledev.io/general/releases/4.2
     latest: "4.2.3"
     latestReleaseDate: 2023-10-07
 
