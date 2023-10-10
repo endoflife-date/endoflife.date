@@ -10,7 +10,7 @@ changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
 releaseDateColumn: true
 
-# Note that laravel/laravel is just a started application.
+# Note that laravel/laravel is just a starter application.
 auto:
 -   git: https://github.com/laravel/framework.git
 
@@ -87,6 +87,10 @@ releases:
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell
 > and intended for the development of web applications following the model–view–controller (MVC)
 > architectural pattern and based on Symfony.
+
+{: .warning }
+> This page is tracking the [Laravel framework](https://github.com/laravel/framework), not the
+> [Laravel application](https://github.com/laravel/laravel) which is just the starter application.
 
 For LTS releases, such as Laravel 5.5 and 6.0, bug fixes are provided for 2 years and security fixes
 are provided for 3 years. These releases provide the longest window of support and maintenance. For
