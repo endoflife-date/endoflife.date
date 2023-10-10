@@ -16,7 +16,6 @@ releaseDateColumn: true
 # eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
 -   releaseCycle: "8.6"
-    releaseLabel: "8.6 Data Center"
     releaseDate: 2023-10-04
     eol: 2025-10-05
     latest: "8.6.0"
@@ -168,6 +167,9 @@ releases:
 
 > [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki
 > developed by Atlassian.
+
+{: .warning }
+> Starting from 8.6.x, new releases of Confluence are available only to Data Center customers.
 
 Confluence is available both as SaaS and on-premises offer, with three editions:
 
