@@ -24,7 +24,7 @@ releases:
     releaseDate: 2023-10-04
     eol: 2025-08-22
     latest: "8.6.0"
-    latestReleaseDate: 2025-10-05
+    latestReleaseDate: 2023-10-04
     link: https://confluence.atlassian.com/doc/confluence-8-6-release-notes-1289421595.html
 
 -   releaseCycle: "8.5"
