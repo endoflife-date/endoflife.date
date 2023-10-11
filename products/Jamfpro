@@ -44,4 +44,6 @@ releases:
 > set of features for deploying and updating apps and software, configuring device settings,
 > enforcing security policies and remotely wiping devices in the event of theft or loss.
 
+Jamf Pro releases are typically announced in the fall and released in the winter. It follows an N-3 support policy. This means that Jamf will support the current major version (N) and the previous three major versions (N-3).Jamf Pro releases are subject to an End of Life (EOL) policy. This means that Jamf will stop providing security updates and support for older versions of Jamf Pro. The EOL date for each version of Jamf Pro is typically announced one year in advance.
+
 Jamf Pro documentation: https://docs.jamf.com/jamf-pro/
