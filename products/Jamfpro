@@ -39,10 +39,9 @@ releases:
 
 ---
 
-> [Jamf-Pro]([https://www.jamf.com/products/jamf-pro/) a mobile device management (MDM) solution
-> that helps organizations manage and secure their Apple devices.It provides a comprehensive
-> set of features for deploying and updating apps and software,configuring device settings,
-> enforcing security policies, and remotely wiping devices in the event of theft or loss.
-> Jamf Pro is a popular choice for organizations of all sizes, from small businesses to large enterprises.
+> [Jamf-Pro](https://www.jamf.com/products/jamf-pro/) is a mobile device management (MDM) solution
+> that helps organizations manage and secure their Apple devices. It provides a comprehensive
+> set of features for deploying and updating apps and software, configuring device settings,
+> enforcing security policies and remotely wiping devices in the event of theft or loss.
 
 Jamf Pro documentation: https://docs.jamf.com/jamf-pro/
