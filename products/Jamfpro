@@ -1,15 +1,16 @@
 ---
 title: Jamf Pro
-category: mobile device management (MDM)
+category: device
 iconSlug: jamf_pro
 permalink: /jamf-pro
 versionCommand: jamf-pro --version
 releasePolicyLink: [https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/]
 eolColumn: true
-releaseDateColumn: true
+releaseDateColumn: false
 
 
 releases:
+
 -   releaseCycle: "10.50.0"
     latestReleaseDate: 2022-10-10
     eol: 2025-10-10
