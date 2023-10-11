@@ -6,7 +6,7 @@ permalink: /jamf-pro
 versionCommand: jamf-pro --version
 releasePolicyLink: [https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/]
 eolColumn: true
-releaseDateColumn: false
+releaseDateColumn: latest
 
 
 releases:
