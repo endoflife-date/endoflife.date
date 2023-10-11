@@ -1,35 +1,34 @@
 ---
-title: Jamf Pro
+title: Jamf-Pro
 category: device
 iconSlug: jamf_pro
 permalink: /jamf-pro
 versionCommand: jamf-pro --version
 releasePolicyLink: [https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/]
 eolColumn: true
-releaseDateColumn: Released
+releaseDateColumn: true
 
 
 releases:
 
--   releaseCycle: "10.50.0"
-    latest: 2022-10-10
+-   latest: "10.50.0"
     eol: 2025-10-10
     
     link: https://learn.jamf.com/search?labelkey=product-pro-10.50.0
 
--   releaseCycle: "10.49.0"
-    latest: 2022-04-12
+-   latest: "10.49.0"
     eol: 2025-04-12
+
     link: https://community.jamf.com/t5/jamf-pro/jamf-pro-10-49-0-beta-now-available/td-p/295325
 
--   releaseCycle: "10.48.0"
-    latest: 2021-10-12
+-   latest: "10.48.0"
     eol: 2024-10-12
+
     link: https://community.jamf.com/t5/release-info/jamf-pro-10-48-now-available/ta-p/294694
 
--   releaseCycle: "10.47.0"
-    latest: 2021-04-13
+-   latest: "10.47.0"
     eol: 2024-04-13
+
     link: https://community.jamf.com/t5/jamf-pro/jamf-pro-10-47-now-available/m-p/293101
 
 ---
