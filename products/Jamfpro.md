@@ -20,21 +20,18 @@ releases:
     releaseDate: 2022-10-10
     latest: "10.49.0"
     eol: 2025-04-12
-
     link: https://community.jamf.com/t5/jamf-pro/jamf-pro-10-49-0-beta-now-available/td-p/295325
 
 -   releaseCycle: "10.48"
     releaseDate: 2022-10-10
     latest: "10.48.0"
     eol: 2024-10-12
-
     link: https://community.jamf.com/t5/release-info/jamf-pro-10-48-now-available/ta-p/294694
 
 -   releaseCycle: "10.47"
     releaseDate: 2021-04-13
     latest: "10.47.0"
     eol: 2024-04-13
-
     link: https://community.jamf.com/t5/jamf-pro/jamf-pro-10-47-now-available/m-p/293101
 
 ---
