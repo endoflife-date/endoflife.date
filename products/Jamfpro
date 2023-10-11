@@ -14,7 +14,6 @@ releases:
     releaseDate: 2022-10-10
     latest: "10.50.0"
     eol: 2025-10-10
-    
     link: https://learn.jamf.com/search?labelkey=product-pro-10.50.0
 
 -   releaseCycle: "10.49"
