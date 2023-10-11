@@ -1,7 +1,6 @@
 ---
 title: Jamf Pro
 category: device
-iconSlug: jamf_pro
 permalink: /jamf-pro
 versionCommand: jamf-pro --version
 releasePolicyLink: [https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/]
