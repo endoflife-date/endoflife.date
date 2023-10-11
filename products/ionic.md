@@ -24,8 +24,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "7.4.3"
-    latestReleaseDate: 2023-10-04
+    latest: "7.5.0"
+    latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08
