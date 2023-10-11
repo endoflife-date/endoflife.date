@@ -37,6 +37,13 @@ auto:
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-10-10
+    eol: 2029-09-30
+    latest: "21+35"
+    latestReleaseDate: 2023-10-10
+
 -   releaseCycle: "20"
     releaseDate: 2023-03-23
     # expected 21 release date (see https://www.java.com/releases/)
