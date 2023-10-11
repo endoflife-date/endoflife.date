@@ -44,7 +44,7 @@ releases:
     eol: 2028-01-11
     latest: "2018.3.2patch18"
     latestReleaseDate: 2023-09-12
-    link: https://learn.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-18
+    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-18
 
 -   releaseCycle: "2017"
     releaseLabel: "TFS __RELEASE_CYCLE__"
