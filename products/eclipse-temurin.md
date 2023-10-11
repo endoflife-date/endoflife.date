@@ -38,6 +38,7 @@ auto:
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
 -   releaseCycle: "21"
+    lts: true
     releaseDate: 2023-10-10
     eol: 2029-09-30
     latest: "21+35"
