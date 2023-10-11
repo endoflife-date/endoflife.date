@@ -35,7 +35,7 @@ releases:
     eol: 2029-04-10
     latest: "2019.1.2patch5"
     latestReleaseDate: 2023-09-12
-    link: https://learn.microsoft.com/en-us/azure/devops/server/release-notes/azuredevops2019u1?view=azure-devops-2020#azure-devops-server-2019-update-12-patch-5-release-date-september-12-2023
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1?view=azure-devops-2020#azure-devops-server-2019-update-12-patch-5-release-date-september-12-2023
 
 -   releaseCycle: "2018"
     releaseLabel: "TFS __RELEASE_CYCLE__"
