@@ -39,5 +39,4 @@ year, with an expectation of patch releases every week or so and minor releases 
 Minor and Patch releases should never contain breaking changes except for features marked as
 _experimental_.
 
-Nuxt 2 will reach End of Life (EOL) on June 30th, 2024.
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
