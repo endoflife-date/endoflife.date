@@ -124,9 +124,6 @@ releases:
 > the scaling of any container in Kubernetes based on the number of events needing to be processed.
 
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
-A new minor version is released approximately every three months.
-
-KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
 A new minor version is released approximately every three months and is usually supported until the
  next minor version is released.
 
