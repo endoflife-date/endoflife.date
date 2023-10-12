@@ -14,7 +14,7 @@ auto:
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
-    eol: 2026-04-01
+    eol: 2026-07-31
     latest: "8.0.34"
     latestReleaseDate: 2023-08-09
 
@@ -22,7 +22,7 @@ releases:
     releaseDate: 2016-02-22
     eol: 2023-10-01
     latest: "5.7.43"
-    latestReleaseDate: 2023-08-09
+    latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01
