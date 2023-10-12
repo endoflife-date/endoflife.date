@@ -16,6 +16,13 @@ auto:
 -   git: https://github.com/qt/qt5.git
 
 releases:
+-   releaseCycle: "6.6"
+    releaseDate: 2023-10-10
+    eol: 2024-03-10 # estimated, 2023-10-09 + 6 months
+    extendedSupport: false
+    latest: "6.6.0"
+    latestReleaseDate: 2023-10-10
+
 -   releaseCycle: "6.5"
     lts: true
     releaseDate: 2023-03-31

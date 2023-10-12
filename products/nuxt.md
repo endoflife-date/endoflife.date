@@ -23,7 +23,7 @@ releases:
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
     support: 2022-11-16
-    eol: 2023-12-31
+    eol: 2024-06-30
     latest: "2.17.1"
     latestReleaseDate: 2023-07-14
 
@@ -39,5 +39,4 @@ year, with an expectation of patch releases every week or so and minor releases 
 Minor and Patch releases should never contain breaking changes except for features marked as
 _experimental_.
 
-Nuxt 2 will reach End of Life (EOL) on December 31st, 2023 [at the same time as Vue 2 does](/vue).
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.

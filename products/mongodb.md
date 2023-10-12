@@ -210,6 +210,8 @@ MongoDB Atlas and are not supported for on-premises deployments.
 GA Major releases of the MongoDB Server are supported for 30 months. Compatibility of the MongoDB
 Stable API with the MongoDB Server is supported. Each GA release of the Stable API is compatible
 with all GA Major Releases of the MongoDB Server that are released on or within five years of the
-Release Date of that version of the Stable API.
+Release Date of that version of the Stable API. Lifecycle Schedule is documented at
+<https://www.mongodb.com/support-policy/lifecycles>.
 
-Lifecycle Schedule is documented at <https://www.mongodb.com/support-policy/lifecycles>.
+Extended support by MongoDB for up to 2 years is available through the commercial
+[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/products/enterprise-advanced/support).

@@ -28,26 +28,26 @@ releases:
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27
-    latest: '1.27.0'
-    latestReleaseDate: 2023-07-26
+    latest: '1.27.1'
+    latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
-    latest: '1.26.4'
-    latestReleaseDate: 2023-07-26
+    latest: '1.26.5'
+    latestReleaseDate: 2023-10-10
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-01-18
     eol: 2024-01-18
-    latest: '1.25.9'
-    latestReleaseDate: 2023-07-26
+    latest: '1.25.10'
+    latestReleaseDate: 2023-10-10
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-10-19
     eol: 2023-10-19
-    latest: '1.24.10'
-    latestReleaseDate: 2023-07-25
+    latest: '1.24.11'
+    latestReleaseDate: 2023-10-10
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-07-15

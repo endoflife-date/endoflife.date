@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
-    eol: 2024-07-01
+    eol: 2024-12-01
     extendedSupport: 2026-06-01
     latest: "7.9"
     latestReleaseDate: 2020-10-08
@@ -47,7 +47,7 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2011-02-12
     eol: 2021-03-01
-    extendedSupport: 2024-07-01
+    extendedSupport: 2024-12-01
     latest: "6.10"
     latestReleaseDate: 2018-07-02
 
