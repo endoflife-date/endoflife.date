@@ -3,13 +3,11 @@ title: Jamf Pro
 category: device
 permalink: /jamf-pro
 versionCommand: jamf-pro --version
-releasePolicyLink: [https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/]
+releasePolicyLink: https://www.jamf.com/resources/product-documentation/jamf-pro-release-notes/
 eolColumn: true
 releaseDateColumn: true
 
-
 releases:
-
 -   releaseCycle: "10.50"
     releaseDate: 2022-10-10
     latest: "10.50.0"
@@ -37,10 +35,14 @@ releases:
 ---
 
 > [Jamf-Pro](https://www.jamf.com/products/jamf-pro/) is a mobile device management (MDM) solution
-> that helps organizations manage and secure their Apple devices. It provides a comprehensive
-> set of features for deploying and updating apps and software, configuring device settings,
-> enforcing security policies and remotely wiping devices in the event of theft or loss.
+> that helps organizations manage and secure their Apple devices. It provides a comprehensive set
+> of features for deploying and updating apps and software, configuring device settings, enforcing
+> security policies and remotely wiping devices in the event of theft or loss.
 
-Jamf Pro releases are typically announced in the fall and released in the winter. It follows an N-3 support policy. This means that Jamf will support the current major version (N) and the previous three major versions (N-3).Jamf Pro releases are subject to an End of Life (EOL) policy. This means that Jamf will stop providing security updates and support for older versions of Jamf Pro. The EOL date for each version of Jamf Pro is typically announced one year in advance.
+Jamf Pro releases are typically announced in the fall and released in the winter. It follows an N-3
+support policy. This means that Jamf will support the current major version (N) and the previous
+three major versions (N-3). Jamf Pro releases are subject to an End of Life (EOL) policy. This
+means that Jamf will stop providing security updates and support for older versions of Jamf Pro.
+The EOL date for each version of Jamf Pro is typically announced one year in advance.
 
-Jamf Pro documentation: https://docs.jamf.com/jamf-pro/
+Jamf Pro documentation: https://docs.jamf.com/jamf-pro/.
