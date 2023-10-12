@@ -3,7 +3,7 @@ title: Jamf Pro
 category: device
 permalink: /jamf-pro
 versionCommand: jamf-pro --version
-releasePolicyLink: https://docs.jamf.com/10.28.0/jamf-pro/release-notes/Jamf_Pro_System_Requirements.html
+releasePolicyLink: https://learn.jamf.com/bundle/jamf-pro-release-notes-current/page/System_Requirements.html
 eolColumn: true
 releaseDateColumn: true
 
@@ -45,4 +45,4 @@ three major versions (N-3). Jamf Pro releases are subject to an End of Life (EOL
 means that Jamf will stop providing security updates and support for older versions of Jamf Pro.
 The EOL date for each version of Jamf Pro is typically announced one year in advance.
 
-Jamf Pro documentation: https://docs.jamf.com/10.28.0/jamf-pro/release-notes/Jamf_Pro_System_Requirements.html
+Jamf Pro documentation: https://learn.jamf.com/bundle/jamf-pro-release-notes-current/page/System_Requirements.html
