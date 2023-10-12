@@ -125,7 +125,7 @@ releases:
 
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
 A new minor version is released approximately every three months and is usually supported until the
- next minor version is released.
+next minor version is released.
 
 ## [Supported Kubernetes Versions](https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility)
 
