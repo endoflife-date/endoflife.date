@@ -14,6 +14,27 @@ releaseDateColumn: true
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+-   releaseCycle: "15 / 15 Plus"
+    releaseDate: 2023-09-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/kb/SP901
+    supportedIosVersions: 17
+
+-   releaseCycle: "15 Pro / 15 Pro Max"
+    releaseDate: 2023-09-22
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/kb/SP903
+    supportedIosVersions: 17
+
+-   releaseCycle: "14"
+    releaseDate: 2022-09-16
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/kb/SP873
+    supportedIosVersions: 16, 17
+
 -   releaseCycle: "14 Plus"
     releaseDate: 2022-10-07
     discontinued: false
@@ -21,9 +42,9 @@ releases:
     link: https://support.apple.com/kb/SP874
     supportedIosVersions: 16, 17
 
--   releaseCycle: "14 / 14 Pro / 14 Pro Max"
+-   releaseCycle: "14 Pro / 14 Pro Max"
     releaseDate: 2022-09-16
-    discontinued: false
+    discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP873
     supportedIosVersions: 16, 17
@@ -35,9 +56,16 @@ releases:
     link: https://support.apple.com/kb/SP867
     supportedIosVersions: 15, 16, 17
 
--   releaseCycle: "13 / 13 Mini"
+-   releaseCycle: "13"
     releaseDate: 2021-09-24
     discontinued: false
+    eol: false
+    link: https://support.apple.com/kb/SP851
+    supportedIosVersions: 15, 16, 17
+
+-   releaseCycle: "13 Mini"
+    releaseDate: 2021-09-24
+    discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP851
     supportedIosVersions: 15, 16, 17
@@ -65,7 +93,7 @@ releases:
 
 -   releaseCycle: "12"
     releaseDate: 2020-10-23
-    discontinued: false
+    discontinued: 2023-09-12
     eol: false
     link: https://support.apple.com/kb/SP830
     supportedIosVersions: 14, 15, 16, 17
