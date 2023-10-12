@@ -30,6 +30,15 @@ identifiers:
 
 releases:
 
+-   releaseCycle: "23.10"
+    codename: "Mantic Minotaur"
+    releaseDate: 2023-10-13
+    support: 2024-01-20
+    eol: 2024-07-01
+    extendedSupport: false
+    latest: "23.10"
+    latestReleaseDate: 2023-10-13
+
 -   releaseCycle: "23.04"
     codename: "Lunar Lobster"
     releaseDate: 2023-04-20
