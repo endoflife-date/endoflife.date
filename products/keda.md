@@ -126,9 +126,9 @@ releases:
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
 A new minor version is released approximately every three months.
 
-According to their documentation KEDA [commits](https://github.com/kedacore/keda?tab=security-ov-file#readme)
-to supporting the last two minor versions of the current major release, as well as the last minor version of
-the previous major release.
+KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
+A new minor version is released approximately every three months and is usually supported until the
+ next minor version is released.
 
 ## [Supported Kubernetes Versions](https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility)
 
