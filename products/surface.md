@@ -53,7 +53,7 @@ releases:
     releaseDate: 2018-10-02
     link: https://support.microsoft.com/surface/surface-studio-2-features-8672fa31-2e5d-2eb7-e299-5138e2ea682f
 
--   releaseCycle: Surface Pro X
+-   releaseCycle: Surface Pro X SQ1
     eol: 2025-08-10
     releaseDate: 2019-11-05
     link: https://support.microsoft.com/surface/surface-pro-x-features-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
