@@ -58,11 +58,6 @@ releases:
     eol: 2017-05-31
     link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.1&Rel=Update%201
 
--   releaseCycle: "2.1"
-    releaseDate: 2013-04-05
-    eol: 2017-05-31
-    link: https://supportline.microfocus.com/prodavail.aspx?Prod=Visual%20COBOL%20for%20Visual%20Studio&Ver=2.1&Rel=Update%201
-
 -   releaseCycle: "2.0"
     releaseDate: 2012-04-27
     eol: 2014-12-31
