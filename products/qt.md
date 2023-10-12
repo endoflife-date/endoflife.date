@@ -21,7 +21,7 @@ releases:
     eol: 2024-03-10 # estimated, 2023-10-09 + 6 months
     extendedSupport: false
     latest: "6.6.0"
-    latestReleaseDate: 2023-10-09
+    latestReleaseDate: 2023-10-10
 
 -   releaseCycle: "6.5"
     lts: true
