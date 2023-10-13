@@ -38,7 +38,6 @@ releases:
     extendedSupport: false
     latest: "23.10"
     latestReleaseDate: 2023-10-13
-    lts: false
 
 -   releaseCycle: "23.04"
     codename: "Lunar Lobster"
