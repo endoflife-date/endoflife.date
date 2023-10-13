@@ -11,22 +11,22 @@ releaseDateColumn: true
 
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU13 SU2V2"
+    releaseLabel: "2019 CU13 SU3"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1258.25"
-    latestReleaseDate: 2023-08-15
-    link: https://support.microsoft.com/help/5030524
+    latest: "15.2.1258.27"
+    latestReleaseDate: 2023-10-10
+    link: https://support.microsoft.com/help/5030877
 
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU9V2"
+    releaseLabel: "2016 CU23 SU10"
     releaseDate: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.32"
-    latestReleaseDate: 2023-08-15
-    link: https://support.microsoft.com/help/5030524
+    latest: "15.1.2507.34"
+    latestReleaseDate: 2023-10-10
+    link: https://support.microsoft.com/help/5030877
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
