@@ -15,7 +15,7 @@ releases:
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.02.1258.027"
+    latest: "15.2.1258.27"
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5030877
 
