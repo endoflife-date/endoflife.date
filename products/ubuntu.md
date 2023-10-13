@@ -28,8 +28,8 @@ identifiers:
 -   cpe: cpe:2.3:o:canonical:ubuntu_linux
 -   cpe: cpe:/o:canonical:ubuntu_linux
 
+# Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 releases:
-
 -   releaseCycle: "23.10"
     codename: "Mantic Minotaur"
     releaseDate: 2023-10-13
