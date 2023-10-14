@@ -45,7 +45,7 @@ releases:
 
 -   releaseCycle: "14.0"
     releaseDate: 2012-09-28
-    eol: 2024-01-01
+    eol: 2024-01-01 # https://mirrors.slackware.com/slackware/slackware-14.0/ChangeLog.txt
     latest: '14.0'
     latestReleaseDate: 2012-09-28
 
