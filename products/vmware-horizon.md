@@ -97,7 +97,7 @@ releases:
     technicalGuidance: 2027-08-11
     latest: "8.2006"
     latestReleaseDate: 2020-08-11
-    link: https://docs.vmware.com/en/VMware-Horizon/2006/rn/horizon-2006-release-notes.html
+    link: https://docs.vmware.com/en/VMware-Horizon/8-2006/rn/vmware-horizon-8-2006-release-notes/index.html
 
 -   releaseCycle: "7"
     releaseLabel: "7.X NonLTS branch"
