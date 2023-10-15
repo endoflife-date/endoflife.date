@@ -19,6 +19,18 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy A54 5G"
+    releaseDate: 2023-03-24
+    support: true # "four generations of OS upgrades"
+    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    link: https://doc.samsungmobile.com/SM-A546U/TMB/doc.html
+
+-   releaseCycle: "Galaxy A34 5G"
+    releaseDate: 2023-03-24
+    support: true # "four generations of OS upgrades"
+    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    link: https://doc.samsungmobile.com/SM-A346E/INS/doc.html
+
 -   releaseCycle: "Galaxy A14 5G"
     releaseDate: 2023-01-12
     support: true
