@@ -11,10 +11,17 @@ releaseColumn: true
 auto:
 -   git: https://github.com/weechat/weechat.git
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.1"
+    releaseDate: 2023-10-15
+    eol: false
+    latest: "4.1.0"
+    latestReleaseDate: 2023-10-15
+
 -   releaseCycle: "4.0"
     releaseDate: 2023-06-24
-    eol: false
+    eol: 2023-10-15
     latest: "4.0.5"
     latestReleaseDate: 2023-09-24
 
