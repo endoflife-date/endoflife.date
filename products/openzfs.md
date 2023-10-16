@@ -17,25 +17,33 @@ auto:
     regex: 
       ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
+# non-LTS: eol(x) = releaseDate(x+1)
+# LTS: eol(x) = estimation: releaseDate(x) plus 2 years
 releases:
+-   releaseCycle: "2.2"
+    releaseDate: 2023-10-12
+    eol: false # releaseDate(2.3)
+    latest: "2.2.0"
+    latestReleaseDate: 2023-10-12
+
 -   releaseCycle: "2.1"
-    eol: 2023-07-02
+    releaseDate: 2021-07-02
     lts: true
+    eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
     latest: "2.1.13"
     latestReleaseDate: 2023-09-27
-    releaseDate: 2021-07-02
 
 -   releaseCycle: "2.0"
+    releaseDate: 2020-11-30
     eol: 2021-12-23
     latest: "2.0.7"
     latestReleaseDate: 2021-12-23
-    releaseDate: 2020-11-30
 
 -   releaseCycle: "0.8"
+    releaseDate: 2019-05-21
     eol: 2020-12-14
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
-    releaseDate: 2019-05-21
 
 ---
 
