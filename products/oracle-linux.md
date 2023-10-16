@@ -74,7 +74,7 @@ releases:
 
 ## Differences with Upstream RHEL:
 
-- Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available.](https://community.oracle.com/tech/apps-infra/discussion/4481998/what-is-the-lifecycle-of-oracle-linux-for-minor-releases).
+- Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available](https://community.oracle.com/tech/apps-infra/discussion/4481998/what-is-the-lifecycle-of-oracle-linux-for-minor-releases).
   Once a new minor point release is available, the older one is immediately considered end of life
   and users must upgrade to continue receiving security updates. For example once 8.5 gets a
   general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
