@@ -29,9 +29,16 @@ releases:
     latest: "5.0.1"
     latestReleaseDate: 2023-09-29
 
+-   releaseCycle: "4.5"
+    releaseDate: 2023-10-14
+    support: 2025-09-09
+    eol: 2026-09-09
+    latest: "4.5.0"
+    latestReleaseDate: 2023-10-14
+
 -   releaseCycle: "4.4"
     releaseDate: 2022-06-06
-    support: 2025-09-09
+    support: 2023-10-15
     eol: 2026-09-09
     latest: "4.4.18"
     latestReleaseDate: 2023-09-22
@@ -46,7 +53,7 @@ releases:
 -   releaseCycle: "4.2"
     releaseDate: 2020-12-20
     support: 2021-10-24
-    eol: 2026-09-09
+    eol: 2023-10-14
     latest: "4.2.12"
     latestReleaseDate: 2023-01-06
 
@@ -256,7 +263,7 @@ the last major release cycle have security support.
 | Version    | Min PHP | Max PHP |
 |------------|---------|---------|
 | 5.0        | 8.1     | Latest  |
-| 4.4        | 7.4     | Latest  |
+| 4.4 - 4.5  | 7.4     | Latest  |
 | 4.0 - 4.3  | 7.2     |         |
 | 3.4 - 3.10 | 5.6     | 7.4     |
 | 3.2 - 3.3  | 5.5     |         |
