@@ -26,7 +26,7 @@ releases:
     support: 2024-05-31
     eol: 2024-05-31
     latest: "8"
-    link: https://www.centos.org/centos-linux-eol/
+    link: http://web.archive.org/web/20230417021744/https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
 
 ---
 
