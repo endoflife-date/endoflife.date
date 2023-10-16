@@ -83,4 +83,4 @@ releases:
 - By default, Oracle Linux does not use the same kernel upstream RHEL uses, instead they support
   their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may
   not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available
-  as an alternative.](https://community.oracle.com/tech/apps-infra/discussion/4467791/oracle-linux-how-to-change-default-kernel).
+  as an alternative](https://community.oracle.com/tech/apps-infra/discussion/4467791/oracle-linux-how-to-change-default-kernel).
