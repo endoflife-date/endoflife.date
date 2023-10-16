@@ -312,6 +312,54 @@ releases:
     link: https://support.apple.com/kb/SP685
     supportedIosVersions: 7, 8, 9, 10, 11, 12
 
+-   releaseCycle: "5"
+    releaseLabel: "5"
+    releaseDate: 2012-09-21
+    discontinued: 2013-09-10
+    eol: 2019-07-22
+    link: https://support.apple.com/kb/SP655
+    supportedIosVersions: 6, 7, 8, 9, 10
+
+-   releaseCycle: "4s"
+    releaseLabel: "4S"
+    releaseDate: 2011-10-14
+    discontinued: 2014-09-09
+    eol: 2019-07-22
+    link: https://support.apple.com/kb/SP643
+    supportedIosVersions: 5, 6, 7, 8, 9
+
+-   releaseCycle: "4"
+    releaseLabel: "4"
+    releaseDate: 2010-06-24
+    discontinued: 2013-09-10
+    eol: 2014-09-17
+    link: https://support.apple.com/kb/SP587
+    supportedIosVersions: 4, 5, 6, 7
+
+-   releaseCycle: "3gs"
+    releaseLabel: "3GS"
+    releaseDate: 2009-06-19
+    discontinued: 2012-09-12
+    eol: 2014-02-21
+    link: https://support.apple.com/kb/SP565
+    supportedIosVersions: 3, 4, 5, 6
+
+-   releaseCycle: "3g"
+    releaseLabel: "3G"
+    releaseDate: 2008-07-11
+    discontinued: 2010-08-09
+    eol: 2011-03-03
+    link: https://support.apple.com/kb/SP495
+    supportedIosVersions: 2, 3, 4
+
+-   releaseCycle: "1"
+    releaseLabel: "1"
+    releaseDate: 2007-06-29
+    discontinued: 2008-06-09
+    eol: 2010-06-20
+    link: https://web.archive.org/web/20070714051039/http://www.apple.com/iphone/specs.html
+    supportedIosVersions: 1, 2, 3
+
 ---
 
 > The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS
