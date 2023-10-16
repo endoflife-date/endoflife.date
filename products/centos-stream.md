@@ -5,7 +5,7 @@ tags: linux-distribution
 iconSlug: centos
 permalink: /centos-stream
 versionCommand: cat /etc/redhat-release
-releasePolicyLink: https://wiki.centos.org/About(2f)Product.html
+releasePolicyLink: https://centos.org/stream9/
 activeSupportColumn: true
 releaseDateColumn: true
 
