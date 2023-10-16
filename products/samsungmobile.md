@@ -31,6 +31,24 @@ releases:
     eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
     link: https://doc.samsungmobile.com/SM-A346E/INS/doc.html
 
+-   releaseCycle: "Galaxy S23 Ultra"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S918B/EUX/doc.html
+
+-   releaseCycle: "Galaxy S23+"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S916B/EUX/doc.html
+
+-   releaseCycle: "Galaxy S23"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S911B/EUX/doc.html
+
 -   releaseCycle: "Galaxy A14 5G"
     releaseDate: 2023-01-12
     support: true
