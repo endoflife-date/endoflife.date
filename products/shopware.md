@@ -4,10 +4,10 @@ category: server-app
 tags: php-runtime
 iconSlug: shopware
 permalink: /shopware
-versionCommand: ./bin/console -V
+versionCommand: php bin/console -V
 releasePolicyLink: https://www.shopware.com/en/news/shopware-6-versioning-strategy/
 changelogTemplate: "https://www.shopware.com/en/changelog/#release-{{'__LATEST__' | replace:'.','-'}}"
-releaseLabel: "{{'__RELEASE_CYCLE__' | replace:'.','-'}}"
+releaseLabel: "{{'__RELEASE_CYCLE__'}}"
 releaseColumn: true
 releaseDateColumn: true
 releases:
@@ -42,7 +42,6 @@ releases:
     latestReleaseDate: 2020-05-14
 
 -   releaseCycle: "5"
-    lts: true
     eol: 2024-07-01
     releaseDate: 2015-04-27
     latest: "5.7.18"
@@ -50,4 +49,4 @@ releases:
 
 ---
 
-> [Shopware](https://www.shopware.com/) is an open headless commerce platform powered by [Symfony 6.2](https://symfony.com) and [Vue.js 2.6](https://vuejs.org).
+> [Shopware](https://www.shopware.com/) is an open headless commerce platform powered by [Symfony](https://symfony.com) and [Vue.js](https://vuejs.org).
