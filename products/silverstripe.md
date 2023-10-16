@@ -25,40 +25,47 @@ identifiers:
 -   purl: pkg:github/silverstripe/cms
 
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2023-10-16
+    support: 2024-04-01
+    eol: 2027-04-01
+    latest: "5.1.0"
+    latestReleaseDate: 2023-10-16
+
 -   releaseCycle: "5.0"
+    releaseDate: 2023-05-04
     support: true
     eol: false
     latest: "5.0.7"
     latestReleaseDate: 2023-09-23
-    releaseDate: 2023-05-04
 
 -   releaseCycle: "4.13"
+    releaseDate: 2023-04-26
     support: 2024-04-01
     eol: 2025-04-01
     latest: "4.13.8"
     latestReleaseDate: 2023-09-22
-    releaseDate: 2023-04-26
 
 -   releaseCycle: "4.12"
+    releaseDate: 2022-12-19
     support: 2023-04-26
     eol: 2023-10-26
     latest: "4.12.7"
     latestReleaseDate: 2023-05-31
-    releaseDate: 2022-12-19
 
 -   releaseCycle: "4.11"
+    releaseDate: 2022-05-11
     support: 2022-12-19
     eol: 2023-05-19
     latest: "4.11.16"
     latestReleaseDate: 2023-05-31
-    releaseDate: 2022-05-11
 
 -   releaseCycle: "4.10"
+    releaseDate: 2022-01-25
     support: 2022-06-30
     eol: 2022-12-31
     latest: "4.10.11"
     latestReleaseDate: 2022-11-21
-    releaseDate: 2022-01-25
 
 ---
 
