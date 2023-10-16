@@ -37,8 +37,8 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: 8
-    latest: "9.0.81"
-    latestReleaseDate: 2023-10-09
+    latest: "9.0.82"
+    latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
