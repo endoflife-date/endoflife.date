@@ -11,10 +11,17 @@ changelogTemplate: https://docs.dependencytrack.org/changelog/
 auto:
 -   git: https://github.com/DependencyTrack/dependency-track.git
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.9"
+    releaseDate: 2023-10-16
+    eol: false
+    latest: "4.9.0"
+    latestReleaseDate: 2023-10-16
+
 -   releaseCycle: "4.8"
     releaseDate: 2023-04-18
-    eol: false
+    eol: 2023-10-16
     latest: "4.8.2"
     latestReleaseDate: 2023-05-16
 
