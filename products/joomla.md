@@ -22,6 +22,8 @@ releases:
     eol: false
     latest: "5.0.0"
     latestReleaseDate: 2023-10-14
+    # check later for removal: link with changelogTemplate does not work (yet)
+    link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
 -   releaseCycle: "4"
     releaseDate: 2021-08-17
