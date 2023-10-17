@@ -40,14 +40,14 @@ releases:
 -   releaseCycle: "1.25"
     releaseDate: 2023-01-18
     eol: 2024-01-18
-    latest: '1.25.10'
-    latestReleaseDate: 2023-10-10
+    latest: '1.25.11'
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-10-19
     eol: 2023-10-19
-    latest: '1.24.11'
-    latestReleaseDate: 2023-10-10
+    latest: '1.24.12'
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-07-15
