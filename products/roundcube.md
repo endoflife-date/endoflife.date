@@ -9,25 +9,25 @@ auto:
 -   git: https://github.com/roundcube/roundcubemail.git
 releases:
 -   releaseCycle: "1.6"
-    latest: "1.6.3"
+    latest: "1.6.4"
     eol: false
     support: true
 
-    latestReleaseDate: 2023-09-15
+    latestReleaseDate: 2023-10-16
     releaseDate: 2022-07-25
 -   releaseCycle: "1.5"
-    latest: "1.5.4"
+    latest: "1.5.5"
     eol: false
     support: true
 
-    latestReleaseDate: 2023-09-18
+    latestReleaseDate: 2023-10-16
     releaseDate: 2021-10-18
 -   releaseCycle: "1.4"
-    latest: "1.4.14"
+    latest: "1.4.15"
     eol: false
     support: false
 
-    latestReleaseDate: 2023-09-18
+    latestReleaseDate: 2023-10-16
     releaseDate: 2019-11-09
 -   releaseCycle: "1.3"
     latest: "1.3.17"

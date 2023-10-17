@@ -94,7 +94,7 @@ releases:
 -   releaseCycle: "2.12"
     eol: 2021-08-01
     support: 2021-05-12
-    latest: "2.12.6"
+    latest: "2.12.7"
     latestReleaseDate: 2021-07-13
     releaseDate: 2021-02-02
 
