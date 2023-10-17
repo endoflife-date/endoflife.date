@@ -161,5 +161,5 @@ See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_h
 
 A stripped-down version of the Android operating system designed for low-end and ultra-budget
 smartphones, [Android (Go edition)](https://www.android.com/versions/go-edition/), is also
-made available by Google since Android 8.1. While based on Adroid it seems to follow a distinct
+made available by Google since Android 8.1. While based on Android it seems to follow a distinct
 release and EOL policy.
