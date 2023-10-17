@@ -12,10 +12,19 @@ activeSupportColumn: true
 auto:
 -   git: https://github.com/api-platform/core.git
 
+# support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "3.2"
+    releaseDate: 2023-10-12
+    support: true
+    eol: false
+    latest: "3.2.0"
+    latestReleaseDate: 2023-10-12
+
 -   releaseCycle: "3.1"
     releaseDate: 2023-01-23
-    support: true
+    support: 2023-10-12
     eol: false
     latest: "3.1.20"
     latestReleaseDate: 2023-10-11
@@ -23,7 +32,7 @@ releases:
 -   releaseCycle: "3.0"
     releaseDate: 2022-09-15
     support: 2023-01-23
-    eol: false
+    eol: 2023-10-12
     latest: "3.0.12"
     latestReleaseDate: 2023-02-28
 
