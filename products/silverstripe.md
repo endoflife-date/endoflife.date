@@ -24,18 +24,19 @@ identifiers:
 -   purl: pkg:composer/silverstripe/cms
 -   purl: pkg:github/silverstripe/cms
 
+# support/eol dates see https://www.silverstripe.org/software/roadmap/
 releases:
 -   releaseCycle: "5.1"
-    releaseDate: 2023-10-16
-    support: 2024-04-01
-    eol: 2027-04-01
+    releaseDate: 2023-10-17
+    support: 2024-04-17
+    eol: 2024-10-17
     latest: "5.1.0"
-    latestReleaseDate: 2023-10-16
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
-    support: true
-    eol: false
+    support: 2023-10-17
+    eol: 2024-04-17
     latest: "5.0.7"
     latestReleaseDate: 2023-09-23
 
