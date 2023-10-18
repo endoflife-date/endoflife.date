@@ -19,7 +19,7 @@ releases:
 -   releaseCycle: "5"
     releaseDate: 2023-10-17
     support: true
-    eol: 2027-20-19
+    eol: 2027-10-19
     latest: "5.0.0"
     latestReleaseDate: 2023-10-17
     # check later for removal: link with changelogTemplate does not work (yet)
