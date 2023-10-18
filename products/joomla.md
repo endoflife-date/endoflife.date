@@ -17,11 +17,11 @@ auto:
 # eol see https://developer.joomla.org/roadmap.html
 releases:
 -   releaseCycle: "5"
-    releaseDate: 2023-10-14
+    releaseDate: 2023-10-17
     support: true
     eol: false
     latest: "5.0.0"
-    latestReleaseDate: 2023-10-14
+    latestReleaseDate: 2023-10-17
     # check later for removal: link with changelogTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
