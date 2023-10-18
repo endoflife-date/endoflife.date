@@ -27,11 +27,11 @@ identifiers:
 # support/eol dates see https://www.silverstripe.org/software/roadmap/
 releases:
 -   releaseCycle: "5.1"
-    releaseDate: 2023-10-17
+    releaseDate: 2023-10-16
     support: 2024-04-17
     eol: 2024-10-17
     latest: "5.1.0"
-    latestReleaseDate: 2023-10-17
+    latestReleaseDate: 2023-10-16
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
