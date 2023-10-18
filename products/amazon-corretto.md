@@ -41,8 +41,8 @@ releases:
     releaseDate: 2023-08-25
     # Not yet announced on https://aws.amazon.com/corretto/faqs/
     eol: false
-    latest: "21.0.0.35.1"
-    latestReleaseDate: 2023-08-25
+    latest: "21.0.1.12.1"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -67,9 +67,9 @@ releases:
 -   releaseCycle: "17"
     lts: true
     eol: 2029-10-01
-    latest: "17.0.8.8.1"
+    latest: "17.0.9.8.1"
     releaseDate: 2021-08-24
-    latestReleaseDate: 2023-08-23
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "16"
     eol: 2021-10-19
@@ -89,17 +89,17 @@ releases:
 -   releaseCycle: "11"
     lts: true
     eol: 2027-09-01
-    latest: "11.0.20.9.1"
+    latest: "11.0.21.9.1"
     releaseDate: 2019-02-18
-    latestReleaseDate: 2023-08-23
+    latestReleaseDate: 2023-10-17
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     eol: 2026-06-30
-    latest: "8.382.05.1"
+    latest: "8.392.08.1"
     releaseDate: 2019-02-20
-    latestReleaseDate: 2023-07-18
+    latestReleaseDate: 2023-10-17
 
 ---
 

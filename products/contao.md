@@ -17,8 +17,8 @@ releases:
     releaseDate: 2023-08-15
     support: 2024-02-14
     eol: 2024-02-14
-    latest: "5.2.3"
-    latestReleaseDate: 2023-10-09
+    latest: "5.2.4"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-02-16
@@ -39,8 +39,8 @@ releases:
     releaseDate: 2022-02-17
     support: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.31"
-    latestReleaseDate: 2023-10-09
+    latest: "4.13.32"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "4.12"
     releaseDate: 2021-08-19
