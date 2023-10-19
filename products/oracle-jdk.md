@@ -28,7 +28,6 @@ releases:
     extendedSupport: 2031-09-30
     latest: "21.0.1"
     latestReleaseDate: 2023-10-17
-    link: https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
