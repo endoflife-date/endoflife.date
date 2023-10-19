@@ -34,10 +34,10 @@ releases:
     releaseDate: 2023-09-19
     eol: 2031-09-30
     extendedSupport: 2033-09-30
-    latest: "21.28.85"
-    latestJdkVersion: "21.0.0+35"
-    latestReleaseDate: 2023-09-19
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
+    latest: "21.30.15"
+    latestJdkVersion: "21.0.1+11"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -78,10 +78,10 @@ releases:
     releaseDate: 2021-09-15
     eol: 2029-09-30
     extendedSupport: 2031-09-30
-    latest: "17.44.17"
-    latestJdkVersion: "17.0.8+7"
-    latestReleaseDate: 2023-07-20
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "17.46.19"
+    latestJdkVersion: "17.0.9+8"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -137,10 +137,10 @@ releases:
     releaseDate: 2018-09-25
     eol: 2026-09-30
     extendedSupport: 2028-09-30
-    latest: "11.66.17"
-    latestJdkVersion: "11.0.20+8"
-    latestReleaseDate: 2023-07-18
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "11.68.17"
+    latestJdkVersion: "11.0.21+9"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -167,10 +167,10 @@ releases:
     releaseDate: 2014-04-08
     eol: 2030-12-31
     extendedSupport: 2032-12-31
-    latest: "8.72.0.17"
-    latestJdkVersion: "8u382-b05"
-    latestReleaseDate: 2023-07-18
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "8.74.0.17"
+    latestJdkVersion: "8u392b08"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "7"
     lts: true
@@ -179,10 +179,10 @@ releases:
     releaseDate: 2011-07-11
     eol: 2022-07-31
     extendedSupport: 2027-12-31
-    latest: "7.56.0.11"
-    latestJdkVersion: "7u352-b01"
-    latestReleaseDate: 2022-07-19
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2022
+    latest: "7.65.0.14"
+    latestJdkVersion: "7u401-b01"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "6"
     lts: true
@@ -190,9 +190,10 @@ releases:
     releaseDate: 2014-01-21
     eol: 2018-12-31
     extendedSupport: 2027-12-31
-    latest: "6.22.0.3"
-    latestJdkVersion: "6u119"
-    latestReleaseDate: 2018-11-07
+    latest: "6.59.0.14"
+    latestJdkVersion: "6b159"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 ---
 

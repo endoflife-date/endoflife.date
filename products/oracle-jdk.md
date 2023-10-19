@@ -26,9 +26,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     extendedSupport: 2031-09-30
-    latest: "21"
-    latestReleaseDate: 2023-09-19
-    link: https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
+    latest: "21.0.1"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -56,8 +55,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     extendedSupport: 2029-09-30
-    latest: "17.0.8"
-    latestReleaseDate: 2023-07-18
+    latest: "17.0.9"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -99,8 +98,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     extendedSupport: 2032-01-31
-    latest: "11.0.20"
-    latestReleaseDate: 2023-07-18
+    latest: "11.0.21"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -121,8 +120,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     extendedSupport: 2030-12-31
-    latest: "8u381"
-    latestReleaseDate: 2023-07-18
+    latest: "8u391"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "7"
     lts: true

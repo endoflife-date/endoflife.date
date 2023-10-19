@@ -53,7 +53,6 @@ releases:
     extendedSupport: 2032-03-31
     latest: "21.0.1+12"
     latestReleaseDate: 2023-10-18
-    link: https://docs.bell-sw.com/liberica-jdk/21.0.1b12/general/release-notes/
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
@@ -84,7 +83,6 @@ releases:
     extendedSupport: 2030-03-31
     latest: "17.0.9+11"
     latestReleaseDate: 2023-10-18
-    link: https://docs.bell-sw.com/liberica-jdk/17.0.9b11/general/release-notes/
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
@@ -130,7 +128,6 @@ releases:
     extendedSupport: 2027-03-31
     latest: "11.0.21+10"
     latestReleaseDate: 2023-10-18
-    link: https://docs.bell-sw.com/liberica-jdk/11.0.21b10/general/release-notes/
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -150,7 +147,6 @@ releases:
     extendedSupport: 2031-03-31
     latest: "8u392+9"
     latestReleaseDate: 2023-10-18
-    link: https://docs.bell-sw.com/liberica-jdk/8u392b9/general/release-notes/
 
 -   releaseCycle: "7"
     lts: true
