@@ -19,7 +19,7 @@ releases:
     eol: 2028-05-16
     extendedSupport: 2029-05-16
     latestReleaseDate: 2023-10-05
-    latest: "ColdFusion (2023 Release) Update 5"
+    latest: "2023.0.5.330608"
     link: https://coldfusion.adobe.com/2023/05/coldfusion2023-release/
 
 -   releaseCycle: "2021"
@@ -27,7 +27,7 @@ releases:
     eol: 2025-11-10
     extendedSupport: 2026-11-10
     latestReleaseDate: 2023-10-06
-    latest: "ColdFusion (2021 release) Update 11"
+    latest: "2021.0.11.330247"
     link: https://community.adobe.com/t5/coldfusion-discussions/introducing-adobe-coldfusion-2021-release/m-p/11585468
 
 -   releaseCycle: "2018"
@@ -35,7 +35,7 @@ releases:
     eol: 2023-07-13
     extendedSupport: 2024-07-13
     latestReleaseDate: 2023-07-19
-    latest: "ColdFusion (2018 release) Update 19"
+    latest: "2018.0.19.330149"
     link: https://coldfusion.adobe.com/2018/07/new-coldfusion-release-adds-performance-monitoring-toolset-for-measuring-monitoring-and-managing-high-performing-web-apps/
 
 -   releaseCycle: "2016"
@@ -43,7 +43,7 @@ releases:
     eol: 2021-02-17
     extendedSupport: 2022-02-17
     latestReleaseDate: 2021-03-22
-    latest: "ColdFusion (2016 release) Update 17"
+    latest: "2016.0.17.325979"
     link: https://coldfusion.adobe.com/2016/02/announcing-the-launch-of-the-newest-version-of-coldfusion-adobe-coldfusion-2016-release/
 
 -   releaseCycle: "11"
@@ -51,7 +51,7 @@ releases:
     eol: 2019-04-30
     extendedSupport: 2021-04-30
     latestReleaseDate: 2019-06-11
-    latest: "ColdFusion 11 Update 19"
+    latest: "11.0.19.314546"
     link: https://coldfusion.adobe.com/2014/04/announcing-the-launch-for-coldfusion-11-and-coldfusion-builder-3/
 
 -   releaseCycle: "10"
@@ -59,7 +59,7 @@ releases:
     eol: 2017-05-16
     extendedSupport: 2019-05-16
     latestReleaseDate: 2017-04-25
-    latest: "ColdFusion 10 Update 23"
+    latest: "10.0.23.302580"
     link: https://coldfusion.adobe.com/2012/05/adobe-coldfusion-10-is-now-available/
 
 ---
