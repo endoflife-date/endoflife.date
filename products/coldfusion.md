@@ -8,7 +8,7 @@ versionCommand: writeoutput(server.coldfusion.productversion);
 releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 activeSupportColumn: false
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 eolColumn: Core Support
 extendedSupportColumn: true
