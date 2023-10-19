@@ -45,4 +45,4 @@ three major versions (N-3). Jamf Pro releases are subject to an End of Life (EOL
 means that Jamf will stop providing security updates and support for older versions of Jamf Pro.
 The EOL date for each version of Jamf Pro is typically announced one year in advance.
 
-Jamf Pro documentation: https://learn.jamf.com/bundle/jamf-pro-release-notes-current/page/System_Requirements.html
+Jamf Pro support policy: https://learn.jamf.com/bundle/jamf-pro-release-notes-10.50.0/page/Deprecations_and_Removals.html
