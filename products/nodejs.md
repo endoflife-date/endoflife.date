@@ -26,6 +26,13 @@ auto:
 -   git: https://github.com/nodejs/node.git
 
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2023-10-17
+    support: 2024-04-01
+    eol: 2024-06-01
+    latest: "21.0.0"
+    latestReleaseDate: 2023-10-17
+
 -   releaseCycle: "20"
     releaseDate: 2023-04-18
     lts: 2023-10-24
