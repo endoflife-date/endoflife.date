@@ -229,24 +229,6 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
--   releaseCycle: "Galaxy S22 Ultra 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S908E/VAU/doc.html
-
--   releaseCycle: "Galaxy S22+ 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S906E/XXV/doc.html
-
--   releaseCycle: "Galaxy S22 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S901E/XXV/doc.html
-
 -   releaseCycle: "Galaxy Tab S8 Ultra"
     releaseDate: 2022-04-30
     support: true
@@ -265,11 +247,29 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X706B/SER/doc.html
 
--   releaseCycle: "Galaxy S21 FE 5G"
-    releaseDate: 2022-01-07
+-   releaseCycle: "Galaxy S22 Ultra 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S908E/VAU/doc.html
+
+-   releaseCycle: "Galaxy S22+ 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S906E/XXV/doc.html
+
+-   releaseCycle: "Galaxy S22 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S901E/XXV/doc.html
+
+-   releaseCycle: "Galaxy A03"
+    releaseDate: 2022-01-21
     support: true
     eol: false
-    link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
+    link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab A8 10.5 (2021)"
     releaseDate: 2022-01-17
@@ -277,11 +277,11 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
--   releaseCycle: "Galaxy A03"
-    releaseDate: 2022-01-21
+-   releaseCycle: "Galaxy S21 FE 5G"
+    releaseDate: 2022-01-07
     support: true
     eol: false
-    link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
+    link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
 
 -   releaseCycle: "Galaxy A03 Core"
     releaseDate: 2021-12-06
