@@ -22,7 +22,7 @@ auto:
 releases:
 -   releaseCycle: "2.2"
     releaseDate: 2023-10-12
-    supportedLinux: "3.10-6.5"
+    supportedLinux: "3.10 - 6.5"
     supportedFreeBSD: "12.2-RELEASE+"
     eol: false # releaseDate(2.3)
     latest: "2.2.0"
