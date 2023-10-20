@@ -31,7 +31,7 @@ releases:
 -   releaseCycle: "2.1"
     releaseDate: 2021-07-02
     lts: true
-    supportedLinux: "3.10-6.5"
+    supportedLinux: "3.10 - 6.5"
     supportedFreeBSD: "12.2-RELEASE+"
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
     latest: "2.1.13"
