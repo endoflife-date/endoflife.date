@@ -33,14 +33,14 @@ releases:
 -   releaseCycle: "2.16"
     releaseDate: 2023-05-31
     eol: 2023-07-24
-    latest: "2.16.1"
-    latestReleaseDate: 2023-06-06
+    latest: "2.16.2"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
     eol: 2023-05-31
-    latest: "2.15.2"
-    latestReleaseDate: 2023-08-14
+    latest: "2.15.3"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.14"
     releaseDate: 2023-02-28
