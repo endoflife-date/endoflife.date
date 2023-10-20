@@ -170,6 +170,416 @@ releases:
     link:
       https://confluence.atlassian.com/jirasoftware/jira-software-7-13-x-release-notes-957981568.html
 
+-   releaseCycle: "7.12"
+    releaseDate: 2018-08-26
+    eol: 2020-08-27
+    latest: "7.12.3"
+    latestReleaseDate: 2018-10-11
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.12.x+release+notes
+
+-   releaseCycle: "7.11"
+    releaseDate: 2018-07-10
+    eol: 2020-07-11
+    latest: "7.11.2"
+    latestReleaseDate: 2018-08-07
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.11.x+release+notes
+
+-   releaseCycle: "7.10"
+    releaseDate: 2018-05-28
+    eol: 2020-05-29
+    latest: "7.10.2"
+    latestReleaseDate: 2018-06-26
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.10.x+release+notes
+
+-   releaseCycle: "7.9"
+    releaseDate: 2018-04-08
+    eol: 2020-04-09
+    latest: "7.9.2"
+    latestReleaseDate: 2018-05-08
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.9.x+release+notes
+
+-   releaseCycle: "7.8"
+    releaseDate: 2018-02-19
+    eol: 2020-02-20
+    latest: "7.8.4"
+    latestReleaseDate: 2018-05-08
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.8.x+release+notes
+
+-   releaseCycle: "7.7"
+    releaseDate: 2018-01-10
+    eol: 2020-01-11
+    latest: "7.7.4"
+    latestReleaseDate: 2018-05-09
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.7.x+release+notes
+
+-   releaseCycle: "7.6"
+    releaseDate: 2017-11-15
+    lts: true
+    eol: 2019-11-14
+    latest: "7.6.17"
+    latestReleaseDate: 2019-11-03
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.6.x+release+notes
+
+-   releaseCycle: "7.5"
+    releaseDate: 2017-09-05
+    eol: 2019-09-06
+    latest: "7.5.4"
+    latestReleaseDate: 2018-01-16
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.5.x+release+notes
+
+-   releaseCycle: "7.4"
+    releaseDate: 2017-06-28
+    eol: 2019-06-29
+    latest: "7.4.6"
+    latestReleaseDate: 2018-01-15
+    link:
+      http://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.4.x+release+notes
+
+-   releaseCycle: "7.3"
+    releaseDate: 2017-01-02
+    eol: 2019-01-03
+    latest: "7.3.9"
+    latestReleaseDate: 2018-01-10
+    link:
+      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-7-3-9-943532124.html
+
+-   releaseCycle: "7.2"
+    releaseDate: 2016-08-23
+    eol: 2018-08-23
+    latest: "7.2.15"
+    latestReleaseDate: 2018-06-05
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.2.x+release+notes
+
+-   releaseCycle: "7.1"
+    releaseDate: 2016-02-10
+    eol: 2018-02-10
+    latest: "7.1.10"
+    latestReleaseDate: 2016-09-14
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.1.x+release+notes#JIRASoftware7.1.xreleasenotes-7-1-10
+
+-   releaseCycle: "7.0"
+    releaseDate: 2015-10-01
+    eol: 2017-10-06
+    latest: "7.0.11"
+    latestReleaseDate: 2016-09-13
+    link:
+      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.0.x+release+notes#JIRASoftware7.0.xreleasenotes-7-0-11
+
+-   releaseCycle: "6.4"
+    releaseDate: 2015-04-07
+    eol: 2017-03-17
+    latest: "6.4.14"
+    latestReleaseDate: 2016-07-28
+    link:
+      https://confluence.atlassian.com/jira064/jira-6-4-14-release-notes-834232021.html
+
+-   releaseCycle: "6.3"
+    releaseDate: 2014-07-09
+    eol: 2016-07-08
+    latest: "6.3.15"
+    latestReleaseDate: 2014-08-11
+    link:
+      https://confluence.atlassian.com/jira063/jira-6-3-15-release-notes-707625090.html
+
+-   releaseCycle: "6.2"
+    releaseDate: 2014-02-25
+    eol: 2016-06-11
+    latest: "6.2.7"
+    latestReleaseDate: 2014-06-11
+    link:
+      https://confluence.atlassian.com/jira063/jira-6-2-7-release-notes-683542003.html
+
+-   releaseCycle: "6.1"
+    releaseDate: 2013-09-24
+    eol: 2016-05-22
+    latest: "6.1.9"
+    latestReleaseDate: 2014-10-24
+    link:
+      https://confluence.atlassian.com/jira063/jira-6-1-9-release-notes-683542023.html
+
+-   releaseCycle: "6.0"
+    releaseDate: 2013-05-21
+    eol: 2015-09-03
+    latest: "6.0.8"
+    latestReleaseDate: 2013-09-03
+    link:
+      https://confluence.atlassian.com/jira064/jira-6-0-8-release-notes-720413919.html
+
+-   releaseCycle: "5.2"
+    releaseDate: 2012-11-12
+    eol: true
+    latest: "5.2.11"
+    latestReleaseDate: 2013-04-19
+    link:
+      https://confluence.atlassian.com/jira063/jira-5-2-11-release-notes-683542112.html
+
+-   releaseCycle: "5.1"
+    releaseDate: 2012-07-09
+    eol: true
+    latest: "5.1.8"
+    latestReleaseDate: 2012-10-31
+    link:
+      https://confluence.atlassian.com/jira063/jira-5-1-8-release-notes-683542060.html
+
+-   releaseCycle: "5.0"
+    releaseDate: 2012-02-22
+    eol: 2012-07-01
+    latest: "5.0.7"
+    latestReleaseDate: 2012-07-01
+    link:
+      https://confluence.atlassian.com/jira063/jira-5-0-7-release-notes-683542076.html
+
+-   releaseCycle: "4.4"
+    releaseDate: 2011-08-02
+    eol: true
+    latest: "4.4.5"
+    latestReleaseDate: 2012-02-22
+    link:
+      https://confluence.atlassian.com/jira063/jira-4-4-5-release-notes-683541908.html
+
+-   releaseCycle: "4.3"
+    releaseDate: 2011-03-16
+    eol: true
+    latest: "4.3.4"
+    latestReleaseDate: 2011-05-27
+    link:
+      https://confluence.atlassian.com/jira063/jira-4-3-4-release-notes-683541993.html
+
+-   releaseCycle: "4.2"
+    releaseDate: 2010-10-21
+    eol: true
+    latest: "4.2.4"
+    latestReleaseDate: 2011-02-08
+    link:
+      https://confluence.atlassian.com/jira063/jira-4-2-4-release-notes-683541978.html
+
+-   releaseCycle: "4.1"
+    releaseDate: 2010-04-08
+    eol: true
+    latest: "4.1.2"
+    latestReleaseDate: 2010-06-18
+    link:
+      https://confluence.atlassian.com/jira063/jira-4-1-2-release-notes-683541950.html
+
+-   releaseCycle: "4.0"
+    releaseDate: 2009-10-06
+    eol: true
+    latest: "4.0.2"
+    latestReleaseDate: 2010-02-26
+    link:
+      https://confluence.atlassian.com/jira063/jira-4-0-2-release-notes-683541921.html
+
+-   releaseCycle: "3.13"
+    releaseDate: 2008-09-09
+    eol: true
+    latest: "3.13.5"
+    latestReleaseDate: 2009-07-21
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-13-5-release-notes-683541942.html
+
+-   releaseCycle: "3.12"
+    releaseDate: 2007-12-07
+    eol: true
+    latest: "3.12.3"
+    latestReleaseDate: 2008-04-30
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-12-3-release-notes-683541916.html
+
+-   releaseCycle: "3.11"
+    releaseDate: 2007-09-25
+    eol: true
+    latest: "3.11"
+    latestReleaseDate: 2007-09-25
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-11-release-notes-683541982.html
+
+-   releaseCycle: "3.10"
+    releaseDate: 2007-07-09
+    eol: true
+    latest: "3.10.2"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-10-2-release-notes-683541819.html
+
+-   releaseCycle: "3.9"
+    releaseDate: 2007-05-08
+    eol: true
+    latest: "3.9.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-9-3-release-notes-683541851.html
+
+-   releaseCycle: "3.8"
+    releaseDate: 2007-03-13
+    eol: true
+    latest: "3.8.1"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-8-1-release-notes-683541854.html
+
+-   releaseCycle: "3.7"
+    releaseDate: 2006-12-18
+    eol: true
+    latest: "3.7.4"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-7-4-release-notes-683541869.html
+
+-   releaseCycle: "3.6"
+    releaseDate: 2006-04-18
+    eol: true
+    latest: "3.6.5"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-6-5-release-notes-683541895.html
+
+-   releaseCycle: "3.5"
+    releaseDate: 2006-02-01
+    eol: true
+    latest: "3.5.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-5-3-release-notes-683541839.html
+
+-   releaseCycle: "3.4"
+    releaseDate: 2005-11-15
+    eol: true
+    latest: "3.4.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-4-3-release-notes-683541799.html
+
+-   releaseCycle: "3.3"
+    releaseDate: 2005-08-05
+    eol: true
+    latest: "3.3.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-3-3-release-notes-683541879.html
+
+-   releaseCycle: "3.2"
+    releaseDate: 2005-05-27
+    eol: true
+    latest: "3.2.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-2-3-release-notes-683541833.html
+
+-   releaseCycle: "3.1"
+    releaseDate: 2005-02-14
+    eol: true
+    latest: "3.1.1"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-1-1-release-notes-683541805.html
+
+-   releaseCycle: "3.0"
+    releaseDate: 2004-10-12
+    eol: true
+    latest: "3.0.3"
+    latestReleaseDate: 
+    link:
+      https://confluence.atlassian.com/jira063/jira-3-0-3-release-notes-683541813.html
+
+-   releaseCycle: "2.6"
+    releaseDate: 2004-03-03
+    eol: true
+    latest: "2.6.1"
+    latestReleaseDate: 2004-03-25
+    link:
+      https://www.atlassian.com/blog/archives/jira_261_releas$
+
+-   releaseCycle: "2.5"
+    releaseDate: 2003-11-12
+    eol: true
+    latest: "2.5.3"
+    latestReleaseDate: 2003-12-19
+    link:
+      https://www.atlassian.com/blog/archives/jira_253_releas$
+
+-   releaseCycle: "2.4"
+    releaseDate: 2003-08-20
+    eol: true
+    latest: "2.4"
+    latestReleaseDate: 2003-07-03
+    link:
+      https://www.atlassian.com/blog/archives/jira_24_release$
+
+-   releaseCycle: "2.3"
+    releaseDate: 2003-07-03
+    eol: true
+    latest: "2.3"
+    latestReleaseDate: 2003-07-03
+    link:
+      https://www.atlassian.com/blog/archives/jira_23_release$
+
+-   releaseCycle: "2.2"
+    releaseDate: 2003-06-20
+    eol: true
+    latest: "2.2.1"
+    latestReleaseDate: 2003-06-26
+    link:
+      https://www.atlassian.com/blog/archives/jira_221_releas$
+
+-   releaseCycle: "2.1"
+    releaseDate: 2003-06-03
+    eol: true
+    latest: "2.1"
+    latestReleaseDate: 2003-06-03
+    link:
+      https://www.atlassian.com/blog/archives/jira_21_release$
+
+-   releaseCycle: "1.4"
+    releaseDate: 2002-09-10
+    eol: true
+    latest: "1.4.1"
+    latestReleaseDate: 2002-09-13
+    link:
+      https://www.atlassian.com/blog/archives/jira_1_4_1_released$
+
+-   releaseCycle: "1.3"
+    releaseDate: 2002-07-04
+    eol: true
+    latest: "1.3.3"
+    latestReleaseDate: 2002-07-23
+    link:
+      https://www.atlassian.com/blog/archives/jira_1_3_3_released$
+
+-   releaseCycle: "1.2"
+    releaseDate: 2002-05-21
+    eol: true
+    latest: "1.2"
+    latestReleaseDate: 2002-05-21
+    link:
+      https://www.atlassian.com/blog/archives/jira_12_adds_pe$
+
+-   releaseCycle: "1.1"
+    releaseDate: 2002-04-30
+    eol: true
+    latest: "1.1"
+    latestReleaseDate: 2002-04-30
+    link:
+      https://www.atlassian.com/blog/archives/jira_11_availab$
+
+-   releaseCycle: "1.0"
+    releaseDate: 2002-04-10
+    eol: true
+    latest: "1.0"
+    latestReleaseDate: 2002-04-10
+    link:
+      https://www.atlassian.com/blog/archives/jira_10_release$
+
+
 ---
 
 > [Jira Software](https://www.atlassian.com/software/jira) is a proprietary issue tracking product
