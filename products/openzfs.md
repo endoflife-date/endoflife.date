@@ -19,6 +19,7 @@ auto:
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years
+# supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions. 
 releases:
 -   releaseCycle: "2.2"
     releaseDate: 2023-10-12
