@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "2.0"
     releaseDate: 2020-11-30
-    supportedLinux: "3.10-6.5"
+    supportedLinux: "3.10 - 5.15"
     supportedFreeBSD: "12.2-RELEASE+"
     eol: 2021-12-23
     latest: "2.0.7"
