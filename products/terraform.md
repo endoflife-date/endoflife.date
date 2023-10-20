@@ -59,7 +59,7 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a source-available, infrastructure as code
+> [Hashicorp Terraform](https://www.terraform.io/) is a source-available, infrastructure as code,
 > software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
