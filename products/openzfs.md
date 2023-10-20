@@ -47,8 +47,8 @@ releases:
 
 -   releaseCycle: "0.8"
     releaseDate: 2019-05-21
-    supportedLinux: "2.6.32-5.9"
-    supportedFreeBSD: "na"
+    supportedLinux: "2.6.32 - 5.9"
+    supportedFreeBSD: "N/A"
     eol: 2020-12-14
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
