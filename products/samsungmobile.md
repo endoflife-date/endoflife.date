@@ -943,11 +943,6 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-M107F/INS/doc.html
 
--   releaseCycle: "Galaxy Fold 5G"
-    releaseDate: 2019-09-01 # Approximate to the month and year.
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-F907B/BTU/doc.html
 
 -   releaseCycle: "Galaxy Watch Active2"
     releaseDate: 2019-09-01 # Approximate to the month and year.
