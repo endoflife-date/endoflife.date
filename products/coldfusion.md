@@ -25,8 +25,8 @@ releases:
     releaseDate: 2020-11-11
     eol: 2025-11-10
     extendedSupport: 2026-11-10
-    latestReleaseDate: 2023-10-06
     latest: "2021.0.11.330247"
+    latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "2018"
     releaseDate: 2018-07-12
