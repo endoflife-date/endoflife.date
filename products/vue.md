@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "3"
     support: true
     eol: false
-    latest: "3.3.4"
-    latestReleaseDate: 2023-05-18
+    latest: "3.3.5"
+    latestReleaseDate: 2023-10-20
     extendedSupport: false
     releaseDate: 2020-09-18
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md

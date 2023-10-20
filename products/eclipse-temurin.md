@@ -67,8 +67,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.8.1+1"
-    latestReleaseDate: 2023-08-29
+    latest: "17.0.9+9"
+    latestReleaseDate: 2023-10-19
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
@@ -90,8 +90,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u382-b05"
-    latestReleaseDate: 2023-07-21
+    latest: "8u392-b08"
+    latestReleaseDate: 2023-10-19
     link: 
       https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
