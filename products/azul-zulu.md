@@ -19,6 +19,7 @@ extendedSupportColumn: true
 # - releases have a latestJdkVersion that must be updated whenever latest is updated,
 # - changelog links are not predictable (see https://docs.azul.com/core/zulu-openjdk/release-notes.html).
 
+# Versions and dates are those from the CA builds (PSU Update Type).
 # Latest releases can be found on https://www.azul.com/downloads/?os=linux&architecture=x86-64-bit&package=jdk&show-old-builds=true#download-openjdk.
 # Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/zulu-openjdk/release-notes.html).
 # EOL date can be found on https://www.azul.com/products/azul-support-roadmap/.
@@ -203,6 +204,11 @@ releases:
 > and operating systems. Additionally, Azul provides builds for special requirements, such as
 > stripped down JREs and builds including OpenJFX.
 
+{: .warning }
+> This page is tracking [CA builds](https://support.azul.com/hc/en-us/articles/360051512551-What-s-the-difference-between-CA-and-SA-bundles-of-Azul-Zulu-Builds-of-OpenJDK)
+> of Azul Zulu ([PSU](https://support.azul.com/hc/en-us/articles/4420847095444-Explaining-PSU-and-CPU)),
+> which are free to download and use.
+
 Azul Zulu builds are available for Java 6 and greater. It follows the same cadence as OpenJDK:
 
 - a 6-month rapid-release cycle since the release of Java 10,
@@ -213,7 +219,6 @@ LTS releases are supported for at least 8 years with bug fixes and security upda
 Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
 
-This page is tracking CA Azul Zulu builds of OpenJDK, which are free to download and use.
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
@@ -227,6 +232,8 @@ out [whichjdk.com](https://whichjdk.com/#azul-zulu).
   types="string,string"
   rows=page.releases %}
 
+*[CA]: Community Availability
 *[LTS]: Long Term Support
 *[MTS]: Medium Term Support
+*[PSU]: Patch Set Updates
 *[STS]: Short Term Support
