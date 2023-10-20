@@ -54,12 +54,12 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2021-06-08
     eol: 2022-05-18
-    latest: '1.0.11'
+    latest: "1.0.11"
     latestReleaseDate: 2021-11-10
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is an infrastructure as code
+> [Hashicorp Terraform](https://www.terraform.io/) is a source-available, infrastructure as code
 > software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
