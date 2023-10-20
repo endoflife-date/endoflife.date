@@ -96,10 +96,14 @@ releases:
 > design principles for Erlang programs.
 
 Erlang/OTP does not follow [Semantic Versioning](https://semver.org/). However, it does follow some
-of its principles with a two to four parts version number, `<Major>.<Minor>.<Patch>.<X>`, where
-`<Major>` increments when there are major or incompatible changes, `<Minor>` increments when there
-are new features and `<Patch>` increments when there are pure bug fixes. More information about the
-versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system_principles/versions#version-scheme).
+of its principles with a two to four parts version number, `<Major>.<Minor>.<Patch>.<X>`, where:
+
+- `<Major>` increments when there are major or incompatible changes,
+- `<Minor>` increments when there are new features,
+- `<Patch>` (optional) increments when there are pure bug fixes,
+- `<X>` (optional) is a part used for partially ordered versions.
+
+More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system_principles/versions#version-scheme).
 
 The release policy is not documented, but looking at the latest releases it seems that a new major
 version is released every year in May and supported for approximately 3 years.
