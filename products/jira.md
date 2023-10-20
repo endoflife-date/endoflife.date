@@ -407,7 +407,6 @@ releases:
     releaseDate: 2007-07-09
     eol: true
     latest: "3.10.2"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-10-2-release-notes-683541819.html
 
@@ -415,7 +414,6 @@ releases:
     releaseDate: 2007-05-08
     eol: true
     latest: "3.9.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-9-3-release-notes-683541851.html
 
@@ -423,7 +421,6 @@ releases:
     releaseDate: 2007-03-13
     eol: true
     latest: "3.8.1"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-8-1-release-notes-683541854.html
 
@@ -431,7 +428,6 @@ releases:
     releaseDate: 2006-12-18
     eol: true
     latest: "3.7.4"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-7-4-release-notes-683541869.html
 
@@ -439,7 +435,6 @@ releases:
     releaseDate: 2006-04-18
     eol: true
     latest: "3.6.5"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-6-5-release-notes-683541895.html
 
@@ -447,7 +442,6 @@ releases:
     releaseDate: 2006-02-01
     eol: true
     latest: "3.5.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-5-3-release-notes-683541839.html
 
@@ -455,7 +449,6 @@ releases:
     releaseDate: 2005-11-15
     eol: true
     latest: "3.4.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-4-3-release-notes-683541799.html
 
@@ -463,7 +456,6 @@ releases:
     releaseDate: 2005-08-05
     eol: true
     latest: "3.3.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-3-3-release-notes-683541879.html
 
@@ -471,7 +463,6 @@ releases:
     releaseDate: 2005-05-27
     eol: true
     latest: "3.2.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-2-3-release-notes-683541833.html
 
@@ -479,7 +470,6 @@ releases:
     releaseDate: 2005-02-14
     eol: true
     latest: "3.1.1"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-1-1-release-notes-683541805.html
 
@@ -487,7 +477,6 @@ releases:
     releaseDate: 2004-10-12
     eol: true
     latest: "3.0.3"
-    latestReleaseDate: true
     link:
       https://confluence.atlassian.com/jira063/jira-3-0-3-release-notes-683541813.html
 
