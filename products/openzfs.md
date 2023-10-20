@@ -19,9 +19,12 @@ auto:
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years
+# supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions. 
 releases:
 -   releaseCycle: "2.2"
     releaseDate: 2023-10-12
+    supportedLinux: "3.10 - 6.5"
+    supportedFreeBSD: "12.2-RELEASE+"
     eol: false # releaseDate(2.3)
     latest: "2.2.0"
     latestReleaseDate: 2023-10-12
@@ -29,18 +32,24 @@ releases:
 -   releaseCycle: "2.1"
     releaseDate: 2021-07-02
     lts: true
+    supportedLinux: "3.10 - 6.5"
+    supportedFreeBSD: "12.2-RELEASE+"
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
     latest: "2.1.13"
     latestReleaseDate: 2023-09-27
 
 -   releaseCycle: "2.0"
     releaseDate: 2020-11-30
+    supportedLinux: "3.10 - 5.15"
+    supportedFreeBSD: "12.2-RELEASE+"
     eol: 2021-12-23
     latest: "2.0.7"
     latestReleaseDate: 2021-12-23
 
 -   releaseCycle: "0.8"
     releaseDate: 2019-05-21
+    supportedLinux: "2.6.32 - 5.9"
+    supportedFreeBSD: "N/A"
     eol: 2020-12-14
     latest: "0.8.6"
     latestReleaseDate: 2020-12-14
@@ -63,6 +72,14 @@ releases:
 
 These distributions have repositories provided directly by the OpenZFS community, while other distributions likely will work, they are not frequently tested and may exhibit issues, especially Ubuntu due to their HWE kernel pulling in patches from newer kernels and still claiming the kernel is from an older branch. [Ubuntu is not supported by OpenZFS](https://github.com/openzfs/zfs/issues/10333), issues on Ubuntu should first be reported [to Ubuntu's bug tracker for ZFS](https://bugs.launchpad.net/ubuntu/+source/zfs-linux).
 
-[Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from kernel.org.
+## Supported kernels
+[Every Linux release][zol] includes a range of supported kernels. Point releases are tagged as needed in order to support the stable kernel available from [kernel.org](https://kernel.org).
+
+{%- assign collapsedCycles = page.releases %}
+{% include table.html
+  labels="Release,Linux,FreeBSD"
+  fields="releaseCycle,supportedLinux,supportedFreeBSD"
+  types="string,string,string"
+  rows=collapsedCycles %}
 
 [zol]: https://zfsonlinux.org/ "ZFS On Linux"
