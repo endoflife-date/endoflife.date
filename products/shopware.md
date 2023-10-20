@@ -50,3 +50,14 @@ releases:
 ---
 
 > [Shopware](https://www.shopware.com/) is an open headless commerce platform powered by [Symfony](https://symfony.com) and [Vue.js](https://vuejs.org).
+
+The new Shopware versions will release once a month. This can include new features, but it can also be a simple patch-release. The opensource community versions follow the paid versioning scheme.
+
+Shopware utilizes a semver scheme per Genration. This results in a versioning scheme with 4 parts: Generation.Major.Minor.Patch (6.5.2.1) A major release is identified by a change in the second (Y) digit.
+
+- Generation: Currently version 6.
+- MAJOR: Incompatible API changes are made
+- MINOR: Functionality is added in a backward-compatible manner
+- PATCH: Backward-compatible bug fixes are made
+
+Shopware also has a paid support and hosted option provided by
