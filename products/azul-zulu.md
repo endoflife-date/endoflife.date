@@ -207,7 +207,7 @@ releases:
 {: .warning }
 > This page is tracking [CA builds](https://support.azul.com/hc/en-us/articles/360051512551-What-s-the-difference-between-CA-and-SA-bundles-of-Azul-Zulu-Builds-of-OpenJDK)
 > of Azul Zulu ([PSU](https://support.azul.com/hc/en-us/articles/4420847095444-Explaining-PSU-and-CPU)),
-> which are free to download and use. Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
+> which are free to download and use.
 
 Azul Zulu builds are available for Java 6 and greater. It follows the same cadence as OpenJDK:
 
@@ -218,6 +218,8 @@ Azul Zulu builds are available for Java 6 and greater. It follows the same caden
 LTS releases are supported for at least 8 years with bug fixes and security updates. Azul also has
 Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
+
+Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#azul-zulu).
