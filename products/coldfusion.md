@@ -33,7 +33,7 @@ releases:
     releaseDate: 2018-07-12
     eol: 2023-07-13
     extendedSupport: 2024-07-13
-	latest: "2018.0.19.330149"
+	  latest: "2018.0.19.330149"
     latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "2016"
