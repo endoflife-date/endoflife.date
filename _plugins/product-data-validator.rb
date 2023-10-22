@@ -55,6 +55,7 @@ module EndOfLifeHooks
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://wiki.debian.org': SUPPRESSED_BECAUSE_TIMEOUT,
