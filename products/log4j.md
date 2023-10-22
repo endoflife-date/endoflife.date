@@ -22,6 +22,7 @@ releases:
     eol: false
     latest: "2.21.0"
     latestReleaseDate: 2023-10-12
+    link: https://github.com/apache/logging-log4j2/releases/tag/rel%2F__LATEST__
 
 -   releaseCycle: "2.12"
     releaseDate: 2019-06-26
