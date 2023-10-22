@@ -21,9 +21,9 @@ auto:
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
-# This is quite predictable since releases are monthly on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
+# Releases are made on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
 releases:
-#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, our monthly release date will change from the 22nd of every month to the third Thursday of every month.
+#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, the monthly release date will change from the 22nd of every month to the third Thursday of every month.
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-22
     support: 2023-11-16
@@ -255,8 +255,10 @@ releases:
 > pipeline features, using an open-source license, developed by GitLab Inc.
 
 GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html)
-based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/),
-and you can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
+based on Semantic Versioning. New releases are made on [third Thursday of every
+ month] (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/) and are
+announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
+You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
 available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
 to track new features since a given version.
 
