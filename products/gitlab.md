@@ -21,8 +21,16 @@ auto:
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
-# This is quite predictable since releases are monthly (usually 22nd of every month).
+# This is quite predictable since releases are monthly on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
 releases:
+#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, our monthly release date will change from the 22nd of every month to the third Thursday of every month.
+-   releaseCycle: "16.5"
+    releaseDate: 2023-10-22
+    support: 2023-11-22
+    eol: 2024-01-22
+    latest: "16.6.0"
+    latestReleaseDate: 2023-10-22
+
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21
     support: 2023-10-22
