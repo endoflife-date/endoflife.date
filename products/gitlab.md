@@ -256,7 +256,7 @@ releases:
 
 GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html)
 based on Semantic Versioning. New releases are made on [third Thursday of every
- month] (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/) and are
+ month](https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/) and are
 announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
 You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
 available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
