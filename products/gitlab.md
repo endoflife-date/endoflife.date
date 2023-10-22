@@ -28,7 +28,7 @@ releases:
     releaseDate: 2023-10-22
     support: 2023-11-22
     eol: 2024-01-22
-    latest: "16.6.0"
+    latest: "16.5.0"
     latestReleaseDate: 2023-10-22
 
 -   releaseCycle: "16.4"
