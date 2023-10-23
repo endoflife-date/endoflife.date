@@ -16,11 +16,11 @@ releases:
 -   releaseCycle: "3.3"
     eol: false
     support: true
-    latest: "3.3.10"
+    latest: "3.3.11"
     link: https://www.phpbb.com/community/viewtopic.php?t=2635986
     releaseDate: 2020-01-06
 
-    latestReleaseDate: 2023-02-04
+    latestReleaseDate: 2023-10-21
 -   releaseCycle: "3.2"
     eol: 2019-11-01
     support: 2019-05-01

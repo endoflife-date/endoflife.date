@@ -25,49 +25,69 @@ releases:
     lts: 2023-12-01
     eol: 2024-02-28
 
+    latestReleaseDate: 2023-10-11
+    latest: '23.18'
 -   releaseCycle: "23.16"
     releaseDate: 2023-09-13
     eol: 2023-12-12
 
+    latestReleaseDate: 2023-09-13
+    latest: '23.16'
 -   releaseCycle: "23.14"
     releaseDate: 2023-08-09
     eol: 2023-11-08
 
+    latestReleaseDate: 2023-08-09
+    latest: '23.14'
 -   releaseCycle: "23.12"
     releaseDate: 2023-07-12
     lts: 2023-09-07
     eol: 2023-11-30
 
+    latestReleaseDate: 2023-07-12
+    latest: '23.12'
 -   releaseCycle: "23.10"
     releaseDate: 2023-06-14
     eol: 2023-09-13
 
+    latestReleaseDate: 2023-06-14
+    latest: '23.10'
 -   releaseCycle: "23.8"
     releaseDate: 2023-05-10
     eol: 2023-08-09
 
+    latestReleaseDate: 2023-05-10
+    latest: '23.8'
 -   releaseCycle: "23.6"
     releaseDate: 2023-04-14
     lts: 2023-06-05
     eol: 2023-08-31
     link: https://cloud.google.com/looker/docs/looker-23-changelog#236
 
+    latestReleaseDate: 2023-04-14
+    latest: '23.6'
 -   releaseCycle: "23.4"
     releaseDate: 2023-03-14
     eol: 2023-06-13
     link: https://cloud.google.com/looker/docs/looker-23-changelog#234
 
+    latestReleaseDate: 2023-03-14
+    latest: '23.4'
 -   releaseCycle: "23.2"
     releaseDate: 2023-02-10
     eol: 2023-05-09
     link: https://cloud.google.com/looker/docs/looker-23-changelog#232
 
+    latestReleaseDate: 2023-02-10
+    latest: '23.2'
 -   releaseCycle: "23.0"
     releaseDate: 2023-01-11
     lts: 2023-03-07
     eol: 2023-05-31
     link: https://cloud.google.com/looker/docs/looker-23-changelog#230
 
+    latestReleaseDate: 2023-01-11
+    latest: '23.0'
 -   releaseCycle: "22.20"
     releaseDate: 2022-11-14
     eol: 2023-03-13

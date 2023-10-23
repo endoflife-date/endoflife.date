@@ -41,7 +41,7 @@ releases:
     latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "1.3"
-    releaseDate: 2022-10-12
+    releaseDate: 2022-10-11
     support: 2023-01-25
     eol: 2023-10-12
     latest: "1.3.7"
