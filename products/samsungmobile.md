@@ -280,7 +280,7 @@ releases:
 -   releaseCycle: "Galaxy S21 FE 5G"
     releaseDate: 2022-01-07
     support: true
-    eol: false
+    eol: 2027-01-07 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
 
 -   releaseCycle: "Galaxy A03 Core"
@@ -505,23 +505,29 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/sm-m317f/ins/doc.html
 
+-   releaseCycle: "Galaxy S21 Ultra 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
+
+-   releaseCycle: "Galaxy S21+ 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
+
+-   releaseCycle: "Galaxy S21 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
+
 -   releaseCycle: "Galaxy A02"
     releaseDate: 2021-01-27
     support: true
     eol: false
     link: https://doc.samsungmobile.com/SM-A022F/XID/doc.html
-
--   releaseCycle: "Galaxy S21 Ultra"
-    releaseDate: 2021-01-14
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
-
--   releaseCycle: "Galaxy S21+"
-    releaseDate: 2021-01-14
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
 
 -   releaseCycle: "Galaxy A32 5G"
     releaseDate: 2021-01-13
