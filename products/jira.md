@@ -242,7 +242,7 @@ releases:
 
 -   releaseCycle: "8.7"
     releaseDate: 2020-02-02
-    eol: 
+    eol: 2022-02-03
     latest: "8.7.1"
     latestReleaseDate: 2020-02-09
     link:
