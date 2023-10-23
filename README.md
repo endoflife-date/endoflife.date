@@ -35,7 +35,7 @@ The API is currently in Alpha, and breaking changes can happen.
 Licensed under the [MIT License](LICENSE).
 
 ## Credits
-
+ 
 endoflife.date is relying on various amazing software and components :
 
 - [GitHub](https://github.com/), an Internet hosting service for software development and version
