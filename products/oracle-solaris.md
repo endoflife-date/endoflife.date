@@ -18,6 +18,8 @@ extendedSupportColumn: Extended Support
 identifiers:
 -   cpe: cpe:/o:oracle:solaris
 
+# Release and end of support dates can be found in the "Oracle’s Solaris Releases" paragraph on https://www.oracle.com/a/ocom/docs/support/advanced-customer-support/solaris-linux-vm-lsp.pdf.
+# A versions history can also be found on https://en.wikipedia.org/wiki/Oracle_Solaris#Version_history.
 releases:
 -   releaseCycle: "11.4"
     releaseDate: 2018-08-28
