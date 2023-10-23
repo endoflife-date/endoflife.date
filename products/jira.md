@@ -485,7 +485,7 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 2011-08-02
-    eol: true
+    eol: 2014-02-22
     latest: "4.4.5"
     latestReleaseDate: 2012-02-22
     link:
@@ -493,7 +493,7 @@ releases:
 
 -   releaseCycle: "4.3"
     releaseDate: 2011-03-16
-    eol: true
+    eol: 2013-05-27
     latest: "4.3.4"
     latestReleaseDate: 2011-05-27
     link:
@@ -501,7 +501,7 @@ releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2010-10-21
-    eol: true
+    eol: 2013-02-08
     latest: "4.2.4"
     latestReleaseDate: 2011-02-08
     link:
@@ -509,7 +509,7 @@ releases:
 
 -   releaseCycle: "4.1"
     releaseDate: 2010-04-08
-    eol: true
+    eol: 2012-06-18
     latest: "4.1.2"
     latestReleaseDate: 2010-06-18
     link:
@@ -517,7 +517,7 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2009-10-06
-    eol: true
+    eol: 2012-02-26
     latest: "4.0.2"
     latestReleaseDate: 2010-02-26
     link:
@@ -525,7 +525,7 @@ releases:
 
 -   releaseCycle: "3.13"
     releaseDate: 2008-09-09
-    eol: true
+    eol: 2011-07-21
     latest: "3.13.5"
     latestReleaseDate: 2009-07-21
     link:
