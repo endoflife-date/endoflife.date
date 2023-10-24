@@ -29,7 +29,7 @@ releases:
     latestReleaseDate: 2023-09-09
     releaseDate: 2021-12-15
 -   releaseCycle: "6.1"
-    eol: false
+    eol: 2024-06-01 # https://github.com/rails/rails/pull/46895#issuecomment-1673353127
     latest: "6.1.7.6"
     latestReleaseDate: 2023-08-22
     releaseDate: 2020-12-09
