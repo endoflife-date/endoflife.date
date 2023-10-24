@@ -42,18 +42,18 @@ releases:
 -   releaseCycle: "10-21H2-IoT"
     releaseLabel: "10 21H2 IoT"
     releaseDate: 2021-11-16
+    lts: true
     support: 2027-01-12
     eol: 2032-01-13
-    lts: true
     latest: 10.0.19044
     link: https://learn.microsoft.com/windows/release-health/release-information
 
 -   releaseCycle: "10-21H2"
     releaseLabel: "10 21H2"
     releaseDate: 2021-11-16
+    lts: true
     support: 2027-01-12
     eol: 2027-01-12
-    lts: true
     latest: 10.0.19044
     link: https://learn.microsoft.com/windows/release-health/release-information
 
@@ -145,22 +145,14 @@ releases:
     latest: 10.0.18362
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1903-end-of-servicing
 
--   releaseCycle: "10-1809"
-    releaseLabel: "10 1809"
-    releaseDate: 2018-11-13
-    support: 2024-01-09
-    eol: 2029-01-09
-    lts: true
-    latest: 10.0.17763
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
-
 -   releaseCycle: "10-1809-E"
     releaseLabel: "10 1809 (E)"
     releaseDate: 2018-11-13
-    support: 2021-05-11
-    eol: 2021-05-11
+    lts: true
+    support: 2024-01-09
+    eol: 2029-01-09
     latest: 10.0.17763
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
+    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
 -   releaseCycle: "10-1809-W"
     releaseLabel: "10 1809 (W)"
@@ -218,22 +210,14 @@ releases:
     latest: 10.0.15063
     link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
 
--   releaseCycle: "10-1607"
-    releaseLabel: "10 1607"
-    releaseDate: 2016-08-02
-    support: 2021-10-12
-    eol: 2026-10-13
-    lts: true
-    latest: 10.0.14393
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
-
 -   releaseCycle: "10-1607-E"
     releaseLabel: "10 1607 (E)"
     releaseDate: 2016-08-02
-    support: 2019-04-09
-    eol: 2019-04-09
+    lts: true
+    support: 2021-10-12
+    eol: 2026-10-13
     latest: 10.0.14393
-    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1607-end-of-servicing
+    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
 -   releaseCycle: "10-1607-W"
     releaseLabel: "10 1607 (W)"
@@ -251,17 +235,17 @@ releases:
     latest: 10.0.10586
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1511-end-of-servicing
 
--   releaseCycle: "10-1507"
-    releaseLabel: "10 1507"
+-   releaseCycle: "10-1507-E"
+    releaseLabel: "10 1507 (E)"
     releaseDate: 2015-07-29
+    lts: true
     support: 2020-10-13
     eol: 2025-10-14
-    lts: true
     latest: 10.0.10240
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
--   releaseCycle: "10-1507"
-    releaseLabel: "10 1507"
+-   releaseCycle: "10-1507-W"
+    releaseLabel: "10 1507 (W)"
     releaseDate: 2015-07-29
     support: 2017-05-09
     eol: 2017-05-09
@@ -282,7 +266,7 @@ releases:
     latest: 6.2.9200
     link: https://learn.microsoft.com/lifecycle/products/windows-8
 
--   releaseCycle: "7-SP1"
+-   releaseCycle: "7-sp1"
     releaseLabel: "7 SP1"
     releaseDate: 2011-02-22
     support: 2015-01-13
@@ -290,7 +274,7 @@ releases:
     latest: 6.1.7601
     link: https://learn.microsoft.com/lifecycle/products/windows-7
 
--   releaseCycle: "6-SP2"
+-   releaseCycle: "6-sp2"
     releaseLabel: "Vista SP2"
     releaseDate: 2009-04-29
     support: 2012-04-10
@@ -298,7 +282,7 @@ releases:
     latest: 6.0.6200
     link: https://learn.microsoft.com/lifecycle/products/windows-vista
 
--   releaseCycle: "5-SP3"
+-   releaseCycle: "5-sp3"
     releaseLabel: "XP SP3"
     releaseDate: 2008-04-21
     support: 2009-04-14
