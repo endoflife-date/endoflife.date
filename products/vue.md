@@ -36,8 +36,8 @@ releases:
 -   releaseCycle: "2"
     support: 2022-03-18
     eol: 2023-12-31
-    latest: "2.7.14"
-    latestReleaseDate: 2022-11-09
+    latest: "2.7.15"
+    latestReleaseDate: 2023-10-23
     extendedSupport: true
     releaseDate: 2016-09-30
     link: https://github.com/vuejs/vue/blob/main/CHANGELOG.md
