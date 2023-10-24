@@ -21,19 +21,27 @@ auto:
 
 # EOL of R = releaseDate(R+3)
 # Support of R = releaseDate(R+1)
-# This is quite predictable since releases are monthly (usually 22nd of every month).
+# Releases are made on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
 releases:
+#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, the monthly release date will change from the 22nd of every month to the third Thursday of every month.
+-   releaseCycle: "16.5"
+    releaseDate: 2023-10-22
+    support: 2023-11-16
+    eol: 2024-01-18
+    latest: "16.5.0"
+    latestReleaseDate: 2023-10-22
+
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21
     support: 2023-10-22
-    eol: 2023-12-22
+    eol: 2023-12-21
     latest: "16.4.1"
     latestReleaseDate: 2023-09-28
 
 -   releaseCycle: "16.3"
     releaseDate: 2023-08-21
     support: 2023-09-22
-    eol: 2023-11-22
+    eol: 2023-11-16
     latest: "16.3.5"
     latestReleaseDate: 2023-09-28
 
@@ -247,8 +255,9 @@ releases:
 > pipeline features, using an open-source license, developed by GitLab Inc.
 
 GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html)
-based on Semantic Versioning. New releases are announced on the [blog](https://about.gitlab.com/releases/categories/releases/),
-and you can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
+based on Semantic Versioning. New releases are made monthly on [third Thursday][release-day] and are
+announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
+You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
 available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
 to track new features since a given version.
 
@@ -264,6 +273,8 @@ criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-olde
 
 | Version Type | Description                                                                                                                                                     | Cadence                                                                               |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for May 22 each year, by default. |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on the 22nd.                                                                  |
+| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default. |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day].                                                                  |
 | Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                            |
+
+[release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
