@@ -255,8 +255,7 @@ releases:
 > pipeline features, using an open-source license, developed by GitLab Inc.
 
 GitLab has a [well-defined versioning policy](https://docs.gitlab.com/ce/policy/maintenance.html)
-based on Semantic Versioning. New releases are made on [third Thursday of every
-month](https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/) and are
+based on Semantic Versioning. New releases are made monthly on [third Thursday][release-day] and are
 announced on the [blog](https://about.gitlab.com/releases/categories/releases/).
 You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A [tool is
 available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
@@ -274,6 +273,8 @@ criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-olde
 
 | Version Type | Description                                                                                                                                                     | Cadence                                                                               |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for May 22 each year, by default. |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on the 22nd.                                                                  |
+| Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default. |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day].                                                                  |
 | Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                            |
+
+[release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
