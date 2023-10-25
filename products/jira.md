@@ -715,7 +715,7 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2002-04-10
     eol: true
-    latest: "1.0"
+    latest: "1.0.0"
     latestReleaseDate: 2002-04-10
     link:
       https://www.atlassian.com/blog/archives/jira_10_release$
