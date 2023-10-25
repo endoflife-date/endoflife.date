@@ -641,7 +641,7 @@ releases:
       https://www.atlassian.com/blog/archives/jira_261_releas$
 
 -   releaseCycle: "2.5"
-    releaseDate: 2003-11-12
+    releaseDate: 2003-11-12 # https://www.atlassian.com/blog/archives/jira_2_5_released$
     eol: true
     latest: "2.5.3"
     latestReleaseDate: 2003-12-19
