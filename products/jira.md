@@ -699,7 +699,7 @@ releases:
 -   releaseCycle: "1.2"
     releaseDate: 2002-05-21
     eol: true
-    latest: "1.2"
+    latest: "1.2.0"
     latestReleaseDate: 2002-05-21
     link:
       https://www.atlassian.com/blog/archives/jira_12_adds_pe$
