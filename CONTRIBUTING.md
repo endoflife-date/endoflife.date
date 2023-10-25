@@ -18,7 +18,7 @@ permalink: /contribute
 - [📑 Suggested Reading](#-suggested-reading)
 - [:bookmark: Code of Conduct](#bookmark-code-of-conduct)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto-update -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest
 
