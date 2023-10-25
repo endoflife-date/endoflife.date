@@ -707,7 +707,7 @@ releases:
 -   releaseCycle: "1.1"
     releaseDate: 2002-04-30
     eol: true
-    latest: "1.1"
+    latest: "1.1.0"
     latestReleaseDate: 2002-04-30
     link:
       https://www.atlassian.com/blog/archives/jira_11_availab$
