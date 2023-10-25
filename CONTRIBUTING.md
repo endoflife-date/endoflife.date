@@ -43,7 +43,7 @@ title: Timeturner
 
 # Category of the product (mandatory).
 # Possible values are os,db,app,lang,framework,device,service,server-app.
-# If you add a new value, please mention it on the PR Description. Some rough guidelines:
+# If you add a new value, please mention it in the PR Description. Some rough guidelines:
 # - os is for operating systems (and similar projects),
 # - db is for databases,
 # - app is for end-user applications,
@@ -67,7 +67,7 @@ category: os
 #   - set a product vendor such as adobe, amazon or apache,
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 #
-# Remember that no tag is better than useless tag. Also note that categories are automatically tags, but don't
+# Remember that no tag is better than a useless tag. Also, note that categories are automatically tags, but don't
 # use another category as a tag.
 tags: amazon linux
 
@@ -82,7 +82,7 @@ iconSlug: codemagic
 permalink: /timeturner
 
 # Alternate URLs that will redirect to the permalink (optional).
-# This is nice to let people use easier to remember URLs. For example, we redirect /golang to /go .
+# This is nice to let people use easier-to-remember URLs. For example, we redirect /golang to /go .
 alternate_urls:
 -   /hourglass
 
@@ -168,10 +168,10 @@ extendedSupportWarnThreshold: 121
 
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
-# Multiple configuration are allowed.
+# Multiple configurations are allowed.
 # Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
 # The presence of such configuration enables a footer note on the product page
-# informing users that latest releases are automatically updated.
+# informing users that the latest releases are automatically updated.
 auto:
 
   # Configuration for auto-update based on git.
@@ -208,9 +208,9 @@ auto:
   # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
   - distrowatch: debian
 
-    # The Python-Compatible regex used to parse headlines (mandatory).
+    # The Python-compatible regex used to parse headlines (mandatory).
     # Use named capturing groups to capture the version or version's parts.
-    # You can also pass a list of regexes here, and matches for any of those will be considered.
+    # You can also pass a list of regexes here and matches for any of those will be considered.
     regex: 'Distribution Release: (?P<version>\d+.\d+)'
 
     # A liquid template using the captured variables from the regex above that renders the final version
@@ -223,7 +223,7 @@ auto:
   # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
   - maven: org.apache.tomcat/tomcat
 
-  # Configuration for auto-update based on a custom script in release-data repository.
+  # Configuration for auto-update based on a custom script in the release-data repository.
   # The value must always be `true`.
   - custom: true
 
@@ -242,13 +242,13 @@ identifiers:
   # the repology page
   # Common examples would be to use
   # - pkg:os to document operating systems (https://github.com/package-url/purl-spec/pull/161)
-  # - pkg:github to link to github pages
+  # - pkg:github to link to GitHub pages
   # - pkg:golang/pypi/gem/maven/npm etc for common package managers
   # - pkg:docker for linking to docker images on Docker Hub
   - purl: pkg:package-manager/package-name
 
 # A list of releases, supported or not (mandatory).
-# Releases must be sort from the newest (on top of the list) to the lowest.
+# Releases must be sorted from the newest (on top of the list) to the lowest.
 # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
 releases:
 
@@ -274,7 +274,7 @@ releases:
     releaseDate: 2017-03-12
 
     # End of active support date (optional if activeSupportColumn is false, else mandatory).
-    # This is where bugfixes usually stop coming in.
+    # This is where bug fixes usually stop coming in.
     # Use valid dates, and do not add quotes around dates.
     # Alternatively, set to true|false if the date has not been decided yet.
     support: 2018-01-31
@@ -319,20 +319,20 @@ releases:
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
     # or if the changelogTemplate generated link must be overridden.
     # Do not use a localized URL (such as one containing en-us) if possible.
-    # Use the special value 'null' (unquoted) if you want to disable link for a specific cycle of a
+    # Use the special value 'null' (unquoted) if you want to disable the link for a specific cycle of a
     # product having a changelogTemplate.
     link: https://example.com/news/2021-12-25/release-1.2.3
 
 # In the following markdown section, ensure that all the above are present:
-# 1. A one line statement about what the product is, with a link to the primary website (in a quote).
+# 1. A one-line statement about what the product is, with a link to the primary website (in a quote).
 # 2. A short summary of the release policy, pointing out the EoL policy as well, if available.
 # 3. Any additional information that may be of interest.
 #
 # See also the Guiding Principles on the wiki ( https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles )
-# for indication on the tone and voice to use for the text.
+# for indication of the tone and voice to use for the text.
 
 
-# Please leave a newline both above and below the triple-dashes.
+# Please leave a new line both above and below the triple-dashes.
 
 ---
 
@@ -346,13 +346,13 @@ releases:
 Time-turners are no longer released, and the last known stable release was in HP.5 release.
 ```
 
-For the product text, please make sure you read the [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) for the website to match the tone. File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once the pull request is merged, the changes are automatically deployed on the website. See below on how to validate your changes.
+For the product text, please make sure you read the [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) for the website to match the tone. File a Pull Request with this file created, and Netlify will provide a preview URL for the same. Once the pull request is merged, the changes are automatically deployed on the website. See below for how to validate your changes.
 
 You can visit <https://github.com/endoflife-date/endoflife.date/new/master/products> to directly create your file.
 
 ## ✅ Validating your changes
 
-If you're using an IDE like `vscode` or `vim` (or any other IDE that support jsonschema validation),
+If you're using an IDE like `vscode` or `vim` (or any other IDE that supports JSON schema validation),
 you can use [this jsonschema](./product-schema.json) to validate the new product.
 
 For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./product-schema.json) file on it:
@@ -373,13 +373,13 @@ In `vim` you also could use the [yaml-language-server](https://github.com/redhat
 # yaml-language-server: $schema=../product-schema.json
 ```
 
-Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks is failed, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
+Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks fails, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
 
 If all of the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website _with your changes_.
 
 ![image](https://user-images.githubusercontent.com/584253/134535142-7d1170b7-16f4-4cd3-987e-e890b76098d5.png)
 
-Click through, and validate your changes. Click all the links in the page you've changed and make sure they're not broken.
+Click through, and validate your changes. Click all the links on the page you've changed and make sure they're not broken.
 
 ### Test on your workstation with Docker
 
@@ -408,7 +408,7 @@ docker run --rm \
 We have the following documents which should help you get familiar with the project and the codebase. You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
 
 - [HACKING.md](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md) contains instructions on setting up the codebase locally with Jekyll. Read this if you're planning to make complex changes or setting up the project locally.
-- [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets a speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is _especially important if you are making non-trivial changes_ that deal with the content or add a new product.
+- [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is _especially important if you are making non-trivial changes_ that deal with the content or add a new product.
 - [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at https://endoflife.date/contribute
 
 ## :bookmark: Code of Conduct
