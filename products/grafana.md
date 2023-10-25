@@ -18,9 +18,16 @@ auto:
 # - support(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "10.2"
+    releaseDate: 2023-10-24
+    support: true
+    eol: false
+    latest: "10.2.0"
+    latestReleaseDate: 2023-10-24
+
 -   releaseCycle: "10.1"
     releaseDate: 2023-08-23
-    support: true
+    support: 2023-10-24
     eol: false
     latest: "10.1.5"
     latestReleaseDate: 2023-10-11
@@ -28,7 +35,7 @@ releases:
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
     support: 2023-08-23
-    eol: false
+    eol: 2023-10-24
     latest: "10.0.9"
     latestReleaseDate: 2023-10-11
 
