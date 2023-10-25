@@ -681,7 +681,7 @@ releases:
       https://www.atlassian.com/blog/archives/jira_21_release$
 
 -   releaseCycle: "1.4"
-    releaseDate: 2002-09-10
+    releaseDate: 2002-09-10 # https://www.atlassian.com/blog/archives/jira_1_4_released$
     eol: true
     latest: "1.4.1"
     latestReleaseDate: 2002-09-13
