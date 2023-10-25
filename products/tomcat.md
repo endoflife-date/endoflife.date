@@ -19,6 +19,13 @@ auto:
 -   maven: org.apache.tomcat/tomcat
 
 releases:
+-   releaseCycle: "11.0"
+    releaseDate: 2022-09-23
+    eol: false
+    minJavaVersion: 21
+    latest: "11.0.0-M13 (alpha)"
+    latestReleaseDate: 2023-10-11
+
 -   releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
