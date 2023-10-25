@@ -1,16 +1,15 @@
 ---
-permalink: /fairphone
 title: Fairphone
 category: device
 tags: mobile-phone
+permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
-discontinuedColumn: true
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+discontinuedColumn: true
+activeSupportColumn: false
 
 releases:
-
 -   releaseCycle: "5"
     highestAndroidVersion: "13"
     releaseDate: 2023-09-14
