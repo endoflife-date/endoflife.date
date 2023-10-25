@@ -675,7 +675,7 @@ releases:
 -   releaseCycle: "2.1"
     releaseDate: 2003-06-03
     eol: true
-    latest: "2.1"
+    latest: "2.1.0"
     latestReleaseDate: 2003-06-03
     link:
       https://www.atlassian.com/blog/archives/jira_21_release$
