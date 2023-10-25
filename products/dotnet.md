@@ -48,15 +48,15 @@ releases:
 -   releaseCycle: "7.0"
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.12"
-    latestReleaseDate: 2023-10-10
+    latest: "7.0.13"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "6.0"
     lts: true
     releaseDate: 2021-11-08
     eol: 2024-11-12
-    latest: "6.0.23"
-    latestReleaseDate: 2023-10-10
+    latest: "6.0.24"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "5.0"
     releaseDate: 2020-11-10

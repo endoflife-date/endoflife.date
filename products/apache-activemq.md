@@ -27,14 +27,14 @@ releases:
 -   releaseCycle: "5.18"
     releaseDate: 2023-03-18
     eol: false # still listed on https://activemq.apache.org/
-    latest: "5.18.2"
-    latestReleaseDate: 2023-06-27
+    latest: "5.18.3"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
     eol: false # still listed on https://activemq.apache.org/
-    latest: "5.17.5"
-    latestReleaseDate: 2023-06-28
+    latest: "5.17.6"
+    latestReleaseDate: 2023-10-25
 
 -   releaseCycle: "5.16"
     releaseDate: 2020-06-25
