@@ -6,7 +6,7 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage: 
+releaseImage:
   https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
@@ -23,7 +23,7 @@ eolColumn: Extended Support
 # See https://rubular.com/r/qi5jDueXMwunrS.
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: 
+    regex:
       ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.1\.\d+))$
     template: "{{v}}"
 
@@ -33,40 +33,40 @@ auto:
 # We show Extended support dates since that match Community Edition timelines
 releases:
 -   releaseCycle: "8.1"
-    latest: '8.1.0'
+    releaseDate: 2023-06-21
     support: true
     eol: false
+    latest: '8.1.0'
     latestReleaseDate: 2023-06-21
-    releaseDate: 2023-06-21
 
 -   releaseCycle: "8.0"
-    latest: '8.0.34'
+    releaseDate: 2018-04-08
+    lts: 2023-07-18
     support: 2025-04-30
     eol: 2026-04-30
-    lts: 2023-07-18
+    latest: '8.0.34'
     latestReleaseDate: 2023-06-22
-    releaseDate: 2018-04-08
 
 -   releaseCycle: "5.7"
-    latest: '5.7.43'
+    releaseDate: 2015-10-09
     support: 2020-10-31
     eol: 2023-10-31
+    latest: '5.7.43'
     latestReleaseDate: 2023-06-21
-    releaseDate: 2015-10-09
 
 -   releaseCycle: "5.6"
-    latest: '5.6.51'
+    releaseDate: 2013-02-01
     support: 2018-02-28
     eol: 2021-02-28
+    latest: '5.6.51'
     latestReleaseDate: 2021-01-05
-    releaseDate: 2013-02-01
 
 -   releaseCycle: "5.5"
-    latest: '5.5.63'
+    releaseDate: 2010-12-03
     support: 2015-12-31
     eol: 2018-12-31
+    latest: '5.5.63'
     latestReleaseDate: 2018-12-21
-    releaseDate: 2010-12-03
 
 ---
 
