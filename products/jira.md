@@ -651,8 +651,8 @@ releases:
 -   releaseCycle: "2.4"
     releaseDate: 2003-08-20
     eol: true
-    latest: "2.4"
-    latestReleaseDate: 2003-07-03
+    latest: "2.4.0"
+    latestReleaseDate: 2003-08-20
     link:
       https://www.atlassian.com/blog/archives/jira_24_release$
 
