@@ -35,27 +35,27 @@ auto:
     regex:
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 
-releases: 
+releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-06
-    link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
     eol: false
     latest: '6.1'
     latestReleaseDate: 2023-07-06
+    link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "5"
     releaseDate: 2021-07-31
-    link: http://www.squid-cache.org/Versions/v5/squid-__LATEST__-RELEASENOTES.html
     eol: 2023-07-06
     latest: '5.9'
     latestReleaseDate: 2023-05-01
+    link: http://www.squid-cache.org/Versions/v5/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "4"
     releaseDate: 2018-07-03
     eol: 2021-10-04
-    link: http://www.squid-cache.org/Versions/v4/squid-__LATEST__-RELEASENOTES.html
     latest: '4.17'
     latestReleaseDate: 2021-10-04
+    link: http://www.squid-cache.org/Versions/v4/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "3.5"
     releaseDate: 2015-01-13
@@ -119,10 +119,18 @@ releases:
 
 ---
 
-> [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. It runs on most available operating systems, and is licensed under the GNU GPL.
+> [Squid](http://www.squid-cache.org/) is a caching proxy for the web supporting HTTP, HTTPS, FTP,
+> and more. It reduces bandwidth and improves response times by caching and reusing
+> frequently-requested web pages. It runs on most available operating systems, and is licensed
+> under the GNU GPL.
 
 ## [Release schedule](https://wiki.squid-cache.org/ReleaseSchedule#future-release-schedule)
 
-Major stable versions are released in July every 2 years. Beta branches are spawned six months before the corresponding major stable release. A [Roadmap](https://wiki.squid-cache.org/RoadMap/) is maintained for planned features.
+Major stable versions are released in July every 2 years. Beta branches are spawned six months
+before the corresponding major stable release. A [Roadmap](https://wiki.squid-cache.org/RoadMap/)
+is maintained for planned features.
 
-[Security Advisories](https://github.com/squid-cache/squid/security/advisories) are published on GitHub and can be [subscribed](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository) with a GitHub account or via the [squid-announce](http://www.squid-cache.org/Support/mailing-lists.html#squid-announce) mailing list. Commercial support is available from [various companies](http://www.squid-cache.org/Support/services.html).
+[Security Advisories](https://github.com/squid-cache/squid/security/advisories)
+are published on GitHub and can be [subscribed](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository)
+with a GitHub account or via the [squid-announce](http://www.squid-cache.org/Support/mailing-lists.html#squid-announce)
+mailing list. Commercial support is available from [various companies](http://www.squid-cache.org/Support/services.html).
