@@ -17,49 +17,49 @@ eolColumn: Security and technical support
 
 releases:
 -   releaseCycle: "11" # This applies to 99% of users
-    eol: 2022-06-14
     releaseDate: 2013-11-13
+    eol: 2022-06-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
 -   releaseCycle: "11-ltsb"
     releaseLabel: "11 LTSB"
-    eol: 2031-10-14
     releaseDate: 2013-11-13
+    eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
 -   releaseCycle: "11-ltsc"
     releaseLabel: "11 LTSC"
-    eol: 2031-10-14
     releaseDate: 2013-11-13
+    eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
 -   releaseCycle: "11-server"
     releaseLabel: "11 Server"
-    eol: 2031-10-14
     releaseDate: 2013-11-13
+    eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
 -   releaseCycle: "11-embedded"
     releaseLabel: "11 Embedded"
-    eol: 2031-10-14
     releaseDate: 2013-11-13
+    eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
 -   releaseCycle: "10"
-    eol: 2020-01-31
     releaseDate: 2012-10-30
+    eol: 2020-01-31
 
 -   releaseCycle: "9"
-    eol: 2016-01-12
     releaseDate: 2011-03-15
+    eol: 2016-01-12
 
 -   releaseCycle: "8"
-    eol: 2016-01-12
     releaseDate: 2009-06-17
+    eol: 2016-01-12
 
 -   releaseCycle: "7"
-    eol: 2023-10-10
     releaseDate: 2006-10-18
+    eol: 2023-10-10
 
 ---
 
