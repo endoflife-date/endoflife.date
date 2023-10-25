@@ -45,7 +45,7 @@ releases:
     releaseDate: 2023-07-05
     eol: 2024-07-05
     lts: true
-    extendedSupport: false
+    extendedSupport: true
     latest: "3.2.7"
     latestReleaseDate: 2023-10-19
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
@@ -68,7 +68,7 @@ releases:
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-01-25
-    eol: false
+    eol: 2023-10-31
     extendedSupport: false
     latest: "2.16.12"
     latestReleaseDate: 2023-10-17
