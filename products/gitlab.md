@@ -25,11 +25,11 @@ auto:
 releases:
 #   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, the monthly release date will change from the 22nd of every month to the third Thursday of every month.
 -   releaseCycle: "16.5"
-    releaseDate: 2023-10-22
+    releaseDate: 2023-10-20
     support: 2023-11-16
     eol: 2024-01-18
     latest: "16.5.0"
-    latestReleaseDate: 2023-10-22
+    latestReleaseDate: 2023-10-20
 
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21

@@ -17,12 +17,12 @@ auto:
 
 releases:
 -   releaseCycle: "5.27"
-    latest: "5.27.8"
+    latest: "5.27.9"
     support: true
     eol: false # Will end when Plasma 6 comes out
     lts: true
     releaseDate: 2023-02-14
-    latestReleaseDate: 2023-09-12
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "5.26"
     latest: "5.26.90"
