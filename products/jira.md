@@ -633,7 +633,7 @@ releases:
       https://confluence.atlassian.com/jira063/jira-3-0-3-release-notes-683541813.html
 
 -   releaseCycle: "2.6"
-    releaseDate: 2004-03-03
+    releaseDate: 2004-03-03 # https://www.atlassian.com/blog/archives/jira_2_6_released$
     eol: true
     latest: "2.6.1"
     latestReleaseDate: 2004-03-25
