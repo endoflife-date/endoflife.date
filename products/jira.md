@@ -717,6 +717,7 @@ releases:
     latestReleaseDate: 2002-04-10
     link:
       https://www.atlassian.com/blog/archives/jira_10_release$
+
 ---
 
 > [Jira Software](https://www.atlassian.com/software/jira) is a proprietary issue tracking product
