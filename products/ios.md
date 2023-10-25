@@ -18,41 +18,41 @@ releases:
     releaseDate: 2023-09-18
     support: true
     eol: false
-    latestReleaseDate: 2023-10-04
     latest: "17.0.3"
-    link: 
+    latestReleaseDate: 2023-10-04
+    link:
       https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     support: 2023-09-18
     eol: false
-    latestReleaseDate: 2023-10-10
     latest: "16.7.1"
+    latestReleaseDate: 2023-10-10
     link: https://support.apple.com/HT213407
 
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     support: 2022-09-12
     eol: false
-    latestReleaseDate: 2023-09-11
     latest: "15.7.9"
+    latestReleaseDate: 2023-09-11
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"
     releaseDate: 2020-09-16
     support: 2021-09-20
     eol: 2021-10-01
-    latestReleaseDate: 2021-10-26
     latest: "14.8.1"
+    latestReleaseDate: 2021-10-26
     link: https://support.apple.com/HT211808
 
 -   releaseCycle: "13"
     releaseDate: 2019-09-19
     support: 2020-09-16
     eol: 2020-09-16
-    latestReleaseDate: 2020-09-01
     latest: "13.7"
+    latestReleaseDate: 2020-09-01
     link: https://support.apple.com/HT210393
 
 # iOS 12 is still getting updates
@@ -60,64 +60,64 @@ releases:
     releaseDate: 2018-09-17
     support: 2019-09-19
     eol: false
-    latestReleaseDate: 2023-01-23
     latest: "12.5.7"
+    latestReleaseDate: 2023-01-23
     link: https://support.apple.com/HT209084
 
 -   releaseCycle: "11"
     releaseDate: 2017-09-19
     support: 2018-09-17
     eol: 2018-10-08
-    latestReleaseDate: 2018-07-09
     latest: "11.4.1"
+    latestReleaseDate: 2018-07-09
     link: https://support.apple.com/HT208067
 
 -   releaseCycle: "10"
     releaseDate: 2016-09-13
     support: 2017-09-19
     eol: 2017-09-26
-    latestReleaseDate: 2019-07-22
     latest: "10.3.4"
+    latestReleaseDate: 2019-07-22
     link: https://support.apple.com/HT208011
 
 -   releaseCycle: "9"
     releaseDate: 2015-09-16
     support: 2016-09-13
     eol: 2016-09-13
-    latestReleaseDate: 2019-07-22
     latest: "9.3.6"
+    latestReleaseDate: 2019-07-22
     link: https://support.apple.com/HT208010
 
 -   releaseCycle: "8"
     releaseDate: 2014-09-17
     support: 2015-09-16
     eol: 2015-09-30
-    latestReleaseDate: 2015-08-13
     latest: "8.4.1"
+    latestReleaseDate: 2015-08-13
     link: https://support.apple.com/HT208000
 
 -   releaseCycle: "7"
     releaseDate: 2013-09-18
     support: 2014-09-17
     eol: 2014-10-20
-    latestReleaseDate: 2014-06-30
     latest: "7.1.2"
+    latestReleaseDate: 2014-06-30
     link: https://support.apple.com/HT207979
 
 -   releaseCycle: "6"
     releaseDate: 2012-09-19
     support: 2013-09-18
     eol: 2013-09-26
-    latestReleaseDate: 2014-02-21
     latest: "6.1.6"
+    latestReleaseDate: 2014-02-21
     link: https://support.apple.com/HT212584
 
 -   releaseCycle: "5"
     releaseDate: 2011-10-12
     support: 2012-09-19
     eol: 2012-11-01
-    latestReleaseDate: 2012-05-07
     latest: "5.1.1"
+    latestReleaseDate: 2012-05-07
     link: https://support.apple.com/HT212597
 
 ---
