@@ -22,80 +22,80 @@ auto:
 # support: last-date-in-month(eol - 2months)
 releases:
 -   releaseCycle: "1.27"
+    releaseDate: 2023-06-15
     eol: 2024-08-31
     support: 2024-06-30
-    releaseDate: 2023-06-15
-    latestReleaseDate: 2023-10-19
     latest: '1.27.6-gke.1506000'
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "1.26"
+    releaseDate: 2023-03-31
     eol: 2024-05-31
     support: 2024-03-31
-    releaseDate: 2023-03-31
-    latestReleaseDate: 2023-10-19
     latest: '1.26.9-gke.1507000'
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "1.25"
+    releaseDate: 2022-12-14
     eol: 2024-02-29
     support: 2023-12-31
-    releaseDate: 2022-12-14
-    latestReleaseDate: 2023-10-19
     latest: '1.25.14-gke.1474000'
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "1.24"
+    releaseDate: 2022-06-23
     eol: 2023-10-31
     support: 2023-08-31
-    releaseDate: 2022-06-23
-    latestReleaseDate: 2023-10-19
     latest: '1.24.17-gke.2155000'
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "1.23"
+    releaseDate: 2022-05-03
     eol: 2023-07-31
     support: 2023-05-31
-    releaseDate: 2022-05-03
-    latestReleaseDate: 2023-08-08
     latest: '1.23.17-gke.10700'
+    latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "1.22"
-    eol: 2023-04-30
-    support: 2023-02-28
-    latest: '1.22.17-gke.14100'
     releaseDate: 2022-03-07
+    support: 2023-02-28
+    eol: 2023-04-30
+    latest: '1.22.17-gke.14100'
     latestReleaseDate: 2023-07-07
 
 -   releaseCycle: "1.21"
-    eol: 2023-01-31
-    support: 2022-11-01
-    latest: '1.21.14-gke.18800'
     releaseDate: 2021-10-01
+    support: 2022-11-01
+    eol: 2023-01-31
+    latest: '1.21.14-gke.18800'
     latestReleaseDate: 2023-03-22
 
 -   releaseCycle: "1.20"
-    eol: 2022-08-01
-    support: 2021-12-01
-    latest: '1.20.15-gke.13700'
     releaseDate: 2021-06-09
+    support: 2021-12-01
+    eol: 2022-08-01
+    latest: '1.20.15-gke.13700'
     latestReleaseDate: 2022-08-18
 
 -   releaseCycle: "1.19"
-    eol: 2022-06-01
-    support: 2021-10-01
-    latest: '1.19.16-gke.15700'
     releaseDate: 2021-04-14
+    support: 2021-10-01
+    eol: 2022-06-01
+    latest: '1.19.16-gke.15700'
     latestReleaseDate: 2022-06-23
 
 -   releaseCycle: "1.18"
-    eol: 2022-03-01
-    support: 2021-08-01
-    latest: '1.18.20-gke.6000'
     releaseDate: 2021-03-29
+    support: 2021-08-01
+    eol: 2022-03-01
+    latest: '1.18.20-gke.6000'
     latestReleaseDate: 2021-09-17
 
 -   releaseCycle: "1.17"
-    eol: 2021-11-01
-    support: 2021-07-01
-    latest: '1.17.17-gke.9100'
     releaseDate: 2021-03-29
+    support: 2021-07-01
+    eol: 2021-11-01
+    latest: '1.17.17-gke.9100'
     latestReleaseDate: 2021-06-09
 
 ---
