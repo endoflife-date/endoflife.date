@@ -531,7 +531,7 @@ releases:
 
 -   releaseCycle: "3.13"
     releaseDate: 2008-09-09
-    eol: 2011-07-21
+    eol: 2011-07-21 # https://confluence.atlassian.com/jirakb/blog/2011/08/jira-3-13-end-of-life
     latest: "3.13.5"
     latestReleaseDate: 2009-07-21
     link:
