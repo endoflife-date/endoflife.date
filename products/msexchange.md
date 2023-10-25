@@ -1,13 +1,13 @@
 ---
 title: Microsoft Exchange
-permalink: /msexchange
-iconSlug: microsoftexchange
 category: server-app
 tags: microsoft
-releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
-activeSupportColumn: true
+iconSlug: microsoftexchange
+permalink: /msexchange
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 releaseDateColumn: true
+activeSupportColumn: true
 
 releases:
 -   releaseCycle: "2019"
