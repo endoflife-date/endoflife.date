@@ -30,6 +30,7 @@ auto:
 # See https://github.com/endoflife-date/endoflife.date/pull/2695#issuecomment-1472929098
 releases:
 -   releaseCycle: "2"
+    outOfOrder: true # to keep it at the top
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false

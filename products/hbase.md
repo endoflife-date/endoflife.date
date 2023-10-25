@@ -48,6 +48,7 @@ releases:
     latestReleaseDate: 2021-10-19
 
 -   releaseCycle: "1.7"
+    outOfOrder: true # wrong tag date for https://github.com/apache/hbase/releases/tag/rel%2F1.7.0
     releaseDate: 2021-06-12
     eol: 2022-08-09
     link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
