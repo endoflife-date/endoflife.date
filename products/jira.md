@@ -689,7 +689,7 @@ releases:
       https://www.atlassian.com/blog/archives/jira_1_4_1_released$
 
 -   releaseCycle: "1.3"
-    releaseDate: 2002-07-04
+    releaseDate: 2002-07-04 # https://www.atlassian.com/blog/archives/jira_13_resin_j$
     eol: true
     latest: "1.3.3"
     latestReleaseDate: 2002-07-23
