@@ -14,11 +14,19 @@ auto:
 -   custom: true
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
+# For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://wiki.mozilla.org/Release_Management/Calendar, if available.
+# Next planned ESR/LTS is 128 on 2024-07-09.
 releases:
+
+-   releaseCycle: "119"
+    releaseDate: 2023-10-24
+    eol: false
+    latest: "119.0.0"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "118"
     releaseDate: 2023-09-26
-    eol: false
+    eol: 2023-10-24
     latest: "118.0.2"
     latestReleaseDate: 2023-10-10
 
@@ -37,7 +45,7 @@ releases:
 -   releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: false
+    eol: 2024-10-01 # estimated release day for 131 on https://wiki.mozilla.org/Release_Management/Calendar
     latest: "115.4.0"
     latestReleaseDate: 2023-10-24
 
@@ -116,7 +124,7 @@ releases:
 -   releaseCycle: "102"
     lts: true
     releaseDate: 2022-06-28
-    eol: false
+    eol: 2023-09-26
     latest: "102.15.1"
     latestReleaseDate: 2023-09-12
 
