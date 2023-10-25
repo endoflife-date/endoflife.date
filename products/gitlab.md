@@ -81,172 +81,172 @@ releases:
     latestReleaseDate: 2023-06-05
 
 -   releaseCycle: "15.9"
+    releaseDate: 2023-02-21
     support: 2023-03-22
     eol: 2023-05-22
     latest: "15.9.8"
     latestReleaseDate: 2023-05-10
-    releaseDate: 2023-02-21
 
 -   releaseCycle: "15.8"
+    releaseDate: 2023-01-20
     support: 2023-02-22
     eol: 2023-04-22
     latest: "15.8.6"
     latestReleaseDate: 2023-04-18
-    releaseDate: 2023-01-20
 
 -   releaseCycle: "15.7"
+    releaseDate: 2022-12-21
     support: 2023-01-22
     eol: 2023-03-22
     latest: "15.7.9"
     latestReleaseDate: 2023-04-20
-    releaseDate: 2022-12-21
 
 -   releaseCycle: "15.6"
+    releaseDate: 2022-11-21
     support: 2022-12-22
     eol: 2023-02-22
     latest: "15.6.8"
     latestReleaseDate: 2023-02-10
-    releaseDate: 2022-11-21
 
 -   releaseCycle: "15.5"
+    releaseDate: 2022-10-21
     support: 2022-11-22
     eol: 2023-01-22
     latest: "15.5.9"
     latestReleaseDate: 2023-01-12
-    releaseDate: 2022-10-21
 
 -   releaseCycle: "15.4"
+    releaseDate: 2022-09-21
     support: 2022-10-22
     eol: 2022-12-22
     latest: "15.4.6"
     latestReleaseDate: 2022-11-30
-    releaseDate: 2022-09-21
 
 -   releaseCycle: "15.3"
+    releaseDate: 2022-08-19
     support: 2022-09-22
     eol: 2022-11-22
     latest: "15.3.5"
     latestReleaseDate: 2022-11-02
-    releaseDate: 2022-08-19
 
 -   releaseCycle: "15.2"
+    releaseDate: 2022-07-21
     support: 2022-08-22
     eol: 2022-10-22
     latest: "15.2.5"
     latestReleaseDate: 2022-09-29
-    releaseDate: 2022-07-21
 
 -   releaseCycle: "15.1"
+    releaseDate: 2022-06-21
     support: 2022-07-22
     eol: 2022-09-22
     latest: "15.1.6"
     latestReleaseDate: 2022-08-30
-    releaseDate: 2022-06-21
 
 -   releaseCycle: "15.0"
+    releaseDate: 2022-05-20
     support: 2022-06-22
     eol: 2022-08-22
     latest: "15.0.5"
     latestReleaseDate: 2022-07-28
-    releaseDate: 2022-05-20
 
 -   releaseCycle: "14.10"
+    releaseDate: 2022-04-21
     support: 2022-05-22
     eol: 2022-07-22
     latest: "14.10.5"
     latestReleaseDate: 2022-06-30
-    releaseDate: 2022-04-21
 
 -   releaseCycle: "14.9"
+    releaseDate: 2022-03-21
     support: 2022-04-22
     eol: 2022-06-22
     latest: "14.9.5"
     latestReleaseDate: 2022-06-01
-    releaseDate: 2022-03-21
 
 -   releaseCycle: "14.8"
+    releaseDate: 2022-02-21
     support: 2022-03-22
     eol: 2022-05-22
     latest: "14.8.6"
     latestReleaseDate: 2022-04-29
-    releaseDate: 2022-02-21
 
 -   releaseCycle: "14.7"
+    releaseDate: 2022-01-21
     support: 2022-02-22
     eol: 2022-04-22
     latest: "14.7.7"
     latestReleaseDate: 2022-03-31
-    releaseDate: 2022-01-21
 
 -   releaseCycle: "14.6"
+    releaseDate: 2021-12-21
     support: 2022-01-22
     eol: 2022-03-22
     latest: "14.6.7"
     latestReleaseDate: 2022-03-31
-    releaseDate: 2021-12-21
 
 -   releaseCycle: "14.5"
+    releaseDate: 2021-11-19
     support: 2021-12-22
     eol: 2022-02-22
     latest: "14.5.4"
     latestReleaseDate: 2022-02-03
-    releaseDate: 2021-11-19
 
 -   releaseCycle: "14.4"
+    releaseDate: 2021-10-21
     support: 2021-11-22
     eol: 2022-01-22
     latest: "14.4.5"
     latestReleaseDate: 2022-01-11
-    releaseDate: 2021-10-21
 
 -   releaseCycle: "14.3"
+    releaseDate: 2021-09-21
     support: 2021-10-22
     eol: 2021-12-22
     latest: "14.3.6"
     latestReleaseDate: 2021-12-03
-    releaseDate: 2021-09-21
 
 -   releaseCycle: "14.2"
+    releaseDate: 2021-08-20
     support: 2021-09-22
     eol: 2021-11-22
     latest: "14.2.7"
     latestReleaseDate: 2021-11-26
-    releaseDate: 2021-08-20
 
 -   releaseCycle: "14.1"
+    releaseDate: 2021-07-21
     support: 2021-08-22
     eol: 2021-10-22
     latest: "14.1.8"
     latestReleaseDate: 2021-11-15
-    releaseDate: 2021-07-21
 
 -   releaseCycle: "14.0"
+    releaseDate: 2021-06-21
     support: 2021-07-22
     eol: 2021-09-22
     latest: "14.0.12"
     latestReleaseDate: 2021-11-05
-    releaseDate: 2021-06-21
 
 -   releaseCycle: "13.12"
+    releaseDate: 2021-05-21
     support: 2021-06-22
     eol: 2021-08-22
     latest: "13.12.15"
     latestReleaseDate: 2021-11-03
-    releaseDate: 2021-05-21
 
 -   releaseCycle: "13.11"
+    releaseDate: 2021-04-21
     support: 2021-05-22
     eol: 2021-07-22
     latest: "13.11.7"
     latestReleaseDate: 2021-07-07
-    releaseDate: 2021-04-21
 
 -   releaseCycle: "13.10"
+    releaseDate: 2021-03-18
     support: 2021-04-22
     eol: 2021-06-22
     latest: "13.10.5"
     latestReleaseDate: 2021-06-01
-    releaseDate: 2021-03-18
 
 ---
 
@@ -271,10 +271,10 @@ Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 security fixes. Critical bug fixes can rarely be backported based on [a set of
 criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases).
 
-| Version Type | Description                                                                                                                                                     | Cadence                                                                               |
-|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
+| Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
+|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default. |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day].                                                                  |
-| Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                            |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day].                                                                           |
+| Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                                                          |
 
 [release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
