@@ -659,7 +659,7 @@ releases:
 -   releaseCycle: "2.3"
     releaseDate: 2003-07-03
     eol: true
-    latest: "2.3"
+    latest: "2.3.0"
     latestReleaseDate: 2003-07-03
     link:
       https://www.atlassian.com/blog/archives/jira_23_release$
