@@ -537,6 +537,8 @@ releases:
     link:
       https://confluence.atlassian.com/jira063/jira-3-13-5-release-notes-683541942.html
 
+# 3.x release dates available on https://confluence.atlassian.com/jira063/jira-release-summary-683542136.html.
+# latest release dates and eol dates are mostly unknown.
 -   releaseCycle: "3.12"
     releaseDate: 2007-12-07
     eol: true
