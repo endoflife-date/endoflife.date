@@ -5,11 +5,10 @@ tags: php-runtime
 iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
-changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'
-  | split: '.' | slice: 0, 2 | join: '.'}}_version_history#Joomla___LATEST__"
-activeSupportColumn: true
+changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}_version_history#Joomla___LATEST__"
 releaseColumn: true
 releaseDateColumn: true
+activeSupportColumn: true
 
 auto:
 -   git: https://github.com/joomla/joomla-cms.git
@@ -23,7 +22,7 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2023-10-14
     # check later for removal: link with changelogTemplate does not work (yet)
-    link: 
+    link:
       https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
 -   releaseCycle: "4"
@@ -42,8 +41,8 @@ releases:
 
 ---
 
-> [Joomla!](https://www.joomla.org/) is an award-winning content management system (CMS), which enables you to
-> build websites and powerful online applications.
+> [Joomla!](https://www.joomla.org/) is an award-winning content management system (CMS), which
+> enables you to build websites and powerful online applications.
 
 - Each major version is supported for at least 4 years.
 - Each major version gets a minimum of 2 years of active development.
