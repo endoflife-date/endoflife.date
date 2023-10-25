@@ -12,6 +12,7 @@ alternate_urls:
 -   /rhjdk
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
 releaseDateColumn: true
 eolColumn: Support
 releaseLabel: "OpenJDK __RELEASE_CYCLE__"
@@ -46,7 +47,6 @@ releases:
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
     latest: "17.0.9.0.9-1"
     latestReleaseDate: 2023-10-18
-    link: https://access.redhat.com/documentation/en-us/openjdk/17/html-single/release_notes_for_openjdk_17.0.9/index
 
 -   releaseCycle: "11"
     releaseDate: 2018-10-30 # RHEL 7.6
@@ -54,7 +54,6 @@ releases:
     # https://access.redhat.com/downloads/content/java-11-openjdk/x86_64/package-latest
     latest: "11.0.21.0.9-1"
     latestReleaseDate: 2023-10-18
-    link: https://access.redhat.com/documentation/en-us/openjdk/11/html/release_notes_for_openjdk_11.0.21/index
 
 -   releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
@@ -63,7 +62,6 @@ releases:
     # https://access.redhat.com/downloads/content/java-1.8.0-openjdk/x86_64/package-latest
     latest: "1.8.0.392.b08-2"
     latestReleaseDate: 2023-10-18
-    link: https://access.redhat.com/documentation/en-us/openjdk/8/html/release_notes_for_openjdk_8.0.392/index
 
 -   releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
@@ -72,6 +70,7 @@ releases:
     # https://access.redhat.com/downloads/content/java-1.7.0-openjdk/x86_64/package-latest
     latest: "1.7.0.261-2.6.22.2"
     latestReleaseDate: 2020-04-15
+    link: null
 
 -   releaseCycle: "6"
     releaseLabel: "OpenJDK 6 (1.6)"
@@ -80,6 +79,7 @@ releases:
     # https://access.redhat.com/downloads/content/java-1.6.0-openjdk/x86_64/package-latest
     latest: "1.6.0.41-1.13.13.1"
     latestReleaseDate: 2017-01-04
+    link: null
 
 ---
 
