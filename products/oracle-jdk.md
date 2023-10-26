@@ -21,15 +21,6 @@ auto:
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
 # EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html.
 releases:
-# test cycle
--   releaseCycle: "22"
-    lts: true
-    releaseDate: 2023-09-19
-    eol: 2028-09-30
-    extendedSupport: 2031-09-30
-    latest: "22"
-    latestReleaseDate: 2023-10-17
-
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
