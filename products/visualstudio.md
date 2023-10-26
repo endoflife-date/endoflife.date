@@ -20,16 +20,16 @@ releases:
     codename: "2022"
     eol: false # eol with release of 17.8 or 18.0
     releaseDate: 2023-08-08
-    latest: "17.7.5"
-    latestReleaseDate: 2023-10-10
+    latest: "17.7.6"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "17.6"
     codename: "2022"
     lts: true
     eol: 2025-01-09
     releaseDate: 2023-05-16
-    latest: "17.6.8"
-    latestReleaseDate: 2023-10-10
+    latest: "17.6.9"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -43,8 +43,8 @@ releases:
     lts: true
     eol: 2024-07-11
     releaseDate: 2022-11-08
-    latest: "17.4.12"
-    latestReleaseDate: 2023-10-10
+    latest: "17.4.13"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "17.3"
     codename: "2022"
@@ -58,8 +58,8 @@ releases:
     lts: true
     eol: 2024-01-09
     releaseDate: 2022-05-10
-    latest: "17.2.20"
-    latestReleaseDate: 2023-10-10
+    latest: "17.2.21"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "17.1"
     codename: "2022"
