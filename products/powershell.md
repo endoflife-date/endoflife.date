@@ -13,96 +13,102 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
+
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
+
 releases:
 -   releaseCycle: "7.3"
+    releaseDate: 2022-11-08
     eol: false
     latest: "7.3.8"
     latestReleaseDate: 2023-10-10
-    releaseDate: 2022-11-08
 
 -   releaseCycle: "7.2"
     lts: true
+    releaseDate: 2021-11-05
     eol: 2024-11-30
     latest: "7.2.15"
     latestReleaseDate: 2023-10-10
-    releaseDate: 2021-11-05
 
 -   releaseCycle: "7.1"
+    releaseDate: 2020-11-11
     eol: 2022-05-31
     latest: "7.1.7"
     latestReleaseDate: 2022-04-26
-    releaseDate: 2020-11-11
 
 -   releaseCycle: "7.0"
     lts: true
+    releaseDate: 2020-03-03
     eol: 2022-12-03
     latest: "7.0.13"
     latestReleaseDate: 2022-10-20
-    releaseDate: 2020-03-03
 
 -   releaseCycle: "6.2"
+    releaseDate: 2019-03-28
     eol: 2020-09-04
     latest: "6.2.7"
     latestReleaseDate: 2020-07-16
-    releaseDate: 2019-03-28
 
 -   releaseCycle: "6.1"
+    releaseDate: 2018-09-13
     eol: 2019-09-28
     latest: "6.1.6"
     latestReleaseDate: 2019-09-12
-    releaseDate: 2018-09-13
 
 -   releaseCycle: "6.0"
+    releaseDate: 2018-01-10
     eol: 2019-02-13
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
-    releaseDate: 2018-01-10
 
 -   releaseCycle: "5.1"
+    releaseDate: 2016-08-02
     eol: 2027-01-12
     latest: "5.1"
-    releaseDate: 2016-08-02
     link:
 
 -   releaseCycle: "5.0"
+    releaseDate: 2016-02-24
     eol: 2016-08-02
     latest: "5.0"
-    releaseDate: 2016-02-24
     link:
 
 -   releaseCycle: "4.0"
+    releaseDate: 2013-10-01
     eol: 2023-10-10
     latest: "4.0"
-    releaseDate: 2013-10-01
     link:
 
 -   releaseCycle: "3.0"
+    releaseDate: 2012-10-01
     eol: 2023-10-10
     latest: "3.0"
-    releaseDate: 2012-10-01
     link:
 
 -   releaseCycle: "2.0"
+    releaseDate: 2009-07-01
     eol: 2020-01-14
     latest: "2.0"
-    releaseDate: 2009-07-01
     link:
 
 -   releaseCycle: "1.0"
+    releaseDate: 2006-11-14
     eol: 2020-01-14
     latest: "1.0"
-    releaseDate: 2006-11-14
     link:
 
 ---
 
-> [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+> [PowerShell](https://aka.ms/powershell)  is a cross-platform automation and configuration
+> tool/framework that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.),
+> REST APIs, and object models. It includes a command-line shell, an associated scripting language
+> and a framework for processing cmdlets.
 
 PowerShell follows the [Modern Lifecycle Policy](https://learn.microsoft.com/powershell/scripting/install/PowerShell-Support-Lifecycle).
 
-Windows PowerShell (1.0 - 5.1) is a component of the Windows operating system. Components receive the same support as their parent product or platform:
+Windows PowerShell (1.0 - 5.1) is a component of the Windows operating system. Components receive
+the same support as their parent product or platform:
 
 | Version   | Note                                                                       |
 |-----------|----------------------------------------------------------------------------|
