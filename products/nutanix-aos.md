@@ -6,27 +6,34 @@ iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 discontinuedColumn: false
 
+# Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
--   releaseCycle: "6.6"
-    releaseDate: 2023-01-23
+-   releaseCycle: "6.7"
+    releaseDate: 2023-08-30
     support: true
     eol: false
-    latest: "6.6"
-    latestReleaseDate: 2023-01-23
+    latest: "6.7.0.5"
+    latestReleaseDate: 2023-09-21
+
+-   releaseCycle: "6.6"
+    releaseDate: 2023-01-23
+    support: 2023-08-31
+    eol: 2023-11-30
+    latest: "6.6.2.8"
+    latestReleaseDate: 2023-08-28
 
 -   releaseCycle: "6.5"
     releaseDate: 2022-07-26
     support: true
     eol: false
     lts: true
-    latest: "6.5.2"
-    latestReleaseDate: 2023-01-24
+    latest: "6.5.3.7"
+    latestReleaseDate: 2023-09-07
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24

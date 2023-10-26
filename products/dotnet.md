@@ -46,21 +46,19 @@ identifiers:
 
 releases:
 -   releaseCycle: "7.0"
-    lts: false
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.11"
-    latestReleaseDate: 2023-09-12
+    latest: "7.0.13"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "6.0"
     lts: true
     releaseDate: 2021-11-08
     eol: 2024-11-12
-    latest: "6.0.22"
-    latestReleaseDate: 2023-09-12
+    latest: "6.0.24"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "5.0"
-    lts: false
     releaseDate: 2020-11-10
     eol: 2022-05-08
     latest: "5.0.17"

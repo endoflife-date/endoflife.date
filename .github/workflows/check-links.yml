@@ -8,6 +8,8 @@ on:
 jobs:
   check_urls:
     runs-on: ubuntu-latest
+    # Do not run this job on forks, as it's not cool to query servers for nothing.
+    if: ${{ github.repository == 'endoflife-date/endoflife.date' }}
     steps:
       - name: Checkout site
         uses: actions/checkout@v4

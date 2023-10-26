@@ -32,53 +32,53 @@ auto:
 #   - releaseDate(R+2) for other releases (e.g. support(5.34) = releaseDate(5.36))
 releases:
 -   releaseCycle: "5.38"
+    releaseDate: 2023-07-02
     support: true
     eol: 2026-07-02
     latest: "5.38.0"
     latestReleaseDate: 2023-07-02
-    releaseDate: 2023-07-02
 
 -   releaseCycle: "5.36"
+    releaseDate: 2022-05-27
     support: true
     eol: 2025-05-27
     latest: "5.36.1"
     latestReleaseDate: 2023-04-23
-    releaseDate: 2022-05-27
 
 -   releaseCycle: "5.34"
+    releaseDate: 2021-05-20
     support: 2022-05-27
     eol: 2024-05-20
     latest: "5.34.1"
     latestReleaseDate: 2022-03-12
-    releaseDate: 2021-05-20
 
 -   releaseCycle: "5.32"
+    releaseDate: 2020-06-20
     support: 2022-05-27
     eol: 2023-06-20
     latest: "5.32.1"
     latestReleaseDate: 2021-01-23
-    releaseDate: 2020-06-20
 
 -   releaseCycle: "5.30"
+    releaseDate: 2019-05-22
     support: 2021-05-20
     eol: 2022-05-22
     latest: "5.30.3"
     latestReleaseDate: 2020-05-29
-    releaseDate: 2019-05-22
 
 -   releaseCycle: "5.28"
+    releaseDate: 2018-06-22
     support: 2020-06-20
     eol: 2021-06-23
     latest: "5.28.3"
     latestReleaseDate: 2020-05-29
-    releaseDate: 2018-06-22
 
 -   releaseCycle: "5.26"
+    releaseDate: 2017-05-30
     support: 2019-05-22
     eol: 2020-05-30
     latest: "5.26.3"
     latestReleaseDate: 2018-11-28
-    releaseDate: 2017-05-30
 
 ---
 

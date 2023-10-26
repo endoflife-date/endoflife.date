@@ -27,12 +27,19 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
--   releaseCycle: "3.4"
-    releaseDate: 2023-09-20
+-   releaseCycle: "3.5"
+    releaseDate: 2023-10-25
     eol: false
     extendedSupport: false
-    latest: "3.4.1"
-    latestReleaseDate: 2023-09-20
+    latest: "3.5.0"
+    latestReleaseDate: 2023-10-25
+
+-   releaseCycle: "3.4"
+    releaseDate: 2023-09-20
+    eol: 2023-10-25
+    extendedSupport: false
+    latest: "3.4.3"
+    latestReleaseDate: 2023-10-13
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-08-23
@@ -45,9 +52,9 @@ releases:
     releaseDate: 2023-07-05
     eol: 2024-07-05
     lts: true
-    extendedSupport: false
-    latest: "3.2.6"
-    latestReleaseDate: 2023-09-14
+    extendedSupport: true
+    latest: "3.2.7"
+    latestReleaseDate: 2023-10-19
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.1"
@@ -68,10 +75,10 @@ releases:
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-01-25
-    eol: false
+    eol: 2023-10-31
     extendedSupport: false
-    latest: "2.16.11"
-    latestReleaseDate: 2023-09-14
+    latest: "2.16.12"
+    latestReleaseDate: 2023-10-17
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.15"

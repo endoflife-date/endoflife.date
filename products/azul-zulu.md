@@ -19,6 +19,7 @@ extendedSupportColumn: true
 # - releases have a latestJdkVersion that must be updated whenever latest is updated,
 # - changelog links are not predictable (see https://docs.azul.com/core/zulu-openjdk/release-notes.html).
 
+# Versions and dates are those from the CA builds (PSU Update Type).
 # Latest releases can be found on https://www.azul.com/downloads/?os=linux&architecture=x86-64-bit&package=jdk&show-old-builds=true#download-openjdk.
 # Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/zulu-openjdk/release-notes.html).
 # EOL date can be found on https://www.azul.com/products/azul-support-roadmap/.
@@ -34,14 +35,13 @@ releases:
     releaseDate: 2023-09-19
     eol: 2031-09-30
     extendedSupport: 2033-09-30
-    latest: "21.28.85"
-    latestJdkVersion: "21.0.0+35"
-    latestReleaseDate: 2023-09-19
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
+    latest: "21.30.15"
+    latestJdkVersion: "21.0.1+11"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/20-ga
     releaseDate: 2023-03-21
     eol: 2023-09-19
@@ -53,7 +53,6 @@ releases:
 
 -   releaseCycle: "19"
     releaseLabel: "19 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/19-ga
     releaseDate: 2022-09-20
     eol: 2023-03-31
@@ -65,7 +64,6 @@ releases:
 
 -   releaseCycle: "18"
     releaseLabel: "18 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-openjdk/release-notes/18-ga
     releaseDate: 2022-03-12
     eol: 2022-09-30
@@ -81,14 +79,13 @@ releases:
     releaseDate: 2021-09-15
     eol: 2029-09-30
     extendedSupport: 2031-09-30
-    latest: "17.44.17"
-    latestJdkVersion: "17.0.8+7"
-    latestReleaseDate: 2023-07-20
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "17.46.19"
+    latestJdkVersion: "17.0.9+8"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://docs.azul.com/core/zulu-release-notes/16-ga/ZuluReleaseNotes/Title.htm
     releaseDate: 2021-03-16
     eol: 2021-09-30
@@ -100,7 +97,6 @@ releases:
 
 -   releaseCycle: "15"
     releaseLabel: "15 (<abbr title='Medium Term Support'>MTS</abbr>)"
-    lts: false
     releaseDate: 2020-09-15
     eol: 2023-03-31
     extendedSupport: 2024-03-31
@@ -111,7 +107,6 @@ releases:
 
 -   releaseCycle: "14"
     releaseLabel: "14 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2020-03-17
     eol: 2020-09-30
     extendedSupport: 2021-03-31
@@ -121,7 +116,6 @@ releases:
 
 -   releaseCycle: "13"
     releaseLabel: "13 (<abbr title='Medium Term Support'>MTS</abbr>)"
-    lts: false
     releaseDate: 2019-09-17
     eol: 2023-03-31
     extendedSupport: 2024-03-31
@@ -132,7 +126,6 @@ releases:
 
 -   releaseCycle: "12"
     releaseLabel: "12 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2019-03-19
     eol: 2019-09-30
     extendedSupport: 2020-03-31
@@ -145,14 +138,13 @@ releases:
     releaseDate: 2018-09-25
     eol: 2026-09-30
     extendedSupport: 2028-09-30
-    latest: "11.66.17"
-    latestJdkVersion: "11.0.20+8"
-    latestReleaseDate: 2023-07-18
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "11.68.17"
+    latestJdkVersion: "11.0.21+9"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     # https://www.azul.com/blog/zulu-10-has-landed/
     releaseDate: 2018-03-27
     eol: 2018-09-30
@@ -163,7 +155,6 @@ releases:
 
 -   releaseCycle: "9"
     releaseLabel: "9 (<abbr title='Short Term Support'>STS</abbr>)"
-    lts: false
     releaseDate: 2017-09-21
     eol: 2018-03-31
     extendedSupport: 2018-09-30
@@ -177,10 +168,10 @@ releases:
     releaseDate: 2014-04-08
     eol: 2030-12-31
     extendedSupport: 2032-12-31
-    latest: "8.72.0.17"
-    latestJdkVersion: "8u382-b05"
-    latestReleaseDate: 2023-07-18
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2023
+    latest: "8.74.0.17"
+    latestJdkVersion: "8u392b08"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "7"
     lts: true
@@ -189,10 +180,10 @@ releases:
     releaseDate: 2011-07-11
     eol: 2022-07-31
     extendedSupport: 2027-12-31
-    latest: "7.56.0.11"
-    latestJdkVersion: "7u352-b01"
-    latestReleaseDate: 2022-07-19
-    link: https://docs.azul.com/core/zulu-openjdk/release-notes/july-2022
+    latest: "7.65.0.14"
+    latestJdkVersion: "7u401-b01"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 -   releaseCycle: "6"
     lts: true
@@ -200,9 +191,10 @@ releases:
     releaseDate: 2014-01-21
     eol: 2018-12-31
     extendedSupport: 2027-12-31
-    latest: "6.22.0.3"
-    latestJdkVersion: "6u119"
-    latestReleaseDate: 2018-11-07
+    latest: "6.59.0.14"
+    latestJdkVersion: "6b159"
+    latestReleaseDate: 2023-10-17
+    link: https://docs.azul.com/core/zulu-openjdk/release-notes/october-2023
 
 ---
 
@@ -211,6 +203,11 @@ releases:
 > [a wide range](https://docs.azul.com/core/zulu-openjdk/supported-platforms) of hardware platforms
 > and operating systems. Additionally, Azul provides builds for special requirements, such as
 > stripped down JREs and builds including OpenJFX.
+
+{: .warning }
+> This page is tracking [CA builds](https://support.azul.com/hc/en-us/articles/360051512551-What-s-the-difference-between-CA-and-SA-bundles-of-Azul-Zulu-Builds-of-OpenJDK)
+> of Azul Zulu ([PSU](https://support.azul.com/hc/en-us/articles/4420847095444-Explaining-PSU-and-CPU)),
+> which are free to download and use.
 
 Azul Zulu builds are available for Java 6 and greater. It follows the same cadence as OpenJDK:
 
@@ -222,7 +219,6 @@ LTS releases are supported for at least 8 years with bug fixes and security upda
 Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
 
-This page is tracking CA Azul Zulu builds of OpenJDK, which are free to download and use.
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
@@ -236,6 +232,8 @@ out [whichjdk.com](https://whichjdk.com/#azul-zulu).
   types="string,string"
   rows=page.releases %}
 
+*[CA]: Community Availability
 *[LTS]: Long Term Support
 *[MTS]: Medium Term Support
+*[PSU]: Patch Set Updates
 *[STS]: Short Term Support

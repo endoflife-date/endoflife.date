@@ -19,6 +19,36 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy A54 5G"
+    releaseDate: 2023-03-24
+    support: true # "four generations of OS upgrades"
+    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    link: https://doc.samsungmobile.com/SM-A546U/TMB/doc.html
+
+-   releaseCycle: "Galaxy A34 5G"
+    releaseDate: 2023-03-24
+    support: true # "four generations of OS upgrades"
+    eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
+    link: https://doc.samsungmobile.com/SM-A346E/INS/doc.html
+
+-   releaseCycle: "Galaxy S23 Ultra"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S918B/EUX/doc.html
+
+-   releaseCycle: "Galaxy S23+"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S916B/EUX/doc.html
+
+-   releaseCycle: "Galaxy S23"
+    releaseDate: 2023-02-17
+    support: true
+    eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S911B/EUX/doc.html
+
 -   releaseCycle: "Galaxy A14 5G"
     releaseDate: 2023-01-12
     support: true
@@ -145,7 +175,7 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-M536B/SER/doc.html
 
--   releaseCycle: "Galaxy S20 FE 2022"
+-   releaseCycle: "Galaxy S20 FE 2022" # South Korea only
     releaseDate: 2022-04-01
     support: true
     eol: false
@@ -199,24 +229,6 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
--   releaseCycle: "Galaxy S22 Ultra 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S908E/VAU/doc.html
-
--   releaseCycle: "Galaxy S22+ 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S906E/XXV/doc.html
-
--   releaseCycle: "Galaxy S22 5G"
-    releaseDate: 2022-02-25
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-S901E/XXV/doc.html
-
 -   releaseCycle: "Galaxy Tab S8 Ultra"
     releaseDate: 2022-04-30
     support: true
@@ -235,11 +247,29 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X706B/SER/doc.html
 
--   releaseCycle: "Galaxy S21 FE 5G"
-    releaseDate: 2022-01-07
+-   releaseCycle: "Galaxy S22 Ultra 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S908E/VAU/doc.html
+
+-   releaseCycle: "Galaxy S22+ 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S906E/XXV/doc.html
+
+-   releaseCycle: "Galaxy S22 5G"
+    releaseDate: 2022-02-25
+    support: true
+    eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S901E/XXV/doc.html
+
+-   releaseCycle: "Galaxy A03"
+    releaseDate: 2022-01-21
     support: true
     eol: false
-    link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
+    link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab A8 10.5 (2021)"
     releaseDate: 2022-01-17
@@ -247,11 +277,11 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
--   releaseCycle: "Galaxy A03"
-    releaseDate: 2022-01-21
+-   releaseCycle: "Galaxy S21 FE 5G"
+    releaseDate: 2022-01-07
     support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
+    eol: 2027-01-07 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
 
 -   releaseCycle: "Galaxy A03 Core"
     releaseDate: 2021-12-06
@@ -475,23 +505,29 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/sm-m317f/ins/doc.html
 
+-   releaseCycle: "Galaxy S21 Ultra 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
+
+-   releaseCycle: "Galaxy S21+ 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
+
+-   releaseCycle: "Galaxy S21 5G"
+    releaseDate: 2021-01-29
+    support: true
+    eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-G991B/DBT/doc.html
+
 -   releaseCycle: "Galaxy A02"
     releaseDate: 2021-01-27
     support: true
     eol: false
     link: https://doc.samsungmobile.com/SM-A022F/XID/doc.html
-
--   releaseCycle: "Galaxy S21 Ultra"
-    releaseDate: 2021-01-14
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
-
--   releaseCycle: "Galaxy S21+"
-    releaseDate: 2021-01-14
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G996B/DBT/doc.html
 
 -   releaseCycle: "Galaxy A32 5G"
     releaseDate: 2021-01-13
@@ -555,14 +591,14 @@ releases:
 
 -   releaseCycle: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
-    support: true
-    eol: false
+    support: false # three generations of upgrades
+    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
 -   releaseCycle: "Galaxy S20 FE"
     releaseDate: 2020-10-02
-    support: true
-    eol: false
+    support: false # three generations of upgrades
+    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab Active3"
@@ -685,11 +721,11 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/sm-a716u/spr/doc.html
 
--   releaseCycle: "Galaxy S20 5G UW"
+-   releaseCycle: "Galaxy S20 5G UW" # Verizon only
     releaseDate: 2020-06-04
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/sm-g981u1/xaa/doc.html
+    support: false # three generations of upgrades
+    eol: 2024-06-04 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    link: https://www.verizon.com/support/samsung-galaxy-s20-5g-uw-update/
 
 -   releaseCycle: "Galaxy A21s"
     releaseDate: 2020-06-02
@@ -763,47 +799,47 @@ releases:
     eol: false # Quarterly
     link: https://doc.samsungmobile.com/SM-A415F/TMH/doc.html
 
+-   releaseCycle: "Galaxy S20 Ultra"
+    releaseDate: 2020-03-15
+    support: false
+    eol: 2024-03-15 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
+
 -   releaseCycle: "Galaxy S20 Ultra 5G"
     releaseDate: 2020-03-06
-    support: true
-    eol: false
+    support: false
+    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
     link: https://doc.samsungmobile.com/SM-G988B/ATO/doc.html
-
--   releaseCycle: "Galaxy S20 5G"
-    releaseDate: 2020-03-06
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G981B/ITV/doc.html
 
 -   releaseCycle: "Galaxy S20+ 5G"
     releaseDate: 2020-03-06
-    support: true
-    eol: false
+    support: false
+    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
     link: https://doc.samsungmobile.com/SM-G986B/XEF/doc.html
+
+-   releaseCycle: "Galaxy S20+"
+    releaseDate: 2020-03-06
+    support: false
+    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    link: https://doc.samsungmobile.com/SM-G985F/XEH/doc.html
+
+-   releaseCycle: "Galaxy S20 5G"
+    releaseDate: 2020-03-06
+    support: false
+    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    link: https://doc.samsungmobile.com/SM-G981B/ITV/doc.html
+
+-   releaseCycle: "Galaxy S20"
+    releaseDate: 2020-03-06
+    support: false
+    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    link: https://doc.samsungmobile.com/SM-G980F/VDC/doc.html
 
 -   releaseCycle: "Galaxy M31"
     releaseDate: 2020-03-05
     support: true
     eol: false
     link: https://doc.samsungmobile.com/sm-m315f/ins/doc.html
-
--   releaseCycle: "Galaxy S20 Ultra"
-    releaseDate: 2020-02-21
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
-
--   releaseCycle: "Galaxy S20+"
-    releaseDate: 2020-02-21
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G985F/XEH/doc.html
-
--   releaseCycle: "Galaxy S20"
-    releaseDate: 2020-02-21
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-G980F/VDC/doc.html
 
 -   releaseCycle: "Galaxy Z Flip"
     releaseDate: 2020-02-14
@@ -913,11 +949,6 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-M107F/INS/doc.html
 
--   releaseCycle: "Galaxy Fold 5G"
-    releaseDate: 2019-09-01 # Approximate to the month and year.
-    support: true
-    eol: false
-    link: https://doc.samsungmobile.com/SM-F907B/BTU/doc.html
 
 -   releaseCycle: "Galaxy Watch Active2"
     releaseDate: 2019-09-01 # Approximate to the month and year.

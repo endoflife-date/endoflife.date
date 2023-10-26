@@ -18,25 +18,25 @@ extendedSupportColumn: Extended Security Updates
 releases:
 -   releaseCycle: "2022"
     codename: Dallas
-    releaseLabel: "2022 CU8"
+    releaseLabel: "2022 CU9"
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.4075.1"
-    latestReleaseDate: 2023-09-14
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate8
+    latest: "16.0.4085.2"
+    latestReleaseDate: 2023-10-12
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate9
 
 -   releaseCycle: "2019"
     codename: Seattle
-    releaseLabel: "2019 CU22"
+    releaseLabel: "2019 CU23"
     releaseDate: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4322.2"
-    latestReleaseDate: 2023-08-14
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate22
+    latest: "15.0.4335.1"
+    latestReleaseDate: 2023-10-12
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate23
 
 -   releaseCycle: "2017"
     codename: Helsinki
@@ -45,9 +45,9 @@ releases:
     support: 2022-10-11
     eol: 2027-10-12
     extendedSupport: false
-    latest: "14.0.3460.9"
-    latestReleaseDate: 2023-02-14
-    link: https://support.microsoft.com/help/5021126
+    latest: "14.0.3465.1"
+    latestReleaseDate: 2023-10-10
+    link: https://support.microsoft.com/help/5029376
 
 -   releaseCycle: "2016"
     codename: SQL16
@@ -56,9 +56,9 @@ releases:
     support: 2021-07-13
     eol: 2026-07-14
     extendedSupport: false
-    latest: "13.0.6430.49"
-    latestReleaseDate: 2023-02-14
-    link: https://support.microsoft.com/help/5021129
+    latest: "13.0.6435.1"
+    latestReleaseDate: 2023-10-10
+    link: https://support.microsoft.com/help/5029186
 
 -   releaseCycle: "2014"
     codename: Hekaton
@@ -67,9 +67,9 @@ releases:
     support: 2019-07-09
     eol: 2024-07-09
     extendedSupport: false
-    latest: "12.0.6444.4"
-    latestReleaseDate: 2023-02-14
-    link: https://support.microsoft.com/help/5021045
+    latest: "12.0.6449.1"
+    latestReleaseDate: 2023-10-10
+    link: https://support.microsoft.com/help/5029185
 
 -   releaseCycle: "2012"
     codename: Denali

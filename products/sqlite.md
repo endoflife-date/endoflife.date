@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.43.1"
-    latestReleaseDate: 2023-09-11
+    latest: "3.43.2"
+    latestReleaseDate: 2023-10-10
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28

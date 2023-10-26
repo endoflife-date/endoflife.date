@@ -36,184 +36,184 @@ releases:
     releaseDate: 2023-08-08
     support: true
     eol: false
-    latest: "6.3.1"
-    latestReleaseDate: 2023-08-29
+    latest: "6.3.2"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "6.2"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
     releaseDate: 2023-03-29
     support: 2023-08-08
     eol: false
-    latest: "6.2.2"
-    latestReleaseDate: 2023-05-20
+    latest: "6.2.3"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "6.1"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
     releaseDate: 2022-11-02
     support: 2023-03-29
     eol: false
-    latest: "6.1.3"
-    latestReleaseDate: 2023-05-20
+    latest: "6.1.4"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "6.0"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
     releaseDate: 2022-05-24
     support: 2022-11-01
     eol: false
-    latest: "6.0.5"
-    latestReleaseDate: 2023-05-20
+    latest: "6.0.6"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.9"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
     releaseDate: 2022-01-25
     support: 2022-05-24
     eol: false
-    latest: "5.9.7"
-    latestReleaseDate: 2023-05-20
+    latest: "5.9.8"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.8"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
     releaseDate: 2021-07-20
     support: 2022-01-25
     eol: false
-    latest: "5.8.7"
-    latestReleaseDate: 2023-05-16
+    latest: "5.8.8"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.7"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
     releaseDate: 2021-03-09
     support: 2021-07-20
     eol: false
-    latest: "5.7.9"
-    latestReleaseDate: 2023-05-16
+    latest: "5.7.10"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.6"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
     releaseDate: 2020-12-08
     support: 2021-03-09
     eol: false
-    latest: "5.6.11"
-    latestReleaseDate: 2023-05-16
+    latest: "5.6.12"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.5"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
     releaseDate: 2020-08-11
     support: 2020-12-08
     eol: false
-    latest: "5.5.12"
-    latestReleaseDate: 2023-05-16
+    latest: "5.5.13"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.4"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
     releaseDate: 2020-03-31
     support: 2020-08-11
     eol: false
-    latest: "5.4.13"
-    latestReleaseDate: 2023-05-16
+    latest: "5.4.14"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.3"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
     releaseDate: 2019-11-12
     support: 2020-03-31
     eol: false
-    latest: "5.3.15"
-    latestReleaseDate: 2023-05-16
+    latest: "5.3.16"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.2"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3"
     releaseDate: 2019-05-07
     support: 2019-11-12
     eol: false
-    latest: "5.2.18"
-    latestReleaseDate: 2023-05-16
+    latest: "5.2.19"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.1"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, 7.3"
     releaseDate: 2019-02-21
     support: 2019-05-07
     eol: false
-    latest: "5.1.16"
-    latestReleaseDate: 2023-05-16
+    latest: "5.1.17"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.0"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, 7.3"
     releaseDate: 2018-12-06
     support: 2019-02-21
     eol: false
-    latest: "5.0.19"
-    latestReleaseDate: 2023-05-16
+    latest: "5.0.20"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.9"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2"
     releaseDate: 2017-11-16
     support: 2018-12-06
     eol: false
-    latest: "4.9.23"
-    latestReleaseDate: 2023-05-16
+    latest: "4.9.24"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.8"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1"
     releaseDate: 2017-06-08
     support: 2017-11-16
     eol: false
-    latest: "4.8.22"
-    latestReleaseDate: 2023-05-16
+    latest: "4.8.23"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.7"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1"
     releaseDate: 2016-12-06
     support: 2017-06-08
     eol: false
-    latest: "4.7.26"
-    latestReleaseDate: 2023-05-16
+    latest: "4.7.27"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.6"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
     releaseDate: 2016-08-16
     support: 2016-12-06
     eol: false
-    latest: "4.6.26"
-    latestReleaseDate: 2023-05-16
+    latest: "4.6.27"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.5"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
     releaseDate: 2016-04-12
     support: 2016-08-16
     eol: false
-    latest: "4.5.29"
-    latestReleaseDate: 2023-05-16
+    latest: "4.5.30"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.4"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
     releaseDate: 2015-12-09
     support: 2016-04-12
     eol: false
-    latest: "4.4.30"
-    latestReleaseDate: 2023-05-16
+    latest: "4.4.31"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.3"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
     releaseDate: 2015-08-18
     support: 2015-12-08
     eol: false
-    latest: "4.3.31"
-    latestReleaseDate: 2023-05-16
+    latest: "4.3.32"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.2"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
     releaseDate: 2015-04-23
     support: 2015-08-18
     eol: false
-    latest: "4.2.35"
-    latestReleaseDate: 2023-05-16
+    latest: "4.2.36"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.1"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
     releaseDate: 2014-12-18
     support: 2015-04-23
     eol: false
-    latest: "4.1.38"
-    latestReleaseDate: 2023-05-16
+    latest: "4.1.39"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.0"
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5"

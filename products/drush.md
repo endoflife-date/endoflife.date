@@ -1,28 +1,31 @@
 ---
 title: Drush
-permalink: /drush
-releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 category: app
 tags: php-runtime
+iconSlug: drupal
+permalink: /drush
+versionCommand: drush --version
+releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: true
+activeSupportColumn: false
 eolColumn: Support
-versionCommand: drush --version
+
 auto:
 -   git: https://github.com/drush-ops/drush.git
+
 identifiers:
 -   purl: pkg:composer/drush/drush
 -   repology: drush
 -   purl: pkg:github/drush-ops/drush
-iconSlug: drupal
+
 releases:
 -   releaseCycle: "12"
     releaseDate: 2023-06-03
     eol: false
-    latest: "12.2.0"
-    latestReleaseDate: 2023-09-08
+    latest: "12.4.0"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "11"
     releaseDate: 2022-01-11

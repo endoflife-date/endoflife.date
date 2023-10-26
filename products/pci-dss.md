@@ -6,29 +6,29 @@ alternate_urls:
 -   /pci
 releasePolicyLink: https://blog.pcisecuritystandards.org/updated-pci-dss-v4.0-timeline
 releasePolicyImage: https://blog.pcisecuritystandards.org/hs-fs/hubfs/Development.png?width=750&name=Development.png
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+activeSupportColumn: false
 eolColumn: Acceptance
 
 releases:
 -   releaseCycle: "4.0"
-    eol: false
     releaseDate: 2022-03-31
+    eol: false
     link: https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub
 
 -   releaseCycle: "3.2.1"
-    eol: 2024-03-31
     releaseDate: 2018-05-01
+    eol: 2024-03-31
     link: https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI_DSS_Summary_of_Changes_3-2-1.pdf
 
 -   releaseCycle: "3.2"
-    eol: 2018-12-31
     releaseDate: 2016-04-01
+    eol: 2018-12-31
 
 -   releaseCycle: "3.1"
-    eol: 2016-10-31
     releaseDate: 2015-04-01
+    eol: 2016-10-31
 
 ---
 

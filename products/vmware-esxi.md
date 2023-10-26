@@ -28,10 +28,10 @@ releases:
 -   releaseCycle: "7.0"
     eol: 2025-04-02
     technicalGuidance: 2027-04-02
-    latest: "7.0 Update 3n"
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3n-release-notes.html"
+    latest: "7.0 Update 3o"
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3o-release-notes/index.html"
     releaseDate: 2020-04-02
-    latestReleaseDate: 2023-07-06
+    latestReleaseDate: 2023-09-28
 
 -   releaseCycle: "6.7"
     eol: 2022-10-15

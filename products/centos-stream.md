@@ -5,7 +5,7 @@ tags: linux-distribution
 iconSlug: centos
 permalink: /centos-stream
 versionCommand: cat /etc/redhat-release
-releasePolicyLink: https://wiki.centos.org/About/Product
+releasePolicyLink: https://centos.org/stream9/
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -26,7 +26,7 @@ releases:
     support: 2024-05-31
     eol: 2024-05-31
     latest: "8"
-    link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
+    link: http://web.archive.org/web/20230417021744/https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
 
 ---
 

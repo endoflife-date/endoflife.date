@@ -24,16 +24,16 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-04-21
     eol: false
-    latest: "8.2.0"
-    latestReleaseDate: 2023-08-22
+    latest: "8.3.0"
+    latestReleaseDate: 2023-10-25
     link: 
       https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
 
 -   releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: false
-    latest: "7.26.0"
-    latestReleaseDate: 2023-08-21
+    latest: "7.27.0"
+    latestReleaseDate: 2023-10-23
     link: 
       https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
 
@@ -54,10 +54,16 @@ releases:
 
 ---
 
-> [Puppet](https://www.puppet.com/) Puppet is a tool that helps you manage and automate the configuration of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of its open-source Puppet software.
+> [Puppet](https://www.puppet.com/) is a tool that helps you manage and automate the configuration
+> of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of
+> its open-source Puppet software.
 
-This page tracks the Open Source Puppet (OSP), and not Puppet Enterprise (PE). Version numbers are for puppet-agent, and corresponding version numbers of other components are published [on the platform lifecycle documentation](https://www.puppet.com/docs/puppet/8/platform_lifecycle.html#component-version-numbers).
+This page tracks the Open Source Puppet (OSP), and not Puppet Enterprise (PE). Version numbers are
+for puppet-agent, and corresponding version numbers of other components are published [on the
+platform lifecycle documentation](https://www.puppet.com/docs/puppet/8/platform_lifecycle.html#component-version-numbers).
 
-Puppet OSP has an Update Track: Puppet versions that are not associated with any PE version get updated minor (or "y") releases about once a month.
-Releases in this track include fixes and new features, but typically do not get patch (or "z") releases. Developmental releases ('latest') are superseded by new versions about once a month.
-Open source releases that are associated with PE versions have projected End of Life (EOL) dates.
+Puppet OSP has an Update Track: Puppet versions that are not associated with any PE version get
+updated minor (or "y") releases about once a month. Releases in this track include fixes and new
+features, but typically do not get patch (or "z") releases. Developmental releases ('latest') are
+superseded by new versions about once a month. Open source releases that are associated with PE
+versions have projected End of Life (EOL) dates.

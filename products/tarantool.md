@@ -3,7 +3,7 @@ title: Tarantool
 category: db
 permalink: /tarantool
 versionCommand: $ tarantool --version
-releaseImage: 
+releaseImage:
   https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/images_en/releases_calendar.svg
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
@@ -16,65 +16,65 @@ auto:
 releases:
 -   releaseCycle: "2.11"
     lts: true
+    releaseDate: 2023-05-24
     eol: 2027-05-24
     latest: "2.11.1"
     latestReleaseDate: 2023-08-21
-    releaseDate: 2023-05-24
 
 -   releaseCycle: "2.10"
+    releaseDate: 2022-05-22
     eol: 2023-05-24
     latest: "2.10.8"
     latestReleaseDate: 2023-09-14
-    releaseDate: 2022-05-22
 
 -   releaseCycle: "2.8"
+    releaseDate: 2020-12-30
     eol: 2022-04-25
     latest: "2.8.4"
     latestReleaseDate: 2022-04-25
-    releaseDate: 2020-12-30
 
 -   releaseCycle: "2.7"
+    releaseDate: 2020-10-23
     eol: 2021-08-19
     latest: "2.7.3"
     latestReleaseDate: 2021-08-19
-    releaseDate: 2020-10-23
 
 -   releaseCycle: "2.6"
+    releaseDate: 2020-07-17
     eol: 2021-04-21
     latest: "2.6.3"
     latestReleaseDate: 2021-04-21
-    releaseDate: 2020-07-17
 
 -   releaseCycle: "2.5"
+    releaseDate: 2020-04-20
     eol: 2020-12-30
     latest: "2.5.3"
     latestReleaseDate: 2020-12-30
-    releaseDate: 2020-04-20
 
 -   releaseCycle: "2.4"
+    releaseDate: 2020-01-10
     eol: 2020-10-22
     latest: "2.4.3"
     latestReleaseDate: 2020-10-23
-    releaseDate: 2020-01-10
 
 -   releaseCycle: "2.3"
+    releaseDate: 2019-08-02
     eol: 2020-07-17
     latest: "2.3.3"
     latestReleaseDate: 2020-07-17
-    releaseDate: 2019-08-02
 
 -   releaseCycle: "2.2"
+    releaseDate: 2019-03-22
     eol: 2020-04-20
     latest: "2.2.3"
     latestReleaseDate: 2020-04-20
-    releaseDate: 2019-03-22
 
 -   releaseCycle: "1.10"
-    eol: 2023-05-24
     lts: true
+    releaseDate: 2018-03-07
+    eol: 2023-05-24
     latest: "1.10.15"
     latestReleaseDate: 2023-02-20
-    releaseDate: 2018-03-07
 
 ---
 

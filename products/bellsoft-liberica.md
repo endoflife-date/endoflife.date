@@ -51,8 +51,8 @@ releases:
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     extendedSupport: 2032-03-31
-    latest: "21+37"
-    latestReleaseDate: 2023-09-20
+    latest: "21.0.1+12"
+    latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
@@ -81,8 +81,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     extendedSupport: 2030-03-31
-    latest: "17.0.8.1+1"
-    latestReleaseDate: 2023-08-24
+    latest: "17.0.9+11"
+    latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
@@ -126,8 +126,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     extendedSupport: 2027-03-31
-    latest: "11.0.20.1+1"
-    latestReleaseDate: 2023-08-24
+    latest: "11.0.21+10"
+    latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -145,8 +145,8 @@ releases:
     releaseDate: 2018-11-01
     eol: 2026-11-30
     extendedSupport: 2031-03-31
-    latest: "8u382+6"
-    latestReleaseDate: 2023-07-19
+    latest: "8u392+9"
+    latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "7"
     lts: true
