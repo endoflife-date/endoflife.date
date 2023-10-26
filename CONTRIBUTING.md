@@ -273,6 +273,11 @@ releases:
     # Note that an approximate date is better than no date at all.
     releaseDate: 2017-03-12
 
+    # Whether this is a "LTS" release (optional, default = false).
+    # What LTS means may differ from product to product (see LTSLabel above).
+    # Only provide for a release that will get much longer support than usual.
+    lts: true
+
     # End of active support date (optional if activeSupportColumn is false, else mandatory).
     # This is where bug fixes usually stop coming in.
     # Use valid dates, and do not add quotes around dates.
@@ -294,6 +299,11 @@ releases:
     # Alternatively, set to true|false if the date has not been decided yet.
     extendedSupport: 2020-01-01
 
+    # Whether this is a "discontinued" release (optional).
+    # Can be set to true/false.
+    # Only use if discontinuedColumn is set to true.
+    discontinued: true
+
     # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
     # Usually this is the release cycle's latest "patch" release.
     # It should be removed if releaseColumn is false.
@@ -303,16 +313,6 @@ releases:
     # Latest release date (optional).
     # Use valid dates, and do not add quotes around dates.
     latestReleaseDate: 2022-01-23
-
-    # Whether this is a "LTS" release (optional, default = false).
-    # What LTS means may differ from product to product (see LTSLabel above).
-    # Only provide for a release that will get much longer support than usual.
-    lts: true
-
-    # Whether this is a "discontinued" release (optional).
-    # Can be set to true/false.
-    # Only use if discontinuedColumn is set to true.
-    discontinued: true
 
     # A link to the changelog for the latest release
     # (optional, default = the URL generated from changelogTemplate if it is provided).
