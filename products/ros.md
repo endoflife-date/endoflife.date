@@ -7,9 +7,9 @@ versionCommand: rosversion -d
 releasePolicyLink: https://wiki.ros.org/Distributions
 changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releaseLabel: '__CODENAME__'
-activeSupportColumn: false
 releaseDateColumn: true
 releaseColumn: false
+activeSupportColumn: false
 eolColumn: End Of Life
 
 releases:
@@ -17,29 +17,29 @@ releases:
     codename: 'Noetic Ninjemys'
     releaseDate: 2020-05-23
     eol: 2025-05-01
-
-    latestReleaseDate: 2020-05-23
     latest: noetic
+    latestReleaseDate: 2020-05-23
+
 -   releaseCycle: 'melodic'
     codename: 'Melodic Morenia'
     releaseDate: 2018-05-23
     eol: 2023-04-01
-
-    latestReleaseDate: 2018-05-23
     latest: melodic
+    latestReleaseDate: 2018-05-23
+
 -   releaseCycle: 'lunar'
     codename: 'Lunar Loggerhead'
     releaseDate: 2017-05-23
     eol: 2019-05-01
-
-    latestReleaseDate: 2017-05-23
     latest: lunar
+    latestReleaseDate: 2017-05-23
+
 -   releaseCycle: 'kinetic'
     codename: 'Kinetic Kame'
     releaseDate: 2016-05-23
     eol: 2021-05-01
-    latestReleaseDate: 2016-05-23
     latest: kinetic
+    latestReleaseDate: 2016-05-23
 
 ---
 
