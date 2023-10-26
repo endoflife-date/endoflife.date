@@ -4,7 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
-changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__/__LATEST__"
+changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -19,8 +19,6 @@ releases:
     releaseDate: 2023-10-07
     support: 2024-10-14
     eol: 2025-04-14
-    # Remove this link after 4.3.1 is released
-    link: https://moodledev.io/general/releases/4.3
     latest: "4.3.0"
     latestReleaseDate: 2023-10-07
 
