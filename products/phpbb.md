@@ -14,32 +14,32 @@ auto:
 
 releases:
 -   releaseCycle: "3.3"
-    eol: false
-    support: true
-    latest: "3.3.11"
-    link: https://www.phpbb.com/community/viewtopic.php?t=2635986
     releaseDate: 2020-01-06
-
+    support: true
+    eol: false
+    latest: "3.3.11"
     latestReleaseDate: 2023-10-21
+    link: https://www.phpbb.com/community/viewtopic.php?t=2635986
+
 -   releaseCycle: "3.2"
-    eol: 2019-11-01
-    support: 2019-05-01
-    latest: "3.2.11"
     releaseDate: 2017-01-07
-
+    support: 2019-05-01
+    eol: 2019-11-01
+    latest: "3.2.11"
     latestReleaseDate: 2020-11-04
--   releaseCycle: "3.1"
-    eol: 2018-11-01
-    support: 2017-06-01
-    latest: "3.1.12"
-    releaseDate: 2014-10-28
 
+-   releaseCycle: "3.1"
+    releaseDate: 2014-10-28
+    support: 2017-06-01
+    eol: 2018-11-01
+    latest: "3.1.12"
     latestReleaseDate: 2018-01-07
+
 -   releaseCycle: "3.0"
-    eol: 2015-11-01
-    support: 2015-05-01
-    latest: "3.0.14"
     releaseDate: 2007-12-12
+    support: 2015-05-01
+    eol: 2015-11-01
+    latest: "3.0.14"
     latestReleaseDate: 2015-05-03
 
 ---
