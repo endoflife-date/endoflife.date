@@ -17,48 +17,48 @@ auto:
 
 releases:
 -   releaseCycle: "5.27"
-    latest: "5.27.9"
-    support: true
-    eol: false # Will end when Plasma 6 comes out
     lts: true
     releaseDate: 2023-02-14
+    support: true
+    eol: false # Will end when Plasma 6 comes out
+    latest: "5.27.9"
     latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "5.26"
-    latest: "5.26.90"
+    releaseDate: 2022-10-11
     support: 2023-02-14
     eol: 2023-02-14
-    releaseDate: 2022-10-11
+    latest: "5.26.90"
     latestReleaseDate: 2023-01-19
 
 -   releaseCycle: "5.25"
-    latest: "5.25.90"
+    releaseDate: 2022-06-14
     support: 2022-10-11
     eol: 2022-10-11
-    releaseDate: 2022-06-14
+    latest: "5.25.90"
     latestReleaseDate: 2022-09-15
 
 -   releaseCycle: "5.24"
-    latest: "5.24.7"
-    support: 2022-06-14
-    eol: false # Will end when Plasma 6 comes out
     lts: true
     releaseDate: 2022-02-08
+    support: 2022-06-14
+    eol: false # Will end when Plasma 6 comes out
+    latest: "5.24.7"
     latestReleaseDate: 2022-10-14
 
 -   releaseCycle: "5.23"
-    latest: "5.23.90"
+    releaseDate: 2021-10-14
     support: 2022-02-03
     eol: 2022-02-03
-    releaseDate: 2021-10-14
+    latest: "5.23.90"
     latestReleaseDate: 2022-01-13
 
 -   releaseCycle: "5.18"
-    latest: "5.18.8"
-    support: 2020-06-04
-    eol: 2022-02-11
     lts: true
     releaseDate: 2020-02-11
+    support: 2020-06-04
+    eol: 2022-02-11
+    latest: "5.18.8"
     latestReleaseDate: 2021-10-19
 
 ---
