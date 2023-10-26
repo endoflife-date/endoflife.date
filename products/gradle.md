@@ -24,7 +24,7 @@ releases:
     releaseDate: 2023-02-10
     # Supported versions see https://docs.gradle.org/8.0/userguide/compatibility.html
     testedJavaVersions: 8-19
-    testedKotlinVersoins: 	1.6.10-1.8.10
+    testedKotlinVersoins: 1.6.10-1.8.10
     testedGroovyVersions: 1.5.8-4.0.0
     testedAndroidVersions: 7.3, 7.4, 8.0
     support: true
@@ -36,7 +36,7 @@ releases:
     releaseDate: 2021-04-09
     # Supported versions see https://docs.gradle.org/7.6.3/userguide/compatibility.html
     testedJavaVersions: 8-19
-    testedKotlinVersoins: 	1.3.72-1.7.10
+    testedKotlinVersoins: 1.3.72-1.7.10
     testedGroovyVersions: 1.5.8-4.0.0
     testedAndroidVersions: 4.1, 4.2, 7.0, 7.1, 7.2, 7.3, 7.4
     support: false
@@ -48,7 +48,7 @@ releases:
     releaseDate: 2019-11-08
     # Supported versions see https://docs.gradle.org/6.9.4/userguide/compatibility.html
     testedJavaVersions: 8-15
-    testedKotlinVersoins: 	1.3.21-1.4.20
+    testedKotlinVersoins: 1.3.21-1.4.20
     testedGroovyVersions: 1.5.8-2.5.12
     testedAndroidVersions: 3.4, 3.5, 3.6, 4.0, 4.1, 4.2
     support: 2021-04-09
@@ -109,8 +109,8 @@ Gradle itself is tested with the following versions:
 
 {% include table.html
 labels="Release,Java,Kotlin,Groovy,Android"
-fields="releaseCycle,testedJavaVersions,testedGroovyVersions,testedAndroidVersions"
-types="string,string,string,string"
+fields="releaseCycle,testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"
+types="string,string,string,string,string"
 rows=page.releases %}
 
 Java 6 and 7 can still be used for compilation and forked test execution.
