@@ -25,15 +25,15 @@ auto:
 
 releases:
 -   releaseCycle: "9"
+    releaseDate: 2022-05-11
     eol: false
     latest: "9.4.0"
-    releaseDate: 2022-05-11
     latestReleaseDate: 2023-10-14
 
 -   releaseCycle: "8"
+    releaseDate: 2019-03-13
     eol: false
     latest: "8.11.2"
-    releaseDate: 2019-03-13
     latestReleaseDate: 2022-06-17
 
 ---
