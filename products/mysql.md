@@ -6,7 +6,7 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage:
+releaseImage: 
   https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
@@ -23,7 +23,7 @@ eolColumn: Extended Support
 # See https://rubular.com/r/qi5jDueXMwunrS.
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex:
+    regex: 
       ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.1\.\d+))$
     template: "{{v}}"
 
@@ -44,15 +44,15 @@ releases:
     lts: 2023-07-18
     support: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.34'
-    latestReleaseDate: 2023-06-22
+    latest: '8.0.35'
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09
     support: 2020-10-31
     eol: 2023-10-31
-    latest: '5.7.43'
-    latestReleaseDate: 2023-06-21
+    latest: '5.7.44'
+    latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-02-01
