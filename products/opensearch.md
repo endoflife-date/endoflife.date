@@ -16,13 +16,13 @@ releases:
     releaseDate: 2022-05-18
     eol: false
     latest: "2.11.0"
-    latestReleaseDate: 2023-10-12
+    latestReleaseDate: 2023-10-16
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-02
     eol: false
     latest: "1.3.13"
-    latestReleaseDate: 2023-09-14
+    latestReleaseDate: 2023-09-21
 
 ---
 
@@ -35,9 +35,6 @@ releases:
 
 Release  | Release Date
 -------- | ------------
- 2.10.0  | {{ "2023-09-19" | date_to_string }}
- 1.3.13  | {{ "2023-09-21" | date_to_string }}
- 2.11.0  | {{ "2023-11-16" | date_to_string }}
  1.3.14  | {{ "2023-12-12" | date_to_string }}
  2.12.0  | {{ "2024-01-23" | date_to_string }}
 
