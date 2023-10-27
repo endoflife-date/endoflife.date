@@ -10,10 +10,10 @@ alternate_urls:
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
-activeSupportColumn: false
-eolColumn: General Support
 releaseColumn: true
 releaseDateColumn: true
+activeSupportColumn: false
+eolColumn: General Support
 
 releases:
 -   releaseCycle: "8.2306"
@@ -129,9 +129,14 @@ releases:
 
 ---
 
-> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
+> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with
+> the efficient delivery of virtual desktops and applications that equips workers anywhere,
+> anytime, and on any device.
 
-[Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base version release.
+[Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of
+Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three
+planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base
+version release.
 
 ## [General Support](https://lifecycle.vmware.com/)
 
