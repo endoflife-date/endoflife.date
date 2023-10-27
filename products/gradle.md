@@ -26,7 +26,7 @@ releases:
     testedJavaVersions: 8 - 19
     testedKotlinVersoins: 1.6.10 - 1.8.10
     testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3, 7.4, 8.0
+    testedAndroidVersions: 7.3 - 7.4, 8.0
     support: true
     eol: false
     latest: "8.4.0"
