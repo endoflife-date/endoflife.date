@@ -131,7 +131,7 @@ Gradle itself is tested with the following versions:
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedJavaVersions"," - " %}
 {% include table.html
-labels="Release,Java"
+labels="Gradle release,Java version"
 fields="releaseCycle,testedJavaVersions"
 types="string,string"
 rows=collapsedCycles %}
@@ -142,7 +142,7 @@ Java 6 and 7 can still be used for compilation and forked test execution.
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedKotlinVersoins"," - " %}
 {% include table.html
-labels="Release,Kotlin"
+labels="Gradle release,Kotlin version"
 fields="releaseCycle,testedKotlinVersoins"
 types="string,string"
 rows=collapsedCycles %}
@@ -151,7 +151,7 @@ rows=collapsedCycles %}
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedGroovyVersions"," - " %}
 {% include table.html
-labels="Release,Groovy"
+labels="Gradle release,Groovy version"
 fields="releaseCycle,testedGroovyVersions"
 types="string,string"
 rows=collapsedCycles %}
@@ -160,7 +160,7 @@ rows=collapsedCycles %}
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedAndroidVersions"," - " %}
 {% include table.html
-labels="Release,Android"
+labels="Gradle release,Android version"
 fields="releaseCycle,testedAndroidVersions"
 types="string,string"
 rows=collapsedCycles %}
