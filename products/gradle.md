@@ -123,15 +123,44 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 - The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
 - The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.
 
-## [Java Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
+## [Compatibility](https://docs.gradle.org/current/userguide/compatibility.html)
 
 Gradle itself is tested with the following versions:
 
-{%- assign collapsedCycles = page.releases | collapse_cycles:"testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"," - " %}
+### Java ###
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedJavaVersions"," - " %}
 {% include table.html
-labels="Release,Java,Kotlin,Groovy,Android"
-fields="releaseCycle,testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"
-types="string,string,string,string,string"
+labels="Release,Java"
+fields="releaseCycle,testedJavaVersions"
+types="string,string"
 rows=collapsedCycles %}
 
 Java 6 and 7 can still be used for compilation and forked test execution.
+
+### Kotlin ###
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedKotlinVersoins"," - " %}
+{% include table.html
+labels="Release,Kotlin"
+fields="releaseCycle,testedKotlinVersoins"
+types="string,string"
+rows=collapsedCycles %}
+
+### Groovy ###
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedGroovyVersions"," - " %}
+{% include table.html
+labels="Release,Groovy"
+fields="releaseCycle,testedGroovyVersions"
+types="string,string"
+rows=collapsedCycles %}
+
+### Android ###
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedAndroidVersions"," - " %}
+{% include table.html
+labels="Release,Android"
+fields="releaseCycle,testedAndroidVersions"
+types="string,string"
+rows=collapsedCycles %}
