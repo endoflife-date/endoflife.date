@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
-releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} '__CODENAME__'{% endif %}"
 activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
@@ -289,7 +288,14 @@ releases:
 > concepts of Ruby on Rails.
 
 CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
-onward, major versions have a codename.
+onward, major versions have a codename:
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"codename" %}
+{% include table.html
+labels="Codename,Releases"
+fields="codename,releaseCycle"
+types="string,string"
+rows=collapsedCycles %}
 
 Support and EOL policy for 1.x [was not clearly defined](https://stackoverflow.com/questions/20162089/cakephp-1-x-end-of-support-date).
 2.x and 3.x support and EOL policies are documented on <https://github.com/cakephp/cakephp/wiki>.
