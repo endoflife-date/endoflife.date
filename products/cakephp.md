@@ -290,7 +290,7 @@ releases:
 CakePHP follows [Semantic Versioning](https://book.cakephp.org/4/en/release-policy.html). From 3.x
 onward, major versions have a codename:
 
-{%- assign collapsedCycles = page.releases | collapse_cycles:"codename" %}
+{%- assign collapsedCycles = page.releases | collapse_cycles:"codename"," - " %}
 {% include table.html
 labels="Codename,Releases"
 fields="codename,releaseCycle"
