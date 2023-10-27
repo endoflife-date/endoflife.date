@@ -302,10 +302,11 @@ the last major release cycle have security support.
 
 ## PHP Support
 
+{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPhpVersions"," - " %}
 {% include table.html
 labels="Release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
 types="string,string"
-rows=page.releases %}
+rows=collapsedCycles %}
 
 See [Version map](https://github.com/cakephp/cakephp/wiki#version-map).
