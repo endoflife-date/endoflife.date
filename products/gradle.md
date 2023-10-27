@@ -127,7 +127,7 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 
 Gradle itself is tested with the following versions:
 
-{%- assign collapsedCycles = page.releases | collapse_cycles:"testedAndroidVersions"," - " %}
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"," - " %}
 {% include table.html
 labels="Release,Java,Kotlin,Groovy,Android"
 fields="releaseCycle,testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"
