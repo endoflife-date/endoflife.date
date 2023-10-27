@@ -146,7 +146,7 @@ releases:
     latest: 10.0.17763
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
-    # 10 1809 (E) non-LTS version
+    # 10 1809 (E) non-LTS cycle
 -   releaseCycle: "10-1809-e"
     releaseLabel: "10 1809 (E)"
     releaseDate: 2018-11-13
