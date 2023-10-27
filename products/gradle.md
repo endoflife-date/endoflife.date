@@ -92,10 +92,10 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 
 Gradle itself is tested with the following versions:
 
-| Gradle                                                          | Java | Kotlin        | Groovy       | Android                           |
-|-----------------------------------------------------------------|------|---------------|--------------|-----------------------------------|
-| [8](https://docs.gradle.org/8.0/userguide/compatibility.html)   | 8-19 | 1.6.10-1.8.10 | 1.5.8-4.0.0  | 7.3, 7.4, 8.0                     |
-| [7](https://docs.gradle.org/7.6.2/userguide/compatibility.html) | 8-19 | 1.3.72-1.7.10 | 1.5.8-4.0.0  | 4.1, 4.2, 7.0, 7.1, 7.2, 7.3, 7.4 |
-| [6](https://docs.gradle.org/6.9.3/userguide/compatibility.html) | 8-15 | 1.3.21-1.4.20 | 1.5.8-2.5.12 | 3.4, 3.5, 3.6, 4.0, 4.1, 4.2      |
+|   Gradle                                                          |  Java  |       Kotlin      |     Groovy     |   Android                         |
+|-------------------------------------------------------------------|--------|-------------------|----------------|-----------------------------------|
+| [8.3](https://docs.gradle.org/8.3/userguide/compatibility.html)   | 8 - 20 |   1.6.10 - 1.9.0  | 1.5.8 - 4.0.0  | 7.3, 7.4, 8.0                     |
+| [7.6](https://docs.gradle.org/7.6.3/userguide/compatibility.html) | 8 - 19 |   1.3.72 - 1.7.10 | 1.5.8 - 4.0.0  | 4.1, 4.2, 7.0, 7.1, 7.2, 7.3, 7.4 |
+| [6.9](https://docs.gradle.org/6.9.4/userguide/compatibility.html) | 8 - 15 |   1.3.21 - 1.4.20 | 1.5.8 - 2.5.12 | 3.4, 3.5, 3.6, 4.0, 4.1, 4.2      |
 
-Java 6 and 7 can still be used for compilation and forked test execution.
+Java 6 and 7 can still be used for compilation but are deprecated for use with testing. Testing with Java 6 and 7 will not be supported in Gradle 9.0.
