@@ -58,6 +58,10 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2018-11-23
+    testedJavaVersions: N/A
+    testedKotlinVersoins: N/A
+    testedGroovyVersions: N/A
+    testedAndroidVersions: N/A
     support: 2019-11-08
     eol: 2019-11-08
     latest: "5.6.4"
@@ -65,6 +69,10 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2017-06-14
+    testedJavaVersions: N/A
+    testedKotlinVersoins: N/A
+    testedGroovyVersions: N/A
+    testedAndroidVersions: N/A
     support: 2018-11-26
     eol: 2018-11-26
     latest: "4.10.3"
@@ -72,6 +80,10 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2016-08-15
+    testedJavaVersions: N/A
+    testedKotlinVersoins: N/A
+    testedGroovyVersions: N/A
+    testedAndroidVersions: N/A
     support: 2017-06-14
     eol: 2017-06-14
     latest: "3.5.1"
@@ -79,6 +91,10 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2014-07-01
+    testedJavaVersions: N/A
+    testedKotlinVersoins: N/A
+    testedGroovyVersions: N/A
+    testedAndroidVersions: N/A
     support: 2016-08-15
     eol: 2016-08-15
     latest: "2.14.1"
@@ -86,6 +102,10 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2012-06-12
+    testedJavaVersions: N/A
+    testedKotlinVersoins: N/A
+    testedGroovyVersions: N/A
+    testedAndroidVersions: N/A
     support: 2014-07-01
     eol: 2014-07-01
     latest: "1.12.0"
@@ -107,10 +127,11 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 
 Gradle itself is tested with the following versions:
 
+{%- assign collapsedCycles = page.releases | collapse_cycles:"testedAndroidVersions"," - " %}
 {% include table.html
 labels="Release,Java,Kotlin,Groovy,Android"
 fields="releaseCycle,testedJavaVersions,testedKotlinVersoins,testedGroovyVersions,testedAndroidVersions"
 types="string,string,string,string,string"
-rows=page.releases %}
+rows=collapsedCycles %}
 
 Java 6 and 7 can still be used for compilation and forked test execution.
