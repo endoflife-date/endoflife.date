@@ -292,8 +292,8 @@ onward, major versions have a codename:
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"codename"," - " %}
 {% include table.html
-labels="Codename,Releases"
-fields="codename,releaseCycle"
+labels="Releases,Codename"
+fields="releaseCycle,codename"
 types="string,string"
 rows=collapsedCycles %}
 
