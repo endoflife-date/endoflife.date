@@ -39,7 +39,7 @@ releases:
     latest: 10.0.22621
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
--   releaseCycle: "10-21h2-e"
+-   releaseCycle: "10-21h2-e-lts"
     releaseLabel: "10 21H2 (E)"
     releaseDate: 2021-11-16
     lts: true
@@ -48,6 +48,15 @@ releases:
     latest: 10.0.19044
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
+    # 10 21H2 (E) non-LTS cycle
+-   releaseCycle: "10-21h2-e"
+    releaseLabel: "10 21H2 (E)"
+    releaseDate: 2021-11-16
+    support: 2024-06-11
+    eol: 2024-06-11
+    latest: 10.0.19044
+    link: https://learn.microsoft.com/lifecycle/products/windows-10-enterprise-and-education
+    
 -   releaseCycle: "10-21h2-w"
     releaseLabel: "10 21H2 (W)"
     releaseDate: 2021-11-16
@@ -128,7 +137,7 @@ releases:
     latest: 10.0.18362
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1903-end-of-servicing
 
--   releaseCycle: "10-1809-e"
+-   releaseCycle: "10-1809-e-lts"
     releaseLabel: "10 1809 (E)"
     releaseDate: 2018-11-13
     lts: true
@@ -137,6 +146,15 @@ releases:
     latest: 10.0.17763
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
+    # 10 1809 (E) non-LTS cycle
+-   releaseCycle: "10-1809-e"
+    releaseLabel: "10 1809 (E)"
+    releaseDate: 2018-11-13
+    support: 2021-05-11
+    eol: 2021-05-11
+    latest: 10.0.17763
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
+    
 -   releaseCycle: "10-1809-w"
     releaseLabel: "10 1809 (W)"
     releaseDate: 2018-11-13
@@ -193,7 +211,7 @@ releases:
     latest: 10.0.15063
     link: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/end-of-service-reminders-for-windows-10-versions-1703-and-1803/ba-p/903715
 
--   releaseCycle: "10-1607-e"
+-   releaseCycle: "10-1607-e-lts"
     releaseLabel: "10 1607 (E)"
     releaseDate: 2016-08-02
     lts: true
@@ -201,6 +219,15 @@ releases:
     eol: 2026-10-13
     latest: 10.0.14393
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
+
+    # 10 1607 (E) non-LTS cycle
+-   releaseCycle: "10-1607-e"
+    releaseLabel: "10 1607 (E)"
+    releaseDate: 2016-08-02
+    support: 2019-04-09
+    eol: 2019-04-09
+    latest: 10.0.14393
+    link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1607-end-of-servicing
 
 -   releaseCycle: "10-1607-w"
     releaseLabel: "10 1607 (W)"
@@ -218,7 +245,7 @@ releases:
     latest: 10.0.10586
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1511-end-of-servicing
 
--   releaseCycle: "10-1507-e"
+-   releaseCycle: "10-1507-e-lts"
     releaseLabel: "10 1507 (E)"
     releaseDate: 2015-07-29
     lts: true
@@ -227,8 +254,9 @@ releases:
     latest: 10.0.10240
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
 
--   releaseCycle: "10-1507-w"
-    releaseLabel: "10 1507 (W)"
+    # This cycle includes 10 1507 (E) non-LTS version
+-   releaseCycle: "10-1507"
+    releaseLabel: "10 1507"
     releaseDate: 2015-07-29
     support: 2017-05-09
     eol: 2017-05-09
@@ -236,6 +264,7 @@ releases:
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
 
 -   releaseCycle: "8.1"
+    releaseLabel: "8.1"
     releaseDate: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
@@ -243,6 +272,7 @@ releases:
     link: https://learn.microsoft.com/lifecycle/products/windows-81
 
 -   releaseCycle: "8"
+    releaseLabel: "8"
     releaseDate: 2012-10-30
     support: 2016-01-12
     eol: 2016-01-12
