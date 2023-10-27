@@ -21,15 +21,15 @@ releases:
 -   releaseCycle: "7.3"
     releaseDate: 2022-11-08
     eol: false
-    latest: "7.3.8"
-    latestReleaseDate: 2023-10-10
+    latest: "7.3.9"
+    latestReleaseDate: 2023-10-26
 
 -   releaseCycle: "7.2"
     lts: true
     releaseDate: 2021-11-05
     eol: 2024-11-30
-    latest: "7.2.15"
-    latestReleaseDate: 2023-10-10
+    latest: "7.2.16"
+    latestReleaseDate: 2023-10-26
 
 -   releaseCycle: "7.1"
     releaseDate: 2020-11-11
