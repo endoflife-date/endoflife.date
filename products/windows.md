@@ -264,6 +264,7 @@ releases:
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
 
 -   releaseCycle: "8.1"
+    releaseLabel: "8.1"
     releaseDate: 2013-11-13
     support: 2018-01-09
     eol: 2023-01-10
@@ -271,6 +272,7 @@ releases:
     link: https://learn.microsoft.com/lifecycle/products/windows-81
 
 -   releaseCycle: "8"
+    releaseLabel: "8"
     releaseDate: 2012-10-30
     support: 2016-01-12
     eol: 2016-01-12
