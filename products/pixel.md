@@ -77,14 +77,6 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_5a
 
--   releaseCycle: "5"
-    releaseLabel: "Pixel 5"
-    releaseDate: 2020-10-15
-    support: 2023-10-14
-    eol: 2023-10-14
-    discontinued: 2021-08-20
-    link: https://en.wikipedia.org/wiki/Pixel_5
-
 -   releaseCycle: "4a-5g"
     releaseLabel: "Pixel 4a (5G)"
     releaseDate: 2020-11-05
@@ -92,6 +84,14 @@ releases:
     eol: 2023-11-04
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_4a
+
+-   releaseCycle: "5"
+    releaseLabel: "Pixel 5"
+    releaseDate: 2020-10-15
+    support: 2023-10-14
+    eol: 2023-10-14
+    discontinued: 2021-08-20
+    link: https://en.wikipedia.org/wiki/Pixel_5
 
 -   releaseCycle: "4a"
     releaseLabel: "Pixel 4a"
