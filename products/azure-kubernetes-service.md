@@ -13,51 +13,43 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support
 
-# releaseDate can be found by following each cycle's link.
-# EOL date are announced on https://github.com/Azure/AKS/releases or must be computed with this formula:
-# eol(x) ~= releaseDate(x) + 1 year
+# Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.
+# Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 releases:
 -   releaseCycle: "1.27"
     releaseDate: 2023-08-16
-    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
-    eol: 2024-07-31
+    eol: 2024-07-31 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-127-support-in-aks/
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
-    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
-    eol: 2024-03-31
+    eol: 2024-03-31 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-126-support-in-aks/
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
-    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
-    eol: 2023-12-31
+    eol: 2023-12-31 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-125-support-in-aks/
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-08-17
-    # waiting for exact date announcement at https://github.com/Azure/AKS/releases
-    eol: 2023-07-31
+    eol: 2023-07-31 # https://github.com/Azure/AKS/releases/tag/2023-06-11
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-124-support/
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-04-26
-    # https://github.com/Azure/AKS/releases/tag/2023-02-19
-    eol: 2023-04-02
+    eol: 2023-04-02 # https://github.com/Azure/AKS/releases/tag/2023-02-19
     link: https://github.com/Azure/AKS/issues/2730
 
 -   releaseCycle: "1.22"
-    releaseDate: 2021-01-10
-    # https://github.com/Azure/AKS/releases/tag/2022-10-17
-    eol: 2022-12-04
-    link: https://github.com/Azure/AKS/issues/2502
+    releaseDate: 2022-01-10
+    eol: 2022-12-04 # https://github.com/Azure/AKS/releases/tag/2022-10-17
+    link: https://github.com/Azure/AKS/issues/2502#issuecomment-1008549356
 
 -   releaseCycle: "1.21"
-    releaseDate: 2021-07-26
-    # https://github.com/Azure/AKS/releases/tag/2022-08-21
-    eol: 2022-07-31
-    link: https://github.com/Azure/AKS/releases/tag/2021-07-22
+    releaseDate: 2021-08-18
+    eol: 2022-07-31 # https://github.com/Azure/AKS/releases/tag/2022-08-21
+    link: https://azure.microsoft.com/updates/general-availability-aks-support-for-kubernetes-121-2/
 
 # Not sure corresponding cycles will be added one day, but here are the announcements for:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
