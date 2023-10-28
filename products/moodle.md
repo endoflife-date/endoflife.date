@@ -27,7 +27,7 @@ releases:
     releaseDate: 2023-04-22
     support: 2024-04-22
     eol: 2024-10-07
-    supportedPhpVersions: (4.2.0-4.2.2) 8.0 - 8.1, (4.2.3~) 8.0 - 8.2
+    supportedPhpVersions: 8.0 - 8.2
     latest: "4.2.3"
     latestReleaseDate: 2023-10-07
 
@@ -36,7 +36,7 @@ releases:
     releaseDate: 2022-11-26
     support: 2023-11-13
     eol: 2025-11-10
-    supportedPhpVersions: (4.1.0-4.1.1) 7.4, (4.1.2~) 7.4 - 8.1
+    supportedPhpVersions: 7.4 - 8.1
     latest: "4.1.6"
     latestReleaseDate: 2023-10-07
 
@@ -44,7 +44,7 @@ releases:
     releaseDate: 2022-04-17
     support: 2023-05-08
     eol: 2023-11-13
-    supportedPhpVersions: (4.0.0-4.0.1) 7.3 - 7.4, (4.0.2~) 7.3 - 8.0
+    supportedPhpVersions: 7.3 - 8.0
     latest: "4.0.11"
     latestReleaseDate: 2023-10-07
 
@@ -52,7 +52,7 @@ releases:
     releaseDate: 2021-05-15
     support: 2022-11-14
     eol: 2023-11-13
-    supportedPhpVersions: (3.11.0-3.11.7) 7.3, (3.11.8~) 7.3 - 8.0
+    supportedPhpVersions: 7.3 - 8.0
     latest: "3.11.17"
     latestReleaseDate: 2023-10-07
 
@@ -77,7 +77,7 @@ releases:
     releaseDate: 2019-11-16
     support: 2020-11-09
     eol: 2021-05-10
-    supportedPhpVersions: (3.8.0-3.8.2) 7.1 - 7.3, (3.8.3~) 7.1 - 7.4
+    supportedPhpVersions: 7.1 - 7.4
     latest: "3.8.9"
     latestReleaseDate: 2021-05-08
 
@@ -102,3 +102,5 @@ labels="Release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
 types="string,string"
 rows=page.releases %}
+
+See [details](https://moodledev.io/general/development/policies/php) and check exceptions.
