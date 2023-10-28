@@ -33,6 +33,12 @@ releases:
     latest: "4.5.1"
     latestReleaseDate: 2023-05-11
 
+-   releaseCycle: "3.11"
+    releaseDate: 2022-02-14
+    eol: 2023-04-30
+    latest: "3.11.0.1"
+    latestReleaseDate: 2022-04-07
+
 -   releaseCycle: "4.4"
     releaseDate: 2022-02-10
     eol: 2024-09-30
@@ -62,12 +68,6 @@ releases:
     eol: 2021-08-24
     latest: "4.0.1"
     latestReleaseDate: 2020-06-25
-
--   releaseCycle: "3.11"
-    releaseDate: 2022-02-14
-    eol: 2023-04-30
-    latest: "3.11.0.1"
-    latestReleaseDate: 2022-04-07
 
 -   releaseCycle: "3.10"
     releaseDate: 2020-05-26
