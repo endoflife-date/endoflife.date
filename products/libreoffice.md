@@ -11,28 +11,28 @@ eolColumn: Support Status
 
 releases:
 -   releaseCycle: "7.6"
-    releaseDate: 2023-08-21
+    releaseDate: 2023-08-21 # https://blog.documentfoundation.org/blog/2023/08/21/libreoffice-7-6-community/
     eol: 2024-06-12
     latest: "7.6.2"
     latestReleaseDate: 2023-09-26
-    
+
 -   releaseCycle: "7.5"
-    releaseDate: 2023-02-02
+    releaseDate: 2023-02-02 # https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/
     eol: 2023-11-30
     latest: "7.5.7"
     latestReleaseDate: 2023-09-26
 
 -   releaseCycle: "7.4"
-    releaseDate: 2022-08-18
+    releaseDate: 2022-08-18 # https://blog.documentfoundation.org/blog/2022/08/18/libreoffice-7-4-community/
     eol: 2023-06-12
     latest: "7.4.7"
     latestReleaseDate: 2023-05-11
 
 -   releaseCycle: "7.3"
+    releaseDate: 2022-02-02 # https://blog.documentfoundation.org/blog/2022/02/02/libreoffice-73-community/
     eol: 2022-11-30
     latest: "7.3.7"
     latestReleaseDate: 2022-08-26
-    releaseDate: 2022-11-03
 
 ---
 
