@@ -104,4 +104,4 @@ fields="releaseCycle,supportedPhpVersions"
 types="string,string"
 rows=collapsedCycles %}
 
-More details are available on [Moodle's PHP page](https://moodledev.io/general/development/policies/php).
+For details about PHP support, see [Moodle's PHP page](https://moodledev.io/general/development/policies/php).
