@@ -103,4 +103,4 @@ fields="releaseCycle,supportedPhpVersions"
 types="string,string"
 rows=page.releases %}
 
-See [details](https://moodledev.io/general/development/policies/php) and check exceptions.
+More details are available on [Moodle's PHP page](https://moodledev.io/general/development/policies/php).
