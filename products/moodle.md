@@ -97,7 +97,7 @@ delayed or not.
 
 ## PHP Support
 
-{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
+{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPhpVersions"," - " %}
 {% include table.html
 labels="Release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
