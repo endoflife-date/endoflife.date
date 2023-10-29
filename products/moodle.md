@@ -97,10 +97,11 @@ delayed or not.
 
 ## PHP Support
 
+{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
 {% include table.html
 labels="Release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
 types="string,string"
-rows=page.releases %}
+rows=collapsedCycles %}
 
 More details are available on [Moodle's PHP page](https://moodledev.io/general/development/policies/php).
