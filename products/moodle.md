@@ -19,6 +19,7 @@ releases:
     releaseDate: 2023-10-07
     support: 2024-10-14
     eol: 2025-04-14
+    supportedPhpVersions: 8.0 - 8.2
     latest: "4.3.0"
     latestReleaseDate: 2023-10-07
 
@@ -26,6 +27,7 @@ releases:
     releaseDate: 2023-04-22
     support: 2024-04-22
     eol: 2024-10-07
+    supportedPhpVersions: 8.0 - 8.2
     latest: "4.2.3"
     latestReleaseDate: 2023-10-07
 
@@ -34,6 +36,7 @@ releases:
     releaseDate: 2022-11-26
     support: 2023-11-13
     eol: 2025-11-10
+    supportedPhpVersions: 7.4 - 8.1
     latest: "4.1.6"
     latestReleaseDate: 2023-10-07
 
@@ -41,6 +44,7 @@ releases:
     releaseDate: 2022-04-17
     support: 2023-05-08
     eol: 2023-11-13
+    supportedPhpVersions: 7.3 - 8.0
     latest: "4.0.11"
     latestReleaseDate: 2023-10-07
 
@@ -48,6 +52,7 @@ releases:
     releaseDate: 2021-05-15
     support: 2022-11-14
     eol: 2023-11-13
+    supportedPhpVersions: 7.3 - 8.0
     latest: "3.11.17"
     latestReleaseDate: 2023-10-07
 
@@ -55,6 +60,7 @@ releases:
     releaseDate: 2020-11-07
     support: 2021-11-08
     eol: 2022-05-09
+    supportedPhpVersions: 7.2 - 7.4
     latest: "3.10.11"
     latestReleaseDate: 2022-05-07
 
@@ -63,6 +69,7 @@ releases:
     releaseDate: 2020-06-13
     support: 2021-05-10
     eol: 2023-11-13
+    supportedPhpVersions: 7.2 - 7.4
     latest: "3.9.24"
     latestReleaseDate: 2023-10-07
 
@@ -70,6 +77,7 @@ releases:
     releaseDate: 2019-11-16
     support: 2020-11-09
     eol: 2021-05-10
+    supportedPhpVersions: 7.1 - 7.4
     latest: "3.8.9"
     latestReleaseDate: 2021-05-08
 
@@ -86,3 +94,14 @@ and May.
 From Moodle 2.6 onwards, the end of support, both general and security, happens the second Monday
 of May and November, observing the 12, 18... month periods, no matter if the major release was
 delayed or not.
+
+## PHP Support
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPhpVersions"," - " %}
+{% include table.html
+labels="Release,Supported PHP versions"
+fields="releaseCycle,supportedPhpVersions"
+types="string,string"
+rows=collapsedCycles %}
+
+For details about PHP support, see [Moodle's PHP page](https://moodledev.io/general/development/policies/php).
