@@ -189,13 +189,6 @@ releases:
     latest: "3.1.0"
     latestReleaseDate: 2020-02-20
 
--   releaseCycle: "3.0"
-    releaseDate: 2019-11-24
-    eol: 2020-02-20
-    supportedJavaVersions: 8, 11
-    latest: "3.0.1"
-    latestReleaseDate: 2020-01-11
-
 -   releaseCycle: "2.25"
     lts: true
     releaseDate: 2020-01-19
@@ -203,6 +196,13 @@ releases:
     supportedJavaVersions: 8
     latest: "2.25.4"
     latestReleaseDate: 2021-05-24
+
+-   releaseCycle: "3.0"
+    releaseDate: 2019-11-24
+    eol: 2020-02-20
+    supportedJavaVersions: 8, 11
+    latest: "3.0.1"
+    latestReleaseDate: 2020-01-11
 
 ---
 
