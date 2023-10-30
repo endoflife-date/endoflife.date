@@ -114,8 +114,8 @@ releases:
     codename: 'Feynman'
     releaseDate: 2015-09-09
     eol: false
-    latest: "2.8.21"
-    latestReleaseDate: 2022-10-30
+    latest: "2.8.22"
+    latestReleaseDate: 2023-10-29
 
 -   releaseCycle: "2.7"
     codename: 'Nash'

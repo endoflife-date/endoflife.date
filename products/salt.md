@@ -37,16 +37,16 @@ releases:
     releaseDate: 2023-04-18
     support: 2024-04-18
     eol: 2025-04-18
-    latest: "3006.3"
-    latestReleaseDate: 2023-09-07
+    latest: "3006.4"
+    latestReleaseDate: 2023-10-27
     link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
 -   releaseCycle: "3005"
     releaseDate: 2022-08-22
     support: 2023-08-25
     eol: 2024-02-25
-    latest: "3005.3"
-    latestReleaseDate: 2023-09-14
+    latest: "3005.4"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "3004"
     releaseDate: 2021-10-12

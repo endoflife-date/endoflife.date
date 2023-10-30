@@ -104,10 +104,10 @@ releases:
     latestReleaseDate: 2022-01-25
 
 -   releaseCycle: "7.29"
-    releaseDate: 2021-01-11
+    releaseDate: 2021-12-05
     eol: 2023-06-05
     latest: "7.29.9"
-    latestReleaseDate: 2021-01-11
+    latestReleaseDate: 2022-01-11
 
 -   releaseCycle: "7.27"
     releaseDate: 2021-09-30
