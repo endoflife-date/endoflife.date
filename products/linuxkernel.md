@@ -29,7 +29,7 @@ identifiers:
 releases:
 -   releaseCycle: "6.6"
     releaseDate: 2023-10-30
-    eol: 2023-02-29 # estimated releaseDate(x)+4 months
+    eol: 2024-02-29 # estimated releaseDate(x)+4 months
     latest: "6.6"
     latestReleaseDate: 2023-10-30
 
