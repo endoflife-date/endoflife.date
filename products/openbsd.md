@@ -13,9 +13,9 @@ releaseColumn: false
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to first of next month
 releases:
--   eol: 2024-11-01  # estimated from releaseDate: 2023-10-16
-    releaseCycle: "7.4"
+-   releaseCycle: "7.4"
     releaseDate: 2023-10-16
+    eol: 2024-11-01  # estimated from releaseDate: 2023-10-16
 
 -   eol: 2024-05-01  # estimated from releaseDate: 2023-04-10
     releaseCycle: "7.3"
