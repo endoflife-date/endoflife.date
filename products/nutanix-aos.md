@@ -14,26 +14,26 @@ discontinuedColumn: false
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
 -   releaseCycle: "6.7"
-    releaseDate: 2023-08-30
+    releaseDate: 2023-08-28
     support: true
     eol: false
     latest: "6.7.0.5"
-    latestReleaseDate: 2023-09-21
+    latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "6.6"
     releaseDate: 2023-01-23
     support: 2023-08-31
     eol: 2023-11-30
     latest: "6.6.2.8"
-    latestReleaseDate: 2023-08-28
+    latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "6.5"
-    releaseDate: 2022-07-26
+    releaseDate: 2022-07-25
     support: true
     eol: false
     lts: true
-    latest: "6.5.3.7"
-    latestReleaseDate: 2023-09-07
+    latest: "6.5.4"
+    latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24
@@ -54,11 +54,11 @@ releases:
     support: 2022-10-31
     eol: 2023-07-31
     lts: true
-    latest: "5.20.5"
-    latestReleaseDate: 2022-11-08
+    latest: "5.20.5.1"
+    latestReleaseDate: 2023-08-02
 
 -   releaseCycle: "5.19"
-    releaseDate: 2020-12-17
+    releaseDate: 2020-12-16
     support: 2021-05-31
     eol: 2021-08-31
     latest: "5.19.2"
@@ -72,21 +72,21 @@ releases:
     latestReleaseDate: 2020-11-23
 
 -   releaseCycle: "5.17"
-    releaseDate: 2020-05-22
+    releaseDate: 2020-05-01
     support: 2020-08-31
     eol: 2020-11-30
     latest: "5.17.1.5"
     latestReleaseDate: 2020-08-10
 
 -   releaseCycle: "5.16"
-    releaseDate: 2020-01-03
+    releaseDate: 2020-01-06
     support: 2020-05-31
     eol: 2020-08-31
     latest: "5.16.1.3"
     latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5.15"
-    releaseDate: 2020-04-01
+    releaseDate: 2020-03-31
     support: 2021-08-31
     eol: 2022-05-31
     lts: true
@@ -101,7 +101,7 @@ releases:
     latestReleaseDate: 2020-02-06
 
 -   releaseCycle: "5.10"
-    releaseDate: 2018-12-05
+    releaseDate: 2018-11-26
     support: 2020-06-30
     eol: 2021-04-30
     lts: true
@@ -109,28 +109,28 @@ releases:
     latestReleaseDate: 2020-07-23
 
 -   releaseCycle: "5.9"
-    releaseDate: 2018-10-06
+    releaseDate: 2018-10-04
     support: 2019-01-31
     eol: 2019-04-30
     latest: "5.9.2.4"
     latestReleaseDate: 2019-02-06
 
 -   releaseCycle: "5.8"
-    releaseDate: 2018-07-23
+    releaseDate: 2018-07-03
     support: 2018-10-31
     eol: 2019-01-31
     latest: "5.8.2"
     latestReleaseDate: 2018-09-05
 
 -   releaseCycle: "5.6"
-    releaseDate: 2018-06-29
+    releaseDate: 2018-04-16
     support: 2018-07-31
     eol: 2018-10-31
     latest: "5.6.2"
     latestReleaseDate: 2018-07-18
 
 -   releaseCycle: "5.5"
-    releaseDate: 2017-12-07
+    releaseDate: 2017-12-06
     support: 2019-10-31
     eol: 2020-09-30
     lts: true
