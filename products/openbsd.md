@@ -6,9 +6,6 @@ iconSlug: openbsd
 permalink: /openbsd
 versionCommand: uname -r
 changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
-
-# Formatting
-
 releaseDateColumn: true
 eolColumn: true
 activeSupportColumn: false
