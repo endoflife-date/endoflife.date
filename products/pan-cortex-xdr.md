@@ -26,12 +26,6 @@ releases:
     latest: '8.1'
     latestReleaseDate: 2023-06-25
 
--   releaseCycle: "8.0"
-    releaseDate: 2023-03-05
-    eol: 2023-12-19
-    latest: '8.0'
-    latestReleaseDate: 2023-03-05
-
 -   releaseCycle: "7.9-ce"
     lts: true
     releaseDate: 2023-03-19
@@ -39,6 +33,12 @@ releases:
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.9-CE-Release-Information
     latest: '7.9-ce'
     latestReleaseDate: 2023-03-19
+
+-   releaseCycle: "8.0"
+    releaseDate: 2023-03-05
+    eol: 2023-12-19
+    latest: '8.0'
+    latestReleaseDate: 2023-03-05
 
 -   releaseCycle: "7.9"
     releaseDate: 2022-12-04
@@ -58,13 +58,6 @@ releases:
     latest: '7.7'
     latestReleaseDate: 2022-03-27
 
--   releaseCycle: "7.6"
-    releaseDate: 2021-12-05
-    eol: 2022-09-05
-    link: null
-    latest: '7.6'
-    latestReleaseDate: 2021-12-05
-
 -   releaseCycle: "7.5-ce"
     lts: true
     releaseDate: 2022-03-06
@@ -72,6 +65,13 @@ releases:
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
     latest: '7.5-ce'
     latestReleaseDate: 2022-03-06
+
+-   releaseCycle: "7.6"
+    releaseDate: 2021-12-05
+    eol: 2022-09-05
+    link: null
+    latest: '7.6'
+    latestReleaseDate: 2021-12-05
 
 -   releaseCycle: "7.5"
     releaseDate: 2021-08-22
