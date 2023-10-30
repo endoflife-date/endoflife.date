@@ -25,7 +25,7 @@ identifiers:
 
 # See https://en.wikipedia.org/wiki/Linux_kernel_version_history
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
-# non-LTS 4 months
+# non-LTS: releaseDate(x)+4 months
 releases:
 -   releaseCycle: "6.6"
     releaseDate: 2023-10-30
