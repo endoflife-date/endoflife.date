@@ -69,7 +69,7 @@ releases:
     latestReleaseDate: 2020-07-08
 
 -   releaseCycle: "3.5"
-    releaseDate: 2019-12-15
+    releaseDate: 2019-03-21 # https://next.nutanix.com/community-blog-154/nutanix-files-3-5-31952
     support: 2020-01-31
     eol: 2020-10-31
     latest: "3.5.6"
