@@ -1,6 +1,4 @@
 ---
-# Product level information
-
 title: OpenBSD
 category: os
 tags: bsd-distribution
