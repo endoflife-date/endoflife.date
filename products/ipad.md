@@ -63,20 +63,20 @@ releases:
     link: https://support.apple.com/kb/SP844
     supportedIpadOsVersions: 14, 15, 16, 17
 
--   releaseCycle: "8"
-    releaseLabel: "iPad (8th generation)"
-    releaseDate: 2020-09-18
-    discontinued: 2021-09-14
-    eol: false
-    link: https://support.apple.com/kb/SP822
-    supportedIpadOsVersions: 14, 15, 16, 17
-
 -   releaseCycle: "air-4"
     releaseLabel: "iPad Air (4th generation)"
     releaseDate: 2020-10-23
     discontinued: 2022-03-08
     eol: false
     link: https://support.apple.com/kb/SP828
+    supportedIpadOsVersions: 14, 15, 16, 17
+
+-   releaseCycle: "8"
+    releaseLabel: "iPad (8th generation)"
+    releaseDate: 2020-09-18
+    discontinued: 2021-09-14
+    eol: false
+    link: https://support.apple.com/kb/SP822
     supportedIpadOsVersions: 14, 15, 16, 17
 
 -   releaseCycle: "pro-4"
@@ -191,6 +191,14 @@ releases:
     link: https://support.apple.com/kb/SP692
     supportedIpadOsVersions: 7, 8, 9, 10, 11, 12
 
+-   releaseCycle: "mini-1"
+    releaseLabel: "iPad Mini (1st generation)"
+    releaseDate: 2012-11-02
+    discontinued: 2015-06-19
+    eol: 2019-07-22
+    link: https://support.apple.com/kb/SP661
+    supportedIpadOsVersions: 6, 7, 8, 9
+
 -   releaseCycle: "4"
     releaseLabel: "iPad (4th generation)"
     releaseDate: 2012-11-02
@@ -206,14 +214,6 @@ releases:
     eol: 2019-07-22
     link: https://support.apple.com/kb/SP647
     supportedIpadOsVersions: 5, 6, 7, 8, 9
-
--   releaseCycle: "mini-1"
-    releaseLabel: "iPad Mini (1st generation)"
-    releaseDate: 2012-11-02
-    discontinued: 2015-06-19
-    eol: 2019-07-22
-    link: https://support.apple.com/kb/SP661
-    supportedIpadOsVersions: 6, 7, 8, 9
 
 -   releaseCycle: "2"
     releaseLabel: "iPad 2"
