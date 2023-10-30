@@ -73,9 +73,9 @@ releases:
     releaseCycle: "6.0"
     releaseDate: 2016-09-01
 
--   releaseDate: 2016-03-29  # estimated from releaseDate: 2016-03-29
-    eol: 2017-04-11
-    releaseCycle: "5.9"
+-   releaseCycle: "5.9"
+    releaseDate: 2016-03-29
+    eol: 2017-04-11 # estimated from releaseDate: 2016-03-29
 
 -   releaseDate: 2015-10-18  # estimated from releaseDate: 2015-10-18
     eol: 2016-09-01
