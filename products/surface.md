@@ -48,40 +48,25 @@ releases:
     eol: 2025-01-11
     link: null
 
--   releaseCycle: Surface Studio 2
-    releaseDate: 2018-10-02
-    eol: 2024-10-02
-    link: https://support.microsoft.com/surface/surface-studio-2-features-8672fa31-2e5d-2eb7-e299-5138e2ea682f
-
--   releaseCycle: Surface Pro X SQ1
-    releaseDate: 2019-11-05
-    eol: 2025-08-10
-    link: https://support.microsoft.com/surface/surface-pro-x-features-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
-
 -   releaseCycle: Surface Laptop Go
     releaseDate: 2020-10-13
     eol: 2024-10-13
     link: https://support.microsoft.com/topic/surface-laptop-go-1st-gen-specs-and-features-962fdfc3-9771-e5d0-e86e-8e9c2119b411
-
--   releaseCycle: Surface Go 2
-    releaseDate: 2020-05-06
-    eol: 2024-12-30
-    link: https://support.microsoft.com/surface/surface-go-2-specs-and-features-0fc6a657-2851-484f-6f82-bd3c589ed92c
 
 -   releaseCycle: Surface Book 3
     releaseDate: 2020-05-26
     eol: 2025-04-01
     link: https://support.microsoft.com/surface/surface-book-3-specs-and-features-261d4bb1-2851-d9d5-2020-283429f6cd8c
 
--   releaseCycle: Surface Pro (5th gen)
-    releaseDate: 2017-06-15
-    eol: 2024-01-15
-    link: https://support.microsoft.com/surface/surface-pro-5th-gen-specs-and-features-42d321e4-52d6-dcb1-e014-9ffc76fbca14
+-   releaseCycle: Surface Go 2
+    releaseDate: 2020-05-06
+    eol: 2024-12-30
+    link: https://support.microsoft.com/surface/surface-go-2-specs-and-features-0fc6a657-2851-484f-6f82-bd3c589ed92c
 
--   releaseCycle: Surface Pro LTE (Model 1807)
-    releaseDate: 2017-12-01
-    eol: 2024-01-15
-    link: null
+-   releaseCycle: Surface Pro X SQ1
+    releaseDate: 2019-11-05
+    eol: 2025-08-10
+    link: https://support.microsoft.com/surface/surface-pro-x-features-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
 
 -   releaseCycle: Surface Laptop 3
     releaseDate: 2019-10-22
@@ -93,55 +78,65 @@ releases:
     eol: 2024-02-28
     link: https://support.microsoft.com/surface/surface-pro-7-specs-and-features-8254894d-bb80-77ef-daae-612ea713e310
 
--   releaseCycle: Surface Pro 6
-    releaseDate: 2018-10-16
-    eol: 2023-06-30
-    link: https://support.microsoft.com/surface/surface-pro-6-specs-and-features-ade5cfc2-e99a-6fd1-abbe-c0e8a8a3942d
-
--   releaseCycle: Surface Book 2
-    releaseDate: 2017-11-17
-    eol: 2023-05-30
-    link: https://support.microsoft.com/surface/surface-book-2-specs-and-features-d752c78d-d1fc-c483-c80d-8343e68ad96b
-
 -   releaseCycle: Surface Hub 2S
     releaseDate: 2019-04-17
     eol: 2023-04-17
     link: null
-
--   releaseCycle: Surface Laptop 2
-    releaseDate: 2018-10-16
-    eol: 2022-12-27
-    link: https://support.microsoft.com/surface/surface-laptop-2-specs-and-features-44924da8-8a48-b0f3-4cb0-f9aa104e7cdd
-
--   releaseCycle: Surface Hub 55
-    releaseDate: 2015-06-01
-    eol: 2022-11-30
-    link: https://support.microsoft.com/surface/surface-hub-tech-spec-4b57f72c-dc1c-28d7-959f-3d95eda7708f
-
--   releaseCycle: Surface Hub 84
-    releaseDate: 2015-06-01
-    eol: 2022-11-30
-    link: https://support.microsoft.com/surface/surface-hub-tech-spec-4b57f72c-dc1c-28d7-959f-3d95eda7708f
 
 -   releaseCycle: Surface Go with LTE Advanced
     releaseDate: 2018-11-20
     eol: 2022-11-20
     link: null
 
+-   releaseCycle: Surface Pro 6
+    releaseDate: 2018-10-16
+    eol: 2023-06-30
+    link: https://support.microsoft.com/surface/surface-pro-6-specs-and-features-ade5cfc2-e99a-6fd1-abbe-c0e8a8a3942d
+
+-   releaseCycle: Surface Laptop 2
+    releaseDate: 2018-10-16
+    eol: 2022-12-27
+    link: https://support.microsoft.com/surface/surface-laptop-2-specs-and-features-44924da8-8a48-b0f3-4cb0-f9aa104e7cdd
+
+-   releaseCycle: Surface Studio 2
+    releaseDate: 2018-10-02
+    eol: 2024-10-02
+    link: https://support.microsoft.com/surface/surface-studio-2-features-8672fa31-2e5d-2eb7-e299-5138e2ea682f
+
 -   releaseCycle: Surface Go
     releaseDate: 2018-08-02
     eol: 2022-08-02
     link: https://support.microsoft.com/surface/surface-go-1st-gen-specs-and-features-d5f9e6f4-1b01-f61a-6dac-ad4f963ddba5
 
--   releaseCycle: Surface Pro 3
-    releaseDate: 2014-06-20
-    eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-pro-3-specs-and-features-4c142a41-134f-f22b-0142-a5cf073b56ee
+-   releaseCycle: Surface Pro LTE (Model 1807)
+    releaseDate: 2017-12-01
+    eol: 2024-01-15
+    link: null
 
--   releaseCycle: Surface 3
-    releaseDate: 2015-05-05
+-   releaseCycle: Surface Book 2
+    releaseDate: 2017-11-17
+    eol: 2023-05-30
+    link: https://support.microsoft.com/surface/surface-book-2-specs-and-features-d752c78d-d1fc-c483-c80d-8343e68ad96b
+
+-   releaseCycle: Surface Pro (5th gen)
+    releaseDate: 2017-06-15
+    eol: 2024-01-15
+    link: https://support.microsoft.com/surface/surface-pro-5th-gen-specs-and-features-42d321e4-52d6-dcb1-e014-9ffc76fbca14
+
+-   releaseCycle: Surface Laptop (1st gen)
+    releaseDate: 2017-06-14
     eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-3-specs-and-features-80e52440-0c3a-60e4-b77c-88a5f373ea4d
+    link: https://support.microsoft.com/surface/surface-laptop-1st-gen-specs-and-features-30b1b484-4587-928f-ea9a-351d411569af
+
+-   releaseCycle: Surface Studio (1st gen)
+    releaseDate: 2016-12-15
+    eol: 2021-11-13
+    link: https://support.microsoft.com/surface/surface-studio-1st-gen-diagrams-and-tech-specs-ee58a743-6463-2557-e66e-4dc4b3207881
+
+-   releaseCycle: Surface Book with Performance Base
+    releaseDate: 2016-11-10
+    eol: 2021-11-13
+    link: null
 
 -   releaseCycle: Surface Book
     releaseDate: 2015-10-26
@@ -153,20 +148,25 @@ releases:
     eol: 2021-11-13
     link: https://support.microsoft.com/surface/surface-pro-4-specs-and-features-e3a8ac71-4cee-9107-23bc-7bd08d47cf75
 
--   releaseCycle: Surface Book with Performance Base
-    releaseDate: 2016-11-10
-    eol: 2021-11-13
-    link: null
+-   releaseCycle: Surface Hub 55
+    releaseDate: 2015-06-01
+    eol: 2022-11-30
+    link: https://support.microsoft.com/surface/surface-hub-tech-spec-4b57f72c-dc1c-28d7-959f-3d95eda7708f
 
--   releaseCycle: Surface Studio (1st gen)
-    releaseDate: 2016-12-15
-    eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-studio-1st-gen-diagrams-and-tech-specs-ee58a743-6463-2557-e66e-4dc4b3207881
+-   releaseCycle: Surface Hub 84
+    releaseDate: 2015-06-01
+    eol: 2022-11-30
+    link: https://support.microsoft.com/surface/surface-hub-tech-spec-4b57f72c-dc1c-28d7-959f-3d95eda7708f
 
--   releaseCycle: Surface Laptop (1st gen)
-    releaseDate: 2017-06-14
+-   releaseCycle: Surface 3
+    releaseDate: 2015-05-05
     eol: 2021-11-13
-    link: https://support.microsoft.com/surface/surface-laptop-1st-gen-specs-and-features-30b1b484-4587-928f-ea9a-351d411569af
+    link: https://support.microsoft.com/surface/surface-3-specs-and-features-80e52440-0c3a-60e4-b77c-88a5f373ea4d
+
+-   releaseCycle: Surface Pro 3
+    releaseDate: 2014-06-20
+    eol: 2021-11-13
+    link: https://support.microsoft.com/surface/surface-pro-3-specs-and-features-4c142a41-134f-f22b-0142-a5cf073b56ee
 
 -   releaseCycle: Surface 2
     releaseDate: 2013-10-22
@@ -178,15 +178,15 @@ releases:
     eol: 2018-04-10
     link: https://support.microsoft.com/surface/surface-pro-2-specs-and-features-f38cf5d3-1b61-0c2a-fd46-4729afebe798
 
--   releaseCycle: Surface RT
-    releaseDate: 2012-10-26
-    eol: 2017-04-11
-    link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
-
 -   releaseCycle: Surface Pro
     releaseDate: 2013-02-09
     eol: 2017-04-11
     link: https://support.microsoft.com/surface/surface-pro-1st-gen-specifications-f0e31ddb-b03b-e450-bf83-0e23cf6cbdce
+
+-   releaseCycle: Surface RT
+    releaseDate: 2012-10-26
+    eol: 2017-04-11
+    link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
 
 ---
 

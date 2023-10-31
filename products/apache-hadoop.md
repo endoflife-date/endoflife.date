@@ -25,6 +25,12 @@ releases:
     latest: "3.3.6"
     latestReleaseDate: 2023-06-26
 
+-   releaseCycle: "2.10"
+    releaseDate: 2019-10-29
+    eol: false
+    latest: "2.10.2"
+    latestReleaseDate: 2022-05-31
+
 -   releaseCycle: "3.2"
     releaseDate: 2019-01-21
     eol: false
@@ -42,12 +48,6 @@ releases:
     eol: 2018-06-10
     latest: "3.0.3"
     latestReleaseDate: 2018-06-10
-
--   releaseCycle: "2.10"
-    releaseDate: 2019-10-29
-    eol: false
-    latest: "2.10.2"
-    latestReleaseDate: 2022-05-31
 
 -   releaseCycle: "2.9"
     releaseDate: 2017-11-17

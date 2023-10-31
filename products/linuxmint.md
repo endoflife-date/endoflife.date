@@ -11,6 +11,15 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 releases:
+-   releaseCycle: "21.2"
+    codename: Victoria
+    lts: true
+    releaseDate: 2023-07-16
+    support: true
+    eol: 2027-04-01
+    latest: "21.2"
+    link: https://blog.linuxmint.com/?p=4543
+
 -   releaseCycle: "lmde5"
     releaseLabel: "LMDE 5"
     codename: Elsie
@@ -27,15 +36,6 @@ releases:
     eol: 2022-08-01
     latest: "4"
     link: https://blog.linuxmint.com/?p=3867
-
--   releaseCycle: "21.2"
-    codename: Victoria
-    lts: true
-    releaseDate: 2023-07-16
-    support: true
-    eol: 2027-04-01
-    latest: "21.2"
-    link: https://blog.linuxmint.com/?p=4543
 
 -   releaseCycle: "21.1"
     codename: Vera

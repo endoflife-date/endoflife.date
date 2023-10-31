@@ -37,8 +37,8 @@ releases:
     supportedPhpVersions: 8.1+
     support: true
     eol: false
-    latest: "5.0.1"
-    latestReleaseDate: 2023-09-29
+    latest: "5.0.2"
+    latestReleaseDate: 2023-10-28
 
 -   releaseCycle: "4.4"
     codename: "Strawberry"
@@ -310,7 +310,7 @@ the last major release cycle have security support.
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPhpVersions"," - " %}
 {% include table.html
-labels="Release,Supported PHP versions"
+labels="CakePHP release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
 types="string,string"
 rows=collapsedCycles %}

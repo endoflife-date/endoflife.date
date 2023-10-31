@@ -14,34 +14,27 @@ require 'open-uri'
 module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
-  VALID_CATEGORIES = [
-    'app',
-    'db',
-    'device',
-    'framework',
-    'lang',
-    'library',
-    'os',
-    'server-app',
-    'service',
-    'standard',
-  ]
+  VALID_CATEGORIES = %w[app db device framework lang library os server-app service standard]
 
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
   SUPPRESSED_BECAUSE_403 = 'may trigger a 403 Forbidden or a redirection forbidden'
+  SUPPRESSED_BECAUSE_404 = 'may trigger a 404 Not Found'
   SUPPRESSED_BECAUSE_502 = 'may return a 502 Bad Gateway'
   SUPPRESSED_BECAUSE_503 = 'may return a 503 Service Unavailable'
-  SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger an open or read timeout'
-  SUPPRESSED_BECAUSE_EOF = 'may return an "unexpected eof while reading" error'
   SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
+  SUPPRESSED_BECAUSE_CONN_FAILED = 'may fail when opening the TCP connection'
+  SUPPRESSED_BECAUSE_EOF = 'may return an "unexpected eof while reading" error'
+  SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger an open or read timeout'
   SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
+    'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
     'https://azure.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://blogs.oracle.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://blog.system76.com/post/': SUPPRESSED_BECAUSE_404,
     'https://codex.wordpress.org/Supported_Versions': SUPPRESSED_BECAUSE_EOF,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_403,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_403,
@@ -53,6 +46,7 @@ module EndOfLifeHooks
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
     'https://make.wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
+    'https://moodle.org/': SUPPRESSED_BECAUSE_403,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
@@ -62,17 +56,22 @@ module EndOfLifeHooks
     'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_403,
     'https://www.amazon.com/Kindle10Notes': SUPPRESSED_BECAUSE_503,
+    'https://www.amazon.com/KindleScribeNotes': SUPPRESSED_BECAUSE_503,
+    'https://www.amazon.com/Paperwhite11Notes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Voyage7Notes': SUPPRESSED_BECAUSE_503,
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.citrix.com/products/citrix-virtual-apps-and-desktops/': SUPPRESSED_BECAUSE_403,
     'https://www.clamav.net': SUPPRESSED_BECAUSE_403,
     'https://www.drupal.org/': SUPPRESSED_BECAUSE_403,
+    'https://www.erlang.org/doc/system_principles/misc.html': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'http://www.slackware.com/faq/do_faq.php': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com/sql-server': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
     'https://xenserver.org/': SUPPRESSED_BECAUSE_CERT,
@@ -122,7 +121,7 @@ module EndOfLifeHooks
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
 
-    for release in product.data['releases']
+    product.data['releases'].each { |release|
       error_if = Validator.new(product, release)
       error_if.is_not_a_string('releaseCycle')
       error_if.is_not_a_string('releaseLabel') if release.has_key?('releaseLabel')
@@ -137,7 +136,7 @@ module EndOfLifeHooks
       error_if.is_not_a_string('latest') if product.data['releaseColumn']
       error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
-    end
+    }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
   end
@@ -153,10 +152,10 @@ module EndOfLifeHooks
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
 
-      for release in product.data['releases']
+      product.data['releases'].each { |release|
         error_if = Validator.new(product, release)
         error_if.is_url_invalid('link') if release['link']
-      end
+      }
 
       Jekyll.logger.info TOPIC, "Product '#{product.name}' urls successfully validated in #{(Time.now - start).round(3)} seconds."
     end
@@ -177,30 +176,30 @@ module EndOfLifeHooks
 
     def is_not_an_array(property)
       value = @data[property]
-      if not value.kind_of?(Array)
+      unless value.kind_of?(Array)
         declare_error(property, value, "expecting and Array, got #{value.class}")
       end
     end
 
     def is_not_in(property, valid_values)
       value = @data[property]
-      if not valid_values.include?(value)
+      unless valid_values.include?(value)
         declare_error(property, value, "expecting one of #{valid_values.join(', ')}")
       end
     end
 
     def does_not_match(property, regex)
       values = @data[property].kind_of?(Array) ? @data[property] : [@data[property]]
-      for value in values
-        if not regex.match?(value)
+      values.each { |value|
+        unless regex.match?(value)
           declare_error(property, value, "should match #{regex}")
         end
-      end
+      }
     end
 
     def is_not_a_string(property)
       value = @data[property]
-      if not value.kind_of?(String)
+      unless value.kind_of?(String)
         declare_error(property, value, "expecting a value of type String, got #{value.class}")
       end
     end
@@ -211,7 +210,7 @@ module EndOfLifeHooks
 
     def is_not_a_date(property)
       value = @data[property]
-      if not value.respond_to?(:strftime)
+      unless value.respond_to?(:strftime)
         declare_error(property, value, "expecting a value of type boolean or date, got #{value.class}")
       end
     end
@@ -225,21 +224,21 @@ module EndOfLifeHooks
 
     def is_not_a_number(property)
       value = @data[property]
-      if not value.kind_of?(Numeric)
+      unless value.kind_of?(Numeric)
         declare_error(property, value, "expecting a value of type numeric, got #{value.class}")
       end
     end
 
     def is_not_a_boolean_nor_a_date(property)
       value = @data[property]
-      if not ([true, false].include?(value) or value.respond_to?(:strftime))
+      unless [true, false].include?(value) or value.respond_to?(:strftime)
         declare_error(property, value, "expecting a value of type boolean or date, got #{value.class}")
       end
     end
 
     def is_not_a_boolean_nor_a_string(property)
       value = @data[property]
-      if not ([true, false].include?(value) or value.kind_of?(String))
+      unless [true, false].include?(value) or value.kind_of?(String)
         declare_error(property, value, "expecting a value of type boolean or string, got #{value.class}")
       end
     end
@@ -254,7 +253,7 @@ module EndOfLifeHooks
 
     # Retrieve all urls in the given markdown-formatted text and check them.
     def contains_invalid_urls(markdown)
-      urls = markdown.scan(/]\((?<matching>http[^\)"]+)/).flatten # matches [text](url) or [text](url "title")
+      urls = markdown.scan(/]\((?<matching>http[^)"]+)/).flatten # matches [text](url) or [text](url "title")
       urls += markdown.scan(/<(?<matching>http[^>]+)/).flatten # matches <url>
       urls += markdown.scan(/: (?<matching>http[^"\n]+)/).flatten # matches [id]: url or [id]: url "title"
       urls.each do |url|
@@ -300,7 +299,7 @@ module EndOfLifeHooks
     def declare_url_error(property, url, details)
       reason = is_suppressed(url)
       if reason
-        Jekyll.logger.warn TOPIC, "Invalid #{property} '#{url}' for #{location()}, #{details} (suppressed: #{reason})."
+        Jekyll.logger.warn TOPIC, "Invalid #{property} '#{url}' for #{location}, #{details} (suppressed: #{reason})."
       else
         declare_error(property, url, details)
       end
@@ -308,11 +307,11 @@ module EndOfLifeHooks
     end
 
     def declare_error(property, value, details)
-      Jekyll.logger.error TOPIC, "Invalid #{property} '#{value}' for #{location()}, #{details}."
+      Jekyll.logger.error TOPIC, "Invalid #{property} '#{value}' for #{location}, #{details}."
       EndOfLifeHooks::increase_error_count()
     end
 
-    def location()
+    def location
       @data.has_key?('releaseCycle') ? "#{@product.name}##{@data['releaseCycle']}" : @product.name
     end
   end

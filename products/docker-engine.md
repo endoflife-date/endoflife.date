@@ -81,17 +81,17 @@ releases:
     latest: "18.02.0"
     latestReleaseDate: 2018-01-26
 
--   releaseCycle: "18.01"
-    releaseDate: 2017-12-12
-    eol: 2018-03-07
-    latest: "18.01.0"
-    latestReleaseDate: 2017-12-12
-
 -   releaseCycle: "17.12"
     releaseDate: 2017-12-15
     eol: 2018-02-10
     latest: "17.12.1"
     latestReleaseDate: 2018-02-07
+
+-   releaseCycle: "18.01"
+    releaseDate: 2017-12-12
+    eol: 2018-03-07
+    latest: "18.01.0"
+    latestReleaseDate: 2017-12-12
 
 -   releaseCycle: "17.11"
     releaseDate: 2017-11-17

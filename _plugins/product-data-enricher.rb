@@ -57,7 +57,7 @@ module Jekyll
 
       # Build the product description, if it's not already set in the product's front matter.
       def set_description(page)
-        if !page.data['description']
+        unless page.data['description']
           page.data['description'] = "Check end-of-life, release policy and support schedule for #{page.data['title']}."
         end
       end
@@ -86,16 +86,13 @@ module Jekyll
 
       # Set properly the column presence/label if it was overridden.
       def set_overridden_columns_label(page)
-        date_column_names = [
-          'releaseDateColumn', 'releaseColumn', 'discontinuedColumn',
-          'activeSupportColumn', 'eolColumn', 'extendedSupportColumn'
-        ]
-        for date_column in date_column_names
+        date_column_names = %w[releaseDateColumn releaseColumn discontinuedColumn activeSupportColumn eolColumn extendedSupportColumn]
+        date_column_names.each { |date_column|
           if page.data[date_column].is_a? String
             page.data[date_column + 'Label'] = page.data[date_column]
             page.data[date_column] = true
           end
-        end
+        }
       end
 
       # Flag all cycles that can be hidden (see #50).
@@ -138,7 +135,7 @@ module Jekyll
         if hidden_cycles.length > 0 and hidden_cycles.length < min_hidden_cycles
           Jekyll.logger.debug TOPIC, "Less than #{min_hidden_cycles} hidden cycles on #{page.name}, unhide #{hidden_cycles.length} cycles"
           hidden_cycles.each { |cycle| cycle.delete('can_be_hidden') }
-          hidden_cycles.clear()
+          hidden_cycles.clear
         end
 
         Jekyll.logger.debug TOPIC, "Hide #{hidden_cycles.length} cycles on #{page.name}"
@@ -148,7 +145,7 @@ module Jekyll
         hidden_cycles = []
         previous_cycle = nil
 
-        for cycle in ordered_by_date_desc_releases.reverse
+        ordered_by_date_desc_releases.reverse.each { |cycle|
           if not cycle['is_maintained']
             if previous_cycle
               previous_cycle['can_be_hidden'] = true
@@ -159,7 +156,7 @@ module Jekyll
           else
             break
           end
-        end
+        }
 
         return hidden_cycles
       end
@@ -182,11 +179,11 @@ module Jekyll
       def set_cycle_id(cycle)
         cycle['id'] = cycle['releaseCycle'].tr('/', '-')
       end
-      
+
       # Set lts to false if it has no value and explode it to is_lts (boolean) and lts_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
       def set_cycle_lts_fields(cycle)
-        if not cycle.has_key?('lts')
+        unless cycle.has_key?('lts')
           cycle['lts'] = false
         end
 
@@ -225,7 +222,7 @@ module Jekyll
       # (example : the eol field) set it to false, if it's an end date (example : the support field)
       # set it to true.
       def explode_date_or_boolean_field(cycle, field_name, boolean_field_name, date_field_name, invert = false)
-        if not cycle.has_key?(field_name)
+        unless cycle.has_key?(field_name)
           return
         end
 
@@ -278,20 +275,20 @@ module Jekyll
       # Compute the number of days toward now for all cycle's dates (support, eol...), and add those
       # values to the cycle's data in new fields (days_toward_support, days_toward_eol...).
       def compute_days_toward_now_for_all_dates(cycle)
-        for field in ['support', 'eol', 'discontinued', 'extendedSupport']
-          next if not cycle.has_key?(field)
+        %w[support eol discontinued extendedSupport].each { |field|
+          next unless cycle.has_key?(field)
 
           field_value = cycle[field] # either a date or a boolean
           new_field_name = 'days_toward_' + field
 
           if field_value.is_a?(Date)
             cycle[new_field_name] = days_toward_now(field_value)
-          elsif ['eol', 'discontinued'].include?(field)
+          elsif %w[eol discontinued].include?(field)
             cycle[new_field_name] = field_value ? -4096 : 4096 # if eol     is true, then negative days
           else
             cycle[new_field_name] = field_value ? 4096 : -4096 # if support is true, then positive days
           end
-        end
+        }
       end
 
       # Compute whether the cycle is still maintained and add the result to the cycle's data.
@@ -304,12 +301,12 @@ module Jekyll
       def set_is_maintained(cycle)
         is_maintained = false
 
-        for daysTowardField in ['days_toward_support', 'days_toward_eol', 'days_toward_discontinued', 'days_toward_extendedSupport']
-          if cycle.has_key?(daysTowardField) and cycle[daysTowardField] >= 0
+        %w[days_toward_support days_toward_eol days_toward_discontinued days_toward_extendedSupport].each { |days_toward_field|
+          if cycle.has_key?(days_toward_field) and cycle[days_toward_field] >= 0
             is_maintained = true
             break
           end
-        end
+        }
 
         cycle['is_maintained'] = is_maintained
       end

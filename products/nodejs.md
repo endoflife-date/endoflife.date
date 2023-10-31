@@ -7,7 +7,7 @@ permalink: /nodejs
 alternate_urls:
 -   /node
 versionCommand: node --version
-releasePolicyLink: https://nodejs.org/about/releases/
+releasePolicyLink: https://nodejs.org/en/about/previous-releases
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: 
   https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__

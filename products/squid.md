@@ -87,17 +87,17 @@ releases:
     latest: '3.1.23'
     latestReleaseDate: 2013-01-08
 
--   releaseCycle: "3.0"
-    releaseDate: 2007-12-14
-    eol: 2011-08-27
-    latest: '3.0.26'
-    latestReleaseDate: 2011-08-27
-
 -   releaseCycle: "2.7"
     releaseDate: 2008-05-27
     eol: 2010-03-14
     latest: '2.7.9'
     latestReleaseDate: 2010-03-14
+
+-   releaseCycle: "3.0"
+    releaseDate: 2007-12-14
+    eol: 2011-08-27
+    latest: '3.0.26'
+    latestReleaseDate: 2011-08-27
 
 -   releaseCycle: "2.6"
     releaseDate: 2006-07-01
