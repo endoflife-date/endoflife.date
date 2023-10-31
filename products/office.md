@@ -12,12 +12,6 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 releases:
--   releaseCycle: "365"
-    releaseDate: 2015-09-22
-    support: true
-    eol: false
-    link: https://learn.microsoft.com/lifecycle/faq/office
-
 -   releaseCycle: "2021"
     releaseDate: 2021-10-05
     support: 2026-10-13
@@ -36,6 +30,12 @@ releases:
     support: 2023-10-10
     eol: 2025-10-14
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2019
+
+-   releaseCycle: "365"
+    releaseDate: 2015-09-22
+    support: true
+    eol: false
+    link: https://learn.microsoft.com/lifecycle/faq/office
 
 -   releaseCycle: "2016-for-mac"
     releaseLabel: "2016 for Mac"
