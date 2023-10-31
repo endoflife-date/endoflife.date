@@ -22,15 +22,6 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
--   releaseCycle: "5.0"
-    codename: "Chiffon"
-    releaseDate: 2023-09-09
-    supportedPhpVersions: 8.1+
-    support: true
-    eol: false
-    latest: "5.0.2"
-    latestReleaseDate: 2023-10-28
-
 -   releaseCycle: "4.5"
     codename: "Strawberry"
     releaseDate: 2023-10-14
@@ -39,6 +30,15 @@ releases:
     eol: 2026-09-09
     latest: "4.5.0"
     latestReleaseDate: 2023-10-14
+
+-   releaseCycle: "5.0"
+    codename: "Chiffon"
+    releaseDate: 2023-09-09
+    supportedPhpVersions: 8.1+
+    support: true
+    eol: false
+    latest: "5.0.2"
+    latestReleaseDate: 2023-10-28
 
 -   releaseCycle: "4.4"
     codename: "Strawberry"
@@ -58,6 +58,15 @@ releases:
     latest: "4.3.11"
     latestReleaseDate: 2023-01-05
 
+-   releaseCycle: "3.10"
+    codename: "Red Velvet"
+    releaseDate: 2021-06-19
+    supportedPhpVersions: 5.6 - 7.4
+    support: 2021-12-15
+    eol: 2022-12-15
+    latest: "3.10.5"
+    latestReleaseDate: 2023-01-01
+
 -   releaseCycle: "4.2"
     codename: "Strawberry"
     releaseDate: 2020-12-20
@@ -76,24 +85,6 @@ releases:
     latest: "4.1.7"
     latestReleaseDate: 2020-12-12
 
--   releaseCycle: "4.0"
-    codename: "Strawberry"
-    releaseDate: 2019-12-15
-    supportedPhpVersions: 7.2+
-    support: 2020-07-05
-    eol: true
-    latest: "4.0.10"
-    latestReleaseDate: 2020-12-07
-
--   releaseCycle: "3.10"
-    codename: "Red Velvet"
-    releaseDate: 2021-06-19
-    supportedPhpVersions: 5.6 - 7.4
-    support: 2021-12-15
-    eol: 2022-12-15
-    latest: "3.10.5"
-    latestReleaseDate: 2023-01-01
-
 -   releaseCycle: "3.9"
     codename: "Red Velvet"
     releaseDate: 2020-06-20
@@ -102,6 +93,15 @@ releases:
     eol: true
     latest: "3.9.10"
     latestReleaseDate: 2021-05-30
+
+-   releaseCycle: "4.0"
+    codename: "Strawberry"
+    releaseDate: 2019-12-15
+    supportedPhpVersions: 7.2+
+    support: 2020-07-05
+    eol: true
+    latest: "4.0.10"
+    latestReleaseDate: 2020-12-07
 
 -   releaseCycle: "3.8"
     codename: "Red Velvet"
@@ -139,6 +139,14 @@ releases:
     latest: "3.5.18"
     latestReleaseDate: 2019-04-23
 
+-   releaseCycle: "2.10"
+    releaseDate: 2017-07-22
+    supportedPhpVersions: 5.4 - 7.4
+    support: 2020-12-15
+    eol: 2021-06-15
+    latest: "2.10.24"
+    latestReleaseDate: 2020-12-15
+
 -   releaseCycle: "3.4"
     codename: "Red Velvet"
     releaseDate: 2017-02-12
@@ -148,6 +156,14 @@ releases:
     latest: "3.4.14"
     latestReleaseDate: 2018-05-20
 
+-   releaseCycle: "2.9"
+    releaseDate: 2016-09-18
+    supportedPhpVersions: 5.4 - 7.4
+    support: false
+    eol: true
+    latest: "2.9.9"
+    latestReleaseDate: 2017-05-25
+
 -   releaseCycle: "3.3"
     codename: "Red Velvet"
     releaseDate: 2016-08-12
@@ -156,6 +172,14 @@ releases:
     eol: true
     latest: "3.3.16"
     latestReleaseDate: 2017-04-06
+
+-   releaseCycle: "2.8"
+    releaseDate: 2016-02-06
+    supportedPhpVersions: 5.4 - 7.4
+    support: false
+    eol: true
+    latest: "2.8.9"
+    latestReleaseDate: 2016-09-18
 
 -   releaseCycle: "3.2"
     codename: "Red Velvet"
@@ -175,6 +199,14 @@ releases:
     latest: "3.1.14"
     latestReleaseDate: 2016-11-25
 
+-   releaseCycle: "2.7"
+    releaseDate: 2015-07-11
+    supportedPhpVersions: 5.4 - 7.4
+    support: false
+    eol: true
+    latest: "2.7.11"
+    latestReleaseDate: 2016-03-13
+
 -   releaseCycle: "3.0"
     codename: "Red Velvet"
     releaseDate: 2015-03-22
@@ -183,38 +215,6 @@ releases:
     eol: true
     latest: "3.0.19"
     latestReleaseDate: 2016-11-25
-
--   releaseCycle: "2.10"
-    releaseDate: 2017-07-22
-    supportedPhpVersions: 5.4 - 7.4
-    support: 2020-12-15
-    eol: 2021-06-15
-    latest: "2.10.24"
-    latestReleaseDate: 2020-12-15
-
--   releaseCycle: "2.9"
-    releaseDate: 2016-09-18
-    supportedPhpVersions: 5.4 - 7.4
-    support: false
-    eol: true
-    latest: "2.9.9"
-    latestReleaseDate: 2017-05-25
-
--   releaseCycle: "2.8"
-    releaseDate: 2016-02-06
-    supportedPhpVersions: 5.4 - 7.4
-    support: false
-    eol: true
-    latest: "2.8.9"
-    latestReleaseDate: 2016-09-18
-
--   releaseCycle: "2.7"
-    releaseDate: 2015-07-11
-    supportedPhpVersions: 5.4 - 7.4
-    support: false
-    eol: true
-    latest: "2.7.11"
-    latestReleaseDate: 2016-03-13
 
 -   releaseCycle: "2.6"
     releaseDate: 2014-12-23
@@ -310,7 +310,7 @@ the last major release cycle have security support.
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedPhpVersions"," - " %}
 {% include table.html
-labels="Release,Supported PHP versions"
+labels="CakePHP release,Supported PHP versions"
 fields="releaseCycle,supportedPhpVersions"
 types="string,string"
 rows=collapsedCycles %}
