@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "2016"
     codename: SQL16
     releaseLabel: "2016 SP3"
-    releaseDate: 2018-04-24
+    releaseDate: 2016-06-01
     support: 2021-07-13
     eol: 2026-07-14
     extendedSupport: false
@@ -63,7 +63,7 @@ releases:
 -   releaseCycle: "2014"
     codename: Hekaton
     releaseLabel: "2014 SP3 CU4"
-    releaseDate: 2018-10-30
+    releaseDate: 2014-06-05
     support: 2019-07-09
     eol: 2024-07-09
     extendedSupport: false
@@ -74,7 +74,7 @@ releases:
 -   releaseCycle: "2012"
     codename: Denali
     releaseLabel: "2012 SP4"
-    releaseDate: 2017-10-05
+    releaseDate: 2012-05-20
     support: 2017-07-11
     eol: 2022-07-12
     extendedSupport: 2025-07-08
