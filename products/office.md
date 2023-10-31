@@ -85,6 +85,27 @@ releases:
     eol: 2017-10-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2007
 
+-   releaseCycle: "2004-for-mac"
+    releaseLabel: "2004 for Mac"
+    releaseDate: 2004-07-13
+    support: 2012-01-10
+    eol: 2012-01-10
+    link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2004-for-mac
+
+-   releaseCycle: "2003"
+    releaseLabel: "2003 SP3"
+    releaseDate: 2003-11-17
+    support: 2009-04-14
+    eol: 2014-04-08
+    link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2003
+
+-   releaseCycle: "xp"
+    releaseLabel: "XP"
+    releaseDate: 2001-05-31
+    support: 2006-07-11
+    eol: 2011-07-12
+    link: https://learn.microsoft.com/lifecycle/products/office-xp
+
 ---
 
 > Microsoft Office, or simply Office, is a family of client software, server software, and services
