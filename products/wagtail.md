@@ -19,6 +19,14 @@ identifiers:
 
 # See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
+-   releaseCycle: "5.2"
+    releaseDate: 2023-11-01
+    support: 2025-02-03
+    lts: true
+    eol: 2025-02-03
+    latest: "5.2.0"
+    latestReleaseDate: 2023-11-01
+    
 -   releaseCycle: "5.1"
     releaseDate: 2023-08-01
     support: 2023-11-01
