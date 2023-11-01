@@ -43,7 +43,7 @@ releases:
     androidVersion: 9.0
 
 -   releaseCycle: "15.1"
-    releaseDate: 2018-02-26
+    releaseDate: 2018-02-25
     eol: true
     link: https://lineageos.org/Changelog-16/
     androidVersion: 8.1
