@@ -14,6 +14,10 @@ activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
 
+# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
+auto:
+-   custom: true
+
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
 -   releaseCycle: "pc.2023.3"
