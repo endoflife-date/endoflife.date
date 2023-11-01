@@ -7,7 +7,6 @@ releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle
 releaseColumn: false
 releaseDateColumn: true
 discontinuedColumn: true
-activeSupportColumn: false
 
 releases:
 -   releaseCycle: "5"

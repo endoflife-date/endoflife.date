@@ -5,9 +5,7 @@ tags: apple
 iconSlug: apple
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
-discontinuedColumn: false
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 auto:
@@ -20,7 +18,7 @@ releases:
     eol: false
     latest: "17.1"
     latestReleaseDate: 2023-10-25
-    link: 
+    link:
       https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"

@@ -11,7 +11,6 @@ alternate_urls:
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
 activeSupportColumn: Standard Support
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
 

@@ -9,7 +9,6 @@ releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycle
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
-releaseColumn: true
 
 auto:
 -   git: https://github.com/drupal/drupal.git

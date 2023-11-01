@@ -10,9 +10,7 @@ alternate_urls:
 versionCommand: eksctl get cluster --name=cluster-name
 releasePolicyLink: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
 changelogTemplate: "https://github.com/aws/eks-distro/releases/tag/v{{'__LATEST__'|replace:'.','-'}}"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: End of Support
 
 # Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source

@@ -6,10 +6,9 @@ iconSlug: rocketdotchat
 permalink: /rocket-chat
 alternate_urls:
 -   /rocketchat
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Support

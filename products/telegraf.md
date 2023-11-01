@@ -6,9 +6,7 @@ permalink: /telegraf
 versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 auto:
 -   git: https://github.com/influxdata/telegraf

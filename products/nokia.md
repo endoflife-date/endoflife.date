@@ -10,7 +10,6 @@ alternate_urls:
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
 releaseDateColumn: true
 releaseColumn: false
-activeSupportColumn: false
 
 releases:
 -   releaseCycle: "Nokia XR21"

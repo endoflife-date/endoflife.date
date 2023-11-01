@@ -6,12 +6,11 @@ iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
+changelogTemplate:
   https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 identifiers:

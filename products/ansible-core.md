@@ -1,16 +1,15 @@
 ---
 title: Ansible-core
 category: framework
-iconSlug: ansible
 tags: python-runtime red-hat
+iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
+changelogTemplate:
   https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 auto:

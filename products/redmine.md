@@ -7,8 +7,6 @@ permalink: /redmine
 releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 releaseDateColumn: true
-releaseColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/redmine/redmine.git

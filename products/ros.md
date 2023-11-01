@@ -9,7 +9,6 @@ changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releaseLabel: '__CODENAME__'
 releaseDateColumn: true
 releaseColumn: false
-activeSupportColumn: false
 eolColumn: End Of Life
 
 releases:

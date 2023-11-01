@@ -14,7 +14,6 @@ changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__
 
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: true
 

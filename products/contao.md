@@ -5,7 +5,6 @@ iconSlug: contao
 permalink: /contao
 releasePolicyLink: https://contao.org/release-plan.html
 changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 

@@ -10,7 +10,6 @@ releasePolicyLink: https://ionicframework.com/docs/reference/support
 changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 activeSupportColumn: true
 eolColumn: Maintenance
-releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: true
 

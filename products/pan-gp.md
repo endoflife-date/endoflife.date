@@ -5,7 +5,6 @@ tags: palo-alto-networks
 iconSlug: paloaltonetworks
 permalink: /pangp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: End-of-life Date

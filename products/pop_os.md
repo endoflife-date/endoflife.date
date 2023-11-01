@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: lsb_release --release
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: General Support
 
 # Not needed (releaseColumn is false)

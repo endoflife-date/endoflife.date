@@ -7,7 +7,6 @@ versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 

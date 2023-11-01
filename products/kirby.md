@@ -7,10 +7,7 @@ alternate_urls:
 -   /getkirby
 changelogTemplate: "https://getkirby.com/releases/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
-eolColumn: true
 
 auto:
 -   git: https://github.com/getkirby/kirby.git

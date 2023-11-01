@@ -9,9 +9,7 @@ alternate_urls:
 versionCommand: sw_vers
 releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Service Status
 
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json

@@ -8,8 +8,6 @@ alternate_urls:
 -   /springboot
 releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported-Versions
 changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support

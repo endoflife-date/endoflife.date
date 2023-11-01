@@ -3,13 +3,12 @@ title: Exim
 category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
-activeSupportColumn: false
 releaseDateColumn: true
 
 # https://rubular.com/r/oNyoh1qDT1V2eF
 auto:
 -   git: https://github.com/Exim/exim
-    regex: 
+    regex:
       ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
 
 identifiers:

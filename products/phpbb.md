@@ -3,7 +3,6 @@ title: phpBB
 category: server-app
 tags: php-runtime
 permalink: /phpbb
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 

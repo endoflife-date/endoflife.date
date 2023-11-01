@@ -6,7 +6,6 @@ alternate_urls:
 -   /xcpng
 versionCommand: software-version
 releasePolicyLink: https://xcp-ng.org/docs/releases.html
-activeSupportColumn: false
 eolColumn: Support
 
 auto:

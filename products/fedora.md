@@ -7,7 +7,6 @@ permalink: /fedora
 versionCommand: cat /etc/fedora-release
 releasePolicyLink: https://docs.fedoraproject.org/en-US/releases/lifecycle/
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:

@@ -10,7 +10,6 @@ releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 activeSupportColumn: true
 releaseDateColumn: true
-releaseColumn: true
 
 # support(x) is:
 # - false for NFB releases

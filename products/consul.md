@@ -7,7 +7,6 @@ permalink: /consul
 versionCommand: consul --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:

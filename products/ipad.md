@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /ipad
 releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 releaseDateColumn: true
 releaseColumn: false

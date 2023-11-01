@@ -8,7 +8,6 @@ versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
 changelogTemplate: "https://www.electronjs.org/releases/stable?version={{'__LATEST__'|split:'.'|first}}#__LATEST__"
 eolColumn: Supported
-activeSupportColumn: false
 releaseDateColumn: true
 
 # NPM is more accurate than git and remove unreleased version would.

@@ -6,11 +6,9 @@ iconSlug: typo3
 permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
 changelogTemplate: https://get.typo3.org/release-notes/__LATEST__
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 extendedSupportColumn: Extended Long Term Support
-discontinuedColumn: false
 
 identifiers:
 -   repology: typo3

@@ -9,7 +9,6 @@ versionCommand: sqlite3 --version
 releasePolicyLink: https://www.sqlite.org/support.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Support Status
 
 # This git mirror only contains versions from 3.6.10.

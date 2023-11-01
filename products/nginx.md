@@ -7,8 +7,6 @@ permalink: /nginx
 versionCommand: nginx -v
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:

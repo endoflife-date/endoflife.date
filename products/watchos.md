@@ -8,9 +8,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 # Release notes are not published for all minor or patch versions, so using only the major version.
 # Other release notes are easily accessible from that page, if available.
 changelogTemplate: "https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes"
-discontinuedColumn: false
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

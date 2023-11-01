@@ -12,7 +12,6 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-m
 changelogTemplate: https://learn.microsoft.com/lifecycle/products/internet-explorer-__RELEASE_CYCLE__
 releaseDateColumn: true
 releaseColumn: false
-activeSupportColumn: false
 eolColumn: Security and technical support
 
 releases:

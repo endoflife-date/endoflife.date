@@ -4,7 +4,6 @@ category: server-app
 permalink: /postfix
 versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
-activeSupportColumn: false
 releaseDateColumn: true
 
 # We ignore tags before 3.3 because they don't have the correct date

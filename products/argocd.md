@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: argocd version
 releasePolicyLink: https://github.com/argoproj/argo-cd/security/policy#supported-versions
 changelogTemplate: https://github.com/argoproj/argo-cd/releases/tag/v__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Support
 

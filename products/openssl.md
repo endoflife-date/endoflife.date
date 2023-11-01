@@ -7,7 +7,6 @@ versionCommand: openssl version
 releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
 changelogTemplate: "https://www.openssl.org/news/cl{{'__RELEASE_CYCLE__'|replace:'.',''}}.txt"
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 extendedSupportColumn: Premium support
 

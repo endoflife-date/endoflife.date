@@ -5,8 +5,6 @@ tags: php-runtime
 permalink: /twig
 changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 releaseDateColumn: true
-releaseColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/twigphp/Twig.git

@@ -7,13 +7,11 @@ permalink: /apache
 alternate_urls:
 -   /httpd
 releasePolicyLink: https://httpd.apache.org/dev/release.html
-activeSupportColumn: false
 versionCommand: |-
   httpd -v
 
   # or for Debian-based systems
   apachectl -v
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:

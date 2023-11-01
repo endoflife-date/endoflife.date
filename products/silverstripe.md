@@ -7,14 +7,13 @@ alternate_urls:
 -   /silverstripe-cms
 -   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: 
+releaseImage:
   https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 activeSupportColumn: Active Development
 eolColumn: Security Support
 releaseDateColumn: true
-releaseColumn: true
 eolWarnThreshold: 182
 
 auto:

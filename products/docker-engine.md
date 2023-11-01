@@ -6,10 +6,7 @@ permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://github.com/moby/moby/milestones
 changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 identifiers:
 -   repology: docker

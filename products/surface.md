@@ -7,7 +7,6 @@ permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 latestColumn: true
 eolColumn: End of Servicing Date
 

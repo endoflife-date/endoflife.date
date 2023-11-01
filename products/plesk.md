@@ -8,7 +8,6 @@ versionCommand: plesk version
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 eolWarnThreshold: 21
 

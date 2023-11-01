@@ -10,9 +10,7 @@ releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servi
 changelogTemplate: https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes-v__RELEASE_CYCLE__#__LATEST__
 releaseLabel: '__CODENAME__ __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Active Support
 
 releases:

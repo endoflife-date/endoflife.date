@@ -10,9 +10,7 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://nixos.org/blog/announcements.html
 changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__LATEST__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 
 identifiers:
 -   cpe: cpe:/o:nixos:nixos
