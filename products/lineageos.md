@@ -55,7 +55,7 @@ releases:
     androidVersion: 7.1.2
 
 -   releaseCycle: "13.0"
-    releaseDate: 2017-01-22
+    releaseDate: 2017-01-22 # https://en.wikipedia.org/wiki/LineageOS#Version_history
     eol: true
     link: https://www.lineageoslog.com/13.0
     androidVersion: 6.0.1
