@@ -8,7 +8,7 @@ alternate_urls:
 -   /mx_linux
 -   /mx-linux
 -   /mx
-versionCommand: cat /etc/os-release
+versionCommand: cat /etc/lsb-release
 releasePolicyLink: https://mxlinux.org/release-cycle/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 activeSupportColumn: true
