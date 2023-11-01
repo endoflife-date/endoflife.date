@@ -19,6 +19,12 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy S23 FE"
+    releaseDate: 2023-10-05
+    support: true
+    eol: 2028-10-05 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
+    link: https://doc.samsungmobile.com/SM-S711B/INS/doc.html
+
 -   releaseCycle: "Galaxy A54 5G"
     releaseDate: 2023-03-24
     support: true # "four generations of OS upgrades"
