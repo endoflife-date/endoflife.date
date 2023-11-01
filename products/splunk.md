@@ -6,7 +6,6 @@ permalink: /splunk
 versionCommand: splunk --version
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:

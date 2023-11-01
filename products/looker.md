@@ -9,7 +9,6 @@ releaseImage: https://cloud.google.com/static/looker/docs/images/2023-std-supp-r
 changelogTemplate: https://cloud.google.com/looker/docs/release-notes
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 

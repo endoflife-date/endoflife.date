@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /iphone
 releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates
 discontinuedColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 releaseColumn: false
 releaseDateColumn: true

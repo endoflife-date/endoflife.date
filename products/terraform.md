@@ -8,7 +8,6 @@ versionCommand: terraform --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/hashicorp/terraform.git

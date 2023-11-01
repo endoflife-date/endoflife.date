@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://openwrt.org/docs/guide-developer/security#support_status
 changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 

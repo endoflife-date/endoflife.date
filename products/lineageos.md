@@ -7,8 +7,6 @@ alternate_urls:
 -   /lineage
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
-discontinuedColumn: false
 
 releases:
 -   releaseCycle: "20"

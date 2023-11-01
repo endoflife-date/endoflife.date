@@ -6,7 +6,6 @@ permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
 changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 

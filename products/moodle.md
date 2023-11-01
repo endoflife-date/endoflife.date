@@ -6,9 +6,7 @@ permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
 changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 auto:
 -   git: https://github.com/moodle/moodle.git

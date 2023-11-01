@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: puppet --version
 releasePolicyLink: https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
 changelogTemplate: https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
 
@@ -26,7 +25,7 @@ releases:
     eol: false
     latest: "8.3.1"
     latestReleaseDate: 2023-10-26
-    link: 
+    link:
       https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
 
 -   releaseCycle: "7"
@@ -34,7 +33,7 @@ releases:
     eol: false
     latest: "7.27.0"
     latestReleaseDate: 2023-10-23
-    link: 
+    link:
       https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
 
 -   releaseCycle: "6"
@@ -42,7 +41,7 @@ releases:
     eol: 2023-02-01
     latest: "6.29.0"
     latestReleaseDate: 2023-01-24
-    link: 
+    link:
       https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
 
 -   releaseCycle: "5"

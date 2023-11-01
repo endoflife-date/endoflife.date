@@ -7,8 +7,6 @@ permalink: /openbsd
 versionCommand: uname -r
 changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 releaseDateColumn: true
-eolColumn: true
-activeSupportColumn: false
 releaseColumn: false
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to first of next month
@@ -172,7 +170,7 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2004-05-01
     eol: 2005-05-19
-    
+
 -   releaseCycle: "3.4"
     releaseDate: 2003-11-01
     eol: 2004-11-01
@@ -224,7 +222,7 @@ releases:
 -   releaseCycle: "2.2"
     releaseDate: 1997-12-01
     eol: 1998-12-01
-    
+
 -   releaseCycle: "2.1"
     releaseDate: 1997-06-01
     eol: 1998-05-19

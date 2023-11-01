@@ -8,7 +8,6 @@ alternate_urls:
 -   /aks
 versionCommand: az aks show --resource-group myResourceGroup --name myAKSCluster
 releasePolicyLink: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support

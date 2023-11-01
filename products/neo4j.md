@@ -8,7 +8,6 @@ versionCommand: "call dbms.components() yield versions unwind versions as versio
   return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
-activeSupportColumn: false
 eolColumn: Support Status
 releaseDateColumn: true
 

@@ -8,7 +8,6 @@ alternate_urls:
 -   /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
 changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 

@@ -7,7 +7,6 @@ permalink: /firefox
 releasePolicyLink: https://www.mozilla.org/firefox/
 changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

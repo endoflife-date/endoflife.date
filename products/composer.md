@@ -1,14 +1,12 @@
 ---
 title: Composer
 category: app
+tags: php-runtime
 iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
-tags: php-runtime
 
 identifiers:
 -   purl: pkg:composer/composer/composer

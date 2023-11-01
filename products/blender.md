@@ -4,11 +4,10 @@ category: app
 iconSlug: blender
 permalink: /blender
 releasePolicyLink: https://www.blender.org
-releaseImage: 
+releaseImage:
   https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Critical bug fixes
@@ -108,7 +107,7 @@ for some time (e.g., 1 week).
 An updated release schedule was proposed in [February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
 with the following goals:
 
-- A new LTS release every year around June, supported for two years, 
+- A new LTS release every year around June, supported for two years,
 - A major version and breaking release every 2 years (3.0, 4.0, 5.0…).
 
 With the new schedule, the 3.7 release will be skipped, and 4.0 is expected to be released in

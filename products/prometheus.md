@@ -5,7 +5,6 @@ iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 releaseDateColumn: true
-activeSupportColumn: false
 eolWarnThreshold: 14
 
 auto:

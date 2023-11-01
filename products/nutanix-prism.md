@@ -11,7 +11,6 @@ alternate_urls:
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 # See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.

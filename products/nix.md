@@ -8,8 +8,6 @@ alternate_urls:
 versionCommand: nix --version
 releasePolicyLink: https://nixos.org/blog/announcements.html
 changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__.html
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

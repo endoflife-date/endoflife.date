@@ -11,9 +11,7 @@ alternate_urls:
 versionCommand: vmware -l
 releasePolicyLink: https://lifecycle.vmware.com
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: General Support
-discontinuedColumn: false
 
 releases:
 -   releaseCycle: "8.0"

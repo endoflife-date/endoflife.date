@@ -9,7 +9,6 @@ releasePolicyLink: https://grails.org/support-schedule.html
 changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
 activeSupportColumn: Active Development
 eolColumn: Active Maintenance
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

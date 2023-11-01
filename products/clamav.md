@@ -4,7 +4,6 @@ category: app
 permalink: /clamav
 releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

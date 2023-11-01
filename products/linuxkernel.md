@@ -7,13 +7,11 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: 
+releaseImage:
   https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:

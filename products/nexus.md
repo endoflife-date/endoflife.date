@@ -7,9 +7,7 @@ permalink: /nexus
 alternate_urls:
 -   /nexus-repository
 -   /nexus-repository-oss
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 eolColumn: Support
 
 auto:

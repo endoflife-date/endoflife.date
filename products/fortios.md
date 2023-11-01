@@ -12,7 +12,6 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support
 activeSupportColumn: End of Engineering Support
-discontinuedColumn: false
 
 releases:
 -   releaseCycle: "7.4"
