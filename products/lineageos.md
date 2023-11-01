@@ -40,7 +40,7 @@ releases:
     releaseDate: 2019-03-01
     eol: 2021-02-16
     link: https://lineageos.org/Changelog-22/
-    androidVersion: 9.0.0
+    androidVersion: 9.0
 
 # see Wikipedia Lineageos page for old sources https://en.wikipedia.org/wiki/LineageOS
 -   releaseCycle: "15.1"
