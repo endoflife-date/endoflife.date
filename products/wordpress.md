@@ -232,8 +232,7 @@ releases:
 > written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture
 > and a template system, referred to within WordPress as "Themes".
 
-The only officially supported and actively maintained version of WordPress is the last one.
-There are no fixed period of support nor Long Term Support (LTS) version.
+The only officially supported and actively maintained version of WordPress is the latest one.
 
 Security updates are backported to older releases when possible, but the Wordpress team offers no
 guarantee and no timeframe. Moreover, versions below 4.1 [are guaranteed to not get security
