@@ -49,7 +49,7 @@ releases:
     androidVersion: 8.1
 
 -   releaseCycle: "14.1"
-    releaseDate: 2017-01-22
+    releaseDate: 2017-01-22 # https://en.wikipedia.org/wiki/LineageOS#Version_history
     eol: true
     link: https://www.lineageoslog.com/14.1
     androidVersion: 7.1.2
