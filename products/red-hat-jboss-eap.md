@@ -48,7 +48,7 @@ releases:
     support: 2011-01-31
     eol: 2013-01-31
     extendedSupport: 2016-11-30
-    latest: '4.3.?'
+    latest: '4.3.0 CP10'
     link: null
 
 -   releaseCycle: "4.2"
