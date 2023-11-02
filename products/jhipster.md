@@ -12,10 +12,17 @@ eolColumn: Supported
 auto:
 -   npm: generator-jhipster
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2023-11-02
+    eol: false
+    latest: "8.0.0"
+    latestReleaseDate: 2023-11-02
+
 -   releaseCycle: "7"
     releaseDate: 2021-03-21
-    eol: false
+    eol: 2023-11-02
     latest: "7.9.4"
     latestReleaseDate: 2023-09-05
 
