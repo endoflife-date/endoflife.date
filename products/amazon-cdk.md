@@ -12,6 +12,8 @@ auto:
 identifiers:
 -   repology: aws-cdk
 -   purl: pkg:npm/aws-cdk
+-   purl: pkg:golang/github.com/aws/aws-cdk-go
+-   purl: pkg:github/aws/aws-cdk-go
 
 releases:
 -   releaseCycle: "2.103"
