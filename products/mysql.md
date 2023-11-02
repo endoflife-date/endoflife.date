@@ -14,17 +14,12 @@ activeSupportColumn: Premier Support
 eolColumn: Extended Support
 
 # Regex takes into account the first GA release in each cycle (in parentheses)
-# https://docs.oracle.com/cd/E17952_01/mysql-5.5-relnotes-en/index.html (5.5.8)
-# https://dev.mysql.com/doc/relnotes/mysql/5.6/en/ (5.6.10)
-# https://dev.mysql.com/doc/relnotes/mysql/5.7/en/ (5.7.9)
-# https://dev.mysql.com/doc/relnotes/mysql/8.0/en/ (8.0.11)
-# https://dev.mysql.com/doc/relnotes/mysql/8.1/en/ (8.1.0)
-#
+# https://dev.mysql.com/doc/refman/8.2/en/faqs-general.html#faq-mysql-version-ga
 # See https://rubular.com/r/qi5jDueXMwunrS.
 auto:
 -   git: https://github.com/mysql/mysql-server.git
     regex: 
-      ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.1\.\d+))$
+      ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.[1-9]\.\d+))$
     template: "{{v}}"
 
 # dates below are for:
@@ -32,10 +27,17 @@ auto:
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
--   releaseCycle: "8.1"
-    releaseDate: 2023-06-21
+-   releaseCycle: "8.2"
+    releaseDate: 2023-10-25
     support: true
     eol: false
+    latest: '8.2.0'
+    latestReleaseDate: 2023-10-25
+
+-   releaseCycle: "8.1"
+    releaseDate: 2023-06-21
+    support: 2023-10-25
+    eol: 2023-10-25
     latest: '8.1.0'
     latestReleaseDate: 2023-06-21
 
