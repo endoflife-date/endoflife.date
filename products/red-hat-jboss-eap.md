@@ -1,6 +1,7 @@
 ---
 title: Red Hat JBoss Enterprise Application Platform
 category: server-app
+tags: red-hat java-runtime
 iconSlug: redhat
 permalink: /redhat-jboss-eap
 alternate_urls:
@@ -12,7 +13,7 @@ changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_
 releaseDateColumn: true
 activeSupportColumn: Full Support
 eolColumn: Maintenance Support
-extendedSupportColumn: <abbr title="Extended Life Support">ELS</abbr> 1
+extendedSupportColumn: Extended Life Support 1
 
 # Latest releases with their date can be found in each cycles release notes.date.
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
