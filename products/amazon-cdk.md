@@ -16,18 +16,12 @@ identifiers:
 -   purl: pkg:github/aws/aws-cdk-go
 
 releases:
--   releaseCycle: "2.103"
-    releaseDate: 2023-10-26
+-   releaseCycle: "2"
+    releaseDate: 2021-12-02
     support: true
     eol: false
     latest: "2.103.1"
     latestReleaseDate: 2023-10-27
--   releaseCycle: "2.102"
-    releaseDate: 2023-10-19
-    support: false
-    eol: true
-    latest: "2.102.1"
-    latestReleaseDate: 2023-10-25
 
 ---
 
