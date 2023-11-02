@@ -11,7 +11,7 @@ versionCommand: |-
 
   # RedHat based
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
-changelogTemplate: "https://go2docs.graylog.org/5-0/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
 releaseDateColumn: true
 
@@ -62,6 +62,7 @@ releases:
     eol: 2022-04-12
     latest: "3.3.17"
     latestReleaseDate: 2022-04-12
+    link: https://go2docs.graylog.org/4-0/changelogs/changelog.html#Graylog3317
 
 -   releaseCycle: "3.2"
     releaseDate: 2020-01-31
