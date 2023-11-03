@@ -28,11 +28,11 @@ auto:
 # We show Extended support dates since that match Community Edition timelines
 releases:
 -   releaseCycle: "8.2"
-    releaseDate: 2023-10-25
+    releaseDate: 2023-10-12
     support: true
     eol: false
     latest: '8.2.0'
-    latestReleaseDate: 2023-10-25
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "8.1"
     releaseDate: 2023-06-21
