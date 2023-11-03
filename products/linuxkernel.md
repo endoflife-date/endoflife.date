@@ -7,7 +7,7 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage:
+releaseImage: 
   https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
@@ -34,8 +34,8 @@ releases:
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
     eol: 2023-12-27 # estimated releaseDate(x)+4 months
-    latest: "6.5.9"
-    latestReleaseDate: 2023-10-25
+    latest: "6.5.10"
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
@@ -59,8 +59,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.60"
-    latestReleaseDate: 2023-10-25
+    latest: "6.1.61"
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
