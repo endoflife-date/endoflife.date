@@ -2,10 +2,10 @@
 title: Amazon CDK
 category: framework
 iconSlug: amazonaws
+tags: amazon
 permalink: /amazon-cdk
 changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
 releaseDateColumn: true
-tags: amazon cdk aws
 
 auto:
 -   git: https://github.com/aws/aws-cdk
