@@ -27,7 +27,7 @@ releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
-    eol: false # not yet announced on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
+    eol: 2028-09-30
     latest: "21.0.1"
     latestReleaseDate: 2023-10-13
 
