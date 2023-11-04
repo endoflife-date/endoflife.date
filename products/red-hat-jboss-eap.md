@@ -41,7 +41,7 @@ releases:
     eol: 2016-11-30
     extendedSupport: 2019-11-30
     latest: "5.2.0"
-    latestReleaseDate: 2013-10-31 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
+    latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
     link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0
 
 -   releaseCycle: "4.3"
