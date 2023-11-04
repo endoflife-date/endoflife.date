@@ -57,8 +57,9 @@ releases:
     support: 2010-06-30
     eol: 2012-06-30
     extendedSupport: 2015-06-30
-    latest: '4.2.?'
-    link: null
+    latest: '4.2.0.CP09'
+    latestReleaseDate: 2010-04-26
+    link: https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
 ---
 
 > [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
