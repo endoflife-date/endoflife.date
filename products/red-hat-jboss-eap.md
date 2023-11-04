@@ -50,7 +50,8 @@ releases:
     eol: 2013-01-31
     extendedSupport: 2016-11-30
     latest: '4.3.0 CP10'
-    link: null
+    latestReleaseDate: 2013-02-11
+    link: https://access.redhat.com/errata/RHSA-2013:0249
 
 -   releaseCycle: "4.2"
     releaseDate: 2007-06-01
