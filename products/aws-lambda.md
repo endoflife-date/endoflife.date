@@ -7,8 +7,8 @@ permalink: /aws-lambda
 releasePolicyLink: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
 releaseDateColumn: true
 releaseColumn: false
-activeSupportColumn: Deprecation Phase 1
-eolColumn: Deprecation Phase 2
+activeSupportColumn: Standard Support
+eolColumn: Deprecated Support
 
 auto:
 -   custom: true
