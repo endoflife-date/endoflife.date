@@ -1,0 +1,12 @@
+{%- comment %}
+Render a product custom column header cell (<th>).
+
+Parameters:
+- column (mandatory): the custom column definition.
+{% endcomment %}
+{%- assign label = include.column.label %}
+{%- assign description = include.column.description %}
+{%- assign link = include.column.link %}
+<th title="{{ description }}">
+  {% if link %}<a href="{{ link }}">{{ label }}</a>{% else %}{{ label }}{% endif %}
+</th>

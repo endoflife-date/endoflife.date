@@ -15,6 +15,7 @@ module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
   VALID_CATEGORIES = %w[app db device framework lang library os server-app service standard]
+  VALID_CUSTOM_COLUMN_POSITIONS = %w[after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
@@ -120,6 +121,15 @@ module EndOfLifeHooks
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
 
+    product.data['customColumns'].each { |column|
+      error_if = Validator.new(product, column)
+      error_if.is_not_a_string('property')
+      error_if.is_not_in('position', EndOfLifeHooks::VALID_CUSTOM_COLUMN_POSITIONS)
+      error_if.is_not_a_string('label')
+      error_if.is_not_a_string('description') if column.has_key?('description')
+      error_if.is_not_an_url('link') if column.has_key?('link')
+    }
+
     product.data['releases'].each { |release|
       error_if = Validator.new(product, release)
       error_if.is_not_a_string('releaseCycle')
@@ -150,6 +160,11 @@ module EndOfLifeHooks
       error_if.is_url_invalid('releaseImage') if product.data['releaseImage']
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
+
+      product.data['customColumns'].each { |column|
+        error_if = Validator.new(product, column)
+        error_if.is_url_invalid('link') if column['link']
+      }
 
       product.data['releases'].each { |release|
         error_if = Validator.new(product, release)
@@ -311,7 +326,13 @@ module EndOfLifeHooks
     end
 
     def location
-      @data.has_key?('releaseCycle') ? "#{@product.name}##{@data['releaseCycle']}" : @product.name
+      if @data.has_key?('releaseCycle')
+        "#{@product.name}#releases##{@data['releaseCycle']}"
+      elsif @data.has_key?('property')
+        "#{@product.name}#customColumn##{@data['property']}"
+      else
+        @product.name
+      end
     end
   end
 end

@@ -93,6 +93,7 @@ defaults:
       extendedSupportColumn: false
       extendedSupportColumnLabel: 'Extended Support'
       extendedSupportWarnThreshold: 121
+      customColumns: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 
 
