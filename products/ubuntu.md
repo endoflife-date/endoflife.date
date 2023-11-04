@@ -216,6 +216,120 @@ releases:
     latest: "12.04.5"
     latestReleaseDate: 2014-08-08
 
+-   releaseCycle: "11.10"
+    codename: "Oneiric Ocelot"
+    lts: false
+    releaseDate: 2011-10-13
+    eol: 2013-05-09
+    extendedSupport: 
+    latest: "11.10"
+    latestReleaseDate: 2011-10-13
+
+-   releaseCycle: "11.04"
+    codename: "Natty Narwhal"
+    lts: false
+    releaseDate: 2011-04-28
+    eol: 2012-10-28
+    extendedSupport: 
+    latest: "11.04"
+    latestReleaseDate: 2011-04-28
+
+-   releaseCycle: "10.10"
+    codename: "Maverick Meerkat"
+    lts: false
+    releaseDate: 2011-10-10
+    eol: 2012-04-10
+    extendedSupport: 
+    latest: "10.10"
+    latestReleaseDate: 2011-10-10
+
+-   releaseCycle: "10.04"
+    codename: "Lucid Lynx"
+    lts: true
+    releaseDate: 2010-04-29
+    eol: 2013-05-09
+    latest: "10.04.4"
+    latestReleaseDate: 2012-02-16
+
+-   releaseCycle: "9.10"
+    codename: "Karmic Koala"
+    lts: false
+    releaseDate: 2009-10-29
+    eol: 2011-04-30 
+    latest: "9.10"
+    latestReleaseDate: 2009-10-29
+
+-   releaseCycle: "9.04"
+    codename: "Jaunty Jackalope"
+    lts: false
+    releaseDate: 2009-04-23
+    eol: 2010-10-23
+    latest: "9.04"
+    latestReleaseDate: 2009-04-23
+  
+-   releaseCycle: "8.04"
+    codename: "Hardy Heron"
+    lts: true
+    releaseDate: 2008-04-24
+    eol: 2013-05-09
+    latest: "8.04.4"
+    latestReleaseDate: 2010-01-28
+
+-   releaseCycle: "7.10"
+    codename: "Gutsy Gibbon"
+    lts: false
+    releaseDate: 2007-10-18
+    eol: 2009-04-18
+    latest: "7.10"
+    latestReleaseDate: 2007-10-18
+
+-   releaseCycle: "7.04"
+    codename: "Feisty Fawn"
+    lts: false
+    releaseDate: 2007-04-19
+    eol: 2008-10-19
+    latest: "7.04"
+    latestReleaseDate: 2007-04-19
+
+-   releaseCycle: "6.10"
+    codename: "Edgy Eft"
+    lts: false
+    releaseDate: 2006-10-26
+    eol: 2008-04-26
+    latest: "6.10"
+    latestReleaseDate: 2006-10-26
+
+-   releaseCycle: "6.06"
+    codename: "Dapper Drake"
+    lts: true
+    releaseDate: 2006-06-01
+    eol: 2011-06-01
+    latest: "6.06.2"
+    latestReleaseDate: 2008-01-21
+
+-   releaseCycle: "5.10"
+    codename: "Breezy Badger"
+    lts: false
+    releaseDate: 2005-10-12
+    eol: 2007-04-13
+    latest: "5.10"
+    latestReleaseDate: 2005-10-12
+
+-   releaseCycle: "5.04"
+    codename: "Hoary Hedgehog"
+    lts: false
+    releaseDate: 2005-04-08
+    eol: 2006-10-31
+    latest: "5.04"
+    latestReleaseDate: 2005-04-08
+
+-   releaseCycle: "4.10"
+    codename: "Warty Warthog"
+    lts: false
+    releaseDate: 2004-10-26
+    eol: 2006-04-30
+    latest: "4.10"
+    latestReleaseDate: 2004-10-26
 ---
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu
