@@ -27,10 +27,17 @@ auto:
 # - support(x) = release(x+1)
 # - eol(x) = release(x+1)
 releases:
--   releaseCycle: "5.3"
-    releaseDate: 2023-09-18
+-   releaseCycle: "5.4"
+    releaseDate: 2023-11-03
     support: true
     eol: false
+    latest: "5.4.0"
+    latestReleaseDate: 2023-11-03
+
+-   releaseCycle: "5.3"
+    releaseDate: 2023-09-18
+    support: 2023-11-03
+    eol: 2023-11-03
     latest: "5.3.0"
     latestReleaseDate: 2023-09-18
 
