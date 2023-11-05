@@ -36,8 +36,8 @@ releases:
 
 -   releaseCycle: "5.3"
     releaseDate: 2023-09-18
-    support: 2023-11-04
-    eol: 2023-11-04
+    support: 2023-11-03
+    eol: 2023-11-03
     latest: "5.3.0"
     latestReleaseDate: 2023-09-18
 
