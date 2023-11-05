@@ -222,7 +222,7 @@ releases:
     releaseDate: 2011-10-13
     support: 2013-05-09
     eol: 2013-05-09
-    extendedSupport: 
+    extendedSupport: false
     latest: "11.10"
     latestReleaseDate: 2011-10-13
 
@@ -232,7 +232,7 @@ releases:
     support: 2012-10-28
     releaseDate: 2011-04-28
     eol: 2012-10-28
-    extendedSupport: 
+    extendedSupport: false
     latest: "11.04"
     latestReleaseDate: 2011-04-28
 
@@ -242,7 +242,7 @@ releases:
     support: 2012-04-10
     releaseDate: 2011-10-10
     eol: 2012-04-10
-    extendedSupport: 
+    extendedSupport: false
     latest: "10.10"
     latestReleaseDate: 2011-10-10
 
@@ -252,6 +252,7 @@ releases:
     lts: true
     releaseDate: 2010-04-29
     eol: 2013-05-09
+    extendedSupport: false
     latest: "10.04.4"
     latestReleaseDate: 2012-02-16
 
@@ -260,7 +261,8 @@ releases:
     support: 2011-04-30
     lts: false
     releaseDate: 2009-10-29
-    eol: 2011-04-30 
+    eol: 2011-04-30
+    extendedSupport: false
     latest: "9.10"
     latestReleaseDate: 2009-10-29
 
@@ -270,6 +272,7 @@ releases:
     lts: false
     releaseDate: 2009-04-23
     eol: 2010-10-23
+    extendedSupport: false
     latest: "9.04"
     latestReleaseDate: 2009-04-23
   
@@ -279,6 +282,7 @@ releases:
     lts: true
     releaseDate: 2008-04-24
     eol: 2013-05-09
+    extendedSupport: 2011-05-12
     latest: "8.04.4"
     latestReleaseDate: 2010-01-28
 
@@ -288,6 +292,7 @@ releases:
     lts: false
     releaseDate: 2007-10-18
     eol: 2009-04-18
+    extendedSupport: false
     latest: "7.10"
     latestReleaseDate: 2007-10-18
 
@@ -297,6 +302,7 @@ releases:
     lts: false
     releaseDate: 2007-04-19
     eol: 2008-10-19
+    extendedSupport: false
     latest: "7.04"
     latestReleaseDate: 2007-04-19
 
@@ -306,6 +312,7 @@ releases:
     lts: false
     releaseDate: 2006-10-26
     eol: 2008-04-26
+    extendedSupport: false
     latest: "6.10"
     latestReleaseDate: 2006-10-26
 
@@ -315,6 +322,7 @@ releases:
     lts: true
     releaseDate: 2006-06-01
     eol: 2011-06-01
+    extendedSupport: 2009-07-14
     latest: "6.06.2"
     latestReleaseDate: 2008-01-21
 
@@ -324,6 +332,7 @@ releases:
     lts: false
     releaseDate: 2005-10-12
     eol: 2007-04-13
+    extendedSupport: false
     latest: "5.10"
     latestReleaseDate: 2005-10-12
 
@@ -333,6 +342,7 @@ releases:
     lts: false
     releaseDate: 2005-04-08
     eol: 2006-10-31
+    extendedSupport: false
     latest: "5.04"
     latestReleaseDate: 2005-04-08
 
@@ -342,6 +352,7 @@ releases:
     lts: false
     releaseDate: 2004-10-26
     eol: 2006-04-30
+    extendedSupport: false
     latest: "4.10"
     latestReleaseDate: 2004-10-26
 ---
