@@ -74,7 +74,6 @@ module EndOfLifeHooks
     'https://www.microsoft.com/sql-server': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
-    'https://xenserver.org/': SUPPRESSED_BECAUSE_CERT,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
   URL_CHECK_OPEN_TIMEOUT = 3
