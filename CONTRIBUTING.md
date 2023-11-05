@@ -166,6 +166,44 @@ extendedSupportColumn: Extended Support
 # that the extended support date is approaching (optional, default = 121 days).
 extendedSupportWarnThreshold: 121
 
+# Custom columns configuration (optional).
+# Custom columns are columns that will be added to the releases table and populated based on a
+# custom release cycle property.
+# They can be used for documenting things such as related runtime versions, custom dates that
+# cannot be expressed using the default columns, etc.
+# Note that the use of a table include (see https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md)
+# is usually preferred when there is more than two or three custom columns.
+customColumns:
+
+  # Name of the custom property in release cycles (mandatory).
+  # If the release cycle does not declare this property, the label 'N/A' will be displayed instead.
+  # Custom properties follows the camel-case syntax for naming.
+  - property: supportedIosVersions
+
+    # Position of the custom column in the table (mandatory).
+    # Allowed values are:
+    # - after-release-column: this is typically used for documenting related runtime versions
+    #   (such as the supported iOS version range for iphone models),
+    # - before-latest-column: this is typically used for documenting additional dates
+    #   (such as an obsolescence date for an iphone model - https://support.apple.com/en-us/HT201624),
+    # - after-latest-column: this is typically used for documenting a corresponding latest version
+    #   number (such as the OpenJDK version for https://endoflife.date/azul-zulu).
+    # If multiple columns have the same position, the order of the column in the customColumns list
+    # will be respected.
+    position: after-release-column
+
+    # Label of the custom column (mandatory).
+    # It will be displayed in the table header.
+    label: iOS
+
+    # A description of what contains the custom column (optional).
+    # It will be displayed as a tooltip of the column table header cell.
+    description: Supported iOS versions
+
+    # A link that gives more information about what contains the custom column (optional).
+    # It will be used to transform the table label to a link.
+    link: https://en.wikipedia.org/wiki/IPhone#Models
+
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
 # Multiple configurations are allowed.
