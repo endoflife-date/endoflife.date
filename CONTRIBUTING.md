@@ -234,7 +234,7 @@ auto:
   # The value must be the "owner/repo" combination for a docker hub public image.
   # Use "library" as the owner name for an official docker/community image.
   # For example, for PostgreSQL:
-  - dockerhub: library/postgres
+  - docker_hub: library/postgres
 
   # Configuration for auto-update based on the npm registry.
   # The value must be the package identifier on https://www.npmjs.com .
