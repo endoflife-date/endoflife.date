@@ -28,11 +28,11 @@ auto:
 # - eol(x) = release(x+1)
 releases:
 -   releaseCycle: "5.4"
-    releaseDate: 2023-11-03
+    releaseDate: 2023-10-30
     support: true
     eol: false
     latest: "5.4.0"
-    latestReleaseDate: 2023-11-03
+    latestReleaseDate: 2023-10-30
 
 -   releaseCycle: "5.3"
     releaseDate: 2023-09-18

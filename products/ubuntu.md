@@ -240,11 +240,11 @@ releases:
     codename: "Maverick Meerkat"
     lts: false
     support: 2012-04-10
-    releaseDate: 2011-10-10
+    releaseDate: 2010-10-10
     eol: 2012-04-10
     extendedSupport: false
     latest: "10.10"
-    latestReleaseDate: 2011-10-10
+    latestReleaseDate: 2010-10-10
 
 -   releaseCycle: "10.04"
     codename: "Lucid Lynx"
@@ -275,7 +275,7 @@ releases:
     extendedSupport: false
     latest: "9.04"
     latestReleaseDate: 2009-04-23
-  
+
 -   releaseCycle: "8.04"
     codename: "Hardy Heron"
     support: 2013-05-09
@@ -284,7 +284,7 @@ releases:
     eol: 2013-05-09
     extendedSupport: 2011-05-12
     latest: "8.04.4"
-    latestReleaseDate: 2010-01-28
+    latestReleaseDate: 2010-01-29
 
 -   releaseCycle: "7.10"
     codename: "Gutsy Gibbon"
@@ -320,21 +320,21 @@ releases:
     codename: "Dapper Drake"
     support: 2011-06-01
     lts: true
-    releaseDate: 2006-06-01
+    releaseDate: 2006-08-10
     eol: 2011-06-01
     extendedSupport: 2009-07-14
     latest: "6.06.2"
-    latestReleaseDate: 2008-01-21
+    latestReleaseDate: 2008-01-22
 
 -   releaseCycle: "5.10"
     codename: "Breezy Badger"
     support: 2007-04-13
     lts: false
-    releaseDate: 2005-10-12
+    releaseDate: 2005-10-13
     eol: 2007-04-13
     extendedSupport: false
     latest: "5.10"
-    latestReleaseDate: 2005-10-12
+    latestReleaseDate: 2005-10-13
 
 -   releaseCycle: "5.04"
     codename: "Hoary Hedgehog"
@@ -350,11 +350,12 @@ releases:
     codename: "Warty Warthog"
     support: 2004-10-26
     lts: false
-    releaseDate: 2004-10-26
+    releaseDate: 2004-10-20
     eol: 2006-04-30
     extendedSupport: false
     latest: "4.10"
-    latestReleaseDate: 2004-10-26
+    latestReleaseDate: 2004-10-20
+
 ---
 
 >[Ubuntu](https://ubuntu.com) is a free and open-source Linux distribution based on Debian. Ubuntu
