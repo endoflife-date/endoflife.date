@@ -18,11 +18,11 @@ identifiers:
 
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2021-12-02
+    releaseDate: 2021-12-01
     support: true
     eol: false
-    latest: "2.103.1"
-    latestReleaseDate: 2023-10-27
+    latest: "2.104.0"
+    latestReleaseDate: 2023-11-02
 
 ---
 
