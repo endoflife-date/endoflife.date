@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "7.5"
     releaseDate: 2023-02-02 # https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/
     eol: 2023-11-30
-    latest: "7.5.7"
-    latestReleaseDate: 2023-09-26
+    latest: "7.5.8"
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "7.4"
     releaseDate: 2022-08-18 # https://blog.documentfoundation.org/blog/2022/08/18/libreoffice-7-4-community/
