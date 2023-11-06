@@ -18,9 +18,15 @@ changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 
 # eol(R) = releaseDate(R+1)
 releases:
+-   releaseCycle: "4.97"
+    releaseDate: 2023-11-04
+    eol: false
+    latest: "4.97"
+    latestReleaseDate: 2023-11-04
+
 -   releaseCycle: "4.96"
     releaseDate: 2022-06-25
-    eol: false
+    eol: 2023-11-04
     latest: "4.96.2"
     latestReleaseDate: 2023-10-15
 
