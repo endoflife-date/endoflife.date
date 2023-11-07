@@ -15,8 +15,18 @@ eolColumn: Supported
 auto:
 -   git: https://github.com/ansible/ansible.git
 
-# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
+# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
+# EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
 releases:
+-   releaseCycle: "2.16"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
+    powershellVersionsManagedNode: 3 - 5.1
+    releaseDate: 2023-11-06
+    eol: 2025-05-01
+    latest: "2.16.0"
+    latestReleaseDate: 2023-11-06
+
 -   releaseCycle: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
