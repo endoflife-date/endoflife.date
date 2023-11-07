@@ -108,7 +108,7 @@ releases:
 
 -   releaseCycle: "2.11"
     lts: true
-    releaseDate: 2020-11-02
+    releaseDate: 2020-11-03
     support: 2021-02-02
     eol: 2022-02-07
     latest: "2.11.9"
