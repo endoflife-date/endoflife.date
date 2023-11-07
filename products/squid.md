@@ -6,7 +6,7 @@ alternate_urls:
 -   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate:
+changelogTemplate: 
   http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
 releaseDateColumn: true
 
@@ -26,18 +26,18 @@ identifiers:
 # the squidadm repository is the one where releases are made
 auto:
 -   git: https://github.com/squid-cache/squid2.git
-    regex:
+    regex: 
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 -   git: https://github.com/squidadm/squid.git
-    regex:
+    regex: 
       ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
 
 releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-06
     eol: false
-    latest: '6.1'
-    latestReleaseDate: 2023-07-06
+    latest: '6.5'
+    latestReleaseDate: 2023-11-06
     link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "5"
