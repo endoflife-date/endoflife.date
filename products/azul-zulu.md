@@ -11,6 +11,12 @@ releasePolicyLink: https://www.azul.com/products/azul-support-roadmap/
 releaseDateColumn: true
 eolColumn: Support
 extendedSupportColumn: true
+customColumns:
+-   property: latestJdkVersion
+    position: after-latest-column
+    label: Latest JDK
+    description: Corresponding latest Java version
+    link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
 
 # Auto-update will be difficult to implement. It's not difficult to get the versions through
 # https://app.swaggerhub.com/apis/azul/zulu-download-community/1.0, but the API does not provide
@@ -223,14 +229,6 @@ Extended support can be obtained with [Azul Platform Core](https://www.azul.com/
 
 Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#azul-zulu).
-
-## [Azul Zulu's / OpenJDK correspondance table](https://docs.azul.com/core/zulu-openjdk/versioning-and-naming)
-
-{% include table.html
-  labels="Zulu,OpenJDK"
-  fields="latest,latestJdkVersion"
-  types="string,string"
-  rows=page.releases %}
 
 *[CA]: Community Availability
 *[LTS]: Long Term Support
