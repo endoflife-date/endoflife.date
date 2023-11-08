@@ -14,6 +14,7 @@ customColumns:
     position: after-release-column
     label: Supported iOS
     description: Supported iOS versions range
+    link: https://endoflife.date/ios
 
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
