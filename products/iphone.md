@@ -307,7 +307,7 @@ releases:
     discontinued: 2015-09-09
     eol: 2017-09-19
     link: https://support.apple.com/kb/SP684
-    supportedIosVersions: 7, 8, 9, 10
+    supportedIosVersions: 7 - 10
 
 -   releaseCycle: "5s"
     releaseLabel: "5S"
