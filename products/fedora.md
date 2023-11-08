@@ -107,7 +107,7 @@ releases:
 > Fedora Project and sponsored by Red Hat.
 
 Fedora end of life dates are not typically known far in advance with to-the-day accuracy. Fedora has
-a relatively short life cycle: Release X is supported until one month (4 weeks) after the release of
+a relatively short life cycle: Release X is supported until 4 weeks after the release of
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
