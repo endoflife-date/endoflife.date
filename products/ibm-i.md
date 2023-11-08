@@ -1,7 +1,7 @@
 ---
 title: IBM iSeries
 category: os
-tags: ibm
+tags: ibm unix-distribution
 iconSlug: ibm
 permalink: /ibm-i
 alternate_urls:
