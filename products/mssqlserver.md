@@ -15,6 +15,8 @@ releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: Extended Security Updates
 
+# releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
+# Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
 releases:
 -   releaseCycle: "2022"
     codename: Dallas
@@ -82,47 +84,169 @@ releases:
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021123
 
--   releaseCycle: "2008 R2"
+-   releaseCycle: "2008-r2-sp3"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2014-09-26
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
-    latest: "10.50.6785.2"
+    latest: "10.50.6785.2 GDR"
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021112
 
--   releaseCycle: "2008"
+-   releaseCycle: "2008-r2-sp2"
+    codename: Kilimanjaro
+    releaseLabel: "2008 R2 SP2"
+    releaseDate: 2012-07-26
+    support: 2015-10-13
+    eol: 2015-10-13
+    extendedSupport: false
+    latest: "10.50.4339.0 CU13+QFE"
+    latestReleaseDate: 2015-07-14
+    link: https://support.microsoft.com/help/3045312
+
+-   releaseCycle: "2008-r2-sp1"
+    codename: Kilimanjaro
+    releaseLabel: "2008 R2 SP1"
+    releaseDate: 2011-07-12
+    support: 2013-10-08
+    eol: 2013-10-08
+    extendedSupport: false
+    latest: "10.50.2881.0 CU14"
+    latestReleaseDate: 2013-08-08
+    link: https://support.microsoft.com/help/2868244
+
+-   releaseCycle: "2008-r2"
+    codename: Kilimanjaro
+    releaseLabel: "2008 R2"
+    releaseDate: 2010-07-20
+    support: 2012-07-10
+    eol: 2012-07-10
+    extendedSupport: false
+    latest: "10.50.1815.0 CU13"
+    latestReleaseDate: 2012-04-16
+    link: https://support.microsoft.com/help/2679366
+
+-   releaseCycle: "2008-sp4"
     codename: Katmai
     releaseLabel: "2008 SP4"
-    releaseDate: 2008-11-06
+    releaseDate: 2014-07-07
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
-    latest: "10.0.6814.4"
+    latest: "10.0.6814.4 CU17+GDR"
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5020863
 
--   releaseCycle: "2005"
+-   releaseCycle: "2008-sp3"
+    codename: Katmai
+    releaseLabel: "2008 SP3"
+    releaseDate: 2011-10-06
+    support: 2015-10-13
+    eol: 2015-10-13
+    extendedSupport: false
+    latest: "10.00.5861 CU16+QFE"
+    latestReleaseDate: 2015-07-14
+    link: https://support.microsoft.com/help/3045303
+
+-   releaseCycle: "2008-sp2"
+    codename: Katmai
+    releaseLabel: "2008 SP2"
+    releaseDate: 2010-09-24
+    support: 2012-10-09
+    eol: 2012-10-09
+    extendedSupport: false
+    latest: "10.00.4371 CU10+QFE"
+    latestReleaseDate: 2012-10-09
+    link: https://support.microsoft.com/help/2716433
+
+-   releaseCycle: "2008-sp1"
+    codename: Katmai
+    releaseLabel: "2008 SP1"
+    releaseDate: 2008-11-06
+    support: 2011-10-11
+    eol: 2011-10-11
+    extendedSupport: false
+    latest: "10.00.2850 CU16"
+    latestReleaseDate: 2011-09-19
+    link: https://support.microsoft.com/help/2582282
+
+-   releaseCycle: "2008"
+    codename: Katmai
+    releaseLabel: "2008"
+    releaseDate: 2008-11-06
+    support: 2010-04-13
+    eol: 2010-04-13
+    extendedSupport: false
+    latest: "10.00.1835 CU10"
+    latestReleaseDate: 2010-03-15
+    link: https://support.microsoft.com/help/979064
+
+-   releaseCycle: "2005-sp4"
     codename: Yukon
     releaseLabel: "2005 SP4"
-    releaseDate: 2006-01-14
+    releaseDate: 2010-12-13
     support: 2011-04-12
     eol: 2016-04-12
     extendedSupport: false
-    latest: "9.0.5324.0"
+    latest: "9.0.5324.0 QFE"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
 
--   releaseCycle: "2000"
+-   releaseCycle: "2005-sp3"
+    codename: Yukon
+    releaseLabel: "2005 SP3"
+    releaseDate: 2008-12-15
+    support: 2012-01-10
+    eol: 2012-01-10
+    extendedSupport: false
+    latest: "9.00.4309 CU11"
+    latestReleaseDate: 2010-08-16
+    link: https://support.microsoft.com/help/2258854
+
+-   releaseCycle: "2005-sp2"
+    codename: Yukon
+    releaseLabel: "2005 SP2"
+    releaseDate: 2007-02-19
+    support: 2010-01-12
+    eol: 2010-01-12
+    extendedSupport: false
+    latest: "9.00.3325 CU13"
+    latestReleaseDate: 2009-04-20
+    link: https://support.microsoft.com/help/967908
+
+-   releaseCycle: "2005-sp1"
+    codename: Yukon
+    releaseLabel: "2005 SP1"
+    releaseDate: 2006-04-18
+    support: 2008-04-08
+    eol: 2008-04-08
+    extendedSupport: false
+    latest: "9.0.2233"
+    latestReleaseDate: 2007-05-16
+    # Original KB937545 but 404 in the meantime: https://support.microsoft.com/help/937545
+    link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/937545
+
+-   releaseCycle: "2005"
+    codename: Yukon
+    releaseLabel: "2005"
+    releaseDate: 2006-01-14
+    support: 2007-07-10
+    eol: 2007-07-10
+    extendedSupport: false
+    latest: "9.0.1399"
+    latestReleaseDate: 2006-01-14
+    link: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
+
+-   releaseCycle: "2000-sp4"
     codename: Shiloh
     releaseLabel: "2000 SP4"
     releaseDate: 2000-11-30
     support: 2008-04-08
     eol: 2013-04-09
     extendedSupport: false
-    latest: "8.0.2305"
+    latest: "8.0.2305 QFE"
     latestReleaseDate: 2012-08-14
     link: https://support.microsoft.com/help/983811
 
@@ -165,7 +289,7 @@ releases:
 
 >[SQLServer](https://www.microsoft.com/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.
 
-[Latest updates for Microsoft SQL Server](https://learn.microsoft.com/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server)
+[Latest updates for Microsoft SQL Server](https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates)
 
 Each of the products has its own Technical Support Policy, which determine the lifetime and scope of product support.
 
