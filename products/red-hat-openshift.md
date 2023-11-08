@@ -22,12 +22,21 @@ extendedSupportColumn: Extended Update Support
 auto:
 -   custom: true
 
+# All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
+-   releaseCycle: "4.14"
+    releaseDate: 2023-10-31
+    support: true #  4.15 GA + 3 months
+    eol: 2025-05-01
+    extendedSupport: 2025-10-31
+    latest: "4.14.1"
+    latestReleaseDate: 2023-11-01
+
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
-    support: true # will have to be updated with release of 4.14 see https://access.redhat.com/support/policy/updates/openshift#dates
+    support: 2024-01-31
     eol: 2024-11-17
-    extendedSupport: 2025-01-17
+    extendedSupport: false
     latest: "4.13.19"
     latestReleaseDate: 2023-10-31
 
