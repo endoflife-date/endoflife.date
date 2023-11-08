@@ -12,7 +12,7 @@ releaseDateColumn: true
 customColumns:
 -   property: supportedIosVersions
     position: after-release-column
-    label: Supported iOS
+    label: Supported [iOS](/ios)
     description: Supported iOS versions range
 
 # All links can be found on https://support.apple.com/en-us/HT201296.
