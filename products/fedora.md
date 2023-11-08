@@ -18,9 +18,19 @@ identifiers:
 -   cpe: cpe:/o:fedoraproject:fedora
 -   cpe: cpe:2.3:o:fedoraproject:fedora
 
-# eol(X) = releaseDate(X+2) + 1month if X+2 is released
+# eol(X) = releaseDate(X+2) + 4 weeks if X+2 is released
 # or eol(x) = releaseDate(x) + 13 months
 releases:
+
+-   releaseCycle: "39"
+    releaseDate: 2023-11-07
+    # releaseDate(39) + 13 months for now
+    # Revise once 41 comes out
+    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
+    eol: 2024-12-07
+    latest: "39"
+    latestReleaseDate: 2023-11-07
+
 -   releaseCycle: "38"
     releaseDate: 2023-04-18
     # releaseDate(38) + 13 months for now
@@ -32,18 +42,14 @@ releases:
 
 -   releaseCycle: "37"
     releaseDate: 2022-11-15
-    # releaseDate(37) + 13 months for now
-    # Revise once 39 comes out
     # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2023-12-15
+    eol: 2023-12-05
     latest: "37"
     latestReleaseDate: 2022-11-15
 
 -   releaseCycle: "36"
     releaseDate: 2022-05-10
-    # releaseDate(38) + 1 month for now
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2023-05-18
+    eol: 2023-05-16
     latest: "36"
     latestReleaseDate: 2022-05-10
 
@@ -101,7 +107,7 @@ releases:
 > Fedora Project and sponsored by Red Hat.
 
 Fedora end of life dates are not typically known far in advance with to-the-day accuracy. Fedora has
-a relatively short life cycle: Release X is supported until one month (4 weeks) after the release of
+a relatively short life cycle: Release X is supported until 4 weeks after the release of
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
