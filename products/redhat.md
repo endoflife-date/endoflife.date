@@ -8,7 +8,8 @@ alternate_urls:
 -   /redhat
 -   /redhatlinux
 versionCommand: cat /etc/redhat-release
-changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
+changelogTemplate: 
+  https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 activeSupportColumn: Full Support
@@ -27,8 +28,8 @@ releases:
     eol: 2032-05-31
     lts: 2032-05-31
     extendedSupport: 2035-05-31
-    latest: "9.2"
-    latestReleaseDate: 2023-05-10
+    latest: "9.3"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "8"
     releaseDate: 2019-05-07

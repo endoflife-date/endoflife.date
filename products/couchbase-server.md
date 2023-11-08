@@ -31,8 +31,8 @@ releases:
 -   releaseCycle: "7.1"
     releaseDate: 2022-05-15
     eol: 2024-01-31
-    latest: "7.1.5"
-    latestReleaseDate: 2023-08-15
+    latest: "7.1.6"
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-07-15
@@ -41,7 +41,7 @@ releases:
     latestReleaseDate: 2022-12-15
 
 -   releaseCycle: "6.6"
-    releaseDate: 2020-08-15
+    releaseDate: 2022-01-15
     eol: 2023-01-31
     latest: "6.6.6"
     latestReleaseDate: 2023-01-15
@@ -49,7 +49,7 @@ releases:
 -   releaseCycle: "6.5"
     releaseDate: 2020-01-15
     eol: 2021-02-28
-    link:
+    link: 
       https://web.archive.org/web/20230519160357/https://docs.couchbase.com/server/6.5/release-notes/relnotes.html
     latest: "6.5.2"
     latestReleaseDate: 2021-02-15
@@ -57,7 +57,7 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2018-10-31
     eol: 2020-07-31
-    link:
+    link: 
       https://web.archive.org/web/20230519162206/https://docs.couchbase.com/server/6.0/release-notes/relnotes.html
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30
