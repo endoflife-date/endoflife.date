@@ -18,7 +18,7 @@ identifiers:
 -   cpe: cpe:/o:fedoraproject:fedora
 -   cpe: cpe:2.3:o:fedoraproject:fedora
 
-# eol(X) = releaseDate(X+2) + 1month if X+2 is released
+# eol(X) = releaseDate(X+2) + 4 weeks if X+2 is released
 # or eol(x) = releaseDate(x) + 13 months
 releases:
 
