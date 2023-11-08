@@ -27,38 +27,38 @@ releases:
 -   releaseCycle: "16"
     releaseDate: 2023-09-11
     eol: 2028-11-09
-    latest: "16.0"
-    latestReleaseDate: 2023-09-11
+    latest: "16.1"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "15"
     releaseDate: 2022-10-10
     eol: 2027-11-11
-    latest: "15.4"
-    latestReleaseDate: 2023-08-07
+    latest: "15.5"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "14"
     releaseDate: 2021-09-27
     eol: 2026-09-30
-    latest: "14.9"
-    latestReleaseDate: 2023-08-07
+    latest: "14.10"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "13"
     releaseDate: 2020-09-21
     eol: 2025-11-13
-    latest: "13.12"
-    latestReleaseDate: 2023-08-07
+    latest: "13.13"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "12"
     releaseDate: 2019-09-30
     eol: 2024-11-14
-    latest: "12.16"
-    latestReleaseDate: 2023-08-07
+    latest: "12.17"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "11"
     releaseDate: 2018-10-15
     eol: 2023-11-09
-    latest: "11.21"
-    latestReleaseDate: 2023-08-07
+    latest: "11.22"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "10"
     releaseDate: 2017-10-02

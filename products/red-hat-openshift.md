@@ -25,7 +25,7 @@ auto:
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
 -   releaseCycle: "4.14"
-    releaseDate: 2023-10-31
+    releaseDate: 2023-11-01
     support: true #  4.15 GA + 3 months
     eol: 2025-05-01
     extendedSupport: 2025-10-31
