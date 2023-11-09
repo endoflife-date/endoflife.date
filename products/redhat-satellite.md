@@ -20,38 +20,45 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "6.14"
+    releaseDate: 2023-11-08
+    support: 2024-05-31
+    eol: 2025-05-31
+    latest: "6.14.0"
+    latestReleaseDate: 2023-11-08
+
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
-    eol: 2024-11-30
     support: 2023-11-30
+    eol: 2024-11-30
     latest: "6.13.5"
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "6.12"
     releaseDate: 2022-11-16
-    eol: 2024-05-31
     support: 2023-05-31
+    eol: 2024-05-31
     latest: "6.12.5.2"
     latestReleaseDate: 2023-10-20
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
-    eol: 2024-01-31
     support: 2022-11-30
+    eol: 2024-01-31
     latest: "6.11.5.6"
     latestReleaseDate: 2023-10-20
 
 -   releaseCycle: "6.10"
     releaseDate: 2021-11-16
-    eol: 2023-05-31
     support: 2022-06-30
+    eol: 2023-05-31
     latest: "6.10.7.2"
     latestReleaseDate: 2023-03-01
 
 -   releaseCycle: "6.9"
     releaseDate: 2021-04-21
-    eol: 2022-11-30
     support: 2021-11-30
+    eol: 2022-11-30
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17
 
