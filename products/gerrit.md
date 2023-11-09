@@ -15,7 +15,6 @@ identifiers:
 
 auto:
 -   git: https://github.com/GerritCodeReview/gerrit.git
-    regex: ^v(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+)(\.(?<tiny>[0-9]+))?)?$
 
 releases:
 -   releaseCycle: "3.8"

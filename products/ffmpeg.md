@@ -13,7 +13,7 @@ eolColumn: Supported
 auto:
 # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
 -   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:

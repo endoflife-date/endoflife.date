@@ -12,8 +12,6 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/phpmyadmin/phpmyadmin.git
     regex: '^RELEASE_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)(_(?<tiny>\d+))?$'
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}'
-
 
 identifiers:
 -   repology: phpmyadmin

@@ -14,7 +14,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/moby/moby.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$
+    regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-ce)?$
 
 releases:
 -   releaseCycle: "24.0"

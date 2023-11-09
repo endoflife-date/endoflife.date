@@ -15,7 +15,7 @@ auto:
 -   git: https://github.com/gradle/gradle.git
     # regex to exclude versions below 3.x for tags with wrong dates see https://github.com/endoflife-date/endoflife.date/pull/3619
     # https://rubular.com/r/Q94JVYzjli8WC8
-    regex: ^v?(?<major>([3-9]|\d{2,}))\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+    regex: ^v?(?<major>([3-9]|\d{2,}))\.(?<minor>\d+)\.?(?<patch>\d+)?$
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
@@ -118,7 +118,7 @@ releases:
 > any platform, Gradle offers a flexible model that can support the entire development lifecycle
 > from compiling and packaging code to publishing websites.
 
-Gradle follows [Semantic Versioning](https://semver.org/). The 
+Gradle follows [Semantic Versioning](https://semver.org/). The
 [support and EOL policy](https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support) states that each major release causes:
 - The previous major version becomes maintenance only (end of active support). It will only receive critical bug fixes and security fixes.
 - The major version before the previous one to become end-of-life (EOL), and that release line will not receive any new fixes.

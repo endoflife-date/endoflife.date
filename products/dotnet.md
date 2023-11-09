@@ -8,7 +8,7 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate: 
+changelogTemplate:
   https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
@@ -18,7 +18,6 @@ eolColumn: Support Status
 # https://rubular.com/r/CSjmTuMTbmRBQZ
 auto:
 -   git: https://github.com/dotnet/core.git
-    regex: '^v(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>\d{0,2})?$'
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App
