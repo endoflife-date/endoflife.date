@@ -20,20 +20,20 @@ releases:
 -   releaseCycle: "27"
     releaseDate: 2023-10-10
     eol: false # TBD on https://www.electronjs.org/docs/latest/tutorial/electron-timelines
-    latest: "27.0.3"
-    latestReleaseDate: 2023-11-01
+    latest: "27.0.4"
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "26"
     releaseDate: 2023-08-14
     eol: 2024-02-27
-    latest: "26.4.3"
-    latestReleaseDate: 2023-11-01
+    latest: "26.5.0"
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "25"
     releaseDate: 2023-05-29
     eol: 2024-01-02
-    latestReleaseDate: 2023-10-25
-    latest: "25.9.3"
+    latestReleaseDate: 2023-11-08
+    latest: "25.9.4"
 
 -   releaseCycle: "24"
     releaseDate: 2023-04-04
