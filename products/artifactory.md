@@ -15,14 +15,14 @@ releases:
 -   releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
-    latest: "7.71.3"
-    latestReleaseDate: 2023-10-25
+    latest: "7.71.4"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
-    latest: "7.68.14"
-    latestReleaseDate: 2023-10-09
+    latest: "7.68.17"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "7.63"
     releaseDate: 2023-07-12
