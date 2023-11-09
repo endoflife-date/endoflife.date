@@ -17,7 +17,7 @@ releases:
     link: https://support.fairphone.com/hc/en-us/articles/18020671537041-Fairphone-5-FAQ
 
 -   releaseCycle: "4"
-    highestAndroidVersion: "12"
+    highestAndroidVersion: "13"
     releaseDate: 2021-09-30
     discontinued: false
     eol: 2026-09-30
