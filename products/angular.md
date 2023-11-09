@@ -21,9 +21,17 @@ auto:
 -   git: https://github.com/angular/angular.git
 
 releases:
+-   releaseCycle: "17"
+    releaseDate: 2023-11-08
+    support: 2024-05-08
+    eol: 2025-05-15
+    latest: "17.0.1"
+    latestReleaseDate: 2023-11-08
+    extendedSupport: false
+
 -   releaseCycle: "16"
     releaseDate: 2023-05-03
-    support: 2023-11-03
+    support: 2023-11-08
     eol: 2024-11-08
     latest: "16.2.12"
     latestReleaseDate: 2023-11-02
