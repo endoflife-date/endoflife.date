@@ -270,17 +270,6 @@ releases:
     latestReleaseDate: 2012-12-16
     link: https://support.microsoft.com/help/2908007
 
--   releaseCycle: "2008-r2-sp1"
-    codename: Kilimanjaro
-    releaseLabel: "2008 R2 SP1"
-    releaseDate: 2011-07-12
-    support: 2013-10-08
-    eol: 2013-10-08
-    extendedSupport: false
-    latest: "10.50.2881.0 CU14"
-    latestReleaseDate: 2013-08-08
-    link: https://support.microsoft.com/help/2868244
-
 -   releaseCycle: "2008-sp3"
     codename: Katmai
     releaseLabel: "2008 SP3"
@@ -293,6 +282,17 @@ releases:
     latest: "10.00.5861 CU16+QFE"
     latestReleaseDate: 2015-07-14
     link: https://support.microsoft.com/help/3045303
+
+-   releaseCycle: "2008-r2-sp1"
+    codename: Kilimanjaro
+    releaseLabel: "2008 R2 SP1"
+    releaseDate: 2011-07-12
+    support: 2013-10-08
+    eol: 2013-10-08
+    extendedSupport: false
+    latest: "10.50.2881.0 CU14"
+    latestReleaseDate: 2013-08-08
+    link: https://support.microsoft.com/help/2868244
 
 -   releaseCycle: "2005-sp4"
     codename: Yukon
@@ -397,7 +397,7 @@ releases:
 -   releaseCycle: "2000-sp4"
     codename: Shiloh
     releaseLabel: "2000 SP4"
-    releaseDate: 2000-11-30
+    releaseDate: 2005-05-06
     support: 2008-04-08
     eol: 2013-04-09
     extendedSupport: false
@@ -405,10 +405,10 @@ releases:
     latestReleaseDate: 2012-08-14
     link: https://support.microsoft.com/help/983811
 
--   releaseCycle: "7.0"
+-   releaseCycle: "7.0-sp4"
     codename: Sphinx
     releaseLabel: "7.0 SP4"
-    releaseDate: 1998-11-27
+    releaseDate: 2002-04-26
     support: 2005-12-31
     eol: 2011-01-11
     extendedSupport: false
@@ -416,10 +416,10 @@ releases:
     latestReleaseDate: 2012-05-09
     link: https://support.microsoft.com/help/941203
 
--   releaseCycle: "6.5"
+-   releaseCycle: "6.5-sp5a"
     codename: Hydra
     releaseLabel: "6.5 SP5a"
-    releaseDate: 1996-06-30
+    releaseDate: 1998-12-24
     support: 2002-01-01
     eol: 2002-01-01
     extendedSupport: false
@@ -431,7 +431,7 @@ releases:
 -   releaseCycle: "6.0"
     codename: SQL95
     releaseLabel: "6.0 SP3"
-    releaseDate: 1995-06-13
+    releaseDate: 1995-06-13 # release date of SP3 unknwon, using intial relase date
     support: 1999-03-31
     eol: 1999-03-31
     extendedSupport: false
