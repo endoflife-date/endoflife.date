@@ -436,7 +436,7 @@ releases:
     eol: 1999-03-31
     extendedSupport: false
     latest: "6.0.151"
-    latestReleaseDate: 2005-10-07
+    latestReleaseDate: 2000-12-22
     # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
     link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/152616
 
