@@ -28,6 +28,13 @@ identifiers:
 # - eol(x) = true / false (the rule is still unclear)
 # - extendedSupport(x) = releaseDate(x) + 3 years
 releases:
+-   releaseCycle: "3.5"
+    releaseDate: 2023-11-08
+    eol: false
+    extendedSupport: 2024-11-08
+    latest: "3.5.0"
+    latestReleaseDate: 2023-11-08
+
 -   releaseCycle: "3.4"
     lts: true
     releaseDate: 2023-08-09
