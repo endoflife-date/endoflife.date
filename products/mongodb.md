@@ -29,7 +29,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/mongodb/mongo.git
-    regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^r(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # Dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because we are using
 # git tag dates.

@@ -15,7 +15,7 @@ eolColumn: Critical bug fixes
 auto:
 -   git: https://github.com/openzfs/zfs.git
     regex:
-      ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+      ^zfs-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years

@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/nextcloud/server.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 releases:
 -   releaseCycle: "27"

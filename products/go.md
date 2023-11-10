@@ -22,7 +22,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/golang/go.git
-    regex: ^go(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+    regex: ^go(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$
 
 # eol(x) = releaseDate(x+2)
 releases:

@@ -15,9 +15,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/rails/rails.git
-    regex:
-      v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.(?<tiny>0|[1-9]\d*))?$
-    template: "{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}"
 
 releases:
 -   releaseCycle: "7.1"

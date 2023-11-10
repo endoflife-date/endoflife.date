@@ -120,7 +120,7 @@ identifiers:
 auto:
 -   git: https://github.com/python/cpython.git
     # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
-    regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+    regex: ^v(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$
 
 releases:
 -   releaseCycle: "3.12"

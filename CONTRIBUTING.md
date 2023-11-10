@@ -223,7 +223,7 @@ auto:
     # Use named capturing groups to capture the version or version's parts.
     # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
     # skip over any special releases (such as nightly,beta,pre,rc...).
-    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+    regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
 
     # A liquid template using the captured variables from the regex above that renders the final version
     # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
