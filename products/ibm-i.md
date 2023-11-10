@@ -92,7 +92,7 @@ releases:
     releaseDate: 2000-07-28
     eol: 2002-07-31
     latest: "4.5"
-    latestReleaseDate: 200-07-28
+    latestReleaseDate: 2000-07-28
 
 -   releaseCycle: "4.4"
     releaseDate: 1999-05-21
@@ -120,7 +120,7 @@ releases:
 
 -   releaseCycle: "3.7"
     releaseDate: 1996-11-08
-    eol: 199-06-30
+    eol: 1999-06-30
     latest: "3.7"
     latestReleaseDate: 1996-11-08
 
