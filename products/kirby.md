@@ -6,7 +6,8 @@ permalink: /kirby
 alternate_urls:
 -   /getkirby
 changelogTemplate: "https://getkirby.com/releases/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
-releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
+releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif
+  %}"
 releaseDateColumn: true
 
 auto:
@@ -24,29 +25,29 @@ releases:
     codename: "Rhampholeon"
     releaseDate: 2022-10-06
     eol: 2025-01-16
-    latest: "3.8.4"
-    latestReleaseDate: 2023-01-10
+    latest: "3.8.4.2"
+    latestReleaseDate: 2023-08-10
 
 -   releaseCycle: "3.7"
     codename: "Kinyongia"
     releaseDate: 2022-06-27
     eol: 2024-10-05
-    latest: "3.7.5.1"
-    latestReleaseDate: 2022-10-18
+    latest: "3.7.5.3"
+    latestReleaseDate: 2023-08-10
 
 -   releaseCycle: "3.6"
     codename: "Jungle Calumma"
     releaseDate: 2021-11-16
     eol: 2024-06-26
-    latest: "3.6.6.2"
-    latestReleaseDate: 2022-10-18
+    latest: "3.6.6.4"
+    latestReleaseDate: 2023-08-10
 
 -   releaseCycle: "3.5"
     codename: "Calumma"
     releaseDate: 2020-12-15
     eol: 2023-11-15
-    latest: "3.5.8.2"
-    latestReleaseDate: 2022-10-18
+    latest: "3.5.8.4"
+    latestReleaseDate: 2023-08-10
 
 -   releaseCycle: "3.4"
     codename: "Furcifer"

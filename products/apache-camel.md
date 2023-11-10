@@ -97,8 +97,8 @@ releases:
     releaseDate: 2021-12-12
     eol: 2022-12-31
     supportedJavaVersions: 8, 11
-    latest: "3.14.9"
-    latestReleaseDate: 2023-06-13
+    latest: "3.14.10"
+    latestReleaseDate: 2023-11-04
 
 -   releaseCycle: "3.13"
     releaseDate: 2021-11-08

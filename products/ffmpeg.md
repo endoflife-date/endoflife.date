@@ -21,16 +21,16 @@ releases:
     codename: Von Neumann
     releaseDate: 2023-02-27
     eol: false
-    latest: "6.0"
-    latestReleaseDate: 2023-02-27
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.1"
     codename: Riemann
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.3"
-    latestReleaseDate: 2023-03-26
+    latest: "5.1.4"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.0"
     codename: Lorentz
