@@ -19,6 +19,13 @@ auto:
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "4.3"
+    codename: 'Nanbield'
+    releaseDate: 2023-11-09
+    eol: 2024-06-09
+    latest: "4.3"
+    latestReleaseDate: 2023-11-09
+
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
     releaseDate: 2023-05-03
