@@ -11,7 +11,6 @@ releasePolicyLink: https://en.opensuse.org/Lifetime
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Life

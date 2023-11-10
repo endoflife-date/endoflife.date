@@ -9,7 +9,6 @@ versionCommand: mongod --version
 releasePolicyLink: https://www.mongodb.com/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-activeSupportColumn: false
 releaseDateColumn: true
 
 # MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
@@ -30,7 +29,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/mongodb/mongo.git
-    regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^r(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # Dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because we are using
 # git tag dates.
@@ -45,8 +44,8 @@ releases:
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: false
-    latest: '7.0.2'
-    latestReleaseDate: 2023-09-26
+    latest: '7.0.3'
+    latestReleaseDate: 2023-10-30
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"

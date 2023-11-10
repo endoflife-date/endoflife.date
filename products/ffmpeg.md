@@ -7,14 +7,13 @@ versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 
 auto:
 # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
 -   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
@@ -22,16 +21,16 @@ releases:
     codename: Von Neumann
     releaseDate: 2023-02-27
     eol: false
-    latest: "6.0"
-    latestReleaseDate: 2023-02-27
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.1"
     codename: Riemann
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.3"
-    latestReleaseDate: 2023-03-26
+    latest: "5.1.4"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.0"
     codename: Lorentz

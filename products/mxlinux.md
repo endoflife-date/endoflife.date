@@ -8,11 +8,10 @@ alternate_urls:
 -   /mx_linux
 -   /mx-linux
 -   /mx
-versionCommand: cat /etc/os-release
+versionCommand: cat /etc/lsb-release
 releasePolicyLink: https://mxlinux.org/release-cycle/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -86,7 +85,7 @@ releases:
     eol: 2020-06-30
     latest: "15"
     latestReleaseDate: 2015-12-24
-    link: 
+    link:
       https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
 
 -   releaseCycle: "14"
@@ -96,7 +95,7 @@ releases:
     eol: 2018-05-31
     latest: "14.4"
     latestReleaseDate: 2015-03-24
-    link: 
+    link:
       https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
 
 ---

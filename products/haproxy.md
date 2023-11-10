@@ -6,7 +6,6 @@ permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
-activeSupportColumn: false
 releaseDateColumn: true
 
 # Source: https://www.haproxy.org/download/

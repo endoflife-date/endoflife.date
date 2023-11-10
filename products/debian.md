@@ -7,7 +7,6 @@ permalink: /debian
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Debian Security Support
 extendedSupportColumn: Debian <abbr title="Long Term Support">LTS</abbr>

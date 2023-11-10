@@ -9,9 +9,7 @@ alternate_urls:
 -   /apache-solr
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 # https://rubular.com/r/WWOqtBih7muRFz
 auto:

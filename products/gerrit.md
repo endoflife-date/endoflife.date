@@ -7,9 +7,7 @@ versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
 changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"|
   replace:'.',''}}
-activeSupportColumn: false
 eolColumn: "Support"
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -17,7 +15,6 @@ identifiers:
 
 auto:
 -   git: https://github.com/GerritCodeReview/gerrit.git
-    regex: ^v(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+)(\.(?<tiny>[0-9]+))?)?$
 
 releases:
 -   releaseCycle: "3.8"

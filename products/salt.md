@@ -7,14 +7,13 @@ permalink: /salt
 alternate_urls:
 -   /saltstack
 versionCommand: salt --version
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-releaseImage: 
+releaseImage:
   https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
 changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

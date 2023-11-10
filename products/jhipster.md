@@ -6,18 +6,23 @@ permalink: /jhipster
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
 changelogTemplate: "https://github.com/jhipster/generator-jhipster/releases/tag/v__LATEST__"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 auto:
 -   npm: generator-jhipster
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2023-11-02
+    eol: false
+    latest: "8.0.0"
+    latestReleaseDate: 2023-11-02
+
 -   releaseCycle: "7"
     releaseDate: 2021-03-21
-    eol: false
+    eol: 2023-11-02
     latest: "7.9.4"
     latestReleaseDate: 2023-09-05
 

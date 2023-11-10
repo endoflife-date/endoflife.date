@@ -11,7 +11,6 @@ alternate_urls:
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
 activeSupportColumn: Standard Support
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Extended Support
 
@@ -51,6 +50,7 @@ releases:
     eol: 2022-11-02
     latest: "4.1.6"
     latestReleaseDate: 2021-04-19
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.1.6-release-notes
 
 -   releaseCycle: "3.9"
     lts: true

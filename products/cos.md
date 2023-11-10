@@ -11,9 +11,7 @@ versionCommand: cat /etc/os-release /etc/lsb-release
 releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
 releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Support Status
 
 auto:
@@ -25,29 +23,29 @@ releases:
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-0-51"
-    latestReleaseDate: 2023-10-11
+    latest: "cos-109-17800-66-19"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
-    latest: "cos-105-17412-226-18"
-    latestReleaseDate: 2023-10-26
+    latest: "cos-105-17412-226-28"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
-    latest: "cos-101-17162-336-9"
-    latestReleaseDate: 2023-10-24
+    latest: "cos-101-17162-336-20"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
     eol: 2024-03-01
-    latest: "cos-97-16919-404-4"
-    latestReleaseDate: 2023-10-24
+    latest: "cos-97-16919-404-13"
+    latestReleaseDate: 2023-11-07
 
 # Deprecated Milestones
 -   releaseCycle: "cos-93"

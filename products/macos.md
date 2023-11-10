@@ -9,9 +9,7 @@ alternate_urls:
 versionCommand: sw_vers
 releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Service Status
 
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
@@ -25,16 +23,16 @@ releases:
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.1'
-    latestReleaseDate: 2023-10-25
+    latest: '14.1.1'
+    latestReleaseDate: 2023-11-07
     link: https://support.apple.com/HT213895
 
 -   releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: '13.6.1'
-    latestReleaseDate: 2023-10-25
+    latest: '13.6.2'
+    latestReleaseDate: 2023-11-07
     link: https://support.apple.com/HT213268
 
 -   releaseCycle: "12"

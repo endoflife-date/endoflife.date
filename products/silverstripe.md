@@ -14,7 +14,6 @@ changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split
 activeSupportColumn: Active Development
 eolColumn: Security Support
 releaseDateColumn: true
-releaseColumn: true
 eolWarnThreshold: 182
 
 auto:
@@ -30,8 +29,8 @@ releases:
     releaseDate: 2023-10-16
     support: 2024-04-17
     eol: 2024-10-17
-    latest: "5.1.0"
-    latestReleaseDate: 2023-10-16
+    latest: "5.1.1"
+    latestReleaseDate: 2023-11-09
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
@@ -44,8 +43,8 @@ releases:
     releaseDate: 2023-04-26
     support: 2024-04-01
     eol: 2025-04-01
-    latest: "4.13.8"
-    latestReleaseDate: 2023-09-22
+    latest: "4.13.9"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "4.12"
     releaseDate: 2022-12-19

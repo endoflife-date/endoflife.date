@@ -8,9 +8,14 @@ alternate_urls:
 -   /camel-lang
 releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
+customColumns:
+-   property: supportedJavaVersions
+    position: after-release-column
+    label: Java support
+    description: Supported Java versions list
+    link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
 auto:
 -   maven: org.apache.camel/camel
@@ -40,16 +45,16 @@ releases:
     releaseDate: 2023-06-23
     eol: 2024-06-23
     supportedJavaVersions: 11, 17
-    latest: "3.21.1"
-    latestReleaseDate: 2023-09-24
+    latest: "3.21.2"
+    latestReleaseDate: 2023-10-23
 
 -   releaseCycle: "3.20"
     lts: true
     releaseDate: 2022-12-16
     eol: 2023-12-31
     supportedJavaVersions: 11, 17
-    latest: "3.20.7"
-    latestReleaseDate: 2023-09-26
+    latest: "3.20.8"
+    latestReleaseDate: 2023-10-26
 
 -   releaseCycle: "3.19"
     releaseDate: 2022-09-29
@@ -92,8 +97,8 @@ releases:
     releaseDate: 2021-12-12
     eol: 2022-12-31
     supportedJavaVersions: 8, 11
-    latest: "3.14.9"
-    latestReleaseDate: 2023-06-13
+    latest: "3.14.10"
+    latestReleaseDate: 2023-11-04
 
 -   releaseCycle: "3.13"
     releaseDate: 2021-11-08
@@ -214,14 +219,5 @@ releases:
 Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
 and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
 [don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
-
-Camel has [the following Java requirements](https://camel.apache.org/manual/what-are-the-dependencies.html):
-
-{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
-{%- include table.html
-labels="Camel,Java"
-fields="releaseCycle,supportedJavaVersions"
-types="string,string"
-rows=collapsedCycles %}
 
 A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).

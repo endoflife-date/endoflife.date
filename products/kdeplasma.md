@@ -21,8 +21,8 @@ releases:
     releaseDate: 2023-02-14
     support: true
     eol: false # Will end when Plasma 6 comes out
-    latest: "5.27.9"
-    latestReleaseDate: 2023-10-24
+    latest: "5.27.80"
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "5.26"
     releaseDate: 2022-10-11

@@ -11,7 +11,6 @@ releasePolicyLink:
 changelogTemplate: 
   https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 identifiers:
@@ -31,8 +30,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-30
     eol: false
-    latest: "8.5.0"
-    latestReleaseDate: 2023-10-11
+    latest: "8.6.1"
+    latestReleaseDate: 2023-11-09
 
 -   releaseCycle: "7"
     ansibleCoreVersion: "2.14"

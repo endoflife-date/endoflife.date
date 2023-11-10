@@ -7,7 +7,6 @@ permalink: /windows
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -15,6 +14,22 @@ identifiers:
 -   cpe: cpe:/o:microsoft:windows
 
 releases:
+-   releaseCycle: "11-23h2-e"
+    releaseLabel: "11 23H2 (E)"
+    releaseDate: 2023-10-31
+    support: 2026-11-10
+    eol: 2026-11-10
+    latest: 10.0.22631
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+-   releaseCycle: "11-23h2-w"
+    releaseLabel: "11 23H2 (W)"
+    releaseDate: 2023-10-31
+    support: 2025-11-11
+    eol: 2025-11-11
+    latest: 10.0.22631
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
 -   releaseCycle: "10-22h2"
     releaseLabel: "10 22H2"
     releaseDate: 2022-10-18
@@ -56,7 +71,7 @@ releases:
     eol: 2024-06-11
     latest: 10.0.19044
     link: https://learn.microsoft.com/lifecycle/products/windows-10-enterprise-and-education
-    
+
 -   releaseCycle: "10-21h2-w"
     releaseLabel: "10 21H2 (W)"
     releaseDate: 2021-11-16
@@ -154,7 +169,7 @@ releases:
     eol: 2021-05-11
     latest: 10.0.17763
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-1809-end-of-servicing
-    
+
 -   releaseCycle: "10-1809-w"
     releaseLabel: "10 1809 (W)"
     releaseDate: 2018-11-13

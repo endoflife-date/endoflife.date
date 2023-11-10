@@ -7,29 +7,28 @@ permalink: /nexus
 alternate_urls:
 -   /nexus-repository
 -   /nexus-repository-oss
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 eolColumn: Support
 
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
     # See https://rubular.com/r/607xFn4zIA4fDw for reference
     regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-(?<tiny>\d+)$'
+    template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
 
 releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.61.0"
-    latestReleaseDate: 2023-10-04
+    latest: "3.62.0-01"
+    latestReleaseDate: 2023-11-07
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"
     # closest date I found is for 2.0.6 on https://help.sonatype.com/repomanager2/download/download-archives---repository-manager-2#DownloadArchivesRepositoryManager2-NexusProfessional2.0.6
-    releaseDate: 2017-04-07
+    releaseDate: 2017-03-31
     eol: false
-    latest: "2.15.1"
+    latest: "2.15.1-02"
     latestReleaseDate: 2022-03-23
     link: https://help.sonatype.com/repomanager2/release-notes
 

@@ -8,12 +8,8 @@ alternate_urls:
 -   /vmwarevcenter
 -   /vmware-vcenter
 releasePolicyLink: https://lifecycle.vmware.com
-
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: General Support
-discontinuedColumn: false
 
 releases:
 -   releaseCycle: "8.0"

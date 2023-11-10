@@ -11,7 +11,6 @@ versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
 activeSupportColumn: true
-releaseColumn: true
 releaseColumn: Latest CU
 releaseDateColumn: true
 extendedSupportColumn: Extended Security Updates

@@ -10,11 +10,9 @@ releasePolicyLink: https://quarkus.io/security/
 # See https://github.com/endoflife-date/endoflife.date/issues/3462
 changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Support
 extendedSupport: Support
 extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
-releaseColumn: true
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 auto:
@@ -31,8 +29,8 @@ releases:
     releaseDate: 2023-10-25
     eol: false
     extendedSupport: false
-    latest: "3.5.0"
-    latestReleaseDate: 2023-10-25
+    latest: "3.5.1"
+    latestReleaseDate: 2023-11-09
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-09-20
@@ -53,8 +51,8 @@ releases:
     eol: 2024-07-05
     lts: true
     extendedSupport: true
-    latest: "3.2.7"
-    latestReleaseDate: 2023-10-19
+    latest: "3.2.8"
+    latestReleaseDate: 2023-11-08
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.1"

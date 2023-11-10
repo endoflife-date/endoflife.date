@@ -6,7 +6,6 @@ iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Support
 
@@ -28,8 +27,8 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.429"
-    latestReleaseDate: 2023-10-24
+    latest: "2.431"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "2.414"
     lts: 2023-08-23

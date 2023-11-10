@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: 
   https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Support
@@ -24,8 +23,8 @@ releases:
     releaseDate: 2023-09-27
     support: true
     eol: false
-    latest: '6.4.4'
-    latestReleaseDate: 2023-10-27
+    latest: '6.4.5'
+    latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-08-02

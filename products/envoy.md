@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: envoy --version
 releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:
@@ -30,7 +29,7 @@ releases:
     eol: 2024-10-19
     latest: '1.28.0'
     latestReleaseDate: 2023-10-19
-    
+
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27

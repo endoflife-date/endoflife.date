@@ -14,7 +14,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/varnishcache/varnish-cache.git
-    regex: ^varnish-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^varnish-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # EOL dates can be found on https://varnish-cache.org/releases/
 releases:

@@ -8,9 +8,7 @@ releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 # Release notes are not published for all minor or patch versions, so using only the major version.
 # Other release notes are easily accessible from that page, if available.
 changelogTemplate: "https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes"
-discontinuedColumn: false
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 auto:
@@ -21,8 +19,8 @@ releases:
     releaseDate: 2023-09-18
     support: true
     eol: false
-    latest: '10.1'
-    latestReleaseDate: 2023-10-25
+    latest: '10.1.1'
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "9"
     releaseDate: 2022-09-12

@@ -11,7 +11,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/wagtail/wagtail.git
+-   pypi: wagtail
 
 identifiers:
 -   repology: python:wagtail
@@ -19,6 +19,14 @@ identifiers:
 
 # See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
+-   releaseCycle: "5.2"
+    releaseDate: 2023-11-01
+    support: 2025-02-03
+    lts: true
+    eol: 2025-02-03
+    latest: "5.2"
+    latestReleaseDate: 2023-11-01
+
 -   releaseCycle: "5.1"
     releaseDate: 2023-08-01
     support: 2023-11-01
@@ -100,7 +108,7 @@ releases:
 
 -   releaseCycle: "2.11"
     lts: true
-    releaseDate: 2020-11-02
+    releaseDate: 2020-11-03
     support: 2021-02-02
     eol: 2022-02-07
     latest: "2.11.9"

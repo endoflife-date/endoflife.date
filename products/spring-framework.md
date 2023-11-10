@@ -6,19 +6,17 @@ iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
 -   /spring
-releasePolicyLink: 
+releasePolicyLink:
   https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 changelogTemplate: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
 auto:
 -   git: https://github.com/spring-projects/spring-framework.git
   # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
+    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)(\.RELEASE)?$'
 
 releases:
 -   releaseCycle: "6.0"
@@ -43,7 +41,7 @@ releases:
     releaseDate: 2019-09-30
     eol: 2021-12-31
     extendedSupport: 2023-12-31
-    link: 
+    link:
       https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
@@ -53,7 +51,7 @@ releases:
     releaseDate: 2018-09-21
     eol: 2020-12-31
     extendedSupport: 2022-12-31
-    link: 
+    link:
       https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.1.20"
     latestReleaseDate: 2020-12-09
@@ -63,7 +61,7 @@ releases:
     releaseDate: 2017-09-28
     eol: 2020-12-31
     extendedSupport: false
-    link: 
+    link:
       https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
@@ -73,7 +71,7 @@ releases:
     releaseDate: 2016-06-10
     eol: 2020-12-31
     extendedSupport: false
-    link: 
+    link:
       https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
@@ -83,7 +81,7 @@ releases:
     releaseDate: 2012-12-13
     eol: 2016-12-31
     extendedSupport: false
-    link: 
+    link:
       https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "3.2.18"
     latestReleaseDate: 2016-12-21

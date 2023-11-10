@@ -11,7 +11,6 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2022/01/photon-1-x-end-of-support-announcement.html
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Security Support
 
 identifiers:
@@ -54,4 +53,3 @@ Photon OS  | Kernel Version
 2.0        | 4.9
 3.0        | 4.19
 4.0        | 5.10
-

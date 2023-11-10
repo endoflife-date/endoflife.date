@@ -6,8 +6,6 @@ tags: java-runtime red-hat
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
 

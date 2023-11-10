@@ -11,9 +11,7 @@ versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 auto:
 -   git: https://github.com/cakephp/cakephp.git

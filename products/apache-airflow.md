@@ -9,9 +9,7 @@ alternate_urls:
 versionCommand: airflow version
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
 changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{'__LATEST__'|replace:'.','-'}}-__LATEST_RELEASE_DATE__"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 
 auto:
 -   pypi: apache-airflow
@@ -24,8 +22,8 @@ releases:
 -   releaseCycle: "2"
     releaseDate: 2020-12-17
     eol: false
-    latest: "2.7.2"
-    latestReleaseDate: 2023-10-12
+    latest: "2.7.3"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27

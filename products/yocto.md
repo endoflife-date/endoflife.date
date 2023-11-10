@@ -10,15 +10,12 @@ releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Support Status
-discontinuedColumn: false
 
 auto:
 -   git: https://github.com/yoctoproject/poky.git
-    regex: '^yocto-(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+    regex: '^yocto-(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$'
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:

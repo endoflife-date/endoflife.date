@@ -8,7 +8,6 @@ versionCommand: "call dbms.components() yield versions unwind versions as versio
   return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
-activeSupportColumn: false
 eolColumn: Support Status
 releaseDateColumn: true
 
@@ -105,9 +104,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-06-30
-    latest: "4.4.26"
+    latest: "4.4.27"
     lts: true
-    latestReleaseDate: 2023-09-20
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-10

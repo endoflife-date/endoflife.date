@@ -7,9 +7,9 @@ releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-s
 changelogTemplate: 
   https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+releaseDateColumn: true
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
-releaseDateColumn: true
 
 auto:
 -   git: https://github.com/akeneo/pim-community-dev.git
@@ -27,8 +27,8 @@ releases:
     codename: "Buccaneer Bunny"
     releaseDate: 2022-02-04
     eol: 2023-09-30
-    latest: "6.0.107"
-    latestReleaseDate: 2023-10-19
+    latest: "6.0.109"
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "5.0"
     codename: "Bully for Bugs"

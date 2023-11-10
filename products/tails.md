@@ -6,8 +6,6 @@ iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
 changelogTemplate: https://tails.boum.org/news/version___LATEST__/
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 # We fetch dates from Git, and then override a few

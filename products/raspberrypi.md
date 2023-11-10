@@ -9,7 +9,6 @@ alternate_urls:
 -   /rpi
 releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 discontinuedColumn: true
-activeSupportColumn: false
 eolColumn: false
 releaseColumn: false
 releaseDateColumn: true

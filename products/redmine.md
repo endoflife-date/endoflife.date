@@ -7,13 +7,18 @@ permalink: /redmine
 releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 releaseDateColumn: true
-releaseColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/redmine/redmine.git
 
+# eol releases announced in new versions blog posts
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2023-10-31
+    eol: false
+    latest: "5.1.0"
+    latestReleaseDate: 2023-10-31
+
 -   releaseCycle: "5.0"
     releaseDate: 2022-03-28
     eol: false
@@ -22,7 +27,7 @@ releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2021-03-28
-    eol: false
+    eol: 2023-10-31
     latest: "4.2.11"
     latestReleaseDate: 2023-09-30
 

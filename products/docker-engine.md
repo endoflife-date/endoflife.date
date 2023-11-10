@@ -6,10 +6,7 @@ permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://github.com/moby/moby/milestones
 changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 identifiers:
 -   repology: docker
@@ -17,7 +14,7 @@ identifiers:
 
 auto:
 -   git: https://github.com/moby/moby.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$
+    regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(-ce)?$
 
 releases:
 -   releaseCycle: "24.0"

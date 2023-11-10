@@ -7,7 +7,6 @@ releasePolicyLink: https://www.graalvm.org/release-calendar/
 changelogTemplate: "https://www.graalvm.org/release-notes/{{'__RELEASE_CYCLE__'|replace:'.','_'|replace:'-','_'|upcase}}/"
 LTSLabel: "<abbr title='Annual Release'>AR</abbr>"
 eolColumn: Maintenance
-releaseColumn: true
 releaseDateColumn: true
 
 auto:

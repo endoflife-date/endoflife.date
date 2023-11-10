@@ -10,7 +10,6 @@ alternate_urls:
 releasePolicyLink: 
   https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/jira.py
@@ -24,8 +23,8 @@ releases:
 -   releaseCycle: "9.11"
     releaseDate: 2023-08-30
     eol: 2025-08-30
-    latest: "9.11.2"
-    latestReleaseDate: 2023-10-05
+    latest: "9.11.3"
+    latestReleaseDate: 2023-11-09
     link: 
       https://confluence.atlassian.com/jirasoftware/jira-software-9-11-x-release-notes-1272283668.html
 
@@ -81,8 +80,8 @@ releases:
     releaseDate: 2022-11-15
     eol: 2024-11-15
     lts: true
-    latest: "9.4.11"
-    latestReleaseDate: 2023-10-04
+    latest: "9.4.12"
+    latestReleaseDate: 2023-11-08
     link: 
       https://confluence.atlassian.com/jirasoftware/jira-software-9-4-x-release-notes-1178869757.html
 
@@ -138,8 +137,8 @@ releases:
     releaseDate: 2021-10-19
     eol: 2023-12-31
     lts: true
-    latest: "8.20.27"
-    latestReleaseDate: 2023-10-03
+    latest: "8.20.28"
+    latestReleaseDate: 2023-11-07
     link: 
       https://confluence.atlassian.com/jirasoftware/jira-software-8-20-x-release-notes-1086411771.html
 

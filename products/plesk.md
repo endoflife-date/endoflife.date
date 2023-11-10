@@ -8,7 +8,6 @@ versionCommand: plesk version
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 eolWarnThreshold: 21
 
@@ -20,8 +19,8 @@ releases:
 -   releaseCycle: "18.0.56"
     releaseDate: 2023-10-10
     eol: 2024-01-02
-    latest: "18.0.56.2"
-    latestReleaseDate: 2023-10-27
+    latest: "18.0.56.4"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "18.0.55"
     releaseDate: 2023-08-29

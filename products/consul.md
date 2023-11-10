@@ -7,7 +7,6 @@ permalink: /consul
 versionCommand: consul --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:
@@ -22,23 +21,29 @@ identifiers:
 
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.17"
+    releaseDate: 2023-11-03
+    eol: false
+    latest: '1.17.0'
+    latestReleaseDate: 2023-11-03
+
 -   releaseCycle: "1.16"
     releaseDate: 2023-06-26
     eol: false
-    latestReleaseDate: 2023-09-19
-    latest: '1.16.2'
+    latestReleaseDate: 2023-10-31
+    latest: '1.16.3'
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-02-23
     eol: false
-    latestReleaseDate: 2023-09-19
-    latest: '1.15.6'
+    latestReleaseDate: 2023-10-31
+    latest: '1.15.7'
 
 -   releaseCycle: "1.14"
-    eol: false
+    eol: 2023-11-03
     releaseDate: 2022-11-15
-    latestReleaseDate: 2023-09-19
-    latest: '1.14.10'
+    latestReleaseDate: 2023-10-31
+    latest: '1.14.11'
 
 -   releaseCycle: "1.13"
     eol: 2023-06-26

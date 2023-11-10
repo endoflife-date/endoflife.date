@@ -8,7 +8,6 @@ versionCommand: terraform --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/hashicorp/terraform.git
@@ -18,8 +17,8 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2023-10-04
     eol: false # releaseDate(1.8)
-    latest: "1.6.2"
-    latestReleaseDate: 2023-10-18
+    latest: "1.6.3"
+    latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-06-12

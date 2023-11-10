@@ -10,7 +10,6 @@ releasePolicyLink: https://ionicframework.com/docs/reference/support
 changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 activeSupportColumn: true
 eolColumn: Maintenance
-releaseColumn: true
 releaseDateColumn: true
 extendedSupportColumn: true
 
@@ -24,8 +23,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "7.5.2"
-    latestReleaseDate: 2023-10-25
+    latest: "7.5.4"
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08

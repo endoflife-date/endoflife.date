@@ -6,7 +6,6 @@ versionCommand: weechat --version
 changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.html
 releaseDateColumn: true
 eolColumn: Active Support
-releaseColumn: true
 
 auto:
 -   git: https://github.com/weechat/weechat.git
@@ -87,6 +86,6 @@ releases:
 
 ---
 
-> [WeeChat](https://weechat.org) (Wee Enhanced Environment for Chat) is a free and open-source Internet Relay Chat client that is designed to be light and fast. It is released under the terms of the GNU GPL-3.0-or-later and has been developed since 2003. 
+> [WeeChat](https://weechat.org) (Wee Enhanced Environment for Chat) is a free and open-source Internet Relay Chat client that is designed to be light and fast. It is released under the terms of the GNU GPL-3.0-or-later and has been developed since 2003.
 
 WeeChat [only supports the latest release](https://github.com/endoflife-date/endoflife.date/pull/3267#issuecomment-1632930520).

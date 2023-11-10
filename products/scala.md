@@ -12,7 +12,6 @@ changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 activeSupportColumn: Current Releases
 eolColumn: Maintenance Releases
 releaseDateColumn: true
-releaseColumn: true
 
 auto:
     # Scala < 3

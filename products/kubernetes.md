@@ -7,9 +7,9 @@ alternate_urls:
 -   /k8s
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
-releaseImage: 
+releaseImage:
   https://upload.wikimedia.org/wikipedia/en/timeline/fxdhzv3oeut1ywyfx5ubxghu9fnow69.png
-changelogTemplate: 
+changelogTemplate:
   https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 activeSupportColumn: true
@@ -17,7 +17,7 @@ eolColumn: Maintenance Support
 
 auto:
 -   git: https://github.com/kubernetes/kubernetes.git
-    regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^v(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # Support and EOL dates can be found on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
 releases:

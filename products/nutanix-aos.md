@@ -7,9 +7,11 @@ permalink: /nutanix-aos
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
+
+# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
+auto:
+-   custom: true
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
@@ -17,8 +19,8 @@ releases:
     releaseDate: 2023-08-28
     support: true
     eol: false
-    latest: "6.7.0.5"
-    latestReleaseDate: 2023-09-20
+    latest: "6.7.0.6"
+    latestReleaseDate: 2023-10-31
 
 -   releaseCycle: "6.6"
     releaseDate: 2023-01-23

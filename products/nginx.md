@@ -7,8 +7,6 @@ permalink: /nginx
 versionCommand: nginx -v
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -23,7 +21,7 @@ identifiers:
 # https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
 -   git: https://github.com/nginx/nginx.git
-    regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
 releases:

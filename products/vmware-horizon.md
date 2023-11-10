@@ -10,12 +10,17 @@ alternate_urls:
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: General Support
 
 releases:
+-   releaseCycle: "8.2309"
+    releaseDate: 2023-10-26
+    eol: 2026-10-26
+    technicalGuidance: 2027-10-26
+    latest: "8.2309"
+    latestReleaseDate: 2023-10-26
+
 -   releaseCycle: "8.2306"
     releaseDate: 2023-07-06
     eol: 2026-07-06

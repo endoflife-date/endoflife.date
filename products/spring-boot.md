@@ -8,8 +8,6 @@ alternate_urls:
 -   /springboot
 releasePolicyLink: https://github.com/spring-projects/spring-boot/wiki/Supported-Versions
 changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/v__LATEST__"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
@@ -17,7 +15,7 @@ extendedSupportColumn: Commercial Support
 auto:
 -   git: https://github.com/spring-projects/spring-boot.git
 # See https://rubular.com/r/stJ20etRIblK0J for reference
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(\.RELEASE)?$'
+    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)(\.RELEASE)?$'
 
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot

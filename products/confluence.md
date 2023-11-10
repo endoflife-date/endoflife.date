@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink:
   https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/confluence.py
@@ -22,8 +21,8 @@ releases:
 -   releaseCycle: "8.6"
     releaseDate: 2023-10-04
     eol: 2025-10-05
-    latest: "8.6.0"
-    latestReleaseDate: 2023-10-04
+    latest: "8.6.1"
+    latestReleaseDate: 2023-10-30
     link:
       https://confluence.atlassian.com/doc/confluence-8-6-release-notes-1289421595.html
 
@@ -31,24 +30,24 @@ releases:
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-08-22
-    latest: "8.5.2"
-    latestReleaseDate: 2023-10-03
+    latest: "8.5.3"
+    latestReleaseDate: 2023-10-30
     link:
       https://confluence.atlassian.com/doc/confluence-8-5-release-notes-1252010185.html
 
 -   releaseCycle: "8.4"
     releaseDate: 2023-07-05
     eol: 2025-07-06
-    latest: "8.4.3"
-    latestReleaseDate: 2023-10-03
+    latest: "8.4.4"
+    latestReleaseDate: 2023-10-30
     link:
       https://confluence.atlassian.com/doc/confluence-8-4-release-notes-1251411547.html
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-05-22
     eol: 2025-05-23
-    latest: "8.3.3"
-    latestReleaseDate: 2023-10-03
+    latest: "8.3.4"
+    latestReleaseDate: 2023-10-30
     link:
       https://confluence.atlassian.com/doc/confluence-8-3-release-notes-1236928237.html
 
@@ -88,8 +87,8 @@ releases:
     lts: true
     releaseDate: 2022-07-27
     eol: 2024-07-28
-    latest: "7.19.15"
-    latestReleaseDate: 2023-10-03
+    latest: "7.19.16"
+    latestReleaseDate: 2023-10-30
     link:
       https://confluence.atlassian.com/doc/confluence-7-19-release-notes-1141976784.html
 
@@ -192,7 +191,7 @@ which receive security support and bug fixes for 2 years. The non-LTS releases a
 backported for security and bug fixes, which means that you have to watch patch notes and keep up
 with current releases to keep your install secure.
 
-More information about enterprise LTS releases can be found in 
+More information about enterprise LTS releases can be found in
 [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
 Information about Atlassian Support End of Life Policy can be found in
 [this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).

@@ -8,7 +8,6 @@ releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Critical security patches
 

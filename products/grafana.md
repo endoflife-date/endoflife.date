@@ -5,7 +5,6 @@ iconSlug: grafana
 permalink: /grafana
 versionCommand: grafana-server -v
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 

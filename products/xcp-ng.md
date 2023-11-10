@@ -6,7 +6,6 @@ alternate_urls:
 -   /xcpng
 versionCommand: software-version
 releasePolicyLink: https://xcp-ng.org/docs/releases.html
-activeSupportColumn: false
 eolColumn: Support
 
 auto:
@@ -55,7 +54,7 @@ releases:
 ---
 
 > [XCP-ng](https://xcp-ng.org) is a free and open-source hypervisor based on
-> [Xen](https://xenproject.org/). It is a fork of [XenServer](https://xenserver.org/), which was
+> [Xen](https://xenproject.org/). It is a fork of [XenServer](https://xenserver.com/), which was
 > acquired by Citrix in 2013. It is a drop-in replacement for XenServer, and can be used to manage
 > and run virtual machines on any hardware that supports the Xen hypervisor. XCP-ng is developed by
 > a community of contributors and is available for free.

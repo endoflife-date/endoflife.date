@@ -12,7 +12,6 @@ releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life
 changelogTemplate: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/__RELEASE_CYCLE__/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-__RELEASE_CYCLE__-Release-Information
 LTSLabel: CE
 iconSlug: paloaltonetworks
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Support Status

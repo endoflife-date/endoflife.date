@@ -8,7 +8,6 @@ releasePolicyLink: https://blog.pcisecuritystandards.org/updated-pci-dss-v4.0-ti
 releasePolicyImage: https://blog.pcisecuritystandards.org/hs-fs/hubfs/Development.png?width=750&name=Development.png
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Acceptance
 
 releases:

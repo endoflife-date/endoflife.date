@@ -1,0 +1,12 @@
+{%- comment %}
+Render a product custom column data cell (<td>).
+
+Parameters:
+- release (mandatory): a product release cycle definition.
+- column (mandatory): the custom column definition.
+- cssClasses (optional): a space-separated list of CSS classes to add to the cell.
+{% endcomment %}
+{%- assign release = include.release %}
+{%- assign propertyName = include.column.property %}
+{%- assign cssClasses = include.cssClasses | default:'' %}
+<td class="{{ cssClasses }}">{{ release[propertyName] | default: 'N/A' }}</td>
