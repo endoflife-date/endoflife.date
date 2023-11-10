@@ -1,7 +1,7 @@
 ---
 title: NetBSD
 category: os
-tags: bsd-distribution
+tags: bsd-distribution unix-distribution
 iconSlug: netbsd
 permalink: /netbsd
 versionCommand: uname -r
