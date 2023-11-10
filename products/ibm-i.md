@@ -89,7 +89,7 @@ releases:
     latestReleaseDate: 2001-05-25
 
 -   releaseCycle: "4.5"
-    releaseDate: 200-07-28
+    releaseDate: 2000-07-28
     eol: 2002-07-31
     latest: "4.5"
     latestReleaseDate: 200-07-28
