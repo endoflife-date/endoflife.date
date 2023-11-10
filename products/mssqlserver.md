@@ -30,6 +30,7 @@ releases:
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
+    extendedSupport: false
     latestGdr: "16.0.1105.1"
     latestGdrLink: https://support.microsoft.com/help/5029379
     latest: "16.0.4085.2 CU9"
@@ -42,6 +43,7 @@ releases:
     releaseDate: 2021-09-15
     support: 2021-07-13
     eol: 2026-07-14
+    extendedSupport: false
     latestGdr: "13.0.6435.1"
     latestGdrLink: https://support.microsoft.com/help/5029186
     latest: "13.0.6435.1 GDR"
@@ -54,6 +56,7 @@ releases:
     releaseDate: 2019-11-04
     support: 2025-02-28
     eol: 2030-01-08
+    extendedSupport: false
     latestGdr: "15.0.2104.1"
     latestGdrLink: https://support.microsoft.com/help/5029377
     latest: "15.0.4335.1 CU23"
@@ -66,6 +69,7 @@ releases:
     releaseDate: 2018-10-30
     support: 2019-07-09
     eol: 2024-07-09
+    extendedSupport: false
     latestGdr: "12.0.6179.1"
     latestGdrLink: https://support.microsoft.com/help/5029184
     latest: "12.0.6449.1 CU4+GDR"
@@ -78,6 +82,7 @@ releases:
     releaseDate: 2018-04-24
     support: 2022-10-11
     eol: 2022-10-11
+    extendedSupport: false
     latestGdr: "13.0.5108.50"
     latestGdrLink: https://support.microsoft.com/help/5014365
     latest: "13.0.5893.48 CU17+GDR"
@@ -103,6 +108,7 @@ releases:
     releaseDate: 2017-09-29
     support: 2022-10-11
     eol: 2027-10-12
+    extendedSupport: false
     latestGdr: "14.0.2052.1"
     latestGdrLink: https://support.microsoft.com/help/5029375
     latest: "14.0.3465.1 CU31+GDR"
@@ -115,6 +121,7 @@ releases:
     releaseDate: 2016-11-16
     support: 2019-07-09
     eol: 2019-07-09
+    extendedSupport: false
     latestGdr: "13.0.4259.0"
     latestGdrLink: https://support.microsoft.com/help/4505219
     latest: "13.0.4604.0 CU15+GDR"
@@ -127,6 +134,7 @@ releases:
     releaseDate: 2016-07-14
     support: 2020-01-14
     eol: 2020-01-14
+    extendedSupport: false
     latestGdr: "12.0.5223.6"
     latestGdrLink: https://support.microsoft.com/help/4505217
     latest: "12.0.5687.1 CU18"
@@ -139,6 +147,7 @@ releases:
     releaseDate: 2016-06-01
     support: 2018-01-09
     eol: 2018-01-09
+    extendedSupport: false
     latestGdr: "13.0.1745.2"
     latestGdrLink: https://support.microsoft.com/help/4058560
     latest: "13.0.2218.0 CU9+GDR"
@@ -151,6 +160,7 @@ releases:
     releaseDate: 2015-12-01
     support: 2018-10-09
     eol: 2018-10-09
+    extendedSupport: false
     latestGdr: "11.0.6260.1"
     latestGdrLink: https://support.microsoft.com/help/4057115
     latest: "11.0.6614.2 CU10+QFE"
@@ -163,6 +173,7 @@ releases:
     releaseDate: 2015-04-14
     support: 2017-10-10
     eol: 2017-10-10
+    extendedSupport: false
     latestGdr: "12.0.4237.0"
     latestGdrLink: https://support.microsoft.com/help/4019091
     latest: "12.0.4522.0 CU13"
@@ -201,6 +212,7 @@ releases:
     releaseDate: 2014-06-10
     support: 2017-01-10
     eol: 2017-01-10
+    extendedSupport: false
     latestGdr: "11.0.5388.0"
     latestGdrLink: https://support.microsoft.com/help/3194719
     latest: "11.0.5678.0 CU16"
@@ -213,6 +225,7 @@ releases:
     releaseDate: 2014-06-05
     support: 2016-07-12
     eol: 2016-07-12
+    extendedSupport: false
     latestGdr: "12.0.2269.0"
     latestGdrLink: https://support.microsoft.com/help/3045324
     latest: "12.0.2569.0 CU14"
@@ -225,6 +238,7 @@ releases:
     releaseDate: 2012-11-07
     support: 2015-07-14
     eol: 2015-07-14
+    extendedSupport: false
     latestGdr: "11.0.3156.0"
     latestGdrLink: https://support.microsoft.com/help/3045318
     latest: "11.0.3513.0 CU13+QFE"
@@ -237,6 +251,7 @@ releases:
     releaseDate: 2012-07-26
     support: 2015-10-13
     eol: 2015-10-13
+    extendedSupport: false
     latestGdr: "10.50.4042.0"
     latestGdrLink: https://support.microsoft.com/help/3045313
     latest: "10.50.4339.0 CU13+QFE"
@@ -249,6 +264,7 @@ releases:
     releaseDate: 2012-05-20
     support: 2014-01-14
     eol: 2014-01-14
+    extendedSupport: false
     latest: "11.0.2424.0 CU11"
     latestReleaseDate: 2012-12-16
     link: https://support.microsoft.com/help/2908007
@@ -259,6 +275,7 @@ releases:
     releaseDate: 2011-07-12
     support: 2013-10-08
     eol: 2013-10-08
+    extendedSupport: false
     latest: "10.50.2881.0 CU14"
     latestReleaseDate: 2013-08-08
     link: https://support.microsoft.com/help/2868244
@@ -269,6 +286,7 @@ releases:
     releaseDate: 2011-10-06
     support: 2015-10-13
     eol: 2015-10-13
+    extendedSupport: false
     latestGdr: "10.0.5500.0"
     latestGdrLink: https://support.microsoft.com/help/3045305
     latest: "10.00.5861 CU16+QFE"
@@ -281,6 +299,7 @@ releases:
     releaseDate: 2010-12-13
     support: 2011-04-12
     eol: 2016-04-12
+    extendedSupport: false
     latest: "9.0.5324.0 QFE"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
@@ -291,6 +310,7 @@ releases:
     releaseDate: 2010-09-24
     support: 2012-10-09
     eol: 2012-10-09
+    extendedSupport: false
     latest: "10.00.4371 CU10+QFE"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716433
@@ -301,6 +321,7 @@ releases:
     releaseDate: 2010-07-20
     support: 2012-07-10
     eol: 2012-07-10
+    extendedSupport: false
     latest: "10.50.1815.0 CU13"
     latestReleaseDate: 2012-04-16
     link: https://support.microsoft.com/help/2679366
@@ -311,6 +332,7 @@ releases:
     releaseDate: 2009-03-31
     support: 2011-10-11
     eol: 2011-10-11
+    extendedSupport: false
     latest: "10.00.2850 CU16"
     latestReleaseDate: 2011-09-19
     link: https://support.microsoft.com/help/2582282
@@ -321,6 +343,7 @@ releases:
     releaseDate: 2008-12-15
     support: 2012-01-10
     eol: 2012-01-10
+    extendedSupport: false
     latest: "9.00.4309 CU11"
     latestReleaseDate: 2010-08-16
     link: https://support.microsoft.com/help/2258854
@@ -331,6 +354,7 @@ releases:
     releaseDate: 2008-11-06
     support: 2010-04-13
     eol: 2010-04-13
+    extendedSupport: false
     latest: "10.00.1835 CU10"
     latestReleaseDate: 2010-03-15
     link: https://support.microsoft.com/help/979064
@@ -341,6 +365,7 @@ releases:
     releaseDate: 2007-02-19
     support: 2010-01-12
     eol: 2010-01-12
+    extendedSupport: false
     latest: "9.00.3325 CU13"
     latestReleaseDate: 2009-04-20
     link: https://support.microsoft.com/help/967908
@@ -351,6 +376,7 @@ releases:
     releaseDate: 2006-04-18
     support: 2008-04-08
     eol: 2008-04-08
+    extendedSupport: false
     latest: "9.0.2233"
     latestReleaseDate: 2007-05-16
     # Original KB937545 but 404 in the meantime: https://support.microsoft.com/help/937545
@@ -362,6 +388,7 @@ releases:
     releaseDate: 2006-01-14
     support: 2007-07-10
     eol: 2007-07-10
+    extendedSupport: false
     latest: "9.0.1399"
     latestReleaseDate: 2006-01-14
     link: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
@@ -372,6 +399,7 @@ releases:
     releaseDate: 2000-11-30
     support: 2008-04-08
     eol: 2013-04-09
+    extendedSupport: false
     latest: "8.0.2305 QFE"
     latestReleaseDate: 2012-08-14
     link: https://support.microsoft.com/help/983811
@@ -382,6 +410,7 @@ releases:
     releaseDate: 1998-11-27
     support: 2005-12-31
     eol: 2011-01-11
+    extendedSupport: false
     latest: "7.0.1152"
     latestReleaseDate: 2012-05-09
     link: https://support.microsoft.com/help/941203
@@ -392,6 +421,7 @@ releases:
     releaseDate: 1996-06-30
     support: 2002-01-01
     eol: 2002-01-01
+    extendedSupport: false
     latest: "6.50.480"
     latestReleaseDate: 2005-10-07
     # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
@@ -403,6 +433,7 @@ releases:
     releaseDate: 1995-06-13
     support: 1999-03-31
     eol: 1999-03-31
+    extendedSupport: false
     latest: "6.0.151"
     latestReleaseDate: 2005-10-07
     # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
