@@ -15,7 +15,7 @@ eolWarnThreshold: 121
 identifiers:
 -   purl: docker:rancher/rancher
 
-changelogTemplate: "https://github.com/rancher/rancher/releases/tag/__LATEST__"
+changelogTemplate: "https://github.com/rancher/rancher/releases/tag/v__LATEST__"
 
 auto:
 -   git: https://github.com/rancher/rancher.git
