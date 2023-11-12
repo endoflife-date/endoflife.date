@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "5.0"
     codename: Lorentz
     releaseDate: 2022-01-14
-    eol: false
+    eol: 2023-04-02
     latest: "5.0.3"
     latestReleaseDate: 2023-04-02
 
