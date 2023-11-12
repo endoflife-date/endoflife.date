@@ -1,7 +1,7 @@
 ---
 title: Oracle Solaris
 category: os
-tags: oracle
+tags: oracle unix-distribution
 iconSlug: oracle
 permalink: /oracle-solaris
 alternate_urls:
