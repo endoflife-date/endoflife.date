@@ -17,6 +17,13 @@ auto:
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "6.1"
+    codename: Heaviside
+    releaseDate: 2023-11-11
+    eol: false
+    latest: "6.1"
+    latestReleaseDate: 2023-11-11
+
 -   releaseCycle: "6.0"
     codename: Von Neumann
     releaseDate: 2023-02-27
