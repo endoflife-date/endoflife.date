@@ -12,15 +12,8 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20S
 
 activeSupportColumn: true
 releaseColumn: true
-releaseColumnLabel: Latest CU
 releaseDateColumn: true
 extendedSupportColumn: Extended Security Updates
-
-customColumns:
-  - property: latestGdr
-    position: before-latest-column
-    label: Latest GDR
-    description: Latest General Distribution Release (GDR) versions
 
 # releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 # Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
@@ -428,7 +421,7 @@ releases:
     # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
     link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/238621
 
--   releaseCycle: "6.0"
+-   releaseCycle: "6.0-sp3"
     codename: SQL95
     releaseLabel: "6.0 SP3"
     releaseDate: 1995-06-13 # release date of SP3 unknwon, using intial relase date
