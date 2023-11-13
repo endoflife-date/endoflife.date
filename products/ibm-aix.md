@@ -17,6 +17,12 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "7.3.2"
+    releaseDate: 2023-11-01
+    eol: 2026-11-30
+    latest: "7.3.2"
+    latestReleaseDate: 2023-11-01
+
 -   releaseCycle: "7.3.1"
     releaseDate: 2022-12-01
     eol: 2025-12-31
