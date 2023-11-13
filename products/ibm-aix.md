@@ -16,6 +16,7 @@ eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support
 auto:
 -   custom: true
 
+# EOL date can be found on https://www.ibm.com/support/pages/aix-support-lifecycle-information.
 releases:
 -   releaseCycle: "7.3.2"
     releaseDate: 2023-11-01
