@@ -6,21 +6,25 @@ iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 releaseDateColumn: true
-eolColumn: Bug fix and security support
+activeSupportColumn: Active Development
+eolColumn: Maintenance Support
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
 -   git: https://github.com/opensearch-project/OpenSearch.git
 
+# releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2022-05-18
-    eol: false
+    releaseDate: 2022-05-26
+    support: true # upcoming releaseDate(3)
+    eol: false # upcoming support(3) at least 1 year
     latest: "2.11.0"
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-02
-    eol: false
+    support: 2022-05-26 # releaseDate(2)
+    eol: false # upcoming support(2) at least 1 year
     latest: "1.3.13"
     latestReleaseDate: 2023-09-14
 
@@ -31,17 +35,18 @@ releases:
 > Developers build with OpenSearch for use cases such as application search, log analytics, data
 > observability, data ingestion, and more.
 
-## [Planned Release schedule](https://opensearch.org/releases.html)
+## Support
 
-Release  | Release Date
--------- | ------------
- 1.3.14  | {{ "2023-12-12" | date_to_string }}
- 2.12.0  | {{ "2024-01-23" | date_to_string }}
+**Active Development**: The latest major version receives new features, bug fixes, and security patches. 
+**Maintenance Support**: includes bug fixes and security patches. New features might be back-ported as
+  community contributions, but will not result in new releases.
 
-For more information on the changes planned for each release, see:
+By default, versions remain under maintenance until the next major version enters maintenance with
+a minimum guarantee of a year. Therefore, at any given time, the current major version and previous
+major version are both supported, as well as older major versions that have been in maintenance
+for less than 12 months.
 
-- [Project Roadmap](https://github.com/orgs/opensearch-project/projects/1).
-- [Maintenance Policy](https://opensearch.org/releases.html#maintenance-policy)
+OpenSearch 1.x will end Maintenance Support once 3.0 is released.
 
 ## Versioning
 
