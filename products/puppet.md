@@ -51,6 +51,20 @@ releases:
     latestReleaseDate: 2020-10-09
     link: https://www.puppet.com/docs/puppet/5.5/release_notes.html
 
+-   releaseCycle: "4"
+    releaseDate: 2015-04-08
+    eol: 2018-10-01 # No official source available. It was announced in the IRC channel at that time.
+    latest: "4.10.12"
+    latestReleaseDate: 2018-05-29
+    link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/4.10/release_notes.markdown
+
+-   releaseCycle: "3"
+    releaseDate: 2012-09-28
+    eol: 2017-01-01 # No official source available. It was announced in the IRC channel at that time.
+    latest: "3.8.7"
+    latestReleaseDate: 2016-04-25
+    link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/3.8/release_notes.markdown
+
 ---
 
 > [Puppet](https://www.puppet.com/) is a tool that helps you manage and automate the configuration
