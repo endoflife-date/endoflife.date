@@ -6,24 +6,25 @@ iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 releaseDateColumn: true
-support: Active Development
+activeSupportColumn: Active Development
 eolColumn: Maintenance Support
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
 -   git: https://github.com/opensearch-project/OpenSearch.git
 
+# releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2022-05-18
-    support: true
-    eol: false
+    releaseDate: 2022-05-26
+    support: true # upcoming releaseDate(3)
+    eol: false # upcoming support(3) at least 1 year
     latest: "2.11.0"
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-02
-    support: 2022-05-26
-    eol: false
+    support: 2022-05-26 # releaseDate(2)
+    eol: false # upcoming support(2) at least 1 year
     latest: "1.3.13"
     latestReleaseDate: 2023-09-14
 
