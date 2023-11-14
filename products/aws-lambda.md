@@ -280,7 +280,7 @@ AWS Lambda supports the following runtimes:
 
 Runtime updates are, most of the time, backward compatible with existing functions. But, in some
 rare cases, a runtime update can negatively impact an existing function. An example of such case
-is a lamda that make use of an insecure behavior fixed by a security patch.
+is a lambda that make use of an insecure behavior fixed by a security patch.
 
 There are three modes of runtime updates:
 
