@@ -15,7 +15,7 @@ auto:
 # releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2022-05-26
+    releaseDate: 2022-05-18
     support: true # upcoming releaseDate(3)
     eol: false # upcoming support(3) at least 1 year
     latest: "2.11.0"

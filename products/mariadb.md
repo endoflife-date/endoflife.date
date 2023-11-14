@@ -36,34 +36,34 @@ auto:
     # where (1[2-9]|[2-9]\d) matches 12-19 OR 2-digit numbers starting from 2-9 (ie 20-99)
     # See https://rubular.com/r/jbw5wsv80lhy9h for sample testcases before you edit.
     # Note: This will need to be edited when a new GA release is made in a new release cycle
-    regex:
+    regex: 
       ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>11)\.(?<minor>0)\.(?<patch>([2-9]|\d{2}))|(?<major>11)\.(?<minor>1)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>11)\.(?<patch>([2-9]|\d{2})))$
 
 releases:
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21
     eol: 2024-08-21
-    latest: "11.1.2"
-    latestReleaseDate: 2023-08-21
+    latest: "11.1.3"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "11.0"
     releaseDate: 2023-06-06
     eol: 2024-06-07
-    latest: "11.0.3"
-    latestReleaseDate: 2023-08-14
+    latest: "11.0.4"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.11"
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    latest: "10.11.5"
-    latestReleaseDate: 2023-08-14
+    latest: "10.11.6"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.10"
     releaseDate: 2022-11-07
     eol: 2023-11-17
-    latest: "10.10.6"
-    latestReleaseDate: 2023-08-14
+    latest: "10.10.7"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.9"
     releaseDate: 2022-08-15
@@ -87,20 +87,20 @@ releases:
     lts: true
     releaseDate: 2021-07-05
     eol: 2026-07-06
-    latest: "10.6.15"
-    latestReleaseDate: 2023-08-14
+    latest: "10.6.16"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.5"
     releaseDate: 2020-06-23
     eol: 2025-06-24
-    latest: "10.5.22"
-    latestReleaseDate: 2023-08-14
+    latest: "10.5.23"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.4"
     releaseDate: 2019-06-17
     eol: 2024-06-18
-    latest: "10.4.31"
-    latestReleaseDate: 2023-08-14
+    latest: "10.4.32"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.3"
     releaseDate: 2018-05-23
