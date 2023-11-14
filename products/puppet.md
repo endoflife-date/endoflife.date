@@ -53,7 +53,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2015-04-08
-    eol: 2018-10-01
+    eol: 2018-10-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "4.10.12"
     latestReleaseDate: 2018-05-29
     link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/4.10/release_notes.markdown
