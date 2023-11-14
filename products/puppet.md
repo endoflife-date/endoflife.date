@@ -60,7 +60,7 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2012-09-28
-    eol: 2017-01-01
+    eol: 2017-01-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "3.8.7"
     latestReleaseDate: 2016-04-25
     link: https://github.com/puppetlabs/docs-archive/blob/main/puppet/3.8/release_notes.markdown
