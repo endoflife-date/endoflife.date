@@ -291,14 +291,20 @@ There are three modes of runtime updates:
 [Responsibility for applying runtime updates](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-update.html#runtime-management-shared)
 varies according to chosen runtime update mode.
 
-## Runtime deprecation
+## Support Levels
 
-Deprecation (end of support) for a runtime occurs in two phases.
+**Standard Support**: Lambda provides security patches to the underlying runtime, along with technical support.
+
+Deprecation (end of support) for a runtime occurs in two phases:
 
 - Phase 1: Security patches or other updates are no longer applied, and new functions that use the
   runtime cannot be created. Functions that use a deprecated runtime are also no longer eligible
-  for technical support.
+  for technical support. This phase is documented in the table above as **Deprecated Support**.
 - Phase 2: Existing functions that use the runtime cannot be updated, and rollback to that runtime
   is no more possible. Phase 2 starts at least 30 days after the start of Phase 1.
 
 Invocations of functions that use deprecated runtime is never blocked.
+
+## Notifications
+
+Trusted Advisor includes a check that provides [120 days' notice of upcoming Lambda runtime end of support](https://docs.aws.amazon.com/awssupport/latest/user/security-checks.html#aws-lambda-functions-deprecated-runtimes), and Lambda notifies you by email if you have functions using a runtime that is scheduled for end of support in the next 60 days.
