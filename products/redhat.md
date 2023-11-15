@@ -37,8 +37,8 @@ releases:
     eol: 2029-05-31
     lts: 2029-05-31
     extendedSupport: 2032-05-31
-    latest: "8.8"
-    latestReleaseDate: 2023-05-16
+    latest: "8.9"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "7"
     releaseDate: 2013-12-11

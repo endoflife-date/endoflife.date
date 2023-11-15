@@ -23,8 +23,8 @@ releases:
     support: 2024-10-31
     eol: 2026-04-30
     extendedSupport: 2029-04-30
-    latest: '12.4.7'
-    latestReleaseDate: 2023-10-10
+    latest: '12.4.8'
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "11"
     releaseDate: 2020-12-22
@@ -32,8 +32,8 @@ releases:
     support: 2023-03-31
     eol: 2024-10-31
     extendedSupport: 2027-10-31
-    latest: "11.5.32"
-    latestReleaseDate: 2023-10-10
+    latest: "11.5.33"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "10"
     releaseDate: 2019-07-23
@@ -41,24 +41,24 @@ releases:
     support: 2021-10-31
     eol: 2023-04-30
     extendedSupport: 2026-04-30
-    latest: "10.4.40"
-    latestReleaseDate: 2023-07-25
+    latest: "10.4.41"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "9"
     releaseDate: 2017-12-12
     support: 2020-04-30
     eol: 2021-09-30
     extendedSupport: 2024-09-30
-    latest: "9.5.43"
-    latestReleaseDate: 2023-07-25
+    latest: "9.5.44"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "8"
     releaseDate: 2016-03-22
     support: 2018-09-30
     eol: 2020-03-31
     extendedSupport: 2024-03-31
-    latest: "8.7.54"
-    latestReleaseDate: 2023-07-25
+    latest: "8.7.55"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "7"
     releaseDate: 2014-12-02

@@ -45,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.13"
-    latestReleaseDate: 2023-10-05
+    latest: "4.0.14"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -74,8 +74,8 @@ releases:
     lts: true
     releaseDate: 2020-04-21
     eol: 2024-04-01
-    latest: "3.1.28"
-    latestReleaseDate: 2023-09-29
+    latest: "3.1.29"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'
