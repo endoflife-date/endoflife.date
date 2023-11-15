@@ -17,6 +17,13 @@ auto:
 -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "4.0"
+    releaseDate: 2023-11-14
+    support: true
+    eol: false
+    latest: "4.0.0"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "3.6"
     lts: true
     releaseDate: 2023-06-27
@@ -109,6 +116,3 @@ with the following goals:
 
 - A new LTS release every year around June, supported for two years,
 - A major version and breaking release every 2 years (3.0, 4.0, 5.0…).
-
-With the new schedule, the 3.7 release will be skipped, and 4.0 is expected to be released in
-late November 2023.
