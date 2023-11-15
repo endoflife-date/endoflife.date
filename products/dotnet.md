@@ -36,6 +36,7 @@ identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
+-   purl: pkg:rpm/rhel/dotnet-sdk-8.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-7.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-6.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-5.0
@@ -44,6 +45,13 @@ identifiers:
 -   purl: pkg:rpm/rhel/dotnet-sdk-2.1
 
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2023-11-14
+    lts: true
+    eol: 2026-11-10
+    latest: "8.0.0"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "7.0"
     releaseDate: 2022-11-08
     eol: 2024-05-14
@@ -51,8 +59,8 @@ releases:
     latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "6.0"
-    lts: true
     releaseDate: 2021-11-08
+    lts: true
     eol: 2024-11-12
     latest: "6.0.25"
     latestReleaseDate: 2023-11-14
@@ -65,8 +73,8 @@ releases:
 
 -   releaseCycle: "3.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
-    lts: true
     releaseDate: 2019-12-03
+    lts: true
     eol: 2022-12-13
     latest: "3.1.32"
     latestReleaseDate: 2022-12-13
@@ -87,8 +95,8 @@ releases:
 
 -   releaseCycle: "2.1"
     releaseLabel: "Core __RELEASE_CYCLE__"
-    lts: true
     releaseDate: 2018-05-30
+    lts: true
     eol: 2021-08-21
     latest: "2.1.30"
     latestReleaseDate: 2021-08-19
