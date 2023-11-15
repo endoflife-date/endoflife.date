@@ -32,6 +32,13 @@ identifiers:
 # Approximate EOL date are always set on the last day of the month (and updated when the exact date is known).
 releases:
 
+-   releaseCycle: "1.20"
+    releaseDate: 2023-11-14
+    eol: 2024-07-31 # ~Jul 2024 (Expected)
+    supportedKubernetesVersions: 1.25 - 1.28
+    latest: "1.20.0"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "1.19"
     releaseDate: 2023-09-05
     eol: 2024-03-31 # ~March 2024 (Expected)
@@ -48,7 +55,7 @@ releases:
 
 -   releaseCycle: "1.17"
     releaseDate: 2023-02-14
-    eol: 2023-10-31 # ~Oct 2023 (Expected)
+    eol: 2023-10-27
     supportedKubernetesVersions: 1.23 - 1.26
     latest: "1.17.8"
     latestReleaseDate: 2023-10-11
