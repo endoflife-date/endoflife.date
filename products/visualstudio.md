@@ -14,12 +14,19 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 releases:
+-   releaseCycle: "17.8"
+    codename: "2022"
+    releaseDate: 2023-11-14
+    eol: false # eol with release of 17.9 or 18.0
+    latest: "17.8.0"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "17.7"
     codename: "2022"
     releaseDate: 2023-08-08
-    eol: false # eol with release of 17.8 or 18.0
-    latest: "17.7.6"
-    latestReleaseDate: 2023-10-24
+    eol: 2023-11-14 # releaseDate(17.8)
+    latest: "17.7.7"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "17.6"
     codename: "2022"
@@ -242,9 +249,9 @@ releases:
     codename: "2015"
     releaseDate: 2015-07-20
     eol: 2025-10-14
-    latest: "Update 3"
-    latestReleaseDate: 2016-06-27
-    link: https://learn.microsoft.com/visualstudio/releasenotes/vs2015-update3-vs
+    latest: "Update 3 + KB3165756"
+    latestReleaseDate: 2016-09-14
+    link: https://learn.microsoft.com/previous-versions/mt752379(v=vs.140)
 
 -   releaseCycle: "12.0"
     codename: "2013"
