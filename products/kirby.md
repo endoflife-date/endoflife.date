@@ -18,8 +18,8 @@ releases:
     codename: "Brookesia"
     releaseDate: 2023-01-17
     eol: false
-    latest: "3.9.7"
-    latestReleaseDate: 2023-10-06
+    latest: "3.9.8"
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "3.8"
     codename: "Rhampholeon"

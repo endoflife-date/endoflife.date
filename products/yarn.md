@@ -23,14 +23,14 @@ releases:
 -   releaseCycle: "4"
     releaseDate: 2023-10-22
     eol: false
-    latest: '4.0.1'
-    latestReleaseDate: 2023-10-28
+    latest: '4.0.2'
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: false # still not clear, will wait until there is no more updates
-    latest: '3.6.4'
-    latestReleaseDate: 2023-10-03
+    latest: '3.7.0'
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "2"
     releaseDate: 2020-07-09
@@ -41,8 +41,8 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2017-09-05
     eol: false
-    latest: '1.22.19'
-    latestReleaseDate: 2022-06-08
+    latest: '1.22.21'
+    latestReleaseDate: 2023-11-14
     link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---

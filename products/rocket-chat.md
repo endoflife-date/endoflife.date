@@ -23,15 +23,15 @@ releases:
     releaseDate: 2023-09-27
     support: true
     eol: false
-    latest: '6.4.5'
-    latestReleaseDate: 2023-11-01
+    latest: '6.4.6'
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-08-02
     support: 2023-09-27
     eol: 2023-12-27 # adjusted
-    latest: '6.3.10'
-    latestReleaseDate: 2023-10-06
+    latest: '6.3.11'
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-15
