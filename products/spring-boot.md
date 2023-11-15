@@ -23,7 +23,7 @@ identifiers:
 # EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:
 -   releaseCycle: "3.1"
-    supportedJavaVersions: "17 - 20" # https://docs.spring.io/spring-boot/docs/3.1.1/reference/html/getting-started.html#getting-started.system-requirements
+    supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-05-18
     eol: 2024-05-18
     extendedSupport: 2025-08-18
@@ -31,7 +31,7 @@ releases:
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "3.0"
-    supportedJavaVersions: "17 - 20" # https://docs.spring.io/spring-boot/docs/3.0.8/reference/html/getting-started.html#getting-started.system-requirements
+    supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.0.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-11-24
     eol: 2023-11-24
     extendedSupport: 2025-02-24
@@ -39,10 +39,10 @@ releases:
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.7"
-    supportedJavaVersions: "8 - 20" # https://docs.spring.io/spring-boot/docs/2.7.13/reference/html/getting-started.html#getting-started.system-requirements
+    supportedJavaVersions: "8 - 20" # https://docs.spring.io/spring-boot/docs/2.7.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-05-19
-    eol: 2023-11-18
-    extendedSupport: 2025-02-18
+    eol: 2023-11-24
+    extendedSupport: 2025-08-24
     latest: "2.7.17"
     latestReleaseDate: 2023-10-19
 
