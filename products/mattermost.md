@@ -19,7 +19,7 @@ releases:
 -   releaseCycle: "9.2"
     releaseDate: 2023-11-16
     eol: 2024-02-15
-    latest: '9.2.0'
+    latest: '9.2.2'
     latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "9.1"
