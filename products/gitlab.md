@@ -19,11 +19,17 @@ auto:
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)-ee?$'
 
 
-# EOL of R = releaseDate(R+3)
-# Support of R = releaseDate(R+1)
-# Releases are made on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
+# support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+3)
+# Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
-#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, the monthly release date will change from the 22nd of every month to the third Thursday of every month.
+-   releaseCycle: "16.6"
+    releaseDate: 2023-11-16
+    support: 2023-12-21
+    eol: 2024-02-15
+    latest: "16.6.0"
+    latestReleaseDate: 2023-11-16
+
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
     support: 2023-11-16
