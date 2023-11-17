@@ -38,8 +38,8 @@ releases:
     releaseLabel: "7.1 (Rapid Release)"
     releaseDate: 2023-10-04
     eol: false
-    latest: '7.1.0'
-    latestReleaseDate: 2023-10-04
+    latest: '7.1.1'
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
@@ -72,8 +72,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-01
-    latest: "6.0.11"
-    latestReleaseDate: 2023-10-05
+    latest: "6.0.12"
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"

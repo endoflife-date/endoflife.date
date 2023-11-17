@@ -22,10 +22,10 @@ changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATE
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
 -   releaseCycle: "2.48"
-    releaseDate: 2023-11-16
+    releaseDate: 2023-11-15
     eol: 2023-12-28
     latest: "2.48.0"
-    latestReleaseDate: 2023-11-16
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "2.47"
     releaseDate: 2023-09-06

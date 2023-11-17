@@ -22,7 +22,7 @@ releases:
     eol: 2025-10-30
     upgradeVersion: "N/A"
     latest: "1.2.1.0.R7"
-    latestReleaseDate: 2023-10-11
+    latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-20

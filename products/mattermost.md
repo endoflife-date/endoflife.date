@@ -17,10 +17,10 @@ auto:
 # EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
 -   releaseCycle: "9.2"
-    releaseDate: 2023-11-16
+    releaseDate: 2023-10-28
     eol: 2024-02-15
     latest: '9.2.2'
-    latestReleaseDate: 2023-11-16
+    latestReleaseDate: 2023-11-08
 
 -   releaseCycle: "9.1"
     releaseDate: 2023-10-06
