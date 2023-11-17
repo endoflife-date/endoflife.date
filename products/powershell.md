@@ -9,7 +9,7 @@ alternate_urls:
 -   /ps
 -   /ps1
 versionCommand: pwsh -v
-releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
+releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
@@ -17,10 +17,18 @@ eolColumn: Support Status
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
 
+# EOL dates available on https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle#powershell-end-of-support-dates
 releases:
+-   releaseCycle: "7.4"
+    lts: true
+    releaseDate: 2023-11-16
+    eol: 2025-05-15
+    latest: "7.4.0"
+    latestReleaseDate: 2023-11-16
+
 -   releaseCycle: "7.3"
     releaseDate: 2022-11-08
-    eol: false
+    eol: 2024-05-08
     latest: "7.3.9"
     latestReleaseDate: 2023-10-26
 
