@@ -18,8 +18,8 @@ releases:
     releaseDate: 2022-06-14
     support: 2032-05-31
     eol: 2032-06-30
-    latest: "9.2"
-    latestReleaseDate: 2023-05-11
+    latest: "9.3"
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
