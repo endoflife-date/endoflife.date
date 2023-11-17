@@ -13,14 +13,24 @@ releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
+# See https://rubular.com/r/XQUdQN2MHdmmCD for reference
 auto:
 -   git: https://github.com/spring-projects/spring-framework.git
-  # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)(\.RELEASE)?$'
 
+# EOL and extended support date available on https://spring.io/projects/spring-framework#support.
+# Supported Java versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
+-   releaseCycle: "6.1"
+    supportedJavaVersions: "17-23"
+    releaseDate: 2023-11-16
+    eol: 2025-08-31
+    extendedSupport: 2026-12-31
+    latest: "6.1.0"
+    latestReleaseDate: 2023-11-16
+
 -   releaseCycle: "6.0"
-    supportedJavaVersions: "17" # https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview
+    supportedJavaVersions: "17-21"
     releaseDate: 2022-11-16
     eol: 2024-08-31
     extendedSupport: 2025-12-31
@@ -28,7 +38,7 @@ releases:
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "5.3"
-    supportedJavaVersions: "8, 11, 17" # https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+    supportedJavaVersions: "8-21"
     releaseDate: 2020-10-27
     eol: 2024-12-31
     extendedSupport: 2026-12-31
@@ -99,7 +109,7 @@ for more details about support roadmap.
 Extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
 
-## Java Compatibility
+## [Java Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
 {% include table.html
