@@ -10,6 +10,7 @@ activeSupportColumn: true
 
 auto:
 -   git: https://github.com/grafana/grafana
+    regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
