@@ -26,8 +26,9 @@ identifiers:
 # non-LTS: releaseDate(x)+4 months
 releases:
 -   releaseCycle: "6.6"
+    lts: true
     releaseDate: 2023-10-30
-    eol: 2024-02-29 # estimated releaseDate(x)+4 months
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
     latest: "6.6.1"
     latestReleaseDate: 2023-11-08
 
