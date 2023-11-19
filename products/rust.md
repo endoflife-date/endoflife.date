@@ -274,7 +274,7 @@ releases:
     releaseDate: 2018-12-07
     eol: false
     latest: "1.31.1"
-    latestReleaseDate: 2018-12-211
+    latestReleaseDate: 2018-12-21
 
 -   releaseCycle: "1.30"
     releaseDate: 2018-10-26
@@ -286,15 +286,9 @@ releases:
     releaseDate: 2018-09-14
     eol: false
     latest: "1.29.2"
-    latestReleaseDate: 2018-10-13 
+    latestReleaseDate: 2018-10-13
 ---
 
-> [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming language
-> that emphasizes performance, type safety, and concurrency.
-> It enforces memory safety, meaning that all references point to valid memory, without requiring the use
-> of automated memory management techniques such as garbage collection
+> [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety, meaning that all references point to valid memory, without requiring the use of automated memory management techniques such as garbage collection
 
-A new stable release is produced every six weeks, like clock-work. Only the latest stable release receives patches.
-Each new stable release spends the preceding six week period as the Beta release.
-
-There's also a new 'nightly' build every night, but I don't propose you list all of those.
+A new stable release is produced every six weeks, like clock-work. Only the latest stable release receives patches. Each new stable release spends the preceding six week period as the Beta release. There's also a new 'nightly' build every night, but I don't propose you list all of those.
