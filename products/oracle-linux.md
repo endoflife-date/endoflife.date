@@ -5,10 +5,11 @@ tags: linux-distribution oracle
 iconSlug: oracle
 permalink: /oracle-linux
 alternate_urls:
-  - /oraclelinux
+-   /oraclelinux
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
-changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
+changelogTemplate: 
+  https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releaseDateColumn: true
 eolColumn: Basic/Premier Support
 extendedSupportColumn: Extended Support
@@ -28,8 +29,8 @@ releases:
     releaseDate: 2022-07-06
     eol: 2032-06-30
     extendedSupport: 2034-06-30
-    latest: "9.2"
-    latestReleaseDate: 2023-05-26
+    latest: "9.3"
+    latestReleaseDate: 2023-11-17
 
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
