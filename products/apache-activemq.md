@@ -25,10 +25,10 @@ auto:
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
 -   releaseCycle: "6.0"
-    releaseDate: 2023-11-12
+    releaseDate: 2023-11-17
     eol: false # still listed on https://activemq.apache.org/
     latest: "6.0.0"
-    latestReleaseDate: 2023-11-12
+    latestReleaseDate: 2023-11-17
 
 -   releaseCycle: "5.18"
     releaseDate: 2023-03-18
