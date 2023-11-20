@@ -27,9 +27,9 @@ releases:
     extendedSupport: false
     latestGdr: "16.0.1105.1"
     latestGdrLink: https://support.microsoft.com/help/5029379
-    latest: "16.0.4085.2 CU9"
-    latestReleaseDate: 2023-10-12
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate9
+    latest: "16.0.4095.4 CU10"
+    latestReleaseDate: 2023-11-16
+    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate10
 
 -   releaseCycle: "2016-sp3"
     codename: SQL16
