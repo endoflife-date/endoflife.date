@@ -1,7 +1,7 @@
 ---
 title: SUSE Linux Enterprise Server
 category: os
-tags: linux-distribution
+tags: linux-distribution suse
 iconSlug: suse
 permalink: /sles
 alternate_urls:
