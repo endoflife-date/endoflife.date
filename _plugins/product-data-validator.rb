@@ -52,6 +52,7 @@ module EndOfLifeHooks
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
+    'https://visualstudio.microsoft.com/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://wiki.debian.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://wiki.ubuntu.com': SUPPRESSED_BECAUSE_503,
