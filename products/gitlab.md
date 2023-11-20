@@ -19,11 +19,19 @@ auto:
     regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)-ee?$'
 
 
-# EOL of R = releaseDate(R+3)
-# Support of R = releaseDate(R+1)
-# Releases are made on third Thursday of every month (https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
+# support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+3)
+# Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
-#   Starting with GitLab 16.6, which will be released on Nov. 16, 2023, the monthly release date will change from the 22nd of every month to the third Thursday of every month.
+-   releaseCycle: "16.6"
+    releaseDate: 2023-11-16
+    support: 2023-12-21
+    eol: 2024-02-15
+    latest: "16.6.0"
+    latestReleaseDate: 2023-11-16
+    # 404 with link from changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v16.6.0-ee
+    link: https://about.gitlab.com/releases/2023/11/16/gitlab-16-6-released/
+
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
     support: 2023-11-16
@@ -274,7 +282,7 @@ criteria](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-olde
 | Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | Major        | For significant changes, or when any backward-incompatible changes are introduced to the public API.                                                            | Yearly. Subsequent major releases will be scheduled for [third Thursday][release-day] of May each year, by default. |
-| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day].                                                                           |
+| Minor        | For when new backward-compatible functionality is introduced to the public API, a minor feature is introduced, or when a set of smaller features is rolled out. | Monthly on [third Thursday][release-day]. Upcoming release dates can be seen [on this page](https://about.gitlab.com/releases/)).                                                                           |
 | Patch        | For backward-compatible bug fixes that fix incorrect behavior.                                                                                                  | As needed.                                                                                                          |
 
 [release-day]: https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/ "Release Date Change"
