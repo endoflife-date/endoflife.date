@@ -13,19 +13,6 @@ releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
-customColumns:
--   property: supportedJavaVersions
-    position: after-release-column
-    label: Java (LTS)
-    description: Supported Java (LTS) versions
-    link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
-
--   property: supportedJakartaVersions
-    position: after-release-column
-    label: Jakarta
-    description: Supported Jakarta versions
-    link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
-
 # See https://rubular.com/r/XQUdQN2MHdmmCD for reference
 auto:
 -   git: https://github.com/spring-projects/spring-framework.git
@@ -129,3 +116,11 @@ for more details about support roadmap.
 
 Extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+
+## [Java/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
+
+{% include table.html
+  labels="Release,Java (LTS)"
+  fields="releaseCycle,supportedJavaVersions"
+  types="string,string"
+  rows=page.releases %}
