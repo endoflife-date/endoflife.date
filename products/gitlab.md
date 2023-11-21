@@ -24,11 +24,11 @@ auto:
 # Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
 -   releaseCycle: "16.6"
-    releaseDate: 2023-11-16
+    releaseDate: 2023-11-15
     support: 2023-12-21
     eol: 2024-02-15
     latest: "16.6.0"
-    latestReleaseDate: 2023-11-16
+    latestReleaseDate: 2023-11-15
     # 404 with link from changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v16.6.0-ee
     link: https://about.gitlab.com/releases/2023/11/16/gitlab-16-6-released/
 
