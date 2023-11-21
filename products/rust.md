@@ -229,10 +229,10 @@ releases:
     latestReleaseDate: 2019-11-08 
 
 -   releaseCycle: "1.38"
-    releaseDate: 2029-09-27
+    releaseDate: 2019-09-27
     eol: false
     latest: "1.38.0"
-    latestReleaseDate: 2029-09-27 
+    latestReleaseDate: 2019-09-27 
 
 -   releaseCycle: "1.37"
     releaseDate: 2019-08-16
