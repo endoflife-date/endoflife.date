@@ -2,9 +2,9 @@ title: Eclipse Jetty
 category: server-app
 tags: eclipse web-server
 iconSlug: eclipsejetty
-permalink: /jetty
+permalink: /eclipse-jetty
 releasePolicyLink: https://eclipse.dev/jetty/download.php
-changelogTemplate: "https://github.com/jetty/jetty.project/releases/tag/jetty-{{'__LATEST__'}}"
+changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
 eolColumn: "Community Support"
 extendedSupportColumn: "Extended Support"
@@ -13,8 +13,9 @@ identifiers:
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
 
 auto:
--   maven: org.eclipse.jetty/jetty-server
+-   maven: org.eclipse.jetty/jetty-server  
 
+# eol status and minJavaVersion can be found on https://eclipse.dev/jetty/download.php
 releases:
 -   releaseCycle: "12"
     releaseDate: 2023-08-07
@@ -24,22 +25,25 @@ releases:
     latest: "12.0.3"
     latestReleaseDate: 2023-10-30
 
+# https://github.com/jetty/jetty.project/issues/10485
 -   releaseCycle: "11"
     releaseDate: 2020-12-07
-    eol: false
+    eol: 2024-01-01
     extendedSupport: true
     minJavaVersion: 11
     latest: "11.0.18"
     latestReleaseDate: 2023-10-30
 
+# https://github.com/jetty/jetty.project/issues/10485
 -   releaseCycle: "10"
     releaseDate: 2020-12-07
-    eol: false
+    eol: 2024-01-01
     extendedSupport: true
     minJavaVersion: 11
     latest: "10.0.18"
     latestReleaseDate: 2023-10-30
 
+# https://github.com/jetty/jetty.project/issues/7958
 -   releaseCycle: "9.4"
     releaseDate: 2016-12-07
     eol: 2022-06-01
@@ -50,7 +54,7 @@ releases:
 
 -   releaseCycle: "9.3"
     releaseDate: 2015-06-01
-    eol: 2021-10-01
+    eol: 2022-12-31
     extendedSupport: 2021-10-01
     minJavaVersion: 8
     latest: "9.3.30.v20211001"
@@ -58,7 +62,7 @@ releases:
     
 -   releaseCycle: "9.2"
     releaseDate: 2014-05-23
-    eol: 2020-04-28
+    eol: 2018-12-31
     extendedSupport: 2020-04-28
     minJavaVersion: 7
     latest: "9.2.30.v20200428"
@@ -66,7 +70,7 @@ releases:
 
 -   releaseCycle: "9.1"
     releaseDate: 2013-11-15
-    eol: 2016-01-12
+    eol: 2014-12-31
     extendedSupport: 2016-01-12
     minJavaVersion: 7
     latest: "9.1.6.v20160112"
@@ -74,7 +78,7 @@ releases:
 
 -   releaseCycle: "9.0"
     releaseDate: 2013-03-08
-    eol: 2013-11-07
+    eol: 2013-12-31
     extendedSupport: 2013-11-07
     minJavaVersion: 7
     latest: "9.0.7.v20131107"
@@ -82,18 +86,18 @@ releases:
 
 -   releaseCycle: "8"
     releaseDate: 2011-09-01
-    eol: 2016-09-08
+    eol: 2014-12-31
     extendedSupport: 2016-09-08
     minJavaVersion: 6
-    latest: "8.2.0-v20160908"
+    latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
 -   releaseCycle: "7"
     releaseDate: 2009-10-05
-    eol: 2016-09-08
+    eol: 2014-12-31
     extendedSupport: 2016-09-08
     minJavaVersion: 5
-    latest: "7.6.21-v20160908"
+    latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
 
 ---
@@ -104,4 +108,13 @@ releases:
 > [Servlets](https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"),
 > and [WebSockets](https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket").
 
+Eclipse Jetty does not have a clearly defined support policy. Major releases appear to be supported for approx 5 years.
+
+| Action                                       | Community Support | Extended Support |
+|----------------------------------------------|-------------------| ---------------- |
+| Community PRs reviewed and integrated        | &check;           | &cross;          |
+| Webtide Customer PRs reviewed and integrated | &check;           | &check;          |
+| Community triggered releases                 | &check;           | &cross;          |
+| Webtide Customer triggered releases          | &check;           | &check;          |
+| Security / Vulnerability triggered releases  | &check;           | &check;          |
 
