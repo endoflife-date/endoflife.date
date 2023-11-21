@@ -18,7 +18,7 @@ auto:
 releases:
 -   releaseCycle: "2.19"
     releaseDate: 2023-11-17
-    eol: false # Update to release date of 2.19 when available
+    eol: false # Update to release date of 2.20 when available
     latest: "2.19.0"
     latestReleaseDate: 2023-11-17
 
