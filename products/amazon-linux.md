@@ -5,7 +5,7 @@ tags: amazon linux-distribution
 iconSlug: amazonaws
 permalink: /amazon-linux
 versionCommand: cat /etc/system-release
-releasePolicyLink: https://aws.amazon.com/amazon-linux-2/release-notes/
+releasePolicyLink: https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-al2.html
 changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__'|replace:'-',''}}.html"
 activeSupportColumn: Standard Support
 eolColumn: Security Support
@@ -204,7 +204,7 @@ Packages that aren't part of the core packages are supported based
 on their specific upstream sources. Support status and dates of individual packages
 can be checked via the `dnf supportinfo` command.
 
-A [comparision with Amazon Linux 2](https://docs.aws.amazon.com/linux/al2023/ug/compare-with-al2.html)
+A [comparison with Amazon Linux 2](https://docs.aws.amazon.com/linux/al2023/ug/compare-with-al2.html)
 is available as well.
 
 See the [frequently asked questions][al2023-faq] for more details.
