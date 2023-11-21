@@ -13,6 +13,13 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "8.3"
+    releaseDate: 2023-11-23
+    support: 2025-11-23
+    eol: 2026-11-23
+    latest: "8.3.0"
+    latestReleaseDate: 2023-11-23
+    
 -   releaseCycle: "8.2"
     releaseDate: 2022-12-08
     support: 2024-12-08
