@@ -23,8 +23,8 @@ releases:
     releaseDate: 2023-09-27
     support: true
     eol: false
-    latest: '6.4.7'
-    latestReleaseDate: 2023-11-17
+    latest: '6.4.8'
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-08-02
