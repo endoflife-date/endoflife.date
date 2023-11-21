@@ -208,7 +208,7 @@ releases:
   more information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
 - A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported.
 
-## Determing product classification
+## Determining product classification
 
 One can run the following command depending on your operating system to see which product series
 your CPU belongs on:

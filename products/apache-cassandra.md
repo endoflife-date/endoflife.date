@@ -70,5 +70,5 @@ a 3.x version to a 5.x version is not supported. Only upgrades stepping through 
 ## Release Cadence
 
 The project currently targets yearly major releases (can be a new major or minor version, depending
-on upgrade compatability). Patch releases are cut based on either volume of fixes or severity of
+on upgrade compatibility). Patch releases are cut based on either volume of fixes or severity of
 bugfixes that get committed to the project.

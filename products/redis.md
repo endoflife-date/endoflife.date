@@ -87,4 +87,4 @@ major security issues are committed and released as patches:
 - The previous minor version of the latest stable release.
 - The previous stable major release.
 
-[Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisiories.
+[Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisories.

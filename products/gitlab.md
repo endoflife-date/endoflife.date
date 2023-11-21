@@ -5,7 +5,7 @@ tags: gitlab
 iconSlug: gitlab
 permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
-releasePolicyLink: https://docs.gitlab.com/ce/policy/maintenance.html
+releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
 releaseDateColumn: true
 activeSupportColumn: true
@@ -269,7 +269,7 @@ You can subscribe to an [RSS Feed](https://about.gitlab.com/atom.xml) as well. A
 available](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features)
 to track new features since a given version.
 
-GitLab is distributed as [two disctinct flavors](https://about.gitlab.com/install/ce-or-ee/) public
+GitLab is distributed as [two distinct flavors](https://about.gitlab.com/install/ce-or-ee/) public
 Docker images on [DockerHub](https://hub.docker.com/u/gitlab) :
 
 - [Community Edition (`CE`)](https://gitlab.com/rluna-gitlab/gitlab-ce) : [`gitlab/gitlab-ce`](https://hub.docker.com/r/gitlab/gitlab-ce/)
