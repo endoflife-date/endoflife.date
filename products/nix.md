@@ -17,10 +17,10 @@ auto:
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
 -   releaseCycle: "2.19"
-    releaseDate: 2023-11-17
+    releaseDate: 2023-11-20
     eol: false # Update to release date of 2.20 when available
-    latest: "2.19.0"
-    latestReleaseDate: 2023-11-17
+    latest: "2.19.1"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20
