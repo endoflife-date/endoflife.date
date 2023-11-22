@@ -30,10 +30,17 @@ releases:
     latest: "2.433"
     latestReleaseDate: 2023-11-21
 
+-   releaseCycle: "2.426"
+    lts: 2023-11-15
+    releaseDate: 2023-10-03
+    eol: false
+    latest: "2.426.1"
+    latestReleaseDate: 2023-11-15
+
 -   releaseCycle: "2.414"
     lts: 2023-08-23
     releaseDate: 2023-07-11
-    eol: false
+    eol: 2023-11-15
     latest: "2.414.3"
     latestReleaseDate: 2023-10-18
 
