@@ -22,11 +22,12 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.0/userguide/compatibility.html
-    testedJavaVersions: 8 - 19
-    testedKotlinVersions: 1.6.10 - 1.8.10
+    # Supported versions see https://docs.gradle.org/8.4/userguide/compatibility.html
+    runningJavaVersions: 8 - 20
+    testedJavaVersions: 8 - 21
+    testedKotlinVersions: 1.6.10 - 1.9.10
     testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3 - 7.4, 8.0
+    testedAndroidVersions: 7.3 - 8.1
     support: true
     eol: false
     latest: "8.4.0"
@@ -35,6 +36,7 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
     # Supported versions see https://docs.gradle.org/7.6.3/userguide/compatibility.html
+    runningJavaVersions: 8 - 19
     testedJavaVersions: 8 - 19
     testedKotlinVersions: 1.3.72 - 1.7.10
     testedGroovyVersions: 1.5.8 - 4.0.0
@@ -47,7 +49,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2019-11-08
     # Supported versions see https://docs.gradle.org/6.9.4/userguide/compatibility.html
-    testedJavaVersions: 8 - 15
+    runningJavaVersions: 8 - 15
+    testedJavaVersions: 8 - 16
     testedKotlinVersions: 1.3.21 - 1.4.20
     testedGroovyVersions: 1.5.8 - 2.5.12
     testedAndroidVersions: 3.4 - 3.6, 4.0 - 4.2
@@ -58,6 +61,7 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2018-11-23
+    runningJavaVersions: 8 - 12
     testedJavaVersions: N/A
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
@@ -69,6 +73,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2017-06-14
+    runningJavaVersions: 8 - 10
     testedJavaVersions: N/A
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
@@ -80,6 +85,7 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2016-08-15
+    runningJavaVersions: 8
     testedJavaVersions: N/A
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
@@ -91,6 +97,7 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2014-07-01
+    runningJavaVersions: 8
     testedJavaVersions: N/A
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
@@ -102,6 +109,7 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2012-06-12
+    runningJavaVersions: N/A
     testedJavaVersions: N/A
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
@@ -127,7 +135,16 @@ Gradle follows [Semantic Versioning](https://semver.org/). The
 
 Gradle itself is tested with the following versions:
 
-### Java ###
+### Java support for running Gradle
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"runningJavaVersions"," - " %}
+{% include table.html
+labels="Gradle release,Java version"
+fields="releaseCycle,runningJavaVersions"
+types="string,string"
+rows=collapsedCycles %}
+
+### Java support for compiling/testing/…
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedJavaVersions"," - " %}
 {% include table.html
@@ -138,7 +155,7 @@ rows=collapsedCycles %}
 
 Java 6 and 7 can still be used for compilation and forked test execution.
 
-### Kotlin ###
+### Kotlin
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedKotlinVersions"," - " %}
 {% include table.html
@@ -147,7 +164,7 @@ fields="releaseCycle,testedKotlinVersions"
 types="string,string"
 rows=collapsedCycles %}
 
-### Groovy ###
+### Groovy
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedGroovyVersions"," - " %}
 {% include table.html
@@ -156,7 +173,7 @@ fields="releaseCycle,testedGroovyVersions"
 types="string,string"
 rows=collapsedCycles %}
 
-### Android ###
+### Android
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"testedAndroidVersions"," - " %}
 {% include table.html
