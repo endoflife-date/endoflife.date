@@ -45,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2024-10-01 # estimated release day for 131 on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "115.4.0"
-    latestReleaseDate: 2023-10-24
+    latest: "115.5.0"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "114"
     releaseDate: 2023-06-06
