@@ -276,7 +276,9 @@ AWS Lambda supports the following runtimes:
 - [Go](/go)
 - [.NET Core](/dotnet)
 
-## Runtime updates
+## Standard Support
+
+Amazon provides security patches to the underlying runtimes, along with technical support.
 
 Runtime updates are, most of the time, backward compatible with existing functions. But, in some
 rare cases, a runtime update can negatively impact an existing function. An example of such case
@@ -291,9 +293,12 @@ There are three modes of runtime updates:
 [Responsibility for applying runtime updates](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-update.html#runtime-management-shared)
 varies according to chosen runtime update mode.
 
-## Support Levels
+Trusted Advisor includes a check that provides [120 days' notice of upcoming Lambda runtime end of
+support](https://docs.aws.amazon.com/awssupport/latest/user/security-checks.html#aws-lambda-functions-deprecated-runtimes),
+and Lambda notifies you by email if you have functions using a runtime that is scheduled for end of
+support in the next 60 days.
 
-**Standard Support**: Lambda provides security patches to the underlying runtime, along with technical support.
+## Deprecated Support
 
 Deprecation (end of support) for a runtime occurs in two phases:
 
@@ -304,7 +309,3 @@ Deprecation (end of support) for a runtime occurs in two phases:
   is no more possible. Phase 2 starts at least 30 days after the start of Phase 1.
 
 Invocations of functions that use deprecated runtime is never blocked.
-
-## Notifications
-
-Trusted Advisor includes a check that provides [120 days' notice of upcoming Lambda runtime end of support](https://docs.aws.amazon.com/awssupport/latest/user/security-checks.html#aws-lambda-functions-deprecated-runtimes), and Lambda notifies you by email if you have functions using a runtime that is scheduled for end of support in the next 60 days.
