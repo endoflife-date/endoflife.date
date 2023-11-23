@@ -37,14 +37,14 @@ releases:
 
 ---
 
-> [Rancher](https://www.rancher.com/) is a complete software stack for teams
-adopting containers. It addresses the operational and security challenges of managing multiple
-Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized
-workloads.
+> [Rancher](https://www.rancher.com/) is a complete software stack for teams adopting containers.
+> It addresses the operational and security challenges of managing multiple Kubernetes clusters,
+> while providing DevOps teams with integrated tools for running containerized workloads.
 
-Rancher product releases follows [Semantic Versioning](https://semver.org/).
-
-Upon the General Availability (GA) date, products are supported and maintained until the End of Maintenance date (Full Support).
-After a product release reaches its End of Maintenance (EOM) date, no further code-level maintenance will be provided, except for critical security- related fixes on a per-request basis (Limited Support).
+Rancher follows [Semantic Versioning](https://semver.org/). Upon the General Availability (GA)
+date, products are supported and maintained until the End of Maintenance date (Full Support).
+After a product release reaches its End of Maintenance (EOM) date, no further code-level
+maintenance will be provided, except for critical security-related fixes on a per-request basis
+(Limited Support).
 
 Compatibility with various Kubernetes distributions can be found on [the rancher support matrix](https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/).
