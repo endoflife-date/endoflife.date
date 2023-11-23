@@ -29,8 +29,6 @@ releases:
     eol: 2024-02-15
     latest: "16.6.0"
     latestReleaseDate: 2023-11-15
-    # 404 with link from changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v16.6.0-ee
-    link: https://about.gitlab.com/releases/2023/11/16/gitlab-16-6-released/
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
