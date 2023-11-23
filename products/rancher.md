@@ -26,14 +26,35 @@ releases:
     support: 2024-05-15
     eol: 2024-11-18
     latest: "2.7.9"
-    latestReleaseDate: 2023-10-26
+    latestReleaseDate: 2023-10-16
 
 -   releaseCycle: "2.6"
     releaseDate: 2021-08-31
     support: 2023-03-01
-    eol: 2023-11-30
+    eol: 2024-04-30
     latest: "2.6.13"
     latestReleaseDate: 2023-06-01
+
+-   releaseCycle: "2.5"
+    releaseDate: 2020-10-06
+    support: 2022-01-05
+    eol: 2023-01-31
+    latest: "2.5.17"
+    latestReleaseDate: 2023-01-24
+
+-   releaseCycle: "2.4"
+    releaseDate: 2020-03-30
+    support: 2021-07-30
+    eol: 2022-03-31
+    latest: "2.4.18"
+    latestReleaseDate: 2022-04-01
+
+-   releaseCycle: "2.3"
+    releaseDate: 2019-10-08
+    support: 2020-10-07
+    eol: 2021-04-07
+    latest: "2.3.11"
+    latestReleaseDate: 2021-03-03
 
 ---
 
@@ -41,10 +62,11 @@ releases:
 > It addresses the operational and security challenges of managing multiple Kubernetes clusters,
 > while providing DevOps teams with integrated tools for running containerized workloads.
 
-Rancher follows [Semantic Versioning](https://semver.org/). Upon the General Availability (GA)
-date, products are supported and maintained until the End of Maintenance date (Full Support).
-After a product release reaches its End of Maintenance (EOM) date, no further code-level
-maintenance will be provided, except for critical security-related fixes on a per-request basis
-(Limited Support).
+Rancher does not have a fixed release and support policy, but End Of Maintenance (EOM) and End of
+Life (EOL) dates for each release are well documented [on their website](https://www.suse.com/lifecycle#rancher).
+
+Looking at the latest releases, it seems that all releases are fully supported for at least 1 year
+with bug and security fixes, followed by at least 6 months of limited support with critical
+security fixes only.
 
 Compatibility with various Kubernetes distributions can be found on [the rancher support matrix](https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/).
