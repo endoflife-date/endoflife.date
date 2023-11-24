@@ -2,7 +2,7 @@
 title: Gradle
 category: app
 tags: java-runtime
-iconSlug: gradle
+iconSlug: gradle build-tool
 permalink: /gradle
 versionCommand: gradle --version
 releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support
