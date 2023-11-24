@@ -25,24 +25,21 @@ releases:
     releaseDate: 2023-11-17
     support: true
     eol: false
-    link: 
-      https://aws.amazon.com/about-aws/whats-new/2023/11/aws-lambda-support-java-21/
+    link: https://aws.amazon.com/about-aws/whats-new/2023/11/aws-lambda-support-java-21/
 
 -   releaseCycle: "nodejs20.x"
     releaseLabel: Node.js 20
     releaseDate: 2023-11-15
     support: true
     eol: false
-    link: 
-      https://aws.amazon.com/blogs/compute/node-js-20-x-runtime-now-available-in-aws-lambda/
+    link: https://aws.amazon.com/blogs/compute/node-js-20-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "provided.al2023"
     releaseLabel: Custom Runtime (AL2023)
     releaseDate: 2023-11-10
     support: true
     eol: false
-    link: 
-      https://aws.amazon.com/blogs/compute/introducing-the-amazon-linux-2023-runtime-for-aws-lambda/
+    link: https://aws.amazon.com/blogs/compute/introducing-the-amazon-linux-2023-runtime-for-aws-lambda/
 
 -   releaseCycle: "python3.11"
     releaseLabel: Python 3.11
