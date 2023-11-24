@@ -1,7 +1,7 @@
 ---
 title: Apache Maven
 category: app
-tags: apache java-runtime
+tags: apache java-runtime build-tool
 iconSlug: apachemaven
 permalink: /maven
 alternate_urls:
