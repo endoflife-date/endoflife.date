@@ -22,6 +22,14 @@ identifiers:
 
 # EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:
+-   releaseCycle: "3.2"
+    supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
+    releaseDate: 2023-11-23
+    eol: 2024-11-23
+    extendedSupport: 2026-02-23
+    latest: "3.2.0"
+    latestReleaseDate: 2023-11-23
+
 -   releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-05-18
