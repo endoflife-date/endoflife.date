@@ -38,7 +38,7 @@ releases:
 
 -   releaseCycle: "provided.al2023"
     releaseLabel: Custom Runtime (AL2023)
-    releaseDate: 2023-11-15
+    releaseDate: 2023-11-10
     support: true
     eol: false
     link: 
