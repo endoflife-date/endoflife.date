@@ -42,6 +42,7 @@ module EndOfLifeHooks
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_403,
+    'https://forums.unrealircd.org': SUPPRESSED_BECAUSE_403,
     'https://github.com/angular/angular.js/blob/v1.6.10/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
