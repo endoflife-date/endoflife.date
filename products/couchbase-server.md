@@ -26,19 +26,19 @@ releases:
     releaseDate: 2023-06-01
     eol: 2026-07-31
     latest: "7.2.3"
-    latestReleaseDate: 2023-11-15
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "7.1"
-    releaseDate: 2022-05-15
+    releaseDate: 2022-05-31
     eol: 2024-01-31
     latest: "7.1.6"
-    latestReleaseDate: 2023-11-15
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "7.0"
-    releaseDate: 2021-07-15
+    releaseDate: 2021-07-31
     eol: 2023-01-31
     latest: "7.0.5"
-    latestReleaseDate: 2022-12-15
+    latestReleaseDate: 2022-12-31
 
 -   releaseCycle: "6.6"
     releaseDate: 2020-08-12

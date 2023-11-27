@@ -5,7 +5,8 @@ tags: adobe
 iconSlug: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
-releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
+releasePolicyLink: 
+  https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 releaseDateColumn: true
 eolColumn: Core Support
@@ -13,42 +14,42 @@ extendedSupportColumn: true
 
 releases:
 -   releaseCycle: "2023"
-    releaseDate: 2023-05-17
+    releaseDate: 2023-07-11
     eol: 2028-05-16
     extendedSupport: 2029-05-16
     latest: "2023.0.6.330617"
     latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "2021"
-    releaseDate: 2020-11-11
+    releaseDate: 2021-03-22
     eol: 2025-11-10
     extendedSupport: 2026-11-10
     latest: "2021.0.12.330257"
     latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "2018"
-    releaseDate: 2018-07-12
+    releaseDate: 2018-09-11
     eol: 2023-07-13
     extendedSupport: 2024-07-13
     latest: "2018.0.19.330149"
     latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "2016"
-    releaseDate: 2016-02-16
+    releaseDate: 2016-05-10
     eol: 2021-02-17
     extendedSupport: 2022-02-17
     latest: "2016.0.17.325979"
     latestReleaseDate: 2021-03-22
 
 -   releaseCycle: "11"
-    releaseDate: 2014-04-29
+    releaseDate: 2014-09-22
     eol: 2019-04-30
     extendedSupport: 2021-04-30
     latest: "11.0.19.314546"
     latestReleaseDate: 2019-06-11
 
 -   releaseCycle: "10"
-    releaseDate: 2012-05-15
+    releaseDate: 2016-05-10
     eol: 2017-05-16
     extendedSupport: 2019-05-16
     latest: "10.0.23.302580"
