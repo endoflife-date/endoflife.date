@@ -16,7 +16,14 @@ identifiers:
 auto:
 -   git: https://github.com/GerritCodeReview/gerrit.git
 
+# eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "3.9"
+    releaseDate: 2023-11-25
+    eol: false
+    latest: "3.9.0"
+    latestReleaseDate: 2023-11-25
+
 -   releaseCycle: "3.8"
     releaseDate: 2023-05-19
     eol: false
@@ -31,7 +38,7 @@ releases:
 
 -   releaseCycle: "3.6"
     releaseDate: 2022-05-23
-    eol: false
+    eol: 2023-11-25
     latest: "3.6.8"
     latestReleaseDate: 2023-11-23
 
