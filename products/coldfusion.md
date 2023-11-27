@@ -12,6 +12,13 @@ releaseDateColumn: true
 eolColumn: Core Support
 extendedSupportColumn: true
 
+# See https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py.
+auto:
+-   custom: true
+
+# When adding a cycle, don't forget to add its release note URL in
+# https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
+# to benefit from auto-updates.
 releases:
 -   releaseCycle: "2023"
     releaseDate: 2023-07-11
