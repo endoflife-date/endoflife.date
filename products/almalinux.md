@@ -31,9 +31,9 @@ releases:
     releaseDate: 2021-03-30
     support: 2024-05-01
     eol: 2029-03-01
-    latest: "8.8"
-    latestReleaseDate: 2023-05-18
-    link: https://almalinux.org/blog/almalinux-88-now-available/
+    latest: "8.9"
+    latestReleaseDate: 2023-11-21
+    link: https://almalinux.org/blog/2023-11-21-announcing-89-stable/
 
 ---
 
