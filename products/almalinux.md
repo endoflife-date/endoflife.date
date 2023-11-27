@@ -2,6 +2,7 @@
 title: AlmaLinux OS
 category: os
 tags: linux-distribution
+iconSlug: almalinux
 permalink: /almalinux
 versionCommand: cat /etc/redhat-release
 releasePolicyLink: 
