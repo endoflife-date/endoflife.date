@@ -15,6 +15,11 @@ eolColumn: End of Support
 # Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 releases:
+-   releaseCycle: "1.28"
+    releaseDate: 2023-11-07
+    eol: 2024-11-30 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    link: https://azure.microsoft.com/updates/ga-kubernetes-128-support-in-azure-kubernetes-service-aks/
+
 -   releaseCycle: "1.27"
     releaseDate: 2023-08-16
     eol: 2024-07-31 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
