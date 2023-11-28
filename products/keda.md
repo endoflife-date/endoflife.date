@@ -9,13 +9,13 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
-  - git: https://github.com/kedacore/keda.git
+-   git: https://github.com/kedacore/keda.git
 
 identifiers:
-  - purl: pkg:github/kedacore/keda
-  - purl: pkg:oci/keda-admission-webhooks?repository_url=ghcr.io/kedacore
-  - purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
-  - purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
+-   purl: pkg:github/kedacore/keda
+-   purl: pkg:oci/keda-admission-webhooks?repository_url=ghcr.io/kedacore
+-   purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
+-   purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
 # See https://github.com/kedacore/keda?tab=security-ov-file#readme.
 # Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md.
@@ -24,8 +24,8 @@ releases:
     releaseDate: 2023-09-28
     eol: false
     supportedKubernetesVersions: 1.26 - 1.28
-    latest: "2.12.0"
-    latestReleaseDate: 2023-09-28
+    latest: "2.12.1"
+    latestReleaseDate: 2023-11-27
 
 -   releaseCycle: "2.11"
     releaseDate: 2023-06-22
