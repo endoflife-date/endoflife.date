@@ -18,7 +18,7 @@ extendedSupportColumn: Extended Security Updates
 # releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 # Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
 releases:
--   releaseCycle: "2022"
+-   releaseCycle: "16.0"
     codename: Dallas
     releaseLabel: "2022"
     releaseDate: 2022-11-16
@@ -31,7 +31,7 @@ releases:
     latestReleaseDate: 2023-11-16
     link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate10
 
--   releaseCycle: "2016-sp3"
+-   releaseCycle: "13.0-sp3"
     codename: SQL16
     releaseLabel: "2016 SP3"
     releaseDate: 2021-09-15
@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029186
 
--   releaseCycle: "2019"
+-   releaseCycle: "15.0"
     codename: Seattle
     releaseLabel: "2019"
     releaseDate: 2019-11-04
@@ -57,7 +57,7 @@ releases:
     latestReleaseDate: 2023-10-12
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate23
 
--   releaseCycle: "2014-sp3"
+-   releaseCycle: "12.0-sp3"
     codename: Hekaton
     releaseLabel: "2014 SP3"
     releaseDate: 2018-10-30
@@ -70,7 +70,7 @@ releases:
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029185
 
--   releaseCycle: "2016-sp2"
+-   releaseCycle: "13.0-sp2"
     codename: SQL16
     releaseLabel: "2016 SP2"
     releaseDate: 2018-04-24
@@ -83,7 +83,7 @@ releases:
     latestReleaseDate: 2019-07-09
     link: https://support.microsoft.com/help/5014351
 
--   releaseCycle: "2012-sp4"
+-   releaseCycle: "11.0-sp4"
     codename: Denali
     releaseLabel: "2012 SP4"
     releaseDate: 2017-10-05
@@ -96,7 +96,7 @@ releases:
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021123
 
--   releaseCycle: "2017"
+-   releaseCycle: "14.0"
     codename: Helsinki
     releaseLabel: "2017"
     releaseDate: 2017-09-29
@@ -109,7 +109,7 @@ releases:
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029376
 
--   releaseCycle: "2016-sp1"
+-   releaseCycle: "13.0-sp1"
     codename: SQL16
     releaseLabel: "2016 SP1"
     releaseDate: 2016-11-16
@@ -122,7 +122,7 @@ releases:
     latestReleaseDate: 2019-07-09
     link: https://support.microsoft.com/help/4505221
 
--   releaseCycle: "2014-sp2"
+-   releaseCycle: "12.0-sp2"
     codename: Hekaton
     releaseLabel: "2014 SP2"
     releaseDate: 2016-07-14
@@ -135,7 +135,7 @@ releases:
     latestReleaseDate: 2019-07-29
     link: https://support.microsoft.com/help/4500180
 
--   releaseCycle: "2016"
+-   releaseCycle: "13.0"
     codename: SQL16
     releaseLabel: "2016"
     releaseDate: 2016-06-01
@@ -148,7 +148,7 @@ releases:
     latestReleaseDate: 2018-01-06
     link: https://support.microsoft.com/help/4058559
 
--   releaseCycle: "2012-sp3"
+-   releaseCycle: "11.0-sp3"
     codename: Denali
     releaseLabel: "2012 SP3"
     releaseDate: 2015-12-01
@@ -161,7 +161,7 @@ releases:
     latestReleaseDate: 2018-01-16
     link: https://support.microsoft.com/help/4057121
 
--   releaseCycle: "2014-sp1"
+-   releaseCycle: "12.0-sp1"
     codename: Hekaton
     releaseLabel: "2014 SP1"
     releaseDate: 2015-04-14
@@ -174,7 +174,7 @@ releases:
     latestReleaseDate: 2017-08-08
     link: https://support.microsoft.com/help/4019099
 
--   releaseCycle: "2008-r2-sp3"
+-   releaseCycle: "10.50-sp3"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2014-09-26
@@ -187,7 +187,7 @@ releases:
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021112
 
--   releaseCycle: "2008-sp4"
+-   releaseCycle: "10.0-sp4"
     codename: Katmai
     releaseLabel: "2008 SP4"
     releaseDate: 2014-07-07
@@ -200,7 +200,7 @@ releases:
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5020863
 
--   releaseCycle: "2012-sp2"
+-   releaseCycle: "11.0-sp2"
     codename: Denali
     releaseLabel: "2012 SP2"
     releaseDate: 2014-06-10
@@ -213,7 +213,7 @@ releases:
     latestReleaseDate: 2016-11-17
     link: https://support.microsoft.com/help/3205054
 
--   releaseCycle: "2014"
+-   releaseCycle: "12.0"
     codename: Hekaton
     releaseLabel: "2014"
     releaseDate: 2014-06-05
@@ -226,7 +226,7 @@ releases:
     latestReleaseDate: 2016-06-20
     link: https://support.microsoft.com/help/3158271
 
--   releaseCycle: "2012-sp1"
+-   releaseCycle: "11.0-sp1"
     codename: Denali
     releaseLabel: "2012 SP1"
     releaseDate: 2012-11-07
@@ -239,7 +239,7 @@ releases:
     latestReleaseDate: 2015-07-14
     link: https://support.microsoft.com/help/3045317
 
--   releaseCycle: "2008-r2-sp2"
+-   releaseCycle: "10.50-sp2"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP2"
     releaseDate: 2012-07-26
@@ -252,7 +252,7 @@ releases:
     latestReleaseDate: 2015-07-14
     link: https://support.microsoft.com/help/3045312
 
--   releaseCycle: "2012"
+-   releaseCycle: "11.0"
     codename: Denali
     releaseLabel: "2012"
     releaseDate: 2012-05-20
@@ -263,7 +263,7 @@ releases:
     latestReleaseDate: 2012-12-16
     link: https://support.microsoft.com/help/2908007
 
--   releaseCycle: "2008-sp3"
+-   releaseCycle: "10.00-sp3"
     codename: Katmai
     releaseLabel: "2008 SP3"
     releaseDate: 2011-10-06
@@ -276,7 +276,7 @@ releases:
     latestReleaseDate: 2015-07-14
     link: https://support.microsoft.com/help/3045303
 
--   releaseCycle: "2008-r2-sp1"
+-   releaseCycle: "10.50-sp1"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP1"
     releaseDate: 2011-07-12
@@ -287,7 +287,7 @@ releases:
     latestReleaseDate: 2013-08-08
     link: https://support.microsoft.com/help/2868244
 
--   releaseCycle: "2005-sp4"
+-   releaseCycle: "9.0-sp4"
     codename: Yukon
     releaseLabel: "2005 SP4"
     releaseDate: 2010-12-13
@@ -298,7 +298,7 @@ releases:
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
 
--   releaseCycle: "2008-sp2"
+-   releaseCycle: "10.00-sp2"
     codename: Katmai
     releaseLabel: "2008 SP2"
     releaseDate: 2010-09-24
@@ -309,7 +309,7 @@ releases:
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716433
 
--   releaseCycle: "2008-r2"
+-   releaseCycle: "10.50-r2"
     codename: Kilimanjaro
     releaseLabel: "2008 R2"
     releaseDate: 2010-07-20
@@ -320,7 +320,7 @@ releases:
     latestReleaseDate: 2012-04-16
     link: https://support.microsoft.com/help/2679366
 
--   releaseCycle: "2008-sp1"
+-   releaseCycle: "10.00-sp1"
     codename: Katmai
     releaseLabel: "2008 SP1"
     releaseDate: 2009-03-31
@@ -331,7 +331,7 @@ releases:
     latestReleaseDate: 2011-09-19
     link: https://support.microsoft.com/help/2582282
 
--   releaseCycle: "2005-sp3"
+-   releaseCycle: "9.00-sp3"
     codename: Yukon
     releaseLabel: "2005 SP3"
     releaseDate: 2008-12-15
@@ -342,7 +342,7 @@ releases:
     latestReleaseDate: 2010-08-16
     link: https://support.microsoft.com/help/2258854
 
--   releaseCycle: "2008"
+-   releaseCycle: "10.00"
     codename: Katmai
     releaseLabel: "2008"
     releaseDate: 2008-11-06
@@ -353,7 +353,7 @@ releases:
     latestReleaseDate: 2010-03-15
     link: https://support.microsoft.com/help/979064
 
--   releaseCycle: "2005-sp2"
+-   releaseCycle: "9.00-sp2"
     codename: Yukon
     releaseLabel: "2005 SP2"
     releaseDate: 2007-02-19
@@ -364,7 +364,7 @@ releases:
     latestReleaseDate: 2009-04-20
     link: https://support.microsoft.com/help/967908
 
--   releaseCycle: "2005-sp1"
+-   releaseCycle: "9.0-sp1"
     codename: Yukon
     releaseLabel: "2005 SP1"
     releaseDate: 2006-04-18
@@ -376,7 +376,7 @@ releases:
     # Original KB937545 but 404 in the meantime: https://support.microsoft.com/help/937545
     link: https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/937545
 
--   releaseCycle: "2005"
+-   releaseCycle: "9.0"
     codename: Yukon
     releaseLabel: "2005"
     releaseDate: 2006-01-14
@@ -387,7 +387,7 @@ releases:
     latestReleaseDate: 2006-01-14
     link: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
 
--   releaseCycle: "2000-sp4"
+-   releaseCycle: "8.0-sp4"
     codename: Shiloh
     releaseLabel: "2000 SP4"
     releaseDate: 2005-05-06
@@ -409,7 +409,7 @@ releases:
     latestReleaseDate: 2012-05-09
     link: https://support.microsoft.com/help/941203
 
--   releaseCycle: "6.5-sp5a"
+-   releaseCycle: "6.50-sp5a"
     codename: Hydra
     releaseLabel: "6.5 SP5a"
     releaseDate: 1998-12-24
