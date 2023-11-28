@@ -32,7 +32,7 @@ releases:
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
-    eol: 2023-12-31 # waiting for exact date announcement at https://github.com/Azure/AKS/releases
+    eol: 2024-01-14 # https://github.com/Azure/AKS/releases/tag/2023-11-05
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-125-support-in-aks/
 
 -   releaseCycle: "1.24"
