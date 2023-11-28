@@ -16,25 +16,25 @@ releases:
     releaseDate: 2021-11-02
     support: true
     eol: false
-    latest: "16.0.16731.20252"
-    latestReleaseDate: 2023-10-10
-    link: https://support.microsoft.com/help/5002506
+    latest: "16.0.16731.20350"
+    latestReleaseDate: 2023-11-14
+    link: https://support.microsoft.com/help/5002527
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2026-07-14
-    latest: "16.0.10403.20000"
-    latestReleaseDate: 2023-10-10
-    link: https://support.microsoft.com/help/5002504
+    latest: "16.0.10404.20003"
+    latestReleaseDate: 2023-11-14
+    link: https://support.microsoft.com/help/5002526
 
 -   releaseCycle: "2016"
     releaseDate: 2016-05-01
     support: 2021-07-13
     eol: 2026-07-14
-    latest: "16.0.5413.1001"
-    latestReleaseDate: 2023-09-12
-    link: https://support.microsoft.com/help/5002494
+    latest: "16.0.5422.1000"
+    latestReleaseDate: 2023-11-14
+    link: https://support.microsoft.com/help/5002517
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
