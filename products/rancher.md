@@ -29,32 +29,32 @@ releases:
     latestReleaseDate: 2023-10-16
 
 -   releaseCycle: "2.6"
-    releaseDate: 2021-08-31
+    releaseDate: 2021-08-30
     support: 2023-03-01
     eol: 2024-04-30
     latest: "2.6.13"
-    latestReleaseDate: 2023-06-01
+    latestReleaseDate: 2023-05-31
 
 -   releaseCycle: "2.5"
-    releaseDate: 2020-10-06
+    releaseDate: 2020-10-05
     support: 2022-01-05
     eol: 2023-01-31
     latest: "2.5.17"
-    latestReleaseDate: 2023-01-24
+    latestReleaseDate: 2023-01-23
 
 -   releaseCycle: "2.4"
     releaseDate: 2020-03-30
     support: 2021-07-30
     eol: 2022-03-31
     latest: "2.4.18"
-    latestReleaseDate: 2022-04-01
+    latestReleaseDate: 2022-03-31
 
 -   releaseCycle: "2.3"
-    releaseDate: 2019-10-08
+    releaseDate: 2019-10-07
     support: 2020-10-07
     eol: 2021-04-07
     latest: "2.3.11"
-    latestReleaseDate: 2021-03-03
+    latestReleaseDate: 2021-03-02
 
 ---
 
