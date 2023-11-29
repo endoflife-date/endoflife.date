@@ -18,8 +18,8 @@ releases:
     codename: "2022"
     releaseDate: 2023-11-14
     eol: false # eol with release of 17.9 or 18.0
-    latest: "17.8.1"
-    latestReleaseDate: 2023-11-21
+    latest: "17.8.2"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "17.7"
     codename: "2022"
