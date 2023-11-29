@@ -24,7 +24,7 @@ releases:
     releaseLabel: "19c"
     lts: true
     releaseDate: 2019-04-25
-    eol: 2024-04-30
+    eol: 2026-04-30
     # The first year of extended support is free.
     extendedSupport: 2027-04-30
     link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
