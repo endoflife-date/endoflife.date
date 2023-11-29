@@ -7,6 +7,12 @@ alternate_urls:
 -   /lineage
 releaseColumn: false
 releaseDateColumn: true
+customColumns:
+-   property: androidVersion
+    position: after-release-column
+    label: Android version
+    description: Corresponding Android version
+    link: https://endoflife.date/android
 
 releases:
 -   releaseCycle: "20"
@@ -72,12 +78,3 @@ Some old branches may still get security updates via Android Security Patches, b
 to do their own builds to get these updates - official builds are only maintained for the last two
 versions (with the exception of devices stuck on 18.1). For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
 to check commits.
-
-## Corresponding Android version
-
-{%- assign collapsedCycles = page.releases %}
-{% include table.html
-  labels="Release,Android version"
-  fields="releaseCycle,androidVersion"
-  types="string,string"
-  rows=collapsedCycles %}
