@@ -11,6 +11,12 @@ releaseDateColumn: true
 activeSupportColumn: true
 discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
+customColumns:
+-   property: supportedAndroidVersions
+    position: after-release-column
+    label: Supported Android # https://en.wikipedia.org/wiki/Google_Pixel#Phones
+    description: Supported Android versions range
+    link: https://endoflife.date/android
 
 releases:
 -   releaseCycle: "8"
@@ -20,6 +26,7 @@ releases:
     eol: 2030-10-04
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_8
+    supportedAndroidVersions: 14
 
 -   releaseCycle: "fold"
     releaseLabel: "Pixel Fold"
@@ -28,6 +35,7 @@ releases:
     eol: 2028-06-25
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Fold
+    supportedAndroidVersions: 13
 
 -   releaseCycle: "tablet"
     releaseLabel: "Pixel Tablet"
@@ -36,6 +44,7 @@ releases:
     eol: 2028-06-20
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
+    supportedAndroidVersions: 13
 
 -   releaseCycle: "7a"
     releaseLabel: "Pixel 7a"
@@ -44,6 +53,7 @@ releases:
     eol: 2028-05-07
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7a
+    supportedAndroidVersions: 13
 
 -   releaseCycle: "7"
     releaseLabel: "Pixel 7 / Pro"
@@ -52,6 +62,7 @@ releases:
     eol: 2027-10-12
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7
+    supportedAndroidVersions: 13 - 14
 
 -   releaseCycle: "6a"
     releaseLabel: "Pixel 6a"
@@ -60,6 +71,7 @@ releases:
     eol: 2027-07-27
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6a
+    supportedAndroidVersions: 12 - 14
 
 -   releaseCycle: "6"
     releaseLabel: "Pixel 6 / Pro"
@@ -68,6 +80,7 @@ releases:
     eol: 2026-10-27
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6
+    supportedAndroidVersions: 12 - 14
 
 -   releaseCycle: "5a"
     releaseLabel: "Pixel 5a"
@@ -76,6 +89,7 @@ releases:
     eol: 2024-08-25
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_5a
+    supportedAndroidVersions: 11 - 14
 
 -   releaseCycle: "4a-5g"
     releaseLabel: "Pixel 4a (5G)"
@@ -84,6 +98,7 @@ releases:
     eol: 2023-11-04
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_4a
+    supportedAndroidVersions: 11 - 14
 
 -   releaseCycle: "5"
     releaseLabel: "Pixel 5"
@@ -92,6 +107,7 @@ releases:
     eol: 2023-10-14
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_5
+    supportedAndroidVersions: 11 - 14
 
 -   releaseCycle: "4a"
     releaseLabel: "Pixel 4a"
@@ -100,6 +116,7 @@ releases:
     eol: 2023-08-19
     discontinued: 2022-01-31
     link: https://en.wikipedia.org/wiki/Pixel_4a
+    supportedAndroidVersions: 10 - 13
 
 -   releaseCycle: "4"
     releaseLabel: "Pixel 4 / XL"
@@ -108,6 +125,7 @@ releases:
     eol: 2022-10-23
     discontinued: 2020-08-06
     link: https://en.wikipedia.org/wiki/Pixel_4
+    supportedAndroidVersions: 10 - 13
 
 -   releaseCycle: "3a"
     releaseLabel: "Pixel 3a / XL"
@@ -116,6 +134,7 @@ releases:
     eol: 2022-05-06
     discontinued: 2020-07-01
     link: https://en.wikipedia.org/wiki/Pixel_3a
+    supportedAndroidVersions: 9 - 12.1
 
 -   releaseCycle: "3"
     releaseLabel: "Pixel 3 / XL"
@@ -124,6 +143,7 @@ releases:
     eol: 2021-10-08
     discontinued: 2020-03-31
     link: https://en.wikipedia.org/wiki/Pixel_3
+    supportedAndroidVersions: 9 - 12
 
 -   releaseCycle: "2"
     releaseLabel: "Pixel 2 / XL"
@@ -132,6 +152,7 @@ releases:
     eol: 2020-10-18
     discontinued: 2019-04-01
     link: https://en.wikipedia.org/wiki/Pixel_2
+    supportedAndroidVersions: 8 - 11
 
 -   releaseCycle: "1"
     releaseLabel: "Pixel / Pixel XL"
@@ -140,6 +161,7 @@ releases:
     eol: 2019-10-19
     discontinued: 2018-04-11
     link: https://en.wikipedia.org/wiki/Pixel_(1st_generation)
+    supportedAndroidVersions: 7.1 - 10
 
 ---
 
