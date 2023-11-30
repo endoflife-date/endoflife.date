@@ -16,16 +16,16 @@ auto:
 releases:
 -   releaseCycle: "7.0"
     releaseDate: 2023-11-29
-    support: 2024-07-29
-    eol: 2024-07-29
+    support: 2024-07-31
+    eol: 2024-07-31
     latest: "7.0.0"
     latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "6.4"
     lts: true
     releaseDate: 2023-11-29
-    support: 2026-11-29
-    eol: 2027-11-29
+    support: 2026-11-30
+    eol: 2027-11-30
     latest: "6.4.0"
     latestReleaseDate: 2023-11-29
 
