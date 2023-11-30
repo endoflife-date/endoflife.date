@@ -35,22 +35,22 @@ releases:
     releaseDate: 2023-07-02
     support: true
     eol: 2026-07-02
-    latest: "5.38.1"
-    latestReleaseDate: 2023-11-25
+    latest: "5.38.2"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "5.36"
     releaseDate: 2022-05-27
     support: true
     eol: 2025-05-27
-    latest: "5.36.2"
-    latestReleaseDate: 2023-11-25
+    latest: "5.36.3"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "5.34"
     releaseDate: 2021-05-20
     support: 2022-05-27
     eol: 2024-05-20
-    latest: "5.34.2"
-    latestReleaseDate: 2023-11-25
+    latest: "5.34.3"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "5.32"
     releaseDate: 2020-06-20

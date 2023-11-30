@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2023-11-14
     eol: false # still listed on https://activemq.apache.org/
-    latest: "6.0.0"
-    latestReleaseDate: 2023-11-14
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-30
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
 -   releaseCycle: "5.18"
