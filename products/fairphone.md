@@ -54,7 +54,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/360019515018
 
 -   releaseCycle: "1"
-    supportedAndroidVersions: 4.2 # https://support.fairphone.com/hc/en-us/articles/6217522827281-Fairphone-1-FAQ
+    supportedAndroidVersions: "4.2" # https://support.fairphone.com/hc/en-us/articles/6217522827281-Fairphone-1-FAQ
     releaseDate: 2013-12-01
     discontinued: 2017-07-13
     eol: 2017-07-13
