@@ -11,8 +11,8 @@ customColumns:
 -   property: supportedAndroidVersions
     position: after-release-column
     label: Supported Android
-    description: Supported Android versions # https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS
-    link: https://endoflife.date/android
+    description: Supported Android version range
+    link: https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS
 
 # Supported android versions can be found on https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS.
 releases:
