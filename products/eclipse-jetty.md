@@ -3,6 +3,8 @@ category: server-app
 tags: eclipse web-server
 iconSlug: eclipsejetty
 permalink: /eclipse-jetty
+alternate_urls:
+-   /jetty
 releasePolicyLink: https://eclipse.dev/jetty/download.php
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
@@ -55,7 +57,7 @@ releases:
 -   releaseCycle: "9.3"
     releaseDate: 2015-06-01
     eol: 2022-12-31
-    extendedSupport: 2021-10-01
+    extendedSupport: false
     minJavaVersion: 8
     latest: "9.3.30.v20211001"
     latestReleaseDate: 2021-10-01
@@ -63,7 +65,7 @@ releases:
 -   releaseCycle: "9.2"
     releaseDate: 2014-05-23
     eol: 2018-12-31
-    extendedSupport: 2020-04-28
+    extendedSupport: false
     minJavaVersion: 7
     latest: "9.2.30.v20200428"
     latestReleaseDate: 2020-04-28
@@ -71,7 +73,7 @@ releases:
 -   releaseCycle: "9.1"
     releaseDate: 2013-11-15
     eol: 2014-12-31
-    extendedSupport: 2016-01-12
+    extendedSupport: false
     minJavaVersion: 7
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
@@ -79,7 +81,7 @@ releases:
 -   releaseCycle: "9.0"
     releaseDate: 2013-03-08
     eol: 2013-12-31
-    extendedSupport: 2013-11-07
+    extendedSupport: false
     minJavaVersion: 7
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
@@ -87,7 +89,7 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2011-09-01
     eol: 2014-12-31
-    extendedSupport: 2016-09-08
+    extendedSupport: false
     minJavaVersion: 6
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
@@ -95,7 +97,7 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2009-10-05
     eol: 2014-12-31
-    extendedSupport: 2016-09-08
+    extendedSupport: false
     minJavaVersion: 5
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
@@ -108,13 +110,9 @@ releases:
 > [Servlets](https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"),
 > and [WebSockets](https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket").
 
-Eclipse Jetty does not have a clearly defined support policy. Major releases appear to be supported for approx 5 years.
+Eclipse Jetty does not have a fixed release and support policy. But a list of all versions, along with their 
+support status, is available [on their website](https://eclipse.dev/jetty/download.php).
 
-| Action                                       | Community Support | Extended Support |
-|----------------------------------------------|-------------------| ---------------- |
-| Community PRs reviewed and integrated        | &check;           | &cross;          |
-| Webtide Customer PRs reviewed and integrated | &check;           | &check;          |
-| Community triggered releases                 | &check;           | &cross;          |
-| Webtide Customer triggered releases          | &check;           | &check;          |
-| Security / Vulnerability triggered releases  | &check;           | &check;          |
+Commercial extended support by the developers of Jetty is available through [Webtide Lifecycle 
+Support](https://webtide.com/).
 
