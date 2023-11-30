@@ -15,6 +15,14 @@ auto:
 
 releases:
 
+-   releaseCycle: "6.4"
+    lts: true
+    releaseDate: 2023-11-29
+    support: 2026-11-29
+    eol: 2026-11-29
+    latest: "6.4.0"
+    latestReleaseDate: 2023-11-29
+
 -   releaseCycle: "6.3"
     releaseDate: 2023-05-30
     support: 2024-01-31
