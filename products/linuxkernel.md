@@ -3,15 +3,15 @@ title: Linux Kernel
 category: os
 iconSlug: linux
 permalink: /linux
+alternate_urls:
+-   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releaseImage: 
   https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:
@@ -22,107 +22,116 @@ identifiers:
 -   cpe: cpe:2.3:o:linux:linux_kernel
 
 # See https://en.wikipedia.org/wiki/Linux_kernel_version_history
+# LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
+# non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.6"
+    lts: true
+    releaseDate: 2023-10-30
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "6.6.3"
+    latestReleaseDate: 2023-11-28
+
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
-    eol: false
-    latest: "6.5.5"
-    latestReleaseDate: 2023-09-23
+    eol: 2023-12-27 # estimated releaseDate(x)+4 months
+    latest: "6.5.13"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
-    eol: 2023-09-13
+    eol: 2023-09-13 # announced https://lore.kernel.org/lkml/2023091345-prankish-during-e3b4@gregkh/
     latest: "6.4.16"
     latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-04-23
-    eol: 2023-07-11
+    eol: 2023-07-11 # announced https://lore.kernel.org/lkml/2023071110-clash-nastily-2b70@gregkh/T/
     latest: "6.3.13"
     latestReleaseDate: 2023-07-11
 
 -   releaseCycle: "6.2"
     releaseDate: 2023-02-19
-    eol: 2023-05-17
+    eol: 2023-05-17 # announced https://lore.kernel.org/all/2023051744-drainable-footwear-49bd@gregkh/
     latest: "6.2.16"
     latestReleaseDate: 2023-05-17
 
 -   releaseCycle: "6.1"
     lts: true
     releaseDate: 2022-12-11
-    eol: 2026-12-31
-    latest: "6.1.55"
-    latestReleaseDate: 2023-09-23
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "6.1.64"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
-    eol: 2023-01-12
+    eol: 2023-01-12 # announced https://lore.kernel.org/lkml/1673522302104114@kroah.com/
     latest: "6.0.19"
     latestReleaseDate: 2023-01-12
 
 -   releaseCycle: "5.19"
     releaseDate: 2022-07-31
-    eol: 2022-10-24
+    eol: 2022-10-24 # announced https://lore.kernel.org/lkml/166659973847148@kroah.com/
     latest: "5.19.17"
     latestReleaseDate: 2022-10-24
 
 -   releaseCycle: "5.18"
     releaseDate: 2022-05-22
-    eol: 2022-08-21
+    eol: 2022-08-21 # announced https://lore.kernel.org/lkml/166108895535224@kroah.com/
     latest: "5.18.19"
     latestReleaseDate: 2022-08-21
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-20
-    eol: 2022-06-14
+    eol: 2022-06-14 # announced https://lore.kernel.org/lkml/165522580839104@kroah.com/
     latest: "5.17.15"
     latestReleaseDate: 2022-06-14
 
 -   releaseCycle: "5.16"
     releaseDate: 2022-01-09
-    eol: 2022-04-13
+    eol: 2022-04-13 # announced https://lore.kernel.org/lkml/164987613419048@kroah.com/
     latest: "5.16.20"
     latestReleaseDate: 2022-04-13
 
 -   releaseCycle: "5.15"
     lts: true
     releaseDate: 2021-10-31
-    eol: 2026-10-31
-    latest: "5.15.133"
-    latestReleaseDate: 2023-09-23
+    eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "5.15.140"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
-    eol: 2026-12-01
-    latest: "5.10.197"
-    latestReleaseDate: 2023-09-23
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "5.10.202"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
-    eol: 2025-12-01
-    latest: "5.4.257"
-    latestReleaseDate: 2023-09-23
+    eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "5.4.262"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
-    eol: 2024-12-01
-    latest: "4.19.295"
-    latestReleaseDate: 2023-09-23
+    eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "4.19.300"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
-    eol: 2024-01-01
-    latest: "4.14.326"
-    latestReleaseDate: 2023-09-23
+    eol: 2024-01-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "4.14.331"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "4.9"
     lts: true
     releaseDate: 2016-12-11
-    eol: 2023-01-07
+    eol: 2023-01-07 # announced https://lore.kernel.org/lkml/Y7lbu6%2F0P7Q%2FP3oj@kroah.com/
     latest: "4.9.337"
     latestReleaseDate: 2023-01-07
 

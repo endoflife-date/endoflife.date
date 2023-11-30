@@ -8,22 +8,19 @@ alternate_urls:
 -   /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Service Status
 
 auto:
 -   git: https://github.com/apache/hbase.git
     regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
-    template: "{{major}}.{{minor}}.{{patch}}{%if tiny%}.{{tiny}}{%endif%}"
 
 releases:
 -   releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestReleaseDate: 2023-06-13
-    latest: '2.5.5'
+    latestReleaseDate: 2023-10-20
+    latest: '2.5.6'
 
 -   releaseCycle: "2.4"
     releaseDate: 2020-12-15

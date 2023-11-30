@@ -10,32 +10,49 @@ alternate_urls:
 -   /prismcentral
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
+# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
+auto:
+-   custom: true
+
+# Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
--   releaseCycle: "pc.2022.9"
-    releaseDate: 2023-01-20
+-   releaseCycle: "pc.2023.3"
+    releaseDate: 2023-08-28
     support: true
     eol: false
-    latest: "pc.2022.9.1"
-    latestReleaseDate: 2023-01-24
+    latest: "pc.2023.3.0.1"
 
+    latestReleaseDate: 2023-11-28
+-   releaseCycle: "pc.2023.1"
+    releaseDate: 2023-03-15
+    support: 2023-10-31
+    eol: 2024-01-31
+    latest: "pc.2023.1.0.2"
+
+    latestReleaseDate: 2023-07-17
+-   releaseCycle: "pc.2022.9"
+    releaseDate: 2023-01-23
+    support: 2023-06-30
+    eol: 2023-09-30
+    latest: "pc.2022.9"
+
+    latestReleaseDate: 2023-01-23
 -   releaseCycle: "pc.2022.6"
     releaseDate: 2022-08-03
-    support: 2023-07-31
-    eol: 2024-01-31
-    latest: "pc.2022.6.0.3"
-    latestReleaseDate: 2023-01-24
+    support: 2024-01-31
+    eol: 2024-07-31
+    latest: "pc.2022.6.0.9"
 
+    latestReleaseDate: 2023-10-31
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16
     support: 2022-10-31
     eol: 2023-01-31
     latest: "pc.2022.4.0.2"
-    latestReleaseDate: 2022-05-16
+    latestReleaseDate: 2022-07-25
 
 -   releaseCycle: "pc.2022.1"
     releaseDate: 2022-02-24
@@ -49,7 +66,7 @@ releases:
     support: 2022-04-30
     eol: 2022-10-31
     latest: "pc.2021.9.0.6"
-    latestReleaseDate: 2022-03-24
+    latestReleaseDate: 2022-07-29
 
 -   releaseCycle: "pc.2021.8"
     releaseDate: 2021-08-31

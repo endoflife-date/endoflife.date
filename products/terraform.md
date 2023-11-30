@@ -8,13 +8,18 @@ versionCommand: terraform --version
 releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
-activeSupportColumn: false
 
 auto:
 -   git: https://github.com/hashicorp/terraform.git
 
 releases:
 # EOL(R) = releaseDate(R+2)
+-   releaseCycle: "1.6"
+    releaseDate: 2023-10-04
+    eol: false # releaseDate(1.8)
+    latest: "1.6.5"
+    latestReleaseDate: 2023-11-29
+
 -   releaseCycle: "1.5"
     releaseDate: 2023-06-12
     eol: false # releaseDate(1.7)
@@ -23,7 +28,7 @@ releases:
 
 -   releaseCycle: "1.4"
     releaseDate: 2023-03-08
-    eol: false # releaseDate(1.6)
+    eol: 2023-10-04
     latest: "1.4.7"
     latestReleaseDate: 2023-09-13
 
@@ -48,12 +53,12 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2021-06-08
     eol: 2022-05-18
-    latest: '1.0.11'
+    latest: "1.0.11"
     latestReleaseDate: 2021-11-10
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is an open-source, infrastructure as code,
+> [Hashicorp Terraform](https://www.terraform.io/) is a [BSL-licensed](https://www.hashicorp.com/bsl) infrastructure as code
 > software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible

@@ -5,56 +5,55 @@ tags: java-runtime
 permalink: /grails
 alternate_urls:
 -   /grails-framework
-releasePolicyLink: https://grails.org/support-schedule.html
+releasePolicyLink: https://grails.org/support.html
 changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
 activeSupportColumn: Active Development
 eolColumn: Active Maintenance
-releaseColumn: true
 releaseDateColumn: true
 
 auto:
 -   git: https://github.com/grails/grails-core.git
 
 releases:
--   releaseCycle: "6" # support information not yet available on https://grails.org/support-schedule.html
+-   releaseCycle: "6"
     releaseDate: 2023-07-24
-    eol: false
     support: true
-    latest: "6.0.0"
-    latestReleaseDate: 2023-07-24
+    eol: false
+    latest: "6.1.0"
+    latestReleaseDate: 2023-11-03
 
 -   releaseCycle: "5"
     releaseDate: 2021-10-12
+    support: 2023-07-24
     eol: false
-    support: true
-    latest: "5.3.3"
-    latestReleaseDate: 2023-07-11
+    latest: "5.3.4"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "4"
     releaseDate: 2019-07-11
-    eol: 2023-03-31
     support: false
+    eol: 2023-03-31
     latest: "4.1.2"
     latestReleaseDate: 2022-08-25
 
 -   releaseCycle: "3"
     releaseDate: 2015-03-31
-    eol: 2021-09-30
     support: false
+    eol: 2021-09-30
     latest: "3.3.16"
     latestReleaseDate: 2022-08-24
 
 -   releaseCycle: "2"
     releaseDate: 2011-12-15
-    eol: 2021-06-30
     support: false
+    eol: 2021-06-30
     latest: "2.5.6"
     latestReleaseDate: 2017-03-23
 
 -   releaseCycle: "1"
     releaseDate: 2009-05-14
-    eol: 2012-05-01
     support: false
+    eol: 2012-05-01
     latest: "1.3.9"
     latestReleaseDate: 2012-05-01
 
@@ -71,5 +70,5 @@ releases:
   around the resolution of critical security advisories. New features, performance improvements,
   and minor bug fixes are unlikely.
 
-The Grails Foundation offers [commercial support](https://grails.org/support.html). This typically
+The Grails Foundation offers [commercial support](https://grails.org/support.html#standard). This typically
 lasts a few years after active maintenance ends.

@@ -2,7 +2,7 @@
 title: Eclipse Temurin
 category: lang
 tags: eclipse java-distribution
-iconSlug: openjdk
+iconSlug: eclipseadoptium
 permalink: /eclipse-temurin
 alternate_urls:
 -   /temurin
@@ -37,6 +37,13 @@ auto:
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-10-10
+    eol: 2029-09-30
+    latest: "21.0.1+12"
+    latestReleaseDate: 2023-10-24
+
 -   releaseCycle: "20"
     releaseDate: 2023-03-23
     # expected 21 release date (see https://www.java.com/releases/)
@@ -60,8 +67,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.8.1+1"
-    latestReleaseDate: 2023-08-29
+    latest: "17.0.9+9.1"
+    latestReleaseDate: 2023-10-27
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
@@ -75,16 +82,16 @@ releases:
     lts: true
     releaseDate: 2021-08-01
     eol: 2024-10-31
-    latest: "11.0.20.1+1"
-    latestReleaseDate: 2023-08-29
+    latest: "11.0.21+9"
+    latestReleaseDate: 2023-10-18
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u382-b05"
-    latestReleaseDate: 2023-07-21
+    latest: "8u392-b08"
+    latestReleaseDate: 2023-10-19
     link: 
       https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 

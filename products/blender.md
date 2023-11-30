@@ -8,7 +8,6 @@ releaseImage:
   https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Critical bug fixes
@@ -18,13 +17,20 @@ auto:
 -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "4.0"
+    releaseDate: 2023-11-14
+    support: true
+    eol: false
+    latest: "4.0.1"
+    latestReleaseDate: 2023-11-17
+
 -   releaseCycle: "3.6"
     lts: true
     releaseDate: 2023-06-27
     support: 2025-07-01
     eol: 2025-07-01
-    latest: "3.6.4"
-    latestReleaseDate: 2023-09-26
+    latest: "3.6.5"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
@@ -45,8 +51,8 @@ releases:
     releaseDate: 2022-09-07
     support: 2024-09-01
     eol: 2024-09-01
-    latest: "3.3.11"
-    latestReleaseDate: 2023-09-21
+    latest: "3.3.12"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-06-08
@@ -108,8 +114,5 @@ for some time (e.g., 1 week).
 An updated release schedule was proposed in [February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
 with the following goals:
 
-- A new LTS release every year around June, supported for two years, 
+- A new LTS release every year around June, supported for two years,
 - A major version and breaking release every 2 years (3.0, 4.0, 5.0…).
-
-With the new schedule, the 3.7 release will be skipped, and 4.0 is expected to be released in
-late November 2023.

@@ -7,7 +7,7 @@ permalink: /nodejs
 alternate_urls:
 -   /node
 versionCommand: node --version
-releasePolicyLink: https://nodejs.org/about/releases/
+releasePolicyLink: https://nodejs.org/en/about/previous-releases
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: 
   https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
@@ -26,13 +26,20 @@ auto:
 -   git: https://github.com/nodejs/node.git
 
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2023-10-17
+    support: 2024-04-01
+    eol: 2024-06-01
+    latest: "21.2.0"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "20"
     releaseDate: 2023-04-18
     lts: 2023-10-24
     support: 2024-10-22
     eol: 2026-04-30
-    latest: "20.8.0"
-    latestReleaseDate: 2023-09-28
+    latest: "20.10.0"
+    latestReleaseDate: 2023-11-22
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -46,8 +53,8 @@ releases:
     lts: 2022-10-25
     support: 2023-10-18
     eol: 2025-04-30
-    latest: "18.18.0"
-    latestReleaseDate: 2023-09-18
+    latest: "18.19.0"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19

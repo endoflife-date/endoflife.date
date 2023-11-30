@@ -10,12 +10,17 @@ alternate_urls:
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
-activeSupportColumn: false
-eolColumn: General Support
-releaseColumn: true
 releaseDateColumn: true
+eolColumn: General Support
 
 releases:
+-   releaseCycle: "8.2309"
+    releaseDate: 2023-10-26
+    eol: 2026-10-26
+    technicalGuidance: 2027-10-26
+    latest: "8.2309"
+    latestReleaseDate: 2023-10-26
+
 -   releaseCycle: "8.2306"
     releaseDate: 2023-07-06
     eol: 2026-07-06
@@ -97,7 +102,7 @@ releases:
     technicalGuidance: 2027-08-11
     latest: "8.2006"
     latestReleaseDate: 2020-08-11
-    link: https://docs.vmware.com/en/VMware-Horizon/2006/rn/horizon-2006-release-notes.html
+    link: https://docs.vmware.com/en/VMware-Horizon/8-2006/rn/vmware-horizon-8-2006-release-notes/index.html
 
 -   releaseCycle: "7"
     releaseLabel: "7.X NonLTS branch"
@@ -129,9 +134,14 @@ releases:
 
 ---
 
-> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
+> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with
+> the efficient delivery of virtual desktops and applications that equips workers anywhere,
+> anytime, and on any device.
 
-[Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base version release.
+[Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of
+Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three
+planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base
+version release.
 
 ## [General Support](https://lifecycle.vmware.com/)
 

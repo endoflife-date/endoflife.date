@@ -7,8 +7,6 @@ permalink: /tomcat
 versionCommand: ./bin/version.sh
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: "https://tomcat.apache.org/tomcat-{{'__LATEST__'|split:'.'|pop|join:'.'}}-doc/changelog.html"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -23,8 +21,8 @@ releases:
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: 11
-    latest: "10.1.13"
-    latestReleaseDate: 2023-08-23
+    latest: "10.1.16"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-12-03
@@ -37,15 +35,15 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: 8
-    latest: "9.0.80"
-    latestReleaseDate: 2023-08-23
+    latest: "9.0.83"
+    latestReleaseDate: 2023-11-09
 
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
     eol: 2024-03-31
     minJavaVersion: 7
-    latest: "8.5.93"
-    latestReleaseDate: 2023-08-23
+    latest: "8.5.96"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "8.0"
     releaseDate: 2014-01-29

@@ -6,55 +6,68 @@ iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 releaseDateColumn: true
-eolColumn: Bug fix and security support
+activeSupportColumn: Active Development
+eolColumn: Maintenance Support
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
 -   git: https://github.com/opensearch-project/OpenSearch.git
 
+# releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:
 -   releaseCycle: "2"
-    eol: false
     releaseDate: 2022-05-18
-    latest: "2.10.0"
-    latestReleaseDate: 2023-09-19
+    support: true # upcoming releaseDate(3)
+    eol: false # upcoming support(3) at least 1 year
+    latest: "2.11.0"
+    latestReleaseDate: 2023-10-12
+
 -   releaseCycle: "1"
-    eol: false
     releaseDate: 2021-07-02
+    support: 2022-05-26 # releaseDate(2)
+    eol: false # upcoming support(2) at least 1 year
     latest: "1.3.13"
     latestReleaseDate: 2023-09-14
 
 ---
 
-> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest,
-> search, visualize, and analyze data. Developers build with OpenSearch for use cases such as application search, log analytics,
-> data observability, data ingestion, and more.
+> [OpenSearch](https://opensearch.org/) is a community-driven, Apache 2.0-licensed open source
+> search and analytics suite that makes it easy to ingest, search, visualize, and analyze data.
+> Developers build with OpenSearch for use cases such as application search, log analytics, data
+> observability, data ingestion, and more.
 
-## [Planned Release schedule](https://opensearch.org/releases.html)
+## Support
 
-Release  | Release Date
--------- | ------------
- 2.10.0  | {{ "2023-09-19" | date_to_string }}
- 1.3.13  | {{ "2023-09-21" | date_to_string }}
- 2.11.0  | {{ "2023-11-16" | date_to_string }}
- 1.3.14  | {{ "2023-12-12" | date_to_string }}
- 2.12.0  | {{ "2024-01-23" | date_to_string }}
+**Active Development**: The latest major version receives new features, bug fixes, and security patches. 
+**Maintenance Support**: includes bug fixes and security patches. New features might be back-ported as
+  community contributions, but will not result in new releases.
 
-For more information on the changes planned for each release, see:
+By default, versions remain under maintenance until the next major version enters maintenance with
+a minimum guarantee of a year. Therefore, at any given time, the current major version and previous
+major version are both supported, as well as older major versions that have been in maintenance
+for less than 12 months.
 
-- [Project Roadmap](https://github.com/orgs/opensearch-project/projects/1).
-- [Maintenance Policy](https://opensearch.org/releases.html#maintenance-policy)
+OpenSearch 1.x will end Maintenance Support once 3.0 is released.
 
 ## Versioning
 
-OpenSearch only releases breaking changes in major versions. All minor versions are compatible with every other minor version
-for that major release. When new major versions are released the previous major version enters maintenance, with only
-bug fixes and security patches.
+OpenSearch only releases breaking changes in major versions. All minor versions are compatible with
+every other minor version for that major release. When new major versions are released the previous
+major version enters maintenance, with only bug fixes and security patches.
 
-The duration of the maintenance window will vary from release to release. By default, versions will remain under maintenance
-until the next major version enters maintenance, or 1 year passes, whichever is longer.
+The duration of the maintenance window will vary from release to release. By default, versions will
+remain under maintenance until the next major version enters maintenance, or 1 year passes,
+whichever is longer.
 
 ## Elasticsearch Compatibility
 
-OpenSearch is a fork of Elasticsearch 7.10 and maintains backwards compatibility with the Elasticsearch APIs for ingest, search, and management. OpenSearch indices are backwards compatible with Elasticsearch indices from versions 6.0 up to 7.10. While the OpenSearch API is backwards compatible, some clients or tools may include code, such as version checks, that may cause the client or tool to not work with OpenSearch. An [Upgrade Guide](https://opensearch.org/faq/#q3.1) is available. All future OpenSearch 1.x releases will be backwards compatible with Elasticsearch 7.10.
+OpenSearch is a fork of Elasticsearch 7.10 and maintains backwards compatibility with the
+Elasticsearch APIs for ingest, search, and management. OpenSearch indices are backwards-compatible
+with Elasticsearch indices from versions 6.0 up to 7.10. While the OpenSearch API is
+backwards-compatible, some clients or tools may include code, such as version checks, that may
+cause the client or tool to not work with OpenSearch. An [Upgrade Guide](https://opensearch.org/faq/#q3.1)
+is available. All future OpenSearch 1.x releases will be backwards compatible with Elasticsearch
+7.10.
 
-- [Compatibility Matrices](https://opensearch.org/docs/latest/clients/agents-and-ingestion-tools/index/#compatibility-matrices) are provided for compatibility with Beats and Logstash. Beats version >= 7.13 does not support OpenSearch.
+[Compatibility Matrices](https://opensearch.org/docs/latest/clients/agents-and-ingestion-tools/index/#compatibility-matrices)
+are provided for compatibility with Beats and Logstash. Beats version >= 7.13 does not support
+OpenSearch.

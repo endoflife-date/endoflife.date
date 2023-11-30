@@ -6,7 +6,6 @@ iconSlug: yarn
 permalink: /yarn
 versionCommand: yarn --version
 changelogTemplate: https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 
 identifiers:
@@ -20,25 +19,30 @@ auto:
 -   npm: yarn # for 1.x
 -   npm: "@yarnpkg/cli" # for 2.x+
 
-# 4 is still in RC
 releases:
+-   releaseCycle: "4"
+    releaseDate: 2023-10-22
+    eol: false
+    latest: '4.0.2'
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
-    eol: false
-    latestReleaseDate: 2023-08-23
-    latest: '3.6.3'
+    eol: false # still not clear, will wait until there is no more updates
+    latest: '3.7.0'
+    latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "2"
     releaseDate: 2020-07-09
     eol: 2021-09-06
-    latestReleaseDate: 2021-09-06
     latest: '2.4.3'
+    latestReleaseDate: 2021-09-06
 
 -   releaseCycle: "1"
     releaseDate: 2017-09-05
     eol: false
-    latestReleaseDate: 2022-06-08
-    latest: '1.22.19'
+    latest: '1.22.21'
+    latestReleaseDate: 2023-11-14
     link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/alpine-release
 releasePolicyLink: https://alpinelinux.org/releases/
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
-activeSupportColumn: false
 releaseDateColumn: true
 
 identifiers:
@@ -25,29 +24,29 @@ releases:
 -   releaseCycle: "3.18"
     releaseDate: 2023-05-09
     eol: 2025-05-09
-    latest: "3.18.4"
-    latestReleaseDate: 2023-09-28
-    link: https://alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html
+    latest: "3.18.5"
+    latestReleaseDate: 2023-11-30
+    link: https://alpinelinux.org/posts/Alpine-3.18.4-released.html
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22
-    latest: "3.17.5"
-    latestReleaseDate: 2023-08-07
-    link: https://alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html
+    latest: "3.17.6"
+    latestReleaseDate: 2023-11-30
+    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
 
 -   releaseCycle: "3.16"
     eol: 2024-05-23
-    latest: "3.16.7"
-    link: https://alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html
-    latestReleaseDate: 2023-08-07
+    latest: "3.16.8"
+    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
+    latestReleaseDate: 2023-11-30
     releaseDate: 2022-05-23
 
 -   releaseCycle: "3.15"
     eol: 2023-11-01
-    latest: "3.15.10"
-    link: https://alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html
-    latestReleaseDate: 2023-08-07
+    latest: "3.15.11"
+    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
+    latestReleaseDate: 2023-11-30
     releaseDate: 2021-11-24
 
 -   releaseCycle: "3.14"
@@ -116,5 +115,5 @@ cycle but rather a snapshot of edge is taken every 6 months as a release. Stable
 supported normally for 2 years. Security fixes beyond that are on request and when patches are
 available.
 
-Only the latest release (i.e. `v3.17` at this time) gets bug fixes, prior supported releases only
+Only the latest release gets bug fixes, prior supported releases only
 get security fixes.

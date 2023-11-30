@@ -10,7 +10,7 @@ gem "jekyll", "~> 4.3.2"
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-timeago'
-  gem 'just-the-docs', '~> 0.6.2'
+  gem 'just-the-docs', '~> 0.7.0'
   gem 'jekyll-seo-tag'
   gem 'jekyll-last-modified-at'
   gem 'jemoji'
@@ -24,7 +24,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "webrick", "~> 1.8"
 
-gem 'icalendar', '~> 2.9'
+gem 'icalendar', '~> 2.10'
 
 # Used in product-data-validator to check URLs
-gem "open-uri", "~> 0.3"
+gem "open-uri", "~> 0.4"

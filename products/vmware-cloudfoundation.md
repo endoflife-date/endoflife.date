@@ -11,16 +11,11 @@ alternate_urls:
 -  /cloud-foundation
 -  /vmware-cloudfoundation
 releasePolicyLink: https://lifecycle.vmware.com
-
-activeSupportColumn: false
-releaseColumn: true
+changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__RELEASE_CYCLE__" | remove:'.'}}-release-notes/index.html
 releaseDateColumn: true
 eolColumn: General Support
-
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
 eolWarnThreshold: 180
-
-changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__RELEASE_CYCLE__" | remove:'.'}}-release-notes/index.html
 
 releases:
 -   releaseCycle: "5.0"
@@ -35,6 +30,12 @@ releases:
     eol: 2025-05-31
     latest: "4.5.1"
     latestReleaseDate: 2023-05-11
+
+-   releaseCycle: "3.11"
+    releaseDate: 2022-02-14
+    eol: 2023-04-30
+    latest: "3.11.0.1"
+    latestReleaseDate: 2022-04-07
 
 -   releaseCycle: "4.4"
     releaseDate: 2022-02-10
@@ -66,12 +67,6 @@ releases:
     latest: "4.0.1"
     latestReleaseDate: 2020-06-25
 
--   releaseCycle: "3.11"
-    releaseDate: 2022-02-14
-    eol: 2023-04-30
-    latest: "3.11.0.1"
-    latestReleaseDate: 2022-04-07
-
 -   releaseCycle: "3.10"
     releaseDate: 2020-05-26
     eol: 2022-09-01
@@ -98,27 +93,28 @@ releases:
 
 ---
 
-> [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-foundation.html), is a suite of software-defined data center (SDDC) technologies consisting of vSphere, NSX, and vSAN. It is available in multiple editions - Starter, Standard, Advanced, and Enterprise.
+> [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-foundation.html), is a suite of
+> software-defined data center (SDDC) technologies consisting of vSphere, NSX, and vSAN. It is
+> available in multiple editions - Starter, Standard, Advanced, and Enterprise.
 
 Cloud Foundation 3,4 were covered under the [N-2 Lifecycle Policy](https://www.vmware.com/support/policies/N-2.html),
 supporting three latest releases, with a minimum support duration of 12 months.
-Cloud Foundation 5 and above are covered under the
-[Enterprise HCI Policy](https://www.vmware.com/support/policies/enterprise-hci.html),
+Cloud Foundation 5 and above are covered under the [Enterprise HCI Policy](https://www.vmware.com/support/policies/enterprise-hci.html),
 with 4 years of General Support followed by 1 year of Technical Guidance.
 
 ## [General Support](https://lifecycle.vmware.com/)
 
-The last date on which customers can request support; the end of regular VMware maintenance updates and
-upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription
-Terms and Conditions.
+The last date on which customers can request support; the end of regular VMWare maintenance updates
+and upgrades, _bug and security fixes,_ and technical assistance as per the Support and
+Subscription Terms and Conditions.
 
 ## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
 
-The last date on which customers can access support and workarounds for low-severity
-issues on supported configurations only. During the Technical Guidance phase, VMware
-does not offer new hardware support, server/client/guest OS updates, new security
-patches or bug fixes unless otherwise noted.
+The last date on which customers can access support and workarounds for low-severity issues on
+supported configurations only. During the Technical Guidance phase, VMWare does not offer new
+hardware support, server/client/guest OS updates, new security patches or bug fixes unless
+otherwise noted.
 
-Release | Technical Guidance Ends
-------- | -----------------------
-5.0     | 2028-06-01
+| Release | Technical Guidance Ends |
+|---------|-------------------------|
+| 5.0     | 2028-06-01              |

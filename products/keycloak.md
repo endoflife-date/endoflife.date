@@ -6,8 +6,6 @@ tags: java-runtime red-hat
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
 
@@ -16,11 +14,17 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "23.0"
+    releaseDate: 2023-11-23
+    eol: false
+    latest: "23.0.1"
+    latestReleaseDate: 2023-11-29
+
 -   releaseCycle: "22.0"
     releaseDate: 2023-07-11
-    eol: false
-    latest: "22.0.3"
-    latestReleaseDate: 2023-09-12
+    eol: 2023-11-23
+    latest: "22.0.5"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "21.1"
     releaseDate: 2023-04-19

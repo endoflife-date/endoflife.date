@@ -13,6 +13,14 @@ discontinuedColumn: true
 eolColumn: Guaranteed Security Updates
 
 releases:
+-   releaseCycle: "8"
+    releaseLabel: "Pixel 8 / Pro"
+    releaseDate: 2023-10-04
+    support: 2030-10-04
+    eol: 2030-10-04
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_8
+
 -   releaseCycle: "fold"
     releaseLabel: "Pixel Fold"
     releaseDate: 2023-06-28
@@ -69,14 +77,6 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_5a
 
--   releaseCycle: "5"
-    releaseLabel: "Pixel 5"
-    releaseDate: 2020-10-15
-    support: 2023-10-14
-    eol: 2023-10-14
-    discontinued: 2021-08-20
-    link: https://en.wikipedia.org/wiki/Pixel_5
-
 -   releaseCycle: "4a-5g"
     releaseLabel: "Pixel 4a (5G)"
     releaseDate: 2020-11-05
@@ -84,6 +84,14 @@ releases:
     eol: 2023-11-04
     discontinued: 2021-08-20
     link: https://en.wikipedia.org/wiki/Pixel_4a
+
+-   releaseCycle: "5"
+    releaseLabel: "Pixel 5"
+    releaseDate: 2020-10-15
+    support: 2023-10-14
+    eol: 2023-10-14
+    discontinued: 2021-08-20
+    link: https://en.wikipedia.org/wiki/Pixel_5
 
 -   releaseCycle: "4a"
     releaseLabel: "Pixel 4a"
@@ -138,9 +146,13 @@ releases:
 > Pixel is Google's current line of Android phones and other consumer electronics.
 
 In recent years, flagship Pixel phones have been released in October each year, followed by an
-additional mid-range variant known as the 'A-series' several months later. Pixel phones are
-supported with guaranteed software updates for three years.
+additional mid-range variant known as the 'A-series' several months later. Since the introduction
+of the Pixel 6 in 2021, Pixel phones have been supported with guaranteed Android version updates
+for three years and security updates for five years.
 
-Starting with the Pixel 6, Google has committed to at least five years of security updates,
-extending an additional two years beyond the 3-year Android version update commitment. The end date
-for guaranteed Android version updates is indicated in the 'Active Support' column.
+In October 2023, it was
+[announced](https://blog.google/products/pixel/software-support-pixel-8-pixel-8-pro/) that the
+Pixel 8 and Pixel 8 Pro will guarantee both Android version updates and security updates for
+seven years, offering full support until October 2030.
+
+The end date for guaranteed Android version updates is indicated in the 'Active Support' column.

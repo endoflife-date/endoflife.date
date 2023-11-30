@@ -6,18 +6,23 @@ permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
 releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
 releaseDateColumn: true
-releaseColumn: true
 eolColumn: Support
 
 auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "7.71"
+    releaseDate: 2023-10-24
+    eol: 2025-03-24
+    latest: "7.71.5"
+    latestReleaseDate: 2023-11-21
+
 -   releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
-    latest: "7.68.11"
-    latestReleaseDate: 2023-09-22
+    latest: "7.68.17"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "7.63"
     releaseDate: 2023-07-12
@@ -98,10 +103,10 @@ releases:
     latestReleaseDate: 2022-01-25
 
 -   releaseCycle: "7.29"
-    releaseDate: 2021-01-11
+    releaseDate: 2021-12-05
     eol: 2023-06-05
     latest: "7.29.9"
-    latestReleaseDate: 2021-01-11
+    latestReleaseDate: 2022-01-11
 
 -   releaseCycle: "7.27"
     releaseDate: 2021-09-30

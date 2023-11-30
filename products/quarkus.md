@@ -10,11 +10,9 @@ releasePolicyLink: https://quarkus.io/security/
 # See https://github.com/endoflife-date/endoflife.date/issues/3462
 changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Support
 extendedSupport: Support
 extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
-releaseColumn: true
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 auto:
@@ -27,12 +25,26 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
--   releaseCycle: "3.4"
-    releaseDate: 2023-09-20
+-   releaseCycle: "3.6"
+    releaseDate: 2023-11-29
     eol: false
     extendedSupport: false
-    latest: "3.4.1"
-    latestReleaseDate: 2023-09-20
+    latest: "3.6.0"
+    latestReleaseDate: 2023-11-29
+
+-   releaseCycle: "3.5"
+    releaseDate: 2023-10-25
+    eol: 2023-11-29
+    extendedSupport: false
+    latest: "3.5.3"
+    latestReleaseDate: 2023-11-21
+
+-   releaseCycle: "3.4"
+    releaseDate: 2023-09-20
+    eol: 2023-10-25
+    extendedSupport: false
+    latest: "3.4.3"
+    latestReleaseDate: 2023-10-13
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-08-23
@@ -45,9 +57,9 @@ releases:
     releaseDate: 2023-07-05
     eol: 2024-07-05
     lts: true
-    extendedSupport: false
-    latest: "3.2.6"
-    latestReleaseDate: 2023-09-14
+    extendedSupport: true
+    latest: "3.2.9"
+    latestReleaseDate: 2023-11-17
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.1"
@@ -68,10 +80,10 @@ releases:
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-01-25
-    eol: false
+    eol: 2023-10-31
     extendedSupport: false
-    latest: "2.16.11"
-    latestReleaseDate: 2023-09-14
+    latest: "2.16.12"
+    latestReleaseDate: 2023-10-17
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.15"
@@ -94,8 +106,8 @@ releases:
     releaseDate: 2022-09-28
     eol: 2022-11-07
     extendedSupport: true
-    latest: "2.13.8"
-    latestReleaseDate: 2023-05-25
+    latest: "2.13.9"
+    latestReleaseDate: 2023-11-22
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "2.12"
@@ -224,13 +236,11 @@ releases:
 > for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting
-the latest version every week in between. Every `major.minor` version
-[deprecates the previous version](https://github.com/quarkusio/quarkus/discussions/29161) and there
-is no LTS versions. See [Quarkus Roadmap/planning](https://github.com/orgs/quarkusio/projects/13)
-for upcoming releases and features.
+the latest version every week in between. [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/),
+a new LTS version is also published every 6 months.
 
-A new LTS release is published every 6 months.[LTS releases](https://quarkus.io/blog/lts-releases/)
-get security patches, critical bug-fixes, and performance enhancements for 12 months.
+Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161). LTS releases are supported for 12 months
+with critical bug fixes and security patches.
 
 Red Hat provides a commercial build of Quarkus, [Red Hat build of Quarkus (RHBQ)](https://access.redhat.com/products/quarkus/),
 with a longer support timeline. The code base used for this build is the same as the one used for

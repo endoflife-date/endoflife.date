@@ -8,8 +8,6 @@ alternate_urls:
 versionCommand: nix --version
 releasePolicyLink: https://nixos.org/blog/announcements.html
 changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__.html
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 auto:
@@ -18,29 +16,35 @@ auto:
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.19"
+    releaseDate: 2023-11-20
+    eol: false # Update to release date of 2.20 when available
+    latest: "2.19.2"
+    latestReleaseDate: 2023-11-29
+
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20
-    eol: false # Update to release date of 2.19 when available
-    latest: "2.18.0"
-    latestReleaseDate: 2023-09-20
+    eol: 2023-11-17 # releaseDate(2.19)
+    latest: "2.18.1"
+    latestReleaseDate: 2023-10-02
 
 -   releaseCycle: "2.17"
     releaseDate: 2023-07-24
     eol: 2023-09-20
-    latest: "2.17.0"
-    latestReleaseDate: 2023-07-24
+    latest: "2.17.1"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-05-31
     eol: 2023-07-24
-    latest: "2.16.1"
-    latestReleaseDate: 2023-06-06
+    latest: "2.16.2"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
     eol: 2023-05-31
-    latest: "2.15.2"
-    latestReleaseDate: 2023-08-14
+    latest: "2.15.3"
+    latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.14"
     releaseDate: 2023-02-28
@@ -51,8 +55,8 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2023-01-17
     eol: 2023-02-28
-    latest: "2.13.5"
-    latestReleaseDate: 2023-08-07
+    latest: "2.13.6"
+    latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-12-06
@@ -111,8 +115,8 @@ releases:
 -   releaseCycle: "2.3"
     releaseDate: 2019-09-04
     eol: 2021-11-01
-    latest: "2.3.16"
-    latestReleaseDate: 2021-10-07
+    latest: "2.3.17"
+    latestReleaseDate: 2023-11-03
 
 -   releaseCycle: "2.2"
     releaseDate: 2019-01-11

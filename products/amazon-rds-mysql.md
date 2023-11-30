@@ -4,7 +4,7 @@ category: service
 tags: amazon managed-mysql
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
-releasePolicyLink:
+releasePolicyLink: 
   https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
 
@@ -14,15 +14,15 @@ auto:
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
-    eol: 2026-04-01
-    latest: "8.0.34"
-    latestReleaseDate: 2023-08-09
+    eol: 2026-07-31
+    latest: "8.0.35"
+    latestReleaseDate: 2023-11-09
 
 -   releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eol: 2023-10-01
-    latest: "5.7.43"
-    latestReleaseDate: 2023-08-09
+    latest: "5.7.44"
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01

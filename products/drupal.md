@@ -9,7 +9,6 @@ releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycle
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
-releaseColumn: true
 
 auto:
 -   git: https://github.com/drupal/drupal.git
@@ -30,8 +29,8 @@ releases:
     releaseDate: 2023-06-22
     support: 2023-12-13
     eol: 2024-06-19
-    latest: "10.1.4"
-    latestReleaseDate: 2023-09-19
+    latest: "10.1.6"
+    latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "10.0"
     releaseDate: 2022-12-15

@@ -6,20 +6,19 @@ permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
 changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 
 auto:
 -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-    regex: '^(?<major>[1-9]\d*)\.(?<minor>([1-9]\d*)?[02468])\.?(?<patch>0|[1-9]\d*)?$'
+    regex: '^(?<major>[1-9]\d*)\.(?<minor>([1-9]\d*)?[02468])\.?(?<patch>\d+)?$'
 
 releases:
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23
     eol: false
-    latest: "1.22.6"
-    latestReleaseDate: 2023-09-20
+    latest: "1.22.7"
+    latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "1.20"
     releaseDate: 2022-02-03

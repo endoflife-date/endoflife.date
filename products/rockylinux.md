@@ -27,15 +27,15 @@ releases:
     releaseDate: 2022-07-14
     support: 2027-05-31
     eol: 2032-05-31
-    latest: "9.2"
-    latestReleaseDate: 2023-05-16
+    latest: "9.3"
+    latestReleaseDate: 2023-11-20
 
 -   releaseCycle: "8"
     releaseDate: 2021-06-21
     support: 2024-05-31
     eol: 2029-05-31
-    latest: "8.8"
-    latestReleaseDate: 2023-05-20
+    latest: "8.9"
+    latestReleaseDate: 2023-11-22
 
 ---
 

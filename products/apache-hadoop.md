@@ -25,6 +25,12 @@ releases:
     latest: "3.3.6"
     latestReleaseDate: 2023-06-26
 
+-   releaseCycle: "2.10"
+    releaseDate: 2019-10-29
+    eol: false
+    latest: "2.10.2"
+    latestReleaseDate: 2022-05-31
+
 -   releaseCycle: "3.2"
     releaseDate: 2019-01-21
     eol: false
@@ -42,12 +48,6 @@ releases:
     eol: 2018-06-10
     latest: "3.0.3"
     latestReleaseDate: 2018-06-10
-
--   releaseCycle: "2.10"
-    releaseDate: 2019-10-29
-    eol: false
-    latest: "2.10.2"
-    latestReleaseDate: 2022-05-31
 
 -   releaseCycle: "2.9"
     releaseDate: 2017-11-17
@@ -96,20 +96,6 @@ releases:
     eol: 2013-10-16
     latest: "2.2.0"
     latestReleaseDate: 2013-10-16
-
-# There is no "stable" tag for this version
--   releaseCycle: "2.1" # used https://github.com/apache/hadoop/releases/tag/release-2.1.0-beta-rc2
-    releaseDate: 2013-08-15
-    eol: 2013-12-02
-    latest: "2.1.0"
-    latestReleaseDate: 2013-12-02 # used https://github.com/apache/hadoop/releases/tag/release-2.1.1-rc0
-
-# There is no "stable" tag for this version
--   releaseCycle: "2.0"
-    releaseDate: 1970-01-01 # used https://github.com/apache/hadoop/releases/tag/release-2.0.0-alpha
-    eol: 2012-05-23
-    latest: "2.0.0"
-    latestReleaseDate: 2013-08-23 # used https://github.com/apache/hadoop/releases/tag/release-2.0.6-alpha
 
 -   releaseCycle: "1.2"
     releaseDate: 2013-05-14

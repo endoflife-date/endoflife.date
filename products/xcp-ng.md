@@ -6,7 +6,6 @@ alternate_urls:
 -   /xcpng
 versionCommand: software-version
 releasePolicyLink: https://xcp-ng.org/docs/releases.html
-activeSupportColumn: false
 eolColumn: Support
 
 auto:
@@ -24,7 +23,6 @@ releases:
 -   releaseCycle: "8.1"
     releaseDate: 2020-03-25
     eol: 2021-03-31
-    lts: false
     latest: "8.1.0"
     latestReleaseDate: 2020-03-25
     link: https://xcp-ng.org/docs/release-8-1.html
@@ -32,35 +30,31 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2019-07-18
     eol: 2020-11-13
-    lts: false
     latest: "8.0.0"
     latestReleaseDate: 2019-07-18
 
 -   releaseCycle: "7.6"
     releaseDate: 2018-10-10
     eol: 2020-03-30
-    lts: false
     latest: "7.6.0"
     latestReleaseDate: 2018-10-10
 
 -   releaseCycle: "7.5"
     releaseDate: 2018-08-09
     eol: 2019-07-25
-    lts: false
     latest: "7.5.0"
     latestReleaseDate: 2018-08-09
 
 -   releaseCycle: "7.4"
     releaseDate: 2018-03-31
     eol: 2018-10-31
-    lts: false
     latest: "7.4.0"
     latestReleaseDate: 2018-03-31
 
 ---
 
 > [XCP-ng](https://xcp-ng.org) is a free and open-source hypervisor based on
-> [Xen](https://xenproject.org/). It is a fork of [XenServer](https://xenserver.org/), which was
+> [Xen](https://xenproject.org/). It is a fork of [XenServer](https://xenserver.com/), which was
 > acquired by Citrix in 2013. It is a drop-in replacement for XenServer, and can be used to manage
 > and run virtual machines on any hardware that supports the Xen hypervisor. XCP-ng is developed by
 > a community of contributors and is available for free.

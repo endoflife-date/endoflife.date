@@ -3,13 +3,12 @@ title: Exim
 category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
-activeSupportColumn: false
 releaseDateColumn: true
 
 # https://rubular.com/r/oNyoh1qDT1V2eF
 auto:
 -   git: https://github.com/Exim/exim
-    regex: 
+    regex:
       ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
 
 identifiers:
@@ -19,11 +18,17 @@ changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 
 # eol(R) = releaseDate(R+1)
 releases:
+-   releaseCycle: "4.97"
+    releaseDate: 2023-11-04
+    eol: false
+    latest: "4.97"
+    latestReleaseDate: 2023-11-04
+
 -   releaseCycle: "4.96"
     releaseDate: 2022-06-25
-    eol: false
-    latest: "4.96"
-    latestReleaseDate: 2022-06-25
+    eol: 2023-11-04
+    latest: "4.96.2"
+    latestReleaseDate: 2023-10-15
 
 -   releaseCycle: "4.95"
     releaseDate: 2021-09-28
@@ -287,5 +292,5 @@ releases:
 > under the GNU General Public Licence.
 > It offers a great deal of flexibility in the way mail can be routed.
 
-All versions of Exim previous to version 4.96 [are now obsolete](https://exim.org/).
-Maintainence releases are only published if necessary.
+All versions of Exim previous to latest version [are obsolete](https://exim.org/).
+Maintenance releases are only published if necessary.

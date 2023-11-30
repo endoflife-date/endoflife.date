@@ -6,17 +6,23 @@ versionCommand: weechat --version
 changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.html
 releaseDateColumn: true
 eolColumn: Active Support
-releaseColumn: true
 
 auto:
 -   git: https://github.com/weechat/weechat.git
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.1"
+    releaseDate: 2023-10-15
+    eol: false
+    latest: "4.1.1"
+    latestReleaseDate: 2023-10-26
+
 -   releaseCycle: "4.0"
     releaseDate: 2023-06-24
-    eol: false
-    latest: "4.0.5"
-    latestReleaseDate: 2023-09-24
+    eol: 2023-10-15
+    latest: "4.0.6"
+    latestReleaseDate: 2023-10-26
 
 -   releaseCycle: "3.8"
     releaseDate: 2023-01-08
@@ -80,6 +86,6 @@ releases:
 
 ---
 
-> [WeeChat](https://weechat.org) (Wee Enhanced Environment for Chat) is a free and open-source Internet Relay Chat client that is designed to be light and fast. It is released under the terms of the GNU GPL-3.0-or-later and has been developed since 2003. 
+> [WeeChat](https://weechat.org) (Wee Enhanced Environment for Chat) is a free and open-source Internet Relay Chat client that is designed to be light and fast. It is released under the terms of the GNU GPL-3.0-or-later and has been developed since 2003.
 
 WeeChat [only supports the latest release](https://github.com/endoflife-date/endoflife.date/pull/3267#issuecomment-1632930520).

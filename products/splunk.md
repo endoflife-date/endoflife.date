@@ -6,7 +6,6 @@ permalink: /splunk
 versionCommand: splunk --version
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
-activeSupportColumn: false
 releaseDateColumn: true
 
 auto:
@@ -17,14 +16,14 @@ releases:
 -   releaseCycle: "9.1"
     releaseDate: 2023-06-28
     eol: 2025-06-28
-    latest: "9.1.1"
-    latestReleaseDate: 2023-08-30
+    latest: "9.1.2"
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "9.0"
     releaseDate: 2022-06-14
     eol: 2024-06-14
-    latest: "9.0.6"
-    latestReleaseDate: 2023-08-30
+    latest: "9.0.7"
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "8.2"
     releaseDate: 2021-05-12

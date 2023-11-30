@@ -11,7 +11,6 @@ versionCommand: composer show craftcms/cms |grep versions
 releasePolicyLink: https://craftcms.com/knowledge-base/supported-versions
 changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 
 auto:
@@ -22,14 +21,16 @@ releases:
     releaseDate: 2022-05-04
     support: 2024-04-30
     eol: 2025-04-30
-    latest: '4.5.6'
-    latestReleaseDate: 2023-09-26
+    latest: '4.5.11.1'
+    latestReleaseDate: 2023-11-23
+
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
     support: 2023-04-30
     eol: 2024-04-30
-    latest: '3.9.4'
-    latestReleaseDate: 2023-09-26
+    latest: '3.9.6'
+    latestReleaseDate: 2023-11-16
+
 -   releaseCycle: "2"
     releaseDate: 2014-04-01
     support: 2020-01-31
@@ -41,4 +42,5 @@ releases:
 
 > [Craft](https://craftcms.com/) is a flexible, user-friendly content management system.
 
-Each major version receives two years of active support and maintenance. Critical security issues are fixed for another one year (where possible).
+Each major version receives two years of active support and maintenance. Critical security issues
+are fixed for another one year (where possible).

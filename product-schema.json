@@ -265,6 +265,14 @@
         ]
       }
     },
+    "customColumns": {
+      "title": "Custom columns",
+      "description": "Array of custom columns for this product.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/customColumn"
+      }
+    },
     "releases": {
       "title": "Releases",
       "description": "Array of releases for this product.",
@@ -305,6 +313,49 @@
       "title": "Regex",
       "description": "Regex which will be used to filter the releases.",
       "type": "string"
+    },
+    "customColumn": {
+      "type": "object",
+      "properties": {
+        "property": {
+          "title": "Property",
+          "description": "Name of the custom property in release cycles.",
+          "examples": [
+            "supportedIosVersions",
+            "correspondingAndroidVersion"
+          ],
+          "type": "string"
+        },
+        "position": {
+          "title": "Position",
+          "description": "Position of the custom column in the table.",
+          "enum": [
+            "after-release-column",
+            "before-latest-column",
+            "after-latest-column"
+          ]
+        },
+        "label": {
+          "title": "Label",
+          "description": "Label of the custom column.",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "description": "A description of what contains the custom column.",
+          "type": "string"
+        },
+        "link": {
+          "title": "Link",
+          "description": "A link that gives more information about what contains the custom column.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "property",
+        "position",
+        "label"
+      ]
     },
     "release": {
       "type": "object",

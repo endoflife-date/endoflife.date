@@ -9,10 +9,7 @@ alternate_urls:
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
-activeSupportColumn: false
-discontinuedColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 identifiers:
 -   repology: kotlin
@@ -26,8 +23,8 @@ releases:
 -   releaseCycle: "1.9"
     releaseDate: 2023-07-06
     eol: false
-    latest: "1.9.10"
-    latestReleaseDate: 2023-08-23
+    latest: "1.9.21"
+    latestReleaseDate: 2023-11-23
 
 -   releaseCycle: "1.8"
     eol: 2023-07-06

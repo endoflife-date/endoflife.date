@@ -8,7 +8,6 @@ releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
 releaseImage: https://docs.mattermost.com/_images/ESR_graphic.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
-activeSupportColumn: false
 eolWarnThreshold: 30
 releaseDateColumn: true
 
@@ -17,24 +16,36 @@ auto:
 
 # EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
+-   releaseCycle: "9.2"
+    releaseDate: 2023-10-28
+    eol: 2024-02-15
+    latest: '9.2.3'
+    latestReleaseDate: 2023-11-22
+
+-   releaseCycle: "9.1"
+    releaseDate: 2023-10-06
+    eol: 2024-01-15
+    latest: '9.1.4'
+    latestReleaseDate: 2023-11-22
+
 -   releaseCycle: "9.0"
     releaseDate: 2023-09-08
     eol: 2023-12-15
-    latest: '9.0.0'
-    latestReleaseDate: 2023-09-08
+    latest: '9.0.5'
+    latestReleaseDate: 2023-11-22
 
 -   releaseCycle: "8.1"
     lts: true
     releaseDate: 2023-08-10
     eol: 2024-05-15
-    latest: '8.1.2'
-    latestReleaseDate: 2023-09-07
+    latest: '8.1.7'
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "8.0"
     releaseDate: 2023-07-09
     eol: 2023-10-15
-    latest: '8.0.3'
-    latestReleaseDate: 2023-09-05
+    latest: '8.0.4'
+    latestReleaseDate: 2023-10-03
 
 -   releaseCycle: "7.10"
     releaseDate: 2023-04-12
@@ -52,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2023-02-14
     eol: 2023-11-15
-    latestReleaseDate: 2023-09-07
-    latest: '7.8.11'
+    latestReleaseDate: 2023-11-10
+    latest: '7.8.15'
 
 -   releaseCycle: "7.7"
     releaseDate: 2023-01-13

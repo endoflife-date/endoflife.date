@@ -12,7 +12,6 @@ releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
 changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 
 identifiers:
 -   cpe: cpe:/o:slackware:slackware_linux
@@ -33,19 +32,19 @@ releases:
 
 -   releaseCycle: "14.2"
     releaseDate: 2016-07-01
-    eol: false
+    eol: 2024-01-01 # https://mirrors.slackware.com/slackware/slackware-14.2/ChangeLog.txt
     latest: '14.2'
     latestReleaseDate: 2016-07-01
 
 -   releaseCycle: "14.1"
     releaseDate: 2013-11-07
-    eol: false
+    eol: 2024-01-01 # https://mirrors.slackware.com/slackware/slackware-14.1/ChangeLog.txt
     latest: '14.1'
     latestReleaseDate: 2013-11-07
 
 -   releaseCycle: "14.0"
     releaseDate: 2012-09-28
-    eol: false
+    eol: 2024-01-01 # https://mirrors.slackware.com/slackware/slackware-14.0/ChangeLog.txt
     latest: '14.0'
     latestReleaseDate: 2012-09-28
 

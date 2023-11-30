@@ -1,32 +1,32 @@
 ---
 title: Microsoft Exchange
-permalink: /msexchange
-iconSlug: microsoftexchange
 category: server-app
 tags: microsoft
-releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
-activeSupportColumn: true
+iconSlug: microsoftexchange
+permalink: /msexchange
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
+releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
 releaseDateColumn: true
+activeSupportColumn: true
 
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU13 SU2V2"
+    releaseLabel: "2019 CU13 SU4"
     releaseDate: 2018-10-22
     support: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1258.25"
-    latestReleaseDate: 2023-08-15
-    link: https://support.microsoft.com/help/5030524
+    latest: "15.2.1258.28"
+    latestReleaseDate: 2023-11-14
+    link: https://support.microsoft.com/help/5032146
 
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU9V2"
+    releaseLabel: "2016 CU23 SU11"
     releaseDate: 2015-10-01
     support: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.32"
-    latestReleaseDate: 2023-08-15
-    link: https://support.microsoft.com/help/5030524
+    latest: "15.1.2507.35"
+    latestReleaseDate: 2023-11-14
+    link: https://support.microsoft.com/help/5032147
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"

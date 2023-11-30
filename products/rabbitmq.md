@@ -14,22 +14,22 @@ extendedSupportColumn: Extended Commercial Support
 auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
     regex: 
-      ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>0|[1-9]\d*)|v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*))$
+      ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>\d+)_(?<patch>\d+)|v(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+))$
 
 releases:
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01
     eol: 2024-06-30
     extendedSupport: 2024-12-31
-    latest: "3.12.6"
-    latestReleaseDate: 2023-09-21
+    latest: "3.12.10"
+    latestReleaseDate: 2023-11-22
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-09-26
     eol: 2023-12-31
     extendedSupport: 2024-07-31
-    latest: "3.11.23"
-    latestReleaseDate: 2023-09-11
+    latest: "3.11.26"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-05-03

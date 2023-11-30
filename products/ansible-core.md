@@ -1,8 +1,8 @@
 ---
 title: Ansible-core
 category: framework
-iconSlug: ansible
 tags: python-runtime red-hat
+iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
 releasePolicyLink: 
@@ -10,22 +10,31 @@ releasePolicyLink:
 changelogTemplate: 
   https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 auto:
 -   git: https://github.com/ansible/ansible.git
 
-# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
+# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
+# EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
 releases:
+-   releaseCycle: "2.16"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
+    powershellVersionsManagedNode: 3 - 5.1
+    releaseDate: 2023-11-06
+    eol: 2025-05-01
+    latest: "2.16.0"
+    latestReleaseDate: 2023-11-06
+
 -   releaseCycle: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-15
     eol: 2024-11-01
-    latest: "2.15.4"
-    latestReleaseDate: 2023-09-11
+    latest: "2.15.6"
+    latestReleaseDate: 2023-11-06
 
 -   releaseCycle: "2.14"
     pythonVersionsControlNode: 3.9 - 3.11
@@ -33,8 +42,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.10"
-    latestReleaseDate: 2023-09-11
+    latest: "2.14.11"
+    latestReleaseDate: 2023-10-09
 
 -   releaseCycle: "2.13"
     pythonVersionsControlNode: 3.8 - 3.10
@@ -42,8 +51,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-05-16
     eol: 2023-11-30
-    latest: "2.13.12"
-    latestReleaseDate: 2023-09-11
+    latest: "2.13.13"
+    latestReleaseDate: 2023-10-09
 
 -   releaseCycle: "2.12"
     pythonVersionsControlNode: 3.8 - 3.10

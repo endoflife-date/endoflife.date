@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: argocd version
 releasePolicyLink: https://github.com/argoproj/argo-cd/security/policy#supported-versions
 changelogTemplate: https://github.com/argoproj/argo-cd/releases/tag/v__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Support
 
@@ -26,21 +25,27 @@ identifiers:
 
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.9"
+    releaseDate: 2023-11-05
+    eol: false
+    latest: "2.9.2"
+    latestReleaseDate: 2023-11-20
+
 -   releaseCycle: "2.8"
     releaseDate: 2023-08-07
     eol: false
-    latest: "2.8.4"
-    latestReleaseDate: 2023-09-13
+    latest: "2.8.7"
+    latestReleaseDate: 2023-11-20
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-05-01
     eol: false
-    latest: "2.7.14"
-    latestReleaseDate: 2023-09-07
+    latest: "2.7.15"
+    latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-02-06
-    eol: false
+    eol: 2023-11-05
     latest: "2.6.15"
     latestReleaseDate: 2023-09-07
 

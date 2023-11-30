@@ -9,7 +9,6 @@ versionCommand: mongod --version
 releasePolicyLink: https://www.mongodb.com/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-activeSupportColumn: false
 releaseDateColumn: true
 
 # MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
@@ -30,16 +29,23 @@ identifiers:
 
 auto:
 -   git: https://github.com/mongodb/mongo.git
-    regex: ^r(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+    regex: ^r(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
 # Dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because we are using
 # git tag dates.
 releases:
+-   releaseCycle: "7.1"
+    releaseLabel: "7.1 (Rapid Release)"
+    releaseDate: 2023-10-04
+    eol: false
+    latest: '7.1.1'
+    latestReleaseDate: 2023-11-16
+
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: false
-    latest: '7.0.2'
-    latestReleaseDate: 2023-09-26
+    latest: '7.0.4'
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -66,8 +72,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-01
-    latest: "6.0.10"
-    latestReleaseDate: 2023-09-11
+    latest: "6.0.12"
+    latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -93,14 +99,14 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-01
-    latest: "5.0.21"
-    latestReleaseDate: 2023-09-07
+    latest: "5.0.23"
+    latestReleaseDate: 2023-11-20
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
     eol: 2024-02-01
-    latest: "4.4.25"
-    latestReleaseDate: 2023-09-26
+    latest: "4.4.26"
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-08-09
@@ -210,6 +216,8 @@ MongoDB Atlas and are not supported for on-premises deployments.
 GA Major releases of the MongoDB Server are supported for 30 months. Compatibility of the MongoDB
 Stable API with the MongoDB Server is supported. Each GA release of the Stable API is compatible
 with all GA Major Releases of the MongoDB Server that are released on or within five years of the
-Release Date of that version of the Stable API.
+Release Date of that version of the Stable API. Lifecycle Schedule is documented at
+<https://www.mongodb.com/support-policy/lifecycles>.
 
-Lifecycle Schedule is documented at <https://www.mongodb.com/support-policy/lifecycles>.
+Extended support by MongoDB for up to 2 years is available through the commercial
+[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/products/enterprise-advanced/support).

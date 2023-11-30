@@ -11,7 +11,7 @@ versionCommand: |-
 
   # RedHat based
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
-changelogTemplate: "https://go2docs.graylog.org/5-0/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
 releaseDateColumn: true
 
@@ -21,17 +21,23 @@ auto:
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "5.2"
+    releaseDate: 2023-10-30
+    eol: false
+    latest: "5.2.1"
+    latestReleaseDate: 2023-11-15
+
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11
     eol: false
-    latest: "5.1.5"
-    latestReleaseDate: 2023-09-06
+    latest: "5.1.8"
+    latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-11-30
-    eol: false
-    latest: "5.0.11"
-    latestReleaseDate: 2023-09-06
+    eol: 2023-10-30
+    latest: "5.0.13"
+    latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "4.3"
     releaseDate: 2022-05-17
@@ -62,6 +68,7 @@ releases:
     eol: 2022-04-12
     latest: "3.3.17"
     latestReleaseDate: 2022-04-12
+    link: https://go2docs.graylog.org/4-0/changelogs/changelog.html#Graylog3317
 
 -   releaseCycle: "3.2"
     releaseDate: 2020-01-31

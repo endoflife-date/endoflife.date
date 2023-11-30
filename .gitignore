@@ -18,3 +18,4 @@ _data/gke.json
 *.code-workspace
 node_modules
 .DS_Store
+.venv

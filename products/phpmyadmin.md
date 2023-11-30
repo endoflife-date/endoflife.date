@@ -8,13 +8,10 @@ releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 activeSupportColumn: true
 releaseDateColumn: true
-releaseColumn: true
 
 auto:
 -   git: https://github.com/phpmyadmin/phpmyadmin.git
     regex: '^RELEASE_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)(_(?<tiny>\d+))?$'
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}.{{tiny}}{%endif%}'
-
 
 identifiers:
 -   repology: phpmyadmin

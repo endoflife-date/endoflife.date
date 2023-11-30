@@ -1,16 +1,14 @@
 ---
-permalink: /fairphone
 title: Fairphone
 category: device
 tags: mobile-phone
+permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
-discontinuedColumn: true
-activeSupportColumn: false
 releaseColumn: false
 releaseDateColumn: true
+discontinuedColumn: true
 
 releases:
-
 -   releaseCycle: "5"
     highestAndroidVersion: "13"
     releaseDate: 2023-09-14
@@ -19,7 +17,7 @@ releases:
     link: https://support.fairphone.com/hc/en-us/articles/18020671537041-Fairphone-5-FAQ
 
 -   releaseCycle: "4"
-    highestAndroidVersion: "12"
+    highestAndroidVersion: "13"
     releaseDate: 2021-09-30
     discontinued: false
     eol: 2026-09-30

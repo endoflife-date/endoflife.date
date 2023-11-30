@@ -5,20 +5,36 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
+# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
+auto:
+-   custom: true
+
+# Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
--   releaseCycle: "4.2"
-    releaseDate: 2022-09-28
+-   releaseCycle: "4.4"
+    releaseDate: 2023-09-13
     support: true
     eol: false
-    latest: "4.2.1"
-    latestReleaseDate: 2022-12-14
+    latest: "4.4.0.1"
 
+    latestReleaseDate: 2023-10-18
+-   releaseCycle: "4.3"
+    releaseDate: 2023-04-24
+    support: 2023-12-31
+    eol: 2024-09-30
+    latest: "4.3.0.1"
+
+    latestReleaseDate: 2023-07-18
+-   releaseCycle: "4.2"
+    releaseDate: 2022-09-28
+    support: 2023-07-31
+    eol: 2024-04-30
+    latest: "4.2.1.1"
+
+    latestReleaseDate: 2023-03-16
 -   releaseCycle: "4.1"
     releaseDate: 2022-04-13
     support: 2022-12-31
@@ -55,7 +71,7 @@ releases:
     latestReleaseDate: 2020-07-08
 
 -   releaseCycle: "3.5"
-    releaseDate: 2019-12-15
+    releaseDate: 2019-12-15 # https://next.nutanix.com/community-blog-154/nutanix-files-3-5-31952
     support: 2020-01-31
     eol: 2020-10-31
     latest: "3.5.6"

@@ -7,36 +7,42 @@ versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 
 auto:
 # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
 -   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "6.1"
+    codename: Heaviside
+    releaseDate: 2023-11-11
+    eol: false
+    latest: "6.1"
+    latestReleaseDate: 2023-11-11
+
 -   releaseCycle: "6.0"
     codename: Von Neumann
     releaseDate: 2023-02-27
     eol: false
-    latest: "6.0"
-    latestReleaseDate: 2023-02-27
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.1"
     codename: Riemann
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.3"
-    latestReleaseDate: 2023-03-26
+    latest: "5.1.4"
+    latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "5.0"
     codename: Lorentz
     releaseDate: 2022-01-14
-    eol: false
+    eol: 2023-04-02
     latest: "5.0.3"
     latestReleaseDate: 2023-04-02
 
@@ -114,8 +120,8 @@ releases:
     codename: 'Feynman'
     releaseDate: 2015-09-09
     eol: false
-    latest: "2.8.21"
-    latestReleaseDate: 2022-10-30
+    latest: "2.8.22"
+    latestReleaseDate: 2023-10-29
 
 -   releaseCycle: "2.7"
     codename: 'Nash'
@@ -241,7 +247,7 @@ releases:
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of
 > libraries and programs for handling video, audio, and other multimedia files and streams. It is
 > the core of software such as VLC, MPV, Blender, Audacity, HandBrake, OBS Studio, and much more.
-> Full list of capabilities are found [in their documentation](https://ffmpeg.org/ffmpeg.html).
+> Full list of capabilities is found [in their documentation](https://ffmpeg.org/documentation.html).
 
 FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
 defined but, looking at the releases history, there is at least a `x.y` release every year which is

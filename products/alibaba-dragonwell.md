@@ -68,8 +68,8 @@ releases:
     lts: true
     releaseDate: 2021-10-18
     eol: 2029-09-30
-    latest: "17.0.8.0.8+7"
-    latestReleaseDate: 2023-08-08
+    latest: "17.0.9.0.10+9"
+    latestReleaseDate: 2023-11-13
 
 # First official release is 11.0.7.2.
 -   releaseCycle: "11"

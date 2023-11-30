@@ -8,7 +8,6 @@ alternate_urls:
 versionCommand: cat /opt/couchbase/VERSION.txt
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software/
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
-activeSupportColumn: false
 eolColumn: Full Maintenance
 releaseDateColumn: true
 
@@ -25,24 +24,24 @@ auto:
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
-    eol: 2024-01-31 # Still to be confirmed on https://www.couchbase.com/support-policy/enterprise-software/
-    latest: "7.2.1"
-    latestReleaseDate: 2023-09-15
+    eol: 2026-07-31
+    latest: "7.2.3"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "7.1"
-    releaseDate: 2022-05-15
-    eol: 2023-12-31
-    latest: "7.1.5"
-    latestReleaseDate: 2023-08-15
+    releaseDate: 2022-05-31
+    eol: 2024-01-31
+    latest: "7.1.6"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "7.0"
-    releaseDate: 2021-07-15
+    releaseDate: 2021-07-31
     eol: 2023-01-31
     latest: "7.0.5"
-    latestReleaseDate: 2022-12-15
+    latestReleaseDate: 2022-12-31
 
 -   releaseCycle: "6.6"
-    releaseDate: 2020-08-15
+    releaseDate: 2020-08-12
     eol: 2023-01-31
     latest: "6.6.6"
     latestReleaseDate: 2023-01-15

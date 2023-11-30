@@ -10,7 +10,6 @@ releaseImage:
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 releaseDateColumn: true
-releaseColumn: true
 
 auto:
 -   custom: true
@@ -20,8 +19,8 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: false
-    latest: "2022.3.10f1"
-    latestReleaseDate: 2023-09-19
+    latest: "2022.3.14f1"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07
@@ -39,14 +38,14 @@ releases:
     lts: true
     releaseDate: 2022-04-11
     eol: 2024-04-19
-    latest: "2021.3.30f1"
-    latestReleaseDate: 2023-08-29
+    latest: "2021.3.33f1"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2022-02-17
-    latest: "2021.3.30f1"
-    latestReleaseDate: 2023-08-29
+    latest: "2021.3.33f1"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "2021.2"
     releaseDate: 2021-10-25

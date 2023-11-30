@@ -27,24 +27,24 @@ releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
-    eol: false # not yet announced on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
-    latest: "21"
-    latestReleaseDate: 2023-09-19
+    eol: 2028-09-30
+    latest: "21.0.1"
+    latestReleaseDate: 2023-10-13
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
-    latest: "17.0.8.1"
-    latestReleaseDate: 2023-08-23
+    latest: "17.0.9"
+    latestReleaseDate: 2023-10-11
 
 # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
     eol: 2024-09-30
-    latest: "11.0.20.1"
-    latestReleaseDate: 2023-08-23
+    latest: "11.0.21"
+    latestReleaseDate: 2023-10-06
 
 ---
 

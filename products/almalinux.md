@@ -2,9 +2,11 @@
 title: AlmaLinux OS
 category: os
 tags: linux-distribution
+iconSlug: almalinux
 permalink: /almalinux
 versionCommand: cat /etc/redhat-release
-releasePolicyLink: https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
+releasePolicyLink: 
+  https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 activeSupportColumn: true
 releaseDateColumn: true
@@ -22,17 +24,17 @@ releases:
     releaseDate: 2022-05-26
     support: 2027-05-31
     eol: 2032-05-31
-    latest: "9.2"
-    latestReleaseDate: 2023-05-11
+    latest: "9.3"
+    latestReleaseDate: 2023-11-13
     link: https://almalinux.org/blog/almalinux-91-now-available/
 
 -   releaseCycle: "8"
     releaseDate: 2021-03-30
     support: 2024-05-01
     eol: 2029-03-01
-    latest: "8.8"
-    latestReleaseDate: 2023-05-18
-    link: https://almalinux.org/blog/almalinux-88-now-available/
+    latest: "8.9"
+    latestReleaseDate: 2023-11-21
+    link: https://almalinux.org/blog/2023-11-21-announcing-89-stable/
 
 ---
 

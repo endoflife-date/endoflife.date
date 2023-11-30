@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://openwrt.org/docs/guide-developer/security#support_status
 changelogTemplate: "https://openwrt.org/releases/{{'__LATEST__'|split:'.'|pop|join:'.'}}/start"
-releaseColumn: true
 releaseDateColumn: true
 activeSupportColumn: true
 
@@ -21,12 +20,19 @@ auto:
 # EOL(R)=MAX(releaseDate(R+1)+6m, releaseDate(R)+1y)
 # Support(R) = releaseDate(R+1)
 releases:
--   releaseCycle: "22.03"
+-   releaseCycle: "23.05"
+    releaseDate: 2023-10-11
     support: true
     eol: false
+    latest: "23.05.2"
+    latestReleaseDate: 2023-11-15
+
+-   releaseCycle: "22.03"
     releaseDate: 2022-09-03
-    latestReleaseDate: 2023-04-27
+    support: 2023-10-11
+    eol: 2024-04-11
     latest: "22.03.5"
+    latestReleaseDate: 2023-04-27
 
 -   releaseCycle: "21.02"
     eol: 2023-04-30

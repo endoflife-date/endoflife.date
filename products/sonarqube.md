@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://www.sonarqube.org/downloads/lts/
 changelogTemplate: "https://www.sonarqube.org/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
 activeSupportColumn: true
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
@@ -22,9 +21,8 @@ releases:
     releaseDate: 2023-03-30
     support: true
     eol: false
-    lts: false
-    latest: "10.2.1"
-    latestReleaseDate: 2023-09-25
+    latest: "10.3.0"
+    latestReleaseDate: 2023-11-15
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"
@@ -32,8 +30,8 @@ releases:
     support: 2023-03-30
     eol: false
     lts: 2023-02-07
-    latest: "9.9.2"
-    latestReleaseDate: 2023-08-25
+    latest: "9.9.3"
+    latestReleaseDate: 2023-11-09
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"
