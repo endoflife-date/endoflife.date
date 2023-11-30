@@ -13,7 +13,28 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/symfony/symfony.git
 
+# For LTS:
+# - support(x) = releaseDate(x) + 36 months
+# - eol(x) = releaseDate(x) + 48 months
+#
+# For non-LTS:
+# - support(x) = releaseDate(x) + 8 months
+# - eol(x) = releaseDate(x) + 8 months
 releases:
+-   releaseCycle: "7.0"
+    releaseDate: 2023-11-29
+    support: 2024-07-31
+    eol: 2024-07-31
+    latest: "7.0.0"
+    latestReleaseDate: 2023-11-29
+
+-   releaseCycle: "6.4"
+    lts: true
+    releaseDate: 2023-11-29
+    support: 2026-11-30
+    eol: 2027-11-30
+    latest: "6.4.0"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-05-30
