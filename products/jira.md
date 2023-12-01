@@ -23,6 +23,7 @@ releases:
 -   releaseCycle: "9.12"
     releaseDate: 2023-11-29
     eol: 2025-11-29
+    lts: true
     latest: "9.12.0"
     latestReleaseDate: 2023-11-29
     link: 
