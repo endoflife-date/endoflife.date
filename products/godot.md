@@ -24,7 +24,7 @@ releases:
     releaseDate: 2023-11-29
     support: true
     eol: false
-    latest: "4.2.0"
+    latest: "4.2"
     latestReleaseDate: 2023-11-29
     link: https://godotengine.org/article/godot-4-2-arrives-in-style/
 
