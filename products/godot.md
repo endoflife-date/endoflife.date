@@ -19,7 +19,6 @@ auto:
 
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release
-# 3.x will turn to LTS with the 3.5 release.
 releases:
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-29
@@ -45,6 +44,7 @@ releases:
 
 -   releaseCycle: "3.5"
     releaseDate: 2022-08-05
+    lts: true
     support: true
     eol: false
     latest: "3.5.3"
@@ -86,8 +86,8 @@ releases:
     latestReleaseDate: 2018-07-31
 
 -   releaseCycle: "2.1"
-    lts: true
     releaseDate: 2016-08-09
+    lts: true
     support: false
     eol: true
     latest: "2.1.6"
