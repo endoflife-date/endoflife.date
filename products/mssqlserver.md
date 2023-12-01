@@ -87,7 +87,7 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP4"
     releaseDate: 2017-10-05
-    support: 2017-07-11
+    support: 2022-07-12
     eol: 2022-07-12
     extendedSupport: 2025-07-08
     latestGdr: "11.0.7512.11"
