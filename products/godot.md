@@ -19,15 +19,21 @@ auto:
 
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release
-# 3.x will turn to LTS with the 3.6 release.
 releases:
+-   releaseCycle: "4.2"
+    releaseDate: 2023-11-29
+    support: true
+    eol: false
+    latest: "4.2.0"
+    latestReleaseDate: 2023-11-29
+    link: https://godotengine.org/article/godot-4-2-arrives-in-style/
+
 -   releaseCycle: "4.1"
     releaseDate: 2023-07-05
     support: true
     eol: false
     latest: "4.1.3"
     latestReleaseDate: 2023-11-01
-    link: https://godotengine.org/article/godot-4-1-is-here/
 
 -   releaseCycle: "4.0"
     releaseDate: 2023-03-01
@@ -38,6 +44,7 @@ releases:
 
 -   releaseCycle: "3.5"
     releaseDate: 2022-08-05
+    lts: true
     support: true
     eol: false
     latest: "3.5.3"
@@ -79,8 +86,8 @@ releases:
     latestReleaseDate: 2018-07-31
 
 -   releaseCycle: "2.1"
-    lts: true
     releaseDate: 2016-08-09
+    lts: true
     support: false
     eol: true
     latest: "2.1.6"
