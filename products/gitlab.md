@@ -27,22 +27,22 @@ releases:
     releaseDate: 2023-11-15
     support: 2023-12-21
     eol: 2024-02-15
-    latest: "16.6.0"
-    latestReleaseDate: 2023-11-15
+    latest: "16.6.1"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
     support: 2023-11-16
     eol: 2024-01-18
-    latest: "16.5.2"
-    latestReleaseDate: 2023-11-14
+    latest: "16.5.3"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21
     support: 2023-10-22
     eol: 2023-12-21
-    latest: "16.4.2"
-    latestReleaseDate: 2023-10-30
+    latest: "16.4.3"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "16.3"
     releaseDate: 2023-08-21

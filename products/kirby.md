@@ -20,8 +20,8 @@ releases:
     codename: "A new era"
     releaseDate: 2023-11-28
     eol: false
-    latest: "4.0.0"
-    latestReleaseDate: 2023-11-28
+    latest: "4.0.1"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"

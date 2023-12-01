@@ -18,8 +18,8 @@ releases:
     releaseDate: 2022-05-18
     support: true # upcoming releaseDate(3)
     eol: false # upcoming support(3) at least 1 year
-    latest: "2.11.0"
-    latestReleaseDate: 2023-10-12
+    latest: "2.11.1"
+    latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-02
