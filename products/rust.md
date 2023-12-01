@@ -1,7 +1,7 @@
 ---
 title: Rust
 category: lang
-tags: mozilla-research
+tags: rust-foundation
 iconSlug: rust
 permalink: /rust
 alternate_urls:
