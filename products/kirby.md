@@ -13,7 +13,7 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/getkirby/kirby.git
 
-# eol(x) = releaseDate(x+1) + 2 years
+# eol(x) = releaseDate(x+1) + 2 years - 1 day
 # See also https://getkirby.com/docs/archive.
 releases:
 -   releaseCycle: "4.0"
