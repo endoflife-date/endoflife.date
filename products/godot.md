@@ -35,7 +35,6 @@ releases:
     eol: false
     latest: "4.1.3"
     latestReleaseDate: 2023-11-01
-    link: https://godotengine.org/article/godot-4-1-is-here/
 
 -   releaseCycle: "4.0"
     releaseDate: 2023-03-01
