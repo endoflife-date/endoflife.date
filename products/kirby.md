@@ -13,11 +13,20 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/getkirby/kirby.git
 
+# eol(x) = releaseDate(x+1) + 2 years - 1 day
+# See also https://getkirby.com/docs/archive.
 releases:
+-   releaseCycle: "4.0"
+    codename: "A new era"
+    releaseDate: 2023-11-28
+    eol: false
+    latest: "4.0.0"
+    latestReleaseDate: 2023-11-28
+
 -   releaseCycle: "3.9"
     codename: "Brookesia"
     releaseDate: 2023-01-17
-    eol: false
+    eol: 2025-11-27
     latest: "3.9.8"
     latestReleaseDate: 2023-11-14
 
