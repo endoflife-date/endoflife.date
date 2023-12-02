@@ -13,6 +13,13 @@ LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 releaseDateColumn: true
 eolColumn: Active Support
 
+# https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
+auto:
+-   custom: true
+
+# For non-LTSC, eol(x) = releaseDate(x+1)
+# For LTSC, EOL dates can be found on https://learn.microsoft.com/en-us/lifecycle/products/?terms=Visual%20Studio.
+# When adding a new major version, don't forget to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py.
 releases:
 -   releaseCycle: "17.8"
     codename: "2022"
