@@ -68,5 +68,5 @@ patches only) for another 18 months before entering end of life. "2.7" is the pl
 for the v2 cycle with an [announced 2.x end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
 
 Commercial support for Vue 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-vue)
-initiative. For more information, see NES Vue [2.6](https://docs.herodevs.com/docs/vue2/2.6) and
-[2.7](https://docs.herodevs.com/docs/vue2/2.7) docs.
+initiative. For more information, see NES Vue [2.6](https://support.herodevs.com/hc/en-us/articles/21257913328909-Vue-2-6-NES) and
+[2.7](https://support.herodevs.com/hc/en-us/articles/21257927146381-Vue-2-7-NES) docs.
