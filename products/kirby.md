@@ -5,7 +5,7 @@ iconSlug: kirby
 permalink: /kirby
 alternate_urls:
 -   /getkirby
-changelogTemplate: "https://getkirby.com/releases/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
+changelogTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif
   %}"
 releaseDateColumn: true
@@ -64,7 +64,6 @@ releases:
     eol: 2021-11-16
     latest: "3.4.5"
     latestReleaseDate: 2020-12-01
-    link: https://github.com/getkirby/kirby/releases/tag/3.4.5
 
 -   releaseCycle: "3.3"
     codename: "Trioceros"
@@ -72,7 +71,6 @@ releases:
     eol: 2021-11-16
     latest: "3.3.6"
     latestReleaseDate: 2020-04-27
-    link: https://github.com/getkirby/kirby/releases/tag/3.3.6
 
 -   releaseCycle: "3.2"
     codename: "Archaius"
@@ -80,7 +78,6 @@ releases:
     eol: 2021-11-16
     latest: "3.2.5"
     latestReleaseDate: 2019-09-24
-    link: https://github.com/getkirby/kirby/releases/tag/3.2.5
 
 -   releaseCycle: "3.1"
     codename: "Chamaeleo"
@@ -88,7 +85,6 @@ releases:
     eol: 2021-11-16
     latest: "3.1.4"
     latestReleaseDate: 2019-05-21
-    link: https://github.com/getkirby/kirby/releases/tag/3.1.4
 
 -   releaseCycle: "3.0"
     releaseDate: 2019-01-15
