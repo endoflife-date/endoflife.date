@@ -14,7 +14,7 @@ auto:
 releases:
 -   releaseCycle: "16"
     releaseDate: 2023-11-17
-    eol: 2024-09-01
+    eol: 2028-11-01
     latest: "16.1"
     latestReleaseDate: 2023-11-17
 
