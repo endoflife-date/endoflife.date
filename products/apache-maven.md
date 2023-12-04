@@ -22,8 +22,8 @@ releases:
     releaseDate: 2010-10-04
     support: true
     eol: false
-    latest: "3.9.5"
-    latestReleaseDate: 2023-10-02
+    latest: "3.9.6"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "2"
     releaseDate: 2006-05-07
