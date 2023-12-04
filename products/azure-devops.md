@@ -14,7 +14,7 @@ releaseDateColumn: true
 
 releases:
 -   releaseCycle: "2022.1"
-    releaseCycleLabel: "2022 Update 1"
+    releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
     support: 2028-01-11
     eol: 2033-01-11
@@ -23,7 +23,7 @@ releases:
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-release-date-november-28-2023
 
 -   releaseCycle: "2022.0"
-    releaseCycleLabel: "2022"
+    releaseLabel: "2022"
     releaseDate: 2022-12-06
     support: 2028-01-11
     eol: 2033-01-11
@@ -32,7 +32,7 @@ releases:
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022#azure-devops-server-2022-update-01-patch-5-release-date-november-14-2023
 
 -   releaseCycle: "2020.1"
-    releaseCycleLabel: "2020 Update 1"
+    releaseLabel: "2020 Update 1"
     releaseDate: 2020-08-25
     support: 2025-10-14
     eol: 2030-10-08
@@ -41,7 +41,7 @@ releases:
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-10-release-date-november-14-2023
 
 -   releaseCycle: "2020.0"
-    releaseCycleLabel: "2020"
+    releaseLabel: "2020"
     releaseDate: 2020-08-25
     support: 2025-10-14
     eol: 2030-10-08
@@ -50,7 +50,7 @@ releases:
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020#azure-devops-server-2020-update-02-patch-6-release-date-november-14-2023
 
 -   releaseCycle: "2019.1"
-    releaseCycleLabel: "2019 Update 1"
+    releaseLabel: "2019 Update 1"
     releaseDate: 2019-03-05
     support: 2024-04-09
     eol: 2029-04-10
@@ -59,7 +59,7 @@ releases:
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-6-release-date-november-14-2023
 
 -   releaseCycle: "2019.0"
-    releaseCycleLabel: "2019"
+    releaseLabel: "2019"
     releaseDate: 2019-03-05
     support: 2024-04-09
     eol: 2029-04-10
