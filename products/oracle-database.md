@@ -13,6 +13,14 @@ eolColumn: Premier Support
 extendedSupportColumn: Extended Support
 
 releases:
+-   releaseCycle: "23"
+    releaseLabel: "23c"
+    releaseDate: 2023-09-19
+    lts: true
+    eol: 2032-04-30
+    extendedSupport: yes
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
+
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
@@ -22,8 +30,8 @@ releases:
 
 -   releaseCycle: "19"
     releaseLabel: "19c"
-    lts: true
     releaseDate: 2019-04-25
+    lts: true
     eol: 2026-04-30
     # The first year of extended support is free.
     extendedSupport: 2027-04-30
@@ -120,7 +128,7 @@ may vary. This page documents Premier and Extended support dates for Oracle Data
 Server Releases for Linux x86-64.
 
 According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)
-(february 13, 2023 update) there are two types of Oracle Database releases:
+there are two types of Oracle Database releases:
 
 - Long Term Release (LTR), which are supported for 5 years with Premier Support, followed by 3 years
   with Extended Support. Note that Oracle Corporation may offer, for some LTR, one year of free
