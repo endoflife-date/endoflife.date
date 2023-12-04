@@ -9,7 +9,7 @@ alternate_urls:
 -   /mulesoft-runtimes
 -   /mule-runtimes
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
-changelogTemplate: https://docs.mulesoft.com/release-notes/mule-runtime/mule-__LATEST__-release-notes
+changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__LATEST__'|split:'-'|first}}-release-notes"
 activeSupportColumn: Standard Support
 releaseDateColumn: true
 eolColumn: Extended Support
@@ -22,6 +22,7 @@ releases:
     eol: 2024-06-03
     latest: "4.5.2"
     latestReleaseDate: 2023-11-15 # guessing
+    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.5.0-release-notes
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-09-07
