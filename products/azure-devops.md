@@ -63,7 +63,7 @@ releases:
     releaseDate: 2019-03-05
     support: 2024-04-09
     eol: 2029-04-10
-    latest: "2019.0.2patch16"
+    latest: "2019.0.1patch16"
     latestReleaseDate: 2023-11-14
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019#azure-devops-server-201901-patch-16-release-date-november-14-2023
 
