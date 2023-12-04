@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "2020.1"
     releaseLabel: "2020 Update 1"
-    releaseDate: 2020-08-25
+    releaseDate: 2021-05-25
     support: 2025-10-14
     eol: 2030-10-08
     latest: "2020.1.2patch10"
@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "2019.1"
     releaseLabel: "2019 Update 1"
-    releaseDate: 2019-03-05
+    releaseDate: 2019-08-20
     support: 2024-04-09
     eol: 2029-04-10
     latest: "2019.1.2patch6"
