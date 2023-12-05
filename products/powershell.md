@@ -2,7 +2,6 @@
 title: Microsoft PowerShell
 category: lang
 tags: microsoft
-iconSlug: powershell
 permalink: /powershell
 alternate_urls:
 -   /pwsh

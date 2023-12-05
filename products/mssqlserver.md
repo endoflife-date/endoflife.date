@@ -2,7 +2,6 @@
 title: Microsoft SQL Server
 category: db
 tags: microsoft
-iconSlug: microsoftsqlserver
 permalink: /mssqlserver
 alternate_urls:
 -   /mssql

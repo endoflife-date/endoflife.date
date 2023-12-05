@@ -2,7 +2,6 @@
 title: Microsoft Windows Server
 category: os
 tags: microsoft windows
-iconSlug: windows
 permalink: /windows-server
 alternate_urls:
   - /windowsserver
