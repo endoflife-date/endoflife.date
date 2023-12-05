@@ -20,10 +20,17 @@ auto:
 -   git: https://github.com/django/django.git
 
 releases:
+-   releaseCycle: "5.0"
+    releaseDate: 2023-12-04
+    support: true
+    eol: false
+    latest: "5.0"
+    latestReleaseDate: 2023-12-04
+
 -   releaseCycle: "4.2"
     lts: true
     releaseDate: 2023-04-03
-    support: 2023-12-01
+    support: 2023-12-04
     eol: 2026-04-01
     latest: "4.2.8"
     latestReleaseDate: 2023-12-04
@@ -31,7 +38,7 @@ releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-08-03
     support: 2023-04-01
-    eol: 2023-12-01
+    eol: 2023-12-04
     latest: "4.1.13"
     latestReleaseDate: 2023-11-01
 
@@ -101,7 +108,8 @@ releases:
 
 | Django Release | Supported Python Versions |
 |----------------|---------------------------|
-| 4.2            | 3.8 ≥ 3.11                |
+| 5.0            | 3.10 ≥ 3.12               |
+| 4.2            | 3.8 ≥ 3.12                |
 | 3.2            | 3.6 ≥ 3.10                |
 | 2.2            | 3.5 ≥ 3.9                 |
 | 2.0            | 3.4 ≥ 3.7                 |
