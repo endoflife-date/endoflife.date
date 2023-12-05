@@ -2,7 +2,6 @@
 title: Microsoft Surface
 category: device
 tags: microsoft
-iconSlug: windows
 permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 releaseColumn: false

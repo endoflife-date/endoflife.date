@@ -2,7 +2,6 @@
 title: Microsoft Windows
 category: os
 tags: microsoft windows
-iconSlug: windows
 permalink: /windows
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows

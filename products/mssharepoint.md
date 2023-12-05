@@ -2,7 +2,6 @@
 title: Microsoft SharePoint
 category: server-app
 tags: microsoft
-iconSlug: microsoftsharepoint
 permalink: /sharepoint
 alternate_urls:
 -   /mssharepoint
