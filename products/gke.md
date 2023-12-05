@@ -16,14 +16,21 @@ eolColumn: Maintenance Support
 auto:
 -   custom: true
 
-# eol: As on the release schedule page
+# eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
 # support: last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.28"
+    releaseDate: 2023-12-04
+    support: true # still TBD on release schedule page
+    eol: false # still TBD on release schedule page
+    latest: '1.28.3-gke.1286000'
+    latestReleaseDate: 2023-12-04
+
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
-    eol: 2024-08-31
     support: 2024-06-30
+    eol: 2024-08-31
     latest: '1.27.7-gke.1293000'
     latestReleaseDate: 2023-12-04
 
