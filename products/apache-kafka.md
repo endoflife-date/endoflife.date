@@ -24,8 +24,8 @@ releases:
     releaseDate: 2023-10-03
     eol: false
     extendedSupport: true # not yet announced at # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
-    latest: "3.6.0"
-    latestReleaseDate: 2023-10-03
+    latest: "3.6.1"
+    latestReleaseDate: 2023-12-05
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-06-13
@@ -197,7 +197,7 @@ releases:
     releaseDate: 2012-01-04
     eol: 2013-12-03
     extendedSupport: false
-    link:
+    link: 
       https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
