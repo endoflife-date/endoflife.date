@@ -16,7 +16,7 @@ auto:
 -   git: https://github.com/rust-lang/rust.git
     regex: ^<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$
 
-# eol(x) = A new stable release is produced every six weeks, like clock-work. Only the latest stable release receives patches. Each new stable release spends the preceding six week period as the Beta release. There's also a new 'nightly' build every night, but I don't propose you list all of those.
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.74"
     releaseDate: 2023-11-17
