@@ -118,7 +118,7 @@ releases:
 | 1.11.x         | 2.7 , 3.4 ≥ 3.7           |
 
 Not all releases in a series will support all Python versions, the matrix above is for the latest
-patch release. [For more up-to-date info](https://docs.djangoproject.com/en/4.2/faq/install/#what-python-version-can-i-use-with-django).
+patch release. [For more up-to-date info](https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django).
 
 **Feature releases** (A.B, A.B+1, etc.) will happen roughly every eight months. These releases will
 contain new features, improvements to existing features, and such. These can include documented
@@ -134,5 +134,5 @@ These releases will get security and data loss fixes applied for a guaranteed pe
 typically three years. Deprecations started in an LTS release (say X.2) will be dropped in a
 non-dot-zero release (Y.1).
 
-See the [supported versions policy](https://docs.djangoproject.com/en/dev/internals/release-process/#supported-versions)
+See the [supported versions policy](https://docs.djangoproject.com/en/stable/internals/release-process/#supported-versions)
 for detailed guidelines about what fixes will be backported.
