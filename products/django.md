@@ -23,8 +23,8 @@ auto:
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
-    support: true
-    eol: false
+    support: 2024-08-01
+    eol: 2025-04-01
     latest: "5.0"
     latestReleaseDate: 2023-12-04
 
