@@ -104,7 +104,7 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
-    eol: 2024-02-01
+    eol: 2024-02-29
     latest: "4.4.27"
     latestReleaseDate: 2023-12-12
 
