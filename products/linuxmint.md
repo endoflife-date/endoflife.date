@@ -11,6 +11,15 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 releases:
+-   releaseCycle: "lmde6"
+    releaseLabel: "LMDE 6"
+    codename: Faye
+    releaseDate: 2023-09-27
+    support: true
+    eol: false
+    latest: "6"
+    link: https://blog.linuxmint.com/?p=4570
+
 -   releaseCycle: "21.2"
     codename: Victoria
     lts: true
@@ -25,7 +34,7 @@ releases:
     codename: Elsie
     releaseDate: 2022-03-20
     support: true
-    eol: false
+    eol: 2024-07-01
     latest: "5"
     link: https://blog.linuxmint.com/?p=4287
 
