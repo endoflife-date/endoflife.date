@@ -3,7 +3,7 @@ title: Tarantool
 category: db
 permalink: /tarantool
 versionCommand: $ tarantool --version
-releaseImage:
+releaseImage: 
   https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/images_en/releases_calendar.svg
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
@@ -18,8 +18,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.1"
-    latestReleaseDate: 2023-08-21
+    latest: "2.11.2"
+    latestReleaseDate: 2023-12-07
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22
