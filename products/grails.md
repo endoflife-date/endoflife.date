@@ -40,8 +40,8 @@ releases:
     releaseDate: 2015-03-31
     support: false
     eol: 2021-09-30
-    latest: "3.3.16"
-    latestReleaseDate: 2022-08-24
+    latest: "3.3.17"
+    latestReleaseDate: 2023-12-07
 
 -   releaseCycle: "2"
     releaseDate: 2011-12-15
