@@ -14,7 +14,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/rust-lang/rust.git
-    regex: ^<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:
