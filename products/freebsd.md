@@ -18,7 +18,7 @@ releases:
 
 -   releaseCycle: "stable/14"
     releaseDate: 2023-11-21
-    eol: 2028-11-21
+    eol: 2028-11-30
     link: null
 
 -   releaseCycle: "releng/13.2"
