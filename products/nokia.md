@@ -14,12 +14,12 @@ releaseColumn: false
 releases:
 -   releaseCycle: "Nokia C210"
     releaseDate: 2023-09-14
-    eol: false
+    eol: 2025-09-14
     link: https://www.nokia.com/phones/en_us/nokia-c-210
 
 -   releaseCycle: "Nokia G310 5G"
     releaseDate: 2023-08-24
-    eol: false
+    eol: 2026-08-24
     link: https://www.nokia.com/phones/en_us/nokia-g-310
 
 -   releaseCycle: "Nokia G42 5G"
@@ -29,12 +29,12 @@ releases:
 
 -   releaseCycle: "Nokia C300"
     releaseDate: 2023-06-14
-    eol: false
+    eol: 2025-06-14
     link: https://www.nokia.com/phones/en_us/nokia-c-300
 
 -   releaseCycle: "Nokia C110"
     releaseDate: 2023-06-14
-    eol: false
+    eol: 2025-06-14
     link: https://www.nokia.com/phones/en_us/nokia-c-110
 
 -   releaseCycle: "Nokia XR21"
