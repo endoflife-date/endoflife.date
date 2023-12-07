@@ -19,8 +19,15 @@ identifiers:
 auto:
 -   git: https://github.com/rancher/rancher.git
 
-# EOL dates can be found on https://www.suse.com/lifecycle#rancher
+# Support and EOL dates can be found on https://www.suse.com/lifecycle#rancher
 releases:
+-   releaseCycle: "2.8"
+    releaseDate: 2023-12-05
+    support: true # to update once defined on https://www.suse.com/lifecycle#rancher
+    eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
+    latest: "2.8.0"
+    latestReleaseDate: 2023-12-05
+
 -   releaseCycle: "2.7"
     releaseDate: 2022-11-16
     support: 2024-05-15
