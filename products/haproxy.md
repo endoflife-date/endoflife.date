@@ -14,11 +14,18 @@ releaseDateColumn: true
 auto:
 -   custom: true
 
+# releaseCycle, releseDate, lts, eol and latest are listed on https://www.haproxy.org/
+# eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
 releases:
+-   releaseCycle: "2.9"
+    releaseDate: 2023-12-05
+    eol: 2025-01-01
+    latest: "2.9.0"
+    latestReleaseDate: 2023-12-05
 
 -   releaseCycle: "2.8"
-    lts: true
     releaseDate: 2023-05-31
+    lts: true
     eol: 2028-04-01
     latest: "2.8.5"
     latestReleaseDate: 2023-12-07
@@ -30,8 +37,8 @@ releases:
     latestReleaseDate: 2023-12-07
 
 -   releaseCycle: "2.6"
-    lts: true
     releaseDate: 2022-05-31
+    lts: true
     eol: 2027-04-01
     latest: "2.6.15"
     latestReleaseDate: 2023-08-09
@@ -43,8 +50,8 @@ releases:
     latestReleaseDate: 2023-05-02
 
 -   releaseCycle: "2.4"
-    lts: true
     releaseDate: 2021-05-14
+    lts: true
     eol: 2026-04-01
     latest: "2.4.24"
     latestReleaseDate: 2023-08-19
@@ -56,8 +63,8 @@ releases:
     latestReleaseDate: 2022-07-27
 
 -   releaseCycle: "2.2"
-    lts: true
     releaseDate: 2020-07-07
+    lts: true
     eol: 2025-04-01
     latest: "2.2.31"
     latestReleaseDate: 2023-08-19
