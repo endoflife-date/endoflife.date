@@ -127,8 +127,8 @@ releases:
     releaseDate: 2023-10-02
     support: 2025-04-02
     eol: 2028-10-02
-    latest: "3.12.0"
-    latestReleaseDate: 2023-10-02
+    latest: "3.12.1"
+    latestReleaseDate: 2023-12-07
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
