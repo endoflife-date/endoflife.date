@@ -19,7 +19,7 @@ auto:
 # upstream does not support filtering https://git.alpinelinux.org/aports
 -   git: https://github.com/alpinelinux/aports.git
 
-# eol(x) = releaseDate(x) + 2 years
+# eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
 -   releaseCycle: "3.19"
     releaseDate: 2023-12-07
