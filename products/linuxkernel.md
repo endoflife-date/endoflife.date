@@ -29,8 +29,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.4"
-    latestReleaseDate: 2023-12-03
+    latest: "6.6.5"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -60,8 +60,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.65"
-    latestReleaseDate: 2023-12-03
+    latest: "6.1.66"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -97,36 +97,36 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.141"
-    latestReleaseDate: 2023-12-03
+    latest: "5.15.142"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.202"
-    latestReleaseDate: 2023-11-28
+    latest: "5.10.203"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.262"
-    latestReleaseDate: 2023-11-28
+    latest: "5.4.263"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.19.300"
-    latestReleaseDate: 2023-11-28
+    latest: "4.19.301"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
     eol: 2024-01-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.14.331"
-    latestReleaseDate: 2023-11-28
+    latest: "4.14.332"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "4.9"
     lts: true
