@@ -2,6 +2,7 @@
 title: Traefik
 category: server-app
 tags: web-server
+iconSlug: traefikproxy
 permalink: /traefik
 versionCommand: traefik version
 releasePolicyLink: https://doc.traefik.io/traefik/deprecation/releases
