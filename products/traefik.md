@@ -2,7 +2,7 @@
 title: Traefik
 category: server-app
 tags: web-server
-permalink: traefik
+permalink: /traefik
 versionCommand: traefik version
 releasePolicyLink: https://doc.traefik.io/traefik/deprecation/releases
 changelogTemplate: https://github.com/traefik/traefik/releases/tag/v__LATEST__
