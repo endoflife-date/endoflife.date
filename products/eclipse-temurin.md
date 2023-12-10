@@ -8,7 +8,7 @@ alternate_urls:
 -   /temurin
 versionCommand: java -version
 releasePolicyLink: https://adoptium.net/support/
-changelogTemplate: 
+changelogTemplate:
   https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 releaseDateColumn: true
 
@@ -19,20 +19,28 @@ releaseDateColumn: true
 auto:
 -   github_releases: "adoptium/temurin8-binaries"
     regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin11-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin16-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin17-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin18-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin19-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin20-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 -   github_releases: "adoptium/temurin21-binaries"
     regex: '^jdk-(?P<version>[\d\.+]+)$'
+    template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
@@ -92,7 +100,7 @@ releases:
     eol: 2026-11-30
     latest: "8u392-b08"
     latestReleaseDate: 2023-10-19
-    link: 
+    link:
       https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---

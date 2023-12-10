@@ -19,6 +19,7 @@ auto:
 -   github_releases: quarkusio/quarkus
     # See https://regex101.com/r/4mf9xU/1 for reference
     regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
+    template: '{{version}}'
 
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
