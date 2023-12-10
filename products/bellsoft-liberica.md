@@ -41,6 +41,7 @@ auto:
     regex:
     -   '^(?P<version>[0-9.u+]+)$'
     -   '^OpenJDK (?P<version>[0-9.u+]+)$'
+    template: '{{version}}'
 
 # EOL dates are OpenJDK EOL dates, which are not fixed. This page is using Eclipse Temurin
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).

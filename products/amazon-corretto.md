@@ -16,20 +16,28 @@ releaseDateColumn: true
 auto:
 -   github_releases: "corretto/corretto-jdk"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-8"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-11"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-17"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-18"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-19"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-20"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 -   github_releases: "corretto/corretto-21"
     regex: '^(?P<version>[\d\.]+)$'
+    template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
