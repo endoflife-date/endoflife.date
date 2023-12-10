@@ -1,6 +1,7 @@
 ---
 title: Artifactory
 category: server-app
+tags: registry
 iconSlug: jfrog
 permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
