@@ -16,8 +16,16 @@ auto:
 -   custom: true
 
 # release date: https://www.atlassian.com/software/confluence/download-archives
-# eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+# lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "8.7"
+    releaseDate: 2023-12-05
+    eol: false # must be updated once the date appear on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+    latest: "8.7.1"
+    latestReleaseDate: 2023-12-05
+    link: 
+      https://confluence.atlassian.com/doc/confluence-8-7-release-notes-1318391277.html
+
 -   releaseCycle: "8.6"
     releaseDate: 2023-10-04
     eol: 2025-10-05
