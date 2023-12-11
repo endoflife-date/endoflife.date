@@ -20,7 +20,7 @@ auto:
 releases:
 -   releaseCycle: "8.7"
     releaseDate: 2023-12-05
-    eol: 2025-12-06
+    eol: false # must be updated once the date appear on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
     latest: "8.7.1"
     latestReleaseDate: 2023-12-05
     link: 
