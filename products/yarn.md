@@ -1,7 +1,7 @@
 ---
 title: Yarn
 category: app
-tags: javascript-runtime
+tags: package-manager javascript-runtime
 iconSlug: yarn
 permalink: /yarn
 versionCommand: yarn --version
