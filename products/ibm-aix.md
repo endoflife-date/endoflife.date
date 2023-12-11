@@ -80,10 +80,10 @@ releases:
     latestReleaseDate: 2017-10-31
 
 -   releaseCycle: "6.1.9"
-    releaseDate: 2013-11-01
+    releaseDate: 2013-11-30
     eol: 2017-04-30
     latest: "6.1.9"
-    latestReleaseDate: 2013-11-01
+    latestReleaseDate: 2013-11-30
     link: https://www.ibm.com/docs/en/aix/6.1?topic=aix-older-versions
 
 ---

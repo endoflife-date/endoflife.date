@@ -64,32 +64,32 @@ releases:
     latestReleaseDate: 2021-03-02
 
 -   releaseCycle: "2.2"
-    releaseDate: 2019-04-16
+    releaseDate: 2019-03-25
     support: 2020-04-15
     eol: 2020-10-15
     latest: "2.2.13"
-    latestReleaseDate: 2020-06-02
+    latestReleaseDate: 2020-06-01
 
 -   releaseCycle: "2.1"
-    releaseDate: 2018-10-19
+    releaseDate: 2018-10-05
     support: 2019-10-19
     eol: 2020-04-19
     latest: "2.1.14"
-    latestReleaseDate: 2020-01-16
+    latestReleaseDate: 2020-01-03
 
 -   releaseCycle: "2.0"
-    releaseDate: 2018-05-01
+    releaseDate: 2018-04-30
     support: 2019-05-01
     eol: 2019-11-01
     latest: "2.0.16"
-    latestReleaseDate: 2019-07-15
+    latestReleaseDate: 2019-07-03
 
 -   releaseCycle: "1.6"
-    releaseDate: 2017-06-08
+    releaseDate: 2017-05-04
     support: 2019-12-31
     eol: 2020-06-30
     latest: "1.6.30"
-    latestReleaseDate: 2020-05-05
+    latestReleaseDate: 2020-05-04
 
 ---
 
