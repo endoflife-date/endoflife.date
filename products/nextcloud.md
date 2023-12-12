@@ -13,7 +13,14 @@ auto:
 -   git: https://github.com/nextcloud/server.git
     regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
 
+# releaseDate/eol see https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 releases:
+-   releaseCycle: "28"
+    releaseDate: 2023-12-12
+    eol: 2024-12-01
+    latest: "28.0.0"
+    latestReleaseDate: 2023-12-12
+
 -   releaseCycle: "27"
     releaseDate: 2023-06-12
     eol: 2024-06-01
