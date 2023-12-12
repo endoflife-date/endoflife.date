@@ -9,6 +9,10 @@ versionCommand: python -c "import numpy; print(numpy.__version__)"
 changelogTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:pypi/numpy
+-   purl: pkg:github/numpy/numpy
+
 auto:
 -   pypi: numpy
 

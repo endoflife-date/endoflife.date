@@ -18,6 +18,8 @@ identifiers:
 -   purl: pkg:rpm/redhat/nginx
 -   purl: pkg:rpm/centos/nginx
 -   purl: pkg:apk/alpine/nginx
+-   purl: pkg:ipk/nginx
+-   purl: pkg:rpm/opensuse/nginx
 
 auto:
 -   git: https://github.com/nginx/nginx.git

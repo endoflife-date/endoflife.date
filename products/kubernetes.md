@@ -15,6 +15,9 @@ releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Maintenance Support
 
+identifiers:
+-   purl: pkg:github/kubernetes/kubernetes
+
 auto:
 -   git: https://github.com/kubernetes/kubernetes.git
     regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$

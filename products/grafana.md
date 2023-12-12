@@ -8,6 +8,9 @@ changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
 
+identifiers:
+-   purl:  pkg:github/grafana/grafana
+
 auto:
 -   git: https://github.com/grafana/grafana
     regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$

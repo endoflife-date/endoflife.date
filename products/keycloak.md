@@ -9,6 +9,9 @@ changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.htm
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   purl:  pkg:github/keycloak/keycloak
+
 auto:
 -   git: https://github.com/keycloak/keycloak.git
 

@@ -10,6 +10,12 @@ changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 
+identifiers:
+-   purl:  pkg:apk/alpine/firefox
+-   purl:  pkg:deb/debian/firefox
+-   purl:  pkg:deb/firefox
+-   purl:  pkg:generic/firefox
+
 auto:
 -   custom: true
 

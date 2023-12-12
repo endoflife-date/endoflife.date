@@ -14,7 +14,7 @@ activeSupportWarnThreshold: 30
 eolWarnThreshold: 90
 
 identifiers:
--   purl: pkg:npm/@angular/core
+-   purl: pkg:npm/%40angular/core
 -   purl: pkg:github/angular/angular
 
 auto:

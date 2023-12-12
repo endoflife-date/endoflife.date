@@ -10,6 +10,9 @@ alternate_urls:
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   purl:  pkg:github/sonatype/nexus-public
+
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
     regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'

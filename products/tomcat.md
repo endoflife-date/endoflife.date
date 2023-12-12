@@ -12,6 +12,7 @@ releaseDateColumn: true
 identifiers:
 -   repology: tomcat
 -   purl: pkg:maven/org.apache.tomcat/tomcat
+-   purl: pkg:github/apache/tomcat
 
 auto:
 -   maven: org.apache.tomcat/tomcat

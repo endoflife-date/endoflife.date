@@ -9,6 +9,10 @@ releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
+identifiers:
+-   purl:  pkg:github/hashicorp/terraform
+-   purl:  pkg:generic/terraform
+
 auto:
 -   git: https://github.com/hashicorp/terraform.git
 

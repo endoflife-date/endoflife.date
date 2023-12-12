@@ -14,7 +14,7 @@ eolColumn: Limited Support
 eolWarnThreshold: 121
 
 identifiers:
--   purl: docker:rancher/rancher
+-   purl: pkg:docker/rancher/rancher
 
 auto:
 -   git: https://github.com/rancher/rancher.git

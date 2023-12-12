@@ -9,6 +9,12 @@ changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEAS
 activeSupportColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   purl:  pkg:apk/alpine/phpmyadmin
+-   purl:  pkg:composer/phpmyadmin/phpmyadmin
+-   purl:  pkg:deb/debian/phpmyadmin
+-   purl:  pkg:github/phpmyadmin/phpmyadmin
+
 auto:
 -   git: https://github.com/phpmyadmin/phpmyadmin.git
     regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
