@@ -51,9 +51,9 @@ releases:
     releaseDate: 2021-09-30
     eol: 2022-09-30
     extendedSupport: 2024-09-30
-    latest: "6.2.7"
-    latestReleaseDate: 2023-01-02
-    link: https://www.qt.io/blog/commercial-lts-qt-6.2.7-released
+    latest: "6.2.10"
+    latestReleaseDate: 2023-10-09
+    link: https://www.qt.io/blog/commercial-lts-qt-6.2.10-released
 
 -   releaseCycle: "6.1"
     releaseDate: 2021-05-05
