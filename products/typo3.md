@@ -77,7 +77,7 @@ releases:
 
 | Version | PHP                                                                 |
 |---------|---------------------------------------------------------------------|
-| 12      | [8.1 - 8.2](https://get.typo3.org/version/12#system-requirements)   |
+| 12      | [8.1 - 8.3](https://get.typo3.org/version/12#system-requirements)   |
 | 11      | [7.4.1 - 8.2](https://get.typo3.org/version/11#system-requirements) |
 | 10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)   |
 | 9       | 7.2 - 8.1                                                           |
