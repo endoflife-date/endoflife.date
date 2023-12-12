@@ -1,5 +1,5 @@
 ---
-title: Certmanager
+title: cert-manager
 category: app
 tags: cncf certificate-management
 permalink: /cert-manager
