@@ -44,5 +44,3 @@ Each release is supported for a period of four months, and we aim to create a ne
 
 
 [SemVer](https://semver.org/) is used for all packages released.
-
-## [Release Cadence](https://cert-manager.io/docs/releases/)
