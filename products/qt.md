@@ -72,8 +72,8 @@ releases:
 -   releaseCycle: "5.15"
     lts: true
     releaseDate: 2020-05-25
-    eol: 2025-05-26
-    extendedSupport: false
+    eol: 2023-05-26
+    extendedSupport: 2025-05-26
     latest: "5.15.16"
     latestReleaseDate: 2023-11-17
     link: https://www.qt.io/blog/commercial-lts-qt-5.15.16-released
