@@ -22,7 +22,7 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.4/userguide/compatibility.html
+    # Supported versions see https://docs.gradle.org/8.5/userguide/compatibility.html
     runningJavaVersions: 8 - 20
     testedJavaVersions: 8 - 21
     testedKotlinVersions: 1.6.10 - 1.9.10
