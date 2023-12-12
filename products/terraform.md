@@ -58,7 +58,7 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a [BSL-licensed](https://www.hashicorp.com/bsl) infrastructure as code
+> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl) infrastructure as code
 > software tool by Hashicorp.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
