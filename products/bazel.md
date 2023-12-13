@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2021-01-21
-    support: false
+    support: 2022-01-19 # releaseDate(5)
     eol: 2024-01-21
     latest: "4.2.4"
     latestReleaseDate: 2024-01-21
