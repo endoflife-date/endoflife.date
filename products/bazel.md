@@ -52,3 +52,18 @@ releases:
 ---
 
 > [Bazel](https://bazel.build/) is a fast, scalable, multi-language and extensible build system.
+
+Bazel uses a `major.minor.patch` Semantic Versioning scheme.
+
+- A major release contains features that are not backward compatible with the previous release. Each major Bazel version is an LTS release.
+- A minor release contains backward-compatible bug fixes and features back-ported from the main branch.
+- A patch release contains critical bug fixes.
+
+Additionally, pre-release versions are indicated by appending a hyphen and a date suffix to the next major version number.
+
+For example, a new release of each type would result in these version numbers:
+
+- Major: 6.0.0
+- Minor: 6.1.0
+- Patch: 6.1.2
+- Pre-release: 7.0.0-pre.20230502.1
