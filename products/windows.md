@@ -53,6 +53,15 @@ releases:
     latest: 10.0.22621
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
+-   releaseCycle: "10-21h2-iot-lts"
+    releaseLabel: "10 21H2 IoT"
+    releaseDate: 2021-11-16
+    lts: true
+    support: 2027-01-12
+    eol: 2032-01-13
+    latest: 10.0.19044
+    link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
+
 -   releaseCycle: "10-21h2-e-lts"
     releaseLabel: "10 21H2 (E)"
     releaseDate: 2021-11-16
@@ -60,7 +69,7 @@ releases:
     support: 2027-01-12
     eol: 2027-01-12
     latest: 10.0.19044
-    link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
+    link: https://learn.microsoft.com/windows/release-health/release-information#enterprise-and-iot-enterprise-ltsbltsc-editions
 
     # 10 21H2 (E) non-LTS cycle
 -   releaseCycle: "10-21h2-e"
