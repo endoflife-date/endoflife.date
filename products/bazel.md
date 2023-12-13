@@ -12,6 +12,9 @@ activeSupportColumn: true
 auto:
 -   git: https://github.com/bazelbuild/bazel.git
 
+# latestVersion and eol on https://bazel.build/release
+# support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "7"
     releaseDate: 2023-12-11
