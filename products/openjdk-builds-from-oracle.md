@@ -17,10 +17,11 @@ supportColumn: false
 # Usually only two path versions are released during the support period.
 releases:
 -   releaseCycle: "21"
+    lts: true
     releaseDate: 2023-09-19
     eol: 2024-03-19
-    latest: "21"
-    latestReleaseDate: 2023-09-19
+    latest: "21.0.1"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -41,10 +42,11 @@ releases:
     latestReleaseDate: 2022-08-18
 
 -   releaseCycle: "17"
+    lts: true
     releaseDate: 2021-09-14
     eol: 2022-03-22
-    latest: "17.0.2"
-    latestReleaseDate: 2022-01-18
+    latest: "17.0.9"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -77,10 +79,11 @@ releases:
     latestReleaseDate: 2019-07-16
 
 -   releaseCycle: "11"
+    lts: true
     releaseDate: 2018-09-25
     eol: 2019-03-19
-    latest: "11.0.2"
-    latestReleaseDate: 2019-01-15
+    latest: "11.0.21"
+    latestReleaseDate: 2023-10-17
 
 -   releaseCycle: "10"
     releaseDate: 2018-03-20
