@@ -25,8 +25,8 @@ releases:
     releaseDate: 2021-07-02
     support: 2022-05-26 # releaseDate(2)
     eol: false # upcoming support(2) at least 1 year
-    latest: "1.3.13"
-    latestReleaseDate: 2023-09-14
+    latest: "1.3.14"
+    latestReleaseDate: 2023-12-08
 
 ---
 
