@@ -13,7 +13,6 @@ releaseDateColumn: true
 extendedSupportColumn: false
 activeSupportColumn: false
 
-
 releases:
 -   releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
@@ -89,13 +88,18 @@ releases:
     releaseDate: 2016-12-21
     eol: 2021-12-01
     link: https://blogs.oracle.com/apex/post/oracle-announces-oracle-application-express-51
-
-
 ---
 
-> Oracle APEX is the world's most popular enterprise low-code application platform that enables you to build scalable, secure web and mobile apps, with world-class features, that can be deployed anywhere – cloud or on premises.
+> Oracle Application Express (also known as APEX) is an enterprise low-code application 
+> development platform from Oracle Corporation. APEX is used for developing and deploying cloud
+>, mobile and desktop applications. The platform is a web - based integrated development
+> environment (IDE) with a range of features including wizards, drag-and-drop layout and property
+> editors to simplify the process of building applications and pages.
 
-According to the [Roadmap](https://apex.oracle.com/sod) there are two major release per year. Patches are not delivered as patch releases, instead Oracle provides [Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/) that can be applied to the current release.
+According to the [Roadmap](https://apex.oracle.com/sod), there are two major releases per year.
+Patches are not delivered as patch releases; instead, Oracle provides
+[Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/) that can be applied
+to the current release.
 
 The version and patch policy can be found from these resources:
 
