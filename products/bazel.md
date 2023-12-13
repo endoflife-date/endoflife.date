@@ -5,7 +5,6 @@ tags: google build-tool java-runtime
 permalink: /bazel
 versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
-changelogTemplate: https://github.com/bazelbuild/bazel/blob/__LATEST__/CHANGELOG.md
 changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 releaseDateColumn: true
 activeSupportColumn: true
