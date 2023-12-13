@@ -17,6 +17,7 @@ auto:
 # eol(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "7"
+    lts: true
     releaseDate: 2023-12-11
     support: true # releaseDate(8)
     eol: 2026-12-11
@@ -24,6 +25,7 @@ releases:
     latestReleaseDate: 2023-12-11
 
 -   releaseCycle: "6"
+    lts: true
     releaseDate: 2022-12-19
     support: 2023-12-11 # releaseDate(7)
     eol: 2025-12-19
@@ -31,6 +33,7 @@ releases:
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "5"
+    lts: true
     releaseDate: 2022-01-19
     support: 2022-12-19 # releaseDate(6)
     eol: 2025-01-19
@@ -38,6 +41,7 @@ releases:
     latestReleaseDate: 2023-04-19
 
 -   releaseCycle: "4"
+    lts: true
     releaseDate: 2021-01-21
     support: 2022-01-19 # releaseDate(5)
     eol: 2024-01-21
