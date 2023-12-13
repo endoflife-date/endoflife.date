@@ -1,7 +1,7 @@
 ---
 title: cert-manager
 category: app
-tags: cncf certificate-management
+tags: cncf configuration-management
 permalink: /cert-manager
 alternate_urls:
 -   /cert-manager
