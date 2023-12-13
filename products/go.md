@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "1.19"
     releaseDate: 2022-08-02
-    eol: 2023-08-08
+    eol: 2023-09-06
     latest: "1.19.13"
     latestReleaseDate: 2023-09-06
 
