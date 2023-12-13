@@ -18,6 +18,11 @@ identifiers:
 -   cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+-   releaseCycle: "23.11"
+    codename: "Tapir"
+    releaseDate: 2023-11-29
+    eol: 2024-06-30
+    
 -   releaseCycle: "23.05"
     codename: "Stoat"
     releaseDate: 2023-05-31
