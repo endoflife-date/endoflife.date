@@ -2,7 +2,6 @@
 title: Bazel
 category: app
 tags: google build-tool java-runtime
-iconSlug: bazel
 permalink: /bazel
 versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
