@@ -314,6 +314,9 @@ releases:
     # Whether this is a "LTS" release (optional, default = false).
     # What LTS means may differ from product to product (see LTSLabel above).
     # Only provide for a release that will get much longer support than usual.
+    # Alternatively, this can be set to a date when the product is not labeled
+    # as LTS when it is released (ex. Angular) or when normal versions are
+    # promoted LTS after their release (ex. Jenkins). 
     lts: true
 
     # End of active support date (optional if activeSupportColumn is false, else mandatory).
