@@ -61,7 +61,7 @@ releases:
 
 Next.js follows [semantic versioning](https://semver.org/). Major versions are released on average twice per year,
 minor versions more frequently, and patch versions very frequently. Important security patches can be 
-backported to past major versions.
+backported to past major versions, but it's not clear which past versions are supported or not on https://nextjs.org/.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):
 stable and canary. Only stable releases are suitable for production.
