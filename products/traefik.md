@@ -19,6 +19,8 @@ identifiers:
 auto:
 -   git: https://github.com/traefik/traefik.git
 
+# Table with releaseCycles/releaseDate/support: https://doc.traefik.io/traefik/deprecation/releases
+# Estimation: support(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "2.10"
     releaseDate: 2023-04-24
