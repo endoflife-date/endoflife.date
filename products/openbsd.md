@@ -152,7 +152,7 @@ releases:
     eol: 2007-11-01
 
 -   releaseCycle: "3.9"
-    releaseDate: 2007-05-01
+    releaseDate: 2006-05-01
     eol: 2007-05-01
 
 -   releaseCycle: "3.8"
