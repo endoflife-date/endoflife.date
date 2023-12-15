@@ -20,14 +20,16 @@ auto:
 # This is because the LTS model is based on major versions, and maintaining so many minor versions
 # would be too difficult.
 #
-# For LTS :
-# - support(x) = release(x) + 24 months
-# - eol(x) = support(x) + 12 months
-#
-# For non-LTS :
-# - support(x) = release(x) + 9 months
-# - eol(x) = support(x) + 3 months
+# Support and EOL dates are documented on https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/.
 releases:
+-   releaseCycle: "13"
+    lts: true
+    releaseDate: 2023-12-12
+    support: 2025-12-14
+    eol: 2026-12-14
+    latest: '13.0.1'
+    latestReleaseDate: 2023-12-14
+
 -   releaseCycle: "12"
     releaseDate: 2023-06-27
     support: 2024-03-29
@@ -37,16 +39,16 @@ releases:
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
-    support: 2023-08-29
-    eol: 2023-11-29
+    support: 2023-09-01
+    eol: 2023-12-01
     latest: '11.5.0'
     latestReleaseDate: 2023-09-05
 
 -   releaseCycle: "10"
     lts: true
     releaseDate: 2022-06-10
-    support: 2024-06-10
-    eol: 2025-06-10
+    support: 2024-06-16
+    eol: 2025-06-16
     latest: '10.8.2'
     latestReleaseDate: 2023-12-12
 
@@ -70,7 +72,7 @@ releases:
 -   releaseCycle: "7"
     lts: true
     releaseDate: 2013-11-21
-    support: 2021-07-01
+    support: 2021-07-31
     eol: 2023-09-30
     latest: '7.15.11'
     latestReleaseDate: 2023-09-05
