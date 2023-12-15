@@ -29,23 +29,6 @@ releases:
     latest: "21.2"
     link: https://blog.linuxmint.com/?p=4543
 
--   releaseCycle: "lmde5"
-    releaseLabel: "LMDE 5"
-    codename: Elsie
-    releaseDate: 2022-03-20
-    support: true
-    eol: 2024-07-01
-    latest: "5"
-    link: https://blog.linuxmint.com/?p=4287
-
--   releaseCycle: "lmde4"
-    releaseLabel: "LMDE 4"
-    releaseDate: 2020-03-20
-    support: 2022-08-01
-    eol: 2022-08-01
-    latest: "4"
-    link: https://blog.linuxmint.com/?p=3867
-
 -   releaseCycle: "21.1"
     codename: Vera
     lts: true
@@ -63,6 +46,15 @@ releases:
     eol: 2027-04-01
     latest: "21"
     link: https://blog.linuxmint.com/?p=4359
+
+-   releaseCycle: "lmde5"
+    releaseLabel: "LMDE 5"
+    codename: Elsie
+    releaseDate: 2022-03-20
+    support: true
+    eol: 2024-07-01
+    latest: "5"
+    link: https://blog.linuxmint.com/?p=4287
 
 -   releaseCycle: "20.3"
     codename: Una
@@ -99,6 +91,14 @@ releases:
     eol: 2025-04-01
     latest: "20"
     link: https://blog.linuxmint.com/?p=3928
+
+-   releaseCycle: "lmde4"
+    releaseLabel: "LMDE 4"
+    releaseDate: 2020-03-20
+    support: 2022-08-01
+    eol: 2022-08-01
+    latest: "4"
+    link: https://blog.linuxmint.com/?p=3867
 
 -   releaseCycle: "19.3"
     codename: Tricia
