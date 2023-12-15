@@ -24,7 +24,7 @@ releases:
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25
-    eol: 2023-10-26
+    eol: false
     latest: "13.5.6"
     latestReleaseDate: 2023-10-18
 
@@ -59,9 +59,9 @@ releases:
 > developers to build performant and scalable web applications. The framework is designed to be
 > developer-friendly, with a focus on fast refresh and an optimized production build.
 
-Next.js is following [semantic versioning](https://semver.org/), but does not have a clearly defined
-release and support policy. Looking at the latest releases, it seems only the latest major release
-is supported with mainly bug and security fixes.
+Next.js follows [semantic versioning](https://semver.org/). Major versions are released on average twice per year,
+minor versions more frequently, and patch versions very frequently. Important security patches can be 
+backported to past major versions, but it's not clear which past versions are supported or not on https://nextjs.org/.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):
 stable and canary. Only stable releases are suitable for production.
