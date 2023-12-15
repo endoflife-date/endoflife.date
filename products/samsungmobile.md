@@ -1069,12 +1069,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/sm-r500/xar/doc.html
 
--   releaseCycle: "Galaxy Tab A 8.0 & S Pen (2019)"
-    releaseDate: 2019-04-01 # Approximate to the month and year.
-    support: false
-    eol: true
-    link: https://doc.samsungmobile.com/SM-P205/XXV/doc.html
-
 -   releaseCycle: "Galaxy View2"
     releaseDate: 2019-04-01
     support: false
