@@ -61,17 +61,17 @@ releases:
     latest: "4.1.0"
     latestReleaseDate: 2020-10-06
 
--   releaseCycle: "4.0"
-    releaseDate: 2020-04-14
-    eol: 2021-08-24
-    latest: "4.0.1"
-    latestReleaseDate: 2020-06-25
-
 -   releaseCycle: "3.10"
     releaseDate: 2020-05-26
     eol: 2022-09-01
     latest: "3.10.2"
     latestReleaseDate: 2021-04-14
+
+-   releaseCycle: "4.0"
+    releaseDate: 2020-04-14
+    eol: 2021-08-24
+    latest: "4.0.1"
+    latestReleaseDate: 2020-06-25
 
 -   releaseCycle: "3.9"
     releaseDate: 2019-10-24
