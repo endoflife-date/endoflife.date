@@ -8,7 +8,7 @@ releaseDateColumn: true
 # https://rubular.com/r/oNyoh1qDT1V2eF
 auto:
 -   git: https://github.com/Exim/exim
-    regex:
+    regex: 
       ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
 
 identifiers:
@@ -65,7 +65,7 @@ releases:
     releaseDate: 2017-12-19
     eol: 2018-04-15
     latest: "4.90.1"
-    latestReleaseDate: 2018-02-10
+    latestReleaseDate: 2018-02-08
     link: https://github.com/Exim/exim/releases/tag/exim-4_90_1
 
 -   releaseCycle: "4.89"

@@ -1,17 +1,14 @@
 import argparse
-import sys
+import logging
 import frontmatter
 import json
 import os
 import re
 import datetime
-from glob import glob
 from pathlib import Path
 from ruamel.yaml import YAML
 from ruamel.yaml.resolver import Resolver
-from deepdiff import DeepDiff
-from io import StringIO
-from packaging.version import Version
+from packaging.version import Version, InvalidVersion
 from os.path import exists
 
 """
@@ -21,204 +18,185 @@ _data/release-data and commits back the updated data.
 This is written in Python because the only package that supports writing back YAML with comments is ruamel
 """
 
-DEFAULT_DATA_DIR = '_data/release-data/releases'
-DEFAULT_POST_TEMPLATE = """\
----
-{metadata}
 
----
+class ReleaseCycle:
+    def __init__(self, data):
+        self.data = data
+        self.name = data["releaseCycle"]
+        self.matched = False
+        self.updated = False
 
-{content}
-"""
+    def update_with(self, version, date):
+        logging.debug(f"will try to update {self.name} with {version} ({date})")
+        self.matched = True
+        self.__update_release_date(version, date)
+        self.__update_latest(version, date)
 
-# https://stackoverflow.com/a/71329221/368328
-# Force encoding version numbers as strings
-Resolver.add_implicit_resolver(
-    "tag:yaml.org,2002:string", re.compile(r"\d+(\.\d+){0,3}", re.X), list(".0123456789")
-)
+    def latest(self):
+        return self.data.get("latest", None)
 
+    def includes(self, version):
+        """matches releases that are exact (such as 4.1 being the first release for the 4.1 release cycle)
+        or releases that include a dot just after the release cycle (4.1.*)
+        This is important to avoid edge cases like a 4.10.x release being marked under the 4.1 release cycle."""
+        if not version.startswith(self.name):
+            return False
 
-"""
-matches releases that are exact (such as 4.1 being the first release for the 4.1 release cycle)
-or releases that include a dot just after the release cycle (4.1.*)
-This is important to avoid edge cases like a 4.10.x release being marked under the 4.1 release cycle.
-"""
+        if len(version) == len(self.name):  # exact match
+            return True
 
-def releases_matches(r, prefix):
-    return r.startswith(prefix) and (
-        # It exactly matches the release cycle
-        r == prefix
-        or
-        # It matches the prefix with an extra alphabet as a character
-        # this is notably used in openssl
-        # prefix = 1.1.0, r = 1.1.0r
-        (
-            (len(r) - len(prefix) == 1)
-            and ord(r[len(prefix) :]) in range(ord("a"), ord("z"))
+        char_after_prefix = version[len(self.name)]
+        return (
+            char_after_prefix == '.'  # release in cycle: prefix = 1.1, r = 1.1.2 (ex. angular)
+            or char_after_prefix == '-'  # version suffix: prefix = 1.2, r = 1.2-final (ex. quarkus)
+            or char_after_prefix == '+'  # build number: prefix = 17, r = 17.0.7+7 (ex. OpenJDK distributions)
+            or char_after_prefix.isalpha()  # build number: prefix = 1.1.0, r = 1.1.0r (ex. openssl)
         )
-        or
-        # It matches the release cycle as a patch release
-        # prefix = 1.1, r = 1.1.2
-        r.startswith(prefix + ".")
-        or
-        # It matches the release cycle as a version suffix
-        # prefix = 1.2, r = 1.2-final
-        r.startswith(prefix + "-")
-        or
-        # It matches the release cycle with an extra 'u' as a patch release
-        # this is notably used in java
-        # prefix = 7, r = 7u72
-        r.startswith(prefix + "u")
-        or
-        # It matches the release cycle with an extra '+' as a build number
-        # this is notably used in java
-        # prefix = 17, r = 17.0.7+7
-        r.startswith(prefix + "+")
-        or
-        # It matches the release cycle with an extra 'R' as a build number
-        # this is notably used for Amazon Neptune
-        # prefix = 1.1.1.0, r = 1.1.1.0.R7
-        r.startswith(prefix + ".R")
-    )
+
+    def __update_release_date(self, version, date):
+        release_date = self.data.get("releaseDate", None)
+        if release_date and release_date > date:
+            logging.info(f"{self.name} release date updated from {release_date} to {date} ({version})")
+            self.data["releaseDate"] = date
+            self.updated = True
+
+    def __update_latest(self, version, date):
+        old_latest = self.data.get("latest", None)
+        old_latest_date = self.data.get("latestReleaseDate", None)
+
+        update_detected = False
+        if not old_latest:
+            logging.info(f"{self.name} latest date updated to {version} ({date}) (no prior latest version)")
+            update_detected = True
+
+        elif old_latest == version and old_latest_date != date:
+            logging.info(f"{self.name} latest date updated from {old_latest_date} to {date}")
+            update_detected = True
+
+        else:
+            try:  # Do our best attempt at comparing the version numbers
+                if Version(old_latest) < Version(version):
+                    logging.info(f"{self.name} latest updated from {old_latest} ({old_latest_date}) to {version} ({date})")
+                    update_detected = True
+            except InvalidVersion:
+                logging.debug(f"could not not be compare {self.name} with {version}, skipping")
+
+        if update_detected:
+            self.data["latest"] = version
+            self.data["latestReleaseDate"] = date
+            self.updated = True
+
+    def __str__(self):
+        return self.name
 
 
-def find_first(releases, prefix):
-    return next(filter(lambda r: releases_matches(r, prefix), releases), None)
+class Product:
+    def __init__(self, name: str, product_dir: Path, versions_dir: Path):
+        self.name = name
+        self.product_path = product_dir / f"{name}.md"
+        self.versions_path = versions_dir / f"{name}.json"
+
+        with open(self.product_path, "r") as product_file:
+            # First read the frontmatter of the product file.
+            yaml = YAML()
+            yaml.preserve_quotes = True
+            self.data = next(yaml.load_all(product_file))
+
+            # Now read the content of the product file
+            product_file.seek(0)
+            _, self.content = frontmatter.parse(product_file.read())
+
+        with open(self.versions_path) as versions_file:
+            self.versions = json.loads(versions_file.read())
+
+        self.releases = [ReleaseCycle(release) for release in self.data["releases"]]
+        self.updated = False
+        self.unmatched_versions = {}
+
+    def check_latest(self):
+        for release in self.releases:
+            latest = release.latest()
+            if release.matched and latest not in self.versions.keys():
+                logging.info(f"latest version {latest} for {release.name} not found in {self.versions_path}")
+
+    def process_version(self, version: str, date_str: str):
+        date = datetime.date.fromisoformat(date_str)
+
+        version_matched = False
+        for release in self.releases:
+            if release.includes(version):
+                version_matched = True
+                release.update_with(version, date)
+                self.updated = self.updated or release.updated
+
+        if not version_matched:
+            self.unmatched_versions[version] = date
+
+    def write(self):
+        with open(self.product_path, "w") as product_file:
+            product_file.truncate()
+            product_file.write("---\n")
+
+            yaml_frontmatter = YAML()
+            yaml_frontmatter.indent(sequence=4)
+            yaml_frontmatter.dump(self.data, product_file)
+
+            product_file.write("\n---\n\n")
+            product_file.write(self.content)
+            product_file.write("\n")
 
 
-def find_last(releases, prefix):
-    return next(filter(lambda r: releases_matches(r, prefix), reversed(releases)), None)
-
-
-def find_all(releases, prefix):
-    return set(filter(lambda r: releases_matches(r, prefix), releases))
-
-
-def github_output(str):
+def github_output(message):
+    logging.debug(f"GITHUB_OUTPUT += {message.strip()}")
     if os.getenv("GITHUB_OUTPUT"):
         with open(os.getenv("GITHUB_OUTPUT"), 'a') as f:
-            f.write(str)
+            f.write(message)
 
 
-def yaml_to_str(obj):
-    yaml = YAML()
-    yaml.indent(sequence=4)
-    string_stream = StringIO()
-    yaml.dump(obj, string_stream)
-    output_str = string_stream.getvalue()
-    string_stream.close()
-    return output_str.strip()
+def update_product(name, product_dir, releases_dir):
+    versions_path = releases_dir / f"{name}.json"
+    if not exists(versions_path):
+        logging.debug(f"Skipping {name}, {versions_path} does not exist")
+        return
 
+    product = Product(name, product_dir, releases_dir)
+    for version, date_str in product.versions.items():
+        product.process_version(version, date_str)
+    product.check_latest()
 
-def update_product(data_dir, name):
-    fn = "products/%s.md" % name
-    with open(fn, "r+") as f:
-        yaml = YAML()
-        yaml.preserve_quotes = True
-        data = next(yaml.load_all(f))
+    if product.updated:
+        logging.info(f"Updating {product.product_path}")
+        product.write()
 
-        f.seek(0)
-        _, content = frontmatter.parse(f.read())
-
-        fn = "%s/%s.json" % (data_dir, name)
-        if exists(fn):
-            with open(fn) as releases_file:
-                # Entire releases data as a dict
-                R1 = json.loads(releases_file.read())
-                # Just the list of versions
-                # Sort the versions by the date of release
-                R2 = sorted(R1.keys(), key=lambda n: R1[n])
-                # Set of versions, we remove all matched
-                # versions from this to get to "unmatched" versions
-                version_set = set(R2)
-
-            updated = False
-
-            for release in data["releases"]:
-                old = release.copy()
-
-                prefix = release["releaseCycle"]
-                first_version = find_first(R2, prefix)
-                latest_version = find_last(R2, prefix)
-
-                version_set = version_set - find_all(version_set, prefix)
-
-                if first_version:
-                    release["releaseDate"] = datetime.date.fromisoformat(
-                        R1[first_version]
-                    )
-
-                    """
-                    Does some checks to make sure that the latest+latestReleaseDate
-                    is only updated in cases where both are higher than the current values
-                    this is important to make sure that we never "downgrade" a release cycle
-                    because we manually updated something too early, and our automation
-                    didn't catch-up in time.
-                    """
-
-                    def new_version_is_higher(new_version):
-                        if "latest" not in release:
-                            return True
-                        old_version = release["latest"]
-                        old_date = release.get("latestReleaseDate", None)
-                        # Do our best attempt at comparing the version numbers
-                        try:
-                            return Version(new_version) >= Version(old_version)
-                        except:
-                            # We compare the dates if we have one
-                            # Note that multiple releases can show up on the same date
-                            if old_date:
-                                return old_date < datetime.date.fromisoformat(
-                                    R1[new_version]
-                                )
-                            return True
-
-                    # Never downgrade a custom pinned version
-                    # that is higher
-                    if new_version_is_higher(latest_version):
-                        release["latestReleaseDate"] = datetime.date.fromisoformat(
-                            R1[latest_version]
-                        )
-                        release["latest"] = latest_version
-                    diff = DeepDiff(old, release, ignore_order=True)
-
-                    # We write back to the file
-                    if diff != {}:
-                        updated = True
-
-            if updated:
-                print("Updating %s" % fn)
-                final_contents = DEFAULT_POST_TEMPLATE.format(
-                    metadata=yaml_to_str(data), content=content
-                )
-
-                f.seek(0)
-                f.truncate()
-                f.write(final_contents)
-
-            # Print all unmatched versions released in the last 30 days
-            if len(version_set) != 0:
-                for x in version_set:
-                    date = datetime.date.fromisoformat(R1[x])
-                    days_since_release = (datetime.date.today() - date).days
-                    if days_since_release < 30:
-                        print(f"[WARN] {name}:{x} ({R1[x]}) not included")
-                        github_output(f"{name}:{x} ({R1[x]})\n")
+    # Print all unmatched versions released in the last 30 days
+    if len(product.unmatched_versions) != 0:
+        for version, date in product.unmatched_versions.items():
+            days_since_release = (datetime.date.today() - date).days
+            if days_since_release < 30:
+                logging.warning(f"{name}:{version} ({date}) not included")
+                github_output(f"{name}:{version} ({date})\n")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Update product releases.')
+    parser.add_argument('product', nargs='?', help='restrict update to the given product')
+    parser.add_argument('-p', '--product-dir', required=True, help='path to the product directory')
+    parser.add_argument('-d', '--data-dir', required=True, help='path to the release data directory')
+    parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose logging')
+    args = parser.parse_args()
+
+    logging.basicConfig(format=logging.BASIC_FORMAT, level=(logging.DEBUG if args.verbose else logging.INFO))
+
+    # Force YAML to format version numbers as strings, see https://stackoverflow.com/a/71329221/368328.
+    Resolver.add_implicit_resolver("tag:yaml.org,2002:string", re.compile(r"\d+(\.\d+){0,3}", re.X), list(".0123456789"))
+
     # See https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string
     github_output("warning<<$EOF\n")
 
-    parser = argparse.ArgumentParser(description='Update product releases.')
-    parser.add_argument('product', nargs='?', help='restrict update to the given product')
-    parser.add_argument('-d', '--data-dir', default=DEFAULT_DATA_DIR, help='path to the release data directory')
-    args = parser.parse_args()
-
-    if args.product:
-        update_product(args.data_dir, args.product)
-    else:
-        for x in glob("products/*.md"):
-            update_product(args.data_dir, Path(x).stem)
+    products_dir = Path(args.product_dir)
+    product_names = [args.product] if args.product else [p.stem for p in products_dir.glob("*.md")]
+    for product_name in product_names:
+        logging.debug(f"Processing {product_name}")
+        update_product(product_name, products_dir, Path(args.data_dir))
 
     github_output("$EOF")
