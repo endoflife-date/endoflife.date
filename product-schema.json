@@ -293,7 +293,7 @@
       "oneOf": [
         {
           "type": "string",
-          "format": "date-time"
+          "format": "date"
         },
         {
           "type": "boolean"
@@ -406,15 +406,7 @@
         "eol": {
           "title": "EOL",
           "description": "Date in the format `yyyy-mm-dd` or `false` if not available.",
-          "oneOf": [
-            {
-              "type": "boolean"
-            },
-            {
-              "type": "string",
-              "format": "date-time"
-            }
-          ]
+          "$ref": "#/$defs/boolOrDate"
         },
         "activeSupportColumn": {
           "title": "Active support column",
