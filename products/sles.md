@@ -49,6 +49,13 @@ releases:
     latest: '15.2'
     latestReleaseDate: 2020-07-21
 
+-   releaseCycle: "12.5"
+    releaseDate: 2019-12-09
+    eol: 2024-10-31
+    extendedSupport: 2027-10-31
+    latest: '12.5'
+    latestReleaseDate: 2019-12-09
+
 -   releaseCycle: "15.1"
     releaseDate: 2019-06-24
     eol: 2021-01-31
@@ -62,13 +69,6 @@ releases:
     extendedSupport: 2022-12-31
     latest: '15.5'
     latestReleaseDate: 2023-06-20
-
--   releaseCycle: "12.5"
-    releaseDate: 2019-12-09
-    eol: 2024-10-31
-    extendedSupport: 2027-10-31
-    latest: '12.5'
-    latestReleaseDate: 2019-12-09
 
 -   releaseCycle: "12.4"
     releaseDate: 2018-12-12
@@ -98,19 +98,19 @@ releases:
     latest: '12.1'
     latestReleaseDate: 2015-12-15
 
--   releaseCycle: "12"
-    releaseDate: 2014-10-27
-    eol: 2016-06-30
-    extendedSupport: 2019-07-01
-    latest: '12.5'
-    latestReleaseDate: 2019-12-09
-
 -   releaseCycle: "11.4"
     releaseDate: 2015-07-15
     eol: 2019-03-31
     extendedSupport: 2022-03-31
     latest: '11.4'
     latestReleaseDate: 2015-07-15
+
+-   releaseCycle: "12"
+    releaseDate: 2014-10-27
+    eol: 2016-06-30
+    extendedSupport: 2019-07-01
+    latest: '12.5'
+    latestReleaseDate: 2019-12-09
 
 -   releaseCycle: "11.3"
     releaseDate: 2013-07-01
@@ -126,6 +126,13 @@ releases:
     latest: '11.2'
     latestReleaseDate: 2012-02-29
 
+-   releaseCycle: "10.4"
+    releaseDate: 2011-04-12
+    eol: 2013-07-31
+    extendedSupport: 2016-07-30
+    latest: '10.4'
+    latestReleaseDate: 2011-04-12
+
 -   releaseCycle: "11.1"
     releaseDate: 2010-06-02
     eol: 2012-08-31
@@ -139,13 +146,6 @@ releases:
     extendedSupport: 2010-12-31
     latest: '11.4'
     latestReleaseDate: 2015-07-15
-
--   releaseCycle: "10.4"
-    releaseDate: 2011-04-12
-    eol: 2013-07-31
-    extendedSupport: 2016-07-30
-    latest: '10.4'
-    latestReleaseDate: 2011-04-12
 
 -   releaseCycle: "10.3"
     releaseDate: 2009-10-12
