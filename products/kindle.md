@@ -18,48 +18,48 @@ releases:
     # https://ebookfriendly.com/amazon-kindle-scribe-2022-full-specs/
     releaseDate: 2022-11-30
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/KindleScribeNotes
 
 -   releaseCycle: "kindle-11"
     releaseLabel: "Kindle (11th Generation)"
     releaseDate: 2022-09-13
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/Kindle11Notes
 
 -   releaseCycle: "paperwhite-11"
     releaseLabel: "Kindle Paperwhite (11th Generation)"
     releaseDate: 2021-10-27
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/Paperwhite11Notes
 
 -   releaseCycle: "oasis-10"
     releaseLabel: "Kindle Oasis (10th Generation)"
     releaseDate: 2019-07-24
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/Oasis10Notes
 
 -   releaseCycle: "kindle-10"
     releaseLabel: "Kindle (10th Generation)"
     releaseDate: 2019-04-10
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/Kindle10Notes
 
 -   releaseCycle: "paperwhite-10"
     releaseLabel: "Kindle Paperwhite (10th Generation)"
     releaseDate: 2018-11-07
     eol: false
-    latest: "5.16.3.1"
-    latestReleaseDate: 2023-07-01
+    latest: "5.16.5"
+    latestReleaseDate: 2023-11-01
     link: https://www.amazon.com/Paperwhite10Notes
 
 -   releaseCycle: "oasis-9"
