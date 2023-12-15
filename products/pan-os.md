@@ -13,7 +13,7 @@ eolColumn: End-of-life Date
 releases:
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
-    eol: 2026-05-03
+    eol: 2027-05-03
     latest: "11.1"
     latestReleaseDate: 2023-11-03
     link: 
