@@ -34,18 +34,18 @@ releases:
     latest: "2.3.7"
     latestReleaseDate: 2021-10-19
 
--   releaseCycle: "2.2"
-    releaseDate: 2019-07-25
-    eol: 2021-04-19
-    latest: "2.2.7"
-    latestReleaseDate: 2021-04-19
-
 -   releaseCycle: "1.7"
     releaseDate: 2021-06-12
     eol: 2022-08-09
     link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
     latest: "1.7.2"
     latestReleaseDate: 2022-08-09
+
+-   releaseCycle: "2.2"
+    releaseDate: 2019-07-25
+    eol: 2021-04-19
+    latest: "2.2.7"
+    latestReleaseDate: 2021-04-19
 
 ---
 
