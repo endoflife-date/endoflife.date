@@ -76,8 +76,8 @@ releases:
 -   releaseCycle: "2.5"
     releaseDate: 2014-09-11
     eol: 2015-11-19
-    latest: "2.5.0"
-    latestReleaseDate: 2015-11-19
+    latest: "2.5.2"
+    latestReleaseDate: 2014-11-20
 
 -   releaseCycle: "2.4"
     releaseDate: 2014-04-10

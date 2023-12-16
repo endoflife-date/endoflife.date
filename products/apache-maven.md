@@ -30,7 +30,7 @@ releases:
     support: 2014-02-18
     eol: 2014-02-18
     latest: "2.2.1"
-    latestReleaseDate: 2009-11-08
+    latestReleaseDate: 2009-08-06
 
 -   releaseCycle: "1"
     releaseDate: 2004-07-13

@@ -33,7 +33,7 @@ jobs:
 
       - id: latest
         name: Update latest releases
-        run: python _auto/latest.py
+        run: python _auto/latest.py -p 'products/' -d '_data/release-data/releases'
 
       - name: Update latest and latestReleaseDate
         uses: stefanzweifel/git-auto-commit-action@v5

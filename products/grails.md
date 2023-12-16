@@ -55,7 +55,7 @@ releases:
     support: false
     eol: 2012-05-01
     latest: "1.3.9"
-    latestReleaseDate: 2012-05-01
+    latestReleaseDate: 2015-01-16
 
 ---
 
