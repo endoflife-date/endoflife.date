@@ -29,11 +29,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python Dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r '_data/release-data/requirements.txt'
 
       - id: latest
         name: Update latest releases
-        run: python _auto/latest.py -p 'products/' -d '_data/release-data/releases'
+        run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
       - name: Update latest and latestReleaseDate
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -10,9 +10,9 @@ echo "Deploy URL: $1"
 
 # See https://github.com/endoflife-date/endoflife.date/pull/2081
 echo "Updating latest product information..."
-pip install -r requirements.txt
+pip install -r '_data/release-data/requirements.txt'
 git submodule update --remote
-if ! python3 '_auto/latest.py' -p 'products/' -d '_data/release-data/releases'; then # if the latest.py script fails...
+if ! python3 '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'; then # if the latest.py script fails...
   git checkout -- products/ # ...just undo the changes, and carry on
 fi
 
