@@ -30,7 +30,6 @@ releases:
     extendedSupport: 2026-03-31
     latest: "6.5.3"
     latestReleaseDate: 2023-09-28
-    link: https://www.qt.io/blog/qt-6.5-lts-released
 
 -   releaseCycle: "6.4"
     releaseDate: 2022-09-28
@@ -51,9 +50,8 @@ releases:
     releaseDate: 2021-09-30
     eol: 2022-09-30
     extendedSupport: 2024-09-30
-    latest: "6.2.7"
-    latestReleaseDate: 2023-01-02
-    link: https://www.qt.io/blog/commercial-lts-qt-6.2.7-released
+    latest: "6.2.4"
+    latestReleaseDate: 2022-03-21
 
 -   releaseCycle: "6.1"
     releaseDate: 2021-05-05
@@ -74,9 +72,8 @@ releases:
     releaseDate: 2020-05-25
     eol: 2023-05-26
     extendedSupport: 2025-05-26
-    latest: "5.15.16"
-    latestReleaseDate: 2023-11-17
-    link: https://www.qt.io/blog/commercial-lts-qt-5.15.16-released
+    latest: "5.15.2"
+    latestReleaseDate: 2020-11-20
 
 -   releaseCycle: "5.14"
     releaseDate: 2019-12-11
@@ -92,7 +89,6 @@ releases:
     extendedSupport: false
     latest: "5.13.2"
     latestReleaseDate: 2019-10-28
-    link: https://www.qt.io/blog/2019/06/19/qt-5-13-released
 
 -   releaseCycle: "5.12"
     lts: true
