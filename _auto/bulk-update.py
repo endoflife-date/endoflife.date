@@ -1,64 +1,38 @@
-import sys
 import frontmatter
-import json
 import re
-import datetime
 from glob import glob
-from pathlib import Path
-from distutils.version import StrictVersion
 from ruamel.yaml import YAML
-from io import StringIO
-from os.path import exists
-
-DEFAULT_POST_TEMPLATE = """\
----
-{metadata}
----
-
-{content}
-"""
+from ruamel.yaml.resolver import Resolver
 
 
-def yaml_to_str(obj):
-    yaml = YAML()
-    yaml.indent(sequence=4)
-    string_stream = StringIO()
-    yaml.dump(obj, string_stream)
-    output_str = string_stream.getvalue()
-    string_stream.close()
-    return output_str
+"""Helper script that can be used to bulk-update product files."""
 
 
-"""
-Takes a product dict
-and return the updated version
-"""
+def update(yaml_frontmatter):
+    return yaml_frontmatter
 
 
-def update(obj):
-    return obj
+# Force YAML to format version numbers as strings, see https://stackoverflow.com/a/71329221/368328.
+Resolver.add_implicit_resolver("tag:yaml.org,2002:string", re.compile(r"\d+(\.\d+){0,3}", re.X), list(".0123456789"))
 
-
-def update_product(name):
-    fn = "products/%s.md" % name
-    print(name)
-    with open(fn, "r+") as f:
+for product_path in glob("products/*.md"):
+    with open(product_path, "r+") as product_file:
+        # Read YAML
         yaml = YAML()
         yaml.preserve_quotes = True
-        data = next(yaml.load_all(f))
-        f.seek(0)
-        _, content = frontmatter.parse(f.read())
+        yaml.indent(sequence=4)
+        data = next(yaml.load_all(product_file))
+        product_file.seek(0)
+        _, content = frontmatter.parse(product_file.read())
 
+        print(f"Updating {product_path}...")
         data = update(data)
-        final_contents = DEFAULT_POST_TEMPLATE.format(
-            metadata=yaml_to_str(data), content=content
-        )
 
-        f.seek(0)
-        f.truncate()
-        f.write(final_contents)
-
-
-if __name__ == "__main__":
-    for x in glob("products/*.md"):
-        update_product(Path(x).stem)
+        # Read updated YAML
+        product_file.seek(0)
+        product_file.truncate()
+        product_file.write("---\n")
+        yaml.dump(data, product_file)
+        product_file.write("\n---\n\n")
+        product_file.write(content)
+        product_file.write("\n")
