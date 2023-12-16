@@ -1,6 +1,6 @@
 ---
 title: React
-category: library
+category: framework
 tags: meta javascript-runtime
 iconSlug: react
 permalink: /react

@@ -1,7 +1,7 @@
 ---
 title: Amazon RDS for MySQL
 category: service
-tags: amazon managed-mysql
+tags: amazon
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
 releasePolicyLink:
