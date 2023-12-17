@@ -14,7 +14,7 @@ eolColumn: Critical bug fixes
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
 -   git: https://github.com/openzfs/zfs.git
-    regex: ^zfs-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+    regex: ^zfs-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years

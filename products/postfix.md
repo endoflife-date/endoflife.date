@@ -9,7 +9,7 @@ releaseDateColumn: true
 # We ignore tags before 3.3 because they don't have the correct date
 auto:
 -   git: https://github.com/vdukhovni/postfix.git
-    regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
+    regex: ^v(?P<major>[3-9])\.(?P<minor>[3-9])\.(?P<patch>\d+)$
 
 # eol(R) = releaseDate(R+4)
 releases:

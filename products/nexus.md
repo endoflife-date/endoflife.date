@@ -12,8 +12,7 @@ eolColumn: Support
 
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
-    # See https://rubular.com/r/607xFn4zIA4fDw for reference
-    regex: '^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-(?<tiny>\d+)$'
+    regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
     template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
 
 releases:

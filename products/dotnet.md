@@ -13,14 +13,11 @@ changelogTemplate:
 releaseDateColumn: true
 eolColumn: Support Status
 
-# The regex ignores 3 digit patch versions, which are incorrect tags upstream
-# such as https://github.com/dotnet/core/releases/tag/v3.1.201
-# https://rubular.com/r/CSjmTuMTbmRBQZ
 auto:
 -   git: https://github.com/dotnet/core.git
     # Excludes 3 digit patch versions, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
-    # which looks a bit special and break semver.
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d{,2}))?$'
+    # which looks a bit special and break semver (see https://regex101.com/r/oDhccW/1).
+    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d{1,2}))?$'
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App

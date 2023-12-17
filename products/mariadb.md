@@ -24,20 +24,27 @@ identifiers:
 
 auto:
 -   git: https://github.com/MariaDB/server.git
-    # This is not a complicated regex. It only marks the first GA release in each release cycle
-    # So we drop any releases before the GA ones
-    # 5.5.29, 10.0.12, 10.1.18, 10.2.6, 10.3.7, 10.4.6, 10.6.3, 10.5.4, 10.7.2
-    # The regex is ^mariadb-(A|B|C|D)$ where A,B,C,D are sub-matches for each of the cycles
-    # Each cycle itself looks like (?<major>X)\.(?<minor>Y)\.(?<patch>R)
-    # Where X -> Major number, Y = Minor Number
-    # And R is a regex that only matches GA release patch numbers in that cycle. ie
-    # Greater than or equal to the first GA release in that cycle.
-    # For e.g. for matching 10.0.12 -> 10.0.99, we use (?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))
-    # where (1[2-9]|[2-9]\d) matches 12-19 OR 2-digit numbers starting from 2-9 (ie 20-99)
-    # See https://rubular.com/r/jbw5wsv80lhy9h for sample testcases before you edit.
-    # Note: This will need to be edited when a new GA release is made in a new release cycle
-    regex: 
-      ^mariadb-((?<major>5)\.(?<minor>5)\.(?<patch>(29|[3-9]\d))|(?<major>10)\.(?<minor>0)\.(?<patch>(1[2-9]|[2-9]\d))|(?<major>10)\.(?<minor>1)\.(?<patch>(1[8-9]|[2-9]\d))|(?<major>10)\.(?<minor>2)\.(?<patch>([6-9]|\d{2}))|(?<major>11)\.(?<minor>0)\.(?<patch>([2-9]|\d{2}))|(?<major>11)\.(?<minor>1)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>3)\.(?<patch>([7-9]|\d{2}))|(?<major>10)\.(?<minor>4)\.(?<patch>([6-9]|\d{2}))|(?<major>10)\.(?<minor>5)\.(?<patch>([4-9]|\d{2}))|(?<major>10)\.(?<minor>6)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>7)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>8)\.(?<patch>([3-9]|\d{2}))|(?<major>10)\.(?<minor>9)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>10)\.(?<patch>([2-9]|\d{2}))|(?<major>10)\.(?<minor>11)\.(?<patch>([2-9]|\d{2})))$
+    # Drop any releases before the GA ones.
+    # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
+    # and Z a regex that only matches GA release patch numbers in that cycle.
+    # Note: This needs to be edited when a new release cycle (a new GA release) is added.
+    regex:
+    -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
+    -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
+    -   ^mariadb-(?P<major>11)\.(?P<minor>0)\.(?P<patch>([2-9]|\d{2}))$
+    -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
 
 releases:
 -   releaseCycle: "11.2"

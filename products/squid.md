@@ -6,7 +6,7 @@ alternate_urls:
 -   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate: 
+changelogTemplate:
   http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
 releaseDateColumn: true
 
@@ -19,18 +19,23 @@ identifiers:
 -   purl: pkg:rpm/centos/squid
 -   purl: pkg:apk/alpine/squid
 
-# https://rubular.com/r/mwE2FvyQrDjXzx
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
-# v2 sources are now archived in a separate repo, we use that as well
-# the squidadm repository is the one where releases are made
 auto:
+# v2 sources are now archived in a separate repo, we use that as well
 -   git: https://github.com/squid-cache/squid2.git
-    regex: 
-      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
+    regex:
+    # https://regex101.com/r/yMRzJO/1
+    -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
+    # https://regex101.com/r/psotaU/1
+    -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
+# the squidadm repository is the one where releases are made
 -   git: https://github.com/squidadm/squid.git
-    regex: 
-      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
+    regex:
+    # https://regex101.com/r/yMRzJO/1
+    -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
+    # https://regex101.com/r/psotaU/1
+    -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
 
 releases:
 -   releaseCycle: "6"

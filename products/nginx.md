@@ -18,10 +18,9 @@ identifiers:
 -   purl: pkg:rpm/centos/nginx
 -   purl: pkg:apk/alpine/nginx
 
-# https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
 -   git: https://github.com/nginx/nginx.git
-    regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
+    regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
 releases:

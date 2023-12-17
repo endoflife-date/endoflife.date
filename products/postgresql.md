@@ -15,8 +15,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/postgres/postgres.git
-  # https://rubular.com/r/KlemgnguNe0e5X
-    regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>\d+)_?(?<patch>\d+)?$
+    regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
 
 identifiers:
 -   repology: postgresql

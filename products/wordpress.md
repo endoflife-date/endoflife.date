@@ -16,7 +16,7 @@ customColumns:
     position: after-release-column
     label: Supported PHP
     description: Supported PHP versions range
-    link: 
+    link:
       https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 
 # This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
@@ -26,7 +26,7 @@ customColumns:
 # See https://github.com/endoflife-date/endoflife.date/pull/2768#issuecomment-1491875624.
 auto:
 -   git: https://github.com/WordPress/wordpress-develop.git
-    regex: '^(?<major>\d+)\.(?<minor>\d+)\.?(?<patch>[1-9][0-9.]*)?'
+    regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.?(?P<patch>[1-9][0-9.]*)?'
 
 identifiers:
 -   repology: wordpress

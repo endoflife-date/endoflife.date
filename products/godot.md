@@ -14,7 +14,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/godotengine/godot.git
-    regex: ^(?<version>\d+(\.\d+){1,3})-stable$
+    regex: ^(?P<version>\d+(\.\d+){1,3})-stable$
     template: "{{version}}"
 
 # Do not forget to remove the link after the first patch release.

@@ -8,7 +8,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/Cisco-Talos/clamav.git
-    regex: '^clamav-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+    regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:

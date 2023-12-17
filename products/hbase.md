@@ -13,7 +13,7 @@ eolColumn: Service Status
 
 auto:
 -   git: https://github.com/apache/hbase.git
-    regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
+    regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
 -   releaseCycle: "2.5"

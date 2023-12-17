@@ -12,7 +12,7 @@ extendedSupportColumn: Premium support
 
 auto:
 -   git: https://github.com/openssl/openssl.git
-    regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?<major>\d+)[\.|_](?<minor>\d+)[\.|_](?<patch>\d+\w{0,2})?$'
+    regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?P<major>\d+)[\.|_](?P<minor>\d+)[\.|_](?P<patch>\d+\w{0,2})?$'
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:

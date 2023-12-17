@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/phpmyadmin/phpmyadmin.git
-    regex: '^RELEASE_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)(_(?<tiny>\d+))?$'
+    regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 identifiers:
 -   repology: phpmyadmin

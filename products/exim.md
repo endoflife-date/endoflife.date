@@ -5,11 +5,10 @@ permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
 releaseDateColumn: true
 
-# https://rubular.com/r/oNyoh1qDT1V2eF
 auto:
 -   git: https://github.com/Exim/exim
-    regex: 
-      ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
+    # https://regex101.com/r/jDuVex/1
+    regex: ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
 
 identifiers:
 -   repology: exim
