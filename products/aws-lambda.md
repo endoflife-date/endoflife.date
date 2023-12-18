@@ -199,13 +199,13 @@ releases:
 
 -   releaseCycle: "nodejs12.x"
     releaseLabel: Node.js 12
-    releaseDate: 2021-02-03
+    releaseDate: 2019-11-18
     support: 2023-03-31
     eol: 2023-04-30
     link:
       https://aws.amazon.com/blogs/compute/node-js-12-x-runtime-now-available-in-aws-lambda/
     latest: nodejs12.x
-    latestReleaseDate: 2021-02-03
+    latestReleaseDate: 2019-11-18
 
 -   releaseCycle: "python3.8"
     releaseLabel: Python 3.8
@@ -254,7 +254,7 @@ releases:
     link:
       https://aws.amazon.com/about-aws/whats-new/2018/11/aws-lambda-now-supports-custom-runtimes-and-layers/
     latest: provided.al2023
-    latestReleaseDate: 9999-12-31
+    latestReleaseDate: 2018-11-29
 
 -   releaseCycle: "python3.7"
     releaseLabel: Python 3.7
@@ -350,16 +350,7 @@ releases:
     link:
       https://aws.amazon.com/blogs/compute/node-js-4-3-2-runtime-now-available-on-lambda/
     latest: nodejs4.3-edge
-    latestReleaseDate: 2017-07-17
-
--   releaseCycle: "java8"
-    releaseLabel: Java 8 (AL1)
-    releaseDate: 2015-06-15
-    support: 2023-12-31
-    eol: 2024-01-31 # estimated
-    link: https://aws.amazon.com/about-aws/whats-new/2015/06/aws-lambda-supports-java/
-    latest: java8.al2
-    latestReleaseDate: 2020-08-12
+    latestReleaseDate: 2016-04-07
 
 -   releaseCycle: "python2.7"
     releaseLabel: Python 2.7
@@ -370,6 +361,15 @@ releases:
       https://aws.amazon.com/about-aws/whats-new/2015/10/aws-lambda-supports-python-versioning-scheduled-jobs-and-5-minute-functions/
     latest: python2.7
     latestReleaseDate: 2015-10-08
+
+-   releaseCycle: "java8"
+    releaseLabel: Java 8 (AL1)
+    releaseDate: 2015-06-15
+    support: 2023-12-31
+    eol: 2024-01-31 # estimated
+    link: https://aws.amazon.com/about-aws/whats-new/2015/06/aws-lambda-supports-java/
+    latest: java8.al2
+    latestReleaseDate: 2015-06-15
 
 -   releaseCycle: "nodejs"
     releaseLabel: Node.js 0.10
