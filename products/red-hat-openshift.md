@@ -29,16 +29,16 @@ releases:
     support: true #  4.15 GA + 3 months
     eol: 2025-05-01
     extendedSupport: 2025-10-31
-    latest: "4.14.5"
-    latestReleaseDate: 2023-12-05
+    latest: "4.14.6"
+    latestReleaseDate: 2023-12-12
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
     support: 2024-01-31
     eol: 2024-11-17
     extendedSupport: false
-    latest: "4.13.25"
-    latestReleaseDate: 2023-12-06
+    latest: "4.13.26"
+    latestReleaseDate: 2023-12-13
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
@@ -53,8 +53,8 @@ releases:
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.54"
-    latestReleaseDate: 2023-11-29
+    latest: "4.11.55"
+    latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10
