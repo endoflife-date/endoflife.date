@@ -25,9 +25,10 @@ releases:
     releaseDate: 2023-12-14
     support: true
     eol: false
-    link: https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-support-python-3-12/
+    link: 
+      https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-support-python-3-12/
     latest: "python3.12"
-    latestReleaseDate: 2023-12-14
+    latestReleaseDate: 2023-12-17
 
 -   releaseCycle: "java21"
     releaseLabel: Java 21
@@ -214,7 +215,7 @@ releases:
     link: 
       https://aws.amazon.com/blogs/compute/node-js-12-x-runtime-now-available-in-aws-lambda/
     latest: nodejs12.x
-    latestReleaseDate: 2021-02-03
+    latestReleaseDate: 2019-11-18
 
 -   releaseCycle: "python3.8"
     releaseLabel: Python 3.8
