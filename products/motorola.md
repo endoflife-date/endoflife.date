@@ -10,7 +10,7 @@ alternate_urls:
 releasePolicyLink: https://en-us.support.motorola.com/app/software-security-update
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: true
+activeSupportColumn: false
 eolColumn: Security Updates
 
 # This data is parsed from the HTML CDATA on the Motorola website:
