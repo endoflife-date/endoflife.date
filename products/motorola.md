@@ -424,9 +424,6 @@ Motorola devices typically receive security updates for 2-3 years. Phones that
 launch on any version of Android will typically be supported for one upgrade to
 the next major version of Android.
 
-Full details on support for specific devices
-[can be found from Motorola Support](https://en-us.support.motorola.com/app/software-security-update).
-
 Channels and regions may have different launch dates and support cycle may vary.
 
 All dates are to the nearest month.
