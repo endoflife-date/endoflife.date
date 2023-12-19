@@ -1,7 +1,7 @@
 ---
 title: nix
 category: app
-tags: package-manager
+tags: build-tool
 iconSlug: nixos
 permalink: /nix
 alternate_urls:
