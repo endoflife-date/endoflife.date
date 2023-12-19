@@ -21,22 +21,22 @@ releases:
     releaseDate: 2023-05-15
     support: true
     eol: 2026-05-15 # projected
-    latest: '26.2'
-    latestReleaseDate: 2023-12-11
+    latest: '26.2.1'
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "25"
     releaseDate: 2022-05-17
     support: 2023-05-15
     eol: 2025-05-17 # projected
-    latest: '25.3.2.7'
-    latestReleaseDate: 2023-10-12
+    latest: '25.3.2.8'
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "24"
     releaseDate: 2021-05-10
     support: 2022-05-17
     eol: 2024-05-10 # projected
-    latest: '24.3.4.14'
-    latestReleaseDate: 2023-10-11
+    latest: '24.3.4.15'
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "23"
     releaseDate: 2020-05-11
