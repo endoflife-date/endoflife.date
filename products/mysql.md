@@ -18,7 +18,7 @@ eolColumn: Extended Support
 auto:
 -   git: https://github.com/mysql/mysql-server.git
     regex:
-    -   ^mysql-(?P<v>5\.5\.([8-9]|\d{2})$
+    -   ^mysql-(?P<v>5\.5\.([8-9]|\d{2}))$
     -   ^mysql-(?P<v>5\.6\.\d{2})$
     -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
     -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
