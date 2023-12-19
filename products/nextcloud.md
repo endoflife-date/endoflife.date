@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/nextcloud/server.git
-    regex: ^v(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
+    regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # releaseDate/eol see https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 releases:

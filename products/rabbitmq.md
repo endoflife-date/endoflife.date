@@ -13,8 +13,8 @@ extendedSupportColumn: Extended Commercial Support
 
 auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
-    regex: 
-      ^(rabbitmq_v(?<major>[1-9]\d*)_(?<minor>\d+)_(?<patch>\d+)|v(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+))$
+    regex:
+      ^(rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)|v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+))$
 
 releases:
 -   releaseCycle: "3.12"

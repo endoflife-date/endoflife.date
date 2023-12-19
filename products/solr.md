@@ -11,14 +11,13 @@ releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-sup
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true
 
-# https://rubular.com/r/WWOqtBih7muRFz
 auto:
 -   git: https://github.com/apache/lucene-solr.git
-    regex: '^releases\/lucene-solr\/(?<version>\d+\.\d+(.\d+)?)$'
+    regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
     template: '{{version}}'
 -   git: https://github.com/apache/solr.git
     # Only pick new release from the new repo
-    regex: '^releases\/solr\/(?<version>\d+\.\d+(.\d+)?)$'
+    regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
     template: '{{version}}'
 
 releases:

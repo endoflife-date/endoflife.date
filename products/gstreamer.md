@@ -11,7 +11,7 @@ eolColumn: Supported
 
 auto:
 -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-    regex: '^(?<major>[1-9]\d*)\.(?<minor>([1-9]\d*)?[02468])\.?(?<patch>\d+)?$'
+    regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
 releases:
 -   releaseCycle: "1.22"

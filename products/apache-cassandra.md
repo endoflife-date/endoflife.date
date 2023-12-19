@@ -12,7 +12,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/apache/cassandra.git
-    regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+    regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 releases:
 -   releaseCycle: "4.1"

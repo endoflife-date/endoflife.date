@@ -14,7 +14,7 @@ eolColumn: Support Status
 # This git mirror only contains versions from 3.6.10.
 auto:
 -   git: https://github.com/sqlite/sqlite.git
-    regex: '^version-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
+    regex: '^version-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 releases:
 -   releaseCycle: "3"

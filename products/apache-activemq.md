@@ -15,7 +15,7 @@ eolColumn: Support
 
 auto:
 -   git: https://github.com/apache/activemq.git
-    regex: '^activemq-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
+    regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # eol(x) = releaseCycle(x+2)
 # link(x) =

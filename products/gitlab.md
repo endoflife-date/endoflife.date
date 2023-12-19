@@ -14,9 +14,8 @@ eolColumn: Maintenance Support
 eolWarnThreshold: 60
 
 auto:
-# Reference: https://rubular.com/r/mFfxB8FgXXERX4
 -   git: https://gitlab.com/gitlab-org/gitlab.git
-    regex: '^v?(?<major>[1-9]\d*)\.(?<minor>\d+)\.(?<patch>\d+)-ee?$'
+    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 
 # support(x) = releaseDate(x+1)

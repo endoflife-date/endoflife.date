@@ -14,7 +14,7 @@ eolColumn: Security
 
 auto:
 -   git: https://github.com/umbraco/Umbraco-CMS.git
-    regex: ^release-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)$
+    regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Only tracking major releases here, even if regressions are fixed on the last three minors.
 # This is because the LTS model is based on major versions, and maintaining so many minor versions
@@ -84,7 +84,7 @@ releases:
     eol: 2018-05-01
     latest: '6.2.6'
     latestReleaseDate: 2016-03-03
-    link: 
+    link:
       https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-6-end-of-life-eol/
 
 ---

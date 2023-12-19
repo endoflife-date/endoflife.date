@@ -12,13 +12,13 @@ releaseDateColumn: true
 # There is one repository for each major LTS release.
 auto:
 -   git: "https://github.com/microsoft/openjdk-jdk11u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
+    regex: '^jdk-(?P<version>[\d\.]+)-ga$'
     template: '{{version}}'
 -   git: "https://github.com/microsoft/openjdk-jdk17u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
+    regex: '^jdk-(?P<version>[\d\.]+)-ga$'
     template: '{{version}}'
 -   git: "https://github.com/microsoft/openjdk-jdk21u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
+    regex: '^jdk-(?P<version>[\d\.]+)-ga$'
     template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.

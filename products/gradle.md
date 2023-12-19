@@ -13,9 +13,9 @@ eolColumn: Critical Bug and Security Fixes
 
 auto:
 -   git: https://github.com/gradle/gradle.git
-    # regex to exclude versions below 3.x for tags with wrong dates see https://github.com/endoflife-date/endoflife.date/pull/3619
-    # https://rubular.com/r/Q94JVYzjli8WC8
-    regex: ^v?(?<major>([3-9]|\d{2,}))\.(?<minor>\d+)\.?(?<patch>\d+)?$
+    # Regex to exclude versions below 3.x for tags with wrong dates (https://github.com/endoflife-date/endoflife.date/pull/3619).
+    # See https://regex101.com/r/UutXqX/1.
+    regex: ^v?(?P<major>([3-9]|\d{2,}))\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)

@@ -12,7 +12,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/erlang/otp.git
-    regex: ^OTP-(?<version>\d+(\.\d+){0,3})$
+    regex: ^OTP-(?P<version>\d+(\.\d+){0,3})$
     template: "{{version}}"
 
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))

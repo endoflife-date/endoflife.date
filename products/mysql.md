@@ -6,20 +6,23 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage: 
+releaseImage:
   https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
 activeSupportColumn: Premier Support
 eolColumn: Extended Support
 
-# Regex takes into account the first GA release in each cycle (in parentheses)
+# Regexes take into account the first GA release in each cycle.
 # https://dev.mysql.com/doc/refman/8.2/en/faqs-general.html#faq-mysql-version-ga
-# See https://rubular.com/r/qi5jDueXMwunrS.
 auto:
 -   git: https://github.com/mysql/mysql-server.git
-    regex: 
-      ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.[1-9]\.\d+))$
+    regex:
+    -   ^mysql-(?P<v>5\.5\.([8-9]|\d{2})$
+    -   ^mysql-(?P<v>5\.6\.\d{2})$
+    -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
+    -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
+    -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
     template: "{{v}}"
 
 # dates below are for:

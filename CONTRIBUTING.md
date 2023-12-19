@@ -218,15 +218,15 @@ auto:
   # For example, for Apache Maven:
   - git: https://github.com/apache/maven.git
 
-    # Ruby-compatible regex that defines how the tags above should translate to releases
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
-    # Use named capturing groups to capture the version or version's parts.
+    # Python-compatible regex that defines how the tags above should translate to releases (optional).
+    # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
+    # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
     # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
     # skip over any special releases (such as nightly,beta,pre,rc...).
     regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
 
     # A liquid template using the captured variables from the regex above that renders the final version
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
+    # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
     # You can use liquid templating here.
     template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
@@ -316,7 +316,7 @@ releases:
     # Only provide for a release that will get much longer support than usual.
     # Alternatively, this can be set to a date when the product is not labeled
     # as LTS when it is released (ex. Angular) or when normal versions are
-    # promoted LTS after their release (ex. Jenkins). 
+    # promoted LTS after their release (ex. Jenkins).
     lts: true
 
     # End of active support date (optional if activeSupportColumn is false, else mandatory).

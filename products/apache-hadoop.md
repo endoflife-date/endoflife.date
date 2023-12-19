@@ -14,7 +14,7 @@ versionCommand: hadoop version
 
 auto:
 -   git: https://github.com/apache/hadoop.git
-    regex: '^(rel\/)?release-(?<major>[1-9][0-9]*)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+    regex: '^(rel\/)?release-(?P<major>[1-9][0-9]*)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # EOL(x) = latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
