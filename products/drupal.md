@@ -23,11 +23,18 @@ identifiers:
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
-# Minor releases usually happen on the third Wednesday of each month.
+# Minor releases usually happen on the third Wednesday every six months.
 releases:
+-   releaseCycle: "10.2"
+    releaseDate: 2023-12-15
+    support: 2024-06-19
+    eol: 2024-12-18
+    latest: "10.2.0"
+    latestReleaseDate: 2023-12-15
+
 -   releaseCycle: "10.1"
     releaseDate: 2023-06-22
-    support: 2023-12-13
+    support: 2023-12-15
     eol: 2024-06-19
     latest: "10.1.7"
     latestReleaseDate: 2023-12-06
@@ -35,7 +42,7 @@ releases:
 -   releaseCycle: "10.0"
     releaseDate: 2022-12-15
     support: 2023-06-21
-    eol: 2023-12-13
+    eol: 2023-12-15
     latest: "10.0.11"
     latestReleaseDate: 2023-09-19
 

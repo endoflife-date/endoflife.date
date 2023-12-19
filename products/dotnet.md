@@ -15,8 +15,8 @@ eolColumn: Support Status
 
 auto:
 -   git: https://github.com/dotnet/core.git
-    # Excludes 3 digit patch versions, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
-    # which looks a bit special and break semver (see https://regex101.com/r/oDhccW/1).
+    # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
+    # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
     regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d{1,2}))?$'
 
 identifiers:
