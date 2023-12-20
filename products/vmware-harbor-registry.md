@@ -5,7 +5,6 @@ tags: cncf
 iconSlug: harbor
 permalink: /vmware-harbor-registry
 alternate_urls:
--   /harbor-registry
 -   /harbor
 -   /vmware-harbor
 changelogTemplate: https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-release-notes.html#v__LATEST__
