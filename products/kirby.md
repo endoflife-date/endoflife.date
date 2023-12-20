@@ -14,8 +14,17 @@ auto:
 -   git: https://github.com/getkirby/kirby.git
 
 # eol(x) = releaseDate(x+1) + 2 years - 1 day
-# See also https://getkirby.com/docs/archive.
+# See also https://getkirby.com/docs/archive
 releases:
+-   releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
+    codename: ""
+    releaseDate: 2023-12-19
+    eol: 2025-11-27 # Assume eol(3.9)
+    latest: "3.10.0"
+    latestReleaseDate: 2023-12-19
+
+https://getkirby.com/releases
+
 -   releaseCycle: "4.0"
     codename: "A new era"
     releaseDate: 2023-11-28
