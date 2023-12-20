@@ -28,7 +28,7 @@ releases:
     link: 
       https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-support-python-3-12/
     latest: "python3.12"
-    latestReleaseDate: 2023-12-17
+    latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "java21"
     releaseLabel: Java 21
