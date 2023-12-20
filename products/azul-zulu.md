@@ -211,8 +211,8 @@ releases:
 > stripped down JREs and builds including OpenJFX.
 
 {: .warning }
-> This page is tracking [CA builds](https://support.azul.com/hc/en-us/articles/360051512551-What-s-the-difference-between-CA-and-SA-bundles-of-Azul-Zulu-Builds-of-OpenJDK)
-> of Azul Zulu ([PSU](https://support.azul.com/hc/en-us/articles/4420847095444-Explaining-PSU-and-CPU)),
+> This page is tracking [CA builds](https://support.azul.com/hc/articles/360051512551-What-s-the-difference-between-CA-and-SA-bundles-of-Azul-Zulu-Builds-of-OpenJDK)
+> of Azul Zulu ([PSU](https://support.azul.com/hc/articles/4420847095444-Explaining-PSU-and-CPU)),
 > which are free to download and use.
 
 Azul Zulu builds are available for Java 6 and greater. It follows the same cadence as OpenJDK:
