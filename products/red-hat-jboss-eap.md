@@ -63,7 +63,7 @@ releases:
     link: https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
 ---
 
-> [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
+> [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/technologies/jboss-middleware/application-platform)
 > (or JBoss EAP) is a subscription-based Java EE-based application server runtime platform used for
 > building, deploying, and hosting highly-transactional Java applications and services. It is
 > developed and maintained by Red Hat as part as their Enterprise Middleware portfolio of software.
