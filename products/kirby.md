@@ -23,8 +23,6 @@ releases:
     latest: "3.10.0"
     latestReleaseDate: 2023-12-19
 
-https://getkirby.com/releases
-
 -   releaseCycle: "4.0"
     codename: "A new era"
     releaseDate: 2023-11-28
