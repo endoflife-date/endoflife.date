@@ -5,7 +5,7 @@ tags: javascript-runtime
 iconSlug: vuetify
 permalink: /vuetify
 versionCommand: npm list vuetify
-releasePolicyLink: https://vuetifyjs.com/en/introduction/long-term-support/
+releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
@@ -45,5 +45,5 @@ releases:
 > of consistently styled UI components with features such as dynamic themes, global defaults,
 > application layouts, and more.
 
-Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/en/introduction/long-term-support/)
+Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/introduction/long-term-support/)
 from the date of release of the last minor version in a given cycle, which marks the start of LTS.
