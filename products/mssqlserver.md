@@ -53,10 +53,10 @@ releases:
     extendedSupport: false
     latestGdr: "15.0.2104.1"
     latestGdrLink: https://support.microsoft.com/help/5029377
-    latest: "15.0.4335.1 CU23"
-    latestReleaseDate: 2023-10-12
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate23
-
+    latest: "15.0.4345.5 CU24"
+    latestReleaseDate: 2023-12-14
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate24
+    
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton
     releaseLabel: "2014 SP3"
