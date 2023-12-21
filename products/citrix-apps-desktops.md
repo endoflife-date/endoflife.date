@@ -18,6 +18,15 @@ releaseDateColumn: true
 extendedSupportColumn: true
 
 releases:
+-   releaseCycle: "2311"
+    releaseDate: 2023-12-21
+    support: true # not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eol: false # not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    extendedSupport: false
+    latest: "2311"
+    latestReleaseDate: 2023-12-21
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+
 -   releaseCycle: "2308"
     releaseDate: 2023-09-14
     support: 2024-03-14
@@ -25,7 +34,6 @@ releases:
     extendedSupport: false
     latest: "2308"
     latestReleaseDate: 2023-09-14
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
 
 -   releaseCycle: "2305"
     releaseDate: 2023-05-31
