@@ -1,8 +1,8 @@
 title: Google Nexus
 category: device
-tags: google mobile-phone
+tags: google mobile-phone tablet
 iconSlug: google
-permalink: /nexus
+permalink: /google-nexus
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
 releaseColumn: false
@@ -13,7 +13,7 @@ eolColumn: Guaranteed Software Updates
 customColumns:
 -   property: supportedAndroidVersions
     position: after-release-column
-    label: Supported Android # https://en.wikipedia.org/wiki/Google_Nexus#Phones
+    label: Supported Android # https://en.wikipedia.org/wiki/Google_Nexus
     description: Supported Android versions range
     link: https://endoflife.date/android
 
@@ -72,7 +72,7 @@ releases:
     eol: 2013-07-31
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_Q
-    supportedAndroidVersions: Custom (Android-based)
+    supportedAndroidVersions: 4.0 # https://en.wikipedia.org/wiki/Nexus_Q#Hardware_and_software
 
 -   releaseCycle: "6"
     releaseLabel: "Nexus 6"
@@ -90,7 +90,7 @@ releases:
     eol: 2016-11-02
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_Player
-    supportedAndroidVersions: 5.0 - 8.0
+    supportedAndroidVersions: 5.0 - 8.0 # https://en.wikipedia.org/wiki/Nexus_Player#
 
 -   releaseCycle: "6P"
     releaseLabel: "Nexus 6P"
