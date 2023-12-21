@@ -7,9 +7,9 @@ alternate_urls:
 -   /k8s
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
-releaseImage:
+releaseImage: 
   https://upload.wikimedia.org/wikipedia/en/timeline/fxdhzv3oeut1ywyfx5ubxghu9fnow69.png
-changelogTemplate:
+changelogTemplate: 
   https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 activeSupportColumn: true
@@ -39,8 +39,8 @@ releases:
     releaseDate: 2023-04-11
     support: 2024-04-28
     eol: 2024-06-28
-    latest: "1.27.8"
-    latestReleaseDate: 2023-11-15
+    latest: "1.27.9"
+    latestReleaseDate: 2023-12-19
 
 -   releaseCycle: "1.26"
     releaseDate: 2022-12-08
