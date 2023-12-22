@@ -77,7 +77,7 @@ releases:
 
 -   releaseCycle: "18"
     releaseDate: 2020-01-17
-    eol: 2021-01-25
+    eol: 2021-01-27
     latest: "18.0.14"
     latestReleaseDate: 2021-01-25
 
