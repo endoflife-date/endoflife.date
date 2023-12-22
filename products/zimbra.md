@@ -37,13 +37,13 @@ releases:
     support: 2023-12-31
     extendedSupport: 2023-12-31
 
-
-
 -   releaseCycle: "8.7"
     releaseDate: 2016-07-13
     eol: true
     latest: "8.7.11.p14"
     latestReleaseDate: 2020-01-09
+    support: 2020-01-09
+    extendedSupport: false
 
 ---
 
