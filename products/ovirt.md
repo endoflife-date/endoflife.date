@@ -47,7 +47,7 @@ releases:
     latestReleaseDate: 2017-01-12
 
 -   releaseCycle: "3.6"
-    releaseDate: 2016-06-23
+    releaseDate: 2015-12-15
     eol: true
     latest: "3.6.7"
     latestReleaseDate: 2016-06-30
