@@ -15,9 +15,16 @@ auto:
 # support(x) = releaseDate(x+1) (or true if not yet released)
 # eol(x) = releaseDate(x+5) (or false if not yet released)
 releases:
+-   releaseCycle: "1.16"
+    releaseDate: 2023-12-22
+    support: true # release date of 1.17
+    eol: false # release date of 1.21
+    latest: "1.16.0"
+    latestReleaseDate: 2023-12-22
+
 -   releaseCycle: "1.15"
     releaseDate: 2023-06-19
-    support: true # release date of 1.16
+    support: 2023-12-22 # release date of 1.16
     eol: false # release date of 1.20
     latest: "1.15.7"
     latestReleaseDate: 2023-10-14
@@ -46,7 +53,7 @@ releases:
 -   releaseCycle: "1.11"
     releaseDate: 2020-10-06
     support: 2021-05-19 # release date of 1.12
-    eol: false # release date of 1.16
+    eol: 2023-12-22 # release date of 1.16
     latest: "1.11.4"
     latestReleaseDate: 2021-03-16
 
