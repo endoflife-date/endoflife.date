@@ -45,8 +45,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.14"
-    latestReleaseDate: 2023-11-14
+    latest: "4.0.15"
+    latestReleaseDate: 2023-12-20
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
