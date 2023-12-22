@@ -24,8 +24,8 @@ auto:
 releases:
 -   releaseCycle: "16.7"
     releaseDate: 2023-12-21
-    support: 2024-12-21
-    eol: 2024-12-21
+    support: 2024-01-18
+    eol: 2024-03-21
     latest: "16.7.0"
     latestReleaseDate: 2023-12-21
 
