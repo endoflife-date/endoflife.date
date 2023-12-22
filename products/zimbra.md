@@ -4,7 +4,8 @@ permalink: /zimbra
 category: server-app
 changelogTemplate: "https://wiki.zimbra.com/wiki/Zimbra_Releases/__LATEST__"
 releaseDateColumn: true
-activeSupportColumn: Active Support
+activeSupportColumn: true
+releasePolicyLink: "https://www.zimbra.com/product/product-lifecycle/"
 
 auto:
 -   git: https://github.com/Zimbra/zm-build
@@ -35,6 +36,8 @@ releases:
     lts: true
     support: 2023-12-31
     extendedSupport: 2023-12-31
+
+
 
 -   releaseCycle: "8.7"
     releaseDate: 2016-07-13
