@@ -38,3 +38,11 @@ layout: null
 
 # Send API 404 responses in JSON
 /api/* /assets/404.json 404
+
+# A few permanent redirects for removed pages
+/tags/api-gateway                  /tags/web-server
+/tags/configuration-management     /
+/tags/library                      /tags/framework
+/tags/managed-mysql                /tags/db
+/tags/managed-postgresql           /tags/db
+/tags/package-manager              /tags/build-tool

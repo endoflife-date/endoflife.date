@@ -56,20 +56,24 @@ category: os
 
 # Tags of the product (optional).
 #
-# Tags :
+# Remember that no tag is better than a useless tag. So do not introduce new tags when adding a product
+# and use one of the tags listed on https://endoflife.date/tags/.
+#
+# Should you want to add a new tag, please open an issue first to discuss it with the team.
+# Moreover, any new tag must be applied in a single PR to all products that should have it.
+#
+# Rules about tags are the following:
 # - must match [a-z0-9\-]+,
 # - must be declared with a space-separated string,
 # - must be alphabetically ordered,
 # - must use singular (for example web-server, not web-servers),
-# - should be used at least twice,
+# - must not be an existing category (note that categories are automatically used as tags),
+# - should be used at least three times, except for tags representing a vendor or a runtime dependency,
 # - must be added for one of the following reasons :
 #   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
 #   - set a product vendor such as adobe, amazon or apache,
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
-#
-# Remember that no tag is better than a useless tag. Also, note that categories are automatically tags, but don't
-# use another category as a tag.
-tags: amazon linux
+tags: amazon linux-distribution
 
 # Simple Icons (https://simpleicons.org/) icon slug (optional).
 # Remove this property if the icon is not available on Simple Icons.
