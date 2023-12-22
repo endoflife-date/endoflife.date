@@ -83,7 +83,7 @@ releases:
 
 -   releaseCycle: "17"
     releaseDate: 2019-09-26
-    eol: 2020-01-08
+    eol: 2020-10-08
     latest: "17.0.10"
     latestReleaseDate: 2020-10-08
 
