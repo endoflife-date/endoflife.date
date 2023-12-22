@@ -41,7 +41,7 @@ releases:
 
 -   releaseCycle: "24"
     releaseDate: 2022-05-02
-    eol: 2023-04-19
+    eol: 2023-04-20
     latest: "24.0.12"
     latestReleaseDate: 2023-04-19
 
