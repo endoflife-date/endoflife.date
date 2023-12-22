@@ -3,6 +3,7 @@ title: oVirt
 category: os
 permalink: /ovirt
 changelogTemplate: "https://www.ovirt.org/release/__LATEST__"
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/oVirt/ovirt-engine
