@@ -2,6 +2,7 @@
 title: ClamAV
 category: app
 permalink: /clamav
+versionCommand: clamscan --version
 releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
 releaseDateColumn: true
