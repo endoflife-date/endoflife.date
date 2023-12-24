@@ -16,7 +16,9 @@ auto:
 -   git: https://github.com/meilisearch/meilisearch.git
 
 releases:
--   releaseCycle: "1"
+-   releaseCycle: "1.5"
+    releaseDate: 2023-11-20
+    eol: false
     latest: "1.5.1"
     latestReleaseDate: 2023-12-13
 
