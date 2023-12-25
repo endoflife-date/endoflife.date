@@ -23,6 +23,12 @@ identifiers:
 -   purl: pkg:generic/ruby
 
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2023-12-25
+    eol: 2027-03-31
+    latest: "3.3.0"
+    latestReleaseDate: 2023-12-25
+
 -   releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
