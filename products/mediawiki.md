@@ -14,7 +14,15 @@ eolColumn: End-of-Life
 auto:
 -   git: https://github.com/wikimedia/mediawiki.git
 
+# See https://www.mediawiki.org/wiki/Version_lifecycle
 releases:
+
+-   releaseCycle: "1.41"
+    releaseDate: 2023-12-21
+    eol: 2024-12-31
+    latest: "1.41.0"
+    latestReleaseDate: 2023-12-21
+
 -   releaseCycle: "1.40"
     releaseDate: 2023-06-30
     eol: 2024-06-30
@@ -48,7 +56,7 @@ releases:
 
 -   releaseCycle: "1.35"
     lts: true
-    eol: 2023-11-30
+    eol: 2023-12-21
     latest: "1.35.14"
     latestReleaseDate: 2023-12-21
     releaseDate: 2020-09-25
