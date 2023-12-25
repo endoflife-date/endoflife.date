@@ -14,7 +14,7 @@ eolColumn: End-of-Life
 auto:
 -   git: https://github.com/wikimedia/mediawiki.git
 
-# See <https://www.mediawiki.org/wiki/Version_lifecycle>
+# See https://www.mediawiki.org/wiki/Version_lifecycle
 releases:
 
 -   releaseCycle: "1.41"
