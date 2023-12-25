@@ -12,16 +12,16 @@ customColumns:
     position: after-release-column
     label: Supported Android
     description: Supported Android version range
-    link: https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS
+    link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS
 
-# Supported android versions can be found on https://support.fairphone.com/hc/en-us/articles/9979180437393-Fairphone-OS.
+# Supported android versions can be found on https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS.
 releases:
 -   releaseCycle: "5"
     supportedAndroidVersions: "13"
     releaseDate: 2023-09-14
     discontinued: false
     eol: 2031-09-14 # according to https://www.gsmarena.com/fairphone_5_goes_official_with_5_years_warranty_up_to_10_years_of_software_support-news-59724.php
-    link: https://support.fairphone.com/hc/en-us/articles/18020671537041-Fairphone-5-FAQ
+    link: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
 
 -   releaseCycle: "4"
     supportedAndroidVersions: 11 - 13
@@ -54,7 +54,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/360019515018
 
 -   releaseCycle: "1"
-    supportedAndroidVersions: "4.2" # https://support.fairphone.com/hc/en-us/articles/6217522827281-Fairphone-1-FAQ
+    supportedAndroidVersions: "4.2" # https://support.fairphone.com/hc/articles/6217522827281-Fairphone-1-FAQ
     releaseDate: 2013-12-01
     discontinued: 2017-07-13
     eol: 2017-07-13
@@ -66,4 +66,4 @@ releases:
 > footprint and better social impact than is common in the industry.
 
 Fairphone 4 is guaranteed an upgrade to Android 13. Updates to Android 14/15 [might happen on a best
-effort basis](https://support.fairphone.com/hc/en-us/articles/9979180437393).
+effort basis](https://support.fairphone.com/hc/articles/9979180437393).
