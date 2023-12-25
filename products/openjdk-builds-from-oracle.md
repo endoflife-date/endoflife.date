@@ -99,7 +99,7 @@ releases:
 
 ---
 
-> [OpenJDK builds from Oracle](https://jdk.java.net/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [OpenJDK builds from Oracle](https://jdk.java.net/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) provided by Oracle. OpenJDK builds from
 > Oracle are certified using the Java Technical Compatibility Kit (TCK) to ensure it meets the Java
 > SE standard. It is available on Linux, Windows, macOS.
