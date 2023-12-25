@@ -167,7 +167,7 @@ releases:
 
 ---
 
-> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) that is tested and verified to be
 > compliant with the Java SE specification using OpenJDK Technology Compatibility Kit test suite for
 > Linux, Windows, macOS, and Solaris operating systems.

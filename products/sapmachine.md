@@ -87,7 +87,7 @@ releases:
 
 ---
 
-> [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) with long-term support and patches from
 > SAP. SapMachine [is certified](https://github.com/SAP/SapMachine/wiki/Certification-and-Java-Compatibility)
 > using the Java Technical Compatibility Kit (TCK) to ensure it meets the Java SE standard. It is

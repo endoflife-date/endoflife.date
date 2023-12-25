@@ -90,7 +90,7 @@ releases:
 
 ---
 
-> [Alibaba Dragonwell](https://dragonwell-jdk.io/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [Alibaba Dragonwell](https://dragonwell-jdk.io/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) with long-term support and patches from
 > Alibaba. It is available in two editions : a Standard Edition for general usage and an Extended
 > Edition optimized for the Alibaba cloud. Both editions are certified using the [AQAvit quality

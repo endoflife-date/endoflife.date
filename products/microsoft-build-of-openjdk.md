@@ -48,7 +48,7 @@ releases:
 
 ---
 
-> The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) with long-term support and patches from
 > Microsoft. Microsoft Build of OpenJDK is certified using the Oracle Java Compatibility Kit (JCK)
 > to demonstrate that it is a compatible implementation of the Java specification. Microsoft Build
