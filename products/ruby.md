@@ -25,7 +25,7 @@ identifiers:
 releases:
 -   releaseCycle: "3.3"
     releaseDate: 2023-12-25
-    eol: false
+    eol: 2027-03-31
     latest: "3.3.0"
     latestReleaseDate: 2023-12-25
 
