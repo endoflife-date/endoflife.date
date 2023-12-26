@@ -3,6 +3,7 @@ title: Blender
 category: app
 iconSlug: blender
 permalink: /blender
+versionCommand: blender --version
 releasePolicyLink: https://www.blender.org
 releaseImage: 
   https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png

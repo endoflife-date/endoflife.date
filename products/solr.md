@@ -7,6 +7,7 @@ permalink: /solr
 alternate_urls:
 -   /apache_solr
 -   /apache-solr
+versionCommand: bin/solr version
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true

@@ -5,6 +5,7 @@ iconSlug: godotengine
 permalink: /godot
 alternate_urls:
 -   /godotengine
+versionCommand: godot --version
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
