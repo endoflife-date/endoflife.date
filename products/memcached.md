@@ -25,22 +25,21 @@ releases:
     releaseDate: 2020-03-09
     eol: false
     latest: '1.6.22'
-    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1622
     latestReleaseDate: 2023-10-09
+    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1622
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-07-21
     eol: 2020-03-09
     latest: '1.5.22'
-    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1522
     latestReleaseDate: 2020-02-01
+    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1522
 
 ---
 
-> memcached is a high-performance, distributed memory object caching system,
-> generic in nature, but originally intended for use in speeding up dynamic web
-> applications by alleviating database load.
+> memcached is a high-performance, distributed memory object caching system, generic in nature, but
+> originally intended for use in speeding up dynamic web applications by alleviating database load.
 
 Memcached does not have a clearly defined release and support policy.
-[Looking at the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes),
-only the latest release is supported.
+[Looking at the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes), it
+seems only the latest release is supported.
