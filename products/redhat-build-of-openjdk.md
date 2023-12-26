@@ -41,6 +41,13 @@ identifiers:
     - purl: pkg:redhat/java-11-openjdk-devel-debug
 
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2023-11-14 # RHEL 8.9
+    eol: 2029-12-30
+    # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
+    latest: "21.0.1.0.12-2"
+    latestReleaseDate: 2023-11-14
+
 -   releaseCycle: "17"
     releaseDate: 2021-05-18 # RHEL 8.4
     eol: 2027-10-30
