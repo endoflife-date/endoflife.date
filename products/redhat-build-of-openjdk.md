@@ -42,7 +42,7 @@ identifiers:
 
 releases:
 -   releaseCycle: "21"
-    releaseDate: 2023-11-14 # RHEL 8.9
+    releaseDate: 2023-10-30
     eol: 2029-12-30
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
     latest: "21.0.1.0.12-3"
