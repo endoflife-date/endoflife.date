@@ -18,7 +18,7 @@ identifiers:
 auto:
 -   maven: org.eclipse.jetty/jetty-server
 
-# eol status and minJavaVersion can be found on https://eclipse.dev/jetty/download.php
+# EOL status and minJavaVersion can be found on https://eclipse.dev/jetty/download.php
 releases:
 -   releaseCycle: "12"
     releaseDate: 2023-08-07
@@ -51,7 +51,7 @@ releases:
     releaseDate: 2016-12-07
     eol: 2022-06-01
     extendedSupport: true
-    minJavaVersion: 8
+    minJavaVersion: 1.8
     latest: "9.4.53.v20231009"
     latestReleaseDate: 2023-10-10
 
@@ -59,7 +59,7 @@ releases:
     releaseDate: 2015-06-01
     eol: 2022-12-31
     extendedSupport: false
-    minJavaVersion: 8
+    minJavaVersion: 1.8
     latest: "9.3.30.v20211001"
     latestReleaseDate: 2021-10-01
 
@@ -67,7 +67,7 @@ releases:
     releaseDate: 2014-05-23
     eol: 2018-12-31
     extendedSupport: false
-    minJavaVersion: 7
+    minJavaVersion: 1.7
     latest: "9.2.30.v20200428"
     latestReleaseDate: 2020-04-28
 
@@ -75,7 +75,7 @@ releases:
     releaseDate: 2013-11-15
     eol: 2014-12-31
     extendedSupport: false
-    minJavaVersion: 7
+    minJavaVersion: 1.7
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
 
@@ -83,7 +83,7 @@ releases:
     releaseDate: 2013-03-08
     eol: 2013-12-31
     extendedSupport: false
-    minJavaVersion: 7
+    minJavaVersion: 1.7
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
 
@@ -91,7 +91,7 @@ releases:
     releaseDate: 2011-09-01
     eol: 2014-12-31
     extendedSupport: false
-    minJavaVersion: 6
+    minJavaVersion: 1.6
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
@@ -99,7 +99,7 @@ releases:
     releaseDate: 2009-10-05
     eol: 2014-12-31
     extendedSupport: false
-    minJavaVersion: 5
+    minJavaVersion: 1.5
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
 
