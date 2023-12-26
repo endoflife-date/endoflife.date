@@ -116,7 +116,7 @@ releases:
 
 
 ## Versioning and Compatibility
-Amazon Aurora reuses code and maintains compatibility with the underlying MySQL and PostgreSQL DB engines.
+Amazon Aurora reuses code and maintains compatibility with the underlying PostgreSQL DB engines.
 However, Aurora has its own version numbers, release cycle, time line for version deprecation, and so on.
 
 ## How long Amazon Aurora major versions remain available
