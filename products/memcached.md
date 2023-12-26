@@ -37,9 +37,12 @@ releases:
 
 ---
 
-> memcached is a high-performance, distributed memory object caching system, generic in nature, but
-> originally intended for use in speeding up dynamic web applications by alleviating database load.
+> [Memcached](https://www.memcached.org/) is a free and open source, high-performance, distributed
+> memory object caching system, generic in nature, but intended for use in speeding up dynamic web
+> applications by alleviating database load. Memcached is an in-memory key-value store for small
+> chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page
+> rendering.
 
-Memcached does not have a clearly defined release and support policy.
-[Looking at the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes), it
-seems only the latest release is supported.
+Memcached is community-supported, and doesn't have a clearly defined release and support policy.
+[Based on the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes), it
+appears that only the latest release is supported.
