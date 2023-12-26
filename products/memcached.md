@@ -1,7 +1,6 @@
 ---
 title: Memcached
 category: db
-iconSlug: memcached
 permalink: /memcached
 versionCommand: memcached -h
 changelogTemplate: "https://github.com/memcached/memcached/wiki/ReleaseNotes{{'__LATEST__'|replace:'.',''}}"
