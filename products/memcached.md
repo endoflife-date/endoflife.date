@@ -33,6 +33,7 @@ releases:
     latest: '1.5.22'
     link: https://github.com/memcached/memcached/wiki/ReleaseNotes1522
     latestReleaseDate: 2020-02-01
+
 ---
 
 > memcached is a high-performance, distributed memory object caching system,
