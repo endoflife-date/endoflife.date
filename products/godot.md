@@ -5,13 +5,13 @@ iconSlug: godotengine
 permalink: /godot
 alternate_urls:
 -   /godotengine
+versionCommand: godot --version
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
 changelogTemplate: |
   https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
 eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
-versionCommand: godot --version
 
 auto:
 -   git: https://github.com/godotengine/godot.git

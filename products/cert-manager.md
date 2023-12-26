@@ -5,13 +5,13 @@ tags: cncf
 permalink: /cert-manager
 alternate_urls:
 -   /cert-manager
+versionCommand: |-
+  # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
+  cmctl version
 releasePolicyLink: https://cert-manager.io/docs/releases/
 changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
-versionCommand: |-
-  # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
-  cmctl version
 
 auto:
 -   git: https://github.com/cert-manager/cert-manager.git

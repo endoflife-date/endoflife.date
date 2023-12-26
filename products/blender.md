@@ -3,6 +3,7 @@ title: Blender
 category: app
 iconSlug: blender
 permalink: /blender
+versionCommand: blender --version
 releasePolicyLink: https://www.blender.org
 releaseImage: 
   https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
@@ -11,7 +12,6 @@ changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE_
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Critical bug fixes
-versionCommand: blender --version
 
 auto:
   # https://git.blender.org/blender.git does not support partialClone
