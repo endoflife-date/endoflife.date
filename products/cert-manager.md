@@ -10,8 +10,7 @@ changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__
 releaseDateColumn: true
 eolColumn: Support
 versionCommand: |-
-  # cmctl is a command line tool that can help you manage cert-manager and its resources inside your cluster.
-  # Must be installed separately!
+  # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
   cmctl version
 
 auto:
