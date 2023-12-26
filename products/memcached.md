@@ -29,7 +29,6 @@ releases:
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-07-21
-    support: false
     eol: true
     latest: '1.5.22'
     link: https://github.com/memcached/memcached/wiki/ReleaseNotes1522
