@@ -26,14 +26,18 @@ releases:
     eol: false
     latest: '1.6.22'
     latestReleaseDate: 2023-10-09
-    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1622
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-07-21
     eol: 2020-03-09
     latest: '1.5.22'
     latestReleaseDate: 2020-02-01
-    link: https://github.com/memcached/memcached/wiki/ReleaseNotes1522
+
+-   releaseCycle: "1.4"
+    releaseDate: 2009-07-09
+    eol: 2017-07-21
+    latest: '1.4.39'
+    latestReleaseDate: 2017-07-04
 
 ---
 
