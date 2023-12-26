@@ -4,6 +4,7 @@ category: app
 tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
+versionCommand: firefox --version
 releasePolicyLink: https://www.mozilla.org/firefox/
 changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"

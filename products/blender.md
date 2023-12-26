@@ -11,6 +11,7 @@ changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE_
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Critical bug fixes
+versionCommand: blender --version
 
 auto:
   # https://git.blender.org/blender.git does not support partialClone

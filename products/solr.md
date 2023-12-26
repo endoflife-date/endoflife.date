@@ -10,6 +10,7 @@ alternate_urls:
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true
+versionCommand: bin/solr version
 
 auto:
 -   git: https://github.com/apache/lucene-solr.git

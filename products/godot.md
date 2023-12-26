@@ -11,6 +11,7 @@ changelogTemplate: |
 eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
+versionCommand: godot --version
 
 auto:
 -   git: https://github.com/godotengine/godot.git
