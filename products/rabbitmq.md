@@ -13,8 +13,9 @@ extendedSupportColumn: Extended Commercial Support
 
 auto:
 -   git: https://github.com/rabbitmq/rabbitmq-server.git
-    regex: 
-      ^(rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)|v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+))$
+    regex:
+    -  '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
+    -  '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
 
 releases:
 -   releaseCycle: "3.12"
