@@ -19,6 +19,7 @@ identifiers:
 auto:
 -   git: https://github.com/memcached/memcached.git
 
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.6"
     releaseDate: 2020-03-09
