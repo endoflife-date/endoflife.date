@@ -42,5 +42,5 @@ releases:
 > applications by alleviating database load.
 
 Memcached does not have a clearly defined release and support policy.
-Nevertheless, looking at the 1.6 releases, there have been patch release every
-four months and up to one major release have been supported at the same time.
+[Looking at the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes),
+only the latest release is supported.
