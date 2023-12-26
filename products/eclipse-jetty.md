@@ -1,3 +1,4 @@
+---
 title: Eclipse Jetty
 category: server-app
 tags: eclipse web-server
@@ -15,7 +16,7 @@ identifiers:
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
 
 auto:
--   maven: org.eclipse.jetty/jetty-server  
+-   maven: org.eclipse.jetty/jetty-server
 
 # eol status and minJavaVersion can be found on https://eclipse.dev/jetty/download.php
 releases:
@@ -61,7 +62,7 @@ releases:
     minJavaVersion: 8
     latest: "9.3.30.v20211001"
     latestReleaseDate: 2021-10-01
-    
+
 -   releaseCycle: "9.2"
     releaseDate: 2014-05-23
     eol: 2018-12-31
@@ -110,9 +111,8 @@ releases:
 > [Servlets](https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"),
 > and [WebSockets](https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket").
 
-Eclipse Jetty does not have a fixed release and support policy. But a list of all versions, along with their 
-support status, is available [on their website](https://eclipse.dev/jetty/download.php).
+Eclipse Jetty does not have a fixed release and support policy. But a list of all versions, along
+with their support status, is available [on Jetty website](https://eclipse.dev/jetty/download.php).
 
-Commercial extended support by the developers of Jetty is available through [Webtide Lifecycle 
+Commercial extended support by the developers of Jetty is available through [Webtide Lifecycle
 Support](https://webtide.com/).
-
