@@ -20,6 +20,7 @@ auto:
 releases:
 -   releaseCycle: "1"
     releaseDate: 2023-09-08
+    eol: false
     latest: "1.0.20"
     latestReleaseDate: 2023-12-24
 
