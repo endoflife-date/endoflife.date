@@ -100,7 +100,6 @@ releases:
     eol: 2023-04-17
     latest: "10.23"
     latestReleaseDate: 2023-01-24
-    deprecated: true
 
 -   releaseCycle: "9.6"
     releaseDate: 2016-11-11
