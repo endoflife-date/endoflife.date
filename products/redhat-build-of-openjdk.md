@@ -40,6 +40,7 @@ identifiers:
     - purl: pkg:redhat/java-11-openjdk-devel
     - purl: pkg:redhat/java-11-openjdk-devel-debug
 
+# EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:
 -   releaseCycle: "21"
     releaseDate: 2023-10-30
