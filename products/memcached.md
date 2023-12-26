@@ -22,7 +22,6 @@ auto:
 releases:
 -   releaseCycle: "1.6"
     releaseDate: 2020-03-09
-    support: true
     eol: false
     latest: '1.6.22'
     link: https://github.com/memcached/memcached/wiki/ReleaseNotes1622
