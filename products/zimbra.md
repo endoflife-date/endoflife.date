@@ -52,9 +52,6 @@ releases:
 
 > [Zimbra](https://www.zimbra.com/) is an open source collaboration and messaging suite, offering email, calendar, contacts, and task management features.
 
-Since v10, Zimbra has formalized a three-year general support period for major releases and regular patch updates are released bi-monthly.  
-Security patches will be made available when needed outside the regular bi-monthly releases.  
-
 Starting in 2024, two updates paths are available :  
 Stable Path (low impact) – contains only necessary changes, including security and critical bug fixes.  
 Feature Path (medium impact) – contains some changes which may cause different behavior, including new features.  
