@@ -27,7 +27,7 @@ releases:
     latestReleaseDate: 2023-12-18
     support: 2024-12-31
     extendedSupport: 2025-03-31
-    link :"https://https://wiki.zimbra.com/wiki/Zimbra_Releases"
+    link : "https://https://wiki.zimbra.com/wiki/Zimbra_Releases"
 
 -   releaseCycle: "8.8"
     releaseDate: 2017-12-12
