@@ -2,7 +2,7 @@
 title: OPNsense
 category: os
 permalink: /opnsense
-changelogTemplate: "https://docs.opnsense.org/releases/CE___LATEST__.html"
+changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseDateColumn: true
 iconSlug: opnsense
 
@@ -14,7 +14,7 @@ releases:
 
 -   releaseCycle: "23.7"
     releaseDate: 2023-07-31
-    eol: true
+    eol: false
     latest: "23.7.10"
     latestReleaseDate: 2023-12-12
 
