@@ -5,6 +5,7 @@ permalink: /opnsense
 changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseDateColumn: true
 iconSlug: opnsense
+releasePolicyLink: https://opnsense.org/about/road-map/
 
 auto:
 -   git: https://github.com/opnsense/core
@@ -17,108 +18,126 @@ releases:
     eol: false
     latest: "23.7.10"
     latestReleaseDate: 2023-12-12
+    codename: "Restless Roadrunner"
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-01-26
     eol: true
     latest: "23.1.11"
     latestReleaseDate: 2023-06-28
+    codename: "Quintessential Quail"
 
 -   releaseCycle: "22.7"
     releaseDate: 2022-07-28
     eol: true
     latest: "22.7.11"
     latestReleaseDate: 2023-01-18
+    codename: "Powerful Panther"
 
 -   releaseCycle: "22.1"
     releaseDate: 2022-01-27
     eol: true
     latest: "22.1.10"
     latestReleaseDate: 2022-07-07
+    codename: "Observant Owl"
 
 -   releaseCycle: "21.7"
     releaseDate: 2021-07-28
     eol: true
     latest: "21.7.8"
     latestReleaseDate: 2022-01-27
+    codename: "Noble Nightingale"
 
 -   releaseCycle: "21.1"
     releaseDate: 2021-01-28
     eol: true
     latest: "21.1.9"
     latestReleaseDate: 2021-07-27
+    codename: "Marvelous Meerkat"
 
 -   releaseCycle: "20.7"
     releaseDate: 2020-07-30
     eol: true
     latest: "20.7.8"
     latestReleaseDate: 2021-01-19
+    codename: "Legendary Lion"
 
 -   releaseCycle: "20.1"
     releaseDate: 2020-01-30
     eol: true
     latest: "20.1.9"
     latestReleaseDate: 2020-07-23
+    codename: "Keen Kingfisher"
 
 -   releaseCycle: "19.7"
     releaseDate: 2019-07-17
     eol: true
     latest: "19.7.10"
     latestReleaseDate: 2020-01-27
+    codename: "Jazzy Jaguar"
 
 -   releaseCycle: "19.1"
     releaseDate: 2019-01-31
     eol: true
     latest: "19.1.10"
     latestReleaseDate: 2019-07-03
+    codename: "Inspiring Iguana"
 
 -   releaseCycle: "18.7"
     releaseDate: 2018-07-31
     eol: true
     latest: "18.7.10"
     latestReleaseDate: 2019-01-07
+    codename: "Happy Hippo"
 
 -   releaseCycle: "18.1"
     releaseDate: 2018-01-29
     eol: true
     latest: "18.1.13"
     latestReleaseDate: 2018-07-24
+    codename: "Groovy Gecko"
 
 -   releaseCycle: "17.7"
     releaseDate: 2017-07-31
     eol: true
     latest: "17.7.12"
     latestReleaseDate: 2018-01-18
+    codename: "Free Fox"
 
 -   releaseCycle: "17.1"
     releaseDate: 2017-01-31
     eol: true
     latest: "17.1.11"
     latestReleaseDate: 2017-07-25
+    codename: "Eclectic Eagle"
 
 -   releaseCycle: "16.7"
     releaseDate: 2016-07-28
     eol: true
     latest: "16.7.14"
     latestReleaseDate: 2017-01-25
+    codename: "Dancing Dolphin"
 
 -   releaseCycle: "16.1"
     releaseDate: 2016-02-02
     eol: true
     latest: "16.1.20"
     latestReleaseDate: 2016-07-22
+    codename: "Crafty Coyote"
 
 -   releaseCycle: "15.7"
     releaseDate: 2015-07-02
     eol: true
     latest: "15.7.25"
     latestReleaseDate: 2016-01-18
+    codename: "Brave Badger"
 
 -   releaseCycle: "15.1"
     releaseDate: 2015-01-02
     eol: true
     latest: "15.1.12"
     latestReleaseDate: 2015-06-07
+    codename: "Ascending Albatross"
     
 ---
 
