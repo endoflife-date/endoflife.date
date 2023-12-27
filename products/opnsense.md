@@ -4,6 +4,7 @@ category: os
 permalink: /opnsense
 changelogTemplate: "https://docs.opnsense.org/releases/CE___LATEST__.html"
 releaseDateColumn: true
+iconSlug: opnsense
 
 auto:
 -   git: https://github.com/opnsense/core
