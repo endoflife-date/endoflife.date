@@ -6,6 +6,7 @@ changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html
 releaseDateColumn: true
 iconSlug: opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
+releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 auto:
 -   git: https://github.com/opnsense/core
