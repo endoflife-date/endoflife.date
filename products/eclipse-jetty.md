@@ -30,29 +30,29 @@ releases:
     eol: false
     extendedSupport: true
     latest: "12.0.5"
-    latestReleaseDate: 2023-12-20
+    latestReleaseDate: 2023-12-18
 
 -   releaseCycle: "11"
     minJvmVersion: 11
     servletVersion: 5.0
     jspVersion: 3.0
-    releaseDate: 2020-12-07
+    releaseDate: 2020-12-02
     support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     extendedSupport: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
-    latest: "11.0.18"
-    latestReleaseDate: 2023-10-30
+    latest: "11.0.19"
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "10"
     minJvmVersion: 11
     servletVersion: 4.0
     jspVersion: 2.3
-    releaseDate: 2020-12-07
+    releaseDate: 2020-12-02
     support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     extendedSupport: true
-    latest: "10.0.18"
-    latestReleaseDate: 2023-10-30
+    latest: "10.0.19"
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "9.4"
     minJvmVersion: 1.8
