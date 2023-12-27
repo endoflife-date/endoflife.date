@@ -15,19 +15,19 @@ releases:
     releaseDate: 2023-07-31
     eol: true
     latest: "23.7.10"
-    latestReleaseDate: 2023-12-12"
+    latestReleaseDate: 2023-12-12
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-01-26
     eol: true
     latest: "23.1.11"
-    latestReleaseDate: 2023-06-28"
+    latestReleaseDate: 2023-06-28
 
 -   releaseCycle: "22.7"
     releaseDate: 2022-07-28
     eol: true
     latest: "22.7.11"
-    latestReleaseDate: 2023-01-18"
+    latestReleaseDate: 2023-01-18
 
 -   releaseCycle: "22.1"
     releaseDate: 2022-01-27
