@@ -7,7 +7,7 @@ permalink: /oracle-apex
 alternate_urls:
 -   /orclapex
 versionCommand: SELECT VERSION_NO FROM APEX_RELEASE;
-releasePolicyLink: https://apex.oracle.com/sod
+releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 releaseColumn: false
 releaseDateColumn: true
 extendedSupportColumn: false
@@ -17,25 +17,25 @@ releases:
 -   releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2026-11-01
+    eol: 2025-05-01
     link: https://apex.oracle.com/en/platform/features/whats-new-232/
 
 -   releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
     releaseDate: 2023-05-17
-    eol: 2026-05-01
+    eol: 2024-12-01
     link: https://apex.oracle.com/en/platform/features/whats-new-231/
 
 -   releaseCycle: "22.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-222
     releaseDate: 2022-11-10
-    eol: 2025-11-01
+    eol: 2024-12-01
     link: https://apex.oracle.com/en/platform/features/whats-new-222/
 
 -   releaseCycle: "22.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-221
     releaseDate: 2022-05-03
-    eol: 2025-05-01
+    eol: 2024-11-01
     link: https://apex.oracle.com/en/platform/features/whats-new-221/
 
 -   releaseCycle: "21.2"
@@ -53,13 +53,13 @@ releases:
 -   releaseCycle: "20.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-202
     releaseDate: 2020-10-21
-    eol: 2025-10-01
+    eol: 2024-12-01
     link: https://apex.oracle.com/en/platform/features/whats-new-202/
 
 -   releaseCycle: "20.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-201
     releaseDate: 2020-04-23
-    eol: 2025-04-01
+    eol: 2024-12-01
     link: https://apex.oracle.com/en/platform/features/whats-new-201/
 
 -   releaseCycle: "19.2"
@@ -91,17 +91,21 @@ releases:
 ---
 
 > Oracle Application Express (also known as APEX) is an enterprise low-code application 
-> development platform from Oracle Corporation. APEX is used for developing and deploying cloud
->, mobile and desktop applications. The platform is a web - based integrated development
+> development platform from Oracle Corporation. APEX is used for developing and deploying cloud,
+>mobile and desktop applications. The platform is a web - based integrated development
 > environment (IDE) with a range of features including wizards, drag-and-drop layout and property
 > editors to simplify the process of building applications and pages.
 
 According to the [Roadmap](https://apex.oracle.com/sod), there are two major releases per year.
+Currently, Oracle provides support for releases for 1.5 years. Oracle APEX is a no-cost option for the
+Oracle Database, for which the Oracle Database maintenance agreement covers support.
+
 Patches are not delivered as patch releases; instead, Oracle provides
 [Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/) that can be applied
-to the current release.
+to the current release. These are cumulative, so the newest patches can be re-applied to
+the current installation. Patches are announced on APEX's [X](https://twitter.com/OracleAPEX) account.
+The [Known Issues](http://apex.oracle.com/known-issues) page lists bug fixes for the current release.
+Downloading [Patches](https://www.oracle.com/tools/downloads/apex-downloads/) requires a "My Oracle Support" account
+which the database license grants access to.
 
-The version and patch policy can be found from these resources:
-
-- [Release Notes](https://apex.oracle.com/en/learn/documentation/release-notes/)
-- [Lifetime Support Policy: Oracle Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html)
+Support timeframes for versions < 19.1 are available in the [Lifetime Support Policy: Oracle Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html).
