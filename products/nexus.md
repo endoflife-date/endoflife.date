@@ -10,8 +10,8 @@ alternate_urls:
 -   /nexus-repository
 -   /nexus-repository-oss
 releaseDateColumn: true
-activeSupportColumn: Extended Maintenance
-eolColumn: Sunset
+activeSupportColumn: Full Support
+eolColumn: Extended Maintenance
 
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
