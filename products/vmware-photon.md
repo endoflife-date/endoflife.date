@@ -53,6 +53,7 @@ releases:
     eol: 2022-02-28
     link: https://web.archive.org/web/20220628122239/https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/
     kernelVersion: 4.4
+
 ---
 
 > VMWare [Photon OS](https://vmware.github.io/photon/) is an open source Linux container host
