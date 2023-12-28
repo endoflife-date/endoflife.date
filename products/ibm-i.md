@@ -101,7 +101,7 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 1999-05-21
-    eol: 2001-05-30
+    eol: 2001-05-31
     latest: "4.4"
     latestReleaseDate: 1999-05-21
     extendedSupport: 2001-11-30
