@@ -65,10 +65,11 @@ releases:
     eol: true
     latest: "10.34.6"
     latestReleaseDate: 2012-06-18
+    
 ---
 
-> [Chef Client](https://docs.chef.io/chef_client_overview/) is the command-line utility that interprets and executes Chef recipes, managing the   
-> configuration of nodes to achieve desired states. It plays a key role in automating infrastructure deployment and maintaining consistency across systems.
+> [Chef Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration
+> management and application-deployment tool enabling infrastructure as code.
 
 Chef Client generally follows an N-1 support strategy (meanings that the 2 most recent major versions receive security and bug fixes)  
 
@@ -82,6 +83,7 @@ Latest major releases Schedule:
 | Patch        | Will include backwards-compatible bug fixes. | As needed. |
 
 N-1 major releases Schedule:
+
 | Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | Minor & Patch      | Created or done for a particular purpose as necessary, released for critical bugs and security vulnerabilities only | As needed. |
