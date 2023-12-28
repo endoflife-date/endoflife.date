@@ -26,8 +26,8 @@ identifiers:
 # March 2024, and March 2026.
 releases:
 -   releaseCycle: "5.0"
-    eol: false
     releaseDate: 2023-05-02
+    eol: false
     link: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
     kernelVersion: 6.1
 
