@@ -48,6 +48,7 @@ releases:
     eol: 2022-12-01
     link: https://web.archive.org/web/20221224152228/https://blogs.vmware.com/cloudnative/2017/11/01/version-2-0-project-photon-os/
     kernelVersion: 4.9
+
 -   releaseCycle: "1.0"
     releaseDate: 2016-06-11
     eol: 2022-02-28
