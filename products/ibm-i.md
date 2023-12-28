@@ -177,15 +177,15 @@ releases:
 
 > [IBM i](https://www.ibm.com/products/ibm-i) is a fully integrated operating system, meaning the database, middleware, security, runtime and hypervisor are integrated into the stack and licensed as one solution.
 
-_Note 1_: End of program support date will be announced with at least 12 months notice prior to the effective termination date.
+End of program support date will be announced with at least 12 months notice prior to the effective termination date.
 
-_Note 2_: For 6.1, includes both Machine Code Level V6R1M0 and V6R1M1.
+IBM i 7.3 Service Extension Offering starts on October 1, 2023. For details regarding support coverage for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 
-_Note 3_: IBM i 7.1 extended Service Extension started on May 1, 2021. The duration of IBM i 7.1 extended Service Extension is dependent on the Power hardware generation. The extended Service Extension coverage is usage and known defect support, and there some exceptions of products and functions which are not supported. For notes regarding extended Service Extension duration and support coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+IBM i 7.2 Service Extension Offering started on May 1, 2021. For details regarding support coverage for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 
-_Note 4_: IBM i 7.2 Service Extension Offering started on May 1, 2021. For details regarding support coverage for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+IBM i 7.1 extended Service Extension started on May 1, 2021. The duration of IBM i 7.1 extended Service Extension is dependent on the Power hardware generation. The extended Service Extension coverage is usage and known defect support, and there some exceptions of products and functions which are not supported. For notes regarding extended Service Extension duration and support coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 
-_Note 5_: IBM i 7.3 Service Extension Offering starts on October 1, 2023. For details regarding support coverage for the various products in the IBM i portfolio, see Service Extension for IBM i 7.3, 7.2 and 7.1.
+For 6.1, includes both Machine Code Level V6R1M0 and V6R1M1.
 
 Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
 on [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support)
