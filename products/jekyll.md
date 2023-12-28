@@ -19,8 +19,8 @@ releases:
     releaseDate: 2019-08-20
     support: true
     eol: false
-    latest: "4.3.2"
-    latestReleaseDate: 2023-01-20
+    latest: "4.3.3"
+    latestReleaseDate: 2023-12-27
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
