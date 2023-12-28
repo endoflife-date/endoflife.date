@@ -53,7 +53,7 @@ releases:
     releaseDate: 2016-06-11
     eol: 2022-02-28
     link: https://web.archive.org/web/20220628122239/https://blogs.vmware.com/cloudnative/2016/06/16/vmwares-photon-os-1-0-now-available/
-    kernelVersion: 4.4
+    kernelVersion: 4.4 # https://github.com/vmware/photon/blob/1.0GA/SPECS/linux/linux.spec
 
 ---
 
