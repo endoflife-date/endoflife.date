@@ -39,7 +39,7 @@ GEM
     icalendar (2.10.1)
       ice_cube (~> 0.16)
     ice_cube (0.16.4)
-    jekyll (4.3.2)
+    jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -133,7 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   icalendar (~> 2.10)
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3.3)
   jekyll-feed (~> 0.17)
   jekyll-last-modified-at
   jekyll-seo-tag
