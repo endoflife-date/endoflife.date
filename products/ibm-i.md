@@ -155,6 +155,24 @@ releases:
     latest: "3.0.5"
     latestReleaseDate: 1994-06-03
 
+-   releaseCycle: "2.3"
+    releaseDate: 1993-12-17
+    eol: 1996-05-31
+    latest: "2.3"
+    latestReleaseDate: 1993-12-17
+    
+-   releaseCycle: "2.2"
+    releaseDate: 1992-09-18
+    eol: 1995-03-31
+    latest: "2.2"
+    latestReleaseDate: 1992-09-18
+
+-   releaseCycle: "2.1"
+    releaseDate: 1991-05-24
+    eol: 1994-06-30
+    latest: "2.1.1"
+    latestReleaseDate: 1992-03-06
+    
 ---
 
 > [IBM i](https://www.ibm.com/products/ibm-i) is a fully integrated operating system, meaning the database, middleware, security, runtime and hypervisor are integrated into the stack and licensed as one solution.
