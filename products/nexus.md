@@ -282,13 +282,11 @@ releases:
 
 ## [Versioning Scheme](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status)
 
-Sonatype Nexus Repository releases are considered generally available and fully supported for a term of **1 year after the version's release date**.
+- Sonatype Nexus Repository releases are considered generally available and fully supported for a term of **1 year after the version's release date**.
+- At that point, Sonatype provides extended maintenance for each Sonatype Nexus Repository version for an additional **6 months** before that version is considered sunset [eol].
+- For versions requiring patch releases, the full version line (e.g., 3.53.0 - 3.53.1, 3.47.0 - 3.47.1) will use the dates of the initial major release (e.g., 3.53.0 or 3.47.0) to determine when the versions will move through the PDLC process.
 
-At that point, Sonatype provides extended maintenance for each Sonatype Nexus Repository version for an additional **6 months** before that version is considered sunset.
-
-For versions requiring patch releases, the full version line (e.g., 3.53.0 - 3.53.1, 3.47.0 - 3.47.1) will use the dates of the initial major release (e.g., 3.53.0 or 3.47.0) to determine when the versions will move through the PDLC process.
-
-More information on [Sonatype Sunsetting Information](https://help.sonatype.com/docs/sonatype-sunsetting-information)
+Get more information on [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information).
 
 Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
