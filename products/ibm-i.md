@@ -73,6 +73,7 @@ releases:
     latest: "5.4"
     latestReleaseDate: 2006-02-14
     extendedSupport: 2017-09-30
+    
 -   releaseCycle: "5.3"
     releaseDate: 2004-06-11
     eol: 2009-04-30
