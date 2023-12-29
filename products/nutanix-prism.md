@@ -17,36 +17,42 @@ releaseDateColumn: true
 auto:
 -   custom: true
 
-# Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
+# Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
+-   releaseCycle: "pc.2023.4"
+    releaseDate: 2023-08-28
+    support: true
+    eol: false
+    latest: "pc.2023.4"
+
 -   releaseCycle: "pc.2023.3"
     releaseDate: 2023-08-28
     support: true
     eol: false
     latest: "pc.2023.3.0.1"
-
     latestReleaseDate: 2023-11-28
+
 -   releaseCycle: "pc.2023.1"
     releaseDate: 2023-03-15
     support: 2023-10-31
     eol: 2024-01-31
     latest: "pc.2023.1.0.2"
-
     latestReleaseDate: 2023-07-17
+
 -   releaseCycle: "pc.2022.9"
     releaseDate: 2023-01-23
     support: 2023-06-30
     eol: 2023-09-30
     latest: "pc.2022.9"
-
     latestReleaseDate: 2023-01-23
+
 -   releaseCycle: "pc.2022.6"
     releaseDate: 2022-08-03
     support: 2024-01-31
     eol: 2024-07-31
     latest: "pc.2022.6.0.9"
-
     latestReleaseDate: 2023-10-31
+
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16
     support: 2022-10-31
