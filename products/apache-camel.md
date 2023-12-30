@@ -27,12 +27,12 @@ auto:
 releases:
 -   releaseCycle: "3.22"
     lts: true
-    releaseDate: 2023-12-26
+    releaseDate: &id001 2023-12-19
+
     eol: 2024-12-26
     supportedJavaVersions: 11, 17
     latest: "3.22.0"
-    latestReleaseDate: 2023-12-26
-
+    latestReleaseDate: *id001
 -   releaseCycle: "4.3"
     releaseDate: 2023-12-11
     eol: false
