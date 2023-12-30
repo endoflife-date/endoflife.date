@@ -25,6 +25,7 @@ releases:
     eol: false
     latest: "pc.2023.4"
 
+    latestReleaseDate: 2023-12-20
 -   releaseCycle: "pc.2023.3"
     releaseDate: 2023-08-28
     support: true
