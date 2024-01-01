@@ -37,6 +37,15 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_S
     supportedAndroidVersions: 2.3 - 4.1 # https://www.gsmarena.com/samsung_google_nexus_s-3620.php
 
+-   releaseCycle: "Q"
+    releaseLabel: "Nexus Q"
+    releaseDate: 2012-06-27
+    support: 2013-07-31
+    eol: 2013-07-31
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_Q
+    supportedAndroidVersions: 4.0 # https://en.wikipedia.org/wiki/Nexus_Q#Hardware_and_software
+
 -   releaseCycle: "4"
     releaseLabel: "Nexus 4"
     releaseDate: 2012-11-13
@@ -55,7 +64,6 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_10
     supportedAndroidVersions: 4.2 - 5.1 # https://www.gsmarena.com/samsung_google_nexus_10_p8110-5084.php
 
-
 -   releaseCycle: "7"
     releaseLabel: "Nexus 7"
     releaseDate: 2013-07-26
@@ -64,15 +72,6 @@ releases:
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_7_(2013)
     supportedAndroidVersions: 4.3 - 5.1 # https://www.gsmarena.com/asus_google_nexus_7_(2013)-5600.php
-
--   releaseCycle: "Q"
-    releaseLabel: "Nexus Q"
-    releaseDate: 2012-06-27
-    support: 2013-07-31
-    eol: 2013-07-31
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_Q
-    supportedAndroidVersions: 4.0 # https://en.wikipedia.org/wiki/Nexus_Q#Hardware_and_software
 
 -   releaseCycle: "6"
     releaseLabel: "Nexus 6"
