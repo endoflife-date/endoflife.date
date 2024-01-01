@@ -21,8 +21,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1"
-    latestReleaseDate: 2023-11-11
+    latest: "6.1.1"
+    latestReleaseDate: 2023-12-31
 
 -   releaseCycle: "6.0"
     codename: Von Neumann
@@ -241,6 +241,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 ---
 
