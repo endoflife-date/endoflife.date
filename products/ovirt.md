@@ -1,8 +1,8 @@
 ---
 title: oVirt
-category: os
+category: server-app
 permalink: /ovirt
-changelogTemplate: "https://www.ovirt.org/release/__LATEST__"
+changelogTemplate: "https://www.ovirt.org/release/__LATEST__/"
 releaseDateColumn: true
 
 auto:
