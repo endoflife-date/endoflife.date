@@ -1,7 +1,7 @@
 ---
 title: Red Hat build of OpenJDK
 category: lang
-tags: java-distribution redhat
+tags: java-distribution red-hat
 iconSlug: openjdk
 permalink: /redhat-build-of-openjdk
 alternate_urls:

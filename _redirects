@@ -46,3 +46,4 @@ layout: null
 /tags/managed-mysql                /tags/db
 /tags/managed-postgresql           /tags/db
 /tags/package-manager              /tags/build-tool
+/tags/redhat                       /tags/red-hat
