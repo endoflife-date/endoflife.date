@@ -1,6 +1,6 @@
 ---
 title: Neo4j
-category: db
+category: database
 tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j

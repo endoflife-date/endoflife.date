@@ -1,6 +1,6 @@
 ---
 title: MariaDB
-category: db
+category: database
 iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version

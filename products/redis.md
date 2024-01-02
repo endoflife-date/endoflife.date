@@ -1,11 +1,11 @@
 ---
 title: Redis
-category: db
+category: database
 iconSlug: redis
 permalink: /redis
 versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
-changelogTemplate: 
+changelogTemplate:
   https://raw.githubusercontent.com/antirez/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: true
 releaseDateColumn: true

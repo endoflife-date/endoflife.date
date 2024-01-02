@@ -1,6 +1,6 @@
 ---
 title: Apache HBase
-category: server-app
+category: database
 tags: apache java-runtime
 permalink: /hbase
 alternate_urls:

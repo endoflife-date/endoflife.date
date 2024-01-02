@@ -1,6 +1,6 @@
 ---
 title: Apache Hadoop
-category: server-app # not sure if this is the best category
+category: database
 tags: apache java-runtime
 iconSlug: apachehadoop
 permalink: /apache-hadoop
