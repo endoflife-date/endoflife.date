@@ -23,6 +23,36 @@ releases:
     latest: "1.5.1"
     latestReleaseDate: 2023-12-13
 
+-   releaseCycle: "1.4"
+    releaseDate: 2023-09-25
+    eol: true
+    latest: "1.4.2"
+    latestReleaseDate: 2023-10-19
+
+-   releaseCycle: "1.3"
+    releaseDate: 2023-07-31
+    eol: true
+    latest: "1.3.5"
+    latestReleaseDate: 2023-09-20
+
+-   releaseCycle: "1.2"
+    releaseDate: 2023-06-05
+    eol: true
+    latest: "1.2.1"
+    latestReleaseDate: 2023-09-13
+
+-   releaseCycle: "1.1"
+    releaseDate: 2023-04-03
+    eol: true
+    latest: "1.1.1"
+    latestReleaseDate: 2023-04-18
+
+-   releaseCycle: "1.0"
+    releaseDate: 2023-02-06
+    eol: true
+    latest: "1.0.2"
+    latestReleaseDate: 2023-02-23
+
 ---
 
 > [Meilisearch](https://www.meilisearch.com/) is a RESTful search API. It aims to be a ready-to-go solution for everyone who wants a fast and relevant search experience for their end-users.
