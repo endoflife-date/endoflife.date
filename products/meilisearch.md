@@ -28,6 +28,8 @@ releases:
 
 Meilisearch releases and their associated binaries are available [in this GitHub page](https://github.com/meilisearch/meilisearch/releases).
 
-The binaries are versioned following [SemVer conventions](https://semver.org/). To know more, read our [versioning policy](https://github.com/meilisearch/engine-team/blob/main/resources/versioning-policy.md).
+Meilisearch [follows semver](https://github.com/meilisearch/engine-team/blob/main/resources/versioning-policy.md).
+Minor versions release cadence is between four and six times a year.
+Only the the latest engine release is maintained with high-priority bug and security fixes.
 
 Differently from the binaries, crates in this repository are not currently available on [crates.io](https://crates.io/) and do not follow [SemVer conventions](https://semver.org).
