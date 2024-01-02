@@ -7,7 +7,7 @@ alternate_urls:
 -   /nixlang
 versionCommand: nix --version
 releasePolicyLink: https://nixos.org/blog/announcements.html
-changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__.html
+changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__
 releaseDateColumn: true
 
 auto:
@@ -139,8 +139,7 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2012-05-11
     eol: 2018-02-22
-    # https://nixos.org/manual/nix/stable/release-notes/rl-1.html return a 404
-    link:
+    link: https://nixos.org/manual/nix/stable/release-notes/rl-1.11
     latest: "1.11.16"
     latestReleaseDate: 2017-12-20
 
