@@ -15,6 +15,7 @@ identifiers:
 auto:
 -   git: https://github.com/meilisearch/meilisearch.git
 
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.5"
     releaseDate: 2023-11-20
