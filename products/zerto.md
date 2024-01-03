@@ -90,9 +90,7 @@ releases:
 
 ---
 
-> [Zerto](https://www.zerto.com/zerto-platform/overview/) is a commercial disaster recovery
-> and data protection across on-premises, hybrid, and multi-cloud environments. It provides
-> backup, restore and replication functionality for virtualized or cloud-based workloads.
+> [Zerto](https://www.zerto.com/zerto-platform/overview/) is a commercial product that provides disaster recovery, ransomware resilience and workload mobility software for virtualized infrastructures and cloud environments.
 
 Support for Zerto always require an active maintenance contract and is divided into two phases.
 
