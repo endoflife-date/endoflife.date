@@ -96,9 +96,6 @@ releases:
 
 Support for Zerto always require an active maintenance contract and is divided into two phases.
 
-As each new Zerto version is released, older versions approach their
-End of Bug Fixes and End of Support Life:
-
 End of Bug Fixes: commercially reasonable efforts for a solution will be taken,
 but new bugs will not be resolved, unless they are critical.
 
