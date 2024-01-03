@@ -21,4 +21,4 @@ releases:
 
 > [ArangoDB](https://arangodb.com/) is a graph database system developed by ArangoDB Inc. ArangoDB is a multi-model database system since it supports three data models (graphs, JSON documents, key/value) with one database core and a unified query language AQL (ArangoDB Query Language).
 
-Major releases are supported for 18 months and minor releases for 12 months following release, per the [EOL policy](https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy).
+Major releases are supported for at least 18 months. Minor releases for 12 months from their general availability.
