@@ -9,6 +9,7 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support Life (EOSL)
 
+releases:
 -   releaseCycle: "10.0 Update 2"
     releaseDate: 2023-11-28
     support: true # Next GA date
