@@ -2,7 +2,6 @@
 title: Zerto
 category: app
 tags: zerto
-iconSlug: # N/A currently
 permalink: /zerto
 releasePolicyLink: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
 activeSupportColumn: End of Bug Fixes
