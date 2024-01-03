@@ -62,3 +62,7 @@ Minor versions release cadence is between four and six times a year.
 Only the the latest engine release is maintained with high-priority bug and security fixes.
 
 Differently from the binaries, crates in this repository are not currently available on [crates.io](https://crates.io/) and do not follow [SemVer conventions](https://semver.org).
+
+Meilisearch version numbers have no relationship to SDK version numbers. SDKs follow their own release schedules and must address issues beyond compatibility with Meilisearch.
+
+There is a guide for the [Meilisearch Cloud](https://www.meilisearch.com/docs/learn/update_and_migration/updating#updating-on-meilisearch-cloud) update
