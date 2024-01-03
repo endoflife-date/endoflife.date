@@ -22,7 +22,7 @@ auto:
       regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
       template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
 
-# From <https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status>
+# From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status
 # Here is the mapping used
 # - Beginning of Extended Maintenance -> support
 # - Sunset -> eol
@@ -266,13 +266,28 @@ releases:
     latest: "3.29.2"
     latestReleaseDate: 2021-01-06
 
--   releaseCycle: "2"
-    # closest date I found is for 2.0.6 on https://help.sonatype.com/repomanager2/download/download-archives---repository-manager-2#DownloadArchivesRepositoryManager2-NexusProfessional2.0.6
-    releaseDate: 2017-03-31
+# From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-2-versions-status
+
+-   releaseCycle: "2.15"
+    releaseDate: 2022-03-17
+    support: true
     eol: false
-    latest: "2.15.1-02"
+    latest: "2.15.1"
     latestReleaseDate: 2022-03-23
-    link: https://help.sonatype.com/repomanager2/release-notes
+
+-   releaseCycle: "2.14"
+    releaseDate: 2016-09-20
+    support: true
+    eol: false
+    latest: "2.14.21"
+    latestReleaseDate: 2021-12-20
+
+-   releaseCycle: "2.13"
+    releaseDate: 2016-04-18
+    support: false
+    eol: 2017-10-17
+    latest: "2.13.0"
+    latestReleaseDate: 2016-04-18
 
 ---
 
@@ -280,13 +295,13 @@ releases:
 > source repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
 
-## [Versioning Scheme](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status)
+Versioning Scheme
 
 - Sonatype Nexus Repository releases are considered generally available and fully supported for a term of **1 year after the version's release date**.
 - At that point, Sonatype provides extended maintenance for each Sonatype Nexus Repository version for an additional **6 months** before that version is considered sunset [eol].
 - For versions requiring patch releases, the full version line (e.g., 3.53.0 - 3.53.1, 3.47.0 - 3.47.1) will use the dates of the initial major release (e.g., 3.53.0 or 3.47.0) to determine when the versions will move through the PDLC process.
 
-Get more information on [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information).
+[Source](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status), more information on [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information).
 
 Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
