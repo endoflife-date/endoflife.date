@@ -55,7 +55,7 @@ releases:
 
 ---
 
-> [Meilisearch](https://www.meilisearch.com/) is a RESTful search API. It aims to be a ready-to-go solution for everyone who wants a fast and relevant search experience for their end-users.
+> [Meilisearch](https://www.meilisearch.com/) is a scalable search engine that enables developers to integrate search capabilities into their websites and applications via RESTful API.
 
 Meilisearch [follows semver](https://github.com/meilisearch/engine-team/blob/main/resources/versioning-policy.md).
 Minor versions release cadence is between four and six times a year.
