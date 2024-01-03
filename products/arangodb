@@ -4,7 +4,6 @@ category: db
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
-releaseLabel: "ArangoDB __RELEASE_CYCLE__"
 eolWarnThreshold: 121
 releases:
 -   releaseCycle: "3.10"
