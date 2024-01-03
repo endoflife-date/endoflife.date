@@ -63,7 +63,6 @@ releases:
     releaseDate: 2019-04-26
     support: 2020-05-30
     eol: 2021-05-30
-    link: "https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html"
 
 -   releaseCycle: "6.5"
     releaseDate: 2018-09-16
