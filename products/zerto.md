@@ -4,7 +4,7 @@ category: app
 tags: zerto
 permalink: /zerto
 releasePolicyLink: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
-activeSupportColumn: End of Bug Fixes
+activeSupportColumn: General Support
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support Life (EOSL)
