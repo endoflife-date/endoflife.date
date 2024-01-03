@@ -65,11 +65,11 @@ Zimbra generally follows an N-1 support strategy
 
 ## Release Schedule
 
-| Version Type      | Description                                                                        | Cadence        |
-|:------------------:------------------------------------------------------------------------------------|:---------------|
-| Major Release     | For significant changes, will include breaking or backwards-incompatible changes.  | Every 3 years  |
-| Minor patches     | Will include new features & bug fixes.                                             | Bi-monthly     |
-| Security patches  | Addressing and fixing security vulnerabilities.                                    | As needed.     |
+| Version Type | Description                                                                        | Cadence        |
+|:------------------:-------------------------------------------------------------------------------|:---------------|
+| Major        | For significant changes, will include breaking or backwards-incompatible changes.  | Every 3 years  |
+| Minor        | Will include new features & bug fixes.                                             | Bi-monthly     |
+| Security     | Addressing and fixing security vulnerabilities.                                    | As needed.     |
 
 ## Technical Guidance
 
