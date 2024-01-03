@@ -16,7 +16,8 @@ releases:
     eol: 2024-11-28
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U2/page/what_s_new_in_zerto_10_0_update_2.html"
 
--   releaseCycle: "10.0 Update 1"
+-   releaseCycle: "10.0_u1"
+    releaseLabel "10.0 Update 1"
     releaseDate: 2023-08-07
     support: 2023-11-28
     eol: 2024-08-07
