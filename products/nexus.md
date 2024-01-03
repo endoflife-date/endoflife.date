@@ -292,9 +292,10 @@ releases:
 
 ---
 
-> [Nexus Repository OSS](https://help.sonatype.com/repomanager3/product-information/download) is an open
-> source repository manager developed by Sonatype that supports many artifact formats, including
+> [Nexus Repository](https://help.sonatype.com/repomanager3) is a
+> repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
+> It comes in OSS (open source) and Pro (commercial) versions.
 
 Lifecycle
 
