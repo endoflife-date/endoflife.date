@@ -146,8 +146,8 @@ releases:
     releaseDate: 2021-10-19
     eol: 2023-12-31
     lts: true
-    latest: "8.20.29"
-    latestReleaseDate: 2023-12-07
+    latest: "8.20.30"
+    latestReleaseDate: 2024-01-02
     link: 
       https://confluence.atlassian.com/jirasoftware/jira-software-8-20-x-release-notes-1086411771.html
 
