@@ -1,5 +1,5 @@
 ---
-title: Nexus Repository OSS
+title: Nexus Repository
 category: server-app
 tags: java-runtime
 # using company icon
@@ -9,6 +9,7 @@ permalink: /nexus
 alternate_urls:
 -   /nexus-repository
 -   /nexus-repository-oss
+-   /nexus-repository-pro
 releaseDateColumn: true
 activeSupportColumn: Full Support
 eolColumn: Extended Maintenance
@@ -295,13 +296,15 @@ releases:
 > source repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
 
-Versioning Scheme
+Lifecycle
 
 - Sonatype Nexus Repository releases are considered generally available and fully supported for a term of **1 year after the version's release date**.
 - At that point, Sonatype provides extended maintenance for each Sonatype Nexus Repository version for an additional **6 months** before that version is considered sunset [eol].
 - For versions requiring patch releases, the full version line (e.g., 3.53.0 - 3.53.1, 3.47.0 - 3.47.1) will use the dates of the initial major release (e.g., 3.53.0 or 3.47.0) to determine when the versions will move through the PDLC process.
 
-[Source](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status), more information on [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information).
+More information
 
-Sonatype provides [commercial support](https://sonatype.com/usage/software-support-policy) with
-additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
+- [Sonatype Version Status](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status)
+- [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information)
+- [Sonatype Software Support Policy](https://sonatype.com/usage/software-support-policy)
+- [Sonatype OSS vs Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features)
