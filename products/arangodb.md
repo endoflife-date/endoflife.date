@@ -7,27 +7,18 @@ changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__REL
 eolWarnThreshold: 121
 
 releases:
--   releaseCycle: "3.10"
-    latest: "3.10.11"
-    releaseDate: 2022-10-04
-    eol: 2024-04-15
 -   releaseCycle: "3.11"
-    latest: "3.11.6"
     releaseDate: 2023-05-30
     eol: 2024-11-30
--   releaseCycle: "3.12"
-    latest: "unreleased"
-    releaseDate: false
-    eol: false
+    latest: "3.11.6"
+    
+-   releaseCycle: "3.10"
+    releaseDate: 2022-10-04
+    eol: 2024-04-15
+    latest: "3.10.11"
 
 ---
 
 > [ArangoDB](https://arangodb.com/) is a graph database system developed by ArangoDB Inc. ArangoDB is a multi-model database system since it supports three data models (graphs, JSON documents, key/value) with one database core and a unified query language AQL (ArangoDB Query Language).
 
 Major releases are supported for 18 months and minor releases for 12 months following release, per the [EOL policy](https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy).
-
-Additional information on releases can be found at:
-
-- [Roadmap](https://arangodb.com/roadmap/)
-- [Stable Release notes](https://docs.arangodb.com/stable/release-notes/) 
-- [Development Release notes](https://docs.arangodb.com/devel/release-notes/) for unreleased versions
