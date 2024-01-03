@@ -96,16 +96,15 @@ releases:
 > environment (IDE) with a range of features including wizards, drag-and-drop layout and property
 > editors to simplify the process of building applications and pages.
 
-According to the [Roadmap](https://apex.oracle.com/sod), there are two major releases per year.
-Currently, Oracle provides support for releases for 1.5 years. Oracle APEX is a no-cost option for the
-Oracle Database, for which the Oracle Database maintenance agreement covers support.
-
-Patches are not delivered as patch releases; instead, Oracle provides
-[Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/) that can be applied
-to the current release. These are cumulative, so the newest patches can be re-applied to
-the current installation. Patches are announced on APEX's [X](https://twitter.com/OracleAPEX) account.
-The [Known Issues](http://apex.oracle.com/known-issues) page lists bug fixes for the current release.
-Downloading [Patches](https://www.oracle.com/tools/downloads/apex-downloads/) requires a "My Oracle Support" account
-which the database license grants access to.
+Oracle APEX is a no-cost option for Oracle Database and has two major releases each year covered under
+the Oracle Database maintenance agreement. Each release receives 1.5 years of support. Instead
+of individual patch releases, Oracle provides cumulative 
+[Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/), which require a "My
+Oracle Support" account for download. The latest patches can be re-applied to the current
+installation, and announcements for new patches are made on 
+[APEX's X account](https://twitter.com/OracleAPEX). For details on bug fixes for the current
+release, visit the [Known Issues](http://apex.oracle.com/known-issues) page.
 
 Support timeframes for versions < 19.1 are available in the [Lifetime Support Policy: Oracle Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html).
+The [Roadmap](https://apex.oracle.com/sod) reveals planned features and explains release plans and
+naming convention.
