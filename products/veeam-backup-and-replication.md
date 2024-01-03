@@ -15,6 +15,13 @@ eolColumn: End of support
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
 releases:
+
+-   releaseCycle: "12.1"
+    releaseDate: 2023-12-05
+    support: true # will be 13.0 GA date
+    eol: 2026-02-01
+    link: "https://www.veeam.com/kb4510"
+
 -   releaseCycle: "12"
     releaseDate: 2023-02-14
     support: true # will be 13.0 GA date
