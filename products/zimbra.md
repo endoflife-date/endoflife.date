@@ -5,7 +5,7 @@ category: server-app
 changelogTemplate: "https://wiki.zimbra.com/wiki/Zimbra_Releases/__LATEST__/"
 releaseDateColumn: true
 extendedSupportColumn: Extended Support
-versionCommand: zmcontrol -v #As zimbra user
+versionCommand: zmcontrol -v
 releasePolicyLink: "https://www.zimbra.com/product/product-lifecycle/"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
@@ -65,13 +65,15 @@ Zimbra generally follows an N-1 support strategy
 
 ## Release Schedule
 
-| Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
-|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| Major Release      | For significant changes, will include breaking or backwards-incompatible changes.| Every 3 years |
-| Minor patches      | Will include new features & bug fixes. | Bi-monthly |
-| Security patches | Addressing and fixing security vulnerabilities. | As needed. |
+| Version Type      | Description                                                                        | Cadence        |
+|:------------------:------------------------------------------------------------------------------------|:---------------|
+| Major Release     | For significant changes, will include breaking or backwards-incompatible changes.  | Every 3 years  |
+| Minor patches     | Will include new features & bug fixes.                                             | Bi-monthly     |
+| Security patches  | Addressing and fixing security vulnerabilities.                                    | As needed.     |
 
 ## Technical Guidance
+
+There will be no new releases, bug fixes or security patches for products within Technical Guidance.
 
 {% include table.html
 labels="Release,Technical Guidance Ends"
