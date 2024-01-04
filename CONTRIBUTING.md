@@ -45,7 +45,7 @@ title: Timeturner
 # Possible values are os,database,app,lang,framework,device,service,server-app.
 # If you add a new value, please mention it in the PR Description. Some rough guidelines:
 # - os is for operating systems (and similar projects),
-# - database is for all kind of databases,
+# - database is for all kinds of database,
 # - app is for end-user applications,
 # - lang is for programming languages,
 # - framework is for application libraries, SDKs, frameworks...,
