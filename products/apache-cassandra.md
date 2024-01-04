@@ -1,6 +1,6 @@
 ---
 title: Apache Cassandra
-category: db
+category: database
 tags: apache java-runtime
 iconSlug: apachecassandra
 permalink: /apache-cassandra

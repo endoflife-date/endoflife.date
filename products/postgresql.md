@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL
-category: db
+category: database
 iconSlug: postgresql
 permalink: /postgresql
 alternate_urls:

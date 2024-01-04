@@ -1,6 +1,6 @@
 ---
 title: MongoDB Server
-category: db
+category: database
 iconSlug: mongodb
 permalink: /mongodb
 alternate_urls:

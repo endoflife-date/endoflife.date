@@ -1,6 +1,6 @@
 ---
 title: SQLite
-category: db
+category: database
 iconSlug: sqlite
 permalink: /sqlite
 alternate_urls:

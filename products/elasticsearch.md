@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch
-category: db
+category: database
 tags: elastic java-runtime
 iconSlug: elasticsearch
 permalink: /elasticsearch

@@ -1,6 +1,6 @@
 ---
 title: Oracle Database
-category: db
+category: database
 tags: oracle
 iconSlug: oracle
 permalink: /oracle-database

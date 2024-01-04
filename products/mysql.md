@@ -1,6 +1,6 @@
 ---
 title: MySQL
-category: db
+category: database
 tags: oracle
 iconSlug: mysql
 permalink: /mysql

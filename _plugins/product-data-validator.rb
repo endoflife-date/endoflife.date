@@ -14,7 +14,7 @@ require 'open-uri'
 module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
-  VALID_CATEGORIES = %w[app db device framework lang library os server-app service standard]
+  VALID_CATEGORIES = %w[app database device framework lang library os server-app service standard]
   VALID_CUSTOM_COLUMN_POSITIONS = %w[after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
