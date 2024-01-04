@@ -158,7 +158,7 @@ The only officially supported and actively maintained version of OPNsense is the
 
 ## [Release Schedule](https://docs.opnsense.org/manual/updates.html)
 
-| Version Type         | Description                                                                        | Cadence        |
-|:---------------------|:-----------------------------------------------------------------------------------|:---------------|
-| Major                | For significant changes, will include breaking or backwards-incompatible changes.  | Every 6 months |
-| Minor                | Will include new features, bug fixes and security patches.                         | Every 15 days  |
+| Version Type         | Description                                                                                           | Cadence        |
+|:---------------------|:------------------------------------------------------------------------------------------------------|:---------------|
+| Major                | For significant changes, will include breaking or backwards-incompatible changes.                     | Every 6 months |
+| Minor                | Will include new features, bug fixes and security patches.                                            | Every 15 days  |
