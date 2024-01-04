@@ -11,7 +11,11 @@ activeSupportColumn: true
 
 auto:
 -   git: https://github.com/chef/chef/
+    # https://regex101.com/r/LmqrVp/1
+    regex: ^v(?<major>\d+)\.?(?<minor>\d{1,3})\.?(?<patch>\d+)\.?(?<tiny>\d+)?$
 
+# eol(x) = releaseDate(x+1)
+# support(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "18"
     releaseDate: 2022-01-10
@@ -31,49 +35,49 @@ releases:
     releaseDate: 2020-01-21
     support: 2020-12-19
     eol: 2022-11-30
-    latest: "16.18.41"
+    latest: "v16.18.41"
     latestReleaseDate: 2023-04-20
 
 -   releaseCycle: "15"
     releaseDate: 2018-10-26
     support: 2020-01-21
     eol: 2020-12-19
-    latest: "15.17.5"
+    latest: "v15.17.5"
     latestReleaseDate: 2021-04-19
 
 -   releaseCycle: "14"
     releaseDate: 2018-01-22
     support: 2018-10-26
     eol: 2020-01-21
-    latest: "14.15.7"
+    latest: "v14.15.7"
     latestReleaseDate: 2022-09-07
 
 -   releaseCycle: "13"
     releaseDate: 2017-03-01
     support: 2018-01-22
     eol: 2018-10-26
-    latest: "13.12.14"
+    latest: "v13.12.14"
     latestReleaseDate: 2019-03-07
 
 -   releaseCycle: "12"
     releaseDate: 2014-12-03
     support: 2017-03-01
     eol: 2018-01-22
-    latest: "12.22.6"
+    latest: "v12.22.6"
     latestReleaseDate: 2018-11-02
 
 -   releaseCycle: "11"
     releaseDate: 2013-02-01
     support: 2014-12-03
     eol: 2017-03-01
-    latest: "11.18.14"
+    latest: "v11.18.14"
     latestReleaseDate: 2015-07-09
 
 -   releaseCycle: "10"
     releaseDate: 2012-06-18
     support: 2013-02-01
     eol: 2014-12-03
-    latest: "10.34.6"
+    latest: "v10.34.6"
     latestReleaseDate: 2014-11-10
     
 ---
@@ -84,7 +88,7 @@ releases:
 Chef Client generally follows an N-1 support strategy  
 (meanings that the 2 most recent major versions receive security and bug fixes)  
 
-## Release Schedule
+## [Release Schedule](https://github.com/chef/chef/blob/main/docs/dev/policy/release_and_support_schedule.md)
 Latest major releases Schedule:
 
 | Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
