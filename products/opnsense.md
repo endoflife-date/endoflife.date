@@ -17,6 +17,13 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
 
+# -   releaseCycle: "24.1"
+#    releaseDate: 2024-01-XX
+#    eol: false
+#    latest: "24.1"
+#    latestReleaseDate: 2024-01-XX
+#    codename: "YYYYYYYY"
+
 -   releaseCycle: "23.7"
     releaseDate: 2023-07-31
     eol: false
@@ -147,5 +154,6 @@ releases:
 
 > [OPNsense](https://opnsense.org/) is an open-source firewall and routing platform with a user-friendly interface and robust features for network security.
 
-OPNsense plan for a new major release every six months.  
 The only officially supported and actively maintained version of OPNsense is the latest one.  
+
+OPNsense plan for a new major release every six months.  
