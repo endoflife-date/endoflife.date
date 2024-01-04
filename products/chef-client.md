@@ -4,7 +4,7 @@ category: server-app
 iconSlug: chef
 permalink: /chefclient
 releasePolicyLink: "https://docs.chef.io/versions/"
-changelogTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
+changelogTemplate: "https://docs.chef.io/release_notes_client/#{{'__LATEST__'|replace:'v',''}}/"
 versionCommand: chef-client -v
 releaseDateColumn: true
 activeSupportColumn: true
