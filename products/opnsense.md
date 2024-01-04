@@ -11,8 +11,8 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 
 auto:
 -   git: https://github.com/opnsense/core
-    # https://regex101.com/r/BV8amT/1
-    regex: ^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d{1,3})\.?(?<tiny>\d+)?$
+    # https://regex101.com/r/BV8amT/2
+    regex: ^(?<major>\d+\.\d+)\.(?<minor>\d{1,3})\.?(?<patch>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:
@@ -160,5 +160,5 @@ The only officially supported and actively maintained version of OPNsense is the
 
 | Version Type         | Description                                                                        | Cadence        |
 |:---------------------|:-----------------------------------------------------------------------------------|:---------------|
-| Major (23.7, 23.1...)| For significant changes, will include breaking or backwards-incompatible changes.  | Every 6 months |
+| Major                | For significant changes, will include breaking or backwards-incompatible changes.  | Every 6 months |
 | Minor                | Will include new features, bug fixes and security patches.                         | Every 15 days  |
