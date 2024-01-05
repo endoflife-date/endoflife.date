@@ -10,8 +10,6 @@ versionCommand: SELECT VERSION_NO FROM APEX_RELEASE;
 releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 releaseColumn: false
 releaseDateColumn: true
-extendedSupportColumn: false
-activeSupportColumn: false
 
 releases:
 -   releaseCycle: "23.2"
