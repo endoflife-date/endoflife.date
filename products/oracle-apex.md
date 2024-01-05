@@ -89,6 +89,7 @@ releases:
     releaseDate: 2016-12-21
     eol: 2021-12-01
     link: https://blogs.oracle.com/apex/post/oracle-announces-oracle-application-express-51
+
 ---
 
 > Oracle Application Express (also known as APEX) is an enterprise low-code application 
