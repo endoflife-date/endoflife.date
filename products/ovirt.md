@@ -60,4 +60,5 @@ releases:
 > software server for centralized virtualization management. It is a hosted hypervisor 
 > that can run operating systems including Linux and Windows
 
+##  [Maintenance](https://blogs.ovirt.org/2022/04/ovirt-4-4-end-of-life/)  
 oVirt versions are supported until the new one is available.
