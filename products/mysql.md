@@ -25,6 +25,14 @@ auto:
     -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
     template: "{{v}}"
 
+identifiers:
+-   repology: mysql
+-   purl: pkg:generic/mysql
+-   purl: pkg:docker/library/mysql
+-   purl: pkg:binary/mysql
+-   purl: pkg:deb/ubuntu/mysql-server
+-   purl: pkg:deb/debian/mysql-server
+
 # dates below are for:
 # support -> GA+5 years = Premier support
 # eol -> GA+8 years = Extended Support
