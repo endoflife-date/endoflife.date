@@ -1,8 +1,10 @@
 ---
-title: Chef Client
+title: Chef Infra Client
 category: server-app
 iconSlug: chef
-permalink: /chefclient
+permalink: /chefinfraclient
+alternate_urls:
+-   /chefclient
 releasePolicyLink: "https://docs.chef.io/versions/"
 changelogTemplate: "https://docs.chef.io/release_notes_client/#{{'__LATEST__'|replace:'v',''}}/"
 versionCommand: chef-client -v
@@ -82,10 +84,10 @@ releases:
     
 ---
 
-> [Chef Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration
+> [Chef Infra Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration
 > management and application-deployment tool enabling infrastructure as code.
 
-Chef Client generally follows an N-1 support strategy  
+Chef Infra Client generally follows an N-1 support strategy  
 (meanings that the 2 most recent major versions receive security and bug fixes)  
 
 ## [Release Schedule](https://github.com/chef/chef/blob/main/docs/dev/policy/release_and_support_schedule.md)
