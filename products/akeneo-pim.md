@@ -20,8 +20,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2024-09-30
-    latest: "7.0.45"
-    latestReleaseDate: 2023-12-28
+    latest: "7.0.46"
+    latestReleaseDate: 2024-01-04
 
 -   releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
@@ -119,7 +119,7 @@ releases:
     codename: "Acrobatty Bunny"
     releaseDate: 2014-08-28
     eol: 2015-08-18 # not documented
-    link:
+    link: null
     latest: "1.2.37"
     latestReleaseDate: 2015-08-18
 
@@ -127,7 +127,7 @@ releases:
     codename: "Rabbit Punch"
     releaseDate: 2014-04-16
     eol: 2014-07-22 # not documented
-    link:
+    link: null
     latest: "1.1.3"
     latestReleaseDate: 2014-07-22
 
