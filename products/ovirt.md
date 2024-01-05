@@ -57,7 +57,7 @@ releases:
 ---
 
 > [oVirt](https://www.ovirt.org/) is an open-source 
-> distributed virtualization solution, designed to manage your entire enterprise infrastructure. 
-> oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
+> software server for centralized virtualization management. It is a hosted hypervisor 
+> that can run operating systems including Linux and Windows
 
 oVirt versions are supported until the new one is available.
