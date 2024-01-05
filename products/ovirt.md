@@ -57,7 +57,7 @@ releases:
 ---
 
 > [oVirt](https://www.ovirt.org/) is an open-source 
-> software server for centralized virtualization management. It is a hosted hypervisor 
+> software for centralized virtualization management. It is a hosted hypervisor 
 > that can run operating systems including Linux and Windows
 
 ##  [Maintenance](https://blogs.ovirt.org/2022/04/ovirt-4-4-end-of-life/)  
