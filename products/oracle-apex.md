@@ -36,7 +36,7 @@ releases:
 -   releaseCycle: "22.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-221
     releaseDate: 2022-05-03
-    eol: 2024-11-01
+    eol: 2024-12-01
     link: https://apex.oracle.com/en/platform/features/whats-new-221/
 
 -   releaseCycle: "21.2"
