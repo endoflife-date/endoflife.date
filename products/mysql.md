@@ -32,7 +32,6 @@ identifiers:
 -   purl: pkg:binary/mysql
 -   purl: pkg:deb/ubuntu/mysql-server
 -   purl: pkg:deb/debian/mysql-server
--   
 
 # dates below are for:
 # support -> GA+5 years = Premier support
