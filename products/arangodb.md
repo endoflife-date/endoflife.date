@@ -6,6 +6,9 @@ releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-c
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
 eolWarnThreshold: 121
 
+auto:
+-   git: https://github.com/arangodb/arangodb.git
+
 # EOL dates can be found on https://arangodb.com/subscriptions/end-of-life-notice/.
 releases:
 -   releaseCycle: "3.11"
