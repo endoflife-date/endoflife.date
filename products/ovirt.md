@@ -7,7 +7,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/oVirt/ovirt-engine
-    # https://regex101.com/r/E0pgZr/1
     regex: ^ovirt-engine-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d{1,3})\.?(?<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+1)
