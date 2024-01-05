@@ -18,6 +18,61 @@ releases:
     eol: 2024-04-15
     latest: "3.10.11"
 
+-   releaseCycle: "3.9"
+    releaseDate: 2022-04-05
+    eol: 2023-09-15
+    latest: "3.9.10"
+
+-   releaseCycle: "3.8"
+    releaseDate: 2021-10-05
+    eol: 2023-04-30
+    latest: "3.8.11"
+
+-   releaseCycle: "3.7"
+    releaseDate: 2021-04-06
+    eol: 2022-05-31
+    latest: "3.7.14"
+
+-   releaseCycle: "3.6"
+    releaseDate: 2020-10-06
+    eol: 2021-08-31
+    latest: "3.6.16"
+
+-   releaseCycle: "3.5"
+    releaseDate: 2020-04-07
+    eol: 2020-12-31
+    latest: "3.5.17"
+
+-   releaseCycle: "3.4"
+    releaseDate: 2019-10-01
+    eol: 2020-06-21
+    latest: "3.4.16"
+
+-   releaseCycle: "3.3"
+    releaseDate: 2019-04-02
+    eol: 2020-02-29
+    latest: "3.3.25"
+
+-   releaseCycle: "3.2"
+    releaseDate: 2018-10-02
+    eol: 2019-03-31
+    latest: "3.2.27"
+
+-   releaseCycle: "3.1"
+    releaseDate: 2018-04-03
+    eol: true
+    latest: "3.1.28"
+
+-   releaseCycle: "3.0"
+    releaseDate: 2017-10-03
+    eol: true
+    latest: "3.0.27"
+
+-   releaseCycle: "2.8"
+    releaseDate: 2017-04-04
+    eol: 2018-10-15
+    latest: "2.8.11"
+
 ---
 
 > [ArangoDB](https://arangodb.com/) is a graph database system developed by ArangoDB Inc. ArangoDB
