@@ -107,6 +107,7 @@ installation, and announcements for new patches are made on
 [APEX's X account](https://twitter.com/OracleAPEX). For details on bug fixes for the current
 release, visit the [Known Issues](http://apex.oracle.com/known-issues) page.
 
-Support timeframes for versions < 19.1 are available in the [Lifetime Support Policy: Oracle Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html).
+Support timeframes for versions < 19.1 are available in the [Lifetime Support Policy: Oracle
+Technology Products (PDF)](https://www.oracle.com/support/lifetime-support/resources.html).
 The [Roadmap](https://apex.oracle.com/sod) reveals planned features and explains release plans and
 naming convention.
