@@ -11,6 +11,9 @@ releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/coll
 releaseColumn: false
 releaseDateColumn: true
 
+# Release dates come from the release announcements on https://blogs.oracle.com/apex/.
+# EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
+# or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
 releases:
 -   releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
