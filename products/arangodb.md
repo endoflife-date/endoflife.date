@@ -85,7 +85,7 @@ releases:
 
 -   releaseCycle: "2.8"
     releaseDate: 2016-01-25
-    eol: 2018-10-15
+    eol: 2018-06-15
     latest: "2.8.11"
     latestReleaseDate: 2016-07-13
 
