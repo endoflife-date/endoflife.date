@@ -17,7 +17,7 @@ auto:
     # https://regex101.com/r/ZBVO7U/1
     regex: ^(?<major>\d+)\.?(?<minor>\d{1,3})\.?(?<patch>\d+)\.?(?<tiny>\d+)?$
 
-# eol(x) = releaseDate(x+2)
+# eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # support(x) = releaseDate(x+1)
 releases:
 # -   releaseCycle: "16"
