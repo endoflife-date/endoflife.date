@@ -5,7 +5,7 @@ iconSlug: icinga
 tags: server-app
 permalink: /icinga2
 releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
-changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/#v__LATEST__/"
+changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/"
 versionCommand: icinga2 -V
 releaseDateColumn: true
 activeSupportColumn: true
