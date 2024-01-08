@@ -2,6 +2,7 @@
 title: oVirt
 category: server-app
 permalink: /ovirt
+releasePolicyLink: https://blogs.ovirt.org/2022/04/ovirt-4-4-end-of-life/
 changelogTemplate: "https://www.ovirt.org/release/__LATEST__/"
 releaseDateColumn: true
 
