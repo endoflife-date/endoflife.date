@@ -17,7 +17,7 @@ releases:
     latest: "11.1.1"
     latestReleaseDate: 2023-12-26
     link: 
-      https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-1-known-and-addressed-issues/pan-os-11-1-1-known-issues
+      https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-1-known-and-addressed-issues/pan-os-11-1-1-addressed-issues
 
 -   releaseCycle: "11.0"
     releaseDate: 2022-11-17
