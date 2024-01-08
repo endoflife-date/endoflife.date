@@ -15,6 +15,9 @@ extendedSupportColumn: Commercial support
 auto:
 -   git: https://github.com/qt/qt5.git
 
+# eol(x) ~= releaseDate(x) + 6 months
+# non-LTS: extendedSupport(x) = false
+# LTS: extendedSupport(x) ~= releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "6.6"
     releaseDate: 2023-10-09
@@ -72,8 +75,9 @@ releases:
     releaseDate: 2020-05-25
     eol: 2023-05-26
     extendedSupport: 2025-05-26
-    latest: "5.15.2"
-    latestReleaseDate: 2020-11-13
+    latest: "5.15.14" # latest release under the old LTS terms, see https://www.qt.io/blog/commercial-lts-qt-5.15.14-released
+    latestReleaseDate: 2023-05-25
+    link: https://www.qt.io/blog/commercial-lts-qt-5.15.14-released
 
 -   releaseCycle: "5.14"
     releaseDate: 2019-12-11
