@@ -104,4 +104,4 @@ N-1 major releases Schedule:
 
 | Version Type | Description                                                                                                                                                     | Cadence                                                                                                             |
 |:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| Minor & Patch      | Created or done for a particular purpose as necessary, released for critical bugs and security vulnerabilities only | As needed. |
+| Minor & Patch      | For critical bugs and security vulnerabilities only | As needed. |
