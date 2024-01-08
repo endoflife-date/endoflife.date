@@ -1,6 +1,7 @@
 ---
 title: Matomo
 category: server-app
+tags: php-runtime
 iconSlug: matomo
 permalink: /matomo
 alternate_urls:
@@ -19,8 +20,10 @@ auto:
 # eol(x) = releaseDate(x+2) = comfirm on https://fr.matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
 # support(x) = releaseDate(x+1)
 releases:
+
 -   releaseCycle: "5"
     releaseDate: 2023-12-18
+    lts: true
     support: true
     eol: false
     latest: "5.0.1"
@@ -28,6 +31,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2020-11-24
+    lts: true
     support: 2023-12-18
     eol: 2024-12-19
     latest: "4.16.0"
@@ -35,6 +39,7 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2016-12-19
+    lts: true
     support: 2020-11-24
     eol: 2021-12-01
     latest: "3.14.1"
@@ -42,6 +47,7 @@ releases:
     
 -   releaseCycle: "2"
     releaseDate: 2013-12-17
+    lts: true
     support: 2016-12-19
     eol: 2017-12-18
     latest: "2.17.1"
