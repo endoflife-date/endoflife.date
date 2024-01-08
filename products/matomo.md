@@ -3,6 +3,8 @@ title: Matomo
 category: server-app
 iconSlug: matomo
 permalink: /matomo
+alternate_urls:
+-   /piwik
 releasePolicyLink: "https://matomo.org/faq/new-to-piwik/faq_18925/"
 changelogTemplate: "https://github.com/matomo-org/matomo/releases/tag/__LATEST__/"
 versionCommand: console core:version
