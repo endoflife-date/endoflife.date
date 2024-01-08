@@ -3,6 +3,7 @@ title: Chef Infra Client
 category: server-app
 iconSlug: chef
 permalink: /chefinfraclient
+tags: ruby-runtime
 alternate_urls:
 -   /chefclient
 releasePolicyLink: "https://docs.chef.io/versions/"
