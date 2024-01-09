@@ -28,7 +28,7 @@ releases:
     latest: "7.5"
     latestReleaseDate: 2022-05-10
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-75
-    extendedSupportColumn: false
+    extendedSupport: false
 
 -   releaseCycle: "7.4"
     releaseDate: 2019-06-21
@@ -36,7 +36,7 @@ releases:
     latest: "7.4"
     latestReleaseDate: 2019-06-21
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-74
-    extendedSupportColumn: false
+    extendedSupport: false
 
 -   releaseCycle: "7.3"
     releaseDate: 2016-04-15
@@ -60,7 +60,7 @@ releases:
     latest: "7.1"
     latestReleaseDate: 2010-04-23
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-71
-    extendedSupportColumn: false
+    extendedSupport: false
 
 -   releaseCycle: "6.1"
     releaseDate: 2008-04-23
