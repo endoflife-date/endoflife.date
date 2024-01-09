@@ -17,7 +17,7 @@ auto:
     # https://regex101.com/r/FlTtCg/1
     regex: ^(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
-# eol(x) = releaseDate(x+2) = comfirm on https://fr.matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
+# eol(x) = releaseDate(x+2) = comfirm on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
 # support(x) = releaseDate(x+1)
 releases:
 
@@ -72,5 +72,5 @@ releases:
 > [Matomo](https://matomo.org/) is an open-source analytics platform, is developed to track and analyze various components of digital activities
 >  including websites, servers, CMS, and online services.
 
-Matomo follows an [N-1 support strategy](https://fr.matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/)  
+Matomo follows an [N-1 support strategy](https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/)  
 (meanings that the 2 most recent major versions receive security and bug fixes)
