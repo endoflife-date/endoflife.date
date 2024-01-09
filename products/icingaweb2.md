@@ -70,49 +70,49 @@ releases:
 -   releaseCycle: "2.5"
     releaseDate: 2017-11-27
     support: 2018-07-19
-    eol: 2019-07-30
+    eol: true
     latest: "2.5.3"
     latestReleaseDate: 2018-04-27
 
 -   releaseCycle: "2.4"
     releaseDate: 2016-12-13
     support: 2017-11-27
-    eol: 2018-07-19
+    eol: true
     latest: "2.4.2"
     latestReleaseDate: 2017-09-28
 
 -   releaseCycle: "2.3"
     releaseDate: 2016-04-13
     support: 2016-12-13
-    eol: 2017-11-27
+    eol: true
     latest: "2.3.4"
     latestReleaseDate: 2016-06-23
 
 -   releaseCycle: "2.2"
     releaseDate: 2016-02-29
     support: 2016-04-13
-    eol: 2016-12-13
+    eol: true
     latest: "2.2.2"
     latestReleaseDate: 2016-06-09
 
 -   releaseCycle: "2.1"
     releaseDate: 2015-11-16
     support: 2016-02-29
-    eol: 2016-04-13
+    eol: true
     latest: "2.1.4"
     latestReleaseDate: 2016-06-09
 
 -   releaseCycle: "2.0"
     releaseDate: 2015-10-02
     support: 2015-11-16
-    eol: 2016-02-29
+    eol: true
     latest: "2.0.0"
     latestReleaseDate: 2015-10-02
 ---
 
 > [Icinga Web 2](https://icinga.com/docs/icinga-web/latest/doc/01-About/) is a web-based graphical user interface for the Icinga2 monitoring system. 
 
-Icinga Web 2 follows an N-1 support strategy  
+Since 2.6, Icinga Web 2 follows an N-1 support strategy  
 (meanings that the 2 most recent major versions receive security and bug fixes)  
 The N-2 release may [in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md
 ) receive critical security patches
