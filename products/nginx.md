@@ -11,6 +11,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: nginx
+-   purl: pkg:binary/nginx
 -   purl: pkg:deb/debian/nginx
 -   purl: pkg:deb/ubuntu/nginx
 -   purl: pkg:rpm/amzn/nginx
