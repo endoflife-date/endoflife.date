@@ -131,8 +131,8 @@ releases:
 
 ---
 
-> [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) xxxxxxxxxxxx
-> xxxxxxxxxxxx
+> [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) is an open-source monitoring software, is designed to monitor various aspects  
+> of IT infrastructure, including networks, servers, virtual machines, and cloud services.
 
 Since 2.10, Icinga2 follows an N-1 support strategy  
 (meanings that the 2 most recent major versions receive security and bug fixes)  
