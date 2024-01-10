@@ -22,6 +22,7 @@ auto:
 
 # eol(x) = releaseDate(x+1) + 2 years - 1 day
 # See also https://getkirby.com/docs/archive
+# supportedPhpVersions can be found on https://getkirby.com/docs/reference/system/requirements#php-version-support-history.
 releases:
 -   releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
