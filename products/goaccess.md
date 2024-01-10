@@ -1,0 +1,35 @@
+---
+title: GoAccess
+category: app
+permalink: /goaccess
+releasePolicyLink: "https://github.com/allinurl/goaccess/blob/master/SECURITY.md"
+changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__/"
+versionCommand: goaccess --version
+releaseDateColumn: true
+
+auto:
+-   git: https://github.com/allinurl/goaccess
+    # https://regex101.com/r/USe3sj/1
+    regex: ^v(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
+
+# eol(x) = releaseDate(x+1)
+releases:
+
+-   releaseCycle: "1"
+    releaseDate: 2016-06-09
+    eol: false
+    latest: "1.8.1"
+    latestReleaseDate: 2023-10-31
+
+-   releaseCycle: "0"
+    releaseDate: 2010-07-06
+    eol: true
+    latest: "0.9.8"
+    latestReleaseDate: 2016-02-29
+    
+---
+
+> [GoAccess](https://goaccess.io/) xxxxxx
+
+The only unofficially supported and actively maintained version of GoAccess is the latest one.  
+
