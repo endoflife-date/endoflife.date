@@ -80,7 +80,7 @@ releases:
     support: true
     eol: false
     latest: "2.4.16"
-    latestReleaseDate: xxxx
+    latestReleaseDate: 2019-07-17
 
 -   releaseCycle: "2.2"
     releaseDate: 2016-09-07
