@@ -11,11 +11,12 @@ activeSupportColumn: true
 
 auto:
 -   git: https://github.com/wireshark/wireshark
-    # regex101 link
-    regex: ^(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
+    # https://regex101.com/r/fHvpY1/1
+    regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 # eol(x) = See EOS here https://wiki.wireshark.org/Development/LifeCycle
 # support(x) = releaseDate(x+1)
+# Only even number minor releases are stable releases
 releases:
 
 -   releaseCycle: "4.2"
