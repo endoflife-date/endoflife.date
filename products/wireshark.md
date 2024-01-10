@@ -14,20 +14,20 @@ auto:
     # regex101 link
     regex: ^(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
-# eol(x) = releaseDate(x+1)
-# support(x) = See EOS here https://wiki.wireshark.org/Development/LifeCycle
+# eol(x) = See EOS here https://wiki.wireshark.org/Development/LifeCycle
+# support(x) = releaseDate(x+1)
 releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-15
-    eol: true
-    support: false
+    eol: false
+    support: true
     latest: "4.2.2"
     latestReleaseDate: 2024-01-04
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-10-04
-    eol: true
+    eol: false
     support: 2023-11-15
     latest: "4.0.12"
     latestReleaseDate: 2024-01-03
