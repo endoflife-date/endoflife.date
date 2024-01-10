@@ -1,7 +1,7 @@
 ---
 title: Wireshark
 category: app
-iconSlug: Wireshark
+iconSlug: wireshark
 permalink: /wireshark
 releasePolicyLink: "https://wiki.wireshark.org/Development/LifeCycle"
 changelogTemplate: "https://www.wireshark.org/docs/relnotes/wireshark-__LATEST__.html"
@@ -28,6 +28,6 @@ releases:
     
 ---
 
-> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) yyyyyyyyyyyyy
+> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer. 
 
 yyyyyyyyyyy
