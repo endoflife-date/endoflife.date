@@ -3,7 +3,7 @@ title: GoAccess
 category: app
 permalink: /goaccess
 releasePolicyLink: "https://github.com/allinurl/goaccess/blob/master/SECURITY.md"
-changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__/"
+changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 versionCommand: goaccess --version
 releaseDateColumn: true
 
