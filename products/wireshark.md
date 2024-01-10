@@ -20,7 +20,6 @@ releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-15
-    lts: true
     support: true
     eol: false
     latest: "4.2.2"
@@ -28,7 +27,6 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-10-04
-    lts: true
     support: true
     eol: false
     latest: "4.0.12"
@@ -44,7 +42,6 @@ releases:
 
 -   releaseCycle: "3.4"
     releaseDate: 2020-10-29
-    lts: true
     support: true
     eol: false
     latest: "3.4.16"
@@ -52,7 +49,6 @@ releases:
 
 -   releaseCycle: "3.2"
     releaseDate: 2019-12-18
-    lts: true
     support: true
     eol: false
     latest: "3.2.18"
@@ -60,7 +56,6 @@ releases:
 
 -   releaseCycle: "3.0"
     releaseDate: 2019-02-28
-    lts: true
     support: true
     eol: false
     latest: "3.0.14"
@@ -76,7 +71,6 @@ releases:
 
 -   releaseCycle: "2.4"
     releaseDate: 2018-07-19
-    lts: true
     support: true
     eol: false
     latest: "2.4.16"
@@ -84,7 +78,6 @@ releases:
 
 -   releaseCycle: "2.2"
     releaseDate: 2016-09-07
-    lts: true
     support: true
     eol: false
     latest: "2.2.17"
@@ -92,7 +85,6 @@ releases:
 
 -   releaseCycle: "2.0"
     releaseDate: 2015-11-18
-    lts: true
     support: true
     eol: false
     latest: "2.0.16"
@@ -100,7 +92,6 @@ releases:
 
 -   releaseCycle: "1.12"
     releaseDate: 2014-07-31
-    lts: true
     support: true
     eol: false
     latest: "1.12.13"
@@ -108,7 +99,6 @@ releases:
 
 -   releaseCycle: "1.10"
     releaseDate: 2013-06-05
-    lts: true
     support: true
     eol: false
     latest: "1.10.14"
@@ -116,7 +106,6 @@ releases:
 
 -   releaseCycle: "1.8"
     releaseDate: 2012-06-21
-    lts: true
     support: true
     eol: false
     latest: "1.8.15"
@@ -124,7 +113,6 @@ releases:
 
 -   releaseCycle: "1.6"
     releaseDate: 2011-06-07
-    lts: true
     support: true
     eol: false
     latest: "1.6.16"
@@ -132,7 +120,6 @@ releases:
 
 -   releaseCycle: "1.4"
     releaseDate: 2010-08-30
-    lts: true
     support: true
     eol: false
     latest: "1.4.15"
@@ -140,7 +127,6 @@ releases:
 
 -   releaseCycle: "1.2"
     releaseDate: 2009-06-15
-    lts: true
     support: true
     eol: false
     latest: "1.2.18"
@@ -148,7 +134,6 @@ releases:
 
 -   releaseCycle: "1.0"
     releaseDate: 2008-03-31
-    lts: true
     support: true
     eol: false
     latest: "1.0.16"
