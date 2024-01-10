@@ -43,7 +43,7 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2020-10-29
     support: 2022-09-07
-    eol: false
+    eol: 2021-11-22
     latest: "3.4.16"
     latestReleaseDate: 2022-09-07
 
@@ -65,14 +65,14 @@ releases:
     releaseDate: 2018-04-18
     lts: true
     support: 2020-10-18
-    eol: 2018-04-18
+    eol: 2019-02-28
     latest: "2.6.20"
     latestReleaseDate: 2020-09-23
 
 -   releaseCycle: "2.4"
     releaseDate: 2018-07-19
     support: 2019-07-19
-    eol: false
+    eol: 2018-04-18
     latest: "2.4.16"
     latestReleaseDate: 2019-07-17
 
