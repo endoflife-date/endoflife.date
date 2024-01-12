@@ -8,7 +8,7 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/oVirt/ovirt-engine
-    regex: ^ovirt-engine-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d{1,3})\.?(?<tiny>\d+)?$
+    regex: ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:
