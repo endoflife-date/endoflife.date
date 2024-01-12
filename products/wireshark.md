@@ -14,7 +14,7 @@ auto:
     # https://regex101.com/r/fHvpY1/1
     regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
-# eol(x) = See EOS here https://wiki.wireshark.org/Development/LifeCycle
+# eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # support(x) = releaseDate(x+1)
 # Only even number minor releases are stable releases
 releases:
@@ -144,4 +144,5 @@ releases:
 
 > [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer. 
 
-yyyyyyyyyyy
+Wireshark follows [Semantic Versioning](https://semver.org/).   
+In addition of maintenance for the Long-Term Support version lifetime, the 2 latest minor releases are supported with bug and security fixes.
