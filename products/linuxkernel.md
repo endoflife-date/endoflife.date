@@ -110,8 +110,8 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.206"
-    latestReleaseDate: 2024-01-05
+    latest: "5.10.207"
+    latestReleaseDate: 2024-01-12
 
 -   releaseCycle: "5.4"
     lts: true
