@@ -23,21 +23,21 @@ releases:
     lts: true
     releaseDate: 2023-11-16
     eol: 2025-05-15
-    latest: "7.4.0"
-    latestReleaseDate: 2023-11-16
+    latest: "7.4.1"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "7.3"
     releaseDate: 2022-11-08
     eol: 2024-05-08
-    latest: "7.3.10"
-    latestReleaseDate: 2023-11-16
+    latest: "7.3.11"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "7.2"
     lts: true
     releaseDate: 2021-11-05
     eol: 2024-11-30
-    latest: "7.2.17"
-    latestReleaseDate: 2023-11-16
+    latest: "7.2.18"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "7.1"
     releaseDate: 2020-11-11
@@ -74,37 +74,38 @@ releases:
     releaseDate: 2016-08-02
     eol: 2027-01-12
     latest: "5.1"
-    link:
+    link: null
 
 -   releaseCycle: "5.0"
     releaseDate: 2016-02-24
     eol: 2016-08-02
     latest: "5.0"
-    link:
+    link: null
 
 -   releaseCycle: "4.0"
     releaseDate: 2013-10-01
     eol: 2023-10-10
     latest: "4.0"
-    link:
+    link: null
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-10-01
     eol: 2023-10-10
     latest: "3.0"
-    link:
+    link: null
 
 -   releaseCycle: "2.0"
     releaseDate: 2009-07-01
     eol: 2020-01-14
     latest: "2.0"
-    link:
+    link: null
 
 -   releaseCycle: "1.0"
     releaseDate: 2006-11-14
     eol: 2020-01-14
     latest: "1.0"
-    link:
+    link: null
+
 
 ---
 

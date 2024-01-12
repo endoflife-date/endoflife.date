@@ -5,8 +5,7 @@ iconSlug: redis
 permalink: /redis
 versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
-changelogTemplate:
-  https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
+changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -35,15 +34,15 @@ releases:
     releaseDate: 2023-08-15
     support: true
     eol: false
-    latest: '7.2.3'
-    latestReleaseDate: 2023-11-01
+    latest: '7.2.4'
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-04-27
     support: 2023-08-15
     eol: false
-    latest: '7.0.14'
-    latestReleaseDate: 2023-10-18
+    latest: '7.0.15'
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "6.2"
     releaseDate: 2021-02-22

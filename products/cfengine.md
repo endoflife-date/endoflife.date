@@ -4,7 +4,7 @@ category: app
 permalink: /cfengine
 versionCommand: cf-agent --version
 releasePolicyLink: https://cfengine.com
-changelogTemplate:
+changelogTemplate: 
   https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
 releaseDateColumn: true
 eolColumn: Supported
@@ -36,15 +36,15 @@ releases:
     releaseDate: 2022-12-21
     lts: true
     eol: 2025-12-21
-    latest: "3.21.3"
-    latestReleaseDate: 2023-10-06
+    latest: "3.21.4"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "3.20"
     releaseDate: 2022-07-01
     eol: 2022-12-21
     latest: "3.20.0"
     latestReleaseDate: 2022-07-01
-    link:
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 -   releaseCycle: "3.19"
@@ -52,16 +52,16 @@ releases:
     eol: 2022-07-01
     latest: "3.19.0"
     latestReleaseDate: 2021-12-10
-    link:
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 -   releaseCycle: "3.18"
     releaseDate: 2021-06-24
     lts: true
     eol: 2024-06-24
-    latest: "3.18.6"
-    latestReleaseDate: 2023-10-06
-    link:
+    latest: "3.18.7"
+    latestReleaseDate: 2024-01-11
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 -   releaseCycle: "3.17"
@@ -69,7 +69,7 @@ releases:
     eol: 2021-06-24
     latest: "3.17.0"
     latestReleaseDate: 2020-11-19
-    link:
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 -   releaseCycle: "3.16"
@@ -77,7 +77,7 @@ releases:
     eol: 2020-11-19
     latest: "3.16.0"
     latestReleaseDate: 2020-06-23
-    link:
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 -   releaseCycle: "3.15"
@@ -86,7 +86,7 @@ releases:
     eol: 2022-12-31
     latest: "3.15.7"
     latestReleaseDate: 2022-11-14
-    link:
+    link: 
       https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
 
 ---
