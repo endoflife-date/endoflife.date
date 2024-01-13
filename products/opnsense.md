@@ -145,11 +145,4 @@ releases:
 
 > [OPNsense](https://opnsense.org/) is an open-source firewall and routing platform with a user-friendly interface and robust features for network security.
 
-The only officially supported and actively maintained version of OPNsense is the latest one.  
-
-## [Release Schedule](https://docs.opnsense.org/manual/updates.html)
-
-| Version Type         | Description                                                                                           | Cadence        |
-|:---------------------|:------------------------------------------------------------------------------------------------------|:---------------|
-| Major                | For significant changes, will include breaking or backwards-incompatible changes.                     | Every 6 months |
-| Minor                | Will include new features, bug fixes and security patches.                                            | Every 15 days  |
+OPNsense follows a [Calendar Versioning scheme](https://docs.opnsense.org/manual/updates.html#updates) with two major releases per year : one in January and the other in July. [Only the latest release is supported](https://docs.opnsense.org/releases/CE_23.7.html#january-04-2024) with one update every two weeks containing new non-breaking and backward-compatible features, bug fixes and security updates.
