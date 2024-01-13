@@ -3,11 +3,12 @@ title: Icinga2
 category: server-app
 iconSlug: icinga
 permalink: /icinga2
+versionCommand: icinga2 -V
 releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
 changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/"
-versionCommand: icinga2 -V
-releaseDateColumn: true
+
 activeSupportColumn: true
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/Icinga/icinga2
