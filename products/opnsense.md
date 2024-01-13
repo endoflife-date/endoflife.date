@@ -16,11 +16,11 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "23.7"
+    codename: "Restless Roadrunner"
     releaseDate: 2023-07-31
     eol: false
     latest: "23.7.10"
     latestReleaseDate: 2023-12-12
-    codename: "Restless Roadrunner"
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-01-26
