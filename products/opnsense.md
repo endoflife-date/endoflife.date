@@ -12,7 +12,6 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 auto:
 -   git: https://github.com/opnsense/core
     # https://regex101.com/r/BV8amT/2
-    regex: ^(?<major>\d+\.\d+)\.(?<minor>\d{1,3})\.?(?<patch>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:
