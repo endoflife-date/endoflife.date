@@ -1,4 +1,3 @@
----
 title: Zimbra
 permalink: /zimbra
 category: server-app
@@ -55,7 +54,6 @@ releases:
     technicalGuidance: 2019-03-29
     link: "https://wiki.zimbra.com/wiki/Zimbra_Releases/8.7.11/P14/"
     codename: "JudasPriest"
-
 ---
 
 > [Zimbra](https://www.zimbra.com/) is an open source collaboration and messaging suite, offering email, calendar, contacts, and task management features.
