@@ -23,123 +23,123 @@ releases:
     latestReleaseDate: 2023-12-12
 
 -   releaseCycle: "23.1"
+    codename: "Quintessential Quail"
     releaseDate: 2023-01-26
     eol: 2023-07-31
     latest: "23.1.11"
     latestReleaseDate: 2023-06-28
-    codename: "Quintessential Quail"
 
 -   releaseCycle: "22.7"
+    codename: "Powerful Panther"
     releaseDate: 2022-07-28
     eol: 2023-01-26
     latest: "22.7.11"
     latestReleaseDate: 2023-01-18
-    codename: "Powerful Panther"
 
 -   releaseCycle: "22.1"
+    codename: "Observant Owl"
     releaseDate: 2022-01-27
     eol: 2022-07-28
     latest: "22.1.10"
     latestReleaseDate: 2022-07-07
-    codename: "Observant Owl"
 
 -   releaseCycle: "21.7"
+    codename: "Noble Nightingale"
     releaseDate: 2021-07-28
     eol: 2022-01-27
     latest: "21.7.8"
     latestReleaseDate: 2022-01-27
-    codename: "Noble Nightingale"
 
 -   releaseCycle: "21.1"
+    codename: "Marvelous Meerkat"
     releaseDate: 2021-01-28
     eol: 2021-07-28
     latest: "21.1.9"
     latestReleaseDate: 2021-07-27
-    codename: "Marvelous Meerkat"
 
 -   releaseCycle: "20.7"
+    codename: "Legendary Lion"
     releaseDate: 2020-07-30
     eol: 2021-01-28
     latest: "20.7.8"
     latestReleaseDate: 2021-01-19
-    codename: "Legendary Lion"
 
 -   releaseCycle: "20.1"
+    codename: "Keen Kingfisher"
     releaseDate: 2020-01-30
     eol: 2020-07-30
     latest: "20.1.9"
     latestReleaseDate: 2020-07-23
-    codename: "Keen Kingfisher"
 
 -   releaseCycle: "19.7"
+    codename: "Jazzy Jaguar"
     releaseDate: 2019-07-17
     eol: 2020-01-30
     latest: "19.7.10"
     latestReleaseDate: 2020-01-27
-    codename: "Jazzy Jaguar"
 
 -   releaseCycle: "19.1"
+    codename: "Inspiring Iguana"
     releaseDate: 2019-01-31
     eol: 2019-07-17
     latest: "19.1.10"
     latestReleaseDate: 2019-07-03
-    codename: "Inspiring Iguana"
 
 -   releaseCycle: "18.7"
+    codename: "Happy Hippo"
     releaseDate: 2018-07-31
     eol: 2019-01-31
     latest: "18.7.10"
     latestReleaseDate: 2019-01-07
-    codename: "Happy Hippo"
 
 -   releaseCycle: "18.1"
+    codename: "Groovy Gecko"
     releaseDate: 2018-01-29
     eol: 2018-07-31
     latest: "18.1.13"
     latestReleaseDate: 2018-07-24
-    codename: "Groovy Gecko"
 
 -   releaseCycle: "17.7"
+    codename: "Free Fox"
     releaseDate: 2017-07-31
     eol: 2018-01-29
     latest: "17.7.12"
     latestReleaseDate: 2018-01-18
-    codename: "Free Fox"
 
 -   releaseCycle: "17.1"
+    codename: "Eclectic Eagle"
     releaseDate: 2017-01-31
     eol: 2017-07-31
     latest: "17.1.11"
     latestReleaseDate: 2017-07-25
-    codename: "Eclectic Eagle"
 
 -   releaseCycle: "16.7"
+    codename: "Dancing Dolphin"
     releaseDate: 2016-07-28
     eol: 2017-01-31
     latest: "16.7.14"
     latestReleaseDate: 2017-01-25
-    codename: "Dancing Dolphin"
 
 -   releaseCycle: "16.1"
+    codename: "Crafty Coyote"
     releaseDate: 2016-02-02
     eol: 2016-07-28
     latest: "16.1.20"
     latestReleaseDate: 2016-07-22
-    codename: "Crafty Coyote"
 
 -   releaseCycle: "15.7"
+    codename: "Brave Badger"
     releaseDate: 2015-07-02
     eol: 2016-02-02
     latest: "15.7.25"
     latestReleaseDate: 2016-01-18
-    codename: "Brave Badger"
 
 -   releaseCycle: "15.1"
+    codename: "Ascending Albatross"
     releaseDate: 2015-01-02
     eol: 2015-07-02
     latest: "15.1.12"
     latestReleaseDate: 2015-06-07
-    codename: "Ascending Albatross"
     
 ---
 
