@@ -1,13 +1,13 @@
 ---
 title: OPNsense
 category: server-app
-permalink: /opnsense
-changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
-releaseDateColumn: true
-iconSlug: opnsense
 tags: php-runtime
+iconSlug: opnsense
+permalink: /opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
+changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/opnsense/core
