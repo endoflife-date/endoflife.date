@@ -7,15 +7,13 @@ permalink: /chefinfraserver
 alternate_urls:
 -   /chefserver
 releasePolicyLink: "https://docs.chef.io/versions/"
-changelogTemplate: "https://docs.chef.io/release_notes_server/#__LATEST__/"
+changelogTemplate: "https://docs.chef.io/release_notes_server/#__LATEST__"
 versionCommand: chef-server-ctl version
 releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/chef/chef-server
-    # https://regex101.com/r/ZBVO7U/1
-    regex: ^(?<major>\d+)\.?(?<minor>\d{1,3})\.?(?<patch>\d+)\.?(?<tiny>\d+)?$
+- custom: true
 
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # support(x) = releaseDate(x+1)
@@ -24,36 +22,31 @@ releases:
     releaseDate: 2022-06-13
     support: true
     eol: false
-    latest: "15.9.18"
-    latestReleaseDate: 2024-01-02
+    latest: "15.9.20"
 
 -   releaseCycle: "14"
     releaseDate: 2020-06-08
     support: 2022-06-13
     eol: false
-    latest: "14.16.26"
-    latestReleaseDate: 2022-06-10
+    latest: "14.16.19"
 
 -   releaseCycle: "13"
     releaseDate: 2019-05-31
     support: 2020-06-08
     eol: 2021-06-30
-    latest: "13.2.49"
-    latestReleaseDate: 2020-06-04
+    latest: "13.2.0"
 
 -   releaseCycle: "12"
     releaseDate: 2014-11-24
     support: 2019-05-31
     eol: 2020-12-31
-    latest: "12.19.46"
-    latestReleaseDate: 2019-05-31
+    latest: "12.19.31"
 
 -   releaseCycle: "11"
     releaseDate: 2013-09-30
     support: 2014-11-24
     eol: 2018-12-31
-    latest: "11.3.1"
-    latestReleaseDate: 2015-04-19
+    latest: "11.1.7"
 
 ---
 
