@@ -6,11 +6,12 @@ tags: erlang-runtime ruby-runtime
 permalink: /chefinfraserver
 alternate_urls:
 -   /chefserver
+versionCommand: chef-server-ctl version
 releasePolicyLink: "https://docs.chef.io/versions/"
 changelogTemplate: "https://docs.chef.io/release_notes_server/#__LATEST__"
-versionCommand: chef-server-ctl version
-releaseDateColumn: true
+
 activeSupportColumn: true
+releaseDateColumn: true
 
 auto:
 - custom: true
