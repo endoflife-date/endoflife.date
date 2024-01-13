@@ -11,7 +11,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/opnsense/core
-    # https://regex101.com/r/BV8amT/2
 
 # eol(x) = releaseDate(x+1)
 releases:
