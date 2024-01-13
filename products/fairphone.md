@@ -17,6 +17,7 @@ customColumns:
 # Supported android versions can be found on https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS.
 releases:
 -   releaseCycle: "5"
+    releaseLabel: "Fairphone 5"
     supportedAndroidVersions: "13"
     releaseDate: 2023-09-14
     discontinued: false
@@ -24,6 +25,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/18020671537041-Fairphone-5-FAQ
 
 -   releaseCycle: "4"
+    releaseLabel: "Fairphone 4"
     supportedAndroidVersions: 11 - 13
     releaseDate: 2021-09-30
     discontinued: false
@@ -31,6 +33,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/4405858220945
 
 -   releaseCycle: "3+"
+    releaseLabel: "Fairphone 3+"
     supportedAndroidVersions: 10 - 13
     releaseDate: 2020-09-30
     discontinued: 2022-11-01
@@ -38,6 +41,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "3"
+    releaseLabel: "Fairphone 3"
     supportedAndroidVersions: 10 - 13
     releaseDate: 2019-09-30
     discontinued: 2021-09-01
@@ -45,6 +49,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "2"
+    releaseLabel: "Fairphone 2"
     supportedAndroidVersions: 5 - 10
     releaseDate: 2015-12-21
     # https://github.com/endoflife-date/endoflife.date/pull/2656#discussion_r1131930081
@@ -54,6 +59,7 @@ releases:
     link: https://support.fairphone.com/hc/articles/360019515018
 
 -   releaseCycle: "1"
+    releaseLabel: "Fairphone 1"
     supportedAndroidVersions: "4.2" # https://support.fairphone.com/hc/articles/6217522827281-Fairphone-1-FAQ
     releaseDate: 2013-12-01
     discontinued: 2017-07-13
