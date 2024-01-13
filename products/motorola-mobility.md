@@ -352,8 +352,6 @@ releases:
 > manufacturer, known for the Moto and Razr brands.
 > It is a subsidiary of Lenovo.
 
-## Security updates
-
 Motorola devices typically receive security updates for 2-3 years. Phones that
 launch on any version of Android will typically be supported for one upgrade to
 the next major version of Android.
