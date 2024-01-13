@@ -20,13 +20,6 @@ auto:
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # support(x) = releaseDate(x+1)
 releases:
-# -   releaseCycle: "16"
-#    releaseDate: 2023-11-26
-#    support: true
-#    eol: false
-#    latest: "16.0.0"
-#    latestReleaseDate: 2023-11-26
-
 -   releaseCycle: "15"
     releaseDate: 2022-06-13
     support: true
