@@ -1,14 +1,15 @@
 ---
 title: Icinga Web 2
 category: server-app
+tags: php-runtime
 iconSlug: icinga
 permalink: /icingaweb2
-tags: php-runtime
+versionCommand: icingacli version
 releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
 changelogTemplate: "https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/"
-versionCommand: icingacli version
-releaseDateColumn: true
+
 activeSupportColumn: true
+releaseDateColumn: true
 
 auto:
 -   git: https://github.com/Icinga/icingaweb2
