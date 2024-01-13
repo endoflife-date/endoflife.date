@@ -16,14 +16,6 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
-
-# -   releaseCycle: "24.1"
-#    releaseDate: 2024-01-XX
-#    eol: false
-#    latest: "24.1"
-#    latestReleaseDate: 2024-01-XX
-#    codename: "YYYYYYYY"
-
 -   releaseCycle: "23.7"
     releaseDate: 2023-07-31
     eol: false
