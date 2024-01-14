@@ -7,56 +7,48 @@ versionCommand: lua -v
 releaseImage: https://www.lua.org/images/timeline.png
 releasePolicyLink: https://www.lua.org/versions.html
 changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|split:' '|first}}/"
-activeSupportColumn: true
 releaseDateColumn: true
-eolColumn: Support Status
+eolColumn: Support
 
 releases:
 -   releaseCycle: "5.4"
     releaseDate: 2020-06-29
-    support: true
     eol: false
     latest: "5.4.6"
     latestReleaseDate: 2023-05-14
 
 -   releaseCycle: "5.3"
     releaseDate: 2015-01-12
-    support: false
     eol: 2020-09-25
     latest: "5.3.6"
     latestReleaseDate: 2020-09-25
 
 -   releaseCycle: "5.2"
     releaseDate: 2011-12-16
-    support: false
     eol: 2015-03-07
     latest: "5.2.4"
     latestReleaseDate: 2015-03-07
 
 -   releaseCycle: "5.1"
     releaseDate: 2006-02-21
-    support: false
     eol: 2012-02-17
     latest: "5.1.5"
     latestReleaseDate: 2012-02-17
 
 -   releaseCycle: "5.0"
     releaseDate: 2003-04-11
-    support: false
     eol: 2006-06-26
     latest: "5.0.3"
     latestReleaseDate: 2006-06-26
 
 -   releaseCycle: "4.0"
     releaseDate: 2000-11-06
-    support: false
     eol: 2000-02-22
     latest: "4.0.1"
     latestReleaseDate: 2000-02-22
 
 -   releaseCycle: "3.2"
     releaseDate: 1999-07-08
-    support: false
     eol: 2000-02-22
     latest: "3.2.2"
     latestReleaseDate: 2000-02-22
