@@ -10,6 +10,9 @@ changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|spli
 releaseDateColumn: true
 eolColumn: Support
 
+# EOL date is the date of the last release of the version.
+# The last releases are documented on https://www.lua.org/versions.html with a sentence similar to
+# "There will be no further releases of Lua x.y".
 releases:
 -   releaseCycle: "5.4"
     releaseDate: 2020-06-29
@@ -58,12 +61,15 @@ releases:
 > [Lua](https://www.lua.org/) is a powerful, efficient, lightweight and embeddable scripting
 > language.
 
+Lua doesn't have a documented release and support policy, but End Of Life notices are announced on
+<https://www.lua.org/versions.html> by a sentence similar to _There will be no further releases of
+Lua x.y_.
+
 The releases of Lua are numbered `x.y.z`, where `x.y` is the  version and `z` is the release.
 
-Releases of the same version correspond to bug fixes. They have the same reference manual, the same
-virtual machine, and are binary compatible (ABI compatible).
-
-Versions are really different. The API is likely to change (with compatibility switches), and there
-is no ABI compatibility: applications that embed Lua and C libraries for Lua must be recompiled.
-The virtual machine is also likely to be different in a new version, so Lua programs that have been
-precompiled for one version will not load in a different version.
+- Releases of the same version correspond to bug fixes. They have the same reference manual, the same
+  virtual machine, and are binary compatible (ABI compatible).
+- Versions are really different. The API is likely to change (with compatibility switches), and there
+  is no ABI compatibility: applications that embed Lua and C libraries for Lua must be recompiled.
+  The virtual machine is also likely to be different in a new version, so Lua programs that have been
+  precompiled for one version will not load in a different version.
