@@ -1,3 +1,4 @@
+---
 title: Google Nexus
 category: device
 tags: google mobile-phone tablet
