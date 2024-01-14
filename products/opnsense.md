@@ -139,9 +139,13 @@ releases:
     eol: 2015-07-02
     latest: "15.1.12"
     latestReleaseDate: 2015-06-07
-    
+
 ---
 
-> [OPNsense](https://opnsense.org/) is an open-source firewall and routing platform with a user-friendly interface and robust features for network security.
+> [OPNsense](https://opnsense.org/) is an open-source firewall and routing platform with a
+> user-friendly interface and robust features for network security.
 
-OPNsense follows a [Calendar Versioning scheme](https://docs.opnsense.org/manual/updates.html#updates) with two major releases per year : one in January and the other in July. [Only the latest release is supported](https://docs.opnsense.org/releases/CE_23.7.html#january-04-2024) with one update every two weeks containing new non-breaking and backward-compatible features, bug fixes and security updates.
+OPNsense follows a [Calendar Versioning scheme](https://docs.opnsense.org/manual/updates.html#updates)
+with two major releases per year : one in January and the other in July. [Only the latest release
+is supported](https://docs.opnsense.org/releases/CE_23.7.html#january-04-2024) with one update
+every two weeks containing non-breaking new features, bug fixes and security updates.
