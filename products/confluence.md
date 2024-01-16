@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "8.7"
     releaseDate: 2023-12-05
     eol: false # must be updated once the date appear on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-    latest: "8.7.1"
-    latestReleaseDate: 2023-12-05
+    latest: "8.7.2"
+    latestReleaseDate: 2024-01-16
     link: 
       https://confluence.atlassian.com/doc/confluence-8-7-release-notes-1318391277.html
 
@@ -38,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-08-22
-    latest: "8.5.4"
-    latestReleaseDate: 2023-12-05
+    latest: "8.5.5"
+    latestReleaseDate: 2024-01-16
     link: 
       https://confluence.atlassian.com/doc/confluence-8-5-release-notes-1252010185.html
 
@@ -95,8 +95,8 @@ releases:
     lts: true
     releaseDate: 2022-07-27
     eol: 2024-07-28
-    latest: "7.19.17"
-    latestReleaseDate: 2023-12-05
+    latest: "7.19.18"
+    latestReleaseDate: 2024-01-16
     link: 
       https://confluence.atlassian.com/doc/confluence-7-19-release-notes-1141976784.html
 
