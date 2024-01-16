@@ -24,15 +24,15 @@ releases:
     eol: false
     latest: "8.3.1"
     latestReleaseDate: 2023-10-26
-    link:
+    link: 
       https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
 
 -   releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: false
-    latest: "7.27.0"
-    latestReleaseDate: 2023-10-23
-    link:
+    latest: "7.28.0"
+    latestReleaseDate: 2024-01-15
+    link: 
       https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
 
 -   releaseCycle: "6"
@@ -40,7 +40,7 @@ releases:
     eol: 2023-02-01
     latest: "6.29.0"
     latestReleaseDate: 2023-01-24
-    link:
+    link: 
       https://www.puppet.com/docs/puppet/6/release_notes_puppet.html#release_notes_puppet
 
 -   releaseCycle: "5"
@@ -55,7 +55,7 @@ releases:
     eol: 2018-10-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "4.10.13"
     latestReleaseDate: 2018-12-19
-    link:
+    link: 
       https://github.com/puppetlabs/docs-archive/blob/main/puppet/4.10/release_notes.markdown
 
 -   releaseCycle: "3"
@@ -63,7 +63,7 @@ releases:
     eol: 2017-01-01 # No official source available. It was announced in the IRC channel at that time.
     latest: "3.8.7"
     latestReleaseDate: 2016-04-25
-    link:
+    link: 
       https://github.com/puppetlabs/docs-archive/blob/main/puppet/3.8/release_notes.markdown
 
 ---
