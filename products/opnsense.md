@@ -18,8 +18,8 @@ releases:
     codename: "Restless Roadrunner"
     releaseDate: 2023-07-28
     eol: false
-    latest: "23.7.11"
-    latestReleaseDate: 2024-01-04
+    latest: "23.7.12"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "23.1"
     codename: "Quintessential Quail"
