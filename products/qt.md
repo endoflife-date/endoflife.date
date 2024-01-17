@@ -9,6 +9,7 @@ releasePolicyLink:
   https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 releaseDateColumn: true
+eolColumn: OSS support
 extendedSupportColumn: Commercial support
 
 # Upstream does not support filtering https://code.qt.io/qt/qt5.git
