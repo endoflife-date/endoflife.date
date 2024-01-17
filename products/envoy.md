@@ -24,6 +24,12 @@ identifiers:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-16
+    eol: 2025-01-16
+    latest: '1.29.0'
+    latestReleaseDate: 2024-01-16
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
