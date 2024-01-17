@@ -10,7 +10,9 @@ alternate_urls:
 -   /jdk
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
+changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{%
+  if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif
+  %}.html"
 eolColumn: Premier Support
 extendedSupportColumn: Extended Support
 releaseDateColumn: true
@@ -26,8 +28,8 @@ releases:
     releaseDate: 2023-09-19
     eol: 2028-09-30
     extendedSupport: 2031-09-30
-    latest: "21.0.1"
-    latestReleaseDate: 2023-10-17
+    latest: "21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -55,8 +57,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     extendedSupport: 2029-09-30
-    latest: "17.0.9"
-    latestReleaseDate: 2023-10-17
+    latest: "17.0.10"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -98,8 +100,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     extendedSupport: 2032-01-31
-    latest: "11.0.21"
-    latestReleaseDate: 2023-10-17
+    latest: "11.0.22"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -154,7 +156,8 @@ releases:
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     eol: 2008-10-30
     extendedSupport: false
-    link: https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
+    link: 
+      https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
     latest: "1.4.2_42"
     latestReleaseDate: 2013-02-19
 
@@ -172,7 +175,8 @@ releases:
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     eol: 2003-11-30
     extendedSupport: false
-    link: https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
+    link: 
+      https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     latest: "1.2.2_18"
     latestReleaseDate: 2007-01-12
 
@@ -180,7 +184,7 @@ releases:
     releaseDate: 1997-02-18
     eol: 2002-10-09
     extendedSupport: false
-    link:
+    link: null
     latest: "1.1.8_010"
     latestReleaseDate: 2002-10-09
 
@@ -188,7 +192,7 @@ releases:
     releaseDate: 1996-01-23
     eol: 1996-05-07
     extendedSupport: false
-    link:
+    link: null
     latest: "1.0.2"
     latestReleaseDate: 1996-05-07
 
