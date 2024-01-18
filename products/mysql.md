@@ -14,7 +14,7 @@ activeSupportColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
-# https://dev.mysql.com/doc/refman/8.2/en/faqs-general.html#faq-mysql-version-ga
+# https://dev.mysql.com/doc/refman/8.3/en/faqs-general.html#faq-mysql-version-ga
 auto:
 -   git: https://github.com/mysql/mysql-server.git
     regex:
@@ -38,6 +38,13 @@ identifiers:
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
+-   releaseCycle: "8.3"
+    releaseDate: 2024-01-16
+    support: true
+    eol: false
+    latest: '8.3.0'
+    latestReleaseDate: 2024-01-16
+
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
     support: true
