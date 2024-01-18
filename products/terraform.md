@@ -12,8 +12,14 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/hashicorp/terraform.git
 
+# EOL(x) = releaseDate(x+2)
 releases:
-# EOL(R) = releaseDate(R+2)
+-   releaseCycle: "1.7"
+    releaseDate: 2024-01-17
+    eol: false # releaseDate(1.9)
+    latest: "1.7.0"
+    latestReleaseDate: 2024-01-17
+
 -   releaseCycle: "1.6"
     releaseDate: 2023-10-04
     eol: false # releaseDate(1.8)
@@ -22,7 +28,7 @@ releases:
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-06-12
-    eol: false # releaseDate(1.7)
+    eol: 2024-01-17
     latest: "1.5.7"
     latestReleaseDate: 2023-09-07
 
