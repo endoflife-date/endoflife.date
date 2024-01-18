@@ -5,79 +5,81 @@ iconSlug: qt
 permalink: /qt
 versionCommand: qmake --version
 releaseImage: https://www.qt.io/hs-fs/hubfs/subscription%20timeline.png
-releasePolicyLink: 
+releasePolicyLink:
   https://cdn2.hubspot.net/hubfs/149513/_Website_Blog/Qt%20offering%20change%20FAQ-2020-01-27.pdf
 changelogTemplate: "https://www.qt.io/blog/qt-{{'__LATEST__' | drop_zero_patch}}-released"
 releaseDateColumn: true
+eolColumn: OSS support
 extendedSupportColumn: Commercial support
 
 # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 auto:
 -   git: https://github.com/qt/qt5.git
 
-# eol(x) ~= releaseDate(x) + 6 months
-# non-LTS: extendedSupport(x) = false
-# LTS: extendedSupport(x) ~= releaseDate(x) + 3 years
+# eol(x) ~= releaseDate(x+1) (estimation = releaseDate(x) + 6 months)
+# extendedSupport(x) =
+# - releaseDate(x) + 1 year for non-LTS
+# - releaseDate(x) + 3 years for LTS
+# See also https://wiki.qt.io/QtReleasing.
 releases:
 -   releaseCycle: "6.6"
     releaseDate: 2023-10-09
-    eol: 2024-03-10 # estimated, 2023-10-09 + 6 months
-    extendedSupport: false
+    eol: 2024-04-09 # estimated, 2023-10-09 + 6 months
+    extendedSupport: 2024-10-09
     latest: "6.6.1"
     latestReleaseDate: 2023-11-27
 
 -   releaseCycle: "6.5"
     lts: true
     releaseDate: 2023-03-31
-    eol: 2024-03-31
+    eol: 2023-10-09
     extendedSupport: 2026-03-31
     latest: "6.5.3"
     latestReleaseDate: 2023-09-28
 
 -   releaseCycle: "6.4"
     releaseDate: 2022-09-28
-    eol: 2023-03-30
-    extendedSupport: false
+    eol: 2023-03-31
+    extendedSupport: 2023-09-28
     latest: "6.4.3"
     latestReleaseDate: 2023-03-16
 
 -   releaseCycle: "6.3"
     releaseDate: 2022-04-11
-    eol: 2022-10-12
-    extendedSupport: false
+    eol: 2022-09-28
+    extendedSupport: 2023-04-11
     latest: "6.3.2"
     latestReleaseDate: 2022-09-08
 
 -   releaseCycle: "6.2"
     lts: true
     releaseDate: 2021-09-30
-    eol: 2022-09-30
+    eol: 2022-04-11
     extendedSupport: 2024-09-30
     latest: "6.2.4"
     latestReleaseDate: 2022-03-16
 
 -   releaseCycle: "6.1"
     releaseDate: 2021-05-05
-    eol: 2022-05-06
-    extendedSupport: false
+    eol: 2021-09-30
+    extendedSupport: 2022-05-05
     latest: "6.1.3"
     latestReleaseDate: 2021-08-31
 
 -   releaseCycle: "6.0"
     releaseDate: 2020-12-08
-    eol: 2021-12-08
-    extendedSupport: false
+    eol: 2021-05-05
+    extendedSupport: 2021-12-08
     latest: "6.0.4"
     latestReleaseDate: 2021-05-03
 
 -   releaseCycle: "5.15"
     lts: true
     releaseDate: 2020-05-25
-    eol: 2023-05-26
-    extendedSupport: 2025-05-26
-    latest: "5.15.14" # latest release under the old LTS terms, see https://www.qt.io/blog/commercial-lts-qt-5.15.14-released
-    latestReleaseDate: 2023-05-25
-    link: https://www.qt.io/blog/commercial-lts-qt-5.15.14-released
+    eol: 2020-12-08
+    extendedSupport: 2025-05-25
+    latest: "5.15.2"
+    latestReleaseDate: 2020-11-13
 
 -   releaseCycle: "5.14"
     releaseDate: 2019-12-11
@@ -134,17 +136,19 @@ releases:
 > [both commercial licences and open-source](https://www.qt.io/licensing/ "Licensing page on the Qt Website")
 > GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
-A regular release only receives patch releases during the first 6 months until the next feature
-release is out. An LTS release receives patch releases also after the next feature release is
-available. Regular releases are supported for one year.
+Releases follow [Semantic Versioning](https://semver.org/). There is a new minor release
+[approximately every six months](https://wiki.qt.io/QtReleasing), which is supported with bug and
+security fixes until the next minor release.
 
-- Starting from 5.15, LTS releases are supported for three years but [only for commercial license
-  holders](https://www.qt.io/blog/qt-offering-changes-2020 "Qt offering changes 2020").
-  For open source users, they are same as regular releases.
-- LTS releases before 5.15 are supported for three years.
+Some releases are designated as Long Term Support (LTS) releases. Those are supported for three
+years but [only for commercial license holders](https://www.qt.io/blog/qt-offering-changes-2020).
+For open source users, they are same as regular releases.
 
-The [KDE Project](https://kde.org/) maintains a patch collection to support
-[Qt 5.15 LTS](https://community.kde.org/Qt5PatchCollection) for open-source users. It is already
-packaged with [many linux distributions](https://repology.org/project/qt/badges), so you might
-already be covered. Extended support beyond LTS is available as a
-[commercial offering](https://www.qt.io/qt-support/) from The Qt Company.
+Extended support beyond EOL is available as a [commercial offering](https://www.qt.io/qt-support/)
+from The Qt Company.
+
+{: .warning }
+> The [KDE Project](https://kde.org/) maintains a patch collection to support [Qt 5.15 LTS](https://community.kde.org/Qt5PatchCollection)
+> for open-source users. Moreover, [the code of commercial releases is made open within 12 months](https://kde.org/community/whatiskde/kdefreeqtfoundation/)
+> and some level of security support still seems to continue [in the form of code patches](https://www.qt.io/blog/security-advisory-potential-integer-overflow-in-qts-http2-implementation).
+> This does not reflect in the table above as we only track official releases from <https://www.qt.io>.

@@ -23,8 +23,8 @@ releases:
     codename: 'Nanbield'
     releaseDate: 2023-11-09
     eol: 2024-06-09
-    latest: "4.3.1"
-    latestReleaseDate: 2023-12-07
+    latest: "4.3.2"
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
