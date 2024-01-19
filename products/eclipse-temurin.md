@@ -49,8 +49,8 @@ releases:
     lts: true
     releaseDate: 2023-10-10
     eol: 2029-12-31
-    latest: "21.0.1+12"
-    latestReleaseDate: 2023-10-24
+    latest: "21.0.2+13"
+    latestReleaseDate: 2024-01-18
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-23
@@ -90,8 +90,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01
     eol: 2027-10-31
-    latest: "11.0.21+9"
-    latestReleaseDate: 2023-10-18
+    latest: "11.0.22+7"
+    latestReleaseDate: 2024-01-18
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
