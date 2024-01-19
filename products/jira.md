@@ -144,7 +144,7 @@ releases:
 
 -   releaseCycle: "8.20"
     releaseDate: 2021-10-19
-    eol: 2023-12-31
+    eol: 2024-01-31
     lts: true
     latest: "8.20.30"
     latestReleaseDate: 2024-01-02
