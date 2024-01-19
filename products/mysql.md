@@ -39,11 +39,11 @@ identifiers:
 # We show Extended support dates since that match Community Edition timelines
 releases:
 -   releaseCycle: "8.3"
-    releaseDate: 2024-01-16
+    releaseDate: 2023-12-14
     support: true
     eol: false
     latest: '8.3.0'
-    latestReleaseDate: 2024-01-16
+    latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
