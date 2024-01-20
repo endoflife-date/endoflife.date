@@ -27,14 +27,14 @@ releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
-    eol: 2028-09-30
+    eol: 2028-09-01
     latest: "21.0.2"
     latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
-    eol: 2027-09-30
+    eol: 2027-09-01
     latest: "17.0.10"
     latestReleaseDate: 2024-01-09
 
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
-    eol: 2024-09-30
+    eol: 2027-09-01
     latest: "11.0.22"
     latestReleaseDate: 2024-01-09
 

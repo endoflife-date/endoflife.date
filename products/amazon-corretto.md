@@ -105,8 +105,8 @@ releases:
     lts: true
     releaseDate: 2019-02-20
     eol: 2026-07-01
-    latest: "8.402.07.1"
-    latestReleaseDate: 2024-01-16
+    latest: "8.402.08.1"
+    latestReleaseDate: 2024-01-19
 
 ---
 

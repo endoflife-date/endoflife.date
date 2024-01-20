@@ -146,8 +146,8 @@ releases:
     releaseDate: 2018-11-01
     eol: 2026-11-30
     extendedSupport: 2031-03-31
-    latest: "8u392+9"
-    latestReleaseDate: 2023-10-18
+    latest: "8u402+7"
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "7"
     lts: true
@@ -164,7 +164,6 @@ releases:
     extendedSupport: 2026-03-31
     latest: "unknown"
     link: null
-
 
 ---
 
