@@ -97,10 +97,9 @@ releases:
 > disaster recovery, ransomware resilience and workload mobility software for virtualized
 > infrastructures and cloud environments.
 
-Support for Zerto always require an active maintenance contract and is divided into two phases.
+{: .warning }
+> Support for Zerto always require an active maintenance contract.
 
-End of Bug Fixes: commercially reasonable efforts for a solution will be taken, but new bugs will
-not be resolved, unless they are critical.
-
-End of Support Life: the version is no longer supported and an upgrade is required before
-troubleshooting can be started.
+There are two phases of support: a _General Support_ phase, with bug and security fixes, and a
+_Critical Support_ phase, with only critical bug and security fixes. Once the _Critical Support_
+phase ends, the release each its _End of Support Life_ (EOSL) and is no longer supported.
