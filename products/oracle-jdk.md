@@ -122,8 +122,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     extendedSupport: 2030-12-31
-    latest: "8u391"
-    latestReleaseDate: 2023-10-17
+    latest: "8u401"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "7"
     lts: true
