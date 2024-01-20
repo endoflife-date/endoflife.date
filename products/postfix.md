@@ -6,10 +6,11 @@ versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
 releaseDateColumn: true
 
-# We ignore tags before 3.3 because they don't have the correct date
 auto:
 -   git: https://github.com/vdukhovni/postfix.git
-    regex: ^v(?P<major>[3-9])\.(?P<minor>[3-9])\.(?P<patch>\d+)$
+    regex_exclude: # tags before 3.3 don't have the correct date
+    - ^v[0-2]\.
+    - ^v3\.[0-2]\.
 
 # eol(R) = releaseDate(R+4)
 releases:
