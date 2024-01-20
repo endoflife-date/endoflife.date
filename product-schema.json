@@ -85,6 +85,9 @@
               "regex": {
                 "$ref": "#/$defs/regex"
               },
+              "regex_exclude": {
+                "$ref": "#/$defs/regex"
+              },
               "template": {
                 "$ref": "#/$defs/template"
               }
@@ -103,6 +106,9 @@
                 "type": "string"
               },
               "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "regex_exclude": {
                 "$ref": "#/$defs/regex"
               },
               "template": {
@@ -125,6 +131,9 @@
               "regex": {
                 "$ref": "#/$defs/regex"
               },
+              "regex_exclude": {
+                "$ref": "#/$defs/regex"
+              },
               "template": {
                 "$ref": "#/$defs/template"
               }
@@ -143,17 +152,10 @@
                 "type": "string"
               },
               "regex": {
-                "oneOf": [
-                  {
-                    "$ref": "#/$defs/regex"
-                  },
-                  {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/$defs/regex"
-                    }
-                  }
-                ]
+                "$ref": "#/$defs/regex"
+              },
+              "regex_exclude": {
+                "$ref": "#/$defs/regex"
               },
               "template": {
                 "$ref": "#/$defs/template"
@@ -184,17 +186,10 @@
                 "type": "string"
               },
               "regex": {
-                "oneOf": [
-                  {
-                    "$ref": "#/$defs/regex"
-                  },
-                  {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/$defs/regex"
-                    }
-                  }
-                ]
+                "$ref": "#/$defs/regex"
+              },
+              "regex_exclude": {
+                "$ref": "#/$defs/regex"
               }
             },
             "required": [
@@ -211,6 +206,9 @@
                 "type": "string"
               },
               "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "regex_exclude": {
                 "$ref": "#/$defs/regex"
               },
               "template": {
@@ -233,6 +231,9 @@
               "regex": {
                 "$ref": "#/$defs/regex"
               },
+              "regex_exclude": {
+                "$ref": "#/$defs/regex"
+              },
               "template": {
                 "$ref": "#/$defs/template"
               }
@@ -251,6 +252,9 @@
                 "type": "string"
               },
               "regex": {
+                "$ref": "#/$defs/regex"
+              },
+              "regex_exclude": {
                 "$ref": "#/$defs/regex"
               },
               "template": {
@@ -311,8 +315,18 @@
     },
     "regex": {
       "title": "Regex",
-      "description": "Regex which will be used to filter the releases.",
-      "type": "string"
+      "description": "Regex which will be used to filter the versions.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
     },
     "customColumn": {
       "type": "object",
