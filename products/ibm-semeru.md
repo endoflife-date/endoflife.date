@@ -35,7 +35,7 @@ releases:
     releaseDate: 2023-09-22
     eol: false # TBC
     latest: '21.0.1+12'
-    latestReleaseDate: 2023-09-22
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "17"
     lts: true

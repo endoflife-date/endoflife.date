@@ -38,10 +38,10 @@ auto:
 releases:
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
-    releaseDate: 2024-01-15
+    releaseDate: 2023-12-14
     eol: false
     latest: '7.2.0'
-    latestReleaseDate: 2024-01-15
+    latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
