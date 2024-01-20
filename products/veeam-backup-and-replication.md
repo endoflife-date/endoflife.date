@@ -8,103 +8,136 @@ alternate_urls:
 -   /veeam-backup
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 activeSupportColumn: End of Fix
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 eolColumn: End of support
 
+auto:
+-   custom: true
+
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
+# Latest versions can be found on https://www.veeam.com/kb2680.
 releases:
 -   releaseCycle: "12"
-    releaseDate: 2023-02-14
+    releaseDate: 2023-01-30
     support: true # will be 13.0 GA date
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
+    latest: "12.1.1.56"
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "11"
-    releaseDate: 2021-02-24
+    releaseDate: 2021-02-11
     support: 2023-02-01
     eol: 2024-02-01
     link: "https://www.veeam.com/kb4126"
+    latest: "11.0.1.1261-P20230227"
+    latestReleaseDate: 2023-03-07
 
 -   releaseCycle: "10"
-    releaseDate: 2020-02-18
+    releaseDate: 2020-02-04
     support: 2021-02-01
     eol: 2023-02-01
     link: "https://www.veeam.com/kb3161"
+    latest: "10.0.1.4854-P20220304"
+    latestReleaseDate: 2022-03-12
 
 -   releaseCycle: "9.5"
     releaseDate: 2016-11-16
     support: 2020-02-01
     eol: 2022-01-01 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
     link: "https://www.veeam.com/kb2970"
+    latest: "9.5.4.2866"
+    latestReleaseDate: 2019-07-15
 
 -   releaseCycle: "9.0"
     releaseDate: 2016-01-12
     support: false
     eol: true
     link: "https://www.veeam.com/kb2147"
+    latest: "9.0.0.1715"
+    latestReleaseDate: 2016-08-05
 
 -   releaseCycle: "8.0"
     releaseDate: 2014-11-06
     support: false
     eol: true
     link: "https://www.veeam.com/kb2068"
+    latest: "8.0.0.2084"
+    latestReleaseDate: 2015-10-08
 
 -   releaseCycle: "7.0"
     releaseDate: 2013-08-20
     support: false
     eol: true
     link: "https://www.veeam.com/kb1891"
+    latest: "7.0.0.871"
+    latestReleaseDate: 2014-06-05
 
 -   releaseCycle: "6.5"
     releaseDate: 2012-10-09
     support: false
     eol: true
     link: "https://www.veeam.com/kb1751"
+    latest: "6.5.0.144"
+    latestReleaseDate: 2013-04-29
 
 -   releaseCycle: "6.1"
     releaseDate: 2012-06-04
     support: false
     eol: true
     link: "https://www.veeam.com/kb1671"
+    latest: "6.1.0.205"
+    latestReleaseDate: 2012-08-15
 
 -   releaseCycle: "6.0"
     releaseDate: 2011-08-22
     support: false
     eol: true
     link: "https://www.veeam.com/kb1442"
+    latest: "6.0.0.181"
+    latestReleaseDate: 2011-12-14
 
 -   releaseCycle: "5.0"
     releaseDate: 2010-08-30
     support: false
     eol: true
     link: null
+    latest: "5.0.0.179"
+    latestReleaseDate: 2010-08-30
 
 -   releaseCycle: "4.0"
     releaseDate: 2009-10-29
     support: false
     eol: true
     link: null
+    latest: "4.1.2.125"
+    latestReleaseDate: 2010-08-04
 
 -   releaseCycle: "3.0"
     releaseDate: 2009-10-21
     support: false
     eol: true
     link: null
+    latest: "3.0" # no information available
+    latestReleaseDate: 2009-10-21
 
 -   releaseCycle: "2.0"
     releaseDate: 2008-07-30
     support: false
     eol: true
     link: null
+    latest: "2.0" # no information available
+    latestReleaseDate: 2008-07-30
 
 -   releaseCycle: "1.0"
     releaseDate: 2008-02-26
     support: false
     eol: true
     link: null
-
+    latest: "1.0" # no information available
+    latestReleaseDate: 2008-02-26
 
 ---
 
