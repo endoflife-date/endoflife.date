@@ -16,7 +16,6 @@ auto:
 
 releases:
 -   releaseCycle: "2023.2"
-    lts: false
     releaseDate: 2023-11-14
     eol: false
     latest: "2023.2.5f1"
