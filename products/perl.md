@@ -13,9 +13,9 @@ releaseDateColumn: true
 eolColumn: Critical security patches
 
 identifiers:
-  -   purl:  pkg:apk/alpine/perl
-  -   purl:  pkg:deb/debian/perl
-  -   purl:  pkg:generic/perl
+-   purl:  pkg:apk/alpine/perl
+-   purl:  pkg:deb/debian/perl
+-   purl:  pkg:generic/perl
 
 auto:
 -   git: https://github.com/Perl/perl5.git
