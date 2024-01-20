@@ -14,7 +14,7 @@ releaseDateColumn: true
 extendedSupportColumn: true
 
 identifiers:
--   purl: pkg:github/ionic-team/ionic
+-   purl: pkg:github/ionic-team/ionic-framework
 -   purl: pkg:npm/%40ionic/core
 
 auto:

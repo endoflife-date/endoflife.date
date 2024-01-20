@@ -12,8 +12,6 @@ activeSupportColumn: true
 identifiers:
 -   purl: pkg:deb/ubuntu/php
 -   purl: pkg:deb/debian/php
--   purl: pkg:apk/alpine/php
--   purl: pkg:alpm/arch/php
 
 auto:
 -   custom: true

@@ -15,9 +15,6 @@ eolColumn: Critical security patches
 identifiers:
   -   purl:  pkg:apk/alpine/perl
   -   purl:  pkg:deb/debian/perl
-  -   purl:  pkg:deb/perl
-  -   purl:  pkg:ipk/perl
-  -   purl:  pkg:rpm/perl
   -   purl:  pkg:generic/perl
 
 auto:

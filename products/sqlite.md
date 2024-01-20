@@ -15,7 +15,6 @@ identifiers:
 -   purl:  pkg:generic/sqlite
 -   purl:  pkg:apk/alpine/sqlite
 -   purl:  pkg:github/sqlite/sqlite
--   purl:  pkg:rpm/sqlite
 
 
 # This git mirror only contains versions from 3.6.10.

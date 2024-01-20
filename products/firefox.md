@@ -12,8 +12,7 @@ releaseDateColumn: true
 
 identifiers:
 -   purl:  pkg:apk/alpine/firefox
--   purl:  pkg:deb/debian/firefox
--   purl:  pkg:deb/firefox
+-   purl:  pkg:deb/debian/firefox-esr
 -   purl:  pkg:generic/firefox
 
 auto:

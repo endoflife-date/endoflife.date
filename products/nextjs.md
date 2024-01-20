@@ -14,7 +14,6 @@ releaseDateColumn: true
 identifiers:
 -   purl: pkg:npm/next.js
 -   purl: pkg:github/vercel/next.js
--   purl: pkg:github/zeit/next.js
 
 auto:
 -   npm: next

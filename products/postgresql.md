@@ -21,9 +21,7 @@ identifiers:
 -   repology: postgresql
 -   purl: pkg:generic/postgresql
 -   purl: pkg:docker/library/postgres
--   purl: pkg:apk/alpine/postgresql
 -   purl: pkg:deb/ubuntu/postgresql
--   purl: pkg:rpm/opensuse/postgresql
 
 releases:
 -   releaseCycle: "16"
