@@ -130,7 +130,7 @@ releases:
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
-    eol: 2024-01-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eol: 2024-01-10 # announced https://lore.kernel.org/lkml/2024011046-ecology-tiptoeing-ce50@gregkh/
     latest: "4.14.336"
     latestReleaseDate: 2024-01-10
 
