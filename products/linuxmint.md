@@ -4,6 +4,8 @@ category: os
 tags: linux-distribution
 iconSlug: linuxmint
 permalink: /linuxmint
+alternate_urls:
+-   /linux-mint
 versionCommand: cat /etc/linuxmint/info
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
