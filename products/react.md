@@ -9,6 +9,10 @@ changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/facebook/react
+-   purl: pkg:npm/react
+
 # NPM dates are more accurate than git tag dates.
 auto:
 -   npm: react

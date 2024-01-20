@@ -16,6 +16,7 @@ identifiers:
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
+-   purl: pkg:deb/debian/zookeeper
 
 auto:
 -   maven: org.apache.zookeeper/zookeeper

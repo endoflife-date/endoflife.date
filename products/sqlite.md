@@ -11,6 +11,11 @@ changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|r
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   purl:  pkg:generic/sqlite
+-   purl:  pkg:apk/alpine/sqlite
+-   purl:  pkg:github/sqlite/sqlite
+
 # This git mirror only contains versions from 3.6.10.
 auto:
 -   git: https://github.com/sqlite/sqlite.git

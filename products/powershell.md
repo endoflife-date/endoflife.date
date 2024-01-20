@@ -14,6 +14,9 @@ changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATE
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   purl:  pkg:github/powershell/powershell
+
 auto:
 -   git: https://github.com/PowerShell/PowerShell.git
 

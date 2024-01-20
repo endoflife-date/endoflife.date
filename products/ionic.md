@@ -13,6 +13,10 @@ eolColumn: Maintenance
 releaseDateColumn: true
 extendedSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/ionic-team/ionic-framework
+-   purl: pkg:npm/%40ionic/core
+
 auto:
 -   git: https://github.com/ionic-team/ionic-framework.git
 

@@ -11,6 +11,9 @@ changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/emberjs/ember.js
+
 # NPM is more accurate than git. Version 1.0.0 to 2.11.0 are not on NPM, but 1.x and 2.x cycles are
 # not displayed on this page so it's not a big deal.
 auto:

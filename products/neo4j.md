@@ -11,6 +11,9 @@ changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 eolColumn: Support Status
 releaseDateColumn: true
 
+identifiers:
+-   purl:  pkg:github/neo4j/neo4j
+
 auto:
 -   git: https://github.com/neo4j/neo4j.git
 

@@ -21,6 +21,7 @@ identifiers:
 -   purl: pkg:rpm/amzn/mariadb-server
 -   purl: pkg:rpm/redhat/mariadb-server
 -   purl: pkg:rpm/centos/mariadb-server
+-   purl: pkg:rpm/opensuse/mariadb
 
 auto:
 -   git: https://github.com/MariaDB/server.git

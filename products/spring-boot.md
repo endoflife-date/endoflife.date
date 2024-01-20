@@ -18,6 +18,7 @@ auto:
 
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot
+-   purl: pkg:github/spring-projects/spring-boot
 
 # EOL dates can be found on https://spring.io/projects/spring-boot#support
 releases:

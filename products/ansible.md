@@ -15,6 +15,9 @@ eolColumn: Supported
 
 identifiers:
 -   purl: pkg:pypi/ansible
+-   purl: pkg:deb/debian/ansible
+-   purl: pkg:apk/alpine/ansible
+-   purl: pkg:github/ansible/ansible
 -   repology: ansible
 
 auto:
