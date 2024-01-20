@@ -222,12 +222,15 @@ auto:
   # For example, for Apache Maven:
   - git: https://github.com/apache/maven.git
 
-    # Python-compatible regex that defines how the tags above should translate to releases (optional).
+    # Python-compatible regex that defines how the tags above should translate to versions (optional).
     # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
     # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
     # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
     # skip over any special releases (such as nightly,beta,pre,rc...).
     regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+
+    # Python-compatible regex that defines which tags should be excluded (optional).
+    regex_exclude: ^v99.99.99$
 
     # A liquid template using the captured variables from the regex above that renders the final version
     # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
