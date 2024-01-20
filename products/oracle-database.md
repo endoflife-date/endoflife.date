@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
-    eol: 2024-04-30
+    eol: 2025-04-30
     extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
