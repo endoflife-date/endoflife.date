@@ -84,12 +84,14 @@ releases:
 
 ---
 
-> [Zerto](https://www.zerto.com/zerto-platform/overview/) is a commercial product that provides disaster recovery, ransomware resilience and workload mobility software for virtualized infrastructures and cloud environments.
+> [Zerto](https://www.zerto.com/zerto-platform/overview/) is a commercial product that provides
+> disaster recovery, ransomware resilience and workload mobility software for virtualized
+> infrastructures and cloud environments.
 
 Support for Zerto always require an active maintenance contract and is divided into two phases.
 
-End of Bug Fixes: commercially reasonable efforts for a solution will be taken,
-but new bugs will not be resolved, unless they are critical.
+End of Bug Fixes: commercially reasonable efforts for a solution will be taken, but new bugs will
+not be resolved, unless they are critical.
 
 End of Support Life: the version is no longer supported and an upgrade is required before
 troubleshooting can be started.
