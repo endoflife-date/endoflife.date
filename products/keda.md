@@ -17,26 +17,32 @@ identifiers:
 -   purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
 -   purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
-# See https://github.com/kedacore/keda?tab=security-ov-file#readme.
 # Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md.
 releases:
+-   releaseCycle: "2.13"
+    releaseDate: 2024-01-18
+    eol: 2024-07-09 # expected releaseDate of 2.15
+    supportedKubernetesVersions: 1.26 - 1.28
+    latest: "2.13.0"
+    latestReleaseDate: 2024-01-18
+
 -   releaseCycle: "2.12"
     releaseDate: 2023-09-28
-    eol: false
+    eol: 2024-04-12 # expected releaseDate of 2.14
     supportedKubernetesVersions: 1.26 - 1.28
     latest: "2.12.1"
     latestReleaseDate: 2023-11-27
 
 -   releaseCycle: "2.11"
     releaseDate: 2023-06-22
-    eol: 2024-01-11 # expected releaseDate of 2.13
+    eol: 2024-01-18
     supportedKubernetesVersions: 1.25 - 1.27
     latest: "2.11.2"
     latestReleaseDate: 2023-07-27
 
 -   releaseCycle: "2.10"
     releaseDate: 2023-03-09
-    eol: 2023-09-26 # expected releaseDate of 2.12
+    eol: 2023-09-28
     supportedKubernetesVersions: 1.24 - 1.26
     latest: "2.10.1"
     latestReleaseDate: 2023-04-13
