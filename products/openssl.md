@@ -45,6 +45,7 @@ releases:
     extendedSupport: true
     latest: "1.1.1w"
     latestReleaseDate: 2023-09-12
+    link: https://www.openssl.org/news/changelog.txt
 
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
