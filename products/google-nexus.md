@@ -92,7 +92,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_Player
     supportedAndroidVersions: 5.0 - 8.0 # https://en.wikipedia.org/wiki/Nexus_Player#
 
--   releaseCycle: "6P"
+-   releaseCycle: "6p"
     releaseLabel: "Nexus 6P"
     releaseDate: 2015-09-29
     support: 2018-09-28
