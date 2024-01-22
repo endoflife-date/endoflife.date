@@ -101,7 +101,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_6P
     supportedAndroidVersions: 6.0 - 8.1 # https://www.gsmarena.com/huawei_nexus_6p-7588.php
 
--   releaseCycle: "5X"
+-   releaseCycle: "5x"
     releaseLabel: "Nexus 5X"
     releaseDate: 2015-09-29
     support: 2017-09-28
