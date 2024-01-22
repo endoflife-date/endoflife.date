@@ -5,7 +5,7 @@ tags: google mobile-phone tablet
 iconSlug: google
 permalink: /google-nexus
 versionCommand: "Settings -> About Phone -> Regulatory labels"
-releasePolicyLink: https://support.google.com/nexus/answer/4457705
+releasePolicyLink: https://support.google.com/nexus/answer/11227897
 releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: true
