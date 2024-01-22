@@ -20,7 +20,7 @@ customColumns:
 
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
--   releaseCycle: "One"
+-   releaseCycle: "one"
     releaseLabel: "Nexus One"
     releaseDate: 2010-01-05
     support: 2012-01-04
