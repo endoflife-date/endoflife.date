@@ -38,7 +38,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_S
     supportedAndroidVersions: 2.3 - 4.1 # https://www.gsmarena.com/samsung_google_nexus_s-3620.php
 
--   releaseCycle: "Q"
+-   releaseCycle: "q"
     releaseLabel: "Nexus Q"
     releaseDate: 2012-06-27
     support: 2013-07-31
