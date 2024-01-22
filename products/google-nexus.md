@@ -83,7 +83,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_6
     supportedAndroidVersions: 5.0 - 7.1.1 # https://www.gsmarena.com/motorola_nexus_6-6604.php
 
--   releaseCycle: "Player"
+-   releaseCycle: "player"
     releaseLabel: "Nexus Player"
     releaseDate: 2014-11-03
     support: 2016-11-02
