@@ -29,7 +29,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Nexus_One
     supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
 
--   releaseCycle: "S"
+-   releaseCycle: "s"
     releaseLabel: "Nexus S"
     releaseDate: 2010-12-16
     support: 2012-12-15
