@@ -111,7 +111,7 @@ releases:
     supportedAndroidVersions: 6.0 - 8.1 # https://www.gsmarena.com/lg_nexus_5x-7556.php
 ---
 
-> Nexus is a discontinued line of Android devices by Google and known for providing a pure Android experience.
+> Google Nexus is a discontinued line of Android devices designed and supported by Google. They were known for providing a pure Android experience.
 >
 > Nexus devices were succeeded by the Pixel series, which continues the tradition of timely
 > software updates and a seamless Android experience.
