@@ -9,37 +9,37 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/vdukhovni/postfix.git
     regex_exclude: # tags before 3.3 don't have the correct date
-    - ^v[0-2]\.
-    - ^v3\.[0-2]\.
+    -   ^v[0-2]\.
+    -   ^v3\.[0-2]\.
 
 # eol(R) = releaseDate(R+4)
 releases:
 -   releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
-    latest: "3.8.4"
-    latestReleaseDate: 2023-12-22
+    latest: "3.8.5"
+    latestReleaseDate: 2024-01-22
     link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-02-06
     eol: false
-    latest: "3.7.9"
-    latestReleaseDate: 2023-12-22
+    latest: "3.7.10"
+    latestReleaseDate: 2024-01-22
     link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.6"
     releaseDate: 2021-04-29
     eol: false
-    latest: "3.6.13"
-    latestReleaseDate: 2023-12-22
+    latest: "3.6.14"
+    latestReleaseDate: 2024-01-22
     link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.5"
     releaseDate: 2020-03-15
     eol: false
-    latest: "3.5.23"
-    latestReleaseDate: 2023-12-22
+    latest: "3.5.24"
+    latestReleaseDate: 2024-01-22
     link: https://www.postfix.org/announcements/postfix-3.8.2.html
 
 -   releaseCycle: "3.4"
