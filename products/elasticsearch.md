@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch
-category: db
+category: database
 tags: elastic java-runtime
 iconSlug: elasticsearch
 permalink: /elasticsearch
@@ -25,14 +25,14 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2024-08-10 # later of 2024-08-10 or 6 months after the release date of 9.0
-    latest: "8.11.3"
-    latestReleaseDate: 2023-12-12
+    latest: "8.12.0"
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-10
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.16"
-    latestReleaseDate: 2023-12-12
+    latest: "7.17.17"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "6"
     releaseDate: 2017-11-14

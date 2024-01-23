@@ -17,15 +17,15 @@ releases:
     releaseDate: 2022-11-16
     support: true
     eol: false
-    latest: "3.9.0"
-    latestReleaseDate: 2023-12-25
+    latest: "3.9.3"
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
     support: 2022-11-16
     eol: 2024-06-30
-    latest: "2.17.2"
-    latestReleaseDate: 2023-10-24
+    latest: "2.17.3"
+    latestReleaseDate: 2024-01-12
 
 ---
 

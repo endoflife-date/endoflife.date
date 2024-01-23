@@ -16,7 +16,14 @@ auto:
 -   git: https://github.com/moby/moby.git
     regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
+# For EOL, see open milestones on https://github.com/moby/moby/milestones.
 releases:
+-   releaseCycle: "25.0"
+    releaseDate: 2024-01-19
+    eol: false
+    latest: "25.0.0"
+    latestReleaseDate: 2024-01-19
+
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
     eol: false

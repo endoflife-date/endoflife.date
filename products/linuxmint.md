@@ -4,6 +4,8 @@ category: os
 tags: linux-distribution
 iconSlug: linuxmint
 permalink: /linuxmint
+alternate_urls:
+-   /linux-mint
 versionCommand: cat /etc/linuxmint/info
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
@@ -11,6 +13,15 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 releases:
+-   releaseCycle: "21.3"
+    codename: Virginia
+    lts: true
+    releaseDate: 2024-01-12
+    support: true
+    eol: 2027-04-01
+    latest: "21.3"
+    link: https://blog.linuxmint.com/?p=4624
+
 -   releaseCycle: "lmde6"
     releaseLabel: "LMDE 6"
     codename: Faye

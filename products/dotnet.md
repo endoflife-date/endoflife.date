@@ -17,7 +17,7 @@ auto:
 -   git: https://github.com/dotnet/core.git
     # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
     # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d{1,2}))?$'
+    regex_exclude: '^v?\d+\.\d+\.\d{3,}'
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App
@@ -49,21 +49,21 @@ releases:
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.0"
-    latestReleaseDate: 2023-11-14
+    latest: "8.0.1"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.14"
-    latestReleaseDate: 2023-11-14
+    latest: "7.0.15"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "6.0"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
-    latest: "6.0.25"
-    latestReleaseDate: 2023-11-14
+    latest: "6.0.26"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "5.0"
     releaseDate: 2020-11-10

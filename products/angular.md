@@ -14,7 +14,7 @@ activeSupportWarnThreshold: 30
 eolWarnThreshold: 90
 
 identifiers:
--   purl: pkg:npm/@angular/core
+-   purl: pkg:npm/%40angular/core # purl are url-encoded
 -   purl: pkg:github/angular/angular
 
 auto:
@@ -25,8 +25,8 @@ releases:
     releaseDate: 2023-11-08
     support: 2024-05-08
     eol: 2025-05-15
-    latest: "17.0.8"
-    latestReleaseDate: 2023-12-21
+    latest: "17.1.0"
+    latestReleaseDate: 2024-01-17
     extendedSupport: false
 
 -   releaseCycle: "16"

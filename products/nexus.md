@@ -10,6 +10,9 @@ alternate_urls:
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   purl:  pkg:github/sonatype/nexus-public
+
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
     regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
@@ -19,8 +22,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.63.0-01"
-    latestReleaseDate: 2023-12-05
+    latest: "3.64.0-04"
+    latestReleaseDate: 2024-01-15
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"

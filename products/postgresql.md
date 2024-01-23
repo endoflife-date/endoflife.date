@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL
-category: db
+category: database
 iconSlug: postgresql
 permalink: /postgresql
 alternate_urls:
@@ -21,6 +21,7 @@ identifiers:
 -   repology: postgresql
 -   purl: pkg:generic/postgresql
 -   purl: pkg:docker/library/postgres
+-   purl: pkg:deb/ubuntu/postgresql
 
 releases:
 -   releaseCycle: "16"

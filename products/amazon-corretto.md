@@ -47,10 +47,9 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
-    # Not yet announced on https://aws.amazon.com/corretto/faqs/
-    eol: false
-    latest: "21.0.1.12.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2030-10-01
+    latest: "21.0.2.13.1"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -91,23 +90,23 @@ releases:
     eol: 2021-03-16
     latest: "15.0.2.7.1"
     latestReleaseDate: 2021-01-21
-    link:
+    link: 
       https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-02-18
-    eol: 2027-09-01
-    latest: "11.0.21.9.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2027-10-01
+    latest: "11.0.22.7.1"
+    latestReleaseDate: 2024-01-16
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-02-20
-    eol: 2026-06-30
-    latest: "8.392.08.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2026-07-01
+    latest: "8.402.08.1"
+    latestReleaseDate: 2024-01-19
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: etcd
-category: db
+category: database
 tags: cncf
 iconSlug: etcd
 permalink: /etcd
@@ -35,8 +35,8 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: false
-    latest: '3.4.28'
-    latestReleaseDate: 2023-11-23
+    latest: '3.4.29'
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "3.3"
     releaseDate: 2018-02-01

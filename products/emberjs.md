@@ -11,6 +11,9 @@ changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/emberjs/ember.js
+
 # NPM is more accurate than git. Version 1.0.0 to 2.11.0 are not on NPM, but 1.x and 2.x cycles are
 # not displayed on this page so it's not a big deal.
 auto:
@@ -28,19 +31,20 @@ auto:
 # - eol(x) = release(x+1)
 releases:
 -   releaseCycle: "5.5"
-    releaseDate: &id001 2023-12-11
+    releaseDate: 2023-12-11
 
     support: true
     eol: false
     latest: "5.5.0"
-    latestReleaseDate: *id001
+    latestReleaseDate: 2023-12-11
+
 -   releaseCycle: "5.4"
     releaseDate: 2023-10-30
     lts: 2023-12-11
     support: 2024-08-19
     eol: 2024-12-23
-    latest: "5.4.0"
-    latestReleaseDate: 2023-10-30
+    latest: "5.4.1"
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "5.3"
     releaseDate: 2023-09-18
@@ -75,8 +79,8 @@ releases:
     lts: 2023-05-15
     support: 2024-01-22
     eol: 2024-05-27
-    latest: "4.12.3"
-    latestReleaseDate: 2023-06-30
+    latest: "4.12.4"
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "4.8"
     lts: 2022-11-28

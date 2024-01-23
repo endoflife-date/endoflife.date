@@ -10,6 +10,11 @@ changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 
+identifiers:
+-   purl:  pkg:apk/alpine/firefox
+-   purl:  pkg:deb/debian/firefox-esr
+-   purl:  pkg:generic/firefox
+
 auto:
 -   custom: true
 
@@ -20,8 +25,8 @@ releases:
 -   releaseCycle: "121"
     releaseDate: 2023-12-19
     eol: false
-    latest: "121.0"
-    latestReleaseDate: 2023-12-19
+    latest: "121.0.1"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "120"
     releaseDate: 2023-11-21

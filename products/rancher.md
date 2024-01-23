@@ -14,7 +14,7 @@ eolColumn: Limited Support
 eolWarnThreshold: 121
 
 identifiers:
--   purl: docker:rancher/rancher
+-   purl: pkg:docker/rancher/rancher
 
 auto:
 -   git: https://github.com/rancher/rancher.git
@@ -25,8 +25,8 @@ releases:
     releaseDate: 2023-12-05
     support: true # to update once defined on https://www.suse.com/lifecycle#rancher
     eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
-    latest: "2.8.0"
-    latestReleaseDate: 2023-12-05
+    latest: "2.8.1"
+    latestReleaseDate: 2024-01-18
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-11-16

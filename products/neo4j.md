@@ -1,6 +1,6 @@
 ---
 title: Neo4j
-category: db
+category: database
 tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
@@ -10,6 +10,9 @@ releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 eolColumn: Support Status
 releaseDateColumn: true
+
+identifiers:
+-   purl:  pkg:github/neo4j/neo4j
 
 auto:
 -   git: https://github.com/neo4j/neo4j.git

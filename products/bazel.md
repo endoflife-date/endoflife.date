@@ -22,16 +22,16 @@ releases:
     releaseDate: 2023-12-11
     support: true # releaseDate(8)
     eol: 2026-12-11
-    latest: "7.0.0"
-    latestReleaseDate: 2023-12-11
+    latest: "7.0.1"
+    latestReleaseDate: 2024-01-18
 
 -   releaseCycle: "6"
     lts: true
     releaseDate: 2022-12-19
     support: 2023-12-11 # releaseDate(7)
     eol: 2025-12-19
-    latest: "6.4.0"
-    latestReleaseDate: 2023-10-19
+    latest: "6.5.0"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "5"
     lts: true

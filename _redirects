@@ -42,8 +42,9 @@ layout: null
 # A few permanent redirects for removed pages
 /tags/api-gateway                  /tags/web-server
 /tags/configuration-management     /
+/tags/db                           /tags/database
 /tags/library                      /tags/framework
-/tags/managed-mysql                /tags/db
-/tags/managed-postgresql           /tags/db
+/tags/managed-mysql                /tags/database
+/tags/managed-postgresql           /tags/database
 /tags/package-manager              /tags/build-tool
 /tags/redhat                       /tags/red-hat

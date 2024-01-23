@@ -1,6 +1,6 @@
 ---
 title: OpenSearch
-category: db
+category: database
 tags: amazon java-runtime
 iconSlug: opensearch
 permalink: /opensearch
@@ -37,7 +37,7 @@ releases:
 
 ## Support
 
-**Active Development**: The latest major version receives new features, bug fixes, and security patches. 
+**Active Development**: The latest major version receives new features, bug fixes, and security patches.
 **Maintenance Support**: includes bug fixes and security patches. New features might be back-ported as
   community contributions, but will not result in new releases.
 

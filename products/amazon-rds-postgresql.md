@@ -1,7 +1,7 @@
 ---
 title: Amazon RDS for PostgreSQL
 category: service
-tags: amazon
+tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-postgresql
 releasePolicyLink:

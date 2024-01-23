@@ -237,7 +237,7 @@ releases:
 
 iPad Air, iPad Mini 2, and iPad Mini 3 are still receiving [iOS 12 security updates](https://support.apple.com/103015).
 
-Apple maintains a list of Supported iPhone models
+Apple maintains a list of Supported iPad models
 [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).
 
 Support information for iPadOS versions are also available [on endoflife.date](/ipados).

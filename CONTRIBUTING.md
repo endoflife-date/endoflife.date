@@ -42,10 +42,10 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 title: Timeturner
 
 # Category of the product (mandatory).
-# Possible values are os,db,app,lang,framework,device,service,server-app.
+# Possible values are os,database,app,lang,framework,device,service,server-app.
 # If you add a new value, please mention it in the PR Description. Some rough guidelines:
 # - os is for operating systems (and similar projects),
-# - db is for databases,
+# - database is for all kinds of database,
 # - app is for end-user applications,
 # - lang is for programming languages,
 # - framework is for application libraries, SDKs, frameworks...,
@@ -67,7 +67,7 @@ category: os
 # - must be declared with a space-separated string,
 # - must be alphabetically ordered,
 # - must use singular (for example web-server, not web-servers),
-# - must not be an existing category (note that categories are automatically used as tags),
+# - should not be an existing category (note that categories are automatically used as tags),
 # - should be used at least three times, except for tags representing a vendor or a runtime dependency,
 # - must be added for one of the following reasons :
 #   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
@@ -222,12 +222,15 @@ auto:
   # For example, for Apache Maven:
   - git: https://github.com/apache/maven.git
 
-    # Python-compatible regex that defines how the tags above should translate to releases (optional).
+    # Python-compatible regex that defines how the tags above should translate to versions (optional).
     # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
     # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
     # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
     # skip over any special releases (such as nightly,beta,pre,rc...).
     regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+
+    # Python-compatible regex that defines which tags should be excluded (optional).
+    regex_exclude: ^v99.99.99$
 
     # A liquid template using the captured variables from the regex above that renders the final version
     # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
