@@ -30,8 +30,8 @@ releases:
     releaseDate: 2022-12-19
     support: 2023-12-11 # releaseDate(7)
     eol: 2025-12-19
-    latest: "6.4.0"
-    latestReleaseDate: 2023-10-19
+    latest: "6.5.0"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "5"
     lts: true

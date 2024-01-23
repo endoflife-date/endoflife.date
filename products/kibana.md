@@ -21,8 +21,8 @@ releases:
 
 -   releaseCycle: "7"
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.16"
-    latestReleaseDate: 2023-12-12
+    latest: "7.17.17"
+    latestReleaseDate: 2024-01-23
     releaseDate: 2019-04-10
 
 -   releaseCycle: "6"

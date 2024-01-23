@@ -52,8 +52,8 @@ releases:
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     extendedSupport: 2032-03-31
-    latest: "21.0.2+14"
-    latestReleaseDate: 2024-01-17
+    latest: "21.0.2+15"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
@@ -82,8 +82,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     extendedSupport: 2030-03-31
-    latest: "17.0.10+13"
-    latestReleaseDate: 2024-01-17
+    latest: "17.0.10+14"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19

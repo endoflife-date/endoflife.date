@@ -90,8 +90,8 @@ releases:
     lts: true
     releaseDate: 2021-08-01
     eol: 2027-10-31
-    latest: "11.0.22+7"
-    latestReleaseDate: 2024-01-18
+    latest: "11.0.22+7.1"
+    latestReleaseDate: 2024-01-22
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
