@@ -10,8 +10,8 @@ changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANG
 releaseDateColumn: true
 
 identifiers:
--   purl:  pkg:github/hashicorp/terraform
--   purl:  pkg:generic/terraform
+-   purl: pkg:github/hashicorp/terraform
+-   purl: pkg:generic/terraform
 
 auto:
 -   git: https://github.com/hashicorp/terraform.git
@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "1.7"
     releaseDate: 2024-01-17
     eol: false # releaseDate(1.9)
-    latest: "1.7.0"
-    latestReleaseDate: 2024-01-17
+    latest: "1.7.1"
+    latestReleaseDate: 2024-01-24
 
 -   releaseCycle: "1.6"
     releaseDate: 2023-10-04
