@@ -11,9 +11,9 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 
 identifiers:
--   purl:  pkg:apk/alpine/firefox
--   purl:  pkg:deb/debian/firefox-esr
--   purl:  pkg:generic/firefox
+-   purl: pkg:apk/alpine/firefox
+-   purl: pkg:deb/debian/firefox-esr
+-   purl: pkg:generic/firefox
 
 auto:
 -   custom: true
@@ -27,7 +27,7 @@ releases:
     eol: false
     latest: "122.0"
     latestReleaseDate: 2024-01-23
-    
+
 -   releaseCycle: "121"
     releaseDate: 2023-12-19
     eol: 2024-01-23
@@ -68,8 +68,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2024-10-01 # estimated release day for 131 on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "115.6.0"
-    latestReleaseDate: 2023-12-19
+    latest: "115.7.0"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "114"
     releaseDate: 2023-06-06

@@ -9,7 +9,7 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 identifiers:
--   purl:  pkg:github/grafana/grafana
+-   purl: pkg:github/grafana/grafana
 
 auto:
 -   git: https://github.com/grafana/grafana
@@ -22,11 +22,11 @@ auto:
 # - eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "10.3"
-    releaseDate: 2024-01-23
+    releaseDate: 2024-01-22
     support: true
     eol: false
     latest: "10.3.1"
-    latestReleaseDate: 2024-01-23
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24
