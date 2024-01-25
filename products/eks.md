@@ -22,6 +22,13 @@ auto:
 
 # EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-23
+    eol: 2025-03-01
+    extendedSupport: 2026-03-01
+    latest: '1.29-eks-1'
+    latestReleaseDate: 2024-01-23
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-26
     eol: 2024-11-01
