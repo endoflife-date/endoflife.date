@@ -6,7 +6,6 @@ permalink: /icinga2
 versionCommand: icinga2 -V
 releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
 changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/"
-
 activeSupportColumn: true
 releaseDateColumn: true
 
