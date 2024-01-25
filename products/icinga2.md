@@ -122,13 +122,6 @@ releases:
     latest: "2.0.2"
     latestReleaseDate: 2014-08-07
 
--   releaseCycle: "0.0"
-    releaseDate: 2012-10-19
-    support: 2014-06-16
-    eol: true
-    latest: "0.0.11"
-    latestReleaseDate: 2014-05-16
-
 ---
 
 > [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) is an open-source monitoring server, is designed to monitor various aspects  
