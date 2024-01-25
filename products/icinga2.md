@@ -11,8 +11,6 @@ releaseDateColumn: true
 
 auto:
 -   git: https://github.com/Icinga/icinga2
-    # https://regex101.com/r/RFypcP/1
-    regex: ^v(?<major>\d+\.\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+2)
 # support(x) = releaseDate(x+1)
