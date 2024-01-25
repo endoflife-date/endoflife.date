@@ -27,17 +27,18 @@ releases:
     eol: 2024-07-15
     latest: "4.0.12"
     latestReleaseDate: 2024-01-23
+# EOL(3.11) = EOL(3.10) = releaseDate(5.0)
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: 2023-12-15
+    eol: false
     latest: "3.11.16"
     discontinued: true
     latestReleaseDate: 2023-08-20
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
-    eol: 2023-12-15
+    eol: false
     latest: "3.0.29"
     discontinued: true
     latestReleaseDate: 2023-05-15
