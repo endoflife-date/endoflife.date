@@ -7,14 +7,11 @@ permalink: /icingaweb2
 versionCommand: icingacli version
 releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
 changelogTemplate: "https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/"
-
 activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
 -   git: https://github.com/Icinga/icingaweb2
-    # https://regex101.com/r/ZfYzkl/2
-    regex: ^v(?<major>\d+\.\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+2)
 # support(x) = releaseDate(x+1)
