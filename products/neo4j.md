@@ -12,7 +12,7 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 identifiers:
--   purl:  pkg:github/neo4j/neo4j
+-   purl: pkg:github/neo4j/neo4j
 
 auto:
 -   git: https://github.com/neo4j/neo4j.git
@@ -125,9 +125,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-06-30
-    latest: "4.4.29"
+    latest: "4.4.30"
     lts: true
-    latestReleaseDate: 2023-12-21
+    latestReleaseDate: 2024-01-25
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-10
