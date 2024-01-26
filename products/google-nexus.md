@@ -20,78 +20,6 @@ customColumns:
 
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
--   releaseCycle: "one"
-    releaseLabel: "Nexus One"
-    releaseDate: 2010-01-05
-    support: 2012-01-04
-    eol: 2012-01-04
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_One
-    supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
-
--   releaseCycle: "s"
-    releaseLabel: "Nexus S"
-    releaseDate: 2010-12-16
-    support: 2012-12-15
-    eol: 2012-12-15
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_S
-    supportedAndroidVersions: 2.3 - 4.1 # https://www.gsmarena.com/samsung_google_nexus_s-3620.php
-
--   releaseCycle: "q"
-    releaseLabel: "Nexus Q"
-    releaseDate: 2012-06-27
-    support: 2013-07-31
-    eol: 2013-07-31
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_Q
-    supportedAndroidVersions: 4.0 # https://en.wikipedia.org/wiki/Nexus_Q#Hardware_and_software
-
--   releaseCycle: "4"
-    releaseLabel: "Nexus 4"
-    releaseDate: 2012-11-13
-    support: 2015-11-12
-    eol: 2015-11-12
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_4
-    supportedAndroidVersions: 4.2 - 5.1 # https://www.gsmarena.com/lg_nexus_4_e960-5048.php
-
--   releaseCycle: "10"
-    releaseLabel: "Nexus 10"
-    releaseDate: 2012-11-13
-    support: 2014-11-12
-    eol: 2014-11-12
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_10
-    supportedAndroidVersions: 4.2 - 5.1 # https://www.gsmarena.com/samsung_google_nexus_10_p8110-5084.php
-
--   releaseCycle: "7"
-    releaseLabel: "Nexus 7"
-    releaseDate: 2013-07-26
-    support: 2016-07-25
-    eol: 2016-07-25
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_7_(2013)
-    supportedAndroidVersions: 4.3 - 5.1 # https://www.gsmarena.com/asus_google_nexus_7_(2013)-5600.php
-
--   releaseCycle: "6"
-    releaseLabel: "Nexus 6"
-    releaseDate: 2014-10-15
-    support: 2017-10-14
-    eol: 2017-10-14
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_6
-    supportedAndroidVersions: 5.0 - 7.1.1 # https://www.gsmarena.com/motorola_nexus_6-6604.php
-
--   releaseCycle: "player"
-    releaseLabel: "Nexus Player"
-    releaseDate: 2014-11-03
-    support: 2016-11-02
-    eol: 2016-11-02
-    discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_Player
-    supportedAndroidVersions: 5.0 - 8.0 # https://en.wikipedia.org/wiki/Nexus_Player#
-
 -   releaseCycle: "6p"
     releaseLabel: "Nexus 6P"
     releaseDate: 2015-09-29
@@ -109,6 +37,78 @@ releases:
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_5X
     supportedAndroidVersions: 6.0 - 8.1 # https://www.gsmarena.com/lg_nexus_5x-7556.php
+
+-   releaseCycle: "player"
+    releaseLabel: "Nexus Player"
+    releaseDate: 2014-11-03
+    support: 2016-11-02
+    eol: 2016-11-02
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_Player
+    supportedAndroidVersions: 5.0 - 8.0 # https://en.wikipedia.org/wiki/Nexus_Player#
+
+-   releaseCycle: "6"
+    releaseLabel: "Nexus 6"
+    releaseDate: 2014-10-15
+    support: 2017-10-14
+    eol: 2017-10-14
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_6
+    supportedAndroidVersions: 5.0 - 7.1.1 # https://www.gsmarena.com/motorola_nexus_6-6604.php
+
+-   releaseCycle: "7"
+    releaseLabel: "Nexus 7"
+    releaseDate: 2013-07-26
+    support: 2016-07-25
+    eol: 2016-07-25
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_7_(2013)
+    supportedAndroidVersions: 4.3 - 5.1 # https://www.gsmarena.com/asus_google_nexus_7_(2013)-5600.php
+
+-   releaseCycle: "q"
+    releaseLabel: "Nexus Q"
+    releaseDate: 2012-06-27
+    support: 2013-07-31
+    eol: 2013-07-31
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_Q
+    supportedAndroidVersions: 4.0 # https://en.wikipedia.org/wiki/Nexus_Q#Hardware_and_software
+
+-   releaseCycle: "10"
+    releaseLabel: "Nexus 10"
+    releaseDate: 2012-11-13
+    support: 2014-11-12
+    eol: 2014-11-12
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_10
+    supportedAndroidVersions: 4.2 - 5.1 # https://www.gsmarena.com/samsung_google_nexus_10_p8110-5084.php
+
+-   releaseCycle: "4"
+    releaseLabel: "Nexus 4"
+    releaseDate: 2012-11-13
+    support: 2015-11-12
+    eol: 2015-11-12
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_4
+    supportedAndroidVersions: 4.2 - 5.1 # https://www.gsmarena.com/lg_nexus_4_e960-5048.php
+
+-   releaseCycle: "s"
+    releaseLabel: "Nexus S"
+    releaseDate: 2010-12-16
+    support: 2012-12-15
+    eol: 2012-12-15
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_S
+    supportedAndroidVersions: 2.3 - 4.1 # https://www.gsmarena.com/samsung_google_nexus_s-3620.php
+
+-   releaseCycle: "one"
+    releaseLabel: "Nexus One"
+    releaseDate: 2010-01-05
+    support: 2012-01-04
+    eol: 2012-01-04
+    discontinued: true
+    link: https://en.wikipedia.org/wiki/Nexus_One
+    supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
 ---
 
 > Google Nexus is a discontinued line of Android devices designed and supported by Google. They were known for providing a pure Android experience.
