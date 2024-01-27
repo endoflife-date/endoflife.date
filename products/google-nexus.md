@@ -10,7 +10,7 @@ releaseColumn: false
 releaseDateColumn: true
 activeSupportColumn: true
 discontinuedColumn: true
-eolColumn: Guaranteed Software Updates
+eolColumn: Security Updates
 customColumns:
 -   property: supportedAndroidVersions
     position: after-release-column
@@ -18,7 +18,7 @@ customColumns:
     description: Supported Android versions range
     link: https://endoflife.date/android
 
-# Supported Android versions range is based on https://www.gsmarena.com/.
+# Android and Security are based on https://support.google.com/nexus/answer/11227897.
 releases:
 -   releaseCycle: "6p"
     releaseLabel: "Nexus 6P"
@@ -111,7 +111,6 @@ releases:
     supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
 ---
 
-> Google Nexus is a discontinued line of Android devices designed and supported by Google. They were known for providing a pure Android experience.
+> Google Nexus is a discontinued line of smartphones, tablet computers and streaming media players. They were known for providing a pure Android experience.
 >
-> Alongside the main smartphone products, the line also included tablet computers and streaming media players.
-> Nexus devices were succeeded by the [Google Pixel series](/pixel), which continues the tradition of timely software updates and a seamless Android experience.
+> It started out in January 2010 and reached its end in October 2016, being replaced by the Google Pixel series.
