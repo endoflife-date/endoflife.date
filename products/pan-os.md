@@ -38,10 +38,10 @@ releases:
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
     eol: 2024-12-01
-    latest: "10.1.11-h5"
-    latestReleaseDate: 2024-01-23
+    latest: "10.1.12"
+    latestReleaseDate: 2024-01-25
     link: 
-      https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-11-known-and-addressed-issues/pan-os-10-1-11-h5-addressed-issues
+      https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-12-known-and-addressed-issues/pan-os-10-1-12-addressed-issues
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-07-16

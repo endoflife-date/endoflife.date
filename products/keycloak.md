@@ -10,7 +10,7 @@ releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
--   purl:  pkg:github/keycloak/keycloak
+-   purl: pkg:github/keycloak/keycloak
 
 auto:
 -   git: https://github.com/keycloak/keycloak.git
@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-11-23
     eol: false
-    latest: "23.0.4"
-    latestReleaseDate: 2024-01-08
+    latest: "23.0.5"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "22.0"
     releaseDate: 2023-07-11
