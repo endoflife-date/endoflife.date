@@ -12,9 +12,9 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
--   purl:  pkg:generic/sqlite
--   purl:  pkg:apk/alpine/sqlite
--   purl:  pkg:github/sqlite/sqlite
+-   purl: pkg:generic/sqlite
+-   purl: pkg:apk/alpine/sqlite
+-   purl: pkg:github/sqlite/sqlite
 
 # This git mirror only contains versions from 3.6.10.
 auto:
@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.45.0"
-    latestReleaseDate: 2024-01-15
+    latest: "3.45.1"
+    latestReleaseDate: 2024-01-30
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28
