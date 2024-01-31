@@ -11,7 +11,7 @@ eolColumn: Support Status
 releases:
 -   releaseCycle: "24.2"
     releaseDate: 2024-01-31 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
-    eol: 2024-06-12
+    eol: 2024-11-30
     latest: "24.2.0"
     latestReleaseDate: 2024-01-31
     
