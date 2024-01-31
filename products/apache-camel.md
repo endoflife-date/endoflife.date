@@ -30,8 +30,8 @@ releases:
     releaseDate: 2023-12-19
     eol: 2024-12-26
     supportedJavaVersions: 11, 17
-    latest: "3.22.0"
-    latestReleaseDate: 2023-12-19
+    latest: "3.22.1"
+    latestReleaseDate: 2024-01-25
 
 -   releaseCycle: "4.3"
     releaseDate: 2023-12-11
