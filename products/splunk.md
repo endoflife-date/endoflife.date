@@ -13,6 +13,12 @@ auto:
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
+-   releaseCycle: "9.2"
+    releaseDate: 2024-01-31
+    eol: 2026-01-31
+    latest: "9.2.0"
+    latestReleaseDate: 2024-01-31
+
 -   releaseCycle: "9.1"
     releaseDate: 2023-06-28
     eol: 2025-06-28
