@@ -18,6 +18,14 @@ auto:
 -   custom: true
 
 releases:
+-   releaseCycle: "13"
+    releaseDate: 2024-01-30
+    support: 2026-04-30
+    eol: 2027-10-31
+    extendedSupport: 2030-10-31
+    latest: '13.0.0'
+    latestReleaseDate: 2024-01-30
+
 -   releaseCycle: "12"
     releaseDate: 2022-10-04
     support: 2024-10-31
@@ -77,6 +85,7 @@ releases:
 
 | Version | PHP                                                                 |
 |---------|---------------------------------------------------------------------|
+| 13      | [8.2 - 8.3](https://get.typo3.org/version/13#system-requirements)   |
 | 12      | [8.1 - 8.3](https://get.typo3.org/version/12#system-requirements)   |
 | 11      | [7.4.1 - 8.2](https://get.typo3.org/version/11#system-requirements) |
 | 10      | [7.2 - 7.4](https://get.typo3.org/version/10#system-requirements)   |
