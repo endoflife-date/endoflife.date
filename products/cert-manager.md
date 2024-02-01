@@ -20,7 +20,14 @@ identifiers:
 -   repology: cert-manager
 -   purl: pkg:docker/cert-manager/cert-manager
 
+# eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.14"
+    releaseDate: 2024-01-31
+    eol: false
+    latest: "1.14.0"
+    latestReleaseDate: 2024-01-31
+
 -   releaseCycle: "1.13"
     releaseDate: 2023-09-12
     eol: false
@@ -29,7 +36,7 @@ releases:
 
 -   releaseCycle: "1.12"
     releaseDate: 2023-05-19
-    eol: false
+    eol: 2024-01-31
     latest: "1.12.7"
     latestReleaseDate: 2023-12-12
 
@@ -44,6 +51,5 @@ releases:
 > [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller for Kubernetes and OpenShift workloads
 
 Each release is supported for a period of four months, and they aim to create a new release roughly every two months, accounting for holiday periods, major conferences and other world events.
-
 
 [SemVer](https://semver.org/) is used for all packages released.
