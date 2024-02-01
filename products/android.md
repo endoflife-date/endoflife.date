@@ -93,61 +93,61 @@ releases:
 -   releaseCycle: "4.1"
     codename: Jelly Bean
     releaseDate: 2012-07-09
-    eol: true
+    eol: 2021-01-31
     link: null
 
 -   releaseCycle: "4"
     codename: Ice Cream Sandwich
     releaseDate: 2011-10-18
-    eol: true
+    eol: 2018-12-06
     link: null
 
 -   releaseCycle: "3"
     codename: Honeycomb
     releaseDate: 2011-02-22
-    eol: true
+    eol: 2018-12-06
     link: null
 
 -   releaseCycle: "2.3"
     codename: Gingerbread
     releaseDate: 2010-12-06
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "2.2"
     codename: Froyo
     releaseDate: 2010-05-20
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "2.0"
     codename: Eclair
     releaseDate: 2009-10-26
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "1.6"
     codename: Donut
     releaseDate: 2009-09-15
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "1.5"
     codename: Cupcake
     releaseDate: 2009-04-27
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "1.1"
     codename: Petit Four
     releaseDate: 2009-02-09
-    eol: true
+    eol: 2021-09-27
     link: null
 
 -   releaseCycle: "1.0"
     releaseLabel: "__RELEASE_CYCLE__"
     releaseDate: 2008-09-23
-    eol: true
+    eol: 2021-09-27
     link: null
 
 ---
