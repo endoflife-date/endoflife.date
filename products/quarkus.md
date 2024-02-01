@@ -15,6 +15,8 @@ extendedSupport: Support
 extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
+# Tag and Maven release of new minor versions are usually created
+# a week before the "official" announcement, hence the use of GitHub releases.
 auto:
 -   github_releases: quarkusio/quarkus
     # See https://regex101.com/r/4mf9xU/1 for reference
@@ -24,11 +26,17 @@ auto:
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
-# - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
+-   releaseCycle: "3.7"
+    releaseDate: 2024-01-31
+    eol: false
+    extendedSupport: false
+    latest: "3.7.1"
+    latestReleaseDate: 2024-01-31
+
 -   releaseCycle: "3.6"
     releaseDate: 2023-11-29
-    eol: false
+    eol: 2024-01-31
     extendedSupport: false
     latest: "3.6.9"
     latestReleaseDate: 2024-01-31
