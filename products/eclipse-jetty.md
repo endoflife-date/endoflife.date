@@ -29,8 +29,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "12.0.5"
-    latestReleaseDate: 2023-12-18
+    latest: "12.0.6"
+    latestReleaseDate: 2024-01-30
 
 -   releaseCycle: "11"
     minJvmVersion: 11
@@ -40,8 +40,8 @@ releases:
     support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     extendedSupport: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
-    latest: "11.0.19"
-    latestReleaseDate: 2023-12-15
+    latest: "11.0.20"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "10"
     minJvmVersion: 11
@@ -51,8 +51,8 @@ releases:
     support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     extendedSupport: true
-    latest: "10.0.19"
-    latestReleaseDate: 2023-12-15
+    latest: "10.0.20"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "9.4"
     minJvmVersion: 1.8
