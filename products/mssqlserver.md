@@ -177,7 +177,7 @@ releases:
 -   releaseCycle: "10.50-sp3"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
-    releaseDate: 2014-09-26
+    releaseDate: 2014-07-07
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
