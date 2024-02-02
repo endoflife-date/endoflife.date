@@ -31,8 +31,8 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: false
-    latest: "2022.3.18f1"
-    latestReleaseDate: 2024-01-20
+    latest: "2022.3.19f1"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07
