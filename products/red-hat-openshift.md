@@ -37,16 +37,16 @@ releases:
     support: 2024-01-31
     eol: 2024-11-17
     extendedSupport: false
-    latest: "4.13.30"
-    latestReleaseDate: 2024-01-24
+    latest: "4.13.31"
+    latestReleaseDate: 2024-02-01
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
     support: 2023-08-17
     eol: 2024-07-17
     extendedSupport: 2025-01-17
-    latest: "4.12.47"
-    latestReleaseDate: 2024-01-17
+    latest: "4.12.48"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
