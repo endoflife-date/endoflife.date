@@ -30,7 +30,7 @@ releases:
     releaseDate: 2023-12-15
     support: 2024-06-19
     eol: 2024-12-18
-    extendedSupport: true
+    extendedSupport: false
     latest: "10.2.2"
     latestReleaseDate: 2024-01-16
 
@@ -38,7 +38,7 @@ releases:
     releaseDate: 2023-06-22
     support: 2023-12-15
     eol: 2024-06-19
-    extendedSupport: true
+    extendedSupport: false
     latest: "10.1.8"
     latestReleaseDate: 2024-01-16
 
