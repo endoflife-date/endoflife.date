@@ -4,7 +4,7 @@ category: framework
 tags: google javascript-runtime
 permalink: /angularjs
 alternate_urls:
-  - /angular-js
+-   /angular-js
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
 changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
@@ -13,12 +13,12 @@ eolColumn: Support
 extendedSupportColumn: Extended Long Term Support
 
 auto:
-  - npm: angular
+-   npm: angular
 
 identifiers:
-  - repology: angular.js
-  - purl: pkg:npm/angular
-  - purl: pkg:github/angular/angular.js
+-   repology: angular.js
+-   purl: pkg:npm/angular
+-   purl: pkg:github/angular/angular.js
 
 releases:
 -   releaseCycle: "1.8"
