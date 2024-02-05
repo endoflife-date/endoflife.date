@@ -84,6 +84,7 @@ releases:
     extendedSupport: false
     latest: "1.0.8"
     latestReleaseDate: 2013-11-23
+-
 ---
 
 > AngularJS is a free and open-source JavaScript-based web framework for developing single-page
