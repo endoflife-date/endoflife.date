@@ -53,7 +53,7 @@ releases:
     releaseDate: 2022-06-02
     lts: 2022-12-02
     latestReleaseDate: 2023-03-13
-    extendedSupport: false
+    extendedSupport: yes
 
 -   releaseCycle: "13"
     support: 2022-06-02
@@ -115,6 +115,6 @@ months, with 1-3 minor releases for every major release. There is an
 available.
 
 Commercial support is available for all deprecated versions of Angular through the 
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. 
-
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. For more information about commercial support options visit [HeroDevs' Website](https://www.herodevs.com). 
+ 
 *[LTS]: Long Term Support
