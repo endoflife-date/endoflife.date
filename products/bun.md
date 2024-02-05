@@ -13,6 +13,7 @@ releaseDateColumn: true
 identifiers:
 -   purl: pkg:docker/oven/bun
 -   repology: bun
+-   purl: pkg:github/oven/bun
 
 auto:
 -   git: https://github.com/oven-sh/bun
