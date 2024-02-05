@@ -71,7 +71,8 @@ releases:
 -   releaseCycle: "5.7"
     releaseDate: 2021-06-14
     support: false
-    eol: true
+    # Based on safefive: https://safefive.de/en/faq-2/
+    eol: 2024-08-01
     extendedSupport: true
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
