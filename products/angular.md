@@ -115,6 +115,6 @@ months, with 1-3 minor releases for every major release. There is an
 available.
 
 Commercial support is available for all deprecated versions of Angular through the 
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. For more information about commercial support options visit [HeroDevs' Website](https://www.herodevs.com). 
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. 
  
 *[LTS]: Long Term Support
