@@ -27,7 +27,7 @@ releases:
 
 ---
 
-> [Bun](https://bun.sh/) is a open-source JavaScript all-in-one toolkit
+> [Bun](https://bun.sh/) is a open-source JavaScript runtime that focuses on speed,
+and comes with a bundler, test runner, and a Node.js-compatible package manager.
 
-Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun.
-Bun is an all-in-one JavaScript runtime & toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.
+Bun does not have a clearly defined support policy.
