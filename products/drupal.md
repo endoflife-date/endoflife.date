@@ -134,6 +134,6 @@ bugs and security issues that have been reported are fixed and are released duri
 (US time). The final minor release in major release cycle is a long-term support (LTS) release and
 has extended security coverage.
 
-**Drupal 7** will receive security coverage [until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates) with commercial support available post end-of-life through Drupal's [Certified D7 End of Life Support Partner](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support) HeroDevs.
-
-This will be the final extension of support for Drupal 7.
+**Drupal 7** will receive security coverage 
+[until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
+with commercial support available post end-of-life through Drupal's [Certified D7 End of Life Support Partners](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support).
