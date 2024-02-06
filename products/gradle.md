@@ -42,8 +42,8 @@ releases:
     testedAndroidVersions: 4.1 - 4.2, 7.0 - 7.4
     support: false
     eol: false
-    latest: "7.6.3"
-    latestReleaseDate: 2023-10-04
+    latest: "7.6.4"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "6"
     releaseDate: 2019-11-08
