@@ -22,7 +22,7 @@ releases:
     support: true
     eol: false
     latest: "10.4.0"
-    latestReleaseDate: 2024-02-02
+    latestReleaseDate: 2024-02-05
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"

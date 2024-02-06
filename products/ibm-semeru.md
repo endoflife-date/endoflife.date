@@ -34,8 +34,8 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: false # TBC
-    latest: '21.0.1+12'
-    latestReleaseDate: 2024-01-11
+    latest: '21.0.2+13'
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "17"
     lts: true
@@ -48,15 +48,15 @@ releases:
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-01
-    latest: '11.0.21+9'
-    latestReleaseDate: 2023-11-28
+    latest: '11.0.22+7'
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-01
-    latest: '8u392-b08'
-    latestReleaseDate: 2023-11-28
+    latest: '8u402-b06'
+    latestReleaseDate: 2024-02-05
 
 ---
 
