@@ -7,6 +7,7 @@ permalink: /drupal
 versionCommand: drush status
 releasePolicyLink: https://www.drupal.org/about/core/policies/core-release-cycles/schedule
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
+extendedSupportColumn: Commercial Support
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -29,6 +30,7 @@ releases:
     releaseDate: 2023-12-15
     support: 2024-06-19
     eol: 2024-12-18
+    extendedSupport: false
     latest: "10.2.2"
     latestReleaseDate: 2024-01-16
 
@@ -36,6 +38,7 @@ releases:
     releaseDate: 2023-06-22
     support: 2023-12-15
     eol: 2024-06-19
+    extendedSupport: false
     latest: "10.1.8"
     latestReleaseDate: 2024-01-16
 
@@ -43,6 +46,7 @@ releases:
     releaseDate: 2022-12-15
     support: 2023-06-21
     eol: 2023-12-15
+    extendedSupport: false
     latest: "10.0.11"
     latestReleaseDate: 2023-09-19
 
@@ -50,6 +54,7 @@ releases:
     releaseDate: 2022-12-15
     support: 2023-06-21
     eol: 2023-11-01
+    extendedSupport: false
     latest: "9.5.11"
     latestReleaseDate: 2023-09-19
 
@@ -57,6 +62,7 @@ releases:
     releaseDate: 2022-06-15
     support: 2022-12-14
     eol: 2023-06-21
+    extendedSupport: false
     latest: "9.4.15"
     latestReleaseDate: 2023-05-03
 
@@ -64,6 +70,7 @@ releases:
     releaseDate: 2021-12-08
     support: 2022-06-15
     eol: 2022-12-14
+    extendedSupport: false
     latest: "9.3.22"
     latestReleaseDate: 2022-09-28
 
@@ -71,6 +78,7 @@ releases:
     releaseDate: 2021-06-16
     support: 2021-12-08
     eol: 2022-06-15
+    extendedSupport: false
     latest: "9.2.21"
     latestReleaseDate: 2022-06-10
 
@@ -78,6 +86,7 @@ releases:
     releaseDate: 2020-12-02
     support: 2021-06-16
     eol: 2021-12-08
+    extendedSupport: false
     latest: "9.1.15"
     latestReleaseDate: 2021-11-24
 
@@ -85,6 +94,7 @@ releases:
     releaseDate: 2020-06-03
     support: 2020-12-02
     eol: 2021-06-16
+    extendedSupport: false
     latest: "9.0.14"
     latestReleaseDate: 2021-05-25
 
@@ -92,6 +102,7 @@ releases:
     releaseDate: 2020-06-03
     support: 2020-12-01
     eol: 2021-11-02
+    extendedSupport: false
     latest: "8.9.20"
     latestReleaseDate: 2021-11-17
 
@@ -99,6 +110,7 @@ releases:
     releaseDate: 2019-12-04
     support: 2020-06-03
     eol: 2020-12-01
+    extendedSupport: false
     latest: "8.8.12"
     latestReleaseDate: 2020-11-25
 
@@ -107,6 +119,7 @@ releases:
     releaseDate: 2011-01-05
     support: 2015-11-19
     eol: 2025-01-05
+    extendedSupport: true
     latest: "7.99"
     latestReleaseDate: 2023-12-06
 
@@ -121,6 +134,6 @@ bugs and security issues that have been reported are fixed and are released duri
 (US time). The final minor release in major release cycle is a long-term support (LTS) release and
 has extended security coverage.
 
-**Drupal 7** will receive security coverage [until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates)
-and [limited vendor extended support](https://www.drupal.org/psa-2023-06-07). This will be the final
-extension.
+**Drupal 7** will receive security coverage [until January 5th 2025](https://www.drupal.org/about/core/policies/core-release-cycles/schedule#s-drupal-7-and-9-end-of-life-dates) with commercial support available post end-of-life through Drupal's [Certified D7 End of Life Support Partner](https://www.drupal.org/about/drupal-7/d7eol/partners#commercial-support) HeroDevs.
+
+This will be the final extension of support for Drupal 7.
