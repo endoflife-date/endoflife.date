@@ -18,8 +18,9 @@ identifiers:
 -   purl: pkg:os/mxlinux
 
 auto:
--   distrowatch: mx
-    regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
+  methods:
+  -   distrowatch: mx
+      regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
 
 # EOL dates documented on https://mxlinux.org/previous-releases/.
 # If not documented yet, use Debian eol for support, and extendedSupport for eol.

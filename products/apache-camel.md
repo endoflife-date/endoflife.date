@@ -18,7 +18,8 @@ customColumns:
     link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
 auto:
--   maven: org.apache.camel/camel
+  methods:
+  -   maven: org.apache.camel/camel
 
 # for LTS : eol = releaseDate + 1y
 # for non-LTS : eol(x) = releaseDate(x+1)

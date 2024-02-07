@@ -12,10 +12,11 @@ eolColumn: Community Support
 extendedSupportColumn: Extended Commercial Support
 
 auto:
--   git: https://github.com/rabbitmq/rabbitmq-server.git
-    regex:
-    -   '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
-    -   '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
+  methods:
+  -   git: https://github.com/rabbitmq/rabbitmq-server.git
+      regex:
+      -   '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
+      -   '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
 
 releases:
 -   releaseCycle: "3.12"
@@ -115,8 +116,6 @@ releases:
     latest: "3.0.4"
     latestReleaseDate: 2013-03-06
     link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
-
-
 
 ---
 

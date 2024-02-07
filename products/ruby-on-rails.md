@@ -14,7 +14,8 @@ changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/rails/rails.git
+  methods:
+  -   git: https://github.com/rails/rails.git
 
 releases:
 -   releaseCycle: "7.1"

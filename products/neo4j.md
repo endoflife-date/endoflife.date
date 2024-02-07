@@ -15,7 +15,8 @@ identifiers:
 -   purl: pkg:github/neo4j/neo4j
 
 auto:
--   git: https://github.com/neo4j/neo4j.git
+  methods:
+  -   git: https://github.com/neo4j/neo4j.git
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.

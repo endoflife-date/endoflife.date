@@ -17,7 +17,8 @@ identifiers:
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
 
 auto:
--   maven: org.eclipse.jetty/jetty-server
+  methods:
+  -   maven: org.eclipse.jetty/jetty-server
 
 # Support, EOL and minJavaVersion can be found on https://eclipse.dev/jetty/download.php.
 releases:

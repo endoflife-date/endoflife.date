@@ -18,8 +18,9 @@ identifiers:
 
 # This git mirror only contains versions from 3.6.10.
 auto:
--   git: https://github.com/sqlite/sqlite.git
-    regex: '^version-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
+  methods:
+  -   git: https://github.com/sqlite/sqlite.git
+      regex: '^version-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 releases:
 -   releaseCycle: "3"

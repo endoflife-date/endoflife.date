@@ -19,7 +19,8 @@ identifiers:
 -   purl: pkg:deb/debian/zookeeper
 
 auto:
--   maven: org.apache.zookeeper/zookeeper
+  methods:
+  -   maven: org.apache.zookeeper/zookeeper
 
 # support(X) = releaseDate(X+2)
 # eol(X) ~= releaseDate(X+2)+6m, unless declared

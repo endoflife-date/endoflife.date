@@ -13,8 +13,9 @@ identifiers:
 -   repology: docker-ce
 
 auto:
--   git: https://github.com/moby/moby.git
-    regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
+  methods:
+  -   git: https://github.com/moby/moby.git
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
 # For EOL, see open milestones on https://github.com/moby/moby/milestones.
 releases:

@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/cert-manager/cert-manager.git
+  methods:
+  -   git: https://github.com/cert-manager/cert-manager.git
 
 identifiers:
 -   repology: cert-manager

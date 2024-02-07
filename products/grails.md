@@ -12,7 +12,8 @@ eolColumn: Active Maintenance
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/grails/grails-core.git
+  methods:
+  -   git: https://github.com/grails/grails-core.git
 
 releases:
 -   releaseCycle: "6"

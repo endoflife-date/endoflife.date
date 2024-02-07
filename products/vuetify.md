@@ -11,7 +11,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   npm: vuetify
+  methods:
+  -   npm: vuetify
 
 identifiers:
 -   purl: pkg:npm/vuetify

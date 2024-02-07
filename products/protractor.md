@@ -10,7 +10,8 @@ eolColumn: Community Support
 extendedSupportColumn: Commercial Support
 
 auto:
--   npm: protractor
+  methods:
+  -   npm: protractor
 
 identifiers:
 -   purl: pkg:npm/protractor

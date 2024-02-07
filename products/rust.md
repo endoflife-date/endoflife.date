@@ -13,7 +13,8 @@ versionCommand: rustc --version
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/rust-lang/rust.git
+  methods:
+  -   git: https://github.com/rust-lang/rust.git
 
 # eol(x) = releaseDate(x+1)
 releases:

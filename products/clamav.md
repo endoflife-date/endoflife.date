@@ -8,8 +8,9 @@ changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Cisco-Talos/clamav.git
-    regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/Cisco-Talos/clamav.git
+      regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:

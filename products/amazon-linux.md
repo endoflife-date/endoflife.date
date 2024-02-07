@@ -19,9 +19,10 @@ identifiers:
 -   purl: pkg:docker/library/amazonlinux
 
 auto:
--   docker_hub: library/amazonlinux
+  methods:
+  -   docker_hub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases
-    regex: ^(?:\d+(\.\d+){2,4})$
+      regex: ^(?:\d+(\.\d+){2,4})$
 
 releases:
 

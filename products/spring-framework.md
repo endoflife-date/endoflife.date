@@ -14,8 +14,9 @@ eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
 auto:
--   git: https://github.com/spring-projects/spring-framework.git
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
+  methods:
+  -   git: https://github.com/spring-projects/spring-framework.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
 
 # EOL and extended support date available on https://spring.io/projects/spring-framework#support.
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.

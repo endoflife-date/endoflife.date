@@ -19,7 +19,8 @@ identifiers:
 -   repology: elasticsearch
 
 auto:
--   git: https://github.com/elastic/elasticsearch.git
+  methods:
+  -   git: https://github.com/elastic/elasticsearch.git
 
 releases:
 -   releaseCycle: "8"

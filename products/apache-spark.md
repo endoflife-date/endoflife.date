@@ -14,7 +14,8 @@ eolColumn: Support
 versionCommand: spark-shell --version
 
 auto:
--   git: https://github.com/apache/spark.git
+  methods:
+  -   git: https://github.com/apache/spark.git
 
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.

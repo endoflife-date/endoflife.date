@@ -15,7 +15,8 @@ releaseDateColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:
--   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  methods:
+  -   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel

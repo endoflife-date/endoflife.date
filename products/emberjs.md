@@ -17,7 +17,8 @@ identifiers:
 # NPM is more accurate than git. Version 1.0.0 to 2.11.0 are not on NPM, but 1.x and 2.x cycles are
 # not displayed on this page so it's not a big deal.
 auto:
--   npm: ember-source
+  methods:
+  -   npm: ember-source
 
 # For LTS :
 # every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.

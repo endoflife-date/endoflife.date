@@ -215,62 +215,62 @@ customColumns:
 # The presence of such configuration enables a footer note on the product page
 # informing users that the latest releases are automatically updated.
 auto:
+  methods:
+    # Configuration for auto-update based on git.
+    # Any valid git clone URL will work, but support for partialClone is necessary
+    # (GitHub and GitLab support it).
+    # For example, for Apache Maven:
+    - git: https://github.com/apache/maven.git
 
-  # Configuration for auto-update based on git.
-  # Any valid git clone URL will work, but support for partialClone is necessary
-  # (GitHub and GitLab support it).
-  # For example, for Apache Maven:
-  - git: https://github.com/apache/maven.git
+      # Python-compatible regex that defines how the tags above should translate to versions (optional).
+      # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
+      # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
+      # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
+      # skip over any special releases (such as nightly,beta,pre,rc...).
+      regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
 
-    # Python-compatible regex that defines how the tags above should translate to versions (optional).
-    # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
-    # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
-    # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
-    # skip over any special releases (such as nightly,beta,pre,rc...).
-    regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+      # Python-compatible regex that defines which tags should be excluded (optional).
+      regex_exclude: ^v99.99.99$
 
-    # Python-compatible regex that defines which tags should be excluded (optional).
-    regex_exclude: ^v99.99.99$
+      # A liquid template using the captured variables from the regex above that renders the final version
+      # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
+      # You can use liquid templating here.
+      template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
-    # A liquid template using the captured variables from the regex above that renders the final version
-    # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
-    # You can use liquid templating here.
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
+    # Configuration for auto-update based on Docker Hub.
+    # The value must be the "owner/repo" combination for a docker hub public image.
+    # Use "library" as the owner name for an official docker/community image.
+    # For example, for PostgreSQL:
+    - docker_hub: library/postgres
 
-  # Configuration for auto-update based on Docker Hub.
-  # The value must be the "owner/repo" combination for a docker hub public image.
-  # Use "library" as the owner name for an official docker/community image.
-  # For example, for PostgreSQL:
-  - docker_hub: library/postgres
+    # Configuration for auto-update based on the npm registry.
+    # The value must be the package identifier on https://www.npmjs.com .
+    # For example, for Vue:
+    - npm: vue
 
-  # Configuration for auto-update based on the npm registry.
-  # The value must be the package identifier on https://www.npmjs.com .
-  # For example, for Vue:
-  - npm: vue
+    # Configuration for auto-update based on DistroWatch.
+    # The value must be the distribution ID. It can be found in the distribution URL.
+    # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
+    - distrowatch: debian
 
-  # Configuration for auto-update based on DistroWatch.
-  # The value must be the distribution ID. It can be found in the distribution URL.
-  # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
-  - distrowatch: debian
+      # The Python-compatible regex used to parse headlines (mandatory).
+      # Use named capturing groups to capture the version or version's parts.
+      # You can also pass a list of regexes here and matches for any of those will be considered.
+      regex: 'Distribution Release: (?P<version>\d+.\d+)'
 
-    # The Python-compatible regex used to parse headlines (mandatory).
-    # Use named capturing groups to capture the version or version's parts.
-    # You can also pass a list of regexes here and matches for any of those will be considered.
-    regex: 'Distribution Release: (?P<version>\d+.\d+)'
+      # A liquid template using the captured variables from the regex above that renders the final version
+      # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
+      # You can use liquid templating here.
+      template: '{{version}}'
 
-    # A liquid template using the captured variables from the regex above that renders the final version
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
-    # You can use liquid templating here.
-    template: '{{version}}'
+    # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
+    # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
+    # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
+    - maven: org.apache.tomcat/tomcat
 
-  # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
-  # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
-  # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
-  - maven: org.apache.tomcat/tomcat
-
-  # Configuration for auto-update based on a custom script in the release-data repository.
-  # The value must always be `true`.
-  - custom: true
+    # Configuration for auto-update based on a custom script in the release-data repository.
+    # The value must always be `true`.
+    - custom: true
 
 # A list of identifiers that can be used to detect this product as being used,
 # especially by SBOM tooling

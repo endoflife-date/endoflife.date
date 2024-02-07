@@ -10,8 +10,9 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-    regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
+  methods:
+  -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
+      regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
 releases:
 -   releaseCycle: "1.22"

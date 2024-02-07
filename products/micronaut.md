@@ -13,7 +13,8 @@ eolColumn: Active Maintenance
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/micronaut-projects/micronaut-core.git
+  methods:
+  -   git: https://github.com/micronaut-projects/micronaut-core.git
 
 releases:
 -   releaseCycle: "4"

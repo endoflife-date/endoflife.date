@@ -17,7 +17,8 @@ identifiers:
 -   repology: memcached
 
 auto:
--   git: https://github.com/memcached/memcached.git
+  methods:
+  -   git: https://github.com/memcached/memcached.git
 
 # eol(x) = releaseDate(x+1)
 releases:

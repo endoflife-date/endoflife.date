@@ -14,10 +14,11 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   git: https://github.com/dotnet/core.git
-    # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
-    # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
-    regex_exclude: '^v?\d+\.\d+\.\d{3,}'
+  methods:
+  -   git: https://github.com/dotnet/core.git
+      # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
+      # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
+      regex_exclude: '^v?\d+\.\d+\.\d{3,}'
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App

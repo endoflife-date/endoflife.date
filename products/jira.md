@@ -14,7 +14,8 @@ releaseDateColumn: true
 
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/jira.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # Release dates from https://www.atlassian.com/software/jira/update,
 # They may vary by a day or two from what can be seen in the release notes.

@@ -15,7 +15,8 @@ activeSupportColumn: true
 eolColumn: Security Support
 
 auto:
--   maven: org.apache.maven/maven-core
+  methods:
+  -   maven: org.apache.maven/maven-core
 
 releases:
 -   releaseCycle: "3"

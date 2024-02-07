@@ -16,7 +16,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Graylog2/graylog2-server.git
+  methods:
+  -   git: https://github.com/Graylog2/graylog2-server.git
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
@@ -159,8 +160,7 @@ releases:
     eol: 2015-06-04
     latest: "1.0.2"
     latestReleaseDate: 2015-04-28
-    link: null # nothing found for this version
-
+    link: null
 
 ---
 

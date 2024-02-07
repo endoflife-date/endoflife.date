@@ -17,7 +17,8 @@ identifiers:
 -   purl: pkg:docker/couchbase/server
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # End of life dates available on https://www.couchbase.com/support-policy/enterprise-software/
 # We use the "End of Full Maintenance" date on the last day of the month.

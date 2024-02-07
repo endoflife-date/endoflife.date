@@ -13,7 +13,8 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   git: https://github.com/ansible/ansible.git
+  methods:
+  -   git: https://github.com/ansible/ansible.git
 
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
 # EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.

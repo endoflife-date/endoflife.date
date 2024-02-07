@@ -23,7 +23,8 @@ identifiers:
 -   repology: nodejs
 
 auto:
--   git: https://github.com/nodejs/node.git
+  methods:
+  -   git: https://github.com/nodejs/node.git
 
 releases:
 -   releaseCycle: "21"

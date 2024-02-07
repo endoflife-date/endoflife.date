@@ -16,7 +16,8 @@ identifiers:
 -   purl: pkg:github/zabbix/zabbix
 
 auto:
--   git: https://github.com/zabbix/zabbix.git
+  methods:
+  -   git: https://github.com/zabbix/zabbix.git
 
 # For non-LTS releases :
 # - support(x) = release(x) + 6 months

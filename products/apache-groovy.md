@@ -15,8 +15,9 @@ activeSupportColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   maven: org.apache.groovy/groovy
--   maven: org.codehaus.groovy/groovy
+  methods:
+  -   maven: org.apache.groovy/groovy
+  -   maven: org.codehaus.groovy/groovy
 
 releases:
 -   releaseCycle: "4.0"

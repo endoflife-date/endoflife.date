@@ -8,7 +8,8 @@ releaseDateColumn: true
 eolWarnThreshold: 14
 
 auto:
--   git: https://github.com/prometheus/prometheus.git
+  methods:
+  -   git: https://github.com/prometheus/prometheus.git
 
 identifiers:
 -   repology: prometheus

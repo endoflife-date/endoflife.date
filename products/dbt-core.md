@@ -13,7 +13,8 @@ activeSupportColumn: Active Support
 eolColumn: Critical Support
 
 auto:
--   git: https://github.com/dbt-labs/dbt-core.git
+  methods:
+  -   git: https://github.com/dbt-labs/dbt-core.git
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x) + 1 year

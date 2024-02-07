@@ -14,8 +14,9 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   git: https://github.com/yoctoproject/poky.git
-    regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
+  methods:
+  -   git: https://github.com/yoctoproject/poky.git
+      regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:

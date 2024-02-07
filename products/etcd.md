@@ -11,7 +11,8 @@ changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/etcd-io/etcd.git
+  methods:
+  -   git: https://github.com/etcd-io/etcd.git
 
 identifiers:
 -   repology: etcd

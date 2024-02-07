@@ -11,9 +11,10 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   maven: struts/struts
--   maven: org.apache.struts/struts-core
--   maven: org.apache.struts/struts2-core
+  methods:
+  -   maven: struts/struts
+  -   maven: org.apache.struts/struts-core
+  -   maven: org.apache.struts/struts2-core
 
 # EOL as per announcements on https://struts.apache.org/.
 releases:

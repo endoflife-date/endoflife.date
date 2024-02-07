@@ -10,7 +10,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/elastic/kibana.git
+  methods:
+  -   git: https://github.com/elastic/kibana.git
 
 releases:
 -   releaseCycle: "8"

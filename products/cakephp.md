@@ -14,7 +14,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/cakephp/cakephp.git
+  methods:
+  -   git: https://github.com/cakephp/cakephp.git
 
 # support(X) = releaseDate(X+1) + 1 day
 # For a given major version, the last three minor versions have security support.

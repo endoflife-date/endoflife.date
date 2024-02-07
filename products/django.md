@@ -17,7 +17,8 @@ identifiers:
 -   purl: pkg:pypi/django
 
 auto:
--   git: https://github.com/django/django.git
+  methods:
+  -   git: https://github.com/django/django.git
 
 # support / eol dates can be found on https://www.djangoproject.com/download/#supported-versions.
 # When exact day is not know, use the first day of the month.

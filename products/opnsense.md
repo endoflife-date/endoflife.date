@@ -10,7 +10,8 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/opnsense/core
+  methods:
+  -   git: https://github.com/opnsense/core
 
 # eol(x) = releaseDate(x+1)
 releases:

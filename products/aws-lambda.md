@@ -11,7 +11,8 @@ activeSupportColumn: Standard Support
 eolColumn: Deprecated Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # The custom script will only detect new releases, the release date must be retrieved from
 # announcements blog post on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.

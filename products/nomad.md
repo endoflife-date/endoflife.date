@@ -9,7 +9,8 @@ changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/hashicorp/nomad.git
+  methods:
+  -   git: https://github.com/hashicorp/nomad.git
 
 # eol(x) = releaseCycle(x+3)
 releases:

@@ -14,7 +14,8 @@ identifiers:
 -   purl: pkg:github/numpy/numpy
 
 auto:
--   pypi: numpy
+  methods:
+  -   pypi: numpy
 
 # EOL(R) = releaseDate(R) + 2 year + 1 day
 # But at no point should any of the last 3 releases become unsupported.

@@ -11,8 +11,9 @@ releaseColumn: false
 eolColumn: Supported
 
 auto:
--   distrowatch: mageia
-    regex: '^Distribution Release: Mageia (?P<major>\d+)$'
+  methods:
+  -   distrowatch: mageia
+      regex: '^Distribution Release: Mageia (?P<major>\d+)$'
 
 # EOL dates can be found on https://www.mageia.org/en/support/.
 releases:

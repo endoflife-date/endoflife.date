@@ -25,7 +25,8 @@ identifiers:
 -   repology: redis
 
 auto:
--   git: https://github.com/redis/redis.git
+  methods:
+  -   git: https://github.com/redis/redis.git
 
 # - support(x) = release(x+1)
 # - eol(x) = release(x+3)

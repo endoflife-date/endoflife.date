@@ -24,28 +24,29 @@ identifiers:
 -   purl: pkg:rpm/opensuse/mariadb
 
 auto:
--   git: https://github.com/MariaDB/server.git
-    # Drop any releases before the GA ones.
-    # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
-    # and Z a regex that only matches GA release patch numbers in that cycle.
-    # Note: This needs to be edited when a new release cycle (a new GA release) is added.
-    regex:
-    -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>11)\.(?P<minor>0)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
+  methods:
+  -   git: https://github.com/MariaDB/server.git
+      # Drop any releases before the GA ones.
+      # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
+      # and Z a regex that only matches GA release patch numbers in that cycle.
+      # Note: This needs to be edited when a new release cycle (a new GA release) is added.
+      regex:
+      -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>0)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
 
 releases:
 -   releaseCycle: "11.2"

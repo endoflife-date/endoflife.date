@@ -14,9 +14,10 @@ identifiers:
 -   purl: pkg:github/sonatype/nexus-public
 
 auto:
--   git: https://github.com/sonatype/nexus-public.git
-    regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
-    template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
+  methods:
+  -   git: https://github.com/sonatype/nexus-public.git
+      regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
+      template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
 
 releases:
 -   releaseCycle: "3"

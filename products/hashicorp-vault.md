@@ -12,7 +12,8 @@ releaseDateColumn: true
 versionCommand: vault --version
 
 auto:
--   git: https://github.com/hashicorp/vault.git
+  methods:
+  -   git: https://github.com/hashicorp/vault.git
 
 # eol(x) = release(x+3)
 releases:

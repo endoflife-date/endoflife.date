@@ -12,10 +12,12 @@ versionCommand: >
   --db-cluster-identifier your-neptune-db-identifier
   --filters Name=engine,Values=neptune
 releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
-changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases-__LATEST__.html
+changelogTemplate: 
+  https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases-__LATEST__.html
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "1.3.0.0"

@@ -11,7 +11,8 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/tarantool/tarantool.git
+  methods:
+  -   git: https://github.com/tarantool/tarantool.git
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table.
 releases:

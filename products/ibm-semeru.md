@@ -14,18 +14,19 @@ eolColumn: End of Service (EOS)
 
 # There is one repository for each major release (except for 15 and 16).
 auto:
--   github_releases: "ibmruntimes/semeru8-binaries"
-    regex: '^jdk(?P<version>8u[\d]+(-[a-z]\d+))_openj9-[\d\.]+$'
-    template: '{{version}}'
--   github_releases: "ibmruntimes/semeru11-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
-    template: '{{version}}'
--   github_releases: "ibmruntimes/semeru17-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
-    template: '{{version}}'
--   github_releases: "ibmruntimes/semeru21-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "ibmruntimes/semeru8-binaries"
+      regex: '^jdk(?P<version>8u[\d]+(-[a-z]\d+))_openj9-[\d\.]+$'
+      template: '{{version}}'
+  -   github_releases: "ibmruntimes/semeru11-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: '{{version}}'
+  -   github_releases: "ibmruntimes/semeru17-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: '{{version}}'
+  -   github_releases: "ibmruntimes/semeru21-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: '{{version}}'
 
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.

@@ -11,7 +11,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/mastodon/mastodon.git
+  methods:
+  -   git: https://github.com/mastodon/mastodon.git
 
 # EOL dates are either false, if no information could be found, or the date found in
 # https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.

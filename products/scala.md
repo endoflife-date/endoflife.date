@@ -14,10 +14,9 @@ eolColumn: Maintenance Releases
 releaseDateColumn: true
 
 auto:
-    # Scala < 3
--   git: https://github.com/scala/scala.git
-    # Scala >= 3
--   git: https://github.com/lampepfl/dotty.git
+  methods:
+  -   git: https://github.com/scala/scala.git # Scala < 3
+  -   git: https://github.com/lampepfl/dotty.git # Scala >= 3
 
 # For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:

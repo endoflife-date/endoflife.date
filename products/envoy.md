@@ -12,7 +12,8 @@ changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/envoyproxy/envoy.git
+  methods:
+  -   git: https://github.com/envoyproxy/envoy.git
 
 identifiers:
 -   repology: envoy-proxy

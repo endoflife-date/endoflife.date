@@ -12,7 +12,8 @@ eolWarnThreshold: 30
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/mattermost/mattermost-server.git
+  methods:
+  -   git: https://github.com/mattermost/mattermost-server.git
 
 # EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
@@ -169,11 +170,6 @@ releases:
     eol: 2022-01-15
     latestReleaseDate: 2021-12-15
     latest: '6.0.4'
-
-
-
-
-
 
 ---
 

@@ -15,7 +15,8 @@ identifiers:
 -   purl: pkg:github/apache/tomcat
 
 auto:
--   maven: org.apache.tomcat/tomcat
+  methods:
+  -   maven: org.apache.tomcat/tomcat
 
 releases:
 -   releaseCycle: "10.1"
@@ -71,7 +72,6 @@ releases:
     eol: 2012-09-30
     minJavaVersion: 1.4
     latest: "5.5.36"
-
 
 ---
 

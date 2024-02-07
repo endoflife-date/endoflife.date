@@ -14,8 +14,9 @@ eolColumn: Maintenance Support
 eolWarnThreshold: 60
 
 auto:
--   git: https://gitlab.com/gitlab-org/gitlab.git
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
+  methods:
+  -   git: https://gitlab.com/gitlab-org/gitlab.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 
 # support(x) = releaseDate(x+1)

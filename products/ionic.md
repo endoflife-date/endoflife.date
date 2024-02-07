@@ -18,7 +18,8 @@ identifiers:
 -   purl: pkg:npm/%40ionic/core
 
 auto:
--   git: https://github.com/ionic-team/ionic-framework.git
+  methods:
+  -   git: https://github.com/ionic-team/ionic-framework.git
 
 # support(R) = releaseDate(R+1)
 releases:

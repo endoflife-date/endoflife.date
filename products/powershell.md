@@ -15,10 +15,11 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
--   purl:  pkg:github/powershell/powershell
+-   purl: pkg:github/powershell/powershell
 
 auto:
--   git: https://github.com/PowerShell/PowerShell.git
+  methods:
+  -   git: https://github.com/PowerShell/PowerShell.git
 
 # EOL dates available on https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle#powershell-end-of-support-dates
 releases:
@@ -108,7 +109,6 @@ releases:
     eol: 2020-01-14
     latest: "1.0"
     link: null
-
 
 ---
 

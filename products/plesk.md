@@ -12,7 +12,8 @@ releaseDateColumn: true
 eolWarnThreshold: 21
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:

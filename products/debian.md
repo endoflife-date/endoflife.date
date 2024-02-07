@@ -16,7 +16,8 @@ identifiers:
 -   cpe: cpe:/o:debian:debian_linux
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "12"

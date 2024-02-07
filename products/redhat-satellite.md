@@ -17,7 +17,8 @@ activeSupportWarnThreshold: 30
 eolColumn: Maintenance support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "6.14"

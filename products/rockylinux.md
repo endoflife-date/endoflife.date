@@ -16,7 +16,8 @@ releaseDateColumn: true
 # distrowatch misses a few releases
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 identifiers:
 -   cpe: cpe:/o:rocky:rocky

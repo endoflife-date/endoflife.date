@@ -15,7 +15,8 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 # Active Milestones

@@ -28,8 +28,9 @@ identifiers:
 -   repology: mongodb
 
 auto:
--   git: https://github.com/mongodb/mongo.git
-    regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/mongodb/mongo.git
+      regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # EOL dates can be found at https://www.mongodb.com/support-policy/lifecycles.
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.

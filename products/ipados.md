@@ -9,7 +9,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "17"

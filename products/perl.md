@@ -4,7 +4,7 @@ category: lang
 iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
-releaseImage:
+releaseImage: 
   https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
@@ -13,21 +13,22 @@ releaseDateColumn: true
 eolColumn: Critical security patches
 
 identifiers:
--   purl:  pkg:apk/alpine/perl
--   purl:  pkg:deb/debian/perl
--   purl:  pkg:generic/perl
+-   purl: pkg:apk/alpine/perl
+-   purl: pkg:deb/debian/perl
+-   purl: pkg:generic/perl
 
 auto:
--   git: https://github.com/Perl/perl5.git
-    regex:
+  methods:
+  -   git: https://github.com/Perl/perl5.git
+      regex:
     # After  5.26 -> vx.y.z (odd versions are 'development' version since 5.6)
     # See https://regex101.com/r/eK40Ks/1.
-    - '^v(?P<major>\d+)\.(?P<minor>[1-9]*[02468])\.(?P<patch>\d+)?$'
+      -   '^v(?P<major>\d+)\.(?P<minor>[1-9]*[02468])\.(?P<patch>\d+)?$'
     # Before 5.26 -> perl-x.00y, perl-x.00y_z, perl-x.00y.z, perl-x.00y.zabc
     # This regex is returning 5.7.x and 5.9.x versions even if it shouldn't (odd versions are 'development' version since 5.6).
     # But considering those are not listed on https://endoflife.date/perl it's an acceptable inconvenient.
     # See https://regex101.com/r/wGccaP/1.
-    - '^perl-(?P<major>\d+)\.(?P<minor>\d+)([._](?P<patch>\d?\w+))?$'
+      -   '^perl-(?P<major>\d+)\.(?P<minor>\d+)([._](?P<patch>\d?\w+))?$'
 
 # Development releases are not listed here, and:
 # - eol dates are always releaseDate + 3 YEARS

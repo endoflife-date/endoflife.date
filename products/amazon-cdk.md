@@ -8,7 +8,8 @@ changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/aws/aws-cdk
+  methods:
+  -   git: https://github.com/aws/aws-cdk
 
 identifiers:
 -   repology: aws-cdk

@@ -20,7 +20,8 @@ eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:

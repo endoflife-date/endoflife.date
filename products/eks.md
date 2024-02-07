@@ -18,7 +18,8 @@ extendedSupportColumn: true
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:

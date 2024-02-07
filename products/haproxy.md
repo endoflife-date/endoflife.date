@@ -12,7 +12,8 @@ releaseDateColumn: true
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 identifiers:
 -   repology: haproxy

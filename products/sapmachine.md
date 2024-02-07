@@ -9,9 +9,10 @@ releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Main
 releaseDateColumn: true
 
 auto:
--   github_releases: "SAP/SapMachine"
-    regex: '^sapmachine-(?P<version>[\d\.]+)$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "SAP/SapMachine"
+      regex: '^sapmachine-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
 
 # LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
 # non-LTS : EOL(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)

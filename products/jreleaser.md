@@ -11,7 +11,8 @@ activeSupportColumn: true
 eolColumn: Security Support
 
 auto:
--   maven: org.jreleaser/jreleaser
+  methods:
+  -   maven: org.jreleaser/jreleaser
 
 releases:
 -   releaseCycle: "1"

@@ -13,8 +13,9 @@ activeSupportColumn: Support
 eolColumn: Security
 
 auto:
--   git: https://github.com/umbraco/Umbraco-CMS.git
-    regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/umbraco/Umbraco-CMS.git
+      regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Only tracking major releases here, even if regressions are fixed on the last three minors.
 # This is because the LTS model is based on major versions, and maintaining so many minor versions

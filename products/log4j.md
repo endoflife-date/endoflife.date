@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   maven: org.apache.logging.log4j/log4j-core
+  methods:
+  -   maven: org.apache.logging.log4j/log4j-core
 
 releases:
 -   releaseCycle: "2"

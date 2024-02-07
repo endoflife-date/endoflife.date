@@ -14,7 +14,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/craftcms/cms.git
+  methods:
+  -   git: https://github.com/craftcms/cms.git
 
 releases:
 -   releaseCycle: "4"

@@ -10,7 +10,8 @@ changelogTemplate:
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/istio/istio.git
+  methods:
+  -   git: https://github.com/istio/istio.git
 
 identifiers:
 -   repology: istio

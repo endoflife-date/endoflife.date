@@ -19,8 +19,9 @@ identifiers:
 -   purl: pkg:github/kubernetes/kubernetes
 
 auto:
--   git: https://github.com/kubernetes/kubernetes.git
-    regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/kubernetes/kubernetes.git
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Support and EOL dates can be found on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
 releases:

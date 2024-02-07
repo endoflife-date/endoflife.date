@@ -13,7 +13,8 @@ extendedSupportColumn: true
 
 # See https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py.
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # When adding a cycle, don't forget to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
