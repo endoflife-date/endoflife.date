@@ -11,7 +11,7 @@ releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl:  pkg:github/sonatype/nexus-public
+-   purl: pkg:github/sonatype/nexus-public
 
 auto:
 -   git: https://github.com/sonatype/nexus-public.git
@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.64.0-04"
-    latestReleaseDate: 2024-01-15
+    latest: "3.65.0-02"
+    latestReleaseDate: 2024-02-06
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"

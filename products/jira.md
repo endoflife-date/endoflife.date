@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "9.13"
     releaseDate: 2024-01-22
     eol: false # to be announced on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-    latest: "9.13.0"
-    latestReleaseDate: 2024-01-22
+    latest: "9.13.1"
+    latestReleaseDate: 2024-02-06
     link: 
       https://confluence.atlassian.com/jirasoftware/jira-software-9-13-x-release-notes-1319569020.html
 
