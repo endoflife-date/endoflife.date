@@ -14,7 +14,8 @@ eolColumn: Security Updates
 customColumns:
 -   property: supportedAndroidVersions
     position: after-release-column
-    label: Supported Android # https://en.wikipedia.org/wiki/Google_Nexus
+    # https://en.wikipedia.org/wiki/Google_Nexus
+    label: Supported Android Version
     description: Supported Android versions range
     link: https://endoflife.date/android
 
