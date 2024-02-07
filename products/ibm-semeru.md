@@ -42,8 +42,8 @@ releases:
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-01 # OpenJDK EOS, EoA TBC
-    latest: '17.0.9+9'
-    latestReleaseDate: 2023-11-28
+    latest: '17.0.10+7'
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "11"
     lts: true
