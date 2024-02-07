@@ -27,22 +27,22 @@ releases:
     releaseDate: 2024-01-17
     support: 2024-02-15
     eol: 2024-04-18
-    latest: "16.8.1"
-    latestReleaseDate: 2024-01-24
+    latest: "16.8.2"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "16.7"
     releaseDate: 2023-12-20
     support: 2024-01-18
     eol: 2024-03-21
-    latest: "16.7.4"
-    latestReleaseDate: 2024-01-24
+    latest: "16.7.5"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "16.6"
     releaseDate: 2023-11-15
     support: 2023-12-21
     eol: 2024-02-15
-    latest: "16.6.6"
-    latestReleaseDate: 2024-01-24
+    latest: "16.6.7"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20

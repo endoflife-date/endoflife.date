@@ -31,8 +31,8 @@ releases:
     support: 2023-03-30
     eol: false
     lts: 2023-02-07
-    latest: "9.9.3"
-    latestReleaseDate: 2023-11-09
+    latest: "9.9.4"
+    latestReleaseDate: 2024-02-06
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"
