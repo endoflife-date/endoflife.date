@@ -13,7 +13,8 @@ releaseDateColumn: true
 eolColumn: End of support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.

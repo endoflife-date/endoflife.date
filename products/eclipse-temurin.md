@@ -17,30 +17,31 @@ releaseDateColumn: true
 # but tag date is 2022-08-15... We will have to use GitHub release dates instead of tags dates.
 # See https://regex101.com/r/vwUz2w/1 and https://regex101.com/r/507aSh/1.
 auto:
--   github_releases: "adoptium/temurin8-binaries"
-    regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin11-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin16-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin17-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin18-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin19-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin20-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
--   github_releases: "adoptium/temurin21-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "adoptium/temurin8-binaries"
+      regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin11-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin16-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin17-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin18-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin19-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin20-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin21-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.

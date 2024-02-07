@@ -14,7 +14,8 @@ identifiers:
 -   purl: pkg:generic/terraform
 
 auto:
--   git: https://github.com/hashicorp/terraform.git
+  methods:
+  -   git: https://github.com/hashicorp/terraform.git
 
 # EOL(x) = releaseDate(x+2)
 releases:

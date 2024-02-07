@@ -14,7 +14,8 @@ identifiers:
 -   purl: pkg:docker/gerritcodereview/gerrit
 
 auto:
--   git: https://github.com/GerritCodeReview/gerrit.git
+  methods:
+  -   git: https://github.com/GerritCodeReview/gerrit.git
 
 # eol(x) = releaseDate(x+3)
 releases:

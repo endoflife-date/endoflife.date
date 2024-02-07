@@ -13,7 +13,8 @@ releaseDateColumn: true
 extendedSupportColumn: Commercial Support
 
 auto:
--   npm: vue
+  methods:
+  -   npm: vue
 
 identifiers:
 -   repology: vue.js

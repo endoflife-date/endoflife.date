@@ -25,8 +25,9 @@ customColumns:
 # That should not be a problem though, such version were only used with 1.5.1.
 # See https://github.com/endoflife-date/endoflife.date/pull/2768#issuecomment-1491875624.
 auto:
--   git: https://github.com/WordPress/wordpress-develop.git
-    regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.?(?P<patch>[1-9][0-9.]*)?'
+  methods:
+  -   git: https://github.com/WordPress/wordpress-develop.git
+      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.?(?P<patch>[1-9][0-9.]*)?'
 
 identifiers:
 -   repology: wordpress

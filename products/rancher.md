@@ -17,7 +17,8 @@ identifiers:
 -   purl: pkg:docker/rancher/rancher
 
 auto:
--   git: https://github.com/rancher/rancher.git
+  methods:
+  -   git: https://github.com/rancher/rancher.git
 
 # Support and EOL dates can be found on https://www.suse.com/lifecycle#rancher
 releases:

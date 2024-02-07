@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # EOL date can be found on https://www.ibm.com/support/pages/aix-support-lifecycle-information.
 releases:

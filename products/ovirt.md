@@ -7,9 +7,10 @@ changelogTemplate: https://github.com/oVirt/ovirt-engine/releases/tag/ovirt-engi
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/oVirt/ovirt-engine
-    regex: 
-      ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
+  methods:
+  -   git: https://github.com/oVirt/ovirt-engine
+      regex: 
+        ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:

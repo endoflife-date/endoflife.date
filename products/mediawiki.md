@@ -12,7 +12,8 @@ releaseDateColumn: true
 eolColumn: End-of-Life
 
 auto:
--   git: https://github.com/wikimedia/mediawiki.git
+  methods:
+  -   git: https://github.com/wikimedia/mediawiki.git
 
 # See https://www.mediawiki.org/wiki/Version_lifecycle
 releases:

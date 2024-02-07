@@ -12,7 +12,8 @@ releaseDateColumn: true
 
 # Note that laravel/laravel is just a starter application.
 auto:
--   git: https://github.com/laravel/framework.git
+  methods:
+  -   git: https://github.com/laravel/framework.git
 
 identifiers:
 -   purl: pkg:composer/laravel/laravel

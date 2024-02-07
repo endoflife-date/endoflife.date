@@ -18,7 +18,8 @@ customColumns:
       https://getkirby.com/docs/reference/system/requirements#php-version-support-history
 
 auto:
--   git: https://github.com/getkirby/kirby.git
+  methods:
+  -   git: https://github.com/getkirby/kirby.git
 
 # eol(x) = releaseDate(x+1) + 2 years - 1 day
 # See also https://getkirby.com/docs/archive
@@ -174,8 +175,6 @@ releases:
     latest: "1.0.9"
     latestReleaseDate: 2012-04-20
     link: null
-
-
 
 ---
 

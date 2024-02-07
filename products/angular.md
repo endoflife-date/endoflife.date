@@ -18,7 +18,8 @@ identifiers:
 -   purl: pkg:github/angular/angular
 
 auto:
--   git: https://github.com/angular/angular.git
+  methods:
+  -   git: https://github.com/angular/angular.git
 
 releases:
 -   releaseCycle: "17"

@@ -16,7 +16,8 @@ identifiers:
 -   purl: pkg:github/vercel/next.js
 
 auto:
--   npm: next
+  methods:
+  -   npm: next
 
 # EOL(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:

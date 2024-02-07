@@ -21,8 +21,9 @@ identifiers:
 -   purl: pkg:rpm/opensuse/nginx
 
 auto:
--   git: https://github.com/nginx/nginx.git
-    regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/nginx/nginx.git
+      regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
 releases:

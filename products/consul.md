@@ -10,7 +10,8 @@ changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELO
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/hashicorp/consul.git
+  methods:
+  -   git: https://github.com/hashicorp/consul.git
 
 identifiers:
 -   repology: consul

@@ -10,7 +10,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/moodle/moodle.git
+  methods:
+  -   git: https://github.com/moodle/moodle.git
 
 # Support and EOL dates on https://moodledev.io/general/releases
 releases:

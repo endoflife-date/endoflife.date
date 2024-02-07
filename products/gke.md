@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: Maintenance Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json

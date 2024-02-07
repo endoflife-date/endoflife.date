@@ -11,7 +11,8 @@ changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEAS
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/NixOS/nix.git
+  methods:
+  -   git: https://github.com/NixOS/nix.git
 
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063

@@ -13,7 +13,8 @@ releaseDateColumn: true
 # NPM is more accurate than git and remove unreleased version would.
 # 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
 auto:
--   npm: electron
+  methods:
+  -   npm: electron
 
 # EOL dates documented on https://www.electronjs.org/docs/latest/tutorial/electron-timelines.
 releases:

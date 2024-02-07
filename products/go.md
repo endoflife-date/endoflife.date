@@ -21,8 +21,9 @@ identifiers:
 -   repology: go
 
 auto:
--   git: https://github.com/golang/go.git
-    regex: ^go(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/golang/go.git
+      regex: ^go(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
 
 # eol(x) = releaseDate(x+2)
 releases:

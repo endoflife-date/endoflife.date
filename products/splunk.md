@@ -9,7 +9,8 @@ changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/Relea
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:

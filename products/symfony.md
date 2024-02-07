@@ -11,7 +11,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/symfony/symfony.git
+  methods:
+  -   git: https://github.com/symfony/symfony.git
 
 # For LTS:
 # - support(x) = releaseDate(x) + 36 months

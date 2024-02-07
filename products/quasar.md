@@ -13,7 +13,8 @@ activeSupportColumn: true
 eolColumn: LTS support
 
 auto:
--   npm: quasar
+  methods:
+  -   npm: quasar
 
 identifiers:
 -   purl: pkg:npm/quasar

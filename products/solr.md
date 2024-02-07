@@ -13,13 +13,14 @@ changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/apache/lucene-solr.git
-    regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
--   git: https://github.com/apache/solr.git
+  methods:
+  -   git: https://github.com/apache/lucene-solr.git
+      regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
+  -   git: https://github.com/apache/solr.git
     # Only pick new release from the new repo
-    regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
+      regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
 
 releases:
 -   releaseCycle: "9"

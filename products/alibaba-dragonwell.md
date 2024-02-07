@@ -32,33 +32,34 @@ identifiers:
 # There is one repository for each major LTS release.
 # And yes, tagging at Alibaba is a mess !
 auto:
--   git: "https://github.com/dragonwell-project/dragonwell8.git"
-    regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell8.git"
-    regex: '^dragonwell-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell8.git"
-    regex: '^dragonwell-(?P<version>[\d\.\+]+)-GA$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell8.git"
-    regex: '^v(?P<version>[\d\.\+]+)-GA$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell11.git"
-    regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell11.git"
-    regex: '^dragonwell[-_](?P<version>[\d\.\+]+)_.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell17.git"
-    regex: '^dragonwell-standard-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell17.git"
-    regex: '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
-    template: '{{version}}'
--   git: "https://github.com/dragonwell-project/dragonwell17.git"
-    regex: '^jdk-(?P<version>17[\d\.\+]+)-ga$'
-    template: '{{version}}'
+  methods:
+  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
+      regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
+      regex: '^dragonwell-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
+      regex: '^dragonwell-(?P<version>[\d\.\+]+)-GA$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
+      regex: '^v(?P<version>[\d\.\+]+)-GA$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell11.git"
+      regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell11.git"
+      regex: '^dragonwell[-_](?P<version>[\d\.\+]+)_.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell17.git"
+      regex: '^dragonwell-standard-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell17.git"
+      regex: '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/dragonwell-project/dragonwell17.git"
+      regex: '^jdk-(?P<version>17[\d\.\+]+)-ga$'
+      template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # End of public updates available on https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support

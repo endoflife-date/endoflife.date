@@ -10,7 +10,8 @@ activeSupportColumn: Active Development
 eolColumn: Maintenance Support
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 auto:
--   git: https://github.com/opensearch-project/OpenSearch.git
+  methods:
+  -   git: https://github.com/opensearch-project/OpenSearch.git
 
 # releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:

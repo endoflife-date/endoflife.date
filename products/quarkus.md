@@ -18,10 +18,11 @@ extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 # Tag and Maven release of new minor versions are usually created
 # a week before the "official" announcement, hence the use of GitHub releases.
 auto:
--   github_releases: quarkusio/quarkus
-    # See https://regex101.com/r/4mf9xU/1 for reference
-    regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: quarkusio/quarkus
+      # See https://regex101.com/r/4mf9xU/1 for reference
+      regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
+      template: '{{version}}'
 
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS

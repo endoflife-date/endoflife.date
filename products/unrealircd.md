@@ -15,7 +15,8 @@ identifiers:
 # Data: https://github.com/endoflife-date/release-data/blob/main/releases/unrealircd.json
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/unrealircd.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order

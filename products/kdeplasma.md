@@ -13,11 +13,12 @@ releaseDateColumn: true
 eolColumn: Critical bug fixes
 
 auto:
--   git: https://github.com/KDE/plasma-desktop.git
-    # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are disguised beta releases
-    regex_exclude:
-    -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
-    -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
+  methods:
+  -   git: https://github.com/KDE/plasma-desktop.git
+      # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are disguised beta releases
+      regex_exclude:
+      -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
+      -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
 
 releases:
 -   releaseCycle: "5.27"

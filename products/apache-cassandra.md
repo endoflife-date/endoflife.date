@@ -12,8 +12,9 @@ changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_p
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/apache/cassandra.git
-    regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/apache/cassandra.git
+      regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 releases:
 -   releaseCycle: "4.1"

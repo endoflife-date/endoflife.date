@@ -14,7 +14,8 @@ identifiers:
 -   purl: pkg:homebrew/cfengine
 
 auto:
--   git: https://github.com/cfengine/core.git
+  methods:
+  -   git: https://github.com/cfengine/core.git
 
 # lts or non-lts see https://cfengine.com/downloads/cfengine-community/
 # non-lts eol(x) = releaseDate(x+1)

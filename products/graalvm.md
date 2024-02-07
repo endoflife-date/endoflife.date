@@ -10,7 +10,8 @@ eolColumn: Maintenance
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "jdk-21"

@@ -11,7 +11,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   pypi: wagtail
+  methods:
+  -   pypi: wagtail
 
 identifiers:
 -   repology: python:wagtail

@@ -17,7 +17,8 @@ releaseDateColumn: true
 eolWarnThreshold: 182
 
 auto:
--   git: https://github.com/silverstripe/silverstripe-cms.git
+  methods:
+  -   git: https://github.com/silverstripe/silverstripe-cms.git
 
 identifiers:
 -   purl: pkg:composer/silverstripe/cms

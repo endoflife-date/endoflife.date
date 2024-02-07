@@ -16,8 +16,9 @@ identifiers:
 -   cpe: cpe:2.3:o:alpinelinux:alpine_linux
 
 auto:
-# upstream does not support filtering https://git.alpinelinux.org/aports
--   git: https://github.com/alpinelinux/aports.git
+  methods:
+  # upstream does not support filtering https://git.alpinelinux.org/aports
+  -   git: https://github.com/alpinelinux/aports.git
 
 # eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:

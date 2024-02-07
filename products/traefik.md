@@ -17,7 +17,8 @@ identifiers:
 -   purl: pkg:github/traefik/traefik
 
 auto:
--   git: https://github.com/traefik/traefik.git
+  methods:
+  -   git: https://github.com/traefik/traefik.git
 
 # Table with releaseCycles/releaseDate/support: https://doc.traefik.io/traefik/deprecation/releases
 # Estimation: support(x) = releaseDate(x+1)

@@ -10,7 +10,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/joomla/joomla-cms.git
+  methods:
+  -   git: https://github.com/joomla/joomla-cms.git
 
 # eol see https://developer.joomla.org/roadmap.html
 releases:

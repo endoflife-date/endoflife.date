@@ -12,7 +12,8 @@ eolColumn: Support
 eolWarnThreshold: 200 # march to september
 
 auto:
--   git: https://github.com/akeneo/pim-community-dev.git
+  methods:
+  -   git: https://github.com/akeneo/pim-community-dev.git
 
 # EOL dates are available at https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 releases:

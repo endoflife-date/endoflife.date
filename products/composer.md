@@ -15,7 +15,8 @@ identifiers:
 -   purl: pkg:github/composer/composer
 
 auto:
--   git: https://github.com/composer/composer.git
+  methods:
+  -   git: https://github.com/composer/composer.git
 
 releases:
 -   releaseCycle: "2.6"

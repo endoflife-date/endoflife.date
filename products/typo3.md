@@ -15,7 +15,8 @@ identifiers:
 -   purl: pkg:composer/typo3/cms
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "13"

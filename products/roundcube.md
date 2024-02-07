@@ -11,7 +11,8 @@ releaseDateColumn: true
 eolColumn: Security Support
 
 auto:
--   git: https://github.com/roundcube/roundcubemail.git
+  methods:
+  -   git: https://github.com/roundcube/roundcubemail.git
 
 releases:
 -   releaseCycle: "1.6"

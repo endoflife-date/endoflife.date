@@ -12,10 +12,11 @@ releaseDateColumn: true
 # older releases with more accurate dates from distrowatch
 # pre-1.3 releases were tagged later, so git data isn't accurate for those.
 auto:
--   distrowatch: tails
-    regex:
-    -   '^Distribution Release: Tails (?P<major>\d).(?P<minor>\d)$'
-    -   '^Distribution Release: Incognito Live System (?P<major>\d).(?P<minor>\d)$'
+  methods:
+  -   distrowatch: tails
+      regex:
+      -   '^Distribution Release: Tails (?P<major>\d).(?P<minor>\d)$'
+      -   '^Distribution Release: Incognito Live System (?P<major>\d).(?P<minor>\d)$'
 
 releases:
 -   releaseCycle: "5"

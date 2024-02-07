@@ -15,7 +15,8 @@ identifiers:
 
 # NPM dates are more accurate than git tag dates.
 auto:
--   npm: react
+  methods:
+  -   npm: react
 
 releases:
 -   releaseCycle: "18.2"

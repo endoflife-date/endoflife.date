@@ -14,7 +14,8 @@ identifiers:
 -   purl: pkg:deb/debian/php
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "8.3"

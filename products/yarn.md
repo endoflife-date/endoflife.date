@@ -16,8 +16,9 @@ identifiers:
 -   repology: yarn
 
 auto:
--   npm: yarn # for 1.x
--   npm: "@yarnpkg/cli" # for 2.x+
+  methods:
+  -   npm: yarn # for 1.x
+  -   npm: "@yarnpkg/cli" # for 2.x+
 
 releases:
 -   releaseCycle: "4"

@@ -16,7 +16,8 @@ identifiers:
 -   purl: pkg:generic/firefox
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://wiki.mozilla.org/Release_Management/Calendar, if available.

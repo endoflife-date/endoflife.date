@@ -12,7 +12,8 @@ changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|s
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "2023.2"

@@ -13,7 +13,8 @@ identifiers:
 -   repology: meilisearch
 
 auto:
--   git: https://github.com/meilisearch/meilisearch.git
+  methods:
+  -   git: https://github.com/meilisearch/meilisearch.git
 
 # eol(x) = releaseDate(x+1)
 releases:

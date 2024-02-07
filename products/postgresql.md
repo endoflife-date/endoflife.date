@@ -14,8 +14,9 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/postgres/postgres.git
-    regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/postgres/postgres.git
+      regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
 
 identifiers:
 -   repology: postgresql

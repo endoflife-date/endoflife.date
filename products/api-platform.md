@@ -10,7 +10,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/api-platform/core.git
+  methods:
+  -   git: https://github.com/api-platform/core.git
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)

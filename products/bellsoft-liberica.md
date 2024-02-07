@@ -37,11 +37,12 @@ identifiers:
 
 # There is one repository for each major release (except for 15 and 16).
 auto:
--   github_releases: "bell-sw/Liberica"
-    regex:
-    -   '^(?P<version>[0-9.u+]+)$'
-    -   '^OpenJDK (?P<version>[0-9.u+]+)$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "bell-sw/Liberica"
+      regex:
+      -   '^(?P<version>[0-9.u+]+)$'
+      -   '^OpenJDK (?P<version>[0-9.u+]+)$'
+      template: '{{version}}'
 
 # EOL dates are OpenJDK EOL dates, which are not fixed. This page is using Eclipse Temurin
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).

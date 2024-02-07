@@ -5,7 +5,7 @@ iconSlug: blender
 permalink: /blender
 versionCommand: blender --version
 releasePolicyLink: https://www.blender.org
-releaseImage: 
+releaseImage:
   https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__"
   | replace:'.','-'}}/
@@ -15,7 +15,8 @@ eolColumn: Critical bug fixes
 
 auto:
   # https://git.blender.org/blender.git does not support partialClone
--   git: https://github.com/blender/blender.git
+  methods:
+  -   git: https://github.com/blender/blender.git
 
 releases:
 -   releaseCycle: "4.0"

@@ -7,7 +7,8 @@ changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__REL
 eolWarnThreshold: 121
 
 auto:
--   git: https://github.com/arangodb/arangodb.git
+  methods:
+  -   git: https://github.com/arangodb/arangodb.git
 
 # EOL dates can be found on https://arangodb.com/subscriptions/end-of-life-notice/.
 releases:

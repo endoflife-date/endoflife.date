@@ -12,7 +12,8 @@ changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/releas
 releaseDateColumn: true
 
 auto:
--   pypi: apache-airflow
+  methods:
+  -   pypi: apache-airflow
 
 identifiers:
 -   purl: pkg:pypi/apache-airflow

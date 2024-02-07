@@ -18,7 +18,8 @@ extendedSupportColumn: Extended Support
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
 # EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html.

@@ -14,7 +14,8 @@ extendedSupportColumn: Confluent Platform Standard End of Support
 versionCommand: ${KAFKA_HOME}/bin/kafka-topics.sh --version
 
 auto:
--   git: https://github.com/apache/kafka.git
+  methods:
+  -   git: https://github.com/apache/kafka.git
 
 # EOL(x) = MAX(latestReleaseDate, releaseDate(X+1))
 # Extended support date can be found in the "Standard End of Support" column on

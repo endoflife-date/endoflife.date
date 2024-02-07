@@ -10,8 +10,9 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/jenkinsci/jenkins.git
-    regex: '^jenkins-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/jenkinsci/jenkins.git
+      regex: '^jenkins-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # releaseCycle 2 catches weekly releases, other releases are LTS.
 #

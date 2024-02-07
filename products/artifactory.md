@@ -9,7 +9,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "7.71"

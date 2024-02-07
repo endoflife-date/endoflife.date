@@ -10,8 +10,9 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/phpmyadmin/phpmyadmin.git
-    regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
+  methods:
+  -   git: https://github.com/phpmyadmin/phpmyadmin.git
+      regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 identifiers:
 -   repology: phpmyadmin

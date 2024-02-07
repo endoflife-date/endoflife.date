@@ -13,8 +13,9 @@ eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
 auto:
--   git: https://github.com/spring-projects/spring-boot.git
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
+  methods:
+  -   git: https://github.com/spring-projects/spring-boot.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
 
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot

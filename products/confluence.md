@@ -13,7 +13,8 @@ releaseDateColumn: true
 
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/confluence.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # release date: https://www.atlassian.com/software/confluence/download-archives
 # lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html

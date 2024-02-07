@@ -19,7 +19,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/elastic/beats.git
+  methods:
+  -   git: https://github.com/elastic/beats.git
 
 releases:
 -   releaseCycle: "8"

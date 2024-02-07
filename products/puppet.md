@@ -16,7 +16,8 @@ identifiers:
 -   repology: puppet
 
 auto:
--   git: https://github.com/puppetlabs/puppet.git
+  methods:
+  -   git: https://github.com/puppetlabs/puppet.git
 
 releases:
 -   releaseCycle: "8"

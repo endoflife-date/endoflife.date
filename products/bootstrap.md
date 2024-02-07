@@ -20,7 +20,8 @@ identifiers:
 
 # NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
 auto:
--   git: https://github.com/twbs/bootstrap.git
+  methods:
+  -   git: https://github.com/twbs/bootstrap.git
 
 releases:
 -   releaseCycle: "5"

@@ -7,10 +7,11 @@ releasePolicyLink: https://www.postfix.org/announcements.html
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/vdukhovni/postfix.git
-    regex_exclude: # tags before 3.3 don't have the correct date
-    -   ^v[0-2]\.
-    -   ^v3\.[0-2]\.
+  methods:
+  -   git: https://github.com/vdukhovni/postfix.git
+      regex_exclude: # tags before 3.3 don't have the correct date
+      -   ^v[0-2]\.
+      -   ^v3\.[0-2]\.
 
 # eol(R) = releaseDate(R+4)
 releases:

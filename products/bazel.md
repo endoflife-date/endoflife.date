@@ -11,7 +11,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/bazelbuild/bazel.git
+  methods:
+  -   git: https://github.com/bazelbuild/bazel.git
 
 # latestVersion and eol on https://bazel.build/release
 # support(x) = releaseDate(x+1)

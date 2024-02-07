@@ -12,9 +12,10 @@ releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
 auto:
--   git: https://github.com/gradle/gradle.git
+  methods:
+  -   git: https://github.com/gradle/gradle.git
     # Exclude versions below 3.x because dates are wrong (https://github.com/endoflife-date/endoflife.date/pull/3619).
-    regex_exclude: '^v?[0-2]\.'
+      regex_exclude: '^v?[0-2]\.'
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)

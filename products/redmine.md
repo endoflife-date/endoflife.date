@@ -9,7 +9,8 @@ changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'_
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/redmine/redmine.git
+  methods:
+  -   git: https://github.com/redmine/redmine.git
 
 # eol releases announced in new versions blog posts
 releases:

@@ -10,7 +10,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   npm: nuxt
+  methods:
+  -   npm: nuxt
 
 releases:
 -   releaseCycle: "3"

@@ -11,7 +11,8 @@ activeSupportColumn: Active Development
 eolColumn: Active Maintenance
 
 auto:
--   git: https://github.com/jekyll/jekyll.git
+  methods:
+  -   git: https://github.com/jekyll/jekyll.git
 
 releases:
 -   releaseCycle: "4"

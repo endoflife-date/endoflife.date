@@ -135,9 +135,13 @@ module EndOfLifeHooks
     error_if.is_not_a_number('discontinuedWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('extendedSupportColumn')
     error_if.is_not_a_number('extendedSupportWarnThreshold')
-    error_if.is_not_an_array('auto')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
+
+    if product.data.has_key?('auto')
+      error_if = Validator.new(product, product.data['auto'])
+      error_if.is_not_an_array('methods')
+    end
 
     product.data['customColumns'].each { |column|
       error_if = Validator.new(product, column)

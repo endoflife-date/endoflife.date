@@ -13,7 +13,8 @@ identifiers:
 -   purl: pkg:github/keycloak/keycloak
 
 auto:
--   git: https://github.com/keycloak/keycloak.git
+  methods:
+  -   git: https://github.com/keycloak/keycloak.git
 
 # eol(x) = release(x+1)
 releases:

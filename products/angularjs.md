@@ -13,7 +13,8 @@ eolColumn: Support
 extendedSupportColumn: Extended Long Term Support
 
 auto:
--   npm: angular
+  methods:
+  -   npm: angular
 
 identifiers:
 -   repology: angular.js

@@ -9,7 +9,8 @@ releasePolicyLink:
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "16"

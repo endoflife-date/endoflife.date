@@ -21,7 +21,8 @@ identifiers:
 -   repology: ansible
 
 auto:
--   pypi: ansible
+  methods:
+  -   pypi: ansible
 
 # ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life

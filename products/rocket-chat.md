@@ -14,7 +14,8 @@ activeSupportColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/RocketChat/Rocket.Chat.git
+  methods:
+  -   git: https://github.com/RocketChat/Rocket.Chat.git
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+1) + 3 months (may be adjusted according to https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability)

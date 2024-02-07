@@ -10,8 +10,9 @@ changelogTemplate: "https://nextcloud.com/changelog/#latest__RELEASE_CYCLE__"
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/nextcloud/server.git
-    regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/nextcloud/server.git
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # releaseDate/eol see https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule
 releases:

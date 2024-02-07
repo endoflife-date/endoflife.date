@@ -15,7 +15,8 @@ eolColumn: Active Support
 
 # https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/en-us/lifecycle/products/?terms=Visual%20Studio.

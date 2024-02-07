@@ -12,7 +12,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/drupal/drupal.git
+  methods:
+  -   git: https://github.com/drupal/drupal.git
 
 identifiers:
 -   purl: pkg:composer/drupal/core

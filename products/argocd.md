@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/argoproj/argo-cd.git
+  methods:
+  -   git: https://github.com/argoproj/argo-cd.git
 
 identifiers:
 -   repology: argocd

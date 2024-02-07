@@ -10,7 +10,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/elastic/logstash.git
+  methods:
+  -   git: https://github.com/elastic/logstash.git
 
 releases:
 -   releaseCycle: "8"

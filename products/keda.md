@@ -9,7 +9,8 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/kedacore/keda.git
+  methods:
+  -   git: https://github.com/kedacore/keda.git
 
 identifiers:
 -   purl: pkg:github/kedacore/keda

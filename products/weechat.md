@@ -8,7 +8,8 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 auto:
--   git: https://github.com/weechat/weechat.git
+  methods:
+  -   git: https://github.com/weechat/weechat.git
 
 # eol(x) = releaseDate(x+1)
 releases:

@@ -17,9 +17,10 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/saltstack/salt.git
-    regex: ^v(?P<version>([1-9]\d*)(\.\d+){0,3})$
-    template: "{{version}}"
+  methods:
+  -   git: https://github.com/saltstack/salt.git
+      regex: ^v(?P<version>([1-9]\d*)(\.\d+){0,3})$
+      template: "{{version}}"
 
 identifiers:
 -   repology: salt

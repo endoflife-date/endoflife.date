@@ -12,7 +12,8 @@ eolColumn: Support
 extendedSupportColumn: Enterprise Support
 
 auto:
--   git: https://github.com/Kong/kong.git
+  methods:
+  -   git: https://github.com/Kong/kong.git
 
 identifiers:
 -   purl: pkg:github/Kong/kong

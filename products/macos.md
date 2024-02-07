@@ -16,7 +16,8 @@ eolColumn: Service Status
 # Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)
 # Script: https://github.com/endoflife-date/release-data/blob/main/src/apple.py
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 releases:
 -   releaseCycle: "14"

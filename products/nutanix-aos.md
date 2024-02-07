@@ -11,7 +11,8 @@ releaseDateColumn: true
 
 # See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
 auto:
--   custom: true
+  methods:
+  -   custom: true
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:

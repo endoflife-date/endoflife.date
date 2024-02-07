@@ -9,7 +9,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/contao/contao.git
+  methods:
+  -   git: https://github.com/contao/contao.git
 
 releases:
 -   releaseCycle: "5.2"

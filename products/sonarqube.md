@@ -13,8 +13,9 @@ releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   git: https://github.com/SonarSource/sonarqube.git
-    regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
+  methods:
+  -   git: https://github.com/SonarSource/sonarqube.git
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
 -   releaseCycle: "10"

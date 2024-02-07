@@ -9,7 +9,8 @@ changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/influxdata/telegraf
+  methods:
+  -   git: https://github.com/influxdata/telegraf
 
 # eol(x) = releaseDate(x+2)
 releases:
