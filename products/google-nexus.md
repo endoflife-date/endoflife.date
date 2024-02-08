@@ -8,8 +8,8 @@ versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/11227897
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: true
 discontinuedColumn: true
+activeSupportColumn: Android updates
 eolColumn: Security Updates
 customColumns:
 -   property: supportedAndroidVersions
