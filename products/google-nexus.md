@@ -110,6 +110,7 @@ releases:
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_One
     supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
+
 ---
 
 > Google Nexus is a discontinued line of Android devices (smartphone, tablet computers and streaming media players) designed and supported by Google. They were known for providing a pure Android experience.
