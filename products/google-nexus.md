@@ -15,7 +15,7 @@ customColumns:
 -   property: supportedAndroidVersions
     position: after-release-column
     # https://en.wikipedia.org/wiki/Google_Nexus
-    label: Supported Android Version
+    label: Supported Android Versions
     description: Supported Android versions range
     link: https://endoflife.date/android
 
