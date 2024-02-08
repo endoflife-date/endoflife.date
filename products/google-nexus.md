@@ -28,7 +28,7 @@ releases:
     eol: 2018-11-01
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_6P
-    supportedAndroidVersions: 6.0 - 8.1 # https://www.gsmarena.com/huawei_nexus_6p-7588.php
+    supportedAndroidVersions: 6.0 - 8.1 # https://en.wikipedia.org/wiki/Nexus_6P
 
 -   releaseCycle: "5x"
     releaseLabel: "Nexus 5X"
