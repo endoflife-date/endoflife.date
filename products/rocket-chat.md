@@ -20,10 +20,17 @@ auto:
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+1) + 3 months (may be adjusted according to https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability)
 releases:
--   releaseCycle: "6.5"
-    releaseDate: 2023-12-01
+-   releaseCycle: "6.6"
+    releaseDate: 2024-02-07
     support: true
     eol: false
+    latest: '6.6.0'
+    latestReleaseDate: 2024-02-07
+
+-   releaseCycle: "6.5"
+    releaseDate: 2023-12-01
+    support: 2024-02-07
+    eol: 2024-06-01
     latest: '6.5.3'
     latestReleaseDate: 2024-01-18
 
