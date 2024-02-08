@@ -64,7 +64,7 @@ releases:
     eol: 2016-08-01
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_7_(2013)
-    supportedAndroidVersions: 4.3 - 5.1 # https://www.gsmarena.com/asus_google_nexus_7_(2013)-5600.php
+    supportedAndroidVersions: 4.3 - 6.0 # https://www.gsmarena.com/asus_google_nexus_7_(2013)-5600.php
 
 -   releaseCycle: "q"
     releaseLabel: "Nexus Q"
