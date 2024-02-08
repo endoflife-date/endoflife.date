@@ -112,6 +112,6 @@ releases:
     supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
 ---
 
-> Google Nexus is a discontinued line of smartphones, tablet computers and streaming media players. They were known for providing a pure Android experience.
->
-> It started out in January 2010 and reached its end in October 2016, being replaced by the Google Pixel series.
+> Google Nexus is a discontinued line of Android devices (smartphone, tablet computers and streaming media players) designed and supported by Google. They were known for providing a pure Android experience.
+
+The Nexus series started out in January 2010 and reached its end in October 2016, so all Nexus devices are now discontinued and unsupported. The Nexus series were succeeded by the [Google Pixel series](/pixel), which continues the tradition of timely software updates and a seamless Android experience.
