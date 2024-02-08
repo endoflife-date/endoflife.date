@@ -26,22 +26,22 @@ releases:
     releaseDate: 2023-12-05
     support: true # to update once defined on https://www.suse.com/lifecycle#rancher
     eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
-    latest: "2.8.1"
-    latestReleaseDate: 2024-01-18
+    latest: "2.8.2"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-11-16
     support: 2024-05-15
     eol: 2024-11-18
-    latest: "2.7.9"
-    latestReleaseDate: 2023-10-16
+    latest: "2.7.10"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "2.6"
     releaseDate: 2021-08-30
     support: 2023-03-01
     eol: 2024-04-30
-    latest: "2.6.13"
-    latestReleaseDate: 2023-05-31
+    latest: "2.6.14"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "2.5"
     releaseDate: 2020-10-05
