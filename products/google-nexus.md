@@ -37,7 +37,7 @@ releases:
     eol: 2018-11-01
     discontinued: true
     link: https://en.wikipedia.org/wiki/Nexus_5X
-    supportedAndroidVersions: 6.0 - 8.1 # https://www.gsmarena.com/lg_nexus_5x-7556.php
+    supportedAndroidVersions: 6.0 - 8.1 # https://en.wikipedia.org/wiki/Nexus_5X
 
 -   releaseCycle: "player"
     releaseLabel: "Nexus Player"
