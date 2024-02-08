@@ -191,7 +191,7 @@ releases:
     
 ---
 
-> [IBM i](https://www.ibm.com/products/ibm-i) is a fully integrated operating system, meaning the database, middleware, security, runtime and hypervisor are integrated into the stack and licensed as one solution.
+> [IBM i](https://www.ibm.com/products/ibm-i) is a fully integrated operating system, meaning the database, middleware, security, runtime and hypervisor are integrated into the stack and licensed as one solution. It was originally released in 1988 as OS/400, as the sole operating system of the IBM AS/400 line of systems. It was renamed to i5/OS in 2004, before being renamed a second time to IBM i in 2008.
 
 End of program support date will be announced with at least 12 months notice prior to the effective termination date.
 
