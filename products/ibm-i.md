@@ -63,7 +63,7 @@ releases:
     extendedSupport: false
 
 -   releaseCycle: "6.1"
-    releaseDate: 2008-04-23
+    releaseDate: 2008-03-21
     eol: 2015-09-30
     latest: "6.1"
     latestReleaseDate: 2008-04-23
