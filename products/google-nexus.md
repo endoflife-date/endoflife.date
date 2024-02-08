@@ -104,7 +104,7 @@ releases:
 
 -   releaseCycle: "one"
     releaseLabel: "Nexus One"
-    releaseDate: 2010-01-05
+    releaseDate: 2010-01-05 # https://en.wikipedia.org/wiki/Nexus_One#History
     support: 2012-01-01
     eol: 2012-01-01
     discontinued: true
