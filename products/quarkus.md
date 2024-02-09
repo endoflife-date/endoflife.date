@@ -32,8 +32,8 @@ releases:
     releaseDate: 2024-01-31
     eol: false
     extendedSupport: false
-    latest: "3.7.1"
-    latestReleaseDate: 2024-01-31
+    latest: "3.7.2"
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "3.6"
     releaseDate: 2023-11-29
