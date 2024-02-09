@@ -24,8 +24,8 @@ releases:
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.3'
-    latestReleaseDate: 2024-01-22
+    latest: '14.3.1'
+    latestReleaseDate: 2024-02-08
     link: https://support.apple.com/HT213895
 
 -   releaseCycle: "13"
