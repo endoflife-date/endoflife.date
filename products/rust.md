@@ -10,7 +10,7 @@ alternate_urls:
 releasePolicyLink: https://rust-lang.github.io/rustup/concepts/channels.html
 eolColumn: Supported
 versionCommand: rustc --version
-changelogTemplate: https://github.com/rust-lang/rust/releases/tag/
+changelogTemplate: https://github.com/rust-lang/rust/releases/tag/__LATEST__
 releaseDateColumn: true
 
 auto:
