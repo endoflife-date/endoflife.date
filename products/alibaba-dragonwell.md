@@ -7,7 +7,7 @@ permalink: /alibaba-dragonwell
 alternate_urls:
 -   /dragonwell
 versionCommand: java -version
-releasePolicyLink: 
+releasePolicyLink:
   https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
 changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 releaseDateColumn: true
@@ -23,10 +23,10 @@ identifiers:
 -   repology: jdk11-dragonwell-extended
 -   repology: jdk11-dragonwell-standard
 -   purl: pkg:docker/alibabadragonwell/dragonwell
--   purl: 
+-   purl:
       pkg:oci/dragonwell?repository_url=dragonwell-registry.cn-hangzhou.cr.aliyuncs.com/dragonwell/dragonwell
 # Alibaba Cloud Linux OS plus repository, but only for x86_64 architecture
--   purl: 
+-   purl:
       pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
 
 # There is one repository for each major LTS release.
@@ -34,31 +34,22 @@ identifiers:
 auto:
   methods:
   -   git: "https://github.com/dragonwell-project/dragonwell8.git"
-      regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
-      regex: '^dragonwell-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
-      regex: '^dragonwell-(?P<version>[\d\.\+]+)-GA$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell8.git"
-      regex: '^v(?P<version>[\d\.\+]+)-GA$'
+      regex:
+      -   '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      -   '^dragonwell-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      -   '^dragonwell-(?P<version>[\d\.\+]+)-GA$'
+      -   '^v(?P<version>[\d\.\+]+)-GA$'
       template: '{{version}}'
   -   git: "https://github.com/dragonwell-project/dragonwell11.git"
-      regex: '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell11.git"
-      regex: '^dragonwell[-_](?P<version>[\d\.\+]+)_.+-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell17.git"
-      regex: '^dragonwell-standard-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
+      regex:
+      -   '^dragonwell-standard-(?P<version>[\d\.\+]+)_jdk.+-ga$'
+      -   '^dragonwell[-_](?P<version>[\d\.\+]+)_.+-ga$'
       template: '{{version}}'
   -   git: "https://github.com/dragonwell-project/dragonwell17.git"
-      regex: '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/dragonwell-project/dragonwell17.git"
-      regex: '^jdk-(?P<version>17[\d\.\+]+)-ga$'
+      regex:
+      -   '^dragonwell-standard-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
+      -   '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
+      -   '^jdk-(?P<version>17[\d\.\+]+)-ga$'
       template: '{{version}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
@@ -86,7 +77,7 @@ releases:
     eol: 2026-06-30
     latest: "8.17.18"
     latestReleaseDate: 2023-12-27
-    link: 
+    link:
       https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---
