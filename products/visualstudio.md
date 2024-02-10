@@ -6,17 +6,16 @@ permalink: /visual-studio
 alternate_urls:
 -   /visualstudio
 releasePolicyLink: https://learn.microsoft.com/visualstudio/productinfo/vs-servicing
-changelogTemplate: 
+changelogTemplate:
   https://learn.microsoft.com/visualstudio/releases/__CODENAME__/release-notes-v__RELEASE_CYCLE__#__LATEST__
 releaseLabel: '__CODENAME__ - __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 releaseDateColumn: true
 eolColumn: Active Support
 
-# https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
 auto:
   methods:
-  -   custom: true
+  -   custom: visualstudio
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/en-us/lifecycle/products/?terms=Visual%20Studio.
@@ -187,7 +186,7 @@ releases:
     eol: 2018-11-13
     latest: "15.8.9"
     latestReleaseDate: 2018-11-02
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.8#-visual-studio-2017-version-1589
 
 -   releaseCycle: "15.7"
@@ -196,7 +195,7 @@ releases:
     eol: 2018-08-14
     latest: "15.7.6"
     latestReleaseDate: 2018-08-02
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.7#-visual-studio-2017-version-1576
 
 -   releaseCycle: "15.6"
@@ -205,7 +204,7 @@ releases:
     eol: 2018-05-07
     latest: "15.6.7"
     latestReleaseDate: 2018-04-26
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.6#--visual-studio-2017-version-1567-servicing-update-
 
 -   releaseCycle: "15.5"
@@ -214,7 +213,7 @@ releases:
     eol: 2018-03-05
     latest: "15.5.7"
     latestReleaseDate: 2018-02-20
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.5#visual-studio-2017-version-1557
 
 -   releaseCycle: "15.4"
@@ -223,7 +222,7 @@ releases:
     eol: 2017-12-04
     latest: "15.4.5"
     latestReleaseDate: 2017-11-27
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.4#visual-studio-2017-version-1545
 
 -   releaseCycle: "15.3"
@@ -232,7 +231,7 @@ releases:
     eol: 2017-10-09
     latest: "15.3.5"
     latestReleaseDate: 2017-09-19
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.3#visual-studio-2017-version-1535
 
 -   releaseCycle: "15.2"
@@ -241,7 +240,7 @@ releases:
     eol: 2017-08-14
     latest: "15.2.6"
     latestReleaseDate: 2017-07-17
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.2#visual-studio-2017-version-1525
 
 -   releaseCycle: "15.1"
@@ -250,7 +249,7 @@ releases:
     eol: 2017-05-10
     latest: "15.1.2"
     latestReleaseDate: 2017-04-17
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.1#-visual-studio-2017-version-1512
 
 -   releaseCycle: "15.0"
@@ -259,7 +258,7 @@ releases:
     eol: 2020-01-14
     latest: "15.0.28"
     latestReleaseDate: 2019-12-11
-    link: 
+    link:
       https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes-v15.0#--visual-studio-2017-version-15018
 
 -   releaseCycle: "14.0"

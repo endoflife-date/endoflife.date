@@ -13,10 +13,9 @@ releasePolicyLink: "https://www.nutanix.com/support-services/product-support/sup
 activeSupportColumn: true
 releaseDateColumn: true
 
-# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
 auto:
   methods:
-  -   custom: true
+  -   custom: nutanix
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:

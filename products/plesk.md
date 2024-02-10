@@ -13,7 +13,7 @@ eolWarnThreshold: 21
 
 auto:
   methods:
-  -   custom: true
+  -   custom: plesk
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:

@@ -15,7 +15,7 @@ releaseDateColumn: true
 # Used only for detecting new minor releases.
 auto:
   methods:
-  -   custom: true
+  -   custom: looker
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:

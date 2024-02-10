@@ -19,7 +19,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: oracle-jdk
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
 # EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html.
@@ -157,7 +157,7 @@ releases:
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     eol: 2008-10-30
     extendedSupport: false
-    link: 
+    link:
       https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
     latest: "1.4.2_42"
     latestReleaseDate: 2013-02-19
@@ -176,7 +176,7 @@ releases:
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     eol: 2003-11-30
     extendedSupport: false
-    link: 
+    link:
       https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     latest: "1.2.2_18"
     latestReleaseDate: 2007-01-12

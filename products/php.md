@@ -15,7 +15,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: true
+  -   custom: php
 
 releases:
 -   releaseCycle: "8.3"

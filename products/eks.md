@@ -14,12 +14,9 @@ releaseDateColumn: true
 eolColumn: End of Support
 extendedSupportColumn: true
 
-# Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
 auto:
   methods:
-  -   custom: true
+  -   custom: eks
 
 # EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:

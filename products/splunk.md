@@ -10,7 +10,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: splunk
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:

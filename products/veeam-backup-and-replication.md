@@ -14,7 +14,7 @@ eolColumn: End of support
 
 auto:
   methods:
-  -   custom: true
+  -   custom: veeam-backup-and-replication
 
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb2680.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.

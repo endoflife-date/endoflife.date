@@ -16,7 +16,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: true
+  -   custom: typo3
 
 releases:
 -   releaseCycle: "13"

@@ -10,7 +10,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: rds
 
 releases:
 -   releaseCycle: "16"

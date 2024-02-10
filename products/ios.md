@@ -10,7 +10,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: apple
 
 releases:
 -   releaseCycle: "17"
@@ -19,7 +19,7 @@ releases:
     eol: false
     latest: "17.3.1"
     latestReleaseDate: 2024-02-08
-    link: 
+    link:
       https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"

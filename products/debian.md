@@ -17,7 +17,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: true
+  -   custom: debian
 
 releases:
 -   releaseCycle: "12"

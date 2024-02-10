@@ -17,7 +17,7 @@ releaseDateColumn: true
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
-  -   custom: true
+  -   custom: rockylinux
 
 identifiers:
 -   cpe: cpe:/o:rocky:rocky

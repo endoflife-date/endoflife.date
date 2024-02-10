@@ -8,12 +8,9 @@ releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 releaseDateColumn: true
 
-# Source: https://www.haproxy.org/download/
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
   methods:
-  -   custom: true
+  -   custom: haproxy
 
 identifiers:
 -   repology: haproxy

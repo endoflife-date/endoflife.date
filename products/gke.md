@@ -15,10 +15,9 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-  -   custom: true
+  -   custom: gke
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
-# releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
 # support: last-date-in-month(eol - 2months)
 releases:
 -   releaseCycle: "1.29"
