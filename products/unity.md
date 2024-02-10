@@ -5,7 +5,7 @@ iconSlug: unity
 permalink: /unity
 alternate_urls:
 -   /unity3d
-releaseImage: 
+releaseImage:
   https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
@@ -13,7 +13,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: unity
 
 releases:
 -   releaseCycle: "2023.2"

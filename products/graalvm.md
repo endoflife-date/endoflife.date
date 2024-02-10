@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: graalvm
 
 releases:
 -   releaseCycle: "jdk-21"

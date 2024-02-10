@@ -13,7 +13,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: apple
 
 releases:
 -   releaseCycle: "10"

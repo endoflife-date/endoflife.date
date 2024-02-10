@@ -19,7 +19,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: true
+  -   custom: apache-http-server
 
 releases:
 -   releaseCycle: "2.4"

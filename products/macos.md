@@ -12,12 +12,9 @@ releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 eolColumn: Service Status
 
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
-# Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/apple.py
 auto:
   methods:
-  -   custom: true
+  -   custom: apple
 
 releases:
 -   releaseCycle: "14"

@@ -8,9 +8,10 @@ releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactor
 releaseDateColumn: true
 eolColumn: Support
 
-auto:
-  methods:
-  -   custom: true
+# Disabled, don't work anymore ().
+#auto:
+#  methods:
+#  -   custom: artifactory
 
 releases:
 -   releaseCycle: "7.71"

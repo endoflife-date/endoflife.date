@@ -4,13 +4,13 @@ category: service
 tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
-releasePolicyLink: 
+releasePolicyLink:
   https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: true
+  -   custom: rds
 
 releases:
 -   releaseCycle: "8.0"

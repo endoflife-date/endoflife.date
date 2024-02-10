@@ -4,17 +4,16 @@ category: server-app
 tags: adobe
 permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
-releasePolicyLink: 
+releasePolicyLink:
   https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 releaseDateColumn: true
 eolColumn: Core Support
 extendedSupportColumn: true
 
-# See https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py.
 auto:
   methods:
-  -   custom: true
+  -   custom: coldfusion
 
 # When adding a cycle, don't forget to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py

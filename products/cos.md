@@ -16,7 +16,7 @@ eolColumn: Support Status
 
 auto:
   methods:
-  -   custom: true
+  -   custom: cos
 
 releases:
 # Active Milestones
