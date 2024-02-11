@@ -49,8 +49,8 @@ releases:
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
     eol: 2030-10-01
-    latest: "21.0.2.13.1"
-    latestReleaseDate: 2024-01-16
+    latest: "21.0.2.14.1"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -76,8 +76,8 @@ releases:
     lts: true
     releaseDate: 2021-08-24
     eol: 2029-10-01
-    latest: "17.0.9.8.1"
-    latestReleaseDate: 2023-10-17
+    latest: "17.0.10.8.1"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "16"
     releaseDate: 2021-04-23
