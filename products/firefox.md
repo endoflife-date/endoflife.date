@@ -16,6 +16,9 @@ identifiers:
 -   purl: pkg:generic/firefox
 
 auto:
+  # It takes too much time to fetch all versions.
+  # See https://github.com/endoflife-date/release-data/blob/main/src/firefox.py for details
+  cumulative: true
   methods:
   -   custom: firefox
 

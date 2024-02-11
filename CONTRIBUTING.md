@@ -212,9 +212,15 @@ customColumns:
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
 # Multiple configurations are allowed.
 # Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration enables a footer note on the product page
-# informing users that the latest releases are automatically updated.
+# The presence of such configuration modifies the product page so that users are informed that existing
+# releases are automatically updated with latest versions.
 auto:
+  # Mark auto-update as being cumulative (optional, default = false).
+  # This means that the data won't be deleted before fetching new data.
+  # Activating cumulative updates is not recommended for most products, but could be useful for products that:
+  # - have a long history of releases that is long to fetch,
+  # - have a history of releases that is not available anymore.
+  cumulative: true
   methods:
     # Configuration for auto-update based on git.
     # Any valid git clone URL will work, but support for partialClone is necessary
@@ -269,8 +275,8 @@ auto:
     - maven: org.apache.tomcat/tomcat
 
     # Configuration for auto-update based on a custom script in the release-data repository.
-    # The value must always be `true`.
-    - custom: true
+    # The value must be the script name in the release-data repository, without it's '.py' extension.
+    - custom: script-name
 
 # A list of identifiers that can be used to detect this product as being used,
 # especially by SBOM tooling

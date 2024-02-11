@@ -12,6 +12,9 @@ changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|s
 releaseDateColumn: true
 
 auto:
+  # It takes too much time to fetch all versions.
+  # See https://github.com/endoflife-date/release-data/blob/main/src/unity.py for details
+  cumulative: true
   methods:
   -   custom: unity
 
