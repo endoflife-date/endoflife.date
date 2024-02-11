@@ -9,9 +9,9 @@ alternate_urls:
 -   /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-releaseImage:
+releaseImage: 
   https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
-changelogTemplate:
+changelogTemplate: 
   https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"|
   replace:'.','-'}}-release-notes.html
 releaseDateColumn: true
@@ -30,16 +30,16 @@ releases:
     support: true #  4.15 GA + 3 months
     eol: 2025-05-01
     extendedSupport: 2025-10-31
-    latest: "4.14.10"
-    latestReleaseDate: 2024-01-23
+    latest: "4.14.11"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
     support: 2024-01-31
     eol: 2024-11-17
     extendedSupport: false
-    latest: "4.13.31"
-    latestReleaseDate: 2024-02-01
+    latest: "4.13.32"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
@@ -54,8 +54,8 @@ releases:
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.57"
-    latestReleaseDate: 2024-01-25
+    latest: "4.11.58"
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10
