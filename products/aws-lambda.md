@@ -14,19 +14,15 @@ auto:
   methods:
   -   custom: aws-lambda
 
-# The custom script will only detect new releases, the release date must be retrieved from
-# announcements blog post on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
-#
-# Support dates are Deprecation Phase 1 dates and EOL dates are Deprecation Phase 2 dates
-# in https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html. If support date
-# is provided but not EOL date, EOL date is set to support date + 1 month.
+# The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
+# The release dates must be retrieved from announcements blog post on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
 -   releaseCycle: "python3.12"
     releaseLabel: Python 3.12
     releaseDate: 2023-12-14
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-support-python-3-12/
     latest: "python3.12"
     latestReleaseDate: 2023-12-14
@@ -45,7 +41,7 @@ releases:
     releaseDate: 2023-11-15
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-20-x-runtime-now-available-in-aws-lambda/
     latest: nodejs20.x
     latestReleaseDate: 2023-11-15
@@ -55,7 +51,7 @@ releases:
     releaseDate: 2023-11-10
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/introducing-the-amazon-linux-2023-runtime-for-aws-lambda/
     latest: provided.al2023
     latestReleaseDate: 2023-11-10
@@ -65,7 +61,7 @@ releases:
     releaseDate: 2023-07-27
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/python-3-11-runtime-now-available-in-aws-lambda/
     latest: python3.11
     latestReleaseDate: 2023-07-27
@@ -75,7 +71,7 @@ releases:
     releaseDate: 2023-06-07
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/ruby-3-2-runtime-now-available-in-aws-lambda/
     latest: ruby3.2
     latestReleaseDate: 2023-06-07
@@ -85,7 +81,7 @@ releases:
     releaseDate: 2023-04-27
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/java-17-runtime-now-available-on-aws-lambda/
     latest: java17
     latestReleaseDate: 2023-04-27
@@ -95,7 +91,7 @@ releases:
     releaseDate: 2023-04-18
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/python-3-10-runtime-now-available-in-aws-lambda/
     latest: python3.10
     latestReleaseDate: 2023-04-18
@@ -105,7 +101,7 @@ releases:
     releaseDate: 2022-11-18
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-18-x-runtime-now-available-in-aws-lambda/
     latest: nodejs18.x
     latestReleaseDate: 2022-11-18
@@ -114,8 +110,8 @@ releases:
     releaseLabel: .NET 7 (container-only)
     releaseDate: 2022-11-15
     support: 2024-05-14
-    eol: false      # estimated
-    link: 
+    eol: false
+    link:
       https://aws.amazon.com/blogs/compute/building-serverless-net-applications-on-aws-lambda-using-net-7/
     latest: dotnet7
     latestReleaseDate: 2022-11-15
@@ -125,7 +121,7 @@ releases:
     releaseDate: 2022-05-12
     support: 2024-06-12
     eol: 2024-08-15
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-16-x-runtime-now-available-in-aws-lambda/
     latest: nodejs16.x
     latestReleaseDate: 2022-05-12
@@ -135,7 +131,7 @@ releases:
     releaseDate: 2022-02-24
     support: 2024-11-12
     eol: 2025-02-11
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
     latest: dotnet6
     latestReleaseDate: 2022-02-24
@@ -145,7 +141,7 @@ releases:
     releaseDate: 2021-08-16
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/python-3-9-runtime-now-available-in-aws-lambda/
     latest: python3.9
     latestReleaseDate: 2021-08-16
@@ -155,7 +151,7 @@ releases:
     releaseDate: 2021-02-03
     support: 2023-12-04
     eol: 2024-02-08
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/
     latest: nodejs14.x
     latestReleaseDate: 2021-02-03
@@ -165,7 +161,7 @@ releases:
     releaseDate: 2020-12-02
     support: 2022-05-10
     eol: true
-    link: 
+    link:
       https://aws.amazon.com/blogs/developer/net-5-aws-lambda-support-with-container-images/
     latest: dotnet5.0
     latestReleaseDate: 2020-12-02
@@ -184,7 +180,7 @@ releases:
     releaseDate: 2020-08-12
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2020/08/aws-lambda-supports-custom-runtimes-amazon-linux-2/
     latest: provided.al2
     latestReleaseDate: 2020-08-12
@@ -194,7 +190,7 @@ releases:
     releaseDate: 2020-03-31
     support: 2023-04-03
     eol: 2023-05-03
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/announcing-aws-lambda-supports-for-net-core-3-1/
     latest: dotnetcore3.1
     latestReleaseDate: 2020-03-31
@@ -203,7 +199,7 @@ releases:
     releaseLabel: Ruby 2.7
     releaseDate: 2020-02-19
     support: 2023-12-07
-    eol: 2024-02-08 # estimated
+    eol: 2024-02-08
     link: https://aws.amazon.com/about-aws/whats-new/2020/02/aws-lambda-supports-ruby-2-7/
     latest: ruby2.7
     latestReleaseDate: 2020-02-19
@@ -213,7 +209,7 @@ releases:
     releaseDate: 2019-11-18
     support: 2023-03-31
     eol: 2023-04-30
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-12-x-runtime-now-available-in-aws-lambda/
     latest: nodejs12.x
     latestReleaseDate: 2019-11-18
@@ -223,7 +219,7 @@ releases:
     releaseDate: 2019-11-18
     support: 2024-10-14
     eol: 2025-01-07
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/python-3-8-runtime-now-available-in-aws-lambda/
     latest: python3.8
     latestReleaseDate: 2019-11-18
@@ -233,7 +229,7 @@ releases:
     releaseDate: 2019-11-18
     support: true
     eol: false
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/java-11-runtime-now-available-in-aws-lambda/
     latest: java11
     latestReleaseDate: 2019-11-18
@@ -243,7 +239,7 @@ releases:
     releaseDate: 2019-05-15
     support: 2021-07-30
     eol: 2022-02-14
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2019/05/aws_lambda_adds_support_for_node_js_v10/
     latest: nodejs10.x
     latestReleaseDate: 2019-05-15
@@ -262,7 +258,7 @@ releases:
     releaseDate: 2018-11-29
     support: 2024-01-08
     eol: 2024-03-12
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2018/11/aws-lambda-now-supports-custom-runtimes-and-layers/
     latest: provided.al2023
     latestReleaseDate: 2023-11-10
@@ -272,7 +268,7 @@ releases:
     releaseDate: 2018-11-19
     support: 2023-12-04
     eol: 2024-02-08
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/python-3-7-runtime-now-available-in-aws-lambda/
     latest: python3.7
     latestReleaseDate: 2018-11-19
@@ -289,9 +285,9 @@ releases:
 -   releaseCycle: "nodejs8.10"
     releaseLabel: Node.js 8.10
     releaseDate: 2018-04-02
-    support: 2020-03-06 # no Deprecation Phase 1 date
+    support: 2020-03-06
     eol: 2020-03-06
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-8-10-runtime-now-available-in-aws-lambda/
     latest: nodejs8.10
     latestReleaseDate: 2018-04-02
@@ -299,7 +295,7 @@ releases:
 -   releaseCycle: "dotnetcore2.0"
     releaseLabel: .NET Core 2.0
     releaseDate: 2018-01-15
-    support: 2019-05-30 # no Deprecation Phase 1 date
+    support: 2019-05-30
     eol: 2019-05-30
     link: https://aws.amazon.com/blogs/developer/aws-lambda-net-core-2-0-support-released/
     latest: dotnetcore2.0
@@ -317,9 +313,9 @@ releases:
 -   releaseCycle: "nodejs4.3-edge"
     releaseLabel: Node.js 4.3 edge
     releaseDate: 2017-07-17
-    support: 2020-03-05 # no Deprecation Phase 1 date
-    eol: 2019-04-30
-    link: 
+    support: 2020-03-05
+    eol: 2019-04-30 # probably a mistake, but it's what the official documentation says
+    link:
       https://aws.amazon.com/about-aws/whats-new/2017/07/lambda-at-edge-now-generally-available/
     latest: nodejs4.3-edge
     latestReleaseDate: 2017-07-17
@@ -329,7 +325,7 @@ releases:
     releaseDate: 2017-04-18
     support: 2022-07-18
     eol: 2022-08-29
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2017/04/aws-lambda-supports-python-3-6/
     latest: python3.6
     latestReleaseDate: 2017-04-18
@@ -337,9 +333,9 @@ releases:
 -   releaseCycle: "nodejs6.10"
     releaseLabel: Node.js 6.10
     releaseDate: 2017-03-22
-    support: 2019-08-12 # no Deprecation Phase 1 date
+    support: 2019-08-12
     eol: true
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2017/03/aws-lambda-supports-node-js-6-10/
     latest: nodejs6.10
     latestReleaseDate: 2017-03-22
@@ -347,7 +343,7 @@ releases:
 -   releaseCycle: "dotnetcore1.0"
     releaseLabel: .NET Core 1.0
     releaseDate: 2016-12-01
-    support: 2019-06-27 # no Deprecation Phase 1 date
+    support: 2019-06-27
     eol: 2019-07-30
     link: https://aws.amazon.com/blogs/compute/announcing-c-sharp-support-for-aws-lambda/
     latest: dotnetcore1.0
@@ -356,9 +352,9 @@ releases:
 -   releaseCycle: "nodejs4.3"
     releaseLabel: Node.js 4.3
     releaseDate: 2016-04-07
-    support: 2020-03-05 # no Deprecation Phase 1 date
+    support: 2020-03-05
     eol: 2020-03-05
-    link: 
+    link:
       https://aws.amazon.com/blogs/compute/node-js-4-3-2-runtime-now-available-on-lambda/
     latest: nodejs4.3-edge
     latestReleaseDate: 2017-07-17
@@ -368,7 +364,7 @@ releases:
     releaseDate: 2015-10-08
     support: 2021-07-15
     eol: 2022-05-30
-    link: 
+    link:
       https://aws.amazon.com/about-aws/whats-new/2015/10/aws-lambda-supports-python-versioning-scheduled-jobs-and-5-minute-functions/
     latest: python2.7
     latestReleaseDate: 2015-10-08
@@ -385,7 +381,7 @@ releases:
 -   releaseCycle: "nodejs"
     releaseLabel: Node.js 0.10
     releaseDate: 2014-11-13
-    support: false      # no Deprecation Phase 1 date
+    support: false
     eol: 2016-10-31
     link: https://aws.amazon.com/blogs/aws/run-code-cloud/
     latest: nodejs
@@ -433,12 +429,15 @@ support in the next 60 days.
 
 ## Deprecated Support
 
-Deprecation (end of support) for a runtime occurs in two phases:
+Deprecation (end of support) for a runtime occurs in multiple steps:
 
-- Phase 1: Security patches or other updates are no longer applied, and new functions that use the
-  runtime cannot be created. Functions that use a deprecated runtime are also no longer eligible
-  for technical support. This phase is documented in the table above as **Deprecated Support**.
-- Phase 2: Existing functions that use the runtime cannot be updated, and rollback to that runtime
-  is no more possible. Phase 2 starts at least 30 days after the start of Phase 1.
+- Deprecation: Security patches or other updates are no longer applied, and new functions that use
+  the runtime cannot be created. Functions that use a deprecated runtime are also no longer eligible
+  for technical support. This is documented in the table above as **Standard Support**.
+- Block function creation: Starting from at least 30 days after the deprecation, new functions
+  using a deprecated runtime cannot be created anymore.
+- Block function update: Starting from at least 60 days after the deprecation, existing functions
+  that use a deprecated runtime cannot be updated anymore. This is documented in the table above
+  as **Deprecated Support**.
 
 Invocations of functions that use deprecated runtime is never blocked.
