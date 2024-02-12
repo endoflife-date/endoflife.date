@@ -20,10 +20,17 @@ identifiers:
 
 # See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
 releases:
+-   releaseCycle: "6.0"
+    releaseDate: 2024-02-07
+    support: 2024-05-01
+    eol: 2024-08-01
+    latest: "6.0"
+    latestReleaseDate: 2024-02-07
+
 -   releaseCycle: "5.2"
+    lts: true
     releaseDate: 2023-11-01
     support: 2025-02-03
-    lts: true
     eol: 2025-02-03
     latest: "5.2.3"
     latestReleaseDate: 2024-01-23
@@ -166,7 +173,8 @@ The Wagtail team provides [official security support](https://docs.wagtail.org/e
 
 | Wagtail release | Compatible Django versions | Compatible Python versions |
 |-----------------|----------------------------|----------------------------|
-| 5               | 3.2, 4.1, 4.2              | 3.8-3.11                   |
+| 6               | 4.2, 5.0                   | 3.8-3.12                   |
+| 5               | 3.2, 4.1, 4.2, 5.0         | 3.8-3.12                   |
 | 4               | 3.2, 4.0, 4.1              | 3.7-3.11                   |
 | 3               | 3.2, 4.0                   | 3.7-3.10                   |
 | 2.15 LTS        | 3.0, 3.1, 3.2              | 3.6-3.10                   |
