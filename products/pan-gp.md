@@ -9,6 +9,19 @@ releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: End-of-life Date
 
+auto:
+  methods:
+  -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?$'
+      selector: "table#globalprotect"
+      headers_selector: "tr:nth-of-type(3) td"
+      rows_selector: "tr"
+      mapping:
+        releaseCycle: "GlobalProtect App version"
+        releaseDate: "Release Date"
+        support: "End-of-Engineering Date"
+        eol: "End-of-Life Date"
+
 releases:
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-23
