@@ -16,6 +16,18 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Support Status
 
+auto:
+  methods:
+  -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?$'
+      selector: "table#traps-esm-and-cortex"
+      headers_selector: "tr:nth-of-type(3) td"
+      rows_selector: "tr"
+      mapping:
+        releaseCycle: "Version"
+        releaseDate: "Release Date"
+        eol: "End-of-Life Date"
+
 # EOL dates can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
 -   releaseCycle: "8.2"
