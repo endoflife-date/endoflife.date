@@ -7,8 +7,7 @@ permalink: /jira-software
 alternate_urls:
 -   /jira
 -   /jira-core
-releasePolicyLink:
-  https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
+releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
 releaseDateColumn: true
 
@@ -25,130 +24,114 @@ releases:
     eol: false # to be announced on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
     latest: "9.13.1"
     latestReleaseDate: 2024-02-06
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-13-x-release-notes-1319569020.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-13-x-release-notes-1319569020.html
 
 -   releaseCycle: "9.12"
     releaseDate: 2023-11-29
     eol: 2025-11-29
     lts: true
-    latest: "9.12.3"
-    latestReleaseDate: 2024-02-08
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-12-x-release-notes-1319575972.html
+    latest: "9.12.4"
+    latestReleaseDate: 2024-02-12
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-12-x-release-notes-1319575972.html
 
 -   releaseCycle: "9.11"
     releaseDate: 2023-08-30
     eol: 2025-08-30
     latest: "9.11.3"
     latestReleaseDate: 2023-11-09
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-11-x-release-notes-1272283668.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-11-x-release-notes-1272283668.html
 
 -   releaseCycle: "9.10"
     releaseDate: 2023-07-11
     eol: 2025-07-11
     latest: "9.10.2"
     latestReleaseDate: 2023-09-19
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-10-x-release-notes-1255446432.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-10-x-release-notes-1255446432.html
 
 -   releaseCycle: "9.9"
     releaseDate: 2023-06-02
     eol: 2025-06-02
     latest: "9.9.2"
     latestReleaseDate: 2023-08-30
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-9-x-release-notes-1236934945.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-9-x-release-notes-1236934945.html
 
 -   releaseCycle: "9.8"
     releaseDate: 2023-04-25
     eol: 2025-04-25
     latest: "9.8.2"
     latestReleaseDate: 2023-08-30
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-8-x-release-notes-1224776099.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-8-x-release-notes-1224776099.html
 
 -   releaseCycle: "9.7"
     releaseDate: 2023-03-20
     eol: 2025-03-20
     latest: "9.7.2"
     latestReleaseDate: 2023-08-30
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-7-x-release-notes-1217298752.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-7-x-release-notes-1217298752.html
 
 -   releaseCycle: "9.6"
     releaseDate: 2023-01-24
     eol: 2025-01-24
     latest: "9.6.0"
     latestReleaseDate: 2023-01-24
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-6-x-release-notes-1207174461.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-6-x-release-notes-1207174461.html
 
 -   releaseCycle: "9.5"
     releaseDate: 2022-12-06
     eol: 2024-12-06
     latest: "9.5.1"
     latestReleaseDate: 2023-01-19
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-5-x-release-notes-1188764867.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-5-x-release-notes-1188764867.html
 
 -   releaseCycle: "9.4"
     releaseDate: 2022-11-15
     eol: 2024-11-15
     lts: true
-    latest: "9.4.16"
-    latestReleaseDate: 2024-02-07
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-4-x-release-notes-1178869757.html
+    latest: "9.4.17"
+    latestReleaseDate: 2024-02-12
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-4-x-release-notes-1178869757.html
 
 -   releaseCycle: "9.3"
     releaseDate: 2022-09-28
     eol: 2024-09-29
     latest: "9.3.3"
     latestReleaseDate: 2023-01-19
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-3-x-release-notes-1168850570.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-3-x-release-notes-1168850570.html
 
 -   releaseCycle: "9.2"
     releaseDate: 2022-08-25
     eol: 2024-08-25
     latest: "9.2.1"
     latestReleaseDate: 2022-12-22
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-2-x-release-notes-1163763245.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-2-x-release-notes-1163763245.html
 
 -   releaseCycle: "9.1"
     releaseDate: 2022-07-21
     eol: 2024-07-21
     latest: "9.1.1"
     latestReleaseDate: 2022-08-23
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-1-x-release-notes-1142452845.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-1-x-release-notes-1142452845.html
 
 -   releaseCycle: "9.0"
     releaseDate: 2022-06-21
     eol: 2024-06-21
     latest: "9.0.0"
     latestReleaseDate: 2022-06-21
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-9-0-x-release-notes-1142227613.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-9-0-x-release-notes-1142227613.html
 
 -   releaseCycle: "8.22"
     releaseDate: 2022-02-16
     eol: 2024-02-16
     latest: "8.22.6"
     latestReleaseDate: 2022-07-20
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-8-22-x-release-notes-1115656979.html
 
 -   releaseCycle: "8.21"
     releaseDate: 2021-12-09
     eol: 2023-12-09
     latest: "8.21.1"
     latestReleaseDate: 2022-01-27
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-8-21-x-release-notes-1095249705.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-8-21-x-release-notes-1095249705.html
 
 -   releaseCycle: "8.20"
     releaseDate: 2021-10-19
@@ -156,8 +139,7 @@ releases:
     lts: true
     latest: "8.20.30"
     latestReleaseDate: 2024-01-02
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-8-20-x-release-notes-1086411771.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-8-20-x-release-notes-1086411771.html
 
 # 8.19 to 8.5 EOL dates documented on https://web.archive.org/web/20211117125223/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "8.19"
@@ -165,8 +147,7 @@ releases:
     eol: 2023-08-26
     latest: "8.19.1"
     latestReleaseDate: 2021-09-14
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-19-1-1086395933.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-19-1-1086395933.html
 
 -   releaseCycle: "8.18"
     # should be 2021-07-01, but 8.18.0 is not listed on https://www.atlassian.com/software/jira/update so auto-update does not consider this version.
@@ -174,40 +155,35 @@ releases:
     eol: 2023-07-01
     latest: "8.18.2"
     latestReleaseDate: 2021-08-17
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-18-2-1077915228.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-18-2-1077915228.html
 
 -   releaseCycle: "8.17"
     releaseDate: 2021-05-17
     eol: 2023-05-18
     latest: "8.17.1"
     latestReleaseDate: 2021-06-14
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-17-1-1069027535.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-17-1-1069027535.html
 
 -   releaseCycle: "8.16"
     releaseDate: 2021-03-22
     eol: 2023-03-23
     latest: "8.16.2"
     latestReleaseDate: 2021-06-01
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-16-2-1063177762.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-16-2-1063177762.html
 
 -   releaseCycle: "8.15"
     releaseDate: 2021-01-21
     eol: 2023-02-02
     latest: "8.15.1"
     latestReleaseDate: 2021-03-21
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-15-1-1044113285.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-15-1-1044113285.html
 
 -   releaseCycle: "8.14"
     releaseDate: 2020-11-22
     eol: 2022-11-23
     latest: "8.14.1"
     latestReleaseDate: 2021-01-13
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-14-1-1041828920.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-14-1-1041828920.html
 
 -   releaseCycle: "8.13"
     releaseDate: 2020-10-06
@@ -215,64 +191,56 @@ releases:
     lts: true
     latest: "8.13.27"
     latestReleaseDate: 2022-10-24
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-8-13-x-release-notes-1018783360.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-8-13-x-release-notes-1018783360.html
 
 -   releaseCycle: "8.12"
     releaseDate: 2020-08-25
     eol: 2022-08-26
     latest: "8.12.3"
     latestReleaseDate: 2020-10-06
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-12-3-1026523933.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-12-3-1026523933.html
 
 -   releaseCycle: "8.11"
     releaseDate: 2020-07-14
     eol: 2022-07-15
     latest: "8.11.1"
     latestReleaseDate: 2020-08-16
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-11-1-1018767316.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-11-1-1018767316.html
 
 -   releaseCycle: "8.10"
     releaseDate: 2020-06-22
     eol: 2022-06-23
     latest: "8.10.1"
     latestReleaseDate: 2020-07-19
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-10-1-1013852224.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-10-1-1013852224.html
 
 -   releaseCycle: "8.9"
     releaseDate: 2020-05-18
     eol: 2022-05-20
     latest: "8.9.1"
     latestReleaseDate: 2020-06-15
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-9-1-1005349334.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-9-1-1005349334.html
 
 -   releaseCycle: "8.8"
     releaseDate: 2020-03-18
     eol: 2022-03-19
     latest: "8.8.1"
     latestReleaseDate: 2020-04-21
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-8-1-1003521744.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-8-1-1003521744.html
 
 -   releaseCycle: "8.7"
     releaseDate: 2020-02-02
     eol: 2022-02-03
     latest: "8.7.1"
     latestReleaseDate: 2020-02-09
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-7-1-994312443.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-7-1-994312443.html
 
 -   releaseCycle: "8.6"
     releaseDate: 2019-12-16
     eol: 2021-12-17
     latest: "8.6.1"
     latestReleaseDate: 2020-01-08
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-6-1-986878565.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-6-1-986878565.html
 
 -   releaseCycle: "8.5"
     releaseDate: 2019-10-21
@@ -280,8 +248,7 @@ releases:
     lts: true
     latest: "8.5.19"
     latestReleaseDate: 2021-09-13
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-8-5-x-release-notes-975014654.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-8-5-x-release-notes-975014654.html
 
 # 8.4 to 7.12 EOL dates available on https://web.archive.org/web/20200911020841/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "8.4"
@@ -289,40 +256,35 @@ releases:
     eol: 2021-09-09
     latest: "8.4.3"
     latestReleaseDate: 2019-11-07
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-4-3-979425802.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-4-3-979425802.html
 
 -   releaseCycle: "8.3"
     releaseDate: 2019-07-21
     eol: 2021-07-22
     latest: "8.3.5"
     latestReleaseDate: 2019-11-04
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-3-5-979425750.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-3-5-979425750.html
 
 -   releaseCycle: "8.2"
     releaseDate: 2019-05-20
     eol: 2021-05-21
     latest: "8.2.6"
     latestReleaseDate: 2019-11-04
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-2-6-979425747.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-2-6-979425747.html
 
 -   releaseCycle: "8.1"
     releaseDate: 2019-04-03
     eol: 2021-04-04
     latest: "8.1.3"
     latestReleaseDate: 2019-09-15
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-1-3-976778798.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-1-3-976778798.html
 
 -   releaseCycle: "8.0"
     releaseDate: 2019-02-08
     eol: 2021-02-11
     latest: "8.0.3"
     latestReleaseDate: 2019-07-09
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-0-3-1044101783.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-8-0-3-1044101783.html
 
 -   releaseCycle: "7.13"
     lts: true
@@ -330,8 +292,7 @@ releases:
     eol: 2020-11-28
     latest: "7.13.18"
     latestReleaseDate: 2020-10-11
-    link:
-      https://confluence.atlassian.com/jirasoftware/jira-software-7-13-x-release-notes-957981568.html
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-7-13-x-release-notes-957981568.html
 
 # 7.12 to 7.3 EOL dates available on https://web.archive.org/web/20181120131129/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "7.12"
@@ -339,48 +300,42 @@ releases:
     eol: 2020-08-27
     latest: "7.12.3"
     latestReleaseDate: 2018-10-11
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.12.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.12.x+release+notes
 
 -   releaseCycle: "7.11"
     releaseDate: 2018-07-10
     eol: 2020-07-11
     latest: "7.11.2"
     latestReleaseDate: 2018-08-07
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.11.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.11.x+release+notes
 
 -   releaseCycle: "7.10"
     releaseDate: 2018-05-28
     eol: 2020-05-29
     latest: "7.10.2"
     latestReleaseDate: 2018-06-26
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.10.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.10.x+release+notes
 
 -   releaseCycle: "7.9"
     releaseDate: 2018-04-08
     eol: 2020-04-09
     latest: "7.9.2"
     latestReleaseDate: 2018-05-08
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.9.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.9.x+release+notes
 
 -   releaseCycle: "7.8"
     releaseDate: 2018-02-19
     eol: 2020-02-20
     latest: "7.8.4"
     latestReleaseDate: 2018-05-08
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.8.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.8.x+release+notes
 
 -   releaseCycle: "7.7"
     releaseDate: 2018-01-10
     eol: 2020-01-11
     latest: "7.7.4"
     latestReleaseDate: 2018-05-09
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.7.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.7.x+release+notes
 
 -   releaseCycle: "7.6"
     releaseDate: 2017-11-15
@@ -388,16 +343,14 @@ releases:
     eol: 2019-11-14
     latest: "7.6.17"
     latestReleaseDate: 2019-11-03
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.6.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.6.x+release+notes
 
 -   releaseCycle: "7.5"
     releaseDate: 2017-09-05
     eol: 2019-09-06
     latest: "7.5.4"
     latestReleaseDate: 2018-01-16
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.5.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.5.x+release+notes
 
 # 7.4 to 7.0 EOL dates available on https://web.archive.org/web/20170710055737/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "7.4"
@@ -405,40 +358,35 @@ releases:
     eol: 2019-06-29
     latest: "7.4.6"
     latestReleaseDate: 2018-01-15
-    link:
-      http://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.4.x+release+notes
+    link: http://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.4.x+release+notes
 
 -   releaseCycle: "7.3"
     releaseDate: 2017-01-02
     eol: 2019-01-03
     latest: "7.3.9"
     latestReleaseDate: 2018-01-10
-    link:
-      https://confluence.atlassian.com/jirasoftware/issues-resolved-in-7-3-9-943532124.html
+    link: https://confluence.atlassian.com/jirasoftware/issues-resolved-in-7-3-9-943532124.html
 
 -   releaseCycle: "7.2"
     releaseDate: 2016-08-23
     eol: 2018-08-23
     latest: "7.2.15"
     latestReleaseDate: 2018-06-05
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.2.x+release+notes
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.2.x+release+notes
 
 -   releaseCycle: "7.1"
     releaseDate: 2016-02-10
     eol: 2018-02-10
     latest: "7.1.10"
     latestReleaseDate: 2016-09-14
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.1.x+release+notes#JIRASoftware7.1.xreleasenotes-7-1-10
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.1.x+release+notes#JIRASoftware7.1.xreleasenotes-7-1-10
 
 -   releaseCycle: "7.0"
     releaseDate: 2015-10-01
     eol: 2017-10-06
     latest: "7.0.11"
     latestReleaseDate: 2016-09-13
-    link:
-      https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.0.x+release+notes#JIRASoftware7.0.xreleasenotes-7-0-11
+    link: https://confluence.atlassian.com/display/JIRASOFTWARE/JIRA+Software+7.0.x+release+notes#JIRASoftware7.0.xreleasenotes-7-0-11
 
 # 6.4 to 6.0 EOL dates available on https://web.archive.org/web/20150910105445/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "6.4"
@@ -446,16 +394,14 @@ releases:
     eol: 2017-03-17
     latest: "6.4.14"
     latestReleaseDate: 2016-07-28
-    link:
-      https://confluence.atlassian.com/jira064/jira-6-4-14-release-notes-834232021.html
+    link: https://confluence.atlassian.com/jira064/jira-6-4-14-release-notes-834232021.html
 
 -   releaseCycle: "6.3"
     releaseDate: 2014-07-09
     eol: 2016-07-08
     latest: "6.3.15"
     latestReleaseDate: 2015-02-03
-    link:
-      https://confluence.atlassian.com/jira063/jira-6-3-15-release-notes-707625090.html
+    link: https://confluence.atlassian.com/jira063/jira-6-3-15-release-notes-707625090.html
 
 -   releaseCycle: "6.2"
     releaseDate: 2014-02-25
@@ -483,8 +429,7 @@ releases:
     eol: true
     latest: "5.2.11"
     latestReleaseDate: 2013-04-19
-    link:
-      https://confluence.atlassian.com/jira063/jira-5-2-11-release-notes-683542112.html
+    link: https://confluence.atlassian.com/jira063/jira-5-2-11-release-notes-683542112.html
 
 -   releaseCycle: "5.1"
     releaseDate: 2012-07-09
@@ -540,8 +485,7 @@ releases:
     eol: 2011-07-21 # https://confluence.atlassian.com/jirakb/blog/2011/08/jira-3-13-end-of-life
     latest: "3.13.5"
     latestReleaseDate: 2009-07-21
-    link:
-      https://confluence.atlassian.com/jira063/jira-3-13-5-release-notes-683541942.html
+    link: https://confluence.atlassian.com/jira063/jira-3-13-5-release-notes-683541942.html
 
 # 3.x release dates available on https://confluence.atlassian.com/jira063/jira-release-summary-683542136.html.
 # latest release dates and eol dates are mostly unknown.
@@ -550,8 +494,7 @@ releases:
     eol: true
     latest: "3.12.3"
     latestReleaseDate: 2008-04-30
-    link:
-      https://confluence.atlassian.com/jira063/jira-3-12-3-release-notes-683541916.html
+    link: https://confluence.atlassian.com/jira063/jira-3-12-3-release-notes-683541916.html
 
 -   releaseCycle: "3.11"
     releaseDate: 2007-09-25
@@ -564,8 +507,7 @@ releases:
     releaseDate: 2007-07-09
     eol: true
     latest: "3.10.2"
-    link:
-      https://confluence.atlassian.com/jira063/jira-3-10-2-release-notes-683541819.html
+    link: https://confluence.atlassian.com/jira063/jira-3-10-2-release-notes-683541819.html
 
 -   releaseCycle: "3.9"
     releaseDate: 2007-05-08

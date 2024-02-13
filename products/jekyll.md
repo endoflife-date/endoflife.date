@@ -28,8 +28,8 @@ releases:
     releaseDate: 2015-10-26
     support: false
     eol: false
-    latest: "3.9.4"
-    latestReleaseDate: 2023-12-28
+    latest: "3.9.5"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "2"
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
