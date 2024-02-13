@@ -20,7 +20,7 @@ releases:
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-09-01
-    eol: 2024-09-01
+    eol: 2025-03-01
     support: 2024-09-01
     latest: "6.1.4"
     latestReleaseDate: 2024-01-29
@@ -28,8 +28,8 @@ releases:
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-02-22
-    eol: 2024-02-22
-    support: 2024-02-22
+    eol: 2025-02-22
+    support: 2025-02-22
     latest: "6.0.8"
     latestReleaseDate: 2023-10-18
     link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes
@@ -52,7 +52,7 @@ releases:
 
 -   releaseCycle: "5.1"
     releaseDate: 2019-12-12
-    eol: 2023-06-30
+    eol: 2024-12-31
     support: 2021-03-12
     latest: "5.1.11"
     latestReleaseDate: 2022-05-12
