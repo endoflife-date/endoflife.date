@@ -9,16 +9,15 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/oVirt/ovirt-engine
-      regex: 
-        ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
+      regex: ^ovirt-engine-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d{1,3})\.?(?P<tiny>\d+)?$
 
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "4.5"
     releaseDate: 2022-03-16
     eol: false
-    latest: "4.5.5"
-    latestReleaseDate: 2023-12-01
+    latest: "4.5.6"
+    latestReleaseDate: 2024-02-12
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-05-06
