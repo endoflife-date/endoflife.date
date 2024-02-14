@@ -17,20 +17,28 @@ auto:
   -   custom: visualstudio
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
-# For LTSC, EOL dates can be found on https://learn.microsoft.com/en-us/lifecycle/products/?terms=Visual%20Studio.
-# When adding a new major version, don't forget to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py.
+# For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
+# When adding a new major version, don't forget to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
 releases:
+-   releaseCycle: "17.9"
+    codename: "2022"
+    releaseDate: 2024-02-13
+    eol: false # eol with release of 18.0
+    latest: "17.9.0"
+    latestReleaseDate: 2024-02-13
+
 -   releaseCycle: "17.8"
     codename: "2022"
+    lts: true
     releaseDate: 2023-11-14
-    eol: false # eol with release of 17.9 or 18.0
+    eol: 2025-07-08
     latest: "17.8.7"
     latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "17.7"
     codename: "2022"
     releaseDate: 2023-08-08
-    eol: 2023-11-14 # releaseDate(17.8)
+    eol: 2023-11-14
     latest: "17.7.7"
     latestReleaseDate: 2023-11-14
 
@@ -38,7 +46,7 @@ releases:
     codename: "2022"
     lts: true
     releaseDate: 2023-05-16
-    eol: 2025-01-09
+    eol: 2025-01-14
     latest: "17.6.12"
     latestReleaseDate: 2024-02-13
 
@@ -53,7 +61,7 @@ releases:
     codename: "2022"
     lts: true
     releaseDate: 2022-11-08
-    eol: 2024-07-11
+    eol: 2024-07-09
     latest: "17.4.16"
     latestReleaseDate: 2024-02-13
 
