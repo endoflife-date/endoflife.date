@@ -19,6 +19,16 @@ auto:
   methods:
   # upstream does not support filtering https://git.alpinelinux.org/aports
   -   git: https://github.com/alpinelinux/aports.git
+  -   release_table: https://alpinelinux.org/releases/
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "Branch"
+        eol:
+          column: "End of support"
+          regex: '^.+(?P<date>\d{4}-\d{2}-\d{2}).*$'
+          template: "{{date}}"
 
 # eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
