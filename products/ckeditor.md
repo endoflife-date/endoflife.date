@@ -7,6 +7,7 @@ releaseDateColumn: true
 activeSupportColumn: true
 extendedSupportColumn: true
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
+iconSlug: ckeditor4
 
 releases:
 -   releaseCycle: "5"
