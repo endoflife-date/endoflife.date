@@ -67,8 +67,8 @@ releases:
     releaseDate: 2019-12-12
     eol: 2024-12-31
     support: 2021-03-12
-    latest: "5.1.11"
-    latestReleaseDate: 2022-05-12
+    latest: "5.1.12"
+    latestReleaseDate: 2024-02-12
     link: https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-release-notes
 
 -   releaseCycle: "5.0"
