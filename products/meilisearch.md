@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-15
     eol: false
-    latest: "1.6.1"
-    latestReleaseDate: 2024-01-31
+    latest: "1.6.2"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-11-13

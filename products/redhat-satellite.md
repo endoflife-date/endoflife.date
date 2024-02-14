@@ -7,8 +7,7 @@ permalink: /redhat-satellite
 alternate_urls:
 -   /rhsat
 versionCommand: yum info satellite
-releaseImage:
-  https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
+releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
@@ -22,11 +21,11 @@ auto:
 
 releases:
 -   releaseCycle: "6.14"
-    releaseDate: 2023-11-08
+    releaseDate: 2023-02-13
     support: 2024-05-31
     eol: 2025-05-31
-    latest: "6.14.1"
-    latestReleaseDate: 2023-12-14
+    latest: "6.14.2"
+    latestReleaseDate: 2023-02-13
 
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
