@@ -12,11 +12,10 @@ eolColumn: End-of-life Date
 auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?$'
       selector: "table#globalprotect"
       headers_selector: "tr:nth-of-type(3) td"
       rows_selector: "tr"
-      mapping:
+      fields:
         releaseCycle: "GlobalProtect App version"
         releaseDate: "Release Date"
         support: "End-of-Engineering Date"

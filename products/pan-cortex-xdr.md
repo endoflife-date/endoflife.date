@@ -19,14 +19,19 @@ eolColumn: Support Status
 auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?$'
       selector: "table#traps-esm-and-cortex"
       headers_selector: "tr:nth-of-type(3) td"
       rows_selector: "tr"
-      mapping:
+      fields:
         releaseCycle: "Version"
-        releaseDate: "Release Date"
-        eol: "End-of-Life Date"
+        releaseDate:
+          column: "Release Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
+        eol:
+          column: "End-of-Life Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 # EOL dates can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
