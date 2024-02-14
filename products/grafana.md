@@ -26,8 +26,8 @@ releases:
     releaseDate: 2024-01-22
     support: true
     eol: false
-    latest: "10.3.1"
-    latestReleaseDate: 2024-01-22
+    latest: "10.3.3"
+    latestReleaseDate: 2024-02-02
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24
@@ -40,22 +40,22 @@ releases:
     releaseDate: 2023-08-23
     support: 2023-10-24
     eol: 2024-01-23
-    latest: "10.1.6"
-    latestReleaseDate: 2023-12-18
+    latest: "10.1.7"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
     support: 2023-08-23
     eol: 2023-10-24
-    latest: "10.0.10"
-    latestReleaseDate: 2023-12-18
+    latest: "10.0.11"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "9.5"
     releaseDate: 2023-04-06
     support: 2023-06-09
     eol: false # eol(x) = releaseDate(11.x)
-    latest: "9.5.15"
-    latestReleaseDate: 2023-12-18
+    latest: "9.5.16"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27
