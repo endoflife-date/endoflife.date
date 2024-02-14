@@ -16,24 +16,21 @@ releases:
     latest: "41.1.0"
     link: https://github.com/ckeditor/ckeditor5/releases/tag/v41.1.0
     releaseDate: 2024-02-07
+    extendedSupport: false
 
--   releaseCycle: "4 LTS"
-    eol: 2026-12-01
+-   releaseCycle: "4"
+    eol: 2023-06-30
+    extendedSupport: 2026-12-01
+    lts: true
     support: false
     latest: "4.24.0"
     link: https://ckeditor.com/cke4/release/CKEditor-4.24.0-LTS
     releaseDate: 2024-02-07
     lts: true
 
--   releaseCycle: "4"
-    eol: 2023-06-30
-    support: false
-    latest: "4.22.1"
-    link: https://ckeditor.com/cke4/release/CKEditor-4.22.0-4.22.1
-    releaseDate: 2023-06-30
-
 ---
 
 > [CKEditor](https://ckeditor.com/) is an open-source WYSIWYG library written in JavaScript.
 
+The open source version of CKEditor 4 is not maintained anymore.
 [CKEditor 4 LTS](https://ckeditor.com/ckeditor-4-support/) is a commercial offering to maintain CKE 4 past its EOL date.
