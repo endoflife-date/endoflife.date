@@ -123,38 +123,47 @@ releases:
 -   releaseCycle: "5.1"
     releaseDate: 2013-05-09
     eol: 2017-05-09
+    latest: ""
 
 -   releaseCycle: "5.0"
     releaseDate: 2012-11-13
     eol: 2016-11-13
+    latest: ""
 
 -   releaseCycle: "4.1"
     releaseDate: 2011-10-31
     eol: 2015-04-30
+    latest: ""
 
 -   releaseCycle: "4.0"
     releaseDate: 2011-02-22
     eol: 2014-12-31
+    latest: ""
 
 -   releaseCycle: "3.1"
     releaseDate: 2010-03-15
     eol: 2013-06-30
+    latest: ""
 
 -   releaseCycle: "3.0"
     releaseDate: 2009-06-17
     eol: 2010-12-17
+    latest: ""
 
 -   releaseCycle: "2.1"
     releaseDate: 2012-01-05
     eol: 2009-01-05
+    latest: ""
 
 -   releaseCycle: "2.0"
     releaseDate: 2009-05-20
     eol: 2008-05-20
+    latest: ""
 
 -   releaseCycle: "1.3"
     releaseDate: 2008-11-20
     eol: 2007-11-15
+    latest: ""
 
 ---
 
