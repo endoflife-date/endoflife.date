@@ -12,12 +12,13 @@ eolColumn: End-of-life Date
 auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?\+?$'
       selector: "table#pan-os-panorama"
       headers_selector: "tr:nth-of-type(3) td"
       rows_selector: "tr"
-      mapping:
-        releaseCycle: "Version"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Release Date"
         eol: "End-of-Life Date"
 

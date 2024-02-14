@@ -15,12 +15,13 @@ auto:
   methods:
   -   git: https://github.com/akeneo/pim-community-dev.git
   -   release_table: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-      regex_exclude: '^2.[1-3]' # 2.1 to 2.3 only contained enterprise fixes or improvements.
       selector: "table:nth-of-type(1)"
       headers_selector: "thead th"
       rows_selector: "tbody tr"
-      mapping:
-        releaseCycle: "Version"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex_exclude: '^2.[1-3]' # 2.1 to 2.3 only contained enterprise fixes or improvements.
         eol: "End of support date"
 
 # EOL dates are available at https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
