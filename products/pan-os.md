@@ -161,8 +161,8 @@ releases:
     latest: ""
 
 -   releaseCycle: "1.3"
-    releaseDate: 2008-11-20
-    eol: 2007-11-15
+    releaseDate: 2007-11-15
+    eol: 2008-11-20
     latest: ""
 
 ---
