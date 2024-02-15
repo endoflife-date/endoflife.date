@@ -20,10 +20,17 @@ auto:
 
 # For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "3.3"
-    releaseDate: 2023-05-23
+-   releaseCycle: "3.4"
+    releaseDate: 2024-02-14
     support: true
     eol: false
+    latest: "3.4.0"
+    latestReleaseDate: 2024-02-14
+
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-23
+    support: 2024-02-14
+    eol: 2024-02-14
     latest: "3.3.2"
     latestReleaseDate: 2024-02-14
 
