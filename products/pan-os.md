@@ -91,12 +91,80 @@ releases:
     eol: 2019-10-31
     latest: "8.0.20"
     latestReleaseDate: 2019-10-23
+    link: https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/pan-os/8-0/pan-os-release-notes/pan-os-release-notes.pdf
 
 -   releaseCycle: "7.1"
     releaseDate: 2016-03-29
     eol: 2020-06-30
     latest: "7.1.26"
     latestReleaseDate: 2020-04-30
+    link: https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/pan-os/7-1/pan-os-release-notes/pan-os-release-notes.pdf
+
+-   releaseCycle: "7.0"
+    releaseDate: 2015-06-04
+    eol: 2017-12-04
+    latest: "7.0.19"
+    latestReleaseDate: 2018-03-29
+    link: https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/eol/pan-os-70-release-notes.pdf
+
+-   releaseCycle: "6.1"
+    releaseDate: 2014-10-25
+    eol: 2018-10-25
+    latest: "6.1.22"
+    latestReleaseDate: 2018-10-22
+    link: https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/eol/pan-os-61-release-notes.pdf
+
+-   releaseCycle: "6.0"
+    releaseDate: 2014-01-19
+    eol: 2017-03-19
+    latest: "6.0.15"
+    latestReleaseDate: 2017-11-14
+    link: https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/eol/pan-os-60-release-notes.pdf
+
+-   releaseCycle: "5.1"
+    releaseDate: 2013-05-09
+    eol: 2017-05-09
+    latest: ""
+
+-   releaseCycle: "5.0"
+    releaseDate: 2012-11-13
+    eol: 2016-11-13
+    latest: ""
+
+-   releaseCycle: "4.1"
+    releaseDate: 2011-10-31
+    eol: 2015-04-30
+    latest: ""
+
+-   releaseCycle: "4.0"
+    releaseDate: 2011-02-22
+    eol: 2014-12-31
+    latest: ""
+
+-   releaseCycle: "3.1"
+    releaseDate: 2010-03-15
+    eol: 2013-06-30
+    latest: ""
+
+-   releaseCycle: "3.0"
+    releaseDate: 2009-06-17
+    eol: 2010-12-17
+    latest: ""
+
+-   releaseCycle: "2.1"
+    releaseDate: 2009-01-05
+    eol: 2012-01-05
+    latest: ""
+
+-   releaseCycle: "2.0"
+    releaseDate: 2008-05-20
+    eol: 2009-05-20
+    latest: ""
+
+-   releaseCycle: "1.3"
+    releaseDate: 2007-11-15
+    eol: 2008-11-20
+    latest: ""
 
 ---
 
