@@ -6,8 +6,7 @@ iconSlug: apachecassandra
 permalink: /apache-cassandra
 alternate_urls:
 -   /cassandra
-releasePolicyLink: 
-  https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
+releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 releaseDateColumn: true
 
@@ -20,8 +19,8 @@ releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
-    latest: "4.1.3"
-    latestReleaseDate: 2023-07-18
+    latest: "4.1.4"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
