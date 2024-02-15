@@ -5,8 +5,7 @@ tags: javascript-runtime
 iconSlug: quasar
 permalink: /quasar
 versionCommand: quasar -v
-releasePolicyLink: 
-  https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule
+releasePolicyLink: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule
 changelogTemplate: https://github.com/quasarframework/quasar/releases/tag/quasar-v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
@@ -25,8 +24,8 @@ releases:
     releaseDate: 2021-06-21
     support: true
     eol: false
-    latest: "2.14.3"
-    latestReleaseDate: 2024-01-25
+    latest: "2.14.4"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "1"
     releaseDate: 2019-07-03

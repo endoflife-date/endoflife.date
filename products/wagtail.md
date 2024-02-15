@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-02-07
     support: 2024-05-01
     eol: 2024-08-01
-    latest: "6.0"
-    latestReleaseDate: 2024-02-07
+    latest: "6.0.1"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "5.2"
     lts: true

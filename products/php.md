@@ -22,15 +22,15 @@ releases:
     releaseDate: 2023-11-23
     support: 2025-11-23
     eol: 2026-11-23
-    latest: "8.3.2"
-    latestReleaseDate: 2024-01-18
+    latest: "8.3.3"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "8.2"
     releaseDate: 2022-12-08
     support: 2024-12-08
     eol: 2025-12-08
-    latest: "8.2.15"
-    latestReleaseDate: 2024-01-18
+    latest: "8.2.16"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "8.1"
     releaseDate: 2021-11-25
