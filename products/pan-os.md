@@ -151,8 +151,8 @@ releases:
     latest: ""
 
 -   releaseCycle: "2.1"
-    releaseDate: 2012-01-05
-    eol: 2009-01-05
+    releaseDate: 2009-01-05
+    eol: 2012-01-05
     latest: ""
 
 -   releaseCycle: "2.0"
