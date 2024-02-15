@@ -19,7 +19,7 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-16
     eol: 2024-11-15
-    latest: '9.5.0'
+    latest: '9.5.1'
     latestReleaseDate: 2024-02-16
 
 -   releaseCycle: "9.4"
