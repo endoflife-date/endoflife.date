@@ -7,10 +7,8 @@ alternate_urls:
 -   /k8s
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
-releaseImage: 
-  https://upload.wikimedia.org/wikipedia/en/timeline/cd6rbto8arbp7d9bq720l1r83634ihs.png
-changelogTemplate: 
-  https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/cd6rbto8arbp7d9bq720l1r83634ihs.png
+changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: Maintenance Support
@@ -29,29 +27,29 @@ releases:
     releaseDate: 2023-12-13
     support: 2024-12-28
     eol: 2025-02-28
-    latest: "1.29.1"
-    latestReleaseDate: 2024-01-17
+    latest: "1.29.2"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-08-15
     support: 2024-08-28
     eol: 2024-10-28
-    latest: "1.28.6"
-    latestReleaseDate: 2024-01-17
+    latest: "1.28.7"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-04-11
     support: 2024-04-28
     eol: 2024-06-28
-    latest: "1.27.10"
-    latestReleaseDate: 2024-01-17
+    latest: "1.27.11"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.26"
     releaseDate: 2022-12-08
     support: 2023-12-28
     eol: 2024-02-28
-    latest: "1.26.13"
-    latestReleaseDate: 2024-01-17
+    latest: "1.26.14"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-08-23

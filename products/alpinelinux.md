@@ -103,7 +103,7 @@ releases:
     releaseDate: 2019-06-19
 
 -   releaseCycle: "3.9"
-    eol: 2021-01-01
+    eol: 2020-11-01
     latest: "3.9.6"
     link: https://alpinelinux.org/posts/Alpine-3.9.6-and-3.10.5-released.html
     latestReleaseDate: 2020-04-23
