@@ -17,6 +17,9 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/neo4j/neo4j.git
+      # Neo4j 5.0 was a Limited Availability release only and tag date is wrong.
+      # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
+      regex_exclude: '^5\.0\.\d+$'
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.
@@ -116,12 +119,6 @@ releases:
     eol: 2022-11-21
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
-
--   releaseCycle: "5.0"
-    releaseDate: 2022-10-28
-    eol: 2022-10-24
-    latest: "5.0.0"
-    latestReleaseDate: 2022-10-28
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
