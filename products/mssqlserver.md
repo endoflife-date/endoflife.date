@@ -34,7 +34,7 @@ releases:
     extendedSupport: false
     latest: "15.0.4355.3"
     latestReleaseDate: 2024-02-15
-    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
 
 -   releaseCycle: "2017"
     codename: Helsinki
