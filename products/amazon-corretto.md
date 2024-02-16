@@ -39,9 +39,17 @@ auto:
   -   github_releases: "corretto/corretto-21"
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
+  -   release_table: https://aws.amazon.com/corretto/faqs/
+      selector: "table:nth-of-type(1)"
+      headers_selector: "tr:nth-of-type(2) td"
+      rows_selector: "tr"
+      fields:
+        releaseCycle: "Coretto Release"
+        eol:
+          column: "End of Life"
+          type: month_year_date
 
 # Do not forget to update the "auto" configuration on each new major release.
-# EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
 releases:
 -   releaseCycle: "21"
     lts: true
@@ -91,7 +99,7 @@ releases:
     eol: 2021-03-16
     latest: "15.0.2.7.1"
     latestReleaseDate: 2021-01-21
-    link: 
+    link:
       https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"
