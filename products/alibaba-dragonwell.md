@@ -51,9 +51,19 @@ auto:
       -   '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
       -   '^jdk-(?P<version>17[\d\.\+]+)-ga$'
       template: '{{version}}'
+  -   release_table: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "Dragonwell Version"
+        eol:
+          column: "End of Public Updates"
+          type: month_year_date
+          regex: '^.*(?P<date>\w{3} \d{4}).*$'
+          template: '{{date}}'
 
 # Do not forget to update the "auto" configuration on each new major release.
-# End of public updates available on https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
 releases:
 # First official release is 17.0.1.
 -   releaseCycle: "17"
