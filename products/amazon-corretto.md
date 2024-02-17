@@ -64,7 +64,7 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
-    eol: 2030-10-01
+    eol: 2030-10-31
     latest: "21.0.2.14.1"
     latestReleaseDate: 2024-02-09
 
@@ -72,13 +72,13 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
     # Official release was on march : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
     releaseDate: 2023-02-23
-    eol: 2023-09-21
+    eol: 2023-10-17
     latest: "20.0.2.10.1"
     latestReleaseDate: 2023-08-23
 
 -   releaseCycle: "19"
     releaseDate: 2022-08-17
-    eol: 2023-04-01
+    eol: 2023-04-19
     latest: "19.0.2.7.1"
     latestReleaseDate: 2023-01-17
 
@@ -91,7 +91,7 @@ releases:
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-08-24
-    eol: 2029-10-01
+    eol: 2029-10-31
     latest: "17.0.10.8.1"
     latestReleaseDate: 2024-02-09
 
@@ -104,16 +104,15 @@ releases:
 
 -   releaseCycle: "15"
     releaseDate: 2020-08-26
-    eol: 2021-03-16
+    eol: 2021-04-20
     latest: "15.0.2.7.1"
     latestReleaseDate: 2021-01-21
-    link:
-      https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
+    link: https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-02-18
-    eol: 2027-10-01
+    eol: 2027-10-31
     latest: "11.0.22.7.1"
     latestReleaseDate: 2024-01-16
 
@@ -121,7 +120,7 @@ releases:
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-02-20
-    eol: 2026-07-01
+    eol: 2026-07-31
     latest: "8.402.08.1"
     latestReleaseDate: 2024-01-19
 

@@ -30,11 +30,11 @@ identifiers:
 # - extendedSupport(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "3.6"
-    releaseDate: 2024-02-15
+    releaseDate: 2024-02-09
     eol: false
     extendedSupport: 2025-02-15
     latest: "3.6.0"
-    latestReleaseDate: 2024-02-15
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-11-08
