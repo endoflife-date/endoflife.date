@@ -10,6 +10,15 @@ releaseDateColumn: true
 auto:
   methods:
   -   custom: rds
+  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+      selector: "#rds-mysql-version-release-calendar table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "MySQL major version"
+          regex: '^MySQL\s+(?P<value>\d+\.\d+).*$'
+        eol: "RDS end of standard support date"
 
 releases:
 -   releaseCycle: "8.0"
@@ -28,7 +37,6 @@ releases:
     releaseDate: 2013-07-01
     eol: 2022-03-01
     latest: "5.6"
-
     latestReleaseDate: 2013-07-01
 
 ---
