@@ -18,6 +18,16 @@ changelogTemplate:
 auto:
   methods:
   -   custom: amazon-neptune
+  -   release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex_exclude: '^1\.0\.1\..+$' # No End of life for 1.0.1.x releases
+        eol: "End of life"
+        upgradeVersion: "Upgrade to:"
 
 releases:
 -   releaseCycle: "1.3.0.0"
