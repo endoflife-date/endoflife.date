@@ -121,6 +121,11 @@ releases:
 
 ---
 
-> Google Nexus is a discontinued line of Android devices (smartphone, tablet computers and streaming media players) designed and supported by Google. They were known for providing a pure Android experience.
+> Google Nexus is a discontinued line of Android devices (smartphone, tablet computers and
+> streaming media players) designed and supported by Google. They were known for providing a pure
+> Android experience.
 
-The Nexus series started out in January 2010 and reached its end in October 2016, so all Nexus devices are now discontinued and unsupported. The Nexus series were succeeded by the [Google Pixel series](/pixel), which continues the tradition of timely software updates and a seamless Android experience.
+The Nexus series started out in January 2010 and reached its end in October 2016, so all Nexus
+devices are now discontinued and unsupported. The Nexus series were succeeded by the [Google
+Pixel series](/pixel), which continues the tradition of timely software updates and a seamless
+Android experience.
