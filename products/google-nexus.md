@@ -26,7 +26,7 @@ releases:
     support: 2017-09-01
     eol: 2018-11-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_6P
+    link: https://wikipedia.org/wiki/Nexus_6P
     supportedAndroidVersions: 6.0 - 8.1
 
 -   releaseCycle: "5x"
@@ -35,16 +35,16 @@ releases:
     support: 2017-09-01
     eol: 2018-11-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_5X
+    link: https://wikipedia.org/wiki/Nexus_5X
     supportedAndroidVersions: 6.0 - 8.1
 
 -   releaseCycle: "player"
     releaseLabel: "Nexus Player"
     releaseDate: 2014-11-03
     support: 2018-03-31
-    eol: 2018-03-31 # as per https://en.wikipedia.org/wiki/Nexus_Player
+    eol: 2018-03-31 # as per https://wikipedia.org/wiki/Nexus_Player
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_Player
+    link: https://wikipedia.org/wiki/Nexus_Player
     supportedAndroidVersions: 5.0 - 8.0
 
 -   releaseCycle: "9"
@@ -53,7 +53,7 @@ releases:
     support: 2016-10-01
     eol: 2017-10-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_9
+    link: https://wikipedia.org/wiki/Nexus_9
     supportedAndroidVersions: 5.0 - 7.1
 
 -   releaseCycle: "6"
@@ -62,7 +62,7 @@ releases:
     support: 2016-10-01
     eol: 2017-10-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_6
+    link: https://wikipedia.org/wiki/Nexus_6
     supportedAndroidVersions: 5.0 - 7.1
 
 -   releaseCycle: "7-2013"
@@ -71,7 +71,7 @@ releases:
     support: 2015-07-01
     eol: 2016-08-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_7_(2013)
+    link: https://wikipedia.org/wiki/Nexus_7_(2013)
     supportedAndroidVersions: 4.3 - 6.0
 
 -   releaseCycle: "7-2012"
@@ -80,7 +80,7 @@ releases:
     support: 2014-07-01
     eol: 2015-07-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_7_(2012)
+    link: https://wikipedia.org/wiki/Nexus_7_(2012)
     supportedAndroidVersions: 4.1 - 5.1
 
 -   releaseCycle: "10"
@@ -89,7 +89,7 @@ releases:
     support: 2014-11-01
     eol: 2015-11-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_10
+    link: https://wikipedia.org/wiki/Nexus_10
     supportedAndroidVersions: 4.2 - 5.1
 
 -   releaseCycle: "4"
@@ -98,25 +98,25 @@ releases:
     support: 2014-11-01
     eol: 2015-11-01
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_4
+    link: https://wikipedia.org/wiki/Nexus_4
     supportedAndroidVersions: 4.2 - 5.1
 
 -   releaseCycle: "s"
     releaseLabel: "Nexus S"
     releaseDate: 2010-12-16
-    support: 2012-11-13 # as per https://en.wikipedia.org/wiki/Nexus_S#Software
+    support: 2012-11-13 # as per https://wikipedia.org/wiki/Nexus_S#Software
     eol: true # no information available
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_S
+    link: https://wikipedia.org/wiki/Nexus_S
     supportedAndroidVersions: 2.3 - 4.1
 
 -   releaseCycle: "one"
     releaseLabel: "Nexus One"
-    releaseDate: 2010-01-05 # https://en.wikipedia.org/wiki/Nexus_One#History
+    releaseDate: 2010-01-05 # https://wikipedia.org/wiki/Nexus_One#History
     support: false
     eol: true
     discontinued: true
-    link: https://en.wikipedia.org/wiki/Nexus_One
+    link: https://wikipedia.org/wiki/Nexus_One
     supportedAndroidVersions: 2.1 - 2.3.6 # https://www.gsmarena.com/htc_google_nexus_one-3067.php
 
 ---
