@@ -45,9 +45,7 @@ auto:
       rows_selector: "tr"
       fields:
         releaseCycle: "Coretto Release" # Typo on the website
-        eol:
-          column: "End of Life"
-          type: month_year_date
+        eol: "End of Life"
   -   release_table: https://aws.amazon.com/corretto/faqs/
       selector: "table"
       headers_selector: "tr:nth-of-type(1) td" #  Expired Versions

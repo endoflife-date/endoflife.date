@@ -11,6 +11,15 @@ releaseDateColumn: true
 auto:
   methods:
   -   custom: rds
+  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "PostgreSQL major version"
+          regex: '^PostgreSQL\s+(?P<value>\d+(\.\d+)?).*$'
+        eol: "RDS end of standard support date"
 
 releases:
 -   releaseCycle: "16"
