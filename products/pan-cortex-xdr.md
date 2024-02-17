@@ -23,7 +23,10 @@ auto:
       headers_selector: "tr:nth-of-type(3) td"
       rows_selector: "tr"
       fields:
-        releaseCycle: "Version"
+        releaseCycle:
+          column: "Version"
+          # CE versions are ignored (not supported by release_table)
+          regex: '^(?P<value>\d+(\.\d+)*)( \(Cortex XDR agent\))?$'
         releaseDate:
           column: "Release Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
