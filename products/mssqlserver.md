@@ -27,14 +27,14 @@ releases:
 
 -   releaseCycle: "2019"
     codename: Seattle
-    releaseLabel: "2019 CU24"
+    releaseLabel: "2019 CU25"
     releaseDate: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4345.5"
-    latestReleaseDate: 2023-12-14
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate24
+    latest: "15.0.4355.3"
+    latestReleaseDate: 2024-02-15
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
 
 -   releaseCycle: "2017"
     codename: Helsinki
