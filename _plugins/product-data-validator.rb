@@ -167,6 +167,13 @@ module EndOfLifeHooks
       error_if.is_not_a_string('latest') if product.data['releaseColumn']
       error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
+
+      error_if.is_not_before('releaseDate', 'support') if product.data['releaseDateColumn'] and product.data['activeSupportColumn']
+      error_if.is_not_before('releaseDate', 'eol') if product.data['releaseDateColumn'] and product.data['eolColumn']
+      error_if.is_not_before('releaseDate', 'extendedSupport') if product.data['releaseDateColumn'] and product.data['extendedSupportColumn']
+      error_if.is_not_before('support', 'eol') if product.data['activeSupportColumn'] and product.data['eolColumn']
+      error_if.is_not_before('support', 'extendedSupport') if product.data['activeSupportColumn'] and product.data['extendedSupportColumn']
+      error_if.is_not_before('eol', 'extendedSupport') if product.data['eolColumn'] and product.data['extendedSupportColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
@@ -276,6 +283,15 @@ module EndOfLifeHooks
       value = @data[property]
       unless [true, false].include?(value) or value.kind_of?(String)
         declare_error(property, value, "expecting a value of type boolean or string, got #{value.class}")
+      end
+    end
+
+    def is_not_before(property1, property2)
+      value1 = @data[property1]
+      value2 = @data[property2]
+
+      if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
+        declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
       end
     end
 

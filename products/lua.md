@@ -46,9 +46,9 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2000-11-06
-    eol: 2000-02-22
+    eol: 2002-07-04
     latest: "4.0.1"
-    latestReleaseDate: 2000-02-22
+    latestReleaseDate: 2002-07-04
 
 -   releaseCycle: "3.2"
     releaseDate: 1999-07-08

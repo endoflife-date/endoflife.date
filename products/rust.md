@@ -135,7 +135,7 @@ releases:
 
 -   releaseCycle: "1.56"
     releaseDate: 2021-10-21
-    eol: 2021-01-03
+    eol: 2021-12-03
     latest: "1.56.1"
     latestReleaseDate: 2021-11-01
 

@@ -72,7 +72,7 @@ releases:
 -   releaseCycle: "2012"
     codename: Denali
     releaseLabel: "2012 SP4"
-    releaseDate: 2017-10-05
+    releaseDate: 2012-05-20
     support: 2017-07-11
     eol: 2022-07-12
     extendedSupport: 2025-07-08
@@ -83,7 +83,7 @@ releases:
 -   releaseCycle: "2008 R2"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
-    releaseDate: 2014-09-26
+    releaseDate: 2010-07-20
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
