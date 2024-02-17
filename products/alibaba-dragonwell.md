@@ -59,7 +59,6 @@ auto:
         releaseCycle: "Dragonwell Version"
         eol:
           column: "End of Public Updates"
-          type: month_year_date
           regex: '^.*(?P<date>\w{3} \d{4}).*$'
           template: '{{date}}'
 
