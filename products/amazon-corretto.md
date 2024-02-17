@@ -40,14 +40,24 @@ auto:
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
   -   release_table: https://aws.amazon.com/corretto/faqs/
-      selector: "table:nth-of-type(1)"
-      headers_selector: "tr:nth-of-type(2) td"
+      selector: "table"
+      headers_selector: "tr:nth-of-type(2) td" # Support Calendar
       rows_selector: "tr"
       fields:
-        releaseCycle: "Coretto Release"
+        releaseCycle: "Coretto Release" # Typo on the website
         eol:
           column: "End of Life"
           type: month_year_date
+  -   release_table: https://aws.amazon.com/corretto/faqs/
+      selector: "table"
+      headers_selector: "tr:nth-of-type(1) td" #  Expired Versions
+      rows_selector: "tr"
+      fields:
+        releaseCycle: "Corretto Release"
+        eol:
+          column: "End of Life"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 # Do not forget to update the "auto" configuration on each new major release.
 releases:
