@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "3.6"
     releaseDate: 2023-10-03
     eol: false
-    extendedSupport: true # not yet announced at # https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
+    extendedSupport: 2026-02-09
     latest: "3.6.1"
     latestReleaseDate: 2023-12-05
 
