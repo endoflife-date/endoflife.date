@@ -16,10 +16,17 @@ versionCommand: ${KAFKA_HOME}/bin/kafka-topics.sh --version
 auto:
   methods:
   -   git: https://github.com/apache/kafka.git
+  -   release_table: https://docs.confluent.io/platform/current/installation/versions-interoperability.html
+      selector: "#cp-and-apache-ak-compatibility table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "apache kafkaâ®"
+          regex: '^(?P<value>\d+\.\d+)\.x$'
+        extendedSupport: "Standard End of Support"
 
 # EOL(x) = MAX(latestReleaseDate, releaseDate(X+1))
-# Extended support date can be found in the "Standard End of Support" column on
-# https://docs.confluent.io/platform/current/installation/versions-interoperability.html#cp-and-apache-ak-compatibility.
 releases:
 -   releaseCycle: "3.6"
     releaseDate: 2023-10-03
@@ -198,7 +205,7 @@ releases:
     releaseDate: 2012-01-04
     eol: 2013-12-03
     extendedSupport: false
-    link: 
+    link:
       https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
