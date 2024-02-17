@@ -13,6 +13,15 @@ activeSupportColumn: true
 auto:
   methods:
   -   git: https://github.com/bazelbuild/bazel.git
+  -   release_table: https://bazel.build/release
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "LTS release"
+          regex: '^Bazel (?P<value>\d+)$'
+        eol: "End of support"
 
 # latestVersion and eol on https://bazel.build/release
 # support(x) = releaseDate(x+1)
