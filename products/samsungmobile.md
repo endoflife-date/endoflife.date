@@ -19,6 +19,24 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy S24 Ultra"
+    releaseDate: 2024-01-24
+    support: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
+    eol: 2031-01-24 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S928U1/XAA/doc.html
+
+-   releaseCycle: "Galaxy S24+"
+    releaseDate: 2024-01-24
+    support: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
+    eol: 2031-01-24 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S926U1/XAA/doc.html
+
+-   releaseCycle: "Galaxy S24"
+    releaseDate: 2024-01-24
+    support: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
+    eol: 2031-01-24 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
+
 -   releaseCycle: "Galaxy S23 FE"
     releaseDate: 2023-10-05
     support: true
