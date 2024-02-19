@@ -19,9 +19,27 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/django/django.git
+  -   release_table: https://www.djangoproject.com/download/#supported-versions
+      selector: "table:nth-of-type(1)" # ignore Future Roadmap table
+      headers_selector: "tr:nth-of-type(1) th"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Release Series"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        support: "End of mainstream support1"
+        eol: "End of extended support2"
+  -   release_table: https://www.djangoproject.com/download/#unsupported-versions
+      selector: "table.django-unsupported-versions"
+      headers_selector: "tr:nth-of-type(1) th"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Release Series"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        support: "End of mainstream support1"
+        eol: "End of extended support2"
 
-# support / eol dates can be found on https://www.djangoproject.com/download/#supported-versions.
-# When exact day is not know, use the first day of the month.
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
