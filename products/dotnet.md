@@ -12,13 +12,6 @@ changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__L
 releaseDateColumn: true
 eolColumn: Support Status
 
-auto:
-  methods:
-  -   git: https://github.com/dotnet/core.git
-      # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
-      # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
-      regex_exclude: '^v?\d+\.\d+\.\d{3,}'
-
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
@@ -43,6 +36,22 @@ identifiers:
 -   purl: pkg:rpm/rhel/dotnet-sdk-3.1
 -   purl: pkg:rpm/rhel/dotnet-sdk-3.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-2.1
+
+auto:
+  methods:
+    -   git: https://github.com/dotnet/core.git
+      # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
+      # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
+        regex_exclude: '^v?\d+\.\d+\.\d{3,}'
+    -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
+        selector: "table"
+        headers_selector: "thead th"
+        rows_selector: "tbody tr"
+        fields:
+          releaseCycle:
+            column: "Version"
+            regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?).*$'
+          eol: "End of support"
 
 releases:
 -   releaseCycle: "8.0"
