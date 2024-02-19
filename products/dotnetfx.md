@@ -14,6 +14,18 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Support Status
 
+auto:
+  methods:
+  -   release_table: https://dotnet.microsoft.com/en-us/download/dotnet-framework
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^\.NET Framework (?P<value>\d+(\.\d+)+( SP1)?)$'
+        eol: "End of support"
+
 releases:
 -   releaseCycle: "4.8.1"
     releaseDate: 2022-08-09
