@@ -18,6 +18,18 @@ identifiers:
 auto:
   methods:
   -   custom: debian
+  -   release_table: https://wiki.debian.org/DebianReleases
+      ignore_empty_releases: true # so that future releases are ignored
+      selector: "table"
+      headers_selector: "tr:nth-of-type(1) td"
+      rows_selector: "tbody tr"
+      # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
+      # are entirely absent, rather than being added as empty.
+      fields:
+        releaseCycle: "Version"
+        eol:
+          column: "End of life date"
+          regex: '~?(?P<value>\d{4}-\d{2}(-\d{2})?)'
 
 releases:
 -   releaseCycle: "12"
