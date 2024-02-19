@@ -34,8 +34,8 @@ releases:
     support: true
     eol: false
     lts: true
-    latest: "6.5.5.1"
-    latestReleaseDate: 2024-01-17
+    latest: "6.5.5.5"
+    latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24

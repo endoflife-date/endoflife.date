@@ -49,12 +49,12 @@ auto:
       -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>2)\.(?P<patch>([2-9]|\d{2}))$
 
-releases:    
+releases:
 -   releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
-    latest: "11.2.2"
-    latestReleaseDate: 2023-11-21
+    latest: "11.2.3"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21

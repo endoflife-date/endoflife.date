@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "2.20"
     releaseDate: 2024-01-29
     eol: false # Update to release date of 2.21 when available
-    latest: "2.20.1"
-    latestReleaseDate: 2024-01-30
+    latest: "2.20.2"
+    latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "2.19"
     releaseDate: 2023-11-20
