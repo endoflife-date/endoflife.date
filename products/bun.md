@@ -16,7 +16,9 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/oven-sh/bun
+  -   git: https://github.com/oven-sh/bun.git
+      regex: ^bun-v(?P<version>\d+(\.\d+)+)$
+      template: "{{version}}"
 
 releases:
 -   releaseCycle: "1"
