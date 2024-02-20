@@ -10,42 +10,57 @@ versionCommand: airflow version
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
 changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{'__LATEST__'|replace:'.','-'}}-__LATEST_RELEASE_DATE__"
 releaseDateColumn: true
-
-auto:
-  methods:
-  -   pypi: apache-airflow
+activeSupportColumn: Active Support
+eolColumn: Limited Support
 
 identifiers:
 -   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
 
+auto:
+  methods:
+  -   pypi: apache-airflow
+  -   release_table: https://github.com/apache/airflow#version-life-cycle
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "Version"
+        support: "Limited Support"
+        eol: "EOL/Terminated"
+
 releases:
 -   releaseCycle: "2"
     releaseDate: 2020-12-17
+    support: true
     eol: false
     latest: "2.8.1"
     latestReleaseDate: 2024-01-19
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27
-    eol: 2021-07-17
+    support: 2020-12-17
+    eol: 2021-06-17
     latest: "1.10.15"
     latestReleaseDate: 2021-03-17
 
 -   releaseCycle: "1.9"
     releaseDate: 2018-01-02
+    support: 2018-08-27
     eol: 2018-08-27
     latest: "1.9.0"
     latestReleaseDate: 2018-01-02
 
 -   releaseCycle: "1.8"
     releaseDate: 2017-05-09
+    support: 2018-01-03
     eol: 2018-01-03
     latest: "1.8.2"
     latestReleaseDate: 2017-09-04
 
 -   releaseCycle: "1.7"
     releaseDate: 2016-03-28
+    support: 2017-03-19
     eol: 2017-03-19
     latest: "1.7.1.2"
     latestReleaseDate: 2017-05-20
@@ -55,31 +70,13 @@ releases:
 > [Apache Airflow](https://airflow.apache.org/) is a platform to programmatically author, schedule
 > and monitor workflows.
 
-[SemVer](https://semver.org/) is used for all packages released.
+Apache Airflow follows semantic versioning for all packages. Specific rules by package types can
+be found in <https://github.com/apache/airflow?tab=readme-ov-file#semantic-versioning>.
 
-## Versioning
+Apache Airflow follows a lifecycle with two distinct phases. The first one is the _Active support_
+phase, which comes with new features as well as bug and security fixes. It is followed by the
+_Limited support_ phase, which comes only with critical bug and security fixes. Dates for each
+phase is documented on <https://github.com/apache/airflow#version-life-cycle>.
 
-- **Airflow**: SemVer rules apply to core airflow only (excludes any changes to providers).
-  Changing limits for versions of Airflow dependencies is not a breaking change on its own.
-- **Airflow Providers**: SemVer rules apply to changes in the particular provider's code only.
-  SemVer major and minor versions for the packages are independent of the Airflow version.
-  For example, `google 4.1.0` and `amazon 3.0.3` providers can happily be installed
-  with `Airflow 2.1.2`. If there are limits of cross-dependencies between providers and Airflow
-  packages, they are present in providers as `install_requires` limitations. Backwards
-  compatibility of providers with all previously released Airflow 2 versions is attempted but
-  there will sometimes be breaking changes that might make some, or all
-  providers, have minimum Airflow version specified. Change of that minimum supported Airflow
-  version is a breaking change for provider because installing the new provider might automatically
-  upgrade Airflow (which might be an undesired side effect of upgrading provider).
-- **Airflow Helm Chart**: SemVer rules apply to changes in the chart only. SemVer MAJOR and MINOR
-  versions for the chart are independent of the Airflow version. Backwards
-  compatibility of the Helm Chart with all released Airflow 2 versions is attempted, but some new
-  features might only work starting from specific Airflow releases. A minimum Airflow version might
-  be enforced for the new Helm Chart in such cases.
-- **Airflow API clients**: SemVer major and minor versions follow major and minor versions of
-  Airflow. The first major or MINOR X.Y.0 release of Airflow should always be followed by X.Y.0
-  release of all clients. The clients then can release their own PATCH releases with bugfixes,
-  independently of Airflow PATCH releases.
-
-[Python/Kubernetes](https://github.com/apache/airflow#support-for-python-and-kubernetes-versions)
-compatibility is maintained until EOL of upstream provider versions.
+[Python and Kubernetes compatibility](https://github.com/apache/airflow#support-for-python-and-kubernetes-versions)
+is usually maintained until EOL of upstream provider versions.
