@@ -23,30 +23,35 @@ releases:
     support: true
     eol: false
     latest: "15.9.20"
+    latestReleaseDate: 2024-01-10
 
 -   releaseCycle: "14"
     releaseDate: 2020-06-08
     support: 2022-06-13
     eol: false
     latest: "14.16.19"
+    latestReleaseDate: 2022-06-07
 
 -   releaseCycle: "13"
     releaseDate: 2019-05-31
     support: 2020-06-08
     eol: 2021-06-30
     latest: "13.2.0"
+    latestReleaseDate: 2020-04-10
 
 -   releaseCycle: "12"
     releaseDate: 2014-11-24
     support: 2019-05-31
     eol: 2020-12-31
     latest: "12.19.31"
+    latestReleaseDate: 2019-03-07
 
 -   releaseCycle: "11"
     releaseDate: 2013-09-30
     support: 2014-11-24
     eol: 2018-12-31
     latest: "11.1.7"
+    latestReleaseDate: 2014-06-19
 
 ---
 
