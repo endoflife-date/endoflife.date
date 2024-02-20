@@ -6,8 +6,7 @@ iconSlug: rocketdotchat
 permalink: /rocket-chat
 alternate_urls:
 -   /rocketchat
-releasePolicyLink: 
-  https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability
+releasePolicyLink: https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
 releaseDateColumn: true
 activeSupportColumn: true
@@ -24,8 +23,8 @@ releases:
     releaseDate: 2024-02-07
     support: true
     eol: false
-    latest: '6.6.0'
-    latestReleaseDate: 2024-02-07
+    latest: '6.6.1'
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-12-01

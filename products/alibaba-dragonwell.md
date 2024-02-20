@@ -7,8 +7,7 @@ permalink: /alibaba-dragonwell
 alternate_urls:
 -   /dragonwell
 versionCommand: java -version
-releasePolicyLink:
-  https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
+releasePolicyLink: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
 changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 releaseDateColumn: true
 
@@ -23,11 +22,9 @@ identifiers:
 -   repology: jdk11-dragonwell-extended
 -   repology: jdk11-dragonwell-standard
 -   purl: pkg:docker/alibabadragonwell/dragonwell
--   purl:
-      pkg:oci/dragonwell?repository_url=dragonwell-registry.cn-hangzhou.cr.aliyuncs.com/dragonwell/dragonwell
+-   purl: pkg:oci/dragonwell?repository_url=dragonwell-registry.cn-hangzhou.cr.aliyuncs.com/dragonwell/dragonwell
 # Alibaba Cloud Linux OS plus repository, but only for x86_64 architecture
--   purl:
-      pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
+-   purl: pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
 
 # There is one repository for each major LTS release.
 # And yes, tagging at Alibaba is a mess !
@@ -69,25 +66,24 @@ releases:
     lts: true
     releaseDate: 2021-10-18
     eol: 2029-09-30
-    latest: "17.0.9.0.10+9"
-    latestReleaseDate: 2023-11-13
+    latest: "17.0.10.0.11+7"
+    latestReleaseDate: 2024-02-20
 
 # First official release is 11.0.7.2.
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2020-07-20
     eol: 2027-09-30
-    latest: "11.0.21.17"
-    latestReleaseDate: 2023-12-27
+    latest: "11.0.22.18"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
-    latest: "8.17.18"
-    latestReleaseDate: 2023-12-27
-    link:
-      https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
+    latest: "8.18.19"
+    latestReleaseDate: 2024-02-20
+    link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---
 
