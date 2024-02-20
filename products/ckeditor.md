@@ -2,7 +2,7 @@
 title: CKEditor
 category: framework
 permalink: /ckeditor
-releaseColumn: true
+releaseColumn: false
 activeSupportColumn: true
 extendedSupportColumn: true
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
@@ -12,9 +12,6 @@ releases:
 -   releaseCycle: "5"
     eol: false
     support: true
-    latest: "41.1.0"
-    link: https://github.com/ckeditor/ckeditor5/releases/tag/v41.1.0
-    latestReleaseDate: 2024-02-07
     extendedSupport: false
 
 -   releaseCycle: "4"
@@ -22,9 +19,6 @@ releases:
     extendedSupport: 2026-12-01
     lts: true
     support: false
-    latest: "4.24.0"
-    link: https://ckeditor.com/cke4/release/CKEditor-4.24.0-LTS
-    latestReleaseDate: 2024-02-07
     lts: true
 
 ---
