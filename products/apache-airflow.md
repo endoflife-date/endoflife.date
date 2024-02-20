@@ -10,6 +10,7 @@ versionCommand: airflow version
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
 changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{'__LATEST__'|replace:'.','-'}}-__LATEST_RELEASE_DATE__"
 releaseDateColumn: true
+activeSupportColumn: Active Support
 eolColumn: Limited Support
 
 identifiers:
