@@ -58,5 +58,4 @@ releases:
 > [Chef Infra Server](https://docs.chef.io/server/) is an open-source platform that complements Chef Infra Client.
 > It serves as a central hub for configuration data, providing scalable infrastructure management. 
 
-Chef Infra Server generally follows an N-1 support strategy  
-(meanings that the 2 most recent major versions receive security and bug fixes)
+The only actively maintained version [is the latest](https://docs.chef.io/versions/#supported-commercial-distributions). Release N-1 are "deprecated" [and can only receive security updates](https://www.chef.io/service-level-agreement?_gl=1*1xlphvy*_ga*ODEyNjY0NTc4LjE3MDM3MTUwMDg.*_ga_9JSNBCSF54*MTcwODQ0OTk4Mi4xNS4xLjE3MDg0NTI2MzcuNTkuMC4w*_gcl_au*MTYyMjE3NTI1MS4xNzAzNzE1MDk4). Releases N-2 [and below are EOL](https://docs.chef.io/versions/#end-of-life-eol-products).
