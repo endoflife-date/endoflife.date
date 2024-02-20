@@ -23,7 +23,7 @@ releases:
 
 ---
 
-> [CKEditor](https://ckeditor.com/) is an open-source WYSIWYG library written in JavaScript.
+> [CKEditor](https://ckeditor.com/) is an open-source WYSIWYG rich text editor written in JavaScript.
 
 The open source version of CKEditor 4 is not maintained anymore.
 [CKEditor 4 LTS](https://ckeditor.com/ckeditor-4-support/) is a commercial offering to maintain CKE 4 past its EOL date.
