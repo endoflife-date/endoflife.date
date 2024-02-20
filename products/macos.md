@@ -14,7 +14,11 @@ eolColumn: Service Status
 
 auto:
   methods:
-  -   custom: apple
+  -   apple: ios
+      regex:
+      -   '^macOS[\D]+(?P<version>\d+(?:\.\d+)*)'
+      -   'OS\s+X\s[\w\s]+\sv?(?P<version>\d+(?:\.\d+)+)'
+      -   '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
 -   releaseCycle: "14"
