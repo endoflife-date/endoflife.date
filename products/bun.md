@@ -16,14 +16,16 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/oven-sh/bun
+  -   git: https://github.com/oven-sh/bun.git
+      regex: ^bun-v(?P<version>\d+(\.\d+)+)$
+      template: "{{version}}"
 
 releases:
 -   releaseCycle: "1"
-    releaseDate: 2023-09-08
+    releaseDate: 2023-09-07
     eol: false
-    latest: "1.0.26"
-    latestReleaseDate: 2024-02-03
+    latest: "1.0.27"
+    latestReleaseDate: 2024-02-16
 
 ---
 

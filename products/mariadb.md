@@ -56,12 +56,12 @@ releases:
     eol: 2025-02-16
     latest: "11.3.2"
     latestReleaseDate: 2024-02-16
-    
+
 -   releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
-    latest: "11.2.2"
-    latestReleaseDate: 2023-11-21
+    latest: "11.2.3"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21

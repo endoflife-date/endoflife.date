@@ -55,6 +55,7 @@ releases:
     extendedSupport: 2032-03-31
     latest: "21.0.2+15"
     latestReleaseDate: 2024-01-23
+    link: https://docs.bell-sw.com/liberica-jdk/21.0.2b14/general/release-notes/ # no link yet for 21.0.2+15
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
@@ -85,6 +86,7 @@ releases:
     extendedSupport: 2030-03-31
     latest: "17.0.10+14"
     latestReleaseDate: 2024-01-23
+    link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
