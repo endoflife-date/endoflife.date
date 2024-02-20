@@ -5,7 +5,7 @@ iconSlug: chef
 tags: erlang-runtime ruby-runtime
 permalink: /chef-infra-server
 alternate_urls:
--   /chefserver
+-   /chef-server
 versionCommand: chef-server-ctl version
 releasePolicyLink: "https://docs.chef.io/versions/"
 changelogTemplate: "https://docs.chef.io/release_notes_server/#__LATEST__"
