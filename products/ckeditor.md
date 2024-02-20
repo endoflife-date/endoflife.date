@@ -19,7 +19,6 @@ releases:
     extendedSupport: 2026-12-01
     lts: true
     support: false
-    lts: true
 
 ---
 
