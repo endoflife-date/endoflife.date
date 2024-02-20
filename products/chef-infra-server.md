@@ -3,7 +3,7 @@ title: Chef Infra Server
 category: server-app
 iconSlug: chef
 tags: erlang-runtime ruby-runtime
-permalink: /chefinfraserver
+permalink: /chef-infra-server
 alternate_urls:
 -   /chefserver
 versionCommand: chef-server-ctl version
