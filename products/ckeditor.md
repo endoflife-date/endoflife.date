@@ -1,24 +1,25 @@
 ---
 title: CKEditor
 category: framework
-permalink: /ckeditor
-releaseColumn: false
-activeSupportColumn: true
-extendedSupportColumn: true
-releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
 iconSlug: ckeditor4
+permalink: /ckeditor
+releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
+
+activeSupportColumn: true
+releaseColumn: false
+extendedSupportColumn: true
 
 releases:
 -   releaseCycle: "5"
-    eol: false
     support: true
+    eol: false
     extendedSupport: false
 
 -   releaseCycle: "4"
-    eol: 2023-06-30
-    extendedSupport: 2026-12-01
     lts: true
     support: false
+    eol: 2023-06-30
+    extendedSupport: 2026-12-01
 
 ---
 
