@@ -10,7 +10,13 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: apple
+  -   apple: ios
+      # If you are changing these, please use this as your corpus to validate your changes:
+      # https://gist.githubusercontent.com/captn3m0/e7cb1f4fc3c07a5da0296ebda2b33e15/raw/5747e42ad611ec9ffdb7a2d1c0e3946bb87ab6d7/apple.txt
+      regex:
+      -   'iOS\s+(?P<version>\d+)'
+      -   'iOS\s+(?P<version>\d+(?:\.\d+)+)'
+      -   'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
 -   releaseCycle: "17"
