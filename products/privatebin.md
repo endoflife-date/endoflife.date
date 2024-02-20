@@ -1,0 +1,68 @@
+  ---
+title:  PrivateBin
+category: server-app
+tags: pastebin encryption privacy-security
+permalink: /privatebin
+alternate_urls:
+-   /private-bin
+#releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+changelogTemplate: https://github.com/hashicorp/vault/releases/tag/__LATEST__
+releaseDateColumn: true
+#versionCommand: vault --version
+
+auto:
+  methods:
+  -   git: https://github.com/PrivateBin/PrivateBin.git
+
+# eol(x) = release(x+3)
+releases:
+-   releaseCycle: "1.7"
+    releaseDate: 2024-02-12
+    eol: false
+    latest: "1.7.1"
+    latestReleaseDate: 2024-02-12
+
+-   releaseCycle: "1.6"
+    releaseDate: 2023-09-12
+    eol: 2024-02-12
+    latest: "1.6.2"
+    latestReleaseDate: 2023-12-15
+
+-   releaseCycle: "1.5"
+    releaseDate: 2022-12-11
+    eol: 2023-09-12
+    latest: "1.5.2"
+    latestReleaseDate: 2023-07-09
+
+-   releaseCycle: "1.4"
+    releaseDate: 2022-04-09
+    eol: 2022-12-11
+    latest: "1.4.0"
+    latestReleaseDate: 2022-04-09
+
+-   releaseCycle: "1.3"
+    releaseDate: 2019-07-10
+    eol: 2022-04-09
+    latest: "1.3.5"
+    latestReleaseDate: 2021-04-06
+
+-   releaseCycle: "1.2"
+    releaseDate: 2018-07-22
+    eol: 2019-07-10
+    latest: "1.2.3"
+    latestReleaseDate: 2020-02-16
+
+-   releaseCycle: "1.1"
+    releaseDate: 2016-12-26
+    eol: 2018-07-22
+    latest: "1.1.1"
+    latestReleaseDate: 2017-10-11 
+---
+
+> [PrivateBin](https://privatebin.info/) is a minimalist, open source online [pastebin](https://en.wikipedia.org/wiki/Pastebin)
+> where the server has zero knowledge of pasted data.
+> Data is encrypted and decrypted in the browser using 256bit AES in Galois Counter mode.
+
+
+A major release is identified by a change in the first (X) or second (Y) digit in the following
+versioning nomenclature: `Version X.Y.Z.`
