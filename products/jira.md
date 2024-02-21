@@ -14,6 +14,7 @@ releaseDateColumn: true
 auto:
   methods:
   -   custom: jira
+  -   atlassian_eol: JiraSoftware
 
 # Release dates from https://www.atlassian.com/software/jira/update,
 # They may vary by a day or two from what can be seen in the release notes.

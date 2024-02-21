@@ -14,6 +14,7 @@ releaseDateColumn: true
 auto:
   methods:
   -   custom: confluence
+  -   atlassian_eol: Confluence
 
 # release date: https://www.atlassian.com/software/confluence/download-archives
 # lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
