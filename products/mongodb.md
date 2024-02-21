@@ -41,8 +41,8 @@ releases:
     releaseLabel: "7.2 (Rapid Release)"
     releaseDate: 2023-12-14
     eol: false
-    latest: '7.2.0'
-    latestReleaseDate: 2023-12-14
+    latest: '7.2.1'
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
@@ -54,8 +54,8 @@ releases:
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: 2026-08-31
-    latest: '7.0.5'
-    latestReleaseDate: 2023-12-28
+    latest: '7.0.6'
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -81,8 +81,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-31
-    latest: "6.0.13"
-    latestReleaseDate: 2024-01-11
+    latest: "6.0.14"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -108,8 +108,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.24"
-    latestReleaseDate: 2024-01-11
+    latest: "5.0.25"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
