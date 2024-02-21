@@ -43,7 +43,7 @@ releases:
 -   releaseCycle: "6.3"
     releaseDate: 2023-08-02
     support: 2023-09-27
-    eol: 2023-02-29 # adjusted
+    eol: 2024-02-29 # adjusted
     latest: '6.3.12'
     latestReleaseDate: 2023-11-17
 
