@@ -19,7 +19,7 @@ auto:
 releases:
 -   releaseCycle: "18.0.59"
     releaseDate: 2024-02-20
-    eol: 2023-05-15
+    eol: 2024-05-15
     latest: "18.0.59"
     latestReleaseDate: 2024-02-20
 
