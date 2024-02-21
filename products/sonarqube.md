@@ -32,7 +32,7 @@ releases:
     eol: false
     lts: 2023-02-07
     latest: "9.9.4"
-    latestReleaseDate: 2024-02-06
+    latestReleaseDate: 2024-02-20
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"
@@ -52,8 +52,7 @@ releases:
     lts: 2019-07-01
     latest: "7.9.6"
     latestReleaseDate: 2021-03-01
-    link: 
-      https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
+    link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
 
 ---
 

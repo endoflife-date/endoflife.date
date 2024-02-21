@@ -19,18 +19,17 @@ releases:
     releaseDate: 2023-10-14
     support: true
     eol: 2027-10-19
-    latest: "5.0.2"
-    latestReleaseDate: 2024-01-03
+    latest: "5.0.3"
+    latestReleaseDate: 2024-02-13
     # check later for removal: link with changelogTemplate does not work (yet)
-    link: 
-      https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
+    link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
 -   releaseCycle: "4"
     releaseDate: 2021-08-17
     support: 2024-10-17
     eol: 2025-10-17
-    latest: "4.4.2"
-    latestReleaseDate: 2024-01-05
+    latest: "4.4.3"
+    latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "3"
     releaseDate: 2012-09-27
