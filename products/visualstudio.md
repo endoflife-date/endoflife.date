@@ -24,8 +24,8 @@ releases:
     codename: "2022"
     releaseDate: 2024-02-13
     eol: false # eol with release of 18.0
-    latest: "17.9.0"
-    latestReleaseDate: 2024-02-13
+    latest: "17.9.1"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "17.8"
     codename: "2022"

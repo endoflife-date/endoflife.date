@@ -5,8 +5,7 @@ iconSlug: "gerrit"
 permalink: /gerrit
 versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
-changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"|
-  replace:'.',''}}
+changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
 eolColumn: "Support"
 releaseDateColumn: true
 
@@ -34,8 +33,8 @@ releases:
 -   releaseCycle: "3.7"
     releaseDate: 2022-11-09
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2023-11-24
+    latest: "3.7.7"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "3.6"
     releaseDate: 2022-05-23
