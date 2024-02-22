@@ -65,8 +65,8 @@ releases:
     support: 2024-09-30
     eol: 2027-04-01
     extendedSupport: 2032-04-09
-    latest: "22.04.3"
-    latestReleaseDate: 2023-08-10
+    latest: "22.04.4"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
