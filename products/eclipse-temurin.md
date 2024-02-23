@@ -8,7 +8,7 @@ alternate_urls:
 -   /temurin
 versionCommand: java -version
 releasePolicyLink: https://adoptium.net/support/
-changelogTemplate: 
+changelogTemplate:
   https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 releaseDateColumn: true
 
@@ -42,6 +42,17 @@ auto:
   -   github_releases: "adoptium/temurin21-binaries"
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
+  -   release_table: https://adoptium.net/support/
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Java Version"
+          regex: '^Java\s+(?P<value>\d+)\s+\(LTS\)$' # precise date for non-LTS is known
+        eol:
+          column: "End of Availability [1]"
+          regex: '^(At least )?(?P<value>.+)$'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
@@ -101,7 +112,7 @@ releases:
     eol: 2026-11-30
     latest: "8u402-b06"
     latestReleaseDate: 2024-01-19
-    link: 
+    link:
       https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---
