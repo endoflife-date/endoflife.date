@@ -36,19 +36,25 @@ auto:
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
 
-# EOL dates can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
+# Latest can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
+-   releaseCycle: "8.3"
+    releaseDate: 2024-02-11
+    eol: 2024-11-25
+    latest: '8.3'
+    latestReleaseDate: 2024-02-11
+
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-29
     eol: 2024-08-12
-    latest: '8.2'
-    latestReleaseDate: 2023-10-29
+    latest: '8.2.1'
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "8.1"
     releaseDate: 2023-06-25
     eol: 2024-04-09
-    latest: '8.1'
-    latestReleaseDate: 2023-06-25
+    latest: '8.1.2'
+    latestReleaseDate: 2023-11-27
 
 -   releaseCycle: "7.9-ce"
     lts: true
@@ -61,14 +67,14 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2023-03-05
     eol: 2023-12-19
-    latest: '8.0'
-    latestReleaseDate: 2023-03-05
+    latest: '8.0.2'
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "7.9"
     releaseDate: 2022-12-04
     eol: 2023-09-11
-    latest: '7.9-ce'
-    latestReleaseDate: 2023-03-19
+    latest: '7.9.101-ce'
+    latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "7.8"
     releaseDate: 2022-07-24
@@ -87,8 +93,8 @@ releases:
     releaseDate: 2022-03-06
     eol: 2024-03-06
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
-    latest: '7.5-ce'
-    latestReleaseDate: 2022-03-06
+    latest: '7.5.102-ce'
+    latestReleaseDate: 2023-01-24
 
 -   releaseCycle: "7.6"
     releaseDate: 2021-12-05
@@ -164,8 +170,8 @@ releases:
     releaseDate: 2018-03-19
     eol: 2024-06-01
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/5.0/Traps-Agent-Release-Notes/Traps-Agent-Release-Information
-    latest: '5.0'
-    latestReleaseDate: 2018-03-19
+    latest: '5.0.12'
+    latestReleaseDate: 2021-06-07
 
 -   releaseCycle: "4.1"
     releaseDate: 2017-09-15
