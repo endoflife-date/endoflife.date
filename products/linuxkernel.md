@@ -28,15 +28,15 @@ releases:
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
     eol: 2024-05-07 # estimated releaseDate(x)+4 months
-    latest: "6.7.5"
-    latestReleaseDate: 2024-02-16
+    latest: "6.7.6"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "6.6"
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.17"
-    latestReleaseDate: 2024-02-16
+    latest: "6.6.18"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -66,8 +66,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.78"
-    latestReleaseDate: 2024-02-16
+    latest: "6.1.79"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -103,29 +103,29 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.148"
-    latestReleaseDate: 2024-01-25
+    latest: "5.15.149"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.209"
-    latestReleaseDate: 2024-01-25
+    latest: "5.10.210"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.268"
-    latestReleaseDate: 2024-01-25
+    latest: "5.4.269"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.19.306"
-    latestReleaseDate: 2024-01-25
+    latest: "4.19.307"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "4.14"
     lts: true
