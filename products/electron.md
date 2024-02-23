@@ -22,7 +22,7 @@ auto:
       fields:
         releaseCycle:
           column: "Electron"
-          regex: '^(?P<value>\d+)\.0\.0$' # precise date for non-LTS is known
+          regex: '^(?P<value>\d+)\.0\.0$'
         eol: "EOL"
 
 releases:

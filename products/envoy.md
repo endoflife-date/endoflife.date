@@ -11,16 +11,26 @@ releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#maj
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/envoyproxy/envoy.git
-
 identifiers:
 -   repology: envoy-proxy
 -   purl: pkg:docker/envoyproxy/envoy
 -   purl: pkg:docker/bitnami/envoy
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
+
+auto:
+  methods:
+  -   git: https://github.com/envoyproxy/envoy.git
+  -   release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
+      ignore_empty_releases: true # ignore future releases
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)\.0$'
+        eol: "End of Life"
 
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
