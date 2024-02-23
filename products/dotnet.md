@@ -54,27 +54,27 @@ auto:
           eol: "End of support"
 
 releases:
--   releaseCycle: "8.0"
+-   releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
     latest: "8.0.2"
     latestReleaseDate: 2024-02-13
 
--   releaseCycle: "7.0"
+-   releaseCycle: "7"
     releaseDate: 2022-11-08
     eol: 2024-05-14
     latest: "7.0.16"
     latestReleaseDate: 2024-02-13
 
--   releaseCycle: "6.0"
+-   releaseCycle: "6"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
     latest: "6.0.27"
     latestReleaseDate: 2024-02-13
 
--   releaseCycle: "5.0"
+-   releaseCycle: "5"
     releaseDate: 2020-11-10
     eol: 2022-05-08
     latest: "5.0.17"
