@@ -19,9 +19,16 @@ identifiers:
 auto:
   methods:
   -   custom: couchbase-server
+  -   release_table: https://www.couchbase.com/support-policy/enterprise-software/
+      selector: "table#end_of_life"
+      headers_selector: "tr:nth-of-type(1) th"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Couchbase Server"
+          regex: '^Couchbase Server (?P<value>[0-9.]+)$'
+        eol: "End of Full Maintenance"
 
-# End of life dates available on https://www.couchbase.com/support-policy/enterprise-software/
-# We use the "End of Full Maintenance" date on the last day of the month.
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
