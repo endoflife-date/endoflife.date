@@ -17,8 +17,15 @@ extendedSupportColumn: true
 auto:
   methods:
   -   custom: eks
+  -   release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "Kubernetes version"
+        eol: "End of standard support"
+        extendedSupport: "End of extended support"
 
-# EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-23
