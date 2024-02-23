@@ -14,6 +14,7 @@ auto:
   methods:
   -   git: https://github.com/bazelbuild/bazel.git
   -   release_table: https://bazel.build/release
+      ignore_empty_releases: true # so that future releases are ignored
       selector: "table"
       headers_selector: "thead th"
       rows_selector: "tbody tr"
