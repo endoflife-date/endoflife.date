@@ -15,8 +15,16 @@ releaseDateColumn: true
 auto:
   methods:
   -   npm: electron
+  -   release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Electron"
+          regex: '^(?P<value>\d+)\.0\.0$' # precise date for non-LTS is known
+        eol: "EOL"
 
-# EOL dates documented on https://www.electronjs.org/docs/latest/tutorial/electron-timelines.
 releases:
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
