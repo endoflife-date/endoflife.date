@@ -16,6 +16,16 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/craftcms/cms.git
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
+        support: "Full Support Until"
+        eol: "Security Support Until"
 
 releases:
 -   releaseCycle: "4"
