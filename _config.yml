@@ -26,6 +26,7 @@ nav_sort: case_insensitive
 search_enabled: true
 search:
   button: true
+  focus_shortcut_key: 'k'
   placeholder_text: "Search for a product"
 
 # https://just-the-docs.com/docs/configuration/#aux-links
