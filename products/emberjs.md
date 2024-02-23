@@ -19,6 +19,24 @@ identifiers:
 auto:
   methods:
   -   npm: ember-source
+  -   release_table: https://emberjs.com/releases/lts/
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "LTS version"
+        lts: "Promotion date"
+        support: "Bugfixes until"
+        eol: "Security patches until"
+  -   release_table: https://emberjs.com/releases/lts/
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "LTS version"
+        lts: "LTS promotion"
+        support: "Bugfixes until"
+        eol: "Security patches until"
 
 # For LTS :
 # every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
