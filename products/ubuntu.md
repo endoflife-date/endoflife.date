@@ -6,8 +6,7 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage:
-  https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
+releaseImage: https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
@@ -21,8 +20,7 @@ extendedSupportColumn: Extended Security Maintenance
 auto:
   methods:
   -   distrowatch: ubuntu
-      regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|,
-        Kubuntu.*)?$'
+      regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
       template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
@@ -65,8 +63,8 @@ releases:
     support: 2024-09-30
     eol: 2027-04-01
     extendedSupport: 2032-04-09
-    latest: "22.04.3"
-    latestReleaseDate: 2023-08-10
+    latest: "22.04.4"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
