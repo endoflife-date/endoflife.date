@@ -6,7 +6,7 @@ iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:
 -   /rhsat
-versionCommand: yum info satellite
+versionCommand: dnf info satellite
 releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/satellite_n-2_lifecycle_latest_v2.png
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
