@@ -15,6 +15,12 @@ customColumns:
     link: https://endoflife.date/android
 
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2024-02-14
+    eol: false
+    link: https://lineageos.org/Changelog-28/
+    androidVersion: 14
+  
 -   releaseCycle: "20"
     releaseDate: 2022-12-31
     eol: false
