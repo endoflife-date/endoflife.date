@@ -4,6 +4,7 @@ category: os
 tags: linux-distribution
 activeSupportColumn: Mainstream Support
 releaseDateColumn: true
+permalink: /oreon
 
 releases:
 -   releaseCycle: "Lime (Release 1)"
