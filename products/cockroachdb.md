@@ -108,6 +108,12 @@ releases:
     eol: 2019-04-12
     latest: "1.1.9"
     latestReleaseDate: 2018-10-01
+
+-   releaseCycle: "1.0"
+    releaseDate: 2017-05-10
+    support: 2018-05-10
+    eol: 2018-11-10
+    latest: "1.0.7"
 ---
 
 [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and strongly-consistent key-value store, developed by Cockroach Labs.
