@@ -2,17 +2,8 @@
 title: BoostyConnect Oreon
 category: os
 tags: linux-distribution
-iconSlug: false
-permalink: false
-versionCommand: false
-releasePolicyLink: false
-changelogTemplate: false
 activeSupportColumn: Mainstream Support
 releaseDateColumn: true
-
-identifiers: false
-
-auto: false
 
 releases:
 -   releaseCycle: "Lime (Release 1)"
