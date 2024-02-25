@@ -1,4 +1,4 @@
-  ---
+---
 title:  PrivateBin
 category: server-app
 tags: pastebin encryption privacy-security
