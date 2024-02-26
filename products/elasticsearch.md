@@ -46,6 +46,10 @@ releases:
 > Elasticsearch is a search engine that provides a distributed, multitenant-capable full-text search
 > engine with an HTTP web interface and schema-free JSON documents.
 
+**Elasticsearch 8** will receive updates until the later of 2024-08-10 or 6 months after the release date of 9.0 (TBD).
+
+**Elasticsearch 7** will receive updates until the later of 2023-08-01 or the release date of 9.0 (TDB).
+
 Elasticsearch is part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), also known as the
 [ELK Stack](https://www.elastic.co/what-is/elk-stack). It shares the same support policy as the
 other products in the Elastic Stack (Kibana, Logstash, Beats...).
