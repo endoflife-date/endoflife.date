@@ -39,19 +39,19 @@ identifiers:
 
 auto:
   methods:
-    -   git: https://github.com/dotnet/core.git
+  -   git: https://github.com/dotnet/core.git
       # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
       # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
-        regex_exclude: '^v?\d+\.\d+\.\d{3,}'
-    -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
-        selector: "table"
-        headers_selector: "thead th"
-        rows_selector: "tbody tr"
-        fields:
-          releaseCycle:
-            column: "Version"
-            regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?).*$'
-          eol: "End of support"
+      regex_exclude: '^v?\d+\.\d+\.\d{3,}'
+  -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?).*$'
+        eol: "End of support"
 
 releases:
 -   releaseCycle: "8"
@@ -76,7 +76,7 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2020-11-10
-    eol: 2022-05-08
+    eol: 2022-05-10
     latest: "5.0.17"
     latestReleaseDate: 2022-05-10
 
