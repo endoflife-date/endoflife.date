@@ -36,19 +36,26 @@ auto:
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?, (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
 
-# EOL dates can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
+# EOL dates can be found on https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary#traps-esm-and-cortex
+# Latest can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
+-   releaseCycle: "8.3"
+    releaseDate: 2024-02-11
+    eol: 2024-11-25
+    latest: '8.3'
+    latestReleaseDate: 2024-02-11
+
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-29
     eol: 2024-08-12
-    latest: '8.2'
-    latestReleaseDate: 2023-10-29
+    latest: '8.2.1'
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "8.1"
     releaseDate: 2023-06-25
     eol: 2024-04-09
-    latest: '8.1'
-    latestReleaseDate: 2023-06-25
+    latest: '8.1.2'
+    latestReleaseDate: 2023-11-27
 
 -   releaseCycle: "7.9-ce"
     lts: true
@@ -61,153 +68,153 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2023-03-05
     eol: 2023-12-19
-    latest: '8.0'
-    latestReleaseDate: 2023-03-05
+    latest: '8.0.2'
+    latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "7.9"
     releaseDate: 2022-12-04
     eol: 2023-09-11
-    latest: '7.9-ce'
-    latestReleaseDate: 2023-03-19
+    latest: '7.9.101-ce'
+    latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "7.8"
     releaseDate: 2022-07-24
     eol: 2023-04-24
-    latest: '7.8'
-    latestReleaseDate: 2022-07-24
+    latest: '7.8.2-HF2'
+    latestReleaseDate: 2023-02-27
 
 -   releaseCycle: "7.7"
     releaseDate: 2022-03-27
     eol: 2022-12-27
-    latest: '7.7'
-    latestReleaseDate: 2022-03-27
+    latest: '7.7.2-HF'
+    latestReleaseDate: 2022-07-27
 
 -   releaseCycle: "7.5-ce"
     lts: true
     releaseDate: 2022-03-06
     eol: 2024-03-06
+    latest: '7.5.102-ce'
+    latestReleaseDate: 2023-01-24
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.5ce/Cortex-XDR-Agent-Release-Notes/Cortex-XDR-Agent-7.5-CE-Release-Information
-    latest: '7.5-ce'
-    latestReleaseDate: 2022-03-06
 
 -   releaseCycle: "7.6"
     releaseDate: 2021-12-05
     eol: 2022-09-05
+    latest: '7.6.3'
+    latestReleaseDate: 2022-06-07
     link: null
-    latest: '7.6'
-    latestReleaseDate: 2021-12-05
 
 -   releaseCycle: "7.5"
     releaseDate: 2021-08-22
     eol: 2022-08-22
+    latest: '7.5.3'
+    latestReleaseDate: 2022-04-25
     link: null
-    latest: '7.5-ce'
-    latestReleaseDate: 2022-03-06
 
 -   releaseCycle: "7.4"
     releaseDate: 2021-05-24
     eol: 2022-05-24
+    latest: '7.4.4'
+    latestReleaseDate: 2022-01-24
     link: null
-    latest: '7.4'
-    latestReleaseDate: 2021-05-24
 
 -   releaseCycle: "7.3"
     releaseDate: 2021-02-01
     eol: 2022-02-01
-    link: null
     latest: '7.3'
     latestReleaseDate: 2021-02-01
+    link: null
 
 -   releaseCycle: "7.2"
     releaseDate: 2020-09-07
     eol: 2022-03-07
-    link: null
     latest: '7.2'
     latestReleaseDate: 2020-09-07
+    link: null
 
 -   releaseCycle: "7.1"
     releaseDate: 2020-04-22
     eol: 2021-06-04
-    link: null
     latest: '7.1'
     latestReleaseDate: 2020-04-22
+    link: null
 
 -   releaseCycle: "7.0"
     releaseDate: 2019-12-04
     eol: 2021-06-04
-    link: null
     latest: '7.0'
     latestReleaseDate: 2019-12-04
+    link: null
 
 -   releaseCycle: "6.1"
     releaseDate: 2019-07-02
     eol: 2022-07-01
+    latest: '6.1.9'
+    latestReleaseDate: 2022-05-09
     link: null
-    latest: '6.1'
-    latestReleaseDate: 2019-07-02
 
 -   releaseCycle: "6.0"
     releaseDate: 2019-02-26
     eol: 2020-02-26
-    link: null
     latest: '6.0'
     latestReleaseDate: 2019-02-26
+    link: null
 
 -   releaseCycle: "4.2"
     releaseDate: 2018-06-25
     eol: 2022-03-01
-    link: null
     latest: '4.2'
     latestReleaseDate: 2018-06-25
+    link: null
 
 -   releaseCycle: "5.0"
     releaseDate: 2018-03-19
     eol: 2024-06-01
+    latest: '5.0.12'
+    latestReleaseDate: 2021-06-07
     link: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/5.0/Traps-Agent-Release-Notes/Traps-Agent-Release-Information
-    latest: '5.0'
-    latestReleaseDate: 2018-03-19
 
 -   releaseCycle: "4.1"
     releaseDate: 2017-09-15
     eol: 2019-09-15
-    link: null
     latest: '4.1'
     latestReleaseDate: 2017-09-15
+    link: null
 
 -   releaseCycle: "4.0"
     releaseDate: 2017-04-05
     eol: 2018-04-05
-    link: null
     latest: '4.0'
     latestReleaseDate: 2017-04-05
+    link: null
 
 -   releaseCycle: "3.4"
     releaseDate: 2016-08-21
     eol: 2019-08-21
-    link: null
     latest: '3.4'
     latestReleaseDate: 2016-08-21
+    link: null
 
 -   releaseCycle: "3.3"
     releaseDate: 2015-11-10
     eol: 2017-02-28
-    link: null
     latest: '3.3'
     latestReleaseDate: 2015-11-10
+    link: null
 
 -   releaseCycle: "3.2"
     releaseDate: 2015-03-31
     eol: 2016-03-31
-    link: null
     latest: '3.2'
     latestReleaseDate: 2015-03-31
+    link: null
 
 -   releaseCycle: "3.1"
     releaseDate: 2014-09-03
     eol: 2015-09-03
-    link: null
     latest: '3.1'
     latestReleaseDate: 2014-09-03
+    link: null
 
 ---
 
