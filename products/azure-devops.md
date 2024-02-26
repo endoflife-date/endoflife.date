@@ -19,7 +19,7 @@ releases:
     eol: 2033-01-11
     latest: "2022.1patch2"
     latestReleaseDate: 2024-02-13
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1?view=azure-devops&tabs=yaml#azure-devops-server-2022-update-1-patch-2-release-date-february-13-2024
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-2-release-date-february-13-2024
 
 -   releaseCycle: "2022.0"
     releaseLabel: "2022"
@@ -37,7 +37,7 @@ releases:
     eol: 2030-10-08
     latest: "2020.1.2patch12"
     latestReleaseDate: 2024-02-13
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1?view=azure-devops#azure-devops-server-2020-update-12-patch-12-release-date-february-13-2024
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-12-release-date-february-13-2024
     
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
@@ -55,7 +55,7 @@ releases:
     eol: 2029-04-10
     latest: "2019.1.2patch7"
     latestReleaseDate: 2024-02-13
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1?view=azure-devops#azure-devops-server-2019-update-12-patch-7-release-date-february-13-2024
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-7-release-date-february-13-2024
 
 -   releaseCycle: "2019.0"
     releaseLabel: "2019"
