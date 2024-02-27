@@ -15,6 +15,10 @@ auto:
     # https://regex101.com/r/fHvpY1/1
     regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
+identifiers:
+-   repology: wireshark
+-   purl: pkg:docker/linuxserver/wireshark
+-   purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
 # eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # support(x) = releaseDate(x+1)
 # Only even number minor releases are stable releases
