@@ -149,6 +149,6 @@ releases:
 
 > [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer. 
 
-Wireshark follows [Semantic Versioning](https://semver.org/).   
-In addition of maintenance for the Long-Term Support version lifetime, Whireshark generally follows an N-1 support strategy.  
-(meanings that the 2 most recent major versions receive security and bug fixes)
+The latest two releases are support, and receive security and bug fixes. Each release is
+supported for a minimum of 18 months, which can be extended to 24 or 30 months,
+e.g. for releases preceding a major change.
