@@ -60,7 +60,7 @@ releases:
 
 -   releaseCycle: "9.1"
     releaseDate: 2019-12-13
-    eol: 2024-03-31
+    eol: 2024-06-30
     latest: "9.1.17"
     latestReleaseDate: 2023-12-11
     link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-17-addressed-issues
@@ -165,6 +165,7 @@ releases:
     releaseDate: 2007-11-15
     eol: 2008-11-20
     latest: ""
+
 
 ---
 
