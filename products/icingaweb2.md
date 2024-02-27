@@ -108,6 +108,13 @@ releases:
     eol: true
     latest: "2.0.0"
     latestReleaseDate: 2015-10-02
+
+-   releaseCycle: "1"
+    releaseDate: 2010-06-30
+    support: 2018-12-31
+    eol: 2018-12-31
+    latest: "1.14.1"
+    latestReleaseDate: 2017-12-19
 ---
 
 > [Icinga Web 2](https://icinga.com/docs/icinga-web/latest/doc/01-About/) is a web-based graphical user interface for the Icinga2 monitoring system. 
