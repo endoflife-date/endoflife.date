@@ -21,12 +21,6 @@ releases:
     eol: false
     latest: "1.8.1"
     latestReleaseDate: 2023-10-31
-
--   releaseCycle: "0"
-    releaseDate: 2010-07-06
-    eol: true
-    latest: "0.9.8"
-    latestReleaseDate: 2016-02-29
     
 ---
 
