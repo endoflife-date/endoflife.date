@@ -119,7 +119,7 @@ releases:
 
 > [Icinga Web](https://icinga.com/docs/icinga-web/latest/doc/01-About/) is a web-based graphical user interface for the Icinga2 monitoring system.
 
-Since 2.6, Icinga Web 2 follows an N-1 support strategy  
-(meanings that the 2 most recent major versions receive security and bug fixes)  
-The N-2 release may [in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md
-) receive critical security patches
+The 2 most recent releases receive security and bug fixes. 
+The N-3 release may receive critical security patches
+[in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md)
+but this is not guaranteed.
