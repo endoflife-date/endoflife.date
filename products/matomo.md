@@ -70,8 +70,9 @@ releases:
     
 ---
 
-> [Matomo](https://matomo.org/) is an open-source analytics platform, is developed to track and analyze various components of digital activities
->  including websites, servers, CMS, and online services.
+> [Matomo](https://matomo.org/) (formerly known as [Piwik](https://matomo.org/blog/2018/01/piwik-is-now-matomo/)) is an open-source analytics platform.
+> It is developed to track and analyze various components of digital activities
+> including websites, servers, CMS, and online services.
 
 Matomo follows an [N-1 support strategy](https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/)  
 (meanings that the 2 most recent major versions receive security and bug fixes)
