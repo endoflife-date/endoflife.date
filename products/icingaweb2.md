@@ -1,5 +1,5 @@
 ---
-title: Icinga Web 2
+title: Icinga Web
 category: server-app
 tags: php-runtime
 iconSlug: icinga
