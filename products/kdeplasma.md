@@ -36,6 +36,7 @@ releases:
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.10"
     latestReleaseDate: 2023-12-05
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.26"
     releaseDate: 2022-10-11
@@ -43,6 +44,7 @@ releases:
     eol: 2023-02-14
     latest: "5.26.5"
     latestReleaseDate: 2023-01-03
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.25"
     releaseDate: 2022-06-14
@@ -50,6 +52,7 @@ releases:
     eol: 2022-10-11
     latest: "5.25.5"
     latestReleaseDate: 2022-09-06
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.24"
     lts: true
@@ -58,6 +61,7 @@ releases:
     eol: 2022-10-14
     latest: "5.24.7"
     latestReleaseDate: 2022-10-14
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.23"
     releaseDate: 2021-10-14
@@ -65,6 +69,7 @@ releases:
     eol: 2022-02-03
     latest: "5.23.5"
     latestReleaseDate: 2022-01-04
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.18"
     lts: true
@@ -73,6 +78,7 @@ releases:
     eol: 2022-02-11
     latest: "5.18.8"
     latestReleaseDate: 2021-10-19
+    link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 ---
 
