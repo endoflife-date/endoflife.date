@@ -6,8 +6,8 @@ permalink: /kde-plasma
 alternate_urls:
 -   /kdeplasma
 versionCommand: plasmashell -v
-releasePolicyLink: https://community.kde.org/Schedules/Plasma_5
-changelogTemplate: https://kde.org/announcements/plasma/5/__LATEST__/
+releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
+changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Critical bug fixes
@@ -20,12 +20,20 @@ auto:
       -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
       -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
 
+# non-LTS: eol(x)/support(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.0"
+    releaseDate: 2024-02-28
+    support: true
+    eol: false # Will end when Plasma 6.1 comes out
+    latest: "6.0.0"
+    latestReleaseDate: 2023-12-05
+
 -   releaseCycle: "5.27"
     lts: true
     releaseDate: 2023-02-14
     support: true
-    eol: false # Will end when Plasma 6 comes out
+    eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.10"
     latestReleaseDate: 2023-12-05
 
@@ -47,7 +55,7 @@ releases:
     lts: true
     releaseDate: 2022-02-08
     support: 2022-06-14
-    eol: false # Will end when Plasma 6 comes out
+    eol: 2022-10-14
     latest: "5.24.7"
     latestReleaseDate: 2022-10-14
 
@@ -78,8 +86,7 @@ future bug fix releases and major releases.
 
 ## Release Cadence
 
-* Plasma 5.24 LTS will get critical bug fixes updates until the start of Plasma 6 development
-  (timetable unsure). The last Plasma 5 release will be version 5.27 LTS and the end of critical bug
+* The last Plasma 5 release will be version 5.27 LTS and the end of critical bug
   fixes is not yet announced.
-* Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_5#Bugfix_versions)
+* Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_6#Releases_Cycle)
   (1, 1, 2, 3, 5) after each previous release of the same series.
