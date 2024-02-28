@@ -18,10 +18,17 @@ auto:
       -   '^Distribution Release: Tails (?P<major>\d).(?P<minor>\d)$'
       -   '^Distribution Release: Incognito Live System (?P<major>\d).(?P<minor>\d)$'
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6"
+    releaseDate: 2024-02-27
+    eol: false
+    latest: "6.0"
+    latestReleaseDate: 2024-02-27
+
 -   releaseCycle: "5"
     releaseDate: 2022-05-03
-    eol: false
+    eol: 2024-02-27
     latest: "5.20"
     latestReleaseDate: 2023-11-28
 
