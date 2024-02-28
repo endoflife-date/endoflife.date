@@ -42,7 +42,7 @@ releases:
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-02-23
-    eol: false
+    eol: 2024-02-27
     latestReleaseDate: 2024-02-13
     latest: '1.15.10'
 
