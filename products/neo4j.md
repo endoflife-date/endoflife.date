@@ -4,8 +4,7 @@ category: database
 tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
-versionCommand: "call dbms.components() yield versions unwind versions as version
-  return version;"
+versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 eolColumn: Support Status
@@ -129,9 +128,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-06-30
-    latest: "4.4.30"
+    latest: "4.4.31"
     lts: true
-    latestReleaseDate: 2024-01-25
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-10

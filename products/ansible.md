@@ -6,10 +6,8 @@ iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: 
-  https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
-  https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 eolColumn: Supported
 
@@ -34,8 +32,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-21
     eol: false
-    latest: "9.2.0"
-    latestReleaseDate: 2024-01-30
+    latest: "9.3.0"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "8"
     ansibleCoreVersion: "2.15"
