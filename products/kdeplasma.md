@@ -87,7 +87,7 @@ releases:
 > distributions and FreeBSD.
 
 KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release
-every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_5) for
+every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_6) for
 future bug fix releases and major releases.
 
 ## Release Cadence
