@@ -29,11 +29,11 @@ auto:
 # EOL(x) = MAX(latestReleaseDate, releaseDate(X+1))
 releases:
 -   releaseCycle: "3.7"
-    releaseDate: 2024-02-27
+    releaseDate: 2024-02-26
     eol: false
     extendedSupport: 2026-02-09
     latest: "3.7.0"
-    latestReleaseDate: 2024-02-27
+    latestReleaseDate: 2024-02-26
 
 -   releaseCycle: "3.6"
     releaseDate: 2023-10-03
@@ -212,8 +212,7 @@ releases:
     releaseDate: 2012-01-04
     eol: 2013-12-03
     extendedSupport: false
-    link:
-      https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
+    link: https://archive.apache.org/dist/kafka/old_releases/kafka-0.7.2-incubating/RELEASE-NOTES.html
     latest: "0.7.2"
     latestReleaseDate: 2012-10-10
 

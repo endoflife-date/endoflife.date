@@ -28,8 +28,8 @@ releases:
     support: 2024-08-06
     eol: 2025-02-04
     supportedPhpVersions: 8.1 - 8.2
-    latest: '10.45.1'
-    latestReleaseDate: 2024-02-21
+    latest: '10.46.0'
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "9"
     releaseDate: 2022-02-08
