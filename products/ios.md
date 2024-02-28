@@ -136,6 +136,4 @@ iOS-supported devices over the years. Usually, only the latest iOS release is su
 Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/),
 for a short period of time.
 
-iOS 12 is [still receiving security updates](https://support.apple.com/103015).
-
 Support information for iPhone devices are available at [/iphone](/iphone).
