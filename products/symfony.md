@@ -26,8 +26,8 @@ releases:
     releaseDate: 2023-11-29
     support: 2024-07-31
     eol: 2024-07-31
-    latest: "7.0.3"
-    latestReleaseDate: 2024-01-31
+    latest: "7.0.4"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "6.4"
     lts: true
