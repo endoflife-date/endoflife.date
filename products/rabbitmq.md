@@ -21,8 +21,8 @@ auto:
 releases:
 -   releaseCycle: "3.13"
     releaseDate: 2024-02-22
-    eol: false
-    extendedSupport: false
+    eol: 2025-03-01
+    extendedSupport: 2025-09-01
     latest: "3.13.0"
     latestReleaseDate: 2024-02-22
 
