@@ -60,7 +60,6 @@ releases:
     latestReleaseDate: 2020-09-01
     link: https://support.apple.com/HT210393
 
-# iOS 12 is still getting updates
 -   releaseCycle: "12"
     releaseDate: 2018-09-17
     support: 2019-09-19
