@@ -30,7 +30,7 @@ auto:
 releases:
 -   releaseCycle: "3.8"
     releaseDate: 2024-02-28
-    eol: 2024-02-28
+    eol: 2025-02-28
     lts: true
     extendedSupport: false
     latest: "3.8.0"
