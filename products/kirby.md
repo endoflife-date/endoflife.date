@@ -31,13 +31,13 @@ releases:
     latest: "3.10.0.1"
     latestReleaseDate: 2024-02-25
 
--   releaseCycle: "4.0"
+-   releaseCycle: "4"
     codename: "A new era"
     releaseDate: 2023-11-28
     eol: false
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.0.3"
-    latestReleaseDate: 2024-01-10
+    latest: "4.1.1"
+    latestReleaseDate: 2024-02-26
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"
