@@ -33,7 +33,7 @@ releases:
     eol: 2025-02-28
     lts: true
     extendedSupport: false
-    latest: "3.8.0"
+    latest: "3.8.1"
     latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "3.7"

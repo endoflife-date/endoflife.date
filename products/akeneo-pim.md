@@ -4,8 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /akeneo-pim
 releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
-changelogTemplate:
-  https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
+changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 eolColumn: Support
@@ -30,8 +29,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2024-09-30
-    latest: "7.0.50"
-    latestReleaseDate: 2024-01-30
+    latest: "7.0.51"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
@@ -102,8 +101,7 @@ releases:
     codename: "Fresh Hare"
     releaseDate: 2016-03-08
     eol: 2017-09-30
-    link:
-      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v15
+    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v15
     latest: "1.5.27"
     latestReleaseDate: 2017-09-22
 
@@ -111,8 +109,7 @@ releases:
     codename: "Rhapsody Rabbit"
     releaseDate: 2015-09-23
     eol: 2017-03-31
-    link:
-      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v14
+    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v14
     latest: "1.4.28"
     latestReleaseDate: 2016-12-13
 
@@ -120,8 +117,7 @@ releases:
     codename: "Hare Force"
     releaseDate: 2015-02-12
     eol: 2016-09-30
-    link:
-      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v13
+    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v13
     latest: "1.3.41"
     latestReleaseDate: 2016-04-01
 
@@ -145,8 +141,7 @@ releases:
     codename: "Hare We Go"
     releaseDate: 2014-03-06
     eol: 2016-03-31
-    link:
-      https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
+    link: https://help.akeneo.com/en_US/everything-you-need-to-know-about-our-pim-versions#v10
     latest: "1.0.3"
     latestReleaseDate: 2014-03-27
 
