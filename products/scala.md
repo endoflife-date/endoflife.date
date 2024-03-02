@@ -20,6 +20,13 @@ auto:
 
 # For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2024-02-29
+    support: true
+    eol: false
+    latest: "3.4.0"
+    latestReleaseDate: 2024-02-29
+
 -   releaseCycle: "3.3"
     releaseDate: 2023-05-23
     support: true
@@ -107,7 +114,8 @@ Scala’s primary platform is the Java Virtual Machine (JVM).
 
 | JDK version | Minimum Scala versions         |
 |-------------|--------------------------------|
-| 21 (ea)     | 3.3.1, 2.13.11, 2.12.18        |
+| 22 (ea)     | 3.3.4*, 2.13.12, 2.12.19       |
+| 21 (LTS)    | 3.3.1, 2.13.11, 2.12.18        |
 | 20          | 3.3.0, 2.13.11, 2.12.18        |
 | 19          | 3.2.0, 2.13.9, 2.12.16         |
 | 18          | 3.1.3, 2.13.7, 2.12.15         |
@@ -115,4 +123,10 @@ Scala’s primary platform is the Java Virtual Machine (JVM).
 | 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
 | 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
 
-Using the latest patch version is always recommended.
+* = forthcoming; support available in nightly builds
+
+Even when a version combination isn’t listed as supported, most features might still work.
+
+Using latest patch version of Scala is always recommended.
+
+Lightbend offers commercial support for Scala 2. The linked page includes contact information for inquiring about supported and recommended versions.
