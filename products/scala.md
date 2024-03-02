@@ -28,6 +28,7 @@ releases:
     latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "3.3"
+    lts: true
     releaseDate: 2023-05-23
     support: true
     eol: false
