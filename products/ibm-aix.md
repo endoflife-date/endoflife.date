@@ -16,8 +16,19 @@ eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support
 auto:
   methods:
   -   custom: ibm-aix
+  -   release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+      selector: "table"
+      headers_selector: "tbody tr:nth-of-type(1) td"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle:
+          column: "TL"
+          regex: 'AIX (?P<major>\d+).(?P<minor>\d+) TL(?P<patch>\d+)'
+          template: "{{major}}.{{minor}}.{{patch}}"
+        eol:
+          column: "End of Fix Support"
+          regex: '(?P<value>\d+ \w+ \d+).*'
 
-# EOL date can be found on https://www.ibm.com/support/pages/aix-support-lifecycle-information.
 releases:
 -   releaseCycle: "7.3.2"
     releaseDate: 2023-11-30
