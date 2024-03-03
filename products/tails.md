@@ -5,7 +5,7 @@ tags: linux-distribution
 iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
-changelogTemplate: https://tails.boum.org/news/version___LATEST__/
+changelogTemplate: https://tails.net/news/version___LATEST__/
 releaseDateColumn: true
 
 # We fetch dates from Git, and then override a few
@@ -58,8 +58,8 @@ releases:
 
 ---
 
-> [Tails](https://tails.boum.org/about/), or _The Amnesic Incognito Live System_, is a
+> [Tails](https://tails.net/about/), or _The Amnesic Incognito Live System_, is a
 > security-focused Debian-based Linux distribution aimed at preserving privacy and anonymity.
 
-Tails [provides upgrades every six weeks](https://tails.boum.org/support/faq/#upgrade) and only
+Tails [provides upgrades every six weeks](https://tails.net/support/faq/#upgrade) and only
 supports the latest release.
