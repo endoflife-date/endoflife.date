@@ -5,23 +5,38 @@ tags: php-runtime
 iconSlug: laravel
 permalink: /laravel
 versionCommand: composer show laravel/framework|grep versions
-releasePolicyLink: https://laravel.com/docs/9.x/releases#support-policy
+releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 activeSupportColumn: true
 releaseDateColumn: true
+
+identifiers:
+-   purl: pkg:composer/laravel/laravel
+-   purl: pkg:docker/bitnami/laravel
+-   purl: pkg:github/laravel/framework
+-   repology: php:laravel-framework
 
 # Note that laravel/laravel is just a starter application.
 auto:
   methods:
   -   git: https://github.com/laravel/framework.git
+  -   release_table: https://laravel.com/docs/master/releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex_exclude: "^1[1-9]$"
+        support:
+          column: "Bug Fixes Until"
+          regex: '^(?P<month>\w+) (?P<day>\d+)\w+, (?P<year>\d+)$'
+          template: "{{ month }} {{ day }}, {{ year }}"
+        eol:
+          column: "Security Fixes Until"
+          regex: '^(?P<month>\w+) (?P<day>\d+)\w+, (?P<year>\d+)$'
+          template: "{{ month }} {{ day }}, {{ year }}"
+        supportedPhpVersions: "PHP (*)"
 
-identifiers:
--   purl: pkg:composer/laravel/laravel
--   repology: php:laravel-framework
--   purl: pkg:docker/bitnami/laravel
--   purl: pkg:github/laravel/framework
-
-# Support/EOL dates and supported PHP versions can be found on https://laravel.com/docs/9.x/releases#support-policy
+# Do not forget to update the regex_exclude pattern below when a new major version is released.
 releases:
 -   releaseCycle: "10"
     releaseDate: 2023-02-14
