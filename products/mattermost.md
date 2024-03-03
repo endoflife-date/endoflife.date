@@ -14,8 +14,13 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/mattermost/mattermost-server.git
+  -   release_table: https://docs.mattermost.com/upgrade/release-lifecycle.html
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Lifecyle Start Date"
+        eol: "Lifecycle End Date"
 
-# EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
