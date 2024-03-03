@@ -44,8 +44,6 @@ auto:
       template: '{{version}}'
   -   release_table: https://adoptium.net/support/
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Java Version"

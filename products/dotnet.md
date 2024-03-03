@@ -45,8 +45,6 @@ auto:
       regex_exclude: '^v?\d+\.\d+\.\d{3,}'
   -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Version"

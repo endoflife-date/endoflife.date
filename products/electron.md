@@ -17,8 +17,6 @@ auto:
   -   npm: electron
   -   release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Electron"

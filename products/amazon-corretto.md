@@ -41,14 +41,14 @@ auto:
       template: '{{version}}'
   -   release_table: https://aws.amazon.com/corretto/faqs/
       selector: "table"
-      headers_selector: "tr:nth-of-type(2) td" # Support Calendar
+      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
       rows_selector: "tr"
       fields:
         releaseCycle: "Coretto Release" # Typo on the website
         eol: "End of Life"
   -   release_table: https://aws.amazon.com/corretto/faqs/
       selector: "table"
-      headers_selector: "tr:nth-of-type(1) td" #  Expired Versions
+      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
       rows_selector: "tr"
       fields:
         releaseCycle: "Corretto Release"

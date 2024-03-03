@@ -19,8 +19,6 @@ auto:
   -   custom: eks
   -   release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle: "Kubernetes version"
         eol: "End of standard support"

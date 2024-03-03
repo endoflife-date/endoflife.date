@@ -18,8 +18,7 @@ auto:
   -   custom: ibm-aix
   -   release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
       selector: "table"
-      headers_selector: "tbody tr:nth-of-type(1) td"
-      rows_selector: "tbody tr"
+      header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:
           column: "TL"

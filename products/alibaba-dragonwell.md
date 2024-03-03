@@ -50,8 +50,6 @@ auto:
       template: '{{version}}'
   -   release_table: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle: "Dragonwell Version"
         eol:
