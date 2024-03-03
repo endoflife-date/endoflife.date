@@ -53,14 +53,14 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-01
+    eol: 2026-11-30
     latest: '11.0.22+7'
     latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-01
+    eol: 2026-11-30
     latest: '8u402-b06'
     latestReleaseDate: 2024-02-05
 
