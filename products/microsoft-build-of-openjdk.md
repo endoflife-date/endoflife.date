@@ -21,9 +21,15 @@ auto:
   -   git: "https://github.com/microsoft/openjdk-jdk21u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
       template: '{{version}}'
+  -   release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^OpenJDK (?P<value>\d+) LTS$'
+        eol: "Earliest end-of-support date"
 
 # Do not forget to update the "auto" configuration on each new major release.
-# EOL dates available on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
 releases:
 -   releaseCycle: "21"
     lts: true
