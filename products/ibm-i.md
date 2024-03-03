@@ -193,7 +193,7 @@ releases:
     latestReleaseDate: 1992-09-18
 
 -   releaseCycle: "2.1"
-    releaseDate: 1991-05-24
+    releaseDate: 1992-03-06
     eol: 1994-06-30
     extendedSupport: false
     latest: "2.1.1"

@@ -29,7 +29,7 @@ releases:
     lts: true
     releaseDate: 2024-01-12
     support: true
-    eol: 2027-04-01
+    eol: 2027-04-30
     latest: "21.3"
     link: https://blog.linuxmint.com/?p=4624
 
@@ -47,7 +47,7 @@ releases:
     lts: true
     releaseDate: 2023-07-16
     support: true
-    eol: 2027-04-01
+    eol: 2027-04-30
     latest: "21.2"
     link: https://blog.linuxmint.com/?p=4543
 
@@ -56,7 +56,7 @@ releases:
     lts: true
     releaseDate: 2022-12-20
     support: true
-    eol: 2027-04-01
+    eol: 2027-04-30
     latest: "21.1"
     link: https://blog.linuxmint.com/?p=4454
 
@@ -65,7 +65,7 @@ releases:
     lts: true
     releaseDate: 2022-07-31
     support: true
-    eol: 2027-04-01
+    eol: 2027-04-30
     latest: "21"
     link: https://blog.linuxmint.com/?p=4359
 
@@ -83,7 +83,7 @@ releases:
     lts: true
     releaseDate: 2022-01-07
     support: true
-    eol: 2025-04-01
+    eol: 2025-04-30
     latest: "20.3"
     link: https://blog.linuxmint.com/?p=4220
 
@@ -92,7 +92,7 @@ releases:
     lts: true
     releaseDate: 2021-07-08
     support: true
-    eol: 2025-04-01
+    eol: 2025-04-30
     latest: "20.2"
     link: https://blog.linuxmint.com/?p=4102
 
@@ -101,7 +101,7 @@ releases:
     lts: true
     releaseDate: 2021-01-08
     support: false
-    eol: 2025-04-01
+    eol: 2025-04-30
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
 
@@ -110,7 +110,7 @@ releases:
     lts: true
     releaseDate: 2020-06-27
     support: false
-    eol: 2025-04-01
+    eol: 2025-04-30
     latest: "20"
     link: https://blog.linuxmint.com/?p=3928
 

@@ -62,7 +62,7 @@ releases:
 
 -   releaseCycle: "7.2.3"
     releaseDate: 2018-09-30
-    eol: 2021-11-30
+    eol: 2021-09-30
     latest: "7.2.3"
     latestReleaseDate: 2018-09-30
 
