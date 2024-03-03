@@ -21,7 +21,7 @@ auto:
   -   custom: couchbase-server
   -   release_table: https://www.couchbase.com/support-policy/enterprise-software/
       selector: "table#end_of_life"
-      headers_selector: "tr:nth-of-type(1) th"
+      header_selector: "tr:nth-of-type(1)"
       rows_selector: "tr"
       fields:
         releaseCycle:

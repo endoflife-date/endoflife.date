@@ -21,7 +21,7 @@ auto:
   -   git: https://github.com/django/django.git
   -   release_table: https://www.djangoproject.com/download/#supported-versions
       selector: "table:nth-of-type(1)" # ignore Future Roadmap table
-      headers_selector: "tr:nth-of-type(1) th"
+      header_selector: "tr:nth-of-type(1)"
       rows_selector: "tr"
       fields:
         releaseCycle:
@@ -31,7 +31,7 @@ auto:
         eol: "End of extended support2"
   -   release_table: https://www.djangoproject.com/download/#unsupported-versions
       selector: "table.django-unsupported-versions"
-      headers_selector: "tr:nth-of-type(1) th"
+      header_selector: "tr:nth-of-type(1)"
       rows_selector: "tr"
       fields:
         releaseCycle:

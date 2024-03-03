@@ -22,8 +22,6 @@ auto:
   -   pypi: apache-airflow
   -   release_table: https://github.com/apache/airflow#version-life-cycle
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle: "Version"
         support: "Limited Support"

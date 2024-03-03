@@ -19,8 +19,6 @@ auto:
   -   custom: amazon-neptune
   -   release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Version"

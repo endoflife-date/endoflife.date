@@ -17,8 +17,6 @@ auto:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
   -   release_table: https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Rocket.Chat Release"

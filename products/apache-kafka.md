@@ -18,8 +18,6 @@ auto:
   -   git: https://github.com/apache/kafka.git
   -   release_table: https://docs.confluent.io/platform/current/installation/versions-interoperability.html
       selector: "#cp-and-apache-ak-compatibility table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "apache kafkaâ®"

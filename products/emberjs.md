@@ -21,8 +21,6 @@ auto:
   -   npm: ember-source
   -   release_table: https://emberjs.com/releases/lts/
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle: "LTS version"
         lts: "Promotion date"
@@ -30,8 +28,6 @@ auto:
         eol: "Security patches until"
   -   release_table: https://emberjs.com/releases/lts/
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle: "LTS version"
         lts: "LTS promotion"

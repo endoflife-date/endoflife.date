@@ -24,8 +24,6 @@ auto:
   -   release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
       ignore_empty_releases: true # ignore future releases
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Version"

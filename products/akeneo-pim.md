@@ -15,8 +15,6 @@ auto:
   -   git: https://github.com/akeneo/pim-community-dev.git
   -   release_table: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
       selector: "table:nth-of-type(1)"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Version"

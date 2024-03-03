@@ -18,8 +18,6 @@ auto:
   -   git: https://github.com/craftcms/cms.git
   -   release_table: https://craftcms.com/knowledge-base/supported-versions
       selector: "table"
-      headers_selector: "thead th"
-      rows_selector: "tbody tr"
       fields:
         releaseCycle:
           column: "Major Version"

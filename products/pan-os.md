@@ -13,7 +13,7 @@ auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
       selector: "table#pan-os-panorama"
-      headers_selector: "tr:nth-of-type(3) td"
+      header_selector: "tr:nth-of-type(3)"
       rows_selector: "tr"
       fields:
         releaseCycle:
