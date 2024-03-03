@@ -18,6 +18,18 @@ releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 extendedSupportColumn: Extended Life Cycle Support
 
+auto:
+  methods:
+  -   release_table: https://www.ibm.com/support/pages/release-life-cycle
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: 'V?(?P<major>\d+)[.R](?P<minor>\d+).*'
+          template: "{{major}}.{{minor}}"
+        releaseDate: "GA date*"
+        eol: "End of Program Support*"
+        extendedSupport: "Program Support Extension Available*"
 
 releases:
 -   releaseCycle: "7.5"
