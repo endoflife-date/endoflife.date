@@ -12,8 +12,16 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/moodle/moodle.git
+  -   release_table: https://moodledev.io/general/releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        support: "General support ends"
+        eol: "Security support ends"
 
-# Support and EOL dates on https://moodledev.io/general/releases
+# supportedPhpVersions can be found in the release notes.
 releases:
 -   releaseCycle: "4.3"
     releaseDate: 2023-10-07
