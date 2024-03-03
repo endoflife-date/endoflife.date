@@ -27,6 +27,11 @@ auto:
   -   github_releases: "ibmruntimes/semeru21-binaries"
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: '{{version}}'
+  -   release_table: https://www.ibm.com/support/pages/node/6451203
+      selector: "table"
+      fields:
+        releaseCycle: "IBM Semeru Runtimes version"
+        eol: "EoA3"
 
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
