@@ -31,6 +31,14 @@ auto:
   methods:
   -   git: https://github.com/mongodb/mongo.git
       regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  -   release_table: https://www.mongodb.com/legal/support-policy/lifecycles
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^MongoDB (?P<value>\d+\.\d+).*$'
+        eol: "End of Life Date"
 
 # EOL dates can be found at https://www.mongodb.com/support-policy/lifecycles.
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
