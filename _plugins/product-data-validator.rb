@@ -55,6 +55,7 @@ module EndOfLifeHooks
     'https://moodle.org/': SUPPRESSED_BECAUSE_403,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://stackoverflow.com': SUPPRESSED_BECAUSE_403,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
     'https://support.herodevs.com/hc/en-us/articles/': SUPPRESSED_BECAUSE_403,
@@ -89,9 +90,11 @@ module EndOfLifeHooks
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com/download/internet-explorer': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/sql-server': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://www.raspberrypi.com': SUPPRESSED_BECAUSE_403,
     'https://www.reddit.com': SUPPRESSED_BECAUSE_403,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
