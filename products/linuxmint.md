@@ -12,6 +12,17 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 activeSupportColumn: true
 
+auto:
+  methods:
+  -   release_table: https://linuxmint.com/download_all.php
+      ignore_empty_releases: true
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        eol:
+          column: "Status"
+          regex: '^.*supported until (?P<value>\w+ \d+).*$'
+
 releases:
 -   releaseCycle: "21.3"
     codename: Virginia
