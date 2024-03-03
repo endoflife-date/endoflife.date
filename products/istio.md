@@ -5,13 +5,8 @@ iconSlug: istio
 permalink: /istio
 versionCommand: istioctl version
 releasePolicyLink: https://istio.io/latest/docs/releases/supported-releases/#support-policy
-changelogTemplate: 
-  https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
+changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
 releaseDateColumn: true
-
-auto:
-  methods:
-  -   git: https://github.com/istio/istio.git
 
 identifiers:
 -   repology: istio
@@ -28,28 +23,40 @@ identifiers:
 -   purl: pkg:docker/istio/operator
 -   purl: pkg:github/istio/istio
 
+auto:
+  methods:
+  -   git: https://github.com/istio/istio.git
+  -   release_table: https://istio.io/latest/docs/releases/supported-releases/
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        eol:
+          column: "End of Life"
+          regex: '^~?(?P<value>\w+ \d+(, \d+)?).*'
+        supportedKubernetesVersions:
+          column: "Supported Kubernetes Versions"
+          type: "range"
+
 # Effective and approximate EOL dates as well as Supported Kubernetes Versions can be found on
 # https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases.
-# Approximate EOL date are always set on the last day of the month (and updated when the exact date is known).
 releases:
-
 -   releaseCycle: "1.20"
     releaseDate: 2023-11-14
-    eol: 2024-07-31 # ~Jul 2024 (Expected)
+    eol: 2024-07-31
     supportedKubernetesVersions: 1.25 - 1.28
     latest: "1.20.3"
     latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "1.19"
     releaseDate: 2023-09-05
-    eol: 2024-03-31 # ~March 2024 (Expected)
+    eol: 2024-03-31
     supportedKubernetesVersions: 1.25 - 1.28
     latest: "1.19.7"
     latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "1.18"
     releaseDate: 2023-06-07
-    eol: 2023-12-31 # ~Dec 2023 (Expected)
+    eol: 2023-12-31
     supportedKubernetesVersions: 1.24 - 1.27
     latest: "1.18.7"
     latestReleaseDate: 2024-01-03
