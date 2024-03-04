@@ -57,70 +57,70 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2018-07-17
     support: 2018-10-11
-    eol: true
+    eol: 2018-10-11
     latest: "2.9.3"
     latestReleaseDate: 2019-07-30
 
 -   releaseCycle: "2.8"
     releaseDate: 2017-11-16
     support: 2018-07-17
-    eol: true
+    eol: 2018-07-17
     latest: "2.8.4"
     latestReleaseDate: 2018-04-25
 
 -   releaseCycle: "2.7"
     releaseDate: 2017-08-02
     support: 2017-11-16
-    eol: true
+    eol: 2017-11-16
     latest: "2.7.2"
     latestReleaseDate: 2017-11-09
 
 -   releaseCycle: "2.6"
     releaseDate: 2016-12-13
     support: 2017-08-02
-    eol: true
+    eol: 2017-08-02
     latest: "2.6.3"
     latestReleaseDate: 2017-03-29
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-08-22
     support: 2016-12-13
-    eol: true
+    eol: 2016-12-13
     latest: "2.5.4"
     latestReleaseDate: 2016-08-30
 
 -   releaseCycle: "2.4"
     releaseDate: 2015-11-16
     support: 2016-08-22
-    eol: true
+    eol: 2016-08-22
     latest: "2.4.10"
     latestReleaseDate: 2016-05-19
 
 -   releaseCycle: "2.3"
     releaseDate: 2015-03-09
     support: 2015-11-16
-    eol: true
+    eol: 2015-11-16
     latest: "2.3.11"
     latestReleaseDate: 2015-10-19
 
 -   releaseCycle: "2.2"
     releaseDate: 2014-11-17
     support: 2015-03-09
-    eol: true
+    eol: 2015-03-09
     latest: "2.2.4"
     latestReleaseDate: 2015-02-05
 
 -   releaseCycle: "2.1"
     releaseDate: 2014-08-29
     support: 2014-11-17
-    eol: true
+    eol: 2014-11-17
     latest: "2.1.1"
     latestReleaseDate: 2014-09-16
 
 -   releaseCycle: "2.0"
     releaseDate: 2014-06-16
     support: 2014-08-29
-    eol: true
+    eol: 2014-08-29
     latest: "2.0.2"
     latestReleaseDate: 2014-08-07
 
@@ -129,5 +129,5 @@ releases:
 > [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) is an open-source monitoring server, is designed to monitor various aspects  
 > of IT infrastructure, including networks, servers, virtual machines, and cloud services.
 
-Since 2.10, Icinga2 follows an N-1 support strategy  
+Icinga2 follows an N-1 support strategy  
 (meanings that the 2 most recent major versions receive security and bug fixes)  
