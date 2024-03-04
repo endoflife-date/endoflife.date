@@ -10,7 +10,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: nutanix
+  -   nutanix: FILES
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
