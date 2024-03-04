@@ -42,7 +42,7 @@ releases:
     supportedJavaVersions: "8 - 21"
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-27
-    eol: 2024-12-31
+    eol: 2024-08-31
     extendedSupport: 2026-12-31
     lts: true
     latest: "5.3.32"
