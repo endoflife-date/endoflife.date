@@ -10,9 +10,7 @@ alternate_urls:
 -   /jdk
 versionCommand: java -version
 releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
-changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{%
-  if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif
-  %}.html"
+changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
 eolColumn: Premier Support
 extendedSupportColumn: Extended Support
 releaseDateColumn: true
@@ -20,9 +18,35 @@ releaseDateColumn: true
 auto:
   methods:
   -   custom: oracle-jdk
+  -   release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+      selector: "table"
+      header_selector: "thead tr:nth-of-type(2)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)\s+\(LTS\).*' # ignore x.y releases as the Premier Support date is not displayed
+        releaseDate: "GA Date" # needed to exclude future releases
+        eol:
+          column: "Premier Support Until"
+          regex: '^(?P<value>\w+ \d+).*'
+        extendedSupport:
+          column: "Extended Support Until"
+          regex: '^(?P<value>\w+ \d+).*'
+  # Fix the release date, as only month-year dates are provided in the previous table.
+  -   release_table: https://www.java.com/releases/
+      render_javascript: true
+      selector: "table.releaselist"
+      header_selector: "tbody#released tr:nth-of-type(3)"
+      rows_selector: "tbody#released tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+)(\s+LTS)?$'
+        releaseDate: "Date"
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
-# EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html.
+# LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
+# for non-LTS, eol(x) = releaseDate(x+1).
 releases:
 -   releaseCycle: "21"
     lts: true
