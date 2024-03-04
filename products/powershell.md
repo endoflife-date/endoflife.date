@@ -8,8 +8,7 @@ alternate_urls:
 -   /ps
 -   /ps1
 versionCommand: pwsh -v
-releasePolicyLink: 
-  https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
+releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
@@ -20,8 +19,15 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/PowerShell/PowerShell.git
+  -   release_table: https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+        eol: "End-of-support"
 
-# EOL dates available on https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle#powershell-end-of-support-dates
 releases:
 -   releaseCycle: "7.4"
     lts: true
