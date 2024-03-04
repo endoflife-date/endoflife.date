@@ -4,8 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
-changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__'
-  %}/__LATEST__{% endif %}"
+changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -25,8 +24,8 @@ auto:
 releases:
 -   releaseCycle: "4.3"
     releaseDate: 2023-10-07
-    support: 2024-10-14
-    eol: 2025-04-14
+    support: 2024-10-07
+    eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
     latest: "4.3.3"
     latestReleaseDate: 2024-02-09
@@ -42,8 +41,8 @@ releases:
 -   releaseCycle: "4.1"
     lts: true
     releaseDate: 2022-11-26
-    support: 2023-11-13
-    eol: 2025-11-10
+    support: 2023-12-11
+    eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
     latest: "4.1.9"
     latestReleaseDate: 2024-02-09
