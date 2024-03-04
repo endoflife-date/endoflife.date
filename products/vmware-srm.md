@@ -97,7 +97,7 @@ releases:
     technicalGuidance: 2022-03-12
     latest: "6.0.0.1"
     latestReleaseDate: 2015-04-30
-    link: https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/6.0/rn/srm-releasenotes-6-0-0.html
+    link: https://web.archive.org/web/20210924031516/https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/6.0/rn/srm-releasenotes-6-0-0.html
 
 -   releaseCycle: "5.8"
     releaseDate: 2013-09-19
@@ -105,7 +105,7 @@ releases:
     technicalGuidance: 2020-09-19
     latest: "5.8.1.1"
     latestReleaseDate: 2016-07-26
-    link: https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/5.8/rn/srm-releasenotes-5-8-1.html
+    link: https://web.archive.org/web/20210925124006/https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/5.8/rn/srm-releasenotes-5-8-1.html
 
 -   releaseCycle: "5.5"
     releaseDate: 2013-09-19
@@ -113,7 +113,7 @@ releases:
     technicalGuidance: 2020-09-19
     latest: "5.5.1.7"
     latestReleaseDate: 2016-08-25
-    link: https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/5.5/rn/srm-releasenotes-5-5-1.html
+    link: https://web.archive.org/web/20210925064144/https://docs.vmware.com/en/vCenter-Site-Recovery-Manager/5.5/rn/srm-releasenotes-5-5-1.html
 
 ---
 
