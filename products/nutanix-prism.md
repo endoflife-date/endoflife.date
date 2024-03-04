@@ -15,7 +15,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: nutanix
+  -   nutanix: PC
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:

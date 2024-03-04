@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   custom: nutanix
+  -   nutanix: NOS
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
