@@ -151,7 +151,7 @@ releases:
 
 -   releaseCycle: "3.2"
     releaseDate: 2015-12-04
-    eol: 2018-07-31
+    eol: 2018-09-30
     latest: "3.2.22"
     latestReleaseDate: 2018-12-26
 
