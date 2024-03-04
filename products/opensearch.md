@@ -5,26 +5,33 @@ tags: amazon java-runtime
 iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
+changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
 releaseDateColumn: true
 activeSupportColumn: Active Development
 eolColumn: Maintenance Support
-changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
+
 auto:
   methods:
   -   git: https://github.com/opensearch-project/OpenSearch.git
+  -   release_table: https://opensearch.org/releases.html
+      selector: "table"
+      fields:
+        releaseCycle: "Major Version"
+        releaseDate: "Initial Release"
+        support: "Maintenance Window Start"
+        eol: "Maintenance Window End"
 
-# releaseDate/support/eol see https://opensearch.org/releases.html#maintenance-policy
 releases:
 -   releaseCycle: "2"
     releaseDate: 2022-05-18
-    support: true # upcoming releaseDate(3)
-    eol: false # upcoming support(3) at least 1 year
+    support: true
+    eol: false
     latest: "2.12.0"
     latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-02
-    support: 2022-05-26 # releaseDate(2)
+    support: 2022-05-26
     eol: false # upcoming support(2) at least 1 year
     latest: "1.3.14"
     latestReleaseDate: 2023-12-08
