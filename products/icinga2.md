@@ -12,6 +12,10 @@ releaseDateColumn: true
 auto:
 -   git: https://github.com/Icinga/icinga2
 
+
+identifiers:
+-   repology: icinga2
+-   purl: pkg:docker/icinga/icinga2
 # eol(x) = releaseDate(x+2)
 # support(x) = releaseDate(x+1)
 releases:
