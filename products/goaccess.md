@@ -13,6 +13,10 @@ auto:
     # https://regex101.com/r/USe3sj/1
     regex: ^v(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
+
+identifiers:
+-   repology: goaccess
+-   purl: pkg:docker/allinurl/goaccess
 # eol(x) = releaseDate(x+1)
 releases:
 
