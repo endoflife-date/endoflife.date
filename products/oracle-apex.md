@@ -11,6 +11,14 @@ releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/coll
 releaseColumn: false
 releaseDateColumn: true
 
+auto:
+  methods:
+  -   release_table: https://www.oracle.com/database/technologies/appdev/apex/collateral/
+      selector: "table"
+      fields:
+        releaseCycle: "Release"
+        eol: "Support Ends"
+
 # Release dates come from the release announcements on https://blogs.oracle.com/apex/.
 # EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 # or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
@@ -92,7 +100,7 @@ releases:
 
 ---
 
-> Oracle Application Express (also known as APEX) is an enterprise low-code application 
+> Oracle Application Express (also known as APEX) is an enterprise low-code application
 > development platform from Oracle Corporation. APEX is used for developing and deploying cloud,
 >mobile and desktop applications. The platform is a web - based integrated development
 > environment (IDE) with a range of features including wizards, drag-and-drop layout and property
@@ -100,10 +108,10 @@ releases:
 
 Oracle APEX is a no-cost option for Oracle Database and has two major releases each year covered under
 the Oracle Database maintenance agreement. Each release receives 1.5 years of support. Instead
-of individual patch releases, Oracle provides cumulative 
+of individual patch releases, Oracle provides cumulative
 [Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/), which require a "My
 Oracle Support" account for download. The latest patches can be re-applied to the current
-installation, and announcements for new patches are made on 
+installation, and announcements for new patches are made on
 [APEX's X account](https://twitter.com/OracleAPEX). For details on bug fixes for the current
 release, visit the [Known Issues](http://apex.oracle.com/known-issues) page.
 
