@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "7.4"
     lts: true
     releaseDate: 2023-11-16
-    eol: 2025-05-15
+    eol: 2026-11-10
     latest: "7.4.1"
     latestReleaseDate: 2024-01-11
 
@@ -45,13 +45,13 @@ releases:
 -   releaseCycle: "7.2"
     lts: true
     releaseDate: 2021-11-05
-    eol: 2024-11-30
+    eol: 2024-11-08
     latest: "7.2.18"
     latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "7.1"
     releaseDate: 2020-11-11
-    eol: 2022-05-31
+    eol: 2022-05-08
     latest: "7.1.7"
     latestReleaseDate: 2022-04-26
 
