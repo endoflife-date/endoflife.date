@@ -281,7 +281,6 @@ releases:
     link: https://support.apple.com/kb/SP727
     supportedIosVersions: 9 - 15
 
-# iOS 12.5.7 was released on 23rd Jan 2023 (but it has been a year since update to iOS 12 so it is EOL.)
 -   releaseCycle: "6"
     releaseLabel: "6"
     releaseDate: 2014-09-25
