@@ -7,18 +7,20 @@ permalink: /icinga-web
 alternate_urls:
 - /icingaweb
 versionCommand: icingacli version
-releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
-changelogTemplate: "https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/"
+releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
+changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
 activeSupportColumn: true
 releaseDateColumn: true
-
-auto:
--   git: https://github.com/Icinga/icingaweb2
 
 identifiers:
 -   repology: icingaweb2
 -   purl: pkg:docker/icinga/icingaweb2
 -   purl: pkg:github/Icinga/icingaweb2
+
+auto:
+  methods:
+  -   git: https://github.com/Icinga/icingaweb2
+
 # eol(x) = releaseDate(x+2)
 # support(x) = releaseDate(x+1)
 releases:
@@ -119,11 +121,12 @@ releases:
     eol: 2018-12-31
     latest: "1.14.1"
     latestReleaseDate: 2017-12-19
+
 ---
 
-> [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface for the Icinga2 monitoring system.
+> [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface
+> for the Icinga2 monitoring system.
 
-The 2 most recent releases receive security and bug fixes. 
-The N-3 release may receive critical security patches
-[in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md)
+The 2 most recent releases receive security and bug fixes. The N-3 release may receive critical
+security patches [in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md)
 but this is not guaranteed.
