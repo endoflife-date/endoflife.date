@@ -124,9 +124,3 @@ Scala’s primary platform is the Java Virtual Machine (JVM).
 | 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
 
 * = forthcoming; support available in nightly builds
-
-Even when a version combination isn’t listed as supported, most features might still work.
-
-Using latest patch version of Scala is always recommended.
-
-Lightbend offers commercial support for Scala 2. The linked page includes contact information for inquiring about supported and recommended versions.
