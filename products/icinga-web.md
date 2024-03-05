@@ -18,6 +18,7 @@ auto:
 identifiers:
 -   repology: icingaweb2
 -   purl: pkg:docker/icinga/icingaweb2
+-   purl: pkg:github/Icinga/icingaweb2
 # eol(x) = releaseDate(x+2)
 # support(x) = releaseDate(x+1)
 releases:
