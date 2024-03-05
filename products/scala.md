@@ -101,9 +101,8 @@ A few older `2.x` releases are also maintained with bug fixes and security suppo
 are named _maintenance releases_ and are maintained for a long time (because migration between two
 `2.x` releases is difficult).
 
-## Scala 3 future release policy
+## Scala 3 release policy
 
-[The release policy of Scala 3 is about to change](https://www.scala-lang.org/blog/2022/08/17/long-term-compatibility-plans.html "Long-term compatibility plans for Scala 3").
 Starting with Scala 3.3, development will be split into two lines called _Scala Next_ (for newest
 and experimental features) and _Scala LTS_ (only bug fixes, non-language changes and minor
 quality-of-life enhancements). LTS releases will be released every two years and each LTS
