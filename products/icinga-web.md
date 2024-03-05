@@ -120,7 +120,7 @@ releases:
     latestReleaseDate: 2017-12-19
 ---
 
-> [Icinga Web](https://icinga.com/docs/icinga-web/latest/doc/01-About/) is a web-based graphical user interface for the Icinga2 monitoring system.
+> [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface for the Icinga2 monitoring system.
 
 The 2 most recent releases receive security and bug fixes. 
 The N-3 release may receive critical security patches
