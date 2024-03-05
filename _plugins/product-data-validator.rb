@@ -116,7 +116,7 @@ module EndOfLifeHooks
     start = Time.now
     Jekyll.logger.debug TOPIC, "Validating '#{product.name}'..."
 
-    error_if = Validator.new(product, product.data)
+    error_if = Validator.new('product', product, product.data)
     error_if.is_not_a_string('title')
     error_if.is_not_in('category', EndOfLifeHooks::VALID_CATEGORIES)
     error_if.does_not_match('tags', /^[a-z0-9\-]+( [a-z0-9\-]+)*$/) if product.data.has_key?('tags')
@@ -142,12 +142,12 @@ module EndOfLifeHooks
     error_if.is_not_an_array('releases')
 
     if product.data.has_key?('auto')
-      error_if = Validator.new(product, product.data['auto'])
+      error_if = Validator.new('auto', product, product.data['auto'])
       error_if.is_not_an_array('methods')
     end
 
     product.data['customColumns'].each { |column|
-      error_if = Validator.new(product, column)
+      error_if = Validator.new('customColumns', product, column)
       error_if.is_not_a_string('property')
       error_if.is_not_in('position', EndOfLifeHooks::VALID_CUSTOM_COLUMN_POSITIONS)
       error_if.is_not_a_string('label')
@@ -156,7 +156,7 @@ module EndOfLifeHooks
     }
 
     product.data['releases'].each { |release|
-      error_if = Validator.new(product, release)
+      error_if = Validator.new('releases', product, release)
       error_if.is_not_a_string('releaseCycle')
       error_if.is_not_a_string('releaseLabel') if release.has_key?('releaseLabel')
       error_if.is_not_a_string('codename') if release.has_key?('codename')
@@ -187,19 +187,19 @@ module EndOfLifeHooks
       start = Time.now
       Jekyll.logger.info TOPIC, "Validating urls for '#{product.name}'..."
 
-      error_if = Validator.new(product, product.data)
+      error_if = Validator.new('product', product, product.data)
       error_if.is_url_invalid('releasePolicyLink') if product.data['releasePolicyLink']
       error_if.is_url_invalid('releaseImage') if product.data['releaseImage']
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
 
       product.data['customColumns'].each { |column|
-        error_if = Validator.new(product, column)
+        error_if = Validator.new('customColumns', product, column)
         error_if.is_url_invalid('link') if column['link']
       }
 
       product.data['releases'].each { |release|
-        error_if = Validator.new(product, release)
+        error_if = Validator.new('releases', product, release)
         error_if.is_url_invalid('link') if release['link']
       }
 
@@ -210,10 +210,15 @@ module EndOfLifeHooks
   private
 
   class Validator
-    def initialize(product, data)
+    def initialize(name, product, data)
       @product = product
       @data = data
       @error_count = 0
+
+      unless data.kind_of?(Hash)
+        declare_error(name, data, "expecting an Hash, got #{data.class}")
+        @data = {} # prevent further errors
+      end
     end
 
     def error_count
@@ -223,7 +228,7 @@ module EndOfLifeHooks
     def is_not_an_array(property)
       value = @data[property]
       unless value.kind_of?(Array)
-        declare_error(property, value, "expecting and Array, got #{value.class}")
+        declare_error(property, value, "expecting an Array, got #{value.class}")
       end
     end
 
@@ -367,9 +372,9 @@ module EndOfLifeHooks
     end
 
     def location
-      if @data.has_key?('releaseCycle')
+      if @data.kind_of?(Hash) and @data.has_key?('releaseCycle')
         "#{@product.name}#releases##{@data['releaseCycle']}"
-      elsif @data.has_key?('property')
+      elsif @data.kind_of?(Hash) and @data.has_key?('property')
         "#{@product.name}#customColumn##{@data['property']}"
       else
         @product.name
