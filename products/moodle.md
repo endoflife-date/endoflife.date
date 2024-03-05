@@ -17,6 +17,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Initial release date"
         support: "General support ends"
         eol: "Security support ends"
 
