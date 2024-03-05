@@ -26,61 +26,61 @@ releases:
 -   releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2025-05-01
+    eol: 2025-05-31
     link: https://apex.oracle.com/en/platform/features/whats-new-232/
 
 -   releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
     releaseDate: 2023-05-17
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-231/
 
 -   releaseCycle: "22.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-222
     releaseDate: 2022-11-10
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-222/
 
 -   releaseCycle: "22.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-221
     releaseDate: 2022-05-03
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-221/
 
 -   releaseCycle: "21.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-212
     releaseDate: 2021-11-04
-    eol: 2024-11-01
+    eol: 2024-11-30
     link: https://apex.oracle.com/en/platform/features/whats-new-212/
 
 -   releaseCycle: "21.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-211
     releaseDate: 2021-05-12
-    eol: 2024-05-01
+    eol: 2024-05-31
     link: https://apex.oracle.com/en/platform/features/whats-new-211/
 
 -   releaseCycle: "20.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-202
     releaseDate: 2020-10-21
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-202/
 
 -   releaseCycle: "20.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-201
     releaseDate: 2020-04-23
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-201/
 
 -   releaseCycle: "19.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-192
     releaseDate: 2019-11-01
-    eol: 2024-11-01
+    eol: 2024-11-30
     link: https://apex.oracle.com/en/platform/features/whats-new-192/
 
 -   releaseCycle: "19.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-191
     releaseDate: 2019-03-29
-    eol: 2024-03-01
+    eol: 2024-03-31
     link: https://apex.oracle.com/en/platform/features/whats-new-191/
 
 -   releaseCycle: "18.2"
