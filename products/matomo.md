@@ -12,16 +12,15 @@ changelogTemplate: "https://github.com/matomo-org/matomo/releases/tag/__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
+auto:
+  methods:
+  -   git: https://github.com/matomo-org/matomo
+
 identifiers:
 -   repology: matomo
 -   purl: pkg:docker/library/matomo
 -   purl: pkg:docker/bitnami/matomo
 -   purl: pkg:github/matomo-org/matomo
-
-auto:
-  methods:
-  -   git: https://github.com/matomo-org/matomo
-
 # eol(x) = releaseDate(x+2) = comfirm on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
 # support(x) = releaseDate(x+1)
 releases:
