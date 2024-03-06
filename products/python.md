@@ -118,24 +118,25 @@ identifiers:
 -   repology: python
 
 auto:
--   git: https://github.com/python/cpython.git
-    # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
-    regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/python/cpython.git
+      # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
 
 releases:
 -   releaseCycle: "3.12"
     releaseDate: 2023-10-02
     support: 2025-04-02
     eol: 2028-10-02
-    latest: "3.12.1"
-    latestReleaseDate: 2023-12-07
+    latest: "3.12.2"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
     support: 2024-04-01
     eol: 2027-10-24
-    latest: "3.11.7"
-    latestReleaseDate: 2023-12-04
+    latest: "3.11.8"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "3.10"
     releaseDate: 2021-10-04

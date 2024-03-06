@@ -9,19 +9,20 @@ releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Main
 releaseDateColumn: true
 
 auto:
--   github_releases: "SAP/SapMachine"
-    regex: '^sapmachine-(?P<version>[\d\.]+)$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "SAP/SapMachine"
+      regex: '^sapmachine-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
 
-# LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
+# LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
 # non-LTS : EOL(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-18
-    eol: false
-    latest: '21.0.1'
-    latestReleaseDate: 2023-10-17
+    eol: 2028-09-01
+    latest: '21.0.2'
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-17
@@ -44,9 +45,9 @@ releases:
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
-    eol: 2026-09-30
-    latest: '17.0.9'
-    latestReleaseDate: 2023-10-17
+    eol: 2026-09-01
+    latest: '17.0.10'
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-15
@@ -81,9 +82,9 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-16
-    eol: 2024-12-31
-    latest: '11.0.21'
-    latestReleaseDate: 2023-10-17
+    eol: 2024-12-01
+    latest: '11.0.22'
+    latestReleaseDate: 2024-01-16
 
 ---
 

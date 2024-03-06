@@ -9,6 +9,18 @@ releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: End-of-life Date
 
+auto:
+  methods:
+  -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
+      selector: "table#globalprotect"
+      header_selector: "tr:nth-of-type(3)"
+      rows_selector: "tr"
+      fields:
+        releaseCycle: "GlobalProtect App version"
+        releaseDate: "Release Date"
+        support: "End-of-Engineering Date"
+        eol: "End-of-Life Date"
+
 releases:
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-23
@@ -20,16 +32,16 @@ releases:
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-09-01
-    eol: 2024-09-01
+    eol: 2025-03-01
     support: 2024-09-01
-    latest: "6.1.3"
-    latestReleaseDate: 2023-11-21
+    latest: "6.1.4"
+    latestReleaseDate: 2024-01-29
     link: https://docs.paloaltonetworks.com/globalprotect/6-1/globalprotect-app-release-notes//globalprotect-addressed-issues
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-02-22
-    eol: 2024-02-22
-    support: 2024-02-22
+    eol: 2025-02-22
+    support: 2025-02-22
     latest: "6.0.8"
     latestReleaseDate: 2023-10-18
     link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes
@@ -52,10 +64,10 @@ releases:
 
 -   releaseCycle: "5.1"
     releaseDate: 2019-12-12
-    eol: 2023-06-30
+    eol: 2024-12-31
     support: 2021-03-12
-    latest: "5.1.11"
-    latestReleaseDate: 2022-05-12
+    latest: "5.1.12"
+    latestReleaseDate: 2024-02-12
     link: https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-release-notes
 
 -   releaseCycle: "5.0"

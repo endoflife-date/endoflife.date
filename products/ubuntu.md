@@ -6,8 +6,7 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage: 
-  https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
+releaseImage: https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
@@ -19,10 +18,10 @@ extendedSupportColumn: Extended Security Maintenance
 # We return v1 and v2 separated by newline in case 2 releases were marked
 # under the same headline
 auto:
--   distrowatch: ubuntu
-    regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|,
-      Kubuntu.*)?$'
-    template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
+  methods:
+  -   distrowatch: ubuntu
+      regex: '^Distribution Releases?: Ubuntu( Linux)? (?P<v1>\d+\.\d+\.?\d+)(, (?P<v2>\d+\.\d+\.?\d+))?(LTS|, Kubuntu.*)?$'
+      template: "{{v1}}{%if v2%}\n{{v2}}{%endif%}"
 
 identifiers:
 -   cpe: cpe:2.3:o:canonical:ubuntu_linux
@@ -64,8 +63,8 @@ releases:
     support: 2024-09-30
     eol: 2027-04-01
     extendedSupport: 2032-04-09
-    latest: "22.04.3"
-    latestReleaseDate: 2023-08-10
+    latest: "22.04.4"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
@@ -229,8 +228,8 @@ releases:
 -   releaseCycle: "11.04"
     codename: "Natty Narwhal"
     lts: false
-    support: 2012-10-28
     releaseDate: 2011-04-28
+    support: 2012-10-28
     eol: 2012-10-28
     extendedSupport: false
     latest: "11.04"
@@ -239,8 +238,8 @@ releases:
 -   releaseCycle: "10.10"
     codename: "Maverick Meerkat"
     lts: false
-    support: 2012-04-10
     releaseDate: 2010-10-10
+    support: 2012-04-10
     eol: 2012-04-10
     extendedSupport: false
     latest: "10.10"
@@ -248,9 +247,9 @@ releases:
 
 -   releaseCycle: "10.04"
     codename: "Lucid Lynx"
-    support: 2013-05-09
     lts: true
     releaseDate: 2010-04-29
+    support: 2013-05-09
     eol: 2013-05-09
     extendedSupport: false
     latest: "10.04.4"
@@ -258,9 +257,9 @@ releases:
 
 -   releaseCycle: "9.10"
     codename: "Karmic Koala"
-    support: 2011-04-30
     lts: false
     releaseDate: 2009-10-29
+    support: 2011-04-30
     eol: 2011-04-30
     extendedSupport: false
     latest: "9.10"
@@ -268,9 +267,9 @@ releases:
 
 -   releaseCycle: "9.04"
     codename: "Jaunty Jackalope"
-    support: 2010-10-23
     lts: false
     releaseDate: 2009-04-23
+    support: 2010-10-23
     eol: 2010-10-23
     extendedSupport: false
     latest: "9.04"
@@ -278,19 +277,19 @@ releases:
 
 -   releaseCycle: "8.04"
     codename: "Hardy Heron"
-    support: 2013-05-09
     lts: true
     releaseDate: 2008-04-24
+    support: 2013-05-09
     eol: 2013-05-09
-    extendedSupport: 2011-05-12
+    extendedSupport: false
     latest: "8.04.4"
     latestReleaseDate: 2010-01-29
 
 -   releaseCycle: "7.10"
     codename: "Gutsy Gibbon"
-    support: 2009-04-18
     lts: false
     releaseDate: 2007-10-18
+    support: 2009-04-18
     eol: 2009-04-18
     extendedSupport: false
     latest: "7.10"
@@ -298,9 +297,9 @@ releases:
 
 -   releaseCycle: "7.04"
     codename: "Feisty Fawn"
-    support: 2008-10-19
     lts: false
     releaseDate: 2007-04-19
+    support: 2008-10-19
     eol: 2008-10-19
     extendedSupport: false
     latest: "7.04"
@@ -308,9 +307,9 @@ releases:
 
 -   releaseCycle: "6.10"
     codename: "Edgy Eft"
-    support: 2006-10-26
     lts: false
     releaseDate: 2006-10-26
+    support: 2006-10-26
     eol: 2008-04-26
     extendedSupport: false
     latest: "6.10"
@@ -318,19 +317,19 @@ releases:
 
 -   releaseCycle: "6.06"
     codename: "Dapper Drake"
-    support: 2011-06-01
     lts: true
+    support: 2011-06-01
     releaseDate: 2006-08-10
     eol: 2011-06-01
-    extendedSupport: 2009-07-14
+    extendedSupport: false
     latest: "6.06.2"
     latestReleaseDate: 2008-01-22
 
 -   releaseCycle: "5.10"
     codename: "Breezy Badger"
-    support: 2007-04-13
     lts: false
     releaseDate: 2005-10-13
+    support: 2007-04-13
     eol: 2007-04-13
     extendedSupport: false
     latest: "5.10"
@@ -338,9 +337,9 @@ releases:
 
 -   releaseCycle: "5.04"
     codename: "Hoary Hedgehog"
-    support: 2006-10-31
     lts: false
     releaseDate: 2005-04-08
+    support: 2006-10-31
     eol: 2006-10-31
     extendedSupport: false
     latest: "5.04"
@@ -348,9 +347,9 @@ releases:
 
 -   releaseCycle: "4.10"
     codename: "Warty Warthog"
-    support: 2004-10-26
     lts: false
     releaseDate: 2004-10-20
+    support: 2004-10-26
     eol: 2006-04-30
     extendedSupport: false
     latest: "4.10"

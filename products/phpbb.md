@@ -7,8 +7,9 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/phpbb/phpbb.git
-    regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/phpbb/phpbb.git
+      regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 releases:
 -   releaseCycle: "3.3"

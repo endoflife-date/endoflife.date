@@ -11,6 +11,14 @@ releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/coll
 releaseColumn: false
 releaseDateColumn: true
 
+auto:
+  methods:
+  -   release_table: https://www.oracle.com/database/technologies/appdev/apex/collateral/
+      selector: "table"
+      fields:
+        releaseCycle: "Release"
+        eol: "Support Ends"
+
 # Release dates come from the release announcements on https://blogs.oracle.com/apex/.
 # EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 # or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
@@ -18,61 +26,61 @@ releases:
 -   releaseCycle: "23.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-232
     releaseDate: 2023-11-14
-    eol: 2025-05-01
+    eol: 2025-05-31
     link: https://apex.oracle.com/en/platform/features/whats-new-232/
 
 -   releaseCycle: "23.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-231
     releaseDate: 2023-05-17
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-231/
 
 -   releaseCycle: "22.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-222
     releaseDate: 2022-11-10
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-222/
 
 -   releaseCycle: "22.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-221
     releaseDate: 2022-05-03
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-221/
 
 -   releaseCycle: "21.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-212
     releaseDate: 2021-11-04
-    eol: 2024-11-01
+    eol: 2024-11-30
     link: https://apex.oracle.com/en/platform/features/whats-new-212/
 
 -   releaseCycle: "21.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-211
     releaseDate: 2021-05-12
-    eol: 2024-05-01
+    eol: 2024-05-31
     link: https://apex.oracle.com/en/platform/features/whats-new-211/
 
 -   releaseCycle: "20.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-202
     releaseDate: 2020-10-21
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-202/
 
 -   releaseCycle: "20.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-201
     releaseDate: 2020-04-23
-    eol: 2024-12-01
+    eol: 2024-12-31
     link: https://apex.oracle.com/en/platform/features/whats-new-201/
 
 -   releaseCycle: "19.2"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-192
     releaseDate: 2019-11-01
-    eol: 2024-11-01
+    eol: 2024-11-30
     link: https://apex.oracle.com/en/platform/features/whats-new-192/
 
 -   releaseCycle: "19.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-191
     releaseDate: 2019-03-29
-    eol: 2024-03-01
+    eol: 2024-03-31
     link: https://apex.oracle.com/en/platform/features/whats-new-191/
 
 -   releaseCycle: "18.2"
@@ -92,7 +100,7 @@ releases:
 
 ---
 
-> Oracle Application Express (also known as APEX) is an enterprise low-code application 
+> Oracle Application Express (also known as APEX) is an enterprise low-code application
 > development platform from Oracle Corporation. APEX is used for developing and deploying cloud,
 >mobile and desktop applications. The platform is a web - based integrated development
 > environment (IDE) with a range of features including wizards, drag-and-drop layout and property
@@ -100,10 +108,10 @@ releases:
 
 Oracle APEX is a no-cost option for Oracle Database and has two major releases each year covered under
 the Oracle Database maintenance agreement. Each release receives 1.5 years of support. Instead
-of individual patch releases, Oracle provides cumulative 
+of individual patch releases, Oracle provides cumulative
 [Patch Set Bundles](https://www.oracle.com/tools/downloads/apex-downloads/), which require a "My
 Oracle Support" account for download. The latest patches can be re-applied to the current
-installation, and announcements for new patches are made on 
+installation, and announcements for new patches are made on
 [APEX's X account](https://twitter.com/OracleAPEX). For details on bug fixes for the current
 release, visit the [Known Issues](http://apex.oracle.com/known-issues) page.
 

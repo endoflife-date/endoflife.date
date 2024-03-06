@@ -9,32 +9,38 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   apple: ios
+      # If you are changing these, please use this as your corpus to validate your changes:
+      # https://gist.githubusercontent.com/captn3m0/e7cb1f4fc3c07a5da0296ebda2b33e15/raw/5747e42ad611ec9ffdb7a2d1c0e3946bb87ab6d7/apple.txt
+      regex:
+      -   'iOS\s+(?P<version>\d+)'
+      -   'iOS\s+(?P<version>\d+(?:\.\d+)+)'
+      -   'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     support: true
     eol: false
-    latest: "17.2.1"
-    latestReleaseDate: 2023-12-19
-    link: 
-      https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
+    latest: "17.4"
+    latestReleaseDate: 2024-03-05
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     support: 2023-09-18
     eol: false
-    latest: "16.7.4"
-    latestReleaseDate: 2023-12-19
+    latest: "16.7.6"
+    latestReleaseDate: 2024-03-05
     link: https://support.apple.com/HT213407
 
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     support: 2022-09-12
     eol: false
-    latest: "15.8"
-    latestReleaseDate: 2023-10-25
+    latest: "15.8.2"
+    latestReleaseDate: 2024-03-05
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"
@@ -53,11 +59,10 @@ releases:
     latestReleaseDate: 2020-09-01
     link: https://support.apple.com/HT210393
 
-# iOS 12 is still getting updates
 -   releaseCycle: "12"
     releaseDate: 2018-09-17
     support: 2019-09-19
-    eol: false
+    eol: 2023-01-23
     latest: "12.5.7"
     latestReleaseDate: 2023-01-23
     link: https://support.apple.com/HT209084
@@ -128,7 +133,5 @@ Major versions of iOS are released annually. Apple significantly extended the cy
 iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple.
 Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/),
 for a short period of time.
-
-iOS 12 is [still receiving security updates](https://support.apple.com/103015).
 
 Support information for iPhone devices are available at [/iphone](/iphone).

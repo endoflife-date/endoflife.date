@@ -7,7 +7,8 @@ alternate_urls:
 -   /antixlinux
 -   /antix-linux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
+releasePolicyLink: 
+  https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 activeSupportColumn: true
 releaseDateColumn: true
@@ -16,8 +17,9 @@ identifiers:
 -   purl: pkg:os/antix
 
 auto:
--   distrowatch: antix
-    regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
+  methods:
+  -   distrowatch: antix
+      regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
 
 # support(x) = Corresponding Debian support(x)
 # EOL(x) = Corresponding Debian EOL(x)

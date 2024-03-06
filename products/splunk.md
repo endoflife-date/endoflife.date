@@ -9,21 +9,28 @@ changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/Relea
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: splunk
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
+-   releaseCycle: "9.2"
+    releaseDate: 2024-01-31
+    eol: 2026-01-31
+    latest: "9.2.0.1"
+    latestReleaseDate: 2024-02-08
+
 -   releaseCycle: "9.1"
     releaseDate: 2023-06-28
     eol: 2025-06-28
-    latest: "9.1.2"
-    latestReleaseDate: 2023-11-16
+    latest: "9.1.3"
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "9.0"
     releaseDate: 2022-06-14
     eol: 2024-06-14
-    latest: "9.0.7"
-    latestReleaseDate: 2023-11-16
+    latest: "9.0.8"
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "8.2"
     releaseDate: 2021-05-12

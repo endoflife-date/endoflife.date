@@ -13,8 +13,9 @@ identifiers:
 -   purl: pkg:docker/library/varnish
 
 auto:
--   git: https://github.com/varnishcache/varnish-cache.git
-    regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/varnishcache/varnish-cache.git
+      regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # EOL dates can be found on https://varnish-cache.org/releases/
 releases:

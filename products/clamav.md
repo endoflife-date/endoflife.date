@@ -8,20 +8,27 @@ changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Cisco-Talos/clamav.git
-    regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/Cisco-Talos/clamav.git
+      regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
+-   releaseCycle: "1.3"
+    releaseDate: 2024-02-07
+    eol: false # releaseDate(1.5) + 4 months
+    latest: "1.3.0"
+    latestReleaseDate: 2024-02-07
+
 -   releaseCycle: "1.2"
     releaseDate: 2023-08-27
     eol: false # releaseDate(1.4) + 4 months
-    latest: "1.2.1"
-    latestReleaseDate: 2023-10-25
+    latest: "1.2.2"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "1.1"
     releaseDate: 2023-05-01
-    eol: false # releaseDate(1.3) + 4 months
+    eol: 2024-06-07
     latest: "1.1.3"
     latestReleaseDate: 2023-10-25
 
@@ -29,8 +36,8 @@ releases:
     releaseDate: 2022-11-28
     eol: 2025-11-28
     lts: true
-    latest: "1.0.4"
-    latestReleaseDate: 2023-10-25
+    latest: "1.0.5"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04

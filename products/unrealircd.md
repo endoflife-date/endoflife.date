@@ -11,11 +11,9 @@ identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
 
-# Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/unrealircd.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/unrealircd.py
 auto:
--   custom: true
+  methods:
+  -   custom: unrealircd
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order

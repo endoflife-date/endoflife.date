@@ -11,9 +11,10 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
-# upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
--   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
+  methods:
+  # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
+  -   git: https://github.com/FFmpeg/FFmpeg.git
+      regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
@@ -241,7 +242,6 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
-
 
 ---
 
