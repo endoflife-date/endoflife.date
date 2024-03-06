@@ -11,9 +11,10 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/wireshark/wireshark
-    # https://regex101.com/r/fHvpY1/1
-    regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
+  methods:
+  -   git: https://github.com/wireshark/wireshark
+      # https://regex101.com/r/fHvpY1/1
+      regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 identifiers:
 -   repology: wireshark
