@@ -15,21 +15,31 @@ releaseDateColumn: true
 eolColumn: Extended Support
 
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
+# Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
+-   releaseCycle: "4.6"
+    lts: true
+    releaseDate: 2024-02-06
+    support: 2025-02-06
+    eol: 2026-02-06
+    latest: "4.6.0"
+    latestReleaseDate: 2024-02-06
+    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.6.0-release-notes
+
 -   releaseCycle: "4.5"
     releaseDate: 2023-10-03
-    support: 2024-02-03
-    eol: 2024-06-03
-    latest: "4.5.2"
-    latestReleaseDate: 2023-11-15 # guessing
+    support: 2024-02-06
+    eol: 2024-06-04
+    latest: "4.5.3"
+    latestReleaseDate: 2024-01-15 # guessing
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.5.0-release-notes
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-09-07
-    support: 2024-02-07
-    eol: 2025-02-07
-    latest: "4.4.0-20231110"
-    latestReleaseDate: 2023-11-10
+    support: 2024-10-08
+    eol: 2025-10-08
+    latest: "4.4.0-20240215"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "4.3"
     releaseDate: 2020-04-30
