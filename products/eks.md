@@ -14,55 +14,65 @@ releaseDateColumn: true
 eolColumn: End of Support
 extendedSupportColumn: true
 
-# Source: https://github.com/awsdocs/amazon-eks-user-guide/commits/master/doc_source/platform-versions.md as source
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/eks.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/eks.py
 auto:
--   custom: true
+  methods:
+  -   custom: eks
+  -   release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
+      selector: "table"
+      fields:
+        releaseCycle: "Kubernetes version"
+        eol: "End of standard support"
+        extendedSupport: "End of extended support"
 
-# EOL dates can be found on https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#kubernetes-release-calendar
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-23
+    eol: 2025-03-23
+    extendedSupport: 2026-03-23
+    latest: '1.29-eks-1'
+    latestReleaseDate: 2024-01-23
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-26
-    eol: 2024-11-01
-    extendedSupport: 2025-11-01
-    latest: '1.28-eks-6'
-    latestReleaseDate: 2023-12-14
+    eol: 2024-11-26
+    extendedSupport: 2025-11-26
+    latest: '1.28-eks-7'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-05-24
-    eol: 2024-07-01
-    extendedSupport: 2025-07-01
-    latest: '1.27-eks-10'
-    latestReleaseDate: 2023-12-14
+    eol: 2024-07-24
+    extendedSupport: 2025-07-24
+    latest: '1.27-eks-11'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
-    eol: 2024-06-01
-    extendedSupport: 2025-06-01
-    latest: '1.26-eks-11'
-    latestReleaseDate: 2023-12-14
+    eol: 2024-06-11
+    extendedSupport: 2025-06-11
+    latest: '1.26-eks-12'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
     extendedSupport: 2025-05-01
-    latest: '1.25-eks-12'
-    latestReleaseDate: 2023-12-14
+    latest: '1.25-eks-13'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-11-15
     eol: 2024-01-31
-    extendedSupport: 2025-01-01
-    latest: '1.24-eks-15'
-    latestReleaseDate: 2023-12-14
+    extendedSupport: 2025-01-31
+    latest: '1.24-eks-16'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-08-11
     eol: 2023-10-11
-    extendedSupport: 2024-10-01
-    latest: '1.23-eks-17'
-    latestReleaseDate: 2023-12-14
+    extendedSupport: 2024-10-11
+    latest: '1.23-eks-18'
+    latestReleaseDate: 2024-01-17
 
 -   releaseCycle: "1.22"
     releaseDate: 2022-04-04

@@ -12,26 +12,26 @@ releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
 auto:
--   git: https://github.com/gradle/gradle.git
-    # Regex to exclude versions below 3.x for tags with wrong dates (https://github.com/endoflife-date/endoflife.date/pull/3619).
-    # See https://regex101.com/r/UutXqX/1.
-    regex: ^v?(?P<major>([3-9]|\d{2,}))\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/gradle/gradle.git
+    # Exclude versions below 3.x because dates are wrong (https://github.com/endoflife-date/endoflife.date/pull/3619).
+      regex_exclude: '^v?[0-2]\.'
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.5/userguide/compatibility.html
-    runningJavaVersions: 8 - 20
+    # Supported versions see https://docs.gradle.org/8.6/userguide/compatibility.html
+    runningJavaVersions: 8 - 21
     testedJavaVersions: 8 - 21
-    testedKotlinVersions: 1.6.10 - 1.9.10
+    testedKotlinVersions: 1.6.10 - 1.9.20
     testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3 - 8.1
+    testedAndroidVersions: 7.3 - 8.2
     support: true
     eol: false
-    latest: "8.5.0"
-    latestReleaseDate: 2023-11-28
+    latest: "8.6.0"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
@@ -43,8 +43,8 @@ releases:
     testedAndroidVersions: 4.1 - 4.2, 7.0 - 7.4
     support: false
     eol: false
-    latest: "7.6.3"
-    latestReleaseDate: 2023-10-04
+    latest: "7.6.4"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "6"
     releaseDate: 2019-11-08

@@ -237,7 +237,7 @@ releases:
 
 # iOS 15.7.2 was released on 13th Dec 2022
 # exclusively for 7/7+/SE1/6S/6S+
-# so these are marked as not yet dead devices.
+# so these are marked as not yet dead devices. (and 15.8.1)
 -   releaseCycle: "7"
     releaseLabel: "7"
     releaseDate: 2016-09-16
@@ -281,13 +281,11 @@ releases:
     link: https://support.apple.com/kb/SP727
     supportedIosVersions: 9 - 15
 
-# iOS 12.5.7 was released on 23rd Jan 2023
-# so 6/6+/5S are marked as supported.
 -   releaseCycle: "6"
     releaseLabel: "6"
     releaseDate: 2014-09-25
     discontinued: 2016-09-07
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP705
     supportedIosVersions: 8 - 12
 
@@ -297,7 +295,7 @@ releases:
     releaseLabel: "6 Plus"
     releaseDate: 2014-09-25
     discontinued: 2016-09-07
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP706
     supportedIosVersions: 8 - 12
 
@@ -313,7 +311,7 @@ releases:
     releaseLabel: "5S"
     releaseDate: 2013-09-20
     discontinued: 2016-03-21
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP685
     supportedIosVersions: 7 - 12
 

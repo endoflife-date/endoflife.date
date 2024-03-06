@@ -11,7 +11,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/drush-ops/drush.git
+  methods:
+  -   git: https://github.com/drush-ops/drush.git
 
 identifiers:
 -   purl: pkg:composer/drush/drush

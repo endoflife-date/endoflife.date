@@ -14,44 +14,52 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/postgres/postgres.git
-    regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/postgres/postgres.git
+      regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
+  -   release_table: https://www.postgresql.org/support/versioning/
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "First Release"
+        eol: "Final Release"
 
 identifiers:
 -   repology: postgresql
 -   purl: pkg:generic/postgresql
 -   purl: pkg:docker/library/postgres
+-   purl: pkg:deb/ubuntu/postgresql
 
 releases:
 -   releaseCycle: "16"
     releaseDate: 2023-09-11
     eol: 2028-11-09
-    latest: "16.1"
-    latestReleaseDate: 2023-11-06
+    latest: "16.2"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "15"
     releaseDate: 2022-10-10
     eol: 2027-11-11
-    latest: "15.5"
-    latestReleaseDate: 2023-11-06
+    latest: "15.6"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "14"
     releaseDate: 2021-09-27
-    eol: 2026-09-30
-    latest: "14.10"
-    latestReleaseDate: 2023-11-06
+    eol: 2026-11-12
+    latest: "14.11"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "13"
     releaseDate: 2020-09-21
     eol: 2025-11-13
-    latest: "13.13"
-    latestReleaseDate: 2023-11-06
+    latest: "13.14"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "12"
     releaseDate: 2019-09-30
     eol: 2024-11-14
-    latest: "12.17"
-    latestReleaseDate: 2023-11-06
+    latest: "12.18"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "11"
     releaseDate: 2018-10-15

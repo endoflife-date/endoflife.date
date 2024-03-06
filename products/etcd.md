@@ -5,13 +5,14 @@ tags: cncf
 iconSlug: etcd
 permalink: /etcd
 versionCommand: etcdctl version
-releasePolicyLink:
+releasePolicyLink: 
   https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/branch_management.md#stable-branches
 changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/etcd-io/etcd.git
+  methods:
+  -   git: https://github.com/etcd-io/etcd.git
 
 identifiers:
 -   repology: etcd
@@ -29,14 +30,14 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: '3.5.11'
-    latestReleaseDate: 2023-12-07
+    latest: '3.5.12'
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: false
-    latest: '3.4.28'
-    latestReleaseDate: 2023-11-23
+    latest: '3.4.30'
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "3.3"
     releaseDate: 2018-02-01

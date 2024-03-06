@@ -162,7 +162,7 @@ releases:
     releaseLabel: "iPad Mini 3"
     releaseDate: 2014-10-22
     discontinued: 2015-09-09
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP709
     supportedIpadOsVersions: 8, 9, 10, 11, 12
 
@@ -178,7 +178,7 @@ releases:
     releaseLabel: "iPad Mini 2"
     releaseDate: 2013-11-12
     discontinued: 2017-03-21
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP693
     supportedIpadOsVersions: 7, 8, 9, 10, 11, 12
 
@@ -186,7 +186,7 @@ releases:
     releaseLabel: "iPad Air (1st generation)"
     releaseDate: 2013-11-01
     discontinued: 2016-03-21
-    eol: false
+    eol: 2023-01-23
     link: https://support.apple.com/kb/SP692
     supportedIpadOsVersions: 7, 8, 9, 10, 11, 12
 
@@ -234,8 +234,6 @@ releases:
 
 > The iPad is a line of tablet based computers designed and marketed by Apple Inc. that use Apple's
 > iOS and iPadOS mobile operating system.
-
-iPad Air, iPad Mini 2, and iPad Mini 3 are still receiving [iOS 12 security updates](https://support.apple.com/103015).
 
 Apple maintains a list of Supported iPad models
 [on its website](https://support.apple.com/en-in/guide/ipad/ipad213a25b2/ipados).

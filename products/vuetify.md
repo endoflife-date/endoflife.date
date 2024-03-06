@@ -11,7 +11,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   npm: vuetify
+  methods:
+  -   npm: vuetify
 
 identifiers:
 -   purl: pkg:npm/vuetify
@@ -21,15 +22,15 @@ releases:
     releaseDate: 2022-10-31
     support: true
     eol: false
-    latest: "3.4.10"
-    latestReleaseDate: 2024-01-09
+    latest: "3.5.8"
+    latestReleaseDate: 2024-03-06
 
 -   releaseCycle: "2"
     releaseDate: 2019-07-23
     support: 2021-11-15
     eol: false
-    latest: "2.7.1"
-    latestReleaseDate: 2023-08-09
+    latest: "2.7.2"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.5"
     releaseDate: 2019-02-05

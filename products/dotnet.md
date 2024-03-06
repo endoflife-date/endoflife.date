@@ -8,16 +8,9 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-changelogTemplate:
-  https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
+changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
-
-auto:
--   git: https://github.com/dotnet/core.git
-    # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
-    # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d{1,2}))?$'
 
 identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App
@@ -44,30 +37,44 @@ identifiers:
 -   purl: pkg:rpm/rhel/dotnet-sdk-3.0
 -   purl: pkg:rpm/rhel/dotnet-sdk-2.1
 
+auto:
+  methods:
+  -   git: https://github.com/dotnet/core.git
+      # Excludes 3+ digit patch versions for SDKs, such as https://github.com/dotnet/core/releases/tag/v3.1.201,
+      # See more details about dotnet versions: https://learn.microsoft.com/dotnet/core/versions/
+      regex_exclude: '^v?\d+\.\d+\.\d{3,}'
+  -   release_table: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?).*$'
+        eol: "End of support"
+
 releases:
--   releaseCycle: "8.0"
+-   releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.0"
-    latestReleaseDate: 2023-11-14
+    latest: "8.0.2"
+    latestReleaseDate: 2024-02-13
 
--   releaseCycle: "7.0"
+-   releaseCycle: "7"
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.14"
-    latestReleaseDate: 2023-11-14
+    latest: "7.0.16"
+    latestReleaseDate: 2024-02-13
 
--   releaseCycle: "6.0"
+-   releaseCycle: "6"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
-    latest: "6.0.25"
-    latestReleaseDate: 2023-11-14
+    latest: "6.0.27"
+    latestReleaseDate: 2024-02-13
 
--   releaseCycle: "5.0"
+-   releaseCycle: "5"
     releaseDate: 2020-11-10
-    eol: 2022-05-08
+    eol: 2022-05-10
     latest: "5.0.17"
     latestReleaseDate: 2022-05-10
 

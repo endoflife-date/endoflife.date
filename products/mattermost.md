@@ -12,27 +12,45 @@ eolWarnThreshold: 30
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/mattermost/mattermost-server.git
+  methods:
+  -   git: https://github.com/mattermost/mattermost-server.git
+  -   release_table: https://docs.mattermost.com/upgrade/release-lifecycle.html
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Lifecyle Start Date"
+        eol: "Lifecycle End Date"
 
-# EOL date can be found on https://docs.mattermost.com/upgrade/release-lifecycle.html
 releases:
--   releaseCycle: "9.3"
-    releaseDate: &id001 2023-11-27
+-   releaseCycle: "9.5"
+    releaseDate: 2024-02-01
+    eol: 2024-11-15
+    latest: '9.5.2'
+    latestReleaseDate: 2024-03-01
 
+-   releaseCycle: "9.4"
+    releaseDate: 2023-12-19
+    eol: 2024-04-15
+    latest: '9.4.3'
+    latestReleaseDate: 2024-02-09
+
+-   releaseCycle: "9.3"
+    releaseDate: 2023-11-27
     eol: 2024-03-15
-    latest: '9.3.0'
-    latestReleaseDate: *id001
+    latest: '9.3.2'
+    latestReleaseDate: 2024-02-09
+
 -   releaseCycle: "9.2"
     releaseDate: 2023-10-28
     eol: 2024-02-15
-    latest: '9.2.3'
-    latestReleaseDate: 2023-11-22
+    latest: '9.2.6'
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "9.1"
     releaseDate: 2023-10-06
     eol: 2024-01-15
-    latest: '9.1.4'
-    latestReleaseDate: 2023-11-22
+    latest: '9.1.5'
+    latestReleaseDate: 2023-12-15
 
 -   releaseCycle: "9.0"
     releaseDate: 2023-09-08
@@ -44,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2023-08-10
     eol: 2024-05-15
-    latest: '8.1.7'
-    latestReleaseDate: 2023-11-28
+    latest: '8.1.10'
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "8.0"
     releaseDate: 2023-07-09
@@ -55,13 +73,13 @@ releases:
 
 -   releaseCycle: "7.10"
     releaseDate: 2023-04-12
-    eol: 2023-07-15
+    eol: 2023-08-15
     latest: '7.10.5'
     latestReleaseDate: 2023-07-24
 
 -   releaseCycle: "7.9"
     releaseDate: 2023-03-14
-    eol: 2023-06-15
+    eol: 2023-07-15
     latest: '7.9.6'
     latestReleaseDate: 2023-07-05
 
@@ -105,7 +123,7 @@ releases:
 -   releaseCycle: "7.1"
     lts: true
     releaseDate: 2022-07-13
-    eol: 2023-04-15
+    eol: 2023-05-15
     latest: '7.1.9'
     latestReleaseDate: 2023-04-27
 
@@ -163,6 +181,11 @@ releases:
     eol: 2022-01-15
     latestReleaseDate: 2021-12-15
     latest: '6.0.4'
+
+
+
+
+
 
 
 ---

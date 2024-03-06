@@ -9,27 +9,28 @@ changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/hashicorp/nomad.git
+  methods:
+  -   git: https://github.com/hashicorp/nomad.git
 
 # eol(x) = releaseCycle(x+3)
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2023-12-07
     eol: false
-    latest: "1.7.2"
-    latestReleaseDate: 2023-12-13
+    latest: "1.7.5"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "1.6"
     releaseDate: 2023-07-18
     eol: false
-    latest: "1.6.5"
-    latestReleaseDate: 2023-12-13
+    latest: "1.6.8"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-03-01
     eol: false
-    latest: "1.5.12"
-    latestReleaseDate: 2023-12-13
+    latest: "1.5.15"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "1.4"
     releaseDate: 2022-10-04

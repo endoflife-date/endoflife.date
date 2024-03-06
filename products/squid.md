@@ -22,20 +22,21 @@ identifiers:
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
 auto:
-# v2 sources are now archived in a separate repo, we use that as well
--   git: https://github.com/squid-cache/squid2.git
-    regex:
-    # https://regex101.com/r/yMRzJO/1
-    -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
-    # https://regex101.com/r/psotaU/1
-    -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
-# the squidadm repository is the one where releases are made
--   git: https://github.com/squidadm/squid.git
-    regex:
-    # https://regex101.com/r/yMRzJO/1
-    -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
-    # https://regex101.com/r/psotaU/1
-    -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
+  methods:
+  # v2 sources are now archived in a separate repo, we use that as well
+  -   git: https://github.com/squid-cache/squid2.git
+      regex:
+      # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
+      # https://regex101.com/r/psotaU/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
+  # the squidadm repository is the one where releases are made
+  -   git: https://github.com/squidadm/squid.git
+      regex:
+      # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
+      # https://regex101.com/r/psotaU/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
 
 releases:
 -   releaseCycle: "6"

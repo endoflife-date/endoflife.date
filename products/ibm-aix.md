@@ -14,9 +14,20 @@ releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 
 auto:
--   custom: true
+  methods:
+  -   custom: ibm-aix
+  -   release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
+      selector: "table"
+      header_selector: "tbody tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "TL"
+          regex: 'AIX (?P<major>\d+).(?P<minor>\d+) TL(?P<patch>\d+)'
+          template: "{{major}}.{{minor}}.{{patch}}"
+        eol:
+          column: "End of Fix Support"
+          regex: '(?P<value>\d+ \w+ \d+).*'
 
-# EOL date can be found on https://www.ibm.com/support/pages/aix-support-lifecycle-information.
 releases:
 -   releaseCycle: "7.3.2"
     releaseDate: 2023-11-30
@@ -51,7 +62,7 @@ releases:
 
 -   releaseCycle: "7.2.3"
     releaseDate: 2018-09-30
-    eol: 2021-11-30
+    eol: 2021-09-30
     latest: "7.2.3"
     latestReleaseDate: 2018-09-30
 

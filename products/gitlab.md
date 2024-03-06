@@ -14,62 +14,77 @@ eolColumn: Maintenance Support
 eolWarnThreshold: 60
 
 auto:
--   git: https://gitlab.com/gitlab-org/gitlab.git
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
+  methods:
+  -   git: https://gitlab.com/gitlab-org/gitlab.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
 
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
+-   releaseCycle: "16.9"
+    releaseDate: 2024-02-14
+    support: 2024-03-21
+    eol: 2024-05-16
+    latest: "16.9.1"
+    latestReleaseDate: 2024-02-20
+
+-   releaseCycle: "16.8"
+    releaseDate: 2024-01-17
+    support: 2024-02-15
+    eol: 2024-04-18
+    latest: "16.8.3"
+    latestReleaseDate: 2024-02-20
+
 -   releaseCycle: "16.7"
     releaseDate: 2023-12-20
     support: 2024-01-18
     eol: 2024-03-21
-    latest: "16.7.0"
-    latestReleaseDate: 2023-12-20
+    latest: "16.7.6"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "16.6"
     releaseDate: 2023-11-15
     support: 2023-12-21
     eol: 2024-02-15
-    latest: "16.6.2"
-    latestReleaseDate: 2023-12-13
+    latest: "16.6.7"
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
     support: 2023-11-16
     eol: 2024-01-18
-    latest: "16.5.4"
-    latestReleaseDate: 2023-12-13
+    latest: "16.5.8"
+    latestReleaseDate: 2024-01-24
 
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21
     support: 2023-10-22
     eol: 2023-12-21
-    latest: "16.4.4"
-    latestReleaseDate: 2023-12-13
+    latest: "16.4.5"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "16.3"
     releaseDate: 2023-08-21
     support: 2023-09-22
     eol: 2023-11-16
-    latest: "16.3.6"
-    latestReleaseDate: 2023-10-30
+    latest: "16.3.7"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "16.2"
     releaseDate: 2023-07-21
     support: 2023-08-22
     eol: 2023-10-22
-    latest: "16.2.8"
-    latestReleaseDate: 2023-09-28
+    latest: "16.2.9"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "16.1"
     releaseDate: 2023-06-21
     support: 2023-07-22
     eol: 2023-09-22
-    latest: "16.1.5"
-    latestReleaseDate: 2023-08-31
+    latest: "16.1.6"
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "16.0"
     releaseDate: 2023-05-18

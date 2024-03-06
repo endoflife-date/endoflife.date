@@ -10,13 +10,17 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/phpmyadmin/phpmyadmin.git
-    regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
+  methods:
+  -   git: https://github.com/phpmyadmin/phpmyadmin.git
+      regex: '^RELEASE_(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d+)(_(?P<tiny>\d+))?$'
 
 identifiers:
 -   repology: phpmyadmin
+-   purl: pkg:apk/alpine/phpmyadmin
+-   purl: pkg:composer/phpmyadmin/phpmyadmin
 -   purl: pkg:deb/debian/phpmyadmin
 -   purl: pkg:deb/ubuntu/phpmyadmin
+-   purl: pkg:github/phpmyadmin/phpmyadmin
 -   purl: pkg:rpm/redhat/phpmyadmin
 -   purl: pkg:rpm/centos/phpmyadmin
 -   dockerhub: library/phpmyadmin

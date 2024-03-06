@@ -10,22 +10,31 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   npm: nuxt
+  methods:
+  -   npm: nuxt
+  -   release_table: https://nuxt.com/docs/community/roadmap
+      ignore_empty_releases: true # Ignore future releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)\.x.*$'
+        eol: "End Of Life"
 
 releases:
 -   releaseCycle: "3"
     releaseDate: 2022-11-16
     support: true
     eol: false
-    latest: "3.9.1"
-    latestReleaseDate: 2024-01-05
+    latest: "3.10.3"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
     support: 2022-11-16
     eol: 2024-06-30
-    latest: "2.17.2"
-    latestReleaseDate: 2023-10-24
+    latest: "2.17.3"
+    latestReleaseDate: 2024-01-12
 
 ---
 

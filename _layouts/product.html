@@ -14,7 +14,7 @@ layout: default
 
   <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="fw-300">
     📅 Last updated on {{ page.last_modified_at | date_to_long_string }}
-    {%- if page.auto and page.auto.size != 0 %}
+    {%- if page.auto and page.auto.methods %}
     <span title="Latest releases on this page are automatically updated.">🤖</span>
     {%- endif %}
   </time>

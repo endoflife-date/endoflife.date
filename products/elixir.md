@@ -10,7 +10,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/elixir-lang/elixir.git
+  methods:
+  -   git: https://github.com/elixir-lang/elixir.git
 
 # support(x) = releaseDate(x+1) (or true if not yet released)
 # eol(x) = releaseDate(x+5) (or false if not yet released)
@@ -19,8 +20,8 @@ releases:
     releaseDate: 2023-12-22
     support: true # release date of 1.17
     eol: false # release date of 1.21
-    latest: "1.16.0"
-    latestReleaseDate: 2023-12-22
+    latest: "1.16.1"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-06-19

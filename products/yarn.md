@@ -16,21 +16,22 @@ identifiers:
 -   repology: yarn
 
 auto:
--   npm: yarn # for 1.x
--   npm: "@yarnpkg/cli" # for 2.x+
+  methods:
+  -   npm: yarn # for 1.x
+  -   npm: "@yarnpkg/cli" # for 2.x+
 
 releases:
 -   releaseCycle: "4"
     releaseDate: 2023-10-22
     eol: false
-    latest: '4.0.2'
-    latestReleaseDate: 2023-11-14
+    latest: '4.1.1'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: false # still not clear, will wait until there is no more updates
-    latest: '3.7.0'
-    latestReleaseDate: 2023-11-14
+    latest: '3.8.1'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "2"
     releaseDate: 2020-07-09

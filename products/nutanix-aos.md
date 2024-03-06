@@ -9,9 +9,9 @@ releasePolicyLink: "https://www.nutanix.com/support-services/product-support/sup
 activeSupportColumn: true
 releaseDateColumn: true
 
-# See https://github.com/endoflife-date/release-data/blob/main/src/nutanix.py.
 auto:
--   custom: true
+  methods:
+  -   nutanix: NOS
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
@@ -19,8 +19,8 @@ releases:
     releaseDate: 2023-08-28
     support: true
     eol: false
-    latest: "6.7.1"
-    latestReleaseDate: 2023-12-18
+    latest: "6.7.1.6"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "6.6"
     releaseDate: 2023-01-23
@@ -34,8 +34,8 @@ releases:
     support: true
     eol: false
     lts: true
-    latest: "6.5.4.5"
-    latestReleaseDate: 2023-11-29
+    latest: "6.5.5.5"
+    latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24

@@ -4,19 +4,26 @@ category: service
 tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
-releasePolicyLink:
-  https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: rds
+  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+      selector: "#rds-mysql-version-release-calendar table"
+      fields:
+        releaseCycle:
+          column: "MySQL major version"
+          regex: '^MySQL\s+(?P<value>\d+\.\d+).*$'
+        eol: "RDS end of standard support date"
 
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-07-31
-    latest: "8.0.35"
-    latestReleaseDate: 2023-11-09
+    latest: "8.0.36"
+    latestReleaseDate: 2024-02-12
 
 -   releaseCycle: "5.7"
     releaseDate: 2016-02-22
@@ -28,7 +35,6 @@ releases:
     releaseDate: 2013-07-01
     eol: 2022-03-01
     latest: "5.6"
-
     latestReleaseDate: 2013-07-01
 
 ---

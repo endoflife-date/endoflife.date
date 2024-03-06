@@ -13,31 +13,44 @@ releaseDateColumn: true
 # NPM is more accurate than git and remove unreleased version would.
 # 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
 auto:
--   npm: electron
+  methods:
+  -   npm: electron
+  -   release_table: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Electron"
+          regex: '^(?P<value>\d+)\.0\.0$'
+        eol: "EOL"
 
-# EOL dates documented on https://www.electronjs.org/docs/latest/tutorial/electron-timelines.
 releases:
+-   releaseCycle: "29"
+    releaseDate: 2024-02-20
+    eol: 2024-08-20
+    latest: "29.1.0"
+    latestReleaseDate: 2024-02-28
+
 -   releaseCycle: "28"
     releaseDate: 2023-12-04
     eol: 2024-06-11
-    latest: "28.1.2"
-    latestReleaseDate: 2024-01-09
+    latest: "28.2.5"
+    latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "27"
     releaseDate: 2023-10-10
     eol: 2024-04-16
-    latest: "27.2.1"
-    latestReleaseDate: 2024-01-04
+    latest: "27.3.4"
+    latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "26"
     releaseDate: 2023-08-14
-    eol: 2024-02-27
-    latest: "26.6.4"
-    latestReleaseDate: 2024-01-04
+    eol: 2024-02-20
+    latest: "26.6.10"
+    latestReleaseDate: 2024-02-19
 
 -   releaseCycle: "25"
     releaseDate: 2023-05-29
-    eol: 2024-01-02
+    eol: 2023-12-05
     latestReleaseDate: 2023-12-06
     latest: "25.9.8"
 
@@ -67,13 +80,13 @@ releases:
 
 -   releaseCycle: "20"
     releaseDate: 2022-08-01
-    eol: 2023-02-06
+    eol: 2023-02-07
     latest: "20.3.12"
     latestReleaseDate: 2023-02-09
 
 -   releaseCycle: "19"
     releaseDate: 2022-05-23
-    eol: 2022-11-30
+    eol: 2022-11-29
     latest: "19.1.9"
     latestReleaseDate: 2022-11-30
 
