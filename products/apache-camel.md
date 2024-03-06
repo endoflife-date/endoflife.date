@@ -18,24 +18,33 @@ customColumns:
     link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
 auto:
--   maven: org.apache.camel/camel
+  methods:
+  -   maven: org.apache.camel/camel
 
 # for LTS : eol = releaseDate + 1y
 # for non-LTS : eol(x) = releaseDate(x+1)
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
+-   releaseCycle: "4.4"
+    lts: true
+    releaseDate: 2024-02-12
+    eol: 2025-02-12
+    supportedJavaVersions: 17, 21
+    latest: "4.4.0"
+    latestReleaseDate: 2024-02-12
+
 -   releaseCycle: "3.22"
     lts: true
     releaseDate: 2023-12-19
     eol: 2024-12-26
     supportedJavaVersions: 11, 17
-    latest: "3.22.0"
-    latestReleaseDate: 2023-12-19
+    latest: "3.22.1"
+    latestReleaseDate: 2024-01-25
 
 -   releaseCycle: "4.3"
     releaseDate: 2023-12-11
-    eol: false
+    eol: 2024-02-12
     supportedJavaVersions: 17, 21
     latest: "4.3.0"
     latestReleaseDate: 2023-12-11
@@ -59,16 +68,16 @@ releases:
     releaseDate: 2023-08-10
     eol: 2024-08-10
     supportedJavaVersions: 17
-    latest: "4.0.3"
-    latestReleaseDate: 2023-11-14
+    latest: "4.0.4"
+    latestReleaseDate: 2024-01-27
 
 -   releaseCycle: "3.21"
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-06-23
     supportedJavaVersions: 11, 17
-    latest: "3.21.3"
-    latestReleaseDate: 2023-12-09
+    latest: "3.21.4"
+    latestReleaseDate: 2024-01-24
 
 -   releaseCycle: "3.20"
     lts: true

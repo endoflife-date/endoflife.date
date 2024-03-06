@@ -206,7 +206,7 @@ releases:
     releaseLabel: "10 1709 (E)"
     releaseDate: 2017-10-17
     support: 2020-10-13
-    eol: 2020-09-13
+    eol: 2020-10-13
     latest: 10.0.16299
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1709-end-of-servicing
 

@@ -16,8 +16,9 @@ identifiers:
 -   cpe: cpe:2.3:o:almalinux:almalinux
 
 auto:
--   distrowatch: alma
-    regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
+  methods:
+  -   distrowatch: alma
+      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
 
 releases:
 -   releaseCycle: "9"

@@ -11,16 +11,21 @@ versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:npm/next.js
+-   purl: pkg:github/vercel/next.js
+
 auto:
--   npm: next
+  methods:
+  -   npm: next
 
 # EOL(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.0.4"
-    latestReleaseDate: 2023-12-07
+    latest: "14.1.2"
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25

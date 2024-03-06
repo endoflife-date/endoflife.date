@@ -15,23 +15,24 @@ activeSupportColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   maven: org.apache.groovy/groovy
--   maven: org.codehaus.groovy/groovy
+  methods:
+  -   maven: org.apache.groovy/groovy
+  -   maven: org.codehaus.groovy/groovy
 
 releases:
 -   releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eol: false
     support: true
-    latest: "4.0.17"
-    latestReleaseDate: 2023-12-19
+    latest: "4.0.19"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
     support: false
     eol: false
-    latest: "3.0.20"
-    latestReleaseDate: 2023-12-22
+    latest: "3.0.21"
+    latestReleaseDate: 2024-03-01
 
 -   releaseCycle: "2.5"
     releaseDate: 2018-05-30

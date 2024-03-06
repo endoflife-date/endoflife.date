@@ -11,9 +11,10 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/erlang/otp.git
-    regex: ^OTP-(?P<version>\d+(\.\d+){0,3})$
-    template: "{{version}}"
+  methods:
+  -   git: https://github.com/erlang/otp.git
+      regex: ^OTP-(?P<version>\d+(\.\d+){0,3})$
+      template: "{{version}}"
 
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))
 releases:
@@ -21,22 +22,22 @@ releases:
     releaseDate: 2023-05-15
     support: true
     eol: 2026-05-15 # projected
-    latest: '26.2.1'
-    latestReleaseDate: 2023-12-15
+    latest: '26.2.2'
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "25"
     releaseDate: 2022-05-17
     support: 2023-05-15
     eol: 2025-05-17 # projected
-    latest: '25.3.2.8'
-    latestReleaseDate: 2023-12-15
+    latest: '25.3.2.9'
+    latestReleaseDate: 2024-02-07
 
 -   releaseCycle: "24"
     releaseDate: 2021-05-10
     support: 2022-05-17
     eol: 2024-05-10 # projected
-    latest: '24.3.4.15'
-    latestReleaseDate: 2023-12-15
+    latest: '24.3.4.16'
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "23"
     releaseDate: 2020-05-11

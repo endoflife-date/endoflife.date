@@ -15,12 +15,20 @@ identifiers:
 -   purl: pkg:github/composer/composer
 
 auto:
--   git: https://github.com/composer/composer.git
+  methods:
+  -   git: https://github.com/composer/composer.git
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "2.7"
+    releaseDate: 2024-02-08
+    eol: false
+    latest: "2.7.1"
+    latestReleaseDate: 2024-02-09
+
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-01
-    eol: false
+    eol: 2024-02-08
     latest: "2.6.6"
     latestReleaseDate: 2023-12-08
 
@@ -46,8 +54,8 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: 2023-12-31
-    latest: "2.2.22"
-    latestReleaseDate: 2023-09-29
+    latest: "2.2.23"
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "1"
     releaseDate: 2016-04-05

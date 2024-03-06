@@ -15,7 +15,8 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   custom: true
+  methods:
+  -   custom: cos
 
 releases:
 # Active Milestones
@@ -23,29 +24,29 @@ releases:
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-66-33"
-    latestReleaseDate: 2023-12-11
+    latest: "cos-109-17800-147-22"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
-    latest: "cos-105-17412-226-43"
-    latestReleaseDate: 2023-12-04
+    latest: "cos-105-17412-294-34"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
-    latest: "cos-101-17162-336-28"
-    latestReleaseDate: 2023-12-04
+    latest: "cos-101-17162-386-33"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
     eol: 2024-03-01
-    latest: "cos-97-16919-404-21"
-    latestReleaseDate: 2023-12-04
+    latest: "cos-97-16919-450-16"
+    latestReleaseDate: 2024-02-12
 
 # Deprecated Milestones
 -   releaseCycle: "cos-93"

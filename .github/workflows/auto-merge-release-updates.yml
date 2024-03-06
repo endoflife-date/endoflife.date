@@ -32,10 +32,10 @@ jobs:
         run: pip install -r '_data/release-data/requirements.txt'
 
       - id: latest
-        name: Update latest releases
+        name: Auto-update products
         run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
-      - name: Update latest and latestReleaseDate
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: products/*
@@ -43,8 +43,8 @@ jobs:
           status_options: '--untracked-files=no'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
 
-      - name: Enable auto-merge for Dependabot PRs for release data
-        if: ${{contains(steps.metadata.outputs.dependency-names, '_data/release-data')}}
+      - name: Create PR
+        if: ${{ contains(steps.metadata.outputs.dependency-names, '_data/release-data') }}
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}

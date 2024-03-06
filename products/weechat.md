@@ -8,21 +8,28 @@ releaseDateColumn: true
 eolColumn: Active Support
 
 auto:
--   git: https://github.com/weechat/weechat.git
+  methods:
+  -   git: https://github.com/weechat/weechat.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.2"
+    releaseDate: 2024-01-21
+    eol: false
+    latest: "4.2.1"
+    latestReleaseDate: 2024-01-22
+
 -   releaseCycle: "4.1"
     releaseDate: 2023-10-15
-    eol: false
-    latest: "4.1.2"
-    latestReleaseDate: 2023-12-03
+    eol: 2024-01-21
+    latest: "4.1.3"
+    latestReleaseDate: 2024-01-20
 
 -   releaseCycle: "4.0"
     releaseDate: 2023-06-24
     eol: 2023-10-15
-    latest: "4.0.7"
-    latestReleaseDate: 2023-12-03
+    latest: "4.0.8"
+    latestReleaseDate: 2024-01-20
 
 -   releaseCycle: "3.8"
     releaseDate: 2023-01-08

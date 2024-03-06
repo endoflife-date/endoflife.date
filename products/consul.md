@@ -10,7 +10,8 @@ changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELO
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/hashicorp/consul.git
+  methods:
+  -   git: https://github.com/hashicorp/consul.git
 
 identifiers:
 -   repology: consul
@@ -21,23 +22,29 @@ identifiers:
 
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.18"
+    releaseDate: 2024-02-26
+    eol: false
+    latest: '1.18.0'
+    latestReleaseDate: 2024-02-26
+
 -   releaseCycle: "1.17"
     releaseDate: 2023-11-03
     eol: false
-    latest: '1.17.1'
-    latestReleaseDate: 2023-12-12
+    latest: '1.17.3'
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "1.16"
     releaseDate: 2023-06-26
     eol: false
-    latestReleaseDate: 2023-12-12
-    latest: '1.16.4'
+    latestReleaseDate: 2024-02-13
+    latest: '1.16.6'
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-02-23
-    eol: false
-    latestReleaseDate: 2023-12-12
-    latest: '1.15.8'
+    eol: 2024-02-27
+    latestReleaseDate: 2024-02-13
+    latest: '1.15.10'
 
 -   releaseCycle: "1.14"
     eol: 2023-11-03

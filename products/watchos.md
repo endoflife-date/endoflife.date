@@ -12,15 +12,21 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   apple: watchos
+      # If you are changing these, please use this as your corpus to validate your changes:
+      # https://gist.githubusercontent.com/captn3m0/e7cb1f4fc3c07a5da0296ebda2b33e15/raw/5747e42ad611ec9ffdb7a2d1c0e3946bb87ab6d7/apple.txt
+      regex:
+      -   'watchOS\s+(?P<version>\d+)'
+      -   'watchOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
 -   releaseCycle: "10"
     releaseDate: 2023-09-18
     support: true
     eol: false
-    latest: '10.2'
-    latestReleaseDate: 2023-12-11
+    latest: '10.3.1'
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "9"
     releaseDate: 2022-09-12

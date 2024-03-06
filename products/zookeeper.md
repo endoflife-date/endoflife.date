@@ -16,9 +16,11 @@ identifiers:
 -   purl: pkg:maven/org.apache.zookeeper/zookeeper
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
+-   purl: pkg:deb/debian/zookeeper
 
 auto:
--   maven: org.apache.zookeeper/zookeeper
+  methods:
+  -   maven: org.apache.zookeeper/zookeeper
 
 # support(X) = releaseDate(X+2)
 # eol(X) ~= releaseDate(X+2)+6m, unless declared
@@ -34,8 +36,8 @@ releases:
     releaseDate: 2022-02-25
     eol: false
     support: true
-    latest: "3.8.3"
-    latestReleaseDate: 2023-10-05
+    latest: "3.8.4"
+    latestReleaseDate: 2024-02-12
 
 -   releaseCycle: "3.7"
     releaseDate: 2021-03-17

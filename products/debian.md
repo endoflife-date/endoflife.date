@@ -16,7 +16,19 @@ identifiers:
 -   cpe: cpe:/o:debian:debian_linux
 
 auto:
--   custom: true
+  methods:
+  -   custom: debian
+  -   release_table: https://wiki.debian.org/DebianReleases
+      ignore_empty_releases: true # so that future releases are ignored
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
+      # are entirely absent, rather than being added as empty.
+      fields:
+        releaseCycle: "Version"
+        eol:
+          column: "End of life date"
+          regex: '~?(?P<value>\d{4}-\d{2}(-\d{2})?)'
 
 releases:
 -   releaseCycle: "12"
@@ -25,17 +37,17 @@ releases:
     eol: 2026-06-10
     extendedSupport: 2028-06-10
     link: https://www.debian.org/News/2023/20230610
-    latest: "12.4"
-    latestReleaseDate: 2023-12-10
+    latest: "12.5"
+    latestReleaseDate: 2024-02-10
 
 -   releaseCycle: "11"
     codename: "Bullseye"
     releaseDate: 2021-08-14
-    eol: 2024-07-01
+    eol: 2024-07-31
     extendedSupport: 2026-06-30
     link: https://www.debian.org/News/2023/20230429
-    latest: "11.8"
-    latestReleaseDate: 2023-10-07
+    latest: "11.9"
+    latestReleaseDate: 2024-02-10
 
 -   releaseCycle: "10"
     codename: "Buster"

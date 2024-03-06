@@ -10,7 +10,8 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   npm: generator-jhipster
+  methods:
+  -   npm: generator-jhipster
 
 # eol(x) = releaseDate(x+1)
 releases:

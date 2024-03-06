@@ -11,9 +11,6 @@ releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#maj
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
--   git: https://github.com/envoyproxy/envoy.git
-
 identifiers:
 -   repology: envoy-proxy
 -   purl: pkg:docker/envoyproxy/envoy
@@ -21,26 +18,44 @@ identifiers:
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
 
+auto:
+  methods:
+  -   git: https://github.com/envoyproxy/envoy.git
+  -   release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
+      ignore_empty_releases: true # ignore future releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)\.0$'
+        eol: "End of Life"
+
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-16
+    eol: 2025-01-16
+    latest: '1.29.1'
+    latestReleaseDate: 2024-02-10
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
-    latest: '1.28.0'
-    latestReleaseDate: 2023-10-19
+    latest: '1.28.1'
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27
-    latest: '1.27.2'
-    latestReleaseDate: 2023-10-17
+    latest: '1.27.3'
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
-    latest: '1.26.6'
-    latestReleaseDate: 2023-10-17
+    latest: '1.26.7'
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-01-18

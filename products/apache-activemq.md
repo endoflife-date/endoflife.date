@@ -14,8 +14,9 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/apache/activemq.git
-    regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
+  methods:
+  -   git: https://github.com/apache/activemq.git
+      regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # eol(x) = releaseCycle(x+2)
 # link(x) =

@@ -12,36 +12,37 @@ eolColumn: Active Maintenance
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/grails/grails-core.git
+  methods:
+  -   git: https://github.com/grails/grails-core.git
 
 releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-24
     support: true
     eol: false
-    latest: "6.1.1"
-    latestReleaseDate: 2023-12-18
+    latest: "6.1.2"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "5"
     releaseDate: 2021-10-12
     support: 2023-07-24
     eol: false
-    latest: "5.3.5"
-    latestReleaseDate: 2023-12-19
+    latest: "5.3.6"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "4"
     releaseDate: 2019-07-11
     support: false
     eol: 2023-03-31
-    latest: "4.1.3"
-    latestReleaseDate: 2023-12-05
+    latest: "4.1.4"
+    latestReleaseDate: 2024-01-08
 
 -   releaseCycle: "3"
     releaseDate: 2015-03-31
     support: false
     eol: 2021-09-30
-    latest: "3.3.17"
-    latestReleaseDate: 2023-12-07
+    latest: "3.3.18"
+    latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "2"
     releaseDate: 2011-12-15

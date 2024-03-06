@@ -16,25 +16,25 @@ extendedSupportColumn: Extended Security Updates
 releases:
 -   releaseCycle: "2022"
     codename: Dallas
-    releaseLabel: "2022 CU10"
+    releaseLabel: "2022 CU11"
     releaseDate: 2022-11-16
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latest: "16.0.4095.4"
-    latestReleaseDate: 2023-11-16
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate10
+    latest: "16.0.4105.2"
+    latestReleaseDate: 2024-01-11
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate11
 
 -   releaseCycle: "2019"
     codename: Seattle
-    releaseLabel: "2019 CU24"
+    releaseLabel: "2019 CU25"
     releaseDate: 2019-11-04
     support: 2025-01-07
     eol: 2030-01-08
     extendedSupport: false
-    latest: "15.0.4345.5"
-    latestReleaseDate: 2023-12-14
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate24
+    latest: "15.0.4355.3"
+    latestReleaseDate: 2024-02-15
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
 
 -   releaseCycle: "2017"
     codename: Helsinki
@@ -72,7 +72,7 @@ releases:
 -   releaseCycle: "2012"
     codename: Denali
     releaseLabel: "2012 SP4"
-    releaseDate: 2017-10-05
+    releaseDate: 2012-05-20
     support: 2017-07-11
     eol: 2022-07-12
     extendedSupport: 2025-07-08
@@ -83,7 +83,7 @@ releases:
 -   releaseCycle: "2008 R2"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
-    releaseDate: 2014-09-26
+    releaseDate: 2010-07-20
     support: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12

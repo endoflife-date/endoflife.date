@@ -18,7 +18,8 @@ identifiers:
 -   repology: apache
 
 auto:
--   custom: true
+  methods:
+  -   custom: apache-http-server
 
 releases:
 -   releaseCycle: "2.4"

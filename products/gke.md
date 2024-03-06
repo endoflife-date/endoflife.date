@@ -14,46 +14,53 @@ releaseDateColumn: true
 eolColumn: Maintenance Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: gke
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
-# releaseDate: As per https://github.com/endoflife-date/release-data/blob/main/releases/gke.json
 # support: last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-26
+    support: 2025-01-31
+    eol: 2025-03-21
+    latest: '1.29.2-gke.1060000'
+    latestReleaseDate: 2024-03-04
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
-    support: true # still TBD on release schedule page
-    eol: false # still TBD on release schedule page
-    latest: '1.28.3-gke.1118000'
-    latestReleaseDate: 2023-12-12
+    support: 2024-09-30
+    eol: 2024-11-12
+    latest: '1.28.7-gke.1026000'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
     support: 2024-06-30
     eol: 2024-08-31
-    latest: '1.27.8-gke.1067000'
-    latestReleaseDate: 2023-12-12
+    latest: '1.27.11-gke.1062000'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31
     eol: 2024-05-31
     support: 2024-03-31
-    latest: '1.26.11-gke.1055000'
-    latestReleaseDate: 2023-12-12
+    latest: '1.26.14-gke.1044000'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
     eol: 2024-02-29
     support: 2023-12-31
-    latest: '1.25.16-gke.1041000'
-    latestReleaseDate: 2023-12-12
+    latest: '1.25.16-gke.1570000'
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-06-23
     eol: 2023-10-31
     support: 2023-08-31
-    latest: '1.24.17-gke.2364000'
-    latestReleaseDate: 2023-12-12
+    latest: '1.24.17-gke.2472000'
+    latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-05-03

@@ -6,10 +6,11 @@ releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Exim/exim
-    # https://regex101.com/r/jDuVex/1
-    regex: 
-      ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
+  methods:
+  -   git: https://github.com/Exim/exim
+      # https://regex101.com/r/jDuVex/1
+      regex:
+        ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
 
 identifiers:
 -   repology: exim

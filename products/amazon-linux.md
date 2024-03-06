@@ -19,9 +19,10 @@ identifiers:
 -   purl: pkg:docker/library/amazonlinux
 
 auto:
--   docker_hub: library/amazonlinux
+  methods:
+  -   docker_hub: library/amazonlinux
     # TODO: Fix this regex to exclude RC releases
-    regex: ^(?:\d+(\.\d+){2,4})$
+      regex: ^(?:\d+(\.\d+){2,4})$
 
 releases:
 
@@ -29,18 +30,17 @@ releases:
     releaseDate: 2023-03-01
     support: 2025-03-15
     eol: 2028-03-15
-    latest: "2023.3.20231218.0"
-    latestReleaseDate: 2023-12-20
+    latest: "2023.3.20240219.0"
+    latestReleaseDate: 2024-02-26
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
     releaseDate: 2018-06-26
     support: 2025-06-30
     eol: 2025-06-30
-    latest: "2.0.20231218.0"
-    latestReleaseDate: 2023-12-20
-    link: 
-      https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
+    latest: "2.0.20240223.0"
+    latestReleaseDate: 2024-02-26
+    link: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
 -   releaseCycle: '2018.03'
     releaseLabel: 'AMI 2018.03'
@@ -66,8 +66,7 @@ releases:
     support: 2020-12-31
     eol: 2023-12-31
     latest: "2017.03.1.20170812"
-    link: 
-      https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/         # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
+    link: https://aws.amazon.com/blogs/aws/amazon-inspector-update-assessment-reporting-proxy-support-and-more/     # "Amazon Linux 2017.03 Support – This new version of the Amazon Linux AMI is launching today and Inspector supports it now."
 
     latestReleaseDate: 2017-11-03
 -   releaseCycle: '2016.09'
@@ -157,8 +156,7 @@ releases:
     support: 2020-12-31
     eol: 2023-12-31
     latest: "2011.09"
-    link: 
-      https://aws.amazon.com/blogs/aws/amazon-linux-ami-production-status-new-features/
+    link: https://aws.amazon.com/blogs/aws/amazon-linux-ami-production-status-new-features/
 
 -   releaseCycle: '2010.11'
     releaseLabel: 'AMI 2010.11'

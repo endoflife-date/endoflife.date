@@ -11,16 +11,23 @@ changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEAS
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/NixOS/nix.git
+  methods:
+  -   git: https://github.com/NixOS/nix.git
 
 # when adding a new release mark the previous release EOL until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.20"
+    releaseDate: 2024-01-29
+    eol: false # Update to release date of 2.21 when available
+    latest: "2.20.4"
+    latestReleaseDate: 2024-03-01
+
 -   releaseCycle: "2.19"
     releaseDate: 2023-11-20
-    eol: false # Update to release date of 2.20 when available
-    latest: "2.19.2"
-    latestReleaseDate: 2023-11-29
+    eol: 2024-01-29
+    latest: "2.19.3"
+    latestReleaseDate: 2024-01-19
 
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20

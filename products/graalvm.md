@@ -10,15 +10,16 @@ eolColumn: Maintenance
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: graalvm
 
 releases:
 -   releaseCycle: "jdk-21"
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
     eol: false
-    latest: "jdk-21.0.1"
-    latestReleaseDate: 2023-10-24
+    latest: "jdk-21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"

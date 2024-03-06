@@ -15,7 +15,16 @@ releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-r
 changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases-__LATEST__.html
 
 auto:
--   custom: true
+  methods:
+  -   custom: amazon-neptune
+  -   release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex_exclude: '^1\.0\.1\..+$' # No End of life for 1.0.1.x releases
+        eol: "End of life"
+        upgradeVersion: "Upgrade to:"
 
 releases:
 -   releaseCycle: "1.3.0.0"
@@ -28,28 +37,28 @@ releases:
 -   releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
     upgradeVersion: "1.3.0.0"
-    eol: 2025-10-30
+    eol: 2025-03-06
     latest: "1.2.1.0.R7"
     latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-20
-    upgradeVersion: "1.2.1.0"
-    eol: 2024-10-31
+    upgradeVersion: "1.3.0.0"
+    eol: 2025-03-06
     latest: "1.2.0.2.R6"
     latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "1.2.0.1"
     releaseDate: 2022-10-26
-    upgradeVersion: "1.2.1.0"
-    eol: 2024-10-31
+    upgradeVersion: "1.3.0.0"
+    eol: 2025-03-06
     latest: "1.2.0.1.R3"
     latestReleaseDate: 2023-09-27
 
 -   releaseCycle: "1.2.0.0"
     releaseDate: 2022-07-21
-    upgradeVersion: "1.2.1.0"
-    eol: 2024-10-31
+    upgradeVersion: "1.3.0.0"
+    eol: 2025-03-06
     latest: "1.2.0.0.R4"
     latestReleaseDate: 2023-09-29
 
@@ -63,7 +72,7 @@ releases:
 -   releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
-    eol: 2024-01-30
+    eol: 2024-10-31
     latest: "1.1.0.0.R2"
     latestReleaseDate: 2022-05-16
 

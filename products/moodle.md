@@ -4,40 +4,49 @@ category: server-app
 tags: php-runtime
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
-changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__'
-  %}/__LATEST__{% endif %}"
+changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/moodle/moodle.git
+  methods:
+  -   git: https://github.com/moodle/moodle.git
+  -   release_table: https://moodledev.io/general/releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Initial release date"
+        support: "General support ends"
+        eol: "Security support ends"
 
-# Support and EOL dates on https://moodledev.io/general/releases
+# supportedPhpVersions can be found in the release notes.
 releases:
 -   releaseCycle: "4.3"
     releaseDate: 2023-10-07
-    support: 2024-10-14
-    eol: 2025-04-14
+    support: 2024-10-07
+    eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.3.2"
-    latestReleaseDate: 2023-12-22
+    latest: "4.3.3"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-04-22
     support: 2024-04-22
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.2.5"
-    latestReleaseDate: 2023-12-22
+    latest: "4.2.6"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "4.1"
     lts: true
     releaseDate: 2022-11-26
-    support: 2023-11-13
-    eol: 2025-11-10
+    support: 2023-12-11
+    eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
-    latest: "4.1.8"
-    latestReleaseDate: 2023-12-22
+    latest: "4.1.9"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-04-17

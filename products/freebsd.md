@@ -21,9 +21,13 @@ releases:
     eol: 2028-11-30
     link: null
 
+-   releaseCycle: "releng/13.3"
+    releaseDate: 2024-03-05
+    eol: false
+
 -   releaseCycle: "releng/13.2"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2024-06-30
 
 -   releaseCycle: "releng/13.1"
     releaseDate: 2022-05-16

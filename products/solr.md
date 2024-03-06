@@ -13,26 +13,27 @@ changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/apache/lucene-solr.git
-    regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
--   git: https://github.com/apache/solr.git
+  methods:
+  -   git: https://github.com/apache/lucene-solr.git
+      regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
+  -   git: https://github.com/apache/solr.git
     # Only pick new release from the new repo
-    regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
+      regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
 
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.4.0"
-    latestReleaseDate: 2023-10-14
+    latest: "9.5.0"
+    latestReleaseDate: 2024-02-12
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13
     eol: false
-    latest: "8.11.2"
-    latestReleaseDate: 2022-06-17
+    latest: "8.11.3"
+    latestReleaseDate: 2024-02-08
 
 ---
 

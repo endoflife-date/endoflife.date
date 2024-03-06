@@ -14,26 +14,27 @@ changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/rails/rails.git
+  methods:
+  -   git: https://github.com/rails/rails.git
 
 releases:
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eol: false
-    latest: "7.1.2"
-    latestReleaseDate: 2023-11-10
+    latest: "7.1.3.2"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-12-15
     eol: false
-    latest: "7.0.8"
-    latestReleaseDate: 2023-09-09
+    latest: "7.0.8.1"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "6.1"
     releaseDate: 2020-12-09
     eol: false
-    latest: "6.1.7.6"
-    latestReleaseDate: 2023-08-22
+    latest: "6.1.7.7"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "6.0"
     releaseDate: 2019-08-16

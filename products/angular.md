@@ -14,20 +14,21 @@ activeSupportWarnThreshold: 30
 eolWarnThreshold: 90
 
 identifiers:
--   purl: pkg:npm/@angular/core
+-   purl: pkg:npm/%40angular/core # purl are url-encoded
 -   purl: pkg:github/angular/angular
 
 auto:
--   git: https://github.com/angular/angular.git
+  methods:
+  -   git: https://github.com/angular/angular.git
 
 releases:
 -   releaseCycle: "17"
     releaseDate: 2023-11-08
     support: 2024-05-08
     eol: 2025-05-15
-    latest: "17.0.8"
-    latestReleaseDate: 2023-12-21
-    extendedSupport: false
+    latest: "17.2.3"
+    latestReleaseDate: 2024-02-27
+    extendedSupport: true
 
 -   releaseCycle: "16"
     releaseDate: 2023-05-03
@@ -35,7 +36,7 @@ releases:
     eol: 2024-11-08
     latest: "16.2.12"
     latestReleaseDate: 2023-11-02
-    extendedSupport: false
+    extendedSupport: true
 
 -   releaseCycle: "15"
     support: 2023-05-03
@@ -44,7 +45,7 @@ releases:
     releaseDate: 2022-11-16
     lts: 2023-05-03
     latestReleaseDate: 2023-10-04
-    extendedSupport: false
+    extendedSupport: true
 
 -   releaseCycle: "14"
     support: 2022-11-18
@@ -53,7 +54,7 @@ releases:
     releaseDate: 2022-06-02
     lts: 2022-12-02
     latestReleaseDate: 2023-03-13
-    extendedSupport: false
+    extendedSupport: true
 
 -   releaseCycle: "13"
     support: 2022-06-02
@@ -116,5 +117,5 @@ available.
 
 Commercial support is available for all deprecated versions of Angular through the 
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. 
-
+ 
 *[LTS]: Long Term Support

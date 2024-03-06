@@ -11,32 +11,34 @@ changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_p
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/apache/cassandra.git
-    regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/apache/cassandra.git
+      regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
-    latest: "4.1.3"
-    latestReleaseDate: 2023-07-18
+    latest: "4.1.4"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: 2024-07-15
-    latest: "4.0.11"
-    latestReleaseDate: 2023-07-18
+    latest: "4.0.12"
+    latestReleaseDate: 2024-01-23
+# EOL(3.11) = EOL(3.10) = releaseDate(5.0)
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: 2023-12-15
+    eol: false
     latest: "3.11.16"
     discontinued: true
     latestReleaseDate: 2023-08-20
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
-    eol: 2023-12-15
+    eol: false
     latest: "3.0.29"
     discontinued: true
     latestReleaseDate: 2023-05-15

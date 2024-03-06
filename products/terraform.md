@@ -5,15 +5,26 @@ tags: hashicorp
 iconSlug: terraform
 permalink: /terraform
 versionCommand: terraform --version
-releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
-auto:
--   git: https://github.com/hashicorp/terraform.git
+identifiers:
+-   purl: pkg:github/hashicorp/terraform
+-   purl: pkg:generic/terraform
 
+auto:
+  methods:
+  -   git: https://github.com/hashicorp/terraform.git
+
+# EOL(x) = releaseDate(x+2)
 releases:
-# EOL(R) = releaseDate(R+2)
+-   releaseCycle: "1.7"
+    releaseDate: 2024-01-17
+    eol: false # releaseDate(1.9)
+    latest: "1.7.4"
+    latestReleaseDate: 2024-02-21
+
 -   releaseCycle: "1.6"
     releaseDate: 2023-10-04
     eol: false # releaseDate(1.8)
@@ -22,7 +33,7 @@ releases:
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-06-12
-    eol: false # releaseDate(1.7)
+    eol: 2024-01-17
     latest: "1.5.7"
     latestReleaseDate: 2023-09-07
 

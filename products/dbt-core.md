@@ -13,7 +13,8 @@ activeSupportColumn: Active Support
 eolColumn: Critical Support
 
 auto:
--   git: https://github.com/dbt-labs/dbt-core.git
+  methods:
+  -   git: https://github.com/dbt-labs/dbt-core.git
 
 # support(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x) + 1 year
@@ -23,22 +24,22 @@ releases:
     releaseDate: 2023-11-02
     support: true
     eol: 2024-11-02
-    latest: "1.7.4"
-    latestReleaseDate: 2023-12-14
+    latest: "1.7.9"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "1.6"
     releaseDate: 2023-07-31
     support: 2023-11-02
     eol: 2024-07-30
-    latest: "1.6.9"
-    latestReleaseDate: 2023-11-16
+    latest: "1.6.10"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-04-27
     support: 2023-07-31
     eol: 2024-04-27
-    latest: "1.5.9"
-    latestReleaseDate: 2023-10-31
+    latest: "1.5.10"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "1.4"
     releaseDate: 2023-01-25

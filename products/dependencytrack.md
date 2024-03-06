@@ -9,7 +9,8 @@ alternate_urls:
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 
 auto:
--   git: https://github.com/DependencyTrack/dependency-track.git
+  methods:
+  -   git: https://github.com/DependencyTrack/dependency-track.git
 
 # eol(x) = releaseDate(x+1)
 releases:

@@ -9,22 +9,26 @@ changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.htm
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   purl: pkg:github/keycloak/keycloak
+
 auto:
--   git: https://github.com/keycloak/keycloak.git
+  methods:
+  -   git: https://github.com/keycloak/keycloak.git
 
 # eol(x) = release(x+1)
 releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-11-23
     eol: false
-    latest: "23.0.3"
-    latestReleaseDate: 2023-12-15
+    latest: "23.0.7"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "22.0"
     releaseDate: 2023-07-11
     eol: 2023-11-23
-    latest: "22.0.7"
-    latestReleaseDate: 2023-12-06
+    latest: "22.0.9"
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "21.1"
     releaseDate: 2023-04-19

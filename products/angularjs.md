@@ -13,11 +13,13 @@ eolColumn: Support
 extendedSupportColumn: Extended Long Term Support
 
 auto:
--   npm: angular
+  methods:
+  -   npm: angular
 
 identifiers:
 -   repology: angular.js
 -   purl: pkg:npm/angular
+-   purl: pkg:github/angular/angular.js
 
 releases:
 -   releaseCycle: "1.8"

@@ -7,21 +7,22 @@ changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__REL
 eolWarnThreshold: 121
 
 auto:
--   git: https://github.com/arangodb/arangodb.git
+  methods:
+  -   git: https://github.com/arangodb/arangodb.git
 
 # EOL dates can be found on https://arangodb.com/subscriptions/end-of-life-notice/.
 releases:
 -   releaseCycle: "3.11"
     releaseDate: 2023-05-23
     eol: false
-    latest: "3.11.6"
-    latestReleaseDate: 2023-11-29
+    latest: "3.11.8"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-09-29
     eol: 2024-04-15
-    latest: "3.10.12.1"
-    latestReleaseDate: 2023-12-27
+    latest: "3.10.13"
+    latestReleaseDate: 2024-01-26
 
 -   releaseCycle: "3.9"
     releaseDate: 2022-02-07

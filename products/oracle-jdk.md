@@ -16,18 +16,45 @@ extendedSupportColumn: Extended Support
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: oracle-jdk
+  -   release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+      selector: "table"
+      header_selector: "thead tr:nth-of-type(2)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)\s+\(LTS\).*' # ignore x.y releases as the Premier Support date is not displayed
+        releaseDate: "GA Date" # needed to exclude future releases
+        eol:
+          column: "Premier Support Until"
+          regex: '^(?P<value>\w+ \d+).*'
+        extendedSupport:
+          column: "Extended Support Until"
+          regex: '^(?P<value>\w+ \d+).*'
+  # Fix the release date, as only month-year dates are provided in the previous table.
+  -   release_table: https://www.java.com/releases/
+      render_javascript: true
+      selector: "table.releaselist"
+      header_selector: "tbody#released tr:nth-of-type(3)"
+      rows_selector: "tbody#released tr"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+)(\s+LTS)?$'
+        releaseDate: "Date"
 
 # Release dates, including future release dates, can be found on https://www.java.com/releases/.
-# EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html.
+# LTS EOL dates can be found on https://www.oracle.com/java/technologies/java-se-support-roadmap.html,
+# for non-LTS, eol(x) = releaseDate(x+1).
 releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
     extendedSupport: 2031-09-30
-    latest: "21.0.1"
-    latestReleaseDate: 2023-10-17
+    latest: "21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -55,8 +82,8 @@ releases:
     releaseDate: 2021-09-14
     eol: 2026-09-30
     extendedSupport: 2029-09-30
-    latest: "17.0.9"
-    latestReleaseDate: 2023-10-17
+    latest: "17.0.10"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -98,8 +125,8 @@ releases:
     releaseDate: 2018-09-25
     eol: 2023-09-30
     extendedSupport: 2032-01-31
-    latest: "11.0.21"
-    latestReleaseDate: 2023-10-17
+    latest: "11.0.22"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "10"
     releaseDate: 2018-03-20
@@ -120,8 +147,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2022-03-31
     extendedSupport: 2030-12-31
-    latest: "8u391"
-    latestReleaseDate: 2023-10-17
+    latest: "8u401"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "7"
     lts: true
@@ -154,7 +181,8 @@ releases:
     # https://web.archive.org/web/20081217100039/http://java.sun.com/products/archive/eol.policy.html
     eol: 2008-10-30
     extendedSupport: false
-    link: https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
+    link:
+      https://www.oracle.com/java/technologies/javase/advanced-v142-support-relnotes.html
     latest: "1.4.2_42"
     latestReleaseDate: 2013-02-19
 
@@ -172,7 +200,8 @@ releases:
     # https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     eol: 2003-11-30
     extendedSupport: false
-    link: https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
+    link:
+      https://web.archive.org/web/20080410071627/http://java.sun.com/products/archive/eol.policy.html
     latest: "1.2.2_18"
     latestReleaseDate: 2007-01-12
 
@@ -180,7 +209,7 @@ releases:
     releaseDate: 1997-02-18
     eol: 2002-10-09
     extendedSupport: false
-    link:
+    link: null
     latest: "1.1.8_010"
     latestReleaseDate: 2002-10-09
 
@@ -188,7 +217,7 @@ releases:
     releaseDate: 1996-01-23
     eol: 1996-05-07
     extendedSupport: false
-    link:
+    link: null
     latest: "1.0.2"
     latestReleaseDate: 1996-05-07
 

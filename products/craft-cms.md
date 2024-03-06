@@ -14,22 +14,31 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/craftcms/cms.git
+  methods:
+  -   git: https://github.com/craftcms/cms.git
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
+        support: "Full Support Until"
+        eol: "Security Support Until"
 
 releases:
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
-    support: 2024-04-30
-    eol: 2025-04-30
-    latest: '4.5.14'
-    latestReleaseDate: 2024-01-02
+    support: 2025-03-30
+    eol: 2026-03-30
+    latest: '4.8.1'
+    latestReleaseDate: 2024-03-05
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
     support: 2023-04-30
     eol: 2024-04-30
-    latest: '3.9.10'
-    latestReleaseDate: 2024-01-02
+    latest: '3.9.11'
+    latestReleaseDate: 2024-03-05
 
 -   releaseCycle: "2"
     releaseDate: 2014-04-01

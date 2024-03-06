@@ -14,6 +14,13 @@ releaseColumn: false
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "5"
+    releaseLabel: "5" # Is just called "Raspberry Pi 5", without "Model B"
+    # https://www.raspberrypi.com/news/raspberry-pi-5-available-now/
+    releaseDate: 2023-10-23
+    discontinued: 2035-01-01
+    link: https://www.raspberrypi.com/products/raspberry-pi-5/
+
 -   releaseCycle: "CM4S"
     releaseLabel: Compute Module 4S
     # https://www.jeffgeerling.com/blog/2022/new-raspberry-pi-compute-module-4s
@@ -46,35 +53,40 @@ releases:
     releaseLabel: Compute Module 4
     # https://www.raspberrypi.com/news/raspberry-pi-compute-module-4/
     releaseDate: 2020-10-19
-    discontinued: 2028-01-01
+    # https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
+    discontinued: 2031-01-01
     link: https://www.raspberrypi.com/products/compute-module-4/
 
 -   releaseCycle: "4-b"
     releaseLabel: "4 Model B"
     # https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/
     releaseDate: 2019-06-24
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/
+    discontinued: 2031-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 
 -   releaseCycle: "CM3+"
     releaseLabel: Compute Module 3+
     # https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/
     releaseDate: 2019-01-28
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/compute-module-3-plus/
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/compute-module-3-plus/
 
 -   releaseCycle: "3-a+"
     releaseLabel: "3 Model A+"
     # https://www.raspberrypi.com/news/new-product-raspberry-pi-3-model-a/
     releaseDate: 2018-11-15
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/
 
 -   releaseCycle: "3-b+"
     releaseLabel: "3 Model B+"
     # https://www.raspberrypi.com/news/raspberry-pi-3-model-bplus-sale-now-35/
     releaseDate: 2018-03-14
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
 
     # There is also https://www.raspberrypi.com/news/zero-wh/, but no associated product page, so
@@ -90,14 +102,16 @@ releases:
     releaseLabel: Compute Module 3
     # https://www.raspberrypi.com/news/compute-module-3-launch/
     releaseDate: 2017-01-16
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/compute-module-3/
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/compute-module-3/
 
 -   releaseCycle: "3-b"
     releaseLabel: "3 Model B"
     # https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/
     releaseDate: 2016-02-29
-    discontinued: 2026-01-01
+    # https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
 
 -   releaseCycle: "zero"

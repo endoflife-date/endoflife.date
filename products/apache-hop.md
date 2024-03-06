@@ -11,7 +11,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   github_releases: 'apache/hop'
+  methods:
+  -   github_releases: 'apache/hop'
 
 # eol(x) = releaseDate(x+1)
 releases:

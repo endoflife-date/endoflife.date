@@ -13,7 +13,8 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/openwrt/openwrt.git
+  methods:
+  -   git: https://github.com/openwrt/openwrt.git
 
 # EOL(R)=MAX(releaseDate(R+1)+6m, releaseDate(R)+1y)
 # Support(R) = releaseDate(R+1)

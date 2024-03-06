@@ -8,20 +8,20 @@ alternate_urls:
 -   /apache_log4j
 -   /apache-log4j
 releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
-changelogTemplate: 
-  https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
+changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
 releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   maven: org.apache.logging.log4j/log4j-core
+  methods:
+  -   maven: org.apache.logging.log4j/log4j-core
 
 releases:
 -   releaseCycle: "2"
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.22.1"
-    latestReleaseDate: 2023-12-22
+    latest: "2.23.0"
+    latestReleaseDate: 2024-02-17
 
 -   releaseCycle: "2.12"
     releaseDate: 2019-06-26

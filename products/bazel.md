@@ -11,7 +11,16 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/bazelbuild/bazel.git
+  methods:
+  -   git: https://github.com/bazelbuild/bazel.git
+  -   release_table: https://bazel.build/release
+      ignore_empty_releases: true # so that future releases are ignored
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "LTS release"
+          regex: '^Bazel (?P<value>\d+)$'
+        eol: "End of support"
 
 # latestVersion and eol on https://bazel.build/release
 # support(x) = releaseDate(x+1)
@@ -21,23 +30,23 @@ releases:
     lts: true
     releaseDate: 2023-12-11
     support: true # releaseDate(8)
-    eol: 2026-12-11
-    latest: "7.0.0"
-    latestReleaseDate: 2023-12-11
+    eol: 2026-12-31
+    latest: "7.0.2"
+    latestReleaseDate: 2024-01-25
 
 -   releaseCycle: "6"
     lts: true
     releaseDate: 2022-12-19
     support: 2023-12-11 # releaseDate(7)
-    eol: 2025-12-19
-    latest: "6.4.0"
-    latestReleaseDate: 2023-10-19
+    eol: 2025-12-31
+    latest: "6.5.0"
+    latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "5"
     lts: true
     releaseDate: 2022-01-19
     support: 2022-12-19 # releaseDate(6)
-    eol: 2025-01-19
+    eol: 2025-01-31
     latest: "5.4.1"
     latestReleaseDate: 2023-04-19
 
@@ -45,7 +54,7 @@ releases:
     lts: true
     releaseDate: 2021-01-21
     support: 2022-01-19 # releaseDate(5)
-    eol: 2024-01-21
+    eol: 2024-01-31
     latest: "4.2.4"
     latestReleaseDate: 2023-04-20
 

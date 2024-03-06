@@ -14,55 +14,71 @@ releaseDateColumn: true
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
 auto:
--   github_releases: "corretto/corretto-jdk"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-8"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-11"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-17"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-18"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-19"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-20"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
--   github_releases: "corretto/corretto-21"
-    regex: '^(?P<version>[\d\.]+)$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: "corretto/corretto-jdk"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-8"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-11"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-17"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-18"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-19"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-20"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   github_releases: "corretto/corretto-21"
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+  -   release_table: https://aws.amazon.com/corretto/faqs/
+      selector: "table"
+      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
+      rows_selector: "tr"
+      fields:
+        releaseCycle: "Coretto Release" # Typo on the website
+        eol: "End of Life"
+  -   release_table: https://aws.amazon.com/corretto/faqs/
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
+      rows_selector: "tr"
+      fields:
+        releaseCycle: "Corretto Release"
+        eol:
+          column: "End of Life"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 # Do not forget to update the "auto" configuration on each new major release.
-# EOL dates can be found on https://aws.amazon.com/corretto/faqs/.
 releases:
 -   releaseCycle: "21"
     lts: true
     # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
-    # Not yet announced on https://aws.amazon.com/corretto/faqs/
-    eol: false
-    latest: "21.0.1.12.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2030-10-31
+    latest: "21.0.2.14.1"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
     # Official release was on march : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
     releaseDate: 2023-02-23
-    eol: 2023-09-21
+    eol: 2023-10-17
     latest: "20.0.2.10.1"
     latestReleaseDate: 2023-08-23
 
 -   releaseCycle: "19"
     releaseDate: 2022-08-17
-    eol: 2023-04-01
+    eol: 2023-04-19
     latest: "19.0.2.7.1"
     latestReleaseDate: 2023-01-17
 
@@ -75,9 +91,9 @@ releases:
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-08-24
-    eol: 2029-10-01
-    latest: "17.0.9.8.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2029-10-31
+    latest: "17.0.10.8.1"
+    latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "16"
     releaseDate: 2021-04-23
@@ -88,26 +104,25 @@ releases:
 
 -   releaseCycle: "15"
     releaseDate: 2020-08-26
-    eol: 2021-03-16
+    eol: 2021-04-20
     latest: "15.0.2.7.1"
     latestReleaseDate: 2021-01-21
-    link:
-      https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
+    link: https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-02-18
-    eol: 2027-09-01
-    latest: "11.0.21.9.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2027-10-31
+    latest: "11.0.22.7.1"
+    latestReleaseDate: 2024-01-16
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-02-20
-    eol: 2026-06-30
-    latest: "8.392.08.1"
-    latestReleaseDate: 2023-10-17
+    eol: 2026-07-31
+    latest: "8.402.08.1"
+    latestReleaseDate: 2024-01-19
 
 ---
 

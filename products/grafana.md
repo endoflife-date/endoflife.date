@@ -8,9 +8,13 @@ changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/grafana/grafana
+
 auto:
--   git: https://github.com/grafana/grafana
-    regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/grafana/grafana
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
@@ -18,33 +22,40 @@ auto:
 # - support(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "10.2"
-    releaseDate: 2023-10-24
+-   releaseCycle: "10.3"
+    releaseDate: 2024-01-22
     support: true
     eol: false
-    latest: "10.2.3"
-    latestReleaseDate: 2023-12-18
+    latest: "10.3.3"
+    latestReleaseDate: 2024-02-02
+
+-   releaseCycle: "10.2"
+    releaseDate: 2023-10-24
+    support: 2024-01-23
+    eol: false
+    latest: "10.2.4"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "10.1"
     releaseDate: 2023-08-23
     support: 2023-10-24
-    eol: false
-    latest: "10.1.6"
-    latestReleaseDate: 2023-12-18
+    eol: 2024-01-23
+    latest: "10.1.7"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
     support: 2023-08-23
     eol: 2023-10-24
-    latest: "10.0.10"
-    latestReleaseDate: 2023-12-18
+    latest: "10.0.11"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "9.5"
     releaseDate: 2023-04-06
     support: 2023-06-09
     eol: false # eol(x) = releaseDate(11.x)
-    latest: "9.5.15"
-    latestReleaseDate: 2023-12-18
+    latest: "9.5.16"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27

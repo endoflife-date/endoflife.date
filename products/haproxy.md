@@ -8,11 +8,19 @@ releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
 releaseDateColumn: true
 
-# Source: https://www.haproxy.org/download/
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
--   custom: true
+  methods:
+  -   custom: haproxy
+
+identifiers:
+-   repology: haproxy
+-   purl: pkg:generic/haproxy
+-   purl: pkg:deb/debian/haproxy
+-   purl: pkg:deb/ubuntu/haproxy
+-   purl: pkg:rpm/amzn/haproxy
+-   purl: pkg:rpm/redhat/haproxy
+-   purl: pkg:rpm/centos/haproxy
+-   purl: pkg:apk/alpine/haproxy
 
 # releaseCycle, releseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
@@ -20,15 +28,15 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2023-12-05
     eol: 2025-01-01
-    latest: "2.9.1"
-    latestReleaseDate: 2023-12-15
+    latest: "2.9.6"
+    latestReleaseDate: 2024-02-26
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.5"
-    latestReleaseDate: 2023-12-07
+    latest: "2.8.7"
+    latestReleaseDate: 2024-02-26
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01

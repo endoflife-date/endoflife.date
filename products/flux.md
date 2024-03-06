@@ -14,16 +14,17 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/fluxcd/flux2.git
--   git: https://github.com/fluxcd/flux.git
+  methods:
+  -   git: https://github.com/fluxcd/flux2.git
+  -   git: https://github.com/fluxcd/flux.git
 
 # eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "2.2"
     releaseDate: 2023-12-12
     eol: false
-    latest: "2.2.2"
-    latestReleaseDate: 2023-12-19
+    latest: "2.2.3"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "2.1"
     releaseDate: 2023-08-24

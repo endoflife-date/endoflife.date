@@ -8,7 +8,8 @@ releaseDateColumn: true
 eolWarnThreshold: 14
 
 auto:
--   git: https://github.com/prometheus/prometheus.git
+  methods:
+  -   git: https://github.com/prometheus/prometheus.git
 
 identifiers:
 -   repology: prometheus
@@ -21,6 +22,18 @@ changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATE
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "2.50"
+    releaseDate: 2024-02-22
+    eol: 2024-04-04
+    latest: "2.50.1"
+    latestReleaseDate: 2024-02-26
+
+-   releaseCycle: "2.49"
+    releaseDate: 2024-01-15
+    eol: 2024-02-26
+    latest: "2.49.1"
+    latestReleaseDate: 2024-01-15
+
 -   releaseCycle: "2.48"
     releaseDate: 2023-11-15
     eol: 2023-12-28
@@ -43,8 +56,8 @@ releases:
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
-    latest: "2.45.2"
-    latestReleaseDate: 2023-12-19
+    latest: "2.45.3"
+    latestReleaseDate: 2024-01-24
 
 -   releaseCycle: "2.44"
     releaseDate: 2023-05-14

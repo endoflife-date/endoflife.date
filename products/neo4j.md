@@ -4,22 +4,40 @@ category: database
 tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
-versionCommand: "call dbms.components() yield versions unwind versions as version
-  return version;"
+versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 eolColumn: Support Status
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:github/neo4j/neo4j
+
 auto:
--   git: https://github.com/neo4j/neo4j.git
+  methods:
+  -   git: https://github.com/neo4j/neo4j.git
+      # Neo4j 5.0 was a Limited Availability release only and tag date is wrong.
+      # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
+      regex_exclude: '^5\.0\.\d+$'
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.
 releases:
+-   releaseCycle: "5.17"
+    releaseDate: 2024-02-23
+    eol: false
+    latest: "5.17.0"
+    latestReleaseDate: 2024-02-23
+
+-   releaseCycle: "5.16"
+    releaseDate: 2024-01-22
+    eol: 2024-02-23
+    latest: "5.16.0"
+    latestReleaseDate: 2024-01-22
+
 -   releaseCycle: "5.15"
     releaseDate: 2023-12-15
-    eol: false
+    eol: 2024-01-22
     latest: "5.15.0"
     latestReleaseDate: 2023-12-15
 
@@ -107,18 +125,12 @@ releases:
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
 
--   releaseCycle: "5.0"
-    releaseDate: 2022-10-28
-    eol: 2022-10-24
-    latest: "5.0.0"
-    latestReleaseDate: 2022-10-28
-
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-06-30
-    latest: "4.4.29"
+    latest: "4.4.31"
     lts: true
-    latestReleaseDate: 2023-12-21
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-10

@@ -14,10 +14,23 @@ releaseDateColumn: true
 
 # Used only for detecting new minor releases.
 auto:
--   custom: true
+  methods:
+  -   custom: looker
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:
+-   releaseCycle: "24.2"
+    releaseDate: 2024-02-14
+    eol: 2024-05-31
+    latest: '24.2'
+    latestReleaseDate: 2024-02-14
+
+-   releaseCycle: "24.0"
+    releaseDate: 2024-01-10
+    lts: 2024-03-01
+    eol: 2024-05-31
+    latest: '24.0'
+    latestReleaseDate: 2024-01-10
 
 -   releaseCycle: "23.20"
     releaseDate: 2023-11-08

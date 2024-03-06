@@ -14,9 +14,10 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/godotengine/godot.git
-    regex: ^(?P<version>\d+(\.\d+){1,3})-stable$
-    template: "{{version}}"
+  methods:
+  -   git: https://github.com/godotengine/godot.git
+      regex: ^(?P<version>\d+(\.\d+){1,3})-stable$
+      template: "{{version}}"
 
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release

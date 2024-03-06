@@ -13,16 +13,17 @@ releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   git: https://github.com/SonarSource/sonarqube.git
-    regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
+  methods:
+  -   git: https://github.com/SonarSource/sonarqube.git
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
 -   releaseCycle: "10"
     releaseDate: 2023-03-30
     support: true
     eol: false
-    latest: "10.3.0"
-    latestReleaseDate: 2023-11-15
+    latest: "10.4.1"
+    latestReleaseDate: 2024-02-23
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"
@@ -30,8 +31,8 @@ releases:
     support: 2023-03-30
     eol: false
     lts: 2023-02-07
-    latest: "9.9.3"
-    latestReleaseDate: 2023-11-09
+    latest: "9.9.4"
+    latestReleaseDate: 2024-02-20
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"

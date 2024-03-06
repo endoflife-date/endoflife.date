@@ -8,7 +8,7 @@ alternate_urls:
 -   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
 releaseImage: 
-  https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCwzOTdd/CMS-5-Support-Timeline-May-2023.png
+  https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCw0ODdd/CMS-5.1-Support-Timeline-with-provisional-release-date.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 activeSupportColumn: Active Development
@@ -17,7 +17,8 @@ releaseDateColumn: true
 eolWarnThreshold: 182
 
 auto:
--   git: https://github.com/silverstripe/silverstripe-cms.git
+  methods:
+  -   git: https://github.com/silverstripe/silverstripe-cms.git
 
 identifiers:
 -   purl: pkg:composer/silverstripe/cms
@@ -29,8 +30,8 @@ releases:
     releaseDate: 2023-10-16
     support: 2024-04-17
     eol: 2024-10-17
-    latest: "5.1.4"
-    latestReleaseDate: 2023-12-19
+    latest: "5.1.6"
+    latestReleaseDate: 2024-02-10
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
@@ -43,8 +44,8 @@ releases:
     releaseDate: 2023-04-26
     support: 2024-04-01
     eol: 2025-04-01
-    latest: "4.13.10"
-    latestReleaseDate: 2023-11-20
+    latest: "4.13.13"
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "4.12"
     releaseDate: 2022-12-19

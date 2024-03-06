@@ -17,15 +17,16 @@ identifiers:
 -   repology: memcached
 
 auto:
--   git: https://github.com/memcached/memcached.git
+  methods:
+  -   git: https://github.com/memcached/memcached.git
 
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.6"
     releaseDate: 2020-03-08
     eol: false
-    latest: '1.6.22'
-    latestReleaseDate: 2023-10-15
+    latest: '1.6.24'
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-07-21

@@ -10,8 +10,9 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   distrowatch: eurolinux
-    regex: '^Distribution Release: EuroLinux (?P<major>\d).(?P<minor>\d)$'
+  methods:
+  -   distrowatch: eurolinux
+      regex: '^Distribution Release: EuroLinux (?P<major>\d).(?P<minor>\d)$'
 
 releases:
 -   releaseCycle: "9"

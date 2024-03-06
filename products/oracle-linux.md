@@ -16,9 +16,10 @@ extendedSupportColumn: Extended Support
 
 # https://regex101.com/r/fRdw9L/1
 auto:
--   distrowatch: oracle
-    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
-      Update )?(?P<minor>\d+)?$'
+  methods:
+  -   distrowatch: oracle
+      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
+        Update )?(?P<minor>\d+)?$'
 
 identifiers:
 -   cpe: cpe:/o:oracle:linux

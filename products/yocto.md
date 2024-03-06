@@ -14,8 +14,9 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   git: https://github.com/yoctoproject/poky.git
-    regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
+  methods:
+  -   git: https://github.com/yoctoproject/poky.git
+      regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
@@ -23,8 +24,8 @@ releases:
     codename: 'Nanbield'
     releaseDate: 2023-11-09
     eol: 2024-06-09
-    latest: "4.3.1"
-    latestReleaseDate: 2023-12-07
+    latest: "4.3.3"
+    latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
@@ -45,8 +46,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.15"
-    latestReleaseDate: 2023-12-20
+    latest: "4.0.16"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -74,8 +75,8 @@ releases:
     lts: true
     releaseDate: 2020-04-21
     eol: 2024-04-01
-    latest: "3.1.30"
-    latestReleaseDate: 2023-12-19
+    latest: "3.1.31"
+    latestReleaseDate: 2024-01-30
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'

@@ -13,9 +13,10 @@ releaseDateColumn: true
 
 # https://regex101.com/r/ahCFde/1
 auto:
--   distrowatch: proxmox
-    regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual
-      Environment"$'
+  methods:
+  -   distrowatch: proxmox
+      regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual
+        Environment"$'
 
 releases:
 -   releaseCycle: "8"
