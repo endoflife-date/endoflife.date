@@ -13,8 +13,11 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
-- custom: true
+  methods:
+  - custom: chef-infra-server
 
+identifiers:
+-   repology: chef-server
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # support(x) = releaseDate(x+1)
 releases:
