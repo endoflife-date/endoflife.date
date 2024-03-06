@@ -5,7 +5,7 @@ tags: php-runtime
 iconSlug: icinga
 permalink: /icinga-web
 alternate_urls:
-- /icingaweb
+-   /icingaweb
 versionCommand: icingacli version
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
 changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
@@ -71,7 +71,7 @@ releases:
     support: 2019-07-30
     eol: 2020-06-08
     latest: "2.6.4"
-    latestReleaseDate: 2020-08-17
+    latestReleaseDate: 2020-08-18
 
 -   releaseCycle: "2.5"
     releaseDate: 2017-11-27
