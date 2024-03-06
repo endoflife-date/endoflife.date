@@ -6,19 +6,21 @@ iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: 
-  https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
-  https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
 -   purl: pkg:pypi/ansible
+-   purl: pkg:deb/debian/ansible
+-   purl: pkg:apk/alpine/ansible
+-   purl: pkg:github/ansible/ansible
 -   repology: ansible
 
 auto:
--   pypi: ansible
+  methods:
+  -   pypi: ansible
 
 # ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
@@ -30,8 +32,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-21
     eol: false
-    latest: "9.1.0"
-    latestReleaseDate: 2023-12-05
+    latest: "9.3.0"
+    latestReleaseDate: 2024-02-27
 
 -   releaseCycle: "8"
     ansibleCoreVersion: "2.15"

@@ -16,9 +16,10 @@ extendedSupportColumn: Extended Support
 
 # https://regex101.com/r/fRdw9L/1
 auto:
--   distrowatch: oracle
-    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
-      Update )?(?P<minor>\d+)?$'
+  methods:
+  -   distrowatch: oracle
+      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
+        Update )?(?P<minor>\d+)?$'
 
 identifiers:
 -   cpe: cpe:/o:oracle:linux
@@ -36,8 +37,8 @@ releases:
     releaseDate: 2019-07-19
     eol: 2029-07-01
     extendedSupport: 2031-07-01
-    latest: "8.8"
-    latestReleaseDate: 2023-05-26
+    latest: "8.9"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23

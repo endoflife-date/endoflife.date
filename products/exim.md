@@ -6,9 +6,11 @@ releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Exim/exim
-    # https://regex101.com/r/jDuVex/1
-    regex: ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
+  methods:
+  -   git: https://github.com/Exim/exim
+      # https://regex101.com/r/jDuVex/1
+      regex:
+        ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
 
 identifiers:
 -   repology: exim
@@ -20,8 +22,8 @@ releases:
 -   releaseCycle: "4.97"
     releaseDate: 2023-11-04
     eol: false
-    latest: "4.97"
-    latestReleaseDate: 2023-11-04
+    latest: "4.97.1"
+    latestReleaseDate: 2023-12-25
 
 -   releaseCycle: "4.96"
     releaseDate: 2022-06-25

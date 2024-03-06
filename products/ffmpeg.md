@@ -11,9 +11,10 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
-# upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
--   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
+  methods:
+  # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
+  -   git: https://github.com/FFmpeg/FFmpeg.git
+      regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
@@ -21,8 +22,8 @@ releases:
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1"
-    latestReleaseDate: 2023-11-11
+    latest: "6.1.1"
+    latestReleaseDate: 2023-12-31
 
 -   releaseCycle: "6.0"
     codename: Von Neumann

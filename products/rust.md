@@ -10,16 +10,30 @@ alternate_urls:
 releasePolicyLink: https://rust-lang.github.io/rustup/concepts/channels.html
 eolColumn: Supported
 versionCommand: rustc --version
+changelogTemplate: https://github.com/rust-lang/rust/releases/tag/__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/rust-lang/rust.git
+  methods:
+  -   git: https://github.com/rust-lang/rust.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "1.76"
+    releaseDate: 2024-02-08
+    eol: false
+    latest: "1.76.0"
+    latestReleaseDate: 2024-02-08
+
+-   releaseCycle: "1.75"
+    releaseDate: 2023-12-28
+    eol: 2024-02-08
+    latest: "1.75.0"
+    latestReleaseDate: 2023-12-28
+
 -   releaseCycle: "1.74"
     releaseDate: 2023-11-16
-    eol: false
+    eol: 2023-12-28
     latest: "1.74.1"
     latestReleaseDate: 2023-12-07
 
@@ -121,7 +135,7 @@ releases:
 
 -   releaseCycle: "1.56"
     releaseDate: 2021-10-21
-    eol: 2021-01-03
+    eol: 2021-12-03
     latest: "1.56.1"
     latestReleaseDate: 2021-11-01
 

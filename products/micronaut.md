@@ -13,15 +13,16 @@ eolColumn: Active Maintenance
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/micronaut-projects/micronaut-core.git
+  methods:
+  -   git: https://github.com/micronaut-projects/micronaut-core.git
 
 releases:
 -   releaseCycle: "4"
     releaseDate: 2023-07-11
     eol: false
     support: true
-    latest: "4.2.2"
-    latestReleaseDate: 2023-12-14
+    latest: "4.3.9"
+    latestReleaseDate: 2024-02-24
 
 -   releaseCycle: "3"
     releaseDate: 2021-08-18

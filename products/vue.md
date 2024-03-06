@@ -13,7 +13,8 @@ releaseDateColumn: true
 extendedSupportColumn: Commercial Support
 
 auto:
--   npm: vue
+  methods:
+  -   npm: vue
 
 identifiers:
 -   repology: vue.js
@@ -28,8 +29,8 @@ releases:
     support: true
     eol: false
     extendedSupport: false
-    latest: "3.3.13"
-    latestReleaseDate: 2023-12-19
+    latest: "3.4.21"
+    latestReleaseDate: 2024-02-28
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
 -   releaseCycle: "2"

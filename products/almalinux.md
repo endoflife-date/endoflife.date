@@ -16,8 +16,9 @@ identifiers:
 -   cpe: cpe:2.3:o:almalinux:almalinux
 
 auto:
--   distrowatch: alma
-    regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
+  methods:
+  -   distrowatch: alma
+      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
 
 releases:
 -   releaseCycle: "9"
@@ -26,7 +27,7 @@ releases:
     eol: 2032-05-31
     latest: "9.3"
     latestReleaseDate: 2023-11-13
-    link: https://almalinux.org/blog/almalinux-91-now-available/
+    link: https://almalinux.org/blog/2023-11-13-announcing-93-stable/
 
 -   releaseCycle: "8"
     releaseDate: 2021-03-30

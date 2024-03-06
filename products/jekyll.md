@@ -11,7 +11,8 @@ activeSupportColumn: Active Development
 eolColumn: Active Maintenance
 
 auto:
--   git: https://github.com/jekyll/jekyll.git
+  methods:
+  -   git: https://github.com/jekyll/jekyll.git
 
 releases:
 -   releaseCycle: "4"
@@ -19,16 +20,16 @@ releases:
     releaseDate: 2019-08-20
     support: true
     eol: false
-    latest: "4.3.2"
-    latestReleaseDate: 2023-01-20
+    latest: "4.3.3"
+    latestReleaseDate: 2023-12-27
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2015-10-26
     support: false
     eol: false
-    latest: "3.9.3"
-    latestReleaseDate: 2023-01-30
+    latest: "3.9.5"
+    latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "2"
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/

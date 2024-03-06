@@ -12,17 +12,19 @@ releaseDateColumn: true
 identifiers:
 -   repology: tomcat
 -   purl: pkg:maven/org.apache.tomcat/tomcat
+-   purl: pkg:github/apache/tomcat
 
 auto:
--   maven: org.apache.tomcat/tomcat
+  methods:
+  -   maven: org.apache.tomcat/tomcat
 
 releases:
 -   releaseCycle: "10.1"
     releaseDate: 2022-09-23
     eol: false
     minJavaVersion: 11
-    latest: "10.1.17"
-    latestReleaseDate: 2023-12-08
+    latest: "10.1.19"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-12-03
@@ -35,15 +37,15 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: 8
-    latest: "9.0.84"
-    latestReleaseDate: 2023-12-07
+    latest: "9.0.86"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
     eol: 2024-03-31
     minJavaVersion: 7
-    latest: "8.5.97"
-    latestReleaseDate: 2023-12-07
+    latest: "8.5.99"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "8.0"
     releaseDate: 2014-01-29
@@ -70,6 +72,9 @@ releases:
     eol: 2012-09-30
     minJavaVersion: 1.4
     latest: "5.5.36"
+
+
+
 
 ---
 

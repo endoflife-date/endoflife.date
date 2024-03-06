@@ -1,6 +1,6 @@
 ---
 title: Couchbase Server
-category: db
+category: database
 iconSlug: couchbase
 permalink: /couchbase-server
 alternate_urls:
@@ -17,16 +17,24 @@ identifiers:
 -   purl: pkg:docker/couchbase/server
 
 auto:
--   custom: true
+  methods:
+  -   custom: couchbase-server
+  -   release_table: https://www.couchbase.com/support-policy/enterprise-software/
+      selector: "table#end_of_life"
+      header_selector: "tr:nth-of-type(1)"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Couchbase Server"
+          regex: '^Couchbase Server (?P<value>[0-9.]+)$'
+        eol: "End of Full Maintenance"
 
-# End of life dates available on https://www.couchbase.com/support-policy/enterprise-software/
-# We use the "End of Full Maintenance" date on the last day of the month.
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
-    latest: "7.2.3"
-    latestReleaseDate: 2023-11-30
+    latest: "7.2.4"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "7.1"
     releaseDate: 2022-05-31
@@ -49,7 +57,7 @@ releases:
 -   releaseCycle: "6.5"
     releaseDate: 2020-01-15
     eol: 2021-02-28
-    link: 
+    link:
       https://web.archive.org/web/20230519160357/https://docs.couchbase.com/server/6.5/release-notes/relnotes.html
     latest: "6.5.2"
     latestReleaseDate: 2021-02-15
@@ -57,7 +65,7 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2018-10-31
     eol: 2020-07-31
-    link: 
+    link:
       https://web.archive.org/web/20230519162206/https://docs.couchbase.com/server/6.0/release-notes/relnotes.html
     latest: "6.0.5"
     latestReleaseDate: 2022-04-30

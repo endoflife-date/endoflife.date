@@ -17,58 +17,77 @@ identifiers:
 -   purl: pkg:pypi/django
 
 auto:
--   git: https://github.com/django/django.git
+  methods:
+  -   git: https://github.com/django/django.git
+  -   release_table: https://www.djangoproject.com/download/#supported-versions
+      selector: "table:nth-of-type(1)" # ignore Future Roadmap table
+      header_selector: "tr:nth-of-type(1)"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Release Series"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        support: "End of mainstream support1"
+        eol: "End of extended support2"
+  -   release_table: https://www.djangoproject.com/download/#unsupported-versions
+      selector: "table.django-unsupported-versions"
+      header_selector: "tr:nth-of-type(1)"
+      rows_selector: "tr"
+      fields:
+        releaseCycle:
+          column: "Release Series"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        support: "End of mainstream support1"
+        eol: "End of extended support2"
 
-# support / eol dates can be found on https://www.djangoproject.com/download/#supported-versions.
-# When exact day is not know, use the first day of the month.
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
-    support: 2024-08-01
-    eol: 2025-04-01
-    latest: "5.0"
-    latestReleaseDate: 2023-12-04
+    support: 2024-08-31
+    eol: 2025-04-30
+    latest: "5.0.3"
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "4.2"
     lts: true
     releaseDate: 2023-04-03
     support: 2023-12-04
-    eol: 2026-04-01
-    latest: "4.2.8"
-    latestReleaseDate: 2023-12-04
+    eol: 2026-04-30
+    latest: "4.2.11"
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-08-03
-    support: 2023-04-01
+    support: 2023-04-05
     eol: 2023-12-01
     latest: "4.1.13"
     latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-12-07
-    support: 2022-08-01
+    support: 2022-08-03
     eol: 2023-04-01
     latest: "4.0.10"
     latestReleaseDate: 2023-02-14
 
 -   releaseCycle: "3.2"
     releaseDate: 2021-04-06
-    support: 2021-12-01
-    eol: 2024-04-01
-    latest: "3.2.23"
+    support: 2021-12-07
+    eol: 2024-04-30
+    latest: "3.2.25"
     lts: true
-    latestReleaseDate: 2023-11-01
+    latestReleaseDate: 2024-03-04
 
 -   releaseCycle: "3.1"
     releaseDate: 2020-08-04
-    support: 2021-04-05
+    support: 2021-04-06
     eol: 2021-12-07
     latest: "3.1.14"
     latestReleaseDate: 2021-12-07
 
 -   releaseCycle: "3.0"
     releaseDate: 2019-12-02
-    support: 2020-08-01
+    support: 2020-08-03
     eol: 2021-04-06
     latest: "3.0.14"
     latestReleaseDate: 2021-04-06
@@ -76,8 +95,8 @@ releases:
 -   releaseCycle: "2.2"
     lts: true
     releaseDate: 2019-04-01
-    support: 2019-12-01
-    eol: 2022-04-01
+    support: 2019-12-02
+    eol: 2022-04-11
     latest: "2.2.28"
     latestReleaseDate: 2022-04-11
 

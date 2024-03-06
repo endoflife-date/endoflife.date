@@ -5,8 +5,7 @@ iconSlug: "gerrit"
 permalink: /gerrit
 versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
-changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"|
-  replace:'.',''}}
+changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
 eolColumn: "Support"
 releaseDateColumn: true
 
@@ -14,7 +13,8 @@ identifiers:
 -   purl: pkg:docker/gerritcodereview/gerrit
 
 auto:
--   git: https://github.com/GerritCodeReview/gerrit.git
+  methods:
+  -   git: https://github.com/GerritCodeReview/gerrit.git
 
 # eol(x) = releaseDate(x+3)
 releases:
@@ -27,14 +27,14 @@ releases:
 -   releaseCycle: "3.8"
     releaseDate: 2023-05-19
     eol: false
-    latest: "3.8.3"
-    latestReleaseDate: 2023-11-24
+    latest: "3.8.4"
+    latestReleaseDate: 2024-02-23
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-11-09
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2023-11-24
+    latest: "3.7.8"
+    latestReleaseDate: 2024-03-02
 
 -   releaseCycle: "3.6"
     releaseDate: 2022-05-23

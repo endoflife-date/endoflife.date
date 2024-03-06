@@ -1,6 +1,6 @@
 ---
 title: Oracle Database
-category: db
+category: database
 tags: oracle
 iconSlug: oracle
 permalink: /oracle-database
@@ -11,6 +11,19 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Premier Support
 extendedSupportColumn: Extended Support
+
+auto:
+  methods:
+  -   release_table: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)[a-z].*' # ignore x.y releases as the Premier Support date is not displayed
+        eol:
+          column: "Patching End Date"
+          regex: '^(?P<value>\w+( \d+,)? \d+).*'
 
 releases:
 -   releaseCycle: "23"
@@ -24,7 +37,7 @@ releases:
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
-    eol: 2024-04-30
+    eol: 2025-04-30
     extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 

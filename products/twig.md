@@ -7,7 +7,8 @@ changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHAN
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/twigphp/Twig.git
+  methods:
+  -   git: https://github.com/twigphp/Twig.git
 
 releases:
 -   releaseCycle: "3"

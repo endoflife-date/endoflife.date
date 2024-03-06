@@ -9,7 +9,8 @@ releasePolicyLink: https://xcp-ng.org/docs/releases.html
 eolColumn: Support
 
 auto:
--   git: https://github.com/xcp-ng/xcp-ng-release.git
+  methods:
+  -   git: https://github.com/xcp-ng/xcp-ng-release.git
 
 releases:
 -   releaseCycle: "8.2"

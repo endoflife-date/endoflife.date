@@ -6,23 +6,24 @@ iconSlug: sonarqube
 permalink: /sonar
 alternate_urls:
 -   /sonarqube
-releasePolicyLink: https://www.sonarqube.org/downloads/lts/
-changelogTemplate: "https://www.sonarqube.org/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
+releasePolicyLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/
+changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
 activeSupportColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   git: https://github.com/SonarSource/sonarqube.git
-    regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
+  methods:
+  -   git: https://github.com/SonarSource/sonarqube.git
+      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
 -   releaseCycle: "10"
     releaseDate: 2023-03-30
     support: true
     eol: false
-    latest: "10.3.0"
-    latestReleaseDate: 2023-11-15
+    latest: "10.4.1"
+    latestReleaseDate: 2024-02-23
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"
@@ -30,8 +31,8 @@ releases:
     support: 2023-03-30
     eol: false
     lts: 2023-02-07
-    latest: "9.9.3"
-    latestReleaseDate: 2023-11-09
+    latest: "9.9.4"
+    latestReleaseDate: 2024-02-20
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"
@@ -41,7 +42,7 @@ releases:
     lts: 2021-05-04
     latest: "8.9.10"
     latestReleaseDate: 2022-10-14
-    link: https://www.sonarqube.org/sonarqube-8-9-lts/
+    link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
 
 -   releaseCycle: "7"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
@@ -51,11 +52,11 @@ releases:
     lts: 2019-07-01
     latest: "7.9.6"
     latestReleaseDate: 2021-03-01
-    link: https://www.sonarqube.org/sonarqube-7-9-lts/
+    link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
 
 ---
 
-> [SonarQube](https://www.sonarqube.org/) (formerly Sonar) is an open-source platform developed by
+> [SonarQube](https://www.sonarsource.com/products/sonarqube/) (formerly Sonar) is an open-source platform developed by
 > SonarSource for continuous inspection of code quality to perform automatic reviews with static
 > analysis of code to detect bugs and code smells on many programming languages.
 
@@ -67,4 +68,4 @@ previous major release receives LTS support (security patches and fixes of block
 next LTS is declared. This support policy is the same for the Community, Developer, Enterprise and
 Data Center editions.
 
-Release notes for all version can be found on [What's New in SonarQube](https://www.sonarqube.org/whats-new/).
+Release notes for all version can be found on [What's New in SonarQube](https://www.sonarsource.com/products/sonarqube/whats-new/).

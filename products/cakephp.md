@@ -14,7 +14,8 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/cakephp/cakephp.git
+  methods:
+  -   git: https://github.com/cakephp/cakephp.git
 
 # support(X) = releaseDate(X+1) + 1 day
 # For a given major version, the last three minor versions have security support.
@@ -26,8 +27,8 @@ releases:
     supportedPhpVersions: 7.4+
     support: 2025-09-09
     eol: 2026-09-09
-    latest: "4.5.2"
-    latestReleaseDate: 2023-12-14
+    latest: "4.5.4"
+    latestReleaseDate: 2024-03-01
 
 -   releaseCycle: "5.0"
     codename: "Chiffon"
@@ -35,8 +36,8 @@ releases:
     supportedPhpVersions: 8.1+
     support: true
     eol: false
-    latest: "5.0.3"
-    latestReleaseDate: 2023-11-27
+    latest: "5.0.5"
+    latestReleaseDate: 2024-01-27
 
 -   releaseCycle: "4.4"
     codename: "Strawberry"

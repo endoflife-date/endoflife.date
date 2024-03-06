@@ -1,56 +1,63 @@
 ---
 title: Amazon RDS for PostgreSQL
 category: service
-tags: amazon
+tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-postgresql
-releasePolicyLink:
-  https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: rds
+  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "PostgreSQL major version"
+          regex: '^PostgreSQL\s+(?P<value>\d+(\.\d+)?).*$'
+        eol: "RDS end of standard support date"
 
 releases:
 -   releaseCycle: "16"
     releaseDate: 2023-11-17
-    eol: 2028-11-01
-    latest: "16.1"
-    latestReleaseDate: 2023-11-17
+    eol: 2029-02-28
+    latest: "16.2"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "15"
     releaseDate: 2023-02-27
-    eol: 2027-11-01
-    latest: "15.5"
-    latestReleaseDate: 2023-11-17
+    eol: 2028-02-29
+    latest: "15.6"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "14"
     releaseDate: 2022-02-03
-    eol: 2026-11-01
-    latest: "14.10"
-    latestReleaseDate: 2023-11-17
+    eol: 2027-02-28
+    latest: "14.11"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "13"
     releaseDate: 2021-02-24
-    eol: 2025-11-01
-    latest: "13.13"
-    latestReleaseDate: 2023-11-17
+    eol: 2026-02-28
+    latest: "13.14"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "12"
     releaseDate: 2020-03-31
-    eol: 2024-11-01
-    latest: "12.17"
-    latestReleaseDate: 2023-11-17
+    eol: 2025-02-28
+    latest: "12.18"
+    latestReleaseDate: 2024-02-22
 
 -   releaseCycle: "11"
     releaseDate: 2019-03-13
-    eol: 2023-11-01
+    eol: 2024-02-29
     latest: "11.22"
     latestReleaseDate: 2023-11-17
 
 -   releaseCycle: "10"
     releaseDate: 2018-02-27
-    eol: 2023-04-17
+    eol: 2023-04-30
     latest: "10.23"
     latestReleaseDate: 2023-01-24
 
@@ -59,6 +66,8 @@ releases:
     eol: 2022-04-30
     # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
+
+
 
 ---
 

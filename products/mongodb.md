@@ -1,6 +1,6 @@
 ---
 title: MongoDB Server
-category: db
+category: database
 iconSlug: mongodb
 permalink: /mongodb
 alternate_urls:
@@ -28,26 +28,42 @@ identifiers:
 -   repology: mongodb
 
 auto:
--   git: https://github.com/mongodb/mongo.git
-    regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  methods:
+  -   git: https://github.com/mongodb/mongo.git
+      regex: ^r(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  -   release_table: https://www.mongodb.com/legal/support-policy/lifecycles
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^MongoDB (?P<value>\d+\.\d+).*$'
+        eol: "End of Life Date"
 
 # EOL dates can be found at https://www.mongodb.com/support-policy/lifecycles.
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
 # Release dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because git
 # tag dates are used by the automation.
 releases:
+-   releaseCycle: "7.2"
+    releaseLabel: "7.2 (Rapid Release)"
+    releaseDate: 2023-12-14
+    eol: false
+    latest: '7.2.2'
+    latestReleaseDate: 2024-02-28
+
 -   releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
     releaseDate: 2023-10-04
-    eol: false
+    eol: 2024-01-31
     latest: '7.1.1'
     latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: 2026-08-31
-    latest: '7.0.4'
-    latestReleaseDate: 2023-11-15
+    latest: '7.0.6'
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -73,8 +89,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-31
-    latest: "6.0.12"
-    latestReleaseDate: 2023-11-16
+    latest: "6.0.14"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -100,14 +116,14 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.23"
-    latestReleaseDate: 2023-11-20
+    latest: "5.0.25"
+    latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
     eol: 2024-02-29
-    latest: "4.4.27"
-    latestReleaseDate: 2023-12-12
+    latest: "4.4.29"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-08-09
@@ -135,7 +151,7 @@ releases:
 
 -   releaseCycle: "3.2"
     releaseDate: 2015-12-04
-    eol: 2018-07-31
+    eol: 2018-09-30
     latest: "3.2.22"
     latestReleaseDate: 2018-12-26
 
@@ -201,7 +217,7 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2009-08-27
     eol: 2010-08-31
-    link:
+    link: null
     latest: '1.0.1'
     latestReleaseDate: 2009-10-22
 

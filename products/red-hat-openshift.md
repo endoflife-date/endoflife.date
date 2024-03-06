@@ -9,18 +9,16 @@ alternate_urls:
 -   /rh-openshift
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
-releaseImage: 
-  https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
-changelogTemplate: 
-  https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"|
-  replace:'.','-'}}-release-notes.html
+releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v5.png
+changelogTemplate: https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes.html
 releaseDateColumn: true
 activeSupportColumn: Full Support
 eolColumn: Maintenance Support
 extendedSupportColumn: Extended Update Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: red-hat-openshift
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
@@ -29,32 +27,32 @@ releases:
     support: true #  4.15 GA + 3 months
     eol: 2025-05-01
     extendedSupport: 2025-10-31
-    latest: "4.14.6"
-    latestReleaseDate: 2023-12-12
+    latest: "4.14.14"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
     support: 2024-01-31
     eol: 2024-11-17
     extendedSupport: false
-    latest: "4.13.26"
-    latestReleaseDate: 2023-12-13
+    latest: "4.13.35"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
     support: 2023-08-17
     eol: 2024-07-17
     extendedSupport: 2025-01-17
-    latest: "4.12.45"
-    latestReleaseDate: 2023-12-06
+    latest: "4.12.50"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
     support: 2023-04-17
     eol: 2024-02-10
     extendedSupport: false
-    latest: "4.11.55"
-    latestReleaseDate: 2023-12-14
+    latest: "4.11.58"
+    latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-03-10

@@ -1,6 +1,6 @@
 ---
 title: Apache HBase
-category: server-app
+category: database
 tags: apache java-runtime
 permalink: /hbase
 alternate_urls:
@@ -12,8 +12,9 @@ releaseDateColumn: true
 eolColumn: Service Status
 
 auto:
--   git: https://github.com/apache/hbase.git
-    regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
+  methods:
+  -   git: https://github.com/apache/hbase.git
+      regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
 -   releaseCycle: "2.5"

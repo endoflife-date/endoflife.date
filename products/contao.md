@@ -9,15 +9,25 @@ releaseDateColumn: true
 activeSupportColumn: true
 
 auto:
--   git: https://github.com/contao/contao.git
+  methods:
+  -   git: https://github.com/contao/contao.git
 
+# support and eol available on https://contao.org/release-plan.
 releases:
+-   releaseCycle: "5.3"
+    lts: true
+    releaseDate: 2024-02-16
+    support: 2027-02-14
+    eol: 2028-02-14
+    latest: "5.3.0"
+    latestReleaseDate: 2024-02-16
+
 -   releaseCycle: "5.2"
     releaseDate: 2023-08-15
     support: 2024-02-14
     eol: 2024-02-14
-    latest: "5.2.7"
-    latestReleaseDate: 2023-11-30
+    latest: "5.2.10"
+    latestReleaseDate: 2024-02-16
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-02-16
@@ -38,8 +48,8 @@ releases:
     releaseDate: 2022-02-17
     support: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.35"
-    latestReleaseDate: 2023-11-30
+    latest: "4.13.37"
+    latestReleaseDate: 2024-02-12
 
 -   releaseCycle: "4.12"
     releaseDate: 2021-08-19
@@ -83,7 +93,7 @@ releases:
     releaseDate: 2015-06-05
     support: 2018-06-30
     eol: 2019-05-31
-    link:
+    link: null
     latest: "3.5.40"
     latestReleaseDate: 2019-04-11
 

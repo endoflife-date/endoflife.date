@@ -6,16 +6,16 @@ iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
 -   /spring
-releasePolicyLink:
-  https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 changelogTemplate: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
 auto:
--   git: https://github.com/spring-projects/spring-framework.git
-    regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
+  methods:
+  -   git: https://github.com/spring-projects/spring-framework.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
 
 # EOL and extended support date available on https://spring.io/projects/spring-framework#support.
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
@@ -26,8 +26,8 @@ releases:
     releaseDate: 2023-11-16
     eol: 2025-08-31
     extendedSupport: 2026-12-31
-    latest: "6.1.2"
-    latestReleaseDate: 2023-12-14
+    latest: "6.1.4"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"
@@ -35,18 +35,18 @@ releases:
     releaseDate: 2022-11-16
     eol: 2024-08-31
     extendedSupport: 2025-12-31
-    latest: "6.0.15"
-    latestReleaseDate: 2023-12-14
+    latest: "6.0.17"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "5.3"
     supportedJavaVersions: "8 - 21"
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-27
-    eol: 2024-12-31
+    eol: 2024-08-31
     extendedSupport: 2026-12-31
     lts: true
-    latest: "5.3.31"
-    latestReleaseDate: 2023-11-16
+    latest: "5.3.32"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "5.2"
     supportedJavaVersions: "8, 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview
@@ -54,8 +54,7 @@ releases:
     releaseDate: 2019-09-30
     eol: 2021-12-31
     extendedSupport: 2023-12-31
-    link:
-      https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
 
@@ -65,8 +64,7 @@ releases:
     releaseDate: 2018-09-21
     eol: 2020-12-31
     extendedSupport: 2022-12-31
-    link:
-      https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.1.20"
     latestReleaseDate: 2020-12-09
 
@@ -76,8 +74,7 @@ releases:
     releaseDate: 2017-09-28
     eol: 2020-12-31
     extendedSupport: false
-    link:
-      https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
 
@@ -87,8 +84,7 @@ releases:
     releaseDate: 2016-06-10
     eol: 2020-12-31
     extendedSupport: false
-    link:
-      https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
 
@@ -98,8 +94,7 @@ releases:
     releaseDate: 2012-12-13
     eol: 2016-12-31
     extendedSupport: false
-    link:
-      https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
+    link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "3.2.18"
     latestReleaseDate: 2016-12-21
 

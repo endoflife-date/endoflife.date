@@ -11,11 +11,12 @@ eolColumn: Support Status
 
 # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
 auto:
--   git: https://github.com/ruby/ruby.git
-    # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
-    # The meaning of patch and tiny below is as per the new policy
-    regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
+  methods:
+  -   git: https://github.com/ruby/ruby.git
+      # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
+      # The meaning of patch and tiny below is as per the new policy
+      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
+      template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
 identifiers:
 -   repology: ruby
@@ -32,8 +33,8 @@ releases:
 -   releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.2"
-    latestReleaseDate: 2023-03-30
+    latest: "3.2.3"
+    latestReleaseDate: 2024-01-18
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-12-25

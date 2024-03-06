@@ -15,23 +15,40 @@ extendedSupport: Support
 extendedSupportColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
+# Tag and Maven release of new minor versions are usually created
+# a week before the "official" announcement, hence the use of GitHub releases.
 auto:
--   github_releases: quarkusio/quarkus
-    # See https://regex101.com/r/4mf9xU/1 for reference
-    regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
-    template: '{{version}}'
+  methods:
+  -   github_releases: quarkusio/quarkus
+      # See https://regex101.com/r/4mf9xU/1 for reference
+      regex: '^(?:Release )?(?P<version>[1-9][\d\.]+)(\.Final)?$'
+      template: '{{version}}'
 
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
-# - tag and Maven release of new minor versions are usually created a week before the "official" announcement
 releases:
+-   releaseCycle: "3.8"
+    releaseDate: 2024-02-28
+    eol: 2025-02-28
+    lts: true
+    extendedSupport: false
+    latest: "3.8.1"
+    latestReleaseDate: 2024-02-28
+
+-   releaseCycle: "3.7"
+    releaseDate: 2024-01-31
+    eol: 2024-02-28
+    extendedSupport: false
+    latest: "3.7.4"
+    latestReleaseDate: 2024-02-21
+
 -   releaseCycle: "3.6"
     releaseDate: 2023-11-29
-    eol: false
+    eol: 2024-01-31
     extendedSupport: false
-    latest: "3.6.4"
-    latestReleaseDate: 2023-12-20
+    latest: "3.6.9"
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-10-25
@@ -59,8 +76,8 @@ releases:
     eol: 2024-07-05
     lts: true
     extendedSupport: true
-    latest: "3.2.9"
-    latestReleaseDate: 2023-11-17
+    latest: "3.2.10"
+    latestReleaseDate: 2024-01-25
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
 
 -   releaseCycle: "3.1"

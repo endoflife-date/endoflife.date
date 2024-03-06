@@ -11,15 +11,16 @@ releaseDateColumn: true
 eolColumn: Security Support
 
 auto:
--   git: https://github.com/roundcube/roundcubemail.git
+  methods:
+  -   git: https://github.com/roundcube/roundcubemail.git
 
 releases:
 -   releaseCycle: "1.6"
     releaseDate: 2022-07-25
     support: true
     eol: false
-    latest: "1.6.5"
-    latestReleaseDate: 2023-11-05
+    latest: "1.6.6"
+    latestReleaseDate: 2024-01-20
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-10-18

@@ -1,6 +1,6 @@
 ---
 title: Tarantool
-category: db
+category: database
 permalink: /tarantool
 versionCommand: $ tarantool --version
 releaseImage: 
@@ -11,9 +11,17 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/tarantool/tarantool.git
+  methods:
+  -   git: https://github.com/tarantool/tarantool.git
 
+# EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table.
 releases:
+-   releaseCycle: "3.0"
+    releaseDate: 2023-12-26
+    eol: 2025-12-26
+    latest: "3.0.1"
+    latestReleaseDate: 2024-01-25
+
 -   releaseCycle: "2.11"
     lts: true
     releaseDate: 2023-05-24

@@ -21,22 +21,29 @@ identifiers:
 -   repology: go
 
 auto:
--   git: https://github.com/golang/go.git
-    regex: ^go(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
+  methods:
+  -   git: https://github.com/golang/go.git
+      regex: ^go(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.22"
+    releaseDate: 2024-02-06
+    eol: false
+    latest: "1.22.1"
+    latestReleaseDate: 2024-03-05
+
 -   releaseCycle: "1.21"
     releaseDate: 2023-08-08
     eol: false
-    latest: "1.21.5"
-    latestReleaseDate: 2023-12-05
+    latest: "1.21.8"
+    latestReleaseDate: 2024-03-05
 
 -   releaseCycle: "1.20"
     releaseDate: 2023-02-01
-    eol: false
-    latest: "1.20.12"
-    latestReleaseDate: 2023-12-05
+    eol: 2024-02-06
+    latest: "1.20.14"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "1.19"
     releaseDate: 2022-08-02

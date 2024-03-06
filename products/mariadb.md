@@ -1,6 +1,6 @@
 ---
 title: MariaDB
-category: db
+category: database
 iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
@@ -21,56 +21,66 @@ identifiers:
 -   purl: pkg:rpm/amzn/mariadb-server
 -   purl: pkg:rpm/redhat/mariadb-server
 -   purl: pkg:rpm/centos/mariadb-server
+-   purl: pkg:rpm/opensuse/mariadb
 
 auto:
--   git: https://github.com/MariaDB/server.git
-    # Drop any releases before the GA ones.
-    # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
-    # and Z a regex that only matches GA release patch numbers in that cycle.
-    # Note: This needs to be edited when a new release cycle (a new GA release) is added.
-    regex:
-    -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>11)\.(?P<minor>0)\.(?P<patch>([2-9]|\d{2}))$
-    -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
+  methods:
+  -   git: https://github.com/MariaDB/server.git
+      # Drop any releases before the GA ones.
+      # Each regex looks like (?P<major>X)\.(?P<minor>Y)\.(?P<patch>Z), where X is the major, Y the minor
+      # and Z a regex that only matches GA release patch numbers in that cycle.
+      # Note: This needs to be edited when a new release cycle (a new GA release) is added.
+      regex:
+      -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>2)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>3)\.(?P<patch>([7-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>4)\.(?P<patch>([6-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>5)\.(?P<patch>([4-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>6)\.(?P<patch>([3-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>7)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>8)\.(?P<patch>([3-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>0)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>2)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>3)\.(?P<patch>([2-9]|\d{2}))$
 
 releases:
+-   releaseCycle: "11.3"
+    releaseDate: 2024-02-16
+    eol: 2025-02-16
+    latest: "11.3.2"
+    latestReleaseDate: 2024-02-16
+
 -   releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
-    latest: "11.2.2"
-    latestReleaseDate: 2023-11-21
+    latest: "11.2.3"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21
     eol: 2024-08-21
-    latest: "11.1.3"
-    latestReleaseDate: 2023-11-13
+    latest: "11.1.4"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "11.0"
     releaseDate: 2023-06-06
     eol: 2024-06-06
-    latest: "11.0.4"
-    latestReleaseDate: 2023-11-13
+    latest: "11.0.5"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "10.11"
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    latest: "10.11.6"
-    latestReleaseDate: 2023-11-13
+    latest: "10.11.7"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "10.10"
     releaseDate: 2022-11-07
@@ -100,20 +110,20 @@ releases:
     lts: true
     releaseDate: 2021-07-05
     eol: 2026-07-06
-    latest: "10.6.16"
-    latestReleaseDate: 2023-11-13
+    latest: "10.6.17"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "10.5"
     releaseDate: 2020-06-23
     eol: 2025-06-24
-    latest: "10.5.23"
-    latestReleaseDate: 2023-11-13
+    latest: "10.5.24"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "10.4"
     releaseDate: 2019-06-17
     eol: 2024-06-18
-    latest: "10.4.32"
-    latestReleaseDate: 2023-11-13
+    latest: "10.4.33"
+    latestReleaseDate: 2024-02-06
 
 -   releaseCycle: "10.3"
     releaseDate: 2018-05-23

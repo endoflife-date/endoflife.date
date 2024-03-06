@@ -13,8 +13,13 @@ eolColumn: Maintenance
 releaseDateColumn: true
 extendedSupportColumn: true
 
+identifiers:
+-   purl: pkg:github/ionic-team/ionic-framework
+-   purl: pkg:npm/%40ionic/core
+
 auto:
--   git: https://github.com/ionic-team/ionic-framework.git
+  methods:
+  -   git: https://github.com/ionic-team/ionic-framework.git
 
 # support(R) = releaseDate(R+1)
 releases:
@@ -23,8 +28,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "7.6.2"
-    latestReleaseDate: 2023-12-19
+    latest: "7.7.3"
+    latestReleaseDate: 2024-02-21
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08
