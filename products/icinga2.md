@@ -4,14 +4,14 @@ category: server-app
 iconSlug: icinga
 permalink: /icinga2
 versionCommand: icinga2 -V
-releasePolicyLink: "https://icinga.com/subscriptions/support-matrix/"
+releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
 changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/"
 activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Icinga/icinga2
-
+  methods:
+  -   git: https://github.com/Icinga/icinga2
 
 identifiers:
 -   repology: icinga2
