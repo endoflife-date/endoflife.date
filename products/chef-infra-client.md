@@ -3,19 +3,21 @@ title: Chef Infra Client
 category: server-app
 tags: ruby-runtime
 iconSlug: chef
-permalink: /chefinfraclient
+permalink: /chef-infra-client
 alternate_urls:
--   /chefclient
+-   /chef-client
 versionCommand: chef-client -v
-releasePolicyLink: "https://docs.chef.io/versions/"
+releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_client/__LATEST__"
-
 activeSupportColumn: true
 releaseDateColumn: true
 
 auto:
-- custom: true
-  
+  methods:
+  - custom: chef-infra-client
+
+identifiers:
+-   repology: chef-client
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # support(x) = releaseDate(x+1)
 releases:
