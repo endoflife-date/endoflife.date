@@ -30,8 +30,8 @@ releases:
     support: true
     eol: false
     extendedSupport: true
-    latest: "12.0.6"
-    latestReleaseDate: 2024-01-30
+    latest: "12.0.7"
+    latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "11"
     minJvmVersion: 11

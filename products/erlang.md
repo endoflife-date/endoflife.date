@@ -22,8 +22,8 @@ releases:
     releaseDate: 2023-05-15
     support: true
     eol: 2026-05-15 # projected
-    latest: '26.2.2'
-    latestReleaseDate: 2024-02-07
+    latest: '26.2.3'
+    latestReleaseDate: 2024-03-06
 
 -   releaseCycle: "25"
     releaseDate: 2022-05-17

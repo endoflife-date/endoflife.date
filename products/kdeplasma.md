@@ -34,8 +34,8 @@ releases:
     releaseDate: 2023-02-14
     support: true
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
-    latest: "5.27.10"
-    latestReleaseDate: 2023-12-05
+    latest: "5.27.11"
+    latestReleaseDate: 2024-03-06
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.26"
