@@ -11,6 +11,15 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/xcp-ng/xcp-ng-release.git
+  -   release_table: https://xcp-ng.org/docs/releases.html#lts-releases
+      render_javascript: true
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Released"
+        eol: "Support until"
 
 releases:
 -   releaseCycle: "8.2"
