@@ -4,12 +4,9 @@ category: server-app
 iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
+changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolWarnThreshold: 14
-
-auto:
-  methods:
-  -   git: https://github.com/prometheus/prometheus.git
 
 identifiers:
 -   repology: prometheus
@@ -17,7 +14,17 @@ identifiers:
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
 -   purl: pkg:github/prometheus/prometheus
 
-changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
+auto:
+  methods:
+  -   git: https://github.com/prometheus/prometheus.git
+  -   release_table: https://prometheus.io/docs/introduction/release-cycle
+      selector: "table:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^Prometheus (?P<value>\d+\.\d+)$'
+        releaseDate: "Date"
+        eol: "End of support"
 
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
