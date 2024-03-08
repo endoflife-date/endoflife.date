@@ -66,7 +66,7 @@ releases:
 
 -   releaseCycle: "2.6"
     supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.6.14/reference/html/getting-started.html#getting-started.system-requirements
-    releaseDate: 2021-11-19
+    releaseDate: 2021-11-17
     eol: 2022-11-24
     extendedSupport: 2024-02-24
     latest: "2.6.15"
