@@ -7,7 +7,7 @@ alternate_urls:
 -   /silverstripe-cms
 -   /silverstripe-framework
 versionCommand: composer info silverstripe/cms
-releaseImage: 
+releaseImage:
   https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCw0ODdd/CMS-5.1-Support-Timeline-with-provisional-release-date.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
@@ -16,15 +16,22 @@ eolColumn: Security Support
 releaseDateColumn: true
 eolWarnThreshold: 182
 
-auto:
-  methods:
-  -   git: https://github.com/silverstripe/silverstripe-cms.git
-
 identifiers:
 -   purl: pkg:composer/silverstripe/cms
 -   purl: pkg:github/silverstripe/cms
 
-# support/eol dates see https://www.silverstripe.org/software/roadmap/
+auto:
+  methods:
+  -   git: https://github.com/silverstripe/silverstripe-cms.git
+  -   release_table: https://www.silverstripe.org/software/roadmap/
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle: "MINOR VERSION"
+        releaseDate: "STABLERELEASE"
+        support: "FULL SUPPORT ENDS"
+        eol: "END OF LIFE(EOL)"
+
 releases:
 -   releaseCycle: "5.1"
     releaseDate: 2023-10-16
