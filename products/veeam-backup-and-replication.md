@@ -33,8 +33,8 @@ releases:
     support: 2023-02-01
     eol: 2024-02-01
     link: "https://www.veeam.com/kb4126"
-    latest: "11.0.1.1261-P20230227"
-    latestReleaseDate: 2023-03-07
+    latest: "11.0.1.1261-P20240304"
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "10"
     releaseDate: 2020-02-04
