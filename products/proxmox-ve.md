@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "6"
     releaseDate: 2019-07-16
-    eol: 2022-07-31
+    eol: 2022-09-30
     latest: "6.4"
     latestReleaseDate: 2021-04-18
 

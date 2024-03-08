@@ -35,7 +35,7 @@ releases:
     support: false
     eol: 2023-03-31
     latest: "4.1.4"
-    latestReleaseDate: 2024-01-08
+    latestReleaseDate: 2024-03-08
 
 -   releaseCycle: "3"
     releaseDate: 2015-03-31

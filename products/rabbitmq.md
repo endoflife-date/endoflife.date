@@ -140,6 +140,7 @@ releases:
     link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 
+
 ---
 
 > [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker written in Erlang that

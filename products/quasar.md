@@ -32,11 +32,11 @@ releases:
     releaseDate: 2021-06-21
     support: true
     eol: false
-    latest: "2.14.6"
-    latestReleaseDate: 2024-02-29
+    latest: "2.14.7"
+    latestReleaseDate: 2024-03-08
 
 -   releaseCycle: "1"
-    releaseDate: 2019-07-03
+    releaseDate: 2019-03-07
     support: 2021-04-01
     eol: 2023-06-30
     latest: "1.22.10"
