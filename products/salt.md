@@ -29,6 +29,15 @@ identifiers:
 # - latest version: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 # - other: see changelogTemplate
 releases:
+-   releaseCycle: "3007"
+    lts: false # not yet on https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+    releaseDate: 2024-03-06
+    support: true # not yet on https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+    eol: false # not yet on https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+    latest: "3007.0"
+    latestReleaseDate: 2024-03-06
+    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+
 -   releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
