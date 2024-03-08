@@ -10,15 +10,24 @@ changelogTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
 activeSupportColumn: true
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   pypi: wagtail
-
 identifiers:
 -   repology: python:wagtail
 -   purl: pkg:pypi/wagtail
 
-# See https://github.com/wagtail/wagtail/wiki/Release-schedule for releaseDate / support / EOL dates.
+auto:
+  methods:
+  -   pypi: wagtail
+  -   release_table: https://github.com/wagtail/wagtail/wiki/Release-schedule
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release date"
+        support: "Active support"
+        eol: "Security support"
+
 releases:
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-07
