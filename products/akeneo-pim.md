@@ -27,8 +27,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2024-09-30
-    latest: "7.0.53"
-    latestReleaseDate: 2024-03-01
+    latest: "7.0.54"
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "6.0"
     codename: "Buccaneer Bunny"

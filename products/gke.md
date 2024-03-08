@@ -24,36 +24,36 @@ releases:
     releaseDate: 2024-01-26
     support: 2025-01-31
     eol: 2025-03-21
-    latest: '1.29.2-gke.1060000'
-    latestReleaseDate: 2024-03-04
+    latest: '1.29.2-gke.1217000'
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
     support: 2024-09-30
     eol: 2024-11-12
-    latest: '1.28.7-gke.1026000'
-    latestReleaseDate: 2024-03-04
+    latest: '1.28.7-gke.1100000'
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
     support: 2024-06-30
     eol: 2024-08-31
-    latest: '1.27.11-gke.1062000'
-    latestReleaseDate: 2024-03-04
+    latest: '1.27.11-gke.1118000'
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31
     eol: 2024-05-31
     support: 2024-03-31
-    latest: '1.26.14-gke.1044000'
-    latestReleaseDate: 2024-03-04
+    latest: '1.26.14-gke.1076000'
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
     eol: 2024-02-29
     support: 2023-12-31
-    latest: '1.25.16-gke.1570000'
-    latestReleaseDate: 2024-03-04
+    latest: '1.25.16-gke.1596000'
+    latestReleaseDate: 2024-03-07
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-06-23
