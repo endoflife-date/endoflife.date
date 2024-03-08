@@ -18,6 +18,16 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/zabbix/zabbix.git
+  -   release_table: https://www.zabbix.com/life_cycle_and_release_policy
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release name"
+          regex: '^Zabbix (?P<value>\d+\.\d+).*$'
+        releaseDate: "Release date"
+        support: "End of Full Support*"
+        eol: "End of Limited Support**"
 
 # For non-LTS releases :
 # - support(x) = release(x) + 6 months
