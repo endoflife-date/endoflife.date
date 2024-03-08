@@ -16,8 +16,14 @@ auto:
   methods:
   -   git: https://github.com/varnishcache/varnish-cache.git
       regex: ^varnish-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  -   release_table: https://varnish-cache.org/releases/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '(?P<value>\d+\.\d+).*'
+        eol: "EOL Date"
 
-# EOL dates can be found on https://varnish-cache.org/releases/
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2023-09-15
