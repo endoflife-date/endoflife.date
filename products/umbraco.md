@@ -16,6 +16,16 @@ auto:
   methods:
   -   git: https://github.com/umbraco/Umbraco-CMS.git
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+  -   release_table: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^Umbraco (?P<value>\d+)$'
+        releaseDate: "Release date"
+        support: "Security phase"
+        eol: "End-of-Life"
 
 # Only tracking major releases here, even if regressions are fixed on the last three minors.
 # This is because the LTS model is based on major versions, and maintaining so many minor versions
