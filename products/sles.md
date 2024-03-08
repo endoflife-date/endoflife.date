@@ -70,6 +70,13 @@ releases:
     latest: '15.5'
     latestReleaseDate: 2023-06-20
 
+-   releaseCycle: "12.5"
+    releaseDate: 2019-12-09
+    eol: 2024-10-31
+    extendedSupport: 2027-10-31
+    latest: '12.5'
+    latestReleaseDate: 2019-12-09
+
 -   releaseCycle: "12.4"
     releaseDate: 2018-12-12
     eol: 2020-06-30
