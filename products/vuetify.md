@@ -10,12 +10,31 @@ changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:npm/vuetify
+
 auto:
   methods:
   -   npm: vuetify
-
-identifiers:
--   purl: pkg:npm/vuetify
+  -   release_table: https://vuetifyjs.com/introduction/long-term-support/
+      render_javascript: true
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^Vuetify (?P<value>\d+).*$'
+        releaseDate:
+          column: "Initial Release Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
+        support:
+          column: "LTS Start Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
+        eol:
+          column: "LTS End Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 releases:
 -   releaseCycle: "3"
