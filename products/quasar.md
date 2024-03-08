@@ -11,14 +11,22 @@ releaseDateColumn: true
 activeSupportColumn: true
 eolColumn: LTS support
 
-auto:
-  methods:
-  -   npm: quasar
-
 identifiers:
 -   purl: pkg:npm/quasar
 
-# Support and EOL dates can be found on https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule.
+auto:
+  methods:
+  -   npm: quasar
+  -   release_table: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md
+      selector: "table:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+)\.x$'
+        releaseDate: "Released"
+        support: "Active support ends"
+        eol: "LTS support ends"
+
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-06-21
