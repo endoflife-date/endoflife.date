@@ -17,6 +17,21 @@ auto:
       regex:
       -   '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
       -   '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
+  -   release_table: https://www.rabbitmq.com/docs/versions
+      selector: "table.release-series"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "First Release"
+        eol: "End of Community Support1"
+        extendedSupport: "End of Extended Commercial Support2"
+  -   release_table: https://www.rabbitmq.com/docs/versions
+      selector: "table.release-series"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "First Release"
+        extendedSupport: "End of Life"
 
 releases:
 -   releaseCycle: "3.13"
