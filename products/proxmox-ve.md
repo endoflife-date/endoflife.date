@@ -15,8 +15,14 @@ releaseDateColumn: true
 auto:
   methods:
   -   distrowatch: proxmox
-      regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual
-        Environment"$'
+      regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual Environment"$'
+  -   release_table: https://pve.proxmox.com/wiki/FAQ
+      selector: "table#faq-support-table"
+      fields:
+        releaseCycle:
+          column: "Proxmox VE Version"
+          regex: '^Proxmox VE (?P<value>\d+)$'
+        eol: "Proxmox EOL"
 
 releases:
 -   releaseCycle: "8"
