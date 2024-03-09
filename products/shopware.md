@@ -5,7 +5,7 @@ tags: php-runtime
 iconSlug: shopware
 permalink: /shopware
 versionCommand: php bin/console --version
-# releasePolicyLink: https://shopware.com/
+releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: "https://github.com/shopware/shopware/blob/__LATEST__/CHANGELOG.md"
 releaseDateColumn: true
 activeSupportColumn: Bug Fix Maintenance
@@ -150,21 +150,16 @@ releases:
 > [Shopware](https://shopware.com) is an MIT licensed e-commerce platform written in PHP and
 > developed by Shopware AG.
 
-Shopware follows [semantic versioning](https://semver.org/).
+Shopware follows [semantic versioning](https://developer.shopware.com/release-notes/#types-of-releases).
+but starting with Shopware 6 the versioning scheme has been changed to a four-digit version number:
+`6.major.minor.patch` (the `6.` prefix indicating _Shopware 6_). There is one major release per year,
+one minor release every first Monday of the month, and patch when needed.
 
-## Versioning
+Only the latest minor release is actively supported with bug and security fixes.
+Older versions only receive security fixes via the [Shopware Security Plugin](https://store.shopware.com/en/swag575294366635f/shopware-security-plugin.html) and not via direct patch update.
+Finally, the last minor version of a major cycle gets extended support with selective bug fixes and security updates.
 
-- **Major Releases** can include backward compatibility breakage.
-- **Minor Releases** include feature, bug, and security fixes.
-- **Patch Releases** are limited to bug and security fixes.
-
-## Security
-The [Shopware Security Plugin](https://store.shopware.com/en/swag575294366635f/shopware-security-plugin.html) provides security fixes to old Shopware versions.
-
-## Extended support for Shopware 5
-
-- [Safefive](https://safefive.de/en/home/) offers a Commercial Long Term Support (LTS) service for Shopware 5.
-
+Commercial Long Term Support for Shopware 5 can be purchased to the third-party vendor [safefive](https://safefive.de/en/home/).
 
 ## [PHP Compatibility](https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements)
 
