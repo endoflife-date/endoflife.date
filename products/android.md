@@ -41,7 +41,7 @@ releases:
 -   releaseCycle: "11"
     codename: Red Velvet Cake
     releaseDate: 2020-09-08
-    eol: false
+    eol: 2024-02-05
 
 -   releaseCycle: "10"
     codename: Queen Cake
