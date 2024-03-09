@@ -69,7 +69,7 @@ releases:
     supportedPhpVersions: N/A
     releaseDate: 2021-06-14
     support: false
-    eol: 2024-08-01 # Based on safefive: https://safefive.de/en/faq-2/
+    eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life
     extendedSupport: 2029-08-01
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
@@ -150,16 +150,18 @@ releases:
 > [Shopware](https://shopware.com) is an MIT licensed e-commerce platform written in PHP and
 > developed by Shopware AG.
 
-Shopware follows [semantic versioning](https://developer.shopware.com/release-notes/#types-of-releases).
+Shopware follows [semantic versioning](https://developer.shopware.com/release-notes/#types-of-releases),
 but starting with Shopware 6 the versioning scheme has been changed to a four-digit version number:
 `6.major.minor.patch` (the `6.` prefix indicating _Shopware 6_). There is one major release per year,
 one minor release every first Monday of the month, and patch when needed.
 
-Only the latest minor release is actively supported with bug and security fixes.
-Older versions only receive security fixes via the [Shopware Security Plugin](https://store.shopware.com/en/swag575294366635f/shopware-security-plugin.html) and not via direct patch update.
-Finally, the last minor version of a major cycle gets extended support with selective bug fixes and security updates.
+Only the latest minor release is actively supported with bug and security fixes. Older versions
+only receive security fixes via the [Shopware Security Plugin](https://store.shopware.com/en/swag575294366635f/shopware-security-plugin.html)
+and not via direct patch update. Finally, the last minor version of a major cycle gets extended
+support with selective bug fixes and security updates.
 
-Commercial Long Term Support for Shopware 5 can be purchased to the third-party vendor [safefive](https://safefive.de/en/home/).
+Shopware 5 [will be discontinued at the end of July 2024](https://docs.shopware.com/en/shopware-5-en/end-of-life).
+Commercial extended support can be obtained through [the third-party vendor safefive](https://safefive.de/en/home/).
 
 ## [PHP Compatibility](https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements)
 
