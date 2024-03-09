@@ -15,8 +15,14 @@ releaseDateColumn: true
 auto:
   methods:
   -   distrowatch: proxmox
-      regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual
-        Environment"$'
+      regex: '^Distribution Release: Proxmox (?P<major>\d+)\.(?P<minor>\d+) "Virtual Environment"$'
+  -   release_table: https://pve.proxmox.com/wiki/FAQ
+      selector: "table#faq-support-table"
+      fields:
+        releaseCycle:
+          column: "Proxmox VE Version"
+          regex: '^Proxmox VE (?P<value>\d+)$'
+        eol: "Proxmox EOL"
 
 releases:
 -   releaseCycle: "8"
@@ -33,7 +39,7 @@ releases:
 
 -   releaseCycle: "6"
     releaseDate: 2019-07-16
-    eol: 2022-07-31
+    eol: 2022-09-30
     latest: "6.4"
     latestReleaseDate: 2021-04-18
 

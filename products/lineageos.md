@@ -30,7 +30,7 @@ releases:
 
 -   releaseCycle: "18.1"
     releaseDate: 2021-04-01
-    eol: false
+    eol: 2024-03-05 # https://lineageos.org/Sunsetting-LineageOS-18.1/
     link: https://lineageos.org/Changelog-25/
     androidVersion: 11
 

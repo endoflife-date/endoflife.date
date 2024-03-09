@@ -12,16 +12,25 @@ releaseDateColumn: true
 eolColumn: OSS support
 extendedSupportColumn: Commercial Support
 
-auto:
-  methods:
-  -   git: https://github.com/spring-projects/spring-boot.git
-      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
-
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot
 -   purl: pkg:github/spring-projects/spring-boot
 
-# EOL dates can be found on https://spring.io/projects/spring-boot#support
+auto:
+  methods:
+  -   git: https://github.com/spring-projects/spring-boot.git
+      regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.RELEASE)?$'
+  -   release_table: https://spring.io/projects/spring-boot#support
+      render_javascript: true
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Branch"
+          regex: '^(?P<value>\d+\.\d+)\.x$'
+        releaseDate: "Initial Release"
+        eol: "End of Support"
+        extendedSupport: "End Commercial Support *"
+
 releases:
 -   releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
@@ -57,7 +66,7 @@ releases:
 
 -   releaseCycle: "2.6"
     supportedJavaVersions: "8 - 19" # https://docs.spring.io/spring-boot/docs/2.6.14/reference/html/getting-started.html#getting-started.system-requirements
-    releaseDate: 2021-11-19
+    releaseDate: 2021-11-17
     eol: 2022-11-24
     extendedSupport: 2024-02-24
     latest: "2.6.15"

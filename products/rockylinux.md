@@ -13,15 +13,24 @@ changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|repla
 activeSupportColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/o:rocky:rocky
+-   cpe: cpe:2.3:o:rocky:rocky
+
 # distrowatch misses a few releases
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
   -   custom: rockylinux
-
-identifiers:
--   cpe: cpe:/o:rocky:rocky
--   cpe: cpe:2.3:o:rocky:rocky
+  -   release_table: https://wiki.rockylinux.org/rocky/version/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^Rocky Linux (?P<value>\d+)$'
+        releaseDate: "Release Date"
+        support: "Active Support"
+        eol: "End of Life"
 
 releases:
 -   releaseCycle: "9"
