@@ -18,7 +18,7 @@ auto:
   -   git: https://github.com/shopware5/shopware.git # Shopware 5
 
 # support(x) = releaseDate(x+1)
-# eol(x) = EOL date of the major release (patch applied through the Shopware Security Plugin).
+# eol(x) = true or the EOL date of the major release if known (patch applied through the Shopware Security Plugin).
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
 -   releaseCycle: "6.5"
