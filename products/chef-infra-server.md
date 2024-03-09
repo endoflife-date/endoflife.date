@@ -1,25 +1,26 @@
 ---
 title: Chef Infra Server
 category: server-app
-iconSlug: chef
 tags: erlang-runtime ruby-runtime
+iconSlug: chef
 permalink: /chef-infra-server
 alternate_urls:
 -   /chef-server
 versionCommand: chef-server-ctl version
-releasePolicyLink: "https://docs.chef.io/versions/"
-changelogTemplate: "https://docs.chef.io/release_notes_server/#__LATEST__"
+releasePolicyLink: https://docs.chef.io/versions/
+changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
-auto:
-  methods:
-  - custom: chef-infra-server
-
 identifiers:
 -   repology: chef-server
-# eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
+
+auto:
+  methods:
+  -   custom: chef-infra-server
+
 # support(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/
 releases:
 -   releaseCycle: "15"
     releaseDate: 2022-06-13
@@ -58,7 +59,10 @@ releases:
 
 ---
 
-> [Chef Infra Server](https://docs.chef.io/server/) is an open-source platform that complements Chef Infra Client.
-> It serves as a central hub for configuration data, providing scalable infrastructure management. 
+> [Chef Infra Server](https://docs.chef.io/server/) is an open-source platform that complements
+> Chef Infra Client. It serves as a central hub for configuration data, providing scalable
+> infrastructure management.
 
-The only actively maintained version [is the latest](https://docs.chef.io/versions/#supported-commercial-distributions). Release N-1 are "deprecated" [and can only receive security updates](https://www.chef.io/service-level-agreement?_gl=1*1xlphvy*_ga*ODEyNjY0NTc4LjE3MDM3MTUwMDg.*_ga_9JSNBCSF54*MTcwODQ0OTk4Mi4xNS4xLjE3MDg0NTI2MzcuNTkuMC4w*_gcl_au*MTYyMjE3NTI1MS4xNzAzNzE1MDk4). Releases N-2 [and below are EOL](https://docs.chef.io/versions/#end-of-life-eol-products).
+The only actively maintained version [is the latest](https://docs.chef.io/versions/#supported-commercial-distributions).
+Release N-1 are "deprecated" [and can only receive security updates](https://www.chef.io/service-level-agreement).
+Releases N-2 [and below are EOL](https://docs.chef.io/versions/#end-of-life-eol-products).
