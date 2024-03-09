@@ -6,7 +6,7 @@ iconSlug: shopware
 permalink: /shopware
 versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
-changelogTemplate: "https://github.com/shopware/shopware/blob/__LATEST__/CHANGELOG.md"
+changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: Bug Fix Maintenance
 eolColumn: Security Maintenance
@@ -73,7 +73,7 @@ releases:
     extendedSupport: 2029-08-01
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.6"
     supportedPhpVersions: N/A
@@ -83,7 +83,7 @@ releases:
     extendedSupport: false
     latest: "5.6.10"
     latestReleaseDate: 2021-05-10
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.5"
     supportedPhpVersions: N/A
@@ -93,7 +93,7 @@ releases:
     extendedSupport: false
     latest: "5.5.10"
     latestReleaseDate: 2019-06-06
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.4"
     supportedPhpVersions: N/A
@@ -103,7 +103,7 @@ releases:
     extendedSupport: false
     latest: "5.4.6"
     latestReleaseDate: 2018-07-23
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.3"
     supportedPhpVersions: N/A
@@ -113,7 +113,7 @@ releases:
     extendedSupport: false
     latest: "5.3.7"
     latestReleaseDate: 2018-01-22
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.2"
     supportedPhpVersions: N/A
@@ -123,7 +123,7 @@ releases:
     extendedSupport: false
     latest: "5.2.27"
     latestReleaseDate: 2017-07-17
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.1"
     supportedPhpVersions: N/A
@@ -133,7 +133,7 @@ releases:
     extendedSupport: false
     latest: "5.1.6"
     latestReleaseDate: 2016-05-23
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.0"
     supportedPhpVersions: N/A
@@ -143,7 +143,7 @@ releases:
     extendedSupport: false
     latest: "5.0.4"
     latestReleaseDate: 2015-09-16
-    link: false
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 ---
 
