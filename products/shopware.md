@@ -8,9 +8,8 @@ versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: Bug Fix Maintenance
-eolColumn: Security Maintenance
-extendedSupportColumn: Extended Support
+activeSupportColumn: true
+extendedSupportColumn: Commercial support
 
 auto:
   methods:
@@ -26,7 +25,7 @@ releases:
     releaseDate: 2023-05-03
     support: true
     eol: false
-    extendedSupport: true
+    extendedSupport: false
     latest: "6.5.8.7"
     latestReleaseDate: 2024-03-06
 
@@ -35,7 +34,7 @@ releases:
     releaseDate: 2021-05-04
     support: 2023-05-03
     eol: false
-    extendedSupport: true
+    extendedSupport: false
     latest: "6.4.20.2"
     latestReleaseDate: 2023-05-05
 
@@ -44,7 +43,7 @@ releases:
     releaseDate: 2020-08-03
     support: 2021-05-04
     eol: false
-    extendedSupport: true
+    extendedSupport: false
     latest: "6.3.5.4"
     latestReleaseDate: 2021-04-19
 
@@ -53,7 +52,7 @@ releases:
     releaseDate: 2020-05-18
     support: 2020-08-03
     eol: false
-    extendedSupport: true
+    extendedSupport: false
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
 
@@ -63,7 +62,7 @@ releases:
     releaseDate: 2020-01-13
     support: 2020-05-19
     eol: false
-    extendedSupport: true
+    extendedSupport: false
     latest: "6.1.6"
     latestReleaseDate: 2020-05-14
 
@@ -72,7 +71,7 @@ releases:
     releaseDate: 2021-05-26
     support: false
     eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
-    extendedSupport: 2029-08-01
+    extendedSupport: true
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
