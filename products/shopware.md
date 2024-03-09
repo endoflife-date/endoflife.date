@@ -13,7 +13,8 @@ eolColumn: Security Maintenance
 extendedSupportColumn: Extended Support
 
 auto:
--   git: https://github.com/shopware/platform.git
+  methods:
+  -   git: https://github.com/shopware/platform.git
 
 # EOL dates on https://
 # PHP requirements on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements
@@ -26,7 +27,7 @@ releases:
     extendedSupport: true
     latest: "6.5.6.0"
     latestReleaseDate: 2023-10-04
-        
+
 -   releaseCycle: "6.4"
     releaseDate: 2021-05-04
     support: false
@@ -61,7 +62,7 @@ releases:
     supportedPhpVersions: 7.2
     latest: "6.1.6"
     latestReleaseDate: 2020-05-04
-    
+
 -   releaseCycle: "5.7"
     releaseDate: 2021-06-14
     support: false
@@ -80,7 +81,7 @@ releases:
     latest: "5.6.10"
     latestReleaseDate: 2021-05-10
     link: false
-    
+
 -   releaseCycle: "5.5"
     releaseDate: 2018-09-18
     support: false
