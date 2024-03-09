@@ -16,10 +16,10 @@ auto:
   methods:
   -   git: https://github.com/shopware/shopware.git
 
-# EOL dates on https://
-# PHP requirements on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements
+# support(x) = releaseDate(x+1)
+# eol(x) = EOL date of the major release (patch applied through the Shopware Security Plugin).
+# PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
-
 -   releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "6.4"
     supportedPhpVersions: 7.4 - 8.3
     releaseDate: 2021-05-04
-    support: false
+    support: 2023-05-03
     eol: false
     extendedSupport: true
     latest: "6.4.20.2"
@@ -41,7 +41,7 @@ releases:
 -   releaseCycle: "6.3"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-08-03
-    support: false
+    support: 2021-05-04
     eol: false
     extendedSupport: true
     latest: "6.3.5.4"
@@ -50,16 +50,17 @@ releases:
 -   releaseCycle: "6.2"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-05-19
-    support: false
+    support: 2020-08-03
     eol: false
     extendedSupport: true
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
 
+# There was no 6.0.
 -   releaseCycle: "6.1"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-01-27
-    support: false
+    support: 2020-05-19
     eol: false
     extendedSupport: true
     latest: "6.1.6"
@@ -69,7 +70,7 @@ releases:
     supportedPhpVersions: N/A
     releaseDate: 2021-06-14
     support: false
-    eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life
+    eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
     extendedSupport: 2029-08-01
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
@@ -78,7 +79,7 @@ releases:
 -   releaseCycle: "5.6"
     supportedPhpVersions: N/A
     releaseDate: 2019-08-12
-    support: false
+    support: 2021-06-14
     eol: true
     extendedSupport: false
     latest: "5.6.10"
@@ -88,7 +89,7 @@ releases:
 -   releaseCycle: "5.5"
     supportedPhpVersions: N/A
     releaseDate: 2018-09-18
-    support: false
+    support: 2019-08-12
     eol: true
     extendedSupport: false
     latest: "5.5.10"
@@ -98,7 +99,7 @@ releases:
 -   releaseCycle: "5.4"
     supportedPhpVersions: N/A
     releaseDate: 2018-02-28
-    support: false
+    support: 2018-09-18
     eol: true
     extendedSupport: false
     latest: "5.4.6"
@@ -108,7 +109,7 @@ releases:
 -   releaseCycle: "5.3"
     supportedPhpVersions: N/A
     releaseDate: 2017-07-31
-    support: false
+    support: 2018-02-28
     eol: true
     extendedSupport: false
     latest: "5.3.7"
@@ -118,7 +119,7 @@ releases:
 -   releaseCycle: "5.2"
     supportedPhpVersions: N/A
     releaseDate: 2016-07-04
-    support: false
+    support: 2017-07-31
     eol: true
     extendedSupport: false
     latest: "5.2.27"
@@ -128,7 +129,7 @@ releases:
 -   releaseCycle: "5.1"
     supportedPhpVersions: N/A
     releaseDate: 2015-10-21
-    support: false
+    support: 2016-07-04
     eol: true
     extendedSupport: false
     latest: "5.1.6"
@@ -138,7 +139,7 @@ releases:
 -   releaseCycle: "5.0"
     supportedPhpVersions: N/A
     releaseDate: 2015-04-27
-    support: false
+    support: 2015-10-21
     eol: true
     extendedSupport: false
     latest: "5.0.4"
@@ -160,8 +161,9 @@ only receive security fixes via the [Shopware Security Plugin](https://store.sho
 and not via direct patch update. Finally, the last minor version of a major cycle gets extended
 support with selective bug fixes and security updates.
 
-Shopware 5 [will be discontinued at the end of July 2024](https://docs.shopware.com/en/shopware-5-en/end-of-life).
-Commercial extended support can be obtained through [the third-party vendor safefive](https://safefive.de/en/home/).
+Shopware 5 [will be discontinued at the end of July 2024](https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life).
+After July 2024, commercial Long-Term Support can be purchased through [the third-party vendor
+safefive](https://safefive.de/en/why-safefive/).
 
 ## [PHP Compatibility](https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements)
 
