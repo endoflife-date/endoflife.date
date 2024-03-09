@@ -13,7 +13,7 @@ activeSupportColumn: true
 releaseDateColumn: true
 
 identifiers:
--   repology: chef-server
+-   repology: chef-infra-server
 
 auto:
   methods:
