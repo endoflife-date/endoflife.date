@@ -14,7 +14,7 @@ extendedSupportColumn: Extended Support
 
 auto:
   methods:
-  -   git: https://github.com/shopware/platform.git
+  -   git: https://github.com/shopware/shopware.git
 
 # EOL dates on https://
 # PHP requirements on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements
