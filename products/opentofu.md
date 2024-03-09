@@ -14,6 +14,7 @@ auto:
   -   git: https://github.com/opentofu/opentofu.git
 
 # EOL(x) = releaseDate(x+2)
+releases:
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-09
     eol: false # releaseDate(1.8)
