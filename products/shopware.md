@@ -138,8 +138,8 @@ releases:
 
 ---
 
-> [Shopware](https://shopware.com) is an [MIT licensed](https://github.com/shopware/platform/blob/trunk/LICENSE)
-> e-commerce platform written in PHP. The project is made by the same-named vendor, Shopware AG.
+> [Shopware](https://shopware.com) is an MIT licensed e-commerce platform written in PHP and
+> developed by Shopware AG.
 
 Shopware follows [semantic versioning](https://semver.org/).
 
