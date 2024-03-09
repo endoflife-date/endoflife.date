@@ -14,7 +14,8 @@ extendedSupportColumn: Extended Support
 
 auto:
   methods:
-  -   git: https://github.com/shopware/shopware.git
+  -   git: https://github.com/shopware/shopware.git # Shopware 6
+  -   git: https://github.com/shopware5/shopware.git # Shopware 5
 
 # support(x) = releaseDate(x+1)
 # eol(x) = EOL date of the major release (patch applied through the Shopware Security Plugin).
