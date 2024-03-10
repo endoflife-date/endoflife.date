@@ -165,7 +165,7 @@ releases:
 > Microsoft. The brand name was changed to Windows Server in 2003.
 
 ## [Servicing channels](https://learn.microsoft.com/windows-server/get-started/servicing-channels-comparison)
-There have been three primary release channels available:
+There have been historically three primary release channels available:
 * Long-Term Servicing Channel (LTSC)
 * Semi-Annual Channel (SAC)
 * Annual Channel (AC)
