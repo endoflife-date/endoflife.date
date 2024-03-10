@@ -15,7 +15,16 @@ eolColumn: Assistance Support
 
 auto:
   methods:
-  -   custom: cockroachdb
+  -   git: https://github.com/cockroachdb/cockroach.git
+  -   release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy
+      selector: "table"
+      headers_selector: "thead th"
+      rows_selector: "tbody tr"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Release Date"
+        support: "Maintenance Support ends"
+        eol: "Assistance Support ends (EOL Date)"
 
 releases:
 -   releaseCycle: "23.2"
