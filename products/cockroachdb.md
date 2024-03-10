@@ -129,10 +129,14 @@ releases:
 
 ---
 
-[CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and strongly-consistent key-value store, developed by Cockroach Labs.
+> [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and
+> strongly-consistent key-value store, developed by Cockroach Labs.
 
 Each major release of CockroachDB goes through the following support cycle:
 
-- **Maintenance:** For at least 365 days from the major release date, Cockroach Labs will produce regular patch releases that include critical security fixes and resolutions to problems identified by users.
-
-- **Assistance:** Following the maintenance support period, Cockroach Labs will provide assistance support for at least an additional 180 days. During this period, patch releases will only include critical security fixes.
+- **Maintenance**: For at least 365 days from the major release date, Cockroach Labs will produce
+  regular patch releases that include critical security fixes and resolutions to problems
+  identified by users.
+- **Assistance**: Following the maintenance support period, Cockroach Labs will provide assistance
+  support for at least an additional 180 days. During this period, patch releases will only include
+  critical security fixes.
