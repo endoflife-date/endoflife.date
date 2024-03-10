@@ -87,21 +87,14 @@ releases:
 > It manages the complete container lifecycle of its host system, from image transfer and storage to
 > container execution and supervision to low-level storage to network attachments and beyond.
 
-Support horizons will be defined corresponding to a release branch, identified by `<major>.<minor>`.
-Release branches will be in one of several states:
+containerd follows [SemVer](https://containerd.io/releases/#releases). There is usually a new minor
+release every year.
 
-- **Next**: The next planned release branch.
-- **Active**: The release is a stable branch which is currently supported and accepting patches.
-- **Extended**: The release branch is only accepting security patches.
-- **LTS**: The release is a long term stable branch which is currently supported and accepting patches.
-- **End of Life**: The release branch is no longer supported and no new patches will be accepted.
+Minor non-LTS releases are actively supported for at least one year with bug and security fixes.
+After that, support may be extended for an additional undefined period with security fixes only.
 
-Releases will be supported at least one year after a minor release. This means that we will accept bug
-reports and backports to release branches until the end of life date. If no new minor release has been
-made, that release will be considered supported until 6 months after the next minor is released or one year,
-whichever is longer. Additionally, releases may have an extended security support period after the end of
-the active period to accept security backports. This timeframe will be decided by maintainers before
-the end of the active status.
-
-Long term stable (LTS) releases will be supported for at least three years after their initial minor release.
-These branches will accept bug reports and backports until the end of life date.
+Some minor releases are designated as Long Term Support (LTS) releases. These are supported for at
+least three years with bug and security fixes, as well as patches to support its longer term
+maintainability (such as dependencies updates or even sometime feature backports to support new
+Kubernetes releases). There is at least a 6-month overlap between the end of life of an LTS release
+and the initial version of the next LTS release.
