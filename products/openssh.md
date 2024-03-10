@@ -1,7 +1,7 @@
 ---
 title:  OpenSSH
 category: app
-tags: ssh openssh security networking openbsd scp sftp sshd
+tags: ssh openssh security networking openbsd scp sftp sshd ssh-keygen ssh-agent ssh-keyscan ssh-copy-id
 iconSlug: openbsd
 permalink: /openssh
 versionCommand: ssh -V
