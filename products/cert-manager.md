@@ -37,7 +37,8 @@ releases:
 
 -   releaseCycle: "1.12"
     releaseDate: 2023-05-19
-    eol: 2024-01-31
+    eol: 2025-05-19
+    lts: true
     latest: "1.12.9"
     latestReleaseDate: 2024-03-08
 
