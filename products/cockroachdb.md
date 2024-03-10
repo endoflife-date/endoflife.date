@@ -135,9 +135,4 @@ Each major release of CockroachDB goes through the following support cycle:
 
 - **Maintenance:** For at least 365 days from the major release date, Cockroach Labs will produce regular patch releases that include critical security fixes and resolutions to problems identified by users.
 
-- **Assistance:** Following the maintenance support period, Cockroach Labs will provide assistance support for at least an additional 180 days. During this period, the following guidelines will apply:
-
-  1. New enhancements and error corrections will not be made to the major release.
-  1. Cockroach Labs will direct customers to existing fixes/patches and workarounds applicable to the reported case.
-  1. Cockroach Labs may direct customers to upgrade to a more current version of the product if a workaround does not exist.
-  1. Cockroach Labs will continue to add critical security fixes to the major release in the form of patch releases.
+- **Assistance:** Following the maintenance support period, Cockroach Labs will provide assistance support for at least an additional 180 days. During this period, patch releases will only include critical security fixes.
