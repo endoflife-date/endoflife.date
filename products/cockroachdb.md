@@ -21,7 +21,9 @@ auto:
       headers_selector: "thead th"
       rows_selector: "tbody tr"
       fields:
-        releaseCycle: "Version"
+        releaseCycle:
+          column: "Version"
+          regex: '^v?(?P<value>\d+\.\d+).*$'
         releaseDate: "Release Date"
         support: "Maintenance Support ends"
         eol: "Assistance Support ends (EOL Date)"
