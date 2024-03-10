@@ -14,6 +14,14 @@ releaseDateColumn: true
 extendedSupportColumn: Extended Security Updates
 
 releases:
+-   releaseCycle: "23H2"
+    releaseDate: 2023-10-24
+    support: 2025-04-24
+    eol: 2025-10-24
+    extendedSupport: false
+    latest: 10.0.25398
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-annual-channel
+
 -   releaseCycle: "2022"
     releaseDate: 2021-08-18
     support: 2026-10-13
@@ -157,11 +165,14 @@ releases:
 > Microsoft. The brand name was changed to Windows Server in 2003.
 
 ## [Servicing channels](https://learn.microsoft.com/windows-server/get-started/servicing-channels-comparison)
-Previously with Windows Server 2016 and Windows Server 2019 there have been two primary release channels available:
+There have been historically three primary release channels available:
 * Long-Term Servicing Channel (LTSC)
 * Semi-Annual Channel (SAC)
+* Annual Channel (AC)
 
-The Windows Server Semi-Annual Channel (SAC) was retired on August 9, 2022. There will be no future SAC releases of Windows Server.
+The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
+
+The Windows Server Annual Channel (AC) was released after the retirement of the Semi-Annual Channel (SAC). The first release of the Annual Channel (AC) was on October 24, 2023.
 
 ### Long-Term Servicing Channel (LTSC)
 With the Long-Term Servicing Channel, a new major version of Windows Server is released every 2-3 years. Users are entitled to 5 years of mainstream support and 5 years of extended support. The Long-Term Servicing Channel will continue to receive security and non-security updates, but it will not receive the new features and functionality.
@@ -169,6 +180,10 @@ With the Long-Term Servicing Channel, a new major version of Windows Server is r
 ### Semi-Annual Channel (SAC)
 Each release in this channel is supported for 18 months from the initial release. Most of the features introduced in the Semi-Annual Channel have been rolled up into the next Long-Term Servicing Channel release of Windows Server.
 In this model, Windows Server releases were identified by the year and month of release: for example, in 2017, a release in the 9th month (September) would be identified as version 1709. Fresh releases of Windows Server in the Semi-Annual Channel occurred twice each year. The support lifecycle for each release is 18 months. Starting with fall 2020 (20H2) releases, the identification changed. Instead of a month, the release is named based on the release cycle. For example: version 20H2, for a release in the second half of the year 2020.
+
+## Annual Channel (AC)
+Similar to Semi-Annual Channel (SAC), but releases occurred every 12 months.
+The support lifecycle for each release is 18 months of mainstream support, plus 6 months of extended support.
 
 ## Extended Security Updates (ESU)
 
