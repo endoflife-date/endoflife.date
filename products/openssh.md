@@ -80,3 +80,11 @@ releases:
 ---
 
 > [ OpenBSD ](https://www.openssh.com/) is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options. 
+
+> As per [_"Open SSH End-of-Life Schedule?"_](https://lists.mindrot.org/pipermail/openssh-unix-dev/2023-October/040982.html) thread,
+> the security policy has no `End of Life` nor `LTS`, see [quote below](https://lists.mindrot.org/pipermail/openssh-unix-dev/2023-October/040973.html) :
+>
+> _"you can report a bug in any version and we'll look it it and try
+  to fix it if it is still present, but there's no LTS-like version where
+  we collect these bugfixes."_
+>
