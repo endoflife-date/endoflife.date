@@ -13,35 +13,42 @@ auto:
       -   ^v[0-2]\.
       -   ^v3\.[0-2]\.
 
-# eol(R) = releaseDate(R+4)
+# eol(x) = releaseDate(x+4)
 releases:
+-   releaseCycle: "3.9"
+    releaseDate: 2024-03-06
+    eol: false
+    latest: "3.9.0"
+    latestReleaseDate: 2024-03-06
+    link: https://www.postfix.org/announcements/postfix-3.9.0.html
+
 -   releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
     latest: "3.8.6"
     latestReleaseDate: 2024-03-05
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-02-06
     eol: false
     latest: "3.7.11"
     latestReleaseDate: 2024-03-05
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.6"
     releaseDate: 2021-04-29
     eol: false
     latest: "3.6.15"
     latestReleaseDate: 2024-03-05
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.5"
     releaseDate: 2020-03-15
-    eol: false
+    eol: 2024-03-06
     latest: "3.5.25"
     latestReleaseDate: 2024-03-05
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-02-27
