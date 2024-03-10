@@ -13,7 +13,6 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/containerd/containerd.git
-      regex: ^v(?P<major>\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Support Horizon can be found at https://github.com/containerd/containerd/blob/main/RELEASES.md#support-horizon
 releases:
