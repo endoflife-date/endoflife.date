@@ -87,4 +87,3 @@ releases:
 > _"you can report a bug in any version and we'll look it it and try
   to fix it if it is still present, but there's no LTS-like version where
   we collect these bugfixes."_
->
