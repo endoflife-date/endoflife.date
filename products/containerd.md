@@ -25,25 +25,25 @@ auto:
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2023-03-10
-    support: true
-    eol: false
+    support: true # releaseDate(2.0) + 6 months
+    eol: false # eol(1.6)
     latest: "1.7.13"
-    latestReleaseDate: 2024-02-01
+    latestReleaseDate: 2024-01-31
 
 -   releaseCycle: "1.6"
-    releaseDate: 2022-02-16
+    releaseDate: 2022-02-15
     lts: true
-    support: true
-    eol: false
-    latest: "1.6.28"
-    latestReleaseDate: 2024-02-01
+    support: true # same as EOL because it's an LTS.
+    eol: false # max(February 15, 2025 or releaseDate(next LTS) + 6 months
+    latest: "1.6.29"
+    latestReleaseDate: 2024-03-08
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-05-03
     support: false
     eol: 2023-02-28
     latest: "1.5.18"
-    latestReleaseDate: 2023-02-16
+    latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "1.4"
     releaseDate: 2020-08-17
@@ -57,28 +57,28 @@ releases:
     support: false
     eol: 2021-03-04
     latest: "1.3.10"
-    latestReleaseDate: 2021-03-05
+    latestReleaseDate: 2021-03-04
 
 -   releaseCycle: "1.2"
     releaseDate: 2018-10-24
     support: false
     eol: 2020-10-15
-    latest: "1.2.13"
-    latestReleaseDate: 2020-02-18
+    latest: "1.2.14"
+    latestReleaseDate: 2020-10-15
 
 -   releaseCycle: "1.1"
     releaseDate: 2018-04-23
     support: false
     eol: 2019-10-23
     latest: "1.1.8"
-    latestReleaseDate: 2019-09-27
+    latestReleaseDate: 2019-09-26
 
 -   releaseCycle: "1.0"
-    releaseDate: 2017-12-05
+    releaseDate: 2017-12-04
     support: false
     eol: 2018-12-05
     latest: "1.0.3"
-    latestReleaseDate: 2018-04-03
+    latestReleaseDate: 2018-04-02
 
 ---
 
