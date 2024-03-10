@@ -21,7 +21,7 @@ auto:
         releaseDate: "Start"
         eol: "End of Life"
 
-# Support Horizon can be found at https://github.com/containerd/containerd/blob/main/RELEASES.md#support-horizon
+# Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2023-03-10
