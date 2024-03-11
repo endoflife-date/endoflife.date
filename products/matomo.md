@@ -29,7 +29,6 @@ releases:
 -   releaseCycle: "5"
     releaseDate: 2023-12-18
     support: true
-    lts: true
     eol: false
     latest: "5.0.3"
     latestReleaseDate: 2024-03-07
@@ -37,7 +36,6 @@ releases:
 -   releaseCycle: "4"
     releaseDate: 2020-11-24
     support: 2023-12-18
-    lts: true
     eol: 2024-12-19 # https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
     latest: "4.16.1"
     latestReleaseDate: 2024-02-05
@@ -45,7 +43,6 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2016-12-19
     support: 2020-11-24
-    lts: true
     eol: 2021-12-01 # https://web.archive.org/web/20231111145144/https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
     latest: "3.14.1"
     latestReleaseDate: 2020-09-11
@@ -53,7 +50,6 @@ releases:
 -   releaseCycle: "2"
     releaseDate: 2013-12-17
     support: 2016-12-19
-    lts: true
     eol: 2017-12-18 # https://matomo.org/blog/2017/12/piwik-2-reaches-end-life-soon-december-2017-update-now/
     latest: "2.18.1" # released to help upgrading to Matomo 4.x
     latestReleaseDate: 2020-07-01
