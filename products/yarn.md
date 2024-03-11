@@ -42,8 +42,8 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2017-09-05
     eol: false
-    latest: '1.22.21'
-    latestReleaseDate: 2023-11-14
+    latest: '1.22.22'
+    latestReleaseDate: 2024-03-09
     link: https://github.com/yarnpkg/yarn/releases/tag/v__LATEST__
 
 ---

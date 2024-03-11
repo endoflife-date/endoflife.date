@@ -32,8 +32,8 @@ releases:
     releaseDate: 2020-12-17
     support: true
     eol: false
-    latest: "2.8.2"
-    latestReleaseDate: 2024-02-26
+    latest: "2.8.3"
+    latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27
