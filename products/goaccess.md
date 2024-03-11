@@ -11,8 +11,6 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/allinurl/goaccess
-      # https://regex101.com/r/USe3sj/1
-      regex: ^v(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 identifiers:
 -   repology: goaccess
@@ -25,10 +23,9 @@ releases:
     eol: false
     latest: "1.8.1"
     latestReleaseDate: 2023-10-31
-    
+
 ---
 
 > [GoAccess](https://goaccess.io/) is an open source web analytics application for Unix-like operating systems that runs in a terminal or through a browser.
 
 Based on the release history only the latest version is supported and actively maintained.
-
