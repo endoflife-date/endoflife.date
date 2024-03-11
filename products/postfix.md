@@ -19,7 +19,7 @@ releases:
     releaseDate: 2024-03-06
     eol: false
     latest: "3.9.0"
-    latestReleaseDate: 2024-03-06
+    latestReleaseDate: 2024-03-07
     link: https://www.postfix.org/announcements/postfix-3.9.0.html
 
 -   releaseCycle: "3.8"
