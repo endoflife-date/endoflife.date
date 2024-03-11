@@ -8,7 +8,7 @@ releases:
 -   releaseCycle: "4.x"
     support: true
     eol: false
-    latest: "4.0.4"
+    latest: "4.0.6"
 -   releaseCycle: "3.x"
     support: false
     eol: false
