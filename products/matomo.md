@@ -71,5 +71,7 @@ releases:
 > is an open-source analytics platform. It is developed to track and analyze various components of
 > digital activities including websites, servers, CMS, and online services.
 
-Matomo follows an [N-1 support strategy](https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/),
-meanings that the 2 most recent major versions receive security and bug fixes.
+Matomo only actively supports the latest version with new features, bug fixes, and security updates.
+When a new major version is released, the previous major version enters the [Long Term Support
+(LTS)](https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/)
+phase and only receives critical bug and security fixes for at least 12 months.
