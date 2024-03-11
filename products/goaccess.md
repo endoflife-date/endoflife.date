@@ -3,16 +3,16 @@ title: GoAccess
 category: app
 permalink: /goaccess
 versionCommand: goaccess --version
-releasePolicyLink: "https://github.com/allinurl/goaccess/blob/master/SECURITY.md"
+releasePolicyLink: https://github.com/allinurl/goaccess/blob/master/SECURITY.md
 changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/allinurl/goaccess
-    # https://regex101.com/r/USe3sj/1
-    regex: ^v(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
-
+  methods:
+  -   git: https://github.com/allinurl/goaccess
+      # https://regex101.com/r/USe3sj/1
+      regex: ^v(?<major>\d+)\.?(?<minor>\d+)\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
 
 identifiers:
 -   repology: goaccess
