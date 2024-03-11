@@ -51,7 +51,7 @@ releases:
     latestReleaseDate: 2019-03-07
 
 -   releaseCycle: "11"
-    releaseDate: 2013-09-30
+    releaseDate: 2013-02-04 # https://www.chef.io/blog/chef-11-released
     support: 2014-11-25
     eol: 2018-12-31 # https://www.chef.io/blog/end-of-life-announcement-for-chef-reporting-enterprise-chef-server-11-and-chef-analytics
     latest: "11.1.7"
