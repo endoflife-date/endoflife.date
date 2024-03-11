@@ -12,12 +12,15 @@ releases:
 -   releaseCycle: "3.x"
     support: false
     eol: false
+    latest: "3.0.12"
 -   releaseCycle: "2.x"
     support: false
     eol: false
+    latest: "2.2.2"
 -   releaseCycle: "1.x"
     support: false
     eol: false
+    latest: "1.5.0"
 
 ---
 
