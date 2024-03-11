@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2020-04-10
 
 -   releaseCycle: "12"
-    releaseDate: 2014-11-24
+    releaseDate: 2014-11-25
     support: 2019-05-31
     eol: 2020-12-31
     latest: "12.19.31"
