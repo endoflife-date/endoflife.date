@@ -46,7 +46,7 @@ releases:
 -   releaseCycle: "12"
     releaseDate: 2014-11-25
     support: 2019-05-31
-    eol: 2020-12-31
+    eol: 2020-12-31 # https://web.archive.org/web/20210613113759/https://docs.chef.io/versions/
     latest: "12.19.31"
     latestReleaseDate: 2019-03-07
 
