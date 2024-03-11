@@ -24,7 +24,7 @@ identifiers:
 -   purl: pkg:github/matomo-org/matomo
 
 # support(x) = releaseDate(x+1)
-# eol(x) = releaseDate(x+2), confirm on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
+# eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
 releases:
 -   releaseCycle: "5"
     releaseDate: 2023-12-18
