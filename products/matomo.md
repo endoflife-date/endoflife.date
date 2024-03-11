@@ -25,6 +25,7 @@ identifiers:
 
 # support(x) = releaseDate(x+1)
 # eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
+# No release is marked LTS, as this phase is true for all release and is considered here as the security support phase.
 releases:
 -   releaseCycle: "5"
     releaseDate: 2023-12-18
