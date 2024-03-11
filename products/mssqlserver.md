@@ -80,7 +80,7 @@ releases:
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021123
 
--   releaseCycle: "10.5"
+-   releaseCycle: "10.50"
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2010-07-20
