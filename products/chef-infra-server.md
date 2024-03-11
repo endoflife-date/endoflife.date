@@ -63,6 +63,7 @@ releases:
 > Chef Infra Client. It serves as a central hub for configuration data, providing scalable
 > infrastructure management.
 
-The only actively maintained version [is the latest](https://docs.chef.io/versions/#supported-commercial-distributions).
-Release N-1 are "deprecated" [and can only receive security updates](https://www.chef.io/service-level-agreement).
-Releases N-2 [and below are EOL](https://docs.chef.io/versions/#end-of-life-eol-products).
+Supported releases of Chef Infra Server are documented on [Chef's website](https://docs.chef.io/versions/#supported-commercial-distributions).
+Looking at this document it seems that Chef Infra Server follows an N-1 support strategy, with the
+latest release supported with bug and security fixes, and the previous release marked "deprecated"
+and only supported with security fixes.
