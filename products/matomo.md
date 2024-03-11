@@ -55,8 +55,8 @@ releases:
     support: 2016-12-19
     lts: true
     eol: 2017-12-18 # https://matomo.org/blog/2017/12/piwik-2-reaches-end-life-soon-december-2017-update-now/
-    latest: "2.17.1"
-    latestReleaseDate: 2016-11-14
+    latest: "2.18.1" # released to help upgrading to Matomo 4.x
+    latestReleaseDate: 2020-07-01
 
 -   releaseCycle: "1"
     releaseDate: 2010-08-28
