@@ -39,8 +39,8 @@ releases:
     support: 2023-12-18
     lts: true
     eol: 2024-12-19 # https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
-    latest: "4.16.0"
-    latestReleaseDate: 2023-11-28
+    latest: "4.16.1"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "3"
     releaseDate: 2016-12-19
