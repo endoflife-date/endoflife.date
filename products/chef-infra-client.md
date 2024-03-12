@@ -1,6 +1,6 @@
 ---
 title: Chef Infra Client
-category: server-app
+category: app
 tags: ruby-runtime
 iconSlug: chef
 permalink: /chef-infra-client
