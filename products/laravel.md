@@ -45,6 +45,7 @@ releases:
     supportedPhpVersions: '8.2 - 8.3'
     latest: '10.47.0'
     latestReleaseDate: 2024-03-05
+
 -   releaseCycle: "10"
     releaseDate: 2023-02-14
     support: 2024-08-06
