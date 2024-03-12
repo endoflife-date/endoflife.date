@@ -25,6 +25,12 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.8"
+    releaseDate: 2024-03-10
+    eol: 2024-07-10 # estimated releaseDate(x)+4 months
+    latest: "6.8.0"
+    latestReleaseDate: 2024-03-10
+
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
     eol: 2024-05-07 # estimated releaseDate(x)+4 months
@@ -40,7 +46,7 @@ releases:
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
-    eol: 2023-12-27 # estimated releaseDate(x)+4 months
+    eol: 2023-11-28 # announced https://lore.kernel.org/lkml/2023112807-usher-penholder-f856@gregkh/
     latest: "6.5.13"
     latestReleaseDate: 2023-11-28
 
