@@ -22,21 +22,21 @@ identifiers:
 # support(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "18"
-    releaseDate: 2022-01-10
+    releaseDate: 2022-10-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
     support: true
     eol: false
     latest: "18.3.0"
 
 -   releaseCycle: "17"
-    releaseDate: 2020-12-19
+    releaseDate: 2021-04-28 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
     support: 2022-01-10
-    eol: 2024-04-30
+    eol: 2024-04-30 # https://www.chef.io/blog/announcement-about-change-in-infra-client-17-end-of-life-timeline
     latest: "17.10.95"
 
 -   releaseCycle: "16"
-    releaseDate: 2020-01-21
+    releaseDate: 2020-05-05 # https://discourse.chef.io/t/chef-infra-client-16-0-275-released/17047
     support: 2020-12-19
-    eol: 2022-11-30
+    eol: 2022-11-30 # https://www.chef.io/blog/announcement-chef-client-16-eol-date-change
     latest: "16.18.30"
 
 -   releaseCycle: "15"
