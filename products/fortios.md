@@ -46,7 +46,7 @@ releases:
 
 ---
 
-> [FortiOS][fortios] is Fortinet's operating system used in their hardware, such as the Fortigate
+> [FortiOS][fortios] is Fortinet's operating system used in their hardware, such as the FortiGate
 > firewall and switches. It is based on Linux.
 
 Fortinet offers the following major lifecycle milestones:

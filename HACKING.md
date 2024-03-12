@@ -128,7 +128,7 @@ The build script is kept in `netlify.toml`.
 
 ## Analytics
 
-There are no javascript trackers or analytics on the website. Numbers from Google Search Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki). The data provided by Google is for publishers, and is based on search queries that showed endoflife.date in the search results. Google has more details [here](https://support.google.com/webmasters/answer/96568), including limitations of this data. Rare queries are ommitted by Google from this data to protect user privacy.
+There are no javascript trackers or analytics on the website. Numbers from Google Search Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki). The data provided by Google is for publishers, and is based on search queries that showed endoflife.date in the search results. Google has more details [here](https://support.google.com/webmasters/answer/96568), including limitations of this data. Rare queries are omitted by Google from this data to protect user privacy.
 
 ## Automation
 
