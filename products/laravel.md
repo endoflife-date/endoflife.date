@@ -25,7 +25,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex_exclude: "^1[1-9]$"
+          regex_exclude: "^1[2-9]$"
         support:
           column: "Bug Fixes Until"
           regex: '^(?P<month>\w+) (?P<day>\d+)\w+, (?P<year>\d+)$'
@@ -38,6 +38,14 @@ auto:
 
 # Do not forget to update the regex_exclude pattern below when a new major version is released.
 releases:
+-   releaseCycle: "11"
+    releaseDate: 2024-03-12
+    support: 2025-09-03
+    eol: 2026-03-16
+    supportedPhpVersions: '8.2 - 8.3'
+    latest: '10.47.0'
+    latestReleaseDate: 2024-03-05
+
 -   releaseCycle: "10"
     releaseDate: 2023-02-14
     support: 2024-08-06
