@@ -3,6 +3,7 @@ title: Robo
 category: framework
 permalink: /robo
 versionCommand: robo --version
+releasePolicyLink: https://github.com/consolidation/robo#branches
 activeSupportColumn: true
 releases:
 -   releaseCycle: "4.x"
@@ -11,15 +12,15 @@ releases:
     latest: "4.0.6"
 -   releaseCycle: "3.x"
     support: false
-    eol: false
+    eol: true
     latest: "3.0.12"
 -   releaseCycle: "2.x"
     support: false
-    eol: false
+    eol: true
     latest: "2.2.2"
 -   releaseCycle: "1.x"
     support: false
-    eol: false
+    eol: true
     latest: "1.5.0"
 
 ---
