@@ -133,7 +133,7 @@ releases:
 > [Qt](https://www.qt.io/) is a widget toolkit for creating graphical user interfaces as well as
 > native cross-platform applications that supports Linux, Windows, macOS, Android and embedded
 > systems. It is available under
-> [both commercial licences and open-source](https://www.qt.io/licensing/ "Licensing page on the Qt Website")
+> [both commercial licenses and open-source](https://www.qt.io/licensing/ "Licensing page on the Qt Website")
 > GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 
 Releases follow [Semantic Versioning](https://semver.org/). There is a new minor release
