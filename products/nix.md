@@ -14,12 +14,18 @@ auto:
   methods:
   -   git: https://github.com/NixOS/nix.git
 
-# when adding a new release mark the previous release EOL until a more detailed
+# eol(x) = releaseDate(x+1), until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.21"
+    releaseDate: 2024-03-11
+    eol: false
+    latest: "2.20.5"
+    latestReleaseDate: 2024-03-11
+
 -   releaseCycle: "2.20"
     releaseDate: 2024-01-29
-    eol: false # Update to release date of 2.21 when available
+    eol: 2024-03-11
     latest: "2.20.5"
     latestReleaseDate: 2024-03-07
 
