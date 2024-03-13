@@ -116,10 +116,13 @@ releases:
 > This page is tracking the [Laravel framework](https://github.com/laravel/framework), not the
 > [Laravel application](https://github.com/laravel/laravel) which is just the starter application.
 
-For LTS releases, such as Laravel 5.5 and 6.0, bug fixes are provided for 2 years and security fixes
-are provided for 3 years. These releases provide the longest window of support and maintenance. For
-general releases, bug fixes are provided for 6 months and security fixes are provided for 1 year.
-For all additional libraries, including Lumen, only the latest release receives bug fixes.
+Laravel and its other first-party packages follow Semantic Versioning. Major framework releases are
+released every year (~Q1), while minor and patch releases may be released as often as every week.
+Minor and patch releases should never contain breaking changes.
+
+For all Laravel releases, bug fixes are provided for 18 months and security fixes are provided for
+2 years. For all additional libraries, including Lumen, only the latest major release receives bug
+fixes. In addition, please review the database versions supported by Laravel.
 
 ## PHP Support
 
