@@ -22,6 +22,12 @@ auto:
         eol: "Lifecycle End Date"
 
 releases:
+-   releaseCycle: "9.6"
+    releaseDate: 2024-03-16
+    eol: 2024-06-15
+    latest: '9.6.0'
+    latestReleaseDate: 2024-03-16
+
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
     eol: 2024-11-15
