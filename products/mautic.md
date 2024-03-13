@@ -1,0 +1,110 @@
+---
+title: mautic
+category: server-app
+tags: php-runtime
+iconSlug: mautic
+permalink: /mautic
+versionCommand: bin/console --version
+releasePolicyLink: https://www.mautic.org/mautic-releases
+changelogTemplate: https://github.com/mautic/mautic/releases/tag/__LATEST__
+releaseDateColumn: true
+activeSupportColumn: true
+
+auto:
+  methods:
+  -   git: https://github.com/mautic/mautic
+
+identifiers:
+-   purl: pkg:mautic/mautic
+-   purl: pkg:github/mautic/mautic/
+
+releases:
+-   releaseCycle: "5.0"
+    releaseDate: 2024-01-09
+    support: true
+    eol: false
+    latest: "5.0.3"
+    latestReleaseDate: 2024-02-05
+
+-   releaseCycle: "4.4"
+    releaseDate: 2022-06-27
+    support: 2024-01-09
+    eol: 2024-04-09
+    latest: "4.4.11"
+    latestReleaseDate: 2024-01-18
+
+-   releaseCycle: "4.3"
+    releaseDate: 2022-05-23
+    support: 2022-06-27
+    eol: 2022-06-27
+    latest: "4.3.1"
+    latestReleaseDate: 2022-05-23
+
+-   releaseCycle: "4.2"
+    releaseDate: 2022-02-28
+    support: 2022-05-23
+    eol: 2022-05-23
+    latest: "4.2.2"
+    latestReleaseDate: 2022-04-26
+
+-   releaseCycle: "4.1"
+    releaseDate: 2021-11-29
+    support: 2022-02-28
+    eol: 2022-02-28
+    latest: "4.1.2"
+    latestReleaseDate: 2022-01-25
+
+-   releaseCycle: "4.0"
+    releaseDate: 2021-05-24
+    support: 2021-11-29
+    eol: 2021-11-29
+    latest: "4.0.2"
+    latestReleaseDate: 2021-11-15
+
+-   releaseCycle: "3.3"
+    releaseDate: 2021-02-22
+    support: 2021-05-17
+    eol: 2021-05-24
+    latest: "3.3.5"
+    latestReleaseDate: 2022-02-28
+
+-   releaseCycle: "3.2"
+    releaseDate: 2020-11-30
+    support: 2021-02-16
+    eol: 2021-02-20
+    latest: "3.3.2"
+    latestReleaseDate: 2021-03-22
+
+-   releaseCycle: "3.1"
+    releaseDate: 2020-08-24
+    support: 2020-11-23
+    eol: 2020-11-30
+    latest: "3.1.2"
+    latestReleaseDate: 2020-10-26
+
+-   releaseCycle: "3.0"
+    releaseDate: 2020-06-15
+    support: 2021-06-15
+    eol: 2021-12-15
+    latest: "3.0.2"
+    latestReleaseDate: 2020-07-27
+
+-   releaseCycle: "2.16"
+    releaseDate: 2020-02-13
+    support: 2020-06-15
+    eol: 2020-12-15
+    latest: "2.16.5"
+    latestReleaseDate: 2021-01-14
+
+-   releaseCycle: "2.15"
+    releaseDate: 2019-10-08
+    support: 2019-10-08
+    eol: 2019-10-08
+    latest: "2.15.3"
+    latestReleaseDate: 2019-10-08
+
+---
+
+> [Mautic](https://www.mautic.org/), yyy
+
+Mautic yyy
