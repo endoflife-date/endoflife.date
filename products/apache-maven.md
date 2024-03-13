@@ -48,3 +48,6 @@ releases:
 > reporting and documentation from a central piece of information.
 
 Maven is a part of the Apache Software Foundation.
+
+The Apache Maven team maintains the last version of the last two series of GA releases. GA releases
+are represented by the minor version number (e.g., in version `X.Y.Z`, `Y` is the GA release number).
