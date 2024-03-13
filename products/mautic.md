@@ -1,5 +1,5 @@
 ---
-title: mautic
+title: Mautic
 category: server-app
 tags: php-runtime
 iconSlug: mautic
@@ -105,6 +105,6 @@ releases:
 
 ---
 
-> [Mautic](https://www.mautic.org/), yyy
+> [Mautic](https://www.mautic.org/), is an open source marketing automation software.
 
-Mautic yyy
+Mautic only actively supports the latest version with new features, bug fixes, and security updates.
