@@ -200,6 +200,27 @@ releases:
     latest: "3.3.7"
     latestReleaseDate: 2017-09-19
 
+-   releaseCycle: "3.2"
+    releaseDate: 2011-02-20
+    support: false
+    eol: 2016-02-20
+    latest: "3.2.6"
+    latestReleaseDate: 2014-10-12
+
+-   releaseCycle: "3.1"
+    releaseDate: 2009-06-27
+    support: false
+    eol: 2012-04-09
+    latest: "3.1.5"
+    latestReleaseDate: 2012-04-09
+
+-   releaseCycle: "3.0"
+    releaseDate: 2008-12-03
+    support: false
+    eol: 2009-06-27
+    latest: "3.0.1"
+    latestReleaseDate: 2009-02-13
+
 -   releaseCycle: "2.7"
     releaseDate: 2010-07-03
     support: false
