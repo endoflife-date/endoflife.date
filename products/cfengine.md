@@ -19,7 +19,7 @@ auto:
 
 # lts or non-lts see https://cfengine.com/downloads/cfengine-community/
 # non-lts eol(x) = releaseDate(x+1)
-# lts eol(x) = releaseDate(x) + 3 yeras
+# lts eol(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "3.23"
     releaseDate: 2023-12-05
