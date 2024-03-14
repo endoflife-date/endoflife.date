@@ -37,21 +37,21 @@ releases:
 -   releaseCycle: "3"
     supportedPHPVersions: "7.1 - 8.1"
     support: false
-    eol: true
+    eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "3.0.12"
     latestReleaseDate: 2023-04-30
 
 -   releaseCycle: "2"
     supportedPHPVersions: "7.1 - 7.4"
     support: false
-    eol: true
+    eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "2.2.2"
     latestReleaseDate: 2020-12-18
 
 -   releaseCycle: "1"
     supportedPHPVersions: "5.5 - 7.4"
     support: false
-    eol: true
+    eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "1.5.0"
     latestReleaseDate: 2021-10-07
 
