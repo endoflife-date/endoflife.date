@@ -1,6 +1,7 @@
 ---
 title: Robo
 category: framework
+tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 releasePolicyLink: https://github.com/consolidation/robo#branches
