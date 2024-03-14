@@ -23,6 +23,9 @@ auto:
           regex: '^(?P<value>\d+)\.x$'
         supportedPHPVersions: "PHP Versions"
 
+# Based on https://github.com/consolidation/robo#branches:
+# support(x) = true if "Stable", false otherwise
+# eol(x) = false if "Stable" or "Important fixes only", false otherwise
 releases:
 -   releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.1"
