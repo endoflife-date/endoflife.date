@@ -6,6 +6,12 @@ permalink: /robo
 versionCommand: robo --version
 releasePolicyLink: https://github.com/consolidation/robo#branches
 activeSupportColumn: true
+customColumns:
+  -   property: supportedPHPVersions
+      position: after-release-column
+      label: PHP versions
+      description: Supported PHP versions range
+      link: https://github.com/consolidation/robo#branches
 
 auto:
   methods:
@@ -13,24 +19,28 @@ auto:
 
 releases:
 -   releaseCycle: "4"
+    supportedPHPVersions: "8.0 - 8.1"
     support: true
     eol: false
     latest: "4.0.6"
     latestReleaseDate: 2023-04-30
 
 -   releaseCycle: "3"
+    supportedPHPVersions: "7.1 - 8.1"
     support: false
     eol: true
     latest: "3.0.12"
     latestReleaseDate: 2023-04-30
 
 -   releaseCycle: "2"
+    supportedPHPVersions: "7.1 - 7.4"
     support: false
     eol: true
     latest: "2.2.2"
     latestReleaseDate: 2020-12-18
 
 -   releaseCycle: "1"
+    supportedPHPVersions: "5.5 - 7.4"
     support: false
     eol: true
     latest: "1.5.0"
@@ -39,12 +49,3 @@ releases:
 ---
 
 > [Robo](https://robo.li/) is a task runner written in PHP.
-
-## PHP Support
-
-| Robo Version | PHP Version |
-|--------------|-------------|
-| 4.x          | 8.0 - 8.1   |
-| 3.x          | 7.1 - 8.1   |
-| 2.x          | 7.1 - 7.4   |
-| 1.x          | 5.5 - 7.4   |
