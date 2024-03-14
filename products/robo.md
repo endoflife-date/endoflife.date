@@ -16,6 +16,13 @@ customColumns:
 auto:
   methods:
   -   git: https://github.com/consolidation/robo.git
+  -   release_table: https://github.com/consolidation/robo#branches
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Branch"
+          regex: '^(?P<value>\d+)\.x$'
+        supportedPHPVersions: "PHP Versions"
 
 releases:
 -   releaseCycle: "4"
