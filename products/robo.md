@@ -12,22 +12,22 @@ auto:
     -   git: https://github.com/consolidation/robo.git
 
 releases:
--   releaseCycle: "4.x"
+-   releaseCycle: "4"
     support: true
     eol: false
     latest: "4.0.6"
 
--   releaseCycle: "3.x"
+-   releaseCycle: "3"
     support: false
     eol: true
     latest: "3.0.12"
 
--   releaseCycle: "2.x"
+-   releaseCycle: "2"
     support: false
     eol: true
     latest: "2.2.2"
 
--   releaseCycle: "1.x"
+-   releaseCycle: "1"
     support: false
     eol: true
     latest: "1.5.0"
