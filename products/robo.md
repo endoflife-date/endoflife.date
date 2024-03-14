@@ -7,6 +7,10 @@ versionCommand: robo --version
 releasePolicyLink: https://github.com/consolidation/robo#branches
 activeSupportColumn: true
 
+auto:
+    methods:
+    -   git: https://github.com/consolidation/robo.git
+
 releases:
 -   releaseCycle: "4.x"
     support: true
