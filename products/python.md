@@ -208,18 +208,18 @@ releases:
     latestReleaseDate: 2014-10-12
 
 -   releaseCycle: "3.1"
-    releaseDate: 2009-06-27
+    releaseDate: 2009-06-26
     support: false
     eol: 2012-04-09
     latest: "3.1.5"
-    latestReleaseDate: 2012-04-09
+    latestReleaseDate: 2012-04-06
 
 -   releaseCycle: "3.0"
     releaseDate: 2008-12-03
     support: false
     eol: 2009-06-27
     latest: "3.0.1"
-    latestReleaseDate: 2009-02-13
+    latestReleaseDate: 2009-02-12
 
 -   releaseCycle: "2.7"
     releaseDate: 2010-07-03
