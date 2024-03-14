@@ -8,29 +8,33 @@ releasePolicyLink: https://github.com/consolidation/robo#branches
 activeSupportColumn: true
 
 auto:
-    methods:
-    -   git: https://github.com/consolidation/robo.git
+  methods:
+  -   git: https://github.com/consolidation/robo.git
 
 releases:
 -   releaseCycle: "4"
     support: true
     eol: false
     latest: "4.0.6"
+    latestReleaseDate: 2023-04-30
 
 -   releaseCycle: "3"
     support: false
     eol: true
     latest: "3.0.12"
+    latestReleaseDate: 2023-04-30
 
 -   releaseCycle: "2"
     support: false
     eol: true
     latest: "2.2.2"
+    latestReleaseDate: 2020-12-18
 
 -   releaseCycle: "1"
     support: false
     eol: true
     latest: "1.5.0"
+    latestReleaseDate: 2021-10-07
 
 ---
 
