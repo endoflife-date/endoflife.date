@@ -4,7 +4,6 @@ category: framework
 tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
-releasePolicyLink: https://github.com/consolidation/robo#branches
 activeSupportColumn: true
 customColumns:
   -   property: supportedPHPVersions
@@ -56,3 +55,7 @@ releases:
 ---
 
 > [Robo](https://robo.li/) is a task runner written in PHP.
+
+Robo supported releases is documented on <https://github.com/consolidation/robo#branches>.
+All versions are roughly compatible; the breaking changes introduced at each major version are
+fairly minor, and typically only affect classes that are not used by most clients.
