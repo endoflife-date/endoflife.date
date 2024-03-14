@@ -21,7 +21,7 @@ auto:
 releases:
 -   releaseCycle: "24.4"
     releaseDate: 2024-03-13
-    eol: 2024-06-31
+    eol: 2024-06-30
     latest: '24.4'
     latestReleaseDate: 2024-03-13
 
