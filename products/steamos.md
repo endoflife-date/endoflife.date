@@ -1,6 +1,7 @@
 ---
 title: SteamOS
 category: os
+tags: linux-distribution
 iconSlug: steam
 permalink: /steamos
 eolColumn: false
