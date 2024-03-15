@@ -183,8 +183,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.58"
-    latestReleaseDate: 2023-10-10
+    latest: "15.9.60"
+    latestReleaseDate: 2024-02-13
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
 -   releaseCycle: "15.8"

@@ -22,8 +22,8 @@ releases:
     releaseDate: 2021-12-01
     support: true
     eol: false
-    latest: "2.132.1"
-    latestReleaseDate: 2024-03-12
+    latest: "2.133.0"
+    latestReleaseDate: 2024-03-14
 
 ---
 
