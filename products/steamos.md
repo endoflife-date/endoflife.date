@@ -4,6 +4,7 @@ category: os
 iconSlug: steam
 permalink: /steamos
 eolColumn: false
+releaseColumn: false
 discontinuedColumn: true
 releases:
 
