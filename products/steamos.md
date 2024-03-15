@@ -29,5 +29,5 @@ releases:
 
 > [SteamOS](https://store.steampowered.com/steamos) is a Linux distribution developed by Valve.
 
-SteamOS 3 is based on Arch-Linux and is the main operating system for the Steam Deck.
+SteamOS 3 is based on Arch Linux and is the main operating system for the Steam Deck.
 SteamOS 1 and 2 was based on Debian and was used on Steam Machines.
