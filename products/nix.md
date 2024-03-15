@@ -20,7 +20,7 @@ releases:
 -   releaseCycle: "2.21"
     releaseDate: 2024-03-11
     eol: false
-    latest: "2.20.5"
+    latest: "2.21.0"
     latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "2.20"
