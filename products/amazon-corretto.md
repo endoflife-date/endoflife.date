@@ -45,6 +45,10 @@ auto:
       rows_selector: "tr"
       fields:
         releaseCycle: "Coretto Release" # Typo on the website
+        releaseDate:
+          column: "GA Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
         eol: "End of Life"
   -   release_table: https://aws.amazon.com/corretto/faqs/
       selector: "table"
@@ -52,6 +56,10 @@ auto:
       rows_selector: "tr"
       fields:
         releaseCycle: "Corretto Release"
+        releaseDate:
+          column: "GA Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
         eol:
           column: "End of Life"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
