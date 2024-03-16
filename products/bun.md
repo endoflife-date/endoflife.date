@@ -29,7 +29,7 @@ releases:
 
 ---
 
-> [Bun](https://bun.sh/) is a open-source JavaScript runtime that focuses on speed,
+> [Bun](https://bun.sh/) is an open-source JavaScript runtime that focuses on speed,
 and comes with a bundler, test runner, and a Node.js-compatible package manager.
 
 Bun does not have a clearly defined support policy.

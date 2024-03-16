@@ -176,13 +176,19 @@ releases:
 
 ---
 
-> [Citrix Virtual Apps and Desktops](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/) (CVAD) provides virtualization solutions that give IT control of virtual machines, applications, and security while providing anywhere access for any device.
+> [Citrix Virtual Apps and Desktops](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/)
+> (CVAD) provides virtualization solutions that give IT control of virtual machines, applications,
+> and security while providing anywhere access for any device.
 
 Citrix Virtual Apps and Desktops was previously known as XenApp and XenDesktop, re-branded in 2018.
 
-There are two release types for on-premises deployments, Current Releases and Long Term Service Releases (LTSR).
+There are two release types for on-premises deployments, Current Releases and Long Term Service
+Releases (LTSR):
+- Current Releases will reach end of active support 6 months after release and end of security
+  support 18 months after release.
+- Long Term Service Releases will reach end of active and security support 5 years after release.
+  Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible
+  for [paid extended support](https://support.citrix.com/article/CTX459999/extended-support-customer-guide) up to 5 years after active and security support ends.
 
-* Current Releases will reach end of active support 6 months after release and end of security support 18 months after release.
-* Long Term Service Releases will reach end of active and security support 5 years after release. Incremental updates are delivered in the form of Cumulative Updates (CU). LTSR is also eligible for [paid extended support](https://support.citrix.com/article/CTX459999/extended-support-customer-guide) up to 5 years after active and security support ends.
-
-This page tracks the on-premise version of the product, and not the cloud-hosted version (Citrix Virtual Apps and Desktops _service_).
+This page tracks the on-premise version of the product, and not the cloud-hosted version (Citrix
+Virtual Apps and Desktops _service_).

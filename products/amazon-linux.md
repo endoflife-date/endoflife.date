@@ -25,7 +25,6 @@ auto:
       regex: ^(?:\d+(\.\d+){2,4})$
 
 releases:
-
 -   releaseCycle: '2023'
     releaseDate: 2023-03-01
     support: 2025-03-15
@@ -175,10 +174,14 @@ releases:
 > [virtual machine image](https://cdn.amazonlinux.com/os-images/latest/) for use on Kernel-based
 > Virtual Machine (KVM), Oracle VM VirtualBox, Microsoft Hyper-V, and VMware ESXi.
 
+## Amazon Linux AMI
+
 The original [Amazon Linux AMI][al1] is now in a [maintenance support phase][al1-eol] with
 [a limited set of packages](https://amazonlinux.github.io/al1-support-statements/) still being
 supported. The [Amazon Linux AMI FAQ](https://aws.amazon.com/amazon-linux-ami/faqs/) has a few more
 details.
+
+## Amazon Linux 2
 
 [Amazon Linux 2][al2] will provide _security updates and bug fixes for all packages in core until
 June 30, 2025_. User-space Application Binary Interface (ABI) compatibility is guaranteed for

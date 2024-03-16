@@ -78,4 +78,5 @@ releases:
 
 ---
 
-> [Splunk](https://www.splunk.com/) is a data platform built for expansive data access, powerful analytics and automation.
+> [Splunk](https://www.splunk.com/) is a data platform built for expansive data access, powerful
+> analytics and automation.

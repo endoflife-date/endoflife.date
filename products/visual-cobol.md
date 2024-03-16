@@ -80,12 +80,13 @@ releases:
 
 ---
 
-> [Visual COBOL](https://www.microfocus.com/en-us/products/visual-cobol/overview) is a suite of software products
-> designed to meet the needs of IT organizations with existing application investments written in the COBOL language.
+> [Visual COBOL](https://www.microfocus.com/en-us/products/visual-cobol/overview) is a suite of
+> software products designed to meet the needs of IT organizations with existing application
+> investments written in the COBOL language.
 
 {: .warning }
-This page is using dates for Visual COBOL for Visual Studio documented on the [Product Support Lifecycle](https://www.microfocus.com/productlifecycle/)
-page.
+This page is using dates for Visual COBOL for Visual Studio documented on the
+[Product Support Lifecycle](https://www.microfocus.com/productlifecycle/) page.
 
-Visual COBOL is developed, maintained and commercialized by OpenText (formerly Micro Focus). Extended Support for two
-years is available for an additional fee.
+Visual COBOL is developed, maintained and commercialized by OpenText (formerly Micro Focus).
+Extended Support for two years is available for an additional fee.

@@ -415,5 +415,5 @@ For package specific support details, the following commands are available:
 [^2]: The restricted repository isn't explicitly listed in the Ubuntu Pro list of supported repositories, but it is likely supported.
 [^3]: This includes NIST-certified FIPS crypto-modules, USG hardening with CIS and DISA-STIG profiles, and Common Criteria EAL2.
 [^4]: Anyone can use Ubuntu Pro for free on up to 5 machines, or 50 if you are an official Ubuntu Community member.
-[^5]: The difference between these 2 is unclear, and not explained.
+[^5]: The difference between these two is unclear, and not explained.
 [^6]: While promised, Canonical doesn't seem to be backporting any security-fixes in the universe repository to users without a Pro subscription.

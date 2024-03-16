@@ -78,7 +78,7 @@ releases:
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
-    # Official release was on march : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
+    # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
     releaseDate: 2023-02-23
     eol: 2023-10-17
     latest: "20.0.2.10.1"

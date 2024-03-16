@@ -26,6 +26,7 @@ releases:
 
 ---
 
-> [GoAccess](https://goaccess.io/) is an open source web analytics application for Unix-like operating systems that runs in a terminal or through a browser.
+> [GoAccess](https://goaccess.io/) is an open source web analytics application for Unix-like
+> operating systems that runs in a terminal or through a browser.
 
 Based on the release history only the latest version is supported and actively maintained.

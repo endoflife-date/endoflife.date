@@ -161,16 +161,20 @@ releases:
 
 ---
 
->[SQLServer](https://www.microsoft.com/sql-server/): Microsoft SQL Server is a relational database management system developed by Microsoft.
+>[SQLServer](https://www.microsoft.com/sql-server/): Microsoft SQL Server is a relational database
+> management system developed by Microsoft.
 
-[Latest updates for Microsoft SQL Server](https://learn.microsoft.com/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server)
+[Latest updates for Microsoft SQL Server](https://learn.microsoft.com/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server).
 
-Each of the products has its own Technical Support Policy, which determine the lifetime and scope of product support.
+Each of the products has its own Technical Support Policy, which determine the lifetime and scope
+of product support.
 
-CU: Cumulative Update
-
-The 2016 version was the last to which SP appeared. As of 2017, only CU updates will be available.
+The 2016 version was the last to which SP appeared. As of 2017, only Cumulative Updates (CU) will
+be available.
 
 ## Extended Security Updates (ESU)
 
-For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates). It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date. Customers can also get technical support for the ESU period as long as they also have an active support plan.
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates).
+It includes Critical and/or Important security updates for a maximum of three years after the
+product's End of Extended Support date. Customers can also get technical support for the ESU period
+as long as they also have an active support plan.

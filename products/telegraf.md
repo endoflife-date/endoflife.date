@@ -216,8 +216,10 @@ releases:
 
 ---
 
-> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
+> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing,
+> aggregating, and writing metrics.
 
 Telegraf is based on a plugin system, and this page only covers the Telegraf server.
 Only the latest two minor releases are supported with maintenance patch releases.
-Compatibility is not guaranteed across major releases. Each major release is supported for a minimum of 12 months.
+Compatibility is not guaranteed across major releases. Each major release is supported for a
+minimum of 12 months.

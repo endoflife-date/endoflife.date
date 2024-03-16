@@ -303,6 +303,11 @@ releases:
 
 ---
 
-> [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety, meaning that all references point to valid memory, without requiring the use of automated memory management techniques such as garbage collection
+> [Rust](https://www.rust-lang.org/) is an open source multi-paradigm, general-purpose programming
+> language that emphasizes performance, type safety, and concurrency. It enforces memory safety,
+> meaning that all references point to valid memory, without requiring the use of automated memory
+> management techniques such as garbage collection
 
-A new stable release is produced every six weeks, like clock-work. Only the latest stable release receives patches. Each new stable release spends the preceding six week period as the Beta release. There's also a new 'nightly' build every night, but I don't propose you list all of those.
+A new stable release is produced every six weeks, like clock-work. Only the latest stable release
+receives patches. Each new stable release spends the preceding six-week period as the Beta release.
+There's also a new 'nightly' build every night, but I don't propose you list all of those.

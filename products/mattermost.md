@@ -18,7 +18,7 @@ auto:
       selector: "table"
       fields:
         releaseCycle: "Version"
-        releaseDate: "Lifecyle Start Date"
+        releaseDate: "Lifecycle Start Date"
         eol: "Lifecycle End Date"
 
 releases:

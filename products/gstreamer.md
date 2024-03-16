@@ -108,7 +108,7 @@ releases:
 > format, processes them, and exports them in another. The formats and
 > processes can be changed in a plug and play fashion.
 
-GStreamer follows [Semantic Versioning](https://semver.org/). Moreover
+GStreamer follows [Semantic Versioning](https://semver.org/). Moreover,
 GStreamer is using the following version policy:
 
 - Stable releases (ready for production use) are even numbers, such as

@@ -104,9 +104,7 @@ releases:
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-10-13
-    # Official EOL was on March 31
-    # but it got fixes till August (see link below)
-    eol: 2022-08-15
+    eol: 2022-08-15 # Official EOL was on March 31, but it got fixes till August (see link below)
     extendedSupport: false
     # Last mention for 1.18 was on Sep 2022
     # https://github.com/awsdocs/amazon-eks-user-guide/blob/306ec81574cb60ae47b8dbc8834d6c9d0dd3fe66/doc_source/platform-versions.md
