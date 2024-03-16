@@ -7,7 +7,7 @@ permalink: /alibaba-dragonwell
 alternate_urls:
 -   /dragonwell
 versionCommand: java -version
-releasePolicyLink: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
+releasePolicyLink: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
 changelogTemplate: "https://github.com/dragonwell-project/dragonwell__RELEASE_CYCLE__/wiki/Alibaba-Dragonwell-__RELEASE_CYCLE__-Standard-Edition-Release-Notes"
 releaseDateColumn: true
 
@@ -48,7 +48,13 @@ auto:
       -   '^dragonwell-(?P<version>17[\d\.\+]+)_jdk.+-ga$'
       -   '^jdk-(?P<version>17[\d\.\+]+)-ga$'
       template: '{{version}}'
-  -   release_table: https://github.com/dragonwell-project/dragonwell17/wiki/Alibaba-Dragonwell-Support
+  -   git: "https://github.com/dragonwell-project/dragonwell21.git"
+      regex:
+        -   '^dragonwell-standard-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
+        -   '^dragonwell-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
+        -   '^jdk-(?P<version>21[\d\.\+]+)-ga$'
+      template: '{{version}}'
+  -   release_table: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
       selector: "table"
       fields:
         releaseCycle: "Dragonwell Version"
@@ -57,20 +63,25 @@ auto:
           regex: '^.*(?P<date>\w{3} \d{4}).*$'
           template: '{{date}}'
 
-# Do not forget to update the "auto" configuration on each new major release.
+# Do not forget to update the "auto" configuration and the "releasePolicyLink" on each new major release.
 releases:
-# First official release is 17.0.1.
+-   releaseCycle: "21"
+    lts: true
+    releaseDate: 2023-11-24 # First official release is 21.0.1.
+    eol: false
+    latest: "21.0.2.0.2+13"
+    latestReleaseDate: 2024-02-20
+
 -   releaseCycle: "17"
     lts: true
-    releaseDate: 2021-10-18
+    releaseDate: 2021-10-18 # First official release is 17.0.1.
     eol: 2029-09-30
     latest: "17.0.10.0.11+7"
     latestReleaseDate: 2024-02-20
 
-# First official release is 11.0.7.2.
 -   releaseCycle: "11"
     lts: true
-    releaseDate: 2020-07-20
+    releaseDate: 2020-07-20 # First official release is 11.0.7.2.
     eol: 2027-09-30
     latest: "11.0.22.18"
     latestReleaseDate: 2024-02-20
@@ -91,10 +102,9 @@ releases:
 > Edition optimized for the Alibaba cloud. Both editions are certified using the [AQAvit quality
 > verification suite](https://adoptium.net/aqavit/). It is available on Linux, Windows and Docker.
 
-Dragonwell builds are only released for LTS OpenJDK releases (8, 11, 17, 21...), following
-the OpenJDK release cadence - a new major version every
-two years (since 2021) supported for at least four years with quarterly maintenance/security updates
-(typically January, April, July, and October).
+Dragonwell builds are only released for LTS OpenJDK releases (8, 11, 17, 21...), and following the
+OpenJDK release cadence - a new major version every two years (since 2021) supported for at least
+four years with quarterly maintenance/security updates (typically January, April, July, and October).
 
 Dragonwell is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#alibaba-dragonwell).
