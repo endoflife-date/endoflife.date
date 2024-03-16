@@ -209,7 +209,7 @@ ended support in Electron 23. The October support date follows the extended supp
 both Chromium and Microsoft. On October 11, support will drop back to the
 latest three stable major versions.
 
-All supported release get fixes backported that were previously merged to main, though this may be
+All supported release get fixes that were previously merged to main backported, though this may be
 on a case-by-case basis for some older supported releases. When an API is changed or removed in a
 way that breaks existing functionality, the previous functionality will be supported for a minimum
 of two major versions when possible before being removed.

@@ -49,7 +49,7 @@ releases:
 ---
 
 > [Yarn](https://yarnpkg.com/) is a modern package manager for the Javascript ecosystem. It offers
-> extensibility via plugins, and a Plug'n'Play strategy that supports various frameworks and tools.
+> extensibility via plugins, and a Plug and Play strategy that supports various frameworks and tools.
 
 Yarn's support and EOL policy is not clearly defined.
 

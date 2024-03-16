@@ -116,14 +116,20 @@ releases:
 
 ---
 
-> [Traefik](https://traefik.io/traefik/) is a leading modern reverse proxy and load balancer that makes deploying microservices easy.
+> [Traefik](https://traefik.io/traefik/) is a leading modern reverse proxy and load balancer that
+> makes deploying microservices easy.
 
 ## [Versioning Scheme](https://doc.traefik.io/traefik/deprecation/releases/#versioning-scheme)
 
-The Traefik Proxy project follows the **semantic versioning** scheme and maintains a separate branch for each minor version. The main branch always represents the next upcoming minor or major version.
+The Traefik Proxy project follows the **semantic versioning** scheme and maintains a separate
+branch for each minor version. The main branch always represents the next upcoming minor or major
+version.
 
 And these are our guiding rules for version support:
 
 - **Only the latest `minor`** will be on active support at any given time
-- **The last `minor` after releasing a new `major`** will be supported for 1 year following the major release
-- **Previous rules are subject to change** and in such cases an announcement will be made publicly, [here](https://traefik.io/blog/traefik-2-1-in-the-wild/) is an example extending `v1.x` branch support.
+- **The last `minor` after releasing a new `major`** will be supported for 1 year following the
+  major release
+- **Previous rules are subject to change** and in such cases an announcement will be made publicly,
+  [here](https://traefik.io/blog/traefik-2-1-in-the-wild/) is an example extending `v1.x` branch
+  support.

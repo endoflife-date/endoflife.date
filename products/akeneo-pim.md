@@ -21,7 +21,6 @@ auto:
           regex_exclude: '^2.[1-3]' # 2.1 to 2.3 only contained enterprise fixes or improvements.
         eol: "End of support date"
 
-# EOL dates are available at https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-support-dates
 releases:
 -   releaseCycle: "7.0"
     codename: "Sahara hare"

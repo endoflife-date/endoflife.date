@@ -187,7 +187,7 @@ part of the Atlassian Cloud with [its own release cadence](https://confluence.at
 Confluence has both LTS and non-LTS releases. There is approximately one LTS release per year,
 which receive security support and bug fixes for 2 years. The non-LTS releases are rarely
 backported for security and bug fixes, which means that you have to watch patch notes and keep up
-with current releases to keep your install secure.
+with current releases to keep your installation secure.
 
 More information about enterprise LTS releases can be found in
 [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).

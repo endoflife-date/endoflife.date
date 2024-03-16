@@ -76,5 +76,5 @@ latest Android Security Patch.
 
 Some old branches may still get security updates via Android Security Patches, but users will have
 to do their own builds to get these updates - official builds are only maintained for the last two
-versions (with the exception of devices stuck on 18.1). For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
+versions (except for devices stuck on 18.1). For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
 to check commits.

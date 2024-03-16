@@ -76,10 +76,15 @@ releases:
 
 ---
 
-> [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS and Framework written in PHP and distributed under the BSD License.
+> [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS
+> and Framework written in PHP and distributed under the BSD License.
 
-For major releases that are in "Active development" or "Full support", minor versions are released approximately every three months, and their End-of-Life (EOL) is announced at least six months in advance. The latest minor release is supported as long as its underlying major release.
+For major releases that are in "Active development" or "Full support", minor versions are released
+approximately every three months, and their End-of-Life (EOL) is announced at least six months in
+advance. The latest minor release is supported as long as its underlying major release.
 
 Silverstripe 5 will receive security fixes till April 2027.
 
-Bug and security fixes are managed differently depending on whether the underlying major release is in "Full support" or "Limited support". For more information, read the [Release Process](https://docs.silverstripe.org/en/5/contributing/release_process/) documentation.
+Bug and security fixes are managed differently depending on whether the underlying major release is
+in "Full support" or "Limited support". For more information, read the
+[Release Process](https://docs.silverstripe.org/en/5/contributing/release_process/) documentation.

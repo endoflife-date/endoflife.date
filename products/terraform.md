@@ -69,12 +69,12 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl) infrastructure as code
-> software tool by Hashicorp.
+> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
+> infrastructure as code software tool by Hashicorp.
 
-Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
-code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major
-release" branch, for up to two (2) releases from the most current major release.
+Generally Available (GA) releases of active products are supported for up to two (2) years.
+Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest
+"major release" branch, for up to two (2) releases from the most current major release.
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
 versioning nomenclature: `Version X.Y.Z.`

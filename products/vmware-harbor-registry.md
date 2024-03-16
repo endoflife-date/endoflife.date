@@ -83,9 +83,10 @@ releases:
 
 ---
 
-> [VMware Harbor Registry](https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-index.html) is an enterprise-class registry server that stores and distributes container images.
-> Harbor allows you to store and manage images for use with VMware Tanzu Kubernetes Grid Integrated Edition (TKGI).
+> [VMware Harbor Registry](https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-index.html)
+> is an enterprise-class registry server that stores and distributes container images. Harbor
+> allows you to store and manage images for use with VMware Tanzu Kubernetes Grid Integrated
+> Edition (TKGI).
 
 New major versions are usually maintained for approximately 1 year.
-More information about releases on
-[VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).
+More information about releases on [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).

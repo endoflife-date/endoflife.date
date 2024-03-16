@@ -27,6 +27,8 @@ releases:
 
 ---
 
-> [Amazon CDK](https://aws.amazon.com/cdk/) help you define your cloud application in AWS resources using familiar programming languages.
+> [Amazon CDK](https://aws.amazon.com/cdk/) help you define your cloud application in AWS resources
+> using familiar programming languages.
 
-The AWS CDK is updated approximately once a week. Maintenance versions may be released between weekly releases to address critical issues.
+The AWS CDK is updated approximately once a week. Maintenance versions may be released between
+weekly releases to address critical issues.

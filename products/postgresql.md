@@ -160,5 +160,5 @@ containing any fixes and will be considered end-of-life (EOL) and no longer supp
 
 The [Release roadmap](https://www.postgresql.org/developer/roadmap/) lists upcoming minor and major
 releases. If the release team determines that a critical bug or security fix is too important to
-wait until the regularly scheduled minor release, it may make a release available outside of the
+wait until the regularly scheduled minor release, it may make a release available outside the
 minor release roadmap.

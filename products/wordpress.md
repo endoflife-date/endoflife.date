@@ -16,12 +16,12 @@ customColumns:
     position: after-release-column
     label: Supported PHP
     description: Supported PHP versions range
-    link: 
+    link:
       https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 
 # This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
 # The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
-# But note that this regex would not work if WordPress releases a x.y.0.t version.
+# But note that this regex would not work if WordPress releases an x.y.0.t version.
 # That should not be a problem though, such version were only used with 1.5.1.
 # See https://github.com/endoflife-date/endoflife.date/pull/2768#issuecomment-1491875624.
 auto:
@@ -250,6 +250,6 @@ releases:
 
 The only officially supported and actively maintained version of WordPress is the latest one.
 
-Security updates are backported to older releases when possible, but the Wordpress team offers no
+Security updates are backported to older releases when possible, but the WordPress team offers no
 guarantee and no timeframe. Moreover, versions below 4.1 [are guaranteed to not get security
 updates](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/).

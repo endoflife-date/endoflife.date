@@ -50,8 +50,10 @@ releases:
 
 ---
 
-> [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller for Kubernetes and OpenShift workloads
+> [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller
+> for Kubernetes and OpenShift workloads
 
-Each release is supported for a period of four months, and they aim to create a new release roughly every two months, accounting for holiday periods, major conferences and other world events.
+Each release is supported for a period of four months, and they aim to create a new release roughly
+every two months, accounting for holiday periods, major conferences and other world events.
 
 [SemVer](https://semver.org/) is used for all packages released.

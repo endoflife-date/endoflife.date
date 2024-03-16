@@ -43,7 +43,7 @@ releases:
 
 ---
 
-> Elasticsearch is a search engine that provides a distributed, multitenant-capable full-text search
+> Elasticsearch is a search engine that provides a distributed, multi-tenant-capable full-text search
 > engine with an HTTP web interface and schema-free JSON documents.
 
 Elasticsearch is part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), also known as the

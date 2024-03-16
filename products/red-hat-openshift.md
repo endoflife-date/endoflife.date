@@ -157,8 +157,8 @@ Important Security Advisories (RHSAs) and Urgent and Selected High Priority Bug 
 ([RHEA][DEFINITION]) may be released at Red Hat’s discretion, but should not be expected.
 
 The **Extended Update Support** phase commences after the Full Support phase for even numbered minor
-releases (eg. 4.8, 4.10, 4.12). Additionally to the full support and maintenance support phases,
-which also apply to EUS releases, upgrades between EUS releases will cause less reboots of nodes.
+releases (e.g. 4.8, 4.10, 4.12). Additionally, to the full support and maintenance support phases,
+which also apply to EUS releases, upgrades between EUS releases will cause fewer reboots of nodes.
 This was the only benefit of EUS releases before version 4.12. Starting from 4.12, Red Hat will
 additionally include a six month EUS phase. The EUS phase will follow the maintenance phase for
 the given release (18 months from GA date). This results in a total support time of 24 months for

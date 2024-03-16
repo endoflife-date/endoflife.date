@@ -47,14 +47,14 @@ releases:
 
 ---
 
-> [Micronaut](https://micronaut.io/) is a modern, JVM-based, full-stack framework for building modular, easily testable
-> microservice and serverless applications.
+> [Micronaut](https://micronaut.io/) is a modern, JVM-based, full-stack framework for building
+> modular, easily testable microservice and serverless applications.
 
 Versions of the Micronaut framework may fall into one of three lifecycle stages:
 
 - Active Development: those versions receive regular updates.
-- Active Maintenance: those versions receive limited bug fixes and patches, mostly focused around the resolution of
-  critical security advisories.
+- Active Maintenance: those versions receive limited bug fixes and patches, mostly focused around
+  the resolution of critical security advisories.
 
-The Micronaut Foundation offers [commercial support](https://micronaut.io/support/). This typically lasts a few
-years after active maintenance ends.
+The Micronaut Foundation offers [commercial support](https://micronaut.io/support/). This typically
+lasts a few years after active maintenance ends.
