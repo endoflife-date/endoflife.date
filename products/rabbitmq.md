@@ -18,20 +18,22 @@ auto:
       -   '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
       -   '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
   -   release_table: https://www.rabbitmq.com/docs/versions
-      selector: "table.release-series"
+      selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
-        releaseCycle: "Version"
-        releaseDate: "First Release"
-        eol: "End of Community Support1"
-        extendedSupport: "End of Extended Commercial Support2"
-  -   release_table: https://www.rabbitmq.com/docs/versions
-      selector: "table.release-series"
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle: "Version"
-        releaseDate: "First Release"
-        extendedSupport: "End of Life"
+        releaseCycle: "Ver."
+        releaseDate:
+          column: "Initial Release"
+          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
+          template: "{{day}} {{month}} {{year}}"
+        eol:
+          column: "End of Support"
+          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
+          template: "{{day}} {{month}} {{year}}"
+        extendedSupport:
+          column: 6 # the page has mult-line header preventing us from using the "Ext. Commercial" column
+          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
+          template: "{{day}} {{month}} {{year}}"
 
 releases:
 -   releaseCycle: "3.13"
