@@ -20,6 +20,26 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/ionic-team/ionic-framework.git
+  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+      selector: "table"
+      fields:
+        releaseCycle: "Framework"
+        minAngularVersion: "Minimum Angular Version"
+        maxAngularVersion:
+          column: "Maximum Angular Version"
+          regex:
+          -   '^(?P<value>v\d+\.x).*$'
+          -   '^(?P<value>v\d+\.\d+.\d+).*$'
+  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+      selector: "table"
+      fields:
+        releaseCycle: "Framework"
+        supportedReactVersions: "Required React Version"
+  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+      selector: "table"
+      fields:
+        releaseCycle: "Framework"
+        supportedVueVersions: "Required Vue Version"
 
 # support(R) = releaseDate(R+1)
 releases:
@@ -28,6 +48,10 @@ releases:
     support: true
     eol: false
     extendedSupport: true
+    minAngularVersion: v14
+    maxAngularVersion: v17.x
+    supportedReactVersions: v17+
+    supportedVueVersions: v3.0.6+
     latest: "7.8.0"
     latestReleaseDate: 2024-03-13
 
@@ -36,6 +60,10 @@ releases:
     support: 2023-03-29
     eol: 2023-09-29
     extendedSupport: 2024-03-29
+    minAngularVersion: v12
+    maxAngularVersion: v15.x
+    supportedReactVersions: v17+
+    supportedVueVersions: v3.0.6+
     latest: "6.7.5"
     latestReleaseDate: 2023-06-08
 
@@ -44,6 +72,10 @@ releases:
     support: 2021-12-08
     eol: 2022-06-08
     extendedSupport: 2022-12-08
+    minAngularVersion: v8.2
+    maxAngularVersion: v12.x
+    supportedReactVersions: v16.8+
+    supportedVueVersions: v3.0+
     latest: "5.9.4"
     latestReleaseDate: 2022-04-27
 
@@ -52,6 +84,10 @@ releases:
     support: 2020-02-11
     eol: 2020-08-11
     extendedSupport: 2022-09-30
+    minAngularVersion: v8.2
+    maxAngularVersion: v11.x
+    supportedReactVersions: v16.8+
+    supportedVueVersions: N/A
     latest: "4.11.13"
     latestReleaseDate: 2020-10-01
 
@@ -60,6 +96,10 @@ releases:
     support: 2019-01-23
     eol: 2019-10-30
     extendedSupport: 2020-08-11
+    minAngularVersion: v5.2.11
+    maxAngularVersion: v5.2.11
+    supportedReactVersions: N/A
+    supportedVueVersions: N/A
     latest: "3.9.3"
     latestReleaseDate: 2019-01-14
 
@@ -68,6 +108,10 @@ releases:
     support: 2017-04-05
     eol: 2017-04-05
     extendedSupport: 2017-04-05
+    minAngularVersion: v2.x
+    maxAngularVersion: v2.x
+    supportedReactVersions: N/A
+    supportedVueVersions: N/A
     latest: "2.3.0"
     latestReleaseDate: 2017-03-17
 
@@ -76,6 +120,10 @@ releases:
     support: 2017-01-25
     eol: 2017-01-25
     extendedSupport: 2017-01-25
+    minAngularVersion: v1.x
+    maxAngularVersion: v1.x
+    supportedReactVersions: N/A
+    supportedVueVersions: N/A
     latest: "1.3.2"
     latestReleaseDate: 2016-10-24
 
@@ -90,13 +138,10 @@ fixes for a limited time, documented on [this page](https://ionicframework.com/d
 
 Extended Support is available along with the [Ionic Enterprise](https://ionic.io/enterprise) offering.
 
-
 ## [Compatibility Recommendations](https://ionicframework.com/docs/reference/support#compatibility-recommendations)
 
-| Ionic Framework | Angular    | React  | Vue     |
-|-----------------|------------|--------|---------|
-| 7               | v14  - v15 | v17+   | v3.0.6+ |
-| 6               | v12  - v15 | v17+   | v3.0.6+ |
-| 5               | v8.2 - v12 | v16.8+ | v3.0+   |
-| 4               | v8.2 - v11 | v16.8+ | N/A     |
-| 3               | v5.2.11    | N/A    | N/A     |
+{% include table.html
+labels="Ionic Version,Minimum Angular Version,Maximum Angular Version,React Versions,Vue Versions"
+fields="releaseCycle,minAngularVersion,maxAngularVersion,supportedReactVersions,supportedVueVersions"
+types="string,string,string,string,string"
+rows=page.releases %}
