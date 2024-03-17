@@ -4,7 +4,7 @@ category: os
 tags: linux-distribution
 iconSlug: steam
 permalink: /steamos
-eolColumn: false
+eolColumn: Support
 releaseColumn: false
 discontinuedColumn: true
 releases:
@@ -18,13 +18,13 @@ releases:
 -   releaseCycle: "2"
     codename: brewmaster
     releaseDate: 2015-11-01
-    eol: true
+    eol: 2019-06-30
     discontinued: true
     
 -   releaseCycle: "1"
     codename: alchemist
     releaseDate: 2013-12-01
-    eol: true
+    eol: 2011-11-02
     discontinued: true
 
 ---
