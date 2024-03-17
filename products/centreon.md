@@ -116,7 +116,6 @@ releases:
 
 > [Centreon](https://www.centreon.com/) is a software platform used to monitor IT infrastructure.
 > It can track the health of systems, applications, and networks, notifying IT staff of any problems.
-> Centreon has a free, open-source core and offers paid modules for additional features.
 
 {: .warning }
 > Centreon is composed of many components, each with its own minor version number.
