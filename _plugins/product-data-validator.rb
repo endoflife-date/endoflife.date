@@ -140,6 +140,7 @@ module EndOfLifeHooks
     error_if.is_not_a_number('extendedSupportWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
+    error_if.not_ordered_by_release_cycles('releases')
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -300,6 +301,24 @@ module EndOfLifeHooks
 
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
+      end
+    end
+
+    def not_ordered_by_release_cycles(property)
+      releases = @data[property]
+
+      previous_release_cycle = nil
+      previous_release_date = nil
+      releases.each do |release|
+        release_cycle = release['releaseCycle']
+        release_date = release['releaseDate']
+
+        if previous_release_date and previous_release_date < release_date
+          declare_error(property, release_cycle, "expecting release to be before #{previous_release_cycle}")
+        end
+
+        previous_release_cycle = release_cycle
+        previous_release_date = release_date
       end
     end
 
