@@ -44,14 +44,14 @@ releases:
 -   releaseCycle: "2.17"
     releaseDate: 2023-07-24
     eol: 2023-09-20
-    latest: "2.17.1"
-    latestReleaseDate: 2023-09-29
+    latest: "2.17.2"
+    latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-05-31
     eol: 2023-07-24
-    latest: "2.16.2"
-    latestReleaseDate: 2023-10-19
+    latest: "2.16.3"
+    latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11

@@ -43,7 +43,7 @@ releases:
 
 -   releaseCycle: "11"
     releaseDate: 2022-01-11
-    eol: 2023-11-01
+    eol: 2023-11-30
     supportedPhpVersions: "7.4+"
     supportedDrupalVersions: "9 - 10"
     latest: "11.6.0"
@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "10"
     releaseDate: 2019-10-31
-    eol: 2022-01-01
+    eol: 2022-01-31
     supportedPhpVersions: "7.1+ (not 8)"
     supportedDrupalVersions: "8 - 9"
     latest: "10.6.2"
@@ -59,7 +59,7 @@ releases:
 
 -   releaseCycle: "9"
     releaseDate: 2018-01-24
-    eol: 2020-05-01
+    eol: 2020-05-31
     supportedPhpVersions: "5.6+"
     supportedDrupalVersions: "8"
     latest: "9.7.3"
@@ -67,7 +67,7 @@ releases:
 
 -   releaseCycle: "8"
     releaseDate: 2015-11-19
-    eol: 2025-01-01
+    eol: 2025-01-31
     supportedPhpVersions: "5.4.5+"
     supportedDrupalVersions: "7 - 8"
     latest: "8.4.12"
@@ -75,24 +75,24 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2015-05-20
-    eol: 2017-07-01
-    supportedPhpVersions: "5.3+"
+    eol: 2017-07-31
+    supportedPhpVersions: "5.3.0+"
     supportedDrupalVersions: "7"
     latest: "7.4.2"
     latestReleaseDate: 2022-03-25
 
 -   releaseCycle: "6"
     releaseDate: 2013-08-16
-    eol: 2015-12-01
-    supportedPhpVersions: "5.3+"
+    eol: 2015-12-31
+    supportedPhpVersions: "5.3.0+"
     supportedDrupalVersions: "7"
     latest: "6.7.0"
     latestReleaseDate: 2015-12-02
 
 -   releaseCycle: "5"
     releaseDate: 2012-03-23
-    eol: 2015-05-01
-    supportedPhpVersions: "5.2+"
+    eol: 2015-05-31
+    supportedPhpVersions: "5.2.0+"
     supportedDrupalVersions: "7"
     latest: "5.11.0"
     latestReleaseDate: 2014-05-22
