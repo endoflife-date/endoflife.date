@@ -23,10 +23,10 @@ auto:
 
 releases:
 -   releaseCycle: "9.6"
-    releaseDate: 2024-03-16
+    releaseDate: 2024-02-28
     eol: 2024-06-15
     latest: '9.6.0'
-    latestReleaseDate: 2024-03-16
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
@@ -187,6 +187,7 @@ releases:
     eol: 2022-01-15
     latestReleaseDate: 2021-12-15
     latest: '6.0.4'
+
 
 
 

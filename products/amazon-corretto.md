@@ -104,7 +104,7 @@ releases:
     latestReleaseDate: 2024-02-09
 
 -   releaseCycle: "16"
-    releaseDate: 2021-04-23
+    releaseDate: 2021-03-16
     eol: 2021-10-19
     latest: "16.0.2.7.1"
     latestReleaseDate: 2022-04-19
@@ -127,7 +127,7 @@ releases:
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
-    releaseDate: 2019-02-20
+    releaseDate: 2019-01-31
     eol: 2026-07-31
     latest: "8.402.08.1"
     latestReleaseDate: 2024-01-19
