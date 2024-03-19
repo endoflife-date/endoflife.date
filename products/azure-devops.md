@@ -37,8 +37,8 @@ releases:
     eol: 2030-10-08
     latest: "2020.1.2patch13"
     latestReleaseDate: 2024-03-12
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-3-release-date-march-12-2024
-        
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1?view=azure-devops#azure-devops-server-2020-update-12-patch-13-release-date-march-12-2024
+
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
     releaseDate: 2020-08-25
