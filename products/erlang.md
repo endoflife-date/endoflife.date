@@ -43,15 +43,15 @@ releases:
     releaseDate: 2020-05-11
     support: 2021-05-10
     eol: 2023-06-05
-    latest: '23.3.4.19'
-    latestReleaseDate: 2023-06-05
+    latest: '23.3.4.20'
+    latestReleaseDate: 2024-03-14
 
 -   releaseCycle: "22"
     releaseDate: 2019-05-10
     support: 2020-05-11
     eol: 2022-05-10
-    latest: '22.3.4.26'
-    latestReleaseDate: 2022-05-02
+    latest: '22.3.4.27'
+    latestReleaseDate: 2024-03-18
 
 -   releaseCycle: "21"
     releaseDate: 2018-06-19
