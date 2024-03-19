@@ -25,6 +25,12 @@ auto:
         eol: "EOL Date"
 
 releases:
+-   releaseCycle: "7.5"
+    releaseDate: 2024-03-18
+    eol: 2025-03-15
+    latest: '7.5.0'
+    latestReleaseDate: 2024-03-18
+
 -   releaseCycle: "7.4"
     releaseDate: 2023-09-15
     eol: 2024-09-15
