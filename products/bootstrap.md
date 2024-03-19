@@ -8,6 +8,7 @@ releasePolicyLink: https://github.com/twbs/release
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
+extendedSupportColumn: Commercial Support
 eolColumn: Critical Support
 
 identifiers:
@@ -31,6 +32,7 @@ releases:
     eol: false
     latest: "5.3.3"
     latestReleaseDate: 2024-02-20
+    extendedSupport: false
 
 -   releaseCycle: "4"
     lts: true
@@ -39,6 +41,7 @@ releases:
     eol: 2023-01-01
     latest: "4.6.2"
     latestReleaseDate: 2022-07-19
+    extendedSupport: true
 
 -   releaseCycle: "3"
     releaseDate: 2013-08-19
@@ -46,6 +49,7 @@ releases:
     eol: 2019-07-24
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
+    extendedSupport: true
 
 -   releaseCycle: "2"
     releaseDate: 2012-01-31
@@ -53,6 +57,7 @@ releases:
     eol: 2013-08-19
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
+    extendedSupport: false
 
 ---
 
@@ -61,7 +66,7 @@ releases:
 
 At times to be determined by the release working group, major versions will be frozen and
 transitioned to _Long Term Support_ (LTS). After a determined period of time, versions in Long Term
-Support will be deep-frozen and transition to _Maintenance_.
+Support will be deep-frozen and transition to _Maintenance_ (Critical Support).
 
 Versions in _Maintenance_ should not have any changes landed, except for:
 
@@ -70,5 +75,6 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 - **Important** documentation updates
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
-The `v4` branch is currently in Active LTS and will receive bug fixes till 2021-07-01, after which
-it will only receive critical fixes till its End of Life.
+Maintenance status will expire on the dates listed in the table above (middle column) and the version will reach End of Life, where no more updates will be published.
+
+If you are still using Bootstrap 3 or 4, which have both reached end of life, commercial support for those versions is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/) and [4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/) docs.
