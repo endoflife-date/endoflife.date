@@ -30,6 +30,12 @@ auto:
         eol: "End of Full Maintenance"
 
 releases:
+-   releaseCycle: "7.6"
+    releaseDate: 2023-03-20
+    eol: 2026-07-31
+    latest: "7.6.0"
+    latestReleaseDate: 2023-03-20
+
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
