@@ -20,6 +20,12 @@ auto:
 # EOL(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2024-03-17
+    eol: false
+    latest: "3.4.0"
+    latestReleaseDate: 2024-03-17
+
 -   releaseCycle: "3.3"
     releaseDate: 2020-07-15
     eol: false
