@@ -16,11 +16,17 @@ supportColumn: false
 # Release dates can be found on https://wiki.openjdk.org/.
 # Usually only two patch versions are released during the support period.
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-03-19
+    eol: 2024-09-17
+    latest: "22"
+    latestReleaseDate: 2024-03-19
+
 -   releaseCycle: "21"
     releaseDate: 2023-09-19
     eol: 2024-03-19
-    latest: "21.0.1"
-    latestReleaseDate: 2023-10-17
+    latest: "21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
