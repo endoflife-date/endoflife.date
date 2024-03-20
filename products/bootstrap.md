@@ -30,34 +30,34 @@ releases:
     releaseDate: 2021-05-05
     support: true
     eol: false
+    extendedSupport: false
     latest: "5.3.3"
     latestReleaseDate: 2024-02-20
-    extendedSupport: false
 
 -   releaseCycle: "4"
     lts: true
     releaseDate: 2018-01-18
     support: false
     eol: 2023-01-01
+    extendedSupport: true
     latest: "4.6.2"
     latestReleaseDate: 2022-07-19
-    extendedSupport: true
 
 -   releaseCycle: "3"
     releaseDate: 2013-08-19
     support: false
     eol: 2019-07-24
+    extendedSupport: true
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
-    extendedSupport: true
 
 -   releaseCycle: "2"
     releaseDate: 2012-01-31
     support: false
     eol: 2013-08-19
+    extendedSupport: false
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
-    extendedSupport: false
 
 ---
 
@@ -75,6 +75,5 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 - **Important** documentation updates
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
-Maintenance status will expire on the dates listed in the table above (middle column) and the version will reach End of Life, where no more updates will be published.
 
 If you are still using Bootstrap 3 or 4, which have both reached end of life, commercial support for those versions is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/) and [4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/) docs.
