@@ -30,15 +30,15 @@ releases:
     releaseDate: 2022-05-04
     support: 2025-03-30
     eol: 2026-03-30
-    latest: '4.8.3'
-    latestReleaseDate: 2024-03-15
+    latest: '4.8.4'
+    latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
     support: 2023-04-30
     eol: 2024-04-30
-    latest: '3.9.11'
-    latestReleaseDate: 2024-03-05
+    latest: '3.9.12'
+    latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "2"
     releaseDate: 2014-04-01

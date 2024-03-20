@@ -148,22 +148,22 @@ releases:
     releaseDate: 2021-10-04
     support: 2023-04-05
     eol: 2026-10-31
-    latest: "3.10.13"
-    latestReleaseDate: 2023-08-24
+    latest: "3.10.14"
+    latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "3.9"
     releaseDate: 2020-10-05
     support: 2022-05-17
     eol: 2025-10-31
-    latest: "3.9.18"
-    latestReleaseDate: 2023-08-24
+    latest: "3.9.19"
+    latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "3.8"
     releaseDate: 2019-10-14
     support: 2021-05-03
     eol: 2024-10-31
-    latest: "3.8.18"
-    latestReleaseDate: 2023-08-24
+    latest: "3.8.19"
+    latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "3.7"
     releaseDate: 2018-06-26
