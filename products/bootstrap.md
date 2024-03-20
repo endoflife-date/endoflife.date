@@ -8,6 +8,7 @@ releasePolicyLink: https://github.com/twbs/release
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releaseDateColumn: true
 activeSupportColumn: true
+extendedSupportColumn: Commercial Support
 eolColumn: Critical Support
 
 identifiers:
@@ -29,6 +30,7 @@ releases:
     releaseDate: 2021-05-05
     support: true
     eol: false
+    extendedSupport: false
     latest: "5.3.3"
     latestReleaseDate: 2024-02-20
 
@@ -37,6 +39,7 @@ releases:
     releaseDate: 2018-01-18
     support: false
     eol: 2023-01-01
+    extendedSupport: true
     latest: "4.6.2"
     latestReleaseDate: 2022-07-19
 
@@ -44,6 +47,7 @@ releases:
     releaseDate: 2013-08-19
     support: false
     eol: 2019-07-24
+    extendedSupport: true
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
 
@@ -51,6 +55,7 @@ releases:
     releaseDate: 2012-01-31
     support: false
     eol: 2013-08-19
+    extendedSupport: false
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
 
@@ -61,7 +66,7 @@ releases:
 
 At times to be determined by the release working group, major versions will be frozen and
 transitioned to _Long Term Support_ (LTS). After a determined period of time, versions in Long Term
-Support will be deep-frozen and transition to _Maintenance_.
+Support will be deep-frozen and transition to _Maintenance_ (Critical Support).
 
 Versions in _Maintenance_ should not have any changes landed, except for:
 
@@ -70,5 +75,5 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 - **Important** documentation updates
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
-The `v4` branch is currently in Active LTS and will receive bug fixes till 2021-07-01, after which
-it will only receive critical fixes till its End of Life.
+
+Bootstrap versions 3 and 4 have reached end of life. Commercial support is available for these versions through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/getting-started/#eol) and [4.6.x](https://getbootstrap.com/docs/4.6/end-of-life/) docs.
