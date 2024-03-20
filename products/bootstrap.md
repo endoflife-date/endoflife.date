@@ -76,4 +76,4 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
 
-If you are still using Bootstrap 3 or 4, which have both reached end of life, commercial support for those versions is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/) and [4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/) docs.
+Bootstrap versions 3 and 4 have reached end of life. Commercial support is available for these versions through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/) and [4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/) docs.
