@@ -86,7 +86,7 @@ releases:
     support: true
     eol: 2016-12-31
     latest: "3.1.21"
-    latestReleaseDate: 2016-11-19
+    latestReleaseDate: 2016-11-18
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-06-28
@@ -107,7 +107,7 @@ releases:
     support: true
     eol: true
     latest: "2.3.13"
-    latestReleaseDate: 2012-02-01
+    latestReleaseDate: 2011-09-15
 
 ---
 
