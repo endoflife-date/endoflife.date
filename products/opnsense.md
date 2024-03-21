@@ -19,8 +19,8 @@ releases:
     codename: "Savvy Shark"
     releaseDate: 2024-01-26
     eol: false
-    latest: "24.1.3"
-    latestReleaseDate: 2024-03-06
+    latest: "24.1.4"
+    latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "23.7"
     codename: "Restless Roadrunner"
