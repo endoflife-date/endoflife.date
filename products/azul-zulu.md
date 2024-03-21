@@ -23,18 +23,27 @@ customColumns:
 # accurate dates (in the bundles/latest endpoint).
 # Moreover:
 # - releases have a latestJdkVersion that must be updated whenever latest is updated,
-# - changelog links are not predictable (see https://docs.azul.com/core/zulu-openjdk/release-notes.html).
+# - changelog links are not predictable (see https://docs.azul.com/core/release-notes/release-notes).
 
 # Versions and dates are those from the CA builds (PSU Update Type).
 # Latest releases can be found on https://www.azul.com/downloads/?os=linux&architecture=x86-64-bit&package=jdk&show-old-builds=true#download-openjdk.
 # Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/zulu-openjdk/release-notes.html).
-# EOL date can be found on https://www.azul.com/products/azul-support-roadmap/.
+# EOL dates can be found on https://www.azul.com/products/azul-support-roadmap/.
 # Extended support is also documented on https://www.azul.com/products/azul-support-roadmap/ :
 # - LTS : EOL + 2 years
 # - MTS : EOL + 1 year
 # - STS : EOL + 6 months
 # - custom for Java 6/7
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-03-19 # https://docs.azul.com/core/release/22-ga/release-notes/release-notes
+    eol: 2024-09-17
+    extendedSupport: 2025-03-17
+    latest: "22.28.93"
+    latestJdkVersion: "22.0.0+36"
+    latestReleaseDate: 2024-03-19
+    link: https://docs.azul.com/core/release/22-ga/release-notes/release-notes
+
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19 # https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
