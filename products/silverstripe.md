@@ -74,6 +74,41 @@ releases:
     latest: "4.10.11"
     latestReleaseDate: 2022-11-21
 
+-   releaseCycle: "3.7"
+    releaseDate: 2018-06-08
+    support: 2021-09-30
+    eol: 2021-09-30
+    latest: "3.7.7"
+    latestReleaseDate: 2021-06-02
+
+-   releaseCycle: "3.1"
+    releaseDate: 2013-10-01
+    support: 2016-12-31
+    eol: 2016-12-31
+    latest: "3.1.21"
+    latestReleaseDate: 2016-11-19
+
+-   releaseCycle: "3.0"
+    releaseDate: 2012-06-28
+    support: 2015-10-12
+    eol: 2015-10-12
+    latest: "3.0.14"
+    latestReleaseDate: 2015-05-28
+
+-   releaseCycle: "2.4"
+    releaseDate: 2011-02-02
+    support: 2015-03-31
+    eol: 2015-03-31
+    latest: "2.4.13"
+    latestReleaseDate: 2013-09-26
+
+-   releaseCycle: "2.3"
+    releaseDate: 2011-02-02
+    support: 
+    eol: 
+    latest: "2.3.13"
+    latestReleaseDate: 2012-02-01
+
 ---
 
 > [Silverstripe](https://www.silverstripe.org/) is a free and open-source content management CMS
