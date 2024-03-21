@@ -26,8 +26,8 @@ releases:
     releaseDate: 2022-06-13
     support: true
     eol: false
-    latest: "15.9.20"
-    latestReleaseDate: 2024-01-10
+    latest: "15.9.27"
+    latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "14"
     releaseDate: 2020-06-08
