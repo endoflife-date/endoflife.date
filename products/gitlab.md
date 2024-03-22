@@ -24,11 +24,11 @@ auto:
 # Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
 -   releaseCycle: "16.10"
-    releaseDate: 2024-03-21
+    releaseDate: 2024-03-20
     support: 2024-04-18
     eol: 2024-06-20
     latest: "16.10.0"
-    latestReleaseDate: 2024-03-21
+    latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "16.9"
     releaseDate: 2024-02-14
