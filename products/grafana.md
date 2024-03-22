@@ -26,15 +26,15 @@ releases:
     releaseDate: 2024-03-05
     support: true
     eol: false
-    latest: "10.4.0"
-    latestReleaseDate: 2024-03-05
+    latest: "10.4.1"
+    latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22
     support: 2024-03-06
     eol: false
-    latest: "10.3.4"
-    latestReleaseDate: 2024-03-06
+    latest: "10.3.5"
+    latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24
