@@ -15,6 +15,13 @@ customColumns:
     link: https://endoflife.date/android
 
 releases:
+-   releaseCycle: "21"
+    releaseDate: 2024-02-14
+    eol: false
+    link: https://lineageos.org/Changelog-28/
+    androidVersion: 14
+
+releases:
 -   releaseCycle: "20"
     releaseDate: 2022-12-31
     eol: false
@@ -24,7 +31,7 @@ releases:
 # starting from 19 LineageOS changed versioning convention to match AOSP's own changes. So no more minor versions. Read the changelog 26 (LineageOS 19) to learn more.
 -   releaseCycle: "19"
     releaseDate: 2022-04-26
-    eol: false
+    eol: 2024-02-14 # https://lineageos.org/Changelog-28/#deprecations
     link: https://lineageos.org/Changelog-26/
     androidVersion: 12
 
@@ -71,10 +78,7 @@ LineageOS maintains two versions at the same time. Devices that are not ported t
 latest versions stop being supported. A list of supported devices is available at the [LineageOS
 Wiki](https://wiki.lineageos.org/devices/).
 
-Some devices that weren't upgraded to 19.1 or 20.0 are still getting 18.1 monthly updates with
-latest Android Security Patch.
-
 Some old branches may still get security updates via Android Security Patches, but users will have
 to do their own builds to get these updates - official builds are only maintained for the last two
-versions (except for devices stuck on 18.1). For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
+versions. For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
 to check commits.
