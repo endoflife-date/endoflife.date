@@ -30,8 +30,8 @@ releases:
     testedAndroidVersions: 7.3 - 8.2
     support: true
     eol: false
-    latest: "8.6.0"
-    latestReleaseDate: 2024-01-31
+    latest: "8.7.0"
+    latestReleaseDate: 2024-03-21
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
