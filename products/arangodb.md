@@ -12,6 +12,12 @@ auto:
 
 # EOL dates can be found on https://arangodb.com/subscriptions/end-of-life-notice/.
 releases:
+-   releaseCycle: "3.12"
+    releaseDate: 2024-03-21
+    eol: false
+    latest: "3.12.0"
+    latestReleaseDate: 2024-03-21
+
 -   releaseCycle: "3.11"
     releaseDate: 2023-05-23
     eol: false
