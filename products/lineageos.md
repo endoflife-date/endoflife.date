@@ -21,7 +21,6 @@ releases:
     link: https://lineageos.org/Changelog-28/
     androidVersion: 14
 
-releases:
 -   releaseCycle: "20"
     releaseDate: 2022-12-31
     eol: false
