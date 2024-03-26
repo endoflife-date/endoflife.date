@@ -4,7 +4,7 @@ category: app
 iconSlug: blender
 permalink: /blender
 versionCommand: blender --version
-releasePolicyLink: https://www.blender.org
+releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/release_cycle/
 releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
 releaseDateColumn: true
@@ -17,10 +17,17 @@ auto:
   -   git: https://github.com/blender/blender.git
 
 releases:
--   releaseCycle: "4.0"
-    releaseDate: 2023-11-14
+-   releaseCycle: "4.1"
+    releaseDate: 2024-03-25
     support: true
     eol: false
+    latest: "4.1.0"
+    latestReleaseDate: 2024-03-25
+
+-   releaseCycle: "4.0"
+    releaseDate: 2023-11-14
+    support: 2024-03-25
+    eol: 2024-03-25
     latest: "4.0.2"
     latestReleaseDate: 2023-12-05
 
