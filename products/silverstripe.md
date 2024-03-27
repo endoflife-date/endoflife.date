@@ -84,7 +84,7 @@ releases:
 -   releaseCycle: "3.1"
     releaseDate: 2013-10-01
     support: false
-    eol: 2016-12-31
+    eol: 2016-12-31 # https://www.silverstripe.org/blog/support-timeline-update-where-are-we-heading/
     latest: "3.1.21"
     latestReleaseDate: 2016-11-18
 
