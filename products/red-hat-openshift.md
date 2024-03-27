@@ -25,7 +25,7 @@ releases:
 -   releaseCycle: "4.15"
     releaseDate: 2024-02-27
     support: true # 4.16 GA + 3 months
-    eol: 2025-08-01
+    eol: 2025-08-27
     extendedSupport: true # not yet announced
     latest: "4.15.3"
     latestReleaseDate: 2024-03-19
