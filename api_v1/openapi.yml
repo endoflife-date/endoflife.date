@@ -1,0 +1,535 @@
+---
+# API v1 description. See https://spec.openapis.org/oas/v3.1.0 for specification.
+# Edit using https://editor.swagger.io/.
+
+permalink: /docs/api/v1/openapi.yml
+layout: null
+---
+openapi: 3.0.3
+
+info:
+  title: endoflife API
+  version: "1.0.0-b1"
+  license:
+    name: MIT License
+    url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
+  description: >-
+    endoflife.date documents EOL dates and support lifecycles for various products.
+    The endoflife API allows users to discover and query for those products.
+
+
+    Some useful links:
+
+    - [The endoflife.date website](https://endoflife.date/)
+
+    - [The endoflife.date repository](https://github.com/endoflife-date/endoflife.date)
+
+    - [The endoflife.date issue tracker](https://github.com/endoflife-date/endoflife.date/issues/)
+
+    - [The source API definition](https://github.com/endoflife-date/endoflife.date/blob/master/assets/openapi.yml)
+
+# Replace with your preview URL (such as https://deploy-preview-2080--endoflife-date.netlify.app/api/v1).
+servers:
+  - url: {{ site.url }}/api/v1
+
+paths:
+  /:
+    get:
+      summary: List the main endoflife.date API endpoints.
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+
+  /products:
+    get:
+      summary: >
+        List all the products referenced on endoflife.date.
+        Only a subset of each product's data is returned by this endpoint.
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+
+  /products/full/:
+    get:
+      summary: >
+        List all the products referenced on endoflife.date, with all their details.
+        The full products data is returned by this endpoint, making the result a dump of nearly all
+        endoflife.date data.
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FullProductListResponse'
+
+  /products/{product}/:
+    get:
+      summary: >
+        Get the given product data.
+        This endpoint is returning all endoflife.date knows about the product, including release
+        cycles data.
+      parameters:
+        - name: product
+          in: path
+          description: 'The name of the product.'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductResponse'
+
+  /products/{product}/cycles/{cycle}:
+    get:
+      summary: Get the given product release cycle data.
+      parameters:
+        - name: product
+          in: path
+          description: 'The name of the product.'
+          required: true
+          schema:
+            type: string
+        - name: cycle
+          in: path
+          description: 'The name of the cycle.'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductCycleResponse'
+
+  /products/{product}/cycles/latest/:
+    get:
+      summary: Get the latest release cycle data for the given product.
+      parameters:
+        - name: product
+          in: path
+          description: 'The name of the product.'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductCycleResponse'
+
+  /categories:
+    get:
+      summary: List all endoflife.date categories.
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+
+  /categories/{category}:
+    get:
+      summary: >
+        List all the products referenced on endoflife.date for the given category.
+        Only a subset of each product's data is returned by this endpoint.
+      parameters:
+        - name: category
+          in: path
+          description: 'The name of the category.'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+
+  /tags:
+    get:
+      summary: List all endoflife.date tags.
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+
+  /tags/{tag}:
+    get:
+      summary: >
+        List all the products referenced on endoflife.date for the given tag.
+        Only a subset of each product's data is returned by this endpoint.
+      parameters:
+        - name: tag
+          in: path
+          description: 'The name of the tag.'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+
+# Responses must be at the end of the list, contain a schema_version property and be suffixed with
+# 'Response' to facilitate maintenance and reading.
+components:
+  schemas:
+    Uri:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the URI
+          example: tags
+        uri:
+          type: string
+          format: uri
+          description: URI
+          example: {{ site.url }}/tags/
+
+    Identifier:
+      type: object
+      properties:
+        name:
+          type: type
+          description: Type of the identifier (types as of 2023-03 are repology, purl and cpe)
+          example: cpe
+        id:
+          type: string
+          description: Identifier
+          example: cpe:/o:canonical:ubuntu_linux
+
+    ProductVersion:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the version.
+          example: "22.04.2"
+        date:
+          type: string
+          format: date
+          description: Release date.
+          example: "2022-04-21"
+        link:
+          type: string
+          format: uri
+          description: Link to the changelog or release notes.
+          example: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
+
+    ProductCycle:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the product cycle.
+          example: "22.04"
+        codename:
+          type: string
+          nullable: true
+          description: Name of the product cycle.
+          example: Jammy Jellyfish
+        label:
+          type: string
+          description: Label of the product cycle.
+          example: 22.04 'Jammy Jellyfish' (LTS)
+        date:
+          type: string
+          format: date
+          description: Release date of the cycle.
+          example: "2022-04-21"
+        isLts:
+          ype: boolean
+          description: Whether the product cycle is LTS.
+          example: true
+        ltsFrom:
+          type: string
+          format: date
+          nullable: true
+          description: Start date of the LTS phase.
+          example: "2022-04-21"
+        isActiveSupportOver:
+          type: boolean
+          nullable: true
+          description: Whether the active support phase is over.
+          example: false
+        activeSupportUntil:
+          type: string
+          format: date
+          nullable: true
+          description: End date of the active support phase.
+          example: "2024-09-30"
+        isEol:
+          type: boolean
+          nullable: true
+          description: Whether the product cycle is EOL.
+          example: false
+        eolFrom:
+          type: string
+          format: date
+          nullable: true
+          description: End of life date for the product cycle.
+          example: "2027-04-01"
+        isDiscontinued:
+          type: boolean
+          nullable: true
+          description: Whether the product cycle is discontinued (mainly used for hardware).
+          example: false
+        discontinuedFrom:
+          type: string
+          format: date
+          nullable: true
+          description: Discontinuation date (mainly used for hardware).
+          example: "2027-04-01"
+        isExtendedSupportOver:
+          type: boolean
+          nullable: true
+          description: Whether the extended support phase is over.
+          example: true
+        extendedSupportUntil:
+          type: string
+          format: date
+          nullable: false
+          description: End date of the extended support phase.
+          example: "2032-04-09"
+        isMaintained:
+          type: boolean
+          nullable: false
+          description: Whether or not this cycle still have some level of support. This could be any level of support, even extended support.
+          example: true
+        latest:
+          type: object
+          $ref: '#/components/schemas/ProductVersion'
+
+    ProductSummary:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the product
+          example: ubuntu
+        label:
+          type: string
+          description: Label of the product
+          example: Ubuntu
+        aliases:
+          type: array
+          description: Aliases declared for the product (derived from alternate_urls)
+          items:
+            type: string
+        category:
+          type: string
+          description: Category of the product
+          example: os
+        tags:
+          type: array
+          description: Tags associated to the product
+          items:
+            type: string
+        uri:
+          type: string
+          format: uri
+          description: Link to the full product details
+          example: {{ site.url }}/api/v1/products/ubuntu/
+
+    ProductDetails:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the product
+          example: ubuntu
+        label:
+          type: string
+          description: Label of the product
+          example: Ubuntu
+        aliases:
+          type: array
+          description: Aliases declared for the product (derived from alternate_urls)
+          items:
+            type: string
+        category:
+          type: string
+          description: Category of the product
+          example: os
+        tags:
+          type: array
+          description: Tags associated to the product
+          items:
+            type: string
+        # Additional properties (compared to ProductSummary)
+        versionCommand:
+          type: string
+          description: Command that can be used to check the current product version.
+          example: lsb_release --release
+        identifiers:
+          type: array
+          description: Known identifiers (purl, repology, cpe...) associated to the product
+          items:
+            $ref: '#/components/schemas/Identifier'
+        labels:
+          type: object
+          description: Product labels.
+          properties:
+            activeSupport:
+              type: string
+              nullable: true
+              description: Label used to denote the active support phase.
+              example: Hardware & Maintenance
+            discontinued:
+              type: string
+              nullable: true
+              description: Label used to denote the discontinuation of the product.
+              example: Discontinued
+            eol:
+              type: string
+              nullable: true
+              description: Label used to denote the phase before the EOL of the product.
+              example: Maintenance & Security Support
+            extendedSupport:
+              type: string
+              nullable: true
+              description: Label used to denote the extended support phase.
+              example: Extended Security Maintenance
+        links:
+          type: object
+          description: Product links.
+          properties:
+            icon:
+              type: string
+              format: uri
+              nullable: true
+              description: Link to the product icon (on https://simpleicons.org/).
+              example: https://simpleicons.org/icons/ubuntu.svg
+            html:
+              type: string
+              format: uri
+              description: Link to the product page on endoflife.date.
+              example: https://endoflife.date/ubuntu
+            releasePolicy:
+              type: string
+              format: uri
+              nullable: true
+              description: Link to the product release policy.
+              example: https://wiki.ubuntu.com/Releases
+        cycles:
+          type: array
+          description: Product release cycles.
+          items:
+            $ref: '#/components/schemas/ProductCycle'
+
+    UriListResponse:
+      type: object
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        total:
+          type: integer
+          format: int32
+          description: Number of uri in the list.
+          example: 3
+        result:
+          type: array
+          items:
+            $ref: '#/components/schemas/Uri'
+
+    ProductListResponse:
+      type: object
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        total:
+          type: integer
+          format: int32
+          description: Number of products in the list.
+          example: 200
+        result:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductSummary'
+
+    FullProductListResponse:
+      type: object
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        total:
+          type: integer
+          format: int32
+          description: Number of products in the list.
+          example: 200
+        result:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDetails'
+
+    ProductCycleResponse:
+      type: object
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        result:
+          $ref: '#/components/schemas/ProductCycle'
+
+    ProductResponse:
+      type: object
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        last_modified:
+          type: string
+          format: date-time
+          description: The time this product was last modified.
+          example: 2023-03-01T14:05:52+01:00
+        auto:
+          type: boolean
+          description: Whether or not product versions are automatically updated.
+          example: true
+        result:
+          $ref: '#/components/schemas/ProductDetails'

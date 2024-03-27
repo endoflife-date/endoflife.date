@@ -40,7 +40,7 @@ aux_links:
   Source:
     - https://github.com/endoflife-date/endoflife.date
   API:
-    - /docs/api
+    - /docs/api/v1/
   "Release Data":
     - https://github.com/endoflife-date/release-data/
 
