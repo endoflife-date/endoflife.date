@@ -91,7 +91,7 @@ releases:
 -   releaseCycle: "3.0"
     releaseDate: 2012-06-28
     support: false
-    eol: 2015-10-12
+    eol: 2015-10-12 # as stated in https://www.silverstripe.org/blog/silverstripe-2-4-end-of-life-announcement/, the release policy was at the time that support lasts for 2 minor versions
     latest: "3.0.14"
     latestReleaseDate: 2015-05-28
 
