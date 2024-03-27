@@ -77,7 +77,7 @@ releases:
 -   releaseCycle: "3.7"
     releaseDate: 2018-06-08
     support: false
-    eol: 2021-09-30
+    eol: 2021-09-30 # http://web.archive.org/web/20200930101626/https://www.silverstripe.org/software/roadmap/
     latest: "3.7.7"
     latestReleaseDate: 2021-06-02
 
