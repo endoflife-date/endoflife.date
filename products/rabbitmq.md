@@ -21,17 +21,17 @@ auto:
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
-        releaseCycle: "Ver."
+        releaseCycle: "Release"
         releaseDate:
-          column: "Initial Release"
+          column: 4 # the page has multi-line header preventing us from using the column name
           regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
           template: "{{day}} {{month}} {{year}}"
         eol:
-          column: "End of Support"
+          column: 5 # the page has multi-line header preventing us from using the column name
           regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
           template: "{{day}} {{month}} {{year}}"
         extendedSupport:
-          column: 6 # the page has mult-line header preventing us from using the "Ext. Commercial" column
+          column: 6 # the page has multi-line header preventing us from using the column name
           regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
           template: "{{day}} {{month}} {{year}}"
 
