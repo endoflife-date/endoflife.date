@@ -39,6 +39,7 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2016-12-08
     eol: 2021-12-31
+    extendedSupport: true
     latest: "1.6.10"
     latestReleaseDate: 2018-04-17
 
@@ -93,4 +94,4 @@ on the final version 1.8.3 which was released April 7, 2022.
 
 Beginning January 1, 2022, commercial [extended long term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
 became available through the [HeroDevs](https://www.herodevs.com/) Never-Ending Support
-initiative (NES, formerly XLTS).
+initiative (NES, formerly XLTS). [OpenLogic by Perforce] (https://www.openlogic.com/solutions/angularjs-support-and-services) also offers long term support for versions 1.6 and 1.8.
