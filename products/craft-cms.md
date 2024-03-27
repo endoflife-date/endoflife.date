@@ -26,6 +26,13 @@ auto:
         eol: "Security Support Until"
 
 releases:
+-   releaseCycle: "5"
+    releaseDate: 2024-03-26
+    support: true
+    eol: false
+    latest: '5.0.0'
+    latestReleaseDate: 2024-03-26
+
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
     support: 2025-03-30
