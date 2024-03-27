@@ -18,6 +18,7 @@ auto:
   methods:
   -   npm: quasar
   -   release_table: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md
+      render_javascript: true
       selector: "table:nth-of-type(1)"
       fields:
         releaseCycle:
