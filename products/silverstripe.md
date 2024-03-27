@@ -107,7 +107,7 @@ releases:
     support: false
     eol: true
     latest: "2.3.13"
-    latestReleaseDate: 2011-09-15
+    latestReleaseDate: 2012-02-01
 
 ---
 
