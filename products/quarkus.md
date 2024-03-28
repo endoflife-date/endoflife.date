@@ -31,7 +31,6 @@ releases:
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-27
     eol: false
-    lts: false
     extendedSupport: false
     latest: "3.9.1"
     latestReleaseDate: 2024-03-27
