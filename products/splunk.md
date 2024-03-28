@@ -17,20 +17,20 @@ releases:
 -   releaseCycle: "9.2"
     releaseDate: 2024-01-31
     eol: 2026-01-31
-    latest: "9.2.0.1"
-    latestReleaseDate: 2024-02-08
+    latest: "9.2.1"
+    latestReleaseDate: 2024-03-27
 
 -   releaseCycle: "9.1"
     releaseDate: 2023-06-28
     eol: 2025-06-28
-    latest: "9.1.3"
-    latestReleaseDate: 2024-01-22
+    latest: "9.1.4"
+    latestReleaseDate: 2024-03-27
 
 -   releaseCycle: "9.0"
     releaseDate: 2022-06-14
     eol: 2024-06-14
-    latest: "9.0.8"
-    latestReleaseDate: 2024-01-22
+    latest: "9.0.9"
+    latestReleaseDate: 2024-03-27
 
 -   releaseCycle: "8.2"
     releaseDate: 2021-05-12

@@ -32,8 +32,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-21
     eol: false
-    latest: "9.3.0"
-    latestReleaseDate: 2024-02-27
+    latest: "9.4.0"
+    latestReleaseDate: 2024-03-27
 
 -   releaseCycle: "8"
     ansibleCoreVersion: "2.15"
