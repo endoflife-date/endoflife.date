@@ -40,8 +40,8 @@ releases:
     releaseDate: 2024-02-22
     eol: 2025-03-01
     extendedSupport: 2025-09-01
-    latest: "3.13.0"
-    latestReleaseDate: 2024-02-22
+    latest: "3.13.1"
+    latestReleaseDate: 2024-03-29
 
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01
@@ -140,6 +140,7 @@ releases:
     latest: "3.0.4"
     latestReleaseDate: 2013-03-06
     link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
+
 
 
 
