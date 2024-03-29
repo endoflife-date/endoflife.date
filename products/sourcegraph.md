@@ -1,7 +1,7 @@
 ---
 title: Sourcegraph
-category: development-tools
-tags: code-search, dev-tools
+category: server-app
+tags: java-runtime
 permalink: /sourcegraph
 alternate_urls:
 - /sourcegraph-code-search
