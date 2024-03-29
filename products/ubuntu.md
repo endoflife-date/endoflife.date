@@ -393,7 +393,7 @@ Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in
 the `main` repository.
 
 Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
-to extend the support of Ubuntu 14.04 by another 2 years to April 2026.
+to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Extended Security Maintenance (ESM).
 
 ## Support Comparison
 
