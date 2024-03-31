@@ -18,7 +18,7 @@ auto:
 
 # Release dates from https://www.atlassian.com/software/jira/update,
 # They may vary by a day or two from what can be seen in the release notes.
-# EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
+# EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
 -   releaseCycle: "9.15"
     releaseDate: 2024-03-27
