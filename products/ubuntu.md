@@ -392,17 +392,20 @@ Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in
 `universe` repositories. Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in
 the `main` repository.
 
+Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
+to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Extended Security Maintenance (ESM). This offer is only available for Ubuntu Pro paying customers.
+
 ## Support Comparison
 
-| Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    |
-|-----------------------------------------------------------------------------------------|-----------------|------------------------------|---------------|
-| Main repository                                                                         | 5 years         | 10 years                     | 10 years      |
-| Restricted repository                                                                   | 5 years         | 10 years[^2]                 | 10 years [^2] |
-| Universe repository                                                                     | Best Effort[^6] | Best Effort                  | 10 years      |
-| Phone/Ticket Support                                                                    | No              | Yes                          | Yes           |
-| Kernel Live Patching                                                                    | No              | Yes                          | Yes           |
-| [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes                          | Yes           |
-| [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes                          | Yes           |
+| Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    | Legacy Support |
+|-----------------------------------------------------------------------------------------|-----------------|------------------------------|---------------|----------------|
+| Main repository                                                                         | 5 years         | 10 years                     | 10 years      | 12 years       |
+| Restricted repository                                                                   | 5 years         | 10 years[^2]                 | 10 years [^2] | 12 years[^7]   |
+| Universe repository                                                                     | Best Effort[^6] | Best Effort                  | 10 years      | 12 years[^7]   |
+| Phone/Ticket Support                                                                    | No              | Yes                          | Yes           | Yes            | 
+| Kernel Live Patching                                                                    | No              | Yes                          | Yes           | Yes            |
+| [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes                          | Yes           | Yes            |
+| [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes                          | Yes           | No[^8]         |
 
 For package specific support details, the following commands are available:
 
@@ -417,3 +420,5 @@ For package specific support details, the following commands are available:
 [^4]: Anyone can use Ubuntu Pro for free on up to 5 machines, or 50 if you are an official Ubuntu Community member.
 [^5]: The difference between these two is unclear, and not explained.
 [^6]: While promised, Canonical doesn't seem to be backporting any security-fixes in the universe repository to users without a Pro subscription.
+[^7]: The announcement for Legacy Support does not clarify which repositories are supported, so this is an estimate.
+[^8]: [Ubuntu Landscape](https://ubuntu.com/landscape/docs/self-hosted-landscape) can manage all versions of Ubuntu above 16.04, and Legacy Support is limited to 14.04 for now.
