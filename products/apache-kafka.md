@@ -51,6 +51,7 @@ releases:
     releaseDate: 2023-02-06
     eol: 2023-06-13
     extendedSupport: 2025-05-03
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.4.1"
     latestReleaseDate: 2023-05-26
 
