@@ -101,6 +101,7 @@ releases:
     eol: 2015-03-31 # https://www.silverstripe.org/blog/silverstripe-2-4-end-of-life-announcement/
     latest: "2.4.13"
     latestReleaseDate: 2013-09-26
+    link: null
 
 -   releaseCycle: "2.3"
     releaseDate: 2011-02-02
@@ -108,6 +109,7 @@ releases:
     eol: true
     latest: "2.3.13"
     latestReleaseDate: 2011-09-15
+    link: null
 
 ---
 
