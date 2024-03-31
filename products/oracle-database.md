@@ -153,6 +153,6 @@ The version and patch policy is also complex and changing, but some guidance can
 
 - [Oracle Database - Wikipedia](https://wikipedia.org/wiki/Oracle_Database#Patch_updates_and_security_alerts),
 - [All You Need to Know about Oracle Database Patching - GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
-- [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) - support.oracle.com](https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
+- [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) - support.oracle.com](https://web.archive.org/web/20230326170525/https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
 - [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/161818_1.html)
   (requires an Oracle account with appropriate permissions).
