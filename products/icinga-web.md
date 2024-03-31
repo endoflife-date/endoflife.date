@@ -121,6 +121,7 @@ releases:
     eol: 2018-12-31
     latest: "1.14.1"
     latestReleaseDate: 2017-12-19
+    link: null
 
 ---
 
