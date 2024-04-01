@@ -14,8 +14,6 @@ identifiers:
 auto:
   methods:
   - git: https://github.com/sourcegraph/sourcegraph.git
-    regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
-    template: '{{major}}.{{minor}}.{{patch}}'
 
 releases:
 - releaseCycle: "5"
