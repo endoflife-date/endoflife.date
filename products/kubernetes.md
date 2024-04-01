@@ -10,7 +10,7 @@ releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/cd6rbto8arbp7d9bq720l1r83634ihs.png
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Maintenance Support
 
 identifiers:
@@ -25,98 +25,98 @@ auto:
 releases:
 -   releaseCycle: "1.29"
     releaseDate: 2023-12-13
-    support: 2024-12-28
+    eoas: 2024-12-28
     eol: 2025-02-28
     latest: "1.29.3"
     latestReleaseDate: 2024-03-14
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-08-15
-    support: 2024-08-28
+    eoas: 2024-08-28
     eol: 2024-10-28
     latest: "1.28.8"
     latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-04-11
-    support: 2024-04-28
+    eoas: 2024-04-28
     eol: 2024-06-28
     latest: "1.27.12"
     latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "1.26"
     releaseDate: 2022-12-08
-    support: 2023-12-28
+    eoas: 2023-12-28
     eol: 2024-02-28
     latest: "1.26.15"
     latestReleaseDate: 2024-03-14
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-08-23
-    support: 2023-08-27
+    eoas: 2023-08-27
     eol: 2023-10-27
     latest: "1.25.16"
     latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-05-03
-    support: 2023-05-28
+    eoas: 2023-05-28
     eol: 2023-07-28
     latest: "1.24.17"
     latestReleaseDate: 2023-08-23
 
 -   releaseCycle: "1.23"
     releaseDate: 2021-12-07
-    support: 2022-12-28
+    eoas: 2022-12-28
     eol: 2023-02-28
     latest: "1.23.17"
     latestReleaseDate: 2023-02-22
 
 -   releaseCycle: "1.22"
     releaseDate: 2021-08-04
-    support: 2022-08-28
+    eoas: 2022-08-28
     eol: 2022-10-28
     latest: "1.22.17"
     latestReleaseDate: 2022-12-08
 
 -   releaseCycle: "1.21"
     releaseDate: 2021-04-08
-    support: 2022-04-28
+    eoas: 2022-04-28
     eol: 2022-06-28
     latest: "1.21.14"
     latestReleaseDate: 2022-06-15
 
 -   releaseCycle: "1.20"
     releaseDate: 2020-12-08
-    support: 2021-12-28
+    eoas: 2021-12-28
     eol: 2022-02-28
     latest: "1.20.15"
     latestReleaseDate: 2022-01-19
 
 -   releaseCycle: "1.19"
     releaseDate: 2020-08-26
-    support: 2021-08-28
+    eoas: 2021-08-28
     eol: 2021-10-28
     latest: "1.19.16"
     latestReleaseDate: 2021-10-27
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-03-25
-    support: 2021-04-28
+    eoas: 2021-04-28
     eol: 2021-06-18
     latest: "1.18.20"
     latestReleaseDate: 2021-06-16
 
 -   releaseCycle: "1.17"
     releaseDate: 2019-12-07
-    support: false
+    eoas: true
     eol: 2020-12-25
     latest: "1.17.17"
     latestReleaseDate: 2021-01-13
 
 -   releaseCycle: "1.16"
     releaseDate: 2019-09-18
-    support: false
+    eoas: true
     eol: 2020-08-04
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02

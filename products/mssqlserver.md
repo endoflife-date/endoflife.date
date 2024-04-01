@@ -9,18 +9,17 @@ alternate_urls:
 versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
-extendedSupportColumn: Extended Security Updates
+eoesColumn: Extended Security Updates
 
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas
     releaseLabel: "2022 CU12"
     releaseDate: 2022-11-16
-    support: 2028-01-11
+    eoas: 2028-01-11
     eol: 2033-01-11
-    extendedSupport: false
     latest: "16.0.4115.5"
     latestReleaseDate: 2024-03-14
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate12
@@ -29,9 +28,8 @@ releases:
     codename: Seattle
     releaseLabel: "2019 CU25"
     releaseDate: 2019-11-04
-    support: 2025-01-07
+    eoas: 2025-01-07
     eol: 2030-01-08
-    extendedSupport: false
     latest: "15.0.4355.3"
     latestReleaseDate: 2024-02-15
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
@@ -40,9 +38,8 @@ releases:
     codename: Helsinki
     releaseLabel: "2017 CU31"
     releaseDate: 2017-09-29
-    support: 2022-10-11
+    eoas: 2022-10-11
     eol: 2027-10-12
-    extendedSupport: false
     latest: "14.0.3465.1"
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029376
@@ -51,9 +48,8 @@ releases:
     codename: SQL16
     releaseLabel: "2016 SP3"
     releaseDate: 2018-04-24
-    support: 2021-07-13
+    eoas: 2021-07-13
     eol: 2026-07-14
-    extendedSupport: false
     latest: "13.0.6435.1"
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029186
@@ -62,9 +58,8 @@ releases:
     codename: Hekaton
     releaseLabel: "2014 SP3 CU4"
     releaseDate: 2018-10-30
-    support: 2019-07-09
+    eoas: 2019-07-09
     eol: 2024-07-09
-    extendedSupport: false
     latest: "12.0.6449.1"
     latestReleaseDate: 2023-10-10
     link: https://support.microsoft.com/help/5029185
@@ -73,9 +68,9 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP4"
     releaseDate: 2012-05-20
-    support: 2017-07-11
+    eoas: 2017-07-11
     eol: 2022-07-12
-    extendedSupport: 2025-07-08
+    eoes: 2025-07-08
     latest: "11.0.7512.11"
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021123
@@ -84,9 +79,9 @@ releases:
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2010-07-20
-    support: 2014-07-08
+    eoas: 2014-07-08
     eol: 2019-07-09
-    extendedSupport: 2022-07-12
+    eoes: 2022-07-12
     latest: "10.50.6785.2"
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5021112
@@ -95,9 +90,9 @@ releases:
     codename: Katmai
     releaseLabel: "2008 SP4"
     releaseDate: 2008-11-06
-    support: 2014-07-08
+    eoas: 2014-07-08
     eol: 2019-07-09
-    extendedSupport: 2022-07-12
+    eoes: 2022-07-12
     latest: "10.0.6814.4"
     latestReleaseDate: 2023-02-14
     link: https://support.microsoft.com/help/5020863
@@ -106,9 +101,8 @@ releases:
     codename: Yukon
     releaseLabel: "2005 SP4"
     releaseDate: 2006-01-14
-    support: 2011-04-12
+    eoas: 2011-04-12
     eol: 2016-04-12
-    extendedSupport: false
     latest: "9.0.5324.0"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
@@ -117,9 +111,8 @@ releases:
     codename: Shiloh
     releaseLabel: "2000 SP4"
     releaseDate: 2000-11-30
-    support: 2008-04-08
+    eoas: 2008-04-08
     eol: 2013-04-09
-    extendedSupport: false
     latest: "8.0.2305"
     latestReleaseDate: 2012-08-14
     link: https://support.microsoft.com/help/983811
@@ -128,9 +121,8 @@ releases:
     codename: Sphinx
     releaseLabel: "7.0 SP4"
     releaseDate: 1998-11-27
-    support: 2005-12-31
+    eoas: 2005-12-31
     eol: 2011-01-11
-    extendedSupport: false
     latest: "7.0.1152"
     latestReleaseDate: 2012-05-09
     link: https://support.microsoft.com/help/941203
@@ -139,9 +131,8 @@ releases:
     codename: Hydra
     releaseLabel: "6.5 SP5a"
     releaseDate: 1996-06-30
-    support: 2002-01-01
+    eoas: 2002-01-01
     eol: 2002-01-01
-    extendedSupport: false
     latest: "6.50.480"
     latestReleaseDate: 2005-10-07
     # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
@@ -151,9 +142,8 @@ releases:
     codename: SQL95
     releaseLabel: "6.0 SP3"
     releaseDate: 1995-06-13
-    support: 1999-03-31
+    eoas: 1999-03-31
     eol: 1999-03-31
-    extendedSupport: false
     latest: "6.0.151"
     latestReleaseDate: 2005-10-07
     # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616

@@ -8,11 +8,11 @@ alternate_urls:
 -   /oraclelinux
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
-changelogTemplate: 
+changelogTemplate:
   https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releaseDateColumn: true
 eolColumn: Basic/Premier Support
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
 # https://regex101.com/r/fRdw9L/1
 auto:
@@ -29,28 +29,28 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
-    extendedSupport: 2034-06-30
+    eoes: 2034-06-30
     latest: "9.3"
     latestReleaseDate: 2023-11-17
 
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
     eol: 2029-07-01
-    extendedSupport: 2031-07-01
+    eoes: 2031-07-01
     latest: "8.9"
     latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
     eol: 2024-12-01
-    extendedSupport: 2026-06-01
+    eoes: 2026-06-01
     latest: "7.9"
     latestReleaseDate: 2020-10-08
 
 -   releaseCycle: "6"
     releaseDate: 2011-02-12
     eol: 2021-03-01
-    extendedSupport: 2024-12-01
+    eoes: 2024-12-01
     latest: "6.10"
     latestReleaseDate: 2018-07-02
 

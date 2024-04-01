@@ -8,7 +8,7 @@ releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_ent
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
 releaseDateColumn: true
 eolColumn: Core Support
-extendedSupportColumn: true
+eoesColumn: true
 
 auto:
   methods:
@@ -21,42 +21,42 @@ releases:
 -   releaseCycle: "2023"
     releaseDate: 2022-05-16
     eol: 2028-05-16
-    extendedSupport: 2029-05-16
+    eoes: 2029-05-16
     latest: "2023.0.7.330663"
     latestReleaseDate: 2024-03-12
 
 -   releaseCycle: "2021"
     releaseDate: 2020-11-11
     eol: 2025-11-10
-    extendedSupport: 2026-11-10
+    eoes: 2026-11-10
     latest: "2021.0.13.330286"
     latestReleaseDate: 2024-03-12
 
 -   releaseCycle: "2018"
     releaseDate: 2018-07-12
     eol: 2023-07-13
-    extendedSupport: 2024-07-13
+    eoes: 2024-07-13
     latest: "2018.0.19.330149"
     latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "2016"
     releaseDate: 2016-02-16
     eol: 2021-02-17
-    extendedSupport: 2022-02-17
+    eoes: 2022-02-17
     latest: "2016.0.17.325979"
     latestReleaseDate: 2021-03-22
 
 -   releaseCycle: "11"
     releaseDate: 2014-04-29
     eol: 2019-04-30
-    extendedSupport: 2021-04-30
+    eoes: 2021-04-30
     latest: "11.0.19.314546"
     latestReleaseDate: 2019-06-11
 
 -   releaseCycle: "10"
     releaseDate: 2012-05-15
     eol: 2017-05-16
-    extendedSupport: 2019-05-16
+    eoes: 2019-05-16
     latest: "10.0.23.302580"
     latestReleaseDate: 2017-04-25
 

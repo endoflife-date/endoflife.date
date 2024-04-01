@@ -6,14 +6,14 @@ permalink: /sharepoint
 alternate_urls:
 -   /mssharepoint
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 releases:
 -   releaseCycle: "subscription"
     releaseLabel: "Subscription Edition"
     releaseDate: 2021-11-02
-    support: true
+    eoas: false
     eol: false
     latest: "16.0.17328.20136"
     latestReleaseDate: 2024-03-12
@@ -21,7 +21,7 @@ releases:
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
-    support: 2024-01-09
+    eoas: 2024-01-09
     eol: 2026-07-14
     latest: "16.0.10408.20000"
     latestReleaseDate: 2024-03-12
@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "2016"
     releaseDate: 2016-05-01
-    support: 2021-07-13
+    eoas: 2021-07-13
     eol: 2026-07-14
     latest: "16.0.5439.1000"
     latestReleaseDate: 2024-03-12
@@ -38,7 +38,7 @@ releases:
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
     releaseDate: 2013-01-09
-    support: 2018-04-10
+    eoas: 2018-04-10
     eol: 2023-04-11
     latest: "15.0.5545.1000"
     latestReleaseDate: 2023-04-11
@@ -47,7 +47,7 @@ releases:
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
     releaseDate: 2010-07-05
-    support: 2015-10-13
+    eoas: 2015-10-13
     eol: 2021-04-13
     latest: "14.0.7268.5000"
     latestReleaseDate: 2021-04-13
@@ -56,7 +56,7 @@ releases:
 -   releaseCycle: "2007"
     releaseLabel: "2007 SP3"
     releaseDate: 2007-01-27
-    support: 2012-10-09
+    eoas: 2012-10-09
     eol: 2017-10-10
     latest: "12.0.6690.5000"
     latestReleaseDate: 2014-05-13

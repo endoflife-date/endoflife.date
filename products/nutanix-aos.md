@@ -6,7 +6,7 @@ iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 auto:
@@ -17,21 +17,21 @@ auto:
 releases:
 -   releaseCycle: "6.7"
     releaseDate: 2023-08-28
-    support: true
+    eoas: false
     eol: false
     latest: "6.7.1.6"
     latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "6.6"
     releaseDate: 2023-01-23
-    support: 2023-08-31
+    eoas: 2023-08-31
     eol: 2023-11-30
     latest: "6.6.2.8"
     latestReleaseDate: 2023-08-01
 
 -   releaseCycle: "6.5"
     releaseDate: 2022-07-25
-    support: true
+    eoas: false
     eol: false
     lts: true
     latest: "6.5.5.5"
@@ -39,21 +39,21 @@ releases:
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24
-    support: 2022-07-31
+    eoas: 2022-07-31
     eol: 2022-10-31
     latest: "6.1.1.5"
     latestReleaseDate: 2022-06-28
 
 -   releaseCycle: "6.0"
     releaseDate: 2021-06-14
-    support: 2022-02-28
+    eoas: 2022-02-28
     eol: 2022-05-31
     latest: "6.0.2.6"
     latestReleaseDate: 2022-04-19
 
 -   releaseCycle: "5.20"
     releaseDate: 2021-05-17
-    support: 2022-10-31
+    eoas: 2022-10-31
     eol: 2023-07-31
     lts: true
     latest: "5.20.5.1"
@@ -61,35 +61,35 @@ releases:
 
 -   releaseCycle: "5.19"
     releaseDate: 2020-12-16
-    support: 2021-05-31
+    eoas: 2021-05-31
     eol: 2021-08-31
     latest: "5.19.2"
     latestReleaseDate: 2021-04-27
 
 -   releaseCycle: "5.18"
     releaseDate: 2020-08-25
-    support: 2020-12-31
+    eoas: 2020-12-31
     eol: 2021-03-31
     latest: "5.18.1.2"
     latestReleaseDate: 2020-11-23
 
 -   releaseCycle: "5.17"
     releaseDate: 2020-05-01
-    support: 2020-08-31
+    eoas: 2020-08-31
     eol: 2020-11-30
     latest: "5.17.1.5"
     latestReleaseDate: 2020-08-10
 
 -   releaseCycle: "5.16"
     releaseDate: 2020-01-06
-    support: 2020-05-31
+    eoas: 2020-05-31
     eol: 2020-08-31
     latest: "5.16.1.3"
     latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5.15"
     releaseDate: 2020-03-31
-    support: 2021-08-31
+    eoas: 2021-08-31
     eol: 2022-05-31
     lts: true
     latest: "5.15.7"
@@ -97,14 +97,14 @@ releases:
 
 -   releaseCycle: "5.11"
     releaseDate: 2019-08-05
-    support: 2020-01-31
+    eoas: 2020-01-31
     eol: 2020-04-30
     latest: "5.11.2.3"
     latestReleaseDate: 2020-02-06
 
 -   releaseCycle: "5.10"
     releaseDate: 2018-11-26
-    support: 2020-06-30
+    eoas: 2020-06-30
     eol: 2021-04-30
     lts: true
     latest: "5.10.11.1"
@@ -112,28 +112,28 @@ releases:
 
 -   releaseCycle: "5.9"
     releaseDate: 2018-10-04
-    support: 2019-01-31
+    eoas: 2019-01-31
     eol: 2019-04-30
     latest: "5.9.2.4"
     latestReleaseDate: 2019-02-06
 
 -   releaseCycle: "5.8"
     releaseDate: 2018-07-03
-    support: 2018-10-31
+    eoas: 2018-10-31
     eol: 2019-01-31
     latest: "5.8.2"
     latestReleaseDate: 2018-09-05
 
 -   releaseCycle: "5.6"
     releaseDate: 2018-04-16
-    support: 2018-07-31
+    eoas: 2018-07-31
     eol: 2018-10-31
     latest: "5.6.2"
     latestReleaseDate: 2018-07-18
 
 -   releaseCycle: "5.5"
     releaseDate: 2017-12-06
-    support: 2019-10-31
+    eoas: 2019-10-31
     eol: 2020-09-30
     lts: true
     latest: "5.5.9.5"

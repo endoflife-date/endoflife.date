@@ -8,14 +8,14 @@ alternate_urls:
 -   /redhat
 -   /redhatlinux
 versionCommand: cat /etc/redhat-release
-changelogTemplate: 
+changelogTemplate:
   https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
-activeSupportColumn: Full Support
+eoasColumn: Full Support
 eolColumn: Maintenance Support
 releaseDateColumn: true
-extendedSupportColumn: Extended Life Cycle Support
+eoesColumn: Extended Life Cycle Support
 
 identifiers:
 -   cpe: cpe:/o:redhat:enterprise_linux
@@ -24,54 +24,54 @@ identifiers:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-17
-    support: 2027-05-31
+    eoas: 2027-05-31
     eol: 2032-05-31
     lts: 2032-05-31
-    extendedSupport: 2035-05-31
+    eoes: 2035-05-31
     latest: "9.3"
     latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "8"
     releaseDate: 2019-05-07
-    support: 2024-05-31
+    eoas: 2024-05-31
     eol: 2029-05-31
     lts: 2029-05-31
-    extendedSupport: 2032-05-31
+    eoes: 2032-05-31
     latest: "8.9"
     latestReleaseDate: 2023-11-14
 
 -   releaseCycle: "7"
     releaseDate: 2013-12-11
-    support: 2019-08-06
+    eoas: 2019-08-06
     eol: 2024-06-30
     lts: 2024-06-30
-    extendedSupport: 2028-06-30
+    eoes: 2028-06-30
     latest: "7.9"
     latestReleaseDate: 2020-09-29
 
 -   releaseCycle: "6"
     releaseDate: 2010-11-09
-    support: 2016-05-10
+    eoas: 2016-05-10
     eol: 2020-11-30
     lts: 2020-11-30
-    extendedSupport: 2024-06-30
+    eoes: 2024-06-30
     latest: '6.10'
     latestReleaseDate: 2018-06-19
 
 -   releaseCycle: "5"
     releaseDate: 2007-03-15
-    support: 2013-01-08
+    eoas: 2013-01-08
     eol: 2017-03-31
     lts: 2017-03-31
-    extendedSupport: 2020-11-30
+    eoes: 2020-11-30
     latest: '5.11'
     latestReleaseDate: 2014-09-16
 
 -   releaseCycle: "4"
     releaseDate: 2005-02-15
-    support: 2009-03-31
+    eoas: 2009-03-31
     eol: 2012-02-29
-    extendedSupport: 2017-03-31
+    eoes: 2017-03-31
     latest: '4.9'
     latestReleaseDate: 2011-02-16
 

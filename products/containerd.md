@@ -5,7 +5,7 @@ iconSlug: containerd
 permalink: /containerd
 versionCommand: containerd --version
 releasePolicyLink: https://containerd.io/releases/
-activeSupportColumn: Active Support
+eoasColumn: Active Support
 eolColumn: Extended Support
 changelogTemplate: "https://github.com/containerd/containerd/releases/tag/v__LATEST__"
 releaseDateColumn: true
@@ -25,7 +25,7 @@ auto:
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2023-03-10
-    support: true # releaseDate(2.0) + 6 months
+    eoas: false # releaseDate(2.0) + 6 months
     eol: false # eol(1.6)
     latest: "1.7.14"
     latestReleaseDate: 2024-03-11
@@ -33,49 +33,49 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2022-02-15
     lts: true
-    support: true # same as EOL because it's an LTS.
+    eoas: false # same as EOL because it's an LTS.
     eol: false # max(February 15, 2025 or releaseDate(next LTS) + 6 months
     latest: "1.6.30"
     latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-05-03
-    support: 2022-08-15 # releaseDate(1.6) + 6 months
+    eoas: 2022-08-15 # releaseDate(1.6) + 6 months
     eol: 2023-02-28
     latest: "1.5.18"
     latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "1.4"
     releaseDate: 2020-08-17
-    support: 2021-11-03 # https://web.archive.org/web/20220206124158/https://containerd.io/releases/
+    eoas: 2021-11-03 # https://web.archive.org/web/20220206124158/https://containerd.io/releases/
     eol: 2022-03-03
     latest: "1.4.13"
     latestReleaseDate: 2022-03-02
 
 -   releaseCycle: "1.3"
     releaseDate: 2019-09-26
-    support: 2021-03-04 # no information about the end of support
+    eoas: 2021-03-04 # no information about the end of support
     eol: 2021-03-04
     latest: "1.3.10"
     latestReleaseDate: 2021-03-04
 
 -   releaseCycle: "1.2"
     releaseDate: 2018-10-24
-    support: 2020-03-26 # https://web.archive.org/web/20200408081910/https://containerd.io/releases/
+    eoas: 2020-03-26 # https://web.archive.org/web/20200408081910/https://containerd.io/releases/
     eol: 2020-10-15
     latest: "1.2.14"
     latestReleaseDate: 2020-10-15
 
 -   releaseCycle: "1.1"
     releaseDate: 2018-04-23
-    support: 2019-10-23 # no information about the end of support
+    eoas: 2019-10-23 # no information about the end of support
     eol: 2019-10-23
     latest: "1.1.8"
     latestReleaseDate: 2019-09-26
 
 -   releaseCycle: "1.0"
     releaseDate: 2017-12-04
-    support: 2018-12-05 # no information about the end of support
+    eoas: 2018-12-05 # no information about the end of support
     eol: 2018-12-05
     latest: "1.0.3"
     latestReleaseDate: 2018-04-02

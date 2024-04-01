@@ -11,7 +11,7 @@ releasePolicyLink: https://www.oracle.com/support/lifetime-support/
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Premier Support
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
 # No auto update, https://distrowatch.com/?newsid=02397 is outdated.
 
@@ -24,49 +24,46 @@ releases:
 -   releaseCycle: "11.4"
     releaseDate: 2018-08-28
     eol: 2031-11-01
-    extendedSupport: 2034-11-01
+    eoes: 2034-11-01
     link: https://docs.oracle.com/cd/E37838_01/index.html
 
 -   releaseCycle: "11.3"
     releaseDate: 2015-10-26
     eol: 2021-01-01
-    extendedSupport: 2027-01-01
+    eoes: 2027-01-01
     link: https://docs.oracle.com/cd/E53394_01/index.html
 
 -   releaseCycle: "11.2"
     releaseDate: 2014-04-29
     eol: true
-    extendedSupport: false
     link: https://docs.oracle.com/cd/E36784_01/index.html
 
 -   releaseCycle: "11.1"
     releaseDate: 2012-10-03
     eol: true
-    extendedSupport: false
     link: https://docs.oracle.com/cd/E26502_01/index.html
 
 -   releaseCycle: "11"
     releaseDate: 2011-11-09
     eol: true
-    extendedSupport: false
     link: https://docs.oracle.com/cd/E23824_01/index.html
 
 -   releaseCycle: "10"
     releaseDate: 2005-01-31
     eol: 2018-01-01
-    extendedSupport: 2027-01-01
+    eoes: 2027-01-01
     link: https://docs.oracle.com/cd/F24622_01/index.html
 
 -   releaseCycle: "9"
     releaseDate: 2002-05-28
     eol: 2011-10-01
-    extendedSupport: 2014-10-01
+    eoes: 2014-10-01
     link: https://docs.oracle.com/cd/E19683-01/index.html
 
 -   releaseCycle: "8"
     releaseDate: 2000-02-01
     eol: 2009-03-01
-    extendedSupport: 2012-03-01
+    eoes: 2012-03-01
     link: https://docs.oracle.com/cd/E19455-01/index.html
 
 ---

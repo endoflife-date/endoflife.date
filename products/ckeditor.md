@@ -5,21 +5,20 @@ iconSlug: ckeditor4
 permalink: /ckeditor
 releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versioning-policy.html
 
-activeSupportColumn: true
+eoasColumn: true
 releaseColumn: false
-extendedSupportColumn: true
+eoesColumn: true
 
 releases:
 -   releaseCycle: "5"
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: false
 
 -   releaseCycle: "4"
     lts: true
-    support: false
+    eoas: true
     eol: 2023-06-30
-    extendedSupport: 2026-12-01
+    eoes: 2026-12-01
 
 ---
 

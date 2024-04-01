@@ -7,7 +7,7 @@ permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 
 identifiers:
 -   purl: pkg:github/facebook/react
@@ -21,42 +21,42 @@ auto:
 releases:
 -   releaseCycle: "18.2"
     releaseDate: 2022-06-14
-    support: true
+    eoas: false
     eol: false
     latest: "18.2.0"
     latestReleaseDate: 2022-06-14
 
 -   releaseCycle: "18.1"
     releaseDate: 2022-04-26
-    support: 2022-06-14
+    eoas: 2022-06-14
     eol: false
     latest: "18.1.0"
     latestReleaseDate: 2022-04-26
 
 -   releaseCycle: "18.0"
     releaseDate: 2022-03-29
-    support: 2022-04-26
+    eoas: 2022-04-26
     eol: false
     latest: "18.0.0"
     latestReleaseDate: 2022-03-29
 
 -   releaseCycle: "17"
     releaseDate: 2020-10-20
-    support: 2022-03-29
+    eoas: 2022-03-29
     eol: false
     latest: "17.0.2"
     latestReleaseDate: 2021-03-22
 
 -   releaseCycle: "16"
     releaseDate: 2017-09-26
-    support: 2020-10-20
+    eoas: 2020-10-20
     eol: false
     latest: "16.14.0"
     latestReleaseDate: 2020-10-14
 
 -   releaseCycle: "15"
     releaseDate: 2016-04-07
-    support: 2017-09-26
+    eoas: 2017-09-26
     eol: false
     latest: "15.7.0"
     latestReleaseDate: 2020-10-14

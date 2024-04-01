@@ -422,20 +422,20 @@
           "description": "Date in the format `yyyy-mm-dd` or `false` if not available.",
           "$ref": "#/$defs/boolOrDate"
         },
-        "activeSupportColumn": {
+        "eoasColumn": {
           "title": "Active support column",
           "description": "Name of the active support column or `false` to disable the column.",
           "type": "boolean"
         },
-        "support": {
+        "eoas": {
           "$ref": "#/$defs/boolOrDate"
         },
-        "extendedSupportColumn": {
+        "eoesColumn": {
           "title": "Extended support column",
           "description": "Name of the extended support column or `false` to disable the column.",
           "type": "boolean"
         },
-        "extendedSupport": {
+        "eoes": {
           "$ref": "#/$defs/boolOrDate"
         },
         "discontinuedColumn": {
@@ -496,34 +496,34 @@
         {
           "if": {
             "properties": {
-              "activeSupportColumn": {
+              "eoasColumn": {
                 "type": "string"
               }
             },
             "required": [
-              "activeSupportColumn"
+              "eoasColumn"
             ]
           },
           "then": {
             "required": [
-              "support"
+              "eoas"
             ]
           }
         },
         {
           "if": {
             "properties": {
-              "extendedSupportColumn": {
+              "eoesColumn": {
                 "type": "string"
               }
             },
             "required": [
-              "extendedSupportColumn"
+              "eoesColumn"
             ]
           },
           "then": {
             "required": [
-              "extendedSupport"
+              "eoes"
             ]
           }
         },

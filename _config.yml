@@ -85,15 +85,15 @@ defaults:
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'
       discontinuedWarnThreshold: 121
-      activeSupportColumn: false
-      activeSupportColumnLabel: 'Active Support'
-      activeSupportWarnThreshold: 121
+      eoasColumn: false
+      eoasColumnLabel: 'Active Support'
+      eoasWarnThreshold: 121
       eolColumn: true
       eolColumnLabel: 'Security Support'
       eolWarnThreshold: 121
-      extendedSupportColumn: false
-      extendedSupportColumnLabel: 'Extended Support'
-      extendedSupportWarnThreshold: 121
+      eoesColumn: false
+      eoesColumnLabel: 'Extended Support'
+      eoesWarnThreshold: 121
       customColumns: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 

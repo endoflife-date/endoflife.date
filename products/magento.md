@@ -11,9 +11,9 @@ releasePolicyLink:
   https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
 changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
-activeSupportColumn: Bug fix maintenance
+eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
-extendedSupportColumn: Adobe Commerce end of software support
+eoesColumn: Adobe Commerce end of software support
 
 auto:
   methods:
@@ -24,63 +24,59 @@ auto:
 releases:
 -   releaseCycle: "2.4.6"
     releaseDate: 2023-02-28
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: 2026-03-14
+    eoes: 2026-03-14
     supportedPhpVersions: 8.1, 8.2
     latest: "2.4.6"
     latestReleaseDate: 2023-02-28
 
 -   releaseCycle: "2.4.5"
     releaseDate: 2022-08-01
-    support: 2024-11-25
+    eoas: 2024-11-25
     eol: 2024-11-25
-    extendedSupport: 2025-08-09
+    eoes: 2025-08-09
     supportedPhpVersions: 8.1
     latest: "2.4.5"
     latestReleaseDate: 2022-08-01
 
 -   releaseCycle: "2.4.4"
     releaseDate: 2022-03-30
-    support: 2024-11-25
+    eoas: 2024-11-25
     eol: 2024-11-25
-    extendedSupport: 2025-04-24
+    eoes: 2025-04-24
     supportedPhpVersions: 8.1
     latest: "2.4.4"
     latestReleaseDate: 2022-03-30
 
 -   releaseCycle: "2.4.3"
     releaseDate: 2021-08-04
-    support: 2022-11-28
+    eoas: 2022-11-28
     eol: 2022-11-28
-    extendedSupport: false
     supportedPhpVersions: 7.4
     latest: "2.4.3"
     latestReleaseDate: 2021-08-04
 
 -   releaseCycle: "2.4.2"
     releaseDate: 2021-02-04
-    support: 2022-11-28
+    eoas: 2022-11-28
     eol: 2022-11-28
-    extendedSupport: false
     supportedPhpVersions: 7.4
     latest: "2.4.2"
     latestReleaseDate: 2021-02-04
 
 -   releaseCycle: "2.4.1"
     releaseDate: 2020-10-14
-    support: 2022-11-28
+    eoas: 2022-11-28
     eol: 2022-11-28
-    extendedSupport: false
     supportedPhpVersions: 7.4
     latest: "2.4.1"
     latestReleaseDate: 2020-10-14
 
 -   releaseCycle: "2.4.0"
     releaseDate: 2020-07-20
-    support: 2022-11-28
+    eoas: 2022-11-28
     eol: 2022-11-28
-    extendedSupport: false
     supportedPhpVersions: 7.3, 7.4
     latest: "2.4.0"
     latestReleaseDate: 2020-07-20
@@ -89,9 +85,8 @@ releases:
 
 -   releaseCycle: "2.3"
     releaseDate: 2018-11-23
-    support: 2022-07-31
+    eoas: 2022-07-31
     eol: 2022-09-30
-    extendedSupport: false
     # https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html#platform-upgrades
     supportedPhpVersions: 7.2, 7.3
     link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
@@ -100,9 +95,8 @@ releases:
 
 -   releaseCycle: "2.2"
     releaseDate: 2017-09-22
-    support: 2019-12-01
+    eoas: 2019-12-01
     eol: 2019-12-01
-    extendedSupport: false
     link:
       https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
     latest: "2.2.11"
@@ -110,9 +104,8 @@ releases:
 
 -   releaseCycle: "2.1"
     releaseDate: 2016-06-23
-    support: 2019-06-01
+    eoas: 2019-06-01
     eol: 2019-06-01
-    extendedSupport: false
     link:
       https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
     latest: "2.1.18"
@@ -120,9 +113,8 @@ releases:
 
 -   releaseCycle: "2.0"
     releaseDate: 2015-11-16
-    support: 2018-03-01
+    eoas: 2018-03-01
     eol: 2018-03-01
-    extendedSupport: false
     link:
       https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
     latest: "2.0.18"
@@ -130,81 +122,71 @@ releases:
 
 -   releaseCycle: "1.9"
     releaseDate: 2014-05-01
-    support: 2020-06-01
+    eoas: 2020-06-01
     eol: 2020-06-01
-    extendedSupport: false
     link: null
     latest: "1.9.4.3"
 
 -   releaseCycle: "1.8"
     releaseDate: 2013-09-01
-    support: 2014-09-01
+    eoas: 2014-09-01
     eol: 2020-06-01
-    extendedSupport: false
     link: null
     latest: "1.8.1.0"
 
 -   releaseCycle: "1.7"
     releaseDate: 2012-04-01
-    support: 2013-04-01
+    eoas: 2013-04-01
     eol: 2020-06-01
-    extendedSupport: false
     link: null
     latest: "1.7.0.2"
 
 -   releaseCycle: "1.6"
     releaseDate: 2011-08-01
-    support: 2012-08-01
+    eoas: 2012-08-01
     eol: 2020-06-01
-    extendedSupport: false
     link: null
     latest: "1.6.2.0"
 
 -   releaseCycle: "1.5"
     releaseDate: 2011-02-01
-    support: 2012-02-01
+    eoas: 2012-02-01
     eol: 2020-06-01
-    extendedSupport: false
     link: null
     latest: "1.5.1.0"
 
 -   releaseCycle: "1.4"
     releaseDate: 2010-02-01
-    support: 2011-02-01
+    eoas: 2011-02-01
     eol: 2012-02-01
-    extendedSupport: false
     link: null
     latest: "1.4.2.0"
 
 -   releaseCycle: "1.3"
     releaseDate: 2009-03-01
-    support: 2010-03-01
+    eoas: 2010-03-01
     eol: 2011-03-01
-    extendedSupport: false
     link: null
     latest: "1.3.3.0"
 
 -   releaseCycle: "1.2"
     releaseDate: 2008-12-01
-    support: 2009-12-01
+    eoas: 2009-12-01
     eol: 2010-12-01
-    extendedSupport: false
     link: null
     latest: "1.2.1.2"
 
 -   releaseCycle: "1.1"
     releaseDate: 2008-07-01
-    support: 2009-07-01
+    eoas: 2009-07-01
     eol: 2010-07-01
-    extendedSupport: false
     link: null
     latest: "1.1.8"
 
 -   releaseCycle: "1.0"
     releaseDate: 2008-03-01
-    support: 2009-03-01
+    eoas: 2009-03-01
     eol: 2010-03-01
-    extendedSupport: false
     link: null
     latest: "1.0.0"
 

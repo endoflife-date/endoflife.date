@@ -8,10 +8,10 @@ versionCommand: nvidia-smi
 releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
-# support(x) is:
+# eoas(x) is:
 # - false for NFB releases
 # - releaseDate(x) + 1 year for PB and LTS releases
 #
@@ -22,7 +22,7 @@ releases:
 -   releaseCycle: "R535-Linux"
     lts: true
     releaseDate: 2023-06-14
-    support: 2024-06-01
+    eoas: 2024-06-01
     eol: 2026-06-01
     latest: "535.54.03"
     latestReleaseDate: 2023-06-26
@@ -31,7 +31,7 @@ releases:
 -   releaseCycle: "R535-Windows"
     lts: true
     releaseDate: 2023-05-30
-    support: 2024-06-01
+    eoas: 2024-06-01
     eol: 2026-06-01
     latest: "536.25"
     latestReleaseDate: 2023-06-26
@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "R530-Linux (NFB)"
     releaseDate: 2023-03-23
-    support: false
+    eoas: true
     eol: 2023-06-24
     latest: "530.41.03"
     latestReleaseDate: 2023-03-23
@@ -47,7 +47,7 @@ releases:
 
 -   releaseCycle: "R530-Windows (NFB)"
     releaseDate: 2023-02-28
-    support: false
+    eoas: true
     eol: 2023-06-24
     latest: "531.79"
     latestReleaseDate: 2023-05-02
@@ -55,7 +55,7 @@ releases:
 
 -   releaseCycle: "R525-Windows (PB)"
     releaseDate: 2022-11-10
-    support: 2023-12-01
+    eoas: 2023-12-01
     eol: 2023-12-01
     latest: "529.11"
     latestReleaseDate: 2023-06-26
@@ -63,7 +63,7 @@ releases:
 
 -   releaseCycle: "R525-Linux (PB)"
     releaseDate: 2022-11-10
-    support: 2023-12-01
+    eoas: 2023-12-01
     eol: 2023-12-01
     latest: "525.125.06"
     latestReleaseDate: 2023-06-26
@@ -71,7 +71,7 @@ releases:
 
 -   releaseCycle: "R515-Windows (PB)"
     releaseDate: 2022-05-11
-    support: 2023-05-01
+    eoas: 2023-05-01
     eol: 2023-05-01
     latest: "518.03"
     latestReleaseDate: 2023-03-30
@@ -79,7 +79,7 @@ releases:
 
 -   releaseCycle: "R515-Linux (PB)"
     releaseDate: 2022-05-11
-    support: 2023-05-01
+    eoas: 2023-05-01
     eol: 2023-05-01
     latest: "515.105.01"
     latestReleaseDate: 2023-03-30
@@ -87,7 +87,7 @@ releases:
 
 -   releaseCycle: "R510-Windows (PB)"
     releaseDate: 2022-01-14
-    support: 2023-01-01
+    eoas: 2023-01-01
     eol: 2023-01-01
     latest: "513.91"
     latestReleaseDate: 2022-11-22
@@ -95,7 +95,7 @@ releases:
 
 -   releaseCycle: "R510-Linux (PB)"
     releaseDate: 2022-01-14
-    support: 2023-01-01
+    eoas: 2023-01-01
     eol: 2023-01-01
     latest: "510.108.03"
     latestReleaseDate: 2022-11-22
@@ -103,7 +103,7 @@ releases:
 
 -   releaseCycle: "R495-Linux (NFB)"
     releaseDate: 2021-10-26
-    support: false
+    eoas: true
     eol: 2022-10-12
     latest: "495.46"
     latestReleaseDate: 2021-12-13
@@ -111,7 +111,7 @@ releases:
 
 -   releaseCycle: "R495-Windows (NFB)"
     releaseDate: 2021-10-12
-    support: false
+    eoas: true
     eol: 2022-01-14
     latest: "497.29"
     latestReleaseDate: 2021-12-20
@@ -120,7 +120,7 @@ releases:
 -   releaseCycle: "R470-Linux"
     lts: true
     releaseDate: 2021-07-19
-    support: 2021-10-26
+    eoas: 2021-10-26
     eol: 2024-07-20
     latest: "470.199.02"
     latestReleaseDate: 2023-06-23
@@ -129,7 +129,7 @@ releases:
 -   releaseCycle: "R470-Windows"
     lts: true
     releaseDate: 2021-06-22
-    support: 2021-09-20
+    eoas: 2021-09-20
     eol: 2024-07-01
     latest: "474.44"
     latestReleaseDate: 2023-06-23
@@ -137,7 +137,7 @@ releases:
 
 -   releaseCycle: "R460-Linux (PB)"
     releaseDate: 2021-01-07
-    support: 2021-07-19
+    eoas: 2021-07-19
     eol: 2022-01-01
     latest: "460.91.03"
     latestReleaseDate: 2021-07-20
@@ -145,7 +145,7 @@ releases:
 
 -   releaseCycle: "R460-Windows (PB)"
     releaseDate: 2020-12-15
-    support: 2021-06-23
+    eoas: 2021-06-23
     eol: 2022-01-01
     latest: "462.96"
     latestReleaseDate: 2021-07-20
@@ -154,7 +154,7 @@ releases:
 -   releaseCycle: "R450-Windows"
     lts: true
     releaseDate: 2020-06-24
-    support: 2020-12-15
+    eoas: 2020-12-15
     eol: 2023-07-01
     latest: "453.94"
     latestReleaseDate: 2022-11-22
@@ -163,7 +163,7 @@ releases:
 -   releaseCycle: "R450-Linux"
     lts: true
     releaseDate: 2020-06-24
-    support: 2020-10-07
+    eoas: 2020-10-07
     eol: 2023-07-01
     latest: "450.216.04"
     latestReleaseDate: 2022-11-22
@@ -172,7 +172,7 @@ releases:
 -   releaseCycle: "R418-Windows"
     lts: true
     releaseDate: 2019-02-04
-    support: 2019-04-23
+    eoas: 2019-04-23
     eol: 2022-03-01
     latest: "427.45"
     latestReleaseDate: 2021-04-20
@@ -181,7 +181,7 @@ releases:
 -   releaseCycle: "R418-Linux"
     lts: true
     releaseDate: 2019-01-30
-    support: 2019-03-20
+    eoas: 2019-03-20
     eol: 2022-03-01
     latest: "418.197.02"
     latestReleaseDate: 2021-04-19
@@ -190,7 +190,7 @@ releases:
 -   releaseCycle: "R390-Windows"
     lts: true
     releaseDate: 2018-01-08
-    support: 2018-07-31
+    eoas: 2018-07-31
     eol: 2021-10-26
     latest: "392.68"
     latestReleaseDate: 2021-10-26
@@ -199,7 +199,7 @@ releases:
 -   releaseCycle: "R390-Linux"
     lts: true
     releaseDate: 2018-01-04
-    support: 2018-03-10
+    eoas: 2018-03-10
     eol: 2022-11-22
     latest: "390.157"
     latestReleaseDate: 2022-11-22

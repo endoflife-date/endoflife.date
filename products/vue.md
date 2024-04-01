@@ -8,9 +8,9 @@ alternate_urls:
 -   /vuejs
 versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
-extendedSupportColumn: Commercial Support
+eoesColumn: Commercial Support
 
 auto:
   methods:
@@ -26,27 +26,25 @@ identifiers:
 releases:
 -   releaseCycle: "3"
     releaseDate: 2020-09-18
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: false
     latest: "3.4.21"
     latestReleaseDate: 2024-02-28
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
 -   releaseCycle: "2"
     releaseDate: 2016-09-30
-    support: 2022-03-18
+    eoas: 2022-03-18
     eol: 2023-12-31
-    extendedSupport: true
+    eoes: false
     latest: "2.7.16"
     latestReleaseDate: 2023-12-24
     link: https://github.com/vuejs/vue/blob/main/CHANGELOG.md
 
 -   releaseCycle: "1"
     releaseDate: 2015-10-27
-    support: false
+    eoas: true
     eol: true
-    extendedSupport: false
     latest: "1.0.28"
     latestReleaseDate: 2016-09-27
     link: https://github.com/vuejs/vue/releases/tag/v__LATEST__

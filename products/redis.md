@@ -6,7 +6,7 @@ permalink: /redis
 versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -28,40 +28,40 @@ auto:
   methods:
   -   git: https://github.com/redis/redis.git
 
-# - support(x) = release(x+1)
+# - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2023-08-15
-    support: true
+    eoas: false
     eol: false
     latest: '7.2.4'
     latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-04-27
-    support: 2023-08-15
+    eoas: 2023-08-15
     eol: false
     latest: '7.0.15'
     latestReleaseDate: 2024-01-09
 
 -   releaseCycle: "6.2"
     releaseDate: 2021-02-22
-    support: 2022-04-27
+    eoas: 2022-04-27
     eol: false
     latest: '6.2.14'
     latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "6.0"
     releaseDate: 2020-04-30
-    support: 2021-02-22
+    eoas: 2021-02-22
     eol: 2023-08-15
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
 
 -   releaseCycle: "5.0"
     releaseDate: 2018-10-17
-    support: 2020-04-30
+    eoas: 2020-04-30
     eol: 2022-04-27
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04

@@ -10,7 +10,7 @@ LTSLabel: <abbr title="Long Term Release">LTR</abbr>
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: Premier Support
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
 auto:
   methods:
@@ -31,14 +31,13 @@ releases:
     releaseDate: 2023-09-19
     lts: true
     eol: 2032-04-30
-    extendedSupport: yes
+    eoes: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
 
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
     eol: 2025-04-30
-    extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
 -   releaseCycle: "19"
@@ -47,21 +46,19 @@ releases:
     lts: true
     eol: 2026-04-30
     # The first year of extended support is free.
-    extendedSupport: 2027-04-30
+    eoes: 2027-04-30
     link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
 -   releaseCycle: "18"
     releaseLabel: "18c"
     releaseDate: 2018-07-23
     eol: 2021-06-30
-    extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/18/whats-new.html
 
 -   releaseCycle: "12.2"
     releaseLabel: "12c Release 2"
     releaseDate: 2017-03-01
     eol: 2022-03-31
-    extendedSupport: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/12.2/whats-new.html
 
 -   releaseCycle: "12.1"
@@ -69,7 +66,7 @@ releases:
     lts: true
     releaseDate: 2013-06-25
     eol: 2018-07-31
-    extendedSupport: 2022-07-31
+    eoes: 2022-07-31
     link: https://docs.oracle.com/database/121/index.htm
 
 -   releaseCycle: "11.2"
@@ -78,7 +75,7 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_11gR2
     releaseDate: 2009-09-01
     eol: 2015-01-31
-    extendedSupport: 2020-12-31
+    eoes: 2020-12-31
     link: https://docs.oracle.com/cd/E11882_01/index.htm
 
 -   releaseCycle: "11.1"
@@ -88,7 +85,7 @@ releases:
     releaseDate: 2007-08-09
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html#foot1
     eol: 2012-08-31
-    extendedSupport: 2015-08-31
+    eoes: 2015-08-31
     link: https://docs.oracle.com/cd/B28359_01/index.htm
 
 -   releaseCycle: "10.2"
@@ -98,7 +95,7 @@ releases:
     releaseDate: 2005-07-11
     # https://web.archive.org/web/20190516170139/https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
     eol: 2010-07-31
-    extendedSupport: 2015-07-31
+    eoes: 2015-07-31
     link: https://docs.oracle.com/cd/B19306_01/nav/portal_1.htm
 
 -   releaseCycle: "10.1"
@@ -108,7 +105,7 @@ releases:
     releaseDate: 2003-09-08
     # https://www.orafaq.com/wiki/Oracle_10g
     eol: 2009-01-31
-    extendedSupport: 2012-01-01
+    eoes: 2012-01-01
     link: https://www.oracle.com/database/technologies/database10g-doc.html
 
 -   releaseCycle: "9.2"
@@ -117,7 +114,7 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2002-05-01
     eol: 2007-07-31
-    extendedSupport: 2010-07-31
+    eoes: 2010-07-31
     link: https://www.oracle.com/database/technologies/oracle9i.html
 
 -   releaseCycle: "9.0"
@@ -125,7 +122,6 @@ releases:
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
     eol: 2003-12-31
-    extendedSupport: false
     link: https://www.oracle.com/database/technologies/database10g-doc.html
 
 ---

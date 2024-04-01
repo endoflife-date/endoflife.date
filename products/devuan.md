@@ -17,7 +17,7 @@ auto:
       regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
 
 # lts(x) = eol(corresponding Debian version)
-# eol(x) = extendedSupport(corresponding Debian version)
+# eol(x) = eoes(corresponding Debian version)
 releases:
 -   releaseCycle: "5"
     codename: "Daedalus"

@@ -7,8 +7,8 @@ permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
 changelogTemplate: https://get.typo3.org/release-notes/__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
-extendedSupportColumn: Extended Long Term Support
+eoasColumn: true
+eoesColumn: Extended Long Term Support
 
 identifiers:
 -   repology: typo3
@@ -21,59 +21,59 @@ auto:
 releases:
 -   releaseCycle: "13"
     releaseDate: 2024-01-30
-    support: 2026-04-30
+    eoas: 2026-04-30
     eol: 2027-10-31
-    extendedSupport: 2030-10-31
+    eoes: 2030-10-31
     latest: '13.0.1'
     latestReleaseDate: 2024-02-13
 
 -   releaseCycle: "12"
     releaseDate: 2022-10-04
-    support: 2024-10-31
+    eoas: 2024-10-31
     eol: 2026-04-30
-    extendedSupport: 2029-04-30
+    eoes: 2029-04-30
     latest: '12.4.13'
     latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "11"
     releaseDate: 2020-12-22
     lts: 2021-10-05
-    support: 2023-03-31
+    eoas: 2023-03-31
     eol: 2024-10-31
-    extendedSupport: 2027-10-31
+    eoes: 2027-10-31
     latest: "11.5.36"
     latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "10"
     releaseDate: 2019-07-23
     lts: 2020-04-07
-    support: 2021-10-31
+    eoas: 2021-10-31
     eol: 2023-04-30
-    extendedSupport: 2026-04-30
+    eoes: 2026-04-30
     latest: "10.4.44"
     latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "9"
     releaseDate: 2017-12-12
-    support: 2020-04-30
+    eoas: 2020-04-30
     eol: 2021-09-30
-    extendedSupport: 2024-09-30
+    eoes: 2024-09-30
     latest: "9.5.47"
     latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "8"
     releaseDate: 2016-03-22
-    support: 2018-09-30
+    eoas: 2018-09-30
     eol: 2020-03-31
-    extendedSupport: 2024-03-31
+    eoes: 2024-03-31
     latest: "8.7.58"
     latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "7"
     releaseDate: 2014-12-02
-    support: 2017-04-01
+    eoas: 2017-04-01
     eol: 2018-12-01
-    extendedSupport: 2022-11-30
+    eoes: 2022-11-30
     latest: "7.6.58"
     latestReleaseDate: 2022-09-12
 

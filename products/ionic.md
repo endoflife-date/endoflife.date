@@ -8,10 +8,10 @@ alternate_urls:
 -   /ionic-framework
 releasePolicyLink: https://ionicframework.com/docs/reference/support
 changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Maintenance
 releaseDateColumn: true
-extendedSupportColumn: true
+eoesColumn: true
 
 identifiers:
 -   purl: pkg:github/ionic-team/ionic-framework
@@ -45,9 +45,9 @@ auto:
 releases:
 -   releaseCycle: "7"
     releaseDate: 2023-03-29
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: true
+    eoes: false
     minAngularVersion: v14
     maxAngularVersion: v17.x
     supportedReactVersions: v17+
@@ -57,9 +57,9 @@ releases:
 
 -   releaseCycle: "6"
     releaseDate: 2021-12-08
-    support: 2023-03-29
+    eoas: 2023-03-29
     eol: 2023-09-29
-    extendedSupport: 2024-03-29
+    eoes: 2024-03-29
     minAngularVersion: v12
     maxAngularVersion: v15.x
     supportedReactVersions: v17+
@@ -69,9 +69,9 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2020-02-11
-    support: 2021-12-08
+    eoas: 2021-12-08
     eol: 2022-06-08
-    extendedSupport: 2022-12-08
+    eoes: 2022-12-08
     minAngularVersion: v8.2
     maxAngularVersion: v12.x
     supportedReactVersions: v16.8+
@@ -81,9 +81,9 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2019-01-23
-    support: 2020-02-11
+    eoas: 2020-02-11
     eol: 2020-08-11
-    extendedSupport: 2022-09-30
+    eoes: 2022-09-30
     minAngularVersion: v8.2
     maxAngularVersion: v11.x
     supportedReactVersions: v16.8+
@@ -93,9 +93,9 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2017-04-05
-    support: 2019-01-23
+    eoas: 2019-01-23
     eol: 2019-10-30
-    extendedSupport: 2020-08-11
+    eoes: 2020-08-11
     minAngularVersion: v5.2.11
     maxAngularVersion: v5.2.11
     supportedReactVersions: N/A
@@ -105,9 +105,9 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2017-01-24
-    support: 2017-04-05
+    eoas: 2017-04-05
     eol: 2017-04-05
-    extendedSupport: 2017-04-05
+    eoes: 2017-04-05
     minAngularVersion: v2.x
     maxAngularVersion: v2.x
     supportedReactVersions: N/A
@@ -117,9 +117,9 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2015-05-12
-    support: 2017-01-25
+    eoas: 2017-01-25
     eol: 2017-01-25
-    extendedSupport: 2017-01-25
+    eoes: 2017-01-25
     minAngularVersion: v1.x
     maxAngularVersion: v1.x
     supportedReactVersions: N/A

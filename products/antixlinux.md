@@ -7,10 +7,10 @@ alternate_urls:
 -   /antixlinux
 -   /antix-linux
 versionCommand: cat /etc/os-release
-releasePolicyLink: 
+releasePolicyLink:
   https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -21,22 +21,22 @@ auto:
   -   distrowatch: antix
       regex: '^Distribution Release: antiX (?P<major>\d)\.(?P<minor>\d)$'
 
-# support(x) = Corresponding Debian support(x)
-# EOL(x) = Corresponding Debian EOL(x)
+# eoas(x) = Corresponding Debian eoas(x)
+# eol(x) = Corresponding Debian eol(x)
 releases:
 -   releaseCycle: "23"
     codename: "Arditi del Popolo" # Bookworm
     releaseDate: 2023-08-28
     latest: "23"
     latestReleaseDate: 2023-08-28
-    support: 2026-06-10
+    eoas: 2026-06-10
     eol: 2028-06-10
     link: https://antixlinux.com/antix-23-released/
 
 -   releaseCycle: "21"
     codename: "Grup Yorum" # Bullseye
     releaseDate: 2021-10-31
-    support: 2024-06-30
+    eoas: 2024-06-30
     eol: 2026-06-30
     latest: "22"
     latestReleaseDate: 2022-10-19
@@ -45,7 +45,7 @@ releases:
 -   releaseCycle: "19"
     codename: "Grup Yorum" # Buster
     releaseDate: 2019-10-17
-    support: 2022-09-10
+    eoas: 2022-09-10
     eol: 2024-06-30
     latest: "19.5"
     latestReleaseDate: 2022-01-25
@@ -54,7 +54,7 @@ releases:
 -   releaseCycle: "17"
     codename: "Helen Keller" # Stretch
     releaseDate: 2017-10-24
-    support: 2020-06-05
+    eoas: 2020-06-05
     eol: 2022-06-30
     latest: "17.4.1"
     latestReleaseDate: 2019-03-28
@@ -63,7 +63,7 @@ releases:
 -   releaseCycle: "16"
     codename: "Berta Cáceres"
     releaseDate: 2016-06-27
-    support: 2018-06-23
+    eoas: 2018-06-23
     eol: 2020-06-30
     latest: "16.3"
     latestReleaseDate: 2017-12-21
@@ -72,7 +72,7 @@ releases:
 -   releaseCycle: "15"
     codename: "Berta Cáceres"
     releaseDate: 2015-06-30
-    support: 2018-06-23
+    eoas: 2018-06-23
     eol: 2020-06-30
     latest: "15"
     latestReleaseDate: 2015-06-30

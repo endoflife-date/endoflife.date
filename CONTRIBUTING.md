@@ -124,25 +124,21 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
-# Whether the "End of Life" column should be displayed (optional, default = true).
+# Whether the "End Of Life" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
 # Threshold at which the background color of the cycle's "eol" cell changes to indicate
 # that the EOL date is approaching (optional, default = 121 days).
-# If a fixed EOL calculation is taken the rule of thumb one third of the time can be applied.
-# e.g. eol = releaseDate + 6w -> 2w eolWarnThreshold: 14
 eolWarnThreshold: 121
 
-# Whether the "Active Support" column should be displayed (optional, default = false).
+# Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
-activeSupportColumn: Active Support
+eoasColumn: Active Support
 
-# Threshold at which the background color of the cycle's "activeSupport" cell changes to indicate
+# Threshold at which the background color of the cycle's "eoas" cell changes to indicate
 # that the end of active support date is approaching (optional, default = 121 days).
-# If a fixed support calculation is taken the rule of thumb one third of the time can be applied.
-# e.g. activeSupport = releaseDate + 3w -> 1w activeSupportWarnThreshold: 7
-activeSupportWarnThreshold: 121
+eoasWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -162,13 +158,13 @@ discontinuedColumn: Discontinued
 # that the discontinued date is approaching (optional, default = 121 days).
 discontinuedWarnThreshold: 121
 
-# Whether the "Extended Support" column should be displayed (optional, default = false).
+# Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
-# Threshold at which the background color of the cycle's "extendedSupport" cell changes to indicate
+# Threshold at which the background color of the cycle's "eoes" cell changes to indicate
 # that the extended support date is approaching (optional, default = 121 days).
-extendedSupportWarnThreshold: 121
+eoesWarnThreshold: 121
 
 # Custom columns configuration (optional).
 # Custom columns are columns that will be added to the releases table and populated based on a
@@ -332,30 +328,40 @@ releases:
     # promoted LTS after their release (ex. Jenkins).
     lts: true
 
-    # End of active support date (optional if activeSupportColumn is false, else mandatory).
-    # This is where bug fixes usually stop coming in.
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false if the date has not been decided yet.
-    support: 2018-01-31
+    # End Of Active Support date (mandatory if eoasColumn is true, else MUST NOT be set).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is the date where bug fixes stop coming in.
+    # - When a boolean is used, it must be set to true if the release cycle is not supported
+    #   anymore, and false otherwise.
+    eoas: 2018-01-31
 
-    # EOL date (mandatory).
-    # This is where all support stops (including security support).
-    # In case there is extended/commercial support available, pick the date that would apply to the
-    # majority of users (and use the extendedSupport field if necessary).
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false the date has not been decided yet.
+    # End Of Life date (mandatory).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is where all support stops, including security support.
+    #   Note that this date reflects what is true for the majority of users (you may use the
+    #   eoes field if possible/necessary).
+    # - When a boolean is used, it must be set to true if the release cycle is End Of Life,
+    #   and false otherwise.
     eol: 2019-01-01
 
-    # End of extended/commercial support date (optional if extendedSupportColumn is false, else mandatory).
-    # Note that extended/commercial support is different from Long-Term Support. Extended/commercial
-    # support must be used only when additional support is available after EOL, usually against payment.
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false if the date has not been decided yet.
-    extendedSupport: 2020-01-01
+    # End Of Extended/commercial Support date (optional if eoesColumn is true, else SHOULD NOT be set).
+    # This can be either a date (must be valid and not quoted), a boolean value (when
+    # the date is not known or has not been decided yet), or null.
+    # - When a date is used, this is where the extended support period stops.
+    # - When a boolean is used, it must be set to true if the extended support period is over,
+    #   and false otherwise.
+    # - When null is used, it means that there is no extended/commercial support for the given
+    #   release cycle.
+    eoes: 2020-01-01
 
-    # Whether this is a "discontinued" release (optional).
-    # Can be set to true/false.
-    # Only use if discontinuedColumn is set to true.
+    # Discontinuation date (mandatory if discontinuedColumn is true, else MUST NOT be set).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is the date where the release cycle is discontinued.
+    # - When a boolean is used, it must be set to true if the release cycle is discontinued,
+    #   and false otherwise.
     discontinued: true
 
     # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).

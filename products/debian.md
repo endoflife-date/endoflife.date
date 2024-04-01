@@ -9,7 +9,7 @@ releasePolicyLink: https://wiki.debian.org/DebianReleases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 eolColumn: Debian Security Support
-extendedSupportColumn: Debian <abbr title="Long Term Support">LTS</abbr>
+eoesColumn: Debian <abbr title="Long Term Support">LTS</abbr>
 
 identifiers:
 -   cpe: cpe:2.3:o:debian:debian_linux
@@ -35,7 +35,7 @@ releases:
     codename: "Bookworm"
     releaseDate: 2023-06-10
     eol: 2026-06-10
-    extendedSupport: 2028-06-10
+    eoes: 2028-06-10
     link: https://www.debian.org/News/2023/20230610
     latest: "12.5"
     latestReleaseDate: 2024-02-10
@@ -44,7 +44,7 @@ releases:
     codename: "Bullseye"
     releaseDate: 2021-08-14
     eol: 2024-07-31
-    extendedSupport: 2026-06-30
+    eoes: 2026-06-30
     link: https://www.debian.org/News/2023/20230429
     latest: "11.9"
     latestReleaseDate: 2024-02-10
@@ -53,7 +53,7 @@ releases:
     codename: "Buster"
     releaseDate: 2019-07-06
     eol: 2022-09-10
-    extendedSupport: 2024-06-30
+    eoes: 2024-06-30
     link: https://www.debian.org/News/2022/20220910
     latest: "10.13"
     latestReleaseDate: 2022-09-10
@@ -62,7 +62,7 @@ releases:
     codename: "Stretch"
     releaseDate: 2017-06-17
     eol: 2020-07-18
-    extendedSupport: 2022-07-01
+    eoes: 2022-07-01
     link: https://www.debian.org/News/2020/20200718
     latest: "9.13"
     latestReleaseDate: 2020-07-18
@@ -71,7 +71,7 @@ releases:
     codename: "Jessie"
     releaseDate: 2015-04-25
     eol: 2018-06-17
-    extendedSupport: 2020-06-30
+    eoes: 2020-06-30
     link: https://www.debian.org/News/2018/20180623
     latest: "8.11"
     latestReleaseDate: 2018-06-23
@@ -80,7 +80,7 @@ releases:
     codename: "Wheezy"
     releaseDate: 2013-05-04
     eol: 2016-04-25
-    extendedSupport: 2018-05-31
+    eoes: 2018-05-31
     link: https://www.debian.org/News/2016/2016060402
     latest: "7.11"
     latestReleaseDate: 2016-06-04
@@ -89,7 +89,7 @@ releases:
     codename: "Squeeze"
     releaseDate: 2011-02-06
     eol: 2014-05-31
-    extendedSupport: 2016-02-29
+    eoes: 2016-02-29
     link: https://www.debian.org/News/2014/20140719
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19

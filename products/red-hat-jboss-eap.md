@@ -11,9 +11,9 @@ versionCommand: $JBOSS_HOME/bin/version.sh
 releasePolicyLink: https://access.redhat.com/support/policy/updates/jboss_notes
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/{{'__LATEST__'|split:'.'|pop|join:'.'}}"
 releaseDateColumn: true
-activeSupportColumn: Full Support
+eoasColumn: Full Support
 eolColumn: Maintenance Support
-extendedSupportColumn: Extended Life Support 1
+eoesColumn: Extended Life Support 1
 
 # Latest releases with their date can be found in each cycles release notes.date.
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
@@ -21,43 +21,43 @@ extendedSupportColumn: Extended Life Support 1
 releases:
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
-    support: 2023-12-31
+    eoas: 2023-12-31
     eol: 2025-06-30
-    extendedSupport: 2026-11-30
+    eoes: 2026-11-30
     latest: "7.4.14"
     latestReleaseDate: 2023-12-12
 
 -   releaseCycle: "6"
     releaseDate: 2012-06-01
-    support: 2016-06-30
+    eoas: 2016-06-30
     eol: 2019-06-30
-    extendedSupport: 2022-06-30
+    eoes: 2022-06-30
     latest: "6.4.24"
     latestReleaseDate: 2022-06-30
 
 -   releaseCycle: "5"
     releaseDate: 2009-11-01
-    support: 2013-11-30
+    eoas: 2013-11-30
     eol: 2016-11-30
-    extendedSupport: 2019-11-30
+    eoes: 2019-11-30
     latest: "5.2.0"
     latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
     link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0
 
 -   releaseCycle: "4.3"
     releaseDate: 2008-01-01
-    support: 2011-01-31
+    eoas: 2011-01-31
     eol: 2013-01-31
-    extendedSupport: 2016-11-30
+    eoes: 2016-11-30
     latest: '4.3.0 CP10'
     latestReleaseDate: 2013-02-11
     link: https://access.redhat.com/errata/RHSA-2013:0249
 
 -   releaseCycle: "4.2"
     releaseDate: 2007-06-01
-    support: 2010-06-30
+    eoas: 2010-06-30
     eol: 2012-06-30
-    extendedSupport: 2015-06-30
+    eoes: 2015-06-30
     latest: '4.2.0.CP09'
     latestReleaseDate: 2010-04-26
     link: https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html

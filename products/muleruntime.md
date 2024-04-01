@@ -10,7 +10,7 @@ alternate_urls:
 -   /mule-runtimes
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__LATEST__'|split:'-'|first}}-release-notes"
-activeSupportColumn: Standard Support
+eoasColumn: Standard Support
 releaseDateColumn: true
 eolColumn: Extended Support
 
@@ -20,7 +20,7 @@ releases:
 -   releaseCycle: "4.6"
     lts: true
     releaseDate: 2024-02-06
-    support: 2025-02-06
+    eoas: 2025-02-06
     eol: 2026-02-06
     latest: "4.6.0"
     latestReleaseDate: 2024-02-06
@@ -28,7 +28,7 @@ releases:
 
 -   releaseCycle: "4.5"
     releaseDate: 2023-10-03
-    support: 2024-02-06
+    eoas: 2024-02-06
     eol: 2024-06-04
     latest: "4.5.3"
     latestReleaseDate: 2024-01-15 # guessing
@@ -36,28 +36,28 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-09-07
-    support: 2024-10-08
+    eoas: 2024-10-08
     eol: 2025-10-08
     latest: "4.4.0-20240215"
     latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "4.3"
     releaseDate: 2020-04-30
-    support: 2023-03-07
+    eoas: 2023-03-07
     eol: 2025-03-07
     latest: "4.3.0-20231026"
     latestReleaseDate: 2023-10-26
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-05-02
-    support: 2021-05-02
+    eoas: 2021-05-02
     eol: 2023-05-02
     latest: "4.2.2-20221027"
     latestReleaseDate: 2022-10-27
 
 -   releaseCycle: "4.1"
     releaseDate: 2018-03-20
-    support: 2020-11-02
+    eoas: 2020-11-02
     eol: 2022-11-02
     latest: "4.1.6-20210419"
     latestReleaseDate: 2021-04-19
@@ -66,7 +66,7 @@ releases:
 -   releaseCycle: "3.9"
     lts: true
     releaseDate: 2017-10-09
-    support: 2021-03-20
+    eoas: 2021-03-20
     eol: 2024-03-20
     latest: "3.9.5-20230823"
     latestReleaseDate: 2023-08-23
@@ -74,7 +74,7 @@ releases:
 -   releaseCycle: "3.8"
     lts: true
     releaseDate: 2016-05-16
-    support: 2018-11-16
+    eoas: 2018-11-16
     eol: 2021-11-16
     latest: "3.8.7"
     latestReleaseDate: 2018-05-28

@@ -9,9 +9,9 @@ alternate_urls:
 releasePolicyLink: https://eclipse.dev/jetty/download.php
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
-activeSupportColumn: "Community Support"
+eoasColumn: "Community Support"
 eolColumn: true
-extendedSupportColumn: "Extended Support"
+eoesColumn: "Extended Support"
 
 identifiers:
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
@@ -27,9 +27,9 @@ releases:
     minJvmVersion: 17
     servletVersion: 3.1 - 6.0
     jspVersion: 2.3 - 3.1
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: true
+    eoes: false
     latest: "12.0.7"
     latestReleaseDate: 2024-02-29
 
@@ -38,9 +38,9 @@ releases:
     servletVersion: 5.0
     jspVersion: 3.0
     releaseDate: 2020-12-02
-    support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
+    eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
-    extendedSupport: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
+    eoes: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
     latest: "11.0.20"
     latestReleaseDate: 2024-01-29
 
@@ -49,9 +49,9 @@ releases:
     servletVersion: 4.0
     jspVersion: 2.3
     releaseDate: 2020-12-02
-    support: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
+    eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
-    extendedSupport: true
+    eoes: false
     latest: "10.0.20"
     latestReleaseDate: 2024-01-29
 
@@ -60,9 +60,9 @@ releases:
     servletVersion: 3.1
     jspVersion: 2.3
     releaseDate: 2016-12-07
-    support: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
+    eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/7958
-    extendedSupport: true
+    eoes: false
     latest: "9.4.53.v20231009"
     latestReleaseDate: 2023-10-10
 
@@ -71,9 +71,8 @@ releases:
     servletVersion: 3.1
     jspVersion: 2.3
     releaseDate: 2015-06-01
-    support: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
+    eoas: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     eol: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
-    extendedSupport: false
     latest: "9.3.30.v20211001"
     latestReleaseDate: 2021-10-01
 
@@ -82,9 +81,8 @@ releases:
     servletVersion: 3.1
     jspVersion: 2.3
     releaseDate: 2014-05-23
-    support: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
+    eoas: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     eol: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
-    extendedSupport: false
     latest: "9.2.30.v20200428"
     latestReleaseDate: 2020-04-28
 
@@ -93,9 +91,8 @@ releases:
     servletVersion: 3.1
     jspVersion: 2.3
     releaseDate: 2013-11-15
-    support: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    extendedSupport: false
     latest: "9.1.6.v20160112"
     latestReleaseDate: 2016-01-12
 
@@ -104,9 +101,8 @@ releases:
     servletVersion: 3.1-beta
     jspVersion: 2.3
     releaseDate: 2013-03-08
-    support: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    extendedSupport: false
     latest: "9.0.7.v20131107"
     latestReleaseDate: 2013-11-07
 
@@ -115,9 +111,8 @@ releases:
     servletVersion: 3.0
     jspVersion: 2.2
     releaseDate: 2011-09-01
-    support: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    extendedSupport: false
     latest: "8.2.0.v20160908"
     latestReleaseDate: 2016-09-08
 
@@ -126,9 +121,8 @@ releases:
     servletVersion: 2.5
     jspVersion: 2.1
     releaseDate: 2009-10-05
-    support: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
+    eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
-    extendedSupport: false
     latest: "7.6.21.v20160908"
     latestReleaseDate: 2016-09-08
 

@@ -10,7 +10,7 @@ releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spri
 changelogTemplate: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: OSS support
-extendedSupportColumn: Commercial Support
+eoesColumn: Commercial Support
 
 auto:
   methods:
@@ -25,7 +25,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
         eol: "End of Support"
-        extendedSupport: "End Commercial Support *"
+        eoes: "End Commercial Support *"
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
@@ -34,7 +34,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-16
     eol: 2025-08-31
-    extendedSupport: 2026-12-31
+    eoes: 2026-12-31
     latest: "6.1.5"
     latestReleaseDate: 2024-03-14
 
@@ -43,7 +43,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2022-11-16
     eol: 2024-08-31
-    extendedSupport: 2025-12-31
+    eoes: 2025-12-31
     latest: "6.0.18"
     latestReleaseDate: 2024-03-14
 
@@ -52,7 +52,7 @@ releases:
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-27
     eol: 2024-08-31
-    extendedSupport: 2026-12-31
+    eoes: 2026-12-31
     lts: true
     latest: "5.3.33"
     latestReleaseDate: 2024-03-14
@@ -62,7 +62,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2019-09-30
     eol: 2021-12-31
-    extendedSupport: 2023-12-31
+    eoes: 2023-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
@@ -72,7 +72,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2018-09-21
     eol: 2020-12-31
-    extendedSupport: 2022-12-31
+    eoes: 2022-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.1.20"
     latestReleaseDate: 2020-12-09
@@ -82,7 +82,6 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2017-09-28
     eol: 2020-12-31
-    extendedSupport: false
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
@@ -92,7 +91,6 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2016-06-10
     eol: 2020-12-31
-    extendedSupport: false
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
@@ -102,7 +100,6 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2012-12-13
     eol: 2016-12-31
-    extendedSupport: false
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "3.2.18"
     latestReleaseDate: 2016-12-21

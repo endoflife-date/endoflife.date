@@ -6,7 +6,7 @@ permalink: /grafana
 versionCommand: grafana-server -v
 changelogTemplate: https://github.com/grafana/grafana/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 
 identifiers:
 -   purl: pkg:github/grafana/grafana
@@ -19,103 +19,103 @@ auto:
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
 # minors but only keep the previous major.
-# - support(x) = releaseDate(x+1)
+# - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
-    support: true
+    eoas: false
     eol: false
     latest: "10.4.1"
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22
-    support: 2024-03-06
+    eoas: 2024-03-06
     eol: false
     latest: "10.3.5"
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24
-    support: 2024-01-23
+    eoas: 2024-01-23
     eol: 2024-03-06
     latest: "10.2.6"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "10.1"
     releaseDate: 2023-08-23
-    support: 2023-10-24
+    eoas: 2023-10-24
     eol: 2024-01-23
     latest: "10.1.9"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
-    support: 2023-08-23
+    eoas: 2023-08-23
     eol: 2023-10-24
     latest: "10.0.13"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "9.5"
     releaseDate: 2023-04-06
-    support: 2023-06-09
+    eoas: 2023-06-09
     eol: false # eol(x) = releaseDate(11.x)
     latest: "9.5.18"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27
-    support: 2023-04-06
+    eoas: 2023-04-06
     eol: 2023-06-09
     latest: "9.4.17"
     latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "9.3"
     releaseDate: 2022-11-29
-    support: 2023-02-27
+    eoas: 2023-02-27
     eol: 2023-04-06
     latest: "9.3.16"
     latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "9.2"
     releaseDate: 2022-10-11
-    support: 2022-11-29
+    eoas: 2022-11-29
     eol: 2023-02-27
     latest: "9.2.20"
     latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "9.1"
     releaseDate: 2022-08-16
-    support: 2022-10-11
+    eoas: 2022-10-11
     eol: 2022-11-29
     latest: "9.1.8"
     latestReleaseDate: 2022-10-11
 
 -   releaseCycle: "9.0"
     releaseDate: 2022-06-13
-    support: 2022-08-16
+    eoas: 2022-08-16
     eol: 2022-10-11
     latest: "9.0.9"
     latestReleaseDate: 2022-09-20
 
 -   releaseCycle: "8"
     releaseDate: 2021-06-08
-    support: 2022-06-13
+    eoas: 2022-06-13
     eol: false
     latest: "8.5.27"
     latestReleaseDate: 2023-06-07
 
 -   releaseCycle: "7"
     releaseDate: 2020-05-15
-    support: 2021-06-08
+    eoas: 2021-06-08
     eol: 2022-06-14
     latest: "7.5.17"
     latestReleaseDate: 2022-09-26
 
 -   releaseCycle: "6"
     releaseDate: 2019-02-25
-    support: 2020-05-15
+    eoas: 2020-05-15
     eol: 2021-06-08
     latest: "6.7.6"
     latestReleaseDate: 2021-03-18
