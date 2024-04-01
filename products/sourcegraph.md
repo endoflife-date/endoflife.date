@@ -34,6 +34,9 @@ releases:
 > [Sourcegraph](https://sourcegraph.com/) is a code search and intelligence tool for developers that helps
 > them find, understand, and fix code across all of their projects and dependencies.
 
-Only the latest version of each major release is supported.
+Sourcegraph is available in self-hosted and cloud editions. This page only tracks releases for
+the self-hosted offering.
+
+Looking at recent releases, it seems that only the latest version of each major release is supported.
 
 Sourcegraph provides [enterprise support](https://about.sourcegraph.com/contact/sales) with additional features for organizations.
