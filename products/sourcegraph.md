@@ -3,8 +3,6 @@ title: Sourcegraph
 category: server-app
 tags: java-runtime
 permalink: /sourcegraph
-alternate_urls:
-- /sourcegraph-code-search
 releaseDateColumn: true
 eolColumn: Support
 
