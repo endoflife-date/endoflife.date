@@ -26,7 +26,7 @@ releases:
 
 - releaseCycle: "4"
   releaseDate: 2022-09-22
-  eol: true
+  eol: 2023-05-22
   latest: "4.5.1"
   latestReleaseDate: 2023-02-24
   link: https://github.com/sourcegraph/sourcegraph/releases
