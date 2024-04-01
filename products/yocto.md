@@ -74,7 +74,7 @@ releases:
     codename: 'Dunfell'
     lts: true
     releaseDate: 2020-04-21
-    eol: 2024-04-01
+    eol: 2024-04-30
     latest: "3.1.32"
     latestReleaseDate: 2024-03-07
 
