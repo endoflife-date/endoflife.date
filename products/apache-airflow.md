@@ -21,6 +21,7 @@ auto:
   methods:
   -   pypi: apache-airflow
   -   release_table: https://github.com/apache/airflow#version-life-cycle
+      render_javascript: true
       selector: "table"
       fields:
         releaseCycle: "Version"
