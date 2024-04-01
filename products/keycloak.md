@@ -2,7 +2,7 @@
 title: Keycloak
 category: server-app
 tags: java-runtime red-hat
-# https://github.com/simple-icons/simple-icons/issues/8125
+iconSlug: keycloak
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
