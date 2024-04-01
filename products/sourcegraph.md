@@ -3,6 +3,7 @@ title: Sourcegraph
 category: server-app
 tags: java-runtime
 permalink: /sourcegraph
+releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/
 releaseDateColumn: true
 eolColumn: Support
 
