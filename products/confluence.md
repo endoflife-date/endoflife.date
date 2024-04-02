@@ -43,8 +43,8 @@ releases:
     lts: true
     releaseDate: 2023-08-21
     eol: 2025-08-22
-    latest: "8.5.7"
-    latestReleaseDate: 2024-03-05
+    latest: "8.5.8"
+    latestReleaseDate: 2024-04-01
     link: https://confluence.atlassian.com/doc/confluence-8-5-release-notes-1252010185.html
 
 -   releaseCycle: "8.4"
@@ -93,8 +93,8 @@ releases:
     lts: true
     releaseDate: 2022-07-27
     eol: 2024-07-28
-    latest: "7.19.20"
-    latestReleaseDate: 2024-03-05
+    latest: "7.19.21"
+    latestReleaseDate: 2024-04-01
     link: https://confluence.atlassian.com/doc/confluence-7-19-release-notes-1141976784.html
 
 -   releaseCycle: "7.18"
