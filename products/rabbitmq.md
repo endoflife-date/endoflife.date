@@ -89,78 +89,57 @@ releases:
     releaseDate: 2015-12-22
     eol: 2018-05-31
     eoes: 2018-05-31
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.6.16"
     latestReleaseDate: 2018-06-13
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.5"
     releaseDate: 2015-03-11
     eol: 2016-10-31
     eoes: 2016-10-31
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.5.8"
     latestReleaseDate: 2016-11-03
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.4"
     releaseDate: 2014-10-21
     eol: 2015-10-31
     eoes: 2015-10-31
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.4.4"
     latestReleaseDate: 2015-02-11
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.3"
     releaseDate: 2014-04-02
     eol: 2015-03-31
     eoes: 2015-03-31
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.3.5"
     latestReleaseDate: 2014-08-11
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.2"
     releaseDate: 2013-10-23
     eol: 2014-10-31
     eoes: 2014-10-31
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.2.4"
     latestReleaseDate: 2014-03-04
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.1"
     releaseDate: 2013-05-01
     eol: 2014-04-30
     eoes: 2014-04-30
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.1.5"
     latestReleaseDate: 2013-08-15
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-11-19
     eol: 2013-11-30
     eoes: 2013-11-30
+    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
     latest: "3.0.4"
     latestReleaseDate: 2013-03-06
-    link: "https://github.com/rabbitmq/rabbitmq-server/releases/tag/rabbitmq_v{{'__LATEST__'|replace:'.','_'}}"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
