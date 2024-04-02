@@ -5,7 +5,7 @@ tags: php-runtime
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
 changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 auto:
@@ -18,14 +18,14 @@ auto:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Initial release date"
-        support: "General support ends"
+        eoas: "General support ends"
         eol: "Security support ends"
 
 # supportedPhpVersions can be found in the release notes.
 releases:
 -   releaseCycle: "4.3"
     releaseDate: 2023-10-07
-    support: 2024-10-07
+    eoas: 2024-10-07
     eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
     latest: "4.3.3"
@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-04-22
-    support: 2024-04-22
+    eoas: 2024-04-22
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
     latest: "4.2.6"
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "4.1"
     lts: true
     releaseDate: 2022-11-26
-    support: 2023-12-11
+    eoas: 2023-12-11
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
     latest: "4.1.9"
@@ -50,7 +50,7 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-04-17
-    support: 2023-05-08
+    eoas: 2023-05-08
     eol: 2023-11-13
     supportedPhpVersions: 7.3 - 8.0
     latest: "4.0.12"
@@ -58,7 +58,7 @@ releases:
 
 -   releaseCycle: "3.11"
     releaseDate: 2021-05-15
-    support: 2022-11-14
+    eoas: 2022-11-14
     eol: 2023-11-13
     supportedPhpVersions: 7.3 - 8.0
     latest: "3.11.18"
@@ -66,7 +66,7 @@ releases:
 
 -   releaseCycle: "3.10"
     releaseDate: 2020-11-07
-    support: 2021-11-08
+    eoas: 2021-11-08
     eol: 2022-05-09
     supportedPhpVersions: 7.2 - 7.4
     latest: "3.10.11"
@@ -75,7 +75,7 @@ releases:
 -   releaseCycle: "3.9"
     lts: true
     releaseDate: 2020-06-13
-    support: 2021-05-10
+    eoas: 2021-05-10
     eol: 2023-11-13
     supportedPhpVersions: 7.2 - 7.4
     latest: "3.9.25"
@@ -83,7 +83,7 @@ releases:
 
 -   releaseCycle: "3.8"
     releaseDate: 2019-11-16
-    support: 2020-11-09
+    eoas: 2020-11-09
     eol: 2021-05-10
     supportedPhpVersions: 7.1 - 7.4
     latest: "3.8.9"

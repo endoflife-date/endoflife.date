@@ -6,7 +6,7 @@ permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
-activeSupportColumn: Phase 1 support
+eoasColumn: Phase 1 support
 eolColumn: Phase 2 support
 
 auto:
@@ -22,34 +22,34 @@ auto:
           regex: '^Centreon\s+(?P<value>\d+\.\d+).*$'
         eol: "End of support"
 
-# support(x) = releaseDate(x) + 1 year (rounded to the end of the month).
+# eoas(x) = releaseDate(x) + 1 year (rounded to the end of the month).
 # eol(x) = releaseDate(x) + 2 years (rounded to the end of the month).
 # See also https://docs.centreon.com/docs/releases/lifecycle/.
 releases:
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
-    support: 2024-10-31
+    eoas: 2024-10-31
     eol: 2025-10-31
     latest: '23.10.10'
     latestReleaseDate: 2024-03-14
 
 -   releaseCycle: '23.04'
     releaseDate: 2023-04-26
-    support: 2024-04-30
+    eoas: 2024-04-30
     eol: 2025-04-30
     latest: '23.04.16'
     latestReleaseDate: 2024-03-14
 
 -   releaseCycle: '22.10'
     releaseDate: 2022-10-26
-    support: 2023-10-31
+    eoas: 2023-10-31
     eol: 2024-10-31
     latest: '22.10.20'
     latestReleaseDate: 2024-03-14
 
 -   releaseCycle: '22.04'
     releaseDate: 2022-05-18
-    support: 2023-05-31
+    eoas: 2023-05-31
     eol: 2024-05-31
     latest: '22.04.22'
     latestReleaseDate: 2024-03-14
@@ -57,16 +57,16 @@ releases:
 
 -   releaseCycle: '21.10'
     releaseDate: 2021-11-02
-    support: 2022-11-30
+    eoas: 2022-11-30
     eol: 2023-11-30
     latest: '21.10.17'
     latestReleaseDate: 2023-11-17
     link: https://archives-docs.centreon.com/21.10/docs/releases/centreon-core/#211017
 
-# 21.04 and lower were supported for 18 months (support(x) = eol(x) - 1 year).
+# 21.04 and lower were supported for 18 months (eoas(x) = eol(x) - 1 year).
 -   releaseCycle: '21.04'
     releaseDate: 2021-04-21
-    support: 2021-10-31
+    eoas: 2021-10-31
     eol: 2022-10-31
     latest: '21.04.20'
     latestReleaseDate: 2022-10-12
@@ -74,7 +74,7 @@ releases:
 
 -   releaseCycle: '20.10'
     releaseDate: 2020-10-19
-    support: 2021-05-31
+    eoas: 2021-05-31
     eol: 2022-05-31
     latest: '20.10.18'
     latestReleaseDate: 2022-06-09
@@ -82,7 +82,7 @@ releases:
 
 -   releaseCycle: '20.04'
     releaseDate: 2020-04-20
-    support: 2020-10-31
+    eoas: 2020-10-31
     eol: 2021-10-31
     latest: '20.04.20'
     latestReleaseDate: 2021-11-19
@@ -90,7 +90,7 @@ releases:
 
 -   releaseCycle: '19.10'
     releaseDate: 2019-10-15
-    support: 2020-04-30
+    eoas: 2020-04-30
     eol: 2021-04-30
     latest: '19.10.23'
     latestReleaseDate: 2021-05-04
@@ -98,7 +98,7 @@ releases:
 
 -   releaseCycle: '19.04'
     releaseDate: 2019-04-24
-    support: 2019-10-31
+    eoas: 2019-10-31
     eol: 2020-10-31
     latest: '19.04.20'
     latestReleaseDate: 2020-11-19
@@ -106,7 +106,7 @@ releases:
 
 -   releaseCycle: '18.10'
     releaseDate: 2018-10-24
-    support: 2019-04-30
+    eoas: 2019-04-30
     eol: 2020-04-30
     latest: '18.10.12'
     latestReleaseDate: 2020-02-24

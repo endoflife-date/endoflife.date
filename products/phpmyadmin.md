@@ -6,7 +6,7 @@ iconSlug: phpmyadmin
 permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 auto:
@@ -28,21 +28,21 @@ identifiers:
 releases:
 -   releaseCycle: "5.2"
     releaseDate: 2022-05-11
-    support: true
+    eoas: false
     eol: false
     latest: "5.2.1"
     latestReleaseDate: 2023-02-07
 
 -   releaseCycle: "5.1"
     releaseDate: 2021-02-24
-    support: 2022-05-11
+    eoas: 2022-05-11
     eol: 2022-05-11
     latest: "5.1.4"
     latestReleaseDate: 2022-05-11
 
 -   releaseCycle: "5.0"
     releaseDate: 2019-12-26
-    support: 2021-02-24
+    eoas: 2021-02-24
     eol: 2021-02-24
     latest: "5.0.4"
     latestReleaseDate: 2020-10-15
@@ -50,35 +50,35 @@ releases:
 -   releaseCycle: "4.9"
     lts: true
     releaseDate: 2019-06-04
-    support: 2019-12-31
+    eoas: 2019-12-31
     eol: false
     latest: "4.9.11"
     latestReleaseDate: 2023-02-07
 
 -   releaseCycle: "4.8"
     releaseDate: 2018-04-07
-    support: 2019-06-04
+    eoas: 2019-06-04
     eol: 2019-06-04
     latest: "4.8.5"
     latestReleaseDate: 2019-01-25
 
 -   releaseCycle: "4.7"
     releaseDate: 2017-03-29
-    support: 2018-04-07
+    eoas: 2018-04-07
     eol: 2018-04-07
     latest: "4.7.9"
     latestReleaseDate: 2018-03-05
 
 -   releaseCycle: "4.6"
     releaseDate: 2016-03-17
-    support: 2017-04-01
+    eoas: 2017-04-01
     eol: 2017-04-01
     latest: "4.6.6"
     latestReleaseDate: 2017-01-23
 
 -   releaseCycle: "4.5"
     releaseDate: 2015-09-23
-    support: 2016-04-01
+    eoas: 2016-04-01
     eol: 2016-04-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.5.5.1"
@@ -86,7 +86,7 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 2015-04-01
-    support: 2016-10-01
+    eoas: 2016-10-01
     eol: 2016-10-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.4.15.10"
@@ -94,7 +94,7 @@ releases:
 
 -   releaseCycle: "4.3"
     releaseDate: 2014-12-05
-    support: 2015-10-01
+    eoas: 2015-10-01
     eol: 2015-10-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.3.13.3"
@@ -102,7 +102,7 @@ releases:
 
 -   releaseCycle: "4.2"
     releaseDate: 2014-05-08
-    support: 2015-07-01
+    eoas: 2015-07-01
     eol: 2015-07-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.2.13.3"
@@ -110,7 +110,7 @@ releases:
 
 -   releaseCycle: "4.1"
     releaseDate: 2013-12-11
-    support: 2015-01-01
+    eoas: 2015-01-01
     eol: 2015-01-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.1.14.8"
@@ -119,7 +119,7 @@ releases:
 -   releaseCycle: "4.0"
     lts: true
     releaseDate: 2013-05-03
-    support: 2013-12-31
+    eoas: 2013-12-31
     eol: 2017-04-01
     link: https://www.phpmyadmin.net/files/__LATEST__/
     latest: "4.0.10.20"

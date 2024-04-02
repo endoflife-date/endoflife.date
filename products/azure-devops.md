@@ -8,14 +8,14 @@ alternate_urls:
 -   /azure-devops
 -   /team-foundation-server
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Azure%20DevOps%20Server
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 releases:
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
-    support: 2028-01-11
+    eoas: 2028-01-11
     eol: 2033-01-11
     latest: "2022.1patch3"
     latestReleaseDate: 2024-03-12
@@ -24,7 +24,7 @@ releases:
 -   releaseCycle: "2022.0"
     releaseLabel: "2022"
     releaseDate: 2022-12-06
-    support: 2028-01-11
+    eoas: 2028-01-11
     eol: 2033-01-11
     latest: "2022.0.1patch5"
     latestReleaseDate: 2023-11-14
@@ -33,7 +33,7 @@ releases:
 -   releaseCycle: "2020.1"
     releaseLabel: "2020 Update 1"
     releaseDate: 2021-05-25
-    support: 2025-10-14
+    eoas: 2025-10-14
     eol: 2030-10-08
     latest: "2020.1.2patch13"
     latestReleaseDate: 2024-03-12
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
     releaseDate: 2020-08-25
-    support: 2025-10-14
+    eoas: 2025-10-14
     eol: 2030-10-08
     latest: "2020.0.2patch6"
     latestReleaseDate: 2023-11-14
@@ -51,7 +51,7 @@ releases:
 -   releaseCycle: "2019.1"
     releaseLabel: "2019 Update 1"
     releaseDate: 2019-08-20
-    support: 2024-04-09
+    eoas: 2024-04-09
     eol: 2029-04-10
     latest: "2019.1.2patch8"
     latestReleaseDate: 2024-03-12
@@ -60,7 +60,7 @@ releases:
 -   releaseCycle: "2019.0"
     releaseLabel: "2019"
     releaseDate: 2019-03-05
-    support: 2024-04-09
+    eoas: 2024-04-09
     eol: 2029-04-10
     latest: "2019.0.1patch16"
     latestReleaseDate: 2023-11-14
@@ -69,7 +69,7 @@ releases:
 -   releaseCycle: "2018"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2017-11-15
-    support: 2023-01-10
+    eoas: 2023-01-10
     eol: 2028-01-11
     latest: "2018.3.2patch19"
     latestReleaseDate: 2023-11-14
@@ -78,7 +78,7 @@ releases:
 -   releaseCycle: "2017"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2016-11-16
-    support: 2022-01-11
+    eoas: 2022-01-11
     eol: 2027-01-11
     latest: "2017.3.1patch15"
     latestReleaseDate: 2022-05-17
@@ -87,7 +87,7 @@ releases:
 -   releaseCycle: "2015"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2015-07-30
-    support: 2020-10-13
+    eoas: 2020-10-13
     eol: 2025-10-14
     latest: "2015.4.2patch8"
     latestReleaseDate: 2022-05-17
@@ -96,7 +96,7 @@ releases:
 -   releaseCycle: "2013"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2014-01-15
-    support: 2019-04-09
+    eoas: 2019-04-09
     eol: 2024-04-09
     latest: "2013.5"
     latestReleaseDate: 2015-07-20
@@ -105,7 +105,7 @@ releases:
 -   releaseCycle: "2012"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2012-10-31
-    support: 2019-01-09
+    eoas: 2019-01-09
     eol: 2023-01-10
     latest: "2012.4"
     latestReleaseDate: 2013-11-13
@@ -114,7 +114,7 @@ releases:
 -   releaseCycle: "2010"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2010-06-29
-    support: 2015-07-14
+    eoas: 2015-07-14
     eol: 2020-07-14
     latest: "2010.SP1"
     latestReleaseDate: 2011-03-08
@@ -123,7 +123,7 @@ releases:
 -   releaseCycle: "2005"
     releaseLabel: "TFS __RELEASE_CYCLE__"
     releaseDate: 2006-06-17
-    support: 2011-07-12
+    eoas: 2011-07-12
     eol: 2016-07-12
     latest: "2005.SP2"
     latestReleaseDate: 2007-03-21

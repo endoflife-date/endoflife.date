@@ -10,7 +10,7 @@ versionCommand: airflow version
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
 changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{'__LATEST__'|replace:'.','-'}}-__LATEST_RELEASE_DATE__"
 releaseDateColumn: true
-activeSupportColumn: Active Support
+eoasColumn: Active Support
 eolColumn: Limited Support
 
 identifiers:
@@ -25,41 +25,41 @@ auto:
       selector: "table"
       fields:
         releaseCycle: "Version"
-        support: "Limited Support"
+        eoas: "Limited Support"
         eol: "EOL/Terminated"
 
 releases:
 -   releaseCycle: "2"
     releaseDate: 2020-12-17
-    support: true
+    eoas: false
     eol: false
     latest: "2.8.4"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27
-    support: 2020-12-17
+    eoas: 2020-12-17
     eol: 2021-06-17
     latest: "1.10.15"
     latestReleaseDate: 2021-03-17
 
 -   releaseCycle: "1.9"
     releaseDate: 2018-01-02
-    support: 2018-08-27
+    eoas: 2018-08-27
     eol: 2018-08-27
     latest: "1.9.0"
     latestReleaseDate: 2018-01-02
 
 -   releaseCycle: "1.8"
     releaseDate: 2017-05-09
-    support: 2018-01-03
+    eoas: 2018-01-03
     eol: 2018-01-03
     latest: "1.8.2"
     latestReleaseDate: 2017-09-04
 
 -   releaseCycle: "1.7"
     releaseDate: 2016-03-28
-    support: 2017-03-19
+    eoas: 2017-03-19
     eol: 2017-03-19
     latest: "1.7.1.2"
     latestReleaseDate: 2017-05-20

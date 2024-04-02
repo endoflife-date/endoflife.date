@@ -15,8 +15,8 @@ releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extr
 releasePolicyLink: https://access.redhat.com/support/policy/updates/satellite
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_satellite/__RELEASE_CYCLE__/html/release_notes/index"
 releaseDateColumn: General availability
-activeSupportColumn: Full support
-activeSupportWarnThreshold: 30
+eoasColumn: Full support
+eoasWarnThreshold: 30
 eolColumn: Maintenance support
 
 auto:
@@ -26,42 +26,42 @@ auto:
 releases:
 -   releaseCycle: "6.14"
     releaseDate: 2023-02-13
-    support: 2024-05-31
+    eoas: 2024-05-31
     eol: 2025-05-31
     latest: "6.14.3"
     latestReleaseDate: 2024-03-27
 
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
-    support: 2023-11-30
+    eoas: 2023-11-30
     eol: 2024-11-30
     latest: "6.13.7"
     latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "6.12"
     releaseDate: 2022-11-16
-    support: 2023-05-31
+    eoas: 2023-05-31
     eol: 2024-05-31
     latest: "6.12.5.2"
     latestReleaseDate: 2023-10-20
 
 -   releaseCycle: "6.11"
     releaseDate: 2022-07-05
-    support: 2022-11-30
+    eoas: 2022-11-30
     eol: 2024-01-31
     latest: "6.11.5.6"
     latestReleaseDate: 2023-10-20
 
 -   releaseCycle: "6.10"
     releaseDate: 2021-11-16
-    support: 2022-06-30
+    eoas: 2022-06-30
     eol: 2023-05-31
     latest: "6.10.7.2"
     latestReleaseDate: 2023-03-01
 
 -   releaseCycle: "6.9"
     releaseDate: 2021-04-21
-    support: 2021-11-30
+    eoas: 2021-11-30
     eol: 2022-11-30
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17

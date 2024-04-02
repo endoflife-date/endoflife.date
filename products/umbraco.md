@@ -9,7 +9,7 @@ alternative_urls:
 releasePolicyLink: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
 changelogTemplate: "https://our.umbraco.com/download/releases/{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
-activeSupportColumn: Support
+eoasColumn: Support
 eolColumn: Security
 
 auto:
@@ -24,7 +24,7 @@ auto:
           column: "Version"
           regex: '^Umbraco (?P<value>\d+)$'
         releaseDate: "Release date"
-        support: "Security phase"
+        eoas: "Security phase"
         eol: "End-of-Life"
 
 # Only tracking major releases here, even if regressions are fixed on the last three minors.
@@ -36,21 +36,21 @@ releases:
 -   releaseCycle: "13"
     lts: true
     releaseDate: 2023-12-12
-    support: 2025-12-14
+    eoas: 2025-12-14
     eol: 2026-12-14
     latest: '13.2.2'
     latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "12"
     releaseDate: 2023-06-27
-    support: 2024-03-29
+    eoas: 2024-03-29
     eol: 2024-06-29
     latest: '12.3.9'
     latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
-    support: 2023-09-01
+    eoas: 2023-09-01
     eol: 2023-12-01
     latest: '11.5.0'
     latestReleaseDate: 2023-09-05
@@ -58,14 +58,14 @@ releases:
 -   releaseCycle: "10"
     lts: true
     releaseDate: 2022-06-10
-    support: 2024-06-16
+    eoas: 2024-06-16
     eol: 2025-06-16
     latest: '10.8.5'
     latestReleaseDate: 2024-03-18
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-26
-    support: 2022-09-16
+    eoas: 2022-09-16
     eol: 2022-12-16
     latest: '9.5.4'
     latestReleaseDate: 2022-09-05
@@ -74,7 +74,7 @@ releases:
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-02-21
-    support: 2024-02-24
+    eoas: 2024-02-24
     eol: 2025-02-24
     latest: '8.18.13'
     latestReleaseDate: 2024-02-06
@@ -83,7 +83,7 @@ releases:
 -   releaseCycle: "7"
     lts: true
     releaseDate: 2013-11-21
-    support: 2021-07-31
+    eoas: 2021-07-31
     eol: 2023-09-30
     latest: '7.15.11'
     latestReleaseDate: 2023-09-05
@@ -91,7 +91,7 @@ releases:
 -   releaseCycle: "6"
     # https://umbraco.com/blog/umbraco-600-released/
     releaseDate: 2013-03-27
-    support: 2018-05-01
+    eoas: 2018-05-01
     eol: 2018-05-01
     latest: '6.2.6'
     latestReleaseDate: 2016-03-03

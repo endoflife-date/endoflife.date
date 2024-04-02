@@ -9,7 +9,7 @@ alternate_urls:
 versionCommand: kubectl version
 releasePolicyLink: https://cloud.google.com/kubernetes-engine/docs/release-schedule
 changelogTemplate: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 eolColumn: Maintenance Support
 
@@ -18,25 +18,25 @@ auto:
   -   custom: gke
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
-# support: last-date-in-month(eol - 2months)
+# eoas:last-date-in-month(eol - 2months)
 releases:
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-26
-    support: 2025-01-31
+    eoas: 2025-01-31
     eol: 2025-03-21
     latest: '1.29.2-gke.1521000'
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
-    support: 2024-09-30
+    eoas: 2024-09-30
     eol: 2024-11-12
     latest: '1.28.7-gke.1226000'
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
-    support: 2024-06-30
+    eoas: 2024-06-30
     eol: 2024-08-31
     latest: '1.27.11-gke.1202000'
     latestReleaseDate: 2024-03-20
@@ -44,69 +44,69 @@ releases:
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31
     eol: 2024-05-31
-    support: 2024-03-31
+    eoas: 2024-03-31
     latest: '1.26.14-gke.1133000'
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
     eol: 2024-02-29
-    support: 2023-12-31
+    eoas: 2023-12-31
     latest: '1.25.16-gke.1648000'
     latestReleaseDate: 2024-03-20
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-06-23
     eol: 2023-10-31
-    support: 2023-08-31
+    eoas: 2023-08-31
     latest: '1.24.17-gke.2472000'
     latestReleaseDate: 2024-01-11
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-05-03
     eol: 2023-07-31
-    support: 2023-05-31
+    eoas: 2023-05-31
     latest: '1.23.17-gke.10700'
     latestReleaseDate: 2023-08-08
 
 -   releaseCycle: "1.22"
     releaseDate: 2022-03-07
-    support: 2023-02-28
+    eoas: 2023-02-28
     eol: 2023-04-30
     latest: '1.22.17-gke.14100'
     latestReleaseDate: 2023-07-07
 
 -   releaseCycle: "1.21"
     releaseDate: 2021-10-01
-    support: 2022-11-01
+    eoas: 2022-11-01
     eol: 2023-01-31
     latest: '1.21.14-gke.18800'
     latestReleaseDate: 2023-03-22
 
 -   releaseCycle: "1.20"
     releaseDate: 2021-06-09
-    support: 2021-12-01
+    eoas: 2021-12-01
     eol: 2022-08-01
     latest: '1.20.15-gke.13700'
     latestReleaseDate: 2022-08-18
 
 -   releaseCycle: "1.19"
     releaseDate: 2021-04-14
-    support: 2021-10-01
+    eoas: 2021-10-01
     eol: 2022-06-01
     latest: '1.19.16-gke.15700'
     latestReleaseDate: 2022-06-23
 
 -   releaseCycle: "1.18"
     releaseDate: 2021-03-29
-    support: 2021-08-01
+    eoas: 2021-08-01
     eol: 2022-03-01
     latest: '1.18.20-gke.6000'
     latestReleaseDate: 2021-09-17
 
 -   releaseCycle: "1.17"
     releaseDate: 2021-03-29
-    support: 2021-07-01
+    eoas: 2021-07-01
     eol: 2021-11-01
     latest: '1.17.17-gke.9100'
     latestReleaseDate: 2021-06-09

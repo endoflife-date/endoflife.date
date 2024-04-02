@@ -7,22 +7,22 @@
 # - Computed fields, injected by ProductDataEnricher, use the snake case notation (example: end_of_life).
 #
 # Here is a list of computed fields :
-# - is_maintained (in cycles) : whether the product cycle is still supported (mandatory)
-# - can_be_hidden (in cycles) : whether the product cycle can be hidden when displaying the product page (mandatory)
-# - is_lts (in cycles) : whether the product cycle is currently in its LTS phase (mandatory)
-# - lts_from (in cycles) : the LTS phase start date for the product cycle (optional, only if lts is a Date)
-# - is_active_support_over (in cycles) : whether the product cycle has reach the end of active support (optional, only if support is set)
-# - active_support_until (in cycles) : end of the product cycle support phase date (optional, only if support is set to a Date)
-# - is_eol (in cycles) : whether the product cycle is currently eol (optional, only if eol is set)
-# - eol_from (in cycles) : EOL date of the product cycle (optional, only if eol is set to a Date)
-# - is_discontinued (in cycles) : whether the product cycle is currently discontinued (optional, only if discontinued is set)
-# - discontinued_from (in cycles) : discontinuation date of the product cycle (optional, only if discontinued is set to a Date)
-# - is_extended_support_over (in cycles) : whether the product cycle has reach the end of extended support (optional, only if extendedSupport is set)
-# - extended_support_until (in cycles) : end of the product cycle extended support phase date (optional, only if extendedSupport is set to a Date)
-# - days_toward_support (in cycles) : number of days toward the end of support for the cycle (optional, only if support is set)
+# - is_maintained (in cycles) : whether the release cycle is still supported (mandatory)
+# - can_be_hidden (in cycles) : whether the release cycle can be hidden when displaying the product page (mandatory)
+# - is_lts (in cycles) : whether the release cycle is currently in its LTS phase (mandatory)
+# - lts_from (in cycles) : the LTS phase start date for the release cycle (optional, only if lts is a Date)
+# - is_eoas (in cycles) : whether the release cycle has reach the end of active support (optional, only if eoas is set)
+# - eoas_from (in cycles) : end of the release cycle active support phase date (optional, only if eoas is set to a Date)
+# - is_eol (in cycles) : whether the release cycle is currently eol (optional, only if eol is set)
+# - eol_from (in cycles) : EOL date of the release cycle (optional, only if eol is set to a Date)
+# - is_discontinued (in cycles) : whether the release cycle is currently discontinued (optional, only if discontinued is set)
+# - discontinued_from (in cycles) : discontinuation date of the release cycle (optional, only if discontinued is set to a Date)
+# - is_eoes (in cycles) : whether the release cycle has reach the end of extended support (optional, only if eoes is set)
+# - eoes_from (in cycles) : end of the release cycle extended support phase date (optional, only if eoes is set to a Date)
+# - days_toward_eoas (in cycles) : number of days toward the end of active support for the cycle (optional, only if eoas is set)
 # - days_toward_eol (in cycles) : number of days toward the EOL of the cycle (optional, only if eol is set)
 # - days_toward_discontinued (in cycles) : number of days toward the discontinuation of the cycle (optional, only if discontinued is set)
-# - days_toward_extendedSupport (in cycles) : number of days toward the end of extended support for the cycle (optional, only if extendedSupport is set)
+# - days_toward_eoes (in cycles) : number of days toward the end of extended support for the cycle (optional, only if eoes is set)
 module Jekyll
   class ProductDataEnricher
     class << self
@@ -86,7 +86,7 @@ module Jekyll
 
       # Set properly the column presence/label if it was overridden.
       def set_overridden_columns_label(page)
-        date_column_names = %w[releaseDateColumn releaseColumn discontinuedColumn activeSupportColumn eolColumn extendedSupportColumn]
+        date_column_names = %w[releaseDateColumn releaseColumn discontinuedColumn eoasColumn eolColumn eoesColumn]
         date_column_names.each { |date_column|
           if page.data[date_column].is_a? String
             page.data[date_column + 'Label'] = page.data[date_column]
@@ -164,8 +164,8 @@ module Jekyll
       def enrich_release(page, cycle)
         set_cycle_id(cycle)
         set_cycle_lts_fields(cycle)
-        set_cycle_active_support_fields(cycle)
-        set_cycle_extended_support_fields(cycle)
+        set_cycle_eoas_fields(cycle)
+        set_cycle_eoes_fields(cycle)
         set_cycle_eol_fields(cycle)
         set_cycle_discontinued_fields(cycle)
         set_cycle_link(page, cycle)
@@ -190,16 +190,16 @@ module Jekyll
         explode_date_or_boolean_field(cycle, 'lts', 'is_lts', 'lts_from')
       end
 
-      # Explode support to is_active_support_over (boolean) and active_support_until (Date).
+      # Explode eoas to is_eoas (boolean) and eoas_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
-      def set_cycle_active_support_fields(cycle)
-        explode_date_or_boolean_field(cycle, 'support', 'is_active_support_over', 'active_support_until', true)
+      def set_cycle_eoas_fields(cycle)
+        explode_date_or_boolean_field(cycle, 'eoas', 'is_eoas', 'eoas_from')
       end
 
-      # Explode extendedSupport to is_extended_support_over (boolean) and extended_support_until (Date).
+      # Explode eoes to is_eoes (boolean) and eoes_from (Date).
       # See explode_date_or_boolean_field(...) for more information.
-      def set_cycle_extended_support_fields(cycle)
-        explode_date_or_boolean_field(cycle, 'extendedSupport', 'is_extended_support_over', 'extended_support_until', true)
+      def set_cycle_eoes_fields(cycle)
+        explode_date_or_boolean_field(cycle, 'eoes', 'is_eoes', 'eoes_from')
       end
 
       # Explode eol to is_eol (boolean) and eol_from (Date).
@@ -214,14 +214,14 @@ module Jekyll
         explode_date_or_boolean_field(cycle, 'discontinued', 'is_discontinued', 'discontinued_from')
       end
 
-      # Some product cycle fields (field_name) can be either a date or a boolean.
+      # Some release cycle fields (field_name) can be either a date or a boolean.
       # This function create two additional variables, one of boolean type (boolean_field_name) and
       # the other of Date type (date_field_name) to simplify usages in templates or Jekyll plugins.
       #
       # The invert parameter must be set according to the date nature. If it's a start date
-      # (example : the eol field) set it to false, if it's an end date (example : the support field)
+      # (example : the eol field) set it to false, if it's an end date (example : the eoas field)
       # set it to true.
-      def explode_date_or_boolean_field(cycle, field_name, boolean_field_name, date_field_name, invert = false)
+      def explode_date_or_boolean_field(cycle, field_name, boolean_field_name, date_field_name)
         unless cycle.has_key?(field_name)
           return
         end
@@ -231,7 +231,7 @@ module Jekyll
           cycle[boolean_field_name] = (Date.today > value)
           cycle[date_field_name] = value
         else
-          cycle[boolean_field_name] = invert ? !value : value
+          cycle[boolean_field_name] = value
           cycle[date_field_name] = nil
         end
       end
@@ -272,10 +272,10 @@ module Jekyll
         end
       end
 
-      # Compute the number of days toward now for all cycle's dates (support, eol...), and add those
-      # values to the cycle's data in new fields (days_toward_support, days_toward_eol...).
+      # Compute the number of days toward now for all cycle's dates (eoas, eol...), and add those
+      # values to the cycle's data in new fields (days_toward_eoas, days_toward_eol...).
       def compute_days_toward_now_for_all_dates(cycle)
-        %w[support eol discontinued extendedSupport].each { |field|
+        %w[eoas eol discontinued eoes].each { |field|
           next unless cycle.has_key?(field)
 
           field_value = cycle[field] # either a date or a boolean
@@ -283,25 +283,23 @@ module Jekyll
 
           if field_value.is_a?(Date)
             cycle[new_field_name] = days_toward_now(field_value)
-          elsif %w[eol discontinued].include?(field)
-            cycle[new_field_name] = field_value ? -4096 : 4096 # if eol     is true, then negative days
           else
-            cycle[new_field_name] = field_value ? 4096 : -4096 # if support is true, then positive days
+            cycle[new_field_name] = field_value ? -4096 : 4096
           end
         }
       end
 
       # Compute whether the cycle is still maintained and add the result to the cycle's data.
       #
-      # A cycle is maintained if at least one of the active support / eol / discontinued / extended
-      # support dates is in the future or is true.
+      # A cycle is maintained if at least one of the eoas / eol / discontinued / eoes dates
+      # is in the future or is true.
       #
       # This function must be executed after compute_days_toward_now_for_all_dates because it makes
       # use of the fields injected by this function.
       def set_is_maintained(cycle)
         is_maintained = false
 
-        %w[days_toward_support days_toward_eol days_toward_discontinued days_toward_extendedSupport].each { |days_toward_field|
+        %w[days_toward_eoas days_toward_eol days_toward_discontinued days_toward_eoes].each { |days_toward_field|
           if cycle.has_key?(days_toward_field) and cycle[days_toward_field] >= 0
             is_maintained = true
             break

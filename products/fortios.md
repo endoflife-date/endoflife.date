@@ -11,37 +11,37 @@ changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: End of Support
-activeSupportColumn: End of Engineering Support
+eoasColumn: End of Engineering Support
 
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2023-05-11
-    support: 2026-05-11
+    eoas: 2026-05-11
     eol: 2027-11-11
 
 -   releaseCycle: "7.2"
     releaseDate: 2022-03-31
-    support: 2025-03-31
+    eoas: 2025-03-31
     eol: 2026-09-30
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-03-30
-    support: 2024-03-30
+    eoas: 2024-03-30
     eol: 2025-09-30
 
 -   releaseCycle: "6.4"
     releaseDate: 2020-03-31
-    support: 2023-03-31
+    eoas: 2023-03-31
     eol: 2024-09-30
 
 -   releaseCycle: "6.2"
     releaseDate: 2019-03-28
-    support: 2022-03-28
+    eoas: 2022-03-28
     eol: 2023-09-28
 
 -   releaseCycle: "6.0"
     releaseDate: 2018-03-29
-    support: 2021-03-29
+    eoas: 2021-03-29
     eol: 2022-09-29
 
 ---

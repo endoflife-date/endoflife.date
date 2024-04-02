@@ -7,8 +7,8 @@ permalink: /bootstrap
 releasePolicyLink: https://github.com/twbs/release
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
-extendedSupportColumn: Commercial Support
+eoasColumn: true
+eoesColumn: Commercial Support
 eolColumn: Critical Support
 
 identifiers:
@@ -28,34 +28,32 @@ releases:
 -   releaseCycle: "5"
     lts: true
     releaseDate: 2021-05-05
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: false
     latest: "5.3.3"
     latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "4"
     lts: true
     releaseDate: 2018-01-18
-    support: false
+    eoas: true
     eol: 2023-01-01
-    extendedSupport: true
+    eoes: false
     latest: "4.6.2"
     latestReleaseDate: 2022-07-19
 
 -   releaseCycle: "3"
     releaseDate: 2013-08-19
-    support: false
+    eoas: true
     eol: 2019-07-24
-    extendedSupport: true
+    eoes: false
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
 
 -   releaseCycle: "2"
     releaseDate: 2012-01-31
-    support: false
+    eoas: true
     eol: 2013-08-19
-    extendedSupport: false
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
 

@@ -9,7 +9,7 @@ alternate_urls:
 versionCommand: scalac -version
 releasePolicyLink: https://www.scala-lang.org/download/all.html
 changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
-activeSupportColumn: Current Releases
+eoasColumn: Current Releases
 eolColumn: Maintenance Releases
 releaseDateColumn: true
 
@@ -18,11 +18,11 @@ auto:
   -   git: https://github.com/scala/scala.git # Scala < 3
   -   git: https://github.com/lampepfl/dotty.git # Scala >= 3
 
-# For 3.x : support(x) = eol(x) = releaseDate(x+1)
+# For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-02-14
-    support: true
+    eoas: false
     eol: false
     latest: "3.4.1"
     latestReleaseDate: 2024-03-27
@@ -30,35 +30,35 @@ releases:
 -   releaseCycle: "3.3"
     lts: true
     releaseDate: 2023-05-23
-    support: true
+    eoas: false
     eol: false
     latest: "3.3.3"
     latestReleaseDate: 2024-02-29
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-08-31
-    support: 2023-05-23
+    eoas: 2023-05-23
     eol: 2023-05-23
     latest: "3.2.2"
     latestReleaseDate: 2023-01-11
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-10-18
-    support: 2022-09-01
+    eoas: 2022-09-01
     eol: 2022-09-01
     latest: "3.1.3"
     latestReleaseDate: 2022-06-14
 
 -   releaseCycle: "3.0"
     releaseDate: 2021-05-13
-    support: 2021-10-18
+    eoas: 2021-10-18
     eol: 2021-10-18
     latest: "3.0.2"
     latestReleaseDate: 2021-09-01
 
 -   releaseCycle: "2.13"
     releaseDate: 2019-06-07
-    support: true
+    eoas: false
     eol: false
     latest: "2.13.13"
     latestReleaseDate: 2024-02-21
@@ -66,7 +66,7 @@ releases:
 
 -   releaseCycle: "2.12"
     releaseDate: 2016-10-28
-    support: 2019-06-07
+    eoas: 2019-06-07
     eol: false
     latest: "2.12.19"
     latestReleaseDate: 2024-02-20
@@ -74,7 +74,7 @@ releases:
 
 -   releaseCycle: "2.11"
     releaseDate: 2014-04-16
-    support: 2016-11-03
+    eoas: 2016-11-03
     eol: false
     latest: "2.11.12"
     latestReleaseDate: 2017-11-06
@@ -82,7 +82,7 @@ releases:
 
 -   releaseCycle: "2.10"
     releaseDate: 2012-12-19
-    support: 2014-04-17
+    eoas: 2014-04-17
     eol: false
     latest: "2.10.7"
     latestReleaseDate: 2017-11-06

@@ -7,7 +7,7 @@ permalink: /vuetify
 versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -27,7 +27,7 @@ auto:
           column: "Initial Release Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
-        support:
+        eoas:
           column: "LTS Start Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
           template: "{{month}} {{day}} {{year}}"
@@ -39,21 +39,21 @@ auto:
 releases:
 -   releaseCycle: "3"
     releaseDate: 2022-10-31
-    support: true
+    eoas: false
     eol: false
     latest: "3.5.13"
     latestReleaseDate: 2024-03-28
 
 -   releaseCycle: "2"
     releaseDate: 2019-07-23
-    support: 2023-07-05
+    eoas: 2023-07-05
     eol: 2025-01-23
     latest: "2.7.2"
     latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.5"
     releaseDate: 2019-02-05
-    support: 2019-06-24
+    eoas: 2019-06-24
     eol: 2020-07-31
     latest: "1.5.24"
     lts: 2019-07-31

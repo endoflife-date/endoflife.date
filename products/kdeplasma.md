@@ -8,7 +8,7 @@ alternate_urls:
 versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
 changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
@@ -20,11 +20,11 @@ auto:
       -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
       -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
 
-# non-LTS: eol(x)/support(x) = releaseDate(x+1)
+# non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-28
-    support: true
+    eoas: false
     eol: false # Will end when Plasma 6.1 comes out
     latest: "6.0.3"
     latestReleaseDate: 2024-03-26
@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "5.27"
     lts: true
     releaseDate: 2023-02-14
-    support: true
+    eoas: false
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
     latest: "5.27.11"
     latestReleaseDate: 2024-03-06
@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "5.26"
     releaseDate: 2022-10-11
-    support: 2023-02-14
+    eoas: 2023-02-14
     eol: 2023-02-14
     latest: "5.26.5"
     latestReleaseDate: 2023-01-03
@@ -48,7 +48,7 @@ releases:
 
 -   releaseCycle: "5.25"
     releaseDate: 2022-06-14
-    support: 2022-10-11
+    eoas: 2022-10-11
     eol: 2022-10-11
     latest: "5.25.5"
     latestReleaseDate: 2022-09-06
@@ -57,7 +57,7 @@ releases:
 -   releaseCycle: "5.24"
     lts: true
     releaseDate: 2022-02-08
-    support: 2022-06-14
+    eoas: 2022-06-14
     eol: 2022-10-14
     latest: "5.24.7"
     latestReleaseDate: 2022-10-14
@@ -65,7 +65,7 @@ releases:
 
 -   releaseCycle: "5.23"
     releaseDate: 2021-10-14
-    support: 2022-02-03
+    eoas: 2022-02-03
     eol: 2022-02-03
     latest: "5.23.5"
     latestReleaseDate: 2022-01-04
@@ -74,7 +74,7 @@ releases:
 -   releaseCycle: "5.18"
     lts: true
     releaseDate: 2020-02-11
-    support: 2020-06-04
+    eoas: 2020-06-04
     eol: 2022-02-11
     latest: "5.18.8"
     latestReleaseDate: 2021-10-19

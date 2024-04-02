@@ -17,7 +17,7 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/terraform.git
 
-# EOL(x) = releaseDate(x+2)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2024-01-17

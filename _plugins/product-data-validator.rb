@@ -130,14 +130,14 @@ module EndOfLifeHooks
     error_if.is_not_a_string('LTSLabel')
     error_if.is_not_a_boolean_nor_a_string('eolColumn')
     error_if.is_not_a_number('eolWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('activeSupportColumn')
-    error_if.is_not_a_number('activeSupportWarnThreshold')
+    error_if.is_not_a_boolean_nor_a_string('eoasColumn')
+    error_if.is_not_a_number('eoasWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('releaseColumn')
     error_if.is_not_a_boolean_nor_a_string('releaseDateColumn')
     error_if.is_not_a_boolean_nor_a_string('discontinuedColumn')
     error_if.is_not_a_number('discontinuedWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('extendedSupportColumn')
-    error_if.is_not_a_number('extendedSupportWarnThreshold')
+    error_if.is_not_a_boolean_nor_a_string('eoesColumn')
+    error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
 
@@ -162,21 +162,21 @@ module EndOfLifeHooks
       error_if.is_not_a_string('codename') if release.has_key?('codename')
       error_if.is_not_a_date('releaseDate') if product.data['releaseDateColumn']
       error_if.too_far_in_future('releaseDate') if product.data['releaseDateColumn']
-      error_if.is_not_a_boolean_nor_a_date('support') if product.data['activeSupportColumn']
+      error_if.is_not_a_boolean_nor_a_date('eoas') if product.data['eoasColumn']
       error_if.is_not_a_boolean_nor_a_date('eol') if product.data['eolColumn']
       error_if.is_not_a_boolean_nor_a_date('discontinued') if product.data['discontinuedColumn']
-      error_if.is_not_a_boolean_nor_a_date('extendedSupport') if product.data['extendedSupportColumn']
+      error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
       error_if.is_not_a_string('latest') if product.data['releaseColumn']
       error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
-      error_if.is_not_before('releaseDate', 'support') if product.data['releaseDateColumn'] and product.data['activeSupportColumn']
+      error_if.is_not_before('releaseDate', 'eoas') if product.data['releaseDateColumn'] and product.data['eoasColumn']
       error_if.is_not_before('releaseDate', 'eol') if product.data['releaseDateColumn'] and product.data['eolColumn']
-      error_if.is_not_before('releaseDate', 'extendedSupport') if product.data['releaseDateColumn'] and product.data['extendedSupportColumn']
-      error_if.is_not_before('support', 'eol') if product.data['activeSupportColumn'] and product.data['eolColumn']
-      error_if.is_not_before('support', 'extendedSupport') if product.data['activeSupportColumn'] and product.data['extendedSupportColumn']
-      error_if.is_not_before('eol', 'extendedSupport') if product.data['eolColumn'] and product.data['extendedSupportColumn']
+      error_if.is_not_before('releaseDate', 'eoes') if product.data['releaseDateColumn'] and product.data['eoesColumn']
+      error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn'] and product.data['eolColumn']
+      error_if.is_not_before('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
+      error_if.is_not_before('eol', 'eoes') if product.data['eolColumn'] and product.data['eoesColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."

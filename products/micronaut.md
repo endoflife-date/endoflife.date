@@ -8,7 +8,7 @@ alternate_urls:
 -   /mn
 releasePolicyLink: https://micronaut.io/support-schedule/
 changelogTemplate: "https://github.com/micronaut-projects/micronaut-core/releases/tag/v__LATEST__"
-activeSupportColumn: Active Development
+eoasColumn: Active Development
 eolColumn: Active Maintenance
 releaseDateColumn: true
 
@@ -20,28 +20,28 @@ releases:
 -   releaseCycle: "4"
     releaseDate: 2023-07-11
     eol: false
-    support: true
+    eoas: false
     latest: "4.4.0"
     latestReleaseDate: 2024-03-30
 
 -   releaseCycle: "3"
     releaseDate: 2021-08-18
     eol: false
-    support: 2023-07-11
+    eoas: 2023-07-11
     latest: "3.10.4"
     latestReleaseDate: 2024-03-23
 
 -   releaseCycle: "2"
     releaseDate: 2020-06-26
     eol: 2023-03-01
-    support: 2021-08-18
+    eoas: 2021-08-18
     latest: "2.5.13"
     latestReleaseDate: 2021-09-03
 
 -   releaseCycle: "1"
     releaseDate: 2018-10-23
     eol: 2021-12-31
-    support: false
+    eoas: true
     latest: "1.3.7"
     latestReleaseDate: 2020-07-10
 

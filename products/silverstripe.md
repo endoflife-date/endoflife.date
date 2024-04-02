@@ -10,7 +10,7 @@ versionCommand: composer info silverstripe/cms
 releaseImage: https://www.silverstripe.org/assets/Uploads/_resampled/ResizedImageWzYwMCw0ODdd/CMS-5.1-Support-Timeline-with-provisional-release-date.png
 releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
-activeSupportColumn: Active Development
+eoasColumn: Active Development
 eolColumn: Security Support
 releaseDateColumn: true
 eolWarnThreshold: 182
@@ -28,76 +28,76 @@ auto:
       fields:
         releaseCycle: "MINOR VERSION"
         releaseDate: "STABLERELEASE"
-        support: "FULL SUPPORT ENDS"
+        eoas: "FULL SUPPORT ENDS"
         eol: "END OF LIFE(EOL)"
 
 releases:
 -   releaseCycle: "5.1"
     releaseDate: 2023-10-16
-    support: 2024-04-17
+    eoas: 2024-04-17
     eol: 2024-10-17
     latest: "5.1.6"
     latestReleaseDate: 2024-02-10
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
-    support: 2023-10-17
+    eoas: 2023-10-17
     eol: 2024-04-17
     latest: "5.0.7"
     latestReleaseDate: 2023-09-23
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-04-26
-    support: 2024-04-30
+    eoas: 2024-04-30
     eol: 2025-04-30
     latest: "4.13.13"
     latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "4.12"
     releaseDate: 2022-12-19
-    support: 2023-04-26
+    eoas: 2023-04-26
     eol: 2023-10-26
     latest: "4.12.7"
     latestReleaseDate: 2023-05-31
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-05-11
-    support: 2022-12-19
+    eoas: 2022-12-19
     eol: 2023-05-19
     latest: "4.11.16"
     latestReleaseDate: 2023-05-31
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-01-25
-    support: 2022-06-30
+    eoas: 2022-06-30
     eol: 2022-12-31
     latest: "4.10.11"
     latestReleaseDate: 2022-11-21
 
 -   releaseCycle: "3.7"
     releaseDate: 2018-06-08
-    support: false
+    eoas: true
     eol: 2021-09-30 # http://web.archive.org/web/20200930101626/https://www.silverstripe.org/software/roadmap/
     latest: "3.7.7"
     latestReleaseDate: 2021-06-02
 
 -   releaseCycle: "3.1"
     releaseDate: 2013-10-01
-    support: false
+    eoas: true
     eol: 2016-12-31 # https://www.silverstripe.org/blog/support-timeline-update-where-are-we-heading/
     latest: "3.1.21"
     latestReleaseDate: 2016-11-18
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-06-28
-    support: false
+    eoas: true
     eol: 2015-10-12 # as stated in https://www.silverstripe.org/blog/silverstripe-2-4-end-of-life-announcement/, the release policy was at the time that support lasts for 2 minor versions
     latest: "3.0.14"
     latestReleaseDate: 2015-05-28
 
 -   releaseCycle: "2.4"
     releaseDate: 2011-02-02
-    support: false
+    eoas: true
     eol: 2015-03-31 # https://www.silverstripe.org/blog/silverstripe-2-4-end-of-life-announcement/
     latest: "2.4.13"
     latestReleaseDate: 2013-09-26
@@ -105,7 +105,7 @@ releases:
 
 -   releaseCycle: "2.3"
     releaseDate: 2011-02-02
-    support: false
+    eoas: true
     eol: true
     latest: "2.3.13"
     latestReleaseDate: 2011-09-15

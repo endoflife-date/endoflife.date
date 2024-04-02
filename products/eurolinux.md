@@ -7,7 +7,7 @@ versionCommand: lsb_release --release
 releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
 changelogTemplate: https://euro-linux.com/eurolinux/technical-specifications/
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 
 auto:
   methods:
@@ -17,28 +17,28 @@ auto:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-14
-    support: 2032-05-31
+    eoas: 2032-05-31
     eol: 2032-06-30
     latest: "9.3"
     latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
-    support: 2029-03-01
+    eoas: 2029-03-01
     eol: 2029-06-30
     latest: "8.8"
     latestReleaseDate: 2023-05-17
 
 -   releaseCycle: "7"
     releaseDate: 2020-11-25
-    support: 2024-07-31
+    eoas: 2024-07-31
     eol: 2024-07-31
     latest: "7.9"
     latestReleaseDate: 2020-11-25
 
 -   releaseCycle: "6"
     releaseDate: 2015-02-16
-    support: 2020-12-31
+    eoas: 2020-12-31
     eol: 2020-12-31
     latest: "6.10"
     latestReleaseDate: 2018-07-25

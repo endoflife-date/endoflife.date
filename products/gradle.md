@@ -7,7 +7,7 @@ permalink: /gradle
 versionCommand: gradle --version
 releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support
 changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
@@ -17,7 +17,7 @@ auto:
     # Exclude versions below 3.x because dates are wrong (https://github.com/endoflife-date/endoflife.date/pull/3619).
       regex_exclude: '^v?[0-2]\.'
 
-# support(x) = releaseDate(x+1)
+# eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "8"
@@ -28,7 +28,7 @@ releases:
     testedKotlinVersions: 1.6.10 - 1.9.20
     testedGroovyVersions: 1.5.8 - 4.0.0
     testedAndroidVersions: 7.3 - 8.2
-    support: true
+    eoas: false
     eol: false
     latest: "8.7.0"
     latestReleaseDate: 2024-03-21
@@ -41,7 +41,7 @@ releases:
     testedKotlinVersions: 1.3.72 - 1.7.10
     testedGroovyVersions: 1.5.8 - 4.0.0
     testedAndroidVersions: 4.1 - 4.2, 7.0 - 7.4
-    support: false
+    eoas: true
     eol: false
     latest: "7.6.4"
     latestReleaseDate: 2024-02-05
@@ -54,7 +54,7 @@ releases:
     testedKotlinVersions: 1.3.21 - 1.4.20
     testedGroovyVersions: 1.5.8 - 2.5.12
     testedAndroidVersions: 3.4 - 3.6, 4.0 - 4.2
-    support: 2021-04-09
+    eoas: 2021-04-09
     eol: 2023-02-10
     latest: "6.9.4"
     latestReleaseDate: 2023-02-21
@@ -66,7 +66,7 @@ releases:
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
     testedAndroidVersions: N/A
-    support: 2019-11-08
+    eoas: 2019-11-08
     eol: 2019-11-08
     latest: "5.6.4"
     latestReleaseDate: 2019-10-31
@@ -78,7 +78,7 @@ releases:
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
     testedAndroidVersions: N/A
-    support: 2018-11-26
+    eoas: 2018-11-26
     eol: 2018-11-26
     latest: "4.10.3"
     latestReleaseDate: 2018-12-04
@@ -90,7 +90,7 @@ releases:
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
     testedAndroidVersions: N/A
-    support: 2017-06-14
+    eoas: 2017-06-14
     eol: 2017-06-14
     latest: "3.5.1"
     latestReleaseDate: 2017-06-16
@@ -102,7 +102,7 @@ releases:
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
     testedAndroidVersions: N/A
-    support: 2016-08-15
+    eoas: 2016-08-15
     eol: 2016-08-15
     latest: "2.14.1"
     latestReleaseDate: 2016-07-18
@@ -114,7 +114,7 @@ releases:
     testedKotlinVersions: N/A
     testedGroovyVersions: N/A
     testedAndroidVersions: N/A
-    support: 2014-07-01
+    eoas: 2014-07-01
     eol: 2014-07-01
     latest: "1.12.0"
     latestReleaseDate: 2014-04-29

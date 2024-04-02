@@ -17,7 +17,7 @@ auto:
   -   git: https://github.com/apache/hadoop.git
       regex: '^(rel\/)?release-(?P<major>[1-9][0-9]*)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
-# EOL(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
+# eol(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
 releases:
 -   releaseCycle: "3.4"

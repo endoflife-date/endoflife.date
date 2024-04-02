@@ -7,7 +7,7 @@ permalink: /wagtail
 versionCommand: python -c "import wagtail; print(wagtail.__version__)"
 releasePolicyLink: https://github.com/wagtail/wagtail/wiki/Release-schedule
 changelogTemplate: https://docs.wagtail.org/en/stable/releases/__LATEST__.html
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -25,13 +25,13 @@ auto:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Release date"
-        support: "Active support"
+        eoas: "Active support"
         eol: "Security support"
 
 releases:
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-07
-    support: 2024-05-01
+    eoas: 2024-05-01
     eol: 2024-08-01
     latest: "6.0.1"
     latestReleaseDate: 2024-02-15
@@ -39,35 +39,35 @@ releases:
 -   releaseCycle: "5.2"
     lts: true
     releaseDate: 2023-11-01
-    support: 2025-02-03
+    eoas: 2025-02-03
     eol: 2025-02-03
     latest: "5.2.3"
     latestReleaseDate: 2024-01-23
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-08-01
-    support: 2023-11-01
+    eoas: 2023-11-01
     eol: 2024-02-01
     latest: "5.1.3"
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-02
-    support: 2023-08-01
+    eoas: 2023-08-01
     eol: 2023-11-01
     latest: "5.0.5"
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-02-01
-    support: 2023-05-02
+    eoas: 2023-05-02
     eol: 2023-08-01
     latest: "4.2.4"
     latestReleaseDate: 2023-05-25
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-11-01
-    support: 2024-02-01
+    eoas: 2024-02-01
     lts: true
     eol: 2024-02-01
     latest: "4.1.9"
@@ -75,21 +75,21 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-08-31
-    support: 2022-11-01
+    eoas: 2022-11-01
     eol: 2023-02-01
     latest: "4.0.4"
     latestReleaseDate: 2022-10-18
 
 -   releaseCycle: "3.0"
     releaseDate: 2022-05-16
-    support: 2022-08-31
+    eoas: 2022-08-31
     eol: 2022-11-01
     latest: "3.0.3"
     latestReleaseDate: 2022-09-05
 
 -   releaseCycle: "2.16"
     releaseDate: 2022-02-07
-    support: 2022-05-01
+    eoas: 2022-05-01
     eol: 2022-08-01
     latest: "2.16.3"
     latestReleaseDate: 2022-09-05
@@ -97,28 +97,28 @@ releases:
 -   releaseCycle: "2.15"
     lts: true
     releaseDate: 2021-11-04
-    support: 2023-02-01
+    eoas: 2023-02-01
     eol: 2023-02-01
     latest: "2.15.6"
     latestReleaseDate: 2022-09-05
 
 -   releaseCycle: "2.14"
     releaseDate: 2021-08-01
-    support: 2021-11-04
+    eoas: 2021-11-04
     eol: 2022-02-07
     latest: "2.14.2"
     latestReleaseDate: 2021-10-14
 
 -   releaseCycle: "2.13"
     releaseDate: 2021-05-12
-    support: 2021-08-01
+    eoas: 2021-08-01
     eol: 2021-11-04
     latest: "2.13.5"
     latestReleaseDate: 2021-10-14
 
 -   releaseCycle: "2.12"
     releaseDate: 2021-02-02
-    support: 2021-05-12
+    eoas: 2021-05-12
     eol: 2021-08-01
     latest: "2.12.6"
     latestReleaseDate: 2021-07-13
@@ -126,28 +126,28 @@ releases:
 -   releaseCycle: "2.11"
     lts: true
     releaseDate: 2020-11-02
-    support: 2022-02-01
+    eoas: 2022-02-01
     eol: 2022-02-01
     latest: "2.11.9"
     latestReleaseDate: 2022-01-24
 
 -   releaseCycle: "2.10"
     releaseDate: 2020-08-11
-    support: 2020-11-01
+    eoas: 2020-11-01
     eol: 2021-02-02
     latest: "2.10.2"
     latestReleaseDate: 2020-09-25
 
 -   releaseCycle: "2.9"
     releaseDate: 2020-05-04
-    support: 2020-08-11
+    eoas: 2020-08-11
     eol: 2020-11-02
     latest: "2.9.3"
     latestReleaseDate: 2020-07-20
 
 -   releaseCycle: "2.8"
     releaseDate: 2020-02-03
-    support: 2020-05-04
+    eoas: 2020-05-04
     eol: 2020-08-11
     latest: "2.8.2"
     latestReleaseDate: 2020-05-04
@@ -155,7 +155,7 @@ releases:
 -   releaseCycle: "2.7"
     lts: true
     releaseDate: 2019-11-06
-    support: 2021-02-03
+    eoas: 2021-02-03
     eol: 2021-02-03
     latest: "2.7.4"
     latestReleaseDate: 2020-07-20

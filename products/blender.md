@@ -8,7 +8,7 @@ releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/r
 releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Critical bug fixes
 
 auto:
@@ -19,14 +19,14 @@ auto:
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
-    support: true
+    eoas: false
     eol: false
     latest: "4.1.0"
     latestReleaseDate: 2024-03-25
 
 -   releaseCycle: "4.0"
     releaseDate: 2023-11-14
-    support: 2024-03-25
+    eoas: 2024-03-25
     eol: 2024-03-25
     latest: "4.0.2"
     latestReleaseDate: 2023-12-05
@@ -34,21 +34,21 @@ releases:
 -   releaseCycle: "3.6"
     lts: true
     releaseDate: 2023-06-27
-    support: 2025-07-01
+    eoas: 2025-07-01
     eol: 2025-07-01
     latest: "3.6.10"
     latestReleaseDate: 2024-03-18
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
-    support: 2023-07-01
+    eoas: 2023-07-01
     eol: 2023-07-01
     latest: "3.5.1"
     latestReleaseDate: 2023-04-25
 
 -   releaseCycle: "3.4"
     releaseDate: 2022-12-07
-    support: 2023-04-01
+    eoas: 2023-04-01
     eol: 2023-04-01
     latest: "3.4.1"
     latestReleaseDate: 2022-12-20
@@ -56,28 +56,28 @@ releases:
 -   releaseCycle: "3.3"
     lts: true
     releaseDate: 2022-09-07
-    support: 2024-09-01
+    eoas: 2024-09-01
     eol: 2024-09-01
     latest: "3.3.17"
     latestReleaseDate: 2024-03-19
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-06-08
-    support: 2022-09-07
+    eoas: 2022-09-07
     eol: 2022-09-07
     latest: "3.2.2"
     latestReleaseDate: 2022-08-03
 
 -   releaseCycle: "3.1"
     releaseDate: 2022-03-09
-    support: 2022-06-08
+    eoas: 2022-06-08
     eol: 2022-06-08
     latest: "3.1.2"
     latestReleaseDate: 2022-04-01
 
 -   releaseCycle: "3.0"
     releaseDate: 2021-12-03
-    support: 2022-03-09
+    eoas: 2022-03-09
     eol: 2022-03-09
     latest: "3.0.1"
     latestReleaseDate: 2022-01-26
@@ -85,7 +85,7 @@ releases:
 -   releaseCycle: "2.93"
     lts: true
     releaseDate: 2021-06-02
-    support: 2023-06-01
+    eoas: 2023-06-01
     eol: 2023-06-01
     latest: "2.93.18"
     latestReleaseDate: 2023-05-23
@@ -93,7 +93,7 @@ releases:
 -   releaseCycle: "2.83"
     lts: true
     releaseDate: 2020-06-03
-    support: 2020-08-31
+    eoas: 2020-08-31
     eol: 2022-06-01
     latest: "2.83.20"
     latestReleaseDate: 2022-04-20

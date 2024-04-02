@@ -8,7 +8,7 @@ versionCommand: quasar -v
 releasePolicyLink: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule
 changelogTemplate: https://github.com/quasarframework/quasar/releases/tag/quasar-v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: LTS support
 
 identifiers:
@@ -25,20 +25,20 @@ auto:
           column: "Version"
           regex: '^(?P<value>\d+)\.x$'
         releaseDate: "Released"
-        support: "Active support ends"
+        eoas: "Active support ends"
         eol: "LTS support ends"
 
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-06-21
-    support: true
+    eoas: false
     eol: false
     latest: "2.15.2"
     latestReleaseDate: 2024-03-29
 
 -   releaseCycle: "1"
     releaseDate: 2019-03-07
-    support: 2021-04-01
+    eoas: 2021-04-01
     eol: 2023-06-30
     latest: "1.22.10"
     latestReleaseDate: 2023-05-05

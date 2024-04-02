@@ -38,35 +38,35 @@ releases:
 
 -   releaseCycle: "6.0"
     releaseDate: 2019-08-16
-    support: 2021-12-15
+    eoas: 2021-12-15
     eol: 2023-06-01
     latest: "6.0.6.1"
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "5.2"
     releaseDate: 2018-04-09
-    support: 2021-12-15
+    eoas: 2021-12-15
     eol: 2022-06-01
     latest: "5.2.8.1"
     latestReleaseDate: 2022-07-12
 
 -   releaseCycle: "5.1"
     releaseDate: 2017-04-27
-    support: 2018-04-09
+    eoas: 2018-04-09
     eol: 2019-08-25
     latest: "5.1.7"
     latestReleaseDate: 2019-03-27
 
 -   releaseCycle: "5.0"
     releaseDate: 2016-06-30
-    support: 2018-04-09
+    eoas: 2018-04-09
     eol: 2018-04-09
     latest: "5.0.7.2"
     latestReleaseDate: 2019-03-13
 
 -   releaseCycle: "4.2"
     releaseDate: 2014-12-19
-    support: 2016-06-30
+    eoas: 2016-06-30
     eol: 2017-04-27
     latest: "4.2.11.3"
     latestReleaseDate: 2020-05-15

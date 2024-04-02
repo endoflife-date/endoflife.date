@@ -10,7 +10,7 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -29,20 +29,20 @@ auto:
           column: "Major Version"
           regex: '^Rocky Linux (?P<value>\d+)$'
         releaseDate: "Release Date"
-        support: "Active Support"
+        eoas: "Active Support"
         eol: "End of Life"
 
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-14
-    support: 2027-05-31
+    eoas: 2027-05-31
     eol: 2032-05-31
     latest: "9.3"
     latestReleaseDate: 2023-11-20
 
 -   releaseCycle: "8"
     releaseDate: 2021-05-01
-    support: 2024-05-31
+    eoas: 2024-05-31
     eol: 2029-05-31
     latest: "8.9"
     latestReleaseDate: 2023-11-22
