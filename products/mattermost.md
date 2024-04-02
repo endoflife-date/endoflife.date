@@ -185,27 +185,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2021-10-08
     eol: 2022-01-15
-    latestReleaseDate: 2021-12-15
     latest: '6.0.4'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    latestReleaseDate: 2021-12-15
 
 ---
 
