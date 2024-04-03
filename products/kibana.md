@@ -16,8 +16,8 @@ auto:
 releases:
 -   releaseCycle: "8"
     eol: 2024-08-10 # later of 2024-08-10 or 6 months after the release date of 9.0
-    latest: "8.13.0"
-    latestReleaseDate: 2024-03-26
+    latest: "8.13.1"
+    latestReleaseDate: 2024-04-02
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
