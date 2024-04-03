@@ -23,7 +23,7 @@ auto:
 # See also https://wiki.qt.io/QtReleasing.
 releases:
 -   releaseCycle: "6.7"
-    releaseDate: 2024-04-02
+    releaseDate: 2024-03-28
     eol: 2024-10-02 # estimated, 2024-03-28 + 6 months
     eoes: 2025-04-02
     latest: "6.7.0"

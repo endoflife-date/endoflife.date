@@ -29,8 +29,8 @@ releases:
 -   releaseCycle: "124"
     releaseDate: 2024-03-19
     eol: false
-    latest: "124.0.1"
-    latestReleaseDate: 2024-03-22
+    latest: "124.0.2"
+    latestReleaseDate: 2024-04-02
 
 -   releaseCycle: "123"
     releaseDate: 2024-02-20
