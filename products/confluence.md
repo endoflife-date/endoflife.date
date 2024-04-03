@@ -18,6 +18,13 @@ auto:
 # release date: https://www.atlassian.com/software/confluence/download-archives
 # lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "8.9"
+    releaseDate: 2024-04-01
+    eol: 2026-04-02
+    latest: "8.9.0"
+    latestReleaseDate: 2024-04-01
+    link: https://confluence.atlassian.com/doc/confluence-8-9-release-notes-1384120473.html
+
 -   releaseCycle: "8.8"
     releaseDate: 2024-02-08
     eol: 2026-02-08
