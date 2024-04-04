@@ -44,6 +44,7 @@ releases:
     eol: 2023-04-30
     latest: "3.11.0.1"
     latestReleaseDate: 2022-04-07
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/3.11/rn/vmware-cloud-foundation-311-release-notes/index.html
 
 -   releaseCycle: "4.4"
     releaseDate: 2022-02-10
@@ -68,6 +69,7 @@ releases:
     eol: 2022-02-10
     latest: "4.1.0"
     latestReleaseDate: 2020-10-06
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/4.1/rn/vmware-cloud-foundation-41-release-notes/index.html
 
 -   releaseCycle: "3.10"
     releaseDate: 2020-05-26
