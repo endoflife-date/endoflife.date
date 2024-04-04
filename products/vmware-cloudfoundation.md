@@ -11,7 +11,7 @@ alternate_urls:
 -  /cloud-foundation
 -  /vmware-cloudfoundation
 releasePolicyLink: https://lifecycle.vmware.com
-changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
+changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 releaseDateColumn: true
 eolColumn: General Support
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
