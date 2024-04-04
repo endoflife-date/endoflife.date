@@ -125,3 +125,4 @@ otherwise noted.
 | Release | Technical Guidance Ends |
 |---------|-------------------------|
 | 5.0     | 2028-06-01              |
+| 5.1     | 2028-06-01              |
