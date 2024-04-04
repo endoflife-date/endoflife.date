@@ -28,21 +28,21 @@ releases:
 -   releaseCycle: "6.8"
     releaseDate: 2024-03-10
     eol: 2024-07-10 # estimated releaseDate(x)+4 months
-    latest: "6.8.2"
-    latestReleaseDate: 2024-03-26
+    latest: "6.8.3"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
     eol: 2024-05-07 # estimated releaseDate(x)+4 months
-    latest: "6.7.11"
-    latestReleaseDate: 2024-03-26
+    latest: "6.7.12"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "6.6"
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.23"
-    latestReleaseDate: 2024-03-26
+    latest: "6.6.24"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -72,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.83"
-    latestReleaseDate: 2024-03-26
+    latest: "6.1.84"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02

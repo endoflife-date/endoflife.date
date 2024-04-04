@@ -80,12 +80,14 @@ releases:
     latest: '1.22-eks-14'
     latestReleaseDate: 2023-06-30
 
+    eoes: 2024-09-01
 -   releaseCycle: "1.21"
     releaseDate: 2021-07-19
     eol: 2023-02-15
     latest: '1.21-eks-18'
     latestReleaseDate: 2023-06-09
 
+    eoes: 2024-07-15
 -   releaseCycle: "1.20"
     releaseDate: 2021-05-18
     eol: 2022-11-01
