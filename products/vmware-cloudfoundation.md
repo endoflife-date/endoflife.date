@@ -18,18 +18,25 @@ eolColumn: General Support
 eolWarnThreshold: 180
 
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2023-11-07
+    eol: 2027-06-01
+    # technicalGuidance: 2028-06-01
+    latest: "5.1.1"
+    latestReleaseDate: 2024-03-26
+
 -   releaseCycle: "5.0"
     releaseDate: 2023-06-01
     eol: 2027-06-01
     # technicalGuidance: 2028-06-01
-    latest: "5.0"
-    latestReleaseDate: 2023-06-01
+    latest: "5.0.0.1"
+    latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "4.5"
     releaseDate: 2022-10-11
     eol: 2025-05-31
-    latest: "4.5.1"
-    latestReleaseDate: 2023-05-11
+    latest: "4.5.2"
+    latestReleaseDate: 2023-08-17
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-02-14
