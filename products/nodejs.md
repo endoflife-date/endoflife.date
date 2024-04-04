@@ -30,16 +30,16 @@ releases:
     releaseDate: 2023-10-17
     eoas: 2024-04-01
     eol: 2024-06-01
-    latest: "21.7.1"
-    latestReleaseDate: 2024-03-08
+    latest: "21.7.2"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "20"
     releaseDate: 2023-04-18
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.12.0"
-    latestReleaseDate: 2024-03-26
+    latest: "20.12.1"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -53,8 +53,8 @@ releases:
     lts: 2022-10-25
     eoas: 2023-10-18
     eol: 2025-04-30
-    latest: "18.20.0"
-    latestReleaseDate: 2024-03-26
+    latest: "18.20.1"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19
