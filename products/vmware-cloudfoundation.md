@@ -11,31 +11,40 @@ alternate_urls:
 -  /cloud-foundation
 -  /vmware-cloudfoundation
 releasePolicyLink: https://lifecycle.vmware.com
-changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__RELEASE_CYCLE__" | remove:'.'}}-release-notes/index.html
+changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 releaseDateColumn: true
 eolColumn: General Support
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
 eolWarnThreshold: 180
 
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2023-11-07
+    eol: 2027-06-01
+    # technicalGuidance: 2028-06-01
+    latest: "5.1.1"
+    latestReleaseDate: 2024-03-26
+
 -   releaseCycle: "5.0"
     releaseDate: 2023-06-01
     eol: 2027-06-01
     # technicalGuidance: 2028-06-01
-    latest: "5.0"
-    latestReleaseDate: 2023-06-01
+    latest: "5.0.0.1"
+    latestReleaseDate: 2023-09-29
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/5.0/rn/vmware-cloud-foundation-50-release-notes/index.html
 
 -   releaseCycle: "4.5"
     releaseDate: 2022-10-11
     eol: 2025-05-31
-    latest: "4.5.1"
-    latestReleaseDate: 2023-05-11
+    latest: "4.5.2"
+    latestReleaseDate: 2023-08-17
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-02-14
     eol: 2023-04-30
     latest: "3.11.0.1"
     latestReleaseDate: 2022-04-07
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/3.11/rn/vmware-cloud-foundation-311-release-notes/index.html
 
 -   releaseCycle: "4.4"
     releaseDate: 2022-02-10
@@ -60,6 +69,7 @@ releases:
     eol: 2022-02-10
     latest: "4.1.0"
     latestReleaseDate: 2020-10-06
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/4.1/rn/vmware-cloud-foundation-41-release-notes/index.html
 
 -   releaseCycle: "3.10"
     releaseDate: 2020-05-26
@@ -118,3 +128,4 @@ otherwise noted.
 | Release | Technical Guidance Ends |
 |---------|-------------------------|
 | 5.0     | 2028-06-01              |
+| 5.1     | 2028-06-01              |
