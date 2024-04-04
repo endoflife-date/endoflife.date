@@ -11,7 +11,7 @@ alternate_urls:
 -  /cloud-foundation
 -  /vmware-cloudfoundation
 releasePolicyLink: https://lifecycle.vmware.com
-changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__RELEASE_CYCLE__" | remove:'.'}}-release-notes/index.html
+changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__RELEASE_CYCLE__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 releaseDateColumn: true
 eolColumn: General Support
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
@@ -31,6 +31,7 @@ releases:
     # technicalGuidance: 2028-06-01
     latest: "5.0.0.1"
     latestReleaseDate: 2023-09-29
+    link: https://docs.vmware.com/en/VMware-Cloud-Foundation/5.0/rn/vmware-cloud-foundation-50-release-notes/index.html
 
 -   releaseCycle: "4.5"
     releaseDate: 2022-10-11
