@@ -205,7 +205,7 @@ releases:
     releaseDate: 2020-06-24
     eoas: 2020-10-07
     eol: 2023-07-01
-    latest: "450.216.04"
+    latest: "450.248.02"
     latestReleaseDate: 2023-06-26
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-248-02/
 
