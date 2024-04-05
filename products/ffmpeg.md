@@ -18,6 +18,13 @@ auto:
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "7.0"
+    codename: Dijkstra
+    releaseDate: 2024-04-05
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2024-04-05
+
 -   releaseCycle: "6.1"
     codename: Heaviside
     releaseDate: 2023-11-11
