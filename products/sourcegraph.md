@@ -21,7 +21,6 @@ releases:
   eol: false
   latest: "5.3.3"
   latestReleaseDate: 2024-03-20
-  link: https://github.com/sourcegraph/sourcegraph/releases/tag/v__LATEST__
 
 - releaseCycle: "4"
   releaseDate: 2022-09-22
