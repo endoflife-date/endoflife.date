@@ -40,4 +40,4 @@ the self-hosted offering.
 
 Looking at recent releases, it seems that only the latest release is supported.
 
-Sourcegraph provides [enterprise support](https://about.sourcegraph.com/contact/sales) with additional features for organizations.
+Sourcegraph provides [enterprise support](https://sourcegraph.com/pricing) with additional features and support for organizations.
