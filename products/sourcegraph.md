@@ -16,6 +16,7 @@ auto:
   methods:
   - git: https://github.com/sourcegraph/sourcegraph.git
 
+# eol(x) = releaseDate(x+1)
 releases:
 - releaseCycle: "5"
   releaseDate: 2023-03-22
