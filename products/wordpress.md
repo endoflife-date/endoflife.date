@@ -40,10 +40,17 @@ identifiers:
 # eol(x) = releaseDate(x+1)
 # Support PHP version can be found on https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/.
 releases:
+-   releaseCycle: "6.5"
+    supportedPHPVersions: "7.0 - 8.3"
+    releaseDate: 2024-04-02
+    eol: false
+    latest: "6.5"
+    latestReleaseDate: 2024-04-02
+
 -   releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2023-11-07
-    eol: false
+    eol: 2024-04-02
     latest: "6.4.3"
     latestReleaseDate: 2024-01-30
 
