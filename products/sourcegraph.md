@@ -17,7 +17,7 @@ auto:
 
 releases:
 - releaseCycle: "5"
-  releaseDate: 2023-05-22
+  releaseDate: 2023-03-22
   eol: false
   latest: "5.3.3"
   latestReleaseDate: 2024-03-20
