@@ -37,26 +37,26 @@ releases:
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-16
     eol: 2025-01-16
-    latest: '1.29.2'
-    latestReleaseDate: 2024-03-07
+    latest: '1.29.3'
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
-    latest: '1.28.1'
-    latestReleaseDate: 2024-02-09
+    latest: '1.28.2'
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27
-    latest: '1.27.3'
-    latestReleaseDate: 2024-02-09
+    latest: '1.27.4'
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
-    latest: '1.26.7'
-    latestReleaseDate: 2024-02-09
+    latest: '1.26.8'
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-01-18

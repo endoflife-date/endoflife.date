@@ -83,7 +83,7 @@ releases:
     eoes: 2024-09-01
 -   releaseCycle: "1.21"
     releaseDate: 2021-07-19
-    eol: 2023-02-15
+    eol: 2023-02-16
     latest: '1.21-eks-18'
     latestReleaseDate: 2023-06-09
 
