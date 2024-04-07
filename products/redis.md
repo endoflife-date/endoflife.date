@@ -68,7 +68,7 @@ releases:
 
 ---
 
-> [Redis](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used
+> [Redis](https://redis.io/) is an in-memory data structure store, used
 > as a database, cache and message broker. It supports data structures such as strings, hashes,
 > lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius
 > queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and
@@ -86,5 +86,9 @@ major security issues are committed and released as patches:
 
 - The previous minor version of the latest stable release.
 - The previous stable major release.
+
+Starting from 7.4, Redis will be dual-licensed under the
+[RSALv2 and SSPLv1](https://redis.com/blog/redis-adopts-dual-source-available-licensing/) licenses.
+7.2 is the last release under the old 3-BSD license.
 
 [Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisories.
