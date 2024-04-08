@@ -37,6 +37,7 @@ releases:
 
 Sourcegraph is available in self-hosted and cloud editions. This page only tracks releases for
 the self-hosted offering. While limited support is offered for the previous major version, it does
-not include bug-fixes, or security backports. Consequentially , this page marks the older release as unsupported.
+not include bug-fixes or security backports. Consequentially, this page marks all but the latest
+release as unsupported.
 
 Sourcegraph provides [enterprise support](https://sourcegraph.com/pricing) with additional features and support for organizations.
