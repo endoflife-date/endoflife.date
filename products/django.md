@@ -91,7 +91,7 @@ releases:
     lts: true
     releaseDate: 2021-04-06
     eoas: 2021-12-07
-    eol: 2024-04-30
+    eol: 2024-04-01
     latest: "3.2.25"
     supportedPythonVersions: "3.6 - 3.10 (added in 3.2.9)"
     latestReleaseDate: 2024-03-04
