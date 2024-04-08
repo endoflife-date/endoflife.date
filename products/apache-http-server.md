@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.58"
-    latestReleaseDate: 2023-10-19
+    latest: "2.4.59"
+    latestReleaseDate: 2024-04-04
     link: https://downloads.apache.org/httpd/Announcement2.4.html
 
 -   releaseCycle: "2.2"
