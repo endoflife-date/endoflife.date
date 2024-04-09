@@ -7,7 +7,6 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
 eolColumn: Security Support
 eolWarnThreshold: 7
-activeSupportWarnThreshold: 7
 releaseColumn: Latest
 releaseDateColumn: true
 
