@@ -18,6 +18,7 @@ auto:
       regex: 'Distribution Release: postmarketOS (?P<version>\d{2}[.]\d{2})'
       template: '{{version}}'
 
+# eol(x) = releaseDate(x+1) + 1 month
 releases:
 -   releaseCycle: "23.12"
     releaseDate: 2023-12-18
