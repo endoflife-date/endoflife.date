@@ -2,7 +2,6 @@
 title: postmarketOS
 category: os
 tags: linux-distribution
-#iconSlug: postmarketOS
 permalink: /postmarketos
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
