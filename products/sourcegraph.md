@@ -9,26 +9,26 @@ releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
-- purl: pkg:github/sourcegraph/sourcegraph
-- purl: pkg:docker/sourcegraph/sg
+-   purl: pkg:github/sourcegraph/sourcegraph
+-   purl: pkg:docker/sourcegraph/sg
 
 auto:
   methods:
-  - git: https://github.com/sourcegraph/sourcegraph.git
+  -   git: https://github.com/sourcegraph/sourcegraph.git
 
 # eol(x) = releaseDate(x+1)
 releases:
-- releaseCycle: "5"
-  releaseDate: 2023-03-22
-  eol: false
-  latest: "5.3.3"
-  latestReleaseDate: 2024-03-20
+-   releaseCycle: "5"
+    releaseDate: 2023-03-22
+    eol: false
+    latest: "5.3.9104"
+    latestReleaseDate: 2024-04-05
 
-- releaseCycle: "4"
-  releaseDate: 2022-09-22
-  eol: 2023-05-22
-  latest: "4.5.1"
-  latestReleaseDate: 2023-02-24
+-   releaseCycle: "4"
+    releaseDate: 2022-09-22
+    eol: 2023-05-22
+    latest: "4.5.1"
+    latestReleaseDate: 2023-02-24
 
 ---
 
