@@ -115,13 +115,11 @@ Scala’s primary platform is the Java Virtual Machine (JVM).
 
 | JDK version | Minimum Scala versions         |
 |-------------|--------------------------------|
-| 22 (ea)     | 3.3.4*, 2.13.12, 2.12.19       |
+| 23 (ea)     | 3.3.5†, 2.13.15†, 2.12.20†     |
+| 22          | 3.3.4†, 2.13.13, 2.12.19       |
 | 21 (LTS)    | 3.3.1, 2.13.11, 2.12.18        |
-| 20          | 3.3.0, 2.13.11, 2.12.18        |
-| 19          | 3.2.0, 2.13.9, 2.12.16         |
-| 18          | 3.1.3, 2.13.7, 2.12.15         |
 | 17 (LTS)    | 3.0.0, 2.13.6, 2.12.15         |
 | 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
 | 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
 
-* = forthcoming; support available in nightly builds
+† = forthcoming; support available in nightly builds
