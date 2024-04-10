@@ -25,10 +25,10 @@ releases:
     support: 2028-01-11
     eol: 2033-01-11
     extendedSupport: false
-    latestGdr: "16.0.1105.1"
-    latestGdrLink: https://support.microsoft.com/help/5029379
-    latest: "16.0.4115.5 CU12"
-    latestReleaseDate: 2024-03-14
+    latestGdr: "16.0.1115.1"
+    latestGdrLink: https://support.microsoft.com/help/5035432
+    latest: "16.0.4120.1 CU12+GDR"
+    latestReleaseDate: 2024-04-09 # GDR: https://support.microsoft.com/help/5036343
     link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate12
 
 -   releaseCycle: "13.0-sp3"
@@ -51,10 +51,10 @@ releases:
     support: 2025-02-28
     eol: 2030-01-08
     extendedSupport: false
-    latestGdr: "15.0.2104.1"
-    latestGdrLink: https://support.microsoft.com/help/5029377
-    latest: "15.0.4355.3 CU25"
-    latestReleaseDate: 2024-02-15
+    latestGdr: "15.0.2110.4"
+    latestGdrLink: https://support.microsoft.com/help/5035434
+    latest: "15.0.4360.2 CU25+GDR"
+    latestReleaseDate: 2024-04-09 # GDR: https://support.microsoft.com/help/5036335
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate25
     
 -   releaseCycle: "12.0-sp3"
