@@ -6,7 +6,7 @@ permalink: /postmarketos
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
 eolColumn: Security Support
-eolWarnThreshold: 7
+eolWarnThreshold: 60
 releaseColumn: false
 releaseDateColumn: true
 
