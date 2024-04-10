@@ -22,7 +22,8 @@ auto:
 releases:
 -   releaseCycle: "23.12"
     releaseDate: 2023-12-18
-    eol: 2024-07-01
+# estimated, based on expected release date for 24.06
+    eol: 2024-07-01 
     latest: "23.12"
     latestReleaseDate: 2023-12-18
     link: https://postmarketos.org/blog/2023/12/18/v23.12-release/
