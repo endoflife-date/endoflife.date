@@ -5,7 +5,6 @@ tags: linux-distribution
 permalink: /postmarketos
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.postmarketos.org/wiki/Releases
-eolColumn: Security Support
 eolWarnThreshold: 60
 releaseColumn: false
 releaseDateColumn: true
