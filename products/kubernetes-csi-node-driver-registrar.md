@@ -1,11 +1,11 @@
 ---
-title: Kubernetes CSI Node Driver Registrar  
-
+title: Kubernetes CSI Node Driver Registrar
 category: server-app
 tags: kubernetes
 permalink: /kubernetes-csi-node-driver-registrar
-alternate_urls:-   /k8s-csi-node-driver-registrar  
--   /node-driver-registrar 
+alternate_urls:
+- /k8s-csi-node-driver-registrar
+- /node-driver-registrar 
 versionCommand: |-
   csi-node-driver-registrar --version
 releasePolicyLink: https://kubernetes-csi.github.io/docs/node-driver-registrar.html#supported-versions
