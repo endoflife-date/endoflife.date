@@ -16,8 +16,7 @@ customColumns:
     position: after-release-column
     label: Supported PHP
     description: Supported PHP versions range
-    link:
-      https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
+    link: https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 
 # This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
 # The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
@@ -44,36 +43,36 @@ releases:
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2024-04-02
     eol: false
-    latest: "6.5"
-    latestReleaseDate: 2024-04-02
+    latest: "6.5.2"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2023-11-07
     eol: 2024-04-02
-    latest: "6.4.3"
-    latestReleaseDate: 2024-01-30
+    latest: "6.4.4"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "6.3"
     supportedPHPVersions: "7.0 - 8.2"
     releaseDate: 2023-08-08
     eol: 2023-11-07
-    latest: "6.3.3"
-    latestReleaseDate: 2024-01-30
+    latest: "6.3.4"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "6.2"
     supportedPHPVersions: "5.6 - 8.2"
     releaseDate: 2023-03-29
     eol: 2023-08-08
-    latest: "6.2.4"
-    latestReleaseDate: 2024-01-30
+    latest: "6.2.5"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "6.1"
     supportedPHPVersions: "5.6 - 8.2"
     releaseDate: 2022-11-02
     eol: 2023-03-29
-    latest: "6.1.5"
-    latestReleaseDate: 2024-01-30
+    latest: "6.1.6"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "6.0"
     supportedPHPVersions: "5.6 - 8.1"

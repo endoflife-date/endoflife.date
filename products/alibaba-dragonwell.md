@@ -50,9 +50,9 @@ auto:
       template: '{{version}}'
   -   git: "https://github.com/dragonwell-project/dragonwell21.git"
       regex:
-        -   '^dragonwell-standard-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
-        -   '^dragonwell-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
-        -   '^jdk-(?P<version>21[\d\.\+]+)-ga$'
+      -   '^dragonwell-standard-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
+      -   '^dragonwell-(?P<version>21[\d\.\+]+)_jdk.+-ga$'
+      -   '^jdk-(?P<version>21[\d\.\+]+)-ga$'
       template: '{{version}}'
   -   release_table: https://github.com/dragonwell-project/dragonwell21/wiki/Alibaba-Dragonwell-Support
       selector: "table"
@@ -68,14 +68,14 @@ releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-11-24 # First official release is 21.0.1.
-    eol: false
+    eol: 2029-11-30
     latest: "21.0.2.0.2+13"
     latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # First official release is 17.0.1.
-    eol: 2029-09-30
+    eol: 2027-09-30
     latest: "17.0.10.0.11+7"
     latestReleaseDate: 2024-02-20
 
