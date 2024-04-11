@@ -13,7 +13,7 @@ auto:
   methods:
     # Cross check with the channels.cfg
     # https://gitlab.com/postmarketOS/pmaports/-/blob/master/channels.cfg?ref_type=heads
-    - distrowatch: postmarketos
+  -   distrowatch: postmarketos
       regex: 'Distribution Release: postmarketOS (?P<version>\d{2}[.]\d{2})'
       template: '{{version}}'
 
@@ -22,9 +22,9 @@ releases:
 -   releaseCycle: "23.12"
     releaseDate: 2023-12-18
 # estimated, based on expected release date for 24.06
-    eol: 2024-07-01 
+    eol: 2024-07-01
     latest: "23.12"
-    latestReleaseDate: 2023-12-18
+    latestReleaseDate: 2023-12-19
     link: https://postmarketos.org/blog/2023/12/18/v23.12-release/
 
 -   releaseCycle: "23.06"
