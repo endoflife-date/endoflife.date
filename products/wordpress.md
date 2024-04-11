@@ -78,8 +78,8 @@ releases:
     supportedPHPVersions: "5.6 - 8.1"
     releaseDate: 2022-05-24
     eol: 2022-11-01
-    latest: "6.0.7"
-    latestReleaseDate: 2024-01-30
+    latest: "6.0.8"
+    latestReleaseDate: 2024-04-10
 
 -   releaseCycle: "5.9"
     supportedPHPVersions: "5.6 - 8.1"

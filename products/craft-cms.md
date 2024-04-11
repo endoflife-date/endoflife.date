@@ -28,17 +28,17 @@ auto:
 releases:
 -   releaseCycle: "5"
     releaseDate: 2024-03-26
-    eoas: false
-    eol: false
-    latest: '5.0.3'
-    latestReleaseDate: 2024-04-09
+    eoas: 2027-04-30
+    eol: 2028-04-30
+    latest: '5.0.4'
+    latestReleaseDate: 2024-04-10
 
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
-    eoas: 2025-03-30
-    eol: 2026-03-30
-    latest: '4.8.8'
-    latestReleaseDate: 2024-04-09
+    eoas: 2025-04-30
+    eol: 2026-04-30
+    latest: '4.8.9'
+    latestReleaseDate: 2024-04-10
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
