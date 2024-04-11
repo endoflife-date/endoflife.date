@@ -4,7 +4,7 @@ category: lang
 iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
-releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
+releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
 changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
 eolColumn: Support Status
