@@ -22,6 +22,15 @@ auto:
 # EOL dates on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
 # PHP requirements on https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
 releases:
+-   releaseCycle: "2.4.7"
+    releaseDate: 2024-04-04
+    eoas: false
+    eol: false
+    eoes: 2026-03-14
+    supportedPhpVersions: 8.2, 8.3
+    latest: "2.4.7"
+    latestReleaseDate: 2024-04-04
+
 -   releaseCycle: "2.4.6"
     releaseDate: 2023-02-28
     eoas: false
