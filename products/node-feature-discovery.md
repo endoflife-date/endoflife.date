@@ -1,9 +1,11 @@
 ---
-title: node-feature-discovery
-category: app
-tags: kubernetes-sigs
-permalink: /node-feature-discovery
+title: Kubernetes Node Feature Discovery
+category: server-app
+tags: kubernetes
+iconSlug: kubernetes
+permalink: /kubernetes-node-feature-discovery
 alternate_urls:
+-   /k8s-node-feature-discovery
 -   /node-feature-discovery
 versionCommand: |-
   # Must be installed through helm chart https://artifacthub.io/packages/helm/node-feature-discovery/node-feature-discovery
@@ -21,7 +23,8 @@ auto:
   -   git: https://github.com/kubernetes-sigs/node-feature-discovery.git
 
 identifiers:
--   repology: node-feature-discovery
+-   purl: pkg:github/kubernetes-sigs/node-feature-discovery
+-   purl: oci:node-feature-discovery?repository_url=registry.k8s.io/nfd
 
 # eol(x) = release(x+1)
 releases:
@@ -51,8 +54,7 @@ releases:
 
 ---
 
-> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/v0.15/get-started/introduction.html) This software enables node feature discovery for Kubernetes. 
-> It detects hardware features available on each node in a Kubernetes cluster, and advertises those features using node labels and optionally node extended resources, annotations and node taints.
-> for Kubernetes and OpenShift workloads
+> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a a Kubernetes add-on for detecting hardware
+> features and system configuration. It advertises these features using node labels and optionally node extended resources, annotations and node taints.
 
-Each release is churned out at a period of nearly two weeks, and the latest two releases are considered non-EOL
+Each release is churned out at a period of nearly two weeks, and the latest two releases are considered supported.
