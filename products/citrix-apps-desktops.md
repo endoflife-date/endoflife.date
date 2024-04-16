@@ -23,7 +23,7 @@ releases:
     lts: true
     eoas: 2029-04-11 # estimate for LTS, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
     eol: 2029-04-11 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    eoes: 2032-03-23 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eoes: 2034-04-11 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
     latest: "2402"
     latestReleaseDate: 2024-04-11
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
