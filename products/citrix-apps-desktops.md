@@ -18,13 +18,22 @@ releaseDateColumn: true
 eoesColumn: true
 
 releases:
+-   releaseCycle: "2402"
+    releaseDate: 2024-04-15
+    lts: true
+    eoas: 2029-04-15 # estimate for LTS, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eol: 2029-04-15 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eoes: 2034-04-15 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    latest: "2402"
+    latestReleaseDate: 2024-04-15
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+
 -   releaseCycle: "2311"
     releaseDate: 2023-12-21
-    eoas: false # not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    eol: false # not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
+    eoas: 2024-04-20
+    eol: 2025-06-20
     latest: "2311"
     latestReleaseDate: 2023-12-21
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
 
 -   releaseCycle: "2308"
     releaseDate: 2023-09-14
@@ -74,9 +83,9 @@ releases:
     eoas: 2027-03-23
     eol: 2027-03-23
     eoes: 2032-03-23
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-3.html
-    latest: "2203 CU3"
-    latestReleaseDate: 2023-06-01
+    latest: "2203 CU4"
+    latestReleaseDate: 2023-11-16
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-4.html
 
 -   releaseCycle: "2112"
     releaseDate: 2021-12-13
