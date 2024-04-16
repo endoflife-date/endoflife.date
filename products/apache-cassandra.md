@@ -39,9 +39,9 @@ releases:
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: false
-    latest: "3.0.29"
+    latest: "3.0.30"
     discontinued: true
-    latestReleaseDate: 2023-05-15
+    latestReleaseDate: 2024-04-15
 
 ---
 
