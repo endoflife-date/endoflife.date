@@ -33,7 +33,7 @@ releases:
     latestReleaseDate: 2024-04-16
 -   releaseCycle: "124"
     releaseDate: 2024-03-19
-    eol: false
+    eol: 2024-04-16
     latest: "124.0.2"
     latestReleaseDate: 2024-04-02
 
