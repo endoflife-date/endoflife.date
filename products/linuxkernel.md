@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
-    eol: 2024-05-07 # estimated releaseDate(x)+4 months
+    eol: 2024-04-03
     latest: "6.7.12"
     latestReleaseDate: 2024-04-03
 
