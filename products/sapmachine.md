@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "22"
     releaseDate: 2024-03-18
     eol: 2024-09-17
-    latest: '22'
-    latestReleaseDate: 2024-03-18
+    latest: '22.0.1'
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "21"
     lts: true

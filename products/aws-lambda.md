@@ -126,7 +126,7 @@ releases:
     releaseLabel: Node.js 14
     releaseDate: 2021-02-03
     eoas: 2023-12-04
-    eol: 2024-02-08
+    eol: 2025-02-28
     link: https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet5.0"
