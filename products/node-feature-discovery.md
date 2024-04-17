@@ -9,12 +9,10 @@ alternate_urls:
 -   /node-feature-discovery
 versionCommand: |-
   # Retrieve the image, along with the tag - which all point to the same version, post deployment on K8s
-  ```bash
   kubectl get pods --all-namespaces -o jsonpath="{.items[*].spec['initContainers', 'containers'][*].image}" |\
   tr -s '[[:space:]]' '\n' |\
   sort |\
   uniq -c
-  ```
 releasePolicyLink: https://github.com/kubernetes-sigs/node-feature-discovery/releases
 changelogTemplate: https://github.com/kubernetes-sigs/node-feature-discovery/releases/tag/v__LATEST__
 releaseDateColumn: true
