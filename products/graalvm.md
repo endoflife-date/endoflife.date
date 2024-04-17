@@ -18,8 +18,8 @@ releases:
     releaseLabel: "JDK 22"
     releaseDate: 2024-03-19
     eol: false
-    latest: "jdk-22"
-    latestReleaseDate: 2024-03-19
+    latest: "jdk-22.0.1"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "jdk-21"
     releaseLabel: "JDK 21"
