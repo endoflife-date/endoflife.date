@@ -24,6 +24,12 @@ auto:
         eol: "EOL"
 
 releases:
+-   releaseCycle: "30"
+    releaseDate: 2024-04-16
+    eol: 2024-10-15
+    latest: "30.0.0"
+    latestReleaseDate: 2024-04-16
+
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
     eol: 2024-08-20
