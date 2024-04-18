@@ -13,8 +13,14 @@ auto:
   methods:
   -   git: https://github.com/tarantool/tarantool.git
 
-# EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table.
+# EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2024-04-16
+    eol: 2026-04-16
+    latest: "3.1.0"
+    latestReleaseDate: 2024-04-16
+
 -   releaseCycle: "3.0"
     releaseDate: 2023-12-26
     eol: 2025-12-26
