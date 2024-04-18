@@ -39,14 +39,14 @@ releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-22
-    eol: false # TBC
+    eol: 2029-12-31 # TBC
     latest: '21.0.2+13'
     latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
-    eol: 2027-10-01 # OpenJDK EOS, EoA TBC
+    eol: 2027-10-31 # OpenJDK EOS, EoA TBC
     latest: '17.0.10+7'
     latestReleaseDate: 2024-02-07
 
