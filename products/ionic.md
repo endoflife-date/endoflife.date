@@ -41,13 +41,27 @@ auto:
         releaseCycle: "Framework"
         supportedVueVersions: "Required Vue Version"
 
-# support(R) = releaseDate(R+1)
+# eoas(x) = releaseDate(x+1)
+# For eol / eoes see https://ionicframework.com/docs/reference/support#framework-maintenance-and-support-status.
+# For 
 releases:
--   releaseCycle: "7"
-    releaseDate: 2023-03-29
+-   releaseCycle: "8"
+    releaseDate: 2024-04-17
     eoas: false
     eol: false
     eoes: false
+    minAngularVersion: v16
+    maxAngularVersion: v17.x
+    supportedReactVersions: v17+
+    supportedVueVersions: v3.0.6+
+    latest: "8.0.0"
+    latestReleaseDate: 2024-04-17
+
+-   releaseCycle: "7"
+    releaseDate: 2023-03-29
+    eoas: 2024-04-17
+    eol: 2024-10-17
+    eoes: 2025-04-17
     minAngularVersion: v14
     maxAngularVersion: v17.x
     supportedReactVersions: v17+
