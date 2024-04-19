@@ -49,8 +49,8 @@ releases:
 
 -   releaseCycle: "pc.2022.6"
     releaseDate: 2022-08-03
-    eoas: 2024-01-31
-    eol: 2024-07-31
+    eoas: 2024-06-30
+    eol: 2025-06-30
     latest: "pc.2022.6.0.10"
     latestReleaseDate: 2024-01-15
 
