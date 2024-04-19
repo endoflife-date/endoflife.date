@@ -8,51 +8,47 @@ versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
-extendedSupportColumn: Commercial support
+eoasColumn: true
+eoesColumn: Commercial support
 
 auto:
   methods:
   -   git: https://github.com/shopware/shopware.git # Shopware 6
   -   git: https://github.com/shopware5/shopware.git # Shopware 5
 
-# support(x) = releaseDate(x+1)
+# eoas(x) = releaseDate(x+1)
 # eol(x) = true or the EOL date of the major release if known (patch applied through the Shopware Security Plugin).
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
 -   releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: false
     latest: "6.5.8.7"
     latestReleaseDate: 2024-03-06
 
 -   releaseCycle: "6.4"
     supportedPhpVersions: 7.4 - 8.3
     releaseDate: 2021-05-04
-    support: 2023-05-03
+    eoas: 2023-05-03
     eol: false
-    extendedSupport: false
     latest: "6.4.20.2"
     latestReleaseDate: 2023-05-05
 
 -   releaseCycle: "6.3"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-08-03
-    support: 2021-05-04
+    eoas: 2021-05-04
     eol: false
-    extendedSupport: false
     latest: "6.3.5.4"
     latestReleaseDate: 2021-04-19
 
 -   releaseCycle: "6.2"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-05-18
-    support: 2020-08-03
+    eoas: 2020-08-03
     eol: false
-    extendedSupport: false
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
 
@@ -60,18 +56,17 @@ releases:
 -   releaseCycle: "6.1"
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-01-13
-    support: 2020-05-19
+    eoas: 2020-05-19
     eol: false
-    extendedSupport: false
     latest: "6.1.6"
     latestReleaseDate: 2020-05-14
 
 -   releaseCycle: "5.7"
     supportedPhpVersions: N/A
     releaseDate: 2021-05-26
-    support: false
+    eoas: true
     eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
-    extendedSupport: true
+    eoes: false
     latest: "5.7.19"
     latestReleaseDate: 2023-09-25
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -79,9 +74,8 @@ releases:
 -   releaseCycle: "5.6"
     supportedPhpVersions: N/A
     releaseDate: 2019-08-09
-    support: 2021-06-14
+    eoas: 2021-06-14
     eol: true
-    extendedSupport: false
     latest: "5.6.10"
     latestReleaseDate: 2021-05-04
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -89,9 +83,8 @@ releases:
 -   releaseCycle: "5.5"
     supportedPhpVersions: N/A
     releaseDate: 2018-09-17
-    support: 2019-08-12
+    eoas: 2019-08-12
     eol: true
-    extendedSupport: false
     latest: "5.5.10"
     latestReleaseDate: 2019-06-05
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -99,9 +92,8 @@ releases:
 -   releaseCycle: "5.4"
     supportedPhpVersions: N/A
     releaseDate: 2018-02-26
-    support: 2018-09-18
+    eoas: 2018-09-18
     eol: true
-    extendedSupport: false
     latest: "5.4.6"
     latestReleaseDate: 2018-07-18
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -109,9 +101,8 @@ releases:
 -   releaseCycle: "5.3"
     supportedPhpVersions: N/A
     releaseDate: 2017-07-31
-    support: 2018-02-28
+    eoas: 2018-02-28
     eol: true
-    extendedSupport: false
     latest: "5.3.7"
     latestReleaseDate: 2018-01-17
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -119,9 +110,8 @@ releases:
 -   releaseCycle: "5.2"
     supportedPhpVersions: N/A
     releaseDate: 2016-07-01
-    support: 2017-07-31
+    eoas: 2017-07-31
     eol: true
-    extendedSupport: false
     latest: "5.2.27"
     latestReleaseDate: 2017-07-10
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -129,9 +119,8 @@ releases:
 -   releaseCycle: "5.1"
     supportedPhpVersions: N/A
     releaseDate: 2015-10-19
-    support: 2016-07-04
+    eoas: 2016-07-04
     eol: true
-    extendedSupport: false
     latest: "5.1.6"
     latestReleaseDate: 2016-05-23
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
@@ -139,9 +128,8 @@ releases:
 -   releaseCycle: "5.0"
     supportedPhpVersions: N/A
     releaseDate: 2015-04-27
-    support: 2015-10-21
+    eoas: 2015-10-21
     eol: true
-    extendedSupport: false
     latest: "5.0.4"
     latestReleaseDate: 2015-09-16
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
