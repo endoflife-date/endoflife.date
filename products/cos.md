@@ -18,8 +18,15 @@ auto:
   methods:
   -   custom: cos
 
+# For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
-# Active Milestones
+-   releaseCycle: "cos-113"
+    lts: true
+    releaseDate: 2024-04-15
+    eol: 2026-03-01
+    latest: "cos-113-18244-1-37"
+    latestReleaseDate: 2024-04-15
+
 -   releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
@@ -48,7 +55,6 @@ releases:
     latest: "cos-97-16919-450-41"
     latestReleaseDate: 2024-03-27
 
-# Deprecated Milestones
 -   releaseCycle: "cos-93"
     lts: true
     releaseDate: 2021-10-18
