@@ -19,13 +19,21 @@ eoesColumn: Extended Life Support 1
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
 # Do not use individual changelog links for non-EOL releases, they are not predictable so their update would be manual.
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2024-02-05
+    eoas: 2028-02-05
+    eol: 2031-02-05
+    eoes: 2033-02-05
+    latest: "8.0.0"
+    latestReleaseDate: 2024-02-05
+
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
     eoes: 2026-11-30
-    latest: "7.4.14"
-    latestReleaseDate: 2023-12-12
+    latest: "7.4.16"
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "6"
     releaseDate: 2012-06-01
