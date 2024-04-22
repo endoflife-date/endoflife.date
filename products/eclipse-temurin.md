@@ -60,8 +60,8 @@ releases:
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
     eol: 2024-09-17 # expected 23 release date (see https://www.java.com/releases/)
-    latest: "22+36"
-    latestReleaseDate: 2024-03-20
+    latest: "22.0.1+8"
+    latestReleaseDate: 2024-04-19
 
 -   releaseCycle: "21"
     lts: true

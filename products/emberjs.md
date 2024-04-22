@@ -104,9 +104,9 @@ releases:
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-04-03
-    lts: 2023-05-15
-    eoas: 2023-12-11
-    eol: 2024-05-27
+    lts: 2023-05-14
+    eoas: 2023-12-10
+    eol: 2024-05-26
     latest: "4.12.4"
     latestReleaseDate: 2024-01-22
 

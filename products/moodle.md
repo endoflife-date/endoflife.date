@@ -28,16 +28,16 @@ releases:
     eoas: 2024-10-07
     eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.3.3"
-    latestReleaseDate: 2024-02-09
+    latest: "4.3.4"
+    latestReleaseDate: 2024-04-20
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-04-22
     eoas: 2024-04-22
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.2.6"
-    latestReleaseDate: 2024-02-09
+    latest: "4.2.7"
+    latestReleaseDate: 2024-04-20
 
 -   releaseCycle: "4.1"
     lts: true
@@ -45,8 +45,8 @@ releases:
     eoas: 2023-12-11
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
-    latest: "4.1.9"
-    latestReleaseDate: 2024-02-09
+    latest: "4.1.10"
+    latestReleaseDate: 2024-04-20
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-04-17

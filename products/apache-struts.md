@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    latest: "6.3.0.2"
-    latestReleaseDate: 2023-12-05
+    latest: "6.4.0"
+    latestReleaseDate: 2024-04-07
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -70,6 +70,7 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
+
 
 ---
 
