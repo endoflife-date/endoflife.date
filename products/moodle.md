@@ -21,8 +21,17 @@ auto:
         eoas: "General support ends"
         eol: "Security support ends"
 
-# supportedPhpVersions can be found in the release notes.
+# dates see https://moodledev.io/general/releases
+# supportedPhpVersions can be found in the release notes and https://moodledev.io/general/development/policies/php
 releases:
+-   releaseCycle: "4.4"
+    releaseDate: 2024-04-20
+    eoas: 2025-04-21
+    eol: 2025-12-08
+    supportedPhpVersions: 8.1 - 8.3
+    latest: "4.4"
+    latestReleaseDate: 2024-04-20
+
 -   releaseCycle: "4.3"
     releaseDate: 2023-10-07
     eoas: 2024-10-07
@@ -95,11 +104,11 @@ releases:
 > Open Source software package designed to help educators create effective online courses based on
 > sound pedagogical principles.
 
-Major (e.g. 3.x) releases are made every 6 months, Second Monday of May and November. Minor (e.g.
-3.x.y) releases are made every 2 months, Second Monday of July, September, November, January, March
+Major (e.g. 4.x) releases are made every 6 months, Second Monday of May and November. Minor (e.g.
+4.x.y) releases are made every 2 months, Second Monday of July, September, November, January, March
 and May.
 
-From Moodle 2.6 onwards, the end of support, both general and security, happens the second Monday
+The end of support, both general and security, happens the second Monday
 of May and November, observing the 12, 18... month periods, no matter if the major release was
 delayed or not.
 
