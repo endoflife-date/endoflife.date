@@ -21,7 +21,8 @@ auto:
         eoas: "General support ends"
         eol: "Security support ends"
 
-# supportedPhpVersions can be found in the release notes.
+# dates see https://moodledev.io/general/releases
+# supportedPhpVersions can be found in the release notes and https://moodledev.io/general/development/policies/php
 releases:
 -   releaseCycle: "4.4"
     releaseDate: 2024-04-20
