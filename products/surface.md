@@ -73,7 +73,7 @@ releases:
 
 -   releaseCycle: Surface Pro 7
     releaseDate: 2019-10-22
-    eol: 2024-02-28
+    eol: 2025-10-30
     link: https://support.microsoft.com/surface/surface-pro-7-specs-and-features-8254894d-bb80-77ef-daae-612ea713e310
 
 -   releaseCycle: Surface Hub 2S
