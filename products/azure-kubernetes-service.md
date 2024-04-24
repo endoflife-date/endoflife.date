@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
-    eol: 2024-03-31
+    eol: 2024-04-11
     link: https://azure.microsoft.com/updates/generally-available-kubernetes-126-support-in-aks/
 
 -   releaseCycle: "1.25"
