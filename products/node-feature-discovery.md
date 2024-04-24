@@ -9,7 +9,7 @@ alternate_urls:
 -   /node-feature-discovery
 versionCommand: |-
   # Exec Into Kubectl Po and get version
-    kubectl exec -it deploy/node-gc -n node-feature-delivery -- bash
+    kubectl exec -it deploy/node-feature-discovery-gc -n node-feature-delivery -- bash
     $ nfd-gc -version
 releasePolicyLink: https://github.com/kubernetes-sigs/node-feature-discovery/releases
 changelogTemplate: https://github.com/kubernetes-sigs/node-feature-discovery/releases/tag/v__LATEST__
