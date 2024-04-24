@@ -10,12 +10,12 @@ customColumns:
       position: after-release-column
       label: PHP versions
       description: Supported PHP versions range
-      link: https://github.com/consolidation/robo#branches
+      link: https://github.com/consolidation/robo/blob/5.x/README.md
 
 auto:
   methods:
   -   git: https://github.com/consolidation/robo.git
-  -   release_table: https://github.com/consolidation/robo#branches
+  -   release_table: https://github.com/consolidation/robo/blob/5.x/README.md
       render_javascript: true
       selector: "table"
       fields:
@@ -28,6 +28,13 @@ auto:
 # eoas(x) = true if "Stable", false otherwise
 # eol(x) = false if "Stable" or "Important fixes only", false otherwise
 releases:
+-   releaseCycle: "5"
+    supportedPHPVersions: "8.2 - 8.3"
+    eoas: false
+    eol: false
+    latest: "5.0.0"
+    latestReleaseDate: 2024-04-17
+
 -   releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.1"
     eoas: false
@@ -60,6 +67,6 @@ releases:
 
 > [Robo](https://robo.li/) is a task runner written in PHP.
 
-Robo supported releases is documented on <https://github.com/consolidation/robo#branches>.
+Supported releases are documented on <https://github.com/consolidation/robo#branches>.
 All versions are roughly compatible; the breaking changes introduced at each major version are
 fairly minor, and typically only affect classes that are not used by most clients.
