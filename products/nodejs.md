@@ -25,6 +25,7 @@ auto:
   methods:
   -   git: https://github.com/nodejs/node.git
 
+# See https://github.com/nodejs/release#release-schedule.
 releases:
 -   releaseCycle: "22"
     releaseDate: 2024-04-24
