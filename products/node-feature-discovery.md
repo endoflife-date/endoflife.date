@@ -8,11 +8,9 @@ alternate_urls:
 -   /k8s-node-feature-discovery
 -   /node-feature-discovery
 versionCommand: |-
-  # Retrieve the image, along with the tag - which all point to the same version, post deployment on K8s
-  kubectl get pods --all-namespaces -o jsonpath="{.items[*].spec['initContainers', 'containers'][*].image}" |\
-  tr -s '[[:space:]]' '\n' |\
-  sort |\
-  uniq -c
+  # Exec Into Kubectl Po and get version
+    kubectl exec -it deploy/node-gc -n node-feature-delivery -- bash
+    $ nfd-gc -version
 releasePolicyLink: https://github.com/kubernetes-sigs/node-feature-discovery/releases
 changelogTemplate: https://github.com/kubernetes-sigs/node-feature-discovery/releases/tag/v__LATEST__
 releaseDateColumn: true
