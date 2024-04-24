@@ -44,9 +44,9 @@ releases:
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-12-25
-    eol: 2024-04-24
+    eol: 2024-04-23
     latest: "3.0.7"
-    latestReleaseDate: 2024-04-24
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "2.7"
     releaseDate: 2019-12-25
