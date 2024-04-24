@@ -37,14 +37,14 @@ releases:
 releases:
 -   releaseCycle: "1.25"
     releaseDate: 2023-05-23
-    eol: 2024-04-23
+    eol: false
     link: https://nginx.org/en/CHANGES
     latest: "1.25.5"
     latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2024-04-23
     latest: "1.24.0"
     latestReleaseDate: 2023-04-11
 
