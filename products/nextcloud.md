@@ -21,6 +21,12 @@ auto:
         eol: "End of life"
 
 releases:
+-   releaseCycle: "29"
+    releaseDate: 2024-04-24
+    eol: 2025-04-30
+    latest: "29.0.0"
+    latestReleaseDate: 2024-04-24
+
 -   releaseCycle: "28"
     releaseDate: 2023-12-11
     eol: 2024-12-31
