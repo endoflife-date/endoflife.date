@@ -6,11 +6,11 @@ permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
 customColumns:
-  -   property: supportedPHPVersions
-      position: after-release-column
-      label: PHP versions
-      description: Supported PHP versions range
-      link: https://github.com/consolidation/robo/blob/5.x/README.md
+-   property: supportedPHPVersions
+    position: after-release-column
+    label: PHP versions
+    description: Supported PHP versions range
+    link: https://github.com/consolidation/robo/blob/5.x/README.md
 
 auto:
   methods:
@@ -36,7 +36,7 @@ releases:
     latestReleaseDate: 2024-04-17
 
 -   releaseCycle: "4"
-    supportedPHPVersions: "8.0 - 8.1"
+    supportedPHPVersions: "8.0 - 8.3"
     eoas: false
     eol: false
     latest: "4.0.6"
