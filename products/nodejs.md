@@ -27,7 +27,7 @@ auto:
 
 releases:
 -   releaseCycle: "22"
-    releaseDate: 2024-04-23
+    releaseDate: 2024-04-24
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
