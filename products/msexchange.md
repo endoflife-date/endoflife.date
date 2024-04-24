@@ -10,22 +10,22 @@ eoasColumn: true
 
 releases:
 -   releaseCycle: "2019"
-    releaseLabel: "2019 CU14 SU1"
+    releaseLabel: "2019 CU14 HU2"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2025-10-14
-    latest: "15.2.1544.9"
-    latestReleaseDate: 2024-03-12
-    link: https://support.microsoft.com/help/5036401
+    latest: "15.2.1544.11"
+    latestReleaseDate: 2024-04-23
+    link: https://support.microsoft.com/help/5037224
 
 -   releaseCycle: "2016"
-    releaseLabel: "2016 CU23 SU12"
+    releaseLabel: "2016 CU23 HU13"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
     eol: 2025-10-14
-    latest: "15.1.2507.37"
-    latestReleaseDate: 2024-03-12
-    link: https://support.microsoft.com/help/5036386
+    latest: "15.1.2507.39"
+    latestReleaseDate: 2024-04-23
+    link: https://support.microsoft.com/help/5037224
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
@@ -101,6 +101,7 @@ releases:
 
 CU: Cumulative Update
 SU: Security Update
+HU: Hotfix Update
 UR: Update Rollup
 
 The 2013 version was the last to which Service Pack (SP) appeared. As of 2016 onwards, only CU and
