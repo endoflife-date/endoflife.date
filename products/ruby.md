@@ -27,26 +27,26 @@ releases:
 -   releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.0"
-    latestReleaseDate: 2023-12-25
+    latest: "3.3.1"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.3"
-    latestReleaseDate: 2024-01-18
+    latest: "3.2.4"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-12-25
     eol: 2025-03-31
-    latest: "3.1.4"
-    latestReleaseDate: 2023-03-30
+    latest: "3.1.5"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-12-25
     eol: 2024-03-31
-    latest: "3.0.6"
-    latestReleaseDate: 2023-03-30
+    latest: "3.0.7"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "2.7"
     releaseDate: 2019-12-25
