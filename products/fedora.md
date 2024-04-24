@@ -20,31 +20,29 @@ identifiers:
 -   cpe: cpe:/o:fedoraproject:fedora
 -   cpe: cpe:2.3:o:fedoraproject:fedora
 
-# eol(X) = releaseDate(X+2) + 4 weeks if X+2 is released
-# or eol(x) = releaseDate(x) + 13 months
+# you can look for release and EOL dates on https://fedorapeople.org/groups/schedule/
 releases:
 
+-   releaseCycle: "40"
+    releaseDate: 2024-04-23
+    eol: 2025-05-13
+    latest: "40"
+    latestReleaseDate: 2024-04-23
+
 -   releaseCycle: "39"
-    releaseDate: 2023-11-07
-    # releaseDate(39) + 13 months for now
-    # Revise once 41 comes out
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2024-12-07
+    releaseDate: 2023-10-24
+    eol: 2024-11-12
     latest: "39"
     latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "38"
-    releaseDate: 2023-04-18
-    # releaseDate(38) + 13 months for now
-    # Revise once 40 comes out
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2024-05-18
+    releaseDate: 2023-04-25
+    eol: 2024-05-14
     latest: "38"
-    latestReleaseDate: 2023-04-18
+    latestReleaseDate: 2023-04-25
 
 -   releaseCycle: "37"
-    releaseDate: 2022-11-15
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
+    releaseDate: 2022-10-25
     eol: 2023-12-05
     latest: "37"
     latestReleaseDate: 2022-11-15
