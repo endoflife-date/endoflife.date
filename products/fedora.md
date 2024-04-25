@@ -20,7 +20,7 @@ identifiers:
 -   cpe: cpe:/o:fedoraproject:fedora
 -   cpe: cpe:2.3:o:fedoraproject:fedora
 
-# you can look for release and EOL dates on https://fedorapeople.org/groups/schedule/
+# Dates as per https://fedorapeople.org/groups/schedule/
 releases:
 
 -   releaseCycle: "40"
@@ -111,6 +111,6 @@ a relatively short life cycle: Release X is supported until 4 weeks after the re
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
-See [this link](https://docs.fedoraproject.org/en-US/releases/) for a list of all releases, and
-[this link](https://docs.fedoraproject.org/en-US/releases/lifecycle/) for more information about the
-Fedora Release Cycle. A list of all EOL releases can be found [here](https://docs.fedoraproject.org/en-US/releases/eol/).
+* [List of all Releases](https://docs.fedoraproject.org/en-US/releases/).
+* [Fedora Project Schedule](https://fedorapeople.org/groups/schedule/) includes tentative dates.
+* [Unsupported Fedora Linux releases](https://docs.fedoraproject.org/en-US/releases/eol/).
