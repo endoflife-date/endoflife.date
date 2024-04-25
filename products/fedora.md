@@ -6,8 +6,7 @@ iconSlug: fedora
 permalink: /fedora
 versionCommand: cat /etc/fedora-release
 releasePolicyLink: https://docs.fedoraproject.org/en-US/releases/lifecycle/
-changelogTemplate: 
-  https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
+changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 releaseDateColumn: true
 
 auto:
@@ -36,10 +35,10 @@ releases:
     latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "38"
-    releaseDate: 2023-04-25
+    releaseDate: 2023-04-18
     eol: 2024-05-14
     latest: "38"
-    latestReleaseDate: 2023-04-25
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "37"
     releaseDate: 2022-10-25
