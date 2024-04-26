@@ -21,9 +21,17 @@ auto:
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
 -   releaseCycle: "6.5"
+    supportedPhpVersions: 8.2 - 8.3
+    releaseDate: 2024-03-28
+    eoas: false
+    eol: false
+    latest: "6.6.1.1"
+    latestReleaseDate: 2024-04-18
+
+-   releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
-    eoas: false
+    eoas: 2024-03-28
     eol: false
     latest: "6.5.8.9"
     latestReleaseDate: 2024-04-16
