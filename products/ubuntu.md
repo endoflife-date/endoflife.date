@@ -29,6 +29,14 @@ identifiers:
 
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 releases:
+-   releaseCycle: "24.04"
+    codename: "Noble Numbat"
+    releaseDate: 2024-04-25
+    eoas: 2036-04-25
+    eol: 2036-04-25
+    latest: "24.04"
+    latestReleaseDate: 2024-04-25
+
 -   releaseCycle: "23.10"
     codename: "Mantic Minotaur"
     releaseDate: 2023-10-12
