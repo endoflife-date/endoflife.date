@@ -20,7 +20,7 @@ auto:
 # eol(x) = true or the EOL date of the major release if known (patch applied through the Shopware Security Plugin).
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
--   releaseCycle: "6.5"
+-   releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
     releaseDate: 2024-03-28
     eoas: false
