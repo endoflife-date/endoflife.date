@@ -29,28 +29,28 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
-    eoes: 2034-06-30
+    eoes: 2035-06-30
     latest: "9.3"
     latestReleaseDate: 2023-11-17
 
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
-    eol: 2029-07-01
-    eoes: 2031-07-01
+    eol: 2029-07-31
+    eoes: 2032-07-31
     latest: "8.9"
     latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
-    eol: 2024-12-01
-    eoes: 2026-06-01
+    eol: 2024-12-31
+    eoes: 2028-06-30
     latest: "7.9"
     latestReleaseDate: 2020-10-08
 
 -   releaseCycle: "6"
     releaseDate: 2011-02-12
-    eol: 2021-03-01
-    eoes: 2024-12-01
+    eol: 2021-03-31
+    eoes: 2024-12-31
     latest: "6.10"
     latestReleaseDate: 2018-07-02
 
