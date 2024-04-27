@@ -13,6 +13,7 @@ releaseDateColumn: true
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Extended Security Maintenance
+eolsColumn: Legacy Support
 
 # https://regex101.com/r/Fzt9US/1
 # We return v1 and v2 separated by newline in case 2 releases were marked
@@ -31,9 +32,12 @@ identifiers:
 releases:
 -   releaseCycle: "24.04"
     codename: "Noble Numbat"
+    lts: true
     releaseDate: 2024-04-25
-    eoas: 2036-04-25
-    eol: 2036-04-25
+    eoas: 2026-04-25
+    eol: 2029-04-25
+    eoes: 2034-04-25
+    eols: 2036-04-25
     latest: "24.04"
     latestReleaseDate: 2024-04-25
 
@@ -68,6 +72,7 @@ releases:
     eoas: 2024-09-30
     eol: 2027-04-01
     eoes: 2032-04-09
+    eols: 2034-04-09
     latest: "22.04.4"
     latestReleaseDate: 2024-02-22
 
@@ -102,6 +107,7 @@ releases:
     eoas: 2022-10-01
     eol: 2025-04-02
     eoes: 2030-04-02
+    eols: 2032-04-02
     latest: "20.04.6"
     latestReleaseDate: 2023-03-23
 
@@ -136,6 +142,7 @@ releases:
     eoas: 2023-05-31
     eol: 2023-05-31
     eoes: 2028-04-01
+    eols: 2030-04-01
     latest: "18.04.6"
     latestReleaseDate: 2021-09-17
 
@@ -162,6 +169,7 @@ releases:
     eoas: 2021-04-02
     eol: 2021-04-02
     eoes: 2026-04-02
+    eols: 2028-04-02
     latest: "16.04.7"
     latestReleaseDate: 2020-08-13
 
@@ -196,6 +204,7 @@ releases:
     eoas: 2019-04-02
     eol: 2019-04-02
     eoes: 2024-04-02
+    eols: 2026-04-02
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
 
