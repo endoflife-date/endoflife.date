@@ -140,3 +140,5 @@ releases:
 
 > Fluent Bit is a cross-platform fast and lightweight logs and metrics processor. It is an
 > open-source CNCF sub-project under the umbrella of [Fluentd](https://www.fluentd.org).
+
+Support for a series (x.y) ends three months after a new series is released.
