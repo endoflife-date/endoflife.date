@@ -6,7 +6,8 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
-releaseImage: https://user-images.githubusercontent.com/3691490/235072519-20107b91-af55-4fd6-ac77-946bd923acbe.png
+releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
+
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
