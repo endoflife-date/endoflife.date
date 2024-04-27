@@ -32,9 +32,11 @@ identifiers:
 releases:
 -   releaseCycle: "24.04"
     codename: "Noble Numbat"
+    lts: true
     releaseDate: 2024-04-25
-    eoas: 2036-04-25
-    eol: 2036-04-25
+    eoas: 2026-06-01
+    eol: 2029-06-01
+    eoes: 2034-04-01
     latest: "24.04"
     latestReleaseDate: 2024-04-25
 
