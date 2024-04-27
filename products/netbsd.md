@@ -11,19 +11,26 @@ releaseDateColumn: true
 eoasColumn: true
 
 releases:
--   releaseCycle: "9"
-    releaseDate: 2022-02-14
+-   releaseCycle: "10"
+    releaseDate: 2024-03-28
     eoas: false
     eol: false
-    latest: "9.3"
-    latestReleaseDate: 2022-08-04
+    latest: "10.0"
+    latestReleaseDate: 2024-03-28
+
+-   releaseCycle: "9"
+    releaseDate: 2022-02-14
+    eoas: 2024-03-28
+    eol: false
+    latest: "9.4"
+    latestReleaseDate: 2024-04-20
 
 -   releaseCycle: "8"
     releaseDate: 2018-07-17
     eoas: 2022-02-14
-    eol: false
+    eol: 2024-04-30
     latest: "8.2"
-    latestReleaseDate: 2020-03-31
+    latestReleaseDate: 2020-03-30
 
 -   releaseCycle: "7"
     releaseDate: 2015-09-25
