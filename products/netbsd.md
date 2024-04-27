@@ -10,6 +10,7 @@ changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetB
 releaseDateColumn: true
 eoasColumn: true
 
+# See https://www.netbsd.org/releases/formal.html
 releases:
 -   releaseCycle: "10"
     releaseDate: 2024-03-28
