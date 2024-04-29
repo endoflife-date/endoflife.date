@@ -22,7 +22,7 @@ auto:
 releases:
 -   releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
-    releaseDate: 2024-03-28
+    releaseDate: 2024-03-21
     eoas: false
     eol: false
     latest: "6.6.1.1"
