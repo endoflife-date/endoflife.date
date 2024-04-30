@@ -72,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.88"
-    latestReleaseDate: 2024-04-27
+    latest: "6.1.89"
+    latestReleaseDate: 2024-04-29
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02

@@ -49,8 +49,8 @@ releases:
     releaseLabel: "7.3 (Rapid Release)"
     releaseDate: 2024-03-19
     eol: false
-    latest: '7.3.1'
-    latestReleaseDate: 2024-04-04
+    latest: '7.3.2'
+    latestReleaseDate: 2024-04-29
 
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"

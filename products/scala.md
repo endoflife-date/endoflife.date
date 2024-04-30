@@ -60,8 +60,8 @@ releases:
     releaseDate: 2019-06-07
     eoas: false
     eol: false
-    latest: "2.13.13"
-    latestReleaseDate: 2024-02-21
+    latest: "2.13.14"
+    latestReleaseDate: 2024-04-29
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"
