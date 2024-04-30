@@ -20,22 +20,22 @@ auto:
 releases:
 -   releaseCycle: "8.3"
     releaseDate: 2023-11-23
-    eoas: 2025-11-23
-    eol: 2026-11-23
+    eoas: 2025-12-31
+    eol: 2027-12-31
     latest: "8.3.6"
     latestReleaseDate: 2024-04-11
 
 -   releaseCycle: "8.2"
     releaseDate: 2022-12-08
-    eoas: 2024-12-08
-    eol: 2025-12-08
+    eoas: 2024-12-31
+    eol: 2026-12-31
     latest: "8.2.18"
     latestReleaseDate: 2024-04-11
 
 -   releaseCycle: "8.1"
     releaseDate: 2021-11-25
     eoas: 2023-11-25
-    eol: 2024-11-25
+    eol: 2025-12-31
     latest: "8.1.28"
     latestReleaseDate: 2024-04-11
 
@@ -139,6 +139,9 @@ Each release branch of PHP is fully supported for two years from its initial sta
 During this period, bugs and security issues that have been reported are fixed and are released in
 regular point releases.
 
-After this two-year period of active support, each branch is then supported for an additional year
+After this two-year period of active support, each branch is then supported for an additional two years
 for critical security issues only. Releases during this period are made on an as-needed basis:
 there may be multiple point releases, or none, depending on the number of reports.
+
+The PHP Release Cycle was [extended in March 2024](https://wiki.php.net/rfc/release_cycle_update)
+from 3 to 4 years: 2 years of bug fixes, and 2 years of security fixes.
