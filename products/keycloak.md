@@ -14,7 +14,7 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/keycloak/keycloak.git
+  -   github_releases: "keycloak/keycloak"
 
 # eol(x) = release(x+1)
 releases:
@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "22.0"
     releaseDate: 2023-07-11
     eol: 2023-11-23
-    latest: "22.0.10"
-    latestReleaseDate: 2024-03-25
+    latest: "22.0.5"
+    latestReleaseDate: 2023-10-24
 
 -   releaseCycle: "21.1"
     releaseDate: 2023-04-19
