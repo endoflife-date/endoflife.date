@@ -26,7 +26,7 @@ auto:
       selector: "table"
       fields:
         releaseCycle:
-          column: "Major Version"
+          column: "Release"
           regex: '^Rocky Linux (?P<value>\d+)$'
         releaseDate: "Release Date"
         eoas: "Active Support"
