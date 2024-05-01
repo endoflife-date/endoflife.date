@@ -17,23 +17,6 @@ auto:
       regex:
       -   '^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$' # newer versions
       -   '^rabbitmq_v(?P<major>[1-9]\d*)_(?P<minor>\d+)_(?P<patch>\d+)$' # oldest versions
-  -   release_table: https://www.rabbitmq.com/docs/versions
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle: "Release"
-        releaseDate:
-          column: 4 # the page has multi-line header preventing us from using the column name
-          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
-          template: "{{day}} {{month}} {{year}}"
-        eol:
-          column: 5 # the page has multi-line header preventing us from using the column name
-          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
-          template: "{{day}} {{month}} {{year}}"
-        eoes:
-          column: 6 # the page has multi-line header preventing us from using the column name
-          regex: '^(?P<day>\d+) (?P<month>\w{3}).* (?P<year>\d+)$' # 'Sept' is not valid
-          template: "{{day}} {{month}} {{year}}"
 
 releases:
 -   releaseCycle: "3.13"
