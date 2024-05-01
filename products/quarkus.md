@@ -27,16 +27,22 @@ auto:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
 releases:
+-   releaseCycle: "3.10"
+    releaseDate: 2024-04-30
+    eol: false
+    latest: "3.10.0"
+    latestReleaseDate: 2024-04-30
+
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-27
-    eol: false
+    eol: 2024-04-30
     latest: "3.9.5"
     latestReleaseDate: 2024-04-27
 
 -   releaseCycle: "3.8"
+    lts: true
     releaseDate: 2024-02-28
     eol: 2025-02-28
-    lts: true
     latest: "3.8.4"
     latestReleaseDate: 2024-04-17
 
@@ -71,9 +77,9 @@ releases:
     latestReleaseDate: 2023-09-14
 
 -   releaseCycle: "3.2"
+    lts: true
     releaseDate: 2023-07-05
     eol: 2024-07-05
-    lts: true
     eoes: false
     latest: "3.2.12"
     latestReleaseDate: 2024-04-16
