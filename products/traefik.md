@@ -23,10 +23,17 @@ auto:
 # Table with releaseCycles/releaseDate/eoas:https://doc.traefik.io/traefik/deprecation/releases
 # Estimation: eoas(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "2.11"
-    releaseDate: 2024-02-12
+-   releaseCycle: "3.0"
+    releaseDate: 2024-04-29
     eoas: false
     eol: false
+    latest: "3.0.0"
+    latestReleaseDate: 2024-04-29
+
+-   releaseCycle: "2.11"
+    releaseDate: 2024-02-12
+    eoas: 2025-04-29
+    eol: 2025-04-29
     latest: "2.11.2"
     latestReleaseDate: 2024-04-11
 
