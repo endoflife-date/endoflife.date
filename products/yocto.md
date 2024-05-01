@@ -20,6 +20,14 @@ auto:
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "5.0"
+    codename: 'Scarthgap'
+    lts: true
+    releaseDate: 2024-04-29
+    eol: 2028-04-30
+    latest: "5.0.0"
+    latestReleaseDate: 2024-04-29
+
 -   releaseCycle: "4.3"
     codename: 'Nanbield'
     releaseDate: 2023-11-09
