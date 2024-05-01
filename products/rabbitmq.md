@@ -5,7 +5,7 @@ tags: erlang-runtime
 iconSlug: rabbitmq
 permalink: /rabbitmq
 versionCommand: rabbitmqctl --version
-releasePolicyLink: https://www.rabbitmq.com/versions.html
+releasePolicyLink: https://www.rabbitmq.com/release-information
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Community Support
@@ -21,28 +21,28 @@ auto:
 releases:
 -   releaseCycle: "3.13"
     releaseDate: 2024-02-22
-    eol: 2025-02-28
+    eol: false
     eoes: 2025-08-31
     latest: "3.13.1"
     latestReleaseDate: 2024-03-29
 
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01
-    eol: 2024-06-30
+    eol: 2024-02-22
     eoes: 2024-12-31
     latest: "3.12.13"
     latestReleaseDate: 2024-02-16
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-09-26
-    eol: 2023-12-31
+    eol: 2023-06-02
     eoes: 2024-07-31
     latest: "3.11.28"
     latestReleaseDate: 2023-12-21
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-05-03
-    eol: 2022-05-03
+    eol: 2022-09-28
     eoes: 2023-12-31
     latest: "3.10.25"
     latestReleaseDate: 2023-07-18
