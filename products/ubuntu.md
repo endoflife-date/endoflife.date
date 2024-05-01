@@ -14,6 +14,12 @@ releaseDateColumn: true
 eolColumn: Standard Support
 eoesColumn: Expanded Security Maintenance
 
+customColumns:
+-   property: legacySupport
+    position: before-latest-column
+    label: Legacy Support
+    description: Legacy Support
+    link: https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts
 # https://regex101.com/r/Fzt9US/1
 # We return v1 and v2 separated by newline in case 2 releases were marked
 # under the same headline
@@ -178,6 +184,7 @@ releases:
     releaseDate: 2014-04-17
     eol: 2019-04-02
     eoes: 2024-04-02
+    legacySupport: 2026-04-02
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
 
