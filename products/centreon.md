@@ -26,6 +26,13 @@ auto:
 # eol(x) = releaseDate(x) + 2 years (rounded to the end of the month).
 # See also https://docs.centreon.com/docs/releases/lifecycle/.
 releases:
+-   releaseCycle: '24.04'
+    releaseDate: 2024-04-22
+    eoas: 2025-04-30
+    eol: 2026-04-30
+    latest: '24.04.0'
+    latestReleaseDate: 2024-04-22
+
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
     eoas: 2024-10-31
