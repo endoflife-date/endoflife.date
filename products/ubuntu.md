@@ -19,7 +19,7 @@ customColumns:
     position: before-latest-column
     label: Legacy Support
     description: Legacy Support
-    link: https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts
+    link: https://ubuntu.com/blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts
 # https://regex101.com/r/Fzt9US/1
 # We return v1 and v2 separated by newline in case 2 releases were marked
 # under the same headline
