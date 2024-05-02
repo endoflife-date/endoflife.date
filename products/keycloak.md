@@ -137,4 +137,4 @@ lower severity vulnerabilities or hardening, in the following release.
 
 Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
 with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)
-and [Red Hat build of Quarkus](https://access.redhat.com/products/red-hat-build-of-keycloak).
+and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak).
