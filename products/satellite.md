@@ -75,7 +75,7 @@ releases:
 -   releaseCycle: "6.7"
     releaseDate: 2020-04-14
     eol: 2020-10-31
-    eoes: 2021-11-31
+    eoes: 2021-11-30
     latest: '6.7.5'
     latestReleaseDate: 2020-10-26
 
@@ -96,7 +96,7 @@ releases:
 -   releaseCycle: "6.4"
     releaseDate: 2018-10-16
     eol: 2019-05-31
-    eoes: 2020-04-31
+    eoes: 2020-04-30
     latest: '6.4.4'
     latestReleaseDate: 2019-07-15
 
