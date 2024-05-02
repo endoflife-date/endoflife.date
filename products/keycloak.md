@@ -135,6 +135,6 @@ Only the latest major version gets active development and security fixes.
 Depending on the severity of a vulnerability, the issue may be fixed in the current release or, for
 lower severity vulnerabilities or hardening, in the following release.
 
-A commercial offering with long term support of specific versions of Keycloak is provided by Red Hat
-with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/).
-It should be noted that RH-SSO must be running [under a supported configuration](https://access.redhat.com/articles/2342861).
+Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
+with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)
+and [Red Hat build of Quarkus](https://access.redhat.com/products/red-hat-build-of-keycloak).
