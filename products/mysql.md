@@ -41,8 +41,8 @@ identifiers:
 releases:
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-30
-    lts: 2029-04-30
-    eoas: 2032-04-30
+    lts: true
+    eoas: 2029-04-30
     eol: 2032-04-30
     latest: '8.4.0'
     latestReleaseDate: 2024-04-30
