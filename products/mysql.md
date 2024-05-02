@@ -39,6 +39,14 @@ identifiers:
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-04-30
+    lts: true
+    eoas: 2029-04-30
+    eol: 2032-04-30
+    latest: '8.4.0'
+    latestReleaseDate: 2024-04-30
+
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
     eoas: false
