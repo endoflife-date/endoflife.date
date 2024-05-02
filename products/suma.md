@@ -72,4 +72,4 @@ releases:
 
 > [SUSE Manager](https://www.suse.com/products/suse-manager/) is an open source infrastructure management solution designed to simplify and secure your entire mixed Linux environment - at the core, on the edge or in the cloud(s). Maintain infrastructure security & compliance at any scale - from 10 to 1 million clients - from a single console.
 
-SUSE Manager is usually released every 12 months. The current version is usually supported for additional 12 months once a successor was published.
+SUSE Manager is usually released every 12 months. The current version is usually supported for additional 12 months once a successor was published. The upstream open-source project is [Uyuni](https://uyuni-project.org) - it offers the same functionality, but comes without paid support.
