@@ -73,6 +73,69 @@ releases:
     latest: "6.9.10"
     latestReleaseDate: 2022-11-17
 
+-   releaseCycle: "6.8"
+    releaseDate: 2020-10-27
+    eoas: 2021-04-30
+    eol: 2022-07-31
+    latest: "6.8.6"
+    latestReleaseDate: 2021-04-13
+
+-   releaseCycle: "6.7"
+    releaseDate: 2020-04-14
+    eoas: 2020-10-31
+    eol: 2021-11-30
+    latest: "6.7.5"
+    latestReleaseDate: 2020-10-26
+
+-   releaseCycle: "6.6"
+    releaseDate: 2019-10-22
+    eoas: 2020-04-30
+    eol: 2021-05-14
+    latest: "6.6.3"
+    latestReleaseDate: 2020-04-16
+
+-   releaseCycle: "6.5"
+    releaseDate: 2019-05-14
+    eoas: 2019-10-31
+    eol: 2020-10-31
+    latest: "6.5.3"
+    latestReleaseDate: 2019-10-29
+
+-   releaseCycle: "6.4"
+    releaseDate: 2018-10-16
+    eoas: 2019-05-31
+    eol: 2020-04-30
+    latest: "6.4.4"
+    latestReleaseDate: 2019-07-15
+
+-   releaseCycle: "6.3"
+    releaseDate: 2018-02-21
+    eoas: 2018-10-30
+    eol: 2019-05-31
+    latest: "6.3.5"
+    latestReleaseDate: 2018-10-30
+
+-   releaseCycle: "6.2"
+    releaseDate: 2016-07-27
+    eoas: 2018-02-21
+    eol: 2019-05-31
+    latest: "6.2.16"
+    latestReleaseDate: 2018-11-26
+
+-   releaseCycle: "6.1"
+    releaseDate: 2015-08-12
+    eoas: 2016-07-27
+    eol: 2018-10-30
+    latest: "6.1.12"
+    latestReleaseDate: 2017-06-29
+
+-   releaseCycle: "6.0"
+    releaseDate: 2014-09-10
+    eoas: 2015-08-12
+    eol: 2018-02-21
+    latest: "6.0.8"
+    latestReleaseDate: 2015-02-20
+
 ---
 
 > [Red Hat Satellite](https://www.redhat.com/technologies/management/satellite) is an infrastructure
