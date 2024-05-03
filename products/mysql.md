@@ -6,8 +6,7 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage:
-  https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
+releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
 eoasColumn: Premier Support
@@ -40,12 +39,12 @@ identifiers:
 # We show Extended support dates since that match Community Edition timelines
 releases:
 -   releaseCycle: "8.4"
-    releaseDate: 2024-04-30
+    releaseDate: 2024-04-10
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
     latest: '8.4.0'
-    latestReleaseDate: 2024-04-30
+    latestReleaseDate: 2024-04-10
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
@@ -73,8 +72,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.36'
-    latestReleaseDate: 2023-12-12
+    latest: '8.0.37'
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09

@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "9.15"
     releaseDate: 2024-03-27
     eol: 2026-03-27
-    latest: "9.15.1"
-    latestReleaseDate: 2024-04-17
+    latest: "9.15.2"
+    latestReleaseDate: 2024-05-02
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-15-x-release-notes-1385105791.html
 
 -   releaseCycle: "9.14"
