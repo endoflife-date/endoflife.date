@@ -110,7 +110,7 @@ releases:
 
 -   releaseCycle: "6.3"
     releaseDate: 2018-02-21
-    eoas: 2018-10-31
+    eoas: 2018-10-30
     eol: 2019-05-31
     latest: "6.3.5"
     latestReleaseDate: 2018-10-30
