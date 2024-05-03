@@ -1,11 +1,11 @@
 ---
 title: SUSE Manager
-category: os
+category: server-app
 tags: os suse
 iconSlug: suse
-permalink: /suma
+permalink: /suse-manager
 alternate_urls:
--   /suse-manager
+-   /suma
 versionCommand: cat /etc/uyuni-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/{{'__RELEASE_CYCLE__'}}/"
