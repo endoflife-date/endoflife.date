@@ -1,5 +1,5 @@
 ---
-title: Pnpm
+title: pnpm
 category: app
 tags: package-manager javascript-runtime
 iconSlug: pnpm
