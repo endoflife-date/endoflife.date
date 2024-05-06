@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "2.7"
     releaseDate: 2024-02-08
     eol: false
-    latest: "2.7.4"
-    latestReleaseDate: 2024-04-22
+    latest: "2.7.6"
+    latestReleaseDate: 2024-05-04
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-01
