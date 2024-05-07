@@ -59,8 +59,8 @@ releases:
     eoas: 2024-08-31
     eol: 2025-04-30
     supportedPythonVersions: "3.10 - 3.12"
-    latest: "5.0.4"
-    latestReleaseDate: 2024-04-03
+    latest: "5.0.5"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "4.2"
     lts: true
@@ -68,8 +68,8 @@ releases:
     eoas: 2023-12-04
     eol: 2026-04-30
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
-    latest: "4.2.11"
-    latestReleaseDate: 2024-03-04
+    latest: "4.2.12"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-08-03

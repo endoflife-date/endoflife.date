@@ -28,8 +28,8 @@ releases:
     releaseDate: 2020-09-18
     eoas: false
     eol: false
-    latest: "3.4.26"
-    latestReleaseDate: 2024-04-29
+    latest: "3.4.27"
+    latestReleaseDate: 2024-05-07
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
 -   releaseCycle: "2"
