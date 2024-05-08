@@ -43,8 +43,8 @@ releases:
     supportedPHPVersions: "7.0 - 8.3"
     releaseDate: 2024-04-02
     eol: false
-    latest: "6.5.2"
-    latestReleaseDate: 2024-04-09
+    latest: "6.5.3"
+    latestReleaseDate: 2024-05-07
 
 -   releaseCycle: "6.4"
     supportedPHPVersions: "7.0 - 8.3"
