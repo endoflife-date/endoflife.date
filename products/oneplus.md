@@ -13,11 +13,11 @@ activeSupportColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates
 customColumns:
--   property: supportedAndroidVersions
+-   property: supportedOxygenOSVersions
     position: after-release-column
-    label: Supported Android
-    description: Supported Android versions range
-    link: https://endoflife.date/android
+    label: Supported OxygenOS
+    description: Supported OxygenOS versions range
+    link: https://wikipedia.org/wiki/OxygenOS
 
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
 
