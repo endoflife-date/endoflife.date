@@ -43,6 +43,7 @@ releases:
     lts: true
     releaseDate: 2024-02-28
     eol: 2025-02-28
+    eoes: false
     latest: "3.8.4"
     latestReleaseDate: 2024-04-17
 
