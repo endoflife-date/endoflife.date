@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2017-04-07
     eol: false
-    latest: "3.67.1-01"
-    latestReleaseDate: 2024-04-10
+    latest: "3.68.0-04"
+    latestReleaseDate: 2024-05-08
     link: https://help.sonatype.com/repomanager3/product-information/release-notes
 
 -   releaseCycle: "2"

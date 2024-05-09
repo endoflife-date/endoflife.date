@@ -10,11 +10,11 @@ changelogTemplate: https://releases.electronjs.org/release/v__LATEST__
 eolColumn: Supported
 releaseDateColumn: true
 customColumns:
-  - property: chromeVersion
+-   property: chromeVersion
     position: after-release-column
     label: Chrome
     description: Corresponding Chrome version used in the Electron release
-  - property: nodeVersion
+-   property: nodeVersion
     position: after-release-column
     label: Node
     description: Corresponding Node version used in the Electron release
@@ -36,16 +36,16 @@ releases:
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
     eol: 2024-10-15
-    latest: "30.0.2"
-    latestReleaseDate: 2024-05-02
+    latest: "30.0.3"
+    latestReleaseDate: 2024-05-09
     chromeVersion: "M124"
     nodeVersion: "20.11"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
     eol: 2024-08-20
-    latest: "29.3.2"
-    latestReleaseDate: 2024-05-03
+    latest: "29.3.3"
+    latestReleaseDate: 2024-05-09
     chromeVersion: "M122"
     nodeVersion: "20.9"
 
@@ -264,6 +264,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
+
 
 ---
 
