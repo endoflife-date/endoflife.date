@@ -64,10 +64,6 @@ releases:
 
 ---
 
-# All the product information text should be under triple-dashes.
-# If you are adding any images in the text, they might get blocked due to our CSP.
-# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
-# will not be blocked.
 
 > [Control-M](https://www.bmc.com/it-solutions/control-m.html) is an enterprise workload automation solution that helps organizations manage and orchestrate their business processes, applications, and data workflows.
 
