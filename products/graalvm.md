@@ -25,8 +25,8 @@ releases:
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
     eol: false
-    latest: "jdk-21.0.2"
-    latestReleaseDate: 2024-01-16
+    latest: "jdk-21.0.3"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
@@ -39,8 +39,8 @@ releases:
     releaseLabel: "JDK 17"
     releaseDate: 2023-07-25
     eol: false
-    latest: "jdk-17.0.9"
-    latestReleaseDate: 2023-10-24
+    latest: "jdk-17.0.11"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "22.3"
     releaseDate: 2022-10-25
