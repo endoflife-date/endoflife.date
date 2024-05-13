@@ -30,8 +30,8 @@ releases:
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
-    releaseDate: 2023-07-25
-    eol: false
+    releaseDate: 2023-06-13
+    eol: 2023-07-25
     latest: "jdk-20.0.2"
     latestReleaseDate: 2023-07-25
 
