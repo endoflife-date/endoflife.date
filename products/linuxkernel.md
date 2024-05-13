@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
-    eol: 2024-04-03
+    eol: 2024-04-03 # announced https://lore.kernel.org/lkml/2024040316-sports-conceal-dbbb@gregkh/
     latest: "6.7.12"
     latestReleaseDate: 2024-04-03
 
