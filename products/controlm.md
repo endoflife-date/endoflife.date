@@ -1,3 +1,4 @@
+---
 title: Control-M
 category: server-app
 iconSlug: bmcsoftware
