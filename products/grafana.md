@@ -47,8 +47,8 @@ releases:
     releaseDate: 2023-08-23
     eoas: 2023-10-24
     eol: 2024-01-23
-    latest: "10.1.9"
-    latestReleaseDate: 2024-03-25
+    latest: "10.1.10"
+    latestReleaseDate: 2024-05-13
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-06-09
@@ -61,8 +61,8 @@ releases:
     releaseDate: 2023-04-06
     eoas: 2023-06-09
     eol: false # eol(x) = releaseDate(11.x)
-    latest: "9.5.18"
-    latestReleaseDate: 2024-03-25
+    latest: "9.5.19"
+    latestReleaseDate: 2024-05-13
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-02-27
