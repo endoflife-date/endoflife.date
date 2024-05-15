@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "2.0"
     releaseDate: 2023-07-05
-    eol: 2024-05-13 # https://fluxcd.io/blog/2024/05/flux-v2.3.0/#supported-versions -> Flux v2.0 has reached end-of-life and is no longer supported.
+    eol: 2024-05-13 # https://fluxcd.io/blog/2024/05/flux-v2.3.0/#supported-versions
     latest: "2.0.1"
     latestReleaseDate: 2023-07-11
 
