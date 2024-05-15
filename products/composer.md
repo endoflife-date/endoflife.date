@@ -53,7 +53,7 @@ releases:
 -   releaseCycle: "2.2"
     releaseDate: 2021-12-22
     lts: true
-    eol: 2023-12-31
+    eol: false # seems still supported https://github.com/endoflife-date/endoflife.date/issues/5119
     latest: "2.2.23"
     latestReleaseDate: 2024-02-08
 
