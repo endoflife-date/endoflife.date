@@ -12,7 +12,7 @@ alternate_urls:
 releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
-
+eoesColumn: Rails LTS Support
 auto:
   methods:
   -   git: https://github.com/rails/rails.git
@@ -47,30 +47,33 @@ releases:
     releaseDate: 2018-04-09
     eoas: 2021-12-15
     eol: 2022-06-01
+    eoes: false
     latest: "5.2.8.1"
     latestReleaseDate: 2022-07-12
-
--   releaseCycle: "5.1"
-    releaseDate: 2017-04-27
-    eoas: 2018-04-09
-    eol: 2019-08-25
-    latest: "5.1.7"
-    latestReleaseDate: 2019-03-27
-
--   releaseCycle: "5.0"
-    releaseDate: 2016-06-30
-    eoas: 2018-04-09
-    eol: 2018-04-09
-    latest: "5.0.7.2"
-    latestReleaseDate: 2019-03-13
 
 -   releaseCycle: "4.2"
     releaseDate: 2014-12-19
     eoas: 2016-06-30
     eol: 2017-04-27
+    eoes: false
     latest: "4.2.11.3"
     latestReleaseDate: 2020-05-15
 
+-   releaseCycle: "3.2"
+    releaseDate: 2012-01-20
+    eoas: 2013-06-25
+    eol: 2016-09-14
+    eoes: false
+    latest: "3.2.22.5"
+    latestReleaseDate: 2016-09-14
+
+-   releaseCycle: "2.3"
+    releaseDate: 2009-02-02
+    eoas: 2010-08-30
+    eol: 2011-08-30
+    eoes: false
+    latest: "2.3.18"
+    latestReleaseDate: 2013-03-18
 ---
 
 >[Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework
@@ -81,5 +84,6 @@ Severe security issues (as judged by the core team) are backported further; e.g.
 [severe security fix](https://rubyonrails.org/2022/7/12/Rails-Versions-7-0-3-1-6-1-6-1-6-0-5-1-and-5-2-8-1-have-been-released)
 that was created after v5.2 was no longer receiving (non-severe) security updates.
 
-A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions).
-New releases are published on the [Rails blog](https://rubyonrails.org/category/releases).
+A third-party commercial offering for [Rails LTS](https://railslts.com/) is available from makandra GmbH,
+and is documented as Commercial LTS on this page. Rails LTS also offers a
+[Rails LTS 2.3 Community Edition](https://railslts.com/community) with backports delayed by 10 days.
