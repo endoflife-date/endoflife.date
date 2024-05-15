@@ -109,7 +109,7 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2021-06-08
     eoas: 2022-06-13
-    eol: false
+    eol: 2023-06-09
     latest: "8.5.27"
     latestReleaseDate: 2023-06-07
 
