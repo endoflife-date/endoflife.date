@@ -24,16 +24,16 @@ releases:
     codename: "2022"
     releaseDate: 2024-02-13
     eol: false # eol with release of 18.0
-    latest: "17.9.6"
-    latestReleaseDate: 2024-04-09
+    latest: "17.9.7"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "17.8"
     codename: "2022"
     lts: true
     releaseDate: 2023-11-14
     eol: 2025-07-08
-    latest: "17.8.9"
-    latestReleaseDate: 2024-04-09
+    latest: "17.8.10"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "17.7"
     codename: "2022"
@@ -47,8 +47,8 @@ releases:
     lts: true
     releaseDate: 2023-05-16
     eol: 2025-01-14
-    latest: "17.6.14"
-    latestReleaseDate: 2024-04-09
+    latest: "17.6.15"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -62,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2022-11-08
     eol: 2024-07-09
-    latest: "17.4.18"
-    latestReleaseDate: 2024-04-09
+    latest: "17.4.19"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "17.3"
     codename: "2022"
@@ -99,8 +99,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.35"
-    latestReleaseDate: 2024-04-09
+    latest: "16.11.36"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "16.10"
     codename: "2019"

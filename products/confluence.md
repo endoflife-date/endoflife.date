@@ -99,7 +99,7 @@ releases:
 -   releaseCycle: "7.19"
     lts: true
     releaseDate: 2022-07-27
-    eol: 2024-07-28
+    eol: 2024-10-31
     latest: "7.19.22"
     latestReleaseDate: 2024-05-07
     link: https://confluence.atlassian.com/doc/confluence-7-19-release-notes-1141976784.html

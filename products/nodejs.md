@@ -32,8 +32,8 @@ releases:
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.1.0"
-    latestReleaseDate: 2024-05-02
+    latest: "22.2.0"
+    latestReleaseDate: 2024-05-15
 
 -   releaseCycle: "21"
     releaseDate: 2023-10-17
