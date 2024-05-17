@@ -23,9 +23,9 @@ releases:
     releaseDate: 2023-08-28
     eoas: false
     eol: false
-    latest: "pc.2023.4"
+    latest: "pc.2023.4.0.2"
 
-    latestReleaseDate: 2023-12-20
+    latestReleaseDate: 2024-05-14
 -   releaseCycle: "pc.2023.3"
     releaseDate: 2023-08-28
     eoas: false
