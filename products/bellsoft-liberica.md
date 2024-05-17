@@ -51,16 +51,16 @@ releases:
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
     eol: 2024-09-17
-    latest: "22.0.1+10"
-    latestReleaseDate: 2024-04-17
+    latest: "22.0.1+12"
+    latestReleaseDate: 2024-05-16
 
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     eoes: 2032-03-31
-    latest: "21.0.3+11"
-    latestReleaseDate: 2024-04-17
+    latest: "21.0.3+13"
+    latestReleaseDate: 2024-05-16
     link: https://docs.bell-sw.com/liberica-jdk/21.0.2b14/general/release-notes/ # no link yet for 21.0.2+15
 
 -   releaseCycle: "20"
@@ -87,8 +87,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     eoes: 2030-03-31
-    latest: "17.0.11+11"
-    latestReleaseDate: 2024-04-17
+    latest: "17.0.11+13"
+    latestReleaseDate: 2024-05-16
     link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
 -   releaseCycle: "16"
