@@ -11,7 +11,9 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/open-policy-agent/gatekeeper.git
+  methods:
+  -   git: https://github.com/open-policy-agent/gatekeeper.git
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
 releases:
 -   releaseCycle: "3.15"
