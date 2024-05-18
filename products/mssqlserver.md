@@ -16,13 +16,13 @@ eoesColumn: Extended Security Updates
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas
-    releaseLabel: "2022 CU12+GDR"
+    releaseLabel: "2022 CU13"
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "16.0.4120.1"
-    latestReleaseDate: 2024-04-09 # GDR: https://support.microsoft.com/help/5036343
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate12
+    latest: "16.0.4125.3"
+    latestReleaseDate: 2024-05-16
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate13
 
 -   releaseCycle: "15.0"
     codename: Seattle
