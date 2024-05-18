@@ -18,6 +18,12 @@ auto:
 
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "3.10"
+    releaseDate: 2024-05-17
+    eol: false
+    latest: "3.10.0"
+    latestReleaseDate: 2024-05-17
+
 -   releaseCycle: "3.9"
     releaseDate: 2023-11-25
     eol: false
@@ -32,7 +38,7 @@ releases:
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-11-09
-    eol: false
+    eol: 2024-05-17
     latest: "3.7.9"
     latestReleaseDate: 2024-05-15
 
