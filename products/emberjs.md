@@ -26,13 +26,6 @@ auto:
         lts: "Promotion date"
         eoas: "Bugfixes until"
         eol: "Security patches until"
-  -   release_table: https://emberjs.com/releases/lts/
-      selector: "table"
-      fields:
-        releaseCycle: "LTS version"
-        lts: "LTS promotion"
-        eoas: "Bugfixes until"
-        eol: "Security patches until"
 
 # For LTS :
 # every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
