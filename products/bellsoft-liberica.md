@@ -128,8 +128,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     eoes: 2027-03-31
-    latest: "11.0.23+10"
-    latestReleaseDate: 2024-04-17
+    latest: "11.0.23+12"
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
