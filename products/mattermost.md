@@ -23,10 +23,10 @@ auto:
 
 releases:
 -   releaseCycle: "9.8"
-    releaseDate: 2024-05-16
+    releaseDate: 2024-05-01
     eol: 2024-08-15
     latest: '9.8.0'
-    latestReleaseDate: 2024-05-16
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "9.7"
     releaseDate: 2024-04-01

@@ -38,15 +38,15 @@ releases:
     releaseDate: 2023-12-12
     eoas: 2025-12-14
     eol: 2026-12-14
-    latest: '13.3.0'
-    latestReleaseDate: 2024-04-18
+    latest: '13.3.1'
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "12"
     releaseDate: 2023-06-27
     eoas: 2024-03-29
     eol: 2024-06-29
-    latest: '12.3.9'
-    latestReleaseDate: 2024-03-19
+    latest: '12.3.10'
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "11"
     releaseDate: 2022-11-29
@@ -60,8 +60,8 @@ releases:
     releaseDate: 2022-06-10
     eoas: 2024-06-16
     eol: 2025-06-16
-    latest: '10.8.5'
-    latestReleaseDate: 2024-03-18
+    latest: '10.8.6'
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-26
@@ -76,8 +76,8 @@ releases:
     releaseDate: 2019-02-21
     eoas: 2024-02-24
     eol: 2025-02-24
-    latest: '8.18.13'
-    latestReleaseDate: 2024-02-06
+    latest: '8.18.14'
+    latestReleaseDate: 2024-05-17
 
 # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-7-end-of-life-eol/
 -   releaseCycle: "7"
