@@ -32,16 +32,24 @@ auto:
 # see https://emberjs.com/releases/lts/
 # - lts(x) = release(x) + 6 weeks
 # - eoas(x) = lts(x) + 36 weeks
-# - eol(x) = lts(x) + 54 months
+# - eol(x) = lts(x) + 54 weeks
 #
 # For non-LTS :
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+1)
 releases:
+-   releaseCycle: "5.8"
+    releaseDate: 2024-04-20
+    lts: 2024-04-15
+    eoas: 2024-11-11
+    eol: 2025-04-28
+    latest: "5.8.0"
+    latestReleaseDate: 2024-04-20
+
 -   releaseCycle: "5.7"
     releaseDate: 2024-03-04
-    eoas: false
-    eol: false
+    eoas: 2024-04-20
+    eol: 2024-04-20
     latest: "5.7.0"
     latestReleaseDate: 2024-03-04
 
