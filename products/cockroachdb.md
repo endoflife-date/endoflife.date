@@ -20,11 +20,20 @@ auto:
       selector: "table"
       fields:
         releaseCycle:
-          column: "Version"
+          column: "Major Version"
           regex: '^v?(?P<value>\d+\.\d+).*$'
-        releaseDate: "Release Date"
+        releaseDate: "Initial Release"
         eoas: "Maintenance Support ends"
-        eol: "Assistance Support ends (EOL Date)"
+        eol: "Assistance Support ends"
+  -   release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^v?(?P<value>\d+\.\d+).*$'
+        releaseDate: "Initial Release"
+        eoas: "Maintenance Support ended"
+        eol: "Assistance Support ended"
 
 releases:
 -   releaseCycle: "23.2"
