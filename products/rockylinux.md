@@ -29,7 +29,7 @@ auto:
           column: "Release"
           regex: '^Rocky Linux (?P<value>\d+)$'
         releaseDate: "Release Date"
-        eoas: "Active Support"
+        eoas: "Active Support Ends"
         eol: "End of Life"
 
 releases:
