@@ -2,6 +2,7 @@
 title: Apache Flink
 category: server-app
 tags: apache java-runtime
+iconSlug: apacheflink
 permalink: /apache-flink
 alternate_urls:
 - /flink
@@ -12,6 +13,12 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/apache/flink.git
+
+identifiers:
+-   repology: flink
+-   purl: pkg:github/apache/flink
+-   purl: pkg:docker/library/flink
+-   purl: pkg:docker/apache/flink
 
 releases:
 -   releaseCycle: "1.19"
