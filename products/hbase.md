@@ -16,6 +16,7 @@ auto:
   -   git: https://github.com/apache/hbase.git
       regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
+# Supported releases are listed on https://hbase.apache.org/downloads.html
 releases:
 -   releaseCycle: "2.6"
     releaseDate: 2024-05-17
