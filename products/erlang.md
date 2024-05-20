@@ -18,6 +18,13 @@ auto:
 
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))
 releases:
+-   releaseCycle: "27"
+    releaseDate: 2024-05-20
+    eoas: false
+    eol: 2027-05-20 # projected
+    latest: '27.0.0'
+    latestReleaseDate: 2024-05-20
+
 -   releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: false
@@ -35,7 +42,7 @@ releases:
 -   releaseCycle: "24"
     releaseDate: 2021-05-10
     eoas: 2022-05-17
-    eol: 2024-05-10 # projected
+    eol: 2024-05-10
     latest: '24.3.4.17'
     latestReleaseDate: 2024-04-08
 
