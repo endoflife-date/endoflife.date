@@ -19,6 +19,7 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/kubernetes-sigs/node-feature-discovery.git
+      regex: '^v?(?P<major>\d)\.(?P<minor>\d+)(\.(?P<patch>\d+)(\.(?P<tiny>\d+))?)?$' # 0.x versions are ignored by default
 
 identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
@@ -52,8 +53,8 @@ releases:
 
 ---
 
-> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a a Kubernetes add-on for detecting hardware
-> features and system configuration. It advertises these features using node labels and optionally node extended resources, annotations and node taints.
+> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a a Kubernetes add-on for
+> detecting hardware features and system configuration. It advertises these features using node labels and optionally
+> node extended resources, annotations and node taints.
 
-Looking at prior releases, a new release is made every two weeks, and the latest two releases
-receive bug fixes.
+Looking at prior releases, a new release is made every two weeks, and the latest two releases receive bug fixes.
