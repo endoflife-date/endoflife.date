@@ -30,8 +30,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.8"
-    latestReleaseDate: 2024-03-29
+    latest: "12.0.9"
+    latestReleaseDate: 2024-05-03
 
 -   releaseCycle: "11"
     minJvmVersion: 11
@@ -41,8 +41,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     eoes: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
-    latest: "11.0.20"
-    latestReleaseDate: 2024-01-29
+    latest: "11.0.21"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "10"
     minJvmVersion: 11
@@ -52,8 +52,8 @@ releases:
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "10.0.20"
-    latestReleaseDate: 2024-01-29
+    latest: "10.0.21"
+    latestReleaseDate: 2024-05-14
 
 -   releaseCycle: "9.4"
     minJvmVersion: 1.8

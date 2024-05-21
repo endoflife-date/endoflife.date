@@ -36,7 +36,7 @@ releases:
     releaseDate: 2023-06-10
     eol: 2026-06-10
     eoes: 2028-06-10
-    link: https://www.debian.org/News/2023/20230610
+    link: https://www.debian.org/News/2024/20240210
     latest: "12.5"
     latestReleaseDate: 2024-02-10
 
@@ -45,7 +45,7 @@ releases:
     releaseDate: 2021-08-14
     eol: 2024-07-31
     eoes: 2026-06-30
-    link: https://www.debian.org/News/2023/20230429
+    link: https://www.debian.org/News/2024/2024021002
     latest: "11.9"
     latestReleaseDate: 2024-02-10
 

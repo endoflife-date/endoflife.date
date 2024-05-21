@@ -20,26 +20,35 @@ auto:
       selector: "table"
       fields:
         releaseCycle:
-          column: "Version"
+          column: "Major Version"
           regex: '^v?(?P<value>\d+\.\d+).*$'
-        releaseDate: "Release Date"
+        releaseDate: "Initial Release"
         eoas: "Maintenance Support ends"
-        eol: "Assistance Support ends (EOL Date)"
+        eol: "Assistance Support ends"
+  -   release_table: https://www.cockroachlabs.com/docs/releases/release-support-policy
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^v?(?P<value>\d+\.\d+).*$'
+        releaseDate: "Initial Release"
+        eoas: "Maintenance Support ended"
+        eol: "Assistance Support ended"
 
 releases:
 -   releaseCycle: "23.2"
     releaseDate: 2024-01-12
     eoas: 2025-02-05
     eol: 2025-08-05
-    latest: "23.2.4"
-    latestReleaseDate: 2024-04-08
+    latest: "23.2.5"
+    latestReleaseDate: 2024-05-03
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-05-08
     eoas: 2024-05-15
     eol: 2024-11-15
-    latest: "23.1.19"
-    latestReleaseDate: 2024-04-17
+    latest: "23.1.21"
+    latestReleaseDate: 2024-04-29
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-11-15

@@ -6,6 +6,8 @@ iconSlug: ubuntu
 permalink: /ubuntu
 versionCommand: lsb_release --release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
+releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
+
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
 releaseDateColumn: true
@@ -30,9 +32,11 @@ identifiers:
 releases:
 -   releaseCycle: "24.04"
     codename: "Noble Numbat"
+    lts: true
     releaseDate: 2024-04-25
-    eoas: 2036-04-25
-    eol: 2036-04-25
+    eoas: 2029-04-25
+    eol: 2029-04-25
+    eoes: 2036-04-25
     latest: "24.04"
     latestReleaseDate: 2024-04-25
 

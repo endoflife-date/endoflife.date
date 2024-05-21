@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "26.1"
     releaseDate: 2024-04-22
     eol: false
-    latest: "26.1.1"
-    latestReleaseDate: 2024-04-30
+    latest: "26.1.3"
+    latestReleaseDate: 2024-05-16
 
 -   releaseCycle: "26.0"
     releaseDate: 2024-03-20
@@ -46,8 +46,8 @@ releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
     eol: false
-    latest: "23.0.10"
-    latestReleaseDate: 2024-03-21
+    latest: "23.0.11"
+    latestReleaseDate: 2024-05-06
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"

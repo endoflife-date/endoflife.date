@@ -24,9 +24,9 @@ releases:
     releaseDate: 2022-05-26
     eoas: 2027-05-31
     eol: 2032-05-31
-    latest: "9.3"
-    latestReleaseDate: 2023-11-13
-    link: https://almalinux.org/blog/2023-11-13-announcing-93-stable/
+    latest: "9.4"
+    latestReleaseDate: 2024-05-06
+    link: https://almalinux.org/blog/2024-05-06-announcing-94-stable/
 
 -   releaseCycle: "8"
     releaseDate: 2021-03-30

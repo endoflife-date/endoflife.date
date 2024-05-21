@@ -20,15 +20,15 @@ releases:
     releaseDate: 2023-12-22
     eoas: false # release date of 1.17
     eol: false # release date of 1.21
-    latest: "1.16.2"
-    latestReleaseDate: 2024-03-10
+    latest: "1.16.3"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-06-19
     eoas: 2023-12-22 # release date of 1.16
     eol: false # release date of 1.20
-    latest: "1.15.7"
-    latestReleaseDate: 2023-10-14
+    latest: "1.15.8"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "1.14"
     releaseDate: 2022-09-01

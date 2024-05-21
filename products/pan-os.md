@@ -23,12 +23,19 @@ auto:
         eol: "End-of-Life Date"
 
 releases:
+-   releaseCycle: "11.2"
+    releaseDate: 2024-05-02
+    eol: 2027-05-02
+    latest: "11.2.0"
+    latestReleaseDate: 2024-05-02
+    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-0-known-and-addressed-issues/pan-os-11-2-0-addressed-issues
+    
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
     eol: 2026-11-03
-    latest: "11.1.2-h3"
-    latestReleaseDate: 2024-04-14
-    link: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-2-known-and-addressed-issues/pan-os-11-1-2-h3-addressed-issues
+    latest: "11.1.3"
+    latestReleaseDate: 2024-05-14
+    link: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-3-known-and-addressed-issues/pan-os-11-1-3-addressed-issues
 
 -   releaseCycle: "11.0"
     releaseDate: 2022-11-17
@@ -47,9 +54,9 @@ releases:
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
     eol: 2024-12-01
-    latest: "10.1.13"
-    latestReleaseDate: 2024-03-06
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-13-known-and-addressed-issues/pan-os-10-1-13-addressed-issues
+    latest: "10.1.13-h1"
+    latestReleaseDate: 2024-05-02
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-13-known-and-addressed-issues/pan-os-10-1-13-h1-addressed-issues
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-07-16
