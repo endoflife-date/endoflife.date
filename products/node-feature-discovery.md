@@ -31,25 +31,25 @@ releases:
     releaseDate: 2023-08-08
     eol: false
     latest: "0.15.4"
-    latestReleaseDate: 2024-03-28
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "0.14"
     releaseDate: 2023-04-19
     eol: false
     latest: "0.14.6"
-    latestReleaseDate: 2024-03-28
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "0.13"
     releaseDate: 2022-12-21
     eol: 2023-04-19
-    latest: "0.13.5"
-    latestReleaseDate: 2023-07-08
+    latest: "0.13.6"
+    latestReleaseDate: 2023-10-23
 
 -   releaseCycle: "0.12"
     releaseDate: 2022-06-07
     eol: 2023-09-12
-    latest: "0.12.0"
-    latestReleaseDate: 2022-06-07
+    latest: "0.12.5"
+    latestReleaseDate: 2023-07-21
 
 ---
 

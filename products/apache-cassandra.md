@@ -19,14 +19,14 @@ releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
-    latest: "4.1.4"
-    latestReleaseDate: 2024-02-14
+    latest: "4.1.5"
+    latestReleaseDate: 2024-05-20
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: 2024-07-15
-    latest: "4.0.12"
-    latestReleaseDate: 2024-01-23
+    latest: "4.0.13"
+    latestReleaseDate: 2024-05-20
 # EOL(3.11) = EOL(3.10) = releaseDate(5.0)
 
 -   releaseCycle: "3.11"
