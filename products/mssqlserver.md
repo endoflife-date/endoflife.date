@@ -1,6 +1,6 @@
 ---
 title: Microsoft SQL Server
-category: db
+category: database
 tags: microsoft
 iconSlug: microsoftsqlserver
 permalink: /mssqlserver
