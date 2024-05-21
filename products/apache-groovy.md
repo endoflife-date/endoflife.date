@@ -11,38 +11,39 @@ versionCommand: groovy --version
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   maven: org.apache.groovy/groovy
--   maven: org.codehaus.groovy/groovy
+  methods:
+  -   maven: org.apache.groovy/groovy
+  -   maven: org.codehaus.groovy/groovy
 
 releases:
 -   releaseCycle: "4.0"
     releaseDate: 2022-01-25
     eol: false
-    support: true
-    latest: "4.0.15"
-    latestReleaseDate: 2023-09-11
+    eoas: false
+    latest: "4.0.21"
+    latestReleaseDate: 2024-04-06
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
-    support: false
+    eoas: true
     eol: false
-    latest: "3.0.19"
-    latestReleaseDate: 2023-08-22
+    latest: "3.0.21"
+    latestReleaseDate: 2024-03-01
 
 -   releaseCycle: "2.5"
     releaseDate: 2018-05-30
-    support: false
+    eoas: true
     eol: false
     latest: "2.5.23"
     latestReleaseDate: 2023-08-22
 
 -   releaseCycle: "2.4"
     releaseDate: 2015-01-21
-    support: false
+    eoas: true
     eol: true
     latest: "2.4.21"
     latestReleaseDate: 2020-12-03

@@ -4,11 +4,9 @@ category: server-app
 iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
+changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolWarnThreshold: 14
-
-auto:
--   git: https://github.com/prometheus/prometheus.git
 
 identifiers:
 -   repology: prometheus
@@ -16,11 +14,51 @@ identifiers:
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
 -   purl: pkg:github/prometheus/prometheus
 
-changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
+auto:
+  methods:
+  -   git: https://github.com/prometheus/prometheus.git
+  -   release_table: https://prometheus.io/docs/introduction/release-cycle
+      selector: "table:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^Prometheus (?P<value>\d+\.\d+)$'
+        releaseDate: "Date"
+        eol: "End of support"
 
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "2.52"
+    releaseDate: 2024-05-08
+    eol: 2024-06-19
+    latest: "2.52.0"
+    latestReleaseDate: 2024-05-08
+
+-   releaseCycle: "2.51"
+    releaseDate: 2024-03-19
+    eol: 2024-04-30
+    latest: "2.51.2"
+    latestReleaseDate: 2024-04-10
+
+-   releaseCycle: "2.50"
+    releaseDate: 2024-02-22
+    eol: 2024-04-04
+    latest: "2.50.1"
+    latestReleaseDate: 2024-02-26
+
+-   releaseCycle: "2.49"
+    releaseDate: 2024-01-15
+    eol: 2024-02-26
+    latest: "2.49.1"
+    latestReleaseDate: 2024-01-15
+
+-   releaseCycle: "2.48"
+    releaseDate: 2023-11-15
+    eol: 2023-12-28
+    latest: "2.48.1"
+    latestReleaseDate: 2023-12-08
+
 -   releaseCycle: "2.47"
     releaseDate: 2023-09-06
     eol: 2023-10-18
@@ -37,8 +75,8 @@ releases:
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
-    latest: "2.45.1"
-    latestReleaseDate: 2023-09-29
+    latest: "2.45.5"
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "2.44"
     releaseDate: 2023-05-14

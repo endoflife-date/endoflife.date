@@ -11,12 +11,27 @@ releaseDateColumn: true
 eolColumn: Supported
 
 auto:
-# upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
--   git: https://github.com/FFmpeg/FFmpeg.git
-    regex: '^n?(?<major>[1-9]\d*)\.(?<minor>\d+)\.?(?<patch>\d+)?$'
+  methods:
+  # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
+  -   git: https://github.com/FFmpeg/FFmpeg.git
+      regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "7.0"
+    codename: Dijkstra
+    releaseDate: 2024-04-05
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2024-04-05
+
+-   releaseCycle: "6.1"
+    codename: Heaviside
+    releaseDate: 2023-11-11
+    eol: false
+    latest: "6.1.1"
+    latestReleaseDate: 2023-12-31
+
 -   releaseCycle: "6.0"
     codename: Von Neumann
     releaseDate: 2023-02-27
@@ -35,7 +50,7 @@ releases:
 -   releaseCycle: "5.0"
     codename: Lorentz
     releaseDate: 2022-01-14
-    eol: false
+    eol: 2023-04-02
     latest: "5.0.3"
     latestReleaseDate: 2023-04-02
 

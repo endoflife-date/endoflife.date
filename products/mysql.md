@@ -1,42 +1,68 @@
 ---
 title: MySQL
-category: db
+category: database
 tags: oracle
 iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage: 
-  https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
+releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
-activeSupportColumn: Premier Support
+eoasColumn: Premier Support
 eolColumn: Extended Support
 
-# Regex takes into account the first GA release in each cycle (in parentheses)
-# https://dev.mysql.com/doc/refman/8.2/en/faqs-general.html#faq-mysql-version-ga
-# See https://rubular.com/r/qi5jDueXMwunrS.
+# Regexes take into account the first GA release in each cycle.
+# https://dev.mysql.com/doc/refman/8.3/en/faqs-general.html#faq-mysql-version-ga
 auto:
--   git: https://github.com/mysql/mysql-server.git
-    regex: 
-      ^mysql-(?<v>(5\.5\.([8-9]|\d{2}))|(5\.6\.\d{2})|(5\.7\.([9]|\d{2}))|(8\.0\.(1[1-9]|[2-9]\d))|(8\.[1-9]\.\d+))$
-    template: "{{v}}"
+  methods:
+  -   git: https://github.com/mysql/mysql-server.git
+      regex:
+      -   ^mysql-(?P<v>5\.5\.([8-9]|\d{2}))$
+      -   ^mysql-(?P<v>5\.6\.\d{2})$
+      -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
+      -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
+      -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
+      template: "{{v}}"
+
+identifiers:
+-   repology: mysql
+-   purl: pkg:generic/mysql
+-   purl: pkg:docker/library/mysql
+-   purl: pkg:binary/mysql
+-   purl: pkg:deb/ubuntu/mysql-server
+-   purl: pkg:deb/debian/mysql-server
 
 # dates below are for:
 # support -> GA+5 years = Premier support
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-04-10
+    lts: true
+    eoas: 2029-04-30
+    eol: 2032-04-30
+    latest: '8.4.0'
+    latestReleaseDate: 2024-04-10
+
+-   releaseCycle: "8.3"
+    releaseDate: 2023-12-14
+    eoas: false
+    eol: false
+    latest: '8.3.0'
+    latestReleaseDate: 2023-12-14
+
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
-    support: true
+    eoas: false
     eol: false
     latest: '8.2.0'
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "8.1"
     releaseDate: 2023-06-21
-    support: 2023-10-25
+    eoas: 2023-10-25
     eol: 2023-10-25
     latest: '8.1.0'
     latestReleaseDate: 2023-06-21
@@ -44,28 +70,28 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-04-08
     lts: 2023-07-18
-    support: 2025-04-30
+    eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.35'
-    latestReleaseDate: 2023-10-12
+    latest: '8.0.37'
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09
-    support: 2020-10-31
+    eoas: 2020-10-31
     eol: 2023-10-31
     latest: '5.7.44'
     latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-02-01
-    support: 2018-02-28
+    eoas: 2018-02-28
     eol: 2021-02-28
     latest: '5.6.51'
     latestReleaseDate: 2021-01-05
 
 -   releaseCycle: "5.5"
     releaseDate: 2010-12-03
-    support: 2015-12-31
+    eoas: 2015-12-31
     eol: 2018-12-31
     latest: '5.5.63'
     latestReleaseDate: 2018-12-21
@@ -85,7 +111,7 @@ security patches, and new features. Support for Innovation releases is limited u
 (Innovation or LTS). Patch releases within Innovation releases are possible but are less likely to happen.
 Innovation releases are production-grade quality and can be safely used in production environments.
 
-LTS releases have a 5 year premier and 3 year extended support, the same as the previously supported releases.
+LTS releases have a 5-year premier and 3-year extended support, the same as the previously supported releases.
 The last version of a major release cycle will be designated as LTS. (With the exception of 8.0).
 Features can be removed (& added) only in the first LTS release (e.g., 8.4.0 LTS) but not later.
 

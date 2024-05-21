@@ -13,9 +13,9 @@ eolColumn: Critical bug fixes
 
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
--   git: https://github.com/openzfs/zfs.git
-    regex:
-      ^zfs-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+  methods:
+  -   git: https://github.com/openzfs/zfs.git
+      regex: ^zfs-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years
@@ -26,8 +26,8 @@ releases:
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2023-10-12
     eol: false # releaseDate(2.3)
-    latest: "2.2.0"
-    latestReleaseDate: 2023-10-12
+    latest: "2.2.4"
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "2.1"
     lts: true
@@ -35,8 +35,8 @@ releases:
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
-    latest: "2.1.13"
-    latestReleaseDate: 2023-09-27
+    latest: "2.1.15"
+    latestReleaseDate: 2024-02-26
 
 -   releaseCycle: "2.0"
     supportedLinux: "3.10 - 5.15"

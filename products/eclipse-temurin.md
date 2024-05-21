@@ -8,8 +8,7 @@ alternate_urls:
 -   /temurin
 versionCommand: java -version
 releasePolicyLink: https://adoptium.net/support/
-changelogTemplate: 
-  https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
+changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 releaseDateColumn: true
 
 # There is one repository for each major release.
@@ -17,36 +16,62 @@ releaseDateColumn: true
 # but tag date is 2022-08-15... We will have to use GitHub release dates instead of tags dates.
 # See https://regex101.com/r/vwUz2w/1 and https://regex101.com/r/507aSh/1.
 auto:
--   github_releases: "adoptium/temurin8-binaries"
-    regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
--   github_releases: "adoptium/temurin11-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin16-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin17-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin18-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin19-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin20-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
--   github_releases: "adoptium/temurin21-binaries"
-    regex: '^jdk-(?P<version>[\d\.+]+)$'
+  methods:
+  -   github_releases: "adoptium/temurin8-binaries"
+      regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin11-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin16-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin17-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin18-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin19-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin20-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin21-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   github_releases: "adoptium/temurin22-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
+  -   release_table: https://adoptium.net/support/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Java Version"
+          regex: '^Java\s+(?P<value>\d+)\s+\(LTS\)$' # precise date for non-LTS is known
+        eol:
+          column: "End of Availability [1]"
+          regex: '^(At least )?(?P<value>.+)$'
 
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-03-20
+    eol: 2024-09-17 # expected 23 release date (see https://www.java.com/releases/)
+    latest: "22.0.1.1+1"
+    latestReleaseDate: 2024-04-23
+
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-10-10
-    eol: 2029-09-30
-    latest: "21.0.1+12"
-    latestReleaseDate: 2023-10-24
+    eol: 2029-12-31
+    latest: "21.0.3+9"
+    latestReleaseDate: 2024-04-18
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-23
-    # expected 21 release date (see https://www.java.com/releases/)
     eol: 2023-09-19
     latest: "20.0.2+9"
     latestReleaseDate: 2023-07-21
@@ -67,8 +92,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.9+9.1"
-    latestReleaseDate: 2023-10-27
+    latest: "17.0.11+9"
+    latestReleaseDate: 2024-04-18
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
@@ -81,23 +106,22 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-08-01
-    eol: 2024-10-31
-    latest: "11.0.21+9"
-    latestReleaseDate: 2023-10-18
+    eol: 2027-10-31
+    latest: "11.0.23+9"
+    latestReleaseDate: 2024-04-18
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u392-b08"
-    latestReleaseDate: 2023-10-19
-    link: 
-      https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
+    latest: "8u412-b08"
+    latestReleaseDate: 2024-04-18
+    link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---
 
-> [Eclipse Temurin](https://adoptium.net/temurin/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [Eclipse Temurin](https://adoptium.net/temurin/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK). Temurin is certified using the Oracle
 > Java Compatibility Kit (JCK) to demonstrate that it is a compatible implementation of the Java
 > specification. Temurin releases must also pass the [AQAvit quality verification suite](https://adoptium.net/aqavit/)

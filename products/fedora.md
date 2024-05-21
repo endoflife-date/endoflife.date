@@ -10,39 +10,38 @@ changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/Cha
 releaseDateColumn: true
 
 auto:
--   distrowatch: fedora
-    regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
-    template: '{{version}}'
+  methods:
+  -   distrowatch: fedora
+      regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
+      template: '{{version}}'
 
 identifiers:
 -   cpe: cpe:/o:fedoraproject:fedora
 -   cpe: cpe:2.3:o:fedoraproject:fedora
 
-# eol(X) = releaseDate(X+2) + 4 weeks if X+2 is released
-# or eol(x) = releaseDate(x) + 13 months
+# Dates as per https://fedorapeople.org/groups/schedule/
 releases:
 
+-   releaseCycle: "40"
+    releaseDate: 2024-04-23
+    eol: 2025-05-13
+    latest: "40"
+    latestReleaseDate: 2024-04-23
+
 -   releaseCycle: "39"
-    releaseDate: 2023-11-07
-    # releaseDate(39) + 13 months for now
-    # Revise once 41 comes out
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2024-12-07
+    releaseDate: 2023-10-24
+    eol: 2024-11-12
     latest: "39"
     latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "38"
     releaseDate: 2023-04-18
-    # releaseDate(38) + 13 months for now
-    # Revise once 40 comes out
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
-    eol: 2024-05-18
+    eol: 2024-05-21
     latest: "38"
     latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "37"
-    releaseDate: 2022-11-15
-    # Update with exact date found on https://docs.fedoraproject.org/en-US/releases/eol/ when EOL
+    releaseDate: 2022-10-25
     eol: 2023-12-05
     latest: "37"
     latestReleaseDate: 2022-11-15
@@ -111,6 +110,6 @@ a relatively short life cycle: Release X is supported until 4 weeks after the re
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
-See [this link](https://docs.fedoraproject.org/en-US/releases/) for a list of all releases, and
-[this link](https://docs.fedoraproject.org/en-US/releases/lifecycle/) for more information about the
-Fedora Release Cycle. A list of all EOL releases can be found [here](https://docs.fedoraproject.org/en-US/releases/eol/).
+* [List of all Releases](https://docs.fedoraproject.org/en-US/releases/).
+* [Fedora Project Schedule](https://fedorapeople.org/groups/schedule/) includes tentative dates.
+* [Unsupported Fedora Linux releases](https://docs.fedoraproject.org/en-US/releases/eol/).

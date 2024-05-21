@@ -4,18 +4,19 @@ category: lang
 iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
-releasePolicyLink: https://www.ruby-lang.org/en/downloads/releases/
+releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
 changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
 eolColumn: Support Status
 
 # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
 auto:
--   git: https://github.com/ruby/ruby.git
-    # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
-    # The meaning of patch and tiny below is as per the new policy
-    regex: ^v(?<major>\d+)_(?<minor>\d+)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
+  methods:
+  -   git: https://github.com/ruby/ruby.git
+      # See https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/
+      # The meaning of patch and tiny below is as per the new policy
+      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
+      template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
 identifiers:
 -   repology: ruby
@@ -23,23 +24,29 @@ identifiers:
 -   purl: pkg:generic/ruby
 
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2023-12-25
+    eol: 2027-03-31
+    latest: "3.3.1"
+    latestReleaseDate: 2024-04-23
+
 -   releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.2"
-    latestReleaseDate: 2023-03-30
+    latest: "3.2.4"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-12-25
     eol: 2025-03-31
-    latest: "3.1.4"
-    latestReleaseDate: 2023-03-30
+    latest: "3.1.5"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-12-25
-    eol: 2024-03-31
-    latest: "3.0.6"
-    latestReleaseDate: 2023-03-30
+    eol: 2024-04-23
+    latest: "3.0.7"
+    latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "2.7"
     releaseDate: 2019-12-25

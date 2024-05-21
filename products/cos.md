@@ -15,39 +15,46 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
--   custom: true
+  methods:
+  -   custom: cos
 
+# For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
-# Active Milestones
+-   releaseCycle: "cos-113"
+    lts: true
+    releaseDate: 2024-04-15
+    eol: 2026-03-01
+    latest: "cos-113-18244-85-5"
+    latestReleaseDate: 2024-05-13
+
 -   releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-66-19"
-    latestReleaseDate: 2023-11-07
+    latest: "cos-109-17800-218-26"
+    latestReleaseDate: 2024-05-13
 
 -   releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
-    latest: "cos-105-17412-226-28"
-    latestReleaseDate: 2023-11-07
+    latest: "cos-105-17412-370-29"
+    latestReleaseDate: 2024-05-13
 
 -   releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
-    latest: "cos-101-17162-336-20"
-    latestReleaseDate: 2023-11-07
+    latest: "cos-101-17162-463-16"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
     eol: 2024-03-01
-    latest: "cos-97-16919-404-13"
-    latestReleaseDate: 2023-11-07
+    latest: "cos-97-16919-450-41"
+    latestReleaseDate: 2024-03-27
 
-# Deprecated Milestones
 -   releaseCycle: "cos-93"
     lts: true
     releaseDate: 2021-10-18

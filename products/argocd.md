@@ -14,7 +14,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/argoproj/argo-cd.git
+  methods:
+  -   git: https://github.com/argoproj/argo-cd.git
 
 identifiers:
 -   repology: argocd
@@ -25,23 +26,35 @@ identifiers:
 
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.11"
+    releaseDate: 2024-05-07
+    eol: false
+    latest: "2.11.0"
+    latestReleaseDate: 2024-05-07
+
+-   releaseCycle: "2.10"
+    releaseDate: 2024-02-05
+    eol: false
+    latest: "2.10.9"
+    latestReleaseDate: 2024-04-30
+
 -   releaseCycle: "2.9"
     releaseDate: 2023-11-05
     eol: false
-    latest: "2.9.0"
-    latestReleaseDate: 2023-11-05
+    latest: "2.9.14"
+    latestReleaseDate: 2024-04-30
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-08-07
-    eol: false
-    latest: "2.8.6"
-    latestReleaseDate: 2023-11-01
+    eol: 2024-05-07
+    latest: "2.8.18"
+    latestReleaseDate: 2024-04-30
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-05-01
-    eol: false
-    latest: "2.7.15"
-    latestReleaseDate: 2023-11-02
+    eol: 2024-02-05
+    latest: "2.7.18"
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-02-06

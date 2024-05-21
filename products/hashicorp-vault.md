@@ -6,33 +6,40 @@ iconSlug: vault
 permalink: /hashicorp-vault
 alternate_urls:
 -   /vault
-releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
 releaseDateColumn: true
 versionCommand: vault --version
 
 auto:
--   git: https://github.com/hashicorp/vault.git
+  methods:
+  -   git: https://github.com/hashicorp/vault.git
 
 # eol(x) = release(x+3)
 releases:
+-   releaseCycle: "1.16"
+    releaseDate: 2024-03-25
+    eol: false
+    latest: "1.16.2"
+    latestReleaseDate: 2024-04-22
+
 -   releaseCycle: "1.15"
     releaseDate: 2023-09-22
     eol: false
-    latest: "1.15.2"
-    latestReleaseDate: 2023-11-06
+    latest: "1.15.6"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "1.14"
     releaseDate: 2023-06-19
     eol: false
-    latest: "1.14.6"
-    latestReleaseDate: 2023-11-06
+    latest: "1.14.10"
+    latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "1.13"
     releaseDate: 2023-03-01
-    eol: false
-    latest: "1.13.10"
-    latestReleaseDate: 2023-11-06
+    eol: 2024-03-25
+    latest: "1.13.13"
+    latestReleaseDate: 2024-01-29
 
 -   releaseCycle: "1.12"
     releaseDate: 2022-10-10

@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL
-category: db
+category: database
 iconSlug: postgresql
 permalink: /postgresql
 alternate_urls:
@@ -14,45 +14,52 @@ eolColumn: Support Status
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/postgres/postgres.git
-  # https://rubular.com/r/KlemgnguNe0e5X
-    regex: ^REL_?(?<major>[1-9]\d*)_(?<minor>\d+)_?(?<patch>\d+)?$
+  methods:
+  -   git: https://github.com/postgres/postgres.git
+      regex: ^REL_?(?P<major>[1-9]\d*)_(?P<minor>\d+)_?(?P<patch>\d+)?$
+  -   release_table: https://www.postgresql.org/support/versioning/
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "First Release"
+        eol: "Final Release"
 
 identifiers:
 -   repology: postgresql
 -   purl: pkg:generic/postgresql
 -   purl: pkg:docker/library/postgres
+-   purl: pkg:deb/ubuntu/postgresql
 
 releases:
 -   releaseCycle: "16"
     releaseDate: 2023-09-11
     eol: 2028-11-09
-    latest: "16.1"
-    latestReleaseDate: 2023-11-06
+    latest: "16.3"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "15"
     releaseDate: 2022-10-10
     eol: 2027-11-11
-    latest: "15.5"
-    latestReleaseDate: 2023-11-06
+    latest: "15.7"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "14"
     releaseDate: 2021-09-27
-    eol: 2026-09-30
-    latest: "14.10"
-    latestReleaseDate: 2023-11-06
+    eol: 2026-11-12
+    latest: "14.12"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "13"
     releaseDate: 2020-09-21
     eol: 2025-11-13
-    latest: "13.13"
-    latestReleaseDate: 2023-11-06
+    latest: "13.15"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "12"
     releaseDate: 2019-09-30
     eol: 2024-11-14
-    latest: "12.17"
-    latestReleaseDate: 2023-11-06
+    latest: "12.19"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "11"
     releaseDate: 2018-10-15
@@ -153,5 +160,5 @@ containing any fixes and will be considered end-of-life (EOL) and no longer supp
 
 The [Release roadmap](https://www.postgresql.org/developer/roadmap/) lists upcoming minor and major
 releases. If the release team determines that a critical bug or security fix is too important to
-wait until the regularly scheduled minor release, it may make a release available outside of the
+wait until the regularly scheduled minor release, it may make a release available outside the
 minor release roadmap.

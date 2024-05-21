@@ -11,192 +11,192 @@ releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
 releaseDateColumn: true
 releaseColumn: false
 discontinuedColumn: true
-activeSupportColumn: true
+eoasColumn: true
 
 releases:
 -   releaseCycle: "Professional Ada Lovelace (AD1xx)"
     releaseDate: 2022-10-13
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Consumer Ada Lovelace (AD1xx)"
     releaseDate: 2022-09-20
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Mobile Professional Ampere (GA10x)"
     releaseDate: 2021-04-12
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Mobile Consumer Ampere (GA10x)"
     releaseDate: 2021-01-12
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Professional Ampere (GA10x)"
     releaseDate: 2020-10-05
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Consumer Ampere (GA10x)"
     releaseDate: 2020-09-01
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Mobile Professional Turing (TU1xX)"
     releaseDate: 2019-05-27
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Mobile Consumer Turing (TU1xX)"
     releaseDate: 2019-01-29
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Consumer Turing (TU1xX)"
     releaseDate: 2018-09-20
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Professional Turing (TU1xX)"
     releaseDate: 2018-08-13
-    support: true
+    eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "Professional Volta (GV100)"
     releaseDate: 2017-12-07
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Mobile Professional Pascal (GP10x)"
     releaseDate: 2017-02-06
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Mobile Consumer Pascal (GP10x)"
-    support: true
+    eoas: false
     eol: false
     discontinued: true
     releaseDate: 2016-08-15
 
 -   releaseCycle: "Consumer Pascal (GP10x)"
     releaseDate: 2016-05-27
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Professional Pascal (GP10x)"
     releaseDate: 2016-04-05
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Mobile Professional Maxwell (GMxxx)"
     releaseDate: 2015-08-18
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Professional Maxwell (GMxxx)"
     releaseDate: 2015-06-29
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Mobile Consumer Maxwell (GMxxx)"
     releaseDate: 2014-10-07
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Consumer Maxwell (GMxxx)"
     releaseDate: 2014-09-19
-    support: true
+    eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "Professional Kepler (GKxxx)"
     releaseDate: 2013-03-01
-    support: 2021-09-20
+    eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
 -   releaseCycle: "Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
-    support: 2021-09-20
+    eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
 -   releaseCycle: "Mobile Professional Kepler (GKxxx)"
     releaseDate: 2012-03-22
-    support: 2019-04-23
+    eoas: 2019-04-23
     eol: 2022-03-01
     discontinued: true
 
 -   releaseCycle: "Mobile Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
-    support: 2019-03-11
+    eoas: 2019-03-11
     eol: 2019-04-11
     discontinued: true
 
 -   releaseCycle: "Professional Fermi (GF1xx)**"
     releaseDate: 2010-07-23
-    support: 2018-07-31
+    eoas: 2018-07-31
     eol: 2022-12-31
     discontinued: true
 
 -   releaseCycle: "Consumer Fermi (GF1xx)*"
     releaseDate: 2010-03-26
-    support: 2018-03-10
+    eoas: 2018-03-10
     eol: 2018-03-10
     discontinued: true
 
 -   releaseCycle: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
     releaseDate: 2006-11-08
-    support: 2016-04-01
+    eoas: 2016-04-01
     eol: 2016-12-14
     discontinued: true
 
 -   releaseCycle: "Consumer Curie (NV4x, G7x)"
     releaseDate: 2004-04-14
-    support: 2013-02-25
+    eoas: 2013-02-25
     eol: 2015-02-24
     discontinued: true
 
 -   releaseCycle: "Consumer Rankine (NV3x)"
     releaseDate: 2003-01-27
-    support: 2008-06-23 # Verify support date.
+    eoas: 2008-06-23 # Verify support date.
     eol: 2008-06-23
     discontinued: true
 
 -   releaseCycle: "Consumer Kelvin (NV1x, NV2x)"
     releaseDate: 2001-02-27
-    support: 2006-11-02 # Verify support date.
+    eoas: 2006-11-02 # Verify support date.
     eol: 2006-11-02
     discontinued: true
 
 -   releaseCycle: "Consumer Celsius (NV1x)"
     releaseDate: 1999-10-11
-    support: 2005-04-14 # Verify support date.
+    eoas: 2005-04-14 # Verify support date.
     eol: 2005-04-14
     discontinued: true
 
 -   releaseCycle: "Consumer Fahrenheit (NVx)"
     releaseDate: 1998-06-15
-    support: 2005-03-11 # Verify support date.
+    eoas: 2005-03-11 # Verify support date.
     eol: 2005-03-11
     discontinued: true
 

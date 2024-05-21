@@ -9,38 +9,52 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   custom: true
+  methods:
+  -   custom: artifactory
 
+# EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
+-   releaseCycle: "7.84"
+    releaseDate: 2024-05-12
+    eol: 2025-11-12
+    latest: "7.84.10"
+    latestReleaseDate: 2024-05-12
+
+-   releaseCycle: "7.77"
+    releaseDate: 2024-01-24
+    eol: 2025-07-24
+    latest: "7.77.12"
+    latestReleaseDate: 2024-05-07
+
 -   releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
-    latest: "7.71.4"
-    latestReleaseDate: 2023-11-07
+    latest: "7.71.22"
+    latestReleaseDate: 2024-05-07
 
 -   releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
-    latest: "7.68.17"
-    latestReleaseDate: 2023-11-07
+    latest: "7.68.21"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.63"
     releaseDate: 2023-07-12
     eol: 2025-01-12
-    latest: "7.63.11"
-    latestReleaseDate: 2023-08-10
+    latest: "7.63.21"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.59"
     releaseDate: 2023-05-28
     eol: 2024-11-28
-    latest: "7.59.16"
-    latestReleaseDate: 2023-08-10
+    latest: "7.59.22"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.55"
     releaseDate: 2023-02-28
     eol: 2024-08-28
-    latest: "7.55.14"
-    latestReleaseDate: 2023-05-23
+    latest: "7.55.17"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.49"
     releaseDate: 2022-12-29

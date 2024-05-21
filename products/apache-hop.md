@@ -11,13 +11,28 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   github_releases: 'apache/hop'
+  methods:
+  -   github_releases: 'apache/hop'
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "2.8"
+    releaseDate: 2024-02-28
+    eol: false
+    latest: '2.8.0'
+    latestReleaseDate: 2024-02-28
+    link: https://hop.apache.org/blog/2024/03/hop-2.8.0/
+
+-   releaseCycle: "2.7"
+    releaseDate: 2023-11-17
+    eol: 2024-03-13
+    latest: '2.7.0'
+    latestReleaseDate: 2023-11-17
+    link: https://hop.apache.org/blog/2023/12/hop-2.7.0/
+
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-12
-    eol: false
+    eol: 2023-12-01
     latest: '2.6.0'
     latestReleaseDate: 2023-09-12
 

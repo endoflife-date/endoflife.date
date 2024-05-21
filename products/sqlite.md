@@ -1,6 +1,6 @@
 ---
 title: SQLite
-category: db
+category: database
 iconSlug: sqlite
 permalink: /sqlite
 alternate_urls:
@@ -11,17 +11,23 @@ changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|r
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   purl: pkg:generic/sqlite
+-   purl: pkg:apk/alpine/sqlite
+-   purl: pkg:github/sqlite/sqlite
+
 # This git mirror only contains versions from 3.6.10.
 auto:
--   git: https://github.com/sqlite/sqlite.git
-    regex: '^version-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
+  methods:
+  -   git: https://github.com/sqlite/sqlite.git
+      regex: '^version-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 releases:
 -   releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.44.0"
-    latestReleaseDate: 2023-11-01
+    latest: "3.45.3"
+    latestReleaseDate: 2024-04-15
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28

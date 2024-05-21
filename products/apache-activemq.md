@@ -14,8 +14,9 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/apache/activemq.git
-    regex: '^activemq-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
+  methods:
+  -   git: https://github.com/apache/activemq.git
+      regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # eol(x) = releaseCycle(x+2)
 # link(x) =
@@ -24,15 +25,29 @@ auto:
 # - y <= 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-03-11
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "6.1.2"
+    latestReleaseDate: 2024-04-11
+    link: https://activemq.apache.org/components/classic/download/classic-06-01-00
+
+-   releaseCycle: "6.0"
+    releaseDate: 2023-11-14
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-30
+    link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
 -   releaseCycle: "5.18"
     releaseDate: 2023-03-18
-    eol: false # still listed on https://activemq.apache.org/
-    latest: "5.18.3"
-    latestReleaseDate: 2023-10-24
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "5.18.4"
+    latestReleaseDate: 2024-04-08
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
-    eol: false # still listed on https://activemq.apache.org/
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "5.17.6"
     latestReleaseDate: 2023-10-25
 
@@ -151,6 +166,10 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
+
+
+
 
 ---
 

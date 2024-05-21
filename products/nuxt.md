@@ -6,26 +6,35 @@ permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
 changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 auto:
--   npm: nuxt
+  methods:
+  -   npm: nuxt
+  -   release_table: https://nuxt.com/docs/community/roadmap
+      ignore_empty_releases: true # Ignore future releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+)\.x.*$'
+        eol: "End Of Life"
 
 releases:
 -   releaseCycle: "3"
     releaseDate: 2022-11-16
-    support: true
+    eoas: false
     eol: false
-    latest: "3.8.1"
-    latestReleaseDate: 2023-11-06
+    latest: "3.11.2"
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
-    support: 2022-11-16
+    eoas: 2022-11-16
     eol: 2024-06-30
-    latest: "2.17.2"
-    latestReleaseDate: 2023-10-24
+    latest: "2.17.3"
+    latestReleaseDate: 2024-01-12
 
 ---
 

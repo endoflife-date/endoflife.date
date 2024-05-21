@@ -1,7 +1,7 @@
 ---
 title: FreeBSD
 category: os
-tags: bsd-distribution
+tags: bsd-distribution unix-distribution
 iconSlug: freebsd
 permalink: /freebsd
 versionCommand: freebsd-version
@@ -12,9 +12,22 @@ releaseColumn: false
 
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 releases:
+-   releaseCycle: "releng/14.0"
+    releaseDate: 2023-11-21
+    eol: false
+
+-   releaseCycle: "stable/14"
+    releaseDate: 2023-11-21
+    eol: 2028-11-30
+    link: null
+
+-   releaseCycle: "releng/13.3"
+    releaseDate: 2024-03-05
+    eol: false
+
 -   releaseCycle: "releng/13.2"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2024-06-30
 
 -   releaseCycle: "releng/13.1"
     releaseDate: 2022-05-16
@@ -26,7 +39,7 @@ releases:
 
 -   releaseCycle: "stable/13"
     releaseDate: 2021-04-13
-    eol: 2026-01-31
+    eol: 2026-04-30
     link: null
 
 -   releaseCycle: "releng/12.4"

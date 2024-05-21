@@ -14,7 +14,8 @@ eolColumn: Support
 versionCommand: spark-shell --version
 
 auto:
--   git: https://github.com/apache/spark.git
+  methods:
+  -   git: https://github.com/apache/spark.git
 
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
@@ -22,20 +23,20 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2023-09-09
     eol: 2025-03-09 # estimated
-    latest: "3.5.0"
-    latestReleaseDate: 2023-09-09
+    latest: "3.5.1"
+    latestReleaseDate: 2024-02-15
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-04-07
     eol: 2024-10-07 # estimated
-    latest: "3.4.1"
-    latestReleaseDate: 2023-06-19
+    latest: "3.4.3"
+    latestReleaseDate: 2024-04-15
 
 -   releaseCycle: "3.3"
     releaseDate: 2022-06-09
     eol: 2023-12-09 # estimated
-    latest: "3.3.3"
-    latestReleaseDate: 2023-08-04
+    latest: "3.3.4"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "3.2"
     releaseDate: 2021-10-06

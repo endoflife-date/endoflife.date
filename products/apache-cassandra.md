@@ -1,6 +1,6 @@
 ---
 title: Apache Cassandra
-category: db
+category: database
 tags: apache java-runtime
 iconSlug: apachecassandra
 permalink: /apache-cassandra
@@ -11,35 +11,37 @@ changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_p
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/apache/cassandra.git
-    regex: '^cassandra-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/apache/cassandra.git
+      regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
-    latest: "4.1.3"
-    latestReleaseDate: 2023-07-18
+    latest: "4.1.4"
+    latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: 2024-07-15
-    latest: "4.0.11"
-    latestReleaseDate: 2023-07-18
+    latest: "4.0.12"
+    latestReleaseDate: 2024-01-23
+# EOL(3.11) = EOL(3.10) = releaseDate(5.0)
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: 2023-12-15
-    latest: "3.11.16"
+    eol: false
+    latest: "3.11.17"
     discontinued: true
-    latestReleaseDate: 2023-08-20
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
-    eol: 2023-12-15
-    latest: "3.0.29"
+    eol: false
+    latest: "3.0.30"
     discontinued: true
-    latestReleaseDate: 2023-05-15
+    latestReleaseDate: 2024-04-15
 
 ---
 
@@ -70,5 +72,5 @@ a 3.x version to a 5.x version is not supported. Only upgrades stepping through 
 ## Release Cadence
 
 The project currently targets yearly major releases (can be a new major or minor version, depending
-on upgrade compatability). Patch releases are cut based on either volume of fixes or severity of
+on upgrade compatibility). Patch releases are cut based on either volume of fixes or severity of
 bugfixes that get committed to the project.

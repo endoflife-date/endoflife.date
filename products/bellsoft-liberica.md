@@ -11,7 +11,7 @@ releasePolicyLink: https://bell-sw.com/roadmap/
 changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
 releaseDateColumn: true
 eolColumn: Public support
-extendedSupportColumn: Commercial support
+eoesColumn: Commercial support
 
 identifiers:
 # Official Docker Images
@@ -37,41 +37,47 @@ identifiers:
 
 # There is one repository for each major release (except for 15 and 16).
 auto:
--   github_releases: "bell-sw/Liberica"
-    regex:
-    -   '^(?P<version>[0-9.u+]+)$'
-    -   '^OpenJDK (?P<version>[0-9.u+]+)$'
+  methods:
+  -   github_releases: "bell-sw/Liberica"
+      regex:
+      -   '^(?P<version>[0-9.u+]+)$'
+      -   '^OpenJDK (?P<version>[0-9.u+]+)$'
+      template: '{{version}}'
 
 # EOL dates are OpenJDK EOL dates, which are not fixed. This page is using Eclipse Temurin
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/roadmap/.
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-03-20
+    eol: 2024-09-17
+    latest: "22.0.1+12"
+    latestReleaseDate: 2024-05-16
+
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
-    extendedSupport: 2032-03-31
-    latest: "21.0.1+15"
-    latestReleaseDate: 2023-11-06
+    eoes: 2032-03-31
+    latest: "21.0.3+13"
+    latestReleaseDate: 2024-05-16
+    link: https://docs.bell-sw.com/liberica-jdk/21.0.2b14/general/release-notes/ # no link yet for 21.0.2+15
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-22
     eol: 2023-09-19
-    extendedSupport: false
     latest: "20.0.2+10"
     latestReleaseDate: 2023-07-20
 
 -   releaseCycle: "19"
     releaseDate: 2022-09-21
     eol: 2023-03-21
-    extendedSupport: false
     latest: "19.0.2+9"
     latestReleaseDate: 2023-01-18
 
 -   releaseCycle: "18"
     releaseDate: 2022-03-23
     eol: 2022-09-20
-    extendedSupport: false
     latest: "18.0.2.1+1"
     latestReleaseDate: 2022-08-25
     link: https://docs.bell-sw.com/liberica-jdk/18.0.2b10/general/release-notes/
@@ -80,21 +86,20 @@ releases:
     lts: true
     releaseDate: 2021-09-17
     eol: 2027-10-31
-    extendedSupport: 2030-03-31
-    latest: "17.0.9+16"
-    latestReleaseDate: 2023-11-06
+    eoes: 2030-03-31
+    latest: "17.0.11+13"
+    latestReleaseDate: 2024-05-16
+    link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-19
     eol: 2021-09-14
-    extendedSupport: false
     latest: "16.0.2+7"
     latestReleaseDate: 2021-07-23
 
 -   releaseCycle: "15"
     releaseDate: 2020-09-17
     eol: 2021-03-16
-    extendedSupport: false
     latest: "15.0.2+10"
     latestReleaseDate: 2021-01-22
     link: https://docs.bell-sw.com/liberica-jdk/15.0.2b8/general/release-notes/
@@ -102,21 +107,18 @@ releases:
 -   releaseCycle: "14"
     releaseDate: 2020-03-19
     eol: 2020-09-16
-    extendedSupport: false
     latest: "14.0.2+13"
     latestReleaseDate: 2020-07-14
 
 -   releaseCycle: "13"
     releaseDate: 2019-09-26
     eol: 2020-03-17
-    extendedSupport: false
     latest: "13.0.2+9"
     latestReleaseDate: 2020-01-16
 
 -   releaseCycle: "12"
     releaseDate: 2019-03-22
     eol: 2019-09-17
-    extendedSupport: false
     latest: "12.0.2"
     latestReleaseDate: 2019-07-20
     link: https://docs.bell-sw.com/liberica-jdk/12.0.2b10/general/release-notes/
@@ -125,15 +127,14 @@ releases:
     lts: true
     releaseDate: 2018-10-08
     eol: 2024-10-31
-    extendedSupport: 2027-03-31
-    latest: "11.0.21+10"
-    latestReleaseDate: 2023-10-18
+    eoes: 2027-03-31
+    latest: "11.0.23+12"
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
     releaseDate: 2018-03-21
     eol: 2018-09-25
-    extendedSupport: false
     latest: "10.0.2"
     # last modified date of the files in https://download.bell-sw.com/java/10.0.2/bellsoft-jdk10.0.2-linux-amd64.deb
     latestReleaseDate: 2018-08-24
@@ -144,29 +145,29 @@ releases:
     lts: true
     releaseDate: 2018-11-01
     eol: 2026-11-30
-    extendedSupport: 2031-03-31
-    latest: "8u392+9"
-    latestReleaseDate: 2023-10-18
+    eoes: 2031-03-31
+    latest: "8u412+9"
+    latestReleaseDate: 2024-04-17
 
 -   releaseCycle: "7"
     lts: true
     releaseDate: 2011-07-11
     eol: 2022-07-31
-    extendedSupport: 2026-03-31
+    eoes: 2026-03-31
     latest: "unknown"
-    link:
+    link: null
 
 -   releaseCycle: "6"
     lts: true
     releaseDate: 2006-12-12
     eol: 2018-12-31
-    extendedSupport: 2026-03-31
+    eoes: 2026-03-31
     latest: "unknown"
-    link:
+    link: null
 
 ---
 
-> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [BellSoft Liberica JDK](https://bell-sw.com/libericajdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) that is tested and verified to be
 > compliant with the Java SE specification using OpenJDK Technology Compatibility Kit test suite for
 > Linux, Windows, macOS, and Solaris operating systems.

@@ -1,47 +1,56 @@
 ---
 title: NetBSD
 category: os
-tags: bsd-distribution
+tags: bsd-distribution unix-distribution
 iconSlug: netbsd
 permalink: /netbsd
 versionCommand: uname -r
 releasePolicyLink: https://www.netbsd.org/releases/
 changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 
+# eoas(x) = releaseDate(x+1)
+# For eol see https://www.netbsd.org/releases/formal.html
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2024-03-28
+    eoas: false
+    eol: false
+    latest: "10.0"
+    latestReleaseDate: 2024-03-28
+
 -   releaseCycle: "9"
     releaseDate: 2022-02-14
-    support: true
+    eoas: 2024-03-28
     eol: false
-    latest: "9.3"
-    latestReleaseDate: 2022-08-04
+    latest: "9.4"
+    latestReleaseDate: 2024-04-20
 
 -   releaseCycle: "8"
     releaseDate: 2018-07-17
-    support: 2022-02-14
-    eol: false
+    eoas: 2022-02-14
+    eol: 2024-04-30
     latest: "8.2"
-    latestReleaseDate: 2020-03-31
+    latestReleaseDate: 2020-03-30
 
 -   releaseCycle: "7"
     releaseDate: 2015-09-25
-    support: 2018-07-17
+    eoas: 2018-07-17
     eol: 2020-06-30
     latest: "7.2"
     latestReleaseDate: 2018-08-29
 
 -   releaseCycle: "6"
     releaseDate: 2012-10-17
-    support: 2015-09-25
+    eoas: 2015-09-25
     eol: 2018-08-17
     latest: "6.1.5"
     latestReleaseDate: 2014-09-22
 
 -   releaseCycle: "5"
     releaseDate: 2009-04-29
-    support: 2012-10-17
+    eoas: 2012-10-17
     eol: 2015-10-25
     latest: "5.2.3"
     latestReleaseDate: 2014-11-15

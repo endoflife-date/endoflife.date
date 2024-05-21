@@ -13,7 +13,7 @@ jobs:
     steps:
       - id: metadata
         name: Dependabot metadata
-        uses: dependabot/fetch-metadata@v1.6.0
+        uses: dependabot/fetch-metadata@v2.1.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
@@ -24,18 +24,18 @@ jobs:
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install Python Dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r '_data/release-data/requirements.txt'
 
       - id: latest
-        name: Update latest releases
-        run: python _auto/latest.py
+        name: Auto-update products
+        run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
-      - name: Update latest and latestReleaseDate
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: products/*
@@ -43,8 +43,8 @@ jobs:
           status_options: '--untracked-files=no'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
 
-      - name: Enable auto-merge for Dependabot PRs for release data
-        if: ${{contains(steps.metadata.outputs.dependency-names, '_data/release-data')}}
+      - name: Create PR
+        if: ${{ contains(steps.metadata.outputs.dependency-names, '_data/release-data') }}
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}

@@ -12,11 +12,12 @@ identifiers:
 -   purl: pkg:os/devuan
 
 auto:
--   distrowatch: devuan
-    regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
+  methods:
+  -   distrowatch: devuan
+      regex: '^Distribution Release: Devuan GNU\+Linux (?P<major>\d)\.(?P<minor>\d)(?:\.(?P<patch>\d))?$'
 
 # lts(x) = eol(corresponding Debian version)
-# eol(x) = extendedSupport(corresponding Debian version)
+# eol(x) = eoes(corresponding Debian version)
 releases:
 -   releaseCycle: "5"
     codename: "Daedalus"

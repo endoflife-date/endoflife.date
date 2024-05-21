@@ -10,15 +10,23 @@ eolColumn: Maintenance
 releaseDateColumn: true
 
 auto:
--   custom: true
+  methods:
+  -   custom: graalvm
 
 releases:
+-   releaseCycle: "jdk-22"
+    releaseLabel: "JDK 22"
+    releaseDate: 2024-03-19
+    eol: false
+    latest: "jdk-22.0.1"
+    latestReleaseDate: 2024-04-16
+
 -   releaseCycle: "jdk-21"
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
     eol: false
-    latest: "jdk-21.0.1"
-    latestReleaseDate: 2023-10-24
+    latest: "jdk-21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
@@ -58,8 +66,8 @@ releases:
     # see https://medium.com/graalvm/graalvm-22-0-is-here-c7acc82a8c2e
     releaseDate: 2022-01-25
     eol: 2022-04-26
-    latest: "22.0.0"
-    latestReleaseDate: 2022-01-25
+    latest: "22.0.1"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "21.3"
     releaseDate: 2021-10-19
@@ -83,8 +91,8 @@ releases:
 -   releaseCycle: "21.0"
     releaseDate: 2021-01-19
     eol: 2021-04-20
-    latest: "21.0.0.2"
-    latestReleaseDate: 2021-02-11
+    latest: "21.0.3"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "20.3"
     releaseDate: 2020-11-17
@@ -108,8 +116,8 @@ releases:
 -   releaseCycle: "20.0"
     releaseDate: 2020-02-18
     eol: 2020-05-19
-    latest: "20.0.1"
-    latestReleaseDate: 2020-04-14
+    latest: "20.0.2"
+    latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "19.3"
     releaseDate: 2019-11-19

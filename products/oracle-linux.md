@@ -5,19 +5,19 @@ tags: linux-distribution oracle
 iconSlug: oracle
 permalink: /oracle-linux
 alternate_urls:
-  - /oraclelinux
+-   /oraclelinux
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releaseDateColumn: true
 eolColumn: Basic/Premier Support
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
 # https://regex101.com/r/fRdw9L/1
 auto:
--   distrowatch: oracle
-    regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.|
-      Update )?(?P<minor>\d+)?$'
+  methods:
+  -   distrowatch: oracle
+      regex: '^Distribution Release: Oracle( Enterprise| Unbreakable)? Linux R?(?P<major>\d)(-U|\.| Update )?(?P<minor>\d+)?$'
 
 identifiers:
 -   cpe: cpe:/o:oracle:linux
@@ -27,28 +27,28 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
-    extendedSupport: 2034-06-30
-    latest: "9.2"
-    latestReleaseDate: 2023-05-26
+    eoes: 2035-06-30
+    latest: "9.4"
+    latestReleaseDate: 2024-05-15
 
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
-    eol: 2029-07-01
-    extendedSupport: 2031-07-01
-    latest: "8.8"
-    latestReleaseDate: 2023-05-26
+    eol: 2029-07-31
+    eoes: 2032-07-31
+    latest: "8.9"
+    latestReleaseDate: 2023-11-21
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
-    eol: 2024-12-01
-    extendedSupport: 2026-06-01
+    eol: 2024-12-31
+    eoes: 2028-06-30
     latest: "7.9"
     latestReleaseDate: 2020-10-08
 
 -   releaseCycle: "6"
     releaseDate: 2011-02-12
-    eol: 2021-03-01
-    extendedSupport: 2024-12-01
+    eol: 2021-03-31
+    eoes: 2024-12-31
     latest: "6.10"
     latestReleaseDate: 2018-07-02
 

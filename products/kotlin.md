@@ -16,15 +16,16 @@ identifiers:
 
 # NPM looks a lot more accurate than git, even if it does not reference a few 1.x versions.
 auto:
--   npm: kotlin
+  methods:
+  -   npm: kotlin
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
 -   releaseCycle: "1.9"
     releaseDate: 2023-07-06
     eol: false
-    latest: "1.9.20"
-    latestReleaseDate: 2023-10-31
+    latest: "1.9.24"
+    latestReleaseDate: 2024-05-07
 
 -   releaseCycle: "1.8"
     eol: 2023-07-06

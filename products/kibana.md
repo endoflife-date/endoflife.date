@@ -10,19 +10,20 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/elastic/kibana.git
+  methods:
+  -   git: https://github.com/elastic/kibana.git
 
 releases:
 -   releaseCycle: "8"
     eol: 2024-08-10 # later of 2024-08-10 or 6 months after the release date of 9.0
-    latest: "8.11.0"
-    latestReleaseDate: 2023-11-07
+    latest: "8.13.4"
+    latestReleaseDate: 2024-05-14
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.14"
-    latestReleaseDate: 2023-10-10
+    latest: "7.17.21"
+    latestReleaseDate: 2024-05-03
     releaseDate: 2019-04-10
 
 -   releaseCycle: "6"

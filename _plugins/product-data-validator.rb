@@ -14,7 +14,7 @@ require 'open-uri'
 module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
-  VALID_CATEGORIES = %w[app db device framework lang library os server-app service standard]
+  VALID_CATEGORIES = %w[app database device framework lang library os server-app service standard]
   VALID_CUSTOM_COLUMN_POSITIONS = %w[after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
@@ -31,6 +31,7 @@ module EndOfLifeHooks
   SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
     'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'https://apex.oracle.com/sod': SUPPRESSED_BECAUSE_403,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
     'https://azure.microsoft.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://business.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -38,23 +39,31 @@ module EndOfLifeHooks
     'https://blog.system76.com/post/': SUPPRESSED_BECAUSE_404,
     'https://codex.wordpress.org/Supported_Versions': SUPPRESSED_BECAUSE_EOF,
     'https://dev.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://docs.arangodb.com': SUPPRESSED_BECAUSE_404,
     'https://docs.clamav.net': SUPPRESSED_BECAUSE_403,
     'https://docs-prv.pcisecuritystandards.org': SUPPRESSED_BECAUSE_403,
     'https://dragonwell-jdk.io/': SUPPRESSED_BECAUSE_UNAVAILABLE,
+    'https://docs-cortex.paloaltonetworks.com/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://euro-linux.com': SUPPRESSED_BECAUSE_403,
+    'https://forums.unrealircd.org': SUPPRESSED_BECAUSE_403,
     'https://github.com/angular/angular.js/blob/v1.6.10/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
+    'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://make.wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
     'https://moodle.org/': SUPPRESSED_BECAUSE_403,
     'https://opensource.org/licenses/osl-3.0.php': SUPPRESSED_BECAUSE_403,
     'https://reload4j.qos.ch/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://stackoverflow.com': SUPPRESSED_BECAUSE_403,
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
+    'https://support.herodevs.com/hc/en-us/articles/': SUPPRESSED_BECAUSE_403,
+    'https://twitter.com/OracleAPEX': SUPPRESSED_BECAUSE_403,
+    'https://visualstudio.microsoft.com/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://wiki.debian.org': SUPPRESSED_BECAUSE_TIMEOUT,
-    'https://wiki.ubuntu.com/PrecisePangolin/ReleaseNotes/': SUPPRESSED_BECAUSE_503,
+    'https://wiki.ubuntu.com': SUPPRESSED_BECAUSE_503,
     'https://wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://www.amazon.com/gp/help/customer/display.html': SUPPRESSED_BECAUSE_403,
     'https://www.amazon.com/Kindle8Notes': SUPPRESSED_BECAUSE_503,
@@ -62,24 +71,31 @@ module EndOfLifeHooks
     'https://www.amazon.com/KindleScribeNotes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Oasis8Notes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Oasis9Notes': SUPPRESSED_BECAUSE_503,
+    'https://www.amazon.com/Oasis10Notes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Paperwhite7Notes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Paperwhite11Notes': SUPPRESSED_BECAUSE_503,
     'https://www.amazon.com/Voyage7Notes': SUPPRESSED_BECAUSE_503,
     'https://www.atlassian.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.betaarchive.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.citrix.com/products/citrix-virtual-apps-and-desktops/': SUPPRESSED_BECAUSE_403,
     'https://www.clamav.net': SUPPRESSED_BECAUSE_403,
+    'https://www.devuan.org': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.drupal.org/': SUPPRESSED_BECAUSE_403,
     'https://www.erlang.org/doc/system_principles/misc.html': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://kernelnewbies.org': SUPPRESSED_BECAUSE_TIMEOUT,
     'http://www.slackware.com/faq/do_faq.php': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.microsoft.com/download/internet-explorer': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/sql-server': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/windows': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
+    'https://www.raspberrypi.com': SUPPRESSED_BECAUSE_403,
+    'https://www.reddit.com': SUPPRESSED_BECAUSE_403,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
   URL_CHECK_OPEN_TIMEOUT = 3
@@ -100,7 +116,7 @@ module EndOfLifeHooks
     start = Time.now
     Jekyll.logger.debug TOPIC, "Validating '#{product.name}'..."
 
-    error_if = Validator.new(product, product.data)
+    error_if = Validator.new('product', product, product.data)
     error_if.is_not_a_string('title')
     error_if.is_not_in('category', EndOfLifeHooks::VALID_CATEGORIES)
     error_if.does_not_match('tags', /^[a-z0-9\-]+( [a-z0-9\-]+)*$/) if product.data.has_key?('tags')
@@ -114,20 +130,24 @@ module EndOfLifeHooks
     error_if.is_not_a_string('LTSLabel')
     error_if.is_not_a_boolean_nor_a_string('eolColumn')
     error_if.is_not_a_number('eolWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('activeSupportColumn')
-    error_if.is_not_a_number('activeSupportWarnThreshold')
+    error_if.is_not_a_boolean_nor_a_string('eoasColumn')
+    error_if.is_not_a_number('eoasWarnThreshold')
     error_if.is_not_a_boolean_nor_a_string('releaseColumn')
     error_if.is_not_a_boolean_nor_a_string('releaseDateColumn')
     error_if.is_not_a_boolean_nor_a_string('discontinuedColumn')
     error_if.is_not_a_number('discontinuedWarnThreshold')
-    error_if.is_not_a_boolean_nor_a_string('extendedSupportColumn')
-    error_if.is_not_a_number('extendedSupportWarnThreshold')
-    error_if.is_not_an_array('auto')
+    error_if.is_not_a_boolean_nor_a_string('eoesColumn')
+    error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
 
+    if product.data.has_key?('auto')
+      error_if = Validator.new('auto', product, product.data['auto'])
+      error_if.is_not_an_array('methods')
+    end
+
     product.data['customColumns'].each { |column|
-      error_if = Validator.new(product, column)
+      error_if = Validator.new('customColumns', product, column)
       error_if.is_not_a_string('property')
       error_if.is_not_in('position', EndOfLifeHooks::VALID_CUSTOM_COLUMN_POSITIONS)
       error_if.is_not_a_string('label')
@@ -136,20 +156,27 @@ module EndOfLifeHooks
     }
 
     product.data['releases'].each { |release|
-      error_if = Validator.new(product, release)
+      error_if = Validator.new('releases', product, release)
       error_if.is_not_a_string('releaseCycle')
       error_if.is_not_a_string('releaseLabel') if release.has_key?('releaseLabel')
       error_if.is_not_a_string('codename') if release.has_key?('codename')
       error_if.is_not_a_date('releaseDate') if product.data['releaseDateColumn']
       error_if.too_far_in_future('releaseDate') if product.data['releaseDateColumn']
-      error_if.is_not_a_boolean_nor_a_date('support') if product.data['activeSupportColumn']
+      error_if.is_not_a_boolean_nor_a_date('eoas') if product.data['eoasColumn']
       error_if.is_not_a_boolean_nor_a_date('eol') if product.data['eolColumn']
       error_if.is_not_a_boolean_nor_a_date('discontinued') if product.data['discontinuedColumn']
-      error_if.is_not_a_boolean_nor_a_date('extendedSupport') if product.data['extendedSupportColumn']
+      error_if.is_not_a_boolean_nor_a_date('eoes') if product.data['eoesColumn'] and release.has_key?('eoes')
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
       error_if.is_not_a_string('latest') if product.data['releaseColumn']
       error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
+
+      error_if.is_not_before('releaseDate', 'eoas') if product.data['releaseDateColumn'] and product.data['eoasColumn']
+      error_if.is_not_before('releaseDate', 'eol') if product.data['releaseDateColumn'] and product.data['eolColumn']
+      error_if.is_not_before('releaseDate', 'eoes') if product.data['releaseDateColumn'] and product.data['eoesColumn']
+      error_if.is_not_before('eoas', 'eol') if product.data['eoasColumn'] and product.data['eolColumn']
+      error_if.is_not_before('eoas', 'eoes') if product.data['eoasColumn'] and product.data['eoesColumn']
+      error_if.is_not_before('eol', 'eoes') if product.data['eolColumn'] and product.data['eoesColumn']
     }
 
     Jekyll.logger.debug TOPIC, "Product '#{product.name}' successfully validated in #{(Time.now - start).round(3)} seconds."
@@ -160,19 +187,19 @@ module EndOfLifeHooks
       start = Time.now
       Jekyll.logger.info TOPIC, "Validating urls for '#{product.name}'..."
 
-      error_if = Validator.new(product, product.data)
+      error_if = Validator.new('product', product, product.data)
       error_if.is_url_invalid('releasePolicyLink') if product.data['releasePolicyLink']
       error_if.is_url_invalid('releaseImage') if product.data['releaseImage']
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
 
       product.data['customColumns'].each { |column|
-        error_if = Validator.new(product, column)
+        error_if = Validator.new('customColumns', product, column)
         error_if.is_url_invalid('link') if column['link']
       }
 
       product.data['releases'].each { |release|
-        error_if = Validator.new(product, release)
+        error_if = Validator.new('releases', product, release)
         error_if.is_url_invalid('link') if release['link']
       }
 
@@ -183,10 +210,15 @@ module EndOfLifeHooks
   private
 
   class Validator
-    def initialize(product, data)
+    def initialize(name, product, data)
       @product = product
       @data = data
       @error_count = 0
+
+      unless data.kind_of?(Hash)
+        declare_error(name, data, "expecting an Hash, got #{data.class}")
+        @data = {} # prevent further errors
+      end
     end
 
     def error_count
@@ -196,7 +228,7 @@ module EndOfLifeHooks
     def is_not_an_array(property)
       value = @data[property]
       unless value.kind_of?(Array)
-        declare_error(property, value, "expecting and Array, got #{value.class}")
+        declare_error(property, value, "expecting an Array, got #{value.class}")
       end
     end
 
@@ -259,6 +291,15 @@ module EndOfLifeHooks
       value = @data[property]
       unless [true, false].include?(value) or value.kind_of?(String)
         declare_error(property, value, "expecting a value of type boolean or string, got #{value.class}")
+      end
+    end
+
+    def is_not_before(property1, property2)
+      value1 = @data[property1]
+      value2 = @data[property2]
+
+      if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
+        declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
       end
     end
 
@@ -331,9 +372,9 @@ module EndOfLifeHooks
     end
 
     def location
-      if @data.has_key?('releaseCycle')
+      if @data.kind_of?(Hash) and @data.has_key?('releaseCycle')
         "#{@product.name}#releases##{@data['releaseCycle']}"
-      elsif @data.has_key?('property')
+      elsif @data.kind_of?(Hash) and @data.has_key?('property')
         "#{@product.name}#customColumn##{@data['property']}"
       else
         @product.name

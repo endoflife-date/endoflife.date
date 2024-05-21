@@ -7,32 +7,33 @@ permalink: /solr
 alternate_urls:
 -   /apache_solr
 -   /apache-solr
+versionCommand: bin/solr version
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true
 
-# https://rubular.com/r/WWOqtBih7muRFz
 auto:
--   git: https://github.com/apache/lucene-solr.git
-    regex: '^releases\/lucene-solr\/(?<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
--   git: https://github.com/apache/solr.git
+  methods:
+  -   git: https://github.com/apache/lucene-solr.git
+      regex: '^releases\/lucene-solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
+  -   git: https://github.com/apache/solr.git
     # Only pick new release from the new repo
-    regex: '^releases\/solr\/(?<version>\d+\.\d+(.\d+)?)$'
-    template: '{{version}}'
+      regex: '^releases\/solr\/(?P<version>\d+\.\d+(.\d+)?)$'
+      template: '{{version}}'
 
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.4.0"
-    latestReleaseDate: 2023-10-14
+    latest: "9.6.0"
+    latestReleaseDate: 2024-04-27
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13
     eol: false
-    latest: "8.11.2"
-    latestReleaseDate: 2022-06-17
+    latest: "8.11.3"
+    latestReleaseDate: 2024-02-08
 
 ---
 

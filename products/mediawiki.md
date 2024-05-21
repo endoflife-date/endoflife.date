@@ -3,27 +3,43 @@ title: MediaWiki
 category: server-app
 tags: php-runtime
 permalink: /mediawiki
-versionCommand: "https://your-server-url/mediawiki/Special:Version"
+versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/llebggzr6u9gj415qxtfcde01ij1mcd.png
-changelogTemplate: "https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__"
+changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 releaseDateColumn: true
 eolColumn: End-of-Life
 
 auto:
--   git: https://github.com/wikimedia/mediawiki.git
+  methods:
+  -   git: https://github.com/wikimedia/mediawiki.git
+  -   release_table: https://www.mediawiki.org/wiki/Version_lifecycle
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release"
+        eol: "End-of-life"
 
 releases:
+-   releaseCycle: "1.41"
+    releaseDate: 2023-12-21
+    eol: 2024-12-31
+    latest: "1.41.1"
+    latestReleaseDate: 2024-03-28
+
 -   releaseCycle: "1.40"
     releaseDate: 2023-06-30
     eol: 2024-06-30
-    latest: "1.40.1"
-    latestReleaseDate: 2023-09-29
+    latest: "1.40.3"
+    latestReleaseDate: 2024-03-28
 
 -   releaseCycle: "1.39"
     eol: 2025-11-30
-    latest: "1.39.5"
-    latestReleaseDate: 2023-09-28
+    latest: "1.39.7"
+    latestReleaseDate: 2024-03-28
     releaseDate: 2022-11-30
     lts: true
 
@@ -47,9 +63,9 @@ releases:
 
 -   releaseCycle: "1.35"
     lts: true
-    eol: 2023-11-30
-    latest: "1.35.13"
-    latestReleaseDate: 2023-09-29
+    eol: 2023-12-21
+    latest: "1.35.14"
+    latestReleaseDate: 2023-12-21
     releaseDate: 2020-09-25
 
 -   releaseCycle: "1.34"

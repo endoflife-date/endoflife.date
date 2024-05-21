@@ -5,24 +5,41 @@ tags: hashicorp
 iconSlug: terraform
 permalink: /terraform
 versionCommand: terraform --version
-releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
-auto:
--   git: https://github.com/hashicorp/terraform.git
+identifiers:
+-   purl: pkg:github/hashicorp/terraform
+-   purl: pkg:generic/terraform
 
+auto:
+  methods:
+  -   git: https://github.com/hashicorp/terraform.git
+
+# eol(x) = releaseDate(x+2)
 releases:
-# EOL(R) = releaseDate(R+2)
+-   releaseCycle: "1.8"
+    releaseDate: 2024-04-10
+    eol: false # releaseDate(1.10)
+    latest: "1.8.3"
+    latestReleaseDate: 2024-05-08
+
+-   releaseCycle: "1.7"
+    releaseDate: 2024-01-17
+    eol: false # releaseDate(1.9)
+    latest: "1.7.5"
+    latestReleaseDate: 2024-03-13
+
 -   releaseCycle: "1.6"
     releaseDate: 2023-10-04
-    eol: false # releaseDate(1.8)
-    latest: "1.6.3"
-    latestReleaseDate: 2023-11-01
+    eol: 2024-04-10
+    latest: "1.6.6"
+    latestReleaseDate: 2023-12-13
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-06-12
-    eol: false # releaseDate(1.7)
+    eol: 2024-01-17
     latest: "1.5.7"
     latestReleaseDate: 2023-09-07
 
@@ -58,12 +75,12 @@ releases:
 
 ---
 
-> [Hashicorp Terraform](https://www.terraform.io/) is a [BSL-licensed](https://www.hashicorp.com/bsl) infrastructure as code
-> software tool by Hashicorp.
+> [Hashicorp Terraform](https://www.terraform.io/) is a [BUSL-1.1 licensed](https://www.hashicorp.com/bsl)
+> infrastructure as code software tool by Hashicorp.
 
-Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
-code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major
-release" branch, for up to two (2) releases from the most current major release.
+Generally Available (GA) releases of active products are supported for up to two (2) years.
+Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest
+"major release" branch, for up to two (2) releases from the most current major release.
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
 versioning nomenclature: `Version X.Y.Z.`

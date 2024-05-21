@@ -8,7 +8,8 @@ changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/aws/aws-cdk
+  methods:
+  -   git: https://github.com/aws/aws-cdk
 
 identifiers:
 -   repology: aws-cdk
@@ -19,13 +20,15 @@ identifiers:
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-12-01
-    support: true
+    eoas: false
     eol: false
-    latest: "2.106.0"
-    latestReleaseDate: 2023-11-10
+    latest: "2.142.1"
+    latestReleaseDate: 2024-05-17
 
 ---
 
-> [Amazon CDK](https://aws.amazon.com/cdk/) help you define your cloud application in AWS resources using familiar programming languages.
+> [Amazon CDK](https://aws.amazon.com/cdk/) help you define your cloud application in AWS resources
+> using familiar programming languages.
 
-The AWS CDK is updated approximately once a week. Maintenance versions may be released between weekly releases to address critical issues.
+The AWS CDK is updated approximately once a week. Maintenance versions may be released between
+weekly releases to address critical issues.

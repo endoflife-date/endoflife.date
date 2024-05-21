@@ -7,24 +7,25 @@ versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html
 changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATEST__"
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Security Support
 
 auto:
--   maven: org.jreleaser/jreleaser
+  methods:
+  -   maven: org.jreleaser/jreleaser
 
 releases:
 -   releaseCycle: "1"
     releaseDate: 2022-04-10
     eol: false
-    support: true
-    latest: "1.9.0"
-    latestReleaseDate: 2023-11-01
+    eoas: false
+    latest: "1.12.0"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "0"
     releaseDate: 2021-04-10
     eol: 2022-04-10
-    support: 2022-04-10
+    eoas: 2022-04-10
     latest: "0.10.0"
     latestReleaseDate: 2021-12-28
 

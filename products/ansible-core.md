@@ -5,15 +5,14 @@ tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
-releasePolicyLink: 
-  https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
-  https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 eolColumn: Supported
 
 auto:
--   git: https://github.com/ansible/ansible.git
+  methods:
+  -   git: https://github.com/ansible/ansible.git
 
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
 # EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
@@ -24,8 +23,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-06
     eol: 2025-05-01
-    latest: "2.16.0"
-    latestReleaseDate: 2023-11-06
+    latest: "2.16.6"
+    latestReleaseDate: 2024-04-15
 
 -   releaseCycle: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11
@@ -33,8 +32,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-15
     eol: 2024-11-01
-    latest: "2.15.6"
-    latestReleaseDate: 2023-11-06
+    latest: "2.15.11"
+    latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "2.14"
     pythonVersionsControlNode: 3.9 - 3.11
@@ -42,8 +41,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.11"
-    latestReleaseDate: 2023-10-09
+    latest: "2.14.16"
+    latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "2.13"
     pythonVersionsControlNode: 3.8 - 3.10

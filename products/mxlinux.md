@@ -11,32 +11,33 @@ alternate_urls:
 versionCommand: cat /etc/lsb-release
 releasePolicyLink: https://mxlinux.org/release-cycle/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:os/mxlinux
 
 auto:
--   distrowatch: mx
-    regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
+  methods:
+  -   distrowatch: mx
+      regex: '^Distribution Release: MX Linux (?P<major>\d+)(\.(?P<minor>\d+))?$'
 
 # EOL dates documented on https://mxlinux.org/previous-releases/.
-# If not documented yet, use Debian eol for support, and extendedSupport for eol.
+# If not documented yet, use Debian eol for support, and eoes for eol.
 releases:
 -   releaseCycle: "23"
     codename: "Libretto"
     releaseDate: 2023-07-31
-    support: 2026-06-10
+    eoas: 2026-06-10
     eol: 2028-06-10
-    latest: "23.1"
-    latestReleaseDate: 2023-10-16
+    latest: "23.3"
+    latestReleaseDate: 2024-05-20
     link: https://mxlinux.org/blog/mx-23-libretto-now-available/
 
 -   releaseCycle: "21"
     codename: "Wildflower"
     releaseDate: 2021-10-21
-    support: 2024-06-30
+    eoas: 2024-06-30
     eol: 2026-06-30
     latest: "21.3"
     latestReleaseDate: 2023-01-15
@@ -45,7 +46,7 @@ releases:
 -   releaseCycle: "19"
     codename: "Patito Feo"
     releaseDate: 2019-10-22
-    support: 2022-09-10
+    eoas: 2022-09-10
     eol: 2024-06-30
     latest: "19.4"
     latestReleaseDate: 2021-04-01
@@ -54,7 +55,7 @@ releases:
 -   releaseCycle: "18"
     codename: "Continuum"
     releaseDate: 2018-12-20
-    support: 2020-06-05
+    eoas: 2020-06-05
     eol: 2022-06-30
     latest: "18.3"
     latestReleaseDate: 2019-05-28
@@ -63,7 +64,7 @@ releases:
 -   releaseCycle: "17"
     codename: "Horizon"
     releaseDate: 2017-12-15
-    support: 2020-06-05
+    eoas: 2020-06-05
     eol: 2022-06-30
     latest: "17.1"
     latestReleaseDate: 2018-03-15
@@ -72,7 +73,7 @@ releases:
 -   releaseCycle: "16"
     codename: "Metamorphosis"
     releaseDate: 2016-12-14
-    support: 2018-06-23
+    eoas: 2018-06-23
     eol: 2020-06-30
     latest: "16.1"
     latestReleaseDate: 2017-06-08
@@ -81,22 +82,20 @@ releases:
 -   releaseCycle: "15"
     codename: "Fusion"
     releaseDate: 2015-12-24
-    support: 2018-06-23
+    eoas: 2018-06-23
     eol: 2020-06-30
     latest: "15"
     latestReleaseDate: 2015-12-24
-    link:
-      https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
+    link: https://web.archive.org/web/20160105095436/http://antix.mepis.org/index.php?title=Main_Page
 
 -   releaseCycle: "14"
     codename: "Symbiosis"
     releaseDate: 2014-03-25
-    support: 2016-06-04
+    eoas: 2016-06-04
     eol: 2018-05-31
     latest: "14.4"
     latestReleaseDate: 2015-03-24
-    link:
-      https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
+    link: https://web.archive.org/web/20150402080108/http://antix.mepis.org/index.php?title=Main_Page
 
 ---
 

@@ -8,12 +8,13 @@ alternate_urls:
 -   /vuejs
 versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
-extendedSupportColumn: Commercial Support
+eoesColumn: Commercial Support
 
 auto:
--   npm: vue
+  methods:
+  -   npm: vue
 
 identifiers:
 -   repology: vue.js
@@ -25,27 +26,25 @@ identifiers:
 releases:
 -   releaseCycle: "3"
     releaseDate: 2020-09-18
-    support: true
+    eoas: false
     eol: false
-    extendedSupport: false
-    latest: "3.3.8"
-    latestReleaseDate: 2023-11-06
+    latest: "3.4.27"
+    latestReleaseDate: 2024-05-07
     link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
 -   releaseCycle: "2"
     releaseDate: 2016-09-30
-    support: 2022-03-18
+    eoas: 2022-03-18
     eol: 2023-12-31
-    extendedSupport: true
-    latest: "2.7.15"
-    latestReleaseDate: 2023-10-23
+    eoes: false
+    latest: "2.7.16"
+    latestReleaseDate: 2023-12-24
     link: https://github.com/vuejs/vue/blob/main/CHANGELOG.md
 
 -   releaseCycle: "1"
     releaseDate: 2015-10-27
-    support: false
+    eoas: true
     eol: true
-    extendedSupport: false
     latest: "1.0.28"
     latestReleaseDate: 2016-09-27
     link: https://github.com/vuejs/vue/releases/tag/v__LATEST__
@@ -68,5 +67,5 @@ patches only) for another 18 months before entering end of life. "2.7" is the pl
 for the v2 cycle with an [announced 2.x end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
 
 Commercial support for Vue 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-vue)
-initiative. For more information, see NES Vue [2.6](https://docs.herodevs.com/docs/vue2/2.6) and
-[2.7](https://docs.herodevs.com/docs/vue2/2.7) docs.
+initiative. For more information, see NES Vue [2.6](https://support.herodevs.com/hc/en-us/articles/21257913328909-Vue-2-6-NES) and
+[2.7](https://support.herodevs.com/hc/en-us/articles/21257927146381-Vue-2-7-NES) docs.

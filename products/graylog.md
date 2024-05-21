@@ -16,22 +16,29 @@ eolColumn: Support
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/Graylog2/graylog2-server.git
+  methods:
+  -   git: https://github.com/Graylog2/graylog2-server.git
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "6.0"
+    releaseDate: 2024-05-06
+    eol: false
+    latest: "6.0.1"
+    latestReleaseDate: 2024-05-13
+
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30
     eol: false
-    latest: "5.2.0"
-    latestReleaseDate: 2023-10-30
+    latest: "5.2.7"
+    latestReleaseDate: 2024-04-30
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11
-    eol: false
-    latest: "5.1.8"
-    latestReleaseDate: 2023-11-01
+    eol: 2024-05-06
+    latest: "5.1.13"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-11-30
@@ -159,11 +166,11 @@ releases:
     eol: 2015-06-04
     latest: "1.0.2"
     latestReleaseDate: 2015-04-28
-    link:      # nothing found for this version
+    link: null
 
 ---
 
-> Graylog is a centralized logging solution based that enables aggregating and searching through
+> [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through
 > logs. It provides a query language, a processing pipeline for data transformation, alerting
 > abilities, and much more. It is extensible through a REST API or add-ons that can be downloaded
 > from [the Graylog marketplace](https://marketplace.graylog.org/).

@@ -16,37 +16,53 @@ identifiers:
 -   cpe: cpe:2.3:o:alpinelinux:alpine_linux
 
 auto:
-# upstream does not support filtering https://git.alpinelinux.org/aports
--   git: https://github.com/alpinelinux/aports.git
+  methods:
+  # upstream does not support filtering https://git.alpinelinux.org/aports
+  -   git: https://github.com/alpinelinux/aports.git
+  -   release_table: https://alpinelinux.org/releases/
+      selector: "table"
+      fields:
+        releaseCycle: "Branch"
+        eol:
+          column: "End of support"
+          regex: '^.+(?P<date>\d{4}-\d{2}-\d{2}).*$'
+          template: "{{date}}"
 
-# eol(x) = releaseDate(x) + 2 years
+# eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
+-   releaseCycle: "3.19"
+    releaseDate: 2023-12-07
+    eol: 2025-11-01
+    latest: "3.19.1"
+    latestReleaseDate: 2024-01-26
+    link: https://alpinelinux.org/posts/Alpine-3.19.1-released.html
+
 -   releaseCycle: "3.18"
     releaseDate: 2023-05-09
     eol: 2025-05-09
-    latest: "3.18.4"
-    latestReleaseDate: 2023-09-28
-    link: https://alpinelinux.org/posts/Alpine-3.18.4-released.html
+    latest: "3.18.6"
+    latestReleaseDate: 2024-01-26
+    link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22
-    latest: "3.17.5"
-    latestReleaseDate: 2023-08-07
-    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
+    latest: "3.17.7"
+    latestReleaseDate: 2024-01-26
+    link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
 
 -   releaseCycle: "3.16"
     eol: 2024-05-23
-    latest: "3.16.7"
-    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
-    latestReleaseDate: 2023-08-07
+    latest: "3.16.9"
+    link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
+    latestReleaseDate: 2024-01-26
     releaseDate: 2022-05-23
 
 -   releaseCycle: "3.15"
     eol: 2023-11-01
-    latest: "3.15.10"
+    latest: "3.15.11"
     link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
-    latestReleaseDate: 2023-08-07
+    latestReleaseDate: 2023-11-30
     releaseDate: 2021-11-24
 
 -   releaseCycle: "3.14"
@@ -85,7 +101,7 @@ releases:
     releaseDate: 2019-06-19
 
 -   releaseCycle: "3.9"
-    eol: 2021-01-01
+    eol: 2020-11-01
     latest: "3.9.6"
     link: https://alpinelinux.org/posts/Alpine-3.9.6-and-3.10.5-released.html
     latestReleaseDate: 2020-04-23
@@ -115,5 +131,5 @@ cycle but rather a snapshot of edge is taken every 6 months as a release. Stable
 supported normally for 2 years. Security fixes beyond that are on request and when patches are
 available.
 
-Only the latest release (i.e. `v3.17` at this time) gets bug fixes, prior supported releases only
+Only the latest release gets bug fixes, prior supported releases only
 get security fixes.

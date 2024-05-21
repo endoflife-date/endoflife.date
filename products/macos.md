@@ -12,41 +12,43 @@ releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 eolColumn: Service Status
 
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/macos.json
-# Source: https://support.apple.com/en-us/HT201222 (and older versions linked at bottom)
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/apple.py
 auto:
--   custom: true
+  methods:
+  -   apple: ios
+      regex:
+      -   '^macOS[\D]+(?P<version>\d+(?:\.\d+)*)'
+      -   'OS\s+X\s[\w\s]+\sv?(?P<version>\d+(?:\.\d+)+)'
+      -   '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
 -   releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.1.1'
-    latestReleaseDate: 2023-11-07
+    latest: '14.5'
+    latestReleaseDate: 2024-05-13
     link: https://support.apple.com/HT213895
 
 -   releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: '13.6.2'
-    latestReleaseDate: 2023-11-07
+    latest: '13.6.7'
+    latestReleaseDate: 2024-05-13
     link: https://support.apple.com/HT213268
 
 -   releaseCycle: "12"
     codename: "Monterey"
     releaseDate: 2021-10-25
     eol: false
-    latest: '12.7.1'
-    latestReleaseDate: 2023-10-25
+    latest: '12.7.5'
+    latestReleaseDate: 2024-05-13
     link: https://support.apple.com/HT212585
 
 -   releaseCycle: "11"
     codename: "Big Sur"
     releaseDate: 2020-11-12
-    eol: false
+    eol: 2023-09-26
     latest: '11.7.10'
     latestReleaseDate: 2023-09-11
     link: https://support.apple.com/HT211896

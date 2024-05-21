@@ -18,16 +18,61 @@ customColumns:
     link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
 auto:
--   maven: org.apache.camel/camel
+  methods:
+  -   maven: org.apache.camel/camel
 
 # for LTS : eol = releaseDate + 1y
 # for non-LTS : eol(x) = releaseDate(x+1)
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
+-   releaseCycle: "4.6"
+    releaseDate: 2024-05-05
+    eol: false
+    supportedJavaVersions: 17, 21
+    latest: "4.6.0"
+    latestReleaseDate: 2024-05-05
+
+-   releaseCycle: "4.5"
+    releaseDate: 2024-03-23
+    eol: 2024-05-10
+    supportedJavaVersions: 17, 21
+    latest: "4.5.0"
+    latestReleaseDate: 2024-03-23
+
+-   releaseCycle: "4.4"
+    lts: true
+    releaseDate: 2024-02-12
+    eol: 2025-02-12
+    supportedJavaVersions: 17, 21
+    latest: "4.4.2"
+    latestReleaseDate: 2024-04-21
+
+-   releaseCycle: "3.22"
+    lts: true
+    releaseDate: 2023-12-19
+    eol: 2024-12-26
+    supportedJavaVersions: 11, 17
+    latest: "3.22.2"
+    latestReleaseDate: 2024-04-29
+
+-   releaseCycle: "4.3"
+    releaseDate: 2023-12-11
+    eol: 2024-02-12
+    supportedJavaVersions: 17, 21
+    latest: "4.3.0"
+    latestReleaseDate: 2023-12-11
+
+-   releaseCycle: "4.2"
+    releaseDate: 2023-11-10
+    eol: 2023-12-18
+    supportedJavaVersions: 17, 21
+    latest: "4.2.0"
+    latestReleaseDate: 2023-11-10
+
 -   releaseCycle: "4.1"
     releaseDate: 2023-10-06
-    eol: false
+    eol: 2023-11-15
     supportedJavaVersions: 17
     latest: "4.1.0"
     latestReleaseDate: 2023-10-06
@@ -37,24 +82,24 @@ releases:
     releaseDate: 2023-08-10
     eol: 2024-08-10
     supportedJavaVersions: 17
-    latest: "4.0.2"
-    latestReleaseDate: 2023-10-22
+    latest: "4.0.5"
+    latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "3.21"
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-06-23
     supportedJavaVersions: 11, 17
-    latest: "3.21.2"
-    latestReleaseDate: 2023-10-23
+    latest: "3.21.4"
+    latestReleaseDate: 2024-01-24
 
 -   releaseCycle: "3.20"
     lts: true
     releaseDate: 2022-12-16
     eol: 2023-12-31
     supportedJavaVersions: 11, 17
-    latest: "3.20.8"
-    latestReleaseDate: 2023-10-26
+    latest: "3.20.9"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "3.19"
     releaseDate: 2022-09-29
