@@ -23,6 +23,13 @@ auto:
         eol: "End-of-Life Date"
 
 releases:
+-   releaseCycle: "11.2"
+    releaseDate: 2024-05-02
+    eol: 2027-05-02
+    latest: "11.2.0"
+    latestReleaseDate: 2024-05-02
+    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-0-known-and-addressed-issues/pan-os-11-2-0-addressed-issues
+    
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
     eol: 2026-11-03
