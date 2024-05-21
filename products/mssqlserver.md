@@ -10,10 +10,9 @@ alternate_urls:
 versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
-activeSupportColumn: true
-releaseColumn: true
+eoasColumn: true
 releaseDateColumn: true
-extendedSupportColumn: Extended Security Updates
+eoesColumn: Extended Security Updates
 
 # releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 # Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
@@ -22,9 +21,9 @@ releases:
     codename: Dallas
     releaseLabel: "2022"
     releaseDate: 2022-11-16
-    support: 2028-01-11
+    eoas: 2028-01-11
     eol: 2033-01-11
-    extendedSupport: false
+    eoes: false
     latestGdr: "16.0.1115.1"
     latestGdrLink: https://support.microsoft.com/help/5035432
     latest: "16.0.4125.3 CU13"
@@ -35,9 +34,9 @@ releases:
     codename: SQL16
     releaseLabel: "2016 SP3"
     releaseDate: 2021-09-15
-    support: 2021-07-13
+    eoas: 2021-07-13
     eol: 2026-07-14
-    extendedSupport: false
+    eoes: false
     latestGdr: "13.0.6435.1"
     latestGdrLink: https://support.microsoft.com/help/5029186
     latest: "13.0.6435.1 GDR"
@@ -48,9 +47,9 @@ releases:
     codename: Seattle
     releaseLabel: "2019"
     releaseDate: 2019-11-04
-    support: 2025-02-28
+    eoas: 2025-02-28
     eol: 2030-01-08
-    extendedSupport: false
+    eoes: false
     latestGdr: "15.0.2110.4"
     latestGdrLink: https://support.microsoft.com/help/5035434
     latest: "15.0.4365.2"
@@ -63,7 +62,7 @@ releases:
     releaseDate: 2018-10-30
     support: 2019-07-09
     eol: 2024-07-09
-    extendedSupport: false
+    eoes: false
     latestGdr: "12.0.6179.1"
     latestGdrLink: https://support.microsoft.com/help/5029184
     latest: "12.0.6449.1 CU4+GDR"
@@ -74,9 +73,9 @@ releases:
     codename: SQL16
     releaseLabel: "2016 SP2"
     releaseDate: 2018-04-24
-    support: 2022-10-11
+    eoas: 2022-10-11
     eol: 2022-10-11
-    extendedSupport: false
+    eoes: false
     latestGdr: "13.0.5108.50"
     latestGdrLink: https://support.microsoft.com/help/5014365
     latest: "13.0.5893.48 CU17+GDR"
@@ -87,9 +86,9 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP4"
     releaseDate: 2017-10-05
-    support: 2022-07-12
+    eoas: 2022-07-12
     eol: 2022-07-12
-    extendedSupport: 2025-07-08
+    eoes: 2025-07-08
     latestGdr: "11.0.7512.11"
     latestGdrLink: https://support.microsoft.com/help/5021123
     latest: "11.0.7512.11 GDR"
@@ -100,9 +99,9 @@ releases:
     codename: Helsinki
     releaseLabel: "2017"
     releaseDate: 2017-09-29
-    support: 2022-10-11
+    eoas: 2022-10-11
     eol: 2027-10-12
-    extendedSupport: false
+    eoes: false
     latestGdr: "14.0.2052.1"
     latestGdrLink: https://support.microsoft.com/help/5029375
     latest: "14.0.3465.1 CU31+GDR"
@@ -113,9 +112,9 @@ releases:
     codename: SQL16
     releaseLabel: "2016 SP1"
     releaseDate: 2016-11-16
-    support: 2019-07-09
+    eoas: 2019-07-09
     eol: 2019-07-09
-    extendedSupport: false
+    eoes: false
     latestGdr: "13.0.4259.0"
     latestGdrLink: https://support.microsoft.com/help/4505219
     latest: "13.0.4604.0 CU15+GDR"
@@ -126,9 +125,9 @@ releases:
     codename: Hekaton
     releaseLabel: "2014 SP2"
     releaseDate: 2016-07-14
-    support: 2020-01-14
+    eoas: 2020-01-14
     eol: 2020-01-14
-    extendedSupport: false
+    eoes: false
     latestGdr: "12.0.5223.6"
     latestGdrLink: https://support.microsoft.com/help/4505217
     latest: "12.0.5687.1 CU18"
@@ -139,9 +138,9 @@ releases:
     codename: SQL16
     releaseLabel: "2016"
     releaseDate: 2016-06-01
-    support: 2018-01-09
+    eoas: 2018-01-09
     eol: 2018-01-09
-    extendedSupport: false
+    eoes: false
     latestGdr: "13.0.1745.2"
     latestGdrLink: https://support.microsoft.com/help/4058560
     latest: "13.0.2218.0 CU9+GDR"
@@ -152,9 +151,9 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP3"
     releaseDate: 2015-12-01
-    support: 2018-10-09
+    eoas: 2018-10-09
     eol: 2018-10-09
-    extendedSupport: false
+    eoes: false
     latestGdr: "11.0.6260.1"
     latestGdrLink: https://support.microsoft.com/help/4057115
     latest: "11.0.6614.2 CU10+QFE"
@@ -165,9 +164,9 @@ releases:
     codename: Hekaton
     releaseLabel: "2014 SP1"
     releaseDate: 2015-04-14
-    support: 2017-10-10
+    eoas: 2017-10-10
     eol: 2017-10-10
-    extendedSupport: false
+    eoes: false
     latestGdr: "12.0.4237.0"
     latestGdrLink: https://support.microsoft.com/help/4019091
     latest: "12.0.4522.0 CU13"
@@ -178,9 +177,9 @@ releases:
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP3"
     releaseDate: 2014-07-07
-    support: 2014-07-08
+    eoas: 2014-07-08
     eol: 2019-07-09
-    extendedSupport: 2022-07-12
+    eoes: 2022-07-12
     latestGdr: "10.50.6785.2"
     latestGdrLink: https://support.microsoft.com/help/5021112
     latest: "10.50.6785.2 GDR"
@@ -191,7 +190,7 @@ releases:
     codename: Katmai
     releaseLabel: "2008 SP4"
     releaseDate: 2014-07-07
-    support: 2014-07-08
+    eoas: 2014-07-08
     eol: 2019-07-09
     extendedSupport: 2022-07-12
     latestGdr: "10.0.6814.4"
@@ -204,9 +203,9 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP2"
     releaseDate: 2014-06-10
-    support: 2017-01-10
+    eoas: 2017-01-10
     eol: 2017-01-10
-    extendedSupport: false
+    eoes: false
     latestGdr: "11.0.5388.0"
     latestGdrLink: https://support.microsoft.com/help/3194719
     latest: "11.0.5678.0 CU16"
@@ -217,9 +216,9 @@ releases:
     codename: Hekaton
     releaseLabel: "2014"
     releaseDate: 2014-06-05
-    support: 2016-07-12
+    eoas: 2016-07-12
     eol: 2016-07-12
-    extendedSupport: false
+    eoes: false
     latestGdr: "12.0.2269.0"
     latestGdrLink: https://support.microsoft.com/help/3045324
     latest: "12.0.2569.0 CU14"
@@ -230,9 +229,9 @@ releases:
     codename: Denali
     releaseLabel: "2012 SP1"
     releaseDate: 2012-11-07
-    support: 2015-07-14
+    eoas: 2015-07-14
     eol: 2015-07-14
-    extendedSupport: false
+    eoes: false
     latestGdr: "11.0.3156.0"
     latestGdrLink: https://support.microsoft.com/help/3045318
     latest: "11.0.3513.0 CU13+QFE"
@@ -245,7 +244,7 @@ releases:
     releaseDate: 2012-07-26
     support: 2015-10-13
     eol: 2015-10-13
-    extendedSupport: false
+    eoes: false
     latestGdr: "10.50.4042.0"
     latestGdrLink: https://support.microsoft.com/help/3045313
     latest: "10.50.4339.0 CU13+QFE"
@@ -256,9 +255,9 @@ releases:
     codename: Denali
     releaseLabel: "2012"
     releaseDate: 2012-05-20
-    support: 2014-01-14
+    eoas: 2014-01-14
     eol: 2014-01-14
-    extendedSupport: false
+    eoes: false
     latest: "11.0.2424.0 CU11"
     latestReleaseDate: 2012-12-16
     link: https://support.microsoft.com/help/2908007
@@ -267,9 +266,9 @@ releases:
     codename: Katmai
     releaseLabel: "2008 SP3"
     releaseDate: 2011-10-06
-    support: 2015-10-13
+    eoas: 2015-10-13
     eol: 2015-10-13
-    extendedSupport: false
+    eoes: false
     latestGdr: "10.0.5500.0"
     latestGdrLink: https://support.microsoft.com/help/3045305
     latest: "10.00.5861 CU16+QFE"
@@ -280,9 +279,9 @@ releases:
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP1"
     releaseDate: 2011-07-12
-    support: 2013-10-08
+    eoas: 2013-10-08
     eol: 2013-10-08
-    extendedSupport: false
+    eoes: false
     latest: "10.50.2881.0 CU14"
     latestReleaseDate: 2013-08-08
     link: https://support.microsoft.com/help/2868244
@@ -291,9 +290,9 @@ releases:
     codename: Yukon
     releaseLabel: "2005 SP4"
     releaseDate: 2010-12-13
-    support: 2011-04-12
+    eoas: 2011-04-12
     eol: 2016-04-12
-    extendedSupport: false
+    eoes: false
     latest: "9.0.5324.0 QFE"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716427
@@ -302,9 +301,9 @@ releases:
     codename: Katmai
     releaseLabel: "2008 SP2"
     releaseDate: 2010-09-24
-    support: 2012-10-09
+    eoas: 2012-10-09
     eol: 2012-10-09
-    extendedSupport: false
+    eoes: false
     latest: "10.00.4371 CU10+QFE"
     latestReleaseDate: 2012-10-09
     link: https://support.microsoft.com/help/2716433
@@ -313,9 +312,9 @@ releases:
     codename: Kilimanjaro
     releaseLabel: "2008 R2"
     releaseDate: 2010-07-20
-    support: 2012-07-10
+    eoas: 2012-07-10
     eol: 2012-07-10
-    extendedSupport: false
+    eoes: false
     latest: "10.50.1815.0 CU13"
     latestReleaseDate: 2012-04-16
     link: https://support.microsoft.com/help/2679366
@@ -324,9 +323,9 @@ releases:
     codename: Katmai
     releaseLabel: "2008 SP1"
     releaseDate: 2009-03-31
-    support: 2011-10-11
+    eoas: 2011-10-11
     eol: 2011-10-11
-    extendedSupport: false
+    eoes: false
     latest: "10.00.2850 CU16"
     latestReleaseDate: 2011-09-19
     link: https://support.microsoft.com/help/2582282
@@ -335,9 +334,9 @@ releases:
     codename: Yukon
     releaseLabel: "2005 SP3"
     releaseDate: 2008-12-15
-    support: 2012-01-10
+    eoas: 2012-01-10
     eol: 2012-01-10
-    extendedSupport: false
+    eoes: false
     latest: "9.00.4309 CU11"
     latestReleaseDate: 2010-08-16
     link: https://support.microsoft.com/help/2258854
@@ -346,9 +345,9 @@ releases:
     codename: Katmai
     releaseLabel: "2008"
     releaseDate: 2008-11-06
-    support: 2010-04-13
+    eoas: 2010-04-13
     eol: 2010-04-13
-    extendedSupport: false
+    eoes: false
     latest: "10.00.1835 CU10"
     latestReleaseDate: 2010-03-15
     link: https://support.microsoft.com/help/979064
@@ -357,9 +356,9 @@ releases:
     codename: Yukon
     releaseLabel: "2005 SP2"
     releaseDate: 2007-02-19
-    support: 2010-01-12
+    eoas: 2010-01-12
     eol: 2010-01-12
-    extendedSupport: false
+    eoes: false
     latest: "9.00.3325 CU13"
     latestReleaseDate: 2009-04-20
     link: https://support.microsoft.com/help/967908
@@ -368,9 +367,9 @@ releases:
     codename: Yukon
     releaseLabel: "2005 SP1"
     releaseDate: 2006-04-18
-    support: 2008-04-08
+    eoas: 2008-04-08
     eol: 2008-04-08
-    extendedSupport: false
+    eoes: false
     latest: "9.0.2233"
     latestReleaseDate: 2007-05-16
     # Original KB937545 but 404 in the meantime: https://support.microsoft.com/help/937545
@@ -380,9 +379,9 @@ releases:
     codename: Yukon
     releaseLabel: "2005"
     releaseDate: 2006-01-14
-    support: 2007-07-10
+    eoas: 2007-07-10
     eol: 2007-07-10
-    extendedSupport: false
+    eoes: false
     latest: "9.0.1399"
     latestReleaseDate: 2006-01-14
     link: https://learn.microsoft.com/lifecycle/products/microsoft-sql-server-2005
@@ -391,9 +390,9 @@ releases:
     codename: Shiloh
     releaseLabel: "2000 SP4"
     releaseDate: 2005-05-06
-    support: 2008-04-08
+    eoas: 2008-04-08
     eol: 2013-04-09
-    extendedSupport: false
+    eoes: false
     latest: "8.0.2305 QFE"
     latestReleaseDate: 2012-08-14
     link: https://support.microsoft.com/help/983811
@@ -402,9 +401,9 @@ releases:
     codename: Sphinx
     releaseLabel: "7.0 SP4"
     releaseDate: 2002-04-26
-    support: 2005-12-31
+    eoas: 2005-12-31
     eol: 2011-01-11
-    extendedSupport: false
+    eoes: false
     latest: "7.0.1152"
     latestReleaseDate: 2012-05-09
     link: https://support.microsoft.com/help/941203
@@ -413,9 +412,9 @@ releases:
     codename: Hydra
     releaseLabel: "6.5 SP5a"
     releaseDate: 1998-12-24
-    support: 2002-01-01
+    eoas: 2002-01-01
     eol: 2002-01-01
-    extendedSupport: false
+    eoes: false
     latest: "6.50.480"
     latestReleaseDate: 2005-10-07
     # Original KB238621 but 404 in the meantime: https://support.microsoft.com/help/238621
@@ -425,9 +424,9 @@ releases:
     codename: SQL95
     releaseLabel: "6.0 SP3"
     releaseDate: 1995-06-13 # release date of SP3 unknwon, using intial relase date
-    support: 1999-03-31
+    eoas: 1999-03-31
     eol: 1999-03-31
-    extendedSupport: false
+    eoes: false
     latest: "6.0.151"
     latestReleaseDate: 2000-12-22
     # Original KB152616 but 404 in the meantime: https://support.microsoft.com/help/152616
