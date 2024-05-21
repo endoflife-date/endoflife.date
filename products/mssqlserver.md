@@ -34,7 +34,7 @@ releases:
     codename: SQL16
     releaseLabel: "2016 SP3"
     releaseDate: 2021-09-15
-    eoas: 2021-07-13
+    eoas: 2026-07-14
     eol: 2026-07-14
     eoes: false
     latestGdr: "13.0.6435.1"
@@ -60,7 +60,7 @@ releases:
     codename: Hekaton
     releaseLabel: "2014 SP3"
     releaseDate: 2018-10-30
-    support: 2019-07-09
+    eoas: 2019-07-09
     eol: 2024-07-09
     eoes: false
     latestGdr: "12.0.6179.1"
@@ -242,7 +242,7 @@ releases:
     codename: Kilimanjaro
     releaseLabel: "2008 R2 SP2"
     releaseDate: 2012-07-26
-    support: 2015-10-13
+    eoas: 2015-10-13
     eol: 2015-10-13
     eoes: false
     latestGdr: "10.50.4042.0"
