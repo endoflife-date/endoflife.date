@@ -26,8 +26,8 @@ releases:
     releaseDate: 2024-02-28
     eoas: false
     eol: false # Will end when Plasma 6.1 comes out
-    latest: "6.0.4"
-    latestReleaseDate: 2024-04-16
+    latest: "6.0.5"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "5.27"
     lts: true
