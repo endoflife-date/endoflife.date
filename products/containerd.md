@@ -35,8 +35,8 @@ releases:
     lts: true
     eoas: false # same as EOL because it's an LTS.
     eol: false # max(February 15, 2025 or releaseDate(next LTS) + 6 months
-    latest: "1.6.31"
-    latestReleaseDate: 2024-04-05
+    latest: "1.6.32"
+    latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-05-03
