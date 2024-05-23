@@ -28,8 +28,15 @@ auto:
           regex: '^.+(?P<date>\d{4}-\d{2}-\d{2}).*$'
           template: "{{date}}"
 
-# eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
+# For EOL see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
+-   releaseCycle: "3.20"
+    releaseDate: 2024-05-22
+    eol: 2026-04-01
+    latest: "3.20.0"
+    latestReleaseDate: 2024-05-22
+    link: https://alpinelinux.org/posts/Alpine-3.20.0-released.html
+
 -   releaseCycle: "3.19"
     releaseDate: 2023-12-07
     eol: 2025-11-01
