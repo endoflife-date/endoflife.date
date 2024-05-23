@@ -36,6 +36,13 @@ auto:
         eol: "Assistance Support ended"
 
 releases:
+-   releaseCycle: "24.1"
+    releaseDate: 2024-05-20
+    eoas: 2025-05-20
+    eol: 2025-11-20
+    latest: "24.1.0"
+    latestReleaseDate: 2024-05-20
+
 -   releaseCycle: "23.2"
     releaseDate: 2024-01-12
     eoas: 2025-02-05
