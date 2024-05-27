@@ -83,10 +83,10 @@ releases:
 -   releaseCycle: "5.15"
     lts: true
     releaseDate: 2020-05-25
-    eol: 2020-12-08
+    eol: false
     eoes: 2025-05-25
-    latest: "5.15.2"
-    latestReleaseDate: 2020-11-13
+    latest: "5.15.17"
+    latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "5.14"
     releaseDate: 2019-12-11
