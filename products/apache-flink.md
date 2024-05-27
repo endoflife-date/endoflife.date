@@ -7,7 +7,7 @@ permalink: /apache-flink
 alternate_urls:
 - /flink
 releasePolicyLink: https://hub.docker.com/_/flink # This is the most conclusive resource
-changelogTemplate: https://nightlies.apache.org/flink/flink-docs-master/release-notes/flink-+__LATEST__
+changelogTemplate: https://nightlies.apache.org/flink/flink-docs-master/release-notes/flink-__RELEASE_CYCLE__
 releaseDateColumn: true
 
 auto:
@@ -38,6 +38,7 @@ releases:
     eol: false
     latest: "1.17.2"
     latestReleaseDate: 2023-11-27
+
 ---
 
 > [Apache Flink](https://flink.apache.org/) is a  is a stream processing
