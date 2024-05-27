@@ -31,10 +31,17 @@ releases:
     latest: "2.459"
     latestReleaseDate: 2024-05-21
 
+-   releaseCycle: "2.452"
+    releaseDate: 2024-04-02
+    lts: 2024-05-15
+    eol: false
+    latest: "2.452.1"
+    latestReleaseDate: 2024-05-15
+
 -   releaseCycle: "2.440"
     releaseDate: 2024-01-10
     lts: 2024-02-21
-    eol: false
+    eol: 2024-05-15
     latest: "2.440.3"
     latestReleaseDate: 2024-04-17
 
