@@ -68,9 +68,9 @@ releases:
 -   releaseCycle: "9.1"
     releaseDate: 2019-12-13
     eol: 2024-06-30
-    latest: "9.1.18"
-    latestReleaseDate: 2024-02-27
-    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-18-addressed-issues
+    latest: "9.1.19"
+    latestReleaseDate: 2024-05-22
+    link: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-release-notes/pan-os-9-1-addressed-issues/pan-os-9-1-19-addressed-issues
 
 -   releaseCycle: "9.0-XFR (VM-Series only)"
     releaseDate: 2019-09-19
