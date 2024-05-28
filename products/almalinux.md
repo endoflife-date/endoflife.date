@@ -17,7 +17,7 @@ identifiers:
 auto:
   methods:
   -   distrowatch: alma
-      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
+      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d+)$'
 
 releases:
 -   releaseCycle: "9"
