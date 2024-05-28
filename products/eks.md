@@ -29,7 +29,7 @@ releases:
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: '1.30-eks-4'
+    latest: '1.30-eks-2'
     latestReleaseDate: 2024-05-23
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
