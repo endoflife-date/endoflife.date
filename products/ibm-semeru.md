@@ -40,10 +40,10 @@ auto:
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
 -   releaseCycle: "22"
-    releaseDate: 2024-05-23
+    releaseDate: 2024-05-21
     eol: 2024-09-30
     latest: '22.0.1+8'
-    latestReleaseDate: 2024-05-23
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "21"
     lts: true
