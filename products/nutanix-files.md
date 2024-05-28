@@ -20,6 +20,7 @@ releases:
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     latest: "5.0.0.1"
 
+    latestReleaseDate: 2024-05-24
 -   releaseCycle: "4.4"
     releaseDate: 2023-09-13
     eoas: 2024-08-31
