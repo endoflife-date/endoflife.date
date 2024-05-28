@@ -8,7 +8,7 @@ alternate_urls:
 -   /opensuseleap
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://en.opensuse.org/Lifetime
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/qaub9pjgtzf5zjbrlbjruujp47jv6r5.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/cl1gic1bn2egzucieui21pzm8t6r8xn.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
 releaseColumn: false
