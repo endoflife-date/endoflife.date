@@ -54,7 +54,7 @@ auto:
 releases:
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
-    eol: 2024-05-16
+    eol: false # rolling release, eol not yet on https://mariadb.org/about/#maintenance-policy
     latest: "11.3.2"
     latestReleaseDate: 2024-02-16
 
@@ -164,14 +164,8 @@ releases:
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational
 > database management system (RDBMS) originally forked from MySQL.
 
-A new MariaDB Server version will be announced once per quarter bringing new features to the
-server. These release series are maintained for approximately a year after their General
-Availability (GA) date.
-
-Every 2 years since 10.6, some release series are selected for longer maintenance windows. These
-LTS release series are maintained for five years with security and bug fixes. Prior to that,
-release series were maintained for five years (or even more for 5.5) but were never officially
-called LTS.
-
-These dates constitute the public policy of the MariaDB Foundation and are not legally binding.
-The software is released with the GPL 2 license as-is, without warranties.
+A new long-term release (LTS) of MariaDB Server will be announced for General Availability
+approximately once every year. A new rolling release will be announced approximately quarterly.
+The MariaDB Foundation guarantees that every long-term release will be maintained for at least 
+5 years. For 11.2 and before, non-LTS releases were described as short-term releases, and were 
+maintained for one year. From 11.3, these are rolling releases.
