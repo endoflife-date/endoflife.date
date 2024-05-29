@@ -107,9 +107,10 @@ releases:
 > [Angular](https://angular.dev/) is a TypeScript-based free and open-source web application
 > framework led from Google that was designed as a ground-up rewrite of AngularJS.
 
-All major releases are typically supported for 18 months. This includes 6 months of active support
-(updates and patches), and 12 months of LTS support (critical fixes and security patches). Only
-newly identified security vulnerabilities and regression fixes are considered for LTS versions.
+All major releases are typically supported for 18 months. This includes 6 months of active support,
+with regular updates and patches, followed by 12 months of long-term support (LTS), with only
+critical and security fixes. Only newly identified security vulnerabilities and regression fixes
+are considered for LTS versions.
 
 Angular follows [semantic versioning](https://semver.org). Major releases happen roughly every 6
 months, with 1-3 minor releases for every major release. There is an
