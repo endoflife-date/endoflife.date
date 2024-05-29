@@ -20,7 +20,7 @@ auto:
   methods:
   -   npm: ember-source
   -   release_table: https://emberjs.com/releases/lts/
-      selector: "table"
+      selector: "table:nth-of-type(1)"
       fields:
         releaseCycle: "LTS version"
         lts: "Promotion date"
