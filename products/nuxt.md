@@ -52,4 +52,4 @@ _experimental_.
 
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
 
-If you are still using Nuxt 2 post end of life (June 30 2024), commercial security support is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative. For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.
+Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative. For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.
