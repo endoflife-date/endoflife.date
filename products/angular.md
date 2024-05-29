@@ -9,7 +9,6 @@ releasePolicyLink: https://angular.dev/reference/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
 releaseDateColumn: true
 eoasColumn: true
-eolColumn: LTS support
 eoesColumn: Commercial Support
 eoasWarnThreshold: 30
 eolWarnThreshold: 90
