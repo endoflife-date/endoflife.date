@@ -1,12 +1,10 @@
 ---
 title: Zentyal
 category: os
-tags: ldap linux-distribution
+tags: linux-distribution
 permalink: /zentyal
 releasePolicyLink: https://zentyal.com/release-policy/
-releaseDateColumn: Released
-eolColumn: Security Support
-eoasColumn: Active Support
+releaseDateColumn: true
 
 releases:
 -   releaseCycle: "8.0"
@@ -45,5 +43,16 @@ releases:
 
 ---
 
-> [Zentyal](https://zentyal.com) is an easy Linux alternative to Windows Server.
+> [Zentyal](https://zentyal.com) is an easy Linux alternative to Windows Server
+offering native interoperability with Microsoft Active Directory.
 
+{: .info }
+This page tracks both the Development and Commercial editions of Zentyal.
+
+Major versions are published every two years, when a new Ubuntu Server LTS version becomes available. Minor versions are published between major releases, usually introducing new features. Zentyal Server Editions are solely based on Ubuntu Server LTS.
+
+Zentyal offers 4.5 years of official support for the Commercial Edition, including support for all security issues, commercial technical support, and subscription services support. For the Development Edition, only the latest version (currently 8.0) is maintained.
+
+## Upgrades
+
+In-place upgrades between major versions are not automatic and fresh installations are highly recommended. It is not possible to upgrade directly from the Development Edition to a Commercial Edition.
