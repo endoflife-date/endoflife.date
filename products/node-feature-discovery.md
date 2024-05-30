@@ -25,8 +25,14 @@ identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
 -   purl: oci:node-feature-discovery?repository_url=registry.k8s.io/nfd
 
-# eol(x) = release(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "0.16"
+    releaseDate: 2024-05-27
+    eol: false
+    latest: "0.16.0"
+    latestReleaseDate: 2024-05-27
+
 -   releaseCycle: "0.15"
     releaseDate: 2023-08-08
     eol: false
@@ -35,7 +41,7 @@ releases:
 
 -   releaseCycle: "0.14"
     releaseDate: 2023-04-19
-    eol: false
+    eol: 2024-05-27
     latest: "0.14.6"
     latestReleaseDate: 2024-04-05
 
