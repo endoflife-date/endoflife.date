@@ -22,6 +22,9 @@ auto:
 identifiers:
 -   cpe: cpe:/o:oracle:linux
 -   cpe: cpe:2.3:o:oracle:linux
+-   purl: pkg:oci/oraclelinux?repository_url=container-registry.oracle.com/os
+-   purl: pkg:oci/oraclelinux?repository_url=ghcr.io/oracle
+-   purl: pkg:docker/library/oraclelinux
 
 releases:
 -   releaseCycle: "9"
@@ -35,8 +38,8 @@ releases:
     releaseDate: 2019-07-19
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.9"
-    latestReleaseDate: 2023-11-21
+    latest: "8.10"
+    latestReleaseDate: 2024-05-28
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
