@@ -5,7 +5,7 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/llebggzr6u9gj415qxtfcde01ij1mcd.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/4n097p5czcq89yt3glu9ww1mxxk2as7.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 releaseDateColumn: true
 eolColumn: End-of-Life
