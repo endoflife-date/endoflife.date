@@ -27,6 +27,7 @@ identifiers:
 releases:
 -   releaseCycle: "3.0"
     releaseDate: 2024-05-29
+    lts: true
     eol: 2029-04-01
     latest: "3.0.0"
     latestReleaseDate: 2024-05-29
