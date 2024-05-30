@@ -7,6 +7,7 @@ versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
 changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
 eoasColumn: true
+eoesColumn: Commercial Support
 releaseDateColumn: true
 
 auto:
@@ -33,6 +34,7 @@ releases:
     releaseDate: 2018-09-21
     eoas: 2022-11-16
     eol: 2024-06-30
+    eoes: false
     latest: "2.17.3"
     latestReleaseDate: 2024-01-12
 
@@ -49,3 +51,5 @@ Minor and Patch releases should never contain breaking changes except for featur
 _experimental_.
 
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
+
+Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative. For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.
