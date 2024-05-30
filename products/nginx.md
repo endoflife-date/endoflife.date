@@ -31,9 +31,9 @@ releases:
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23
     eol: false
-    latest: "1.26.0"
-    latestReleaseDate: 2024-04-23
-    
+    latest: "1.26.1"
+    latestReleaseDate: 2024-05-28
+
 -   releaseCycle: "1.25"
     releaseDate: 2023-05-23
     eol: false

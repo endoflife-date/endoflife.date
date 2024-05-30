@@ -34,7 +34,7 @@ auto:
 # Support and EOL dates are documented on https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/.
 releases:
 -   releaseCycle: "14"
-    releaseDate: 2024-05-30
+    releaseDate: 2024-05-29
     eoas: 2025-03-02
     eol: 2025-05-30
     latest: '14.0.0'
