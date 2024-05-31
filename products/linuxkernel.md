@@ -29,14 +29,14 @@ releases:
 -   releaseCycle: "6.9"
     releaseDate: 2024-05-12
     eol: 2024-09-12 # estimated releaseDate(x)+4 months
-    latest: "6.9.2"
-    latestReleaseDate: 2024-05-25
+    latest: "6.9.3"
+    latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-03-10
     eol: 2024-07-10 # estimated releaseDate(x)+4 months
-    latest: "6.8.11"
-    latestReleaseDate: 2024-05-25
+    latest: "6.8.12"
+    latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-01-07
