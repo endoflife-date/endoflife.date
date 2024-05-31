@@ -9,7 +9,7 @@ eoasColumnLabel: Commercial Support
 
 customColumns:
 -   property: ubuntuVersion
-    position: after-release-column
+    position: after-latest-column
     label: Ubuntu Version
     description: Ubuntu LTS corresponding version
 
