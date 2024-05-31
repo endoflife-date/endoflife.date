@@ -49,9 +49,17 @@ auto:
       -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>2)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>3)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>4)\.(?P<patch>([2-9]|\d{2}))$
 
 # releaseDate and eol see https://mariadb.org/about/#maintenance-policy
 releases:
+-   releaseCycle: "11.4"
+    lts: true
+    releaseDate: 2024-05-29
+    eol: 2029-05-29
+    latest: "11.4.2"
+    latestReleaseDate: 2024-05-29
+
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
     eol: false # rolling release, eol not yet on https://mariadb.org/about/#maintenance-policy
@@ -166,6 +174,6 @@ releases:
 
 A new long-term release (LTS) of MariaDB Server will be announced for General Availability
 approximately once every year. A new rolling release will be announced approximately quarterly.
-The MariaDB Foundation guarantees that every long-term release will be maintained for at least 
-5 years. For 11.2 and before, non-LTS releases were described as short-term releases, and were 
+The MariaDB Foundation guarantees that every long-term release will be maintained for at least
+5 years. For 11.2 and before, non-LTS releases were described as short-term releases, and were
 maintained for one year. From 11.3, these are rolling releases.
