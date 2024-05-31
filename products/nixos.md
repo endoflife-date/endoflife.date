@@ -18,6 +18,11 @@ identifiers:
 -   cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+-   releaseCycle: "24.05"
+    codename: "Uakari"
+    releaseDate: 2024-05-31
+    eol: 2024-12-31
+    
 -   releaseCycle: "23.11"
     codename: "Tapir"
     releaseDate: 2023-11-29
