@@ -80,7 +80,7 @@ It is supported for [UNIX-like platforms](https://github.com/openssl/openssl/blo
 [DOS platform with DJGPP](https://github.com/openssl/openssl/blob/master/NOTES-DJGPP.md),
 [OpenVMS](https://github.com/openssl/openssl/blob/master/NOTES-VMS.md),
 [Perl](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md) and
-[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md).
+[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-VALGRIND.md).
 
 LTS releases will be supported for at least five years, and they will specify one at least every
 four years. Non-LTS releases will be supported for at least two years.
