@@ -49,15 +49,16 @@ auto:
       -   ^mariadb-(?P<major>11)\.(?P<minor>1)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>2)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>3)\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>4)\.(?P<patch>([2-9]|\d{2}))$
 
 # releaseDate and eol see https://mariadb.org/about/#maintenance-policy
 releases:
 -   releaseCycle: "11.4"
     lts: true
-    releaseDate: 2024-05-30
-    eol: false # not specified yet on https://mariadb.org/about/#maintenance-policy
+    releaseDate: 2024-05-29
+    eol: 2029-05-29
     latest: "11.4.2"
-    latestReleaseDate: 2024-05-30
+    latestReleaseDate: 2024-05-29
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
