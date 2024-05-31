@@ -17,51 +17,58 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2024-02-01
     eoes: 2027-04-01
+    eol: false
     latest: "8.0.3"
     ubuntuVersion: "22.04"
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-01-01
     eoes: 2025-04-01
+    eol: false
     latest: "7.1"
     ubuntuVersion: "20.04"
 
 -   releaseCycle: "6.0"
     releaseDate: 2018-11-01
     eoes: 2023-04-01
+    eol: true
     latest: "6.2"
     ubuntuVersion: "18.04"
 
 -   releaseCycle: "5.0"
     releaseDate: 2016-01-01
     eoes: 2021-04-01
+    eol: true
     latest: "5.1"
     ubuntuVersion: "16.04"
 
 -   releaseCycle: "4.0"
     releaseDate: 2014-10-01
     eoes: 2019-04-01
+    eol: true
     latest: "4.2"
     ubuntuVersion: "14.04"
 
 -   releaseCycle: "3.2"
     releaseDate: 2013-09-01
     eoes: 2018-03-01
+    eol: true
     latest: "unknown"
     ubuntuVersion: "12.04"
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-09-01
     eoes: 2015-09-01
+    eol: true
     latest: "unknown"
     ubuntuVersion: "12.04"
 
 -   releaseCycle: "2.2"
     releaseDate: 2011-09-01
     eoes: 2014-09-01
+    eol: true
     latest: "unknown"
     ubuntuVersion: "10.04"
-
 
 ---
 
