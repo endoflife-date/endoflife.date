@@ -34,8 +34,8 @@ releases:
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-03-10
-    eol: 2024-07-10 # estimated releaseDate(x)+4 months
-    latest: "6.8.12"
+    eol: 2024-05-30
+    latest: "6.8.12" # announced https://lore.kernel.org/lkml/2024053036-matron-confess-13e0@gregkh/
     latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "6.7"
