@@ -29,11 +29,11 @@ auto:
 
 releases:
 -   releaseCycle: "1.27"
-    releaseDate: 2024-05-29
+    releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
     latest: "1.27.0"
-    latestReleaseDate: 2024-05-29
+    latestReleaseDate: 2024-05-28
 
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23

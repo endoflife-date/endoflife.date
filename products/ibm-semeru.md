@@ -62,7 +62,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-30
+    eol: 2027-10-31
     latest: '11.0.23+9'
     latestReleaseDate: 2024-05-23
 
