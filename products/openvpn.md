@@ -14,7 +14,6 @@ auto:
 identifiers:
   - repology: openvpn
 
-# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "2.6"
     releaseDate: 2023-01-25
