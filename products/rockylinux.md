@@ -45,7 +45,7 @@ releases:
     eoas: 2024-05-31
     eol: 2029-05-31
     latest: "8.10"
-    latestReleaseDate: 2024-05-30
+    latestReleaseDate: 2024-05-31
 
 ---
 

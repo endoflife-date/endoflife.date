@@ -412,31 +412,31 @@ releases:
 
 # 6.4 to 6.0 EOL dates available on https://web.archive.org/web/20150910105445/https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 -   releaseCycle: "6.4"
-    releaseDate: 2015-04-07 # https://www.atlassian.com/blog/2015/04/jira-6-4-release-confidence-sanity
+    releaseDate: 2015-03-16 # https://www.atlassian.com/blog/2015/04/jira-6-4-release-confidence-sanity
     eol: 2017-03-17
     latest: "6.4.14"
-    latestReleaseDate: 2016-07-28
+    latestReleaseDate: 2016-07-26
     link: https://confluence.atlassian.com/jira064/jira-6-4-14-release-notes-834232021.html
 
 -   releaseCycle: "6.3"
-    releaseDate: 2014-07-09
+    releaseDate: 2014-07-08
     eol: 2016-07-08
     latest: "6.3.15"
     latestReleaseDate: 2015-02-03
     link: https://confluence.atlassian.com/jira063/jira-6-3-15-release-notes-707625090.html
 
 -   releaseCycle: "6.2"
-    releaseDate: 2014-02-25
+    releaseDate: 2014-02-24
     eol: 2016-06-11
     latest: "6.2.7"
     latestReleaseDate: 2014-06-11
     link: https://confluence.atlassian.com/jira063/jira-6-2-7-release-notes-683542003.html
 
 -   releaseCycle: "6.1"
-    releaseDate: 2013-09-24
+    releaseDate: 2013-09-23
     eol: 2016-05-22
     latest: "6.1.9"
-    latestReleaseDate: 2014-10-24
+    latestReleaseDate: 2014-09-29
     link: https://confluence.atlassian.com/jira063/jira-6-1-9-release-notes-683542023.html
 
 -   releaseCycle: "6.0"
@@ -447,10 +447,10 @@ releases:
     link: https://confluence.atlassian.com/jira064/jira-6-0-8-release-notes-720413919.html
 
 -   releaseCycle: "5.2"
-    releaseDate: 2012-11-12
+    releaseDate: 2012-11-11
     eol: true
     latest: "5.2.11"
-    latestReleaseDate: 2013-04-19
+    latestReleaseDate: 2013-04-18
     link: https://confluence.atlassian.com/jira063/jira-5-2-11-release-notes-683542112.html
 
 -   releaseCycle: "5.1"
@@ -482,7 +482,7 @@ releases:
     link: https://confluence.atlassian.com/jira063/jira-4-3-4-release-notes-683541993.html
 
 -   releaseCycle: "4.2"
-    releaseDate: 2010-10-21
+    releaseDate: 2010-10-19
     eol: 2013-02-08
     latest: "4.2.4"
     latestReleaseDate: 2011-02-08
