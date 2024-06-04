@@ -34,7 +34,7 @@ releases:
 
 -   releaseCycle: "6.0"
     releaseDate: 2023-11-14
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    eol: 2024-03-17
     latest: "6.0.1"
     latestReleaseDate: 2023-11-30
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
@@ -47,7 +47,7 @@ releases:
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
-    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    eol: 2024-04-12
     latest: "5.17.6"
     latestReleaseDate: 2023-10-25
 
