@@ -12,9 +12,13 @@ releaseColumn: false
 
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 releases:
+-   releaseCycle: "releng/14.1"
+    releaseDate: 2024-06-04
+    eol: false
+
 -   releaseCycle: "releng/14.0"
     releaseDate: 2023-11-21
-    eol: false
+    eol: 2024-09-30
 
 -   releaseCycle: "stable/14"
     releaseDate: 2023-11-21
