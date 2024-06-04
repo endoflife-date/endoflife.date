@@ -1,7 +1,7 @@
 ---
 title: pnpm
 category: app
-tags: package-manager javascript-runtime
+tags: build-tool javascript-runtime
 iconSlug: pnpm
 permalink: /pnpm
 versionCommand: pnpm --version
