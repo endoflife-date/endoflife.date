@@ -49,7 +49,7 @@ releases:
     releaseDate: 2019-10-07
     eol: 2021-04-24
     latest: '4.14.4'
-    latestReleaseDate: 2020-05-22
+    latestReleaseDate: 2020-05-23
 
 ---
 
