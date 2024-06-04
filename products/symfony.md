@@ -26,8 +26,8 @@ releases:
     releaseDate: 2024-05-31
     eoas: 2025-01-31
     eol: 2025-01-31
-    latest: "7.1.0"
-    latestReleaseDate: 2024-05-31
+    latest: "7.1.1"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "7.0"
     releaseDate: 2023-11-29
