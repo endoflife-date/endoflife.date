@@ -43,8 +43,8 @@ releases:
     eoas: 2025-09-03
     eol: 2026-03-12
     supportedPhpVersions: '8.2 - 8.3'
-    latest: '11.9.2'
-    latestReleaseDate: 2024-05-30
+    latest: '11.10.0'
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "10"
     releaseDate: 2023-02-14
