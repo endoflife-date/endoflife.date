@@ -27,19 +27,19 @@ releases:
     releaseDate: 2024-04-08
     eol: false
     latest: "3.0.0"
-    latestReleaseDate: 2023-09-06
+    latestReleaseDate: 2024-04-08
 
 -   releaseCycle: "2.9"
     releaseDate: 2024-03-15
     eol: false
     latest: "2.9.8"
-    latestReleaseDate: 2023-09-06
+    latestReleaseDate: 2024-05-03
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-04-03
     eol: false
-    latest: "2.18.11"
-    latestReleaseDate: 2024-01-16
+    latest: "2.8.6"
+    latestReleaseDate: 2023-10-17
 
 ---
 
@@ -47,5 +47,5 @@ releases:
 > system optimized for cost-effective, scalable log storage using label-based
 > indexing. It integrates seamlessly with Grafana for visualizing logs.
 
-Grafana loki maintains multiple versions. Backports seem to be maintained for
-the latest three releases.
+Looking at prior releases, it seems that security and bugfixes are maintained
+for the latest three releases.
