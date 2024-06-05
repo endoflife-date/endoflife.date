@@ -16,6 +16,11 @@ auto:
 identifiers:
 -   purl: pkg:github/grafana/loki
 -   purl: pkg:docker/grafana/loki
+-   purl: pkg:docker/ubuntu/loki
+-   purl: pkg:docker/chainguard/loki
+-   purl: pkg:docker/bitnami/grafana-loki
+-   purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
+-   repology: grafana-loki
 
 releases:
 -   releaseCycle: "3.0"
