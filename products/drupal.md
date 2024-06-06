@@ -110,8 +110,8 @@ releases:
     eoas: 2015-11-19
     eol: 2025-01-05
     eoes: false
-    latest: "7.100"
-    latestReleaseDate: 2024-03-06
+    latest: "7.101"
+    latestReleaseDate: 2024-06-05
 
 ---
 
