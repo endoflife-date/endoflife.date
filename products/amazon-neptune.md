@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "1.3.1.0"
     releaseDate: 2024-03-06
-    upgradeVersion: "N/A"
+    upgradeVersion: "1.3.2.0"
     eol: 2025-11-30
     latest: "1.3.1.0"
     latestReleaseDate: 2024-03-06
