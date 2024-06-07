@@ -37,19 +37,19 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2017-09-20
-    eol: true
-    latest: "7.7.0"
-    latestReleaseDate: 2019-02-11
+    eol: 2022-05-11
+    latest: "7.7.1"
+    latestReleaseDate: 2019-03-01
 
 -   releaseCycle: "6"
     releaseDate: 2016-04-08
-    eol: true
+    eol: 2019-03-13
     latest: "6.6.5"
     latestReleaseDate: 2018-06-03
 
 -   releaseCycle: "5"
     releaseDate: 2015-02-20
-    eol: true
+    eol: 2017-10-24
     latest: "5.5.5"
     latestReleaseDate: 2017-10-24
 
