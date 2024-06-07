@@ -69,7 +69,7 @@ releases:
     releaseDate: 2006-12-22
     eol: true
     latest: "1.4.1"
-    latestReleaseDate: 2014-06-25
+    latestReleaseDate: 2010-06-25
 
 
 ---
