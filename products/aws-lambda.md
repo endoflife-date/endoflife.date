@@ -98,7 +98,7 @@ releases:
     releaseLabel: .NET 7 (container-only)
     releaseDate: 2022-11-15
     eoas: 2024-05-14
-    eol: false
+    eol: true
     link: https://aws.amazon.com/blogs/compute/building-serverless-net-applications-on-aws-lambda-using-net-7/
 
 -   releaseCycle: "nodejs16.x"
