@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "1.14"
     releaseDate: 2024-01-31
     eol: false
-    latest: "1.14.5"
-    latestReleaseDate: 2024-04-25
+    latest: "1.14.6"
+    latestReleaseDate: 2024-06-07
 
 -   releaseCycle: "1.13"
     releaseDate: 2023-09-12
@@ -39,8 +39,8 @@ releases:
     releaseDate: 2023-05-19
     eol: 2025-05-19
     lts: true
-    latest: "1.12.10"
-    latestReleaseDate: 2024-04-24
+    latest: "1.12.11"
+    latestReleaseDate: 2024-06-07
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-01-11
