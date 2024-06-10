@@ -9,11 +9,17 @@ releaseDateColumn: true
 eolColumn: End of general support
 
 releases:
+-   releaseCycle: "2.11"
+    releaseDate: 2024-06-06
+    eol: 2025-06-30
+    latest: "2.11.0"
+    latestReleaseDate: 2024-06-06
+
 -   releaseCycle: "2.10"
     releaseDate: 2024-01-17
     eol: 2025-01-31
-    latest: "2.10.0"
-    latestReleaseDate: 2024-01-17
+    latest: "2.10.2"
+    latestReleaseDate: 2024-04-18
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-09-15
