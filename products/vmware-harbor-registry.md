@@ -11,7 +11,7 @@ eolColumn: End of general support
 releases:
 -   releaseCycle: "2.11"
     releaseDate: 2024-06-06
-    eol: 2025-06-06
+    eol: 2025-06-30
     latest: "2.11.0"
     latestReleaseDate: 2024-06-06
 
