@@ -7,7 +7,7 @@ alternate_urls:
   - /neoscms
 versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
-releaseDateColumn: Released
+eoasColumn: Active Support
 
 auto:
   methods:
