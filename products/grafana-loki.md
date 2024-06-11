@@ -1,7 +1,7 @@
 ---
 title: Grafana Loki
 category: server-app
-iconSlug: loki
+iconSlug: grafana
 permalink: /grafana-loki
 alternate_urls:
 - /loki
