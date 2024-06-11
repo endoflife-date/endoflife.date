@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "2.7"
     releaseDate: 2024-02-08
     eol: false
-    latest: "2.7.6"
-    latestReleaseDate: 2024-05-04
+    latest: "2.7.7"
+    latestReleaseDate: 2024-06-10
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-01
@@ -54,8 +54,8 @@ releases:
     releaseDate: 2021-12-22
     lts: true
     eol: false # seems still supported https://github.com/endoflife-date/endoflife.date/issues/5119
-    latest: "2.2.23"
-    latestReleaseDate: 2024-02-08
+    latest: "2.2.24"
+    latestReleaseDate: 2024-06-10
 
 -   releaseCycle: "1"
     releaseDate: 2016-04-05
