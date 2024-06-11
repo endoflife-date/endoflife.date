@@ -34,10 +34,10 @@ auto:
 
 releases:
 -   releaseCycle: "31"
-    releaseDate: 2024-06-11
+    releaseDate: 2024-06-10
     eol: 2025-01-07
     latest: "31.0.0"
-    latestReleaseDate: 2024-06-11
+    latestReleaseDate: 2024-06-10
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -270,6 +270,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
+
 
 
 
