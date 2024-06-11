@@ -1,10 +1,10 @@
 ---
 title: Apache Lucene
+category: library
 tags: apache java-runtime
-iconSlug: apachelucene
+iconSlug: apache
 permalink: /lucene
 alternate_urls:
--   /apache_lucene
 -   /apache-lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
