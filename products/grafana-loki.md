@@ -47,5 +47,9 @@ releases:
 > system optimized for cost-effective, scalable log storage using label-based
 > indexing. It integrates seamlessly with Grafana for visualizing logs.
 
+{: .warning }
+> Grafana Cloud, the hosted offering from Grafana Labs has separate
+> [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
+
 Looking at prior releases, it seems that security and bugfixes are maintained
 for the latest three releases.
