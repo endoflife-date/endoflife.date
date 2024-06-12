@@ -62,7 +62,7 @@ releases:
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
-    eol: false # rolling release, eol not yet on https://mariadb.org/about/#maintenance-policy
+    eol: 2024-05-29
     latest: "11.3.2"
     latestReleaseDate: 2024-02-16
 
