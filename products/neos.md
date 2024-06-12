@@ -4,7 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /neos
 alternate_urls:
-  - /neoscms
+-   /neoscms
 versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
 changelogTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
@@ -12,22 +12,22 @@ eoasColumn: true
 releaseDateColumn: true
 auto:
   methods:
-    - git: https://github.com/neos/neos.git
+  -   git: https://github.com/neos/neos.git
 
 identifiers:
-  - purl: pkg:composer/neos/neos
+-   purl: pkg:composer/neos/neos
 
 releases:
 
-  - releaseCycle: "8.3"
+-   releaseCycle: "8.3"
     releaseDate: 2023-04-24
     lts: true
     eoas: 2026-09-01
     eol: 2027-09-01
-    latest: "8.3.13"
-    latestReleaseDate: 2024-05-24
+    latest: "8.3.14"
+    latestReleaseDate: 2024-06-11
 
-  - releaseCycle: "8.2"
+-   releaseCycle: "8.2"
     releaseDate: 2022-12-01
     lts: false
     eoas: 2024-03-31
@@ -35,15 +35,15 @@ releases:
     latest: "8.2.14"
     latestReleaseDate: 2024-04-19
 
-  - releaseCycle: "8.1"
-    releaseDate: 2022-09-03
+-   releaseCycle: "8.1"
+    releaseDate: 2022-09-02
     lts: false
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "8.1.14"
     latestReleaseDate: 2024-04-19
 
-  - releaseCycle: "8.0"
+-   releaseCycle: "8.0"
     releaseDate: 2022-04-01
     lts: false
     eoas: 2024-03-31
@@ -51,8 +51,8 @@ releases:
     latest: "8.0.19"
     latestReleaseDate: 2024-04-19
 
-  - releaseCycle: "7.3"
-    releaseDate: 2021-12-10
+-   releaseCycle: "7.3"
+    releaseDate: 2021-12-08
     lts: true
     eoas: 2024-03-31
     eol: 2025-03-31
