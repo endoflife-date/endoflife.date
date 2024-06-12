@@ -158,6 +158,14 @@ releases:
     latest: "17.04"
     latestReleaseDate: 2017-04-13
 
+-   releaseCycle: "16.10"
+    codename: "Yakkety Yak"
+    releaseDate: 2016-10-13
+    eoas: 2017-07-20
+    eol: 2017-07-20
+    latest: "16.10"
+    latestReleaseDate: 2016-10-13
+
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
@@ -201,6 +209,30 @@ releases:
     eoes: 2024-04-02
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
+
+-   releaseCycle: "13.10"
+    codename: "Saucy Salamander"
+    releaseDate: 2013-10-17
+    eoas: 2014-07-17
+    eol: 2014-07-17
+    latest: "13.10"
+    latestReleaseDate: 2013-10-17
+
+-   releaseCycle: "13.04"
+    codename: "Raring Ringtail"
+    releaseDate: 2013-04-25
+    eoas: 2014-01-27
+    eol: 2014-01-27
+    latest: "13.04"
+    latestReleaseDate: 2013-04-25
+
+-   releaseCycle: "12.10"
+    codename: "Quantal Quetzal"
+    releaseDate: 2012-10-18
+    eoas: 2014-05-16
+    eol: 2014-05-16
+    latest: "12.10"
+    latestReleaseDate: 2012-10-18
 
 -   releaseCycle: "12.04"
     codename: "Precise Pangolin"
@@ -265,6 +297,14 @@ releases:
     eol: 2010-10-23
     latest: "9.04"
     latestReleaseDate: 2009-04-23
+
+-   releaseCycle: "8.10"
+    codename: "Intrepid Ibex"
+    releaseDate: 2008-10-30
+    eoas: 2010-04-30
+    eol: 2010-04-30
+    latest: "8.10"
+    latestReleaseDate: 2008-10-30
 
 -   releaseCycle: "8.04"
     codename: "Hardy Heron"
