@@ -37,6 +37,7 @@ module Jekyll
         set_icon_url(page)
         set_tags(page)
         set_overridden_columns_label(page)
+        set_alternate_urls(page)
 
         page.data["releases"].each { |release| enrich_release(page, release) }
 
@@ -93,6 +94,17 @@ module Jekyll
             page.data[date_column] = true
           end
         }
+      end
+
+      # Enrich the alternate_urls list with un-hyphenated variants of the permalink.
+      def set_alternate_urls(page)
+        permalink = page.data['permalink']
+        unhyphenated_permalink = permalink.delete('-')
+        alternate_urls = page.data['alternate_urls'] || []
+        unless alternate_urls.include?(unhyphenated_permalink)
+          alternate_urls << unhyphenated_permalink
+        end
+        page.data['alternate_urls'] = alternate_urls.uniq
       end
 
       # Flag all cycles that can be hidden (see #50).
