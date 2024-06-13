@@ -8,7 +8,7 @@ alternate_urls:
 -   /opensuseleap
 versionCommand: cat /usr/lib/os-release
 releasePolicyLink: https://en.opensuse.org/Lifetime
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/cl1gic1bn2egzucieui21pzm8t6r8xn.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/slucio84mdla0deffiv2vrszinbrlek.png
 changelogTemplate: https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/__RELEASE_CYCLE__/
 releaseLabel: "Leap __RELEASE_CYCLE__"
 releaseColumn: false
@@ -22,6 +22,10 @@ identifiers:
 -   cpe: cpe:2.3:o:opensuse:leap
 
 releases:
+-   releaseCycle: "15.6"
+    releaseDate: 2024-06-12
+    eol: 2025-12-31
+
 -   releaseCycle: "15.5"
     releaseDate: 2023-06-07
     eol: 2024-12-31
