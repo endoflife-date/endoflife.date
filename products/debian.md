@@ -94,6 +94,96 @@ releases:
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
 
+-   releaseCycle: "5"
+    codename: "Lenny"
+    releaseDate: 2009-02-14
+    eol: 2012-02-06
+    eoes: 2012-02-06
+    link: https://www.debian.org/News/2012/20120310
+    latest: "5.0.10"
+    latestReleaseDate: 2012-03-10
+
+-   releaseCycle: "4"
+    codename: "Etch"
+    releaseDate: 2007-04-08
+    eol: 2010-02-15
+    eoes: 2010-02-15
+    link: https://www.debian.org/News/2010/20100522
+    latest: "4.0r9"
+    latestReleaseDate: 2012-05-22
+
+-   releaseCycle: "3.1"
+    codename: "Sarge"
+    releaseDate: 2005-06-06
+    eol: 2008-03-31
+    eoes: 2008-03-31
+    link: https://www.debian.org/News/2008/20080413
+    latest: "3.1r8"
+    latestReleaseDate: 2008-04-13
+
+-   releaseCycle: "3.0"
+    codename: "Woody"
+    releaseDate: 2002-07-19
+    eol: 2006-06-30
+    eoes: 2006-06-30
+    link: https://www.debian.org/News/2005/20050602
+    latest: "3.0r6"
+    latestReleaseDate: 2005-06-02
+
+-   releaseCycle: "2.2"
+    codename: "Potato"
+    releaseDate: 2000-08-15
+    eol: 2003-06-30
+    eoes: 2003-06-30
+    link: https://www.debian.org/News/2002/20020713
+    latest: "2.2r7"
+    latestReleaseDate: 2002-07-13
+
+-   releaseCycle: "2.1"
+    codename: "Slink"
+    releaseDate: 1999-03-09
+    eol: 2000-10-30
+    eoes: 2000-10-30
+    link: https://www.debian.org/News/2000/20000216
+    latest: "2.1r5"
+    latestReleaseDate: 2000-02-16
+
+-   releaseCycle: "2.0"
+    codename: "Hamm"
+    releaseDate: 1998-07-24
+    eol: 1999-02-15
+    eoes: 1999-02-15
+    link: https://lists.debian.org/debian-announce/1999/msg00001.html
+    latest: "2.0r5"
+    latestReleaseDate: 1999-02-17
+
+-   releaseCycle: "1.3"
+    codename: "Bo"
+    releaseDate: 1997-07-02
+    eol: 1998-12-08
+    eoes: 1998-12-08
+    link: https://www.debian.org/News/1998/19980203c
+    latest: "1.3.1 r.6"
+    latestReleaseDate: 1998-02-03
+
+-   releaseCycle: "1.2"
+    codename: "Rex"
+    releaseDate: 1996-12-12
+    eol: 1997-10-23
+    eoes: 1997-10-23
+    link: https://lists.debian.org/debian-announce/1996/msg00026.html
+    latest: "1.2"
+    latestReleaseDate: 1996-12-12
+
+-   releaseCycle: "1.1"
+    codename: "Buzz"
+    releaseDate: 1996-06-17
+    eol: 1996-12-12
+    eoes: 1996-12-12
+    link: https://lists.debian.org/debian-announce/1996/msg00021.html
+    latest: "1.1"
+    latestReleaseDate: 1996-06-17
+
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable
