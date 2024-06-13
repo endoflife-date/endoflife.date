@@ -17,9 +17,9 @@ releases:
     releaseDate: 2023-11-28
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.1patch3"
-    latestReleaseDate: 2024-03-12
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-3-release-date-march-12-2024
+    latest: "2022.1patch4"
+    latestReleaseDate: 2024-06-11
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u1#azure-devops-server-2022-update-1-patch-4-release-date-june-11-2024
 
 -   releaseCycle: "2022.0"
     releaseLabel: "2022"
