@@ -27,8 +27,8 @@ releases:
     eoas: 2024-11-22 # to be confirmed when available on https://angular.dev/reference/releases
     eol: 2025-11-22 # to be confirmed when available on https://angular.dev/reference/releases
     eoes: false
-    latest: "18.0.2"
-    latestReleaseDate: 2024-06-05
+    latest: "18.0.3"
+    latestReleaseDate: 2024-06-12
 
 -   releaseCycle: "17"
     releaseDate: 2023-11-08
