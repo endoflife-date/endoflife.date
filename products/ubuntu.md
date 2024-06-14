@@ -158,6 +158,14 @@ releases:
     latest: "17.04"
     latestReleaseDate: 2017-04-13
 
+-   releaseCycle: "16.10"
+    codename: "Yakkety Yak"
+    releaseDate: 2016-10-13
+    eoas: 2017-07-20
+    eol: 2017-07-20
+    latest: "16.10"
+    latestReleaseDate: 2016-10-13
+
 -   releaseCycle: "16.04"
     codename: "Xenial Xerus"
     lts: true
@@ -202,6 +210,30 @@ releases:
     latest: "14.04.6"
     latestReleaseDate: 2019-03-07
 
+-   releaseCycle: "13.10"
+    codename: "Saucy Salamander"
+    releaseDate: 2013-10-17
+    eoas: 2014-07-17
+    eol: 2014-07-17
+    latest: "13.10"
+    latestReleaseDate: 2013-10-17
+
+-   releaseCycle: "13.04"
+    codename: "Raring Ringtail"
+    releaseDate: 2013-04-25
+    eoas: 2014-01-27
+    eol: 2014-01-27
+    latest: "13.04"
+    latestReleaseDate: 2013-04-25
+
+-   releaseCycle: "12.10"
+    codename: "Quantal Quetzal"
+    releaseDate: 2012-10-18
+    eoas: 2014-05-16
+    eol: 2014-05-16
+    latest: "12.10"
+    latestReleaseDate: 2012-10-18
+
 -   releaseCycle: "12.04"
     codename: "Precise Pangolin"
     lts: true
@@ -214,7 +246,6 @@ releases:
 
 -   releaseCycle: "11.10"
     codename: "Oneiric Ocelot"
-    lts: false
     releaseDate: 2011-10-13
     eoas: 2013-05-09
     eol: 2013-05-09
@@ -223,7 +254,6 @@ releases:
 
 -   releaseCycle: "11.04"
     codename: "Natty Narwhal"
-    lts: false
     releaseDate: 2011-04-28
     eoas: 2012-10-28
     eol: 2012-10-28
@@ -232,7 +262,6 @@ releases:
 
 -   releaseCycle: "10.10"
     codename: "Maverick Meerkat"
-    lts: false
     releaseDate: 2010-10-10
     eoas: 2012-04-10
     eol: 2012-04-10
@@ -250,7 +279,6 @@ releases:
 
 -   releaseCycle: "9.10"
     codename: "Karmic Koala"
-    lts: false
     releaseDate: 2009-10-29
     eoas: 2011-04-30
     eol: 2011-04-30
@@ -259,12 +287,19 @@ releases:
 
 -   releaseCycle: "9.04"
     codename: "Jaunty Jackalope"
-    lts: false
     releaseDate: 2009-04-23
     eoas: 2010-10-23
     eol: 2010-10-23
     latest: "9.04"
     latestReleaseDate: 2009-04-23
+
+-   releaseCycle: "8.10"
+    codename: "Intrepid Ibex"
+    releaseDate: 2008-10-30
+    eoas: 2010-04-30
+    eol: 2010-04-30
+    latest: "8.10"
+    latestReleaseDate: 2008-10-30
 
 -   releaseCycle: "8.04"
     codename: "Hardy Heron"
@@ -277,7 +312,6 @@ releases:
 
 -   releaseCycle: "7.10"
     codename: "Gutsy Gibbon"
-    lts: false
     releaseDate: 2007-10-18
     eoas: 2009-04-18
     eol: 2009-04-18
@@ -286,7 +320,6 @@ releases:
 
 -   releaseCycle: "7.04"
     codename: "Feisty Fawn"
-    lts: false
     releaseDate: 2007-04-19
     eoas: 2008-10-19
     eol: 2008-10-19
@@ -295,7 +328,6 @@ releases:
 
 -   releaseCycle: "6.10"
     codename: "Edgy Eft"
-    lts: false
     releaseDate: 2006-10-26
     eoas: 2006-10-26
     eol: 2008-04-26
@@ -313,7 +345,6 @@ releases:
 
 -   releaseCycle: "5.10"
     codename: "Breezy Badger"
-    lts: false
     releaseDate: 2005-10-13
     eoas: 2007-04-13
     eol: 2007-04-13
@@ -322,7 +353,6 @@ releases:
 
 -   releaseCycle: "5.04"
     codename: "Hoary Hedgehog"
-    lts: false
     releaseDate: 2005-04-08
     eoas: 2006-10-31
     eol: 2006-10-31
@@ -331,7 +361,6 @@ releases:
 
 -   releaseCycle: "4.10"
     codename: "Warty Warthog"
-    lts: false
     releaseDate: 2004-10-20
     eoas: 2004-10-26
     eol: 2006-04-30
