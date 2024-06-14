@@ -16,9 +16,16 @@ auto:
 # eoas(x) = releaseDate(x+1) (or true if not yet released)
 # eol(x) = releaseDate(x+5) (or false if not yet released)
 releases:
+-   releaseCycle: "1.17"
+    releaseDate: 2024-06-12
+    eoas: false # release date of 1.18
+    eol: false # release date of 1.22
+    latest: "1.17.0"
+    latestReleaseDate: 2024-06-12
+
 -   releaseCycle: "1.16"
     releaseDate: 2023-12-22
-    eoas: false # release date of 1.17
+    eoas: 2024-06-12 # release date of 1.17
     eol: false # release date of 1.21
     latest: "1.16.3"
     latestReleaseDate: 2024-05-21
@@ -47,7 +54,7 @@ releases:
 -   releaseCycle: "1.12"
     releaseDate: 2021-05-19
     eoas: 2021-12-03 # release date of 1.13
-    eol: false # release date of 1.17
+    eol: 2024-06-12 # release date of 1.17
     latest: "1.12.3"
     latestReleaseDate: 2021-09-05
 
