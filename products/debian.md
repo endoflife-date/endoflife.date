@@ -110,7 +110,7 @@ releases:
     eoes: 2010-02-15
     link: https://www.debian.org/News/2010/20100522
     latest: "4.0r9"
-    latestReleaseDate: 2012-05-22
+    latestReleaseDate: 2010-05-22
 
 -   releaseCycle: "3.1"
     codename: "Sarge"
@@ -142,7 +142,7 @@ releases:
 -   releaseCycle: "2.1"
     codename: "Slink"
     releaseDate: 1999-03-09
-    eol: 2000-10-30
+    eol: 2000-09-30
     eoes: 2000-10-30
     link: https://www.debian.org/News/2000/20000216
     latest: "2.1r5"
