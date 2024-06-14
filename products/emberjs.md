@@ -30,14 +30,21 @@ auto:
 # For LTS :
 # every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
 # see https://emberjs.com/releases/lts/
-# - lts(x) = release(x) + 6 weeks
+# - lts(x) = releaseDate(x) + 6 weeks
 # - eoas(x) = lts(x) + 36 weeks
 # - eol(x) = lts(x) + 54 weeks
 #
 # For non-LTS :
-# - eoas(x) = release(x+1)
-# - eol(x) = release(x+1)
+# - eoas(x) = releaseDate(x+1)
+# - eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "5.9"
+    releaseDate: 2024-06-03
+    eoas: false # releaseDate(5.10)
+    eol: false # releaseDate(5.10)
+    latest: "5.9.0"
+    latestReleaseDate: 2024-06-03
+
 -   releaseCycle: "5.8"
     releaseDate: 2024-04-15
     lts: 2024-06-03
