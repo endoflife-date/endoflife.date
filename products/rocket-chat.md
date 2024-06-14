@@ -15,7 +15,7 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
-  -   release_table: https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability
+  -   release_table: [https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability](https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability)
       selector: "table"
       fields:
         releaseCycle:
@@ -25,9 +25,16 @@ auto:
 
 # eoas(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.9"
+    releaseDate: 2024-06-02
+    eoas: false
+    eol: false
+    latest: '6.9.1'
+    latestReleaseDate: 2024-06-12
+
 -   releaseCycle: "6.8"
     releaseDate: 2024-05-12
-    eoas: false
+    eoas: 2024-06-12
     eol: false
     latest: '6.8.1'
     latestReleaseDate: 2024-06-12
