@@ -32,10 +32,17 @@ auto:
 
 # Development releases are not listed here, and:
 # - eol dates are always releaseDate + 3 YEARS
-# - support dates are:
-#   - true for the last 2 releases
+# - end of support dates are:
+#   - false for the last 2 releases
 #   - releaseDate(R+2) for other releases (e.g. support(5.34) = releaseDate(5.36))
 releases:
+-   releaseCycle: "5.40"
+    releaseDate: 2024-06-09
+    eoas: false
+    eol: 2027-06-09
+    latest: "5.40.0"
+    latestReleaseDate: 2024-06-09
+
 -   releaseCycle: "5.38"
     releaseDate: 2023-07-02
     eoas: false
@@ -45,14 +52,14 @@ releases:
 
 -   releaseCycle: "5.36"
     releaseDate: 2022-05-27
-    eoas: false
+    eoas: 2024-06-09
     eol: 2025-05-27
     latest: "5.36.3"
     latestReleaseDate: 2023-11-29
 
 -   releaseCycle: "5.34"
     releaseDate: 2021-05-20
-    eoas: 2022-05-27
+    eoas: 2023-07-02
     eol: 2024-05-20
     latest: "5.34.3"
     latestReleaseDate: 2023-11-29
