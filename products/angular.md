@@ -48,7 +48,6 @@ releases:
 
 -   releaseCycle: "15"
     releaseDate: 2022-11-16
-    lts: 2023-05-03
     eoas: 2023-05-03
     eol: 2024-05-18
     eoes: false
@@ -57,17 +56,14 @@ releases:
 
 -   releaseCycle: "14"
     releaseDate: 2022-06-02
-    lts: 2022-12-02
     eoas: 2022-11-18
     eol: 2023-11-18
     eoes: false
     latest: "14.3.0"
     latestReleaseDate: 2023-03-13
 
-
 -   releaseCycle: "13"
     releaseDate: 2021-11-03
-    lts: 2022-05-04
     eoas: 2022-06-02
     eol: 2023-05-04
     eoes: false
@@ -76,7 +72,6 @@ releases:
 
 -   releaseCycle: "12"
     releaseDate: 2021-05-13
-    lts: 2021-11-12
     eoas: 2021-11-12
     eol: 2022-11-12
     eoes: false
@@ -85,7 +80,6 @@ releases:
 
 -   releaseCycle: "11"
     releaseDate: 2020-11-11
-    lts: 2021-05-11
     eoas: 2021-05-11
     eol: 2022-05-11
     eoes: false
@@ -94,7 +88,6 @@ releases:
 
 -   releaseCycle: "10"
     releaseDate: 2020-06-24
-    lts: 2020-12-24
     eoas: 2020-12-24
     eol: 2021-12-24
     eoes: false
@@ -103,7 +96,6 @@ releases:
 
 -   releaseCycle: "9"
     releaseDate: 2020-02-06
-    lts: 2020-08-06
     eoas: 2020-08-06
     eol: 2021-08-06
     eoes: false
@@ -115,9 +107,10 @@ releases:
 > [Angular](https://angular.dev/) is a TypeScript-based free and open-source web application
 > framework led from Google that was designed as a ground-up rewrite of AngularJS.
 
-All major releases are typically supported for 18 months. This includes 6 months of active support
-(updates and patches), and 12 months of LTS support (critical fixes and security patches). Only
-newly identified security vulnerabilities and regression fixes are considered for LTS versions.
+All major releases are typically supported for 18 months. This includes 6 months of active support,
+with regular updates and patches, followed by 12 months of long-term support (LTS), with only
+critical and security fixes. Only newly identified security vulnerabilities and regression fixes
+are considered for LTS versions.
 
 Angular follows [semantic versioning](https://semver.org). Major releases happen roughly every 6
 months, with 1-3 minor releases for every major release. There is an
