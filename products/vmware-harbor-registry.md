@@ -9,11 +9,6 @@ releaseDateColumn: true
 eolColumn: End of general support
 
 releases:
--   releaseCycle: "2.11"
-    releaseDate: 2024-06-06
-    eol: 2025-06-30
-    latest: "2.11.0"
-    latestReleaseDate: 2024-06-06
 
 -   releaseCycle: "2.10"
     releaseDate: 2024-01-17
@@ -99,6 +94,9 @@ releases:
 > is an enterprise-class registry server that stores and distributes container images. Harbor
 > allows you to store and manage images for use with VMware Tanzu Kubernetes Grid Integrated
 > Edition (TKGI).
+
+{: .warning }
+> This page tracks the VMWare Harbor Registry, which is a VMWare product based on the open-source Harbor project.
 
 New major versions are usually maintained for approximately 1 year.
 More information about releases on [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).
