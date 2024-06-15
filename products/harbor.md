@@ -9,9 +9,50 @@ changelogTemplate: https://goharbor.io/blog/harbor-__RELEASE_CYCLE__/
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   purl: pkg:github/goharbor/harbor
+# Official images
+-   purl: pkg:docker/goharbor/harbor-core
+-   purl: pkg:docker/goharbor/harbor-exporter
+-   purl: pkg:docker/goharbor/harbor-jobservice
+-   purl: pkg:docker/goharbor/harbor-portal
+-   purl: pkg:docker/goharbor/harbor-registryctl
+-   purl: pkg:docker/goharbor/registry-photon
+# Bitnami Variants
+-   purl: pkg:docker/bitnami/harbor-registry
+-   purl: pkg:docker/bitnami/harbor-core
+-   purl: pkg:docker/bitnami/harbor-exporter
+-   purl: pkg:docker/bitnami/harbor-jobservice
+-   purl: pkg:docker/bitnami/harbor-portal
+-   purl: pkg:docker/bitnami/harbor-registryctl
+-   purl: pkg:docker/bitnami/harbor-registry
+# Chainguard Images (Wolfi-based)
+-   purl: pkg:oci/harbor-core?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-jobservice?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-portal?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-registry?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-registryctl?repository_url=cgr.dev/chainguard
+# Chainguard Images (Wolfi-based) on Docker Hub
+-   purl: pkg:docker/chainguard/harbor-core
+-   purl: pkg:docker/chainguard/harbor-jobservice
+-   purl: pkg:docker/chainguard/harbor-portal
+-   purl: pkg:docker/chainguard/harbor-registry
+-   purl: pkg:docker/chainguard/harbor-registryctl
+# Chainguard Images (+FIPS certified)
+-   purl: pkg:oci/harbor-core-fips?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-jobservice-fips?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-portal-fips?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-registry-fips?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/harbor-registryctl-fips?repository_url=cgr.dev/chainguard
+# Official images on Quay, unmaintained
+-   purl: pkg:oci/harbor-core?repository_url=quay.io/goharbor
+-   purl: pkg:oci/harbor-portal?repository_url=quay.io/goharbor
+-   purl: pkg:oci/harbor-jobservice?repository_url=quay.io/goharbor
+
 auto:
   methods:
   -   git: https://github.com/goharbor/harbor.git
+
 
 # eol(X) = releaseDate(X+3)
 releases:
@@ -108,4 +149,4 @@ The latest 3 minor releases are supported with critical community and security i
 
 ## Upgrade Policy
 
-Upgrades are only supported from the n-2 minor release. For example, upgrades from 2.9->2.11 is supported, but 2.8->2.11 is not.
+Upgrades are only supported from the n-2 minor release. For example, upgrading from 2.9 to 2.11 is supported, but upgrading from 2.8 to 2.11 is not.
