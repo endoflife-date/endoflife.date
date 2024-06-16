@@ -14,9 +14,17 @@ releaseDateColumn: true
 identifiers:
 -   repology: envoy-proxy
 -   purl: pkg:docker/envoyproxy/envoy
+-   purl: pkg:docker/envoyproxy/envoy-alpine
+-   purl: pkg:docker/envoyproxy/envoy-alpine-debug
+-   purl: pkg:docker/envoyproxy/envoy-distroless
 -   purl: pkg:docker/bitnami/envoy
+-   purl: pkg:docker/rapidfort/envoy
+-   purl: pkg:docker/hashicorp/envoy-fips
+-   purl: pkg:docker/chainguard/envoy
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
+-   purl: pkg:oci/envoy?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
 
 auto:
   methods:
