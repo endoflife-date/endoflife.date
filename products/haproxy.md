@@ -29,21 +29,21 @@ releases:
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.1"
-    latestReleaseDate: 2024-06-10
+    latest: "3.0.2"
+    latestReleaseDate: 2024-06-14
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-12-05
     eol: 2025-01-01
-    latest: "2.9.8"
-    latestReleaseDate: 2024-06-11
+    latest: "2.9.9"
+    latestReleaseDate: 2024-06-14
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.9"
-    latestReleaseDate: 2024-04-05
+    latest: "2.8.10"
+    latestReleaseDate: 2024-06-14
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01
