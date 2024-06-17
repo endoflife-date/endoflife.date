@@ -11,7 +11,8 @@ releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 auto:
--   git: https://github.com/projectcontour/contour.git
+  methods:
+  -   git: https://github.com/projectcontour/contour.git
 
 identifiers:
 -   repology: contour
@@ -32,7 +33,7 @@ releases:
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-10-30
-    eol: 2023-09-12
+    eol: false
     latest: "1.27.4"
     latestReleaseDate: 2024-06-13
 
