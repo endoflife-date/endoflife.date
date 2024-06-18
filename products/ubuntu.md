@@ -43,8 +43,8 @@ releases:
 -   releaseCycle: "23.10"
     codename: "Mantic Minotaur"
     releaseDate: 2023-10-12
-    eoas: 2024-07-01
-    eol: 2024-07-01
+    eoas: 2024-07-11
+    eol: 2024-07-11
     latest: "23.10"
     latestReleaseDate: 2023-10-12
 
