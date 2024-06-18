@@ -1,7 +1,7 @@
 ---
 title: DaoCloud Enterprise
 category: server-app
-tags: daocloud
+tags: kubernetes
 permalink: /dce
 releasePolicyLink: https://docs.daocloud.io/en/dce/support.html
 releaseDateColumn: true
@@ -34,7 +34,7 @@ releases:
 
 ---
 
-> [DaoCloud Enterprise (DCE)](https://docs.daocloud.io/en/) is a k8s-based community and commercial
+> [DaoCloud Enterprise (DCE)](https://docs.daocloud.io/en/) is a Kubernetes based community and commercial
 > development platform from DaoCloud.
 
 DCE's lifecycle is typically 3 years after release, with new releases usually about every two
