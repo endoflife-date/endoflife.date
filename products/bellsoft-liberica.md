@@ -23,6 +23,17 @@ identifiers:
 -   purl: pkg:docker/bellsoft/liberica-openjre-debian
 -   purl: pkg:docker/bellsoft/liberica-openjdk-centos
 -   purl: pkg:docker/bellsoft/liberica-openjre-centos
+
+# Official Docker Images on GitHub Packages
+-   purl: pkg:oci/liberica-openjdk-alpine?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjre-alpine?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjdk-alpine-musl?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjre-alpine-musl?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjdk-debian?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjre-debian?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjdk-centos?repository_url=ghcr.io/bell-sw
+-   purl: pkg:oci/liberica-openjre-centos?repository_url=ghcr.io/bell-sw
+
 # Repology only lists AUR packages right now
 -   repology: liberica-jdk-11-full
 -   repology: liberica-jdk-11
