@@ -35,8 +35,62 @@ identifiers:
 -   repology: liberica-jre-11
 # These are undefined TYPEs in the PURL spec
 # so subject to change https://github.com/package-url/purl-spec/blob/master/PURL-TYPES.rst
--   purl: pkg:scoop/liberica17
+-   purl: pkg:scoop/liberica-jdk
+-   purl: pkg:scoop/liberica-lts-jdk
+-   purl: pkg:scoop/liberica-lite-jdk
+-   purl: pkg:scoop/liberica-lite-lts-jdk
+-   purl: pkg:scoop/liberica-full-jdk
+-   purl: pkg:scoop/liberica-full-lts-jdk
+-   purl: pkg:scoop/liberica-jre
+-   purl: pkg:scoop/liberica-lts-jre
+-   purl: pkg:scoop/liberica-full-jre
+-   purl: pkg:scoop/liberica-full-lts-jre
 -   purl: pkg:chocolatey/libericajdk
+
+-   purl: pkg:scoop/liberica8-jre
+-   purl: pkg:scoop/liberica8-jdk
+-   purl: pkg:scoop/liberica8-full-jre
+-   purl: pkg:scoop/liberica8-full-jdk
+
+-   purl: pkg:scoop/liberica11-jre
+-   purl: pkg:scoop/liberica11-jdk
+-   purl: pkg:scoop/liberica11-full-jre
+-   purl: pkg:scoop/liberica11-full-jdk
+-   purl: pkg:scoop/liberica11-lite-jdk
+
+-   purl: pkg:scoop/liberica12-jre
+-   purl: pkg:scoop/liberica12-jdk
+-   purl: pkg:scoop/liberica12-lite-jdk
+
+-   purl: pkg:scoop/liberica13-jre
+-   purl: pkg:scoop/liberica13-jdk
+-   purl: pkg:scoop/liberica13-full-jre
+-   purl: pkg:scoop/liberica13-full-jdk
+-   purl: pkg:scoop/liberica13-lite-jdk
+
+-   purl: pkg:scoop/liberica14-jre
+-   purl: pkg:scoop/liberica14-jdk
+-   purl: pkg:scoop/liberica14-full-jre
+-   purl: pkg:scoop/liberica14-full-jdk
+-   purl: pkg:scoop/liberica14-lite-jdk
+
+-   purl: pkg:scoop/liberica15-jre
+-   purl: pkg:scoop/liberica15-jdk
+-   purl: pkg:scoop/liberica15-full-jre
+-   purl: pkg:scoop/liberica15-lite-jdk
+-   purl: pkg:scoop/liberica15-full-jdk
+
+-   purl: pkg:scoop/liberica16-jre
+-   purl: pkg:scoop/liberica16-jdk
+-   purl: pkg:scoop/liberica16-full-jre
+-   purl: pkg:scoop/liberica16-full-jdk
+-   purl: pkg:scoop/liberica16-lite-jdk
+
+-   purl: pkg:scoop/liberica17-jre
+-   purl: pkg:scoop/liberica17-jdk
+-   purl: pkg:scoop/liberica17-full-jre
+-   purl: pkg:scoop/liberica17-full-jdk
+-   purl: pkg:scoop/liberica17-lite-jdk
 # Listings from the official brew tap
 # Based on the proposed brew PURL type: https://github.com/package-url/purl-spec/pull/281
 # Mac packages
