@@ -28,37 +28,37 @@ releases:
 -   releaseCycle: "6.9"
     releaseDate: 2024-06-02
     eoas: false
-    eol: false
-    latest: '6.9.1'
-    latestReleaseDate: 2024-06-12
+    eol: 2024-12-31
+    latest: '6.9.2'
+    latestReleaseDate: 2024-06-18
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-05-12
     eoas: 2024-06-12
-    eol: false
-    latest: '6.8.1'
-    latestReleaseDate: 2024-06-12
+    eol: 2024-11-30
+    latest: '6.8.2'
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-04-08
     eoas: 2024-05-12
     eol: 2024-10-31
-    latest: '6.7.4'
-    latestReleaseDate: 2024-06-12
+    latest: '6.7.5'
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "6.6"
     releaseDate: 2024-02-07
     eoas: 2024-04-08
     eol: 2024-08-31
-    latest: '6.6.9'
-    latestReleaseDate: 2024-06-12
+    latest: '6.6.10'
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-12-01
     eoas: 2024-02-07
     eol: 2024-06-30
-    latest: '6.5.7'
-    latestReleaseDate: 2024-05-20
+    latest: '6.5.8'
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-09-27
