@@ -304,7 +304,47 @@ identifiers:
 -   purl: pkg:deb/debian/bellsoft-java8-runtime-full
 -   purl: pkg:deb/debian/bellsoft-java8-runtime
 -   purl: pkg:deb/debian/bellsoft-java8
-
+# Alpine Packages, listed using the following command:
+# curl --silent https://apk.bell-sw.com/main/x86_64/APKINDEX.tar.gz | tar --to-stdout -xzv APKINDEX |grep P:|sort -u
+-   purl: pkg:apk/alpine/bellsoft-java11?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java11-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java11-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java11-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java15?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java15-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java15-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java16?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java16-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java16-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java16-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java17?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java17-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java17-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java17-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java18?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java18-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java18-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java18-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java19?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java19-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java19-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java19-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java20?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java20-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java20-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java20-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java21?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java21-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java21-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java21-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java22?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java22-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java22-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java22-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java8?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java8-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java8-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java8-runtime-lite?repository_url=https://apk.bell-sw.com/main
 
 # There is one repository for each major release (except for 15 and 16).
 auto:
