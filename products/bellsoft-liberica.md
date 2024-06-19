@@ -35,6 +35,7 @@ identifiers:
 -   repology: liberica-jre-11
 # These are undefined TYPEs in the PURL spec
 # so subject to change https://github.com/package-url/purl-spec/blob/master/PURL-TYPES.rst
+# https://scoop.sh/#/apps?q=liberica
 -   purl: pkg:scoop/liberica-jdk
 -   purl: pkg:scoop/liberica-lts-jdk
 -   purl: pkg:scoop/liberica-lite-jdk
@@ -45,7 +46,6 @@ identifiers:
 -   purl: pkg:scoop/liberica-lts-jre
 -   purl: pkg:scoop/liberica-full-jre
 -   purl: pkg:scoop/liberica-full-lts-jre
--   purl: pkg:chocolatey/libericajdk
 
 -   purl: pkg:scoop/liberica8-jre
 -   purl: pkg:scoop/liberica8-jdk
@@ -91,6 +91,29 @@ identifiers:
 -   purl: pkg:scoop/liberica17-full-jre
 -   purl: pkg:scoop/liberica17-full-jdk
 -   purl: pkg:scoop/liberica17-lite-jdk
+
+# chocolatey https://community.chocolatey.org/packages?q=liberica&authors=bellsoft
+- purl: pkg:chocolatey/liberica11jdk
+- purl: pkg:chocolatey/liberica11jdkfull
+- purl: pkg:chocolatey/liberica11jre
+- purl: pkg:chocolatey/liberica11jrefull
+- purl: pkg:chocolatey/liberica17jdk
+- purl: pkg:chocolatey/liberica17jdkfull
+- purl: pkg:chocolatey/liberica17jdklite
+- purl: pkg:chocolatey/liberica17jre
+- purl: pkg:chocolatey/liberica17jrefull
+- purl: pkg:chocolatey/liberica21jdk
+- purl: pkg:chocolatey/liberica21jdkfull
+- purl: pkg:chocolatey/liberica21jdklite
+- purl: pkg:chocolatey/liberica21jre
+- purl: pkg:chocolatey/liberica21jrefull
+- purl: pkg:chocolatey/liberica8jdk
+- purl: pkg:chocolatey/liberica8jre
+- purl: pkg:chocolatey/libericajdk
+- purl: pkg:chocolatey/libericajdkfull
+- purl: pkg:chocolatey/libericajdklite
+- purl: pkg:chocolatey/libericajre
+- purl: pkg:chocolatey/libericajrefull
 # Listings from the official brew tap
 # Based on the proposed brew PURL type: https://github.com/package-url/purl-spec/pull/281
 # Mac packages
