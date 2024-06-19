@@ -10,6 +10,18 @@ changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|spli
 releaseDateColumn: true
 eolColumn: Support
 
+auto:
+  methods:
+  -   release_table: https://www.lua.org/ftp/
+      selector: "table:nth-of-type(1)"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "filename"
+          regex: '^lua-?(?P<value>\d+(\.\d+)*)\.tar.gz$'
+        releaseDate:
+          column: "date"
+
 # EOL date is the date of the last release of the version.
 # The last releases are documented on https://www.lua.org/versions.html with a sentence similar to
 # "There will be no further releases of Lua x.y".
