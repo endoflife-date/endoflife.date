@@ -21,22 +21,22 @@ identifiers:
 # eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "1.29"
-    releaseDate: 2024-05-08
+    releaseDate: 2024-05-07
     eol: false
     latest: "1.29.1"
-    latestReleaseDate: 2024-06-13
+    latestReleaseDate: 2024-06-12
 
 -   releaseCycle: "1.28"
     releaseDate: 2024-02-12
     eol: false
     latest: "1.28.5"
-    latestReleaseDate: 2024-06-13
+    latestReleaseDate: 2024-06-12
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-10-30
     eol: false
     latest: "1.27.4"
-    latestReleaseDate: 2024-06-13
+    latestReleaseDate: 2024-06-12
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-08-29
@@ -55,6 +55,7 @@ releases:
     eol: 2023-10-30
     latest: "1.24.6"
     latestReleaseDate: 2023-10-17
+
 ---
 
 > [Contour](https://projectcontour.io/) is an ingress controller for Kubernetes that works by deploying [Envoy](https://www.envoyproxy.io/) as a reverse proxy and load balancer. Contour supports dynamic configuration updates out of the box while maintaining a lightweight profile.
