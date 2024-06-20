@@ -29,9 +29,9 @@ releases:
 -   releaseCycle: "127"
     releaseDate: 2024-06-11
     eol: false
-    latest: "127.0.0"
-    latestReleaseDate: 2024-06-11
-    
+    latest: "127.0.1"
+    latestReleaseDate: 2024-06-19
+
 -   releaseCycle: "126"
     releaseDate: 2024-05-14
     eol: 2024-06-11

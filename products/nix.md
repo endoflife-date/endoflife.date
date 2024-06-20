@@ -50,8 +50,8 @@ releases:
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20
     eol: 2023-11-17 # releaseDate(2.19)
-    latest: "2.18.2"
-    latestReleaseDate: 2024-03-07
+    latest: "2.18.3"
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "2.17"
     releaseDate: 2023-07-24
