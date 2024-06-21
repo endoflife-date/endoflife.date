@@ -2,9 +2,9 @@
 title: Microsoft Nano Server
 category: os
 tags: microsoft windows
-permalink: /nano-server
+permalink: /windows-nano-server
 alternate_urls:
-  - /nanoserver
+  - /windowsnanoserver
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
 releaseLabel: 'Nano Server __RELEASE_CYCLE__'
