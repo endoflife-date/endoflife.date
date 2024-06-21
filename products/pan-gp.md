@@ -22,6 +22,15 @@ auto:
         eol: "End-of-Life Date"
 
 releases:
+
+-   releaseCycle: "6.3"
+    releaseDate: 2024-06-13
+    eol: false
+    eoas: false
+    latest: "6.3.0"
+    latestReleaseDate: 2024-06-13
+    link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
+
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-23
     eol: 2025-05-23
