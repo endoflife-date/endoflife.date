@@ -11,7 +11,6 @@ releaseLabel: 'Windows Server Core __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
 releaseDateColumn: true
-eoesColumn: Extended Security Updates
 
 releases:
 -   releaseCycle: "2022"

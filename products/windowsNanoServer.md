@@ -11,7 +11,6 @@ releaseLabel: 'Nano Server __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
 releaseDateColumn: true
-eoesColumn: Extended Security Updates
 
 releases:
 -   releaseCycle: "2022"
@@ -62,7 +61,6 @@ releases:
     lts: true
     eoas: 2024-01-09
     eol: 2029-01-09
-    eoes: 2029-01-09
     latest: 10.0.17763
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
