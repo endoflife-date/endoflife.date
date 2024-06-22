@@ -26,7 +26,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
         eol: "End of Support"
-        eoes: "End Commercial Support *"
+        eoes: "End Enterprise Support *"
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
