@@ -6,6 +6,7 @@ iconSlug: apache
 permalink: /apache
 alternate_urls:
 -   /httpd
+-   /apache-http-server
 releasePolicyLink: https://httpd.apache.org/dev/release.html
 versionCommand: |-
   httpd -v

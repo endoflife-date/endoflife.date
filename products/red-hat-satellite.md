@@ -6,6 +6,7 @@ iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:
 -   /rhsat
+-   /red-hat-satellite
 versionCommand: |-
   dnf info satellite
 

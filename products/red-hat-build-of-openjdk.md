@@ -10,6 +10,7 @@ alternate_urls:
 -   /red-hat-openjdk
 -   /rh-openjdk
 -   /rhjdk
+-   /red-hat-build-of-openjdk
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
 changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__

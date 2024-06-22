@@ -4,7 +4,7 @@ category: device
 iconSlug: raspberrypi
 permalink: /raspberry-pi
 alternate_urls:
--   /raspberypi
+-   /raspberrypi
 -   /raspi
 -   /rpi
 releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
