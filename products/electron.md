@@ -30,6 +30,7 @@ auto:
         releaseCycle:
           column: "Electron"
           regex: '^(?P<value>\d+)\.0\.0$'
+        releaseDate: "Stable"
         eol: "EOL"
 
 releases:
