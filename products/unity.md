@@ -10,12 +10,10 @@ releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 releaseDateColumn: true
 
-auto:
-  # It takes too much time to fetch all versions.
-  # See https://github.com/endoflife-date/release-data/blob/main/src/unity.py for details
-  cumulative: true
-  methods:
-  -   custom: unity
+# Disabled because there are anti-bot protection measures on https://unity.com/.
+#auto:
+#  methods:
+#  -   custom: unity
 
 releases:
 -   releaseCycle: "2023.2"
