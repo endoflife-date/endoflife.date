@@ -30,7 +30,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
         eol: "End of Support"
-        eoes: "End Commercial Support *"
+        eoes: "End Enterprise Support *"
 
 releases:
 -   releaseCycle: "3.3"
