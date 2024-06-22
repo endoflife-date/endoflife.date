@@ -13,6 +13,8 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/apache/flink.git
+      regex: '^release-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
 
 identifiers:
 -   repology: flink
