@@ -17,7 +17,14 @@ auto:
   methods:
   -   git: https://gitlab.com/gitlab-org/gitlab.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
-
+  -   release_table: https://about.gitlab.com/releases/
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate:
+          column: "Release Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
