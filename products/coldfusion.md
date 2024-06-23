@@ -24,7 +24,7 @@ releases:
     releaseDate: 2022-05-16
     eol: 2028-05-16
     eoes: 2029-05-16
-    latest: "2023.0.8.330668" 
+    latest: "2023.0.8.330668"
     latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "2021"
