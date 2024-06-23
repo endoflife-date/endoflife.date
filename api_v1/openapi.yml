@@ -284,16 +284,16 @@ components:
           nullable: true
           description: Start date of the LTS phase.
           example: "2022-04-21"
-        isActiveSupportOver:
+        isEoas:
           type: boolean
           nullable: true
           description: Whether the active support phase is over.
           example: false
-        activeSupportUntil:
+        eoasFrom:
           type: string
           format: date
           nullable: true
-          description: End date of the active support phase.
+          description: End of active support date for the product cycle.
           example: "2024-09-30"
         isEol:
           type: boolean
@@ -317,16 +317,16 @@ components:
           nullable: true
           description: Discontinuation date (mainly used for hardware).
           example: "2027-04-01"
-        isExtendedSupportOver:
+        isEoes:
           type: boolean
           nullable: true
           description: Whether the extended support phase is over.
           example: true
-        extendedSupportUntil:
+        eoesFrom:
           type: string
           format: date
           nullable: false
-          description: End date of the extended support phase.
+          description: End of extended support date for the product cycle.
           example: "2032-04-09"
         isMaintained:
           type: boolean
@@ -407,10 +407,10 @@ components:
           type: object
           description: Product labels.
           properties:
-            activeSupport:
+            eoas:
               type: string
               nullable: true
-              description: Label used to denote the active support phase.
+              description: Label used to denote the phase before the end of active support of the product.
               example: Hardware & Maintenance
             discontinued:
               type: string
@@ -420,12 +420,12 @@ components:
             eol:
               type: string
               nullable: true
-              description: Label used to denote the phase before the EOL of the product.
+              description: Label used to denote the phase before the end of life of the product.
               example: Maintenance & Security Support
-            extendedSupport:
+            eoes:
               type: string
               nullable: true
-              description: Label used to denote the extended support phase.
+              description: Label used to denote the phase before the end of extended support of the product.
               example: Extended Security Maintenance
         links:
           type: object
