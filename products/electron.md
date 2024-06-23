@@ -107,7 +107,7 @@ releases:
     nodeVersion: "18.12"
 
 -   releaseCycle: "22"
-    releaseDate: 2022-11-30
+    releaseDate: 2022-11-29
     eol: 2023-10-10
     latest: "22.3.27"
     latestReleaseDate: 2023-10-09
@@ -243,7 +243,7 @@ releases:
     nodeVersion: "12.14.0"
 
 -   releaseCycle: "5"
-    releaseDate: 2019-04-24
+    releaseDate: 2019-04-23
     eol: 2020-02-04
     latest: "5.0.13"
     latestReleaseDate: 2019-12-17
@@ -273,6 +273,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
+
 
 
 

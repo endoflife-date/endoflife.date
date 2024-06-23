@@ -5,7 +5,7 @@ tags: apache java-runtime
 iconSlug: apacheflink
 permalink: /apache-flink
 alternate_urls:
-- /flink
+-   /flink
 releasePolicyLink: https://hub.docker.com/_/flink # This is the most conclusive resource
 changelogTemplate: https://nightlies.apache.org/flink/flink-docs-master/release-notes/flink-__RELEASE_CYCLE__
 releaseDateColumn: true
@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "1.19"
     releaseDate: 2024-03-15
     eol: false
-    latest: "1.19.0"
-    latestReleaseDate: 2024-03-21
+    latest: "1.19.1"
+    latestReleaseDate: 2024-06-14
 
 -   releaseCycle: "1.18"
     releaseDate: 2023-10-24
