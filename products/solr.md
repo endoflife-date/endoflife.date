@@ -64,12 +64,14 @@ releases:
     eol: true
     latest: "3.6.2"
     latestReleaseDate: 2012-12-24
+    link: https://cwiki.apache.org/confluence/display/solr/ReleaseNote362
 
 -   releaseCycle: "1"
     releaseDate: 2006-12-22
     eol: true
     latest: "1.4.1"
     latestReleaseDate: 2010-06-25
+    link: https://svn.apache.org/repos/asf/lucene/solr/tags/release-1.4.1/CHANGES.txt
 
 ---
 
