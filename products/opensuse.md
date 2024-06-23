@@ -37,18 +37,22 @@ releases:
 -   releaseCycle: "15.3"
     releaseDate: 2021-06-02
     eol: 2022-12-31
+    link: https://web.archive.org/web/20230521063245/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/
 
 -   releaseCycle: "15.2"
     releaseDate: 2020-07-02
     eol: 2022-01-04
+    link: https://web.archive.org/web/20230529015218/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.2/
 
 -   releaseCycle: "15.1"
     releaseDate: 2019-05-22
     eol: 2021-02-02
+    link: https://web.archive.org/web/20220210183008/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.1/
 
 -   releaseCycle: "15.0"
     releaseDate: 2018-05-25
     eol: 2019-12-03
+    link: https://web.archive.org/web/20220210191659/https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.0/
 
 -   releaseCycle: "42.3"
     releaseDate: 2017-07-26
