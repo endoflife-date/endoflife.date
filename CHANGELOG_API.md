@@ -13,10 +13,10 @@ v1:
   - new computed fields such as `is_maintained`,
   - the replacement of fields that were using union types with two separate single-type fields:
     - `lts` -> `isLts` and `ltsFrom`,
-    - `support` -> `isActiveSupportOver` and `activeSupportUntil`,
+    - `support` -> `isEoas` and `eoasFrom`,
     - `eol` -> `isEol` and `eolFrom`,
     - `discontinued` -> `isDiscontinued` and `discontinuedFrom`,
-    - `extendedSupport` -> `isExtendedSupportOver` and `extendedSupportUntil`.
+    - `extendedSupport` -> `isEoes` and `eoesFrom`.
 - provide new endpoints (#2078, #2160, #2530)
 - is versioned using the `api/v1` prefix (#2066), making it easier to implement
   non-backward-compatible changes in the future,

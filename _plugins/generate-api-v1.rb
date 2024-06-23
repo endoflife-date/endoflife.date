@@ -213,10 +213,10 @@ module ApiV1
             id: identifier.values.first
           } },
           labels: {
-            "activeSupport": product.data['activeSupportColumn'] ? ApiV1.strip_html(product.data['activeSupportColumnLabel']) : nil,
+            "eoas": product.data['eoasColumn'] ? ApiV1.strip_html(product.data['eoasColumnLabel']) : nil,
             "discontinued": product.data['discontinuedColumn'] ? ApiV1.strip_html(product.data['discontinuedColumnLabel']) : nil,
             "eol": product.data['eolColumn'] ? ApiV1.strip_html(product.data['eolColumnLabel']) : nil,
-            "extendedSupport": product.data['extendedSupportColumn'] ? ApiV1.strip_html(product.data['extendedSupportColumnLabel']) : nil,
+            "eoes": product.data['eoesColumn'] ? ApiV1.strip_html(product.data['eoesColumnLabel']) : nil,
           },
           links: {
             icon: product.data['iconUrl'],
@@ -248,14 +248,14 @@ module ApiV1
           date: cycle['releaseDate'],
           isLts: cycle['is_lts'],
           ltsFrom: cycle['lts_from'],
-          isActiveSupportOver: cycle['is_active_support_over'],
-          activeSupportUntil: cycle['active_support_until'],
+          isEoas: cycle['is_eoas'],
+          eoasFrom: cycle['eoas_from'],
           isEol: cycle['is_eol'],
           eolFrom: cycle['eol_from'],
           isDiscontinued: cycle['is_discontinued'],
           discontinuedFrom: cycle['discontinued_from'],
-          isExtendedSupportOver: cycle['is_extended_support_over'],
-          extendedSupportUntil: cycle['extended_support_until'],
+          isEoes: cycle['is_eoes'],
+          eoesFrom: cycle['eoes_from'],
           isMaintained: cycle['is_maintained'],
           latest: {
             name: cycle['latest'],
