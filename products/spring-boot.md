@@ -38,16 +38,16 @@ releases:
     releaseDate: 2024-05-23
     eol: 2025-05-23
     eoes: 2026-08-23
-    latest: "3.3.0"
-    latestReleaseDate: 2024-05-23
+    latest: "3.3.1"
+    latestReleaseDate: 2024-06-20
 
 -   releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-11-23
     eol: 2024-11-23
     eoes: 2026-02-23
-    latest: "3.2.6"
-    latestReleaseDate: 2024-05-23
+    latest: "3.2.7"
+    latestReleaseDate: 2024-06-20
 
 -   releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements

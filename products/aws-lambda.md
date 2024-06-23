@@ -111,7 +111,7 @@ releases:
 -   releaseCycle: "dotnet6"
     releaseLabel: .NET 6
     releaseDate: 2022-02-24
-    eoas: 2024-11-12
+    eoas: 2024-12-20
     eol: 2025-03-31
     link: https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
 
