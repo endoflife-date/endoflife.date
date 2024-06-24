@@ -8,6 +8,10 @@ changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CY
 releaseDateColumn: true
 eolColumn: Support Status
 
+auto:
+  methods:
+  -   custom: libreoffice
+
 releases:
 -   releaseCycle: "24.2"
     releaseDate: 2024-01-31 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
