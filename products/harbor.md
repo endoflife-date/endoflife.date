@@ -147,6 +147,10 @@ releases:
 
 The latest 3 minor releases are supported with critical community and security issues. Each minor release is maintained for approximately 9 months.
 
+{: .warning }
+> This page tracks the Harbor open-source edition. VMWare's Harbor Registry, the enterprise
+> edition by VMWare is documented at [/vmware-harbor-registry](/vmware-harbor-registry).
+
 ## Upgrade Policy
 
 Upgrades are only supported from the n-2 minor release. For example, upgrading from 2.9 to 2.11 is supported, but upgrading from 2.8 to 2.11 is not.
