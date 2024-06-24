@@ -31,7 +31,7 @@ auto:
 # Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
 -   releaseCycle: "17.1"
-    releaseDate: 2024-06-20
+    releaseDate: 2024-06-19
     eoas: 2024-07-18
     eol: 2024-09-19
     latest: "17.1.0"

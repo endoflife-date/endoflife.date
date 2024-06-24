@@ -14,34 +14,34 @@ auto:
 
 releases:
 -   releaseCycle: "24.2"
-    releaseDate: 2024-01-31 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
+    releaseDate: 2024-01-08 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
     eol: 2024-11-30
-    latest: "24.2.3"
-    latestReleaseDate: 2024-05-02
-    
+    latest: "24.2.4.2"
+    latestReleaseDate: 2024-06-04
+
 -   releaseCycle: "7.6"
-    releaseDate: 2023-08-21 # https://blog.documentfoundation.org/blog/2023/08/21/libreoffice-7-6-community/
+    releaseDate: 2023-07-10 # https://blog.documentfoundation.org/blog/2023/08/21/libreoffice-7-6-community/
     eol: 2024-06-12
-    latest: "7.6.7"
-    latestReleaseDate: 2024-05-10
+    latest: "7.6.7.2"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "7.5"
-    releaseDate: 2023-02-02 # https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/
+    releaseDate: 2022-12-26 # https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/
     eol: 2023-12-07 # https://blog.documentfoundation.org/blog/2023/12/07/libreoffice-764-and-759/
-    latest: "7.5.9"
-    latestReleaseDate: 2023-12-07
+    latest: "7.5.9.2"
+    latestReleaseDate: 2023-12-04
 
 -   releaseCycle: "7.4"
-    releaseDate: 2022-08-18 # https://blog.documentfoundation.org/blog/2022/08/18/libreoffice-7-4-community/
+    releaseDate: 2022-07-10 # https://blog.documentfoundation.org/blog/2022/08/18/libreoffice-7-4-community/
     eol: 2023-06-12
-    latest: "7.4.7"
-    latestReleaseDate: 2023-05-11
+    latest: "7.4.7.2"
+    latestReleaseDate: 2023-05-23
 
 -   releaseCycle: "7.3"
-    releaseDate: 2022-02-02 # https://blog.documentfoundation.org/blog/2022/02/02/libreoffice-73-community/
+    releaseDate: 2021-12-23 # https://blog.documentfoundation.org/blog/2022/02/02/libreoffice-73-community/
     eol: 2022-11-30
-    latest: "7.3.7"
-    latestReleaseDate: 2022-08-26
+    latest: "7.3.7.2"
+    latestReleaseDate: 2022-12-08
 
 ---
 
