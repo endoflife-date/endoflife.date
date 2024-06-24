@@ -2,6 +2,7 @@
 title: Microsoft Nano Server
 category: os
 tags: microsoft windows
+iconSlug: windows
 permalink: /windows-nano-server
 alternate_urls:
   - /windowsnanoserver

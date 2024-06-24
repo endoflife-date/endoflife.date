@@ -2,6 +2,7 @@
 title: Microsoft Windows Server Core
 category: os
 tags: microsoft windows
+iconSlug: windows
 permalink: /windows-server-core
 alternate_urls:
   - /windowsservercore

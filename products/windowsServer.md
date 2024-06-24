@@ -55,7 +55,7 @@ releases:
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
-    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-server-semiannual-channel
 
 -   releaseCycle: "1809"
     releaseDate: 2018-11-13
