@@ -142,7 +142,7 @@ releases:
 
 ---
 
-> [Veeam Backup & Replication](https://www.veeam.com/vm-backup-recovery-replication-software.html)
+> [Veeam Backup & Replication](https://www.veeam.com/products/veeam-data-platform/backup-recovery.html)
 > is a commercial data protection and disaster recovery solution. It provides backup, restore and
 > replication functionality for virtual machines, physical servers and workstations as well as
 > cloud-based workload.
