@@ -91,8 +91,8 @@ releases:
     releaseDate: 2022-03-01
     eol: false
     eoes: 2025-03-01
-    latest: "2.8.4"
-    latestReleaseDate: 2023-09-20
+    latest: "2.8.5"
+    latestReleaseDate: 2024-06-24
 
 ---
 
