@@ -13,7 +13,7 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/apache/lucene.git
-      regex: '^releases\/lucene\/(?P<version>\d+\.\d+(.\d+)?)$'
+      regex: '^releases\/lucene(-solr)?\/(?P<version>\d+\.\d+(.\d+)?)$'
       template: '{{version}}'
 
 releases:
