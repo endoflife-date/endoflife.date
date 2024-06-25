@@ -24,7 +24,7 @@ releases:
     codename: "2022"
     lts: true
     releaseDate: 2024-05-21
-    eol: false # not yet on https://learn.microsoft.com/en-us/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
+    eol: 2026-01-13
     latest: "17.10.3"
     latestReleaseDate: 2024-06-18
 
