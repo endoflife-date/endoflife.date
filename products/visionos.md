@@ -18,3 +18,5 @@ releases:
     link: https://support.apple.com/en-us/118202
 
 ---
+
+> [visionOS](https://www.apple.com/visionos), Apple's first spatial operating system, places digital content in a user’s physical world while allowing them to stay present and connected to others. It has an infinite canvas > for apps that scales beyond the boundaries of a traditional display and introduces a fully three-dimensional user interface controlled by the most natural and intuitive inputs possible — a user’s eyes, hands, and voice. > visionOS brings a new dimension to powerful, personal computing by changing the way users interact with their favorite apps, capture and relive memories, enjoy stunning TV shows and movies, and connect with others.
