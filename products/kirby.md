@@ -28,8 +28,8 @@ releases:
     releaseDate: 2023-12-19
     eol: 2025-11-27 # Assume eol(3.9)
     supportedPhpVersions: 8.1 - 8.3
-    latest: "3.10.0.1"
-    latestReleaseDate: 2024-02-25
+    latest: "3.10.1"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "4"
     codename: "A new era"
