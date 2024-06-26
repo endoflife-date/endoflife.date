@@ -182,6 +182,10 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.identifiers.size > 0 %}
+{% include identifiers.html %}
+{% endif %}
+
 <hr>
 
 <p>

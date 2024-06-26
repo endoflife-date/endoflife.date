@@ -23,7 +23,7 @@ auto:
 
 identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
--   purl: pkg:oci:node-feature-discovery?repository_url=registry.k8s.io/nfd
+-   purl: pkg:oci/node-feature-discovery?repository_url=registry.k8s.io/nfd
 
 # eol(x) = releaseDate(x+2)
 releases:

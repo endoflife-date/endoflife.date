@@ -130,6 +130,7 @@ GEM
       stringio
       time
       uri
+    packageurl-ruby (0.1.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.0)
@@ -201,6 +202,7 @@ DEPENDENCIES
   jemoji
   just-the-docs (~> 0.8.2)
   open-uri (~> 0.4)
+  packageurl-ruby (~> 0.1.0)
   tzinfo-data
   webrick (~> 1.8)
 

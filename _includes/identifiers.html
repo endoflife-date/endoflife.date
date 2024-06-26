@@ -1,0 +1,32 @@
+<details>
+  <summary>
+    Show Product Identifiers
+  </summary>
+<ul>
+{% for id_hash in page.identifiers %}
+
+{% assign I = id_hash|first %}
+{% assign type = I[0] %}
+{% assign v = I[1] %}
+
+<li>
+  {% if type == 'repology' %}
+  <a href="https://repology.org/project/{{v}}">
+    Repology: <tt>{{v}}</tt>
+  </a>
+  <img alt="Repology - Repositories count for {{v}}" src="https://img.shields.io/repology/repositories/{{v}}">
+
+  {% elsif type== 'purl' %}
+    {% assign url = v | purl_to_url %}
+    {% if url %}
+      <a href="{{url}}"><tt>{{v}}</tt></a>
+    {% else %}
+      <tt>{{v}}</tt></a>
+    {% endif %}
+  {% else %}
+  {{type|upcase}}: <tt>{{v}}</tt>
+  {% endif %}
+</li>
+{% endfor %}
+</ul>
+</details>
