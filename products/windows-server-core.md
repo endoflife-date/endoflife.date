@@ -7,7 +7,7 @@ permalink: /windows-server-core
 alternate_urls:
   - /windowsservercore
 versionCommand: winver
-releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Server
+releasePolicyLink: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 releaseLabel: 'Windows Server Core __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
@@ -48,7 +48,7 @@ releases:
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
-    link: https://learn.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
+    link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 
 -   releaseCycle: "1809"
     releaseDate: 2018-11-13
@@ -84,7 +84,7 @@ releases:
     eoas: 2022-01-11
     eol: 2022-01-11
     latest: 10.0.14393
-    link: https://learn.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
+    link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 
 -   releaseCycle: "2016"
     releaseDate: 2016-10-15
@@ -92,37 +92,11 @@ releases:
     eoas: 2022-01-11
     eol: 2027-01-12
     latest: 10.0.14393
-    link: https://learn.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
+    link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 
 ---
 
 > Windows Server Core is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
 > It's also offered as Windows container base image.
 
-## [Servicing channels](https://learn.microsoft.com/windows-server/get-started/servicing-channels-comparison)
-There have been historically three primary release channels available:
-* Long-Term Servicing Channel (LTSC)
-* Semi-Annual Channel (SAC)
-* Annual Channel (AC)
-
-The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
-
-The Windows Server Annual Channel (AC) was released after the retirement of the Semi-Annual Channel (SAC). The first release of the Annual Channel (AC) was on October 24, 2023.
-
-### Long-Term Servicing Channel (LTSC)
-With the Long-Term Servicing Channel, a new major version of Windows Server is released every 2-3 years. Users are entitled to 5 years of mainstream support and 5 years of extended support. The Long-Term Servicing Channel will continue to receive security and non-security updates, but it will not receive the new features and functionality.
-
-### Semi-Annual Channel (SAC)
-Each release in this channel is supported for 18 months from the initial release. Most of the features introduced in the Semi-Annual Channel have been rolled up into the next Long-Term Servicing Channel release of Windows Server.
-In this model, Windows Server releases were identified by the year and month of release: for example, in 2017, a release in the 9th month (September) would be identified as version 1709. Fresh releases of Windows Server in the Semi-Annual Channel occurred twice each year. The support lifecycle for each release is 18 months. Starting with fall 2020 (20H2) releases, the identification changed. Instead of a month, the release is named based on the release cycle. For example: version 20H2, for a release in the second half of the year 2020.
-
-## Annual Channel (AC)
-Similar to Semi-Annual Channel (SAC), but releases occurred every 12 months.
-The support lifecycle for each release is 18 months of mainstream support, plus 6 months of extended support.
-
-## Extended Security Updates (ESU)
-
-For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates).
-It includes Critical and/or Important security updates for a maximum of three years after the
-product's End of Extended Support date. Customers can also get technical support for the ESU period
-as long as they also have an active support plan.
+See [Windows Server](/windows-server) for information on the servicing channels.

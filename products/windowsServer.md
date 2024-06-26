@@ -55,7 +55,7 @@ releases:
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
-    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-server-semiannual-channel
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-semiannual-channel
 
 -   releaseCycle: "1809"
     releaseDate: 2018-11-13
@@ -157,7 +157,7 @@ There have been historically three primary release channels available:
 * Semi-Annual Channel (SAC)
 * Annual Channel (AC)
 
-The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
+The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
 
 The Windows Server Annual Channel (AC) was released after the retirement of the Semi-Annual Channel (SAC). The first release of the Annual Channel (AC) was on October 24, 2023.
 
