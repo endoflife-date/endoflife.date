@@ -92,4 +92,4 @@ releases:
 > It was initially intended as even smaller installation option compared to Windows Server Core.
 > Starting with 1709 it was removed as installation option and going forward is only offered as Windows container base image.
 
-See [Windows Server](/windows-server) for information on the servicing channels.
+See [Windows Server Servicing channels](/windows-server#servicing-channels) for information on the servicing channels.
