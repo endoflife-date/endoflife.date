@@ -1,8 +1,6 @@
- ---
+---
 title: Apache Apisix
-
 category: app
-
 permalink: /apisix
 alternate_urls:
 -   /apache-apisix
