@@ -30,7 +30,7 @@ releases:
     releaseDate: 2019-11-04
     eoas: 2025-01-07
     eol: 2030-01-08
-    latest: "15.0.4365.2"
+    latest: "15.0.4375.4"
     latestReleaseDate: 2024-06-13
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate27
 
