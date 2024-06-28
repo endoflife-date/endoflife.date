@@ -58,8 +58,8 @@ releases:
     releaseDate: 2022-08-03
     eoas: 2024-06-30
     eol: 2025-06-30
-    latest: "pc.2022.6.0.10"
-    latestReleaseDate: 2024-01-15
+    latest: "pc.2022.6.0.11"
+    latestReleaseDate: 2024-06-05
 
 -   releaseCycle: "pc.2022.4"
     releaseDate: 2022-05-16
