@@ -35,8 +35,8 @@ releases:
     eoas: 2022-11-16
     eol: 2024-06-30
     eoes: false
-    latest: "2.17.4"
-    latestReleaseDate: 2024-06-14
+    latest: "2.18.0"
+    latestReleaseDate: 2024-06-27
 
 ---
 
