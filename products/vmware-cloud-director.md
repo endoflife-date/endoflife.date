@@ -40,15 +40,3 @@ releases:
 The last date on which you can request support; the end of regular VMware
 maintenance updates and upgrades, _bug and security fixes,_ and technical assistance as per the
 Support and Subscription Terms and Conditions.
-
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
-
-The last date on which you can access support and workarounds for low-severity issues on supported
-configurations only. During the Technical Guidance phase, VMware does not offer new hardware
-support, server/client/guest OS updates, new security patches or bug fixes unless otherwise noted.
-
-{% include table.html
-labels="Release,Technical Guidance Ends"
-fields="releaseCycle,technicalGuidance"
-types="raw,end-date"
-rows=page.releases %}
