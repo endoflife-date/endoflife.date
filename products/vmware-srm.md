@@ -15,8 +15,8 @@ releases:
     releaseDate: 2023-09-21
     eol: 2025-10-11
     technicalGuidance: 2026-10-11
-    latest: "8.8.0.2"
-    latestReleaseDate: 2023-11-21
+    latest: "8.8.0.3"
+    latestReleaseDate: 2024-02-08
     link: https://docs.vmware.com/en/Site-Recovery-Manager/8.8/rn/vmware-site-recovery-manager-8802-release-notes/index.html
 
 -   releaseCycle: "8.7"
