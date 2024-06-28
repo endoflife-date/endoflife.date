@@ -16,6 +16,7 @@ customColumns:
     description: Supported Android versions range
     link: https://endoflife.date/android
 
+# Future support/EOL dates are estimated based on the release date plus three years (eoas) and plus four years (eol)
 releases:
 -   releaseCycle: "2a"
     releaseLabel: "Phone (2a)"
