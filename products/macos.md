@@ -12,6 +12,10 @@ releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 eolColumn: Service Status
 
+identifiers:
+-   cpe: cpe:/o:apple:macos
+-   cpe: cpe:2.3:o:apple:macos
+
 auto:
   methods:
   -   apple: ios
