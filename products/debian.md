@@ -37,8 +37,8 @@ releases:
     eol: 2026-06-10
     eoes: 2028-06-10
     link: https://www.debian.org/News/2024/20240210
-    latest: "12.5"
-    latestReleaseDate: 2024-02-10
+    latest: "12.6"
+    latestReleaseDate: 2024-06-29
 
 -   releaseCycle: "11"
     codename: "Bullseye"
@@ -46,8 +46,8 @@ releases:
     eol: 2024-07-31
     eoes: 2026-06-30
     link: https://www.debian.org/News/2024/2024021002
-    latest: "11.9"
-    latestReleaseDate: 2024-02-10
+    latest: "11.10"
+    latestReleaseDate: 2024-06-29
 
 -   releaseCycle: "10"
     codename: "Buster"
