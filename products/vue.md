@@ -18,7 +18,6 @@ auto:
 
 identifiers:
 -   repology: vue.js
--   repology: vue
 -   purl: pkg:npm/vue
 -   purl: pkg:github/vuejs/vue
 -   purl: pkg:github/vuejs/core
