@@ -103,7 +103,13 @@ The API is just JSON files generated in the `api` directory by `_plugins/create-
 
 ### API Documentation
 
-The API Documentation is available at <https://endoflife.date/docs/api> and is generated from an OpenAPI Specification file located at `_data/openapi.yml`. The documentation is rendered [Stoplight Elements](https://meta.stoplight.io/docs/elements/ZG9jOjMyNjU4OTY0-introduction-to-elements).
+The current API v1 documentation is available at <https://endoflife.date/docs/api/v1/> and is
+generated from an OpenAPI Specification file located at `api_v1/openapi.yml`. The documentation is
+rendered by [Swagger UI](https://swagger.io/tools/swagger-ui/).
+
+The old API v0 documentation is available at <https://endoflife.date/docs/api> and is
+generated from an OpenAPI Specification file located at `assets/openapi.yml`. The documentation is
+rendered by [Stoplight Elements](https://meta.stoplight.io/docs/elements/ZG9jOjMyNjU4OTY0-introduction-to-elements).
 
 ## Contributing Workflow
 
