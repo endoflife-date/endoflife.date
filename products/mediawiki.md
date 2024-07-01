@@ -38,7 +38,7 @@ releases:
 
 -   releaseCycle: "1.40"
     releaseDate: 2023-06-30
-    eol: 2024-06-30
+    eol: 2024-06-28
     latest: "1.40.4"
     latestReleaseDate: 2024-06-27
 
