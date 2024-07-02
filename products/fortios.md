@@ -14,6 +14,11 @@ eolColumn: End of Support
 eoasColumn: End of Engineering Support
 
 releases:
+-   releaseCycle: "7.6"
+    releaseDate: 2024-04-02
+    eoas: 2027-05-11
+    eol: 2028-11-11
+
 -   releaseCycle: "7.4"
     releaseDate: 2023-05-11
     eoas: 2026-05-11
