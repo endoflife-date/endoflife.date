@@ -1,25 +1,30 @@
 ---
 title: Kyverno
 category: server-app
-tags: cncf
+tags: cncf kubernetes
 permalink: /kyverno
-alternate_urls:
--   /kyverno
-versionCommand: |-
-  kyverno version
-releasePolicyLink: https://kyverno.io/docs/releases/
+versionCommand: kyverno version
+releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
-
+customColumns:
+-   property: supportedK8sVersions
+    position: after-release-column
+    label: Kubernetes Version
+    description: Supported Kubernetes versions
+    link: https://kyverno.io/docs/installation/#compatibility-matrix
 auto:
   methods:
-  -   git: https://github.com/kyverno/kyverno
+  -   git: https://github.com/kyverno/kyverno.git
 
 identifiers:
 -   purl: pkg:github/kyverno/kyverno
 -   purl: pkg:docker/nirmata/kyverno
 -   repology: kyverno
+-   purl: pkg:docker/chainguard/kyverno
+-   purl: pkg:oci/kyverno?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/kyverno-fips?repository_url=cgr.dev/chainguard
 
 releases:
 -   releaseCycle: "1.12"
@@ -27,34 +32,39 @@ releases:
     eol: false
     latest: "1.12.4"
     latestReleaseDate: 2024-06-17
+    supportedK8sVersions: 1.26 - 1.29
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-11-10
     eol: false
     latest: "1.11.5"
     latestReleaseDate: 2024-05-09
+    supportedK8sVersions: 1.25 - 1.28
 
 -   releaseCycle: "1.10"
     releaseDate: 2023-05-30
     eol: false
     latest: "1.10.7"
     latestReleaseDate: 2023-12-20
+    supportedK8sVersions: 1.24 - 1.26
 
 -   releaseCycle: "1.9"
     releaseDate: 2022-02-01
     eol: 2023-05-30
     latest: "1.9.2"
     latestReleaseDate: 2023-03-22
+    supportedK8sVersions: 1.24 - 1.26
 
 -   releaseCycle: "1.8"
     releaseDate: 2022-10-10
     eol: 2022-02-01
     latest: "1.8.5"
     latestReleaseDate: 2022-12-20
+    supportedK8sVersions: 1.23.3 - 1.25
 
 ---
 
-> Kyverno allows cluster administrators to manage environment specific configurations independently
+> Kyverno is a policy engine designed for Kubernetes. Kyverno allows cluster administrators to manage environment specific configurations independently
 > of workload configurations and enforce configuration best practices for their clusters.
 
-Kyverno follows the same support [policy](https://kyverno.io/docs/installation/#compatibility-matrix) as the Kubernetes project (N-2 policy) in which the current release and the previous two minor versions are maintained.
+Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support as Kubernetes - the 3 most recent minor versions receive security and bug fixes.
