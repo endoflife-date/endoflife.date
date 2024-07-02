@@ -17,6 +17,7 @@ customColumns:
     link: https://endoflife.date/android
 
 # Future support/EOL dates are estimated based on the release date plus three years (eoas) and plus four years (eol)
+# https://x.com/nothing/status/1663887093905469441
 releases:
 -   releaseCycle: "2a"
     releaseLabel: "Phone (2a)"
@@ -51,3 +52,6 @@ releases:
 ---
 
 > Nothing Phone is a series of Android smartphones by Nothing.
+
+In may 2023 Nothing's official account stated on [X](https://x.com/nothing/status/1663887093905469441) that they'll
+continue to offer 3 years of Android updates and 4 years of security updates.
