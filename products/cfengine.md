@@ -10,7 +10,7 @@ eolColumn: Supported
 
 identifiers:
 -   repology: cfengine
--   purl: pkg:homebrew/cfengine
+-   purl: pkg:brew/cfengine
 
 auto:
   methods:

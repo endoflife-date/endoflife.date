@@ -29,13 +29,13 @@ identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
--   purl: pkg:rpm/rhel/dotnet-sdk-8.0
--   purl: pkg:rpm/rhel/dotnet-sdk-7.0
--   purl: pkg:rpm/rhel/dotnet-sdk-6.0
--   purl: pkg:rpm/rhel/dotnet-sdk-5.0
--   purl: pkg:rpm/rhel/dotnet-sdk-3.1
--   purl: pkg:rpm/rhel/dotnet-sdk-3.0
--   purl: pkg:rpm/rhel/dotnet-sdk-2.1
+-   purl: pkg:rpm/redhat/dotnet-sdk-8.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-7.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-6.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-5.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-3.1
+-   purl: pkg:rpm/redhat/dotnet-sdk-3.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-2.1
 
 auto:
   methods:

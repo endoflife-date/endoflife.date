@@ -8,9 +8,6 @@ releasePolicyLink: https://www.devuan.org/os/releases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 releaseDateColumn: true
 
-identifiers:
--   purl: pkg:os/devuan
-
 auto:
   methods:
   -   distrowatch: devuan

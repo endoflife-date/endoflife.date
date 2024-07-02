@@ -29,7 +29,6 @@ identifiers:
 -   repology: mysql
 -   purl: pkg:generic/mysql
 -   purl: pkg:docker/library/mysql
--   purl: pkg:binary/mysql
 -   purl: pkg:deb/ubuntu/mysql-server
 -   purl: pkg:deb/debian/mysql-server
 

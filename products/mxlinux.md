@@ -14,9 +14,6 @@ releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
 releaseDateColumn: true
 
-identifiers:
--   purl: pkg:os/mxlinux
-
 auto:
   methods:
   -   distrowatch: mx

@@ -1,4 +1,5 @@
 require 'nokogiri'
+require_relative 'purl-to-url'
 
 # Various custom filters used by endoflife.date.
 #
@@ -126,6 +127,10 @@ module EndOfLifeFilter
       # Assuming it's a date
       return end_color(days_from_now(input))
     end
+  end
+
+  def purl_to_url(purl_str)
+    PurlToUrl.new.render(purl_str)
   end
 end
 
