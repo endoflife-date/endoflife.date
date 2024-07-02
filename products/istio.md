@@ -58,8 +58,8 @@ releases:
     releaseDate: 2023-11-14
     eol: 2024-06-25
     supportedKubernetesVersions: '1.25 - 1.29'
-    latest: "1.20.7"
-    latestReleaseDate: 2024-06-04
+    latest: "1.20.8"
+    latestReleaseDate: 2024-07-01
 
 -   releaseCycle: "1.19"
     releaseDate: 2023-09-05
