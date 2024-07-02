@@ -7,7 +7,7 @@ versionCommand: "Settings -> About Phone"
 releaseColumn: false
 releaseDateColumn: true
 discontinuedColumn: true
-eoasColumn: Android Updates
+eoasColumn: Guaranteed Android Updates
 eolColumn: Security Updates
 customColumns:
 -   property: supportedAndroidVersions
