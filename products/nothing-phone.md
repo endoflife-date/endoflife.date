@@ -51,5 +51,3 @@ releases:
 ---
 
 > Nothing Phone is a series of Android smartphones by Nothing.
-
-The end date for guaranteed Android version updates is indicated in the 'Active Support' column.
