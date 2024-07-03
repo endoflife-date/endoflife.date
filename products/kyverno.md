@@ -24,7 +24,6 @@ identifiers:
 -   repology: kyverno
 -   purl: pkg:docker/chainguard/kyverno
 -   purl: pkg:oci/kyverno?repository_url=cgr.dev/chainguard
--   purl: pkg:oci/kyverno-fips?repository_url=cgr.dev/chainguard
 
 releases:
 -   releaseCycle: "1.12"
@@ -50,14 +49,14 @@ releases:
 
 -   releaseCycle: "1.9"
     releaseDate: 2022-02-01
-    eol: 2023-05-30
+    eol: true
     latest: "1.9.2"
     latestReleaseDate: 2023-03-22
     supportedK8sVersions: 1.24 - 1.26
 
 -   releaseCycle: "1.8"
     releaseDate: 2022-10-10
-    eol: 2022-02-01
+    eol: true
     latest: "1.8.5"
     latestReleaseDate: 2022-12-20
     supportedK8sVersions: 1.23.3 - 1.25
