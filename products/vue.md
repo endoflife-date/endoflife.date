@@ -23,13 +23,45 @@ identifiers:
 -   purl: pkg:github/vuejs/core
 
 releases:
--   releaseCycle: "3"
-    releaseDate: 2020-09-18
+-   releaseCycle: "3.4"
+    releaseDate: 2023-12-29
     eoas: false
     eol: false
     latest: "3.4.31"
     latestReleaseDate: 2024-06-28
-    link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
+    link: https://github.com/vuejs/core/releases/tag/v3.4.0
+
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-11
+    eoas: true
+    eol: true
+    latest: "3.3.13"
+    latestReleaseDate: 2023-12-19
+    link: https://github.com/vuejs/core/releases/tag/v3.3.0
+
+-   releaseCycle: "3.2"
+    releaseDate: 2021-08-09
+    eoas: true
+    eol: true
+    latest: "3.2.47"
+    latestReleaseDate: 2023-02-02
+    link: https://github.com/vuejs/core/releases/tag/v3.2.0
+
+-   releaseCycle: "3.1"
+    releaseDate: 2021-06-07
+    eoas: true
+    eol: true
+    latest: "3.1.5"
+    latestReleaseDate: 2021-07-16
+    link: https://github.com/vuejs/core/releases/tag/v3.1.0
+
+-   releaseCycle: "3.0"
+    releaseDate: 2020-09-18
+    eoas: true
+    eol: true
+    latest: "3.0.11"
+    latestReleaseDate: 2021-04-02
+    link: https://github.com/vuejs/core/releases/tag/v3.0.0
 
 -   releaseCycle: "2"
     releaseDate: 2016-09-30
