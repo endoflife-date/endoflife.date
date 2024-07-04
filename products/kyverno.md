@@ -51,8 +51,8 @@ releases:
 -   releaseCycle: "1.9"
     releaseDate: 2022-02-01
     eol: 2024-04-26
-    latest: "1.9.2"
-    latestReleaseDate: 2023-03-22
+    latest: "1.9.5"
+    latestReleaseDate: 2023-05-29
     supportedK8sVersions: 1.24 - 1.26
 
 -   releaseCycle: "1.8"
