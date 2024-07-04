@@ -25,6 +25,7 @@ identifiers:
 -   purl: pkg:docker/chainguard/kyverno
 -   purl: pkg:oci/kyverno?repository_url=cgr.dev/chainguard
 
+# eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "1.12"
     releaseDate: 2024-04-26
@@ -49,21 +50,23 @@ releases:
 
 -   releaseCycle: "1.9"
     releaseDate: 2022-02-01
-    eol: true
+    eol: 2024-04-26
     latest: "1.9.2"
     latestReleaseDate: 2023-03-22
     supportedK8sVersions: 1.24 - 1.26
 
 -   releaseCycle: "1.8"
     releaseDate: 2022-10-10
-    eol: true
+    eol: 2023-11-10
     latest: "1.8.5"
     latestReleaseDate: 2022-12-20
     supportedK8sVersions: 1.23.3 - 1.25
 
 ---
 
-> Kyverno is a policy engine designed for Kubernetes. Kyverno allows cluster administrators to manage environment specific configurations independently
-> of workload configurations and enforce configuration best practices for their clusters.
+> Kyverno is a policy engine designed for Kubernetes. Kyverno allows cluster administrators to manage environment
+> specific configurations independently of workload configurations and enforce configuration best
+> practices for their clusters.
 
-Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support as Kubernetes - the 3 most recent minor versions receive security and bug fixes.
+Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support policy as Kubernetes - the
+3 most recent minor versions receive security and bug fixes.
