@@ -154,8 +154,8 @@ phases.
 
 Every time a new major is released, the last minor in the previous major automatically becomes LTS
 for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode (security
-patches only) for another 18 months before entering end of life. "2.7" is the planned LTS release
-for the v2 cycle with an [announced 2.x end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
+patches only) for another 18 months before entering end of life. "2.7" was the planned LTS release
+for the v2 cycle with [end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
 
 Commercial support for Vue 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-vue)
 initiative. For more information, see NES Vue [2.6](https://support.herodevs.com/hc/en-us/articles/21257913328909-Vue-2-6-NES) and
