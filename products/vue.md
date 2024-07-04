@@ -11,6 +11,8 @@ releasePolicyLink: https://vuejs.org/about/releases.html
 eoasColumn: true
 releaseDateColumn: true
 eoesColumn: Commercial Support
+changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
+oldChangelogTemplate: &old https://github.com/vuejs/vue/releases/tag/v__LATEST__
 
 auto:
   methods:
@@ -23,22 +25,112 @@ identifiers:
 -   purl: pkg:github/vuejs/core
 
 releases:
--   releaseCycle: "3"
-    releaseDate: 2020-09-18
+-   releaseCycle: "3.4"
+    releaseDate: 2023-12-29
     eoas: false
     eol: false
     latest: "3.4.31"
     latestReleaseDate: 2024-06-28
-    link: https://github.com/vuejs/core/blob/main/CHANGELOG.md
 
--   releaseCycle: "2"
-    releaseDate: 2016-09-30
-    eoas: 2022-03-18
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-11
+    eoas: 2023-12-29
+    eol: 2023-12-29
+    latest: "3.3.13"
+    latestReleaseDate: 2023-12-19
+
+-   releaseCycle: "3.2"
+    releaseDate: 2021-08-09
+    eoas: 2023-05-11
+    eol: 2023-05-11
+    latest: "3.2.47"
+    latestReleaseDate: 2023-02-02
+
+-   releaseCycle: "3.1"
+    releaseDate: 2021-06-07
+    eoas: 2021-08-09
+    eol: 2021-08-09
+    latest: "3.1.5"
+    latestReleaseDate: 2021-07-16
+
+-   releaseCycle: "3.0"
+    releaseDate: 2020-09-18
+    eoas: 2021-06-07
+    eol: 2021-06-07
+    latest: "3.0.11"
+    latestReleaseDate: 2021-04-02
+
+-   releaseCycle: "2.7"
+    releaseDate: 2022-07-01
+    eoas: 2023-12-31
     eol: 2023-12-31
     eoes: false
     latest: "2.7.16"
     latestReleaseDate: 2023-12-24
-    link: https://github.com/vuejs/vue/blob/main/CHANGELOG.md
+    link: *old
+
+-   releaseCycle: "2.6"
+    releaseDate: 2019-02-04
+    eoas: 2022-07-01
+    eol: 2022-07-01
+    eoes: false
+    latest: "2.6.14"
+    latestReleaseDate: 2021-06-07
+    link: *old
+
+-   releaseCycle: "2.5"
+    releaseDate: 2017-10-13
+    eoas: 2019-02-04
+    eol: 2019-02-04
+    eoes: true
+    latest: "2.5.22"
+    latestReleaseDate: 2019-01-12
+    link: *old
+
+-   releaseCycle: "2.4"
+    releaseDate: 2017-07-13
+    eoas: 2017-10-13
+    eol: 2017-10-13
+    eoes: true
+    latest: "2.4.4"
+    latestReleaseDate: 2017-09-14
+    link: *old
+
+-   releaseCycle: "2.3"
+    releaseDate: 2017-04-27
+    eoas: 2017-07-13
+    eol: 2017-07-13
+    eoes: true
+    latest: "2.3.4"
+    latestReleaseDate: 2017-06-08
+    link: *old
+
+-   releaseCycle: "2.2"
+    releaseDate: 2017-02-26
+    eoas: 2017-04-27
+    eol: 2017-04-27
+    eoes: true
+    latest: "2.2.6"
+    latestReleaseDate: 2017-03-27
+    link: *old
+
+-   releaseCycle: "2.1"
+    releaseDate: 2016-11-22
+    eoas: 2017-02-26
+    eol: 2017-02-26
+    eoes: true
+    latest: "2.1.10"
+    latestReleaseDate: 2017-01-17
+    link: *old
+
+-   releaseCycle: "2.0"
+    releaseDate: 2016-09-30
+    eoas: 2016-11-22
+    eol: 2016-11-22
+    eoes: true
+    latest: "2.0.8"
+    latestReleaseDate: 2016-11-20
+    link: *old
 
 -   releaseCycle: "1"
     releaseDate: 2015-10-27
@@ -46,7 +138,7 @@ releases:
     eol: true
     latest: "1.0.28"
     latestReleaseDate: 2016-09-27
-    link: https://github.com/vuejs/vue/releases/tag/v__LATEST__
+    link: *old
 
 ---
 
@@ -62,8 +154,8 @@ phases.
 
 Every time a new major is released, the last minor in the previous major automatically becomes LTS
 for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode (security
-patches only) for another 18 months before entering end of life. "2.7" is the planned LTS release
-for the v2 cycle with an [announced 2.x end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
+patches only) for another 18 months before entering end of life. "2.7" was the planned LTS release
+for the v2 cycle with [end of life](https://v2.vuejs.org/lts/) on December 31, 2023.
 
 Commercial support for Vue 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-vue)
 initiative. For more information, see NES Vue [2.6](https://support.herodevs.com/hc/en-us/articles/21257913328909-Vue-2-6-NES) and
