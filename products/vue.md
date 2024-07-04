@@ -73,7 +73,7 @@ releases:
     releaseDate: 2019-02-04
     eoas: 2022-07-01
     eol: 2022-07-01
-    eoes: true
+    eoes: false
     latest: "2.6.14"
     latestReleaseDate: 2021-06-07
     link: *old
