@@ -12,9 +12,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   git: https://github.com/apache/lucene.git
-      regex: '^releases\/lucene(-solr)?\/(?P<version>\d+\.\d+(.\d+)?)$'
-      template: '{{version}}'
+  -   maven: org.apache.lucene/lucene-core
 
 releases:
 -   releaseCycle: "9"
