@@ -65,14 +65,14 @@ releases:
 -   releaseCycle: "2.10"
     releaseDate: 2023-12-14
     eol: false
-    latest: '2.10.2'
-    latestReleaseDate: 2024-04-08
+    latest: '2.10.3'
+    latestReleaseDate: 2024-07-02
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-08-31
     eol: false
-    latest: '2.9.4'
-    latestReleaseDate: 2024-04-15
+    latest: '2.9.5'
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-04-13
