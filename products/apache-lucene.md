@@ -28,10 +28,10 @@ releases:
     latestReleaseDate: 2024-02-08
 
 -   releaseCycle: "7"
-    releaseDate: 2017-09-20
+    releaseDate: 2017-09-19
     eol: true
-    latest: "7.7.2"
-    latestReleaseDate: 2019-06-04
+    latest: "7.7.3"
+    latestReleaseDate: 2020-04-24
 
 ---
 
