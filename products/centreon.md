@@ -24,7 +24,8 @@ auto:
 
 # eoas(x) = releaseDate(x) + 1 year (rounded to the end of the month).
 # eol(x) = releaseDate(x) + 2 years (rounded to the end of the month).
-# See also https://docs.centreon.com/docs/releases/lifecycle/.
+# See also https://docs.centreon.com/docs/releases/lifecycle/
+# note: 24.10 will be an LTS release and should be treated differently
 releases:
 -   releaseCycle: '24.04'
     releaseDate: 2024-04-22
@@ -128,13 +129,34 @@ releases:
 > Centreon is composed of many components, each with its own minor version number.
 > The version numbers tracked here is for the Centreon Web interface.
 
+## Release Cadence
+
 Centreon delivers two releases per year and releases are named according to the year and period of
 delivery: `XX.04` for the spring release, and `XX.10` for the fall release. All modules and
 components of the Centreon software suite use the same release numbers.
 
-Since version 21.10, versions are supported for two years divided into two phases of 12 months each.
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/)
+> (expected in October 2024), Centreon will have one major release
+> in October every year. Minor versions, with bug fixes and minor improvements will be released on a monthly basis.
+> A Service Pack version, cumulating all minor versions changes, is typically delivered after six months.
+
+## Support Lifecycle
+
+Releases are supported for two years divided into two phases of 12 months each.
 During the first phase, named _Phase 1 support_ on this page, releases are supported with bugs of
 all severity levels and security fixes. During the second phase, named _Phase 2 support_ on this
 page, only major/critical bugs and security fixes are provided.
 
-Paid support is also available for Centreon. For more information, see <https://www.centreon.com/centreon-editions/>.
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/) (expected in October 2024):
+> - All Open Source major versions will be supported for 18 months.
+> - Commercial major versions released in even years will be designated as LTS versions and supported for 3 years.
+> - Commercial major versions released in odd years will be supported for 18 months.
+
+[Paid support](https://www.centreon.com/centreon-editions/) is available for
+Commercial Editions.
