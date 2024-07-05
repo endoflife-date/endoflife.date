@@ -3,9 +3,9 @@ title: Apache Lucene
 category: library
 tags: apache java-runtime
 iconSlug: apache
-permalink: /lucene
+permalink: /apache-lucene
 alternate_urls:
--   /apache-lucene
+-   /lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true
