@@ -22,12 +22,19 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-06-18
+    eoas: false
+    eol: false
+    latest: "6.1.2"
+    latestReleaseDate: 2024-07-02
+
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-28
-    eoas: false
-    eol: false # Will end when Plasma 6.1 comes out
-    latest: "6.0.4"
-    latestReleaseDate: 2024-04-16
+    eoas: 2024-06-18
+    eol: 2024-06-18
+    latest: "6.0.5"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "5.27"
     lts: true

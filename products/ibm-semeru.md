@@ -27,6 +27,9 @@ auto:
   -   github_releases: "ibmruntimes/semeru21-binaries"
       regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
       template: '{{version}}'
+  -   github_releases: "ibmruntimes/semeru22-binaries"
+      regex: '^jdk-(?P<version>[\d\.+]+)_openj9-[\d\.]+$'
+      template: '{{version}}'
   -   release_table: https://www.ibm.com/support/pages/node/6451203
       selector: "table"
       fields:
@@ -36,33 +39,39 @@ auto:
 # For LTS releases, EOL dates can be found on https://www.ibm.com/support/pages/node/6451203.
 # For non-LTS releases, EOL dates is the release date plus 6 months.
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-05-21
+    eol: 2024-09-30
+    latest: '22.0.1+8'
+    latestReleaseDate: 2024-05-21
+
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-22
-    eol: 2029-12-31 # TBC
-    latest: '21.0.2+13'
-    latestReleaseDate: 2024-02-05
+    eol: 2029-12-31
+    latest: '21.0.3+9'
+    latestReleaseDate: 2024-05-23
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
-    eol: 2027-10-31 # OpenJDK EOS, EoA TBC
-    latest: '17.0.10+7'
-    latestReleaseDate: 2024-02-07
+    eol: 2027-10-31
+    latest: '17.0.11+9'
+    latestReleaseDate: 2024-05-23
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
-    eol: 2026-11-30
-    latest: '11.0.22+7'
-    latestReleaseDate: 2024-02-05
+    eol: 2027-10-31
+    latest: '11.0.23+9'
+    latestReleaseDate: 2024-05-23
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-30
-    latest: '8u402-b06'
-    latestReleaseDate: 2024-02-05
+    latest: '8u412-b08'
+    latestReleaseDate: 2024-05-23
 
 ---
 

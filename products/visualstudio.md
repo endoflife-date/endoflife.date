@@ -20,10 +20,18 @@ auto:
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
 # When adding a new major version, don't forget to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
 releases:
+-   releaseCycle: "17.10"
+    codename: "2022"
+    lts: true
+    releaseDate: 2024-05-21
+    eol: 2026-01-13
+    latest: "17.10.3"
+    latestReleaseDate: 2024-06-18
+
 -   releaseCycle: "17.9"
     codename: "2022"
     releaseDate: 2024-02-13
-    eol: false # eol with release of 18.0
+    eol: 2024-05-21
     latest: "17.9.7"
     latestReleaseDate: 2024-05-14
 
@@ -32,8 +40,8 @@ releases:
     lts: true
     releaseDate: 2023-11-14
     eol: 2025-07-08
-    latest: "17.8.10"
-    latestReleaseDate: 2024-05-14
+    latest: "17.8.11"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "17.7"
     codename: "2022"
@@ -47,8 +55,8 @@ releases:
     lts: true
     releaseDate: 2023-05-16
     eol: 2025-01-14
-    latest: "17.6.15"
-    latestReleaseDate: 2024-05-14
+    latest: "17.6.16"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -62,8 +70,8 @@ releases:
     lts: true
     releaseDate: 2022-11-08
     eol: 2024-07-09
-    latest: "17.4.19"
-    latestReleaseDate: 2024-05-14
+    latest: "17.4.20"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "17.3"
     codename: "2022"
@@ -99,8 +107,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.36"
-    latestReleaseDate: 2024-05-14
+    latest: "16.11.37"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "16.10"
     codename: "2019"
@@ -183,8 +191,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.62"
-    latestReleaseDate: 2024-05-14
+    latest: "15.9.63"
+    latestReleaseDate: 2024-06-11
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
 -   releaseCycle: "15.8"

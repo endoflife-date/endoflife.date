@@ -11,9 +11,14 @@ releaseDateColumn: true
 eolColumn: Acceptance
 
 releases:
+-   releaseCycle: "4.0.1"
+    releaseDate: 2024-06-11
+    eol: false
+    link: https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1
+
 -   releaseCycle: "4.0"
     releaseDate: 2022-03-31
-    eol: false
+    eol: 2024-12-31
     link: https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub
 
 -   releaseCycle: "3.2.1"

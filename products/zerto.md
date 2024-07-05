@@ -10,10 +10,24 @@ eoasColumn: General Support
 eolColumn: Critical Support
 
 releases:
+-   releaseCycle: "10.0_u4"
+    releaseLabel: "10.0 Update 4"
+    releaseDate: 2024-05-15
+    eoas: false # Next GA date
+    eol: 2025-05-15
+    link: "https://help.zerto.com/bundle/RN.HTML.10.0_U4/page/release_notes_for_zerto_10_0_update_4.html"
+
+-   releaseCycle: "10.0_u3"
+    releaseLabel: "10.0 Update 3"
+    releaseDate: 2024-02-12
+    eoas: 2024-05-15
+    eol: 2025-02-12
+    link: "https://help.zerto.com/bundle/RN.HTML.10.0_U3/page/what_s_new_in_zerto_10_0_update_3.html"
+
 -   releaseCycle: "10.0_u2"
     releaseLabel: "10.0 Update 2"
     releaseDate: 2023-11-28
-    eoas: false # Next GA date
+    eoas: 2024-02-12
     eol: 2024-11-28
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U2/page/what_s_new_in_zerto_10_0_update_2.html"
 

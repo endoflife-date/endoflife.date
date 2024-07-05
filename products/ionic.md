@@ -51,11 +51,11 @@ releases:
     eol: false
     eoes: false
     minAngularVersion: v16
-    maxAngularVersion: v17.x
+    maxAngularVersion: v18.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
-    latest: "8.1.2"
-    latestReleaseDate: 2024-05-15
+    latest: "8.2.5"
+    latestReleaseDate: 2024-07-03
 
 -   releaseCycle: "7"
     releaseDate: 2023-03-29

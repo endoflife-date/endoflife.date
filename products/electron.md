@@ -30,30 +30,39 @@ auto:
         releaseCycle:
           column: "Electron"
           regex: '^(?P<value>\d+)\.0\.0$'
+        releaseDate: "Stable"
         eol: "EOL"
 
 releases:
+-   releaseCycle: "31"
+    releaseDate: 2024-06-10
+    eol: 2025-01-07
+    latest: "31.1.0"
+    latestReleaseDate: 2024-06-25
+    chromeVersion: "M126"
+    nodeVersion: "20.14"
+
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
     eol: 2024-10-15
-    latest: "30.0.6"
-    latestReleaseDate: 2024-05-15
+    latest: "30.1.2"
+    latestReleaseDate: 2024-06-19
     chromeVersion: "M124"
     nodeVersion: "20.11"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
     eol: 2024-08-20
-    latest: "29.4.0"
-    latestReleaseDate: 2024-05-15
+    latest: "29.4.3"
+    latestReleaseDate: 2024-06-27
     chromeVersion: "M122"
     nodeVersion: "20.9"
 
 -   releaseCycle: "28"
     releaseDate: 2023-12-04
     eol: 2024-06-11
-    latest: "28.3.1"
-    latestReleaseDate: 2024-04-17
+    latest: "28.3.3"
+    latestReleaseDate: 2024-05-23
     chromeVersion: "M120"
     nodeVersion: "18.18"
 
@@ -98,7 +107,7 @@ releases:
     nodeVersion: "18.12"
 
 -   releaseCycle: "22"
-    releaseDate: 2022-11-30
+    releaseDate: 2022-11-29
     eol: 2023-10-10
     latest: "22.3.27"
     latestReleaseDate: 2023-10-09
@@ -234,7 +243,7 @@ releases:
     nodeVersion: "12.14.0"
 
 -   releaseCycle: "5"
-    releaseDate: 2019-04-24
+    releaseDate: 2019-04-23
     eol: 2020-02-04
     latest: "5.0.13"
     latestReleaseDate: 2019-12-17
@@ -269,6 +278,23 @@ releases:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using
@@ -276,15 +302,9 @@ releases:
 > to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS,
 > and Linux.
 
-Typically, the latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
+The latest [_three_ stable major versions are currently supported](https://www.electronjs.org/blog/8-week-cadence).
 Only the latest minor release in each major version is supported. A new major stable version is
 released every 8 weeks.
-
-ℹ️ Electron 22 is temporarily supported until October 10, 2023. This extended
-support is intended to help developers who still need support for Windows 7/8/8.1, which
-ended support in Electron 23. The October support date follows the extended support dates from
-both Chromium and Microsoft. On October 11, support will drop back to the
-latest three stable major versions.
 
 All supported release get fixes that were previously merged to main backported, though this may be
 on a case-by-case basis for some older supported releases. When an API is changed or removed in a
@@ -301,9 +321,6 @@ Chromium's beta or dev channel, it is back-ported.
 When a release branch reaches the end of its support cycle, the series will be deprecated in NPM and
 a final end-of-support release will be made. This release will add a warning to inform that an
 unsupported version of Electron is in use.
-
-The End-of-life dates for current releases are approximated using 6 months (8x3 weeks) as the
-lifecycle of a release.
 
 ## Other Links
 

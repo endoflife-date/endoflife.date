@@ -30,24 +30,32 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
         eol: "End of Support"
-        eoes: "End Commercial Support *"
+        eoes: "End Enterprise Support *"
 
 releases:
+-   releaseCycle: "3.3"
+    supportedJavaVersions: "17 - 22" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
+    releaseDate: 2024-05-23
+    eol: 2025-05-23
+    eoes: 2026-08-23
+    latest: "3.3.1"
+    latestReleaseDate: 2024-06-20
+
 -   releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-11-23
     eol: 2024-11-23
     eoes: 2026-02-23
-    latest: "3.2.5"
-    latestReleaseDate: 2024-04-18
+    latest: "3.2.7"
+    latestReleaseDate: 2024-06-20
 
 -   releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-05-18
     eol: 2024-05-18
     eoes: 2025-08-18
-    latest: "3.1.11"
-    latestReleaseDate: 2024-04-18
+    latest: "3.1.12"
+    latestReleaseDate: 2024-05-23
 
 -   releaseCycle: "3.0"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.0.x/reference/html/getting-started.html#getting-started.system-requirements

@@ -17,35 +17,41 @@ auto:
 # eol(x) = releaseDate(x+1), until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.23"
+    releaseDate: 2024-06-12
+    eol: false
+    latest: "2.23.1"
+    latestReleaseDate: 2024-06-27
+
 -   releaseCycle: "2.22"
     releaseDate: 2024-04-23
-    eol: false
-    latest: "2.22.1"
-    latestReleaseDate: 2024-05-10
+    eol: 2024-06-12
+    latest: "2.22.2"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "2.21"
     releaseDate: 2024-03-11
     eol: 2024-04-23
-    latest: "2.21.2"
-    latestReleaseDate: 2024-04-05
+    latest: "2.21.3"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "2.20"
     releaseDate: 2024-01-29
     eol: 2024-03-11
-    latest: "2.20.6"
-    latestReleaseDate: 2024-04-05
+    latest: "2.20.7"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "2.19"
     releaseDate: 2023-11-20
     eol: 2024-01-29
-    latest: "2.19.4"
-    latestReleaseDate: 2024-03-07
+    latest: "2.19.5"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20
     eol: 2023-11-17 # releaseDate(2.19)
-    latest: "2.18.2"
-    latestReleaseDate: 2024-03-07
+    latest: "2.18.4"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "2.17"
     releaseDate: 2023-07-24

@@ -17,7 +17,7 @@ identifiers:
 auto:
   methods:
   -   distrowatch: alma
-      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d)$'
+      regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d+)$'
 
 releases:
 -   releaseCycle: "9"
@@ -32,9 +32,9 @@ releases:
     releaseDate: 2021-03-30
     eoas: 2024-05-01
     eol: 2029-03-01
-    latest: "8.9"
-    latestReleaseDate: 2023-11-21
-    link: https://almalinux.org/blog/2023-11-21-announcing-89-stable/
+    latest: "8.10"
+    latestReleaseDate: 2024-05-28
+    link: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
 
 ---
 

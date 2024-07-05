@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "2.4"
     releaseDate: 2020-12-15
     eol: false
-    latest: "2.4.17"
-    latestReleaseDate: 2023-03-31
+    latest: "2.4.18"
+    latestReleaseDate: 2024-05-25
 
 -   releaseCycle: "2.3"
     releaseDate: 2020-07-13

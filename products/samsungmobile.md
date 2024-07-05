@@ -19,6 +19,18 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy A55 5G"
+    releaseDate: 2024-03-11
+    eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
+    eol: 2028-03-11 # "five years of security updates"
+    link: https://doc.samsungmobile.com/sm-a556e/ins/doc.html
+
+-   releaseCycle: "Galaxy A35 5G"
+    releaseDate: 2024-03-11
+    eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
+    eol: 2028-03-11 # "five years of security updates"
+    link: https://doc.samsungmobile.com/SM-A356E/029619240319/eng.html
+
 -   releaseCycle: "Galaxy S24 Ultra"
     releaseDate: 2024-01-24
     eoas: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)

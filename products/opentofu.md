@@ -20,8 +20,8 @@ releases:
 -   releaseCycle: "1.7"
     releaseDate: 2024-04-30
     eol: false # releaseDate(1.9)
-    latest: "1.7.1"
-    latestReleaseDate: 2024-05-08
+    latest: "1.7.2"
+    latestReleaseDate: 2024-06-03
 
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-09
@@ -34,6 +34,6 @@ releases:
 > [OpenTofu](https://opentofu.org/) is a fork of Terraform that is open-source, community-driven, and managed by the Linux Foundation.
 
 In their 2024-01-22 meeting, the OpenTofu Technical Steering Committee (TSC) [decided to adopt
-the same support policy as Terraform](https://github.com/opentofu/opentofu/blob/main/TSC_SUMMARY.md#agenda-2):
+the same support policy as Terraform](https://github.com/opentofu/opentofu/blob/main/TSC_SUMMARY.md#2024-01-22-async):
 patches for the most recent major release, as well as up to two prior ones. So up to three releases
 will be supported at any given point in time.

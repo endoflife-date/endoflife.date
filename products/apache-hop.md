@@ -16,9 +16,16 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "2.9"
+    releaseDate: 2024-05-20
+    eol: false
+    latest: '2.9.0'
+    latestReleaseDate: 2024-05-20
+    link: https://github.com/apache/hop/releases/tag/2.9.0-rc1
+
 -   releaseCycle: "2.8"
     releaseDate: 2024-02-28
-    eol: false
+    eol: 2024-05-20
     latest: '2.8.0'
     latestReleaseDate: 2024-02-28
     link: https://hop.apache.org/blog/2024/03/hop-2.8.0/
@@ -35,60 +42,70 @@ releases:
     eol: 2023-12-01
     latest: '2.6.0'
     latestReleaseDate: 2023-09-12
+    link: https://hop.apache.org/blog/2023/09/hop-2.6.0/
 
 -   releaseCycle: "2.5"
     releaseDate: 2023-06-08
     eol: 2023-09-12
     latest: '2.5.0'
     latestReleaseDate: 2023-06-08
+    link: https://hop.apache.org/blog/2023/06/hop-2.5.0/
 
 -   releaseCycle: "2.4"
     releaseDate: 2023-03-27
     eol: 2023-06-08
     latest: '2.4.0'
     latestReleaseDate: 2023-03-27
+    link: https://hop.apache.org/blog/2023/03/hop-2.4.0/
 
 -   releaseCycle: "2.3"
     releaseDate: 2023-01-27
     eol: 2023-03-27
     latest: '2.3.0'
     latestReleaseDate: 2023-01-27
+    link: https://hop.apache.org/blog/2023/01/hop-2.3.0/
 
 -   releaseCycle: "2.2"
     releaseDate: 2022-12-07
     eol: 2023-01-27
     latest: '2.2.0'
     latestReleaseDate: 2022-12-07
+    link: https://hop.apache.org/blog/2022/12/hop-2.2.0/
 
 -   releaseCycle: "2.1"
     releaseDate: 2022-10-14
     eol: 2022-12-07
     latest: '2.1.0'
     latestReleaseDate: 2022-10-14
+    link: https://hop.apache.org/blog/2022/10/hop-2.1.0/
 
 -   releaseCycle: "2.0"
     releaseDate: 2022-06-02
     eol: 2022-10-14
     latest: '2.0.0'
     latestReleaseDate: 2022-06-02
+    link: https://hop.apache.org/blog/2022/06/hop-2.0.0/
 
 -   releaseCycle: "1.2"
     releaseDate: 2022-03-08
     eol: 2022-06-02
     latest: '1.2.0'
     latestReleaseDate: 2022-03-08
+    link: https://hop.apache.org/blog/2022/03/hop-1.2.0/
 
 -   releaseCycle: "1.1"
     releaseDate: 2022-01-24
     eol: 2022-03-08
     latest: '1.1.0'
     latestReleaseDate: 2022-01-24
+    link: https://hop.apache.org/blog/2022/01/hop-1.1.0/
 
 -   releaseCycle: "1.0"
     releaseDate: 2021-10-05
     eol: 2022-01-24
     latest: '1.0.0'
     latestReleaseDate: 2021-10-05
+    link: https://hop.apache.org/blog/2021/10/hop-1.0.0/
 
 ---
 

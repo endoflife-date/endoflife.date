@@ -22,31 +22,31 @@ releases:
     releaseDate: 2024-02-06
     eoas: 2025-02-06
     eol: 2026-02-06
-    latest: "4.6.0"
-    latestReleaseDate: 2024-02-06
+    latest: "4.6.3"
+    latestReleaseDate: 2024-05-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.6.0-release-notes
 
 -   releaseCycle: "4.5"
     releaseDate: 2023-10-03
     eoas: 2024-02-06
     eol: 2024-06-04
-    latest: "4.5.3"
-    latestReleaseDate: 2024-01-15 # guessing
+    latest: "4.5.4"
+    latestReleaseDate: 2024-04-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.5.0-release-notes
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-09-07
     eoas: 2024-10-08
     eol: 2025-10-08
-    latest: "4.4.0-20240215"
-    latestReleaseDate: 2024-02-15
+    latest: "4.4.0-20240424"
+    latestReleaseDate: 2024-04-24
 
 -   releaseCycle: "4.3"
     releaseDate: 2020-04-30
     eoas: 2023-03-07
     eol: 2025-03-07
-    latest: "4.3.0-20231026"
-    latestReleaseDate: 2023-10-26
+    latest: "4.3.0-20240424"
+    latestReleaseDate: 2024-04-24
 
 -   releaseCycle: "4.2"
     releaseDate: 2019-05-02
@@ -54,6 +54,7 @@ releases:
     eol: 2023-05-02
     latest: "4.2.2-20221027"
     latestReleaseDate: 2022-10-27
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-4.2.2-release-notes
 
 -   releaseCycle: "4.1"
     releaseDate: 2018-03-20
@@ -68,8 +69,8 @@ releases:
     releaseDate: 2017-10-09
     eoas: 2021-03-20
     eol: 2024-03-20
-    latest: "3.9.5-20230823"
-    latestReleaseDate: 2023-08-23
+    latest: "3.9.5-20240122"
+    latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "3.8"
     lts: true

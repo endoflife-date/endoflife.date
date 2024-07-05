@@ -16,8 +16,8 @@ releases:
     releaseDate: 2020-01-06
     eoas: false
     eol: false
-    latest: "3.3.11"
-    latestReleaseDate: 2023-10-21
+    latest: "3.3.12"
+    latestReleaseDate: 2024-05-31
     link: https://www.phpbb.com/community/viewtopic.php?t=2635986
 
 -   releaseCycle: "3.2"

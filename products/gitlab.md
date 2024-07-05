@@ -17,60 +17,74 @@ auto:
   methods:
   -   git: https://gitlab.com/gitlab-org/gitlab.git
       regex: '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)-ee?$'
-
+  -   release_table: https://about.gitlab.com/releases/
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate:
+          column: "Release Date"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/.
 releases:
+-   releaseCycle: "17.1"
+    releaseDate: 2024-06-19
+    eoas: 2024-07-18
+    eol: 2024-09-19
+    latest: "17.1.1"
+    latestReleaseDate: 2024-06-25
+
 -   releaseCycle: "17.0"
     releaseDate: 2024-05-15
     eoas: 2024-06-20
     eol: 2024-08-15
-    latest: "17.0.0"
-    latestReleaseDate: 2024-05-15
+    latest: "17.0.3"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.11"
     releaseDate: 2024-04-17
     eoas: 2024-05-16
     eol: 2024-07-18
-    latest: "16.11.2"
-    latestReleaseDate: 2024-05-07
+    latest: "16.11.5"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.10"
     releaseDate: 2024-03-20
     eoas: 2024-04-18
     eol: 2024-06-20
-    latest: "16.10.5"
-    latestReleaseDate: 2024-05-07
+    latest: "16.10.8"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.9"
     releaseDate: 2024-02-14
     eoas: 2024-03-21
     eol: 2024-05-16
-    latest: "16.9.8"
-    latestReleaseDate: 2024-05-09
+    latest: "16.9.9"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.8"
     releaseDate: 2024-01-17
     eoas: 2024-02-15
     eol: 2024-04-18
-    latest: "16.8.7"
-    latestReleaseDate: 2024-04-12
+    latest: "16.8.8"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.7"
     releaseDate: 2023-12-20
     eoas: 2024-01-18
     eol: 2024-03-21
-    latest: "16.7.7"
-    latestReleaseDate: 2024-03-06
+    latest: "16.7.8"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.6"
     releaseDate: 2023-11-15
     eoas: 2023-12-21
     eol: 2024-02-15
-    latest: "16.6.7"
-    latestReleaseDate: 2024-02-07
+    latest: "16.6.8"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20

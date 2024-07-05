@@ -20,28 +20,28 @@ releases:
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-10
-    latest: "3.3.0"
-    latestReleaseDate: 2024-04-09
+    latest: "3.3.1"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    latest: "3.2.1"
-    latestReleaseDate: 2024-01-30
+    latest: "3.2.2"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
-    latest: "3.1.5"
-    latestReleaseDate: 2024-01-30
+    latest: "3.1.6"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.13"
-    latestReleaseDate: 2024-01-30
+    latest: "3.0.14"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "1.1.1"
     lts: true
@@ -80,7 +80,7 @@ It is supported for [UNIX-like platforms](https://github.com/openssl/openssl/blo
 [DOS platform with DJGPP](https://github.com/openssl/openssl/blob/master/NOTES-DJGPP.md),
 [OpenVMS](https://github.com/openssl/openssl/blob/master/NOTES-VMS.md),
 [Perl](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md) and
-[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md).
+[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-VALGRIND.md).
 
 LTS releases will be supported for at least five years, and they will specify one at least every
 four years. Non-LTS releases will be supported for at least two years.

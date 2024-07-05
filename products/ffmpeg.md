@@ -22,8 +22,8 @@ releases:
     codename: Dijkstra
     releaseDate: 2024-04-05
     eol: false
-    latest: "7.0.0"
-    latestReleaseDate: 2024-04-05
+    latest: "7.0.1"
+    latestReleaseDate: 2024-05-26
 
 -   releaseCycle: "6.1"
     codename: Heaviside
@@ -44,8 +44,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.4"
-    latestReleaseDate: 2023-11-10
+    latest: "5.1.5"
+    latestReleaseDate: 2024-06-15
 
 -   releaseCycle: "5.0"
     codename: Lorentz
@@ -65,8 +65,8 @@ releases:
     codename: '4:3'
     releaseDate: 2020-06-15
     eol: false
-    latest: "4.3.6"
-    latestReleaseDate: 2023-04-16
+    latest: "4.3.7"
+    latestReleaseDate: 2024-06-15
 
 -   releaseCycle: "4.2"
     codename: 'Ada'
@@ -249,6 +249,8 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
+
 
 ---
 
