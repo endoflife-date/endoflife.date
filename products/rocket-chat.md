@@ -15,7 +15,7 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
-  -   release_table: https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability
+  -   release_table: https://docs.rocket.chat/docs/version-durability
       selector: "table"
       fields:
         releaseCycle:
