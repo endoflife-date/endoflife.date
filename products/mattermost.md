@@ -4,8 +4,8 @@ category: server-app
 iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
-releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
-releaseImage: https://docs.mattermost.com/_images/ESR2_update.png
+releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
+releaseImage: https://docs.mattermost.com/_images/ESR_graphic2.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
@@ -14,12 +14,16 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/mattermost/mattermost-server.git
-  -   release_table: https://docs.mattermost.com/upgrade/release-lifecycle.html
+  -   release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
       selector: "table"
       fields:
-        releaseCycle: "Version"
-        releaseDate: "Lifecyle Start Date" # do not fix type, it's in the source
-        eol: "Lifecycle End Date"
+        releaseCycle:
+          column: "Release"
+          regex: '^v(?P<value>\d+\.\d+).*$'
+        releaseDate: "Released on"
+        eol:
+          column: "Support ends"
+          regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
 releases:
 -   releaseCycle: "9.9"
