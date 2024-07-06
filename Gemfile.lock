@@ -25,10 +25,30 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.0-aarch64-linux-gnu)
+    ffi (1.17.0-aarch64-linux-musl)
+    ffi (1.17.0-arm-linux-gnu)
+    ffi (1.17.0-arm-linux-musl)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86-linux-gnu)
+    ffi (1.17.0-x86-linux-musl)
+    ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+    google-protobuf (4.27.2)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.27.2-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.2-x86-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.2-x86_64-linux)
@@ -96,6 +116,14 @@ GEM
     mutex_m (0.2.0)
     nokogiri (1.16.6-aarch64-linux)
       racc (~> 1.4)
+    nokogiri (1.16.6-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.6-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.6-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.6-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
     open-uri (0.4.1)
@@ -114,9 +142,26 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.5)
+    sass-embedded (1.77.5-aarch64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
-      rake (>= 13)
+    sass-embedded (1.77.5-aarch64-linux-musl)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-arm-linux-gnueabihf)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-arm-linux-musleabihf)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-arm64-darwin)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86-linux-gnu)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86-linux-musl)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86_64-darwin)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86_64-linux-gnu)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86_64-linux-musl)
+      google-protobuf (>= 3.25, < 5.0)
     stringio (3.1.1)
     strscan (3.1.0)
     terminal-table (3.0.2)
@@ -131,7 +176,20 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  x86_64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux
+  arm-linux-gnu
+  arm-linux-gnueabihf
+  arm-linux-musl
+  arm-linux-musleabihf
+  arm64-darwin
+  x86-linux
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   icalendar (~> 2.10)
@@ -147,4 +205,4 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.4.1
+   2.5.9
