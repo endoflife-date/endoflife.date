@@ -17,7 +17,7 @@ identifiers:
 -   purl: pkg:docker/library/mariadb
 -   purl: pkg:docker/bitnami/mariadb
 -   purl: pkg:docker/bitnami/mariadb-galera
--   purl: pkg:homebrew/mariadb
+-   purl: pkg:brew/mariadb
 -   purl: pkg:rpm/amzn/mariadb-server
 -   purl: pkg:rpm/redhat/mariadb-server
 -   purl: pkg:rpm/centos/mariadb-server
