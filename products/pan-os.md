@@ -4,6 +4,8 @@ category: os
 tags: palo-alto-networks
 iconSlug: paloaltonetworks
 permalink: /panos
+alternate_urls:
+-   /pan-os
 versionCommand: show system info | match sw-version
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 releaseDateColumn: true

@@ -8,6 +8,7 @@ alternate_urls:
 -   /esx
 -   /vmwareesxi
 -   /vmesxi
+-   /vmware-esxi
 versionCommand: vmware -l
 releasePolicyLink: https://lifecycle.vmware.com
 releaseDateColumn: true
