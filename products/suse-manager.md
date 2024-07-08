@@ -7,7 +7,7 @@ permalink: /suse-manager
 versionCommand: cat /etc/uyuni-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/{{'__RELEASE_CYCLE__'}}/"
-releaseColumn: false
+releaseColumn: true
 releaseDateColumn: true
 eolColumn: General Support
 
