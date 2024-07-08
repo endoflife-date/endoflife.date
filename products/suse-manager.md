@@ -68,7 +68,7 @@ releases:
 
 ---
 
-> [SUSE Manager](https://www.suse.com/products/suse-manager/) is an open source infrastructure management solution designed to simplify and secure your entire mixed Linux environment - at the core, on the edge or in the cloud(s). Maintain infrastructure security & compliance at any scale - from 10 to 1 million clients - from a single console.
+> [SUSE Manager](https://www.suse.com/products/suse-manager/) is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment. It uses the Salt configuration management system to manage clients, deploy patches and packages, and report changes at scale.
 
 
 {: .warning }
