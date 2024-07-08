@@ -14,7 +14,7 @@ eolColumn: General Support
 releases:
 -   releaseCycle: "4.3"
     releaseDate: 2022-06-20
-    eol: false
+    eol: 2025-06-30
     latest: '4.3.11.1'
     latestReleaseDate: 2024-03-07
 
