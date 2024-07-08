@@ -1,7 +1,7 @@
 ---
 title: SUSE Manager
 category: server-app
-tags: os suse
+tags: suse
 iconSlug: suse
 permalink: /suse-manager
 alternate_urls:
