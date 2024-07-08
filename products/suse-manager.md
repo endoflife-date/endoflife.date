@@ -4,8 +4,6 @@ category: server-app
 tags: suse
 iconSlug: suse
 permalink: /suse-manager
-alternate_urls:
--   /suma
 versionCommand: cat /etc/uyuni-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/{{'__RELEASE_CYCLE__'}}/"
