@@ -64,6 +64,7 @@ releases:
     releaseDate: 2018-10-30
     eoas: 2019-07-09
     eol: 2024-07-09
+    eoes: 2027-07-12
     latest: "12.0.6449.1"
     latestReleaseDate: 2023-10-10
     # SP3 link: https://support.microsoft.com/help/4022619
