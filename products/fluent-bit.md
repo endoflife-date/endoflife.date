@@ -21,16 +21,24 @@ identifiers:
 -   purl: pkg:docker/fluent/fluent-bit
 -   repology: fluent-bit
 
+# https://fluentbit.io/announcements/older-versions/: Security Policy: support for current series ends three months after a new series is released.
+# eol(x) = releaseDate(x+1) + 3 months
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2024-07-08
+    eol: false # releaseDate(3.2)
+    latest: "3.1.0"
+    latestReleaseDate: 2024-07-08
+
 -   releaseCycle: "3.0"
     releaseDate: 2024-03-21
-    eol: false
+    eol: 2024-10-08
     latest: "3.0.7"
     latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "2.2"
     releaseDate: 2023-11-06
-    eol: false
+    eol: 2024-06-21
     latest: "2.2.3"
     latestReleaseDate: 2024-05-21
 
