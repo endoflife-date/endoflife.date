@@ -21,11 +21,17 @@ auto:
       regex_exclude: '^5\.0\.\d+$'
 
 # eol(x) = releaseDate(x+1)
-# See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.
+# See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions
 releases:
+-   releaseCycle: "5.21"
+    releaseDate: 2024-06-28
+    eol: false
+    latest: "5.21.2"
+    latestReleaseDate: 2024-07-02
+
 -   releaseCycle: "5.20"
     releaseDate: 2024-05-23
-    eol: false
+    eol: 2024-06-28
     latest: "5.20.0"
     latestReleaseDate: 2024-05-31
 
