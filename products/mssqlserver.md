@@ -23,11 +23,12 @@ releases:
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latestGdr: "16.0.1115.1"
-    latestGdrLink: https://support.microsoft.com/help/5035432
-    latest: "16.0.4125.3 CU13"
-    latestReleaseDate: 2024-05-16
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate13
+    latestGdr: "16.0.1121.4"
+    latestGdrLink: https://support.microsoft.com/help/5040936
+    latest: "16.0.4131.2 CU13+GDR"
+    latestReleaseDate: 2024-07-09
+     # CU13 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate13
+    link: https://support.microsoft.com/help/5040939 # GDR for CU13
 
 -   releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -35,24 +36,26 @@ releases:
     releaseDate: 2021-09-15
     eoas: 2026-07-14
     eol: 2026-07-14
-    latestGdr: "13.0.6435.1"
-    latestGdrLink: https://support.microsoft.com/help/5029186
-    latest: "13.0.6435.1 GDR"
-    latestReleaseDate: 2023-10-10
-    link: https://support.microsoft.com/help/5029186
-
+    latestGdr: "13.0.6441.1"
+    latestGdrLink: https://support.microsoft.com/help/5040946
+    latest: "13.0.6441.1 GDR"
+    latestReleaseDate: 2024-07-09
+    # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
+    link: https://support.microsoft.com/help/5040946 # GDR for SP3
+    
 -   releaseCycle: "15.0"
     codename: Seattle
     releaseLabel: "2019"
     releaseDate: 2019-11-04
     eoas: 2025-02-28
     eol: 2030-01-08
-    latestGdr: "15.0.2110.4"
-    latestGdrLink: https://support.microsoft.com/help/5035434
-    latest: "15.0.4365.2"
-    latestReleaseDate: 2024-04-11
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate26
-
+    latestGdr: "15.0.2116.2"
+    latestGdrLink: https://support.microsoft.com/help/5040986
+    latest: "15.0.4382.1 CU27+GDR"
+    latestReleaseDate: 2024-07-09
+    # CU27 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate27
+    link: https://support.microsoft.com/help/5040948 # GDR for CU27
+    
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton
     releaseLabel: "2014 SP3"
@@ -63,7 +66,9 @@ releases:
     latestGdrLink: https://support.microsoft.com/help/5029184
     latest: "12.0.6449.1 CU4+GDR"
     latestReleaseDate: 2023-10-10
-    link: https://support.microsoft.com/help/5029185
+    # SP3 link: https://support.microsoft.com/help/4022619
+    # CU4 link: https://support.microsoft.com/help/4500181
+    link: https://support.microsoft.com/help/5029185 # GDR for SP3 CU4
 
 -   releaseCycle: "13.0-sp2"
     codename: SQL16
@@ -96,11 +101,12 @@ releases:
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latestGdr: "14.0.2052.1"
-    latestGdrLink: https://support.microsoft.com/help/5029375
-    latest: "14.0.3465.1 CU31+GDR"
-    latestReleaseDate: 2023-10-10
-    link: https://support.microsoft.com/help/5029376
+    latestGdr: "14.0.2056.2"
+    latestGdrLink: https://support.microsoft.com/help/5040942
+    latest: "14.0.3471.2 CU31+GDR"
+    latestReleaseDate: 2024-07-09
+    # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
+    link: https://support.microsoft.com/help/5040940 # GDR for CU31
 
 -   releaseCycle: "13.0-sp1"
     codename: SQL16
