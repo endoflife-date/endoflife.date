@@ -96,7 +96,7 @@ releases:
 > Edition (TKGI).
 
 {: .warning }
-> This page tracks the VMWare Harbor Registry, which is a VMWare product based on the open-source Harbor project.
+> This page tracks the VMWare Harbor Registry, which is a VMWare product based on the [open-source Harbor project](/harbor).
 
 New major versions are usually maintained for approximately 1 year.
 More information about releases on [VMWare website](https://network.pivotal.io/products/harbor-container-registry/releases).

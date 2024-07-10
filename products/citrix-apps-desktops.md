@@ -9,6 +9,7 @@ alternate_urls:
 -   /cvad
 # This can be removed if we add more citrix products
 -   /citrix
+-   /citrix-apps-desktops
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
 

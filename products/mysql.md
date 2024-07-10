@@ -29,7 +29,6 @@ identifiers:
 -   repology: mysql
 -   purl: pkg:generic/mysql
 -   purl: pkg:docker/library/mysql
--   purl: pkg:binary/mysql
 -   purl: pkg:deb/ubuntu/mysql-server
 -   purl: pkg:deb/debian/mysql-server
 
@@ -43,8 +42,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: '8.4.0'
-    latestReleaseDate: 2024-04-10
+    latest: '8.4.1'
+    latestReleaseDate: 2024-06-03
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
@@ -72,8 +71,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.37'
-    latestReleaseDate: 2024-05-02
+    latest: '8.0.38'
+    latestReleaseDate: 2024-06-13
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09

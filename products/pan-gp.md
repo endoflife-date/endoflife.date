@@ -4,6 +4,8 @@ category: app
 tags: palo-alto-networks
 iconSlug: paloaltonetworks
 permalink: /pangp
+alternate_urls:
+-   /pan-gp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 releaseDateColumn: true
 eoasColumn: true
@@ -25,8 +27,8 @@ releases:
 
 -   releaseCycle: "6.3"
     releaseDate: 2024-06-13
-    eol: false
-    eoas: false
+    eol: 2026-06-13
+    eoas: 2026-06-13
     latest: "6.3.0"
     latestReleaseDate: 2024-06-13
     link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
