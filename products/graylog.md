@@ -25,14 +25,14 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2024-05-06
     eol: false
-    latest: "6.0.3"
-    latestReleaseDate: 2024-06-05
+    latest: "6.0.4"
+    latestReleaseDate: 2024-07-03
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30
     eol: false
-    latest: "5.2.8"
-    latestReleaseDate: 2024-06-05
+    latest: "5.2.9"
+    latestReleaseDate: 2024-07-03
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11

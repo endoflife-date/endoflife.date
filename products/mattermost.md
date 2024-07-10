@@ -4,8 +4,8 @@ category: server-app
 iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
-releasePolicyLink: https://docs.mattermost.com/upgrade/release-lifecycle.html
-releaseImage: https://docs.mattermost.com/_images/ESR2_update.png
+releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
+releaseImage: https://docs.mattermost.com/_images/ESR_graphic2.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
@@ -14,12 +14,16 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/mattermost/mattermost-server.git
-  -   release_table: https://docs.mattermost.com/upgrade/release-lifecycle.html
+  -   release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
       selector: "table"
       fields:
-        releaseCycle: "Version"
-        releaseDate: "Lifecyle Start Date" # do not fix type, it's in the source
-        eol: "Lifecycle End Date"
+        releaseCycle:
+          column: "Release"
+          regex: '^v(?P<value>\d+\.\d+).*$'
+        releaseDate: "Released on"
+        eol:
+          column: "Support ends"
+          regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
 releases:
 -   releaseCycle: "9.9"
@@ -31,14 +35,14 @@ releases:
 -   releaseCycle: "9.8"
     releaseDate: 2024-05-01
     eol: 2024-08-15
-    latest: '9.8.1'
-    latestReleaseDate: 2024-05-23
+    latest: '9.8.2'
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "9.7"
     releaseDate: 2024-04-01
     eol: 2024-07-15
-    latest: '9.7.5'
-    latestReleaseDate: 2024-05-30
+    latest: '9.7.6'
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "9.6"
     releaseDate: 2024-02-28
@@ -49,8 +53,8 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
     eol: 2024-11-15
-    latest: '9.5.6'
-    latestReleaseDate: 2024-05-30
+    latest: '9.5.7'
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-12-19

@@ -4,6 +4,8 @@ category: os
 tags: palo-alto-networks
 iconSlug: paloaltonetworks
 permalink: /panos
+alternate_urls:
+-   /pan-os
 versionCommand: show system info | match sw-version
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 releaseDateColumn: true
@@ -26,9 +28,9 @@ releases:
 -   releaseCycle: "11.2"
     releaseDate: 2024-05-02
     eol: 2027-05-02
-    latest: "11.2.0"
-    latestReleaseDate: 2024-05-02
-    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-0-known-and-addressed-issues/pan-os-11-2-0-addressed-issues
+    latest: "11.2.1"
+    latestReleaseDate: 2024-07-08
+    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-1-known-and-addressed-issues/pan-os-11-2-1-addressed-issues
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
@@ -54,9 +56,9 @@ releases:
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
     eol: 2024-12-01
-    latest: "10.1.14"
-    latestReleaseDate: 2024-05-30
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-addressed-issues
+    latest: "10.1.14-h2"
+    latestReleaseDate: 2024-07-02
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h2-addressed-issues
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-07-16

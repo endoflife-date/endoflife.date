@@ -49,6 +49,9 @@ callouts:
   warning:
     title: Warning
     color: yellow
+  note:
+    title: Note
+    color: blue
 
 
 # jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago

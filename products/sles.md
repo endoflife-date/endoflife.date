@@ -21,10 +21,17 @@ identifiers:
 -   cpe: cpe:2.3:o:suse:sles
 
 releases:
--   releaseCycle: "15.5"
-    releaseDate: 2023-06-20
+-   releaseCycle: "15.6"
+    releaseDate: 2024-06-26
     eol: false
     eoes: false
+    latest: '15.6'
+    latestReleaseDate: 2024-06-26
+
+-   releaseCycle: "15.5"
+    releaseDate: 2023-06-20
+    eol: 2024-12-31
+    eoes: 2027-12-31
     latest: '15.5'
     latestReleaseDate: 2023-06-20
 
