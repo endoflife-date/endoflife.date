@@ -62,6 +62,7 @@ releases:
     releaseDate: 2018-10-30
     eoas: 2019-07-09
     eol: 2024-07-09
+    eoes: 2027-07-12
     latestGdr: "12.0.6179.1"
     latestGdrLink: https://support.microsoft.com/help/5029184
     latest: "12.0.6449.1 CU4+GDR"
