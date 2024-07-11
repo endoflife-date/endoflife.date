@@ -173,9 +173,9 @@ releases:
     releaseDate: 2021-06-22
     eoas: 2021-09-20
     eol: 2024-07-01
-    latest: "474.82"
-    latestReleaseDate: 2024-02-22
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-239-06/
+    latest: "475.06"
+    latestReleaseDate: 2024-06-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-256-02/
 
 -   releaseCycle: "R460-Linux (PB)"
     releaseDate: 2021-01-07
