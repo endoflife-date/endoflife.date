@@ -4,8 +4,8 @@ category: os
 tags: linux-distribution
 permalink: /eurolinux
 versionCommand: lsb_release --release
-releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
-changelogTemplate: https://euro-linux.com/eurolinux/technical-specifications/
+releasePolicyLink: https://euro-linux.com/en/software/eurolinux/specification/
+changelogTemplate: https://euro-linux.com/en/software/eurolinux/specification/
 releaseDateColumn: true
 eoasColumn: true
 
