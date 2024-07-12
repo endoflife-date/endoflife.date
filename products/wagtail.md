@@ -33,23 +33,23 @@ releases:
     releaseDate: 2024-05-01
     eoas: 2024-08-01
     eol: 2024-11-01
-    latest: "6.1.2"
-    latestReleaseDate: 2024-05-30
+    latest: "6.1.3"
+    latestReleaseDate: 2024-07-11
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-07
     eoas: 2024-05-01
     eol: 2024-08-01
-    latest: "6.0.5"
-    latestReleaseDate: 2024-05-30
+    latest: "6.0.6"
+    latestReleaseDate: 2024-07-11
 
 -   releaseCycle: "5.2"
     lts: true
     releaseDate: 2023-11-01
     eoas: 2025-02-03
     eol: 2025-02-03
-    latest: "5.2.5"
-    latestReleaseDate: 2024-05-01
+    latest: "5.2.6"
+    latestReleaseDate: 2024-07-11
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-08-01
