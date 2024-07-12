@@ -1,0 +1,43 @@
+---
+title: Calico
+category: server-app
+permalink: /calico
+changelogTemplate: https://github.com/projectcalico/calico/releases/tag/v__LATEST__
+releaseDateColumn: true
+
+auto:
+  methods:
+  -   git: https://github.com/projectcalico/calico.git
+
+identifiers:
+-   purl: pkg:github/projectcalico/calico
+-   purl: pkg:docker/calico/cni
+-   purl: pkg:docker/chainguard/calico-cni
+-   repology: calico
+
+releases:
+-   releaseCycle: "3.28"
+    releaseDate: 2024-05-11
+    eol: false
+    latest: "3.28.0"
+    latestReleaseDate: 2024-05-11
+
+-   releaseCycle: "3.27"
+    releaseDate: 2023-12-15
+    eol: false
+    latest: "3.27.4"
+    latestReleaseDate: 2024-07-09
+
+---
+
+> Calico is a networking and network security solution for containers, virtual
+> machines, and native host-based workloads. It provides high-performance,
+> scalable, and secure networking for Kubernetes clusters.
+
+{: .warning }
+> Calico Cloud and Calico Enterprise, are separate versions maintained by
+> [Tigera](https://www.tigera.io/tigera-products), and may have separate support
+> options.
+
+Looking at prior GitHub releases, it seems that security and bug fixes are
+maintained for the latest two releases.
