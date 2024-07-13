@@ -15,6 +15,7 @@ identifiers:
 -   purl: pkg:docker/chainguard/calico-cni
 -   repology: calico
 
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "3.28"
     releaseDate: 2024-05-11
