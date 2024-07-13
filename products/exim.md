@@ -3,7 +3,11 @@ title: Exim
 category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
+changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 releaseDateColumn: true
+
+identifiers:
+-   repology: exim
 
 auto:
   methods:
@@ -12,16 +16,17 @@ auto:
       regex:
         ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
 
-identifiers:
--   repology: exim
-
-changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
-
-# eol(R) = releaseDate(R+1)
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.98"
+    releaseDate: 2024-07-10
+    eol: false
+    latest: "4.98.0"
+    latestReleaseDate: 2024-07-10
+
 -   releaseCycle: "4.97"
     releaseDate: 2023-11-04
-    eol: false
+    eol: 2024-07-10
     latest: "4.97.1"
     latestReleaseDate: 2023-12-25
 
