@@ -7,7 +7,7 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/hj738dtcblz38ygacb3vnp8t52tvtco.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/aor6fuhg0lk6d4ygitb596a54rl5m8m.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 releaseDateColumn: true
@@ -25,6 +25,11 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.10"
+    releaseDate: 2024-07-14
+    eol: 2024-11-14 # estimated releaseDate(x)+4 months
+    latest: "6.10"
+    latestReleaseDate: 2024-07-14
 
 -   releaseCycle: "6.9"
     releaseDate: 2024-05-12
@@ -34,8 +39,8 @@ releases:
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-03-10
-    eol: 2024-05-30
-    latest: "6.8.12" # announced https://lore.kernel.org/lkml/2024053036-matron-confess-13e0@gregkh/
+    eol: 2024-05-30 # announced https://lore.kernel.org/lkml/2024053036-matron-confess-13e0@gregkh/
+    latest: "6.8.12"
     latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "6.7"
