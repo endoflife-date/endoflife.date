@@ -12,6 +12,13 @@ eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
 
+identifiers:
+-   repology: hadoop
+-   cpe: cpe:/a:apache:hadoop
+-   cpe: cpe:2.3:a:apache:hadoop
+-   cpe: cpe:/a:cloudera:hadoop
+-   cpe: cpe:2.3:a:cloudera:hadoop
+
 auto:
   methods:
   -   git: https://github.com/apache/hadoop.git

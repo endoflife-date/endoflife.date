@@ -6,6 +6,11 @@ releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-c
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
 eolWarnThreshold: 121
 
+identifiers:
+-   repology: arangodb
+-   cpe: cpe:/a:arangodb:arangodb
+-   cpe: cpe:2.3:a:arangodb:arangodb
+
 auto:
   methods:
   -   git: https://github.com/arangodb/arangodb.git

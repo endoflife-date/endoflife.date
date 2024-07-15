@@ -10,6 +10,13 @@ changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCL
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: ansible-core
+-   cpe: cpe:/a:redhat:ansible_engine
+-   cpe: cpe:/a:ansible:ansible
+-   cpe: cpe:/a:redhat:ansible
+-   cpe: cpe:2.3:a:redhat:ansible
+
 auto:
   methods:
   -   git: https://github.com/ansible/ansible.git

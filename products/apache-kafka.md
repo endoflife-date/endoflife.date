@@ -13,6 +13,11 @@ eoesColumn: Confluent Platform Standard End of Support
 # https://stackoverflow.com/a/51782038/374236
 versionCommand: ${KAFKA_HOME}/bin/kafka-topics.sh --version
 
+identifiers:
+-   repology: kafka
+-   cpe: cpe:/a:apache:kafka
+-   cpe: cpe:2.3:a:apache:kafka
+
 auto:
   methods:
   -   git: https://github.com/apache/kafka.git
