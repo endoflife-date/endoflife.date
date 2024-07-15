@@ -12,6 +12,15 @@ eoasColumn: true
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "2022.2"
+    releaseLabel: "2022 Update 2"
+    releaseDate: 2024-07-09
+    eoas: 2028-01-11
+    eol: 2033-01-11
+    latest: "2022.2"
+    latestReleaseDate: 2024-07-09
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-20222-rtw-release-date-july-9-2024
+
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
