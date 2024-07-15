@@ -18,16 +18,16 @@ identifiers:
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "3.28"
-    releaseDate: 2024-05-11
+    releaseDate: 2024-05-10
     eol: false
     latest: "3.28.0"
-    latestReleaseDate: 2024-05-11
+    latestReleaseDate: 2024-05-10
 
 -   releaseCycle: "3.27"
     releaseDate: 2023-12-15
     eol: false
     latest: "3.27.4"
-    latestReleaseDate: 2024-07-09
+    latestReleaseDate: 2024-07-08
 
 -   releaseCycle: "3.26"
     releaseDate: 2023-05-27
@@ -36,10 +36,10 @@ releases:
     latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "3.25"
-    releaseDate: 2023-01-13
+    releaseDate: 2023-01-11
     eol: 2023-12-15
     latest: "3.25.2"
-    latestReleaseDate: 2023-09-06
+    latestReleaseDate: 2023-09-05
 
 ---
 
