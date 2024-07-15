@@ -163,19 +163,19 @@ releases:
     lts: true
     releaseDate: 2021-07-19
     eoas: 2021-10-26
-    eol: 2024-07-20
-    latest: "470.239.06"
-    latestReleaseDate: 2024-02-22
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-239-06/
+    eol: 2024-10-01
+    latest: "470.256.02"
+    latestReleaseDate: 2024-06-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-256-02/
 
 -   releaseCycle: "R470-Windows"
     lts: true
     releaseDate: 2021-06-22
     eoas: 2021-09-20
     eol: 2024-07-01
-    latest: "474.82"
-    latestReleaseDate: 2024-02-22
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-239-06/
+    latest: "475.06"
+    latestReleaseDate: 2024-06-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-256-02/
 
 -   releaseCycle: "R460-Linux (PB)"
     releaseDate: 2021-01-07
@@ -256,8 +256,8 @@ releases:
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
-- 32-bit operating systems are [no longer supported](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
-  outside the `R390` branch. 32-bit applications running on x86_64 are still supported.
+- 32-bit operating systems are [no longer supported.](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
+  32-bit applications running on x86_64 are still supported.
 - There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
@@ -270,17 +270,15 @@ supported by your hardware.
 GPUs supported by any given branch is dependent on the operating system.
 
 - GKxxx ("Kepler") Desktop GPUs are supported on Windows and Linux via the `R470` [legacy driver
-  series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) until
+  series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) through
   September 2024.
-- GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases)
-  until the end of 2022.
 - A list of [GPUs no longer supported on Windows](https://nvidia.custhelp.com/app/answers/detail/a_id/3473)
   is available.
 - Usually on Linux driver support per branch is indicated by architecture, but on Windows only
-  specific models are supported. For example the R390 branch mainly exists simply to provide
-  security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are
+  specific models are supported. For example the R390 branch mainly existed simply to provide
+  security updates to the Fermi architecture, but while on [Linux all Fermi GPUs were
   supported](https://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html),
-  on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf).
+  on Windows very [few specific GPUs were supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf).
 
 ## Cadence
 

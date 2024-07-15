@@ -11,10 +11,11 @@ releaseDateColumn: true
 releaseColumn: false
 
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
+# See also https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html
 releases:
 -   releaseCycle: "releng/14.1"
     releaseDate: 2024-06-04
-    eol: false
+    eol: 2025-03-31
 
 -   releaseCycle: "releng/14.0"
     releaseDate: 2023-11-21
@@ -27,7 +28,7 @@ releases:
 
 -   releaseCycle: "releng/13.3"
     releaseDate: 2024-03-05
-    eol: false
+    eol: 2024-12-31
 
 -   releaseCycle: "releng/13.2"
     releaseDate: 2023-04-11
@@ -244,7 +245,15 @@ Branches. Advisories are not issued for the `-CURRENT` Branch, which is primaril
 FreeBSD developers.
 
 The -STABLE branch tags have names like `stable/10`. The corresponding builds have names like
-`FreeBSD 10.1-STABLE`.
+`FreeBSD 10.1-STABLE`. Each FreeBSD Release has an associated Security Branch. The Security
+Branch tags have names like `releng/10.1`. The corresponding builds have names like `FreeBSD 10.1-RELEASE-p4`.
 
-Each FreeBSD Release has an associated Security Branch. The Security Branch tags have names like
-`releng/10.1`. The corresponding builds have names like `FreeBSD 10.1-RELEASE-p4`.
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with FreeBSD 15.x](https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html)
+> each major version's stable branch will be supported for 4 years, instead of the current 5.
+> 13.5 and 14.6 will be supported until 5 years after 13.0 and 14.0 respectively.
+> The support duration for individual point releases will remain until "next point release + 3 months"
+> A release cadence is being established so a new minor release from one of the supported
+> stable branches will happen most quarters.
