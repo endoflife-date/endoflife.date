@@ -2,7 +2,7 @@
 title: React Native
 category: framework
 tags: meta javascript-runtime
-iconSlug: react-native
+iconSlug: react
 permalink: /react-native
 releasePolicyLink: https://reactnative.dev/versions
 changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
