@@ -1,0 +1,142 @@
+---
+title: React Native
+category: framework
+tags: meta javascript-runtime
+iconSlug: react-native
+permalink: /react-native
+releasePolicyLink: https://reactnative.dev/versions
+changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
+releaseDateColumn: true
+eoasColumn: true
+
+identifiers:
+-   purl: pkg:github/facebook/react-native
+-   purl: pkg:npm/react-native
+
+# NPM dates are more accurate than git tag dates.
+auto:
+  methods:
+  -   npm: react-native
+
+releases:
+-   releaseCycle: "0.74"
+    releaseDate: 2024-04-23
+    eoas: false
+    eol: false
+    latest: "0.74.3"
+    latestReleaseDate: 2024-07-02
+
+-   releaseCycle: "0.73"
+    releaseDate: 2023-12-07
+    eoas: false
+    eol: false
+    latest: "0.73.9"
+    latestReleaseDate: 2024-07-10
+
+-   releaseCycle: "0.72"
+    releaseDate: 2023-06-22
+    eoas: 2024-04-23
+    eol: false
+    latest: "0.72.15"
+    latestReleaseDate: 2024-06-12
+
+-   releaseCycle: "0.71"
+    releaseDate: 2023-01-13
+    eoas: 2023-12-07
+    eol: false
+    latest: "0.71.19"
+    latestReleaseDate: 2024-04-29
+
+-   releaseCycle: "0.70"
+    releaseDate: 2022-11-06
+    eoas: 2023-06-22
+    eol: false
+    latest: "0.70.15"
+    latestReleaseDate: 2024-01-17
+
+-   releaseCycle: "0.69"
+    releaseDate: 2022-06-23
+    eoas: true
+    eol: true
+    latest: "0.69.12"
+    latestReleaseDate: 2023-07-04
+
+-   releaseCycle: "0.68"
+    releaseDate: 2022-03-30
+    eoas: true
+    eol: true
+    latest: "0.68.7"
+    latestReleaseDate: 2023-04-26
+
+-   releaseCycle: "0.67"
+    releaseDate: 2022-01-19
+    eoas: true
+    eol: true
+    latest: "0.67.5"
+    latestReleaseDate: 2022-11-07
+
+-   releaseCycle: "0.66"
+    releaseDate: 2021-10-02
+    eoas: true
+    eol: true
+    latest: "0.66.5"
+    latestReleaseDate: 2022-11-07
+
+-   releaseCycle: "0.65"
+    releaseDate: 2021-08-18
+    eoas: true
+    eol: true
+    latest: "0.65.3"
+    latestReleaseDate: 2022-11-07
+
+-   releaseCycle: "0.64"
+    releaseDate: 2021-03-13
+    eoas: true
+    eol: true
+    latest: "0.64.4"
+    latestReleaseDate: 2022-11-07
+
+-   releaseCycle: "0.63"
+    releaseDate: 2020-07-09
+    eoas: true
+    eol: true
+    latest: "0.63.5"
+    latestReleaseDate: 2022-11-07
+
+-   releaseCycle: "0.62"
+    releaseDate: 2020-03-27
+    eoas: true
+    eol: true
+    latest: "0.62.3"
+    latestReleaseDate: 2021-05-05
+
+-   releaseCycle: "0.61"
+    releaseDate: 2019-09-25
+    eoas: true
+    eol: true
+    latest: "0.61.5"
+    latestReleaseDate: 2019-11-23
+
+-   releaseCycle: "0.60"
+    releaseDate: 2019-07-03
+    eoas: true
+    eol: true
+    latest: "0.60.6"
+    latestReleaseDate: 2019-09-24
+
+---
+
+> [React Native](https://reactnative.dev/) brings React's declarative UI framework to iOS and Android.
+> With React Native, you use native UI controls and have full access to the native platform.
+
+## Versioning
+
+Open source React Native releases follow a release train that is coordinated on GitHub through the [react-native-releases](https://github.com/reactwg/react-native-releases/discussions) repository. New releases are created off the main branch of [facebook/react-native](https://github.com/facebook/react-native). They will follow a Release Candidate process to allow contributors to verify the changes and to identify any issues by writing clear, actionable bug reports. Eventually, the release candidate will be promoted to stable.
+
+## [Support](https://github.com/reactwg/react-native-releases/blob/main/docs/support.md)
+
+**Active Support**: Stable releases in active support receive frequent updates. Latest stable has the highest priority, and at the start of its stable cycle (right after .0 is released) multiple patches will be done as soon as possible to stabilize the version and ensure a good upgrade experience to the community.
+
+**End of Cycle Support**: A version in this support bracket will receive less patches, unless some important regressions need to be addressed. Once a next version becomes the new latest stable, before the version in EoC moves over into Unsupported one last patch released will be produced to honor the open "Should we release X.Y.Z?" discussion.
+
+**Unsupported**: When a version is in the unsupported stage, no new released are to be expected. Only very important regressions might create exceptions to this rule; it is recommended that codebases using an unsupported version upgrade as soon as possible.
