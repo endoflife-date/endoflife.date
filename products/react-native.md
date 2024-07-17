@@ -4,7 +4,7 @@ category: framework
 tags: meta javascript-runtime
 iconSlug: react
 permalink: /react-native
-releasePolicyLink: https://reactnative.dev/versions
+releasePolicyLink: https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
 releaseDateColumn: true
 eoasColumn: true
@@ -128,15 +128,3 @@ releases:
 
 > [React Native](https://reactnative.dev/) brings React's declarative UI framework to iOS and Android.
 > With React Native, you use native UI controls and have full access to the native platform.
-
-## Versioning
-
-Open source React Native releases follow a release train that is coordinated on GitHub through the [react-native-releases](https://github.com/reactwg/react-native-releases/discussions) repository. New releases are created off the main branch of [facebook/react-native](https://github.com/facebook/react-native). They will follow a Release Candidate process to allow contributors to verify the changes and to identify any issues by writing clear, actionable bug reports. Eventually, the release candidate will be promoted to stable.
-
-## [Support](https://github.com/reactwg/react-native-releases/blob/main/docs/support.md)
-
-**Active Support**: Stable releases in active support receive frequent updates. Latest stable has the highest priority, and at the start of its stable cycle (right after .0 is released) multiple patches will be done as soon as possible to stabilize the version and ensure a good upgrade experience to the community.
-
-**End of Cycle Support**: A version in this support bracket will receive less patches, unless some important regressions need to be addressed. Once a next version becomes the new latest stable, before the version in EoC moves over into Unsupported one last patch released will be produced to honor the open "Should we release X.Y.Z?" discussion.
-
-**Unsupported**: When a version is in the unsupported stage, no new released are to be expected. Only very important regressions might create exceptions to this rule; it is recommended that codebases using an unsupported version upgrade as soon as possible.
