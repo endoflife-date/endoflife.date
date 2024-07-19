@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "7.6"
     releaseDate: 2023-03-20
     eol: 2026-07-31
-    latest: "7.6.1"
-    latestReleaseDate: 2024-04-30
+    latest: "7.6.2"
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
