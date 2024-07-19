@@ -37,8 +37,8 @@ releases:
     releaseDate: 2018-06-26
     eoas: 2025-06-30
     eol: 2025-06-30
-    latest: "2.0.20240620.0"
-    latestReleaseDate: 2024-06-28
+    latest: "2.0.20240709.1"
+    latestReleaseDate: 2024-07-18
     link: https://aws.amazon.com/about-aws/whats-new/2018/06/announcing-amazon-linux-2-with-long-term-support/
 
 -   releaseCycle: '2018.03'
