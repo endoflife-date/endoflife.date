@@ -30,7 +30,7 @@ releases:
 -   releaseCycle: "17"
     releaseDate: 2021-04-28 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
     support: 2022-01-10
-    eol: 2024-04-30 # https://www.chef.io/blog/announcement-about-change-in-infra-client-17-end-of-life-timeline
+    eol: 2024-11-30
     latest: "17.10.95"
 
 -   releaseCycle: "16"
