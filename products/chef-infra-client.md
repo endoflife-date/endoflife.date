@@ -8,7 +8,7 @@ alternate_urls:
 -   /chef-client
 versionCommand: chef-client -v
 releasePolicyLink: https://docs.chef.io/versions/
-changelogTemplate: "https://docs.chef.io/release_notes_client/__LATEST__"
+changelogTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
 activeSupportColumn: true
 releaseDateColumn: true
 
