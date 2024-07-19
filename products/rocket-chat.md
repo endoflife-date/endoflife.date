@@ -17,6 +17,7 @@ auto:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
   -   release_table: https://docs.rocket.chat/docs/version-durability
       selector: "table"
+      header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:
           column: "Rocket.Chat Release"
