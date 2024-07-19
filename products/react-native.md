@@ -1,7 +1,7 @@
 ---
 title: React Native
 category: framework
-tags: meta javascript-runtime
+tags: javascript-runtime
 iconSlug: react
 permalink: /react-native
 releasePolicyLink: https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
