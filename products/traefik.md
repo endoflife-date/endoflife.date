@@ -19,9 +19,17 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/traefik/traefik.git
+  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/
+      selector: table
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Release Date"
+        eol:
+          column: "Community Support"
+          regex: '^End(ed|s) (?P<value>.+)$'
 
-# Table with releaseCycles/releaseDate/eoas:https://doc.traefik.io/traefik/deprecation/releases
-# Estimation: eoas(x) = releaseDate(x+1)
+
+# eoas(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "3.0"
     releaseDate: 2024-04-29
