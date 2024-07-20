@@ -8,6 +8,11 @@ releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactor
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: artifactory
+-   cpe: cpe:/a:jfrog:artifactory
+-   cpe: cpe:2.3:a:jfrog:artifactory
+
 auto:
   methods:
   -   custom: artifactory

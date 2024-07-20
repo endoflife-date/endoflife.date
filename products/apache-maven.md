@@ -13,6 +13,14 @@ changelogTemplate: "https://github.com/apache/maven/releases/tag/maven-__LATEST_
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: maven
+-   cpe: cpe:/a:apache:maven
+-   cpe: cpe:2.3:a:apache:maven
+-   repology: maven-shared-utils
+-   cpe: cpe:/a:apache:maven_shared_utils
+-   cpe: cpe:2.3:a:apache:maven_shared_utils
+
 auto:
   methods:
   -   maven: org.apache.maven/maven-core

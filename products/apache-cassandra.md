@@ -10,6 +10,11 @@ releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-A
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 releaseDateColumn: true
 
+identifiers:
+-   repology: cassandra
+-   cpe: cpe:/a:apache:cassandra
+-   cpe: cpe:2.3:a:apache:cassandra
+
 auto:
   methods:
   -   git: https://github.com/apache/cassandra.git

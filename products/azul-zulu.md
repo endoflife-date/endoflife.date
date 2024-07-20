@@ -18,6 +18,12 @@ customColumns:
     description: Corresponding latest Java version
     link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
 
+
+identifiers:
+-   repology: zulu-openjdk
+-   cpe: cpe:/a:azul:zulu
+-   cpe: cpe:2.3:a:azul:zulu
+
 # Auto-update will be difficult to implement. It's not difficult to get the versions through
 # https://app.swaggerhub.com/apis/azul/zulu-download-community/1.0, but the API does not provide
 # accurate dates (in the bundles/latest endpoint).

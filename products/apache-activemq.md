@@ -13,6 +13,11 @@ versionCommand: activemq --version
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: activemq
+-   cpe: cpe:/a:apache:activemq
+-   cpe: cpe:2.3:a:apache:activemq
+
 auto:
   methods:
   -   git: https://github.com/apache/activemq.git
