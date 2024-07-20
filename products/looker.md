@@ -21,7 +21,7 @@ auto:
 releases:
 -   releaseCycle: "24.12"
     releaseDate: 2024-07-10
-    lts: 2024-08-01
+    lts: 2024-09-01
     eol: 2024-11-30
 
 -   releaseCycle: "24.10"
