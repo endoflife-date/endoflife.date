@@ -529,7 +529,7 @@ releases:
 
 -   releaseCycle: "8"
     lts: true
-    releaseDate: 2018-11-01
+    releaseDate: 2014-03-18
     eol: 2026-11-30
     eoes: 2031-03-31
     latest: "8u422+6"
