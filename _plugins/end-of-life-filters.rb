@@ -1,5 +1,5 @@
 require 'nokogiri'
-require_relative 'purl-to-url'
+require_relative 'identifier-to-url'
 
 # Various custom filters used by endoflife.date.
 #
@@ -129,8 +129,8 @@ module EndOfLifeFilter
     end
   end
 
-  def purl_to_url(purl_str)
-    PurlToUrl.new.render(purl_str)
+  def identifier_to_url(input)
+    IdentifierToUrl.new.render(input)
   end
 end
 
