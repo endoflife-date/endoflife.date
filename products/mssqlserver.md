@@ -50,7 +50,7 @@ releases:
 -   releaseCycle: "13.0"
     codename: SQL16
     releaseLabel: "2016 SP3+GDR"
-    releaseDate: 2018-04-24
+    releaseDate: 2016-06-01
     eoas: 2021-07-13
     eol: 2026-07-14
     latest: "13.0.6441.1"
@@ -61,7 +61,7 @@ releases:
 -   releaseCycle: "12.0"
     codename: Hekaton
     releaseLabel: "2014 SP3 CU4+GDR"
-    releaseDate: 2018-10-30
+    releaseDate: 2014-04-01
     eoas: 2019-07-09
     eol: 2024-07-09
     eoes: 2027-07-12
