@@ -10,6 +10,7 @@
 
 require 'jekyll'
 require 'open-uri'
+require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
@@ -140,6 +141,10 @@ module EndOfLifeHooks
     error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
+
+    product.data['identifiers'].each { |identifier|
+      error_if.is_not_an_identifier('identifiers', identifier)
+    }
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -301,6 +306,13 @@ module EndOfLifeHooks
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
       end
+    end
+
+    # Real validation is delegated to IdentifierToUrl to avoid duplicatio
+    def is_not_an_identifier(property, hash)
+      IdentifierToUrl.new.render(hash)
+    rescue => e
+      declare_error(property, hash, e)
     end
 
     def is_url_invalid(property)

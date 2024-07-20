@@ -23,7 +23,7 @@ identifiers:
 -   purl: pkg:github/phpmyadmin/phpmyadmin
 -   purl: pkg:rpm/redhat/phpmyadmin
 -   purl: pkg:rpm/centos/phpmyadmin
--   dockerhub: library/phpmyadmin
+-   purl: pkg:docker/library/phpmyadmin
 
 releases:
 -   releaseCycle: "5.2"
