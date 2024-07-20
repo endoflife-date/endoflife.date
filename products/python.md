@@ -207,6 +207,13 @@ releases:
     latest: "3.2.6"
     latestReleaseDate: 2014-10-12
 
+-   releaseCycle: "2.7"
+    releaseDate: 2010-07-03
+    eoas: true
+    eol: 2020-01-01
+    latest: "2.7.18"
+    latestReleaseDate: 2020-04-19
+
 -   releaseCycle: "3.1"
     releaseDate: 2009-06-26
     eoas: true
@@ -220,13 +227,6 @@ releases:
     eol: 2009-06-27
     latest: "3.0.1"
     latestReleaseDate: 2009-02-12
-
--   releaseCycle: "2.7"
-    releaseDate: 2010-07-03
-    eoas: true
-    eol: 2020-01-01
-    latest: "2.7.18"
-    latestReleaseDate: 2020-04-19
 
 -   releaseCycle: "2.6"
     releaseDate: 2008-10-01
