@@ -38,6 +38,15 @@ releases:
     latest: "3.3.13"
     latestReleaseDate: 2023-12-19
 
+-   releaseCycle: "2.7"
+    releaseDate: 2022-07-01 # correct, see https://blog.vuejs.org/posts/vue-2-7-naruto
+    eoas: 2023-12-31
+    eol: 2023-12-31
+    eoes: false
+    latest: "2.7.16"
+    latestReleaseDate: 2023-12-24
+    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+
 -   releaseCycle: "3.2"
     releaseDate: 2021-08-09
     eoas: 2023-05-11
@@ -58,15 +67,6 @@ releases:
     eol: 2021-06-07
     latest: "3.0.11"
     latestReleaseDate: 2021-04-01
-
--   releaseCycle: "2.7"
-    releaseDate: 2022-07-01
-    eoas: 2023-12-31
-    eol: 2023-12-31
-    eoes: false
-    latest: "2.7.16"
-    latestReleaseDate: 2023-12-24
-    link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
 -   releaseCycle: "2.6"
     releaseDate: 2019-02-04
