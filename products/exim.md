@@ -21,7 +21,7 @@ releases:
 -   releaseCycle: "4.98"
     releaseDate: 2024-07-10
     eol: false
-    latest: "4.98.0"
+    latest: "4.98"
     latestReleaseDate: 2024-07-10
 
 -   releaseCycle: "4.97"
