@@ -5,7 +5,7 @@ tags: cncf
 iconSlug: harbor
 permalink: /harbor
 releasePolicyLink: https://github.com/goharbor/harbor/blob/main/RELEASES.md
-changelogTemplate: https://goharbor.io/blog/harbor-__RELEASE_CYCLE__/
+changelogTemplate: https://github.com/goharbor/harbor/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
