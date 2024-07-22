@@ -14,7 +14,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  - custom: chef-infra-client
+  -   custom: chef-infra-client
 
 identifiers:
 -   repology: chef-client
@@ -49,8 +49,9 @@ releases:
     releaseDate: 2018-01-22
     support: 2018-10-26
     eol: 2020-01-21
-    latest: "14.15.6"
+    latest: "14.16.19"
 
+    latestReleaseDate: 2022-06-07
 -   releaseCycle: "13"
     releaseDate: 2017-03-01
     support: 2018-01-22
@@ -58,7 +59,7 @@ releases:
     latest: "13.12.14"
 
 -   releaseCycle: "12"
-    releaseDate: 2014-12-03
+    releaseDate: 2014-11-25
     support: 2017-03-01
     eol: 2018-01-22
     latest: "12.22.5"
@@ -74,7 +75,7 @@ releases:
     support: 2013-02-01
     eol: 2014-12-03
     latest: "10.34.6"
-    
+
 ---
 
 > [Chef Infra Client](https://docs.chef.io/chef_client_overview/) is an open-source software provisioning, configuration
