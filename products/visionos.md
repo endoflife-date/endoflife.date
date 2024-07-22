@@ -1,5 +1,5 @@
 ---
-title: Vision OS
+title: Apple visionOS
 category: os
 tags: apple
 iconSlug: apple
