@@ -40,7 +40,7 @@ releases:
 -   releaseCycle: "9.0"
     releaseDate: 2024-07-01
     lts: false
-    eoas: true
+    eoas: false
     eol: false
     latest: '9.0.0'
     latestReleaseDate: 2024-07-01
