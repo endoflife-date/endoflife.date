@@ -16,6 +16,12 @@ releaseDateColumn: true
 #  -   custom: unity
 
 releases:
+-   releaseCycle: "6"
+    releaseDate: 2024-04-29
+    eol: false
+    latest: "6000.0.11f1"
+    latestReleaseDate: 2024-07-17
+
 -   releaseCycle: "2023.2"
     releaseDate: 2023-11-14
     eol: false
