@@ -8,6 +8,13 @@ releasePolicyLink: https://en.wikipedia.org/wiki/VisionOS#Version_history
 eoasColumn: true
 releaseDateColumn: true
 
+auto:
+  methods:
+  -   apple: visionos
+      regex:
+      -   'visionOS\s+(?P<version>\d+)'
+      -   'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
+
 releases:
 -   releaseCycle: "1"
     releaseDate: 2024-02-02
