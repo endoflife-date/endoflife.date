@@ -39,11 +39,9 @@ auto:
           regex: '^(?P<value>\w+\s*\d+,\s*\d+).*$'
 
 
-# From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status
-# Here is the mapping used
-# - Beginning of Extended Maintenance -> support
-# - Sunset -> eol
-
+# eoas(x) = releaseDate(x) + 12 months
+# eol(x) = releaseDate(x) + 18 months
+# Dates can also be found on https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status.
 releases:
 -   releaseCycle: "3.70"
     releaseDate: 2024-07-09
