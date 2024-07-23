@@ -189,3 +189,4 @@ releases:
 Software updates are provided as part of a valid support agreement with major releases of new
 features in the `.0` (e.g. `10.0`) release and minor releases of new features in the `.1` (e.g.
 `10.1`) release. Bug fixes and security fixes are provided for supported major and minor releases.
+
