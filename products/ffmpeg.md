@@ -35,7 +35,7 @@ releases:
 -   releaseCycle: "6.0"
     codename: Von Neumann
     releaseDate: 2023-02-27
-    eol: false
+    eol: 2024-07-11 # eol of Ubuntu 23.10 http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/ebe787e5276b54a585f69ed76b0d7cce8265374d
     latest: "6.0.1"
     latestReleaseDate: 2023-11-10
 
@@ -78,7 +78,7 @@ releases:
 -   releaseCycle: "4.1"
     codename: 'al-Khwarizmi'
     releaseDate: 2018-11-06
-    eol: false
+    eol: 2024-07-21 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/49be47948400e33b16a14fc7a198f4636c5d229e
     latest: "4.1.11"
     latestReleaseDate: 2023-06-07
 
