@@ -61,7 +61,7 @@ releases:
 -   releaseCycle: "12.0"
     codename: Hekaton
     releaseLabel: "2014 SP3 CU4+GDR"
-    releaseDate: 2014-04-01
+    releaseDate: 2014-06-05
     eoas: 2019-07-09
     eol: 2024-07-09
     eoes: 2027-07-12
