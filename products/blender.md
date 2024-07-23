@@ -17,6 +17,14 @@ auto:
   -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "4.2"
+    lts: true
+    releaseDate: 2024-07-16
+    eoas: 2026-07-01
+    eol: 2026-07-01
+    latest: "4.2.0"
+    latestReleaseDate: 2024-07-16
+
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
     eoas: false
