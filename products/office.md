@@ -45,7 +45,7 @@ releases:
 
 -   releaseCycle: "2011-for-mac"
     releaseLabel: "2011 for Mac SP3"
-    releaseDate: 2010-10-26
+    releaseDate: 2010-12-09
     eoas: 2017-10-10
     eol: 2017-10-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-for-mac-2011
