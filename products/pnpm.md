@@ -53,5 +53,5 @@ releases:
 
 ---
 
-> [Pnpm](https://pnpm.io/) is a fast, disk space efficient package manager for JavaScript.
+> [pnpm](https://pnpm.io/) is a fast, disk space efficient package manager for JavaScript.
 > It is a drop-in replacement for npm, but faster and more efficient.
