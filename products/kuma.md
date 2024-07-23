@@ -45,3 +45,7 @@ releases:
     eol: false
     latest: "2.4.9"
     latestReleaseDate: 2024-07-03
+
+---
+
+>[Kuma](https://kuma.io/) is a multi-zone service mesh for containers, Kubernetes and VMs.
