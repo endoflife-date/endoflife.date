@@ -25,7 +25,9 @@ releases:
     link: https://support.apple.com/en-us/118202
 
 ---
-> Apple [visionOS](https://www.apple.com/visionos) is an operating system designed for their spatial computing platform, specifically for devices like the Apple Vision Pro. It integrates elements from iOS, iPadOS,
-> and macOS, enabling users to interact with digital content in a mixed reality environment. VisionOS supports new interaction paradigms such as eye-tracking, gesture control, and voice input, providing a seamless
-> experience for both virtual and augmented reality applications.
+
+> Apple [visionOS](https://www.apple.com/visionos) is an operating system specifically designed for Apple's spatial
+> computing device, the Apple Vision Pro. It integrates elements from iOS, iPadOS, and macOS, enabling users to interact
+> with digital content in a mixed reality environment. VisionOS supports new interaction paradigms such as
+> eye-tracking, gesture control, and voice input.
 
