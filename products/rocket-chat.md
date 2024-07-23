@@ -31,15 +31,15 @@ releases:
     releaseDate: 2024-06-02
     eoas: 2024-06-02
     eol: 2024-12-31
-    latest: '6.9.2'
-    latestReleaseDate: 2024-06-18
+    latest: '6.9.3'
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-05-12
     eoas: 2024-06-12
     eol: 2024-11-30
-    latest: '6.8.2'
-    latestReleaseDate: 2024-06-19
+    latest: '6.8.3'
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-04-08
