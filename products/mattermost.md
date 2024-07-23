@@ -26,6 +26,12 @@ auto:
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
 releases:
+-   releaseCycle: "9.10"
+    releaseDate: 2024-07-16
+    eol: 2024-10-15
+    latest: '9.10.0'
+    latestReleaseDate: 2024-07-16
+
 -   releaseCycle: "9.9"
     releaseDate: 2024-05-30
     eol: 2024-09-15
