@@ -6,7 +6,7 @@ permalink: /kuma
 alternate_urls:
 -   /kuma
 releasePolicyLink: https://github.com/kumahq/kuma/blob/master/versions.yml
-changelogTemplate: https://github.com/kumahq/kuma/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
