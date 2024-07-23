@@ -27,22 +27,22 @@ auto:
 
 releases:
 -   releaseCycle: "9.10"
-    releaseDate: 2024-07-16
+    releaseDate: 2024-06-28
     eol: 2024-10-15
-    latest: '9.10.0'
-    latestReleaseDate: 2024-07-16
+    latest: '9.10.1'
+    latestReleaseDate: 2024-07-18
 
 -   releaseCycle: "9.9"
     releaseDate: 2024-05-30
     eol: 2024-09-15
-    latest: '9.9.1'
-    latestReleaseDate: 2024-06-26
+    latest: '9.9.2'
+    latestReleaseDate: 2024-07-16
 
 -   releaseCycle: "9.8"
     releaseDate: 2024-05-01
     eol: 2024-08-15
-    latest: '9.8.2'
-    latestReleaseDate: 2024-06-25
+    latest: '9.8.3'
+    latestReleaseDate: 2024-07-16
 
 -   releaseCycle: "9.7"
     releaseDate: 2024-04-01
@@ -59,8 +59,8 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
     eol: 2024-11-15
-    latest: '9.5.7'
-    latestReleaseDate: 2024-06-25
+    latest: '9.5.8'
+    latestReleaseDate: 2024-07-16
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-12-19
