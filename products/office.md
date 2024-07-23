@@ -38,7 +38,7 @@ releases:
 
 -   releaseCycle: "2013"
     releaseLabel: "2013 SP1"
-    releaseDate: 2013-01-29
+    releaseDate: 2013-01-09
     eoas: 2018-04-10
     eol: 2023-04-11
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2013
