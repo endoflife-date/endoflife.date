@@ -66,7 +66,7 @@ releases:
 
 -   releaseCycle: "2007"
     releaseLabel: "2007 SP3"
-    releaseDate: 2007-01-30
+    releaseDate: 2007-01-27
     eoas: 2012-10-09
     eol: 2017-10-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2007
