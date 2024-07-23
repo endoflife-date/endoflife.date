@@ -95,20 +95,20 @@ releases:
     latest: "17.0.12+7"
     latestReleaseDate: 2024-07-17
 
+  # Note that first release was 11.0.12+7
+-   releaseCycle: "11"
+    lts: true
+    releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
+    eol: 2027-10-31
+    latest: "11.0.24+8"
+    latestReleaseDate: 2024-07-17
+
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
     releaseDate: 2021-07-30
     eol: 2021-09-30
     latest: "16.0.2+7"
     latestReleaseDate: 2021-07-30
-
-# Note that first release was 11.0.12+7
--   releaseCycle: "11"
-    lts: true
-    releaseDate: 2021-08-01
-    eol: 2027-10-31
-    latest: "11.0.24+8"
-    latestReleaseDate: 2024-07-17
 
 # Note that the first release was 8u302-b08
 -   releaseCycle: "8"
