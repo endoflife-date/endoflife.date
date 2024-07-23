@@ -26,9 +26,16 @@ auto:
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
+-   releaseCycle: "4.7"
+    releaseDate: 2024-07-13
+    eol: false
+    supportedJavaVersions: 17, 21
+    latest: "4.7.0"
+    latestReleaseDate: 2024-07-13
+
 -   releaseCycle: "4.6"
     releaseDate: 2024-05-05
-    eol: false
+    eol: 2024-07-13
     supportedJavaVersions: 17, 21
     latest: "4.6.0"
     latestReleaseDate: 2024-05-05
