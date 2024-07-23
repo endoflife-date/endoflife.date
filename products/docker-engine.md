@@ -19,9 +19,15 @@ auto:
 
 # For EOL, see open milestones on https://github.com/moby/moby/milestones.
 releases:
+-   releaseCycle: "27.1"
+    releaseDate: 2024-07-22
+    eol: false
+    latest: "27.1.0"
+    latestReleaseDate: 2024-07-22
+
 -   releaseCycle: "27.0"
     releaseDate: 2024-06-25
-    eol: false
+    eol: 2024-07-22
     latest: "27.0.3"
     latestReleaseDate: 2024-07-01
 
