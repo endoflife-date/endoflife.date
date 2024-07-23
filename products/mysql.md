@@ -32,16 +32,13 @@ identifiers:
 -   purl: pkg:deb/ubuntu/mysql-server
 -   purl: pkg:deb/debian/mysql-server
 
-# dates below are for:
-# support -> GA+5 years = Premier support
-# eol -> GA+8 years = Extended Support
-# We show Extended support dates since that match Community Edition timelines
+# For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
+# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "9.0"
     releaseDate: 2024-07-01
-    lts: false
-    eoas: false
-    eol: false
+    eoas: false # releaseDate(x+1)
+    eol: false # releaseDate(x+1)
     latest: '9.0.1'
     latestReleaseDate: 2024-07-23
 
@@ -55,15 +52,15 @@ releases:
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
-    eoas: false
-    eol: false
+    eoas: 2024-04-10
+    eol: 2024-04-10
     latest: '8.3.0'
     latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
-    eoas: false
-    eol: false
+    eoas: 2023-12-14
+    eol: 2023-12-14
     latest: '8.2.0'
     latestReleaseDate: 2023-10-12
 
