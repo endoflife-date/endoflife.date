@@ -52,7 +52,7 @@ releases:
 
 -   releaseCycle: "2010"
     releaseLabel: "2010 SP2"
-    releaseDate: 2010-06-15
+    releaseDate: 2010-07-15
     eoas: 2015-10-13
     eol: 2020-10-13
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2010
