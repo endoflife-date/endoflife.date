@@ -1,0 +1,33 @@
+---
+title: Apple visionOS
+category: os
+tags: apple
+iconSlug: apple
+permalink: /visionos
+releasePolicyLink: https://en.wikipedia.org/wiki/VisionOS#Version_history
+eoasColumn: true
+releaseDateColumn: true
+
+auto:
+  methods:
+  -   apple: visionos
+      regex:
+      -   'visionOS\s+(?P<version>\d+)'
+      -   'visionOS\s+(?P<version>\d+(?:\.\d+)+)'
+
+releases:
+-   releaseCycle: "1"
+    releaseDate: 2024-02-02
+    eoas: false
+    eol: false
+    latest: "1.2"
+    latestReleaseDate: 2024-06-10
+    link: https://support.apple.com/en-us/118202
+
+---
+
+> Apple [visionOS](https://www.apple.com/visionos) is an operating system specifically designed for Apple's spatial
+> computing device, the Apple Vision Pro. It integrates elements from iOS, iPadOS, and macOS, enabling users to interact
+> with digital content in a mixed reality environment. VisionOS supports new interaction paradigms such as
+> eye-tracking, gesture control, and voice input.
+
