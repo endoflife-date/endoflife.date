@@ -42,8 +42,8 @@ releases:
     lts: false
     eoas: false
     eol: false
-    latest: '9.0.0'
-    latestReleaseDate: 2024-07-01
+    latest: '9.0.1'
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-10
