@@ -27,11 +27,11 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
 -   releaseCycle: "4.7"
-    releaseDate: 2024-07-13
+    releaseDate: 2024-07-09
     eol: false
     supportedJavaVersions: 17, 21
     latest: "4.7.0"
-    latestReleaseDate: 2024-07-13
+    latestReleaseDate: 2024-07-09
 
 -   releaseCycle: "4.6"
     releaseDate: 2024-05-05
