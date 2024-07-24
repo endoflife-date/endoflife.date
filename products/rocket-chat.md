@@ -24,9 +24,17 @@ auto:
           regex: '^(?P<value>\d+\.\d+).*$'
         eol: "End of Life"
 
+# https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
-# eol(x) = releaseDate(x) + 6 months
+# eol(x) = releaseDate(x) + 6 months -> last day of month
 releases:
+-   releaseCycle: "6.10"
+    releaseDate: 2024-07-10
+    eoas: 2024-07-10
+    eol: 2025-01-31
+    latest: '6.10.0'
+    latestReleaseDate: 2024-07-10
+
 -   releaseCycle: "6.9"
     releaseDate: 2024-06-02
     eoas: 2024-06-02
