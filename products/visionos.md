@@ -17,7 +17,7 @@ auto:
 
 releases:
 -   releaseCycle: "1"
-    releaseDate: 2024-02-02
+    releaseDate: 2024-01-31
     eoas: false
     eol: false
     latest: "1.2"
@@ -30,4 +30,3 @@ releases:
 > computing device, the Apple Vision Pro. It integrates elements from iOS, iPadOS, and macOS, enabling users to interact
 > with digital content in a mixed reality environment. VisionOS supports new interaction paradigms such as
 > eye-tracking, gesture control, and voice input.
-
