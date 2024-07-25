@@ -346,13 +346,13 @@ releases:
 > [Nexus Repository](https://help.sonatype.com/repomanager3) is a
 > repository manager developed by Sonatype that supports many artifact formats, including
 > Docker, Java, and npm.
-> It comes in OSS (open source) and Pro (commercial) versions.
 
-Lifecycle
+All minor releases are typically supported for 18 months. This includes 12 months of full support,
+with updates and bug fixes, followed by 6 months of extended maintenance, with only critical and
+security fixes. After this, the release is considered sunset.
 
-- Sonatype Nexus Repository releases are considered generally available and fully supported for a term of **1 year after the version's release date**.
-- At that point, Sonatype provides extended maintenance for each Sonatype Nexus Repository version for an additional **6 months** before that version is considered sunset [eol].
-- For versions requiring patch releases, the full version line (e.g., 3.53.0 - 3.53.1, 3.47.0 - 3.47.1) will use the dates of the initial major release (e.g., 3.53.0 or 3.47.0) to determine when the versions will move through the PDLC process.
+Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
+additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
 
 More information
 
