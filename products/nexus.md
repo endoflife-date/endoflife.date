@@ -164,7 +164,7 @@ releases:
 
 -   releaseCycle: "3.53"
     releaseDate: 2023-05-03
-    eoas: 2024-05-03
+    eoas: 2023-05-02
     eol: 2024-11-02
     latest: "3.53.1-02"
     latestReleaseDate: 2023-05-13
