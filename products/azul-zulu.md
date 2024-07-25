@@ -187,6 +187,15 @@ releases:
     latestReleaseDate: 2024-01-16
     link: https://docs.azul.com/core/release/january-2024/release-notes/release-notes
 
+-   releaseCycle: "6"
+    lts: true
+    releaseDate: 2014-01-21 # 6 was probably released after 7, see https://www.azul.com/newsroom/azul-systems-extends-zulu-to-support-java-6-and-major-linux-distributions/
+    eol: 2018-12-31
+    eoes: 2027-12-31
+    latest: "N/A" # could not find the exact version
+    latestJdkVersion: "6u211" # the latest public Oracle JDK 7
+    latestReleaseDate: 2018-10-16
+
 -   releaseCycle: "7"
     lts: true
     releaseDate: 2013-09-25 # http://web.archive.org/web/20131006021330/http://msopentech.com/blog/2013/09/25/azul-systems-releases-zulu-an-openjdk-build-for-windows-azure-in-partnership-with-ms-open-tech/
@@ -196,15 +205,6 @@ releases:
     latestJdkVersion: "7u352-b01"
     latestReleaseDate: 2022-07-19
     link: https://docs.azul.com/core/release/july-2022/release-notes/release-notes
-
--   releaseCycle: "6"
-    lts: true
-    releaseDate: 2014-01-21 # https://www.azul.com/newsroom/azul-systems-extends-zulu-to-support-java-6-and-major-linux-distributions/
-    eol: 2018-12-31
-    eoes: 2027-12-31
-    latest: "N/A" # could not find the exact version
-    latestJdkVersion: "6u211" # the latest public Oracle JDK 7
-    latestReleaseDate: 2018-10-16
 
 ---
 

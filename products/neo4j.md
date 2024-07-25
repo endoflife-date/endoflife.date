@@ -152,9 +152,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-06-30
-    latest: "4.4.35"
+    latest: "4.4.36"
     lts: true
-    latestReleaseDate: 2024-07-04
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-10
