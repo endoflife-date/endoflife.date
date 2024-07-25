@@ -45,16 +45,16 @@ releases:
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
     eol: 2024-10-15
-    latest: "30.2.0"
-    latestReleaseDate: 2024-07-10
+    latest: "30.3.0"
+    latestReleaseDate: 2024-07-20
     chromeVersion: "M124"
     nodeVersion: "20.11"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
     eol: 2024-08-20
-    latest: "29.4.3"
-    latestReleaseDate: 2024-06-27
+    latest: "29.4.5"
+    latestReleaseDate: 2024-07-17
     chromeVersion: "M122"
     nodeVersion: "20.9"
 
@@ -273,12 +273,6 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
-
-
-
-
-
-
 
 
 ---

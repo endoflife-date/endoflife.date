@@ -6,7 +6,7 @@ iconSlug: eclipsejetty
 permalink: /eclipse-jetty
 alternate_urls:
 -   /jetty
-releasePolicyLink: https://eclipse.dev/jetty/download.php
+releasePolicyLink: https://jetty.org/download.html
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
 eoasColumn: "Community Support"
@@ -128,14 +128,14 @@ releases:
 
 ---
 
-> [Eclipse Jetty](https://eclipse.dev/jetty/) is an open-source (Apache-2.0 licensed) pure-Java
+> [Eclipse Jetty](https://jetty.org/) is an open-source (Apache-2.0 licensed) pure-Java
 > HTTP web server environment. It implements various [Jakarta web specifications](https://projects.eclipse.org/projects/ee4j.jakartaee-platform),
 > including [JSP](https://projects.eclipse.org/projects/ee4j.jsp "Jakarta Server Pages"),
 > [Servlets](https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"),
 > and [WebSockets](https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket").
 
 Jetty does not have a fixed release and support policy. But a list of all versions, along with
-their support status, is available [on Jetty website](https://eclipse.dev/jetty/download.php).
+their support status, is available [on Jetty website](https://jetty.org/download.html).
 
 Support for Jetty is divided into two phases. The first phase, called _Community Support_,
 comes with bug and security fixes. Once a release reach its End of Community Support (EoCS), Jetty

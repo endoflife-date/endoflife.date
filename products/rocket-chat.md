@@ -17,28 +17,37 @@ auto:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
   -   release_table: https://docs.rocket.chat/docs/version-durability
       selector: "table"
+      header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:
           column: "Rocket.Chat Release"
           regex: '^(?P<value>\d+\.\d+).*$'
         eol: "End of Life"
 
+# https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
-# eol(x) = releaseDate(x) + 6 months
+# eol(x) = releaseDate(x) + 6 months -> last day of month
 releases:
+-   releaseCycle: "6.10"
+    releaseDate: 2024-07-10
+    eoas: 2024-07-10
+    eol: 2025-01-31
+    latest: '6.10.0'
+    latestReleaseDate: 2024-07-10
+
 -   releaseCycle: "6.9"
     releaseDate: 2024-06-02
     eoas: 2024-06-02
     eol: 2024-12-31
-    latest: '6.9.2'
-    latestReleaseDate: 2024-06-18
+    latest: '6.9.3'
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-05-12
     eoas: 2024-06-12
     eol: 2024-11-30
-    latest: '6.8.2'
-    latestReleaseDate: 2024-06-19
+    latest: '6.8.3'
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-04-08

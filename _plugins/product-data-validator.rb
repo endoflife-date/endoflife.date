@@ -10,6 +10,7 @@
 
 require 'jekyll'
 require 'open-uri'
+require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
@@ -49,6 +50,7 @@ module EndOfLifeHooks
     'https://github.com/angular/angular.js/blob/v1.6.10/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
+    'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://make.wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
@@ -59,6 +61,7 @@ module EndOfLifeHooks
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
     'https://support.herodevs.com/hc/en-us/articles/': SUPPRESSED_BECAUSE_403,
+    'https://support.microsoft.com': SUPPRESSED_BECAUSE_403,
     'https://twitter.com/OracleAPEX': SUPPRESSED_BECAUSE_403,
     'https://visualstudio.microsoft.com/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -140,6 +143,10 @@ module EndOfLifeHooks
     error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
+
+    product.data['identifiers'].each { |identifier|
+      error_if.is_not_an_identifier('identifiers', identifier)
+    }
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -301,6 +308,13 @@ module EndOfLifeHooks
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
       end
+    end
+
+    # Real validation is delegated to IdentifierToUrl to avoid duplicatio
+    def is_not_an_identifier(property, hash)
+      IdentifierToUrl.new.render(hash)
+    rescue => e
+      declare_error(property, hash, e)
     end
 
     def is_url_invalid(property)

@@ -17,8 +17,8 @@ releases:
 -   releaseCycle: "1.31"
     releaseDate: 2024-06-10
     eol: false # releaseDate(1.33)
-    latest: "1.31.1"
-    latestReleaseDate: 2024-07-01
+    latest: "1.31.2"
+    latestReleaseDate: 2024-07-22
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-03-11

@@ -74,15 +74,6 @@ releases:
     link: https://wikipedia.org/wiki/Nexus_7_(2013)
     supportedAndroidVersions: 4.3 - 6.0
 
--   releaseCycle: "7-2012"
-    releaseLabel: "Nexus 7 (2012)"
-    releaseDate: 2012-07-13
-    discontinued: 2013-07-24
-    eoas: 2014-07-01
-    eol: 2015-07-01
-    link: https://wikipedia.org/wiki/Nexus_7_(2012)
-    supportedAndroidVersions: 4.1 - 5.1
-
 -   releaseCycle: "10"
     releaseLabel: "Nexus 10"
     releaseDate: 2012-11-13
@@ -100,6 +91,15 @@ releases:
     eol: 2015-11-01
     link: https://wikipedia.org/wiki/Nexus_4
     supportedAndroidVersions: 4.2 - 5.1
+
+-   releaseCycle: "7-2012"
+    releaseLabel: "Nexus 7 (2012)"
+    releaseDate: 2012-07-13
+    discontinued: 2013-07-24
+    eoas: 2014-07-01
+    eol: 2015-07-01
+    link: https://wikipedia.org/wiki/Nexus_7_(2012)
+    supportedAndroidVersions: 4.1 - 5.1
 
 -   releaseCycle: "s"
     releaseLabel: "Nexus S"
