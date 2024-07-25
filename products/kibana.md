@@ -9,6 +9,13 @@ changelogTemplate: "https://www.elastic.co/guide/en/kibana/{{'__LATEST__'|split:
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: kibana
+-   cpe: cpe:/a:elastic:kibana
+-   cpe: cpe:2.3:a:elastic:kibana
+-   cpe: cpe:/a:elasticsearch:kibana
+-   cpe: cpe:2.3:a:elasticsearch:kibana
+
 auto:
   methods:
   -   git: https://github.com/elastic/kibana.git

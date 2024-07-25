@@ -18,6 +18,11 @@ changelogTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: filebeat
+-   cpe: cpe:/a:elastic:filebeat
+-   cpe: cpe:2.3:a:elastic:filebeat
+
 auto:
   methods:
   -   git: https://github.com/elastic/beats.git

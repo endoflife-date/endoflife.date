@@ -10,6 +10,11 @@ changelogTemplate: "https://symfony.com/blog/symfony-{{'__LATEST__'|replace:'.',
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: php:symfony
+-   cpe: cpe:/a:sensiolabs:symfony
+-   cpe: cpe:2.3:a:sensiolabs:symfony
+
 auto:
   methods:
   -   git: https://github.com/symfony/symfony.git

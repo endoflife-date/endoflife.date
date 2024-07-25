@@ -19,6 +19,12 @@ customColumns:
     label: Node
     description: Corresponding Node version used in the Electron release
 
+identifiers:
+-   repology: electron
+-   cpe: cpe:/a:electronjs:electron
+-   cpe: cpe:2.3:a:electronjs:electron
+
+
 # NPM is more accurate than git and remove unreleased version would.
 # 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
 auto:

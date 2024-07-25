@@ -10,6 +10,11 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Security Support
 
+identifiers:
+-   repology: roundcube
+-   cpe: cpe:/a:roundcube:roundcube
+-   cpe: cpe:2.3:a:roundcube:roundcube
+
 auto:
   methods:
   -   git: https://github.com/roundcube/roundcubemail.git

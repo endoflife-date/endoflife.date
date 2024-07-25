@@ -7,6 +7,18 @@ releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
 releaseDateColumn: true
 
+identifiers:
+-   repology: clamav
+-   cpe: cpe:/a:cisco:clamav
+-   cpe: cpe:2.3:a:cisco:clamav
+-   cpe: cpe:/a:clamav:clamav
+-   cpe: cpe:2.3:a:clamav:clamav
+-   cpe: cpe:/a:clam_anti-virus:clamav
+-   cpe: cpe:2.3:a:clam_anti-virus:clamav
+-   repology: clamxav
+-   cpe: cpe:/a:clamxav:clamxav
+-   cpe: cpe:2.3:a:clamxav:clamxav
+
 auto:
   methods:
   -   git: https://github.com/Cisco-Talos/clamav.git

@@ -11,6 +11,11 @@ releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterpr
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: jira
+-   cpe: cpe:/a:atlassian:jira
+-   cpe: cpe:2.3:a:atlassian:jira
+
 auto:
   methods:
   -   custom: jira

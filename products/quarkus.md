@@ -13,6 +13,11 @@ releaseDateColumn: true
 eolColumn: Support
 eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
+identifiers:
+-   repology: quarkus
+-   cpe: cpe:/a:quarkus:quarkus
+-   cpe: cpe:2.3:a:quarkus:quarkus
+
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 # Tag and Maven release of new minor versions are usually created
 # a week before the "official" announcement, hence the use of GitHub releases.

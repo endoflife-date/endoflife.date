@@ -15,6 +15,11 @@ eolColumn: Premier Support
 eoesColumn: Extended Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: jdk
+-   cpe: cpe:/a:oracle:jdk
+-   cpe: cpe:2.3:a:oracle:jdk
+
 auto:
   methods:
   -   custom: oracle-jdk

@@ -11,6 +11,11 @@ releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Commercial Support
 
+identifiers:
+-   repology: rabbitmq-c
+-   cpe: cpe:/a:rabbitmq-c_project:rabbitmq-c
+-   cpe: cpe:2.3:a:rabbitmq-c_project:rabbitmq-c
+
 auto:
   methods:
   -   git: https://github.com/rabbitmq/rabbitmq-server.git

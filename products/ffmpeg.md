@@ -10,6 +10,11 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: ffmpeg
+-   cpe: cpe:/a:ffmpeg:erlang
+-   cpe: cpe:2.3:a:ffmpeg:ffmpeg
+
 auto:
   methods:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering

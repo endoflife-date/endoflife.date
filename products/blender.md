@@ -11,6 +11,11 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   repology: blender
+-   cpe: cpe:/a:blender:blender
+-   cpe: cpe:2.3:a:blender:blender
+
 auto:
   # https://git.blender.org/blender.git does not support partialClone
   methods:

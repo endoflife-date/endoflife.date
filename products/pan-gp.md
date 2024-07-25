@@ -11,6 +11,11 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: End-of-life Date
 
+identifiers:
+-   repology: globalprotect
+-   cpe: cpe:/a:paloaltonetworks:globalprotect
+-   cpe: cpe:2.3:a:paloaltonetworks:globalprotect
+
 auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary

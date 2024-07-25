@@ -13,6 +13,11 @@ eoasWarnThreshold: 20
 eolColumn: Maintenance Support
 eolWarnThreshold: 60
 
+identifiers:
+-   repology: gitlab
+-   cpe: cpe:/a:gitlab:gitlab
+-   cpe: cpe:2.3:a:gitlab:gitlab
+
 auto:
   methods:
   -   git: https://gitlab.com/gitlab-org/gitlab.git

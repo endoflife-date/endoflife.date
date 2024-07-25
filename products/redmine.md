@@ -8,6 +8,11 @@ releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 releaseDateColumn: true
 
+identifiers:
+-   repology: redmine
+-   cpe: cpe:/a:redmine:redmine
+-   cpe: cpe:2.3:a:redmine:redmine
+
 auto:
   methods:
   -   git: https://github.com/redmine/redmine.git

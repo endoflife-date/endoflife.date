@@ -9,6 +9,13 @@ changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: gstreamer
+-   cpe: cpe:/a:gstreamer:gstreamer
+-   cpe: cpe:2.3:a:gstreamer:gstreamer
+-   cpe: cpe:/a:gstreamer_project:gstreamer
+-   cpe: cpe:2.3:a:gstreamer_project:gstreamer
+
 auto:
   methods:
   -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git

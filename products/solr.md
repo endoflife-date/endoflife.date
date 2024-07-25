@@ -12,6 +12,11 @@ releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-sup
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 releaseDateColumn: true
 
+identifiers:
+-   repology: solr
+-   cpe: cpe:/a:apache:solr
+-   cpe: cpe:2.3:a:apache:solr
+
 auto:
   methods:
   -   git: https://github.com/apache/lucene-solr.git
