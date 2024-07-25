@@ -17,11 +17,12 @@ releases:
     eol: 2026-06-30
     latest: '5.0.0'
     latestReleaseDate: 2024-07-12
+
 -   releaseCycle: "4.3"
     releaseDate: 2022-06-20
     eol: 2025-06-30
-    latest: '4.3.11.1'
-    latestReleaseDate: 2024-03-07
+    latest: '4.3.13'
+    latestReleaseDate: 2024-06-01
 
 -   releaseCycle: "4.2"
     releaseDate: 2021-06-21
