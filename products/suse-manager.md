@@ -6,7 +6,7 @@ iconSlug: suse
 permalink: /suse-manager
 versionCommand: zypper info SUSE-Manager-Server-release
 releasePolicyLink: https://www.suse.com/lifecycle
-changelogTemplate: "https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/{{'__RELEASE_CYCLE__'}}/"
+changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 releaseColumn: true
 releaseDateColumn: true
 eolColumn: General Support
