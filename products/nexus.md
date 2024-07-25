@@ -353,10 +353,3 @@ security fixes. After this, the release is considered sunset.
 
 Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
-
-More information
-
-- [Sonatype Version Status](https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status)
-- [Sonatype Sunsetting](https://help.sonatype.com/docs/sonatype-sunsetting-information)
-- [Sonatype Software Support Policy](https://sonatype.com/usage/software-support-policy)
-- [Sonatype OSS vs Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features)
