@@ -13,8 +13,8 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/wireshark/wireshark
-      # https://regex101.com/r/fHvpY1/1
-      regex: ^wireshark-(?<major>\d+)\.?(?<minor>\d*[02468])\.?(?<patch>\d+)?\.?(?<tiny>\d+)?$
+      # https://regex101.com/r/fHvpY1/2
+      regex: ^wireshark-(?P<major>\d+)\.?(?P<minor>\d*[02468])\.?(?P<patch>\d+)?\.?(?P<tiny>\d+)?$
 
 identifiers:
 -   repology: wireshark
@@ -24,9 +24,7 @@ identifiers:
 # eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
-
 releases:
-
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-15
     eoas: true
