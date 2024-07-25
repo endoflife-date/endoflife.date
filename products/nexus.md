@@ -332,26 +332,14 @@ releases:
 
 # From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-2-versions-status
 
--   releaseCycle: "2.15"
-    releaseDate: 2022-03-17
+-   releaseCycle: "2"
+    # closest date I found is for 2.0.6 on https://help.sonatype.com/repomanager2/download/download-archives---repository-manager-2#DownloadArchivesRepositoryManager2-NexusProfessional2.0.6
+    releaseDate: 2017-03-31
     eoas: true
-    eol: false
+    eol: 2025-06-30 # https://help.sonatype.com/en/sonatype-nexus-repository-2-sunsetting-information.html
     latest: "2.15.1-02"
     latestReleaseDate: 2022-03-23
-
--   releaseCycle: "2.14"
-    releaseDate: 2016-09-20
-    eoas: true
-    eol: false
-    latest: "2.14.21-02"
-    latestReleaseDate: 2021-12-20
-
--   releaseCycle: "2.13"
-    releaseDate: 2016-04-18
-    eoas: false
-    eol: 2017-10-17
-    latest: "2.13.0"
-    latestReleaseDate: 2016-04-18
+    link: https://help.sonatype.com/repomanager2/release-notes
 
 ---
 
