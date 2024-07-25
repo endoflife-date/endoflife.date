@@ -37,16 +37,16 @@ releases:
 -   releaseCycle: "31"
     releaseDate: 2024-06-10
     eol: 2025-01-07
-    latest: "31.2.1"
-    latestReleaseDate: 2024-07-15
+    latest: "31.3.0"
+    latestReleaseDate: 2024-07-24
     chromeVersion: "M126"
     nodeVersion: "20.14"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
     eol: 2024-10-15
-    latest: "30.3.0"
-    latestReleaseDate: 2024-07-20
+    latest: "30.3.1"
+    latestReleaseDate: 2024-07-24
     chromeVersion: "M124"
     nodeVersion: "20.11"
 
@@ -273,6 +273,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
+
 
 
 ---

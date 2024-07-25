@@ -115,8 +115,8 @@ releases:
     lts: true
     releaseDate: 2021-07-29
     eol: 2026-11-30
-    latest: "8u422-b05"
-    latestReleaseDate: 2024-07-18
+    latest: "8u422-b05.1"
+    latestReleaseDate: 2024-07-25
     link: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk__LATEST__
 
 ---

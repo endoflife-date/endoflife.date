@@ -30,8 +30,8 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2020-11-13
     eol: false
-    latest: "7.32.0"
-    latestReleaseDate: 2024-07-19
+    latest: "7.32.1"
+    latestReleaseDate: 2024-07-24
     link: https://www.puppet.com/docs/puppet/7/release_notes_puppet.html#release_notes_puppet_x-7-25-0
 
 -   releaseCycle: "6"
