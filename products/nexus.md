@@ -28,6 +28,7 @@ auto:
         releaseCycle:
           column: 'Sonatype Nexus Repository Version'
           regex: '^(?P<value>\d+\.\d+)\.0.*$'
+          regex_exclude: '^3.53' # Invalid Beginning of Extended Maintenance date
         releaseDate:
           column: 'Initial Release Date'
           regex: '(?P<value>\w+\s*\d+,\s*\d+)(\s*\(.+\.0\)\s*)?$'
@@ -276,56 +277,56 @@ releases:
 
 -   releaseCycle: "3.37"
     releaseDate: 2021-11-29
-    eoas: false
+    eoas: true
     eol: 2023-05-24
     latest: "3.37.3-02"
     latestReleaseDate: 2021-12-29
 
 -   releaseCycle: "3.36"
     releaseDate: 2021-10-29
-    eoas: false
+    eoas: true
     eol: 2023-04-29
     latest: "3.36.0-01"
     latestReleaseDate: 2021-10-29
 
 -   releaseCycle: "3.35"
     releaseDate: 2021-10-12
-    eoas: false
+    eoas: true
     eol: 2023-04-13
     latest: "3.35.0-02"
     latestReleaseDate: 2021-10-12
 
 -   releaseCycle: "3.34"
     releaseDate: 2021-09-01
-    eoas: false
+    eoas: true
     eol: 2023-03-03
     latest: "3.34.1-01"
     latestReleaseDate: 2021-09-22
 
 -   releaseCycle: "3.33"
     releaseDate: 2021-08-04
-    eoas: false
+    eoas: true
     eol: 2023-02-04
     latest: "3.33.1-01"
     latestReleaseDate: 2021-08-18
 
 -   releaseCycle: "3.32"
     releaseDate: 2021-07-08
-    eoas: false
+    eoas: true
     eol: 2023-01-08
     latest: "3.32.1"
     latestReleaseDate: 2021-12-20
 
 -   releaseCycle: "3.30"
     releaseDate: 2021-03-04
-    eoas: false
+    eoas: true
     eol: 2022-09-04
     latest: "3.30.1-01"
     latestReleaseDate: 2021-04-22
 
 -   releaseCycle: "3.29"
     releaseDate: 2020-12-04
-    eoas: false
+    eoas: true
     eol: 2022-06-04
     latest: "3.29.2-02"
     latestReleaseDate: 2021-01-07
