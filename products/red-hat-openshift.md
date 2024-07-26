@@ -21,8 +21,6 @@ identifiers:
 -   cpe: cpe:/a:redhat:openshift
 -   cpe: cpe:2.3:a:redhat:openshift
 -   repology: openshift-installer
--   cpe: cpe:/a:redhat:openshift_installer
--   cpe: cpe:2.3:a:redhat:openshift_installer
 
 auto:
   methods:
