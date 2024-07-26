@@ -9,8 +9,6 @@ eolColumn: Support
 
 identifiers:
 -   repology: filemaker-pro
--   cpe: cpe:/a:claris:filemaker-pro
--   cpe: cpe:2.3:a:claris:filemaker-pro
 
 releases:
 -   releaseCycle: "2023"
