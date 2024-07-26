@@ -12,8 +12,6 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: erlang
--   cpe: cpe:/a:erlang:erlang
--   cpe: cpe:2.3:a:erlang:erlang
 
 auto:
   methods:
