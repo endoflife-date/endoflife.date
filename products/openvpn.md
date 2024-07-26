@@ -41,7 +41,7 @@ releases:
 
 -   releaseCycle: "2.2"
     releaseDate: 2011-04-21
-    eol: true
+    eol: 2015-11-30
     latest: "2.2.3"
     latestReleaseDate: 2014-11-30
 
