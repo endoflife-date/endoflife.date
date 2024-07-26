@@ -14,8 +14,6 @@ identifiers:
 -   repology: erlang
 -   cpe: cpe:/a:erlang:erlang
 -   cpe: cpe:2.3:a:erlang:erlang
--   cpe: cpe:/a:erlang:erlangVotp
--   cpe: cpe:2.3:a:erlang:erlangVotp
 
 auto:
   methods:
