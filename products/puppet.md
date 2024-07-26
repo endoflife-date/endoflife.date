@@ -16,8 +16,6 @@ identifiers:
 -   repology: puppet
 -   cpe: cpe:/a:puppet:puppet
 -   cpe: cpe:2.3:a:puppet:puppet
--   cpe: cpe:/a:puppetlabs:puppet
--   cpe: cpe:2.3:a:puppetlabs:puppet
 
 auto:
   methods:
