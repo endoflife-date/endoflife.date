@@ -13,9 +13,6 @@ identifiers:
 -   cpe: cpe:2.3:a:clamav:clamav
 -   cpe: cpe:/a:clam_anti-virus:clamav
 -   cpe: cpe:2.3:a:clam_anti-virus:clamav
--   repology: clamxav
--   cpe: cpe:/a:clamxav:clamxav
--   cpe: cpe:2.3:a:clamxav:clamxav
 
 auto:
   methods:
