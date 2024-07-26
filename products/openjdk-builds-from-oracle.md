@@ -13,7 +13,6 @@ releaseDateColumn: true
 supportColumn: false
 
 identifiers:
--   repology: openjdk
 -   cpe: cpe:/a:oracle:openjdk
 -   cpe: cpe:2.3:a:oracle:openjdk
 
