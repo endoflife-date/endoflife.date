@@ -9,10 +9,6 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: clamav
--   cpe: cpe:/a:clamav:clamav
--   cpe: cpe:2.3:a:clamav:clamav
--   cpe: cpe:/a:clam_anti-virus:clamav
--   cpe: cpe:2.3:a:clam_anti-virus:clamav
 
 auto:
   methods:
