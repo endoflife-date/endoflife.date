@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: "2.3"
     releaseDate: 2013-01-02
-    eol: true
+    eol: 2021-06-30
     latest: "2.3.18"
     latestReleaseDate: 2017-09-25
 
