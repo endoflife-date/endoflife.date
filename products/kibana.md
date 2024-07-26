@@ -13,8 +13,6 @@ identifiers:
 -   repology: kibana
 -   cpe: cpe:/a:elastic:kibana
 -   cpe: cpe:2.3:a:elastic:kibana
--   cpe: cpe:/a:elasticsearch:kibana
--   cpe: cpe:2.3:a:elasticsearch:kibana
 
 auto:
   methods:
