@@ -12,8 +12,6 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: nix
--   cpe: cpe:/a:nixos:nix
--   cpe: cpe:2.3:a:nixos:nix
 
 auto:
   methods:
