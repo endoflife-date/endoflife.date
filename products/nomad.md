@@ -2,7 +2,7 @@
 title: Nomad
 category: server-app
 tags: hashicorp
-permalink: /hashicorp
+permalink: /nomad
 versionCommand: nomad --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
