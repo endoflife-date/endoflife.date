@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "2.4"
     releaseDate: 2016-12-16
-    eol: true
+    eol: 2023-03-31
     latest: "2.4.12"
     latestReleaseDate: 2022-03-17
 
