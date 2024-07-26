@@ -14,6 +14,7 @@ auto:
 identifiers:
   - repology: openvpn
 
+# releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:
 -   releaseCycle: "2.6"
     releaseDate: 2023-01-25
