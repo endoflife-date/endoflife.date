@@ -9,6 +9,9 @@ changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATES
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: joomla
+
 auto:
   methods:
   -   git: https://github.com/joomla/joomla-cms.git

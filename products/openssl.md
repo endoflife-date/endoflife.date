@@ -10,6 +10,11 @@ releaseDateColumn: true
 eolColumn: Supported
 eoesColumn: Premium support
 
+identifiers:
+-   repology: openssl
+-   cpe: cpe:/a:openssl:openssl
+-   cpe: cpe:2.3:a:openssl:openssl
+
 auto:
   methods:
   -   git: https://github.com/openssl/openssl.git

@@ -10,6 +10,11 @@ changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: mastodon
+-   cpe: cpe:/a:joinmastodon:mastodon
+-   cpe: cpe:2.3:a:joinmastodon:mastodon
+
 auto:
   methods:
   -   git: https://github.com/mastodon/mastodon.git

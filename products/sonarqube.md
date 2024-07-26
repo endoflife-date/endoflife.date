@@ -12,6 +12,9 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
+identifiers:
+-   repology: sonarqube
+
 auto:
   methods:
   -   git: https://github.com/SonarSource/sonarqube.git

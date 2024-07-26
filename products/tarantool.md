@@ -9,6 +9,11 @@ changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST_
 eolColumn: Support Status
 releaseDateColumn: true
 
+identifiers:
+-   repology: tarantool
+-   cpe: cpe:/a:tarantool:tarantool
+-   cpe: cpe:2.3:a:tarantool:tarantool
+
 auto:
   methods:
   -   git: https://github.com/tarantool/tarantool.git

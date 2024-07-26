@@ -13,6 +13,13 @@ eolColumn: Critical, Security and Platform support
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: godot
+-   cpe: cpe:/a:godotengine:godot
+-   cpe: cpe:2.3:a:godotengine:godot
+-   cpe: cpe:/a:godotengine:godot_engine
+-   cpe: cpe:2.3:a:godotengine:godot_engine
+
 auto:
   methods:
   -   git: https://github.com/godotengine/godot.git

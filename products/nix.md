@@ -10,6 +10,9 @@ releasePolicyLink: https://nixos.org/blog/announcements.html
 changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__
 releaseDateColumn: true
 
+identifiers:
+-   repology: nix
+
 auto:
   methods:
   -   git: https://github.com/NixOS/nix.git

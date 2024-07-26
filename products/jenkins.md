@@ -9,6 +9,11 @@ changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__L
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: jenkins
+-   cpe: cpe:/a:jenkins:jenkins
+-   cpe: cpe:2.3:a:jenkins:jenkins
+
 auto:
   methods:
   -   git: https://github.com/jenkinsci/jenkins.git

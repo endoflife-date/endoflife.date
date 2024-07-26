@@ -17,7 +17,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: apache
--   cpe: cpe:/a:apache:apache_http_server
+-   cpe: cpe:/a:apache:http_server
 -   cpe: cpe:2.3:a:apache:http_server
 
 auto:

@@ -9,6 +9,11 @@ changelogTemplate: "https://www.elastic.co/guide/en/logstash/{{'__LATEST__'|spli
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: logstash
+-   cpe: cpe:/a:elastic:logstash
+-   cpe: cpe:2.3:a:elastic:logstash
+
 auto:
   methods:
   -   git: https://github.com/elastic/logstash.git

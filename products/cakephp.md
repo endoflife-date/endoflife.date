@@ -13,6 +13,13 @@ changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: cakephp
+-   cpe: cpe:/a:cakephp:cakephp
+-   cpe: cpe:2.3:a:cakephp:cakephp
+-   cpe: cpe:/a:cakefoundation:cakephp
+-   cpe: cpe:2.3:a:cakefoundation:cakephp
+
 auto:
   methods:
   -   git: https://github.com/cakephp/cakephp.git

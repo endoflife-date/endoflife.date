@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENO
 releaseDateColumn: true
 eolColumn: Service Status
 
+identifiers:
+-   repology: hbase
+-   cpe: cpe:/a:apache:hbase
+-   cpe: cpe:2.3:a:apache:hbase
+
 auto:
   methods:
   -   git: https://github.com/apache/hbase.git

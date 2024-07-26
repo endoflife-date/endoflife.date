@@ -16,6 +16,11 @@ eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Update Support
 
+identifiers:
+-   repology: openshift
+-   cpe: cpe:/a:redhat:openshift
+-   cpe: cpe:2.3:a:redhat:openshift
+
 auto:
   methods:
   -   custom: red-hat-openshift

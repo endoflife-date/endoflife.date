@@ -9,6 +9,11 @@ LTSLabel: "<abbr title='Annual Release'>AR</abbr>"
 eolColumn: Maintenance
 releaseDateColumn: true
 
+identifiers:
+-   repology: graalvm
+-   cpe: cpe:/a:oracle:graalvm
+-   cpe: cpe:2.3:a:oracle:graalvm
+
 auto:
   methods:
   -   custom: graalvm

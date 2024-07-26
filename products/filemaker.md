@@ -6,6 +6,10 @@ releasePolicyLink: https://support.claris.com/s/article/Claris-support-policy
 releaseColumn: false
 eolColumn: Support
 
+
+identifiers:
+-   repology: filemaker-pro
+
 releases:
 -   releaseCycle: "2023"
     releaseDate: 2023-06-06

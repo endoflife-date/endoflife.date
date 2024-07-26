@@ -10,6 +10,11 @@ changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE_
 releaseDateColumn: true
 eolColumn: End-of-Life
 
+identifiers:
+-   repology: mediawiki
+-   cpe: cpe:/a:mediawiki:mediawiki
+-   cpe: cpe:2.3:a:mediawiki:mediawiki
+
 auto:
   methods:
   -   git: https://github.com/wikimedia/mediawiki.git

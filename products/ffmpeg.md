@@ -10,6 +10,9 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: ffmpeg
+
 auto:
   methods:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering

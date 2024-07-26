@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   repology: openzfs
+-   cpe: cpe:/a:openzfs:openzfs
+-   cpe: cpe:2.3:a:openzfs:openzfs
+
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
   methods:
