@@ -14,8 +14,6 @@ eolColumn: Bug and Security Fixes
 
 identifiers:
 -   repology: sonarqube
--   cpe: cpe:/a:sonarqube:sonarqube
--   cpe: cpe:2.3:a:sonarqube:sonarqube
 
 auto:
   methods:
