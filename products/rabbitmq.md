@@ -12,9 +12,11 @@ eolColumn: Community Support
 eoesColumn: Extended Commercial Support
 
 identifiers:
--   repology: rabbitmq-c
--   cpe: cpe:/a:rabbitmq-c_project:rabbitmq-c
--   cpe: cpe:2.3:a:rabbitmq-c_project:rabbitmq-c
+-   repology: rabbitmq-server
+-   cpe: cpe:/a:pivotal_software:rabbitmq
+-   cpe: cpe:2.3:a:pivotal_software:rabbitmq
+-   cpe: cpe:/a:vmware:rabbitmq
+-   cpe: cpe:2.3:a:vmware:rabbitmq
 
 auto:
   methods:
