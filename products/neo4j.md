@@ -19,6 +19,27 @@ auto:
       # Neo4j 5.0 was a Limited Availability release only and tag date is wrong.
       # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
       regex_exclude: '^5\.0\.\d+$'
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+      selector: "table"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+      selector: "table"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+        eol:
+          column: "End of Support Date"
+          regex: '^(?P<value>\w+ \d+, \d+).*$'
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions
@@ -84,7 +105,7 @@ releases:
     latestReleaseDate: 2023-09-14
 
 -   releaseCycle: "5.11"
-    releaseDate: 2023-08-15
+    releaseDate: 2023-08-14
     eol: 2023-09-14
     latest: "5.11.0"
     latestReleaseDate: 2023-08-15
@@ -151,7 +172,7 @@ releases:
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
-    eol: 2025-06-30
+    eol: 2025-11-30
     latest: "4.4.36"
     lts: true
     latestReleaseDate: 2024-07-23
