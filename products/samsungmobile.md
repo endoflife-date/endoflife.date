@@ -77,7 +77,7 @@ releases:
     releaseDate: 2023-10-16
     eoas: false
     eol: false
-    link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
+    link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
     
 -   releaseCycle: "Galaxy A34 5G"
     releaseDate: 2023-03-24
