@@ -54,6 +54,6 @@ except for CentOS Linux 8.
 
 [It was announced on December 8th, 2020](https://blog.centos.org/2020/12/future-is-centos-stream/)
 that work on CentOS Linux 8 would cease at the end of 2021 and that focus would shift to CentOS Stream.
-Support information for CentOS Stream are available on the [CentOS Stream page](/centos-stream).
+Support information for CentOS Stream is available on the [CentOS Stream page](/centos-stream).
 
 Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).
