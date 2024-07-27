@@ -14,7 +14,7 @@ auto:
   methods:
   -   git: https://github.com/PrivateBin/PrivateBin.git
 
-# eol(x) = release(x+3)
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.7"
     releaseDate: 2024-02-12
