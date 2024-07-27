@@ -16,6 +16,7 @@ identifiers:
 -   repology: icingaweb2
 -   purl: pkg:docker/icinga/icingaweb2
 -   purl: pkg:github/Icinga/icingaweb2
+-   purl: pkg:github/Icinga/icinga-web
 
 auto:
   methods:

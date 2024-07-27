@@ -13,6 +13,8 @@ identifiers:
 -   repology: icinga2
 -   repology: icinga
 -   purl: pkg:docker/icinga/icinga2
+-   purl: pkg:github/Icinga/icinga2
+-   purl: pkg:github/Icinga/icinga-core
 
 auto:
   methods:
