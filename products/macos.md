@@ -62,7 +62,7 @@ releases:
     releaseDate: 2019-10-07
     eol: 2022-09-12
     latest: '10.15.7'
-    latestReleaseDate: 2020-09-24
+    latestReleaseDate: 2022-07-20
     link: https://support.apple.com/HT210642
 
 -   releaseCycle: "10.14"
