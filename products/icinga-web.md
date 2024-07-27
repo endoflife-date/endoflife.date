@@ -20,6 +20,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/Icinga/icingaweb2
+  -   git: https://github.com/Icinga/icinga-web
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
@@ -116,9 +117,9 @@ releases:
     latestReleaseDate: 2015-10-02
 
 -   releaseCycle: "1"
-    releaseDate: 2010-06-30
-    eoas: 2018-12-31
-    eol: 2018-12-31
+    releaseDate: 2010-06-30 # 1.0.1 release date
+    eoas: 2015-10-02
+    eol: 2018-12-31 # https://github.com/Icinga/icinga-web
     latest: "1.14.1"
     latestReleaseDate: 2017-12-19
     link: null

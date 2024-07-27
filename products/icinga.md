@@ -136,6 +136,7 @@ releases:
     eol: 2018-12-31 # https://github.com/Icinga/icinga-core
     latest: "1.14.2"
     latestReleaseDate: 2017-12-20
+    link: null
 
 ---
 
