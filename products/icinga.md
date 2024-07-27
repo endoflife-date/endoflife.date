@@ -1,31 +1,36 @@
 ---
-title: Icinga2
+title: Icinga
 category: server-app
 iconSlug: icinga
-permalink: /icinga2
+permalink: /icinga
 versionCommand: icinga2 -V
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
-changelogTemplate: "https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/"
+changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
-  -   repology: icinga2
-  -   purl: pkg:docker/icinga/icinga2
+-   repology: icinga2
+-   repology: icinga
+-   purl: pkg:docker/icinga/icinga2
 
 auto:
   methods:
   -   git: https://github.com/Icinga/icinga2
+  -   git: https://github.com/Icinga/icinga-core
+      regex:
+      -   '^v?(?P<major>[1-9]\d*)\.(?P<minor>\d+)(\.(?P<patch>\d+)(\.(?P<tiny>\d+))?)?'
+      -   '^icinga-(?P<major>[1-9]\d*)-(?P<minor>\d+)(-(?P<patch>\d+)(-(?P<tiny>\d+))?)?$'
 
-# eol(x) = releaseDate(x+2)
 # eoas(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "2.14"
     releaseDate: 2023-07-12
     eoas: false
     eol: false
-    latest: "2.14.1"
-    latestReleaseDate: 2023-12-20
+    latest: "2.14.2"
+    latestReleaseDate: 2024-01-18
 
 -   releaseCycle: "2.13"
     releaseDate: 2021-08-02
@@ -125,10 +130,17 @@ releases:
     latest: "2.0.2"
     latestReleaseDate: 2014-08-07
 
+-   releaseCycle: "1"
+    releaseDate: 2009-12-15
+    eoas: 2014-06-16
+    eol: 2018-12-31 # https://github.com/Icinga/icinga-core
+    latest: "1.14.2"
+    latestReleaseDate: 2017-12-20
+
 ---
 
-> [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) is an open-source monitoring server, is designed to monitor various aspects
-> of IT infrastructure, including networks, servers, virtual machines, and cloud services.
+> [Icinga](https://icinga.com) is an open-source monitoring server. It is designed to monitor various aspects of IT
+> infrastructure, including networks, servers, virtual machines, and cloud services.
 
-Icinga2 follows an N-1 support strategy
-(meanings that the 2 most recent major versions receive security and bug fixes)
+The two most recent releases are supported. The latest release receive bug and security fixes, while the previous
+version received only security fixes.
