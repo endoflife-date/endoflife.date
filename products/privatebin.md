@@ -8,7 +8,6 @@ alternate_urls:
 releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/__LATEST__
 releaseDateColumn: true
-#versionCommand: vault --version
 
 auto:
   methods:
