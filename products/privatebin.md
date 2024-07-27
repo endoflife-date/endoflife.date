@@ -3,7 +3,7 @@ title:  PrivateBin
 category: server-app
 permalink: /privatebin
 releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme
-changelogTemplate: https://github.com/hashicorp/vault/releases/tag/__LATEST__
+changelogTemplate: https://github.com/PrivateBin/PrivateBin/releases/tag/__LATEST__
 releaseDateColumn: true
 
 auto:
