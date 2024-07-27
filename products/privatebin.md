@@ -59,9 +59,8 @@ releases:
     latestReleaseDate: 2017-10-11 
 ---
 
-> [PrivateBin](https://privatebin.info/) is a minimalist, open source online [pastebin](https://en.wikipedia.org/wiki/Pastebin)
-> where the server has zero knowledge of pasted data.
-> Data is encrypted and decrypted in the browser using 256bit AES in Galois Counter mode.
+> [PrivateBin](https://privatebin.info/) is a minimalist, open source [Pastebin](https://pastebin.com/) where the server
+> has zero knowledge of pasted data.
 
 
 PrivateBin follows [SemVer](https://semver.org/). Only the latest version is supported.
