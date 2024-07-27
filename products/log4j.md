@@ -23,6 +23,7 @@ auto:
 
 releases:
 -   releaseCycle: "2"
+    outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
     latest: "2.23.1"

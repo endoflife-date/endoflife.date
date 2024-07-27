@@ -95,6 +95,7 @@ releases:
     latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5.15"
+    outOfOrder: true # wrong data on https://portal.nutanix.com/api/v1/eol/find?type=NOS
     releaseDate: 2020-03-31
     eoas: 2021-08-31
     eol: 2022-05-31

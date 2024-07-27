@@ -13,6 +13,7 @@ eoasColumn: true
 # Release date can be found on subpages of https://en.wikipedia.org/wiki/Microsoft_Office.
 releases:
 -   releaseCycle: "365"
+    outOfOrder: true # to keep it at the top
     releaseDate: 2015-09-22
     eoas: false
     eol: false
