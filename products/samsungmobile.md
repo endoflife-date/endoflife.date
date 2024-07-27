@@ -53,7 +53,7 @@ releases:
     releaseDate: 2023-08-11
     eoas: false
     eol: false
-    link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
+    link: https://doc.samsungmobile.com/sm-x710/eux/doc.html
 
 -   releaseCycle: "Galaxy Tab S9+ 5G"
     releaseDate: 2023-08-11
