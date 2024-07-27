@@ -5,7 +5,7 @@ tags: pastebin encryption privacy-security
 permalink: /privatebin
 alternate_urls:
 -   /private-bin
-#releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/__LATEST__
 releaseDateColumn: true
 #versionCommand: vault --version
