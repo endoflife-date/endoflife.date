@@ -61,6 +61,36 @@ releases:
     eol: 2028-03-24 # "five years of security updates" (https://news.samsung.com/global/the-samsung-galaxy-a54-5g-and-galaxy-a34-5g-awesome-experiences-for-all)
     link: https://doc.samsungmobile.com/SM-A546U/TMB/doc.html
 
+-   releaseCycle: "Galaxy Tab S9"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/sm-x710/eux/doc.html
+
+-   releaseCycle: "Galaxy Tab S9+ 5G"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
+
+-   releaseCycle: "Galaxy Tab S9 Ultra"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
+
+-   releaseCycle: "Galaxy Tab S9 FE"
+    releaseDate: 2023-10-16
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
+
+-   releaseCycle: "Galaxy Tab S9 FE+"
+    releaseDate: 2023-10-16
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
+    
 -   releaseCycle: "Galaxy A34 5G"
     releaseDate: 2023-03-24
     eoas: false # "four generations of OS upgrades"
