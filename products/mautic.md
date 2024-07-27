@@ -15,7 +15,6 @@ auto:
   -   git: https://github.com/mautic/mautic
 
 identifiers:
--   purl: pkg:mautic/mautic
 -   purl: pkg:github/mautic/mautic/
 
 releases:
