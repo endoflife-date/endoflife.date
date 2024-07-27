@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGE
 releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Extended Long Term Support
+customColumns:
+-   property: eoesProvider
+    position: before-latest-column
+    label: Extended Long Term Support provider
+    description: Companies that provide extended Long Term Support for AngularJS.
 
 auto:
   methods:
@@ -27,6 +32,7 @@ releases:
     releaseDate: 2020-06-04
     eol: 2021-12-31
     eoes: false
+    eoesProvider: HeroDevs, OpenLogic
     latest: "1.8.3"
     latestReleaseDate: 2022-04-07
 
@@ -39,6 +45,8 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2016-12-08
     eol: 2021-12-31
+    eoes: false
+    eoesProvider: OpenLogic
     latest: "1.6.10"
     latestReleaseDate: 2018-04-17
 
@@ -46,6 +54,7 @@ releases:
     releaseDate: 2016-02-05
     eol: 2021-12-31
     eoes: false
+    eoesProvider: HeroDevs
     latest: "1.5.11"
     latestReleaseDate: 2017-01-12
 
@@ -93,4 +102,5 @@ on the final version 1.8.3 which was released April 7, 2022.
 
 Beginning January 1, 2022, commercial [extended long term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
 became available through the [HeroDevs](https://www.herodevs.com/) Never-Ending Support
-initiative (NES, formerly XLTS).
+initiative (NES, formerly XLTS). [OpenLogic](https://www.openlogic.com/solutions/angularjs-support-and-services) also
+provides commercial long term support for AngularJS.
