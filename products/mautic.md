@@ -88,7 +88,7 @@ releases:
 -   releaseCycle: "3.2"
     releaseDate: 2020-11-30
     eoas: 2021-02-16
-    eol: 2021-02-20
+    eol: 2021-02-22
     latest: "3.3.2"
     latestReleaseDate: 2021-03-22
 
