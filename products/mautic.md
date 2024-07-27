@@ -12,7 +12,25 @@ eoasColumn: true
 
 auto:
   methods:
-  -   git: https://github.com/mautic/mautic
+  -   git: https://github.com/mautic/mautic.git
+  -   release_table: https://www.mautic.org/mautic-releases
+      selector: 'table'
+      fields:
+        releaseCycle:
+          column: 'Branch'
+          regex: '^(?P<value>\d+\.\d+)$' # major branches data not retrieved
+        releaseDate:
+          column: 'Initial Release'
+          regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{day}} {{month}} {{year}}"
+        eoas:
+          column: 'Active Support Until'
+          regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{day}} {{month}} {{year}}"
+        eol:
+          column: 'Security Support Until*'
+          regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
+          template: "{{day}} {{month}} {{year}}"
 
 identifiers:
 -   purl: pkg:github/mautic/mautic/
