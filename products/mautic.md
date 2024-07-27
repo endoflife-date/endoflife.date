@@ -96,7 +96,7 @@ releases:
     latestReleaseDate: 2021-01-14
 
 -   releaseCycle: "2.15"
-    releaseDate: 2019-10-08
+    releaseDate: 2018-12-19
     eoas: 2019-10-08
     eol: 2019-10-08
     latest: "2.15.3"
