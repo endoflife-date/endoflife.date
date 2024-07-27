@@ -64,5 +64,4 @@ releases:
 > Data is encrypted and decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-A major release is identified by a change in the first (X) or second (Y) digit in the following
-versioning nomenclature: `Version X.Y.Z.`
+PrivateBin follows [SemVer](https://semver.org/). Only the latest version is supported.
