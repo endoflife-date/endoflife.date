@@ -57,6 +57,13 @@ releases:
     eol: 2018-07-22
     latest: "1.1.1"
     latestReleaseDate: 2017-10-11 
+
+-   releaseCycle: "1.0"
+    releaseDate: 2016-08-25
+    eol: 2016-12-26
+    latest: "1.0"
+    latestReleaseDate: 2016-08-25
+
 ---
 
 > [PrivateBin](https://privatebin.info/) is a minimalist, open source [Pastebin](https://pastebin.com/) where the server
