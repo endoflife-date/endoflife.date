@@ -12,7 +12,7 @@ auto:
   -   git: https://github.com/OpenVPN/openvpn.git
 
 identifiers:
-  - repology: openvpn
+-   repology: openvpn
 
 # releaseDate and eol https://community.openvpn.net/openvpn/wiki/SupportedVersions
 releases:
@@ -20,7 +20,7 @@ releases:
     releaseDate: 2023-01-25
     eol: false
     latest: "2.6.12"
-    latestReleaseDate: 2024-07-18
+    latestReleaseDate: 2024-07-17
 
 -   releaseCycle: "2.5"
     releaseDate: 2020-10-27
@@ -50,7 +50,7 @@ releases:
     releaseDate: 2009-12-11
     eol: 2011-11-30
     latest: "2.1.4"
-    latestReleaseDate: 2010-11-04
+    latestReleaseDate: 2010-11-06
 
 ---
 

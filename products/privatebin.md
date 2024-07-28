@@ -1,5 +1,5 @@
 ---
-title:  PrivateBin
+title: PrivateBin
 category: server-app
 permalink: /privatebin
 releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme
@@ -13,13 +13,13 @@ auto:
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.7"
-    releaseDate: 2024-02-12
+    releaseDate: 2024-02-11
     eol: false
     latest: "1.7.4"
     latestReleaseDate: 2024-07-09
 
 -   releaseCycle: "1.6"
-    releaseDate: 2023-09-12
+    releaseDate: 2023-09-11
     eol: 2024-02-12
     latest: "1.6.2"
     latestReleaseDate: 2023-12-15
@@ -37,10 +37,10 @@ releases:
     latestReleaseDate: 2022-04-09
 
 -   releaseCycle: "1.3"
-    releaseDate: 2019-07-10
+    releaseDate: 2019-07-09
     eol: 2022-04-09
     latest: "1.3.5"
-    latestReleaseDate: 2021-04-06
+    latestReleaseDate: 2021-04-05
 
 -   releaseCycle: "1.2"
     releaseDate: 2018-07-22
@@ -52,7 +52,7 @@ releases:
     releaseDate: 2016-12-26
     eol: 2018-07-22
     latest: "1.1.1"
-    latestReleaseDate: 2017-10-11 
+    latestReleaseDate: 2017-10-08
 
 -   releaseCycle: "1.0"
     releaseDate: 2016-08-25
