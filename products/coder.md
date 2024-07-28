@@ -18,8 +18,8 @@ auto:
   methods:
   - git: https://github.com/coder/coder.git
 
-# eoas(x) = releaseDate(x+2) estimated
-# eol(x) = releaseDate(x+3) estimated
+# eoas(x) = releaseDate(x+2)
+# eol(x) = releaseDate(x+3)
 releases:
 - releaseCycle: "2.13"
   releaseDate: 2024-07-02
@@ -44,8 +44,8 @@ releases:
 
 - releaseCycle: "2.10"
   releaseDate: 2024-04-03
-  eoas: 2024-05-07 # releaseDate 2.12
-  eol: 2024-06-04 # releaseDate 2.13
+  eoas: 2024-06-04 # releaseDate 2.12
+  eol: 2024-07-02 # releaseDate 2.13
   latest: "2.10.3"
   latestReleaseDate: 2024-05-22
 
