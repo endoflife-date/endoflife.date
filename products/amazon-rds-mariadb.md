@@ -42,6 +42,7 @@ releases:
     eol: 2025-02-28
     latest: "10.4.34"
     latestReleaseDate: 2024-06-14
+
 ---
 
 > [Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb) is a PaaS offering from Amazon for
