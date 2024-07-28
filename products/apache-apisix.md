@@ -7,7 +7,7 @@ alternate_urls:
 
 auto:
   methods:
-  -   git: https://github.com/apache/apisix
+  -   git: https://github.com/apache/apisix.git
 
 identifiers:
   - repology: apisix
