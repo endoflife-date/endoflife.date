@@ -7,7 +7,7 @@ alternate_urls:
 -   /nixlang
 versionCommand: nix --version
 releasePolicyLink: https://nixos.org/blog/announcements.html
-changelogTemplate: https://nixos.org/manual/nix/stable/release-notes/rl-__RELEASE_CYCLE__
+changelogTemplate: https://nix.dev/manual/nix/latest/release-notes/rl-__RELEASE_CYCLE__
 releaseDateColumn: true
 
 identifiers:
