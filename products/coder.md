@@ -5,7 +5,7 @@ tags: remote cde terraform ide development docker kubernetes
 iconSlug: coder
 permalink: /coder
 versionCommand: coder version
-releasePolicyLink: https://coder.com/docs/install/releases#release-schedule
+releasePolicyLink: https://coder.com/docs/install/releases
 changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
 releaseDateColumn: true
 eoasColumn: Mainline
@@ -13,7 +13,7 @@ eoasWarnThreshold: 30
 eolColumn: Stable
 eolWarnThreshold: 60
 eoesColumn: Security Support
-eoasWarnThreshold: 150
+eoesWarnThreshold: 150
 
 auto:
   methods:
@@ -25,8 +25,8 @@ releases:
   eoas: 2024-08-06
   eol: 2024-09-03
   eoes: false
-  latest: "2.13.1"
-  latestReleaseDate: 2024-07-20
+  latest: "2.13.2"
+  latestReleaseDate: 2024-07-23
 
 - releaseCycle: "2.12"
   releaseDate: 2024-06-04
@@ -41,8 +41,8 @@ releases:
   eoas: 2024-06-04
   eol: 2024-07-02
   eoes: false
-  latest: "2.11.3"
-  latestReleaseDate: 2024-06-21
+  latest: "2.11.4"
+  latestReleaseDate: 2024-06-24
 
 - releaseCycle: "2.10"
   releaseDate: 2024-04-03
@@ -65,7 +65,7 @@ releases:
   eoas: 2024-03-07
   eol: 2024-04-03
   eoes: true
-  latest: "2.8.4"
+  latest: "2.8.5"
   latestReleaseDate: 2024-03-09
 
 - releaseCycle: "2.7"
@@ -78,4 +78,5 @@ releases:
 
 ---
 
-> [Coder](https://github.com/coder/coder) is an open-source cloud development environment (CDE) that you host in your cloud or on-premises. With Coder, you can deploy environments that provide the infrastructure, IDEs, and tools your developers need. Upgrade to Coder Enterprise to gain enhanced security, governance, and observability for your platform teams.
+> [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
+> clouds and servers.
