@@ -465,9 +465,10 @@ docker run --rm \
 # CTRL+C to exit and kill the instance
 ```
 
-## [🆔 Adding Identifiers](https://endoflife.date/help/identifiers-needed/)
+## 🆔 Adding Identifiers
 
-We need help with adding more identifiers. Please see <https://endoflife.date/help/identifiers-needed/> for a list of pages missing identifiers.
+We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing
+identifiers.
 
 ## 📑 Suggested Reading
 
