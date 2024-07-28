@@ -6,7 +6,7 @@ iconSlug: bun
 permalink: /bun
 versionCommand: bun --version
 releasePolicyLink: https://github.com/oven-sh/bun/releases
-changelogTemplate: https://bun.sh/blog/bun-v__LATEST__
+changelogTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
 releaseDateColumn: true
 
 identifiers:
