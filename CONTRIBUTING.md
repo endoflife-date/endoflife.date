@@ -10,11 +10,12 @@ permalink: /contribute
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#octocat-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
 - [:pencil: About the codebase](#pencil-about-the-codebase)
 - [:new: Adding a new product](#new-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
+- [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
 - [:bookmark: Code of Conduct](#bookmark-code-of-conduct)
 
@@ -276,6 +277,7 @@ auto:
 
 # A list of identifiers that can be used to detect this product as being used,
 # especially by SBOM tooling
+# Please see https://endoflife.date/help/identifiers-needed/ for more information
 identifiers:
   # Each identifier is a way of linking this product to various methods of installing it
 
@@ -462,6 +464,11 @@ docker run --rm \
 # Browse: http://127.0.0.1:4000/
 # CTRL+C to exit and kill the instance
 ```
+
+## 🆔 Adding Identifiers
+
+We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing
+identifiers.
 
 ## 📑 Suggested Reading
 
