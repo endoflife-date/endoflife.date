@@ -28,14 +28,14 @@ releases:
 -   releaseCycle: "6.10"
     releaseDate: 2024-07-14
     eol: 2024-11-14 # estimated releaseDate(x)+4 months
-    latest: "6.10.1"
-    latestReleaseDate: 2024-07-24
+    latest: "6.10.2"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "6.9"
     releaseDate: 2024-05-12
     eol: 2024-09-12 # estimated releaseDate(x)+4 months
-    latest: "6.9.11"
-    latestReleaseDate: 2024-07-25
+    latest: "6.9.12"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "6.8"
     releaseDate: 2024-03-10
@@ -53,8 +53,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.42"
-    latestReleaseDate: 2024-07-25
+    latest: "6.6.43"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -84,8 +84,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.101"
-    latestReleaseDate: 2024-07-25
+    latest: "6.1.102"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -121,29 +121,29 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.163"
-    latestReleaseDate: 2024-07-18
+    latest: "5.15.164"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.222"
-    latestReleaseDate: 2024-07-18
+    latest: "5.10.223"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.280"
-    latestReleaseDate: 2024-07-18
+    latest: "5.4.281"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.19.318"
-    latestReleaseDate: 2024-07-18
+    latest: "4.19.319"
+    latestReleaseDate: 2024-07-27
 
 -   releaseCycle: "4.14"
     lts: true

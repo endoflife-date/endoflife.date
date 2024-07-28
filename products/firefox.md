@@ -30,8 +30,8 @@ releases:
     releaseDate: 2024-07-09
     lts: true
     eol: false # Next ESR/LTS not yet planned on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "128.0.2"
-    latestReleaseDate: 2024-07-23
+    latest: "128.0.3"
+    latestReleaseDate: 2024-07-26
 
 -   releaseCycle: "127"
     releaseDate: 2024-06-11

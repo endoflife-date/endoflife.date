@@ -17,10 +17,10 @@ auto:
 releases:
 -   releaseCycle: "24.7"
     codename: "Thriving Tiger"
-    releaseDate: 2024-07-25
+    releaseDate: 2024-07-23
     eol: false
     latest: "24.7"
-    latestReleaseDate: 2024-07-25
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "24.1"
     codename: "Savvy Shark"
