@@ -7,8 +7,7 @@ alternate_urls:
 -   /godotengine
 versionCommand: godot --version
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
-changelogTemplate: |
-  https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
+changelogTemplate: https://github.com/godotengine/godot/releases/tag/__LATEST__-stable
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
 releaseDateColumn: true
