@@ -24,15 +24,15 @@ auto:
 releases:
 - releaseCycle: "2.13"
   releaseDate: 2024-07-02
-  eoas: 2024-09-03 # releaseDate 2.15
-  eol: 2024-10-01 # releaseDate 2.16
+  eoas: false # releaseDate 2.15
+  eol: false # releaseDate 2.16
   latest: "2.13.2"
   latestReleaseDate: 2024-07-23
 
 - releaseCycle: "2.12"
   releaseDate: 2024-06-04
-  eoas: 2024-08-06 # releaseDate 2.14
-  eol: 2024-09-03 # releaseDate 2.15
+  eoas: false # releaseDate 2.14
+  eol: false # releaseDate 2.15
   latest: "2.12.5"
   latestReleaseDate: 2024-07-22
 
