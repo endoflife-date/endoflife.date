@@ -1,9 +1,9 @@
 ---
 title: Apache Apisix
 category: server-app
-permalink: /apisix
+permalink: /apache-apisix
 alternate_urls:
--   /apache-apisix
+-   /apisix
 
 auto:
   methods:
