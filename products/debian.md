@@ -43,9 +43,9 @@ releases:
 -   releaseCycle: "11"
     codename: "Bullseye"
     releaseDate: 2021-08-14
-    eol: 2024-08-31
+    eol: 2024-08-14
     eoes: 2026-08-31
-    link: https://www.debian.org/News/2024/2024062902
+    link: https://lists.debian.org/debian-release/2024/06/msg00700.html
     latest: "11.10"
     latestReleaseDate: 2024-06-29
 
