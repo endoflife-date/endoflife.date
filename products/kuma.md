@@ -1,11 +1,10 @@
 ---
 title: kuma
 category: app
-tags: cncf configuration-management
+tags: cncf
 permalink: /kuma
 alternate_urls:
 -   /kuma
-releasePolicyLink: https://github.com/kumahq/kuma/blob/master/versions.yml
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__
 releaseDateColumn: true
 eolColumn: Support
@@ -27,6 +26,7 @@ releases:
     eol: false
     latest: "2.7.5"
     latestReleaseDate: 2024-07-03
+    lts: true
 
 -   releaseCycle: "2.6"
     releaseDate: 2024-02-01
@@ -48,4 +48,4 @@ releases:
 
 ---
 
->[Kuma](https://kuma.io/) is a multi-zone service mesh for containers, Kubernetes and VMs.
+>[Kuma](https://kuma.io/) is a multi-zone service mesh for containers, Kubernetes and VMs. Kuma release and support policy is not clearly documented. But EOL dates are documented in the [project's GitHub repository](https://github.com/kumahq/kuma/blob/master/versions.yml).
