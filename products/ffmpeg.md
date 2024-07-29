@@ -61,8 +61,8 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.4"
-    latestReleaseDate: 2023-04-12
+    latest: "4.4.5"
+    latestReleaseDate: 2024-07-29
 
 -   releaseCycle: "4.3"
     codename: '4:3'
@@ -252,6 +252,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 
 
