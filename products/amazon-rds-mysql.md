@@ -6,6 +6,7 @@ iconSlug: amazonrds
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
 releaseDateColumn: true
+eoesColumn: Extended Support
 
 auto:
   methods:
@@ -17,23 +18,27 @@ auto:
           column: "MySQL major version"
           regex: '^MySQL\s+(?P<value>\d+\.\d+).*$'
         eol: "RDS end of standard support date"
+        eoes: "RDS end of Extended Support date"
 
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-07-31
+    eoes: 2029-07-31
     latest: "8.0.37"
     latestReleaseDate: 2024-06-18
 
 -   releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eol: 2024-02-29
+    eoes: 2027-02-28
     latest: "5.7.44"
     latestReleaseDate: 2023-11-02
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
+    eoes: true
     latest: "5.6"
     latestReleaseDate: 2013-07-01
 
@@ -62,3 +67,7 @@ overridden in the AWS console.
 
 For the most up-to-date information about the Amazon RDS deprecation policy for MySQL, see [Amazon
 RDS FAQs](http://aws.amazon.com/rds/faqs/).
+
+On the RDS end of standard support date, Amazon RDS automatically enrolls your databases in RDS Extended Support.
+RDS Extended Support is a  paid offering available for up to 3 years past the RDS end of standard support date for a major engine version, see
+[Using Amazon RDS Extended Support](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html).
