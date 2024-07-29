@@ -115,14 +115,13 @@ releases:
     releaseDate: 2002-05-01
     eol: 2007-07-31
     eoes: 2010-07-31
-    link: https://www.oracle.com/database/technologies/oracle9i.html
+    link: https://web.archive.org/web/20230921152724/https://www.oracle.com/database/technologies/oracle9i.html
 
 -   releaseCycle: "9.0"
     releaseLabel: "9i Release 1"
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
     eol: 2003-12-31
-    link: https://www.oracle.com/database/technologies/database10g-doc.html
 
 ---
 
