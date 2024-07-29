@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "26.0"
     releaseDate: 2024-03-20
-    eol: false
+    eol: 2024-06-08
     latest: "26.0.2"
     latestReleaseDate: 2024-04-18
 
@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
-    eol: false
+    eol: 2024-06-08
     latest: "24.0.9"
     latestReleaseDate: 2024-02-01
 
@@ -182,7 +182,4 @@ and as such - there's no list of supported releases.
 This page uses the [Open milestones](https://github.com/moby/moby/milestones) as a guide for which releases
 are still getting fixes.
 
-Mirantis [has promised](https://github.com/moby/moby/discussions/45104#discussioncomment-6013686)
-to backport security fixes and fixes for bugs which impact their customers to the 20.10 branch until
-Mirantis Container Runtime 20.10 reaches end-of-life on 2023 December 10. Microsoft is also
-committed to maintaining the 20.10 branch in public for now.
+Microsoft is committed to maintaining the 20.10 branch in public.
