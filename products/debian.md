@@ -36,7 +36,7 @@ releases:
     releaseDate: 2023-06-10
     eol: 2026-06-10
     eoes: 2028-06-10
-    link: https://www.debian.org/News/2024/20240210
+    link: https://www.debian.org/News/2024/20240629
     latest: "12.6"
     latestReleaseDate: 2024-06-29
 
@@ -44,8 +44,8 @@ releases:
     codename: "Bullseye"
     releaseDate: 2021-08-14
     eol: 2024-08-14
-    eoes: 2026-06-30
-    link: https://www.debian.org/News/2024/2024021002
+    eoes: 2026-08-31
+    link: https://www.debian.org/News/2024/2024062902
     latest: "11.10"
     latestReleaseDate: 2024-06-29
 
