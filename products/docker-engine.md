@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
-    eol: false
+    eol: 2024-07-23
     latest: "24.0.9"
     latestReleaseDate: 2024-02-01
 
