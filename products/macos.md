@@ -29,24 +29,24 @@ releases:
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.5'
-    latestReleaseDate: 2024-05-13
+    latest: '14.6'
+    latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT213895
 
 -   releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: '13.6.7'
-    latestReleaseDate: 2024-05-13
+    latest: '13.6.8'
+    latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT213268
 
 -   releaseCycle: "12"
     codename: "Monterey"
     releaseDate: 2021-10-25
     eol: false
-    latest: '12.7.5'
-    latestReleaseDate: 2024-05-13
+    latest: '12.7.6'
+    latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT212585
 
 -   releaseCycle: "11"
