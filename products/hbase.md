@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENO
 releaseDateColumn: true
 eolColumn: Service Status
 
+identifiers:
+-   repology: hbase
+-   cpe: cpe:/a:apache:hbase
+-   cpe: cpe:2.3:a:apache:hbase
+
 auto:
   methods:
   -   git: https://github.com/apache/hbase.git
@@ -27,8 +32,8 @@ releases:
 -   releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestReleaseDate: 2024-07-15
-    latest: '2.5.9'
+    latestReleaseDate: 2024-07-24
+    latest: '2.5.10'
 
 -   releaseCycle: "2.4"
     releaseDate: 2020-12-15
@@ -43,6 +48,7 @@ releases:
     latestReleaseDate: 2021-10-19
 
 -   releaseCycle: "1.7"
+    outOfOrder: true # wrong tag date for https://github.com/apache/hbase/releases/tag/rel%2F1.7.0
     releaseDate: 2021-06-12
     eol: 2022-08-09
     link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt

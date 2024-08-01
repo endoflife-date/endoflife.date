@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
 releaseDateColumn: true
 versionCommand: vault --version
 
+identifiers:
+-   repology: vault
+-   cpe: cpe:/a:hashicorp:vault
+-   cpe: cpe:2.3:a:hashicorp:vault
+
 auto:
   methods:
   -   git: https://github.com/hashicorp/vault.git

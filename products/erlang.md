@@ -10,6 +10,9 @@ changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: erlang
+
 auto:
   methods:
   -   git: https://github.com/erlang/otp.git

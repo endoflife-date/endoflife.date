@@ -49,11 +49,41 @@ releases:
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
 
+-   releaseCycle: "Galaxy Tab S9 FE"
+    releaseDate: 2023-10-16
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
+
+-   releaseCycle: "Galaxy Tab S9 FE+"
+    releaseDate: 2023-10-16
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
+
 -   releaseCycle: "Galaxy S23 FE"
     releaseDate: 2023-10-05
     eoas: false
     eol: 2028-10-05 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S711B/INS/doc.html
+
+-   releaseCycle: "Galaxy Tab S9"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/sm-x710/eux/doc.html
+
+-   releaseCycle: "Galaxy Tab S9+ 5G"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
+
+-   releaseCycle: "Galaxy Tab S9 Ultra"
+    releaseDate: 2023-08-11
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
 -   releaseCycle: "Galaxy A54 5G"
     releaseDate: 2023-03-24

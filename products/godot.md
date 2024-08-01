@@ -7,11 +7,17 @@ alternate_urls:
 -   /godotengine
 versionCommand: godot --version
 releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.html
-changelogTemplate: |
-  https://godotengine.org/article/maintenance-release-godot-{{"__LATEST__" | replace:'.','-'}}
+changelogTemplate: https://github.com/godotengine/godot/releases/tag/__LATEST__-stable
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
 releaseDateColumn: true
+
+identifiers:
+-   repology: godot
+-   cpe: cpe:/a:godotengine:godot
+-   cpe: cpe:2.3:a:godotengine:godot
+-   cpe: cpe:/a:godotengine:godot_engine
+-   cpe: cpe:2.3:a:godotengine:godot_engine
 
 auto:
   methods:
@@ -28,7 +34,6 @@ releases:
     eol: false
     latest: "4.2.2"
     latestReleaseDate: 2024-04-16
-    link: https://godotengine.org/article/godot-4-2-arrives-in-style/
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-07-05

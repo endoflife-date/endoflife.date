@@ -13,6 +13,13 @@ changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: cakephp
+-   cpe: cpe:/a:cakephp:cakephp
+-   cpe: cpe:2.3:a:cakephp:cakephp
+-   cpe: cpe:/a:cakefoundation:cakephp
+-   cpe: cpe:2.3:a:cakefoundation:cakephp
+
 auto:
   methods:
   -   git: https://github.com/cakephp/cakephp.git
@@ -36,8 +43,8 @@ releases:
     supportedPhpVersions: 8.1+
     eoas: false
     eol: false
-    latest: "5.0.9"
-    latestReleaseDate: 2024-06-23
+    latest: "5.0.10"
+    latestReleaseDate: 2024-07-28
 
 -   releaseCycle: "4.4"
     codename: "Strawberry"

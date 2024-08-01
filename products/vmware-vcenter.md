@@ -16,9 +16,9 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 U2d"
-    latestReleaseDate: 2024-06-17
-    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u2d-release-notes/index.html"
+    latest: "8.0 U3a"
+    latestReleaseDate: 2024-07-18
+    link: https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u3a-release-notes/index.html
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
@@ -26,7 +26,7 @@ releases:
     technicalGuidance: 2027-04-02
     latest: "7.0 U3r"
     latestReleaseDate: 2024-06-17
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3r-release-notes/index.html"
+    link: https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3r-release-notes/index.html
 
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
@@ -34,7 +34,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.7 U3s"
     latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/vsphere-vcenter-server-67u3s-release-notes.html"
+    link: https://docs.vmware.com/en/VMware-vSphere/6.7/rn/vsphere-vcenter-server-67u3s-release-notes.html
 
 -   releaseCycle: "6.5"
     releaseDate: 2016-11-15
@@ -42,7 +42,7 @@ releases:
     technicalGuidance: 2023-11-15
     latest: "6.5 U3u"
     latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-vcenter-server-65u3u-release-notes.html"
+    link: https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-vcenter-server-65u3u-release-notes.html
 
 -   releaseCycle: "6.0"
     releaseDate: 2015-03-12
@@ -50,7 +50,7 @@ releases:
     technicalGuidance: 2022-03-12
     latest: "6.0 U3j"
     latestReleaseDate: 2019-09-12
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html"
+    link: https://docs.vmware.com/en/VMware-vSphere/6.0/rn/vsphere-vcenter-server-60u3j-release-notes.html
 
 -   releaseCycle: "5.5"
     releaseDate: 2013-09-19

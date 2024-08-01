@@ -11,6 +11,11 @@ releaseDateColumn: true
 eolColumn: OSS support
 eoesColumn: Commercial support
 
+identifiers:
+-   repology: qt
+-   cpe: cpe:/a:qt:qt
+-   cpe: cpe:2.3:a:qt:qt
+
 # Upstream does not support filtering https://code.qt.io/qt/qt5.git
 auto:
   methods:

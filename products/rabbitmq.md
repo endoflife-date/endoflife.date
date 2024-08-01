@@ -11,6 +11,13 @@ releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Commercial Support
 
+identifiers:
+-   repology: rabbitmq-server
+-   cpe: cpe:/a:pivotal_software:rabbitmq
+-   cpe: cpe:2.3:a:pivotal_software:rabbitmq
+-   cpe: cpe:/a:vmware:rabbitmq
+-   cpe: cpe:2.3:a:vmware:rabbitmq
+
 auto:
   methods:
   -   git: https://github.com/rabbitmq/rabbitmq-server.git
@@ -23,8 +30,8 @@ releases:
     releaseDate: 2024-02-22
     eol: false
     eoes: 2025-12-31
-    latest: "3.13.5"
-    latestReleaseDate: 2024-07-20
+    latest: "3.13.6"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01

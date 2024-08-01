@@ -8,6 +8,11 @@ changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: moodle
+-   cpe: cpe:/a:moodle:moodle
+-   cpe: cpe:2.3:a:moodle:moodle
+
 auto:
   methods:
   -   git: https://github.com/moodle/moodle.git

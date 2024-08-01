@@ -9,6 +9,11 @@ changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__L
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: jenkins
+-   cpe: cpe:/a:jenkins:jenkins
+-   cpe: cpe:2.3:a:jenkins:jenkins
+
 auto:
   methods:
   -   git: https://github.com/jenkinsci/jenkins.git
@@ -25,11 +30,12 @@ auto:
 # See https://github.com/endoflife-date/endoflife.date/pull/2695#issuecomment-1472929098
 releases:
 -   releaseCycle: "2"
+    outOfOrder: true # to keep it at the top
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.468"
-    latestReleaseDate: 2024-07-16
+    latest: "2.470"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "2.452"
     releaseDate: 2024-04-02

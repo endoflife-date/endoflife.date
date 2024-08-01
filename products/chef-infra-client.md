@@ -60,7 +60,7 @@ releases:
     latest: "13.12.14"
 
 -   releaseCycle: "12"
-    releaseDate: 2014-12-03
+    releaseDate: 2014-11-25
     eoas: 2017-03-01
     eol: 2018-01-22
     latest: "12.22.5"
@@ -76,6 +76,7 @@ releases:
     eoas: 2013-02-01
     eol: 2014-12-03
     latest: "10.34.6"
+
 
 ---
 

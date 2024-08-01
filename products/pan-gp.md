@@ -11,6 +11,11 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: End-of-life Date
 
+identifiers:
+-   repology: globalprotect
+-   cpe: cpe:/a:paloaltonetworks:globalprotect
+-   cpe: cpe:2.3:a:paloaltonetworks:globalprotect
+
 auto:
   methods:
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
@@ -52,7 +57,7 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-02-22
     eol: 2025-12-31
-    eoas: 2025-02-22
+    eoas: 2025-12-31
     latest: "6.0.10"
     latestReleaseDate: 2024-05-15
     link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes/globalprotect-addressed-issues

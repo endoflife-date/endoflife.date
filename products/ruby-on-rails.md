@@ -13,6 +13,11 @@ releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 
+identifiers:
+  - repology: ruby:rails
+  - purl: pkg:gem/rails
+  - purl: pkg:github/rails/rails
+
 auto:
   methods:
   -   git: https://github.com/rails/rails.git

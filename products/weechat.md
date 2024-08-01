@@ -7,6 +7,12 @@ changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.ht
 releaseDateColumn: true
 eolColumn: Active Support
 
+identifiers:
+-   repology: weechat
+-   cpe: cpe:/a:weechat:weechat
+-   cpe: cpe:2.3:a:weechat:weechat
+
+
 auto:
   methods:
   -   git: https://github.com/weechat/weechat.git

@@ -11,6 +11,11 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
+identifiers:
+-   repology: gradle
+-   cpe: cpe:/a:gradle:gradle
+-   cpe: cpe:2.3:a:gradle:gradle
+
 auto:
   methods:
   -   git: https://github.com/gradle/gradle.git
