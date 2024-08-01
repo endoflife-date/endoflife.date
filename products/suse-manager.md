@@ -11,6 +11,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn: General Support
 
+# Release dates are documented in each release notes in the "Version revision history" paragraph.
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2024-07-12
