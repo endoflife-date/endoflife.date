@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-04-25
     eol: 2024-10-03 # expected releaseDate of 2.16
     supportedKubernetesVersions: 1.27 - 1.29
-    latest: "2.14.0"
-    latestReleaseDate: 2024-04-25
+    latest: "2.14.1"
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "2.13"
     releaseDate: 2024-01-18
