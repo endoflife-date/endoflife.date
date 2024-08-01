@@ -151,6 +151,8 @@ Clusters with a static GKE version are not enrolled in a release channel. Users 
 managing their upgrade strategy in this case. They must still adhere to the Kubernetes version and
 version skew support policy, and use supported GKE versions.
 
+This is the reference used to obtain the release information displayed on this page.
+
 Google may automatically [upgrade your nodes for security and compatibility purposes](https://cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility "Requirements for GKE force upgrades")
 in select cases.
 
