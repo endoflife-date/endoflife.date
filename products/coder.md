@@ -1,7 +1,6 @@
 ---
 title: Coder
 category: server-app
-tags: app
 iconSlug: coder
 permalink: /coder
 versionCommand: coder version
