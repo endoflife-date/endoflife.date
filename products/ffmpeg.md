@@ -75,8 +75,8 @@ releases:
     codename: 'Ada'
     releaseDate: 2019-08-05
     eol: false
-    latest: "4.2.9"
-    latestReleaseDate: 2023-04-21
+    latest: "4.2.10"
+    latestReleaseDate: 2024-08-01
 
 -   releaseCycle: "4.1"
     codename: 'al-Khwarizmi'
@@ -252,6 +252,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 
 
