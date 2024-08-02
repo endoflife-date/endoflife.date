@@ -24,7 +24,7 @@ identifiers:
 -   purl: pkg:github/drupal/core
 
 # eoas(x) = releaseDate(x+1)
-# eol(x) = releaseDate(x+2)
+# eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
 -   releaseCycle: "11.0"
