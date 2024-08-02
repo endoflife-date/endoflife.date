@@ -17,34 +17,34 @@ auto:
 releases:
 -   releaseCycle: "2.8"
     releaseDate: 2024-06-24
-    eol: false
+    eol: 2025-06-24
     latest: "2.8.2"
-    latestReleaseDate: 2024-07-23
+    latestReleaseDate: 2024-07-18
 
 -   releaseCycle: "2.7"
-    releaseDate: 2024-04-19
-    eol: false
-    latest: "2.7.5"
-    latestReleaseDate: 2024-07-03
+    releaseDate: 2024-04-17
+    eol: 2026-04-19
+    latest: "2.7.6"
+    latestReleaseDate: 2024-07-18
     lts: true
 
 -   releaseCycle: "2.6"
     releaseDate: 2024-02-01
-    eol: false
-    latest: "2.6.9"
-    latestReleaseDate: 2024-07-03
+    eol: 2025-02-01
+    latest: "2.6.10"
+    latestReleaseDate: 2024-07-18
 
 -   releaseCycle: "2.5"
     releaseDate: 2023-11-15
-    eol: false
-    latest: "2.5.8"
-    latestReleaseDate: 2024-07-03
+    eol: 2024-11-15
+    latest: "2.5.9"
+    latestReleaseDate: 2024-07-22
 
 -   releaseCycle: "2.4"
-    releaseDate: 2023-08-29
-    eol: false
-    latest: "2.4.9"
-    latestReleaseDate: 2024-07-03
+    releaseDate: 2023-08-28
+    eol: 2024-08-29
+    latest: "2.4.10"
+    latestReleaseDate: 2024-07-23
 
 ---
 
