@@ -10,6 +10,17 @@ changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetB
 releaseDateColumn: true
 eoasColumn: true
 
+auto:
+  methods:
+  -   release_table: https://www.netbsd.org/releases/formal.html
+      selector: ".informaltable table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^NetBSD\s+(?P<value>\d+\.\d+\.?\d{0,2}).*$'
+        releaseDate: "Released"
+        eol: "End of support"
+
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
 releases:
