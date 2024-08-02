@@ -13,6 +13,11 @@ eoasWarnThreshold: 20
 eolColumn: Maintenance Support
 eolWarnThreshold: 60
 
+identifiers:
+-   repology: gitlab
+-   cpe: cpe:/a:gitlab:gitlab
+-   cpe: cpe:2.3:a:gitlab:gitlab
+
 auto:
   methods:
   -   git: https://gitlab.com/gitlab-org/gitlab.git
@@ -34,106 +39,106 @@ releases:
     releaseDate: 2024-07-17
     eoas: 2024-08-15
     eol: 2024-10-17
-    latest: "17.2.0"
-    latestReleaseDate: 2024-07-17
+    latest: "17.2.1"
+    latestReleaseDate: 2024-07-24
 
 -   releaseCycle: "17.1"
     releaseDate: 2024-06-19
     eoas: 2024-07-18
     eol: 2024-09-19
-    latest: "17.1.2"
-    latestReleaseDate: 2024-07-09
+    latest: "17.1.3"
+    latestReleaseDate: 2024-07-24
 
 -   releaseCycle: "17.0"
     releaseDate: 2024-05-15
     eoas: 2024-06-20
     eol: 2024-08-15
-    latest: "17.0.4"
-    latestReleaseDate: 2024-07-09
+    latest: "17.0.5"
+    latestReleaseDate: 2024-07-24
 
 -   releaseCycle: "16.11"
     releaseDate: 2024-04-17
     eoas: 2024-05-16
     eol: 2024-07-18
-    latest: "16.11.6"
-    latestReleaseDate: 2024-07-09
+    latest: "16.11.7"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.10"
     releaseDate: 2024-03-20
     eoas: 2024-04-18
     eol: 2024-06-20
-    latest: "16.10.8"
-    latestReleaseDate: 2024-06-25
+    latest: "16.10.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.9"
     releaseDate: 2024-02-14
     eoas: 2024-03-21
     eol: 2024-05-16
-    latest: "16.9.9"
-    latestReleaseDate: 2024-06-25
+    latest: "16.9.10"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.8"
     releaseDate: 2024-01-17
     eoas: 2024-02-15
     eol: 2024-04-18
-    latest: "16.8.8"
-    latestReleaseDate: 2024-06-25
+    latest: "16.8.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.7"
     releaseDate: 2023-12-20
     eoas: 2024-01-18
     eol: 2024-03-21
-    latest: "16.7.8"
-    latestReleaseDate: 2024-06-25
+    latest: "16.7.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.6"
     releaseDate: 2023-11-15
     eoas: 2023-12-21
     eol: 2024-02-15
-    latest: "16.6.8"
-    latestReleaseDate: 2024-06-25
+    latest: "16.6.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.5"
     releaseDate: 2023-10-20
     eoas: 2023-11-16
     eol: 2024-01-18
-    latest: "16.5.8"
-    latestReleaseDate: 2024-01-24
+    latest: "16.5.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.4"
     releaseDate: 2023-09-21
     eoas: 2023-10-22
     eol: 2023-12-21
-    latest: "16.4.5"
-    latestReleaseDate: 2024-01-11
+    latest: "16.4.6"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.3"
     releaseDate: 2023-08-21
     eoas: 2023-09-22
     eol: 2023-11-16
-    latest: "16.3.7"
-    latestReleaseDate: 2024-01-11
+    latest: "16.3.8"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.2"
     releaseDate: 2023-07-21
     eoas: 2023-08-22
     eol: 2023-10-22
-    latest: "16.2.9"
-    latestReleaseDate: 2024-01-11
+    latest: "16.2.10"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.1"
     releaseDate: 2023-06-21
     eoas: 2023-07-22
     eol: 2023-09-22
-    latest: "16.1.6"
-    latestReleaseDate: 2024-01-11
+    latest: "16.1.7"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "16.0"
     releaseDate: 2023-05-18
     eoas: 2023-06-22
     eol: 2023-08-22
-    latest: "16.0.8"
-    latestReleaseDate: 2023-08-01
+    latest: "16.0.9"
+    latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "15.11"
     releaseDate: 2023-04-21

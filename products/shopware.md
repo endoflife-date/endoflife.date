@@ -36,6 +36,16 @@ releases:
     latest: "6.5.8.12"
     latestReleaseDate: 2024-07-11
 
+-   releaseCycle: "5.7"
+    supportedPhpVersions: N/A
+    releaseDate: 2021-05-26
+    eoas: true
+    eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
+    eoes: false
+    latest: "5.7.19"
+    latestReleaseDate: 2023-09-25
+    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
+
 -   releaseCycle: "6.4"
     supportedPhpVersions: 7.4 - 8.3
     releaseDate: 2021-05-04
@@ -68,16 +78,6 @@ releases:
     eol: false
     latest: "6.1.6"
     latestReleaseDate: 2020-05-14
-
--   releaseCycle: "5.7"
-    supportedPhpVersions: N/A
-    releaseDate: 2021-05-26
-    eoas: true
-    eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
-    eoes: false
-    latest: "5.7.19"
-    latestReleaseDate: 2023-09-25
-    link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "5.6"
     supportedPhpVersions: N/A

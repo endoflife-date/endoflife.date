@@ -11,6 +11,11 @@ eoasColumn: Active Development
 eolColumn: Active Maintenance
 releaseDateColumn: true
 
+identifiers:
+-   repology: grails
+-   cpe: cpe:/a:grails:grails
+-   cpe: cpe:2.3:a:grails:grails
+
 auto:
   methods:
   -   git: https://github.com/grails/grails-core.git

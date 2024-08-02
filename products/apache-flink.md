@@ -21,8 +21,16 @@ identifiers:
 -   purl: pkg:github/apache/flink
 -   purl: pkg:docker/library/flink
 -   purl: pkg:docker/apache/flink
+-   cpe: cpe:/a:apache:flink
+-   cpe: cpe:2.3:a:apache:flink
 
 releases:
+-   releaseCycle: "1.20"
+    releaseDate: 2024-08-01
+    eol: false
+    latest: "1.20.0"
+    latestReleaseDate: 2024-08-01
+
 -   releaseCycle: "1.19"
     releaseDate: 2024-03-15
     eol: false

@@ -10,6 +10,11 @@ changelogTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: struts
+-   cpe: cpe:/a:apache:struts
+-   cpe: cpe:2.3:a:apache:struts
+
 auto:
   methods:
   -   maven: struts/struts

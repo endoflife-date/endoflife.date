@@ -13,6 +13,11 @@ eolColumn: Support
 # https://sparkbyexamples.com/spark/check-spark-version/
 versionCommand: spark-shell --version
 
+identifiers:
+-   repology: apache-spark
+-   cpe: cpe:/a:apache:spark
+-   cpe: cpe:2.3:a:apache:spark
+
 auto:
   methods:
   -   git: https://github.com/apache/spark.git

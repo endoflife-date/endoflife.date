@@ -15,6 +15,11 @@ changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: graylog
+-   cpe: cpe:/a:graylog:graylog
+-   cpe: cpe:2.3:a:graylog:graylog
+
 auto:
   methods:
   -   git: https://github.com/Graylog2/graylog2-server.git

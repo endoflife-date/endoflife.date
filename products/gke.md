@@ -24,22 +24,22 @@ releases:
     releaseDate: 2024-01-26
     eoas: 2025-01-31
     eol: 2025-03-21
-    latest: '1.29.6-gke.1326000'
-    latestReleaseDate: 2024-07-17
+    latest: '1.29.7-gke.1104000'
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
     eoas: 2024-12-31
     eol: 2025-02-04
-    latest: '1.28.11-gke.1260000'
-    latestReleaseDate: 2024-07-17
+    latest: '1.28.12-gke.1052000'
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
     eoas: 2024-06-30
     eol: 2024-08-31
-    latest: '1.27.15-gke.1252000'
-    latestReleaseDate: 2024-07-17
+    latest: '1.27.16-gke.1051000'
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31
@@ -115,6 +115,11 @@ releases:
 
 > [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) is the fully managed
 > Kubernetes service from Google.
+
+{: .warning }
+> This page uses release information from the _No Channel (Static)_ channel.
+> Releases only present in the _Rapid_ channel are not considered stable because they are excluded from
+> [GKE SLA](https://cloud.google.com/kubernetes-engine/sla).
 
 GKE offers two modes of operations:
 [Standard and Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"):

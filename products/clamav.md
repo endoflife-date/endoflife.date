@@ -7,6 +7,9 @@ releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
 releaseDateColumn: true
 
+identifiers:
+-   repology: clamav
+
 auto:
   methods:
   -   git: https://github.com/Cisco-Talos/clamav.git

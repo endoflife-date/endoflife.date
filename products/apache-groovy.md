@@ -14,6 +14,11 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
+identifiers:
+-   repology: groovy
+-   cpe: cpe:/a:apache:groovy
+-   cpe: cpe:2.3:a:apache:groovy
+
 auto:
   methods:
   -   maven: org.apache.groovy/groovy

@@ -18,6 +18,11 @@ changelogTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: filebeat
+-   cpe: cpe:/a:elastic:filebeat
+-   cpe: cpe:2.3:a:elastic:filebeat
+
 auto:
   methods:
   -   git: https://github.com/elastic/beats.git
@@ -32,8 +37,8 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2019-04-05
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.22"
-    latestReleaseDate: 2024-06-13
+    latest: "7.17.23"
+    latestReleaseDate: 2024-07-25
 
 -   releaseCycle: "6"
     releaseDate: 2017-11-08

@@ -8,6 +8,11 @@ changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: contao
+-   cpe: cpe:/a:contao:contao
+-   cpe: cpe:2.3:a:contao:contao
+
 auto:
   methods:
   -   git: https://github.com/contao/contao.git

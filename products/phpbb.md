@@ -6,6 +6,11 @@ permalink: /phpbb
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: phpbb
+-   cpe: cpe:/a:phpbb:phpbb
+-   cpe: cpe:2.3:a:phpbb:phpbb
+
 auto:
   methods:
   -   git: https://github.com/phpbb/phpbb.git

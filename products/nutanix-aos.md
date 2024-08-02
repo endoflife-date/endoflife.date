@@ -19,8 +19,8 @@ releases:
     releaseDate: 2024-05-15
     eoas: 2025-05-31
     eol: 2025-08-31
-    latest: "6.8.0.5"
-    latestReleaseDate: 2024-06-25
+    latest: "6.8.1"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "6.7"
     releaseDate: 2023-08-28
@@ -95,6 +95,7 @@ releases:
     latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5.15"
+    outOfOrder: true # wrong data on https://portal.nutanix.com/api/v1/eol/find?type=NOS
     releaseDate: 2020-03-31
     eoas: 2021-08-31
     eol: 2022-05-31

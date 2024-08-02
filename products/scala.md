@@ -13,6 +13,11 @@ eoasColumn: Current Releases
 eolColumn: Maintenance Releases
 releaseDateColumn: true
 
+identifiers:
+-   repology: scala
+-   cpe: cpe:/a:scala-lang:scala
+-   cpe: cpe:2.3:a:scala-lang:scala
+
 auto:
   methods:
   -   git: https://github.com/scala/scala.git # Scala < 3

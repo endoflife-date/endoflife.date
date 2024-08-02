@@ -85,6 +85,7 @@ releases:
     latestReleaseDate: 2015-12-31
 
 -   releaseCycle: "7.1.5"
+    outOfOrder: true # wrong date on https://www.ibm.com/support/pages/aix-support-lifecycle-information
     releaseDate: 2017-10-31
     eol: 2023-04-30
     latest: "7.1.5"

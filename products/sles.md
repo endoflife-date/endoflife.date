@@ -70,19 +70,19 @@ releases:
     latest: '15.1'
     latestReleaseDate: 2019-06-24
 
--   releaseCycle: "15"
-    releaseDate: 2018-07-16
-    eol: 2019-12-31
-    eoes: 2022-12-31
-    latest: '15.5'
-    latestReleaseDate: 2023-06-20
-
 -   releaseCycle: "12.4"
     releaseDate: 2018-12-12
     eol: 2020-06-30
     eoes: 2023-06-30
     latest: '12.4'
     latestReleaseDate: 2018-12-12
+
+-   releaseCycle: "15"
+    releaseDate: 2018-07-16
+    eol: 2019-12-31
+    eoes: 2022-12-31
+    latest: '15.5'
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "12.3"
     releaseDate: 2017-09-07
@@ -147,19 +147,19 @@ releases:
     latest: '11.1'
     latestReleaseDate: 2010-06-02
 
--   releaseCycle: "11"
-    releaseDate: 2009-03-24
-    eol: 2010-12-31
-    eoes: 2010-12-31
-    latest: '11.4'
-    latestReleaseDate: 2015-07-15
-
 -   releaseCycle: "10.3"
     releaseDate: 2009-10-12
     eol: 2011-10-11
     eoes: 2014-10-31
     latest: '10.3'
     latestReleaseDate: 2009-10-12
+
+-   releaseCycle: "11"
+    releaseDate: 2009-03-24
+    eol: 2010-12-31
+    eoes: 2010-12-31
+    latest: '11.4'
+    latestReleaseDate: 2015-07-15
 
 -   releaseCycle: "10.2"
     releaseDate: 2008-05-19

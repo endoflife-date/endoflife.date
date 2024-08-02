@@ -8,6 +8,11 @@ changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CY
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   repology: libreoffice
+-   cpe: cpe:/a:libreoffice:libreoffice
+-   cpe: cpe:2.3:a:libreoffice:libreoffice
+
 auto:
   methods:
   -   custom: libreoffice
