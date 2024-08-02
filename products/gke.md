@@ -117,7 +117,7 @@ releases:
 > Kubernetes service from Google.
 
 {: .warning }
-> This page is using release information from the _No Channel (Static)_ channel.
+> This page uses release information from the _No Channel (Static)_ channel.
 > Releases only present in the _Rapid_ channel are not considered stable because they are excluded from
 > [GKE SLA](https://cloud.google.com/kubernetes-engine/sla).
 
