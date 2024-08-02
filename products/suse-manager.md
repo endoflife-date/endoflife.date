@@ -58,7 +58,7 @@ releases:
 
 -   releaseCycle: "3.0"
     releaseDate: 2016-04-05
-    eol: 2018-10-31
+    eol: 2018-10-31 # https://web.archive.org/web/20190808082538/https://www.suse.com/lifecycle/
     latest: '3.0.12'
     latestReleaseDate: 2018-06-01
 
