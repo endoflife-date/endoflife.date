@@ -37,7 +37,7 @@ releases:
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
     eoas: 2024-08-02
-    eol: false
+    eol: 2025-06-16
     latest: "10.3.1"
     latestReleaseDate: 2024-07-04
 
