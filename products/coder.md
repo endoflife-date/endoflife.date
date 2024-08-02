@@ -7,6 +7,7 @@ versionCommand: coder version
 releasePolicyLink: https://coder.com/docs/install/releases
 changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
 releaseDateColumn: true
+eoasColumn: true
 eoasWarnThreshold: 60
 eolWarnThreshold: 90
 
