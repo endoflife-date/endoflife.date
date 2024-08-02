@@ -27,9 +27,16 @@ identifiers:
 # eol(x) = releaseDate(x+2)
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+-   releaseCycle: "11.0"
+    releaseDate: 2024-08-02
+    eoas: false
+    eol: false
+    latest: "11.0.0"
+    latestReleaseDate: 2024-08-02
+
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
-    eoas: false
+    eoas: 2024-08-02
     eol: false
     latest: "10.3.1"
     latestReleaseDate: 2024-07-04
@@ -37,7 +44,7 @@ releases:
 -   releaseCycle: "10.2"
     releaseDate: 2023-12-15
     eoas: 2024-06-20
-    eol: 2024-12-18
+    eol: 2024-08-02
     latest: "10.2.7"
     latestReleaseDate: 2024-06-06
 
