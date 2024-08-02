@@ -48,4 +48,6 @@ releases:
 
 ---
 
->[Kuma](https://kuma.io/) is a multi-zone service mesh for containers, Kubernetes and VMs. Kuma release and support policy is not clearly documented. But EOL dates are documented in the [project's GitHub repository](https://github.com/kumahq/kuma/blob/master/versions.yml).
+> [Kuma](https://kuma.io/) is a multi-zone service mesh for containers, Kubernetes and VMs.
+
+Kuma release and support policy is not clearly documented. But EOL dates are documented in the [project's GitHub repository](https://github.com/kumahq/kuma/blob/master/versions.yml).
