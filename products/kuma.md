@@ -12,7 +12,7 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/kumahq/kuma.git
-      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
+  -   custom: kuma
 
 releases:
 -   releaseCycle: "2.8"
