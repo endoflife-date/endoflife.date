@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "2.14"
     releaseDate: 2024-04-25
-    eol: 2024-10-30 # releaseDate(2.16)
+    eol: 2024-10-30 # estimated releaseDate(2.16)
     supportedKubernetesVersions: 1.27 - 1.29
     latest: "2.14.1"
     latestReleaseDate: 2024-07-31
