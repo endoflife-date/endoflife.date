@@ -70,7 +70,7 @@ releases:
 
 -   releaseCycle: "1.7"
     releaseDate: 2012-08-09
-    eol: 2015-06-30
+    eol: 2015-06-30 # https://web.archive.org/web/20170318160650/https://www.suse.com/lifecycle/
     latest: '1.7.6'
     latestReleaseDate: 2013-08-26
 
