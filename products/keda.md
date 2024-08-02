@@ -22,7 +22,7 @@ identifiers:
 releases:
 -   releaseCycle: "2.15"
     releaseDate: 2024-08-01
-    eol: 2025-01-30 # releaseDate(2.17)
+    eol: 2025-01-30 # estimated releaseDate(2.17)
     supportedKubernetesVersions: 1.28 - 1.30
     latest: "2.14.1"
     latestReleaseDate: 2024-08-01
