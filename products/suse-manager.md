@@ -64,7 +64,7 @@ releases:
 
 -   releaseCycle: "2.1"
     releaseDate: 2014-06-02
-    eol: 2017-04-30
+    eol: 2017-01-31 # https://web.archive.org/web/20170318160650/https://www.suse.com/lifecycle/
     latest: '2.1.19'
     latestReleaseDate: 2016-10-31
 
