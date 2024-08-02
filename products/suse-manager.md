@@ -52,7 +52,7 @@ releases:
 
 -   releaseCycle: "3.1"
     releaseDate: 2017-06-27
-    eol: 2019-09-30
+    eol: 2019-06-30
     latest: '3.1.11'
     latestReleaseDate: 2019-03-01
 
