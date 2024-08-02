@@ -20,9 +20,15 @@ auto:
 # eol(x) = releaseDate(x+1), until a more detailed
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.24"
+    releaseDate: 2024-08-01
+    eol: false
+    latest: "2.24.1"
+    latestReleaseDate: 2024-08-01
+
 -   releaseCycle: "2.23"
     releaseDate: 2024-06-12
-    eol: false
+    eol: 2024-08-01
     latest: "2.23.3"
     latestReleaseDate: 2024-07-08
 
