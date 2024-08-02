@@ -116,6 +116,11 @@ releases:
 > [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) is the fully managed
 > Kubernetes service from Google.
 
+{: .warning }
+> This page uses release information from the _No Channel (Static)_ channel.
+> Releases only present in the _Rapid_ channel are not considered stable because they are excluded from
+> [GKE SLA](https://cloud.google.com/kubernetes-engine/sla).
+
 GKE offers two modes of operations:
 [Standard and Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"):
 
