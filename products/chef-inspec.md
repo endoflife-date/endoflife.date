@@ -12,6 +12,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: inspec
+-   cpe: cpe:2.3:a:chef:inspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/
@@ -27,8 +28,8 @@ releases:
     releaseDate: 2022-03-17
     eoas: true
     eol: false
-    latest: "5.22.50"
-    latestReleaseDate: 2024-05-22
+    latest: "5.22.55"
+    latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "4"
     releaseDate: 2019-04-30
