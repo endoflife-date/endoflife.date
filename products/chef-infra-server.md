@@ -14,6 +14,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: chef-infra-server
+-   cpe: cpe:2.3:a:progress:chef_infra_server
 
 auto:
   methods:
