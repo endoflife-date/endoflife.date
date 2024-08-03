@@ -26,19 +26,22 @@ releases:
     releaseDate: 2022-10-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
     eoas: true
     eol: false
-    latest: "18.4.12"
+    latest: "18.5.0"
+    latestReleaseDate: 2024-07-09
 
 -   releaseCycle: "17"
     releaseDate: 2021-04-28 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
     eoas: 2022-01-10
     eol: 2024-11-30
-    latest: "17.10.95"
+    latest: "17.10.122"
+    latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "16"
     releaseDate: 2020-05-05 # https://discourse.chef.io/t/chef-infra-client-16-0-275-released/17047
     eoas: 2020-12-19
     eol: 2022-11-30 # https://www.chef.io/blog/announcement-chef-client-16-eol-date-change
     latest: "16.18.30"
+    latestReleaseDate: 2023-02-15
 
 -   releaseCycle: "15"
     releaseDate: 2018-10-26
