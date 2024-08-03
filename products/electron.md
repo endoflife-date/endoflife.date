@@ -41,7 +41,7 @@ auto:
 
 releases:
 -   releaseCycle: "31"
-    releaseDate: 2024-06-10
+    releaseDate: 2024-06-11
     eol: 2025-01-07
     latest: "31.3.1"
     latestReleaseDate: 2024-07-29
@@ -65,7 +65,7 @@ releases:
     nodeVersion: "20.9"
 
 -   releaseCycle: "28"
-    releaseDate: 2023-12-04
+    releaseDate: 2023-12-05
     eol: 2024-06-11
     latest: "28.3.3"
     latestReleaseDate: 2024-05-23
@@ -81,7 +81,7 @@ releases:
     nodeVersion: "18.17"
 
 -   releaseCycle: "26"
-    releaseDate: 2023-08-14
+    releaseDate: 2023-08-15
     eol: 2024-02-20
     latest: "26.6.10"
     latestReleaseDate: 2024-02-19
@@ -89,7 +89,7 @@ releases:
     nodeVersion: "18.16"
 
 -   releaseCycle: "25"
-    releaseDate: 2023-05-29
+    releaseDate: 2023-05-30
     eol: 2023-12-05
     latestReleaseDate: 2023-12-06
     latest: "25.9.8"
@@ -121,7 +121,7 @@ releases:
     nodeVersion: "16.17"
 
 -   releaseCycle: "21"
-    releaseDate: 2022-09-26
+    releaseDate: 2022-09-27
     eol: 2023-04-04
     latest: "21.4.4"
     latestReleaseDate: 2023-04-04
@@ -129,7 +129,7 @@ releases:
     nodeVersion: "16.16"
 
 -   releaseCycle: "20"
-    releaseDate: 2022-08-01
+    releaseDate: 2022-08-02
     eol: 2023-02-07
     latest: "20.3.12"
     latestReleaseDate: 2023-02-09
@@ -137,7 +137,7 @@ releases:
     nodeVersion: "16.15"
 
 -   releaseCycle: "19"
-    releaseDate: 2022-05-23
+    releaseDate: 2022-05-24
     eol: 2022-11-29
     latest: "19.1.9"
     latestReleaseDate: 2022-11-30
@@ -177,7 +177,7 @@ releases:
     nodeVersion: "16.5"
 
 -   releaseCycle: "14"
-    releaseDate: 2021-08-30
+    releaseDate: 2021-08-31
     eol: 2022-03-29
     latest: "14.2.9"
     latestReleaseDate: 2022-03-30
@@ -201,7 +201,7 @@ releases:
     nodeVersion: "14.16"
 
 -   releaseCycle: "11"
-    releaseDate: 2020-11-16
+    releaseDate: 2020-11-17
     eol: 2021-08-31
     latest: "11.5.0"
     latestReleaseDate: 2021-08-31
@@ -209,7 +209,7 @@ releases:
     nodeVersion: "12.18"
 
 -   releaseCycle: "10"
-    releaseDate: 2020-08-24
+    releaseDate: 2020-08-25
     eol: 2021-05-25
     latest: "10.4.7"
     latestReleaseDate: 2021-05-24
@@ -225,7 +225,7 @@ releases:
     nodeVersion: "12.14"
 
 -   releaseCycle: "8"
-    releaseDate: 2020-02-03
+    releaseDate: 2020-02-04
     eol: 2020-11-17
     latest: "8.5.5"
     latestReleaseDate: 2020-11-18
@@ -233,7 +233,7 @@ releases:
     nodeVersion: "12.13"
 
 -   releaseCycle: "7"
-    releaseDate: 2019-10-21
+    releaseDate: 2019-10-22
     eol: 2020-08-25
     latest: "7.3.3"
     latestReleaseDate: 2020-08-25
@@ -241,7 +241,7 @@ releases:
     nodeVersion: "12.8"
 
 -   releaseCycle: "6"
-    releaseDate: 2019-07-29
+    releaseDate: 2019-07-30
     eol: 2020-05-19
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
@@ -279,6 +279,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
+
 
 
 

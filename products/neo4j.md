@@ -45,7 +45,7 @@ auto:
 # See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions
 releases:
 -   releaseCycle: "5.22"
-    releaseDate: 2024-07-11
+    releaseDate: 2024-07-24
     eol: false
     latest: "5.22.0"
     latestReleaseDate: 2024-07-11
@@ -105,7 +105,7 @@ releases:
     latestReleaseDate: 2023-10-23
 
 -   releaseCycle: "5.12"
-    releaseDate: 2023-09-14
+    releaseDate: 2023-09-15
     eol: 2023-10-23
     latest: "5.12.0"
     latestReleaseDate: 2023-09-14
@@ -123,7 +123,7 @@ releases:
     latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "5.9"
-    releaseDate: 2023-06-14
+    releaseDate: 2023-06-15
     eol: 2023-07-19
     latest: "5.9.0"
     latestReleaseDate: 2023-06-14
@@ -171,7 +171,7 @@ releases:
     latestReleaseDate: 2022-11-21
 
 -   releaseCycle: "5.1"
-    releaseDate: 2022-10-21
+    releaseDate: 2022-10-24
     eol: 2022-11-21
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
@@ -184,7 +184,7 @@ releases:
     latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "4.3"
-    releaseDate: 2021-06-10
+    releaseDate: 2021-06-17
     eol: 2022-12-16
     latest: "4.3.23"
     latestReleaseDate: 2022-12-21
@@ -202,7 +202,7 @@ releases:
     latestReleaseDate: 2022-08-11
 
 -   releaseCycle: "4.0"
-    releaseDate: 2019-12-17
+    releaseDate: 2020-01-15
     eol: 2021-07-14
     latest: "4.0.12"
     latestReleaseDate: 2021-07-06
