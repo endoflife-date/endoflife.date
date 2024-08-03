@@ -33,28 +33,28 @@ releases:
 -   releaseCycle: "4"
     releaseDate: 2019-04-30
     eoas: true
-    eol: true
+    eol: 2023-11-14
     latest: "4.56.58"
     latestReleaseDate: 2023-10-31
 
 -   releaseCycle: "3"
     releaseDate: 2018-10-15
     eoas: true
-    eol: true
+    eol: 2020-04-30
     latest: "3.9.3"
     latestReleaseDate: 2019-03-15
 
 -   releaseCycle: "2"
     releaseDate: 2018-02-20
     eoas: true
-    eol: true
+    eol: 2019-12-31
     latest: "2.3.28"
     latestReleaseDate: 2019-02-08
 
 -   releaseCycle: "1"
     releaseDate: 2016-09-26
     eoas: true
-    eol: true
+    eol: 2019-12-31
     latest: "1.51.25"
     latestReleaseDate: 2018-05-10
 
