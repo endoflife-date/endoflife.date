@@ -31,7 +31,7 @@ auto:
           regex_exclude: '^3.53' # Invalid Beginning of Extended Maintenance date
         releaseDate:
           column: 'Initial Release Date'
-          regex: '(?P<value>\w+\s*\d+,\s*\d+)(\s*\(.+\.0\)\s*)?$'
+          regex: '^.*?(?P<value>\w+\s*\d+,\s*\d+)(\s*\(\d+\.\d+\.0\)\s*)?$'
         eoas:
           column: 'Beginning of Extended Maintenance'
           regex: '^(?P<value>\w+\s*\d+,\s*\d+).*$'
