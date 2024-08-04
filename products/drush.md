@@ -26,13 +26,20 @@ auto:
         releaseCycle:
           column: "Drush Version"
           regex: '^Drush (?P<value>\d+).*$'
-          regex_exclude: '^Drush 13.*$' # not yet released
         supportedPhpVersions: "PHP Version" # release_table does not support the retrieval of Drupal versions
         eol: "End Of Life"
 
 # Think about updating the regex_exclude above when a new major version is added.
 # Supported PHP / Drupal versions can be found on https://www.drush.org/latest/install/.
 releases:
+-   releaseCycle: "13"
+    releaseDate: 2024-08-02
+    eol: false
+    supportedPhpVersions: "8.3+"
+    supportedDrupalVersions: "10.2 - 11"
+    latest: "13.0.0"
+    latestReleaseDate: 2024-08-02
+
 -   releaseCycle: "12"
     releaseDate: 2023-06-03
     eol: false
