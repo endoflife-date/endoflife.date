@@ -17,6 +17,7 @@ releases:
     latest: "10.6"
     latestReleaseDate: 2024-06-27
     link: https://docs.vmware.com/en/VMware-Cloud-Director/10.6/rn/vmware-cloud-director-106-release-notes/index.html
+
 -   releaseCycle: "10.5"
     releaseDate: 2023-07-18
     eol: 2025-07-18
