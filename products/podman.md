@@ -1,10 +1,8 @@
 ---
-title: Podman Engine
+title: Podman
 category: app
 iconSlug: podman
-permalink: /podman-engine
-alternate_urls:
--   /podman
+permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
 changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST__"
 releaseDateColumn: true
