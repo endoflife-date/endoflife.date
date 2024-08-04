@@ -31,6 +31,7 @@ module EndOfLifeHooks
   SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger an open or read timeout'
   SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
+    'https://access.redhat.com/': SUPPRESSED_BECAUSE_403,
     'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://apex.oracle.com/sod': SUPPRESSED_BECAUSE_403,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
