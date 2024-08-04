@@ -7,12 +7,12 @@ permalink: /apache-apisix
 alternate_urls:
 -   /apisix
 
+identifiers:
+- repology: apisix
+
 auto:
   methods:
   -   git: https://github.com/apache/apisix.git
-
-identifiers:
-  - repology: apisix
 
 releases:
 -   releaseCycle: "3.9"
