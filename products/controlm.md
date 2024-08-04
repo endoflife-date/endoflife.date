@@ -38,7 +38,6 @@ releases:
 
 -   releaseCycle: "9.0.18"
     releaseDate: 2018-01-03
-    lts: false
     eoas: 2021-03-31
     eol: 2023-03-31
     latest: "9.0.18.200"
