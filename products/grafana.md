@@ -142,12 +142,12 @@ releases:
 
 ## Support Policy
 
+{: .warning }
+> Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
+
 - Only latest version sees active development.
 - The previous minor version, and the last minor version of the previous major version gets security
   and critical bug fixes.
-
-Grafana Cloud, the hosted Grafana offering from Grafana Labs has separate
-[support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
 
 ## [Release Schedule](https://grafana.com/blog/2022/12/13/grafana-releases-new-2023-release-schedule/)
 
