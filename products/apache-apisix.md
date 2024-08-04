@@ -1,6 +1,7 @@
 ---
 title: Apache Apisix
 category: server-app
+tags: apache web-server
 permalink: /apache-apisix
 alternate_urls:
 -   /apisix
