@@ -10,7 +10,6 @@ versionCommand: ctm -v
 releasePolicyLink: http://www.bmc.com/support/product-support-policy.html
 eolColumn: Limited Support
 eoasColumn: Full Support
-releaseDateColumn: Released
 
 releases:
 -   releaseCycle: "9.0.21"
