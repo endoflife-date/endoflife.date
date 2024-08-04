@@ -22,7 +22,6 @@ releases:
 
 -   releaseCycle: "9.0.20"
     releaseDate: 2020-07-24
-    lts: false
     eoas: 2024-04-30
     eol: 2025-07-23
     latest: "9.0.20.200"
