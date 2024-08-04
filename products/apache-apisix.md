@@ -115,6 +115,7 @@ releases:
     latestReleaseDate: 2021-11-23
 
 -   releaseCycle: "2.10"
+    lts: true
     releaseDate: 2021-09-24
     eol: 2022-04-01
     latest: "2.10.5"
@@ -125,7 +126,8 @@ releases:
 > [Apache APISIX](https://apisix.apache.org/) is an open source, dynamic, scalable, and high-performance cloud native
 > API gateway for APIs and microservices.
 
-Apache APISIX follows [semantic versioning](https://semver.org). Release, support and EOL policies are not documented.
+Apache APISIX follows [semantic versioning](https://semver.org). Release, support and EOL policies are not documented,
+but LTS releases are provided [since version 2.10](https://apisix.apache.org/blog/2021/09/29/release-apache-apisix-2.10/).
 
 Looking at the recent release history, it seems that only the latest release and the latest LTS release are supported,
 both with bug and security fixes.
