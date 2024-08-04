@@ -93,6 +93,36 @@ releases:
     latest: "4.0.3"
     latestReleaseDate: 2022-04-01
 
+-   releaseCycle: "3.4"
+    releaseDate: 2021-09-30
+    eol: true
+    latest: "3.4.7"
+    latestReleaseDate: 2022-04-20
+
+-   releaseCycle: "3.3"
+    releaseDate: 2021-08-20
+    eol: true
+    latest: "3.3.1"
+    latestReleaseDate: 2021-08-30
+
+-   releaseCycle: "3.2"
+    releaseDate: 2021-06-03
+    eol: true
+    latest: "3.2.3"
+    latestReleaseDate: 2021-07-16
+
+-   releaseCycle: "3.1"
+    releaseDate: 2021-03-29
+    eol: true
+    latest: "3.1.2"
+    latestReleaseDate: 2021-04-21
+
+-   releaseCycle: "3.0"
+    releaseDate: 2021-02-11
+    eol: true
+    latest: "3.0.2"
+    latestReleaseDate: 2022-05-16
+
 ---
 
 > [Podman](https://podman.io/) is a daemonless, open source, Linux native
