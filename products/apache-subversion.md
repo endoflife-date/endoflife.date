@@ -16,7 +16,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: svn
+  -   custom: apache-subversion
 
 # Cycles documented in https://subversion.apache.org/docs/release-notes
 # EOL documented on https://subversion.apache.org/roadmap.html
@@ -132,5 +132,5 @@ releases:
 
 > [Apache Subversion](https://subversion.apache.org/) is a full-featured version control system originally designed to be a better CVS. Subversion has since expanded beyond its original goal of replacing CVS, but its basic model, design, and interface remain heavily influenced by that goal. Even today, Subversion should still feel very familiar to CVS users.
 
-Regular releases are supported for six months from the date of their initial release. 
+Regular releases are supported for six months from the date of their initial release.
 LTS releases are supported for four years from the date of their initial release and until three months after the release of the next LTS.
