@@ -14,6 +14,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: chef-infra-server
+-   cpe: cpe:2.3:a:progress:chef_infra_server
 
 auto:
   methods:
@@ -63,7 +64,7 @@ releases:
 > Chef Infra Client. It serves as a central hub for configuration data, providing scalable
 > infrastructure management.
 
-Supported releases of Chef Infra Server are documented on [Chef's website](https://docs.chef.io/versions/#supported-commercial-distributions).
+Supported releases of Chef Infra Server are documented on the [Chef Documentation website](https://docs.chef.io/versions/#supported-commercial-distributions).
 Looking at this document it seems that Chef Infra Server follows an N-1 support strategy, with the
 latest release supported with bug and security fixes, and the previous release marked "deprecated"
 and only supported with security fixes.
