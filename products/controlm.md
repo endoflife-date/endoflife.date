@@ -30,7 +30,6 @@ releases:
 
 -   releaseCycle: "9.0.19"
     releaseDate: 2019-03-04
-    lts: false
     eoas: 2022-12-31
     eol: 2024-03-04
     latest: "9.0.19.200"
