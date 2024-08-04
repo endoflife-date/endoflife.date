@@ -33,7 +33,7 @@ auto:
 # Supported PHP / Drupal versions can be found on https://www.drush.org/latest/install/.
 releases:
 -   releaseCycle: "13"
-    releaseDate: 2024-07-18
+    releaseDate: 2024-08-02
     eol: false
     supportedPhpVersions: "8.3+"
     supportedDrupalVersions: "10.2 - 11"
