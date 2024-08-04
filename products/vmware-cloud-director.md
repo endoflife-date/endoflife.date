@@ -31,6 +31,7 @@ releases:
     latest: "10.4.3"
     latestReleaseDate: 2024-01-09
     link: https://docs.vmware.com/en/VMware-Cloud-Director/10.4.3/rn/vmware-cloud-director-1043-release-notes/index.html
+
 ---
 
 > [VMware Cloud Director](https://www.vmware.com/products/cloud-director.html) Operate and
