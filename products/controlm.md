@@ -47,7 +47,6 @@ releases:
 
 -   releaseCycle: "9.0.0"
     releaseDate: 2015-07-15
-    lts: false
     eoas: 2018-08-01
     eol: 2020-10-31
     latest: "9.0.00.200"
