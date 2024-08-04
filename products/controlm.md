@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: ctm -v
 releasePolicyLink: http://www.bmc.com/support/product-support-policy.html
 eolColumn: Limited Support
-eolWarnThreshold: 121
 eoasColumn: Full Support
 eoasWarnThreshold: 121
 releaseColumn: Latest
