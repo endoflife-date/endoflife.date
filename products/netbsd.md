@@ -10,6 +10,10 @@ changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetB
 releaseDateColumn: true
 eoasColumn: true
 
+auto:
+  methods:
+  -   custom: netbsd
+
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html
 releases:
@@ -21,7 +25,7 @@ releases:
     latestReleaseDate: 2024-03-28
 
 -   releaseCycle: "9"
-    releaseDate: 2022-02-14
+    releaseDate: 2020-02-14
     eoas: 2024-03-28
     eol: false
     latest: "9.4"
@@ -44,14 +48,14 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2012-10-17
     eoas: 2015-09-25
-    eol: 2018-08-17
+    eol: 2018-08-23
     latest: "6.1.5"
     latestReleaseDate: 2014-09-22
 
 -   releaseCycle: "5"
     releaseDate: 2009-04-29
     eoas: 2012-10-17
-    eol: 2015-10-25
+    eol: 2015-11-11
     latest: "5.2.3"
     latestReleaseDate: 2014-11-15
 
