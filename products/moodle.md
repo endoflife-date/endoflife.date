@@ -30,7 +30,7 @@ auto:
 # supportedPhpVersions can be found in the release notes and https://moodledev.io/general/development/policies/php
 releases:
 -   releaseCycle: "4.4"
-    releaseDate: 2024-04-20
+    releaseDate: 2024-04-22
     eoas: 2025-04-21
     eol: 2025-12-08
     supportedPhpVersions: 8.1 - 8.3
@@ -38,7 +38,7 @@ releases:
     latestReleaseDate: 2024-06-07
 
 -   releaseCycle: "4.3"
-    releaseDate: 2023-10-07
+    releaseDate: 2023-10-09
     eoas: 2024-10-07
     eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
@@ -46,7 +46,7 @@ releases:
     latestReleaseDate: 2024-06-07
 
 -   releaseCycle: "4.2"
-    releaseDate: 2023-04-22
+    releaseDate: 2023-04-24
     eoas: 2024-04-22
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
@@ -55,7 +55,7 @@ releases:
 
 -   releaseCycle: "4.1"
     lts: true
-    releaseDate: 2022-11-26
+    releaseDate: 2022-11-28
     eoas: 2023-12-11
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1

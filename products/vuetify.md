@@ -38,7 +38,7 @@ auto:
 
 releases:
 -   releaseCycle: "3"
-    releaseDate: 2022-10-31
+    releaseDate: 2022-11-01
     eoas: false
     eol: false
     latest: "3.6.14"

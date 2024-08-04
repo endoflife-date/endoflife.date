@@ -30,7 +30,7 @@ auto:
 
 releases:
 -   releaseCycle: "1.42"
-    releaseDate: 2024-06-13
+    releaseDate: 2024-06-27
     eol: 2025-06-30
     latest: "1.42.1"
     latestReleaseDate: 2024-06-27
