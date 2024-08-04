@@ -55,14 +55,14 @@ releases:
     eoes: false
     latest: "1.1.1w"
     latestReleaseDate: 2023-09-12
-    link: https://www.openssl.org/news/changelog.txt
+    link: https://openssl-library.org/news/vulnerabilities-1.1.1/
 
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
     eol: 2019-09-11
     latest: "1.1.0l"
     latestReleaseDate: 2019-09-10
-    link: https://www.openssl.org/news/changelog.txt
+    link: https://openssl-library.org/news/vulnerabilities-1.1.0/
 
 -   releaseCycle: "1.0.2"
     lts: true
@@ -71,7 +71,8 @@ releases:
     eoes: false
     latest: "1.0.2u"
     latestReleaseDate: 2019-12-20
-    link: https://www.openssl.org/news/changelog.txt
+    link: https://openssl-library.org/news/vulnerabilities-1.0.2/
+    
 
 ---
 
