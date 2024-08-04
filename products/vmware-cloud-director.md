@@ -24,6 +24,7 @@ releases:
     latest: "10.5.1.1"
     latestReleaseDate: 2024-03-07
     link: https://docs.vmware.com/en/VMware-Cloud-Director/10.5.1.1/rn/vmware-cloud-director-10511-release-notes/index.html
+
 -   releaseCycle: "10.4"
     releaseDate: 2022-07-14
     eol: 2024-07-14
