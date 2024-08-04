@@ -7,7 +7,7 @@ permalink: /apache-flink
 alternate_urls:
 -   /flink
 releasePolicyLink: https://hub.docker.com/_/flink # This is the most conclusive resource
-changelogTemplate: https://nightlies.apache.org/flink/flink-docs-master/release-notes/flink-__RELEASE_CYCLE__
+changelogTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
 releaseDateColumn: true
 
 auto:
