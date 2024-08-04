@@ -4,8 +4,8 @@ category: framework
 iconSlug: openssl
 permalink: /openssl
 versionCommand: openssl version
-releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
-changelogTemplate: "https://www.openssl.org/news/cl{{'__RELEASE_CYCLE__'|replace:'.',''}}.txt"
+releasePolicyLink: https://openssl-library.org/policies/releasestrat/index.html
+changelogTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
 releaseDateColumn: true
 eolColumn: Supported
 eoesColumn: Premium support
@@ -75,7 +75,7 @@ releases:
 
 ---
 
-> [OpenSSL](https://www.openssl.org/) is a software library for applications that secure
+> [OpenSSL](https://openssl-library.org/) is a software library for applications that secure
 > communications over computer networks against eavesdropping or need to identify the party at the
 > other end. It is widely used by Internet servers, including the majority of HTTPS websites.
 
@@ -101,6 +101,6 @@ combination.
   functions in these releases.
 
 In addition to community support, the _OpenSSL Software Services_ provide commercial extended
-support through the [Premium Enterprise Level Support contract](https://www.openssl.org/support/contracts.html#premium).
+support through the [Premium Enterprise Level Support contract](https://openssl-corporation.org/support/#premium).
 With this contract, LTS releases remain supported beyond the public EOL date for as long as it
 remains commercially viable for OpenSSL Software Services.
