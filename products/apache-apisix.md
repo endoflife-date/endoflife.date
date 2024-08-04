@@ -15,6 +15,9 @@ auto:
   methods:
   -   git: https://github.com/apache/apisix.git
 
+# eol(x) =
+# - releaseDate(x+1) for non-LTS
+# - releaseDate(next LTS) for LTS
 releases:
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-25
@@ -70,4 +73,7 @@ releases:
 > [Apache APISIX](https://apisix.apache.org/) is an open source, dynamic, scalable, and high-performance cloud native
 > API gateway for APIs and microservices.
 
-Apache APISIX provides rich traffic management features like Load Balancing, Dynamic Upstream, Canary Release, Circuit Breaking, Authentication, Observability, etc.
+Apache APISIX follows [semantic versioning](https://semver.org). Release, support and EOL policies are not documented.
+
+Looking at the recent release history, it seems that only the latest release and the latest LTS release are supported,
+both with bug and security fixes.
