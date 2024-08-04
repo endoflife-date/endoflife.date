@@ -52,7 +52,6 @@ releases:
     latestReleaseDate: 2016-06-21
     link: https://documents.bmc.com/supportu/952/78/79/477879/477879.pdf
 
-
 ---
 
 
