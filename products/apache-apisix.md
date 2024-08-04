@@ -1,5 +1,5 @@
 ---
-title: Apache Apisix
+title: Apache APISIX
 category: server-app
 tags: apache web-server
 iconSlug: apache
@@ -67,7 +67,7 @@ releases:
 
 ---
 
-> [Apisix](https://apisix.apache.org/) is an open source, dynamic, scalable, and high-performance cloud native API
-> gateway for APIs and microservices.
+> [Apache APISIX](https://apisix.apache.org/) is an open source, dynamic, scalable, and high-performance cloud native
+> API gateway for APIs and microservices.
 
 Apache APISIX provides rich traffic management features like Load Balancing, Dynamic Upstream, Canary Release, Circuit Breaking, Authentication, Observability, etc.
