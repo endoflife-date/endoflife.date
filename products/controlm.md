@@ -11,6 +11,7 @@ releasePolicyLink: http://www.bmc.com/support/product-support-policy.html
 eolColumn: Limited Support
 eoasColumn: Full Support
 
+# Latest releases can be found on https://docs.bmc.com/docs/controlm/.
 releases:
 -   releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
