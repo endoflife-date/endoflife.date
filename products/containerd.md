@@ -74,7 +74,7 @@ releases:
     latestReleaseDate: 2019-09-26
 
 -   releaseCycle: "1.0"
-    releaseDate: 2017-12-04
+    releaseDate: 2017-12-05
     eoas: 2018-12-05 # no information about the end of support
     eol: 2018-12-05
     latest: "1.0.3"
