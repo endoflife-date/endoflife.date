@@ -34,7 +34,7 @@ releases:
 
 ---
 
-> [VMware Cloud Director](https://www.vmware.com/products/cloud-director.html) Operate and
+> [VMware Cloud Director](https://www.vmware.com/products/cloud-infrastructure/cloud-director) Operate and
 > manage your cloud service business with VMware Cloud Director,
 > the leading cloud service delivery platform.
 
