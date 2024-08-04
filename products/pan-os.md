@@ -1,4 +1,4 @@
----
+﻿---
 title: Palo Alto Networks PAN-OS
 category: os
 tags: palo-alto-networks
@@ -28,9 +28,9 @@ releases:
 -   releaseCycle: "11.2"
     releaseDate: 2024-05-02
     eol: 2027-05-02
-    latest: "11.2.2"
-    latestReleaseDate: 2024-07-30
-    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-2-known-and-addressed-issues/pan-os-11-2-2-addressed-issues
+    latest: "11.2.2-h1"
+    latestReleaseDate: 2024-08-02
+    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-2-known-and-addressed-issues/pan-os-11-2-2-h1-addressed-issues
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
