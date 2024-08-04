@@ -129,6 +129,7 @@ releases:
     eol: 2018-10-30
     latest: "6.1.12"
     latestReleaseDate: 2017-06-29
+    link: https://web.archive.org/web/20190719230423/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.1/html/release_notes/index
 
 -   releaseCycle: "6.0"
     releaseDate: 2014-09-10
@@ -136,6 +137,7 @@ releases:
     eol: 2018-02-21
     latest: "6.0.8"
     latestReleaseDate: 2015-02-20
+    link: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
 
 ---
 
