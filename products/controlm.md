@@ -14,7 +14,6 @@ eoasColumn: Full Support
 releases:
 -   releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
-    lts: false
     eoas: 2025-09-08
     eol: 2027-09-08
     latest: "9.0.21.200"
