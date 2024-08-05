@@ -47,8 +47,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.5"
-    latestReleaseDate: 2024-06-15
+    latest: "5.1.6"
+    latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "5.0"
     codename: Lorentz
@@ -252,6 +252,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 
 
