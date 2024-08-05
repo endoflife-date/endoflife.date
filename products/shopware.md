@@ -58,7 +58,7 @@ releases:
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-08-03
     eoas: 2021-05-04
-    eol: false
+    eol: true
     latest: "6.3.5.4"
     latestReleaseDate: 2021-04-19
 
@@ -66,7 +66,7 @@ releases:
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-05-18
     eoas: 2020-08-03
-    eol: false
+    eol: true
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
 
@@ -75,7 +75,7 @@ releases:
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-01-13
     eoas: 2020-05-19
-    eol: false
+    eol: true
     latest: "6.1.6"
     latestReleaseDate: 2020-05-14
 
