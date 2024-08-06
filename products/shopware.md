@@ -66,7 +66,7 @@ releases:
     supportedPhpVersions: 7.2 - 7.4
     releaseDate: 2020-05-18
     eoas: 2020-08-03
-    eol: true
+    eol: true # not listed anymore on https://developer.shopware.com/release-notes/
     latest: "6.2.3"
     latestReleaseDate: 2020-07-13
 
