@@ -60,8 +60,8 @@ releases:
     releaseDate: 2024-04-18
     eoas: 2024-05-16
     eol: 2024-07-18
-    latest: "16.11.7"
-    latestReleaseDate: 2024-07-23
+    latest: "16.11.8"
+    latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "16.10"
     releaseDate: 2024-03-21
