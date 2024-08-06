@@ -1,6 +1,7 @@
 ---
 title: CouchDB
 category: database
+iconSlug: apachecouchdb
 permalink: /apache-couchdb
 alternate_urls:
 -   /couchdb
@@ -13,7 +14,7 @@ auto:
 
 identifiers:
 -   purl: pkg:github/apache/couchdb
--   purl: pkg:docker/couchdb
+-   purl: pkg:docker/apache/couchdb
 -   repology: couchdb
 
 # eol(x) = releaseDate(x+2)
