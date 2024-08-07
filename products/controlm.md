@@ -58,4 +58,4 @@ releases:
 
 > [Control-M](https://www.bmc.com/it-solutions/control-m.html) is an enterprise workload automation solution that helps organizations manage and orchestrate their business processes, applications, and data workflows.
 
-BMC provides for at least three years of full support from the release date of each release, with a further two years of limited support for high impact problems.
+BMC provides at least three years of full support from the release date of each release, with a further two years of limited support for high impact problems.
