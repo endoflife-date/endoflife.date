@@ -28,8 +28,8 @@ releases:
     releaseDate: 2023-12-29
     eoas: false
     eol: false
-    latest: "3.4.35"
-    latestReleaseDate: 2024-07-31
+    latest: "3.4.36"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-05-11
@@ -138,6 +138,7 @@ releases:
     latest: "1.0.28"
     latestReleaseDate: 2016-09-27
     link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
+
 
 
 

@@ -24,15 +24,15 @@ releases:
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-85-64"
-    latestReleaseDate: 2024-07-22
+    latest: "cos-113-18244-85-65"
+    latestReleaseDate: 2024-07-31
 
 -   releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-218-83"
-    latestReleaseDate: 2024-07-22
+    latest: "cos-109-17800-218-88"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "cos-105"
     lts: true
