@@ -40,13 +40,13 @@ releases:
 
 -   releaseCycle: "2.10"
     releaseDate: 2024-02-05
-    eol: 2024-08-05
+    eol: false
     latest: "2.10.16"
     latestReleaseDate: 2024-07-24
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-11-05
-    eol: false
+    eol: 2024-08-05
     latest: "2.9.21"
     latestReleaseDate: 2024-07-24
 
