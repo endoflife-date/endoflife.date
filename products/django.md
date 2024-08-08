@@ -56,7 +56,7 @@ auto:
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
-    eoas: 2024-08-31
+    eoas: 2024-08-07
     eol: 2025-04-30
     supportedPythonVersions: "3.10 - 3.12"
     latest: "5.0.8"
