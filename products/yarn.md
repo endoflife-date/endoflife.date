@@ -30,8 +30,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: false # still not clear, will wait until there is no more updates
-    latest: '3.8.3'
-    latestReleaseDate: 2024-06-21
+    latest: '3.8.4'
+    latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "2"
     releaseDate: 2020-07-09

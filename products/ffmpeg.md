@@ -68,8 +68,8 @@ releases:
     codename: '4:3'
     releaseDate: 2020-06-15
     eol: false
-    latest: "4.3.7"
-    latestReleaseDate: 2024-06-15
+    latest: "4.3.8"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "4.2"
     codename: 'Ada'
@@ -252,6 +252,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 
 

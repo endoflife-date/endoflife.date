@@ -1,4 +1,4 @@
-﻿---
+---
 title: Palo Alto Networks PAN-OS
 category: os
 tags: palo-alto-networks
