@@ -28,6 +28,7 @@ auto:
 releases:
 -   releaseCycle: "129"
     releaseDate: 2024-08-06
+    eol: false
     lts: true
     latest: "129.0"
     latestReleaseDate: 2024-08-06
