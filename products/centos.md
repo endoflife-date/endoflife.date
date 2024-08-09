@@ -44,7 +44,7 @@ releases:
 
 ---
 
-> [CentOS Linux](https://centos.org/centos-linux/) was a Linux distribution that provided a free,
+> [CentOS Linux](https://centos.org/centos-linux/) (archived copy) was a Linux distribution that provided a free,
 > enterprise-class, community-supported computing platform functionally compatible with Red Hat
 > Enterprise Linux.
 
