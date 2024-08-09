@@ -188,3 +188,8 @@ The "projected EOL" dates are not set in stone. Each new longterm kernel usually
 2-year projected EOL (as opposed to the 4 months of a non-LTS release) that can be extended further
 if there is enough interest from the industry at large to [help support it](http://www.kroah.com/log/blog/2021/02/03/helping-out-with-lts-kernel-releases)
 for a longer period of time.
+
+Besides, The [Civil Infrastructure Platform (CIP)](https://wiki.linuxfoundation.org/civilinfrastructureplatform/start) aims to establish a “base layer” of industrial-grade
+tooling using the Linux kernel and other open source projects. This base layer will be available for
+use by developers creating software building blocks that meet safety, security, reliability and other
+requirements that are critical to industrial and civil infrastructure projects. 
