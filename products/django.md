@@ -54,6 +54,14 @@ auto:
           type: "range"
 
 releases:
+-   releaseCycle: "5.1"
+    releaseDate: 2024-08-07
+    eoas: 2025-04-30
+    eol: 2025-12-31
+    supportedPythonVersions: "3.10 - 3.12"
+    latest: "5.1"
+    latestReleaseDate: 2024-08-07
+
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
     eoas: 2024-08-07
