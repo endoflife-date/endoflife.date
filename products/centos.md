@@ -46,7 +46,7 @@ releases:
 
 > [CentOS Linux](https://centos.org/centos-linux/) was a Linux distribution that provided a free,
 > enterprise-class, community-supported computing platform functionally compatible with Red Hat
-> Enterprise Linux.
+> Enterprise Linux. CentOS has now been removed from mirrors worldwide.
 
 CentOS Linux was a rebuild of [Red Hat Enterprise Linux (RHEL)](/rhel) source code. Major versions
 were supported with security and bugfix updates as long as its corresponding RHEL release was not EOL,
