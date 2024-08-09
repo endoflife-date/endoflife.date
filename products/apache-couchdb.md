@@ -5,7 +5,9 @@ iconSlug: apachecouchdb
 permalink: /apache-couchdb
 alternate_urls:
 -   /couchdb
+releasePolicyLink: https://docs.couchdb.org/en/latest/cve/index.html#security-issues-cves
 changelogTemplate: "https://docs.couchdb.org/en/stable/whatsnew/{{'__LATEST__'|split:'.'|slice:':2'|join:'.'}}.html#version-{{'__LATEST__'|replace:'.','-'}}"
+versionCommand: curl http://localhost:5984/_config/vendor/version
 releaseDateColumn: true
 
 auto:
