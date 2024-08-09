@@ -11,6 +11,9 @@ releasePolicyLink: http://www.bmc.com/support/product-support-policy.html
 eolColumn: Limited Support
 eoasColumn: Full Support
 
+identifiers:
+-   cpe:2.3:a:bmc:control-m
+
 # Latest releases can be found on https://docs.bmc.com/docs/controlm/.
 releases:
 -   releaseCycle: "9.0.21"
