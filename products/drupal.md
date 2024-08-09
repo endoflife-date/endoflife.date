@@ -31,15 +31,15 @@ releases:
     releaseDate: 2024-08-02
     eoas: false
     eol: false
-    latest: "11.0.0"
-    latestReleaseDate: 2024-08-02
+    latest: "11.0.1"
+    latestReleaseDate: 2024-08-08
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
     eoas: 2024-08-02
     eol: 2025-06-16
-    latest: "10.3.1"
-    latestReleaseDate: 2024-07-04
+    latest: "10.3.2"
+    latestReleaseDate: 2024-08-08
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-12-15
