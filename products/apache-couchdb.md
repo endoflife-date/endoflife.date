@@ -1,5 +1,5 @@
 ---
-title: CouchDB
+title: Apache CouchDB
 category: database
 tags: apache erlang-runtime
 iconSlug: apachecouchdb
