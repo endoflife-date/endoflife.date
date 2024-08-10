@@ -17,6 +17,9 @@ auto:
 identifiers:
 -   purl: pkg:github/apache/couchdb
 -   purl: pkg:docker/apache/couchdb
+-   purl: pkg:docker/library/couchdb
+-   purl: pkg:docker/bitnami/couchdb
+-   purl: pkg:docker/rapidfort/couchdb
 -   repology: couchdb
 
 # eol(x) = releaseDate(x+2)
