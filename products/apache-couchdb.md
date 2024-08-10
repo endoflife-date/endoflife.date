@@ -44,5 +44,4 @@ releases:
 > process data, with JSON as its primary data storage format.
 
 CouchDB maintains the two most recent releases for CVEs. Older versions are
-not supported, but they may publish further backports at their discretion. See:
-[Security issues / CVEs](https://github.com/apache/couchdb/blob/main/src/docs/src/cve/index.rst#security-issues--cves).
+not supported, but they may publish further backports at their discretion.
