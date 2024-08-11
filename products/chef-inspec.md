@@ -33,7 +33,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2019-04-30
-    eoas: true
+    eoas: 2022-03-17
     eol: 2023-11-14
     latest: "4.56.58"
     latestReleaseDate: 2023-10-31
