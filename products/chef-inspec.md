@@ -54,7 +54,7 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2016-09-26
-    eoas: true
+    eoas: 2018-02-20
     eol: 2019-12-31
     latest: "1.51.25"
     latestReleaseDate: 2018-05-10
