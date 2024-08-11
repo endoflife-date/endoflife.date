@@ -35,7 +35,7 @@ releases:
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eoas: 2024-08-09
-    eol: 2025-10-01
+    eol: 2025-10-01 # see https://rubyonrails.org/maintenance
     latest: "7.1.3.4"
     latestReleaseDate: 2024-06-04
 
