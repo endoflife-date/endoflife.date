@@ -24,6 +24,7 @@ auto:
   methods:
   -   git: https://github.com/rails/rails.git
 
+# Some dates can be found on https://rubyonrails.org/maintenance.
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2024-08-09
