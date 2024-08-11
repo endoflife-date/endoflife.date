@@ -11,7 +11,6 @@ alternate_urls:
 -   /ror
 releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
-
 releaseDateColumn: true
 eolColumn: Security Support
 eoasColumn: Active Support
