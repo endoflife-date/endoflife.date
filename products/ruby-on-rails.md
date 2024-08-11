@@ -49,7 +49,7 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2020-12-09
     eoas: 2021-12-15
-    eol: 2024-10-01
+    eol: 2024-10-01 # see https://rubyonrails.org/maintenance
     latest: "6.1.7.8"
     latestReleaseDate: 2024-06-04
 
