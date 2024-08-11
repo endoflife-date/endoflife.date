@@ -165,59 +165,63 @@ releases:
 -   releaseCycle: "3.0"
     releaseDate: 2015-03-03
     eol: 2018-02-28
+    link: https://www.mongodb.com/docs/v4.0/release-notes/3.0/
     latest: "3.0.15"
     latestReleaseDate: 2017-05-10
 
 -   releaseCycle: "2.6"
     releaseDate: 2014-04-07
     eol: 2016-10-31
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.6/
     latest: "2.6.12"
     latestReleaseDate: 2016-03-22
 
 -   releaseCycle: "2.4"
     releaseDate: 2013-03-18
     eol: 2013-03-31
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.4/
     latest: "2.4.14"
     latestReleaseDate: 2015-04-27
 
 -   releaseCycle: "2.2"
     releaseDate: 2012-08-28
     eol: 2014-02-28
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.2/
     latestReleaseDate: 2014-01-15
     latest: '2.2.7'
 
 -   releaseCycle: "2.0"
     releaseDate: 2011-09-11
     eol: 2013-03-31
-    link: https://www.mongodb.com/docs/v2.2/release-notes/2.0/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.0/
     latest: '2.0.9'
     latestReleaseDate: 2013-04-02
 
 -   releaseCycle: "1.8"
     releaseDate: 2011-03-16
     eol: 2012-09-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.8/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.8/
     latest: '1.8.5'
     latestReleaseDate: 2012-02-01
 
 -   releaseCycle: "1.6"
     releaseDate: 2010-08-05
     eol: 2012-02-28
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.6/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.6/
     latest: '1.6.5'
     latestReleaseDate: 2010-12-08
 
 -   releaseCycle: "1.4"
     releaseDate: 2010-03-25
     eol: 2012-09-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.4/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.4/
     latest: '1.4.5'
     latestReleaseDate: 2010-08-31
 
 -   releaseCycle: "1.2"
     releaseDate: 2009-12-10
     eol: 2011-06-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.2/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.2/
     latest: '1.2.5'
     latestReleaseDate: 2010-04-07
 
