@@ -124,6 +124,7 @@ releases:
     eol: true
     latest: "1.0.9"
     latestReleaseDate: 2004-10-13
+    link: null
 
 ---
 
