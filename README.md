@@ -21,7 +21,7 @@ some best practices for publishing this information.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Please see [the contributing guide](https://endoflife.date/contribute) for details.
 While participating in the project, you must abide by its [Code of Conduct](CODE-OF-CONDUCT.md).
 
 ## API
