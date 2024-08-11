@@ -9,7 +9,7 @@ alternate_urls:
 -   /ruby-on-rails
 -   /roro
 -   /ror
-releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
+releasePolicyLink: https://rubyonrails.org/maintenance
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Security Support
@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
-    eoas: 2024-08-09
+    eoas: 2024-10-01
     eol: 2025-10-01 # see https://rubyonrails.org/maintenance
     latest: "7.1.3.4"
     latestReleaseDate: 2024-06-04
@@ -94,7 +94,7 @@ releases:
 >[Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework
 > written in Ruby.
 
-Each minor release cycle (7.2, 8.0, etc.) is officially supported based on a fixed, yearly duration: 1 year for bug fixes and 2 years for security fixes. For example, if a theoretical 1.1.0 is released on January 1, 2023, it will receive bug and security fixes until January 1, 2024 (1 year), and then receive security fixes only until January 1, 2025 (2 years). After that, it will reach its end-of-life.
+Starting with 7.2, each release cycle (7.2, 8.0, etc.) is officially supported based on a fixed, yearly duration: 1 year for bug fixes and 2 years for security fixes. For example, if a theoretical 1.1.0 is released on January 1, 2023, it will receive bug and security fixes until January 1, 2024 (1 year), and then receive security fixes only until January 1, 2025 (2 years). After that, it will reach its end-of-life.
 
 A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions).
 New releases are published on the [Rails blog](https://rubyonrails.org/category/releases).
