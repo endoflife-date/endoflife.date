@@ -23,6 +23,12 @@ auto:
   -   git: https://github.com/rails/rails.git
 
 releases:
+-   releaseCycle: "7.2"
+    releaseDate: 2024-08-09
+    eol: false
+    latest: "7.2.0"
+    latestReleaseDate: 2024-08-09
+
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eol: false
