@@ -94,9 +94,45 @@ releases:
     latest: 10.0.14393
     link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 
+-   releaseCycle: "2012-R2"
+    releaseDate: 2013-11-25
+    lts: true
+    eoas: 2018-10-09
+    eol: 2023-10-10
+    eoes: 2026-10-13
+    latest: 6.3.9600
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012-r2
+
+-   releaseCycle: "2012"
+    lts: true
+    releaseDate: 2012-10-30
+    eoas: 2018-10-09
+    eol: 2023-10-10
+    eoes: 2026-10-13
+    latest: 6.2.9200
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2012
+
+-   releaseCycle: "2008-R2-SP1"
+    releaseDate: 2011-02-22
+    lts: true
+    eoas: 2015-01-13
+    eol: 2020-01-14
+    eoes: 2023-01-10
+    latest: 6.1.7601
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
+
+-   releaseCycle: "2008-SP2"
+    releaseDate: 2009-04-29
+    lts: true
+    eoas: 2015-01-13
+    eol: 2020-01-14
+    eoes: 2023-01-10
+    latest: 6.0.6003
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
+
 ---
 
 > Windows Server Core is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
-> It's also offered as Windows container base image.
+> It's also offered as Windows container base image starting with 2016 (1607).
 
 See [Windows Server Servicing channels](/windows-server#servicing-channels) for information on the servicing channels.
