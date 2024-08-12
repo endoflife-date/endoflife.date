@@ -35,7 +35,7 @@ releases:
     releaseDate: 2021-10-08
     eol: false
     latest: "3.2.3"
-    latestReleaseDate: 2023-04-25
+    latestReleaseDate: 2023-04-24
 
 ---
 
