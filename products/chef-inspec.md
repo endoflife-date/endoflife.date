@@ -47,7 +47,7 @@ releases:
     eoas: 2019-04-30
     eol: 2020-04-30
     latest: "3.9.3"
-    latestReleaseDate: 2019-03-15
+    latestReleaseDate: 2019-04-15
 
 -   releaseCycle: "2"
     releaseDate: 2018-02-20
