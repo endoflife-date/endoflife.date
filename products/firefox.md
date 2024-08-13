@@ -29,12 +29,12 @@ releases:
 -   releaseCycle: "129"
     releaseDate: 2024-08-06
     eol: false
-    latest: "129.0"
-    latestReleaseDate: 2024-08-06
-    
+    latest: "129.0.1"
+    latestReleaseDate: 2024-08-13
+
 -   releaseCycle: "128"
     lts: true
-    releaseDate: 2024-07-09 
+    releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://wiki.mozilla.org/Release_Management/Calendar
     latest: "128.1.0"
     latestReleaseDate: 2024-08-06
