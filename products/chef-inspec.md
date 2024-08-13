@@ -63,7 +63,9 @@ releases:
 
 > [Chef InSpec](https://docs.chef.io/inspec/) is an open-source framework for
 > testing and auditing applications and infrastructure.
-Supported commercial releases of Chef InSpec are documented on the [Chef Documentation website](https://docs.chef.io/versions/#supported-commercial-distributions).
+
+{: .warning }
+> Supported commercial releases of Chef InSpec are documented on the [Chef Documentation website](https://docs.chef.io/versions/#supported-commercial-distributions).
 
 Looking at the published list of supported releases, it seems that Chef InSpec follows an N-1 support strategy, with the
 latest release supported with bug and security fixes, and the previous release marked "deprecated"
