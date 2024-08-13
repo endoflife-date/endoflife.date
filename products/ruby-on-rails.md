@@ -9,9 +9,11 @@ alternate_urls:
 -   /ruby-on-rails
 -   /roro
 -   /ror
-releasePolicyLink: https://guides.rubyonrails.org/maintenance_policy.html
+releasePolicyLink: https://rubyonrails.org/maintenance
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
 releaseDateColumn: true
+eolColumn: Security Support
+eoasColumn: Active Support
 
 identifiers:
   - repology: ruby:rails
@@ -22,22 +24,33 @@ auto:
   methods:
   -   git: https://github.com/rails/rails.git
 
+# Some dates can be found on https://rubyonrails.org/maintenance.
 releases:
+-   releaseCycle: "7.2"
+    releaseDate: 2024-08-09
+    eoas: 2025-08-09
+    eol: 2026-08-09
+    latest: "7.2.0"
+    latestReleaseDate: 2024-08-09
+
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
-    eol: false
+    eoas: 2024-10-01
+    eol: 2025-10-01 # see https://rubyonrails.org/maintenance
     latest: "7.1.3.4"
     latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-12-15
-    eol: false
+    eoas: 2023-10-15
+    eol: 2025-04-01 # see https://rubyonrails.org/maintenance
     latest: "7.0.8.4"
     latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "6.1"
     releaseDate: 2020-12-09
-    eol: false
+    eoas: 2021-12-15
+    eol: 2024-10-01 # see https://rubyonrails.org/maintenance
     latest: "6.1.7.8"
     latestReleaseDate: 2024-06-04
 
@@ -81,10 +94,7 @@ releases:
 >[Ruby on Rails](https://rubyonrails.org/), or Rails, is a server-side web application framework
 > written in Ruby.
 
-Only the latest Rails version gets bug fixes, and the version before that gets security fixes.
-Severe security issues (as judged by the core team) are backported further; e.g., v5.2.8.1 is a
-[severe security fix](https://rubyonrails.org/2022/7/12/Rails-Versions-7-0-3-1-6-1-6-1-6-0-5-1-and-5-2-8-1-have-been-released)
-that was created after v5.2 was no longer receiving (non-severe) security updates.
+[Starting with 7.2](https://github.com/rails/rails/pull/52471#issuecomment-2271508281), each minor release (7.2, 8.0, etc.) is officially supported based on a fixed, yearly duration: 1 year for bug fixes and 2 years for security fixes. For example, if a theoretical 1.1.0 is released on January 1, 2023, it will receive bug and security fixes until January 1, 2024 (1 year), and then receive security fixes only until January 1, 2025 (2 years). After that, it will reach its end-of-life.
 
 A complete list of historic versions is available on [RubyGems](https://rubygems.org/gems/rails/versions).
 New releases are published on the [Rails blog](https://rubyonrails.org/category/releases).
