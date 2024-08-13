@@ -10,7 +10,7 @@ alternate_urls:
 -   /vmesxi
 -   /vmware-esxi
 versionCommand: vmware -l
-releasePolicyLink: https://lifecycle.vmware.com
+releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
 releaseDateColumn: true
 eolColumn: General Support
 
@@ -25,7 +25,7 @@ releases:
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
-    eol: 2025-04-02
+    eol: 2025-10-02
     technicalGuidance: 2027-04-02
     latest: "7.0 Update 3q"
     latestReleaseDate: 2024-05-21
@@ -70,16 +70,17 @@ releases:
 
 VMware typically support ESXi for a duration of 7 years with 5 years of general support and an
 additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and
-security updates. Additional information on lifecycle phases can be found at
-<https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
+security updates.
 
-## [General Support](https://www.vmware.com/support/lifecycle-policies.html)
+[Broadcom Inc. acquired VMware Novemember 22, 2023](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware).
+
+## General Support
 
 The last date on which you can request support; the end of regular VMware maintenance updates and
 upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription
 Terms and Conditions.
 
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+## Technical Guidance
 
 The last date on which you can access support and workarounds for low-severity issues on supported
 configurations only. During the Technical Guidance phase, VMware does not offer new hardware
