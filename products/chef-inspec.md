@@ -10,6 +10,10 @@ changelogTemplate: "https://docs.chef.io/release_notes_inspec/#__LATEST__"
 eoasColumn: true
 releaseDateColumn: true
 
+auto:
+  methods:
+  -   custom: chef-inspec
+
 identifiers:
 -   repology: inspec
 -   cpe: cpe:2.3:a:chef:inspec
