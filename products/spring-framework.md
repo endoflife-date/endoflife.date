@@ -55,8 +55,8 @@ releases:
     eol: 2024-08-31
     eoes: 2026-12-31
     lts: true
-    latest: "5.3.37"
-    latestReleaseDate: 2024-06-13
+    latest: "5.3.38"
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "5.2"
     supportedJavaVersions: "8, 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview

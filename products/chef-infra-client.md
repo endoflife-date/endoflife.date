@@ -84,7 +84,7 @@ releases:
     eoas: 2013-02-01
     eol: 2014-12-03
     latest: "10.34.6"
-    latestReleaseDate: 2014-11-14
+    latestReleaseDate: 2014-11-10
 
 ---
 
