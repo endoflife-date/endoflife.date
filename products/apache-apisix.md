@@ -13,7 +13,7 @@ identifiers:
 
 auto:
   methods:
-  -   github_releases: 'apache/apisix'
+  -   github_releases: apache/apisix
 
 # eol(x) =
 # - releaseDate(x+1) for non-LTS
