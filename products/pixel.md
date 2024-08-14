@@ -25,7 +25,7 @@ customColumns:
 releases:
 -   releaseCycle: "9"
     releaseLabel: "Pixel 9 / Pro / Pro XL"
-    releaseDate: 2023-08-22
+    releaseDate: 2024-08-22
     eoas: 2031-08-01 # at least
     eol: 2031-08-01 # at least
     discontinued: false
