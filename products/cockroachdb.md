@@ -35,20 +35,18 @@ auto:
         eoas: "Maintenance Support ended"
         eol: "Assistance Support ended"
 
-releases:
-
 # For LTS Releases
 # eoas(x) = lts(x)+1y
 # eol(x)  = lts(x)+2y
-
+#
 # For Regular Releases:
 # eoas(x) = releaseDate(x) + 1y
 # eol(x)  = releaseDate(x) + 1.5y
-
+#
 # For Innovation Releases:
 # eoas(x) = releaseDate(x) + 6m
 # eol(x) = releaseDate(x) + 6m
-
+releases:
 -   releaseCycle: "24.2"
     releaseDate: 2024-08-12
     eoas: 2025-02-12
