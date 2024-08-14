@@ -49,7 +49,7 @@ releases:
 > [Red Hat Enterprise Linux (RHEL)](/rhel).
 
 {: .warning }
-> CentOS Linux has been discontinued and is *not safe to use anymore*. Read the [information on
+> CentOS Linux has been discontinued and is **not safe to use anymore**. Read the [information on
 > upgrade and migration options](https://blog.centos.org/2023/04/end-dates-are-coming-for-centos-stream-8-and-centos-linux-7/).
 
 [It was announced on December 8th, 2020](https://blog.centos.org/2020/12/future-is-centos-stream/)
