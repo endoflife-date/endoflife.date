@@ -45,15 +45,16 @@ releases:
 ---
 
 > [CentOS Linux](https://centos.org/centos-linux/) was a Linux distribution that provided a free,
-> enterprise-class, community-supported computing platform functionally compatible with Red Hat
-> Enterprise Linux.
+> enterprise-class, community-supported computing platform functionally compatible with
+> [Red Hat Enterprise Linux (RHEL)](/rhel).
 
-CentOS Linux was a rebuild of [Red Hat Enterprise Linux (RHEL)](/rhel) source code. Major versions
-were supported with security and bugfix updates as long as its corresponding RHEL release was not EOL,
-except for CentOS Linux 8.
+{: .warning }
+> CentOS Linux has been discontinued and is *not safe to use anymore*. Read the [information on
+> upgrade and migration options](https://blog.centos.org/2023/04/end-dates-are-coming-for-centos-stream-8-and-centos-linux-7/).
 
 [It was announced on December 8th, 2020](https://blog.centos.org/2020/12/future-is-centos-stream/)
 that work on CentOS Linux 8 would cease at the end of 2021 and that focus would shift to CentOS Stream.
 Support information for CentOS Stream is available on the [CentOS Stream page](/centos-stream).
 
-Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).
+Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by
+Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).
