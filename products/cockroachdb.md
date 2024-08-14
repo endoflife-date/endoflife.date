@@ -165,6 +165,7 @@ releases:
 
 > [CockroachDB](http://cockroachdb.com/) is a distributed SQL database built on a transactional and
 > strongly-consistent key-value store, developed by Cockroach Labs.
+
 > {: .warning }
 > This page tracks the CockroachDB Self-Hosted releases - the Cloud and Serverless releases have their own
 > [support and upgrade policy](https://www.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
