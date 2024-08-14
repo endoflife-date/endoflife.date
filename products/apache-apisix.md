@@ -13,7 +13,7 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/apache/apisix.git
+  -   github_releases: apache/apisix
 
 # eol(x) =
 # - releaseDate(x+1) for non-LTS
@@ -21,9 +21,15 @@ auto:
 #
 # Official releases dates and git tag dates always differ by a few days.
 releases:
+-   releaseCycle: "3.10"
+    releaseDate: 2024-08-14
+    eol: false
+    latest: "3.10.0"
+    latestReleaseDate: 2024-08-14
+
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-20
-    eol: false
+    eol: 2024-08-14
     latest: "3.9.1"
     latestReleaseDate: 2024-04-24
 
