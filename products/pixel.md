@@ -22,7 +22,16 @@ customColumns:
 # Past EOL dates from https://source.android.com/docs/setup/about/build-numbers (the latest release date wins).
 # Discontinued dates from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
-releases:
+releases:   
+-   releaseCycle: "9"
+    releaseLabel: "Pixel 9 / Pro / Pro XL"
+    releaseDate: 2023-08-22
+    eoas: 2031-08-01 # at least
+    eol: 2031-08-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9
+    supportedAndroidVersions: 14 # https://www.gsmarena.com/google_pixel_9_pro-13219.php
+    
 -   releaseCycle: "8a"
     releaseLabel: "Pixel 8a"
     releaseDate: 2024-05-14
