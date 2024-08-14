@@ -13,6 +13,7 @@ releaseDateColumn: true
 
 auto:
   methods:
+  -   github_releases: mattermost/mattermost-server
   -   release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
       selector: "table"
       fields:
