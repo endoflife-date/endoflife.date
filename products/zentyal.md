@@ -11,7 +11,7 @@ eoesColumn: Commercial Support
 
 customColumns:
 -   property: ubuntuVersion
-    position: before-latest-column
+    position: after-release-column
     label: Ubuntu Version
     description: Ubuntu LTS corresponding version
 
