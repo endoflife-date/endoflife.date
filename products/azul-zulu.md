@@ -45,20 +45,20 @@ releases:
     releaseDate: 2024-03-19 # https://docs.azul.com/core/release/22-ga/release-notes/release-notes
     eol: 2024-09-17
     eoes: 2025-03-17
-    latest: "22.28.93"
-    latestJdkVersion: "22.0.0+36"
-    latestReleaseDate: 2024-03-19
-    link: https://docs.azul.com/core/release/22-ga/release-notes/release-notes
+    latest: "22.32.15"
+    latestJdkVersion: "22.0.2+9"
+    latestReleaseDate: 2024-07-16
+    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
 
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19 # https://docs.azul.com/core/zulu-openjdk/release-notes/21-ga
     eol: 2031-09-30
     eoes: 2033-09-30
-    latest: "21.32.17"
-    latestJdkVersion: "21.0.2+13"
-    latestReleaseDate: 2024-01-16
-    link: https://docs.azul.com/core/release/january-2024/release-notes/release-notes
+    latest: "21.36.17"
+    latestJdkVersion: "21.0.4+7"
+    latestReleaseDate: 2024-07-16
+    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
 
 -   releaseCycle: "20"
     releaseLabel: "20 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -95,10 +95,10 @@ releases:
     releaseDate: 2021-09-15 # https://docs.azul.com/core/zulu-openjdk/release-notes/17-ga
     eol: 2029-09-30
     eoes: 2031-09-30
-    latest: "17.48.15"
-    latestJdkVersion: "17.0.10+7"
-    latestReleaseDate: 2024-01-16
-    link: https://docs.azul.com/core/release/january-2024/release-notes/release-notes
+    latest: "17.52.17"
+    latestJdkVersion: "17.0.12+7"
+    latestReleaseDate: 2024-07-16
+    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
 
 -   releaseCycle: "16"
     releaseLabel: "16 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -153,10 +153,10 @@ releases:
     releaseDate: 2018-09-25
     eol: 2026-09-30
     eoes: 2028-09-30
-    latest: "11.70.15"
-    latestJdkVersion: "11.0.22+7"
-    latestReleaseDate: 2024-01-16
-    link: https://docs.azul.com/core/release/january-2024/release-notes/release-notes
+    latest: "11.74.15"
+    latestJdkVersion: "11.0.24+8"
+    latestReleaseDate: 2024-07-16
+    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
 
 -   releaseCycle: "10"
     releaseLabel: "10 (<abbr title='Short Term Support'>STS</abbr>)"
@@ -182,10 +182,10 @@ releases:
     releaseDate: 2014-04-08 # https://www.azul.com/newsroom/azul-systems-extends-zulu-runtime-for-java-to-support-java-8/
     eol: 2030-12-31
     eoes: 2032-12-31
-    latest: "8.76.0.17"
-    latestJdkVersion: "8u402-b06"
-    latestReleaseDate: 2024-01-16
-    link: https://docs.azul.com/core/release/january-2024/release-notes/release-notes
+    latest: "8.80.0.17"
+    latestJdkVersion: "8u422-b05"
+    latestReleaseDate: 2024-07-16
+    link: https://docs.azul.com/core/release/july-2024/release-notes/release-notes
 
 -   releaseCycle: "6"
     lts: true
