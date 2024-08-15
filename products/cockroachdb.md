@@ -176,8 +176,9 @@ releases classified as a Regular release or an Innovation release. New releases 
 for two weeks before binaries are published for CockroachDB Self-Hosted downloads.
 
 - **Regular (GA)** Releases offer 1 year of Maintenance Support, and Assistance Support for 6 months beyond that.
-  Regular Releases since v23.1 can upgrade to become an **LTS Release**, after it demonstrates a continuously high
-  level of stability and performance. The LTS release offers 1 year of Maintenance Support from the date of the LTS
+  Regular Releases since v23.1 can upgrade to become an LTS Release after it demonstrates a continuously high
+  level of stability and performance.
+- **Long Term Support(LTS)** Release offers 1 year of Maintenance Support from the date of the first LTS
   patch release, followed by 1 year of Assistance Support.
 - **Innovation** Releases do not have LTS releases. They offer 6 months of Maintenance Support.
 
