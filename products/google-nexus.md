@@ -1,7 +1,7 @@
 ---
 title: Google Nexus
 category: device
-tags: google mobile-phone tablet
+tags: discontinued google mobile-phone tablet
 iconSlug: google
 permalink: /google-nexus
 versionCommand: "Settings -> About Phone -> Regulatory labels"
