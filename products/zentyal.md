@@ -6,7 +6,7 @@ permalink: /zentyal
 releasePolicyLink: https://zentyal.com/release-policy/
 releaseDateColumn: true
 eolColumn: Development Edition Support
-eoesColumnLabel: Commercial Support
+eoesColumn: Commercial Support
 
 customColumns:
 -   property: ubuntuVersion
