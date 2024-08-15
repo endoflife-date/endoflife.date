@@ -171,16 +171,16 @@ releases:
 > [support and upgrade policy](https://www.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
 
 CockroachDB follows a three-component [calendar versioning scheme](https://www.cockroachlabs.com/docs/releases/#release-naming).
-Cockroach Labs releases a major version of CockroachDB once per quarter, alternating between
-releases classified as a Regular release or an Innovation release. New releases are made available for CockroachDB Cloud clusters
-for two weeks before binaries are published for CockroachDB Self-Hosted downloads.
+A major version of CockroachDB is released once per quarter, alternating between
+a Regular release or an Innovation release. New releases are made available for CockroachDB Cloud clusters
+for two weeks before binaries are published for Self-Hosted downloads.
 
-- **Regular (GA)** Releases offer 1 year of Maintenance Support, and Assistance Support for 6 months beyond that.
-  Regular Releases since v23.1 can upgrade to become an LTS Release after it demonstrates a continuously high
+- **Regular (GA)** Releases offer 1 year of Maintenance Support, followed by 6 months of Assistance Support.
+  Regular Releases since v23.1 can upgrade to become an LTS Release after they demonstrate a continuously high
   level of stability and performance.
-- **Long Term Support(LTS)** Release offers 1 year of Maintenance Support from the date of the first LTS
+- **Long Term Support(LTS)** Releases offer 1 year of Maintenance Support from the date of the first LTS
   patch release, followed by 1 year of Assistance Support.
-- **Innovation** Releases do not have LTS releases. They offer 6 months of Maintenance Support.
+- **Innovation** offer 6 months of Maintenance Support. They do not have LTS releases. 
 
 ## Support Levels
 
