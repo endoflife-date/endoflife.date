@@ -169,13 +169,11 @@ releases:
 > {: .warning }
 > This page tracks the CockroachDB Self-Hosted releases - the Cloud and Serverless releases have their own
 > [support and upgrade policy](https://www.cockroachlabs.com/docs/cockroachcloud/upgrade-policy).
-> CockroachDB is released under a [staged delivery process](https://www.cockroachlabs.com/docs/releases/staged-release-process),
-> New releases are made available for CockroachDB Cloud clusters for two weeks before binaries are published for CockroachDB Self-Hosted downloads.
-> [CockroachDB Cloud](https://www.cockroachlabs.com/docs/releases/cloud) supports the latest major version of
-> CockroachDB and the version immediately preceding it.
 
 CockroachDB follows a three-component [calendar versioning scheme](https://www.cockroachlabs.com/docs/releases/#release-naming).
-Cockroach Labs releases a major version of CockroachDB once per quarter, alternating between releases classified as a Regular release or an Innovation release.
+Cockroach Labs releases a major version of CockroachDB once per quarter, alternating between
+releases classified as a Regular release or an Innovation release. New releases are made available for CockroachDB Cloud clusters
+for two weeks before binaries are published for CockroachDB Self-Hosted downloads.
 
 - **Regular (GA)** Releases offer 1 year of Maintenance Support, and Assistance Support for 6 months beyond that.
   Regular Releases since v23.1 can upgrade to become an **LTS Release**, after it demonstrates a continuously high
