@@ -20,8 +20,8 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/scala/scala.git # Scala < 3
-  -   git: https://github.com/lampepfl/dotty.git # Scala >= 3
+  -   github_releases: scala/scala # Scala < 3
+  -   github_releases: lampepfl/dotty # Scala >= 3
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
