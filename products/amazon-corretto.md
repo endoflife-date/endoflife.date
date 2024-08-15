@@ -15,31 +15,31 @@ releaseDateColumn: true
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
 auto:
   methods:
-  -   github_releases: "corretto/corretto-jdk"
+  -   github_releases: corretto/corretto-jdk
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-8"
+  -   github_releases: corretto/corretto-8
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-11"
+  -   github_releases: corretto/corretto-11
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-17"
+  -   github_releases: corretto/corretto-17
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-18"
+  -   github_releases: corretto/corretto-18
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-19"
+  -   github_releases: corretto/corretto-19
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-20"
+  -   github_releases: corretto/corretto-20
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-21"
+  -   github_releases: corretto/corretto-21
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   github_releases: "corretto/corretto-22"
+  -   github_releases: corretto/corretto-22
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
   -   release_table: https://aws.amazon.com/corretto/faqs/

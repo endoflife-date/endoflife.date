@@ -14,7 +14,7 @@ identifiers:
 
 auto:
   methods:
-  -   github_releases: "keycloak/keycloak"
+  -   github_releases: keycloak/keycloak
 
 # eol(x) = release(x+1)
 releases:

@@ -424,7 +424,7 @@ identifiers:
 # There is one repository for each major release (except for 15 and 16).
 auto:
   methods:
-  -   github_releases: "bell-sw/Liberica"
+  -   github_releases: bell-sw/Liberica
       regex:
       -   '^(?P<version>[0-9.u+]+)$'
       -   '^OpenJDK (?P<version>[0-9.u+]+)$'
