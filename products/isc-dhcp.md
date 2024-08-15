@@ -1,6 +1,7 @@
 ---
 title: ISC DHCP
 category: server-app
+tags: discontinued
 permalink: /isc-dhcp
 releasePolicyLink: https://kb.isc.org/docs/aa-00896#isc-dhcp-eol
 changelogTemplate: https://ftp.isc.org/isc/dhcp/__LATEST__/dhcp-__LATEST__-RELNOTES

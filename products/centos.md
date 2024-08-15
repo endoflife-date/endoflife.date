@@ -1,7 +1,7 @@
 ---
 title: CentOS
 category: os
-tags: linux-distribution
+tags: discontinued linux-distribution
 iconSlug: centos
 permalink: /centos
 versionCommand: cat /etc/redhat-release
