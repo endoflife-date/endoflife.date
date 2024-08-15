@@ -26,22 +26,22 @@ releases:
     releaseDate: 2024-06-21
     eoas: false
     eol: false
-    latest: "11.1.3"
-    latestReleaseDate: 2024-07-26
+    latest: "11.1.4"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eoas: false
     eol: false
-    latest: "11.0.2"
-    latestReleaseDate: 2024-07-23
+    latest: "11.0.3"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
     eoas: false
     eol: false
-    latest: "10.4.6"
-    latestReleaseDate: 2024-07-23
+    latest: "10.4.7"
+    latestReleaseDate: 2024-07-30
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22

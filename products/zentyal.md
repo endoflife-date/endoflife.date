@@ -32,51 +32,51 @@ auto:
 releases:
 -   releaseCycle: "8"
     ubuntuVersion: "22.04"
-    releaseDate: 2024-02-01
+    releaseDate: 2024-02-29
     eol: false
-    eoes: 2027-04-01
+    eoes: 2027-04-30
 
 -   releaseCycle: "7"
     ubuntuVersion: "20.04"
-    releaseDate: 2021-01-01
+    releaseDate: 2021-01-31
     eol: 2024-02-01
-    eoes: 2025-04-01
+    eoes: 2025-04-30
 
 -   releaseCycle: "6"
     ubuntuVersion: "18.04"
-    releaseDate: 2018-11-01
+    releaseDate: 2018-11-30
     eol: 2021-01-01
-    eoes: 2023-04-01
+    eoes: 2023-04-30
 
 -   releaseCycle: "5"
     ubuntuVersion: "16.04"
-    releaseDate: 2016-01-01
+    releaseDate: 2016-11-30
     eol: 2018-11-01
-    eoes: 2021-04-01
+    eoes: 2021-04-30
 
 -   releaseCycle: "4"
     ubuntuVersion: "14.04"
-    releaseDate: 2014-10-01
+    releaseDate: 2014-10-31
     eol: 2016-01-01
-    eoes: 2019-04-01
+    eoes: 2019-04-30
 
 -   releaseCycle: "3.2"
     ubuntuVersion: "12.04"
-    releaseDate: 2013-09-01
+    releaseDate: 2013-09-30
     eol: 2014-10-01
-    eoes: 2018-03-01
+    eoes: 2018-03-31
 
 -   releaseCycle: "3.0"
     ubuntuVersion: "12.04"
-    releaseDate: 2012-09-01
+    releaseDate: 2012-09-30
     eol: 2013-09-01
-    eoes: 2015-09-01
+    eoes: 2015-09-30
 
 -   releaseCycle: "2.2"
     ubuntuVersion: "10.04"
-    releaseDate: 2011-09-01
+    releaseDate: 2011-09-30
     eol: 2012-09-01
-    eoes: 2014-09-01
+    eoes: 2014-09-30
 
 ---
 

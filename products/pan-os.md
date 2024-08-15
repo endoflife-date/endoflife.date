@@ -86,7 +86,7 @@ releases:
     releaseDate: 2019-02-06
     eol: 2022-03-01
     latest: "9.0.17-h5"
-    latestReleaseDate: 2023-11-30
+    latestReleaseDate: 2023-12-30
     link: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-release-notes/pan-os-9-0-addressed-issues/pan-os-9-0-17-h5-addressed-issues
 
 -   releaseCycle: "8.1"
@@ -175,6 +175,7 @@ releases:
     releaseDate: 2007-11-15
     eol: 2008-11-20
     latest: ""
+
 
 
 
