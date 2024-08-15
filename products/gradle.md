@@ -35,8 +35,8 @@ releases:
     testedAndroidVersions: 7.3 - 8.3
     eoas: false
     eol: false
-    latest: "8.9.0"
-    latestReleaseDate: 2024-07-06
+    latest: "8.10.0"
+    latestReleaseDate: 2024-08-13
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
