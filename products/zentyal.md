@@ -5,7 +5,8 @@ tags: linux-distribution
 permalink: /zentyal
 releasePolicyLink: https://zentyal.com/release-policy/
 releaseDateColumn: true
-eoasColumnLabel: Commercial Support
+eolColumn: Development Edition Support
+eoesColumnLabel: Commercial Support
 
 customColumns:
 -   property: ubuntuVersion
