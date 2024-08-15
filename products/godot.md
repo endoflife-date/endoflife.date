@@ -28,6 +28,13 @@ auto:
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release
 releases:
+-   releaseCycle: "4.3"
+    releaseDate: 2024-08-15
+    eoas: false
+    eol: false
+    latest: "4.3.0"
+    latestReleaseDate: 2024-08-15
+
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-29
     eoas: false
