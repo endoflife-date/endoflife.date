@@ -6,9 +6,22 @@ releasePolicyLink: https://support.claris.com/s/article/Claris-support-policy
 releaseColumn: false
 eolColumn: Support
 
-
 identifiers:
 -   repology: filemaker-pro
+
+auto:
+  methods:
+  -   release_table: https://support.claris.com/s/article/Claris-support-policy
+      selector: table
+      header_selector: "tr:nth-of-type(1)"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: Product version
+          regex: '^FileMaker (?P<value>\d+(\.\d+)?)$'
+        releaseDate: "Release Date"
+        eol: "EOL date"
 
 releases:
 -   releaseCycle: "2023"
