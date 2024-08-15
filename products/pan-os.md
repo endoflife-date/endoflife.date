@@ -13,6 +13,7 @@ eolColumn: End-of-life Date
 
 auto:
   methods:
+  -   custom: pan-os
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
       selector: "table#pan-os-panorama"
       header_selector: "tr:nth-of-type(3)"
