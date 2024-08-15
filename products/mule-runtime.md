@@ -22,8 +22,8 @@ releases:
     releaseDate: 2024-02-06
     eoas: 2025-02-06
     eol: 2026-02-06
-    latest: "4.6.3"
-    latestReleaseDate: 2024-05-15 # no exact date
+    latest: "4.6.6"
+    latestReleaseDate: 2024-08-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.6.0-release-notes
 
 -   releaseCycle: "4.5"
