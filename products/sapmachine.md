@@ -10,7 +10,7 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   github_releases: "SAP/SapMachine"
+  -   github_releases: SAP/SapMachine
       regex: '^sapmachine-(?P<version>[\d\.]+)$'
       template: '{{version}}'
 

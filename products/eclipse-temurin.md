@@ -17,31 +17,31 @@ releaseDateColumn: true
 # See https://regex101.com/r/vwUz2w/1 and https://regex101.com/r/507aSh/1.
 auto:
   methods:
-  -   github_releases: "adoptium/temurin8-binaries"
+  -   github_releases: adoptium/temurin8-binaries
       regex: '^jdk(?P<version>8u[\d]+(-[a-z][\d\.]+))$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin11-binaries"
+  -   github_releases: adoptium/temurin11-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin16-binaries"
+  -   github_releases: adoptium/temurin16-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin17-binaries"
+  -   github_releases: adoptium/temurin17-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin18-binaries"
+  -   github_releases: adoptium/temurin18-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin19-binaries"
+  -   github_releases: adoptium/temurin19-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin20-binaries"
+  -   github_releases: adoptium/temurin20-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin21-binaries"
+  -   github_releases: adoptium/temurin21-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
-  -   github_releases: "adoptium/temurin22-binaries"
+  -   github_releases: adoptium/temurin22-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
   -   release_table: https://adoptium.net/support/
