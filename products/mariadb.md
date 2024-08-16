@@ -59,6 +59,13 @@ auto:
         eol: "End-of-life"
 
 releases:
+-   releaseCycle: "11.5"
+    lts: false
+    releaseDate: 2024-08-14
+    eol: 2029-05-29
+    latest: "11.5.2"
+    latestReleaseDate: 2024-08-14
+
 -   releaseCycle: "11.4"
     lts: true
     releaseDate: 2024-05-29
