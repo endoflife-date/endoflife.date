@@ -50,8 +50,14 @@ auto:
       -   ^mariadb-(?P<major>11)\.(?P<minor>2)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>3)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>4)\.(?P<patch>([2-9]|\d{2}))$
+  -   release_table: https://mariadb.org/about/#maintenance-policy
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle: "Release series"
+        releaseDate: "Stable (GA) Date"
+        eol: "End-of-life"
 
-# releaseDate and eol see https://mariadb.org/about/#maintenance-policy
 releases:
 -   releaseCycle: "11.4"
     lts: true
