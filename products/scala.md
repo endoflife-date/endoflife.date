@@ -18,10 +18,12 @@ identifiers:
 -   cpe: cpe:/a:scala-lang:scala
 -   cpe: cpe:2.3:a:scala-lang:scala
 
+# Some old scala releases are only tagged and don't have any associated GitHub releases.
+# But releases may be tagged from a few days to a few weeks to before being officially released, so overall using GitHub releases is better.
 auto:
   methods:
-  -   git: https://github.com/scala/scala.git # Scala < 3
-  -   git: https://github.com/lampepfl/dotty.git # Scala >= 3
+  -   github_releases: scala/scala # Scala < 3
+  -   github_releases: lampepfl/dotty # Scala >= 3
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
