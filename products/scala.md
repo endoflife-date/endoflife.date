@@ -18,6 +18,8 @@ identifiers:
 -   cpe: cpe:/a:scala-lang:scala
 -   cpe: cpe:2.3:a:scala-lang:scala
 
+# Some old scala releases are only tagged and don't have any associated GitHub releases.
+# But releases may be tagged from a few days to a few weeks to before being officially released, so overall using GitHub releases is better.
 auto:
   methods:
   -   github_releases: scala/scala # Scala < 3
