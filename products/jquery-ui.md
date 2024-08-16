@@ -21,7 +21,7 @@ releases:
     releaseDate: 2024-08-05
     eol: false
     latest: "1.14.0"
-	link: https://blog.jqueryui.com/2024/08/jquery-ui-1-14-0-released/
+    link: https://blog.jqueryui.com/2024/08/jquery-ui-1-14-0-released/
 
 -   releaseCycle: "1.13"
     releaseDate: 2021-10-07
@@ -74,7 +74,9 @@ releases:
 
 ---
 
-> [jQuery UI](https://jqueryui.com/) is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery.
+
+> [jQuery UI](https://jqueryui.com/) is a collection of GUI widgets, animated
+> visual effects, and themes implemented with jQuery.
 
 
 Only the latest version line is supported. The 1.13.x and below no longer receive
