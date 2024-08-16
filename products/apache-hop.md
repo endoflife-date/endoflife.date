@@ -12,7 +12,7 @@ eolColumn: Support
 
 auto:
   methods:
-  -   github_releases: 'apache/hop'
+  -   maven: 'org.apache.hop/hop-engine'
 
 # eol(x) = releaseDate(x+1)
 releases:
