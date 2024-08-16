@@ -25,13 +25,13 @@ auto:
 
 releases:
 -   releaseCycle: "2023"
-    releaseDate: 2023-06-06
-    eol: 2025-04-01
+    releaseDate: 2023-04-30
+    eol: 2025-04-30
     link: https://help.claris.com/en/server-release-notes/content/index.html
 
 -   releaseCycle: "19"
-    releaseDate: 2020-05-01
-    eol: 2024-12-01
+    releaseDate: 2020-05-31
+    eol: 2022-05-31
     link: https://support.claris.com/s/answerview?anum=000036046
 
 -   releaseCycle: "18"

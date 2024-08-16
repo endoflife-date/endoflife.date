@@ -523,7 +523,7 @@ releases:
     eol: 2018-09-25
     latest: "10.0.2"
     # last modified date of the files in https://download.bell-sw.com/java/10.0.2/bellsoft-jdk10.0.2-linux-amd64.deb
-    latestReleaseDate: 2018-08-24
+    latestReleaseDate: 2018-08-05
 
 # There are no 9 releases on https://bell-sw.com/pages/downloads/
 

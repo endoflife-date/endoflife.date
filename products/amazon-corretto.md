@@ -125,7 +125,7 @@ releases:
     releaseDate: 2020-09-24
     eol: 2021-04-20
     latest: "15.0.2.7.1"
-    latestReleaseDate: 2021-01-21
+    latestReleaseDate: 2021-01-22
     link: https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271
 
 -   releaseCycle: "11"

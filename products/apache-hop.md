@@ -34,14 +34,14 @@ releases:
     releaseDate: 2023-11-17
     eol: 2024-03-13
     latest: '2.7.0'
-    latestReleaseDate: 2023-11-17
+    latestReleaseDate: 2023-12-01
     link: https://hop.apache.org/blog/2023/12/hop-2.7.0/
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-09-12
     eol: 2023-12-01
     latest: '2.6.0'
-    latestReleaseDate: 2023-09-12
+    latestReleaseDate: 2023-09-23
     link: https://hop.apache.org/blog/2023/09/hop-2.6.0/
 
 -   releaseCycle: "2.5"
@@ -66,10 +66,10 @@ releases:
     link: https://hop.apache.org/blog/2023/01/hop-2.3.0/
 
 -   releaseCycle: "2.2"
-    releaseDate: 2022-12-07
+    releaseDate: 2022-12-02
     eol: 2023-01-27
     latest: '2.2.0'
-    latestReleaseDate: 2022-12-07
+    latestReleaseDate: 2022-12-02
     link: https://hop.apache.org/blog/2022/12/hop-2.2.0/
 
 -   releaseCycle: "2.1"
