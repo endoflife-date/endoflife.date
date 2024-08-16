@@ -19,6 +19,13 @@ auto:
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:
+-   releaseCycle: "24.14"
+    releaseDate: 2024-08-14
+    eol: 2024-11-30
+
+    latest: '24.14'
+    latestReleaseDate: 2024-08-14
+
 -   releaseCycle: "24.12"
     releaseDate: 2024-07-10
     lts: 2024-09-01
@@ -26,6 +33,7 @@ releases:
 
     latest: '24.12'
     latestReleaseDate: 2024-07-10
+
 -   releaseCycle: "24.10"
     releaseDate: 2024-06-12
     eol: 2024-09-30
