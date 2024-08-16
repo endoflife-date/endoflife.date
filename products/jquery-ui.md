@@ -25,7 +25,7 @@ releases:
 
 -   releaseCycle: "1.13"
     releaseDate: 2021-10-07
-    eol: true
+    eol: 2024-08-05
     latest: "1.13.3"
     latestReleaseDate: 2024-04-26
     link: https://blog.jqueryui.com/2024/04/jquery-ui-1-13-3-released/
@@ -79,19 +79,13 @@ releases:
 > visual effects, and themes implemented with jQuery.
 
 
-Only the latest version line is supported. The 1.13.x and below no longer receive
-patches.
+The support and EOL policy is not clearly defined. Looking at past releases,
+it seems that only the latest release is actively maintained.
 
 ## [Browser Support](https://jqueryui.com/browser-support/)
 
-jQuery UI 1.14.x supports the current stable version of each supported browser.  
-jQuery UI 1.13.x was the last version line to support IE 11 and Edge Legacy 18.
-
-| Browser | Support Versions      |
-|---------|-----------------------|
-| Chrome  | Latest stable release |
-| Edge    | Latest stable release |
-| Firefox | Latest stable release |
-| Safari  | Latest stable release |
-
+JQuery UI supports the latest stable releases of Chrome, Edge, Firefox,
+and Safari. While it might run without major issues in older browser
+versions, it is not actively tested against and bug fixes only impacting
+other browsers might not be fixed.
 
