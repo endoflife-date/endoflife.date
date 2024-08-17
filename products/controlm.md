@@ -57,6 +57,7 @@ releases:
     link: https://documents.bmc.com/supportu/952/78/79/477879/477879.pdf
 
 ---
+
 > [Control-M](https://www.bmc.com/it-solutions/control-m.html) is an enterprise workload automation solution that helps organizations manage and orchestrate their business processes, applications, and data workflows.
 
 {: .warning }
