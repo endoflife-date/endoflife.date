@@ -59,4 +59,8 @@ releases:
 ---
 > [Control-M](https://www.bmc.com/it-solutions/control-m.html) is an enterprise workload automation solution that helps organizations manage and orchestrate their business processes, applications, and data workflows.
 
+{: .warning }
+> This page is using the dates from [Control-M/Server for UNIX and Microsoft Windows](https://webapps.bmc.com/support/faces/az/prodallversions.jsp?seqid=122988),
+> which are largely shared by the other Control-M components on [the Supported Product List page](https://webapps.bmc.com/support/faces/az/supportlisting.jsp).
+
 BMC provides at least three years of full support from the release date of each release, with a further two years of limited support for high impact problems.
