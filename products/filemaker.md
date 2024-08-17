@@ -25,7 +25,7 @@ auto:
 
 releases:
 -   releaseCycle: "2024"
-    releaseDate: 2024-06-30
+    releaseDate: 2024-06-04 # https://community.claris.com/en/s/question/0D5Vy000009idtMKAQ/introducing-claris-filemaker-2024
     eol: 2026-06-30
     link: https://help.claris.com/en/server-release-notes/content/index.html
 
