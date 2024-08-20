@@ -19,7 +19,6 @@ releaseDateColumn: true
 eoesColumn: true
 
 releases:
-releases:
 -   releaseCycle: "2407"
     releaseDate: 2024-07-31
     eoas: 2024-12-31
