@@ -21,6 +21,22 @@ releaseDateColumn: true
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+-   releaseCycle: "R560-Linux (NFB)"
+    releaseDate: 2024-08-21
+    eoas: true
+    eol: 2025-08-01
+    latest: "560.35.03"
+    latestReleaseDate: 2024-08-21
+    link: https://www.nvidia.com/Download/driverResults.aspx/230918/
+
+-   releaseCycle: "R560-Windows (NFB)"
+    releaseDate: 2024-07-30
+    eoas: true
+    eol: 2025-07-01
+    latest: "560.76"
+    latestReleaseDate: 2024-07-30
+    link: https://www.nvidia.com/Download/driverResults.aspx/230555/
+
 -   releaseCycle: "R555-Linux (NFB)"
     releaseDate: 2024-06-04
     eoas: true
