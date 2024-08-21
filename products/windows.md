@@ -154,7 +154,7 @@ releases:
 
 -   releaseCycle: "10-1903"
     releaseLabel: "10 1903"
-    releaseDate: 2019-08-29
+    releaseDate: 2019-05-21
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
