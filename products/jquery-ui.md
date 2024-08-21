@@ -23,6 +23,7 @@ releases:
     latest: "1.14.0"
     link: https://blog.jqueryui.com/2024/08/jquery-ui-1-14-0-released/
 
+    latestReleaseDate: 2024-08-05
 -   releaseCycle: "1.13"
     releaseDate: 2021-10-07
     eol: 2024-08-05
@@ -34,7 +35,7 @@ releases:
     releaseDate: 2016-04-21
     eol: 2021-10-07
     latest: "1.12.1"
-    latestReleaseDate: 2016-09-15
+    latestReleaseDate: 2016-09-14
     link: https://blog.jqueryui.com/2016/09/jquery-ui-1-12-1/
 
 -   releaseCycle: "1.11"
@@ -52,28 +53,27 @@ releases:
     link: https://blog.jqueryui.com/2014/01/jquery-ui-1-10-4/
 
 -   releaseCycle: "1.9"
-    releaseDate: 2012-10-08
+    releaseDate: 2012-10-05
     eol: 2013-01-17
     latest: "1.9.2"
     latestReleaseDate: 2012-11-23
     link: https://blog.jqueryui.com/2012/11/jquery-ui-1-9-2/
 
 -   releaseCycle: "1.8"
-    releaseDate: 2010-03-23
+    releaseDate: 2010-03-18
     eol: 2012-10-08
     latest: "1.8.24"
     latestReleaseDate: 2012-09-28
     link: https://blog.jqueryui.com/2012/09/jquery-ui-1-8-24/
 
 -   releaseCycle: "1.7"
-    releaseDate: 2009-03-06
+    releaseDate: 2009-03-03
     eol: 2010-03-23
     latest: "1.7.3"
     latestReleaseDate: 2010-05-04
     link: https://blog.jqueryui.com/2010/05/jquery-ui-173/
 
 ---
-
 
 > [jQuery UI](https://jqueryui.com/) is a collection of GUI widgets, animated
 > visual effects, and themes implemented with jQuery.
@@ -88,4 +88,3 @@ JQuery UI supports the latest stable releases of Chrome, Edge, Firefox,
 and Safari. While it might run without major issues in older browser
 versions, it is not actively tested against and bug fixes only impacting
 other browsers might not be fixed.
-
