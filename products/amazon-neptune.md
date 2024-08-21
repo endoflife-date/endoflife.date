@@ -29,92 +29,92 @@ auto:
 releases:
 -   releaseCycle: "1.3.3.0"
     releaseDate: 2024-08-05
-    upgradeVersion: N/A
-    eol: 2025-11-30
+    upgradeVersion: '1.4.0.0'
+    eol: 2027-03-06
     latest: "1.3.3.0"
     latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "1.2.1.2"
     releaseDate: 2024-08-05
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.1.2"
     latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "1.3.2.1"
     releaseDate: 2024-06-20
     upgradeVersion: "1.3.3.0"
-    eol: 2025-11-30
+    eol: 2027-03-06
     latest: "1.3.2.1"
     latestReleaseDate: 2024-06-20
 
 -   releaseCycle: "1.3.2.0"
     releaseDate: 2024-06-06
     upgradeVersion: "1.3.2.1"
-    eol: 2025-11-30
+    eol: 2027-03-06
     latest: "1.3.2.0"
     latestReleaseDate: 2024-06-10
 
 -   releaseCycle: "1.2.1.1"
     releaseDate: 2024-03-11
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.1.1"
     latestReleaseDate: 2024-03-11
 
 -   releaseCycle: "1.3.1.0"
     releaseDate: 2024-03-06
     upgradeVersion: "1.3.2.1"
-    eol: 2025-11-30
+    eol: 2027-03-06
     latest: "1.3.1.0"
     latestReleaseDate: 2024-03-06
 
 -   releaseCycle: "1.3.0.0"
     releaseDate: 2023-11-15
     upgradeVersion: "1.3.2.1"
-    eol: 2025-11-30
+    eol: 2027-03-06
     latest: "1.3.0.0"
     latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "1.2.1.0"
     releaseDate: 2023-03-08
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.1.0.R7"
     latestReleaseDate: 2023-10-06
 
 -   releaseCycle: "1.2.0.2"
     releaseDate: 2022-11-20
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.0.2.R6"
     latestReleaseDate: 2023-09-12
 
 -   releaseCycle: "1.2.0.1"
     releaseDate: 2022-10-26
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.0.1.R3"
     latestReleaseDate: 2023-09-27
 
 -   releaseCycle: "1.2.0.0"
     releaseDate: 2022-07-21
     upgradeVersion: "1.3.0.0"
-    eol: 2025-03-06
+    eol: 2026-03-06
     latest: "1.2.0.0.R4"
     latestReleaseDate: 2023-09-29
 
 -   releaseCycle: "1.1.1.0"
     releaseDate: 2022-04-19
     upgradeVersion: "1.2.1.0"
-    eol: 2024-10-31
+    eol: 2026-03-06
     latest: "1.1.1.0.R7"
     latestReleaseDate: 2023-01-23
 
 -   releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
-    eol: 2024-10-31
+    eol: 2026-03-06
     latest: "1.1.0.0.R2"
     latestReleaseDate: 2022-05-16
 
