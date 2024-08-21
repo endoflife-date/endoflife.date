@@ -9,6 +9,8 @@ alternate_urls:
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
 releaseDateColumn: true
+eolColumn: Standard Maintenance
+eoesColumn: Extended Maintenance
 versionCommand: vault --version
 
 identifiers:
@@ -21,6 +23,7 @@ auto:
   -   git: https://github.com/hashicorp/vault.git
 
 # eol(x) = release(x+3)
+# eoes(x) = releaseDate(x+6)
 releases:
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-10
@@ -30,7 +33,9 @@ releases:
 
 -   releaseCycle: "1.16"
     releaseDate: 2024-03-25
+    lts: true
     eol: false
+    eoes: 2026-03-15 # approximate = releaseDate(1.22)
     latest: "1.16.3"
     latestReleaseDate: 2024-05-29
 
@@ -82,11 +87,23 @@ releases:
 > provides a unified interface to any secret, while providing tight access control and recording a
 > detailed audit log.
 
-Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
-code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major
-release" branch, for up to two (2) releases from the most current major release.
+- **Generally Available (GA)** releases of active products are supported under standard maintenance approximately
+for a year. The standard support period and end of life policy covers "N−2" versions,
+which means, at any given time, HashiCorp maintains the current version ("N") and the two previous versions ("N−2").
+
+- **Long-Term-Support (LTS)** releases offers extended maintenance through minor releases for select,
+major **Vault Enterprise** releases. After the first year, LTS releases move from standard maintenance
+to extended maintenance for an additional year.
+
+## Maintenance Levels
+
+- **Standard Maintenance** includes new features, bug fixes, and security patches.
+- **Extended Maintenance** (only availble for LTS releases for Vault Enterprise customers) only includes
+  patches for bugs that may cause outages and critical vulnerabilities and exposures (CVEs).
+
+## Versioning and Release Cadence
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
-versioning nomenclature: `Version X.Y.Z.`
-
-Hashicorp uses the same support period and EoL Policy for all its products.
+versioning nomenclature: `Version X.Y.Z.` Vault typically has 3 major releases every year. LTS releases
+overlap by one year, allowing upgrade time for Enterprise customers. Upgrading from version LTS to LTS+1 
+may require transitional upgrades to move through the intermediate Vault versions.
