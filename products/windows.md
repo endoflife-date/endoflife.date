@@ -276,7 +276,7 @@ releases:
     eol: 2025-10-14
     latest: 10.0.10240
     link: https://learn.microsoft.com/windows/release-health/supported-versions-windows-client#enterprise-and-iot-enterprise-ltsbltsc-editions
-    
+
     # This cycle includes 10 1507 (E) non-LTS version
 -   releaseCycle: "10-1507"
     releaseLabel: "10 1507"
