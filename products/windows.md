@@ -198,7 +198,7 @@ releases:
     releaseLabel: "10 1803 (W)"
     releaseDate: 2018-04-30
     eoas: 2019-11-12
-    eol: 2020-05-11
+    eol: 2019-11-12
     latest: 10.0.17134
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-end-of-servicing
 
