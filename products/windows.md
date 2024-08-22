@@ -268,6 +268,15 @@ releases:
     latest: 10.0.10586
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1511-end-of-servicing
 
+-   releaseCycle: "10-1507-iot"
+    releaseLabel: "10 1507 IOT"
+    releaseDate: 2015-04-29
+    lts: false
+    eoas: 2020-11-10
+    eol: 2020-11-10
+    latest: 10.0.10240
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-core
+    
 -   releaseCycle: "10-1507-e-lts"
     releaseLabel: "10 1507 (E)"
     releaseDate: 2015-07-29
