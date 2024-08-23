@@ -1,12 +1,14 @@
 ---
-title: VMware Horizon
+title: Omnissa Horizon
 category: app
-tags: vmware
+tags: omnissa
 iconSlug: vmware
 permalink: /horizon
 alternate_urls:
 -   /vmwarehorizon
 -   /vmware-horizon
+-   /omnissahorizon
+-   omnissa-horizon
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
@@ -14,6 +16,24 @@ releaseDateColumn: true
 eolColumn: General Support
 
 releases:
+-   releaseCycle: "8.2406"
+    releaseDate: 2024-06-25
+    latest: "8.2406"
+    latestReleaseDate: 2024-06-25
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2406/page/Horizon8-ReleaseNotes.html
+
+-   releaseCycle: "8.2312.1"
+    releaseDate: 2024-04-04
+    latest: "8.2312.1"
+    latestReleaseDate: 2024-04-04
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2312.1/page/Horizon8-ReleaseNotes.html
+
+-   releaseCycle: "8.2312"
+    releaseDate: 2024-01-23
+    latest: "8.2312"
+    latestReleaseDate: 2024-01-23
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2312/page/Horizon8-ReleaseNotes.html
+
 -   releaseCycle: "8.2309"
     releaseDate: 2023-10-26
     eol: 2026-10-26
@@ -133,7 +153,7 @@ releases:
 
 ---
 
-> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with
+> [Omnissa Horizon](https://www.omnissa.com/horizon-8/) enables a digital workspace with
 > the efficient delivery of virtual desktops and applications that equips workers anywhere,
 > anytime, and on any device.
 
