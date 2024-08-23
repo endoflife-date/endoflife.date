@@ -28,7 +28,7 @@ auto:
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "3.5"
-    releaseDate: 2024-02-22
+    releaseDate: 2024-08-22
     eoas: false
     eol: false
     latest: "3.5.0"
