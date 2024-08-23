@@ -23,7 +23,7 @@ releases:
 -   releaseCycle: "3.24"
     releaseDate: 2024-07-22
     lts: true
-    eol: 2027-07-22
+    eol: 2027-07-31
     latest: "3.24.0"
     latestReleaseDate: 2024-07-22
 
@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "3.21"
     releaseDate: 2022-12-21
     lts: true
-    eol: 2025-12-21
+    eol: 2025-12-31
     latest: "3.21.5"
     latestReleaseDate: 2024-06-20
 
@@ -63,7 +63,7 @@ releases:
 -   releaseCycle: "3.18"
     releaseDate: 2021-06-24
     lts: true
-    eol: 2024-06-24
+    eol: 2024-08-31
     latest: "3.18.8"
     latestReleaseDate: 2024-06-20
     link: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/guide-latest-release-whatsnew-changelog-core.html
