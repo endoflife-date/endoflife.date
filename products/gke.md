@@ -20,6 +20,13 @@ auto:
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # eoas:last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.30"
+    releaseDate: 2024-07-30
+    eoas: 2025-09-30
+    eol: 2025-11-30
+    latest: '1.30.0'
+    latestReleaseDate: 2024-07-30
+    
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-01-31
