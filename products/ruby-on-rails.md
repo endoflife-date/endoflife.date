@@ -16,9 +16,9 @@ eolColumn: Security Support
 eoasColumn: Active Support
 
 identifiers:
-  - repology: ruby:rails
-  - purl: pkg:gem/rails
-  - purl: pkg:github/rails/rails
+-   repology: ruby:rails
+-   purl: pkg:gem/rails
+-   purl: pkg:github/rails/rails
 
 auto:
   methods:
@@ -30,15 +30,15 @@ releases:
     releaseDate: 2024-08-09
     eoas: 2025-08-09
     eol: 2026-08-09
-    latest: "7.2.0"
-    latestReleaseDate: 2024-08-09
+    latest: "7.2.1"
+    latestReleaseDate: 2024-08-22
 
 -   releaseCycle: "7.1"
     releaseDate: 2023-10-05
     eoas: 2024-10-01
     eol: 2025-10-01 # see https://rubyonrails.org/maintenance
-    latest: "7.1.3.4"
-    latestReleaseDate: 2024-06-04
+    latest: "7.1.4"
+    latestReleaseDate: 2024-08-22
 
 -   releaseCycle: "7.0"
     releaseDate: 2021-12-15
