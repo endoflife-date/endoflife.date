@@ -20,7 +20,7 @@ auto:
   methods:
   -   npm: ember-source
   -   release_table: https://emberjs.com/releases/lts/
-      selector: "table:nth-of-type(1)"
+      selector: 'h2:-soup-contains("Ember.js") + table'
       fields:
         releaseCycle: "LTS version"
         lts: "Promotion date"
@@ -44,7 +44,7 @@ releases:
     eol: false # releaseDate(5.12)
     latest: "5.11.0"
     latestReleaseDate: 2024-08-19
-    
+
 -   releaseCycle: "5.10"
     releaseDate: 2024-07-08
     eoas: 2024-08-19
@@ -103,7 +103,6 @@ releases:
     latest: "5.3.0"
     latestReleaseDate: 2023-09-18
 
-    lts: 2023-12-10
 -   releaseCycle: "5.2"
     releaseDate: 2023-08-07
     eoas: 2023-09-21
