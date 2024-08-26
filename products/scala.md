@@ -39,7 +39,7 @@ releases:
     eoas: false
     eol: false
     latest: "3.4.3"
-    latestReleaseDate: 2024-08-14
+    latestReleaseDate: 2024-08-23
 
 -   releaseCycle: "3.3"
     lts: true
