@@ -286,6 +286,15 @@ releases:
     latest: 10.0.10240
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
 
+-   releaseCycle: "10-1507-iot"
+    releaseLabel: "10 1507 IOT"
+    releaseDate: 2015-04-29
+    lts: false
+    eoas: 2020-11-10
+    eol: 2020-11-10
+    latest: 10.0.10240
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-core
+
 -   releaseCycle: "8.1"
     releaseLabel: "8.1"
     releaseDate: 2013-11-13
