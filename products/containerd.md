@@ -27,8 +27,8 @@ releases:
     releaseDate: 2023-03-10
     eoas: false # releaseDate(2.0) + 6 months
     eol: false # eol(1.6)
-    latest: "1.7.20"
-    latestReleaseDate: 2024-07-17
+    latest: "1.7.21"
+    latestReleaseDate: 2024-08-26
 
 -   releaseCycle: "1.6"
     releaseDate: 2022-02-15
