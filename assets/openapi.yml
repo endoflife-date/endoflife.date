@@ -106,7 +106,7 @@ paths:
           name: cycle
           in: path
           required: true
-          description: Release Cycle for which the details must be fetched
+          description: Release Cycle for which the details must be fetched. Any slashes in the cycle name should be replaced with dashes - for example FreeBSD's releng/14.0 becomes releng-14.0.
   /api/all.json:
     get:
       summary: All Products
