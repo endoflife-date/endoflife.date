@@ -99,5 +99,3 @@ releases:
 According to ESLint’s [version support](https://eslint.org/version-support/) policy, major ESLint release lines move through a status of Current, to Maintenance, to End of Life (EOL). A release line is considered Current when prerelease work begins. At that point, the previous release line moves to Maintenance status and stays there until six months after the general availability of the Current release line. After that, the release line moves to EOL.
 
 The ESLint team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP) and have announced that commercial support for EOL branches is now available through [HeroDevs](https://www.herodevs.com/).
-
-You should be running one of the supported release numbers listed above in the rightmost column.
