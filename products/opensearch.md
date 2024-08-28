@@ -33,8 +33,8 @@ releases:
     releaseDate: 2021-07-12
     eoas: 2022-05-26
     eol: false # upcoming support(2) at least 1 year
-    latest: "1.3.18"
-    latestReleaseDate: 2024-07-11
+    latest: "1.3.19"
+    latestReleaseDate: 2024-08-19
 
 ---
 

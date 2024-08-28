@@ -37,8 +37,8 @@ releases:
 -   releaseCycle: "2.54"
     releaseDate: 2024-08-09
     eol: 2024-09-20
-    latest: "2.54.0"
-    latestReleaseDate: 2024-08-09
+    latest: "2.54.1"
+    latestReleaseDate: 2024-08-27
 
 -   releaseCycle: "2.53"
     lts: true
