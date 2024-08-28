@@ -13,7 +13,7 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/grafana/grafana
+  -   github_releases: grafana/grafana
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
@@ -22,17 +22,24 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "11.2"
+    releaseDate: 2024-08-27
+    eoas: false
+    eol: false
+    latest: "11.2.0"
+    latestReleaseDate: 2024-08-27
+
 -   releaseCycle: "11.1"
     releaseDate: 2024-06-21
-    eoas: false
+    eoas: 2024-08-27
     eol: false
     latest: "11.1.5"
     latestReleaseDate: 2024-08-23
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-05-13
-    eoas: false
-    eol: false
+    eoas: 2024-06-21
+    eol: 2024-08-27
     latest: "11.0.4"
     latestReleaseDate: 2024-08-23
 
