@@ -1,7 +1,6 @@
 ---
 title: eslint
 category: framework
-tags: [framework]
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
