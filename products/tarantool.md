@@ -20,6 +20,12 @@ auto:
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+-   releaseCycle: "3.2"
+    releaseDate: 2024-08-26
+    eol: 2026-08-26
+    latest: "3.2.0"
+    latestReleaseDate: 2024-08-26
+
 -   releaseCycle: "3.1"
     releaseDate: 2024-04-16
     eol: 2026-04-16
