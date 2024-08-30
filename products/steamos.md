@@ -7,6 +7,11 @@ permalink: /steamos
 eolColumn: Support
 releaseColumn: false
 discontinuedColumn: true
+
+identifiers:
+-   cpe: cpe:/o:valvesoftware:steamos
+-   cpe: cpe:2.3:o:valvesoftware:steamos
+
 releases:
 
 -   releaseCycle: "3"

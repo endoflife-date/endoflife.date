@@ -10,6 +10,10 @@ releaseDateColumn: true
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
 
+identifiers:
+-   cpe: cpe:/:a:akeneo:product_information_management
+-   cpe: cpe:2.3:a:akeneo:product_information_management
+
 auto:
   methods:
   -   git: https://github.com/akeneo/pim-community-dev.git

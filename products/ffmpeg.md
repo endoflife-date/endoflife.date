@@ -12,6 +12,8 @@ eolColumn: Supported
 
 identifiers:
 -   repology: ffmpeg
+-   cpe: cpe:/a:ffmpeg:ffmpeg
+-   cpe: cpe:2.3:a:ffmpeg:ffmpeg
 
 auto:
   methods:

@@ -12,6 +12,10 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   cpe: cpe:/a:kde:plasma
+-   cpe: cpe:2.3:a:kde:plasma
+
 auto:
   methods:
   -   git: https://github.com/KDE/plasma-desktop.git

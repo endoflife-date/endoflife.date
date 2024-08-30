@@ -13,6 +13,10 @@ changelogTemplate: "https://www.ibm.com/docs/aix/{{'__RELEASE_CYCLE__'|split:'.'
 releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 
+identifiers:
+-   cpe: cpe:/o:ibm:aix
+-   cpe: cpe:2.3:o:ibm:aix
+
 auto:
   methods:
   -   custom: ibm-aix

@@ -8,6 +8,10 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchang
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   cpe: cpe:/a:microsoft:exchange_server
+-   cpe: cpe:2.3:a:microsoft:exchange_server
+
 releases:
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU14 HU2"

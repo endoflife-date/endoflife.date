@@ -13,6 +13,10 @@ eoasColumn: true
 releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
+identifiers:
+-   cpe: cpe:/a:microsoft:sql_server
+-   cpe: cpe:2.3:a:microsoft:sql_server
+
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas

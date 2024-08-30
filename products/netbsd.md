@@ -10,6 +10,10 @@ changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetB
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   cpe: cpe:/o:netbsd:netbsd
+-   cpe: cpe:2.3:o:netbsd:netbsd
+
 auto:
   methods:
   -   custom: netbsd
