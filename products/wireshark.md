@@ -25,9 +25,16 @@ identifiers:
 # eoas(x) = releaseDate(x+1)
 # Only even minor releases are stable releases
 releases:
+-   releaseCycle: "4.4"
+    releaseDate: 2024-08-28
+    eoas: true
+    eol: false
+    latest: "4.4.0"
+    latestReleaseDate: 2024-08-28
+
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-15
-    eoas: true
+    eoas: 2024-08-28
     eol: false
     latest: "4.2.7"
     latestReleaseDate: 2024-08-28
@@ -35,7 +42,7 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2022-10-04
     eoas: 2023-11-15
-    eol: false
+    eol: 2024-08-28
     latest: "4.0.17"
     latestReleaseDate: 2024-08-28
 
@@ -148,7 +155,7 @@ releases:
 
 ---
 
-> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer. 
+> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer.
 
 The latest two releases are support, and receive security and bug fixes. Each release is
 supported for a minimum of 18 months, which can be extended to 24 or 30 months,
