@@ -27,12 +27,12 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.8/userguide/compatibility.html
-    runningJavaVersions: 8 - 22
-    testedJavaVersions: 8 - 22
-    testedKotlinVersions: 1.6.10 - 2.0.0
+    # Supported versions see https://docs.gradle.org/8.10/userguide/compatibility.html
+    runningJavaVersions: 8 - 23
+    testedJavaVersions: 8 - 23
+    testedKotlinVersions: 1.6.10 - 2.0.20-Beta2
     testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3 - 8.3
+    testedAndroidVersions: 7.3 - 8.4
     eoas: false
     eol: false
     latest: "8.10.0"
