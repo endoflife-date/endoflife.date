@@ -16,7 +16,7 @@ identifiers:
 -   purl: pkg:docker/chainguard/bazel
 -   purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
 -   cpe: cpe:/a:google:bazel
--   cpe: cpe:2.3:google:bazel
+-   cpe: cpe:2.3:a:google:bazel
 
 auto:
   methods:

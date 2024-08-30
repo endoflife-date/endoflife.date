@@ -12,7 +12,7 @@ releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:atlassian:confluence
--   cpe: cpe:2.3a:atlassian:confluence
+-   cpe: cpe:2.3:a:atlassian:confluence
 
 auto:
   methods:

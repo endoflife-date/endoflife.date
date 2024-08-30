@@ -13,7 +13,7 @@ eoesColumn: Commercial support
 
 identifiers:
 -   cpe: cpe:/a:shopware:shopware
--   cpe: cpe:2.3a:shopware:shopware
+-   cpe: cpe:2.3:a:shopware:shopware
 auto:
   methods:
   -   git: https://github.com/shopware/shopware.git # Shopware 6
