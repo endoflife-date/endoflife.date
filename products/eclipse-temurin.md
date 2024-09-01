@@ -11,6 +11,10 @@ releasePolicyLink: https://adoptium.net/support/
 changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries/releases/tag/jdk-__LATEST__
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:eclipse:temurin
+-   cpe: cpe:2.3:a:eclipse:temurin
+
 # There is one repository for each major release.
 # Unfortunately tag dates are wrong, for example jdk-11.0.18+10 GitHub release date is 2023-01-19
 # but tag date is 2022-08-15... We will have to use GitHub release dates instead of tags dates.

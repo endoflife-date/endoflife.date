@@ -12,6 +12,10 @@ releaseDateColumn: true
 eoasColumn: Support
 eolColumn: Security
 
+identifiers:
+-   cpe: cpe:/a:umbraco:umbraco_cms
+-   cpe: cpe:2.3:a:umbraco:umbraco_cms
+
 auto:
   methods:
   -   git: https://github.com/umbraco/Umbraco-CMS.git

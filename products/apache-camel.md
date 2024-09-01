@@ -17,6 +17,10 @@ customColumns:
     description: Supported Java versions list
     link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
+identifiers:
+-   cpe: cpe:/a:apache:camel
+-   cpe: cpe:2.3:a:apache:camel
+
 auto:
   methods:
   -   maven: org.apache.camel/camel

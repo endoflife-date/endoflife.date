@@ -10,6 +10,10 @@ eoasColumn: true
 eoesColumn: Commercial Support
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:nuxt:framework
+-   cpe: cpe:2.3:a:nuxt:framework
+
 auto:
   methods:
   -   npm: nuxt

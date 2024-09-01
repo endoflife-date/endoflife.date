@@ -9,6 +9,10 @@ changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:opnsense:opnsense
+-   cpe: cpe:2.3:a:opnsense:opnsense
+
 auto:
   methods:
   -   git: https://github.com/opnsense/core

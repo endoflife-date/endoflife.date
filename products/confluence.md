@@ -10,6 +10,10 @@ releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterpr
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:atlassian:confluence
+-   cpe: cpe:2.3:a:atlassian:confluence
+
 auto:
   methods:
   -   custom: confluence

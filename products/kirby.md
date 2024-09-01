@@ -15,6 +15,10 @@ customColumns:
     description: Supported PHP versions range
     link: https://getkirby.com/docs/reference/system/requirements#php-version-support-history
 
+identifiers:
+-   cpe: cpe:/a:getkirby:kirby
+-   cpe: cpe:2.3:a:getkirby:kirby
+
 auto:
   methods:
   -   git: https://github.com/getkirby/kirby.git

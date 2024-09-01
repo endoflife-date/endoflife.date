@@ -8,6 +8,10 @@ alternate_urls:
 -   /dependencytrack
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 
+identifiers:
+-   cpe: cpe:/a:owasp:dependency-track
+-   cpe: cpe:2.3:a:owasp:dependency-track
+
 auto:
   methods:
   -   git: https://github.com/DependencyTrack/dependency-track.git

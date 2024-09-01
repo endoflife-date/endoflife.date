@@ -10,6 +10,10 @@ releaseColumn: false
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   cpe: cpe:/a:microsoft:office
+-   cpe: cpe:2.3:a:microsoft:office
+
 # Release date can be found on subpages of https://en.wikipedia.org/wiki/Microsoft_Office.
 releases:
 -   releaseCycle: "365"

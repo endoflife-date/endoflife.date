@@ -9,6 +9,10 @@ changelogTemplate: https://euro-linux.com/en/software/eurolinux/specification/
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   cpe: cpe:/o:eurolinux:eurolinux
+-   cpe: cpe:2.3:o:eurolinux:eurolinux
+
 auto:
   methods:
   -   distrowatch: eurolinux

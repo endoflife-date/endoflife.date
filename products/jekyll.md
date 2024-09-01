@@ -10,6 +10,10 @@ releaseDateColumn: true
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
+identifiers:
+-   cpe: cpe:/a:jekyllrb:jekyll
+-   cpe: cpe:2.3:a:jekyllrb:jekyll
+
 auto:
   methods:
   -   git: https://github.com/jekyll/jekyll.git

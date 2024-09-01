@@ -11,6 +11,10 @@ changelogTemplate: "https://developer.apple.com/documentation/watchos-release-no
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/o:apple:watch_os
+-   cpe: cpe:2.3:o:apple:watch_os
+
 auto:
   methods:
   -   apple: watchos
