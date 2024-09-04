@@ -24,10 +24,17 @@ identifiers:
 -   purl: pkg:github/vuejs/core
 
 releases:
--   releaseCycle: "3.4"
-    releaseDate: 2023-12-29
+-   releaseCycle: "3.5"
+    releaseDate: 2024-09-03
     eoas: false
     eol: false
+    latest: "3.5.0"
+    latestReleaseDate: 2024-09-03
+
+-   releaseCycle: "3.4"
+    releaseDate: 2023-12-29
+    eoas: 2024-09-03
+    eol: 2024-09-03
     latest: "3.4.38"
     latestReleaseDate: 2024-08-15
 
