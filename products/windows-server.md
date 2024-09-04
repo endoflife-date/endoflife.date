@@ -138,6 +138,22 @@ releases:
     latest: 5.2.3790
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
+-   releaseCycle: "2003-SP1"
+    releaseDate: 2005-03-30
+    lts: true
+    eoas: 2010-07-13
+    eol: 2009-04-14
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+
+-   releaseCycle: "2003"
+    releaseDate: 2003-05-28
+    lts: true
+    eoas: 2010-07-13
+    eol: 2007-04-10
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+
 -   releaseCycle: "2000"
     releaseDate: 2000-02-17
     lts: true
