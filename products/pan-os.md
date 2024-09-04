@@ -176,28 +176,6 @@ releases:
     eol: 2008-11-20
     latest: ""
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 > [Palo Alto Networks](https://www.paloaltonetworks.com/) [PAN-OS](https://docs.paloaltonetworks.com/pan-os)
