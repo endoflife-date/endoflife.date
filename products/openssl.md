@@ -25,28 +25,28 @@ releases:
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-10
-    latest: "3.3.1"
-    latestReleaseDate: 2024-06-04
+    latest: "3.3.2"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    latest: "3.2.2"
-    latestReleaseDate: 2024-06-04
+    latest: "3.2.3"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
-    latest: "3.1.6"
-    latestReleaseDate: 2024-06-04
+    latest: "3.1.7"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.14"
-    latestReleaseDate: 2024-06-04
+    latest: "3.0.15"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "1.1.1"
     lts: true
@@ -72,7 +72,6 @@ releases:
     latest: "1.0.2u"
     latestReleaseDate: 2019-12-20
     link: https://openssl-library.org/news/vulnerabilities-1.0.2/
-    
 
 ---
 
