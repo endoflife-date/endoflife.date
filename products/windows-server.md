@@ -153,7 +153,7 @@ releases:
     eol: 2015-07-14
     latest: 5.2.3790
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
-    
+
 -   releaseCycle: "2000"
     releaseDate: 2000-02-17
     lts: true
