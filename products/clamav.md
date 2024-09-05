@@ -20,14 +20,14 @@ releases:
 -   releaseCycle: "1.4"
     releaseDate: 2024-08-15
     eol: false # releaseDate(1.6) + 4 months
-    latest: "1.4.0"
-    latestReleaseDate: 2024-08-15
+    latest: "1.4.1"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "1.3"
     releaseDate: 2024-02-07
     eol: false # releaseDate(1.5) + 4 months
-    latest: "1.3.1"
-    latestReleaseDate: 2024-04-17
+    latest: "1.3.2"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "1.2"
     releaseDate: 2023-08-27
@@ -45,8 +45,8 @@ releases:
     releaseDate: 2022-11-28
     eol: 2025-11-28
     lts: true
-    latest: "1.0.6"
-    latestReleaseDate: 2024-04-17
+    latest: "1.0.7"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
@@ -64,8 +64,8 @@ releases:
     releaseDate: 2020-09-11
     eol: 2024-09-14
     lts: true
-    latest: "0.103.11"
-    latestReleaseDate: 2023-10-25
+    latest: "0.103.12"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "0.102"
     releaseDate: 2019-10-02
