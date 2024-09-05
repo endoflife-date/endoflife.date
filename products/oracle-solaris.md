@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "11.4"
     releaseDate: 2018-08-28
     eol: 2031-11-01
-    eoes: 2034-11-01
-    link: https://docs.oracle.com/cd/E37838_01/index.html
+    eoes: 2037-11-01
+    link: https://docs.oracle.com/en/operating-systems/solaris/oracle-solaris/
 
 -   releaseCycle: "11.3"
     releaseDate: 2015-10-26
