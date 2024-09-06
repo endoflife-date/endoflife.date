@@ -19,8 +19,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2024-04-29
     eol: false
-    latest: "6000.0.17f1"
-    latestReleaseDate: 2024-08-27
+    latest: "6000.0.18f1"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "2023.2"
     releaseDate: 2023-11-14
@@ -38,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: false
-    latest: "2022.3.44f1"
-    latestReleaseDate: 2024-08-23
+    latest: "2022.3.45f1"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07

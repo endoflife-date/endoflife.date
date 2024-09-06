@@ -31,8 +31,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: false  # later of 2024-08-10 or 18 months after the release date of 9.0
-    latest: "8.15.0"
-    latestReleaseDate: 2024-08-02
+    latest: "8.15.1"
+    latestReleaseDate: 2024-09-02
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-05

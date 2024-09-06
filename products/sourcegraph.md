@@ -14,7 +14,7 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/sourcegraph/sourcegraph.git
+  -   git: https://github.com/sourcegraph/sourcegraph-public-snapshot.git
 
 # eol(x) = releaseDate(x+1)
 releases:
