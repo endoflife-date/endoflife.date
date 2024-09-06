@@ -21,6 +21,12 @@ auto:
       regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 releases:
+-   releaseCycle: "5.0"
+    releaseDate: 2024-09-05
+    eol: false
+    latest: "5.0.0"
+    latestReleaseDate: 2024-09-05
+
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
@@ -39,14 +45,14 @@ releases:
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: false
+    eol: 2024-09-05
     latest: "3.11.17"
     discontinued: true
     latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
-    eol: false
+    eol: 2024-09-05
     latest: "3.0.30"
     discontinued: true
     latestReleaseDate: 2024-04-15
