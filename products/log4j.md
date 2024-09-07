@@ -26,8 +26,8 @@ releases:
     outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.23.1"
-    latestReleaseDate: 2024-03-06
+    latest: "2.24.0"
+    latestReleaseDate: 2024-09-03
 
 -   releaseCycle: "2.12"
     releaseDate: 2019-06-26
