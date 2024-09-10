@@ -30,8 +30,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2024-05-20
     eol: 2025-11-01
-    latest: "2.17.3"
-    latestReleaseDate: 2024-08-12
+    latest: "2.17.4"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "2.16"
     pythonVersionsControlNode: 3.10 - 3.12
@@ -39,8 +39,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-06
     eol: 2025-05-01
-    latest: "2.16.10"
-    latestReleaseDate: 2024-08-12
+    latest: "2.16.11"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11

@@ -28,8 +28,8 @@ releases:
 -   releaseCycle: "10.0"
     releaseDate: 2024-08-22
     eol: 2026-08-22
-    latest: "10.0.0"
-    latestReleaseDate: 2024-08-22
+    latest: "10.0.1"
+    latestReleaseDate: 2024-09-09
     link: https://confluence.atlassian.com/jirasoftware/jira-software-10-0-x-release-notes-1416825224.html
 
 -   releaseCycle: "9.17"
