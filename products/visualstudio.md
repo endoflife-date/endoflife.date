@@ -24,16 +24,16 @@ releases:
     codename: "2022"
     releaseDate: 2024-08-13
     eol: false
-    latest: "17.11.2"
-    latestReleaseDate: 2024-08-27
+    latest: "17.11.3"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "17.10"
     codename: "2022"
     lts: true
     releaseDate: 2024-05-21
     eol: 2026-01-13
-    latest: "17.10.6"
-    latestReleaseDate: 2024-08-13
+    latest: "17.10.7"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "17.9"
     codename: "2022"
@@ -47,8 +47,8 @@ releases:
     lts: true
     releaseDate: 2023-11-14
     eol: 2025-07-08
-    latest: "17.8.13"
-    latestReleaseDate: 2024-08-13
+    latest: "17.8.14"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "17.7"
     codename: "2022"
@@ -62,8 +62,8 @@ releases:
     lts: true
     releaseDate: 2023-05-16
     eol: 2025-01-14
-    latest: "17.6.18"
-    latestReleaseDate: 2024-08-13
+    latest: "17.6.19"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "17.5"
     codename: "2022"
@@ -114,8 +114,8 @@ releases:
     codename: "2019"
     releaseDate: 2021-08-10
     eol: 2029-04-10
-    latest: "16.11.39"
-    latestReleaseDate: 2024-08-13
+    latest: "16.11.40"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "16.10"
     codename: "2019"
@@ -198,8 +198,8 @@ releases:
     codename: "2017"
     releaseDate: 2018-11-13
     eol: 2027-04-13
-    latest: "15.9.65"
-    latestReleaseDate: 2024-08-13
+    latest: "15.9.66"
+    latestReleaseDate: 2024-09-10
     link: https://learn.microsoft.com/visualstudio/releasenotes/vs2017-relnotes#15.9.58
 
 -   releaseCycle: "15.8"
