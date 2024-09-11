@@ -14,6 +14,11 @@ releaseDateColumn: true
 eolColumn: End Of Life
 
 releases:
+-   releaseCycle: 'jazzy'
+    codename: 'Jazzy Jalisco'
+    releaseDate: 2024-05-23
+    eol: 2029-05-01
+
 -   releaseCycle: 'iron'
     codename: 'Iron Irwini'
     releaseDate: 2023-05-23
