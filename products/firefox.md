@@ -259,3 +259,4 @@ releases:
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports last 3 macOS releases, [matching the Apple support cycle.](https://support.mozilla.org/kb/firefox-mac-osx-users-esr)
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/calendar/) for Windows 7-8.1 and macOS 10.12-10.14 up to March 2025.
