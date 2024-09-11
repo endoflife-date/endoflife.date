@@ -153,9 +153,20 @@ releases:
 
 ---
 
-> [Omnissa Horizon](https://www.omnissa.com/horizon-8/) enables a digital workspace with
+> [Omnissa Horizon](https://www.omnissa.com/horizon-8/) (earlier VMWare Horizon) enables a digital workspace with
 > the efficient delivery of virtual desktops and applications that equips workers anywhere,
 > anytime, and on any device.
+
+{: .note }
+> After [Broadcom's acquisition of VMWare](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware),
+> Broadcom [divested the End-User Computing Division
+> (which includes Horizon) to KKR](https://media.kkr.com/news-details/?news_id=48701629-ae4d-4d88-b1a9-90a438c6bf6c)
+> and branded it as [Omnissa](https://www.omnissa.com/introducing-omnissa-the-former-vmware-end-user-computing-business/) as part of the restructuring - which is still in process.
+> Omnissa and Broadcom have entered into [a reseller agreement enabling EUC to offer the "combined offering"](https://www.omnissa.com/setting-the-record-straight-euc-to-continue-to-offer-horizon-with-vsphere-and-vsan/)
+> versions of Horizon SaaS and Horizon Term SKUs with vSphere Foundation for VDI. This
+> [combined offering](https://kb.omnissa.com/s/article/14804) will be available
+> in both Named User and Concurrent User license metrics and for 1-, 3-, and 5-year terms.
+> EUC has no plans to increase Horizon list prices beyond normal annual adjustments.
 
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of
 Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three
