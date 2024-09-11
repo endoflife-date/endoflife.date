@@ -43,35 +43,35 @@ releases:
     releaseDate: 2024-05-21
     eol: 2024-09-30
     latest: '22.0.2+9'
-    latestReleaseDate: 2024-08-09
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
     latest: '21.0.4+7'
-    latestReleaseDate: 2024-08-09
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
     latest: '17.0.12+7'
-    latestReleaseDate: 2024-08-09
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
     latest: '11.0.24+8'
-    latestReleaseDate: 2024-08-09
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-30
     latest: '8u422-b05'
-    latestReleaseDate: 2024-08-09
+    latestReleaseDate: 2024-09-10
 
 ---
 
