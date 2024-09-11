@@ -20,6 +20,7 @@ auto:
   -   git: https://github.com/apache/cassandra.git
       regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
+# eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "5.0"
     releaseDate: 2024-09-05
@@ -29,23 +30,19 @@ releases:
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
-    eol: 2025-07-15
+    eol: false # releaseDate(5.2.0)
     latest: "4.1.6"
     latestReleaseDate: 2024-08-19
-# EOL(4.1)  = releaseDate(5.2.0)
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
-    eol: false
+    eol: false # releaseDate(5.1.0)
     latest: "4.0.13"
     latestReleaseDate: 2024-05-20
 
-# EOL(4.0)  = releaseDate(5.1.0)
-# EOL(3.11) = EOL(3.10) = releaseDate(5.0)
-
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: 2024-09-05
+    eol: 2024-09-05 # releaseDate(5.0)
     latest: "3.11.17"
     discontinued: true
     latestReleaseDate: 2024-04-16
@@ -63,9 +60,7 @@ releases:
 > wide-column store, NoSQL database management system designed to handle large amounts of data
 > across many commodity servers, providing high availability with no single point of failure.
 
-Three major GA releases (MAJOR and/or MINOR versions) are supported at any given time. The release
-of a new MINOR or MAJOR version will cause the oldest supported GA release to go End-of-Life.
-The 3.0 release will be supported for one more cycle, on an exceptional basis.
+The latest three releases are supported at any given time.
 
 ## [Versioning](https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html)
 
@@ -79,9 +74,7 @@ can be included in a given release.
 As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent
 major versions. Cassandra does not break API compatibility without a deprecated grace period
 demarcated by major versions. Upgrades without downtime are supported from any major version to the
-next major version. Upgrades that skip a major version are not supported. For e.g. an upgrade from
-a 3.x version to a 5.x version is not supported. Only upgrades stepping through each major version
-(3.x -> 4.x -> 5.x) are supported.
+next major version. Upgrades that skip a major version are not supported.
 
 ## Release Cadence
 
