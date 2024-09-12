@@ -50,7 +50,7 @@ releases:
     releaseDate: 2023-09-22
     eol: 2029-12-31
     latest: '21.0.4+7'
-    latestReleaseDate: 2024-09-10
+    latestReleaseDate: 2024-09-11
 
 -   releaseCycle: "17"
     lts: true

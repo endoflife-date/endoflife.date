@@ -35,8 +35,8 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: false
-    latest: '3.4.33'
-    latestReleaseDate: 2024-06-13
+    latest: '3.4.34'
+    latestReleaseDate: 2024-09-11
 
 -   releaseCycle: "3.3"
     releaseDate: 2018-02-01
