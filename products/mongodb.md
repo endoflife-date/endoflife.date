@@ -6,7 +6,7 @@ permalink: /mongodb
 alternate_urls:
 -   /mongo
 versionCommand: mongod --version
-releasePolicyLink: https://www.mongodb.com/support-policy
+releasePolicyLink: https://www.mongodb.com/legal/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 releaseDateColumn: true
@@ -40,11 +40,17 @@ auto:
           regex: '^MongoDB (?P<value>\d+\.\d+).*$'
         eol: "End of Life Date"
 
-# EOL dates can be found at https://www.mongodb.com/support-policy/lifecycles.
+# EOL dates can be found at https://www.mongodb.com/legal/support-policy/lifecycles
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
-# Release dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because git
+# Release dates are not in sync with https://www.mongodb.com/legal/support-policy/lifecycles because git
 # tag dates are used by the automation.
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2024-09-11
+    eol: false
+    latest: '8.0.0'
+    latestReleaseDate: 2024-09-11
+
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
     releaseDate: 2024-03-19
@@ -245,7 +251,7 @@ GA Major releases of the MongoDB Server are supported for 30 months. Compatibili
 Stable API with the MongoDB Server is supported. Each GA release of the Stable API is compatible
 with all GA Major Releases of the MongoDB Server that are released on or within five years of the
 Release Date of that version of the Stable API. Lifecycle Schedule is documented at
-<https://www.mongodb.com/support-policy/lifecycles>.
+<https://www.mongodb.com/legal/support-policy/lifecycles>.
 
 Extended support by MongoDB for up to 2 years is available through the commercial
-[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/products/enterprise-advanced/support).
+[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/services/support/enterprise-advanced-support-plans).
