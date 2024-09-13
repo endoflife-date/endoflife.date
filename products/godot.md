@@ -26,8 +26,16 @@ auto:
       template: "{{version}}"
 
 # Do not forget to remove the link after the first patch release.
-# For 3.x releases, they get deprecated on 3.x+1 release
+# For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
+-   releaseCycle: "3.6"
+    releaseDate: 2024-09-08
+    lts: true
+    eoas: false
+    eol: false
+    latest: "3.6.0"
+    latestReleaseDate: 2024-09-08
+
 -   releaseCycle: "4.3"
     releaseDate: 2024-08-15
     eoas: false
