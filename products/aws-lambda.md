@@ -90,8 +90,8 @@ releases:
 -   releaseCycle: "nodejs18.x"
     releaseLabel: Node.js 18
     releaseDate: 2022-11-18
-    eoas: false
-    eol: false
+    eoas: 2025-07-31
+    eol: 2025-10-01
     link: https://aws.amazon.com/blogs/compute/node-js-18-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet7"

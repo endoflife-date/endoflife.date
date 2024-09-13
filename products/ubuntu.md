@@ -71,8 +71,8 @@ releases:
     eoas: 2024-09-30
     eol: 2027-04-01
     eoes: 2032-04-09
-    latest: "22.04.4"
-    latestReleaseDate: 2024-02-22
+    latest: "22.04.5"
+    latestReleaseDate: 2024-09-12
 
 -   releaseCycle: "21.10"
     codename: "Impish Indri"
