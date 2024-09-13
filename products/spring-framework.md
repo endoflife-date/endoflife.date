@@ -36,8 +36,8 @@ releases:
     releaseDate: 2023-11-16
     eol: 2025-08-31
     eoes: 2026-12-31
-    latest: "6.1.12"
-    latestReleaseDate: 2024-08-14
+    latest: "6.1.13"
+    latestReleaseDate: 2024-09-12
 
 -   releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"
