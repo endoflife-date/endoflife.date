@@ -8,6 +8,7 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+releaseImage: https://dotnet.microsoft.com/blob-assets/images/illustrations/release-schedule-dark.svg
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
