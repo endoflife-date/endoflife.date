@@ -19,6 +19,7 @@ releases:
 -   releaseCycle: "8.2406"
     releaseDate: 2024-06-25
     eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
     latest: "8.2406"
     latestReleaseDate: 2024-06-25
     link: https://docs.omnissa.com/bundle/horizon8-rnV2406/page/Horizon8-ReleaseNotes.html
@@ -26,6 +27,7 @@ releases:
 -   releaseCycle: "8.2312.1"
     releaseDate: 2024-04-04
     eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
     latest: "8.2312.1"
     latestReleaseDate: 2024-04-04
     link: https://docs.omnissa.com/bundle/horizon8-rnV2312.1/page/Horizon8-ReleaseNotes.html
@@ -33,6 +35,7 @@ releases:
 -   releaseCycle: "8.2312"
     releaseDate: 2024-01-23
     eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
     latest: "8.2312"
     latestReleaseDate: 2024-01-23
     link: https://docs.omnissa.com/bundle/horizon8-rnV2312/page/Horizon8-ReleaseNotes.html
@@ -191,5 +194,5 @@ support, server/client/guest OS updates, new security patches or bug fixes unles
 {% include table.html
    labels="Release,Technical Guidance Ends"
    fields="releaseCycle,technicalGuidance"
-   types="raw,end-date"
+   types="raw,date"
    rows=page.releases %}
