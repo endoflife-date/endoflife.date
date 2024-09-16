@@ -23,7 +23,7 @@ releases:
     eoas: false
     eol: false
     latest: '18.0.0'
-    latestReleaseDate: 2024-08-16
+    latestReleaseDate: 2024-09-16
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-18-release-notes
 
 -   releaseCycle: "17"
