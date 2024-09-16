@@ -21,7 +21,7 @@ customColumns:
 releases:
 -   releaseCycle: "16"
     releaseLabel: "16"
-    releaseDate: 2023-09-16
+    releaseDate: 2023-09-20
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP901
@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "16-plus"
     releaseLabel: "16 Plus"
-    releaseDate: 2023-09-16
+    releaseDate: 2023-09-20
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP902
@@ -37,7 +37,7 @@ releases:
 
 -   releaseCycle: "16-pro"
     releaseLabel: "16 Pro"
-    releaseDate: 2024-09-16
+    releaseDate: 2024-09-20
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP903
@@ -45,7 +45,7 @@ releases:
 
 -   releaseCycle: "16-pro-max"
     releaseLabel: "16 Pro Max"
-    releaseDate: 2024-09-16
+    releaseDate: 2024-09-20
     discontinued: false
     eol: false
     link: https://support.apple.com/kb/SP904
