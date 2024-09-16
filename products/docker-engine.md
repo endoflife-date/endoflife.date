@@ -4,7 +4,7 @@ category: app
 iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
-releasePolicyLink: https://github.com/moby/moby/milestones
+releasePolicyLink: https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
 releaseDateColumn: true
 
@@ -17,7 +17,7 @@ auto:
   -   git: https://github.com/moby/moby.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
-# For EOL, see open milestones on https://github.com/moby/moby/milestones.
+# For EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
 -   releaseCycle: "27.2"
     releaseDate: 2024-08-27
@@ -63,7 +63,7 @@ releases:
 
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
-    eol: false
+    eol: 2025-05-19
     latest: "23.0.14"
     latestReleaseDate: 2024-08-19
 
@@ -183,9 +183,6 @@ releases:
 > Containers are isolated from one another and bundle their own software, libraries and
 > configuration files.
 
-Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support),
-and as such - there's no list of supported releases.
-This page uses the [Open milestones](https://github.com/moby/moby/milestones) as a guide for which releases
-are still getting fixes.
+Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support).
 
-Microsoft is committed to maintaining the 20.10 branch in public.
+The list of all supported releases is documented at <https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md>.
