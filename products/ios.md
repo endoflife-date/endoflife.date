@@ -19,6 +19,14 @@ auto:
       -   'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+-   releaseCycle: "18"
+    releaseDate: 2024-09-16 
+    eoas: false
+    eol: false
+    latest: "18.0.0"
+    latestReleaseDate: 2024-09-16
+    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-18-release-notes
+
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: false
