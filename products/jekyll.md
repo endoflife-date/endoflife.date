@@ -24,8 +24,8 @@ releases:
     releaseDate: 2019-08-20
     eoas: false
     eol: false
-    latest: "4.3.3"
-    latestReleaseDate: 2023-12-27
+    latest: "4.3.4"
+    latestReleaseDate: 2024-09-16
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
