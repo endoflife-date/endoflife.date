@@ -44,7 +44,7 @@ releases:
 -   releaseCycle: "12"
     codename: "Monterey"
     releaseDate: 2021-10-25
-    eol: false
+    eol: true
     latest: '12.7.6'
     latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT212585
