@@ -31,7 +31,7 @@ releases:
     eol: false
     latest: '15.0.0'
     latestReleaseDate: 2024-09-16
-    link: https://support.apple.com/HT213895
+    link: https://support.apple.com/en-us/120283
 
 -   releaseCycle: "14"
     codename: "Sonoma"
