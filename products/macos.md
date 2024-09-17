@@ -25,6 +25,14 @@ auto:
       -   '^Mac\s+OS\s+X\s[\w\s]+\sv?(?P<version>\d{2}(?:\.\d+)+)'
 
 releases:
+-   releaseCycle: "15"
+    codename: "Sequoia"
+    releaseDate: 2024-09-16
+    eol: false
+    latest: '15.0.0'
+    latestReleaseDate: 2024-09-16
+    link: https://support.apple.com/en-us/120283
+
 -   releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
