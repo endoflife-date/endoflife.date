@@ -37,9 +37,9 @@ releases:
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.6.1'
-    latestReleaseDate: 2024-08-07
-    link: https://support.apple.com/HT213895
+    latest: '14.7.0'
+    latestReleaseDate: 2024-09-16
+    link: https://support.apple.com/121247
 
 -   releaseCycle: "13"
     codename: "Ventura"
