@@ -1,8 +1,6 @@
 ---
 title: Omnissa Horizon
 category: app
-tags: omnissa
-iconSlug: vmware
 permalink: /horizon
 alternate_urls:
 -   /vmwarehorizon
