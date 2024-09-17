@@ -43,7 +43,7 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: false
+    eol: 2023-09-22
     latestReleaseDate: 2023-09-21
     latest: '9.6.3'
 
