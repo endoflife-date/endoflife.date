@@ -91,9 +91,14 @@ releases:
 for a year. The standard support period and end of life policy covers "N−2" versions,
 which means, at any given time, HashiCorp maintains the current version ("N") and the two previous versions ("N−2").
 
-- **Long-Term-Support (LTS)** releases offers extended maintenance through minor releases for select,
-major **Vault Enterprise** releases. After the first year, LTS releases move from standard maintenance
-to extended maintenance for an additional year.
+- [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/lts)
+releases offers extended maintenance through minor releases for select,
+major **Vault Enterprise** releases. The latest 2 LTS releases are supported at any given time,
+following a N-1 policy.
+
+Since Vault has 3 releases every year, this results in approximately 1 year of
+standard maintenance, followed by one year of extended maintenance for the LTS
+releases.
 
 ## Maintenance Levels
 
