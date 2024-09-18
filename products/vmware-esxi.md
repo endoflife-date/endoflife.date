@@ -19,9 +19,9 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 3"
-    latestReleaseDate: 2024-06-25
-    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-803-release-notes/index.html"
+    latest: "8.0 Update 3b"
+    latestReleaseDate: 2024-09-17
+    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-80u3b-release-notes/index.html"
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
@@ -35,17 +35,17 @@ releases:
     releaseDate: 2018-04-17
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
-    latest: "6.7 P08"
-    latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202210001.html"
+    latest: "6.7 ESXi670-202403001"
+    latestReleaseDate: 2024-03-05
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202403001.html"
 
 -   releaseCycle: "6.5"
     releaseDate: 2016-11-15
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
-    latest: "6.5 P09"
-    latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202210001.html"
+    latest: "6.5 ESXi650-202403001"
+    latestReleaseDate: 2024-03-05
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202403001.html"
 
 -   releaseCycle: "6.0"
     releaseDate: 2015-03-12
