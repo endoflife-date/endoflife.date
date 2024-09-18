@@ -97,3 +97,6 @@ releases:
 > Watches. It is based on iOS, and introduced in 2015.
 
 Major versions of watchOS are released annually, with the previous major version losing support.
+
+Apple publishes a [Compatibility Table](https://support.apple.com/118490) for supported combinations
+of iPhone, iOS, watchOS.
