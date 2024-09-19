@@ -28,6 +28,15 @@ auto:
 # For a given major version, the last three minor versions have security support.
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
+-   releaseCycle: "5.1"
+    codename: ""
+    releaseDate: 2024-09-13
+    supportedPhpVersions: 8.1+
+    eoas: false
+    eol: false
+    latest: "5.1.0"
+    latestReleaseDate: 2024-09-13
+
 -   releaseCycle: "4.5"
     codename: "Strawberry"
     releaseDate: 2023-10-14
