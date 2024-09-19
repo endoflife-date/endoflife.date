@@ -1,5 +1,4 @@
 ---
-
 title: VirtualBox
 category: app
 tags: app oracle
@@ -15,9 +14,9 @@ eolColumn: Maintenance support
 releaseDateColumn: true
 
 identifiers:
-  - repology: virtualbox
-  - cpe: cpe:/a:oracle:virtualbox
-  - cpe: cpe:2.3:a:oracle:virtualbox
+-   repology: virtualbox
+-   cpe: cpe:/a:oracle:virtualbox
+-   cpe: cpe:2.3:a:oracle:virtualbox
   
 releases:
 
