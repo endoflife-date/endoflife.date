@@ -131,8 +131,8 @@ releases:
 -   releaseCycle: "1.10"
     releaseDate: 2019-12-12
     eol: 2021-02-23
-    latest: '1.10.18'
-    latestReleaseDate: 2023-05-23
+    latest: '1.10.19'
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "1.9"
     releaseDate: 2019-09-17
