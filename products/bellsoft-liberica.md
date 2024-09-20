@@ -7,7 +7,7 @@ permalink: /bellsoft-liberica
 alternate_urls:
 -   /liberica
 versionCommand: java -version
-releasePolicyLink: https://bell-sw.com/roadmap/
+releasePolicyLink: https://bell-sw.com/support/
 changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
 releaseDateColumn: true
 eolColumn: Public support
@@ -128,6 +128,11 @@ identifiers:
 # Listings from the official brew tap
 # Based on the proposed brew PURL type: https://github.com/package-url/purl-spec/pull/281
 # Mac packages
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk23?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk23-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk23-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jre23?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jre23-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk22?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk22-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk22-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
@@ -190,6 +195,9 @@ identifiers:
 -   purl: pkg:brew/bell-sw/liberica/liberica-jre8?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jre8-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 # linuxbrew packages
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
+-   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 -   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
@@ -250,6 +258,8 @@ identifiers:
 -   purl: pkg:winget/BellSoft.LibericaJDK.21.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.22
 -   purl: pkg:winget/BellSoft.LibericaJDK.22.Full
+-   purl: pkg:winget/BellSoft.LibericaJDK.23
+-   purl: pkg:winget/BellSoft.LibericaJDK.23.Full
 
 # It is unclear if "debian" is the right namespace to use here: https://github.com/package-url/purl-spec/issues/307
 # And repository_url format is unspecified, so we skip it
@@ -310,6 +320,11 @@ identifiers:
 -   purl: pkg:deb/debian/bellsoft-java22-runtime-full
 -   purl: pkg:deb/debian/bellsoft-java22-runtime
 -   purl: pkg:deb/debian/bellsoft-java22
+-   purl: pkg:deb/debian/bellsoft-java23-full
+-   purl: pkg:deb/debian/bellsoft-java23-lite
+-   purl: pkg:deb/debian/bellsoft-java23-runtime-full
+-   purl: pkg:deb/debian/bellsoft-java23-runtime
+-   purl: pkg:deb/debian/bellsoft-java23
 -   purl: pkg:deb/debian/bellsoft-java8-full
 -   purl: pkg:deb/debian/bellsoft-java8-lite
 -   purl: pkg:deb/debian/bellsoft-java8-runtime-full
@@ -352,6 +367,10 @@ identifiers:
 -   purl: pkg:apk/alpine/bellsoft-java22-lite?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java22-runtime?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java22-runtime-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java23?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java23-lite?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java23-runtime?repository_url=https://apk.bell-sw.com/main
+-   purl: pkg:apk/alpine/bellsoft-java23-runtime-lite?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java8?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java8-lite?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java8-runtime?repository_url=https://apk.bell-sw.com/main
@@ -415,6 +434,11 @@ identifiers:
 -   purl: pkg:rpm/bellsoft-java22-lite?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java22-runtime?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java22-runtime-full?repository_url=https://yum.bell-sw.com
+-   purl: pkg:rpm/bellsoft-java23?repository_url=https://yum.bell-sw.com
+-   purl: pkg:rpm/bellsoft-java23-full?repository_url=https://yum.bell-sw.com
+-   purl: pkg:rpm/bellsoft-java23-lite?repository_url=https://yum.bell-sw.com
+-   purl: pkg:rpm/bellsoft-java23-runtime?repository_url=https://yum.bell-sw.com
+-   purl: pkg:rpm/bellsoft-java23-runtime-full?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java8?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java8-full?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java8-lite?repository_url=https://yum.bell-sw.com
@@ -432,8 +456,14 @@ auto:
 
 # EOL dates are OpenJDK EOL dates, which are not fixed. This page is using Eclipse Temurin
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
-# Extended support dates can be found on https://bell-sw.com/roadmap/.
+# Extended support dates can be found on https://bell-sw.com/support/.
 releases:
+-   releaseCycle: "23"
+    releaseDate: 2024-09-18
+    eol: 2025-03-18
+    latest: "23+38"
+    latestReleaseDate: 2024-09-18
+
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
     eol: 2024-09-17
@@ -567,7 +597,7 @@ Liberica JDK builds are available for Java 6 and greater. It follows the same ca
 Following the upstream OpenJDK project, Liberica JDK updates are released quarterly. LTS versions
 are supported at least 2 years (but usually much more), and non-LTS are only supported for 6 months.
 
-For LTS releases, [commercial support can be purchased](https://bell-sw.com/roadmap/) with at least
+For LTS releases, [commercial support can be purchased](https://bell-sw.com/support/) with at least
 8 years (from the initial release) of access to bug fixes, security updates, and other fixes as
 needed.
 
