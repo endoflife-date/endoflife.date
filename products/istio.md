@@ -44,15 +44,15 @@ releases:
     releaseDate: 2024-08-14
     eol: 2025-05-31
     supportedKubernetesVersions: '1.27 - 1.30'
-    latest: "1.23.1"
-    latestReleaseDate: 2024-09-10
+    latest: "1.23.2"
+    latestReleaseDate: 2024-09-19
 
 -   releaseCycle: "1.22"
     releaseDate: 2024-05-13
     eol: 2025-01-31
     supportedKubernetesVersions: '1.27 - 1.30'
-    latest: "1.22.4"
-    latestReleaseDate: 2024-08-19
+    latest: "1.22.5"
+    latestReleaseDate: 2024-09-19
 
 -   releaseCycle: "1.21"
     releaseDate: 2024-03-13
