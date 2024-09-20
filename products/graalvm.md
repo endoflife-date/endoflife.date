@@ -19,10 +19,17 @@ auto:
   -   custom: graalvm
 
 releases:
+-   releaseCycle: "jdk-23"
+    releaseLabel: "JDK 23"
+    releaseDate: 2024-09-17
+    eol: 2025-03-18
+    latest: "jdk-23.0.0"
+    latestReleaseDate: 2024-09-17
+
 -   releaseCycle: "jdk-22"
     releaseLabel: "JDK 22"
     releaseDate: 2024-03-19
-    eol: false
+    eol: 2024-09-17
     latest: "jdk-22.0.1"
     latestReleaseDate: 2024-04-16
 
