@@ -48,6 +48,9 @@ auto:
   -   github_releases: adoptium/temurin22-binaries
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
+  -   github_releases: adoptium/temurin23-binaries
+      regex: '^jdk-(?P<version>[\d\.+]+)$'
+      template: '{{version}}'
   -   release_table: https://adoptium.net/support/
       selector: "table"
       fields:
@@ -61,9 +64,15 @@ auto:
 # Do not forget to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
+-   releaseCycle: "23"
+    releaseDate: 2024-09-17
+    eol: 2025-03-18 # expected 24 release date (see https://www.java.com/releases/)
+    latest: "23+37"
+    latestReleaseDate: 2024-09-17
+
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
-    eol: 2024-09-17 # expected 23 release date (see https://www.java.com/releases/)
+    eol: 2024-09-17
     latest: "22.0.2+9"
     latestReleaseDate: 2024-07-17
 
