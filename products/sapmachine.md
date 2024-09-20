@@ -17,6 +17,12 @@ auto:
 # LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
 # non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
+-   releaseCycle: "23"
+    releaseDate: 2024-09-18
+    eol: 2025-03-18
+    latest: '23.0.0'
+    latestReleaseDate: 2024-09-18
+
 -   releaseCycle: "22"
     releaseDate: 2024-03-18
     eol: 2024-09-17
