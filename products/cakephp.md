@@ -26,7 +26,7 @@ auto:
 
 # support(X) = releaseDate(X+1) + 1 day
 # For a given major version, the last three minor versions have security support.
-# Do not forget to document the codename in the product's description when adding a new major version.
+# Do not forget to document the codename in the product's description when adding a new major version. (Codename only changes per major version release)
 releases:
 -   releaseCycle: "5.1"
     codename: "Chiffon"
