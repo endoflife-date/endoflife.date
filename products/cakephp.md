@@ -29,7 +29,7 @@ auto:
 # Do not forget to document the codename in the product's description when adding a new major version.
 releases:
 -   releaseCycle: "5.1"
-    codename: ""
+    codename: "Chiffon"
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1+
     eoas: false
