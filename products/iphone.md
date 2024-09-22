@@ -24,7 +24,7 @@ releases:
     releaseDate: 2024-09-20
     discontinued: false
     eol: false
-    link: https://support.apple.com/kb/SP901
+    link: https://support.apple.com/en-us/121029
     supportedIosVersions: 18
 
 -   releaseCycle: "16-plus"
@@ -32,7 +32,7 @@ releases:
     releaseDate: 2024-09-20
     discontinued: false
     eol: false
-    link: https://support.apple.com/kb/SP902
+    link: https://support.apple.com/en-us/121030
     supportedIosVersions: 18
 
 -   releaseCycle: "16-pro"
@@ -40,7 +40,7 @@ releases:
     releaseDate: 2024-09-20
     discontinued: false
     eol: false
-    link: https://support.apple.com/kb/SP903
+    link: https://support.apple.com/en-us/121031
     supportedIosVersions: 18
 
 -   releaseCycle: "16-pro-max"
@@ -48,7 +48,7 @@ releases:
     releaseDate: 2024-09-20
     discontinued: false
     eol: false
-    link: https://support.apple.com/kb/SP904
+    link: https://support.apple.com/en-us/121032
     supportedIosVersions: 18
 
 -   releaseCycle: "15"
