@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: "10"
     releaseDate: 2023-09-18
-    eoas: false
+    eoas: 2024-09-16
     eol: false
     latest: '10.6.1'
     latestReleaseDate: 2024-08-19
@@ -43,7 +43,7 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: false
+    eol: 2023-09-22
     latestReleaseDate: 2023-09-21
     latest: '9.6.3'
 
@@ -97,3 +97,6 @@ releases:
 > Watches. It is based on iOS, and introduced in 2015.
 
 Major versions of watchOS are released annually, with the previous major version losing support.
+
+Apple publishes a [Compatibility Table](https://support.apple.com/118490) for supported combinations
+of iPhone, iOS, watchOS.
