@@ -31,8 +31,8 @@ releases:
     releaseDate: 2024-08-22
     eoas: false
     eol: false
-    latest: "3.5.0"
-    latestReleaseDate: 2024-08-22
+    latest: "3.5.1"
+    latestReleaseDate: 2024-09-20
 
 -   releaseCycle: "3.4"
     releaseDate: 2024-02-14

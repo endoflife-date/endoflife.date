@@ -44,7 +44,7 @@ auto:
 releases:
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
-    eol: 2025-03-18 # expected for 24, https://www.java.com/releases/
+    eol: 2025-03-31 # expected for 24, https://www.java.com/releases/
     latest: '23+37'
     latestReleaseDate: 2024-09-18
 
