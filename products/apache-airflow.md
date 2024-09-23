@@ -44,8 +44,8 @@ releases:
     releaseDate: 2020-12-17
     eoas: false
     eol: false
-    latest: "2.10.1"
-    latestReleaseDate: 2024-09-06
+    latest: "2.10.2"
+    latestReleaseDate: 2024-09-20
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27
