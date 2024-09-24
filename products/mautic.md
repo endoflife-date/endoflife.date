@@ -37,7 +37,7 @@ identifiers:
 
 releases:
 -   releaseCycle: "5.1"
-    releaseDate: 2024-09-13
+    releaseDate: 2024-06-12
     eoas: false
     eol: false
     latest: "5.1.1"
