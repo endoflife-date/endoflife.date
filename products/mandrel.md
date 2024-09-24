@@ -10,7 +10,7 @@ releaseDateColumn: true
 auto:
   methods:
   - github_releases: graalvm/mandrel
-    regex: '/^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
+    regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
     template: '{{version}}'
 
 releases:
