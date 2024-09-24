@@ -1,7 +1,7 @@
 ---
 title: Mandrel
 category: lang
-tags: java-distribution
+tags: java-distribution red-hat
 permalink: /mandrel
 changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
