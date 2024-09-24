@@ -10,8 +10,7 @@ releaseDateColumn: true
 auto:
   methods:
   - github_releases: graalvm/mandrel
-    # see https://regex101.com/r/8FkqI5/1
-    regex: '/^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$'
+    regex: '/^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
     template: '{{version}}'
 
 releases:
@@ -119,18 +118,18 @@ releases:
 ---
 
 > Mandrel is [a downstream distribution of the GraalVM community edition](https://developers.redhat.com/blog/2020/06/05/mandrel-a-community-distribution-of-graalvm-for-the-red-hat-build-of-quarkus/).
-> Mandrel's main goal is to provide a `native-image` release specifically to
-> support [Quarkus](https://quarkus.io). The aim is to align the `native-image`
-> capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries
-> to improve maintainability for native Quarkus applications. Mandrel can best
-> be described as a distribution of a regular OpenJDK with a specially packaged
-> GraalVM Native Image builder (`native-image`).
+> Mandrel's main goal is to provide a `native-image` release specifically to support [Quarkus](https://quarkus.io). The
+> aim is to align the `native-image` capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries to
+> improve maintainability for native Quarkus applications. Mandrel can best be described as a distribution of a regular
+> OpenJDK with a specially packaged GraalVM Native Image builder (`native-image`).
 
-Mandrel follows [the GraalVM Community release
-cadence](https://www.graalvm.org/release-calendar/) in principle, but extends
-the maintenance window for long term JDK releases.
+Mandrel follows [the GraalVM Community release cadence](https://www.graalvm.org/release-calendar/) in principle, but
+extends the maintenance window for long term JDK releases.
 
-That is, starting with JDK 20 in June 2023, Mandrel follows the JDK’s six-month
-release cadence and only supports the latest JDK version and (at least) the latest LTS JDK version as listed in [JDK Releases](https://www.java.com/releases/). In some cases and depending on the needs of Quarkus, Mandrel may support the two most recent LTS JDK versions to ease transition to the latest LTS.
+That is, starting with JDK 20 in June 2023, Mandrel follows the JDK’s six-month release cadence and only supports the
+latest JDK version and (at least) the latest LTS JDK version as listed in [JDK Releases](https://www.java.com/releases/).
+In some cases and depending on the needs of Quarkus, Mandrel may support the two most recent LTS JDK versions to ease
+transition to the latest LTS.
 
-Mandrel is released using the old internal version of GraalVM and will align with JDK's release numbering scheme with the 25.0 release in September 2025.
+Mandrel is released using the old internal version of GraalVM and will align with JDK's release numbering scheme with
+the 25.0 release in September 2025.
