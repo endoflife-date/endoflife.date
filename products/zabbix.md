@@ -45,8 +45,8 @@ releases:
     releaseDate: 2023-03-07
     eoas: 2024-06-30
     eol: 2024-12-31
-    latest: "6.4.18"
-    latestReleaseDate: 2024-08-19
+    latest: "6.4.19"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "6.2"
     releaseDate: 2022-07-04
@@ -74,8 +74,8 @@ releases:
     releaseDate: 2020-05-12
     eoas: 2023-05-31
     eol: 2025-05-31
-    latest: "5.0.43"
-    latestReleaseDate: 2024-08-13
+    latest: "5.0.44"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "4.0"
     lts: true
