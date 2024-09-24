@@ -23,7 +23,7 @@ releases:
     releaseDate: 2024-09-17
     eoas: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
     eol: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
-    latest: "pc.2024.2.0.0"
+    latest: "pc.2024.2.0.1"
     latestReleaseDate: 2024-09-17
 
 -   releaseCycle: "pc.2024.1"
