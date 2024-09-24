@@ -43,7 +43,7 @@ releases:
 -   releaseCycle: "3.12"
     releaseDate: 2023-06-01
     eol: 2024-02-21
-    eoes: 2024-06-29
+    eoes: 2025-06-29
     latest: "3.12.14"
     latestReleaseDate: 2024-05-05
 
