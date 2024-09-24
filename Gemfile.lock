@@ -60,8 +60,9 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    icalendar (2.10.2)
+    icalendar (2.10.3)
       ice_cube (~> 0.16)
+      ostruct
     ice_cube (0.17.0)
     jekyll (4.3.4)
       addressable (~> 2.4)
@@ -130,6 +131,7 @@ GEM
       stringio
       time
       uri
+    ostruct (0.6.0)
     packageurl-ruby (0.1.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
