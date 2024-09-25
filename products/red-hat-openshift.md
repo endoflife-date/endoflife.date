@@ -32,8 +32,8 @@ releases:
     eoas: false # 4.17 GA + 3 months
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.13"
-    latestReleaseDate: 2024-09-19
+    latest: "4.16.14"
+    latestReleaseDate: 2024-09-24
 
 -   releaseCycle: "4.15"
     releaseDate: 2024-02-27
