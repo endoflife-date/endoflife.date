@@ -58,6 +58,7 @@ releases:
     eol: 2025-03-18
     latest: "23.0.0"
     latestReleaseDate: 2024-09-17
+    link: https://www.oracle.com/java/technologies/javase/23all-relnotes.html
 
 -   releaseCycle: "22"
     releaseDate: 2024-03-19
