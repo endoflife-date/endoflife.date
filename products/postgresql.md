@@ -31,6 +31,12 @@ identifiers:
 -   purl: pkg:deb/ubuntu/postgresql
 
 releases:
+-   releaseCycle: "17"
+    releaseDate: 2024-09-26
+    eol: 2029-11-08
+    latest: "17.0"
+    latestReleaseDate: 2024-09-26
+
 -   releaseCycle: "16"
     releaseDate: 2023-09-14
     eol: 2028-11-09
