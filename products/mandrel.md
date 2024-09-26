@@ -9,9 +9,9 @@ releaseDateColumn: true
 
 auto:
   methods:
-  - github_releases: graalvm/mandrel
-    regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
-    template: '{{version}}'
+  -   github_releases: graalvm/mandrel
+      regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
+      template: '{{version}}'
 
 releases:
 -   releaseCycle: "24.1"
@@ -61,10 +61,10 @@ releases:
 
 -   releaseCycle: "22.1"
     releaseLabel: "22.1 (JDK 11, JDK 17)"
-    releaseDate: 2022-04-28
+    releaseDate: 2022-04-27
     eol: 2022-07-26 # July 2022 CPU
     latest: "22.1.0.0"
-    latestReleaseDate: 2022-04-28
+    latestReleaseDate: 2022-04-27
 
 -   releaseCycle: "22.0"
     releaseLabel: "22.1 (JDK 11, JDK 17)"
@@ -75,7 +75,7 @@ releases:
 
 -   releaseCycle: "21.3"
     releaseLabel: "21.3 (JDK 11, JDK 17)"
-    releaseDate: 2021-10-21
+    releaseDate: 2021-10-20
     eol: 2023-07-17 # July 2023 CPU
     lts: true
     latest: "21.3.6.0"
@@ -87,7 +87,7 @@ releases:
     eol: 2022-01-18 # Jan 2022 CPU
     lts: true
     latest: "21.2.0.2"
-    latestReleaseDate: 2021-10-21
+    latestReleaseDate: 2021-10-20
 
 -   releaseCycle: "21.1"
     releaseLabel: "21.1 (JDK 11)"
@@ -115,15 +115,15 @@ releases:
 
 -   releaseCycle: "20.2"
     releaseLabel: "20.2 (JDK 11)"
-    releaseDate: 2020-10-27
+    releaseDate: 2020-10-26
     eol: 2021-01-08 # Jan 2021 CPU / 20.3 release
     latest: "20.2.0.0"
-    latestReleaseDate: 2020-10-27
+    latestReleaseDate: 2020-10-26
     link: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__.Final
 
 -   releaseCycle: "20.1"
     releaseLabel: "20.1 (JDK 11)"
-    releaseDate: 2020-08-12
+    releaseDate: 2020-08-11
     eol: 2021-04-20 # April 2021 CPU
     latest: "20.1.0.4"
     latestReleaseDate: 2021-01-21
