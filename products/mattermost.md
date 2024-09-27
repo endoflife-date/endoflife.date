@@ -36,14 +36,14 @@ releases:
     lts: true
     releaseDate: 2024-08-16
     eol: 2025-05-15
-    latest: '9.11.1'
-    latestReleaseDate: 2024-08-21
+    latest: '9.11.2'
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "9.10"
     releaseDate: 2024-07-16
     eol: 2024-10-15
-    latest: '9.10.2'
-    latestReleaseDate: 2024-08-27
+    latest: '9.10.3'
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "9.9"
     releaseDate: 2024-06-14
@@ -72,8 +72,8 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-16
     eol: 2024-11-15
-    latest: '9.5.9'
-    latestReleaseDate: 2024-08-27
+    latest: '9.5.10'
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "9.4"
     releaseDate: 2024-01-16
