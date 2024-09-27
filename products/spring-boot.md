@@ -69,7 +69,7 @@ releases:
     supportedJavaVersions: "8 - 21" # https://docs.spring.io/spring-boot/docs/2.7.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-05-19
     eol: 2023-11-24
-    eoes: 2026-08-24
+    eoes: 2026-12-31
     latest: "2.7.18"
     latestReleaseDate: 2023-11-23
 
