@@ -28,6 +28,7 @@ releases:
 -   releaseCycle: "10.0"
     releaseDate: 2024-09-24
     eol: 2028-09-30
+    link: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
 
 -   releaseCycle: "9.0"
     releaseDate: 2023-06-29
