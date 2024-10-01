@@ -25,8 +25,8 @@ releases:
     releaseDate: 2023-03-30
     eoas: false
     eol: false
-    latest: "10.6.0"
-    latestReleaseDate: 2024-06-20
+    latest: "10.7.0"
+    latestReleaseDate: 2024-09-30
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
 -   releaseCycle: "9"
@@ -34,8 +34,8 @@ releases:
     eoas: 2023-03-30
     eol: false
     lts: 2023-02-07
-    latest: "9.9.6"
-    latestReleaseDate: 2024-06-17
+    latest: "9.9.7"
+    latestReleaseDate: 2024-09-27
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
 -   releaseCycle: "8"

@@ -51,15 +51,15 @@ releases:
     releaseDate: 2024-08-12
     eoas: 2025-02-12
     eol: 2025-02-12
-    latest: "24.2.2"
-    latestReleaseDate: 2024-09-18
+    latest: "24.2.3"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "24.1"
     releaseDate: 2024-05-20
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.4"
-    latestReleaseDate: 2024-08-23
+    latest: "24.1.5"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "23.2"
     releaseDate: 2024-02-05
