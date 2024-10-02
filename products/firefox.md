@@ -42,8 +42,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "128.2.0"
-    latestReleaseDate: 2024-09-03
+    latest: "128.3.0"
+    latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "127"
     releaseDate: 2024-06-11
