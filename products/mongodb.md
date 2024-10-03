@@ -45,6 +45,12 @@ auto:
 # Release dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because git
 # tag dates are used by the automation.
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2024-10-02 # https://www.mongodb.com/blog/post/top-4-reasons-to-use-mongodb-8-0
+    eol: false
+    latest: '8.0.0'
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
     releaseDate: 2024-03-19
