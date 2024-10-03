@@ -22,6 +22,13 @@ auto:
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "2.16"
+    releaseDate: 2024-10-01
+    eoas: false # releaseDate(2.18)
+    eol: false # releaseDate(2.19)
+    latest: "2.16.0"
+    latestReleaseDate: 2024-10-01
+
 -   releaseCycle: "2.15"
     releaseDate: 2024-09-03
     eoas: false # releaseDate(2.17)
@@ -90,6 +97,6 @@ releases:
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
 > clouds and servers.
 
-There is a new minor release of Coder on the first Tuesday of each month. Minor releases are  
-supported for three months with bug and security fixes the first month, major bug and security  
+There is a new minor release of Coder on the first Tuesday of each month. Minor releases are
+supported for three months with bug and security fixes the first month, major bug and security
 fixes the second month and only security fixes the third month.
