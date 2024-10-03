@@ -130,7 +130,6 @@ auto:
         eol: "End of life"
 
 releases:
-
 -   releaseCycle: "3.13"
     releaseDate: 2024-10-01
     eoas: 2026-10-01
