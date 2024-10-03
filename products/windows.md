@@ -12,7 +12,7 @@ identifiers:
 -   cpe: cpe:2.3:o:microsoft:windows
 -   cpe: cpe:/o:microsoft:windows
 
-releases
+releases:
 -   releaseCycle: "11-24h2-iot-lts"
     releaseLabel: "11 24H2 IoT"
     releaseDate: 2024-10-01
