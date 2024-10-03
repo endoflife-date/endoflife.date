@@ -20,7 +20,7 @@ releases:
     eoas: 2029-10-09
     eol: 2034-10-10
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
 
 -   releaseCycle: "11-24h2-e-lts"
     releaseLabel: "11 24H2 (E)"
@@ -29,7 +29,7 @@ releases:
     eoas: 2029-10-09
     eol: 2029-10-09
     latest: 10.0.26100
-    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
 
 -   releaseCycle: "11-24h2-e"
     releaseLabel: "11 24H2 (E)"
