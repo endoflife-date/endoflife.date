@@ -32,8 +32,8 @@ releases:
     releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.27.1"
-    latestReleaseDate: 2024-08-12
+    latest: "1.27.2"
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23

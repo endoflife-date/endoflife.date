@@ -29,7 +29,7 @@ releases:
 -   releaseCycle: "131"
     releaseDate: 2024-10-01
     eol: false
-    latest: "130.0"
+    latest: "131.0"
     latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "130"
