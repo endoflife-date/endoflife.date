@@ -13,6 +13,40 @@ identifiers:
 -   cpe: cpe:/o:microsoft:windows
 
 releases:
+-   releaseCycle: "11-24h2-iot-lts"
+    releaseLabel: "11 24H2 IoT"
+    releaseDate: 2024-10-01
+    lts: true
+    eoas: 2029-10-09
+    eol: 2034-10-10
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+
+-   releaseCycle: "11-24h2-e-lts"
+    releaseLabel: "11 24H2 (E)"
+    releaseDate: 2024-10-01
+    lts: true
+    eoas: 2029-10-09
+    eol: 2029-10-09
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+
+-   releaseCycle: "11-24h2-e"
+    releaseLabel: "11 24H2 (E)"
+    releaseDate: 2024-10-01
+    eoas: 2027-10-12
+    eol: 2027-10-12
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+-   releaseCycle: "11-24h2-w"
+    releaseLabel: "11 24H2 (W)"
+    releaseDate: 2024-10-01
+    eoas: 2026-10-13
+    eol: 2026-10-13
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
 -   releaseCycle: "11-23h2-e"
     releaseLabel: "11 23H2 (E)"
     releaseDate: 2023-10-31
