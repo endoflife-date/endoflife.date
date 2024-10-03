@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "2.15"
     releaseDate: 2024-09-03
-    eoas: false # releaseDate(2.17)
+    eoas: 2024-11-05 # releaseDate(2.17)
     eol: false # releaseDate(2.18)
     latest: "2.15.1"
     latestReleaseDate: 2024-10-01
@@ -39,7 +39,7 @@ releases:
 -   releaseCycle: "2.14"
     releaseDate: 2024-08-06
     eoas: 2024-10-01 # releaseDate(2.16)
-    eol: false # releaseDate(2.17)
+    eol: 2024-11-05 # releaseDate(2.17)
     latest: "2.14.3"
     latestReleaseDate: 2024-09-05
 
