@@ -126,7 +126,7 @@ releases:
 
 -   releaseCycle: "9.4"
     releaseDate: 2022-11-15
-    eol: 2024-11-15
+    eol: 2025-01-31
     lts: true
     latest: "9.4.27"
     latestReleaseDate: 2024-10-01
