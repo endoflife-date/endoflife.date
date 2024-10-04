@@ -29,7 +29,7 @@ auto:
 releases:
 -   releaseCycle: "1.3.3.0"
     releaseDate: 2024-08-05
-    upgradeVersion: '1.4.0.0'
+    upgradeVersion: '1.3.4.0'
     eol: 2027-03-06
     latest: "1.3.3.0"
     latestReleaseDate: 2024-08-05
