@@ -20,9 +20,15 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "2.8"
+    releaseDate: 2024-10-02
+    eol: false
+    latest: "2.8.0"
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "2.7"
     releaseDate: 2024-02-08
-    eol: false
+    eol: 2024-10-02
     latest: "2.7.9"
     latestReleaseDate: 2024-09-04
 
@@ -70,9 +76,6 @@ releases:
 
 While it still receives critical fixes from time to time, Composer 1.x is mostly EOL and the
 developers urge everyone to switch to Composer 2.x.
-
-[Packagist](https://packagist.org/) (the main Composer repository) still supports Composer 1.x
-metadata for now but [with a few caveats](https://blog.packagist.com/deprecating-composer-1-support/).
 
 ## [PHP Support](https://blog.packagist.com/composer-2-2/)
 
