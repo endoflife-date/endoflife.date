@@ -46,10 +46,10 @@ auto:
 # tag dates are used by the automation.
 releases:
 -   releaseCycle: "8.0"
-    releaseDate: 2024-09-11
+    releaseDate: 2024-10-02
     eol: false
     latest: '8.0.0'
-    latestReleaseDate: 2024-09-11
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
