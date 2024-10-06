@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "4.16"
     releaseDate: 2024-06-27
-    eoas: 2025-01-01
+    eoas: 2025-01-01 # 4.17 GA + 3 months
     eol: 2025-12-27
     eoes: 2026-06-27
     latest: "4.16.14"
