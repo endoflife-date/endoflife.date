@@ -27,6 +27,13 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+-   releaseCycle: "1.3.4.0"
+    releaseDate: 2024-10-01
+    upgradeVersion: N/A
+    eol: 2027-03-06
+    latest: "1.3.4.0"
+    latestReleaseDate: 2024-10-01
+
 -   releaseCycle: "1.3.3.0"
     releaseDate: 2024-08-05
     upgradeVersion: '1.3.4.0'
