@@ -104,21 +104,14 @@ releases:
 
 ---
 
->[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create
-> 2D and 3D games from a unified interface released under the MIT License. It provides a
-> comprehensive set of common tools, so users can focus on making games without having to reinvent
-> the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).
+>[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine for creating 2D and 3D games from a unified interface, released under the MIT License. It provides a comprehensive set of common tools, allowing users to focus on making games without reinventing the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).
 
 Each stable branch starts with a `major.minor` release (without the 0 for patch) and is further
-developed for maintenance releases. _Stable branches are supported at minimum until the next stable
-branch is released and has received its first patch update_. In practice, stable branches are
-supported on a best effort basis for as long as they have active users who need maintenance updates.
+developed for maintenance releases. _Stable branches are supported at a minimum until the next stable branch is released and receives its first patch update_. In practice, stable branches are supported on a best effort basis for as long as they have active users who need maintenance updates.
 
 On a new major version release, the previous stable branch becomes a long-term supported release.
 This is the case for the 2.1 branch, and will be the case for the latest 3.x stable branch by the
 time Godot 4.0 is released.
 
-The development cycle aims for a new minor release every 3 to 6
-months. The Godot release policy is a set of guidelines and "what will actually happen depends on
-the choices of core contributors, and the needs of the community at a given time". Godot loosely
+The development cycle targets a new minor release every three to six months. The Godot release policy is a set of guidelines, and what actually happens depends on the choices of core contributors and the community's needs at a given time". Godot loosely
 follows [Semantic Versioning](https://semver.org/).
