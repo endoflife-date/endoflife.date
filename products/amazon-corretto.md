@@ -73,7 +73,7 @@ auto:
 
 # Do not forget to update the "auto" configuration on each new major release.
 releases:
--   releaseCycle: "22"
+-   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
     # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
     releaseDate: 2024-09-17
