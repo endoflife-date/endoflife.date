@@ -162,7 +162,7 @@ releases:
 -   releaseCycle: "3.8"
     releaseDate: 2019-10-14
     eoas: 2021-05-03
-    eol: 2024-10-31
+    eol: 2024-10-07
     latest: "3.8.20"
     latestReleaseDate: 2024-09-06
 
