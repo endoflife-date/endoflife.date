@@ -74,8 +74,10 @@ releases:
 > [Composer](https://getcomposer.org/) is a package manager that is commonly used to manage
 > libraries and other dependencies for PHP projects.
 
-While it still receives critical fixes from time to time, Composer 1.x is mostly EOL and the
-developers urge everyone to switch to Composer 2.x.
+{: .warning}
+The packagist.org service will
+[shut down metadata access for Composer 1 on 1st August 2025](https://blog.packagist.com/shutting-down-packagist-org-support-for-composer-1-x/)
+Attempting to update packages using Composer 1.x will no longer work beyond this date.
 
 ## [PHP Support](https://blog.packagist.com/composer-2-2/)
 
