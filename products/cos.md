@@ -20,6 +20,13 @@ auto:
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
+-   releaseCycle: "cos-117"
+    lts: true
+    releaseDate: 2024-10-02
+    eol: 2026-09-01
+    latest: "cos-117-18613-0-66"
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
@@ -148,9 +155,10 @@ At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-l
 is set on images in that milestone and those images stop appearing in the active list of images in
 the `cos-cloud` project.
 
-**Warning: Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
+{: .warning}
+> Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
 references to the deprecated image family will return errors and break any workflows depending on
-it. You should not use this API to create production instances.**
+it. You should not use this API to create production instances.
 
 Deprecated images are still accessible and usable when accessed directly by name using the
 [`images get API`](https://cloud.google.com/compute/docs/reference/rest/v1/images/get).
