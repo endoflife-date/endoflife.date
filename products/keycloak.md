@@ -11,6 +11,7 @@ eolColumn: Supported
 
 identifiers:
 -   purl: pkg:github/keycloak/keycloak
+-   repology: keycloak
 
 auto:
   methods:
@@ -18,9 +19,15 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "26.0"
+    releaseDate: 2024-10-04
+    eol: false
+    latest: "26.0.0"
+    latestReleaseDate: 2024-10-04
+
 -   releaseCycle: "25.0"
     releaseDate: 2024-06-10
-    eol: false
+    eol: 2024-10-04
     latest: "25.0.6"
     latestReleaseDate: 2024-09-19
 
