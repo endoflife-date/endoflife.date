@@ -75,7 +75,7 @@ auto:
 releases:
 -   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
-    # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
+    # Official release was on September : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
     releaseDate: 2024-09-17
     eol: 2025-04-30
     latest: "23.0.0.37.1"
