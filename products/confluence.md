@@ -24,9 +24,9 @@ auto:
 releases:
 -   releaseCycle: "9.1"
     releaseDate: 2024-10-03
-    eol: false
+    eol: 2026-10-03
     latest: "9.1.0"
-    latestReleaseDate: 2024-09-03
+    latestReleaseDate: 2024-10-03
     link: https://confluence.atlassian.com/doc/confluence-9-1-release-notes-1431966396.html
 
 -   releaseCycle: "9.0"
