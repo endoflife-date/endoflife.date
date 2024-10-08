@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "19"
     releaseDate: 2020-05-31
-    eol: 2024-12-01 # EOL(19.6)
+    eol: 2022-05-31 # EOL(19.6)
     link: https://support.claris.com/s/answerview?anum=000036046
 
 -   releaseCycle: "18"
