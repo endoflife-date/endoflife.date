@@ -5,7 +5,6 @@ tags: php-runtime
 permalink: /backdrop
 releasePolicyLink: https://backdropcms.org/releases
 releaseImage: https://backdropcms.org/files/images/release-cycles.png
-eolColumn: false
 releases:
 -   releaseCycle: "1.29"
     releaseDate: 2024-09-15
