@@ -30,7 +30,7 @@ releases:
 -   releaseCycle: "6.8"
     lts: true
     releaseDate: 2024-10-08
-    eol: 2025-04-08
+    eol: 2025-04-08 # estimated, 2024-10-08 + 6 months
     eoes: 2027-10-08
     latest: "6.8.0"
     latestReleaseDate: 2024-10-08
