@@ -143,7 +143,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-03-15
-    eol: 2027-10-31
+    eol: 2032-01-31
     latest: "11.0.24.8.1"
     latestReleaseDate: 2024-07-16
 
