@@ -22,7 +22,12 @@ releases:
     eoas: false
     eol: false
     link: https://learn.microsoft.com/lifecycle/faq/office
-
+-   releaseCycle: "2024"
+    releaseDate: 2024-10-01
+    eoas: 2029-10-09
+    eol: 2029-10-09
+    link: https://learn.microsoft.com/lifecycle/products/office-2024
+    
 -   releaseCycle: "2021"
     releaseDate: 2021-10-05
     eoas: 2026-10-13
