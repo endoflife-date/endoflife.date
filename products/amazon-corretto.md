@@ -79,7 +79,7 @@ releases:
     releaseDate: 2024-09-17
     eol: 2025-04-30
     latest: "23.0.0.37.1"
-    latestReleaseDate: 2024-09-17
+    latestReleaseDate: 2024-09-18
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
 
 -   releaseCycle: "22"

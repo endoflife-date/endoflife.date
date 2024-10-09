@@ -39,12 +39,12 @@ auto:
 # - eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "5.12"
-    releaseDate: 2024-10-04
+    releaseDate: 2024-09-30
     lts: 2024-11-15
     eoas: 2025-07-25
     eol: 2025-11-28
     latest: "5.12.0"
-    latestReleaseDate: 2024-10-04
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: "5.11"
     releaseDate: 2024-08-19
