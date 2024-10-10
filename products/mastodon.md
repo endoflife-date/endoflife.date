@@ -101,7 +101,7 @@ releases:
 ---
 
 > [Mastodon](https://joinmastodon.org/) is a free and open-source software for running self-hosted
-> social networking services based on the [ActivityPub]() protocol. It has microblogging features
+> social networking services based on the [ActivityPub](https://activitypub.rocks/) protocol. It has microblogging features
 > similar to Twitter, which are offered by a large number of independently run nodes, known as
 > instances, each with its own code of conduct, terms of service, privacy policy, privacy options,
 > and content moderation policies.
