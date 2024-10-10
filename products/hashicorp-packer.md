@@ -32,7 +32,6 @@ releases:
 -   releaseCycle: "1.10"
     releaseDate: 2023-12-05
     eol: false
-    eoes: 2026-03-15
     latest: "1.10.3"
     latestReleaseDate: 2024-04-22
 
