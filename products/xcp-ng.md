@@ -21,20 +21,27 @@ auto:
         eol: "Support until"
 
 releases:
+-   releaseCycle: "8.3"
+    releaseDate: 2024-07-12
+    eol: 2028-11-30
+    latest: "8.3.0"
+    latestReleaseDate: 2024-07-12
+    link: https://docs.xcp-ng.org/releases/release-8-3/
+
 -   releaseCycle: "8.2"
     releaseDate: 2020-11-13
     eol: 2025-06-25
     lts: true
     latest: "8.2.1"
     latestReleaseDate: 2022-01-03
-    link: https://xcp-ng.org/docs/release-8-2.html
+    link: https://docs.xcp-ng.org/releases/release-8-2/
 
 -   releaseCycle: "8.1"
     releaseDate: 2020-03-31
     eol: 2021-03-31
     latest: "8.1.0"
     latestReleaseDate: 2020-03-25
-    link: https://xcp-ng.org/docs/release-8-1.html
+    link: https://docs.xcp-ng.org/releases/release-8-1/
 
 -   releaseCycle: "8.0"
     releaseDate: 2019-07-25
