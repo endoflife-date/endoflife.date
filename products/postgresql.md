@@ -35,7 +35,7 @@ releases:
     releaseDate: 2024-09-26
     eol: 2029-11-08
     latest: "17.0"
-    latestReleaseDate: 2024-09-26
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "16"
     releaseDate: 2023-09-14

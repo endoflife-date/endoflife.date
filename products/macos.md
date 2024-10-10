@@ -29,8 +29,8 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: '15.0.0'
-    latestReleaseDate: 2024-09-16
+    latest: '15.0.1'
+    latestReleaseDate: 2024-10-03
     link: https://support.apple.com/en-us/120283
 
 -   releaseCycle: "14"
@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "12"
     codename: "Monterey"
     releaseDate: 2021-10-25
-    eol: false
+    eol: 2024-09-16
     latest: '12.7.6'
     latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT212585
@@ -125,4 +125,4 @@ releases:
 
 Major versions of macOS are released once a year now, and usually maintained for three years.
 Apple usually provides security updates for the latest 3 releases, but this isn't consistently
-applied and some security fixes aren't available for the non-latest releases.
+applied and security fixes aren't guaranteed for the non-latest releases.

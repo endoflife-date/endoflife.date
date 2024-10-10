@@ -20,15 +20,14 @@ identifiers:
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas
-    releaseLabel: "2022 CU14+GDR"
+    releaseLabel: "2022 CU15"
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "16.0.4140.3"
-    latestReleaseDate: 2024-09-10
-    # CU14 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate14
-    link: https://support.microsoft.com/help/5042578 # GDR for CU14
-
+    latest: "16.0.4145.4"
+    latestReleaseDate: 2024-09-25
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate15
+    
 -   releaseCycle: "15.0"
     codename: Seattle
     releaseLabel: "2019 CU28+GDR"

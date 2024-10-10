@@ -31,29 +31,29 @@ releases:
     releaseDate: 2024-04-22
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '24.04.6'
-    latestReleaseDate: 2024-09-11
+    latest: '24.04.7'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
     eoas: 2024-10-31
     eol: 2025-10-31
-    latest: '23.10.16'
-    latestReleaseDate: 2024-09-11
+    latest: '23.10.17'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '23.04'
     releaseDate: 2023-04-26
     eoas: 2024-04-30
     eol: 2025-04-30
-    latest: '23.04.21'
-    latestReleaseDate: 2024-09-11
+    latest: '23.04.22'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '22.10'
     releaseDate: 2022-10-26
     eoas: 2023-10-31
     eol: 2024-10-31
-    latest: '22.10.24'
-    latestReleaseDate: 2024-09-11
+    latest: '22.10.25'
+    latestReleaseDate: 2024-09-27
 
 -   releaseCycle: '22.04'
     releaseDate: 2022-05-18

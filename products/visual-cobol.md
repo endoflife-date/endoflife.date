@@ -25,6 +25,11 @@ eolColumn: Support Status
 
 # Release and EOL dates can be found are those of Visual COBOL for Visual Studio on https://www.microfocus.com/productlifecycle/.
 releases:
+-   releaseCycle: "10.0"
+    releaseDate: 2024-09-24
+    eol: 2028-09-30
+    link: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
+
 -   releaseCycle: "9.0"
     releaseDate: 2023-06-29
     eol: 2027-07-31

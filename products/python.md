@@ -130,12 +130,19 @@ auto:
         eol: "End of life"
 
 releases:
+-   releaseCycle: "3.13"
+    releaseDate: 2024-10-07
+    eoas: 2026-10-01
+    eol: 2029-10-31
+    latest: "3.13.0"
+    latestReleaseDate: 2024-10-07
+
 -   releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.6"
-    latestReleaseDate: 2024-09-06
+    latest: "3.12.7"
+    latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
@@ -161,7 +168,7 @@ releases:
 -   releaseCycle: "3.8"
     releaseDate: 2019-10-14
     eoas: 2021-05-03
-    eol: 2024-10-31
+    eol: 2024-10-07
     latest: "3.8.20"
     latestReleaseDate: 2024-09-06
 

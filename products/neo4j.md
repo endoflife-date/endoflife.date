@@ -42,8 +42,15 @@ auto:
           regex: '^(?P<value>\w+ \d+, \d+).*$'
 
 # eol(x) = releaseDate(x+1)
-# See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions
+# See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+-   releaseCycle: "5.24"
+    releaseDate: 2024-09-27
+    eol: false
+    latest: "5.24.1"
+    latestReleaseDate: 2024-10-02
+    link: https://neo4j.com/release-notes/database/neo4j-5/
+
 -   releaseCycle: "5.23"
     releaseDate: 2024-08-22
     eol: false
@@ -185,9 +192,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.37"
+    latest: "4.4.38"
     lts: true
-    latestReleaseDate: 2024-09-03
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-17

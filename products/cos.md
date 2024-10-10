@@ -20,33 +20,40 @@ auto:
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
+-   releaseCycle: "cos-117"
+    lts: true
+    releaseDate: 2024-10-02
+    eol: 2026-09-01
+    latest: "cos-117-18613-0-76"
+    latestReleaseDate: 2024-10-07
+
 -   releaseCycle: "cos-113"
     lts: true
     releaseDate: 2024-04-15
     eol: 2026-03-01
-    latest: "cos-113-18244-151-80"
-    latestReleaseDate: 2024-09-23
+    latest: "cos-113-18244-151-96"
+    latestReleaseDate: 2024-10-07
 
 -   releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-309-69"
-    latestReleaseDate: 2024-09-23
+    latest: "cos-109-17800-309-84"
+    latestReleaseDate: 2024-10-07
 
 -   releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
-    latest: "cos-105-17412-448-49"
-    latestReleaseDate: 2024-09-23
+    latest: "cos-105-17412-448-61"
+    latestReleaseDate: 2024-10-07
 
 -   releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
-    latest: "cos-101-17162-528-49"
-    latestReleaseDate: 2024-09-23
+    latest: "cos-101-17162-528-57"
+    latestReleaseDate: 2024-10-07
 
 -   releaseCycle: "cos-97"
     lts: true
@@ -148,9 +155,10 @@ At the end of a milestone's support window, the corresponding `cos-[MILESTONE]-l
 is set on images in that milestone and those images stop appearing in the active list of images in
 the `cos-cloud` project.
 
-**Warning: Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
+{: .warning}
+> Any [Image Family API](https://cloud.google.com/compute/docs/reference/rest/v1/images/getFromFamily)
 references to the deprecated image family will return errors and break any workflows depending on
-it. You should not use this API to create production instances.**
+it. You should not use this API to create production instances.
 
 Deprecated images are still accessible and usable when accessed directly by name using the
 [`images get API`](https://cloud.google.com/compute/docs/reference/rest/v1/images/get).

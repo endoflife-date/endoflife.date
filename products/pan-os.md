@@ -46,23 +46,23 @@ releases:
 -   releaseCycle: "11.0"
     releaseDate: 2022-11-17
     eol: 2024-11-17
-    latest: "11.0.5-h1"
-    latestReleaseDate: 2024-08-07
-    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-5-known-and-addressed-issues/pan-os-11-0-5-h1-addressed-issues
+    latest: "11.0.6"
+    latestReleaseDate: 2024-10-07
+    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-6-known-and-addressed-issues/pan-os-11-0-6-addressed-issues
 
 -   releaseCycle: "10.2"
     releaseDate: 2022-02-27
     eol: 2026-02-28
-    latest: "10.2.11-h2"
-    latestReleaseDate: 2024-09-12
-    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-11-known-and-addressed-issues/pan-os-10-2-11-h2-addressed-issues
+    latest: "10.2.12"
+    latestReleaseDate: 2024-09-30
+    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-12-known-and-addressed-issues/pan-os-10-2-12-addressed-issues
 
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
     eol: 2025-08-31
-    latest: "10.1.14-h2"
-    latestReleaseDate: 2024-07-02
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h2-addressed-issues
+    latest: "10.1.14-h4"
+    latestReleaseDate: 2024-10-02
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h4-addressed-issues
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-07-16
