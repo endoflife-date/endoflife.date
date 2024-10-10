@@ -29,8 +29,8 @@ releases:
 -   releaseCycle: "131"
     releaseDate: 2024-10-01
     eol: false
-    latest: "131.0"
-    latestReleaseDate: 2024-10-01
+    latest: "131.0.2"
+    latestReleaseDate: 2024-10-09
 
 -   releaseCycle: "130"
     releaseDate: 2024-09-03
@@ -48,8 +48,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "128.3.0"
-    latestReleaseDate: 2024-10-01
+    latest: "128.3.1"
+    latestReleaseDate: 2024-10-09
 
 -   releaseCycle: "127"
     releaseDate: 2024-06-11

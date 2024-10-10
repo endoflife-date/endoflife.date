@@ -20,7 +20,7 @@ releases:
     releaseDate: 2024-10-07
     eol: false
     latest: '2.10.0'
-    latestReleaseDate: 2024-10-07
+    latestReleaseDate: 2024-10-08
     link: https://hop.apache.org/blog/2024/10/hop-2.10.0/
 
 -   releaseCycle: "2.9"
