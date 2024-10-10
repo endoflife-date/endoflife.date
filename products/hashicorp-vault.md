@@ -22,9 +22,15 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/vault.git
 
-# eol(x) = release(x+3)
+# eol(x) = releaseDate(x+3)
 # eoes(x) = releaseDate(x+6)
 releases:
+-   releaseCycle: "1.18"
+    releaseDate: 2024-10-08
+    eol: false
+    latest: "1.18.0"
+    latestReleaseDate: 2024-10-08
+
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-10
     eol: false
@@ -41,7 +47,7 @@ releases:
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-09-22
-    eol: false
+    eol: 2024-10-08 # releaseDate(1.18)
     latest: "1.15.6"
     latestReleaseDate: 2024-02-28
 
@@ -110,5 +116,5 @@ releases.
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
 versioning nomenclature: `Version X.Y.Z.` Vault typically has 3 major releases every year. LTS releases
-overlap by one year, allowing upgrade time for Enterprise customers. Upgrading from version LTS to LTS+1 
+overlap by one year, allowing upgrade time for Enterprise customers. Upgrading from version LTS to LTS+1
 may require transitional upgrades to move through the intermediate Vault versions.
