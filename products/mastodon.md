@@ -14,7 +14,9 @@ identifiers:
 -   repology: mastodon
 -   cpe: cpe:/a:joinmastodon:mastodon
 -   cpe: cpe:2.3:a:joinmastodon:mastodon
-
+-   purl: pkg:docker/bitnami/mastodon
+-   purl: pkg:docker/tootsuite/mastodon
+-   purl: pkg:docker/linuxserver/mastodon
 auto:
   methods:
   -   git: https://github.com/mastodon/mastodon.git
@@ -22,6 +24,12 @@ auto:
 # EOL dates are either false, if no information could be found, or the date found in
 # https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.
 releases:
+-   releaseCycle: "4."
+    releaseDate: 2024-10-08
+    eol: false
+    latest: "4.3.0"
+    latestReleaseDate: 2024-10-08
+
 -   releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: false
@@ -30,7 +38,7 @@ releases:
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-02-10
-    eol: false
+    eol: 2025-04-08
     latest: "4.1.20"
     latestReleaseDate: 2024-09-30
 
@@ -93,9 +101,11 @@ releases:
 ---
 
 > [Mastodon](https://joinmastodon.org/) is a free and open-source software for running self-hosted
-> social networking services. It has microblogging features similar to Twitter, which are offered
-> by a large number of independently run nodes, known as instances, each with its own code of
-> conduct, terms of service, privacy policy, privacy options, and content moderation policies.
+> social networking services based on the [ActivityPub]() protocol. It has microblogging features
+> similar to Twitter, which are offered by a large number of independently run nodes, known as
+> instances, each with its own code of conduct, terms of service, privacy policy, privacy options,
+> and content moderation policies.
 
 Mastodon follows [Semantic Versioning](https://semver.org/). Its support and EOL policy is not
-clearly defined, but supported releases are documented on [its Security Policy page](https://github.com/mastodon/mastodon/security/policy).
+clearly defined, but supported releases are documented on
+[its Security Policy page](https://github.com/mastodon/mastodon/security/policy).
