@@ -22,7 +22,7 @@ releases:
     eoas: false
     eol: false
     link: https://learn.microsoft.com/lifecycle/faq/office
--   releaseCycle: "2024 LTSC"
+-   releaseCycle: "2024-ltsc"
     releaseDate: 2024-09-18
     eoas: 2029-10-09
     eol: 2029-10-09
