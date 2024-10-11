@@ -143,7 +143,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-03-15
-    eol: 2027-10-31
+    eol: 2023-01-31
     latest: "11.0.24.8.1"
     latestReleaseDate: 2024-07-16
 
@@ -151,7 +151,7 @@ releases:
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
-    eol: 2026-07-31
+    eol: 2030-12-31
     latest: "8.422.05.1"
     latestReleaseDate: 2024-07-16
 
@@ -162,10 +162,13 @@ releases:
 > Amazon. Corretto is certified using the Java Technical Compatibility Kit (TCK) to ensure it meets
 > the Java SE standard. It is available on Linux, Windows, macOS and Docker.
 
-Initially, only LTS versions of OpenJDK were released.
-Since OpenJDK 15, Corretto follows the same cadence as OpenJDK, with 6-month rapid-release cycle.
-Starting with OpenJDK 11, there is a new LTS release every 3 years (every sixth OpenJDK release).
-After OpenJDK 17, the LTS frequency will be increased to every 2 years (every fourth OpenJDK release).
+{: .info}
+> Amazon [extended the support for Corretto 8 and 11 in October 2024](https://aws.amazon.com/about-aws/whats-new/2024/10/extension-eol-dates-amazon-corretto-8-11/).
+> For Corretto 8 - JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
+
+Corretto follows the same cadence as OpenJDK:
+- A 6-month rapid-release cycle.
+- A new LTS release every 2 years (every fourth OpenJDK release).
 
 LTS releases includes performance enhancements and security updates, both from the upstream OpenJDK
 project and from Amazon. The list of Amazon patches can be seen in [each version's documentation](https://docs.aws.amazon.com/corretto/).
