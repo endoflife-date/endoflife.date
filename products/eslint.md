@@ -7,8 +7,8 @@ releasePolicyLink: https://eslint.org/version-support/
 changelogTemplate: "https://github.com/eslint/eslint/releases/tag/v__LATEST__"
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: Active Support
-eoasColumn: Maintenance Support
+eolColumn:  Maintenance Support
+eoasColumn: Active Support
 customColumns:
   - property: eoesProvider
     position: before-latest-column
