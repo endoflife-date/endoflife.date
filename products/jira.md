@@ -25,6 +25,13 @@ auto:
 # They may vary by a day or two from what can be seen in the release notes.
 # EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "10.1"
+    releaseDate: 2024-10-09
+    eol: 2026-10-09
+    latest: "10.1.0"
+    latestReleaseDate: 2024-10-09
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-10-1-x-release-notes-1431966268.html
+
 -   releaseCycle: "10.0"
     releaseDate: 2024-08-22
     eol: 2026-08-22
