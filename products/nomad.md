@@ -17,8 +17,14 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/nomad.git
 
-# eol(x) = releaseCycle(x+3)
+# eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.9"
+    releaseDate: 2024-10-10
+    eol: false
+    latest: "1.9.0"
+    latestReleaseDate: 2024-10-10
+
 -   releaseCycle: "1.8"
     releaseDate: 2024-05-28
     eol: false
@@ -33,7 +39,7 @@ releases:
 
 -   releaseCycle: "1.6"
     releaseDate: 2023-07-18
-    eol: false
+    eol: 2024-10-10 # releaseDate(1.9)
     latest: "1.6.10"
     latestReleaseDate: 2024-04-16
 
