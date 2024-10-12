@@ -30,6 +30,16 @@ identifiers:
 
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
 releases:
+-   releaseCycle: "24.10"
+    codename: "Oracular Oriole"
+    lts: false
+    releaseDate: 2024-10-10
+    eoas: 2025-07-11
+    eol: 2025-07-11
+    eoes: false
+    latest: "24.04"
+    latestReleaseDate: 2024-10-10
+
 -   releaseCycle: "24.04"
     codename: "Noble Numbat"
     lts: true
