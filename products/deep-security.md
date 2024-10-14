@@ -25,31 +25,37 @@ releases:
 -   releaseCycle: "12.5.985"
     releaseLabel: "Deep Security 12 FR 2020-06-17"
     releaseDate: 2020-06-17
+    eoas: true
     eol: 2021-12-17
 
 -   releaseCycle: "12.5.855"
     releaseLabel: "Deep Security 12 FR 2020-04-29"
     releaseDate: 2020-04-29
+    eoas: true
     eol: 2021-10-29
 
 -   releaseCycle: "12.5.732"
     releaseLabel: "Deep Security 12 FR 2020-03-09"
     releaseDate: 2020-03-09
+    eoas: true
     eol: 2021-09-09
 
 -   releaseCycle: "12.5.613"
     releaseLabel: "Deep Security 12 FR 2020-01-27"
     releaseDate: 2020-01-27
+    eoas: true
     eol: 2021-07-27
 
 -   releaseCycle: "12.5.494"
     releaseLabel: "Deep Security 12 FR 2019-12-12"
     releaseDate: 2019-12-12
+    eoas: true
     eol: 2021-06-12
 
 -   releaseCycle: "12.5.349"
     releaseLabel: "Deep Security 12 FR 2019-10-23"
     releaseDate: 2019-10-23
+    eoas: true
     eol: 2021-04-23
 
 -   releaseCycle: "12.0"
@@ -61,16 +67,19 @@ releases:
 
 -   releaseCycle: "11.3"
     releaseDate: 2019-01-07
+    eoas: true
     eol: 2019-12-20
     eoes: 2020-12-31
 
 -   releaseCycle: "11.2"
     releaseDate: 2018-10-10
+    eoas: true
     eol: 2019-12-20
     eoes: 2020-12-31
 
 -   releaseCycle: "11.1"
     releaseDate: 2018-07-16
+    eoas: true
     eol: 2019-12-20
     eoes: 2020-12-31
 
@@ -83,16 +92,19 @@ releases:
 
 -   releaseCycle: "10.3"
     releaseDate: 2018-01-18
+    eoas: true
     eol: 2018-11-22
     eoes: 2019-11-22
 
 -   releaseCycle: "10.2"
     releaseDate: 2017-11-24
+    eoas: true
     eol: 2018-11-22
     eoes: 2019-11-22
 
 -   releaseCycle: "10.1"
     releaseDate: 2017-07-11
+    eoas: true
     eol: 2018-11-22
     eoes: 2019-11-22
 
@@ -106,11 +118,13 @@ releases:
 -   releaseCycle: "9.6"
     lts: true
     releaseDate: 2015-08-12
+    eoas: true
     eol: 2019-08-12
 
 -   releaseCycle: "9.0"
     lts: true
     releaseDate: 2013-02-11
+    eoas: true
     eol: 2017-12-31
 
 ---
