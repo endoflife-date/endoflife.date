@@ -40,13 +40,21 @@ auto:
         eol: "EOL"
 
 releases:
+-   releaseCycle: "33"
+    releaseDate: 2024-10-15
+    eol: 2025-04-29
+    latest: "33.0.0"
+    latestReleaseDate: 2024-10-15
+    chromeVersion: "M130"
+    nodeVersion: false
+
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
     eol: 2025-03-04
     latest: "32.2.0"
     latestReleaseDate: 2024-10-09
     chromeVersion: "M128"
-    nodeVersion: false
+    nodeVersion: "20.16"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
