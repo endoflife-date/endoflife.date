@@ -11,7 +11,7 @@ releaseLabel: 'Deep Security __RELEASE_CYCLE__'
 releaseDateColumn: true
 releaseColumn: false
 LTSLabel: "<abbr title='Long-Term Support'>LTS</abbr>"
-eoasColumn: End Of Standard Support
+eoasColumn: qStandard Support
 eoesColumn: true
 
 releases:
@@ -132,4 +132,11 @@ releases:
 > [Trend Micro Deep Security](https://www.trendmicro.com/en_us/business/products/hybrid-cloud/deep-security.html)
 > provides advanced server security for physical, virtual, and cloud servers.
 
-Deep Security [release strategy](https://help.deepsecurity.trendmicro.com/20_0/on-premise/release-lifecycle.html) used to include both Long-Term Support (LTS) and Feature Releases (FR). After the release of Deep Security 20, the Feature Releases are no longer released to reduce the number of software upgrades and simplify the support policy.
+Feature Releases are no longer made
+[starting with Deep Security 20](https://help.deepsecurity.trendmicro.com/20_0/on-premise/release-lifecycle.html).
+Deep Security 20 updates will be released monthly. If needed (such as due to critical fixes or vulnerabilities), 
+more frequent releases will be provided.
+
+Deep Security supports upgrades from the last 2 major releases for all Deep Security components,
+as long as the current release is is still within its support period. Rolling back to a previous
+release is not supported. 
