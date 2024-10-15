@@ -74,7 +74,7 @@ releases:
     lts: 2023-11-13 # v23.1.12
     eoas: 2024-05-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
     eol: 2024-11-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
-    latest: "23.1.27"
+    latest: "23.1.28"
     latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "22.2"
