@@ -36,7 +36,6 @@ releases:
     releaseDate: 2024-10-10
     eoas: 2025-07-11
     eol: 2025-07-11
-    eoes: null
     latest: "24.10"
     latestReleaseDate: 2024-10-10
 
