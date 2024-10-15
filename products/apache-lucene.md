@@ -15,6 +15,12 @@ auto:
   -   maven: org.apache.lucene/lucene-core
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2024-10-14
+    eol: false
+    latest: "10.0.0"
+    latestReleaseDate: 2024-10-14
+
 -   releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
@@ -23,7 +29,7 @@ releases:
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13
-    eol: false
+    eol: true
     latest: "8.11.4"
     latestReleaseDate: 2024-09-24
 
