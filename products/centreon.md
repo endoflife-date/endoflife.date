@@ -4,6 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
+releaseImage: https://docs.centreon.com/assets/images/lifecycle-44870b59cdb8b96e3789171ab1f518c8.png
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
 eoasColumn: Phase 1 support
