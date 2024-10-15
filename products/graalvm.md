@@ -7,6 +7,7 @@ releasePolicyLink: https://www.graalvm.org/release-calendar/
 changelogTemplate: "https://www.graalvm.org/release-notes/{{'__RELEASE_CYCLE__'|replace:'.','_'|replace:'-','_'|upcase}}/"
 LTSLabel: "<abbr title='Annual Release'>AR</abbr>"
 eolColumn: Maintenance
+eoesColumn: Oracle GraalVM
 releaseDateColumn: true
 
 identifiers:
@@ -36,21 +37,21 @@ releases:
 -   releaseCycle: "jdk-21"
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
-    eol: false
+    eol: 2024-03-19
     latest: "jdk-21.0.2"
     latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
     releaseDate: 2023-07-25
-    eol: false
+    eol: 2023-09-19
     latest: "jdk-20.0.2"
     latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "jdk-17"
     releaseLabel: "JDK 17"
-    releaseDate: 2023-07-25
-    eol: false
+    releaseDate: 2023-06-13
+    eol: 2023-10-24
     latest: "jdk-17.0.9"
     latestReleaseDate: 2023-10-24
 
@@ -145,14 +146,12 @@ releases:
 > Java. It supports additional programming languages and execution modes, like ahead-of-time
 > compilation of Java applications for fast startup and low memory footprint.
 
-GraalVM Community release cadence used to be fixed, with one feature release every three months and
-an additional annual releases. But starting with JDK 20 in June 2023, GraalVM follows the JDK’s
-six-month release cadence and only supports the latest JDK version (just as Oracle OpenJDK
+GraalVM follows JDK's six-month release cadence and only supports the latest JDK version (just as Oracle OpenJDK
 releases do).
 
 As part of this alignment, GraalVM adopted the JDK’s release numbering scheme based on the supported
 Java version. To avoid confusion with older releases, new releases are named _GraalVM for JDK
-&lt;Java version&gt;_, for example _GraalVM for JDK 20_ (and are prefixed with `jdk-` on this page).
+&lt;Java version&gt;_, for example _GraalVM for JDK 20_ (and are prefixed with `JDK` on this page).
 
 A commercial offering with long term support is provided by Oracle as
 [Oracle GraalVM](https://docs.oracle.com/en/graalvm/index.html).
