@@ -46,7 +46,7 @@ releases:
     latest: "33.0.0"
     latestReleaseDate: 2024-10-15
     chromeVersion: "M130"
-    nodeVersion: false
+    nodeVersion: "20.18.0"
 
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
