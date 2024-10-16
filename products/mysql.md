@@ -23,6 +23,7 @@ auto:
       -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
       -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
       -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
+      -   ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
@@ -35,10 +36,17 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "9.0"
-    releaseDate: 2024-07-01
+-   releaseCycle: "9.1"
+    releaseDate: 2024-10-15
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
+    latest: '9.1.0'
+    latestReleaseDate: 2024-10-15
+
+-   releaseCycle: "9.0"
+    releaseDate: 2024-07-01
+    eoas: 2024-10-15
+    eol: 2024-10-15
     latest: '9.0.1'
     latestReleaseDate: 2024-07-23
 
