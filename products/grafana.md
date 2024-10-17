@@ -10,6 +10,7 @@ eoasColumn: true
 
 identifiers:
 -   purl: pkg:github/grafana/grafana
+-   purl: pkg:golang/github.com/grafana/grafana
 
 auto:
   methods:
