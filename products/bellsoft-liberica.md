@@ -461,8 +461,8 @@ releases:
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-18
-    latest: "23+38"
-    latestReleaseDate: 2024-09-18
+    latest: "23.0.1+13"
+    latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
@@ -475,8 +475,8 @@ releases:
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     eoes: 2032-03-31
-    latest: "21.0.4+10"
-    latestReleaseDate: 2024-07-17
+    latest: "21.0.5+12"
+    latestReleaseDate: 2024-10-16
     link: https://docs.bell-sw.com/liberica-jdk/21.0.2b14/general/release-notes/ # no link yet for 21.0.2+15
 
 -   releaseCycle: "20"
@@ -503,8 +503,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     eoes: 2030-03-31
-    latest: "17.0.12+11"
-    latestReleaseDate: 2024-07-17
+    latest: "17.0.13+13"
+    latestReleaseDate: 2024-10-16
     link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
 -   releaseCycle: "16"
@@ -544,8 +544,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     eoes: 2027-03-31
-    latest: "11.0.24+9"
-    latestReleaseDate: 2024-07-17
+    latest: "11.0.25+11"
+    latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -562,8 +562,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2026-11-30
     eoes: 2031-03-31
-    latest: "8u422+6"
-    latestReleaseDate: 2024-07-17
+    latest: "8u432+7"
+    latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "7"
     lts: true
