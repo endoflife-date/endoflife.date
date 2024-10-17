@@ -118,6 +118,78 @@ releases:
     latest: '10.9.5'
     latestReleaseDate: 2014-09-17
 
+-   releaseCycle: "10.8"
+    releaseLabel: "OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Mountain Lion"
+    releaseDate: 2012-07-25
+    eol: 2015-08-13
+    latest: '10.8.5'
+    latestReleaseDate: 2015-08-13
+
+-   releaseCycle: "10.7"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Lion"
+    releaseDate: 2011-07-20
+    eol: 2012-10-04
+    latest: '10.7.5'
+    latestReleaseDate: 2012-10-04
+
+-   releaseCycle: "10.6"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Snow Leopard"
+    releaseDate: 2009-08-28
+    eol: 2011-07-25
+    latest: '10.6.8'
+    latestReleaseDate: 2011-07-25
+
+-   releaseCycle: "10.5"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Leopard"
+    releaseDate: 2007-10-26
+    eol: 2009-08-13
+    latest: '10.5.8'
+    latestReleaseDate: 2009-08-13
+
+-   releaseCycle: "10.4"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Tiger"
+    releaseDate: 2005-04-29
+    eol: 2007-11-14
+    latest: '10.4.11'
+    latestReleaseDate: 2007-11-14
+
+-   releaseCycle: "10.3"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Panther"
+    releaseDate: 2003-10-24
+    eol: 2005-04-15
+    latest: '10.3.9'
+    latestReleaseDate: 2005-04-15
+
+-   releaseCycle: "10.2"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Jaguar"
+    releaseDate: 2002-08-24
+    eol: 2003-10-03
+    latest: '10.2.8'
+    latestReleaseDate: 2003-10-03
+
+-   releaseCycle: "10.1"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Puma"
+    releaseDate: 2001-09-25
+    eol: 2002-06-06
+    latest: '10.1.5'
+    latestReleaseDate: 2002-06-06
+
+-   releaseCycle: "10.0"
+    releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Cheetah"
+    releaseDate: 2001-03-24
+    eol: 2001-06-22
+    latest: '10.0.4'
+    latestReleaseDate: 2001-06-22
+
 ---
 
 >[macOS](https://en.wikipedia.org/wiki/MacOS) (aka OS X, Mac OS X) is the primary operating system
