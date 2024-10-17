@@ -18,6 +18,7 @@ identifiers:
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
 -   purl: pkg:oci/prometheus?repository_url=cgr.dev/chainguard
 -   purl: pkg:github/prometheus/prometheus
+-   purl: pkg:golang/github.com/prometheus/prometheus
 
 auto:
   methods:
