@@ -20,6 +20,13 @@ auto:
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "5.1"
+    codename: 'Styhead'
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.1.0"
+    latestReleaseDate: 2024-10-16
+
 -   releaseCycle: "5.0"
     codename: 'Scarthgap'
     lts: true
