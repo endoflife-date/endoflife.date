@@ -37,18 +37,18 @@ identifiers:
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "9.1"
-    releaseDate: 2024-10-15
+    releaseDate: 2024-09-24
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
     latest: '9.1.0'
-    latestReleaseDate: 2024-10-15
+    latestReleaseDate: 2024-09-24
 
 -   releaseCycle: "9.0"
-    releaseDate: 2024-07-01
+    releaseDate: 2024-06-07
     eoas: 2024-10-15
     eol: 2024-10-15
     latest: '9.0.1'
-    latestReleaseDate: 2024-07-23
+    latestReleaseDate: 2024-07-12
 
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-10

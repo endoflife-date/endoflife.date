@@ -67,8 +67,8 @@ releases:
 -   releaseCycle: "23"
     releaseDate: 2024-09-17
     eol: 2025-03-18 # expected 24 release date (see https://www.java.com/releases/)
-    latest: "23+37"
-    latestReleaseDate: 2024-09-18
+    latest: "23.0.1+11"
+    latestReleaseDate: 2024-10-17
 
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
@@ -105,16 +105,16 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.12+7"
-    latestReleaseDate: 2024-07-17
+    latest: "17.0.13+11"
+    latestReleaseDate: 2024-10-17
 
   # Note that first release was 11.0.12+7
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
     eol: 2027-10-31
-    latest: "11.0.24+8"
-    latestReleaseDate: 2024-07-17
+    latest: "11.0.25+9"
+    latestReleaseDate: 2024-10-17
 
 # Note that the first and only 16 release is 16.0.2+7
 -   releaseCycle: "16"
