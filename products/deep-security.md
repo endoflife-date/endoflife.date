@@ -11,7 +11,7 @@ releaseLabel: 'Deep Security __RELEASE_CYCLE__'
 releaseDateColumn: true
 releaseColumn: false
 LTSLabel: "<abbr title='Long-Term Support'>LTS</abbr>"
-eoasColumn: qStandard Support
+eoasColumn: Standard Support
 eoesColumn: true
 
 releases:
