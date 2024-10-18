@@ -19,6 +19,12 @@ auto:
         eol: "RDS end of standard support date"
 
 releases:
+-   releaseCycle: "11.4"
+    releaseDate: 2024-10-15
+    eol: 2026-03-31
+    latest: "11.4.3"
+    latestReleaseDate: 2024-10-15
+
 -   releaseCycle: "10.11"
     releaseDate: 2023-08-21
     eol: 2028-02-29
