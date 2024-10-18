@@ -40,4 +40,5 @@ releases:
 
 > [Vitess](https://vitess.io/) is a database clustering system for horizontal scaling of MySQL.
 
-The Vitess maintainers [support](https://vitess.io/docs/releases/) the last 3 major releases of Vitess. Each major release is maintained for 1 year.
+The last 3 major releases of Vitess are supported.
+Each major release is maintained for 1 year.
