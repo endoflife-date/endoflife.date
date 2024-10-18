@@ -36,6 +36,36 @@ releases:
     latest: "18.0.7"
     latestReleaseDate: 2024-09-11
 
+-   releaseCycle: "17.0"
+    releaseDate: 2023-06-27
+    eol: 2024-06-27
+    latest: "17.0.7"
+    latestReleaseDate: 2024-05-08
+
+-   releaseCycle: "16.0"
+    releaseDate: 2023-02-28
+    eol: 2024-02-28
+    latest: "16.0.7"
+    latestReleaseDate: 2023-12-20
+
+-   releaseCycle: "15.0"
+    releaseDate: 2022-10-25
+    eol: 2023-10-25
+    latest: "15.0.5"
+    latestReleaseDate: 2023-10-03
+
+-   releaseCycle: "14.0"
+    releaseDate: 2022-06-28
+    eol: 2023-06-28
+    latest: "14.0.5"
+    latestReleaseDate: 2023-03-30
+
+-   releaseCycle: "13.0"
+    releaseDate: 2022-02-22
+    eol: 2023-02-22
+    latest: "13.0.3"
+    latestReleaseDate: 2022-09-01
+
 ---
 
 > [Vitess](https://vitess.io/) is a database clustering system for horizontal scaling of MySQL.
