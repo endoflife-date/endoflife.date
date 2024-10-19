@@ -12,6 +12,7 @@ releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 releaseDateColumn: true
+commercialSupportColumn: true
 
 identifiers:
 -   purl: pkg:generic/node
@@ -32,6 +33,7 @@ releases:
     eoas: 2025-04-01
     eol: 2025-06-01
     latest: "23.0.0"
+    commercialSupport: No
     latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "22"
@@ -40,6 +42,7 @@ releases:
     eoas: 2025-10-21
     eol: 2027-04-30
     latest: "22.10.0"
+    commercialSupport: No
     latestReleaseDate: 2024-10-17
 
 -   releaseCycle: "21"
@@ -47,6 +50,7 @@ releases:
     eoas: 2024-04-01
     eol: 2024-06-01
     latest: "21.7.3"
+    commercialSupport: No
     latestReleaseDate: 2024-04-10
 
 -   releaseCycle: "20"
@@ -55,6 +59,7 @@ releases:
     eoas: 2024-10-22
     eol: 2026-04-30
     latest: "20.18.0"
+    commercialSupport: No
     latestReleaseDate: 2024-10-03
 
 -   releaseCycle: "19"
@@ -62,6 +67,7 @@ releases:
     eoas: 2023-04-01
     eol: 2023-06-01
     latest: "19.9.0"
+    commercialSupport: No
     latestReleaseDate: 2023-04-10
 
 -   releaseCycle: "18"
@@ -70,6 +76,7 @@ releases:
     eoas: 2023-10-18
     eol: 2025-04-30
     latest: "18.20.4"
+    commercialSupport: Yes
     latestReleaseDate: 2024-07-08
 
 -   releaseCycle: "17"
@@ -77,6 +84,7 @@ releases:
     eoas: 2022-04-01
     eol: 2022-06-01
     latest: "17.9.1"
+    commercialSupport: No
     latestReleaseDate: 2022-06-01
 
 -   releaseCycle: "16"
@@ -85,6 +93,7 @@ releases:
     eoas: 2022-10-18
     eol: 2023-09-11
     latest: "16.20.2"
+    commercialSupport: Yes
     latestReleaseDate: 2023-08-09
 
 -   releaseCycle: "15"
@@ -92,6 +101,7 @@ releases:
     eoas: 2021-04-01
     eol: 2021-06-01
     latest: "15.14.0"
+    commercialSupport: No
     latestReleaseDate: 2021-04-06
 
 -   releaseCycle: "14"
@@ -100,6 +110,7 @@ releases:
     eoas: 2021-10-19
     eol: 2023-04-30
     latest: "14.21.3"
+    commercialSupport: Yes
     latestReleaseDate: 2023-02-16
 
 -   releaseCycle: "13"
@@ -107,6 +118,7 @@ releases:
     eoas: 2020-04-01
     eol: 2020-06-01
     latest: "13.14.0"
+    commercialSupport: No
     latestReleaseDate: 2020-04-29
 
 -   releaseCycle: "12"
@@ -115,6 +127,7 @@ releases:
     eoas: 2020-10-20
     eol: 2022-04-30
     latest: "12.22.12"
+    commercialSupport: Yes
     latestReleaseDate: 2022-04-05
 
 -   releaseCycle: "11"
@@ -122,6 +135,7 @@ releases:
     eoas: 2019-04-01
     eol: 2019-06-30
     latest: "11.15.0"
+    commercialSupport: No
     latestReleaseDate: 2019-04-30
 
 -   releaseCycle: "10"
@@ -130,6 +144,7 @@ releases:
     eoas: 2020-05-19
     eol: 2021-04-30
     latest: "10.24.1"
+    commercialSupport: No
     latestReleaseDate: 2021-04-06
 
 -   releaseCycle: "9"
@@ -137,6 +152,7 @@ releases:
     eoas: 2018-06-30
     eol: 2018-06-30
     latest: "9.11.2"
+    commercialSupport: No
     latestReleaseDate: 2018-06-12
 
 -   releaseCycle: "8"
@@ -145,6 +161,7 @@ releases:
     eoas: 2019-01-01
     eol: 2019-12-31
     latest: "8.17.0"
+    commercialSupport: No
     latestReleaseDate: 2019-12-17
 
 -   releaseCycle: "7"
@@ -152,6 +169,7 @@ releases:
     eoas: 2017-06-30
     eol: 2017-06-30
     latest: "7.10.1"
+    commercialSupport: No
     latestReleaseDate: 2017-07-11
 
 -   releaseCycle: "6"
@@ -160,6 +178,7 @@ releases:
     eoas: 2018-04-30
     eol: 2019-04-30
     latest: "6.17.1"
+    commercialSupport: No
     latestReleaseDate: 2019-04-03
 
 -   releaseCycle: "5"
@@ -167,6 +186,7 @@ releases:
     eoas: 2016-06-30
     eol: 2016-06-30
     latest: "5.12.0"
+    commercialSupport: No
     latestReleaseDate: 2016-06-23
 
 -   releaseCycle: "4"
@@ -175,6 +195,7 @@ releases:
     eoas: 2017-04-01
     eol: 2018-04-30
     latest: "4.9.1"
+    commercialSupport: No
     latestReleaseDate: 2018-03-29
 
 -   releaseCycle: "3"
@@ -183,6 +204,7 @@ releases:
     eol: true
     link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "3.3.1"
+    commercialSupport: No
     latestReleaseDate: 2015-09-15
 
 -   releaseCycle: "2"
@@ -191,6 +213,7 @@ releases:
     eol: true
     link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "2.5.0"
+    commercialSupport: No
     latestReleaseDate: 2015-07-28
 
 -   releaseCycle: "1"
@@ -199,6 +222,7 @@ releases:
     eol: true
     link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
+    commercialSupport: No
     latestReleaseDate: 2015-07-09
 
 ---
@@ -215,6 +239,13 @@ LTS releases.
 
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and
 is not recommended for Production use.
+
+Commercial support for Node.js is available post end-of-life through the OpenJS
+Foundation's Ecosystem Sustainability Program (ESP). For more information about
+commercial support options for Node.js, learn more on
+[their website](https://www.herodevs.com/support/node-nes) and get
+commercial support from HeroDevs with
+[https://www.herodevs.com/support/node-nes](https://www.herodevs.com/support/node-nes).
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
 to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
