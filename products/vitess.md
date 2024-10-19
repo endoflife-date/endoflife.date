@@ -72,3 +72,44 @@ releases:
 
 The last 3 major releases of Vitess are supported.
 Each major release is maintained for 1 year.
+
+## Support Lifecycle
+
+* Supported Versions: Each major version is supported for 12 months from its initial release.
+* High Severity Bug Fixes: Security vulnerabilities, data corruption issues, and critical bugs are backported to all supported versions.
+* End-of-Life (EOL): After 12 months, versions reach EOL and no longer receive updates.
+
+## Release Cadence
+
+* Major Releases: Every 4 months, introducing new features and improvements (e.g., 13.0, 14.0).
+* Patch Releases: Issued as needed for critical fixes, incrementing the patch number (e.g., 13.0.1).
+
+## Is My Version Supported?
+
+If your Vitess version was released within the last 12 months, it is still supported. Versions older than that have reached EOL.
+
+## How Long Do I Have Before I Need to Upgrade?
+
+You should plan to upgrade before your version's 12-month support window ends to continue receiving updates and fixes.
+
+## Which Version Am I Running?
+
+Run the following command to check your Vitess version:
+
+```bash
+vtctl --version
+```
+
+## When Is the Next Release?
+
+New major versions are released every 5 months. Expect the next release approximately 4 months after the latest major version.
+
+## What Does "Supported" Mean?
+
+A supported version receives:
+
+* Security Patches: Fixes for known vulnerabilities.
+* Critical Bug Fixes: Patches for severe issues like data loss or outages.
+* Patch Releases: Updates that address important fixes.
+
+For more detailed information, refer to the [Vitess Release Policy](https://vitess.io/docs/releases/) and [VEP #5 - Support Lifecycle](https://github.com/vitessio/enhancements/blob/main/veps/vep-5.md#support-lifecycle).
