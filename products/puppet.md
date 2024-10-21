@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-04-21
     eol: false
-    latest: "8.9.0"
-    latestReleaseDate: 2024-09-06
+    latest: "8.10.0"
+    latestReleaseDate: 2024-10-18
     link: https://www.puppet.com/docs/puppet/8/release_notes_puppet.html#release_notes_puppet_x-8-1-0
 
 -   releaseCycle: "7"
