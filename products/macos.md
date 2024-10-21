@@ -124,7 +124,7 @@ releases:
     releaseDate: 2012-07-25
     eol: 2015-08-13
     latest: '10.8.5'
-    latestReleaseDate: 2015-08-13
+    latestReleaseDate: 2013-09-12
 
 -   releaseCycle: "10.7"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -132,7 +132,7 @@ releases:
     releaseDate: 2011-07-20
     eol: 2012-10-04
     latest: '10.7.5'
-    latestReleaseDate: 2012-10-04
+    latestReleaseDate: 2012-09-19
 
 -   releaseCycle: "10.6"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
