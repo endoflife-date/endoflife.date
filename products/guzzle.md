@@ -28,6 +28,6 @@ releases:
 
 ---
 
-> [Guzzle]([https://jkrowling.com/time-turner](https://docs.guzzlephp.org/en/stable/)) is an HTTP client written in PHP.
+> [Guzzle](https://docs.guzzlephp.org/en/stable/) is an HTTP client written in PHP.
 
 After each new major release, the previous release is supported for at least 2 years.
