@@ -45,7 +45,6 @@ layout: default
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eoesColumn %}<th>{{ page.eoesColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsBeforeLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
-      {% if page.commercialSupportColumn %}<th>Commercial Support</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsAfterLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
     </tr>
@@ -126,16 +125,6 @@ layout: default
         {{ r.eoes_from | timeago }} <div>({{ r.eoes_from | date_to_string }})</div>
       {% else %}
         {% if r.is_eoes == null %}Unavailable{% else %}{% if r.is_eoes %}No{% else %}Yes{% endif %}{% endif %}
-      {% endif %}
-    </td>
-    {% endif %}
-
-    {% if page.commercialSupportColumn %}
-    <td>
-      {% if r.commercialSupport %}
-        Yes
-      {% else %}
-        No
       {% endif %}
     </td>
     {% endif %}
