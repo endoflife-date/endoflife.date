@@ -20,13 +20,14 @@ identifiers:
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas
-    releaseLabel: "2022 CU15"
+    releaseLabel: "2022 CU15+GDR"
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "16.0.4145.4"
-    latestReleaseDate: 2024-09-25
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate15
+    latest: "16.0.4150.1"
+    latestReleaseDate: 2024-10-08
+    # CU15 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate15
+    link: https://support.microsoft.com/help/5046059 # GDR for CU15
     
 -   releaseCycle: "15.0"
     codename: Seattle
@@ -34,10 +35,10 @@ releases:
     releaseDate: 2019-11-04
     eoas: 2025-01-07
     eol: 2030-01-08
-    latest: "15.0.4390.2"
-    latestReleaseDate: 2024-09-10
+    latest: "15.0.4395.2"
+    latestReleaseDate: 2024-10-08
     # CU28 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate28
-    link: https://support.microsoft.com/help/5042749 # GDR for CU28
+    link: https://support.microsoft.com/help/5046060 # GDR for CU28
 
 -   releaseCycle: "14.0"
     codename: Helsinki
@@ -45,10 +46,10 @@ releases:
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latest: "14.0.3475.1"
-    latestReleaseDate: 2024-09-10
+    latest: "14.0.3480.1"
+    latestReleaseDate: 2024-10-08
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
-    link: https://support.microsoft.com/help/5042215 # GDR for CU31
+    link: https://support.microsoft.com/help/5046061 # GDR for CU31
 
 -   releaseCycle: "13.0"
     codename: SQL16
@@ -56,10 +57,10 @@ releases:
     releaseDate: 2016-06-01
     eoas: 2021-07-13
     eol: 2026-07-14
-    latest: "13.0.6445.1"
-    latestReleaseDate: 2024-09-10
+    latest: "13.0.6450.1"
+    latestReleaseDate: 2024-10-08
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
-    link: https://support.microsoft.com/help/5042207 # GDR for SP3
+    link: https://support.microsoft.com/help/5046063 # GDR for SP3
 
 -   releaseCycle: "12.0"
     codename: Hekaton
