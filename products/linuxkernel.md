@@ -33,13 +33,13 @@ releases:
 
 -   releaseCycle: "6.10"
     releaseDate: 2024-07-14
-    eol: 2024-11-14 # estimated releaseDate(x)+4 months
+    eol: 2024-10-10 # announced https://lore.kernel.org/lkml/2024101047-unclothed-armadillo-6520@gregkh/
     latest: "6.10.14"
     latestReleaseDate: 2024-10-10
 
 -   releaseCycle: "6.9"
     releaseDate: 2024-05-12
-    eol: 2024-07-27
+    eol: 2024-07-27 # announced https://lore.kernel.org/lkml/2024072948-glimmer-glitch-6a95@gregkh/
     latest: "6.9.12"
     latestReleaseDate: 2024-07-27
 
