@@ -20,7 +20,6 @@ auto:
   -   git: https://github.com/hashicorp/packer.git
 
 # eol(x) = release(x+3)
-# eoes(x) = releaseDate(x+6)
 releases:
 -   releaseCycle: "1.11"
     releaseDate: 2024-05-31
@@ -40,13 +39,18 @@ releases:
     latest: "1.9.5"
     latestReleaseDate: 2024-02-07
 
+-   releaseCycle: "1.8"
+    releaseDate: 2022-03-04
+    eol: 2024-05-31
+    latest: "1.8.7"
+    latestReleaseDate: 2023-05-04
 
 ---
 
 > [Hashicorp Packer](https://www.packer.io/) Packer is a community tool for creating identical machine images for multiple platforms from a single source configuration. 
 
 
-- **Generally Available (GA)** releases of active products are supported under standard maintenance approximately
+**Generally Available (GA)** releases of active products are supported under standard maintenance approximately
 for a year. The standard support period and end of life policy covers "N−2" versions,
 which means, at any given time, HashiCorp maintains the current version ("N") and the two previous versions ("N−2").
 
