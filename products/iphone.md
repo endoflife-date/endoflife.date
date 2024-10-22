@@ -70,7 +70,7 @@ releases:
 -   releaseCycle: "15-pro"
     releaseLabel: "15 Pro"
     releaseDate: 2023-09-22
-    discontinued: false
+    discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP903
     supportedIosVersions: 17 - 18
@@ -78,7 +78,7 @@ releases:
 -   releaseCycle: "15-pro-max"
     releaseLabel: "15 Pro Max"
     releaseDate: 2023-09-22
-    discontinued: false
+    discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP904
     supportedIosVersions: 17 - 18
