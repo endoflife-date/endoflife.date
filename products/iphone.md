@@ -126,7 +126,7 @@ releases:
 -   releaseCycle: "13"
     releaseLabel: "13"
     releaseDate: 2021-09-24
-    discontinued: false
+    discontinued: 2024-09-09
     eol: false
     link: https://support.apple.com/kb/SP851
     supportedIosVersions: 15 - 18
