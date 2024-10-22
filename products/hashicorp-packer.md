@@ -10,7 +10,6 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/packer/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Standard Maintenance
-eoesColumn: Extended Maintenance
 versionCommand: packer --version
 
 identifiers:
