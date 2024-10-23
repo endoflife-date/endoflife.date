@@ -41,8 +41,8 @@ releases:
     releaseDate: 2023-06-14
     eol: 2025-01-21 # Jan 2025 CPU
     lts: true
-    latest: "23.0.5.0"
-    latestReleaseDate: 2024-07-21
+    latest: "23.0.6.0"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "22.3"
     releaseLabel: "22.3 (JDK 17)"
