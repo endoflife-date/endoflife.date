@@ -29,7 +29,7 @@ releases:
 -   releaseCycle: "10.1"
     releaseDate: 2024-10-16
     eol: 2025-01-15
-    latest: '10.1.0'
+    latest: '10.1.1'
     latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "10.0"
