@@ -256,5 +256,8 @@ it will change to 2 + 3 years.
 
 The detailed release information (including schedules) can be found among [Release PEPs](https://peps.python.org/topic/release/)
 
+Endless commercial support is available 
+[from TuxCare](https://tuxcare.com/extended-lifecycle-support/python-els/). 
+
 A Python release only supports a Windows platform while Microsoft considers the platform under
 extended support. Python 3.8 was the last version to support Windows 7.
