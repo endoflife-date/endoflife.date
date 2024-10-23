@@ -154,6 +154,7 @@ more details about support roadmap.
 
 A commercial offer for extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+Endless commercial support is available [from TuxCare](https://tuxcare.com/extended-lifecycle-support/spring-extended-support/).
 
 ## Java Compatibility
 
