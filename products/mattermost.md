@@ -25,6 +25,7 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+# releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
 -   releaseCycle: "10.1"
     releaseDate: 2024-10-16
