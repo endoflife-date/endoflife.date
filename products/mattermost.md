@@ -5,7 +5,6 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
-releaseImage: https://docs.mattermost.com/_images/ESR_graphic2.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
@@ -25,7 +24,14 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+# releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.1"
+    releaseDate: 2024-10-16
+    eol: 2025-01-15
+    latest: '10.1.1'
+    latestReleaseDate: 2024-10-16
+
 -   releaseCycle: "10.0"
     releaseDate: 2024-09-16
     eol: 2024-12-15
