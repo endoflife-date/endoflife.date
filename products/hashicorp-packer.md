@@ -34,10 +34,10 @@ releases:
     latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "1.9"
-    releaseDate: 2023-12-04
+    releaseDate: 2023-05-31
     eol: false
     latest: "1.9.5"
-    latestReleaseDate: 2024-02-07
+    latestReleaseDate: 2023-12-04
 
 -   releaseCycle: "1.8"
     releaseDate: 2022-03-04
