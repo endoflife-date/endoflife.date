@@ -19,8 +19,13 @@ auto:
   methods:
   -   npm: next
 
-# eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
+-   releaseCycle: "15"
+    releaseDate: 2024-10-21
+    eol: false
+    latest: "15.0.0"
+    latestReleaseDate: 2024-10-21
+
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
