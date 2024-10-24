@@ -68,4 +68,3 @@ OpenVPN Access Server (OpenVPN-AS) provides additional paid and proprietary feat
 There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which is documented at [Suppported OpenSSL versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions#SuppportedOpenSSLversions).
 
 Only Active Support versions have binary releases, Security Support releases are source distribution only.
-See [Community Supported OpenVPN Versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions) on the OpenVPN Wiki for more information.
