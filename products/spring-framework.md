@@ -117,6 +117,7 @@ for more details about support roadmap.
 
 Extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+Endless commercial support is available [from TuxCare](https://tuxcare.com/extended-lifecycle-support/spring-extended-support/).
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
