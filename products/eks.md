@@ -29,59 +29,59 @@ releases:
     releaseDate: 2024-09-26
     eol: 2025-11-26
     eoes: 2026-11-26
-    latest: '1.31-eks-2'
-    latestReleaseDate: 2024-09-26
+    latest: '1.31-eks-6'
+    latestReleaseDate: 2024-10-21
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-eks-distro-kubernetes-version-1-31/
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: '1.30-eks-8'
-    latestReleaseDate: 2024-09-03
+    latest: '1.30-eks-12'
+    latestReleaseDate: 2024-10-21
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-23
     eol: 2025-03-23
     eoes: 2026-03-23
-    latest: '1.29-eks-13'
-    latestReleaseDate: 2024-09-03
+    latest: '1.29-eks-17'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-26
     eol: 2024-11-26
     eoes: 2025-11-26
-    latest: '1.28-eks-19'
-    latestReleaseDate: 2024-09-03
+    latest: '1.28-eks-23'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-05-24
     eol: 2024-07-24
     eoes: 2025-07-24
-    latest: '1.27-eks-23'
-    latestReleaseDate: 2024-09-03
+    latest: '1.27-eks-27'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
     eol: 2024-06-11
     eoes: 2025-06-11
-    latest: '1.26-eks-24'
-    latestReleaseDate: 2024-09-03
+    latest: '1.26-eks-28'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
     eol: 2024-05-01
     eoes: 2025-05-01
-    latest: '1.25-eks-25'
-    latestReleaseDate: 2024-09-03
+    latest: '1.25-eks-29'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-11-15
     eol: 2024-01-31
     eoes: 2025-01-31
-    latest: '1.24-eks-28'
-    latestReleaseDate: 2024-09-03
+    latest: '1.24-eks-32'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-08-11
