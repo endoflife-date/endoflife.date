@@ -82,6 +82,7 @@ releases:
   general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
 - Oracle Linux offers different support periods than upstream RHEL, with extra fees for using
   extended support which is explained [here](https://www.oracle.com/a/ocom/docs/linux/oracle-linux-extended-support-ds.pdf).
+- Endless commercial support for Oracle Linux 6 and 7 is available at [TuxCare](https://tuxcare.com/extended-lifecycle-support).
 - By default, Oracle Linux does not use the same kernel upstream RHEL uses, instead they support
   their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may
   not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available
