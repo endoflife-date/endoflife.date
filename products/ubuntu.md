@@ -416,6 +416,8 @@ the `main` repository.
 Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
 to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Extended Security Maintenance (ESM). This offer is only available for Ubuntu Pro paying customers.
 
+Endless commercial suppport for Ubuntu 16.4 and 18.4 is available at [TuxCare](https://tuxcare.com/extended-lifecycle-support).
+
 ## Support Comparison
 
 | Feature/Plan                                                                            | Ubuntu LTS      | Ubuntu Pro (Infra-Only) [^1] | Ubuntu Pro    | Legacy Support |
