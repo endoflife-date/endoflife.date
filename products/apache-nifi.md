@@ -10,6 +10,9 @@ changelogTemplate: "https://cwiki.apache.org/confluence/display/NIFI/Release+Not
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: nifi
+
 auto:
   methods:
   -   git: https://github.com/apache/nifi.git
