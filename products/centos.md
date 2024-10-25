@@ -57,3 +57,5 @@ as Red Hat shifted focus to [CentOS Stream](/centos-stream).
 
 Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by
 Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).
+
+Endless commercial support for CentOS 6, 7, 8 and 8 Stream end-of-life versions is available at [TuxCare](https://tuxcare.com/extended-lifecycle-support/). 
