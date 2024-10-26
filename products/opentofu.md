@@ -20,14 +20,14 @@ releases:
 -   releaseCycle: "1.8"
     releaseDate: 2024-07-29
     eol: false # releaseDate(1.10)
-    latest: "1.8.3"
-    latestReleaseDate: 2024-10-03
+    latest: "1.8.4"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "1.7"
     releaseDate: 2024-04-30
     eol: false # releaseDate(1.9)
-    latest: "1.7.3"
-    latestReleaseDate: 2024-07-09
+    latest: "1.7.4"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-09
