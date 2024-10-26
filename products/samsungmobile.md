@@ -22,14 +22,14 @@ releases:
 -   releaseCycle: "Galaxy A55 5G"
     releaseDate: 2024-03-11
     eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
-    eol: 2028-03-11 # "five years of security updates"
+    eol: 2029-03-11 # "five years of security updates"
     link: https://doc.samsungmobile.com/sm-a556e/ins/doc.html
 
 -   releaseCycle: "Galaxy A35 5G"
     releaseDate: 2024-03-11
     eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
-    eol: 2028-03-11 # "five years of security updates"
-    link: https://doc.samsungmobile.com/SM-A356E/029619240319/eng.html
+    eol: 2029-03-11 # "five years of security updates"
+    link: https://doc.samsungmobile.com/SM-A356U/TMB/doc.html
 
 -   releaseCycle: "Galaxy S24 Ultra"
     releaseDate: 2024-01-24
