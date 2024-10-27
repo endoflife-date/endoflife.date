@@ -12,7 +12,7 @@ changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:npm/next.js
+-   purl: pkg:npm/next
 -   purl: pkg:github/vercel/next.js
 
 auto:
