@@ -16,6 +16,7 @@ identifiers:
 -   repology: log4j
 -   cpe: cpe:/a:apache:log4j
 -   cpe: cpe:2.3:a:apache:log4j
+-   purl: pkg:maven/org.apache.logging.log4j/log4j-core
 
 auto:
   methods:
