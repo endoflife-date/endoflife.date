@@ -115,8 +115,8 @@ See [Spring Boot Milestones page](https://github.com/spring-projects/spring-fram
 for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
 for more details about support roadmap.
 
-Extended support is available
-[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+Extended support is available from
+[VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support) and [HeroDevs](https://www.herodevs.com/support/spring-nes).
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
