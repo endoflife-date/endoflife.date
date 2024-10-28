@@ -1,7 +1,7 @@
 ---
 title: jQuery
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
