@@ -11,6 +11,7 @@ changelogTemplate: https://github.com/spring-projects/spring-framework/releases/
 releaseDateColumn: true
 eolColumn: OSS support
 eoesColumn: Commercial Support
+commercialProviderColumn: true
 
 auto:
   methods:
@@ -36,6 +37,7 @@ releases:
     releaseDate: 2023-11-16
     eol: 2025-08-31
     eoes: 2026-12-31
+    commercialProviderColumn: VMWare, HeroDevs
     latest: "6.1.14"
     latestReleaseDate: 2024-10-17
 
@@ -45,6 +47,7 @@ releases:
     releaseDate: 2022-11-16
     eol: 2024-08-31
     eoes: 2025-12-31
+    commercialProviderColumn: VMWare, HeroDevs
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
@@ -54,6 +57,7 @@ releases:
     releaseDate: 2020-10-27
     eol: 2024-08-31
     eoes: 2026-12-31
+    commercialProviderColumn: VMWare, HeroDevs
     lts: true
     latest: "5.3.39"
     latestReleaseDate: 2024-08-14
@@ -64,6 +68,7 @@ releases:
     releaseDate: 2019-09-30
     eol: 2021-12-31
     eoes: 2023-12-31
+    commercialProviderColumn: HeroDevs
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.2.25"
     latestReleaseDate: 2023-07-13
@@ -74,6 +79,7 @@ releases:
     releaseDate: 2018-09-21
     eol: 2020-12-31
     eoes: 2022-12-31
+    commercialProviderColumn: HeroDevs
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.1.20"
     latestReleaseDate: 2020-12-09
@@ -83,6 +89,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2017-09-28
     eol: 2020-12-31
+    commercialProviderColumn: HeroDevs
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
@@ -92,6 +99,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2016-06-10
     eol: 2020-12-31
+    commercialProviderColumn: HeroDevs
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
@@ -101,6 +109,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2012-12-13
     eol: 2016-12-31
+    commercialProviderColumn: (TODO - Two bots say no support)
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "3.2.18"
     latestReleaseDate: 2016-12-21

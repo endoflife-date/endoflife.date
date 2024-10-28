@@ -44,6 +44,7 @@ layout: default
       {% if page.eoasColumn %}<th>{{ page.eoasColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eoesColumn %}<th>{{ page.eoesColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
+      {% if page.commercialProviderColumn %}<th>Commercial Support Provider</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsBeforeLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
       {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsAfterLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
@@ -129,7 +130,14 @@ layout: default
     </td>
     {% endif %}
 
-    {%- for column in customColumnsBeforeLatest %}
+    {% if page.commercialProviderColumn %}
+    <td>
+      {% if r.commercialProviderColumn  %}
+        {{ r.commercialProviderColumn }}
+      {% endif %}
+    </td>
+    {% endif %}
+        {%- for column in customColumnsBeforeLatest %}
     {% include custom-column-td.html release=r column=column %}
     {%- endfor %}
 
