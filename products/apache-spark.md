@@ -34,8 +34,8 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2023-04-07
     eol: 2024-10-07 # estimated
-    latest: "3.4.3"
-    latestReleaseDate: 2024-04-15
+    latest: "3.4.4"
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "3.3"
     releaseDate: 2022-06-09
