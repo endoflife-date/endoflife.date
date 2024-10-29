@@ -44,7 +44,6 @@ layout: default
       {% if page.eoasColumn %}<th>{{ page.eoasColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eolColumn %}<th>{{ page.eolColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% if page.eoesColumn %}<th>{{ page.eoesColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
-      {% if page.commercialProviderColumn %}<th>Commercial Support Provider</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsBeforeLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
       {% if page.releaseColumn %}<th>{{ page.releaseColumnLabel }}</th>{% assign colCount = colCount | plus:1 %}{% endif %}
       {% for column in customColumnsAfterLatest %}{% include custom-column-th.html column=column %}{% assign colCount = colCount | plus:1 %}{% endfor %}
@@ -130,14 +129,7 @@ layout: default
     </td>
     {% endif %}
 
-    {% if page.commercialProviderColumn %}
-    <td>
-      {% if r.commercialProviderColumn  %}
-        {{ r.commercialProviderColumn }}
-      {% endif %}
-    </td>
-    {% endif %}
-        {%- for column in customColumnsBeforeLatest %}
+    {%- for column in customColumnsBeforeLatest %}
     {% include custom-column-td.html release=r column=column %}
     {%- endfor %}
 
@@ -160,8 +152,8 @@ layout: default
   </tr>
 {% endfor %}
 {% assign can_be_hidden_releases_count = page.releases | where: 'can_be_hidden', true | size %}
-{% if can_be_hidden_releases_count > 0 %}
-  <tr id="show-more-row" class="d-none">
+{% if can_be_hidden_releases_count > 0 and page.omitHiddenReleaseButton != true %}
+<tr id="show-more-row" class="d-none">
     <td colspan="{{ colCount }}" class="text-center">
       <button id="show-hidden-releases-button" class="btn">
         Show more unmaintained releases
