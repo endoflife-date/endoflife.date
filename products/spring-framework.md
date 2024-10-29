@@ -1,7 +1,7 @@
 ---
 title: Spring Framework
 category: framework
-tags: java-runtime vmware
+tags: java-runtime vmware herodevs
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
@@ -36,7 +36,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-16
     eol: 2025-08-31
-    eoes: 2026-12-31
+    eoes: 2028-12-31
     latest: "6.1.14"
     latestReleaseDate: 2024-10-17
 
@@ -45,7 +45,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2022-11-16
     eol: 2024-08-31
-    eoes: 2025-12-31
+    eoes: 2027-12-31
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
@@ -54,7 +54,7 @@ releases:
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-27
     eol: 2024-08-31
-    eoes: 2026-12-31
+    eoes: 2036-12-31
     lts: true
     latest: "5.3.39"
     latestReleaseDate: 2024-08-14
@@ -93,6 +93,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2016-06-10
     eol: 2020-12-31
+    eoes: 2036-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
