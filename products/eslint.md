@@ -9,6 +9,7 @@ releaseColumn: true
 releaseDateColumn: true
 eolColumn:  Maintenance Support
 eoasColumn: Active Support
+tags: herodevs
 customColumns:
   - property: eoesProvider
     position: before-latest-column
