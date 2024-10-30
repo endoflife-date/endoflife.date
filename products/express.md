@@ -5,7 +5,7 @@ tags: javascript herodevs
 iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/
-changelogTemplate: https://github.com/expressjs/express/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/expressjs/express/releases/tag/__LATEST__
 releaseDateColumn: true
 eolColumn: Security Support
 eoesColumn: Commercial Support
@@ -18,38 +18,35 @@ auto:
 
 releases:
 -   releaseCycle: "5"
-    releaseDate: 2018-06-22
-    eol: 2019-12-21
-    latest: "5.16.0"
-    latestReleaseDate: 2019-03-29
+    releaseDate: 2024-09-09
+    eol: false
+    latest: "5.0.1"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "4"
-    releaseDate: 2017-06-11
-    eol: 2019-12-22
-    eoes: false
-    latest: "4.19.1"
-    latestReleaseDate: 2018-03-21
+    releaseDate: 2014-04-09
+    eol: false
+    latest: "4.21.1"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "3"
-    releaseDate: 2016-07-01
-    eol: 2017-12-11
+    releaseDate: 2012-10-23
+    eol: 2015-07-05
     eoes: false
-    latest: "3.19.0"
-    latestReleaseDate: 2017-03-31
+    latest: "3.21.1"
+    latestReleaseDate: 2015-07-15
 
 -   releaseCycle: "2"
-    releaseDate: 2016-02-12
-    eol: 2017-01-01
-    eoes: false
-    latest: "2.13.1"
-    latestReleaseDate: 2016-06-21
+    releaseDate: 2011-03-17
+    eol: 2012-07-01
+    latest: "2.5.11"
+    latestReleaseDate: 2012-07-04
 
 -   releaseCycle: "1"
-    releaseDate: 2015-07-31
-    eol: 2016-08-12
-    eoes: false
-    latest: "1.10.3"
-    latestReleaseDate: 2015-12-01
+    releaseDate: 2010-12-29
+    eol: 2011-03-01
+    latest: "1.0.8"
+    latestReleaseDate: 2011-03-01
 
 ---
 
@@ -61,12 +58,13 @@ releases:
 > allowing developers to add functionality through various plugins and
 > middleware, and it easily integrates with databases like MongoDB and MySQL.
 
-According to Express’s [version support](https://expressjs.com/en/support)
-policy, Express supports the current release and the previous release for
-some time after the current release. After that, the previous release line
-moves to EOL.
+Only the latest version of any given major release line is supported.
+
+Versions that are EOL (end-of-life) may receive updates for critical
+security vulnerabilities, but the Express team offers no guarantee and
+does not plan to address or release fixes for any issues found.
 
 The Express team has indicated that they will be participating in the
 [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
-(ESP) and have announced that commercial support for EOL branches is
+(ESP) and have announced that [commercial support for EOL branches](https://expressjs.com/en/support) is
 now available through [HeroDevs](https://www.herodevs.com/support/eslint-nes).
