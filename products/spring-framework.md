@@ -84,6 +84,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2017-09-28
     eol: 2020-12-31
+    eoes: 2020-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
@@ -113,8 +114,8 @@ releases:
 > programming and configuration model for modern Java-based enterprise applications - on any kind of
 > deployment platform.
 
-See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
-for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
+See [Spring Framework Milestones page](https://github.com/spring-projects/spring-framework/milestones)
+for upcoming releases and [Spring Framework Support page](https://spring.io/projects/spring-framework#support)
 for more details about support roadmap.
 
 Commercial support is available from
@@ -131,28 +132,26 @@ Commercial support is available from
     <tbody>
         <tr>
             <td>6.1</td>
-            <td class="bg-green-000">Ends on 31 Dec 2026</td>
-            <td class="bg-green-000">Ends on 31 Dec 2028</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2028</a></td>
         </tr>
         <tr>
             <td>6.0</td>
-            <td class="bg-green-000">Ends on 31 Dec 2026</td>
-            <td class="bg-green-000">Ends on 31 Dec 2027</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2027</a></td>
         </tr>
         <tr>
             <td>5.3</td>
-            <td class="bg-green-000">Ends on 31 Dec 2026</td>
-            <td class="bg-green-000">Ends on 31 Dec 2036</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2036</a></td>
         </tr>
         <tr>
             <td>4.3</td>
-            <td class="bg-red-000">Ended 31 Dec 2022</td>
-            <td class="bg-green-000">Ends on 31 Dec 2036</td>
+            <td class="bg-red-000"><a href="https://blogs.vmware.com/tanzu">Ended 31 Dec 2022</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2036</a></td>
         </tr>
     </tbody>
 </table>
-
-
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
