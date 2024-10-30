@@ -10,6 +10,12 @@ releaseDateColumn: true
 eolColumn: Security Support
 eoesColumn: Commercial Support
 
+auto:
+  methods:
+    - git: https://github.com/eslint/eslint.git
+      regex: ^v(?P<version>\d+\.\d+\.\d+)$
+      template: "{{version}}"
+
 releases:
 -   releaseCycle: "9"
     releaseDate: 2024-04-05
