@@ -30,7 +30,9 @@ releases:
     link: https://learn.microsoft.com/lifecycle/products/office-2024
 
 -   releaseCycle: "2024-ltsc"
+    releaseLabel: "2024 LTSC"
     releaseDate: 2024-09-18
+    lts: true
     eoas: 2029-10-09
     eol: 2029-10-09
     link: https://learn.microsoft.com/en-us/lifecycle/products/office-ltsc-2024
