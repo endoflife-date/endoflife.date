@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-10-25
     eoas: 2025-09-30
     eol: 2025-12-22
-    latest: '1.31.1-gke.2008000'
-    latestReleaseDate: 2024-10-25
+    latest: '1.31.1-gke.2105000'
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-07-31
