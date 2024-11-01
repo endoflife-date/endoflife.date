@@ -14,6 +14,14 @@ releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 releases:
+-   releaseCycle: "2025"
+    releaseDate: 2024-11-01
+    eoas: 2029-10-09
+    eol: 2034-10-10
+    latest: 10.0.26100
+    lts: true
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+
 -   releaseCycle: "23H2"
     releaseDate: 2023-10-24
     eoas: 2025-04-24
