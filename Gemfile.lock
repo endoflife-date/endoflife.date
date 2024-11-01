@@ -173,7 +173,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     uri (0.13.0)
-    webrick (1.8.2)
+    webrick (1.9.0)
 
 PLATFORMS
   aarch64-linux
@@ -204,7 +204,7 @@ DEPENDENCIES
   open-uri (~> 0.4)
   packageurl-ruby (~> 0.1.0)
   tzinfo-data
-  webrick (~> 1.8)
+  webrick (~> 1.9)
 
 BUNDLED WITH
    2.5.9
