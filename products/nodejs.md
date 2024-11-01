@@ -221,11 +221,11 @@ LTS releases.
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and
 is not recommended for Production use.
 
-Commercial support for Node.js is available post end-of-life through the OpenJS
-Foundation's Ecosystem Sustainability Program (ESP). For more information about
+Commercial support for Node.js is available post end-of-life through the [OpenJS
+Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP). For more information about
 commercial support options for Node.js, learn more on
 [their website](https://www.herodevs.com/support/node-nes) and get
-commercial support from HeroDevs with
+commercial support from [HeroDevs](https://www.herodevs.com/support/node-nes) with
 [https://www.herodevs.com/support/node-nes](https://www.herodevs.com/support/node-nes).
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
