@@ -6,7 +6,7 @@ iconSlug: rocketdotchat
 permalink: /rocket-chat
 alternate_urls:
 -   /rocketchat
-releasePolicyLink: https://docs.rocket.chat/resources/rocket.chats-support-structure/enterprise-support-and-version-durability
+releasePolicyLink: https://docs.rocket.chat/docs/support-prerequisites
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
 releaseDateColumn: true
 eoasColumn: true
@@ -15,36 +15,74 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
-  -   release_table: https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability
+  -   release_table: https://docs.rocket.chat/docs/version-durability
       selector: "table"
+      header_selector: "tbody tr:nth-of-type(1)"
       fields:
         releaseCycle:
           column: "Rocket.Chat Release"
           regex: '^(?P<value>\d+\.\d+).*$'
         eol: "End of Life"
 
-# eoas(x) = releaseDate(x+1)
+# https://docs.rocket.chat/docs/rocketchat-release-notes
+# eoas(x) = releaseDate(x)
+# eol(x) = releaseDate(x) + 6 months -> last day of month
 releases:
+-   releaseCycle: "6.12"
+    releaseDate: 2024-09-05
+    eoas: 2024-09-05
+    eol: 2025-03-31
+    latest: '6.12.1'
+    latestReleaseDate: 2024-09-13
+
+-   releaseCycle: "6.11"
+    releaseDate: 2024-08-09
+    eoas: 2024-08-09
+    eol: 2025-02-28
+    latest: '6.11.3'
+    latestReleaseDate: 2024-09-13
+
+-   releaseCycle: "6.10"
+    releaseDate: 2024-07-10
+    eoas: 2024-07-10
+    eol: 2025-01-31
+    latest: '6.10.6'
+    latestReleaseDate: 2024-09-13
+
+-   releaseCycle: "6.9"
+    releaseDate: 2024-06-02
+    eoas: 2024-06-02
+    eol: 2024-12-31
+    latest: '6.9.7'
+    latestReleaseDate: 2024-09-13
+
+-   releaseCycle: "6.8"
+    releaseDate: 2024-05-12
+    eoas: 2024-06-12
+    eol: 2024-11-30
+    latest: '6.8.7'
+    latestReleaseDate: 2024-09-13
+
 -   releaseCycle: "6.7"
     releaseDate: 2024-04-08
-    eoas: false
+    eoas: 2024-05-12
     eol: 2024-10-31
-    latest: '6.7.2'
-    latestReleaseDate: 2024-04-30
+    latest: '6.7.9'
+    latestReleaseDate: 2024-09-13
 
 -   releaseCycle: "6.6"
     releaseDate: 2024-02-07
     eoas: 2024-04-08
     eol: 2024-08-31
-    latest: '6.6.7'
-    latestReleaseDate: 2024-04-24
+    latest: '6.6.12'
+    latestReleaseDate: 2024-07-29
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-12-01
     eoas: 2024-02-07
     eol: 2024-06-30
-    latest: '6.5.6'
-    latestReleaseDate: 2024-04-24
+    latest: '6.5.8'
+    latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-09-27
@@ -389,7 +427,31 @@ releases:
 > Rocket.Chat is available in two editions: Community and Enterprise. This page describes the
 > on-premise enterprise edition.
 
-Rocket.Chat follows [Semantic Versioning](https://semver.org/). Only the latest minor release
-is supported with bug and security fixes. The prior minor release receives only security fixes
-for 3 months after the latest minor release. That duration is extended to 6 months for the last
-release of a major version (which is also flagged as LTS).
+{: .warning }
+> As of December 15, 2023, Rocket.Chat has ceased support for connections from
+  cloud services and official mobile/desktop apps to workspaces running
+  unsupported versions.
+
+Rocket.Chat follows [Semantic Versioning](https://semver.org/).
+
+## [Support Lifecycle](https://docs.rocket.chat/docs/version-durability)
+
+Each release is supported for six months. Once this period expires, hosted
+services such as the Push Gateway and Marketplace will cease to function for
+that particular version. Only support queries and security fixes are included
+in the support window.
+
+## Compatibility
+
+Minimum requirements for [MongoDB](https://docs.rocket.chat/v1/docs/en/support-prerequisites#mongodb-version-support) and [Client Apps - Mobile/Desktop](https://docs.rocket.chat/v1/docs/en/minimum-requirements-for-client-apps)
+are documented as well.
+
+### Browser Support
+
+Browser support is limited to recent browser versions:
+
+- Latest 3 versions of Google Chrome
+- Latest 3 versions of Mozilla Firefox
+- Latest two versions of Apple Safari
+- Latest two versions of Microsoft Edge
+- Latest version of Microsoft Internet Explorer

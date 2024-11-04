@@ -12,6 +12,10 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   cpe: cpe:/a:kde:plasma
+-   cpe: cpe:2.3:a:kde:plasma
+
 auto:
   methods:
   -   git: https://github.com/KDE/plasma-desktop.git
@@ -22,12 +26,26 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.2"
+    releaseDate: 2024-10-08
+    eoas: false
+    eol: false
+    latest: "6.2.2"
+    latestReleaseDate: 2024-10-22
+
+-   releaseCycle: "6.1"
+    releaseDate: 2024-06-18
+    eoas: 2024-10-08
+    eol: 2024-10-08
+    latest: "6.1.5"
+    latestReleaseDate: 2024-09-10
+
 -   releaseCycle: "6.0"
     releaseDate: 2024-02-28
-    eoas: false
-    eol: false # Will end when Plasma 6.1 comes out
-    latest: "6.0.4"
-    latestReleaseDate: 2024-04-16
+    eoas: 2024-06-18
+    eol: 2024-06-18
+    latest: "6.0.5"
+    latestReleaseDate: 2024-05-21
 
 -   releaseCycle: "5.27"
     lts: true

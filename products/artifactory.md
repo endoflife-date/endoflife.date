@@ -8,17 +8,34 @@ releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactor
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: artifactory
+-   cpe: cpe:/a:jfrog:artifactory
+-   cpe: cpe:2.3:a:jfrog:artifactory
+
 auto:
   methods:
   -   custom: artifactory
 
 # EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
+-   releaseCycle: "7.98"
+    releaseDate: 2024-10-29
+    eol: 2026-04-29
+    latest: "7.98.7"
+    latestReleaseDate: 2024-10-29
+    
+-   releaseCycle: "7.90"
+    releaseDate: 2024-07-25
+    eol: 2026-01-25
+    latest: "7.90.15"
+    latestReleaseDate: 2024-10-21
+
 -   releaseCycle: "7.84"
     releaseDate: 2024-05-12
     eol: 2025-11-12
-    latest: "7.84.10"
-    latestReleaseDate: 2024-05-12
+    latest: "7.84.17"
+    latestReleaseDate: 2024-07-09
 
 -   releaseCycle: "7.77"
     releaseDate: 2024-01-24

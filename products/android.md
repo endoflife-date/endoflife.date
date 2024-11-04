@@ -16,6 +16,11 @@ eolColumn: Security Support
 
 # EOL is the latest security patch date for "Old version" on https://en.wikipedia.org/wiki/Android_version_history.
 releases:
+-   releaseCycle: "15"
+    codename: Vanilla Ice Cream
+    releaseDate: 2024-09-03
+    eol: false
+
 -   releaseCycle: "14"
     codename: Upside Down Cake
     releaseDate: 2023-10-04

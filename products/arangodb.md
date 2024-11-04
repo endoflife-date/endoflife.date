@@ -6,6 +6,11 @@ releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-c
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
 eolWarnThreshold: 121
 
+identifiers:
+-   repology: arangodb
+-   cpe: cpe:/a:arangodb:arangodb
+-   cpe: cpe:2.3:a:arangodb:arangodb
+
 auto:
   methods:
   -   git: https://github.com/arangodb/arangodb.git
@@ -15,14 +20,14 @@ releases:
 -   releaseCycle: "3.12"
     releaseDate: 2024-03-21
     eol: false
-    latest: "3.12.0.2"
-    latestReleaseDate: 2024-04-22
+    latest: "3.12.3"
+    latestReleaseDate: 2024-10-25
 
 -   releaseCycle: "3.11"
     releaseDate: 2023-05-23
     eol: false
-    latest: "3.11.9"
-    latestReleaseDate: 2024-05-18
+    latest: "3.11.12"
+    latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-09-29

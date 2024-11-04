@@ -14,20 +14,20 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2019-11-15
     eol: false
-    latest: "3.10.3"
-    latestReleaseDate: 2024-05-16
+    latest: "3.14.0"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "2"
     releaseDate: 2017-01-05
     eol: 2023-12-31 # https://symfony.com/blog/twig-2-end-of-life
-    latest: "2.16.0"
-    latestReleaseDate: 2023-12-22
+    latest: "2.16.1"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "1"
     releaseDate: 2011-03-27
     eol: 2022-09-28
-    latest: "1.44.7"
-    latestReleaseDate: 2022-09-28
+    latest: "1.44.8"
+    latestReleaseDate: 2024-09-09
 
 ---
 

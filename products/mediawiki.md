@@ -5,10 +5,15 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/llebggzr6u9gj415qxtfcde01ij1mcd.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/4n097p5czcq89yt3glu9ww1mxxk2as7.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 releaseDateColumn: true
 eolColumn: End-of-Life
+
+identifiers:
+-   repology: mediawiki
+-   cpe: cpe:/a:mediawiki:mediawiki
+-   cpe: cpe:2.3:a:mediawiki:mediawiki
 
 auto:
   methods:
@@ -24,22 +29,28 @@ auto:
         eol: "End-of-life"
 
 releases:
+-   releaseCycle: "1.42"
+    releaseDate: 2024-06-27
+    eol: 2025-06-30
+    latest: "1.42.3"
+    latestReleaseDate: 2024-10-01
+
 -   releaseCycle: "1.41"
     releaseDate: 2023-12-21
     eol: 2024-12-31
-    latest: "1.41.1"
-    latestReleaseDate: 2024-03-28
+    latest: "1.41.4"
+    latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "1.40"
     releaseDate: 2023-06-30
-    eol: 2024-06-30
-    latest: "1.40.3"
-    latestReleaseDate: 2024-03-28
+    eol: 2024-06-28
+    latest: "1.40.4"
+    latestReleaseDate: 2024-06-27
 
 -   releaseCycle: "1.39"
     eol: 2025-11-30
-    latest: "1.39.7"
-    latestReleaseDate: 2024-03-28
+    latest: "1.39.10"
+    latestReleaseDate: 2024-10-01
     releaseDate: 2022-11-30
     lts: true
 

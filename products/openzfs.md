@@ -11,6 +11,11 @@ changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   repology: openzfs
+-   cpe: cpe:/a:openzfs:openzfs
+-   cpe: cpe:2.3:a:openzfs:openzfs
+
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
   methods:
@@ -22,16 +27,16 @@ auto:
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions.
 releases:
 -   releaseCycle: "2.2"
-    supportedLinux: "3.10 - 6.5"
+    supportedLinux: "4.18 - 6.10"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2023-10-12
     eol: false # releaseDate(2.3)
-    latest: "2.2.4"
-    latestReleaseDate: 2024-05-02
+    latest: "2.2.6"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "2.1"
     lts: true
-    supportedLinux: "3.10 - 6.5"
+    supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years

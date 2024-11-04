@@ -20,7 +20,7 @@ auto:
   methods:
   -   npm: ember-source
   -   release_table: https://emberjs.com/releases/lts/
-      selector: "table"
+      selector: 'h2:-soup-contains("Ember.js") + table'
       fields:
         releaseCycle: "LTS version"
         lts: "Promotion date"
@@ -30,19 +30,48 @@ auto:
 # For LTS :
 # every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
 # see https://emberjs.com/releases/lts/
-# - lts(x) = release(x) + 6 weeks
+# - lts(x) = releaseDate(x) + 6 weeks
 # - eoas(x) = lts(x) + 36 weeks
 # - eol(x) = lts(x) + 54 weeks
 #
 # For non-LTS :
-# - eoas(x) = release(x+1)
-# - eol(x) = release(x+1)
+# - eoas(x) = releaseDate(x+1)
+# - eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "5.12"
+    releaseDate: 2024-09-30
+    lts: 2024-11-15
+    eoas: 2025-07-25
+    eol: 2025-11-28
+    latest: "5.12.0"
+    latestReleaseDate: 2024-09-30
+
+-   releaseCycle: "5.11"
+    releaseDate: 2024-08-19
+    eoas: 2024-10-04 # releaseDate(5.12)
+    eol: 2024-10-04 # releaseDate(5.12)
+    latest: "5.11.1"
+    latestReleaseDate: 2024-09-23
+
+-   releaseCycle: "5.10"
+    releaseDate: 2024-07-08
+    eoas: 2024-08-19
+    eol: 2024-08-19
+    latest: "5.10.2"
+    latestReleaseDate: 2024-08-06
+
+-   releaseCycle: "5.9"
+    releaseDate: 2024-06-03
+    eoas: 2024-07-08
+    eol: 2024-07-08
+    latest: "5.9.0"
+    latestReleaseDate: 2024-06-03
+
 -   releaseCycle: "5.8"
     releaseDate: 2024-04-15
-    lts: 2024-04-15
-    eoas: 2024-11-11
-    eol: 2025-04-28
+    lts: 2024-06-03
+    eoas: 2024-12-30
+    eol: 2025-06-16
     latest: "5.8.0"
     latestReleaseDate: 2024-04-15
 
@@ -77,8 +106,8 @@ releases:
 
 -   releaseCycle: "5.3"
     releaseDate: 2023-09-18
-    eoas: 2023-11-03
-    eol: 2023-11-03
+    eoas: 2024-07-07
+    eol: 2024-12-22
     latest: "5.3.0"
     latestReleaseDate: 2023-09-18
 

@@ -11,7 +11,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: nginx
--   purl: pkg:binary/nginx
+-   purl: pkg:generic/nginx
 -   purl: pkg:deb/debian/nginx
 -   purl: pkg:deb/ubuntu/nginx
 -   purl: pkg:rpm/amzn/nginx
@@ -28,15 +28,22 @@ auto:
 # eol(x) = releaseDate(x+2)
 
 releases:
+-   releaseCycle: "1.27"
+    releaseDate: 2024-05-28
+    eol: false
+    link: https://nginx.org/en/CHANGES
+    latest: "1.27.2"
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23
     eol: false
-    latest: "1.26.0"
-    latestReleaseDate: 2024-04-23
-    
+    latest: "1.26.2"
+    latestReleaseDate: 2024-08-12
+
 -   releaseCycle: "1.25"
     releaseDate: 2023-05-23
-    eol: false
+    eol: 2024-05-29
     link: https://nginx.org/en/CHANGES
     latest: "1.25.5"
     latestReleaseDate: 2024-04-16

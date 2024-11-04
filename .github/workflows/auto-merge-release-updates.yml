@@ -13,18 +13,18 @@ jobs:
     steps:
       - id: metadata
         name: Dependabot metadata
-        uses: dependabot/fetch-metadata@v2.1.0
+        uses: dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34 # v2.2.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Clone self repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: ${{ github.head_ref }}
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
         with:
           python-version: '3.11'
 
@@ -36,7 +36,7 @@ jobs:
         run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842 # v5
         with:
           file_pattern: products/*
           commit_message: "🤖: Update latest release data"
@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Comment on PR about missing releases
-        uses: github-actions-up-and-running/pr-comment@v1.0.1
+        uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b # v1.0.1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: |

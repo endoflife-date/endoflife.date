@@ -10,6 +10,11 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: ffmpeg
+-   cpe: cpe:/a:ffmpeg:ffmpeg
+-   cpe: cpe:2.3:a:ffmpeg:ffmpeg
+
 auto:
   methods:
   # upstream https://git.ffmpeg.org/ffmpeg.git doesn't support filtering
@@ -18,24 +23,31 @@ auto:
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "7.1"
+    codename: Péter
+    releaseDate: 2024-09-30
+    eol: false
+    latest: "7.1"
+    latestReleaseDate: 2024-09-30
+
 -   releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
     eol: false
-    latest: "7.0.0"
-    latestReleaseDate: 2024-04-05
+    latest: "7.0.2"
+    latestReleaseDate: 2024-08-03
 
 -   releaseCycle: "6.1"
     codename: Heaviside
     releaseDate: 2023-11-11
     eol: false
-    latest: "6.1.1"
-    latestReleaseDate: 2023-12-31
+    latest: "6.1.2"
+    latestReleaseDate: 2024-08-02
 
 -   releaseCycle: "6.0"
     codename: Von Neumann
     releaseDate: 2023-02-27
-    eol: false
+    eol: 2024-07-11 # eol of Ubuntu 23.10 http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/ebe787e5276b54a585f69ed76b0d7cce8265374d
     latest: "6.0.1"
     latestReleaseDate: 2023-11-10
 
@@ -44,8 +56,8 @@ releases:
     lts: true
     releaseDate: 2022-07-22
     eol: false
-    latest: "5.1.4"
-    latestReleaseDate: 2023-11-10
+    latest: "5.1.6"
+    latestReleaseDate: 2024-08-05
 
 -   releaseCycle: "5.0"
     codename: Lorentz
@@ -58,27 +70,27 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.4"
-    latestReleaseDate: 2023-04-12
+    latest: "4.4.5"
+    latestReleaseDate: 2024-07-29
 
 -   releaseCycle: "4.3"
     codename: '4:3'
     releaseDate: 2020-06-15
     eol: false
-    latest: "4.3.6"
-    latestReleaseDate: 2023-04-16
+    latest: "4.3.8"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "4.2"
     codename: 'Ada'
     releaseDate: 2019-08-05
     eol: false
-    latest: "4.2.9"
-    latestReleaseDate: 2023-04-21
+    latest: "4.2.10"
+    latestReleaseDate: 2024-08-01
 
 -   releaseCycle: "4.1"
     codename: 'al-Khwarizmi'
     releaseDate: 2018-11-06
-    eol: false
+    eol: 2024-07-21 # http://git.ffmpeg.org/gitweb/ffmpeg-web.git/commitdiff/49be47948400e33b16a14fc7a198f4636c5d229e
     latest: "4.1.11"
     latestReleaseDate: 2023-06-07
 
@@ -249,7 +261,6 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
-
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of
@@ -261,11 +272,12 @@ FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL p
 defined but, looking at the releases history, there is at least a `x.y` release every year which is
 supported for at least a year with important bug fixes.
 
+## Long Term Support
+
 While several past FFmpeg releases have enjoyed long term support, 5.1 is the first release where
-such an intention is made clear at release. It is not defined what LTS means precisely, but it can
-be safely assumed that such releases will receive important bug fixes for multiple years. As an
-example, 2.8 (released in 2015), 3.4 (released in 2017) and 4.1 (released in 2018) are still
-supported.
+such an intention is made clear at release. [As per the developers](https://news.ycombinator.com/item?id=41695542),
+the first minor version of every Odd Major version (ODD.1) is planned to be an LTS. Each LTS release is maintained
+for a minimum of 3 years.
 
 Note that these releases are intended for distributors and system integrators, not for end users.
 Users that wish to compile from source themselves are strongly encouraged to consider using [the

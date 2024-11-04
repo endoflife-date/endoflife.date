@@ -8,6 +8,11 @@ releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
 releaseDateColumn: true
 
+identifiers:
+-   repology: redmine
+-   cpe: cpe:/a:redmine:redmine
+-   cpe: cpe:2.3:a:redmine:redmine
+
 auto:
   methods:
   -   git: https://github.com/redmine/redmine.git
@@ -17,14 +22,14 @@ releases:
 -   releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
-    latest: "5.1.2"
-    latestReleaseDate: 2024-03-04
+    latest: "5.1.4"
+    latestReleaseDate: 2024-11-03
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-03-28
     eol: false
-    latest: "5.0.8"
-    latestReleaseDate: 2024-03-04
+    latest: "5.0.10"
+    latestReleaseDate: 2024-11-03
 
 -   releaseCycle: "4.2"
     releaseDate: 2021-03-28

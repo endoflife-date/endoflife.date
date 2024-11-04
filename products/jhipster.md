@@ -9,6 +9,11 @@ changelogTemplate: "https://github.com/jhipster/generator-jhipster/releases/tag/
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: jhipster
+-   cpe: cpe:/a:jhipster:jhipster
+-   cpe: cpe:2.3:a:jhipster:jhipster
+
 auto:
   methods:
   -   npm: generator-jhipster
@@ -18,8 +23,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-11-02
     eol: false
-    latest: "8.4.0"
-    latestReleaseDate: 2024-04-30
+    latest: "8.7.3"
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "7"
     releaseDate: 2021-03-21

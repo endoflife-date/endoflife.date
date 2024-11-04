@@ -4,10 +4,14 @@ category: os
 tags: linux-distribution
 permalink: /eurolinux
 versionCommand: lsb_release --release
-releasePolicyLink: https://euro-linux.com/eurolinux/technical-specifications/
-changelogTemplate: https://euro-linux.com/eurolinux/technical-specifications/
+releasePolicyLink: https://euro-linux.com/en/software/eurolinux/specification/
+changelogTemplate: https://euro-linux.com/en/software/eurolinux/specification/
 releaseDateColumn: true
 eoasColumn: true
+
+identifiers:
+-   cpe: cpe:/o:eurolinux:eurolinux
+-   cpe: cpe:2.3:o:eurolinux:eurolinux
 
 auto:
   methods:
@@ -26,8 +30,8 @@ releases:
     releaseDate: 2021-07-12
     eoas: 2029-03-01
     eol: 2029-06-30
-    latest: "8.8"
-    latestReleaseDate: 2023-05-17
+    latest: "8.10"
+    latestReleaseDate: 2024-05-27
 
 -   releaseCycle: "7"
     releaseDate: 2020-11-25

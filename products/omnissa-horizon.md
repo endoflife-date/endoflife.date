@@ -1,12 +1,12 @@
 ---
-title: VMware Horizon
+title: Omnissa Horizon
 category: app
-tags: vmware
-iconSlug: vmware
 permalink: /horizon
 alternate_urls:
 -   /vmwarehorizon
 -   /vmware-horizon
+-   /omnissahorizon
+-   /omnissa-horizon
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
@@ -14,6 +14,30 @@ releaseDateColumn: true
 eolColumn: General Support
 
 releases:
+-   releaseCycle: "8.2406"
+    releaseDate: 2024-06-25
+    eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
+    latest: "8.2406"
+    latestReleaseDate: 2024-06-25
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2406/page/Horizon8-ReleaseNotes.html
+
+-   releaseCycle: "8.2312.1"
+    releaseDate: 2024-04-04
+    eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
+    latest: "8.2312.1"
+    latestReleaseDate: 2024-04-04
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2312.1/page/Horizon8-ReleaseNotes.html
+
+-   releaseCycle: "8.2312"
+    releaseDate: 2024-01-23
+    eol: false # is there a date documented somewhere ?
+    technicalGuidance: null
+    latest: "8.2312"
+    latestReleaseDate: 2024-01-23
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2312/page/Horizon8-ReleaseNotes.html
+
 -   releaseCycle: "8.2309"
     releaseDate: 2023-10-26
     eol: 2026-10-26
@@ -133,9 +157,20 @@ releases:
 
 ---
 
-> [VMware Horizon](https://www.vmware.com/products/horizon.html) enables a digital workspace with
+> [Omnissa Horizon](https://www.omnissa.com/horizon-8/) (earlier VMWare Horizon) enables a digital workspace with
 > the efficient delivery of virtual desktops and applications that equips workers anywhere,
 > anytime, and on any device.
+
+{: .note }
+> After [Broadcom's acquisition of VMWare](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware),
+> Broadcom [divested the End-User Computing Division
+> (which includes Horizon) to KKR](https://media.kkr.com/news-details/?news_id=48701629-ae4d-4d88-b1a9-90a438c6bf6c)
+> and branded it as [Omnissa](https://www.omnissa.com/introducing-omnissa-the-former-vmware-end-user-computing-business/) as part of the restructuring - which is still in process.
+> Omnissa and Broadcom have entered into [a reseller agreement enabling EUC to offer the "combined offering"](https://www.omnissa.com/setting-the-record-straight-euc-to-continue-to-offer-horizon-with-vsphere-and-vsan/)
+> versions of Horizon SaaS and Horizon Term SKUs with vSphere Foundation for VDI. This
+> [combined offering](https://kb.omnissa.com/s/article/14804) will be available
+> in both Named User and Concurrent User license metrics and for 1-, 3-, and 5-year terms.
+> EUC has no plans to increase Horizon list prices beyond normal annual adjustments.
 
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of
 Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three
@@ -157,5 +192,5 @@ support, server/client/guest OS updates, new security patches or bug fixes unles
 {% include table.html
    labels="Release,Technical Guidance Ends"
    fields="releaseCycle,technicalGuidance"
-   types="raw,end-date"
+   types="raw,date"
    rows=page.releases %}

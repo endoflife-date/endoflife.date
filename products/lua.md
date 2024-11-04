@@ -10,6 +10,16 @@ changelogTemplate: "https://www.lua.org/versions.html#{{'__RELEASE_CYCLE__'|spli
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: lua
+-   cpe: cpe:/a:lua:lua
+-   cpe: cpe:2.3:a:lua:lua
+
+auto:
+  cumulative: true # Only the latest versions are available on https://www.lua.org/versions.html.
+  methods:
+  -   custom: lua
+
 # EOL date is the date of the last release of the version.
 # The last releases are documented on https://www.lua.org/versions.html with a sentence similar to
 # "There will be no further releases of Lua x.y".
@@ -17,8 +27,8 @@ releases:
 -   releaseCycle: "5.4"
     releaseDate: 2020-06-29
     eol: false
-    latest: "5.4.6"
-    latestReleaseDate: 2023-05-14
+    latest: "5.4.7"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "5.3"
     releaseDate: 2015-01-12

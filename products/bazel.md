@@ -10,6 +10,14 @@ changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: bazel
+-   purl: pkg:github/bazelbuild/bazel
+-   purl: pkg:docker/chainguard/bazel
+-   purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
+-   cpe: cpe:/a:google:bazel
+-   cpe: cpe:2.3:a:google:bazel
+
 auto:
   methods:
   -   git: https://github.com/bazelbuild/bazel.git
@@ -31,8 +39,8 @@ releases:
     releaseDate: 2023-12-11
     eoas: false # releaseDate(8)
     eol: 2026-12-31
-    latest: "7.1.2"
-    latestReleaseDate: 2024-05-08
+    latest: "7.4.0"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "6"
     lts: true
@@ -62,17 +70,8 @@ releases:
 
 > [Bazel](https://bazel.build/) is a fast, scalable, multi-language and extensible build system.
 
-Bazel uses a `major.minor.patch` Semantic Versioning scheme.
+Bazel follows [Semantic Versioning](https://semver.org/).
 
 - A major release contains features that are not backward compatible with the previous release. Each major Bazel version is an LTS release.
 - A minor release contains backward-compatible bug fixes and features back-ported from the main branch.
 - A patch release contains critical bug fixes.
-
-Additionally, pre-release versions are indicated by appending a hyphen and a date suffix to the next major version number.
-
-For example, a new release of each type would result in these version numbers:
-
-- Major: 6.0.0
-- Minor: 6.1.0
-- Patch: 6.1.2
-- Pre-release: 7.0.0-pre.20230502.1

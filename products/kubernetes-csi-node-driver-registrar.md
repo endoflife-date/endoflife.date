@@ -22,7 +22,20 @@ identifiers:
 -   purl: pkg:github/kubernetes-csi/node-driver-registrar
 -   purl: pkg:golang/github.com/kubernetes-csi/node-driver-registrar
 
+# Supported versions are documented on https://kubernetes-csi.github.io/docs/node-driver-registrar.html#supported-versions.
 releases:
+-   releaseCycle: "2.12"
+    releaseDate: 2024-08-22
+    eol: false
+    latest: "2.12.0"
+    latestReleaseDate: 2024-08-22
+
+-   releaseCycle: "2.11"
+    releaseDate: 2024-05-22
+    eol: false
+    latest: "2.11.1"
+    latestReleaseDate: 2024-07-16
+
 -   releaseCycle: "2.10"
     releaseDate: 2024-01-04
     eol: false
@@ -94,12 +107,6 @@ releases:
     eol: true
     latest: "1.2.0"
     latestReleaseDate: 2019-09-09
-
--   releaseCycle: "0.4"
-    releaseDate: 2018-10-11
-    eol: true
-    latest: "0.4.2"
-    latestReleaseDate: 2018-12-20
 
 ---
 

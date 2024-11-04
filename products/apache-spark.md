@@ -13,6 +13,11 @@ eolColumn: Support
 # https://sparkbyexamples.com/spark/check-spark-version/
 versionCommand: spark-shell --version
 
+identifiers:
+-   repology: apache-spark
+-   cpe: cpe:/a:apache:spark
+-   cpe: cpe:2.3:a:apache:spark
+
 auto:
   methods:
   -   git: https://github.com/apache/spark.git
@@ -23,14 +28,14 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2023-09-09
     eol: 2025-03-09 # estimated
-    latest: "3.5.1"
-    latestReleaseDate: 2024-02-15
+    latest: "3.5.3"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-04-07
     eol: 2024-10-07 # estimated
-    latest: "3.4.3"
-    latestReleaseDate: 2024-04-15
+    latest: "3.4.4"
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "3.3"
     releaseDate: 2022-06-09

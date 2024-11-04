@@ -20,13 +20,20 @@ auto:
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "5.1"
+    codename: 'Styhead'
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.1.0"
+    latestReleaseDate: 2024-10-16
+
 -   releaseCycle: "5.0"
     codename: 'Scarthgap'
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.0"
-    latestReleaseDate: 2024-04-29
+    latest: "5.0.4"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "4.3"
     codename: 'Nanbield'
@@ -54,8 +61,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.18"
-    latestReleaseDate: 2024-05-12
+    latest: "4.0.22"
+    latestReleaseDate: 2024-10-24
 
 -   releaseCycle: "3.4"
     codename: 'Honister'

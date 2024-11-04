@@ -24,13 +24,50 @@ auto:
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://wiki.mozilla.org/Release_Management/Calendar, if available.
-# Next planned ESR/LTS is 128 on 2024-07-09.
+# Next ESR/LTS is not yet planned.
 releases:
+-   releaseCycle: "132"
+    releaseDate: 2024-10-29
+    eol: false
+    latest: "132.0.0"
+    latestReleaseDate: 2024-10-29
+
+-   releaseCycle: "131"
+    releaseDate: 2024-10-01
+    eol: 2024-10-29
+    latest: "131.0.3"
+    latestReleaseDate: 2024-10-14
+
+-   releaseCycle: "130"
+    releaseDate: 2024-09-03
+    eol: 2024-10-01
+    latest: "130.0.1"
+    latestReleaseDate: 2024-09-17
+
+-   releaseCycle: "129"
+    releaseDate: 2024-08-06
+    eol: 2024-09-03
+    latest: "129.0.2"
+    latestReleaseDate: 2024-08-20
+
+-   releaseCycle: "128"
+    lts: true
+    releaseDate: 2024-07-09
+    eol: 2025-09-16 # estimated release day for 140.3 on https://wiki.mozilla.org/Release_Management/Calendar
+    latest: "128.4.0"
+    latestReleaseDate: 2024-10-29
+
+-   releaseCycle: "127"
+    releaseDate: 2024-06-11
+    eol: 2024-07-09
+    latest: "127.0.2"
+    latestReleaseDate: 2024-06-25
+
 -   releaseCycle: "126"
     releaseDate: 2024-05-14
-    eol: false
-    latest: "126.0"
-    latestReleaseDate: 2024-05-14
+    eol: 2024-06-11
+    latest: "126.0.1"
+    latestReleaseDate: 2024-05-28
 
 -   releaseCycle: "125"
     releaseDate: 2024-04-16
@@ -96,8 +133,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2024-10-01 # estimated release day for 131 on https://wiki.mozilla.org/Release_Management/Calendar
-    latest: "115.11.0"
-    latestReleaseDate: 2024-05-14
+    latest: "115.12.0"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "114"
     releaseDate: 2023-06-06
@@ -234,3 +271,4 @@ releases:
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
 - Firefox only supports last 3 macOS releases, [matching the Apple support cycle.](https://support.mozilla.org/kb/firefox-mac-osx-users-esr)
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/calendar/) for Windows 7-8.1 and macOS 10.12-10.14 up to March 2025.

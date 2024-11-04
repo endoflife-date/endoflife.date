@@ -14,9 +14,17 @@ releaseDateColumn: true
 identifiers:
 -   repology: envoy-proxy
 -   purl: pkg:docker/envoyproxy/envoy
+-   purl: pkg:docker/envoyproxy/envoy-alpine
+-   purl: pkg:docker/envoyproxy/envoy-alpine-debug
+-   purl: pkg:docker/envoyproxy/envoy-distroless
 -   purl: pkg:docker/bitnami/envoy
+-   purl: pkg:docker/rapidfort/envoy
+-   purl: pkg:docker/hashicorp/envoy-fips
+-   purl: pkg:docker/chainguard/envoy
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
+-   purl: pkg:oci/envoy?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
 
 auto:
   methods:
@@ -34,29 +42,41 @@ auto:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.32"
+    releaseDate: 2024-10-15
+    eol: 2025-10-15
+    latest: '1.32.1'
+    latestReleaseDate: 2024-10-29
+
+-   releaseCycle: "1.31"
+    releaseDate: 2024-07-19
+    eol: 2025-07-19
+    latest: '1.31.3'
+    latestReleaseDate: 2024-10-29
+
 -   releaseCycle: "1.30"
     releaseDate: 2024-04-16
-    eol: 2025-04-16 #estimated
-    latest: '1.30.1'
-    latestReleaseDate: 2024-04-19
+    eol: 2025-04-16
+    latest: '1.30.7'
+    latestReleaseDate: 2024-10-29
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-16
     eol: 2025-01-16
-    latest: '1.29.4'
-    latestReleaseDate: 2024-04-18
+    latest: '1.29.10'
+    latestReleaseDate: 2024-10-29
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
-    latest: '1.28.3'
-    latestReleaseDate: 2024-04-18
+    latest: '1.28.7'
+    latestReleaseDate: 2024-09-19
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27
-    latest: '1.27.5'
-    latestReleaseDate: 2024-04-18
+    latest: '1.27.7'
+    latestReleaseDate: 2024-06-29
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18

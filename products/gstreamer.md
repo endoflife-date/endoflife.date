@@ -9,6 +9,13 @@ changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: gstreamer
+-   cpe: cpe:/a:gstreamer:gstreamer
+-   cpe: cpe:2.3:a:gstreamer:gstreamer
+-   cpe: cpe:/a:gstreamer_project:gstreamer
+-   cpe: cpe:2.3:a:gstreamer_project:gstreamer
+
 auto:
   methods:
   -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
@@ -18,8 +25,8 @@ releases:
 -   releaseCycle: "1.24"
     releaseDate: 2024-03-04
     eol: false
-    latest: "1.24.3"
-    latestReleaseDate: 2024-04-30
+    latest: "1.24.9"
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23

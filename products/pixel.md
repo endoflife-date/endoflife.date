@@ -23,6 +23,42 @@ customColumns:
 # Discontinued dates from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
+-   releaseCycle: "9profold"
+    releaseLabel: "Pixel 9 Pro Fold"
+    releaseDate: 2024-09-04
+    eoas: 2031-09-01 # at least
+    eol: 2031-09-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9_Pro_Fold
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_9_pro_fold-13220.php
+
+-   releaseCycle: "9pro"
+    releaseLabel: "Pixel 9 Pro"
+    releaseDate: 2024-09-04
+    eoas: 2031-09-01 # at least
+    eol: 2031-09-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9_Pro
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_9_pro-13218.php
+
+-   releaseCycle: "9proxl"
+    releaseLabel: "Pixel 9 Pro XL"
+    releaseDate: 2024-08-22
+    eoas: 2031-08-01 # at least
+    eol: 2031-08-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9_Pro_XL
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_9_pro_xl-13217.php
+
+-   releaseCycle: "9"
+    releaseLabel: "Pixel 9"
+    releaseDate: 2024-08-22
+    eoas: 2031-08-01 # at least
+    eol: 2031-08-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_9_pro-13219.php
+
 -   releaseCycle: "8a"
     releaseLabel: "Pixel 8a"
     releaseDate: 2024-05-14
@@ -30,16 +66,25 @@ releases:
     eol: 2031-05-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_8a
-    supportedAndroidVersions: 14 # https://www.gsmarena.com/google_pixel_8a-12937.php
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_8a-12937.php
     
+-   releaseCycle: "8pro"
+    releaseLabel: "Pixel 8 Pro"
+    releaseDate: 2023-10-04
+    eoas: 2030-10-01 # at least
+    eol: 2030-10-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_8_Pro
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_8-12546.php
+
 -   releaseCycle: "8"
-    releaseLabel: "Pixel 8 / Pro"
+    releaseLabel: "Pixel 8"
     releaseDate: 2023-10-04
     eoas: 2030-10-01 # at least
     eol: 2030-10-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_8
-    supportedAndroidVersions: 14 # https://www.gsmarena.com/google_pixel_8-12546.php
+    supportedAndroidVersions: 14 - 15 # https://www.gsmarena.com/google_pixel_8-12546.php
 
 -   releaseCycle: "fold"
     releaseLabel: "Pixel Fold"
@@ -48,7 +93,7 @@ releases:
     eol: 2028-06-01  # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Fold
-    supportedAndroidVersions: 13 - 14 # https://www.gsmarena.com/google_pixel_fold-12265.php
+    supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_fold-12265.php
 
 -   releaseCycle: "tablet"
     releaseLabel: "Pixel Tablet"
@@ -57,7 +102,7 @@ releases:
     eol: 2028-06-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Tablet
-    supportedAndroidVersions: 13 - 14 # https://www.gsmarena.com/google_pixel_tablet-11905.php
+    supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_tablet-11905.php
 
 -   releaseCycle: "7a"
     releaseLabel: "Pixel 7a"
@@ -66,16 +111,25 @@ releases:
     eol: 2028-05-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7a
-    supportedAndroidVersions: 13 - 14 # https://www.gsmarena.com/google_pixel_7a-12170.php
+    supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7a-12170.php
+
+-   releaseCycle: "7pro"
+    releaseLabel: "Pixel 7 Pro"
+    releaseDate: 2022-10-13
+    eoas: 2025-10-01 # at least
+    eol: 2027-10-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_7_Pro
+    supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7_pro-11908.php
 
 -   releaseCycle: "7"
-    releaseLabel: "Pixel 7 / Pro"
+    releaseLabel: "Pixel 7"
     releaseDate: 2022-10-13
     eoas: 2025-10-01 # at least
     eol: 2027-10-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7
-    supportedAndroidVersions: 13 - 14 # https://www.gsmarena.com/google_pixel_7-11903.php
+    supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7-11903.php
 
 -   releaseCycle: "6a"
     releaseLabel: "Pixel 6a"
@@ -84,16 +138,25 @@ releases:
     eol: 2027-07-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6a
-    supportedAndroidVersions: 12 - 14 # https://www.gsmarena.com/google_pixel_6a-11229.php
+    supportedAndroidVersions: 12 - 15 # https://www.gsmarena.com/google_pixel_6a-11229.php
+
+-   releaseCycle: "6pro"
+    releaseLabel: "Pixel 6 Pro"
+    releaseDate: 2021-10-28
+    eoas: 2024-10-01 # at least
+    eol: 2026-10-01 # at least
+    discontinued: 2022-10-06
+    link: https://en.wikipedia.org/wiki/Pixel_6_Pro
+    supportedAndroidVersions: 12 - 15 # https://www.gsmarena.com/google_pixel_6_pro-10918.php
 
 -   releaseCycle: "6"
-    releaseLabel: "Pixel 6 / Pro"
+    releaseLabel: "Pixel 6"
     releaseDate: 2021-10-28
     eoas: 2024-10-01 # at least
     eol: 2026-10-01 # at least
     discontinued: 2022-10-06
     link: https://en.wikipedia.org/wiki/Pixel_6
-    supportedAndroidVersions: 12 - 14 # https://www.gsmarena.com/google_pixel_6-11037.php
+    supportedAndroidVersions: 12 - 15 # https://www.gsmarena.com/google_pixel_6-11037.php
 
 -   releaseCycle: "5a"
     releaseLabel: "Pixel 5a"

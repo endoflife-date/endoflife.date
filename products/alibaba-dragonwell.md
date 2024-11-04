@@ -69,29 +69,29 @@ releases:
     lts: true
     releaseDate: 2023-11-24 # First official release is 21.0.1.
     eol: 2029-11-30
-    latest: "21.0.3.0.3+9"
-    latestReleaseDate: 2024-05-09
+    latest: "21.0.4.0.4+7"
+    latestReleaseDate: 2024-08-29
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-10-18 # First official release is 17.0.1.
     eol: 2027-09-30
-    latest: "17.0.11.0.12+9"
-    latestReleaseDate: 2024-05-11
+    latest: "17.0.12.0.13+7"
+    latestReleaseDate: 2024-08-30
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2020-07-20 # First official release is 11.0.7.2.
     eol: 2027-09-30
-    latest: "11.0.23.19"
-    latestReleaseDate: 2024-05-09
+    latest: "11.0.24.20"
+    latestReleaseDate: 2024-08-29
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-06-24
     eol: 2026-06-30
-    latest: "8.19.20"
-    latestReleaseDate: 2024-05-10
+    latest: "8.20.21"
+    latestReleaseDate: 2024-08-29
     link: https://github.com/dragonwell-project/dragonwell8/wiki/Alibaba-Dragonwell8-Standard-Edition-Release-Notes
 
 ---

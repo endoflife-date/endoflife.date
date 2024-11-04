@@ -90,15 +90,15 @@ releases:
 -   releaseCycle: "nodejs18.x"
     releaseLabel: Node.js 18
     releaseDate: 2022-11-18
-    eoas: false
-    eol: false
+    eoas: 2025-07-31
+    eol: 2025-10-01
     link: https://aws.amazon.com/blogs/compute/node-js-18-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet7"
     releaseLabel: .NET 7 (container-only)
     releaseDate: 2022-11-15
     eoas: 2024-05-14
-    eol: false
+    eol: true
     link: https://aws.amazon.com/blogs/compute/building-serverless-net-applications-on-aws-lambda-using-net-7/
 
 -   releaseCycle: "nodejs16.x"
@@ -111,7 +111,7 @@ releases:
 -   releaseCycle: "dotnet6"
     releaseLabel: .NET 6
     releaseDate: 2022-02-24
-    eoas: 2024-11-12
+    eoas: 2024-12-20
     eol: 2025-03-31
     link: https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
 

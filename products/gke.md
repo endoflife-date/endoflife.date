@@ -20,38 +20,52 @@ auto:
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # eoas:last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.31"
+    releaseDate: 2024-10-25
+    eoas: 2025-09-30
+    eol: 2025-12-22
+    latest: '1.31.1-gke.2105000'
+    latestReleaseDate: 2024-10-30
+
+-   releaseCycle: "1.30"
+    releaseDate: 2024-07-31
+    eoas: 2025-07-31
+    eol: 2025-09-30
+    latest: '1.30.5-gke.1699000'
+    latestReleaseDate: 2024-10-30
+
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-01-31
     eol: 2025-03-21
-    latest: '1.29.4-gke.1670000'
-    latestReleaseDate: 2024-05-17
+    latest: '1.29.10-gke.1054000'
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
-    eoas: 2024-09-30
-    eol: 2024-11-12
-    latest: '1.28.9-gke.1289000'
-    latestReleaseDate: 2024-05-17
+    eoas: 2024-12-31
+    eol: 2025-02-04
+    latest: '1.28.15-gke.1020000'
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
     eoas: 2024-06-30
     eol: 2024-08-31
-    latest: '1.27.13-gke.1201000'
-    latestReleaseDate: 2024-05-17
+    latest: '1.27.16-gke.1742000'
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31
-    eol: 2024-05-31
-    eoas: 2024-03-31
-    latest: '1.26.15-gke.1320000'
-    latestReleaseDate: 2024-05-17
+    eoas: 2024-04-30
+    eol: 2024-06-30
+    latest: '1.26.15-gke.1469001'
+    latestReleaseDate: 2024-07-03
 
 -   releaseCycle: "1.25"
     releaseDate: 2022-12-14
-    eol: 2024-02-29
-    eoas: 2023-12-31
+    eoas: 2024-01-31
+    eol: 2024-03-30
     latest: '1.25.16-gke.1759000'
     latestReleaseDate: 2024-04-18
 
@@ -115,6 +129,11 @@ releases:
 
 > [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) is the fully managed
 > Kubernetes service from Google.
+
+{: .warning }
+> This page uses release information from the _No Channel (Static)_ channel.
+> Releases only present in the _Rapid_ channel are not considered stable because they are excluded from
+> [GKE SLA](https://cloud.google.com/kubernetes-engine/sla).
 
 GKE offers two modes of operations:
 [Standard and Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview#comparison "Comparing Autopilot and Standard modes at GKE Docs"):

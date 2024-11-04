@@ -14,6 +14,7 @@ releaseDateColumn: true
 identifiers:
 -   cpe: cpe:/o:alpinelinux:alpine_linux
 -   cpe: cpe:2.3:o:alpinelinux:alpine_linux
+-   purl: pkg:swid/alpine?tag_id=alpine
 
 auto:
   methods:
@@ -28,27 +29,34 @@ auto:
           regex: '^.+(?P<date>\d{4}-\d{2}-\d{2}).*$'
           template: "{{date}}"
 
-# eol see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
+# For EOL see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
+-   releaseCycle: "3.20"
+    releaseDate: 2024-05-22
+    eol: 2026-04-01
+    latest: "3.20.3"
+    latestReleaseDate: 2024-09-06
+    link: https://alpinelinux.org/posts/Alpine-3.20.0-released.html
+
 -   releaseCycle: "3.19"
     releaseDate: 2023-12-07
     eol: 2025-11-01
-    latest: "3.19.1"
-    latestReleaseDate: 2024-01-26
+    latest: "3.19.4"
+    latestReleaseDate: 2024-09-06
     link: https://alpinelinux.org/posts/Alpine-3.19.1-released.html
 
 -   releaseCycle: "3.18"
     releaseDate: 2023-05-09
     eol: 2025-05-09
-    latest: "3.18.6"
-    latestReleaseDate: 2024-01-26
+    latest: "3.18.9"
+    latestReleaseDate: 2024-09-06
     link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22
-    latest: "3.17.7"
-    latestReleaseDate: 2024-01-26
+    latest: "3.17.10"
+    latestReleaseDate: 2024-09-06
     link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
 
 -   releaseCycle: "3.16"

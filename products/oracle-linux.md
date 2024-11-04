@@ -22,6 +22,9 @@ auto:
 identifiers:
 -   cpe: cpe:/o:oracle:linux
 -   cpe: cpe:2.3:o:oracle:linux
+-   purl: pkg:oci/oraclelinux?repository_url=container-registry.oracle.com/os
+-   purl: pkg:oci/oraclelinux?repository_url=ghcr.io/oracle
+-   purl: pkg:docker/library/oraclelinux
 
 releases:
 -   releaseCycle: "9"
@@ -35,8 +38,8 @@ releases:
     releaseDate: 2019-07-19
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.9"
-    latestReleaseDate: 2023-11-21
+    latest: "8.10"
+    latestReleaseDate: 2024-05-28
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23
@@ -73,7 +76,7 @@ releases:
 
 ## Differences with Upstream RHEL:
 
-- Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available](https://community.oracle.com/tech/apps-infra/discussion/4481998/what-is-the-lifecycle-of-oracle-linux-for-minor-releases).
+- Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available](https://forums.oracle.com/ords/apexds/post/what-is-the-lifecycle-of-oracle-linux-for-minor-releases-2173).
   Once a new minor point release is available, the older one is immediately considered end of life
   and users must upgrade to continue receiving security updates. For example once 8.5 gets a
   general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
@@ -82,4 +85,4 @@ releases:
 - By default, Oracle Linux does not use the same kernel upstream RHEL uses, instead they support
   their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may
   not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available
-  as an alternative](https://community.oracle.com/tech/apps-infra/discussion/4467791/oracle-linux-how-to-change-default-kernel).
+  as an alternative](https://forums.oracle.com/ords/apexds/post/oracle-linux-how-to-change-default-kernel-3742).

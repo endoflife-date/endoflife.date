@@ -10,6 +10,10 @@ releaseDateColumn: true
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
+identifiers:
+-   cpe: cpe:/a:jekyllrb:jekyll
+-   cpe: cpe:2.3:a:jekyllrb:jekyll
+
 auto:
   methods:
   -   git: https://github.com/jekyll/jekyll.git
@@ -20,16 +24,16 @@ releases:
     releaseDate: 2019-08-20
     eoas: false
     eol: false
-    latest: "4.3.3"
-    latestReleaseDate: 2023-12-27
+    latest: "4.3.4"
+    latestReleaseDate: 2024-09-16
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2015-10-26
     eoas: true
     eol: false
-    latest: "3.9.5"
-    latestReleaseDate: 2024-02-13
+    latest: "3.10.0"
+    latestReleaseDate: 2024-06-24
 
 -   releaseCycle: "2"
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/

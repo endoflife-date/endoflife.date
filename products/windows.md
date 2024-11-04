@@ -13,6 +13,40 @@ identifiers:
 -   cpe: cpe:/o:microsoft:windows
 
 releases:
+-   releaseCycle: "11-24h2-iot-lts"
+    releaseLabel: "11 24H2 IoT"
+    releaseDate: 2024-10-01
+    lts: true
+    eoas: 2029-10-09
+    eol: 2034-10-10
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+
+-   releaseCycle: "11-24h2-e-lts"
+    releaseLabel: "11 24H2 (E)"
+    releaseDate: 2024-10-01
+    lts: true
+    eoas: 2029-10-09
+    eol: 2029-10-09
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information#enterprise-and-iot-enterprise-ltsc-editions
+
+-   releaseCycle: "11-24h2-e"
+    releaseLabel: "11 24H2 (E)"
+    releaseDate: 2024-10-01
+    eoas: 2027-10-12
+    eol: 2027-10-12
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
+-   releaseCycle: "11-24h2-w"
+    releaseLabel: "11 24H2 (W)"
+    releaseDate: 2024-10-01
+    eoas: 2026-10-13
+    eol: 2026-10-13
+    latest: 10.0.26100
+    link: https://learn.microsoft.com/windows/release-health/windows11-release-information
+
 -   releaseCycle: "11-23h2-e"
     releaseLabel: "11 23H2 (E)"
     releaseDate: 2023-10-31
@@ -154,7 +188,7 @@ releases:
 
 -   releaseCycle: "10-1903"
     releaseLabel: "10 1903"
-    releaseDate: 2019-08-29
+    releaseDate: 2019-05-21
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
@@ -198,7 +232,7 @@ releases:
     releaseLabel: "10 1803 (W)"
     releaseDate: 2018-04-30
     eoas: 2019-11-12
-    eol: 2020-05-11
+    eol: 2019-11-12
     latest: 10.0.17134
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1803-end-of-servicing
 
@@ -285,6 +319,15 @@ releases:
     eol: 2017-05-09
     latest: 10.0.10240
     link: https://learn.microsoft.com/lifecycle/announcements/windows-10-1507-cb-cbb-end-of-servicing
+
+-   releaseCycle: "10-1507-iot"
+    releaseLabel: "10 1507 IOT"
+    releaseDate: 2015-04-29
+    lts: false
+    eoas: 2020-11-10
+    eol: 2020-11-10
+    latest: 10.0.10240
+    link: https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-core
 
 -   releaseCycle: "8.1"
     releaseLabel: "8.1"

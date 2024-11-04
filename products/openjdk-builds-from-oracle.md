@@ -12,6 +12,10 @@ changelogTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
 releaseDateColumn: true
 supportColumn: false
 
+identifiers:
+-   cpe: cpe:/a:oracle:openjdk
+-   cpe: cpe:2.3:a:oracle:openjdk
+
 # eol(x) = releaseDate(x+1)
 # Release dates can be found on https://wiki.openjdk.org/.
 # Usually only two patch versions are released during the support period.

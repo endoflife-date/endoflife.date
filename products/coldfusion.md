@@ -10,9 +10,11 @@ releaseDateColumn: true
 eolColumn: Core Support
 eoesColumn: true
 
-auto:
-  methods:
-  -   custom: coldfusion
+# Anti-scraping measures have been taken, so the script does not work anymore.
+# It has been disabled for now as it significantly increase the Update data job duration.
+#auto:
+#  methods:
+#  -   custom: coldfusion
 
 # When adding a cycle, don't forget to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
@@ -22,15 +24,15 @@ releases:
     releaseDate: 2022-05-16
     eol: 2028-05-16
     eoes: 2029-05-16
-    latest: "2023.0.7.330663"
-    latestReleaseDate: 2024-03-12
+    latest: "2023.0.10.330680"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "2021"
     releaseDate: 2020-11-11
     eol: 2025-11-10
     eoes: 2026-11-10
-    latest: "2021.0.13.330286"
-    latestReleaseDate: 2024-03-12
+    latest: "2021.0.16.330307"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "2018"
     releaseDate: 2018-07-12

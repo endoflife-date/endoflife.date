@@ -23,18 +23,18 @@ auto:
 
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2022-05-18
+    releaseDate: 2022-05-26
     eoas: false
     eol: false
-    latest: "2.14.0"
-    latestReleaseDate: 2024-05-08
+    latest: "2.17.1"
+    latestReleaseDate: 2024-09-18
 
 -   releaseCycle: "1"
-    releaseDate: 2021-07-02
+    releaseDate: 2021-07-12
     eoas: 2022-05-26
     eol: false # upcoming support(2) at least 1 year
-    latest: "1.3.16"
-    latestReleaseDate: 2024-04-19
+    latest: "1.3.19"
+    latestReleaseDate: 2024-08-19
 
 ---
 

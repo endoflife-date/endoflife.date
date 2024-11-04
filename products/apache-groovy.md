@@ -14,6 +14,11 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
+identifiers:
+-   repology: groovy
+-   cpe: cpe:/a:apache:groovy
+-   cpe: cpe:2.3:a:apache:groovy
+
 auto:
   methods:
   -   maven: org.apache.groovy/groovy
@@ -24,15 +29,15 @@ releases:
     releaseDate: 2022-01-25
     eol: false
     eoas: false
-    latest: "4.0.21"
-    latestReleaseDate: 2024-04-06
+    latest: "4.0.23"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
     eoas: true
     eol: false
-    latest: "3.0.21"
-    latestReleaseDate: 2024-03-01
+    latest: "3.0.22"
+    latestReleaseDate: 2024-06-30
 
 -   releaseCycle: "2.5"
     releaseDate: 2018-05-30

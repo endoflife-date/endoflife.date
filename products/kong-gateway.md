@@ -29,9 +29,23 @@ identifiers:
 # - eol(x) = true / false (the rule is still unclear)
 # - eoes(x) = releaseDate(x) + 3 years
 releases:
+-   releaseCycle: "3.8"
+    releaseDate: 2024-09-09
+    eol: false
+    eoes: 2025-09-09
+    latest: "3.8.0"
+    latestReleaseDate: 2024-09-09
+
+-   releaseCycle: "3.7"
+    releaseDate: 2024-05-28
+    eol: 2024-09-09
+    eoes: 2025-05-28
+    latest: "3.7.1"
+    latestReleaseDate: 2024-06-21
+
 -   releaseCycle: "3.6"
     releaseDate: 2024-02-09
-    eol: false
+    eol: 2024-05-28
     eoes: 2025-02-15
     latest: "3.6.1"
     latestReleaseDate: 2024-03-04
@@ -84,8 +98,8 @@ releases:
     releaseDate: 2022-03-01
     eol: false
     eoes: 2025-03-01
-    latest: "2.8.4"
-    latestReleaseDate: 2023-09-20
+    latest: "2.8.5"
+    latestReleaseDate: 2024-06-24
 
 ---
 

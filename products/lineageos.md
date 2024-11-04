@@ -14,6 +14,10 @@ customColumns:
     description: Corresponding Android version
     link: https://endoflife.date/android
 
+identifiers:
+-   cpe: cpe:/o:lineageos:lineageos
+-   cpe: cpe:2.3:o:lineageos:lineageos
+
 releases:
 -   releaseCycle: "21"
     releaseDate: 2024-02-14

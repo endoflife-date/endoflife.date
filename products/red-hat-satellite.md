@@ -6,6 +6,7 @@ iconSlug: redhat
 permalink: /redhat-satellite
 alternate_urls:
 -   /rhsat
+-   /red-hat-satellite
 versionCommand: |-
   dnf info satellite
 
@@ -28,11 +29,11 @@ releases:
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
-    latest: "6.15.0"
-    latestReleaseDate: 2024-04-23
+    latest: "6.15.1.1"
+    latestReleaseDate: 2024-06-20
 
 -   releaseCycle: "6.14"
-    releaseDate: 2023-02-13
+    releaseDate: 2023-11-08
     eoas: 2024-05-31
     eol: 2025-05-31
     latest: "6.14.4"
@@ -128,6 +129,7 @@ releases:
     eol: 2018-10-30
     latest: "6.1.12"
     latestReleaseDate: 2017-06-29
+    link: https://web.archive.org/web/20190719230423/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.1/html/release_notes/index
 
 -   releaseCycle: "6.0"
     releaseDate: 2014-09-10
@@ -135,6 +137,7 @@ releases:
     eol: 2018-02-21
     latest: "6.0.8"
     latestReleaseDate: 2015-02-20
+    link: https://web.archive.org/web/20190719183026/https://access.redhat.com/documentation/en-us/red_hat_satellite/6.0/html/release_notes/index
 
 ---
 

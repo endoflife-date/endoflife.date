@@ -15,10 +15,24 @@ auto:
 
 # Releases can be found at https://portal.nutanix.com/page/documents/eol/list?type=aos.
 releases:
--   releaseCycle: "6.7"
-    releaseDate: 2023-08-28
+-   releaseCycle: "6.10"
+    releaseDate: 2024-10-07
     eoas: false
     eol: false
+    latest: "6.10"
+    latestReleaseDate: 2024-10-07
+
+-   releaseCycle: "6.8"
+    releaseDate: 2024-05-15
+    eoas: 2025-05-31
+    eol: 2025-08-31
+    latest: "6.8.1.5"
+    latestReleaseDate: 2024-09-11
+
+-   releaseCycle: "6.7"
+    releaseDate: 2023-08-28
+    eoas: 2024-05-31
+    eol: 2024-08-31
     latest: "6.7.1.8"
     latestReleaseDate: 2024-05-14
 
@@ -34,8 +48,8 @@ releases:
     eoas: false
     eol: false
     lts: true
-    latest: "6.5.5.7"
-    latestReleaseDate: 2024-05-13
+    latest: "6.5.6.6"
+    latestReleaseDate: 2024-09-10
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-02-24
@@ -88,6 +102,7 @@ releases:
     latestReleaseDate: 2020-05-18
 
 -   releaseCycle: "5.15"
+    outOfOrder: true # wrong data on https://portal.nutanix.com/api/v1/eol/find?type=NOS
     releaseDate: 2020-03-31
     eoas: 2021-08-31
     eol: 2022-05-31

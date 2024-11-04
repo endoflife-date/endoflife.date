@@ -9,6 +9,11 @@ eoasColumn: true
 releaseColumn: false
 eoesColumn: true
 
+identifiers:
+-   repology: ckeditor
+-   cpe: cpe:/a:ckeditor:ckeditor
+-   cpe: cpe:2.3:a:ckeditor:ckeditor
+
 releases:
 -   releaseCycle: "5"
     eoas: false

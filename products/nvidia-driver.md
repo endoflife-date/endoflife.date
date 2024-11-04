@@ -4,6 +4,8 @@ category: app
 tags: nvidia
 iconSlug: nvidia
 permalink: /nvidia
+alternate_urls:
+- /nvidia-driver
 versionCommand: nvidia-smi
 releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
@@ -19,25 +21,57 @@ releaseDateColumn: true
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+-   releaseCycle: "R560-Linux (NFB)"
+    releaseDate: 2024-08-21
+    eoas: true
+    eol: 2025-08-01
+    latest: "560.35.03"
+    latestReleaseDate: 2024-08-21
+    link: https://www.nvidia.com/Download/driverResults.aspx/230918/
+
+-   releaseCycle: "R560-Windows (NFB)"
+    releaseDate: 2024-07-30
+    eoas: true
+    eol: 2025-07-01
+    latest: "560.76"
+    latestReleaseDate: 2024-07-30
+    link: https://www.nvidia.com/Download/driverResults.aspx/230555/
+
+-   releaseCycle: "R555-Linux (NFB)"
+    releaseDate: 2024-06-04
+    eoas: true
+    eol: 2025-06-01
+    latest: "555.58.02"
+    latestReleaseDate: 2024-07-01
+    link: https://www.nvidia.com/Download/driverResults.aspx/228410/
+
+-   releaseCycle: "R555-Windows (NFB)"
+    releaseDate: 2024-06-04
+    eoas: true
+    eol: 2025-06-01
+    latest: "555.99"
+    latestReleaseDate: 2024-06-04
+    link: https://www.nvidia.com/download/driverResults.aspx/228179/
+
 -   releaseCycle: "R550-Linux (PB)"
     releaseDate: 2024-02-23
     eoas: 2025-02-01
     eol: 2025-02-01
-    latest: "550.54.15"
-    latestReleaseDate: 2024-03-18
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-54-15/
+    latest: "550.90.12"
+    latestReleaseDate: 2024-09-10
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-90-12/
 
 -   releaseCycle: "R550-Windows (PB)"
     releaseDate: 2024-02-22
     eoas: 2025-02-01
     eol: 2025-02-01
-    latest: "551.78"
-    latestReleaseDate: 2024-03-18
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-54-15/
+    latest: "552.74"
+    latestReleaseDate: 2024-07-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-552-74/
 
 -   releaseCycle: "R545-Linux (NFB)"
     releaseDate: 2023-10-31
-    eoas: 2024-10-01
+    eoas: true
     eol: 2024-10-01
     latest: "545.29.06"
     latestReleaseDate: 2023-11-22
@@ -45,7 +79,7 @@ releases:
 
 -   releaseCycle: "R545-Windows (NFB)"
     releaseDate: 2023-10-17
-    eoas: 2024-10-01
+    eoas: true
     eol: 2024-10-01
     latest: "546.01"
     latestReleaseDate: 2023-10-31
@@ -56,18 +90,18 @@ releases:
     releaseDate: 2023-06-14
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "535.161.08"
-    latestReleaseDate: 2024-03-18
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-161-08/
+    latest: "535.183.06"
+    latestReleaseDate: 2024-07-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-183-06/
 
 -   releaseCycle: "R535-Windows"
     lts: true
     releaseDate: 2023-05-30
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "538.46"
-    latestReleaseDate: 2024-03-18
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-161-08/
+    latest: "538.78"
+    latestReleaseDate: 2024-07-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-183-06/
 
 -   releaseCycle: "R530-Linux (NFB)"
     releaseDate: 2023-03-23
@@ -103,7 +137,7 @@ releases:
 
 -   releaseCycle: "R520-Linux (NFB)"
     releaseDate: 2022-10-12
-    eoas: 2023-10-01
+    eoas: true
     eol: 2023-10-01
     latest: "520.56.06"
     latestReleaseDate: 2022-10-12
@@ -162,18 +196,18 @@ releases:
     releaseDate: 2021-07-19
     eoas: 2021-10-26
     eol: 2024-07-20
-    latest: "470.239.06"
-    latestReleaseDate: 2024-02-22
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-239-06/
+    latest: "470.256.02"
+    latestReleaseDate: 2024-06-04
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-256-02/
 
 -   releaseCycle: "R470-Windows"
     lts: true
     releaseDate: 2021-06-22
     eoas: 2021-09-20
-    eol: 2024-07-01
-    latest: "474.82"
-    latestReleaseDate: 2024-02-22
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-239-06/
+    eol: 2024-07-09
+    latest: "475.14"
+    latestReleaseDate: 2024-07-09
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-475-14/
 
 -   releaseCycle: "R460-Linux (PB)"
     releaseDate: 2021-01-07
@@ -254,8 +288,8 @@ releases:
 
 Nvidia drivers are released in various release branches, with varying support timelines and GPU support.
 
-- 32-bit operating systems are [no longer supported](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
-  outside the `R390` branch. 32-bit applications running on x86_64 are still supported.
+- 32-bit operating systems are [no longer supported.](https://nvidia.custhelp.com/app/answers/detail/a_id/4604)
+  32-bit applications running on x86_64 are still supported.
 - There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
@@ -268,17 +302,15 @@ supported by your hardware.
 GPUs supported by any given branch is dependent on the operating system.
 
 - GKxxx ("Kepler") Desktop GPUs are supported on Windows and Linux via the `R470` [legacy driver
-  series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) until
+  series](https://nvidia.custhelp.com/app/answers/detail/a_id/5202/kw/kepler%20support) through
   September 2024.
-- GF1xx ("Fermi") GPUs are supported on Linux via the `R390` [legacy driver series](https://nvidia.custhelp.com/app/answers/detail/a_id/3142/~/support-timeframes-for-unix-legacy-gpu-releases)
-  until the end of 2022.
 - A list of [GPUs no longer supported on Windows](https://nvidia.custhelp.com/app/answers/detail/a_id/3473)
   is available.
 - Usually on Linux driver support per branch is indicated by architecture, but on Windows only
-  specific models are supported. For example the R390 branch mainly exists simply to provide
-  security updates to the Fermi architecture, but while on [Linux all Fermi GPUs are
+  specific models are supported. For example the R390 branch mainly existed simply to provide
+  security updates to the Fermi architecture, but while on [Linux all Fermi GPUs were
   supported](https://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html),
-  on Windows very [few specific GPUs are supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf).
+  on Windows very [few specific GPUs were supported](https://uk.download.nvidia.com/Windows/Quadro_Certified/392.65/392.65-win10-quadro-release-notes.pdf).
 
 ## Cadence
 

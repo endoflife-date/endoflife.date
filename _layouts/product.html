@@ -173,7 +173,9 @@ layout: default
 {% endif %}
 
 {% if page.releaseColumn %}
+{% unless page.tags contains "discontinued" %}
 <p>You should be running one of the supported release numbers listed above in the rightmost column.</p>
+{% endunless %}
 {% endif %}
 
 {% if page.versionCommand %}
@@ -181,6 +183,8 @@ layout: default
   You can check the version that you are currently using by running: <pre>{{page.versionCommand}}</pre>
 </div>
 {% endif %}
+
+{% include identifiers.html %}
 
 <hr>
 
@@ -190,8 +194,7 @@ layout: default
     on GitHub
     <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20">
   </a>.
-  This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">
-  Talk Page</a>.
+  This page has a corresponding <a title="Talk Page for {{page.title}}" href="https://github.com/endoflife-date/talk/wiki{{page.permalink}}">Talk Page</a>.
 </p>
 
 <p>

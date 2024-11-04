@@ -23,40 +23,52 @@ auto:
       -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
       -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
       -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
+      -   ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
 -   repology: mysql
 -   purl: pkg:generic/mysql
 -   purl: pkg:docker/library/mysql
--   purl: pkg:binary/mysql
 -   purl: pkg:deb/ubuntu/mysql-server
 -   purl: pkg:deb/debian/mysql-server
 
-# dates below are for:
-# support -> GA+5 years = Premier support
-# eol -> GA+8 years = Extended Support
-# We show Extended support dates since that match Community Edition timelines
+# For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
+# For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "9.1"
+    releaseDate: 2024-09-24
+    eoas: false # releaseDate(x+1)
+    eol: false # releaseDate(x+1)
+    latest: '9.1.0'
+    latestReleaseDate: 2024-09-24
+
+-   releaseCycle: "9.0"
+    releaseDate: 2024-06-07
+    eoas: 2024-10-15
+    eol: 2024-10-15
+    latest: '9.0.1'
+    latestReleaseDate: 2024-07-12
+
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-10
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: '8.4.0'
-    latestReleaseDate: 2024-04-10
+    latest: '8.4.3'
+    latestReleaseDate: 2024-09-16
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
-    eoas: false
-    eol: false
+    eoas: 2024-04-10
+    eol: 2024-04-10
     latest: '8.3.0'
     latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
-    eoas: false
-    eol: false
+    eoas: 2023-12-14
+    eol: 2023-12-14
     latest: '8.2.0'
     latestReleaseDate: 2023-10-12
 
@@ -72,8 +84,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.37'
-    latestReleaseDate: 2024-05-02
+    latest: '8.0.40'
+    latestReleaseDate: 2024-09-18
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09

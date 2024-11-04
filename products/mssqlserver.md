@@ -14,6 +14,10 @@ eoasColumn: true
 releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
+identifiers:
+-   cpe: cpe:/a:microsoft:sql_server
+-   cpe: cpe:2.3:a:microsoft:sql_server
+
 # releaseDate/support/eol/extendedSupport: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 # Overview over all versions: https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates
 releases:

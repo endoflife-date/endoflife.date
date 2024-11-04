@@ -12,6 +12,13 @@ eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
 
+identifiers:
+-   repology: hadoop
+-   cpe: cpe:/a:apache:hadoop
+-   cpe: cpe:2.3:a:apache:hadoop
+-   cpe: cpe:/a:cloudera:hadoop
+-   cpe: cpe:2.3:a:cloudera:hadoop
+
 auto:
   methods:
   -   git: https://github.com/apache/hadoop.git
@@ -23,8 +30,8 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-03-17
     eol: false
-    latest: "3.4.0"
-    latestReleaseDate: 2024-03-17
+    latest: "3.4.1"
+    latestReleaseDate: 2024-10-18
 
 -   releaseCycle: "3.3"
     releaseDate: 2020-07-15

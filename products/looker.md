@@ -19,6 +19,38 @@ auto:
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:
+-   releaseCycle: "24.18"
+    releaseDate: 2024-10-09
+    lts: 2024-12-01
+    eol: 2025-02-28
+    latest: '24.18'
+    latestReleaseDate: 2024-10-09
+
+-   releaseCycle: "24.16"
+    releaseDate: 2024-09-11
+    eol: 2024-12-31
+    latest: '24.16'
+    latestReleaseDate: 2024-09-11
+
+-   releaseCycle: "24.14"
+    releaseDate: 2024-08-14
+    eol: 2024-11-30
+    latest: '24.14'
+    latestReleaseDate: 2024-08-14
+
+-   releaseCycle: "24.12"
+    releaseDate: 2024-07-10
+    lts: 2024-09-01
+    eol: 2024-11-30
+    latest: '24.12'
+    latestReleaseDate: 2024-07-10
+
+-   releaseCycle: "24.10"
+    releaseDate: 2024-06-12
+    eol: 2024-09-30
+    latest: '24.10'
+    latestReleaseDate: 2024-06-12
+
 -   releaseCycle: "24.8"
     releaseDate: 2024-05-08
     eol: 2024-08-31
@@ -99,31 +131,31 @@ releases:
     releaseDate: 2023-04-14
     lts: 2023-06-05
     eol: 2023-08-31
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#236
     latest: '23.6'
     latestReleaseDate: 2023-04-14
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#236
 
 -   releaseCycle: "23.4"
     releaseDate: 2023-03-14
     eol: 2023-06-13
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#234
     latest: '23.4'
     latestReleaseDate: 2023-03-14
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#234
 
 -   releaseCycle: "23.2"
     releaseDate: 2023-02-10
     eol: 2023-05-09
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#232
     latest: '23.2'
     latestReleaseDate: 2023-02-10
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#232
 
 -   releaseCycle: "23.0"
     releaseDate: 2023-01-11
     lts: 2023-03-07
     eol: 2023-05-31
+    link: https://cloud.google.com/looker/docs/looker-23-changelog#230
     latest: '23.0'
     latestReleaseDate: 2023-01-11
-    link: https://cloud.google.com/looker/docs/looker-23-changelog#230
 
 -   releaseCycle: "22.20"
     releaseDate: 2022-11-14

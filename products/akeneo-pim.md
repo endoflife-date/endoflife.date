@@ -10,6 +10,10 @@ releaseDateColumn: true
 eolColumn: Support
 eolWarnThreshold: 200 # march to september
 
+identifiers:
+-   cpe: cpe:/:a:akeneo:product_information_management
+-   cpe: cpe:2.3:a:akeneo:product_information_management
+
 auto:
   methods:
   -   git: https://github.com/akeneo/pim-community-dev.git
@@ -26,15 +30,15 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2026-09-30
-    latest: "7.0.65"
-    latestReleaseDate: 2024-05-15
+    latest: "7.0.73"
+    latestReleaseDate: 2024-10-24
 
 -   releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
     releaseDate: 2022-02-04
     eol: 2023-09-30
-    latest: "6.0.112"
-    latestReleaseDate: 2023-12-22
+    latest: "6.0.113"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "5.0"
     codename: "Bully for Bugs"

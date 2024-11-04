@@ -6,10 +6,10 @@ iconSlug: eclipsejetty
 permalink: /eclipse-jetty
 alternate_urls:
 -   /jetty
-releasePolicyLink: https://eclipse.dev/jetty/download.php
+releasePolicyLink: https://jetty.org/download.html
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
-eoasColumn: "Community Support"
+eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
 
@@ -30,8 +30,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.9"
-    latestReleaseDate: 2024-05-03
+    latest: "12.0.14"
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: "11"
     minJvmVersion: 11
@@ -39,10 +39,10 @@ releases:
     jspVersion: 3.0
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
-    eoes: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
-    latest: "11.0.21"
-    latestReleaseDate: 2024-05-14
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
+    eoes: false
+    latest: "11.0.24"
+    latestReleaseDate: 2024-08-26
 
 -   releaseCycle: "10"
     minJvmVersion: 11
@@ -50,10 +50,10 @@ releases:
     jspVersion: 2.3
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
-    latest: "10.0.21"
-    latestReleaseDate: 2024-05-14
+    latest: "10.0.24"
+    latestReleaseDate: 2024-08-26
 
 -   releaseCycle: "9.4"
     minJvmVersion: 1.8
@@ -61,7 +61,7 @@ releases:
     jspVersion: 2.3
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/7958
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/7958
     eoes: false
     latest: "9.4.53.v20231009"
     latestReleaseDate: 2023-10-10
@@ -128,14 +128,14 @@ releases:
 
 ---
 
-> [Eclipse Jetty](https://eclipse.dev/jetty/) is an open-source (Apache-2.0 licensed) pure-Java
+> [Eclipse Jetty](https://jetty.org/) is an open-source (Apache-2.0 licensed) pure-Java
 > HTTP web server environment. It implements various [Jakarta web specifications](https://projects.eclipse.org/projects/ee4j.jakartaee-platform),
 > including [JSP](https://projects.eclipse.org/projects/ee4j.jsp "Jakarta Server Pages"),
 > [Servlets](https://projects.eclipse.org/projects/ee4j.servlet "Jakarta Servlet"),
 > and [WebSockets](https://projects.eclipse.org/projects/ee4j.websocket "Jakarta WebSocket").
 
 Jetty does not have a fixed release and support policy. But a list of all versions, along with
-their support status, is available [on Jetty website](https://eclipse.dev/jetty/download.php).
+their support status, is available [on Jetty website](https://jetty.org/download.html).
 
 Support for Jetty is divided into two phases. The first phase, called _Community Support_,
 comes with bug and security fixes. Once a release reach its End of Community Support (EoCS), Jetty

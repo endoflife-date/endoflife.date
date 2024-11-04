@@ -11,6 +11,11 @@ eoasColumn: Active Development
 eolColumn: Active Maintenance
 releaseDateColumn: true
 
+identifiers:
+-   repology: grails
+-   cpe: cpe:/a:grails:grails
+-   cpe: cpe:2.3:a:grails:grails
+
 auto:
   methods:
   -   git: https://github.com/grails/grails-core.git
@@ -20,8 +25,8 @@ releases:
     releaseDate: 2023-07-24
     eoas: false
     eol: false
-    latest: "6.2.0"
-    latestReleaseDate: 2024-04-05
+    latest: "6.2.1"
+    latestReleaseDate: 2024-10-03
 
 -   releaseCycle: "5"
     releaseDate: 2021-10-12

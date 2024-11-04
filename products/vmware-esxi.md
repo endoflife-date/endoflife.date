@@ -8,8 +8,9 @@ alternate_urls:
 -   /esx
 -   /vmwareesxi
 -   /vmesxi
+-   /vmware-esxi
 versionCommand: vmware -l
-releasePolicyLink: https://lifecycle.vmware.com
+releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
 releaseDateColumn: true
 eolColumn: General Support
 
@@ -18,33 +19,33 @@ releases:
     releaseDate: 2022-10-11
     eol: 2027-10-11
     technicalGuidance: 2029-10-11
-    latest: "8.0 Update 2"
-    latestReleaseDate: 2023-09-21
-    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-802-release-notes/index.html"
+    latest: "8.0d"
+    latestReleaseDate: 2024-10-08
+    link: "https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-esxi-80d-release-notes/index.html"
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
-    eol: 2025-04-02
+    eol: 2025-10-02
     technicalGuidance: 2027-04-02
-    latest: "7.0 Update 3o"
-    latestReleaseDate: 2023-09-28
-    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3o-release-notes/index.html"
+    latest: "7.0 Update 3q"
+    latestReleaseDate: 2024-05-21
+    link: "https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-70u3q-release-notes/index.html"
 
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
-    latest: "6.7 P08"
-    latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202210001.html"
+    latest: "6.7 ESXi670-202403001"
+    latestReleaseDate: 2024-03-05
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202403001.html"
 
 -   releaseCycle: "6.5"
     releaseDate: 2016-11-15
     eol: 2022-10-15
     technicalGuidance: 2023-11-15
-    latest: "6.5 P09"
-    latestReleaseDate: 2022-10-06
-    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202210001.html"
+    latest: "6.5 ESXi650-202403001"
+    latestReleaseDate: 2024-03-05
+    link: "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-202403001.html"
 
 -   releaseCycle: "6.0"
     releaseDate: 2015-03-12
@@ -69,16 +70,17 @@ releases:
 
 VMware typically support ESXi for a duration of 7 years with 5 years of general support and an
 additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and
-security updates. Additional information on lifecycle phases can be found at
-<https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
+security updates.
 
-## [General Support](https://www.vmware.com/support/lifecycle-policies.html)
+[Broadcom Inc. acquired VMware Novemember 22, 2023](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware).
+
+## General Support
 
 The last date on which you can request support; the end of regular VMware maintenance updates and
 upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription
 Terms and Conditions.
 
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+## Technical Guidance
 
 The last date on which you can access support and workarounds for low-severity issues on supported
 configurations only. During the Technical Guidance phase, VMware does not offer new hardware

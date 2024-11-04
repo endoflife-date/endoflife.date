@@ -10,35 +10,46 @@ releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-A
 changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
 releaseDateColumn: true
 
+identifiers:
+-   repology: cassandra
+-   cpe: cpe:/a:apache:cassandra
+-   cpe: cpe:2.3:a:apache:cassandra
+
 auto:
   methods:
   -   git: https://github.com/apache/cassandra.git
       regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
+# eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "5.0"
+    releaseDate: 2024-09-05
+    eol: false
+    latest: "5.0.2"
+    latestReleaseDate: 2024-10-19
+
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
-    eol: 2025-07-15
-    latest: "4.1.4"
-    latestReleaseDate: 2024-02-14
+    eol: false # releaseDate(5.2.0)
+    latest: "4.1.7"
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
-    eol: 2024-07-15
-    latest: "4.0.12"
-    latestReleaseDate: 2024-01-23
-# EOL(3.11) = EOL(3.10) = releaseDate(5.0)
+    eol: false # releaseDate(5.1.0)
+    latest: "4.0.14"
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
-    eol: false
+    eol: 2024-09-05 # releaseDate(5.0)
     latest: "3.11.17"
     discontinued: true
     latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
-    eol: false
+    eol: 2024-09-05
     latest: "3.0.30"
     discontinued: true
     latestReleaseDate: 2024-04-15
@@ -49,9 +60,7 @@ releases:
 > wide-column store, NoSQL database management system designed to handle large amounts of data
 > across many commodity servers, providing high availability with no single point of failure.
 
-Three major GA releases (MAJOR and/or MINOR versions) are supported at any given time. The release
-of a new MINOR or MAJOR version will cause the oldest supported GA release to go End-of-Life.
-The 3.0 release will be supported for one more cycle, on an exceptional basis.
+The latest three releases are supported at any given time.
 
 ## [Versioning](https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html)
 
@@ -65,9 +74,7 @@ can be included in a given release.
 As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent
 major versions. Cassandra does not break API compatibility without a deprecated grace period
 demarcated by major versions. Upgrades without downtime are supported from any major version to the
-next major version. Upgrades that skip a major version are not supported. For e.g. an upgrade from
-a 3.x version to a 5.x version is not supported. Only upgrades stepping through each major version
-(3.x -> 4.x -> 5.x) are supported.
+next major version. Upgrades that skip a major version are not supported.
 
 ## Release Cadence
 

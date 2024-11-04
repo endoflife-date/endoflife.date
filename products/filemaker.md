@@ -6,15 +6,37 @@ releasePolicyLink: https://support.claris.com/s/article/Claris-support-policy
 releaseColumn: false
 eolColumn: Support
 
+identifiers:
+-   repology: filemaker-pro
+
+auto:
+  methods:
+  -   release_table: https://support.claris.com/s/article/Claris-support-policy
+      selector: table
+      header_selector: "tr:nth-of-type(1)"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: Product version
+          regex: '^FileMaker (?P<value>\d+(\.\d+)?)$'
+        releaseDate: "Release Date"
+        eol: "EOL date"
+
 releases:
+-   releaseCycle: "2024"
+    releaseDate: 2024-06-30 # https://community.claris.com/en/s/question/0D5Vy000009idtMKAQ/introducing-claris-filemaker-2024
+    eol: 2026-06-30
+    link: https://help.claris.com/en/server-release-notes/content/index.html
+
 -   releaseCycle: "2023"
-    releaseDate: 2023-06-06
-    eol: 2025-04-01
+    releaseDate: 2023-04-30
+    eol: 2025-04-30
     link: https://help.claris.com/en/server-release-notes/content/index.html
 
 -   releaseCycle: "19"
-    releaseDate: 2020-05-01
-    eol: 2024-12-01
+    releaseDate: 2020-05-31
+    eol: 2022-05-31 # EOL(19.6)
     link: https://support.claris.com/s/answerview?anum=000036046
 
 -   releaseCycle: "18"

@@ -8,6 +8,11 @@ changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: moodle
+-   cpe: cpe:/a:moodle:moodle
+-   cpe: cpe:2.3:a:moodle:moodle
+
 auto:
   methods:
   -   git: https://github.com/moodle/moodle.git
@@ -24,38 +29,47 @@ auto:
 # dates see https://moodledev.io/general/releases
 # supportedPhpVersions can be found in the release notes and https://moodledev.io/general/development/policies/php
 releases:
+-   releaseCycle: "4.5"
+    lts: true
+    releaseDate: 2024-10-07
+    eoas: 2025-10-06
+    eol: 2027-10-06
+    supportedPhpVersions: 8.1 - 8.3
+    latest: "4.5.0"
+    latestReleaseDate: 2024-10-05
+
 -   releaseCycle: "4.4"
-    releaseDate: 2024-04-20
+    releaseDate: 2024-04-22
     eoas: 2025-04-21
     eol: 2025-12-08
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.4"
-    latestReleaseDate: 2024-04-20
+    latest: "4.4.4"
+    latestReleaseDate: 2024-10-05
 
 -   releaseCycle: "4.3"
-    releaseDate: 2023-10-07
+    releaseDate: 2023-10-09
     eoas: 2024-10-07
     eol: 2025-04-21
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.3.4"
-    latestReleaseDate: 2024-04-20
+    latest: "4.3.8"
+    latestReleaseDate: 2024-10-05
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-04-22
     eoas: 2024-04-22
     eol: 2024-10-07
     supportedPhpVersions: 8.0 - 8.2
-    latest: "4.2.7"
-    latestReleaseDate: 2024-04-20
+    latest: "4.2.11"
+    latestReleaseDate: 2024-10-05
 
 -   releaseCycle: "4.1"
     lts: true
-    releaseDate: 2022-11-26
+    releaseDate: 2022-11-28
     eoas: 2023-12-11
     eol: 2025-12-08
     supportedPhpVersions: 7.4 - 8.1
-    latest: "4.1.10"
-    latestReleaseDate: 2024-04-20
+    latest: "4.1.14"
+    latestReleaseDate: 2024-10-05
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-04-17

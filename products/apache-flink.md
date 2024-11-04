@@ -5,27 +5,37 @@ tags: apache java-runtime
 iconSlug: apacheflink
 permalink: /apache-flink
 alternate_urls:
-- /flink
+-   /flink
 releasePolicyLink: https://hub.docker.com/_/flink # This is the most conclusive resource
-changelogTemplate: https://nightlies.apache.org/flink/flink-docs-master/release-notes/flink-+__LATEST__
+changelogTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
 releaseDateColumn: true
 
 auto:
   methods:
   -   git: https://github.com/apache/flink.git
+      regex: '^release-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
 
 identifiers:
 -   repology: flink
 -   purl: pkg:github/apache/flink
 -   purl: pkg:docker/library/flink
 -   purl: pkg:docker/apache/flink
+-   cpe: cpe:/a:apache:flink
+-   cpe: cpe:2.3:a:apache:flink
 
 releases:
+-   releaseCycle: "1.20"
+    releaseDate: 2024-08-01
+    eol: false
+    latest: "1.20.0"
+    latestReleaseDate: 2024-08-01
+
 -   releaseCycle: "1.19"
     releaseDate: 2024-03-15
     eol: false
-    latest: "1.19.0"
-    latestReleaseDate: 2024-03-21
+    latest: "1.19.1"
+    latestReleaseDate: 2024-06-14
 
 -   releaseCycle: "1.18"
     releaseDate: 2023-10-24
@@ -38,6 +48,7 @@ releases:
     eol: false
     latest: "1.17.2"
     latestReleaseDate: 2023-11-27
+
 ---
 
 > [Apache Flink](https://flink.apache.org/) is a  is a stream processing

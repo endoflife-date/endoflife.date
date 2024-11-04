@@ -6,8 +6,7 @@ alternate_urls:
 -   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate:
-  http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
+changelogTemplate: http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
 releaseDateColumn: true
 
 identifiers:
@@ -23,27 +22,21 @@ identifiers:
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
 auto:
   methods:
-  # v2 sources are now archived in a separate repo, we use that as well
-  -   git: https://github.com/squid-cache/squid2.git
+  -   git: https://github.com/squid-cache/squid
       regex:
-      # https://regex101.com/r/yMRzJO/1
-      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
-      # https://regex101.com/r/psotaU/1
-      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
-  # the squidadm repository is the one where releases are made
-  -   git: https://github.com/squidadm/squid.git
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
+  -   git: https://github.com/squid-cache/squid2.git # v2 sources are now archived in a separate repo, we use that as well
       regex:
-      # https://regex101.com/r/yMRzJO/1
-      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$
-      # https://regex101.com/r/psotaU/1
-      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
 
 releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-06
     eol: false
-    latest: '6.5'
-    latestReleaseDate: 2023-11-06
+    latest: '6.12'
+    latestReleaseDate: 2024-10-11
     link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "5"

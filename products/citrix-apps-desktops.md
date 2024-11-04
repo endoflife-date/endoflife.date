@@ -9,6 +9,7 @@ alternate_urls:
 -   /cvad
 # This can be removed if we add more citrix products
 -   /citrix
+-   /citrix-apps-desktops
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
 
@@ -18,15 +19,23 @@ releaseDateColumn: true
 eoesColumn: true
 
 releases:
+-   releaseCycle: "2407"
+    releaseDate: 2024-07-31
+    eoas: 2024-12-31
+    eol: 2025-12-31
+    latest: "2407"
+    latestReleaseDate: 2024-07-31
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+
 -   releaseCycle: "2402"
     releaseDate: 2024-04-15
     lts: true
-    eoas: 2029-04-15 # estimate for LTS, not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    eol: 2029-04-15 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    eoes: 2034-04-15 # estimate for LTS not yet on https://www.citrix.com/support/product-lifecycle/product-matrix.html
-    latest: "2402"
-    latestReleaseDate: 2024-04-15
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+    eoas: 2029-04-15
+    eol: 2029-04-15
+    eoes: 2034-04-15
+    latest: "2402 CU1"
+    latestReleaseDate: 2024-08-20
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2402-ltsr/whats-new/cumulative-update-1.html
 
 -   releaseCycle: "2311"
     releaseDate: 2023-12-21
@@ -83,9 +92,9 @@ releases:
     eoas: 2027-03-23
     eol: 2027-03-23
     eoes: 2032-03-23
-    latest: "2203 CU4"
-    latestReleaseDate: 2023-11-16
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-4.html
+    latest: "2203 CU5"
+    latestReleaseDate: 2024-06-04
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2203-ltsr/whats-new/cumulative-update-5.html
 
 -   releaseCycle: "2112"
     releaseDate: 2021-12-13

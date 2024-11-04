@@ -10,6 +10,9 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Security Support
 
+identifiers:
+-   repology: roundcube
+
 auto:
   methods:
   -   git: https://github.com/roundcube/roundcubemail.git
@@ -19,15 +22,15 @@ releases:
     releaseDate: 2022-07-25
     eoas: false
     eol: false
-    latest: "1.6.7"
-    latestReleaseDate: 2024-05-19
+    latest: "1.6.9"
+    latestReleaseDate: 2024-09-01
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-10-18
     eoas: false
     eol: false
-    latest: "1.5.7"
-    latestReleaseDate: 2024-05-19
+    latest: "1.5.9"
+    latestReleaseDate: 2024-09-01
 
 -   releaseCycle: "1.4"
     releaseDate: 2019-11-09

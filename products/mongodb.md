@@ -6,7 +6,7 @@ permalink: /mongodb
 alternate_urls:
 -   /mongo
 versionCommand: mongod --version
-releasePolicyLink: https://www.mongodb.com/support-policy
+releasePolicyLink: https://www.mongodb.com/legal/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
 releaseDateColumn: true
@@ -40,22 +40,28 @@ auto:
           regex: '^MongoDB (?P<value>\d+\.\d+).*$'
         eol: "End of Life Date"
 
-# EOL dates can be found at https://www.mongodb.com/support-policy/lifecycles.
+# EOL dates can be found at https://www.mongodb.com/legal/support-policy/lifecycles
 # End of month dates must be used for EOL dates as per https://github.com/endoflife-date/endoflife.date/pull/4234.
-# Release dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because git
+# Release dates are not in sync with https://www.mongodb.com/legal/support-policy/lifecycles because git
 # tag dates are used by the automation.
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2024-09-11
+    eol: false
+    latest: '8.0.1'
+    latestReleaseDate: 2024-10-03
+
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
     releaseDate: 2024-03-19
-    eol: false
-    latest: '7.3.2'
-    latestReleaseDate: 2024-04-29
+    eol: 2024-10-31
+    latest: '7.3.4'
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
     releaseDate: 2023-12-14
-    eol: false
+    eol: 2024-04-30
     latest: '7.2.2'
     latestReleaseDate: 2024-02-28
 
@@ -69,8 +75,8 @@ releases:
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: 2026-08-31
-    latest: '7.0.10'
-    latestReleaseDate: 2024-05-06
+    latest: '7.0.14'
+    latestReleaseDate: 2024-08-20
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -96,8 +102,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-31
-    latest: "6.0.15"
-    latestReleaseDate: 2024-04-15
+    latest: "6.0.18"
+    latestReleaseDate: 2024-09-12
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -123,8 +129,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.26"
-    latestReleaseDate: 2024-03-20
+    latest: "5.0.29"
+    latestReleaseDate: 2024-08-26
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25
@@ -165,59 +171,63 @@ releases:
 -   releaseCycle: "3.0"
     releaseDate: 2015-03-03
     eol: 2018-02-28
+    link: https://www.mongodb.com/docs/v4.0/release-notes/3.0/
     latest: "3.0.15"
     latestReleaseDate: 2017-05-10
 
 -   releaseCycle: "2.6"
     releaseDate: 2014-04-07
     eol: 2016-10-31
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.6/
     latest: "2.6.12"
     latestReleaseDate: 2016-03-22
 
 -   releaseCycle: "2.4"
     releaseDate: 2013-03-18
     eol: 2013-03-31
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.4/
     latest: "2.4.14"
     latestReleaseDate: 2015-04-27
 
 -   releaseCycle: "2.2"
     releaseDate: 2012-08-28
     eol: 2014-02-28
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.2/
     latestReleaseDate: 2014-01-15
     latest: '2.2.7'
 
 -   releaseCycle: "2.0"
     releaseDate: 2011-09-11
     eol: 2013-03-31
-    link: https://www.mongodb.com/docs/v2.2/release-notes/2.0/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/2.0/
     latest: '2.0.9'
     latestReleaseDate: 2013-04-02
 
 -   releaseCycle: "1.8"
     releaseDate: 2011-03-16
     eol: 2012-09-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.8/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.8/
     latest: '1.8.5'
     latestReleaseDate: 2012-02-01
 
 -   releaseCycle: "1.6"
     releaseDate: 2010-08-05
     eol: 2012-02-28
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.6/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.6/
     latest: '1.6.5'
     latestReleaseDate: 2010-12-08
 
 -   releaseCycle: "1.4"
     releaseDate: 2010-03-25
     eol: 2012-09-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.4/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.4/
     latest: '1.4.5'
     latestReleaseDate: 2010-08-31
 
 -   releaseCycle: "1.2"
     releaseDate: 2009-12-10
     eol: 2011-06-30
-    link: https://www.mongodb.com/docs/v2.2/release-notes/1.2/
+    link: https://www.mongodb.com/docs/v4.0/release-notes/1.2/
     latest: '1.2.5'
     latestReleaseDate: 2010-04-07
 
@@ -241,7 +251,7 @@ GA Major releases of the MongoDB Server are supported for 30 months. Compatibili
 Stable API with the MongoDB Server is supported. Each GA release of the Stable API is compatible
 with all GA Major Releases of the MongoDB Server that are released on or within five years of the
 Release Date of that version of the Stable API. Lifecycle Schedule is documented at
-<https://www.mongodb.com/support-policy/lifecycles>.
+<https://www.mongodb.com/legal/support-policy/lifecycles>.
 
 Extended support by MongoDB for up to 2 years is available through the commercial
-[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/products/enterprise-advanced/support).
+[MongoDB Extended Lifecycle Support Add-On](https://www.mongodb.com/services/support/enterprise-advanced-support-plans).

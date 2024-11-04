@@ -15,6 +15,10 @@ customColumns:
     description: Supported PHP versions range
     link: https://getkirby.com/docs/reference/system/requirements#php-version-support-history
 
+identifiers:
+-   cpe: cpe:/a:getkirby:kirby
+-   cpe: cpe:2.3:a:getkirby:kirby
+
 auto:
   methods:
   -   git: https://github.com/getkirby/kirby.git
@@ -28,48 +32,48 @@ releases:
     releaseDate: 2023-12-19
     eol: 2025-11-27 # Assume eol(3.9)
     supportedPhpVersions: 8.1 - 8.3
-    latest: "3.10.0.1"
-    latestReleaseDate: 2024-02-25
+    latest: "3.10.1.1"
+    latestReleaseDate: 2024-08-29
 
 -   releaseCycle: "4"
     codename: "A new era"
     releaseDate: 2023-11-28
     eol: false
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.2.0"
-    latestReleaseDate: 2024-04-10
+    latest: "4.4.1"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"
     releaseDate: 2023-01-17
     eol: 2025-11-27
     supportedPhpVersions: 8.0 - 8.2
-    latest: "3.9.8.1"
-    latestReleaseDate: 2024-02-25
+    latest: "3.9.8.2"
+    latestReleaseDate: 2024-08-24
 
 -   releaseCycle: "3.8"
     codename: "Rhampholeon"
     releaseDate: 2022-10-06
     eol: 2025-01-16
     supportedPhpVersions: 8.0 - 8.1
-    latest: "3.8.4.3"
-    latestReleaseDate: 2024-02-25
+    latest: "3.8.4.4"
+    latestReleaseDate: 2024-08-24
 
 -   releaseCycle: "3.7"
     codename: "Kinyongia"
     releaseDate: 2022-06-27
     eol: 2024-10-05
     supportedPhpVersions: 7.4 - 8.1
-    latest: "3.7.5.4"
-    latestReleaseDate: 2024-02-25
+    latest: "3.7.5.5"
+    latestReleaseDate: 2024-08-24
 
 -   releaseCycle: "3.6"
     codename: "Jungle Calumma"
     releaseDate: 2021-11-16
     eol: 2024-06-26
     supportedPhpVersions: 7.4 - 8.1
-    latest: "3.6.6.5"
-    latestReleaseDate: 2024-02-25
+    latest: "3.6.6.6"
+    latestReleaseDate: 2024-08-24
 
 -   releaseCycle: "3.5"
     codename: "Calumma"

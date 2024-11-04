@@ -33,12 +33,20 @@ auto:
 # - eoas(x) = release(x) + 6 months
 # - eol(x) = release(x) + 7 months
 releases:
+-   releaseCycle: "7.0"
+    lts: true
+    releaseDate: 2024-06-04
+    eoas: 2027-06-30
+    eol: 2029-06-30
+    latest: "7.0.5"
+    latestReleaseDate: 2024-10-22
+
 -   releaseCycle: "6.4"
-    releaseDate: 2023-03-06
+    releaseDate: 2023-03-07
     eoas: 2024-06-30
     eol: 2024-12-31
-    latest: "6.4.14"
-    latestReleaseDate: 2024-04-22
+    latest: "6.4.19"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "6.2"
     releaseDate: 2022-07-04
@@ -52,8 +60,8 @@ releases:
     releaseDate: 2022-02-08
     eoas: 2025-02-28
     eol: 2027-02-28
-    latest: "6.0.29"
-    latestReleaseDate: 2024-04-22
+    latest: "6.0.35"
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "5.4"
     releaseDate: 2021-05-17
@@ -63,11 +71,11 @@ releases:
 
 -   releaseCycle: "5.0"
     lts: true
-    releaseDate: 2020-05-11
+    releaseDate: 2020-05-12
     eoas: 2023-05-31
     eol: 2025-05-31
-    latest: "5.0.42"
-    latestReleaseDate: 2024-03-25
+    latest: "5.0.44"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "4.0"
     lts: true

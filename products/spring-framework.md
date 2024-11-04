@@ -26,7 +26,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
         eol: "End of Support"
-        eoes: "End Commercial Support *"
+        eoes: "End Enterprise Support *"
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
@@ -36,8 +36,8 @@ releases:
     releaseDate: 2023-11-16
     eol: 2025-08-31
     eoes: 2026-12-31
-    latest: "6.1.7"
-    latestReleaseDate: 2024-05-16
+    latest: "6.1.14"
+    latestReleaseDate: 2024-10-17
 
 -   releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"
@@ -45,8 +45,8 @@ releases:
     releaseDate: 2022-11-16
     eol: 2024-08-31
     eoes: 2025-12-31
-    latest: "6.0.20"
-    latestReleaseDate: 2024-05-16
+    latest: "6.0.23"
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "5.3"
     supportedJavaVersions: "8 - 21"
@@ -55,8 +55,8 @@ releases:
     eol: 2024-08-31
     eoes: 2026-12-31
     lts: true
-    latest: "5.3.35"
-    latestReleaseDate: 2024-05-16
+    latest: "5.3.39"
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "5.2"
     supportedJavaVersions: "8, 11" # https://docs.spring.io/spring-framework/docs/5.2.22.RELEASE/spring-framework-reference/overview.html#overview

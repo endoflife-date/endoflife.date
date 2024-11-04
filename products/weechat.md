@@ -7,17 +7,35 @@ changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.ht
 releaseDateColumn: true
 eolColumn: Active Support
 
+identifiers:
+-   repology: weechat
+-   cpe: cpe:/a:weechat:weechat
+-   cpe: cpe:2.3:a:weechat:weechat
+
+
 auto:
   methods:
   -   git: https://github.com/weechat/weechat.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.4"
+    releaseDate: 2024-08-17
+    eol: false
+    latest: "4.4.3"
+    latestReleaseDate: 2024-10-30
+
+-   releaseCycle: "4.3"
+    releaseDate: 2024-05-26
+    eol: false
+    latest: "4.3.6"
+    latestReleaseDate: 2024-08-15
+
 -   releaseCycle: "4.2"
     releaseDate: 2024-01-21
-    eol: false
-    latest: "4.2.2"
-    latestReleaseDate: 2024-04-07
+    eol: 2024-05-26
+    latest: "4.2.3"
+    latestReleaseDate: 2024-05-31
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-10-15

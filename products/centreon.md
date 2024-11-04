@@ -4,6 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
+releaseImage: https://docs.centreon.com/assets/images/lifecycle-44870b59cdb8b96e3789171ab1f518c8.png
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
 eoasColumn: Phase 1 support
@@ -24,35 +25,36 @@ auto:
 
 # eoas(x) = releaseDate(x) + 1 year (rounded to the end of the month).
 # eol(x) = releaseDate(x) + 2 years (rounded to the end of the month).
-# See also https://docs.centreon.com/docs/releases/lifecycle/.
+# See also https://docs.centreon.com/docs/releases/lifecycle/
+# note: 24.10 will be an LTS release and should be treated differently
 releases:
 -   releaseCycle: '24.04'
     releaseDate: 2024-04-22
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '24.04.1'
-    latestReleaseDate: 2024-05-17
+    latest: '24.04.7'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
     eoas: 2024-10-31
     eol: 2025-10-31
-    latest: '23.10.11'
-    latestReleaseDate: 2024-04-09
+    latest: '23.10.17'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '23.04'
     releaseDate: 2023-04-26
     eoas: 2024-04-30
     eol: 2025-04-30
-    latest: '23.04.16'
-    latestReleaseDate: 2024-03-14
+    latest: '23.04.22'
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: '22.10'
     releaseDate: 2022-10-26
     eoas: 2023-10-31
     eol: 2024-10-31
-    latest: '22.10.22'
-    latestReleaseDate: 2024-05-16
+    latest: '22.10.25'
+    latestReleaseDate: 2024-09-27
 
 -   releaseCycle: '22.04'
     releaseDate: 2022-05-18
@@ -128,13 +130,34 @@ releases:
 > Centreon is composed of many components, each with its own minor version number.
 > The version numbers tracked here is for the Centreon Web interface.
 
+## Release Cadence
+
 Centreon delivers two releases per year and releases are named according to the year and period of
 delivery: `XX.04` for the spring release, and `XX.10` for the fall release. All modules and
 components of the Centreon software suite use the same release numbers.
 
-Since version 21.10, versions are supported for two years divided into two phases of 12 months each.
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/)
+> (expected in October 2024), Centreon will have one major release
+> in October every year. Minor versions, with bug fixes and minor improvements will be released on a monthly basis.
+> A Service Pack version, cumulating all minor versions changes, is typically delivered after six months.
+
+## Support Lifecycle
+
+Releases are supported for two years divided into two phases of 12 months each.
 During the first phase, named _Phase 1 support_ on this page, releases are supported with bugs of
 all severity levels and security fixes. During the second phase, named _Phase 2 support_ on this
 page, only major/critical bugs and security fixes are provided.
 
-Paid support is also available for Centreon. For more information, see <https://www.centreon.com/centreon-editions/>.
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/) (expected in October 2024):
+> - All Open Source major versions will be supported for 18 months.
+> - Commercial major versions released in even years will be designated as LTS versions and supported for 3 years.
+> - Commercial major versions released in odd years will be supported for 18 months.
+
+[Paid support](https://www.centreon.com/centreon-editions/) is available for
+Commercial Editions.

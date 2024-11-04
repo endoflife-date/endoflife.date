@@ -27,13 +27,20 @@ auto:
 
 # See https://github.com/nodejs/release#release-schedule.
 releases:
+-   releaseCycle: "23"
+    releaseDate: 2024-10-16
+    eoas: 2025-04-01
+    eol: 2025-06-01
+    latest: "23.1.0"
+    latestReleaseDate: 2024-10-24
+
 -   releaseCycle: "22"
     releaseDate: 2024-04-24
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.2.0"
-    latestReleaseDate: 2024-05-15
+    latest: "22.11.0"
+    latestReleaseDate: 2024-10-29
 
 -   releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -47,8 +54,8 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.13.1"
-    latestReleaseDate: 2024-05-09
+    latest: "20.18.0"
+    latestReleaseDate: 2024-10-03
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -62,8 +69,8 @@ releases:
     lts: 2022-10-25
     eoas: 2023-10-18
     eol: 2025-04-30
-    latest: "18.20.2"
-    latestReleaseDate: 2024-04-10
+    latest: "18.20.4"
+    latestReleaseDate: 2024-07-08
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19

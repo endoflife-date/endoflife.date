@@ -17,6 +17,10 @@ customColumns:
     description: Supported Java versions list
     link: https://camel.apache.org/manual/what-are-the-dependencies.html
 
+identifiers:
+-   cpe: cpe:/a:apache:camel
+-   cpe: cpe:2.3:a:apache:camel
+
 auto:
   methods:
   -   maven: org.apache.camel/camel
@@ -26,9 +30,24 @@ auto:
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 releases:
+-   releaseCycle: "4.8"
+    lts: true
+    releaseDate: 2024-09-10
+    eol: false
+    supportedJavaVersions: 17, 21
+    latest: "4.8.1"
+    latestReleaseDate: 2024-10-20
+
+-   releaseCycle: "4.7"
+    releaseDate: 2024-07-09
+    eol: false
+    supportedJavaVersions: 17, 21
+    latest: "4.7.0"
+    latestReleaseDate: 2024-07-09
+
 -   releaseCycle: "4.6"
     releaseDate: 2024-05-05
-    eol: false
+    eol: 2024-07-13
     supportedJavaVersions: 17, 21
     latest: "4.6.0"
     latestReleaseDate: 2024-05-05
@@ -45,8 +64,8 @@ releases:
     releaseDate: 2024-02-12
     eol: 2025-02-12
     supportedJavaVersions: 17, 21
-    latest: "4.4.2"
-    latestReleaseDate: 2024-04-21
+    latest: "4.4.4"
+    latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "3.22"
     lts: true
@@ -82,16 +101,16 @@ releases:
     releaseDate: 2023-08-10
     eol: 2024-08-10
     supportedJavaVersions: 17
-    latest: "4.0.5"
-    latestReleaseDate: 2024-04-22
+    latest: "4.0.6"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "3.21"
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-06-23
     supportedJavaVersions: 11, 17
-    latest: "3.21.4"
-    latestReleaseDate: 2024-01-24
+    latest: "3.21.5"
+    latestReleaseDate: 2024-06-13
 
 -   releaseCycle: "3.20"
     lts: true

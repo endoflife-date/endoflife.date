@@ -7,9 +7,10 @@ permalink: /redhat-jboss-eap
 alternate_urls:
 -   /jboss-eap
 -   /jboss
-versionCommand: $JBOSS_HOME/bin/version.sh
+-   /red-hat-jboss-eap
+versionCommand: $JBOSS_HOME/bin/standalone.sh --version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/jboss_notes
-changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/{{'__LATEST__'|split:'.'|pop|join:'.'}}"
+changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
 releaseDateColumn: true
 eoasColumn: Full Support
 eolColumn: Maintenance Support
@@ -24,16 +25,16 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.0.0"
-    latestReleaseDate: 2024-02-05
+    latest: "8.0.3.1"
+    latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
     eoes: 2026-11-30
-    latest: "7.4.16"
-    latestReleaseDate: 2024-04-04
+    latest: "7.4.19"
+    latestReleaseDate: 2024-10-14
 
 -   releaseCycle: "6"
     releaseDate: 2012-06-01

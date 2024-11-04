@@ -16,6 +16,17 @@ eolColumn: Limited Support
 identifiers:
 -   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
+-   purl: pkg:docker/bitnami/airflow
+-   purl: pkg:docker/bitnami/airflow-scheduler
+-   purl: pkg:docker/bitnami/airflow-worker
+-   purl: pkg:docker/bitnami/airflow-exporter
+-   purl: pkg:docker/rapidfort/airflow
+-   purl: pkg:docker/rapidfort/airflow-scheduler
+-   purl: pkg:docker/rapidfort/airflow-worker
+-   purl: pkg:docker/rapidfort/airflow-exporter
+-   purl: pkg:docker/apache/airflow
+-   purl: pkg:docker/chainguard/airflow
+-   purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
 
 auto:
   methods:
@@ -33,8 +44,8 @@ releases:
     releaseDate: 2020-12-17
     eoas: false
     eol: false
-    latest: "2.9.1"
-    latestReleaseDate: 2024-05-06
+    latest: "2.10.2"
+    latestReleaseDate: 2024-09-20
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27

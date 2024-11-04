@@ -15,6 +15,11 @@ changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: graylog
+-   cpe: cpe:/a:graylog:graylog
+-   cpe: cpe:2.3:a:graylog:graylog
+
 auto:
   methods:
   -   git: https://github.com/Graylog2/graylog2-server.git
@@ -22,17 +27,24 @@ auto:
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-10-18
+    eol: false
+    latest: "6.1.1"
+    latestReleaseDate: 2024-10-23
+    link: https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}
+
 -   releaseCycle: "6.0"
     releaseDate: 2024-05-06
     eol: false
-    latest: "6.0.1"
-    latestReleaseDate: 2024-05-13
+    latest: "6.0.7"
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30
-    eol: false
-    latest: "5.2.7"
-    latestReleaseDate: 2024-04-30
+    eol: 2024-10-18
+    latest: "5.2.12"
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11

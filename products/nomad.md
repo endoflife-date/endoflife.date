@@ -8,12 +8,29 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
+identifiers:
+-   repology: nomad-scheduler
+-   cpe: cpe:/a:hashicorp:nomad
+-   cpe: cpe:2.3:a:hashicorp:nomad
+
 auto:
   methods:
   -   git: https://github.com/hashicorp/nomad.git
 
-# eol(x) = releaseCycle(x+3)
+# eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.9"
+    releaseDate: 2024-10-10
+    eol: false
+    latest: "1.9.1"
+    latestReleaseDate: 2024-10-21
+
+-   releaseCycle: "1.8"
+    releaseDate: 2024-05-28
+    eol: false
+    latest: "1.8.4"
+    latestReleaseDate: 2024-09-17
+
 -   releaseCycle: "1.7"
     releaseDate: 2023-12-07
     eol: false
@@ -22,13 +39,13 @@ releases:
 
 -   releaseCycle: "1.6"
     releaseDate: 2023-07-18
-    eol: false
+    eol: 2024-10-10 # releaseDate(1.9)
     latest: "1.6.10"
     latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-03-01
-    eol: false
+    eol: 2024-05-28
     latest: "1.5.17"
     latestReleaseDate: 2024-04-16
 

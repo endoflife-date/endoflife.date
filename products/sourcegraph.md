@@ -4,7 +4,7 @@ category: server-app
 tags: java-runtime
 permalink: /sourcegraph
 releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/
-changelogTemplate: https://github.com/sourcegraph/sourcegraph/releases/tag/v__LATEST__
+changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
@@ -14,15 +14,15 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/sourcegraph/sourcegraph.git
+  -   git: https://github.com/sourcegraph/sourcegraph-public-snapshot.git
 
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "5"
     releaseDate: 2023-03-22
     eol: false
-    latest: "5.4.0"
-    latestReleaseDate: 2024-05-08
+    latest: "5.6.185"
+    latestReleaseDate: 2024-08-08
 
 -   releaseCycle: "4"
     releaseDate: 2022-09-22

@@ -10,6 +10,11 @@ changelogTemplate: "https://symfony.com/blog/symfony-{{'__LATEST__'|replace:'.',
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: php:symfony
+-   cpe: cpe:/a:sensiolabs:symfony
+-   cpe: cpe:2.3:a:sensiolabs:symfony
+
 auto:
   methods:
   -   git: https://github.com/symfony/symfony.git
@@ -22,20 +27,27 @@ auto:
 # - eoas(x) = releaseDate(x) + 8 months
 # - eol(x) = releaseDate(x) + 8 months
 releases:
+-   releaseCycle: "7.1"
+    releaseDate: 2024-05-31
+    eoas: 2025-01-31
+    eol: 2025-01-31
+    latest: "7.1.6"
+    latestReleaseDate: 2024-10-27
+
 -   releaseCycle: "7.0"
     releaseDate: 2023-11-29
     eoas: 2024-07-31
     eol: 2024-07-31
-    latest: "7.0.7"
-    latestReleaseDate: 2024-04-29
+    latest: "7.0.10"
+    latestReleaseDate: 2024-07-26
 
 -   releaseCycle: "6.4"
     lts: true
     releaseDate: 2023-11-29
     eoas: 2026-11-30
     eol: 2027-11-30
-    latest: "6.4.7"
-    latestReleaseDate: 2024-04-29
+    latest: "6.4.13"
+    latestReleaseDate: 2024-10-27
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-05-30
@@ -70,8 +82,8 @@ releases:
     releaseDate: 2021-11-29
     eoas: 2024-11-30
     eol: 2025-11-30
-    latest: "5.4.39"
-    latestReleaseDate: 2024-04-29
+    latest: "5.4.45"
+    latestReleaseDate: 2024-10-27
 
 -   releaseCycle: "5.3"
     releaseDate: 2021-05-31

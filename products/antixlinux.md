@@ -13,9 +13,6 @@ releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
 releaseDateColumn: true
 
-identifiers:
--   purl: pkg:os/antix
-
 auto:
   methods:
   -   distrowatch: antix

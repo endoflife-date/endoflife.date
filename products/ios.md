@@ -19,28 +19,36 @@ auto:
       -   'iPhone\s+v?(?P<version>\d+(?:\.\d+)+)'
 
 releases:
+-   releaseCycle: "18"
+    releaseDate: 2024-09-16
+    eoas: false
+    eol: false
+    latest: "18.1"
+    latestReleaseDate: 2024-10-28
+    link: https://support.apple.com/en-us/121161
+
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: false
     eol: false
-    latest: "17.5"
-    latestReleaseDate: 2024-05-13
-    link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
+    latest: "17.7.1"
+    latestReleaseDate: 2024-10-28
+    link: https://support.apple.com/en-us/118723
 
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: false
-    latest: "16.7.8"
-    latestReleaseDate: 2024-05-13
+    latest: "16.7.10"
+    latestReleaseDate: 2024-08-07
     link: https://support.apple.com/HT213407
 
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: false
-    latest: "15.8.2"
-    latestReleaseDate: 2024-03-05
+    latest: "15.8.3"
+    latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"

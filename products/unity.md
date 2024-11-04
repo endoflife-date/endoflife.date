@@ -10,19 +10,23 @@ releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 releaseDateColumn: true
 
-auto:
-  # It takes too much time to fetch all versions.
-  # See https://github.com/endoflife-date/release-data/blob/main/src/unity.py for details
-  cumulative: true
-  methods:
-  -   custom: unity
+# Disabled because there are anti-bot protection measures on https://unity.com/.
+#auto:
+#  methods:
+#  -   custom: unity
 
 releases:
+-   releaseCycle: "6"
+    releaseDate: 2024-04-29
+    eol: false
+    latest: "6000.0.22f1"
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "2023.2"
     releaseDate: 2023-11-14
-    eol: false
-    latest: "2023.2.5f1"
-    latestReleaseDate: 2024-01-09
+    eol: 2024-04-29
+    latest: "2023.2.20f1"
+    latestReleaseDate: 2024-04-25
 
 -   releaseCycle: "2023.1"
     releaseDate: 2023-06-12
@@ -34,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-05-30
     eol: false
-    latest: "2022.3.29f1"
-    latestReleaseDate: 2024-05-14
+    latest: "2022.3.49f1"
+    latestReleaseDate: 2024-10-01
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07
@@ -53,14 +57,14 @@ releases:
     lts: true
     releaseDate: 2022-04-11
     eol: 2024-04-19
-    latest: "2021.3.38f1"
-    latestReleaseDate: 2024-05-02
+    latest: "2021.3.42f1"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "2021.3"
     releaseDate: 2022-04-11
     eol: 2024-04-19
-    latest: "2021.3.38f1"
-    latestReleaseDate: 2024-05-02
+    latest: "2021.3.44f1"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "2021.2"
     releaseDate: 2021-10-25

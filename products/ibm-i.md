@@ -149,6 +149,7 @@ releases:
     latestReleaseDate: 1995-12-22
 
 -   releaseCycle: "3.2"
+    outOfOrder: true # wrong date on https://www.ibm.com/support/pages/release-life-cycle
     releaseDate: 1996-06-21
     eol: 2000-05-31
     latest: "3.2"

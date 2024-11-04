@@ -11,18 +11,31 @@ eolColumn: Supported
 
 identifiers:
 -   purl: pkg:github/keycloak/keycloak
+-   repology: keycloak
 
 auto:
   methods:
-  -   github_releases: "keycloak/keycloak"
+  -   github_releases: keycloak/keycloak
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "26.0"
+    releaseDate: 2024-10-04
+    eol: false
+    latest: "26.0.5"
+    latestReleaseDate: 2024-11-01
+
+-   releaseCycle: "25.0"
+    releaseDate: 2024-06-10
+    eol: 2024-10-04
+    latest: "25.0.6"
+    latestReleaseDate: 2024-09-19
+
 -   releaseCycle: "24.0"
     releaseDate: 2024-03-04
-    eol: false
-    latest: "24.0.4"
-    latestReleaseDate: 2024-05-08
+    eol: 2024-06-10
+    latest: "24.0.5"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "23.0"
     releaseDate: 2023-11-23

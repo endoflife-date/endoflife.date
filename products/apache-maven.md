@@ -13,6 +13,14 @@ changelogTemplate: "https://github.com/apache/maven/releases/tag/maven-__LATEST_
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: maven
+-   cpe: cpe:/a:apache:maven
+-   cpe: cpe:2.3:a:apache:maven
+-   repology: maven-shared-utils
+-   cpe: cpe:/a:apache:maven_shared_utils
+-   cpe: cpe:2.3:a:apache:maven_shared_utils
+
 auto:
   methods:
   -   maven: org.apache.maven/maven-core
@@ -23,8 +31,8 @@ releases:
 -   releaseCycle: "3.9"
     releaseDate: 2023-01-31
     eol: false
-    latest: "3.9.6"
-    latestReleaseDate: 2023-11-28
+    latest: "3.9.9"
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "3.8"
     releaseDate: 2021-03-30

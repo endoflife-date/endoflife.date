@@ -10,6 +10,11 @@ changelogTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: struts
+-   cpe: cpe:/a:apache:struts
+-   cpe: cpe:2.3:a:apache:struts
+
 auto:
   methods:
   -   maven: struts/struts
@@ -21,8 +26,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    latest: "6.4.0"
-    latestReleaseDate: 2024-04-07
+    latest: "6.6.1"
+    latestReleaseDate: 2024-10-05
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -70,6 +75,8 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
+
+
 
 
 ---

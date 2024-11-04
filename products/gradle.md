@@ -11,6 +11,11 @@ eoasColumn: true
 releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
+identifiers:
+-   repology: gradle
+-   cpe: cpe:/a:gradle:gradle
+-   cpe: cpe:2.3:a:gradle:gradle
+
 auto:
   methods:
   -   git: https://github.com/gradle/gradle.git
@@ -22,16 +27,16 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.7/userguide/compatibility.html
-    runningJavaVersions: 8 - 21
-    testedJavaVersions: 8 - 21
-    testedKotlinVersions: 1.6.10 - 2.0.0-Beta3
+    # Supported versions see https://docs.gradle.org/8.10/userguide/compatibility.html
+    runningJavaVersions: 8 - 23
+    testedJavaVersions: 8 - 23
+    testedKotlinVersions: 1.6.10 - 2.0.20-Beta2
     testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3 - 8.2
+    testedAndroidVersions: 7.3 - 8.4
     eoas: false
     eol: false
-    latest: "8.7.0"
-    latestReleaseDate: 2024-03-21
+    latest: "8.10.2"
+    latestReleaseDate: 2024-09-23
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09

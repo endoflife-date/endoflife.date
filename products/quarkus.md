@@ -13,6 +13,11 @@ releaseDateColumn: true
 eolColumn: Support
 eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
+identifiers:
+-   repology: quarkus
+-   cpe: cpe:/a:quarkus:quarkus
+-   cpe: cpe:2.3:a:quarkus:quarkus
+
 # The Quarkus team forgot to declare a GitHub release for 2.11.0.
 # Tag and Maven release of new minor versions are usually created
 # a week before the "official" announcement, hence the use of GitHub releases.
@@ -27,15 +32,53 @@ auto:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
 releases:
+-   releaseCycle: "3.16"
+    lts: false
+    releaseDate: 2024-10-30
+    eol: false
+    latest: "3.16.1"
+    latestReleaseDate: 2024-10-30
+
+-   releaseCycle: "3.15"
+    lts: true
+    releaseDate: 2024-09-25
+    eol: 2025-09-25
+    latest: "3.15.1"
+    latestReleaseDate: 2024-09-26
+
+-   releaseCycle: "3.14"
+    releaseDate: 2024-08-28
+    eol: 2024-09-25 # releaseDate(3.15)
+    latest: "3.14.4"
+    latestReleaseDate: 2024-09-14
+
+-   releaseCycle: "3.13"
+    releaseDate: 2024-07-31
+    eol: 2024-08-28 # releaseDate(3.14)
+    latest: "3.13.3"
+    latestReleaseDate: 2024-08-20
+
+-   releaseCycle: "3.12"
+    releaseDate: 2024-06-26
+    eol: 2024-07-31 # releaseDate(3.13)
+    latest: "3.12.3"
+    latestReleaseDate: 2024-07-17
+
+-   releaseCycle: "3.11"
+    releaseDate: 2024-05-29
+    eol: 2024-06-26 # releaseDate(3.12)
+    latest: "3.11.3"
+    latestReleaseDate: 2024-06-19
+
 -   releaseCycle: "3.10"
     releaseDate: 2024-04-30
-    eol: false
-    latest: "3.10.1"
-    latestReleaseDate: 2024-05-15
+    eol: 2024-05-29 # releaseDate(3.11)
+    latest: "3.10.2"
+    latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-27
-    eol: 2024-04-30
+    eol: 2024-04-30 # releaseDate(3.10)
     latest: "3.9.5"
     latestReleaseDate: 2024-04-27
 
@@ -44,12 +87,12 @@ releases:
     releaseDate: 2024-02-28
     eol: 2025-02-28
     eoes: false
-    latest: "3.8.4"
-    latestReleaseDate: 2024-04-17
+    latest: "3.8.6"
+    latestReleaseDate: 2024-08-29
 
 -   releaseCycle: "3.7"
     releaseDate: 2024-01-31
-    eol: 2024-02-28
+    eol: 2024-02-28 # releaseDate(3.8)
     latest: "3.7.4"
     latestReleaseDate: 2024-02-21
 

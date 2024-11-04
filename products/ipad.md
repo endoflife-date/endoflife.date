@@ -240,7 +240,7 @@ Apple maintains a list of Supported iPad models
 
 Support information for iPadOS versions are also available [on endoflife.date](/ipados).
 
-## iOS Compatibility
+## iPadOS Compatibility
 
 {%- assign collapsedCycles = page.releases %}
 {% include table.html

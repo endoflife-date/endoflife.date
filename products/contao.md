@@ -8,19 +8,31 @@ changelogTemplate: https://github.com/contao/contao/blob/__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: contao
+-   cpe: cpe:/a:contao:contao
+-   cpe: cpe:2.3:a:contao:contao
+
 auto:
   methods:
   -   git: https://github.com/contao/contao.git
 
 # eoas and eol available on https://contao.org/release-plan.
 releases:
+-   releaseCycle: "5.4"
+    releaseDate: 2024-08-15
+    eoas: 2025-02-14
+    eol: 2025-02-14
+    latest: "5.4.4"
+    latestReleaseDate: 2024-10-23
+
 -   releaseCycle: "5.3"
     lts: true
     releaseDate: 2024-02-16
     eoas: 2027-02-14
     eol: 2028-02-14
-    latest: "5.3.8"
-    latestReleaseDate: 2024-05-07
+    latest: "5.3.17"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-08-15
@@ -48,8 +60,8 @@ releases:
     releaseDate: 2022-02-17
     eoas: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.43"
-    latestReleaseDate: 2024-04-19
+    latest: "4.13.49"
+    latestReleaseDate: 2024-09-17
 
 -   releaseCycle: "4.12"
     releaseDate: 2021-08-19

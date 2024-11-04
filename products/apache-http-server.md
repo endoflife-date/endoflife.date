@@ -6,6 +6,7 @@ iconSlug: apache
 permalink: /apache
 alternate_urls:
 -   /httpd
+-   /apache-http-server
 releasePolicyLink: https://httpd.apache.org/dev/release.html
 versionCommand: |-
   httpd -v
@@ -16,6 +17,8 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: apache
+-   cpe: cpe:/a:apache:http_server
+-   cpe: cpe:2.3:a:apache:http_server
 
 auto:
   methods:
@@ -25,8 +28,8 @@ releases:
 -   releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.59"
-    latestReleaseDate: 2024-04-04
+    latest: "2.4.62"
+    latestReleaseDate: 2024-07-17
     link: https://downloads.apache.org/httpd/Announcement2.4.html
 
 -   releaseCycle: "2.2"

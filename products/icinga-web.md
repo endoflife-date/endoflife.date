@@ -16,13 +16,15 @@ identifiers:
 -   repology: icingaweb2
 -   purl: pkg:docker/icinga/icingaweb2
 -   purl: pkg:github/Icinga/icingaweb2
+-   purl: pkg:github/Icinga/icinga-web
 
 auto:
   methods:
   -   git: https://github.com/Icinga/icingaweb2
+  -   git: https://github.com/Icinga/icinga-web
 
-# eol(x) = releaseDate(x+2)
 # eoas(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "2.12"
     releaseDate: 2023-09-21
@@ -116,9 +118,9 @@ releases:
     latestReleaseDate: 2015-10-02
 
 -   releaseCycle: "1"
-    releaseDate: 2010-06-30
-    eoas: 2018-12-31
-    eol: 2018-12-31
+    releaseDate: 2010-06-30 # 1.0.1 release date
+    eoas: 2015-10-02
+    eol: 2018-12-31 # https://github.com/Icinga/icinga-web
     latest: "1.14.1"
     latestReleaseDate: 2017-12-19
     link: null
@@ -126,8 +128,8 @@ releases:
 ---
 
 > [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface
-> for the Icinga2 monitoring system.
+> for the [Icinga](/icinga) monitoring system.
 
-The 2 most recent releases receive security and bug fixes. The N-3 release may receive critical
-security patches [in certain cases](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md)
-but this is not guaranteed.
+The two most recent releases are supported. The latest release receive bug and security fixes, while the previous
+version received only security fixes. Occasionally the N-3 release may receive critical security fixes but
+[this is not guaranteed](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md).

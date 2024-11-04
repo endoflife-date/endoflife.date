@@ -6,6 +6,11 @@ permalink: /phpbb
 releaseDateColumn: true
 eoasColumn: true
 
+identifiers:
+-   repology: phpbb
+-   cpe: cpe:/a:phpbb:phpbb
+-   cpe: cpe:2.3:a:phpbb:phpbb
+
 auto:
   methods:
   -   git: https://github.com/phpbb/phpbb.git
@@ -16,8 +21,8 @@ releases:
     releaseDate: 2020-01-06
     eoas: false
     eol: false
-    latest: "3.3.11"
-    latestReleaseDate: 2023-10-21
+    latest: "3.3.13"
+    latestReleaseDate: 2024-08-28
     link: https://www.phpbb.com/community/viewtopic.php?t=2635986
 
 -   releaseCycle: "3.2"

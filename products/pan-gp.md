@@ -4,10 +4,17 @@ category: app
 tags: palo-alto-networks
 iconSlug: paloaltonetworks
 permalink: /pangp
+alternate_urls:
+-   /pan-gp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
 releaseDateColumn: true
 eoasColumn: true
 eolColumn: End-of-life Date
+
+identifiers:
+-   repology: globalprotect
+-   cpe: cpe:/a:paloaltonetworks:globalprotect
+-   cpe: cpe:2.3:a:paloaltonetworks:globalprotect
 
 auto:
   methods:
@@ -22,28 +29,37 @@ auto:
         eol: "End-of-Life Date"
 
 releases:
+
+-   releaseCycle: "6.3"
+    releaseDate: 2024-06-13
+    eol: 2026-06-13
+    eoas: 2026-06-13
+    latest: "6.3.1-c383"
+    latestReleaseDate: 2024-10-14
+    link: https://docs.paloaltonetworks.com/globalprotect/6-3/globalprotect-app-release-notes/globalprotect-addressed-issues
+
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-23
-    eol: 2025-05-23
+    eol: 2025-12-31
     eoas: 2025-05-23
-    latest: "6.2.3"
-    latestReleaseDate: 2024-04-10
+    latest: "6.2.5-c788"
+    latestReleaseDate: 2024-10-14
     link: https://docs.paloaltonetworks.com/globalprotect/6-2/globalprotect-app-release-notes/globalprotect-addressed-issues
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-09-01
-    eol: 2025-03-01
-    eoas: 2024-09-01
-    latest: "6.1.4"
-    latestReleaseDate: 2024-01-29
+    eol: 2025-12-31
+    eoas: 2025-03-01
+    latest: "6.1.5"
+    latestReleaseDate: 2024-06-20
     link: https://docs.paloaltonetworks.com/globalprotect/6-1/globalprotect-app-release-notes//globalprotect-addressed-issues
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-02-22
-    eol: 2025-02-22
-    eoas: 2025-02-22
-    latest: "6.0.10"
-    latestReleaseDate: 2024-05-15
+    eol: 2025-12-31
+    eoas: 2025-12-31
+    latest: "6.0.10-c823"
+    latestReleaseDate: 2024-10-22
     link: https://docs.paloaltonetworks.com/globalprotect/6-0/globalprotect-app-release-notes/globalprotect-addressed-issues
 
 -   releaseCycle: "5.3"

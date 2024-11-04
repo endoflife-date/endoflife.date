@@ -6,6 +6,11 @@ versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
 releaseDateColumn: true
 
+identifiers:
+-   repology: postfix
+-   cpe: cpe:/a:postfix:postfix
+-   cpe: cpe:2.3:a:postfix:postfix
+
 auto:
   methods:
   -   git: https://github.com/vdukhovni/postfix.git

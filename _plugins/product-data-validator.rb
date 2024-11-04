@@ -10,6 +10,7 @@
 
 require 'jekyll'
 require 'open-uri'
+require_relative 'identifier-to-url'
 
 module EndOfLifeHooks
   VERSION = '1.0.0'
@@ -30,6 +31,7 @@ module EndOfLifeHooks
   SUPPRESSED_BECAUSE_TIMEOUT = 'may trigger an open or read timeout'
   SUPPRESSED_BECAUSE_UNAVAILABLE = 'site is temporary unavailable'
   SUPPRESSED_URL_PREFIXES = {
+    'https://access.redhat.com/': SUPPRESSED_BECAUSE_403,
     'https://antixlinux.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://apex.oracle.com/sod': SUPPRESSED_BECAUSE_403,
     'https://ark.intel.com': SUPPRESSED_BECAUSE_403,
@@ -49,6 +51,7 @@ module EndOfLifeHooks
     'https://github.com/angular/angular.js/blob/v1.6.10/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/ansible-community/ansible-build-data/blob/main/4/CHANGELOG-v4.rst': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
+    'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://jfrog.com/help/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://make.wordpress.org': SUPPRESSED_BECAUSE_EOF,
     'https://mirrors.slackware.com': SUPPRESSED_BECAUSE_403,
@@ -59,6 +62,7 @@ module EndOfLifeHooks
     'https://support.azul.com': SUPPRESSED_BECAUSE_403,
     'https://support.fairphone.com': SUPPRESSED_BECAUSE_403,
     'https://support.herodevs.com/hc/en-us/articles/': SUPPRESSED_BECAUSE_403,
+    'https://support.microsoft.com': SUPPRESSED_BECAUSE_403,
     'https://twitter.com/OracleAPEX': SUPPRESSED_BECAUSE_403,
     'https://visualstudio.microsoft.com/': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://web.archive.org': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -140,6 +144,11 @@ module EndOfLifeHooks
     error_if.is_not_a_number('eoesWarnThreshold')
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
+    error_if.not_ordered_by_release_cycles('releases')
+
+    product.data['identifiers'].each { |identifier|
+      error_if.is_not_an_identifier('identifiers', identifier)
+    }
 
     if product.data.has_key?('auto')
       error_if = Validator.new('auto', product, product.data['auto'])
@@ -300,6 +309,33 @@ module EndOfLifeHooks
 
       if value1.respond_to?(:strftime) and value2.respond_to?(:strftime) and value1 > value2
         declare_error(property1, value1, "expecting a value before #{property2} (#{value2})")
+      end
+    end
+
+    # Real validation is delegated to IdentifierToUrl to avoid duplicatio
+    def is_not_an_identifier(property, hash)
+      IdentifierToUrl.new.render(hash)
+    rescue => e
+      declare_error(property, hash, e)
+    end
+
+    def not_ordered_by_release_cycles(property)
+      releases = @data[property]
+
+      previous_release_cycle = nil
+      previous_release_date = nil
+      releases.each do |release|
+        next if release['outOfOrder']
+
+        release_cycle = release['releaseCycle']
+        release_date = release['releaseDate']
+
+        if previous_release_date and previous_release_date < release_date
+          declare_error(property, release_cycle, "expecting release (released on #{release_date}) to be before #{previous_release_cycle} (released on #{previous_release_date})")
+        end
+
+        previous_release_cycle = release_cycle
+        previous_release_date = release_date
       end
     end
 

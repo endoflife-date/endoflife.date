@@ -13,6 +13,11 @@ eoesColumn: Confluent Platform Standard End of Support
 # https://stackoverflow.com/a/51782038/374236
 versionCommand: ${KAFKA_HOME}/bin/kafka-topics.sh --version
 
+identifiers:
+-   repology: kafka
+-   cpe: cpe:/a:apache:kafka
+-   cpe: cpe:2.3:a:apache:kafka
+
 auto:
   methods:
   -   git: https://github.com/apache/kafka.git
@@ -26,12 +31,19 @@ auto:
 
 # eol(x) = MAX(latestReleaseDate, releaseDate(X+1))
 releases:
+-   releaseCycle: "3.8"
+    releaseDate: 2024-07-26
+    eol: false
+    eoes: false
+    latest: "3.8.1"
+    latestReleaseDate: 2024-10-29
+
 -   releaseCycle: "3.7"
     releaseDate: 2024-02-26
-    eol: false
-    eoes: 2026-02-09
-    latest: "3.7.0"
-    latestReleaseDate: 2024-02-26
+    eol: 2024-07-26
+    eoes: 2026-07-26
+    latest: "3.7.1"
+    latestReleaseDate: 2024-06-28
 
 -   releaseCycle: "3.6"
     releaseDate: 2023-10-03

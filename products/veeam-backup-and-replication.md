@@ -25,8 +25,8 @@ releases:
     eoas: false # will be 13.0 GA date
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.1.1.56"
-    latestReleaseDate: 2024-01-17
+    latest: "12.2.0.334"
+    latestReleaseDate: 2024-08-28
 
 -   releaseCycle: "11"
     releaseDate: 2021-02-11
@@ -142,7 +142,7 @@ releases:
 
 ---
 
-> [Veeam Backup & Replication](https://www.veeam.com/vm-backup-recovery-replication-software.html)
+> [Veeam Backup & Replication](https://www.veeam.com/products/veeam-data-platform/backup-recovery.html)
 > is a commercial data protection and disaster recovery solution. It provides backup, restore and
 > replication functionality for virtual machines, physical servers and workstations as well as
 > cloud-based workload.

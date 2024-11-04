@@ -8,17 +8,27 @@ alternate_urls:
 -   /dependencytrack
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 
+identifiers:
+-   cpe: cpe:/a:owasp:dependency-track
+-   cpe: cpe:2.3:a:owasp:dependency-track
+
 auto:
   methods:
   -   git: https://github.com/DependencyTrack/dependency-track.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.12"
+    releaseDate: 2024-10-01
+    eol: false # releaseDate(4.13)
+    latest: "4.12.1"
+    latestReleaseDate: 2024-10-25
+
 -   releaseCycle: "4.11"
     releaseDate: 2024-05-07
-    eol: false
-    latest: "4.11.1"
-    latestReleaseDate: 2024-05-19
+    eol: 2024-10-01 # releaseDate(4.12)
+    latest: "4.11.7"
+    latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "4.10"
     releaseDate: 2023-12-08

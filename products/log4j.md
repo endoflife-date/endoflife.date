@@ -12,16 +12,22 @@ changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#relea
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: log4j
+-   cpe: cpe:/a:apache:log4j
+-   cpe: cpe:2.3:a:apache:log4j
+
 auto:
   methods:
   -   maven: org.apache.logging.log4j/log4j-core
 
 releases:
 -   releaseCycle: "2"
+    outOfOrder: true # to keep it at the top
     releaseDate: 2014-07-12
     eol: false
-    latest: "2.23.1"
-    latestReleaseDate: 2024-03-06
+    latest: "2.24.1"
+    latestReleaseDate: 2024-09-24
 
 -   releaseCycle: "2.12"
     releaseDate: 2019-06-26

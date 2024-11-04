@@ -14,9 +14,6 @@ releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
 releaseDateColumn: true
 
-identifiers:
--   purl: pkg:os/mxlinux
-
 auto:
   methods:
   -   distrowatch: mx
@@ -30,8 +27,8 @@ releases:
     releaseDate: 2023-07-31
     eoas: 2026-06-10
     eol: 2028-06-10
-    latest: "23.3"
-    latestReleaseDate: 2024-05-20
+    latest: "23.4"
+    latestReleaseDate: 2024-09-16
     link: https://mxlinux.org/blog/mx-23-libretto-now-available/
 
 -   releaseCycle: "21"
@@ -109,7 +106,7 @@ periods of active development and extended long-term support, which provides sec
 limited set of packages.  Often this equates to ~2 years of active support and 2 years of long-term
 security patch support.
 
-MX Linux matches the year of release (21 was released in 2021 for eg) for versioning.
+MX Linux matches the year of release (21 was released in 2021 for example) for versioning.
 
 MX offers releases supporting x86 32-bit PAE (i686-compatible) processors, x86 64-bit processors,
 and the Raspberry Pi's 32-bit armhf architecture.

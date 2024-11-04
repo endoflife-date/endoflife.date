@@ -30,14 +30,14 @@ releases:
     releaseLabel: "23c"
     releaseDate: 2023-09-19
     lts: true
-    eol: 2032-04-30
+    eol: 2032-12-31
     eoes: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
 
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
-    eol: 2025-04-30
+    eol: 2027-07-31
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
 -   releaseCycle: "19"
@@ -115,14 +115,13 @@ releases:
     releaseDate: 2002-05-01
     eol: 2007-07-31
     eoes: 2010-07-31
-    link: https://www.oracle.com/database/technologies/oracle9i.html
+    link: https://web.archive.org/web/20230921152724/https://www.oracle.com/database/technologies/oracle9i.html
 
 -   releaseCycle: "9.0"
     releaseLabel: "9i Release 1"
     # https://www.orafaq.com/wiki/Oracle_9i
     releaseDate: 2001-06-01
     eol: 2003-12-31
-    link: https://www.oracle.com/database/technologies/database10g-doc.html
 
 ---
 

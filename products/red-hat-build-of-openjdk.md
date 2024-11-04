@@ -10,6 +10,7 @@ alternate_urls:
 -   /red-hat-openjdk
 -   /rh-openjdk
 -   /rhjdk
+-   /red-hat-build-of-openjdk
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
 changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
@@ -23,22 +24,22 @@ releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 # This is not great, since it is quite impossible to match
 # identifiers to a release cycle.
 identifiers:
-    - purl: pkg:redhat/java-1.6.0-openjdk
-    - purl: pkg:redhat/java-1.7.0-openjdk
-    - purl: pkg:redhat/java-1.7.0-openjdk-headless
-    - purl: pkg:redhat/java-1.8.0-openjdk
-    - purl: pkg:redhat/java-1.8.0-openjdk-debug
-    - purl: pkg:redhat/java-1.8.0-openjdk-headless
-    - purl: pkg:redhat/java-1.8.0-openjdk-headless-debug
-    - purl: pkg:redhat/java-11-openjdk
-    - purl: pkg:redhat/java-11-openjdk-debug
-    - purl: pkg:redhat/java-11-openjdk-headless-debug
-    - purl: pkg:redhat/java-1.6.0-openjdk-devel
-    - purl: pkg:redhat/java-1.7.0-openjdk-devel
-    - purl: pkg:redhat/java-1.8.0-openjdk-devel
-    - purl: pkg:redhat/java-1.8.0-openjdk-devel-debug
-    - purl: pkg:redhat/java-11-openjdk-devel
-    - purl: pkg:redhat/java-11-openjdk-devel-debug
+    - purl: pkg:rpm/redhat/java-1.6.0-openjdk
+    - purl: pkg:rpm/redhat/java-1.7.0-openjdk
+    - purl: pkg:rpm/redhat/java-1.7.0-openjdk-headless
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-debug
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless-debug
+    - purl: pkg:rpm/redhat/java-11-openjdk
+    - purl: pkg:rpm/redhat/java-11-openjdk-debug
+    - purl: pkg:rpm/redhat/java-11-openjdk-headless-debug
+    - purl: pkg:rpm/redhat/java-1.6.0-openjdk-devel
+    - purl: pkg:rpm/redhat/java-1.7.0-openjdk-devel
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel
+    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug
+    - purl: pkg:rpm/redhat/java-11-openjdk-devel
+    - purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
 
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:

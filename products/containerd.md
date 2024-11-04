@@ -27,16 +27,16 @@ releases:
     releaseDate: 2023-03-10
     eoas: false # releaseDate(2.0) + 6 months
     eol: false # eol(1.6)
-    latest: "1.7.17"
-    latestReleaseDate: 2024-05-16
+    latest: "1.7.23"
+    latestReleaseDate: 2024-10-14
 
 -   releaseCycle: "1.6"
     releaseDate: 2022-02-15
     lts: true
     eoas: false # same as EOL because it's an LTS.
     eol: false # max(February 15, 2025 or releaseDate(next LTS) + 6 months
-    latest: "1.6.31"
-    latestReleaseDate: 2024-04-05
+    latest: "1.6.36"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-05-03
@@ -74,7 +74,7 @@ releases:
     latestReleaseDate: 2019-09-26
 
 -   releaseCycle: "1.0"
-    releaseDate: 2017-12-04
+    releaseDate: 2017-12-05
     eoas: 2018-12-05 # no information about the end of support
     eol: 2018-12-05
     latest: "1.0.3"

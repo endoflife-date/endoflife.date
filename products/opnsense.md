@@ -9,18 +9,29 @@ changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:opnsense:opnsense
+-   cpe: cpe:2.3:a:opnsense:opnsense
+
 auto:
   methods:
   -   git: https://github.com/opnsense/core
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "24.7"
+    codename: "Thriving Tiger"
+    releaseDate: 2024-07-23
+    eol: false
+    latest: "24.7.7"
+    latestReleaseDate: 2024-10-23
+
 -   releaseCycle: "24.1"
     codename: "Savvy Shark"
     releaseDate: 2024-01-26
-    eol: false
-    latest: "24.1.7"
-    latestReleaseDate: 2024-05-16
+    eol: 2024-07-25
+    latest: "24.1.10"
+    latestReleaseDate: 2024-07-11
 
 -   releaseCycle: "23.7"
     codename: "Restless Roadrunner"

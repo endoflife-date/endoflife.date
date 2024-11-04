@@ -19,28 +19,26 @@ identifiers:
 auto:
   methods:
   -   custom: couchbase-server
-  -   release_table: https://www.couchbase.com/support-policy/enterprise-software/
-      selector: "table#end_of_life"
-      header_selector: "tr:nth-of-type(1)"
-      rows_selector: "tr"
+  -   release_table: https://www.couchbase.com/support-policy/EOL/
+      selector: "table"
       fields:
         releaseCycle:
-          column: "Couchbase Server"
+          column: "Release"
           regex: '^Couchbase Server (?P<value>[0-9.]+)$'
         eol: "End of Full Maintenance"
 
 releases:
 -   releaseCycle: "7.6"
-    releaseDate: 2023-03-20
+    releaseDate: 2024-03-31
     eol: 2026-07-31
-    latest: "7.6.1"
-    latestReleaseDate: 2024-04-30
+    latest: "7.6.3"
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
-    latest: "7.2.5"
-    latestReleaseDate: 2024-04-30
+    latest: "7.2.6"
+    latestReleaseDate: 2024-09-30
 
 -   releaseCycle: "7.1"
     releaseDate: 2022-05-31

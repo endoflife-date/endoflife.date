@@ -8,6 +8,7 @@ alternate_urls:
 -   /dotnetcore
 versionCommand: dotnet --version
 releasePolicyLink: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+releaseImage: https://dotnet.microsoft.com/blob-assets/images/illustrations/release-schedule-dark.svg
 changelogTemplate: https://github.com/dotnet/core/blob/main/release-notes/{{"__LATEST__"|split:'.'|slice:0,2|join:'.'}}/__LATEST__/__LATEST__.md
 releaseDateColumn: true
 eolColumn: Support Status
@@ -29,13 +30,13 @@ identifiers:
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.linux-bionic-arm
--   purl: pkg:rpm/rhel/dotnet-sdk-8.0
--   purl: pkg:rpm/rhel/dotnet-sdk-7.0
--   purl: pkg:rpm/rhel/dotnet-sdk-6.0
--   purl: pkg:rpm/rhel/dotnet-sdk-5.0
--   purl: pkg:rpm/rhel/dotnet-sdk-3.1
--   purl: pkg:rpm/rhel/dotnet-sdk-3.0
--   purl: pkg:rpm/rhel/dotnet-sdk-2.1
+-   purl: pkg:rpm/redhat/dotnet-sdk-8.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-7.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-6.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-5.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-3.1
+-   purl: pkg:rpm/redhat/dotnet-sdk-3.0
+-   purl: pkg:rpm/redhat/dotnet-sdk-2.1
 
 auto:
   methods:
@@ -56,21 +57,21 @@ releases:
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.5"
-    latestReleaseDate: 2024-05-14
+    latest: "8.0.10"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-08
     eol: 2024-05-14
-    latest: "7.0.19"
-    latestReleaseDate: 2024-05-14
+    latest: "7.0.20"
+    latestReleaseDate: 2024-05-29
 
 -   releaseCycle: "6"
     releaseDate: 2021-11-08
     lts: true
     eol: 2024-11-12
-    latest: "6.0.30"
-    latestReleaseDate: 2024-05-14
+    latest: "6.0.35"
+    latestReleaseDate: 2024-10-08
 
 -   releaseCycle: "5"
     releaseDate: 2020-11-10

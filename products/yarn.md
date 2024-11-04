@@ -24,14 +24,14 @@ releases:
 -   releaseCycle: "4"
     releaseDate: 2023-10-22
     eol: false
-    latest: '4.2.2'
-    latestReleaseDate: 2024-05-08
+    latest: '4.5.1'
+    latestReleaseDate: 2024-10-18
 
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
     eol: false # still not clear, will wait until there is no more updates
-    latest: '3.8.2'
-    latestReleaseDate: 2024-05-02
+    latest: '3.8.6'
+    latestReleaseDate: 2024-10-18
 
 -   releaseCycle: "2"
     releaseDate: 2020-07-09

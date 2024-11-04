@@ -38,11 +38,11 @@ auto:
 
 releases:
 -   releaseCycle: "3"
-    releaseDate: 2022-10-31
+    releaseDate: 2022-11-01
     eoas: false
     eol: false
-    latest: "3.6.6"
-    latestReleaseDate: 2024-05-14
+    latest: "3.7.3"
+    latestReleaseDate: 2024-10-17
 
 -   releaseCycle: "2"
     releaseDate: 2019-07-23

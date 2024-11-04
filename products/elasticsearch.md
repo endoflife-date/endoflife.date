@@ -25,15 +25,15 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
-    eol: false # later of 2024-08-10 or 6 months after the release date of 9.0
-    latest: "8.13.4"
-    latestReleaseDate: 2024-05-14
+    eol: false # later of 2024-08-10 or 18 months after the release date of 9.0
+    latest: "8.15.3"
+    latestReleaseDate: 2024-10-10
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-10
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.21"
-    latestReleaseDate: 2024-05-03
+    latest: "7.17.25"
+    latestReleaseDate: 2024-10-14
 
 -   releaseCycle: "6"
     releaseDate: 2017-11-14
@@ -52,11 +52,11 @@ other products in the Elastic Stack (Kibana, Logstash, Beats...).
 
 Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
 maintenance for each major release series for the longest of 30 months after the GA date of the
-major release or 6 months after the GA date of the subsequent major release.
+major release or 18 months after the GA date of the subsequent major release.
 
 Therefore:
 
-* **Elasticsearch 8** will receive updates until 6 months after the release date of 9.0 (TBD).
+* **Elasticsearch 8** will receive updates until 18 months after the release date of 9.0 (TBD).
 * **Elasticsearch 7** will receive updates until the release date of 9.0 (TDB).
 
 End of life dates for Elasticsearch can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
