@@ -30,14 +30,14 @@ releases:
     releaseLabel: "23c"
     releaseDate: 2023-09-19
     lts: true
-    eol: 2032-04-30
+    eol: 2032-12-31
     eoes: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
 
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
-    eol: 2025-04-30
+    eol: 2027-07-31
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
 -   releaseCycle: "19"
