@@ -5,7 +5,6 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
-releaseImage: https://docs.mattermost.com/_images/ESR_graphic2.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
@@ -25,19 +24,26 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+# releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.1"
+    releaseDate: 2024-10-16
+    eol: 2025-01-15
+    latest: '10.1.2'
+    latestReleaseDate: 2024-10-22
+
 -   releaseCycle: "10.0"
     releaseDate: 2024-09-16
     eol: 2024-12-15
-    latest: '10.0.1'
-    latestReleaseDate: 2024-10-10
+    latest: '10.0.2'
+    latestReleaseDate: 2024-10-28
 
 -   releaseCycle: "9.11"
     lts: true
     releaseDate: 2024-08-16
     eol: 2025-05-15
-    latest: '9.11.3'
-    latestReleaseDate: 2024-10-10
+    latest: '9.11.4'
+    latestReleaseDate: 2024-10-28
 
 -   releaseCycle: "9.10"
     releaseDate: 2024-07-16
@@ -72,8 +78,8 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-16
     eol: 2024-11-15
-    latest: '9.5.11'
-    latestReleaseDate: 2024-10-10
+    latest: '9.5.12'
+    latestReleaseDate: 2024-10-28
 
 -   releaseCycle: "9.4"
     releaseDate: 2024-01-16

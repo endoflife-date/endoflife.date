@@ -21,8 +21,8 @@ releases:
 -   releaseCycle: "4.12"
     releaseDate: 2024-10-01
     eol: false # releaseDate(4.13)
-    latest: "4.12.0"
-    latestReleaseDate: 2024-10-01
+    latest: "4.12.1"
+    latestReleaseDate: 2024-10-25
 
 -   releaseCycle: "4.11"
     releaseDate: 2024-05-07

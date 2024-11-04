@@ -23,16 +23,16 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.0.1"
-    latestReleaseDate: 2024-10-03
+    latest: "18.1"
+    latestReleaseDate: 2024-10-28
     link: https://support.apple.com/en-us/121161
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: false
     eol: false
-    latest: "17.7"
-    latestReleaseDate: 2024-09-16
+    latest: "17.7.1"
+    latestReleaseDate: 2024-10-28
     link: https://support.apple.com/en-us/118723
 
 -   releaseCycle: "16"

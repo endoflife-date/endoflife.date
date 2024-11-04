@@ -29,24 +29,24 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: '15.0.1'
-    latestReleaseDate: 2024-10-03
+    latest: '15.1'
+    latestReleaseDate: 2024-10-28
     link: https://support.apple.com/en-us/120283
 
 -   releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.7.0'
-    latestReleaseDate: 2024-09-16
+    latest: '14.7.1'
+    latestReleaseDate: 2024-10-28
     link: https://support.apple.com/121247
 
 -   releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: '13.7.0'
-    latestReleaseDate: 2024-09-16
+    latest: '13.7.1'
+    latestReleaseDate: 2024-10-28
     link: https://support.apple.com/121234
 
 -   releaseCycle: "12"

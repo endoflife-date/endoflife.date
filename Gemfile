@@ -22,7 +22,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
 
 gem 'icalendar', '~> 2.10'
 
