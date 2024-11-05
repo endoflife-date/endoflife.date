@@ -81,7 +81,7 @@ releases:
     lts: true
     releaseDate: 2021-11-29
     eoas: 2024-11-30
-    eol: 2025-11-30
+    eol: 2029-02-28
     latest: "5.4.45"
     latestReleaseDate: 2024-10-27
 
