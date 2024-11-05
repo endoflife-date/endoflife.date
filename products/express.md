@@ -67,4 +67,4 @@ does not plan to address or release fixes for any issues found.
 The Express team has indicated that they will be participating in the
 [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
 (ESP) and have announced that [commercial support for EOL branches](https://expressjs.com/en/support) is
-now available through [HeroDevs](https://www.herodevs.com/support/eslint-nes).
+now available through [HeroDevs](https://www.herodevs.com/support/express-nes).
