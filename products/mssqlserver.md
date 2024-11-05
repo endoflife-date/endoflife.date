@@ -31,14 +31,13 @@ releases:
     
 -   releaseCycle: "15.0"
     codename: Seattle
-    releaseLabel: "2019 CU28+GDR"
+    releaseLabel: "2019 CU29"
     releaseDate: 2019-11-04
     eoas: 2025-01-07
     eol: 2030-01-08
-    latest: "15.0.4395.2"
-    latestReleaseDate: 2024-10-08
-    # CU28 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate28
-    link: https://support.microsoft.com/help/5046060 # GDR for CU28
+    latest: "15.0.4405.4"
+    latestReleaseDate: 2024-10-31
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate29
 
 -   releaseCycle: "14.0"
     codename: Helsinki
