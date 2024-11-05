@@ -21,6 +21,11 @@ identifiers:
 
 # Dates as per https://fedorapeople.org/groups/schedule/
 releases:
+-   releaseCycle: "41"
+    releaseDate: 2024-10-29
+    eol: 2025-11-26
+    latest: "41"
+    latestReleaseDate: 2024-10-29
 
 -   releaseCycle: "40"
     releaseDate: 2024-04-23
