@@ -46,7 +46,7 @@ releases:
 
 -   releaseCycle: "2.10"
     releaseDate: 2024-02-05
-    eol: false
+    eol: 2024-11-04
     latest: "2.10.18"
     latestReleaseDate: 2024-10-17
 
