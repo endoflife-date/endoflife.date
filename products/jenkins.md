@@ -34,8 +34,8 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.483"
-    latestReleaseDate: 2024-10-29
+    latest: "2.484"
+    latestReleaseDate: 2024-11-05
 
 -   releaseCycle: "2.462"
     releaseDate: 2024-06-10
