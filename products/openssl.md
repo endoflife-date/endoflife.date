@@ -22,9 +22,15 @@ auto:
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2024-10-22
+    eol: false
+    latest: "3.4.0"
+    latestReleaseDate: 2024-10-22
+
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-09
-    eol: 2026-04-10
+    eol: 2026-04-09
     latest: "3.3.2"
     latestReleaseDate: 2024-09-03
 

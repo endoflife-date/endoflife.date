@@ -18,8 +18,8 @@ releases:
     releaseLabel: "24.1 (JDK 23)"
     releaseDate: 2024-09-23
     eol: 2025-04-15 # April 2025 CPU
-    latest: "24.1.0.0"
-    latestReleaseDate: 2024-09-23
+    latest: "24.1.1.0"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "24.0"
     releaseLabel: "24.0 (JDK 22)"
@@ -33,16 +33,16 @@ releases:
     releaseDate: 2023-10-12
     eol: false
     lts: true
-    latest: "23.1.4.0"
-    latestReleaseDate: 2024-07-21
+    latest: "23.1.5.0"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "23.0"
     releaseLabel: "23.0 (JDK 17)"
     releaseDate: 2023-06-14
     eol: 2025-01-21 # Jan 2025 CPU
     lts: true
-    latest: "23.0.5.0"
-    latestReleaseDate: 2024-07-21
+    latest: "23.0.6.0"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "22.3"
     releaseLabel: "22.3 (JDK 17)"

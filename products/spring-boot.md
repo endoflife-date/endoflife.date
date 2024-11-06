@@ -14,6 +14,23 @@ eoesColumn: Commercial Support
 
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-web
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-jbdc
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-data-mongodb
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-security
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-test
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-amqp
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-websocket
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-actuator
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-undertow
+-   purl: pkg:maven/org.springframework.boot/spring-boot-autoconfigure
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-webflux
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-aop
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-logging
 -   purl: pkg:github/spring-projects/spring-boot
 
 auto:
