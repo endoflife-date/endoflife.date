@@ -27,7 +27,7 @@ gem "webrick", "~> 1.9"
 gem 'icalendar', '~> 2.10'
 
 # Used in product-data-validator to check URLs
-gem "open-uri", "~> 0.4"
+gem "open-uri", "~> 0.5"
 
 # Used in purl-to-url to parse PURLs
 gem "packageurl-ruby", "~> 0.1.0"
