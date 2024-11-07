@@ -36,8 +36,8 @@ releases:
     lts: false
     releaseDate: 2024-10-30
     eol: false
-    latest: "3.16.1"
-    latestReleaseDate: 2024-10-30
+    latest: "3.16.2"
+    latestReleaseDate: 2024-11-06
 
 -   releaseCycle: "3.15"
     lts: true
