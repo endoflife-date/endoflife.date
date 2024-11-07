@@ -153,240 +153,249 @@ releases:
   latest: v2.4.2
   latestReleaseDate: '2022-11-30'
 - releaseCycle: v2.4.1
-  releaseDate: '2022-10-20'
-  eol: '2024-10-19'
+  releaseDate: &id001 2022-10-20 00:00:00
+  eol: 2024-10-19 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.4.1
   latest: v2.4.1
-  latestReleaseDate: '2022-10-20'
+  latestReleaseDate: *id001
 - releaseCycle: v1.12.5
-  releaseDate: '2022-10-19'
-  eol: '2024-10-18'
+  releaseDate: &id002 2022-10-19 00:00:00
+  eol: 2024-10-18 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.5
   latest: v1.12.5
-  latestReleaseDate: '2022-10-19'
+  latestReleaseDate: *id002
 - releaseCycle: v2.4.0
-  releaseDate: '2022-10-04'
-  eol: '2024-10-03'
+  releaseDate: &id003 2022-10-04 00:00:00
+  eol: 2024-10-03 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.4.0
   latest: v2.4.0
-  latestReleaseDate: '2022-10-04'
+  latestReleaseDate: *id003
 - releaseCycle: v2.3.1
-  releaseDate: '2022-09-16'
-  eol: '2024-09-15'
+  releaseDate: &id004 2022-09-16 00:00:00
+  eol: 2024-09-15 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.3.1
   latest: v2.3.1
-  latestReleaseDate: '2022-09-16'
+  latestReleaseDate: *id004
 - releaseCycle: v2.3.0
-  releaseDate: '2022-07-12'
-  eol: '2024-07-11'
+  releaseDate: &id005 2022-07-12 00:00:00
+  eol: 2024-07-11 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.3.0
   latest: v2.3.0
-  latestReleaseDate: '2022-07-12'
+  latestReleaseDate: *id005
 - releaseCycle: v2.2.2
-  releaseDate: '2022-05-24'
-  eol: '2024-05-23'
+  releaseDate: &id006 2022-05-24 00:00:00
+  eol: 2024-05-23 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.2.2
   latest: v2.2.2
-  latestReleaseDate: '2022-05-24'
+  latestReleaseDate: *id006
 - releaseCycle: v2.2.1
-  releaseDate: '2022-05-18'
-  eol: '2024-05-17'
+  releaseDate: &id007 2022-05-18 00:00:00
+  eol: 2024-05-17 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.2.1
   latest: v2.2.1
-  latestReleaseDate: '2022-05-18'
+  latestReleaseDate: *id007
 - releaseCycle: v2.2.0
-  releaseDate: '2022-04-12'
-  eol: '2024-04-11'
+  releaseDate: &id008 2022-04-12 00:00:00
+  eol: 2024-04-11 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.2.0
   latest: v2.2.0
-  latestReleaseDate: '2022-04-12'
+  latestReleaseDate: *id008
 - releaseCycle: v2.1.2
-  releaseDate: '2022-03-30'
-  eol: '2024-03-29'
+  releaseDate: &id009 2022-03-30 00:00:00
+  eol: 2024-03-29 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.1.2
   latest: v2.1.2
-  latestReleaseDate: '2022-03-30'
+  latestReleaseDate: *id009
 - releaseCycle: v1.12.4
-  releaseDate: '2022-03-24'
-  eol: '2024-03-23'
+  releaseDate: &id010 2022-03-24 00:00:00
+  eol: 2024-03-23 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.4
   latest: v1.12.4
-  latestReleaseDate: '2022-03-24'
+  latestReleaseDate: *id010
 - releaseCycle: v2.1.1
-  releaseDate: '2022-02-19'
-  eol: '2024-02-19'
+  releaseDate: &id011 2022-02-19 00:00:00
+  eol: 2024-02-19 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.1.1
   latest: v2.1.1
-  latestReleaseDate: '2022-02-19'
+  latestReleaseDate: *id011
 - releaseCycle: v2.1.0
-  releaseDate: '2022-01-06'
-  eol: '2024-01-06'
+  releaseDate: &id012 2022-01-06 00:00:00
+  eol: 2024-01-06 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.1.0
   latest: v2.1.0
-  latestReleaseDate: '2022-01-06'
+  latestReleaseDate: *id012
 - releaseCycle: v2.0.3
-  releaseDate: '2021-10-29'
-  eol: '2023-10-29'
+  releaseDate: &id013 2021-10-29 00:00:00
+  eol: 2023-10-29 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.0.3
   latest: v2.0.3
-  latestReleaseDate: '2021-10-29'
+  latestReleaseDate: *id013
 - releaseCycle: v1.12.3
-  releaseDate: '2021-10-29'
-  eol: '2023-10-29'
+  releaseDate: &id014 2021-10-29 00:00:00
+  eol: 2023-10-29 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.3
   latest: v1.12.3
-  latestReleaseDate: '2021-10-29'
+  latestReleaseDate: *id014
 - releaseCycle: v2.0.2
-  releaseDate: '2021-10-14'
-  eol: '2023-10-14'
+  releaseDate: &id015 2021-10-14 00:00:00
+  eol: 2023-10-14 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.0.2
   latest: v2.0.2
-  latestReleaseDate: '2021-10-14'
+  latestReleaseDate: *id015
 - releaseCycle: v2.0.1
-  releaseDate: '2021-10-08'
-  eol: '2023-10-08'
+  releaseDate: &id016 2021-10-08 00:00:00
+  eol: 2023-10-08 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.0.1
   latest: v2.0.1
-  latestReleaseDate: '2021-10-08'
+  latestReleaseDate: *id016
 - releaseCycle: v1.12.2
-  releaseDate: '2021-10-08'
-  eol: '2023-10-08'
+  releaseDate: &id017 2021-10-08 00:00:00
+  eol: 2023-10-08 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.2
   latest: v1.12.2
-  latestReleaseDate: '2021-10-08'
+  latestReleaseDate: *id017
 - releaseCycle: v2.0.0
-  releaseDate: '2021-09-29'
-  eol: '2023-09-29'
+  releaseDate: &id018 2021-09-29 00:00:00
+  eol: 2023-09-29 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.0.0
   latest: v2.0.0
-  latestReleaseDate: '2021-09-29'
+  latestReleaseDate: *id018
 - releaseCycle: v1.12.1
-  releaseDate: '2021-09-08'
-  eol: '2023-09-08'
+  releaseDate: &id019 2021-09-08 00:00:00
+  eol: 2023-09-08 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.1
   latest: v1.12.1
-  latestReleaseDate: '2021-09-08'
+  latestReleaseDate: *id019
 - releaseCycle: v1.12.0
-  releaseDate: '2021-06-30'
-  eol: '2023-06-30'
+  releaseDate: &id020 2021-06-30 00:00:00
+  eol: 2023-06-30 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.0
   latest: v1.12.0
-  latestReleaseDate: '2021-06-30'
+  latestReleaseDate: *id020
 - releaseCycle: v1.11.3
-  releaseDate: '2021-05-25'
-  eol: '2023-05-25'
+  releaseDate: &id021 2021-05-25 00:00:00
+  eol: 2023-05-25 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.11.3
   latest: v1.11.3
-  latestReleaseDate: '2021-05-25'
+  latestReleaseDate: *id021
 - releaseCycle: v1.11.2
-  releaseDate: '2021-05-19'
-  eol: '2023-05-19'
+  releaseDate: &id022 2021-05-19 00:00:00
+  eol: 2023-05-19 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.11.2
   latest: v1.11.2
-  latestReleaseDate: '2021-05-19'
+  latestReleaseDate: *id022
 - releaseCycle: v1.11.1
-  releaseDate: '2021-04-08'
-  eol: '2023-04-08'
+  releaseDate: &id023 2021-04-08 00:00:00
+  eol: 2023-04-08 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.11.1
   latest: v1.11.1
-  latestReleaseDate: '2021-04-08'
+  latestReleaseDate: *id023
 - releaseCycle: v1.11.0
-  releaseDate: '2021-03-31'
-  eol: '2023-03-31'
+  releaseDate: &id024 2021-03-31 00:00:00
+  eol: 2023-03-31 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.11.0
   latest: v1.11.0
-  latestReleaseDate: '2021-03-31'
+  latestReleaseDate: *id024
 - releaseCycle: v1.10.1
-  releaseDate: '2021-03-16'
-  eol: '2023-03-16'
+  releaseDate: &id025 2021-03-16 00:00:00
+  eol: 2023-03-16 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.10.1
   latest: v1.10.1
-  latestReleaseDate: '2021-03-16'
+  latestReleaseDate: *id025
 - releaseCycle: v1.10.0
-  releaseDate: '2021-01-26'
-  eol: '2023-01-26'
+  releaseDate: &id026 2021-01-26 00:00:00
+  eol: 2023-01-26 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.10.0
   latest: v1.10.0
-  latestReleaseDate: '2021-01-26'
+  latestReleaseDate: *id026
 - releaseCycle: v1.9.1
-  releaseDate: '2020-11-23'
-  eol: '2022-11-23'
+  releaseDate: &id027 2020-11-23 00:00:00
+  eol: 2022-11-23 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.9.1
   latest: v1.9.1
-  latestReleaseDate: '2020-11-23'
+  latestReleaseDate: *id027
 - releaseCycle: v1.9.0
-  releaseDate: '2020-10-20'
-  eol: '2022-10-20'
+  releaseDate: &id028 2020-10-20 00:00:00
+  eol: 2022-10-20 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.9.0
   latest: v1.9.0
-  latestReleaseDate: '2020-10-20'
+  latestReleaseDate: *id028
 - releaseCycle: v1.8.1
-  releaseDate: '2020-08-18'
-  eol: '2022-08-18'
+  releaseDate: &id029 2020-08-18 00:00:00
+  eol: 2022-08-18 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.8.1
   latest: v1.8.1
-  latestReleaseDate: '2020-08-18'
+  latestReleaseDate: *id029
 - releaseCycle: v1.8.0
-  releaseDate: '2020-07-23'
-  eol: '2022-07-23'
+  releaseDate: &id030 2020-07-23 00:00:00
+  eol: 2022-07-23 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.8.0
   latest: v1.8.0
-  latestReleaseDate: '2020-07-23'
+  latestReleaseDate: *id030
 - releaseCycle: v1.7.2
-  releaseDate: '2020-06-30'
-  eol: '2022-06-30'
+  releaseDate: &id031 2020-06-30 00:00:00
+  eol: 2022-06-30 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.7.2
   latest: v1.7.2
-  latestReleaseDate: '2020-06-30'
+  latestReleaseDate: *id031
 - releaseCycle: v1.7.1
-  releaseDate: '2020-06-26'
-  eol: '2022-06-26'
+  releaseDate: &id032 2020-06-26 00:00:00
+  eol: 2022-06-26 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.7.1
   latest: v1.7.1
-  latestReleaseDate: '2020-06-26'
+  latestReleaseDate: *id032
 - releaseCycle: v1.7.0
-  releaseDate: '2020-04-30'
-  eol: '2022-04-30'
+  releaseDate: &id033 2020-04-30 00:00:00
+  eol: 2022-04-30 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.7.0
   latest: v1.7.0
-  latestReleaseDate: '2020-04-30'
+  latestReleaseDate: *id033
 - releaseCycle: v1.7.0-rc1
-  releaseDate: '2020-03-31'
-  eol: '2022-03-31'
+  releaseDate: &id034 2020-03-31 00:00:00
+  eol: 2022-03-31 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.7.0-rc1
   latest: v1.7.0-rc1
-  latestReleaseDate: '2020-03-31'
+  latestReleaseDate: *id034
 - releaseCycle: v1.6.3
-  releaseDate: '2020-03-06'
-  eol: '2022-03-06'
+  releaseDate: &id035 2020-03-06 00:00:00
+  eol: 2022-03-06 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.6.3
   latest: v1.6.3
-  latestReleaseDate: '2020-03-06'
+  latestReleaseDate: *id035
 - releaseCycle: v1.6.2
-  releaseDate: '2020-02-07'
-  eol: '2022-02-06'
+  releaseDate: &id036 2020-02-07 00:00:00
+  eol: 2022-02-06 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.6.2
   latest: v1.6.2
-  latestReleaseDate: '2020-02-07'
+  latestReleaseDate: *id036
 - releaseCycle: v1.6.1
-  releaseDate: '2020-01-14'
-  eol: '2022-01-13'
+  releaseDate: &id037 2020-01-14 00:00:00
+  eol: 2022-01-13 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.6.1
   latest: v1.6.1
-  latestReleaseDate: '2020-01-14'
+  latestReleaseDate: *id037
 - releaseCycle: v1.6.0
-  releaseDate: '2019-12-19'
-  eol: '2021-12-18'
+  releaseDate: &id038 2019-12-19 00:00:00
+  eol: 2021-12-18 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.6.0
   latest: v1.6.0
-  latestReleaseDate: '2019-12-19'
+  latestReleaseDate: *id038
 - releaseCycle: v1.5.8
-  releaseDate: '2019-11-26'
-  eol: '2021-11-25'
+  releaseDate: &id039 2019-11-26 00:00:00
+  eol: 2021-11-25 00:00:00
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.5.8
   latest: v1.5.8
-  latestReleaseDate: '2019-11-26'
+  latestReleaseDate: *id039
 ---
+
+
+
+
+
+
+
+
+
 
 
 
