@@ -61,16 +61,16 @@ releases:
     releaseDate: 2023-05-17
     eoas: 2024-01-31
     eol: 2024-11-17
-    latest: "4.13.52"
-    latestReleaseDate: 2024-10-16
+    latest: "4.13.53"
+    latestReleaseDate: 2024-11-06
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.67"
-    latestReleaseDate: 2024-10-09
+    latest: "4.12.68"
+    latestReleaseDate: 2024-11-07
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
