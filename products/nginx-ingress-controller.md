@@ -1,5 +1,5 @@
 ---
-title: Ingress NGINX Controller
+title: NGINX Ingress Controller
 category: server-app
 tags: go kubernetes
 iconSlug: nginx
@@ -387,6 +387,7 @@ releases:
   latest: v1.5.8
   latestReleaseDate: *id062
 ---
+
 
 > [F5 NGINX Ingress Controller](https://www.f5.com/products/nginx/nginx-ingress-controller) NGINX Ingress Controller works with both NGINX and NGINX Plus and supports the standard Ingress features - content-based routing and TLS/SSL termination.
 
