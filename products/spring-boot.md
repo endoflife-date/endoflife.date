@@ -27,6 +27,7 @@ identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-actuator
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-undertow
 -   purl: pkg:maven/org.springframework.boot/spring-boot-autoconfigure
+-   purl: pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-webflux
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-aop
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
