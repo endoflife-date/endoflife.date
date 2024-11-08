@@ -41,7 +41,7 @@ releases:
     pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-21
-    eol: 2024-11-01
+    eol: 2024-11-30
     latest: "9.12.0"
     latestReleaseDate: 2024-11-05
 
