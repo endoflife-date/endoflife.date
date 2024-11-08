@@ -32,7 +32,7 @@ releases:
     upgradeVersion: N/A
     eol: 2027-03-06
     latest: "1.4.0.0"
-    latestReleaseDate: 2024-10-06
+    latestReleaseDate: 2024-11-06
 
 -   releaseCycle: "1.3.4.0"
     releaseDate: 2024-10-01
