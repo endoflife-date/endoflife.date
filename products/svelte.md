@@ -5,10 +5,9 @@ tags: javascript-runtime
 iconSlug: svelte
 permalink: /svelte
 versionCommand: npm list svelte  
-eoasColumn: undefined
-eoesColumn: undefined
+eoasColumn: true
+eoesColumn: false
 releaseDateColumn: true
-releasePolicyLink: undefined
 changelogTemplate: https://github.com/sveltejs/svelte/releases/tag/v__LATEST__
 
 auto:
