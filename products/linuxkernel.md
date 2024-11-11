@@ -28,8 +28,8 @@ releases:
 -   releaseCycle: "6.11"
     releaseDate: 2024-09-15
     eol: 2025-01-15 # estimated releaseDate(x)+4 months
-    latest: "6.11.6"
-    latestReleaseDate: 2024-11-01
+    latest: "6.11.7"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "6.10"
     releaseDate: 2024-07-14
@@ -59,8 +59,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.59"
-    latestReleaseDate: 2024-11-01
+    latest: "6.6.60"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -90,8 +90,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.115"
-    latestReleaseDate: 2024-11-01
+    latest: "6.1.116"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -127,29 +127,29 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.170"
-    latestReleaseDate: 2024-11-01
+    latest: "5.15.171"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.228"
-    latestReleaseDate: 2024-10-22
+    latest: "5.10.229"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.284"
-    latestReleaseDate: 2024-09-12
+    latest: "5.4.285"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
     eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.19.322"
-    latestReleaseDate: 2024-09-12
+    latest: "4.19.323"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "4.14"
     lts: true
