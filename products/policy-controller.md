@@ -10,8 +10,8 @@ eolColumn: false
 identifiers:
   - purl: pkg:github/sigstore/policy-controller
   - purl: pkg:docker/chainguard/sigstore-policy-controller
-  - purl: pkg:oci/chainguard/sigstore-policy-controller-fips
-  - purl: pkg:oci/chainguard/sigstore-policy-controller
+  - purl: pkg:oci/chainguard/sigstore-policy-controller-fips?repository_url=cgr.dev/chainguard/sigstore-policy-controller-fips
+  - purl: pkg:oci/chainguard/sigstore-policy-controller?repository_url=cgr.dev/chainguard/sigstore-policy-controller
 
 auto:
   methods:
