@@ -9,7 +9,9 @@ eolColumn: false
 
 identifiers:
   - purl: pkg:github/sigstore/policy-controller
-  - repology: sigstore
+  - purl: pkg:docker/chainguard/sigstore-policy-controller
+  - purl: pkg:oci/chainguard/sigstore-policy-controller-fips
+  - purl: pkg:oci/chainguard/sigstore-policy-controller
 
 auto:
   methods:
@@ -62,4 +64,4 @@ releases:
 
 > [policy-controller](https://github.com/sigstore/policy-controller) The policy-controller admission controller can be used to enforce policy on a Kubernetes cluster based on verifiable supply-chain metadata from cosign.
 
-We are intending to move to a monthly cadence for minor releases. Minor releases will be published around the beginning of the month. We may cut a patch release instead, if the changes are small enough not to warrant a minor release. We will also cut patch releases periodically as needed to address bugs.
+The project is planning to move to a monthly cadence for minor releases. These will be published around the beginning of the month. A patch release might be made instead if the changes are small enough.
