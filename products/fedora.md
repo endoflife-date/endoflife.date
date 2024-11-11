@@ -23,19 +23,19 @@ identifiers:
 releases:
 -   releaseCycle: "41"
     releaseDate: 2024-10-29
-    eol: 2025-11-26
+    eol: 2025-11-19
     latest: "41"
     latestReleaseDate: 2024-10-29
 
 -   releaseCycle: "40"
     releaseDate: 2024-04-23
-    eol: 2025-05-13
+    eol: 2025-05-28
     latest: "40"
     latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "39"
     releaseDate: 2023-10-24
-    eol: 2024-11-12
+    eol: 2024-11-26
     latest: "39"
     latestReleaseDate: 2023-11-07
 

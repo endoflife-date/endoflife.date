@@ -72,7 +72,7 @@ VMware typically support ESXi for a duration of 7 years with 5 years of general 
 additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and
 security updates.
 
-[Broadcom Inc. acquired VMware Novemember 22, 2023](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware).
+[Broadcom Inc. acquired VMware November 22, 2023](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware).
 
 ## General Support
 

@@ -24,10 +24,19 @@ auto:
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
 # EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
 releases:
+-   releaseCycle: "2.18"
+    pythonVersionsControlNode: 3.11 - 3.13
+    pythonVersionsManagedNode: 3.8 - 3.13
+    powershellVersionsManagedNode: 5.1
+    releaseDate: 2024-11-04
+    eol: 2026-05-01
+    latest: "2.18.0"
+    latestReleaseDate: 2024-11-04
+
 -   releaseCycle: "2.17"
     pythonVersionsControlNode: 3.10 - 3.12
     pythonVersionsManagedNode: 3.7 - 3.12
-    powershellVersionsManagedNode: 3 - 5.1
+    powershellVersionsManagedNode: 5.1
     releaseDate: 2024-05-20
     eol: 2025-11-01
     latest: "2.17.6"

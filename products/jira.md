@@ -78,8 +78,8 @@ releases:
     releaseDate: 2023-11-29
     eol: 2025-11-29
     lts: true
-    latest: "9.12.14"
-    latestReleaseDate: 2024-10-02
+    latest: "9.12.15"
+    latestReleaseDate: 2024-11-06
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-12-x-release-notes-1319575972.html
 
 -   releaseCycle: "9.11"

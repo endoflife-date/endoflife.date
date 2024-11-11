@@ -28,8 +28,8 @@ releases:
 -   releaseCycle: "7.6"
     releaseDate: 2024-09-13
     eol: 2025-09-15
-    latest: '7.6.0'
-    latestReleaseDate: 2024-09-13
+    latest: '7.6.1'
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "7.5"
     releaseDate: 2024-03-18
