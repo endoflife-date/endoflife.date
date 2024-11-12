@@ -50,7 +50,7 @@ auto:
       header_selector: "tr:nth-of-type(2)" # for Support Calendar table
       rows_selector: "tr"
       fields:
-        releaseCycle: "Coretto Release" # Typo on the website
+        releaseCycle: "Corretto Release"
         releaseDate:
           column: "GA Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
