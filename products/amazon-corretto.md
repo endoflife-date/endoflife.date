@@ -50,7 +50,7 @@ auto:
       header_selector: "tr:nth-of-type(2)" # for Support Calendar table
       rows_selector: "tr"
       fields:
-        releaseCycle: "Coretto Release" # Typo on the website
+        releaseCycle: "Corretto Release"
         releaseDate:
           column: "GA Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
@@ -143,7 +143,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-03-15
-    eol: 2027-10-31
+    eol: 2032-01-31
     latest: "11.0.25.9.1"
     latestReleaseDate: 2024-10-16
 
@@ -151,7 +151,7 @@ releases:
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
-    eol: 2026-07-31
+    eol: 2030-12-31
     latest: "8.432.06.1"
     latestReleaseDate: 2024-10-16
 
