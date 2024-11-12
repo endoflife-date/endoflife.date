@@ -28,12 +28,13 @@ auto:
 # See also https://docs.centreon.com/docs/releases/lifecycle/
 # note: 24.10 will be an LTS release and should be treated differently
 releases:
--   releaseCycle: '24.10 LTS'
+-   releaseCycle: '24.10'
     releaseDate: 2024-10-31
+    lts: 2027-10-31
     eoas: 2025-10-31
     eol: 2027-10-31
-    latest: '24.10.0'
-    latestReleaseDate: 2024-10-31
+    latest: '24.10.1'
+    latestReleaseDate: 2024-11-07
     link: https://docs.centreon.com/docs/releases/centreon-os/
 
 -   releaseCycle: '24.04'
