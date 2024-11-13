@@ -86,7 +86,7 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
     # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-corretto-22-generally-available/
     releaseDate: 2024-03-19
-    eol: 2024-10-31
+    eol: 2024-10-15
     latest: "22.0.2.9.1"
     latestReleaseDate: 2024-07-16
 
