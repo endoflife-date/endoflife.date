@@ -32,7 +32,13 @@ releases:
 -   releaseCycle: "2"
     outOfOrder: true # to keep it at the top
     releaseLabel: "Regular"
-    releaseDate: 2016-04-20
+    releaseDate: 2024-11-12
+    eol: false
+    latest: "2.485"
+    latestReleaseDate: 2024-11-12
+
+-   releaseCycle: "2"
+    releaseDate: 2024-11-05
     eol: false
     latest: "2.484"
     latestReleaseDate: 2024-11-05
