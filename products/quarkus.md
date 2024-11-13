@@ -43,6 +43,7 @@ releases:
     lts: true
     releaseDate: 2024-09-25
     eol: 2025-09-25
+    eoes: false
     latest: "3.15.1"
     latestReleaseDate: 2024-09-26
 
