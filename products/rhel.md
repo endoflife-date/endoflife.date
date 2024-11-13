@@ -28,7 +28,7 @@ releases:
     eol: 2032-05-31
     lts: 2032-05-31
     eoes: 2035-05-31
-    latest: "9.4"
+    latest: "9.5"
     latestReleaseDate: 2024-04-30
 
 -   releaseCycle: "8"
