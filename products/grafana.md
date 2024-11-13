@@ -22,6 +22,7 @@ auto:
 # minors but only keep the previous major.
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+2)
+# eol dates on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
 -   releaseCycle: "11.3"
     releaseDate: 2024-10-22
@@ -33,35 +34,35 @@ releases:
 -   releaseCycle: "11.2"
     releaseDate: 2024-08-27
     eoas: 2024-10-22
-    eol: false
+    eol: 2025-05-31
     latest: "11.2.3"
     latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-06-21
     eoas: 2024-08-27
-    eol: 2024-10-22
+    eol: 2025-03-31
     latest: "11.1.8"
     latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eoas: 2024-06-21
-    eol: 2024-08-27
+    eol: 2025-02-28
     latest: "11.0.7"
     latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
-    eoas: false
-    eol: false
+    eoas: 2025-06-30
+    eol: 2025-06-30
     latest: "10.4.12"
     latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22
     eoas: 2024-03-06
-    eol: 2024-05-14
+    eol: 2024-10-31
     latest: "10.3.12"
     latestReleaseDate: 2024-10-22
 
