@@ -53,6 +53,12 @@ auto:
         eol: "End of support"
 
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2024-11-12
+    eol: 2026-05-12
+    latest: "9.0.0"
+    latestReleaseDate: 2024-11-12
+
 -   releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
