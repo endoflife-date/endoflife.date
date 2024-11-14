@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "2.25"
     releaseDate: 2024-11-11
     eol: false # releaseDate(2.26)
-    latest: "2.25.0"
-    latestReleaseDate: 2024-11-11
+    latest: "2.25.1"
+    latestReleaseDate: 2024-11-13
 
 -   releaseCycle: "2.24"
     releaseDate: 2024-08-01

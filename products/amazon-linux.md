@@ -30,7 +30,7 @@ releases:
     eoas: 2025-03-15
     eol: 2028-03-15
     latest: "2023.6.20241031.0"
-    latestReleaseDate: 2024-11-12
+    latestReleaseDate: 2024-11-13
     link: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-linux-2023/
 
 -   releaseCycle: '2'
