@@ -12,10 +12,13 @@ identifiers:
 -   purl: pkg:github/grafana/grafana
 -   purl: pkg:golang/github.com/grafana/grafana
 
+# See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
+# https://regex101.com/r/2GkIJ5/1
 auto:
   methods:
   -   github_releases: grafana/grafana
-      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
+      template: '{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}'
 
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
