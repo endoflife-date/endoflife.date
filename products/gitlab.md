@@ -39,22 +39,22 @@ releases:
     releaseDate: 2024-10-17
     eoas: 2024-11-21 # releaseDate(17.6)
     eol: 2025-01-16 # releaseDate(17.8)
-    latest: "17.5.1"
-    latestReleaseDate: 2024-10-22
+    latest: "17.5.2"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "17.4"
     releaseDate: 2024-09-19
     eoas: 2024-10-17
     eol: 2024-12-19
-    latest: "17.4.3"
-    latestReleaseDate: 2024-10-22
+    latest: "17.4.4"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "17.3"
     releaseDate: 2024-08-15
     eoas: 2024-09-19
     eol: 2024-11-21
-    latest: "17.3.6"
-    latestReleaseDate: 2024-10-22
+    latest: "17.3.7"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "17.2"
     releaseDate: 2024-07-18
