@@ -31,7 +31,7 @@ releases:
 -   releaseCycle: "17.11"
     codename: "2022"
     releaseDate: 2024-08-13
-    eol: 2024-11-12 # releaseDate(17.12)
+    eol: 2024-11-12
     latest: "17.11.6"
     latestReleaseDate: 2024-11-12
 
