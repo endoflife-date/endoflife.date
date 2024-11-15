@@ -45,10 +45,10 @@ releases:
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latest: "14.0.3480.1"
-    latestReleaseDate: 2024-10-08
+    latest: "14.0.3485.1"
+    latestReleaseDate: 2024-11-12
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
-    link: https://support.microsoft.com/help/5046061 # GDR for CU31
+    link: https://support.microsoft.com/help/5046858 # GDR for CU31
 
 -   releaseCycle: "13.0"
     codename: SQL16
