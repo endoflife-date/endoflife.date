@@ -56,10 +56,10 @@ releases:
     releaseDate: 2016-06-01
     eoas: 2021-07-13
     eol: 2026-07-14
-    latest: "13.0.6450.1"
-    latestReleaseDate: 2024-10-08
+    latest: "13.0.6455.2"
+    latestReleaseDate: 2024-11-12
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
-    link: https://support.microsoft.com/help/5046063 # GDR for SP3
+    link: https://support.microsoft.com/help/5046855 # GDR for SP3
 
 -   releaseCycle: "12.0"
     codename: Hekaton
