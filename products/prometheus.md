@@ -35,6 +35,12 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "3.0"
+    releaseDate: 2024-11-14
+    eol: 2024-12-26
+    latest: "3.0.0"
+    latestReleaseDate: 2024-11-14
+
 -   releaseCycle: "2.55"
     releaseDate: 2024-10-22
     eol: 2024-12-03
