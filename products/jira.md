@@ -42,8 +42,8 @@ releases:
 -   releaseCycle: "9.17"
     releaseDate: 2024-06-26
     eol: 2026-06-26
-    latest: "9.17.4"
-    latestReleaseDate: 2024-10-09
+    latest: "9.17.5"
+    latestReleaseDate: 2024-11-14
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-17-x-release-notes-1402418633.html
 
 -   releaseCycle: "9.16"
