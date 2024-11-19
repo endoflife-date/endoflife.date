@@ -18,6 +18,13 @@ auto:
   -   custom: php
 
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-11-21
+    eoas: 2026-12-31
+    eol: 2028-12-31
+    latest: "8.4.0"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
