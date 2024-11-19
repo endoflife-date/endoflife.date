@@ -78,6 +78,7 @@ releases:
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
 
 ---
+
 > [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/) is a managed service that
 > you can use to run Kubernetes on Azure without needing to install, operate, and maintain your own
 > Kubernetes control plane or nodes.
