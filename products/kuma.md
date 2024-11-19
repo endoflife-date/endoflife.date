@@ -19,20 +19,20 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2024-10-22
     eol: 2025-10-22
-    latest: "2.9.0"
-    latestReleaseDate: 2024-10-18
+    latest: "2.9.1"
+    latestReleaseDate: 2024-11-14
 
 -   releaseCycle: "2.8"
     releaseDate: 2024-06-24
     eol: 2025-06-24
-    latest: "2.8.4"
-    latestReleaseDate: 2024-10-07
+    latest: "2.8.5"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "2.7"
     releaseDate: 2024-04-19
     eol: 2026-04-19
-    latest: "2.7.8"
-    latestReleaseDate: 2024-10-07
+    latest: "2.7.9"
+    latestReleaseDate: 2024-11-12
     lts: true
 
 -   releaseCycle: "2.6"

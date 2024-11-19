@@ -63,7 +63,7 @@ releases:
 
 -   releaseCycle: "12"
     releaseDate: 2019-10-03
-    eol: 2024-11-14
+    eol: 2024-11-21
     latest: "12.21"
     latestReleaseDate: 2024-11-11
 
