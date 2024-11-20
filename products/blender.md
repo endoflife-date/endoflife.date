@@ -22,6 +22,13 @@ auto:
   -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "4.3"
+    releaseDate: 2024-11-19
+    eoas: false
+    eol: false
+    latest: "4.3.0"
+    latestReleaseDate: 2024-11-19
+
 -   releaseCycle: "4.2"
     lts: true
     releaseDate: 2024-07-16
