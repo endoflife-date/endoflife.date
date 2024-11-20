@@ -57,7 +57,7 @@ major release or 18 months after the GA date of the subsequent major release.
 Therefore:
 
 * **Elasticsearch 8** will receive updates until 18 months after the release date of 9.0 (TBD).
-* **Elasticsearch 7** will receive updates until the release date of 9.0 (TDB).
+* **Elasticsearch 7** will receive updates until the release date of 9.0 (TBD).
 
 End of life dates for Elasticsearch can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
