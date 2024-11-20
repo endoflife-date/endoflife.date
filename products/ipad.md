@@ -154,7 +154,7 @@ releases:
     releaseLabel: "iPad Mini 4"
     releaseDate: 2015-09-09
     discontinued: 2019-03-18
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP725
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15
 
@@ -170,7 +170,7 @@ releases:
     releaseLabel: "iPad Air 2"
     releaseDate: 2014-10-22
     discontinued: 2017-03-21
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP708
     supportedIpadOsVersions: 8, 9, 10, 11, 12, 13, 14, 15
 
