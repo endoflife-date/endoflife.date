@@ -22,6 +22,13 @@ auto:
 
 # Support and EOL dates can be found on https://www.suse.com/lifecycle#rancher
 releases:
+-   releaseCycle: "2.10"
+    releaseDate: 2024-11-18
+    eoas: false # to update once defined on https://www.suse.com/lifecycle#rancher
+    eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
+    latest: "2.10.0"
+    latestReleaseDate: 2024-11-18
+
 -   releaseCycle: "2.9"
     releaseDate: 2024-07-30
     eoas: false # to update once defined on https://www.suse.com/lifecycle#rancher
