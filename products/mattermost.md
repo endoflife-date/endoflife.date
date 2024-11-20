@@ -26,6 +26,12 @@ auto:
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.2"
+    releaseDate: 2024-11-15
+    eol: 2025-02-15
+    latest: '10.2.0'
+    latestReleaseDate: 2024-11-15
+
 -   releaseCycle: "10.1"
     releaseDate: 2024-10-16
     eol: 2025-01-15
