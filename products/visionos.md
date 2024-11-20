@@ -26,7 +26,7 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2024-01-31
-    eoas: false
+    eoas: 2024-09-16
     eol: false
     latest: "1.3"
     latestReleaseDate: 2024-07-29
