@@ -48,8 +48,8 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2024-09-11
     eol: false
-    latest: '8.0.1'
-    latestReleaseDate: 2024-10-03
+    latest: '8.0.3'
+    latestReleaseDate: 2024-11-19
 
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
