@@ -42,7 +42,7 @@ releases:
 -   releaseCycle: "19.5"
     releaseDate: 2022-06-31
     eol: 2024-06-31 
-    link: https://support.claris.com/s/answerview?anum=000035967&language=en_US
+    link: https://support.claris.com/s/answerview?anum=000035967
 
 -   releaseCycle: "19.4"
     releaseDate: 2021-12-01
