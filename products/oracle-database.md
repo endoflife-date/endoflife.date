@@ -45,8 +45,7 @@ releases:
     releaseDate: 2019-04-25
     lts: true
     eol: 2029-12-31
-    # The first year of extended support is free.
-    eoes: 2027-04-30
+    eoes: 2032-12-31
     link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
 -   releaseCycle: "18"
