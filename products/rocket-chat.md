@@ -28,12 +28,26 @@ auto:
 # eoas(x) = releaseDate(x)
 # eol(x) = releaseDate(x) + 6 months -> last day of month
 releases:
+-   releaseCycle: "7.0"
+    releaseDate: 2024-10-31
+    eoas: 2024-10-31
+    eol: 2025-04-30
+    latest: '7.0.0'
+    latestReleaseDate: 2024-10-31
+    
+-   releaseCycle: "6.13"
+    releaseDate: 2024-10-10
+    eoas: 2024-10-10
+    eol: 2025-04-30
+    latest: '6.13.0'
+    latestReleaseDate: 2024-10-10
+    
 -   releaseCycle: "6.12"
     releaseDate: 2024-09-05
     eoas: 2024-09-05
     eol: 2025-03-31
-    latest: '6.12.1'
-    latestReleaseDate: 2024-09-13
+    latest: '6.12.2'
+    latestReleaseDate: 2024-10-10
 
 -   releaseCycle: "6.11"
     releaseDate: 2024-08-09
@@ -46,8 +60,8 @@ releases:
     releaseDate: 2024-07-10
     eoas: 2024-07-10
     eol: 2025-01-31
-    latest: '6.10.6'
-    latestReleaseDate: 2024-09-13
+    latest: '6.10.7'
+    latestReleaseDate: 2024-11-11
 
 -   releaseCycle: "6.9"
     releaseDate: 2024-06-02
