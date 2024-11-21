@@ -18,7 +18,7 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2024-04-16
     eol: false
-    latest: '9.14.1'
+    latest: '9.14.2'
     latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "8"

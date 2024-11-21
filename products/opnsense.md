@@ -23,8 +23,8 @@ releases:
     codename: "Thriving Tiger"
     releaseDate: 2024-07-23
     eol: false
-    latest: "24.7.8"
-    latestReleaseDate: 2024-11-05
+    latest: "24.7.9"
+    latestReleaseDate: 2024-11-19
 
 -   releaseCycle: "24.1"
     codename: "Savvy Shark"
