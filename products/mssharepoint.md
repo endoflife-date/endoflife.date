@@ -24,7 +24,7 @@ releases:
     eoas: 2024-01-09
     eol: 2026-07-14
     latest: "16.0.10416.20000"
-    latestReleaseDate: 2024-11-012
+    latestReleaseDate: 2024-11-12
     link: https://support.microsoft.com/help/5002650
 
 -   releaseCycle: "2016"
