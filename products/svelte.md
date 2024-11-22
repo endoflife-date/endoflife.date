@@ -28,8 +28,8 @@ releases:
 
 -   releaseCycle: "5.1"
     releaseDate: 2024-10-23
-    eoas: false
-    eol: false
+    eoas: 2024-11-14
+    eol: 2024-11-14
     latest: "5.1.13"
     latestReleaseDate: 2024-11-08
 
