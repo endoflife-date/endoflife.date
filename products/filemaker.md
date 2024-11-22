@@ -34,9 +34,34 @@ releases:
     eol: 2025-04-30
     link: https://help.claris.com/en/server-release-notes/content/index.html
 
+-   releaseCycle: "19.6"
+    releaseDate: 2020-05-31
+    eol: 2022-05-31
+    link: https://support.claris.com/s/answerview?anum=000036046
+
+-   releaseCycle: "19.5"
+    releaseDate: 2020-05-31
+    eol: 2022-05-31
+    link: https://support.claris.com/s/answerview?anum=000036046
+
+-   releaseCycle: "19.4"
+    releaseDate: 2020-05-31
+    eol: 2022-05-31
+    link: https://support.claris.com/s/answerview?anum=000036046
+
+-   releaseCycle: "19.2"
+    releaseDate: 2021-03-01
+    eol: 2022-05-31
+    link: https://support.claris.com/s/answerview?anum=000036046
+
+-   releaseCycle: "19.1"
+    releaseDate: 2020-10-31
+    eol: 2022-10-31
+    link: https://support.claris.com/s/answerview?anum=000036046
+
 -   releaseCycle: "19"
     releaseDate: 2020-05-31
-    eol: 2022-05-31 # EOL(19.6)
+    eol: 2022-05-31
     link: https://support.claris.com/s/answerview?anum=000036046
 
 -   releaseCycle: "18"
