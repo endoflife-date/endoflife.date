@@ -472,7 +472,7 @@
           "title": "Latest release date",
           "description": "The date of the latest release.",
           "type": "string",
-          "format": "date-time"
+          "format": "date"
         }
       },
       "allOf": [
