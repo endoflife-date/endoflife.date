@@ -19,6 +19,13 @@ identifiers:
 -   purl: pkg:github/sveltejs/svelte
 
 releases:
+-   releaseCycle: "5.2"
+    releaseDate: 2024-11-14
+    eoas: false
+    eol: false
+    latest: "5.2.7"
+    latestReleaseDate: 2024-11-20
+
 -   releaseCycle: "5.1"
     releaseDate: 2024-10-23
     eoas: false
