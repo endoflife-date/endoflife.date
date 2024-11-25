@@ -4,7 +4,7 @@ category: framework
 tags: javascript-runtime
 iconSlug: svelte
 permalink: /svelte
-versionCommand: npm list svelte  
+versionCommand: npm list svelte
 eoasColumn: true
 eoesColumn: false
 releaseDateColumn: true
@@ -30,8 +30,8 @@ releases:
     releaseDate: 2024-10-23
     eoas: 2024-11-14
     eol: 2024-11-14
-    latest: "5.1.13"
-    latestReleaseDate: 2024-11-08
+    latest: "5.1.17"
+    latestReleaseDate: 2024-11-14
 
 -   releaseCycle: "5.0"
     releaseDate: 2024-10-19
