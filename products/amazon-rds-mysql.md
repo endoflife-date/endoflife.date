@@ -20,7 +20,15 @@ auto:
         eol: "RDS end of standard support date"
         eoes: "RDS end of Extended Support date"
 
+# eoes(x) = eol(x) + 3 years
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-11-21
+    eol: 2029-07-31
+    eoes: 3032-07-31
+    latest: "8.4.3"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-07-31
