@@ -49,7 +49,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?).*$'
+          regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?)$'
         eol: "End of support"
 
 releases:
