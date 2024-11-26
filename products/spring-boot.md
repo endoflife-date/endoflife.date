@@ -51,6 +51,14 @@ auto:
         eoes: "End Enterprise Support *"
 
 releases:
+-   releaseCycle: "3.4"
+    supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
+    releaseDate: 2024-11-21
+    eol: 2025-11-21
+    eoes: 2027-02-21
+    latest: "3.4.0"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "3.3"
     supportedJavaVersions: "17 - 22" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2024-05-23
