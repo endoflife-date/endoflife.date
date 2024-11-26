@@ -25,7 +25,7 @@ releases:
 -   releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eol: 2029-07-31
-    eoes: 3032-07-31
+    eoes: 2032-07-31
     latest: "8.4.3"
     latestReleaseDate: 2024-11-21
 
