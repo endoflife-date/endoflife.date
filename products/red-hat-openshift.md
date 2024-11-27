@@ -39,15 +39,15 @@ releases:
     eoas: 2025-01-01 # 4.17 GA + 3 months
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.23"
-    latestReleaseDate: 2024-11-20
+    latest: "4.16.24"
+    latestReleaseDate: 2024-11-26
 
 -   releaseCycle: "4.15"
     releaseDate: 2024-02-27
     eoas: 2024-09-27
     eol: 2025-08-27
-    latest: "4.15.38"
-    latestReleaseDate: 2024-11-13
+    latest: "4.15.39"
+    latestReleaseDate: 2024-11-26
 
 -   releaseCycle: "4.14"
     releaseDate: 2023-10-31
