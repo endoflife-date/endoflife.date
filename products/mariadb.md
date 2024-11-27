@@ -57,10 +57,10 @@ auto:
 # Extend/update regex in section above
 releases:
 -   releaseCycle: "11.6"
-    releaseDate: 2024-11-21
+    releaseDate: 2024-11-13
     eol: false
     latest: "11.6.2"
-    latestReleaseDate: 2024-11-21
+    latestReleaseDate: 2024-11-13
 
 -   releaseCycle: "11.5"
     releaseDate: 2024-08-14
