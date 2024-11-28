@@ -34,10 +34,10 @@ auto:
 releases:
 -   releaseCycle: "3.17"
     lts: false
-    releaseDate: 2024-11-28
+    releaseDate: 2024-11-27
     eol: false
     latest: "3.17.0"
-    latestReleaseDate: 2024-11-28
+    latestReleaseDate: 2024-11-27
 
 -   releaseCycle: "3.16"
     lts: false
