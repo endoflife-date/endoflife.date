@@ -138,6 +138,22 @@ releases:
     latest: 6.0.6003
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
 
+-   releaseCycle: "2003"
+    releaseDate: 2003-04-24
+    lts: true
+    eoas: 2007-04-10
+    eol: 2007-04-10
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+
+-   releaseCycle: "2003-SP1"
+    releaseDate: 2005-03-30
+    lts: false
+    eoas: 2009-04-14
+    eol: 2009-04-14
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+    
 -   releaseCycle: "2003-SP2"
     releaseDate: 2003-04-24
     lts: true
