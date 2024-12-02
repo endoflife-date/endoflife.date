@@ -33,7 +33,7 @@ releases:
     eol: 2025-07-31
     latest: "7.2.0"
     latestReleaseDate: 2024-11-29
-    
+
 -   releaseCycle: "7.1"
     releaseDate: 2024-05-31
     eoas: 2025-01-31
@@ -89,8 +89,8 @@ releases:
     releaseDate: 2021-11-29
     eoas: 2024-11-30
     eol: 2029-02-28
-    latest: "5.4.48"
-    latestReleaseDate: 2024-11-27
+    latest: "5.4.49"
+    latestReleaseDate: 2024-11-29
 
 -   releaseCycle: "5.3"
     releaseDate: 2021-05-31
