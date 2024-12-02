@@ -21,7 +21,7 @@ customColumns:
 releases:
 -   releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
-    releaseDate: 2018-09-10
+    releaseDate: 2024-09-10
     eoas: 2027-10-01
     eol: 2027-10-01
     discontinued: false
