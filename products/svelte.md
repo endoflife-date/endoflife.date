@@ -19,10 +19,24 @@ identifiers:
 -   purl: pkg:github/sveltejs/svelte
 
 releases:
--   releaseCycle: "5.2"
-    releaseDate: 2024-11-14
+-   releaseCycle: "5.4"
+    releaseDate: 2024-12-02
     eoas: false
     eol: false
+    latest: "5.4.0"
+    latestReleaseDate: 2024-12-02
+
+-   releaseCycle: "5.3"
+    releaseDate: 2024-12-01
+    eoas: 2024-12-02
+    eol: 2024-12-02
+    latest: "5.3.2"
+    latestReleaseDate: 2024-12-02
+
+-   releaseCycle: "5.2"
+    releaseDate: 2024-11-14
+    eoas: 2024-12-01
+    eol: 2024-12-01
     latest: "5.2.12"
     latestReleaseDate: 2024-11-30
 
