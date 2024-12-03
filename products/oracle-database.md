@@ -27,10 +27,10 @@ auto:
 
 releases:
 -   releaseCycle: "23"
-    releaseLabel: "23c"
+    releaseLabel: "23ai"
     releaseDate: 2023-09-19
     lts: true
-    eol: 2032-12-31
+    eol: 2031-12-31
     eoes: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
 
