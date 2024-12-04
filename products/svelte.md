@@ -104,7 +104,9 @@ releases:
 > [Svelte](https://svelte.dev/) a UI framework that uses a compiler to let you write
 > breathtakingly concise components that do minimal work in the browser, using languages you already
 > know — HTML, CSS and JavaScript.
+
 Svelte has not made any official announcement regarding the updates. Yet, it appears that each new
 major/minor deprecates the previous version since no new minor/patch is released for it afterwards.
 Minor and patch updates are made regularly.
+
 There is no known extended support.
