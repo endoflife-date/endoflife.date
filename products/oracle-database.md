@@ -128,6 +128,10 @@ releases:
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
 
+{: .info}
+> Because of the importance of the breakthrough AI technology in the latest 23 release, it was
+> renamed from `23c` to `23ai`.
+
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
 [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
 (such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these, release dates
