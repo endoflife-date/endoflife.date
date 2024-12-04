@@ -18,6 +18,11 @@ identifiers:
 -   cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+-   releaseCycle: "24.11"
+    codename: "Vicuña"
+    releaseDate: 2024-11-30
+    eol: 2025-06-31
+    
 -   releaseCycle: "24.05"
     codename: "Uakari"
     releaseDate: 2024-05-31
