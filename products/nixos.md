@@ -21,7 +21,7 @@ releases:
 -   releaseCycle: "24.11"
     codename: "Vicuña"
     releaseDate: 2024-11-30
-    eol: 2025-06-31
+    eol: 2025-06-30
     
 -   releaseCycle: "24.05"
     codename: "Uakari"
