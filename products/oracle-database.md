@@ -128,7 +128,7 @@ releases:
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
 
-{: .info}
+{: .note}
 > Because of the importance of the breakthrough AI technology in the latest 23 release, it was
 > renamed from `23c` to `23ai`.
 
