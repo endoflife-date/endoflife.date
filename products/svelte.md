@@ -19,61 +19,19 @@ identifiers:
 -   purl: pkg:github/sveltejs/svelte
 
 releases:
--   releaseCycle: "5.4"
-    releaseDate: 2024-12-02
+-   releaseCycle: "5"
+    releaseDate: 2024-10-19
     eoas: false
     eol: false
     latest: "5.4.0"
     latestReleaseDate: 2024-12-02
 
--   releaseCycle: "5.3"
-    releaseDate: 2024-12-01
-    eoas: 2024-12-02
-    eol: 2024-12-02
-    latest: "5.3.2"
-    latestReleaseDate: 2024-12-02
-
--   releaseCycle: "5.2"
-    releaseDate: 2024-11-14
-    eoas: 2024-12-01
-    eol: 2024-12-01
-    latest: "5.2.12"
-    latestReleaseDate: 2024-11-30
-
--   releaseCycle: "5.1"
-    releaseDate: 2024-10-23
-    eoas: 2024-11-14
-    eol: 2024-11-14
-    latest: "5.1.17"
-    latestReleaseDate: 2024-11-14
-
--   releaseCycle: "5.0"
-    releaseDate: 2024-10-19
-    eoas: 2024-10-23
-    eol: 2024-10-23
-    latest: "5.0.5"
-    latestReleaseDate: 2024-10-21
-
--   releaseCycle: "4.2"
-    releaseDate: 2023-08-11
+-   releaseCycle: "4"
+    releaseDate: 2023-06-22
     eoas: 2024-10-19
     eol: 2024-10-19
     latest: "4.2.19"
     latestReleaseDate: 2024-08-23
-
--   releaseCycle: "4.1"
-    releaseDate: 2023-07-19
-    eoas: 2023-08-11
-    eol: 2023-08-11
-    latest: "4.1.2"
-    latestReleaseDate: 2023-07-31
-
--   releaseCycle: "4.0"
-    releaseDate: 2023-06-22
-    eoas: 2023-07-19
-    eol: 2023-07-19
-    latest: "4.0.5"
-    latestReleaseDate: 2023-07-06
 
 -   releaseCycle: "3"
     releaseDate: 2019-04-21
@@ -105,8 +63,5 @@ releases:
 > breathtakingly concise components that do minimal work in the browser, using languages you already
 > know — HTML, CSS and JavaScript.
 
-Svelte has not made any official announcement regarding the updates. Yet, it appears that each new
-major/minor deprecates the previous version since no new minor/patch is released for it afterwards.
-Minor and patch updates are made regularly.
-
-There is no known extended support.
+The support and EOL policy is not clearly defined. Looking at past releases,
+it seems that only the latest release is actively maintained.
