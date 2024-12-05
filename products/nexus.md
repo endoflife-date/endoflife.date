@@ -50,7 +50,7 @@ releases:
     eol: 2026-06-03
     latest: "3.75.0-06"
     latestReleaseDate: 2024-12-03
-    
+
 -   releaseCycle: "3.74"
     releaseDate: 2024-11-05
     eoas: 2025-11-05
