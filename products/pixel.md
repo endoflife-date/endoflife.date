@@ -253,4 +253,8 @@ In October 2023, it was
 Pixel 8 and Pixel 8 Pro will guarantee both Android version updates and security updates for
 seven years, offering full support until October 2030.
 
+In December 2024, Google updated the information page for software updates to extend the support 
+period for all Pixel 6 and Pixel 7 phones, as well as the Pixel Fold, to five years of both software
+and security updates.
+
 The end date for guaranteed Android version updates is indicated in the 'Active Support' column.
