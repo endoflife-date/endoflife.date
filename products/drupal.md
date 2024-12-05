@@ -125,8 +125,8 @@ releases:
     eoas: 2015-11-19
     eol: 2025-01-05
     eoes: false
-    latest: "7.102"
-    latestReleaseDate: 2024-11-20
+    latest: "7.103"
+    latestReleaseDate: 2024-12-04
 
 ---
 
