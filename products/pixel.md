@@ -116,7 +116,7 @@ releases:
 -   releaseCycle: "7pro"
     releaseLabel: "Pixel 7 Pro"
     releaseDate: 2022-10-13
-    eoas: 2025-10-01 # at least
+    eoas: 2027-10-01 # at least
     eol: 2027-10-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7_Pro
@@ -125,7 +125,7 @@ releases:
 -   releaseCycle: "7"
     releaseLabel: "Pixel 7"
     releaseDate: 2022-10-13
-    eoas: 2025-10-01 # at least
+    eoas: 2027-10-01 # at least
     eol: 2027-10-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_7
@@ -134,7 +134,7 @@ releases:
 -   releaseCycle: "6a"
     releaseLabel: "Pixel 6a"
     releaseDate: 2022-07-28
-    eoas: 2025-07-01 # at least
+    eoas: 2027-07-01 # at least
     eol: 2027-07-01 # at least
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_6a
@@ -143,7 +143,7 @@ releases:
 -   releaseCycle: "6pro"
     releaseLabel: "Pixel 6 Pro"
     releaseDate: 2021-10-28
-    eoas: 2024-10-01 # at least
+    eoas: 2026-10-01 # at least
     eol: 2026-10-01 # at least
     discontinued: 2022-10-06
     link: https://en.wikipedia.org/wiki/Pixel_6_Pro
@@ -152,7 +152,7 @@ releases:
 -   releaseCycle: "6"
     releaseLabel: "Pixel 6"
     releaseDate: 2021-10-28
-    eoas: 2024-10-01 # at least
+    eoas: 2026-10-01 # at least
     eol: 2026-10-01 # at least
     discontinued: 2022-10-06
     link: https://en.wikipedia.org/wiki/Pixel_6
