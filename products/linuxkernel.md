@@ -26,8 +26,9 @@ identifiers:
 # non-LTS: releaseDate(x)+4 months
 releases:
 -   releaseCycle: "6.12"
+    lts: true
     releaseDate: 2024-11-17
-    eol: 2025-03-17 # estimated releaseDate(x)+4 months, this may be promoted to LTS  https://lore.kernel.org/lkml/CAHk-=wgtGkHshfvaAe_O2ntnFBH3EprNk1juieLmjcF2HBwBgQ@mail.gmail.com/
+    eol: 2026-12-31
     latest: "6.12.3"
     latestReleaseDate: 2024-12-06
 
