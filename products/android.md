@@ -161,8 +161,10 @@ releases:
 > open source software, designed primarily for touchscreen mobile devices such as smartphones and
 > tablets.
 
-Major versions of Android are released once a year now, prior to the launch of their Pixel phones.
-See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) as well.
+Major versions of Android that introduce behavior changes are released once a year in Q2.
+Since 2025, there are two Android releases a year.
+The other is a minor release in Q4 which brings new APIs and feature updates but does not contain any breaking changes.
+See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) for additional information about each release.
 
 A stripped-down version of the Android operating system designed for low-end and ultra-budget
 smartphones, [Android (Go edition)](https://www.android.com/versions/go-edition/), is also
