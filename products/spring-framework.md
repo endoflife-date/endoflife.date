@@ -1,7 +1,7 @@
 ---
 title: Spring Framework
 category: framework
-tags: java-runtime vmware
+tags: java-runtime vmware herodevs
 iconSlug: spring
 permalink: /spring-framework
 alternate_urls:
@@ -11,6 +11,7 @@ changelogTemplate: https://github.com/spring-projects/spring-framework/releases/
 releaseDateColumn: true
 eolColumn: OSS support
 eoesColumn: Commercial Support
+omitUnmaintainedReleasesButton: true
 
 auto:
   methods:
@@ -44,7 +45,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-16
     eol: 2025-08-31
-    eoes: 2026-12-31
+    eoes: 2028-12-31
     latest: "6.1.14"
     latestReleaseDate: 2024-10-17
 
@@ -53,7 +54,7 @@ releases:
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2022-11-16
     eol: 2024-08-31
-    eoes: 2025-12-31
+    eoes: 2027-12-31
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
@@ -62,7 +63,7 @@ releases:
     supportedJakartaEEVersions: "7 - 8"
     releaseDate: 2020-10-27
     eol: 2024-08-31
-    eoes: 2026-12-31
+    eoes: 2036-12-31
     lts: true
     latest: "5.3.39"
     latestReleaseDate: 2024-08-14
@@ -92,6 +93,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2017-09-28
     eol: 2020-12-31
+    eoes: 2020-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "5.0.20"
     latestReleaseDate: 2020-12-09
@@ -101,6 +103,7 @@ releases:
     supportedJakartaEEVersions: "N/A"
     releaseDate: 2016-06-10
     eol: 2020-12-31
+    eoes: 2036-12-31
     link: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__.RELEASE
     latest: "4.3.30"
     latestReleaseDate: 2020-12-09
@@ -120,12 +123,44 @@ releases:
 > programming and configuration model for modern Java-based enterprise applications - on any kind of
 > deployment platform.
 
-See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
-for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
+See [Spring Framework Milestones page](https://github.com/spring-projects/spring-framework/milestones)
+for upcoming releases and [Spring Framework Support page](https://spring.io/projects/spring-framework#support)
 for more details about support roadmap.
 
-Extended support is available
-[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+Commercial support is available from
+[VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support) and [HeroDevs NES](https://www.herodevs.com/support/spring-nes).
+
+<table class="lifecycle">
+    <thead>
+        <tr>
+            <th style="width: 100pt;">Version</th>
+            <th style="width: 220pt;">VMWare</th>
+            <th style="width: 220pt;">HeroDevs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>6.1</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2028</a></td>
+        </tr>
+        <tr>
+            <td>6.0</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2027</a></td>
+        </tr>
+        <tr>
+            <td>5.3</td>
+            <td class="bg-green-000"><a href="https://blogs.vmware.com/tanzu">Ends on 31 Dec 2026</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2036</a></td>
+        </tr>
+        <tr>
+            <td>4.3</td>
+            <td class="bg-red-000"><a href="https://blogs.vmware.com/tanzu">Ended 31 Dec 2022</a></td>
+            <td class="bg-green-000"><a href="https://www.herodevs.com/support/spring-nes">Ends on 31 Dec 2036</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 

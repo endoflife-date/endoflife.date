@@ -152,8 +152,8 @@ layout: default
   </tr>
 {% endfor %}
 {% assign can_be_hidden_releases_count = page.releases | where: 'can_be_hidden', true | size %}
-{% if can_be_hidden_releases_count > 0 %}
-  <tr id="show-more-row" class="d-none">
+{% if can_be_hidden_releases_count > 0 and page.omitUnmaintainedReleasesButton != true %}
+<tr id="show-more-row" class="d-none">
     <td colspan="{{ colCount }}" class="text-center">
       <button id="show-hidden-releases-button" class="btn">
         Show more unmaintained releases
