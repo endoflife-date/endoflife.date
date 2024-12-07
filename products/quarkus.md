@@ -31,6 +31,7 @@ auto:
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
+# - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
 -   releaseCycle: "3.17"
     lts: false
