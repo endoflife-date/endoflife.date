@@ -47,7 +47,7 @@ auto:
           column: "Branch"
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
-        eol: "End of Support"
+        eol: "End of OSS Support"
         eoes: "End Enterprise Support *"
 
 releases:
