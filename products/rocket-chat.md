@@ -12,21 +12,15 @@ releaseDateColumn: true
 eoasColumn: true
 eolColumn: Support
 
+# https://docs.rocket.chat/docs/version-durability is hosted behind Cloudflare:
+# attempts to scrape EOL dates from it fails due to Cloudflare's anti-bot measures.
 auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
-  -   release_table: https://docs.rocket.chat/docs/version-durability
-      selector: "table"
-      header_selector: "tbody tr:nth-of-type(1)"
-      fields:
-        releaseCycle:
-          column: "Rocket.Chat Release"
-          regex: '^(?P<value>\d+\.\d+).*$'
-        eol: "End of Life"
 
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
-# eol(x) = releaseDate(x) + 6 months -> last day of month
+# eol(x) can be found on https://docs.rocket.chat/docs/version-durability
 releases:
 -   releaseCycle: "7.0"
     releaseDate: 2024-10-31
@@ -34,14 +28,14 @@ releases:
     eol: 2025-04-30
     latest: '7.0.0'
     latestReleaseDate: 2024-10-31
-    
+
 -   releaseCycle: "6.13"
     releaseDate: 2024-10-10
     eoas: 2024-10-10
     eol: 2025-04-30
     latest: '6.13.0'
     latestReleaseDate: 2024-10-10
-    
+
 -   releaseCycle: "6.12"
     releaseDate: 2024-09-05
     eoas: 2024-09-05
