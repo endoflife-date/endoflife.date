@@ -10,6 +10,9 @@ changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   purl: pkg:npm/pnpm
+
 auto:
   methods:
   -   npm: pnpm
