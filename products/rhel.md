@@ -29,7 +29,7 @@ releases:
     lts: 2032-05-31
     eoes: 2035-05-31
     latest: "9.5"
-    latestReleaseDate: 2024-04-30
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "8"
     releaseDate: 2019-05-07
