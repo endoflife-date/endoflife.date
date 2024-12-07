@@ -27,6 +27,13 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+-   releaseCycle: "1.4.1.0"
+    releaseDate: 2024-11-21
+    upgradeVersion: N/A
+    eol: 2027-03-06
+    latest: "1.4.1.0"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "1.4.0.0"
     releaseDate: 2024-11-06
     upgradeVersion: N/A
@@ -128,7 +135,7 @@ releases:
 -   releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
-    eol: 2026-03-06
+    eol: 2024-12-31
     latest: "1.1.0.0.R2"
     latestReleaseDate: 2022-05-16
 

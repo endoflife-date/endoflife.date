@@ -162,9 +162,9 @@ releases:
     eoas: 2024-12-18
     eol: 2024-12-18
     eoes: 2029-12-18
-    latest: "1912 CU9"
-    latestReleaseDate: 2024-04-30
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-9.html
+    latest: "1912 CU10"
+    latestReleaseDate: 2024-11-25
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-10.html
 
 -   releaseCycle: "7.15"
     releaseLabel: XenDesktop __RELEASE_CYCLE__

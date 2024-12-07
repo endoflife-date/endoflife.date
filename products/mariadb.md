@@ -45,7 +45,7 @@ auto:
       -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-5])\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-6])\.(?P<patch>([2-9]|\d{2}))$
   -   release_table: https://mariadb.org/about/#maintenance-policy
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
@@ -54,10 +54,17 @@ auto:
         releaseDate: "Stable (GA) Date"
         eol: "End-of-life"
 
+# Extend/update regex in section above
 releases:
+-   releaseCycle: "11.6"
+    releaseDate: 2024-11-13
+    eol: false
+    latest: "11.6.2"
+    latestReleaseDate: 2024-11-13
+
 -   releaseCycle: "11.5"
     releaseDate: 2024-08-14
-    eol: false
+    eol: 2024-11-21
     latest: "11.5.2"
     latestReleaseDate: 2024-08-14
 

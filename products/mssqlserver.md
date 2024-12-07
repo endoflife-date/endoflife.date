@@ -20,24 +20,24 @@ identifiers:
 releases:
 -   releaseCycle: "16.0"
     codename: Dallas
-    releaseLabel: "2022 CU15+GDR"
+    releaseLabel: "2022 CU16"
     releaseDate: 2022-11-16
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "16.0.4150.1"
-    latestReleaseDate: 2024-10-08
-    # CU15 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate15
-    link: https://support.microsoft.com/help/5046059 # GDR for CU15
-    
+    latest: "16.0.4165.4"
+    latestReleaseDate: 2024-11-14
+    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate16
+
 -   releaseCycle: "15.0"
     codename: Seattle
-    releaseLabel: "2019 CU29"
+    releaseLabel: "2019 CU29+GDR"
     releaseDate: 2019-11-04
     eoas: 2025-01-07
     eol: 2030-01-08
-    latest: "15.0.4405.4"
-    latestReleaseDate: 2024-10-31
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate29
+    latest: "15.0.4410.1"
+    latestReleaseDate: 2024-11-12
+    # CU29 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate29
+    link: https://support.microsoft.com/help/5046860 # GDR for CU29
 
 -   releaseCycle: "14.0"
     codename: Helsinki
@@ -45,10 +45,10 @@ releases:
     releaseDate: 2017-09-29
     eoas: 2022-10-11
     eol: 2027-10-12
-    latest: "14.0.3480.1"
-    latestReleaseDate: 2024-10-08
+    latest: "14.0.3485.1"
+    latestReleaseDate: 2024-11-12
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
-    link: https://support.microsoft.com/help/5046061 # GDR for CU31
+    link: https://support.microsoft.com/help/5046858 # GDR for CU31
 
 -   releaseCycle: "13.0"
     codename: SQL16
@@ -56,10 +56,10 @@ releases:
     releaseDate: 2016-06-01
     eoas: 2021-07-13
     eol: 2026-07-14
-    latest: "13.0.6450.1"
-    latestReleaseDate: 2024-10-08
+    latest: "13.0.6455.2"
+    latestReleaseDate: 2024-11-12
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
-    link: https://support.microsoft.com/help/5046063 # GDR for SP3
+    link: https://support.microsoft.com/help/5046855 # GDR for SP3
 
 -   releaseCycle: "12.0"
     codename: Hekaton

@@ -5,7 +5,8 @@ iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
-changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
+changelogTemplate: |
+  https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
 releaseDateColumn: true
 
 identifiers:
@@ -58,8 +59,8 @@ releases:
 -   releaseCycle: "25.0"
     releaseDate: 2024-01-19
     eol: false
-    latest: "25.0.6"
-    latestReleaseDate: 2024-07-25
+    latest: "25.0.7"
+    latestReleaseDate: 2024-12-05
 
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
@@ -70,8 +71,8 @@ releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
     eol: 2025-05-19
-    latest: "23.0.15"
-    latestReleaseDate: 2024-10-07
+    latest: "23.0.16"
+    latestReleaseDate: 2024-12-05
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"
