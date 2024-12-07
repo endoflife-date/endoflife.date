@@ -12,7 +12,7 @@ eoesColumn: Extended Long Term Support
 
 auto:
   methods:
-    - git: https://github.com/nvm-sh/nvm.git
+  -   git: https://github.com/nvm-sh/nvm.git
       regex: ^v(?P<version>\d+\.\d+\.\d+)$
       template: "{{version}}"
 
@@ -64,7 +64,7 @@ releases:
     eol: 2019-10-02
     eoes: false
     latest: "0.34.0"
-    latestReleaseDate: 2019-01-07
+    latestReleaseDate: 2019-01-08
 
 -   releaseCycle: "0.33"
     releaseDate: 2016-12-29
@@ -79,7 +79,6 @@ releases:
     eoes: false
     latest: "0.32.1"
     latestReleaseDate: 2016-10-18
-
 
 ---
 
