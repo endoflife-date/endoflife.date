@@ -24,13 +24,19 @@ auto:
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
 # minors but only keep the previous major.
 # - eoas(x) = releaseDate(x+1)
-# - eol(x) = releaseDate(x+2)
-# eol dates on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
+# - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
--   releaseCycle: "11.3"
-    releaseDate: 2024-10-22
+-   releaseCycle: "11.4"
+    releaseDate: 2024-12-05
     eoas: false
     eol: false
+    latest: "11.4.0"
+    latestReleaseDate: 2024-12-05
+
+-   releaseCycle: "11.3"
+    releaseDate: 2024-10-22
+    eoas: 2024-12-05
+    eol: 2025-07-31
     latest: "11.3.2"
     latestReleaseDate: 2024-12-04
 
