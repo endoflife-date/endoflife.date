@@ -31,33 +31,40 @@ auto:
 
 # For EOL see https://alpinelinux.org/releases/, estimation eol(x) = releaseDate(x) + 2 years
 releases:
+-   releaseCycle: "3.21"
+    releaseDate: 2024-12-05
+    eol: 2026-11-01
+    latest: "3.21.0"
+    latestReleaseDate: 2024-12-05
+    link: https://alpinelinux.org/posts/Alpine-3.21.0-released.html
+
 -   releaseCycle: "3.20"
     releaseDate: 2024-05-22
     eol: 2026-04-01
     latest: "3.20.3"
     latestReleaseDate: 2024-09-06
-    link: https://alpinelinux.org/posts/Alpine-3.20.0-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.19"
     releaseDate: 2023-12-07
     eol: 2025-11-01
     latest: "3.19.4"
     latestReleaseDate: 2024-09-06
-    link: https://alpinelinux.org/posts/Alpine-3.19.1-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.18"
     releaseDate: 2023-05-09
     eol: 2025-05-09
     latest: "3.18.9"
     latestReleaseDate: 2024-09-06
-    link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.17"
     releaseDate: 2022-11-22
     eol: 2024-11-22
     latest: "3.17.10"
     latestReleaseDate: 2024-09-06
-    link: https://alpinelinux.org/posts/Alpine-3.16.9-3.17.7-3.18.6-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.16"
     eol: 2024-05-23
@@ -69,7 +76,7 @@ releases:
 -   releaseCycle: "3.15"
     eol: 2023-11-01
     latest: "3.15.11"
-    link: https://alpinelinux.org/posts/Alpine-3.15.10-3.16.7-3.17.5-3.18.3-released.html
+    link: https://alpinelinux.org/posts/Alpine-3.15.11-3.16.8-3.17.6-3.18.5-released.html
     latestReleaseDate: 2023-11-30
     releaseDate: 2021-11-24
 
