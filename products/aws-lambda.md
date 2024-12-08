@@ -17,6 +17,20 @@ auto:
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
 # The release dates must be retrieved from announcements blog post on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
+-   releaseCycle: "nodejs22.x"
+    releaseLabel: Node.js 22
+    releaseDate: 2024-11-22
+    eoas: false
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-nodejs-22/
+
+-   releaseCycle: "python3.13"
+    releaseLabel: Python 3.13
+    releaseDate: 2024-11-14
+    eoas: false
+    eol: false
+    link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-python-313/
+
 -   releaseCycle: "ruby3.3"
     releaseLabel: Ruby 3.3
     releaseDate: 2024-04-04
