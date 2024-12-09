@@ -19,8 +19,8 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2024-10-22
     eol: 2025-10-22
-    latest: "2.9.1"
-    latestReleaseDate: 2024-11-14
+    latest: "2.9.2"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "2.8"
     releaseDate: 2024-06-24
@@ -30,9 +30,9 @@ releases:
 
 -   releaseCycle: "2.7"
     releaseDate: 2024-04-19
-    eol: 2026-04-19
-    latest: "2.7.9"
-    latestReleaseDate: 2024-11-12
+    eol: 2025-04-19
+    latest: "2.7.10"
+    latestReleaseDate: 2024-11-28
     lts: true
 
 -   releaseCycle: "2.6"
@@ -66,38 +66,38 @@ releases:
     latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "2.1"
-    releaseDate: 2023-01-30
+    releaseDate: 2023-02-01
     eol: 2024-02-01
     latest: "2.1.7"
     latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "2.0"
-    releaseDate: 2022-11-04
-    eol: 2023-11-04
+    releaseDate: 2023-01-13
+    eol: 2024-01-13
     latest: "2.0.8"
     latestReleaseDate: 2023-10-11
 
 -   releaseCycle: "1.8"
-    releaseDate: 2022-08-22
-    eol: 2023-08-24
+    releaseDate: 2023-02-16
+    eol: 2024-02-16
     latest: "1.8.8"
     latestReleaseDate: 2023-07-27
 
 -   releaseCycle: "1.7"
-    releaseDate: 2022-06-13
-    eol: 2023-06-16
+    releaseDate: 2023-02-16
+    eol: 2024-02-16
     latest: "1.7.6"
     latestReleaseDate: 2023-04-06
 
 -   releaseCycle: "1.6"
-    releaseDate: 2022-04-11
-    eol: 2023-04-12
+    releaseDate: 2023-01-13
+    eol: 2024-01-13
     latest: "1.6.5"
     latestReleaseDate: 2023-02-14
 
 -   releaseCycle: "1.5"
-    releaseDate: 2022-02-24
-    eol: 2023-02-24
+    releaseDate: 2023-01-13
+    eol: 2024-01-13
     latest: "1.5.5"
     latestReleaseDate: 2023-02-13
 
