@@ -33,6 +33,13 @@ auto:
 # - eoas(x) = release(x) + 6 months
 # - eol(x) = release(x) + 7 months
 releases:
+-   releaseCycle: "7.2"
+    releaseDate: 2024-12-10
+    eoas: 2025-06-30
+    eol: 2025-12-31
+    latest: "7.2.0"
+    latestReleaseDate: 2024-12-10
+
 -   releaseCycle: "7.0"
     lts: true
     releaseDate: 2024-06-04
