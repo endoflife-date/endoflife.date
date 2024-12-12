@@ -38,7 +38,7 @@ releases:
     lts: true
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
-    eol: false
+    eol: 2027-12-31
     latest: "8.0.0"
     latestReleaseDate: 2024-12-09
 
