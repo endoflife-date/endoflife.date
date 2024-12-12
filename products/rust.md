@@ -97,9 +97,15 @@ releases:
     latest: "1.71.1"
     latestReleaseDate: 2023-08-03
 
+-   releaseCycle: "1.70"
+    releaseDate: 2023-06-01
+    eol: 2023-07-14
+    latest: "1.70.0"
+    latestReleaseDate: 2023-06-01
+
 -   releaseCycle: "1.69"
     releaseDate: 2023-04-20
-    eol: 2023-07-14
+    eol: 2023-06-02
     latest: "1.69.0"
     latestReleaseDate: 2023-04-20
 
