@@ -40,7 +40,7 @@ identifiers:
 # Support PHP version can be found on https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 releases:
 -   releaseCycle: "6.7"
-    supportedPHPVersions: "7.2 - 8.3"
+    supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2024-11-12
     eol: false
     latest: "6.7.1"
