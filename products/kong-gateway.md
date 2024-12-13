@@ -30,7 +30,6 @@ identifiers:
 # - eoes(x) = releaseDate(x) + 3 years
 releases:
 
-
 -   releaseCycle: "3.9"
     releaseDate: 2024-12-12
     eol: false
@@ -40,7 +39,7 @@ releases:
 
 -   releaseCycle: "3.8"
     releaseDate: 2024-09-09
-    eol: false
+    eol: 2024-12-12
     eoes: 2025-09-09
     latest: "3.8.1"
     latestReleaseDate: 2024-11-18
