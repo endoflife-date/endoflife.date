@@ -135,7 +135,7 @@ releases:
 -   releaseCycle: "1.1.0.0"
     releaseDate: 2021-11-19
     upgradeVersion: "1.1.1.0"
-    eol: 2024-12-31
+    eol: 2025-03-15
     latest: "1.1.0.0.R2"
     latestReleaseDate: 2022-05-16
 
