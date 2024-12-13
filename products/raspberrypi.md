@@ -14,6 +14,13 @@ releaseColumn: false
 releaseDateColumn: true
 
 releases:
+-   releaseCycle: "5-500"
+    releaseLabel: "500"
+    # https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/
+    releaseDate: 2024-12-09
+    discontinued: 2034-01-01
+    link: https://www.raspberrypi.com/products/raspberry-pi-500/
+
 -   releaseCycle: "CM5"
     releaseLabel: Compute Module 5
     # https://www.raspberrypi.com/news/compute-module-5-on-sale-now/
