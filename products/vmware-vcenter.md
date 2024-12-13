@@ -22,7 +22,7 @@ releases:
 
 -   releaseCycle: "7.0"
     releaseDate: 2020-04-02
-    eol: 2025-04-02
+    eol: 2025-10-02
     technicalGuidance: 2027-04-02
     latest: "7.0 U3t"
     latestReleaseDate: 2024-10-21

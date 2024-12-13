@@ -19,28 +19,28 @@ releases:
     eoas: 2021-12-31
     eol: 2021-12-31
     latest: "8 (2111)"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS8(2e)2111.html
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-07
     eoas: 2020-08-06
     eol: 2024-06-30
     latest: "7 (2009)"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS7(2e)2009.html
 
 -   releaseCycle: "6"
     releaseDate: 2011-07-10
     eoas: 2017-05-10
     eol: 2020-11-30
     latest: "6.10"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS6(2e)10.html
 
 -   releaseCycle: "5"
     releaseDate: 2007-04-12
     eoas: 2014-01-31
     eol: 2017-03-31
     latest: "5.11"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS5.11
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS5(2e)11.html
 
 ---
 

@@ -31,13 +31,21 @@ auto:
         eol: "LTS ends"
 
 releases:
+-   releaseCycle: "19"
+    releaseDate: 2024-11-19
+    eoas: 2025-05-19
+    eol: 2026-05-19
+    eoes: false
+    latest: "19.0.3"
+    latestReleaseDate: 2024-12-04
+
 -   releaseCycle: "18"
     releaseDate: 2024-05-22
-    eoas: 2024-11-15
-    eol: 2025-11-15
+    eoas: 2024-11-19
+    eol: 2025-11-19
     eoes: false
-    latest: "18.2.10"
-    latestReleaseDate: 2024-10-30
+    latest: "18.2.13"
+    latestReleaseDate: 2024-11-26
 
 -   releaseCycle: "17"
     releaseDate: 2023-11-08

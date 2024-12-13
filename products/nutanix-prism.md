@@ -19,10 +19,17 @@ auto:
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
--   releaseCycle: "pc.2024.2"
-    releaseDate: 2024-09-17
+-   releaseCycle: "pc.2024.3"
+    releaseDate: 2024-12-05
     eoas: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
     eol: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
+    latest: "pc.2024.3"
+    latestReleaseDate: 2024-12-05
+
+-   releaseCycle: "pc.2024.2"
+    releaseDate: 2024-09-17
+    eoas: 2026-03-31
+    eol: 2026-12-31
     latest: "pc.2024.2.0.1"
     latestReleaseDate: 2024-09-17
 
@@ -37,8 +44,8 @@ releases:
     releaseDate: 2023-08-28
     eoas: 2024-07-31
     eol: 2024-10-31
-    latest: "pc.2023.4.0.4"
-    latestReleaseDate: 2024-09-30
+    latest: "pc.2023.4.0.5"
+    latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "pc.2023.3"
     releaseDate: 2023-08-28

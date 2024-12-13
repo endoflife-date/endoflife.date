@@ -31,8 +31,8 @@ releases:
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2023-10-12
     eol: false # releaseDate(2.3)
-    latest: "2.2.6"
-    latestReleaseDate: 2024-09-04
+    latest: "2.2.7"
+    latestReleaseDate: 2024-12-11
 
 -   releaseCycle: "2.1"
     lts: true
@@ -40,8 +40,8 @@ releases:
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
-    latest: "2.1.15"
-    latestReleaseDate: 2024-02-26
+    latest: "2.1.16"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "2.0"
     supportedLinux: "3.10 - 5.15"

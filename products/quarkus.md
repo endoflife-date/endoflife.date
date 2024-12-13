@@ -31,20 +31,29 @@ auto:
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
+# - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
+-   releaseCycle: "3.17"
+    lts: false
+    releaseDate: 2024-11-27
+    eol: false
+    latest: "3.17.4"
+    latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "3.16"
     lts: false
     releaseDate: 2024-10-30
-    eol: false
-    latest: "3.16.1"
-    latestReleaseDate: 2024-10-30
+    eol: 2024-11-28
+    latest: "3.16.4"
+    latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "3.15"
     lts: true
     releaseDate: 2024-09-25
     eol: 2025-09-25
-    latest: "3.15.1"
-    latestReleaseDate: 2024-09-26
+    eoes: false
+    latest: "3.15.2"
+    latestReleaseDate: 2024-11-18
 
 -   releaseCycle: "3.14"
     releaseDate: 2024-08-28

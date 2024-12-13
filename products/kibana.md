@@ -21,14 +21,14 @@ auto:
 releases:
 -   releaseCycle: "8"
     eol: false # later of 2024-08-10 or 18 months after the release date of 9.0
-    latest: "8.15.3"
-    latestReleaseDate: 2024-10-08
+    latest: "8.16.1"
+    latestReleaseDate: 2024-11-18
     releaseDate: 2022-02-10
 
 -   releaseCycle: "7"
     eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.25"
-    latestReleaseDate: 2024-10-16
+    latest: "7.17.26"
+    latestReleaseDate: 2024-11-19
     releaseDate: 2019-04-10
 
 -   releaseCycle: "6"
@@ -48,7 +48,7 @@ other products in the Elastic Stack (Elasticsearch, Logstash, Beats...).
 
 Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
 maintenance for each major release series for the longest of 30 months after the GA date of the
-major release or 6 months after the GA date of the subsequent major release.
+major release or 18 months after the GA date of the subsequent major release.
 
 End of life dates for Kibana can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).

@@ -35,7 +35,7 @@ releases:
     releaseDate: 2024-03-11
     eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
     eol: 2029-03-11 # "five years of security updates"
-    link: https://doc.samsungmobile.com/SM-A356U/TMB/doc.html
+    link: https://doc.samsungmobile.com/SM-A356E/NPB/doc.html
 
 -   releaseCycle: "Galaxy S24 Ultra"
     releaseDate: 2024-01-24
@@ -54,6 +54,24 @@ releases:
     eoas: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
+
+-   releaseCycle: "Galaxy A25 5G"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A256E/CHT/doc.html
+
+-   releaseCycle: "Galaxy A15 5G"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A156B/EUX/doc.html
+
+-   releaseCycle: "Galaxy A15"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
 
 -   releaseCycle: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-16
@@ -545,7 +563,7 @@ releases:
     releaseDate: 2021-03-12
     eoas: false
     eol: false
-    link: https://doc.samsungmobile.com/SM-G525N/KOO/doc.html
+    link: https://doc.samsungmobile.com/SM-G525F/XNZ/doc.html
 
 -   releaseCycle: "Galaxy M62"
     releaseDate: 2021-03-03
