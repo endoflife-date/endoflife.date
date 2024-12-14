@@ -25,26 +25,33 @@ auto:
   -   custom: redhat-satellite
 
 releases:
+-   releaseCycle: "6.16"
+    releaseDate: 2024-11-05
+    eoas: 2025-05-31
+    eol: 2026-05-31
+    latest: "6.16.0.1"
+    latestReleaseDate: 2024-11-19
+
 -   releaseCycle: "6.15"
     releaseDate: 2024-04-23
     eoas: 2024-11-30 # estimated
     eol: 2025-11-30 # estimated
-    latest: "6.15.1.1"
-    latestReleaseDate: 2024-06-20
+    latest: "6.15.5"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "6.14"
     releaseDate: 2023-11-08
     eoas: 2024-05-31
     eol: 2025-05-31
-    latest: "6.14.4"
-    latestReleaseDate: 2024-04-29
+    latest: "6.14.4.3"
+    latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "6.13"
     releaseDate: 2023-05-03
     eoas: 2023-11-30
     eol: 2024-11-30
-    latest: "6.13.7"
-    latestReleaseDate: 2024-02-29
+    latest: "6.13.7.3"
+    latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "6.12"
     releaseDate: 2022-11-16
@@ -57,8 +64,8 @@ releases:
     releaseDate: 2022-07-05
     eoas: 2022-11-30
     eol: 2024-01-31
-    latest: "6.11.5.6"
-    latestReleaseDate: 2023-10-20
+    latest: "6.11.5.7"
+    latestReleaseDate: 2024-05-06
 
 -   releaseCycle: "6.10"
     releaseDate: 2021-11-16

@@ -14,6 +14,13 @@ identifiers:
 -   cpe: cpe:2.3:o:centos:stream
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2024-12-12
+    eoas: 2030-01-01
+    eol: 2030-01-01
+    latest: "10"
+    link: https://blog.centos.org/2024/12/introducing-centos-stream-10/
+
 -   releaseCycle: "9"
     releaseDate: 2021-09-15
     eoas: 2027-05-31

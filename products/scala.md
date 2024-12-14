@@ -27,6 +27,13 @@ auto:
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "3.6"
+    releaseDate: 2024-12-10
+    eoas: false
+    eol: false
+    latest: "3.6.2"
+    latestReleaseDate: 2024-12-10
+
 -   releaseCycle: "3.5"
     releaseDate: 2024-08-22
     eoas: false
@@ -127,13 +134,13 @@ release is supported for at least three years.
 
 Scala’s primary platform is the Java Virtual Machine (JVM).
 
-| JDK version | Minimum Scala versions         |
-|-------------|--------------------------------|
-| 23 (ea)     | 3.3.5†, 2.13.15†, 2.12.20†     |
-| 22          | 3.3.4†, 2.13.13, 2.12.19       |
-| 21 (LTS)    | 3.3.1, 2.13.11, 2.12.18        |
-| 17 (LTS)    | 3.0.0, 2.13.6, 2.12.15         |
-| 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
-| 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
+| JDK version | Minimum Scala versions                |
+| ----------- | ------------------------------------- |
+| 23          | 3.4.0, 3.3.1, 2.13.15, 2.12.20        |
+| 22          | 3.4.0, 3.3.1, 2.13.13, 2.12.19        |
+| 21 (LTS)    | 3.4.0, 3.3.1, 2.13.11, 2.12.18        |
+| 17 (LTS)    | 3.0.0, 3.3.0, 2.13.6, 2.12.15         |
+| 11 (LTS)    | 3.0.0, 3.3.0, 2.13.0, 2.12.4, 2.11.12 |
+| 8 (LTS)     | 3.0.0, 3.3.0, 2.13.0, 2.12.0, 2.11.0  |
 
 † = forthcoming; support available in nightly builds

@@ -33,6 +33,12 @@ auto:
           regex: '(?P<value>\d+ \w+ \d+).*'
 
 releases:
+-   releaseCycle: "7.3.3"
+    releaseDate: 2024-12-06
+    eol: 2027-12-31
+    latest: "7.3.3"
+    latestReleaseDate: 2024-12-06
+
 -   releaseCycle: "7.3.2"
     releaseDate: 2023-11-30
     eol: 2026-11-30

@@ -8,7 +8,7 @@ alternate_urls:
 -   /nixoslinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://nixos.org/blog/announcements.html
-changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__LATEST__
+changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 releaseColumn: false
@@ -18,6 +18,11 @@ identifiers:
 -   cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+-   releaseCycle: "24.11"
+    codename: "Vicuña"
+    releaseDate: 2024-11-30
+    eol: 2025-06-30
+    
 -   releaseCycle: "24.05"
     codename: "Uakari"
     releaseDate: 2024-05-31

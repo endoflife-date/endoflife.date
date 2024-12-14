@@ -83,7 +83,7 @@ releases:
 > [Zentyal](https://zentyal.com) is an easy Linux alternative to Windows Server offering native
 > interoperability with Microsoft Active Directory.
 
-{: .info }
+{: .note }
 This page tracks both the Development and Commercial editions of Zentyal.
 
 Major versions are published every two years, when a new Ubuntu Server LTS version becomes available.

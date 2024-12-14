@@ -162,7 +162,7 @@ releases:
 > Amazon. Corretto is certified using the Java Technical Compatibility Kit (TCK) to ensure it meets
 > the Java SE standard. It is available on Linux, Windows, macOS and Docker.
 
-{: .info}
+{: .note}
 > Amazon [extended the support for Corretto 8 and 11 in October 2024](https://aws.amazon.com/about-aws/whats-new/2024/10/extension-eol-dates-amazon-corretto-8-11/).
 > For Corretto 8 - JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
 

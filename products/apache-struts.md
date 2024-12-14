@@ -14,6 +14,7 @@ identifiers:
 -   repology: struts
 -   cpe: cpe:/a:apache:struts
 -   cpe: cpe:2.3:a:apache:struts
+-   purl: pkg:maven/org.apache.struts/struts2-core
 
 auto:
   methods:
@@ -26,8 +27,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    latest: "6.6.1"
-    latestReleaseDate: 2024-10-05
+    latest: "6.7.0"
+    latestReleaseDate: 2024-11-17
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -75,6 +76,7 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
+
 
 
 

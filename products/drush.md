@@ -77,8 +77,8 @@ releases:
     eol: 2025-01-31
     supportedPhpVersions: "5.4.5+"
     supportedDrupalVersions: "7 - 8"
-    latest: "8.4.12"
-    latestReleaseDate: 2023-03-15
+    latest: "8.5.0"
+    latestReleaseDate: 2024-11-26
 
 -   releaseCycle: "7"
     releaseDate: 2015-05-20

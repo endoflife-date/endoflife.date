@@ -25,25 +25,31 @@ identifiers:
 # releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
 # eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2024-11-26
+    eol: 2026-01-01
+    latest: "3.1.1"
+    latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.6"
-    latestReleaseDate: 2024-11-07
+    latest: "3.0.7"
+    latestReleaseDate: 2024-12-12
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-12-05
     eol: 2025-01-01
-    latest: "2.9.12"
-    latestReleaseDate: 2024-11-08
+    latest: "2.9.13"
+    latestReleaseDate: 2024-12-12
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.12"
-    latestReleaseDate: 2024-11-08
+    latest: "2.8.13"
+    latestReleaseDate: 2024-12-12
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01

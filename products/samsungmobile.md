@@ -55,6 +55,24 @@ releases:
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
 
+-   releaseCycle: "Galaxy A25 5G"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A256E/CHT/doc.html
+
+-   releaseCycle: "Galaxy A15 5G"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A156B/EUX/doc.html
+
+-   releaseCycle: "Galaxy A15"
+    releaseDate: 2023-12-11
+    eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
+    eol: 2028-12-11 # "5 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
+
 -   releaseCycle: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-16
     eoas: false

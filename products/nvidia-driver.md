@@ -21,6 +21,22 @@ releaseDateColumn: true
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
+-   releaseCycle: "R565-Linux (NFB)"
+    releaseDate: 2024-10-29
+    eoas: false
+    eol: 2025-10-01
+    latest: "565.57.01"
+    latestReleaseDate: 2024-10-29
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/
+
+-   releaseCycle: "R565-Windows (NFB)"
+    releaseDate: 2024-10-22
+    eoas: false
+    eol: 2025-10-01
+    latest: "566.03"
+    latestReleaseDate: 2024-10-22
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/
+
 -   releaseCycle: "R560-Linux (NFB)"
     releaseDate: 2024-08-21
     eoas: true
@@ -57,9 +73,9 @@ releases:
     releaseDate: 2024-02-23
     eoas: 2025-02-01
     eol: 2025-02-01
-    latest: "550.90.12"
-    latestReleaseDate: 2024-09-10
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-90-12/
+    latest: "550.127.08"
+    latestReleaseDate: 2024-11-19
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-127-08/
 
 -   releaseCycle: "R550-Windows (PB)"
     releaseDate: 2024-02-22
@@ -90,9 +106,9 @@ releases:
     releaseDate: 2023-06-14
     eoas: 2024-06-01
     eol: 2026-06-01
-    latest: "535.183.06"
-    latestReleaseDate: 2024-07-09
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-183-06/
+    latest: "535.216.03"
+    latestReleaseDate: 2024-11-19
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-216-03/
 
 -   releaseCycle: "R535-Windows"
     lts: true
@@ -293,7 +309,7 @@ Nvidia drivers are released in various release branches, with varying support ti
 - There is a well-defined release cadence and software lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle).
 - A feature deprecation schedule is [available for Unix drivers](https://forums.developer.nvidia.com/t/unix-graphics-feature-deprecation-schedule/60588).
 
-Since LTSB branches are also production branches, it  may be listed as a production branch in driver
+Since LTSB branches are also production branches, it may be listed as a production branch in driver
 searches until the next driver branch is released. It is best to use the latest driver branch
 supported by your hardware.
 

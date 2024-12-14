@@ -40,8 +40,8 @@ releases:
     releaseDate: 2023-11-28
     eol: false
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.4.1"
-    latestReleaseDate: 2024-09-23
+    latest: "4.5.0"
+    latestReleaseDate: 2024-11-28
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"
