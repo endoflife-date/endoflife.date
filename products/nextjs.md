@@ -12,7 +12,7 @@ changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:npm/next.js
+-   purl: pkg:npm/next
 -   purl: pkg:github/vercel/next.js
 
 auto:
@@ -24,14 +24,14 @@ releases:
 -   releaseCycle: "15"
     releaseDate: 2024-10-21
     eol: false
-    latest: "15.0.2"
-    latestReleaseDate: 2024-10-29
+    latest: "15.1.0"
+    latestReleaseDate: 2024-12-10
 
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.2.16"
-    latestReleaseDate: 2024-10-23
+    latest: "14.2.20"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25
