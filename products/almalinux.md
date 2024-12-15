@@ -32,15 +32,6 @@ releases:
     latestReleaseDate: 2024-12-11
     link: https://almalinux.org/blog/2024-12-10-almalinux-10-0-beta-now-available/
 
--   releaseCycle: "10"
-    releaseLabel: "AlmaLinux OS 10"
-    releaseDate: 2024-12-11
-    eol: false
-    eoas: false
-    latest: "10.0 beta"
-    latestReleaseDate: 2024-12-11
-    link: https://almalinux.org/blog/2024-12-10-almalinux-10-0-beta-now-available/
-
 -   releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
