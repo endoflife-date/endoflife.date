@@ -40,8 +40,8 @@ releases:
     link: https://support.claris.com/s/answerview?anum=000036025
 
 -   releaseCycle: "19.5"
-    releaseDate: 2022-06-31
-    eol: 2024-06-31 
+    releaseDate: 2022-06-30
+    eol: 2024-06-30 
     link: https://support.claris.com/s/answerview?anum=000035967
 
 -   releaseCycle: "19.4"
@@ -50,7 +50,7 @@ releases:
     link: https://support.claris.com/s/answerview?anum=000035759
     
 -   releaseCycle: "19.3"
-    releaseDate: 2021-06-31
+    releaseDate: 2021-06-30
     eol: 2023-07-01
     link: https://support.claris.com/s/answerview?anum=000035756
 
