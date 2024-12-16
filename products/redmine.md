@@ -19,17 +19,23 @@ auto:
 
 # eol releases announced in new versions blog posts
 releases:
+-   releaseCycle: "6.0"
+    releaseDate: 2024-11-10
+    eol: false
+    latest: "6.0.2"
+    latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
-    latest: "5.1.3"
-    latestReleaseDate: 2024-06-12
+    latest: "5.1.5"
+    latestReleaseDate: 2024-12-11
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-03-28
     eol: false
-    latest: "5.0.9"
-    latestReleaseDate: 2024-06-12
+    latest: "5.0.10"
+    latestReleaseDate: 2024-11-03
 
 -   releaseCycle: "4.2"
     releaseDate: 2021-03-28

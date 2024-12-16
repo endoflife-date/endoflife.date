@@ -93,19 +93,3 @@ releases:
 
 Chef Infra Client generally follows an N-1 support strategy
 (meanings that the 2 most recent major versions receive security and bug fixes)
-
-## [Release Schedule](https://github.com/chef/chef/blob/main/docs/dev/policy/release_and_support_schedule.md)
-
-Latest major releases Schedule:
-
-| Version Type | Description                                                                                                       | Cadence                |
-|:-------------|:------------------------------------------------------------------------------------------------------------------|------------------------|
-| Major        | For significant changes, will include breaking or backwards-incompatible changes.                                 | Once a year in April   |
-| Minor        | Will include new features, bug fixes, and will be backwards-compatible to the best of the maintainers' abilities. | 2nd week of each month |
-| Patch        | Will include backwards-compatible bug fixes.                                                                      | As needed.             |
-
-N-1 major releases Schedule:
-
-| Version Type  | Description                                         | Cadence    |
-|:--------------|:----------------------------------------------------|:-----------|
-| Minor & Patch | For critical bugs and security vulnerabilities only | As needed. |

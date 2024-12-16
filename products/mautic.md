@@ -36,10 +36,17 @@ identifiers:
 -   purl: pkg:github/mautic/mautic/
 
 releases:
--   releaseCycle: "5.1"
-    releaseDate: 2024-06-12
+-   releaseCycle: "5.2"
+    releaseDate: 2024-12-02
     eoas: false
     eol: false
+    latest: "5.2.0"
+    latestReleaseDate: 2024-12-02
+
+-   releaseCycle: "5.1"
+    releaseDate: 2024-06-12
+    eoas: 2024-12-02
+    eol: 2024-12-02
     latest: "5.1.1"
     latestReleaseDate: 2024-09-18
 

@@ -27,6 +27,7 @@ identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-actuator
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-undertow
 -   purl: pkg:maven/org.springframework.boot/spring-boot-autoconfigure
+-   purl: pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-webflux
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-aop
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
@@ -46,25 +47,33 @@ auto:
           column: "Branch"
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
-        eol: "End of Support"
+        eol: "End of OSS Support"
         eoes: "End Enterprise Support *"
 
 releases:
+-   releaseCycle: "3.4"
+    supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
+    releaseDate: 2024-11-21
+    eol: 2025-11-21
+    eoes: 2027-02-21
+    latest: "3.4.0"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "3.3"
     supportedJavaVersions: "17 - 22" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2024-05-23
     eol: 2025-05-23
     eoes: 2026-08-23
-    latest: "3.3.4"
-    latestReleaseDate: 2024-09-19
+    latest: "3.3.6"
+    latestReleaseDate: 2024-11-21
 
 -   releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-11-23
     eol: 2024-11-23
     eoes: 2026-02-23
-    latest: "3.2.10"
-    latestReleaseDate: 2024-09-19
+    latest: "3.2.12"
+    latestReleaseDate: 2024-11-21
 
 -   releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
