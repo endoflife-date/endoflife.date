@@ -28,13 +28,13 @@ releases:
     eol: false # releaseDate(2.21)
     latest: "2.18.0"
     latestReleaseDate: 2024-12-03
-    
+
 -   releaseCycle: "2.17"
     releaseDate: 2024-11-05
     eoas: false # releaseDate(2.19)
     eol: false # releaseDate(2.20)
-    latest: "2.17.2"
-    latestReleaseDate: 2024-11-12
+    latest: "2.17.3"
+    latestReleaseDate: 2024-12-13
 
 -   releaseCycle: "2.16"
     releaseDate: 2024-10-01
