@@ -15,71 +15,71 @@ auto:
   - github_releases: nginxinc/kubernetes-ingress
 releases:
 - releaseCycle: '3.7'
-  releaseDate: '2024-11-25'
+  releaseDate: &id001 2024-11-25
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.7.2
   latest: v3.7.2
-  latestReleaseDate: '2024-11-25'
+  latestReleaseDate: *id001
 - releaseCycle: '3.6'
-  releaseDate: '2024-08-19'
+  releaseDate: &id002 2024-08-19
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.6.2
   latest: v3.6.2
-  latestReleaseDate: '2024-08-19'
+  latestReleaseDate: *id002
 - releaseCycle: '3.5'
-  releaseDate: '2024-05-31'
+  releaseDate: &id003 2024-05-31
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.5.2
   latest: v3.5.2
-  latestReleaseDate: '2024-05-31'
+  latestReleaseDate: *id003
 - releaseCycle: '3.4'
-  releaseDate: '2024-02-19'
+  releaseDate: &id004 2024-02-19
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.4.3
   latest: v3.4.3
-  latestReleaseDate: '2024-02-19'
+  latestReleaseDate: *id004
 - releaseCycle: '3.3'
-  releaseDate: '2023-11-01'
+  releaseDate: &id005 2023-11-01
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.3.2
   latest: v3.3.2
-  latestReleaseDate: '2023-11-01'
+  latestReleaseDate: *id005
 - releaseCycle: '3.2'
-  releaseDate: '2023-08-18'
+  releaseDate: &id006 2023-08-18
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.2.1
   latest: v3.2.1
-  latestReleaseDate: '2023-08-18'
+  latestReleaseDate: *id006
 - releaseCycle: '3.1'
-  releaseDate: '2023-05-05'
+  releaseDate: &id007 2023-05-05
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.1.1
   latest: v3.1.1
-  latestReleaseDate: '2023-05-05'
+  latestReleaseDate: *id007
 - releaseCycle: '3.0'
-  releaseDate: '2023-02-14'
+  releaseDate: &id008 2023-02-14
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v3.0.2
   latest: v3.0.2
-  latestReleaseDate: '2023-02-14'
+  latestReleaseDate: *id008
 - releaseCycle: '2.4'
-  releaseDate: '2022-11-30'
+  releaseDate: &id009 2022-11-30
   eol: false
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.4.2
   latest: v2.4.2
-  latestReleaseDate: '2022-11-30'
+  latestReleaseDate: *id009
 - releaseCycle: '2.3'
-  releaseDate: '2022-09-16'
-  eol: 2024-09-15 00:00:00
+  releaseDate: &id010 2022-09-16
+  eol: 2024-09-15
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.3.1
   latest: v2.3.1
-  latestReleaseDate: '2022-09-16'
+  latestReleaseDate: *id010
 - releaseCycle: '1.12'
-  releaseDate: '2022-10-19'
-  eol: 2024-10-18 00:00:00
+  releaseDate: &id011 2022-10-19
+  eol: 2024-10-18
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.5
   latest: v1.12.5
-  latestReleaseDate: '2022-10-19'
+  latestReleaseDate: *id011
 ---
 > [F5 NGINX Ingress Controller](https://www.f5.com/products/nginx/nginx-ingress-controller) NGINX Ingress Controller works with both NGINX and NGINX Plus and supports the standard Ingress features - content-based routing and TLS/SSL termination.
 
