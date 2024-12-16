@@ -47,4 +47,6 @@ the next minor release of [Red Hat Enterprise Linux (RHEL)](/rhel).
 CentOS Stream only has major versions, and its support ends when its [corresponding RHEL release](/rhel)
 leaves full support.
 
+Commercial Endless Support beyond LTS for CentOS Stream 8 is available at [TuxCare](https://tuxcare.com/extended-lifecycle-support/centos-stream-8-extended-support/).
+
 Support information for CentOS are available on the [CentOS page](/centos).
