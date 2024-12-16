@@ -60,7 +60,7 @@ releases:
     link: https://support.claris.com/s/answerview?anum=000035415
 
 -   releaseCycle: "19.1"
-    releaseDate: 2020-09-31
+    releaseDate: 2020-09-30
     eol: 2022-10-31
     link: https://support.claris.com/s/answerview?anum=000035283
 
