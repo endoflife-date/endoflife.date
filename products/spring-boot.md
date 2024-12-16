@@ -181,6 +181,8 @@ more details about support roadmap.
 A commercial offer for extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
 
+Commercial Endless Support beyond LTS for Spring Boot is available at [TuxCare](https://tuxcare.com/extended-lifecycle-support/spring-extended-support/).
+
 ## Java Compatibility
 
 {%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
