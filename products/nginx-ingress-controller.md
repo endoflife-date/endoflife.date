@@ -74,12 +74,6 @@ releases:
   link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v2.3.1
   latest: v2.3.1
   latestReleaseDate: *id010
-- releaseCycle: '1.12'
-  releaseDate: &id011 2022-10-19
-  eol: 2024-10-18
-  link: https://github.com/nginxinc/kubernetes-ingress/releases/tag/v1.12.5
-  latest: v1.12.5
-  latestReleaseDate: *id011
 ---
 > [F5 NGINX Ingress Controller](https://www.f5.com/products/nginx/nginx-ingress-controller) NGINX Ingress Controller works with both NGINX and NGINX Plus and supports the standard Ingress features - content-based routing and TLS/SSL termination.
 
