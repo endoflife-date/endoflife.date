@@ -96,7 +96,7 @@ releases:
 -   releaseCycle: "6.1"
     lts: true
     releaseDate: 2022-12-11
-    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
     latest: "6.1.120"
     latestReleaseDate: 2024-12-14
 
