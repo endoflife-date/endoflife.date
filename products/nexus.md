@@ -86,7 +86,7 @@ releases:
     eol: 2026-01-09
     latest: "3.70.3-01"
     latestReleaseDate: 2024-10-10
-    link: https://help.sonatype.com/en/sonatype-nexus-repository-__RELEASE_CYCLE__-0-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
