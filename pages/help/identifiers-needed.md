@@ -14,7 +14,7 @@ ecosystem and other projects. We need your help to add more identifiers to the s
 We currently use the following identififers:
 
 1. [Repology](https://repology.org) Project Identififers. We use these to link to various package repositories and distributions.
-2. [PURL](https://purl.org) Identififers. We use these to link to packages that are not present in Repology, such as Docker Images, Third-party linux repos, and more.
+2. [Package URL](https://github.com/package-url/purl-spec) Identififers (`pkg:`). We use these to link to packages that are not present in Repology, such as Docker Images, Third-party linux repos, and more.
 3. [NVD CPE](https://nvd.nist.gov/products/cpe) Identififers. Primarily used where repology/purl does not work, such as on devices and operating-systems.
 
 ## How can you help
