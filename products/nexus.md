@@ -79,7 +79,8 @@ releases:
     latest: "3.71.0-06"
     latestReleaseDate: 2024-08-09
 
--   releaseCycle: "3.70 (Latest for OrientDB)"
+-   releaseCycle: "3.70"
+    releaseLabel: "3.70 (Latest for OrientDB)"
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
