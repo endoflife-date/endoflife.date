@@ -28,9 +28,16 @@ identifiers:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+-   releaseCycle: "11.1"
+    releaseDate: 2024-12-16
+    eoas: false # releaseDate(11.2)
+    eol: false
+    latest: "11.1.0"
+    latestReleaseDate: 2024-12-16
+
 -   releaseCycle: "11.0"
     releaseDate: 2024-08-02
-    eoas: false # releaseDate(11.1)
+    eoas: 2024-12-16 # releaseDate(11.1)
     eol: 2025-06-16
     latest: "11.0.9"
     latestReleaseDate: 2024-11-22
@@ -139,9 +146,9 @@ for a minimum of 4 years, until the release of two further major versions.
 
 ## [Release Schedule](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 
-- A new Drupal major version is released every two years in even years (2022, 2024, etc.). 
+- A new Drupal major version is released every two years in even years (2022, 2024, etc.).
 - Minor versions are released every six months. They contain bug fixes, new features, and deprecations.
-- Patch versions are released monthly. They only contain non-disruptive bug fixes, so site owners can safely upgrade their applications. 
+- Patch versions are released monthly. They only contain non-disruptive bug fixes, so site owners can safely upgrade their applications.
 
 ## [Long Term Support](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-maintenance-minors-and-the-lts-phase)
 
