@@ -9,7 +9,7 @@ alternate_urls:
 -   /nexus-repository-oss
 -   /nexus-repository-pro
 releasePolicyLink: https://help.sonatype.com/en/sonatype-sunsetting-information.html
-changelogTemplate: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
+changelogTemplate: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__.0'|replace:'.','-'}}{% if '__RELEASE_CYCLE__.0'!='__LATEST__'|split:'.'|slice:0,3|join:'.' %}---'__LATEST__'|split:'.'|slice:0,3|join:'-'{% endif %}-release-notes.html
 releaseDateColumn: true
 eoasColumn: Full Support
 eolColumn: Extended Maintenance
