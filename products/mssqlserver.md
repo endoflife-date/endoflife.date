@@ -42,7 +42,7 @@ releases:
     latestGdr: "13.0.6455.2"
     latestGdrLink: https://support.microsoft.com/help/5046855
     latest: "13.0.6455.2 GDR"
-    latestReleaseDate: 2024-07-09
+    latestReleaseDate: 2024-11-12
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
     link: https://support.microsoft.com/help/5046855 # GDR for SP3
     
@@ -107,9 +107,9 @@ releases:
     latestGdr: "14.0.2070.1"
     latestGdrLink: https://support.microsoft.com/help/5046857
     latest: "14.0.3485.1 CU31+GDR"
-    latestReleaseDate: 2024-10-08
+    latestReleaseDate: 2024-11-14
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
-    link: https://support.microsoft.com/help/5046061 # GDR for CU31
+    link: https://support.microsoft.com/help/5046858 # GDR for CU31
 
 -   releaseCycle: "13.0-sp1"
     codename: SQL16
