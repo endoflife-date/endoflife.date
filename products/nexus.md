@@ -80,11 +80,13 @@ releases:
     latestReleaseDate: 2024-08-09
 
 -   releaseCycle: "3.70"
+    releaseLabel: "3.70 (Latest for OrientDB)"
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
-    latest: "3.70.1-02"
-    latestReleaseDate: 2024-07-11
+    latest: "3.70.3-01"
+    latestReleaseDate: 2024-10-10
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
