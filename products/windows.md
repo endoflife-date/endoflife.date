@@ -63,6 +63,16 @@ releases:
     latest: 10.0.22631
     link: https://learn.microsoft.com/windows/release-health/windows11-release-information
 
+    # This cycle includes 10 22H2 (E) and commercial Pro from (W)
+-   releaseCycle: "10-22h2-esu"
+    releaseLabel: "10 22H2 ESU"
+    releaseDate: 2022-10-18
+    eoas: 2025-10-14
+    eol: 2028-10-10
+    latest: 10.0.19045
+    link: https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates
+
+    # This cycle includes 10 22H2 (W) for non-commercial Pro
 -   releaseCycle: "10-22h2"
     releaseLabel: "10 22H2"
     releaseDate: 2022-10-18
@@ -378,6 +388,7 @@ releases:
 | ---- | ---------------------------------------------------------- |
 | (E)  | Enterprise, Education and IoT Enterprise editions          |
 | (W)  | Home, Pro, Pro Education and Pro for Workstations editions |
+| ESU  | Extended Security Updates program                          |
 | LTS  | Long-Term Servicing Channel/Branch                         |
 
 [Windows 11 release information](https://learn.microsoft.com/windows/release-health/windows11-release-information)
