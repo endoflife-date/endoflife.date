@@ -2,7 +2,7 @@
 title: Apache Ant
 category: app
 tags: apache build-tool java-runtime
-iconSlug: apache
+iconSlug: apacheant
 permalink: /ant
 alternate_urls:
 -   /apache-ant
@@ -41,10 +41,4 @@ releases:
 
 ---
 
-> [Apache Ant](https://ant.apache.org/) is a Java library and command-line tool whose mission is to
-> drive processes described in build files as targets and extension points dependent upon each
-> other. The main known usage of Ant is the build of Java applications. Ant supplies a number of
-> built-in tasks allowing to compile, assemble, test and run Java applications. Ant can also be
-> used effectively to build non Java applications, for instance C or C++ applications. More
-> generally, Ant can be used to pilot any type of process which can be described in terms of
-> targets and tasks.
+> [Apache Ant](https://ant.apache.org/) is a Java library and command-line tool designed to drive processes described in build files as targets and extension points that depend on each other. The primary known usage of Ant is the building of Java applications. Ant supplies a number of built-in tasks that allow you to compile, assemble, test, and run Java applications. Additionally, Ant can be effectively used to build non-Java applications, such as C or C++ applications. More generally, Ant can be used to manage any type of process that can be described in terms of targets and tasks.
