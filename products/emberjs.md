@@ -41,9 +41,9 @@ auto:
 releases:
 -   releaseCycle: "5.12"
     releaseDate: 2024-09-30
-    lts: 2024-11-15
-    eoas: 2025-07-25
-    eol: 2025-11-28
+    lts: 2024-09-30
+    eoas: 2025-04-28
+    eol: 2025-10-13
     latest: "5.12.0"
     latestReleaseDate: 2024-09-30
 
