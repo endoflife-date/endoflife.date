@@ -36,6 +36,8 @@ module Jekyll
         set_description(page)
         set_icon_url(page)
         set_tags(page)
+        set_identifiers(page)
+        set_aliases(page)
         set_overridden_columns_label(page)
 
         page.data["releases"].each { |release| enrich_release(page, release) }
@@ -82,6 +84,23 @@ module Jekyll
 
         tags << page.data['category']
         page.data['tags'] = tags.sort
+      end
+
+      # Set alias (derived from alternate_urls).
+      def set_aliases(page)
+        if page.data['alternate_urls']
+          page.data['aliases'] = page.data['alternate_urls'].map { |path| path[1..] }
+        else
+          page.data['alternate_urls'] = [] # should be in a separate method, but easier that way
+          page.data['aliases'] = []
+        end
+      end
+
+      # Set identifiers to empty if it's not present.
+      def set_identifiers(page)
+        if !page.data['identifiers']
+          page.data['identifiers'] = []
+        end
       end
 
       # Set properly the column presence/label if it was overridden.
@@ -321,8 +340,10 @@ module Jekyll
         return (date_timestamp - now_timestamp) / (60 * 60 * 24)
       end
 
+      # Template rendering function that replaces placeholders.
+      # The template is stripped to avoid unnecessary whitespaces in the output.
       def render_eol_template(template, cycle)
-        link = template.gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
+        link = template.strip().gsub('__RELEASE_CYCLE__', cycle['releaseCycle'] || '')
         link.gsub!('__CODENAME__', cycle['codename'] || '')
         link.gsub!('__LATEST__', cycle['latest'] || '')
         link.gsub!('__LATEST_RELEASE_DATE__', cycle['latestReleaseDate'] ? cycle['latestReleaseDate'].iso8601 : '')
