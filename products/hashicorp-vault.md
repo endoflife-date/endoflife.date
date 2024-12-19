@@ -28,8 +28,8 @@ releases:
 -   releaseCycle: "1.18"
     releaseDate: 2024-10-08
     eol: false
-    latest: "1.18.2"
-    latestReleaseDate: 2024-11-20
+    latest: "1.18.3"
+    latestReleaseDate: 2024-12-16
 
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-10
