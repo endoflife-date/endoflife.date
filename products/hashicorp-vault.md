@@ -40,7 +40,7 @@ releases:
 -   releaseCycle: "1.16"
     releaseDate: 2024-03-25
     lts: true
-    eol: 2025-06-12 # releaseDate(1.17)
+    eol: 2024-06-10 # releaseDate(1.17)
     eoes: 2026-03-15 # approximate = releaseDate(1.22)
     latest: "1.16.3"
     latestReleaseDate: 2024-05-29
