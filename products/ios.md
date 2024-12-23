@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
-    eoas: false
+    eoas: 2024-09-16
     eol: false
     latest: "17.7.2"
     latestReleaseDate: 2024-11-19
