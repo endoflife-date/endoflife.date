@@ -5,7 +5,7 @@ tags: php-runtime
 permalink: /mediawiki
 versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
-releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/4n097p5czcq89yt3glu9ww1mxxk2as7.png
+releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/hs5faq2k9b3pw5dm4fabgjwtjf2l8jw.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
 releaseDateColumn: true
 eolColumn: End-of-Life
@@ -29,6 +29,13 @@ auto:
         eol: "End-of-life"
 
 releases:
+-   releaseCycle: "1.43"
+    releaseDate: 2024-12-21
+    lts: true
+    eol: 2027-12-31
+    latest: "1.43.0"
+    latestReleaseDate: 2024-12-21
+
 -   releaseCycle: "1.42"
     releaseDate: 2024-06-27
     eol: 2025-06-30
@@ -114,6 +121,6 @@ years) being an LTS (Long-Term Support) release branch. LTS release branches rec
 support and bug fixes for three years after their initial release, while non-LTS release branches
 are supported for one year after their initial release.
 
-Since Version 1.36, MediaWiki only supports [upgrading from two major long-term support releases
+MediaWiki only supports [upgrading from two major long-term support releases
 (LTS) ago](https://phabricator.wikimedia.org/T259771 "RFC: Drop support for older database upgrades on MediaWiki Phabricator").
 Upgrades from older versions of MediaWiki will have to be performed in multiple steps.
