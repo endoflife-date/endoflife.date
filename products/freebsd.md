@@ -71,6 +71,10 @@ releases:
     releaseDate: 2019-11-04
     eol: 2021-01-31
 
+-   releaseCycle: "releng/11.3"
+    releaseDate: 2019-07-09
+    eol: 2020-09-30
+
 -   releaseCycle: "releng/12.0"
     releaseDate: 2018-12-11
     eol: 2020-02-04
@@ -80,9 +84,21 @@ releases:
     eol: 2023-12-31
     link: null
 
+-   releaseCycle: "releng/11.2"
+    releaseDate: 2018-06-28
+    eol: 2019-10-31
+
 -   releaseCycle: "releng/10.4"
     releaseDate: 2017-10-03
     eol: 2018-10-31
+
+-   releaseCycle: "releng/11.1"
+    releaseDate: 2017-07-26
+    eol: 2018-09-30
+
+-   releaseCycle: "releng/11.0"
+    releaseDate: 2016-10-10
+    eol: 2017-11-30
 
 -   releaseCycle: "stable/11"
     releaseDate: 2016-10-10
