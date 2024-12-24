@@ -24,6 +24,12 @@ auto:
 
 # EOL as per announcements on https://struts.apache.org/.
 releases:
+-   releaseCycle: "7"
+    releaseDate: 2024-12-11
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
@@ -76,11 +82,6 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
-
-
-
-
-
 ---
 
 > [Apache Struts](https://struts.apache.org/) is a free, open-source, MVC framework for creating
