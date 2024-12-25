@@ -34,7 +34,7 @@ releases:
     lts: true
     eol: 2027-12-31
     latest: "1.43.0"
-    latestReleaseDate: 2024-12-21
+    latestReleaseDate: 2024-12-20
 
 -   releaseCycle: "1.42"
     releaseDate: 2024-06-27
