@@ -1,9 +1,10 @@
 ---
-title: GHC
+title: Glasgow Haskell Compiler (GHC)
 iconSlug: haskell
 category: lang
-tags: haskell-runtime
 permalink: /ghc
+alternate_urls:
+ - /haskell
 versionCommand: ghc --version
 releasePolicyLink: https://gitlab.haskell.org/ghc/ghc/-/wikis/GHC-status
 changelogTemplate: https://downloads.haskell.org/ghc/__LATEST__/docs/users_guide/__LATEST__-notes.html
@@ -109,14 +110,51 @@ releases:
 
 ---
 
-> [Haskell][] is a general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation.
->
-> The [Glasgow Haskell Compiler][] (GHC) is a state-of-the-art optimizing compiler that emits native machine code for X86, AArch64, PowerPC, s390x, RiscV, Wasm architectures.
->
-> It also includes an interactive REPL, several profilers, alternative codegen backends, and more; refer to [GHC User's Guide][].
+> [Haskell](https://www.haskell.org/) is a general-purpose, statically-typed, purely functional
+> programming language with type inference and lazy evaluation. The [Glasgow Haskell
+> Compiler](https://www.haskell.org/ghc/) (GHC) is a state-of-the-art optimizing compiler for
+> Haskell. It includes an interactive REPL, several profilers, alternative codegen backends, and
+> supports x86, AArch64, PowerPC, s390x, RiscV, WASM architectures.
 
-[Haskell]: https://www.haskell.org/
-[Glasgow Haskell Compiler]: https://www.haskell.org/ghc/
-[GHC User's Guide]: https://downloads.haskell.org/ghc/latest/docs/users_guide/
+Version support policy of GHC is defined informally, as a working convention that can be found
+documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conventions/releases).
 
-Version support policy of GHC is not rigidly codified. As a general rule of thumb, **three most recent major release series** are actively supported by the compiler team. Ecosystem tools and libraries tend to support older versions than that.
+Terminology
+-----------
+
+Because GHC is a *bootstrapping compiler* (meaning, it is written mostly in Haskell and compiles
+itself), there're versioning considerations not quite covered with SemVer.
+
+GHC defines:
+* **Major release** - `x.y.1` where `y` is even.
+* **Minor release** - `x.y.z` where `y` is even and `z ≥ 2`.
+
+The case `x.y.z` with `y` odd is reserved for development purposes. These versions are termed
+*snapshots* and are never announced for general availability.
+
+Release policies
+----------------
+
+* **Minor releases** generally do not introduce new interfaces, compiler feature additions neither
+  removals, nor major updates in libraries shipped with compiler. They only fix bugs or performance
+  issues in the previous release on that branch.
+
+* **Target [platforms](https://gitlab.haskell.org/ghc/ghc/-/wikis/platforms)** are segregated into
+  tiers 1, 2, and 3; and releases are gated on being in working condition on all Tier 1 platforms.
+  Every effort is made to fix bugs in Tier 2/3 platforms, but those are not treated as release
+  blockers.
+
+* **Source distributions** are provided to distribution packagers a week in advance, before official
+  binaries release is announced.
+
+* **Two-release policy**. Every release of GHC must be bootstrappable with the most recent minor
+  release of the two most-recent major releases of GHC.
+
+Release schedule
+----------------
+
+Major releases are made twice a year.
+
+Minor releases are made throughout the year, with no fixed schedule.
+
+Every release is preceded by one or more release candidates, announced on GHC mailing lists.
