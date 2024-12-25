@@ -25,6 +25,12 @@ auto:
 
 releases:
 
+- releaseCycle: "9.12"
+  releaseDate: 2024-12-16
+  latest: "9.12.1"
+  eoas: false
+  eol: false
+
 - releaseCycle: "9.10"
   releaseDate: 2024-05-10
   latest: "9.10.1"
@@ -33,9 +39,9 @@ releases:
 
 - releaseCycle: "9.8"
   releaseDate: 2023-10-09
-  latest: "9.8.3"
-  latestReleaseDate: 2024-10-21
-  eoas: false
+  latest: "9.8.4"
+  latestReleaseDate: 2024-12-02
+  eoas: true
   eol: false
 
 - releaseCycle: "9.6"
