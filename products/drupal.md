@@ -28,6 +28,14 @@ identifiers:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+
+-   releaseCycle: "10.4"
+    releaseDate: 2024-12-17
+    eoas: 2025-06-16 
+    eol: 2025-12-16
+    latest: "10.4.0"
+    latestReleaseDate: 2024-12-17
+
 -   releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: false # releaseDate(11.2)
@@ -41,13 +49,6 @@ releases:
     eol: 2025-06-16
     latest: "11.0.9"
     latestReleaseDate: 2024-11-22
-
--   releaseCycle: "10.4"
-    releaseDate: 2024-12-17
-    eoas: 2025-06-16 
-    eol: 2025-12-16
-    latest: "10.4.0"
-    latestReleaseDate: 2024-12-17
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
