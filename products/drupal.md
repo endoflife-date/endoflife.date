@@ -31,10 +31,10 @@ releases:
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-12-17
-    eoas: 2025-06-16 
+    eoas: 2025-06-16
     eol: 2025-12-16
     latest: "10.4.0"
-    latestReleaseDate: 2024-12-17
+    latestReleaseDate: 2024-12-18
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-12-16
