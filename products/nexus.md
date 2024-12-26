@@ -375,8 +375,8 @@ releases:
     releaseDate: 2017-03-31
     eoas: true
     eol: 2025-06-30 # https://help.sonatype.com/en/sonatype-nexus-repository-2-sunsetting-information.html
-    latest: "2.15.1-02"
-    latestReleaseDate: 2022-03-23
+    latest: "2.15.2-03"
+    latestReleaseDate: 2024-11-14
     link: https://help.sonatype.com/repomanager2/release-notes
 
 ---
