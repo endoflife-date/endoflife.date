@@ -92,4 +92,4 @@ releases:
 > management and application-deployment tool enabling infrastructure as code.
 
 Chef Infra Client generally follows an N-1 support strategy
-(meaning that the two most recent major versions receive security and bug fixes)
+(meaning that the two most recent major versions receive security and bug fixes).
