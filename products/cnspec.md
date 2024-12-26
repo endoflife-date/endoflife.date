@@ -67,4 +67,4 @@ releases:
 > the security of your entire infrastructure.
 
 cnspec follows an N-1 support strategy (meaning that the two most recent major versions receive
-security and bug fixes)
+security and bug fixes).
