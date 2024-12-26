@@ -312,7 +312,7 @@ module EndOfLifeHooks
       end
     end
 
-    # Real validation is delegated to IdentifierToUrl to avoid duplicatio
+    # Real validation is delegated to IdentifierToUrl to avoid duplication
     def is_not_an_identifier(property, hash)
       IdentifierToUrl.new.render(hash)
     rescue => e
