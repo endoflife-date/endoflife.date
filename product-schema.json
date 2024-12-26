@@ -18,7 +18,7 @@
     },
     "releasePolicyLink": {
       "title": "Release policy link",
-      "description": "URL to the producs release policy page.",
+      "description": "URL to the product's release policy page.",
       "type": "string",
       "pattern": "^https?://.+$"
     },
