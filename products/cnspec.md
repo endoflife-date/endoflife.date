@@ -63,7 +63,7 @@ releases:
 
 ---
 
-> [cnspec](https://mondoo.com/cnspec/) cnspec is an open source, cloud-native tool that assesses
+> [cnspec](https://mondoo.com/cnspec/) is an open source, cloud-native tool that assesses
 > the security of your entire infrastructure.
 
 cnspec follows an N-1 support strategy (meanings that the 2 most recent major versions receive
