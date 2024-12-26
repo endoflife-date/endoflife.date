@@ -25,9 +25,9 @@ identifiers:
 
 releases:
 -   releaseCycle: "3.4"
-    releaseDate: 2024-12-25
+    releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.0"
+    latest: "3.4.1"
     latestReleaseDate: 2024-12-25
     link: https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
 

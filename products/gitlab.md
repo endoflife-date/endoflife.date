@@ -40,8 +40,8 @@ releases:
     eoas: 2025-01-16 # releaseDate(17.8)
     eol: 2025-03-20 # releaseDate(17.10)
     latest: "17.7.0"
-    latestReleaseDate: 2024-12-19
-    
+    latestReleaseDate: 2024-12-18
+
 -   releaseCycle: "17.6"
     releaseDate: 2024-11-21
     eoas: 2024-12-19 # releaseDate(17.7)
