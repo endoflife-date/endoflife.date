@@ -14,13 +14,19 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/meilisearch/meilisearch.git
+  -   github_releases: meilisearch/meilisearch
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "1.12"
+    releaseDate: 2024-12-23
+    eol: false
+    latest: "1.12.0"
+    latestReleaseDate: 2024-12-23
+
 -   releaseCycle: "1.11"
     releaseDate: 2024-10-21
-    eol: false
+    eol: 2024-12-23
     latest: "1.11.3"
     latestReleaseDate: 2024-11-14
 
