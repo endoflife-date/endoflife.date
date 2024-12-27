@@ -22,7 +22,7 @@ releases:
 -   releaseCycle: "2.1"
     releaseDate: 2024-11-21
     eoas: 2024-12-21
-    eol: 2025-04-31
+    eol: 2025-04-30
     latest: "2.1.4"
     latestReleaseDate: 2024-12-11
 -   releaseCycle: "2.0"
