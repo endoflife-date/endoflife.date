@@ -19,17 +19,22 @@ auto:
   -   git: https://github.com/denoland/deno.git
 
 releases:
--   releaseCycle: "2.0"
-    releaseDate: 2024-10-09
-    eol: 2024-11-21
-    latest: "2.0.6"
-    latestReleaseDate: 2024-11-10
 -   releaseCycle: "2.1"
     releaseDate: 2024-11-21
     eoas: 2024-12-21
     eol: 2025-04-31
     latest: "2.1.4"
     latestReleaseDate: 2024-12-11
+-   releaseCycle: "2.0"
+    releaseDate: 2024-10-09
+    eol: 2024-11-21
+    latest: "2.0.6"
+    latestReleaseDate: 2024-11-10
+-   releaseCycle: "1"
+    releaseDate: 2020-04-13
+    eol: 2024-10-09
+    latest: "1.46.3"
+    latestReleaseDate: 2024-09-04
 
 ---
 
