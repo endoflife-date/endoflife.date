@@ -402,7 +402,7 @@ releases:
 -   releaseCycle: "6.0-sp3"
     codename: SQL95
     releaseLabel: "6.0 SP3"
-    releaseDate: 1995-06-13 # release date of SP3 unknwon, using intial relase date
+    releaseDate: 1995-06-13 # release date of SP3 unknown, using initial release date
     eoas: 1999-03-31
     eol: 1999-03-31
     latest: "6.0.151"

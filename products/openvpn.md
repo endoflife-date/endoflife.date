@@ -65,7 +65,7 @@ releases:
 
 OpenVPN Community Edition aka OpenVPN is a GPLv2 server and client.
 OpenVPN Access Server (OpenVPN-AS) provides additional paid and proprietary features.
-There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which is documented at [Suppported OpenSSL versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions#SuppportedOpenSSLversions). Windows versions older than 10 are not officially supported.
+There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which is documented at [Supported OpenSSL versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions#SuppportedOpenSSLversions). Windows versions older than 10 are not officially supported.
 
 
 ## Support

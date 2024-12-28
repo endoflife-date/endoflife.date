@@ -142,7 +142,7 @@ iOS-supported devices over the years. Usually, only the latest iOS release is su
 Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/),
 for a short period of time.
 
-Apple has ocassionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/)
+Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/)
 but such fixes are not guaranteed. As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices are available at [/iphone](/iphone).
