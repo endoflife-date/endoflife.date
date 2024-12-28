@@ -80,7 +80,7 @@ This causes confusion, as users on the 2.9 branch might miss out on important in
 
 ### Good - Angular
 
-The Angular project has a single URL documenting all the information: <https://angular.io/guide/releases>
+The Angular project has a single URL documenting all the information: <https://angular.dev/reference/releases>
 
 ## Document your support lifecycle
 
