@@ -14,10 +14,16 @@ auto:
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
--   releaseCycle: "5.0"
-    releaseDate: 2024-05-15
+-   releaseCycle: "5.1"
+    releaseDate: 2024-12-16
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
+    latest: "5.1.0.0"
+
+-   releaseCycle: "5.0"
+    releaseDate: 2024-05-15
+    eoas: 2025-03-31
+    eol: 2025-12-31
     latest: "5.0.0.3"
 
     latestReleaseDate: 2024-10-14
