@@ -18,7 +18,7 @@ identifiers:
 releases:
 -   releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
-    eoas: 2025-09-08
+    eoas: 2026-09-30
     eol: 2027-09-08
     latest: "9.0.21.200"
     latestReleaseDate: 2024-01-08
