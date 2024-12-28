@@ -14,6 +14,10 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Security Support
 
+identifiers:
+-   cpe: cpe:/o:google:android
+-   cpe: cpe:2.3:o:google:android
+
 # EOL is the latest security patch date for "Old version" on https://en.wikipedia.org/wiki/Android_version_history.
 releases:
 -   releaseCycle: "15"
