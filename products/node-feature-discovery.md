@@ -18,7 +18,7 @@ eolColumn: Support
 
 auto:
   methods:
-  - github_releases: kubernetes-sigs/node-feature-discovery
+  -   github_releases: kubernetes-sigs/node-feature-discovery
 
 identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
@@ -27,10 +27,10 @@ identifiers:
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "0.17"
-    releaseDate: 2024-12-24
+    releaseDate: 2024-12-22
     eol: false
     latest: "0.17.0"
-    latestReleaseDate: 2024-12-24
+    latestReleaseDate: 2024-12-22
 
 -   releaseCycle: "0.16"
     releaseDate: 2024-05-27
