@@ -1,6 +1,7 @@
 ---
 title: ESLint
 category: app
+tags: build-tool javascript-runtime
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
