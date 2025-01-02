@@ -4,6 +4,8 @@ category: os
 tags: apple
 iconSlug: apple
 permalink: /tvos
+alternate_urls:
+-   /apple-tvos
 releasePolicyLink: https://en.wikipedia.org/wiki/TvOS#Version_history
 # Release notes are not published for all minor or patch versions, so using only the major version.
 # Other release notes are easily accessible from that page, if available.
