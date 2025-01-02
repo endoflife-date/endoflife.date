@@ -16,6 +16,9 @@ customColumns:
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 
+identifiers:
+  -   repology: eslint
+
 auto:
   methods:
   -   npm: eslint
@@ -27,9 +30,6 @@ auto:
           regex: '^v(?P<value>\d+)\.'
         releaseDate: "First Release"
         eol: "EOL Start"
-
-identifiers:
--   repology: eslint
 
 releases:
 -   releaseCycle: "9"
