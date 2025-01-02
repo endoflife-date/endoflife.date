@@ -7,7 +7,7 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/j24evoon72086vqb9sm6vdshccyswba.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/b0moifdzsqjjdqla9hirufm9liuzwku.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 releaseDateColumn: true
@@ -29,8 +29,8 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2026-12-31
-    latest: "6.12.7"
-    latestReleaseDate: 2024-12-27
+    latest: "6.12.8"
+    latestReleaseDate: 2025-01-02
 
 -   releaseCycle: "6.11"
     releaseDate: 2024-09-15
