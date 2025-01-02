@@ -11,6 +11,10 @@ releasePolicyLink: https://aws.amazon.com/corretto/faqs/
 changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:amazon:corretto
+-   cpe: cpe:2.3:a:amazon:corretto
+
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
 auto:

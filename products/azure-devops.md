@@ -11,6 +11,10 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Azure%2
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/o:microsoft:azure_devops_server
+-   cpe: cpe:2.3:o:microsoft:azure_devops_server
+
 releases:
 -   releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
