@@ -19,11 +19,18 @@ customColumns:
 auto:
   methods:
   -   npm: eslint
+  -   release_table: https://eslint.org/version-support/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Release Line"
+          regex: '^v(?P<value>\d+)\.'
+        releaseDate: "First Release"
+        eol: "EOL Start"
 
 identifiers:
 -   repology: eslint
 
-# EOL dates can be found at https://eslint.org/version-support/.
 releases:
 -   releaseCycle: "9"
     releaseDate: 2024-04-05
@@ -66,7 +73,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2017-06-11
-    eol: 2019-12-22
+    eol: 2018-12-22
     eoas: 2018-06-22
     latest: "4.19.1"
     latestReleaseDate: 2018-03-22
