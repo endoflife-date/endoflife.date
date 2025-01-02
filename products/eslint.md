@@ -51,7 +51,6 @@ releases:
     releaseDate: 2019-06-21
     eol: 2020-11-08
     eoas: 2020-05-08
-    eoesProvider: HeroDevs
     latest: "6.8.0"
     latestReleaseDate: 2019-12-20
 
