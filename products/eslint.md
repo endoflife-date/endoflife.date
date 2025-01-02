@@ -4,11 +4,11 @@ category: framework
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
-changelogTemplate: "https://github.com/eslint/eslint/releases/tag/v__LATEST__"
+changelogTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
 releaseColumn: true
 releaseDateColumn: true
-eolColumn: Maintenance Support
 eoasColumn: Active Support
+eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support
 customColumns:
 -   property: eoesProvider
@@ -91,8 +91,13 @@ releases:
 
 ---
 
-> [ESLint](https://eslint.org/) is a popular static code analysis tool used to identify problematic patterns found in JavaScript code. It is highly configurable and supports a wide range of plugins that extend its basic functionality, allowing developers to write cleaner, more consistent code aligned with their standards.
+> [ESLint](https://eslint.org/) is a popular static code analysis tool used to identify problematic patterns found in
+> JavaScript code. It is highly configurable and supports a wide range of plugins that extend its basic functionality,
+> allowing developers to write cleaner, more consistent code aligned with their standards.
 
-ESLint only actively supports the latest version with new features, bug fixes, and security updates. When a new major version is released, the previous major version enters in a maintenance phase and only receives critical bug and security fixes for 6 months.
+ESLint only actively supports the latest version with new features, bug fixes, and security updates. When a new major
+version is released, the previous major version enters in a maintenance phase and only receives critical bug and
+security fixes for 6 months.
 
-The ESLint team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP) and have announced that commercial support for EOL branches is now available through [HeroDevs](https://www.herodevs.com/).
+The ESLint team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
+(ESP) and have announced that commercial support for EOL branches is now available through [HeroDevs](https://www.herodevs.com/).
