@@ -23,11 +23,14 @@ auto:
 identifiers:
 -   repology: eslint
 
+# EOL dates can be found at https://eslint.org/version-support/.
 releases:
 -   releaseCycle: "9"
     releaseDate: 2024-04-05
     eol: false
     eoas: false
+    eoes: false
+    eoesProvider: Tidelift
     latest: "9.17.0"
     latestReleaseDate: 2024-12-13
 
@@ -99,5 +102,5 @@ ESLint only actively supports the latest version with new features, bug fixes, a
 version is released, the previous major version enters in a maintenance phase and only receives critical bug and
 security fixes for 6 months.
 
-The ESLint team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
-(ESP) and have announced that commercial support for EOL branches is now available through [HeroDevs](https://www.herodevs.com/).
+Commercial support is available for both current and previous versions through ESLint's partners, [Tidelift](https://tidelift.com/funding/github/npm/eslint)
+and [HeroDevs](https://www.herodevs.com/support/eslint-nes).
