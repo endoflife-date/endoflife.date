@@ -35,6 +35,7 @@ releases:
     releaseDate: 2021-10-09
     eol: 2024-10-05
     eoas: 2024-04-05
+    eoes: false
     eoesProvider: HeroDevs
     latest: "8.57.0"
     latestReleaseDate: 2024-02-23
