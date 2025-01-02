@@ -1,5 +1,5 @@
 ---
-title: eslint
+title: ESLint
 category: framework
 iconSlug: eslint
 permalink: /eslint
