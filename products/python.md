@@ -244,7 +244,7 @@ releases:
 
 ---
 
-> [Python](https://www.python.org/) is a high-level, object-oriented, and dynamic programming language.
+> [Python](https://www.python.org/) is an interpreted, high-level, object-oriented, and dynamic programming language.
 > It is known for its readability and simple syntax. With extensive library support, Python is used in
 > various fields such as data analysis, web development, and artificial intelligence.
 > It is also notable for its platform independence and strong community support.
