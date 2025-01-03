@@ -23,22 +23,22 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.0.1"
-    latestReleaseDate: 2024-10-03
+    latest: "18.2"
+    latestReleaseDate: 2024-12-11
     link: https://support.apple.com/en-us/121161
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
-    eoas: false
-    eol: false
-    latest: "17.7"
-    latestReleaseDate: 2024-09-16
+    eoas: 2024-09-16
+    eol: 2024-11-19
+    latest: "17.7.2"
+    latestReleaseDate: 2024-11-19
     link: https://support.apple.com/en-us/118723
 
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: false
+    eol: 2024-08-07
     latest: "16.7.10"
     latestReleaseDate: 2024-08-07
     link: https://support.apple.com/HT213407
@@ -46,7 +46,7 @@ releases:
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: false
+    eol: 2024-09-16
     latest: "15.8.3"
     latestReleaseDate: 2024-07-29
     link: https://support.apple.com/HT212788
@@ -141,5 +141,8 @@ Major versions of iOS are released annually. Apple significantly extended the cy
 iOS-supported devices over the years. Usually, only the latest iOS release is supported by Apple.
 Starting with iOS 15, Apple started to support [2 major versions of iOS](https://www.zdnet.com/article/still-running-ios-14-on-your-iphone-apple-brings-support-to-an-end/),
 for a short period of time.
+
+Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/)
+but such fixes are not guaranteed. As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
 Support information for iPhone devices are available at [/iphone](/iphone).

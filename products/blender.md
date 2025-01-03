@@ -22,18 +22,25 @@ auto:
   -   git: https://github.com/blender/blender.git
 
 releases:
+-   releaseCycle: "4.3"
+    releaseDate: 2024-11-19
+    eoas: false
+    eol: false
+    latest: "4.3.2"
+    latestReleaseDate: 2024-12-16
+
 -   releaseCycle: "4.2"
     lts: true
     releaseDate: 2024-07-16
     eoas: 2026-07-01
     eol: 2026-07-01
-    latest: "4.2.3"
-    latestReleaseDate: 2024-10-14
+    latest: "4.2.5"
+    latestReleaseDate: 2024-12-16
 
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
-    eoas: false
-    eol: false
+    eoas: 2024-11-19
+    eol: 2024-11-19
     latest: "4.1.1"
     latestReleaseDate: 2024-04-15
 
@@ -49,8 +56,8 @@ releases:
     releaseDate: 2023-06-27
     eoas: 2025-07-01
     eol: 2025-07-01
-    latest: "3.6.17"
-    latestReleaseDate: 2024-10-14
+    latest: "3.6.19"
+    latestReleaseDate: 2024-12-16
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29

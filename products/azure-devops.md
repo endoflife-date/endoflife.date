@@ -11,15 +11,19 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Azure%2
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/o:microsoft:azure_devops_server
+-   cpe: cpe:2.3:o:microsoft:azure_devops_server
+
 releases:
 -   releaseCycle: "2022.2"
     releaseLabel: "2022 Update 2"
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.2"
-    latestReleaseDate: 2024-07-09
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-20222-rtw-release-date-july-9-2024
+    latest: "2022.2patch2"
+    latestReleaseDate: 2024-11-12
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-2-release-date-november-12-2024
 
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
@@ -44,9 +48,9 @@ releases:
     releaseDate: 2021-05-25
     eoas: 2025-10-14
     eol: 2030-10-08
-    latest: "2020.1.2patch13"
-    latestReleaseDate: 2024-03-12
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-13-release-date-march-12-2024
+    latest: "2020.1.2patch14"
+    latestReleaseDate: 2024-11-12
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-14-release-date-november-12-2024
 
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"

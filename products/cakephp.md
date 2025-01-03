@@ -34,8 +34,8 @@ releases:
     supportedPhpVersions: 8.1+
     eoas: false
     eol: false
-    latest: "5.1.1"
-    latestReleaseDate: 2024-10-03
+    latest: "5.1.4"
+    latestReleaseDate: 2024-12-12
 
 -   releaseCycle: "4.5"
     codename: "Strawberry"
@@ -43,8 +43,8 @@ releases:
     supportedPhpVersions: 7.4+
     eoas: 2025-09-09
     eol: 2026-09-09
-    latest: "4.5.7"
-    latestReleaseDate: 2024-09-20
+    latest: "4.5.8"
+    latestReleaseDate: 2024-11-24
 
 -   releaseCycle: "5.0"
     codename: "Chiffon"

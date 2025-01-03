@@ -13,7 +13,7 @@ changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/Rel
 releaseDateColumn: true
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
-eoesColumn: Extended Security Maintenance
+eoesColumn: Expanded Security Maintenance
 
 # https://regex101.com/r/Fzt9US/1
 # We return v1 and v2 separated by newline in case 2 releases were marked
@@ -391,7 +391,7 @@ for more details on the Ubuntu Release Cycle.
 
 ## Support Lifecycle
 
-LTS releases are in "General Support" for 5 years and "Extended Security Maintenance" (see below)
+LTS releases are in "General Support" for 5 years and "Expanded Security Maintenance" (see below)
 for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates"
 (2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are
 supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term
@@ -405,7 +405,7 @@ Ubuntu archive, typically for a period of 5 years from LTS release.
 Packages in `universe` are expected to be community-supported on a best-effort basis during the LTS
 phase, but in practice, security-updates are only released to pro subscriptions.
 
-Extended Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional
+Expanded Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional
 5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a
 [Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
 
@@ -414,7 +414,7 @@ Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in
 the `main` repository.
 
 Canonical also offers [Ubuntu Legacy Support](https://ubuntu.com//blog/canonical-expands-long-term-support-to-12-years-starting-with-ubuntu-14-04-lts),
-to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Extended Security Maintenance (ESM). This offer is only available for Ubuntu Pro paying customers.
+to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyond Expanded Security Maintenance (ESM). This offer is only available for Ubuntu Pro paying customers.
 
 ## Support Comparison
 

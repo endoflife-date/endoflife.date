@@ -14,6 +14,7 @@ identifiers:
 -   repology: struts
 -   cpe: cpe:/a:apache:struts
 -   cpe: cpe:2.3:a:apache:struts
+-   purl: pkg:maven/org.apache.struts/struts2-core
 
 auto:
   methods:
@@ -23,11 +24,17 @@ auto:
 
 # EOL as per announcements on https://struts.apache.org/.
 releases:
+-   releaseCycle: "7"
+    releaseDate: 2024-12-11
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    latest: "6.6.0"
-    latestReleaseDate: 2024-07-20
+    latest: "6.7.0"
+    latestReleaseDate: 2024-11-17
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -75,9 +82,6 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
-
-
-
 ---
 
 > [Apache Struts](https://struts.apache.org/) is a free, open-source, MVC framework for creating

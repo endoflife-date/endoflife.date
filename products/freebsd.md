@@ -17,6 +17,14 @@ identifiers:
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 # See also https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html
 releases:
+-   releaseCycle: "releng/14.2"
+    releaseDate: 2024-12-03
+    eol: 2025-09-30
+
+-   releaseCycle: "releng/13.4"
+    releaseDate: 2024-09-17
+    eol: 2025-06-30
+
 -   releaseCycle: "releng/14.1"
     releaseDate: 2024-06-04
     eol: 2025-03-31
@@ -71,6 +79,10 @@ releases:
     releaseDate: 2019-11-04
     eol: 2021-01-31
 
+-   releaseCycle: "releng/11.3"
+    releaseDate: 2019-07-09
+    eol: 2020-09-30
+
 -   releaseCycle: "releng/12.0"
     releaseDate: 2018-12-11
     eol: 2020-02-04
@@ -80,9 +92,21 @@ releases:
     eol: 2023-12-31
     link: null
 
+-   releaseCycle: "releng/11.2"
+    releaseDate: 2018-06-28
+    eol: 2019-10-31
+
 -   releaseCycle: "releng/10.4"
     releaseDate: 2017-10-03
     eol: 2018-10-31
+
+-   releaseCycle: "releng/11.1"
+    releaseDate: 2017-07-26
+    eol: 2018-09-30
+
+-   releaseCycle: "releng/11.0"
+    releaseDate: 2016-10-10
+    eol: 2017-11-30
 
 -   releaseCycle: "stable/11"
     releaseDate: 2016-10-10

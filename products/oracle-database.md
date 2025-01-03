@@ -27,26 +27,25 @@ auto:
 
 releases:
 -   releaseCycle: "23"
-    releaseLabel: "23c"
+    releaseLabel: "23ai"
     releaseDate: 2023-09-19
     lts: true
-    eol: 2032-04-30
+    eol: 2031-12-31
     eoes: false
     link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
 
 -   releaseCycle: "21"
     releaseLabel: "21c"
     releaseDate: 2021-08-13
-    eol: 2025-04-30
+    eol: 2027-07-31
     link: https://docs.oracle.com/en/database/oracle/oracle-database/21/whats-new.html
 
 -   releaseCycle: "19"
     releaseLabel: "19c"
     releaseDate: 2019-04-25
     lts: true
-    eol: 2026-04-30
-    # The first year of extended support is free.
-    eoes: 2027-04-30
+    eol: 2029-12-31
+    eoes: 2032-12-31
     link: https://docs.oracle.com/en/database/oracle/oracle-database/19/whats-new.html
 
 -   releaseCycle: "18"
@@ -128,6 +127,10 @@ releases:
 > Oracle Database is a commercial relational database management system (RDBMS) developed by Oracle
 > Corporation. It uses the Structured Query Language (SQL) for data manipulation and management, and
 > it provides features such as robust security, transactional consistency, and high availability.
+
+{: .note}
+> Because of the importance of the breakthrough AI technology in the latest 23 release, it was
+> renamed from `23c` to `23ai`.
 
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
 [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")

@@ -11,6 +11,10 @@ releasePolicyLink: https://aws.amazon.com/corretto/faqs/
 changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/a:amazon:corretto
+-   cpe: cpe:2.3:a:amazon:corretto
+
 # There is one repository for each major release (except for 15 and 16).
 # Both tag and GitHub release dates are usually wrong, but GitHub release dates are closer to the correct date.
 auto:
@@ -50,7 +54,7 @@ auto:
       header_selector: "tr:nth-of-type(2)" # for Support Calendar table
       rows_selector: "tr"
       fields:
-        releaseCycle: "Coretto Release" # Typo on the website
+        releaseCycle: "Corretto Release"
         releaseDate:
           column: "GA Date"
           regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
@@ -86,7 +90,7 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
     # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-corretto-22-generally-available/
     releaseDate: 2024-03-19
-    eol: 2024-10-31
+    eol: 2024-10-15
     latest: "22.0.2.9.1"
     latestReleaseDate: 2024-07-16
 
@@ -143,7 +147,7 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-03-15
-    eol: 2027-10-31
+    eol: 2032-01-31
     latest: "11.0.25.9.1"
     latestReleaseDate: 2024-10-16
 
@@ -151,7 +155,7 @@ releases:
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
-    eol: 2026-07-31
+    eol: 2030-12-31
     latest: "8.432.06.1"
     latestReleaseDate: 2024-10-16
 
@@ -162,7 +166,7 @@ releases:
 > Amazon. Corretto is certified using the Java Technical Compatibility Kit (TCK) to ensure it meets
 > the Java SE standard. It is available on Linux, Windows, macOS and Docker.
 
-{: .info}
+{: .note}
 > Amazon [extended the support for Corretto 8 and 11 in October 2024](https://aws.amazon.com/about-aws/whats-new/2024/10/extension-eol-dates-amazon-corretto-8-11/).
 > For Corretto 8 - JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
 

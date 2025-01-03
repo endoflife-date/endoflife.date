@@ -19,13 +19,20 @@ releaseDateColumn: true
 eoesColumn: true
 
 releases:
+-   releaseCycle: "2411"
+    releaseDate: 2024-12-03
+    eoas: 2025-06-03
+    eol: 2026-06-03
+    latest: "2411"
+    latestReleaseDate: 2024-12-03
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+
 -   releaseCycle: "2407"
     releaseDate: 2024-07-31
     eoas: 2024-12-31
     eol: 2025-12-31
     latest: "2407"
     latestReleaseDate: 2024-07-31
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
 
 -   releaseCycle: "2402"
     releaseDate: 2024-04-15
@@ -162,9 +169,9 @@ releases:
     eoas: 2024-12-18
     eol: 2024-12-18
     eoes: 2029-12-18
-    latest: "1912 CU9"
-    latestReleaseDate: 2024-04-30
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-9.html
+    latest: "1912 CU10"
+    latestReleaseDate: 2024-11-25
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/1912-ltsr/whats-new/cumulative-update-10.html
 
 -   releaseCycle: "7.15"
     releaseLabel: XenDesktop __RELEASE_CYCLE__

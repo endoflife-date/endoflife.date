@@ -27,15 +27,15 @@ releases:
     releaseDate: 2022-10-28 # https://discourse.chef.io/t/chef-infra-client-18-0-169-released/21570
     eoas: false
     eol: false
-    latest: "18.5.0"
-    latestReleaseDate: 2024-07-09
+    latest: "18.6.2"
+    latestReleaseDate: 2024-12-13
 
 -   releaseCycle: "17"
     releaseDate: 2021-04-28 # https://www.chef.io/blog/product-announcement-chef-infra-client-17-now-available
     eoas: 2022-01-10
     eol: 2024-11-30
-    latest: "17.10.122"
-    latestReleaseDate: 2024-03-11
+    latest: "17.10.163"
+    latestReleaseDate: 2024-08-27
 
 -   releaseCycle: "16"
     releaseDate: 2020-05-05 # https://discourse.chef.io/t/chef-infra-client-16-0-275-released/17047
@@ -92,20 +92,4 @@ releases:
 > management and application-deployment tool enabling infrastructure as code.
 
 Chef Infra Client generally follows an N-1 support strategy
-(meanings that the 2 most recent major versions receive security and bug fixes)
-
-## [Release Schedule](https://github.com/chef/chef/blob/main/docs/dev/policy/release_and_support_schedule.md)
-
-Latest major releases Schedule:
-
-| Version Type | Description                                                                                                       | Cadence                |
-|:-------------|:------------------------------------------------------------------------------------------------------------------|------------------------|
-| Major        | For significant changes, will include breaking or backwards-incompatible changes.                                 | Once a year in April   |
-| Minor        | Will include new features, bug fixes, and will be backwards-compatible to the best of the maintainers' abilities. | 2nd week of each month |
-| Patch        | Will include backwards-compatible bug fixes.                                                                      | As needed.             |
-
-N-1 major releases Schedule:
-
-| Version Type  | Description                                         | Cadence    |
-|:--------------|:----------------------------------------------------|:-----------|
-| Minor & Patch | For critical bugs and security vulnerabilities only | As needed. |
+(meaning that the two most recent major versions receive security and bug fixes).

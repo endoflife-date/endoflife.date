@@ -29,25 +29,25 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: '15.0.1'
-    latestReleaseDate: 2024-10-03
+    latest: '15.2'
+    latestReleaseDate: 2024-12-11
     link: https://support.apple.com/en-us/120283
 
 -   releaseCycle: "14"
     codename: "Sonoma"
     releaseDate: 2023-09-26
     eol: false
-    latest: '14.7.0'
-    latestReleaseDate: 2024-09-16
-    link: https://support.apple.com/121247
+    latest: '14.7.2'
+    latestReleaseDate: 2024-12-11
+    link: https://support.apple.com/109035
 
 -   releaseCycle: "13"
     codename: "Ventura"
     releaseDate: 2022-10-24
     eol: false
-    latest: '13.7.0'
-    latestReleaseDate: 2024-09-16
-    link: https://support.apple.com/121234
+    latest: '13.7.2'
+    latestReleaseDate: 2024-12-11
+    link: https://support.apple.com/HT213268
 
 -   releaseCycle: "12"
     codename: "Monterey"
@@ -124,7 +124,7 @@ releases:
     releaseDate: 2012-07-25
     eol: 2015-08-13
     latest: '10.8.5'
-    latestReleaseDate: 2015-08-13
+    latestReleaseDate: 2013-09-12
 
 -   releaseCycle: "10.7"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"
@@ -132,7 +132,7 @@ releases:
     releaseDate: 2011-07-20
     eol: 2012-10-04
     latest: '10.7.5'
-    latestReleaseDate: 2012-10-04
+    latestReleaseDate: 2012-09-19
 
 -   releaseCycle: "10.6"
     releaseLabel: "Mac OS X __RELEASE_CYCLE__ (__CODENAME__)"

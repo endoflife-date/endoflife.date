@@ -19,33 +19,40 @@ auto:
   -   npm: react-native
 
 releases:
+-   releaseCycle: "0.76"
+    releaseDate: 2024-10-23
+    eoas: false
+    eol: false
+    latest: "0.76.2"
+    latestReleaseDate: 2024-11-14
+    
 -   releaseCycle: "0.75"
     releaseDate: 2024-08-14
     eoas: false
     eol: false
-    latest: "0.75.3"
-    latestReleaseDate: 2024-09-11
+    latest: "0.75.4"
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "0.74"
     releaseDate: 2024-04-23
-    eoas: false
+    eoas: 2024-10-23
     eol: false
-    latest: "0.74.3"
-    latestReleaseDate: 2024-07-02
+    latest: "0.74.6"
+    latestReleaseDate: 2024-10-02
 
 -   releaseCycle: "0.73"
     releaseDate: 2023-12-07
     eoas: 2024-08-14
-    eol: false
-    latest: "0.73.9"
-    latestReleaseDate: 2024-07-10
+    eol: 2024-10-23
+    latest: "0.73.11"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "0.72"
     releaseDate: 2023-06-22
     eoas: 2024-04-23
     eol: 2024-08-14
-    latest: "0.72.15"
-    latestReleaseDate: 2024-06-12
+    latest: "0.72.17"
+    latestReleaseDate: 2024-08-19
 
 -   releaseCycle: "0.71"
     releaseDate: 2023-01-13

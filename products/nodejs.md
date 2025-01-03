@@ -32,16 +32,16 @@ releases:
     releaseDate: 2024-10-16
     eoas: 2025-04-01
     eol: 2025-06-01
-    latest: "23.0.0"
-    latestReleaseDate: 2024-10-16
+    latest: "23.5.0"
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "22"
     releaseDate: 2024-04-24
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.10.0"
-    latestReleaseDate: 2024-10-17
+    latest: "22.12.0"
+    latestReleaseDate: 2024-12-03
 
 -   releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -55,8 +55,8 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.18.0"
-    latestReleaseDate: 2024-10-03
+    latest: "20.18.1"
+    latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -71,8 +71,8 @@ releases:
     eoas: 2023-10-18
     eol: 2025-04-30
     eoes: false
-    latest: "18.20.4"
-    latestReleaseDate: 2024-07-08
+    latest: "18.20.5"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19
@@ -221,7 +221,9 @@ LTS releases.
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and
 is not recommended for Production use.
 
-Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP). Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
+Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes)
+initiative.
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
 to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.

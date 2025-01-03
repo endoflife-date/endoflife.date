@@ -18,8 +18,7 @@ eolColumn: Support
 
 auto:
   methods:
-  -   git: https://github.com/kubernetes-sigs/node-feature-discovery.git
-      regex: '^v?(?P<major>\d)\.(?P<minor>\d+)(\.(?P<patch>\d+)(\.(?P<tiny>\d+))?)?$' # 0.x versions are ignored by default
+  -   github_releases: kubernetes-sigs/node-feature-discovery
 
 identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
@@ -27,17 +26,23 @@ identifiers:
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "0.17"
+    releaseDate: 2024-12-22
+    eol: false
+    latest: "0.17.0"
+    latestReleaseDate: 2024-12-22
+
 -   releaseCycle: "0.16"
     releaseDate: 2024-05-27
     eol: false
-    latest: "0.16.5"
-    latestReleaseDate: 2024-10-14
+    latest: "0.16.6"
+    latestReleaseDate: 2024-10-30
 
 -   releaseCycle: "0.15"
     releaseDate: 2023-08-08
-    eol: false
-    latest: "0.15.6"
-    latestReleaseDate: 2024-07-10
+    eol: 2024-12-24
+    latest: "0.15.7"
+    latestReleaseDate: 2024-10-23
 
 -   releaseCycle: "0.14"
     releaseDate: 2023-04-19

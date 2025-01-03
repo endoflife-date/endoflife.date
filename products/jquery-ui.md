@@ -20,10 +20,10 @@ releases:
 -   releaseCycle: "1.14"
     releaseDate: 2024-08-05
     eol: false
-    latest: "1.14.0"
+    latest: "1.14.1"
     link: https://blog.jqueryui.com/2024/08/jquery-ui-1-14-0-released/
 
-    latestReleaseDate: 2024-08-05
+    latestReleaseDate: 2024-10-30
 -   releaseCycle: "1.13"
     releaseDate: 2021-10-07
     eol: 2024-08-05

@@ -9,7 +9,7 @@ alternate_urls:
 releasePolicyLink: https://jetty.org/download.html
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
 releaseDateColumn: true
-eoasColumn: "Community Support"
+eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
 
@@ -30,8 +30,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.14"
-    latestReleaseDate: 2024-09-30
+    latest: "12.0.16"
+    latestReleaseDate: 2024-12-09
 
 -   releaseCycle: "11"
     minJvmVersion: 11
@@ -39,8 +39,8 @@ releases:
     jspVersion: 3.0
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
-    eoes: 2025-01-01 # estimated, see https://github.com/jetty/jetty.project/issues/10485
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
+    eoes: false
     latest: "11.0.24"
     latestReleaseDate: 2024-08-26
 
@@ -50,7 +50,7 @@ releases:
     jspVersion: 2.3
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/10485
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eoes: false
     latest: "10.0.24"
     latestReleaseDate: 2024-08-26
@@ -61,7 +61,7 @@ releases:
     jspVersion: 2.3
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
-    eol: false # currently estimated to 2025-01-01, see https://github.com/jetty/jetty.project/issues/7958
+    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/7958
     eoes: false
     latest: "9.4.53.v20231009"
     latestReleaseDate: 2023-10-10
