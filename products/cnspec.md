@@ -16,8 +16,8 @@ auto:
 identifiers:
 -   cpe: cpe:2.3:a:cnspec:cnspec
 
-# eol(x) = releaseDate(x+2)
 # eoas(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "11"
     releaseDate: 2024-04-17
