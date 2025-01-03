@@ -19,14 +19,12 @@ releases:
     eol: false
     latest: "1.28.3"
     latestReleaseDate: 2024-09-15
-    link: https://github.com/backdrop/backdrop/releases/tag/1.28.3
 
 -   releaseCycle: "1.27"
     releaseDate: 2024-01-15
     eol: 2024-09-15
     latest: "1.27.3"
     latestReleaseDate: 2024-07-03
-    link: https://github.com/backdrop/backdrop/releases/tag/1.27.3
 
 ---
 
