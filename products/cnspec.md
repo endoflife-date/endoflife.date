@@ -63,7 +63,9 @@ releases:
 
 ---
 
-> [cnspec](https://mondoo.com/cnspec/) is an open source, cloud-native tool that assesses
-> the security of your entire infrastructure.
+> [cnspec](https://mondoo.com/cnspec/) is an open source, cloud-native security and policy tool.
+> It assesses an entire infrastructure's security and compliance and finds vulnerabilities and
+> misconfigurations across public and private cloud environments, Kubernetes clusters, containers,
+> container registries, servers, endpoints, SaaS products, infrastructure as code, APIs, and more.
 
 cnspec follows an N-1 support strategy, meaning the current major version (N) and the immediate previous major version (N-1) are officially supported with non-breaking changes, bug and security fixes. During this time, both major versions can communicate with the Mondoo Platform and execute all published policies and query packs.
