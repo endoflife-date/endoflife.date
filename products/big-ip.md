@@ -10,21 +10,21 @@ eoasColumn: End of Software Development
 
 releases:
 
--   releaseCycle: "17.1.x"
+-   releaseCycle: "17.1"
     releaseDate: 2023-03-14
     eoas: 2027-03-31
     eol: 2027-03-31
     latest: "17.1.1"  
     lts: true
 
--   releaseCycle: "16.1.x"
+-   releaseCycle: "16.1"
     releaseDate: 2021-07-07
     eoas: 2025-07-31
     eol: 2025-07-31
     latest: "16.1.5"
     lts: true
 
--   releaseCycle: "15.1.x"
+-   releaseCycle: "15.1"
     releaseDate: 2019-12-11
     eoas: 2025-12-31
     eol: 2025-12-31
