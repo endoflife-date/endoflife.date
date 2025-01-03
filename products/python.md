@@ -244,8 +244,10 @@ releases:
 
 ---
 
-> [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming
-> language.
+> [Python](https://www.python.org/) is a high-level, object-oriented, and dynamic programming language.
+> It is known for its readability and simple syntax. With extensive library support, Python is used in
+> various fields such as data analysis, web development, and artificial intelligence.
+> It is also notable for its platform independence and strong community support.
 
 The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release
 manager of each branch. Every release gets:
