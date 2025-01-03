@@ -19,6 +19,18 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+-   releaseCycle: "Galaxy A16"
+    releaseDate: 2024-11-20
+    eoas: 2030-11-20 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
+    eol: 2030-11-20 # "6 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A165F/XFA/doc.html
+
+-   releaseCycle: "Galaxy A16 5G"
+    releaseDate: 2024-10-25
+    eoas: 2030-10-25 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
+    eol: 2030-10-25 # "6 years of security updates"
+    link: https://doc.samsungmobile.com/SM-A166B/EUX/doc.html
+
 -   releaseCycle: "Galaxy S24 FE"
     releaseDate: 2024-09-26
     eoas: 2031-09-26 # "seven generations of OS upgrades" (https://news.samsung.com/us/galaxy-s24-series-expands-with-s24-fe-a-premium-experience-that-makes-full-galaxy-ai-capabilities-attainable-for-more-users/)
