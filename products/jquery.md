@@ -1,10 +1,11 @@
 ---
 title: jQuery
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
+eoesColumn: Commercial Support
 releaseDateColumn: true
 
 identifiers:
@@ -29,6 +30,7 @@ releases:
 -   releaseCycle: "2"
     releaseDate: 2013-04-18
     eol: true
+    eoes: false
     latest: "2.2.4"
     latestReleaseDate: 2016-05-20
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
@@ -36,6 +38,7 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2006-08-31
     eol: true
+    eoes: false
     latest: "1.12.4"
     latestReleaseDate: 2016-05-20
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
@@ -48,6 +51,11 @@ releases:
 Only the latest version in the current release cycle is supported. The 1.x and 2.x branches no
 longer receive patches, although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
 serious security patches have been backported and that they would consider it again in the future.
+
+The jQuery team has indicated that they will be participating in the [OpenJS Foundation's
+Ecosystem Sustainability Program (ESP)](https://openjsf.org/ecosystem-sustainability-program)
+and have [announced that commercial support for 1.x and
+2.x branches are now available](https://jquery.com/support) from [HeroDevs](https://www.herodevs.com/support/jquery-nes).
 
 ## [Browser Support](https://jquery.com/browser-support/)
 
