@@ -1,7 +1,7 @@
 ---
 title: Node.js
 category: framework
-tags: javascript-runtime herodevs
+tags: javascript-runtime
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
