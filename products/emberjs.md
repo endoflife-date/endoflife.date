@@ -46,6 +46,7 @@ releases:
     eol: 2026-02-21
     latest: "6.1.0"
     latestReleaseDate: 2024-12-28
+    link: https://blog.emberjs.com/ember-released-6-1/
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-11-20
@@ -54,6 +55,7 @@ releases:
     eol: 2026-01-14
     latest: "6.0.0"
     latestReleaseDate: 2024-11-20
+    link: https://blog.emberjs.com/ember-6-0-released/
 
 -   releaseCycle: "5.12"
     releaseDate: 2024-09-30
