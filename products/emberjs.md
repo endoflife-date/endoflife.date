@@ -41,18 +41,16 @@ auto:
 releases:
 -   releaseCycle: "6.1"
     releaseDate: 2024-12-28
-    lts: 2025-02-08
-    eoas: 2025-10-18
-    eol: 2026-02-21
+    eoas: false
+    eol: false
     latest: "6.1.0"
     latestReleaseDate: 2024-12-28
     link: https://blog.emberjs.com/ember-released-6-1/
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-11-20
-    lts: 2025-01-01
-    eoas: 2025-09-10
-    eol: 2026-01-14
+    eoas: 2024-12-28
+    eol: 2024-12-28
     latest: "6.0.0"
     latestReleaseDate: 2024-11-20
     link: https://blog.emberjs.com/ember-6-0-released/
