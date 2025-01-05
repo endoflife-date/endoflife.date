@@ -13,6 +13,9 @@ auto:
       regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
       template: '{{version}}'
 
+identifiers:
+-   repology: mandrel
+
 releases:
 -   releaseCycle: "24.1"
     releaseLabel: "24.1 (JDK 23)"

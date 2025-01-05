@@ -24,6 +24,9 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+identifiers:
+-   repology: mattermost
+
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
 -   releaseCycle: "10.3"
