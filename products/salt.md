@@ -8,7 +8,6 @@ alternate_urls:
 -   /saltstack
 versionCommand: salt --version
 releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
-releaseImage: https://docs.saltproject.io/salt/install-guide/en/latest/_images/salt-release-timeline.png
 changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 eoasColumn: true
@@ -65,6 +64,7 @@ releases:
     eol: 2024-02-25
     latest: "3005.5"
     latestReleaseDate: 2024-01-24
+    link: https://web.archive.org/web/20240521033125/https://docs.saltproject.io/en/3005/topics/releases/3005.5.html
 
 -   releaseCycle: "3004"
     releaseDate: 2021-10-12
@@ -72,6 +72,7 @@ releases:
     eol: 2023-04-18
     latest: "3004.2"
     latestReleaseDate: 2022-05-13
+    link: https://web.archive.org/web/20240607070921/https://docs.saltproject.io/en/3004/topics/releases/3004.2.html
 
 ---
 
