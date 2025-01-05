@@ -12,6 +12,9 @@ auto:
   methods:
   -   git: https://github.com/influxdata/telegraf
 
+identifiers:
+-   repology: telegraf
+
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "1.33"

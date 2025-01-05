@@ -12,6 +12,7 @@ releaseDateColumn: true
 identifiers:
 -   purl: pkg:github/hashicorp/terraform
 -   purl: pkg:generic/terraform
+-   repology: terraform
 
 auto:
   methods:
