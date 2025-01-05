@@ -21,6 +21,9 @@ auto:
         releaseDate: "Start"
         eol: "End of Life"
 
+identifiers:
+-   repology: containerd
+
 # Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
 releases:
 -   releaseCycle: "2.0"

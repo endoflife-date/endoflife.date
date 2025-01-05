@@ -37,6 +37,7 @@ identifiers:
 -   purl: pkg:rpm/redhat/dotnet-sdk-3.1
 -   purl: pkg:rpm/redhat/dotnet-sdk-3.0
 -   purl: pkg:rpm/redhat/dotnet-sdk-2.1
+-   repology: dotnet
 
 auto:
   methods:

@@ -18,6 +18,9 @@ auto:
   -   git: https://github.com/fluxcd/flux2.git
   -   git: https://github.com/fluxcd/flux.git
 
+identifiers:
+-   repology: fluxcd
+
 # eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "2.4"

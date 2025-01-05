@@ -15,6 +15,7 @@ auto:
 
 identifiers:
 -   cpe: cpe:2.3:a:cnspec:cnspec
+-   repology: cnspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)

@@ -18,6 +18,7 @@ auto:
 
 identifiers:
 -   repology: chef-client
+-   repology: chef-infra
 -   cpe: cpe:2.3:a:chef:chef
 
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/

@@ -13,6 +13,9 @@ auto:
   methods:
   -   git: https://github.com/elixir-lang/elixir.git
 
+identifiers:
+-   repology: elixir
+
 # eoas(x) = releaseDate(x+1) (or true if not yet released)
 # eol(x) = releaseDate(x+5) (or false if not yet released)
 releases:

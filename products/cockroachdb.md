@@ -35,6 +35,9 @@ auto:
         eoas: "Maintenance Support ended"
         eol: "Assistance Support ended"
 
+identifiers:
+-   repology: cockroachdb
+
 # For LTS Releases
 # eoas(x) = lts(x)+1y
 # eol(x)  = lts(x)+2y
