@@ -15,6 +15,7 @@ eolColumn: Support Status
 
 identifiers:
 -   purl: pkg:github/powershell/powershell
+-   repology: powershell
 
 auto:
   methods:

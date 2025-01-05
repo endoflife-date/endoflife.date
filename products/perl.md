@@ -16,6 +16,7 @@ identifiers:
 -   purl: pkg:apk/alpine/perl
 -   purl: pkg:deb/debian/perl
 -   purl: pkg:generic/perl
+-   repology: perl
 
 auto:
   methods:
