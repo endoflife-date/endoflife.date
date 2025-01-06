@@ -21,6 +21,7 @@ customColumns:
 
 identifiers:
 -   cpe: cpe:2.3:o:vmware:photon_os
+-   cpe: cpe:/o:vmware:photon_os
 
 # EOL Dates for 3.0 and 4.0 are tentative, as they are documented as:
 # March 2024, and March 2026.

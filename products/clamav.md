@@ -9,6 +9,8 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: clamav
+-   cpe: cpe:2.3:a:clamav:clamav
+-   cpe: cpe:/a:clamav:clamav
 
 auto:
   methods:

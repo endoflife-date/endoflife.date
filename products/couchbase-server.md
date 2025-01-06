@@ -15,6 +15,8 @@ identifiers:
 -   repology: couchbase-server-community
 -   purl: pkg:docker/library/couchbase
 -   purl: pkg:docker/couchbase/server
+-   cpe: cpe:2.3:a:couchbase:couchbase_server
+-   cpe: cpe:/a:couchbase:couchbase_server
 
 auto:
   methods:

@@ -18,6 +18,11 @@ auto:
   methods:
   -   custom: cos
 
+identifiers:
+-   cpe: cpe:2.3:o:google:container-optimized_os
+-   cpe: cpe:/o:google:container-optimized_os
+
+
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
 -   releaseCycle: "cos-117"

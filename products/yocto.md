@@ -18,6 +18,10 @@ auto:
   -   git: https://github.com/yoctoproject/poky.git
       regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
+identifiers:
+-   cpe: cpe:2.3:a:linuxfoundation:yocto
+-   cpe: cpe:/a:linuxfoundation:yocto
+
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
 -   releaseCycle: "5.1"

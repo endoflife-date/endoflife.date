@@ -25,6 +25,10 @@ auto:
         eoas: "Full Support Until"
         eol: "Security Support Until"
 
+identifiers:
+-   cpe: cpe:2.3:a:craftcms:craft_cms
+-   cpe: cpe:/a:craftcms:craft_cms
+
 releases:
 -   releaseCycle: "5"
     releaseDate: 2024-03-26

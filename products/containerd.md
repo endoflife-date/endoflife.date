@@ -23,6 +23,8 @@ auto:
 
 identifiers:
 -   repology: containerd
+-   cpe: cpe:2.3:a:linuxfoundation:containerd
+-   cpe: cpe:/a:linuxfoundation:containerd
 
 # Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
 releases:

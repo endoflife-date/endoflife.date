@@ -23,6 +23,8 @@ identifiers:
 -   purl: pkg:docker/library/drupal
 -   purl: pkg:docker/bitnami/drupal-nginx
 -   purl: pkg:github/drupal/core
+-   cpe: cpe:2.3:a:drupal:drupal
+-   cpe: cpe:/a:drupal:drupal
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.

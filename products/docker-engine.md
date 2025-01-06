@@ -12,6 +12,8 @@ releaseDateColumn: true
 identifiers:
 -   repology: docker
 -   repology: docker-ce
+-   cpe: cpe:2.3:a:docker:engine
+-   cpe: cpe:/a:docker:engine
 
 auto:
   methods:

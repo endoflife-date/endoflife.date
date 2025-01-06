@@ -19,6 +19,8 @@ identifiers:
 -   purl: pkg:docker/library/consul
 -   purl: pkg:github/hashicorp/consul
 -   purl: pkg:golang/github.com/hashicorp/consul
+-   cpe: cpe:2.3:a:hashicorp:consul
+-   cpe: cpe:/a:hashicorp:consul
 
 # eol(x) = releaseDate(x+3)
 releases:

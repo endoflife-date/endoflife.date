@@ -16,6 +16,10 @@ eoesColumn: true
 #  methods:
 #  -   custom: coldfusion
 
+identifiers:
+-   cpe: cpe:2.3:a:adobe:coldfusion
+-   cpe: cpe:/a:adobe:coldfusion
+
 # When adding a cycle, don't forget to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
 # to benefit from auto-updates.
