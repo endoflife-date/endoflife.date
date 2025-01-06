@@ -53,5 +53,7 @@ releases:
 
    F5 Networks typically provides a major release of BIG-IP every 12-18 months, with regular maintenance updates to address security and performance issues. Each version of BIG-IP is generally supported for up to 5 years, including Full Support for the first 3 years and Limited Support for the remaining 2 years. After this period, the product reaches its End of Life (EoL) and will no longer receive updates or support from F5. The **EoL policy** ensures that customers have a defined timeline for transitioning to newer versions before support fully ends.
 
+**Additional information**:  
+   BIG-IP products are highly customizable and used in a variety of deployment environments including cloud, on-premise, and hybrid. They play a critical role in managing and securing high-traffic environments, offering modules like Local Traffic Manager (LTM), Advanced Firewall Manager (AFM), and Access Policy Manager (APM), among others.
 
 
