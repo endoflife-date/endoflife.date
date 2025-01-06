@@ -16,6 +16,8 @@ auto:
 identifiers:
 -   cpe: cpe:2.3:a:cnspec:cnspec
 -   repology: cnspec
+-   purl: pkg:github/mondoohq/cnspec
+-   purl: pkg:docker/mondoo/cnspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
