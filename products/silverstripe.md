@@ -120,7 +120,7 @@ releases:
     link: null
 
 -   releaseCycle: "2.3"
-    releaseDate: 2011-02-02
+    releaseDate: 2009-02-23
     eoas: true
     eol: true
     latest: "2.3.13"
