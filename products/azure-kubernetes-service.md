@@ -21,8 +21,8 @@ releases:
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-08-05
-    eol: 2025-07-31
-    lts: 2026-07-31
+    eol: 2026-07-31
+    lts: 2025-07-31
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.29"
@@ -37,8 +37,8 @@ releases:
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-08-16
-    eol: 2024-07-31
-    lts: 2025-07-31
+    eol: 2025-07-31
+    lts: 2024-07-31
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.26"
