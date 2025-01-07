@@ -1,0 +1,45 @@
+---
+title: Valkey
+category: database
+iconSlug: valkey
+permalink: /valkey
+versionCommand: valkey-server --version
+releasePolicyLink: https://valkey.io/topics/releases/
+changelogTemplate: https://github.com/valkey-io/valkey/releases/tag/__LATEST__
+eoasColumn: true
+releaseDateColumn: true
+eoasColumn: Maintenance Support
+eolColumn: Extended Security Support
+
+identifiers:
+  - purl: pkg:github/valkey-io/valkey
+  - purl: pkg:docker/valkey/valkey
+
+auto:
+  methods:
+    - git: https://github.com/valkey-io/valkey.git
+
+releases:
+  - releaseCycle: "8.0"
+    releaseDate: 2024-09-15
+    eoas: false
+    eol: false
+    latest: "8.0.1"
+    latestReleaseDate: 2024-10-02
+
+  - releaseCycle: "7.2"
+    releaseDate: 2023-08-15 # inherit from redis
+    eoas: 2027-04-16
+    eol: 2029-04-16
+    latest: "7.2.7"
+    latestReleaseDate: 2024-10-02
+---
+
+> [Valkey](https://valkey.io/) is an open source (BSD) high-performance key/value datastore
+> that supports a variety of workloads such as caching, message queues,
+> and can act as a primary database. Valkey can run as either a standalone
+> daemon or in a cluster, with options for replication and high availability.
+
+The Valkey community strives to release a stable major version once a year.
+Stable minor versions are created as needed in between major releases,
+and we aim to release at least one minor version a year.
