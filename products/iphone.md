@@ -247,7 +247,7 @@ releases:
     releaseLabel: "8"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP767
     supportedIosVersions: 11 - 16
 
@@ -255,7 +255,7 @@ releases:
     releaseLabel: "8 Plus"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP768
     supportedIosVersions: 11 - 16
 
@@ -263,7 +263,7 @@ releases:
     releaseLabel: "X"
     releaseDate: 2017-09-12
     discontinued: 2018-09-12
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP770
     supportedIosVersions: 11 - 16
 
