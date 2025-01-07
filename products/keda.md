@@ -20,6 +20,13 @@ identifiers:
 
 # Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md.
 releases:
+-   releaseCycle: "2.16"
+    releaseDate: 2024-11-07
+    eol: 2025-04-30 # estimated releaseDate(2.18)
+    supportedKubernetesVersions: 1.29 - 1.31
+    latest: "2.16.1"
+    latestReleaseDate: 2024-12-24
+
 -   releaseCycle: "2.15"
     releaseDate: 2024-08-01
     eol: 2025-01-30 # estimated releaseDate(2.17)
@@ -29,7 +36,7 @@ releases:
 
 -   releaseCycle: "2.14"
     releaseDate: 2024-04-25
-    eol: 2024-10-30 # estimated releaseDate(2.16)
+    eol: 2024-11-07 # releaseDate(2.16)
     supportedKubernetesVersions: 1.27 - 1.29
     latest: "2.14.1"
     latestReleaseDate: 2024-07-31

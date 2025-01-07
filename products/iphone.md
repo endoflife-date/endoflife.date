@@ -274,7 +274,7 @@ releases:
     releaseLabel: "7"
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP743
     supportedIosVersions: 10 - 15
 
@@ -285,7 +285,7 @@ releases:
     releaseLabel: "7 Plus"
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP744
     supportedIosVersions: 10 - 15
 
@@ -293,7 +293,7 @@ releases:
     releaseLabel: "SE (1st generation)"
     releaseDate: 2016-03-31
     discontinued: 2018-09-12
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP738
     supportedIosVersions: 9 - 15
 
@@ -301,7 +301,7 @@ releases:
     releaseLabel: "6S"
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP726
     supportedIosVersions: 9 - 15
 
@@ -309,7 +309,7 @@ releases:
     releaseLabel: "6S Plus"
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP727
     supportedIosVersions: 9 - 15
 

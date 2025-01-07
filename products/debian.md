@@ -37,8 +37,8 @@ releases:
     eol: 2026-06-10
     eoes: 2028-06-10
     link: https://www.debian.org/News/2024/20240629
-    latest: "12.7"
-    latestReleaseDate: 2024-08-31
+    latest: "12.8"
+    latestReleaseDate: 2024-11-09
 
 -   releaseCycle: "11"
     codename: "Bullseye"
@@ -63,7 +63,7 @@ releases:
     releaseDate: 2017-06-17
     eol: 2020-07-18
     eoes: 2022-07-01
-    link: https://www.debian.org/News/2020/20200718
+    link: https://lists.debian.org/debian-announce/2017/msg00003.html
     latest: "9.13"
     latestReleaseDate: 2020-07-18
 
@@ -72,7 +72,7 @@ releases:
     releaseDate: 2015-04-25
     eol: 2018-06-17
     eoes: 2020-06-30
-    link: https://www.debian.org/News/2018/20180623
+    link: https://lists.debian.org/debian-announce/2015/msg00001.html
     latest: "8.11"
     latestReleaseDate: 2018-06-23
 
@@ -81,7 +81,7 @@ releases:
     releaseDate: 2013-05-04
     eol: 2016-04-25
     eoes: 2018-05-31
-    link: https://www.debian.org/News/2016/2016060402
+    link: https://lists.debian.org/debian-announce/2013/msg00002.html
     latest: "7.11"
     latestReleaseDate: 2016-06-04
 
@@ -90,7 +90,7 @@ releases:
     releaseDate: 2011-02-06
     eol: 2014-05-31
     eoes: 2016-02-29
-    link: https://www.debian.org/News/2014/20140719
+    link: https://lists.debian.org/debian-announce/2011/msg00001.html
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
 
@@ -99,7 +99,7 @@ releases:
     releaseDate: 2009-02-14
     eol: 2012-02-06
     eoes: 2012-02-06
-    link: https://www.debian.org/News/2012/20120310
+    link: https://lists.debian.org/debian-announce/2009/msg00002.html
     latest: "5.0.10"
     latestReleaseDate: 2012-03-10
 
@@ -108,7 +108,7 @@ releases:
     releaseDate: 2007-04-08
     eol: 2010-02-15
     eoes: 2010-02-15
-    link: https://www.debian.org/News/2010/20100522
+    link: https://lists.debian.org/debian-announce/2007/msg00002.html
     latest: "4.0r9"
     latestReleaseDate: 2010-05-22
 
@@ -117,7 +117,7 @@ releases:
     releaseDate: 2005-06-06
     eol: 2008-03-31
     eoes: 2008-03-31
-    link: https://www.debian.org/News/2008/20080413
+    link: https://lists.debian.org/debian-announce/2005/msg00003.html
     latest: "3.1r8"
     latestReleaseDate: 2008-04-13
 
@@ -126,7 +126,7 @@ releases:
     releaseDate: 2002-07-19
     eol: 2006-06-30
     eoes: 2006-06-30
-    link: https://www.debian.org/News/2005/20050602
+    link: https://lists.debian.org/debian-announce/2002/msg00004.html
     latest: "3.0r6"
     latestReleaseDate: 2005-06-02
 
@@ -135,7 +135,7 @@ releases:
     releaseDate: 2000-08-15
     eol: 2003-06-30
     eoes: 2003-06-30
-    link: https://www.debian.org/News/2002/20020713
+    link: https://lists.debian.org/debian-announce/2000/msg00009.html
     latest: "2.2r7"
     latestReleaseDate: 2002-07-13
 
@@ -144,7 +144,7 @@ releases:
     releaseDate: 1999-03-09
     eol: 2000-09-30
     eoes: 2000-10-30
-    link: https://www.debian.org/News/2000/20000216
+    link: https://lists.debian.org/debian-announce/1999/msg00005.html
     latest: "2.1r5"
     latestReleaseDate: 2000-02-16
 
@@ -153,7 +153,7 @@ releases:
     releaseDate: 1998-07-24
     eol: 1999-02-15
     eoes: 1999-02-15
-    link: https://lists.debian.org/debian-announce/1999/msg00001.html
+    link: https://lists.debian.org/debian-announce/1998/msg00015.html
     latest: "2.0r5"
     latestReleaseDate: 1999-02-17
 
@@ -162,7 +162,7 @@ releases:
     releaseDate: 1997-07-02
     eol: 1998-12-08
     eoes: 1998-12-08
-    link: https://www.debian.org/News/1998/19980203c
+    link: https://lists.debian.org/debian-announce/1997/msg00018.html
     latest: "1.3.1 r.6"
     latestReleaseDate: 1998-02-03
 

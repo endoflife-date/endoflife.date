@@ -14,14 +14,16 @@ identifiers:
 -   purl: pkg:docker/calico/cni
 -   purl: pkg:docker/chainguard/calico-cni
 -   repology: calico
+-   cpe: cpe:/a:projectcalico:calico
+-   cpe: cpe:2.3:a:projectcalico:calico
 
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "3.29"
     releaseDate: 2024-10-29
     eol: false
-    latest: "3.29.0"
-    latestReleaseDate: 2024-10-29
+    latest: "3.29.1"
+    latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "3.28"
     releaseDate: 2024-05-10
@@ -32,8 +34,8 @@ releases:
 -   releaseCycle: "3.27"
     releaseDate: 2023-12-15
     eol: 2024-10-29
-    latest: "3.27.4"
-    latestReleaseDate: 2024-07-08
+    latest: "3.27.5"
+    latestReleaseDate: 2024-11-28
 
 -   releaseCycle: "3.26"
     releaseDate: 2023-05-27

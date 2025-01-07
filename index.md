@@ -20,7 +20,7 @@ Here are some of our most popular pages:
 Programming           | [Python][python] | [Ruby][ruby] | [Java][java] | [PHP][php]
 Devices               | [iPhone][iphone] | [Android][android] | [Google Pixel][pixel] | [Nokia][nokia]
 Databases             | [MongoDB][mongodb] | [PostgreSQL][postgresql] | [Redis][redis] | [MySQL][mysql]
-Operating Systems     | [Windows][windows] | [Windows Server][windows-server] | [MacOS][macos] | [FortiOS][fortios]
+Operating Systems     | [Windows][windows] | [Windows Server][windows-server] | [macOS][macos] | [FortiOS][fortios]
 Frameworks            | [Angular][angular] | [Django][django] | [Ruby on Rails][rails] | [.NET][net]
 Desktop Applications  | [Firefox][firefox] | [Internet Explorer][ie] | [Godot][godot] | [Unity][unity]
 Server Applications   | [Nginx][nginx] | [Kubernetes][k8s] | [Tomcat][tomcat] | [HAProxy][haproxy]

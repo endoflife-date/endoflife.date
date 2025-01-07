@@ -13,6 +13,7 @@ eoasColumn: true
 
 identifiers:
 -   purl: pkg:github/emberjs/ember.js
+-   purl: pkg:npm/ember-source
 
 # NPM is more accurate than git. Version 1.0.0 to 2.11.0 are not on NPM, but 1.x and 2.x cycles are
 # not displayed on this page, so it's not a big deal.
@@ -38,11 +39,27 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-12-23
+    eoas: false
+    eol: false
+    latest: "6.1.0"
+    latestReleaseDate: 2024-12-23
+    link: https://blog.emberjs.com/ember-released-6-1/
+
+-   releaseCycle: "6.0"
+    releaseDate: 2024-11-12
+    eoas: 2024-12-28
+    eol: 2024-12-28
+    latest: "6.0.1"
+    latestReleaseDate: 2024-11-15
+    link: https://blog.emberjs.com/ember-6-0-released/
+
 -   releaseCycle: "5.12"
     releaseDate: 2024-09-30
-    lts: 2024-11-15
-    eoas: 2025-07-25
-    eol: 2025-11-28
+    lts: 2024-09-30
+    eoas: 2025-04-28
+    eol: 2025-10-13
     latest: "5.12.0"
     latestReleaseDate: 2024-09-30
 

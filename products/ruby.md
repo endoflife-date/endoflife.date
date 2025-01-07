@@ -24,6 +24,13 @@ identifiers:
 -   purl: pkg:generic/ruby
 
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2024-12-24
+    eol: 2028-03-31
+    latest: "3.4.1"
+    latestReleaseDate: 2024-12-25
+    link: https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
+
 -   releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31

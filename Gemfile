@@ -10,7 +10,7 @@ gem "jekyll", "~> 4.3.4"
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-timeago'
-  gem 'just-the-docs', '~> 0.10.0'
+  gem 'just-the-docs', '~> 0.10.1'
   gem 'jekyll-seo-tag'
   gem 'jekyll-last-modified-at'
   gem 'jemoji'
@@ -27,7 +27,7 @@ gem "webrick", "~> 1.9"
 gem 'icalendar', '~> 2.10'
 
 # Used in product-data-validator to check URLs
-gem "open-uri", "~> 0.4"
+gem "open-uri", "~> 0.5"
 
 # Used in purl-to-url to parse PURLs
 gem "packageurl-ruby", "~> 0.1.0"

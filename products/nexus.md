@@ -44,6 +44,20 @@ auto:
 # eol(x) = releaseDate(x) + 18 months
 # Dates can also be found on https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status.
 releases:
+-   releaseCycle: "3.75"
+    releaseDate: 2024-12-03
+    eoas: 2025-12-03
+    eol: 2026-06-03
+    latest: "3.75.1-01"
+    latestReleaseDate: 2024-12-06
+
+-   releaseCycle: "3.74"
+    releaseDate: 2024-11-05
+    eoas: 2025-11-05
+    eol: 2026-05-05
+    latest: "3.74.0-05"
+    latestReleaseDate: 2024-11-05
+
 -   releaseCycle: "3.73"
     releaseDate: 2024-10-10
     eoas: 2025-10-10
@@ -66,11 +80,13 @@ releases:
     latestReleaseDate: 2024-08-09
 
 -   releaseCycle: "3.70"
+    releaseLabel: "3.70 (Latest for OrientDB)"
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
-    latest: "3.70.1-02"
-    latestReleaseDate: 2024-07-11
+    latest: "3.70.3-01"
+    latestReleaseDate: 2024-10-10
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
@@ -359,8 +375,8 @@ releases:
     releaseDate: 2017-03-31
     eoas: true
     eol: 2025-06-30 # https://help.sonatype.com/en/sonatype-nexus-repository-2-sunsetting-information.html
-    latest: "2.15.1-02"
-    latestReleaseDate: 2022-03-23
+    latest: "2.15.2-03"
+    latestReleaseDate: 2024-11-14
     link: https://help.sonatype.com/repomanager2/release-notes
 
 ---

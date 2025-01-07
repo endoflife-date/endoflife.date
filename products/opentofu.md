@@ -15,23 +15,23 @@ auto:
   methods:
   -   git: https://github.com/opentofu/opentofu.git
 
-# eol(x) = releaseDate(x+2)
+# eol(x) = releaseDate(x+3)
 releases:
 -   releaseCycle: "1.8"
     releaseDate: 2024-07-29
-    eol: false # releaseDate(1.10)
-    latest: "1.8.5"
-    latestReleaseDate: 2024-11-04
+    eol: false # releaseDate(1.11)
+    latest: "1.8.8"
+    latestReleaseDate: 2024-12-26
 
 -   releaseCycle: "1.7"
     releaseDate: 2024-04-30
-    eol: false # releaseDate(1.9)
-    latest: "1.7.5"
-    latestReleaseDate: 2024-11-04
+    eol: false # releaseDate(1.10)
+    latest: "1.7.7"
+    latestReleaseDate: 2024-12-05
 
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-09
-    eol: 2024-07-29 # releaseDate(1.8)
+    eol: false # releaseDate(1.9)
     latest: "1.6.3"
     latestReleaseDate: 2024-07-09
 
