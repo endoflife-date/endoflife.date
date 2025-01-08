@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-09-15
     eoas: false
     eol: false
-    latest: "8.0.1"
-    latestReleaseDate: 2024-10-02
+    latest: "8.0.2"
+    latestReleaseDate: 2025-01-07
 
   - releaseCycle: "7.2"
     releaseDate: 2023-08-15 # inherit from redis
