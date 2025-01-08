@@ -22,6 +22,61 @@ auto:
 
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
+-   releaseCycle: Surface Laptop (7th generation) 
+    releaseDate: 2024-06-18
+    eol: 2030-06-18
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+
+-   releaseCycle: Surface Pro (11th generation) 
+    releaseDate: 2024-06-18
+    eol: 2030-06-18
+    link: https://support.microsoft.com/en-gb/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+
+-   releaseCycle: Surface Laptop 6
+    releaseDate: 2024-04-09
+    eol: 2030-04-09 
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
+
+-   releaseCycle: Surface Pro 10
+    releaseDate: 2024-04-09
+    eol: 2030-04-09
+    link: https://support.microsoft.com/en-gb/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
+
+-   releaseCycle: Surface Laptop Studio 2
+    releaseDate: 2023-10-03
+    eol: 2029-10-03
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-studio-2-features-70268b43-8c31-4a35-bb8f-9898461e4942
+
+-   releaseCycle: Surface Laptop Go 3
+    releaseDate: 2023-10-03
+    eol: 2029-10-03
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-go-3-features-d8baf45b-00ba-4b73-a9c8-21a6f26bba02
+
+-   releaseCycle: Surface Go 4
+    releaseDate: 2023-10-03
+    eol: 2029-10-03
+    link: https://support.microsoft.com/en-gb/surface/surface-go-4-features-522e227b-24d6-41c6-b48e-db7a053989cb
+
+-   releaseCycle: Surface Studio 2+
+    releaseDate: 2022-10-25
+    eol: 2028-10-25
+    link: https://support.microsoft.com/en-gb/surface/surface-studio-2-features-53cfae12-28fd-483d-9c4d-6e8f943c05a0
+
+-   releaseCycle: Surface Laptop 5
+    releaseDate: 2022-10-25
+    eol: 2028-10-25
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-5-specs-and-features-0816e45e-6a4c-4c9e-8365-ef755a2e34d2
+
+-   releaseCycle: Surface Pro 9
+    releaseDate: 2022-10-25
+    eol: 2028-10-25
+    link: https://support.microsoft.com/en-gb/surface/surface-pro-9-features-and-specs-f3f523e6-4f0e-487d-a95c-6115ab55477d
+
+-   releaseCycle: Surface Laptop Go 2 
+    releaseDate: 2022-06-01
+    eol: 2028-06-01
+    link: https://support.microsoft.com/en-gb/surface/surface-laptop-go-2-features-2eff8979-464a-442a-8848-856b2e237c11
+    
 -   releaseCycle: Surface Laptop SE
     releaseDate: 2022-01-11
     eol: 2028-01-11
@@ -179,7 +234,7 @@ releases:
 
 -   releaseCycle: Surface 2
     releaseDate: 2013-10-22
-    eol: 2018-04-10
+    eol: 2023-01-10
     link: https://support.microsoft.com/surface/surface-2-specifications-7a5aaf4f-9641-2c69-3747-ea4e2a161aae
 
 -   releaseCycle: Surface Pro 2
@@ -194,7 +249,7 @@ releases:
 
 -   releaseCycle: Surface RT
     releaseDate: 2012-10-26
-    eol: 2017-04-11
+    eol: 2023-01-10
     link: https://support.microsoft.com/surface/surface-rt-specifications-dcc757dc-b4ab-c33f-d3b3-352cf5d2e637
 
 ---
