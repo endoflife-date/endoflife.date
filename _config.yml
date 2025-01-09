@@ -54,7 +54,7 @@ callouts:
     color: blue
   commandInfo:
     title: To learn the current version on your system
-    color: grey-lt
+    color: grey-dk
 
 
 # jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago
