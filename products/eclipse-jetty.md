@@ -61,7 +61,7 @@ releases:
     jspVersion: 2.3
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
-    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/7958
+    eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
     eoes: false
     latest: "9.4.57.v20241219"
     latestReleaseDate: 2024-12-19
