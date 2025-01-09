@@ -1,7 +1,6 @@
 ---
 title: Valkey
 category: database
-iconSlug: valkey
 permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/
