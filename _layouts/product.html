@@ -179,16 +179,11 @@ layout: default
 {% endif %}
 
 {% if page.versionCommand %}
-
-  <div id="version-command-section" class="card card-body bg-light">
-    <div id="version-command-title" class="version-command-title">
-      You can check the version that you are currently using by running:
-    </div>
-    <div id="version-command">
-      <pre>{{page.versionCommand}}</pre>
-    </div>
+  <div id="version-command">
+    <blockquote class="commandInfo">
+      <p><pre>{{page.versionCommand}}</pre></p>
+    </blockquote>
   </div>
-
 {% endif %}
 
 {% include identifiers.html %}
