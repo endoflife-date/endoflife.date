@@ -24,6 +24,12 @@ identifiers:
 
 # Supported versions are documented on https://kubernetes-csi.github.io/docs/node-driver-registrar.html#supported-versions.
 releases:
+-   releaseCycle: "2.13"
+    releaseDate: 2024-12-19
+    eol: false
+    latest: "2.13.0"
+    latestReleaseDate: 2024-12-19
+
 -   releaseCycle: "2.12"
     releaseDate: 2024-08-22
     eol: false

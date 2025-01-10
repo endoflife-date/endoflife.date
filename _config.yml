@@ -17,6 +17,12 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 
+# This part is to silent sass deprecating warnings
+# remove after they fix it 
+# https://github.com/just-the-docs/just-the-docs/pull/1548
+# and https://github.com/jekyll/jekyll/issues/9686
+sass:
+  quiet_deps: true
 
 # just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs

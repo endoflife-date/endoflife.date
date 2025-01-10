@@ -28,6 +28,14 @@ identifiers:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+
+-   releaseCycle: "10.4"
+    releaseDate: 2024-12-17
+    eoas: 2025-06-16
+    eol: 2025-12-16
+    latest: "10.4.0"
+    latestReleaseDate: 2024-12-18
+
 -   releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: false # releaseDate(11.2)
@@ -52,7 +60,7 @@ releases:
 -   releaseCycle: "10.2"
     releaseDate: 2023-12-15
     eoas: 2024-06-20
-    eol: 2024-12-09
+    eol: 2024-12-17
     latest: "10.2.12"
     latestReleaseDate: 2024-11-22
 
@@ -141,8 +149,8 @@ releases:
 > in PHP and distributed under the GNU General Public License.
 
 Each major version receives active support for about two years, followed by maintenance support and
-security coverage for about two more years. Each major version is supported
-for a minimum of 4 years, until the release of two further major versions.
+security coverage for about two more years. Last three major versions are supported
+with a minimum of 4 years.
 
 ## [Release Schedule](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 

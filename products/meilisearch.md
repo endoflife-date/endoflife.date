@@ -14,13 +14,19 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/meilisearch/meilisearch.git
+  -   github_releases: meilisearch/meilisearch
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "1.12"
+    releaseDate: 2024-12-23
+    eol: false
+    latest: "1.12.1"
+    latestReleaseDate: 2025-01-02
+
 -   releaseCycle: "1.11"
     releaseDate: 2024-10-21
-    eol: false
+    eol: 2024-12-23
     latest: "1.11.3"
     latestReleaseDate: 2024-11-14
 
@@ -46,7 +52,7 @@ releases:
     releaseDate: 2024-03-06
     eol: 2024-05-02
     latest: "1.7.6"
-    latestReleaseDate: 2024-04-10
+    latestReleaseDate: 2024-04-11
 
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-15
@@ -58,7 +64,7 @@ releases:
     releaseDate: 2023-11-13
     eol: 2024-01-15
     latest: "1.5.1"
-    latestReleaseDate: 2023-12-12
+    latestReleaseDate: 2023-12-13
 
 -   releaseCycle: "1.4"
     releaseDate: 2023-09-11
@@ -70,19 +76,19 @@ releases:
     releaseDate: 2023-07-27
     eol: 2023-09-11
     latest: "1.3.5"
-    latestReleaseDate: 2023-09-19
+    latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "1.2"
     releaseDate: 2023-05-30
     eol: 2023-07-27
     latest: "1.2.1"
-    latestReleaseDate: 2023-09-12
+    latestReleaseDate: 2023-09-13
 
 -   releaseCycle: "1.1"
     releaseDate: 2023-03-30
     eol: 2023-05-30
     latest: "1.1.1"
-    latestReleaseDate: 2023-04-13
+    latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "1.0"
     releaseDate: 2023-02-01

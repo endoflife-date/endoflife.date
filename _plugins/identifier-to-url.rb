@@ -14,7 +14,7 @@ class IdentifierToUrl
     identifier = identifier_hash.values[0]
     if ['cpe'].include?(type)
       # Regex found on https://csrc.nist.gov/schema/cpe/2.3/cpe-naming_2.3.xsd.
-      # Regex for 2.3 has been simplified as I coud not make it work with Ruby.
+      # Regex for 2.3 has been simplified as I could not make it work with Ruby.
       cpe2_2_regex = /^[c][pP][eE]:\/[AHOaho]?(:[A-Za-z0-9\._\-~%]*){0,6}$/
       if identifier.match(cpe2_2_regex)
         # No known way to generate URLs for CPEs
