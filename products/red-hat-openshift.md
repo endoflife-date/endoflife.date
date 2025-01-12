@@ -31,16 +31,16 @@ releases:
     releaseDate: 2024-10-01
     eoas: false # 4.18 GA + 3 months
     eol: 2026-04-01
-    latest: "4.17.9"
-    latestReleaseDate: 2024-12-19
+    latest: "4.17.11"
+    latestReleaseDate: 2025-01-08
 
 -   releaseCycle: "4.16"
     releaseDate: 2024-06-27
     eoas: 2025-01-01 # 4.17 GA + 3 months
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.27"
-    latestReleaseDate: 2024-12-19
+    latest: "4.16.29"
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: "4.15"
     releaseDate: 2024-02-27
@@ -54,8 +54,8 @@ releases:
     eoas: 2024-05-27
     eol: 2025-05-01
     eoes: 2025-10-31
-    latest: "4.14.43"
-    latestReleaseDate: 2024-12-18
+    latest: "4.14.44"
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
@@ -69,8 +69,8 @@ releases:
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.70"
-    latestReleaseDate: 2024-12-05
+    latest: "4.12.71"
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10
