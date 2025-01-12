@@ -72,21 +72,21 @@ releases:
     eol: 2018-09-17
     latest: '11.4.1'
     latestReleaseDate: 2018-07-09
-    link: ""
+    link: null
 
 -   releaseCycle: "10"
     releaseDate: 2016-09-13
     eol: 2017-09-19
     latest: '10.2.2'
     latestReleaseDate: 2017-07-19
-    link: ""
+    link: null
 
 -   releaseCycle: "9"
     releaseDate: 2015-10-29
     eol: 2016-09-13
     latest: '9.2.2'
     latestReleaseDate: 2016-07-18
-    link: ""
+    link: null
 ---
 
 > [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system
