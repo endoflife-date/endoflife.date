@@ -1,5 +1,5 @@
 ---
-title: BIG-IP 
+title: BIG-IP
 category: os
 iconSlug: f5
 permalink: /big-ip
