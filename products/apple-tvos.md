@@ -85,7 +85,7 @@ releases:
     eol: 2016-09-13
     latest: '9.2.2'
     latestReleaseDate: 2016-07-18
-
+   link: ""
 ---
 
 > [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system
