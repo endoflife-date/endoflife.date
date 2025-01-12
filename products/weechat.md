@@ -3,7 +3,7 @@ title: WeeChat
 category: app
 permalink: /weechat
 versionCommand: weechat --version
-changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.html
+changelogTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Active Support
 
