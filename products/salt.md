@@ -64,7 +64,7 @@ releases:
     eol: 2024-02-25
     latest: "3005.5"
     latestReleaseDate: 2024-01-24
-    link: https://web.archive.org/web/20240521033125/https://docs.saltproject.io/en/3005/topics/releases/3005.5.html
+    link: https://docs.saltproject.io/en/latest/topics/releases/3005.5.html
 
 -   releaseCycle: "3004"
     releaseDate: 2021-10-12
@@ -72,7 +72,7 @@ releases:
     eol: 2023-04-18
     latest: "3004.2"
     latestReleaseDate: 2022-05-13
-    link: https://web.archive.org/web/20240607070921/https://docs.saltproject.io/en/3004/topics/releases/3004.2.html
+    link: https://docs.saltproject.io/en/latest/topics/releases/3004.2.html
 
 ---
 
