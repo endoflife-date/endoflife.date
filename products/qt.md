@@ -140,7 +140,7 @@ releases:
     releaseDate: 2011-12-15
     eol: 2015-12-31
     latest: "4.8.7"
-    link: https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
+    link: https://web.archive.org/web/20240814204109/https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
 
 ---
 
