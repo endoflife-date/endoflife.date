@@ -72,6 +72,7 @@ releases:
     eol: 2018-09-17
     latest: '11.4.1'
     latestReleaseDate: 2018-07-09
+   link: ""
 
 -   releaseCycle: "10"
     releaseDate: 2016-09-13
