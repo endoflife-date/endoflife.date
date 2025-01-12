@@ -40,8 +40,9 @@ releases:
     releaseDate: 2020-07-16
     eoas: 2021-10-07
     eol: 2021-10-07
-    latest: "16.0.1"
-    latestReleaseDate: 2020-11-02
+    latest: "16.0.1.1"
+    latestReleaseDate: 2021-10-02
+    link: null
 
 -   releaseCycle: "15.1"
     lts: true
@@ -50,6 +51,7 @@ releases:
     eol: 2025-12-31
     latest: "15.1.10"
     latestReleaseDate: 2023-08-30
+    link: null
 
 -   releaseCycle: "15.0"
     releaseDate: 2019-05-23 # https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-0.html
@@ -57,6 +59,7 @@ releases:
     eol: 2024-08-23
     latest: "15.0.1"
     latestReleaseDate: 2019-08-08
+    link: null
 
 ---
 
