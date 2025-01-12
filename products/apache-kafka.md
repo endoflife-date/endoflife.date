@@ -56,6 +56,7 @@ releases:
     releaseDate: 2023-10-03
     eol: 2024-02-27
     eoes: 2026-02-09
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.6.2"
     latestReleaseDate: 2024-04-04
 
@@ -63,6 +64,7 @@ releases:
     releaseDate: 2023-06-13
     eol: 2023-10-03
     eoes: 2025-08-25
+    link: https://archive.apache.org/dist/kafka/__LATEST__/RELEASE_NOTES.html
     latest: "3.5.2"
     latestReleaseDate: 2023-12-08
 
