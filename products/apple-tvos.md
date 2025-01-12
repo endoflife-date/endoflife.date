@@ -79,6 +79,7 @@ releases:
     eol: 2017-09-19
     latest: '10.2.2'
     latestReleaseDate: 2017-07-19
+   link: ""
 
 -   releaseCycle: "9"
     releaseDate: 2015-10-29
