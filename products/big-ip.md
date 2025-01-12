@@ -1,6 +1,7 @@
 ---
 title: BIG-IP 
 category: os
+iconSlug: f5
 permalink: /big-ip
 versionCommand: show /sys version
 releasePolicyLink: https://my.f5.com/manage/s/article/K5903
