@@ -18,7 +18,7 @@ customColumns:
     description: Companies that provide extended EOL support for eslint.
 
 identifiers:
-  -   repology: eslint
+-   repology: eslint
 
 auto:
   methods:
@@ -39,8 +39,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.17.0"
-    latestReleaseDate: 2024-12-13
+    latest: "9.18.0"
+    latestReleaseDate: 2025-01-10
 
 -   releaseCycle: "8"
     releaseDate: 2021-10-09
