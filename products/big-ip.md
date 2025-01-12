@@ -8,52 +8,59 @@ releaseDateColumn: true
 eolColumn: End of Technical Support
 eoasColumn: End of Software Development
 
+# EOAS / EOL dates can be found on https://my.f5.com/manage/s/article/K5903
+# Latest release dates can be found on https://my.f5.com/manage/s/article/K9412
 releases:
-
 -   releaseCycle: "17.1"
+    lts: true
     releaseDate: 2023-03-14
     eoas: 2027-03-31
     eol: 2027-03-31
-    latest: "17.1.1"  
-    lts: true
+    latest: "17.1.2"
+    latestReleaseDate: 2023-12-03
+
+-   releaseCycle: "17.0"
+    releaseDate: 2022-04-26
+    eoas: 2023-07-31
+    eol: 2023-07-31
+    latest: "17.0.0"
+    latestReleaseDate: 2022-04-26
 
 -   releaseCycle: "16.1"
+    lts: true
     releaseDate: 2021-07-07
     eoas: 2025-07-31
     eol: 2025-07-31
     latest: "16.1.5"
-    lts: true
+    latestReleaseDate: 2024-07-23
+
+-   releaseCycle: "16.0"
+    releaseDate: 2020-07-16
+    eoas: 2021-10-07
+    eol: 2021-10-07
+    latest: "16.0.1"
+    latestReleaseDate: 2020-11-02
 
 -   releaseCycle: "15.1"
+    lts: true
     releaseDate: 2019-12-11
     eoas: 2025-12-31
     eol: 2025-12-31
     latest: "15.1.10"
-    lts: true
-
--   releaseCycle: "17.0"
-    eoas: 2023-07-31
-    eol: 2023-07-31
-    lts: true    
-
--   releaseCycle: "16.0"
-    eoas: 2021-10-07
-    eol: 2021-10-07
-    lts: true    
+    latestReleaseDate: 2023-08-30
 
 -   releaseCycle: "15.0"
+    releaseDate: 2019-05-23 # https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/product/relnote-bigip-15-0-0.html
     eoas: 2024-08-23
     eol: 2024-08-23
-    lts: true    
+    latest: "15.0.1"
+    latestReleaseDate: 2019-08-08
 
 ---
 
-> [BIG-IP](https://www.f5.com/products/big-ip) is a family of hardware and software products from F5 Networks, designed for load balancing, traffic management, and application security.
+> [BIG-IP](https://www.f5.com/products/big-ip) is a family of hardware and software products from F5 Networks, designed
+> for load balancing, traffic management, and application security.
 
-
-F5 Networks typically provides a major release of BIG-IP every 12-18 months, with regular maintenance updates to address security and performance issues. Each version of BIG-IP is generally supported for up to 5 years, including Full Support for the first 3 years and Limited Support for the remaining 2 years.
-
-**Additional information**:  
-   BIG-IP products are highly customizable and used in a variety of deployment environments including cloud, on-premise, and hybrid. They play a critical role in managing and securing high-traffic environments, offering modules like Local Traffic Manager (LTM), Advanced Firewall Manager (AFM), and Access Policy Manager (APM), among others.
-
-
+F5 Networks typically provides a major release of BIG-IP every 12-18 months, with regular maintenance updates to address
+security and performance issues. Each version of BIG-IP is generally supported for up to 5 years, including Full Support
+for the first 3 years and Limited Support for the remaining 2 years.
