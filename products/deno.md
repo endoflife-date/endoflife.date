@@ -2,6 +2,7 @@
 title: Deno
 category: framework
 tags: javascript-runtime
+iconSlug: deno
 permalink: /deno
 versionCommand: deno --version
 releasePolicyLink: https://docs.deno.com/runtime/fundamentals/stability_and_releases/
