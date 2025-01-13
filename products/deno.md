@@ -41,20 +41,7 @@ releases:
 > [Deno](https://deno.com) is a JavaScript, TypeScript, and WebAssembly runtime with
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
-Deno uses Semver versioning, offering 4 release channels
+Deno follows [SemVer](https://semver.org/). New minor releases are made monthly and are supported with bug and security fixes until the next minor release. Every six months a minor version is promoted to LTS and is supported with critical bug and security fixes for an additional 5 months.
 
-- `stable` (aka `current`): This is the default distribution channel that is recommended for most users.
-  Stable releases are shipped on monthly schedule, each new stable release is a new minor version.
-- `lts`: Long Term Support releases are versions which are maintained for 6 months
-  (stable release monthly period plus 5 months of security and bug fixes).
-  The next LTS release is the one released one month before the previous LTS expiry.
-  LTS releases are recommended users who prefer not to upgrade so often.
-- `rc`: a release candidate for the upcoming semver minor release.
-- `canary`: an unstable release that changes multiple timer per day, allowing users to try out latest
-  bug fixes and new features that might end up in the stable channel.
-
-Deno maintainers are committed to maintaining a stable standard library API (`Deno` namespace), from
-version `1.0.0` onwards.
-
-Deno support policy can be found on the
-[Stability and releases documentation page](https://docs.deno.com/runtime/fundamentals/stability_and_releases/).
+Deno maintainers are committed to maintaining a stable standard library API (`Deno` namespace) from
+version `1.0.0` onward.
