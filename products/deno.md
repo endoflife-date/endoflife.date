@@ -19,18 +19,23 @@ auto:
   methods:
   -   git: https://github.com/denoland/deno.git
 
+# non-LTS : eol(x) = releaseDate(x+1)
+# LTS : eol(x) = releaseDate(x+1) + 5 months
 releases:
 -   releaseCycle: "2.1"
+    lts: true
     releaseDate: 2024-11-21
     eoas: 2024-12-21
     eol: 2025-04-30
     latest: "2.1.4"
     latestReleaseDate: 2024-12-11
+
 -   releaseCycle: "2.0"
     releaseDate: 2024-10-09
     eol: 2024-11-21
     latest: "2.0.6"
     latestReleaseDate: 2024-11-10
+
 -   releaseCycle: "1"
     releaseDate: 2020-04-13
     eol: 2024-10-09
