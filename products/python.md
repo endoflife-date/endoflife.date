@@ -244,7 +244,7 @@ releases:
 
 ---
 
-> [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming
+> [Python](https://www.python.org/) is a high-level, general-purpose programming
 > language.
 
 The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release
