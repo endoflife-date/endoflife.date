@@ -27,8 +27,8 @@ releases:
     releaseDate: 2023-07-31
     eoas: 2026-06-10
     eol: 2028-06-10
-    latest: "23.4"
-    latestReleaseDate: 2024-09-16
+    latest: "23.5"
+    latestReleaseDate: 2025-01-13
     link: https://mxlinux.org/blog/mx-23-libretto-now-available/
 
 -   releaseCycle: "21"
