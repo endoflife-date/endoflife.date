@@ -17,6 +17,7 @@ auto:
   methods:
     - git: https://github.com/valkey-io/valkey.git
 
+# Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-09-15
