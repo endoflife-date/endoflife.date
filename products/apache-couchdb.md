@@ -11,17 +11,17 @@ changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__
 versionCommand: curl http://localhost:5984/_config/vendor/version
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/apache/couchdb.git
-
 identifiers:
+-   repology: couchdb
 -   purl: pkg:github/apache/couchdb
 -   purl: pkg:docker/apache/couchdb
 -   purl: pkg:docker/library/couchdb
 -   purl: pkg:docker/bitnami/couchdb
 -   purl: pkg:docker/rapidfort/couchdb
--   repology: couchdb
+
+auto:
+  methods:
+  -   git: https://github.com/apache/couchdb.git
 
 # eol(x) = releaseDate(x+2)
 releases:

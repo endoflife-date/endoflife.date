@@ -17,9 +17,9 @@ auto:
   -   git: https://github.com/fluent/fluent-bit
 
 identifiers:
+-   repology: fluent-bit
 -   purl: pkg:github/fluent/fluent-bit
 -   purl: pkg:docker/fluent/fluent-bit
--   repology: fluent-bit
 
 # https://fluentbit.io/announcements/older-versions/: Security Policy: support for current series ends three months after a new series is released.
 # eol(x) = releaseDate(x+1) + 3 months

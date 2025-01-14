@@ -13,13 +13,13 @@ changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__
 releaseDateColumn: true
 eolColumn: Support
 
-auto:
-  methods:
-  -   git: https://github.com/cert-manager/cert-manager.git
-
 identifiers:
 -   repology: cert-manager
 -   purl: pkg:docker/cert-manager/cert-manager
+
+auto:
+  methods:
+  -   git: https://github.com/cert-manager/cert-manager.git
 
 # eol(x) = releaseDate(x+2)
 releases:

@@ -8,6 +8,9 @@ versionCommand: forgejo --version
 releasePolicyLink: https://forgejo.org/docs/latest/admin/upgrade/#release-life-cycle
 changelogTemplate: https://codeberg.org/forgejo/forgejo/releases/tag/v__LATEST__
 
+identifiers:
+-   repology: forgejo
+
 auto:
   methods:
   -   git: https://codeberg.org/forgejo/forgejo.git
@@ -21,9 +24,6 @@ auto:
           regex: ^(?P<value>\d+\.\d+).*$
         releaseDate: "Release Date"
         eol: "End Of Life"
-
-identifiers:
--   repology: forgejo
 
 releases:
 -   releaseCycle: "9.0"

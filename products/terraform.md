@@ -10,6 +10,7 @@ changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANG
 releaseDateColumn: true
 
 identifiers:
+-   repology: terraform
 -   purl: pkg:github/hashicorp/terraform
 -   purl: pkg:generic/terraform
 

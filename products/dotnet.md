@@ -14,6 +14,9 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
+-   repology: dotnet
+-   repology: dotnet-runtime
+-   repology: dotnet-sdk
 -   purl: pkg:nuget/Microsoft.NETCore.App
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86

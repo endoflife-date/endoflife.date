@@ -17,8 +17,8 @@ auto:
   -   git: https://github.com/drupal/drupal.git
 
 identifiers:
--   purl: pkg:composer/drupal/core
 -   repology: php:drupal
+-   purl: pkg:composer/drupal/core
 -   purl: pkg:docker/bitnami/drupal
 -   purl: pkg:docker/library/drupal
 -   purl: pkg:docker/bitnami/drupal-nginx

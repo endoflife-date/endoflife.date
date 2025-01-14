@@ -9,8 +9,8 @@ changelogTemplate: https://getcomposer.org/changelog/__LATEST__
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:composer/composer/composer
 -   repology: php:composer
+-   purl: pkg:composer/composer/composer
 -   purl: pkg:docker/library/composer
 -   purl: pkg:github/composer/composer
 

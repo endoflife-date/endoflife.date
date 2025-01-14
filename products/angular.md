@@ -14,6 +14,7 @@ eoasWarnThreshold: 30
 eolWarnThreshold: 90
 
 identifiers:
+-   repology: angular-cli
 -   purl: pkg:npm/%40angular/core # purl are url-encoded
 -   purl: pkg:github/angular/angular
 

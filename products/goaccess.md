@@ -8,13 +8,14 @@ changelogTemplate: "https://goaccess.io/release-notes#release-__LATEST__"
 
 releaseDateColumn: true
 
+identifiers:
+-   repology: goaccess
+-   purl: pkg:docker/allinurl/goaccess
+
 auto:
   methods:
   -   git: https://github.com/allinurl/goaccess
 
-identifiers:
--   repology: goaccess
--   purl: pkg:docker/allinurl/goaccess
 # eol(x) = releaseDate(x+1)
 releases:
 

@@ -14,8 +14,8 @@ eoasColumn: Active Support
 eolColumn: Limited Support
 
 identifiers:
--   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
+-   purl: pkg:pypi/apache-airflow
 -   purl: pkg:docker/bitnami/airflow
 -   purl: pkg:docker/bitnami/airflow-scheduler
 -   purl: pkg:docker/bitnami/airflow-worker

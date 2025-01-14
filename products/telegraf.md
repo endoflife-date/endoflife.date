@@ -8,6 +8,9 @@ releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
 releaseDateColumn: true
 
+identifiers:
+-   repology: telegraf
+
 auto:
   methods:
   -   git: https://github.com/influxdata/telegraf

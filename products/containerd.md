@@ -10,6 +10,9 @@ eolColumn: Extended Support
 changelogTemplate: "https://github.com/containerd/containerd/releases/tag/v__LATEST__"
 releaseDateColumn: true
 
+identifiers:
+-   repology: containerd
+
 auto:
   methods:
   -   git: https://github.com/containerd/containerd.git

@@ -13,6 +13,9 @@ changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: fluxcd
+
 auto:
   methods:
   -   git: https://github.com/fluxcd/flux2.git

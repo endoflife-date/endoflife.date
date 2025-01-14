@@ -8,15 +8,15 @@ changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LAT
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
-auto:
-  methods:
-  -   git: https://github.com/projectcontour/contour.git
-
 identifiers:
 -   purl: pkg:github/projectcontour/contour
 -   purl: pkg:docker/projectcontour/contour
 -   purl: pkg:docker/bitnami/contour
 -   purl: pkg:oci/contour?repository_url=ghcr.io/projectcontour
+
+auto:
+  methods:
+  -   git: https://github.com/projectcontour/contour.git
 
 # eol(X) = releaseDate(X+3)
 releases:

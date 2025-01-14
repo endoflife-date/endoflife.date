@@ -10,10 +10,10 @@ auto:
   -   git: https://github.com/projectcalico/calico.git
 
 identifiers:
+-   repology: calico
 -   purl: pkg:github/projectcalico/calico
 -   purl: pkg:docker/calico/cni
 -   purl: pkg:docker/chainguard/calico-cni
--   repology: calico
 -   cpe: cpe:/a:projectcalico:calico
 -   cpe: cpe:2.3:a:projectcalico:calico
 

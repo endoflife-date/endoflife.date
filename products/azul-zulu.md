@@ -18,7 +18,6 @@ customColumns:
     description: Corresponding latest Java version
     link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming
 
-
 identifiers:
 -   repology: zulu-openjdk
 -   cpe: cpe:/a:azul:zulu
