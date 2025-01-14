@@ -10,6 +10,7 @@ eoasColumn: Maintenance Support
 eolColumn: Extended Security Support
 
 identifiers:
+  - repology: valkey
   - purl: pkg:github/valkey-io/valkey
   - purl: pkg:docker/valkey/valkey
 
