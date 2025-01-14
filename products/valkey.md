@@ -20,8 +20,8 @@ auto:
 releases:
   - releaseCycle: "8.0"
     releaseDate: 2024-09-15
-    eoas: false
-    eol: false
+    eoas: false # not yet documented on https://valkey.io/topics/releases/
+    eol: false # not yet documented on https://valkey.io/topics/releases/
     latest: "8.0.2"
     latestReleaseDate: 2025-01-07
 
