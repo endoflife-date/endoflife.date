@@ -23,7 +23,7 @@ auto:
   -   custom: firefox
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
-# For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://wiki.mozilla.org/Release_Management/Calendar, if available.
+# For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
 # Next ESR/LTS is not yet planned.
 releases:
 -   releaseCycle: "134"
@@ -65,7 +65,7 @@ releases:
 -   releaseCycle: "128"
     lts: true
     releaseDate: 2024-07-09
-    eol: 2025-09-16 # estimated release day for 140.3 on https://wiki.mozilla.org/Release_Management/Calendar
+    eol: 2025-09-16 # estimated release day for 140.3 on https://whattrainisitnow.com/calendar/
     latest: "128.6.0"
     latestReleaseDate: 2025-01-07
 
@@ -144,7 +144,7 @@ releases:
 -   releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2024-10-01 # estimated release day for 131 on https://wiki.mozilla.org/Release_Management/Calendar
+    eol: 2024-10-01 # estimated release day for 131 on https://whattrainisitnow.com/calendar/
     latest: "115.12.0"
     latestReleaseDate: 2024-06-11
 
@@ -261,7 +261,7 @@ releases:
   organizations like universities and businesses that need to set up and maintain Firefox on a large
   scale. Firefox ESR does not come with the latest features, but it has the latest security and
   stability fixes. Usually these branches are supported for a year,
-  [with a planned release calendar for new ESR branches.](https://wiki.mozilla.org/Release_Management/Calendar)
+  [with a planned release calendar for new ESR branches.](https://whattrainisitnow.com/calendar/)
   For more information you should review the [release cycle documentation.](https://support.mozilla.org/kb/firefox-esr-release-cycle)
 
 ## Firefox also has three testing channels:
