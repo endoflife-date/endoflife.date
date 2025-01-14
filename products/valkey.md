@@ -5,7 +5,6 @@ permalink: /valkey
 versionCommand: valkey-server --version
 releasePolicyLink: https://valkey.io/topics/releases/
 changelogTemplate: https://github.com/valkey-io/valkey/releases/tag/__LATEST__
-eoasColumn: true
 releaseDateColumn: true
 eoasColumn: Maintenance Support
 eolColumn: Extended Security Support
