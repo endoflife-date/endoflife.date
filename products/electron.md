@@ -46,7 +46,7 @@ releases:
     latest: "33.3.1"
     latestReleaseDate: 2025-01-06
     chromeVersion: "M130"
-    nodeVersion: "20.18.0"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
@@ -54,7 +54,7 @@ releases:
     latest: "32.2.8"
     latestReleaseDate: 2025-01-06
     chromeVersion: "M128"
-    nodeVersion: "20.16"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
@@ -62,7 +62,7 @@ releases:
     latest: "31.7.6"
     latestReleaseDate: 2024-12-05
     chromeVersion: "M126"
-    nodeVersion: "20.14"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -70,7 +70,7 @@ releases:
     latest: "30.5.1"
     latestReleaseDate: 2024-09-13
     chromeVersion: "M124"
-    nodeVersion: "20.11"
+    nodeVersion: "20.16"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
