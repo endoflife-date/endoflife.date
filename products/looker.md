@@ -19,6 +19,12 @@ auto:
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:
+-   releaseCycle: "25.0"
+    releaseDate: 2025-01-08
+    eol: false # TBD on https://cloud.google.com/looker/docs/officially-supported-releases
+    latest: '25.0'
+    latestReleaseDate: 2025-01-08
+
 -   releaseCycle: "24.20"
     releaseDate: 2024-11-07
     eol: 2025-03-31
