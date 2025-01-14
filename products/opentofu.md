@@ -11,6 +11,11 @@ versionCommand: tofu --version
 changelogTemplate: https://github.com/opentofu/opentofu/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
+identifiers:
+-   repology: opentofu
+-   purl: pkg:github/opentofu/opentofu
+-   purl: pkg:oci/opentofu?repository_url=ghcr.io/opentofu
+
 auto:
   methods:
   -   git: https://github.com/opentofu/opentofu.git
