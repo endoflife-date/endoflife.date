@@ -32,6 +32,7 @@ releases:
     eol: 2029-04-16
     latest: "7.2.7"
     latestReleaseDate: 2024-10-02
+
 ---
 
 > [Valkey](https://valkey.io/) is an open source (BSD) high-performance key/value datastore
