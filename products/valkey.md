@@ -30,8 +30,8 @@ releases:
     releaseDate: 2023-08-15 # inherit from redis
     eoas: 2027-04-16
     eol: 2029-04-16
-    latest: "7.2.7"
-    latestReleaseDate: 2024-10-02
+    latest: "7.2.8"
+    latestReleaseDate: 2025-01-08
 
 ---
 
