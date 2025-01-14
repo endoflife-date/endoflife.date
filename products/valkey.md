@@ -40,6 +40,6 @@ releases:
 > and can act as a primary database. Valkey can run as either a standalone
 > daemon or in a cluster, with options for replication and high availability.
 
-The Valkey community strives to release a stable major version once a year.
-Stable minor versions are created as needed in between major releases,
-and we aim to release at least one minor version a year.
+The Valkey community typically releases a stable major version once each year.
+Stable minor versions are introduced as needed between major releases,
+with at least one minor version published annually.
