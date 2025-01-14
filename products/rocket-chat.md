@@ -22,6 +22,13 @@ auto:
 # eoas(x) = releaseDate(x)
 # eol(x) can be found on https://docs.rocket.chat/docs/version-durability
 releases:
+-   releaseCycle: "7.2"
+    releaseDate: 2025-01-07
+    eoas: 2025-01-07
+    eol: 2025-07-31
+    latest: '7.2.0'
+    latestReleaseDate: 2025-01-07
+
 -   releaseCycle: "7.1"
     releaseDate: 2024-12-04
     eoas: 2024-12-31
