@@ -56,15 +56,15 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-05-12
-    latest: "9.0.0"
-    latestReleaseDate: 2024-11-12
+    latest: "9.0.1"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.11"
-    latestReleaseDate: 2024-11-12
+    latest: "8.0.12"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-08
