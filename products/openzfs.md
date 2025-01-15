@@ -114,6 +114,5 @@ kernels. Point releases are tagged as needed in order to support the stable kern
   types="string,string,string"
   rows=collapsedCycles %}
 
-## Special notes
-
-- For FreeBSD 12.2, the last supported version is 2.2.6
+{: .note}
+> - For FreeBSD 12.2, the last supported version is 2.2.6
