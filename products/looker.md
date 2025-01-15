@@ -24,12 +24,14 @@ releases:
     eol: false # TBD on https://cloud.google.com/looker/docs/officially-supported-releases
     latest: '25.0'
     latestReleaseDate: 2025-01-08
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-25-0-Release-Notes/m-p/860290
 
 -   releaseCycle: "24.20"
     releaseDate: 2024-11-07
     eol: 2025-03-31
     latest: '24.20'
     latestReleaseDate: 2024-11-07
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-20-Release-Notes/m-p/831705
 
 -   releaseCycle: "24.18"
     releaseDate: 2024-10-09
@@ -43,12 +45,14 @@ releases:
     eol: 2024-12-31
     latest: '24.16'
     latestReleaseDate: 2024-09-11
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-16-Release-Notes/td-p/805026
 
 -   releaseCycle: "24.14"
     releaseDate: 2024-08-14
     eol: 2024-11-30
     latest: '24.14'
     latestReleaseDate: 2024-08-14
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-14-Release-Notes/td-p/791617
 
 -   releaseCycle: "24.12"
     releaseDate: 2024-07-10
@@ -56,18 +60,21 @@ releases:
     eol: 2024-11-30
     latest: '24.12'
     latestReleaseDate: 2024-07-10
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-12-Release-Notes/td-p/776930
 
 -   releaseCycle: "24.10"
     releaseDate: 2024-06-12
     eol: 2024-09-30
     latest: '24.10'
     latestReleaseDate: 2024-06-12
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-10-Release-Notes/td-p/764361
 
 -   releaseCycle: "24.8"
     releaseDate: 2024-05-08
     eol: 2024-08-31
     latest: '24.8'
     latestReleaseDate: 2024-05-08
+    link: https://www.googlecloudcommunity.com/gc/News-Announcements/Looker-24-8-Release-Notes/td-p/749331
 
 -   releaseCycle: "24.6"
     releaseDate: 2024-04-10
