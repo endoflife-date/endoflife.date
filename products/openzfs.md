@@ -26,11 +26,19 @@ auto:
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions.
 releases:
+-   releaseCycle: "2.3"
+    supportedLinux: "4.18 - 6.12"
+    supportedFreeBSD: "13.3-RELEASE+"
+    releaseDate: 2025-01-13
+    eol: false # releaseDate(2.4)
+    latest: "2.3.0"
+    latestReleaseDate: 2025-01-13
+
 -   releaseCycle: "2.2"
-    supportedLinux: "4.18 - 6.10"
-    supportedFreeBSD: "12.2-RELEASE+"
+    supportedLinux: "4.18 - 6.12"
+    supportedFreeBSD: "13.0-RELEASE+"
     releaseDate: 2023-10-12
-    eol: false # releaseDate(2.3)
+    eol: 2025-01-13 # releaseDate(2.3)
     latest: "2.2.7"
     latestReleaseDate: 2024-12-11
 
@@ -105,3 +113,6 @@ kernels. Point releases are tagged as needed in order to support the stable kern
   fields="releaseCycle,supportedLinux,supportedFreeBSD"
   types="string,string,string"
   rows=collapsedCycles %}
+
+{: .note}
+> - For FreeBSD 12.2, the last supported version is 2.2.6
