@@ -83,7 +83,7 @@ releases:
 
 -   releaseCycle: "31"
     releaseDate: 2019-10-29
-    eol: 2020-11-30
+    eol: 2020-11-24
     latest: "31"
     latestReleaseDate: 2019-10-29
 
