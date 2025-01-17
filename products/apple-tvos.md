@@ -28,8 +28,8 @@ releases:
 -   releaseCycle: "18"
     releaseDate: 2024-09-16
     eol: false
-    latest: '18.2'
-    latestReleaseDate: 2024-12-11
+    latest: '18.2.1'
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
@@ -87,6 +87,7 @@ releases:
     latest: '9.2.2'
     latestReleaseDate: 2016-07-18
     link: null
+
 ---
 
 > [tvOS](https://developer.apple.com/tvos/) (formerly Apple TV Software) is an operating system
