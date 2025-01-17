@@ -44,7 +44,7 @@ auto:
 releases:
 -   releaseCycle: "1.33"
     releaseDate: 2025-01-14
-    eol: false # tbd on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
+    eol: 2026-01-14 # tbd on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
     latest: '1.33.0'
     latestReleaseDate: 2025-01-14
 

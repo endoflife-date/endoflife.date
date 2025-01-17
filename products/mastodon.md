@@ -27,20 +27,20 @@ releases:
 -   releaseCycle: "4.3"
     releaseDate: 2024-10-08
     eol: false
-    latest: "4.3.2"
-    latestReleaseDate: 2024-12-03
+    latest: "4.3.3"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: false
-    latest: "4.2.14"
-    latestReleaseDate: 2024-12-03
+    latest: "4.2.15"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-02-10
     eol: 2025-04-08
-    latest: "4.1.21"
-    latestReleaseDate: 2024-12-03
+    latest: "4.1.22"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-11-14
