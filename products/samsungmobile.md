@@ -121,6 +121,12 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
+-   releaseCycle: "Galaxy A24"
+    releaseDate: 2023-05-05
+    eoas: false # "four generations of OS upgrades"
+    eol: 2028-05-05 #five years of security updates" (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
+    link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
+
 -   releaseCycle: "Galaxy A54 5G"
     releaseDate: 2023-03-24
     eoas: false # "four generations of OS upgrades"
