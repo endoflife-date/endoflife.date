@@ -694,13 +694,13 @@ releases:
 -   releaseCycle: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
 -   releaseCycle: "Galaxy S20 FE"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab Active3"
@@ -904,37 +904,37 @@ releases:
 -   releaseCycle: "Galaxy S20 Ultra"
     releaseDate: 2020-03-15
     eoas: true
-    eol: 2024-03-15 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
 
 -   releaseCycle: "Galaxy S20 Ultra 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G988B/ATO/doc.html
 
 -   releaseCycle: "Galaxy S20+ 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G986B/XEF/doc.html
 
 -   releaseCycle: "Galaxy S20+"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G985F/XEH/doc.html
 
 -   releaseCycle: "Galaxy S20 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G981B/ITV/doc.html
 
 -   releaseCycle: "Galaxy S20"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: false
     link: https://doc.samsungmobile.com/SM-G980F/VDC/doc.html
 
 -   releaseCycle: "Galaxy M31"
