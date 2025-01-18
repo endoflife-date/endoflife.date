@@ -11,8 +11,8 @@ releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl: pkg:composer/drush/drush
 -   repology: drush
+-   purl: pkg:composer/drush/drush
 -   purl: pkg:github/drush-ops/drush
 
 auto:

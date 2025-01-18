@@ -14,6 +14,7 @@ eolColumn: true
 eoesColumn: "Extended Support"
 
 identifiers:
+-   repology: jetty
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
 -   cpe: cpe:2.3:a:eclipse:jetty
 -   cpe: cpe:/a:eclipse:jetty

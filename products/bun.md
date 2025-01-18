@@ -10,8 +10,8 @@ changelogTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:docker/oven/bun
 -   repology: bun
+-   purl: pkg:docker/oven/bun
 -   purl: pkg:github/oven/bun
 
 auto:

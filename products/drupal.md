@@ -13,11 +13,11 @@ eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:composer/drupal/core
 -   repology: php:drupal
+-   purl: pkg:composer/drupal/core
 -   purl: pkg:docker/bitnami/drupal
--   purl: pkg:docker/library/drupal
 -   purl: pkg:docker/bitnami/drupal-nginx
+-   purl: pkg:docker/library/drupal
 -   purl: pkg:github/drupal/core
 -   cpe: cpe:2.3:a:drupal:drupal
 -   cpe: cpe:/a:drupal:drupal

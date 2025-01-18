@@ -13,9 +13,9 @@ releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
+-   repology: fluent-bit
 -   purl: pkg:github/fluent/fluent-bit
 -   purl: pkg:docker/fluent/fluent-bit
--   repology: fluent-bit
 
 auto:
   methods:

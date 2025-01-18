@@ -11,10 +11,10 @@ LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 
 identifiers:
+-   repology: firefox
 -   purl: pkg:apk/alpine/firefox
 -   purl: pkg:deb/debian/firefox-esr
 -   purl: pkg:generic/firefox
--   repology: firefox
 
 auto:
   # It takes too much time to fetch all versions.
