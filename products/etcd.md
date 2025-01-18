@@ -9,10 +9,6 @@ releasePolicyLink: https://github.com/etcd-io/etcd/blob/main/Documentation/contr
 changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/etcd-io/etcd.git
-
 identifiers:
 -   repology: etcd
 -   purl: pkg:docker/bitnami/etcd
@@ -21,6 +17,9 @@ identifiers:
 -   purl: pkg:github/etcd-io/etcd
 -   purl: pkg:golang/github.com/etcd-io/etcd
 
+auto:
+  methods:
+  -   git: https://github.com/etcd-io/etcd.git
 
 # tentative rule:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x+1))

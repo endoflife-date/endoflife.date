@@ -12,10 +12,6 @@ eoesColumn: Commercial Support
 eoasColumn: true
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/drupal/drupal.git
-
 identifiers:
 -   purl: pkg:composer/drupal/core
 -   repology: php:drupal
@@ -25,6 +21,10 @@ identifiers:
 -   purl: pkg:github/drupal/core
 -   cpe: cpe:2.3:a:drupal:drupal
 -   cpe: cpe:/a:drupal:drupal
+
+auto:
+  methods:
+  -   git: https://github.com/drupal/drupal.git
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.

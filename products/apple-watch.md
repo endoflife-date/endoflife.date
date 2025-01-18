@@ -14,7 +14,6 @@ releaseColumn: false
 # All links can be found on https://support.apple.com/en_US/specs/applewatch.
 # All supported watchOS versions can be found on https://en.wikipedia.org/wiki/Apple_Watch#Support.
 releases:
-
 -   releaseCycle: "series-10"
     releaseLabel: "Series 10"
     releaseDate: 2024-09-20

@@ -13,6 +13,9 @@ releaseDateColumn: true
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 
+identifiers:
+-   repology: cockroachdb
+
 auto:
   methods:
   -   git: https://github.com/cockroachdb/cockroach.git
@@ -34,9 +37,6 @@ auto:
         releaseDate: "Initial Release"
         eoas: "Maintenance Support ended"
         eol: "Assistance Support ended"
-
-identifiers:
--   repology: cockroachdb
 
 # For LTS Releases
 # eoas(x) = lts(x)+1y

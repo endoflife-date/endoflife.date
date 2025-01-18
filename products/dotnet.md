@@ -41,7 +41,6 @@ identifiers:
 -   cpe: cpe:2.3:a:microsoft:.net
 -   cpe: cpe:/a:microsoft:.net
 
-
 auto:
   methods:
   -   git: https://github.com/dotnet/core.git

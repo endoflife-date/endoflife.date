@@ -9,15 +9,15 @@ releasePolicyLink: https://docs.fedoraproject.org/en-US/releases/lifecycle/
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__RELEASE_CYCLE__/ChangeSet?rd=Releases/__RELEASE_CYCLE__
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:/o:fedoraproject:fedora
+-   cpe: cpe:2.3:o:fedoraproject:fedora
+
 auto:
   methods:
   -   distrowatch: fedora
       regex: '^Distribution Release: Fedora (?P<version>\d{2})$'
       template: '{{version}}'
-
-identifiers:
--   cpe: cpe:/o:fedoraproject:fedora
--   cpe: cpe:2.3:o:fedoraproject:fedora
 
 # Dates as per https://fedorapeople.org/groups/schedule/
 releases:

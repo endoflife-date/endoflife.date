@@ -14,14 +14,13 @@ releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 releaseDateColumn: true
 eolColumn: Support Status
 
-auto:
-  methods:
-  -   custom: cos
-
 identifiers:
 -   cpe: cpe:2.3:o:google:container-optimized_os
 -   cpe: cpe:/o:google:container-optimized_os
 
+auto:
+  methods:
+  -   custom: cos
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:

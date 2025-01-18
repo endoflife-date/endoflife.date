@@ -9,15 +9,15 @@ changelogTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
 eoasColumn: true
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   github_releases: mondoohq/cnspec
-
 identifiers:
 -   cpe: cpe:2.3:a:cnspec:cnspec
 -   repology: cnspec
 -   purl: pkg:github/mondoohq/cnspec
 -   purl: pkg:docker/mondoo/cnspec
+
+auto:
+  methods:
+  -   github_releases: mondoohq/cnspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)

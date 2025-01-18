@@ -10,6 +10,11 @@ eolColumn: Extended Support
 changelogTemplate: "https://github.com/containerd/containerd/releases/tag/v__LATEST__"
 releaseDateColumn: true
 
+identifiers:
+-   repology: containerd
+-   cpe: cpe:2.3:a:linuxfoundation:containerd
+-   cpe: cpe:/a:linuxfoundation:containerd
+
 auto:
   methods:
   -   git: https://github.com/containerd/containerd.git
@@ -20,11 +25,6 @@ auto:
         releaseCycle: "Release"
         releaseDate: "Start"
         eol: "End of Life"
-
-identifiers:
--   repology: containerd
--   cpe: cpe:2.3:a:linuxfoundation:containerd
--   cpe: cpe:/a:linuxfoundation:containerd
 
 # Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
 releases:
