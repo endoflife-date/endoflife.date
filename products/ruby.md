@@ -5,7 +5,8 @@ iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
-changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|replace:'.','_'}}
+# changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
 releaseDateColumn: true
 eolColumn: Support Status
 
