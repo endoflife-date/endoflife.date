@@ -37,7 +37,7 @@ releases:
     lts: true
     eol: false
     link: https://www.sipwise.com/releases/2024/mr10.5
-    latest: "mr10.5.7"
+    latest: "mr10.5.8"
     latestReleaseDate: 2024-05-10
 
 ---
