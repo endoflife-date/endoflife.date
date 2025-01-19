@@ -7,6 +7,10 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: rtpengine
+auto:
+  methods:
+    - git: https://github.com/sipwise/rtpengine.git
+      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
 
 releases:
 
