@@ -24,6 +24,11 @@ auto:
 # EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 # or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
 releases:
+-   releaseCycle: "24.2"
+    # https://blogs.oracle.com/apex/post/announcing-oracle-apex-242
+    releaseDate: 2025-01-15
+    eol: 2025-07-31
+
 -   releaseCycle: "24.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-241
     releaseDate: 2024-06-17
