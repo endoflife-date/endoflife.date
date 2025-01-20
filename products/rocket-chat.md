@@ -26,22 +26,22 @@ releases:
     releaseDate: 2025-01-07
     eoas: 2025-01-07
     eol: 2025-07-31
-    latest: '7.2.0'
-    latestReleaseDate: 2025-01-07
+    latest: '7.2.1'
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "7.1"
     releaseDate: 2024-12-04
     eoas: 2024-12-04
     eol: 2025-06-30
-    latest: '7.1.0'
-    latestReleaseDate: 2024-12-04
+    latest: '7.1.1'
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "7.0"
     releaseDate: 2024-10-31
     eoas: 2024-10-31
     eol: 2025-04-30
-    latest: '7.0.4'
-    latestReleaseDate: 2025-01-06
+    latest: '7.0.5'
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "6.13"
     releaseDate: 2024-10-10
