@@ -664,7 +664,7 @@ releases:
 -   releaseCycle: "Galaxy A42 5G"
     releaseDate: 2020-11-11
     eoas: true
-    eol: true
+    eol: 2024-06-20
     link: https://doc.samsungmobile.com/SM-A426B/XEF/doc.html
 
 -   releaseCycle: "Galaxy M21s"
@@ -754,7 +754,7 @@ releases:
 -   releaseCycle: "Galaxy A51 5G UW"
     releaseDate: 2020-08-14
     eoas: true
-    eol: true
+    eol: 2024-06-05
     link: https://doc.samsungmobile.com/SM-A516V/CHA/doc.html
 
 -   releaseCycle: "Galaxy Z Flip 5G"
@@ -766,7 +766,7 @@ releases:
 -   releaseCycle: "Galaxy A51 5G"
     releaseDate: 2020-08-07
     eoas: true
-    eol: true
+    eol: 2024-06-05
     link: https://doc.samsungmobile.com/SM-A516B/012784200623/nld.html
 
 -   releaseCycle: "Galaxy M51"
