@@ -38,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-372-87"
-    latestReleaseDate: 2025-01-06
+    latest: "cos-109-17800-372-99"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "cos-105"
     lts: true
