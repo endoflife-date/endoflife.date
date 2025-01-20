@@ -27,11 +27,18 @@ identifiers:
 
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "1.13"
+    releaseDate: 2024-10-29
+    eol: false
+    latest: "1.13.2"
+    latestReleaseDate: 2024-12-10
+    supportedK8sVersions: 1.28 - 1.31
+
 -   releaseCycle: "1.12"
     releaseDate: 2024-04-26
     eol: false
-    latest: "1.12.5"
-    latestReleaseDate: 2024-07-12
+    latest: "1.12.6"
+    latestReleaseDate: 2024-09-27
     supportedK8sVersions: 1.26 - 1.29
 
 -   releaseCycle: "1.11"
@@ -43,7 +50,7 @@ releases:
 
 -   releaseCycle: "1.10"
     releaseDate: 2023-05-30
-    eol: false
+    eol: 2024-10-29 # releaseDate(1.13)
     latest: "1.10.7"
     latestReleaseDate: 2023-12-20
     supportedK8sVersions: 1.24 - 1.26

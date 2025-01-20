@@ -19,6 +19,13 @@ auto:
   -   npm: react
 
 releases:
+-   releaseCycle: "19.0"
+    releaseDate: 2024-12-05
+    eoas: false
+    eol: false
+    latest: "19.0.0"
+    latestReleaseDate: 2024-12-05
+
 -   releaseCycle: "18.3"
     releaseDate: 2024-04-25
     eoas: false

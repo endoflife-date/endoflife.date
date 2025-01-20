@@ -10,52 +10,70 @@ eoasColumn: true
 
 identifiers:
 -   purl: pkg:github/grafana/grafana
+-   purl: pkg:golang/github.com/grafana/grafana
 
+# See https://grafana.com/blog/2024/11/08/grafana-release-cycle-end-of-year-update/#grafana-security-releases-improved-version-naming-convention
+# https://regex101.com/r/2GkIJ5/1
 auto:
   methods:
   -   github_releases: grafana/grafana
-      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
+      template: '{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}'
 
 # The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
 # supported, along with the last minor of the previous major. Hence, we break the latest series into
 # minors but only keep the previous major.
 # - eoas(x) = releaseDate(x+1)
-# - eol(x) = releaseDate(x+2)
+# - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
--   releaseCycle: "11.2"
-    releaseDate: 2024-08-27
+-   releaseCycle: "11.4"
+    releaseDate: 2024-12-05
     eoas: false
     eol: false
-    latest: "11.2.0"
-    latestReleaseDate: 2024-08-27
+    latest: "11.4.0"
+    latestReleaseDate: 2024-12-05
+
+-   releaseCycle: "11.3"
+    releaseDate: 2024-10-22
+    eoas: 2024-12-05
+    eol: 2025-07-31
+    latest: "11.3.2"
+    latestReleaseDate: 2024-12-04
+
+-   releaseCycle: "11.2"
+    releaseDate: 2024-08-27
+    eoas: 2024-10-22
+    eol: 2025-05-31
+    latest: "11.2.5"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-06-21
     eoas: 2024-08-27
-    eol: false
-    latest: "11.1.5"
-    latestReleaseDate: 2024-08-27
+    eol: 2025-03-31
+    latest: "11.1.10"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eoas: 2024-06-21
-    eol: 2024-08-27
-    latest: "11.0.4"
-    latestReleaseDate: 2024-08-27
+    eol: 2025-02-28
+    latest: "11.0.9"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
-    eoas: false
-    eol: false
-    latest: "10.4.8"
-    latestReleaseDate: 2024-08-27
+    eoas: 2025-06-30
+    eol: 2025-06-30
+    latest: "10.4.14"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22
     eoas: 2024-03-06
-    eol: 2024-05-14
-    latest: "10.3.9"
-    latestReleaseDate: 2024-08-27
+    eol: 2024-10-31
+    latest: "10.3.12"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24

@@ -20,33 +20,40 @@ auto:
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # eoas:last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.31"
+    releaseDate: 2024-10-25
+    eoas: 2025-09-30
+    eol: 2025-12-22
+    latest: '1.31.4-gke.1372000'
+    latestReleaseDate: 2025-01-14
+
 -   releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eoas: 2025-07-31
     eol: 2025-09-30
-    latest: '1.30.5-gke.1014000'
-    latestReleaseDate: 2024-09-19
+    latest: '1.30.8-gke.1261000'
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-26
     eoas: 2025-01-31
     eol: 2025-03-21
-    latest: '1.29.8-gke.1278000'
-    latestReleaseDate: 2024-09-19
+    latest: '1.29.12-gke.1270000'
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-12-04
     eoas: 2024-12-31
     eol: 2025-02-04
-    latest: '1.28.14-gke.1004000'
-    latestReleaseDate: 2024-09-19
+    latest: '1.28.15-gke.1612000'
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-15
     eoas: 2024-06-30
     eol: 2024-08-31
-    latest: '1.27.16-gke.1373000'
-    latestReleaseDate: 2024-09-19
+    latest: '1.27.16-gke.2246000'
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-03-31

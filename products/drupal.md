@@ -28,26 +28,41 @@ identifiers:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+
+-   releaseCycle: "10.4"
+    releaseDate: 2024-12-17
+    eoas: 2025-06-16
+    eol: 2025-12-16
+    latest: "10.4.1"
+    latestReleaseDate: 2025-01-07
+
+-   releaseCycle: "11.1"
+    releaseDate: 2024-12-16
+    eoas: false # releaseDate(11.2)
+    eol: false
+    latest: "11.1.1"
+    latestReleaseDate: 2025-01-07
+
 -   releaseCycle: "11.0"
     releaseDate: 2024-08-02
-    eoas: false # releaseDate(11.1)
+    eoas: 2024-12-16 # releaseDate(11.1)
     eol: 2025-06-16
-    latest: "11.0.4"
-    latestReleaseDate: 2024-09-12
+    latest: "11.0.10"
+    latestReleaseDate: 2025-01-07
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
     eoas: 2024-08-02
     eol: 2025-06-16
-    latest: "10.3.5"
-    latestReleaseDate: 2024-09-12
+    latest: "10.3.11"
+    latestReleaseDate: 2025-01-07
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-12-15
     eoas: 2024-06-20
-    eol: 2024-12-09
-    latest: "10.2.8"
-    latestReleaseDate: 2024-09-11
+    eol: 2024-12-17
+    latest: "10.2.12"
+    latestReleaseDate: 2024-11-22
 
 -   releaseCycle: "10.1"
     releaseDate: 2023-06-22
@@ -125,8 +140,8 @@ releases:
     eoas: 2015-11-19
     eol: 2025-01-05
     eoes: false
-    latest: "7.101"
-    latestReleaseDate: 2024-06-05
+    latest: "7.103"
+    latestReleaseDate: 2024-12-04
 
 ---
 
@@ -134,14 +149,14 @@ releases:
 > in PHP and distributed under the GNU General Public License.
 
 Each major version receives active support for about two years, followed by maintenance support and
-security coverage for about two more years. Each major version is supported
-for a minimum of 4 years, until the release of two further major versions.
+security coverage for about two more years. Last three major versions are supported
+with a minimum of 4 years.
 
 ## [Release Schedule](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 
-- A new Drupal major version is released every two years in even years (2022, 2024, etc.). 
+- A new Drupal major version is released every two years in even years (2022, 2024, etc.).
 - Minor versions are released every six months. They contain bug fixes, new features, and deprecations.
-- Patch versions are released monthly. They only contain non-disruptive bug fixes, so site owners can safely upgrade their applications. 
+- Patch versions are released monthly. They only contain non-disruptive bug fixes, so site owners can safely upgrade their applications.
 
 ## [Long Term Support](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-maintenance-minors-and-the-lts-phase)
 

@@ -47,35 +47,43 @@ auto:
 # eoas(x) = releaseDate(x) + 6m
 # eol(x) = releaseDate(x) + 6m
 releases:
+-   releaseCycle: "24.3"
+    releaseDate: 2024-11-18
+    eoas: 2025-11-18
+    eol: 2026-05-18
+    latest: "24.3.3"
+    latestReleaseDate: 2025-01-06
+
 -   releaseCycle: "24.2"
     releaseDate: 2024-08-12
     eoas: 2025-02-12
     eol: 2025-02-12
-    latest: "24.2.2"
-    latestReleaseDate: 2024-09-18
+    latest: "24.2.8"
+    latestReleaseDate: 2024-12-26
 
 -   releaseCycle: "24.1"
     releaseDate: 2024-05-20
+    lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.4"
-    latestReleaseDate: 2024-08-23
+    latest: "24.1.10"
+    latestReleaseDate: 2025-01-03
 
 -   releaseCycle: "23.2"
     releaseDate: 2024-02-05
-    lts: 2024-07-02 # v23.2.7 
+    lts: 2026-07-08 # v23.2.7
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    latest: "23.2.11"
-    latestReleaseDate: 2024-09-11
+    latest: "23.2.19"
+    latestReleaseDate: 2025-01-03
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-05-15
     lts: 2023-11-13 # v23.1.12
     eoas: 2024-05-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
     eol: 2024-11-15 # As per https://www.cockroachlabs.com/docs/releases/v23.1
-    latest: "23.1.26"
-    latestReleaseDate: 2024-09-09
+    latest: "23.1.30"
+    latestReleaseDate: 2024-11-19
 
 -   releaseCycle: "22.2"
     releaseDate: 2022-12-05
@@ -180,7 +188,7 @@ for two weeks before binaries are published for Self-Hosted downloads.
   level of stability and performance.
 - **Long Term Support(LTS)** Releases offer 1 year of Maintenance Support from the date of the first LTS
   patch release, followed by 1 year of Assistance Support.
-- **Innovation** offer 6 months of Maintenance Support. They do not have LTS releases. 
+- **Innovation** offer 6 months of Maintenance Support. They do not have LTS releases.
 
 ## Support Levels
 

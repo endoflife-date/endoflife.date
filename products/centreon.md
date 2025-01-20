@@ -4,6 +4,7 @@ category: server-app
 tags: php-runtime
 permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
+releaseImage: https://docs.centreon.com/assets/images/lifecycle-from-24.10-de6e3693d62648fbe4760ab65fa21015.png
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
 releaseDateColumn: true
 eoasColumn: Phase 1 support
@@ -27,33 +28,42 @@ auto:
 # See also https://docs.centreon.com/docs/releases/lifecycle/
 # note: 24.10 will be an LTS release and should be treated differently
 releases:
+-   releaseCycle: '24.10'
+    releaseDate: 2024-10-31
+    lts: 2027-10-31
+    eoas: 2025-10-31
+    eol: 2027-10-31
+    latest: '24.10.3'
+    latestReleaseDate: 2024-12-19
+    link: https://docs.centreon.com/docs/releases/centreon-os/
+
 -   releaseCycle: '24.04'
     releaseDate: 2024-04-22
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '24.04.6'
-    latestReleaseDate: 2024-09-11
+    latest: '24.04.9'
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
     eoas: 2024-10-31
     eol: 2025-10-31
-    latest: '23.10.16'
-    latestReleaseDate: 2024-09-11
+    latest: '23.10.19'
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: '23.04'
     releaseDate: 2023-04-26
     eoas: 2024-04-30
     eol: 2025-04-30
-    latest: '23.04.21'
-    latestReleaseDate: 2024-09-11
+    latest: '23.04.24'
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: '22.10'
     releaseDate: 2022-10-26
     eoas: 2023-10-31
     eol: 2024-10-31
-    latest: '22.10.24'
-    latestReleaseDate: 2024-09-11
+    latest: '22.10.27'
+    latestReleaseDate: 2025-01-09
 
 -   releaseCycle: '22.04'
     releaseDate: 2022-05-18

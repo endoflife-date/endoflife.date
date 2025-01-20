@@ -23,17 +23,23 @@ identifiers:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2024-11-19
+    eol: false
+    latest: "3.3.2"
+    latestReleaseDate: 2024-12-18
+
 -   releaseCycle: "3.2"
     releaseDate: 2024-09-18
-    eol: false
-    latest: "3.2.0"
-    latestReleaseDate: 2024-09-18
+    eol: 2024-11-19
+    latest: "3.2.2"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "3.1"
     releaseDate: 2024-07-02
     eol: 2024-09-18
-    latest: "3.1.1"
-    latestReleaseDate: 2024-08-08
+    latest: "3.1.2"
+    latestReleaseDate: 2024-10-17
 
 -   releaseCycle: "3.0"
     releaseDate: 2024-04-08
@@ -44,8 +50,8 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2023-09-06
     eol: 2024-04-08
-    latest: "2.9.10"
-    latestReleaseDate: 2024-08-09
+    latest: "2.9.11"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-04-03

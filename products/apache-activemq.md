@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2024-03-11
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "6.1.3"
-    latestReleaseDate: 2024-07-31
+    latest: "6.1.5"
+    latestReleaseDate: 2025-01-09
     link: https://activemq.apache.org/components/classic/download/classic-06-01-02
 
 -   releaseCycle: "6.0"
@@ -47,8 +47,8 @@ releases:
 -   releaseCycle: "5.18"
     releaseDate: 2023-03-18
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
-    latest: "5.18.5"
-    latestReleaseDate: 2024-07-18
+    latest: "5.18.6"
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
@@ -171,6 +171,9 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
+
+
 
 
 

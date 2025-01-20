@@ -14,6 +14,14 @@ releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 releases:
+-   releaseCycle: "2025"
+    releaseDate: 2024-11-01
+    eoas: 2029-10-09
+    eol: 2034-10-10
+    latest: 10.0.26100
+    lts: true
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+
 -   releaseCycle: "23H2"
     releaseDate: 2023-10-24
     eoas: 2025-04-24
@@ -129,12 +137,28 @@ releases:
     eoes: 2023-01-10
     latest: 6.0.6003
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
-
+    
 -   releaseCycle: "2003-SP2"
-    releaseDate: 2003-04-24
+    releaseDate: 2007-03-13
     lts: true
     eoas: 2010-07-13
     eol: 2015-07-14
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+
+-   releaseCycle: "2003-SP1"
+    releaseDate: 2005-03-30
+    lts: false
+    eoas: 2009-04-14
+    eol: 2009-04-14
+    latest: 5.2.3790
+    link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
+
+-   releaseCycle: "2003"
+    releaseDate: 2003-04-24
+    lts: true
+    eoas: 2007-04-10
+    eol: 2007-04-10
     latest: 5.2.3790
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 

@@ -18,6 +18,7 @@ identifiers:
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
 -   purl: pkg:oci/prometheus?repository_url=cgr.dev/chainguard
 -   purl: pkg:github/prometheus/prometheus
+-   purl: pkg:golang/github.com/prometheus/prometheus
 
 auto:
   methods:
@@ -34,6 +35,24 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2025-01-02
+    eol: 2025-02-13
+    latest: "3.1.0"
+    latestReleaseDate: 2025-01-02
+
+-   releaseCycle: "3.0"
+    releaseDate: 2024-11-14
+    eol: 2024-12-26
+    latest: "3.0.1"
+    latestReleaseDate: 2024-11-28
+
+-   releaseCycle: "2.55"
+    releaseDate: 2024-10-22
+    eol: 2024-12-03
+    latest: "2.55.1"
+    latestReleaseDate: 2024-11-06
+
 -   releaseCycle: "2.54"
     releaseDate: 2024-08-09
     eol: 2024-09-20
@@ -44,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2024-06-16
     eol: 2025-07-31
-    latest: "2.53.2"
-    latestReleaseDate: 2024-08-09
+    latest: "2.53.3"
+    latestReleaseDate: 2024-11-05
 
 -   releaseCycle: "2.52"
     releaseDate: 2024-05-08

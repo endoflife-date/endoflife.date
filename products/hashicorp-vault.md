@@ -22,26 +22,32 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/vault.git
 
-# eol(x) = release(x+3)
+# eol(x) = releaseDate(x+3)
 # eoes(x) = releaseDate(x+6)
 releases:
+-   releaseCycle: "1.18"
+    releaseDate: 2024-10-08
+    eol: false
+    latest: "1.18.3"
+    latestReleaseDate: 2024-12-16
+
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-10
-    eol: false
+    eol: 2024-10-09 # releaseDate(1.18)
     latest: "1.17.6"
     latestReleaseDate: 2024-09-24
 
 -   releaseCycle: "1.16"
     releaseDate: 2024-03-25
     lts: true
-    eol: false
+    eol: 2024-06-10 # releaseDate(1.17)
     eoes: 2026-03-15 # approximate = releaseDate(1.22)
     latest: "1.16.3"
     latestReleaseDate: 2024-05-29
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-09-22
-    eol: false
+    eol: 2024-10-08 # releaseDate(1.18)
     latest: "1.15.6"
     latestReleaseDate: 2024-02-28
 
@@ -87,9 +93,9 @@ releases:
 > provides a unified interface to any secret, while providing tight access control and recording a
 > detailed audit log.
 
-- **Generally Available (GA)** releases of active products are supported under standard maintenance approximately
-for a year. The standard support period and end of life policy covers "N−2" versions,
-which means, at any given time, HashiCorp maintains the current version ("N") and the two previous versions ("N−2").
+- **Generally Available (GA)** support of the latest minor release. [Community versions](https://github.com/hashicorp/vault/issues/28471#issuecomment-2393714603)
+end when the next release occurs. While the [Enterprise versions](https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy)
+have extended support.
 
 - [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/lts)
 releases offers extended maintenance through minor releases for select,
@@ -102,13 +108,14 @@ releases.
 
 ## Maintenance Levels
 
-- **Standard Maintenance** includes new features, bug fixes, and security patches.
-- **Extended Maintenance** (only availble for LTS releases for Vault Enterprise customers) only includes
+- **Standard Maintenance** includes new features, bug fixes, and security patches to the
+  latest minor version.
+- **Extended Maintenance** (only available for LTS releases for Vault Enterprise customers) only includes
   patches for bugs that may cause outages and critical vulnerabilities and exposures (CVEs).
 
 ## Versioning and Release Cadence
 
 A major release is identified by a change in the first (X) or second (Y) digit in the following
 versioning nomenclature: `Version X.Y.Z.` Vault typically has 3 major releases every year. LTS releases
-overlap by one year, allowing upgrade time for Enterprise customers. Upgrading from version LTS to LTS+1 
+overlap by one year, allowing upgrade time for Enterprise customers. Upgrading from version LTS to LTS+1
 may require transitional upgrades to move through the intermediate Vault versions.

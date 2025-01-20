@@ -5,7 +5,6 @@ iconSlug: mattermost
 permalink: /mattermost
 versionCommand: sudo -u mattermost /opt/mattermost/bin/mattermost version
 releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
-releaseImage: https://docs.mattermost.com/_images/ESR_graphic2.png
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
@@ -25,25 +24,50 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+# releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.4"
+    releaseDate: 2025-01-16
+    eol: 2025-04-15
+    latest: '10.4.1'
+    latestReleaseDate: 2025-01-16
+
+-   releaseCycle: "10.3"
+    releaseDate: 2024-12-16
+    eol: 2025-03-15
+    latest: '10.3.2'
+    latestReleaseDate: 2025-01-15
+
+-   releaseCycle: "10.2"
+    releaseDate: 2024-11-15
+    eol: 2025-02-15
+    latest: '10.2.2'
+    latestReleaseDate: 2025-01-15
+
+-   releaseCycle: "10.1"
+    releaseDate: 2024-10-16
+    eol: 2025-01-15
+    latest: '10.1.7'
+    latestReleaseDate: 2025-01-15
+
 -   releaseCycle: "10.0"
     releaseDate: 2024-09-16
     eol: 2024-12-15
-    latest: '10.0.0'
-    latestReleaseDate: 2024-09-03
+    latest: '10.0.4'
+    latestReleaseDate: 2024-12-10
 
 -   releaseCycle: "9.11"
     lts: true
     releaseDate: 2024-08-16
     eol: 2025-05-15
-    latest: '9.11.1'
-    latestReleaseDate: 2024-08-21
+    latest: '9.11.7'
+    latestReleaseDate: 2025-01-15
 
 -   releaseCycle: "9.10"
     releaseDate: 2024-07-16
     eol: 2024-10-15
-    latest: '9.10.2'
-    latestReleaseDate: 2024-08-27
+    latest: '9.10.3'
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "9.9"
     releaseDate: 2024-06-14
@@ -72,8 +96,8 @@ releases:
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-16
     eol: 2024-11-15
-    latest: '9.5.9'
-    latestReleaseDate: 2024-08-27
+    latest: '9.5.13'
+    latestReleaseDate: 2024-11-14
 
 -   releaseCycle: "9.4"
     releaseDate: 2024-01-16

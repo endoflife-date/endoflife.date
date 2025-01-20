@@ -23,6 +23,13 @@ auto:
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
 releases:
+-   releaseCycle: "7.1"
+    codename: Péter
+    releaseDate: 2024-09-30
+    eol: false
+    latest: "7.1"
+    latestReleaseDate: 2024-09-30
+
 -   releaseCycle: "7.0"
     codename: Dijkstra
     releaseDate: 2024-04-05
@@ -254,15 +261,6 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
-
-
-
-
-
-
-
-
-
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of
@@ -274,11 +272,12 @@ FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL p
 defined but, looking at the releases history, there is at least a `x.y` release every year which is
 supported for at least a year with important bug fixes.
 
+## Long Term Support
+
 While several past FFmpeg releases have enjoyed long term support, 5.1 is the first release where
-such an intention is made clear at release. It is not defined what LTS means precisely, but it can
-be safely assumed that such releases will receive important bug fixes for multiple years. As an
-example, 2.8 (released in 2015), 3.4 (released in 2017) and 4.1 (released in 2018) are still
-supported.
+such an intention is made clear at release. [As per the developers](https://news.ycombinator.com/item?id=41695542),
+the first minor version of every Odd Major version (ODD.1) is planned to be an LTS. Each LTS release is maintained
+for a minimum of 3 years.
 
 Note that these releases are intended for distributors and system integrators, not for end users.
 Users that wish to compile from source themselves are strongly encouraged to consider using [the

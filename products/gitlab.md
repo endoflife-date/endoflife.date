@@ -35,26 +35,54 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/
 releases:
+-   releaseCycle: "17.8"
+    releaseDate: 2025-01-16
+    eoas: 2025-02-20 # releaseDate(17.9)
+    eol: 2025-04-17 # releaseDate(17.11)
+    latest: "17.8.0"
+    latestReleaseDate: 2025-01-15
+
+-   releaseCycle: "17.7"
+    releaseDate: 2024-12-19
+    eoas: 2025-01-16 # releaseDate(17.8)
+    eol: 2025-03-20 # releaseDate(17.10)
+    latest: "17.7.2"
+    latestReleaseDate: 2025-01-15
+
+-   releaseCycle: "17.6"
+    releaseDate: 2024-11-21
+    eoas: 2024-12-19 # releaseDate(17.7)
+    eol: 2025-02-20 # releaseDate(17.9)
+    latest: "17.6.3"
+    latestReleaseDate: 2025-01-08
+
+-   releaseCycle: "17.5"
+    releaseDate: 2024-10-17
+    eoas: 2024-11-21
+    eol: 2025-01-16
+    latest: "17.5.5"
+    latestReleaseDate: 2025-01-08
+
 -   releaseCycle: "17.4"
     releaseDate: 2024-09-19
     eoas: 2024-10-17
     eol: 2024-12-19
-    latest: "17.4.1"
-    latestReleaseDate: 2024-09-24
+    latest: "17.4.6"
+    latestReleaseDate: 2024-12-10
 
 -   releaseCycle: "17.3"
     releaseDate: 2024-08-15
     eoas: 2024-09-19
     eol: 2024-11-21
-    latest: "17.3.4"
-    latestReleaseDate: 2024-09-24
+    latest: "17.3.7"
+    latestReleaseDate: 2024-11-12
 
 -   releaseCycle: "17.2"
     releaseDate: 2024-07-18
     eoas: 2024-08-15
     eol: 2024-10-17
-    latest: "17.2.8"
-    latestReleaseDate: 2024-09-25
+    latest: "17.2.9"
+    latestReleaseDate: 2024-10-09
 
 -   releaseCycle: "17.1"
     releaseDate: 2024-06-20

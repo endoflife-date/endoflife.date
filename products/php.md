@@ -18,26 +18,33 @@ auto:
   -   custom: php
 
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-11-21
+    eoas: 2026-12-31
+    eol: 2028-12-31
+    latest: "8.4.3"
+    latestReleaseDate: 2025-01-16
+
 -   releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.11"
-    latestReleaseDate: 2024-08-29
+    latest: "8.3.16"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
-    latest: "8.2.23"
-    latestReleaseDate: 2024-08-29
+    latest: "8.2.27"
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "8.1"
     releaseDate: 2021-11-25
     eoas: 2023-11-25
     eol: 2025-12-31
-    latest: "8.1.29"
-    latestReleaseDate: 2024-06-06
+    latest: "8.1.31"
+    latestReleaseDate: 2024-11-21
 
 -   releaseCycle: "8.0"
     releaseDate: 2020-11-26

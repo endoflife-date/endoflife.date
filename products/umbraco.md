@@ -37,20 +37,27 @@ auto:
 #
 # Support and EOL dates are documented on https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/.
 releases:
+-   releaseCycle: "15"
+    releaseDate: 2024-11-14
+    eoas: 2025-08-14
+    eol: 2025-11-14
+    latest: '15.1.1'
+    latestReleaseDate: 2024-12-12
+
 -   releaseCycle: "14"
     releaseDate: 2024-05-30
     eoas: 2025-03-02
     eol: 2025-05-30
-    latest: '14.2.0'
-    latestReleaseDate: 2024-08-22
+    latest: '14.3.1'
+    latestReleaseDate: 2024-11-19
 
 -   releaseCycle: "13"
     lts: true
     releaseDate: 2023-12-14
     eoas: 2025-12-14
     eol: 2026-12-14
-    latest: '13.5.1'
-    latestReleaseDate: 2024-09-17
+    latest: '13.5.2'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "12"
     releaseDate: 2023-06-29
@@ -71,8 +78,8 @@ releases:
     releaseDate: 2022-06-16
     eoas: 2024-06-16
     eol: 2025-06-16
-    latest: '10.8.6'
-    latestReleaseDate: 2024-05-17
+    latest: '10.8.7'
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-28
@@ -87,8 +94,8 @@ releases:
     releaseDate: 2019-02-26
     eoas: 2024-02-24
     eol: 2025-02-24
-    latest: '8.18.14'
-    latestReleaseDate: 2024-05-17
+    latest: '8.18.15'
+    latestReleaseDate: 2024-10-21
 
 # https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/umbraco-7-end-of-life-eol/
 -   releaseCycle: "7"

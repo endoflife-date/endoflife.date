@@ -26,10 +26,17 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "6.1"
-    releaseDate: 2024-06-18
+-   releaseCycle: "6.2"
+    releaseDate: 2024-10-08
     eoas: false
     eol: false
+    latest: "6.2.5"
+    latestReleaseDate: 2024-12-31
+
+-   releaseCycle: "6.1"
+    releaseDate: 2024-06-18
+    eoas: 2024-10-08
+    eol: 2024-10-08
     latest: "6.1.5"
     latestReleaseDate: 2024-09-10
 
@@ -45,8 +52,8 @@ releases:
     releaseDate: 2023-02-14
     eoas: false
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
-    latest: "5.27.11"
-    latestReleaseDate: 2024-03-06
+    latest: "5.27.12"
+    latestReleaseDate: 2025-01-06
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.26"

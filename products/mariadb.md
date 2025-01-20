@@ -45,7 +45,7 @@ auto:
       -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-5])\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-6])\.(?P<patch>([2-9]|\d{2}))$
   -   release_table: https://mariadb.org/about/#maintenance-policy
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
@@ -54,10 +54,17 @@ auto:
         releaseDate: "Stable (GA) Date"
         eol: "End-of-life"
 
+# Extend/update regex in section above
 releases:
+-   releaseCycle: "11.6"
+    releaseDate: 2024-11-13
+    eol: false
+    latest: "11.6.2"
+    latestReleaseDate: 2024-11-13
+
 -   releaseCycle: "11.5"
     releaseDate: 2024-08-14
-    eol: false
+    eol: 2024-11-21
     latest: "11.5.2"
     latestReleaseDate: 2024-08-14
 
@@ -65,8 +72,8 @@ releases:
     lts: true
     releaseDate: 2024-05-29
     eol: 2029-05-29
-    latest: "11.4.3"
-    latestReleaseDate: 2024-08-08
+    latest: "11.4.4"
+    latestReleaseDate: 2024-11-01
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -77,8 +84,8 @@ releases:
 -   releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
-    latest: "11.2.5"
-    latestReleaseDate: 2024-08-08
+    latest: "11.2.6"
+    latestReleaseDate: 2024-11-01
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21
@@ -96,8 +103,8 @@ releases:
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    latest: "10.11.9"
-    latestReleaseDate: 2024-08-08
+    latest: "10.11.10"
+    latestReleaseDate: 2024-11-01
 
 -   releaseCycle: "10.10"
     releaseDate: 2022-11-17
@@ -127,15 +134,15 @@ releases:
     lts: true
     releaseDate: 2021-07-06
     eol: 2026-07-06
-    latest: "10.6.19"
-    latestReleaseDate: 2024-08-08
+    latest: "10.6.20"
+    latestReleaseDate: 2024-11-01
 
 -   releaseCycle: "10.5"
     lts: true
     releaseDate: 2020-06-24
     eol: 2025-06-24
-    latest: "10.5.26"
-    latestReleaseDate: 2024-08-08
+    latest: "10.5.27"
+    latestReleaseDate: 2024-11-01
 
 -   releaseCycle: "10.4"
     lts: true

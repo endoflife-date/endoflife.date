@@ -25,19 +25,28 @@ auto:
           column: "Branch"
           regex: '^(?P<value>\d+\.\d+)\.x$'
         releaseDate: "Initial Release"
-        eol: "End of Support"
+        eol: "End of OSS Support"
         eoes: "End Enterprise Support *"
 
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
+-   releaseCycle: "6.2"
+    supportedJavaVersions: "17 - 23"
+    supportedJakartaEEVersions: "9 - 10"
+    releaseDate: 2024-11-14
+    eol: 2026-08-31
+    eoes: 2027-12-31
+    latest: "6.2.2"
+    latestReleaseDate: 2025-01-16
+
 -   releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2023-11-16
     eol: 2025-08-31
     eoes: 2026-12-31
-    latest: "6.1.13"
-    latestReleaseDate: 2024-09-12
+    latest: "6.1.16"
+    latestReleaseDate: 2024-12-12
 
 -   releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"

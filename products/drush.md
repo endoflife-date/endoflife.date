@@ -37,8 +37,8 @@ releases:
     eol: false
     supportedPhpVersions: "8.3+"
     supportedDrupalVersions: "10.2 - 11"
-    latest: "13.2.0"
-    latestReleaseDate: 2024-09-10
+    latest: "13.3.3"
+    latestReleaseDate: 2024-11-10
 
 -   releaseCycle: "12"
     releaseDate: 2023-06-03
@@ -77,8 +77,8 @@ releases:
     eol: 2025-01-31
     supportedPhpVersions: "5.4.5+"
     supportedDrupalVersions: "7 - 8"
-    latest: "8.4.12"
-    latestReleaseDate: 2023-03-15
+    latest: "8.5.0"
+    latestReleaseDate: 2024-11-26
 
 -   releaseCycle: "7"
     releaseDate: 2015-05-20

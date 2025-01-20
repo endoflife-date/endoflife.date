@@ -14,22 +14,29 @@ auto:
   methods:
   -   git: https://github.com/containers/podman.git
 
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "5.3"
+    releaseDate: 2024-11-12
+    eol: false
+    latest: "5.3.1"
+    latestReleaseDate: 2024-11-21
+
 -   releaseCycle: "5.2"
     releaseDate: 2024-08-01
-    eol: false
-    latest: "5.2.3"
-    latestReleaseDate: 2024-09-24
+    eol: 2024-11-12 # releaseDate(5.3)
+    latest: "5.2.5"
+    latestReleaseDate: 2024-10-18
 
 -   releaseCycle: "5.1"
     releaseDate: 2024-05-29
-    eol: true
+    eol: 2024-08-01 # releaseDate(5.2)
     latest: "5.1.2"
     latestReleaseDate: 2024-07-10
 
 -   releaseCycle: "5.0"
     releaseDate: 2024-03-19
-    eol: true
+    eol: 2024-05-29 # releaseDate(5.1)
     latest: "5.0.3"
     latestReleaseDate: 2024-05-10
 

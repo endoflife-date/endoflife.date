@@ -8,7 +8,7 @@ alternate_urls:
 -   /jboss-eap
 -   /jboss
 -   /red-hat-jboss-eap
-versionCommand: $JBOSS_HOME/bin/version.sh
+versionCommand: $JBOSS_HOME/bin/standalone.sh --version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/jboss_notes
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
 releaseDateColumn: true
@@ -25,16 +25,16 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.0.3"
-    latestReleaseDate: 2024-08-15
+    latest: "8.0.4"
+    latestReleaseDate: 2024-11-06
 
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
     eoes: 2026-11-30
-    latest: "7.4.18"
-    latestReleaseDate: 2024-08-08
+    latest: "7.4.19"
+    latestReleaseDate: 2024-10-14
 
 -   releaseCycle: "6"
     releaseDate: 2012-06-01
@@ -69,7 +69,7 @@ releases:
     eoes: 2015-06-30
     latest: '4.2.0.CP09'
     latestReleaseDate: 2010-04-26
-    link: https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
+    link: https://web.archive.org/web/20240225123551/https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
 ---
 
 > [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/technologies/jboss-middleware/application-platform)

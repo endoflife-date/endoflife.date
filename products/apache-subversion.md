@@ -27,8 +27,8 @@ releases:
     lts: true
     releaseDate: 2020-05-27
     eol: false
-    latest: "1.14.3"
-    latestReleaseDate: 2023-12-28
+    latest: "1.14.5"
+    latestReleaseDate: 2024-12-08
 
 -   releaseCycle: "1.13"
     releaseDate: 2019-10-30

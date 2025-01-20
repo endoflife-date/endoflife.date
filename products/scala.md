@@ -27,12 +27,19 @@ auto:
 
 # For 3.x : eoas(x) = eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "3.6"
+    releaseDate: 2024-12-10
+    eoas: false
+    eol: false
+    latest: "3.6.2"
+    latestReleaseDate: 2024-12-10
+
 -   releaseCycle: "3.5"
     releaseDate: 2024-08-22
     eoas: false
     eol: false
-    latest: "3.5.1"
-    latestReleaseDate: 2024-09-20
+    latest: "3.5.2"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "3.4"
     releaseDate: 2024-02-14
@@ -46,8 +53,8 @@ releases:
     releaseDate: 2023-05-23
     eoas: false
     eol: false
-    latest: "3.3.3"
-    latestReleaseDate: 2024-02-29
+    latest: "3.3.4"
+    latestReleaseDate: 2024-09-27
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-08-31
@@ -74,8 +81,8 @@ releases:
     releaseDate: 2019-06-07
     eoas: false
     eol: false
-    latest: "2.13.15"
-    latestReleaseDate: 2024-09-25
+    latest: "2.13.16"
+    latestReleaseDate: 2025-01-15
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"
@@ -127,13 +134,13 @@ release is supported for at least three years.
 
 Scala’s primary platform is the Java Virtual Machine (JVM).
 
-| JDK version | Minimum Scala versions         |
-|-------------|--------------------------------|
-| 23 (ea)     | 3.3.5†, 2.13.15†, 2.12.20†     |
-| 22          | 3.3.4†, 2.13.13, 2.12.19       |
-| 21 (LTS)    | 3.3.1, 2.13.11, 2.12.18        |
-| 17 (LTS)    | 3.0.0, 2.13.6, 2.12.15         |
-| 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
-| 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
+| JDK version | Minimum Scala versions                |
+| ----------- | ------------------------------------- |
+| 23          | 3.4.0, 3.3.1, 2.13.15, 2.12.20        |
+| 22          | 3.4.0, 3.3.1, 2.13.13, 2.12.19        |
+| 21 (LTS)    | 3.4.0, 3.3.1, 2.13.11, 2.12.18        |
+| 17 (LTS)    | 3.0.0, 3.3.0, 2.13.6, 2.12.15         |
+| 11 (LTS)    | 3.0.0, 3.3.0, 2.13.0, 2.12.4, 2.11.12 |
+| 8 (LTS)     | 3.0.0, 3.3.0, 2.13.0, 2.12.0, 2.11.0  |
 
 † = forthcoming; support available in nightly builds

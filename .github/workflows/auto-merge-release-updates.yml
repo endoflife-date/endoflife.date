@@ -18,13 +18,13 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Clone self repository
-        uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938 # v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: ${{ github.head_ref }}
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3 # v5
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
         with:
           python-version: '3.11'
 
@@ -36,7 +36,7 @@ jobs:
         run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842 # v5
+        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79 # v5
         with:
           file_pattern: products/*
           commit_message: "🤖: Update latest release data"

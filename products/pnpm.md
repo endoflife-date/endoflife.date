@@ -10,16 +10,25 @@ changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   purl: pkg:npm/pnpm
+
 auto:
   methods:
   -   npm: pnpm
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-01-07
+    eol: false
+    latest: '10.0.0'
+    latestReleaseDate: 2025-01-07
+
 -   releaseCycle: "9"
     releaseDate: 2024-04-16
     eol: false
-    latest: '9.11.0'
-    latestReleaseDate: 2024-09-20
+    latest: '9.15.4'
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "8"
     releaseDate: 2023-03-27

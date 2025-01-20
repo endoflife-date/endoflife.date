@@ -27,15 +27,15 @@ auto:
 releases:
 -   releaseCycle: "3.5"
     releaseDate: 2023-09-09
-    eol: 2025-03-09 # estimated
-    latest: "3.5.3"
-    latestReleaseDate: 2024-09-09
+    eol: 2026-04-12 # https://github.com/apache/spark-website/commit/f06babdb98c4d97163c405622b2cc06c9d3c5797
+    latest: "3.5.4"
+    latestReleaseDate: 2024-12-17
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-04-07
-    eol: 2024-10-07 # estimated
-    latest: "3.4.3"
-    latestReleaseDate: 2024-04-15
+    eol: true # 3.4.4 announced as last 3.4.x release in https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
+    latest: "3.4.4"
+    latestReleaseDate: 2024-10-21
 
 -   releaseCycle: "3.3"
     releaseDate: 2022-06-09
