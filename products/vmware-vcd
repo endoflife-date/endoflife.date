@@ -1,0 +1,87 @@
+---
+title: VMware Cloud Director
+category: app
+tags: vmware
+iconSlug: vmware
+permalink: /vcd
+alternate_urls:
+    -   /vmwarevcd
+    -   /vmware-vcd
+releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
+releaseDateColumn: true
+eolColumn: General Support
+releases:
+    -   releaseCycle: "10.6"
+        releaseDate: 2024-06-27
+        eol: 2027-10-11
+        technicalGuidance: 2030-09-21
+        latest: "10.6.0.1"
+        latestReleaseDate: 2024-09-06
+        link: https://techdocs.broadcom.com/us/en/vmware-cis/cloud-director/vmware-cloud-director/10-6/release-notes/vmware-cloud-director-10601-release-notes.html
+    -   releaseCycle: "10.5"
+        releaseDate: 2027-03-07
+        eol: 2025-07-18
+        technicalGuidance: 2030-09-21
+        latest: "10.5.1.1"
+        latestReleaseDate: 2023-12-21
+        link: https://techdocs.broadcom.com/us/en/vmware-cis/cloud-director/vmware-cloud-director/10-5/release-notes/vmware-cloud-director-10511-release-notes.html
+    -   releaseCycle: "10.4"
+        releaseDate: 2022-12-22
+        eol: 2024-07-14
+        technicalGuidance: 2029-12-22
+        latest: "10.4.3"
+        latestReleaseDate: 2023-12-21
+        link: https://docs.vmware.com/en/VMware-Cloud-Director/10.4.3/rn/vmware-cloud-director-1043-release-notes/index.html
+    -   releaseCycle: "10.3"
+        releaseDate: 2021-12-02
+        eol: 2023-07-15
+        technicalGuidance: 2028-12-02
+        latest: "10.3.3.4"
+        latestReleaseDate: 2023-12-21
+        link: https://docs.vmware.com/en/VMware-Cloud-Director/10.3.3.4/rn/vmware-cloud-director-10334-release-notes/index.html
+    -   releaseCycle: "10.2"
+        releaseDate: 2020-11-17
+        eol: 2023-07-15
+        technicalGuidance: 2027-11-17
+        latest: "10.2.4"
+        latestReleaseDate: 2023-03-23
+        link: https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-102-archive.zip
+    -   releaseCycle: "10.1"
+        releaseDate: 2020-04-09
+        eol: 2023-07-15
+        technicalGuidance: 2027-04-09
+        latest: "10.1.6"
+        latestReleaseDate: 2022-12-15
+        link: https://docs.vmware.com/en/VMware-Cloud-Director/10.1/VMware-Cloud-Director-for-Service-Providers-101-archive.zip
+    -   releaseCycle: "10.0"
+        releaseDate: 2019-11-14
+        eol: 2023-07-15
+        technicalGuidance: 2026-11-14
+        latest: "10.0.0.3"
+        latestReleaseDate: 2020-06-11
+        link: https://docs.vmware.com/en/VMware-Cloud-Director/10.0/vCloud-Director-for-Service-Providers-100-archive.zip
+---
+> [VMware Cloud Director](https://www.vmware.com/products/cloud-director.html) is a cloud service-delivery 
+> platform that provides cloud service providers with the capability to build secure, multi-tenant cloud 
+> environments that provide organizations with a powerful self-service cloud platform.
+
+VMware typically supports Cloud Director for a duration of 7 years with 5 years of general support and an
+additional 2 years of technical guidance during which Cloud Director will no longer receive bug fixes and
+security updates. Additional information on lifecycle phases can be found at
+<https://www.vmware.com/support/policies/enterprise-infrastructure.html>.
+
+## [General Support](https://lifecycle.vmware.com/)
+The last date on which you can request support; the end of regular VMware maintenance updates and
+upgrades, *bug and security fixes,* and technical assistance as per the Support and Subscription
+Terms and Conditions.
+
+## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+The last date on which you can access support and workarounds for low-severity issues on supported
+configurations only. During the Technical Guidance phase, VMware does not offer new hardware
+support, server/client/guest OS updates, new security patches or bug fixes unless otherwise noted.
+
+{% include table.html
+    labels="Release,Technical Guidance Ends"
+    fields="releaseCycle,technicalGuidance"
+    types="raw,end-date"
+    rows=page.releases %}
