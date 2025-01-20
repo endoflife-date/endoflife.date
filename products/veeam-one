@@ -41,7 +41,7 @@ releases:
     eoas: 2024-08-28
     eol: 2026-12-05
     link: "https://www.veeam.com/kb4357"
-     latest: "12.1.0.3208"
+    latest: "12.1.0.3208"
     latestReleaseDate: 2023-12-05
 
 -   releaseCycle: "12"
