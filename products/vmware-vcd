@@ -19,11 +19,11 @@ releases:
         latestReleaseDate: 2024-09-06
         link: https://techdocs.broadcom.com/us/en/vmware-cis/cloud-director/vmware-cloud-director/10-6/release-notes/vmware-cloud-director-10601-release-notes.html
     -   releaseCycle: "10.5"
-        releaseDate: 2027-03-07
+        releaseDate: 2023-11-30
         eol: 2025-07-18
         technicalGuidance: 2030-09-21
         latest: "10.5.1.1"
-        latestReleaseDate: 2023-12-21
+        latestReleaseDate: 2024-03-07
         link: https://techdocs.broadcom.com/us/en/vmware-cis/cloud-director/vmware-cloud-director/10-5/release-notes/vmware-cloud-director-10511-release-notes.html
     -   releaseCycle: "10.4"
         releaseDate: 2022-12-22
