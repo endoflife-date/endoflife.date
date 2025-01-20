@@ -307,10 +307,10 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-M236B/XXV/doc.html
 
--   releaseCycle: "Galaxy  FE 2022" # South Korea only
+-   releaseCycle: "Galaxy S20 FE 2022" # South Korea only
     releaseDate: 2022-04-01
     eoas: false
-    eol: false
+    eol: 2026-03-31 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/sm-g781b/xeo/doc.html
 
 -   releaseCycle: "Galaxy A53 5G"
@@ -694,13 +694,13 @@ releases:
 -   releaseCycle: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support
+    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
 -   releaseCycle: "Galaxy S20 FE"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support
+    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab Active3"
@@ -904,37 +904,37 @@ releases:
 -   releaseCycle: "Galaxy S20 Ultra"
     releaseDate: 2020-03-15
     eoas: true
-    eol: 2025-03-14 # Samsung provides a 5th year security support
+    eol: 2025-03-14 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
 
 -   releaseCycle: "Galaxy S20 Ultra 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2025-03-05 # Samsung provides a 5th year security support
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G988B/ATO/doc.html
 
 -   releaseCycle: "Galaxy S20+ 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2025-03-05 # Samsung provides a 5th year security support
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G986B/XEF/doc.html
 
 -   releaseCycle: "Galaxy S20+"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2025-03-05 # Samsung provides a 5th year security support
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G985F/XEH/doc.html
 
 -   releaseCycle: "Galaxy S20 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2025-03-05 # Samsung provides a 5th year security support
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G981B/ITV/doc.html
 
 -   releaseCycle: "Galaxy S20"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2025-03-05 # Samsung provides a 5th year security support
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G980F/VDC/doc.html
 
 -   releaseCycle: "Galaxy M31"
