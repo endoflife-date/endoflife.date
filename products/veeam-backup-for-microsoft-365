@@ -1,0 +1,146 @@
+---
+title: Veeam Backup for Microsoft 365
+category: app
+tags: veeam
+iconSlug: veeam
+permalink: /veeam-backup-for-microsoft-365
+alternate_urls:
+- /veeam-backup-365
+releasePolicyLink: https://www.veeam.com/product-lifecycle.html
+eoasColumn: End of Fix
+releaseColumn: true
+releaseDateColumn: true
+eolColumn: End of Support
+
+auto:
+  methods:
+  - custom: veeam-backup-for-microsoft-365
+
+# Release dates (GA) and build numbers can be found on https://www.veeam.com/kb4106.
+# EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
+# Latest versions can be found on https://www.veeam.com/kb4106.
+releases:
+- releaseCycle: "8.0"
+  releaseDate: 2024-09-03
+  eoas: false # will be 9.0 GA date
+  eol: 2027-09-03
+  versions:
+  - version: "8.0.5.20"
+    releaseDate: 2024-12-12
+    link: "https://www.veeam.com/kb4501"
+  - version: "8.0.4.29"
+    releaseDate: 2024-10-15
+    link: "https://www.veeam.com/kb4475"
+  - version: "8.0.2.200"
+    releaseDate: 2024-09-03
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "7.0"
+  releaseDate: 2023-01-17
+  eoas: 2024-09-03
+  eol: 2026-01-17
+  versions:
+  - version: "7.0.2.5603"
+    releaseDate: 2023-10-20
+    link: "https://www.veeam.com/kb4356"
+  - version: "7.0.1.3337"
+    releaseDate: 2023-05-08
+    link: "https://www.veeam.com/kb4292"
+  - version: "7.0.0.2911"
+    releaseDate: 2023-01-17
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "6.0"
+  releaseDate: 2021-07-13
+  eoas: 2023-01-17
+  eol: 2024-07-13
+  versions:
+  - version: "6.0.3.123"
+    releaseDate: 2022-12-06
+    link: "https://www.veeam.com/kb4256"
+  - version: "6.0.2.456"
+    releaseDate: 2022-03-10
+    link: "https://www.veeam.com/kb4210"
+  - version: "6.0.0.367"
+    releaseDate: 2021-07-13
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "5.0"
+  releaseDate: 2020-12-02
+  eoas: 2021-07-13
+  eol: 2023-12-02
+  versions:
+  - version: "5.0.3.132"
+    releaseDate: 2021-06-14
+    link: "https://www.veeam.com/kb4126"
+  - version: "5.0.2.22"
+    releaseDate: 2021-05-11
+    link: "https://www.veeam.com/kb4106"
+  - version: "5.0.0.1063"
+    releaseDate: 2020-12-02
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "4.0"
+  releaseDate: 2019-11-19
+  eoas: 2020-12-02
+  eol: 2022-11-19
+  versions:
+  - version: "4.0.1.531"
+    releaseDate: 2020-04-21
+    link: "https://www.veeam.com/kb4113"
+  - version: "4.0.0.1345"
+    releaseDate: 2019-11-19
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "3.0"
+  releaseDate: 2019-02-05
+  eoas: 2019-11-19
+  eol: 2021-02-05
+  versions:
+  - version: "3.0.0.422"
+    releaseDate: 2019-02-05
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "2.0"
+  releaseDate: 2017-12-12
+  eoas: 2019-02-05
+  eol: 2020-12-12
+  versions:
+  - version: "2.0.0.567"
+    releaseDate: 2017-12-12
+    link: "https://www.veeam.com/kb4106"
+
+- releaseCycle: "1.0"
+  releaseDate: 2016-11-01
+  eoas: 2017-12-12
+  eol: 2019-11-01
+  versions:
+  - version: "1.5.0.109"
+    releaseDate: 2017-05-25
+    link: "https://www.veeam.com/kb4106"
+  - version: "1.0.0.476"
+    releaseDate: 2016-11-01
+    link: "https://www.veeam.com/kb4106"
+
+---
+
+> [Veeam Backup for Microsoft 365](https://www.veeam.com/products/backup-microsoft-365.html)
+> is a comprehensive solution designed to back up and restore your Microsoft 365 data, including
+> Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.
+
+{: .warning }
+Veeam Backup for Microsoft 365 is available in two editions: Community (free) and Enterprise (paid).
+This page only covers the Enterprise edition.
+
+Support for Veeam Backup for Microsoft 365 requires an active maintenance contract and is divided
+into two phases.
+
+The first phase ends with the end of fix date. During this phase, updates, patches, and hotfixes
+are provided for the product.
+
+The second phase ends with the end of support date. Updates, patches, and hotfixes may also be
+provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
+in a later supported generally available version, an update to the later release is required.
+
+This page uses GA dates as release dates, as provided on
+<https://www.veeam.com/kb4106>.
