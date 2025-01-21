@@ -24,6 +24,15 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+-   releaseCycle: "22.1"
+    codename: Xia
+    lts: true
+    releaseDate: 2025-01-16
+    eoas: false
+    eol: 2029-04-30
+    latest: "22.1"
+    link: https://blog.linuxmint.com/?p=4793
+
 -   releaseCycle: "22"
     codename: Wilma
     lts: true
