@@ -12,6 +12,7 @@ changelogTemplate: https://nixos.org/manual/nixos/stable/release-notes.html#sec-
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
 releaseColumn: false
+eoesColumn: Commercial LTS
 
 identifiers:
 -   cpe: cpe:/o:nixos:nixos
@@ -27,6 +28,7 @@ releases:
     codename: "Uakari"
     releaseDate: 2024-05-31
     eol: 2024-12-31
+    eoes: 2029-12-31
     
 -   releaseCycle: "23.11"
     codename: "Tapir"
@@ -134,5 +136,7 @@ releases:
 > It uses declarative configuration and allows reliable system upgrades.
 
 There is also the Unstable release which is always supported and receives updates most frequently.
+
+[Cyberus Technology](https://cyberus-technology.de/en/products/nixos-long-term-support) offers long-term support for NixOS 24.05.
 
 **If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**
