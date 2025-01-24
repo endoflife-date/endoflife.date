@@ -12,17 +12,19 @@ eoesColumn: Commercial Support
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: php:drupal
+-   purl: pkg:composer/drupal/core
+-   purl: pkg:docker/bitnami/drupal
+-   purl: pkg:docker/bitnami/drupal-nginx
+-   purl: pkg:docker/library/drupal
+-   purl: pkg:github/drupal/core
+-   cpe: cpe:2.3:a:drupal:drupal
+-   cpe: cpe:/a:drupal:drupal
+
 auto:
   methods:
   -   git: https://github.com/drupal/drupal.git
-
-identifiers:
--   purl: pkg:composer/drupal/core
--   repology: php:drupal
--   purl: pkg:docker/bitnami/drupal
--   purl: pkg:docker/library/drupal
--   purl: pkg:docker/bitnami/drupal-nginx
--   purl: pkg:github/drupal/core
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.

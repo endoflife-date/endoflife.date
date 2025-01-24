@@ -33,6 +33,7 @@ identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-logging
 -   purl: pkg:github/spring-projects/spring-boot
+-   repology: springboot
 
 auto:
   methods:

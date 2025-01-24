@@ -12,6 +12,9 @@ auto:
   methods:
   -   custom: splunk
 
+identifiers:
+-   repology: splunk
+
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
 -   releaseCycle: "9.4"

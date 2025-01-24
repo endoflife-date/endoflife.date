@@ -18,6 +18,9 @@ auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
 
+identifiers:
+-   repology: rocketchat-server
+
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
 # eol(x) can be found on https://docs.rocket.chat/docs/version-durability

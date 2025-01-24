@@ -10,6 +10,9 @@ auto:
   methods:
   -   git: https://github.com/twigphp/Twig.git
 
+identifiers:
+-   repology: php:twig
+
 releases:
 -   releaseCycle: "3"
     releaseDate: 2019-11-15

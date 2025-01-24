@@ -9,6 +9,7 @@ alternate_urls:
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 
 identifiers:
+-   repology: dependency-track
 -   cpe: cpe:/a:owasp:dependency-track
 -   cpe: cpe:2.3:a:owasp:dependency-track
 

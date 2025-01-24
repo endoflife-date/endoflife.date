@@ -12,6 +12,7 @@ eolColumn: Support
 
 identifiers:
 -   purl: pkg:npm/pnpm
+-   repology: pnpm
 
 auto:
   methods:

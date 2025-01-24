@@ -10,6 +10,8 @@ releaseDateColumn: true
 identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
+-   cpe: cpe:2.3:a:unrealircd:unrealircd
+-   cpe: cpe:/a:unrealircd:unrealircd
 
 auto:
   methods:

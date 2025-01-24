@@ -12,6 +12,9 @@ releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Critical Support
 
+identifiers:
+-   repology: dbt-core
+
 auto:
   methods:
   -   git: https://github.com/dbt-labs/dbt-core.git

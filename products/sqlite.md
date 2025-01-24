@@ -12,6 +12,7 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
+-   repology: sqlite
 -   purl: pkg:generic/sqlite
 -   purl: pkg:apk/alpine/sqlite
 -   purl: pkg:github/sqlite/sqlite
