@@ -5,7 +5,8 @@ iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
-changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|replace:'.','_'}}
+# changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
 releaseDateColumn: true
 eolColumn: Support Status
 
@@ -103,6 +104,7 @@ releases:
     # Keep this pinned
     latest: "2.0.0p648"
     latestReleaseDate: 2015-12-16
+    link: null
 
 -   releaseCycle: "1.9.3"
     releaseDate: 2011-10-30
@@ -110,6 +112,7 @@ releases:
     # Keep this pinned
     latest: "1.9.3p551"
     latestReleaseDate: 2014-11-13
+    link: null
 
 ---
 
