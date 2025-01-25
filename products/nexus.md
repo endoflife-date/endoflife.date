@@ -9,6 +9,7 @@ alternate_urls:
 -   /nexus-repository-oss
 -   /nexus-repository-pro
 releasePolicyLink: https://help.sonatype.com/en/sonatype-sunsetting-information.html
+changelogTemplate: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__.0'|replace:'.','-'}}-release-notes.html
 releaseDateColumn: true
 eoasColumn: Full Support
 eolColumn: Extended Maintenance
@@ -86,7 +87,6 @@ releases:
     eol: 2026-01-09
     latest: "3.70.3-01"
     latestReleaseDate: 2024-10-10
-    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
@@ -164,6 +164,7 @@ releases:
     eol: 2025-02-15
     latest: "3.59.0-01"
     latestReleaseDate: 2023-08-15
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.58"
     releaseDate: 2023-07-17
@@ -171,6 +172,7 @@ releases:
     eol: 2025-01-17
     latest: "3.58.1-02"
     latestReleaseDate: 2023-07-27
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.57"
     releaseDate: 2023-07-05
