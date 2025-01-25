@@ -38,7 +38,7 @@ releases:
     lts: true
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
-    eol: false # java 21 is LTS, oracle extended support until September 2031
+    eol: 2031-09-30 # java 21 is LTS, oracle extended support until September 2031
     latest: "jdk-21.0.6"
     latestReleaseDate: 2025-01-21
 
