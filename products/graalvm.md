@@ -53,7 +53,7 @@ releases:
     lts: true
     releaseLabel: "JDK 17"
     releaseDate: 2023-06-13
-    eol: false # java 17 is LTS, oracle extended support until September 2029
+    eol: 2029-09-30 # java 17 is LTS, oracle extended support until September 2029
     latest: "jdk-17.0.9"
     latestReleaseDate: 2025-01-21
 
