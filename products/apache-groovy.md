@@ -29,8 +29,8 @@ releases:
     releaseDate: 2022-01-25
     eol: false
     eoas: false
-    latest: "4.0.24"
-    latestReleaseDate: 2024-11-05
+    latest: "4.0.25"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
