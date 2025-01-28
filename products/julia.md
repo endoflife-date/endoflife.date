@@ -34,7 +34,7 @@ releases:
     releaseDate: 2021-03-24
     lts: 2021-12-01 # https://discourse.julialang.org/t/julia-v1-7-0-has-been-released-and-v1-6-is-now-lts/72336
     eol: 2024-10-08 # https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064
-    latest: v1.6.7
+    latest: "1.6.7"
     latestReleaseDate: 2022-07-20
 
 -   releaseCycle: "1.0"
