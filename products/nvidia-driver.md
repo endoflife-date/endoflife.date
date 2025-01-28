@@ -23,7 +23,7 @@ releaseDateColumn: true
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
--   releaseCycle: "570-Linux (PB)"
+-   releaseCycle: "R570-Linux (PB)"
     releaseDate: 2025-01-27
     eoas: 2026-01-27
     eol: 2026-01-27
@@ -31,7 +31,7 @@ releases:
     latestReleaseDate: 2025-01-27
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-86-15/
           
--   releaseCycle: "570-Windows (PB)"
+-   releaseCycle: "R570-Windows (PB)"
     releaseDate: 2025-01-27
     eoas: 2026-01-27
     eol: 2026-01-27
