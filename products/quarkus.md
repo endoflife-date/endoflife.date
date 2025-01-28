@@ -298,6 +298,11 @@ The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix 
 the latest version every week in between. [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/),
 a new LTS version is also published every 6 months.
 
+Quarkus releases an LTS (Long-Term Support) version every six months. LTS is designed for users who prioritize
+stability over new features.
+These versions are maintained for one year and receive critical bug and CVE fixes. An overlap period allows a smooth upgrade to the next LTS.
+A new LTS version will be released every six months. For each LTS, micro-releases will occur every two months (e.g., 3.20.1, 3.20.2).
+
 Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161). LTS releases are supported for 12 months
 with critical bug fixes and security patches.
 
