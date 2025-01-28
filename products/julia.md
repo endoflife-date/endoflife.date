@@ -8,12 +8,13 @@ alternate_urls:
 -   /julia-lang
 versionCommand: julia --version
 releasePolicyLink: https://julialang.org/blog/2019/08/release-process/
-changelogTemplate: "https://github.com/JuliaLang/julia/blob/__LATEST__/NEWS.md"
+changelogTemplate: "https://github.com/JuliaLang/julia/releases/tag/v__LATEST__"
 auto:
   methods:
     - git: https://github.com/JuliaLang/julia.git
 identifiers:
   - repology: julia
+
 releases:
 -   releaseCycle: "1.11"
     releaseDate: 2024-10-08 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
@@ -49,11 +50,6 @@ releases:
 
 > [Julia](https://julialang.org) is an open-source programming language designed for technical computing,
 > combining the high performance of compiled languages with the flexibility and approachability of dynamic, interpreted ones.
-
-Julia releases minor versions approximately every 4--5 months.
-Each minor version is supported until the next is released, with patch updates provided as needed, approximately monthly.
-Long-Term Support (LTS) versions are selected occasionally from minor releases and are supported for an extended period, receiving critical bug fixes and security updates.
-For more details, see the [Julia release process documentation](https://julialang.org/downloads/#rel
 
 Julia releases minor versions approximately every 4–5 months.
 Each minor version is supported until the next is released, with patch updates provided as needed, approximately monthly.
