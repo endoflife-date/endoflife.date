@@ -6,7 +6,6 @@ permalink: /istio
 versionCommand: istioctl version
 releasePolicyLink: https://istio.io/latest/docs/releases/supported-releases/#support-policy
 changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
-releaseDateColumn: true
 
 identifiers:
 -   repology: istio

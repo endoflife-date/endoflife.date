@@ -6,7 +6,6 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 changelogTemplate: "https://mariadb.com/kb/en/mariadb-{{'__LATEST__'|replace:'.','-'}}-changelog/"
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:

@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: flux version
 releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
 changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:

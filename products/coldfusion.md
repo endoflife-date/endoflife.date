@@ -6,7 +6,6 @@ permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
 releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
-releaseDateColumn: true
 eolColumn: Core Support
 eoesColumn: true
 

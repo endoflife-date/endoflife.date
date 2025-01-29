@@ -7,7 +7,6 @@ permalink: /apache-kafka
 alternate_urls:
 -   /kafka
 changelogTemplate: https://downloads.apache.org/kafka/__LATEST__/RELEASE_NOTES.html
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Confluent Platform Standard End of Support
 # https://stackoverflow.com/a/51782038/374236

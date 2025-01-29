@@ -6,7 +6,6 @@ permalink: /lineageos
 alternate_urls:
 -   /lineage
 releaseColumn: false
-releaseDateColumn: true
 customColumns:
 -   property: androidVersion
     position: after-release-column

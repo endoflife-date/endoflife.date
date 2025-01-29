@@ -14,7 +14,6 @@ alternate_urls:
 -   /os-400
 versionCommand: DSPJOB OUTPUT(*PRINT)
 releasePolicyLink: https://www.ibm.com/support/pages/release-life-cycle # https://www.ibm.com/support/pages/ibm-i-release-support
-releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 eoesColumn: Extended Life Cycle Support
 

@@ -8,7 +8,6 @@ alternate_urls:
 -   /packer
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/packer/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Standard Maintenance
 versionCommand: packer --version
 

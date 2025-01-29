@@ -6,7 +6,6 @@ iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
 changelogTemplate: https://tails.net/news/version___LATEST__/
-releaseDateColumn: true
 
 # We fetch dates from Git, and then override a few
 # older releases with more accurate dates from distrowatch

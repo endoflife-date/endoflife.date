@@ -6,7 +6,6 @@ permalink: /openssl
 versionCommand: openssl version
 releasePolicyLink: https://openssl-library.org/policies/releasestrat/index.html
 changelogTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
-releaseDateColumn: true
 eolColumn: Supported
 eoesColumn: Premium support
 

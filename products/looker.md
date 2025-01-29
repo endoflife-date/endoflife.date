@@ -10,7 +10,6 @@ changelogTemplate: https://cloud.google.com/looker/docs/release-notes
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
 releaseColumn: false
-releaseDateColumn: true
 
 # Used only for detecting new minor releases.
 auto:

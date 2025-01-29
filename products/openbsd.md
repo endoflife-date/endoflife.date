@@ -6,7 +6,6 @@ iconSlug: openbsd
 permalink: /openbsd
 versionCommand: uname -r
 changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
-releaseDateColumn: true
 releaseColumn: false
 
 # eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to first of next month

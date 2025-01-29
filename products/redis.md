@@ -7,7 +7,6 @@ versionCommand: redis-server --version
 releasePolicyLink: https://redis.io/docs/about/releases/
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:generic/redis

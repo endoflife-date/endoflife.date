@@ -6,7 +6,6 @@ iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:composer/composer/composer

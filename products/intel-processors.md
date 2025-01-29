@@ -5,7 +5,6 @@ iconSlug: intel
 permalink: /intel-processors
 releasePolicyLink: https://www.intel.com/content/www/us/en/support/articles/000022396/processors.html
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Active Support
 discontinuedColumn: true
 

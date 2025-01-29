@@ -6,7 +6,6 @@ iconSlug: opensearch
 permalink: /opensearch
 releasePolicyLink: https://www.opensearch.org/releases.html
 changelogTemplate: "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-__LATEST__.md"
-releaseDateColumn: true
 eoasColumn: Active Development
 eolColumn: Maintenance Support
 

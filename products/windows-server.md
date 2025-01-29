@@ -10,7 +10,6 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
 releaseLabel: 'Windows Server __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 releases:

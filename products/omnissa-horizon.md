@@ -10,7 +10,6 @@ alternate_urls:
 releasePolicyLink: https://lifecycle.vmware.com
 changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|replace_first:'.','-'}}/rn/vmware-horizon-{{"__LATEST__"|replace_first:'.','-'|replace:'.',''}}-release-notes/index.html
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
-releaseDateColumn: true
 eolColumn: General Support
 
 releases:

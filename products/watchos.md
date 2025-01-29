@@ -9,7 +9,6 @@ releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 # Other release notes are easily accessible from that page, if available.
 changelogTemplate: "https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:apple:watch_os

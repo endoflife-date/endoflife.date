@@ -7,7 +7,6 @@ permalink: /drush
 versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

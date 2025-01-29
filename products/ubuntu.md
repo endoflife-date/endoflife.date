@@ -10,7 +10,6 @@ releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1
 
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
-releaseDateColumn: true
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Expanded Security Maintenance

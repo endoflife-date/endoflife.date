@@ -8,7 +8,6 @@ alternate_urls:
 -   /spring
 releasePolicyLink: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 changelogTemplate: https://github.com/spring-projects/spring-framework/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: OSS support
 eoesColumn: Commercial Support
 

@@ -5,7 +5,6 @@ permalink: /unrealircd
 versionCommand: ./unrealircd version
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: unrealircd

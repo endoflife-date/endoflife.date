@@ -9,7 +9,6 @@ alternate_urls:
 -   /semeru
 versionCommand: java -version
 releasePolicyLink: https://www.ibm.com/support/pages/node/6451203
-releaseDateColumn: true
 eolColumn: End of Service (EOS)
 
 # There is one repository for each major release (except for 15 and 16).

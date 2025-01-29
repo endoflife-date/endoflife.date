@@ -7,7 +7,6 @@ permalink: /traefik
 versionCommand: traefik version
 releasePolicyLink: https://doc.traefik.io/traefik/deprecation/releases
 changelogTemplate: https://github.com/traefik/traefik/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Support
 

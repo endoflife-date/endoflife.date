@@ -6,7 +6,6 @@ permalink: /devuan
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://www.devuan.org/os/releases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-releaseDateColumn: true
 
 auto:
   methods:
