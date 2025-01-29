@@ -90,7 +90,7 @@ defaults:
       auto: []
       releaseColumn: true
       releaseColumnLabel: 'Latest'
-      releaseDateColumn: false
+      releaseDateColumn: true
       releaseDateColumnLabel: 'Released'
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'

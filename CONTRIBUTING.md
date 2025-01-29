@@ -146,7 +146,7 @@ eoasWarnThreshold: 121
 # The value of this property can be set to any string to override the default column label.
 releaseColumn: Latest
 
-# Whether the "Released" column should be displayed (optional, default = false).
+# Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 releaseDateColumn: Released
 
