@@ -7,7 +7,6 @@ permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/logstash/{{'__LATEST__'|split:'.'|pop|join:'.'}}/logstash-{{'__LATEST__'|replace:'.','-'}}.html"
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: logstash

@@ -8,7 +8,6 @@ releasePolicyLink: https://containerd.io/releases/
 eoasColumn: Active Support
 eolColumn: Extended Support
 changelogTemplate: "https://github.com/containerd/containerd/releases/tag/v__LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   repology: containerd

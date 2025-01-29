@@ -10,7 +10,6 @@ releasePolicyLink: https://go.dev/doc/devel/release#policy
 changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
-releaseDateColumn: true
 
 identifiers:
 -   repology: go

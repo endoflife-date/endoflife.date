@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: pveversion –v
 releasePolicyLink: https://pve.proxmox.com/wiki/FAQ
 changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:proxmox:virtual_environment

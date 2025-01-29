@@ -14,7 +14,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
 changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: Support
 releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 

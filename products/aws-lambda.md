@@ -5,7 +5,6 @@ tags: amazon
 iconSlug: awslambda
 permalink: /aws-lambda
 releasePolicyLink: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
-releaseDateColumn: true
 releaseColumn: false
 eoasColumn: Standard Support
 eolColumn: Deprecated Support

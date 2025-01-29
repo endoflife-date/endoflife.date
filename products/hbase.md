@@ -9,7 +9,6 @@ alternate_urls:
 -   /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
-releaseDateColumn: true
 eolColumn: Service Status
 
 identifiers:

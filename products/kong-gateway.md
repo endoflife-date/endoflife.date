@@ -8,7 +8,6 @@ alternate_urls:
 -   /kong
 -   /kong-api-gateway
 changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Enterprise Support
 

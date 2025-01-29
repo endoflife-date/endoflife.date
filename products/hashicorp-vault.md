@@ -8,7 +8,6 @@ alternate_urls:
 -   /vault
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Standard Maintenance
 eoesColumn: Extended Maintenance
 versionCommand: vault --version

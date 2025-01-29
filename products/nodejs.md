@@ -12,7 +12,6 @@ releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 eoesColumn: "Commercial Support"
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:generic/node

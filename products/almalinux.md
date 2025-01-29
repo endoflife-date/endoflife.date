@@ -11,7 +11,6 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.almalinux.org/release-notes/
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:almalinux:almalinux

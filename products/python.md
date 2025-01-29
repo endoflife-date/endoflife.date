@@ -12,7 +12,6 @@ releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:generic/python

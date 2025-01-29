@@ -7,7 +7,6 @@ versionCommand: cnspec version
 releasePolicyLink: https://mondoo.com/docs/cnspec/cnspec-adv-install/update/
 changelogTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:2.3:a:cnspec:cnspec

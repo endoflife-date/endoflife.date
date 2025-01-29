@@ -8,7 +8,6 @@ alternate_urls:
 versionCommand: sqlite3 --version
 releasePolicyLink: https://www.sqlite.org/support.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:

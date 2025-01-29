@@ -11,7 +11,6 @@ versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: cakephp

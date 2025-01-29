@@ -3,7 +3,6 @@ title: Calico
 category: server-app
 permalink: /calico
 changelogTemplate: https://github.com/projectcalico/calico/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: calico

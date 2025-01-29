@@ -8,7 +8,6 @@ versionCommand: inspec version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_inspec/#__LATEST__"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: inspec

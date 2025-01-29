@@ -6,7 +6,6 @@ permalink: /grafana-loki
 alternate_urls:
 -   /loki
 changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 auto:
   methods:

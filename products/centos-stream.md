@@ -7,7 +7,6 @@ permalink: /centos-stream
 versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://centos.org/stream9/
 eoasColumn: true
-releaseDateColumn: true
 releaseColumn: false
 
 identifiers:

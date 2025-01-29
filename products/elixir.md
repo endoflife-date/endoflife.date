@@ -7,7 +7,6 @@ versionCommand: elixir --version
 releasePolicyLink: https://hexdocs.pm/elixir/compatibility-and-deprecations.html
 changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__/CHANGELOG.md
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: elixir

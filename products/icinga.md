@@ -7,7 +7,6 @@ versionCommand: icinga2 -V
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
 changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: icinga2

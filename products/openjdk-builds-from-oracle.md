@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://jdk.java.net/
 changelogTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
-releaseDateColumn: true
 supportColumn: false
 
 identifiers:

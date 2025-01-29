@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: mvn --version
 releasePolicyLink: https://maven.apache.org/docs/history.html
 changelogTemplate: "https://github.com/apache/maven/releases/tag/maven-__LATEST__"
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

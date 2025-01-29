@@ -6,7 +6,6 @@ permalink: /zabbix
 versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
 changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Support
 

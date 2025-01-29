@@ -11,7 +11,6 @@ versionCommand: cat /etc/os-release /etc/lsb-release
 releasePolicyLink: https://cloud.google.com/container-optimized-os/docs/resources/support-policy
 changelogTemplate: "https://cloud.google.com/container-optimized-os/docs/release-notes/m{{'__RELEASE_CYCLE__'|split:'-'|last}}"
 releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:

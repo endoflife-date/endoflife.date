@@ -9,7 +9,6 @@ releasePolicyLink: https://grails.org/support.html
 changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
-releaseDateColumn: true
 
 identifiers:
 -   repology: grails

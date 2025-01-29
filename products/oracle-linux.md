@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
-releaseDateColumn: true
 eolColumn: Basic/Premier Support
 eoesColumn: Extended Support
 

@@ -6,7 +6,6 @@ iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
 eoesColumn: Commercial Support
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:github/jquery/jquery

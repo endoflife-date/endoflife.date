@@ -9,7 +9,6 @@ alternate_urls:
 -   /team-foundation-server
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Azure%20DevOps%20Server
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:microsoft:azure_devops_server

@@ -8,7 +8,6 @@ alternate_urls:
 versionCommand: zpool get version [zpool name]
 releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
-releaseDateColumn: true
 eolColumn: Critical bug fixes
 
 identifiers:

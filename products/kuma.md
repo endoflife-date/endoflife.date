@@ -7,7 +7,6 @@ permalink: /kuma
 alternate_urls:
 -   /kuma
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:

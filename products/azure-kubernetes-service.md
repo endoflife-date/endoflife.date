@@ -9,7 +9,6 @@ versionCommand: az aks show --resource-group myResourceGroup --name myAKSCluster
 releasePolicyLink: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions
 releaseImage: https://learn.microsoft.com/en-us/azure/aks/media/supported-kubernetes-versions/kubernetes-versions-gantt.png
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: End of Support
 
 # Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.

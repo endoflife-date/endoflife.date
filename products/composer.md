@@ -6,7 +6,6 @@ iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: php:composer

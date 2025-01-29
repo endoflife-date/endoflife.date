@@ -5,7 +5,6 @@ tags: cncf kubernetes
 permalink: /contour
 releasePolicyLink: https://projectcontour.io/resources/support/
 changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 identifiers:

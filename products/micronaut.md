@@ -10,7 +10,6 @@ releasePolicyLink: https://micronaut.io/support-schedule/
 changelogTemplate: "https://github.com/micronaut-projects/micronaut-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
-releaseDateColumn: true
 
 auto:
   methods:

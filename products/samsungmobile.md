@@ -8,7 +8,6 @@ alternate_urls:
 -   /samsungmobile
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Updates
 

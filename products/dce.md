@@ -4,7 +4,6 @@ category: server-app
 tags: kubernetes
 permalink: /dce
 releasePolicyLink: https://docs.daocloud.io/en/dce/support.html
-releaseDateColumn: true
 releaseLabel: DCE __RELEASE_CYCLE__
 eolColumn: Standard Support
 eoesColumn: Support Life

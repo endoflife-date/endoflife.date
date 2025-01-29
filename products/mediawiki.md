@@ -7,7 +7,6 @@ versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/hs5faq2k9b3pw5dm4fabgjwtjf2l8jw.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: End-of-Life
 
 identifiers:
