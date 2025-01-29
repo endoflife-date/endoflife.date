@@ -8,7 +8,7 @@ alternate_urls:
 -   /julia-lang
 versionCommand: julia --version
 releasePolicyLink: https://julialang.org/blog/2019/08/release-process/
-changelogTemplate: "https://github.com/JuliaLang/julia/releases/tag/v__LATEST__"
+changelogTemplate: "https://raw.githubusercontent.com/JuliaLang/julia/v__LATEST__/NEWS.md"
 releaseDateColumn: true
 auto:
   methods:
