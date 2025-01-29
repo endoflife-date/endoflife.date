@@ -26,22 +26,22 @@ releases:
     releaseDate: 2024-11-18
     eoas: false # to update once defined on https://www.suse.com/lifecycle#rancher
     eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
-    latest: "2.10.1"
-    latestReleaseDate: 2024-12-19
+    latest: "2.10.2"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "2.9"
     releaseDate: 2024-07-30
     eoas: false # to update once defined on https://www.suse.com/lifecycle#rancher
     eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
-    latest: "2.9.5"
-    latestReleaseDate: 2024-12-19
+    latest: "2.9.6"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-12-05
     eoas: 2024-09-22
     eol: 2025-07-22
-    latest: "2.8.11"
-    latestReleaseDate: 2024-12-18
+    latest: "2.8.12"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-11-16
