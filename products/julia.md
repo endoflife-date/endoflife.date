@@ -55,6 +55,7 @@ releases:
 Julia releases minor versions approximately every 4–5 months.
 Each minor version is supported until the next is released, with patch updates provided as needed, approximately monthly.
 Long-Term Support (LTS) versions are selected occasionally from minor releases and are supported for an extended period, receiving critical bug fixes and security updates.
+
 For more details, see the [Julia release process](https://julialang.org/blog/2019/08/release-process/) blog post,
 or the summary from the FAQ: [Do I want to use the Stable, LTS, or nightly version of Julia?](https://docs.julialang.org/en/v1/manual/faq/#Do-I-want-to-use-the-Stable,-LTS,-or-nightly-version-of-Julia?),
 as well as the information in the [Downloads page](https://julialang.org/downloads/).
