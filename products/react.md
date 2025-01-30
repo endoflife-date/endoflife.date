@@ -26,33 +26,12 @@ releases:
     latest: "19.0.0"
     latestReleaseDate: 2024-12-05
 
--   releaseCycle: "18.3"
-    releaseDate: 2024-04-25
-    eoas: false
+-   releaseCycle: "18"
+    releaseDate: 2022-03-29
+    eoas: 2024-04-26
     eol: false
     latest: "18.3.1"
     latestReleaseDate: 2024-04-26
-
--   releaseCycle: "18.2"
-    releaseDate: 2022-06-14
-    eoas: 2024-04-25
-    eol: false
-    latest: "18.2.0"
-    latestReleaseDate: 2022-06-14
-
--   releaseCycle: "18.1"
-    releaseDate: 2022-04-26
-    eoas: 2022-06-14
-    eol: false
-    latest: "18.1.0"
-    latestReleaseDate: 2022-04-26
-
--   releaseCycle: "18.0"
-    releaseDate: 2022-03-29
-    eoas: 2022-04-26
-    eol: false
-    latest: "18.0.0"
-    latestReleaseDate: 2022-03-29
 
 -   releaseCycle: "17"
     releaseDate: 2020-10-20
