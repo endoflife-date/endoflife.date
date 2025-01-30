@@ -29,20 +29,20 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2024-11-04
     eol: false
-    latest: "2.13.3"
-    latestReleaseDate: 2025-01-03
+    latest: "2.13.4"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.12"
     releaseDate: 2024-08-05
     eol: false
-    latest: "2.12.9"
-    latestReleaseDate: 2025-01-03
+    latest: "2.12.10"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.11"
     releaseDate: 2024-05-07
     eol: false
-    latest: "2.11.12"
-    latestReleaseDate: 2024-11-05
+    latest: "2.11.13"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.10"
     releaseDate: 2024-02-05

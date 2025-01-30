@@ -34,10 +34,10 @@ auto:
 # - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
 -   releaseCycle: "3.18"
-    releaseDate: 2025-01-30
+    releaseDate: 2025-01-29
     eol: false
     latest: "3.18.1"
-    latestReleaseDate: 2025-01-30
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "3.17"
     releaseDate: 2024-11-27
