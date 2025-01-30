@@ -5,6 +5,7 @@ tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
+releaseDateColumn: false
 customColumns:
 -   property: supportedPHPVersions
     position: after-release-column
