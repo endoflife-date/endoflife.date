@@ -6,6 +6,7 @@ iconSlug: steam
 permalink: /steamos
 eolColumn: Support
 releaseColumn: false
+releaseDateColumn: false
 discontinuedColumn: true
 
 identifiers:
