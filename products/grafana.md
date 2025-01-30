@@ -26,10 +26,17 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
--   releaseCycle: "11.4"
-    releaseDate: 2024-12-05
+-   releaseCycle: "11.5"
+    releaseDate: 2025-01-28
     eoas: false
     eol: false
+    latest: "11.5.0"
+    latestReleaseDate: 2025-01-28
+
+-   releaseCycle: "11.4"
+    releaseDate: 2024-12-05
+    eoas: 2025-01-28
+    eol: 2025-09-30
     latest: "11.4.1"
     latestReleaseDate: 2025-01-28
 
