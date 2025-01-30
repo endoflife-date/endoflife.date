@@ -40,7 +40,7 @@ releases:
 
 -   releaseCycle: "6.2"
     releaseDate: 2023-05-23
-    eol: 2025-12-31
+    eol: 2026-06-30
     eoas: 2025-12-31
     latest: "6.2.6-c857"
     latestReleaseDate: 2025-01-16
