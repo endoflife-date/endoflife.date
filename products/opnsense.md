@@ -19,10 +19,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "25.1"
+    codename: "Ultimate Unicorn"
+    releaseDate: 2025-01-28
+    eol: false
+    latest: "25.1.0"
+    latestReleaseDate: 2025-01-28
+
 -   releaseCycle: "24.7"
     codename: "Thriving Tiger"
     releaseDate: 2024-07-23
-    eol: false
+    eol: 2025-01-28
     latest: "24.7.12"
     latestReleaseDate: 2025-01-14
 
