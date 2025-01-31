@@ -12,13 +12,13 @@ changelogTemplate: "https://github.com/JuliaLang/julia/blob/v__LATEST__/NEWS.md"
 releaseDateColumn: true
 auto:
   methods:
-    - git: https://github.com/JuliaLang/julia.git
+  -   git: https://github.com/JuliaLang/julia.git
 identifiers:
-  - repology: julia
+-   repology: julia
 
 releases:
 -   releaseCycle: "1.11"
-    releaseDate: 2024-10-08 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
+    releaseDate: 2024-10-07 # announcementLink: https://julialang.org/blog/2024/10/julia-1.11-highlights/
     lts: false
     eol: false
     latest: "1.11.3"
@@ -36,16 +36,17 @@ releases:
     lts: 2021-12-01 # https://discourse.julialang.org/t/julia-v1-7-0-has-been-released-and-v1-6-is-now-lts/72336
     eol: 2024-10-08 # https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064
     latest: "1.6.7"
-    latestReleaseDate: 2022-07-20
+    latestReleaseDate: 2022-07-19
 
 -   releaseCycle: "1.0"
-    releaseDate: 2018-08-09
+    releaseDate: 2018-08-08
     lts: 2019-01-22 # https://discourse.julialang.org/t/proposed-release-process-and-schedule/15623 + https://discourse.julialang.org/t/julia-v1-1-0-has-been-released/19911
     eol: 2021-12-01 # https://discourse.julialang.org/t/julia-v1-7-0-has-been-released-and-v1-6-is-now-lts/72336
     latest: "1.0.5"
     latestReleaseDate: 2019-09-09
 
 # Please leave a new line both above and below the triple-dashes.
+
 
 ---
 

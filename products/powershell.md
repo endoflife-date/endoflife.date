@@ -36,7 +36,7 @@ releases:
     eol: 2026-05-12
     latest: "7.5.0"
     latestReleaseDate: 2025-01-23
-    
+
 -   releaseCycle: "7.4"
     lts: true
     releaseDate: 2023-11-16
