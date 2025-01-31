@@ -19,6 +19,7 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+
 -   releaseCycle: "Galaxy A16"
     releaseDate: 2024-11-20
     eoas: 2030-11-20 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
@@ -67,6 +68,12 @@ releases:
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
 
+-   releaseCycle: "Galaxy XCover7"
+    releaseDate: 2024-01-10
+    eoas: 2030-01-10 #  "ANDROID 21 supported"
+    eol: 2031-01-01  # "ANDROID 21 supported"
+    link: https://doc.samsungmobile.com/sm-g556b/eux/doc.html
+    
 -   releaseCycle: "Galaxy A25 5G"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
