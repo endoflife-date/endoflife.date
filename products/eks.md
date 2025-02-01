@@ -25,35 +25,42 @@ auto:
         eoes: "End of extended support"
 
 releases:
+-   releaseCycle: "1.32"
+    releaseDate: 2025-01-25
+    eol: false #need help to fix this
+    eoes: false #need help to fix this
+    latest: '1.32-eks-5'
+    latestReleaseDate: 2025-01-30
+
 -   releaseCycle: "1.31"
     releaseDate: 2024-09-26
     eol: 2025-11-26
     eoes: 2026-11-26
-    latest: '1.31-eks-17'
-    latestReleaseDate: 2025-01-17
+    latest: '1.31-eks-13'
+    latestReleaseDate: 2025-01-30
     link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-eks-distro-kubernetes-version-1-31/
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-05-23
     eol: 2025-07-23
     eoes: 2026-07-23
-    latest: '1.30-eks-25'
-    latestReleaseDate: 2025-01-17
+    latest: '1.30-eks-30'
+    latestReleaseDate: 2025-01-30
     link: https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-distro-kubernetes-version-1-30/
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-23
     eol: 2025-03-23
     eoes: 2026-03-23
-    latest: '1.29-eks-28'
-    latestReleaseDate: 2025-01-17
+    latest: '1-29-eks-31'
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-26
     eol: 2024-11-26
     eoes: 2025-11-26
-    latest: '1.28-eks-34'
-    latestReleaseDate: 2025-01-17
+    latest: '1.28-eks-42'
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-05-24
