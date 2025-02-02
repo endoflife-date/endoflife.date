@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/
 changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
 identifiers:

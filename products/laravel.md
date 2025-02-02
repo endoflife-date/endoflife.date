@@ -8,7 +8,6 @@ versionCommand: composer show laravel/framework|grep versions
 releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:composer/laravel/laravel

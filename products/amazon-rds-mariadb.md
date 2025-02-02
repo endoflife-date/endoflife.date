@@ -5,7 +5,6 @@ tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mariadb
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
-releaseDateColumn: true
 
 auto:
   methods:

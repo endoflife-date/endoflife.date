@@ -5,7 +5,6 @@ tags: cncf
 iconSlug: harbor
 permalink: /vmware-harbor-registry
 changelogTemplate: https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-release-notes.html#v__LATEST__
-releaseDateColumn: true
 eolColumn: End of general support
 
 releases:

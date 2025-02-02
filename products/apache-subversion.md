@@ -8,7 +8,6 @@ alternate_urls:
 -   /apache-subversion
 changelogTemplate: https://subversion.apache.org/docs/release-notes/__RELEASE_CYCLE__.html
 releasePolicyLink: https://subversion.apache.org/roadmap.html
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

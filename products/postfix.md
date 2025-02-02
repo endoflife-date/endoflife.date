@@ -4,7 +4,6 @@ category: server-app
 permalink: /postfix
 versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
-releaseDateColumn: true
 
 identifiers:
 -   repology: postfix

@@ -6,7 +6,6 @@ iconSlug: react
 permalink: /react-native
 releasePolicyLink: https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

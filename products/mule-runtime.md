@@ -11,7 +11,6 @@ alternate_urls:
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__LATEST__'|split:'-'|first}}-release-notes"
 eoasColumn: Standard Support
-releaseDateColumn: true
 eolColumn: Extended Support
 
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.

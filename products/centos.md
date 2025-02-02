@@ -7,7 +7,6 @@ permalink: /centos
 versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://wiki.centos.org/About(2f)Product.html
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:centos:centos

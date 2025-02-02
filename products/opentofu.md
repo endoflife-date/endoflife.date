@@ -9,7 +9,6 @@ alternate_urls:
 -   /open-tofu
 versionCommand: tofu --version
 changelogTemplate: https://github.com/opentofu/opentofu/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
 
 identifiers:
 -   repology: opentofu

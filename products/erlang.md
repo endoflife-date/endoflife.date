@@ -8,7 +8,6 @@ alternate_urls:
 releasePolicyLink: https://www.erlang.org/doc/system_principles/misc.html
 changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: erlang

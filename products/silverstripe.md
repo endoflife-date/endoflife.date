@@ -12,7 +12,6 @@ releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
 eolColumn: Security Support
-releaseDateColumn: true
 eolWarnThreshold: 182
 
 identifiers:

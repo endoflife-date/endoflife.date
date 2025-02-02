@@ -6,7 +6,6 @@ permalink: /big-ip
 versionCommand: show /sys version
 releasePolicyLink: https://my.f5.com/manage/s/article/K5903
 changelogTemplate: "https://techdocs.f5.com/en-us/bigip-{{'__LATEST__'|split:'.'|join:'-'}}/big-ip-release-notes.html"
-releaseDateColumn: true
 eolColumn: End of Technical Support
 eoasColumn: End of Software Development
 

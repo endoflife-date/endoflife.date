@@ -9,7 +9,6 @@ releasePolicyLink: https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-al2.
 changelogTemplate: "https://docs.aws.amazon.com/AL2/latest/relnotes/relnotes-{{'__LATEST_RELEASE_DATE__'|replace:'-',''}}.html"
 eoasColumn: Standard Support
 eolColumn: Security Support
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:2.3:o:amazon:linux

@@ -5,7 +5,6 @@ tags: microsoft
 permalink: /msexchange
 versionCommand: Get-ExchangeServer | Format-List Name,Edition,AdminDisplayVersion
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchange%20Server
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

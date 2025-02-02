@@ -9,7 +9,6 @@ versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows%20Embedded
 releaseLabel: "Windows Embedded __RELEASE_CYCLE__"
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: true
 
 releases:

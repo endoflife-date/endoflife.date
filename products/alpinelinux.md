@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/alpine-release
 releasePolicyLink: https://alpinelinux.org/releases/
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:alpinelinux:alpine_linux

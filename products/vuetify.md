@@ -8,7 +8,6 @@ versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:npm/vuetify
