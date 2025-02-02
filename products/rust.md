@@ -17,6 +17,9 @@ auto:
   methods:
   -   git: https://github.com/rust-lang/rust.git
 
+identifiers:
+-   repology: rust
+
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.84"

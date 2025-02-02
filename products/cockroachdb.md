@@ -13,6 +13,9 @@ releaseDateColumn: true
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 
+identifiers:
+-   repology: cockroachdb
+
 auto:
   methods:
   -   git: https://github.com/cockroachdb/cockroach.git

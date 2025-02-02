@@ -9,6 +9,9 @@ changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: elixir
+
 auto:
   methods:
   -   git: https://github.com/elixir-lang/elixir.git

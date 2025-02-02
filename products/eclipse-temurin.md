@@ -12,6 +12,8 @@ changelogTemplate: https://github.com/adoptium/temurin__RELEASE_CYCLE__-binaries
 releaseDateColumn: true
 
 identifiers:
+-   repology: temurin-bin
+-   repology: temurin-jre-bin
 -   cpe: cpe:/a:eclipse:temurin
 -   cpe: cpe:2.3:a:eclipse:temurin
 
