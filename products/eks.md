@@ -27,8 +27,8 @@ auto:
 releases:
 -   releaseCycle: "1.32"
     releaseDate: 2025-01-25
-    eol: false #need help to fix this
-    eoes: false #need help to fix this
+    eol: 2026-03-23
+    eoes: 2027-03-23
     latest: '1.32-eks-5'
     latestReleaseDate: 2025-01-30
 
