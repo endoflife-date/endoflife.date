@@ -180,6 +180,7 @@ releases:
     eol: 2025-01-05
     latest: "3.57.1-03"
     latestReleaseDate: 2023-07-27
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.56"
     releaseDate: 2023-06-19
@@ -187,6 +188,7 @@ releases:
     eol: 2024-12-29
     latest: "3.56.0-01"
     latestReleaseDate: 2023-06-19
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.55"
     releaseDate: 2023-06-05
@@ -194,6 +196,7 @@ releases:
     eol: 2024-12-05
     latest: "3.55.0-01"
     latestReleaseDate: 2023-06-06
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.54"
     releaseDate: 2023-05-22
@@ -201,6 +204,7 @@ releases:
     eol: 2024-11-22
     latest: "3.54.1-01"
     latestReleaseDate: 2023-05-23
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.53"
     releaseDate: 2023-05-03
@@ -208,6 +212,7 @@ releases:
     eol: 2024-11-02
     latest: "3.53.1-02"
     latestReleaseDate: 2023-05-13
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.52"
     releaseDate: 2023-04-18
@@ -215,6 +220,7 @@ releases:
     eol: 2024-10-14
     latest: "3.52.0-01"
     latestReleaseDate: 2023-04-19
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.51"
     releaseDate: 2023-04-05
@@ -222,6 +228,7 @@ releases:
     eol: 2024-10-01
     latest: "3.51.0-01"
     latestReleaseDate: 2023-04-05
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.50"
     releaseDate: 2023-03-27
@@ -229,6 +236,7 @@ releases:
     eol: 2024-09-22
     latest: "3.50.0-01"
     latestReleaseDate: 2023-03-27
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.49"
     releaseDate: 2023-03-17
@@ -236,6 +244,7 @@ releases:
     eol: 2024-09-12
     latest: "3.49.0-02"
     latestReleaseDate: 2023-03-06
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.48"
     releaseDate: 2023-02-27
@@ -243,6 +252,7 @@ releases:
     eol: 2024-08-25
     latest: "3.48.0-01"
     latestReleaseDate: 2023-02-27
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.47"
     releaseDate: 2023-02-08
@@ -250,6 +260,7 @@ releases:
     eol: 2024-08-06
     latest: "3.47.1-01"
     latestReleaseDate: 2023-02-13
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.46"
     releaseDate: 2023-01-30
@@ -257,6 +268,7 @@ releases:
     eol: 2024-07-28
     latest: "3.46.0-01"
     latestReleaseDate: 2023-01-30
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.45"
     releaseDate: 2022-12-28
@@ -264,6 +276,7 @@ releases:
     eol: 2024-06-28
     latest: "3.45.1"
     latestReleaseDate: 2023-01-18
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.44"
     releaseDate: 2022-12-15
@@ -271,6 +284,7 @@ releases:
     eol: 2024-06-12
     latest: "3.44.0-01"
     latestReleaseDate: 2022-12-19
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.43"
     releaseDate: 2022-11-07
@@ -278,6 +292,7 @@ releases:
     eol: 2024-05-05
     latest: "3.43.0-01"
     latestReleaseDate: 2022-11-09
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.42"
     releaseDate: 2022-09-26
@@ -285,6 +300,7 @@ releases:
     eol: 2024-03-24
     latest: "3.42.0-01"
     latestReleaseDate: 2022-09-26
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.41"
     releaseDate: 2022-07-27
@@ -292,6 +308,7 @@ releases:
     eol: 2024-01-27
     latest: "3.41.1-01"
     latestReleaseDate: 2022-08-19
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.40"
     releaseDate: 2022-06-22
@@ -299,6 +316,7 @@ releases:
     eol: 2023-12-22
     latest: "3.40.1-01"
     latestReleaseDate: 2022-06-27
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.39"
     releaseDate: 2022-05-23
@@ -306,6 +324,7 @@ releases:
     eol: 2023-11-19
     latest: "3.39.0-01"
     latestReleaseDate: 2022-05-23
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.38"
     releaseDate: 2022-03-03
@@ -313,6 +332,7 @@ releases:
     eol: 2023-09-25
     latest: "3.38.1-01"
     latestReleaseDate: 2022-03-29
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.37"
     releaseDate: 2021-11-14
@@ -320,6 +340,7 @@ releases:
     eol: 2023-05-24
     latest: "3.37.3-02"
     latestReleaseDate: 2021-12-29
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.36"
     releaseDate: 2021-10-29
@@ -327,6 +348,7 @@ releases:
     eol: 2023-04-29
     latest: "3.36.0-01"
     latestReleaseDate: 2021-10-29
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.35"
     releaseDate: 2021-10-13
@@ -334,6 +356,7 @@ releases:
     eol: 2023-04-13
     latest: "3.35.0-02"
     latestReleaseDate: 2021-10-12
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.34"
     releaseDate: 2021-08-31
@@ -341,6 +364,7 @@ releases:
     eol: 2023-03-03
     latest: "3.34.1-01"
     latestReleaseDate: 2021-09-22
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.33"
     releaseDate: 2021-08-04
@@ -348,6 +372,7 @@ releases:
     eol: 2023-02-04
     latest: "3.33.1-01"
     latestReleaseDate: 2021-08-18
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.32"
     releaseDate: 2021-07-08
@@ -355,6 +380,7 @@ releases:
     eol: 2023-01-08
     latest: "3.32.1"
     latestReleaseDate: 2021-12-20
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.30"
     releaseDate: 2021-03-04
@@ -362,6 +388,7 @@ releases:
     eol: 2022-09-04
     latest: "3.30.1-01"
     latestReleaseDate: 2021-04-22
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.29"
     releaseDate: 2020-12-04
@@ -369,6 +396,7 @@ releases:
     eol: 2022-06-04
     latest: "3.29.2-02"
     latestReleaseDate: 2021-01-07
+    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 # From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-2-versions-status
 
