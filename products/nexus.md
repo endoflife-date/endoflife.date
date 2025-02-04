@@ -220,7 +220,7 @@ releases:
     eol: 2024-10-14
     latest: "3.52.0-01"
     latestReleaseDate: 2023-04-19
-    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.51"
     releaseDate: 2023-04-05
@@ -228,7 +228,7 @@ releases:
     eol: 2024-10-01
     latest: "3.51.0-01"
     latestReleaseDate: 2023-04-05
-    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.50"
     releaseDate: 2023-03-27
@@ -236,7 +236,7 @@ releases:
     eol: 2024-09-22
     latest: "3.50.0-01"
     latestReleaseDate: 2023-03-27
-    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.49"
     releaseDate: 2023-03-17
@@ -244,7 +244,7 @@ releases:
     eol: 2024-09-12
     latest: "3.49.0-02"
     latestReleaseDate: 2023-03-06
-    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.48"
     releaseDate: 2023-02-27
@@ -252,7 +252,7 @@ releases:
     eol: 2024-08-25
     latest: "3.48.0-01"
     latestReleaseDate: 2023-02-27
-    link: https://help.sonatype.com/en/nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-{% assign dashedReleaseCycle = "__RELEASE_CYCLE__.0"|replace:".","-" %}{% assign dashedPatch = "__LATEST__"|replace:".","-"|split:"-"|slice:0,3|join:"-" %}{{ dashedReleaseCycle }}{% if dashedReleaseCycle != dashedPatch %}---{{ dashedPatch }}{% endif %}-release-notes.html
 
 -   releaseCycle: "3.47"
     releaseDate: 2023-02-08
