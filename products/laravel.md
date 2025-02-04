@@ -38,6 +38,15 @@ auto:
 
 # Do not forget to update the regex_exclude pattern below when a new major version is released.
 releases:
+
+-   releaseCycle: "12"
+    releaseDate: 2025-02-24
+    eoas: 2026-08-03
+    eol: 2027-02-24
+    supportedPhpVersions: '8.2 - 8.4'
+    latest: '12.0.0'
+    latestReleaseDate: 2025-02-24
+    
 -   releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
