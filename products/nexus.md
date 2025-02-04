@@ -21,19 +21,19 @@ auto:
   -   git: https://github.com/sonatype/nexus-public.git
       regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
       template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
-  -   release_table: https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status
+  -   release_table: https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
       selector: 'table'
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
-          column: 'Sonatype Nexus Repository Version'
+          column: 'Version'
           regex: '^(?P<value>\d+\.\d+)\.0.*$'
           regex_exclude: '^3.53' # Invalid Beginning of Extended Maintenance date
         releaseDate:
           column: 'Initial Release Date'
           regex: '^.*?(?P<value>\w+\s*\d+,\s*\d+)(\s*\(\d+\.\d+\.0\)\s*)?$'
         eoas:
-          column: 'Beginning of Extended Maintenance'
+          column: 'Extended Maintenance'
           regex: '^(?P<value>\w+\s*\d+,\s*\d+).*$'
         eol:
           column: 'Sunset Date'
@@ -42,8 +42,15 @@ auto:
 
 # eoas(x) = releaseDate(x) + 12 months
 # eol(x) = releaseDate(x) + 18 months
-# Dates can also be found on https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status.
+# Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
+-   releaseCycle: "3.76"
+    releaseDate: 2025-01-07
+    eoas: 2026-01-07
+    eol: 2026-07-07
+    latest: "3.76.1-01"
+    latestReleaseDate: 2025-01-23
+
 -   releaseCycle: "3.75"
     releaseDate: 2024-12-03
     eoas: 2025-12-03
