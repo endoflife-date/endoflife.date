@@ -46,7 +46,7 @@ releases:
 -   releaseCycle: "2019-for-mac"
     releaseLabel: "2019 for Mac"
     releaseDate: 2018-09-24
-    support: 2023-10-10
+    eoas: 2023-10-10
     eol: 2023-10-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2019-for-mac
 
@@ -59,7 +59,7 @@ releases:
 -   releaseCycle: "2016-for-mac"
     releaseLabel: "2016 for Mac"
     releaseDate: 2015-09-22
-    support: 2020-10-13
+    eoas: 2020-10-13
     eol: 2020-10-13
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2016-for-mac
 
@@ -107,21 +107,21 @@ releases:
 -   releaseCycle: "2004-for-mac"
     releaseLabel: "2004 for Mac"
     releaseDate: 2004-07-13
-    support: 2012-01-10
+    eoas: 2012-01-10
     eol: 2012-01-10
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2004-for-mac
 
 -   releaseCycle: "2003"
     releaseLabel: "2003 SP3"
     releaseDate: 2003-11-17
-    support: 2009-04-14
+    eoas: 2009-04-14
     eol: 2014-04-08
     link: https://learn.microsoft.com/lifecycle/products/microsoft-office-2003
 
 -   releaseCycle: "xp"
     releaseLabel: "XP"
     releaseDate: 2001-05-31
-    support: 2006-07-11
+    eoas: 2006-07-11
     eol: 2011-07-12
     link: https://learn.microsoft.com/lifecycle/products/office-xp
 
