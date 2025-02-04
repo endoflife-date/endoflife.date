@@ -29,6 +29,13 @@ auto:
         eol: "Security support"
 
 releases:
+-   releaseCycle: "6.4"
+    releaseDate: 2025-02-03
+    eoas: 2025-05-01
+    eol: 2025-08-01
+    latest: "6.4.0"
+    latestReleaseDate: 2025-02-03
+
 -   releaseCycle: "6.3"
     lts: true
     releaseDate: 2024-11-01
