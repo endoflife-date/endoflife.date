@@ -4,33 +4,56 @@ category: server-app
 tags: hashicorp
 permalink: /nomad
 versionCommand: nomad --version
-releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
-activeSupportColumn: false
 releaseDateColumn: true
 
-auto:
--   git: https://github.com/hashicorp/nomad.git
+identifiers:
+-   repology: nomad-scheduler
+-   cpe: cpe:/a:hashicorp:nomad
+-   cpe: cpe:2.3:a:hashicorp:nomad
 
-# eol(x) = releaseCycle(x+3)
+auto:
+  methods:
+  -   git: https://github.com/hashicorp/nomad.git
+
+# eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.9"
+    releaseDate: 2024-10-10
+    eol: false
+    latest: "1.9.5"
+    latestReleaseDate: 2025-01-14
+
+-   releaseCycle: "1.8"
+    releaseDate: 2024-05-28
+    eol: false
+    latest: "1.8.4"
+    latestReleaseDate: 2024-09-17
+
+-   releaseCycle: "1.7"
+    releaseDate: 2023-12-07
+    eol: false
+    latest: "1.7.7"
+    latestReleaseDate: 2024-04-16
+
 -   releaseCycle: "1.6"
     releaseDate: 2023-07-18
-    eol: false
-    latest: "1.6.2"
-    latestReleaseDate: 2023-09-13
+    eol: 2024-10-10 # releaseDate(1.9)
+    latest: "1.6.10"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.5"
     releaseDate: 2023-03-01
-    eol: false
-    latest: "1.5.9"
-    latestReleaseDate: 2023-09-13
+    eol: 2024-05-28
+    latest: "1.5.17"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.4"
     releaseDate: 2022-10-04
-    eol: false
-    latest: "1.4.13"
-    latestReleaseDate: 2023-09-13
+    eol: 2023-12-07
+    latest: "1.4.14"
+    latestReleaseDate: 2023-10-30
 
 -   releaseCycle: "1.3"
     releaseDate: 2022-05-11

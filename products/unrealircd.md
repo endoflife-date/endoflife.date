@@ -4,33 +4,41 @@ category: server-app
 permalink: /unrealircd
 versionCommand: ./unrealircd version
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
 
-# Source: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/unrealircd.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/unrealircd.py
 auto:
--   custom: true
+  methods:
+  -   custom: unrealircd
+  -   release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Series"
+          regex: '^UnrealIRCd (?P<value>\d+(\.\d+)?)$'
+        releaseDate: "First stable release"
+        eoas: "Security fixes only"
+        eol: "End of life (EOL)"
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
 releases:
 -   releaseCycle: "6"
     releaseDate: 2021-12-17
-    support: true
+    eoas: false
     eol: false
     link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
-    latest: "6.1.2.3"
-    latestReleaseDate: 2023-10-13
+    latest: "6.1.9"
+    latestReleaseDate: 2024-11-20
 
 -   releaseCycle: "5"
     releaseDate: 2019-12-13
-    support: 2022-07-01
+    eoas: 2022-07-01
     eol: 2023-07-01
     link: "https://github.com/unrealircd/unrealircd/blob/unreal52/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
     latest: "5.2.4"
@@ -38,7 +46,7 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2015-12-24
-    support: 2019-05-20
+    eoas: 2019-05-20
     eol: 2020-12-31
     link: https://github.com/unrealircd/unrealircd/blob/unreal42/doc/RELEASE-NOTES
     latest: "4.2.4.1"
@@ -46,7 +54,7 @@ releases:
 
 -   releaseCycle: "3.2"
     releaseDate: 2004-04-25
-    support: 2015-12-11
+    eoas: 2015-12-11
     eol: 2016-12-31
     link: https://forums.unrealircd.org/viewtopic.php?f=1&t=8588
     latest: "3.2.10.7"

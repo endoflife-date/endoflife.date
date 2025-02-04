@@ -11,32 +11,45 @@ changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 releaseDateColumn: true
 eolColumn: Critical bug fixes
 
+identifiers:
+-   repology: openzfs
+-   cpe: cpe:/a:openzfs:openzfs
+-   cpe: cpe:2.3:a:openzfs:openzfs
+
 # Ignore the 2.1.99 release, since that's a pre-release (See talk page)
 auto:
--   git: https://github.com/openzfs/zfs.git
-    regex:
-      ^zfs-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|([1-9]|[1-8]\d|9[0-8]))$
+  methods:
+  -   git: https://github.com/openzfs/zfs.git
+      regex: ^zfs-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>0|([1-9]|[1-8]\d|9[0-8]))$
 
 # non-LTS: eol(x) = releaseDate(x+1)
 # LTS: eol(x) = estimation: releaseDate(x) plus 2 years
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions.
 releases:
+-   releaseCycle: "2.3"
+    supportedLinux: "4.18 - 6.12"
+    supportedFreeBSD: "13.3-RELEASE+"
+    releaseDate: 2025-01-13
+    eol: false # releaseDate(2.4)
+    latest: "2.3.0"
+    latestReleaseDate: 2025-01-13
+
 -   releaseCycle: "2.2"
-    supportedLinux: "3.10 - 6.5"
-    supportedFreeBSD: "12.2-RELEASE+"
+    supportedLinux: "4.18 - 6.12"
+    supportedFreeBSD: "13.0-RELEASE+"
     releaseDate: 2023-10-12
-    eol: false # releaseDate(2.3)
-    latest: "2.2.0"
-    latestReleaseDate: 2023-10-12
+    eol: 2025-01-13 # releaseDate(2.3)
+    latest: "2.2.7"
+    latestReleaseDate: 2024-12-11
 
 -   releaseCycle: "2.1"
     lts: true
-    supportedLinux: "3.10 - 6.5"
+    supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
     eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
-    latest: "2.1.13"
-    latestReleaseDate: 2023-09-27
+    latest: "2.1.16"
+    latestReleaseDate: 2024-12-04
 
 -   releaseCycle: "2.0"
     supportedLinux: "3.10 - 5.15"
@@ -100,3 +113,6 @@ kernels. Point releases are tagged as needed in order to support the stable kern
   fields="releaseCycle,supportedLinux,supportedFreeBSD"
   types="string,string,string"
   rows=collapsedCycles %}
+
+{: .note}
+> - For FreeBSD 12.2, the last supported version is 2.2.6

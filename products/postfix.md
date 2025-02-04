@@ -4,43 +4,56 @@ category: server-app
 permalink: /postfix
 versionCommand: postconf mail_version
 releasePolicyLink: https://www.postfix.org/announcements.html
-activeSupportColumn: false
 releaseDateColumn: true
 
-# We ignore tags before 3.3 because they don't have the correct date
-auto:
--   git: https://github.com/vdukhovni/postfix.git
-    regex: ^v(?<major>[3-9])\.(?<minor>[3-9])\.(?<patch>\d+)$
+identifiers:
+-   repology: postfix
+-   cpe: cpe:/a:postfix:postfix
+-   cpe: cpe:2.3:a:postfix:postfix
 
-# eol(R) = releaseDate(R+4)
+auto:
+  methods:
+  -   git: https://github.com/vdukhovni/postfix.git
+      regex_exclude: # tags before 3.3 don't have the correct date
+      -   ^v[0-2]\.
+      -   ^v3\.[0-2]\.
+
+# eol(x) = releaseDate(x+4)
 releases:
+-   releaseCycle: "3.9"
+    releaseDate: 2024-03-06
+    eol: false
+    latest: "3.9.1"
+    latestReleaseDate: 2024-12-05
+    link: https://www.postfix.org/announcements/postfix-3.9.0.html
+
 -   releaseCycle: "3.8"
     releaseDate: 2023-04-17
     eol: false
-    latest: "3.8.2"
-    latestReleaseDate: 2023-09-20
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    latest: "3.8.7"
+    latestReleaseDate: 2024-12-05
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.7"
     releaseDate: 2022-02-06
     eol: false
-    latest: "3.7.7"
-    latestReleaseDate: 2023-09-20
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    latest: "3.7.12"
+    latestReleaseDate: 2024-12-05
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.6"
     releaseDate: 2021-04-29
     eol: false
-    latest: "3.6.11"
-    latestReleaseDate: 2023-09-20
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    latest: "3.6.16"
+    latestReleaseDate: 2024-12-05
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.5"
     releaseDate: 2020-03-15
-    eol: false
-    latest: "3.5.21"
-    latestReleaseDate: 2023-09-20
-    link: https://www.postfix.org/announcements/postfix-3.8.2.html
+    eol: 2024-03-06
+    latest: "3.5.25"
+    latestReleaseDate: 2024-03-05
+    link: https://www.postfix.org/announcements/postfix-3.8.6.html
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-02-27

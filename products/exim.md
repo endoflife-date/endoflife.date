@@ -3,25 +3,36 @@ title: Exim
 category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
-activeSupportColumn: false
+changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
 releaseDateColumn: true
-
-# https://rubular.com/r/oNyoh1qDT1V2eF
-auto:
--   git: https://github.com/Exim/exim
-    regex: 
-      ^exim-(?<major>[3-9])(\.|_)(?<minor>\d+)((\.|_)(?<patch>\d+)((\.|_)(?<tiny>\d+))?)?$
 
 identifiers:
 -   repology: exim
 
-changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
+auto:
+  methods:
+  -   git: https://github.com/Exim/exim
+      # https://regex101.com/r/jDuVex/1
+      regex:
+        ^exim-(?P<major>[3-9])(\.|_)(?P<minor>\d+)((\.|_)(?P<patch>\d+)((\.|_)(?P<tiny>\d+))?)?$
 
-# eol(R) = releaseDate(R+1)
+# eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "4.98"
+    releaseDate: 2024-07-10
+    eol: false
+    latest: "4.98"
+    latestReleaseDate: 2024-07-10
+
+-   releaseCycle: "4.97"
+    releaseDate: 2023-11-04
+    eol: 2024-07-10
+    latest: "4.97.1"
+    latestReleaseDate: 2023-12-25
+
 -   releaseCycle: "4.96"
     releaseDate: 2022-06-25
-    eol: false
+    eol: 2023-11-04
     latest: "4.96.2"
     latestReleaseDate: 2023-10-15
 
@@ -60,7 +71,7 @@ releases:
     releaseDate: 2017-12-19
     eol: 2018-04-15
     latest: "4.90.1"
-    latestReleaseDate: 2018-02-10
+    latestReleaseDate: 2018-02-08
     link: https://github.com/Exim/exim/releases/tag/exim-4_90_1
 
 -   releaseCycle: "4.89"
@@ -284,8 +295,8 @@ releases:
 ---
 
 > [Exim](https://www.exim.org/) is a message transfer agent (MTA) licensed
-> under the GNU General Public Licence.
+> under the GNU General Public License.
 > It offers a great deal of flexibility in the way mail can be routed.
 
-All versions of Exim previous to version 4.96 [are now obsolete](https://exim.org/).
-Maintainence releases are only published if necessary.
+All versions of Exim previous to latest version [are obsolete](https://exim.org/).
+Maintenance releases are only published if necessary.

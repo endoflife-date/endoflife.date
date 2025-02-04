@@ -6,28 +6,30 @@ iconSlug: apache
 permalink: /apache
 alternate_urls:
 -   /httpd
+-   /apache-http-server
 releasePolicyLink: https://httpd.apache.org/dev/release.html
-activeSupportColumn: false
 versionCommand: |-
   httpd -v
 
   # or for Debian-based systems
   apachectl -v
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
 -   repology: apache
+-   cpe: cpe:/a:apache:http_server
+-   cpe: cpe:2.3:a:apache:http_server
 
 auto:
--   custom: true
+  methods:
+  -   custom: apache-http-server
 
 releases:
 -   releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.58"
-    latestReleaseDate: 2023-10-19
+    latest: "2.4.63"
+    latestReleaseDate: 2025-01-23
     link: https://downloads.apache.org/httpd/Announcement2.4.html
 
 -   releaseCycle: "2.2"

@@ -13,9 +13,15 @@ versionCommand: activemq --version
 releaseDateColumn: true
 eolColumn: Support
 
+identifiers:
+-   repology: activemq
+-   cpe: cpe:/a:apache:activemq
+-   cpe: cpe:2.3:a:apache:activemq
+
 auto:
--   git: https://github.com/apache/activemq.git
-    regex: '^activemq-(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$'
+  methods:
+  -   git: https://github.com/apache/activemq.git
+      regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # eol(x) = releaseCycle(x+2)
 # link(x) =
@@ -24,15 +30,29 @@ auto:
 # - y <= 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-03-11
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "6.1.5"
+    latestReleaseDate: 2025-01-09
+    link: https://activemq.apache.org/components/classic/download/classic-06-01-02
+
+-   releaseCycle: "6.0"
+    releaseDate: 2023-11-14
+    eol: 2024-03-17 # https://github.com/apache/activemq-website/commit/8ae93ea694313f816646ba5adf2e94dd1c665ef6
+    latest: "6.0.1"
+    latestReleaseDate: 2023-11-30
+    link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
 -   releaseCycle: "5.18"
     releaseDate: 2023-03-18
-    eol: false # still listed on https://activemq.apache.org/
-    latest: "5.18.3"
-    latestReleaseDate: 2023-10-24
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "5.18.6"
+    latestReleaseDate: 2024-09-26
 
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
-    eol: false # still listed on https://activemq.apache.org/
+    eol: 2024-04-12 # https://github.com/apache/activemq-website/commit/021a32970405d98b52f647cb838e7a91f4c2b5dc
     latest: "5.17.6"
     latestReleaseDate: 2023-10-25
 
@@ -151,6 +171,16 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
+
+
+
+
+
+
+
+
+
 
 ---
 

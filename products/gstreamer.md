@@ -6,20 +6,33 @@ permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
 changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
-activeSupportColumn: false
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   repology: gstreamer
+-   cpe: cpe:/a:gstreamer:gstreamer
+-   cpe: cpe:2.3:a:gstreamer:gstreamer
+-   cpe: cpe:/a:gstreamer_project:gstreamer
+-   cpe: cpe:2.3:a:gstreamer_project:gstreamer
+
 auto:
--   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-    regex: '^(?<major>[1-9]\d*)\.(?<minor>([1-9]\d*)?[02468])\.?(?<patch>0|[1-9]\d*)?$'
+  methods:
+  -   git: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
+      regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
 releases:
+-   releaseCycle: "1.24"
+    releaseDate: 2024-03-04
+    eol: false
+    latest: "1.24.12"
+    latestReleaseDate: 2025-01-29
+
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23
     eol: false
-    latest: "1.22.6"
-    latestReleaseDate: 2023-09-20
+    latest: "1.22.12"
+    latestReleaseDate: 2024-04-29
 
 -   releaseCycle: "1.20"
     releaseDate: 2022-02-03
@@ -73,7 +86,7 @@ releases:
     releaseDate: 2014-07-19
     eol: true
     # no known changelog for this versions
-    link:
+    link: null
     latest: "1.4.5"
     latestReleaseDate: 2014-12-18
 
@@ -81,7 +94,7 @@ releases:
     releaseDate: 2013-09-24
     eol: true
     # no known changelog for this versions
-    link:
+    link: null
     latest: "1.2.4"
     latestReleaseDate: 2014-04-18
 
@@ -89,7 +102,7 @@ releases:
     releaseDate: 2012-09-24
     eol: true
     # no known changelog for this versions
-    link:
+    link: null
     latest: "1.0.10"
     latestReleaseDate: 2013-08-28
 
@@ -102,7 +115,7 @@ releases:
 > format, processes them, and exports them in another. The formats and
 > processes can be changed in a plug and play fashion.
 
-GStreamer follows [Semantic Versioning](https://semver.org/). Moreover
+GStreamer follows [Semantic Versioning](https://semver.org/). Moreover,
 GStreamer is using the following version policy:
 
 - Stable releases (ready for production use) are even numbers, such as

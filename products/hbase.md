@@ -1,6 +1,6 @@
 ---
 title: Apache HBase
-category: server-app
+category: database
 tags: apache java-runtime
 permalink: /hbase
 alternate_urls:
@@ -8,28 +8,38 @@ alternate_urls:
 -   /apache-hbase
 releasePolicyLink: https://hbase.apache.org/downloads.html
 changelogTemplate: https://github.com/apache/hbase/blob/rel/__LATEST__/RELEASENOTES.md
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Service Status
 
-auto:
--   git: https://github.com/apache/hbase.git
-    regex: '^rel\/(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)(\.(?<tiny>\d+))?$'
-    template: "{{major}}.{{minor}}.{{patch}}{%if tiny%}.{{tiny}}{%endif%}"
+identifiers:
+-   repology: hbase
+-   cpe: cpe:/a:apache:hbase
+-   cpe: cpe:2.3:a:apache:hbase
 
+auto:
+  methods:
+  -   git: https://github.com/apache/hbase.git
+      regex: '^rel\/(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
+
+# Supported releases are listed on https://hbase.apache.org/downloads.html
 releases:
+-   releaseCycle: "2.6"
+    releaseDate: 2024-05-17
+    eol: false
+    latestReleaseDate: 2024-10-18
+    latest: '2.6.1'
+
 -   releaseCycle: "2.5"
     releaseDate: 2022-08-31
     eol: false
-    latestReleaseDate: 2023-10-20
-    latest: '2.5.6'
+    latestReleaseDate: 2024-07-24
+    latest: '2.5.10'
 
 -   releaseCycle: "2.4"
     releaseDate: 2020-12-15
     eol: false
-    latest: "2.4.17"
-    latestReleaseDate: 2023-03-31
+    latest: "2.4.18"
+    latestReleaseDate: 2024-05-25
 
 -   releaseCycle: "2.3"
     releaseDate: 2020-07-13
@@ -37,18 +47,19 @@ releases:
     latest: "2.3.7"
     latestReleaseDate: 2021-10-19
 
--   releaseCycle: "2.2"
-    releaseDate: 2019-07-25
-    eol: 2021-04-19
-    latest: "2.2.7"
-    latestReleaseDate: 2021-04-19
-
 -   releaseCycle: "1.7"
+    outOfOrder: true # wrong tag date for https://github.com/apache/hbase/releases/tag/rel%2F1.7.0
     releaseDate: 2021-06-12
     eol: 2022-08-09
     link: https://github.com/apache/hbase/blob/rel/__LATEST__/CHANGES.txt
     latest: "1.7.2"
     latestReleaseDate: 2022-08-09
+
+-   releaseCycle: "2.2"
+    releaseDate: 2019-07-25
+    eol: 2021-04-19
+    latest: "2.2.7"
+    latestReleaseDate: 2021-04-19
 
 ---
 

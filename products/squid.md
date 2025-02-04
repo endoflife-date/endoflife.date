@@ -6,11 +6,7 @@ alternate_urls:
 -   /squid-cache
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
-changelogTemplate:
-  http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
-
-activeSupportColumn: false
-releaseColumn: true
+changelogTemplate: http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
 releaseDateColumn: true
 
 identifiers:
@@ -22,25 +18,25 @@ identifiers:
 -   purl: pkg:rpm/centos/squid
 -   purl: pkg:apk/alpine/squid
 
-# https://rubular.com/r/mwE2FvyQrDjXzx
 # v4+ has stable releases as major.minor
 # v2,3 had stable releases as major.minor.patch, where patch=0 was for RC releases.
-# v2 sources are now archived in a separate repo, we use that as well
-# the squidadm repository is the one where releases are made
 auto:
--   git: https://github.com/squid-cache/squid2.git
-    regex:
-      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
--   git: https://github.com/squidadm/squid.git
-    regex:
-      ^SQUID_((?<major>(2|3))_(?<minor>\d)_((STABLE)?(?<patch>\d+))|(?<major>[4-9])_(?<minor>\d+))$
+  methods:
+  -   git: https://github.com/squid-cache/squid
+      regex:
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
+  -   git: https://github.com/squid-cache/squid2.git # v2 sources are now archived in a separate repo, we use that as well
+      regex:
+      -   ^SQUID_(?P<major>[2-3])_(?P<minor>\d)_((STABLE)?(?P<patch>\d+))$ # https://regex101.com/r/yMRzJO/1
+      -   ^SQUID_(?P<major>[4-9])_(?P<minor>\d+)$ # https://regex101.com/r/psotaU/1
 
 releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-06
     eol: false
-    latest: '6.1'
-    latestReleaseDate: 2023-07-06
+    latest: '6.13'
+    latestReleaseDate: 2025-02-01
     link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "5"
@@ -61,7 +57,7 @@ releases:
     releaseDate: 2015-01-13
     eol: 2018-08-07
     latest: '3.5.28'
-    latestReleaseDate: 2018-07-15
+    latestReleaseDate: 2018-07-16
 
 -   releaseCycle: "3.4"
     releaseDate: 2013-12-08

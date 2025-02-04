@@ -6,35 +6,37 @@ iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
 changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}_version_history#Joomla___LATEST__"
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
+
+identifiers:
+-   repology: joomla
 
 auto:
--   git: https://github.com/joomla/joomla-cms.git
+  methods:
+  -   git: https://github.com/joomla/joomla-cms.git
 
 # eol see https://developer.joomla.org/roadmap.html
 releases:
 -   releaseCycle: "5"
     releaseDate: 2023-10-14
-    support: true
+    eoas: false
     eol: 2027-10-19
-    latest: "5.0.0"
-    latestReleaseDate: 2023-10-14
+    latest: "5.2.3"
+    latestReleaseDate: 2024-12-21
     # check later for removal: link with changelogTemplate does not work (yet)
-    link:
-      https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
+    link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
 -   releaseCycle: "4"
     releaseDate: 2021-08-17
-    support: 2024-10-17
+    eoas: 2024-10-17
     eol: 2025-10-17
-    latest: "4.4.0"
-    latestReleaseDate: 2023-10-14
+    latest: "4.4.10"
+    latestReleaseDate: 2024-12-28
 
 -   releaseCycle: "3"
     releaseDate: 2012-09-27
-    support: 2021-08-17
+    eoas: 2021-08-17
     eol: 2023-08-17
     latest: "3.10.12"
     latestReleaseDate: 2023-07-08

@@ -9,25 +9,35 @@ alternate_urls:
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
-activeSupportColumn: false
-discontinuedColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 identifiers:
 -   repology: kotlin
 
 # NPM looks a lot more accurate than git, even if it does not reference a few 1.x versions.
 auto:
--   npm: kotlin
+  methods:
+  -   npm: kotlin
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
+-   releaseCycle: "2.1"
+    releaseDate: 2024-11-27
+    eol: false
+    latest: "2.1.10"
+    latestReleaseDate: 2025-01-27
+
+-   releaseCycle: "2.0"
+    releaseDate: 2024-05-21
+    eol: 2024-11-27
+    latest: "2.0.21"
+    latestReleaseDate: 2024-10-10
+
 -   releaseCycle: "1.9"
     releaseDate: 2023-07-06
-    eol: false
-    latest: "1.9.10"
-    latestReleaseDate: 2023-08-23
+    eol: 2024-05-21
+    latest: "1.9.25"
+    latestReleaseDate: 2024-07-19
 
 -   releaseCycle: "1.8"
     eol: 2023-07-06

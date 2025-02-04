@@ -1,0 +1,9 @@
+/*
+ * In Just the Docs v0.7.0, overriding _includes/css/activation.scss.liquid with an empty file
+ * results in a background image on all the links in the main navigation panel when JS is disabled.
+ * This suppress those images. Note that those rules are ignored when JS is enabled.
+ * See https://github.com/just-the-docs/just-the-docs/pull/1358#issuecomment-1787487607.
+ */
+.site-nav ul li a {
+  background-image: none;
+}

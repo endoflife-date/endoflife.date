@@ -8,8 +8,28 @@ releaseColumn: false
 releaseDateColumn: true
 eolColumn: Support Status
 
+# Disabled for now, too instable
+#auto:
+#  methods:
+#  -   release_table: https://www.microfocus.com/productlifecycle/
+#      render_javascript: true
+#      render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(1)"
+#      fields:
+#        releaseCycle:
+#          column: "Product Release"
+#          regex: '^Visual COBOL for Visual Studio (?P<value>\d+\.\d+).*$'
+#        releaseDate: "Release Date"
+#        eol: "Current Maintenance Ends"
+
 # Release and EOL dates can be found are those of Visual COBOL for Visual Studio on https://www.microfocus.com/productlifecycle/.
 releases:
+-   releaseCycle: "10.0"
+    releaseDate: 2024-09-24
+    eol: 2028-09-30
+    link: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
+
 -   releaseCycle: "9.0"
     releaseDate: 2023-06-29
     eol: 2027-07-31
@@ -19,7 +39,7 @@ releases:
     eol: 2026-07-31
 
 -   releaseCycle: "7.0"
-    releaseDate: 2021-07-14
+    releaseDate: 2021-09-14
     eol: 2025-09-30
     link: https://www.microfocus.com/documentation/visual-cobol/vc70/VS2019/GUID-7ECA1D86-EC87-454D-B666-1047527FD9BF.html
 
@@ -65,12 +85,13 @@ releases:
 
 ---
 
-> [Visual COBOL](https://www.microfocus.com/en-us/products/visual-cobol/overview) is a suite of software products
-> designed to meet the needs of IT organizations with existing application investments written in the COBOL language.
+> [Visual COBOL](https://www.microfocus.com/en-us/products/visual-cobol/overview) is a suite of
+> software products designed to meet the needs of IT organizations with existing application
+> investments written in the COBOL language.
 
 {: .warning }
-This page is using dates for Visual COBOL for Visual Studio documented on the [Product Support Lifecycle](https://www.microfocus.com/productlifecycle/)
-page.
+This page is using dates for Visual COBOL for Visual Studio documented on the
+[Product Support Lifecycle](https://www.microfocus.com/productlifecycle/) page.
 
-Visual COBOL is developed, maintained and commercialized by OpenText (formerly Micro Focus). Extended Support for two
-years is available for an additional fee.
+Visual COBOL is developed, maintained and commercialized by OpenText (formerly Micro Focus).
+Extended Support for two years is available for an additional fee.

@@ -7,7 +7,7 @@ versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
 changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
 eolColumn: Security Support
 
 identifiers:
@@ -16,55 +16,81 @@ identifiers:
 -   purl: pkg:github/zabbix/zabbix
 
 auto:
--   git: https://github.com/zabbix/zabbix.git
+  methods:
+  -   git: https://github.com/zabbix/zabbix.git
+  -   release_table: https://www.zabbix.com/life_cycle_and_release_policy
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release name"
+          regex: '^Zabbix (?P<value>\d+\.\d+).*$'
+        releaseDate: "Release date"
+        eoas: "End of Full Support*"
+        eol: "End of Limited Support**"
 
 # For non-LTS releases :
-# - support(x) = release(x) + 6 months
+# - eoas(x) = release(x) + 6 months
 # - eol(x) = release(x) + 7 months
 releases:
+-   releaseCycle: "7.2"
+    releaseDate: 2024-12-10
+    eoas: 2025-06-30
+    eol: 2025-12-31
+    latest: "7.2.3"
+    latestReleaseDate: 2025-01-28
+
+-   releaseCycle: "7.0"
+    lts: true
+    releaseDate: 2024-06-04
+    eoas: 2027-06-30
+    eol: 2029-06-30
+    latest: "7.0.9"
+    latestReleaseDate: 2025-01-28
+
 -   releaseCycle: "6.4"
     releaseDate: 2023-03-06
-    support: 2023-12-31
-    eol: 2024-01-31
-    latest: "6.4.7"
-    latestReleaseDate: 2023-09-26
+    eoas: 2024-06-30
+    eol: 2024-12-31
+    latest: "6.4.21"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "6.2"
     releaseDate: 2022-07-04
-    support: 2023-01-31
+    eoas: 2023-01-31
     eol: 2023-02-28
     latest: "6.2.9"
     latestReleaseDate: 2023-03-27
 
 -   releaseCycle: "6.0"
     lts: true
-    releaseDate: 2022-02-14
-    support: 2025-02-28
+    releaseDate: 2022-02-08
+    eoas: 2025-02-28
     eol: 2027-02-28
-    latest: "6.0.22"
-    latestReleaseDate: 2023-09-25
+    latest: "6.0.38"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "5.4"
     releaseDate: 2021-05-17
-    support: 2022-02-28
+    eoas: 2022-02-28
     eol: 2022-03-31
     latest: "5.4.12"
 
 -   releaseCycle: "5.0"
     lts: true
-    releaseDate: 2020-05-11
-    support: 2023-05-31
+    releaseDate: 2020-05-12
+    eoas: 2023-05-31
     eol: 2025-05-31
-    latest: "5.0.38"
-    latestReleaseDate: 2023-09-25
+    latest: "5.0.46"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "4.0"
     lts: true
     releaseDate: 2018-10-01
-    support: 2021-10-31
+    eoas: 2021-10-31
     eol: 2023-10-31
-    latest: "4.0.49"
-    latestReleaseDate: 2023-09-25
+    latest: "4.0.50"
+    latestReleaseDate: 2023-10-30
 
 ---
 

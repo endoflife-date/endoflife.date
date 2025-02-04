@@ -11,7 +11,7 @@ versionCommand: |-
 releasePolicyLink: https://devguide.python.org/versions/
 changelogTemplate: |
   https://www.python.org/downloads/release/python-{{"__LATEST__" | replace:'.',''}}/
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -118,91 +118,126 @@ identifiers:
 -   repology: python
 
 auto:
--   git: https://github.com/python/cpython.git
-    # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
-    regex: ^v(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$
+  methods:
+  -   git: https://github.com/python/cpython.git
+      # The v is mandatory here because each branch EOL is tagged, e.g. https://github.com/python/cpython/releases/tag/3.6
+      regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$
+  -   release_table: https://devguide.python.org/versions/
+      selector: "table"
+      fields:
+        releaseCycle: "Branch"
+        releaseDate: "First release"
+        eol: "End of life"
 
 releases:
+-   releaseCycle: "3.13"
+    releaseDate: 2024-10-07
+    eoas: 2026-10-01
+    eol: 2029-10-31
+    latest: "3.13.1"
+    latestReleaseDate: 2024-12-03
+
 -   releaseCycle: "3.12"
     releaseDate: 2023-10-02
-    support: 2025-04-02
-    eol: 2028-10-02
-    latest: "3.12.0"
-    latestReleaseDate: 2023-10-02
+    eoas: 2025-04-02
+    eol: 2028-10-31
+    latest: "3.12.8"
+    latestReleaseDate: 2024-12-03
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
-    support: 2024-04-01
-    eol: 2027-10-24
-    latest: "3.11.6"
-    latestReleaseDate: 2023-10-02
+    eoas: 2024-04-01
+    eol: 2027-10-31
+    latest: "3.11.11"
+    latestReleaseDate: 2024-12-03
 
 -   releaseCycle: "3.10"
     releaseDate: 2021-10-04
-    support: 2023-04-05
-    eol: 2026-10-04
-    latest: "3.10.13"
-    latestReleaseDate: 2023-08-24
+    eoas: 2023-04-05
+    eol: 2026-10-31
+    latest: "3.10.16"
+    latestReleaseDate: 2024-12-03
 
 -   releaseCycle: "3.9"
     releaseDate: 2020-10-05
-    support: 2022-05-17
-    eol: 2025-10-05
-    latest: "3.9.18"
-    latestReleaseDate: 2023-08-24
+    eoas: 2022-05-17
+    eol: 2025-10-31
+    latest: "3.9.21"
+    latestReleaseDate: 2024-12-03
 
 -   releaseCycle: "3.8"
     releaseDate: 2019-10-14
-    support: 2021-05-03
-    eol: 2024-10-14
-    latest: "3.8.18"
-    latestReleaseDate: 2023-08-24
+    eoas: 2021-05-03
+    eol: 2024-10-07
+    latest: "3.8.20"
+    latestReleaseDate: 2024-09-06
 
 -   releaseCycle: "3.7"
-    releaseDate: 2018-06-26
-    support: 2020-06-27
+    releaseDate: 2018-06-27
+    eoas: 2020-06-27
     eol: 2023-06-27
     latest: "3.7.17"
     latestReleaseDate: 2023-06-05
 
 -   releaseCycle: "3.6"
-    releaseDate: 2016-12-22
-    support: 2018-12-24
+    releaseDate: 2016-12-23
+    eoas: 2018-12-24
     eol: 2021-12-23
     latest: "3.6.15"
     latestReleaseDate: 2021-09-03
 
 -   releaseCycle: "3.5"
-    releaseDate: 2015-09-12
-    support: false
-    eol: 2020-09-13
+    releaseDate: 2015-09-13
+    eoas: true
+    eol: 2020-09-30
     latest: "3.5.10"
     latestReleaseDate: 2020-09-05
 
 -   releaseCycle: "3.4"
-    releaseDate: 2014-03-15
-    support: false
+    releaseDate: 2014-03-16
+    eoas: true
     eol: 2019-03-18
     latest: "3.4.10"
     latestReleaseDate: 2019-03-18
 
 -   releaseCycle: "3.3"
     releaseDate: 2012-09-29
-    support: false
+    eoas: true
     eol: 2017-09-29
     latest: "3.3.7"
     latestReleaseDate: 2017-09-19
 
+-   releaseCycle: "3.2"
+    releaseDate: 2011-02-20
+    eoas: true
+    eol: 2016-02-20
+    latest: "3.2.6"
+    latestReleaseDate: 2014-10-12
+
 -   releaseCycle: "2.7"
     releaseDate: 2010-07-03
-    support: false
+    eoas: true
     eol: 2020-01-01
     latest: "2.7.18"
     latestReleaseDate: 2020-04-19
 
+-   releaseCycle: "3.1"
+    releaseDate: 2009-06-27
+    eoas: true
+    eol: 2012-04-09
+    latest: "3.1.5"
+    latestReleaseDate: 2012-04-06
+
+-   releaseCycle: "3.0"
+    releaseDate: 2008-12-03
+    eoas: true
+    eol: 2009-06-27
+    latest: "3.0.1"
+    latestReleaseDate: 2009-02-12
+
 -   releaseCycle: "2.6"
     releaseDate: 2008-10-01
-    support: false
+    eoas: true
     eol: 2013-10-29
     latest: "2.6.9"
     latestReleaseDate: 2013-10-29
@@ -213,11 +248,10 @@ releases:
 > language.
 
 The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release
-manager of each branch.
+manager of each branch. Every release gets:
 
-In the first 1.5 years there are planned releases with bugfixes. In the next 3.5 year there are
-only security fixes and source distribution without precompiled binaries. Starting with Python 3.13
-it will change to 2 + 3 years.
+- 2 years of planned releases with bugfixes.
+- 3 years of only security fixes and source distribution without precompiled binaries
 
 The detailed release information (including schedules) can be found among [Release PEPs](https://peps.python.org/topic/release/)
 

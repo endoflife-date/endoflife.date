@@ -5,23 +5,40 @@ iconSlug: unity
 permalink: /unity
 alternate_urls:
 -   /unity3d
-releaseImage: 
-  https://blog-api.unity.com/sites/default/files/2022-04/Unity-2021-LTS-Timeline.jpg
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 releaseDateColumn: true
-releaseColumn: true
 
-auto:
--   custom: true
+# Disabled because there are anti-bot protection measures on https://unity.com/.
+#auto:
+#  methods:
+#  -   custom: unity
 
 releases:
+-   releaseCycle: "6"
+    releaseDate: 2024-04-29
+    eol: false
+    latest: "6000.0.36f1"
+    latestReleaseDate: 2025-01-28
+
+-   releaseCycle: "2023.2"
+    releaseDate: 2023-11-14
+    eol: 2024-04-29
+    latest: "2023.2.20f1"
+    latestReleaseDate: 2024-04-25
+
+-   releaseCycle: "2023.1"
+    releaseDate: 2023-06-12
+    eol: 2023-11-13
+    latest: "2023.1.20f1"
+    latestReleaseDate: 2023-11-09
+
 -   releaseCycle: "2022.3"
     lts: true
     releaseDate: 2023-05-30
     eol: false
-    latest: "2022.3.12f1"
-    latestReleaseDate: 2023-10-26
+    latest: "2022.3.57f1"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2022.2"
     releaseDate: 2022-12-07
@@ -39,14 +56,14 @@ releases:
     lts: true
     releaseDate: 2022-04-11
     eol: 2024-04-19
-    latest: "2021.3.31f1"
-    latestReleaseDate: 2023-10-03
+    latest: "2021.3.42f1"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "2021.3"
     releaseDate: 2022-04-11
-    eol: 2022-02-17
-    latest: "2021.3.31f1"
-    latestReleaseDate: 2023-10-03
+    eol: 2024-04-19
+    latest: "2021.3.47f1"
+    latestReleaseDate: 2024-12-11
 
 -   releaseCycle: "2021.2"
     releaseDate: 2021-10-25

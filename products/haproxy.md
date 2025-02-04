@@ -6,36 +6,63 @@ permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
-activeSupportColumn: false
 releaseDateColumn: true
 
-# Source: https://www.haproxy.org/download/
-# Data: https://github.com/endoflife-date/release-data/blob/main/releases/haproxy.json
-# Script: https://github.com/endoflife-date/release-data/blob/main/src/haproxy.py
 auto:
--   custom: true
+  methods:
+  -   custom: haproxy
 
+identifiers:
+-   repology: haproxy
+-   purl: pkg:generic/haproxy
+-   purl: pkg:deb/debian/haproxy
+-   purl: pkg:deb/ubuntu/haproxy
+-   purl: pkg:rpm/amzn/haproxy
+-   purl: pkg:rpm/redhat/haproxy
+-   purl: pkg:rpm/centos/haproxy
+-   purl: pkg:apk/alpine/haproxy
+
+# releaseCycle, releaseDate, lts, eol and latest are listed on https://www.haproxy.org/
+# eol dates noted as Q1-4 set to: Q1 -> YYYY-01-01, Q2 -> YYYY-04-01, Q3 -> YYYY-07-01, Q4 -> YYYY-10-01
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2024-11-26
+    eol: 2026-01-01
+    latest: "3.1.3"
+    latestReleaseDate: 2025-01-29
+
+-   releaseCycle: "3.0"
+    releaseDate: 2024-05-29
+    lts: true
+    eol: 2029-04-01
+    latest: "3.0.8"
+    latestReleaseDate: 2025-01-29
+
+-   releaseCycle: "2.9"
+    releaseDate: 2023-12-05
+    eol: 2025-01-01
+    latest: "2.9.14"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.8"
-    lts: true
     releaseDate: 2023-05-31
+    lts: true
     eol: 2028-04-01
-    latest: "2.8.3"
-    latestReleaseDate: 2023-09-07
+    latest: "2.8.14"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01
     eol: 2024-01-01
-    latest: "2.7.10"
-    latestReleaseDate: 2023-08-09
+    latest: "2.7.12"
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "2.6"
-    lts: true
     releaseDate: 2022-05-31
+    lts: true
     eol: 2027-04-01
-    latest: "2.6.15"
-    latestReleaseDate: 2023-08-09
+    latest: "2.6.21"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.5"
     releaseDate: 2021-11-23
@@ -44,11 +71,11 @@ releases:
     latestReleaseDate: 2023-05-02
 
 -   releaseCycle: "2.4"
-    lts: true
     releaseDate: 2021-05-14
+    lts: true
     eol: 2026-04-01
-    latest: "2.4.24"
-    latestReleaseDate: 2023-08-19
+    latest: "2.4.28"
+    latestReleaseDate: 2024-11-08
 
 -   releaseCycle: "2.3"
     releaseDate: 2020-11-05
@@ -57,11 +84,11 @@ releases:
     latestReleaseDate: 2022-07-27
 
 -   releaseCycle: "2.2"
-    lts: true
     releaseDate: 2020-07-07
+    lts: true
     eol: 2025-04-01
-    latest: "2.2.31"
-    latestReleaseDate: 2023-08-19
+    latest: "2.2.33"
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "2.1"
     releaseDate: 2019-11-25
@@ -72,8 +99,8 @@ releases:
 -   releaseCycle: "2.0"
     releaseDate: 2019-06-16
     eol: 2024-04-01
-    latest: "2.0.33"
-    latestReleaseDate: 2023-08-19
+    latest: "2.0.35"
+    latestReleaseDate: 2024-04-05
 
 -   releaseCycle: "1.9"
     releaseDate: 2018-12-19

@@ -1,25 +1,55 @@
 ---
 title: Tarantool
-category: db
+category: database
 permalink: /tarantool
 versionCommand: $ tarantool --version
-releaseImage:
-  https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/images_en/releases_calendar.svg
+releaseImage: https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/images_en/releases_calendar.svg
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
 eolColumn: Support Status
 releaseDateColumn: true
 
-auto:
--   git: https://github.com/tarantool/tarantool.git
+identifiers:
+-   repology: tarantool
+-   cpe: cpe:/a:tarantool:tarantool
+-   cpe: cpe:2.3:a:tarantool:tarantool
 
+auto:
+  methods:
+  -   git: https://github.com/tarantool/tarantool.git
+
+# EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2024-11-29
+    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    latest: "3.3.1"
+    latestReleaseDate: 2024-12-25
+
+-   releaseCycle: "3.2"
+    releaseDate: 2024-08-26
+    eol: 2026-08-26
+    latest: "3.2.1"
+    latestReleaseDate: 2024-10-28
+
+-   releaseCycle: "3.1"
+    releaseDate: 2024-04-16
+    eol: 2026-04-16
+    latest: "3.1.2"
+    latestReleaseDate: 2024-08-26
+
+-   releaseCycle: "3.0"
+    releaseDate: 2023-12-26
+    eol: 2025-12-26
+    latest: "3.0.2"
+    latestReleaseDate: 2024-04-16
+
 -   releaseCycle: "2.11"
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.1"
-    latestReleaseDate: 2023-08-21
+    latest: "2.11.5"
+    latestReleaseDate: 2024-11-22
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22

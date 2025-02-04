@@ -1,37 +1,143 @@
 ---
 title: Neo4j
-category: db
+category: database
 tags: java-runtime
 iconSlug: neo4j
 permalink: /neo4j
-versionCommand: "call dbms.components() yield versions unwind versions as version
-  return version;"
+versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
-activeSupportColumn: false
 eolColumn: Support Status
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:github/neo4j/neo4j
+
 auto:
--   git: https://github.com/neo4j/neo4j.git
+  methods:
+  -   git: https://github.com/neo4j/neo4j.git
+      # Neo4j 5.0 was a Limited Availability release only and tag date is wrong.
+      # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
+      regex_exclude: '^5\.0\.\d+$'
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+      selector: "table"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+      selector: "table"
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+        eol:
+          column: "End of Support Date"
+          regex: '^(?P<value>\w+ \d+, \d+).*$'
 
 # eol(x) = releaseDate(x+1)
-# See https://support.neo4j.com/hc/en-us/articles/115013134648-Neo4j-Supported-Versions.
+# See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+-   releaseCycle: "5.26"
+    releaseDate: 2024-12-06
+    eol: false # releaseDate(5.27)
+    lts: true
+    latest: "5.26.1"
+    latestReleaseDate: 2025-01-08
+    link: https://neo4j.com/release-notes/database/neo4j-5/
+
+-   releaseCycle: "5.25"
+    releaseDate: 2024-10-31
+    eol: 2024-12-06 # releaseDate(5.26)
+    latest: "5.25.1"
+    latestReleaseDate: 2024-10-30
+
+-   releaseCycle: "5.24"
+    releaseDate: 2024-09-27
+    eol: 2024-10-31 # releaseDate(5.25)
+    latest: "5.24.2"
+    latestReleaseDate: 2024-10-10
+
+-   releaseCycle: "5.23"
+    releaseDate: 2024-08-22
+    eol: 2024-09-27 # releaseDate(5.24)
+    latest: "5.23.0"
+    latestReleaseDate: 2024-08-27
+
+-   releaseCycle: "5.22"
+    releaseDate: 2024-07-24
+    eol: 2024-08-22
+    latest: "5.22.0"
+    latestReleaseDate: 2024-07-11
+
+-   releaseCycle: "5.21"
+    releaseDate: 2024-06-28
+    eol: 2024-07-24
+    latest: "5.21.2"
+    latestReleaseDate: 2024-07-02
+
+-   releaseCycle: "5.20"
+    releaseDate: 2024-05-23
+    eol: 2024-06-28
+    latest: "5.20.0"
+    latestReleaseDate: 2024-05-31
+
+-   releaseCycle: "5.19"
+    releaseDate: 2024-04-12
+    eol: 2024-05-23
+    latest: "5.19.0"
+    latestReleaseDate: 2024-04-12
+
+-   releaseCycle: "5.18"
+    releaseDate: 2024-03-13
+    eol: 2024-04-12
+    latest: "5.18.1"
+    latestReleaseDate: 2024-03-18
+
+-   releaseCycle: "5.17"
+    releaseDate: 2024-02-23
+    eol: 2024-03-13
+    latest: "5.17.0"
+    latestReleaseDate: 2024-02-23
+
+-   releaseCycle: "5.16"
+    releaseDate: 2024-01-22
+    eol: 2024-02-23
+    latest: "5.16.0"
+    latestReleaseDate: 2024-01-22
+
+-   releaseCycle: "5.15"
+    releaseDate: 2023-12-15
+    eol: 2024-01-22
+    latest: "5.15.0"
+    latestReleaseDate: 2023-12-15
+
+-   releaseCycle: "5.14"
+    releaseDate: 2023-11-24
+    eol: 2023-12-15
+    latest: "5.14.0"
+    latestReleaseDate: 2023-11-24
+
 -   releaseCycle: "5.13"
     releaseDate: 2023-10-23
-    eol: false
+    eol: 2023-11-24
     latest: "5.13.0"
     latestReleaseDate: 2023-10-23
 
 -   releaseCycle: "5.12"
-    releaseDate: 2023-09-14
+    releaseDate: 2023-09-15
     eol: 2023-10-23
     latest: "5.12.0"
     latestReleaseDate: 2023-09-14
 
 -   releaseCycle: "5.11"
-    releaseDate: 2023-08-15
+    releaseDate: 2023-08-14
     eol: 2023-09-14
     latest: "5.11.0"
     latestReleaseDate: 2023-08-15
@@ -43,7 +149,7 @@ releases:
     latestReleaseDate: 2023-07-19
 
 -   releaseCycle: "5.9"
-    releaseDate: 2023-06-14
+    releaseDate: 2023-06-15
     eol: 2023-07-19
     latest: "5.9.0"
     latestReleaseDate: 2023-06-14
@@ -91,26 +197,20 @@ releases:
     latestReleaseDate: 2022-11-21
 
 -   releaseCycle: "5.1"
-    releaseDate: 2022-10-21
+    releaseDate: 2022-10-24
     eol: 2022-11-21
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
 
--   releaseCycle: "5.0"
-    releaseDate: 2022-10-28
-    eol: 2022-10-24
-    latest: "5.0.0"
-    latestReleaseDate: 2022-10-28
-
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
-    eol: 2025-06-30
-    latest: "4.4.26"
+    eol: 2025-11-30
+    latest: "4.4.41"
     lts: true
-    latestReleaseDate: 2023-09-20
+    latestReleaseDate: 2025-01-31
 
 -   releaseCycle: "4.3"
-    releaseDate: 2021-06-10
+    releaseDate: 2021-06-17
     eol: 2022-12-16
     latest: "4.3.23"
     latestReleaseDate: 2022-12-21
@@ -128,7 +228,7 @@ releases:
     latestReleaseDate: 2022-08-11
 
 -   releaseCycle: "4.0"
-    releaseDate: 2019-12-17
+    releaseDate: 2020-01-15
     eol: 2021-07-14
     latest: "4.0.12"
     latestReleaseDate: 2021-07-06

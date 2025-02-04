@@ -10,31 +10,46 @@ alternate_urls:
 versionCommand: composer show craftcms/cms |grep versions
 releasePolicyLink: https://craftcms.com/knowledge-base/supported-versions
 changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
-activeSupportColumn: true
-releaseColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 auto:
--   git: https://github.com/craftcms/cms.git
+  methods:
+  -   git: https://github.com/craftcms/cms.git
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
+        eoas: "Full Support Until"
+        eol: "Security Support Until"
 
 releases:
+-   releaseCycle: "5"
+    releaseDate: 2024-03-26
+    eoas: 2027-04-30
+    eol: 2028-04-30
+    latest: '5.6.4'
+    latestReleaseDate: 2025-01-30
+
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
-    support: 2024-04-30
-    eol: 2025-04-30
-    latest: '4.5.9'
-    latestReleaseDate: 2023-10-23
+    eoas: 2025-04-30
+    eol: 2026-04-30
+    latest: '4.14.3'
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
-    support: 2023-04-30
+    eoas: 2023-04-30
     eol: 2024-04-30
-    latest: '3.9.5'
-    latestReleaseDate: 2023-10-17
+    latest: '3.9.14'
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "2"
     releaseDate: 2014-04-01
-    support: 2020-01-31
+    eoas: 2020-01-31
     eol: 2022-01-31
     latest: "2.9.2"
     latestReleaseDate: 2020-03-06

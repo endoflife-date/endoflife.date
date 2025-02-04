@@ -1,12 +1,12 @@
 ---
 title: CentOS
 category: os
-tags: linux-distribution
+tags: discontinued linux-distribution
 iconSlug: centos
 permalink: /centos
 versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://wiki.centos.org/About(2f)Product.html
-activeSupportColumn: true
+eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
@@ -16,42 +16,44 @@ identifiers:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2019-09-24
-    support: 2021-12-31
+    eoas: 2021-12-31
     eol: 2021-12-31
     latest: "8 (2111)"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2111
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS8(2e)2111.html
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-07
-    support: 2020-08-06
+    eoas: 2020-08-06
     eol: 2024-06-30
     latest: "7 (2009)"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS7(2e)2009.html
 
 -   releaseCycle: "6"
     releaseDate: 2011-07-10
-    support: 2017-05-10
+    eoas: 2017-05-10
     eol: 2020-11-30
     latest: "6.10"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.10
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS6(2e)10.html
 
 -   releaseCycle: "5"
     releaseDate: 2007-04-12
-    support: 2014-01-31
+    eoas: 2014-01-31
     eol: 2017-03-31
     latest: "5.11"
-    link: https://web.archive.org/web/20230711113909/https://wiki.centos.org/Manuals/ReleaseNotes/CentOS5.11
+    link: https://wiki.centos.org/Manuals(2f)ReleaseNotes(2f)CentOS5(2e)11.html
 
 ---
 
-> [CentOS Linux](https://centos.org/centos-linux/) is a Linux distribution that provides a free,
-> enterprise-class, community-supported computing platform functionally compatible with Red Hat
-> Enterprise Linux.
+> [CentOS Linux](https://centos.org/centos-linux/) was a Linux distribution that provided a free,
+> enterprise-class, community-supported computing platform functionally compatible with
+> [Red Hat Enterprise Linux (RHEL)](/rhel).
 
-CentOS Linux is a rebuild of [Red Hat Enterprise Linux (RHEL)](/rhel) source code. Major versions
-are supported with security and bugfix updates as long as its corresponding RHEL release is not EOL,
-except for CentOS Linux 8.
+{: .warning }
+> CentOS Linux has been discontinued and is **not safe to use anymore**. Read the [information on
+> upgrade and migration options](https://blog.centos.org/2023/04/end-dates-are-coming-for-centos-stream-8-and-centos-linux-7/).
 
-[It was announced on December 8th, 2020](https://blog.centos.org/2020/12/future-is-centos-stream/)
-that work on CentOS Linux 8 will cease at the end of 2021 and that shift will focus to CentOS Stream.
-Support information for CentOS Stream are available on the [CentOS Stream page](/centos-stream).
+Work on [CentOS Linux 8 ceased at the end of 2021](https://blog.centos.org/2020/12/future-is-centos-stream/)
+as Red Hat shifted focus to [CentOS Stream](/centos-stream).
+
+Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by
+Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).

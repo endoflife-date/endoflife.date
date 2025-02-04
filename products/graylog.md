@@ -11,25 +11,50 @@ versionCommand: |-
 
   # RedHat based
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
-changelogTemplate: "https://go2docs.graylog.org/5-0/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
+changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
 releaseDateColumn: true
 
+identifiers:
+-   repology: graylog
+-   cpe: cpe:/a:graylog:graylog
+-   cpe: cpe:2.3:a:graylog:graylog
+
 auto:
--   git: https://github.com/Graylog2/graylog2-server.git
+  methods:
+  -   git: https://github.com/Graylog2/graylog2-server.git
 
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "6.1"
+    releaseDate: 2024-10-18
+    eol: false
+    latest: "6.1.5"
+    latestReleaseDate: 2025-01-08
+    link: https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}
+
+-   releaseCycle: "6.0"
+    releaseDate: 2024-05-06
+    eol: false
+    latest: "6.0.10"
+    latestReleaseDate: 2025-01-08
+
+-   releaseCycle: "5.2"
+    releaseDate: 2023-10-30
+    eol: 2024-10-18
+    latest: "5.2.12"
+    latestReleaseDate: 2024-10-02
+
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11
-    eol: false
-    latest: "5.1.7"
-    latestReleaseDate: 2023-10-12
+    eol: 2024-05-06
+    latest: "5.1.13"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-11-30
-    eol: false
+    eol: 2023-10-30
     latest: "5.0.13"
     latestReleaseDate: 2023-10-12
 
@@ -62,6 +87,7 @@ releases:
     eol: 2022-04-12
     latest: "3.3.17"
     latestReleaseDate: 2022-04-12
+    link: https://go2docs.graylog.org/4-0/changelogs/changelog.html#Graylog3317
 
 -   releaseCycle: "3.2"
     releaseDate: 2020-01-31
@@ -152,11 +178,11 @@ releases:
     eol: 2015-06-04
     latest: "1.0.2"
     latestReleaseDate: 2015-04-28
-    link:      # nothing found for this version
+    link: null
 
 ---
 
-> Graylog is a centralized logging solution based that enables aggregating and searching through
+> [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through
 > logs. It provides a query language, a processing pipeline for data transformation, alerting
 > abilities, and much more. It is extensible through a REST API or add-ons that can be downloaded
 > from [the Graylog marketplace](https://marketplace.graylog.org/).

@@ -56,11 +56,11 @@ def notification_message(product, cycle, type)
   case type
   when 'eol' then
     message += ' will become End-of-life.'
-  when 'support' then
+  when 'eoas' then
     message += ' will end active development.'
   when 'release' then
     message += ' will be released.'
-  when 'extendedSupport' then
+  when 'eoes' then
     message += ' will end extended support.'
   end
 end
@@ -71,7 +71,7 @@ def process_product(product)
   cal = Icalendar::Calendar.new
   product.release_cycles.each do |cycle|
     cycle.fetch('data').each do |key, item|
-      next if !['release', 'support', 'eol', 'extendedSupport'].include?(key) || !item.instance_of?(Date)
+      next if !['release', 'eoas', 'eol', 'eoes'].include?(key) || !item.instance_of?(Date)
       event = cal.event
       event.dtstart = Icalendar::Values::Date.new(item)
       event.dtend = Icalendar::Values::Date.new(item + 1)

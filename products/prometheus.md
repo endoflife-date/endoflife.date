@@ -4,24 +4,98 @@ category: server-app
 iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
+changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: false
 eolWarnThreshold: 14
-
-auto:
--   git: https://github.com/prometheus/prometheus.git
 
 identifiers:
 -   repology: prometheus
 -   purl: pkg:docker/prom/prometheus
+-   purl: pkg:docker/bitnami/prometheus
+-   purl: pkg:docker/rapidfort/prometheus
+-   purl: pkg:docker/chainguard/prometheus
+-   purl: pkg:docker/bitnami/prometheus
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
+-   purl: pkg:oci/prometheus?repository_url=cgr.dev/chainguard
 -   purl: pkg:github/prometheus/prometheus
+-   purl: pkg:golang/github.com/prometheus/prometheus
 
-changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
+auto:
+  methods:
+  -   git: https://github.com/prometheus/prometheus.git
+  -   release_table: https://prometheus.io/docs/introduction/release-cycle
+      selector: "table:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Release"
+          regex: '^Prometheus (?P<value>\d+\.\d+)$'
+        releaseDate: "Date"
+        eol: "End of support"
 
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "3.1"
+    releaseDate: 2025-01-02
+    eol: 2025-02-13
+    latest: "3.1.0"
+    latestReleaseDate: 2025-01-02
+
+-   releaseCycle: "3.0"
+    releaseDate: 2024-11-14
+    eol: 2024-12-26
+    latest: "3.0.1"
+    latestReleaseDate: 2024-11-28
+
+-   releaseCycle: "2.55"
+    releaseDate: 2024-10-22
+    eol: 2024-12-03
+    latest: "2.55.1"
+    latestReleaseDate: 2024-11-06
+
+-   releaseCycle: "2.54"
+    releaseDate: 2024-08-09
+    eol: 2024-09-20
+    latest: "2.54.1"
+    latestReleaseDate: 2024-08-27
+
+-   releaseCycle: "2.53"
+    lts: true
+    releaseDate: 2024-06-16
+    eol: 2025-07-31
+    latest: "2.53.3"
+    latestReleaseDate: 2024-11-05
+
+-   releaseCycle: "2.52"
+    releaseDate: 2024-05-08
+    eol: 2024-06-19
+    latest: "2.52.0"
+    latestReleaseDate: 2024-05-08
+
+-   releaseCycle: "2.51"
+    releaseDate: 2024-03-19
+    eol: 2024-04-30
+    latest: "2.51.2"
+    latestReleaseDate: 2024-04-10
+
+-   releaseCycle: "2.50"
+    releaseDate: 2024-02-22
+    eol: 2024-04-04
+    latest: "2.50.1"
+    latestReleaseDate: 2024-02-26
+
+-   releaseCycle: "2.49"
+    releaseDate: 2024-01-15
+    eol: 2024-02-26
+    latest: "2.49.1"
+    latestReleaseDate: 2024-01-15
+
+-   releaseCycle: "2.48"
+    releaseDate: 2023-11-15
+    eol: 2023-12-28
+    latest: "2.48.1"
+    latestReleaseDate: 2023-12-08
+
 -   releaseCycle: "2.47"
     releaseDate: 2023-09-06
     eol: 2023-10-18
@@ -38,8 +112,8 @@ releases:
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-07-31
-    latest: "2.45.1"
-    latestReleaseDate: 2023-09-29
+    latest: "2.45.6"
+    latestReleaseDate: 2024-06-21
 
 -   releaseCycle: "2.44"
     releaseDate: 2023-05-14

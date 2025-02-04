@@ -7,36 +7,50 @@ permalink: /nginx
 versionCommand: nginx -v
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 
 identifiers:
 -   repology: nginx
+-   purl: pkg:generic/nginx
 -   purl: pkg:deb/debian/nginx
 -   purl: pkg:deb/ubuntu/nginx
 -   purl: pkg:rpm/amzn/nginx
 -   purl: pkg:rpm/redhat/nginx
 -   purl: pkg:rpm/centos/nginx
 -   purl: pkg:apk/alpine/nginx
+-   purl: pkg:rpm/opensuse/nginx
 
-# https://rubular.com/r/bVKLuLKLLrHCTI
 auto:
--   git: https://github.com/nginx/nginx.git
-    regex: ^release-(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)$
+  methods:
+  -   git: https://github.com/nginx/nginx.git
+      regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
+
 releases:
--   releaseCycle: "1.25"
-    releaseDate: 2023-05-23
+-   releaseCycle: "1.27"
+    releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.25.3"
-    latestReleaseDate: 2023-10-24
+    latest: "1.27.3"
+    latestReleaseDate: 2024-11-26
+
+-   releaseCycle: "1.26"
+    releaseDate: 2024-04-23
+    eol: false
+    latest: "1.26.2"
+    latestReleaseDate: 2024-08-12
+
+-   releaseCycle: "1.25"
+    releaseDate: 2023-05-23
+    eol: 2024-05-29
+    link: https://nginx.org/en/CHANGES
+    latest: "1.25.5"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2024-04-23
     latest: "1.24.0"
     latestReleaseDate: 2023-04-11
 

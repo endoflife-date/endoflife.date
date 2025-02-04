@@ -9,39 +9,86 @@ alternate_urls:
 versionCommand: envoy --version
 releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
-activeSupportColumn: false
 releaseDateColumn: true
-
-auto:
--   git: https://github.com/envoyproxy/envoy.git
 
 identifiers:
 -   repology: envoy-proxy
 -   purl: pkg:docker/envoyproxy/envoy
+-   purl: pkg:docker/envoyproxy/envoy-alpine
+-   purl: pkg:docker/envoyproxy/envoy-alpine-debug
+-   purl: pkg:docker/envoyproxy/envoy-distroless
 -   purl: pkg:docker/bitnami/envoy
+-   purl: pkg:docker/rapidfort/envoy
+-   purl: pkg:docker/hashicorp/envoy-fips
+-   purl: pkg:docker/chainguard/envoy
 -   purl: pkg:github/envoyproxy/envoy
 -   purl: pkg:golang/github.com/envoyproxy/envoy
+-   purl: pkg:oci/envoy?repository_url=cgr.dev/chainguard
+-   purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
+
+auto:
+  methods:
+  -   git: https://github.com/envoyproxy/envoy.git
+  -   release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
+      render_javascript: true
+      ignore_empty_releases: true # ignore future releases
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+)\.0$'
+        eol: "End of Life"
 
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.33"
+    releaseDate: 2025-01-14
+    eol: 2026-01-14 # tbd on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
+    latest: '1.33.0'
+    latestReleaseDate: 2025-01-14
+
+-   releaseCycle: "1.32"
+    releaseDate: 2024-10-15
+    eol: 2025-10-15
+    latest: '1.32.3'
+    latestReleaseDate: 2024-12-18
+
+-   releaseCycle: "1.31"
+    releaseDate: 2024-07-19
+    eol: 2025-07-19
+    latest: '1.31.5'
+    latestReleaseDate: 2024-12-18
+
+-   releaseCycle: "1.30"
+    releaseDate: 2024-04-16
+    eol: 2025-04-16
+    latest: '1.30.9'
+    latestReleaseDate: 2024-12-18
+
+-   releaseCycle: "1.29"
+    releaseDate: 2024-01-16
+    eol: 2025-01-16
+    latest: '1.29.12'
+    latestReleaseDate: 2024-12-18
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19
     eol: 2024-10-19
-    latest: '1.28.0'
-    latestReleaseDate: 2023-10-19
-    
+    latest: '1.28.7'
+    latestReleaseDate: 2024-09-19
+
 -   releaseCycle: "1.27"
     releaseDate: 2023-07-26
     eol: 2024-07-27
-    latest: '1.27.2'
-    latestReleaseDate: 2023-10-17
+    latest: '1.27.7'
+    latestReleaseDate: 2024-06-29
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-18
     eol: 2024-04-18
-    latest: '1.26.6'
-    latestReleaseDate: 2023-10-17
+    latest: '1.26.8'
+    latestReleaseDate: 2024-04-04
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-01-18
@@ -211,6 +258,6 @@ releases:
 All stable releases released in the last 12 months are supported with
 security, stability fixes, and any other bugfixes deemed worthwhile.
 
-Major releases [happen quartely on a fixed release schedule](https://bit.ly/envoy-stable-releases)
+Major releases [happen quarterly on a fixed release schedule](https://bit.ly/envoy-stable-releases)
 (the 15th day of each quarter), with an acceptable delay of up to
 2 weeks and a hard deadline of 3 weeks.

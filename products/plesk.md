@@ -8,20 +8,86 @@ versionCommand: plesk version
 releasePolicyLink: https://www.plesk.com/lifecycle-policy/
 changelogTemplate: "https://docs.plesk.com/release-notes/obsidian/change-log/#plesk-{{'__RELEASE_CYCLE__'|replace:'.',''}}"
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 eolWarnThreshold: 21
 
 auto:
--   custom: true
+  methods:
+  -   custom: plesk
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:
+-   releaseCycle: "18.0.67"
+    releaseDate: 2025-01-21
+    eol: 2025-04-15
+    latest: "18.0.67.0"
+    latestReleaseDate: 2025-01-21
+
+-   releaseCycle: "18.0.66"
+    releaseDate: 2024-12-10
+    eol: 2025-03-04
+    latest: "18.0.66.2"
+    latestReleaseDate: 2025-01-09
+
+-   releaseCycle: "18.0.65"
+    releaseDate: 2024-10-29
+    eol: 2025-01-21
+    latest: "18.0.65.2"
+    latestReleaseDate: 2024-11-26
+
+-   releaseCycle: "18.0.64"
+    releaseDate: 2024-09-17
+    eol: 2024-12-10
+    latest: "18.0.64.1"
+    latestReleaseDate: 2024-10-09
+
+-   releaseCycle: "18.0.63"
+    releaseDate: 2024-08-06
+    eol: 2024-10-29
+    latest: "18.0.63.4"
+    latestReleaseDate: 2024-09-03
+
+-   releaseCycle: "18.0.62"
+    releaseDate: 2024-06-25
+    eol: 2024-09-17
+    latest: "18.0.62.2"
+    latestReleaseDate: 2024-07-24
+
+-   releaseCycle: "18.0.61"
+    releaseDate: 2024-05-14
+    eol: 2024-08-06
+    latest: "18.0.61.6"
+    latestReleaseDate: 2024-07-04
+
+-   releaseCycle: "18.0.60"
+    releaseDate: 2024-04-02
+    eol: 2024-06-25
+    latest: "18.0.60.1"
+    latestReleaseDate: 2024-04-24
+
+-   releaseCycle: "18.0.59"
+    releaseDate: 2024-02-20
+    eol: 2024-05-15
+    latest: "18.0.59.2"
+    latestReleaseDate: 2024-03-05
+
+-   releaseCycle: "18.0.58"
+    releaseDate: 2024-01-09
+    eol: 2024-04-02
+    latest: "18.0.58.2"
+    latestReleaseDate: 2024-01-25
+
+-   releaseCycle: "18.0.57"
+    releaseDate: 2023-11-21
+    eol: 2024-02-13
+    latest: "18.0.57.5"
+    latestReleaseDate: 2023-12-19
+
 -   releaseCycle: "18.0.56"
     releaseDate: 2023-10-10
     eol: 2024-01-02
-    latest: "18.0.56.2"
-    latestReleaseDate: 2023-10-27
+    latest: "18.0.56.4"
+    latestReleaseDate: 2023-11-07
 
 -   releaseCycle: "18.0.55"
     releaseDate: 2023-08-29

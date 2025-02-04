@@ -9,17 +9,40 @@ versionCommand: python -c "import numpy; print(numpy.__version__)"
 changelogTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
 releaseDateColumn: true
 
+identifiers:
+-   purl: pkg:pypi/numpy
+-   purl: pkg:github/numpy/numpy
+
 auto:
--   pypi: numpy
+  methods:
+  -   pypi: numpy
 
 # EOL(R) = releaseDate(R) + 2 year + 1 day
 # But at no point should any of the last 3 releases become unsupported.
 releases:
+-   releaseCycle: "2.2"
+    releaseDate: 2024-12-08
+    eol: 2026-12-09
+    latest: "2.2.2"
+    latestReleaseDate: 2025-01-18
+
+-   releaseCycle: "2.1"
+    releaseDate: 2024-08-18
+    eol: 2026-08-19
+    latest: "2.1.3"
+    latestReleaseDate: 2024-11-02
+
+-   releaseCycle: "2.0"
+    releaseDate: 2024-06-16
+    eol: 2026-06-17
+    latest: "2.0.2"
+    latestReleaseDate: 2024-08-26
+
 -   releaseCycle: "1.26"
     releaseDate: 2023-09-16
     eol: 2025-09-17
-    latest: "1.26.1"
-    latestReleaseDate: 2023-10-14
+    latest: "1.26.4"
+    latestReleaseDate: 2024-02-05
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-06-17
@@ -101,7 +124,7 @@ releases:
 All minor versions of NumPy released in the prior 24 months, and at minimum the last three minor
 versions, are supported. NumPy follows SemVer.
 
-NumPy's support policy is defined via [NEP-29](https://numpy.org/neps/nep-0029-deprecation_policy.html),
+NumPy's support policy is defined via [SPEC 0](https://scientific-python.org/specs/spec-0000/),
 which is also followed by other tooling in the Scientific Python Ecosystem.
 
 ## Python Support
@@ -109,14 +132,13 @@ which is also followed by other tooling in the Scientific Python Ecosystem.
 All minor versions of Python released 42 months prior, and at minimum the two latest minor versions
 are supported. Python support is only dropped in a major/minor version, and never on a patch release.
 
-| NumPy | Python |
-|-------|--------|
-| 1.25  | 3.9+   |
-| 1.24  | 3.8+   |
-| 1.23  | 3.8+   |
-| 1.22  | 3.8+   |
-| 1.21  | 3.7+   |
-| 1.20  | 3.7+   |
-
-NumPy stopped supporting Python 3.7 from Dec 26, 2021. Any older releases (1.20, 1.21) still support
-Python 3.7. Releases made after that only support Python 3.8 and above.
+| NumPy | Python   |
+|-------|----------|
+| 2.0   | 3.9-3.12 |
+| 1.26  | 3.9-3.12 |
+| 1.25  | 3.9+     |
+| 1.24  | 3.8+     |
+| 1.23  | 3.8+     |
+| 1.22  | 3.8+     |
+| 1.21  | 3.7+     |
+| 1.20  | 3.7+     |

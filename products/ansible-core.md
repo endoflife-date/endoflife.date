@@ -1,31 +1,64 @@
 ---
 title: Ansible-core
 category: framework
-iconSlug: ansible
 tags: python-runtime red-hat
+iconSlug: ansible
 permalink: /ansible-core
 versionCommand: ansible --version
-releasePolicyLink: 
-  https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
-  https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
-auto:
--   git: https://github.com/ansible/ansible.git
+identifiers:
+-   repology: ansible-core
+-   cpe: cpe:/a:redhat:ansible_engine
+-   cpe: cpe:/a:ansible:ansible
+-   cpe: cpe:/a:redhat:ansible
+-   cpe: cpe:2.3:a:redhat:ansible
 
-# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
+auto:
+  methods:
+  -   git: https://github.com/ansible/ansible.git
+
+# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
+# EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
 releases:
+-   releaseCycle: "2.18"
+    pythonVersionsControlNode: 3.11 - 3.13
+    pythonVersionsManagedNode: 3.8 - 3.13
+    powershellVersionsManagedNode: 5.1
+    releaseDate: 2024-11-04
+    eol: 2026-05-01
+    latest: "2.18.2"
+    latestReleaseDate: 2025-01-27
+
+-   releaseCycle: "2.17"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 3.7 - 3.12
+    powershellVersionsManagedNode: 5.1
+    releaseDate: 2024-05-20
+    eol: 2025-11-01
+    latest: "2.17.8"
+    latestReleaseDate: 2025-01-27
+
+-   releaseCycle: "2.16"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
+    powershellVersionsManagedNode: 3 - 5.1
+    releaseDate: 2023-11-06
+    eol: 2025-05-01
+    latest: "2.16.14"
+    latestReleaseDate: 2024-12-02
+
 -   releaseCycle: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-15
     eol: 2024-11-01
-    latest: "2.15.5"
-    latestReleaseDate: 2023-10-09
+    latest: "2.15.13"
+    latestReleaseDate: 2024-11-04
 
 -   releaseCycle: "2.14"
     pythonVersionsControlNode: 3.9 - 3.11
@@ -33,8 +66,8 @@ releases:
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-11-07
     eol: 2024-05-31
-    latest: "2.14.11"
-    latestReleaseDate: 2023-10-09
+    latest: "2.14.18"
+    latestReleaseDate: 2024-11-04
 
 -   releaseCycle: "2.13"
     pythonVersionsControlNode: 3.8 - 3.10

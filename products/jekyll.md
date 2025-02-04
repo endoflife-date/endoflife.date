@@ -7,33 +7,38 @@ permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
 releaseDateColumn: true
-activeSupportColumn: Active Development
+eoasColumn: Active Development
 eolColumn: Active Maintenance
 
+identifiers:
+-   cpe: cpe:/a:jekyllrb:jekyll
+-   cpe: cpe:2.3:a:jekyllrb:jekyll
+
 auto:
--   git: https://github.com/jekyll/jekyll.git
+  methods:
+  -   git: https://github.com/jekyll/jekyll.git
 
 releases:
 -   releaseCycle: "4"
     minRubyVersion: "2.5+" # https://jekyllrb.com/docs/
     releaseDate: 2019-08-20
-    support: true
+    eoas: false
     eol: false
-    latest: "4.3.2"
-    latestReleaseDate: 2023-01-20
+    latest: "4.4.1"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2015-10-26
-    support: false
+    eoas: true
     eol: false
-    latest: "3.9.3"
-    latestReleaseDate: 2023-01-30
+    latest: "3.10.0"
+    latestReleaseDate: 2024-06-24
 
 -   releaseCycle: "2"
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     releaseDate: 2014-05-06
-    support: false
+    eoas: true
     eol: 2015-10-27
     latest: "2.5.3"
     latestReleaseDate: 2014-12-22
@@ -41,7 +46,7 @@ releases:
 -   releaseCycle: "1"
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://github.com/jekyll/jekyll/releases/tag/v1.2.0
     releaseDate: 2013-05-06
-    support: false
+    eoas: true
     eol: 2014-05-07
     latest: "1.5.1"
     latestReleaseDate: 2014-03-28
@@ -50,7 +55,7 @@ releases:
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://web.archive.org/web/20091202224411/http://wiki.github.com/mojombo/jekyll/install
     releaseDate: 2008-10-19 # See https://jekyllrb.com/docs/history/#v0-0-0
     eol: 2014-05-07
-    support: false
+    eoas: true
     latest: "0.9.0"
     latestReleaseDate: 2010-12-15
 

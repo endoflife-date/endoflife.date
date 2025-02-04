@@ -7,17 +7,15 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: 
-  https://upload.wikimedia.org/wikipedia/en/timeline/i7py7nclt9663pj4bvukx02lk5lwolf.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/kwzbvde1wh8snzux67avl21sg81vjsh.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
-activeSupportColumn: false
 releaseDateColumn: true
-releaseColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:
--   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  methods:
+  -   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
@@ -27,17 +25,61 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.13"
+    releaseDate: 2025-01-19
+    eol: false # when its eol date announced we need to fix this
+    latest: "6.13.1"
+    latestReleaseDate: 2025-02-01
+
+-   releaseCycle: "6.12"
+    lts: true
+    releaseDate: 2024-11-17
+    eol: 2026-12-31
+    latest: "6.12.12"
+    latestReleaseDate: 2025-02-01
+
+-   releaseCycle: "6.11"
+    releaseDate: 2024-09-15
+    eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120539-badass-unboxed-0b14@gregkh/
+    latest: "6.11.11"
+    latestReleaseDate: 2024-12-05
+
+-   releaseCycle: "6.10"
+    releaseDate: 2024-07-14
+    eol: 2024-10-10 # announced https://lore.kernel.org/lkml/2024101047-unclothed-armadillo-6520@gregkh/
+    latest: "6.10.14"
+    latestReleaseDate: 2024-10-10
+
+-   releaseCycle: "6.9"
+    releaseDate: 2024-05-12
+    eol: 2024-07-27 # announced https://lore.kernel.org/lkml/2024072948-glimmer-glitch-6a95@gregkh/
+    latest: "6.9.12"
+    latestReleaseDate: 2024-07-27
+
+-   releaseCycle: "6.8"
+    releaseDate: 2024-03-10
+    eol: 2024-05-30 # announced https://lore.kernel.org/lkml/2024053036-matron-confess-13e0@gregkh/
+    latest: "6.8.12"
+    latestReleaseDate: 2024-05-30
+
+-   releaseCycle: "6.7"
+    releaseDate: 2024-01-07
+    eol: 2024-04-03 # announced https://lore.kernel.org/lkml/2024040316-sports-conceal-dbbb@gregkh/
+    latest: "6.7.12"
+    latestReleaseDate: 2024-04-03
+
 -   releaseCycle: "6.6"
+    lts: true
     releaseDate: 2023-10-30
-    eol: 2024-02-29 # estimated releaseDate(x)+4 months
-    latest: "6.6"
-    latestReleaseDate: 2023-10-30
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "6.6.75"
+    latestReleaseDate: 2025-02-01
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
-    eol: 2023-12-27 # estimated releaseDate(x)+4 months
-    latest: "6.5.9"
-    latestReleaseDate: 2023-10-25
+    eol: 2023-11-28 # announced https://lore.kernel.org/lkml/2023112807-usher-penholder-f856@gregkh/
+    latest: "6.5.13"
+    latestReleaseDate: 2023-11-28
 
 -   releaseCycle: "6.4"
     releaseDate: 2023-06-25
@@ -60,9 +102,9 @@ releases:
 -   releaseCycle: "6.1"
     lts: true
     releaseDate: 2022-12-11
-    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.1.60"
-    latestReleaseDate: 2023-10-25
+    eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
+    latest: "6.1.128"
+    latestReleaseDate: 2025-02-01
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -98,36 +140,36 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.137"
-    latestReleaseDate: 2023-10-25
+    latest: "5.15.178"
+    latestReleaseDate: 2025-02-01
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.199"
-    latestReleaseDate: 2023-10-25
+    latest: "5.10.234"
+    latestReleaseDate: 2025-02-01
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.259"
-    latestReleaseDate: 2023-10-25
+    latest: "5.4.290"
+    latestReleaseDate: 2025-02-01
 
 -   releaseCycle: "4.19"
     lts: true
     releaseDate: 2018-10-22
-    eol: 2024-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.19.297"
-    latestReleaseDate: 2023-10-25
+    eol: 2024-12-05 # announced https://lore.kernel.org/lkml/2024120520-mashing-facing-6776@gregkh/
+    latest: "4.19.325"
+    latestReleaseDate: 2024-12-05
 
 -   releaseCycle: "4.14"
     lts: true
     releaseDate: 2017-11-12
-    eol: 2024-01-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "4.14.328"
-    latestReleaseDate: 2023-10-25
+    eol: 2024-01-10 # announced https://lore.kernel.org/lkml/2024011046-ecology-tiptoeing-ce50@gregkh/
+    latest: "4.14.336"
+    latestReleaseDate: 2024-01-10
 
 -   releaseCycle: "4.9"
     lts: true

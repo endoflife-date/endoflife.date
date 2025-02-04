@@ -37,6 +37,22 @@ class Product
     hash.fetch('releases').map do |release|
       name = release.delete('releaseCycle')
       release['lts'] = release['lts'] || false
+
+      # To keep backward compatibility following the renaming of support and extendedSupport fields.
+      # See https://github.com/endoflife-date/endoflife.date/issues/4923.
+      if release.has_key?('eoas')
+        eoas = release.delete('eoas')
+        release['support'] = eoas.respond_to?(:strftime) ? eoas : !eoas
+      end
+      if hash.has_key?('eoesColumn')
+        if release.has_key?('eoes')
+          eoes = release.delete('eoes')
+          release['extendedSupport'] = eoes.respond_to?(:strftime) ? eoes : !eoes
+        else
+          release['extendedSupport'] = false
+        end
+      end
+
       { 'name' => name, 'data' => release }
     end
   end

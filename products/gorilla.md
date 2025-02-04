@@ -5,7 +5,6 @@ iconSlug: go
 permalink: /gorilla
 releasePolicyLink: https://github.com/gorilla/
 releaseDateColumn: true
-releaseColumn: true
 eolColumn: Support
 
 identifiers:

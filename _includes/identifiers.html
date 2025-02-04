@@ -1,0 +1,22 @@
+{% if page.identifiers.size > 0 %}
+<details>
+  <summary>Show Product Identifiers</summary>
+  <ul>
+  {% for identifier_hash in page.identifiers %}
+    {% assign type_and_identifier = identifier_hash|first %}
+    {% assign identifier_type = type_and_identifier[0] %}
+    {% assign identifier = type_and_identifier[1] %}
+    {% assign identifier_url = (identifier_hash|identifier_to_url) %}
+
+    <li>
+      {{ identifier_type }}:
+      {%- if identifier_url %}
+      <a href="{{ identifier_url }}"><code>{{ identifier }}</code></a>
+      {%- else %}
+      <code>{{ identifier }}</code>
+      {%- endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</details>
+{% endif %}

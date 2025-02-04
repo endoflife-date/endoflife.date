@@ -11,22 +11,33 @@ versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
--   npm: next
+identifiers:
+-   purl: pkg:npm/next
+-   purl: pkg:github/vercel/next.js
 
-# EOL(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
+auto:
+  methods:
+  -   npm: next
+
+# eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
+-   releaseCycle: "15"
+    releaseDate: 2024-10-21
+    eol: false
+    latest: "15.1.6"
+    latestReleaseDate: 2025-01-22
+
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.0.0"
-    latestReleaseDate: 2023-10-26
+    latest: "14.2.23"
+    latestReleaseDate: 2025-01-07
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25
-    eol: 2023-10-26
-    latest: "13.5.6"
-    latestReleaseDate: 2023-10-18
+    eol: 2024-12-21
+    latest: "13.5.8"
+    latestReleaseDate: 2024-12-21
 
 -   releaseCycle: "12"
     releaseDate: 2021-10-26
@@ -59,9 +70,9 @@ releases:
 > developers to build performant and scalable web applications. The framework is designed to be
 > developer-friendly, with a focus on fast refresh and an optimized production build.
 
-Next.js is following [semantic versioning](https://semver.org/), but does not have a clearly defined
-release and support policy. Looking at the latest releases, it seems only the latest major release
-is supported with mainly bug and security fixes.
+Next.js follows [semantic versioning](https://semver.org/). Major versions seem to be released on average twice per year,
+minor versions more frequently, and patch versions very frequently. Important patches are sometimes
+backported to past major versions, but it's not clear which past versions are supported.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):
 stable and canary. Only stable releases are suitable for production.

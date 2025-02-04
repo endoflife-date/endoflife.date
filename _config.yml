@@ -17,6 +17,12 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 
+# This part is to silent sass deprecating warnings
+# remove after they fix it 
+# https://github.com/just-the-docs/just-the-docs/pull/1548
+# and https://github.com/jekyll/jekyll/issues/9686
+sass:
+  quiet_deps: true
 
 # just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs
@@ -26,6 +32,7 @@ nav_sort: case_insensitive
 search_enabled: true
 search:
   button: true
+  focus_shortcut_key: 'k'
   placeholder_text: "Search for a product"
 
 # https://just-the-docs.com/docs/configuration/#aux-links
@@ -48,6 +55,12 @@ callouts:
   warning:
     title: Warning
     color: yellow
+  note:
+    title: Note
+    color: blue
+  commandInfo:
+    title: To learn the current version on your system
+    color: grey-dk
 
 
 # jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago
@@ -84,15 +97,16 @@ defaults:
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'
       discontinuedWarnThreshold: 121
-      activeSupportColumn: false
-      activeSupportColumnLabel: 'Active Support'
-      activeSupportWarnThreshold: 121
+      eoasColumn: false
+      eoasColumnLabel: 'Active Support'
+      eoasWarnThreshold: 121
       eolColumn: true
       eolColumnLabel: 'Security Support'
       eolWarnThreshold: 121
-      extendedSupportColumn: false
-      extendedSupportColumnLabel: 'Extended Support'
-      extendedSupportWarnThreshold: 121
+      eoesColumn: false
+      eoesColumnLabel: 'Extended Support'
+      eoesWarnThreshold: 121
+      customColumns: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 
 

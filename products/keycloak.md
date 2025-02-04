@@ -2,23 +2,56 @@
 title: Keycloak
 category: server-app
 tags: java-runtime red-hat
-# https://github.com/simple-icons/simple-icons/issues/8125
+iconSlug: keycloak
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Supported
 
+identifiers:
+-   purl: pkg:github/keycloak/keycloak
+-   repology: keycloak
+
 auto:
--   git: https://github.com/keycloak/keycloak.git
+  methods:
+  -   github_releases: keycloak/keycloak
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "26.1"
+    releaseDate: 2025-01-15
+    eol: false
+    latest: "26.1.0"
+    latestReleaseDate: 2025-01-15
+
+-   releaseCycle: "26.0"
+    releaseDate: 2024-10-04
+    eol: 2025-01-15
+    latest: "26.0.8"
+    latestReleaseDate: 2025-01-13
+
+-   releaseCycle: "25.0"
+    releaseDate: 2024-06-10
+    eol: 2024-10-04
+    latest: "25.0.6"
+    latestReleaseDate: 2024-09-19
+
+-   releaseCycle: "24.0"
+    releaseDate: 2024-03-04
+    eol: 2024-06-10
+    latest: "24.0.5"
+    latestReleaseDate: 2024-06-04
+
+-   releaseCycle: "23.0"
+    releaseDate: 2023-11-23
+    eol: 2024-03-04
+    latest: "23.0.7"
+    latestReleaseDate: 2024-02-22
+
 -   releaseCycle: "22.0"
     releaseDate: 2023-07-11
-    eol: false
+    eol: 2023-11-23
     latest: "22.0.5"
     latestReleaseDate: 2023-10-24
 
@@ -53,7 +86,7 @@ releases:
     latestReleaseDate: 2022-06-24
 
 -   releaseCycle: "17.0"
-    releaseDate: 2022-03-11
+    releaseDate: 2022-02-11
     eol: 2022-04-20
     latest: "17.0.1"
     latestReleaseDate: 2022-03-23
@@ -121,6 +154,6 @@ Only the latest major version gets active development and security fixes.
 Depending on the severity of a vulnerability, the issue may be fixed in the current release or, for
 lower severity vulnerabilities or hardening, in the following release.
 
-A commercial offering with long term support of specific versions of Keycloak is provided by Red Hat
-with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/).
-It should be noted that RH-SSO must be running [under a supported configuration](https://access.redhat.com/articles/2342861).
+Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
+with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)
+and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak).

@@ -4,45 +4,77 @@ category: os
 tags: linux-distribution
 iconSlug: linuxmint
 permalink: /linuxmint
+alternate_urls:
+-   /linux-mint
 versionCommand: cat /etc/linuxmint/info
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseDateColumn: true
-activeSupportColumn: true
+eoasColumn: true
+
+auto:
+  methods:
+  -   release_table: https://linuxmint.com/download_all.php
+      ignore_empty_releases: true
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        eol:
+          column: "Status"
+          regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+-   releaseCycle: "22.1"
+    codename: Xia
+    lts: true
+    releaseDate: 2025-01-16
+    eoas: false
+    eol: 2029-04-30
+    latest: "22.1"
+    link: https://blog.linuxmint.com/?p=4793
+
+-   releaseCycle: "22"
+    codename: Wilma
+    lts: true
+    releaseDate: 2024-07-25
+    eoas: false
+    eol: 2029-04-30
+    latest: "22"
+    link: https://blog.linuxmint.com/?p=4731
+
+-   releaseCycle: "21.3"
+    codename: Virginia
+    lts: true
+    releaseDate: 2024-01-12
+    eoas: false
+    eol: 2027-04-30
+    latest: "21.3"
+    link: https://blog.linuxmint.com/?p=4624
+
+-   releaseCycle: "lmde6"
+    releaseLabel: "LMDE 6"
+    codename: Faye
+    releaseDate: 2023-09-27
+    eoas: false
+    eol: false
+    latest: "6"
+    link: https://blog.linuxmint.com/?p=4570
+
 -   releaseCycle: "21.2"
     codename: Victoria
     lts: true
     releaseDate: 2023-07-16
-    support: true
-    eol: 2027-04-01
+    eoas: false
+    eol: 2027-04-30
     latest: "21.2"
     link: https://blog.linuxmint.com/?p=4543
-
--   releaseCycle: "lmde5"
-    releaseLabel: "LMDE 5"
-    codename: Elsie
-    releaseDate: 2022-03-20
-    support: true
-    eol: false
-    latest: "5"
-    link: https://blog.linuxmint.com/?p=4287
-
--   releaseCycle: "lmde4"
-    releaseLabel: "LMDE 4"
-    releaseDate: 2020-03-20
-    support: 2022-08-01
-    eol: 2022-08-01
-    latest: "4"
-    link: https://blog.linuxmint.com/?p=3867
 
 -   releaseCycle: "21.1"
     codename: Vera
     lts: true
     releaseDate: 2022-12-20
-    support: true
-    eol: 2027-04-01
+    eoas: false
+    eol: 2027-04-30
     latest: "21.1"
     link: https://blog.linuxmint.com/?p=4454
 
@@ -50,17 +82,26 @@ releases:
     codename: Vanessa
     lts: true
     releaseDate: 2022-07-31
-    support: true
-    eol: 2027-04-01
+    eoas: false
+    eol: 2027-04-30
     latest: "21"
     link: https://blog.linuxmint.com/?p=4359
+
+-   releaseCycle: "lmde5"
+    releaseLabel: "LMDE 5"
+    codename: Elsie
+    releaseDate: 2022-03-20
+    eoas: false
+    eol: 2024-07-01
+    latest: "5"
+    link: https://blog.linuxmint.com/?p=4287
 
 -   releaseCycle: "20.3"
     codename: Una
     lts: true
     releaseDate: 2022-01-07
-    support: true
-    eol: 2025-04-01
+    eoas: false
+    eol: 2025-04-30
     latest: "20.3"
     link: https://blog.linuxmint.com/?p=4220
 
@@ -68,8 +109,8 @@ releases:
     codename: Uma
     lts: true
     releaseDate: 2021-07-08
-    support: true
-    eol: 2025-04-01
+    eoas: false
+    eol: 2025-04-30
     latest: "20.2"
     link: https://blog.linuxmint.com/?p=4102
 
@@ -77,8 +118,8 @@ releases:
     codename: Ulyssa
     lts: true
     releaseDate: 2021-01-08
-    support: false
-    eol: 2025-04-01
+    eoas: true
+    eol: 2025-04-30
     latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
 
@@ -86,16 +127,24 @@ releases:
     codename: Ulyana
     lts: true
     releaseDate: 2020-06-27
-    support: false
-    eol: 2025-04-01
+    eoas: true
+    eol: 2025-04-30
     latest: "20"
     link: https://blog.linuxmint.com/?p=3928
+
+-   releaseCycle: "lmde4"
+    releaseLabel: "LMDE 4"
+    releaseDate: 2020-03-20
+    eoas: 2022-08-01
+    eol: 2022-08-01
+    latest: "4"
+    link: https://blog.linuxmint.com/?p=3867
 
 -   releaseCycle: "19.3"
     codename: Tricia
     lts: true
     releaseDate: 2019-12-18
-    support: false
+    eoas: true
     eol: 2023-04-01
     latest: "19.3"
     link: https://blog.linuxmint.com/?p=3832
@@ -104,7 +153,7 @@ releases:
     codename: Tina
     lts: true
     releaseDate: 2019-08-02
-    support: false
+    eoas: true
     eol: 2023-04-01
     latest: "19.2"
     link: https://blog.linuxmint.com/?p=3786
@@ -113,7 +162,7 @@ releases:
     codename: Tessa
     lts: true
     releaseDate: 2018-12-19
-    support: false
+    eoas: true
     eol: 2023-04-01
     latest: "19.1"
     link: https://blog.linuxmint.com/?p=3669
@@ -122,7 +171,7 @@ releases:
     codename: Tara
     lts: true
     releaseDate: 2018-06-29
-    support: false
+    eoas: true
     eol: 2023-04-01
     latest: "19"
     link: https://blog.linuxmint.com/?p=3597
@@ -131,7 +180,7 @@ releases:
     codename: Sylvia
     lts: true
     releaseDate: 2017-11-27
-    support: false
+    eoas: true
     eol: 2021-05-03
     latest: "18.3"
     link: https://blog.linuxmint.com/?p=3457
@@ -139,7 +188,7 @@ releases:
 -   releaseCycle: "18.1"
     codename: Serena
     releaseDate: 2017-01-27
-    support: false
+    eoas: true
     eol: 2021-04-01
     latest: "18.1"
     link: https://blog.linuxmint.com/?p=3223

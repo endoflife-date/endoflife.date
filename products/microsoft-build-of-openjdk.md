@@ -11,44 +11,51 @@ releaseDateColumn: true
 
 # There is one repository for each major LTS release.
 auto:
--   git: "https://github.com/microsoft/openjdk-jdk11u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
-    template: '{{version}}'
--   git: "https://github.com/microsoft/openjdk-jdk17u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
-    template: '{{version}}'
--   git: "https://github.com/microsoft/openjdk-jdk21u.git"
-    regex: '^jdk-(?<version>[\d\.]+)-ga$'
-    template: '{{version}}'
+  methods:
+  -   git: "https://github.com/microsoft/openjdk-jdk11u.git"
+      regex: '^jdk-(?P<version>[\d\.]+)-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/microsoft/openjdk-jdk17u.git"
+      regex: '^jdk-(?P<version>[\d\.]+)-ga$'
+      template: '{{version}}'
+  -   git: "https://github.com/microsoft/openjdk-jdk21u.git"
+      regex: '^jdk-(?P<version>[\d\.]+)-ga$'
+      template: '{{version}}'
+  -   release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^OpenJDK (?P<value>\d+) LTS$'
+        eol: "Earliest end-of-support date"
 
 # Do not forget to update the "auto" configuration on each new major release.
-# EOL dates available on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
 releases:
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
-    eol: false # not yet announced on https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
-    latest: "21.0.1"
-    latestReleaseDate: 2023-10-13
+    eol: 2028-09-30
+    latest: "21.0.6"
+    latestReleaseDate: 2025-01-04
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
-    latest: "17.0.9"
-    latestReleaseDate: 2023-10-11
+    latest: "17.0.14"
+    latestReleaseDate: 2025-01-04
 
 # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
-    eol: 2024-09-30
-    latest: "11.0.21"
-    latestReleaseDate: 2023-10-06
+    eol: 2027-09-30
+    latest: "11.0.25"
+    latestReleaseDate: 2024-10-10
 
 ---
 
-> The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) with long-term support and patches from
 > Microsoft. Microsoft Build of OpenJDK is certified using the Oracle Java Compatibility Kit (JCK)
 > to demonstrate that it is a compatible implementation of the Java specification. Microsoft Build

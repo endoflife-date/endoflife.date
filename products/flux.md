@@ -14,20 +14,39 @@ releaseDateColumn: true
 eolColumn: Support
 
 auto:
--   git: https://github.com/fluxcd/flux2.git
--   git: https://github.com/fluxcd/flux.git
+  methods:
+  -   git: https://github.com/fluxcd/flux2.git
+  -   git: https://github.com/fluxcd/flux.git
 
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.4"
+    releaseDate: 2024-09-30
+    eol: false
+    latest: "2.4.0"
+    latestReleaseDate: 2024-09-30
+
+-   releaseCycle: "2.3"
+    releaseDate: 2024-05-13
+    eol: false
+    latest: "2.3.0"
+    latestReleaseDate: 2024-05-13
+
+-   releaseCycle: "2.2"
+    releaseDate: 2023-12-12
+    eol: false
+    latest: "2.2.3"
+    latestReleaseDate: 2024-02-05
+
 -   releaseCycle: "2.1"
     releaseDate: 2023-08-24
-    eol: false
+    eol: 2024-09-30 # releaseDate(2.4)
     latest: "2.1.2"
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "2.0"
     releaseDate: 2023-07-05
-    eol: false
+    eol: 2024-05-13 # https://fluxcd.io/blog/2024/05/flux-v2.3.0/#supported-versions
     latest: "2.0.1"
     latestReleaseDate: 2023-07-11
 

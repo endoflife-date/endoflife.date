@@ -6,42 +6,72 @@ permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
 releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
 releaseDateColumn: true
-releaseColumn: true
 eolColumn: Support
 
-auto:
--   custom: true
+identifiers:
+-   repology: artifactory
+-   cpe: cpe:/a:jfrog:artifactory
+-   cpe: cpe:2.3:a:jfrog:artifactory
 
+auto:
+  methods:
+  -   custom: artifactory
+
+# EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
+-   releaseCycle: "7.98"
+    releaseDate: 2024-10-29
+    eol: 2026-04-29
+    latest: "7.98.12"
+    latestReleaseDate: 2024-12-24
+
+-   releaseCycle: "7.90"
+    releaseDate: 2024-07-25
+    eol: 2026-01-25
+    latest: "7.90.15"
+    latestReleaseDate: 2024-10-21
+
+-   releaseCycle: "7.84"
+    releaseDate: 2024-05-12
+    eol: 2025-11-12
+    latest: "7.84.21"
+    latestReleaseDate: 2024-08-26
+
+-   releaseCycle: "7.77"
+    releaseDate: 2024-01-24
+    eol: 2025-07-24
+    latest: "7.77.16"
+    latestReleaseDate: 2024-11-13
+
 -   releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
-    latest: "7.71.3"
-    latestReleaseDate: 2023-10-25
+    latest: "7.71.22"
+    latestReleaseDate: 2024-05-07
 
 -   releaseCycle: "7.68"
     releaseDate: 2023-09-11
     eol: 2025-03-11
-    latest: "7.68.14"
-    latestReleaseDate: 2023-10-09
+    latest: "7.68.21"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.63"
     releaseDate: 2023-07-12
     eol: 2025-01-12
-    latest: "7.63.11"
-    latestReleaseDate: 2023-08-10
+    latest: "7.63.21"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.59"
     releaseDate: 2023-05-28
     eol: 2024-11-28
-    latest: "7.59.16"
-    latestReleaseDate: 2023-08-10
+    latest: "7.59.22"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.55"
     releaseDate: 2023-02-28
     eol: 2024-08-28
-    latest: "7.55.14"
-    latestReleaseDate: 2023-05-23
+    latest: "7.55.17"
+    latestReleaseDate: 2024-05-01
 
 -   releaseCycle: "7.49"
     releaseDate: 2022-12-29

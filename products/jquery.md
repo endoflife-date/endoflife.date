@@ -5,14 +5,19 @@ tags: javascript-runtime
 iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
-releaseColumn: true
 releaseDateColumn: true
-activeSupportColumn: false
+
+identifiers:
+-   purl: pkg:github/jquery/jquery
+-   purl: pkg:maven/org.webjars/jquery
+-   purl: pkg:npm/jquery
+-   purl: pkg:nuget/jQuery
 
 # NPM is also possible, but versions up to 1.10.2 and between 2.0.0 to 2.0.3 are not on
 # https://www.npmjs.com/package/jquery, so better it's better to keep git.
 auto:
--   git: https://github.com/jquery/jquery.git
+  methods:
+  -   git: https://github.com/jquery/jquery.git
 
 releases:
 -   releaseCycle: "3"

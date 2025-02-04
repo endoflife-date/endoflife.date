@@ -12,15 +12,25 @@ changelogTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
 releaseDateColumn: true
 supportColumn: false
 
+identifiers:
+-   cpe: cpe:/a:oracle:openjdk
+-   cpe: cpe:2.3:a:oracle:openjdk
+
 # eol(x) = releaseDate(x+1)
-# Release dates, including future release dates, can be found on https://www.java.com/releases/.
-# Usually only two path versions are released during the support period.
+# Release dates can be found on https://wiki.openjdk.org/.
+# Usually only two patch versions are released during the support period.
 releases:
+-   releaseCycle: "22"
+    releaseDate: 2024-03-19
+    eol: 2024-09-17
+    latest: "22"
+    latestReleaseDate: 2024-03-19
+
 -   releaseCycle: "21"
     releaseDate: 2023-09-19
     eol: 2024-03-19
-    latest: "21"
-    latestReleaseDate: 2023-09-19
+    latest: "21.0.2"
+    latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-21
@@ -99,7 +109,7 @@ releases:
 
 ---
 
-> [OpenJDK builds from Oracle](https://jdk.java.net/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [OpenJDK builds from Oracle](https://jdk.java.net/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) provided by Oracle. OpenJDK builds from
 > Oracle are certified using the Java Technical Compatibility Kit (TCK) to ensure it meets the Java
 > SE standard. It is available on Linux, Windows, macOS.

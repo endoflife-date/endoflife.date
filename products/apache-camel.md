@@ -8,21 +8,98 @@ alternate_urls:
 -   /camel-lang
 releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
+customColumns:
+-   property: supportedJavaVersions
+    position: after-release-column
+    label: Java support
+    description: Supported Java versions list
+    link: https://camel.apache.org/manual/what-are-the-dependencies.html
+
+identifiers:
+-   cpe: cpe:/a:apache:camel
+-   cpe: cpe:2.3:a:apache:camel
 
 auto:
--   maven: org.apache.camel/camel
+  methods:
+  -   maven: org.apache.camel/camel
 
 # for LTS : eol = releaseDate + 1y
 # for non-LTS : eol(x) = releaseDate(x+1)
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
+# Java support is documented in each version release notes, see https://camel.apache.org/releases/.
 releases:
+-   releaseCycle: "4.9"
+    releaseDate: 2024-11-29
+    eol: false
+    supportedJavaVersions: 17, 21
+    latest: "4.9.0"
+    latestReleaseDate: 2024-11-29
+
+-   releaseCycle: "4.8"
+    lts: true
+    releaseDate: 2024-09-10
+    eol: 2025-09-10
+    supportedJavaVersions: 17, 21
+    latest: "4.8.3"
+    latestReleaseDate: 2025-01-08
+
+-   releaseCycle: "4.7"
+    releaseDate: 2024-07-09
+    eol: 2024-09-10
+    supportedJavaVersions: 17, 21
+    latest: "4.7.0"
+    latestReleaseDate: 2024-07-09
+
+-   releaseCycle: "4.6"
+    releaseDate: 2024-05-05
+    eol: 2024-07-13
+    supportedJavaVersions: 17, 21
+    latest: "4.6.0"
+    latestReleaseDate: 2024-05-05
+
+-   releaseCycle: "4.5"
+    releaseDate: 2024-03-23
+    eol: 2024-05-10
+    supportedJavaVersions: 17, 21
+    latest: "4.5.0"
+    latestReleaseDate: 2024-03-23
+
+-   releaseCycle: "4.4"
+    lts: true
+    releaseDate: 2024-02-12
+    eol: 2025-02-12
+    supportedJavaVersions: 17, 21
+    latest: "4.4.5"
+    latestReleaseDate: 2025-01-17
+
+-   releaseCycle: "3.22"
+    lts: true
+    releaseDate: 2023-12-19
+    eol: 2024-12-26
+    supportedJavaVersions: 11, 17
+    latest: "3.22.3"
+    latestReleaseDate: 2024-12-16
+
+-   releaseCycle: "4.3"
+    releaseDate: 2023-12-11
+    eol: 2024-02-12
+    supportedJavaVersions: 17, 21
+    latest: "4.3.0"
+    latestReleaseDate: 2023-12-11
+
+-   releaseCycle: "4.2"
+    releaseDate: 2023-11-10
+    eol: 2023-12-18
+    supportedJavaVersions: 17, 21
+    latest: "4.2.0"
+    latestReleaseDate: 2023-11-10
+
 -   releaseCycle: "4.1"
     releaseDate: 2023-10-06
-    eol: false
+    eol: 2023-11-15
     supportedJavaVersions: 17
     latest: "4.1.0"
     latestReleaseDate: 2023-10-06
@@ -32,24 +109,24 @@ releases:
     releaseDate: 2023-08-10
     eol: 2024-08-10
     supportedJavaVersions: 17
-    latest: "4.0.2"
-    latestReleaseDate: 2023-10-22
+    latest: "4.0.6"
+    latestReleaseDate: 2024-08-06
 
 -   releaseCycle: "3.21"
     lts: true
     releaseDate: 2023-06-23
     eol: 2024-06-23
     supportedJavaVersions: 11, 17
-    latest: "3.21.1"
-    latestReleaseDate: 2023-09-24
+    latest: "3.21.5"
+    latestReleaseDate: 2024-06-13
 
 -   releaseCycle: "3.20"
     lts: true
     releaseDate: 2022-12-16
     eol: 2023-12-31
     supportedJavaVersions: 11, 17
-    latest: "3.20.7"
-    latestReleaseDate: 2023-09-26
+    latest: "3.20.9"
+    latestReleaseDate: 2023-12-08
 
 -   releaseCycle: "3.19"
     releaseDate: 2022-09-29
@@ -92,8 +169,8 @@ releases:
     releaseDate: 2021-12-12
     eol: 2022-12-31
     supportedJavaVersions: 8, 11
-    latest: "3.14.9"
-    latestReleaseDate: 2023-06-13
+    latest: "3.14.10"
+    latestReleaseDate: 2023-11-04
 
 -   releaseCycle: "3.13"
     releaseDate: 2021-11-08
@@ -214,14 +291,5 @@ releases:
 Apache Camel follows [Semantic Versioning](https://semver.org/). There are two LTS releases per year,
 and they are supported for one year with security and important/critical bug fixes. Non-LTS releases
 [don't receive any support](https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/).
-
-Camel has [the following Java requirements](https://camel.apache.org/manual/what-are-the-dependencies.html):
-
-{%- assign collapsedCycles = page.releases | collapse_cycles:"supportedJavaVersions"," - " %}
-{%- include table.html
-labels="Camel,Java"
-fields="releaseCycle,supportedJavaVersions"
-types="string,string"
-rows=collapsedCycles %}
 
 A list of known CVEs is available [on the security information page](https://camel.apache.org/security/).

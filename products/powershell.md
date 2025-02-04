@@ -2,44 +2,70 @@
 title: Microsoft PowerShell
 category: lang
 tags: microsoft
-iconSlug: powershell
 permalink: /powershell
 alternate_urls:
 -   /pwsh
 -   /ps
 -   /ps1
 versionCommand: pwsh -v
-releasePolicyLink: https://learn.microsoft.com/lifecycle/products/powershell
+releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   purl: pkg:github/powershell/powershell
+
 auto:
--   git: https://github.com/PowerShell/PowerShell.git
+  methods:
+  -   git: https://github.com/PowerShell/PowerShell.git
+  -   release_table: https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+        eol: "End-of-support"
 
 releases:
+
+-   releaseCycle: "7.5"
+    lts: false
+    releaseDate: 2025-01-23
+    eol: 2026-05-12
+    latest: "7.5.0"
+    latestReleaseDate: 2025-01-23
+
+-   releaseCycle: "7.4"
+    lts: true
+    releaseDate: 2023-11-16
+    eol: 2026-11-10
+    latest: "7.4.7"
+    latestReleaseDate: 2025-01-23
+
 -   releaseCycle: "7.3"
-    releaseDate: 2022-11-08
-    eol: false
-    latest: "7.3.9"
-    latestReleaseDate: 2023-10-26
+    releaseDate: 2022-11-09
+    eol: 2024-05-08
+    latest: "7.3.12"
+    latestReleaseDate: 2024-04-11
 
 -   releaseCycle: "7.2"
     lts: true
-    releaseDate: 2021-11-05
-    eol: 2024-11-30
-    latest: "7.2.16"
-    latestReleaseDate: 2023-10-26
+    releaseDate: 2021-11-08
+    eol: 2024-11-08
+    latest: "7.2.24"
+    latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "7.1"
     releaseDate: 2020-11-11
-    eol: 2022-05-31
+    eol: 2022-05-08
     latest: "7.1.7"
     latestReleaseDate: 2022-04-26
 
 -   releaseCycle: "7.0"
     lts: true
-    releaseDate: 2020-03-03
+    releaseDate: 2020-03-04
     eol: 2022-12-03
     latest: "7.0.13"
     latestReleaseDate: 2022-10-20
@@ -57,7 +83,7 @@ releases:
     latestReleaseDate: 2019-09-12
 
 -   releaseCycle: "6.0"
-    releaseDate: 2018-01-10
+    releaseDate: 2018-01-20
     eol: 2019-02-13
     latest: "6.0.5"
     latestReleaseDate: 2018-11-13
@@ -66,37 +92,37 @@ releases:
     releaseDate: 2016-08-02
     eol: 2027-01-12
     latest: "5.1"
-    link:
+    link: null
 
 -   releaseCycle: "5.0"
     releaseDate: 2016-02-24
     eol: 2016-08-02
     latest: "5.0"
-    link:
+    link: null
 
 -   releaseCycle: "4.0"
     releaseDate: 2013-10-01
     eol: 2023-10-10
     latest: "4.0"
-    link:
+    link: null
 
 -   releaseCycle: "3.0"
     releaseDate: 2012-10-01
     eol: 2023-10-10
     latest: "3.0"
-    link:
+    link: null
 
 -   releaseCycle: "2.0"
     releaseDate: 2009-07-01
     eol: 2020-01-14
     latest: "2.0"
-    link:
+    link: null
 
 -   releaseCycle: "1.0"
     releaseDate: 2006-11-14
     eol: 2020-01-14
     latest: "1.0"
-    link:
+    link: null
 
 ---
 

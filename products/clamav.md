@@ -2,35 +2,52 @@
 title: ClamAV
 category: app
 permalink: /clamav
+versionCommand: clamscan --version
 releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
-releaseColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: clamav
+
 auto:
--   git: https://github.com/Cisco-Talos/clamav.git
-    regex: '^clamav-(?<major>[0-9]+)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+  methods:
+  -   git: https://github.com/Cisco-Talos/clamav.git
+      regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
+-   releaseCycle: "1.4"
+    releaseDate: 2024-08-15
+    lts: true
+    eol: 2027-08-15
+    latest: "1.4.2"
+    latestReleaseDate: 2025-01-22
+
+-   releaseCycle: "1.3"
+    releaseDate: 2024-02-07
+    eol: false # releaseDate(1.5) + 4 months
+    latest: "1.3.2"
+    latestReleaseDate: 2024-09-04
+
 -   releaseCycle: "1.2"
     releaseDate: 2023-08-27
-    eol: false # releaseDate(1.4) + 4 months
-    latest: "1.2.1"
-    latestReleaseDate: 2023-10-25
+    eol: 2024-12-15 # releaseDate(1.4) + 4 months
+    latest: "1.2.3"
+    latestReleaseDate: 2024-04-17
 
 -   releaseCycle: "1.1"
     releaseDate: 2023-05-01
-    eol: false # releaseDate(1.3) + 4 months
+    eol: 2024-06-07
     latest: "1.1.3"
     latestReleaseDate: 2023-10-25
 
 -   releaseCycle: "1.0"
     releaseDate: 2022-11-28
-    eol: 2025-11-28
     lts: true
-    latest: "1.0.4"
-    latestReleaseDate: 2023-10-25
+    eol: 2025-11-28
+    latest: "1.0.8"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
@@ -46,10 +63,10 @@ releases:
 
 -   releaseCycle: "0.103"
     releaseDate: 2020-09-11
-    eol: 2024-09-14
     lts: true
-    latest: "0.103.11"
-    latestReleaseDate: 2023-10-25
+    eol: 2024-09-14
+    latest: "0.103.12"
+    latestReleaseDate: 2024-09-04
 
 -   releaseCycle: "0.102"
     releaseDate: 2019-10-02

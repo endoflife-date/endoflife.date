@@ -10,24 +10,44 @@ releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-activeSupportColumn: false
-releaseColumn: true
 releaseDateColumn: true
 eolColumn: Support Status
-discontinuedColumn: false
 
 auto:
--   git: https://github.com/yoctoproject/poky.git
-    regex: '^yocto-(?<major>[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.?(?<patch>0|[1-9]\d*)?$'
+  methods:
+  -   git: https://github.com/yoctoproject/poky.git
+      regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "5.1"
+    codename: 'Styhead'
+    releaseDate: 2024-10-16
+    eol: false
+    latest: "5.1.2"
+    latestReleaseDate: 2025-01-24
+
+-   releaseCycle: "5.0"
+    codename: 'Scarthgap'
+    lts: true
+    releaseDate: 2024-04-29
+    eol: 2028-04-30
+    latest: "5.0.6"
+    latestReleaseDate: 2025-01-14
+
+-   releaseCycle: "4.3"
+    codename: 'Nanbield'
+    releaseDate: 2023-11-09
+    eol: 2024-06-09
+    latest: "4.3.4"
+    latestReleaseDate: 2024-04-09
+
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
     releaseDate: 2023-05-03
     eol: 2023-11-05
-    latest: "4.2.3"
-    latestReleaseDate: 2023-08-31
+    latest: "4.2.4"
+    latestReleaseDate: 2023-12-07
 
 -   releaseCycle: "4.1"
     codename: 'Langdale'
@@ -41,8 +61,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.13"
-    latestReleaseDate: 2023-10-05
+    latest: "4.0.24"
+    latestReleaseDate: 2025-01-31
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -69,9 +89,9 @@ releases:
     codename: 'Dunfell'
     lts: true
     releaseDate: 2020-04-21
-    eol: 2024-04-01
-    latest: "3.1.28"
-    latestReleaseDate: 2023-09-29
+    eol: 2024-04-30
+    latest: "3.1.33"
+    latestReleaseDate: 2024-05-03
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'

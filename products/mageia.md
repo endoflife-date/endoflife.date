@@ -10,9 +10,14 @@ releaseDateColumn: true
 releaseColumn: false
 eolColumn: Supported
 
+identifiers:
+-   cpe: cpe:/o:mageia:mageia
+-   cpe: cpe:2.3:o:mageia:mageia
+
 auto:
--   distrowatch: mageia
-    regex: '^Distribution Release: Mageia (?P<major>\d+)$'
+  methods:
+  -   distrowatch: mageia
+      regex: '^Distribution Release: Mageia (?P<major>\d+)$'
 
 # EOL dates can be found on https://www.mageia.org/en/support/.
 releases:

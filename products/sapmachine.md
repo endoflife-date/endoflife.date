@@ -9,18 +9,32 @@ releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Main
 releaseDateColumn: true
 
 auto:
--   github_releases: "SAP/SapMachine"
-    regex: '^sapmachine-(?P<version>[\d\.]+)$'
+  methods:
+  -   github_releases: SAP/SapMachine
+      regex: '^sapmachine-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
 
-# LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
-# non-LTS : EOL(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
+# LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
+# non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
+-   releaseCycle: "23"
+    releaseDate: 2024-09-18
+    eol: 2025-03-18
+    latest: '23.0.2'
+    latestReleaseDate: 2025-01-22
+
+-   releaseCycle: "22"
+    releaseDate: 2024-03-18
+    eol: 2024-09-17
+    latest: '22.0.2'
+    latestReleaseDate: 2024-07-17
+
 -   releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-18
-    eol: false
-    latest: '21.0.1'
-    latestReleaseDate: 2023-10-17
+    eol: 2028-09-01
+    latest: '21.0.6'
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-17
@@ -43,9 +57,9 @@ releases:
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
-    eol: 2026-09-30
-    latest: '17.0.9'
-    latestReleaseDate: 2023-10-17
+    eol: 2026-09-01
+    latest: '17.0.14'
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-15
@@ -80,13 +94,13 @@ releases:
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-16
-    eol: 2024-12-31
-    latest: '11.0.21'
-    latestReleaseDate: 2023-10-17
+    eol: 2024-12-01
+    latest: '11.0.26'
+    latestReleaseDate: 2025-01-22
 
 ---
 
-> [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.java.net/legal/gplv2+ce.html)
+> [SapMachine](https://sap.github.io/SapMachine/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)
 > licensed build of the Open Java Development Kit (OpenJDK) with long-term support and patches from
 > SAP. SapMachine [is certified](https://github.com/SAP/SapMachine/wiki/Certification-and-Java-Compatibility)
 > using the Java Technical Compatibility Kit (TCK) to ensure it meets the Java SE standard. It is

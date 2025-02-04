@@ -6,24 +6,53 @@ permalink: /telegraf
 versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
-releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
 
 auto:
--   git: https://github.com/influxdata/telegraf
+  methods:
+  -   git: https://github.com/influxdata/telegraf
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.33"
+    releaseDate: 2024-12-09
+    eol: false # releaseDate(1.35)
+    latest: "1.33.1"
+    latestReleaseDate: 2025-01-10
+
+-   releaseCycle: "1.32"
+    releaseDate: 2024-09-09
+    eol: false # releaseDate(1.34)
+    latest: "1.32.3"
+    latestReleaseDate: 2024-11-18
+
+-   releaseCycle: "1.31"
+    releaseDate: 2024-06-10
+    eol: 2024-12-09 # releaseDate(1.33)
+    latest: "1.31.3"
+    latestReleaseDate: 2024-08-12
+
+-   releaseCycle: "1.30"
+    releaseDate: 2024-03-11
+    eol: 2024-09-09 # releaseDate(1.32)
+    latest: "1.30.3"
+    latestReleaseDate: 2024-05-20
+
+-   releaseCycle: "1.29"
+    releaseDate: 2023-12-11
+    eol: 2024-06-10
+    latest: "1.29.5"
+    latestReleaseDate: 2024-02-20
+
 -   releaseCycle: "1.28"
     releaseDate: 2023-09-11
-    eol: false # releaseDate(1.30)
-    latest: "1.28.3"
-    latestReleaseDate: 2023-10-23
+    eol: 2024-03-11
+    latest: "1.28.5"
+    latestReleaseDate: 2023-11-15
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-06-12
-    eol: false # releaseDate(1.29)
+    eol: 2023-12-11
     latest: "1.27.4"
     latestReleaseDate: 2023-08-21
 
@@ -205,8 +234,10 @@ releases:
 
 ---
 
-> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
+> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing,
+> aggregating, and writing metrics.
 
 Telegraf is based on a plugin system, and this page only covers the Telegraf server.
 Only the latest two minor releases are supported with maintenance patch releases.
-Compatibility is not guaranteed across major releases. Each major release is supported for a minimum of 12 months.
+Compatibility is not guaranteed across major releases. Each major release is supported for a
+minimum of 12 months.

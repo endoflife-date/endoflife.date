@@ -2,12 +2,10 @@
 title: Microsoft Surface
 category: device
 tags: microsoft
-iconSlug: windows
 permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 releaseColumn: false
 releaseDateColumn: true
-activeSupportColumn: false
 latestColumn: true
 eolColumn: End of Servicing Date
 
@@ -75,7 +73,7 @@ releases:
 
 -   releaseCycle: Surface Pro 7
     releaseDate: 2019-10-22
-    eol: 2024-02-28
+    eol: 2025-10-30
     link: https://support.microsoft.com/surface/surface-pro-7-specs-and-features-8254894d-bb80-77ef-daae-612ea713e310
 
 -   releaseCycle: Surface Hub 2S

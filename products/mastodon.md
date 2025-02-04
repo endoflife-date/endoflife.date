@@ -4,41 +4,55 @@ category: server-app
 tags: javascript-runtime ruby-runtime
 iconSlug: mastodon
 permalink: /mastodon
+versionCommand: tootctl --version
 releasePolicyLink: https://github.com/mastodon/mastodon/security/policy
 changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
-releaseColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: mastodon
+-   cpe: cpe:/a:joinmastodon:mastodon
+-   cpe: cpe:2.3:a:joinmastodon:mastodon
+-   purl: pkg:docker/bitnami/mastodon
+-   purl: pkg:docker/tootsuite/mastodon
+-   purl: pkg:docker/linuxserver/mastodon
 auto:
--   git: https://github.com/mastodon/mastodon.git
+  methods:
+  -   git: https://github.com/mastodon/mastodon.git
 
 # EOL dates are either false, if no information could be found, or the date found in
 # https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.
 releases:
+-   releaseCycle: "4.3"
+    releaseDate: 2024-10-08
+    eol: false
+    latest: "4.3.3"
+    latestReleaseDate: 2025-01-16
+
 -   releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: false
-    latest: "4.2.1"
-    latestReleaseDate: 2023-10-10
+    latest: "4.2.15"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-02-10
-    eol: false
-    latest: "4.1.10"
-    latestReleaseDate: 2023-10-10
+    eol: 2025-04-08
+    latest: "4.1.22"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-11-14
     eol: 2023-10-31
-    latest: "4.0.12"
-    latestReleaseDate: 2023-10-10
+    latest: "4.0.15"
+    latestReleaseDate: 2024-02-16
 
 -   releaseCycle: "3.5"
     releaseDate: 2022-03-30
     eol: 2023-12-31
-    latest: "3.5.15"
-    latestReleaseDate: 2023-10-10
+    latest: "3.5.19"
+    latestReleaseDate: 2024-02-16
 
 -   releaseCycle: "3.4"
     releaseDate: 2021-05-16
@@ -87,9 +101,11 @@ releases:
 ---
 
 > [Mastodon](https://joinmastodon.org/) is a free and open-source software for running self-hosted
-> social networking services. It has microblogging features similar to Twitter, which are offered
-> by a large number of independently run nodes, known as instances, each with its own code of
-> conduct, terms of service, privacy policy, privacy options, and content moderation policies.
+> social networking services based on the [ActivityPub](https://activitypub.rocks/) protocol. It has microblogging features
+> similar to Twitter, which are offered by a large number of independently run nodes, known as
+> instances, each with its own code of conduct, terms of service, privacy policy, privacy options,
+> and content moderation policies.
 
 Mastodon follows [Semantic Versioning](https://semver.org/). Its support and EOL policy is not
-clearly defined, but supported releases are documented on [its Security Policy page](https://github.com/mastodon/mastodon/security/policy).
+clearly defined, but supported releases are documented on
+[its Security Policy page](https://github.com/mastodon/mastodon/security/policy).

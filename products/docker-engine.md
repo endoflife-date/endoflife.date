@@ -4,40 +4,94 @@ category: app
 iconSlug: docker
 permalink: /docker-engine
 versionCommand: docker version --format '{{.Server.Version}}'
-releasePolicyLink: https://github.com/moby/moby/milestones
-changelogTemplate: "https://docs.docker.com/engine/release-notes/__RELEASE_CYCLE__/"
-activeSupportColumn: false
-releaseColumn: true
+releasePolicyLink: https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+changelogTemplate: |
+  https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
 releaseDateColumn: true
-discontinuedColumn: false
 
 identifiers:
 -   repology: docker
 -   repology: docker-ce
 
 auto:
--   git: https://github.com/moby/moby.git
-    regex: ^v(?<major>0|[1-9]\d*)\.(?<minor>\d*)\.(?<patch>0|[1-9]\d*)(-ce)?$
+  methods:
+  -   git: https://github.com/moby/moby.git
+      regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
+# For EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
+-   releaseCycle: "27.5"
+    releaseDate: 2025-01-13
+    eol: false
+    latest: "27.5.1"
+    latestReleaseDate: 2025-01-22
+
+-   releaseCycle: "27.4"
+    releaseDate: 2024-12-09
+    eol: false
+    latest: "27.4.1"
+    latestReleaseDate: 2024-12-18
+
+-   releaseCycle: "27.3"
+    releaseDate: 2024-09-19
+    eol: false
+    latest: "27.3.1"
+    latestReleaseDate: 2024-09-20
+
+-   releaseCycle: "27.2"
+    releaseDate: 2024-08-27
+    eol: false
+    latest: "27.2.1"
+    latestReleaseDate: 2024-09-09
+
+-   releaseCycle: "27.1"
+    releaseDate: 2024-07-22
+    eol: 2024-08-27
+    latest: "27.1.2"
+    latestReleaseDate: 2024-08-13
+
+-   releaseCycle: "27.0"
+    releaseDate: 2024-06-25
+    eol: 2024-07-22
+    latest: "27.0.3"
+    latestReleaseDate: 2024-07-01
+
+-   releaseCycle: "26.1"
+    releaseDate: 2024-04-22
+    eol: false
+    latest: "26.1.5"
+    latestReleaseDate: 2024-07-23
+
+-   releaseCycle: "26.0"
+    releaseDate: 2024-03-20
+    eol: 2024-06-08
+    latest: "26.0.2"
+    latestReleaseDate: 2024-04-18
+
+-   releaseCycle: "25.0"
+    releaseDate: 2024-01-19
+    eol: false
+    latest: "25.0.8"
+    latestReleaseDate: 2025-02-03
+
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
-    eol: false
-    latest: "24.0.7"
-    latestReleaseDate: 2023-10-26
+    eol: 2024-06-08
+    latest: "24.0.9"
+    latestReleaseDate: 2024-02-01
 
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
-    eol: false
-    latest: "23.0.7"
-    latestReleaseDate: 2023-09-27
+    eol: 2025-05-19
+    latest: "23.0.16"
+    latestReleaseDate: 2024-12-05
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"
     releaseDate: 2020-12-09
     eol: 2023-12-10
-    latest: "20.10.26"
-    latestReleaseDate: 2023-09-27
+    latest: "20.10.27"
+    latestReleaseDate: 2023-12-01
 
 -   releaseCycle: "19.03"
     releaseDate: 2019-07-22
@@ -148,12 +202,6 @@ releases:
 > Containers are isolated from one another and bundle their own software, libraries and
 > configuration files.
 
-Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support),
-and as such - there's no list of supported releases.
-This page uses the [Open milestones](https://github.com/moby/moby/milestones) as a guide for which releases
-are still getting fixes.
+Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support).
 
-Mirantis [has promised](https://github.com/moby/moby/discussions/45104#discussioncomment-6013686)
-to backport security fixes and fixes for bugs which impact their customers to the 20.10 branch until
-Mirantis Container Runtime 20.10 reaches end-of-life on 2023 December 10. Microsoft is also
-committed to maintaining the 20.10 branch in public for now.
+The list of all supported releases is documented at <https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md>.

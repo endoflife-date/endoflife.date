@@ -1,6 +1,6 @@
 ---
 title: Apache Hadoop
-category: server-app # not sure if this is the best category
+category: database
 tags: apache java-runtime
 iconSlug: apachehadoop
 permalink: /apache-hadoop
@@ -12,13 +12,27 @@ eolColumn: Support
 # https://stackoverflow.com/a/33936569/374236
 versionCommand: hadoop version
 
-auto:
--   git: https://github.com/apache/hadoop.git
-    regex: '^(rel\/)?release-(?<major>[1-9][0-9]*)\.(?<minor>[0-9]+)(\.(?<patch>[0-9]+))?$'
+identifiers:
+-   repology: hadoop
+-   cpe: cpe:/a:apache:hadoop
+-   cpe: cpe:2.3:a:apache:hadoop
+-   cpe: cpe:/a:cloudera:hadoop
+-   cpe: cpe:2.3:a:cloudera:hadoop
 
-# EOL(x) = latestReleaseDate(x) (if the release is not active anymore)
+auto:
+  methods:
+  -   git: https://github.com/apache/hadoop.git
+      regex: '^(rel\/)?release-(?P<major>[1-9][0-9]*)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
+
+# eol(x) = announceDate(https://www.mail-archive.com/hdfs-dev@hadoop.apache.org) or latestReleaseDate(x) (if the release is not active anymore)
 # Active releases are documented on https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Active+Release+Lines.
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2024-03-17
+    eol: false
+    latest: "3.4.1"
+    latestReleaseDate: 2024-10-18
+
 -   releaseCycle: "3.3"
     releaseDate: 2020-07-15
     eol: false
@@ -33,7 +47,7 @@ releases:
 
 -   releaseCycle: "3.2"
     releaseDate: 2019-01-21
-    eol: false
+    eol: 2023-12-21 # https://www.mail-archive.com/hdfs-dev@hadoop.apache.org/msg48821.html
     latest: "3.2.4"
     latestReleaseDate: 2022-07-22
 
@@ -76,8 +90,8 @@ releases:
 -   releaseCycle: "2.5"
     releaseDate: 2014-09-11
     eol: 2015-11-19
-    latest: "2.5.0"
-    latestReleaseDate: 2015-11-19
+    latest: "2.5.2"
+    latestReleaseDate: 2014-11-20
 
 -   releaseCycle: "2.4"
     releaseDate: 2014-04-10

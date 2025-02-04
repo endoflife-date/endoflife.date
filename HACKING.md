@@ -103,7 +103,7 @@ The API is just JSON files generated in the `api` directory by `_plugins/create-
 
 ### API Documentation
 
-The API Documentation is available at <https://endoflife.date/docs/api> and is generated from an OpenAPI Specification file located at `_data/openapi.yml`. The documentation is rendered [Stoplight Elements](https://meta.stoplight.io/docs/elements/ZG9jOjMyNjU4OTY0-introduction-to-elements).
+The API Documentation is available at <https://endoflife.date/docs/api> and is generated from an OpenAPI Specification file located at `assets/openapi.yml`. The documentation is rendered [Stoplight Elements](https://meta.stoplight.io/docs/elements/ZG9jOjMyNjU4OTY0-introduction-to-elements).
 
 ## Contributing Workflow
 
@@ -128,7 +128,7 @@ The build script is kept in `netlify.toml`.
 
 ## Analytics
 
-There are no javascript trackers or analytics on the website. Numbers from Google Search Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki). The data provided by Google is for publishers, and is based on search queries that showed endoflife.date in the search results. Google has more details [here](https://support.google.com/webmasters/answer/96568), including limitations of this data. Rare queries are ommitted by Google from this data to protect user privacy.
+There are no javascript trackers or analytics on the website. Numbers from Google Search Reports are published on [the wiki](https://github.com/endoflife-date/endoflife.date/wiki). The data provided by Google is for publishers, and is based on search queries that showed endoflife.date in the search results. Google has more details [here](https://support.google.com/webmasters/answer/96568), including limitations of this data. Rare queries are omitted by Google from this data to protect user privacy.
 
 ## Automation
 

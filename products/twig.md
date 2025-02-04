@@ -5,30 +5,29 @@ tags: php-runtime
 permalink: /twig
 changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
 releaseDateColumn: true
-releaseColumn: true
-activeSupportColumn: false
 
 auto:
--   git: https://github.com/twigphp/Twig.git
+  methods:
+  -   git: https://github.com/twigphp/Twig.git
 
 releases:
 -   releaseCycle: "3"
     releaseDate: 2019-11-15
     eol: false
-    latest: "3.7.1"
-    latestReleaseDate: 2023-08-28
+    latest: "3.19.0"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2"
     releaseDate: 2017-01-05
     eol: 2023-12-31 # https://symfony.com/blog/twig-2-end-of-life
-    latest: "2.15.5"
-    latestReleaseDate: 2023-05-03
+    latest: "2.16.1"
+    latestReleaseDate: 2024-09-09
 
 -   releaseCycle: "1"
     releaseDate: 2011-03-27
     eol: 2022-09-28
-    latest: "1.44.7"
-    latestReleaseDate: 2022-09-28
+    latest: "1.44.8"
+    latestReleaseDate: 2024-09-09
 
 ---
 

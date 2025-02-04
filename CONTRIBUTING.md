@@ -10,11 +10,12 @@ permalink: /contribute
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#octocat-hacktoberfest)
+- [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
 - [:pencil: About the codebase](#pencil-about-the-codebase)
 - [:new: Adding a new product](#new-adding-a-new-product)
 - [✅ Validating your changes](#-validating-your-changes)
+- [🆔 Adding Identifiers](#-adding-identifiers)
 - [📑 Suggested Reading](#-suggested-reading)
 - [:bookmark: Code of Conduct](#bookmark-code-of-conduct)
 
@@ -42,10 +43,10 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 title: Timeturner
 
 # Category of the product (mandatory).
-# Possible values are os,db,app,lang,framework,device,service,server-app.
+# Possible values are os,database,app,lang,framework,device,service,server-app.
 # If you add a new value, please mention it in the PR Description. Some rough guidelines:
 # - os is for operating systems (and similar projects),
-# - db is for databases,
+# - database is for all kinds of database,
 # - app is for end-user applications,
 # - lang is for programming languages,
 # - framework is for application libraries, SDKs, frameworks...,
@@ -56,20 +57,24 @@ category: os
 
 # Tags of the product (optional).
 #
-# Tags :
+# Remember that no tag is better than a useless tag. So do not introduce new tags when adding a product
+# and use one of the tags listed on https://endoflife.date/tags/.
+#
+# Should you want to add a new tag, please open an issue first to discuss it with the team.
+# Moreover, any new tag must be applied in a single PR to all products that should have it.
+#
+# Rules about tags are the following:
 # - must match [a-z0-9\-]+,
 # - must be declared with a space-separated string,
 # - must be alphabetically ordered,
 # - must use singular (for example web-server, not web-servers),
-# - should be used at least twice,
+# - should not be an existing category (note that categories are automatically used as tags),
+# - should be used at least three times, except for tags representing a vendor or a runtime dependency,
 # - must be added for one of the following reasons :
 #   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
 #   - set a product vendor such as adobe, amazon or apache,
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
-#
-# Remember that no tag is better than a useless tag. Also, note that categories are automatically tags, but don't
-# use another category as a tag.
-tags: amazon linux
+tags: amazon linux-distribution
 
 # Simple Icons (https://simpleicons.org/) icon slug (optional).
 # Remove this property if the icon is not available on Simple Icons.
@@ -120,25 +125,21 @@ releaseLabel: "MoM Timeturner __RELEASE_CYCLE__ (__CODENAME__)"
 # Prefer using an HTML abbr tag, if possible.
 LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 
-# Whether the "End of Life" column should be displayed (optional, default = true).
+# Whether the "End Of Life" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
 # Threshold at which the background color of the cycle's "eol" cell changes to indicate
 # that the EOL date is approaching (optional, default = 121 days).
-# If a fixed EOL calculation is taken the rule of thumb one third of the time can be applied.
-# e.g. eol = releaseDate + 6w -> 2w eolWarnThreshold: 14
 eolWarnThreshold: 121
 
-# Whether the "Active Support" column should be displayed (optional, default = false).
+# Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
-activeSupportColumn: Active Support
+eoasColumn: Active Support
 
-# Threshold at which the background color of the cycle's "activeSupport" cell changes to indicate
+# Threshold at which the background color of the cycle's "eoas" cell changes to indicate
 # that the end of active support date is approaching (optional, default = 121 days).
-# If a fixed support calculation is taken the rule of thumb one third of the time can be applied.
-# e.g. activeSupport = releaseDate + 3w -> 1w activeSupportWarnThreshold: 7
-activeSupportWarnThreshold: 121
+eoasWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
@@ -158,77 +159,125 @@ discontinuedColumn: Discontinued
 # that the discontinued date is approaching (optional, default = 121 days).
 discontinuedWarnThreshold: 121
 
-# Whether the "Extended Support" column should be displayed (optional, default = false).
+# Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
-extendedSupportColumn: Extended Support
+eoesColumn: Extended Support
 
-# Threshold at which the background color of the cycle's "extendedSupport" cell changes to indicate
+# Threshold at which the background color of the cycle's "eoes" cell changes to indicate
 # that the extended support date is approaching (optional, default = 121 days).
-extendedSupportWarnThreshold: 121
+eoesWarnThreshold: 121
+
+# Custom columns configuration (optional).
+# Custom columns are columns that will be added to the releases table and populated based on a
+# custom release cycle property.
+# They can be used for documenting things such as related runtime versions, custom dates that
+# cannot be expressed using the default columns, etc.
+# Note that the use of a table include (see https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md)
+# is usually preferred when there is more than two or three custom columns.
+customColumns:
+
+  # Name of the custom property in release cycles (mandatory).
+  # If the release cycle does not declare this property, the label 'N/A' will be displayed instead.
+  # Custom properties follows the camel-case syntax for naming.
+  - property: supportedIosVersions
+
+    # Position of the custom column in the table (mandatory).
+    # Allowed values are:
+    # - after-release-column: this is typically used for documenting related runtime versions
+    #   (such as the supported iOS version range for iphone models),
+    # - before-latest-column: this is typically used for documenting additional dates
+    #   (such as an obsolescence date for an iphone model - https://support.apple.com/en-us/HT201624),
+    # - after-latest-column: this is typically used for documenting a corresponding latest version
+    #   number (such as the OpenJDK version for https://endoflife.date/azul-zulu).
+    # If multiple columns have the same position, the order of the column in the customColumns list
+    # will be respected.
+    position: after-release-column
+
+    # Label of the custom column (mandatory).
+    # It will be displayed in the table header.
+    label: iOS
+
+    # A description of what contains the custom column (optional).
+    # It will be displayed as a tooltip of the column table header cell.
+    description: Supported iOS versions
+
+    # A link that gives more information about what contains the custom column (optional).
+    # It will be used to transform the table label to a link.
+    link: https://en.wikipedia.org/wiki/IPhone#Models
 
 # Auto-update release configuration (optional).
 # This is used for automatically updating `releaseDate`, `latest`, and `latestReleaseDate` for every release.
 # Multiple configurations are allowed.
 # Please visit https://github.com/endoflife-date/endoflife.date/wiki/Automation for more details.
-# The presence of such configuration enables a footer note on the product page
-# informing users that the latest releases are automatically updated.
+# The presence of such configuration modifies the product page so that users are informed that existing
+# releases are automatically updated with latest versions.
 auto:
+  # Mark auto-update as being cumulative (optional, default = false).
+  # This means that the data won't be deleted before fetching new data.
+  # Activating cumulative updates is not recommended for most products, but could be useful for products that:
+  # - have a long history of releases that is long to fetch,
+  # - have a history of releases that is not available anymore.
+  cumulative: true
+  methods:
+    # Configuration for auto-update based on git.
+    # Any valid git clone URL will work, but support for partialClone is necessary
+    # (GitHub and GitLab support it).
+    # For example, for Apache Maven:
+    - git: https://github.com/apache/maven.git
 
-  # Configuration for auto-update based on git.
-  # Any valid git clone URL will work, but support for partialClone is necessary
-  # (GitHub and GitLab support it).
-  # For example, for Apache Maven:
-  - git: https://github.com/apache/maven.git
+      # Python-compatible regex that defines how the tags above should translate to versions (optional).
+      # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
+      # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
+      # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
+      # skip over any special releases (such as nightly,beta,pre,rc...).
+      regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
 
-    # Ruby-compatible regex that defines how the tags above should translate to releases
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
-    # Use named capturing groups to capture the version or version's parts.
-    # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
-    # skip over any special releases (such as nightly,beta,pre,rc...).
-    regex: ^v(?<major>0|[1-9]\d*)_(?<minor>0|[1-9]\d*)_(?<patch>\d{1,3})_?(?<tiny>\d+)?$
+      # Python-compatible regex that defines which tags should be excluded (optional).
+      regex_exclude: ^v99.99.99$
 
-    # A liquid template using the captured variables from the regex above that renders the final version
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/update.rb#L19-L20 ).
-    # You can use liquid templating here.
-    template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
+      # A liquid template using the captured variables from the regex above that renders the final version
+      # (optional, default can handle versions having a 'major', 'minor', 'patch' and 'tiny' version).
+      # You can use liquid templating here.
+      template: '{{major}}.{{minor}}.{{patch}}{%if tiny %}p{{tiny}}{%endif%}'
 
-  # Configuration for auto-update based on Docker Hub.
-  # The value must be the "owner/repo" combination for a docker hub public image.
-  # Use "library" as the owner name for an official docker/community image.
-  # For example, for PostgreSQL:
-  - dockerhub: library/postgres
+    # Configuration for auto-update based on Docker Hub.
+    # The value must be the "owner/repo" combination for a docker hub public image.
+    # Use "library" as the owner name for an official docker/community image.
+    # For example, for PostgreSQL:
+    - docker_hub: library/postgres
 
-  # Configuration for auto-update based on the npm registry.
-  # The value must be the package identifier on https://www.npmjs.com .
-  # For example, for Vue:
-  - npm: vue
+    # Configuration for auto-update based on the npm registry.
+    # The value must be the package identifier on https://www.npmjs.com .
+    # For example, for Vue:
+    - npm: vue
 
-  # Configuration for auto-update based on DistroWatch.
-  # The value must be the distribution ID. It can be found in the distribution URL.
-  # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
-  - distrowatch: debian
+    # Configuration for auto-update based on DistroWatch.
+    # The value must be the distribution ID. It can be found in the distribution URL.
+    # For example, for https://distrowatch.com/index.php?distribution=debian , use "debian".
+    - distrowatch: debian
 
-    # The Python-compatible regex used to parse headlines (mandatory).
-    # Use named capturing groups to capture the version or version's parts.
-    # You can also pass a list of regexes here and matches for any of those will be considered.
-    regex: 'Distribution Release: (?P<version>\d+.\d+)'
+      # The Python-compatible regex used to parse headlines (mandatory).
+      # Use named capturing groups to capture the version or version's parts.
+      # You can also pass a list of regexes here and matches for any of those will be considered.
+      regex: 'Distribution Release: (?P<version>\d+.\d+)'
 
-    # A liquid template using the captured variables from the regex above that renders the final version
-    # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
-    # You can use liquid templating here.
-    template: '{{version}}'
+      # A liquid template using the captured variables from the regex above that renders the final version
+      # (optional, default can be found on https://github.com/endoflife-date/release-data/blob/main/src/distrowatch.py#L13 ).
+      # You can use liquid templating here.
+      template: '{{version}}'
 
-  # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
-  # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
-  # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
-  - maven: org.apache.tomcat/tomcat
+    # Configuration for auto-update based on Maven Central ( https://search.maven.org ).
+    # The value must be the maven coordinates of the artifact, in the form groupId/artifactId.
+    # For example, for Apache Tomcat ( https://search.maven.org/artifact/org.apache.tomcat/tomcat ):
+    - maven: org.apache.tomcat/tomcat
 
-  # Configuration for auto-update based on a custom script in the release-data repository.
-  # The value must always be `true`.
-  - custom: true
+    # Configuration for auto-update based on a custom script in the release-data repository.
+    # The value must be the script name in the release-data repository, without it's '.py' extension.
+    - custom: script-name
 
 # A list of identifiers that can be used to detect this product as being used,
 # especially by SBOM tooling
+# Please see https://endoflife.date/help/identifiers-needed/ for more information
 identifiers:
   # Each identifier is a way of linking this product to various methods of installing it
 
@@ -276,32 +325,45 @@ releases:
     # Whether this is a "LTS" release (optional, default = false).
     # What LTS means may differ from product to product (see LTSLabel above).
     # Only provide for a release that will get much longer support than usual.
+    # Alternatively, this can be set to a date when the product is not labeled
+    # as LTS when it is released (ex. Angular) or when normal versions are
+    # promoted LTS after their release (ex. Jenkins).
     lts: true
 
-    # End of active support date (optional if activeSupportColumn is false, else mandatory).
-    # This is where bug fixes usually stop coming in.
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false if the date has not been decided yet.
-    support: 2018-01-31
+    # End Of Active Support date (mandatory if eoasColumn is true, else MUST NOT be set).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is the date where bug fixes stop coming in.
+    # - When a boolean is used, it must be set to true if the release cycle is not supported
+    #   anymore, and false otherwise.
+    eoas: 2018-01-31
 
-    # EOL date (mandatory).
-    # This is where all support stops (including security support).
-    # In case there is extended/commercial support available, pick the date that would apply to the
-    # majority of users (and use the extendedSupport field if necessary).
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false the date has not been decided yet.
+    # End Of Life date (mandatory).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is where all support stops, including security support.
+    #   Note that this date reflects what is true for the majority of users (you may use the
+    #   eoes field if possible/necessary).
+    # - When a boolean is used, it must be set to true if the release cycle is End Of Life,
+    #   and false otherwise.
     eol: 2019-01-01
 
-    # End of extended/commercial support date (optional if extendedSupportColumn is false, else mandatory).
-    # Note that extended/commercial support is different from Long-Term Support. Extended/commercial
-    # support must be used only when additional support is available after EOL, usually against payment.
-    # Use valid dates, and do not add quotes around dates.
-    # Alternatively, set to true|false if the date has not been decided yet.
-    extendedSupport: 2020-01-01
+    # End Of Extended/commercial Support date (optional if eoesColumn is true, else SHOULD NOT be set).
+    # This can be either a date (must be valid and not quoted), a boolean value (when
+    # the date is not known or has not been decided yet), or null.
+    # - When a date is used, this is where the extended support period stops.
+    # - When a boolean is used, it must be set to true if the extended support period is over,
+    #   and false otherwise.
+    # - When null is used, it means that there is no extended/commercial support for the given
+    #   release cycle.
+    eoes: 2020-01-01
 
-    # Whether this is a "discontinued" release (optional).
-    # Can be set to true/false.
-    # Only use if discontinuedColumn is set to true.
+    # Discontinuation date (mandatory if discontinuedColumn is true, else MUST NOT be set).
+    # This can be either a date (must be valid and not quoted) or a boolean value (when
+    # the date is not known or has not been decided yet).
+    # - When a date is used, this is the date where the release cycle is discontinued.
+    # - When a boolean is used, it must be set to true if the release cycle is discontinued,
+    #   and false otherwise.
     discontinued: true
 
     # Latest release for the release cycle (optional if releaseColumn is false, else mandatory).
@@ -402,6 +464,11 @@ docker run --rm \
 # Browse: http://127.0.0.1:4000/
 # CTRL+C to exit and kill the instance
 ```
+
+## 🆔 Adding Identifiers
+
+We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing
+identifiers.
 
 ## 📑 Suggested Reading
 

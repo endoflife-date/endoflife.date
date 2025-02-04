@@ -6,33 +6,64 @@ iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: 
-  https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: 
-  https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
-activeSupportColumn: false
 eolColumn: Supported
 
 identifiers:
 -   purl: pkg:pypi/ansible
+-   purl: pkg:deb/debian/ansible
+-   purl: pkg:apk/alpine/ansible
+-   purl: pkg:github/ansible/ansible
 -   repology: ansible
 
 auto:
--   pypi: ansible
+  methods:
+  -   pypi: ansible
 
 # ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 # For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
 releases:
+-   releaseCycle: "11"
+    ansibleCoreVersion: "2.18"
+    pythonVersionsControlNode: 3.11 - 3.13
+    pythonVersionsManagedNode: 3.8 - 3.13
+    powershellVersionsManagedNode: 5.1
+    releaseDate: 2024-11-19
+    eol: false
+    latest: "11.2.0"
+    latestReleaseDate: 2025-01-28
+
+-   releaseCycle: "10"
+    ansibleCoreVersion: "2.17"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 3.7 - 3.12
+    powershellVersionsManagedNode: 3 - 5.1
+    releaseDate: 2024-06-04
+    eol: false # EOL after 10.7
+    latest: "10.7.0"
+    latestReleaseDate: 2024-12-03
+
+-   releaseCycle: "9"
+    ansibleCoreVersion: "2.16"
+    pythonVersionsControlNode: 3.10 - 3.12
+    pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
+    powershellVersionsManagedNode: 3 - 5.1
+    releaseDate: 2023-11-21
+    eol: 2024-11-30 # EOL after 9.13
+    latest: "9.13.0"
+    latestReleaseDate: 2024-12-03
+
 -   releaseCycle: "8"
     ansibleCoreVersion: "2.15"
     pythonVersionsControlNode: 3.9 - 3.11
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-05-30
-    eol: false
-    latest: "8.5.0"
-    latestReleaseDate: 2023-10-11
+    eol: 2023-12-06
+    latest: "8.7.0"
+    latestReleaseDate: 2023-12-06
 
 -   releaseCycle: "7"
     ansibleCoreVersion: "2.14"

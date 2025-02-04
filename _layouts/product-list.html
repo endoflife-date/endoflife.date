@@ -14,7 +14,7 @@ layout: default
 
       <time datetime="{{ product.last_modified_at | date_to_xmlschema }}" class="fw-300">
         📅 Last updated on {{ product.last_modified_at | date_to_long_string }}
-        {%- if product.auto and product.auto.size != 0 %}
+        {%- if product.auto and product.auto.methods %}
         <span title="Latest releases on this product are automatically updated.">🤖</span>
         {%- endif %}
       </time>
