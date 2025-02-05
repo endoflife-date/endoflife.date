@@ -8,6 +8,7 @@ releasePolicyLink: https://redis.io/release/
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
 releaseDateColumn: true
+eoesColumn: Extended Support
 
 identifiers:
 -   purl: pkg:generic/redis
@@ -37,6 +38,7 @@ releases:
     eol: false
     latest: '7.4.2'
     latestReleaseDate: 2025-01-06
+    eoes: 2026-11-30
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-08-15
@@ -44,6 +46,7 @@ releases:
     eol: false
     latest: '7.2.7'
     latestReleaseDate: 2025-01-06
+    eoes: 2026-02-28
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-04-27
@@ -58,6 +61,7 @@ releases:
     eol: false
     latest: '6.2.17'
     latestReleaseDate: 2025-01-06
+    eoes: 2025-02-28
 
 -   releaseCycle: "6.0"
     releaseDate: 2020-04-30
@@ -65,6 +69,7 @@ releases:
     eol: 2023-08-15
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
+    eoes: 2022-05-31
 
 -   releaseCycle: "5.0"
     releaseDate: 2018-10-17
