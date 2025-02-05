@@ -10,7 +10,6 @@ versionCommand: uname -r
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/kwzbvde1wh8snzux67avl21sg81vjsh.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
-releaseDateColumn: true
 
 # https://regex101.com/r/cuuOlQ/2
 auto:

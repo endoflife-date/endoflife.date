@@ -5,7 +5,6 @@ tags: zerto
 permalink: /zerto
 releasePolicyLink: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: General Support
 eolColumn: Critical Support
 

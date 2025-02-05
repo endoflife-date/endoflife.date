@@ -5,7 +5,6 @@ permalink: /cfengine
 versionCommand: cf-agent --version
 releasePolicyLink: https://cfengine.com
 changelogTemplate: https://docs.cfengine.com/docs/__RELEASE_CYCLE__/release-notes-whatsnew-changelog-core.html
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:

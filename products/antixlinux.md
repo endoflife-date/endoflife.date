@@ -11,7 +11,6 @@ releasePolicyLink:
   https://www.antixforum.com/forums/topic/when-is-end-of-support-for-stable-antix-versions-17-19/#post-26424
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

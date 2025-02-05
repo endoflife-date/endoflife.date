@@ -6,7 +6,6 @@ iconSlug: harbor
 permalink: /harbor
 releasePolicyLink: https://github.com/goharbor/harbor/blob/main/RELEASES.md
 changelogTemplate: https://github.com/goharbor/harbor/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

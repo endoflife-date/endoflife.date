@@ -8,7 +8,6 @@ versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
 releaseColumn: false
-releaseDateColumn: true
 activeSupportColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates

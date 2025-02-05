@@ -7,7 +7,6 @@ permalink: /opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
 changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:opnsense:opnsense

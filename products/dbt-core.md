@@ -8,7 +8,6 @@ alternate_urls:
 -   /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
 changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Critical Support
 

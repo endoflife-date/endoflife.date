@@ -7,7 +7,6 @@ permalink: /shopware
 versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoesColumn: Commercial support
 

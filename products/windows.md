@@ -6,7 +6,6 @@ permalink: /windows
 versionCommand: winver
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Windows
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 identifiers:

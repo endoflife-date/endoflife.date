@@ -9,7 +9,6 @@ versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
 changelogTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
 eoasColumn: true
-releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/neos/neos.git

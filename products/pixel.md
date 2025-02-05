@@ -7,7 +7,6 @@ permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
 releaseColumn: false
-releaseDateColumn: true
 discontinuedColumn: true
 eoasColumn: Android Updates
 eolColumn: Security Updates

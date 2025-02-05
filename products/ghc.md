@@ -11,7 +11,6 @@ changelogTemplate: https://downloads.haskell.org/ghc/__LATEST__/docs/users_guide
 
 eoasColumn: Further releases planned
 eolColumn: Recommended for use
-releaseDateColumn: true
 
 identifiers:
 -   repology: ghc

@@ -8,7 +8,6 @@ alternate_urls:
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Maintenance Support
 

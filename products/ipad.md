@@ -7,7 +7,6 @@ permalink: /ipad
 releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPad_models#iPad
 discontinuedColumn: true
 eolColumn: Supported
-releaseDateColumn: true
 releaseColumn: false
 
 # Links send to the Technical Specifications of each model.

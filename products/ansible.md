@@ -8,7 +8,6 @@ permalink: /ansible
 versionCommand: ansible-community --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:

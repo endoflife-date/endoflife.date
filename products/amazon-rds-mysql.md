@@ -5,7 +5,6 @@ tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
-releaseDateColumn: true
 eoesColumn: Extended Support
 
 auto:

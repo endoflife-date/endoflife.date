@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cockroach version
 releasePolicyLink: https://www.cockroachlabs.com/docs/releases/release-support-policy
 changelogTemplate: https://www.cockroachlabs.com/docs/releases/v__RELEASE_CYCLE__
-releaseDateColumn: true
 eoasColumn: Maintenance Support
 eolColumn: Assistance Support
 

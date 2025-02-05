@@ -4,7 +4,6 @@ category: framework
 tags: javascript-runtime
 permalink: /jquery-ui
 changelogTemplate: https://github.com/jquery/jquery-ui/releases/tag/__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:github/jquery/jquery-ui

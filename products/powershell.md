@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: pwsh -v
 releasePolicyLink: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle
 changelogTemplate: https://github.com/PowerShell/PowerShell/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:

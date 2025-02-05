@@ -6,7 +6,6 @@ iconSlug: react
 permalink: /react
 releasePolicyLink: https://react.dev/community/versioning-policy
 changelogTemplate: https://github.com/facebook/react/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

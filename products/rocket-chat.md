@@ -8,7 +8,6 @@ alternate_urls:
 -   /rocketchat
 releasePolicyLink: https://docs.rocket.chat/docs/support-prerequisites
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Support
 

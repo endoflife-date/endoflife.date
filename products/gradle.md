@@ -8,7 +8,6 @@ versionCommand: gradle --version
 releasePolicyLink: https://docs.gradle.org/current/userguide/feature_lifecycle.html#eol_support
 changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Critical Bug and Security Fixes
 
 identifiers:

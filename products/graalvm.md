@@ -8,7 +8,6 @@ changelogTemplate: "https://www.graalvm.org/release-notes/{{'__RELEASE_CYCLE__'|
 LTSLabel: "<abbr title='Annual Release'>AR</abbr>"
 eolColumn: Maintenance
 eoesColumn: Oracle GraalVM
-releaseDateColumn: true
 
 identifiers:
 -   repology: graalvm

@@ -7,7 +7,6 @@ alternate_urls:
 -   /unity3d
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
-releaseDateColumn: true
 
 # Disabled because there are anti-bot protection measures on https://unity.com/.
 #auto:

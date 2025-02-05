@@ -7,7 +7,6 @@ permalink: /netbsd
 versionCommand: uname -r
 releasePolicyLink: https://www.netbsd.org/releases/
 changelogTemplate: https://www.netbsd.org/releases/formal-__RELEASE_CYCLE__/NetBSD-__LATEST__.html
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

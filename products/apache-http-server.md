@@ -13,7 +13,6 @@ versionCommand: |-
 
   # or for Debian-based systems
   apachectl -v
-releaseDateColumn: true
 
 identifiers:
 -   repology: apache

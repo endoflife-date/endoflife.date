@@ -7,7 +7,6 @@ alternate_urls:
 -   /msoffice
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Office
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

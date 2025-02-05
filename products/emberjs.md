@@ -8,7 +8,6 @@ alternate_urls:
 -   /ember
 releasePolicyLink: https://emberjs.com/releases/
 changelogTemplate: https://github.com/emberjs/ember.js/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

@@ -10,7 +10,6 @@ releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
 changelogTemplate: |
   https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eolColumn: Support Status
 
 auto:

@@ -7,7 +7,6 @@ permalink: /google-nexus
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/11227897
 releaseColumn: false
-releaseDateColumn: true
 discontinuedColumn: true
 eoasColumn: Android updates
 eolColumn: Security Updates

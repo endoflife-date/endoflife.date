@@ -5,7 +5,6 @@ iconSlug: jfrog
 permalink: /artifactory
 changelogTemplate: https://jfrog.com/help/r/jfrog-release-information/artifactory-__RELEASE_CYCLE__
 releasePolicyLink: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

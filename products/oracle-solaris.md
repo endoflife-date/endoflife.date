@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/release
 releasePolicyLink: https://www.oracle.com/support/lifetime-support/
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Premier Support
 eoesColumn: Extended Support
 

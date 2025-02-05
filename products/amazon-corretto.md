@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
 changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:amazon:corretto

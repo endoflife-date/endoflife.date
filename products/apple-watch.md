@@ -7,7 +7,6 @@ permalink: /apple-watch
 releasePolicyLink: https://support.apple.com/watch
 discontinuedColumn: true
 eolColumn: Supported
-releaseDateColumn: true
 releaseColumn: false
 
 # Links send to the Technical Specifications of each model.

@@ -8,7 +8,6 @@ releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
-releaseDateColumn: true
 
 auto:
   methods:

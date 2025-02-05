@@ -7,7 +7,6 @@ permalink: /meilisearch
 versionCommand: meilisearch --version
 releasePolicyLink: https://www.meilisearch.com/docs/learn/update_and_migration/versioning
 changelogTemplate: https://github.com/meilisearch/meilisearch/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: meilisearch
