@@ -8,6 +8,7 @@ versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://centos.org/stream9/
 eoasColumn: true
 releaseDateColumn: true
+releaseColumn: false
 
 identifiers:
 -   cpe: cpe:/o:centos:stream
@@ -18,21 +19,18 @@ releases:
     releaseDate: 2024-12-12
     eoas: 2030-01-01
     eol: 2030-01-01
-    latest: "10"
     link: https://blog.centos.org/2024/12/introducing-centos-stream-10/
 
 -   releaseCycle: "9"
     releaseDate: 2021-09-15
     eoas: 2027-05-31
     eol: 2027-05-31
-    latest: "9"
     link: https://blog.centos.org/2021/12/introducing-centos-stream-9/
 
 -   releaseCycle: "8"
     releaseDate: 2019-09-24
     eoas: 2024-05-31
     eol: 2024-05-31
-    latest: "8"
     link: http://web.archive.org/web/20230417021744/https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
 
 ---
