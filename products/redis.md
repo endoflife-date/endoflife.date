@@ -54,6 +54,7 @@ releases:
     eol: 2024-07-29
     latest: '7.0.15'
     latestReleaseDate: 2024-01-09
+    eoes: null
 
 -   releaseCycle: "6.2"
     releaseDate: 2021-02-22
@@ -77,7 +78,7 @@ releases:
     eol: 2022-04-27
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
-
+    eoes: null
 ---
 
 > [Redis](https://redis.io/) is an in-memory data structure store, used
