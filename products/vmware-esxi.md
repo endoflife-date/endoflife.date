@@ -14,6 +14,10 @@ releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
 releaseDateColumn: true
 eolColumn: General Support
 
+identifiers:
+-   cpe: cpe:2.3:o:vmware:esxi
+-   cpe:  cpe:/o:vmware:esxi
+
 releases:
 -   releaseCycle: "8.0"
     releaseDate: 2022-10-11

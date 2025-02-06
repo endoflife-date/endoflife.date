@@ -10,6 +10,9 @@ auto:
   methods:
   -   git: https://github.com/PrivateBin/PrivateBin.git
 
+identifiers:
+-   repology: privatebin
+
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.7"

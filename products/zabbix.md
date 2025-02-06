@@ -14,6 +14,8 @@ identifiers:
 -   repology: zabbix
 -   purl: pkg:brew/zabbix
 -   purl: pkg:github/zabbix/zabbix
+-   cpe: cpe:2.3:a:zabbix:zabbix
+-   cpe: cpe:/a:zabbix:zabbix
 
 auto:
   methods:

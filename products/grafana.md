@@ -9,6 +9,7 @@ releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
+-   repology: grafana
 -   purl: pkg:github/grafana/grafana
 -   purl: pkg:golang/github.com/grafana/grafana
 

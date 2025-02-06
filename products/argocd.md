@@ -13,16 +13,16 @@ changelogTemplate: https://github.com/argoproj/argo-cd/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
-auto:
-  methods:
-  -   git: https://github.com/argoproj/argo-cd.git
-
 identifiers:
 -   repology: argocd
 -   purl: pkg:docker/argoproj/argocd
 -   purl: pkg:oci/argocd?repository_url=quay.io/argoproj
 -   purl: pkg:oci/argocd?repository_url=ghcr.io/argoproj
 -   purl: pkg:github/argoproj/argo-cd
+
+auto:
+  methods:
+  -   git: https://github.com/argoproj/argo-cd.git
 
 # eol(X) = releaseDate(X+3)
 releases:
