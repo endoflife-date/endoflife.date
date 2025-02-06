@@ -34,7 +34,7 @@ releases:
     latestReleaseDate: 2024-04-23
 
 -   releaseCycle: "39"
-    releaseDate: 2023-10-24
+    releaseDate: 2023-11-07
     eol: 2024-11-26
     latest: "39"
     latestReleaseDate: 2023-11-07
@@ -46,7 +46,7 @@ releases:
     latestReleaseDate: 2023-04-18
 
 -   releaseCycle: "37"
-    releaseDate: 2022-10-25
+    releaseDate: 2022-11-15
     eol: 2023-12-05
     latest: "37"
     latestReleaseDate: 2022-11-15
