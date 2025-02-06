@@ -8,6 +8,7 @@ releasePolicyLink: https://redis.io/release/
 changelogTemplate: https://raw.githubusercontent.com/redis/redis/__RELEASE_CYCLE__/00-RELEASENOTES
 eoasColumn: true
 releaseDateColumn: true
+eoesColumn: Extended Support
 
 identifiers:
 -   purl: pkg:generic/redis
@@ -33,6 +34,7 @@ auto:
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2024-07-29
+    eoes: 2026-11-30
     eoas: false
     eol: false
     latest: '7.4.2'
@@ -40,6 +42,7 @@ releases:
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-08-15
+    eoes: 2026-02-28
     eoas: 2024-07-29
     eol: false
     latest: '7.2.7'
@@ -47,6 +50,7 @@ releases:
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-04-27
+    eoes: false
     eoas: 2023-08-15
     eol: 2024-07-29
     latest: '7.0.15'
@@ -55,6 +59,7 @@ releases:
 -   releaseCycle: "6.2"
     releaseDate: 2021-02-22
     eoas: 2022-04-27
+    eoes: 2025-02-28
     eol: false
     latest: '6.2.17'
     latestReleaseDate: 2025-01-06
@@ -62,6 +67,7 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2020-04-30
     eoas: 2021-02-22
+    eoes: 2022-05-31
     eol: 2023-08-15
     latest: '6.0.20'
     latestReleaseDate: 2023-07-10
@@ -69,10 +75,10 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2018-10-17
     eoas: 2020-04-30
+    eoes: false
     eol: 2022-04-27
     latest: '5.0.14'
     latestReleaseDate: 2021-10-04
-
 ---
 
 > [Redis](https://redis.io/) is an in-memory data structure store, used
