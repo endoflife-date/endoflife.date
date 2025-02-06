@@ -8,6 +8,7 @@ versionCommand: cat /etc/redhat-release
 releasePolicyLink: https://centos.org/stream9/
 eoasColumn: true
 releaseDateColumn: true
+releaseColumn: false
 
 identifiers:
 -   cpe: cpe:/o:centos:stream
