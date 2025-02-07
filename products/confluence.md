@@ -27,7 +27,7 @@ releases:
     releaseDate: 2025-02-04
     eol: 2027-02-04
     latest: "9.3.1"
-    latestReleaseDate: 2025-02-03
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "9.2"
     lts: true
