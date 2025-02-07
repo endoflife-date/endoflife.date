@@ -20,92 +20,92 @@ releases:
 -   releaseCycle: "nodejs22.x"
     releaseLabel: Node.js 22
     releaseDate: 2024-11-22
-    eoas: false
-    eol: false
+    eoas: 2027-04-30
+    eol: 2027-07-01
     link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-nodejs-22/
 
 -   releaseCycle: "python3.13"
     releaseLabel: Python 3.13
     releaseDate: 2024-11-14
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2024/11/aws-lambda-support-python-313/
 
 -   releaseCycle: "ruby3.3"
     releaseLabel: Ruby 3.3
     releaseDate: 2024-04-04
-    eoas: false
-    eol: false
+    eoas: 2027-03-31
+    eol: 2027-05-31
     link: https://aws.amazon.com/about-aws/whats-new/2024/04/aws-lambda-ruby-3-3/
 
 -   releaseCycle: "dotnet8"
     releaseLabel: ".NET 8"
     releaseDate: 2024-02-22
-    eoas: false
-    eol: false
+    eoas: 2026-11-10
+    eol: 2027-01-11
     link: https://aws.amazon.com/blogs/compute/introducing-the-net-8-runtime-for-aws-lambda/
 
 -   releaseCycle: "python3.12"
     releaseLabel: Python 3.12
     releaseDate: 2023-12-14
-    eoas: false
-    eol: false
+    eoas: 2028-10-31
+    eol: 2029-01-10
     link: https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-support-python-3-12/
 
 -   releaseCycle: "java21"
     releaseLabel: Java 21
     releaseDate: 2023-11-17
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2023/11/aws-lambda-support-java-21/
 
 -   releaseCycle: "nodejs20.x"
     releaseLabel: Node.js 20
     releaseDate: 2023-11-15
-    eoas: false
-    eol: false
+    eoas: 2026-04-30
+    eol: 2026-07-01
     link: https://aws.amazon.com/blogs/compute/node-js-20-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "provided.al2023"
     releaseLabel: Custom Runtime (AL2023)
     releaseDate: 2023-11-10
-    eoas: false
-    eol: false
+    eoas: 2029-06-30
+    eol: 2029-08-31
     link: https://aws.amazon.com/blogs/compute/introducing-the-amazon-linux-2023-runtime-for-aws-lambda/
 
 -   releaseCycle: "python3.11"
     releaseLabel: Python 3.11
     releaseDate: 2023-07-27
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/blogs/compute/python-3-11-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "ruby3.2"
     releaseLabel: Ruby 3.2
     releaseDate: 2023-06-07
-    eoas: false
-    eol: false
+    eoas: 2026-03-31
+    eol: 2026-05-31
     link: https://aws.amazon.com/blogs/compute/ruby-3-2-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "java17"
     releaseLabel: Java 17
     releaseDate: 2023-04-27
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/blogs/compute/java-17-runtime-now-available-on-aws-lambda/
 
 -   releaseCycle: "python3.10"
     releaseLabel: Python 3.10
     releaseDate: 2023-04-18
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/blogs/compute/python-3-10-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "nodejs18.x"
     releaseLabel: Node.js 18
     releaseDate: 2022-11-18
-    eoas: 2025-07-31
-    eol: 2025-10-01
+    eoas: 2025-09-01
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/node-js-18-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet7"
@@ -119,28 +119,28 @@ releases:
     releaseLabel: Node.js 16
     releaseDate: 2022-05-12
     eoas: 2024-06-12
-    eol: 2025-03-31
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/node-js-16-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet6"
     releaseLabel: .NET 6
     releaseDate: 2022-02-24
     eoas: 2024-12-20
-    eol: 2025-03-31
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
 
 -   releaseCycle: "python3.9"
     releaseLabel: Python 3.9
     releaseDate: 2021-08-16
-    eoas: false
-    eol: false
+    eoas: 2025-11-03
+    eol: 2026-01-08
     link: https://aws.amazon.com/blogs/compute/python-3-9-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "nodejs14.x"
     releaseLabel: Node.js 14
     releaseDate: 2021-02-03
     eoas: 2023-12-04
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnet5.0"
@@ -153,15 +153,15 @@ releases:
 -   releaseCycle: "java8.al2"
     releaseLabel: Java 8 (AL2)
     releaseDate: 2020-08-12
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2020/08/aws-lambda-supports-java-8/
 
 -   releaseCycle: "provided.al2"
     releaseLabel: Custom Runtime (AL2)
     releaseDate: 2020-08-12
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/about-aws/whats-new/2020/08/aws-lambda-supports-custom-runtimes-amazon-linux-2/
 
 -   releaseCycle: "dotnetcore3.1"
@@ -175,7 +175,7 @@ releases:
     releaseLabel: Ruby 2.7
     releaseDate: 2020-02-19
     eoas: 2023-12-07
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/about-aws/whats-new/2020/02/aws-lambda-supports-ruby-2-7/
 
 -   releaseCycle: "nodejs12.x"
@@ -189,14 +189,14 @@ releases:
     releaseLabel: Python 3.8
     releaseDate: 2019-11-18
     eoas: 2024-10-14
-    eol: 2025-03-31
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/python-3-8-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "java11"
     releaseLabel: Java 11
     releaseDate: 2019-11-18
-    eoas: false
-    eol: false
+    eoas: 2026-06-30
+    eol: 2026-08-31
     link: https://aws.amazon.com/blogs/compute/java-11-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "nodejs10.x"
@@ -217,14 +217,14 @@ releases:
     releaseLabel: Custom Runtime (AL1)
     releaseDate: 2018-11-29
     eoas: 2024-01-08
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/about-aws/whats-new/2018/11/aws-lambda-now-supports-custom-runtimes-and-layers/
 
 -   releaseCycle: "python3.7"
     releaseLabel: Python 3.7
     releaseDate: 2018-11-19
     eoas: 2023-12-04
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/python-3-7-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "dotnetcore2.1"
@@ -252,7 +252,7 @@ releases:
     releaseLabel: Go 1.x
     releaseDate: 2018-01-15
     eoas: 2024-01-08
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/blogs/compute/announcing-go-support-for-aws-lambda/
 
 -   releaseCycle: "nodejs4.3-edge"
@@ -301,7 +301,7 @@ releases:
     releaseLabel: Java 8 (AL1)
     releaseDate: 2015-06-15
     eoas: 2024-01-08
-    eol: 2025-02-28
+    eol: 2025-11-01
     link: https://aws.amazon.com/about-aws/whats-new/2015/06/aws-lambda-supports-java/
 
 -   releaseCycle: "nodejs"
