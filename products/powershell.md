@@ -71,7 +71,7 @@ releases:
     latestReleaseDate: 2022-10-20
 
 -   releaseCycle: "6.2"
-    releaseDate: 2019-03-28
+    releaseDate: 2019-03-29
     eol: 2020-09-04
     latest: "6.2.7"
     latestReleaseDate: 2020-07-16

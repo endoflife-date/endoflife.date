@@ -37,22 +37,22 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: false # releaseDate(5.1.0)
-    latest: "4.0.16"
-    latestReleaseDate: 2025-02-03
+    latest: "4.0.17"
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
     eol: 2024-09-05 # releaseDate(5.0)
-    latest: "3.11.18"
+    latest: "3.11.19"
     discontinued: true
-    latestReleaseDate: 2025-02-03
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: 2024-09-05
-    latest: "3.0.31"
+    latest: "3.0.32"
     discontinued: true
-    latestReleaseDate: 2025-02-03
+    latestReleaseDate: 2025-02-07
 
 ---
 
