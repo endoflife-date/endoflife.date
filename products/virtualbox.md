@@ -75,7 +75,6 @@ releases:
     
 -   releaseCycle: "4.1"
     releaseDate: 2011-07-19
-    lts: false
     eol: 2015-11-11
     latest: "4.1.44"
     latestReleaseDate: 2015-11-11
