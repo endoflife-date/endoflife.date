@@ -19,6 +19,7 @@ eolColumn: Support
 auto:
   methods:
   -   github_releases: kubernetes-sigs/node-feature-discovery
+      regex: '^v?(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 identifiers:
 -   purl: pkg:github/kubernetes-sigs/node-feature-discovery
