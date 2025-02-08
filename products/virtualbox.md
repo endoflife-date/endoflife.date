@@ -6,8 +6,8 @@ iconSlug: virtualbox
 permalink: /virtualbox
 alternate_urls:
 -   /vbox
--   /oraclevirtualbox
--   /oraclevmvirtualbox
+-   /oracle-virtualbox
+-   /oracle-vm-virtualbox
 versionCommand: virtualbox -h | head -n 1
 changelogTemplate: "https://www.virtualbox.org/wiki/Changelog-__RELEASE_CYCLE__"
 eolColumn: Maintenance support
