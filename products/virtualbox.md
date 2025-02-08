@@ -1,7 +1,7 @@
 ---
 title: VirtualBox
 category: app
-tags: app oracle
+tags: oracle
 iconSlug: virtualbox
 permalink: /virtualbox
 alternate_urls:
