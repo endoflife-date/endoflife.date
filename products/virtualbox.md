@@ -63,7 +63,6 @@ releases:
     
 -   releaseCycle: "4.3"
     releaseDate: 2013-10-15
-    lts: false
     eol: 2016-08-22
     latest: "4.3.40"
     latestReleaseDate: 2016-08-22
