@@ -81,7 +81,6 @@ releases:
 
 -   releaseCycle: "4.0"
     releaseDate: 2010-12-22
-    lts: false
     eol: 2015-11-11
     latest: "4.0.36"
     latestReleaseDate: 2015-11-11
