@@ -70,4 +70,4 @@ releases can also contain new features, and any release can include bug fixes.
 
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
-**Security Support**: It has been [suggested](https://github.com/reactjs/react.dev/issues/1745#issuecomment-857172083) that best effort will be made to address critical security vulnerabilities in previous affected major releases as well as for every minor release of the current major release, but this intent is not documented in the [project's versioning policy](https://react.dev/community/versioning-policy).
+**Security Support**: It has been [suggested](https://github.com/reactjs/react.dev/issues/1745#issuecomment-857172083) that best effort will be made to address critical security vulnerabilities in previous affected major releases as well as in every minor release of the current major release, but this intent is not documented in the [project's versioning policy](https://react.dev/community/versioning-policy).
