@@ -69,7 +69,6 @@ releases:
     
 -   releaseCycle: "4.2"
     releaseDate: 2012-09-13
-    lts: false
     eol: 2015-11-11
     latest: "4.2.36"
     latestReleaseDate: 2015-11-11
