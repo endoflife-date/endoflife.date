@@ -45,7 +45,6 @@ releases:
     
 -   releaseCycle: "5.2"
     releaseDate: 2017-10-17
-    lts: false
     eol: 2020-07-14
     latest: "5.2.44"
     latestReleaseDate: 2020-07-14
