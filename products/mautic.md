@@ -28,7 +28,7 @@ auto:
           regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
           template: "{{day}} {{month}} {{year}}"
         eol:
-          column: 'Security Support Until*'
+          column: 'Security Support Until *'
           regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
           template: "{{day}} {{month}} {{year}}"
 
