@@ -33,7 +33,6 @@ releases:
     
 -   releaseCycle: "6.1"
     releaseDate: 2019-12-10
-    lts: false
     eol: 2024-01-16
     latest: "6.1.50"
     latestReleaseDate: 2024-01-16
