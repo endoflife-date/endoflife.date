@@ -57,7 +57,6 @@ releases:
     
 -   releaseCycle: "5.0"
     releaseDate: 2015-07-09
-    lts: false
     eol: 2017-04-28
     latest: "5.0.40"
     latestReleaseDate: 2017-04-28
