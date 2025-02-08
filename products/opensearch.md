@@ -33,7 +33,7 @@ auto:
 releases:
 -   releaseCycle: "2"
     releaseDate: 2022-05-26
-    eoas: false
+    eoas: 2025-04-29
     eol: false
     latest: "2.18.0"
     latestReleaseDate: 2024-10-28
@@ -41,7 +41,7 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2021-07-12
     eoas: 2022-05-26
-    eol: false # upcoming support(2) at least 1 year
+    eol: 2025-04-29 # upcoming support(2) at least 1 year
     latest: "1.3.20"
     latestReleaseDate: 2024-12-10
 
