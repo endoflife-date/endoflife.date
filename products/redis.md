@@ -27,6 +27,14 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/redis/redis.git
+  -   release_table: https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/
+      selector: "table"
+      ignore_empty_releases: true
+      fields:
+        releaseCycle:
+          column: "Version - Release date"
+          regex: '^(?P<value>\d+\.\d+).*'
+        eol: "End of Life (EOL)"
 
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
