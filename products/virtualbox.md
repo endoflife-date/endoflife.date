@@ -39,7 +39,6 @@ releases:
     
 -   releaseCycle: "6.0"
     releaseDate: 2018-12-18
-    lts: false
     eol: 2020-07-14
     latest: "6.0.24"
     latestReleaseDate: 2020-07-14
