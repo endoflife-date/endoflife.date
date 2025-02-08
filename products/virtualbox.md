@@ -100,6 +100,4 @@ releases:
 
 > [VirtualBox](https://www.virtualbox.org/) is a general-purpose full virtualization software.
 
-After the release of a new update cycle on VirtualBox, Oracle maintains support for one or more previous cycles until the new version is stabilized. Then, the user has the choice between a reliable product or one with the latest features.
-
-Once the product is sufficiently stabilized, Oracle generally discontinues support for the older versions of the product.
+VirtualBox release, support and EOL policies are not documented, but EOL dates for each minor version can be found on <https://www.virtualbox.org/wiki/Download_Old_Builds>.
