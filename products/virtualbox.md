@@ -19,7 +19,6 @@ identifiers:
 -   cpe: cpe:2.3:a:oracle:virtualbox
   
 releases:
-
 -   releaseCycle: "7.1"
     releaseDate: 2024-09-09
     lts: false
