@@ -17,9 +17,18 @@ auto:
       selector: "table"
       fields:
         releaseCycle: "Major Version"
-        releaseDate: "Initial Release"
-        eoas: "Maintenance Window Start"
-        eol: "Maintenance Window End"
+        releaseDate:
+          column: "Initial GA Release"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
+        eoas:
+          column: "Maintenance Window Start"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
+        eol:
+          column: "Maintenance Window End"
+          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+          template: "{{month}} {{day}} {{year}}"
 
 releases:
 -   releaseCycle: "2"
