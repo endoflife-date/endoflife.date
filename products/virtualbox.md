@@ -27,7 +27,6 @@ releases:
     
 -   releaseCycle: "7.0"
     releaseDate: 2022-10-10
-    lts: false
     eol: false
     latest: "7.0.20"
     latestReleaseDate: 2024-07-16
