@@ -66,7 +66,7 @@ release channel for user-facing applications is Latest. New features are release
 Patch releases are made only for the most critical bugs and security vulnerabilities. Major
 releases can also contain new features, and any release can include bug fixes.
 
-## [Support](https://github.com/reactjs/react.dev/issues/1745)
+## Support
 
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
