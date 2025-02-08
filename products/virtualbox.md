@@ -21,7 +21,6 @@ identifiers:
 releases:
 -   releaseCycle: "7.1"
     releaseDate: 2024-09-09
-    lts: false
     eol: false
     latest: "7.1.0"
     latestReleaseDate: 2024-09-09
