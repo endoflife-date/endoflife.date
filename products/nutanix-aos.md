@@ -17,8 +17,8 @@ auto:
 releases:
 -   releaseCycle: "7.0"
     releaseDate: 2024-12-04
-    eoas: false
-    eol: false
+    eoas: 2026-03-31
+    eol: 2026-12-31
     latest: "7.0.0.5"
     latestReleaseDate: 2025-01-20
 
