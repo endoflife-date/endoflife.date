@@ -9,7 +9,6 @@ alternate_urls:
 -   /pop_os
 versionCommand: lsb_release --release
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: General Support
 
 # Not needed (releaseColumn is false)

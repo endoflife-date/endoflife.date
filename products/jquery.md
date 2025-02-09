@@ -5,7 +5,6 @@ tags: javascript-runtime
 iconSlug: jquery
 permalink: /jquery
 changelogTemplate: https://github.com/jquery/jquery/releases/tag/__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:github/jquery/jquery

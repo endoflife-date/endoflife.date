@@ -6,7 +6,6 @@ iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm
 changelogTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Long Term Support
 

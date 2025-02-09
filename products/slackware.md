@@ -11,7 +11,6 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: http://www.slackware.com/faq/do_faq.php?faq=general#4
 changelogTemplate: http://www.slackware.com/announce/__RELEASE_CYCLE__.php
 releaseColumn: false
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:slackware:slackware_linux

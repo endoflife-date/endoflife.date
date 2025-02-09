@@ -11,7 +11,6 @@ versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:rocky:rocky

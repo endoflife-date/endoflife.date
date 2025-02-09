@@ -4,7 +4,6 @@ category: framework
 tags: php-runtime
 permalink: /twig
 changelogTemplate: https://github.com/twigphp/Twig/blob/__RELEASE_CYCLE__.x/CHANGELOG
-releaseDateColumn: true
 
 auto:
   methods:

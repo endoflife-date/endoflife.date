@@ -5,7 +5,6 @@ permalink: /libreoffice
 iconSlug: libreoffice
 releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
 changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:

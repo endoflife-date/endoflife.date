@@ -11,7 +11,6 @@ releasePolicyLink: https://learn.microsoft.com/virtualization/windowscontainers/
 releaseLabel: 'Windows Server Core __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
-releaseDateColumn: true
 
 releases:
 -   releaseCycle: "2025"

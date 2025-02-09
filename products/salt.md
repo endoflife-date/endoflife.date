@@ -11,7 +11,6 @@ releasePolicyLink: https://docs.saltproject.io/salt/install-guide/en/latest/topi
 changelogTemplate: https://docs.saltproject.io/en/__RELEASE_CYCLE__/topics/releases/__LATEST__.html
 eolColumn: CVE & Critical Support
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

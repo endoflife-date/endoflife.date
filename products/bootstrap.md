@@ -6,7 +6,6 @@ iconSlug: bootstrap
 permalink: /bootstrap
 releasePolicyLink: https://github.com/twbs/release
 changelogTemplate: https://github.com/twbs/bootstrap/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoesColumn: Commercial Support
 eolColumn: Critical Support

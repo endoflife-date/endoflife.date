@@ -7,7 +7,6 @@ alternate_urls:
 -   /getkirby
 changelogTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
-releaseDateColumn: true
 customColumns:
 -   property: supportedPhpVersions
     position: after-release-column

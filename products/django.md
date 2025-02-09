@@ -9,7 +9,6 @@ releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
 releaseImage: https://static.djangoproject.com/img/release-roadmap.fdaa7bc5861f.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 customColumns:
 -   property: supportedPythonVersions
     position: after-release-column

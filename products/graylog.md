@@ -13,7 +13,6 @@ versionCommand: |-
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
 changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: graylog

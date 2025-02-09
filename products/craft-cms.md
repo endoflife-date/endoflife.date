@@ -11,7 +11,6 @@ versionCommand: composer show craftcms/cms |grep versions
 releasePolicyLink: https://craftcms.com/knowledge-base/supported-versions
 changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

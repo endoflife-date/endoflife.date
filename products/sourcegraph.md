@@ -5,7 +5,6 @@ tags: java-runtime
 permalink: /sourcegraph
 releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/
 changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

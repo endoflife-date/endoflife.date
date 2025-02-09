@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: groovy --version
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 

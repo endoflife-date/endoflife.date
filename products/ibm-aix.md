@@ -10,7 +10,6 @@ versionCommand: oslevel -s
 releasePolicyLink: https://www.ibm.com/support/pages/aix-support-lifecycle-information
 releaseLabel: "{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}} TL{{'__RELEASE_CYCLE__'|split:'.'|last}}"
 changelogTemplate: "https://www.ibm.com/docs/aix/{{'__RELEASE_CYCLE__'|split:'.'|pop|join:'.'}}?topic=notes-aix-{{'__RELEASE_CYCLE__'|replace:'.',''}}-release"
-releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 
 identifiers:

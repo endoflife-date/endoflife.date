@@ -7,7 +7,6 @@ permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
-releaseDateColumn: true
 eoasColumn: true
 eoasWarnThreshold: 20
 eolColumn: Maintenance Support

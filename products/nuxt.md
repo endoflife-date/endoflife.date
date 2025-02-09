@@ -8,7 +8,6 @@ releasePolicyLink: https://nuxt.com/docs/community/roadmap
 changelogTemplate: https://github.com/nuxt/nuxt/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial Support
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:nuxt:framework

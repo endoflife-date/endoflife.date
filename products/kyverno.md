@@ -6,7 +6,6 @@ permalink: /kyverno
 versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 customColumns:
 -   property: supportedK8sVersions

@@ -11,7 +11,6 @@ versionCommand: psql -c "SELECT version();"
 releasePolicyLink: https://www.postgresql.org/support/versioning/
 changelogTemplate: https://www.postgresql.org/docs/release/__LATEST__/
 eolColumn: Support Status
-releaseDateColumn: true
 
 auto:
   methods:

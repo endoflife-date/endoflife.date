@@ -5,7 +5,6 @@ iconSlug: amazonaws
 tags: amazon
 permalink: /amazon-cdk
 changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: aws-cdk

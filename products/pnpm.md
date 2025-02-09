@@ -7,7 +7,6 @@ permalink: /pnpm
 versionCommand: pnpm --version
 releasePolicyLink: https://github.com/pnpm/pnpm/security/policy
 changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

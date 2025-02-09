@@ -7,7 +7,6 @@ versionCommand: blender --version
 releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/release_cycle/
 releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Critical bug fixes
 

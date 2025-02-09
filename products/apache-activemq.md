@@ -10,7 +10,6 @@ releasePolicyLink: https://activemq.apache.org/support.html
 changelogTemplate: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release"
 # https://activemq.apache.org/activemq-command-line-tools-reference.html
 versionCommand: activemq --version
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

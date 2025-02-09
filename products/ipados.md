@@ -5,7 +5,6 @@ tags: apple
 iconSlug: apple
 permalink: /ipados
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
-releaseDateColumn: true
 eoasColumn: true
 
 auto:

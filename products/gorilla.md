@@ -4,7 +4,6 @@ category: framework
 iconSlug: go
 permalink: /gorilla
 releasePolicyLink: https://github.com/gorilla/
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

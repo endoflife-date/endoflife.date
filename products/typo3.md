@@ -6,7 +6,6 @@ iconSlug: typo3
 permalink: /typo3
 releasePolicyLink: https://get.typo3.org/
 changelogTemplate: https://get.typo3.org/release-notes/__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoesColumn: Extended Long Term Support
 

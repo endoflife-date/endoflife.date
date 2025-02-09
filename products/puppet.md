@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: puppet --version
 releasePolicyLink: https://www.puppet.com/docs/puppet/8/platform_lifecycle.html
 changelogTemplate: https://www.puppet.com/docs/puppet/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:

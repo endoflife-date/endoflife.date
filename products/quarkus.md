@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://quarkus.io/security/
 # See https://github.com/endoflife-date/endoflife.date/issues/3462
 changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 

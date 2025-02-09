@@ -18,7 +18,7 @@ plugins:
   - jemoji
 
 # This part is to silent sass deprecating warnings
-# remove after they fix it 
+# remove after they fix it
 # https://github.com/just-the-docs/just-the-docs/pull/1548
 # and https://github.com/jekyll/jekyll/issues/9686
 sass:
@@ -92,7 +92,7 @@ defaults:
       auto: []
       releaseColumn: true
       releaseColumnLabel: 'Latest'
-      releaseDateColumn: false
+      releaseDateColumn: true
       releaseDateColumnLabel: 'Released'
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'

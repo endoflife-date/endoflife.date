@@ -11,7 +11,6 @@ alternate_urls:
 versionCommand: $JBOSS_HOME/bin/standalone.sh --version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/jboss_notes
 changelogTemplate: "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}"
-releaseDateColumn: true
 eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Life Support 1

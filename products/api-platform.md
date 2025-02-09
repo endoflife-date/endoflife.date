@@ -6,7 +6,6 @@ permalink: /api-platform
 versionCommand: composer show api-platform/core | grep versions
 releasePolicyLink: https://api-platform.com/docs/extra/releases/
 changelogTemplate: https://github.com/api-platform/core/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 auto:

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Commercial Support
 changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
 

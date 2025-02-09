@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 changelogTemplate: https://confluence.atlassian.com/display/DOC/Confluence+__RELEASE_CYCLE__+Release+Notes
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:atlassian:confluence

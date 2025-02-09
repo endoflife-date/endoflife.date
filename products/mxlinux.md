@@ -12,7 +12,6 @@ versionCommand: cat /etc/lsb-release
 releasePolicyLink: https://mxlinux.org/release-cycle/
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

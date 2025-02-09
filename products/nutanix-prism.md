@@ -11,7 +11,6 @@ alternate_urls:
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

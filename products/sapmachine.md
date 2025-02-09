@@ -6,7 +6,6 @@ iconSlug: openjdk
 permalink: /sapmachine
 versionCommand: java -version
 releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
-releaseDateColumn: true
 
 auto:
   methods:

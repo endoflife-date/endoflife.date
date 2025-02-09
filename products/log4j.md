@@ -9,7 +9,6 @@ alternate_urls:
 -   /apache-log4j
 releasePolicyLink: https://logging.apache.org/log4j/2.x/security.html
 changelogTemplate: https://logging.apache.org/log4j/2.0/release-notes.html#release-notes-{{'__LATEST__'|replace:'.','-'}}
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
