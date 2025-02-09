@@ -52,8 +52,8 @@ releases:
 
 -   releaseCycle: "6.5"
     releaseDate: 2022-07-25
-    eoas: false
-    eol: false
+    eoas: 2024-10-31
+    eol: 2025-06-30
     lts: true
     latest: "6.5.6.7"
     latestReleaseDate: 2024-12-12
