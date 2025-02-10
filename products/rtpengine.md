@@ -7,6 +7,7 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: rtpengine
+
 auto:
   methods:
     - git: https://github.com/sipwise/rtpengine.git
