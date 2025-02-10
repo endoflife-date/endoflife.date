@@ -22,14 +22,14 @@ releases:
   
 -   releaseCycle: "mr13.0"
     releaseDate: 2024-10-01
-    eol: true
+    eol: 2024-12-06
     link: https://www.sipwise.com/releases/2024/mr13.0
     latest: "mr13.0.1"  
 
 -   releaseCycle: "mr12.5"
     releaseDate: 2024-08-23
     lts: true
-    eol: false
+    eol: 2027-07-23
     link: https://www.sipwise.com/releases/2024/mr12.5
     latest: "mr12.5.1"
 
