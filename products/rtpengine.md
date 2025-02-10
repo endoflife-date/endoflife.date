@@ -17,26 +17,26 @@ releases:
 -   releaseCycle: "mr13.0"
     releaseDate: 2024-10-01
     eol: true
-    link: https://www.sipwise.com/wp-content/uploads/2024/11/Changelog_for_mr13.0.1_20241119.pdf
+    link: https://www.sipwise.com/releases/2024/mr13.0
     latest: "mr13.0.1"  
 
 -   releaseCycle: "mr12.5"
     releaseDate: 2024-08-23
     eol: false
-    link: https://www.sipwise.com/wp-content/uploads/2024/09/Changelog_for_mr12.5.1_20240920.pdf
+    link: https://www.sipwise.com/releases/2024/mr12.5
     latest: "mr12.5.1"
 
 -   releaseCycle: "mr11.5"
     releaseDate: 2023-09-22
     eol: false
-    link: https://www.sipwise.com/wp-content/uploads/2024/08/Changelog_for_mr11.5.1_20240801.pdf
+    link: https://www.sipwise.com/releases/2024/mr11.5
     latest: "mr11.5.1"
 
 -   releaseCycle: "mr10.5"
     releaseDate: 2022-07-08
     lts: true
     eol: false
-    link: https://www.sipwise.com/wp-content/uploads/2024/11/Changelog_for_mr10.5.8_20241118.pdf
+    link: https://www.sipwise.com/releases/2024/mr10.5
     latest: "mr10.5.8"
     latestReleaseDate: 2024-05-10
 
