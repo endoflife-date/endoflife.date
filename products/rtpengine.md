@@ -14,7 +14,6 @@ auto:
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
-
 -   releaseCycle: "mr13.0"
     releaseDate: 2024-10-01
     eol: true
