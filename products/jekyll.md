@@ -68,7 +68,7 @@ releases:
 Jekyll follows [Semantic Versioning](https://semver.org/). It does not have a fixed release policy,
 nor a clearly defined support policy. Nevertheless, limited bug fixes and security updates are
 always applied to [the version used by GitHub Pages](https://pages.github.com/versions/) (Currently
-`3.9.x`).
+`3.10.x`).
 
 ## [Ruby Compatibility](https://jekyllrb.com/docs/installation/)
 
