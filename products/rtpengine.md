@@ -10,7 +10,7 @@ identifiers:
 auto:
   methods:
     - git: https://github.com/sipwise/rtpengine.git
-      regex: ^mr(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
+      regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
 
