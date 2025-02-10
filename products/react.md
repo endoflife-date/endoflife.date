@@ -70,5 +70,5 @@ releases can also contain new features, and any release can include bug fixes.
 
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
-**Security Support**: Critical Security fixes are backported to all minor releases of the current
+**Security Support**: [Critical Security fixes are backported](https://react.dev/community/versioning-policy#stable-releases) to all minor releases of the current
 major, as well as to latest minor release of previous major releases.
