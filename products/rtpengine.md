@@ -16,7 +16,7 @@ auto:
 releases:
 -   releaseCycle: "mr13.1"
     releaseDate: 2024-12-06
-    eol: false
+    eol: 2025-02-14
     link: https://www.sipwise.com/releases/2024/mr13.1
     latest: "mr13.1.1"
   
@@ -36,14 +36,14 @@ releases:
 -   releaseCycle: "mr11.5"
     releaseDate: 2023-09-22
     lts: true
-    eol: false
+    eol: 2026-09-11
     link: https://www.sipwise.com/releases/2024/mr11.5
     latest: "mr11.5.1"
 
 -   releaseCycle: "mr10.5"
     releaseDate: 2022-07-08
     lts: true
-    eol: false
+    eol: 2025-09-05
     link: https://www.sipwise.com/releases/2024/mr10.5
     latest: "mr10.5.8"
     latestReleaseDate: 2024-05-10
