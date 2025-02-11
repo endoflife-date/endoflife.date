@@ -26,6 +26,13 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6.3"
+    releaseDate: 2025-02-11
+    eoas: false
+    eol: false
+    latest: "6.3.0"
+    latestReleaseDate: 2025-02-11
+
 -   releaseCycle: "6.2"
     releaseDate: 2024-10-08
     eoas: false
