@@ -12,8 +12,6 @@ releaseDateColumn: true
 
 identifiers:
 -   repology: elasticsearch
--   repology: python:elasticsearch
--   repology: ruby:elasticsearch
 -   purl: pkg:deb/debian/elasticsearch
 -   purl: pkg:deb/ubuntu/elasticsearch
 -   purl: pkg:rpm/amzn/elasticsearch
