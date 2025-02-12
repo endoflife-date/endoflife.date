@@ -52,10 +52,7 @@ Only the latest version in the current release cycle is supported. The 1.x and 2
 longer receive patches, although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
 serious security patches have been backported and that they would consider it again in the future.
 
-The jQuery team has indicated that they will be participating in the [OpenJS Foundation's
-Ecosystem Sustainability Program (ESP)](https://openjsf.org/ecosystem-sustainability-program)
-and have [announced that commercial support for 1.x and
-2.x branches are now available](https://jquery.com/support) from [HeroDevs](https://www.herodevs.com/support/jquery-nes).
+jQuery is part of the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP). Commercial support [is available for some EOL versions of jQuery](https://jquery.com/support/#commercial-support) through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/jquery-nes) initiative.
 
 ## [Browser Support](https://jquery.com/browser-support/)
 
