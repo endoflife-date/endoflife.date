@@ -13,6 +13,7 @@ eolColumn: Active Maintenance
 identifiers:
 -   cpe: cpe:/a:jekyllrb:jekyll
 -   cpe: cpe:2.3:a:jekyllrb:jekyll
+-   repology: ruby:jekyll
 
 auto:
   methods:

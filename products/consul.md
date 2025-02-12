@@ -9,16 +9,18 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/hashicorp/consul.git
-
 identifiers:
 -   repology: consul
 -   purl: pkg:brew/consul
 -   purl: pkg:docker/library/consul
 -   purl: pkg:github/hashicorp/consul
 -   purl: pkg:golang/github.com/hashicorp/consul
+-   cpe: cpe:2.3:a:hashicorp:consul
+-   cpe: cpe:/a:hashicorp:consul
+
+auto:
+  methods:
+  -   git: https://github.com/hashicorp/consul.git
 
 # eol(x) = releaseDate(x+3)
 releases:

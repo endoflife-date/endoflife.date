@@ -14,6 +14,9 @@ releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
+-   repology: dotnet
+-   repology: dotnet-runtime
+-   repology: dotnet-sdk
 -   purl: pkg:nuget/Microsoft.NETCore.App
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x64
 -   purl: pkg:nuget/Microsoft.NETCore.App.Runtime.win-x86
@@ -37,6 +40,8 @@ identifiers:
 -   purl: pkg:rpm/redhat/dotnet-sdk-3.1
 -   purl: pkg:rpm/redhat/dotnet-sdk-3.0
 -   purl: pkg:rpm/redhat/dotnet-sdk-2.1
+-   cpe: cpe:2.3:a:microsoft:.net
+-   cpe: cpe:/a:microsoft:.net
 
 auto:
   methods:

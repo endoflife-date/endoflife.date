@@ -11,6 +11,7 @@ releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:docker/gerritcodereview/gerrit
+-   repology: gerrit
 
 auto:
   methods:

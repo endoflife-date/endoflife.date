@@ -12,6 +12,9 @@ eoasColumn: true
 identifiers:
 -   purl: pkg:deb/ubuntu/php
 -   purl: pkg:deb/debian/php
+-   repology: php
+-   cpe: cpe:2.3:a:php:php
+-   cpe: cpe:/a:php:php
 
 auto:
   methods:

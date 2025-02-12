@@ -12,6 +12,7 @@ eoasWarnThreshold: 60
 eolWarnThreshold: 90
 
 identifiers:
+-   repology: coder
 -   purl: pkg:github/coder/coder
 -   purl: pkg:generic/coder
 
@@ -118,6 +119,6 @@ releases:
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
 > clouds and servers.
 
-There is a new minor release of Coder on the first Tuesday of each month. Minor releases are  
-supported for three months with bug and security fixes the first month, major bug and security  
+There is a new minor release of Coder on the first Tuesday of each month. Minor releases are
+supported for three months with bug and security fixes the first month, major bug and security
 fixes the second month and only security fixes the third month.

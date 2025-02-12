@@ -14,6 +14,7 @@ releaseDateColumn: true
 identifiers:
 -   cpe: cpe:/a:atlassian:confluence
 -   cpe: cpe:2.3:a:atlassian:confluence
+-   repology: atlassian-confluence
 
 auto:
   methods:

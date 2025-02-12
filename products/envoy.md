@@ -25,6 +25,8 @@ identifiers:
 -   purl: pkg:golang/github.com/envoyproxy/envoy
 -   purl: pkg:oci/envoy?repository_url=cgr.dev/chainguard
 -   purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
+-   cpe: cpe:2.3:a:envoyproxy:envoy
+-   cpe: cpe:/a:envoyproxy:envoy
 
 auto:
   methods:

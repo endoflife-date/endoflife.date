@@ -13,12 +13,12 @@ versionCommand: go version
 releaseDateColumn: true
 
 identifiers:
+-   repology: go
 -   purl: pkg:generic/go
 -   purl: pkg:docker/library/golang
 -   purl: pkg:docker/circleci/golang
 -   purl: pkg:docker/cimg/go
 -   purl: pkg:docker/bitnami/golang
--   repology: go
 
 auto:
   methods:

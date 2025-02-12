@@ -14,6 +14,10 @@ releaseLabel: "{{'__RELEASE_CYCLE__' | split:'-' | last}}"
 releaseDateColumn: true
 eolColumn: Support Status
 
+identifiers:
+-   cpe: cpe:2.3:o:google:container-optimized_os
+-   cpe: cpe:/o:google:container-optimized_os
+
 auto:
   methods:
   -   custom: cos

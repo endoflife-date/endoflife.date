@@ -15,6 +15,7 @@ eolWarnThreshold: 121
 
 identifiers:
 -   purl: pkg:docker/rancher/rancher
+-   repology: rancher
 
 auto:
   methods:

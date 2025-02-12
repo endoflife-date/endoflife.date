@@ -13,7 +13,7 @@ eoasColumn: true
 releaseDateColumn: true
 
 identifiers:
--   repology: chef-infra-server
+-   repology: chef-server
 -   cpe: cpe:2.3:a:progress:chef_infra_server
 
 auto:

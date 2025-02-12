@@ -11,12 +11,12 @@ eolColumn: Support
 releaseDateColumn: true
 
 identifiers:
+-   repology: elasticsearch
 -   purl: pkg:deb/debian/elasticsearch
 -   purl: pkg:deb/ubuntu/elasticsearch
 -   purl: pkg:rpm/amzn/elasticsearch
 -   purl: pkg:rpm/redhat/elasticsearch
 -   purl: pkg:rpm/centos/elasticsearch
--   repology: elasticsearch
 
 auto:
   methods:
