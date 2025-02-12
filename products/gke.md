@@ -43,8 +43,8 @@ releases:
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-26
-    eoas: 2025-01-31
-    eol: 2025-03-21
+    eoas: 2025-02-28
+    eol: 2025-04-12
     latest: '1.29.13-gke.1169000'
     latestReleaseDate: 2025-02-11
 
