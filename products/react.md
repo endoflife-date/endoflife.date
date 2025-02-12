@@ -29,28 +29,28 @@ releases:
 -   releaseCycle: "18"
     releaseDate: 2022-03-29
     eoas: 2024-12-05
-    eol: 2024-12-05
+    eol: false
     latest: "18.3.1"
     latestReleaseDate: 2024-04-26
 
 -   releaseCycle: "17"
     releaseDate: 2020-10-20
     eoas: 2022-03-29
-    eol: 2022-03-29
+    eol: false
     latest: "17.0.2"
     latestReleaseDate: 2021-03-22
 
 -   releaseCycle: "16"
     releaseDate: 2017-09-26
     eoas: 2020-10-20
-    eol: 2020-10-20
+    eol: false
     latest: "16.14.0"
     latestReleaseDate: 2020-10-14
 
 -   releaseCycle: "15"
     releaseDate: 2016-04-07
     eoas: 2020-10-14
-    eol: 2020-10-14  # = the date of latestReleaseDate of current version if a major upgrade exist older than this date (instead of major releasedate )
+    eol: false
     latest: "15.7.0"
     latestReleaseDate: 2020-10-14
 
@@ -70,5 +70,5 @@ releases can also contain new features, and any release can include bug fixes.
 
 **Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
 
-**Security Support**: Critical Security fixes are backported to all minor releases of the current
+**Security Support**: [Critical Security fixes are backported](https://react.dev/community/versioning-policy#stable-releases) to all minor releases of the current
 major, as well as to latest minor release of previous major releases.
