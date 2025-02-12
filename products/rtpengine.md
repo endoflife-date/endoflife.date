@@ -14,7 +14,8 @@ auto:
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
--   releaseCycle: "mr13.1"
+-   releaseCycle: "13.1"
+    releaseLabel: "mr13.1"
     releaseDate: 2024-12-06
     eol: 2025-02-14
     link: https://www.sipwise.com/releases/2024/mr13.1
