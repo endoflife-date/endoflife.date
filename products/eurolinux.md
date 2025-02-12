@@ -22,14 +22,14 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-14
     eoas: 2032-05-31
-    eol: 2032-06-30
+    eol: 2024-10-23
     latest: "9.4"
     latestReleaseDate: 2024-05-10
 
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
     eoas: 2029-03-01
-    eol: 2029-06-30
+    eol: 2024-10-23
     latest: "8.10"
     latestReleaseDate: 2024-05-27
 
