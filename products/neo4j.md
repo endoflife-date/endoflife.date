@@ -51,6 +51,7 @@ releases:
     latest: "2025.01.0"
     latestReleaseDate: 2025-02-06
     link: https://neo4j.com/release-notes/database/neo4j-2025-01/
+
 -   releaseCycle: "5.26"
     releaseDate: 2024-12-06
     eol: false # releaseDate(5.27)
