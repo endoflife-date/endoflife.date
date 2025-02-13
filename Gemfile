@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# CSV  is not part of the default gems starting from Ruby 3.4.0.
+gem "csv"
+
 gem "jekyll", "~> 4.4.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
