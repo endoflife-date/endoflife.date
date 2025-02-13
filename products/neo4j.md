@@ -251,7 +251,7 @@ Neo4j has separate policies for different versions.
 ### [From January 2025]
 
 Neo4j Server adopted calendar versioning (CalVer). Earlier versions, such as Neo4j 4 and 5 used semantic versioning (SemVer).
-The CalVer versioning format, YYYY.MM.PATCH, is based on the year and month of the release, for example, 2025.01, 2025.02, and so on. The patch number is incremented for each release within the same month.
+For more information about the CalVer versioning format see [calver.org website](https://calver.org/)
 
 ### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
 
