@@ -33,11 +33,11 @@ auto:
 releases:
 -   releaseCycle: "4.10"
     lts: true
-    releaseDate: 2025-02-11
+    releaseDate: 2025-02-07
     eol: 2026-02-11
     supportedJavaVersions: 17, 21
     latest: "4.10.0"
-    latestReleaseDate: 2025-02-11
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "4.9"
     releaseDate: 2024-11-29

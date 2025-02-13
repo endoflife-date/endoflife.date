@@ -1,5 +1,5 @@
 ---
-title: rtpengine 
+title: rtpengine
 category: server-app
 permalink: /rtpengine
 versionCommand: rtpengine -v
@@ -11,7 +11,7 @@ identifiers:
 
 auto:
   methods:
-    - git: https://github.com/sipwise/rtpengine.git
+  -   git: https://github.com/sipwise/rtpengine.git
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
 releases:
@@ -19,35 +19,38 @@ releases:
     releaseDate: 2024-12-06
     eol: 2025-02-14
     link: https://www.sipwise.com/releases/2024/mr13.1
-    latest: "13.1.1"
-  
+    latest: "13.1.1.6"
+    latestReleaseDate: 2025-01-20
 -   releaseCycle: "13.0"
     releaseDate: 2024-10-01
     eol: 2024-12-06
     link: https://www.sipwise.com/releases/2024/mr13.0
-    latest: "13.0.1"  
+    latest: "13.0.1.10"
 
+    latestReleaseDate: 2025-01-20
 -   releaseCycle: "12.5"
     lts: true
-    releaseDate: 2024-08-23
+    releaseDate: 2024-08-14
     eol: 2027-07-23
     link: https://www.sipwise.com/releases/2024/mr12.5
-    latest: "12.5.1"
+    latest: "12.5.1.23"
 
+    latestReleaseDate: 2025-02-06
 -   releaseCycle: "11.5"
     lts: true
-    releaseDate: 2023-09-22
+    releaseDate: 2023-09-18
     eol: 2026-09-11
     link: https://www.sipwise.com/releases/2024/mr11.5
-    latest: "11.5.1"
+    latest: "11.5.1.38"
 
+    latestReleaseDate: 2025-01-20
 -   releaseCycle: "10.5"
     lts: true
-    releaseDate: 2022-07-08
+    releaseDate: 2022-06-29
     eol: 2025-09-05
     link: https://www.sipwise.com/releases/2024/mr10.5
-    latest: "10.5.8"
-    latestReleaseDate: 2024-05-10
+    latest: "10.5.8.3"
+    latestReleaseDate: 2025-01-16
 
 ---
 
