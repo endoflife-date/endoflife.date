@@ -26,7 +26,7 @@ auto:
       fields:
         releaseCycle:
           column: "Release"
-          regex: '^(?P<value>\d{4}\.\d{2}\.\d)$'
+          regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Release Date"
   -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
       selector: "table"
@@ -35,11 +35,11 @@ auto:
       fields:
         releaseCycle:
           column: "Release"
-          regex: '^(?P<value>\d{4}\.\d{2}\.\d)$'
+          regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Release Date"
         eol:
           column: "End of Support Date"
-          regex: '^(?P<value>\w+ \d+, \d+).*$'
+          regex: '^(?P<value>\d+\.\d+).*$'
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
