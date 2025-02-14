@@ -63,7 +63,7 @@ releases:
     latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "11.6"
-    releaseDate: 2024-06-26
+    releaseDate: 2024-11-13
     eol: 2025-02-13
     latest: "11.6.2"
     latestReleaseDate: 2024-11-13
