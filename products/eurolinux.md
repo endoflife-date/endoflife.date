@@ -21,15 +21,15 @@ auto:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-14
-    eoas: 2032-05-31
-    eol: 2032-06-30
+    eoas: 2024-10-23
+    eol: 2024-11-03
     latest: "9.4"
     latestReleaseDate: 2024-05-10
 
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
-    eoas: 2029-03-01
-    eol: 2029-06-30
+    eoas: 2024-10-23
+    eol: 2024-11-03
     latest: "8.10"
     latestReleaseDate: 2024-05-27
 
@@ -48,6 +48,9 @@ releases:
     latestReleaseDate: 2018-07-25
 
 ---
+{: .warning }
+> The last packages for EuroLinux distribution were released on 23rd October 2024. The EuroLinux team advises and supports migration to Rocky Linux using [linked](https://docs.euro-linux.com/HowTo/migrate_to_rocky_linux/) instructions.
+> The EuroLinux project is evolving into a comprehensive support service for Linux systems. As of 2024-11-03, the EuroLinux distribution will reach End Of Life status. 
 
 > [EuroLinux](https://euro-linux.com) is a Polish Enterprise Linux distribution that has been in
 > development since 2013. EuroLinux guarantees its compatibility with RHEL and CentOS. It is
