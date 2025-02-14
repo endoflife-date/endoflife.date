@@ -54,9 +54,9 @@ releases:
     eol: 2030-01-08
     latestGdr: "15.0.2130.3"
     latestGdrLink: https://support.microsoft.com/help/5046859
-    latest: "15.0.4415.2 CU30"
-    latestReleaseDate: 2024-12-12
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate30
+    latest: "15.0.4420.2 CU31"
+    latestReleaseDate: 2025-02-13
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate31
     
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton
