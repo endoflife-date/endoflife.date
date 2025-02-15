@@ -77,7 +77,7 @@ releases:
     link: https://web.archive.org/web/20190923124908/http://pubs.vmware.com/Release_Notes/en/vsphere/51/vsphere-vcenter-server-51u3d-release-notes.html
     
 -   releaseCycle: "5.0"
-    releaseDate: 2012-09-10
+    releaseDate: 2011-07-12
     eol: 2016-08-24
     technicalGuidance: 2018-08-24
     latest: "5.0 Update 3g"
