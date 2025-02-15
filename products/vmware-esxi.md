@@ -69,7 +69,7 @@ releases:
     link: https://www.findbugzero.com/operational-defect-database/vendors/vmware/defects/57478
 
 -   releaseCycle: "5.1"
-    releaseDate: 2012-09-10
+    releaseDate: 2012-08-27
     eol: 2016-08-24
     technicalGuidance: 2018-08-24
     latest: "5.1 Update 3d"
