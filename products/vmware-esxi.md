@@ -65,7 +65,24 @@ releases:
     technicalGuidance: 2020-09-19
     latest: "5.5 Update 3k"
     latestReleaseDate: 2018-09-14
-    link: https://web.archive.org/web/20241226081944/https://docs.vmware.com/en/VMware-vSphere/5.5/vsphere-55-guide-archive.zip
+    # old link: http://kb.vmware.com/kb/57478
+    link: https://www.findbugzero.com/operational-defect-database/vendors/vmware/defects/57478
+
+-   releaseCycle: "5.1"
+    releaseDate: 2012-08-27
+    eol: 2016-08-24
+    technicalGuidance: 2018-08-24
+    latest: "5.1 Update 3d"
+    latestReleaseDate: 2016-05-24
+    link: https://web.archive.org/web/20190923124908/http://pubs.vmware.com/Release_Notes/en/vsphere/51/vsphere-vcenter-server-51u3d-release-notes.html
+    
+-   releaseCycle: "5.0"
+    releaseDate: 2011-07-12
+    eol: 2016-08-24
+    technicalGuidance: 2018-08-24
+    latest: "5.0 Update 3g"
+    latestReleaseDate: 2016-06-14
+    link: https://web.archive.org/web/20190923125449/https://pubs.vmware.com/Release_Notes/en/vsphere/50/vsp_vc50_u3g_rel_notes.html
 
 ---
 
