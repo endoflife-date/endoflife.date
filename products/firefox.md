@@ -6,7 +6,7 @@ iconSlug: firefoxbrowser
 permalink: /firefox
 versionCommand: firefox --version
 releasePolicyLink: https://www.mozilla.org/firefox/
-changelogTemplate: https://www.mozilla.org/firefox/__LATEST__/releasenotes/
+changelogTemplate: "https://www.mozilla.org/firefox/{{'__LATEST__' | drop_zero_patch}}/releasenotes/"
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 releaseDateColumn: true
 
