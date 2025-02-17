@@ -4,7 +4,7 @@ category: os
 tags: linux-distribution
 iconSlug: ubuntu
 permalink: /ubuntu
-versionCommand: lsb_release --release
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
 
