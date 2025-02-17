@@ -52,7 +52,7 @@ releases:
     latestReleaseDate: 2019-02-13
 
 -   releaseCycle: "2"
-    releaseDate: 2013-07-18
+    releaseDate: 2012-01-31
     eoas: 2013-08-19
     eol: 2013-08-19
     latest: "2.3.2"
