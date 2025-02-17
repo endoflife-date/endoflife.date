@@ -17,13 +17,13 @@ identifiers:
 
 releases:
 -   releaseCycle: "2022.2"
-    releaseLabel: "2022 Update 2"
+    releaseLabel: "2022 Update 3"
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.2patch2"
-    latestReleaseDate: 2024-11-12
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-2-release-date-november-12-2024
+    latest: "2022.2patch3"
+    latestReleaseDate: 2025-02-11
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-3-release-date-february-11-2025
 
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
