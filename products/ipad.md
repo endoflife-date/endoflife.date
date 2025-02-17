@@ -154,15 +154,15 @@ releases:
     releaseLabel: "iPad Pro 11-inch (2nd generation)"
     releaseDate: 2020-03-01
     discontinued: 2021-04-01
-    eol: 2027-09-15 #3 years support expected
+    eol: 2027-09-15 #3 years support expected for iPadOS 18
     link: https://support.apple.com/en-us/118452
     supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17, 18
 
-    releaseCycle: "pro-2"
+-   releaseCycle: "pro-2"
     releaseLabel: "iPad Pro 12.9-inch (2nd generation)"
     releaseDate: 2017-06-05
     discontinued: 2018-10-30
-    eol: 2026-09-17 #3 years support expected
+    eol: 2026-09-17 #3 years support expected iPadOS 17
     link: https://support.apple.com/en-us/111964
     supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17
 
@@ -178,31 +178,31 @@ releases:
     releaseLabel: "iPad Pro 9.7-inch (1st generation)"
     releaseDate: 2016-03-21
     discontinued: 2017-06-05
-    eol: 2025-10-23 #3 years support expected
+    eol: 2024-09-16 #iPados16 end of life
     link: https://support.apple.com/en-us/111965
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16
 
-    releaseCycle: "pro-1"
+-   releaseCycle: "pro-1"
     releaseLabel: "iPad Pro 10.5-inch (1st generation)"
     releaseDate: 2017-06-13
     discontinued: 2018-11-01
-    eol: 2026-09-17 #3 years support expected
+    eol: 2026-09-17 #3 years support expected iPadOS17
     link: https://support.apple.com/en-us/111927
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16, 17
 
-    releaseCycle: "pro-1"
+-   releaseCycle: "pro-1"
     releaseLabel: "iPad Pro 11-inch (1st generation)"
     releaseDate: 2018-11-01
     discontinued: 2020-03-01
-    eol: 2027-09-15 #3 years support expected
+    eol: 2027-09-15 #3 years support expected iPadOS18
     link: https://support.apple.com/en-us/111974
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 
-    releaseCycle: "pro-1"
+-   releaseCycle: "pro-1"
     releaseLabel: "iPad Pro 12.9-inch (1st generation)"
     releaseDate: 2015-11-11
     discontinued: 2017-06-05
-    eol: 2025-10-23 #3 years support expected
+    eol: 2024-09-16 #iPados16 end of life 
     link: https://support.apple.com/en-us/112024
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16
 
