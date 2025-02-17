@@ -17,7 +17,7 @@ identifiers:
 
 releases:
 -   releaseCycle: "2022.2"
-    releaseLabel: "2022 Update 3"
+    releaseLabel: "2022 Update 2"
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
