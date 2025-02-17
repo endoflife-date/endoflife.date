@@ -13,6 +13,7 @@ releaseDateColumn: true
 identifiers:
 -   cpe: cpe:/a:apache:ant
 -   cpe: cpe:2.3:a:apache:ant
+-   repology: ant
 
 auto:
   methods:
@@ -33,11 +34,13 @@ releases:
 
 -   releaseCycle: "1.8"
     releaseDate: 2010-02-08
-    eol: true
+    eol: 2013-03-07
     latest: "1.8.4"
     latestReleaseDate: 2012-03-23
 
 
 ---
 
-> [Apache Ant](https://ant.apache.org/) is a Java library and command-line tool designed to drive processes described in build files as targets and extension points that depend on each other. The primary known usage of Ant is the building of Java applications. Ant supplies a number of built-in tasks that allow you to compile, assemble, test, and run Java applications. Additionally, Ant can be effectively used to build non-Java applications, such as C or C++ applications. More generally, Ant can be used to manage any type of process that can be described in terms of targets and tasks.
+> [Apache Ant](https://ant.apache.org/) is a Java library and command-line build tool primarily used for building of Java applications.
+
+Ant does not have a strict release cadence or support policy, but End-of-life is decided by a vote on the [Ant PMC](https://ant.apache.org/contributors.html) and announced.
