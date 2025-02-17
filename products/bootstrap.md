@@ -26,17 +26,17 @@ auto:
 
 releases:
 -   releaseCycle: "5"
-    lts: true
     releaseDate: 2021-05-05
+    lts: 2022-07-19
     eoas: false
     eol: false
     latest: "5.3.3"
     latestReleaseDate: 2024-02-20
 
 -   releaseCycle: "4"
-    lts: true
     releaseDate: 2018-01-18
-    eoas: true
+    lts: 2019-11-26
+    eoas: 2021-11-01
     eol: 2023-01-01
     eoes: false
     latest: "4.6.2"
@@ -44,15 +44,16 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2013-08-19
-    eoas: true
+    lts: 2014-11-01
+    eoas: 2016-09-05
     eol: 2019-07-24
     eoes: false
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
 
 -   releaseCycle: "2"
-    releaseDate: 2012-01-31
-    eoas: true
+    releaseDate: 2013-07-18
+    eoas: 2013-08-19
     eol: 2013-08-19
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
