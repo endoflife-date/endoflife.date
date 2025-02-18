@@ -36,7 +36,7 @@ releases:
     releaseDate: 2010-02-08
     eol: 2013-03-07
     latest: "1.8.4"
-    latestReleaseDate: 2012-03-23
+    latestReleaseDate: 2012-05-23
 
 
 ---
