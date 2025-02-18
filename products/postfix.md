@@ -20,6 +20,13 @@ auto:
 
 # eol(x) = releaseDate(x+4)
 releases:
+-   releaseCycle: "3.10"
+    releaseDate: 2025-02-16
+    eol: false
+    latest: "3.10.0"
+    latestReleaseDate: 2025-02-16
+    link: https://www.postfix.org/announcements/postfix-3.10.0.html
+
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-06
     eol: false
@@ -43,7 +50,7 @@ releases:
 
 -   releaseCycle: "3.6"
     releaseDate: 2021-04-29
-    eol: false
+    eol: 2025-02-16
     latest: "3.6.17"
     latestReleaseDate: 2025-02-17
     link: https://www.postfix.org/announcements/postfix-3.8.6.html
