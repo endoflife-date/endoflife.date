@@ -173,7 +173,7 @@ releases:
     eol: 2026-09-17 #3 years support expected  for iPadOS 17
     link: https://support.apple.com/en-us/111927
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16, 17
-	
+
 -   releaseCycle: "pro-2"
     releaseLabel: "iPad Pro 12.9-inch (2nd generation)"
     releaseDate: 2017-06-05
