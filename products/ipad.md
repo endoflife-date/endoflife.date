@@ -109,7 +109,7 @@ releases:
     eol: 2027-09-15 #3 years support expected for iPadOS 18
     link: https://support.apple.com/en-us/118452
     supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17, 18
-	
+
 -   releaseCycle: "pro-4"
     releaseLabel: "iPad Pro (4th generation)"
     releaseDate: 2020-03-25
