@@ -34,7 +34,7 @@ releases:
 
 -   releaseCycle: "1.8"
     releaseDate: 2010-02-08
-    eol: 2013-03-07
+    eol: 2013-03-07 # no announcement, using 1.9 release date
     latest: "1.8.4"
     latestReleaseDate: 2012-05-23
 
