@@ -53,7 +53,7 @@ releases:
     eol: 2025-02-16
     latest: "3.6.17"
     latestReleaseDate: 2025-02-17
-    link: https://www.postfix.org/announcements/postfix-3.8.6.html
+    link: https://www.postfix.org/announcements/postfix-3.9.2.html
 
 -   releaseCycle: "3.5"
     releaseDate: 2020-03-15
