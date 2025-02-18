@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "24.8"
     releaseDate: 2024-07-09 # https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/
     eol: 2025-06-12
-    latest: "24.8.5.1"
-    latestReleaseDate: 2025-01-29
+    latest: "24.8.5.2"
+    latestReleaseDate: 2025-02-14
 
 -   releaseCycle: "24.2"
     releaseDate: 2024-01-08 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/
