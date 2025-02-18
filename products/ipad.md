@@ -150,7 +150,7 @@ releases:
     link: https://support.apple.com/kb/SP774
     supportedIpadOsVersions: 11, 12, 13, 14, 15, 16, 17
 
--   releaseCycle: "pro-2"
+-   releaseCycle: "pro-2-11"
     releaseLabel: "iPad Pro 11-inch (2nd generation)"
     releaseDate: 2020-03-01
     discontinued: 2021-04-01
@@ -158,7 +158,7 @@ releases:
     link: https://support.apple.com/en-us/118452
     supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17, 18
 
-    releaseCycle: "pro-2"
+    releaseCycle: "pro-2-12"
     releaseLabel: "iPad Pro 12.9-inch (2nd generation)"
     releaseDate: 2017-06-05
     discontinued: 2018-10-30
