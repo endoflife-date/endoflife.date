@@ -102,14 +102,6 @@ releases:
     link: https://support.apple.com/kb/SP822
     supportedIpadOsVersions: 14, 15, 16, 17, 18
 
--   releaseCycle: "pro-2"
-    releaseLabel: "iPad Pro 11-inch (2nd generation)"
-    releaseDate: 2020-03-01
-    discontinued: 2021-04-01
-    eol: 2027-09-15 #3 years support expected for iPadOS 18
-    link: https://support.apple.com/en-us/118452
-    supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17, 18
-
 -   releaseCycle: "pro-4"
     releaseLabel: "iPad Pro (4th generation)"
     releaseDate: 2020-03-25
@@ -117,6 +109,14 @@ releases:
     eol: false
     link: https://support.apple.com/kb/SP815
     supportedIpadOsVersions: 13, 14, 15, 16, 17, 18
+
+-   releaseCycle: "pro-2"
+    releaseLabel: "iPad Pro 11-inch (2nd generation)"
+    releaseDate: 2020-03-01
+    discontinued: 2021-04-01
+    eol: 2027-09-15 #3 years support expected for iPadOS 18
+    link: https://support.apple.com/en-us/118452
+    supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16, 17, 18
 
 -   releaseCycle: "7"
     releaseLabel: "iPad (7th generation)"
