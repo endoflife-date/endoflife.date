@@ -10,6 +10,7 @@ customColumns:
     position: after-release-column
     label: PHP versions
     description: Supported PHP versions range
+
 releases:
 -   releaseCycle: "7"
     eol: false
