@@ -9,7 +9,6 @@ releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl: pkg:github/sourcegraph/sourcegraph
 -   purl: pkg:docker/sourcegraph/sg
 
 auto:
