@@ -30,9 +30,8 @@ releases:
 -   releaseCycle: "135"
     releaseDate: 2025-02-04
     eol: false
-    latest: "135.0.0"
-    latestReleaseDate: 2025-02-04
-    link: https://www.mozilla.org/en-US/firefox/135.0/releasenotes/ # Remove this when 135.0.x got a minor update
+    latest: "135.0.1"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "134"
     releaseDate: 2025-01-07
