@@ -90,9 +90,9 @@ releases:
     releaseLabel: "iPad Air (4th generation)"
     releaseDate: 2020-10-23
     discontinued: 2022-03-08
-    eol: false
+    eol: 2027-09-15 #3 years support expected
     link: https://support.apple.com/kb/SP828
-    supportedIpadOsVersions: 14, 15, 16, 17
+    supportedIpadOsVersions: 14, 15, 16, 17, 18
 
 -   releaseCycle: "8"
     releaseLabel: "iPad (8th generation)"
