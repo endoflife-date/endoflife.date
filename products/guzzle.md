@@ -45,4 +45,4 @@ releases:
 
 > [Guzzle](https://docs.guzzlephp.org/en/stable/) is an HTTP client written in PHP.
 
-After each new major release, the previous release is supported for at least 2 years.
+After each new major release, the previous release is supported for [at least 2 years](https://github.com/guzzle/guzzle/security/policy#supported-versions).
