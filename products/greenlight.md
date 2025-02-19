@@ -4,13 +4,16 @@ category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
 releasePolicyLink: https://github.com/bigbluebutton/greenlight/security
+
 releases:
 -   releaseCycle: "3"
     eol: false
     latest: "3.4.1"
+
 -   releaseCycle: "2"
     eol: true
     latest: "2.14.10"
+
 -   releaseCycle: "1"
     eol: true
     latest: "1.0"
