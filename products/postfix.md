@@ -24,7 +24,7 @@ releases:
     releaseDate: 2025-02-16
     eol: false
     latest: "3.10.0"
-    latestReleaseDate: 2025-02-16
+    latestReleaseDate: 2025-02-18
     link: https://www.postfix.org/announcements/postfix-3.10.0.html
 
 -   releaseCycle: "3.9"
