@@ -16,42 +16,49 @@ releases:
     eol: false
     latest: "1.32.0"
     latestReleaseDate: 2024-12-31
+    helmChart: "9.45.0+"
 
   - releaseCycle: "1.31.0"
     releaseDate: 2024-08-28
     eol: false
     latest: "1.31.1"
     latestReleaseDate: 2024-11-19
+    helmChart: "9.38.0+"
 
   - releaseCycle: "1.30.0"
     releaseDate: 2024-04-25
     eol: false
     latest: "1.30.3"
     latestReleaseDate: 2024-11-19
+    helmChart: "9.37.0+"
 
   - releaseCycle: "1.29.0"
     releaseDate: 2023-12-27
     eol: false
     latest: "1.29.5"
     latestReleaseDate: 2024-11-19
+    helmChart: "9.35.0+"
 
   - releaseCycle: "1.28.0"
     releaseDate: 2023-08-31
     eol: false
     latest: "1.28.7"
     latestReleaseDate: 2024-11-19
+    helmChart: "9.34.0+"
 
   - releaseCycle: "1.27.0"
     releaseDate: 2023-05-08
     eol: false
     latest: "1.27.8"
     latestReleaseDate: 2024-05-29
+    helmChart: "9.29.0+"
 
   - releaseCycle: "1.26.0"
     releaseDate: 2022-12-21
     eol: false
     latest: "1.26.8"
     latestReleaseDate: 2024-04-19
+    helmChart: "9.28.0+"
 
   - releaseCycle: "1.25.0"
     releaseDate: 2022-09-06
@@ -64,12 +71,14 @@ releases:
     eol: false
     latest: "1.24.0"
     latestReleaseDate: 2022-05-16
+    helmChart: "9.25.0+"
 
   - releaseCycle: "1.23.0"
     releaseDate: 2021-12-29
     eol: false
     latest: "1.23.0"
     latestReleaseDate: 2021-12-29
+    helmChart: "9.23.0+"
 ---
 
 > [Kubernetes Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) is a component that automatically adjusts the size of a Kubernetes cluster when one of the following conditions is true:
@@ -104,3 +113,14 @@ Cluster Autoscaler supports multiple cloud providers including:
 - And many others
 
 For cloud-specific setup instructions, refer to the [documentation](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler#deployment).
+
+## [Helm Chart Compatibility](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler#releases)
+
+The following table shows the minimum Helm chart versions required of Cluster Autoscaler for each Kubernetes version:
+
+{%- assign collapsedCycles = page.releases | collapse_cycles:"helmChart"," - " %}
+{% include table.html
+labels="Version,Helm Chart"
+fields="releaseCycle,helmChart"
+types="string,string"
+rows=collapsedCycles %}
