@@ -21,23 +21,22 @@ auto:
 
 releases:
 -   releaseCycle: "1.10"
-    releaseDate: 2016-12-31
+    releaseDate: 2016-12-27
     eol: false
     latest: "1.10.15"
-    latestReleaseDate: 2024-08-29
+    latestReleaseDate: 2024-08-25
 
 -   releaseCycle: "1.9"
     releaseDate: 2013-03-07
     eol: 2024-06-19
     latest: "1.9.16"
-    latestReleaseDate: 2021-07-13
+    latestReleaseDate: 2021-07-10
 
 -   releaseCycle: "1.8"
-    releaseDate: 2010-02-08
+    releaseDate: 2010-02-02
     eol: 2013-03-07 # no announcement, using 1.9 release date
     latest: "1.8.4"
-    latestReleaseDate: 2012-05-23
-
+    latestReleaseDate: 2012-05-22
 
 ---
 
