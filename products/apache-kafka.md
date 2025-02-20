@@ -34,7 +34,7 @@ releases:
 -   releaseCycle: "3.9"
     releaseDate: 2024-11-06
     eol: false
-    eoes: false
+    eoes: 2027-02-19
     latest: "3.9.0"
     latestReleaseDate: 2024-11-06
 
