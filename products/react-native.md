@@ -19,6 +19,13 @@ auto:
   -   npm: react-native
 
 releases:
+-   releaseCycle: "0.78"
+    releaseDate: 2025-02-19
+    eoas: false
+    eol: false
+    latest: "0.78.0"
+    latestReleaseDate: 2025-02-19
+
 -   releaseCycle: "0.77"
     releaseDate: 2025-01-21
     eoas: false
