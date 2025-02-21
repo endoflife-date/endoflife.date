@@ -43,15 +43,15 @@ releases:
     releaseDate: 2024-12-04
     eoas: 2024-12-04
     eol: 2025-06-30
-    latest: '7.1.2'
-    latestReleaseDate: 2025-02-07
+    latest: '7.1.3'
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "7.0"
     releaseDate: 2024-10-31
     eoas: 2024-10-31
     eol: 2025-04-30
-    latest: '7.0.6'
-    latestReleaseDate: 2025-02-07
+    latest: '7.0.7'
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "6.13"
     releaseDate: 2024-10-10
