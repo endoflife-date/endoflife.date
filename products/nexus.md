@@ -98,9 +98,9 @@ releases:
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
-    latest: "3.70.3-01"
-    latestReleaseDate: 2024-10-10
-    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
+    latest: "3.70.4-02"
+    latestReleaseDate: 2025-02-13
+    link: https://help.sonatype.com/en/orientdb-downloads.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
@@ -402,6 +402,8 @@ releases:
 All minor releases are typically supported for 18 months. This includes 12 months of full support,
 with updates and bug fixes, followed by 6 months of extended maintenance, with only critical and
 security fixes. After this, the release is considered sunset.
+
+In release 3.71.0, Sonatype Nexus Repository began using H2 as its default embedded database. Users not able to migrate to H2 or PostgreSQL need to remain on the [3.70.x](https://help.sonatype.com/en/orientdb-downloads.html) release line, which will receive only critical bug fixes.
 
 Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
