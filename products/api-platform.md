@@ -33,14 +33,14 @@ releases:
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-29
     eoas: 2024-09-18
-    eol: 2024-09-18
+    eol: false
     latest: "3.3.15"
     latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-10-12
     eoas: 2024-04-29
-    eol: false
+    eol: 2024-09-18
     latest: "3.2.26"
     latestReleaseDate: 2024-07-19
 
@@ -121,9 +121,9 @@ releases:
 
 Releases follow [Semantic Versioning](https://semver.org/). A new minor version is released every
 six months, and a new major version every two years along with a minor version that brings an
-upgrade path. Besides the development branch, two versions are maintained:
+upgrade path. Besides the development branch, three versions are maintained:
 
 - the latest version is actively supported with regular bug fixes;
-- the previous version is supported for security maintenance only.
+- the previous two versions are supported for security maintenance only.
 
-Versions older than the latest two are not maintained.
+Versions older than the latest three are not maintained.
