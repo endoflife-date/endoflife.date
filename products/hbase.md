@@ -2,6 +2,7 @@
 title: Apache HBase
 category: database
 tags: apache java-runtime
+iconSlug: apachehbase
 permalink: /hbase
 alternate_urls:
 -   /apache_hbase
