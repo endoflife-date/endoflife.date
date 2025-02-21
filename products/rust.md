@@ -385,6 +385,6 @@ use an older edition alongside a supported version of the compiler.
 The following Rust editions exist:
 
 - [Rust 2015](https://doc.rust-lang.org/edition-guide/rust-2015/index.html), the default edition from Rust 1.0.
-- [Rust 2018](https://doc.rust-lang.org/edition-guide/rust-2018/index.html), which addead [path and module system](https://doc.rust-lang.org/edition-guide/rust-2018/path-changes.html) changes and was released alongside [1.31 in December 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html).
+- [Rust 2018](https://doc.rust-lang.org/edition-guide/rust-2018/index.html), which added [path and module system](https://doc.rust-lang.org/edition-guide/rust-2018/path-changes.html) changes and was released alongside [1.31 in December 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html).
 - [Rust 2021](https://doc.rust-lang.org/edition-guide/rust-2021/index.html) [released alongside 1.56](https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html) in October 2021.
 - [Rust 2024](https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html), released alongside 1.85 in February 2025.
