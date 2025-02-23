@@ -1,13 +1,14 @@
 ---
 title: Vitess
 category: database
-tags: mysql
+iconSlug: vitess
 permalink: /vitess
-versionCommand: vtctldclient --version
+versionCommand: vtctl --version
 releasePolicyLink: https://github.com/vitessio/enhancements/blob/main/veps/vep-5.md
 changelogTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
+
 auto:
   methods:
   -   git: https://github.com/vitessio/vitess.git
@@ -70,4 +71,5 @@ releases:
 
 > [Vitess](https://vitess.io/) is a database clustering system for horizontal scaling of MySQL.
 
-A new major version of Vitess is released every four months. Each major version is supported for one year with high severity bugs (such as data loss or outages) and security fixes.
+A new major version of Vitess is released every four months. Each major version is supported
+for one year with high severity bugs (such as data loss or outages) and security fixes.
