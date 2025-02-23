@@ -51,7 +51,9 @@ releases:
 > [Express.js](https://expressjs.com) is a minimal and flexible Node.js
 > web application framework used for building web servers and APIs.
 
-Only the latest version of any given major release line is supported.
+Express follows [semver](https://semver.org). Major versions marked as
+supported on <https://expressjs.com/en/support/> receive non-breaking
+updates, as well as bug and security fixes.
 
 Releases that are EOL (end-of-life) may receive updates for critical
 security vulnerabilities, but the Express team offers no guarantee and
