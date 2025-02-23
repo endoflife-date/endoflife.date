@@ -51,12 +51,7 @@ releases:
 ---
 
 > [Express.js](https://expressjs.com) is a minimal and flexible Node.js
-> web application framework used for building web servers and APIs. It
-> offers features like middleware support, powerful routing, template engine
-> integration, and static file serving, making it ideal for creating RESTful
-> APIs, web applications, and microservices. Express is highly extensible,
-> allowing developers to add functionality through various plugins and
-> middleware, and it easily integrates with databases like MongoDB and MySQL.
+> web application framework used for building web servers and APIs.
 
 Only the latest version of any given major release line is supported.
 
