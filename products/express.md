@@ -60,7 +60,7 @@ releases:
 
 Only the latest version of any given major release line is supported.
 
-Versions that are EOL (end-of-life) may receive updates for critical
+Releases that are EOL (end-of-life) may receive updates for critical
 security vulnerabilities, but the Express team offers no guarantee and
 does not plan to address or release fixes for any issues found.
 
