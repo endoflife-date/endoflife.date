@@ -4,7 +4,7 @@ category: database
 tags: mysql
 permalink: /vitess
 versionCommand: vtctldclient --version
-releasePolicyLink: https://vitess.io/docs/releases/
+releasePolicyLink: https://github.com/vitessio/enhancements/blob/main/veps/vep-5.md
 changelogTemplate: https://github.com/vitessio/vitess/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
