@@ -152,10 +152,6 @@ releases:
 > Management (PIM) solution that provides a single place to collect, manage, and enrich product
 > information, create a product catalog, and distribute it to sales and eCommerce channels.
 
-{: .warning }
-> Akeneo PIM is available through [multiple offerings](https://www.akeneo.com/compare-editions/).
-> This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
-> Edition_.
 
 Akeneo PIM does not follow a documented release policy. But looking at the latest releases, it seems
 that there is a new major release every year, with frequent patch versions containing bug fixes for
