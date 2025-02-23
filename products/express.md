@@ -13,8 +13,6 @@ eoesColumn: Commercial Support
 auto:
   methods:
     - git: git@github.com:expressjs/express.git
-      regex: ^v(?P<version>\d+\.\d+\.\d+)$
-      template: "{{version}}"
 
 releases:
 -   releaseCycle: "5"
