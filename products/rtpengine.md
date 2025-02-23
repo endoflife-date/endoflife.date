@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "13.0"
     releaseDate: 2024-10-01
-    eol: 2024-12-06
+    eol: 2025-01-20 # latestReleaseDate is eol date for 13.0
     link: https://www.sipwise.com/releases/2024/mr13.0
     latest: "13.0.1.10"
     latestReleaseDate: 2025-01-20
