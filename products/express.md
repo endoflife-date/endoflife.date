@@ -1,7 +1,7 @@
 ---
 title: Express
 category: framework
-tags: javascript herodevs
+tags: javascript
 iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/
