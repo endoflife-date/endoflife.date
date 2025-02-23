@@ -22,11 +22,16 @@ auto:
 # non-LTS : eol(x) = releaseDate(x+1)
 # LTS : eol(x) = releaseDate(x+1) + 5 months
 releases:
+-   releaseCycle: "2.2"
+    releaseDate: 2025-02-18
+    eol: false
+    latest: "2.2.1"
+    latestReleaseDate: 2025-02-20
+
 -   releaseCycle: "2.1"
     lts: true
     releaseDate: 2024-11-21
-    eoas: 2024-12-21
-    eol: 2025-04-30
+    eol: 2025-07-18
     latest: "2.1.10"
     latestReleaseDate: 2025-02-13
 
@@ -47,7 +52,10 @@ releases:
 > [Deno](https://deno.com) is a JavaScript, TypeScript, and WebAssembly runtime with
 > secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
-Deno follows [SemVer](https://semver.org/). New minor releases are made monthly and are supported with bug and security fixes until the next minor release. Every six months a minor version is promoted to LTS and is supported with critical bug and security fixes for an additional 5 months.
+Deno follows [SemVer](https://semver.org/). New minor releases are made monthly and
+are supported with bug and security fixes until the next minor release.
+Every six months a minor version is promoted to LTS and is supported with critical
+bug and security fixes for an additional 5 months.
 
-Deno maintainers are committed to maintaining a stable standard library API (`Deno` namespace) from
-version `1.0.0` onward.
+Deno maintainers are committed to maintaining a stable standard library API (`Deno`
+namespace) from version `1.0.0` onward.
