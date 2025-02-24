@@ -3,7 +3,6 @@ title: Greenlight
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
-releasePolicyLink: https://github.com/bigbluebutton/greenlight/security
 releaseDateColumn: true
 
 auto:
@@ -26,3 +25,5 @@ releases:
 ---
 
 > [Greenlight](https://docs.bigbluebutton.org/greenlight/v3/install/) is an open-source web user interface for BigBlueButton.
+
+Greenlight supported versions are documented on <https://github.com/bigbluebutton/greenlight/security>.
