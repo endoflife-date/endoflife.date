@@ -23,10 +23,6 @@ releases:
     releaseDate: 2018-09-14
     latestReleaseDate: 2024-05-03
 
--   releaseCycle: "1"
-    eol: true
-    latest: "1.0"
-
 ---
 
 > [Greenlight](https://docs.bigbluebutton.org/greenlight/v3/install/) is an open-source web user interface for BigBlueButton.
