@@ -39,7 +39,7 @@ auto:
         releaseDate: "Release Date"
         eol:
           column: "End of Support Date"
-          regex: '^(?P<value>\d+\.\d+).*$'
+          regex: '^(?P<value>\w+ \d+, \d+).*$'
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
