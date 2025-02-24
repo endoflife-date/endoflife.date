@@ -5,6 +5,10 @@ iconSlug: bigbluebutton
 permalink: /greenlight
 releasePolicyLink: https://github.com/bigbluebutton/greenlight/security
 
+auto:
+  methods:
+  -   git: https://github.com/bigbluebutton/greenlight.git
+
 releases:
 -   releaseCycle: "3"
     eol: false
