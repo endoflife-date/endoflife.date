@@ -17,12 +17,10 @@ releaseDateColumn: true
 identifiers:
 -   repology: jdk8-dragonwell-extended
 -   repology: jdk8-dragonwell-standard
--   repology: jdk17-dragonwell
 -   repology: jdk17-dragonwell-standard
 -   repology: jdk11-dragonwell-extended
 -   repology: jdk11-dragonwell-standard
 -   purl: pkg:docker/alibabadragonwell/dragonwell
--   purl: pkg:oci/dragonwell?repository_url=dragonwell-registry.cn-hangzhou.cr.aliyuncs.com/dragonwell/dragonwell
 # Alibaba Cloud Linux OS plus repository, but only for x86_64 architecture
 -   purl: pkg:rpm/aliyun/java-1.8.0-alibaba-dragonwell?repository_url=http://mirrors.aliyun.com/alinux/2.1903/plus/x86_64/
 
