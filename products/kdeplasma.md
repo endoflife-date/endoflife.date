@@ -30,8 +30,8 @@ releases:
     releaseDate: 2025-02-11
     eoas: false
     eol: false
-    latest: "6.3.1.1"
-    latestReleaseDate: 2025-02-19
+    latest: "6.3.2"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "6.2"
     releaseDate: 2024-10-08
