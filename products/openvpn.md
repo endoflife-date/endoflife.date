@@ -21,8 +21,8 @@ releases:
     releaseDate: 2023-01-25
     eoas: false
     eol: false
-    latest: "2.6.12"
-    latestReleaseDate: 2024-07-17
+    latest: "2.6.13"
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "2.5"
     releaseDate: 2020-10-27
@@ -65,7 +65,7 @@ releases:
 
 OpenVPN Community Edition aka OpenVPN is a GPLv2 server and client.
 OpenVPN Access Server (OpenVPN-AS) provides additional paid and proprietary features.
-There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which is documented at [Suppported OpenSSL versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions#SuppportedOpenSSLversions). Windows versions older than 10 are not officially supported.
+There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which is documented at [Supported OpenSSL versions](https://community.openvpn.net/openvpn/wiki/SupportedVersions#SuppportedOpenSSLversions). Windows versions older than 10 are not officially supported.
 
 
 ## Support

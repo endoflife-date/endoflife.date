@@ -25,34 +25,34 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2024-09-05
     eol: false
-    latest: "5.0.2"
-    latestReleaseDate: 2024-10-19
+    latest: "5.0.3"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: false # releaseDate(5.2.0)
-    latest: "4.1.7"
-    latestReleaseDate: 2024-09-26
+    latest: "4.1.8"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: false # releaseDate(5.1.0)
-    latest: "4.0.15"
-    latestReleaseDate: 2024-11-18
+    latest: "4.0.17"
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
     eol: 2024-09-05 # releaseDate(5.0)
-    latest: "3.11.17"
+    latest: "3.11.19"
     discontinued: true
-    latestReleaseDate: 2024-04-16
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: 2024-09-05
-    latest: "3.0.30"
+    latest: "3.0.32"
     discontinued: true
-    latestReleaseDate: 2024-04-15
+    latestReleaseDate: 2025-02-07
 
 ---
 

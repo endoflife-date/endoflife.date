@@ -33,15 +33,19 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
--   releaseCycle: "3.17"
-    lts: false
-    releaseDate: 2024-11-27
+-   releaseCycle: "3.18"
+    releaseDate: 2025-01-29
     eol: false
-    latest: "3.17.4"
-    latestReleaseDate: 2024-12-11
+    latest: "3.18.4"
+    latestReleaseDate: 2025-02-19
+
+-   releaseCycle: "3.17"
+    releaseDate: 2024-11-27
+    eol: 2025-01-30
+    latest: "3.17.8"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "3.16"
-    lts: false
     releaseDate: 2024-10-30
     eol: 2024-11-28
     latest: "3.16.4"
@@ -52,8 +56,8 @@ releases:
     releaseDate: 2024-09-25
     eol: 2025-09-25
     eoes: false
-    latest: "3.15.2"
-    latestReleaseDate: 2024-11-18
+    latest: "3.15.3"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "3.14"
     releaseDate: 2024-08-28
@@ -297,6 +301,11 @@ releases:
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting
 the latest version every week in between. [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/),
 a new LTS version is also published every 6 months.
+
+Quarkus releases an LTS (Long-Term Support) version every six months. LTS is designed for users who prioritize
+stability over new features.
+These versions are maintained for one year and receive critical bug and CVE fixes. An overlap period allows a smooth upgrade to the next LTS.
+A new LTS version will be released every six months. For each LTS, micro-releases will occur every two months (e.g., 3.20.1, 3.20.2).
 
 Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161). LTS releases are supported for 12 months
 with critical bug fixes and security patches.

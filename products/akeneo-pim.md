@@ -30,8 +30,8 @@ releases:
     codename: "Sahara hare"
     releaseDate: 2023-01-05
     eol: 2026-09-30
-    latest: "7.0.76"
-    latestReleaseDate: 2024-12-12
+    latest: "7.0.78"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "6.0"
     codename: "Buccaneer Bunny"
@@ -153,7 +153,6 @@ releases:
 > information, create a product catalog, and distribute it to sales and eCommerce channels.
 
 {: .warning }
-> Akeneo PIM is available through [multiple offerings](https://www.akeneo.com/compare-editions/).
 > This page mainly tracks releases for the free and open-source offering named _Akeneo PIM Community
 > Edition_.
 

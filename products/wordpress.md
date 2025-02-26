@@ -35,6 +35,8 @@ identifiers:
 -   purl: pkg:docker/bitnami/wordpress-nginx
 -   purl: pkg:docker/bitnami/wordpress-intel
 -   purl: pkg:docker/rapidfort/wordpress
+-   cpe: cpe:2.3:a:wordpress:wordpress
+-   cpe: cpe:/a:wordpress:wordpress
 
 # eol(x) = releaseDate(x+1)
 # Support PHP version can be found on https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
@@ -43,8 +45,8 @@ releases:
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2024-11-12
     eol: false
-    latest: "6.7.1"
-    latestReleaseDate: 2024-11-21
+    latest: "6.7.2"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "6.6"
     supportedPHPVersions: "7.2 - 8.3"

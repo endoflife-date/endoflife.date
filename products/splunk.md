@@ -12,8 +12,17 @@ auto:
   methods:
   -   custom: splunk
 
+identifiers:
+-   repology: splunk
+
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
+-   releaseCycle: "9.4"
+    releaseDate: 2024-12-16
+    eol: 2026-12-16
+    latest: "9.4.0"
+    latestReleaseDate: 2024-12-16
+
 -   releaseCycle: "9.3"
     releaseDate: 2024-07-24
     eol: 2026-07-24

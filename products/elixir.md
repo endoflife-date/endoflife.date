@@ -9,6 +9,9 @@ changelogTemplate: https://github.com/elixir-lang/elixir/blob/v__RELEASE_CYCLE__
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: elixir
+
 auto:
   methods:
   -   git: https://github.com/elixir-lang/elixir.git
@@ -16,9 +19,16 @@ auto:
 # eoas(x) = releaseDate(x+1) (or true if not yet released)
 # eol(x) = releaseDate(x+5) (or false if not yet released)
 releases:
+-   releaseCycle: "1.18"
+    releaseDate: 2024-12-19
+    eoas: false # release date of 1.19
+    eol: false # release date of 1.23
+    latest: "1.18.2"
+    latestReleaseDate: 2025-01-22
+
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-12
-    eoas: false # release date of 1.18
+    eoas: 2024-12-19 # release date of 1.18
     eol: false # release date of 1.22
     latest: "1.17.3"
     latestReleaseDate: 2024-09-18
@@ -47,7 +57,7 @@ releases:
 -   releaseCycle: "1.13"
     releaseDate: 2021-12-03
     eoas: 2022-09-01 # release date of 1.14
-    eol: false # release date of 1.18
+    eol: 2024-12-19 # release date of 1.18
     latest: "1.13.4"
     latestReleaseDate: 2022-04-07
 

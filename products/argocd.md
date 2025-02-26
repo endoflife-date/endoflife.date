@@ -13,10 +13,6 @@ changelogTemplate: https://github.com/argoproj/argo-cd/releases/tag/v__LATEST__
 releaseDateColumn: true
 eolColumn: Support
 
-auto:
-  methods:
-  -   git: https://github.com/argoproj/argo-cd.git
-
 identifiers:
 -   repology: argocd
 -   purl: pkg:docker/argoproj/argocd
@@ -24,25 +20,35 @@ identifiers:
 -   purl: pkg:oci/argocd?repository_url=ghcr.io/argoproj
 -   purl: pkg:github/argoproj/argo-cd
 
+auto:
+  methods:
+  -   git: https://github.com/argoproj/argo-cd.git
+
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.14"
+    releaseDate: 2025-02-03
+    eol: false
+    latest: "2.14.2"
+    latestReleaseDate: 2025-02-05
+
 -   releaseCycle: "2.13"
     releaseDate: 2024-11-04
     eol: false
-    latest: "2.13.2"
-    latestReleaseDate: 2024-12-11
+    latest: "2.13.5"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "2.12"
     releaseDate: 2024-08-05
     eol: false
-    latest: "2.12.8"
-    latestReleaseDate: 2024-12-11
+    latest: "2.12.10"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.11"
     releaseDate: 2024-05-07
-    eol: false
-    latest: "2.11.12"
-    latestReleaseDate: 2024-11-05
+    eol: 2025-02-03
+    latest: "2.11.13"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2.10"
     releaseDate: 2024-02-05

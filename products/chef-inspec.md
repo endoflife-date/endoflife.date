@@ -10,13 +10,13 @@ changelogTemplate: "https://docs.chef.io/release_notes_inspec/#__LATEST__"
 eoasColumn: true
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   custom: chef-inspec
-
 identifiers:
 -   repology: inspec
 -   cpe: cpe:2.3:a:chef:inspec
+
+auto:
+  methods:
+  -   custom: chef-inspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/
@@ -25,8 +25,8 @@ releases:
     releaseDate: 2023-11-14
     eoas: false
     eol: false
-    latest: "6.8.11"
-    latestReleaseDate: 2024-11-06
+    latest: "6.8.24"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "5"
     releaseDate: 2022-03-17

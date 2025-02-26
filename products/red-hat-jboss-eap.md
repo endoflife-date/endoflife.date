@@ -25,16 +25,16 @@ releases:
     eoas: 2028-02-05
     eol: 2031-02-05
     eoes: 2033-02-05
-    latest: "8.0.4"
-    latestReleaseDate: 2024-11-06
+    latest: "8.0.5.1"
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
     eoes: 2026-11-30
-    latest: "7.4.19"
-    latestReleaseDate: 2024-10-14
+    latest: "7.4.21"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "6"
     releaseDate: 2012-06-01
@@ -69,7 +69,7 @@ releases:
     eoes: 2015-06-30
     latest: '4.2.0.CP09'
     latestReleaseDate: 2010-04-26
-    link: https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
+    link: https://web.archive.org/web/20240225123551/https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
 ---
 
 > [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/technologies/jboss-middleware/application-platform)

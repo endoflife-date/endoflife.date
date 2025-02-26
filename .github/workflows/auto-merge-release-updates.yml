@@ -13,7 +13,7 @@ jobs:
     steps:
       - id: metadata
         name: Dependabot metadata
-        uses: dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34 # v2.2.0
+        uses: dependabot/fetch-metadata@d7267f607e9d3fb96fc2fbe83e0af444713e90b7 # v2.3.0
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
@@ -24,7 +24,7 @@ jobs:
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5
         with:
           python-version: '3.11'
 
@@ -36,7 +36,7 @@ jobs:
         run: python '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842 # v5
+        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79 # v5
         with:
           file_pattern: products/*
           commit_message: "🤖: Update latest release data"

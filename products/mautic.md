@@ -28,7 +28,7 @@ auto:
           regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
           template: "{{day}} {{month}} {{year}}"
         eol:
-          column: 'Security Support Until*'
+          column: 'Security Support Until *'
           regex: '^(?P<day>\d+)(st|nd|rd|th)? (?P<month>\w+) (?P<year>\d{4})$'
           template: "{{day}} {{month}} {{year}}"
 
@@ -40,11 +40,11 @@ releases:
     releaseDate: 2024-12-02
     eoas: false
     eol: false
-    latest: "5.2.0"
-    latestReleaseDate: 2024-12-02
+    latest: "5.2.3"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "5.1"
-    releaseDate: 2024-06-12
+    releaseDate: 2024-06-13
     eoas: 2024-12-02
     eol: 2024-12-02
     latest: "5.1.1"
@@ -52,15 +52,15 @@ releases:
 
 -   releaseCycle: "5.0"
     releaseDate: 2024-01-09
-    eoas: 2024-09-13
-    eol: 2024-09-13
+    eoas: 2024-06-13
+    eol: 2024-06-13
     latest: "5.0.4"
     latestReleaseDate: 2024-04-11
 
 -   releaseCycle: "4.4"
     releaseDate: 2022-06-27
     eoas: 2024-01-09
-    eol: 2024-04-09
+    eol: 2024-12-31
     latest: "4.4.13"
     latestReleaseDate: 2024-09-18
 

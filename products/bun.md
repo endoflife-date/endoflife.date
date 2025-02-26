@@ -10,9 +10,9 @@ changelogTemplate: https://github.com/oven-sh/bun/releases/tag/bun-v__LATEST__
 releaseDateColumn: true
 
 identifiers:
--   purl: pkg:docker/oven/bun
 -   repology: bun
--   purl: pkg:github/oven/bun
+-   purl: pkg:docker/oven/bun
+-   purl: pkg:github/oven-sh/bun
 
 auto:
   methods:
@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "1"
     releaseDate: 2023-09-07
     eol: false
-    latest: "1.1.38"
-    latestReleaseDate: 2024-11-28
+    latest: "1.2.3"
+    latestReleaseDate: 2025-02-21
 
 ---
 

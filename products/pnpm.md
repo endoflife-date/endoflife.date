@@ -12,17 +12,24 @@ eolColumn: Support
 
 identifiers:
 -   purl: pkg:npm/pnpm
+-   repology: pnpm
 
 auto:
   methods:
   -   npm: pnpm
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-01-07
+    eol: false
+    latest: '10.5.0'
+    latestReleaseDate: 2025-02-25
+
 -   releaseCycle: "9"
     releaseDate: 2024-04-16
     eol: false
-    latest: '9.15.0'
-    latestReleaseDate: 2024-12-06
+    latest: '9.15.6'
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "8"
     releaseDate: 2023-03-27

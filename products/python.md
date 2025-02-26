@@ -134,15 +134,15 @@ releases:
     releaseDate: 2024-10-07
     eoas: 2026-10-01
     eol: 2029-10-31
-    latest: "3.13.1"
-    latestReleaseDate: 2024-12-03
+    latest: "3.13.2"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "3.12"
     releaseDate: 2023-10-02
     eoas: 2025-04-02
     eol: 2028-10-31
-    latest: "3.12.8"
-    latestReleaseDate: 2024-12-03
+    latest: "3.12.9"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "3.11"
     releaseDate: 2022-10-24
@@ -248,11 +248,10 @@ releases:
 > language.
 
 The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release
-manager of each branch.
+manager of each branch. Every release gets:
 
-In the first 1.5 years there are planned releases with bugfixes. In the next 3.5 years there are
-only security fixes and source distribution without precompiled binaries. Starting with Python 3.13
-it will change to 2 + 3 years.
+- 2 years of planned releases with bugfixes.
+- 3 years of only security fixes and source distribution without precompiled binaries
 
 The detailed release information (including schedules) can be found among [Release PEPs](https://peps.python.org/topic/release/)
 

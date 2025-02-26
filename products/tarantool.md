@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "3.3"
     releaseDate: 2024-11-29
     eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
-    latest: "3.3.0"
-    latestReleaseDate: 2024-11-29
+    latest: "3.3.1"
+    latestReleaseDate: 2024-12-25
 
 -   releaseCycle: "3.2"
     releaseDate: 2024-08-26
@@ -48,8 +48,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.5"
-    latestReleaseDate: 2024-11-22
+    latest: "2.11.6"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22

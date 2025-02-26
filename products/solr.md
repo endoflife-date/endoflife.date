@@ -31,12 +31,12 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.7.0"
-    latestReleaseDate: 2024-09-09
+    latest: "9.8.0"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13
-    eol: false
+    eol: 2024-10-25
     latest: "8.11.4"
     latestReleaseDate: 2024-09-24
 

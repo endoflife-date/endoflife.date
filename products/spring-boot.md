@@ -33,6 +33,7 @@ identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-tomcat
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-logging
 -   purl: pkg:github/spring-projects/spring-boot
+-   repology: springboot
 
 auto:
   methods:
@@ -54,48 +55,48 @@ releases:
 -   releaseCycle: "3.4"
     supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2024-11-21
-    eol: 2025-11-21
-    eoes: 2027-02-21
-    latest: "3.4.0"
-    latestReleaseDate: 2024-11-21
+    eol: 2025-12-31
+    eoes: 2026-12-31
+    latest: "3.4.3"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "3.3"
-    supportedJavaVersions: "17 - 22" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
+    supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2024-05-23
-    eol: 2025-05-23
-    eoes: 2026-08-23
-    latest: "3.3.6"
-    latestReleaseDate: 2024-11-21
+    eol: 2025-06-30
+    eoes: 2026-06-30
+    latest: "3.3.9"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "3.2"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.2.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-11-23
-    eol: 2024-11-23
-    eoes: 2026-02-23
+    eol: 2024-12-31
+    eoes: 2025-12-31
     latest: "3.2.12"
     latestReleaseDate: 2024-11-21
 
 -   releaseCycle: "3.1"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.1.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2023-05-18
-    eol: 2024-05-18
-    eoes: 2025-08-18
+    eol: 2024-06-30
+    eoes: 2025-06-30
     latest: "3.1.12"
     latestReleaseDate: 2024-05-23
 
 -   releaseCycle: "3.0"
     supportedJavaVersions: "17 - 21" # https://docs.spring.io/spring-boot/docs/3.0.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-11-24
-    eol: 2023-11-24
-    eoes: 2025-02-24
+    eol: 2023-12-31
+    eoes: 2024-12-31
     latest: "3.0.13"
     latestReleaseDate: 2023-11-23
 
 -   releaseCycle: "2.7"
     supportedJavaVersions: "8 - 21" # https://docs.spring.io/spring-boot/docs/2.7.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2022-05-19
-    eol: 2023-11-24
-    eoes: 2026-12-31
+    eol: 2023-06-30
+    eoes: 2029-06-30
     latest: "2.7.18"
     latestReleaseDate: 2023-11-23
 

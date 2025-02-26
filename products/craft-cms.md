@@ -13,6 +13,10 @@ changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   cpe: cpe:2.3:a:craftcms:craft_cms
+-   cpe: cpe:/a:craftcms:craft_cms
+
 auto:
   methods:
   -   git: https://github.com/craftcms/cms.git
@@ -30,22 +34,22 @@ releases:
     releaseDate: 2024-03-26
     eoas: 2027-04-30
     eol: 2028-04-30
-    latest: '5.5.6.1'
-    latestReleaseDate: 2024-12-11
+    latest: '5.6.10.1'
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '4.13.6'
-    latestReleaseDate: 2024-12-10
+    latest: '4.14.9'
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04
     eoas: 2023-04-30
     eol: 2024-04-30
-    latest: '3.9.13'
-    latestReleaseDate: 2024-04-03
+    latest: '3.9.14'
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "2"
     releaseDate: 2014-04-01

@@ -27,23 +27,37 @@ auto:
         upgradeVersion: "Upgrade to:"
 
 releases:
+-   releaseCycle: "1.4.3.0"
+    releaseDate: 2025-01-21
+    upgradeVersion: N/A
+    eol: 2027-03-06
+    latest: "1.4.3.0"
+    latestReleaseDate: 2025-01-21
+
+-   releaseCycle: "1.4.2.0"
+    releaseDate: 2024-12-19
+    upgradeVersion: '1.4.3.0'
+    eol: 2027-03-06
+    latest: "1.4.2.0"
+    latestReleaseDate: 2024-12-19
+
 -   releaseCycle: "1.4.1.0"
     releaseDate: 2024-11-21
-    upgradeVersion: N/A
+    upgradeVersion: '1.4.2.0'
     eol: 2027-03-06
     latest: "1.4.1.0"
     latestReleaseDate: 2024-11-21
 
 -   releaseCycle: "1.4.0.0"
     releaseDate: 2024-11-06
-    upgradeVersion: N/A
+    upgradeVersion: '1.4.1.0'
     eol: 2027-03-06
     latest: "1.4.0.0"
     latestReleaseDate: 2024-11-06
 
 -   releaseCycle: "1.3.4.0"
     releaseDate: 2024-10-01
-    upgradeVersion: N/A
+    upgradeVersion: '1.4.0.0'
     eol: 2027-03-06
     latest: "1.3.4.0"
     latestReleaseDate: 2024-10-01

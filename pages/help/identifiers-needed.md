@@ -6,16 +6,16 @@ description: Help add more identifiers to the site
 permalink: /help/identifiers-needed/
 ---
 
-endoflife.date maintains machine-readable identififers for various products to help the SBOM
+endoflife.date maintains machine-readable identifiers for various products to help the SBOM
 ecosystem and other projects. We need your help to add more identifiers to the site.
 
 ## What are Identifiers?
 
-We currently use the following identififers:
+We currently use the following identifiers:
 
-1. [Repology](https://repology.org) Project Identififers. We use these to link to various package repositories and distributions.
-2. [PURL](https://purl.org) Identififers. We use these to link to packages that are not present in Repology, such as Docker Images, Third-party linux repos, and more.
-3. [NVD CPE](https://nvd.nist.gov/products/cpe) Identififers. Primarily used where repology/purl does not work, such as on devices and operating-systems.
+1. [Repology](https://repology.org) Project Identifiers. We use these to link to various package repositories and distributions.
+2. [Package URL](https://github.com/package-url/purl-spec) Identifiers (`pkg:`). We use these to link to packages that are not present in Repology, such as Docker Images, Third-party linux repos, and more.
+3. [NVD CPE](https://nvd.nist.gov/products/cpe) Identifiers. Primarily used where repology/purl does not work, such as on devices and operating-systems.
 
 ## How can you help
 
@@ -52,7 +52,7 @@ identifiers:
 -   purl: pkg:chocolatey/libericajdk
 -   purl: pkg:winget/BellSoft.LibericaJDK.8
 ```
-## Pages without Identififers
+## Pages without Identifiers
 
 <ul>
 {% for page in site.html_pages %}

@@ -343,7 +343,7 @@ releases:
 -   releaseCycle: "Nokia 6"
     releaseDate: 2017-01-19
     eol: 2020-10-01
-    link: https://www.nokia.com/phones/en_int/nokia-6-0
+    link: https://www.hmd.com/en_int/support/nokia-6-user-guide/
 
 ---
 

@@ -25,6 +25,8 @@ identifiers:
 -   purl: pkg:golang/github.com/envoyproxy/envoy
 -   purl: pkg:oci/envoy?repository_url=cgr.dev/chainguard
 -   purl: pkg:oci/envoy-fips?repository_url=cgr.dev/chainguard
+-   cpe: cpe:2.3:a:envoyproxy:envoy
+-   cpe: cpe:/a:envoyproxy:envoy
 
 auto:
   methods:
@@ -42,29 +44,35 @@ auto:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.33"
+    releaseDate: 2025-01-14
+    eol: 2026-01-14 # tbd on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
+    latest: '1.33.0'
+    latestReleaseDate: 2025-01-14
+
 -   releaseCycle: "1.32"
     releaseDate: 2024-10-15
     eol: 2025-10-15
-    latest: '1.32.2'
-    latestReleaseDate: 2024-12-08
+    latest: '1.32.3'
+    latestReleaseDate: 2024-12-18
 
 -   releaseCycle: "1.31"
     releaseDate: 2024-07-19
     eol: 2025-07-19
-    latest: '1.31.4'
-    latestReleaseDate: 2024-12-08
+    latest: '1.31.5'
+    latestReleaseDate: 2024-12-18
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-04-16
     eol: 2025-04-16
-    latest: '1.30.8'
-    latestReleaseDate: 2024-12-08
+    latest: '1.30.9'
+    latestReleaseDate: 2024-12-18
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-16
     eol: 2025-01-16
-    latest: '1.29.11'
-    latestReleaseDate: 2024-12-08
+    latest: '1.29.12'
+    latestReleaseDate: 2024-12-18
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-19

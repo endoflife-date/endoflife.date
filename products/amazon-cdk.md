@@ -7,23 +7,25 @@ permalink: /amazon-cdk
 changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/aws/aws-cdk
-
 identifiers:
 -   repology: aws-cdk
 -   purl: pkg:npm/aws-cdk
 -   purl: pkg:golang/github.com/aws/aws-cdk-go
 -   purl: pkg:github/aws/aws-cdk-go
+-   cpe: cpe:/a:amazon:aws_cloud_development_kit
+-   cpe: cpe:2.3:a:amazon:aws_cloud_development_kit
+
+auto:
+  methods:
+  -   git: https://github.com/aws/aws-cdk
 
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-12-01
     eoas: false
     eol: false
-    latest: "2.173.1"
-    latestReleaseDate: 2024-12-14
+    latest: "2.180.0"
+    latestReleaseDate: 2025-02-21
 
 ---
 

@@ -9,6 +9,7 @@ releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
+-   repology: grafana
 -   purl: pkg:github/grafana/grafana
 -   purl: pkg:golang/github.com/grafana/grafana
 
@@ -26,47 +27,54 @@ auto:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
--   releaseCycle: "11.4"
-    releaseDate: 2024-12-05
+-   releaseCycle: "11.5"
+    releaseDate: 2025-01-28
     eoas: false
     eol: false
-    latest: "11.4.0"
-    latestReleaseDate: 2024-12-05
+    latest: "11.5.2"
+    latestReleaseDate: 2025-02-19
+
+-   releaseCycle: "11.4"
+    releaseDate: 2024-12-05
+    eoas: 2025-01-28
+    eol: 2025-09-30
+    latest: "11.4.2"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-10-22
     eoas: 2024-12-05
     eol: 2025-07-31
-    latest: "11.3.2"
-    latestReleaseDate: 2024-12-04
+    latest: "11.3.4"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "11.2"
     releaseDate: 2024-08-27
     eoas: 2024-10-22
     eol: 2025-05-31
-    latest: "11.2.5"
-    latestReleaseDate: 2024-12-04
+    latest: "11.2.7"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-06-21
     eoas: 2024-08-27
     eol: 2025-03-31
-    latest: "11.1.10"
-    latestReleaseDate: 2024-12-04
+    latest: "11.1.11"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-05-13
     eoas: 2024-06-21
     eol: 2025-02-28
-    latest: "11.0.9"
-    latestReleaseDate: 2024-12-04
+    latest: "11.0.10"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
     eoas: 2025-06-30
     eol: 2025-06-30
-    latest: "10.4.14"
-    latestReleaseDate: 2024-12-04
+    latest: "10.4.15"
+    latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-01-22

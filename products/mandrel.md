@@ -13,13 +13,16 @@ auto:
       regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
       template: '{{version}}'
 
+identifiers:
+-   repology: mandrel
+
 releases:
 -   releaseCycle: "24.1"
     releaseLabel: "24.1 (JDK 23)"
     releaseDate: 2024-09-23
     eol: 2025-04-15 # April 2025 CPU
-    latest: "24.1.1.0"
-    latestReleaseDate: 2024-10-23
+    latest: "24.1.2.0"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "24.0"
     releaseLabel: "24.0 (JDK 22)"
@@ -33,8 +36,8 @@ releases:
     releaseDate: 2023-10-12
     eol: false
     lts: true
-    latest: "23.1.5.0"
-    latestReleaseDate: 2024-10-23
+    latest: "23.1.6.0"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "23.0"
     releaseLabel: "23.0 (JDK 17)"

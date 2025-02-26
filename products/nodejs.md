@@ -11,6 +11,7 @@ releasePolicyLink: https://nodejs.org/en/about/previous-releases
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
+eoesColumn: "Commercial Support"
 releaseDateColumn: true
 
 identifiers:
@@ -31,16 +32,16 @@ releases:
     releaseDate: 2024-10-16
     eoas: 2025-04-01
     eol: 2025-06-01
-    latest: "23.4.0"
-    latestReleaseDate: 2024-12-10
+    latest: "23.8.0"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "22"
     releaseDate: 2024-04-24
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.12.0"
-    latestReleaseDate: 2024-12-03
+    latest: "22.14.0"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -54,8 +55,8 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.18.1"
-    latestReleaseDate: 2024-11-20
+    latest: "20.18.3"
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -69,8 +70,9 @@ releases:
     lts: 2022-10-25
     eoas: 2023-10-18
     eol: 2025-04-30
-    latest: "18.20.5"
-    latestReleaseDate: 2024-11-12
+    eoes: false
+    latest: "18.20.7"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19
@@ -84,6 +86,7 @@ releases:
     lts: 2021-10-26
     eoas: 2022-10-18
     eol: 2023-09-11
+    eoes: false
     latest: "16.20.2"
     latestReleaseDate: 2023-08-09
 
@@ -99,6 +102,7 @@ releases:
     lts: 2020-10-27
     eoas: 2021-10-19
     eol: 2023-04-30
+    eoes: false
     latest: "14.21.3"
     latestReleaseDate: 2023-02-16
 
@@ -114,6 +118,7 @@ releases:
     lts: 2019-10-21
     eoas: 2020-10-20
     eol: 2022-04-30
+    eoes: false
     latest: "12.22.12"
     latestReleaseDate: 2022-04-05
 
@@ -215,6 +220,10 @@ LTS releases.
 
 If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and
 is not recommended for Production use.
+
+Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
+Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes)
+initiative.
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
 to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
