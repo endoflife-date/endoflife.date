@@ -44,6 +44,14 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+-   releaseCycle: "2025.01"
+    releaseDate: 2025-02-06
+    eol: false # releaseDate(2025.02)
+    lts: false
+    latest: "2025.01.0"
+    latestReleaseDate: 2025-02-06
+    link: https://neo4j.com/release-notes/database/neo4j-2025-01/
+
 -   releaseCycle: "5.26"
     releaseDate: 2024-12-06
     eol: false # releaseDate(5.27)
@@ -240,6 +248,11 @@ releases:
 
 Neo4j has separate policies for different versions.
 
+### [From January 2025]
+
+Neo4j Server adopted calendar versioning (CalVer). Earlier versions, such as Neo4j 4 and 5 used semantic versioning (SemVer).
+For more information about the CalVer versioning format see [calver.org website](https://calver.org/)
+
 ### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
 
 Each minor release is supported for 18 months from the GA date, except for the final minor release (currently 4.4), which is supported for 36 months.
@@ -265,3 +278,4 @@ A high-level overview of different Neo4j editions:
 - [Neo4j Supported Versions](https://neo4j.com/developer/kb/neo4j-supported-versions/)
 - [Features in various AuraDB Editions](https://neo4j.com/docs/aura/auradb/)
 - [Support differences in AuraDB Editions](https://neo4j.com/docs/aura/auradb/support/)
+- [Calendar Versioning](https://neo4j.com/docs/upgrade-migration-guide/current/#_version_numbers)
