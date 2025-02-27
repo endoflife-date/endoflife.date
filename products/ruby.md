@@ -30,7 +30,7 @@ releases:
     eol: 2028-03-31
     latest: "3.4.2"
     latestReleaseDate: 2025-02-14
-    link: https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
+    link: https://www.ruby-lang.org/en/news/2025/02/14/ruby-3-4-2-released/
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-12-25
