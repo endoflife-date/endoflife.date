@@ -24,8 +24,8 @@ releases:
     codename: "2022"
     releaseDate: 2025-02-11
     eol: false
-    latest: "17.13.1"
-    latestReleaseDate: 2025-02-19
+    latest: "17.13.2"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "17.12"
     codename: "2022"
