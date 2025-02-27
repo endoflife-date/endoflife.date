@@ -19,6 +19,15 @@ customColumns:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+
+-   releaseCycle: "16e"
+    releaseLabel: "16e"
+    releaseDate: 2025-02-28
+    discontinued: false
+    eol: false
+    link: 
+    supportedIosVersions: 18
+
 -   releaseCycle: "16"
     releaseLabel: "16"
     releaseDate: 2024-09-20
