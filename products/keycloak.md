@@ -156,7 +156,7 @@ lower severity vulnerabilities or hardening, in the following release.
 
 The Keycloak JS adapter
 [split from Keycloak with the 26.2.0 release](https://www.keycloak.org/2025/02/keycloak-js-2620-released.html)
-and now follows its own release policy, and will continue to be backwards compatible with all actively
+and now follows its own release policy. It will continue to be backwards compatible with all actively
 supported releases of the Keycloak server, and deviation from this will be considered a breaking change.
 
 Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
