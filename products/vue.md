@@ -1,7 +1,7 @@
 ---
 title: Vue
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: vuedotjs
 permalink: /vue
 alternate_urls:

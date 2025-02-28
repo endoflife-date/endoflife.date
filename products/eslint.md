@@ -1,7 +1,7 @@
 ---
 title: ESLint
 category: app
-tags: build-tool javascript-runtime
+tags: build-tool javascript-runtime herodevs
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/

@@ -1,7 +1,7 @@
 ---
 title: Bootstrap
 category: framework
-tags: css-runtime javascript-runtime
+tags: css-runtime javascript-runtime herodevs
 iconSlug: bootstrap
 permalink: /bootstrap
 releasePolicyLink: https://github.com/twbs/release

@@ -1,7 +1,7 @@
 ---
 title: Nuxt
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap

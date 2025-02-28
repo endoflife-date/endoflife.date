@@ -1,7 +1,7 @@
 ---
 title: AngularJS
 category: framework
-tags: discontinued google javascript-runtime
+tags: discontinued google javascript-runtime herodevs
 permalink: /angularjs
 alternate_urls:
 -   /angular-js

@@ -1,7 +1,7 @@
 ---
 title: Protractor
 category: framework
-tags: google javascript-runtime
+tags: google javascript-runtime herodevs
 iconSlug: protractor
 permalink: /protractor
 versionCommand: npm list protractor
