@@ -47,13 +47,13 @@ releases:
 
 -   releaseCycle: "3.17"
     releaseDate: 2024-11-27
-    eol: 2025-02-19
+    eol: 2025-01-29
     latest: "3.17.8"
     latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "3.16"
     releaseDate: 2024-10-30
-    eol: 2025-01-22
+    eol: 2024-11-27
     latest: "3.16.4"
     latestReleaseDate: 2024-11-20
 
@@ -67,37 +67,37 @@ releases:
 
 -   releaseCycle: "3.14"
     releaseDate: 2024-08-28
-    eol: 2024-09-25 # releaseDate(3.15)
+    eol: 2024-09-25
     latest: "3.14.4"
     latestReleaseDate: 2024-09-14
 
 -   releaseCycle: "3.13"
     releaseDate: 2024-07-31
-    eol: 2024-08-28 # releaseDate(3.14)
+    eol: 2024-08-28
     latest: "3.13.3"
     latestReleaseDate: 2024-08-20
 
 -   releaseCycle: "3.12"
     releaseDate: 2024-06-26
-    eol: 2024-07-31 # releaseDate(3.13)
+    eol: 2024-07-31
     latest: "3.12.3"
     latestReleaseDate: 2024-07-17
 
 -   releaseCycle: "3.11"
     releaseDate: 2024-05-29
-    eol: 2024-06-26 # releaseDate(3.12)
+    eol: 2024-06-26
     latest: "3.11.3"
     latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "3.10"
     releaseDate: 2024-04-30
-    eol: 2024-05-29 # releaseDate(3.11)
+    eol: 2024-05-29
     latest: "3.10.2"
     latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-27
-    eol: 2024-04-30 # releaseDate(3.10)
+    eol: 2024-04-30
     latest: "3.9.5"
     latestReleaseDate: 2024-04-27
 
