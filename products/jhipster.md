@@ -2,6 +2,7 @@
 title: JHipster
 category: app
 tags: java-runtime javascript-runtime
+iconSlug: jhipster
 permalink: /jhipster
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
