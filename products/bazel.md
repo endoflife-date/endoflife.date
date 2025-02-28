@@ -2,6 +2,7 @@
 title: Bazel
 category: app
 tags: google build-tool java-runtime
+iconSlug: bazel
 permalink: /bazel
 versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
@@ -39,8 +40,8 @@ releases:
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
     eol: 2027-12-31
-    latest: "8.1.0"
-    latestReleaseDate: 2025-02-13
+    latest: "8.1.1"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "7"
     lts: true

@@ -86,7 +86,7 @@ releases:
 -   releaseCycle: "14-plus"
     releaseLabel: "14 Plus"
     releaseDate: 2022-10-07
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP874
     supportedIosVersions: 16 - 18
@@ -94,7 +94,7 @@ releases:
 -   releaseCycle: "14"
     releaseLabel: "14"
     releaseDate: 2022-09-16
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP873
     supportedIosVersions: 16 - 18
@@ -118,7 +118,7 @@ releases:
 -   releaseCycle: "se-3"
     releaseLabel: "SE (3rd generation)"
     releaseDate: 2022-03-18
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP867
     supportedIosVersions: 15 - 18

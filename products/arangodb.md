@@ -1,6 +1,7 @@
 ---
 title: ArangoDB
 category: database
+iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"
@@ -26,8 +27,8 @@ releases:
 -   releaseCycle: "3.11"
     releaseDate: 2023-05-23
     eol: false
-    latest: "3.11.13"
-    latestReleaseDate: 2025-02-07
+    latest: "3.11.13.1"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "3.10"
     releaseDate: 2022-09-29

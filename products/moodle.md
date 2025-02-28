@@ -2,6 +2,7 @@
 title: Moodle
 category: server-app
 tags: php-runtime
+iconSlug: moodle
 permalink: /moodle
 releasePolicyLink: https://moodledev.io/general/releases
 changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
