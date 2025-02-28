@@ -2,6 +2,7 @@
 title: Kuma
 category: server-app
 tags: cncf
+iconSlug: kuma
 permalink: /kuma
 alternate_urls:
 -   /kuma

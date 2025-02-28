@@ -1,6 +1,7 @@
 ---
 title: ArangoDB
 category: database
+iconSlug: arangodb
 permalink: /arangodb
 releasePolicyLink: https://arangodb.com/master-services-agreement-inc-may-2023-cs/#eolpolicy
 changelogTemplate: "https://docs.arangodb.com/stable/release-notes/version-__RELEASE_CYCLE__/"

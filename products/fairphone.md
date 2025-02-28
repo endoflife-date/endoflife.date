@@ -2,6 +2,7 @@
 title: Fairphone
 category: device
 tags: mobile-phone
+iconSlug: fairphone
 permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
 releaseColumn: false
