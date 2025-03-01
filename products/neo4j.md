@@ -47,7 +47,6 @@ releases:
 -   releaseCycle: "2025.01"
     releaseDate: 2025-02-06
     eol: false # releaseDate(2025.02)
-    lts: false
     latest: "2025.01.0"
     latestReleaseDate: 2025-02-06
 
