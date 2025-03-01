@@ -6,7 +6,7 @@ iconSlug: apachenifi
 permalink: /apache-nifi
 alternate_urls:
 -   /nifi
-changelogTemplate: "https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version__LATEST__"
+changelogTemplate: https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version__LATEST__
 eolColumn: Support
 releaseDateColumn: true
 
@@ -23,51 +23,63 @@ releases:
     releaseDate: 2024-07-08
     eol: false
     latest: "1.27.0"
+
 -   releaseCycle: "2.0.0-M4"
     releaseDate: 2024-07-01
     eol: false
     latest: "2.0.0-M4"
+
 -   releaseCycle: "2.0.0-M3"
     releaseDate: 2024-05-16
     eol: 2024-07-02
     latest: "2.0.0-M3"
+
 -   releaseCycle: "1.26.0"
     releaseDate: 2024-05-06
     eol: 2024-07-09
     latest: "1.26.0"
+
 -   releaseCycle: "1.25.0"
     releaseDate: 2024-01-29
     eol: 2024-05-07
     latest: "1.25.0"
+
 -   releaseCycle: "1.24.0"
     releaseDate: 2023-11-27
     eol: 2024-01-30
     latest: "1.24.0"
+
 -   releaseCycle: "2.0.0-M2"
     releaseDate: 2023-11-25
     eol: 2024-05-17
     latest: "2.0.0-M2"
+
 -   releaseCycle: "2.0.0-M1"
     releaseDate: 2023-11-25
     eol: 2024-01-30
     latest: "2.0.0-M1"
+
 -   releaseCycle: "1.23.0"
     releaseDate: 2023-07-28
     eol: 2023-11-28
     latest: "1.23.2"
     latestReleaseDate: 2023-08-22
+
 -   releaseCycle: "1.22.0"
     releaseDate: 2023-06-11
     eol: 2023-07-29
     latest: "1.22.0"
+
 -   releaseCycle: "1.21.0"
     releaseDate: 2023-04-07
     eol: 2023-06-12
     latest: "1.21.0"
+
 -   releaseCycle: "1.20.0"
     releaseDate: 2023-02-09
     eol: 2023-04-08
     latest: "1.20.0"
+
 -   releaseCycle: "1.19.0"
     releaseDate: 2022-11-28
     eol: 2023-02-10
@@ -76,8 +88,8 @@ releases:
 
 ---
 
-> [Apache NiFi](https://nifi.apache.org/) is a software project designed to automate the
-> flow of data between software systems. 
+> [Apache NiFi](https://nifi.apache.org/) is a software project designed to automate the flow of data between software
+> systems.
 
-The support and EOL policy is not documented. Looking at past releases, it seems that only the latest release is actively maintained.
-
+The support and EOL policy is not documented. Looking at past releases, it seems that only the latest release is
+actively maintained.
