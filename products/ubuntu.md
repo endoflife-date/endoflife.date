@@ -112,7 +112,7 @@ releases:
     lts: true
     releaseDate: 2020-04-23
     eoas: 2022-10-01
-    eol: 2025-04-02
+    eol: 2025-05-31
     eoes: 2030-04-02
     latest: "20.04.6"
     latestReleaseDate: 2023-03-23
