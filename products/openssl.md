@@ -24,7 +24,7 @@ auto:
 releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-10-22
-    eol: false
+    eol: 2026-10-22 # documented on https://openssl-library.org/source/
     latest: "3.4.1"
     latestReleaseDate: 2025-02-11
 
