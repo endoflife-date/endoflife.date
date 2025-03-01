@@ -25,11 +25,19 @@ auto:
 # They may vary by a day or two from what can be seen in the release notes.
 # EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "10.4"
+    releaseDate: 2025-01-22
+    eol: 2027-01-22
+    latest: "10.4.1"
+    latestReleaseDate: 2025-02-12
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-10-4-x-release-notes-1489804684.html
+
 -   releaseCycle: "10.3"
     releaseDate: 2024-12-05
     eol: 2026-12-05
-    latest: "10.3.1"
-    latestReleaseDate: 2024-12-18
+    lts: true
+    latest: "10.3.3"
+    latestReleaseDate: 2025-02-07
     link: https://confluence.atlassian.com/jirasoftware/jira-software-10-3-x-release-notes-1472790887.html
 
 -   releaseCycle: "10.2"
@@ -92,8 +100,8 @@ releases:
     releaseDate: 2023-11-29
     eol: 2025-11-29
     lts: true
-    latest: "9.12.16"
-    latestReleaseDate: 2024-12-04
+    latest: "9.12.18"
+    latestReleaseDate: 2025-02-04
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-12-x-release-notes-1319575972.html
 
 -   releaseCycle: "9.11"
@@ -149,8 +157,8 @@ releases:
     releaseDate: 2022-11-15
     eol: 2025-01-31
     lts: true
-    latest: "9.4.29"
-    latestReleaseDate: 2024-12-03
+    latest: "9.4.30"
+    latestReleaseDate: 2025-01-07
     link: https://confluence.atlassian.com/jirasoftware/jira-software-9-4-x-release-notes-1178869757.html
 
 -   releaseCycle: "9.3"

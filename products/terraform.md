@@ -10,6 +10,7 @@ changelogTemplate: https://github.com/hashicorp/terraform/blob/v__LATEST__/CHANG
 releaseDateColumn: true
 
 identifiers:
+-   repology: terraform
 -   purl: pkg:github/hashicorp/terraform
 -   purl: pkg:generic/terraform
 
@@ -19,21 +20,27 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.11"
+    releaseDate: 2025-02-27
+    eol: false # releaseDate(1.13)
+    latest: "1.11.0"
+    latestReleaseDate: 2025-02-27
+
 -   releaseCycle: "1.10"
     releaseDate: 2024-11-26
     eol: false # releaseDate(1.12)
-    latest: "1.10.3"
-    latestReleaseDate: 2024-12-18
+    latest: "1.10.5"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "1.9"
     releaseDate: 2024-06-26
-    eol: false # releaseDate(1.11)
+    eol: 2025-02-27 # releaseDate(1.11)
     latest: "1.9.8"
     latestReleaseDate: 2024-10-16
 
 -   releaseCycle: "1.8"
     releaseDate: 2024-04-10
-    eol: true # releaseDate(1.10)
+    eol: 2024-11-26 # releaseDate(1.10)
     latest: "1.8.5"
     latestReleaseDate: 2024-06-05
 

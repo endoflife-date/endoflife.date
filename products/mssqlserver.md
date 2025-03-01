@@ -29,9 +29,9 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1135.2"
     latestGdrLink: https://support.microsoft.com/help/5046861
-    latest: "16.0.4165.4 CU16"
-    latestReleaseDate: 2024-11-14
-    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate16
+    latest: "16.0.4175.1 CU17"
+    latestReleaseDate: 2025-01-16
+    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate17
 
 -   releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -54,9 +54,9 @@ releases:
     eol: 2030-01-08
     latestGdr: "15.0.2130.3"
     latestGdrLink: https://support.microsoft.com/help/5046859
-    latest: "15.0.4415.2 CU30"
-    latestReleaseDate: 2024-12-12
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate30
+    latest: "15.0.4420.2 CU31"
+    latestReleaseDate: 2025-02-13
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate31
     
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton

@@ -20,27 +20,27 @@ releases:
     releaseDate: 2024-09-18
     eoas: false
     eol: false
-    latest: "4.0.13"
-    latestReleaseDate: 2024-12-20
+    latest: "4.0.18"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "3.4"
     releaseDate: 2024-09-18
     eoas: 2024-09-18
     eol: false
-    latest: "3.4.10"
-    latestReleaseDate: 2024-12-20
+    latest: "3.4.16"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-29
     eoas: 2024-09-18
-    eol: 2024-09-18
-    latest: "3.3.14"
-    latestReleaseDate: 2024-10-04
+    eol: false
+    latest: "3.3.15"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-10-12
     eoas: 2024-04-29
-    eol: false
+    eol: 2024-09-18
     latest: "3.2.26"
     latestReleaseDate: 2024-07-19
 
@@ -119,11 +119,11 @@ releases:
 > [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven
 > projects and implementing the Jamstack architecture.
 
-Releases follow [Semantic Versioning](https://semver.org/). A new minor version is released every
-six months, and a new major version every two years along with a minor version that brings an
-upgrade path. Besides the development branch, two versions are maintained:
+API Platform follows [Semantic Versioning](https://semver.org/). A new minor release is released every
+six months, and a new major release every two years (along with a minor release that brings an
+upgrade path). Besides the development branch, three releases are maintained:
 
-- the latest version is actively supported with regular bug fixes;
-- the previous version is supported for security maintenance only.
+- the latest release is actively supported with regular bug fixes;
+- the previous two releases are supported for security maintenance only.
 
-Versions older than the latest two are not maintained.
+Releases older than the latest three are not maintained.

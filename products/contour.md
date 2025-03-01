@@ -8,35 +8,37 @@ changelogTemplate: https://github.com/projectcontour/contour/releases/tag/v__LAT
 releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 
-auto:
-  methods:
-  -   git: https://github.com/projectcontour/contour.git
-
 identifiers:
 -   purl: pkg:github/projectcontour/contour
 -   purl: pkg:docker/projectcontour/contour
 -   purl: pkg:docker/bitnami/contour
 -   purl: pkg:oci/contour?repository_url=ghcr.io/projectcontour
+-   cpe: cpe:2.3:a:projectcontour:contour
+-   cpe: cpe:/a:projectcontour:contour
+
+auto:
+  methods:
+  -   git: https://github.com/projectcontour/contour.git
 
 # eol(X) = releaseDate(X+3)
 releases:
 -   releaseCycle: "1.30"
     releaseDate: 2024-07-31
     eol: false # releaseDate(1.33)
-    latest: "1.30.1"
-    latestReleaseDate: 2024-11-04
+    latest: "1.30.2"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-05-07
     eol: false # releaseDate(1.32)
-    latest: "1.29.3"
-    latestReleaseDate: 2024-11-04
+    latest: "1.29.4"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "1.28"
     releaseDate: 2024-02-12
     eol: false # releaseDate(1.31)
-    latest: "1.28.7"
-    latestReleaseDate: 2024-11-04
+    latest: "1.28.8"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-10-30

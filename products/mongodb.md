@@ -129,8 +129,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.30"
-    latestReleaseDate: 2024-11-20
+    latest: "5.0.31"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25

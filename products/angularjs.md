@@ -17,14 +17,14 @@ customColumns:
     label: Extended Long Term Support provider
     description: Companies that provide extended Long Term Support for AngularJS.
 
-auto:
-  methods:
-  -   npm: angular
-
 identifiers:
 -   repology: angular.js
 -   purl: pkg:npm/angular
 -   purl: pkg:github/angular/angular.js
+
+auto:
+  methods:
+  -   npm: angular
 
 releases:
 -   releaseCycle: "1.8"

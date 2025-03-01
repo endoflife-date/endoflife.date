@@ -10,12 +10,15 @@ auto:
   methods:
   -   git: https://github.com/twigphp/Twig.git
 
+identifiers:
+-   repology: php:twig
+
 releases:
 -   releaseCycle: "3"
     releaseDate: 2019-11-15
     eol: false
-    latest: "3.18.0"
-    latestReleaseDate: 2024-12-29
+    latest: "3.20.0"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "2"
     releaseDate: 2017-01-05

@@ -21,19 +21,19 @@ auto:
   -   git: https://github.com/sonatype/nexus-public.git
       regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
       template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
-  -   release_table: https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status
+  -   release_table: https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
       selector: 'table'
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
-          column: 'Sonatype Nexus Repository Version'
+          column: 'Version'
           regex: '^(?P<value>\d+\.\d+)\.0.*$'
           regex_exclude: '^3.53' # Invalid Beginning of Extended Maintenance date
         releaseDate:
           column: 'Initial Release Date'
           regex: '^.*?(?P<value>\w+\s*\d+,\s*\d+)(\s*\(\d+\.\d+\.0\)\s*)?$'
         eoas:
-          column: 'Beginning of Extended Maintenance'
+          column: 'Extended Maintenance'
           regex: '^(?P<value>\w+\s*\d+,\s*\d+).*$'
         eol:
           column: 'Sunset Date'
@@ -42,8 +42,22 @@ auto:
 
 # eoas(x) = releaseDate(x) + 12 months
 # eol(x) = releaseDate(x) + 18 months
-# Dates can also be found on https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status.
+# Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
+-   releaseCycle: "3.77"
+    releaseDate: 2025-02-04
+    eoas: 2026-02-04
+    eol: 2026-08-04
+    latest: "3.77.2-02"
+    latestReleaseDate: 2025-02-25
+
+-   releaseCycle: "3.76"
+    releaseDate: 2025-01-07
+    eoas: 2026-01-07
+    eol: 2026-07-07
+    latest: "3.76.1-01"
+    latestReleaseDate: 2025-01-23
+
 -   releaseCycle: "3.75"
     releaseDate: 2024-12-03
     eoas: 2025-12-03
@@ -84,9 +98,9 @@ releases:
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
-    latest: "3.70.3-01"
-    latestReleaseDate: 2024-10-10
-    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
+    latest: "3.70.4-02"
+    latestReleaseDate: 2025-02-13
+    link: https://help.sonatype.com/en/orientdb-downloads.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
@@ -388,6 +402,8 @@ releases:
 All minor releases are typically supported for 18 months. This includes 12 months of full support,
 with updates and bug fixes, followed by 6 months of extended maintenance, with only critical and
 security fixes. After this, the release is considered sunset.
+
+In release 3.71.0, Sonatype Nexus Repository began using H2 as its default embedded database. Users not able to migrate to H2 or PostgreSQL need to remain on the [3.70.x](https://help.sonatype.com/en/orientdb-downloads.html) release line, which will receive only critical bug fixes.
 
 Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).

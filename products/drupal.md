@@ -12,17 +12,19 @@ eoesColumn: Commercial Support
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: php:drupal
+-   purl: pkg:composer/drupal/core
+-   purl: pkg:docker/bitnami/drupal
+-   purl: pkg:docker/bitnami/drupal-nginx
+-   purl: pkg:docker/library/drupal
+-   purl: pkg:github/drupal/core
+-   cpe: cpe:2.3:a:drupal:drupal
+-   cpe: cpe:/a:drupal:drupal
+
 auto:
   methods:
   -   git: https://github.com/drupal/drupal.git
-
-identifiers:
--   purl: pkg:composer/drupal/core
--   repology: php:drupal
--   purl: pkg:docker/bitnami/drupal
--   purl: pkg:docker/library/drupal
--   purl: pkg:docker/bitnami/drupal-nginx
--   purl: pkg:github/drupal/core
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
@@ -33,29 +35,29 @@ releases:
     releaseDate: 2024-12-17
     eoas: 2025-06-16
     eol: 2025-12-16
-    latest: "10.4.0"
-    latestReleaseDate: 2024-12-18
+    latest: "10.4.3"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-12-16
     eoas: false # releaseDate(11.2)
     eol: false
-    latest: "11.1.0"
-    latestReleaseDate: 2024-12-16
+    latest: "11.1.3"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "11.0"
     releaseDate: 2024-08-02
     eoas: 2024-12-16 # releaseDate(11.1)
     eol: 2025-06-16
-    latest: "11.0.9"
-    latestReleaseDate: 2024-11-22
+    latest: "11.0.12"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "10.3"
     releaseDate: 2024-06-20
     eoas: 2024-08-02
     eol: 2025-06-16
-    latest: "10.3.10"
-    latestReleaseDate: 2024-11-22
+    latest: "10.3.13"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-12-15

@@ -10,12 +10,6 @@ releasePolicyLink: https://hub.docker.com/_/flink # This is the most conclusive 
 changelogTemplate: https://nightlies.apache.org/flink/flink-docs-release-__RELEASE_CYCLE__/release-notes/flink-__RELEASE_CYCLE__/
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/apache/flink.git
-      regex: '^release-(?P<version>[\d\.]+)$'
-      template: '{{version}}'
-
 identifiers:
 -   repology: flink
 -   purl: pkg:github/apache/flink
@@ -24,18 +18,24 @@ identifiers:
 -   cpe: cpe:/a:apache:flink
 -   cpe: cpe:2.3:a:apache:flink
 
+auto:
+  methods:
+  -   git: https://github.com/apache/flink.git
+      regex: '^release-(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+
 releases:
 -   releaseCycle: "1.20"
     releaseDate: 2024-08-01
     eol: false
-    latest: "1.20.0"
-    latestReleaseDate: 2024-08-01
+    latest: "1.20.1"
+    latestReleaseDate: 2025-02-12
 
 -   releaseCycle: "1.19"
     releaseDate: 2024-03-15
     eol: false
-    latest: "1.19.1"
-    latestReleaseDate: 2024-06-14
+    latest: "1.19.2"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "1.18"
     releaseDate: 2023-10-24

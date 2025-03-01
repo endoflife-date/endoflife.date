@@ -9,7 +9,6 @@ releaseDateColumn: true
 eolColumn: End of general support
 
 releases:
-
 -   releaseCycle: "2.10"
     releaseDate: 2024-01-17
     eol: 2025-01-31

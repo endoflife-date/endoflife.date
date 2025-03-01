@@ -16,6 +16,8 @@ eolWarnThreshold: 90
 identifiers:
 -   purl: pkg:npm/%40angular/core # purl are url-encoded
 -   purl: pkg:github/angular/angular
+-   cpe: cpe:/a:angular:angular
+-   cpe: cpe:2.3:a:angular:angular
 
 auto:
   methods:
@@ -36,8 +38,8 @@ releases:
     eoas: 2025-05-19
     eol: 2026-05-19
     eoes: false
-    latest: "19.0.5"
-    latestReleaseDate: 2024-12-18
+    latest: "19.2.0"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "18"
     releaseDate: 2024-05-22

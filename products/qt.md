@@ -32,8 +32,8 @@ releases:
     releaseDate: 2024-10-07
     eol: 2025-04-08 # estimated, 2024-10-08 + 6 months
     eoes: 2027-10-08
-    latest: "6.8.1"
-    latestReleaseDate: 2024-12-02
+    latest: "6.8.2"
+    latestReleaseDate: 2025-01-31
 
 -   releaseCycle: "6.7"
     releaseDate: 2024-03-28
@@ -54,8 +54,9 @@ releases:
     releaseDate: 2023-03-31
     eol: 2023-10-09
     eoes: 2026-03-31
-    latest: "6.5.3"
-    latestReleaseDate: 2023-09-28
+    latest: "6.5.8"
+    latestReleaseDate: 2023-12-13
+    link: https://www.qt.io/blog/commercial-lts-qt-6.5.8-released
 
 -   releaseCycle: "6.4"
     releaseDate: 2022-09-28
@@ -140,7 +141,7 @@ releases:
     releaseDate: 2011-12-15
     eol: 2015-12-31
     latest: "4.8.7"
-    link: https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
+    link: https://web.archive.org/web/20240814204109/https://www.qt.io/blog/2015/05/26/qt-4-8-7-released
 
 ---
 

@@ -2,6 +2,7 @@
 title: Kong Gateway
 category: server-app
 tags: web-server
+iconSlug: kong
 permalink: /kong-gateway
 alternate_urls:
 -   /kong

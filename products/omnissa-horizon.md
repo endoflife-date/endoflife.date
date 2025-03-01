@@ -14,6 +14,14 @@ releaseDateColumn: true
 eolColumn: General Support
 
 releases:
+-   releaseCycle: "8.2412"
+    releaseDate: 2025-01-28
+    eol: 2028-01-28
+    technicalGuidance: 2029-01-28
+    latest: "8.2412"
+    latestReleaseDate: 2024-01-25
+    link: https://docs.omnissa.com/bundle/horizon8-rnV2412/page/Horizon8-ReleaseNotes.html
+    
 -   releaseCycle: "8.2406"
     releaseDate: 2024-06-25
     eol: false # is there a date documented somewhere ?
@@ -34,6 +42,7 @@ releases:
     releaseDate: 2024-01-23
     eol: false # is there a date documented somewhere ?
     technicalGuidance: null
+    lts: true
     latest: "8.2312"
     latestReleaseDate: 2024-01-23
     link: https://docs.omnissa.com/bundle/horizon8-rnV2312/page/Horizon8-ReleaseNotes.html
@@ -64,8 +73,8 @@ releases:
     eol: 2026-01-12
     technicalGuidance: 2027-01-12
     lts: true
-    latest: "8.2212.1"
-    latestReleaseDate: 2023-08-03
+    latest: "8.2212.2"
+    latestReleaseDate: 2023-11-30
 
 -   releaseCycle: "8.2209"
     releaseDate: 2022-10-20

@@ -25,7 +25,7 @@ releases:
     releaseDate: 2024-10-07
     eol: 2028-11-30
     latest: "8.3.0"
-    latestReleaseDate: 2024-10-07
+    latestReleaseDate: 2024-08-23
     link: https://docs.xcp-ng.org/releases/release-8-3/
 
 -   releaseCycle: "8.2"

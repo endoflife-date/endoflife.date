@@ -32,16 +32,16 @@ releases:
 -   releaseCycle: "11.2"
     releaseDate: 2024-05-02
     eol: 2027-05-02
-    latest: "11.2.4-h2"
-    latestReleaseDate: 2024-12-04
-    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-4-known-and-addressed-issues/pan-os-11-2-4-h2-addressed-issues
+    latest: "11.2.5"
+    latestReleaseDate: 2025-02-20
+    link: https://docs.paloaltonetworks.com/pan-os/11-2/pan-os-release-notes/pan-os-11-2-5-known-and-addressed-issues/pan-os-11-2-5-addressed-issues
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-11-03
     eol: 2027-05-03
-    latest: "11.1.6"
-    latestReleaseDate: 2024-12-05
-    link: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-6-known-and-addressed-issues/pan-os-11-1-6-addressed-issues
+    latest: "11.1.6-h3"
+    latestReleaseDate: 2025-02-20
+    link: https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-release-notes/pan-os-11-1-6-known-and-addressed-issues/pan-os-11-1-6-h3-addressed-issues
 
 -   releaseCycle: "11.0"
     releaseDate: 2022-11-17
@@ -53,16 +53,16 @@ releases:
 -   releaseCycle: "10.2"
     releaseDate: 2022-02-27
     eol: 2026-02-28
-    latest: "10.2.13-h1"
-    latestReleaseDate: 2024-12-20
-    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-13-known-and-addressed-issues/pan-os-10-2-13-h1-addressed-issues
+    latest: "10.2.13-h5"
+    latestReleaseDate: 2025-02-28
+    link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-13-known-and-addressed-issues/pan-os-10-2-13-h5-addressed-issues
 
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
     eol: 2025-08-31
-    latest: "10.1.14-h8"
-    latestReleaseDate: 2024-12-26
-    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h8-addressed-issues
+    latest: "10.1.14-h9"
+    latestReleaseDate: 2025-02-10
+    link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h9-addressed-issues
 
 -   releaseCycle: "10.0"
     releaseDate: 2020-07-16

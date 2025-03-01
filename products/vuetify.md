@@ -12,6 +12,8 @@ releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:npm/vuetify
+-   cpe: cpe:2.3:a:vuetifyjs:vuetify
+-   cpe: cpe:/a:vuetifyjs:vuetify
 
 auto:
   methods:
@@ -41,8 +43,8 @@ releases:
     releaseDate: 2022-11-01
     eoas: false
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2024-12-18
+    latest: "3.7.14"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "2"
     releaseDate: 2019-07-23

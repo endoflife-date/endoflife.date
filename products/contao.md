@@ -19,20 +19,27 @@ auto:
 
 # eoas and eol available on https://contao.org/release-plan.
 releases:
+-   releaseCycle: "5.5"
+    releaseDate: 2025-02-18
+    eoas: 2025-08-14
+    eol: 2025-08-14
+    latest: "5.5.1"
+    latestReleaseDate: 2025-02-19
+
 -   releaseCycle: "5.4"
     releaseDate: 2024-08-15
     eoas: 2025-02-14
     eol: 2025-02-14
-    latest: "5.4.8"
-    latestReleaseDate: 2024-12-10
+    latest: "5.4.14"
+    latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "5.3"
     lts: true
     releaseDate: 2024-02-16
     eoas: 2027-02-14
     eol: 2028-02-14
-    latest: "5.3.20"
-    latestReleaseDate: 2024-12-10
+    latest: "5.3.26"
+    latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-08-15
@@ -60,8 +67,8 @@ releases:
     releaseDate: 2022-02-17
     eoas: 2025-02-14
     eol: 2026-02-14
-    latest: "4.13.50"
-    latestReleaseDate: 2024-11-15
+    latest: "4.13.53"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "4.12"
     releaseDate: 2021-08-19

@@ -29,13 +29,20 @@ auto:
         eol: "Security support"
 
 releases:
+-   releaseCycle: "6.4"
+    releaseDate: 2025-02-03
+    eoas: 2025-05-01
+    eol: 2025-08-01
+    latest: "6.4.1"
+    latestReleaseDate: 2025-02-21
+
 -   releaseCycle: "6.3"
     lts: true
     releaseDate: 2024-11-01
-    eoas: 2026-02-03
-    eol: 2026-02-03
-    latest: "6.3.2"
-    latestReleaseDate: 2025-01-02
+    eoas: 2026-05-01
+    eol: 2026-05-01
+    latest: "6.3.3"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "6.2"
     releaseDate: 2024-08-01
@@ -61,10 +68,10 @@ releases:
 -   releaseCycle: "5.2"
     lts: true
     releaseDate: 2023-11-01
-    eoas: 2025-02-03
-    eol: 2025-02-03
-    latest: "5.2.7"
-    latestReleaseDate: 2024-11-01
+    eoas: 2025-05-01
+    eol: 2025-05-01
+    latest: "5.2.8"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-08-01
@@ -191,8 +198,8 @@ releases:
 Minor/Feature releases of Wagtail are released every three months. A feature release will usually
 stop receiving patch release updates when the next feature release comes out. LTS releases receive
 fixes for security and data-loss related issues. Typically, an LTS release will happen once every
-four feature releases and receive updates for five feature releases, giving a support period of
-fifteen months with a three-month overlap. LTS releases will ensure compatibility with at least
+four feature releases and receive updates for six feature releases, giving a support period of
+eighteen months with a six-month overlap. LTS releases will ensure compatibility with at least
 one [Django LTS release](https://www.djangoproject.com/download/#supported-versions).
 
 The Wagtail team provides [official security support](https://docs.wagtail.org/en/stable/contributing/security.html#supported-versions) for:

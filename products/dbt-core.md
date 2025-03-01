@@ -12,6 +12,9 @@ releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Critical Support
 
+identifiers:
+-   repology: dbt-core
+
 auto:
   methods:
   -   git: https://github.com/dbt-labs/dbt-core.git
@@ -24,8 +27,8 @@ releases:
     releaseDate: 2024-12-09
     eoas: false
     eol: 2025-12-09
-    latest: "1.9.1"
-    latestReleaseDate: 2024-12-16
+    latest: "1.9.2"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "1.8"
     releaseDate: 2024-05-09

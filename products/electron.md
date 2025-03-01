@@ -40,29 +40,37 @@ auto:
         eol: "EOL"
 
 releases:
+-   releaseCycle: "34"
+    releaseDate: 2025-01-14
+    eol: 2025-06-24
+    latest: "34.3.0"
+    latestReleaseDate: 2025-02-26
+    chromeVersion: "M132"
+    nodeVersion: "20.18"
+
 -   releaseCycle: "33"
     releaseDate: 2024-10-15
     eol: 2025-04-29
-    latest: "33.3.0"
-    latestReleaseDate: 2024-12-05
+    latest: "33.4.2"
+    latestReleaseDate: 2025-02-27
     chromeVersion: "M130"
-    nodeVersion: "20.18.0"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
     eol: 2025-03-04
-    latest: "32.2.7"
-    latestReleaseDate: 2024-12-05
+    latest: "32.3.2"
+    latestReleaseDate: 2025-02-27
     chromeVersion: "M128"
-    nodeVersion: "20.16"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
     eol: 2025-01-14
-    latest: "31.7.6"
-    latestReleaseDate: 2024-12-05
+    latest: "31.7.7"
+    latestReleaseDate: 2025-01-14
     chromeVersion: "M126"
-    nodeVersion: "20.14"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -70,7 +78,7 @@ releases:
     latest: "30.5.1"
     latestReleaseDate: 2024-09-13
     chromeVersion: "M124"
-    nodeVersion: "20.11"
+    nodeVersion: "20.16"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
@@ -295,23 +303,6 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "v8.9"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

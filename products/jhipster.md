@@ -2,6 +2,7 @@
 title: JHipster
 category: app
 tags: java-runtime javascript-runtime
+iconSlug: jhipster
 permalink: /jhipster
 versionCommand: yo jhipster
 releasePolicyLink: https://www.jhipster.tech/releases/
@@ -23,8 +24,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-11-02
     eol: false
-    latest: "8.8.0"
-    latestReleaseDate: 2024-12-23
+    latest: "8.9.0"
+    latestReleaseDate: 2025-02-08
 
 -   releaseCycle: "7"
     releaseDate: 2021-03-21

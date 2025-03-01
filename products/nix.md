@@ -17,102 +17,110 @@ auto:
   methods:
   -   git: https://github.com/NixOS/nix.git
 
-# eol(x) = releaseDate(x+1), until a more detailed
+# eol(x) = releaseDate(x+1) ( except if any minor update exist the eol became the date of related latestReleaseDate )
+# for example if 2.5 released 2.4 became eol on the other hand if 2.4.2 releases after 2.5 release then EOL of the 2.4 will became
+# equal to 2.4.2's release date instead of 2.5's release date
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.26"
+    releaseDate: 2025-01-22
+    eol: false # releaseDate(2.27)
+    latest: "2.26.2"
+    latestReleaseDate: 2025-02-12
+
 -   releaseCycle: "2.25"
     releaseDate: 2024-11-11
-    eol: false # releaseDate(2.26)
-    latest: "2.25.3"
-    latestReleaseDate: 2024-12-02
+    eol: 2025-01-22 # releaseDate(2.26)
+    latest: "2.25.5"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "2.24"
     releaseDate: 2024-08-01
-    eol: 2024-11-11 # releaseDate(2.25)
-    latest: "2.24.11"
-    latestReleaseDate: 2024-12-10
+    eol: 2025-01-22 # releaseDate(last releasedate of 2.24 series because 2.25 released)
+    latest: "2.24.12"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "2.23"
     releaseDate: 2024-06-12
-    eol: 2024-08-01
+    eol: 2024-10-31
     latest: "2.23.4"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.22"
     releaseDate: 2024-04-23
-    eol: 2024-06-12
+    eol: 2024-10-31
     latest: "2.22.4"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.21"
     releaseDate: 2024-03-11
-    eol: 2024-04-23
+    eol: 2024-10-31
     latest: "2.21.5"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.20"
     releaseDate: 2024-01-29
-    eol: 2024-03-11
+    eol: 2024-10-31
     latest: "2.20.9"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.19"
     releaseDate: 2023-11-20
-    eol: 2024-01-29
+    eol: 2024-10-31
     latest: "2.19.7"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.18"
     releaseDate: 2023-09-20
-    eol: 2023-11-17 # releaseDate(2.19)
+    eol: 2024-10-31
     latest: "2.18.9"
     latestReleaseDate: 2024-10-31
 
 -   releaseCycle: "2.17"
     releaseDate: 2023-07-24
-    eol: 2023-09-20
+    eol: 2024-03-15
     latest: "2.17.2"
     latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "2.16"
     releaseDate: 2023-05-31
-    eol: 2023-07-24
+    eol: 2024-03-15
     latest: "2.16.3"
     latestReleaseDate: 2024-03-15
 
 -   releaseCycle: "2.15"
     releaseDate: 2023-04-11
-    eol: 2023-05-31
+    eol: 2023-10-19
     latest: "2.15.3"
     latestReleaseDate: 2023-10-19
 
 -   releaseCycle: "2.14"
     releaseDate: 2023-02-28
-    eol: 2023-04-11
+    eol: 2023-03-02
     latest: "2.14.1"
     latestReleaseDate: 2023-03-02
 
 -   releaseCycle: "2.13"
     releaseDate: 2023-01-17
-    eol: 2023-02-28
+    eol: 2023-10-18
     latest: "2.13.6"
     latestReleaseDate: 2023-10-18
 
 -   releaseCycle: "2.12"
     releaseDate: 2022-12-06
-    eol: 2023-01-17
+    eol: 2023-02-27
     latest: "2.12.1"
     latestReleaseDate: 2023-02-27
 
 -   releaseCycle: "2.11"
     releaseDate: 2022-08-29
-    eol: 2022-12-06
+    eol: 2022-09-15
     latest: "2.11.1"
     latestReleaseDate: 2022-09-15
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-07-11
-    eol: 2022-08-29
+    eol: 2022-07-15
     latest: "2.10.3"
     latestReleaseDate: 2022-07-15
 

@@ -18,11 +18,17 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "1.13"
+    releaseDate: 2025-02-17
+    eol: false
+    latest: "1.13.2"
+    latestReleaseDate: 2025-02-27
+
 -   releaseCycle: "1.12"
     releaseDate: 2024-12-23
-    eol: false
-    latest: "1.12.1"
-    latestReleaseDate: 2025-01-02
+    eol: 2025-02-17
+    latest: "1.12.8"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "1.11"
     releaseDate: 2024-10-21
@@ -108,4 +114,4 @@ Only the latest engine release is supported with high-priority bug and security 
 Meilisearch engine version numbers have no relationship with Meilisearch SDK version numbers.
 SDKs follow their own release schedules and must address issues beyond compatibility with Meilisearch.
 
-Meilisearch is also available as a [commercial cloud offer](https://www.meilisearch.com/cloud).
+Meilisearch is also available as a [commercial cloud offering](https://www.meilisearch.com/cloud).

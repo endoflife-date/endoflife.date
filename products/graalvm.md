@@ -24,8 +24,8 @@ releases:
     releaseLabel: "JDK 23"
     releaseDate: 2024-09-17
     eol: 2025-03-18
-    latest: "jdk-23.0.1"
-    latestReleaseDate: 2024-10-15
+    latest: "jdk-23.0.2"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "jdk-22"
     releaseLabel: "JDK 22"
@@ -35,11 +35,12 @@ releases:
     latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "jdk-21"
+    lts: true
     releaseLabel: "JDK 21"
     releaseDate: 2023-09-19
-    eol: 2024-03-19
-    latest: "jdk-21.0.2"
-    latestReleaseDate: 2024-01-16
+    eol: 2031-09-30 # java 21 is LTS, oracle extended support until September 2031
+    latest: "jdk-21.0.6"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "jdk-20"
     releaseLabel: "JDK 20"
@@ -49,16 +50,16 @@ releases:
     latestReleaseDate: 2023-07-25
 
 -   releaseCycle: "jdk-17"
+    lts: true
     releaseLabel: "JDK 17"
     releaseDate: 2023-06-13
-    eol: 2023-10-24
+    eol: 2029-09-30 # java 17 is LTS, oracle extended support until September 2029
     latest: "jdk-17.0.9"
-    latestReleaseDate: 2023-10-24
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "22.3"
     releaseDate: 2022-10-25
     eol: 2023-10-25
-    lts: true
     latest: "22.3.3"
     latestReleaseDate: 2023-07-25
 
@@ -104,8 +105,8 @@ releases:
 -   releaseCycle: "21.0"
     releaseDate: 2021-01-19
     eol: 2021-04-20
-    latest: "21.0.5"
-    latestReleaseDate: 2024-10-15
+    latest: "21.0.6"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "20.3"
     releaseDate: 2020-11-17

@@ -21,15 +21,15 @@ auto:
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-06-14
-    eoas: 2032-05-31
-    eol: 2032-06-30
+    eoas: 2024-10-23
+    eol: 2024-11-03
     latest: "9.4"
     latestReleaseDate: 2024-05-10
 
 -   releaseCycle: "8"
     releaseDate: 2021-07-12
-    eoas: 2029-03-01
-    eol: 2029-06-30
+    eoas: 2024-10-23
+    eol: 2024-11-03
     latest: "8.10"
     latestReleaseDate: 2024-05-27
 
@@ -49,13 +49,11 @@ releases:
 
 ---
 
-> [EuroLinux](https://euro-linux.com) is a Polish Enterprise Linux distribution that has been in
-> development since 2013. EuroLinux guarantees its compatibility with RHEL and CentOS. It is
-> available in two versions: paid and free, with the paid version providing additional technical
-> support cover.
+> [EuroLinux](https://euro-linux.com) was a Polish Enterprise Linux distribution
+> that maintained compatibility with RHEL and CentOS.
 
-EuroLinux releases regular updates within 1 business day from RHEL. Each release, like RHEL, comes
-with a 10-year lifecycle.
+{: .warning }
+> The EuroLinux distribution reached End-Of-Life in October 2024. The EuroLinux team
+> [advises and supports migration to Rocky Linux](https://docs.euro-linux.com/HowTo/migrate_to_rocky_linux/).
 
-The table above showcases Standard Support dates. EuroLinux 6 paid Extended Support ends at
-July 31, 2024
+The EuroLinux project has now evolved into a comprehensive support service for Linux systems.

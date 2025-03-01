@@ -14,6 +14,8 @@ identifiers:
 -   purl: pkg:npm/yarn
 -   purl: pkg:npm/yarnpkg/cli
 -   repology: yarn
+-   cpe: cpe:2.3:a:yarnpkg:yarn
+-   cpe: cpe:/a:yarnpkg:yarn
 
 auto:
   methods:

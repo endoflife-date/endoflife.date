@@ -9,10 +9,6 @@ releasePolicyLink: https://github.com/etcd-io/etcd/blob/main/Documentation/contr
 changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 releaseDateColumn: true
 
-auto:
-  methods:
-  -   git: https://github.com/etcd-io/etcd.git
-
 identifiers:
 -   repology: etcd
 -   purl: pkg:docker/bitnami/etcd
@@ -21,6 +17,9 @@ identifiers:
 -   purl: pkg:github/etcd-io/etcd
 -   purl: pkg:golang/github.com/etcd-io/etcd
 
+auto:
+  methods:
+  -   git: https://github.com/etcd-io/etcd.git
 
 # tentative rule:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x+1))
@@ -29,14 +28,14 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: '3.5.17'
-    latestReleaseDate: 2024-11-12
+    latest: '3.5.18'
+    latestReleaseDate: 2025-01-25
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: false
-    latest: '3.4.35'
-    latestReleaseDate: 2024-11-12
+    latest: '3.4.36'
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "3.3"
     releaseDate: 2018-02-01

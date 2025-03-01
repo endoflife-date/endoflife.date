@@ -12,13 +12,14 @@ changelogTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
 eoasColumn: true
 releaseDateColumn: true
 
+identifiers:
+-   repology: chef-client
+-   repology: chef-infra
+-   cpe: cpe:2.3:a:chef:chef
+
 auto:
   methods:
   -   custom: chef-infra-client
-
-identifiers:
--   repology: chef-client
--   cpe: cpe:2.3:a:chef:chef
 
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # eoas(x) = releaseDate(x+1)

@@ -2,6 +2,7 @@
 title: Nuxt
 category: framework
 tags: javascript-runtime herodevs
+iconSlug: nuxt
 permalink: /nuxt
 versionCommand: npm list nuxt
 releasePolicyLink: https://nuxt.com/docs/community/roadmap
@@ -31,8 +32,8 @@ releases:
     releaseDate: 2022-11-16
     eoas: false
     eol: false
-    latest: "3.15.0"
-    latestReleaseDate: 2024-12-24
+    latest: "3.15.4"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "2"
     releaseDate: 2018-09-21
