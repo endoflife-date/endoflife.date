@@ -9,7 +9,6 @@ versionCommand: cat /opt/couchbase/VERSION.txt
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software/
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
 eolColumn: Full Maintenance
-releaseDateColumn: true
 
 identifiers:
 -   repology: couchbase-server-community

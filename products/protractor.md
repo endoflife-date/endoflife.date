@@ -5,7 +5,6 @@ tags: google javascript-runtime herodevs
 iconSlug: protractor
 permalink: /protractor
 versionCommand: npm list protractor
-releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Commercial Support
 

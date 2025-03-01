@@ -5,7 +5,6 @@ iconSlug: podman
 permalink: /podman
 versionCommand: podman --remote version --format '{{.Server.Version}}'
 changelogTemplate: "https://github.com/containers/podman/releases/tag/v__LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   repology: podman

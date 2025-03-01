@@ -11,7 +11,6 @@ versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 identifiers:

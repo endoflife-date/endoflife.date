@@ -7,7 +7,6 @@ permalink: /pangp
 alternate_urls:
 -   /pan-gp
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: End-of-life Date
 

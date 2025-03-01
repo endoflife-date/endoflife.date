@@ -9,7 +9,6 @@ alternate_urls:
 -   /jira-core
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: jira

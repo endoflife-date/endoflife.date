@@ -10,7 +10,6 @@ versionCommand: chef-client -v
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_client/#__LATEST__"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: chef-client

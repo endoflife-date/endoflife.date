@@ -5,7 +5,6 @@ iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolWarnThreshold: 14
 
 identifiers:

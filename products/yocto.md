@@ -9,7 +9,6 @@ versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
 changelogTemplate: https://docs.yoctoproject.org/migration-guides/migration-__RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eolColumn: Support Status
 
 auto:

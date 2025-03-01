@@ -11,7 +11,6 @@ alternate_urls:
 -   /vmware-esxi
 versionCommand: vmware -l
 releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
-releaseDateColumn: true
 eolColumn: General Support
 
 identifiers:

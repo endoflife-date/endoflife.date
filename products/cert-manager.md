@@ -10,7 +10,6 @@ versionCommand: |-
   cmctl version
 releasePolicyLink: https://cert-manager.io/docs/releases/
 changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

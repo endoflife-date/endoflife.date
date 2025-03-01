@@ -30,6 +30,7 @@ auto:
 releases:
 -   releaseCycle: "5"
     supportedPHPVersions: "8.2 - 8.3"
+    releaseDate: 2024-04-17
     eoas: false
     eol: false
     latest: "5.1.0"
@@ -37,6 +38,7 @@ releases:
 
 -   releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
+    releaseDate: 2022-09-20
     eoas: false
     eol: false
     latest: "4.0.6"
@@ -44,6 +46,7 @@ releases:
 
 -   releaseCycle: "3"
     supportedPHPVersions: "7.1 - 8.1"
+    releaseDate: 2021-02-21 # starts with 3.0.1
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "3.0.12"
@@ -51,6 +54,7 @@ releases:
 
 -   releaseCycle: "2"
     supportedPHPVersions: "7.1 - 7.4"
+    releaseDate: 2019-10-29
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "2.2.2"
@@ -58,6 +62,7 @@ releases:
 
 -   releaseCycle: "1"
     supportedPHPVersions: "5.5 - 7.4"
+    releaseDate: 2016-11-10
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "1.5.0"

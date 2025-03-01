@@ -8,7 +8,6 @@ alternate_urls:
 -   /zulu
 versionCommand: java -version
 releasePolicyLink: https://www.azul.com/products/azul-support-roadmap/
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: true
 customColumns:

@@ -8,7 +8,6 @@ alternate_urls:
 -   /vmwarevcenter
 -   /vmware-vcenter
 releasePolicyLink: https://lifecycle.vmware.com
-releaseDateColumn: true
 eolColumn: General Support
 
 identifiers:

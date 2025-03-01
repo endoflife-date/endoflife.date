@@ -8,7 +8,6 @@ alternative_urls:
 -   /umbraco-cms
 releasePolicyLink: https://umbraco.com/products/knowledge-center/long-term-support-and-end-of-life/
 changelogTemplate: "https://our.umbraco.com/download/releases/{{'__LATEST__'|replace:'.',''}}"
-releaseDateColumn: true
 eoasColumn: Support
 eolColumn: Security
 

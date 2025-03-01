@@ -13,7 +13,6 @@ changelogTemplate: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/__RELEA
 LTSLabel: CE
 iconSlug: paloaltonetworks
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Support Status
 
 auto:

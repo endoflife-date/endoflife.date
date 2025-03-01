@@ -13,7 +13,6 @@ releasePolicyLink: https://www.oracle.com/java/technologies/java-se-support-road
 changelogTemplate: "https://www.oracle.com/java/technologies/javase/{{'__LATEST__'|replace:'.','-'}}-{% if '__RELEASE_CYCLE__'=='__LATEST__' %}relnote-issues{% else %}relnotes{% endif %}.html"
 eolColumn: Premier Support
 eoesColumn: Extended Support
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:oracle:jdk

@@ -10,7 +10,6 @@ releaseImage: https://www.drupal.org/files/Drupal2024-2027.png
 changelogTemplate: https://www.drupal.org/project/drupal/releases/__LATEST__
 eoesColumn: Commercial Support
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: php:drupal

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: sw_vers
 releasePolicyLink: https://developer.apple.com/documentation/macos-release-notes
 releaseLabel: "macOS __RELEASE_CYCLE__ (__CODENAME__)"
-releaseDateColumn: true
 eolColumn: Service Status
 
 identifiers:

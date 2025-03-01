@@ -8,7 +8,6 @@ versionCommand: deno --version
 releasePolicyLink: https://docs.deno.com/runtime/fundamentals/stability_and_releases/
 releaseImage: https://docs.deno.com/runtime/fundamentals/images/deno-lts-support.png
 changelogTemplate: https://github.com/denoland/deno/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:docker/denoland/deno

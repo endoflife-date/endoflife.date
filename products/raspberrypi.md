@@ -11,7 +11,6 @@ releasePolicyLink: https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison
 discontinuedColumn: true
 eolColumn: false
 releaseColumn: false
-releaseDateColumn: true
 
 releases:
 -   releaseCycle: "5-500"

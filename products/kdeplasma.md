@@ -9,7 +9,6 @@ versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
 changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Critical bug fixes
 
 identifiers:

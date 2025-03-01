@@ -7,7 +7,6 @@ permalink: /angular
 versionCommand: ng version
 releasePolicyLink: https://angular.dev/reference/releases
 changelogTemplate: https://github.com/angular/angular/releases/tag/__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoesColumn: Commercial Support
 eoasWarnThreshold: 30

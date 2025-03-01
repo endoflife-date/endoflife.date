@@ -4,7 +4,6 @@ category: server-app
 permalink: /rtpengine
 versionCommand: rtpengine -v
 releaseLabel: "mr__RELEASE_CYCLE__"
-releaseDateColumn: true
 
 identifiers:
 -   repology: rtpengine
@@ -62,7 +61,7 @@ releases:
 
 ---
 
-> The [Sipwise NGCP rtpengine](https://www.sipwise.com/products/rtpengine/) is a proxy for RTP traffic and other UDP based media traffic. 
+> The [Sipwise NGCP rtpengine](https://www.sipwise.com/products/rtpengine/) is a proxy for RTP traffic and other UDP based media traffic.
 > It’s meant to be used with the Kamailio SIP proxy and forms a drop-in replacement for any of the other available RTP and media proxies.
 
 rtpengine release, support and EOL policies are not documented, but support status for each release can be found on <https://www.sipwise.com/releases/>.

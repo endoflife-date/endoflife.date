@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: envoy --version
 releasePolicyLink: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 changelogTemplate: https://github.com/envoyproxy/envoy/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: envoy-proxy

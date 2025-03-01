@@ -7,7 +7,6 @@ permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
 changelogTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
 releaseColumn: true
-releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support

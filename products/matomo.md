@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: console core:version
 releasePolicyLink: https://matomo.org/faq/new-to-piwik/faq_18925/
 changelogTemplate: https://github.com/matomo-org/matomo/releases/tag/__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Long Term Support
 

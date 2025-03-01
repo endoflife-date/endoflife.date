@@ -8,7 +8,6 @@ alternate_urls:
 -   /hmd
 -   /nokiamobile
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
-releaseDateColumn: true
 releaseColumn: false
 
 # EOL estimation if not explicitly announced by Nokia on product page

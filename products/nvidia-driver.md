@@ -11,7 +11,6 @@ releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-b
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
-releaseDateColumn: true
 
 # Branch type see https://docs.nvidia.com/datacenter/tesla/drivers/releases.json
 #

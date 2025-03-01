@@ -7,7 +7,6 @@ permalink: /apache-struts
 alternate_urls:
 -   /struts
 changelogTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

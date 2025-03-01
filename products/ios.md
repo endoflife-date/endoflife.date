@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

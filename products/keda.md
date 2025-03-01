@@ -6,7 +6,6 @@ permalink: /keda
 releasePolicyLink: https://github.com/kedacore/keda?tab=security-ov-file#readme
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
-releaseDateColumn: true
 
 auto:
   methods:

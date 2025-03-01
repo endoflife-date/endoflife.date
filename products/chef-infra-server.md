@@ -10,7 +10,6 @@ versionCommand: chef-server-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: chef-server

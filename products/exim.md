@@ -4,7 +4,6 @@ category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy
 changelogTemplate: https://github.com/Exim/exim/releases/tag/exim-__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: exim

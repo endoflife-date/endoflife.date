@@ -4,7 +4,6 @@ category: framework
 tags: php-runtime
 permalink: /guzzle
 releasePolicyLink: https://github.com/guzzle/guzzle?tab=readme-ov-file#version-guidance
-releaseDateColumn: true
 customColumns:
 -   property: supportedPHPVersions
     position: after-release-column

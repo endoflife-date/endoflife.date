@@ -10,7 +10,6 @@ releasePolicyLink: https://docs.godotengine.org/en/latest/about/release_policy.h
 changelogTemplate: "https://github.com/godotengine/godot/releases/tag/{{'__LATEST__'|drop_zero_patch}}-stable"
 eolColumn: Critical, Security and Platform support
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: godot

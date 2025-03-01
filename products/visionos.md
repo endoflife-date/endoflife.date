@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /visionos
 releasePolicyLink: https://en.wikipedia.org/wiki/VisionOS#Version_history
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:

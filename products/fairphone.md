@@ -6,7 +6,6 @@ iconSlug: fairphone
 permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates

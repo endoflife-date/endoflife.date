@@ -7,7 +7,6 @@ alternate_urls:
 -   /mssharepoint
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
 eoasColumn: true
-releaseDateColumn: true
 
 releases:
 -   releaseCycle: "subscription"

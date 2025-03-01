@@ -8,7 +8,6 @@ versionCommand: bazel --version
 releasePolicyLink: https://bazel.build/release
 releaseImage: https://blog.bazel.build/assets/lts_timeline.png
 changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

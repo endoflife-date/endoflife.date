@@ -8,7 +8,6 @@ alternate_urls:
 -   /apache-ant
 changelogTemplate: https://ant.apache.org/antnews.html
 versionCommand: ant -version
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:apache:ant

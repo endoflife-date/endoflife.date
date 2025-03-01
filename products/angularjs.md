@@ -8,7 +8,6 @@ alternate_urls:
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
 changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Extended Long Term Support
 customColumns:

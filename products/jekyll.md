@@ -6,7 +6,6 @@ iconSlug: jekyll
 permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 

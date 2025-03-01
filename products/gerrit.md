@@ -7,7 +7,6 @@ versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
 changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
 eolColumn: "Support"
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:docker/gerritcodereview/gerrit

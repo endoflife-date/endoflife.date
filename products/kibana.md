@@ -7,7 +7,6 @@ permalink: /kibana
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/kibana/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: kibana

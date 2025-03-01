@@ -9,7 +9,6 @@ versionCommand: mongod --version
 releasePolicyLink: https://www.mongodb.com/legal/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-releaseDateColumn: true
 
 # MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
 # are the same for both, but the package names are different, hence the two different

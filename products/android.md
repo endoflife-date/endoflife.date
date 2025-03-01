@@ -11,7 +11,6 @@ releasePolicyLink: https://developer.android.com/about/versions
 changelogTemplate: https://developer.android.com/about/versions/__RELEASE_CYCLE__
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Security Support
 
 customColumns:

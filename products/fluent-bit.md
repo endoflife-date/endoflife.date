@@ -9,7 +9,6 @@ versionCommand: |-
   fluent-bit -v
 releasePolicyLink: https://fluentbit.io/announcements/older-versions
 changelogTemplate: https://github.com/fluent/fluent-bit/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:

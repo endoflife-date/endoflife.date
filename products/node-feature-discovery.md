@@ -13,7 +13,6 @@ versionCommand: |-
     $ nfd-gc -version
 releasePolicyLink: https://github.com/kubernetes-sigs/node-feature-discovery/releases
 changelogTemplate: https://github.com/kubernetes-sigs/node-feature-discovery/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:
