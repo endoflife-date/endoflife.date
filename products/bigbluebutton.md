@@ -10,16 +10,16 @@ releaseDateColumn: true
 
 auto:
   methods:
-  -   git: https://github.com/bigbluebutton/bigbluebutton.git
+  -   github_releases: bigbluebutton/bigbluebutton
 
 
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "2.7"
-    releaseDate: 2023-09-07
+    releaseDate: 2023-09-06
     eol: false
-    latest: "2.7.15"
-    latestReleaseDate: 2024-12-20
+    latest: "2.7.16"
+    latestReleaseDate: 2024-12-11
 
 -   releaseCycle: "2.6"
     releaseDate: 2023-03-20
@@ -30,7 +30,7 @@ releases:
 -   releaseCycle: "2.5"
     releaseDate: 2022-06-09
     eol: true
-    latest: "2.5.20"
+    latest: "2.5.20" # not a GitHub release
     latestReleaseDate: 2024-05-11
 
 ---
