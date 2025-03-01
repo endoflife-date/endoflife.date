@@ -13,8 +13,6 @@ eoesColumn: Extended Long Term Support
 auto:
   methods:
     - git: https://github.com/gruntjs/grunt.git
-      regex: ^v(?P<version>\d+\.\d+\.\d+)$
-      template: "{{version}}"
 
 releases:
 -   releaseCycle: "1.6"
