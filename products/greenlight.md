@@ -9,6 +9,7 @@ releaseDateColumn: true
 auto:
   methods:
   -   git: https://github.com/bigbluebutton/greenlight.git
+      regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
 # EOL dates can be found in SECURITY.md history (https://github.com/bigbluebutton/greenlight/commits/master/SECURITY.md)
 releases:
