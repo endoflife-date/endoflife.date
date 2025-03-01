@@ -7,7 +7,7 @@ permalink: /pop-os
 alternate_urls:
 -   /popos
 -   /pop_os
-versionCommand: lsb_release --release
+versionCommand: cat /etc/os-release
 releaseColumn: false
 releaseDateColumn: true
 eolColumn: General Support
