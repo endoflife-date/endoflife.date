@@ -58,16 +58,10 @@ releases:
 > [React](https://react.dev/) is an open-source JavaScript library for building modern web
 > applications.
 
-## Versioning
+React follows [Semantic Versioning](https://semver.org/) principles. The latest major
+release is supported with new features, bug and security fixes. All previous major
+releases are [supported with critical security fixes](https://react.dev/community/versioning-policy#stable-releases).
 
-React follows [Semantic Versioning](https://semver.org/) principles. The only officially supported
-release channel for user-facing applications is Latest. New features are released in minor versions.
-Patch releases are made only for the most critical bugs and security vulnerabilities. Major
-releases can also contain new features, and any release can include bug fixes.
-
-## [Support](https://github.com/reactjs/react.dev/issues/1745)
-
-**Active Support**: Only the latest release cycle gets non-critical bugfixes, and new features.
-
-**Security Support**: [Critical Security fixes are backported](https://react.dev/community/versioning-policy#stable-releases) to all minor releases of the current
-major, as well as to latest minor release of previous major releases.
+According to [a comment from one of the React core developer](https://github.com/reactjs/react.dev/issues/1745#issuecomment-857172083),
+critical security fixes are also backported to all minor versions of the current
+major releases.
