@@ -24,8 +24,8 @@ releases:
     codename: "Ultimate Unicorn"
     releaseDate: 2025-01-28
     eol: false
-    latest: "25.1.1"
-    latestReleaseDate: 2025-02-11
+    latest: "25.1.2"
+    latestReleaseDate: 2025-02-27
 
 -   releaseCycle: "24.7"
     codename: "Thriving Tiger"
