@@ -1,7 +1,7 @@
 ---
 title: Angular
 category: framework
-tags: google javascript-runtime
+tags: google javascript-runtime herodevs
 iconSlug: angular
 permalink: /angular
 versionCommand: ng version

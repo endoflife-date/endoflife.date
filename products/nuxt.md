@@ -1,7 +1,7 @@
 ---
 title: Nuxt
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: nuxt
 permalink: /nuxt
 versionCommand: npm list nuxt
