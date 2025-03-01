@@ -16,6 +16,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/apache/nifi.git
+      regex: '^rel\/nifi-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
 -   releaseCycle: "1.27.0"
