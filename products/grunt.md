@@ -81,5 +81,5 @@ with bug and security fixes.
 
 The Grunt team has indicated that they will be participating in the
 [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
-(ESP) and have announced that [commercial support for EOL branches](https://gruntjs.com/support) is
+(ESP) and have announced that [commercial support for EOL releases](https://gruntjs.com/support) is
 now available through [HeroDevs](https://www.herodevs.com/support/grunt-nes).
