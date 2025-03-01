@@ -9,6 +9,17 @@ releaseDateColumn: true
 latestColumn: true
 eolColumn: End of Servicing Date
 
+auto:
+  methods:
+  -   release_table: https://learn.microsoft.com/en-us/surface/surface-driver-firmware-lifecycle-support
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Surface device"
+          regex: '^(?P<value>Surface .+)$'
+        releaseDate: "Release date"
+        eol: "End-of-servicing date for firmware & drivers"
+
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
 -   releaseCycle: Surface Laptop SE
@@ -113,7 +124,7 @@ releases:
 
 -   releaseCycle: Surface Book 2
     releaseDate: 2017-11-17
-    eol: 2023-05-30
+    eol: 2023-06-30
     link: https://support.microsoft.com/surface/surface-book-2-specs-and-features-d752c78d-d1fc-c483-c80d-8343e68ad96b
 
 -   releaseCycle: Surface Pro (5th gen)
