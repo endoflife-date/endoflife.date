@@ -13,6 +13,7 @@ auto:
   methods:
     - git: https://github.com/gruntjs/grunt.git
 
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "1.6"
     releaseDate: 2023-01-28
