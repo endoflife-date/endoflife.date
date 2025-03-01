@@ -12,7 +12,6 @@ auto:
   methods:
   -   github_releases: bigbluebutton/bigbluebutton
 
-
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "2.7"
@@ -29,7 +28,7 @@ releases:
 
 -   releaseCycle: "2.5"
     releaseDate: 2022-06-09
-    eol: true
+    eol: 2023-09-06
     latest: "2.5.20" # not a GitHub release
     latestReleaseDate: 2024-05-11
 
