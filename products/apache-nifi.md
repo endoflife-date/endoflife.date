@@ -8,7 +8,6 @@ alternate_urls:
 -   /nifi
 changelogTemplate: https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version__LATEST__
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: nifi

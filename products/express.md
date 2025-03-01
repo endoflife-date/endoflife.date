@@ -6,7 +6,6 @@ iconSlug: express
 permalink: /express
 releasePolicyLink: https://expressjs.com/en/support/
 changelogTemplate: https://github.com/expressjs/express/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Security Support
 eoesColumn: Commercial Support
 

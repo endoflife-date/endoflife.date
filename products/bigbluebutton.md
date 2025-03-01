@@ -7,7 +7,6 @@ alternate_urls:
 -   /bbb
 releasePolicyLink: https://github.com/bigbluebutton/bigbluebutton/security
 changelogTemplate: https://github.com/bigbluebutton/bigbluebutton/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 auto:
   methods:
