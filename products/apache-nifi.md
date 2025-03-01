@@ -79,8 +79,7 @@ releases:
 > [Apache NiFi](https://nifi.apache.org/) is a software project designed to automate the
 > flow of data between software systems. 
 
-Apache NiFi has no published information on supported releases. This page marks the latest minor release as supported
-and other releases as EOL on the day of the succeeding release.
+The support and EOL policy is not documented. Looking at past releases, it seems that only the latest release is actively maintained.
 
 The full list of versions, with their associated release notes, is available [on the Apache NiFi
 Wiki](https://cwiki.apache.org/confluence/display/NIFI/Release+Notes).
