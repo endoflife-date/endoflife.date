@@ -6,7 +6,7 @@ iconSlug: oracle
 permalink: /oracle-linux
 alternate_urls:
 -   /oraclelinux
-versionCommand: lsb_release --release
+versionCommand: cat /etc/oracle-release # https://linux-audit.com/how-to-see-version-of-oracle-linux/
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 changelogTemplate: https://docs.oracle.com/en/operating-systems/oracle-linux/__RELEASE_CYCLE__/relnotes__LATEST__/
 releaseDateColumn: true
