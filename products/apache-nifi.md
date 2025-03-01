@@ -75,8 +75,8 @@ releases:
 
 ---
 
-> [Apache NiFi](https://nifi.apache.org/) is an easy to use, powerful, and reliable system 
-> to process and distribute data.
+> [Apache NiFi](https://nifi.apache.org/) is a software project designed to automate the
+> flow of data between software systems. 
 
 Apache NiFi has no published information on supported releases. This page marks the latest minor release as supported
 and other releases as EOL on the day of the succeeding release.
