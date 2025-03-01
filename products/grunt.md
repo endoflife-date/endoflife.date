@@ -59,8 +59,8 @@ releases:
     releaseDate: 2016-04-04
     eol: true
     eoes: false
-    latest: "1.0.0"
-    latestReleaseDate: 2016-04-04
+    latest: "1.0.4"
+    latestReleaseDate: 2019-03-22
 
 -   releaseCycle: "0.4"
     releaseDate: 2013-02-18
