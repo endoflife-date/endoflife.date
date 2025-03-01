@@ -3,6 +3,7 @@ title: Greenlight
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight
+changelogTemplate: https://github.com/bigbluebutton/greenlight/releases/tag/release-__LATEST__
 releaseDateColumn: true
 
 auto:
