@@ -24,16 +24,6 @@ releases:
     eol: false
     latest: "1.27.0"
 
--   releaseCycle: "2.0.0-M4"
-    releaseDate: 2024-07-01
-    eol: false
-    latest: "2.0.0-M4"
-
--   releaseCycle: "2.0.0-M3"
-    releaseDate: 2024-05-16
-    eol: 2024-07-02
-    latest: "2.0.0-M3"
-
 -   releaseCycle: "1.26.0"
     releaseDate: 2024-05-06
     eol: 2024-07-09
@@ -48,16 +38,6 @@ releases:
     releaseDate: 2023-11-27
     eol: 2024-01-30
     latest: "1.24.0"
-
--   releaseCycle: "2.0.0-M2"
-    releaseDate: 2023-11-25
-    eol: 2024-05-17
-    latest: "2.0.0-M2"
-
--   releaseCycle: "2.0.0-M1"
-    releaseDate: 2023-11-25
-    eol: 2024-01-30
-    latest: "2.0.0-M1"
 
 -   releaseCycle: "1.23.0"
     releaseDate: 2023-07-28
