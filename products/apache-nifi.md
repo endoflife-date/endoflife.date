@@ -81,5 +81,3 @@ releases:
 
 The support and EOL policy is not documented. Looking at past releases, it seems that only the latest release is actively maintained.
 
-The full list of versions, with their associated release notes, is available [on the Apache NiFi
-Wiki](https://cwiki.apache.org/confluence/display/NIFI/Release+Notes).
