@@ -6,7 +6,6 @@ iconSlug: grunt
 permalink: /grunt
 releasePolicyLink: https://github.com/gruntjs/grunt
 changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Long Term Support
 
