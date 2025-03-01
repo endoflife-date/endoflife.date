@@ -76,9 +76,8 @@ releases:
 > JavaScript task runner, a tool used to automate repetitive
 > tasks in your web development workflow.
 
-Grunt supports the latest version with security and bug
-fixes. All non-current versions are end-of-life and will
-not receive any security or bug fixes.
+Grunt follows [semver](https://semver.org/). Only the latest release is supported
+with bug and security fixes.
 
 The nvm team has indicated that they will be participating in the
 [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
