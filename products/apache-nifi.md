@@ -19,9 +19,33 @@ auto:
       regex: '^rel\/nifi-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
+-   releaseCycle: "2.2"
+    releaseDate: 2025-01-27
+    eol: false
+    latest: "2.2.0"
+    latestReleaseDate: 2025-01-27
+
+-   releaseCycle: "2.1"
+    releaseDate: 2024-12-23
+    eol: 2025-01-27
+    latest: "2.1.0"
+    latestReleaseDate: 2024-12-23
+
+-   releaseCycle: "2.0"
+    releaseDate: 2024-11-01
+    eol: 2024-12-23
+    latest: "2.0.0"
+    latestReleaseDate: 2024-11-01
+
+-   releaseCycle: "1.28"
+    releaseDate: 2024-10-26
+    eol: 2024-11-01
+    latest: "1.28.1"
+    latestReleaseDate: 2024-11-19
+
 -   releaseCycle: "1.27"
     releaseDate: 2024-07-07
-    eol: 2024-07-07
+    eol: 2024-10-26
     latest: "1.27.0"
     latestReleaseDate: 2024-07-07
 
