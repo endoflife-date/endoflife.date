@@ -18,6 +18,7 @@ auto:
   -   git: https://github.com/apache/nifi.git
       regex: '^rel\/nifi-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "2.2"
     releaseDate: 2025-01-27
