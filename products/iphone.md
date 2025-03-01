@@ -25,7 +25,7 @@ releases:
     releaseDate: 2025-02-28
     discontinued: false
     eol: false
-    link: 
+    link: https://support.apple.com/en-us/docs/iphone/301076
     supportedIosVersions: 18
 
 -   releaseCycle: "16"
