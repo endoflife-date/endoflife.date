@@ -3,7 +3,7 @@ title: EuroLinux
 category: os
 tags: linux-distribution
 permalink: /eurolinux
-versionCommand: lsb_release --release
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://euro-linux.com/en/software/eurolinux/specification/
 changelogTemplate: https://euro-linux.com/en/software/eurolinux/specification/
 eoasColumn: true
