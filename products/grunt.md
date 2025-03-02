@@ -5,7 +5,7 @@ tags: herodevs javascript
 iconSlug: grunt
 permalink: /grunt
 releasePolicyLink: https://github.com/gruntjs/grunt
-changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/__LATEST__
+changelogTemplate: https://github.com/gruntjs/grunt/releases/tag/v__LATEST__
 eolColumn: Community Support
 eoesColumn: Commercial Support
 
