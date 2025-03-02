@@ -7,7 +7,6 @@ permalink: /nvidia
 alternate_urls:
 - /nvidia-driver
 versionCommand: nvidia-smi
-releaseImage: https://docs.nvidia.com/datacenter/tesla/drivers/graphics/driver-branches-overview.png
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
