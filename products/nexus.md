@@ -274,6 +274,7 @@ releases:
     eol: 2024-07-28
     latest: "3.46.0-01"
     latestReleaseDate: 2023-01-30
+    link: https://help.sonatype.com/en/nexus-repository-3-46-0-release-notes.html
 
 -   releaseCycle: "3.45"
     releaseDate: 2022-12-28
@@ -289,6 +290,7 @@ releases:
     eol: 2024-06-12
     latest: "3.44.0-01"
     latestReleaseDate: 2022-12-19
+    link: https://help.sonatype.com/en/nexus-repository-3-44-0-release-notes.html
 
 -   releaseCycle: "3.43"
     releaseDate: 2022-11-07
@@ -296,6 +298,7 @@ releases:
     eol: 2024-05-05
     latest: "3.43.0-01"
     latestReleaseDate: 2022-11-09
+    link: https://help.sonatype.com/en/nexus-repository-3-43-0-release-notes.html
 
 -   releaseCycle: "3.42"
     releaseDate: 2022-09-26
@@ -303,6 +306,7 @@ releases:
     eol: 2024-03-24
     latest: "3.42.0-01"
     latestReleaseDate: 2022-09-26
+    link: https://help.sonatype.com/en/nexus-repository-3-42-0-release-notes.html
 
 -   releaseCycle: "3.41"
     releaseDate: 2022-07-27
@@ -326,6 +330,7 @@ releases:
     eol: 2023-11-19
     latest: "3.39.0-01"
     latestReleaseDate: 2022-05-23
+    link: https://help.sonatype.com/en/nexus-repository-3-39-0-release-notes.html
 
 -   releaseCycle: "3.38"
     releaseDate: 2022-03-03
@@ -349,6 +354,7 @@ releases:
     eol: 2023-04-29
     latest: "3.36.0-01"
     latestReleaseDate: 2021-10-29
+    link: https://help.sonatype.com/en/nexus-repository-3-36-0-release-notes.html
 
 -   releaseCycle: "3.35"
     releaseDate: 2021-10-13
@@ -356,6 +362,7 @@ releases:
     eol: 2023-04-13
     latest: "3.35.0-02"
     latestReleaseDate: 2021-10-12
+    link: https://help.sonatype.com/en/nexus-repository-3-35-0-release-notes.html
 
 -   releaseCycle: "3.34"
     releaseDate: 2021-08-31
