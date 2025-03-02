@@ -8,7 +8,7 @@ alternate_urls:
 -   /corretto
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
-changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
+changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releases/tag/__LATEST__
 
 identifiers:
 -   cpe: cpe:/a:amazon:corretto
@@ -83,7 +83,6 @@ releases:
     eol: 2025-04-30
     latest: "23.0.2.7.1"
     latestReleaseDate: 2025-01-21
-    link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
 
 -   releaseCycle: "22"
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
