@@ -24,7 +24,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^PowerShell (?P<value>\d+\.\d+).*$'
+          regex: '^PowerShell (?P<value>\d+\.\d+)(?!.*\(preview\)).*$'
         releaseDate: "Release Date"
         eol: "End-of-support"
 
