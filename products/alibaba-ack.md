@@ -6,7 +6,6 @@ iconSlug: alibabacloud
 permalink: /alibaba-ack
 alternate_urls:
 -   /ack
--   /alibaba-container-service-for-kubernetes
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
 releaseDateColumn: true
