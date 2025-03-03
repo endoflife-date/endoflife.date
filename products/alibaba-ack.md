@@ -60,7 +60,7 @@ releases:
 > own Kubernetes control plane or nodes. ACK runs patched Kubernetes versions and is certified Kubernetes
 > conformant for a predictable experience.
 
-The Kubernetes community releases a new minor version approximately every four months. Container Service for Kubernetes aligns with the upstream release cycle, iterating through the creation, maintenance, and discontinuation of Kubernetes versions. This topic describes how ACK supports various Kubernetes versions, detailing the version list update cycle, support policies, and the risks associated with using outdated Kubernetes versions.
+The Kubernetes community releases a new minor version approximately every four months. ACK aligns with the upstream release cycle, iterating through the creation, maintenance, and discontinuation of Kubernetes versions. 
 
 Starting from v1.31, ACK has expanded its support for Kubernetes versions from only even-numbered minor releases, such as v1.28 and v1.30, to include all minor versions. Additionally, for Kubernetes minor versions 1.31 and later, the ACK support cycle has been adjusted to one year.
 
