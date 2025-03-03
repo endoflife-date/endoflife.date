@@ -13,7 +13,7 @@ auto:
   -   git: https://github.com/api-platform/core.git
 
 # eoas(x) = releaseDate(x+1)
-# eol(x) = releaseDate(x+2)
+# eol(x) = releaseDate(x+3)
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2025-02-28
