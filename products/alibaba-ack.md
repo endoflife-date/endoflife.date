@@ -65,9 +65,10 @@ releases:
 
 ---
 
-> [Container Service for Kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes) is one of the first services to pass the Certified Kubernetes Conformance Program. 
-> ACK provides high-performance management services for containerized applications. You can manage enterprise-level containerized 
-> applications throughout the application lifecycle. This service allows you to run containerized applications in the cloud in an efficient manner.
+> [Alibaba Container Service for Kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes) is a managed service
+> that can be used to run Kubernetes on Alibaba without needing to install, operate, and maintain your
+> own Kubernetes control plane or nodes. ACK runs patched Kubernetes versions and is certified Kubernetes
+> conformant for a predictable experience.
 
 
 The Kubernetes community releases a new minor version approximately every four months. Container Service for Kubernetes aligns with the upstream release cycle, iterating through the creation, maintenance, and discontinuation of Kubernetes versions. This topic describes how ACK supports various Kubernetes versions, detailing the version list update cycle, support policies, and the risks associated with using outdated Kubernetes versions.
