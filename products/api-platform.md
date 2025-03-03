@@ -32,14 +32,14 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-09-18
     eoas: 2024-09-18
-    eol: 2025-02-28
+    eol: false
     latest: "3.4.16"
     latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-29
     eoas: 2024-09-18
-    eol: false
+    eol: 2025-02-28
     latest: "3.3.15"
     latestReleaseDate: 2025-01-17
 
