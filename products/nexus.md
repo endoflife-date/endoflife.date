@@ -392,7 +392,7 @@ releases:
     releaseDate: 2021-06-16
     eoas: true
     eol: 2022-12-16
-    latest: "3.31.1"
+    latest: "3.31.1-01"
     latestReleaseDate: 2021-06-23
     link: https://help.sonatype.com/en/nexus-repository-3-31-0---3-31-1-release-notes.html
 
