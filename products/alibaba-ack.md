@@ -15,7 +15,6 @@ releases:
 -   releaseCycle: "1.32"
     releaseDate: 2025-01-01
     eol: 2026-01-31
-    latest: '1.32.1-aliyun.1'
 
 -   releaseCycle: "1.31"
     releaseDate: 2024-09-01
