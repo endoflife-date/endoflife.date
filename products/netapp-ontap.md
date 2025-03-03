@@ -11,7 +11,7 @@ versionCommand: system-get-version
 releasePolicyLink: https://mysupport.netapp.com/site/info/version-support
 changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 eolColumn: Limited Support
-eoasColumn: Full Support 
+eoasColumn: Full Support
 eoesColumn: Self-Service Support
 releaseColumn: false # no public access to latest patch
 
@@ -40,7 +40,7 @@ releases:
     eoas: 2026-02-28
     eol: 2028-02-28
     eoes: 2031-02-28
-            
+
 -   releaseCycle: "9.11.1"
     releaseDate: 2022-07-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eoas: 2025-07-31
@@ -57,14 +57,21 @@ releases:
     releaseDate: 2021-06-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eoas: 2024-06-30
     eol: 2026-06-30
-    eoes: 2029-06-30     
+    eoes: 2029-06-30
 
 ---
 
-> [NetApp ONTAP](https://www.netapp.com/data-storage/ontap/) is a storage operating system designed for managing and protecting data across hybrid cloud environments. It offers features like data protection, storage efficiency, and seamless scalability. 
+> [NetApp ONTAP](https://www.netapp.com/data-storage/ontap/) is a storage operating system designed for managing and
+> protecting data across hybrid cloud environments. It offers features like data protection, storage efficiency,
+> and seamless scalability.
 
-NetApp typically provides major releases of ONTAP twice per year, with regular patches and updates to address security and performance issues. Each version of ONTAP is generally supported for  8 years as follow : 
-* Full support, the time period where NetApp provides full support for a version of a software product : 3 years
-* Limited Support, the time period where NetApp provides limited support for a version of a software product : 2 years
-* Self-Service, The time period where NetApp does not provide support for a version of a software product : Support 3 years
+NetApp typically provides major releases of ONTAP twice per year, with regular patches and updates to address security
+and performance issues.
+
+Each version of ONTAP is generally supported for 8 years as follows:
+- 3 years of full support, with technical support, root cause analysis, security vulnerability evaluation, BlueXP
+  Digital Advisor, documentation, software available online and service Updates (P-releases).
+- 2 years of limited support, with technical support, root cause analysis, BlueXP Digital Advisor, documentation and
+  software available online (service updates, including any form of software update, are not provided).
+- 3 years of self-service support, with only documentation available on the NetApp support site.
 
