@@ -9,6 +9,7 @@ alternate_urls:
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
 releaseDateColumn: true
+releaseColumn: false
 eolColumn: End of Support
 
 releases:
@@ -19,47 +20,38 @@ releases:
 -   releaseCycle: "1.31"
     releaseDate: 2024-09-01
     eol: 2025-09-30
-    latest: '1.31.1-aliyun.1'
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-06-01
     eol: 2026-06-30
-    latest: '1.30.7-aliyun.1'
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-10-01
     eol: 2025-10-31
-    latest: '1.28.15-aliyun.1'
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-01
     eol: 2025-04-30
-    latest: '1.26.15-aliyun.1'
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-09-01
     eol: 2024-09-30
-    latest: '1.24.6-aliyun.1'
 
 -   releaseCycle: "1.22"
     releaseDate: 2021-12-01
     eol: 2023-10-31
-    latest: '1.22.15-aliyun.1'
 
 -   releaseCycle: "1.20"
     releaseDate: 2021-04-01
     eol: 2023-04-30
-    latest: '1.20.11'
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-09-01
     eol: 2022-09-30
-    latest: "1.18.8"
 
 -   releaseCycle: "1.16"
     releaseDate: 2020-02-01
     eol: 2022-06-30
-    latest: "1.16.9"
 
 ---
 
