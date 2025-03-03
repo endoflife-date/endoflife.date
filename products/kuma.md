@@ -32,7 +32,7 @@ releases:
     releaseDate: 2024-04-17
     eol: 2026-04-19
     latest: "2.7.12"
-    latestReleaseDate: 2025-02-27
+    latestReleaseDate: 2025-03-03
     lts: true
 
 -   releaseCycle: "2.6"

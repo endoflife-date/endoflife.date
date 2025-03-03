@@ -38,7 +38,7 @@ releases:
 
 -   releaseCycle: "4"
     supportedPHPVersions: "8.0 - 8.3"
-    releaseDate: 2022-09-20
+    releaseDate: 2022-04-21
     eoas: false
     eol: false
     latest: "4.0.6"
@@ -62,7 +62,7 @@ releases:
 
 -   releaseCycle: "1"
     supportedPHPVersions: "5.5 - 7.4"
-    releaseDate: 2016-11-10
+    releaseDate: 2016-10-13
     eoas: true
     eol: true # https://github.com/consolidation/robo/pull/1154#issuecomment-1989610031
     latest: "1.5.0"

@@ -26,8 +26,8 @@ releases:
     codename: Péter
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1"
-    latestReleaseDate: 2024-09-30
+    latest: "7.1.1"
+    latestReleaseDate: 2025-03-03
 
 -   releaseCycle: "7.0"
     codename: Dijkstra
@@ -260,6 +260,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of
