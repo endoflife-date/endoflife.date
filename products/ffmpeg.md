@@ -21,9 +21,11 @@ auto:
       regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
+# LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
 -   releaseCycle: "7.1"
     codename: Péter
+    lts: true
     releaseDate: 2024-09-30
     eol: false
     latest: "7.1.1"
