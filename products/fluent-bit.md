@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "3.2"
     releaseDate: 2024-11-12
     eol: false # releaseDate(3.3)
-    latest: "3.2.7"
-    latestReleaseDate: 2025-02-25
+    latest: "3.2.8"
+    latestReleaseDate: 2025-02-28
 
 -   releaseCycle: "3.1"
     releaseDate: 2024-07-08

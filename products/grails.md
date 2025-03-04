@@ -52,8 +52,8 @@ releases:
     releaseDate: 2011-12-15
     eoas: true
     eol: 2021-06-30
-    latest: "2.5.6"
-    latestReleaseDate: 2017-03-23
+    latest: "2.6.1"
+    latestReleaseDate: 2022-06-07
 
 -   releaseCycle: "1"
     releaseDate: 2009-05-14
