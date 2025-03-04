@@ -27,6 +27,14 @@ auto:
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
+-   releaseCycle: "4.4"
+    releaseDate: 2025-03-03
+    eoas: 2025-03-03
+    eol: false
+    latest: "4.4.0"
+    latestReleaseDate: 2025-03-03
+    link: https://godotengine.org/releases/4.4/
+
 -   releaseCycle: "3.6"
     releaseDate: 2024-09-08
     lts: true
