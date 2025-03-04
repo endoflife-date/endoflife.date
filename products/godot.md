@@ -24,12 +24,13 @@ auto:
       regex: ^(?P<version>\d+(\.\d+){1,3})-stable$
       template: "{{version}}"
 
+# Support level see https://docs.godotengine.org/en/latest/about/release_policy.html#release-support-timeline
 # Do not forget to remove the link after the first patch release.
 # For 3.x releases, they get deprecated on 3.x+1 release (both 3.5 and 3.6 are LTS)
 releases:
 -   releaseCycle: "4.4"
     releaseDate: 2025-03-03
-    eoas: 2025-03-03
+    eoas: false
     eol: false
     latest: "4.4.0"
     latestReleaseDate: 2025-03-03
@@ -38,14 +39,14 @@ releases:
 -   releaseCycle: "3.6"
     releaseDate: 2024-09-08
     lts: true
-    eoas: 2024-09-08
+    eoas: false
     eol: false
     latest: "3.6.0"
     latestReleaseDate: 2024-09-08
 
 -   releaseCycle: "4.3"
     releaseDate: 2024-08-15
-    eoas: 2024-08-15
+    eoas: false
     eol: false
     latest: "4.3.0"
     latestReleaseDate: 2024-08-15
@@ -60,7 +61,7 @@ releases:
 -   releaseCycle: "4.1"
     releaseDate: 2023-07-05
     eoas: 2023-07-05
-    eol: false
+    eol: 2024-04-16
     latest: "4.1.4"
     latestReleaseDate: 2024-04-16
 
