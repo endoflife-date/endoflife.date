@@ -33,7 +33,7 @@ releases:
     releaseDate: 2025-01-27
     eoas: false # projected: 2026-01-27
     eol: false # projected: 2026-01-27
-    latest: "572.52"
+    latest: "572.61"
     latestReleaseDate: 2025-03-03
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-124-06/
 
