@@ -30,6 +30,7 @@ releases:
     releaseDate: 2025-02-25
     eoas: false # 4.19 GA + 3 months
     eol: 2026-08-25
+    eoes: 2027-02-25
     latest: "4.18.18"
     latestReleaseDate: 2025-02-26
 
