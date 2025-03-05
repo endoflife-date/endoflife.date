@@ -25,17 +25,17 @@ releases:
     releaseDate: 2025-01-27
     eoas: false # projected: 2026-01-27
     eol: false # projected: 2026-01-27
-    latest: "570.86.15"
-    latestReleaseDate: 2025-01-27
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-86-15/
+    latest: "570.124.06"
+    latestReleaseDate: 2025-03-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-124-06/
           
 -   releaseCycle: "R570-Windows (PB)"
     releaseDate: 2025-01-27
     eoas: false # projected: 2026-01-27
     eol: false # projected: 2026-01-27
-    latest: "572.13"
-    latestReleaseDate: 2025-01-27
-    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-86-15/
+    latest: "572.52"
+    latestReleaseDate: 2025-03-03
+    link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-124-06/
 
 -   releaseCycle: "R565-Linux (PB)"
     releaseDate: 2024-10-29
