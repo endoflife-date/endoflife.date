@@ -90,7 +90,7 @@ releases:
 
 -   releaseCycle: "5.1"
     releaseDate: 2016-08-02
-    eol: 2027-01-12
+    eol: false
     latest: "5.1"
     link: null
 
