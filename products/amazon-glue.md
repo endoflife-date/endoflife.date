@@ -15,7 +15,7 @@ releases:
     releaseDate: 2024-12-03
     eol: false
     pythonVersion: "3.11"
-    sparkVersion: "3.5 "
+    sparkVersion: "3.5"
     link: https://aws.amazon.com/about-aws/whats-new/2024/12/aws-glue-5-0/
 
 -   releaseCycle: "4.0"
