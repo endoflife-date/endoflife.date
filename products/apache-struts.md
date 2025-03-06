@@ -27,14 +27,14 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2024-12-11
     eol: false
-    eoes: yes
+    eoes: true
     latest: "7.0.3"
     latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
-    eoes: yes
+    eoes: true
     latest: "6.7.4"
     latestReleaseDate: 2025-02-20
 
