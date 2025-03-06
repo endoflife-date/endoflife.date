@@ -10,6 +10,14 @@ releaseColumn: false
 # Versions taken from https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 # EOL dates from https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html.
 releases:
+-   releaseCycle: "5.0"
+    releaseLabel: "5.0"
+    releaseDate: 2024-12-03
+    eol: false
+    pythonVersion: "3.11"
+    sparkVersion: "3.5"
+    link: https://aws.amazon.com/about-aws/whats-new/2024/12/aws-glue-5-0/
+
 -   releaseCycle: "4.0"
     releaseLabel: "4.0"
     releaseDate: 2022-11-28
@@ -72,7 +80,7 @@ Jobs running on deprecated versions of AWS Glue are not eligible for technical s
 patches or any other updates. AWS Glue will also not honor SLAs when jobs are run on deprecated
 versions.
 
-## [Compatibility matrix](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html)
+## [Compatibility Matrix](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html)
 
 {% include table.html
 labels="Glue version,Python version,Spark version"
