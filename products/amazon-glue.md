@@ -81,7 +81,7 @@ Jobs running on deprecated versions of AWS Glue are not eligible for technical s
 patches or any other updates. AWS Glue will also not honor SLAs when jobs are run on deprecated
 versions.
 
-## [Compatibility matrix](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html)
+## [Compatibility Matrix](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html)
 
 {% include table.html
 labels="Glue version,Python version,Spark version"
