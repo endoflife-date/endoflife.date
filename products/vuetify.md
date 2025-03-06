@@ -8,10 +8,11 @@ versionCommand: npm list vuetify
 releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:npm/vuetify
+-   cpe: cpe:2.3:a:vuetifyjs:vuetify
+-   cpe: cpe:/a:vuetifyjs:vuetify
 
 auto:
   methods:
@@ -41,8 +42,8 @@ releases:
     releaseDate: 2022-11-01
     eoas: false
     eol: false
-    latest: "3.7.6"
-    latestReleaseDate: 2024-12-18
+    latest: "3.7.15"
+    latestReleaseDate: 2025-03-04
 
 -   releaseCycle: "2"
     releaseDate: 2019-07-23

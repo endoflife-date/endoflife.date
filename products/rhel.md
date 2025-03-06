@@ -14,7 +14,6 @@ releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 eoasColumn: Full Support
 eolColumn: Maintenance Support
-releaseDateColumn: true
 eoesColumn: Extended Life Cycle Support
 
 identifiers:

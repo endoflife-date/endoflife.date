@@ -10,30 +10,35 @@ versionCommand: |-
   cmctl version
 releasePolicyLink: https://cert-manager.io/docs/releases/
 changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
-
-auto:
-  methods:
-  -   git: https://github.com/cert-manager/cert-manager.git
 
 identifiers:
 -   repology: cert-manager
 -   purl: pkg:docker/cert-manager/cert-manager
 
+auto:
+  methods:
+  -   git: https://github.com/cert-manager/cert-manager.git
+
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.17"
+    releaseDate: 2025-02-03
+    eol: false
+    latest: "1.17.1"
+    latestReleaseDate: 2025-02-13
+
 -   releaseCycle: "1.16"
     releaseDate: 2024-10-03
     eol: false
-    latest: "1.16.2"
-    latestReleaseDate: 2024-11-20
+    latest: "1.16.4"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "1.15"
     releaseDate: 2024-06-05
-    eol: false
-    latest: "1.15.4"
-    latestReleaseDate: 2024-11-19
+    eol: 2025-02-03
+    latest: "1.15.5"
+    latestReleaseDate: 2025-01-15
 
 -   releaseCycle: "1.14"
     releaseDate: 2024-01-31
@@ -51,8 +56,8 @@ releases:
     releaseDate: 2023-05-19
     eol: 2025-05-19
     lts: true
-    latest: "1.12.14"
-    latestReleaseDate: 2024-11-18
+    latest: "1.12.16"
+    latestReleaseDate: 2025-02-14
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-01-11

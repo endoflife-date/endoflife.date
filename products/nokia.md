@@ -8,7 +8,6 @@ alternate_urls:
 -   /hmd
 -   /nokiamobile
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
-releaseDateColumn: true
 releaseColumn: false
 
 # EOL estimation if not explicitly announced by Nokia on product page
@@ -343,7 +342,7 @@ releases:
 -   releaseCycle: "Nokia 6"
     releaseDate: 2017-01-19
     eol: 2020-10-01
-    link: https://www.nokia.com/phones/en_int/nokia-6-0
+    link: https://www.hmd.com/en_int/support/nokia-6-user-guide/
 
 ---
 

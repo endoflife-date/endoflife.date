@@ -8,7 +8,6 @@ versionCommand: "call dbms.components() yield versions unwind versions as versio
 releasePolicyLink: https://neo4j.com/terms/support-terms/
 changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
 eolColumn: Support Status
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:github/neo4j/neo4j
@@ -44,11 +43,18 @@ auto:
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
+-   releaseCycle: "2025.01"
+    releaseDate: 2025-02-06
+    eol: false # releaseDate(2025.02)
+    latest: "2025.01.0"
+    latestReleaseDate: 2025-02-04
+
 -   releaseCycle: "5.26"
     releaseDate: 2024-12-06
     eol: false # releaseDate(5.27)
-    latest: "5.26.0"
-    latestReleaseDate: 2024-12-06
+    lts: true
+    latest: "5.26.3"
+    latestReleaseDate: 2025-02-24
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.25"
@@ -204,9 +210,9 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
     eol: 2025-11-30
-    latest: "4.4.40"
+    latest: "4.4.41"
     lts: true
-    latestReleaseDate: 2024-12-17
+    latestReleaseDate: 2025-01-31
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-17
@@ -237,11 +243,8 @@ releases:
 > [Neo4j](https://neo4j.com/) is a high-performance graph database with a friendly query
 > language and ACID transactions.
 
-Neo4j has separate policies for different versions.
-
-### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
-
-Each minor release is supported for 18 months from the GA date, except for the final minor release (currently 4.4), which is supported for 36 months.
+Neo4j follows [Calendar Versioning](https://calver.org/) ([semver](https://semver.org) before January 2025)
+It has separate policies for different versions.
 
 ### [Latest Support Terms](https://neo4j.com/terms/support-terms/) for 5.x and above
 
@@ -259,8 +262,13 @@ A high-level overview of different Neo4j editions:
 | AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                         | Support Portal, no SLA                 |
 | AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                 | Premium ticket-based support, with SLA |
 
+### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
+
+Each minor release is supported for 18 months from the GA date, except for the final minor release (currently 4.4), which is supported for 36 months.
+
 ## References
 
 - [Neo4j Supported Versions](https://neo4j.com/developer/kb/neo4j-supported-versions/)
 - [Features in various AuraDB Editions](https://neo4j.com/docs/aura/auradb/)
 - [Support differences in AuraDB Editions](https://neo4j.com/docs/aura/auradb/support/)
+- [Calendar Versioning](https://neo4j.com/docs/upgrade-migration-guide/current/#_version_numbers)

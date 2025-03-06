@@ -7,11 +7,11 @@ permalink: /opnsense
 releasePolicyLink: https://opnsense.org/about/road-map/
 changelogTemplate: "https://docs.opnsense.org/releases/CE___RELEASE_CYCLE__.html"
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:opnsense:opnsense
 -   cpe: cpe:2.3:a:opnsense:opnsense
+-   repology: opnsense
 
 auto:
   methods:
@@ -19,12 +19,19 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "25.1"
+    codename: "Ultimate Unicorn"
+    releaseDate: 2025-01-28
+    eol: false
+    latest: "25.1.2"
+    latestReleaseDate: 2025-02-27
+
 -   releaseCycle: "24.7"
     codename: "Thriving Tiger"
     releaseDate: 2024-07-23
-    eol: false
-    latest: "24.7.11"
-    latestReleaseDate: 2024-12-17
+    eol: 2025-01-28
+    latest: "24.7.12"
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "24.1"
     codename: "Savvy Shark"

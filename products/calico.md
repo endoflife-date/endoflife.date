@@ -3,33 +3,32 @@ title: Calico
 category: server-app
 permalink: /calico
 changelogTemplate: https://github.com/projectcalico/calico/releases/tag/v__LATEST__
-releaseDateColumn: true
+
+identifiers:
+-   repology: calico
+-   purl: pkg:github/projectcalico/calico
+-   purl: pkg:docker/calico/cni
+-   purl: pkg:docker/chainguard/calico-cni
+-   cpe: cpe:/a:projectcalico:calico
+-   cpe: cpe:2.3:a:projectcalico:calico
 
 auto:
   methods:
   -   git: https://github.com/projectcalico/calico.git
-
-identifiers:
--   purl: pkg:github/projectcalico/calico
--   purl: pkg:docker/calico/cni
--   purl: pkg:docker/chainguard/calico-cni
--   repology: calico
--   cpe: cpe:/a:projectcalico:calico
--   cpe: cpe:2.3:a:projectcalico:calico
 
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "3.29"
     releaseDate: 2024-10-29
     eol: false
-    latest: "3.29.1"
-    latestReleaseDate: 2024-11-20
+    latest: "3.29.2"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "3.28"
     releaseDate: 2024-05-10
     eol: false
-    latest: "3.28.2"
-    latestReleaseDate: 2024-09-18
+    latest: "3.28.3"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "3.27"
     releaseDate: 2023-12-15

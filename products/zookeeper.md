@@ -8,7 +8,6 @@ alternate_urls:
 -   /apache-zookeeper
 releasePolicyLink: https://zookeeper.apache.org/releases.html
 changelogTemplate: https://zookeeper.apache.org/doc/r{{"__LATEST__"}}/releasenotes.html
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
@@ -17,6 +16,8 @@ identifiers:
 -   purl: pkg:github/apache/zookeeper
 -   purl: pkg:docker/library/zookeeper
 -   purl: pkg:deb/debian/zookeeper
+-   cpe: cpe:2.3:a:apache:zookeeper
+-   cpe: cpe:/a:apache:zookeeper
 
 auto:
   methods:

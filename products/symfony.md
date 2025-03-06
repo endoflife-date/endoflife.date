@@ -8,7 +8,6 @@ versionCommand: composer show | grep "symfony/"
 releasePolicyLink: https://symfony.com/releases
 changelogTemplate: "https://symfony.com/blog/symfony-{{'__LATEST__'|replace:'.','-'}}-released"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: php:symfony
@@ -31,15 +30,15 @@ releases:
     releaseDate: 2024-11-29
     eoas: 2025-07-31
     eol: 2025-07-31
-    latest: "7.2.2"
-    latestReleaseDate: 2024-12-31
+    latest: "7.2.4"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "7.1"
     releaseDate: 2024-05-31
     eoas: 2025-01-31
     eol: 2025-01-31
-    latest: "7.1.10"
-    latestReleaseDate: 2024-12-31
+    latest: "7.1.11"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "7.0"
     releaseDate: 2023-11-29
@@ -53,8 +52,8 @@ releases:
     releaseDate: 2023-11-29
     eoas: 2026-11-30
     eol: 2027-11-30
-    latest: "6.4.17"
-    latestReleaseDate: 2024-12-31
+    latest: "6.4.19"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-05-30

@@ -7,7 +7,6 @@ alternate_urls:
 -   /getkirby
 changelogTemplate: https://github.com/getkirby/kirby/releases/tag/__LATEST__
 releaseLabel: "__RELEASE_CYCLE__{% if '__CODENAME__' != '' %} (__CODENAME__){% endif %}"
-releaseDateColumn: true
 customColumns:
 -   property: supportedPhpVersions
     position: after-release-column
@@ -40,8 +39,8 @@ releases:
     releaseDate: 2023-11-28
     eol: false
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.5.0"
-    latestReleaseDate: 2024-11-28
+    latest: "4.6.1"
+    latestReleaseDate: 2025-02-06
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"

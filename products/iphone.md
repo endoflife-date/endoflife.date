@@ -8,7 +8,6 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 releaseColumn: false
-releaseDateColumn: true
 customColumns:
 -   property: supportedIosVersions
     position: after-release-column
@@ -19,6 +18,15 @@ customColumns:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+
+-   releaseCycle: "16e"
+    releaseLabel: "16e"
+    releaseDate: 2025-02-28
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/en-us/docs/iphone/301076
+    supportedIosVersions: 18
+
 -   releaseCycle: "16"
     releaseLabel: "16"
     releaseDate: 2024-09-20
@@ -86,7 +94,7 @@ releases:
 -   releaseCycle: "14-plus"
     releaseLabel: "14 Plus"
     releaseDate: 2022-10-07
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP874
     supportedIosVersions: 16 - 18
@@ -94,7 +102,7 @@ releases:
 -   releaseCycle: "14"
     releaseLabel: "14"
     releaseDate: 2022-09-16
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP873
     supportedIosVersions: 16 - 18
@@ -118,7 +126,7 @@ releases:
 -   releaseCycle: "se-3"
     releaseLabel: "SE (3rd generation)"
     releaseDate: 2022-03-18
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP867
     supportedIosVersions: 15 - 18
@@ -247,7 +255,7 @@ releases:
     releaseLabel: "8"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP767
     supportedIosVersions: 11 - 16
 
@@ -255,7 +263,7 @@ releases:
     releaseLabel: "8 Plus"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP768
     supportedIosVersions: 11 - 16
 
@@ -263,7 +271,7 @@ releases:
     releaseLabel: "X"
     releaseDate: 2017-09-12
     discontinued: 2018-09-12
-    eol: false
+    eol: 2024-09-16
     link: https://support.apple.com/kb/SP770
     supportedIosVersions: 11 - 16
 

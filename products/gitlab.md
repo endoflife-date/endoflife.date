@@ -7,7 +7,6 @@ permalink: /gitlab
 versionCommand: gitlab-rake gitlab:env:info
 releasePolicyLink: https://docs.gitlab.com/ee/policy/maintenance.html
 changelogTemplate: https://gitlab.com/gitlab-org/gitlab/-/releases/v__RELEASE_CYCLE__.0-ee
-releaseDateColumn: true
 eoasColumn: true
 eoasWarnThreshold: 20
 eolColumn: Maintenance Support
@@ -35,26 +34,40 @@ auto:
 # eol(x) = releaseDate(x+3)
 # Upcoming release dates are available on https://about.gitlab.com/releases/
 releases:
+-   releaseCycle: "17.9"
+    releaseDate: 2025-02-20
+    eoas: 2025-03-20 # releaseDate(17.10)
+    eol: 2025-05-15 # releaseDate(18.0)
+    latest: "17.9.1"
+    latestReleaseDate: 2025-02-26
+
+-   releaseCycle: "17.8"
+    releaseDate: 2025-01-16
+    eoas: 2025-02-20 # releaseDate(17.9)
+    eol: 2025-04-17 # releaseDate(17.11)
+    latest: "17.8.4"
+    latestReleaseDate: 2025-02-26
+
 -   releaseCycle: "17.7"
     releaseDate: 2024-12-19
     eoas: 2025-01-16 # releaseDate(17.8)
     eol: 2025-03-20 # releaseDate(17.10)
-    latest: "17.7.0"
-    latestReleaseDate: 2024-12-18
+    latest: "17.7.6"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "17.6"
     releaseDate: 2024-11-21
     eoas: 2024-12-19 # releaseDate(17.7)
     eol: 2025-02-20 # releaseDate(17.9)
-    latest: "17.6.2"
-    latestReleaseDate: 2024-12-10
+    latest: "17.6.5"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "17.5"
     releaseDate: 2024-10-17
     eoas: 2024-11-21
     eol: 2025-01-16
-    latest: "17.5.4"
-    latestReleaseDate: 2024-12-10
+    latest: "17.5.5"
+    latestReleaseDate: 2025-01-08
 
 -   releaseCycle: "17.4"
     releaseDate: 2024-09-19

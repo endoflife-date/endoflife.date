@@ -11,7 +11,10 @@ versionCommand: composer show craftcms/cms |grep versions
 releasePolicyLink: https://craftcms.com/knowledge-base/supported-versions
 changelogTemplate: https://craftcms.com/docs/{{__RELEASE_CYCLE__}}.x/
 eoasColumn: true
-releaseDateColumn: true
+
+identifiers:
+-   cpe: cpe:2.3:a:craftcms:craft_cms
+-   cpe: cpe:/a:craftcms:craft_cms
 
 auto:
   methods:
@@ -30,15 +33,15 @@ releases:
     releaseDate: 2024-03-26
     eoas: 2027-04-30
     eol: 2028-04-30
-    latest: '5.5.8'
-    latestReleaseDate: 2025-01-02
+    latest: '5.6.11'
+    latestReleaseDate: 2025-03-04
 
 -   releaseCycle: "4"
     releaseDate: 2022-05-04
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '4.13.8'
-    latestReleaseDate: 2025-01-02
+    latest: '4.14.10'
+    latestReleaseDate: 2025-03-04
 
 -   releaseCycle: "3"
     releaseDate: 2018-04-04

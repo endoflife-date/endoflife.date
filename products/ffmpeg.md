@@ -7,7 +7,6 @@ versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
@@ -22,13 +21,15 @@ auto:
       regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
+# LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
 -   releaseCycle: "7.1"
     codename: Péter
+    lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1"
-    latestReleaseDate: 2024-09-30
+    latest: "7.1.1"
+    latestReleaseDate: 2025-03-03
 
 -   releaseCycle: "7.0"
     codename: Dijkstra
@@ -261,6 +262,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of

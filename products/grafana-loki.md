@@ -6,28 +6,33 @@ permalink: /grafana-loki
 alternate_urls:
 -   /loki
 changelogTemplate: https://github.com/grafana/loki/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 auto:
   methods:
   -   git: https://github.com/grafana/loki.git
 
 identifiers:
+-   repology: grafana-loki
 -   purl: pkg:github/grafana/loki
 -   purl: pkg:docker/grafana/loki
 -   purl: pkg:docker/ubuntu/loki
 -   purl: pkg:docker/chainguard/loki
 -   purl: pkg:docker/bitnami/grafana-loki
 -   purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
--   repology: grafana-loki
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2025-02-12
+    eol: false
+    latest: "3.4.2"
+    latestReleaseDate: 2025-02-14
+
 -   releaseCycle: "3.3"
     releaseDate: 2024-11-19
-    eol: false
-    latest: "3.3.2"
-    latestReleaseDate: 2024-12-18
+    eol: 2025-02-13
+    latest: "3.3.3"
+    latestReleaseDate: 2025-02-12
 
 -   releaseCycle: "3.2"
     releaseDate: 2024-09-18
@@ -50,8 +55,8 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2023-09-06
     eol: 2024-04-08
-    latest: "2.9.11"
-    latestReleaseDate: 2024-12-04
+    latest: "2.9.12"
+    latestReleaseDate: 2025-01-24
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-04-03

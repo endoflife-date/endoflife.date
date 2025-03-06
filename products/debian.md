@@ -7,7 +7,6 @@ permalink: /debian
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.debian.org/DebianReleases
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
-releaseDateColumn: true
 eolColumn: Debian Security Support
 eoesColumn: Debian <abbr title="Long Term Support">LTS</abbr>
 
@@ -36,9 +35,9 @@ releases:
     releaseDate: 2023-06-10
     eol: 2026-06-10
     eoes: 2028-06-10
-    link: https://www.debian.org/News/2024/20240629
-    latest: "12.8"
-    latestReleaseDate: 2024-11-09
+    link: https://www.debian.org/News/2025/20250111
+    latest: "12.9"
+    latestReleaseDate: 2025-01-11
 
 -   releaseCycle: "11"
     codename: "Bullseye"

@@ -6,7 +6,6 @@ permalink: /jreleaser
 versionCommand: jreleaser --version
 releasePolicyLink: https://jreleaser.org/guide/latest/release-history.html
 changelogTemplate: "https://github.com/jreleaser/jreleaser/releases/tag/v__LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Support
 
@@ -19,8 +18,8 @@ releases:
     releaseDate: 2022-04-10
     eol: false
     eoas: false
-    latest: "1.16.0"
-    latestReleaseDate: 2024-12-31
+    latest: "1.17.0"
+    latestReleaseDate: 2025-02-28
 
 -   releaseCycle: "0"
     releaseDate: 2021-04-10

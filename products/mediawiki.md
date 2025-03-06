@@ -7,7 +7,6 @@ versionCommand: https://your-server-url/mediawiki/Special:Version
 releasePolicyLink: https://www.mediawiki.org/wiki/Version_lifecycle
 releaseImage: https://upload.wikimedia.org/wikipedia/mediawiki/timeline/hs5faq2k9b3pw5dm4fabgjwtjf2l8jw.png
 changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: End-of-Life
 
 identifiers:
@@ -39,8 +38,8 @@ releases:
 -   releaseCycle: "1.42"
     releaseDate: 2024-06-27
     eol: 2025-06-30
-    latest: "1.42.4"
-    latestReleaseDate: 2024-12-20
+    latest: "1.42.5"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "1.41"
     releaseDate: 2023-12-21

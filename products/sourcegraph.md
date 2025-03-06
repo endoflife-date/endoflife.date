@@ -2,14 +2,13 @@
 title: Sourcegraph
 category: server-app
 tags: java-runtime
+iconSlug: sourcegraph
 permalink: /sourcegraph
 releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/
 changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl: pkg:github/sourcegraph/sourcegraph
 -   purl: pkg:docker/sourcegraph/sg
 
 auto:

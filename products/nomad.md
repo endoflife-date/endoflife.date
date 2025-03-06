@@ -2,11 +2,11 @@
 title: Nomad
 category: server-app
 tags: hashicorp
+iconSlug: nomad
 permalink: /nomad
 versionCommand: nomad --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
 
 identifiers:
 -   repology: nomad-scheduler
@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "1.9"
     releaseDate: 2024-10-10
     eol: false
-    latest: "1.9.4"
-    latestReleaseDate: 2024-12-18
+    latest: "1.9.6"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "1.8"
     releaseDate: 2024-05-28

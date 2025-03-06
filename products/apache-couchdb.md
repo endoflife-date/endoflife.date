@@ -6,14 +6,9 @@ iconSlug: apachecouchdb
 permalink: /apache-couchdb
 alternate_urls:
 -   /couchdb
-releasePolicyLink: https://docs.couchdb.org/en/latest/cve/index.html#security-issues-cves
-changelogTemplate: "https://docs.couchdb.org/en/stable/whatsnew/{{'__LATEST__'|split:'.'|slice:':2'|join:'.'}}.html#version-{{'__LATEST__'|replace:'.','-'}}"
+releasePolicyLink: https://docs.couchdb.org/en/stable/cve/index.html
+changelogTemplate: https://docs.couchdb.org/en/stable/whatsnew/__RELEASE_CYCLE__.html
 versionCommand: curl http://localhost:5984/_config/vendor/version
-releaseDateColumn: true
-
-auto:
-  methods:
-  -   git: https://github.com/apache/couchdb.git
 
 identifiers:
 -   purl: pkg:github/apache/couchdb
@@ -22,6 +17,10 @@ identifiers:
 -   purl: pkg:docker/bitnami/couchdb
 -   purl: pkg:docker/rapidfort/couchdb
 -   repology: couchdb
+
+auto:
+  methods:
+  -   git: https://github.com/apache/couchdb.git
 
 # eol(x) = releaseDate(x+2)
 releases:

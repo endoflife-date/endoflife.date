@@ -8,7 +8,6 @@ alternate_urls:
 -   /lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
-releaseDateColumn: true
 
 auto:
   methods:

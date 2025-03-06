@@ -5,7 +5,6 @@ tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-mysql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
-releaseDateColumn: true
 eoesColumn: Extended Support
 
 auto:
@@ -26,15 +25,15 @@ releases:
     releaseDate: 2024-11-21
     eol: 2029-07-31
     eoes: 2032-07-31
-    latest: "8.4.3"
-    latestReleaseDate: 2024-11-21
+    latest: "8.4.4"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-07-31
     eoes: 2029-07-31
-    latest: "8.0.40"
-    latestReleaseDate: 2024-11-13
+    latest: "8.0.41"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "5.7"
     releaseDate: 2016-02-22

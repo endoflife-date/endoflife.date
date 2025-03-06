@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /visionos
 releasePolicyLink: https://en.wikipedia.org/wiki/VisionOS#Version_history
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:
@@ -20,8 +19,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "2.2"
-    latestReleaseDate: 2024-12-11
+    latest: "2.3.1"
+    latestReleaseDate: 2025-02-10
     link: https://support.apple.com/en-us/121164
 
 -   releaseCycle: "1"

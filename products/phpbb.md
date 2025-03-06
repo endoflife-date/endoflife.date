@@ -2,8 +2,8 @@
 title: phpBB
 category: server-app
 tags: php-runtime
+iconSlug: phpbb
 permalink: /phpbb
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:

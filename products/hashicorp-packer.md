@@ -8,7 +8,6 @@ alternate_urls:
 -   /packer
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/packer/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Standard Maintenance
 versionCommand: packer --version
 
@@ -21,6 +20,12 @@ auto:
 
 # eol(x) = release(x+3)
 releases:
+-   releaseCycle: "1.12"
+    releaseDate: 2025-01-22
+    eol: false
+    latest: "1.12.0"
+    latestReleaseDate: 2025-01-22
+
 -   releaseCycle: "1.11"
     releaseDate: 2024-05-31
     eol: false
@@ -35,7 +40,7 @@ releases:
 
 -   releaseCycle: "1.9"
     releaseDate: 2023-05-31
-    eol: false
+    eol: 2025-01-22
     latest: "1.9.5"
     latestReleaseDate: 2023-12-04
 
@@ -47,7 +52,7 @@ releases:
 
 ---
 
-> [Hashicorp Packer](https://www.packer.io/) Packer is a community tool for creating identical machine images for multiple platforms from a single source configuration. 
+> [Hashicorp Packer](https://www.packer.io/) Packer is a community tool for creating identical machine images for multiple platforms from a single source configuration.
 
 
 **Generally Available (GA)** releases of active products are supported under standard maintenance approximately

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: kotlinc-native -version
 releasePolicyLink: https://kotlinlang.org/docs/security.html
 changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   repology: kotlin
@@ -22,10 +21,10 @@ auto:
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
 -   releaseCycle: "2.1"
-    releaseDate: 2024-10-10
+    releaseDate: 2024-11-27
     eol: false
-    latest: "2.1.0"
-    latestReleaseDate: 2024-10-10
+    latest: "2.1.10"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "2.0"
     releaseDate: 2024-05-21

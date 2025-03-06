@@ -9,7 +9,6 @@ versionCommand: mongod --version
 releasePolicyLink: https://www.mongodb.com/legal/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-releaseDateColumn: true
 
 # MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
 # are the same for both, but the package names are different, hence the two different
@@ -129,8 +128,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.30"
-    latestReleaseDate: 2024-11-20
+    latest: "5.0.31"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25

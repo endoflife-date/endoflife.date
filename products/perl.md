@@ -4,18 +4,17 @@ category: lang
 iconSlug: perl
 permalink: /perl
 versionCommand: perl -v
-releaseImage:
-  https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
+releaseImage: https://www.versio.io/img/product-release-version-end-of-life/Perl_Foundation-Perl.jpg
 releasePolicyLink: https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT
 changelogTemplate: "https://perldoc.perl.org/__LATEST__/perldelta"
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Critical security patches
 
 identifiers:
 -   purl: pkg:apk/alpine/perl
 -   purl: pkg:deb/debian/perl
 -   purl: pkg:generic/perl
+-   repology: perl
 
 auto:
   methods:
@@ -40,15 +39,15 @@ releases:
     releaseDate: 2024-06-09
     eoas: false
     eol: 2027-06-09
-    latest: "5.40.0"
-    latestReleaseDate: 2024-06-09
+    latest: "5.40.1"
+    latestReleaseDate: 2025-01-18
 
 -   releaseCycle: "5.38"
     releaseDate: 2023-07-02
     eoas: false
     eol: 2026-07-02
-    latest: "5.38.2"
-    latestReleaseDate: 2023-11-29
+    latest: "5.38.3"
+    latestReleaseDate: 2025-01-18
 
 -   releaseCycle: "5.36"
     releaseDate: 2022-05-27

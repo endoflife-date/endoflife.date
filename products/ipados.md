@@ -5,7 +5,6 @@ tags: apple
 iconSlug: apple
 permalink: /ipados
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
-releaseDateColumn: true
 eoasColumn: true
 
 auto:
@@ -22,22 +21,22 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: '18.2'
-    latestReleaseDate: 2024-12-11
+    latest: '18.3.1'
+    latestReleaseDate: 2025-02-10
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-18-release-notes
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: false
     eol: false
-    latest: '17.7.3'
-    latestReleaseDate: 2024-12-11
+    latest: '17.7.5'
+    latestReleaseDate: 2025-02-10
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"
     releaseDate: 2022-10-24
     eoas: 2023-09-18
-    eol: false
+    eol: 2024-09-16
     latest: '16.7.10'
     latestReleaseDate: 2024-08-07
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ipados-16-release-notes

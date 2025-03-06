@@ -7,7 +7,6 @@ permalink: /rabbitmq
 versionCommand: rabbitmqctl --version
 releasePolicyLink: https://www.rabbitmq.com/release-information
 changelogTemplate: https://github.com/rabbitmq/rabbitmq-server/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Commercial Support
 
@@ -30,8 +29,8 @@ releases:
     releaseDate: 2024-09-18
     eol: false # releaseDate(4.1)
     eoes: 2027-09-29
-    latest: "4.0.5"
-    latestReleaseDate: 2024-12-15
+    latest: "4.0.7"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "3.13"
     releaseDate: 2024-02-22

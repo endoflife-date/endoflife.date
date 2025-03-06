@@ -12,7 +12,6 @@ releasePolicyLink: https://www.silverstripe.org/software/roadmap/
 changelogTemplate: "https://docs.silverstripe.org/en/{{'__RELEASE_CYCLE__'|split:'.'|first}}/changelogs/__RELEASE_CYCLE__.0/"
 eoasColumn: Active Development
 eolColumn: Security Support
-releaseDateColumn: true
 eolWarnThreshold: 182
 
 identifiers:
@@ -38,8 +37,8 @@ releases:
     releaseDate: 2024-11-30
     eoas: 2025-04-30
     eol: 2025-10-31
-    latest: "5.3.0"
-    latestReleaseDate: 2024-11-04
+    latest: "5.3.2"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "5.2"
     releaseDate: 2024-04-15

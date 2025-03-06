@@ -7,7 +7,6 @@ releaseImage: https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/ima
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
 eolColumn: Support Status
-releaseDateColumn: true
 
 identifiers:
 -   repology: tarantool
@@ -48,8 +47,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.5"
-    latestReleaseDate: 2024-11-22
+    latest: "2.11.6"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22

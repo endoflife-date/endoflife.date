@@ -8,7 +8,6 @@ alternate_urls:
 -   /camel-lang
 releasePolicyLink: https://camel.apache.org/blog/2020/03/LTS-Release-Schedule/
 changelogTemplate: https://camel.apache.org/releases/release-__LATEST__/
-releaseDateColumn: true
 eolColumn: Bug and Security Fixes
 customColumns:
 -   property: supportedJavaVersions
@@ -31,9 +30,17 @@ auto:
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
 # Java support is documented in each version release notes, see https://camel.apache.org/releases/.
 releases:
+-   releaseCycle: "4.10"
+    lts: true
+    releaseDate: 2025-02-07
+    eol: 2026-02-11
+    supportedJavaVersions: 17, 21
+    latest: "4.10.1"
+    latestReleaseDate: 2025-02-27
+
 -   releaseCycle: "4.9"
     releaseDate: 2024-11-29
-    eol: false
+    eol: 2025-02-11
     supportedJavaVersions: 17, 21
     latest: "4.9.0"
     latestReleaseDate: 2024-11-29
@@ -43,8 +50,8 @@ releases:
     releaseDate: 2024-09-10
     eol: 2025-09-10
     supportedJavaVersions: 17, 21
-    latest: "4.8.2"
-    latestReleaseDate: 2024-12-01
+    latest: "4.8.4"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "4.7"
     releaseDate: 2024-07-09
@@ -72,8 +79,8 @@ releases:
     releaseDate: 2024-02-12
     eol: 2025-02-12
     supportedJavaVersions: 17, 21
-    latest: "4.4.4"
-    latestReleaseDate: 2024-10-16
+    latest: "4.4.5"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.22"
     lts: true

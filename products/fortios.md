@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: get system status
 changelogTemplate: https://docs.fortinet.com/product/fortigate/__RELEASE_CYCLE__
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: End of Support
 eoasColumn: End of Engineering Support
 

@@ -7,7 +7,6 @@ versionCommand: blender --version
 releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/release_cycle/
 releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Critical bug fixes
 
@@ -34,8 +33,8 @@ releases:
     releaseDate: 2024-07-16
     eoas: 2026-07-01
     eol: 2026-07-01
-    latest: "4.2.5"
-    latestReleaseDate: 2024-12-16
+    latest: "4.2.7"
+    latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
@@ -56,8 +55,8 @@ releases:
     releaseDate: 2023-06-27
     eoas: 2025-07-01
     eol: 2025-07-01
-    latest: "3.6.19"
-    latestReleaseDate: 2024-12-16
+    latest: "3.6.21"
+    latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29

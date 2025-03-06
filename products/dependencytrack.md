@@ -9,6 +9,7 @@ alternate_urls:
 changelogTemplate: https://docs.dependencytrack.org/changelog/
 
 identifiers:
+-   repology: dependency-track
 -   cpe: cpe:/a:owasp:dependency-track
 -   cpe: cpe:2.3:a:owasp:dependency-track
 
@@ -21,8 +22,8 @@ releases:
 -   releaseCycle: "4.12"
     releaseDate: 2024-10-01
     eol: false # releaseDate(4.13)
-    latest: "4.12.2"
-    latestReleaseDate: 2024-12-04
+    latest: "4.12.6"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "4.11"
     releaseDate: 2024-05-07

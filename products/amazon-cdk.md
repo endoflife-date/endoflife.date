@@ -5,7 +5,6 @@ iconSlug: amazonaws
 tags: amazon
 permalink: /amazon-cdk
 changelogTemplate: https://github.com/aws/aws-cdk/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   repology: aws-cdk
@@ -24,8 +23,8 @@ releases:
     releaseDate: 2021-12-01
     eoas: false
     eol: false
-    latest: "2.173.4"
-    latestReleaseDate: 2024-12-27
+    latest: "2.182.0"
+    latestReleaseDate: 2025-03-04
 
 ---
 

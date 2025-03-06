@@ -8,7 +8,6 @@ alternate_urls:
 releasePolicyLink: https://www.erlang.org/doc/system_principles/misc.html
 changelogTemplate: https://github.com/erlang/otp/releases/tag/OTP-__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: erlang
@@ -25,22 +24,22 @@ releases:
     releaseDate: 2024-05-17
     eoas: false
     eol: 2027-05-20 # projected
-    latest: '27.2'
-    latestReleaseDate: 2024-12-09
+    latest: '27.3'
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: false
     eol: 2026-05-15 # projected
-    latest: '26.2.5.6'
-    latestReleaseDate: 2024-12-05
+    latest: '26.2.5.9'
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "25"
     releaseDate: 2022-05-17
     eoas: 2023-05-15
     eol: 2025-05-17 # projected
-    latest: '25.3.2.16'
-    latestReleaseDate: 2024-12-04
+    latest: '25.3.2.18'
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "24"
     releaseDate: 2021-05-10

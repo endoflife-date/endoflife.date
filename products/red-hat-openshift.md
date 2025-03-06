@@ -10,8 +10,7 @@ alternate_urls:
 versionCommand: oc version
 releasePolicyLink: https://access.redhat.com/support/policy/updates/openshift
 releaseImage: https://access.redhat.com/sites/default/files/styles/XL%20-%20Extra%20Large/public/images/ocp_lifecycle_eus_v4_0.png
-changelogTemplate: https://docs.openshift.com/container-platform/__RELEASE_CYCLE__/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes.html
-releaseDateColumn: true
+changelogTemplate: https://docs.redhat.com/en/documentation/openshift_container_platform/__RELEASE_CYCLE__/html/release_notes/ocp-{{"__RELEASE_CYCLE__"| replace:'.','-'}}-release-notes
 eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Update Support
@@ -27,50 +26,58 @@ auto:
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
+-   releaseCycle: "4.18"
+    releaseDate: 2025-02-25
+    eoas: false # 4.19 GA + 3 months
+    eol: 2026-08-25
+    eoes: 2027-02-25
+    latest: "4.18.18"
+    latestReleaseDate: 2025-02-26
+
 -   releaseCycle: "4.17"
     releaseDate: 2024-10-01
-    eoas: false # 4.18 GA + 3 months
+    eoas: 2025-05-25
     eol: 2026-04-01
-    latest: "4.17.9"
-    latestReleaseDate: 2024-12-19
+    latest: "4.17.19"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "4.16"
     releaseDate: 2024-06-27
-    eoas: 2025-01-01 # 4.17 GA + 3 months
+    eoas: 2025-01-01
     eol: 2025-12-27
     eoes: 2026-06-27
-    latest: "4.16.27"
-    latestReleaseDate: 2024-12-19
+    latest: "4.16.37"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "4.15"
     releaseDate: 2024-02-27
     eoas: 2024-09-27
     eol: 2025-08-27
-    latest: "4.15.42"
-    latestReleaseDate: 2025-01-02
+    latest: "4.15.46"
+    latestReleaseDate: 2025-02-27
 
 -   releaseCycle: "4.14"
     releaseDate: 2023-10-31
     eoas: 2024-05-27
     eol: 2025-05-01
     eoes: 2025-10-31
-    latest: "4.14.43"
-    latestReleaseDate: 2024-12-18
+    latest: "4.14.48"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-05-17
     eoas: 2024-01-31
     eol: 2024-11-17
-    latest: "4.13.53"
-    latestReleaseDate: 2024-11-06
+    latest: "4.13.55"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "4.12"
     releaseDate: 2023-01-17
     eoas: 2023-08-17
     eol: 2024-07-17
     eoes: 2025-01-17
-    latest: "4.12.70"
-    latestReleaseDate: 2024-12-05
+    latest: "4.12.73"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "4.11"
     releaseDate: 2022-08-10

@@ -7,7 +7,6 @@ permalink: /shopware
 versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoesColumn: Commercial support
 
@@ -28,16 +27,16 @@ releases:
     releaseDate: 2024-03-21
     eoas: false
     eol: false
-    latest: "6.6.9.0"
-    latestReleaseDate: 2024-12-03
+    latest: "6.6.10.2"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
     eoas: 2024-03-28
     eol: false
-    latest: "6.5.8.15"
-    latestReleaseDate: 2024-11-06
+    latest: "6.5.8.16"
+    latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "5.7"
     supportedPhpVersions: N/A

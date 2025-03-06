@@ -9,7 +9,6 @@ releasePolicyLink: https://grails.org/support.html
 changelogTemplate: "https://github.com/grails/grails-core/releases/tag/v__LATEST__"
 eoasColumn: Active Development
 eolColumn: Active Maintenance
-releaseDateColumn: true
 
 identifiers:
 -   repology: grails
@@ -25,8 +24,8 @@ releases:
     releaseDate: 2023-07-24
     eoas: false
     eol: false
-    latest: "6.2.2"
-    latestReleaseDate: 2024-11-20
+    latest: "6.2.3"
+    latestReleaseDate: 2025-01-03
 
 -   releaseCycle: "5"
     releaseDate: 2021-10-12
@@ -53,8 +52,8 @@ releases:
     releaseDate: 2011-12-15
     eoas: true
     eol: 2021-06-30
-    latest: "2.5.6"
-    latestReleaseDate: 2017-03-23
+    latest: "2.6.1"
+    latestReleaseDate: 2022-06-07
 
 -   releaseCycle: "1"
     releaseDate: 2009-05-14

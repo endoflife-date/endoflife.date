@@ -5,8 +5,8 @@ iconSlug: ruby
 permalink: /ruby
 versionCommand: ruby --version
 releasePolicyLink: https://www.ruby-lang.org/en/downloads/branches/
-changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"
-releaseDateColumn: true
+changelogTemplate: https://github.com/ruby/ruby/releases/tag/v{{'__LATEST__'|replace:'.','_'}}
+# changelogTemplate: "https://rubychangelog.com/versions-all/#ruby-{{'__LATEST__'|replace:'.',''}}"   for archive purposes
 eolColumn: Support Status
 
 # Upstream does not support filtering https://git.ruby-lang.org/ruby.git
@@ -27,21 +27,20 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-12-24
     eol: 2028-03-31
-    latest: "3.4.1"
-    latestReleaseDate: 2024-12-25
-    link: https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
+    latest: "3.4.2"
+    latestReleaseDate: 2025-02-14
 
 -   releaseCycle: "3.3"
     releaseDate: 2023-12-25
     eol: 2027-03-31
-    latest: "3.3.6"
-    latestReleaseDate: 2024-11-04
+    latest: "3.3.7"
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-12-25
     eol: 2026-03-31
-    latest: "3.2.6"
-    latestReleaseDate: 2024-10-30
+    latest: "3.2.7"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "3.1"
     releaseDate: 2021-12-25
@@ -103,6 +102,7 @@ releases:
     # Keep this pinned
     latest: "2.0.0p648"
     latestReleaseDate: 2015-12-16
+    link: null
 
 -   releaseCycle: "1.9.3"
     releaseDate: 2011-10-30
@@ -110,6 +110,7 @@ releases:
     # Keep this pinned
     latest: "1.9.3p551"
     latestReleaseDate: 2014-11-13
+    link: null
 
 ---
 

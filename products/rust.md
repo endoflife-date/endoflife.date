@@ -11,17 +11,31 @@ releasePolicyLink: https://rust-lang.github.io/rustup/concepts/channels.html
 eolColumn: Supported
 versionCommand: rustc --version
 changelogTemplate: https://github.com/rust-lang/rust/releases/tag/__LATEST__
-releaseDateColumn: true
 
 auto:
   methods:
   -   git: https://github.com/rust-lang/rust.git
 
+identifiers:
+-   repology: rust
+
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "1.85"
+    releaseDate: 2025-02-20
+    eol: false
+    latest: "1.85.0"
+    latestReleaseDate: 2025-02-20
+
+-   releaseCycle: "1.84"
+    releaseDate: 2025-01-09
+    eol: 2025-02-20
+    latest: "1.84.1"
+    latestReleaseDate: 2025-01-30
+
 -   releaseCycle: "1.83"
     releaseDate: 2024-11-28
-    eol: false
+    eol: 2025-01-09
     latest: "1.83.0"
     latestReleaseDate: 2024-11-28
 
@@ -356,6 +370,20 @@ releases:
 > meaning that all references point to valid memory, without requiring the use of automated memory
 > management techniques such as garbage collection
 
-A new stable release is produced every six weeks, like clock-work. Only the latest stable release
+A new stable release is produced every six weeks. Only the latest stable release
 receives patches. Each new stable release spends the preceding six-week period as the Beta release.
-There's also a new 'nightly' build every night, but I don't propose you list all of those.
+
+## [Rust Editions](https://doc.rust-lang.org/edition-guide/editions/index.html)
+
+Rust uses editions to make backwards-incompatible changes. Editions are a mechanism for opt-in changes that may
+otherwise pose a backwards compatibility risk. 
+Since editions are opt-in, existing crates won't use the changes unless they explicitly migrate to the new edition. 
+Each crate chooses its edition within its Cargo.toml file. Editions are skin-deep, and as a result - you can always
+use an older edition alongside a supported version of the compiler.
+
+The following Rust editions exist:
+
+- [Rust 2015](https://doc.rust-lang.org/edition-guide/rust-2015/index.html), the default edition from Rust 1.0.
+- [Rust 2018](https://doc.rust-lang.org/edition-guide/rust-2018/index.html), which added [path and module system](https://doc.rust-lang.org/edition-guide/rust-2018/path-changes.html) changes and was released alongside [1.31 in December 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html).
+- [Rust 2021](https://doc.rust-lang.org/edition-guide/rust-2021/index.html) [released alongside 1.56](https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html) in October 2021.
+- [Rust 2024](https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html), released alongside 1.85 in February 2025.

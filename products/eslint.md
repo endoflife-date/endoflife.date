@@ -1,13 +1,12 @@
 ---
 title: ESLint
 category: app
-tags: build-tool javascript-runtime
+tags: build-tool javascript-runtime herodevs
 iconSlug: eslint
 permalink: /eslint
 releasePolicyLink: https://eslint.org/version-support/
 changelogTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
 releaseColumn: true
-releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support
@@ -18,7 +17,7 @@ customColumns:
     description: Companies that provide extended EOL support for eslint.
 
 identifiers:
-  -   repology: eslint
+-   repology: eslint
 
 auto:
   methods:
@@ -39,8 +38,8 @@ releases:
     eol: false
     eoes: false
     eoesProvider: Tidelift
-    latest: "9.17.0"
-    latestReleaseDate: 2024-12-13
+    latest: "9.21.0"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "8"
     releaseDate: 2021-10-09

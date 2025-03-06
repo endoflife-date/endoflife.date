@@ -8,8 +8,7 @@ alternate_urls:
 -   /corretto
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
-changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
-releaseDateColumn: true
+changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releases/tag/__LATEST__
 
 identifiers:
 -   cpe: cpe:/a:amazon:corretto
@@ -82,9 +81,8 @@ releases:
     # Official release was on September : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
     releaseDate: 2024-09-17
     eol: 2025-04-30
-    latest: "23.0.1.8.1"
-    latestReleaseDate: 2024-10-16
-    link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
+    latest: "23.0.2.7.1"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "22"
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
@@ -100,8 +98,8 @@ releases:
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-09-21
     eol: 2030-10-31
-    latest: "21.0.5.11.1"
-    latestReleaseDate: 2024-10-16
+    latest: "21.0.6.7.1"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
@@ -127,8 +125,8 @@ releases:
     lts: true
     releaseDate: 2021-09-16
     eol: 2029-10-31
-    latest: "17.0.13.11.1"
-    latestReleaseDate: 2024-10-16
+    latest: "17.0.14.7.1"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -148,16 +146,16 @@ releases:
     lts: true
     releaseDate: 2019-03-15
     eol: 2032-01-31
-    latest: "11.0.25.9.1"
-    latestReleaseDate: 2024-10-16
+    latest: "11.0.26.4.1"
+    latestReleaseDate: 2025-01-21
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.432.06.1"
-    latestReleaseDate: 2024-10-16
+    latest: "8.442.06.1"
+    latestReleaseDate: 2025-01-21
 
 ---
 

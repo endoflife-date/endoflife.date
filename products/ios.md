@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:
@@ -23,8 +22,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.2"
-    latestReleaseDate: 2024-12-11
+    latest: "18.3.1"
+    latestReleaseDate: 2025-02-10
     link: https://support.apple.com/en-us/121161
 
 -   releaseCycle: "17"

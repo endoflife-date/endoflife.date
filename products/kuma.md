@@ -2,11 +2,11 @@
 title: Kuma
 category: server-app
 tags: cncf
+iconSlug: kuma
 permalink: /kuma
 alternate_urls:
 -   /kuma
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:
@@ -19,27 +19,27 @@ releases:
 -   releaseCycle: "2.9"
     releaseDate: 2024-10-18
     eol: 2025-10-22
-    latest: "2.9.2"
-    latestReleaseDate: 2024-12-04
+    latest: "2.9.4"
+    latestReleaseDate: 2025-02-26
 
 -   releaseCycle: "2.8"
     releaseDate: 2024-06-24
     eol: 2025-06-24
-    latest: "2.8.5"
-    latestReleaseDate: 2024-11-12
+    latest: "2.8.7"
+    latestReleaseDate: 2025-02-27
 
 -   releaseCycle: "2.7"
     releaseDate: 2024-04-17
     eol: 2026-04-19
-    latest: "2.7.10"
-    latestReleaseDate: 2024-11-28
+    latest: "2.7.12"
+    latestReleaseDate: 2025-03-03
     lts: true
 
 -   releaseCycle: "2.6"
     releaseDate: 2024-02-01
     eol: 2025-02-01
-    latest: "2.6.14"
-    latestReleaseDate: 2024-12-02
+    latest: "2.6.15"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "2.5"
     releaseDate: 2023-11-15

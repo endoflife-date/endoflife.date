@@ -6,12 +6,12 @@ permalink: /coder
 versionCommand: coder version
 releasePolicyLink: https://coder.com/docs/install/releases
 changelogTemplate: https://github.com/coder/coder/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eoasWarnThreshold: 60
 eolWarnThreshold: 90
 
 identifiers:
+-   repology: coder
 -   purl: pkg:github/coder/coder
 -   purl: pkg:generic/coder
 
@@ -22,16 +22,23 @@ auto:
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "2.19"
+    releaseDate: 2025-02-04
+    eoas: false # releaseDate(2.21)
+    eol: false # releaseDate(2.22)
+    latest: "2.19.0"
+    latestReleaseDate: 2025-02-04
+
 -   releaseCycle: "2.18"
     releaseDate: 2024-12-03
     eoas: false # releaseDate(2.20)
     eol: false # releaseDate(2.21)
-    latest: "2.18.1"
-    latestReleaseDate: 2024-12-16
+    latest: "2.18.5"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "2.17"
     releaseDate: 2024-11-05
-    eoas: false # releaseDate(2.19)
+    eoas: 2025-02-04 # releaseDate(2.19)
     eol: false # releaseDate(2.20)
     latest: "2.17.3"
     latestReleaseDate: 2024-12-13
@@ -39,7 +46,7 @@ releases:
 -   releaseCycle: "2.16"
     releaseDate: 2024-10-01
     eoas: 2024-12-03 # releaseDate(2.18)
-    eol: false # releaseDate(2.19)
+    eol: 2025-02-04 # releaseDate(2.19)
     latest: "2.16.1"
     latestReleaseDate: 2024-10-28
 
@@ -111,6 +118,6 @@ releases:
 > [Coder](https://coder.com) is an open-source platform for creating and managing developer workspaces on your preferred
 > clouds and servers.
 
-There is a new minor release of Coder on the first Tuesday of each month. Minor releases are  
-supported for three months with bug and security fixes the first month, major bug and security  
+There is a new minor release of Coder on the first Tuesday of each month. Minor releases are
+supported for three months with bug and security fixes the first month, major bug and security
 fixes the second month and only security fixes the third month.

@@ -6,19 +6,21 @@ permalink: /telegraf
 versionCommand: telegraf --version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/telegraf/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 auto:
   methods:
   -   git: https://github.com/influxdata/telegraf
+
+identifiers:
+-   repology: telegraf
 
 # eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "1.33"
     releaseDate: 2024-12-09
     eol: false # releaseDate(1.35)
-    latest: "1.33.0"
-    latestReleaseDate: 2024-12-09
+    latest: "1.33.3"
+    latestReleaseDate: 2025-02-25
 
 -   releaseCycle: "1.32"
     releaseDate: 2024-09-09

@@ -73,6 +73,7 @@ category: os
 # - must be added for one of the following reasons :
 #   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
 #   - set a product vendor such as adobe, amazon or apache,
+#   - set a third-party extended support partner, or
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 tags: amazon linux-distribution
 
@@ -145,7 +146,7 @@ eoasWarnThreshold: 121
 # The value of this property can be set to any string to override the default column label.
 releaseColumn: Latest
 
-# Whether the "Released" column should be displayed (optional, default = false).
+# Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 releaseDateColumn: Released
 

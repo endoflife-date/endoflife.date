@@ -8,7 +8,6 @@ versionCommand: SELECT BANNER_FULL FROM V$VERSION;
 releasePolicyLink: https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html
 LTSLabel: <abbr title="Long Term Release">LTR</abbr>
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Premier Support
 eoesColumn: Extended Support
 
@@ -32,7 +31,7 @@ releases:
     lts: true
     eol: 2031-12-31
     eoes: false
-    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/whats-new.html
+    link: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/release_updates.html
 
 -   releaseCycle: "21"
     releaseLabel: "21c"

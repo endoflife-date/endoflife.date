@@ -11,7 +11,6 @@ releasePolicyLink: https://www.scala-lang.org/download/all.html
 changelogTemplate: "https://github.com/lampepfl/dotty/releases/tag/__LATEST__"
 eoasColumn: Current Releases
 eolColumn: Maintenance Releases
-releaseDateColumn: true
 
 identifiers:
 -   repology: scala
@@ -31,8 +30,8 @@ releases:
     releaseDate: 2024-12-10
     eoas: false
     eol: false
-    latest: "3.6.2"
-    latestReleaseDate: 2024-12-10
+    latest: "3.6.3"
+    latestReleaseDate: 2025-01-20
 
 -   releaseCycle: "3.5"
     releaseDate: 2024-08-22
@@ -53,8 +52,8 @@ releases:
     releaseDate: 2023-05-23
     eoas: false
     eol: false
-    latest: "3.3.4"
-    latestReleaseDate: 2024-09-27
+    latest: "3.3.5"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "3.2"
     releaseDate: 2022-08-31
@@ -81,8 +80,8 @@ releases:
     releaseDate: 2019-06-07
     eoas: false
     eol: false
-    latest: "2.13.15"
-    latestReleaseDate: 2024-09-25
+    latest: "2.13.16"
+    latestReleaseDate: 2025-01-15
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"

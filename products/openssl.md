@@ -6,7 +6,6 @@ permalink: /openssl
 versionCommand: openssl version
 releasePolicyLink: https://openssl-library.org/policies/releasestrat/index.html
 changelogTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
-releaseDateColumn: true
 eolColumn: Supported
 eoesColumn: Premium support
 
@@ -24,35 +23,35 @@ auto:
 releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-10-22
-    eol: false
-    latest: "3.4.0"
-    latestReleaseDate: 2024-10-22
+    eol: 2026-10-22 # documented on https://openssl-library.org/source/
+    latest: "3.4.1"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-09
-    latest: "3.3.2"
-    latestReleaseDate: 2024-09-03
+    latest: "3.3.3"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    latest: "3.2.3"
-    latestReleaseDate: 2024-09-03
+    latest: "3.2.4"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
-    latest: "3.1.7"
-    latestReleaseDate: 2024-09-03
+    latest: "3.1.8"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.15"
-    latestReleaseDate: 2024-09-03
+    latest: "3.0.16"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "1.1.1"
     lts: true

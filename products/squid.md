@@ -7,7 +7,6 @@ alternate_urls:
 versionCommand: squid -v
 releasePolicyLink: https://wiki.squid-cache.org/ReleaseSchedule
 changelogTemplate: http://www.squid-cache.org/Versions/v{{'__RELEASE_CYCLE__'|split:'.'|first}}/__RELEASE_CYCLE__/
-releaseDateColumn: true
 
 identifiers:
 -   repology: squid
@@ -35,8 +34,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2023-07-06
     eol: false
-    latest: '6.12'
-    latestReleaseDate: 2024-10-11
+    latest: '6.13'
+    latestReleaseDate: 2025-02-01
     link: http://www.squid-cache.org/Versions/v6/squid-__LATEST__-RELEASENOTES.html
 
 -   releaseCycle: "5"

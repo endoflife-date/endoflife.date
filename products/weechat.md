@@ -3,15 +3,13 @@ title: WeeChat
 category: app
 permalink: /weechat
 versionCommand: weechat --version
-changelogTemplate: https://weechat.org/files/doc/weechat/ChangeLog-__LATEST__.html
-releaseDateColumn: true
+changelogTemplate: https://github.com/weechat/weechat/releases/tag/v__LATEST__
 eolColumn: Active Support
 
 identifiers:
 -   repology: weechat
 -   cpe: cpe:/a:weechat:weechat
 -   cpe: cpe:2.3:a:weechat:weechat
-
 
 auto:
   methods:
@@ -22,8 +20,8 @@ releases:
 -   releaseCycle: "4.5"
     releaseDate: 2024-12-15
     eol: false # releaseDate(4.6)
-    latest: "4.5.1"
-    latestReleaseDate: 2024-12-23
+    latest: "4.5.2"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "4.4"
     releaseDate: 2024-08-17

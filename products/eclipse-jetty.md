@@ -8,13 +8,15 @@ alternate_urls:
 -   /jetty
 releasePolicyLink: https://jetty.org/download.html
 changelogTemplate: https://github.com/jetty/jetty.project/releases/tag/jetty-__LATEST__
-releaseDateColumn: true
 eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
 
 identifiers:
+-   repology: jetty
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server
+-   cpe: cpe:2.3:a:eclipse:jetty
+-   cpe: cpe:/a:eclipse:jetty
 
 auto:
   methods:
@@ -30,8 +32,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.16"
-    latestReleaseDate: 2024-12-09
+    latest: "12.0.17"
+    latestReleaseDate: 2025-03-03
 
 -   releaseCycle: "11"
     minJvmVersion: 11
@@ -61,10 +63,10 @@ releases:
     jspVersion: 2.3
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
-    eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/7958
+    eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
     eoes: false
-    latest: "9.4.53.v20231009"
-    latestReleaseDate: 2023-10-10
+    latest: "9.4.57.v20241219"
+    latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "9.3"
     minJvmVersion: 1.8

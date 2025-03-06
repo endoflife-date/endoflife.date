@@ -6,7 +6,6 @@ iconSlug: react
 permalink: /react-native
 releasePolicyLink: https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 changelogTemplate: https://github.com/facebook/react-native/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
@@ -19,26 +18,40 @@ auto:
   -   npm: react-native
 
 releases:
+-   releaseCycle: "0.78"
+    releaseDate: 2025-02-19
+    eoas: false
+    eol: false
+    latest: "0.78.0"
+    latestReleaseDate: 2025-02-19
+
+-   releaseCycle: "0.77"
+    releaseDate: 2025-01-21
+    eoas: false
+    eol: false
+    latest: "0.77.1"
+    latestReleaseDate: 2025-02-14
+    
 -   releaseCycle: "0.76"
     releaseDate: 2024-10-23
     eoas: false
     eol: false
-    latest: "0.76.2"
-    latestReleaseDate: 2024-11-14
+    latest: "0.76.7"
+    latestReleaseDate: 2025-02-06
     
 -   releaseCycle: "0.75"
     releaseDate: 2024-08-14
     eoas: false
     eol: false
-    latest: "0.75.4"
-    latestReleaseDate: 2024-10-02
+    latest: "0.75.5"
+    latestReleaseDate: 2025-02-06
 
 -   releaseCycle: "0.74"
     releaseDate: 2024-04-23
     eoas: 2024-10-23
-    eol: false
-    latest: "0.74.6"
-    latestReleaseDate: 2024-10-02
+    eol: 2025-01-27
+    latest: "0.74.7"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "0.73"
     releaseDate: 2023-12-07

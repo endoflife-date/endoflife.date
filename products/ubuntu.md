@@ -4,13 +4,12 @@ category: os
 tags: linux-distribution
 iconSlug: ubuntu
 permalink: /ubuntu
-versionCommand: lsb_release --release
+versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.ubuntu.com/Releases
 releaseImage: https://github.com/endoflife-date/endoflife.date/assets/1423115/c1d812cd-9179-4ff6-9607-520dbf37fa3e
 
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 changelogTemplate: https://wiki.ubuntu.com/{{"__CODENAME__"|replace:' ',''}}/ReleaseNotes/
-releaseDateColumn: true
 eoasColumn: Hardware & Maintenance
 eolColumn: Maintenance & Security Support
 eoesColumn: Expanded Security Maintenance
@@ -46,8 +45,8 @@ releases:
     eoas: 2029-04-25
     eol: 2029-04-25
     eoes: 2036-04-25
-    latest: "24.04.1"
-    latestReleaseDate: 2024-08-29
+    latest: "24.04.2"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "23.10"
     codename: "Mantic Minotaur"
@@ -112,7 +111,7 @@ releases:
     lts: true
     releaseDate: 2020-04-23
     eoas: 2022-10-01
-    eol: 2025-04-02
+    eol: 2025-05-31
     eoes: 2030-04-02
     latest: "20.04.6"
     latestReleaseDate: 2023-03-23

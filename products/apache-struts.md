@@ -7,7 +7,6 @@ permalink: /apache-struts
 alternate_urls:
 -   /struts
 changelogTemplate: https://cwiki.apache.org/confluence/display/WW/Version+Notes+__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Commercial Support
 
@@ -29,15 +28,15 @@ releases:
     releaseDate: 2024-12-11
     eol: false
     eoes: yes
-    latest: "7.0.0"
-    latestReleaseDate: 2024-12-11
+    latest: "7.0.3"
+    latestReleaseDate: 2025-02-17
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-02
     eol: false
     eoes: yes
-    latest: "6.7.0"
-    latestReleaseDate: 2024-11-17
+    latest: "6.7.4"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "2.5"
     releaseDate: 2016-05-05
@@ -92,6 +91,8 @@ releases:
     link: null
 
 # 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
+
+
 ---
 
 > [Apache Struts](https://struts.apache.org/) is a free, open-source, MVC framework for creating

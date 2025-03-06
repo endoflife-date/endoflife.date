@@ -2,12 +2,12 @@
 title: Kong Gateway
 category: server-app
 tags: web-server
+iconSlug: kong
 permalink: /kong-gateway
 alternate_urls:
 -   /kong
 -   /kong-api-gateway
 changelogTemplate: https://github.com/Kong/kong/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Enterprise Support
 

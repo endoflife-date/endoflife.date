@@ -10,15 +10,14 @@ releasePolicyLink: https://go.dev/doc/devel/release#policy
 changelogTemplate: https://go.dev/doc/devel/release#go__RELEASE_CYCLE__.minor
 eolColumn: Supported
 versionCommand: go version
-releaseDateColumn: true
 
 identifiers:
+-   repology: go
 -   purl: pkg:generic/go
 -   purl: pkg:docker/library/golang
 -   purl: pkg:docker/circleci/golang
 -   purl: pkg:docker/cimg/go
 -   purl: pkg:docker/bitnami/golang
--   repology: go
 
 auto:
   methods:
@@ -27,17 +26,23 @@ auto:
 
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.24"
+    releaseDate: 2025-02-11
+    eol: false
+    latest: "1.24.1"
+    latestReleaseDate: 2025-03-04
+
 -   releaseCycle: "1.23"
     releaseDate: 2024-08-13
     eol: false
-    latest: "1.23.4"
-    latestReleaseDate: 2024-12-03
+    latest: "1.23.7"
+    latestReleaseDate: 2025-03-04
 
 -   releaseCycle: "1.22"
     releaseDate: 2024-02-06
-    eol: false
-    latest: "1.22.10"
-    latestReleaseDate: 2024-12-03
+    eol: 2025-02-11
+    latest: "1.22.12"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "1.21"
     releaseDate: 2023-08-08

@@ -6,7 +6,6 @@ iconSlug: jenkins
 permalink: /jenkins
 releasePolicyLink: https://www.jenkins.io/download/lts/
 changelogTemplate: https://github.com/jenkinsci/jenkins/releases/tag/jenkins-__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
@@ -34,15 +33,22 @@ releases:
     releaseLabel: "Regular"
     releaseDate: 2016-04-20
     eol: false
-    latest: "2.491"
-    latestReleaseDate: 2024-12-19
+    latest: "2.500"
+    latestReleaseDate: 2025-03-04
+
+-   releaseCycle: "2.492"
+    releaseDate: 2025-01-07
+    lts: 2025-02-05
+    eol: false
+    latest: "2.492.2"
+    latestReleaseDate: 2025-03-03
 
 -   releaseCycle: "2.479"
     releaseDate: 2024-09-27
     lts: 2024-10-30
-    eol: false
-    latest: "2.479.2"
-    latestReleaseDate: 2024-11-25
+    eol: 2025-02-05
+    latest: "2.479.3"
+    latestReleaseDate: 2025-01-08
 
 -   releaseCycle: "2.462"
     releaseDate: 2024-06-10

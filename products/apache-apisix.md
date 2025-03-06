@@ -8,9 +8,6 @@ alternate_urls:
 -   /apisix
 changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
 
-identifiers:
--   repology: apisix
-
 auto:
   methods:
   -   github_releases: apache/apisix

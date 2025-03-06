@@ -6,7 +6,6 @@ permalink: /kyverno
 versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 customColumns:
 -   property: supportedK8sVersions
@@ -30,15 +29,15 @@ releases:
 -   releaseCycle: "1.13"
     releaseDate: 2024-10-29
     eol: false
-    latest: "1.13.2"
-    latestReleaseDate: 2024-12-10
+    latest: "1.13.4"
+    latestReleaseDate: 2025-02-08
     supportedK8sVersions: 1.28 - 1.31
 
 -   releaseCycle: "1.12"
     releaseDate: 2024-04-26
     eol: false
-    latest: "1.12.6"
-    latestReleaseDate: 2024-09-27
+    latest: "1.12.7"
+    latestReleaseDate: 2025-01-16
     supportedK8sVersions: 1.26 - 1.29
 
 -   releaseCycle: "1.11"

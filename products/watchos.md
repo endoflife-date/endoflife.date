@@ -9,7 +9,6 @@ releasePolicyLink: https://en.wikipedia.org/wiki/WatchOS#Version_history
 # Other release notes are easily accessible from that page, if available.
 changelogTemplate: "https://developer.apple.com/documentation/watchos-release-notes/watchos-__RELEASE_CYCLE__-release-notes"
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:apple:watch_os
@@ -29,14 +28,14 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: '11.2'
-    latestReleaseDate: 2024-12-11
+    latest: '11.3.1'
+    latestReleaseDate: 2025-02-10
     link: https://support.apple.com/en-us/121163
 
 -   releaseCycle: "10"
     releaseDate: 2023-09-18
     eoas: 2024-09-16
-    eol: false
+    eol: 2024-09-16
     latest: '10.6.1'
     latestReleaseDate: 2024-08-19
 

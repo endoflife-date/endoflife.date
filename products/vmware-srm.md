@@ -8,7 +8,6 @@ alternate_urls:
 -   /vmwaresrm
 releasePolicyLink: https://lifecycle.vmware.com
 eolColumn: General Support
-releaseDateColumn: true
 
 releases:
 -   releaseCycle: "8.8"

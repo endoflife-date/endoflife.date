@@ -7,7 +7,6 @@ permalink: /nginx
 versionCommand: nginx -v
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-releaseDateColumn: true
 
 identifiers:
 -   repology: nginx
@@ -32,14 +31,14 @@ releases:
     releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.27.3"
-    latestReleaseDate: 2024-11-26
+    latest: "1.27.4"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23
     eol: false
-    latest: "1.26.2"
-    latestReleaseDate: 2024-08-12
+    latest: "1.26.3"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-05-23

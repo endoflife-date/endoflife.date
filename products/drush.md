@@ -7,12 +7,11 @@ permalink: /drush
 versionCommand: drush --version
 releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl: pkg:composer/drush/drush
 -   repology: drush
+-   purl: pkg:composer/drush/drush
 -   purl: pkg:github/drush-ops/drush
 
 auto:
@@ -76,7 +75,7 @@ releases:
     releaseDate: 2015-11-19
     eol: 2025-01-31
     supportedPhpVersions: "5.4.5+"
-    supportedDrupalVersions: "7 - 8"
+    supportedDrupalVersions: "6 - 8"
     latest: "8.5.0"
     latestReleaseDate: 2024-11-26
 
@@ -84,7 +83,7 @@ releases:
     releaseDate: 2015-05-20
     eol: 2017-07-31
     supportedPhpVersions: "5.3.0+"
-    supportedDrupalVersions: "7"
+    supportedDrupalVersions: "6 - 7"
     latest: "7.4.2"
     latestReleaseDate: 2022-03-25
 
@@ -92,7 +91,7 @@ releases:
     releaseDate: 2013-08-16
     eol: 2015-12-31
     supportedPhpVersions: "5.3.0+"
-    supportedDrupalVersions: "7"
+    supportedDrupalVersions: "6 - 7"
     latest: "6.7.0"
     latestReleaseDate: 2015-12-02
 
@@ -100,7 +99,7 @@ releases:
     releaseDate: 2012-03-23
     eol: 2015-05-31
     supportedPhpVersions: "5.2.0+"
-    supportedDrupalVersions: "7"
+    supportedDrupalVersions: "6 - 7"
     latest: "5.11.0"
     latestReleaseDate: 2014-05-22
 

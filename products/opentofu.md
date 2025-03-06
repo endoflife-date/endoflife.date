@@ -9,7 +9,11 @@ alternate_urls:
 -   /open-tofu
 versionCommand: tofu --version
 changelogTemplate: https://github.com/opentofu/opentofu/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
+
+identifiers:
+-   repology: opentofu
+-   purl: pkg:github/opentofu/opentofu
+-   purl: pkg:oci/opentofu?repository_url=ghcr.io/opentofu
 
 auto:
   methods:
@@ -17,6 +21,12 @@ auto:
 
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.9"
+    releaseDate: 2025-01-09
+    eol: false # releaseDate(1.12)
+    latest: "1.9.0"
+    latestReleaseDate: 2025-01-09
+
 -   releaseCycle: "1.8"
     releaseDate: 2024-07-29
     eol: false # releaseDate(1.11)
@@ -31,7 +41,7 @@ releases:
 
 -   releaseCycle: "1.6"
     releaseDate: 2024-01-09
-    eol: false # releaseDate(1.9)
+    eol: 2025-01-09 # releaseDate(1.9)
     latest: "1.6.3"
     latestReleaseDate: 2024-07-09
 

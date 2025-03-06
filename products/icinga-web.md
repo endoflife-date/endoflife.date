@@ -10,7 +10,6 @@ versionCommand: icingacli version
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
 changelogTemplate: https://github.com/Icinga/icingaweb2/releases/tag/v__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: icingaweb2

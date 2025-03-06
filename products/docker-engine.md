@@ -7,11 +7,12 @@ versionCommand: docker version --format '{{.Server.Version}}'
 releasePolicyLink: https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 changelogTemplate: |
   https://docs.docker.com/engine/release-notes/{% assign MajorReleaseCycle = "__RELEASE_CYCLE__" | split:"." |first| plus:0 %}{% if MajorReleaseCycle >= 27 %}{{MajorReleaseCycle}}{%else%}__RELEASE_CYCLE__{%endif%}/#{{"__LATEST__"|replace:".",""}}
-releaseDateColumn: true
 
 identifiers:
 -   repology: docker
 -   repology: docker-ce
+-   cpe: cpe:2.3:a:docker:engine
+-   cpe: cpe:/a:docker:engine
 
 auto:
   methods:
@@ -20,6 +21,18 @@ auto:
 
 # For EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
+-   releaseCycle: "28.0"
+    releaseDate: 2025-02-20
+    eol: false
+    latest: "28.0.1"
+    latestReleaseDate: 2025-02-26
+
+-   releaseCycle: "27.5"
+    releaseDate: 2025-01-13
+    eol: false
+    latest: "27.5.1"
+    latestReleaseDate: 2025-01-22
+
 -   releaseCycle: "27.4"
     releaseDate: 2024-12-09
     eol: false
@@ -52,7 +65,7 @@ releases:
 
 -   releaseCycle: "26.1"
     releaseDate: 2024-04-22
-    eol: false
+    eol: 2025-02-17 # https://github.com/moby/moby/commit/2fc90096bfc6538906e8ad042335f2b23969d813
     latest: "26.1.5"
     latestReleaseDate: 2024-07-23
 
@@ -65,8 +78,8 @@ releases:
 -   releaseCycle: "25.0"
     releaseDate: 2024-01-19
     eol: false
-    latest: "25.0.7"
-    latestReleaseDate: 2024-12-05
+    latest: "25.0.8"
+    latestReleaseDate: 2025-02-03
 
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16

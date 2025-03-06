@@ -10,7 +10,6 @@ versionCommand: SELECT VERSION_NO FROM APEX_RELEASE;
 releasePolicyLink: https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 changelogTemplate: https://apex.oracle.com/en/platform/features/whats-new-{{"__RELEASE_CYCLE__" | replace:".",""}}/
 releaseColumn: false
-releaseDateColumn: true
 
 auto:
   methods:
@@ -24,6 +23,11 @@ auto:
 # EOL dates are documented on https://www.oracle.com/database/technologies/appdev/apex/collateral/#assistance
 # or https://www.oracle.com/us/assets/lifetime-support-technology-069183.pdf.
 releases:
+-   releaseCycle: "24.2"
+    # https://blogs.oracle.com/apex/post/announcing-oracle-apex-242
+    releaseDate: 2025-01-15
+    eol: 2026-07-31
+
 -   releaseCycle: "24.1"
     # https://blogs.oracle.com/apex/post/announcing-oracle-apex-241
     releaseDate: 2024-06-17

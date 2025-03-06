@@ -7,6 +7,7 @@ releasePolicyLink: https://ckeditor.com/docs/ckeditor5/latest/updating/versionin
 
 eoasColumn: true
 releaseColumn: false
+releaseDateColumn: false
 eoesColumn: true
 
 identifiers:
