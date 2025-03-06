@@ -26,28 +26,28 @@ identifiers:
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2025-03-05
-    eoas: false
+    eoas: 2025-03-05
     eol: 2025-09-31
     latest: '7.4.0'
     latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "7.3"
     releaseDate: 2025-01-31
-    eoas: 2025-03-05
+    eoas: 2025-01-31
     eol: 2025-07-31
     latest: '7.3.3'
     latestReleaseDate: 2025-03-01
 
 -   releaseCycle: "7.2"
     releaseDate: 2025-01-07
-    eoas: 2025-01-31
+    eoas: 2025-01-07
     eol: 2025-07-31
     latest: '7.2.5'
     latestReleaseDate: 2025-03-01
 
 -   releaseCycle: "7.1"
     releaseDate: 2024-12-04
-    eoas: 2025-01-07
+    eoas: 2024-12-04
     eol: 2025-06-30
     latest: '7.1.5'
     latestReleaseDate: 2025-03-01
