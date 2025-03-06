@@ -1,7 +1,7 @@
 ---
 title: Apache Struts
 category: framework
-tags: herodevs apache java-runtime
+tags: apache herodevs java-runtime
 iconSlug: apache
 permalink: /apache-struts
 alternate_urls:
