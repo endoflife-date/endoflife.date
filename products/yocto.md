@@ -26,8 +26,8 @@ releases:
     codename: 'Styhead'
     releaseDate: 2024-10-16
     eol: false
-    latest: "5.1.2"
-    latestReleaseDate: 2025-01-24
+    latest: "5.1.3"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "5.0"
     codename: 'Scarthgap'

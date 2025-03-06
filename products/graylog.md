@@ -29,15 +29,15 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2024-10-18
     eol: false
-    latest: "6.1.7"
-    latestReleaseDate: 2025-02-17
+    latest: "6.1.8"
+    latestReleaseDate: 2025-03-05
     link: https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-05-06
     eol: false
-    latest: "6.0.12"
-    latestReleaseDate: 2025-02-17
+    latest: "6.0.13"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30

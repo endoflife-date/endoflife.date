@@ -30,8 +30,8 @@ auto:
 releases:
 -   releaseCycle: "6.4"
     releaseDate: 2025-02-03
-    eoas: 2025-05-01
-    eol: 2025-08-01
+    eoas: 2025-05-06
+    eol: 2025-08-04
     latest: "6.4.1"
     latestReleaseDate: 2025-02-21
 
@@ -46,7 +46,7 @@ releases:
 -   releaseCycle: "6.2"
     releaseDate: 2024-08-01
     eoas: 2024-11-01
-    eol: 2025-02-01
+    eol: 2025-02-03
     latest: "6.2.3"
     latestReleaseDate: 2024-11-01
 
@@ -67,8 +67,8 @@ releases:
 -   releaseCycle: "5.2"
     lts: true
     releaseDate: 2023-11-01
-    eoas: 2025-05-01
-    eol: 2025-05-01
+    eoas: 2025-05-06
+    eol: 2025-05-06
     latest: "5.2.8"
     latestReleaseDate: 2025-02-03
 

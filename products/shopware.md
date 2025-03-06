@@ -27,8 +27,8 @@ releases:
     releaseDate: 2024-03-21
     eoas: false
     eol: false
-    latest: "6.6.10.1"
-    latestReleaseDate: 2025-02-20
+    latest: "6.6.10.2"
+    latestReleaseDate: 2025-03-05
 
 -   releaseCycle: "6.5"
     supportedPhpVersions: 8.1 - 8.3
