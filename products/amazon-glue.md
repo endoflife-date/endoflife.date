@@ -10,7 +10,6 @@ releaseColumn: false
 # Versions taken from https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 # EOL dates from https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html.
 releases:
-
 -   releaseCycle: "5.0"
     releaseLabel: "5.0"
     releaseDate: 2024-12-03
