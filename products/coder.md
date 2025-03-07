@@ -22,6 +22,13 @@ auto:
 # eoas(x) = releaseDate(x+2)
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "2.20"
+    releaseDate: 2025-03-05
+    eoas: false # releaseDate(2.22)
+    eol: false # releaseDate(2.23)
+    latest: "2.20.0"
+    latestReleaseDate: 2025-03-05
+
 -   releaseCycle: "2.19"
     releaseDate: 2025-02-04
     eoas: false # releaseDate(2.21)
@@ -31,7 +38,7 @@ releases:
 
 -   releaseCycle: "2.18"
     releaseDate: 2024-12-03
-    eoas: false # releaseDate(2.20)
+    eoas: 2025-03-05
     eol: false # releaseDate(2.21)
     latest: "2.18.5"
     latestReleaseDate: 2025-01-30
@@ -39,7 +46,7 @@ releases:
 -   releaseCycle: "2.17"
     releaseDate: 2024-11-05
     eoas: 2025-02-04 # releaseDate(2.19)
-    eol: false # releaseDate(2.20)
+    eol: 2025-03-05
     latest: "2.17.3"
     latestReleaseDate: 2024-12-13
 
