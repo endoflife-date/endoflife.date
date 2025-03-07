@@ -39,6 +39,14 @@ auto:
         eol: "EOL"
 
 releases:
+-   releaseCycle: "35"
+    releaseDate: 2025-03-04
+    eol: 2025-09-02
+    latest: "35.0.0"
+    latestReleaseDate: 2025-03-04
+    chromeVersion: "M134"
+    nodeVersion: "22.14"
+
 -   releaseCycle: "34"
     releaseDate: 2025-01-14
     eol: 2025-06-24
