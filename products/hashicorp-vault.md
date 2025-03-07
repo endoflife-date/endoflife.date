@@ -21,12 +21,18 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/vault.git
 
-# eol(x) = releaseDate(x+3)
+# eol(x) = releaseDate(x+1)
 # eoes(x) = releaseDate(x+6)
 releases:
+-   releaseCycle: "1.19"
+    releaseDate: 2025-03-04
+    eol: false
+    latest: "1.19.0"
+    latestReleaseDate: 2025-03-04
+
 -   releaseCycle: "1.18"
     releaseDate: 2024-10-08
-    eol: false
+    eol: 2025-03-04
     latest: "1.18.5"
     latestReleaseDate: 2025-02-24
 
