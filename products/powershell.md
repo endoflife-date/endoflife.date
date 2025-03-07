@@ -92,7 +92,7 @@ releases:
     releaseDate: 2016-08-02
     eol: false
     latest: "5.1"
-    link: null
+    link: https://learn.microsoft.com/powershell/scripting/install/powershell-support-lifecycle?view=powershell-5.1#windows-powershell-release-history
 
 -   releaseCycle: "5.0"
     releaseDate: 2016-02-24
