@@ -44,6 +44,13 @@ auto:
 # eol(x) = releaseDate(x) + 18 months
 # Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
+-   releaseCycle: "3.78"
+    releaseDate: 2025-03-04
+    eoas: 2026-03-04
+    eol: 2026-09-04
+    latest: "3.78.0-14"
+    latestReleaseDate: 2025-03-04
+
 -   releaseCycle: "3.77"
     releaseDate: 2025-02-04
     eoas: 2026-02-04
