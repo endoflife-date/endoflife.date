@@ -22,12 +22,12 @@ identifiers:
 
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
-# eol(x) can be found on https://docs.rocket.chat/docs/version-durability
+# eol(x) can be found on https://docs.rocket.chat/docs/rocketchat-release-notes
 releases:
 -   releaseCycle: "7.4"
     releaseDate: 2025-03-05
     eoas: 2025-03-05
-    eol: 2025-09-30
+    eol: 2025-08-31
     latest: '7.4.0'
     latestReleaseDate: 2025-03-05
 
