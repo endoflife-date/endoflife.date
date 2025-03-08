@@ -118,8 +118,8 @@ releases:
 
 ---
 
-> [Apache Pulsar](https://pulsar.apache.org) is an open-source, distributed
-> messaging and streaming platform built for the cloud.
+> [Apache Pulsar](https://pulsar.apache.org) is an open-source, distributed messaging and streaming
+> platform built for the cloud.
 
 The Pulsar project follows [a variant of Semantic Versioning (semver)](https://pulsar.apache.org/contribute/release-policy/#release-semantics),
 replacing `major.minor.patch` with `LTS.feature.patch`. With this numbering system:
@@ -128,9 +128,10 @@ replacing `major.minor.patch` with `LTS.feature.patch`. With this numbering syst
 - a "minor" version bump signals a new feature release, and
 - a "patch" version bump signals patches for bugs and security vulnerabilities.
 
-Feature releases are released every 3 months. They are supported with bug and security fixes for 6 months.
+Feature releases are released every 3 months. They are supported with bug and security fixes for 6
+months.
 
-LTS releases are released every 18 months. They are supported with bug and security fixes for 24 months,
-and with only security fixes for an additional 12 months.
+LTS releases are released every 18 months. They are supported with bug and security fixes for 24
+months, and with only security fixes for an additional 12 months.
 
 Upgrades should be done linearly [as explained in Apache Pulsar documentation](https://pulsar.apache.org/contribute/release-policy/#compatibility-between-releases).
