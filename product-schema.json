@@ -476,7 +476,8 @@
         "releaseDate": {
           "title": "Release date",
           "description": "Release date for the first release in this cycle.",
-          "$ref": "#/$defs/boolOrDate"
+          "type": "string",
+          "format": "date"
         },
         "releaseColumn": {
           "title": "Release column",
