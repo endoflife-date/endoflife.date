@@ -28,7 +28,7 @@ releases:
 -   releaseCycle: "1"
     codename: alchemist
     releaseDate: 2013-12-01
-    eol: true
+    eol: 2015-11-02
     discontinued: true
 
 ---
