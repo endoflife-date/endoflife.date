@@ -278,11 +278,11 @@ components:
           type:
             - number
             - string
-          description: Release Cycle
+          description: The release cycle which this release is part of
         releaseDate:
           type: string
           minLength: 10
-          description: Release Date for the first release in this cycle
+          description: Release date for the first release in this cycle
           format: date
           maxLength: 10
         eol:
@@ -290,13 +290,13 @@ components:
             - string
             - boolean
           minLength: 1
-          description: End of Life Date for this release cycle
+          description: End-of-Life date for this release cycle
         latest:
           type: string
           minLength: 1
           description: Latest release in this cycle
         link:
-          type: 
+          type:
           - string
           - 'null'
           minLength: 1
@@ -305,9 +305,7 @@ components:
           type:
             - boolean
             - string
-          description: >
-            Whether this release cycle has long-term-support (LTS). Can be a date instead in YYYY-MM-DD format as well
-            if the release enters LTS status on a given date.
+          description: Whether this release cycle has long-term-support (LTS), or the date it entered LTS status
         support:
           type:
             - string
