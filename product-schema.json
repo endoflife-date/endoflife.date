@@ -438,24 +438,28 @@
           "$ref": "#/$defs/boolOrString"
         },
         "eol": {
-          "title": "EOL",
-          "description": "Date in the format `yyyy-mm-dd` or `false` if not available.",
+          "title": "End of Life (EOL)",
+          "description": "End of all support, including security support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "eoasColumn": {
-          "title": "Active support column",
+          "title": "End of active support (EOAS) column",
           "description": "Whether to show the end of active support column, or a custom name for it.",
           "$ref": "#/$defs/boolOrString"
         },
         "eoas": {
+          "title": "End of active support (EOAS)",
+          "description": "End of active support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "eoesColumn": {
-          "title": "Extended support column",
+          "title": "End of extended support column",
           "description": "Whether to show the end of extended support column, or a custom name for it.",
           "$ref": "#/$defs/boolOrString"
         },
         "eoes": {
+          "title": "End of extended support (EOES)",
+          "description": "End of extended support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "discontinuedColumn": {
@@ -465,7 +469,7 @@
         },
         "discontinued": {
           "title": "Discontinued",
-          "description": "Whether this cycle is now discontinued.",
+          "description": "Whether this cycle is now discontinued. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "releaseDateColumn": {
