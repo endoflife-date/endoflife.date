@@ -6,7 +6,6 @@ iconSlug: steam
 permalink: /steamos
 eolColumn: Support
 releaseColumn: false
-discontinuedColumn: true
 
 identifiers:
 -   cpe: cpe:/o:valvesoftware:steamos
@@ -17,19 +16,16 @@ releases:
     codename: holo
     releaseDate: 2022-03-01
     eol: false
-    discontinued: false
 
 -   releaseCycle: "2"
     codename: brewmaster
     releaseDate: 2015-11-01
     eol: 2019-06-30
-    discontinued: true
 
 -   releaseCycle: "1"
     codename: alchemist
     releaseDate: 2013-12-01
     eol: 2015-11-02
-    discontinued: true
 
 ---
 

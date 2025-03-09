@@ -43,14 +43,12 @@ releases:
     releaseDate: 2017-06-23
     eol: 2024-09-05 # releaseDate(5.0)
     latest: "3.11.19"
-    discontinued: true
     latestReleaseDate: 2025-02-07
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: 2024-09-05
     latest: "3.0.32"
-    discontinued: true
     latestReleaseDate: 2025-02-07
 
 ---

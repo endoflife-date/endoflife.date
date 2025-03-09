@@ -321,4 +321,4 @@ components:
           format: date
           minLength: 10
           maxLength: 10
-          description: Whether this cycle is now discontinued.
+          description: Whether this device version is no longer in production.
