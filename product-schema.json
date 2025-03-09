@@ -412,7 +412,7 @@
         },
         "link": {
           "title": "Link",
-          "description": "Link to changelog for the latest release.",
+          "description": "Link to changelog for the latest release in this cycle, or null if unavailable.",
           "oneOf": [
             {
               "type": "string",

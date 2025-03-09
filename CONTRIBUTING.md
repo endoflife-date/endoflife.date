@@ -377,7 +377,7 @@ releases:
     # Use valid dates, and do not add quotes around dates.
     latestReleaseDate: 2022-01-23
 
-    # A link to the changelog for the latest release
+    # A link to the changelog for the latest release in this cycle
     # (optional, default = the URL generated from changelogTemplate if it is provided).
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
     # or if the changelogTemplate generated link must be overridden.
