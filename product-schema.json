@@ -494,14 +494,14 @@
       "allOf": [
         {
           "if": {
+            "required": [
+              "eolColumn"
+            ],
             "properties": {
               "eolColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eolColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -511,14 +511,14 @@
         },
         {
           "if": {
+            "required": [
+              "eoasColumn"
+            ],
             "properties": {
               "eoasColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eoasColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -528,14 +528,14 @@
         },
         {
           "if": {
+            "required": [
+              "eoesColumn"
+            ],
             "properties": {
               "eoesColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eoesColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -545,14 +545,14 @@
         },
         {
           "if": {
+            "required": [
+              "discontinuedColumn"
+            ],
             "properties": {
               "discontinuedColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "discontinuedColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -562,14 +562,14 @@
         },
         {
           "if": {
+            "required": [
+              "releaseDateColumn"
+            ],
             "properties": {
               "releaseDateColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "releaseDateColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -579,14 +579,14 @@
         },
         {
           "if": {
+            "required": [
+              "releaseColumn"
+            ],
             "properties": {
               "releaseColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "releaseColumn"
-            ]
+            }
           },
           "then": {
             "required": [
