@@ -124,6 +124,16 @@
         }
       ]
     },
+    "boolOrString": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
     "slug": {
       "type": "string",
       "pattern": "^/"
@@ -420,19 +430,12 @@
         },
         "eolColumn": {
           "title": "EOL column",
-          "description": "Name of the EOL column or `false` to disable the column.",
+          "description": "Whether to show the EOL column, or a custom name for it.",
           "examples": [
             "General Support",
             false
           ],
-          "oneOf": [
-            {
-              "const": false
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "$ref": "#/$defs/boolOrString"
         },
         "eol": {
           "title": "EOL",
@@ -441,24 +444,24 @@
         },
         "eoasColumn": {
           "title": "Active support column",
-          "description": "Name of the active support column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the end of active support column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "eoas": {
           "$ref": "#/$defs/boolOrDate"
         },
         "eoesColumn": {
           "title": "Extended support column",
-          "description": "Name of the extended support column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the end of extended support column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "eoes": {
           "$ref": "#/$defs/boolOrDate"
         },
         "discontinuedColumn": {
           "title": "Discontinued column",
-          "description": "Name of the discontinued column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the discontinued column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "discontinued": {
           "title": "Discontinued",
@@ -467,8 +470,8 @@
         },
         "releaseDateColumn": {
           "title": "Release date column",
-          "description": "Name of the release date column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the release date column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "releaseDate": {
           "title": "Release date",
@@ -477,8 +480,8 @@
         },
         "releaseColumn": {
           "title": "Release column",
-          "description": "Name of the release column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the release column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "latest": {
           "title": "Latest release",
