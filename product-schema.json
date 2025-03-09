@@ -20,13 +20,13 @@
       "title": "Release policy link",
       "description": "URL to the product's release policy page.",
       "type": "string",
-      "pattern": "^https?://.+$"
+      "format": "uri"
     },
     "iconUrl": {
       "title": "Icon url",
       "description": "URL to the product icon.",
       "type": "string",
-      "format": "uri-template"
+      "format": "uri"
     },
     "category": {
       "title": "Category",
@@ -46,12 +46,12 @@
     },
     "permalink": {
       "title": "Permalink",
-      "description": "The URL to this product. Must start with a slash.",
+      "description": "The URL to this product within the endoflife.date website. Must start with a slash.",
       "examples": [
         "/foo",
         "/bar"
       ],
-      "$ref": "#/$defs/link"
+      "$ref": "#/$defs/slug"
     },
     "tags": {
       "title": "Tags",
@@ -64,10 +64,10 @@
     },
     "alternate_urls": {
       "title": "Alternate URLs",
-      "description": "Array of alternate urls for this product. Must start with a slash.",
+      "description": "Array of alternate urls for this product within the endoflife.date website. Must start with a slash.",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/link"
+        "$ref": "#/$defs/slug"
       }
     },
     "auto": {
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "link": {
+    "slug": {
       "type": "string",
       "pattern": "^/"
     },
@@ -182,7 +182,8 @@
         "link": {
           "title": "Link",
           "description": "A link that gives more information about what the custom column contains.",
-          "type": "string"
+          "type": "string",
+          "format": "uri-template"
         }
       },
       "required": [
@@ -405,7 +406,7 @@
           "oneOf": [
             {
               "type": "string",
-              "pattern": "[^ ]+"
+              "format": "uri"
             },
             {
               "type": "null"
