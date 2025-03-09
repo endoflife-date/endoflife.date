@@ -176,12 +176,12 @@
         },
         "description": {
           "title": "Description",
-          "description": "A description of what contains the custom column.",
+          "description": "A description of what the custom column contains.",
           "type": "string"
         },
         "link": {
           "title": "Link",
-          "description": "A link that gives more information about what contains the custom column.",
+          "description": "A link that gives more information about what the custom column contains.",
           "type": "string"
         }
       },
@@ -321,7 +321,7 @@
           "properties": {
             "pypi": {
               "title": "Pypi",
-              "description": "Package name on pypi.",
+              "description": "Package name on PyPI.",
               "type": "string"
             },
             "regex": {
@@ -344,7 +344,7 @@
           "properties": {
             "maven": {
               "title": "Maven",
-              "description": "Package name on maven.",
+              "description": "Package name on Maven.",
               "type": "string"
             },
             "regex": {
@@ -414,7 +414,7 @@
         },
         "releaseLabel": {
           "title": "Release label",
-          "description": "The human readable name of this release.",
+          "description": "The human-readable name of this release.",
           "type": "string"
         },
         "eolColumn": {
@@ -471,7 +471,7 @@
         },
         "releaseDate": {
           "title": "Release date",
-          "description": "Release Date for the first release in this cycle.",
+          "description": "Release date for the first release in this cycle.",
           "$ref": "#/$defs/boolOrDate"
         },
         "releaseColumn": {

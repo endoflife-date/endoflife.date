@@ -80,7 +80,7 @@ releases:
     latestReleaseDate: 2023-11-17
     link: https://archives-docs.centreon.com/21.10/docs/releases/centreon-core/#211017
 
-# 21.04 and lower were supported for 18 months (eoas(x) = eol(x) - 1 year).
+# 21.04 and older were supported for 18 months (eoas(x) = eol(x) - 1 year).
 -   releaseCycle: '21.04'
     releaseDate: 2021-04-21
     eoas: 2021-10-31
