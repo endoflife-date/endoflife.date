@@ -79,32 +79,6 @@ releases:
     minJavaVersion: 1.4
     latest: "5.5.36"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 > Apache Tomcat is an open-source (Apache-2.0 licensed) pure-Java HTTP web server environment. It
