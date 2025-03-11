@@ -18,7 +18,7 @@ identifiers:
 releases:
 -   releaseCycle: "releng/13.5"
     releaseDate: 2025-03-11
-    eol: 2025-06-30
+    eol: 2026-04-30
 
 -   releaseCycle: "releng/14.2"
     releaseDate: 2024-12-03
