@@ -277,7 +277,7 @@ releases:
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
     chromeVersion: "M76"
-    nodeVersion: "12.14.0"
+    nodeVersion: "12.4"
 
 -   releaseCycle: "5"
     releaseDate: 2019-04-23
