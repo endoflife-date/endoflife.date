@@ -30,8 +30,8 @@ releases:
     supportedFreeBSD: "13.3-RELEASE+"
     releaseDate: 2025-01-13
     eol: false # releaseDate(2.4)
-    latest: "2.3.0"
-    latestReleaseDate: 2025-01-13
+    latest: "2.3.1"
+    latestReleaseDate: 2025-03-10
 
 -   releaseCycle: "2.2"
     supportedLinux: "4.18 - 6.12"

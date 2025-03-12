@@ -23,8 +23,8 @@ releases:
     eoas: 2026-04-30
     eol: 2027-10-31
     eoes: 2030-10-31
-    latest: '13.4.5'
-    latestReleaseDate: 2025-02-11
+    latest: '13.4.6'
+    latestReleaseDate: 2025-03-11
 
 -   releaseCycle: "12"
     releaseDate: 2022-10-04

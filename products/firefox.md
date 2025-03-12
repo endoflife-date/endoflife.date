@@ -29,8 +29,8 @@ releases:
 -   releaseCycle: "136"
     releaseDate: 2025-03-04
     eol: false
-    latest: "136.0"
-    latestReleaseDate: 2025-03-04
+    latest: "136.0.1"
+    latestReleaseDate: 2025-03-11
 
 -   releaseCycle: "135"
     releaseDate: 2025-02-04
