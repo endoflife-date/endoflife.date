@@ -28,8 +28,8 @@ releases:
     codename: "Sequoia"
     releaseDate: 2024-09-16
     eol: false
-    latest: '15.3.1'
-    latestReleaseDate: 2025-02-10
+    latest: '15.3.2'
+    latestReleaseDate: 2025-03-11
     link: https://support.apple.com/en-us/120283
 
 -   releaseCycle: "14"
