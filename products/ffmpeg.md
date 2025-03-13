@@ -78,8 +78,8 @@ releases:
     codename: '4:3'
     releaseDate: 2020-06-15
     eol: false
-    latest: "4.3.8"
-    latestReleaseDate: 2024-08-06
+    latest: "4.3.9"
+    latestReleaseDate: 2025-03-12
 
 -   releaseCycle: "4.2"
     codename: 'Ada'
@@ -106,8 +106,8 @@ releases:
     codename: 'Cantor'
     releaseDate: 2017-10-15
     eol: false
-    latest: "3.4.13"
-    latestReleaseDate: 2023-06-12
+    latest: "3.4.14"
+    latestReleaseDate: 2025-03-12
 
 -   releaseCycle: "3.3"
     codename: 'Hilbert'
@@ -262,6 +262,7 @@ releases:
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+
 
 ---
 
