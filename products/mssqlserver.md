@@ -30,7 +30,7 @@ releases:
     latestGdrLink: https://support.microsoft.com/help/5046861
     latest: "16.0.4185.3 CU18"
     latestReleaseDate: 2025-03-13
-    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate18
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate18
 
 -   releaseCycle: "13.0-sp3"
     codename: SQL16
