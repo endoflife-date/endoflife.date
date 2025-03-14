@@ -109,7 +109,7 @@ releases:
     lts: true
     releaseDate: 2021-06-02
     eoas: 2021-12-03
-    eol: 2023-06-01
+    eol: 2023-06-02
     latest: "2.93.18"
     latestReleaseDate: 2023-05-23
 
