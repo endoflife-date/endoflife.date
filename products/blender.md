@@ -80,7 +80,7 @@ releases:
     lts: true
     releaseDate: 2022-09-07
     eoas: 2022-12-07
-    eol: 2024-09-01
+    eol: 2024-09-07
     latest: "3.3.21"
     latestReleaseDate: 2024-07-15
 
