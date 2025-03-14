@@ -14,9 +14,9 @@ releases:
     releaseDate: 2021-11-02
     eoas: false
     eol: false
-    latest: "16.0.17928.20396"
-    latestReleaseDate: 2025-02-11
-    link: https://support.microsoft.com/help/5002681
+    latest: "16.0.18526.20080"
+    latestReleaseDate: 2025-03-11
+    link: https://support.microsoft.com/help/5002698
 
 -   releaseCycle: "2019"
     releaseDate: 2018-10-22
