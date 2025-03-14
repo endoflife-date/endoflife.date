@@ -281,10 +281,10 @@ components:
           description: The release cycle which this release is part of.
         releaseDate:
           type: string
-          minLength: 10
-          description: Release date for the first release in this cycle.
           format: date
+          minLength: 10
           maxLength: 10
+          description: Release date for the first release in this cycle.
         eol:
           type:
             - string
@@ -297,14 +297,14 @@ components:
           description: Latest release in this cycle.
         link:
           type:
-          - string
-          - 'null'
+            - string
+            - 'null'
           minLength: 1
-          description: 'Link to changelog for the latest release, if available.'
+          description: Link to changelog for the latest release in this cycle, or null if unavailable.
         lts:
           type:
-            - boolean
             - string
+            - boolean
           description: Whether this release cycle has long-term-support (LTS), or the date it entered LTS status.
         support:
           type:
@@ -318,7 +318,7 @@ components:
           type:
             - string
             - boolean
-          description: Whether this cycle is now discontinued.
+          format: date
           minLength: 10
           maxLength: 10
-          format: date
+          description: Whether this cycle is now discontinued.
