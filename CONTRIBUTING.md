@@ -418,9 +418,9 @@ You can visit <https://github.com/endoflife-date/endoflife.date/new/master/produ
 ## ✅ Validating your changes
 
 If you're using an IDE like `vscode` or `vim` (or any other IDE that supports JSON schema validation),
-you can use [this jsonschema](./product-schema.json) to validate the new product.
+you can use [this jsonschema](https://endoflife.date/product-schema.json) to validate the new product.
 
-For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./product-schema.json) file on it:
+For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies the jsonschema on it:
 
 ```json
   "files.associations": {
