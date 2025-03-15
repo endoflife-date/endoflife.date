@@ -130,4 +130,3 @@ exclude:
   - README.md
   - requirements.txt
   - runtime.txt
-  - product-schema.json
