@@ -639,8 +639,8 @@ releases:
 
 -   releaseCycle: "Galaxy A02"
     releaseDate: 2021-01-27
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-03-05 # approximate (https://www.gizchina.com/2024/03/05/samsung-galaxy-smartphone-end-of-support-march-2024/)
     link: https://doc.samsungmobile.com/SM-A022F/XID/doc.html
 
 -   releaseCycle: "Galaxy A32 5G"
@@ -657,8 +657,8 @@ releases:
 
 -   releaseCycle: "Galaxy A02s"
     releaseDate: 2021-01-04
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2025-01-04 # 4 years of security updates
     link: https://doc.samsungmobile.com/SM-A025G/XEF/doc.html
 
 -   releaseCycle: "Galaxy A12"
