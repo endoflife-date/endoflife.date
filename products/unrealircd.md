@@ -35,8 +35,8 @@ releases:
     eoas: false
     eol: false
     link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
-    latest: "6.1.9"
-    latestReleaseDate: 2024-11-20
+    latest: "6.1.10"
+    latestReleaseDate: 2025-03-07
 
 -   releaseCycle: "5"
     releaseDate: 2019-12-13
