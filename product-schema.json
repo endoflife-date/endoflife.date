@@ -469,7 +469,7 @@
         },
         "discontinued": {
           "title": "Discontinued",
-          "description": "Whether this cycle is now discontinued. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
+          "description": "Whether this device version is no longer in production. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "releaseDateColumn": {

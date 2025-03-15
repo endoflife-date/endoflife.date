@@ -50,7 +50,7 @@ title: Timeturner
 # - app: end-user applications
 # - lang: programming languages
 # - framework: application libraries, SDKs, frameworks...
-# - device: physical devices
+# - device: physical, hardware devices
 # - service: managed service offerings (SaaS/PaaS...)
 # - server-app: applications usually installed on the server-side
 category: os
@@ -151,8 +151,7 @@ releaseColumn: Latest
 releaseDateColumn: Released
 
 # Whether the "Discontinued" column should be displayed (optional, default = false).
-# Set to true if you're tracking a device. This usually means the device is no longer available for
-# sale or is no longer being manufactured.
+# Set this to true for physical, hardware devices (as opposed to software projects).
 # The value of this property can be set to any string to override the default column label.
 discontinuedColumn: Discontinued
 
@@ -360,6 +359,9 @@ releases:
     eoes: 2020-01-01
 
     # Discontinuation date (mandatory if discontinuedColumn is true, else MUST NOT be set).
+    # This is typically used for physical, hardware devices (as opposed to software projects),
+    # to indicate when the device is no longer available for sale or is no longer being manufactured.
+    # In contrast, the `eol` property indicates the end of support service for the device version.
     # This can be either a date (must be valid and not quoted)
     # or a boolean value (when the date is not known or has not been decided yet).
     # - When a date is used, this is the date where the release cycle is discontinued.
