@@ -128,7 +128,7 @@ releases:
 > motion tracking, video editing and 2D animation pipeline.
 
 [Since February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
-Blender follows a 3-releases per year schedule, with one of the releases offering long-term support (Blender LTS).
+Blender follows a 3-releases-per-year schedule, with one of the releases offering long-term support (Blender LTS).
 
 Non-LTS releases are supported until the next release with high priority bugs fixes. High severity and normal bugs
 may be fixed too if agreed on by the team.
