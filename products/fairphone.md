@@ -41,8 +41,8 @@ releases:
     supportedAndroidVersions: 10 - 13
     releaseDate: 2020-09-30
     discontinued: 2022-11-01
-    eoas: true
-    eol: 2025-09-30
+    eoas: 2024-09-30
+    eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "3"
@@ -50,8 +50,8 @@ releases:
     supportedAndroidVersions: 10 - 13
     releaseDate: 2019-09-30
     discontinued: 2021-09-01
-    eoas: true
-    eol: 2024-09-30
+    eoas: 2024-09-30
+    eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "2"
