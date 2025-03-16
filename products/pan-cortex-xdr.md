@@ -38,17 +38,35 @@ auto:
 # EOL dates can be found on https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary#traps-esm-and-cortex
 # Latest can be found on https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Agent-Releases/Cortex-XDR-Agent-Releases
 releases:
+-   releaseCycle: "8.7"
+    releaseDate: 2025-02-02
+    eol: 2025-11-23
+    latest: '8.7'
+    latestReleaseDate: 2025-02-02
+
+-   releaseCycle: "7.9.103-ce"
+    releaseDate: 2024-11-11
+    eol: 2026-12-31
+    latest: '7.9.103-CE'
+    latestReleaseDate: 2024-11-11
+
 -   releaseCycle: "8.6"
     releaseDate: 2024-09-30
     eol: 2025-07-13
-    latest: '8.6'
-    latestReleaseDate: 2024-09-30
+    latest: '8.6.1'
+    latestReleaseDate: 2024-12-03 # used Linux/Mac date
 
 -   releaseCycle: "8.5"
     releaseDate: 2024-06-30
     eol: 2025-04-21
-    latest: '8.5'
-    latestReleaseDate: 2024-06-30
+    latest: '8.5.2'
+    latestReleaseDate: 2025-02-24
+
+-   releaseCycle: "8.3-ce"
+    releaseDate: 2024-05-21
+    eol: 2026-05-21
+    latest: '8.3.101-CE'
+    latestReleaseDate: 2025-01-13 # used Linux date
 
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-14
