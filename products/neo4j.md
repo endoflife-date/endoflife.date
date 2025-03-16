@@ -6,7 +6,7 @@ iconSlug: neo4j
 permalink: /neo4j
 versionCommand: "call dbms.components() yield versions unwind versions as version return version;"
 releasePolicyLink: https://neo4j.com/terms/support-terms/
-changelogTemplate: https://github.com/neo4j/neo4j/releases/tag/__LATEST__
+changelogTemplate: https://neo4j.com/release-notes/database/neo4j-{{'__RELEASE_CYCLE__'|replace:'.','-'}}/
 eolColumn: Support Status
 
 identifiers:
@@ -48,7 +48,6 @@ releases:
     eol: false # releaseDate(2025.03)
     latest: "2025.02.0"
     latestReleaseDate: 2025-02-27
-    link: https://neo4j.com/developer/kb/neo4j-supported-versions/#_neo4j_database_enterprise_edition_2025
 
 -   releaseCycle: "2025.01"
     releaseDate: 2025-02-06
@@ -69,150 +68,175 @@ releases:
     eol: 2024-12-06 # releaseDate(5.26)
     latest: "5.25.1"
     latestReleaseDate: 2024-10-30
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.24"
     releaseDate: 2024-09-27
     eol: 2024-10-31 # releaseDate(5.25)
     latest: "5.24.2"
     latestReleaseDate: 2024-10-10
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.23"
     releaseDate: 2024-08-22
     eol: 2024-09-27 # releaseDate(5.24)
     latest: "5.23.0"
     latestReleaseDate: 2024-08-27
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.22"
     releaseDate: 2024-07-24
     eol: 2024-08-22
     latest: "5.22.0"
     latestReleaseDate: 2024-07-11
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.21"
     releaseDate: 2024-06-28
     eol: 2024-07-24
     latest: "5.21.2"
     latestReleaseDate: 2024-07-02
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.20"
     releaseDate: 2024-05-23
     eol: 2024-06-28
     latest: "5.20.0"
     latestReleaseDate: 2024-05-31
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.19"
     releaseDate: 2024-04-12
     eol: 2024-05-23
     latest: "5.19.0"
     latestReleaseDate: 2024-04-12
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.18"
     releaseDate: 2024-03-13
     eol: 2024-04-12
     latest: "5.18.1"
     latestReleaseDate: 2024-03-18
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.17"
     releaseDate: 2024-02-23
     eol: 2024-03-13
     latest: "5.17.0"
     latestReleaseDate: 2024-02-23
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.16"
     releaseDate: 2024-01-22
     eol: 2024-02-23
     latest: "5.16.0"
     latestReleaseDate: 2024-01-22
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.15"
     releaseDate: 2023-12-15
     eol: 2024-01-22
     latest: "5.15.0"
     latestReleaseDate: 2023-12-15
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.14"
     releaseDate: 2023-11-24
     eol: 2023-12-15
     latest: "5.14.0"
     latestReleaseDate: 2023-11-24
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.13"
     releaseDate: 2023-10-23
     eol: 2023-11-24
     latest: "5.13.0"
     latestReleaseDate: 2023-10-23
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.12"
     releaseDate: 2023-09-15
     eol: 2023-10-23
     latest: "5.12.0"
     latestReleaseDate: 2023-09-14
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.11"
     releaseDate: 2023-08-14
     eol: 2023-09-14
     latest: "5.11.0"
     latestReleaseDate: 2023-08-15
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.10"
     releaseDate: 2023-07-19
     eol: 2023-08-15
     latest: "5.10.0"
     latestReleaseDate: 2023-07-19
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.9"
     releaseDate: 2023-06-15
     eol: 2023-07-19
     latest: "5.9.0"
     latestReleaseDate: 2023-06-14
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.8"
     releaseDate: 2023-05-16
     eol: 2023-06-15
     latest: "5.8.0"
     latestReleaseDate: 2023-05-16
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.7"
     releaseDate: 2023-04-20
     eol: 2023-05-16
     latest: "5.7.0"
     latestReleaseDate: 2023-04-20
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.6"
     releaseDate: 2023-03-24
     eol: 2023-04-20
     latest: "5.6.0"
     latestReleaseDate: 2023-03-24
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.5"
     releaseDate: 2023-02-16
     eol: 2023-03-24
     latest: "5.5.0"
     latestReleaseDate: 2023-02-16
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.4"
     releaseDate: 2023-01-26
     eol: 2023-02-16
     latest: "5.4.0"
     latestReleaseDate: 2023-01-26
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.3"
     releaseDate: 2022-12-15
     eol: 2023-01-26
     latest: "5.3.0"
     latestReleaseDate: 2022-12-15
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.2"
     releaseDate: 2022-11-21
     eol: 2022-12-15
     latest: "5.2.0"
     latestReleaseDate: 2022-11-21
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.1"
     releaseDate: 2022-10-24
     eol: 2022-11-21
     latest: "5.1.0"
     latestReleaseDate: 2022-10-21
+    link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "4.4"
     releaseDate: 2021-12-02
@@ -220,30 +244,35 @@ releases:
     latest: "4.4.41"
     lts: true
     latestReleaseDate: 2025-01-31
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
 -   releaseCycle: "4.3"
     releaseDate: 2021-06-17
     eol: 2022-12-16
     latest: "4.3.23"
     latestReleaseDate: 2022-12-21
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
 -   releaseCycle: "4.2"
     releaseDate: 2020-11-17
     eol: 2022-05-16
     latest: "4.2.19"
     latestReleaseDate: 2022-08-11
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
 -   releaseCycle: "4.1"
     releaseDate: 2020-06-23
     eol: 2021-12-22
     latest: "4.1.12"
     latestReleaseDate: 2022-08-11
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
 -   releaseCycle: "4.0"
     releaseDate: 2020-01-15
     eol: 2021-07-14
     latest: "4.0.12"
     latestReleaseDate: 2021-07-06
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
 
 ---
 
