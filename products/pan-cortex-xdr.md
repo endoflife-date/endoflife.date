@@ -44,17 +44,29 @@ releases:
     latest: '8.7'
     latestReleaseDate: 2025-02-02
 
+-   releaseCycle: "7.9.103-ce"
+    releaseDate: 2024-11-11
+    eol: 2026-12-31
+    latest: '7.9.103-CE'
+    latestReleaseDate: 2024-11-11
+
 -   releaseCycle: "8.6"
     releaseDate: 2024-09-30
     eol: 2025-07-13
     latest: '8.6.1'
-    latestReleaseDate: 2024-12-03 # use Linux/Mac variant
+    latestReleaseDate: 2024-12-03 # used Linux/Mac date
 
 -   releaseCycle: "8.5"
     releaseDate: 2024-06-30
     eol: 2025-04-21
     latest: '8.5.2'
     latestReleaseDate: 2025-02-24
+
+-   releaseCycle: "8.3-ce"
+    releaseDate: 2024-05-21
+    eol: 2026-05-21
+    latest: '8.3.101-CE'
+    latestReleaseDate: 2025-01-13 # used Linux date
 
 -   releaseCycle: "8.4"
     releaseDate: 2024-04-14
