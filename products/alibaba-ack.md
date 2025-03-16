@@ -12,6 +12,18 @@ releaseDateColumn: true
 releaseColumn: false
 eolColumn: End of Support
 
+auto:
+  methods:
+    -   release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
+        selector: "table"
+        header_selector: "tr:nth-of-type(1)"
+        fields:
+          releaseCycle: "Version"
+          releaseDate: "Release date (ACK)"
+          eol:
+            column: "Discontinue date (ACK)"
+            regex: '^(?P<value>.+\s+\d+).*$'
+
 releases:
 -   releaseCycle: "1.32"
     releaseDate: 2025-01-01
@@ -60,7 +72,7 @@ releases:
 > own Kubernetes control plane or nodes. ACK runs patched Kubernetes versions and is certified Kubernetes
 > conformant for a predictable experience.
 
-The Kubernetes community releases a new minor version approximately every four months. ACK aligns with the upstream release cycle, iterating through the creation, maintenance, and discontinuation of Kubernetes versions. 
+The Kubernetes community releases a new minor version approximately every four months. ACK aligns with the upstream release cycle, iterating through the creation, maintenance, and discontinuation of Kubernetes versions.
 
 Starting from v1.31, ACK has expanded its support for Kubernetes versions from only even-numbered minor releases, such as v1.28 and v1.30, to include all minor versions. Additionally, for Kubernetes minor versions 1.31 and later, the ACK support cycle has been adjusted to one year.
 
