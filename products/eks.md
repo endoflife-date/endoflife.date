@@ -74,7 +74,7 @@ releases:
     eoes: 2025-06-11
     latest: '1.26-eks-40'
     latestReleaseDate: 2025-01-17
-    changelogTemplate: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-26
+    link: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-26
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-02-21
@@ -82,7 +82,7 @@ releases:
     eoes: 2025-05-01
     latest: '1.25-eks-40'
     latestReleaseDate: 2025-01-17
-    changelogTemplate: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-25
+    link: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-25
 
 -   releaseCycle: "1.24"
     releaseDate: 2022-11-15
@@ -90,7 +90,7 @@ releases:
     eoes: 2025-01-31
     latest: '1.24-eks-44'
     latestReleaseDate: 2025-01-17
-    changelogTemplate: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-24
+    link: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-24
 
 -   releaseCycle: "1.23"
     releaseDate: 2022-08-11
