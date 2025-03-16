@@ -68,7 +68,7 @@ releases:
 ---
 
 > [Alibaba Container Service for Kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes) is a managed
-> service that you can use to run Kubernetes on Alibaba Cloud without needing to install, operate, and maintain your own
+> service that can be used to run Kubernetes on Alibaba Cloud without needing to install, operate, and maintain a
 > Kubernetes control plane or nodes. ACK runs patched Kubernetes versions and is certified Kubernetes conformant for a
 > predictable experience.
 
