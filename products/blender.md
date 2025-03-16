@@ -133,5 +133,5 @@ Blender follows a 3-releases-per-year schedule, with one of the releases offerin
 Non-LTS releases are supported until the next release with high priority bugs fixes. High severity and normal bugs
 may be fixed too if agreed on by the team.
 
-LTS releases are supported for 2 years. At first the support level is the same as non-LTS releases. But after the next
-release is out they are supported with critical bug-fixes only.
+LTS releases are supported for 2 years. At first the support level is the same as non-LTS releases; but after the next
+release is out, they are supported with critical bugfixes only.
