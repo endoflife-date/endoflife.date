@@ -24,7 +24,7 @@ releases:
     lts: true
     eoas: true
     eol: 2023-06-30
-    eoes: 2026-12-01
+    eoes: 2028-12-01
 
 ---
 
