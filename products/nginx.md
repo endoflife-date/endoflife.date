@@ -18,6 +18,7 @@ identifiers:
 -   purl: pkg:rpm/centos/nginx
 -   purl: pkg:apk/alpine/nginx
 -   purl: pkg:rpm/opensuse/nginx
+-   purl: pkg:github/nginx/nginx
 
 auto:
   methods:
