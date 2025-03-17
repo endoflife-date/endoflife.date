@@ -23,7 +23,6 @@ releases:
     latest: "2022.2patch4"
     latestReleaseDate: 2025-03-11
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-4-release-date-march-11-2025
-          
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
