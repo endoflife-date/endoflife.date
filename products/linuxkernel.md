@@ -142,6 +142,30 @@ releases:
     latest: "5.15.179"
     latestReleaseDate: 2025-03-13
 
+-   releaseCycle: "5.14"
+    releaseDate: 2021-08-29
+    eol: 2021-11-21 # https://lkml.iu.edu/hypermail/linux/kernel/2111.2/05433.html
+    latest: "5.14.21"
+    latestReleaseDate: 2021-11-21
+
+-   releaseCycle: "5.13"
+    releaseDate: 2021-06-27
+    eol: 2021-09-18 # https://lore.kernel.org/lkml/16319668996036@kroah.com/
+    latest: "5.13.19"
+    latestReleaseDate: 2021-09-18
+
+-   releaseCycle: "5.12"
+    releaseDate: 2021-04-25
+    eol: 2021-07-20 # https://lore.kernel.org/lkml/1626791065147152@kroah.com/
+    latest: "5.12.19"
+    latestReleaseDate: 2021-07-20
+
+-   releaseCycle: "5.11"
+    releaseDate: 2021-02-14
+    eol: 2021-05-19 # https://lore.kernel.org/lkml/162141437223831@kroah.com/
+    latest: "5.11.22"
+    latestReleaseDate: 2021-05-19
+
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
