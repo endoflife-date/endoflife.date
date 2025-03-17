@@ -22,19 +22,25 @@ auto:
   -   git: https://github.com/apache/activemq.git
       regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
-# eol(x) = releaseCycle(x+2)
+# EOL status available on https://activemq.apache.org/components/classic/download/, should be close to eol(x) = releaseCycle(x+2)
 # link(x) =
 # - y > 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','0'}}-release"
-# - y > 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for latest releases)
+# - y > 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for 5.x releases)
 # - y <= 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
+-   releaseCycle: "5.19"
+    releaseDate: 2025-03-11
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "5.19.0"
+    latestReleaseDate: 2025-03-11
+
 -   releaseCycle: "6.1"
     releaseDate: 2024-03-11
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "6.1.6"
     latestReleaseDate: 2025-03-06
-    link: https://activemq.apache.org/components/classic/download/classic-06-01-02
+    link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
 -   releaseCycle: "6.0"
     releaseDate: 2023-11-14
