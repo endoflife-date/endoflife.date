@@ -93,12 +93,7 @@ ACK allows updating an ACK cluster to the latest patch version only. Updating to
 The Kubernetes versions supported by ACK follow the semantic versioning scheme in the `x.y.z-aliyun.n` format.
 `x.y.z` is the open source Kubernetes version, and `n` is the ACK patch version.
 
-After the Kubernetes community releases a new minor version, ACK performs a risk assessment and consistency test on the
-version. You can create clusters of the new version and update existing clusters to the new version within two weeks
-after the release.
+Minor Kubernetes versions are typically made available on Alibaba Cloud within two weeks of their release.
 
-After the Kubernetes community releases a new patch version for a minor version, ACK determines whether to release the
-patch version based on the risk level of the issue fixed by the patch version. If a new patch version that contains a
-high-severity vulnerability is released, ACK assesses and verifies the vulnerability within 24 hours after the release.
-After the new patch version is assessed and verified, ACK allows you to create clusters of the version and update
-clusters to the version.
+Patch Kubernetes versions may be accepted or not depending on the risk level of the fixed issues.
+Patch Kubernetes versions containing high-severity vulnerability are assessed within 24 hours after their release.
