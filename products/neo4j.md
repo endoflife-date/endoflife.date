@@ -47,7 +47,7 @@ releases:
     releaseDate: 2025-02-27
     eol: false # releaseDate(2025.03)
     latest: "2025.02.0"
-    latestReleaseDate: 2025-02-27
+    latestReleaseDate: 2025-02-24
     link: https://neo4j.com/developer/kb/neo4j-supported-versions/#_neo4j_database_enterprise_edition_2025
 
 -   releaseCycle: "2025.01"

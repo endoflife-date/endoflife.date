@@ -30,10 +30,10 @@ auto:
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
 -   releaseCycle: "5.19"
-    releaseDate: 2025-03-11
+    releaseDate: 2025-03-07
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "5.19.0"
-    latestReleaseDate: 2025-03-11
+    latestReleaseDate: 2025-03-07
 
 -   releaseCycle: "6.1"
     releaseDate: 2024-03-11
@@ -58,8 +58,8 @@ releases:
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
     eol: 2024-04-12 # https://github.com/apache/activemq-website/commit/021a32970405d98b52f647cb838e7a91f4c2b5dc
-    latest: "5.17.6"
-    latestReleaseDate: 2023-10-25
+    latest: "5.17.7"
+    latestReleaseDate: 2025-03-14
 
 -   releaseCycle: "5.16"
     releaseDate: 2020-06-25
@@ -176,6 +176,7 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
 
 
 
