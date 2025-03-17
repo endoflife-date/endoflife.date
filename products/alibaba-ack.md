@@ -81,10 +81,9 @@ the ACK support cycle has been adjusted to one year.
 
 ## Upgrading
 
-ACK allows you to update ACK clusters from a minor version only to the following minor version. You cannot skip minor
-versions when you update ACK clusters or roll back your ACK clusters to an earlier version. For example, if your cluster
-runs Kubernetes 1.30 and you want to update the cluster to Kubernetes 1.32, you must first update the cluster to
-Kubernetes 1.31 and then to Kubernetes 1.32.
+ACK enables updating ACK clusters from one minor version to the next consecutive minor version.
+Skipping minor versions or rolling back to an earlier version is not supported.
+For example, updating a Kubernetes 1.30 cluster to Kubernetes 1.32 requires updating the cluster to Kubernetes 1.31 first.
 
 ACK allows updating an ACK cluster to the latest patch version only. Updating to outdated patch versions is not possible.
 
