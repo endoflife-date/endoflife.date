@@ -90,9 +90,8 @@ ACK allows updating an ACK cluster to the latest patch version only. Updating to
 
 ## Platform Versions
 
-The Kubernetes versions supported by ACK follow the semantic versioning scheme in the x.y.z-aliyun.n format x.y.z is the
-open source Kubernetes version. x is the major version, y is the minor version, z is the patch version, and n is the ACK
-patch version.
+The Kubernetes versions supported by ACK follow the semantic versioning scheme in the `x.y.z-aliyun.n` format.
+`x.y.z` is the open source Kubernetes version, and `n` is the ACK patch version.
 
 After the Kubernetes community releases a new minor version, ACK performs a risk assessment and consistency test on the
 version. You can create clusters of the new version and update existing clusters to the new version within two weeks
