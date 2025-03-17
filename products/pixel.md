@@ -247,7 +247,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_3
     supportedAndroidVersions: 9 - 12 # https://www.gsmarena.com/google_pixel_3-9256.php
 
--   releaseCycle: "2"
+-   releaseCycle: "2xl"
     releaseLabel: "Pixel 2 XL"
     releaseDate: 2017-10-17
     eoas: 2020-10-05
