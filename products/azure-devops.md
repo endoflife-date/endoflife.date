@@ -23,6 +23,7 @@ releases:
     latest: "2022.2patch4"
     latestReleaseDate: 2025-03-11
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-4-release-date-march-11-2025
+
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
@@ -49,6 +50,7 @@ releases:
     latest: "2020.1.2patch15"
     latestReleaseDate: 2025-03-11
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-15-release-date-march-11-2025
+
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
     releaseDate: 2020-08-25
