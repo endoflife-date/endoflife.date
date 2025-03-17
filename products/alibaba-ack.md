@@ -86,8 +86,7 @@ versions when you update ACK clusters or roll back your ACK clusters to an earli
 runs Kubernetes 1.30 and you want to update the cluster to Kubernetes 1.32, you must first update the cluster to
 Kubernetes 1.31 and then to Kubernetes 1.32.
 
-ACK allows you to update an ACK cluster only to the latest patch version. You cannot update your cluster to outdated
-patch versions.
+ACK allows updating an ACK cluster to the latest patch version only. Updating to outdated patch versions is not possible.
 
 ## Platform Versions
 
