@@ -257,7 +257,7 @@ releases:
     supportedAndroidVersions: 8 - 11 # https://www.gsmarena.com/google_pixel_2_xl-8720.php
 
 -   releaseCycle: "2"
-    releaseLabel: "Pixel 2 / XL"
+    releaseLabel: "Pixel 2"
     releaseDate: 2017-10-17
     eoas: 2020-10-05
     eol: 2020-10-05 # RP1A.201005.004.A1
