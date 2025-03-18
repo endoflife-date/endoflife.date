@@ -14,55 +14,55 @@ eolColumn: End of Support
 
 auto:
   methods:
-    -   release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
-        selector: "table"
-        header_selector: "tr:nth-of-type(1)"
-        fields:
-          releaseCycle: "Version"
-          releaseDate: "Release date (ACK)"
-          eol:
-            column: "Discontinue date (ACK)"
-            regex: '^(?P<value>.+\s+\d+).*$'
+  -   release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Release date (ACK)"
+        eol:
+          column: "Discontinue date (ACK)"
+          regex: '^(?P<value>.+\s+\d+).*$'
 
 releases:
 -   releaseCycle: "1.32"
-    releaseDate: 2025-01-01
+    releaseDate: 2025-01-31
     eol: 2026-01-31
 
 -   releaseCycle: "1.31"
-    releaseDate: 2024-09-01
+    releaseDate: 2024-09-30
     eol: 2025-09-30
 
 -   releaseCycle: "1.30"
-    releaseDate: 2024-06-01
+    releaseDate: 2024-06-30
     eol: 2026-06-30
 
 -   releaseCycle: "1.28"
-    releaseDate: 2023-10-01
+    releaseDate: 2023-10-31
     eol: 2025-10-31
 
 -   releaseCycle: "1.26"
-    releaseDate: 2023-04-01
+    releaseDate: 2023-04-30
     eol: 2025-04-30
 
 -   releaseCycle: "1.24"
-    releaseDate: 2022-09-01
+    releaseDate: 2022-09-30
     eol: 2024-09-30
 
 -   releaseCycle: "1.22"
-    releaseDate: 2021-12-01
+    releaseDate: 2021-12-31
     eol: 2023-10-31
 
 -   releaseCycle: "1.20"
-    releaseDate: 2021-04-01
+    releaseDate: 2021-04-30
     eol: 2023-04-30
 
 -   releaseCycle: "1.18"
-    releaseDate: 2020-09-01
+    releaseDate: 2020-09-30
     eol: 2022-09-30
 
 -   releaseCycle: "1.16"
-    releaseDate: 2020-02-01
+    releaseDate: 2020-02-29
     eol: 2022-06-30
 
 ---
