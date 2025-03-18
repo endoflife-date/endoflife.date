@@ -309,16 +309,7 @@ releases:
     latest: "2.0.18"
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
-    nodeVersion: "v8.9"
-
-
-
-
-
-
-
-
-
+    nodeVersion: "8.9"
 
 ---
 
