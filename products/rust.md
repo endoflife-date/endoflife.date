@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "1.85"
     releaseDate: 2025-02-20
     eol: false
-    latest: "1.85.0"
-    latestReleaseDate: 2025-02-20
+    latest: "1.85.1"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "1.84"
     releaseDate: 2025-01-09
