@@ -461,7 +461,7 @@ releases:
     releaseDate: 2025-03-19
     eol: 2025-09-16
     latest: "24+37"
-    latestReleaseDate: 2025-01-23
+    latestReleaseDate: 2025-03-19
 
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
