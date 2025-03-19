@@ -457,6 +457,12 @@ auto:
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/support/.
 releases:
+-   releaseCycle: "24"
+    releaseDate: 2025-03-19
+    eol: 2025-09-16
+    latest: "24+37"
+    latestReleaseDate: 2025-01-23
+
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-18
