@@ -20,6 +20,7 @@ auto:
       template: '{{version}}'
 
 # Dates as per https://fedorapeople.org/groups/schedule/
+# Latest release dates are not displayed, but added automatically by auto-update.
 releases:
 -   releaseCycle: "41"
     releaseDate: 2024-10-29
