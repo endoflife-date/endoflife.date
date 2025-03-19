@@ -33,7 +33,7 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2025-03-18
     eol: false
-    #eoes: 2027-02-19
+    eoes: false
     latest: "4.0.0"
     latestReleaseDate: 2025-03-18
 
