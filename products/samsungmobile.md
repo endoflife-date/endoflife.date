@@ -19,6 +19,24 @@ eolColumn: Security Updates
 # 3. choose a page (preferably in english).
 releases:
 
+-   releaseCycle: "Galaxy S25 Ultra"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S938B/INS/doc.html
+
+-   releaseCycle: "Galaxy S25+"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S936B/INS/doc.html
+
+-   releaseCycle: "Galaxy S25"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S931B/INS/doc.html
+
 -   releaseCycle: "Galaxy A16"
     releaseDate: 2024-11-20
     eoas: 2030-11-20 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)

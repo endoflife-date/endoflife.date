@@ -22,19 +22,25 @@ auto:
   -   git: https://github.com/apache/activemq.git
       regex: '^activemq-(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?$'
 
-# eol(x) = releaseCycle(x+2)
+# EOL status available on https://activemq.apache.org/components/classic/download/, should be close to eol(x) = releaseCycle(x+2)
 # link(x) =
 # - y > 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','0'}}-release"
-# - y > 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for latest releases)
+# - y > 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for 5.x releases)
 # - y <= 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
 # - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
+-   releaseCycle: "5.19"
+    releaseDate: 2025-03-07
+    eol: false # still listed on https://activemq.apache.org/components/classic/download/
+    latest: "5.19.0"
+    latestReleaseDate: 2025-03-07
+
 -   releaseCycle: "6.1"
     releaseDate: 2024-03-11
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "6.1.6"
     latestReleaseDate: 2025-03-06
-    link: https://activemq.apache.org/components/classic/download/classic-06-01-02
+    link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
 -   releaseCycle: "6.0"
     releaseDate: 2023-11-14
@@ -52,14 +58,14 @@ releases:
 -   releaseCycle: "5.17"
     releaseDate: 2022-03-09
     eol: 2024-04-12 # https://github.com/apache/activemq-website/commit/021a32970405d98b52f647cb838e7a91f4c2b5dc
-    latest: "5.17.6"
-    latestReleaseDate: 2023-10-25
+    latest: "5.17.7"
+    latestReleaseDate: 2025-03-14
 
 -   releaseCycle: "5.16"
     releaseDate: 2020-06-25
     eol: 2023-03-18 # estimated based on 5.18 release date
-    latest: "5.16.7"
-    latestReleaseDate: 2023-10-25
+    latest: "5.16.8"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "5.15"
     releaseDate: 2017-06-27
@@ -170,6 +176,8 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
+
 
 
 
