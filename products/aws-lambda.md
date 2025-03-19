@@ -279,7 +279,7 @@ releases:
     releaseLabel: Node.js 6.10
     releaseDate: 2017-03-22
     eoas: 2019-08-12
-    eol: true
+    eol: 2019-08-12
     link: https://aws.amazon.com/about-aws/whats-new/2017/03/aws-lambda-supports-node-js-6-10/
 
 -   releaseCycle: "dotnetcore1.0"

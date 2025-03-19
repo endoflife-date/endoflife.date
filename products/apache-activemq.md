@@ -64,8 +64,8 @@ releases:
 -   releaseCycle: "5.16"
     releaseDate: 2020-06-25
     eol: 2023-03-18 # estimated based on 5.18 release date
-    latest: "5.16.7"
-    latestReleaseDate: 2023-10-25
+    latest: "5.16.8"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "5.15"
     releaseDate: 2017-06-27
@@ -176,6 +176,7 @@ releases:
     latest: "5.0.0"
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+
 
 
 
