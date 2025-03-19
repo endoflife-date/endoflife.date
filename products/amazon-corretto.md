@@ -48,6 +48,9 @@ auto:
   -   github_releases: corretto/corretto-23
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
+  -   github_releases: corretto/corretto-24
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
   -   release_table: https://aws.amazon.com/corretto/faqs/
       selector: "table"
       header_selector: "tr:nth-of-type(2)" # for Support Calendar table
@@ -76,6 +79,13 @@ auto:
 
 # Do not forget to update the "auto" configuration on each new major release.
 releases:
+-   releaseCycle: "24"
+    # First non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
+    releaseDate: 2025-03-18
+    eol: 2025-04-30
+    latest: "24.0.0.36.2"
+    latestReleaseDate: 2025-03-18
+
 -   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
     # Official release was on September : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
