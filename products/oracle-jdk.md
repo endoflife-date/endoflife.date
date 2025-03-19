@@ -54,7 +54,7 @@ auto:
 releases:
 -   releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-18
+    eol: 2025-09-16 # attempted date (3rd Tuesday of the month)
     latest: "24.0.0"
     latestReleaseDate: 2025-03-18
     link: https://www.oracle.com/java/technologies/javase/24all-relnotes.html
