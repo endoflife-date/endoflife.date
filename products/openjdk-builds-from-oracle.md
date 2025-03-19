@@ -21,7 +21,7 @@ identifiers:
 releases:
 -   releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-18
+    eol: 2025-09-16 # attempted EOL date (3rd Tuesday of the month), update when 25 is released
     latest: "24"
     latestReleaseDate: 2025-03-18
 
