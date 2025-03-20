@@ -55,7 +55,7 @@ releases:
     eoes: 2025-03-18
     latest: "23.32.11"
     latestJdkVersion: "23.0.2+7"
-    latestReleaseDate: 2024-07-16
+    latestReleaseDate: 2025-01-21
     link: https://docs.azul.com/core/release/january-2025/release-notes
 
 -   releaseCycle: "22"
