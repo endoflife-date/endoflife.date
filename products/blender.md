@@ -26,11 +26,11 @@ auto:
 # Dates can be found on https://projects.blender.org/blender/blender/milestones.
 releases:
 -   releaseCycle: "4.4"
-    releaseDate: 2025-03-18
+    releaseDate: 2025-03-17
     eoas: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
     eol: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
     latest: "4.4.0"
-    latestReleaseDate: 2025-03-18
+    latestReleaseDate: 2025-03-17
 
 -   releaseCycle: "4.3"
     releaseDate: 2024-11-19

@@ -24,8 +24,8 @@ releases:
     eoas: false # will be 13.0 GA date
     eol: 2026-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.0.310"
-    latestReleaseDate: 2024-12-03
+    latest: "12.3.1.1139"
+    latestReleaseDate: 2025-03-19
 
 -   releaseCycle: "11"
     releaseDate: 2021-02-11

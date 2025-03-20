@@ -313,7 +313,7 @@ releases:
 -   releaseCycle: "nodejs"
     releaseLabel: Node.js 0.10
     releaseDate: 2014-11-13
-    eoas: true
+    eoas: 2016-08-30
     eol: 2016-10-31
     link: https://aws.amazon.com/blogs/aws/run-code-cloud/
 
