@@ -24,7 +24,7 @@ releases:
     releaseLabel: Compute Module 5
     # https://www.raspberrypi.com/news/compute-module-5-on-sale-now/
     releaseDate: 2024-11-27
-    discontinued: 2034-01-01
+    discontinued: 2036-01-01
     link: https://www.raspberrypi.com/products/compute-module-5
 
 -   releaseCycle: "5"
