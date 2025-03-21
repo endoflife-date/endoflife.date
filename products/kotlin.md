@@ -13,10 +13,9 @@ changelogTemplate: "https://github.com/JetBrains/kotlin/releases/tag/v__LATEST__
 identifiers:
 -   repology: kotlin
 
-# NPM looks a lot more accurate than git, even if it does not reference a few 1.x versions.
 auto:
   methods:
-  -   npm: kotlin
+  -   github_releases: JetBrains/kotlin
 
 # EOL(N) = MAX(latestReleaseDate(N), releaseDate(N+1))
 releases:
