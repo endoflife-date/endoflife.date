@@ -107,7 +107,7 @@ releases:
     latestGdrLink: https://support.microsoft.com/help/5046857
     latest: "14.0.3490.10 Azure Connect Pack"
     latestReleaseDate: 2025-03-06
-    # Azure Connect Pack link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2017/azureconnect
+    # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
     link: https://support.microsoft.com/help/5046858 # GDR for CU31
 
 -   releaseCycle: "13.0-sp1"
