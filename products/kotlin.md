@@ -40,7 +40,7 @@ releases:
 -   releaseCycle: "1.8"
     eol: 2023-07-06
     latest: "1.8.22"
-    latestReleaseDate: 2023-06-07
+    latestReleaseDate: 2023-06-08
     releaseDate: 2022-12-28
 
 -   releaseCycle: "1.7"
@@ -52,7 +52,7 @@ releases:
 -   releaseCycle: "1.6"
     eol: 2022-06-09
     latest: "1.6.21"
-    latestReleaseDate: 2022-04-19
+    latestReleaseDate: 2022-04-20
     releaseDate: 2021-11-15
 
 -   releaseCycle: "1.5"
@@ -64,7 +64,7 @@ releases:
 -   releaseCycle: "1.4"
     eol: 2021-04-26
     latest: "1.4.32"
-    latestReleaseDate: 2021-03-22
+    latestReleaseDate: 2021-03-30
     releaseDate: 2020-08-14
 
 -   releaseCycle: "1.3"

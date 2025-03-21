@@ -26,7 +26,7 @@ releases:
     latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "2.10"
-    releaseDate: 2023-12-20
+    releaseDate: 2023-12-05
     eol: 2024-08-23
     latest: "2.10.2"
     latestReleaseDate: 2024-05-02
@@ -47,10 +47,10 @@ releases:
     releaseDate: 2020-08-05
     eol: 2021-11-24
     latest: "2.4.1"
-    latestReleaseDate: 2021-07-02
+    latestReleaseDate: 2021-07-01
 
 -   releaseCycle: "2.2"
-    releaseDate: 2019-11-25
+    releaseDate: 2019-11-07
     eol: 2020-08-05
     latest: "2.2.2"
     latestReleaseDate: 2020-03-13

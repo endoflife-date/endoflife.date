@@ -83,8 +83,8 @@ releases:
     # First non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
     releaseDate: 2025-03-18
     eol: 2025-10-31
-    latest: "24.0.0.36.2"
-    latestReleaseDate: 2025-03-18
+    latest: "24.0.0.36.3"
+    latestReleaseDate: 2025-03-20
 
 -   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
