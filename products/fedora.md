@@ -149,6 +149,7 @@ releases:
     latestReleaseDate: 2014-12-09
 
 -   releaseCycle: "20"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Heisenbug"
     releaseDate: 2013-12-17
     eol: 2015-06-23
@@ -156,6 +157,7 @@ releases:
     latestReleaseDate: 2013-12-17
 
 -   releaseCycle: "19"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Schrödinger's Cat"
     releaseDate: 2013-07-02
     eol: 2015-01-06
@@ -163,6 +165,7 @@ releases:
     latestReleaseDate: 2013-07-02
 
 -   releaseCycle: "18"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Spherical Cow"
     releaseDate: 2013-01-15
     eol: 2014-01-14
@@ -170,6 +173,7 @@ releases:
     latestReleaseDate: 2013-01-15
 
 -   releaseCycle: "17"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Beefy Miracle"
     releaseDate: 2012-05-29
     eol: 2013-07-30
@@ -177,6 +181,7 @@ releases:
     latestReleaseDate: 2012-05-29
 
 -   releaseCycle: "16"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Verne"
     releaseDate: 2011-11-08
     eol: 2013-02-12
@@ -184,6 +189,7 @@ releases:
     latestReleaseDate: 2011-11-08
 
 -   releaseCycle: "15"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Lovelock"
     releaseDate: 2011-05-24
     eol: 2012-06-26
@@ -191,6 +197,7 @@ releases:
     latestReleaseDate: 2011-05-24
 
 -   releaseCycle: "14"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Laughlin"
     releaseDate: 2010-11-02
     eol: 2011-12-09
@@ -198,6 +205,7 @@ releases:
     latestReleaseDate: 2010-11-02
 
 -   releaseCycle: "13"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Goddard"
     releaseDate: 2010-05-25
     eol: 2011-06-24
@@ -205,6 +213,7 @@ releases:
     latestReleaseDate: 2010-05-25
 
 -   releaseCycle: "12"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Constantine"
     releaseDate: 2009-11-17
     eol: 2010-12-02
@@ -212,6 +221,7 @@ releases:
     latestReleaseDate: 2009-11-17
 
 -   releaseCycle: "11"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Leonidas"
     releaseDate: 2009-06-09
     eol: 2010-06-25
@@ -219,6 +229,7 @@ releases:
     latestReleaseDate: 2009-06-09
 
 -   releaseCycle: "10"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Cambridge"
     releaseDate: 2008-11-25
     eol: 2009-12-17
@@ -226,6 +237,7 @@ releases:
     latestReleaseDate: 2008-11-25
 
 -   releaseCycle: "9"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Sulphur"
     releaseDate: 2008-05-13
     eol: 2009-07-10
@@ -233,6 +245,7 @@ releases:
     latestReleaseDate: 2008-05-13
 
 -   releaseCycle: "8"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Werewolf"
     releaseDate: 2007-11-08
     eol: 2009-01-07
@@ -240,6 +253,7 @@ releases:
     latestReleaseDate: 2007-11-08
 
 -   releaseCycle: "7"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Moonshine"
     releaseDate: 2007-05-31
     eol: 2008-06-13
@@ -247,6 +261,7 @@ releases:
     latestReleaseDate: 2007-05-31
 
 -   releaseCycle: "6"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Zod"
     releaseDate: 2006-10-24
     eol: 2007-12-07
@@ -254,6 +269,7 @@ releases:
     latestReleaseDate: 2006-10-24
 
 -   releaseCycle: "5"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Bordeaux"
     releaseDate: 2006-03-20
     eol: 2007-07-02
@@ -261,6 +277,7 @@ releases:
     latestReleaseDate: 2006-03-20
 
 -   releaseCycle: "4"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Stentz"
     releaseDate: 2005-06-13
     eol: 2006-08-07
@@ -268,6 +285,7 @@ releases:
     latestReleaseDate: 2005-06-13
 
 -   releaseCycle: "3"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Heidelberg"
     releaseDate: 2004-11-08
     eol: 2006-01-16
@@ -275,6 +293,7 @@ releases:
     latestReleaseDate: 2004-11-08
 
 -   releaseCycle: "2"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Tettnang"
     releaseDate: 2004-05-18
     eol: 2005-04-11
@@ -282,6 +301,7 @@ releases:
     latestReleaseDate: 2004-05-18
 
 -   releaseCycle: "1"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
     codename: "Yarrow"
     releaseDate: 2003-11-05
     eol: 2004-09-20
