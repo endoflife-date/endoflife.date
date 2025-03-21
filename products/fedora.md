@@ -106,6 +106,188 @@ releases:
     latest: '28'
     latestReleaseDate: 2018-05-01
 
+-   releaseCycle: "27"
+    releaseDate: 2017-11-14
+    eol: 2018-11-30
+    latest: '27'
+    latestReleaseDate: 2017-11-14
+
+-   releaseCycle: "26"
+    releaseDate: 2017-07-11
+    eol: 2018-05-29
+    latest: '26'
+    latestReleaseDate: 2017-07-11
+
+-   releaseCycle: "25"
+    releaseDate: 2016-11-22
+    eol: 2017-12-12
+    latest: '25'
+    latestReleaseDate: 2016-11-22
+
+-   releaseCycle: "24"
+    releaseDate: 2016-06-21
+    eol: 2017-08-08
+    latest: '24'
+    latestReleaseDate: 2016-06-21
+
+-   releaseCycle: "23"
+    releaseDate: 2015-11-03
+    eol: 2016-12-20
+    latest: '23'
+    latestReleaseDate: 2015-11-03
+
+-   releaseCycle: "22"
+    releaseDate: 2015-05-26
+    eol: 2016-07-19
+    latest: '22'
+    latestReleaseDate: 2015-05-26
+
+-   releaseCycle: "21"
+    releaseDate: 2014-12-09
+    eol: 2015-12-01
+    latest: '21'
+    latestReleaseDate: 2014-12-09
+
+-   releaseCycle: "20"
+    codename: "Heisenbug"
+    releaseDate: 2013-12-17
+    eol: 2015-06-23
+    latest: '20'
+    latestReleaseDate: 2013-12-17
+
+-   releaseCycle: "19"
+    codename: "Schrödinger's Cat"
+    releaseDate: 2013-07-02
+    eol: 2015-01-06
+    latest: '19'
+    latestReleaseDate: 2013-07-02
+
+-   releaseCycle: "18"
+    codename: "Spherical Cow"
+    releaseDate: 2013-01-15
+    eol: 2014-01-14
+    latest: '18'
+    latestReleaseDate: 2013-01-15
+
+-   releaseCycle: "17"
+    codename: "Beefy Miracle"
+    releaseDate: 2012-05-29
+    eol: 2013-07-30
+    latest: '17'
+    latestReleaseDate: 2012-05-29
+
+-   releaseCycle: "16"
+    codename: "Verne"
+    releaseDate: 2011-11-08
+    eol: 2013-02-12
+    latest: '16'
+    latestReleaseDate: 2011-11-08
+
+-   releaseCycle: "15"
+    codename: "Lovelock"
+    releaseDate: 2011-05-24
+    eol: 2012-06-26
+    latest: '15'
+    latestReleaseDate: 2011-05-24
+
+-   releaseCycle: "14"
+    codename: "Laughlin"
+    releaseDate: 2010-11-02
+    eol: 2011-12-09
+    latest: '14'
+    latestReleaseDate: 2010-11-02
+
+-   releaseCycle: "13"
+    codename: "Goddard"
+    releaseDate: 2010-05-25
+    eol: 2011-06-24
+    latest: '13'
+    latestReleaseDate: 2010-05-25
+
+-   releaseCycle: "12"
+    codename: "Constantine"
+    releaseDate: 2009-11-17
+    eol: 2010-12-02
+    latest: '12'
+    latestReleaseDate: 2009-11-17
+
+-   releaseCycle: "11"
+    codename: "Leonidas"
+    releaseDate: 2009-06-09
+    eol: 2010-06-25
+    latest: '11'
+    latestReleaseDate: 2009-06-09
+
+-   releaseCycle: "10"
+    codename: "Cambridge"
+    releaseDate: 2008-11-25
+    eol: 2009-12-17
+    latest: '10'
+    latestReleaseDate: 2008-11-25
+
+-   releaseCycle: "9"
+    codename: "Sulphur"
+    releaseDate: 2008-05-13
+    eol: 2009-07-10
+    latest: '9'
+    latestReleaseDate: 2008-05-13
+
+-   releaseCycle: "8"
+    codename: "Werewolf"
+    releaseDate: 2007-11-08
+    eol: 2009-01-07
+    latest: '8'
+    latestReleaseDate: 2007-11-08
+
+-   releaseCycle: "7"
+    codename: "Moonshine"
+    releaseDate: 2007-05-31
+    eol: 2008-06-13
+    latest: '7'
+    latestReleaseDate: 2007-05-31
+
+-   releaseCycle: "6"
+    codename: "Zod"
+    releaseDate: 2006-10-24
+    eol: 2007-12-07
+    latest: '6'
+    latestReleaseDate: 2006-10-24
+
+-   releaseCycle: "5"
+    codename: "Bordeaux"
+    releaseDate: 2006-03-20
+    eol: 2007-07-02
+    latest: '5'
+    latestReleaseDate: 2006-03-20
+
+-   releaseCycle: "4"
+    codename: "Stentz"
+    releaseDate: 2005-06-13
+    eol: 2006-08-07
+    latest: '4'
+    latestReleaseDate: 2005-06-13
+
+-   releaseCycle: "3"
+    codename: "Heidelberg"
+    releaseDate: 2004-11-08
+    eol: 2006-01-16
+    latest: '3'
+    latestReleaseDate: 2004-11-08
+
+-   releaseCycle: "2"
+    codename: "Tettnang"
+    releaseDate: 2004-05-18
+    eol: 2005-04-11
+    latest: '2'
+    latestReleaseDate: 2004-05-18
+
+-   releaseCycle: "1"
+    codename: "Yarrow"
+    releaseDate: 2003-11-05
+    eol: 2004-09-20
+    latest: '1'
+    latestReleaseDate: 2003-11-05
+
 ---
 
 > [Fedora](https://fedoraproject.org/) is a Linux distribution developed by the community-supported
