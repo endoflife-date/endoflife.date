@@ -11,6 +11,9 @@ eoasColumn: true
 identifiers:
 -   purl: pkg:deb/ubuntu/php
 -   purl: pkg:deb/debian/php
+-   purl: pkg:generic/php
+-   purl: pkg:generic/php-cli
+-   purl: pkg:generic/php-fpm
 -   repology: php
 -   cpe: cpe:2.3:a:php:php
 -   cpe: cpe:/a:php:php
