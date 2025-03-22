@@ -6,7 +6,7 @@ iconSlug: bitbucket
 permalink: /bitbucket
 alternate_urls:
 -   /atlassian-bitbucket
-releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html#LongTermSupportreleases-Policyanddetails
+releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html
 changelogTemplate: https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+__RELEASE_CYCLE__+release+notes
 
 eolColumn: Support
