@@ -166,3 +166,21 @@ releases:
 {: .warning }
 > Atlassian ended support for Bitbucket Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
 > Starting from 8.15.x, new releases of Bitbucket are available only to Data Center customers.
+
+Bitbucket is available both as SaaS and on-premises offer, with two editions:
+
+- Bitbucket Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
+- Bitbucket Data Center: Self-hosted edition, targeted to enterprises.
+
+This page is **only** about Bitbucket Data Center. Bitbucket Cloud is a
+part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
+
+Bitbucket has both LTS and non-LTS releases. There is approximately one LTS release per year,
+which receive security support and bug fixes for 2 years. The non-LTS releases are rarely
+backported for security and bug fixes, which means that you have to watch patch notes and keep up
+with current releases to keep your installation secure.
+
+More information about enterprise LTS releases can be found in
+[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
+Information about Atlassian Support End of Life Policy can be found in
+[this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
