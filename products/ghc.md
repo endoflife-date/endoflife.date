@@ -21,6 +21,9 @@ auto:
   -   git: https://gitlab.haskell.org/ghc/ghc.git
       regex: ^ghc-(?P<major>\d+)[.](?P<minor>\d+)[.](?P<patch>\d+)-release$
       template: '{{major}}.{{minor}}.{{patch}}'
+  # this custom script parses GHC Status tables from the primary source (Gitlab Wiki),
+  # propagates the EOL signal, see https://github.com/endoflife-date/release-data/pull/395
+  #-   custom: ghc-wiki # TODO uncomment once merged into release-data
 
 releases:
 -   releaseCycle: "9.12"
@@ -54,14 +57,14 @@ releases:
 -   releaseCycle: "9.4"
     releaseDate: 2022-08-07
     eoas: true
-    eol: false
+    eol: true
     latest: "9.4.8"
     latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "9.2"
     releaseDate: 2021-09-29
     eoas: true
-    eol: false
+    eol: true
     latest: "9.2.8"
     latestReleaseDate: 2023-05-26
     link: https://downloads.haskell.org/~ghc/__LATEST__/docs/html/users_guide/__LATEST__-notes.html
