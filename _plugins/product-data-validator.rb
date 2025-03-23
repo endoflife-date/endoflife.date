@@ -107,6 +107,7 @@ module EndOfLifeHooks
     'https://www.intel.com': SUPPRESSED_BECAUSE_403,
     'https://www.java.com/releases/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.mageia.org': SUPPRESSED_BECAUSE_TIMEOUT,
+    'https://www.mail-archive.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microfocus.com/documentation/visual-cobol/': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/download/internet-explorer.aspx': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.microsoft.com/edge': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -117,7 +118,7 @@ module EndOfLifeHooks
     'https://www.mysql.com': SUPPRESSED_BECAUSE_403,
     'https://www.raspberrypi.com': SUPPRESSED_BECAUSE_403,
     'https://www.reddit.com': SUPPRESSED_BECAUSE_403,
-    'http://www.slackware.com/faq/do_faq.php': SUPPRESSED_BECAUSE_CONN_FAILED,
+    'http://www.slackware.com': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.unrealircd.org/docs/UnrealIRCd_releases': SUPPRESSED_BECAUSE_403,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
