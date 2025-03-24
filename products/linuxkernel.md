@@ -27,15 +27,15 @@ releases:
 -   releaseCycle: "6.13"
     releaseDate: 2025-01-19
     eol: false # when its eol date announced we need to fix this
-    latest: "6.13.7"
-    latestReleaseDate: 2025-03-13
+    latest: "6.13.8"
+    latestReleaseDate: 2025-03-22
 
 -   releaseCycle: "6.12"
     lts: true
     releaseDate: 2024-11-17
     eol: 2026-12-31
-    latest: "6.12.19"
-    latestReleaseDate: 2025-03-13
+    latest: "6.12.20"
+    latestReleaseDate: 2025-03-22
 
 -   releaseCycle: "6.11"
     releaseDate: 2024-09-15
@@ -71,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.83"
-    latestReleaseDate: 2025-03-13
+    latest: "6.6.84"
+    latestReleaseDate: 2025-03-22
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
