@@ -17,8 +17,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: jira
-  -   atlassian_eol: JiraSoftware
+  -   atlassian_versions: https://www.atlassian.com/software/jira/download-archives
+  -   atlassian_eol: AtlassianEndofSupportPolicy-JiraSoftware
 
 # Release dates from https://www.atlassian.com/software/jira/update,
 # They may vary by a day or two from what can be seen in the release notes.
