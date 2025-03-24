@@ -25,8 +25,16 @@ auto:
         releaseCycle:
           column: "Major Version"
           regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
-        eoas: "Full Support Until"
+        eoas: "Active Support Until"
         eol: "Security Support Until"
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Major Version"
+          regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
+        eoas: "Active Support Ended"
+        eol: "Security Support Ended"
 
 releases:
 -   releaseCycle: "5"
