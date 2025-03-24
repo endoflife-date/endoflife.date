@@ -20,9 +20,8 @@ auto:
   -   atlassian_versions: https://www.atlassian.com/software/jira/download-archives
   -   atlassian_eol: AtlassianEndofSupportPolicy-JiraSoftware
 
-# Release dates from https://www.atlassian.com/software/jira/update,
-# They may vary by a day or two from what can be seen in the release notes.
-# EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+# Release dates from https://www.atlassian.com/software/jira/download-archives.
+# LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
 -   releaseCycle: "10.4"
     releaseDate: 2025-01-22
@@ -720,21 +719,17 @@ releases:
 > [Jira Software](https://www.atlassian.com/software/jira) is a proprietary issue tracking product
 > developed by Atlassian that allows bug tracking and agile project management.
 
-Jira Software is available both as SaaS and on-premises offer, with three editions:
+{: .warning }
+> Atlassian ended support for Jira Software Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
+> Starting from 9.13.x, new releases of Jira are available only to Data Center customers.
+
+Jira Software is available both as SaaS and on-premises offer, with two editions:
 
 - Jira Software Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
-- Jira Software Server: Self-hosted edition.
-- Jira Software Data Center: Self-hosted edition, targeted to enterprises (see [Jira
-  Server and Data Center feature comparison](https://confluence.atlassian.com/enterprise/jira-server-and-data-center-feature-comparison-953651628.html)
-  for more information).
+- Jira Software Data Center: Self-hosted edition, targeted to enterprises.
 
-This page is **only** about Jira Software Server and Jira Software Data Center. Jira Software Cloud
-is a part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
+This page is **only** about Jira Software Data Center. Jira Software Cloud is a part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
 
-Jira Software has both LTS and non-LTS releases. There is approximately one LTS release per year,
-which receive security support and bug fixes for 2 years. Non-LTS releases are supported for
-6 months (there may be some exception). More information can be found in
-[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
-
-Atlassian will end support for Jira Software Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud),
-but Jira Software Data Center will still be available.
+Jira Software has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive bug and
+security fixes for 2 years. Non-LTS releases are supported for 6 months with only critical security fixes. More
+information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
