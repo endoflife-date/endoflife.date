@@ -165,7 +165,7 @@ releases:
 
 ---
 
-> [Bitbucket](https://www.atlassian.com/software/bitbucket) is a corporate source control and CI/CD platform developed
+> [Bitbucket](https://www.atlassian.com/software/bitbucket) is a proprietary source control and CI/CD platform developed
 > by Atlassian.
 
 {: .warning }
@@ -179,9 +179,6 @@ Bitbucket is available both as SaaS and on-premises offer, with two editions:
 
 This page is **only** about Bitbucket Data Center. Bitbucket Cloud is part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
 
-Bitbucket has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive security
-support and bug fixes for 2 years. The non-LTS releases are rarely backported for security and bug fixes, which means
-that you have to watch patch notes and keep up  with current releases to keep your installation secure.
-
-More information about enterprise LTS releases can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
-Information about Atlassian Support End of Life Policy can be found in [this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
+Bitbucket has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive bug and
+security fixes for 2 years. Non-LTS releases are supported for 6 months with only critical security fixes. More
+information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
