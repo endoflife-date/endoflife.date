@@ -20,8 +20,8 @@ auto:
   -   atlassian_versions: https://www.atlassian.com/software/confluence/download-archives
   -   atlassian_eol: AtlassianEndofSupportPolicy-Confluence
 
-# release date: https://www.atlassian.com/software/confluence/download-archives
-# lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+# Release dates from https://www.atlassian.com/software/confluence/download-archives.
+# LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
 -   releaseCycle: "9.3"
     releaseDate: 2025-02-04
@@ -182,30 +182,19 @@ releases:
 
 ---
 
-> [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki
-> developed by Atlassian.
+> [Confluence](https://www.atlassian.com/software/confluence) is a web-based corporate wiki developed by Atlassian.
 
 {: .warning }
 > Atlassian will end support for Confluence Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
 > And starting from 8.6.x, new releases of Confluence are available only to Data Center customers.
 
-Confluence is available both as SaaS and on-premises offer, with three editions:
+Confluence is available both as SaaS and on-premises offer, with two editions:
 
 - Confluence Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
-- Confluence Server: Self-hosted edition.
-- Confluence Data Center: Self-hosted edition, targeted to enterprises (see [Confluence Server and Data
-  Center feature comparison](https://confluence.atlassian.com/conf85/confluence-server-and-data-center-feature-comparison-1283361452.html)
-  for more information).
+- Confluence Data Center: Self-hosted edition, targeted to enterprises.
 
-This page is **only** about Confluence Server and Confluence Data Center. Confluence Cloud is a
-part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
+This page is **only** about Confluence Data Center. Confluence Cloud is a part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
 
-Confluence has both LTS and non-LTS releases. There is approximately one LTS release per year,
-which receive security support and bug fixes for 2 years. The non-LTS releases are rarely
-backported for security and bug fixes, which means that you have to watch patch notes and keep up
-with current releases to keep your installation secure.
-
-More information about enterprise LTS releases can be found in
-[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
-Information about Atlassian Support End of Life Policy can be found in
-[this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
+Confluence has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive bug and
+security fixes for 2 years. Non-LTS releases are supported for 6 months with only critical security fixes. More
+information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
