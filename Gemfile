@@ -30,4 +30,4 @@ gem 'icalendar', '~> 2.10'
 gem "open-uri", "~> 0.5"
 
 # Used in purl-to-url to parse PURLs
-gem "packageurl-ruby", "~> 0.1.0"
+gem "packageurl-ruby", "~> 0.2.0"
