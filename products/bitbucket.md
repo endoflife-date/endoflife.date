@@ -18,24 +18,30 @@ identifiers:
 
 auto:
   methods:
-  -   custom: bitbucket
-  -   atlassian_eol: Bitbucket
+  -   atlassian_versions: https://www.atlassian.com/software/bitbucket/download-archives
+  -   atlassian_eol: AtlassianEndofSupportPolicy-Bitbucket
 
-# release date: https://www.atlassian.com/software/bitbucket/download-archives
-# lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+# Release dates from https://www.atlassian.com/software/bitbucket/download-archives.
+# LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
 releases:
+-   releaseCycle: "9.6"
+    releaseDate: 2025-03-18
+    eol: 2027-01-18
+    latest: "9.6.0"
+    latestReleaseDate: 2025-03-18
+
 -   releaseCycle: "9.5"
     releaseDate: 2025-01-07
     eol: 2027-01-07
-    latest: "9.5.0"
-    latestReleaseDate: 2025-01-07
+    latest: "9.5.2"
+    latestReleaseDate: 2025-03-06
 
 -   releaseCycle: "9.4"
     lts: true
-    releaseDate: 2024-12-03
+    releaseDate: 2024-12-02
     eol: 2026-12-03
-    latest: "9.4.2"
-    latestReleaseDate: 2025-01-14
+    latest: "9.4.4"
+    latestReleaseDate: 2025-03-06
 
 -   releaseCycle: "9.3"
     releaseDate: 2024-10-29
@@ -65,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2024-03-12
     eol: 2026-03-12
-    latest: "8.19.14"
-    latestReleaseDate: 2025-01-14
+    latest: "8.19.16"
+    latestReleaseDate: 2025-03-06
 
 -   releaseCycle: "8.18"
     releaseDate: 2024-02-06
@@ -103,7 +109,7 @@ releases:
     releaseDate: 2023-08-14
     eol: 2025-08-15
     latest: "8.13.6"
-    latestReleaseDate: 2024-03-07
+    latestReleaseDate: 2024-02-07
     link: https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+and+Server+8.13+release+notes
 
 -   releaseCycle: "8.12"
@@ -131,8 +137,8 @@ releases:
     lts: true
     releaseDate: 2023-04-12
     eol: 2025-04-12
-    latest: "8.9.24"
-    latestReleaseDate: 2025-01-14
+    latest: "8.9.26"
+    latestReleaseDate: 2025-03-06
     link: https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+and+Server+8.9+release+notes
 
 -   releaseCycle: "8.8"
@@ -154,14 +160,13 @@ releases:
     releaseDate: 2022-02-28
     eol: 2024-02-28
     latest: "7.21.23"
-    latestReleaseDate: 2024-08-08
+    latestReleaseDate: 2024-03-08
     link: https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+and+Server+7.21+release+notes
-
 
 ---
 
-> [Bitbucket](https://www.atlassian.com/software/bitbucket) is a corporate source control and CI/CD platform
-> developed by Atlassian.
+> [Bitbucket](https://www.atlassian.com/software/bitbucket) is a corporate source control and CI/CD platform developed
+> by Atlassian.
 
 {: .warning }
 > Atlassian ended support for Bitbucket Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
@@ -169,18 +174,14 @@ releases:
 
 Bitbucket is available both as SaaS and on-premises offer, with two editions:
 
-- Bitbucket Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud).
+- Bitbucket Cloud: Cloud edition, available through [Atlassian Cloud](https://www.atlassian.com/licensing/cloud),
 - Bitbucket Data Center: Self-hosted edition, targeted to enterprises.
 
-This page is **only** about Bitbucket Data Center. Bitbucket Cloud is a
-part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
+This page is **only** about Bitbucket Data Center. Bitbucket Cloud is part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
 
-Bitbucket has both LTS and non-LTS releases. There is approximately one LTS release per year,
-which receive security support and bug fixes for 2 years. The non-LTS releases are rarely
-backported for security and bug fixes, which means that you have to watch patch notes and keep up
-with current releases to keep your installation secure.
+Bitbucket has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive security
+support and bug fixes for 2 years. The non-LTS releases are rarely backported for security and bug fixes, which means
+that you have to watch patch notes and keep up  with current releases to keep your installation secure.
 
-More information about enterprise LTS releases can be found in
-[this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
-Information about Atlassian Support End of Life Policy can be found in
-[this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
+More information about enterprise LTS releases can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
+Information about Atlassian Support End of Life Policy can be found in [this article](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html).
