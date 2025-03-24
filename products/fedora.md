@@ -163,6 +163,7 @@ releases:
     eol: 2015-01-06
     latest: '19'
     latestReleaseDate: 2013-07-02
+    link: https://docs.fedoraproject.org/en-US/releases/f19/
 
 -   releaseCycle: "18"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -171,6 +172,7 @@ releases:
     eol: 2014-01-14
     latest: '18'
     latestReleaseDate: 2013-01-15
+    link: https://docs.fedoraproject.org/en-US/releases/f18/
 
 -   releaseCycle: "17"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -179,6 +181,7 @@ releases:
     eol: 2013-07-30
     latest: '17'
     latestReleaseDate: 2012-05-29
+    link: https://docs.fedoraproject.org/en-US/releases/f17/
 
 -   releaseCycle: "16"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -187,6 +190,7 @@ releases:
     eol: 2013-02-12
     latest: '16'
     latestReleaseDate: 2011-11-08
+    link: https://docs.fedoraproject.org/en-US/releases/f16/
 
 -   releaseCycle: "15"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -195,6 +199,7 @@ releases:
     eol: 2012-06-26
     latest: '15'
     latestReleaseDate: 2011-05-24
+    link: https://docs.fedoraproject.org/en-US/releases/f15/
 
 -   releaseCycle: "14"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -203,6 +208,7 @@ releases:
     eol: 2011-12-09
     latest: '14'
     latestReleaseDate: 2010-11-02
+    link: https://docs.fedoraproject.org/en-US/releases/f14/
 
 -   releaseCycle: "13"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -211,6 +217,7 @@ releases:
     eol: 2011-06-24
     latest: '13'
     latestReleaseDate: 2010-05-25
+    link: https://docs.fedoraproject.org/en-US/releases/f13/
 
 -   releaseCycle: "12"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -219,6 +226,7 @@ releases:
     eol: 2010-12-02
     latest: '12'
     latestReleaseDate: 2009-11-17
+    link: https://docs.fedoraproject.org/en-US/releases/f12/
 
 -   releaseCycle: "11"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -227,6 +235,7 @@ releases:
     eol: 2010-06-25
     latest: '11'
     latestReleaseDate: 2009-06-09
+    link: https://docs.fedoraproject.org/en-US/releases/f11/
 
 -   releaseCycle: "10"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -235,6 +244,7 @@ releases:
     eol: 2009-12-17
     latest: '10'
     latestReleaseDate: 2008-11-25
+    link: https://docs.fedoraproject.org/en-US/releases/f10/
 
 -   releaseCycle: "9"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -243,6 +253,7 @@ releases:
     eol: 2009-07-10
     latest: '9'
     latestReleaseDate: 2008-05-13
+    link: https://docs.fedoraproject.org/en-US/releases/f9/
 
 -   releaseCycle: "8"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -251,6 +262,7 @@ releases:
     eol: 2009-01-07
     latest: '8'
     latestReleaseDate: 2007-11-08
+    link: https://docs.fedoraproject.org/en-US/releases/f8/
 
 -   releaseCycle: "7"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -259,6 +271,7 @@ releases:
     eol: 2008-06-13
     latest: '7'
     latestReleaseDate: 2007-05-31
+    link: https://docs.fedoraproject.org/en-US/releases/f7/
 
 -   releaseCycle: "6"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -267,6 +280,7 @@ releases:
     eol: 2007-12-07
     latest: '6'
     latestReleaseDate: 2006-10-24
+    link: https://docs.fedoraproject.org/en-US/releases/f6/
 
 -   releaseCycle: "5"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -275,6 +289,7 @@ releases:
     eol: 2007-07-02
     latest: '5'
     latestReleaseDate: 2006-03-20
+    link: https://docs.fedoraproject.org/en-US/releases/f5/
 
 -   releaseCycle: "4"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -283,6 +298,7 @@ releases:
     eol: 2006-08-07
     latest: '4'
     latestReleaseDate: 2005-06-13
+    link: https://docs.fedoraproject.org/en-US/releases/f4/
 
 -   releaseCycle: "3"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -291,6 +307,7 @@ releases:
     eol: 2006-01-16
     latest: '3'
     latestReleaseDate: 2004-11-08
+    link: https://docs.fedoraproject.org/en-US/releases/f3/
 
 -   releaseCycle: "2"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -299,6 +316,7 @@ releases:
     eol: 2005-04-11
     latest: '2'
     latestReleaseDate: 2004-05-18
+    link: https://docs.fedoraproject.org/en-US/releases/f2/
 
 -   releaseCycle: "1"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -307,6 +325,7 @@ releases:
     eol: 2004-09-20
     latest: '1'
     latestReleaseDate: 2003-11-05
+    link: https://docs.fedoraproject.org/en-US/releases/f1/
 
 ---
 
