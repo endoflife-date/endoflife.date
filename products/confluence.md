@@ -17,8 +17,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: confluence
-  -   atlassian_eol: Confluence
+  -   atlassian_versions: https://www.atlassian.com/software/confluence/download-archives
+  -   atlassian_eol: AtlassianEndofSupportPolicy-Confluence
 
 # release date: https://www.atlassian.com/software/confluence/download-archives
 # lts/eol date: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
