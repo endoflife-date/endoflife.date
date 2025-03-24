@@ -23,10 +23,20 @@ auto:
   methods:
   -   git: https://github.com/cakephp/cakephp.git
 
-# support(X) = releaseDate(X+1) + 1 day
+# eoas(x) = releaseDate(x+1) + 1 day
 # For a given major version, the last three minor versions have security support.
-# Do not forget to document the codename in the product's description when adding a new major version. (Codename only changes per major version release)
+# Do not forget to document the codename in the product's description when adding a new major version (codename only changes per major version release).
+# See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 releases:
+-   releaseCycle: "4.6"
+    codename: "Strawberry"
+    releaseDate: 2025-03-22
+    supportedPhpVersions: 7.4+
+    eoas: 2025-09-09
+    eol: 2026-09-09
+    latest: "4.6.0"
+    latestReleaseDate: 2025-03-22
+
 -   releaseCycle: "5.1"
     codename: "Chiffon"
     releaseDate: 2024-09-13
@@ -40,7 +50,7 @@ releases:
     codename: "Strawberry"
     releaseDate: 2023-10-14
     supportedPhpVersions: 7.4+
-    eoas: 2025-09-09
+    eoas: 2025-03-23
     eol: 2026-09-09
     latest: "4.5.10"
     latestReleaseDate: 2025-03-21
@@ -49,7 +59,7 @@ releases:
     codename: "Chiffon"
     releaseDate: 2023-09-09
     supportedPhpVersions: 8.1+
-    eoas: false
+    eoas: 2024-09-14
     eol: false
     latest: "5.0.11"
     latestReleaseDate: 2024-09-12
