@@ -17,7 +17,7 @@ jobs:
       - name: Setup ruby
         uses: ruby/setup-ruby@1a615958ad9d422dd932dc1d5823942ee002799f # v1
         with:
-          ruby-version: 3.3
+          ruby-version: 3.4.2
           bundler-cache: true
 
       - name: Perform URLs check
