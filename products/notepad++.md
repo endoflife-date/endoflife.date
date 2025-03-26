@@ -5,8 +5,6 @@ iconSlug: Notepad++
 permalink: /notepad++
 changelogTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
 
-eoasColumn: true
-
 auto:
   methods:
   -   git: https://github.com/notepad-plus-plus/notepad-plus-plus
