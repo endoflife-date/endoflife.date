@@ -58,14 +58,14 @@ releases:
 -   releaseCycle: "1.31"
     releaseDate: 2024-07-19
     eol: 2025-07-19
-    latest: '1.31.6'
-    latestReleaseDate: 2025-03-20
+    latest: '1.31.7'
+    latestReleaseDate: 2025-03-25
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-04-16
     eol: 2025-04-16
-    latest: '1.30.10'
-    latestReleaseDate: 2025-03-20
+    latest: '1.30.11'
+    latestReleaseDate: 2025-03-25
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-01-16
