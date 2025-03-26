@@ -2,7 +2,7 @@
 title: Notepad++
 category: app
 iconSlug: Notepad++
-permalink: /notepad++
+permalink: /notepadpp
 changelogTemplate: "https://notepad-plus-plus.org/downloads/v__LATEST__/"
 
 auto:
