@@ -21,13 +21,11 @@ auto:
   -   git: https://gitlab.haskell.org/ghc/ghc.git
       regex: ^ghc-(?P<major>\d+)[.](?P<minor>\d+)[.](?P<patch>\d+)-release$
       template: '{{major}}.{{minor}}.{{patch}}'
-  # this custom script parses GHC Status tables from the primary source (Gitlab Wiki),
-  # propagates the EOL signal, see https://github.com/endoflife-date/release-data/pull/395
-  #-   custom: ghc-wiki # TODO uncomment once merged into release-data
+  -   custom: ghc-wiki
 
 releases:
 -   releaseCycle: "9.12"
-    releaseDate: 2024-12-16
+    releaseDate: 2024-11-15
     eoas: false
     eol: false
     latest: "9.12.2"
@@ -45,14 +43,14 @@ releases:
     eoas: true
     eol: false
     latest: "9.8.4"
-    latestReleaseDate: 2024-11-29
+    latestReleaseDate: 2024-12-02
 
 -   releaseCycle: "9.6"
     releaseDate: 2023-03-10
-    eoas: false
+    eoas: true
     eol: false
     latest: "9.6.7"
-    latestReleaseDate: 2025-03-24
+    latestReleaseDate: 2025-03-21
 
 -   releaseCycle: "9.4"
     releaseDate: 2022-08-07
@@ -62,7 +60,7 @@ releases:
     latestReleaseDate: 2023-11-10
 
 -   releaseCycle: "9.2"
-    releaseDate: 2021-09-29
+    releaseDate: 2021-10-29
     eoas: true
     eol: true
     latest: "9.2.8"
@@ -70,15 +68,15 @@ releases:
     link: https://downloads.haskell.org/~ghc/__LATEST__/docs/html/users_guide/__LATEST__-notes.html
 
 -   releaseCycle: "9.0"
-    releaseDate: 2021-02-03
+    releaseDate: 2021-02-04
     eoas: true
     eol: true
     latest: "9.0.2"
-    latestReleaseDate: 2021-12-26
+    latestReleaseDate: 2021-12-25
     link: https://downloads.haskell.org/~ghc/9.0.2/docs/html/users_guide/9.0.2-notes.html
 
 -   releaseCycle: "8.10"
-    releaseDate: 2020-03-22
+    releaseDate: 2020-03-24
     eoas: true
     eol: true
     latest: "8.10.7"
@@ -98,7 +96,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.6.5"
-    latestReleaseDate: 2019-04-22
+    latestReleaseDate: 2019-04-23
     link: https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/8.6.5-notes.html
 
 -   releaseCycle: "8.4"
@@ -106,23 +104,23 @@ releases:
     eoas: true
     eol: true
     latest: "8.4.4"
-    latestReleaseDate: 2018-10-13
+    latestReleaseDate: 2018-05-29
     link: https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/8.4.4-notes.html
 
 -   releaseCycle: "8.2"
-    releaseDate: 2017-07-21
+    releaseDate: 2017-07-22
     eoas: true
     eol: true
     latest: "8.2.2"
-    latestReleaseDate: 2017-11-21
+    latestReleaseDate: 2017-07-22
     link: https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/8.2.2-notes.html
 
 -   releaseCycle: "8.0"
-    releaseDate: 2016-05-17
+    releaseDate: 2016-05-21
     eoas: true
     eol: true
     latest: "8.0.2"
-    latestReleaseDate: 2017-01-04
+    latestReleaseDate: 2017-01-11
     link: https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/8.0.2-notes.html
 
 ---
