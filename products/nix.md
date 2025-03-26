@@ -36,8 +36,8 @@ releases:
 -   releaseCycle: "2.24"
     releaseDate: 2024-08-01
     eol: 2025-01-22 # releaseDate(last releasedate of 2.24 series because 2.25 released)
-    latest: "2.24.12"
-    latestReleaseDate: 2025-01-22
+    latest: "2.24.13"
+    latestReleaseDate: 2025-03-24
 
 -   releaseCycle: "2.23"
     releaseDate: 2024-06-12

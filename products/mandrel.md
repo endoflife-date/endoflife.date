@@ -16,6 +16,13 @@ identifiers:
 -   repology: mandrel
 
 releases:
+-   releaseCycle: "24.2"
+    releaseLabel: "24.2 (JDK 24)"
+    releaseDate: 2025-03-25
+    eol: 2025-10-21 # Oct 2025 CPU
+    latest: "24.2.0.0"
+    latestReleaseDate: 2025-03-25
+
 -   releaseCycle: "24.1"
     releaseLabel: "24.1 (JDK 23)"
     releaseDate: 2024-09-23
