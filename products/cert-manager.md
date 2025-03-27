@@ -14,7 +14,6 @@ eolColumn: Support
 
 identifiers:
 -   repology: cert-manager
--   purl: pkg:docker/cert-manager/cert-manager
 
 auto:
   methods:
