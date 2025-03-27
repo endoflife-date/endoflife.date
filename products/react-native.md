@@ -22,22 +22,22 @@ releases:
     releaseDate: 2025-02-19
     eoas: false
     eol: false
-    latest: "0.78.0"
-    latestReleaseDate: 2025-02-19
+    latest: "0.78.1"
+    latestReleaseDate: 2025-03-19
 
 -   releaseCycle: "0.77"
     releaseDate: 2025-01-21
     eoas: false
     eol: false
-    latest: "0.77.1"
-    latestReleaseDate: 2025-02-14
+    latest: "0.77.2"
+    latestReleaseDate: 2025-03-25
     
 -   releaseCycle: "0.76"
     releaseDate: 2024-10-23
     eoas: false
     eol: false
-    latest: "0.76.7"
-    latestReleaseDate: 2025-02-06
+    latest: "0.76.8"
+    latestReleaseDate: 2025-03-26
     
 -   releaseCycle: "0.75"
     releaseDate: 2024-08-14
