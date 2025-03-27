@@ -65,8 +65,8 @@ releases:
     releaseDate: 2023-05-24
     eol: 2024-07-24
     eoes: 2025-07-24
-    latest: '1.27-eks-41'
-    latestReleaseDate: 2025-03-04
+    latest: '1.27-eks-40'
+    latestReleaseDate: 2024-09-27
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
