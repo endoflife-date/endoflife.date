@@ -20,16 +20,20 @@ auto:
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
       template: '{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}'
 
-# The policy before 9.0 release was to support 2 major versions. After 9.0, 2 latest minors are
-# supported, along with the last minor of the previous major. Hence, we break the latest series into
-# minors but only keep the previous major.
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
 releases:
--   releaseCycle: "11.5"
-    releaseDate: 2025-01-28
+-   releaseCycle: "11.6"
+    releaseDate: 2025-03-25
     eoas: false
     eol: false
+    latest: "11.6.0"
+    latestReleaseDate: 2025-03-25
+
+-   releaseCycle: "11.5"
+    releaseDate: 2025-01-28
+    eoas: 2025-03-25
+    eol: 2025-10-31
     latest: "11.5.3"
     latestReleaseDate: 2025-03-25
 
