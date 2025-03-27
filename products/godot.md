@@ -32,8 +32,8 @@ releases:
     releaseDate: 2025-03-03
     eoas: false
     eol: false
-    latest: "4.4.0"
-    latestReleaseDate: 2025-03-03
+    latest: "4.4.1"
+    latestReleaseDate: 2025-03-26
     link: https://godotengine.org/releases/4.4/
 
 -   releaseCycle: "3.6"
