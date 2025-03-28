@@ -23,9 +23,13 @@ auto:
       fields:
         releaseCycle: "Version"
         releaseDate: "Release Date"
+        eoas:
+          column: "Active Support"
+          regex: '^End(ed|s) (?P<value>.+)$'
         eol:
           column: "Active Support"
           regex: '^End(ed|s) (?P<value>.+)$'
+  # Override the EOL date if provided
   -   release_table: https://doc.traefik.io/traefik/deprecation/releases/
       selector: table
       fields:
@@ -36,8 +40,6 @@ auto:
           regex: '^End(ed|s) (?P<value>.+)$'
 
 
-# EOAS and EOL are documented on https://doc.traefik.io/traefik/deprecation/releases/.
-# Automation only updates the EOL date as its not possible to fully automate the EOAS date using release_table.
 releases:
 -   releaseCycle: "3.3"
     releaseDate: 2025-01-06
