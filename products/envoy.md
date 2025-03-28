@@ -17,6 +17,7 @@ identifiers:
 -   purl: pkg:docker/envoyproxy/envoy-alpine-debug
 -   purl: pkg:docker/envoyproxy/envoy-distroless
 -   purl: pkg:docker/bitnami/envoy
+-   purl: pkg:docker/rapidfort/envoy-official
 -   purl: pkg:docker/hashicorp/envoy-fips
 -   purl: pkg:docker/chainguard/envoy
 -   purl: pkg:github/envoyproxy/envoy
