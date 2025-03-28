@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: '3.5.20'
-    latestReleaseDate: 2025-03-21
+    latest: '3.5.21'
+    latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
