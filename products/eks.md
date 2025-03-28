@@ -67,6 +67,7 @@ releases:
     eoes: 2025-07-24
     latest: '1.27-eks-41'
     latestReleaseDate: 2025-03-04
+    link: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html#platform-versions-1-27
 
 -   releaseCycle: "1.26"
     releaseDate: 2023-04-11
