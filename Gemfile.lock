@@ -149,7 +149,7 @@ GEM
       time
       uri
     ostruct (0.6.1)
-    packageurl-ruby (0.1.0)
+    packageurl-ruby (0.2.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -219,7 +219,7 @@ DEPENDENCIES
   jemoji
   just-the-docs (~> 0.10.1)
   open-uri (~> 0.5)
-  packageurl-ruby (~> 0.1.0)
+  packageurl-ruby (~> 0.2.0)
   tzinfo-data
   webrick (~> 1.9)
 
