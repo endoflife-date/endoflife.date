@@ -32,9 +32,22 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
+-   releaseCycle: "3.21"
+    releaseDate: 2025-03-26
+    eol: false
+    latest: "3.21.0"
+    latestReleaseDate: 2025-03-26
+
+-   releaseCycle: "3.20"
+    lts: true
+    releaseDate: 2025-03-26
+    eol: 2026-03-28
+    latest: "3.20.0"
+    latestReleaseDate: 2025-03-26
+
 -   releaseCycle: "3.19"
     releaseDate: 2025-02-26
-    eol: false
+    eol: 2025-03-28
     latest: "3.19.4"
     latestReleaseDate: 2025-03-19
 
