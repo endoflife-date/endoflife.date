@@ -227,7 +227,7 @@ components:
       type: object
       properties:
         name:
-          type: type
+          type: string
           description: Type of the identifier (types as of 2023-03 are repology, purl and cpe)
           example: cpe
         id:
