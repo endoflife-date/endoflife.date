@@ -14,9 +14,9 @@ auto:
 identifiers:
 -   repology: gatekeeper
 -   purl: pkg:github/open-policy-agent/gatekeeper
--   purl: pkg/docker/openpolicyagent/gatekeeper
--   purl: pkg/docker/chainguard/gatekeeper
--   purl: oci/gatekeeper?repository_url=cgr.dev/chainguard
+-   purl: pkg:docker/openpolicyagent/gatekeeper
+-   purl: pkg:docker/chainguard/gatekeeper
+-   purl: pkg:oci/gatekeeper?repository_url=cgr.dev/chainguard
 
 # eol(s) = releaseDate(x+2)
 releases:
