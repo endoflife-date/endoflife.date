@@ -275,7 +275,7 @@ components:
           description: Release date of the cycle.
           example: "2022-04-21"
         isLts:
-          ype: boolean
+          type: boolean
           description: Whether the product cycle is LTS.
           example: true
         ltsFrom:
