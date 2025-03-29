@@ -51,7 +51,7 @@ releases:
 
 ---
 
-> [OPA Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/) is a policy controller for Kubernetes that
+> [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/) is a policy controller for Kubernetes that
 > helps enforce policies and strengthen governance.
 
 The latest two releases are supported with bug and security fixes.
