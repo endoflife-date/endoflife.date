@@ -1,7 +1,6 @@
 ---
 title: Forgejo
 category: server-app
-tags: git
 iconSlug: forgejo
 permalink: /forgejo
 versionCommand: forgejo --version
