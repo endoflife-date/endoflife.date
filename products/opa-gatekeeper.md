@@ -1,5 +1,5 @@
 ---
-title: opa-gatekeeper
+title: Gatekeeper
 category: server-app
 tags: cncf configuration-management
 permalink: /opa-gatekeeper
