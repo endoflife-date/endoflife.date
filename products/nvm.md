@@ -1,7 +1,7 @@
 ---
 title: nvm
 category: app
-tags: javascript herodevs
+tags: herodevs javascript-runtime
 iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm

@@ -1,6 +1,6 @@
 ---
 title: Apache Lucene
-category: library
+category: framework
 tags: apache java-runtime
 iconSlug: apache
 permalink: /apache-lucene
