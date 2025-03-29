@@ -17,12 +17,11 @@ v1:
     - `eol` -> `isEol` and `eolFrom`,
     - `discontinued` -> `isDiscontinued` and `discontinuedFrom`,
     - `extendedSupport` -> `isEoes` and `eoesFrom`.
-- provide new endpoints (#2078, #2160, #2530)
+- provide new endpoints (#2078, #2160, #2530),
 - is versioned using the `api/v1` prefix (#2066), making it easier to implement
   non-backward-compatible changes in the future,
-- is documented using [swagger-ui](https://swagger.io/tools/swagger-ui/) instead of [Stoplight
-  Elements WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md)
-  (#905),
+- is documented using [swagger-ui](https://github.com/swagger-api/swagger-ui) instead of [Stoplight Elements
+  WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md) (#905),
 - but reverts #2425 due to incompatibilities in redirect rules.
 
 The API v1 is now generated using a Jekyll Generator (see https://jekyllrb.com/docs/plugins/generators/)
@@ -53,8 +52,8 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
   This made it possible to include :
   - additional metadata, such as the schema version and the last modified date,
   - product-level information, such as the product label or category (#2062).
-- Cycles data now always contain all the release cycles properties, even if they are null
-  (example: `discontinued`, `latest`, `latestReleaseDate`, `support`...).
+- Cycles data now always contain most of the release cycles properties, even if they are null
+  (example: `latest`, `latestReleaseDate`).
 - See <https://endoflife.date/docs/api/v1/#/default/get_products__product__> for a detailed
   description of the response.
 
@@ -63,8 +62,8 @@ The old API v0 documentation can still be seen on <https://endoflife.date/docs/a
 - Path has been changed from `api/<product>/<cycle>.json` to `api/v1/products/<product>/cycles/<cycle>/`.
 - Response has been changed to make it possible to include additional metadata, such as the schema
   version and the last modified date,
-- Cycles data now always contain all the release cycles properties, even if they are null
-  (example: `discontinued`, `latest`, `latestReleaseDate`, `support`...).
+- Cycles data now always contain most of the release cycles properties, even if they are null
+  (example: `latest`, `latestReleaseDate`).
 - A special `/api/v1/products/<product>/cycles/latest/` cycle, containing the same data as the
   latest cycle, has been added (#2078).
 - See <https://endoflife.date/docs/api/v1/#/default/get_products__product__cycles__cycle_> for a
@@ -78,18 +77,18 @@ rule and [takes precedence](https://docs.netlify.com/routing/redirects/#rule-pro
 
 ### New endpoints
 
-- `/api/v1/categories/`: Get a list of all categories.
+- `/api/v1/categories`: Get a list of all categories.
 - `/api/v1/categories/<category>`: Get a list of all products within the given category.
-- `/api/v1/tags/`: Get a list of all tags.
+- `/api/v1/tags`: Get a list of all tags.
 - `/api/v1/tags/<tag>`: Get a list of all products having the given tag.
-- `/api/v1/products/full/`: Get a list of all products with all their details (including cycles).
+- `/api/v1/products/full`: Get a list of all products with all their details (including cycles).
   This endpoint provides a dump of nearly all the endoflife.date data.
 
 
 
 ## API v0
 
-On 2023-03-02 the v0 endpoints were:
+On 2025-04-26 the v0 endpoints were:
 
 - "All products" (`/api/all.json`) : Get a list of all product names.
 - "Product" (`/api/{product}.json`) : Get all release cycles details for a given product.
