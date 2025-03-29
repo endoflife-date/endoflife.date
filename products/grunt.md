@@ -1,7 +1,7 @@
 ---
 title: Grunt
 category: app
-tags: herodevs javascript
+tags: herodevs javascript-runtime
 iconSlug: grunt
 permalink: /grunt
 releasePolicyLink: https://github.com/gruntjs/grunt
