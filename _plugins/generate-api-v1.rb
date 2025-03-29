@@ -2,14 +2,15 @@
 #
 # There are multiples endpoints :
 #
-# - /api/v1/ - list all major endpoints (those not requiring a parameter)
-# - /api/v1/products/ - list all products
-# - /api/v1/products/<product>/ - get a single product details
-# - /api/v1/products/<product>/latest - get details on the latest cycle for the given product
-# - /api/v1/products/<product>/<cycle> - get details on the given cycle for the given product
-# - /api/v1/categories/ - list categories used on endoflife.date
+# - /api/v1 - list all major endpoints (those not requiring a parameter)
+# - /api/v1/products - list all products (summary)
+# - /api/v1/products/full - list all products (full information)
+# - /api/v1/products/<product> - get a single product details
+# - /api/v1/products/<product>/latest - get details on the latest release cycle for the given product
+# - /api/v1/products/<product>/<release> - get details on the given release cycle for the given product
+# - /api/v1/categories - list categories used on endoflife.date
 # - /api/v1/categories/<category> - list products having the given category
-# - /api/v1/tags/ - list tags used on endoflife.date
+# - /api/v1/tags - list tags used on endoflife.date
 # - /api/v1/tags/<tag> - list products having the given tag
 
 
@@ -77,12 +78,12 @@ module ApiV1
 
     def add_products_related_pages(site, products)
       add_all_products_page(site, products)
-      add_all_products_and_cycles_page(site, products)
+      add_all_products_and_releases_page(site, products)
 
       products.each do |page|
         add_product_page(site, page)
-        add_latest_cycle_page(site, page)
-        page.data['releases'].each { |cycle| add_cycle_page(site, page, cycle) }
+        add_latest_release_page(site, page)
+        page.data['releases'].each { |release| add_release_page(site, page, release) }
       end
     end
 
@@ -90,7 +91,7 @@ module ApiV1
       site.pages << JsonPage.of_products_summary(site, '/products/', products)
     end
 
-    def add_all_products_and_cycles_page(site, products)
+    def add_all_products_and_releases_page(site, products)
       site.pages << JsonPage.of_products_details(site, '/products/full/', products)
     end
 
@@ -98,13 +99,13 @@ module ApiV1
       site.pages << JsonPage.of_product(site, product)
     end
 
-    def add_latest_cycle_page(site, page)
+    def add_latest_release_page(site, page)
       latest = page.data['releases'][0]
-      site.pages << JsonPage.of_cycle(site, page, latest, 'latest')
+      site.pages << JsonPage.of_release(site, page, latest, 'latest')
     end
 
-    def add_cycle_page(site, page, cycle)
-      site.pages << JsonPage.of_cycle(site, page, cycle)
+    def add_release_page(site, page, release)
+      site.pages << JsonPage.of_release(site, page, release)
     end
 
     def add_categories_related_pages(site, products)
@@ -198,10 +199,10 @@ module ApiV1
         new(site, path, data, meta)
       end
 
-      def of_cycle(site, product, cycle, identifier = nil)
-        name = identifier ? identifier : cycle['id']
-        path = "/products/#{product.data['id']}/cycles/#{name}"
-        data = cycle_to_json(cycle)
+      def of_release(site, product, release, identifier = nil)
+        name = identifier ? identifier : release['id']
+        path = "/products/#{product.data['id']}/releases/#{name}"
+        data = release_to_json(release)
         new(site, path, data, {})
       end
 
@@ -223,7 +224,7 @@ module ApiV1
             html: ApiV1.site_url(site, "/#{product.data['id']}"),
             releasePolicy: product.data['releasePolicyLink'],
           },
-          cycles: product.data['releases'].map { |cycle| cycle_to_json(cycle) }
+          releases: product.data['releases'].map { |release| release_to_json(release) }
         }
 
         product_summary_to_json(site, product).except(:uri).merge(additional_details)
@@ -240,27 +241,27 @@ module ApiV1
         }
       end
 
-      def cycle_to_json(cycle)
+      def release_to_json(release)
         {
-          name: cycle['releaseCycle'],
-          codename: cycle['codename'],
-          label: ApiV1.strip_html(cycle['label']),
-          date: cycle['releaseDate'],
-          isLts: cycle['is_lts'],
-          ltsFrom: cycle['lts_from'],
-          isEoas: cycle['is_eoas'],
-          eoasFrom: cycle['eoas_from'],
-          isEol: cycle['is_eol'],
-          eolFrom: cycle['eol_from'],
-          isDiscontinued: cycle['is_discontinued'],
-          discontinuedFrom: cycle['discontinued_from'],
-          isEoes: cycle['is_eoes'],
-          eoesFrom: cycle['eoes_from'],
-          isMaintained: cycle['is_maintained'],
+          name: release['releaseCycle'],
+          codename: release['codename'],
+          label: ApiV1.strip_html(release['label']),
+          releaseDate: release['releaseDate'],
+          isLts: release['is_lts'],
+          ltsFrom: release['lts_from'],
+          isEoas: release['is_eoas'],
+          eoasFrom: release['eoas_from'],
+          isEol: release['is_eol'],
+          eolFrom: release['eol_from'],
+          isDiscontinued: release['is_discontinued'],
+          discontinuedFrom: release['discontinued_from'],
+          isEoes: release['is_eoes'],
+          eoesFrom: release['eoes_from'],
+          isMaintained: release['is_maintained'],
           latest: {
-            name: cycle['latest'],
-            date: cycle['latestReleaseDate'],
-            link: cycle['link'],
+            name: release['latest'],
+            date: release['latestReleaseDate'],
+            link: release['link'],
           }
         }
       end
