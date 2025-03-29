@@ -18,36 +18,55 @@ identifiers:
 -   purl: pkg/docker/chainguard/gatekeeper
 -   purl: oci/gatekeeper?repository_url=cgr.dev/chainguard
 
+# eol(s) = releaseDate(x+2)
 releases:
+-   releaseCycle: "3.18"
+    releaseDate: 2024-12-12
+    eol: false
+    latest: "3.18.2"
+    latestReleaseDate: 2025-01-09
+
+-   releaseCycle: "3.17"
+    releaseDate: 2024-08-21
+    eol: false
+    latest: "3.17.2"
+    latestReleaseDate: 2025-01-24
+
+-   releaseCycle: "3.16"
+    releaseDate: 2024-05-09
+    eol: 2024-12-12
+    latest: "3.16.3"
+    latestReleaseDate: 2024-05-24
+
 -   releaseCycle: "3.15"
     releaseDate: 2024-02-05
-    eol: false
+    eol: 2024-08-21
     latest: "3.15.1"
     latestReleaseDate: 2024-03-12
 
 -   releaseCycle: "3.14"
     releaseDate: 2023-11-01
-    eol: false
-    latest: "3.14.1"
-    latestReleaseDate: 2024-03-12
+    eol: 2024-05-09
+    latest: "3.14.2"
+    latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "3.13"
-    releaseDate: 2023-08-09
-    eol: 2023-11-01
+    releaseDate: 2023-08-08
+    eol: 2024-02-05
     latest: "3.13.4"
-    latestReleaseDate: 2023-11-02
+    latestReleaseDate: 2023-11-01
 
 -   releaseCycle: "3.12"
     releaseDate: 2023-04-14
-    eol: 2023-08-09
+    eol: 2023-11-01
     latest: "3.12.0"
     latestReleaseDate: 2023-04-14
 
 -   releaseCycle: "3.11"
     releaseDate: 2023-01-04
-    eol: 2023-04-14
+    eol: 2023-08-08
     latest: "3.11.1"
-    latestReleaseDate: 2023-04-26
+    latestReleaseDate: 2023-04-25
 
 ---
 
