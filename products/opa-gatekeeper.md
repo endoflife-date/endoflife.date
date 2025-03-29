@@ -1,6 +1,6 @@
 ---
 title: opa-gatekeeper
-category: app
+category: server-app
 tags: cncf configuration-management
 permalink: /opa-gatekeeper
 releasePolicyLink: https://github.com/open-policy-agent/gatekeeper/blob/master/docs/Release_Management.md#supported-releases
