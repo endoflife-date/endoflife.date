@@ -16,7 +16,7 @@ identifiers:
 -   purl: pkg:github/open-policy-agent/gatekeeper
 -   purl: pkg/docker/openpolicyagent/gatekeeper
 -   purl: pkg/docker/chainguard/gatekeeper
--   purl:oci/gatekeeper?repository_url=cgr.dev/chainguard
+-   purl: oci/gatekeeper?repository_url=cgr.dev/chainguard
 
 releases:
 -   releaseCycle: "3.15"
