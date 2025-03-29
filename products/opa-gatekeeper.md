@@ -2,7 +2,7 @@
 title: Gatekeeper
 category: server-app
 tags: cncf configuration-management
-permalink: /opa-gatekeeper
+permalink: /gatekeeper
 releasePolicyLink: https://github.com/open-policy-agent/gatekeeper/blob/master/docs/Release_Management.md#supported-releases
 changelogTemplate: https://github.com/open-policy-agent/gatekeeper/releases/tag/v__LATEST__
 releaseDateColumn: true
