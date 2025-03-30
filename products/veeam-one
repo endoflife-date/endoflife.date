@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
 releaseColumn: true
-releaseDateColumn: true
 eolColumn: End of support
 
 auto:
@@ -261,7 +260,7 @@ The second phase is ending with the end of support date. Updates, patches and ho
 provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
 in a later supported generally available version, an update to the later release is required.
 
-This page is using GA dates as release dates. 
+This page is using GA dates as release dates.
 RTM versions are more or less
 finalized versions provided to manufacturers, whereas GA versions are fully tested and finalized
 versions available to all customers.
