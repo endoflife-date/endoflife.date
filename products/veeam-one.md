@@ -13,7 +13,7 @@ eolColumn: End of support
 
 auto:
   methods:
-  -   custom: veeam-one
+  -   veeam: https://www.veeam.com/kb4357
 
 # Release dates (GA, or RTM as a fallback) can be found on https://www.veeam.com/kb4357.
 # EOL dates can be found on https://www.veeam.com/product-lifecycle.html.
