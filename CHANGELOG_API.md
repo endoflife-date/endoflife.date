@@ -20,9 +20,8 @@ v1:
 - provide new endpoints (#2078, #2160, #2530)
 - is versioned using the `api/v1` prefix (#2066), making it easier to implement
   non-backward-compatible changes in the future,
-- is documented using [swagger-ui](https://swagger.io/tools/swagger-ui/) instead of [Stoplight
-  Elements WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md)
-  (#905),
+- is documented using [swagger-ui](https://github.com/swagger-api/swagger-ui) instead of [Stoplight Elements
+  WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md) (#905),
 - but reverts #2425 due to incompatibilities in redirect rules.
 
 The API v1 is now generated using a Jekyll Generator (see https://jekyllrb.com/docs/plugins/generators/)
