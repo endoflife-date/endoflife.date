@@ -5,7 +5,8 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-eoasColumn: true
+eoasColumn: End of Maintenance
+eolColumn: End of Support Life
 
 auto:
   methods:
