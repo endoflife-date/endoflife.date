@@ -28,6 +28,15 @@ auto:
 # Do not forget to document the codename in the product's description when adding a new major version (codename only changes per major version release).
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 releases:
+-   releaseCycle: "5.2"
+    codename: "Chiffon"
+    releaseDate: 2025-03-29
+    supportedPhpVersions: 8.1+
+    eoas: false
+    eol: false
+    latest: "5.2.0"
+    latestReleaseDate: 2025-03-29
+
 -   releaseCycle: "4.6"
     codename: "Strawberry"
     releaseDate: 2025-03-22
@@ -41,7 +50,7 @@ releases:
     codename: "Chiffon"
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1+
-    eoas: false
+    eoas: 2025-03-30
     eol: false
     latest: "5.1.6"
     latestReleaseDate: 2025-02-23
