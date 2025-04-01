@@ -59,7 +59,7 @@ releases:
     releaseLabel: "400"
     # https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/
     releaseDate: 2020-11-02
-    discontinued: 2026-01-01
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-400-unit/
 
 -   releaseCycle: "CM4"
@@ -83,7 +83,7 @@ releases:
     # https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/
     releaseDate: 2019-01-28
     # https://www.raspberrypi.com/products/compute-module-3-plus/
-    discontinued: 2030-01-01
+    discontinued: 2028-01-01
     link: https://www.raspberrypi.com/products/compute-module-3-plus/
 
 -   releaseCycle: "3-a+"
