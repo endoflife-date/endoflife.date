@@ -40,7 +40,7 @@ releases:
     eol: false # still listed on https://activemq.apache.org/components/classic/download/
     latest: "6.1.6"
     latestReleaseDate: 2025-03-06
-    link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+    link: https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311210&version=12355554 # "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
 -   releaseCycle: "6.0"
     releaseDate: 2023-11-14
