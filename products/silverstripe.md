@@ -16,7 +16,7 @@ eolWarnThreshold: 182
 
 identifiers:
 -   purl: pkg:composer/silverstripe/cms
--   purl: pkg:github/silverstripe/cms
+-   purl: pkg:github/silverstripe/silverstripe-cms
 
 auto:
   methods:
