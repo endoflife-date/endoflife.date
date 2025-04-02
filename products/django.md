@@ -56,6 +56,7 @@ auto:
 
 releases:
 -   releaseCycle: "5.2"
+    lts: true
     releaseDate: 2025-04-02
     eoas: 2025-12-31
     eol: 2028-04-30
