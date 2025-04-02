@@ -17,6 +17,7 @@ identifiers:
 -   purl: pkg:generic/python
 -   purl: pkg:deb/ubuntu/python
 -   purl: pkg:deb/ubuntu/python2
+-   purl: pkg:deb/ubuntu/python2.7-minimal
 -   purl: pkg:deb/ubuntu/python2-minimal
 -   purl: pkg:deb/ubuntu/python3-minimal
 -   purl: pkg:deb/ubuntu/python3.11
