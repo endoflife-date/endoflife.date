@@ -16,6 +16,9 @@ eoasColumn: true
 identifiers:
 -   purl: pkg:generic/python
 -   purl: pkg:deb/ubuntu/python
+-   purl: pkg:deb/ubuntu/python2
+-   purl: pkg:deb/ubuntu/python2-minimal
+-   purl: pkg:deb/ubuntu/python3-minimal
 -   purl: pkg:deb/ubuntu/python3.11
 -   purl: pkg:deb/ubuntu/python3.10
 -   purl: pkg:deb/ubuntu/python3.9
