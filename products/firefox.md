@@ -84,8 +84,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://whattrainisitnow.com/calendar/
-    latest: "128.8.1"
-    latestReleaseDate: 2025-03-27
+    latest: "128.9.0"
+    latestReleaseDate: 2025-04-01
 
 -   releaseCycle: "127"
     releaseDate: 2024-06-11
