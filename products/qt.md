@@ -26,6 +26,13 @@ auto:
 # - releaseDate(x) + 3 years for LTS
 # See also https://wiki.qt.io/QtReleasing.
 releases:
+-   releaseCycle: "6.9"
+    releaseDate: 2025-04-02
+    eol: 2025-10-02 # estimated, 2025-04-02 + 6 months
+    eoes: 2026-04-02 # estimated
+    latest: "6.9.0"
+    latestReleaseDate: 2025-04-02
+
 -   releaseCycle: "6.8"
     lts: true
     releaseDate: 2024-10-07
