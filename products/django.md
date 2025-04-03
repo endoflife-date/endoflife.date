@@ -75,10 +75,10 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
     eoas: 2024-08-07
-    eol: 2025-04-30
+    eol: 2025-04-02
     supportedPythonVersions: "3.10 - 3.12"
-    latest: "5.0.13"
-    latestReleaseDate: 2025-03-06
+    latest: "5.0.14"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "4.2"
     lts: true
