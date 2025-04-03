@@ -60,14 +60,14 @@ releases:
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
     releaseDate: 2023-12-14
-    eol: 2024-04-30
+    eol: 2024-03-27
     latest: '7.2.2'
     latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
     releaseDate: 2023-10-04
-    eol: 2024-01-31
+    eol: 2024-01-23
     latest: '7.1.1'
     latestReleaseDate: 2023-11-16
 
@@ -87,14 +87,14 @@ releases:
 -   releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
     releaseDate: 2023-01-19
-    eol: 2023-04-30
+    eol: 2023-04-24
     latest: '6.2.1'
     latestReleaseDate: 2023-02-28
 
 -   releaseCycle: "6.1"
     releaseLabel: "6.1 (Rapid Release)"
     releaseDate: 2022-10-04
-    eol: 2023-02-28
+    eol: 2023-02-09
     latest: '6.1.1'
     latestReleaseDate: 2023-01-03
 
@@ -114,14 +114,14 @@ releases:
 -   releaseCycle: "5.2"
     releaseLabel: "5.2 (Rapid Release)"
     releaseDate: 2022-01-13
-    eol: 2022-04-30
+    eol: 2022-03-23
     latest: '5.2.1'
     latestReleaseDate: 2022-02-17
 
 -   releaseCycle: "5.1"
     releaseLabel: "5.1 (Rapid Release)"
     releaseDate: 2021-11-04
-    eol: 2022-01-31
+    eol: 2022-01-18
     latest: '5.1.1'
     latestReleaseDate: 2021-12-01
 

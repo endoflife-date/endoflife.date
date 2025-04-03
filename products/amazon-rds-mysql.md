@@ -40,7 +40,7 @@ releases:
     eol: 2024-02-29
     eoes: 2027-02-28
     latest: "5.7.44"
-    latestReleaseDate: 2023-11-02
+    latestReleaseDate: 2024-05-17
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-07-01
