@@ -50,7 +50,7 @@ releases:
     eoes: 2019-11-30
     latest: "5.2.0"
     latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
-    link: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0
+    link: https://docs.redhat.com/documentation/red_hat_decision_manager/5/html/5.2.0_release_notes/
 
 -   releaseCycle: "4.3"
     releaseDate: 2008-01-01
