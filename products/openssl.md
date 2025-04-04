@@ -78,6 +78,27 @@ releases:
     latestReleaseDate: 2019-12-20
     link: https://openssl-library.org/news/vulnerabilities-1.0.2/
 
+-   releaseCycle: "1.0.1"
+    releaseDate: 2012-03-14
+    eol: 2016-12-31
+    latest: "1.0.1u"
+    latestReleaseDate: 2016-09-22
+    link: https://openssl-library.org/news/vulnerabilities-1.0.1/
+
+-   releaseCycle: "1.0.0"
+    releaseDate: 2010-03-29
+    eol: 2015-12-31
+    latest: "1.0.0t"
+    latestReleaseDate: 2015-12-03
+    link: https://openssl-library.org/news/vulnerabilities-1.0.0/
+
+-   releaseCycle: "0.9.8"
+    releaseDate: 2005-07-05
+    eol: 2015-12-31
+    latest: "0.9.8zh"
+    latestReleaseDate: 2015-12-03
+    link: https://openssl-library.org/news/vulnerabilities-0.9.8/
+
 ---
 
 > [OpenSSL](https://openssl-library.org/) is a software library for applications that secure
