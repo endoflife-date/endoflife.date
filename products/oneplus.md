@@ -26,11 +26,15 @@ releases:
     releaseDate: 2025-01-07
     support: 2029-01-07
     eol: 2030-01-07
+    discontinued: false
+    supportedOxygenOSVersions: 15
 
 -   releaseCycle: "13"
     releaseDate: 2024-10-31
     support: 2028-10-31
     eol: 2029-10-31
+    discontinued: false
+    supportedOxygenOSVersions: 15
 
 -   releaseCycle: "12R"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
