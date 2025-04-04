@@ -6,6 +6,7 @@ iconSlug: oneplus
 permalink: /oneplus
 versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
+changelogTemplate: "https://www.oneplus.com/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
 releaseColumn: false
 activeSupportColumn: Active Major Updates
@@ -21,6 +22,16 @@ customColumns:
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
 
 releases:
+-   releaseCycle: "13"
+    releaseDate: 2024-10-31
+    support: 2028-10-31
+    eol: 2029-10-31
+
+-   releaseCycle: "13R"
+    releaseDate: 2025-01-07
+    support: 2029-01-07
+    eol: 2030-01-07
+
 -   releaseCycle: "12R"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
     support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
