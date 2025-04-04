@@ -10,7 +10,7 @@ alternate_urls:
 -  /cloudfoundation
 -  /cloud-foundation
 -  /vmware-cloudfoundation
-releasePolicyLink: https://lifecycle.vmware.com
+releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 eolColumn: General Support
 # https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
@@ -106,18 +106,18 @@ releases:
 > software-defined data center (SDDC) technologies consisting of vSphere, NSX, and vSAN. It is
 > available in multiple editions - Starter, Standard, Advanced, and Enterprise.
 
-Cloud Foundation 3,4 were covered under the [N-2 Lifecycle Policy](https://www.vmware.com/support/policies/N-2.html),
+Cloud Foundation 3,4 were covered under the N-2 Lifecycle Policy,
 supporting three latest releases, with a minimum support duration of 12 months.
-Cloud Foundation 5 and above are covered under the [Enterprise HCI Policy](https://www.vmware.com/support/policies/enterprise-hci.html),
+Cloud Foundation 5 and above are covered under the Enterprise HCI Policy,
 with 4 years of General Support followed by 1 year of Technical Guidance.
 
-## [General Support](https://lifecycle.vmware.com/)
+## General Support
 
 The last date on which customers can request support; the end of regular VMWare maintenance updates
 and upgrades, _bug and security fixes,_ and technical assistance as per the Support and
 Subscription Terms and Conditions.
 
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+## Technical Guidance
 
 The last date on which customers can access support and workarounds for low-severity issues on
 supported configurations only. During the Technical Guidance phase, VMWare does not offer new
