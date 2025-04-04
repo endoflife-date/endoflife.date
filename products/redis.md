@@ -10,8 +10,8 @@ eoasColumn: true
 
 identifiers:
 -   purl: pkg:generic/redis
--   purl: pkg:deb/ubuntu/redis-server
--   purl: pkg:deb/debian/redis-server
+-   purl: pkg:deb/ubuntu/redis
+-   purl: pkg:deb/debian/redis
 -   purl: pkg:rpm/amzn/redis
 -   purl: pkg:rpm/redhat/redis
 -   purl: pkg:rpm/centos/redis
