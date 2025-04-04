@@ -20,7 +20,6 @@ customColumns:
     link: https://wikipedia.org/wiki/OxygenOS
 
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
-
 releases:
 -   releaseCycle: "13R"
     releaseDate: 2025-01-07
@@ -41,7 +40,6 @@ releases:
     support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    link: https://www.oneplus.com/fr/oneplus-12r
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/401/
 
 -   releaseCycle: "12"
@@ -49,7 +47,6 @@ releases:
     support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    link: https://www.oneplus.com/fr/oneplus-12
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/396/
 
 -   releaseCycle: "11R"
