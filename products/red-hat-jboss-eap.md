@@ -15,6 +15,16 @@ eoasColumn: Full Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Life Support 1
 
+auto:
+  methods:
+  -   redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
+      regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
+      fields:
+        releaseDate: General availability
+        eoas: Full support
+        eol: Maintenance support
+        eoes: Extended life cycle support (ELS) 1
+
 # Latest releases with their date can be found in each cycles release notes.date.
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
 # Do not use individual changelog links for non-EOL releases, they are not predictable so their update would be manual.
