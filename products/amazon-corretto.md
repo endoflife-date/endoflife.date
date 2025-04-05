@@ -51,31 +51,32 @@ auto:
   -   github_releases: corretto/corretto-24
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   release_table: https://aws.amazon.com/corretto/faqs/
-      selector: "table"
-      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
-      rows_selector: "tr"
-      fields:
-        releaseCycle: "Corretto Release"
-        releaseDate:
-          column: "GA Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
-        eol: "End of Life"
-  -   release_table: https://aws.amazon.com/corretto/faqs/
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
-      rows_selector: "tr"
-      fields:
-        releaseCycle: "Corretto Release"
-        releaseDate:
-          column: "GA Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
-        eol:
-          column: "End of Life"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
+# Disabled for now : support calendar is not provided anymore by Amazon on those pages.
+#  -   release_table: https://aws.amazon.com/corretto/faqs/
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
+#      rows_selector: "tr"
+#      fields:
+#        releaseCycle: "Corretto Release"
+#        releaseDate:
+#          column: "GA Date"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
+#        eol: "End of Life"
+#  -   release_table: https://aws.amazon.com/corretto/faqs/
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
+#      rows_selector: "tr"
+#      fields:
+#        releaseCycle: "Corretto Release"
+#        releaseDate:
+#          column: "GA Date"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
+#        eol:
+#          column: "End of Life"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
 
 # Do not forget to update the "auto" configuration on each new major release.
 releases:
