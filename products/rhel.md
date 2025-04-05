@@ -31,7 +31,7 @@ auto:
 
 releases:
 -   releaseCycle: "9"
-    releaseDate: 2022-05-17
+    releaseDate: 2022-05-18
     eoas: 2027-05-31
     eol: 2032-05-31
     lts: 2032-05-31
@@ -51,7 +51,7 @@ releases:
 
     releasedate: 2019-05-07
 -   releaseCycle: "7"
-    releaseDate: 2013-12-11
+    releaseDate: 2014-06-10
     eoas: 2019-08-06
     eol: 2024-06-30
     lts: 2024-06-30
@@ -61,7 +61,7 @@ releases:
 
     releasedate: 2014-06-10
 -   releaseCycle: "6"
-    releaseDate: 2010-11-09
+    releaseDate: 2010-11-10
     eoas: 2016-05-10
     eol: 2020-11-30
     lts: 2020-11-30
