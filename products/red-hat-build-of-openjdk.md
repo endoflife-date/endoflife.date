@@ -40,6 +40,14 @@ identifiers:
     - purl: pkg:rpm/redhat/java-11-openjdk-devel
     - purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
 
+auto:
+  methods:
+  -   redhat_lifecycles: Red Hat build of OpenJDK
+      regex: '^OpenJDK (?P<major>\d+).*$'
+      fields:
+        releaseDate: General availability
+        eol: Full support
+
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:
 -   releaseCycle: "21"
