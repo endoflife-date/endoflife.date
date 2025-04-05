@@ -23,35 +23,35 @@ customColumns:
 releases:
 -   releaseCycle: "13R"
     releaseDate: 2025-01-07
-    support: 2029-01-07
+    eoas: 2029-01-07
     eol: 2030-01-07
     discontinued: false
     supportedOxygenOSVersions: 15
 
 -   releaseCycle: "13"
     releaseDate: 2024-10-31
-    support: 2028-10-31
+    eoas: 2028-10-31
     eol: 2029-10-31
     discontinued: false
     supportedOxygenOSVersions: 15
 
 -   releaseCycle: "12R"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/401/
 
 -   releaseCycle: "12"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/396/
 
 -   releaseCycle: "11R"
     releaseDate: 2023-02-07 #https://oxygenupdater.com/article/379/
-    support: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2028-02-07
     discontinued: false
     link: https://www.oneplus.in/11r
@@ -59,7 +59,7 @@ releases:
 
 -   releaseCycle: "11"
     releaseDate: 2023-02-07 # https://oxygenupdater.com/article/379/
-    support: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2028-02-07
     discontinued: false
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
