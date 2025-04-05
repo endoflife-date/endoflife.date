@@ -39,7 +39,6 @@ releases:
     latest: "9.5"
     latestReleaseDate: 2024-11-12
 
-    releasedate: 2022-05-18
 -   releaseCycle: "8"
     releaseDate: 2019-05-07
     eoas: 2024-05-31
@@ -49,7 +48,6 @@ releases:
     latest: "8.10"
     latestReleaseDate: 2024-05-22
 
-    releasedate: 2019-05-07
 -   releaseCycle: "7"
     releaseDate: 2014-06-10
     eoas: 2019-08-06
@@ -59,7 +57,6 @@ releases:
     latest: "7.9"
     latestReleaseDate: 2020-09-29
 
-    releasedate: 2014-06-10
 -   releaseCycle: "6"
     releaseDate: 2010-11-10
     eoas: 2016-05-10
@@ -69,7 +66,6 @@ releases:
     latest: '6.10'
     latestReleaseDate: 2018-06-19
 
-    releasedate: 2010-11-10
 -   releaseCycle: "5"
     releaseDate: 2007-03-15
     eoas: 2013-01-08
@@ -79,7 +75,6 @@ releases:
     latest: '5.11'
     latestReleaseDate: 2014-09-16
 
-    releasedate: 2007-03-15
 -   releaseCycle: "4"
     releaseDate: 2005-02-15
     eoas: 2009-03-31

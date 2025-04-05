@@ -57,7 +57,6 @@ releases:
     latest: "21.0.3.0.9-1"
     latestReleaseDate: 2024-04-18
 
-    releasedate: 2023-11-14
 -   releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
     eol: 2027-10-31
@@ -65,7 +64,6 @@ releases:
     latest: "17.0.11.0.9-2"
     latestReleaseDate: 2024-04-18
 
-    releasedate: 2021-11-11
 -   releaseCycle: "11"
     releaseDate: 2018-10-01 # RHEL 7.6
     eol: 2024-10-31
@@ -73,7 +71,6 @@ releases:
     latest: "11.0.23.0.9-3"
     latestReleaseDate: 2024-04-22
 
-    releasedate: 2018-10-01
 -   releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
     releaseDate: 2014-10-01 # RHEL 7.1
@@ -82,7 +79,6 @@ releases:
     latest: "1.8.0.412.b08-2"
     latestReleaseDate: 2024-04-18
 
-    releasedate: 2014-10-01
 -   releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
     releaseDate: 2007-03-15 # RHEL 5.9
@@ -92,7 +88,6 @@ releases:
     latestReleaseDate: 2020-04-15
     link: null
 
-    releasedate: 2007-03-15
 -   releaseCycle: "6"
     releaseLabel: "OpenJDK 6 (1.6)"
     releaseDate: 2007-03-15 # RHEL 5.3
@@ -101,7 +96,6 @@ releases:
     latest: "1.6.0.41-1.13.13.1"
     latestReleaseDate: 2017-01-04
     link: null
-    releasedate: 2007-03-15
 
 ---
 
