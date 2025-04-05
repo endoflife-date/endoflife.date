@@ -38,7 +38,7 @@ releases:
     pythonVersionsManagedNode: 3.8 - 3.13
     powershellVersionsManagedNode: 5.1
     releaseDate: 2024-11-04
-    eol: 2026-05-01
+    eol: 2026-05-31
     latest: "2.18.4"
     latestReleaseDate: 2025-03-25
 
@@ -47,7 +47,7 @@ releases:
     pythonVersionsManagedNode: 3.7 - 3.12
     powershellVersionsManagedNode: 5.1
     releaseDate: 2024-05-20
-    eol: 2025-11-01
+    eol: 2025-11-30
     latest: "2.17.10"
     latestReleaseDate: 2025-03-25
 
@@ -56,7 +56,7 @@ releases:
     pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2023-11-06
-    eol: 2025-05-01
+    eol: 2025-05-31
     latest: "2.16.14"
     latestReleaseDate: 2024-12-02
 
@@ -64,8 +64,8 @@ releases:
     pythonVersionsControlNode: 3.9 - 3.11
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
     powershellVersionsManagedNode: 3 - 5.1
-    releaseDate: 2023-05-15
-    eol: 2024-11-01
+    releaseDate: 2023-05-22
+    eol: 2024-11-30
     latest: "2.15.13"
     latestReleaseDate: 2024-11-04
 
@@ -74,7 +74,7 @@ releases:
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2022-11-07
-    eol: 2024-05-31
+    eol: 2024-05-20
     latest: "2.14.18"
     latestReleaseDate: 2024-11-04
 
@@ -82,8 +82,8 @@ releases:
     pythonVersionsControlNode: 3.8 - 3.10
     pythonVersionsManagedNode: 2.7 / 3.5 - 3.10
     powershellVersionsManagedNode: 3 - 5.1
-    releaseDate: 2022-05-16
-    eol: 2023-11-30
+    releaseDate: 2022-05-23
+    eol: 2023-11-06
     latest: "2.13.13"
     latestReleaseDate: 2023-10-09
 
@@ -92,7 +92,7 @@ releases:
     pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.10
     powershellVersionsManagedNode: 3 - 5.1
     releaseDate: 2021-11-08
-    eol: 2023-05-31
+    eol: 2023-05-22
     latest: "2.12.10"
     latestReleaseDate: 2022-10-11
 
