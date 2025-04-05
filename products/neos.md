@@ -9,14 +9,22 @@ versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
 changelogTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
 eoasColumn: true
-auto:
-  methods:
-  -   git: https://github.com/neos/neos.git
 
 identifiers:
 -   purl: pkg:composer/neos/neos
 
+auto:
+  methods:
+  -   git: https://github.com/neos/neos.git
+
+# Dates available at https://www.neos.io/features/release-process.html.
 releases:
+-   releaseCycle: "9.0"
+    releaseDate: 2025-04-03
+    eoas: 2027-04-01
+    eol: 2028-04-01
+    latest: "9.0.1"
+    latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-04-24
