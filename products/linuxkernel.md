@@ -11,10 +11,13 @@ releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/75bokjtb5ozt4wc
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
-# https://regex101.com/r/cuuOlQ/2
 auto:
   methods:
-  -   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  # Disabled because https://git.kernel.org is not bot-friendly anymore
+  #-   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  # Replacement for the cgit migration, may not be up-to-date with git.kernel.org,
+  # but we know nothing better for now.
+  - github_tags: gregkh/linux
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
