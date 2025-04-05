@@ -37,14 +37,16 @@ releases:
     latest: "8.0.5.1"
     latestReleaseDate: 2025-01-16
 
+    releasedate: 2024-02-05
 -   releaseCycle: "7"
     releaseDate: 2016-05-01
     eoas: 2023-12-31
     eol: 2025-06-30
-    eoes: 2026-11-30
+    eoes: 2027-10-31
     latest: "7.4.21"
     latestReleaseDate: 2025-02-18
 
+    releasedate: 2016-05-01
 -   releaseCycle: "6"
     releaseDate: 2012-06-01
     eoas: 2016-06-30
@@ -53,6 +55,7 @@ releases:
     latest: "6.4.24"
     latestReleaseDate: 2022-06-30
 
+    releasedate: 2012-06-01
 -   releaseCycle: "5"
     releaseDate: 2009-11-01
     eoas: 2013-11-30
@@ -62,6 +65,7 @@ releases:
     latestReleaseDate: 2013-01-23 # unknown, date from https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/appe-release_notes_5.2-revision_history
     link: https://web.archive.org/web/20230821184117/https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/5/html/release_notes_5.2.0/index
 
+    releasedate: 2009-11-01
 -   releaseCycle: "4.3"
     releaseDate: 2008-01-01
     eoas: 2011-01-31
@@ -71,6 +75,7 @@ releases:
     latestReleaseDate: 2013-02-11
     link: https://access.redhat.com/errata/RHSA-2013:0249
 
+    releasedate: 2008-01-01
 -   releaseCycle: "4.2"
     releaseDate: 2007-06-01
     eoas: 2010-06-30
@@ -79,6 +84,8 @@ releases:
     latest: '4.2.0.CP09'
     latestReleaseDate: 2010-04-26
     link: https://web.archive.org/web/20240225123551/https://listman.redhat.com/archives/rhsa-announce/2010-April/000713.html
+    releasedate: 2007-06-01
+
 ---
 
 > [Red Hat JBoss Enterprise Application Platform](https://www.redhat.com/technologies/jboss-middleware/application-platform)
