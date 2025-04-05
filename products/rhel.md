@@ -20,6 +20,16 @@ identifiers:
 -   cpe: cpe:/o:redhat:enterprise_linux
 -   cpe: cpe:2.3:o:redhat:enterprise_linux
 
+auto:
+  methods:
+  -   redhat_lifecycles: Red Hat Enterprise Linux
+      regex: '^(?P<major>\d+)$'
+      fields:
+        releaseDate: General availability
+        eoas: Full support
+        eol: Maintenance support
+        eoes: Extended life cycle support (ELS) add-on
+
 releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-17
