@@ -117,9 +117,9 @@ paths:
         '429':
           description: Too many requests, retry later.
 
-  /products/{product}/cycles/{cycle}:
+  /products/{product}/releases/{release}:
     get:
-      operationId: product_cycle
+      operationId: product_release
       summary: Get a product release cycle
       description: Get the given product release cycle information.
       parameters:
@@ -129,9 +129,9 @@ paths:
           required: true
           schema:
             type: string
-        - name: cycle
+        - name: release
           in: path
-          description: A cycle name.
+          description: A release cycle name.
           required: true
           schema:
             type: string
@@ -142,15 +142,15 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductCycleResponse'
+                $ref: '#/components/schemas/ProductReleaseResponse'
         '404':
-          description: The product with the given name does not exist, or the given cycle does not exist within the product.
+          description: The product with the given name does not exist, or the given release cycle does not exist within the product.
         '429':
           description: Too many requests, retry later.
 
-  /products/{product}/cycles/latest:
+  /products/{product}/releases/latest:
     get:
-      operationId: product_cycle_latest
+      operationId: product_release_latest
       summary: Get a product latest release cycle
       description: Get the latest release cycle information for the given product.
       parameters:
@@ -167,7 +167,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductCycleResponse'
+                $ref: '#/components/schemas/ProductReleaseResponse'
         '404':
           description: The product with the given name does not exist.
         '429':
@@ -309,93 +309,93 @@ components:
           description: Link to the changelog or release notes.
           example: https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
 
-    ProductCycle:
+    ProductRelease:
       type: object
       description: Full information about a product release cycle.
       properties:
         name:
           type: string
-          description: Name of the product cycle.
+          description: Name of the product release cycle.
           example: "22.04"
         codename:
           type: string
           nullable: true
-          description: Name of the product cycle.
+          description: Codename of the product release cycle.
           example: Jammy Jellyfish
         label:
           type: string
-          description: Label of the product cycle.
+          description: Label of the product release cycle.
           example: 22.04 'Jammy Jellyfish' (LTS)
         date:
           type: string
           format: date
-          description: Release date of the cycle.
+          description: Release date of the release cycle.
           example: "2022-04-21"
         isLts:
           type: boolean
-          description: Whether the product cycle is LTS.
+          description: Whether the product release cycle is LTS.
           example: true
         ltsFrom:
           type: string
           format: date
           nullable: true
-          description: Start date of the LTS phase.
+          description: Start date of the LTS phase for the release cycle.
           example: "2022-04-21"
         isEoas:
           type: boolean
           nullable: true
-          description: Whether the active support phase is over.
+          description: Whether the active support phase is over for the release cycle.
           example: false
         eoasFrom:
           type: string
           format: date
           nullable: true
-          description: End of active support date for the product cycle.
+          description: End of active support date for the release cycle.
           example: "2024-09-30"
         isEol:
           type: boolean
           nullable: true
-          description: Whether the product cycle is EOL.
+          description: Whether the release cycle is EOL.
           example: false
         eolFrom:
           type: string
           format: date
           nullable: true
-          description: End of life date for the product cycle.
+          description: End of life date for the release cycle.
           example: "2027-04-01"
         isDiscontinued:
           type: boolean
           nullable: true
-          description: Whether the product cycle is discontinued (mainly used for hardware).
+          description: Whether the release cycle is discontinued (mainly used for hardware).
           example: false
         discontinuedFrom:
           type: string
           format: date
           nullable: true
-          description: Discontinuation date (mainly used for hardware).
+          description: Discontinuation date for the release cycle (mainly used for hardware).
           example: "2027-04-01"
         isEoes:
           type: boolean
           nullable: true
-          description: Whether the extended support phase is over.
+          description: Whether the extended support phase is over for the release cycle.
           example: true
         eoesFrom:
           type: string
           format: date
           nullable: false
-          description: End of extended support date for the product cycle.
+          description: End of extended support date for the release cycle.
           example: "2032-04-09"
         isMaintained:
           type: boolean
           nullable: false
-          description: Whether or not this cycle still have some level of support. This could be any level of support, even extended support.
+          description: Whether or not this release cycle still have some level of support. This can be any level of support, even extended support.
           example: true
         latest:
           $ref: '#/components/schemas/ProductVersion'
 
     ProductSummary:
       type: object
-      description: Main information about a product release cycle.
+      description: Main information about a product.
       properties:
         name:
           type: string
@@ -507,11 +507,11 @@ components:
               nullable: true
               description: Link to the product release policy.
               example: https://wiki.ubuntu.com/Releases
-        cycles:
+        releases:
           type: array
-          description: Product release cycles.
+          description: A list of all product releases.
           items:
-            $ref: '#/components/schemas/ProductCycle'
+            $ref: '#/components/schemas/ProductRelease'
 
     UriListResponse:
       type: object
@@ -567,16 +567,16 @@ components:
           items:
             $ref: '#/components/schemas/ProductDetails'
 
-    ProductCycleResponse:
+    ProductReleaseResponse:
       type: object
-      description: A response containing a product release cycle.
+      description: A response containing a release cycle.
       properties:
         schema_version:
           type: string
           description: Version of this schema.
           example: 1.0.0
         result:
-          $ref: '#/components/schemas/ProductCycle'
+          $ref: '#/components/schemas/ProductRelease'
 
     ProductResponse:
       type: object
