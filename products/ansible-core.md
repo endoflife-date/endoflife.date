@@ -19,9 +19,19 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/ansible/ansible.git
+  -   release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+      selector: "table"
+      fields:
+        releaseCycle: "Version"
+        releaseDate:
+          column: "Support"
+          regex: '^GA:\s+(?P<value>\d+ \w+ \d+).*$'
+        eol:
+          column: "End Of Life"
+          regex: '^(EOL\s*)?(?P<value>.+)$'
 
-# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html.
-# EOL dates found on https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
+# EOL dates as well as Python / Powershell versions can be found on
+# https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
 releases:
 -   releaseCycle: "2.18"
     pythonVersionsControlNode: 3.11 - 3.13
