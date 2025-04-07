@@ -20,10 +20,6 @@ identifiers:
 -   purl: pkg:docker/bitnami/airflow-scheduler
 -   purl: pkg:docker/bitnami/airflow-worker
 -   purl: pkg:docker/chainguard/airflow
--   purl: pkg:docker/rapidfort/airflow
--   purl: pkg:docker/rapidfort/airflow-exporter
--   purl: pkg:docker/rapidfort/airflow-scheduler
--   purl: pkg:docker/rapidfort/airflow-worker
 -   purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
 -   purl: pkg:pypi/apache-airflow
 
