@@ -13,7 +13,7 @@ auto:
   -   git: https://github.com/api-platform/core.git
 
 # eoas(x) = releaseDate(x+1)
-# eol(x) = releaseDate(x+3)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2025-02-28
@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2024-09-18
     eoas: 2024-09-18
-    eol: false
+    eol: 2025-02-28
     latest: "3.4.16"
     latestReleaseDate: 2025-01-17
 
@@ -130,6 +130,6 @@ six months, and a new major release every two years (along with a minor release 
 upgrade path). Besides the development branch, three releases are maintained:
 
 - the latest release is actively supported with regular bug fixes;
-- the previous two releases are supported for security maintenance only.
+- the previous release is supported for security maintenance only.
 
-Releases older than the latest three are not maintained.
+Releases older than the latest two are not maintained.
