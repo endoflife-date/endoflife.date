@@ -13,7 +13,6 @@ alternate_urls:
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 changelogTemplate: https://docs.vmware.com/en/VMware-Cloud-Foundation/__LATEST__/rn/vmware-cloud-foundation-{{"__LATEST__" | remove:'.'}}-release-notes/index.html
 eolColumn: General Support
-# https://lifecycle.vmware.com/ uses 6 months to mark upcoming EOLs in "red"
 eolWarnThreshold: 180
 
 releases:
