@@ -21,9 +21,16 @@ auto:
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
+-   releaseCycle: "3.5"
+    lts: true
+    releaseDate: 2025-04-08
+    eol: 2030-04-08 # documented on https://openssl-library.org/source/
+    latest: "3.5.0"
+    latestReleaseDate: 2025-04-08
+
 -   releaseCycle: "3.4"
     releaseDate: 2024-10-22
-    eol: 2026-10-22 # documented on https://openssl-library.org/source/
+    eol: 2026-10-22
     latest: "3.4.1"
     latestReleaseDate: 2025-02-11
 
