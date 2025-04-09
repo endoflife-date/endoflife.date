@@ -21,7 +21,7 @@ identifiers:
 releases:
 -   releaseCycle: "21"
     releaseDate: 2024-10-29
-    eol: 2024-10-29
+    eol: 2025-10-29
     latest: "21.0.3"
     latestReleaseDate: 2025-02-12
 
