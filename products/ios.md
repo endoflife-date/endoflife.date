@@ -37,7 +37,7 @@ releases:
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: 2024-08-07
+    eol: 2025-03-31
     latest: "16.7.11"
     latestReleaseDate: 2025-03-31
     link: https://support.apple.com/HT213407
@@ -45,7 +45,7 @@ releases:
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: 2024-09-16
+    eol: 2025-03-31
     latest: "15.8.4"
     latestReleaseDate: 2025-03-31
     link: https://support.apple.com/HT212788
