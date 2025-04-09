@@ -23,14 +23,24 @@ auto:
   methods:
   -   git: https://github.com/magento/magento2.git
 
-# EOL dates on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
+# eol on https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
+# eoes on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
 # PHP requirements on https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html
 releases:
+-   releaseCycle: "2.4.8"
+    releaseDate: 2025-04-03
+    eoas: false
+    eol: false
+    eoes: false # not yet on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
+    supportedPhpVersions: 8.3, 8.4
+    latest: "2.4.8"
+    latestReleaseDate: 2024-04-04
+
 -   releaseCycle: "2.4.7"
     releaseDate: 2024-04-04
     eoas: false
     eol: false
-    eoes: 2026-03-14
+    eoes: 2027-04-019
     supportedPhpVersions: 8.2, 8.3
     latest: "2.4.7"
     latestReleaseDate: 2024-04-04
@@ -39,7 +49,7 @@ releases:
     releaseDate: 2023-02-28
     eoas: false
     eol: false
-    eoes: 2026-03-14
+    eoes: 2026-08-11
     supportedPhpVersions: 8.1, 8.2
     latest: "2.4.6"
     latestReleaseDate: 2023-02-28
