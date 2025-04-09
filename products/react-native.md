@@ -19,7 +19,17 @@ auto:
       regex: '(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 
+# eoas = releaseDate(x+2)
+# eol = releaseDate(x+3)
+# eoas and eol on https://github.com/reactwg/react-native-releases/blob/main/docs/support.md
 releases:
+-   releaseCycle: "0.79"
+    releaseDate: 2025-04-08
+    eoas: false
+    eol: false
+    latest: "0.79.0"
+    latestReleaseDate: 2025-04-08
+
 -   releaseCycle: "0.78"
     releaseDate: 2025-02-19
     eoas: false
@@ -29,22 +39,22 @@ releases:
 
 -   releaseCycle: "0.77"
     releaseDate: 2025-01-21
-    eoas: false
+    eoas: 2025-04-08
     eol: false
     latest: "0.77.2"
     latestReleaseDate: 2025-03-25
 
 -   releaseCycle: "0.76"
     releaseDate: 2024-10-23
-    eoas: false
-    eol: false
+    eoas: 2025-02-19
+    eol: 2025-04-08
     latest: "0.76.9"
     latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "0.75"
     releaseDate: 2024-08-14
-    eoas: false
-    eol: false
+    eoas: 2025-01-21
+    eol: 2025-02-19
     latest: "0.75.5"
     latestReleaseDate: 2025-02-06
 
