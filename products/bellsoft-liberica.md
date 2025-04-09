@@ -40,7 +40,6 @@ identifiers:
 -   repology: liberica-jdk-17-full
 -   repology: liberica-jdk-21-full
 -   repology: liberica-jdk-8-full
--   repology: liberica-jdk-8-bin
 -   repology: liberica-jdk-full
 -   repology: liberica-jre-11
 # These are undefined TYPEs in the PURL spec
@@ -134,11 +133,6 @@ identifiers:
 -   purl: pkg:winget/BellSoft.LibericaJDK.17
 -   purl: pkg:winget/BellSoft.LibericaJDK.18
 -   purl: pkg:winget/BellSoft.LibericaJDK.19
--   purl: pkg:winget/BellSoft.LibericaJDK.20
--   purl: pkg:winget/BellSoft.LibericaJDK.21
--   purl: pkg:winget/BellSoft.LibericaJDK.22
--   purl: pkg:winget/BellSoft.LibericaJDK.23
-
 
 # Alpine Packages, listed using the following command:
 # curl --silent https://apk.bell-sw.com/main/x86_64/APKINDEX.tar.gz | tar --to-stdout -xzv APKINDEX |grep P:|sort -u
