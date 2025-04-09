@@ -47,7 +47,7 @@ releases:
     releaseDate: 2025-03-27
     eol: false # releaseDate(2025.04)
     latest: "2025.03.0"
-    latestReleaseDate: 2025-03-27
+    latestReleaseDate: 2025-03-20
 
 -   releaseCycle: "2025.02"
     releaseDate: 2025-02-27
