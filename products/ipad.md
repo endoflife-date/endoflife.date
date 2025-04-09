@@ -185,7 +185,7 @@ releases:
     releaseLabel: "iPad (5th generation)"
     releaseDate: 2017-03-24
     discontinued: 2018-03-27
-    eol: false
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP751
     supportedIpadOsVersions: 10, 11, 12, 13, 14, 15, 16
 
@@ -193,7 +193,7 @@ releases:
     releaseLabel: "iPad Pro 9.7-inch (1st generation)"
     releaseDate: 2016-03-21
     discontinued: 2017-06-05
-    eol: 2024-09-16 #iPadOs 16 EOL 
+    eol: 2025-03-31
     link: https://support.apple.com/en-us/111965
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16
 
@@ -201,7 +201,7 @@ releases:
     releaseLabel: "iPad Pro 12.9-inch (1st generation)"
     releaseDate: 2015-11-11
     discontinued: 2017-06-05
-    eol: 2024-09-16 #iPadOs 16 EOL 
+    eol: 2025-03-31
     link: https://support.apple.com/en-us/112024
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15, 16
 
@@ -209,7 +209,7 @@ releases:
     releaseLabel: "iPad Mini 4"
     releaseDate: 2015-09-09
     discontinued: 2019-03-18
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP725
     supportedIpadOsVersions: 9, 10, 11, 12, 13, 14, 15
 
