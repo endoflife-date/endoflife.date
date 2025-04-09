@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "9.6"
     releaseDate: 2025-03-17
     eol: 2027-01-18
-    latest: "9.6.0"
-    latestReleaseDate: 2025-03-17
+    latest: "9.6.1"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "9.5"
     releaseDate: 2025-01-07
@@ -40,8 +40,8 @@ releases:
     lts: true
     releaseDate: 2024-12-02
     eol: 2026-12-03
-    latest: "9.4.4"
-    latestReleaseDate: 2025-03-06
+    latest: "9.4.5"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "9.3"
     releaseDate: 2024-10-29
@@ -71,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2024-03-12
     eol: 2026-03-12
-    latest: "8.19.16"
-    latestReleaseDate: 2025-03-06
+    latest: "8.19.17"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "8.18"
     releaseDate: 2024-02-06
@@ -137,8 +137,8 @@ releases:
     lts: true
     releaseDate: 2023-04-12
     eol: 2025-04-12
-    latest: "8.9.26"
-    latestReleaseDate: 2025-03-06
+    latest: "8.9.27"
+    latestReleaseDate: 2025-04-08
     link: https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+and+Server+8.9+release+notes
 
 -   releaseCycle: "8.8"

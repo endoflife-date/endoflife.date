@@ -28,15 +28,15 @@ releases:
     releaseDate: 2025-04-07
     eoas: 2025-04-07
     eol: 2025-10-31
-    latest: '7.5.0'
-    latestReleaseDate: 2025-04-07
+    latest: '7.5.1'
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "7.4"
     releaseDate: 2025-03-05
     eoas: 2025-03-05
     eol: 2025-08-31
-    latest: '7.4.1'
-    latestReleaseDate: 2025-03-11
+    latest: '7.4.2'
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "7.3"
     releaseDate: 2025-01-31

@@ -21,8 +21,8 @@ releases:
     releaseDate: 2023-10-14
     eoas: false
     eol: 2027-10-19
-    latest: "5.2.5"
-    latestReleaseDate: 2025-03-04
+    latest: "5.2.6"
+    latestReleaseDate: 2025-04-06
     # check later for removal: link with changelogTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
@@ -30,8 +30,8 @@ releases:
     releaseDate: 2021-08-17
     eoas: 2024-10-17
     eol: 2025-10-17
-    latest: "4.4.12"
-    latestReleaseDate: 2025-03-04
+    latest: "4.4.13"
+    latestReleaseDate: 2025-04-06
 
 -   releaseCycle: "3"
     releaseDate: 2012-09-27
