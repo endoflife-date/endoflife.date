@@ -40,7 +40,7 @@ releases:
     releaseDate: 2024-04-04
     eoas: false
     eol: false
-    eoes: 2027-04-019
+    eoes: 2027-04-19
     supportedPhpVersions: 8.2, 8.3
     latest: "2.4.7"
     latestReleaseDate: 2024-04-04
