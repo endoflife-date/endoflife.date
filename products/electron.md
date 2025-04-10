@@ -346,7 +346,7 @@ unsupported version of Electron is in use.
 
 ## Other Links
 
-- A list of [officially supported platforms](https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms)
+- A list of [officially supported platforms](https://github.com/electron/electron/#platform-support)
 - [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/)
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)
