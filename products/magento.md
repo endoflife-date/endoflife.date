@@ -7,8 +7,7 @@ permalink: /magento
 alternate_urls:
 -   /adobe-commerce
 versionCommand: php bin/magento --version
-releasePolicyLink:
-  https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
+releasePolicyLink: https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf
 changelogTemplate: "https://experienceleague.adobe.com/docs/commerce-operations/release/notes/magento-open-source/{{'__LATEST__'|replace:'.','-'}}.html"
 eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
@@ -34,7 +33,7 @@ releases:
     eoes: false # not yet on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
     supportedPhpVersions: 8.3, 8.4
     latest: "2.4.8"
-    latestReleaseDate: 2024-04-04
+    latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "2.4.7"
     releaseDate: 2024-04-04
@@ -103,8 +102,7 @@ releases:
     supportedPhpVersions: 7.3, 7.4
     latest: "2.4.0"
     latestReleaseDate: 2020-07-20
-    link:
-      https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
+    link: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
 
 -   releaseCycle: "2.3"
     releaseDate: 2018-11-23
@@ -120,8 +118,7 @@ releases:
     releaseDate: 2017-09-22
     eoas: 2019-12-01
     eol: 2019-12-01
-    link:
-      https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
+    link: https://web.archive.org/web/20220729084223/https://devdocs.magento.com/guides/v2.2/release-notes/release-notes-2-2-11-open-source.html
     latest: "2.2.11"
     latestReleaseDate: 2020-01-07
 
@@ -129,8 +126,7 @@ releases:
     releaseDate: 2016-06-23
     eoas: 2019-06-01
     eol: 2019-06-01
-    link:
-      https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.1/guides/v2.1/release-notes/ReleaseNotes2.1.18CE.html
     latest: "2.1.18"
     latestReleaseDate: 2019-06-06
 
@@ -138,8 +134,7 @@ releases:
     releaseDate: 2015-11-16
     eoas: 2018-03-01
     eol: 2018-03-01
-    link:
-      https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
+    link: https://commerce-docs.github.io/devdocs-archive/2.0/guides/v2.0/release-notes/ReleaseNotes2.0.18CE.html
     latest: "2.0.18"
     latestReleaseDate: 2018-02-20
 
@@ -212,6 +207,7 @@ releases:
     eol: 2010-03-01
     link: null
     latest: "1.0.0"
+
 
 ---
 
