@@ -26,7 +26,6 @@ releases:
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.9.0-release-notes
     
 -   releaseCycle: "4.8"
-    lts: false
     releaseDate: 2024-10-08
     eoas: 2025-03-08
     eol: 2025-06-08
@@ -35,7 +34,6 @@ releases:
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.8.0-release-notes
     
 -   releaseCycle: "4.7"
-    lts: false
     releaseDate: 2024-06-04
     eoas: 2024-10-04
     eol: 2025-02-04
