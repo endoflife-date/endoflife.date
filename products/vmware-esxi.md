@@ -10,7 +10,7 @@ alternate_urls:
 -   /vmesxi
 -   /vmware-esxi
 versionCommand: vmware -l
-releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
+releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 eolColumn: General Support
 
 identifiers:
