@@ -22,7 +22,7 @@ identifiers:
 releases:
 -   releaseCycle: "3.19"
     releaseDate: 2025-04-09
-    eol: false
+    eol: false # releaseDate(x+1)
     latest: "3.19.0"
     latestReleaseDate: 2025-04-09
 
