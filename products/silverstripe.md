@@ -33,6 +33,13 @@ auto:
 # releaseDate, eoas and eol on https://www.silverstripe.org/software/roadmap/
 # eoas, eol rounded to the end of month
 releases:
+-   releaseCycle: "5.4"
+    releaseDate: 2025-04-10
+    eoas: 2026-04-30
+    eol: 2027-04-30
+    latest: "5.4.0"
+    latestReleaseDate: 2025-04-10
+
 -   releaseCycle: "5.3"
     releaseDate: 2024-11-30
     eoas: 2025-04-30
