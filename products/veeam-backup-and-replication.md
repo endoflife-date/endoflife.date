@@ -21,8 +21,8 @@ auto:
 releases:
 -   releaseCycle: "12"
     releaseDate: 2023-01-30
-    eoas: false # will be 13.0 GA date
-    eol: 2026-02-01
+    eoas: false # releaseDate(13)
+    eol: 2027-02-01
     link: "https://www.veeam.com/kb4420"
     latest: "12.3.1.1139"
     latestReleaseDate: 2025-03-19
@@ -103,7 +103,6 @@ releases:
     releaseDate: 2010-08-30
     eoas: true
     eol: true
-    link: null
     latest: "5.0.0.179"
     latestReleaseDate: 2010-08-30
 
@@ -111,7 +110,6 @@ releases:
     releaseDate: 2009-10-29
     eoas: true
     eol: true
-    link: null
     latest: "4.1.2.125"
     latestReleaseDate: 2010-08-04
 
@@ -119,7 +117,6 @@ releases:
     releaseDate: 2009-10-21
     eoas: true
     eol: true
-    link: null
     latest: "3.0" # no information available
     latestReleaseDate: 2009-10-21
 
@@ -127,7 +124,6 @@ releases:
     releaseDate: 2008-07-30
     eoas: true
     eol: true
-    link: null
     latest: "2.0" # no information available
     latestReleaseDate: 2008-07-30
 
@@ -135,7 +131,6 @@ releases:
     releaseDate: 2008-02-26
     eoas: true
     eol: true
-    link: null
     latest: "1.0" # no information available
     latestReleaseDate: 2008-02-26
 
