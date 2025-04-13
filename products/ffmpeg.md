@@ -226,43 +226,49 @@ releases:
     releaseDate: 2012-05-25
     eol: 2014-03-10
     latest: "0.11.5"
+    latestReleaseDate: 2014-03-10
 
 -   releaseCycle: "0.10"
     codename: 'Freedom'
     releaseDate: 2012-01-26
     eol: 2015-03-12
     latest: "0.10.16"
+    latestReleaseDate: 2015-03-12
 
 -   releaseCycle: "0.9"
     codename: 'Harmony'
     releaseDate: 2011-12-11
     eol: 2014-03-21
     latest: "0.9.4"
+    latestReleaseDate: 2014-03-21
 
 -   releaseCycle: "0.8"
     codename: 'Love'
     releaseDate: 2011-06-21
     eol: 2013-10-06
     latest: "0.8.15"
+    latestReleaseDate: 2013-10-06
 
 -   releaseCycle: "0.7"
     codename: 'Peace'
     releaseDate: 2011-06-21
     eol: 2015-03-12
     latest: "0.7.17"
+    latestReleaseDate: 2015-03-12
 
 -   releaseCycle: "0.6"
     codename: 'Works with HTML5'
     releaseDate: 2010-05-04
     eol: 2013-09-23
     latest: "0.6.7"
+    latestReleaseDate: 2013-09-23
 
 -   releaseCycle: "0.5"
     codename: 'half-way to world domination A.K.A. the belligerent blue bike shed'
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
-
+    latestReleaseDate: 2014-11-29
 
 ---
 
