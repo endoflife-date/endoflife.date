@@ -8,7 +8,6 @@ alternate_urls:
 -   /veeam-one
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
-releaseColumn: true
 eolColumn: End of support
 
 auto:
