@@ -4,8 +4,6 @@ category: app
 tags: veeam
 iconSlug: veeam
 permalink: /veeam-one
-alternate_urls:
--   /veeam-one
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
 eolColumn: End of support
