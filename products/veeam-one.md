@@ -1,5 +1,5 @@
 ---
-title: Veeam One
+title: Veeam ONE
 category: app
 tags: veeam
 iconSlug: veeam
@@ -237,19 +237,19 @@ releases:
 
 ---
 
-> [Veeam One](https://www.veeam.com/products/veeam-data-platform/monitoring-analytics.html) is a commercial monitoring, analytics, and reporting solution designed for data protection and disaster recovery. It provides real-time performance monitoring, alerting, and comprehensive reporting for virtual, physical, and cloud-based workloads.
+> [Veeam ONE](https://www.veeam.com/products/veeam-data-platform/monitoring-analytics.html) is a commercial monitoring, analytics, and reporting solution designed for data protection and disaster recovery. It provides real-time performance monitoring, alerting, and comprehensive reporting for virtual, physical, and cloud-based workloads.
 
 {: .warning }
-Veeam One is available in two editions: Community (free) and Enterprise (paid). This page only covers the Enterprise edition.
+Veeam ONE is available in two editions: Community (free) and Enterprise (paid). This page only covers the Enterprise edition.
 
-Support for Veeam One always requires an active maintenance contract and is divided into two phases:
+Support for Veeam ONE always requires an active maintenance contract and is divided into two phases:
 
 1. **End of Fix:** During this phase, updates, patches, and hotfixes are provided for the product.
 2. **End of Support:** Updates, patches, and hotfixes may be provided during this phase but are subject to availability. If an issue is fixed in a later supported version, an update to that version is required.
 
 This page uses GA dates as release dates unless otherwise stated.
 
-Support for Veeam One always require an active maintenance contract and is divided
+Support for Veeam ONE always require an active maintenance contract and is divided
 into two phases.
 
 The first phase is ending with the end of fix date. During this phase updates, patches and hotfixes
