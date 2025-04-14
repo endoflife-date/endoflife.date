@@ -9,6 +9,7 @@ releasePolicyLink: https://vuetifyjs.com/introduction/long-term-support/
 changelogTemplate: https://github.com/vuetifyjs/vuetify/releases/tag/v__LATEST__
 eoasColumn: true
 releaseDateColumn: true
+eoesColumn: Commercial Support
 
 identifiers:
 -   purl: pkg:npm/vuetify
@@ -49,6 +50,7 @@ releases:
     eoas: 2023-07-05
     eol: 2025-01-23
     latest: "2.7.2"
+    eoes: false
     latestReleaseDate: 2024-02-14
 
 -   releaseCycle: "1.5"
@@ -57,6 +59,7 @@ releases:
     eol: 2020-07-31
     latest: "1.5.24"
     lts: 2019-07-31
+    eoes: true
     latestReleaseDate: 2020-03-03
 
 ---
