@@ -58,4 +58,4 @@ with technical support, root cause analysis, security vulnerability evaluation, 
 software available online and service Updates (P-releases).
 
 Following the full support phase, there is also 2 years of limited support and 3 years of self-service support. Given
-those do not provide any software update they are not documented on this and versions in those phases are considered EOL.
+those do not provide any software update they are not documented on this page and versions in those phases are considered EOL.
