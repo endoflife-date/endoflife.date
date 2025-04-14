@@ -65,8 +65,10 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    icalendar (2.10.3)
+    icalendar (2.11.0)
+      base64
       ice_cube (~> 0.16)
+      logger
       ostruct
     ice_cube (0.17.0)
     jekyll (4.4.1)
@@ -210,7 +212,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  icalendar (~> 2.10)
+  icalendar (~> 2.11)
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17)
   jekyll-last-modified-at
