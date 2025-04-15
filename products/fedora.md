@@ -22,6 +22,12 @@ auto:
 # Dates as per https://fedorapeople.org/groups/schedule/
 # Latest release dates are not displayed, but added automatically by auto-update.
 releases:
+-   releaseCycle: "42"
+    releaseDate: 2025-04-15
+    eol: 2026-05-13
+    latest: '42'
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "41"
     releaseDate: 2024-10-29
     eol: 2025-11-19
