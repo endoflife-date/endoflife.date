@@ -39,8 +39,8 @@ releases:
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
     eol: 2027-12-31
-    latest: "8.1.1"
-    latestReleaseDate: 2025-02-25
+    latest: "8.2.0"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "7"
     lts: true
