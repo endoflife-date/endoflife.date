@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "2.2"
     releaseDate: 2025-02-18
     eol: false
-    latest: "2.2.9"
-    latestReleaseDate: 2025-04-11
+    latest: "2.2.10"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "2.1"
     lts: true
