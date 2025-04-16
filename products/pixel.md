@@ -22,6 +22,15 @@ customColumns:
 # Discontinued dates from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
+-   releaseCycle: "9a"
+    releaseLabel: "Pixel 9a"
+    releaseDate: 2025-04-10
+    eoas: 2032-10-01 # at least
+    eol: 2032-10-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9a
+    supportedAndroidVersions: 15 # https://www.gsmarena.com/google_pixel_9a-13478.php
+    
 -   releaseCycle: "9profold"
     releaseLabel: "Pixel 9 Pro Fold"
     releaseDate: 2024-09-04
