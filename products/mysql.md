@@ -35,10 +35,17 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "9.2"
-    releaseDate: 2024-12-15
+-   releaseCycle: "9.3"
+    releaseDate: 2025-04-15
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
+    latest: '9.3.0'
+    latestReleaseDate: 2025-04-15
+
+-   releaseCycle: "9.2"
+    releaseDate: 2024-12-15
+    eoas: 2025-04-15 # releaseDate(9.3)
+    eol: 2025-04-15 # releaseDate(9.3)
     latest: '9.2.0'
     latestReleaseDate: 2024-12-15
 
