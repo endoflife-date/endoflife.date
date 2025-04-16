@@ -36,11 +36,11 @@ identifiers:
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "9.3"
-    releaseDate: 2025-04-15
+    releaseDate: 2025-03-31
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
     latest: '9.3.0'
-    latestReleaseDate: 2025-04-15
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "9.2"
     releaseDate: 2024-12-15
@@ -68,8 +68,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: '8.4.4'
-    latestReleaseDate: 2024-12-16
+    latest: '8.4.5'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
@@ -97,8 +97,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.41'
-    latestReleaseDate: 2024-12-16
+    latest: '8.0.42'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09

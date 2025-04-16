@@ -33,8 +33,8 @@ releases:
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: false
-    latest: '3.4.36'
-    latestReleaseDate: 2025-02-25
+    latest: '3.4.37'
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "3.3"
     releaseDate: 2018-02-01

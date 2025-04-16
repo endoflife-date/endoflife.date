@@ -111,8 +111,8 @@ releases:
 -   releaseCycle: "21.0"
     releaseDate: 2021-01-19
     eol: 2021-04-20
-    latest: "21.0.6"
-    latestReleaseDate: 2025-01-21
+    latest: "21.0.7"
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "20.3"
     releaseDate: 2020-11-17
