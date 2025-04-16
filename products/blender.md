@@ -29,8 +29,8 @@ releases:
     releaseDate: 2025-03-17
     eoas: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
     eol: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
-    latest: "4.4.0"
-    latestReleaseDate: 2025-03-17
+    latest: "4.4.1"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "4.3"
     releaseDate: 2024-11-19
@@ -44,8 +44,8 @@ releases:
     releaseDate: 2024-07-16
     eoas: 2024-11-19
     eol: 2026-07-16
-    latest: "4.2.8"
-    latestReleaseDate: 2025-03-17
+    latest: "4.2.9"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
@@ -66,8 +66,8 @@ releases:
     releaseDate: 2023-06-27
     eoas: 2023-11-14
     eol: 2025-06-27
-    latest: "3.6.21"
-    latestReleaseDate: 2025-02-17
+    latest: "3.6.22"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
