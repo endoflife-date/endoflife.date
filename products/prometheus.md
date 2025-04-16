@@ -11,7 +11,7 @@ identifiers:
 -   repology: prometheus
 -   purl: pkg:docker/prom/prometheus
 -   purl: pkg:docker/bitnami/prometheus
--   purl: pkg:docker/rapidfort/prometheus
+-   purl: pkg:docker/rapidfort/prometheus-official
 -   purl: pkg:docker/chainguard/prometheus
 -   purl: pkg:docker/bitnami/prometheus
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
