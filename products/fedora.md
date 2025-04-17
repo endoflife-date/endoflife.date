@@ -23,6 +23,8 @@ auto:
 # Latest release dates are not displayed, but added automatically by auto-update.
 releases:
 -   releaseCycle: "42"
+    releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
+    codename: "Adams"
     releaseDate: 2025-04-15
     eol: 2026-05-13
     latest: '42'
