@@ -19,8 +19,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "2.4"
-    latestReleaseDate: 2025-03-31
+    latest: "2.4.1"
+    latestReleaseDate: 2025-04-16
     link: https://support.apple.com/en-us/121164
 
 -   releaseCycle: "1"
