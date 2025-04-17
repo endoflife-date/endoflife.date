@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "13"
     releaseDate: 2024-10-31
     eoas: 2028-10-31 # https://community.oneplus.com/thread/1809805181760569353
-    eol: 20230-10-31 # # See above but 6 years security updates
+    eol: 2030-10-31 # # See above but 6 years security updates
     discontinued: false
     supportedOxygenOSVersions: 15
 
