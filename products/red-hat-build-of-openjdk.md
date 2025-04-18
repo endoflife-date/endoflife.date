@@ -54,30 +54,30 @@ releases:
     releaseDate: 2023-11-14
     eol: 2029-12-31
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
-    latest: "21.0.3.0.9-1"
-    latestReleaseDate: 2024-04-18
+    latest: "21.0.6.0.7-3"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "17"
     releaseDate: 2021-11-11 # RHEL 8.4
     eol: 2027-10-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
-    latest: "17.0.11.0.9-2"
-    latestReleaseDate: 2024-04-18
+    latest: "17.0.14.0.7-3"
+    latestReleaseDate: 2025-01-15
 
 -   releaseCycle: "11"
     releaseDate: 2018-10-01 # RHEL 7.6
     eol: 2024-10-31
     # https://access.redhat.com/downloads/content/java-11-openjdk/x86_64/package-latest
-    latest: "11.0.23.0.9-3"
-    latestReleaseDate: 2024-04-22
+    latest: "11.0.25.0.9-3"
+    latestReleaseDate: 2025-01-14
 
 -   releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
     releaseDate: 2014-10-01 # RHEL 7.1
     eol: 2026-11-30
     # https://access.redhat.com/downloads/content/java-1.8.0-openjdk/x86_64/package-latest
-    latest: "1.8.0.412.b08-2"
-    latestReleaseDate: 2024-04-18
+    latest: "1.8.0.442.b06-2"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
