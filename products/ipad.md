@@ -23,7 +23,7 @@ releases:
 
 -   releaseCycle: "air-7"
     releaseLabel: "iPad Air (7th generation)"
-    releaseDate: 2025-03-04
+    releaseDate: 2025-03-12
     discontinued: false
     eol: false
     link: https://support.apple.com/122241
