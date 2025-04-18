@@ -52,7 +52,7 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2012-01-31
-    eoas: true
+    eoas: false
     eol: 2013-08-19
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
@@ -74,4 +74,4 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
 
-Bootstrap versions 3 and 4 have reached end of life. Commercial support is available for these versions through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative. For more information, see Bootstrap [3.4.1](https://getbootstrap.com/docs/3.4/getting-started/#eol) and [4.6.x](https://getbootstrap.com/docs/4.6/end-of-life/) docs.
+If you are still using an EOL version of Bootstrap (versions 2 - 4), commercial support for those versions is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
