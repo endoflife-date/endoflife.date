@@ -13,6 +13,22 @@ releaseColumn: false
 # All links can be found on https://support.apple.com/HT201471.
 # All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
 releases:
+-   releaseCycle: "11"
+    releaseLabel: "iPad (11th generation)"
+    releaseDate: 2025-03-12
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/122240
+    supportedIpadOsVersions: 18
+
+-   releaseCycle: "air-7"
+    releaseLabel: "iPad Air (7th generation)"
+    releaseDate: 2025-03-12
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/122241
+    supportedIpadOsVersions: 18
+    
 -   releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (7th generation)"
     releaseDate: 2024-10-23
