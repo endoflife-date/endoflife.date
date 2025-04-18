@@ -34,8 +34,8 @@ releases:
     supportedPhpVersions: 8.1+
     eoas: false
     eol: false
-    latest: "5.2.1"
-    latestReleaseDate: 2025-04-06
+    latest: "5.2.2"
+    latestReleaseDate: 2025-04-17
 
 -   releaseCycle: "4.6"
     codename: "Strawberry"
