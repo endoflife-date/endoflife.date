@@ -259,6 +259,52 @@ paths:
         '429':
           description: Too many requests, retry later.
 
+  /identifiers:
+    get:
+      operationId: retrieve_identifiers
+      summary: List all identifiers
+      description: <
+        Provides an overview of all Identifiers known to Endoflife.date, which can then be queried independently.
+
+        An Identifier is a product identifier, such as a purl, repology or cpe identifier.
+      responses:
+        '200':
+          description: The list of Identifiers.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RetrieveIdentifiersResponse'
+        '429':
+          description: Too many requests, retry later.
+
+  /identifiers/{identifier}:
+    get:
+      operationId: retrieve_identifier
+      summary: Retrieve all Products that are identified by the given Identifier.
+      description: >
+        For a given Identifier (such as a purl, repology or cpe identifier), list all known Products.
+      parameters:
+        - name: identifier
+          in: path
+          description: Identifier.
+          required: true
+          schema:
+            type: string
+            example: purl
+      responses:
+        '200':
+          description: The list of all Products that are identified by this Identifier.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RetrieveIdentifierResponse'
+        '404':
+          description: The identifier with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
 # Responses must be at the end of the list, contain a schema_version property and be suffixed with
 # 'Response' to facilitate maintenance and reading.
 components:
@@ -593,3 +639,53 @@ components:
           example: 2023-03-01T14:05:52+01:00
         result:
           $ref: '#/components/schemas/ProductDetails'
+
+    RetrieveIdentifiersResponse:
+      type: object
+      description: A response containing all known Identifiers.
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        last_modified:
+          type: string
+          format: date-time
+          description: The time this product was last modified.
+          example: 2023-03-01T14:05:52+01:00
+        result:
+          type: array
+          description: Known identifiers (purl, repology, cpe...) to Endoflife.date.
+          items:
+            $ref: '#/components/schemas/Identifier'
+
+    RetrieveIdentifierResponse:
+      type: object
+      description: A response containing all known Products for a given Identifier.
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        last_modified:
+          type: string
+          format: date-time
+          description: The time this product was last modified.
+          example: 2023-03-01T14:05:52+01:00
+        result:
+          type: array
+          description: All known Products, and their corresponding Identifier (i.e. pURL), for a given Identifier.
+          items:
+            type: object
+            properties:
+              identifier:
+                type: string
+                description: Identifier.
+                example: cpe:/o:canonical:ubuntu_linux
+              product:
+                type: string
+                description: A product name.
+                example: golang
+            required:
+              - identifier
+              - product
