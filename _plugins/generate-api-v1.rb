@@ -12,6 +12,8 @@
 # - /api/v1/categories/<category> - list products having the given category
 # - /api/v1/tags - list tags used on endoflife.date
 # - /api/v1/tags/<tag> - list products having the given tag
+# - /api/v1/identifiers - list all identifiers
+# - /api/v1/identifiers/<identifier> - retrieve all Products that are identified by the given Identifier.
 
 
 require 'jekyll'
@@ -19,7 +21,7 @@ require 'jekyll'
 module ApiV1
 
   # This version must be kept in sync with the version in api_v1/openapi.yml.
-  VERSION = '1.1.0'
+  VERSION = '1.2.0'
   MAJOR_VERSION = VERSION.split('.')[0]
 
   STRIP_HTML_BLOCKS = Regexp.union(
@@ -63,6 +65,7 @@ module ApiV1
       add_products_related_pages(site, product_pages)
       add_categories_related_pages(site, product_pages)
       add_tags_related_pages(site, product_pages)
+      add_identifiers_related_pages(site, product_pages)
 
       Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
     end
@@ -159,6 +162,52 @@ module ApiV1
       data = tags.map { |tag| { name: tag, uri: "#{ApiV1.api_url(site, "/tags/#{tag}")}" }}
       meta = { total: tags.size() }
       site.pages << JsonPage.of_raw_data(site, '/tags/', data, meta)
+    end
+
+    def add_identifiers_related_pages(site, products)
+      identifiers, products_by_identifier = products_by_identifier(products)
+
+      add_all_identifiers_page(site, products_by_identifier.keys)
+      products_by_identifier.each do |identifier, products|
+        add_identifier_page(site, identifier, products)
+      end
+    end
+
+    def products_by_identifier(products)
+      products_by_identifier = {}
+      identifiers = []
+      products.each do |product|
+        product.data['identifiers'].each do |identifier|
+          identifier_to_product = {
+            identifier: identifier.values.first,
+            product: product,
+          }
+
+          add_to_map(products_by_identifier, identifier.keys.first, identifier_to_product)
+          identifiers << identifier
+        end
+      end
+
+      return identifiers, products_by_identifier
+    end
+
+    def add_identifier_page(site, identifier, identifiers_to_products)
+      data = identifiers_to_products.map do |identifier_to_product|
+        {
+          identifier: identifier_to_product[:identifier],
+          product: identifier_to_product[:product].data['id'],
+          uri: ApiV1.api_url(site, "/products/#{identifier_to_product[:product].data['id']}")
+        }
+      end
+      meta = { total: data.length }
+
+      site.pages << JsonPage.of_raw_data(site, "/identifiers/#{identifier}", data, meta)
+    end
+
+    def add_all_identifiers_page(site, identifiers)
+      data = identifiers.map { |identifier| { name: identifier, uri: "#{ApiV1.api_url(site, "/identifiers/#{identifier}/")}" }}
+      meta = { total: identifiers.size() }
+      site.pages << JsonPage.of_raw_data(site, '/identifiers/', data, meta)
     end
 
     def add_to_map(map, key, page)

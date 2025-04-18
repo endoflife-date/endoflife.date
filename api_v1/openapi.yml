@@ -10,7 +10,7 @@ openapi: 3.1.1
 info:
   title: endoflife API
   # This version must be kept in sync with the version in _plugins/generate-api-v1.rb.
-  version: "1.1.0"
+  version: "1.2.0"
   license:
     name: MIT License
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
@@ -49,6 +49,8 @@ tags:
     description: Query for products by category.
   - name: Tags
     description: Query for products by tags.
+  - name: Identifiers
+    description: Query for products by identifiers.
 
 paths:
   /:
@@ -311,6 +313,56 @@ paths:
           description: Resource not modified since last request.
         '404':
           description: The tag with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+  /identifiers:
+    get:
+      operationId: list_identifiers
+      tags:
+        - Identifiers
+      summary: List all identifiers
+      description: <
+        Provides an overview of all Identifiers known to Endoflife.date, which can then be queried independently.
+
+        An Identifier is a product identifier, such as a purl, repology or cpe identifier.
+      responses:
+        '200':
+          description: The list of Identifiers.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+        '429':
+          description: Too many requests, retry later.
+
+  /identifiers/{identifier}:
+    get:
+      operationId: retrieve_identifier
+      tags:
+        - Identifiers
+      summary: Retrieve all Products that are identified by the given Identifier.
+      description: >
+        For a given Identifier (such as a purl, repology or cpe identifier), list all known Products.
+      parameters:
+        - name: identifier
+          in: path
+          description: Identifier.
+          required: true
+          schema:
+            type: string
+            example: purl
+      responses:
+        '200':
+          description: The list of all Products that are identified by this Identifier.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RetrieveIdentifierResponse'
+        '404':
+          description: The identifier with the given name does not exist.
         '429':
           description: Too many requests, retry later.
 
@@ -881,3 +933,62 @@ components:
             - "2023-03-01T14:05:52+01:00"
         result:
           $ref: '#/components/schemas/ProductDetails'
+
+    IdentifierReference:
+      type: object
+      description: A reference for a known Identifier, and how to look up any known Products for a given Identifier
+      properties:
+        name:
+          type: string
+          description: A known identifier to Endoflife.date.
+          examples:
+            - purl
+            - cpe
+            - repology
+        uri:
+          type: string
+          format: uri
+          description: The URI to be queried to retrieve the list of Products for a given Identifier
+          examples:
+            - purl
+            - cpe
+            - repology
+      required:
+        - name
+        - uri
+
+    RetrieveIdentifierResponse:
+      description: A response containing all known Products for a given Identifier.
+      type: object
+      required:
+        - schema_version
+        - result
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          example: 1.0.0
+        result:
+          type: array
+          description: All known Products, and their corresponding Identifier (i.e. pURL), for a given Identifier.
+          items:
+            type: object
+            properties:
+              identifier:
+                type: string
+                description: Identifier.
+                example: cpe:/o:canonical:ubuntu_linux
+              product:
+                type: string
+                description: A product name.
+                example: golang
+              uri:
+                description: Link to the full product details.
+                type: string
+                format: uri
+                examples:
+                  - "{{ site.url }}/api/v1/products/ubuntu/"
+            required:
+              - identifier
+              - product
+              - uri
