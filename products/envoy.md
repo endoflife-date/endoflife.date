@@ -43,9 +43,15 @@ auto:
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
 # eol(X<1.12) = releaseDate(X+1)
 releases:
+-   releaseCycle: "1.34"
+    releaseDate: 2025-04-15
+    eol: 2026-04-15
+    latest: '1.34.0'
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "1.33"
     releaseDate: 2025-01-14
-    eol: 2026-01-14 # tbd on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
+    eol: 2026-01-14
     latest: '1.33.2'
     latestReleaseDate: 2025-03-26
 
