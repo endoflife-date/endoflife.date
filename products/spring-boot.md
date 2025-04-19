@@ -52,7 +52,7 @@ auto:
 
 releases:
 -   releaseCycle: "3.4"
-    supportedJavaVersions: "17 - 23" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
+    supportedJavaVersions: "17 - 24" # https://docs.spring.io/spring-boot/docs/3.3.x/reference/html/getting-started.html#getting-started.system-requirements
     releaseDate: 2024-11-21
     eol: 2025-12-31
     eoes: 2026-12-31
