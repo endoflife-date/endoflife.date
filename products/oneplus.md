@@ -40,7 +40,7 @@ releases:
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
     eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
-    discontinued: true
+    discontinued: false
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/401/
 
 -   releaseCycle: "12"
