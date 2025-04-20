@@ -72,15 +72,14 @@ releases:
     eol: 2016-12-31
     minJavaVersion: 5
     latest: "6.0.53"
+    latestReleaseDate: 2017-04-02
 
 -   releaseCycle: "5"
     releaseDate: 2003-09-06
     eol: 2012-09-30
     minJavaVersion: 1.4
     latest: "5.5.36"
-
-
-
+    latestReleaseDate: 2012-10-10
 
 ---
 
