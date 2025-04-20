@@ -77,7 +77,7 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2003-09-06
-    eol: 2012-10-10 # https://tomcat.apache.org/tomcat-55-eol.html
+    eol: 2012-09-30 # https://tomcat.apache.org/tomcat-55-eol.html
     minJavaVersion: 1.4
     latest: "5.5.36"
     latestReleaseDate: 2012-10-10
