@@ -28,13 +28,21 @@ identifiers:
 -   cpe: cpe:/o:canonical:ubuntu_linux
 
 # Support and EOL dates available on https://wiki.ubuntu.com/Releases.
+# Exact day for some dates is not available, in this case use the same day as the release date.
 releases:
+-   releaseCycle: "25.04"
+    codename: "Plucky Puffin"
+    releaseDate: 2025-04-17
+    eoas: 2026-01-17
+    eol: 2026-01-17
+    latest: "25.04"
+    latestReleaseDate: 2025-04-17
+
 -   releaseCycle: "24.10"
     codename: "Oracular Oriole"
-    lts: false
     releaseDate: 2024-10-10
-    eoas: 2025-07-11
-    eol: 2025-07-11
+    eoas: 2025-07-10
+    eol: 2025-07-10
     latest: "24.10"
     latestReleaseDate: 2024-10-10
 
@@ -51,8 +59,8 @@ releases:
 -   releaseCycle: "23.10"
     codename: "Mantic Minotaur"
     releaseDate: 2023-10-12
-    eoas: 2024-07-11
-    eol: 2024-07-11
+    eoas: 2024-07-12
+    eol: 2024-07-12
     latest: "23.10"
     latestReleaseDate: 2023-10-12
 
