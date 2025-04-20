@@ -19,7 +19,8 @@ auto:
   -   git: https://github.com/moby/moby.git
       regex: ^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(-ce)?$
 
-# For EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
+# Inside a given major release, eol(x) = releaseDate(x+1)
+# For major release EOL, see https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
 releases:
 -   releaseCycle: "28.1"
     releaseDate: 2025-04-17
