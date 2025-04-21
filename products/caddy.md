@@ -29,16 +29,9 @@ releases:
     latest: "1.0.5"
     latestReleaseDate: 2020-02-29
 
--   releaseCycle: "0"
-    releaseDate: 2015-04-28
-    eol: true
-    latest: "0.11.5"
-    latestReleaseDate: 2019-03-05  
-
 ---
 
-> [Caddy](https://caddyserver.com/) Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
+> [Caddy](https://caddyserver.com/) is a fast and extensible multi-platform web
+> server with automatic HTTPS support.
 
-## Security Policy
-
-The Caddy project would like to make sure that it stays on top of all practically-exploitable vulnerabilities.
+Only the latest release is considered supported.
