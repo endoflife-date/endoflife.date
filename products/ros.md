@@ -1,6 +1,6 @@
 ---
 title: ROS
-category: os
+category: framework
 iconSlug: ros
 permalink: /ros
 versionCommand: rosversion -d

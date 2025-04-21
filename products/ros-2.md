@@ -1,6 +1,6 @@
 ---
 title: ROS 2
-category: os
+category: framework
 iconSlug: ros
 permalink: /ros-2
 alternate_urls:
