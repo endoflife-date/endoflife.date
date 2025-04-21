@@ -19,7 +19,6 @@ identifiers:
 -   purl: pkg:docker/bitnami/airflow-exporter
 -   purl: pkg:docker/bitnami/airflow-scheduler
 -   purl: pkg:docker/bitnami/airflow-worker
--   purl: pkg:docker/chainguard/airflow
 -   purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
 -   purl: pkg:pypi/apache-airflow
 
