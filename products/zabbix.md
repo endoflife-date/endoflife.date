@@ -76,6 +76,7 @@ releases:
     eoas: 2022-02-28
     eol: 2022-03-31
     latest: "5.4.12"
+    latestReleaseDate: 2022-04-04
 
 -   releaseCycle: "5.0"
     lts: true
