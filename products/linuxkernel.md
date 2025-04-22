@@ -29,20 +29,20 @@ identifiers:
 releases:
 -   releaseCycle: "6.14"
     releaseDate: 2025-03-24
-    eol: false # when its eol date announced we need to fix this
+    eol: false # not yet announced
     latest: "6.14.3"
     latestReleaseDate: 2025-04-20
 
 -   releaseCycle: "6.13"
     releaseDate: 2025-01-19
-    eol: 2025-04-20
+    eol: 2025-04-20 # announced https://lore.kernel.org/lkml/2025042056-outskirts-disarm-6ceb@gregkh/
     latest: "6.13.12"
     latestReleaseDate: 2025-04-20
 
 -   releaseCycle: "6.12"
     lts: true
     releaseDate: 2024-11-17
-    eol: 2026-12-31
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
     latest: "6.12.24"
     latestReleaseDate: 2025-04-20
 
