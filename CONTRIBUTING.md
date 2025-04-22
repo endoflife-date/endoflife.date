@@ -317,9 +317,8 @@ releases:
     # It is also returned as-is in the API.
     codename: firebolt
 
-    # Date of the release (optional if releaseDateColumn is false, else mandatory).
-    # It should be removed if releaseDateColumn is false.
-    # Note that an approximate date is better than no date at all.
+    # Date of the release (mandatory).
+    # Note that an approximate date is OK if the exact date is not known.
     releaseDate: 2017-03-12
 
     # Whether this is a "LTS" release (optional, default = false).
