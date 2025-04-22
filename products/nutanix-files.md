@@ -5,7 +5,8 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-files
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-eoasColumn: true
+eoasColumn: End of Maintenance
+eolColumn: End of Support Life
 
 auto:
   methods:
@@ -30,7 +31,7 @@ releases:
 -   releaseCycle: "4.4"
     releaseDate: 2023-09-13
     eoas: 2024-08-31
-    eol: 2025-09-30
+    eol: 2025-05-31
     latest: "4.4.0.3"
     latestReleaseDate: 2024-03-26
 
