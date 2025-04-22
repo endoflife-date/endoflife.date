@@ -35,7 +35,7 @@ releases:
 
 -   releaseCycle: "6.13"
     releaseDate: 2025-01-19
-    eol: false # when its eol date announced we need to fix this
+    eol: 2025-04-20
     latest: "6.13.12"
     latestReleaseDate: 2025-04-20
 
