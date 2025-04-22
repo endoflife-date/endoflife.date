@@ -8,7 +8,6 @@ identifiers:
 -   repology: calico
 -   purl: pkg:github/projectcalico/calico
 -   purl: pkg:docker/calico/cni
--   purl: pkg:docker/chainguard/calico-cni
 -   cpe: cpe:/a:projectcalico:calico
 -   cpe: cpe:2.3:a:projectcalico:calico
 
