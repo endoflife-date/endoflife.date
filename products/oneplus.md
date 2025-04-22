@@ -24,8 +24,8 @@ customColumns:
 releases:
 -   releaseCycle: "13R"
     releaseDate: 2025-01-07
-    eoas: 2029-01-07 # Approximate based on 4 https://community.oneplus.com/thread/1809805181760569353 
-    eol: 2031-01-07 # See above but 6 years security updates
+    eoas: 2029-01-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
+    eol: 2031-01-07 # 6 years of security updates
     discontinued: false
     supportedOxygenOSVersions: 15
 
