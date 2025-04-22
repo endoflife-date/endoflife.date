@@ -29,7 +29,7 @@ identifiers:
 releases:
 -   releaseCycle: "6.14"
     releaseDate: 2025-03-24
-    eol: false # unknown
+    eol: false # not yet announced
     latest: "6.14.3"
     latestReleaseDate: 2025-04-20
 
