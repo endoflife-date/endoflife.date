@@ -74,4 +74,4 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
 
-If you are still using an EOL version of Bootstrap (versions 2 - 4), commercial support for those versions is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
+Commercial support for some EOL versions of Bootstrap is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
