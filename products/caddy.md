@@ -6,12 +6,11 @@ iconSlug: caddy
 permalink: /caddy
 versionCommand: caddy version
 releasePolicyLink: https://github.com/caddyserver/caddy?tab=security-ov-file
-changelogTemplate: https://github.com/caddyserver/caddy/releases/tag/__LATEST__
+changelogTemplate: https://github.com/caddyserver/caddy/releases/tag/v__LATEST__
 
 auto:
   methods:
   -   git: https://github.com/caddyserver/caddy.git
-      #regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Supported versions : https://github.com/caddyserver/caddy
 
