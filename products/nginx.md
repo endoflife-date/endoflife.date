@@ -43,7 +43,7 @@ releases:
 
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23
-    eol: "2024-04-23"
+    eol: 2025-04-23
     latest: "1.26.3"
     latestReleaseDate: 2025-02-05
 
