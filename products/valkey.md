@@ -9,13 +9,13 @@ eoasColumn: Maintenance Support
 eolColumn: Extended Security Support
 
 identifiers:
-  - repology: valkey
-  - purl: pkg:github/valkey-io/valkey
-  - purl: pkg:docker/valkey/valkey
+-   repology: valkey
+-   purl: pkg:github/valkey-io/valkey
+-   purl: pkg:docker/valkey/valkey
 
 auto:
   methods:
-    - git: https://github.com/valkey-io/valkey.git
+  -   git: https://github.com/valkey-io/valkey.git
 
 # Support and EOL date are documented on https://valkey.io/topics/releases/
 releases:
@@ -23,22 +23,22 @@ releases:
     releaseDate: 2025-03-31
     eoas: false # not yet documented on https://valkey.io/topics/releases/
     eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.1.0"
-    latestReleaseDate: 2025-03-31
+    latest: "8.1.1"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "8.0"
     releaseDate: 2024-09-15
     eoas: 2027-09-15
     eol: false # not yet documented on https://valkey.io/topics/releases/
-    latest: "8.0.2"
-    latestReleaseDate: 2025-01-07
+    latest: "8.0.3"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-08-15 # inherit from redis
     eoas: 2027-04-16
     eol: 2029-04-16
-    latest: "7.2.8"
-    latestReleaseDate: 2025-01-08
+    latest: "7.2.9"
+    latestReleaseDate: 2025-04-23
 
 ---
 
