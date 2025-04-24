@@ -27,22 +27,22 @@ releases:
     releaseDate: 2025-03-25
     eoas: false
     eol: false
-    latest: "11.6.0+security-01"
-    latestReleaseDate: 2025-04-22
+    latest: "11.6.1"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "11.5"
     releaseDate: 2025-01-28
     eoas: 2025-03-25
     eol: 2025-10-31
-    latest: "11.5.3+security-01"
-    latestReleaseDate: 2025-04-22
+    latest: "11.5.4"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "11.4"
     releaseDate: 2024-12-05
     eoas: 2025-01-28
     eol: 2025-09-30
-    latest: "11.4.3+security-01"
-    latestReleaseDate: 2025-04-22
+    latest: "11.4.4"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-10-22
