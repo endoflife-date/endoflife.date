@@ -13,7 +13,6 @@ eoasColumn: true
 identifiers:
 -   repology: bazel
 -   purl: pkg:github/bazelbuild/bazel
--   purl: pkg:docker/chainguard/bazel
 -   purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
 -   cpe: cpe:/a:google:bazel
 -   cpe: cpe:2.3:a:google:bazel
