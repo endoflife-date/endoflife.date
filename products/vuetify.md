@@ -71,4 +71,4 @@ releases:
 Each major release is supported with critical and security fixes for [a minimum of 18 months](https://vuetifyjs.com/introduction/long-term-support/)
 from the date of release of the last minor version in a given cycle, which marks the start of LTS.
 
-[Commercial support](https://v2.vuetifyjs.com/en/about/eol) to secure end of life versions of Vuetify is available from HeroDevs as part of their [Never-Ending Support initiative for Vuetify](https://www.herodevs.com/support/vuetify-nes).
+Commercial support for Vuetify 2.x is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/vuetify-nes) initiative. For more information, see [Vuetify 2 docs](https://v2.vuetifyjs.com/en/about/eol).
