@@ -15,17 +15,17 @@ changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|s
 
 releases:
 -   releaseCycle: "6"
-    releaseDate: 2024-04-23
-    eol: false
-    latest: "6000.1.0f1"
-    latestReleaseDate: 2025-04-23
-
--   releaseCycle: "6"
     lts: true
     releaseDate: 2024-04-29
     eol: false
     latest: "6000.0.47f1"
     latestReleaseDate: 2025-04-16
+
+-   releaseCycle: "6"
+    releaseDate: 2024-04-23
+    eol: false
+    latest: "6000.1.0f1"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "2023.2"
     releaseDate: 2023-11-14
