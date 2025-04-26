@@ -22,7 +22,7 @@ releases:
     latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "6.0"
-    lts: true
+    lts: 2024-10-16
     releaseDate: 2024-04-29
     eol: false
     latest: "6000.0.47f1"
