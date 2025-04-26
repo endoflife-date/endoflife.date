@@ -60,7 +60,6 @@ releases:
     eol: 2020-07-31
     latest: "1.5.24"
     lts: 2019-07-31
-    eoes: true
     latestReleaseDate: 2020-03-03
 
 ---
