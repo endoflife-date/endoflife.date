@@ -15,8 +15,7 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "cron"
-      cronjob: "0 8 * * *" # every day at 8am UTC
+      interval: "daily"
 
   - package-ecosystem: "github-actions"
     directory: "/"
