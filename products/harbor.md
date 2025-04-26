@@ -31,12 +31,6 @@ identifiers:
 -   purl: pkg:oci/harbor-portal?repository_url=cgr.dev/chainguard
 -   purl: pkg:oci/harbor-registry?repository_url=cgr.dev/chainguard
 -   purl: pkg:oci/harbor-registryctl?repository_url=cgr.dev/chainguard
-# Chainguard Images (Wolfi-based) on Docker Hub
--   purl: pkg:docker/chainguard/harbor-core
--   purl: pkg:docker/chainguard/harbor-jobservice
--   purl: pkg:docker/chainguard/harbor-portal
--   purl: pkg:docker/chainguard/harbor-registry
--   purl: pkg:docker/chainguard/harbor-registryctl
 # Chainguard Images (+FIPS certified)
 -   purl: pkg:oci/harbor-core-fips?repository_url=cgr.dev/chainguard
 -   purl: pkg:oci/harbor-jobservice-fips?repository_url=cgr.dev/chainguard
