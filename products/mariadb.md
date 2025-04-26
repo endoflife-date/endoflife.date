@@ -5,6 +5,7 @@ iconSlug: mariadb
 permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
+releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
 changelogTemplate: "https://mariadb.com/kb/en/mariadb-{{'__LATEST__'|replace:'.','-'}}-changelog/"
 eolColumn: Community support
 eoesColumn: Enterprise support
@@ -212,11 +213,23 @@ releases:
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational
 > database management system (RDBMS) originally forked from MySQL.
 
+## Release Cadence
+
 Releases of MariaDB are published on a regular basis. New releases are either long-term releases (LTS) or rolling
 releases. The support for each release depends on the release type.
 
 Long-term release (LTS) are released yearly and supported for 3 years with bug and security fixes (was 5 years up to
 11.4).
+
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with MariaDB 12.3](https://mariadb.org/11-8-is-lts/#:~:text=MariaDB%2012%3A%20Slightly%20adjusted%20numbering%20scheme)
+> (expected in Q2 2026), the `.3` release for each Major version will be LTS.
+> For the MariaDB 12 series, the first three releases, 12.0, 12.1, and 12.2, will be rolling GA releases.
+> The fourth and final release - MariaDB 12.3 - will become the following LTS release.
+
+## Support Lifecycle
 
 Rolling releases are released quarterly and are supported until the next release with bug and security fixes. Note that
 before 11.3 these were described as short-term releases and were maintained for 1 year.
