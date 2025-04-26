@@ -8,7 +8,6 @@ releasePolicyLink: https://docs.mattermost.com/about/release-policy.html
 changelogTemplate: https://docs.mattermost.com/upgrade/version-archive.html
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolWarnThreshold: 30
-releaseDateColumn: true
 
 auto:
   methods:
@@ -24,25 +23,53 @@ auto:
           column: "Support ends"
           regex: '^(?P<value>\d+\-\d+-\d+).*$'
 
+identifiers:
+-   repology: mattermost
+
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.7"
+    releaseDate: 2025-04-16
+    eol: 2025-07-15
+    latest: '10.7.0'
+    latestReleaseDate: 2025-04-03
+
+-   releaseCycle: "10.6"
+    releaseDate: 2025-03-16
+    eol: 2025-06-15
+    latest: '10.6.2'
+    latestReleaseDate: 2025-04-15
+
+-   releaseCycle: "10.5"
+    releaseDate: 2025-02-16
+    lts: true
+    eol: 2025-11-15
+    latest: '10.5.3'
+    latestReleaseDate: 2025-04-15
+
+-   releaseCycle: "10.4"
+    releaseDate: 2025-01-16
+    eol: 2025-04-15
+    latest: '10.4.5'
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "10.3"
     releaseDate: 2024-12-16
     eol: 2025-03-15
-    latest: '10.3.1'
-    latestReleaseDate: 2024-12-11
+    latest: '10.3.4'
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "10.2"
     releaseDate: 2024-11-15
     eol: 2025-02-15
-    latest: '10.2.1'
-    latestReleaseDate: 2024-12-10
+    latest: '10.2.3'
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "10.1"
     releaseDate: 2024-10-16
     eol: 2025-01-15
-    latest: '10.1.6'
-    latestReleaseDate: 2024-12-20
+    latest: '10.1.7'
+    latestReleaseDate: 2025-01-15
 
 -   releaseCycle: "10.0"
     releaseDate: 2024-09-16
@@ -54,8 +81,8 @@ releases:
     lts: true
     releaseDate: 2024-08-16
     eol: 2025-05-15
-    latest: '9.11.6'
-    latestReleaseDate: 2024-12-10
+    latest: '9.11.12'
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "9.10"
     releaseDate: 2024-07-16
@@ -258,6 +285,6 @@ Mattermost backports high-severity or high-impact security fixes to the previous
 releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release.html).
 A new ESR release is made when a significant number of new features and improvements have been added
 to the product, and have had sufficient time to stabilize. A new ESR is released twice a year in
-January and July. ESR releases are supported for nine months.
+February and August. ESR releases are supported for nine months.
 
 Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).

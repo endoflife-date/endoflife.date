@@ -2,10 +2,10 @@
 title: Fairphone
 category: device
 tags: mobile-phone
+iconSlug: fairphone
 permalink: /fairphone
 releasePolicyLink: https://forum.fairphone.com/t/fairphone-product-release-cycle/52652
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates
@@ -20,7 +20,7 @@ customColumns:
 releases:
 -   releaseCycle: "5"
     releaseLabel: "Fairphone 5"
-    supportedAndroidVersions: "13"
+    supportedAndroidVersions: "13 - 14" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
     releaseDate: 2023-09-14
     discontinued: false
     eoas: false
@@ -41,8 +41,8 @@ releases:
     supportedAndroidVersions: 10 - 13
     releaseDate: 2020-09-30
     discontinued: 2022-11-01
-    eoas: true
-    eol: 2025-09-30
+    eoas: 2024-09-30
+    eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "3"
@@ -50,8 +50,8 @@ releases:
     supportedAndroidVersions: 10 - 13
     releaseDate: 2019-09-30
     discontinued: 2021-09-01
-    eoas: true
-    eol: 2024-09-30
+    eoas: 2024-09-30
+    eol: 2026-09-30
     link: https://support.fairphone.com/hc/articles/360048139032
 
 -   releaseCycle: "2"

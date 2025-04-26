@@ -6,7 +6,6 @@ iconSlug: keycloak
 permalink: /keycloak
 releasePolicyLink: https://github.com/keycloak/keycloak/security/policy#supported-versions
 changelogTemplate: "https://www.keycloak.org/docs/latest/release_notes/index.html#keycloak-{{'__LATEST__'|replace:'.','-'}}"
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
@@ -19,11 +18,23 @@ auto:
 
 # eol(x) = release(x+1)
 releases:
+-   releaseCycle: "26.2"
+    releaseDate: 2025-04-11
+    eol: false
+    latest: "26.2.1"
+    latestReleaseDate: 2025-04-23
+
+-   releaseCycle: "26.1"
+    releaseDate: 2025-01-15
+    eol: 2025-04-11
+    latest: "26.1.5"
+    latestReleaseDate: 2025-04-11
+
 -   releaseCycle: "26.0"
     releaseDate: 2024-10-04
-    eol: false
-    latest: "26.0.7"
-    latestReleaseDate: 2024-12-03
+    eol: 2025-01-15
+    latest: "26.0.8"
+    latestReleaseDate: 2025-01-13
 
 -   releaseCycle: "25.0"
     releaseDate: 2024-06-10
@@ -147,6 +158,11 @@ releases:
 Only the latest major version gets active development and security fixes.
 Depending on the severity of a vulnerability, the issue may be fixed in the current release or, for
 lower severity vulnerabilities or hardening, in the following release.
+
+The Keycloak JS adapter
+[split from Keycloak with the 26.2.0 release](https://www.keycloak.org/2025/02/keycloak-js-2620-released.html)
+and now follows its own release policy. It will continue to be backwards compatible with all actively
+supported releases of the Keycloak server, and deviation from this will be considered a breaking change.
 
 Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
 with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)

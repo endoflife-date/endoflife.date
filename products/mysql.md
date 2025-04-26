@@ -8,7 +8,6 @@ versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
-releaseDateColumn: true
 eoasColumn: Premier Support
 eolColumn: Extended Support
 
@@ -36,10 +35,24 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "9.1"
-    releaseDate: 2024-09-24
+-   releaseCycle: "9.3"
+    releaseDate: 2025-03-31
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
+    latest: '9.3.0'
+    latestReleaseDate: 2025-03-31
+
+-   releaseCycle: "9.2"
+    releaseDate: 2024-12-15
+    eoas: 2025-04-15 # releaseDate(9.3)
+    eol: 2025-04-15 # releaseDate(9.3)
+    latest: '9.2.0'
+    latestReleaseDate: 2024-12-15
+
+-   releaseCycle: "9.1"
+    releaseDate: 2024-09-24
+    eoas: 2025-01-21
+    eol: 2025-01-21
     latest: '9.1.0'
     latestReleaseDate: 2024-09-24
 
@@ -55,8 +68,8 @@ releases:
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: '8.4.3'
-    latestReleaseDate: 2024-09-16
+    latest: '8.4.5'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
@@ -84,8 +97,8 @@ releases:
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.40'
-    latestReleaseDate: 2024-09-18
+    latest: '8.0.42'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09

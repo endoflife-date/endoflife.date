@@ -6,11 +6,12 @@ iconSlug: oneplus
 permalink: /oneplus
 versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
+changelogTemplate: "https://www.oneplus.com/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
 releaseColumn: false
-releaseDateColumn: true
 activeSupportColumn: Active Major Updates
 discontinuedColumn: true
+eoasColumn: Android Updates
 eolColumn: Security Updates
 customColumns:
 -   property: supportedOxygenOSVersions
@@ -20,27 +21,38 @@ customColumns:
     link: https://wikipedia.org/wiki/OxygenOS
 
 # Use Support/Spec pages from https://www.oneplus.com/global/support/spec pages for older phones
-
 releases:
+-   releaseCycle: "13R"
+    releaseDate: 2025-01-07
+    eoas: 2029-01-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
+    eol: 2031-01-07 # 6 years of security updates
+    discontinued: false
+    supportedOxygenOSVersions: 15
+
+-   releaseCycle: "13"
+    releaseDate: 2024-10-31
+    eoas: 2028-10-31 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
+    eol: 2030-10-31 # 6 years of security updates
+    discontinued: false
+    supportedOxygenOSVersions: 15
+
 -   releaseCycle: "12R"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    link: https://www.oneplus.com/fr/oneplus-12r
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/401/
 
 -   releaseCycle: "12"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
-    support: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    link: https://www.oneplus.com/fr/oneplus-12
     supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/396/
 
 -   releaseCycle: "11R"
     releaseDate: 2023-02-07 #https://oxygenupdater.com/article/379/
-    support: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2028-02-07
     discontinued: false
     link: https://www.oneplus.in/11r
@@ -48,7 +60,7 @@ releases:
 
 -   releaseCycle: "11"
     releaseDate: 2023-02-07 # https://oxygenupdater.com/article/379/
-    support: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
+    eoas: 2027-02-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2028-02-07
     discontinued: false
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
@@ -60,6 +72,7 @@ releases:
 
 OnePlus phones run OxygenOS, which is based on Android. It receives updates every two months.
 
+The OnePlus 13 & 13R supports [four major Android updates](https://community.oneplus.com/thread/1809805181760569353) and six years of security updates.  
 OnePlus supports [four major Android updates](https://community.oneplus.com/thread/1211291251581124608) and five years of security updates on their flagship lineup (starting from OnePlus 11 onwards, including T & R series), [three major Android updates](https://community.oneplus.com/thread/1356800969827942405) and four years of security updates for the Nord series (starting from the Nord 3 onwards), [two major Android updates](https://community.oneplus.com/thread/1462181) and three years of security updates for the Nord CE series, and finally [one major Android updates](https://community.oneplus.com/thread/1462181) and three years of security updates for the Nord N series
 
 OxygenOS updates can be tracked at [Oxygen Updater](https://oxygenupdater.com/news/all/)

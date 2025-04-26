@@ -7,7 +7,6 @@ permalink: /numpy
 releasePolicyLink: https://numpy.org/neps/nep-0029-deprecation_policy.html
 versionCommand: python -c "import numpy; print(numpy.__version__)"
 changelogTemplate: https://github.com/numpy/numpy/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:pypi/numpy
@@ -23,8 +22,8 @@ releases:
 -   releaseCycle: "2.2"
     releaseDate: 2024-12-08
     eol: 2026-12-09
-    latest: "2.2.1"
-    latestReleaseDate: 2024-12-21
+    latest: "2.2.5"
+    latestReleaseDate: 2025-04-19
 
 -   releaseCycle: "2.1"
     releaseDate: 2024-08-18

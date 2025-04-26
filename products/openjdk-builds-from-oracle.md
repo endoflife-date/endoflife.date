@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://jdk.java.net/
 changelogTemplate: https://openjdk.org/projects/jdk/__RELEASE_CYCLE__/
-releaseDateColumn: true
 supportColumn: false
 
 identifiers:
@@ -20,11 +19,23 @@ identifiers:
 # Release dates can be found on https://wiki.openjdk.org/.
 # Usually only two patch versions are released during the support period.
 releases:
+-   releaseCycle: "24"
+    releaseDate: 2025-03-18
+    eol: 2025-09-16 # attempted EOL date (3rd Tuesday of the month), update when 25 is released
+    latest: "24"
+    latestReleaseDate: 2025-03-18
+
+-   releaseCycle: "23"
+    releaseDate: 2024-09-17
+    eol: 2025-03-18
+    latest: "23.0.2"
+    latestReleaseDate: 2025-01-21
+
 -   releaseCycle: "22"
     releaseDate: 2024-03-19
     eol: 2024-09-17
-    latest: "22"
-    latestReleaseDate: 2024-03-19
+    latest: "22.0.2"
+    latestReleaseDate: 2024-07-16
 
 -   releaseCycle: "21"
     releaseDate: 2023-09-19

@@ -4,13 +4,13 @@ category: framework
 tags: javascript-runtime
 permalink: /jquery-ui
 changelogTemplate: https://github.com/jquery/jquery-ui/releases/tag/__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:github/jquery/jquery-ui
 -   purl: pkg:maven/org.webjars/jquery-ui
 -   purl: pkg:npm/jquery-ui
 -   purl: pkg:nuget/jQuery.UI.Combined
+-   repology: jquery-ui
 
 auto:
   methods:
@@ -77,7 +77,6 @@ releases:
 
 > [jQuery UI](https://jqueryui.com/) is a collection of GUI widgets, animated
 > visual effects, and themes implemented with jQuery.
-
 
 The support and EOL policy is not clearly defined. Looking at past releases,
 it seems that only the latest release is actively maintained.

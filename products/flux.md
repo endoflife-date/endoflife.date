@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: flux version
 releasePolicyLink: https://fluxcd.io/flux/releases/#supported-releases
 changelogTemplate: https://github.com/fluxcd/flux2/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:
@@ -18,8 +17,17 @@ auto:
   -   git: https://github.com/fluxcd/flux2.git
   -   git: https://github.com/fluxcd/flux.git
 
+identifiers:
+-   repology: fluxcd
+
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.5"
+    releaseDate: 2025-02-20
+    eol: false
+    latest: "2.5.1"
+    latestReleaseDate: 2025-02-25
+
 -   releaseCycle: "2.4"
     releaseDate: 2024-09-30
     eol: false
@@ -34,7 +42,7 @@ releases:
 
 -   releaseCycle: "2.2"
     releaseDate: 2023-12-12
-    eol: false
+    eol: 2025-02-20
     latest: "2.2.3"
     latestReleaseDate: 2024-02-05
 

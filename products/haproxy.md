@@ -6,7 +6,6 @@ permalink: /haproxy
 versionCommand: haproxy -v
 releasePolicyLink: https://www.haproxy.org/
 changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGELOG
-releaseDateColumn: true
 
 auto:
   methods:
@@ -28,28 +27,28 @@ releases:
 -   releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.1"
-    latestReleaseDate: 2024-12-11
+    latest: "3.1.7"
+    latestReleaseDate: 2025-04-17
 
 -   releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.7"
-    latestReleaseDate: 2024-12-12
+    latest: "3.0.10"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-12-05
     eol: 2025-01-01
-    latest: "2.9.13"
-    latestReleaseDate: 2024-12-12
+    latest: "2.9.15"
+    latestReleaseDate: 2025-03-21
 
 -   releaseCycle: "2.8"
     releaseDate: 2023-05-31
     lts: true
     eol: 2028-04-01
-    latest: "2.8.13"
-    latestReleaseDate: 2024-12-12
+    latest: "2.8.15"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "2.7"
     releaseDate: 2022-12-01
@@ -61,8 +60,8 @@ releases:
     releaseDate: 2022-05-31
     lts: true
     eol: 2027-04-01
-    latest: "2.6.20"
-    latestReleaseDate: 2024-11-08
+    latest: "2.6.22"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "2.5"
     releaseDate: 2021-11-23
@@ -74,8 +73,8 @@ releases:
     releaseDate: 2021-05-14
     lts: true
     eol: 2026-04-01
-    latest: "2.4.28"
-    latestReleaseDate: 2024-11-08
+    latest: "2.4.29"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "2.3"
     releaseDate: 2020-11-05
@@ -87,8 +86,8 @@ releases:
     releaseDate: 2020-07-07
     lts: true
     eol: 2025-04-01
-    latest: "2.2.33"
-    latestReleaseDate: 2024-04-05
+    latest: "2.2.34"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "2.1"
     releaseDate: 2019-11-25

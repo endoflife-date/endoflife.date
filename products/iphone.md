@@ -8,7 +8,6 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 releaseColumn: false
-releaseDateColumn: true
 customColumns:
 -   property: supportedIosVersions
     position: after-release-column
@@ -19,6 +18,15 @@ customColumns:
 # All links can be found on https://support.apple.com/en-us/HT201296.
 # All supported iOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_dates.
 releases:
+
+-   releaseCycle: "16e"
+    releaseLabel: "16e"
+    releaseDate: 2025-02-28
+    discontinued: false
+    eol: false
+    link: https://support.apple.com/en-us/docs/iphone/301076
+    supportedIosVersions: 18
+
 -   releaseCycle: "16"
     releaseLabel: "16"
     releaseDate: 2024-09-20
@@ -86,7 +94,7 @@ releases:
 -   releaseCycle: "14-plus"
     releaseLabel: "14 Plus"
     releaseDate: 2022-10-07
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP874
     supportedIosVersions: 16 - 18
@@ -94,7 +102,7 @@ releases:
 -   releaseCycle: "14"
     releaseLabel: "14"
     releaseDate: 2022-09-16
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP873
     supportedIosVersions: 16 - 18
@@ -118,7 +126,7 @@ releases:
 -   releaseCycle: "se-3"
     releaseLabel: "SE (3rd generation)"
     releaseDate: 2022-03-18
-    discontinued: false
+    discontinued: 2025-02-19
     eol: false
     link: https://support.apple.com/kb/SP867
     supportedIosVersions: 15 - 18
@@ -247,7 +255,7 @@ releases:
     releaseLabel: "8"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP767
     supportedIosVersions: 11 - 16
 
@@ -255,7 +263,7 @@ releases:
     releaseLabel: "8 Plus"
     releaseDate: 2017-09-22
     discontinued: 2020-04-15
-    eol: false
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP768
     supportedIosVersions: 11 - 16
 
@@ -263,29 +271,23 @@ releases:
     releaseLabel: "X"
     releaseDate: 2017-09-12
     discontinued: 2018-09-12
-    eol: false
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP770
     supportedIosVersions: 11 - 16
 
-# iOS 15.7.2 was released on 13th Dec 2022
-# exclusively for 7/7+/SE1/6S/6S+
-# so these are marked as not yet dead devices. (and 15.8.1)
 -   releaseCycle: "7"
     releaseLabel: "7"
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP743
     supportedIosVersions: 10 - 15
 
-# iOS 15.7.2 was released on 13th Dec 2022
-# exclusively for 7/7+/SE1/6S/6S+
-# so these are marked as not yet dead devices.
 -   releaseCycle: "7-plus"
     releaseLabel: "7 Plus"
     releaseDate: 2016-09-16
     discontinued: 2019-09-10
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP744
     supportedIosVersions: 10 - 15
 
@@ -293,7 +295,7 @@ releases:
     releaseLabel: "SE (1st generation)"
     releaseDate: 2016-03-31
     discontinued: 2018-09-12
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP738
     supportedIosVersions: 9 - 15
 
@@ -301,7 +303,7 @@ releases:
     releaseLabel: "6S"
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP726
     supportedIosVersions: 9 - 15
 
@@ -309,7 +311,7 @@ releases:
     releaseLabel: "6S Plus"
     releaseDate: 2015-09-25
     discontinued: 2018-09-12
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP727
     supportedIosVersions: 9 - 15
 

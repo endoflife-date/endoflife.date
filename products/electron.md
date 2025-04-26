@@ -8,7 +8,6 @@ versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
 changelogTemplate: https://releases.electronjs.org/release/v__LATEST__
 eolColumn: Supported
-releaseDateColumn: true
 customColumns:
 -   property: chromeVersion
     position: after-release-column
@@ -40,29 +39,45 @@ auto:
         eol: "EOL"
 
 releases:
+-   releaseCycle: "35"
+    releaseDate: 2025-03-04
+    eol: 2025-09-02
+    latest: "35.2.1"
+    latestReleaseDate: 2025-04-23
+    chromeVersion: "M134"
+    nodeVersion: "22.14"
+
+-   releaseCycle: "34"
+    releaseDate: 2025-01-14
+    eol: 2025-06-24
+    latest: "34.5.3"
+    latestReleaseDate: 2025-04-23
+    chromeVersion: "M132"
+    nodeVersion: "20.18"
+
 -   releaseCycle: "33"
     releaseDate: 2024-10-15
     eol: 2025-04-29
-    latest: "33.3.0"
-    latestReleaseDate: 2024-12-05
+    latest: "33.4.10"
+    latestReleaseDate: 2025-04-18
     chromeVersion: "M130"
-    nodeVersion: "20.18.0"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
     eol: 2025-03-04
-    latest: "32.2.7"
-    latestReleaseDate: 2024-12-05
+    latest: "32.3.3"
+    latestReleaseDate: 2025-03-03
     chromeVersion: "M128"
-    nodeVersion: "20.16"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
     eol: 2025-01-14
-    latest: "31.7.6"
-    latestReleaseDate: 2024-12-05
+    latest: "31.7.7"
+    latestReleaseDate: 2025-01-14
     chromeVersion: "M126"
-    nodeVersion: "20.14"
+    nodeVersion: "20.18"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -70,7 +85,7 @@ releases:
     latest: "30.5.1"
     latestReleaseDate: 2024-09-13
     chromeVersion: "M124"
-    nodeVersion: "20.11"
+    nodeVersion: "20.16"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
@@ -262,7 +277,7 @@ releases:
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
     chromeVersion: "M76"
-    nodeVersion: "12.14.0"
+    nodeVersion: "12.4"
 
 -   releaseCycle: "5"
     releaseDate: 2019-04-23
@@ -294,57 +309,7 @@ releases:
     latest: "2.0.18"
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
-    nodeVersion: "v8.9"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    nodeVersion: "8.9"
 
 ---
 
@@ -375,7 +340,7 @@ unsupported version of Electron is in use.
 
 ## Other Links
 
-- A list of [officially supported platforms](https://www.electronjs.org/docs/latest/tutorial/support#supported-platforms)
+- A list of [officially supported platforms](https://github.com/electron/electron/#platform-support)
 - [Best Practices for building secure Electron applications](https://www.electronjs.org/docs/latest/)
 - [Versioning Policy](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)
 - [Release Timelines](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)

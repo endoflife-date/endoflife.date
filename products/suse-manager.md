@@ -7,8 +7,6 @@ permalink: /suse-manager
 versionCommand: zypper info SUSE-Manager-Server-release
 releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
-releaseColumn: true
-releaseDateColumn: true
 eolColumn: General Support
 
 # Release dates are documented in each release notes in the "Version revision history" paragraph.

@@ -7,10 +7,8 @@ alternate_urls:
 -   /yocto-project
 versionCommand: bitbake -e | grep '^DISTRO_VERSION\|DISTRO_CODENAME='
 releasePolicyLink: https://wiki.yoctoproject.org/wiki/Stable_Release_and_LTS
-changelogTemplate: |
-  https://docs.yoctoproject.org/migration-guides/migration-{{"__RELEASE_CYCLE__"| split: " " | first}}.html
+changelogTemplate: https://docs.yoctoproject.org/migration-guides/migration-__RELEASE_CYCLE__.html
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eolColumn: Support Status
 
 auto:
@@ -18,22 +16,26 @@ auto:
   -   git: https://github.com/yoctoproject/poky.git
       regex: '^yocto-(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
+identifiers:
+-   cpe: cpe:2.3:a:linuxfoundation:yocto
+-   cpe: cpe:/a:linuxfoundation:yocto
+
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
 -   releaseCycle: "5.1"
     codename: 'Styhead'
     releaseDate: 2024-10-16
     eol: false
-    latest: "5.1.1"
-    latestReleaseDate: 2024-12-11
+    latest: "5.1.4"
+    latestReleaseDate: 2025-04-01
 
 -   releaseCycle: "5.0"
     codename: 'Scarthgap'
     lts: true
     releaseDate: 2024-04-29
     eol: 2028-04-30
-    latest: "5.0.5"
-    latestReleaseDate: 2024-11-20
+    latest: "5.0.8"
+    latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "4.3"
     codename: 'Nanbield'
@@ -61,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.23"
-    latestReleaseDate: 2024-11-27
+    latest: "4.0.26"
+    latestReleaseDate: 2025-04-18
 
 -   releaseCycle: "3.4"
     codename: 'Honister'

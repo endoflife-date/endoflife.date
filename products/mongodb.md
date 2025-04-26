@@ -9,7 +9,6 @@ versionCommand: mongod --version
 releasePolicyLink: https://www.mongodb.com/legal/support-policy
 changelogTemplate: https://www.mongodb.com/docs/v__RELEASE_CYCLE__/release-notes/__RELEASE_CYCLE__/
 releaseLabel: "__RELEASE_CYCLE__{%if r.codename %} ({{r.codename}}){%endif%}"
-releaseDateColumn: true
 
 # MongoDB releases come in two flavors: Community and Enterprise. The versioning/releases
 # are the same for both, but the package names are different, hence the two different
@@ -48,8 +47,8 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2024-09-11
     eol: false
-    latest: '8.0.4'
-    latestReleaseDate: 2024-11-27
+    latest: '8.0.8'
+    latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "7.3"
     releaseLabel: "7.3 (Rapid Release)"
@@ -61,22 +60,22 @@ releases:
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
     releaseDate: 2023-12-14
-    eol: 2024-04-30
+    eol: 2024-03-27
     latest: '7.2.2'
     latestReleaseDate: 2024-02-28
 
 -   releaseCycle: "7.1"
     releaseLabel: "7.1 (Rapid Release)"
     releaseDate: 2023-10-04
-    eol: 2024-01-31
+    eol: 2024-01-23
     latest: '7.1.1'
     latestReleaseDate: 2023-11-16
 
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: 2026-08-31
-    latest: '7.0.16'
-    latestReleaseDate: 2024-12-10
+    latest: '7.0.19'
+    latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -88,22 +87,22 @@ releases:
 -   releaseCycle: "6.2"
     releaseLabel: "6.2 (Rapid Release)"
     releaseDate: 2023-01-19
-    eol: 2023-04-30
+    eol: 2023-04-24
     latest: '6.2.1'
     latestReleaseDate: 2023-02-28
 
 -   releaseCycle: "6.1"
     releaseLabel: "6.1 (Rapid Release)"
     releaseDate: 2022-10-04
-    eol: 2023-02-28
+    eol: 2023-02-09
     latest: '6.1.1'
     latestReleaseDate: 2023-01-03
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-31
-    latest: "6.0.20"
-    latestReleaseDate: 2024-12-20
+    latest: "6.0.22"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -115,22 +114,22 @@ releases:
 -   releaseCycle: "5.2"
     releaseLabel: "5.2 (Rapid Release)"
     releaseDate: 2022-01-13
-    eol: 2022-04-30
+    eol: 2022-03-23
     latest: '5.2.1'
     latestReleaseDate: 2022-02-17
 
 -   releaseCycle: "5.1"
     releaseLabel: "5.1 (Rapid Release)"
     releaseDate: 2021-11-04
-    eol: 2022-01-31
+    eol: 2022-01-18
     latest: '5.1.1'
     latestReleaseDate: 2021-12-01
 
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.30"
-    latestReleaseDate: 2024-11-20
+    latest: "5.0.31"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25

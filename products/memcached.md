@@ -4,7 +4,6 @@ category: database
 permalink: /memcached
 versionCommand: memcached -h
 changelogTemplate: "https://github.com/memcached/memcached/wiki/ReleaseNotes{{'__LATEST__'|replace:'.',''}}"
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:generic/memcached
@@ -25,8 +24,8 @@ releases:
 -   releaseCycle: "1.6"
     releaseDate: 2020-03-08
     eol: false
-    latest: '1.6.34'
-    latestReleaseDate: 2024-12-22
+    latest: '1.6.38'
+    latestReleaseDate: 2025-03-19
 
 -   releaseCycle: "1.5"
     releaseDate: 2017-07-21

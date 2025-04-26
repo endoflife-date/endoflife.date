@@ -11,7 +11,6 @@ versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
 
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Extended Security Updates
 
 identifiers:
@@ -29,9 +28,9 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1135.2"
     latestGdrLink: https://support.microsoft.com/help/5046861
-    latest: "16.0.4165.4 CU16"
-    latestReleaseDate: 2024-11-14
-    link: https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate16
+    latest: "16.0.4185.3 CU18"
+    latestReleaseDate: 2025-03-13
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate18
 
 -   releaseCycle: "13.0-sp3"
     codename: SQL16
@@ -54,9 +53,9 @@ releases:
     eol: 2030-01-08
     latestGdr: "15.0.2130.3"
     latestGdrLink: https://support.microsoft.com/help/5046859
-    latest: "15.0.4415.2 CU30"
-    latestReleaseDate: 2024-12-12
-    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate30
+    latest: "15.0.4430.1 CU32"
+    latestReleaseDate: 2025-02-27
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
     
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton
@@ -106,9 +105,9 @@ releases:
     eol: 2027-10-12
     latestGdr: "14.0.2070.1"
     latestGdrLink: https://support.microsoft.com/help/5046857
-    latest: "14.0.3485.1 CU31+GDR"
-    latestReleaseDate: 2024-11-14
-    # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
+    latest: "14.0.3490.10 Azure Connect Pack"
+    latestReleaseDate: 2025-03-06
+    # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
     link: https://support.microsoft.com/help/5046858 # GDR for CU31
 
 -   releaseCycle: "13.0-sp1"

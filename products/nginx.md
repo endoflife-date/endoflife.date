@@ -7,7 +7,6 @@ permalink: /nginx
 versionCommand: nginx -v
 releasePolicyLink: https://www.nginx.com/blog/nginx-1-18-1-19-released/#NGINX-Versioning-Explained
 changelogTemplate: https://nginx.org/en/CHANGES-__RELEASE_CYCLE__
-releaseDateColumn: true
 
 identifiers:
 -   repology: nginx
@@ -19,6 +18,7 @@ identifiers:
 -   purl: pkg:rpm/centos/nginx
 -   purl: pkg:apk/alpine/nginx
 -   purl: pkg:rpm/opensuse/nginx
+-   purl: pkg:github/nginx/nginx
 
 auto:
   methods:
@@ -28,18 +28,24 @@ auto:
 # eol(x) = releaseDate(x+2)
 
 releases:
+-   releaseCycle: "1.28"
+    releaseDate: 2025-04-23
+    eol: false
+    latest: "1.28.0"
+    latestReleaseDate: 2025-04-23
+
 -   releaseCycle: "1.27"
     releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.27.3"
-    latestReleaseDate: 2024-11-26
+    latest: "1.27.5"
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "1.26"
     releaseDate: 2024-04-23
-    eol: false
-    latest: "1.26.2"
-    latestReleaseDate: 2024-08-12
+    eol: 2025-04-23
+    latest: "1.26.3"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "1.25"
     releaseDate: 2023-05-23

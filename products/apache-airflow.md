@@ -9,24 +9,18 @@ alternate_urls:
 versionCommand: airflow version
 releasePolicyLink: https://github.com/apache/airflow#version-life-cycle
 changelogTemplate: "https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html#airflow-{{'__LATEST__'|replace:'.','-'}}-__LATEST_RELEASE_DATE__"
-releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Limited Support
 
 identifiers:
--   purl: pkg:pypi/apache-airflow
 -   repology: apache-airflow
+-   purl: pkg:docker/apache/airflow
 -   purl: pkg:docker/bitnami/airflow
+-   purl: pkg:docker/bitnami/airflow-exporter
 -   purl: pkg:docker/bitnami/airflow-scheduler
 -   purl: pkg:docker/bitnami/airflow-worker
--   purl: pkg:docker/bitnami/airflow-exporter
--   purl: pkg:docker/rapidfort/airflow
--   purl: pkg:docker/rapidfort/airflow-scheduler
--   purl: pkg:docker/rapidfort/airflow-worker
--   purl: pkg:docker/rapidfort/airflow-exporter
--   purl: pkg:docker/apache/airflow
--   purl: pkg:docker/chainguard/airflow
 -   purl: pkg:oci/airflow?repository_url=cgr.dev/chainguard
+-   purl: pkg:pypi/apache-airflow
 
 auto:
   methods:
@@ -44,8 +38,8 @@ releases:
     releaseDate: 2020-12-17
     eoas: false
     eol: false
-    latest: "2.10.4"
-    latestReleaseDate: 2024-12-16
+    latest: "2.10.5"
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "1.10"
     releaseDate: 2018-08-27

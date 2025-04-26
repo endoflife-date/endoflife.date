@@ -5,7 +5,6 @@ tags: amazon database
 iconSlug: amazonrds
 permalink: /amazon-rds-postgresql
 releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
-releaseDateColumn: true
 eoesColumn: Extended Support
 
 auto:
@@ -25,36 +24,36 @@ releases:
     releaseDate: 2024-11-14
     eol: 2030-02-28
     eoes: 2033-02-28
-    latest: "17.2"
-    latestReleaseDate: 2024-11-21
+    latest: "17.4"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "16"
     releaseDate: 2023-11-17
     eol: 2029-02-28
     eoes: 2032-02-29
-    latest: "16.6"
-    latestReleaseDate: 2024-11-21
+    latest: "16.8"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "15"
     releaseDate: 2023-02-27
     eol: 2028-02-29
     eoes: 2031-02-28
-    latest: "15.10"
-    latestReleaseDate: 2024-11-21
+    latest: "15.12"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "14"
     releaseDate: 2022-02-03
     eol: 2027-02-28
     eoes: 2030-02-28
-    latest: "14.15"
-    latestReleaseDate: 2024-11-21
+    latest: "14.17"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "13"
     releaseDate: 2021-02-24
     eol: 2026-02-28
     eoes: 2029-02-28
-    latest: "13.18"
-    latestReleaseDate: 2024-11-21
+    latest: "13.20"
+    latestReleaseDate: 2025-02-21
 
 -   releaseCycle: "12"
     releaseDate: 2020-03-31
@@ -83,6 +82,8 @@ releases:
     eoes: true
     # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
+
+
 
 
 

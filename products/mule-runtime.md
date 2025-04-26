@@ -11,19 +11,43 @@ alternate_urls:
 releasePolicyLink: https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes
 changelogTemplate: "https://docs.mulesoft.com/release-notes/mule-runtime/mule-{{'__LATEST__'|split:'-'|first}}-release-notes"
 eoasColumn: Standard Support
-releaseDateColumn: true
 eolColumn: Extended Support
 
 # Release dates can be found on https://docs.mulesoft.com/release-notes/mule-runtime/mule-esb.
 # Support and EOL dates can be found on https://www.mulesoft.com/legal/versioning-back-support-policy#mule-runtimes.
 releases:
+-   releaseCycle: "4.9"
+    lts: true
+    releaseDate: 2025-02-06
+    eoas: 2026-08-06
+    eol: 2027-02-06
+    latest: "4.9.2"
+    latestReleaseDate: 2025-03-15 # no exact date
+    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.9.0-release-notes
+    
+-   releaseCycle: "4.8"
+    releaseDate: 2024-10-08
+    eoas: 2025-03-08
+    eol: 2025-06-08
+    latest: "4.8.5"
+    latestReleaseDate: 2025-02-15 # no exact date
+    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.8.0-release-notes
+    
+-   releaseCycle: "4.7"
+    releaseDate: 2024-06-04
+    eoas: 2024-10-04
+    eol: 2025-02-04
+    latest: "4.7.4"
+    latestReleaseDate: 2024-10-15 # no exact date
+    link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.7.0-release-notes
+    
 -   releaseCycle: "4.6"
     lts: true
     releaseDate: 2024-02-06
-    eoas: 2025-02-06
+    eoas: 2025-08-06
     eol: 2026-02-06
-    latest: "4.6.6"
-    latestReleaseDate: 2024-08-15 # no exact date
+    latest: "4.6.14"
+    latestReleaseDate: 2025-03-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.6.0-release-notes
 
 -   releaseCycle: "4.5"

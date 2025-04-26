@@ -7,14 +7,16 @@ versionCommand: cnspec version
 releasePolicyLink: https://mondoo.com/docs/cnspec/cnspec-adv-install/update/
 changelogTemplate: https://github.com/mondoohq/cnspec/releases/tag/v__LATEST__
 eoasColumn: true
-releaseDateColumn: true
+
+identifiers:
+-   cpe: cpe:2.3:a:cnspec:cnspec
+-   repology: cnspec
+-   purl: pkg:github/mondoohq/cnspec
+-   purl: pkg:docker/mondoo/cnspec
 
 auto:
   methods:
   -   github_releases: mondoohq/cnspec
-
-identifiers:
--   cpe: cpe:2.3:a:cnspec:cnspec
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
@@ -23,8 +25,8 @@ releases:
     releaseDate: 2024-04-17
     eoas: false
     eol: false
-    latest: "11.35.0"
-    latestReleaseDate: 2024-12-17
+    latest: "11.51.2"
+    latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "10"
     releaseDate: 2024-01-23
@@ -45,7 +47,7 @@ releases:
     eoas: 2023-10-05
     eol: 2024-01-23
     latest: "8.28.4"
-    latestReleaseDate: 2023-09-19
+    latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "7"
     releaseDate: 2022-10-18

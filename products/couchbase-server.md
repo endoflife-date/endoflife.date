@@ -9,12 +9,13 @@ versionCommand: cat /opt/couchbase/VERSION.txt
 releasePolicyLink: https://www.couchbase.com/support-policy/enterprise-software/
 changelogTemplate: https://docs.couchbase.com/server/__RELEASE_CYCLE__/release-notes/relnotes.html
 eolColumn: Full Maintenance
-releaseDateColumn: true
 
 identifiers:
 -   repology: couchbase-server-community
 -   purl: pkg:docker/library/couchbase
 -   purl: pkg:docker/couchbase/server
+-   cpe: cpe:2.3:a:couchbase:couchbase_server
+-   cpe: cpe:/a:couchbase:couchbase_server
 
 auto:
   methods:
@@ -31,14 +32,14 @@ releases:
 -   releaseCycle: "7.6"
     releaseDate: 2024-03-31
     eol: 2026-07-31
-    latest: "7.6.4"
-    latestReleaseDate: 2024-12-31
+    latest: "7.6.5"
+    latestReleaseDate: 2025-01-31
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-06-01
     eol: 2026-07-31
-    latest: "7.2.6"
-    latestReleaseDate: 2024-09-30
+    latest: "7.2.7"
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "7.1"
     releaseDate: 2022-05-31

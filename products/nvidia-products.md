@@ -8,7 +8,6 @@ alternate_urls:
 -   /nvidia-products
 -   /nvidia-gpus
 releasePolicyLink: https://www.nvidia.com/en-us/geforce/graphics-cards/
-releaseDateColumn: true
 releaseColumn: false
 discontinuedColumn: true
 eoasColumn: true

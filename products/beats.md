@@ -15,7 +15,6 @@ alternate_urls:
 -   /functionbeat
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
@@ -27,18 +26,25 @@ auto:
   methods:
   -   git: https://github.com/elastic/beats.git
 
+# For EOL, see https://www.elastic.co/support/eol
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2025-04-08
+    eol: false  # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.0.0"
+    latestReleaseDate: 2025-04-08
+
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
-    eol: false  # later of 2024-08-10 or 18 months after the release date of 9.0
-    latest: "8.17.0"
-    latestReleaseDate: 2024-12-11
+    eol: 2027-07-15
+    latest: "8.18.0"
+    latestReleaseDate: 2025-04-09
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-05
-    eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.26"
-    latestReleaseDate: 2024-11-13
+    eol: 2026-01-15
+    latest: "7.17.28"
+    latestReleaseDate: 2025-02-13
 
 -   releaseCycle: "6"
     releaseDate: 2017-11-08

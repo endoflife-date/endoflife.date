@@ -7,7 +7,6 @@ permalink: /phpmyadmin
 releasePolicyLink: https://www.phpmyadmin.net/downloads/#support
 changelogTemplate: "https://github.com/phpmyadmin/phpmyadmin/blob/QA_{{'__RELEASE_CYCLE__'|replace:'.','_'}}/ChangeLog"
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:
@@ -30,8 +29,8 @@ releases:
     releaseDate: 2022-05-11
     eoas: false
     eol: false
-    latest: "5.2.1"
-    latestReleaseDate: 2023-02-07
+    latest: "5.2.2"
+    latestReleaseDate: 2025-01-20
 
 -   releaseCycle: "5.1"
     releaseDate: 2021-02-24

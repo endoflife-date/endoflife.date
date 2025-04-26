@@ -10,7 +10,6 @@ versionCommand: |-
   csi-node-driver-registrar --version
 releasePolicyLink: https://kubernetes-csi.github.io/docs/node-driver-registrar.html#supported-versions
 changelogTemplate: https://github.com/kubernetes-csi/node-driver-registrar/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 auto:

@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: bin/solr version
 releasePolicyLink: https://solr.apache.org/downloads.html#about-versions-and-support
 changelogTemplate: "https://solr.apache.org/docs/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
-releaseDateColumn: true
 
 identifiers:
 -   repology: solr
@@ -31,8 +30,8 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.7.0"
-    latestReleaseDate: 2024-09-09
+    latest: "9.8.1"
+    latestReleaseDate: 2025-03-11
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13

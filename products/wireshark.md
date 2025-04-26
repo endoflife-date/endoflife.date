@@ -8,7 +8,6 @@ releasePolicyLink: "https://wiki.wireshark.org/Development/LifeCycle"
 changelogTemplate: "https://www.wireshark.org/docs/relnotes/wireshark-__LATEST__.html"
 
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:
@@ -20,6 +19,8 @@ identifiers:
 -   repology: wireshark
 -   purl: pkg:docker/linuxserver/wireshark
 -   purl: pkg:docker/linuxserver/wireshark?repository_url=lscr.io
+-   cpe: cpe:2.3:a:wireshark:wireshark
+-   cpe: cpe:/a:wireshark:wireshark
 
 # eol(x) = eol(x.y+4) or see EOS here https://wiki.wireshark.org/Development/LifeCycle
 # eoas(x) = releaseDate(x+1)
@@ -29,15 +30,15 @@ releases:
     releaseDate: 2024-08-28
     eoas: true
     eol: false
-    latest: "4.4.2"
-    latestReleaseDate: 2024-11-20
+    latest: "4.4.6"
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-11-15
     eoas: 2024-08-28
     eol: false
-    latest: "4.2.9"
-    latestReleaseDate: 2024-11-20
+    latest: "4.2.11"
+    latestReleaseDate: 2025-02-19
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-10-04

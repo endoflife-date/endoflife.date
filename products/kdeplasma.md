@@ -9,7 +9,6 @@ versionCommand: plasmashell -v
 releasePolicyLink: https://community.kde.org/Schedules/Plasma_6
 changelogTemplate: https://kde.org/announcements/plasma/6/__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Critical bug fixes
 
 identifiers:
@@ -26,10 +25,17 @@ auto:
 
 # non-LTS: eol(x)/eoas(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "6.2"
-    releaseDate: 2024-10-08
+-   releaseCycle: "6.3"
+    releaseDate: 2025-02-11
     eoas: false
     eol: false
+    latest: "6.3.4"
+    latestReleaseDate: 2025-04-02
+
+-   releaseCycle: "6.2"
+    releaseDate: 2024-10-08
+    eoas: 2025-02-11
+    eol: 2025-02-11
     latest: "6.2.5"
     latestReleaseDate: 2024-12-31
 
@@ -52,8 +58,8 @@ releases:
     releaseDate: 2023-02-14
     eoas: false
     eol: false # Not yet announced at https://community.kde.org/Schedules/Plasma_5
-    latest: "5.27.11"
-    latestReleaseDate: 2024-03-06
+    latest: "5.27.12"
+    latestReleaseDate: 2025-01-06
     link: https://kde.org/announcements/plasma/5/__LATEST__/
 
 -   releaseCycle: "5.26"

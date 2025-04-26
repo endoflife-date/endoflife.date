@@ -6,7 +6,6 @@ iconSlug: harbor
 permalink: /harbor
 releasePolicyLink: https://github.com/goharbor/harbor/blob/main/RELEASES.md
 changelogTemplate: https://github.com/goharbor/harbor/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
@@ -56,11 +55,17 @@ auto:
 
 # eol(X) = releaseDate(X+3)
 releases:
+-   releaseCycle: "2.13"
+    releaseDate: 2025-04-09
+    eol: false
+    latest: '2.13.0'
+    latestReleaseDate: 2025-04-09
+
 -   releaseCycle: "2.12"
     releaseDate: 2024-11-05
     eol: false
-    latest: '2.12.1'
-    latestReleaseDate: 2024-12-20
+    latest: '2.12.2'
+    latestReleaseDate: 2025-01-16
 
 -   releaseCycle: "2.11"
     releaseDate: 2024-06-04
@@ -70,7 +75,7 @@ releases:
 
 -   releaseCycle: "2.10"
     releaseDate: 2023-12-14
-    eol: false
+    eol: 2025-04-09
     latest: '2.10.3'
     latestReleaseDate: 2024-07-02
 

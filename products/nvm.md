@@ -1,12 +1,11 @@
 ---
 title: nvm
 category: app
-tags: javascript herodevs
+tags: herodevs javascript-runtime
 iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm
 changelogTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Community Support
 eoesColumn: Extended Long Term Support
 
@@ -21,8 +20,8 @@ releases:
     releaseDate: 2024-07-30
     eol: false
     eoes: false
-    latest: "0.40.1"
-    latestReleaseDate: 2024-08-27
+    latest: "0.40.3"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "0.39"
     releaseDate: 2021-10-07

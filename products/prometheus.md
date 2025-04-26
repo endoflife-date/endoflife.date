@@ -5,14 +5,13 @@ iconSlug: prometheus
 permalink: /prometheus
 releasePolicyLink: https://prometheus.io/docs/introduction/release-cycle/
 changelogTemplate: https://github.com/prometheus/prometheus/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolWarnThreshold: 14
 
 identifiers:
 -   repology: prometheus
 -   purl: pkg:docker/prom/prometheus
 -   purl: pkg:docker/bitnami/prometheus
--   purl: pkg:docker/rapidfort/prometheus
+-   purl: pkg:docker/rapidfort/prometheus-official
 -   purl: pkg:docker/chainguard/prometheus
 -   purl: pkg:docker/bitnami/prometheus
 -   purl: pkg:oci/prometheus?repository_url=quay.io/repository/prometheus
@@ -35,6 +34,18 @@ auto:
 # eol(x) = releaseDate(x) + 6w (non-LTS)
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2025-04-15
+    eol: 2025-05-27
+    latest: "3.3.0"
+    latestReleaseDate: 2025-04-15
+
+-   releaseCycle: "3.2"
+    releaseDate: 2025-02-17
+    eol: 2025-03-31
+    latest: "3.2.1"
+    latestReleaseDate: 2025-02-26
+
 -   releaseCycle: "3.1"
     releaseDate: 2025-01-02
     eol: 2025-02-13
@@ -63,8 +74,8 @@ releases:
     lts: true
     releaseDate: 2024-06-16
     eol: 2025-07-31
-    latest: "2.53.3"
-    latestReleaseDate: 2024-11-05
+    latest: "2.53.4"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "2.52"
     releaseDate: 2024-05-08

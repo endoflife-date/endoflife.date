@@ -10,8 +10,8 @@ alternate_urls:
 -   /prismcentral
 versionCommand: ncli cluster version
 releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
-eoasColumn: true
-releaseDateColumn: true
+eoasColumn: End of Maintenance
+eolColumn: End of Support Life
 
 auto:
   methods:
@@ -21,17 +21,17 @@ auto:
 releases:
 -   releaseCycle: "pc.2024.3"
     releaseDate: 2024-12-05
-    eoas: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
-    eol: false # not yet announced on https://portal.nutanix.com/page/documents/eol/list?type=pc
-    latest: "pc.2024.3"
-    latestReleaseDate: 2024-12-05
+    eoas: 2026-03-31
+    eol: 2026-12-31
+    latest: "pc.2024.3.1.1"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "pc.2024.2"
     releaseDate: 2024-09-17
-    eoas: 2026-03-31
-    eol: 2026-12-31
-    latest: "pc.2024.2.0.1"
-    latestReleaseDate: 2024-12-09
+    eoas: 2026-01-31
+    eol: 2026-10-31
+    latest: "pc.2024.2.0.6"
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "pc.2024.1"
     releaseDate: 2024-05-15
@@ -42,8 +42,8 @@ releases:
 
 -   releaseCycle: "pc.2023.4"
     releaseDate: 2023-08-28
-    eoas: 2024-07-31
-    eol: 2024-10-31
+    eoas: 2024-10-31
+    eol: 2025-06-30
     latest: "pc.2023.4.0.5"
     latestReleaseDate: 2024-11-20
 
@@ -70,7 +70,7 @@ releases:
 
 -   releaseCycle: "pc.2022.6"
     releaseDate: 2022-08-03
-    eoas: 2024-06-30
+    eoas: 2024-08-31
     eol: 2025-06-30
     latest: "pc.2022.6.0.11"
     latestReleaseDate: 2024-06-05

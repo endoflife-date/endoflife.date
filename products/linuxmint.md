@@ -7,9 +7,9 @@ permalink: /linuxmint
 alternate_urls:
 -   /linux-mint
 versionCommand: cat /etc/linuxmint/info
+releaseColumn: false
 releasePolicyLink: https://linuxmint.com/download_all.php
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eoasColumn: true
 
 auto:
@@ -24,13 +24,20 @@ auto:
           regex: '^.*supported until (?P<value>\w+ \d+).*$'
 
 releases:
+-   releaseCycle: "22.1"
+    codename: Xia
+    lts: true
+    releaseDate: 2025-01-16
+    eoas: false
+    eol: 2029-04-30
+    link: https://blog.linuxmint.com/?p=4793
+
 -   releaseCycle: "22"
     codename: Wilma
     lts: true
     releaseDate: 2024-07-25
     eoas: false
     eol: 2029-04-30
-    latest: "22"
     link: https://blog.linuxmint.com/?p=4731
 
 -   releaseCycle: "21.3"
@@ -39,7 +46,6 @@ releases:
     releaseDate: 2024-01-12
     eoas: false
     eol: 2027-04-30
-    latest: "21.3"
     link: https://blog.linuxmint.com/?p=4624
 
 -   releaseCycle: "lmde6"
@@ -48,7 +54,6 @@ releases:
     releaseDate: 2023-09-27
     eoas: false
     eol: false
-    latest: "6"
     link: https://blog.linuxmint.com/?p=4570
 
 -   releaseCycle: "21.2"
@@ -57,7 +62,6 @@ releases:
     releaseDate: 2023-07-16
     eoas: false
     eol: 2027-04-30
-    latest: "21.2"
     link: https://blog.linuxmint.com/?p=4543
 
 -   releaseCycle: "21.1"
@@ -66,7 +70,6 @@ releases:
     releaseDate: 2022-12-20
     eoas: false
     eol: 2027-04-30
-    latest: "21.1"
     link: https://blog.linuxmint.com/?p=4454
 
 -   releaseCycle: "21"
@@ -75,7 +78,6 @@ releases:
     releaseDate: 2022-07-31
     eoas: false
     eol: 2027-04-30
-    latest: "21"
     link: https://blog.linuxmint.com/?p=4359
 
 -   releaseCycle: "lmde5"
@@ -84,7 +86,6 @@ releases:
     releaseDate: 2022-03-20
     eoas: false
     eol: 2024-07-01
-    latest: "5"
     link: https://blog.linuxmint.com/?p=4287
 
 -   releaseCycle: "20.3"
@@ -93,7 +94,6 @@ releases:
     releaseDate: 2022-01-07
     eoas: false
     eol: 2025-04-30
-    latest: "20.3"
     link: https://blog.linuxmint.com/?p=4220
 
 -   releaseCycle: "20.2"
@@ -102,7 +102,6 @@ releases:
     releaseDate: 2021-07-08
     eoas: false
     eol: 2025-04-30
-    latest: "20.2"
     link: https://blog.linuxmint.com/?p=4102
 
 -   releaseCycle: "20.1"
@@ -111,7 +110,6 @@ releases:
     releaseDate: 2021-01-08
     eoas: true
     eol: 2025-04-30
-    latest: "20.1"
     link: https://blog.linuxmint.com/?p=4011
 
 -   releaseCycle: "20"
@@ -120,7 +118,6 @@ releases:
     releaseDate: 2020-06-27
     eoas: true
     eol: 2025-04-30
-    latest: "20"
     link: https://blog.linuxmint.com/?p=3928
 
 -   releaseCycle: "lmde4"
@@ -128,7 +125,6 @@ releases:
     releaseDate: 2020-03-20
     eoas: 2022-08-01
     eol: 2022-08-01
-    latest: "4"
     link: https://blog.linuxmint.com/?p=3867
 
 -   releaseCycle: "19.3"
@@ -137,7 +133,6 @@ releases:
     releaseDate: 2019-12-18
     eoas: true
     eol: 2023-04-01
-    latest: "19.3"
     link: https://blog.linuxmint.com/?p=3832
 
 -   releaseCycle: "19.2"
@@ -146,7 +141,6 @@ releases:
     releaseDate: 2019-08-02
     eoas: true
     eol: 2023-04-01
-    latest: "19.2"
     link: https://blog.linuxmint.com/?p=3786
 
 -   releaseCycle: "19.1"
@@ -155,7 +149,6 @@ releases:
     releaseDate: 2018-12-19
     eoas: true
     eol: 2023-04-01
-    latest: "19.1"
     link: https://blog.linuxmint.com/?p=3669
 
 -   releaseCycle: "19"
@@ -164,7 +157,6 @@ releases:
     releaseDate: 2018-06-29
     eoas: true
     eol: 2023-04-01
-    latest: "19"
     link: https://blog.linuxmint.com/?p=3597
 
 -   releaseCycle: "18.3"
@@ -173,7 +165,6 @@ releases:
     releaseDate: 2017-11-27
     eoas: true
     eol: 2021-05-03
-    latest: "18.3"
     link: https://blog.linuxmint.com/?p=3457
 
 -   releaseCycle: "18.1"
@@ -181,7 +172,6 @@ releases:
     releaseDate: 2017-01-27
     eoas: true
     eol: 2021-04-01
-    latest: "18.1"
     link: https://blog.linuxmint.com/?p=3223
 
 ---

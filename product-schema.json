@@ -20,13 +20,13 @@
       "title": "Release policy link",
       "description": "URL to the product's release policy page.",
       "type": "string",
-      "pattern": "^https?://.+$"
+      "format": "uri"
     },
     "iconUrl": {
       "title": "Icon url",
       "description": "URL to the product icon.",
       "type": "string",
-      "format": "uri-template"
+      "format": "uri"
     },
     "category": {
       "title": "Category",
@@ -46,12 +46,12 @@
     },
     "permalink": {
       "title": "Permalink",
-      "description": "The URL to this product. Must start with a slash.",
+      "description": "The URL to this product within the endoflife.date website. Must start with a slash.",
       "examples": [
         "/foo",
         "/bar"
       ],
-      "$ref": "#/$defs/link"
+      "$ref": "#/$defs/slug"
     },
     "tags": {
       "title": "Tags",
@@ -64,10 +64,10 @@
     },
     "alternate_urls": {
       "title": "Alternate URLs",
-      "description": "Array of alternate urls for this product. Must start with a slash.",
+      "description": "Array of alternate urls for this product within the endoflife.date website. Must start with a slash.",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/link"
+        "$ref": "#/$defs/slug"
       }
     },
     "auto": {
@@ -124,7 +124,17 @@
         }
       ]
     },
-    "link": {
+    "boolOrString": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    "slug": {
       "type": "string",
       "pattern": "^/"
     },
@@ -176,13 +186,14 @@
         },
         "description": {
           "title": "Description",
-          "description": "A description of what contains the custom column.",
+          "description": "A description of what the custom column contains.",
           "type": "string"
         },
         "link": {
           "title": "Link",
-          "description": "A link that gives more information about what contains the custom column.",
-          "type": "string"
+          "description": "A link that gives more information about what the custom column contains.",
+          "type": "string",
+          "format": "uri-template"
         }
       },
       "required": [
@@ -321,7 +332,7 @@
           "properties": {
             "pypi": {
               "title": "Pypi",
-              "description": "Package name on pypi.",
+              "description": "Package name on PyPI.",
               "type": "string"
             },
             "regex": {
@@ -344,7 +355,7 @@
           "properties": {
             "maven": {
               "title": "Maven",
-              "description": "Package name on maven.",
+              "description": "Package name on Maven.",
               "type": "string"
             },
             "regex": {
@@ -401,11 +412,11 @@
         },
         "link": {
           "title": "Link",
-          "description": "Link to changelog for the latest release.",
+          "description": "Link to changelog for the latest release in this cycle, or null if unavailable.",
           "oneOf": [
             {
               "type": "string",
-              "pattern": "[^ ]+"
+              "format": "uri"
             },
             {
               "type": "null"
@@ -414,70 +425,68 @@
         },
         "releaseLabel": {
           "title": "Release label",
-          "description": "The human readable name of this release.",
+          "description": "The human-readable name of this release.",
           "type": "string"
         },
         "eolColumn": {
           "title": "EOL column",
-          "description": "Name of the EOL column or `false` to disable the column.",
+          "description": "Whether to show the EOL column, or a custom name for it.",
           "examples": [
             "General Support",
             false
           ],
-          "oneOf": [
-            {
-              "const": false
-            },
-            {
-              "type": "string"
-            }
-          ]
+          "$ref": "#/$defs/boolOrString"
         },
         "eol": {
-          "title": "EOL",
-          "description": "Date in the format `yyyy-mm-dd` or `false` if not available.",
+          "title": "End of Life (EOL)",
+          "description": "End of all support, including security support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "eoasColumn": {
-          "title": "Active support column",
-          "description": "Name of the active support column or `false` to disable the column.",
-          "type": "boolean"
+          "title": "End of active support (EOAS) column",
+          "description": "Whether to show the end of active support column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "eoas": {
+          "title": "End of active support (EOAS)",
+          "description": "End of active support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "eoesColumn": {
-          "title": "Extended support column",
-          "description": "Name of the extended support column or `false` to disable the column.",
-          "type": "boolean"
+          "title": "End of extended support column",
+          "description": "Whether to show the end of extended support column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "eoes": {
+          "title": "End of extended support (EOES)",
+          "description": "End of extended support. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "discontinuedColumn": {
           "title": "Discontinued column",
-          "description": "Name of the discontinued column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the discontinued column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "discontinued": {
           "title": "Discontinued",
-          "description": "Whether this cycle is now discontinued.",
+          "description": "Whether this device version is no longer in production. Date in the `yyyy-mm-dd` format, or `false` if not determined.",
           "$ref": "#/$defs/boolOrDate"
         },
         "releaseDateColumn": {
           "title": "Release date column",
-          "description": "Name of the release date column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the release date column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "releaseDate": {
           "title": "Release date",
-          "description": "Release Date for the first release in this cycle.",
-          "$ref": "#/$defs/boolOrDate"
+          "description": "Release date for the first release in this cycle.",
+          "type": "string",
+          "format": "date"
         },
         "releaseColumn": {
           "title": "Release column",
-          "description": "Name of the release column or `false` to disable the column.",
-          "type": "boolean"
+          "description": "Whether to show the release column, or a custom name for it.",
+          "$ref": "#/$defs/boolOrString"
         },
         "latest": {
           "title": "Latest release",
@@ -494,14 +503,14 @@
       "allOf": [
         {
           "if": {
+            "required": [
+              "eolColumn"
+            ],
             "properties": {
               "eolColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eolColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -511,14 +520,14 @@
         },
         {
           "if": {
+            "required": [
+              "eoasColumn"
+            ],
             "properties": {
               "eoasColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eoasColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -528,14 +537,14 @@
         },
         {
           "if": {
+            "required": [
+              "eoesColumn"
+            ],
             "properties": {
               "eoesColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "eoesColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -545,14 +554,14 @@
         },
         {
           "if": {
+            "required": [
+              "discontinuedColumn"
+            ],
             "properties": {
               "discontinuedColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "discontinuedColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -562,14 +571,14 @@
         },
         {
           "if": {
+            "required": [
+              "releaseDateColumn"
+            ],
             "properties": {
               "releaseDateColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "releaseDateColumn"
-            ]
+            }
           },
           "then": {
             "required": [
@@ -579,14 +588,14 @@
         },
         {
           "if": {
+            "required": [
+              "releaseColumn"
+            ],
             "properties": {
               "releaseColumn": {
                 "type": "string"
               }
-            },
-            "required": [
-              "releaseColumn"
-            ]
+            }
           },
           "then": {
             "required": [

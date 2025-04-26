@@ -11,6 +11,8 @@ identifiers:
 -   repology: varnish
 -   purl: pkg:brew/varnish
 -   purl: pkg:docker/library/varnish
+-   cpe: cpe:2.3:a:varnish_cache_project:varnish_cache
+-   cpe: cpe:/a:varnish_cache_project:varnish_cache
 
 auto:
   methods:
@@ -25,11 +27,17 @@ auto:
         eol: "EOL Date"
 
 releases:
+-   releaseCycle: "7.7"
+    releaseDate: 2025-03-17
+    eol: 2026-03-15
+    latest: '7.7.0'
+    latestReleaseDate: 2025-03-18
+
 -   releaseCycle: "7.6"
     releaseDate: 2024-09-13
     eol: 2025-09-15
-    latest: '7.6.1'
-    latestReleaseDate: 2024-11-08
+    latest: '7.6.2'
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "7.5"
     releaseDate: 2024-03-18

@@ -8,9 +8,11 @@ alternate_urls:
 -   /dbt
 releasePolicyLink: https://docs.getdbt.com/docs/dbt-versions/core
 changelogTemplate: https://github.com/dbt-labs/dbt-core/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: Active Support
 eolColumn: Critical Support
+
+identifiers:
+-   repology: dbt-core
 
 auto:
   methods:
@@ -24,8 +26,8 @@ releases:
     releaseDate: 2024-12-09
     eoas: false
     eol: 2025-12-09
-    latest: "1.9.1"
-    latestReleaseDate: 2024-12-16
+    latest: "1.9.4"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "1.8"
     releaseDate: 2024-05-09

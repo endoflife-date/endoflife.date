@@ -8,8 +8,7 @@ alternate_urls:
 -   /corretto
 versionCommand: java -version
 releasePolicyLink: https://aws.amazon.com/corretto/faqs/
-changelogTemplate: "https://github.com/corretto/corretto-{{'__LATEST__'|split:'.'|first}}/blob/release-__LATEST__/CHANGELOG.md"
-releaseDateColumn: true
+changelogTemplate: https://github.com/corretto/corretto-__RELEASE_CYCLE__/releases/tag/__LATEST__
 
 identifiers:
 -   cpe: cpe:/a:amazon:corretto
@@ -49,42 +48,52 @@ auto:
   -   github_releases: corretto/corretto-23
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
-  -   release_table: https://aws.amazon.com/corretto/faqs/
-      selector: "table"
-      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
-      rows_selector: "tr"
-      fields:
-        releaseCycle: "Corretto Release"
-        releaseDate:
-          column: "GA Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
-        eol: "End of Life"
-  -   release_table: https://aws.amazon.com/corretto/faqs/
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
-      rows_selector: "tr"
-      fields:
-        releaseCycle: "Corretto Release"
-        releaseDate:
-          column: "GA Date"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
-        eol:
-          column: "End of Life"
-          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
-          template: "{{month}} {{day}} {{year}}"
+  -   github_releases: corretto/corretto-24
+      regex: '^(?P<version>[\d\.]+)$'
+      template: '{{version}}'
+# Disabled for now : support calendar is not provided anymore by Amazon on those pages.
+#  -   release_table: https://aws.amazon.com/corretto/faqs/
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(2)" # for Support Calendar table
+#      rows_selector: "tr"
+#      fields:
+#        releaseCycle: "Corretto Release"
+#        releaseDate:
+#          column: "GA Date"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
+#        eol: "End of Life"
+#  -   release_table: https://aws.amazon.com/corretto/faqs/
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(1)" # for Expired Versions table
+#      rows_selector: "tr"
+#      fields:
+#        releaseCycle: "Corretto Release"
+#        releaseDate:
+#          column: "GA Date"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
+#        eol:
+#          column: "End of Life"
+#          regex: '^(?P<month>\w+) (?P<day>\d+)(st|nd|rd|th)?,? (?P<year>\d{4}).*$'
+#          template: "{{month}} {{day}} {{year}}"
 
 # Do not forget to update the "auto" configuration on each new major release.
 releases:
+-   releaseCycle: "24"
+    # First non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
+    releaseDate: 2025-03-18
+    eol: 2025-10-31
+    latest: "24.0.1.9.1"
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
     # Official release was on September : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
     releaseDate: 2024-09-17
     eol: 2025-04-30
-    latest: "23.0.1.8.1"
-    latestReleaseDate: 2024-10-16
-    link: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
+    latest: "23.0.2.7.1"
+    latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "22"
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
@@ -98,37 +107,37 @@ releases:
     lts: true
     # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
     # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
-    releaseDate: 2023-09-21
+    releaseDate: 2023-08-25
     eol: 2030-10-31
-    latest: "21.0.5.11.1"
-    latestReleaseDate: 2024-10-16
+    latest: "21.0.7.6.1"
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
     # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
-    releaseDate: 2023-03-21
+    releaseDate: 2023-02-23
     eol: 2023-10-17
     latest: "20.0.2.10.1"
     latestReleaseDate: 2023-08-23
 
 -   releaseCycle: "19"
-    releaseDate: 2022-09-20
+    releaseDate: 2022-08-17
     eol: 2023-04-19
     latest: "19.0.2.7.1"
     latestReleaseDate: 2023-01-17
 
 -   releaseCycle: "18"
-    releaseDate: 2022-03-22
+    releaseDate: 2022-02-26
     eol: 2022-10-18
     latest: "18.0.2.9.1"
     latestReleaseDate: 2022-07-19
 
 -   releaseCycle: "17"
     lts: true
-    releaseDate: 2021-09-16
+    releaseDate: 2021-08-24
     eol: 2029-10-31
-    latest: "17.0.13.11.1"
-    latestReleaseDate: 2024-10-16
+    latest: "17.0.15.6.1"
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-16
@@ -138,7 +147,7 @@ releases:
     link: https://github.com/corretto/corretto-jdk/blob/release-__LATEST__/CHANGELOG.md
 
 -   releaseCycle: "15"
-    releaseDate: 2020-09-24
+    releaseDate: 2020-08-26
     eol: 2021-04-20
     latest: "15.0.2.7.1"
     latestReleaseDate: 2021-01-22
@@ -146,18 +155,18 @@ releases:
 
 -   releaseCycle: "11"
     lts: true
-    releaseDate: 2019-03-15
+    releaseDate: 2019-02-18
     eol: 2032-01-31
-    latest: "11.0.25.9.1"
-    latestReleaseDate: 2024-10-16
+    latest: "11.0.27.6.1"
+    latestReleaseDate: 2025-04-15
 
 # Note that the first release was 8.202.08.2.
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2019-01-31
     eol: 2030-12-31
-    latest: "8.432.06.1"
-    latestReleaseDate: 2024-10-16
+    latest: "8.452.09.1"
+    latestReleaseDate: 2025-04-15
 
 ---
 

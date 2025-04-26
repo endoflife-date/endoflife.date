@@ -11,7 +11,6 @@ versionCommand: php bin/cake.php version
 releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: cakephp
@@ -24,33 +23,52 @@ auto:
   methods:
   -   git: https://github.com/cakephp/cakephp.git
 
-# support(X) = releaseDate(X+1) + 1 day
+# eoas(x) = releaseDate(x+1) + 1 day
 # For a given major version, the last three minor versions have security support.
-# Do not forget to document the codename in the product's description when adding a new major version. (Codename only changes per major version release)
+# Do not forget to document the codename in the product's description when adding a new major version (codename only changes per major version release).
+# See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 releases:
+-   releaseCycle: "5.2"
+    codename: "Chiffon"
+    releaseDate: 2025-03-29
+    supportedPhpVersions: 8.1+
+    eoas: false
+    eol: false
+    latest: "5.2.3"
+    latestReleaseDate: 2025-04-23
+
+-   releaseCycle: "4.6"
+    codename: "Strawberry"
+    releaseDate: 2025-03-22
+    supportedPhpVersions: 7.4+
+    eoas: 2025-09-09
+    eol: 2026-09-09
+    latest: "4.6.0"
+    latestReleaseDate: 2025-03-22
+
 -   releaseCycle: "5.1"
     codename: "Chiffon"
     releaseDate: 2024-09-13
     supportedPhpVersions: 8.1+
-    eoas: false
+    eoas: 2025-03-30
     eol: false
-    latest: "5.1.4"
-    latestReleaseDate: 2024-12-12
+    latest: "5.1.6"
+    latestReleaseDate: 2025-02-23
 
 -   releaseCycle: "4.5"
     codename: "Strawberry"
     releaseDate: 2023-10-14
     supportedPhpVersions: 7.4+
-    eoas: 2025-09-09
+    eoas: 2025-03-23
     eol: 2026-09-09
-    latest: "4.5.8"
-    latestReleaseDate: 2024-11-24
+    latest: "4.5.10"
+    latestReleaseDate: 2025-03-21
 
 -   releaseCycle: "5.0"
     codename: "Chiffon"
     releaseDate: 2023-09-09
     supportedPhpVersions: 8.1+
-    eoas: false
+    eoas: 2024-09-14
     eol: false
     latest: "5.0.11"
     latestReleaseDate: 2024-09-12

@@ -6,7 +6,6 @@ permalink: /centreon
 releasePolicyLink: https://docs.centreon.com/docs/releases/lifecycle/
 releaseImage: https://docs.centreon.com/assets/images/lifecycle-from-24.10-de6e3693d62648fbe4760ab65fa21015.png
 changelogTemplate: "https://docs.centreon.com/docs/__RELEASE_CYCLE__/releases/centreon-os/#{{'__LATEST__'|replace:'.',''}}"
-releaseDateColumn: true
 eoasColumn: Phase 1 support
 eolColumn: Phase 2 support
 
@@ -33,37 +32,37 @@ releases:
     lts: 2027-10-31
     eoas: 2025-10-31
     eol: 2027-10-31
-    latest: '24.10.3'
-    latestReleaseDate: 2024-12-19
+    latest: '24.10.7'
+    latestReleaseDate: 2025-04-22
     link: https://docs.centreon.com/docs/releases/centreon-os/
 
 -   releaseCycle: '24.04'
     releaseDate: 2024-04-22
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '24.04.9'
-    latestReleaseDate: 2024-12-19
+    latest: '24.04.12'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: '23.10'
     releaseDate: 2023-10-30
     eoas: 2024-10-31
     eol: 2025-10-31
-    latest: '23.10.18'
-    latestReleaseDate: 2024-11-21
+    latest: '23.10.23'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: '23.04'
     releaseDate: 2023-04-26
     eoas: 2024-04-30
     eol: 2025-04-30
-    latest: '23.04.23'
-    latestReleaseDate: 2024-11-21
+    latest: '23.04.28'
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: '22.10'
     releaseDate: 2022-10-26
     eoas: 2023-10-31
     eol: 2024-10-31
-    latest: '22.10.26'
-    latestReleaseDate: 2024-11-21
+    latest: '22.10.30'
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: '22.04'
     releaseDate: 2022-05-18
@@ -81,7 +80,7 @@ releases:
     latestReleaseDate: 2023-11-17
     link: https://archives-docs.centreon.com/21.10/docs/releases/centreon-core/#211017
 
-# 21.04 and lower were supported for 18 months (eoas(x) = eol(x) - 1 year).
+# 21.04 and older were supported for 18 months (eoas(x) = eol(x) - 1 year).
 -   releaseCycle: '21.04'
     releaseDate: 2021-04-21
     eoas: 2021-10-31

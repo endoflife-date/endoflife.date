@@ -17,6 +17,10 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
 
+# Silence Saas deprecation warnings, to be removed after this is fixed in just-the-docs
+sass:
+  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
 
 # just-the-docs settings, see https://just-the-docs.com/
 theme: just-the-docs
@@ -52,6 +56,9 @@ callouts:
   note:
     title: Note
     color: blue
+  commandInfo:
+    title: To learn the current version on your system
+    color: grey-dk
 
 
 # jekyll-timeago plugin configuration, see https://github.com/markets/jekyll-timeago
@@ -83,7 +90,7 @@ defaults:
       auto: []
       releaseColumn: true
       releaseColumnLabel: 'Latest'
-      releaseDateColumn: false
+      releaseDateColumn: true
       releaseDateColumnLabel: 'Released'
       discontinuedColumn: false
       discontinuedColumnLabel: 'Discontinued'
@@ -123,4 +130,3 @@ exclude:
   - README.md
   - requirements.txt
   - runtime.txt
-  - product-schema.json

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://bell-sw.com/support/
 changelogTemplate: "https://docs.bell-sw.com/liberica-jdk/{{'__LATEST__'|replace:'+','b'}}/general/release-notes/"
-releaseDateColumn: true
 eolColumn: Public support
 eoesColumn: Commercial support
 
@@ -41,7 +40,6 @@ identifiers:
 -   repology: liberica-jdk-17-full
 -   repology: liberica-jdk-21-full
 -   repology: liberica-jdk-8-full
--   repology: liberica-jdk-8-bin
 -   repology: liberica-jdk-full
 -   repology: liberica-jre-11
 # These are undefined TYPEs in the PURL spec
@@ -125,211 +123,17 @@ identifiers:
 -   purl: pkg:chocolatey/libericajdklite
 -   purl: pkg:chocolatey/libericajre
 -   purl: pkg:chocolatey/libericajrefull
-# Listings from the official brew tap
-# Based on the proposed brew PURL type: https://github.com/package-url/purl-spec/pull/281
-# Mac packages
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk23?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk23-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk23-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre23?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre23-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk22?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk22-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk22-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre22?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre22-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk21?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk21-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk21-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre21?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre21-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk20?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk20-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk20-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre20?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre20-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk19?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk19-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk19-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre19?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre19-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk18?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk18-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk18-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre18?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre18-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk17?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk17-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk17-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre17?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre17-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk16?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk16-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk16-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre16?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre16-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk15?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk15-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk15-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre15?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre15-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk14?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk14-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk14-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre14?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre14-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk13?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk13-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk13-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre13?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre13-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk12?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk12-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk11?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk11-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk11-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre11?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre11-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk8?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk8-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre8?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jre8-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
-# linuxbrew packages
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4023-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4022-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4021?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4021-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4021-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4020?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4020-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4020-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk19?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4019-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4019-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4018?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4018-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4018-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4017?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4017-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4017-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4016?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4016-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4016-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4015?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4015-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4015-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4014?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4014-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4014-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4013?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4013-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4013-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4012?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4011?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4011-lite?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%4011-full?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk?tap_url=https://github.com/bell-sw/homebrew-liberica.git
--   purl: pkg:brew/bell-sw/liberica/liberica-jdk%408?tap_url=https://github.com/bell-sw/homebrew-liberica.git
 
 # Repology lists them all, but they're unlinked.
 -   purl: pkg:winget/BellSoft.LibericaJDK.8
--   purl: pkg:winget/BellSoft.LibericaJDK.8.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.11
--   purl: pkg:winget/BellSoft.LibericaJDK.11.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.14
--   purl: pkg:winget/BellSoft.LibericaJDK.14.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.15
--   purl: pkg:winget/BellSoft.LibericaJDK.15.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.16
--   purl: pkg:winget/BellSoft.LibericaJDK.16.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.17
--   purl: pkg:winget/BellSoft.LibericaJDK.17.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.18
--   purl: pkg:winget/BellSoft.LibericaJDK.18.Full
 -   purl: pkg:winget/BellSoft.LibericaJDK.19
--   purl: pkg:winget/BellSoft.LibericaJDK.19.Full
--   purl: pkg:winget/BellSoft.LibericaJDK.20
--   purl: pkg:winget/BellSoft.LibericaJDK.20.Full
--   purl: pkg:winget/BellSoft.LibericaJDK.21
--   purl: pkg:winget/BellSoft.LibericaJDK.21.Full
--   purl: pkg:winget/BellSoft.LibericaJDK.22
--   purl: pkg:winget/BellSoft.LibericaJDK.22.Full
--   purl: pkg:winget/BellSoft.LibericaJDK.23
--   purl: pkg:winget/BellSoft.LibericaJDK.23.Full
 
-# It is unclear if "debian" is the right namespace to use here: https://github.com/package-url/purl-spec/issues/307
-# And repository_url format is unspecified, so we skip it
--   purl: pkg:deb/debian/bellsoft-java11-full
--   purl: pkg:deb/debian/bellsoft-java11-lite
--   purl: pkg:deb/debian/bellsoft-java11-runtime-full
--   purl: pkg:deb/debian/bellsoft-java11-runtime
--   purl: pkg:deb/debian/bellsoft-java11
--   purl: pkg:deb/debian/bellsoft-java12-lite
--   purl: pkg:deb/debian/bellsoft-java12
--   purl: pkg:deb/debian/bellsoft-java13-full
--   purl: pkg:deb/debian/bellsoft-java13-lite
--   purl: pkg:deb/debian/bellsoft-java13-runtime-full
--   purl: pkg:deb/debian/bellsoft-java13-runtime
--   purl: pkg:deb/debian/bellsoft-java13
--   purl: pkg:deb/debian/bellsoft-java14-full
--   purl: pkg:deb/debian/bellsoft-java14-lite
--   purl: pkg:deb/debian/bellsoft-java14-runtime-full
--   purl: pkg:deb/debian/bellsoft-java14-runtime
--   purl: pkg:deb/debian/bellsoft-java14
--   purl: pkg:deb/debian/bellsoft-java15-full
--   purl: pkg:deb/debian/bellsoft-java15-lite
--   purl: pkg:deb/debian/bellsoft-java15-runtime-full
--   purl: pkg:deb/debian/bellsoft-java15-runtime
--   purl: pkg:deb/debian/bellsoft-java15
--   purl: pkg:deb/debian/bellsoft-java16-full
--   purl: pkg:deb/debian/bellsoft-java16-lite
--   purl: pkg:deb/debian/bellsoft-java16-runtime-full
--   purl: pkg:deb/debian/bellsoft-java16-runtime
--   purl: pkg:deb/debian/bellsoft-java16
--   purl: pkg:deb/debian/bellsoft-java17-full
--   purl: pkg:deb/debian/bellsoft-java17-lite
--   purl: pkg:deb/debian/bellsoft-java17-runtime-full
--   purl: pkg:deb/debian/bellsoft-java17-runtime
--   purl: pkg:deb/debian/bellsoft-java17
--   purl: pkg:deb/debian/bellsoft-java18-full
--   purl: pkg:deb/debian/bellsoft-java18-lite
--   purl: pkg:deb/debian/bellsoft-java18-runtime-full
--   purl: pkg:deb/debian/bellsoft-java18-runtime
--   purl: pkg:deb/debian/bellsoft-java18
--   purl: pkg:deb/debian/bellsoft-java19-full
--   purl: pkg:deb/debian/bellsoft-java19-lite
--   purl: pkg:deb/debian/bellsoft-java19-runtime-full
--   purl: pkg:deb/debian/bellsoft-java19-runtime
--   purl: pkg:deb/debian/bellsoft-java19
--   purl: pkg:deb/debian/bellsoft-java20-full
--   purl: pkg:deb/debian/bellsoft-java20-lite
--   purl: pkg:deb/debian/bellsoft-java20-runtime-full
--   purl: pkg:deb/debian/bellsoft-java20-runtime
--   purl: pkg:deb/debian/bellsoft-java20
--   purl: pkg:deb/debian/bellsoft-java21-full
--   purl: pkg:deb/debian/bellsoft-java21-lite
--   purl: pkg:deb/debian/bellsoft-java21-runtime-full
--   purl: pkg:deb/debian/bellsoft-java21-runtime
--   purl: pkg:deb/debian/bellsoft-java21
--   purl: pkg:deb/debian/bellsoft-java22-full
--   purl: pkg:deb/debian/bellsoft-java22-lite
--   purl: pkg:deb/debian/bellsoft-java22-runtime-full
--   purl: pkg:deb/debian/bellsoft-java22-runtime
--   purl: pkg:deb/debian/bellsoft-java22
--   purl: pkg:deb/debian/bellsoft-java23-full
--   purl: pkg:deb/debian/bellsoft-java23-lite
--   purl: pkg:deb/debian/bellsoft-java23-runtime-full
--   purl: pkg:deb/debian/bellsoft-java23-runtime
--   purl: pkg:deb/debian/bellsoft-java23
--   purl: pkg:deb/debian/bellsoft-java8-full
--   purl: pkg:deb/debian/bellsoft-java8-lite
--   purl: pkg:deb/debian/bellsoft-java8-runtime-full
--   purl: pkg:deb/debian/bellsoft-java8-runtime
--   purl: pkg:deb/debian/bellsoft-java8
 # Alpine Packages, listed using the following command:
 # curl --silent https://apk.bell-sw.com/main/x86_64/APKINDEX.tar.gz | tar --to-stdout -xzv APKINDEX |grep P:|sort -u
 -   purl: pkg:apk/alpine/bellsoft-java11?repository_url=https://apk.bell-sw.com/main
@@ -458,11 +262,17 @@ auto:
 # EOL dates because they are the most conservative (see https://en.wikipedia.org/wiki/Java_version_history).
 # Extended support dates can be found on https://bell-sw.com/support/.
 releases:
+-   releaseCycle: "24"
+    releaseDate: 2025-03-19
+    eol: 2025-09-16
+    latest: "24.0.1+11"
+    latestReleaseDate: 2025-04-16
+
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-18
-    latest: "23.0.1+13"
-    latestReleaseDate: 2024-10-16
+    latest: "23.0.2+9"
+    latestReleaseDate: 2025-01-23
 
 -   releaseCycle: "22"
     releaseDate: 2024-03-20
@@ -475,8 +285,8 @@ releases:
     releaseDate: 2023-09-20
     eol: false # Temurin EOL date not yet announced
     eoes: 2032-03-31
-    latest: "21.0.5+12"
-    latestReleaseDate: 2024-10-16
+    latest: "21.0.7+11"
+    latestReleaseDate: 2025-04-24
     link: https://docs.bell-sw.com/liberica-jdk/21.0.2b14/general/release-notes/ # no link yet for 21.0.2+15
 
 -   releaseCycle: "20"
@@ -503,8 +313,8 @@ releases:
     releaseDate: 2021-09-17
     eol: 2027-10-31
     eoes: 2030-03-31
-    latest: "17.0.13+13"
-    latestReleaseDate: 2024-10-16
+    latest: "17.0.15+12"
+    latestReleaseDate: 2025-04-24
     link: https://docs.bell-sw.com/liberica-jdk/17.0.10b13/general/release-notes/ # no link yet for 17.0.10+14
 
 -   releaseCycle: "16"
@@ -544,8 +354,8 @@ releases:
     releaseDate: 2018-10-08
     eol: 2024-10-31
     eoes: 2027-03-31
-    latest: "11.0.25+11"
-    latestReleaseDate: 2024-10-16
+    latest: "11.0.27+9"
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "10"
     # This is an approximation from Oracle JDK release date
@@ -562,8 +372,8 @@ releases:
     releaseDate: 2014-03-18
     eol: 2026-11-30
     eoes: 2031-03-31
-    latest: "8u432+7"
-    latestReleaseDate: 2024-10-16
+    latest: "8u452+11"
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "7"
     lts: true

@@ -1,7 +1,6 @@
 ---
 title: Forgejo
 category: server-app
-tags: git
 iconSlug: forgejo
 permalink: /forgejo
 versionCommand: forgejo --version
@@ -26,9 +25,22 @@ identifiers:
 -   repology: forgejo
 
 releases:
+-   releaseCycle: "11.0"
+    lts: true
+    releaseDate: 2025-04-16
+    eol: 2026-07-15
+    latest: "11.0.0"
+    latestReleaseDate: 2025-04-16
+
+-   releaseCycle: "10.0"
+    releaseDate: 2025-01-16
+    eol: 2025-04-16
+    latest: "10.0.3"
+    latestReleaseDate: 2025-03-22
+
 -   releaseCycle: "9.0"
     releaseDate: 2024-10-16
-    eol: 2025-01-15
+    eol: 2025-01-16
     latest: "9.0.3"
     latestReleaseDate: 2024-12-12
 
@@ -42,8 +54,8 @@ releases:
     lts: true
     releaseDate: 2024-04-23
     eol: 2025-07-16
-    latest: "7.0.12"
-    latestReleaseDate: 2024-12-12
+    latest: "7.0.14"
+    latestReleaseDate: 2025-03-15
 
 ---
 

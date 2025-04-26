@@ -6,7 +6,6 @@ permalink: /keda
 releasePolicyLink: https://github.com/kedacore/keda?tab=security-ov-file#readme
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
-releaseDateColumn: true
 
 auto:
   methods:
@@ -18,8 +17,16 @@ identifiers:
 -   purl: pkg:oci/keda-metrics-apiserver?repository_url=ghcr.io/kedacore
 -   purl: pkg:oci/keda?repository_url=ghcr.io/kedacore
 
-# Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md.
+# Upcoming release date can be found at https://github.com/kedacore/keda/blob/main/ROADMAP.md
+# For supportedKubernetesVersions: https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility
 releases:
+-   releaseCycle: "2.17"
+    releaseDate: 2025-04-07
+    eol: 2025-04-30 # estimated releaseDate(2.19)
+    supportedKubernetesVersions: 1.30 - 1.32
+    latest: "2.17.0"
+    latestReleaseDate: 2025-04-07
+
 -   releaseCycle: "2.16"
     releaseDate: 2024-11-07
     eol: 2025-04-30 # estimated releaseDate(2.18)
@@ -29,7 +36,7 @@ releases:
 
 -   releaseCycle: "2.15"
     releaseDate: 2024-08-01
-    eol: 2025-01-30 # estimated releaseDate(2.17)
+    eol: 2025-04-07
     supportedKubernetesVersions: 1.28 - 1.30
     latest: "2.15.1"
     latestReleaseDate: 2024-08-12

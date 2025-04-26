@@ -1,6 +1,6 @@
 ---
 title: Apache Lucene
-category: library
+category: framework
 tags: apache java-runtime
 iconSlug: apache
 permalink: /apache-lucene
@@ -8,7 +8,6 @@ alternate_urls:
 -   /lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
-releaseDateColumn: true
 
 auto:
   methods:
@@ -18,8 +17,8 @@ releases:
 -   releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
-    latest: "10.1.0"
-    latestReleaseDate: 2024-12-20
+    latest: "10.2.0"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "9"
     releaseDate: 2021-12-07

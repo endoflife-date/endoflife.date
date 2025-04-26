@@ -11,7 +11,6 @@ alternate_urls:
 -   /ror
 releasePolicyLink: https://rubyonrails.org/maintenance
 changelogTemplate: https://github.com/rails/rails/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Security Support
 eoasColumn: Active Support
 
@@ -30,8 +29,8 @@ releases:
     releaseDate: 2024-11-07
     eoas: 2025-11-07
     eol: 2026-11-07
-    latest: "8.0.1"
-    latestReleaseDate: 2024-12-13
+    latest: "8.0.2"
+    latestReleaseDate: 2025-03-12
 
 -   releaseCycle: "7.2"
     releaseDate: 2024-08-09

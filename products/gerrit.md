@@ -7,10 +7,10 @@ versionCommand: "java -jar gerrit.war version"
 releasePolicyLink: https://www.gerritcodereview.com/support.html
 changelogTemplate: https://www.gerritcodereview.com/__RELEASE_CYCLE__.html#{{"__LATEST__"| replace:'.',''}}
 eolColumn: "Support"
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:docker/gerritcodereview/gerrit
+-   repology: gerrit
 
 auto:
   methods:
@@ -21,20 +21,20 @@ releases:
 -   releaseCycle: "3.11"
     releaseDate: 2024-12-02
     eol: false
-    latest: "3.11.0"
-    latestReleaseDate: 2024-12-02
-    
+    latest: "3.11.2"
+    latestReleaseDate: 2025-03-31
+
 -   releaseCycle: "3.10"
     releaseDate: 2024-05-17
     eol: false
-    latest: "3.10.3"
-    latestReleaseDate: 2024-11-26
+    latest: "3.10.5"
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "3.9"
     releaseDate: 2023-11-25
     eol: false
-    latest: "3.9.8"
-    latestReleaseDate: 2024-11-26
+    latest: "3.9.10"
+    latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "3.8"
     releaseDate: 2023-05-19

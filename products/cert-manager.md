@@ -10,30 +10,34 @@ versionCommand: |-
   cmctl version
 releasePolicyLink: https://cert-manager.io/docs/releases/
 changelogTemplate: https://github.com/cert-manager/cert-manager/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
+
+identifiers:
+-   repology: cert-manager
 
 auto:
   methods:
   -   git: https://github.com/cert-manager/cert-manager.git
 
-identifiers:
--   repology: cert-manager
--   purl: pkg:docker/cert-manager/cert-manager
-
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "1.17"
+    releaseDate: 2025-02-03
+    eol: false
+    latest: "1.17.2"
+    latestReleaseDate: 2025-04-24
+
 -   releaseCycle: "1.16"
     releaseDate: 2024-10-03
     eol: false
-    latest: "1.16.2"
-    latestReleaseDate: 2024-11-20
+    latest: "1.16.5"
+    latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "1.15"
     releaseDate: 2024-06-05
-    eol: false
-    latest: "1.15.4"
-    latestReleaseDate: 2024-11-19
+    eol: 2025-02-03
+    latest: "1.15.5"
+    latestReleaseDate: 2025-01-15
 
 -   releaseCycle: "1.14"
     releaseDate: 2024-01-31
@@ -51,8 +55,8 @@ releases:
     releaseDate: 2023-05-19
     eol: 2025-05-19
     lts: true
-    latest: "1.12.14"
-    latestReleaseDate: 2024-11-18
+    latest: "1.12.16"
+    latestReleaseDate: 2025-02-14
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-01-11
@@ -65,7 +69,7 @@ releases:
 > [cert-manager](https://cert-manager.io) is a powerful and extensible X.509 certificate controller
 > for Kubernetes and OpenShift workloads
 
-Each release is supported for a period of four months, and they aim to create a new release roughly
-every two months, accounting for holiday periods, major conferences and other world events.
-
-[SemVer](https://semver.org/) is used for all packages released.
+cert-manager adheres to [Semantic Versioning (SemVer)](https://semver.org/). New releases are
+typically issued every 4 months and are supported with bug and security fixes until the release
+of the second subsequent version (N+2). This means that each release receives support for
+approximately 8 months.

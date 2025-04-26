@@ -8,7 +8,11 @@ releasePolicyLink: https://containerd.io/releases/
 eoasColumn: Active Support
 eolColumn: Extended Support
 changelogTemplate: "https://github.com/containerd/containerd/releases/tag/v__LATEST__"
-releaseDateColumn: true
+
+identifiers:
+-   repology: containerd
+-   cpe: cpe:2.3:a:linuxfoundation:containerd
+-   cpe: cpe:/a:linuxfoundation:containerd
 
 auto:
   methods:
@@ -27,23 +31,23 @@ releases:
     releaseDate: 2024-11-05
     eoas: false
     eol: false
-    latest: "2.0.1"
-    latestReleaseDate: 2024-12-13
+    latest: "2.0.5"
+    latestReleaseDate: 2025-04-17
 
 -   releaseCycle: "1.7"
     releaseDate: 2023-03-10
     eoas: 2025-05-05 # releaseDate(2.0) + 6 months
-    eol: false # eol(1.6)
-    latest: "1.7.24"
-    latestReleaseDate: 2024-11-21
+    eol: 2026-03-10 # eol(1.6)
+    latest: "1.7.27"
+    latestReleaseDate: 2025-03-17
 
 -   releaseCycle: "1.6"
     releaseDate: 2022-02-15
     lts: true
     eoas: false # same as EOL because it's an LTS.
-    eol: false # max(February 15, 2025 or releaseDate(next LTS) + 6 months
-    latest: "1.6.36"
-    latestReleaseDate: 2024-09-09
+    eol: 2025-07-23 # max(February 15, 2025 or releaseDate(next LTS) + 6 months
+    latest: "1.6.38"
+    latestReleaseDate: 2025-03-17
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-05-03

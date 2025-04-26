@@ -7,22 +7,28 @@ permalink: /pnpm
 versionCommand: pnpm --version
 releasePolicyLink: https://github.com/pnpm/pnpm/security/policy
 changelogTemplate: "https://github.com/pnpm/pnpm/releases/tag/v__LATEST__"
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
 -   purl: pkg:npm/pnpm
+-   repology: pnpm
 
 auto:
   methods:
   -   npm: pnpm
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-01-07
+    eol: false
+    latest: '10.9.0'
+    latestReleaseDate: 2025-04-21
+
 -   releaseCycle: "9"
     releaseDate: 2024-04-16
-    eol: false
-    latest: '9.15.2'
-    latestReleaseDate: 2024-12-27
+    eol: 2026-04-30
+    latest: '9.15.9'
+    latestReleaseDate: 2025-03-10
 
 -   releaseCycle: "8"
     releaseDate: 2023-03-27

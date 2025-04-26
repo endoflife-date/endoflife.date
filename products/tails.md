@@ -6,7 +6,6 @@ iconSlug: tails
 permalink: /tails
 versionCommand: cat /etc/amnesia/version
 changelogTemplate: https://tails.net/news/version___LATEST__/
-releaseDateColumn: true
 
 # We fetch dates from Git, and then override a few
 # older releases with more accurate dates from distrowatch
@@ -23,8 +22,8 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2024-02-27
     eol: false
-    latest: "6.8"
-    latestReleaseDate: 2024-10-08
+    latest: "6.14.1"
+    latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "5"
     releaseDate: 2022-05-03

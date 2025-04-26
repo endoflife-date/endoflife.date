@@ -6,12 +6,17 @@ permalink: /php
 versionCommand: php --version
 releasePolicyLink: https://www.php.net/supported-versions.php
 changelogTemplate: "https://www.php.net/ChangeLog-{{'__LATEST__'|split:'.'|first}}.php#__LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
 -   purl: pkg:deb/ubuntu/php
 -   purl: pkg:deb/debian/php
+-   purl: pkg:generic/php
+-   purl: pkg:generic/php-cli
+-   purl: pkg:generic/php-fpm
+-   repology: php
+-   cpe: cpe:2.3:a:php:php
+-   cpe: cpe:/a:php:php
 
 auto:
   methods:
@@ -22,29 +27,29 @@ releases:
     releaseDate: 2024-11-21
     eoas: 2026-12-31
     eol: 2028-12-31
-    latest: "8.4.2"
-    latestReleaseDate: 2024-12-19
+    latest: "8.4.6"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "8.3"
     releaseDate: 2023-11-23
     eoas: 2025-12-31
     eol: 2027-12-31
-    latest: "8.3.15"
-    latestReleaseDate: 2024-12-19
+    latest: "8.3.20"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "8.2"
     releaseDate: 2022-12-08
     eoas: 2024-12-31
     eol: 2026-12-31
-    latest: "8.2.27"
-    latestReleaseDate: 2024-12-19
+    latest: "8.2.28"
+    latestReleaseDate: 2025-03-13
 
 -   releaseCycle: "8.1"
     releaseDate: 2021-11-25
     eoas: 2023-11-25
     eol: 2025-12-31
-    latest: "8.1.31"
-    latestReleaseDate: 2024-11-21
+    latest: "8.1.32"
+    latestReleaseDate: 2025-03-13
 
 -   releaseCycle: "8.0"
     releaseDate: 2020-11-26

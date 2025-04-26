@@ -5,7 +5,6 @@ permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"
 changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'__RELEASE_CYCLE__' | replace: '.','''}}/"
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Support Status
 
 # Disabled for now, too instable

@@ -7,7 +7,6 @@ permalink: /traefik
 versionCommand: traefik version
 releasePolicyLink: https://doc.traefik.io/traefik/deprecation/releases
 changelogTemplate: https://github.com/traefik/traefik/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Support
 
@@ -24,19 +23,37 @@ auto:
       fields:
         releaseCycle: "Version"
         releaseDate: "Release Date"
+        eoas:
+          column: "Active Support"
+          regex: '^End(ed|s) (?P<value>.+)$'
         eol:
-          column: "Community Support"
+          column: "Active Support"
+          regex: '^End(ed|s) (?P<value>.+)$'
+  # Override the EOL date if provided
+  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/
+      selector: table
+      fields:
+        releaseCycle: "Version"
+        releaseDate: "Release Date"
+        eol:
+          column: "Security Support"
           regex: '^End(ed|s) (?P<value>.+)$'
 
 
-# eoas(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "3.2"
-    releaseDate: 2024-10-28
+-   releaseCycle: "3.3"
+    releaseDate: 2025-01-06
     eoas: false
     eol: false
-    latest: "3.2.3"
-    latestReleaseDate: 2024-12-16
+    latest: "3.3.6"
+    latestReleaseDate: 2025-04-18
+
+-   releaseCycle: "3.2"
+    releaseDate: 2024-10-28
+    eoas: 2025-01-06
+    eol: 2025-01-06
+    latest: "3.2.5"
+    latestReleaseDate: 2025-01-07
 
 -   releaseCycle: "3.1"
     releaseDate: 2024-07-15
@@ -55,9 +72,9 @@ releases:
 -   releaseCycle: "2.11"
     releaseDate: 2024-02-12
     eoas: 2025-04-29
-    eol: 2025-04-29
-    latest: "2.11.16"
-    latestReleaseDate: 2024-12-16
+    eol: 2026-02-01
+    latest: "2.11.24"
+    latestReleaseDate: 2025-04-18
 
 -   releaseCycle: "2.10"
     releaseDate: 2023-04-24
@@ -145,20 +162,11 @@ releases:
 
 ---
 
-> [Traefik](https://traefik.io/traefik/) is a leading modern reverse proxy and load balancer that
-> makes deploying microservices easy.
+> [Traefik](https://traefik.io/traefik/) is a leading modern reverse proxy and load balancer that makes deploying
+> microservices easy.
 
-## [Versioning Scheme](https://doc.traefik.io/traefik/deprecation/releases/#versioning-scheme)
+Traefik follows [semantic versioning](https://semver.org) and only the last minor release is actively supported with bug
+and security fixes.
 
-The Traefik Proxy project follows the **semantic versioning** scheme and maintains a separate
-branch for each minor version. The main branch always represents the next upcoming minor or major
-version.
-
-And these are our guiding rules for version support:
-
-- **Only the latest `minor`** will be on active support at any given time
-- **The last `minor` after releasing a new `major`** will be supported for 1 year following the
-  major release
-- **Previous rules are subject to change** and in such cases an announcement will be made publicly,
-  [here](https://traefik.io/blog/traefik-2-1-in-the-wild/) is an example extending `v1.x` branch
-  support.
+Once a new minor release is available, the previous minor release becomes end-of-life (EOL). An exception is made for
+the last minor release after a major release, which is supported for 1 year with security fixes.

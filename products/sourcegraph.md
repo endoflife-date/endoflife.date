@@ -2,27 +2,34 @@
 title: Sourcegraph
 category: server-app
 tags: java-runtime
+iconSlug: sourcegraph
 permalink: /sourcegraph
 releasePolicyLink: https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/
 changelogTemplate: https://github.com/sourcegraph/sourcegraph-public-snapshot/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 
 identifiers:
--   purl: pkg:github/sourcegraph/sourcegraph
 -   purl: pkg:docker/sourcegraph/sg
 
 auto:
   methods:
-  -   git: https://github.com/sourcegraph/sourcegraph-public-snapshot.git
+  # https://github.com/sourcegraph/sourcegraph-public-snapshot is no more updated, this repository
+  # seems up-to-date and aligned with what's documented on https://sourcegraph.com/docs/releases.
+  -   git: https://github.com/sourcegraph/deploy-sourcegraph-docker.git
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "6"
+    releaseDate: 2025-01-29
+    eol: false
+    latest: "6.2.3841"
+    latestReleaseDate: 2025-04-23
+
 -   releaseCycle: "5"
     releaseDate: 2023-03-22
-    eol: false
-    latest: "5.6.185"
-    latestReleaseDate: 2024-08-08
+    eol: 2025-01-29
+    latest: "5.11.6271"
+    latestReleaseDate: 2025-01-23
 
 -   releaseCycle: "4"
     releaseDate: 2022-09-22
@@ -40,4 +47,5 @@ the self-hosted offering. While limited support is offered for the previous majo
 not include bug-fixes or security backports. Consequentially, this page marks all but the latest
 release as unsupported.
 
-Sourcegraph provides [enterprise support](https://sourcegraph.com/pricing) with additional features and support for organizations.
+Sourcegraph provides [enterprise support](https://sourcegraph.com/pricing) with additional features
+and support for organizations.

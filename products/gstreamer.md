@@ -6,7 +6,6 @@ permalink: /gstreamer
 versionCommand: gst-inspect-1.0 --version
 releasePolicyLink: https://gstreamer.freedesktop.org/
 changelogTemplate: https://gstreamer.freedesktop.org/releases/__RELEASE_CYCLE__/
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
@@ -22,15 +21,21 @@ auto:
       regex: '^(?P<major>[1-9]\d*)\.(?P<minor>([1-9]\d*)?[02468])\.?(?P<patch>\d+)?$'
 
 releases:
+-   releaseCycle: "1.26"
+    releaseDate: 2025-03-11
+    eol: false
+    latest: "1.26.1"
+    latestReleaseDate: 2025-04-24
+
 -   releaseCycle: "1.24"
     releaseDate: 2024-03-04
     eol: false
-    latest: "1.24.10"
-    latestReleaseDate: 2024-12-03
+    latest: "1.24.12"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "1.22"
     releaseDate: 2023-01-23
-    eol: false
+    eol: true
     latest: "1.22.12"
     latestReleaseDate: 2024-04-29
 

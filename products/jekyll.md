@@ -6,13 +6,13 @@ iconSlug: jekyll
 permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
 identifiers:
 -   cpe: cpe:/a:jekyllrb:jekyll
 -   cpe: cpe:2.3:a:jekyllrb:jekyll
+-   repology: ruby:jekyll
 
 auto:
   methods:
@@ -24,8 +24,8 @@ releases:
     releaseDate: 2019-08-20
     eoas: false
     eol: false
-    latest: "4.3.4"
-    latestReleaseDate: 2024-09-16
+    latest: "4.4.1"
+    latestReleaseDate: 2025-01-29
 
 -   releaseCycle: "3"
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
@@ -68,7 +68,7 @@ releases:
 Jekyll follows [Semantic Versioning](https://semver.org/). It does not have a fixed release policy,
 nor a clearly defined support policy. Nevertheless, limited bug fixes and security updates are
 always applied to [the version used by GitHub Pages](https://pages.github.com/versions/) (Currently
-`3.9.x`).
+`3.10.x`).
 
 ## [Ruby Compatibility](https://jekyllrb.com/docs/installation/)
 

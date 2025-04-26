@@ -5,11 +5,9 @@ tags: cncf
 iconSlug: harbor
 permalink: /vmware-harbor-registry
 changelogTemplate: https://docs.vmware.com/en/VMware-Harbor-Registry/services/vmware-harbor-registry/GUID-release-notes.html#v__LATEST__
-releaseDateColumn: true
 eolColumn: End of general support
 
 releases:
-
 -   releaseCycle: "2.10"
     releaseDate: 2024-01-17
     eol: 2025-01-31

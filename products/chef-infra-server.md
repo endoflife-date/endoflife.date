@@ -10,10 +10,9 @@ versionCommand: chef-server-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: https://docs.chef.io/release_notes_server/#__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
--   repology: chef-infra-server
+-   repology: chef-server
 -   cpe: cpe:2.3:a:progress:chef_infra_server
 
 auto:
@@ -27,8 +26,8 @@ releases:
     releaseDate: 2022-06-13
     eoas: false
     eol: false
-    latest: "15.10.21"
-    latestReleaseDate: 2024-11-26
+    latest: "15.10.33"
+    latestReleaseDate: 2025-02-20
 
 -   releaseCycle: "14"
     releaseDate: 2020-06-08

@@ -5,16 +5,126 @@ tags: microsoft
 permalink: /surface
 releasePolicyLink: https://learn.microsoft.com/surface/surface-driver-firmware-lifecycle-support
 releaseColumn: false
-releaseDateColumn: true
 latestColumn: true
 eolColumn: End of Servicing Date
 
+auto:
+  methods:
+  -   release_table: https://learn.microsoft.com/en-us/surface/surface-driver-firmware-lifecycle-support
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Surface device"
+          regex: '^(?P<value>Surface .+)$'
+        releaseDate: "Release date"
+        eol: "End-of-servicing date for firmware & drivers"
+
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
+-   releaseCycle: Surface Pro 11th Edition, Intel processor
+    releaseDate: 2025-02-18
+    eol: 2031-02-18
+    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+
+-   releaseCycle: Surface Pro 10 with 5G
+    releaseDate: 2024-10-11
+    eol: 2030-10-11
+    link: https://support.microsoft.com/surface/surface-pro-10-for-business-features-debb0fd7-4f30-492f-8000-b5deaf71922f
+
+-   releaseCycle: Surface Pro 11th Edition 5G
+    releaseDate: 2024-09-03
+    eol: 2030-09-26
+    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+
+-   releaseCycle: Surface Pro (11th generation)
+    releaseDate: 2024-06-18
+    eol: 2030-06-18
+    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+
+-   releaseCycle: Surface Pro 11th Edition, Snapdragon processor
+    releaseDate: 2024-06-18
+    eol: 2030-09-10
+    link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
+
+-   releaseCycle: Surface Laptop (7th generation)
+    releaseDate: 2024-06-18
+    eol: 2030-06-18
+    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+
+-   releaseCycle: Surface Laptop 7th Edition, Intel processor
+    releaseDate: 2024-06-18
+    eol: 2031-02-18
+    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+
+-   releaseCycle: Surface Laptop 7th Edition, Snapdragon processor
+    releaseDate: 2024-06-18
+    eol: 2030-09-10
+    link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
+
+-   releaseCycle: Surface Laptop 6
+    releaseDate: 2024-04-09
+    eol: 2030-04-09
+    link: https://support.microsoft.com/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
+
+-   releaseCycle: Surface Laptop 6 for Business
+    releaseDate: 2024-04-09
+    eol: 2030-04-09
+    link: https://support.microsoft.com/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
+
+-   releaseCycle: Surface Pro 10 for Business
+    releaseDate: 2024-04-09
+    eol: 2030-04-09
+    link: https://support.microsoft.com/surface/surface-pro-10-for-business-features-debb0fd7-4f30-492f-8000-b5deaf71922f
+
+-   releaseCycle: Surface Pro 10
+    releaseDate: 2024-04-09
+    eol: 2030-04-09
+    link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
+
+-   releaseCycle: Surface Laptop Studio 2
+    releaseDate: 2023-10-03
+    eol: 2029-10-03
+    link: https://support.microsoft.com/surface/surface-laptop-studio-2-features-70268b43-8c31-4a35-bb8f-9898461e4942
+
+-   releaseCycle: Surface Laptop Go 3
+    releaseDate: 2023-10-03
+    eol: 2029-10-03
+    link: https://support.microsoft.com/surface/surface-laptop-go-3-features-d8baf45b-00ba-4b73-a9c8-21a6f26bba02
+
+-   releaseCycle: Surface Go 4
+    releaseDate: 2023-09-21
+    eol: 2029-09-21
+    link: https://support.microsoft.com/surface/surface-go-4-features-522e227b-24d6-41c6-b48e-db7a053989cb
+
+-   releaseCycle: Surface Studio 2+
+    releaseDate: 2022-10-25
+    eol: 2028-10-02
+    link: https://support.microsoft.com/surface/surface-studio-2-features-53cfae12-28fd-483d-9c4d-6e8f943c05a0
+
+-   releaseCycle: Surface Laptop 5
+    releaseDate: 2022-10-25
+    eol: 2028-10-25
+    link: https://support.microsoft.com/surface/surface-laptop-5-specs-and-features-0816e45e-6a4c-4c9e-8365-ef755a2e34d2
+
+-   releaseCycle: Surface Pro 9
+    releaseDate: 2022-10-25
+    eol: 2028-10-25
+    link: https://support.microsoft.com/surface/surface-pro-9-features-and-specs-f3f523e6-4f0e-487d-a95c-6115ab55477d
+
+-   releaseCycle: Surface Laptop Go 2
+    releaseDate: 2022-06-07
+    eol: 2028-06-07
+    link: https://support.microsoft.com/surface/surface-laptop-go-2-features-2eff8979-464a-442a-8848-856b2e237c11
+
 -   releaseCycle: Surface Laptop SE
     releaseDate: 2022-01-11
     eol: 2028-01-11
     link: https://support.microsoft.com/surface/surface-laptop-se-features-2674627b-d92f-4a88-b85c-f649552f3625
+
+-   releaseCycle: Surface Pro X Wi-Fi
+    releaseDate: 2021-10-05
+    eol: 2027-10-05
+    link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
 
 -   releaseCycle: Surface Pro 8
     releaseDate: 2021-10-05
@@ -45,6 +155,11 @@ releases:
     releaseDate: 2021-01-11
     eol: 2025-01-11
     link: null
+
+-   releaseCycle: Surface Pro X SQ2
+    releaseDate: 2020-10-13
+    eol: 2025-08-10
+    link: https://support.microsoft.com/surface/surface-pro-x-features-and-specs-f4b9bd8d-af25-8c56-c9a5-3c56d860d7f6
 
 -   releaseCycle: Surface Laptop Go
     releaseDate: 2020-10-13
@@ -113,7 +228,7 @@ releases:
 
 -   releaseCycle: Surface Book 2
     releaseDate: 2017-11-17
-    eol: 2023-05-30
+    eol: 2023-06-30
     link: https://support.microsoft.com/surface/surface-book-2-specs-and-features-d752c78d-d1fc-c483-c80d-8343e68ad96b
 
 -   releaseCycle: Surface Pro (5th gen)

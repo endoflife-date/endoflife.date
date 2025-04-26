@@ -7,7 +7,6 @@ releaseImage: https://hb.bizmrg.com/tarantool-io/doc-builds/tarantool/latest/ima
 releasePolicyLink: https://www.tarantool.io/en/doc/latest/release/policy/
 changelogTemplate: https://github.com/tarantool/tarantool/releases/tag/__LATEST__
 eolColumn: Support Status
-releaseDateColumn: true
 
 identifiers:
 -   repology: tarantool
@@ -20,11 +19,17 @@ auto:
 
 # EOL dates can be found on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
 releases:
+-   releaseCycle: "3.4"
+    releaseDate: 2025-04-15
+    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
+    latest: "3.4.0"
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "3.3"
     releaseDate: 2024-11-29
-    eol: false # pending update on https://www.tarantool.io/en/doc/latest/release/calendar/#release-table
-    latest: "3.3.1"
-    latestReleaseDate: 2024-12-25
+    eol: 2026-11-29
+    latest: "3.3.2"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "3.2"
     releaseDate: 2024-08-26
@@ -48,8 +53,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.5"
-    latestReleaseDate: 2024-11-22
+    latest: "2.11.6"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22

@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: cat /etc/alpine-release
 releasePolicyLink: https://alpinelinux.org/releases/
 changelogTemplate: https://alpinelinux.org/posts/Alpine-__LATEST__-released.html
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/o:alpinelinux:alpine_linux
@@ -34,29 +33,29 @@ releases:
 -   releaseCycle: "3.21"
     releaseDate: 2024-12-05
     eol: 2026-11-01
-    latest: "3.21.0"
-    latestReleaseDate: 2024-12-05
+    latest: "3.21.3"
+    latestReleaseDate: 2025-02-13
     link: https://alpinelinux.org/posts/Alpine-3.21.0-released.html
 
 -   releaseCycle: "3.20"
     releaseDate: 2024-05-22
     eol: 2026-04-01
-    latest: "3.20.3"
-    latestReleaseDate: 2024-09-06
+    latest: "3.20.6"
+    latestReleaseDate: 2025-02-13
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.19"
     releaseDate: 2023-12-07
     eol: 2025-11-01
-    latest: "3.19.4"
-    latestReleaseDate: 2024-09-06
+    latest: "3.19.7"
+    latestReleaseDate: 2025-02-14
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.18"
     releaseDate: 2023-05-09
     eol: 2025-05-09
-    latest: "3.18.9"
-    latestReleaseDate: 2024-09-06
+    latest: "3.18.12"
+    latestReleaseDate: 2025-02-14
     link: https://alpinelinux.org/posts/Alpine-3.17.10-3.18.9-3.19.4-3.20.3-released.html
 
 -   releaseCycle: "3.17"

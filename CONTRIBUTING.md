@@ -35,7 +35,7 @@ endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static 
 
 ## :new: Adding a new product
 
-To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible.
+To add a new page to the website, [create a new markdown file with YAML frontmatter](https://github.com/endoflife-date/endoflife.date/new/master/products). Keep the filename as `productname.md`, and please delete any generic comments or unneeded keys before creating a Pull Request. Use the timezone from the upstream product for all dates, wherever possible. Below is a template that you can adapt to add a new product:
 
 ```yaml
 ---
@@ -43,16 +43,16 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 title: Timeturner
 
 # Category of the product (mandatory).
-# Possible values are os,database,app,lang,framework,device,service,server-app.
-# If you add a new value, please mention it in the PR Description. Some rough guidelines:
-# - os is for operating systems (and similar projects),
-# - database is for all kinds of database,
-# - app is for end-user applications,
-# - lang is for programming languages,
-# - framework is for application libraries, SDKs, frameworks...,
-# - device is for physical devices,
-# - service is for managed service offerings (SaaS/PaaS...),
-# - server-app is for applications usually installed on the server-side.
+# Possible values are: os, database, app, lang, framework, device, service, server-app.
+# If you add a new value, please mention it in the PR description. Some rough guidelines:
+# - os: operating systems (and similar projects)
+# - database: all kinds of database
+# - app: end-user applications
+# - lang: programming languages
+# - framework: application libraries, SDKs, frameworks...
+# - device: physical, hardware devices
+# - service: managed service offerings (SaaS/PaaS...)
+# - server-app: applications usually installed on the server-side
 category: os
 
 # Tags of the product (optional).
@@ -73,6 +73,7 @@ category: os
 # - must be added for one of the following reasons :
 #   - set a product family such as linux-distribution, web-browser, mobile-phone or web-server,
 #   - set a product vendor such as adobe, amazon or apache,
+#   - set a third-party extended support partner, or
 #   - set a runtime dependency such as java-runtime, javascript-runtime or php-runtime.
 tags: amazon linux-distribution
 
@@ -129,42 +130,41 @@ LTSLabel: "<abbr title='Extra Long Support'>ELS</abbr>"
 # The value of this property can be set to any string to override the default column label.
 eolColumn: Security Support
 
-# Threshold at which the background color of the cycle's "eol" cell changes to indicate
-# that the EOL date is approaching (optional, default = 121 days).
+# Threshold at which the background color of the cycle's "eol" cell changes
+# to indicate that the EOL date is approaching (optional, default = 121 days).
 eolWarnThreshold: 121
 
 # Whether the "End Of Active Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoasColumn: Active Support
 
-# Threshold at which the background color of the cycle's "eoas" cell changes to indicate
-# that the end of active support date is approaching (optional, default = 121 days).
+# Threshold at which the background color of the cycle's "eoas" cell changes
+# to indicate that the end of active support date is approaching (optional, default = 121 days).
 eoasWarnThreshold: 121
 
 # Whether the "Latest" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 releaseColumn: Latest
 
-# Whether the "Released" column should be displayed (optional, default = false).
+# Whether the "Released" column should be displayed (optional, default = true).
 # The value of this property can be set to any string to override the default column label.
 releaseDateColumn: Released
 
 # Whether the "Discontinued" column should be displayed (optional, default = false).
-# Set to true if you're tracking a device. This usually means the device is no longer available for
-# sale or is no longer being manufactured.
+# Set this to true for physical, hardware devices (as opposed to software projects).
 # The value of this property can be set to any string to override the default column label.
 discontinuedColumn: Discontinued
 
-# Threshold at which the background color of the cycle's "discontinued" cell changes to indicate
-# that the discontinued date is approaching (optional, default = 121 days).
+# Threshold at which the background color of the cycle's "discontinued" cell changes
+# to indicate that the discontinued date is approaching (optional, default = 121 days).
 discontinuedWarnThreshold: 121
 
 # Whether the "End Of Extended Support" column should be displayed (optional, default = false).
 # The value of this property can be set to any string to override the default column label.
 eoesColumn: Extended Support
 
-# Threshold at which the background color of the cycle's "eoes" cell changes to indicate
-# that the extended support date is approaching (optional, default = 121 days).
+# Threshold at which the background color of the cycle's "eoes" cell changes
+# to indicate that the extended support date is approaching (optional, default = 121 days).
 eoesWarnThreshold: 121
 
 # Custom columns configuration (optional).
@@ -197,11 +197,11 @@ customColumns:
     # It will be displayed in the table header.
     label: iOS
 
-    # A description of what contains the custom column (optional).
+    # A description of what the custom column contains (optional).
     # It will be displayed as a tooltip of the column table header cell.
     description: Supported iOS versions
 
-    # A link that gives more information about what contains the custom column (optional).
+    # A link that gives more information about what the custom column contains (optional).
     # It will be used to transform the table label to a link.
     link: https://en.wikipedia.org/wiki/IPhone#Models
 
@@ -228,8 +228,8 @@ auto:
       # Python-compatible regex that defines how the tags above should translate to versions (optional).
       # The default regex can handle versions having at least 2 digits (ex. 1.2) and at most 4 digits (ex. 1.2.3.4),
       # with an optional leading "v"). Use named capturing groups to capture the version or version's parts.
-      # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c. It should also
-      # skip over any special releases (such as nightly,beta,pre,rc...).
+      # Default value should work for most releases of the form a.b, a.b.c or 'v'a.b.c.
+      # It should also skip over any special releases (such as nightly, beta, pre, rc...).
       regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
 
       # Python-compatible regex that defines which tags should be excluded (optional).
@@ -297,7 +297,7 @@ identifiers:
   - purl: pkg:package-manager/package-name
 
 # A list of releases, supported or not (mandatory).
-# Releases must be sorted from the newest (on top of the list) to the lowest.
+# Releases must be sorted from the newest (on top of the list) to the oldest.
 # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
 releases:
 
@@ -317,30 +317,29 @@ releases:
     # It is also returned as-is in the API.
     codename: firebolt
 
-    # Date of the release (optional if releaseDateColumn is false, else mandatory).
-    # It should be removed if releaseDateColumn is false.
-    # Note that an approximate date is better than no date at all.
+    # Date of the release (mandatory).
+    # Note that an approximate date is OK if the exact date is not known.
     releaseDate: 2017-03-12
 
     # Whether this is a "LTS" release (optional, default = false).
     # What LTS means may differ from product to product (see LTSLabel above).
     # Only provide for a release that will get much longer support than usual.
-    # Alternatively, this can be set to a date when the product is not labeled
-    # as LTS when it is released (ex. Angular) or when normal versions are
-    # promoted LTS after their release (ex. Jenkins).
+    # Alternatively, this can be set to a date
+    # if the product is not labeled as LTS when it is released (ex. Angular)
+    # or when normal versions are promoted LTS after their release (ex. Jenkins).
     lts: true
 
     # End Of Active Support date (mandatory if eoasColumn is true, else MUST NOT be set).
-    # This can be either a date (must be valid and not quoted) or a boolean value (when
-    # the date is not known or has not been decided yet).
+    # This can be either a date (must be valid and not quoted)
+    # or a boolean value (when the date is not known or has not been decided yet).
     # - When a date is used, this is the date where bug fixes stop coming in.
     # - When a boolean is used, it must be set to true if the release cycle is not supported
     #   anymore, and false otherwise.
     eoas: 2018-01-31
 
     # End Of Life date (mandatory).
-    # This can be either a date (must be valid and not quoted) or a boolean value (when
-    # the date is not known or has not been decided yet).
+    # This can be either a date (must be valid and not quoted)
+    # or a boolean value (when the date is not known or has not been decided yet).
     # - When a date is used, this is where all support stops, including security support.
     #   Note that this date reflects what is true for the majority of users (you may use the
     #   eoes field if possible/necessary).
@@ -349,8 +348,8 @@ releases:
     eol: 2019-01-01
 
     # End Of Extended/commercial Support date (optional if eoesColumn is true, else SHOULD NOT be set).
-    # This can be either a date (must be valid and not quoted), a boolean value (when
-    # the date is not known or has not been decided yet), or null.
+    # This can be either a date (must be valid and not quoted),
+    # a boolean value (when the date is not known or has not been decided yet), or null.
     # - When a date is used, this is where the extended support period stops.
     # - When a boolean is used, it must be set to true if the extended support period is over,
     #   and false otherwise.
@@ -359,8 +358,11 @@ releases:
     eoes: 2020-01-01
 
     # Discontinuation date (mandatory if discontinuedColumn is true, else MUST NOT be set).
-    # This can be either a date (must be valid and not quoted) or a boolean value (when
-    # the date is not known or has not been decided yet).
+    # This is typically used for physical, hardware devices (as opposed to software projects),
+    # to indicate when the device is no longer available for sale or is no longer being manufactured.
+    # In contrast, the `eol` property indicates the end of support service for the device version.
+    # This can be either a date (must be valid and not quoted)
+    # or a boolean value (when the date is not known or has not been decided yet).
     # - When a date is used, this is the date where the release cycle is discontinued.
     # - When a boolean is used, it must be set to true if the release cycle is discontinued,
     #   and false otherwise.
@@ -376,13 +378,13 @@ releases:
     # Use valid dates, and do not add quotes around dates.
     latestReleaseDate: 2022-01-23
 
-    # A link to the changelog for the latest release
+    # A link to the changelog for the latest release in this cycle
     # (optional, default = the URL generated from changelogTemplate if it is provided).
     # Use this if the link is not predictable (i.e. you can't use changelogTemplate),
     # or if the changelogTemplate generated link must be overridden.
     # Do not use a localized URL (such as one containing en-us) if possible.
-    # Use the special value 'null' (unquoted) if you want to disable the link for a specific cycle of a
-    # product having a changelogTemplate.
+    # Use the special value 'null' (unquoted) if you want to disable the link
+    # for a specific cycle of a product having a changelogTemplate.
     link: https://example.com/news/2021-12-25/release-1.2.3
 
 # In the following markdown section, ensure that all the above are present:
@@ -399,9 +401,9 @@ releases:
 ---
 
 # All the product information text should be under triple-dashes.
-# If you are adding any images in the text, they might get blocked due to our CSP.
-# So prefer using releaseImage in such cases. Note that images on the same website as releaseImage
-# will not be blocked.
+# If you are adding any images in the text, they might get blocked due to our CSP,
+# so prefer using releaseImage in such cases.
+# Note that images on the same website as releaseImage will not be blocked.
 
 > [Time Turner](https://jkrowling.com/time-turner) is a device that powers short-term time travel.
 
@@ -415,9 +417,9 @@ You can visit <https://github.com/endoflife-date/endoflife.date/new/master/produ
 ## ✅ Validating your changes
 
 If you're using an IDE like `vscode` or `vim` (or any other IDE that supports JSON schema validation),
-you can use [this jsonschema](./product-schema.json) to validate the new product.
+you can use [this jsonschema](https://endoflife.date/product-schema.json) to validate the new product.
 
-For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies [the schema.json](./product-schema.json) file on it:
+For `vscode` you need the [yaml-language-server extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) and this configuration, which will treat files in the `products` directory as `yaml` files and applies the jsonschema on it:
 
 ```json
   "files.associations": {

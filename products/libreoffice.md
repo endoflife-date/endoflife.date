@@ -5,7 +5,6 @@ permalink: /libreoffice
 iconSlug: libreoffice
 releasePolicyLink: https://wiki.documentfoundation.org/ReleasePlan
 changelogTemplate: https://wiki.documentfoundation.org/ReleaseNotes/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
@@ -18,11 +17,17 @@ auto:
   -   custom: libreoffice
 
 releases:
+-   releaseCycle: "25.2"
+    releaseDate: 2024-12-22 # https://blog.documentfoundation.org/blog/2025/02/06/libreoffice-25-2/
+    eol: 2025-11-30
+    latest: "25.2.3.1"
+    latestReleaseDate: 2025-04-11
+
 -   releaseCycle: "24.8"
     releaseDate: 2024-07-09 # https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/
     eol: 2025-06-12
-    latest: "24.8.4.2"
-    latestReleaseDate: 2024-12-15
+    latest: "24.8.7.1"
+    latestReleaseDate: 2025-04-18
 
 -   releaseCycle: "24.2"
     releaseDate: 2024-01-08 # https://blog.documentfoundation.org/blog/2024/01/31/libreoffice-24-2/

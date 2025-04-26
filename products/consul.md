@@ -7,11 +7,6 @@ permalink: /consul
 versionCommand: consul --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
-
-auto:
-  methods:
-  -   git: https://github.com/hashicorp/consul.git
 
 identifiers:
 -   repology: consul
@@ -19,14 +14,20 @@ identifiers:
 -   purl: pkg:docker/library/consul
 -   purl: pkg:github/hashicorp/consul
 -   purl: pkg:golang/github.com/hashicorp/consul
+-   cpe: cpe:2.3:a:hashicorp:consul
+-   cpe: cpe:/a:hashicorp:consul
+
+auto:
+  methods:
+  -   git: https://github.com/hashicorp/consul.git
 
 # eol(x) = releaseDate(x+3)
 releases:
 -   releaseCycle: "1.20"
     releaseDate: 2024-10-14
     eol: false
-    latest: '1.20.1'
-    latestReleaseDate: 2024-10-29
+    latest: '1.20.5'
+    latestReleaseDate: 2025-03-11
 
 -   releaseCycle: "1.19"
     releaseDate: 2024-06-12

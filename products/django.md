@@ -9,7 +9,6 @@ releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
 releaseImage: https://static.djangoproject.com/img/release-roadmap.fdaa7bc5861f.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 customColumns:
 -   property: supportedPythonVersions
     position: after-release-column
@@ -21,6 +20,8 @@ identifiers:
 -   repology: python:django
 -   purl: pkg:github/django/django
 -   purl: pkg:pypi/django
+-   cpe: cpe:2.3:a:djangoproject:django
+-   cpe: cpe:/a:djangoproject:django
 
 auto:
   methods:
@@ -54,21 +55,30 @@ auto:
           type: "range"
 
 releases:
+-   releaseCycle: "5.2"
+    lts: true
+    releaseDate: 2025-04-02
+    eoas: 2025-12-31
+    eol: 2028-04-30
+    supportedPythonVersions: "3.10 - 3.13"
+    latest: "5.2"
+    latestReleaseDate: 2025-04-02
+
 -   releaseCycle: "5.1"
     releaseDate: 2024-08-07
-    eoas: 2025-04-30
+    eoas: 2025-04-02
     eol: 2025-12-31
     supportedPythonVersions: "3.10 - 3.13 (added in 5.1.3)"
-    latest: "5.1.4"
-    latestReleaseDate: 2024-12-04
+    latest: "5.1.8"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
     eoas: 2024-08-07
-    eol: 2025-04-30
+    eol: 2025-04-02
     supportedPythonVersions: "3.10 - 3.12"
-    latest: "5.0.10"
-    latestReleaseDate: 2024-12-04
+    latest: "5.0.14"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "4.2"
     lts: true
@@ -76,8 +86,8 @@ releases:
     eoas: 2023-12-04
     eol: 2026-04-30
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
-    latest: "4.2.17"
-    latestReleaseDate: 2024-12-04
+    latest: "4.2.20"
+    latestReleaseDate: 2025-03-06
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-08-03

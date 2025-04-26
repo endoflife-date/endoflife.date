@@ -8,7 +8,6 @@ permalink: /ansible
 versionCommand: ansible-community --version
 releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
@@ -32,8 +31,8 @@ releases:
     powershellVersionsManagedNode: 5.1
     releaseDate: 2024-11-19
     eol: false
-    latest: "11.1.0"
-    latestReleaseDate: 2024-12-03
+    latest: "11.5.0"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "10"
     ansibleCoreVersion: "2.17"

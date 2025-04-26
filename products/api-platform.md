@@ -6,7 +6,6 @@ permalink: /api-platform
 versionCommand: composer show api-platform/core | grep versions
 releasePolicyLink: https://api-platform.com/docs/extra/releases/
 changelogTemplate: https://github.com/api-platform/core/releases/tag/v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 
 auto:
@@ -16,31 +15,38 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "4.0"
-    releaseDate: 2024-09-18
+-   releaseCycle: "4.1"
+    releaseDate: 2025-02-28
     eoas: false
     eol: false
-    latest: "4.0.13"
-    latestReleaseDate: 2024-12-20
+    latest: "4.1.7"
+    latestReleaseDate: 2025-04-11
+
+-   releaseCycle: "4.0"
+    releaseDate: 2024-09-18
+    eoas: 2025-02-28
+    eol: false
+    latest: "4.0.22"
+    latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "3.4"
     releaseDate: 2024-09-18
     eoas: 2024-09-18
-    eol: false
-    latest: "3.4.10"
-    latestReleaseDate: 2024-12-20
+    eol: 2025-02-28
+    latest: "3.4.17"
+    latestReleaseDate: 2025-04-07
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-29
     eoas: 2024-09-18
-    eol: 2024-09-18
-    latest: "3.3.14"
-    latestReleaseDate: 2024-10-04
+    eol: 2025-02-28
+    latest: "3.3.15"
+    latestReleaseDate: 2025-01-17
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-10-12
     eoas: 2024-04-29
-    eol: false
+    eol: 2024-09-18
     latest: "3.2.26"
     latestReleaseDate: 2024-07-19
 
@@ -119,11 +125,11 @@ releases:
 > [API Platform](https://api-platform.com/) is a full stack framework dedicated to API-driven
 > projects and implementing the Jamstack architecture.
 
-Releases follow [Semantic Versioning](https://semver.org/). A new minor version is released every
-six months, and a new major version every two years along with a minor version that brings an
-upgrade path. Besides the development branch, two versions are maintained:
+API Platform follows [Semantic Versioning](https://semver.org/). A new minor release is released every
+six months, and a new major release every two years (along with a minor release that brings an
+upgrade path). Besides the development branch, three releases are maintained:
 
-- the latest version is actively supported with regular bug fixes;
-- the previous version is supported for security maintenance only.
+- the latest release is actively supported with regular bug fixes;
+- the previous release is supported for security maintenance only.
 
-Versions older than the latest two are not maintained.
+Releases older than the latest two are not maintained.

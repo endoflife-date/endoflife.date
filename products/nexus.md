@@ -9,7 +9,7 @@ alternate_urls:
 -   /nexus-repository-oss
 -   /nexus-repository-pro
 releasePolicyLink: https://help.sonatype.com/en/sonatype-sunsetting-information.html
-releaseDateColumn: true
+changelogTemplate: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__.0'|replace:'.','-'}}-release-notes.html
 eoasColumn: Full Support
 eolColumn: Extended Maintenance
 
@@ -21,19 +21,19 @@ auto:
   -   git: https://github.com/sonatype/nexus-public.git
       regex: '^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)-(?P<tiny>\d+)$'
       template: '{{major}}.{{minor}}.{{patch}}-{{tiny}}'
-  -   release_table: https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status
+  -   release_table: https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
       selector: 'table'
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle:
-          column: 'Sonatype Nexus Repository Version'
+          column: 'Version'
           regex: '^(?P<value>\d+\.\d+)\.0.*$'
           regex_exclude: '^3.53' # Invalid Beginning of Extended Maintenance date
         releaseDate:
           column: 'Initial Release Date'
           regex: '^.*?(?P<value>\w+\s*\d+,\s*\d+)(\s*\(\d+\.\d+\.0\)\s*)?$'
         eoas:
-          column: 'Beginning of Extended Maintenance'
+          column: 'Extended Maintenance'
           regex: '^(?P<value>\w+\s*\d+,\s*\d+).*$'
         eol:
           column: 'Sunset Date'
@@ -42,8 +42,36 @@ auto:
 
 # eoas(x) = releaseDate(x) + 12 months
 # eol(x) = releaseDate(x) + 18 months
-# Dates can also be found on https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-3-versions-status.
+# Dates can also be found on https://help.sonatype.com/en/sonatype-nexus-repository-3-versions-status.html
 releases:
+-   releaseCycle: "3.79"
+    releaseDate: 2025-04-01
+    eoas: 2026-04-01
+    eol: 2026-10-01
+    latest: "3.79.1-04"
+    latestReleaseDate: 2025-04-10
+
+-   releaseCycle: "3.78"
+    releaseDate: 2025-03-04
+    eoas: 2026-03-04
+    eol: 2026-09-04
+    latest: "3.78.2-04"
+    latestReleaseDate: 2025-03-18
+
+-   releaseCycle: "3.77"
+    releaseDate: 2025-02-04
+    eoas: 2026-02-04
+    eol: 2026-08-04
+    latest: "3.77.2-02"
+    latestReleaseDate: 2025-02-25
+
+-   releaseCycle: "3.76"
+    releaseDate: 2025-01-07
+    eoas: 2026-01-07
+    eol: 2026-07-07
+    latest: "3.76.1-01"
+    latestReleaseDate: 2025-01-23
+
 -   releaseCycle: "3.75"
     releaseDate: 2024-12-03
     eoas: 2025-12-03
@@ -84,9 +112,9 @@ releases:
     releaseDate: 2024-07-09
     eoas: 2025-07-09
     eol: 2026-01-09
-    latest: "3.70.3-01"
-    latestReleaseDate: 2024-10-10
-    link: https://help.sonatype.com/en/sonatype-nexus-repository-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-0-release-notes.html
+    latest: "3.70.4-02"
+    latestReleaseDate: 2025-02-13
+    link: https://help.sonatype.com/en/orientdb-downloads.html
 
 -   releaseCycle: "3.69"
     releaseDate: 2024-06-04
@@ -171,6 +199,7 @@ releases:
     eol: 2025-01-17
     latest: "3.58.1-02"
     latestReleaseDate: 2023-07-27
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-3-58-0---3-58-1-release-notes.html
 
 -   releaseCycle: "3.57"
     releaseDate: 2023-07-05
@@ -178,6 +207,7 @@ releases:
     eol: 2025-01-05
     latest: "3.57.1-03"
     latestReleaseDate: 2023-07-27
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-3-57-0---3-57-1-release-notes.html
 
 -   releaseCycle: "3.56"
     releaseDate: 2023-06-19
@@ -199,6 +229,7 @@ releases:
     eol: 2024-11-22
     latest: "3.54.1-01"
     latestReleaseDate: 2023-05-23
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-3-54-0---3-54-1-release-notes.html
 
 -   releaseCycle: "3.53"
     releaseDate: 2023-05-03
@@ -206,6 +237,7 @@ releases:
     eol: 2024-11-02
     latest: "3.53.1-02"
     latestReleaseDate: 2023-05-13
+    link: https://help.sonatype.com/en/sonatype-nexus-repository-3-53-0---3-53-1-release-notes.html
 
 -   releaseCycle: "3.52"
     releaseDate: 2023-04-18
@@ -248,6 +280,7 @@ releases:
     eol: 2024-08-06
     latest: "3.47.1-01"
     latestReleaseDate: 2023-02-13
+    link: https://help.sonatype.com/en/nexus-repository-3-47-0---3-47-1-release-notes.html
 
 -   releaseCycle: "3.46"
     releaseDate: 2023-01-30
@@ -255,6 +288,7 @@ releases:
     eol: 2024-07-28
     latest: "3.46.0-01"
     latestReleaseDate: 2023-01-30
+    link: https://help.sonatype.com/en/nexus-repository-3-46-0-release-notes.html
 
 -   releaseCycle: "3.45"
     releaseDate: 2022-12-28
@@ -262,6 +296,7 @@ releases:
     eol: 2024-06-28
     latest: "3.45.1"
     latestReleaseDate: 2023-01-18
+    link: https://help.sonatype.com/en/nexus-repository-3-45-0---3-45-1-release-notes.html
 
 -   releaseCycle: "3.44"
     releaseDate: 2022-12-15
@@ -269,6 +304,7 @@ releases:
     eol: 2024-06-12
     latest: "3.44.0-01"
     latestReleaseDate: 2022-12-19
+    link: https://help.sonatype.com/en/nexus-repository-3-44-0-release-notes.html
 
 -   releaseCycle: "3.43"
     releaseDate: 2022-11-07
@@ -276,6 +312,7 @@ releases:
     eol: 2024-05-05
     latest: "3.43.0-01"
     latestReleaseDate: 2022-11-09
+    link: https://help.sonatype.com/en/nexus-repository-3-43-0-release-notes.html
 
 -   releaseCycle: "3.42"
     releaseDate: 2022-09-26
@@ -283,6 +320,7 @@ releases:
     eol: 2024-03-24
     latest: "3.42.0-01"
     latestReleaseDate: 2022-09-26
+    link: https://help.sonatype.com/en/nexus-repository-3-42-0-release-notes.html
 
 -   releaseCycle: "3.41"
     releaseDate: 2022-07-27
@@ -290,6 +328,7 @@ releases:
     eol: 2024-01-27
     latest: "3.41.1-01"
     latestReleaseDate: 2022-08-19
+    link: https://help.sonatype.com/en/nexus-repository-3-41-0---3-41-1-release-notes.html
 
 -   releaseCycle: "3.40"
     releaseDate: 2022-06-22
@@ -297,6 +336,7 @@ releases:
     eol: 2023-12-22
     latest: "3.40.1-01"
     latestReleaseDate: 2022-06-27
+    link: https://help.sonatype.com/en/nexus-repository-3-40-0---3-40-1-release-notes.html
 
 -   releaseCycle: "3.39"
     releaseDate: 2022-05-23
@@ -304,6 +344,7 @@ releases:
     eol: 2023-11-19
     latest: "3.39.0-01"
     latestReleaseDate: 2022-05-23
+    link: https://help.sonatype.com/en/nexus-repository-3-39-0-release-notes.html
 
 -   releaseCycle: "3.38"
     releaseDate: 2022-03-03
@@ -311,6 +352,7 @@ releases:
     eol: 2023-09-25
     latest: "3.38.1-01"
     latestReleaseDate: 2022-03-29
+    link: https://help.sonatype.com/en/nexus-repository-3-38-0---3-38-1-release-notes.html
 
 -   releaseCycle: "3.37"
     releaseDate: 2021-11-14
@@ -318,6 +360,7 @@ releases:
     eol: 2023-05-24
     latest: "3.37.3-02"
     latestReleaseDate: 2021-12-29
+    link: https://help.sonatype.com/en/nexus-repository-3-37-0---3-37-3-release-notes.html
 
 -   releaseCycle: "3.36"
     releaseDate: 2021-10-29
@@ -325,6 +368,7 @@ releases:
     eol: 2023-04-29
     latest: "3.36.0-01"
     latestReleaseDate: 2021-10-29
+    link: https://help.sonatype.com/en/nexus-repository-3-36-0-release-notes.html
 
 -   releaseCycle: "3.35"
     releaseDate: 2021-10-13
@@ -332,6 +376,7 @@ releases:
     eol: 2023-04-13
     latest: "3.35.0-02"
     latestReleaseDate: 2021-10-12
+    link: https://help.sonatype.com/en/nexus-repository-3-35-0-release-notes.html
 
 -   releaseCycle: "3.34"
     releaseDate: 2021-08-31
@@ -339,6 +384,7 @@ releases:
     eol: 2023-03-03
     latest: "3.34.1-01"
     latestReleaseDate: 2021-09-22
+    link: https://help.sonatype.com/en/nexus-repository-3-34-0---3-34-1-release-notes.html
 
 -   releaseCycle: "3.33"
     releaseDate: 2021-08-04
@@ -346,6 +392,7 @@ releases:
     eol: 2023-02-04
     latest: "3.33.1-01"
     latestReleaseDate: 2021-08-18
+    link: https://help.sonatype.com/en/nexus-repository-3-33-0---3-33-1-release-notes.html
 
 -   releaseCycle: "3.32"
     releaseDate: 2021-07-08
@@ -353,6 +400,15 @@ releases:
     eol: 2023-01-08
     latest: "3.32.1"
     latestReleaseDate: 2021-12-20
+    link: https://help.sonatype.com/en/nexus-repository-3-32-0---3-32-1-release-notes.html
+
+-   releaseCycle: "3.31"
+    releaseDate: 2021-06-16
+    eoas: true
+    eol: 2022-12-16
+    latest: "3.31.1-01"
+    latestReleaseDate: 2021-06-23
+    link: https://help.sonatype.com/en/nexus-repository-3-31-0---3-31-1-release-notes.html
 
 -   releaseCycle: "3.30"
     releaseDate: 2021-03-04
@@ -360,6 +416,7 @@ releases:
     eol: 2022-09-04
     latest: "3.30.1-01"
     latestReleaseDate: 2021-04-22
+    link: https://help.sonatype.com/en/nexus-repository-3-30-0---3-30-1-release-notes.html
 
 -   releaseCycle: "3.29"
     releaseDate: 2020-12-04
@@ -367,6 +424,7 @@ releases:
     eol: 2022-06-04
     latest: "3.29.2-02"
     latestReleaseDate: 2021-01-07
+    link: https://help.sonatype.com/en/nexus-repository-3-29-0---3-29-2-release-notes.html
 
 # From https://help.sonatype.com/docs/sonatype-sunsetting-information/sonatype-nexus-repository-2-versions-status
 
@@ -388,6 +446,8 @@ releases:
 All minor releases are typically supported for 18 months. This includes 12 months of full support,
 with updates and bug fixes, followed by 6 months of extended maintenance, with only critical and
 security fixes. After this, the release is considered sunset.
+
+In release 3.71.0, Sonatype Nexus Repository began using H2 as its default embedded database. Users not able to migrate to H2 or PostgreSQL need to remain on the [3.70.x](https://help.sonatype.com/en/orientdb-downloads.html) release line, which will receive only critical bug fixes.
 
 Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
 additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).

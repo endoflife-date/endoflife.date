@@ -5,10 +5,11 @@ permalink: /clamav
 versionCommand: clamscan --version
 releasePolicyLink: https://docs.clamav.net/faq/faq-eol.html
 changelogTemplate: "https://github.com/Cisco-Talos/clamav/releases/tag/clamav-__LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   repology: clamav
+-   cpe: cpe:2.3:a:clamav:clamav
+-   cpe: cpe:/a:clamav:clamav
 
 auto:
   methods:
@@ -19,9 +20,10 @@ auto:
 releases:
 -   releaseCycle: "1.4"
     releaseDate: 2024-08-15
-    eol: false # releaseDate(1.6) + 4 months
-    latest: "1.4.1"
-    latestReleaseDate: 2024-09-04
+    lts: true
+    eol: 2027-08-15
+    latest: "1.4.2"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "1.3"
     releaseDate: 2024-02-07
@@ -43,10 +45,10 @@ releases:
 
 -   releaseCycle: "1.0"
     releaseDate: 2022-11-28
-    eol: 2025-11-28
     lts: true
-    latest: "1.0.7"
-    latestReleaseDate: 2024-09-04
+    eol: 2025-11-28
+    latest: "1.0.8"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "0.105"
     releaseDate: 2022-05-04
@@ -62,8 +64,8 @@ releases:
 
 -   releaseCycle: "0.103"
     releaseDate: 2020-09-11
-    eol: 2024-09-14
     lts: true
+    eol: 2024-09-14
     latest: "0.103.12"
     latestReleaseDate: 2024-09-04
 

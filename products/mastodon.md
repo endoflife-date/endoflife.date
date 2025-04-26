@@ -8,7 +8,6 @@ versionCommand: tootctl --version
 releasePolicyLink: https://github.com/mastodon/mastodon/security/policy
 changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: mastodon
@@ -27,20 +26,20 @@ releases:
 -   releaseCycle: "4.3"
     releaseDate: 2024-10-08
     eol: false
-    latest: "4.3.2"
-    latestReleaseDate: 2024-12-03
+    latest: "4.3.7"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: false
-    latest: "4.2.14"
-    latestReleaseDate: 2024-12-03
+    latest: "4.2.20"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "4.1"
     releaseDate: 2023-02-10
     eol: 2025-04-08
-    latest: "4.1.21"
-    latestReleaseDate: 2024-12-03
+    latest: "4.1.25"
+    latestReleaseDate: 2025-04-02
 
 -   releaseCycle: "4.0"
     releaseDate: 2022-11-14
