@@ -1,7 +1,7 @@
 ---
 title: Vuetify
 category: framework
-tags: javascript-runtime
+tags: herodevs javascript-runtime
 iconSlug: vuetify
 permalink: /vuetify
 versionCommand: npm list vuetify
