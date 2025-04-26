@@ -16,7 +16,7 @@ updates:
     directory: "/"
     schedule:
       interval: "cron"
-      cronjob: "every day at midnight"
+      cronjob: "0 8 * * *" # every day at 8am UTC
 
   - package-ecosystem: "github-actions"
     directory: "/"
