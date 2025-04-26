@@ -6,9 +6,8 @@ iconSlug: vmware
 permalink: /vmware-srm
 alternate_urls:
 -   /vmwaresrm
-releasePolicyLink: https://lifecycle.vmware.com
+releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 eolColumn: General Support
-releaseDateColumn: true
 
 releases:
 -   releaseCycle: "8.8"
@@ -122,17 +121,17 @@ releases:
 > availability of VMware hosted resources.
 
 Since Site Recovery Manager 8.3 the product follows the [Application Platform lifecycle
-policy](https://www.vmware.com/support/policies/application-platform.html), providing support for 4
+policy](https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML), providing support for 4
 years with 3 years of general support and an additional 1 year of technical guidance during which
 bug fixes and security updates are no longer provided.
 
-## [General Support](https://lifecycle.vmware.com/)
+## General Support
 
 The last date on which you can request support; the end of regular VMware
 maintenance updates and upgrades, _bug and security fixes,_ and technical assistance as per the
 Support and Subscription Terms and Conditions.
 
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+## Technical Guidance
 
 The last date on which you can access support and workarounds for low-severity issues on supported
 configurations only. During the Technical Guidance phase, VMware does not offer new hardware

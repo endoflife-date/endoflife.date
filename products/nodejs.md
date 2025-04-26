@@ -1,7 +1,7 @@
 ---
 title: Node.js
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
@@ -12,7 +12,6 @@ releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg
 changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 eoasColumn: true
 eoesColumn: "Commercial Support"
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:generic/node
@@ -32,16 +31,16 @@ releases:
     releaseDate: 2024-10-16
     eoas: 2025-04-01
     eol: 2025-06-01
-    latest: "23.5.0"
-    latestReleaseDate: 2024-12-19
+    latest: "23.11.0"
+    latestReleaseDate: 2025-04-01
 
 -   releaseCycle: "22"
     releaseDate: 2024-04-24
     lts: 2024-10-29
     eoas: 2025-10-21
     eol: 2027-04-30
-    latest: "22.12.0"
-    latestReleaseDate: 2024-12-03
+    latest: "22.15.0"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "21"
     releaseDate: 2023-10-17
@@ -55,8 +54,8 @@ releases:
     lts: 2023-10-24
     eoas: 2024-10-22
     eol: 2026-04-30
-    latest: "20.18.1"
-    latestReleaseDate: 2024-11-20
+    latest: "20.19.1"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -71,8 +70,8 @@ releases:
     eoas: 2023-10-18
     eol: 2025-04-30
     eoes: false
-    latest: "18.20.5"
-    latestReleaseDate: 2024-11-12
+    latest: "18.20.8"
+    latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19

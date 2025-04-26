@@ -9,26 +9,31 @@ versionCommand: |-
   fluent-bit -v
 releasePolicyLink: https://fluentbit.io/announcements/older-versions
 changelogTemplate: https://github.com/fluent/fluent-bit/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Support
+
+identifiers:
+-   repology: fluent-bit
+-   purl: pkg:github/fluent/fluent-bit
+-   purl: pkg:docker/fluent/fluent-bit
 
 auto:
   methods:
   -   git: https://github.com/fluent/fluent-bit
 
-identifiers:
--   purl: pkg:github/fluent/fluent-bit
--   purl: pkg:docker/fluent/fluent-bit
--   repology: fluent-bit
-
 # https://fluentbit.io/announcements/older-versions/: Security Policy: support for current series ends three months after a new series is released.
 # eol(x) = releaseDate(x+1) + 3 months
 releases:
+-   releaseCycle: "4.0"
+    releaseDate: 2025-03-29
+    eol: false # releaseDate(4.1)
+    latest: "4.0.1"
+    latestReleaseDate: 2025-04-23
+
 -   releaseCycle: "3.2"
     releaseDate: 2024-11-12
-    eol: false # releaseDate(3.3)
-    latest: "3.2.4"
-    latestReleaseDate: 2024-12-30
+    eol: 2025-06-29 # releaseDate(4.0) + 3 months
+    latest: "3.2.10"
+    latestReleaseDate: 2025-03-24
 
 -   releaseCycle: "3.1"
     releaseDate: 2024-07-08

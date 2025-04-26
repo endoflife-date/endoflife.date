@@ -6,8 +6,8 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 changelogTemplate: "https://mariadb.com/kb/en/mariadb-{{'__LATEST__'|replace:'.','-'}}-changelog/"
-releaseDateColumn: true
-eolColumn: Support Status
+eolColumn: Community support
+eoesColumn: Enterprise support
 
 identifiers:
 -   repology: mariadb
@@ -45,20 +45,35 @@ auto:
       -   ^mariadb-(?P<major>10)\.(?P<minor>9)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
-      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-6])\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>11)\.(?P<minor>[0-7])\.(?P<patch>([2-9]|\d{2}))$
+  -   release_table: https://mariadb.org/about/#maintenance-policy
+      selector: "table"
+      header_selector: "tbody tr:nth-of-type(1)"
+      ignore_empty_releases: true # Ignore future releases
+      fields:
+        releaseCycle: "Release"
+        releaseDate: "GA release date"
+        eol: "Community"
+        eoes: "Extended"
   -   release_table: https://mariadb.org/about/#maintenance-policy
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
-        releaseCycle: "Release series"
-        releaseDate: "Stable (GA) Date"
-        eol: "End-of-life"
+        releaseCycle: "Release"
+        releaseDate: "GA release date"
+        eol: "Community"
 
-# Extend/update regex in section above
+# When adding new Major, do no forget to review regexes in section above.
 releases:
+-   releaseCycle: "11.7"
+    releaseDate: 2025-02-12
+    eol: 2025-05-12
+    latest: "11.7.2"
+    latestReleaseDate: 2025-02-12
+
 -   releaseCycle: "11.6"
     releaseDate: 2024-11-13
-    eol: false
+    eol: 2025-02-13
     latest: "11.6.2"
     latestReleaseDate: 2024-11-13
 
@@ -72,8 +87,9 @@ releases:
     lts: true
     releaseDate: 2024-05-29
     eol: 2029-05-29
-    latest: "11.4.4"
-    latestReleaseDate: 2024-11-01
+    eoes: 2033-01-16
+    latest: "11.4.5"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-02-16
@@ -103,17 +119,18 @@ releases:
     lts: true
     releaseDate: 2023-02-16
     eol: 2028-02-16
-    latest: "10.11.10"
-    latestReleaseDate: 2024-11-01
+    eoes: 2028-02-16
+    latest: "10.11.11"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "10.10"
-    releaseDate: 2022-11-17
+    releaseDate: 2022-11-07
     eol: 2023-11-17
     latest: "10.10.7"
     latestReleaseDate: 2023-11-13
 
 -   releaseCycle: "10.9"
-    releaseDate: 2022-08-22
+    releaseDate: 2022-08-15
     eol: 2023-08-22
     latest: "10.9.8"
     latestReleaseDate: 2023-08-14
@@ -125,7 +142,7 @@ releases:
     latestReleaseDate: 2023-05-10
 
 -   releaseCycle: "10.7"
-    releaseDate: 2022-02-09
+    releaseDate: 2022-02-08
     eol: 2023-02-09
     latest: "10.7.8"
     latestReleaseDate: 2023-02-06
@@ -134,44 +151,51 @@ releases:
     lts: true
     releaseDate: 2021-07-06
     eol: 2026-07-06
-    latest: "10.6.20"
-    latestReleaseDate: 2024-11-01
+    eoes: 2029-08-23
+    latest: "10.6.21"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "10.5"
     lts: true
     releaseDate: 2020-06-24
     eol: 2025-06-24
-    latest: "10.5.27"
-    latestReleaseDate: 2024-11-01
+    eoes: 2025-07-16
+    latest: "10.5.28"
+    latestReleaseDate: 2025-02-04
 
 -   releaseCycle: "10.4"
     lts: true
     releaseDate: 2019-06-18
     eol: 2024-06-18
+    eoes: 2024-06-18
     latest: "10.4.34"
     latestReleaseDate: 2024-05-15
 
 -   releaseCycle: "10.3"
     releaseDate: 2018-05-25
     eol: 2023-05-25
+    eoes: 2023-05-25
     latest: "10.3.39"
     latestReleaseDate: 2023-05-10
 
 -   releaseCycle: "10.2"
     releaseDate: 2017-05-23
     eol: 2022-05-23
+    eoes: 2022-05-23
     latest: "10.2.44"
     latestReleaseDate: 2022-05-20
 
 -   releaseCycle: "10.1"
     releaseDate: 2015-10-17
     eol: 2020-10-17
+    eoes: 2020-10-17
     latest: "10.1.48"
     latestReleaseDate: 2020-10-30
 
 -   releaseCycle: "10.0"
     releaseDate: 2014-03-31
     eol: 2019-03-31
+    eoes: 2019-03-31
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
 
@@ -179,6 +203,7 @@ releases:
     lts: true
     releaseDate: 2012-04-11
     eol: 2020-04-11
+    eoes: 2020-04-11
     latest: "5.5.68"
     latestReleaseDate: 2020-05-06
 
@@ -187,8 +212,16 @@ releases:
 > [MariaDB](https://mariadb.org/about/) is a community-developed, commercially supported relational
 > database management system (RDBMS) originally forked from MySQL.
 
-A new long-term release (LTS) of MariaDB Server will be announced for General Availability
-approximately once every year. A new rolling release will be announced approximately quarterly.
-The MariaDB Foundation guarantees that every long-term release will be maintained for at least
-5 years. For 11.2 and before, non-LTS releases were described as short-term releases, and were
-maintained for one year. From 11.3, these are rolling releases.
+Releases of MariaDB are published on a regular basis. New releases are either long-term releases (LTS) or rolling
+releases. The support for each release depends on the release type.
+
+Long-term release (LTS) are released yearly and supported for 3 years with bug and security fixes (was 5 years up to
+11.4).
+
+Rolling releases are released quarterly and are supported until the next release with bug and security fixes. Note that
+before 11.3 these were described as short-term releases and were maintained for 1 year.
+
+Commercial support is available from MariaDB with [its _Enterprise_](https://mariadb.com/pricing/) offering. With an
+enterprise subscription, support for long-term releases is extended for 2 years, and up to 5 years with the extended
+release option. Note that Critical security fixes are also provided as source code releases only and on a best-effort
+basis for 2 additional years with the Community support.

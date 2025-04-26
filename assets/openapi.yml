@@ -3,7 +3,7 @@ info:
   title: endoflife.date
   version: 0.0.1
   summary: endoflife.date API
-  description: 'Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki)'
+  description: 'Documentation for the endoflife.date API. The API is currently in Alpha. Additional information about the API can be found on the [endoflife.date wiki](https://github.com/endoflife-date/endoflife.date/wiki).'
   license:
     name: MIT
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
@@ -65,7 +65,7 @@ paths:
           name: product
           in: path
           required: true
-          description: Product URL as per the canonical URL on the endofife.date website
+          description: Product URL as per the canonical URL on the endofife.date website.
   '/api/{product}/{cycle}.json':
     get:
       summary: Single cycle details
@@ -93,14 +93,14 @@ paths:
                     latest: '21.04'
                     link: 'https://wiki.ubuntu.com/HirsuteHippo/ReleaseNotes/'
       operationId: 'get-api-:product-:cycle.json'
-      description: Gets details of a single cycle
+      description: Gets details of a single cycle.
       parameters:
         - schema:
             type: string
           name: product
           in: path
           required: true
-          description: Product URL as per the canonical URL on the endofife.date website
+          description: Product URL as per the canonical URL on the endofife.date website.
         - schema:
             type: string
           name: cycle
@@ -278,36 +278,34 @@ components:
           type:
             - number
             - string
-          description: Release Cycle
+          description: The release cycle which this release is part of.
         releaseDate:
           type: string
-          minLength: 10
-          description: Release Date for the first release in this cycle
           format: date
+          minLength: 10
           maxLength: 10
+          description: Release date for the first release in this cycle.
         eol:
           type:
             - string
             - boolean
           minLength: 1
-          description: End of Life Date for this release cycle
+          description: End-of-Life date for this release cycle.
         latest:
           type: string
           minLength: 1
-          description: Latest release in this cycle
+          description: Latest release in this cycle.
         link:
-          type: 
-          - string
-          - 'null'
+          type:
+            - string
+            - 'null'
           minLength: 1
-          description: 'Link to changelog for the latest release, if available'
+          description: Link to changelog for the latest release in this cycle, or null if unavailable.
         lts:
           type:
-            - boolean
             - string
-          description: >
-            Whether this release cycle has long-term-support (LTS). Can be a date instead in YYYY-MM-DD format as well
-            if the release enters LTS status on a given date.
+            - boolean
+          description: Whether this release cycle has long-term-support (LTS), or the date it entered LTS status.
         support:
           type:
             - string
@@ -315,12 +313,12 @@ components:
           format: date
           minLength: 10
           maxLength: 10
-          description: Whether this release cycle has active support
+          description: Whether this release cycle has active support.
         discontinued:
           type:
             - string
             - boolean
-          description: Whether this cycle is now discontinued.
+          format: date
           minLength: 10
           maxLength: 10
-          format: date
+          description: Whether this device version is no longer in production.

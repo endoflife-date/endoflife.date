@@ -7,7 +7,6 @@ permalink: /apache-hop
 alternate_urls:
 -   /hop
 changelogTemplate: "https://hop.apache.org/blog/{{'__LATEST_RELEASE_DATE__'|split:'-'|pop|join:'/'}}/hop-__LATEST__/"
-releaseDateColumn: true
 eolColumn: Support
 
 auto:
@@ -16,9 +15,16 @@ auto:
 
 # eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "2.12"
+    releaseDate: 2025-02-13
+    eol: false
+    latest: '2.12.0'
+    latestReleaseDate: 2025-02-13
+    link: https://hop.apache.org/blog/2025/02/hop-2.12.0/
+
 -   releaseCycle: "2.11"
     releaseDate: 2024-12-04
-    eol: false
+    eol: 2025-02-19
     latest: '2.11.0'
     latestReleaseDate: 2024-12-04
     link: https://hop.apache.org/blog/2024/12/hop-2.11.0/

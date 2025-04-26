@@ -11,12 +11,12 @@ updates:
     schedule:
       interval: "daily"
 
-  # This updates the _data/release-data submodule once a day
-  # which itself is updated twice a day.
+  # This updates the _data/release-data submodule.
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "cron"
+      cronjob: "0 8 * * *" # every day at 8am UTC
 
   - package-ecosystem: "github-actions"
     directory: "/"

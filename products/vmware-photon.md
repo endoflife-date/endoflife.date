@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os-5-0-general-availability.html
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: Security Support
 
 customColumns:
@@ -21,6 +20,7 @@ customColumns:
 
 identifiers:
 -   cpe: cpe:2.3:o:vmware:photon_os
+-   cpe: cpe:/o:vmware:photon_os
 
 # EOL Dates for 3.0 and 4.0 are tentative, as they are documented as:
 # March 2024, and March 2026.

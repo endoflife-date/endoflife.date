@@ -6,11 +6,10 @@ iconSlug: composer
 permalink: /composer
 versionCommand: composer --version
 changelogTemplate: https://getcomposer.org/changelog/__LATEST__
-releaseDateColumn: true
 
 identifiers:
--   purl: pkg:composer/composer/composer
 -   repology: php:composer
+-   purl: pkg:composer/composer/composer
 -   purl: pkg:docker/library/composer
 -   purl: pkg:github/composer/composer
 
@@ -23,8 +22,8 @@ releases:
 -   releaseCycle: "2.8"
     releaseDate: 2024-10-02
     eol: false
-    latest: "2.8.4"
-    latestReleaseDate: 2024-12-11
+    latest: "2.8.8"
+    latestReleaseDate: 2025-04-04
 
 -   releaseCycle: "2.7"
     releaseDate: 2024-02-08

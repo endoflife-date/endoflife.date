@@ -9,7 +9,6 @@ alternate_urls:
 -   /semeru
 versionCommand: java -version
 releasePolicyLink: https://www.ibm.com/support/pages/node/6451203
-releaseDateColumn: true
 eolColumn: End of Service (EOS)
 
 # There is one repository for each major release (except for 15 and 16).
@@ -45,8 +44,8 @@ releases:
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-31 # expected for 24, https://www.java.com/releases/
-    latest: '23.0.1+11'
-    latestReleaseDate: 2024-11-14
+    latest: '23.0.2+7'
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "22"
     releaseDate: 2024-05-21
@@ -58,29 +57,29 @@ releases:
     lts: true
     releaseDate: 2023-09-22
     eol: 2029-12-31
-    latest: '21.0.5+11'
-    latestReleaseDate: 2024-11-14
+    latest: '21.0.6+7'
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "17"
     lts: true
     releaseDate: 2021-12-09
     eol: 2027-10-31
-    latest: '17.0.13+11'
-    latestReleaseDate: 2024-11-14
+    latest: '17.0.14+7'
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-09-16
     eol: 2027-10-31
-    latest: '11.0.25+9'
-    latestReleaseDate: 2024-11-14
+    latest: '11.0.26+4'
+    latestReleaseDate: 2025-02-10
 
 -   releaseCycle: "8"
     lts: true
     releaseDate: 2021-09-16
     eol: 2026-11-30
-    latest: '8u432-b06'
-    latestReleaseDate: 2024-11-14
+    latest: '8u442-b06'
+    latestReleaseDate: 2025-02-10
 
 ---
 

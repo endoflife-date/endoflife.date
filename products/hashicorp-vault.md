@@ -8,7 +8,6 @@ alternate_urls:
 -   /vault
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/vault/releases/tag/v__LATEST__
-releaseDateColumn: true
 eolColumn: Standard Maintenance
 eoesColumn: Extended Maintenance
 versionCommand: vault --version
@@ -22,14 +21,20 @@ auto:
   methods:
   -   git: https://github.com/hashicorp/vault.git
 
-# eol(x) = releaseDate(x+3)
+# eol(x) = releaseDate(x+1)
 # eoes(x) = releaseDate(x+6)
 releases:
+-   releaseCycle: "1.19"
+    releaseDate: 2025-03-04
+    eol: false
+    latest: "1.19.2"
+    latestReleaseDate: 2025-04-17
+
 -   releaseCycle: "1.18"
     releaseDate: 2024-10-08
-    eol: false
-    latest: "1.18.3"
-    latestReleaseDate: 2024-12-16
+    eol: 2025-03-04
+    latest: "1.18.5"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "1.17"
     releaseDate: 2024-06-10

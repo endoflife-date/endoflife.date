@@ -7,15 +7,17 @@ alternate_urls:
 -   /linuxkernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/b0moifdzsqjjdqla9hirufm9liuzwku.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/7xlrsa6tukgfhkr2gvf5f84uvr39etd.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
-releaseDateColumn: true
 
-# https://regex101.com/r/cuuOlQ/2
 auto:
   methods:
-  -   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  # Disabled because https://git.kernel.org is not bot-friendly anymore
+  #-   cgit: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+  # Replacement for the cgit migration, may not be up-to-date with git.kernel.org,
+  # but we know nothing better for now.
+  -   github_tags: gregkh/linux
 
 identifiers:
 -   cpe: cpe:/o:linux:linux_kernel
@@ -25,12 +27,24 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.14"
+    releaseDate: 2025-03-24
+    eol: false # not yet announced
+    latest: "6.14.3"
+    latestReleaseDate: 2025-04-20
+
+-   releaseCycle: "6.13"
+    releaseDate: 2025-01-19
+    eol: 2025-04-20 # announced https://lore.kernel.org/lkml/2025042056-outskirts-disarm-6ceb@gregkh/
+    latest: "6.13.12"
+    latestReleaseDate: 2025-04-20
+
 -   releaseCycle: "6.12"
     lts: true
     releaseDate: 2024-11-17
-    eol: 2026-12-31
-    latest: "6.12.8"
-    latestReleaseDate: 2025-01-02
+    eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
+    latest: "6.12.24"
+    latestReleaseDate: 2025-04-20
 
 -   releaseCycle: "6.11"
     releaseDate: 2024-09-15
@@ -66,8 +80,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.69"
-    latestReleaseDate: 2025-01-02
+    latest: "6.6.87"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -97,8 +111,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
-    latest: "6.1.123"
-    latestReleaseDate: 2025-01-02
+    latest: "6.1.134"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -134,22 +148,46 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.175"
-    latestReleaseDate: 2024-12-19
+    latest: "5.15.180"
+    latestReleaseDate: 2025-04-10
+
+-   releaseCycle: "5.14"
+    releaseDate: 2021-08-29
+    eol: 2021-11-21 # https://lkml.iu.edu/hypermail/linux/kernel/2111.2/05433.html
+    latest: "5.14.21"
+    latestReleaseDate: 2021-11-21
+
+-   releaseCycle: "5.13"
+    releaseDate: 2021-06-27
+    eol: 2021-09-18 # https://lore.kernel.org/lkml/16319668996036@kroah.com/
+    latest: "5.13.19"
+    latestReleaseDate: 2021-09-18
+
+-   releaseCycle: "5.12"
+    releaseDate: 2021-04-25
+    eol: 2021-07-20 # https://lore.kernel.org/lkml/1626791065147152@kroah.com/
+    latest: "5.12.19"
+    latestReleaseDate: 2021-07-20
+
+-   releaseCycle: "5.11"
+    releaseDate: 2021-02-14
+    eol: 2021-05-19 # https://lore.kernel.org/lkml/162141437223831@kroah.com/
+    latest: "5.11.22"
+    latestReleaseDate: 2021-05-19
 
 -   releaseCycle: "5.10"
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.232"
-    latestReleaseDate: 2024-12-19
+    latest: "5.10.236"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.288"
-    latestReleaseDate: 2024-12-19
+    latest: "5.4.292"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "4.19"
     lts: true

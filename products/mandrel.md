@@ -5,7 +5,6 @@ tags: java-distribution red-hat
 permalink: /mandrel
 changelogTemplate: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__-Final
 eolColumn: Maintenance
-releaseDateColumn: true
 
 auto:
   methods:
@@ -13,13 +12,23 @@ auto:
       regex: '^(?:mandrel-)?(?P<version>[1-9][\d\.]+)([\-\.]Final)?$' # see https://regex101.com/r/8FkqI5/1
       template: '{{version}}'
 
+identifiers:
+-   repology: mandrel
+
 releases:
+-   releaseCycle: "24.2"
+    releaseLabel: "24.2 (JDK 24)"
+    releaseDate: 2025-03-25
+    eol: 2025-10-21 # Oct 2025 CPU
+    latest: "24.2.0.0"
+    latestReleaseDate: 2025-03-25
+
 -   releaseCycle: "24.1"
     releaseLabel: "24.1 (JDK 23)"
     releaseDate: 2024-09-23
     eol: 2025-04-15 # April 2025 CPU
-    latest: "24.1.1.0"
-    latestReleaseDate: 2024-10-23
+    latest: "24.1.2.0"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "24.0"
     releaseLabel: "24.0 (JDK 22)"
@@ -33,8 +42,8 @@ releases:
     releaseDate: 2023-10-12
     eol: false
     lts: true
-    latest: "23.1.5.0"
-    latestReleaseDate: 2024-10-23
+    latest: "23.1.6.0"
+    latestReleaseDate: 2025-01-30
 
 -   releaseCycle: "23.0"
     releaseLabel: "23.0 (JDK 17)"
@@ -102,7 +111,7 @@ releases:
     eol: 2021-04-26 # April 2021 CPU / 21.1 release
     latest: "21.0.0.0"
     latestReleaseDate: 2021-02-01
-    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__.Final
+    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-21.0.0.0.Final
 
 -   releaseCycle: "20.3"
     releaseLabel: "20.3 (JDK 11)"
@@ -111,7 +120,7 @@ releases:
     lts: true
     latest: "20.3.3.0"
     latestReleaseDate: 2021-07-21
-    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__.Final
+    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-20.3.3.0-Final
 
 -   releaseCycle: "20.2"
     releaseLabel: "20.2 (JDK 11)"
@@ -119,7 +128,7 @@ releases:
     eol: 2021-01-08 # Jan 2021 CPU / 20.3 release
     latest: "20.2.0.0"
     latestReleaseDate: 2020-10-26
-    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__.Final
+    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-20.2.0.0.Final
 
 -   releaseCycle: "20.1"
     releaseLabel: "20.1 (JDK 11)"
@@ -127,7 +136,7 @@ releases:
     eol: 2021-04-20 # April 2021 CPU
     latest: "20.1.0.4"
     latestReleaseDate: 2021-01-21
-    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-__LATEST__.Final
+    link: https://github.com/graalvm/mandrel/releases/tag/mandrel-20.1.0.4.Final
 
 ---
 

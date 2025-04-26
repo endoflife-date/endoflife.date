@@ -6,7 +6,6 @@ iconSlug: joomla
 permalink: /joomla
 releasePolicyLink: https://docs.joomla.org/Release_and_support_cycle
 changelogTemplate: "https://docs.joomla.org/Special:MyLanguage/Joomla_{{'__LATEST__'|split:'.'|slice:0,2|join:'.'}}_version_history#Joomla___LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 
 identifiers:
@@ -22,8 +21,8 @@ releases:
     releaseDate: 2023-10-14
     eoas: false
     eol: 2027-10-19
-    latest: "5.2.2"
-    latestReleaseDate: 2024-11-19
+    latest: "5.3.0"
+    latestReleaseDate: 2025-04-09
     # check later for removal: link with changelogTemplate does not work (yet)
     link: https://www.joomla.org/announcements/release-news/5900-joomla-5-0-and-joomla-4-4-are-here
 
@@ -31,8 +30,8 @@ releases:
     releaseDate: 2021-08-17
     eoas: 2024-10-17
     eol: 2025-10-17
-    latest: "4.4.9"
-    latestReleaseDate: 2024-10-13
+    latest: "4.4.13"
+    latestReleaseDate: 2025-04-06
 
 -   releaseCycle: "3"
     releaseDate: 2012-09-27

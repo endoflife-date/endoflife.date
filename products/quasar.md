@@ -7,7 +7,6 @@ permalink: /quasar
 versionCommand: quasar -v
 releasePolicyLink: https://github.com/quasarframework/quasar/blob/dev/ROADMAP.md#support-policy-and-schedule
 changelogTemplate: https://github.com/quasarframework/quasar/releases/tag/quasar-v__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: LTS support
 
@@ -33,8 +32,8 @@ releases:
     releaseDate: 2021-06-21
     eoas: false
     eol: false
-    latest: "2.17.5"
-    latestReleaseDate: 2024-12-14
+    latest: "2.18.1"
+    latestReleaseDate: 2025-03-06
 
 -   releaseCycle: "1"
     releaseDate: 2019-03-07

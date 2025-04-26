@@ -6,7 +6,6 @@ permalink: /zabbix
 versionCommand: zabbix_server -V
 releasePolicyLink: https://www.zabbix.com/life_cycle_and_release_policy
 changelogTemplate: https://www.zabbix.com/rn/rn__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Support
 
@@ -14,6 +13,8 @@ identifiers:
 -   repology: zabbix
 -   purl: pkg:brew/zabbix
 -   purl: pkg:github/zabbix/zabbix
+-   cpe: cpe:2.3:a:zabbix:zabbix
+-   cpe: cpe:/a:zabbix:zabbix
 
 auto:
   methods:
@@ -37,23 +38,23 @@ releases:
     releaseDate: 2024-12-10
     eoas: 2025-06-30
     eol: 2025-12-31
-    latest: "7.2.0"
-    latestReleaseDate: 2024-12-10
+    latest: "7.2.6"
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "7.0"
     lts: true
     releaseDate: 2024-06-04
     eoas: 2027-06-30
     eol: 2029-06-30
-    latest: "7.0.5"
-    latestReleaseDate: 2024-10-22
+    latest: "7.0.12"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "6.4"
-    releaseDate: 2023-03-07
+    releaseDate: 2023-03-06
     eoas: 2024-06-30
     eol: 2024-12-31
-    latest: "6.4.20"
-    latestReleaseDate: 2024-11-20
+    latest: "6.4.21"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "6.2"
     releaseDate: 2022-07-04
@@ -67,22 +68,23 @@ releases:
     releaseDate: 2022-02-08
     eoas: 2025-02-28
     eol: 2027-02-28
-    latest: "6.0.37"
-    latestReleaseDate: 2024-12-17
+    latest: "6.0.40"
+    latestReleaseDate: 2025-04-22
 
 -   releaseCycle: "5.4"
     releaseDate: 2021-05-17
     eoas: 2022-02-28
     eol: 2022-03-31
     latest: "5.4.12"
+    latestReleaseDate: 2022-04-04
 
 -   releaseCycle: "5.0"
     lts: true
     releaseDate: 2020-05-12
     eoas: 2023-05-31
     eol: 2025-05-31
-    latest: "5.0.45"
-    latestReleaseDate: 2024-11-19
+    latest: "5.0.46"
+    latestReleaseDate: 2025-01-27
 
 -   releaseCycle: "4.0"
     lts: true

@@ -8,7 +8,6 @@ alternate_urls:
 -   /samsungmobile
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 releaseColumn: false
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Security Updates
 
@@ -19,6 +18,25 @@ eolColumn: Security Updates
 # 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in english).
 releases:
+
+-   releaseCycle: "Galaxy S25 Ultra"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S938B/INS/doc.html
+
+-   releaseCycle: "Galaxy S25+"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S936B/INS/doc.html
+
+-   releaseCycle: "Galaxy S25"
+    releaseDate: 2025-02-03
+    eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
+    eol: 2032-02-03 # "seven years of security updates"
+    link: https://doc.samsungmobile.com/SM-S931B/INS/doc.html
+
 -   releaseCycle: "Galaxy A16"
     releaseDate: 2024-11-20
     eoas: 2030-11-20 # "6 generations of OS updates" (https://news.samsung.com/uk/samsung-introduces-the-galaxy-a16-series-featuring-two-new-devices)
@@ -67,6 +85,12 @@ releases:
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S921U1/XAA/doc.html
 
+-   releaseCycle: "Galaxy XCover7"
+    releaseDate: 2024-01-10
+    eoas: 2030-01-10 #  "ANDROID 21 supported"
+    eol: 2031-01-01  # "ANDROID 21 supported"
+    link: https://doc.samsungmobile.com/sm-g556b/eux/doc.html
+    
 -   releaseCycle: "Galaxy A25 5G"
     releaseDate: 2023-12-11
     eoas: 2027-12-11 # "4 generations of OS upgrades" (https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india)
@@ -120,6 +144,12 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
+
+-   releaseCycle: "Galaxy A24"
+    releaseDate: 2023-05-05
+    eoas: false # "four generations of OS upgrades"
+    eol: 2028-05-05 #five years of security updates" (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
+    link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
 
 -   releaseCycle: "Galaxy A54 5G"
     releaseDate: 2023-03-24
@@ -310,7 +340,7 @@ releases:
 -   releaseCycle: "Galaxy S20 FE 2022" # South Korea only
     releaseDate: 2022-04-01
     eoas: false
-    eol: false
+    eol: 2026-03-31 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/sm-g781b/xeo/doc.html
 
 -   releaseCycle: "Galaxy A53 5G"
@@ -627,8 +657,8 @@ releases:
 
 -   releaseCycle: "Galaxy A02"
     releaseDate: 2021-01-27
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-03-05 # approximate (https://www.gizchina.com/2024/03/05/samsung-galaxy-smartphone-end-of-support-march-2024/)
     link: https://doc.samsungmobile.com/SM-A022F/XID/doc.html
 
 -   releaseCycle: "Galaxy A32 5G"
@@ -645,8 +675,8 @@ releases:
 
 -   releaseCycle: "Galaxy A02s"
     releaseDate: 2021-01-04
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2025-01-04 # 4 years of security updates
     link: https://doc.samsungmobile.com/SM-A025G/XEF/doc.html
 
 -   releaseCycle: "Galaxy A12"
@@ -663,8 +693,8 @@ releases:
 
 -   releaseCycle: "Galaxy A42 5G"
     releaseDate: 2020-11-11
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-06-20
     link: https://doc.samsungmobile.com/SM-A426B/XEF/doc.html
 
 -   releaseCycle: "Galaxy M21s"
@@ -694,13 +724,13 @@ releases:
 -   releaseCycle: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
 -   releaseCycle: "Galaxy S20 FE"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2024-10-02 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
 -   releaseCycle: "Galaxy Tab Active3"
@@ -753,8 +783,8 @@ releases:
 
 -   releaseCycle: "Galaxy A51 5G UW"
     releaseDate: 2020-08-14
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-06-05
     link: https://doc.samsungmobile.com/SM-A516V/CHA/doc.html
 
 -   releaseCycle: "Galaxy Z Flip 5G"
@@ -765,8 +795,8 @@ releases:
 
 -   releaseCycle: "Galaxy A51 5G"
     releaseDate: 2020-08-07
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-06-05
     link: https://doc.samsungmobile.com/SM-A516B/012784200623/nld.html
 
 -   releaseCycle: "Galaxy M51"
@@ -904,37 +934,37 @@ releases:
 -   releaseCycle: "Galaxy S20 Ultra"
     releaseDate: 2020-03-15
     eoas: true
-    eol: 2024-03-15 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-14 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
 
 -   releaseCycle: "Galaxy S20 Ultra 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G988B/ATO/doc.html
 
 -   releaseCycle: "Galaxy S20+ 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G986B/XEF/doc.html
 
 -   releaseCycle: "Galaxy S20+"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G985F/XEH/doc.html
 
 -   releaseCycle: "Galaxy S20 5G"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G981B/ITV/doc.html
 
 -   releaseCycle: "Galaxy S20"
     releaseDate: 2020-03-06
     eoas: true
-    eol: 2024-03-06 # "minimum of four (4) years following their global launch" (https://security.samsungmobile.com/workScope.smsb)
+    eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G980F/VDC/doc.html
 
 -   releaseCycle: "Galaxy M31"

@@ -5,25 +5,27 @@ permalink: /unrealircd
 versionCommand: ./unrealircd version
 releasePolicyLink: https://www.unrealircd.org/docs/UnrealIRCd_releases
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: unrealircd
 -   purl: pkg:docker/bbriggs/unrealircd
+-   cpe: cpe:2.3:a:unrealircd:unrealircd
+-   cpe: cpe:/a:unrealircd:unrealircd
 
-auto:
-  methods:
-  -   custom: unrealircd
-  -   release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle:
-          column: "Series"
-          regex: '^UnrealIRCd (?P<value>\d+(\.\d+)?)$'
-        releaseDate: "First stable release"
-        eoas: "Security fixes only"
-        eol: "End of life (EOL)"
+# https://www.unrealircd.org is now protected by anti-bot measures.
+#auto:
+#  methods:
+#  -   custom: unrealircd
+#  -   release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
+#      selector: "table"
+#      header_selector: "tr:nth-of-type(1)"
+#      fields:
+#        releaseCycle:
+#          column: "Series"
+#          regex: '^UnrealIRCd (?P<value>\d+(\.\d+)?)$'
+#        releaseDate: "First stable release"
+#        eoas: "Security fixes only"
+#        eol: "End of life (EOL)"
 
 # A list of releases, supported or not
 # Newer releases go on top of the list, in order
@@ -33,8 +35,8 @@ releases:
     eoas: false
     eol: false
     link: "https://github.com/unrealircd/unrealircd/blob/unreal60_dev/doc/RELEASE-NOTES.md#unrealircd-{{'__LATEST__'|replace:'.',''}}"
-    latest: "6.1.9"
-    latestReleaseDate: 2024-11-20
+    latest: "6.1.10"
+    latestReleaseDate: 2025-03-07
 
 -   releaseCycle: "5"
     releaseDate: 2019-12-13

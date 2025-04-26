@@ -5,9 +5,7 @@ iconSlug: blender
 permalink: /blender
 versionCommand: blender --version
 releasePolicyLink: https://developer.blender.org/docs/handbook/release_process/release_cycle/
-releaseImage: https://code.blender.org/wp-content/uploads/2023/02/blender-release-schedule-2023.png
 changelogTemplate: https://www.blender.org/download/releases/{{"__RELEASE_CYCLE__" | replace:'.','-'}}/
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Critical bug fixes
 
@@ -21,26 +19,38 @@ auto:
   methods:
   -   git: https://github.com/blender/blender.git
 
+# eoas(x) = releaseDate(x+1)
+# eol(x) =
+# - for LTS: releaseDate(x) + 2y
+# - for non-LTS: releaseDate(x+1)
+# Dates can be found on https://projects.blender.org/blender/blender/milestones.
 releases:
+-   releaseCycle: "4.4"
+    releaseDate: 2025-03-17
+    eoas: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
+    eol: 2025-07-15 # planned 4.5 LTS date, see https://projects.blender.org/blender/blender/milestone/25
+    latest: "4.4.1"
+    latestReleaseDate: 2025-04-14
+
 -   releaseCycle: "4.3"
     releaseDate: 2024-11-19
-    eoas: false
-    eol: false
+    eoas: 2025-03-18
+    eol: 2025-03-18
     latest: "4.3.2"
     latestReleaseDate: 2024-12-16
 
 -   releaseCycle: "4.2"
     lts: true
     releaseDate: 2024-07-16
-    eoas: 2026-07-01
-    eol: 2026-07-01
-    latest: "4.2.5"
-    latestReleaseDate: 2024-12-16
+    eoas: 2024-11-19
+    eol: 2026-07-16
+    latest: "4.2.9"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "4.1"
     releaseDate: 2024-03-25
-    eoas: 2024-11-19
-    eol: 2024-11-19
+    eoas: 2024-07-16
+    eol: 2024-07-16
     latest: "4.1.1"
     latestReleaseDate: 2024-04-15
 
@@ -54,30 +64,30 @@ releases:
 -   releaseCycle: "3.6"
     lts: true
     releaseDate: 2023-06-27
-    eoas: 2025-07-01
-    eol: 2025-07-01
-    latest: "3.6.19"
-    latestReleaseDate: 2024-12-16
+    eoas: 2023-11-14
+    eol: 2025-06-27
+    latest: "3.6.22"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "3.5"
     releaseDate: 2023-03-29
-    eoas: 2023-07-01
-    eol: 2023-07-01
+    eoas: 2023-06-27
+    eol: 2023-06-27
     latest: "3.5.1"
     latestReleaseDate: 2023-04-25
 
 -   releaseCycle: "3.4"
     releaseDate: 2022-12-07
-    eoas: 2023-04-01
-    eol: 2023-04-01
+    eoas: 2023-03-29
+    eol: 2023-03-29
     latest: "3.4.1"
     latestReleaseDate: 2022-12-20
 
 -   releaseCycle: "3.3"
     lts: true
     releaseDate: 2022-09-07
-    eoas: 2024-09-01
-    eol: 2024-09-01
+    eoas: 2022-12-07
+    eol: 2024-09-07
     latest: "3.3.21"
     latestReleaseDate: 2024-07-15
 
@@ -105,8 +115,8 @@ releases:
 -   releaseCycle: "2.93"
     lts: true
     releaseDate: 2021-06-02
-    eoas: 2023-06-01
-    eol: 2023-06-01
+    eoas: 2021-12-03
+    eol: 2023-06-02
     latest: "2.93.18"
     latestReleaseDate: 2023-05-23
 
@@ -124,22 +134,11 @@ releases:
 > entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and
 > motion tracking, video editing and 2D animation pipeline.
 
-## [Long Term Support](https://wiki.blender.org/wiki/Process/LTS)
+[Since February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
+Blender follows a 3-releases-per-year schedule, with one of the releases offering long-term support (Blender LTS).
 
-LTS releases are supported for 2 years with critical bug-fixes.
+Non-LTS releases are supported until the next release with high-priority bug fixes. High severity and normal bugs
+may be fixed too if agreed on by the team.
 
-For non-LTS releases, Blender only has a corrective release if severity 1 issues (high
-priority bugs) are found. When the corrective release is agreed on, however, severity 2 (high
-priority and normal bugs) fixes are ported along.
-
-For LTS releases, a more limited policy applies. Only severity 1 issues are ported (after the
-next stable release), on a fixed schedule (e.g., every 3 months) after the fix was tested in master
-for some time (e.g., 1 week).
-
-## [Release Schedule](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule)
-
-An updated release schedule was proposed in [February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
-with the following goals:
-
-- A new LTS release every year around June, supported for two years,
-- A major version and breaking release every 2 years (3.0, 4.0, 5.0…).
+LTS releases are supported for 2 years. At first the support level is the same as non-LTS releases; but after the next
+release is out, they are supported with critical bugfixes only.

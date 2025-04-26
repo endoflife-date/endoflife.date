@@ -7,7 +7,6 @@ permalink: /logstash
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/logstash/{{'__LATEST__'|split:'.'|pop|join:'.'}}/logstash-{{'__LATEST__'|replace:'.','-'}}.html"
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: logstash
@@ -18,24 +17,31 @@ auto:
   methods:
   -   git: https://github.com/elastic/logstash.git
 
+# For EOL, see https://www.elastic.co/support/eol
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2025-03-17
+    eol: false  # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.0.0"
+    latestReleaseDate: 2025-03-17
+
 -   releaseCycle: "8"
-    eol: false # later of 2024-08-10 or 18 months after the release date of 9.0
-    latest: "8.17.0"
-    latestReleaseDate: 2024-12-04
     releaseDate: 2022-02-10
+    eol: 2027-07-15
+    latest: "8.18.0"
+    latestReleaseDate: 2025-04-09
 
 -   releaseCycle: "7"
-    eol: false # later of 2023-08-01 or the release date of 9.0
-    latest: "7.17.26"
-    latestReleaseDate: 2024-10-22
     releaseDate: 2019-04-05
+    eol: 2026-01-15
+    latest: "7.17.28"
+    latestReleaseDate: 2025-02-14
 
 -   releaseCycle: "6"
+    releaseDate: 2017-11-08
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-    releaseDate: 2017-11-08
 
 ---
 

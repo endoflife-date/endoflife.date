@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: console core:version
 releasePolicyLink: https://matomo.org/faq/new-to-piwik/faq_18925/
 changelogTemplate: https://github.com/matomo-org/matomo/releases/tag/__LATEST__
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Long Term Support
 
@@ -31,8 +30,8 @@ releases:
     releaseDate: 2023-12-18
     eoas: false
     eol: false
-    latest: "5.2.1"
-    latestReleaseDate: 2024-12-20
+    latest: "5.3.1"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "4"
     releaseDate: 2020-11-24

@@ -8,22 +8,30 @@ alternate_urls:
 -   /redhat
 -   /redhatlinux
 versionCommand: cat /etc/redhat-release
-changelogTemplate:
-  https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
+changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/__RELEASE_CYCLE__/html/__LATEST___release_notes/index
 releasePolicyLink: https://access.redhat.com/support/policy/updates/errata
 LTSLabel: "<abbr title='Extended Life Cycle Support'>ELS</abbr>"
 eoasColumn: Full Support
 eolColumn: Maintenance Support
-releaseDateColumn: true
 eoesColumn: Extended Life Cycle Support
 
 identifiers:
 -   cpe: cpe:/o:redhat:enterprise_linux
 -   cpe: cpe:2.3:o:redhat:enterprise_linux
 
+auto:
+  methods:
+  -   redhat_lifecycles: Red Hat Enterprise Linux
+      regex: '^(?P<major>\d+)$'
+      fields:
+        releaseDate: General availability
+        eoas: Full support
+        eol: Maintenance support
+        eoes: Extended life cycle support (ELS) add-on
+
 releases:
 -   releaseCycle: "9"
-    releaseDate: 2022-05-17
+    releaseDate: 2022-05-18
     eoas: 2027-05-31
     eol: 2032-05-31
     lts: 2032-05-31
@@ -41,7 +49,7 @@ releases:
     latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "7"
-    releaseDate: 2013-12-11
+    releaseDate: 2014-06-10
     eoas: 2019-08-06
     eol: 2024-06-30
     lts: 2024-06-30
@@ -50,7 +58,7 @@ releases:
     latestReleaseDate: 2020-09-29
 
 -   releaseCycle: "6"
-    releaseDate: 2010-11-09
+    releaseDate: 2010-11-10
     eoas: 2016-05-10
     eol: 2020-11-30
     lts: 2020-11-30

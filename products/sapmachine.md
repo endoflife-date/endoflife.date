@@ -6,7 +6,6 @@ iconSlug: openjdk
 permalink: /sapmachine
 versionCommand: java -version
 releasePolicyLink: https://github.com/SAP/SapMachine/wiki/Security-Updates,-Maintenance-and-Support
-releaseDateColumn: true
 
 auto:
   methods:
@@ -17,11 +16,17 @@ auto:
 # LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
 # non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
+-   releaseCycle: "24"
+    releaseDate: 2025-03-19
+    eol: 2025-09-16
+    latest: '24.0.1'
+    latestReleaseDate: 2025-04-15
+
 -   releaseCycle: "23"
     releaseDate: 2024-09-18
     eol: 2025-03-18
-    latest: '23.0.1'
-    latestReleaseDate: 2024-10-15
+    latest: '23.0.2'
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "22"
     releaseDate: 2024-03-18
@@ -33,8 +38,8 @@ releases:
     lts: true
     releaseDate: 2023-09-18
     eol: 2028-09-01
-    latest: '21.0.5'
-    latestReleaseDate: 2024-10-15
+    latest: '21.0.7'
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-17
@@ -58,8 +63,8 @@ releases:
     lts: true
     releaseDate: 2021-09-14
     eol: 2026-09-01
-    latest: '17.0.13'
-    latestReleaseDate: 2024-10-15
+    latest: '17.0.15'
+    latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "16"
     releaseDate: 2021-03-15
@@ -95,8 +100,8 @@ releases:
     lts: true
     releaseDate: 2019-01-16
     eol: 2024-12-01
-    latest: '11.0.25'
-    latestReleaseDate: 2024-10-15
+    latest: '11.0.27'
+    latestReleaseDate: 2025-04-15
 
 ---
 

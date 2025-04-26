@@ -1,14 +1,13 @@
 ---
 title: AngularJS
 category: framework
-tags: discontinued google javascript-runtime
+tags: discontinued google javascript-runtime herodevs
 permalink: /angularjs
 alternate_urls:
 -   /angular-js
 versionCommand: npm list angular
 releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
 changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: Extended Long Term Support
 customColumns:
@@ -17,14 +16,14 @@ customColumns:
     label: Extended Long Term Support provider
     description: Companies that provide extended Long Term Support for AngularJS.
 
-auto:
-  methods:
-  -   npm: angular
-
 identifiers:
 -   repology: angular.js
 -   purl: pkg:npm/angular
 -   purl: pkg:github/angular/angular.js
+
+auto:
+  methods:
+  -   npm: angular
 
 releases:
 -   releaseCycle: "1.8"

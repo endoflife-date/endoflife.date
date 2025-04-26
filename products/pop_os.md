@@ -7,9 +7,8 @@ permalink: /pop-os
 alternate_urls:
 -   /popos
 -   /pop_os
-versionCommand: lsb_release --release
+versionCommand: cat /etc/os-release
 releaseColumn: false
-releaseDateColumn: true
 eolColumn: General Support
 
 # Not needed (releaseColumn is false)
@@ -28,7 +27,7 @@ releases:
 -   releaseCycle: "21.10"
     releaseDate: 2021-12-14
     eol: 2022-07-24
-    link: https://blog.system76.com/post/popos-2110-has-landed
+    link: https://blog.system76.com/post/670564272872488960/popos-2110-has-landed
 
 -   releaseCycle: "21.04"
     releaseDate: 2021-06-29

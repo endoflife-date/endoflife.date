@@ -9,7 +9,6 @@ alternate_urls:
 -   /nextdotjs
 versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
-releaseDateColumn: true
 
 identifiers:
 -   purl: pkg:npm/next
@@ -24,26 +23,26 @@ releases:
 -   releaseCycle: "15"
     releaseDate: 2024-10-21
     eol: false
-    latest: "15.1.3"
-    latestReleaseDate: 2024-12-26
+    latest: "15.3.1"
+    latestReleaseDate: 2025-04-17
 
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.2.22"
-    latestReleaseDate: 2024-12-26
+    latest: "14.2.28"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25
     eol: 2024-12-21
-    latest: "13.5.8"
-    latestReleaseDate: 2024-12-21
+    latest: "13.5.11"
+    latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "12"
     releaseDate: 2021-10-26
     eol: 2022-11-21
-    latest: "12.3.4"
-    latestReleaseDate: 2022-11-21
+    latest: "12.3.7"
+    latestReleaseDate: 2025-03-28
 
 -   releaseCycle: "11"
     releaseDate: 2021-06-15

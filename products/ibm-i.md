@@ -14,7 +14,6 @@ alternate_urls:
 -   /os-400
 versionCommand: DSPJOB OUTPUT(*PRINT)
 releasePolicyLink: https://www.ibm.com/support/pages/release-life-cycle # https://www.ibm.com/support/pages/ibm-i-release-support
-releaseDateColumn: true
 eolColumn: End of Service Pack Support (<abbr title="End of Service Pack Support">EoSPS</abbr>)
 eoesColumn: Extended Life Cycle Support
 
@@ -32,17 +31,24 @@ auto:
         eoes: "Program Support Extension Available*"
 
 releases:
+-   releaseCycle: "7.6"
+    releaseDate: 2025-04-18
+    eol: false
+    latest: "7.6.0"
+    latestReleaseDate: 2025-04-18
+    link: https://www.ibm.com/docs/i/7.6.0
+
 -   releaseCycle: "7.5"
     releaseDate: 2022-05-10
     eol: false
-    latest: "7.5"
+    latest: "7.5.0"
     latestReleaseDate: 2022-05-10
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-75
 
 -   releaseCycle: "7.4"
     releaseDate: 2019-06-21
     eol: false
-    latest: "7.4"
+    latest: "7.4.0"
     latestReleaseDate: 2019-06-21
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-74
 
@@ -50,7 +56,7 @@ releases:
     releaseDate: 2016-04-15
     eol: 2023-09-30
     eoes: 2026-09-30
-    latest: "7.3"
+    latest: "7.3.0"
     latestReleaseDate: 2016-04-15
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-73
 
@@ -58,14 +64,14 @@ releases:
     releaseDate: 2014-05-02
     eol: 2021-04-30
     eoes: 2026-04-30
-    latest: "7.2"
+    latest: "7.2.0"
     latestReleaseDate: 2014-05-02
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-72
 
 -   releaseCycle: "7.1"
     releaseDate: 2010-04-23
     eol: 2018-04-30
-    latest: "7.1"
+    latest: "7.1.0"
     latestReleaseDate: 2010-04-23
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-71
 
@@ -73,7 +79,7 @@ releases:
     releaseDate: 2008-03-21
     eol: 2015-09-30
     eoes: 2019-09-30
-    latest: "6.1"
+    latest: "6.1.0"
     latestReleaseDate: 2008-04-23
     link: https://www.ibm.com/support/pages/customer-notices-and-information-ibm-i-61
 

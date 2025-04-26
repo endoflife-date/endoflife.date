@@ -13,7 +13,6 @@ versionCommand: |-
   dnf list installed | grep -E ".*(elasticsearch|graylog|mongo).* "
 changelogTemplate: "https://go2docs.graylog.org/{{'__RELEASE_CYCLE__'|replace:'.','-'}}/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}"
 eolColumn: Support
-releaseDateColumn: true
 
 identifiers:
 -   repology: graylog
@@ -30,15 +29,15 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2024-10-18
     eol: false
-    latest: "6.1.4"
-    latestReleaseDate: 2024-12-04
+    latest: "6.1.10"
+    latestReleaseDate: 2025-04-03
     link: https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-05-06
     eol: false
-    latest: "6.0.9"
-    latestReleaseDate: 2024-12-04
+    latest: "6.0.14"
+    latestReleaseDate: 2025-04-03
 
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30

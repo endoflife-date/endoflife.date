@@ -8,9 +8,6 @@ alternate_urls:
 -   /apisix
 changelogTemplate: https://github.com/apache/apisix/releases/tag/__LATEST__
 
-identifiers:
--   repology: apisix
-
 auto:
   methods:
   -   github_releases: apache/apisix
@@ -21,9 +18,15 @@ auto:
 #
 # Official releases dates and git tag dates always differ by a few days.
 releases:
+-   releaseCycle: "3.12"
+    releaseDate: 2025-04-01
+    eol: false
+    latest: "3.12.0"
+    latestReleaseDate: 2025-04-01
+
 -   releaseCycle: "3.11"
     releaseDate: 2024-10-17
-    eol: false
+    eol: 2025-04-01
     latest: "3.11.0"
     latestReleaseDate: 2024-10-17
 

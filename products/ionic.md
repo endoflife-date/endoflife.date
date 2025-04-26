@@ -10,7 +10,6 @@ releasePolicyLink: https://ionicframework.com/docs/reference/support
 changelogTemplate: https://github.com/ionic-team/ionic-framework/releases/tag/v__LATEST__
 eoasColumn: true
 eolColumn: Maintenance
-releaseDateColumn: true
 eoesColumn: true
 
 identifiers:
@@ -51,11 +50,11 @@ releases:
     eol: false
     eoes: false
     minAngularVersion: v16
-    maxAngularVersion: v18.x
+    maxAngularVersion: v19.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
-    latest: "8.4.1"
-    latestReleaseDate: 2024-11-27
+    latest: "8.5.5"
+    latestReleaseDate: 2025-04-16
 
 -   releaseCycle: "7"
     releaseDate: 2023-03-29

@@ -1,7 +1,7 @@
 ---
 title: Vue
 category: framework
-tags: javascript-runtime
+tags: javascript-runtime herodevs
 iconSlug: vuedotjs
 permalink: /vue
 alternate_urls:
@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: npm list vue
 releasePolicyLink: https://vuejs.org/about/releases.html
 eoasColumn: true
-releaseDateColumn: true
 eoesColumn: Commercial Support
 changelogTemplate: https://github.com/vuejs/core/releases/tag/v__LATEST__
 

@@ -7,7 +7,6 @@ versionCommand: ffmpeg -version
 releasePolicyLink: https://ffmpeg.org/
 changelogTemplate: https://ffmpeg.org/download.html#release_{{"__RELEASE_CYCLE__"}}
 releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
-releaseDateColumn: true
 eolColumn: Supported
 
 identifiers:
@@ -22,13 +21,15 @@ auto:
       regex: '^n?(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.?(?P<patch>\d+)?$'
 
 # EOL date can be found on https://ffmpeg.org/olddownload.html
+# LTS: every ODD.1 release is LTS from https://news.ycombinator.com/item?id=41695542
 releases:
 -   releaseCycle: "7.1"
     codename: Péter
+    lts: true
     releaseDate: 2024-09-30
     eol: false
-    latest: "7.1"
-    latestReleaseDate: 2024-09-30
+    latest: "7.1.1"
+    latestReleaseDate: 2025-03-03
 
 -   releaseCycle: "7.0"
     codename: Dijkstra
@@ -77,8 +78,8 @@ releases:
     codename: '4:3'
     releaseDate: 2020-06-15
     eol: false
-    latest: "4.3.8"
-    latestReleaseDate: 2024-08-06
+    latest: "4.3.9"
+    latestReleaseDate: 2025-03-12
 
 -   releaseCycle: "4.2"
     codename: 'Ada'
@@ -105,8 +106,8 @@ releases:
     codename: 'Cantor'
     releaseDate: 2017-10-15
     eol: false
-    latest: "3.4.13"
-    latestReleaseDate: 2023-06-12
+    latest: "3.4.14"
+    latestReleaseDate: 2025-03-12
 
 -   releaseCycle: "3.3"
     codename: 'Hilbert'
@@ -225,42 +226,50 @@ releases:
     releaseDate: 2012-05-25
     eol: 2014-03-10
     latest: "0.11.5"
+    latestReleaseDate: 2014-03-10
 
 -   releaseCycle: "0.10"
     codename: 'Freedom'
     releaseDate: 2012-01-26
     eol: 2015-03-12
     latest: "0.10.16"
+    latestReleaseDate: 2015-03-12
 
 -   releaseCycle: "0.9"
     codename: 'Harmony'
     releaseDate: 2011-12-11
     eol: 2014-03-21
     latest: "0.9.4"
+    latestReleaseDate: 2014-03-21
 
 -   releaseCycle: "0.8"
     codename: 'Love'
     releaseDate: 2011-06-21
     eol: 2013-10-06
     latest: "0.8.15"
+    latestReleaseDate: 2013-10-06
 
 -   releaseCycle: "0.7"
     codename: 'Peace'
     releaseDate: 2011-06-21
     eol: 2015-03-12
     latest: "0.7.17"
+    latestReleaseDate: 2015-03-12
 
 -   releaseCycle: "0.6"
     codename: 'Works with HTML5'
     releaseDate: 2010-05-04
     eol: 2013-09-23
     latest: "0.6.7"
+    latestReleaseDate: 2013-09-23
 
 -   releaseCycle: "0.5"
     codename: 'half-way to world domination A.K.A. the belligerent blue bike shed'
     releaseDate: 2009-03-02
     eol: 2014-11-29
     latest: "0.5.15"
+    latestReleaseDate: 2014-11-29
+
 ---
 
 > [FFmpeg](https://ffmpeg.org/) is a free and open-source software project consisting of a suite of

@@ -7,7 +7,6 @@ versionCommand: icinga2 -V
 releasePolicyLink: https://icinga.com/subscriptions/support-matrix/
 changelogTemplate: https://github.com/Icinga/icinga2/releases/tag/v__LATEST__/
 eoasColumn: true
-releaseDateColumn: true
 
 identifiers:
 -   repology: icinga2
@@ -31,15 +30,15 @@ releases:
     releaseDate: 2023-07-12
     eoas: false
     eol: false
-    latest: "2.14.3"
-    latestReleaseDate: 2024-10-29
+    latest: "2.14.5"
+    latestReleaseDate: 2025-02-05
 
 -   releaseCycle: "2.13"
     releaseDate: 2021-08-02
     eoas: 2023-07-12
     eol: false
-    latest: "2.13.10"
-    latestReleaseDate: 2024-10-29
+    latest: "2.13.11"
+    latestReleaseDate: 2025-01-23
 
 -   releaseCycle: "2.12"
     releaseDate: 2020-08-03

@@ -13,6 +13,7 @@ eoasColumn: Full Support
 
 identifiers:
 -   cpe: cpe:2.3:a:bmc:control-m
+-   cpe: cpe:/a:bmc:control-m
 
 # Latest releases can be found on https://docs.bmc.com/docs/controlm/.
 releases:
@@ -38,7 +39,7 @@ releases:
     eol: 2024-03-04
     latest: "9.0.19.200"
     latestReleaseDate: 2020-01-16
-    link: https://docs.bmc.com/docs/controlm/9019/control-m-version-9-0-19-200-release-notes-862843904.html 
+    link: https://docs.bmc.com/docs/controlm/9019/control-m-version-9-0-19-200-release-notes-862843904.html
 
 -   releaseCycle: "9.0.18"
     releaseDate: 2018-01-03

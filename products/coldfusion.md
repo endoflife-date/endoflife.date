@@ -6,9 +6,12 @@ permalink: /coldfusion
 versionCommand: writeoutput(server.coldfusion.productversion);
 releasePolicyLink: https://helpx.adobe.com/x-productkb/policy-pricing/policy_enterprise_lifecycle.html
 changelogTemplate: https://helpx.adobe.com/coldfusion/kb/coldfusion-__RELEASE_CYCLE__-updates.html
-releaseDateColumn: true
 eolColumn: Core Support
 eoesColumn: true
+
+identifiers:
+-   cpe: cpe:2.3:a:adobe:coldfusion
+-   cpe: cpe:/a:adobe:coldfusion
 
 # Anti-scraping measures have been taken, so the script does not work anymore.
 # It has been disabled for now as it significantly increase the Update data job duration.
@@ -20,19 +23,26 @@ eoesColumn: true
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
 # to benefit from auto-updates.
 releases:
+-   releaseCycle: "2025"
+    releaseDate: 2025-04-08
+    eol: 2030-04-08
+    eoes: 2031-04-08
+    latest: "2025.0.01.331420"
+    latestReleaseDate: 2025-04-08
+
 -   releaseCycle: "2023"
     releaseDate: 2022-05-16
     eol: 2028-05-16
     eoes: 2029-05-16
-    latest: "2023.0.11.330706"
-    latestReleaseDate: 2024-10-15
+    latest: "2023.0.13.330759"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "2021"
     releaseDate: 2020-11-11
     eol: 2025-11-10
     eoes: 2026-11-10
-    latest: "2021.0.17.330334"
-    latestReleaseDate: 2024-10-15
+    latest: "2021.0.19.330379"
+    latestReleaseDate: 2025-04-08
 
 -   releaseCycle: "2018"
     releaseDate: 2018-07-12

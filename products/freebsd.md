@@ -7,7 +7,6 @@ permalink: /freebsd
 versionCommand: freebsd-version
 releasePolicyLink: https://www.freebsd.org/security/#sup
 changelogTemplate: https://www.freebsd.org/releases/{{"__RELEASE_CYCLE__" | split:'/' | last}}R/relnotes/
-releaseDateColumn: true
 releaseColumn: false
 
 identifiers:
@@ -17,6 +16,10 @@ identifiers:
 # eol(x) = releaseDate(x+1) + 3 months (rounded to the end of month)
 # See also https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html
 releases:
+-   releaseCycle: "releng/13.5"
+    releaseDate: 2025-03-11
+    eol: 2026-04-30
+
 -   releaseCycle: "releng/14.2"
     releaseDate: 2024-12-03
     eol: 2025-09-30

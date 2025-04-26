@@ -6,7 +6,6 @@ permalink: /openssl
 versionCommand: openssl version
 releasePolicyLink: https://openssl-library.org/policies/releasestrat/index.html
 changelogTemplate: https://openssl-library.org/news/openssl-__RELEASE_CYCLE__-notes/index.html
-releaseDateColumn: true
 eolColumn: Supported
 eoesColumn: Premium support
 
@@ -19,40 +18,55 @@ auto:
   methods:
   -   git: https://github.com/openssl/openssl.git
       regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?P<major>\d+)[\.|_](?P<minor>\d+)[\.|_](?P<patch>\d+\w{0,2})?$'
+  -   release_table: https://openssl-library.org/source/index.html
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Series"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        #releaseDate: "Release" # release dates are wrong
+        eol: "End-of-Life"
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
+-   releaseCycle: "3.5"
+    lts: true
+    releaseDate: 2025-04-08
+    eol: 2030-04-08 # documented on https://openssl-library.org/source/
+    latest: "3.5.0"
+    latestReleaseDate: 2025-04-08
+
 -   releaseCycle: "3.4"
     releaseDate: 2024-10-22
-    eol: false
-    latest: "3.4.0"
-    latestReleaseDate: 2024-10-22
+    eol: 2026-10-22
+    latest: "3.4.1"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-09
-    latest: "3.3.2"
-    latestReleaseDate: 2024-09-03
+    latest: "3.3.3"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    latest: "3.2.3"
-    latestReleaseDate: 2024-09-03
+    latest: "3.2.4"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
-    latest: "3.1.7"
-    latestReleaseDate: 2024-09-03
+    latest: "3.1.8"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
     eoes: false
-    latest: "3.0.15"
-    latestReleaseDate: 2024-09-03
+    latest: "3.0.16"
+    latestReleaseDate: 2025-02-11
 
 -   releaseCycle: "1.1.1"
     lts: true
@@ -78,6 +92,27 @@ releases:
     latest: "1.0.2u"
     latestReleaseDate: 2019-12-20
     link: https://openssl-library.org/news/vulnerabilities-1.0.2/
+
+-   releaseCycle: "1.0.1"
+    releaseDate: 2012-03-14
+    eol: 2016-12-31
+    latest: "1.0.1u"
+    latestReleaseDate: 2016-09-22
+    link: https://openssl-library.org/news/vulnerabilities-1.0.1/
+
+-   releaseCycle: "1.0.0"
+    releaseDate: 2010-03-29
+    eol: 2015-12-31
+    latest: "1.0.0t"
+    latestReleaseDate: 2015-12-03
+    link: https://openssl-library.org/news/vulnerabilities-1.0.0/
+
+-   releaseCycle: "0.9.8"
+    releaseDate: 2005-07-05
+    eol: 2015-12-31
+    latest: "0.9.8zh"
+    latestReleaseDate: 2015-12-03
+    link: https://openssl-library.org/news/vulnerabilities-0.9.8/
 
 ---
 

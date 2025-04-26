@@ -6,7 +6,6 @@ iconSlug: apple
 permalink: /ios
 releasePolicyLink: https://en.wikipedia.org/wiki/IOS_version_history#Overview
 eoasColumn: true
-releaseDateColumn: true
 
 auto:
   methods:
@@ -23,8 +22,8 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: "18.2"
-    latestReleaseDate: 2024-12-11
+    latest: "18.4.1"
+    latestReleaseDate: 2025-04-16
     link: https://support.apple.com/en-us/121161
 
 -   releaseCycle: "17"
@@ -38,17 +37,17 @@ releases:
 -   releaseCycle: "16"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
-    eol: 2024-08-07
-    latest: "16.7.10"
-    latestReleaseDate: 2024-08-07
+    eol: 2025-03-31
+    latest: "16.7.11"
+    latestReleaseDate: 2025-03-31
     link: https://support.apple.com/HT213407
 
 -   releaseCycle: "15"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
-    eol: 2024-09-16
-    latest: "15.8.3"
-    latestReleaseDate: 2024-07-29
+    eol: 2025-03-31
+    latest: "15.8.4"
+    latestReleaseDate: 2025-03-31
     link: https://support.apple.com/HT212788
 
 -   releaseCycle: "14"

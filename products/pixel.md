@@ -7,7 +7,6 @@ permalink: /pixel
 versionCommand: "Settings -> About Phone -> Regulatory labels"
 releasePolicyLink: https://support.google.com/nexus/answer/4457705
 releaseColumn: false
-releaseDateColumn: true
 discontinuedColumn: true
 eoasColumn: Android Updates
 eolColumn: Security Updates
@@ -22,7 +21,17 @@ customColumns:
 # Past EOL dates from https://source.android.com/docs/setup/about/build-numbers (the latest release date wins).
 # Discontinued dates from https://en.wikipedia.org/wiki/Google_Pixel
 # Supported Android versions range is based on https://www.gsmarena.com/.
+
 releases:
+-   releaseCycle: "9a"
+    releaseLabel: "Pixel 9a"
+    releaseDate: 2025-04-10
+    eoas: 2032-10-01 # at least
+    eol: 2032-10-01 # at least
+    discontinued: false
+    link: https://en.wikipedia.org/wiki/Pixel_9a
+    supportedAndroidVersions: 15 # https://www.gsmarena.com/google_pixel_9a-13478.php
+    
 -   releaseCycle: "9profold"
     releaseLabel: "Pixel 9 Pro Fold"
     releaseDate: 2024-09-04
@@ -91,7 +100,7 @@ releases:
     releaseDate: 2023-06-28
     eoas: 2028-06-01  # at least
     eol: 2028-06-01  # at least
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_Fold
     supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_fold-12265.php
 
@@ -109,7 +118,7 @@ releases:
     releaseDate: 2023-05-10
     eoas: 2028-05-01 # at least
     eol: 2028-05-01 # at least
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_7a
     supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7a-12170.php
 
@@ -118,7 +127,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2027-10-01 # at least
     eol: 2027-10-01 # at least
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_7_Pro
     supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7_pro-11908.php
 
@@ -127,7 +136,7 @@ releases:
     releaseDate: 2022-10-13
     eoas: 2027-10-01 # at least
     eol: 2027-10-01 # at least
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_7
     supportedAndroidVersions: 13 - 15 # https://www.gsmarena.com/google_pixel_7-11903.php
 
@@ -136,7 +145,7 @@ releases:
     releaseDate: 2022-07-28
     eoas: 2027-07-01 # at least
     eol: 2027-07-01 # at least
-    discontinued: false
+    discontinued: true
     link: https://en.wikipedia.org/wiki/Pixel_6a
     supportedAndroidVersions: 12 - 15 # https://www.gsmarena.com/google_pixel_6a-11229.php
 
@@ -194,8 +203,17 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_4a
     supportedAndroidVersions: 10 - 13 # https://www.gsmarena.com/google_pixel_4a-10123.php
 
+-   releaseCycle: "4xl"
+    releaseLabel: "Pixel 4 XL"
+    releaseDate: 2019-10-24
+    eoas: 2022-10-05
+    eol: 2022-10-05 # TP1A.221005.002.B2
+    discontinued: 2020-08-06
+    link: https://en.wikipedia.org/wiki/Pixel_4
+    supportedAndroidVersions: 10 - 13 # https://www.gsmarena.com/google_pixel_4_xl-9895.php
+
 -   releaseCycle: "4"
-    releaseLabel: "Pixel 4 / XL"
+    releaseLabel: "Pixel 4"
     releaseDate: 2019-10-24
     eoas: 2022-10-05
     eol: 2022-10-05 # TP1A.221005.002.B2
@@ -203,41 +221,77 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_4
     supportedAndroidVersions: 10 - 13 # https://www.gsmarena.com/google_pixel_4-9896.php
 
+-   releaseCycle: "3axl"
+    releaseLabel: "Pixel 3a XL"
+    releaseDate: 2019-05-15
+    eoas: 2022-05-05
+    eol: 2022-05-05 # SP2A.220505.008
+    discontinued: 2020-07-01
+    link: https://en.wikipedia.org/wiki/Pixel_3a
+    supportedAndroidVersions: 9 - 12.1 # https://www.gsmarena.com/google_pixel_3a_xl-9690.php
+
 -   releaseCycle: "3a"
-    releaseLabel: "Pixel 3a / XL"
-    releaseDate: 2019-05-07
+    releaseLabel: "Pixel 3a"
+    releaseDate: 2019-05-15
     eoas: 2022-05-05
     eol: 2022-05-05 # SP2A.220505.008
     discontinued: 2020-07-01
     link: https://en.wikipedia.org/wiki/Pixel_3a
     supportedAndroidVersions: 9 - 12.1 # https://www.gsmarena.com/google_pixel_3a-9408.php
 
+-   releaseCycle: "3xl"
+    releaseLabel: "Pixel 3 XL"
+    releaseDate: 2018-10-18
+    eoas: 2021-10-05
+    eol: 2021-10-05 # SP1A.210812.016.C2
+    discontinued: 2020-03-31
+    link: https://en.wikipedia.org/wiki/Pixel_3
+    supportedAndroidVersions: 9 - 12 # https://www.gsmarena.com/google_pixel_3_xl-9257.php
+
 -   releaseCycle: "3"
-    releaseLabel: "Pixel 3 / XL"
-    releaseDate: 2018-10-09
+    releaseLabel: "Pixel 3"
+    releaseDate: 2018-10-18
     eoas: 2021-10-05
     eol: 2021-10-05 # SP1A.210812.016.C2
     discontinued: 2020-03-31
     link: https://en.wikipedia.org/wiki/Pixel_3
     supportedAndroidVersions: 9 - 12 # https://www.gsmarena.com/google_pixel_3-9256.php
 
+-   releaseCycle: "2xl"
+    releaseLabel: "Pixel 2 XL"
+    releaseDate: 2017-10-17
+    eoas: 2020-10-05
+    eol: 2020-10-05 # RP1A.201005.004.A1
+    discontinued: 2019-04-01
+    link: https://en.wikipedia.org/wiki/Pixel_2
+    supportedAndroidVersions: 8 - 11 # https://www.gsmarena.com/google_pixel_2_xl-8720.php
+
 -   releaseCycle: "2"
-    releaseLabel: "Pixel 2 / XL"
-    releaseDate: 2017-10-19
+    releaseLabel: "Pixel 2"
+    releaseDate: 2017-10-17
     eoas: 2020-10-05
     eol: 2020-10-05 # RP1A.201005.004.A1
     discontinued: 2019-04-01
     link: https://en.wikipedia.org/wiki/Pixel_2
     supportedAndroidVersions: 8 - 11 # https://www.gsmarena.com/google_pixel_2-8733.php
 
--   releaseCycle: "1"
-    releaseLabel: "Pixel / Pixel XL"
+-   releaseCycle: "1xl"
+    releaseLabel: "Pixel XL"
     releaseDate: 2016-10-20
     eoas: 2019-10-06
     eol: 2019-10-06 # QP1A.191005.007.A3
     discontinued: 2018-04-11
     link: https://en.wikipedia.org/wiki/Pixel_(1st_generation)
     supportedAndroidVersions: 7.1 - 10 # https://www.gsmarena.com/google_pixel_xl-8345.php
+
+-   releaseCycle: "1"
+    releaseLabel: "Pixel"
+    releaseDate: 2016-10-20
+    eoas: 2019-10-06
+    eol: 2019-10-06 # QP1A.191005.007.A3
+    discontinued: 2018-04-11
+    link: https://en.wikipedia.org/wiki/Pixel_(1st_generation)
+    supportedAndroidVersions: 7.1 - 10 # https://www.gsmarena.com/google_pixel-8346.php
 
 ---
 

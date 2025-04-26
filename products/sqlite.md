@@ -8,10 +8,10 @@ alternate_urls:
 versionCommand: sqlite3 --version
 releasePolicyLink: https://www.sqlite.org/support.html
 changelogTemplate: "https://www.sqlite.org/changes.html#version_{{'__LATEST__'|replace:'.','_'}}"
-releaseDateColumn: true
 eolColumn: Support Status
 
 identifiers:
+-   repology: sqlite
 -   purl: pkg:generic/sqlite
 -   purl: pkg:apk/alpine/sqlite
 -   purl: pkg:github/sqlite/sqlite
@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.47.2"
-    latestReleaseDate: 2024-12-07
+    latest: "3.49.1"
+    latestReleaseDate: 2025-02-18
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28

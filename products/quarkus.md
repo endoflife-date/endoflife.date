@@ -9,7 +9,6 @@ alternate_urls:
 releasePolicyLink: https://quarkus.io/security/
 # See https://github.com/endoflife-date/endoflife.date/issues/3462
 changelogTemplate: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__
-releaseDateColumn: true
 eolColumn: Support
 eoesColumn: <abbr title="Red Hat build of Quarkus">RHBQ</abbr>
 
@@ -33,17 +32,40 @@ auto:
 # - eol(x) = releaseDate(x)+1y for LTS
 # - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
 releases:
--   releaseCycle: "3.17"
-    lts: false
-    releaseDate: 2024-11-27
+-   releaseCycle: "3.21"
+    releaseDate: 2025-03-26
     eol: false
-    latest: "3.17.5"
-    latestReleaseDate: 2024-12-19
+    latest: "3.21.4"
+    latestReleaseDate: 2025-04-24
+
+-   releaseCycle: "3.20"
+    lts: true
+    releaseDate: 2025-03-26
+    eol: 2026-03-28
+    latest: "3.20.0"
+    latestReleaseDate: 2025-03-26
+
+-   releaseCycle: "3.19"
+    releaseDate: 2025-02-26
+    eol: 2025-03-28
+    latest: "3.19.4"
+    latestReleaseDate: 2025-03-19
+
+-   releaseCycle: "3.18"
+    releaseDate: 2025-01-29
+    eol: 2025-02-26
+    latest: "3.18.4"
+    latestReleaseDate: 2025-02-19
+
+-   releaseCycle: "3.17"
+    releaseDate: 2024-11-27
+    eol: 2025-01-29
+    latest: "3.17.8"
+    latestReleaseDate: 2025-01-22
 
 -   releaseCycle: "3.16"
-    lts: false
     releaseDate: 2024-10-30
-    eol: 2024-11-28
+    eol: 2024-11-27
     latest: "3.16.4"
     latestReleaseDate: 2024-11-20
 
@@ -52,42 +74,42 @@ releases:
     releaseDate: 2024-09-25
     eol: 2025-09-25
     eoes: false
-    latest: "3.15.2"
-    latestReleaseDate: 2024-11-18
+    latest: "3.15.4"
+    latestReleaseDate: 2025-03-18
 
 -   releaseCycle: "3.14"
     releaseDate: 2024-08-28
-    eol: 2024-09-25 # releaseDate(3.15)
+    eol: 2024-09-25
     latest: "3.14.4"
     latestReleaseDate: 2024-09-14
 
 -   releaseCycle: "3.13"
     releaseDate: 2024-07-31
-    eol: 2024-08-28 # releaseDate(3.14)
+    eol: 2024-08-28
     latest: "3.13.3"
     latestReleaseDate: 2024-08-20
 
 -   releaseCycle: "3.12"
     releaseDate: 2024-06-26
-    eol: 2024-07-31 # releaseDate(3.13)
+    eol: 2024-07-31
     latest: "3.12.3"
     latestReleaseDate: 2024-07-17
 
 -   releaseCycle: "3.11"
     releaseDate: 2024-05-29
-    eol: 2024-06-26 # releaseDate(3.12)
+    eol: 2024-06-26
     latest: "3.11.3"
     latestReleaseDate: 2024-06-19
 
 -   releaseCycle: "3.10"
     releaseDate: 2024-04-30
-    eol: 2024-05-29 # releaseDate(3.11)
+    eol: 2024-05-29
     latest: "3.10.2"
     latestReleaseDate: 2024-05-22
 
 -   releaseCycle: "3.9"
     releaseDate: 2024-03-27
-    eol: 2024-04-30 # releaseDate(3.10)
+    eol: 2024-04-30
     latest: "3.9.5"
     latestReleaseDate: 2024-04-27
 
@@ -96,8 +118,8 @@ releases:
     releaseDate: 2024-02-28
     eol: 2025-02-28
     eoes: false
-    latest: "3.8.6"
-    latestReleaseDate: 2024-08-29
+    latest: "3.8.6.1"
+    latestReleaseDate: 2025-02-27
 
 -   releaseCycle: "3.7"
     releaseDate: 2024-01-31
@@ -297,6 +319,11 @@ releases:
 The Quarkus team releases a `major.minor` version every 4 to 6 weeks, and a fix version targeting
 the latest version every week in between. [Beginning with Quarkus 3.2](https://quarkus.io/blog/lts-releases/),
 a new LTS version is also published every 6 months.
+
+Quarkus releases an LTS (Long-Term Support) version every six months. LTS is designed for users who prioritize
+stability over new features.
+These versions are maintained for one year and receive critical bug and CVE fixes. An overlap period allows a smooth upgrade to the next LTS.
+A new LTS version will be released every six months. For each LTS, micro-releases will occur every two months (e.g., 3.20.1, 3.20.2).
 
 Non-LTS minor versions are supported with bug fixes and security updates [until the next minor version](https://github.com/quarkusio/quarkus/discussions/29161). LTS releases are supported for 12 months
 with critical bug fixes and security patches.

@@ -6,7 +6,6 @@ permalink: /istio
 versionCommand: istioctl version
 releasePolicyLink: https://istio.io/latest/docs/releases/supported-releases/#support-policy
 changelogTemplate: https://istio.io/latest/news/releases/__RELEASE_CYCLE__.x/announcing-{{'__LATEST__'|drop_zero_patch}}/
-releaseDateColumn: true
 
 identifiers:
 -   repology: istio
@@ -40,26 +39,33 @@ auto:
 # Effective and approximate EOL dates as well as Supported Kubernetes Versions can be found on
 # https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases.
 releases:
+-   releaseCycle: "1.25"
+    releaseDate: 2025-03-03
+    eol: 2025-12-31
+    supportedKubernetesVersions: '1.29 - 1.32'
+    latest: "1.25.2"
+    latestReleaseDate: 2025-04-14
+
 -   releaseCycle: "1.24"
     releaseDate: 2024-11-07
     eol: 2025-08-31
     supportedKubernetesVersions: '1.28 - 1.31'
-    latest: "1.24.2"
-    latestReleaseDate: 2024-12-18
+    latest: "1.24.5"
+    latestReleaseDate: 2025-04-14
 
 -   releaseCycle: "1.23"
     releaseDate: 2024-08-14
-    eol: 2025-05-31
+    eol: 2025-04-16
     supportedKubernetesVersions: '1.27 - 1.30'
-    latest: "1.23.4"
-    latestReleaseDate: 2024-12-18
+    latest: "1.23.6"
+    latestReleaseDate: 2025-04-07
 
 -   releaseCycle: "1.22"
     releaseDate: 2024-05-13
-    eol: 2025-01-31
+    eol: 2025-01-22
     supportedKubernetesVersions: '1.27 - 1.30'
-    latest: "1.22.7"
-    latestReleaseDate: 2024-12-18
+    latest: "1.22.8"
+    latestReleaseDate: 2025-01-23
 
 -   releaseCycle: "1.21"
     releaseDate: 2024-03-13

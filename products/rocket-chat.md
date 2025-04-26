@@ -8,7 +8,6 @@ alternate_urls:
 -   /rocketchat
 releasePolicyLink: https://docs.rocket.chat/docs/support-prerequisites
 changelogTemplate: "https://github.com/RocketChat/Rocket.Chat/releases/tag/__LATEST__"
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Support
 
@@ -18,23 +17,54 @@ auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
 
+identifiers:
+-   repology: rocketchat-server
+
 # https://docs.rocket.chat/docs/rocketchat-release-notes
 # eoas(x) = releaseDate(x)
-# eol(x) can be found on https://docs.rocket.chat/docs/version-durability
+# eol(x) can be found on https://docs.rocket.chat/docs/rocketchat-release-notes
 releases:
+-   releaseCycle: "7.5"
+    releaseDate: 2025-04-07
+    eoas: 2025-04-07
+    eol: 2025-10-31
+    latest: '7.5.1'
+    latestReleaseDate: 2025-04-08
+
+-   releaseCycle: "7.4"
+    releaseDate: 2025-03-05
+    eoas: 2025-03-05
+    eol: 2025-08-31
+    latest: '7.4.2'
+    latestReleaseDate: 2025-04-08
+
+-   releaseCycle: "7.3"
+    releaseDate: 2025-01-31
+    eoas: 2025-01-31
+    eol: 2025-07-31
+    latest: '7.3.4'
+    latestReleaseDate: 2025-03-11
+
+-   releaseCycle: "7.2"
+    releaseDate: 2025-01-07
+    eoas: 2025-01-07
+    eol: 2025-07-31
+    latest: '7.2.5'
+    latestReleaseDate: 2025-03-01
+
 -   releaseCycle: "7.1"
     releaseDate: 2024-12-04
-    eoas: 2024-12-31
+    eoas: 2024-12-04
     eol: 2025-06-30
-    latest: '7.1.0'
-    latestReleaseDate: 2024-12-04
+    latest: '7.1.5'
+    latestReleaseDate: 2025-03-01
 
 -   releaseCycle: "7.0"
     releaseDate: 2024-10-31
     eoas: 2024-10-31
     eol: 2025-04-30
-    latest: '7.0.3'
-    latestReleaseDate: 2024-12-17
+    latest: '7.0.9'
+    latestReleaseDate: 2025-03-01
 
 -   releaseCycle: "6.13"
     releaseDate: 2024-10-10
@@ -61,8 +91,8 @@ releases:
     releaseDate: 2024-07-10
     eoas: 2024-07-10
     eol: 2025-01-31
-    latest: '6.10.9'
-    latestReleaseDate: 2024-12-16
+    latest: '6.10.10'
+    latestReleaseDate: 2025-01-08
 
 -   releaseCycle: "6.9"
     releaseDate: 2024-06-02

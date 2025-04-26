@@ -7,7 +7,6 @@ versionCommand: rosversion -d
 releasePolicyLink: https://wiki.ros.org/Distributions
 changelogTemplate: 'https://wiki.ros.org/__RELEASE_CYCLE__'
 releaseLabel: '__CODENAME__'
-releaseDateColumn: true
 releaseColumn: false
 eolColumn: End Of Life
 

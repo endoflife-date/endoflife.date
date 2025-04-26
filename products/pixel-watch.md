@@ -7,7 +7,6 @@ permalink: /pixel-watch
 versionCommand: "Settings -> System -> About"
 releasePolicyLink: https://support.google.com/product-documentation/answer/12799779
 releaseColumn: false
-releaseDateColumn: true
 discontinuedColumn: true
 eoasColumn: WearOS Updates
 eolColumn: Security Updates

@@ -7,7 +7,6 @@ permalink: /roundcube
 releasePolicyLink: https://roundcube.net/news/2021/10/18/roundcube-1.5.0-released
 changelogTemplate: https://github.com/roundcube/roundcubemail/releases/tag/__LATEST__
 eoasColumn: true
-releaseDateColumn: true
 eolColumn: Security Support
 
 identifiers:
@@ -22,8 +21,8 @@ releases:
     releaseDate: 2022-07-25
     eoas: false
     eol: false
-    latest: "1.6.9"
-    latestReleaseDate: 2024-09-01
+    latest: "1.6.10"
+    latestReleaseDate: 2025-02-08
 
 -   releaseCycle: "1.5"
     releaseDate: 2021-10-18

@@ -10,7 +10,6 @@ alternate_urls:
 versionCommand: groovy --version
 releasePolicyLink: https://groovy.apache.org/versioning.html
 changelogTemplate: https://groovy-lang.org/changelogs/changelog-__LATEST__.html
-releaseDateColumn: true
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
@@ -29,15 +28,15 @@ releases:
     releaseDate: 2022-01-25
     eol: false
     eoas: false
-    latest: "4.0.24"
-    latestReleaseDate: 2024-11-05
+    latest: "4.0.26"
+    latestReleaseDate: 2025-02-24
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
     eoas: true
     eol: false
-    latest: "3.0.23"
-    latestReleaseDate: 2024-11-08
+    latest: "3.0.24"
+    latestReleaseDate: 2025-02-27
 
 -   releaseCycle: "2.5"
     releaseDate: 2018-05-30

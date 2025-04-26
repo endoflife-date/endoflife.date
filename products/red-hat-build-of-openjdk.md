@@ -14,7 +14,6 @@ alternate_urls:
 versionCommand: java -version
 releasePolicyLink: https://access.redhat.com/articles/1299013
 changelogTemplate: https://access.redhat.com/documentation/en-us/red_hat_build_of_openjdk/__RELEASE_CYCLE__
-releaseDateColumn: true
 eolColumn: Support
 releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 
@@ -24,49 +23,57 @@ releaseLabel: "OpenJDK __RELEASE_CYCLE__"
 # This is not great, since it is quite impossible to match
 # identifiers to a release cycle.
 identifiers:
-    - purl: pkg:rpm/redhat/java-1.6.0-openjdk
-    - purl: pkg:rpm/redhat/java-1.7.0-openjdk
-    - purl: pkg:rpm/redhat/java-1.7.0-openjdk-headless
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-debug
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless-debug
-    - purl: pkg:rpm/redhat/java-11-openjdk
-    - purl: pkg:rpm/redhat/java-11-openjdk-debug
-    - purl: pkg:rpm/redhat/java-11-openjdk-headless-debug
-    - purl: pkg:rpm/redhat/java-1.6.0-openjdk-devel
-    - purl: pkg:rpm/redhat/java-1.7.0-openjdk-devel
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel
-    - purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug
-    - purl: pkg:rpm/redhat/java-11-openjdk-devel
-    - purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
+-   purl: pkg:rpm/redhat/java-1.6.0-openjdk
+-   purl: pkg:rpm/redhat/java-1.7.0-openjdk
+-   purl: pkg:rpm/redhat/java-1.7.0-openjdk-headless
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk-debug
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk-headless-debug
+-   purl: pkg:rpm/redhat/java-11-openjdk
+-   purl: pkg:rpm/redhat/java-11-openjdk-debug
+-   purl: pkg:rpm/redhat/java-11-openjdk-headless-debug
+-   purl: pkg:rpm/redhat/java-1.6.0-openjdk-devel
+-   purl: pkg:rpm/redhat/java-1.7.0-openjdk-devel
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel
+-   purl: pkg:rpm/redhat/java-1.8.0-openjdk-devel-debug
+-   purl: pkg:rpm/redhat/java-11-openjdk-devel
+-   purl: pkg:rpm/redhat/java-11-openjdk-devel-debug
+
+auto:
+  methods:
+  -   redhat_lifecycles: Red Hat build of OpenJDK
+      regex: '^OpenJDK (?P<major>\d+).*$'
+      fields:
+        releaseDate: General availability
+        eol: Full support
 
 # EOL dates can be found on https://access.redhat.com/articles/1299013.
 releases:
 -   releaseCycle: "21"
-    releaseDate: 2023-10-30
+    releaseDate: 2023-11-14
     eol: 2029-12-31
     # https://access.redhat.com/downloads/content/java-21-openjdk/x86_64/package-latest
     latest: "21.0.3.0.9-1"
     latestReleaseDate: 2024-04-18
 
 -   releaseCycle: "17"
-    releaseDate: 2021-05-18 # RHEL 8.4
-    eol: 2027-10-30
+    releaseDate: 2021-11-11 # RHEL 8.4
+    eol: 2027-10-31
     # https://access.redhat.com/downloads/content/java-17-openjdk/x86_64/package-latest
     latest: "17.0.11.0.9-2"
     latestReleaseDate: 2024-04-18
 
 -   releaseCycle: "11"
-    releaseDate: 2018-10-30 # RHEL 7.6
-    eol: 2024-10-30
+    releaseDate: 2018-10-01 # RHEL 7.6
+    eol: 2024-10-31
     # https://access.redhat.com/downloads/content/java-11-openjdk/x86_64/package-latest
     latest: "11.0.23.0.9-3"
     latestReleaseDate: 2024-04-22
 
 -   releaseCycle: "8"
     releaseLabel: "OpenJDK 8 (1.8)"
-    releaseDate: 2015-03-05 # RHEL 7.1
+    releaseDate: 2014-10-01 # RHEL 7.1
     eol: 2026-11-30
     # https://access.redhat.com/downloads/content/java-1.8.0-openjdk/x86_64/package-latest
     latest: "1.8.0.412.b08-2"
@@ -74,7 +81,7 @@ releases:
 
 -   releaseCycle: "7"
     releaseLabel: "OpenJDK 7 (1.7)"
-    releaseDate: 2013-01-07 # RHEL 5.9
+    releaseDate: 2007-03-15 # RHEL 5.9
     eol: 2020-06-30
     # https://access.redhat.com/downloads/content/java-1.7.0-openjdk/x86_64/package-latest
     latest: "1.7.0.261-2.6.22.2"
@@ -83,7 +90,7 @@ releases:
 
 -   releaseCycle: "6"
     releaseLabel: "OpenJDK 6 (1.6)"
-    releaseDate: 2009-01-20 # RHEL 5.3
+    releaseDate: 2007-03-15 # RHEL 5.3
     eol: 2016-12-31
     # https://access.redhat.com/downloads/content/java-1.6.0-openjdk/x86_64/package-latest
     latest: "1.6.0.41-1.13.13.1"

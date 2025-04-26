@@ -9,7 +9,6 @@ alternate_urls:
 versionCommand: pveversion –v
 releasePolicyLink: https://pve.proxmox.com/wiki/FAQ
 changelogTemplate: "https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE___LATEST__"
-releaseDateColumn: true
 
 identifiers:
 -   cpe: cpe:/a:proxmox:virtual_environment
@@ -32,8 +31,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-06-22
     eol: false
-    latest: "8.3"
-    latestReleaseDate: 2024-11-21
+    latest: "8.4"
+    latestReleaseDate: 2025-04-09
 
 -   releaseCycle: "7"
     releaseDate: 2021-07-06

@@ -6,7 +6,6 @@ permalink: /lineageos
 alternate_urls:
 -   /lineage
 releaseColumn: false
-releaseDateColumn: true
 customColumns:
 -   property: androidVersion
     position: after-release-column
@@ -19,6 +18,13 @@ identifiers:
 -   cpe: cpe:2.3:o:lineageos:lineageos
 
 releases:
+# Changed back to minor versions due to changes in upstream development (Quarterly Platform Releases). Read Changelog 29 (LineageOS 22[.1]) for more information.
+-   releaseCycle: "22.1"
+    releaseDate: 2024-12-31
+    eol: false
+    link: https://lineageos.org/Changelog-29/
+    androidVersion: 15
+
 -   releaseCycle: "21"
     releaseDate: 2024-02-14
     eol: false
@@ -27,7 +33,7 @@ releases:
 
 -   releaseCycle: "20"
     releaseDate: 2022-12-31
-    eol: false
+    eol: true
     link: https://lineageos.org/Changelog-27/
     androidVersion: 13
 

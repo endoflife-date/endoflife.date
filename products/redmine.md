@@ -6,7 +6,6 @@ iconSlug: redmine
 permalink: /redmine
 releasePolicyLink: https://www.redmine.org/projects/redmine/news
 changelogTemplate: "https://www.redmine.org/projects/redmine/wiki/Changelog_{{'__RELEASE_CYCLE__'|replace:'.','_'}}"
-releaseDateColumn: true
 
 identifiers:
 -   repology: redmine
@@ -22,20 +21,20 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2024-11-10
     eol: false
-    latest: "6.0.2"
-    latestReleaseDate: 2024-12-11
+    latest: "6.0.5"
+    latestReleaseDate: 2025-04-20
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-10-31
     eol: false
-    latest: "5.1.5"
-    latestReleaseDate: 2024-12-11
+    latest: "5.1.8"
+    latestReleaseDate: 2025-04-20
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-03-28
     eol: false
-    latest: "5.0.10"
-    latestReleaseDate: 2024-11-03
+    latest: "5.0.12"
+    latestReleaseDate: 2025-03-10
 
 -   releaseCycle: "4.2"
     releaseDate: 2021-03-28
