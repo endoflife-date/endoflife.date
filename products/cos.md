@@ -23,6 +23,13 @@ auto:
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
+-   releaseCycle: "cos-121"
+    lts: true
+    releaseDate: 2025-04-14
+    eol: 2027-03-01
+    latest: "cos-121-18867-0-94"
+    latestReleaseDate: 2025-04-14
+
 -   releaseCycle: "cos-117"
     lts: true
     releaseDate: 2024-10-02
