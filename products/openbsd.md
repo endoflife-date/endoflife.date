@@ -12,7 +12,7 @@ releaseColumn: false
 releases:
 -   releaseCycle: "7.7"
     releaseDate: 2025-04-28
-    eol: 2026-05-01  # estimated from releaseDate: 2024-04-05
+    eol: 2026-05-01  # estimated from releaseDate: 2025-04-28
 
 -   releaseCycle: "7.6"
     releaseDate: 2024-10-08
