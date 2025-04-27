@@ -23,6 +23,13 @@ auto:
 # Release dates from https://www.atlassian.com/software/jira/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.
 releases:
+-   releaseCycle: "10.6"
+    releaseDate: 2025-04-23
+    eol: 2027-04-23
+    latest: "10.6.0"
+    latestReleaseDate: 2025-04-23
+    link: https://confluence.atlassian.com/jirasoftware/jira-software-10-6-x-release-notes-1541080745.html
+
 -   releaseCycle: "10.5"
     releaseDate: 2025-03-12
     eol: 2027-03-12
