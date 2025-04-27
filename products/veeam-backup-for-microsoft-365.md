@@ -8,8 +8,6 @@ alternate_urls:
 - /veeam-backup-365
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
-releaseColumn: true
-releaseDateColumn: true
 eolColumn: End of Support
 
 auto:
@@ -136,7 +134,6 @@ releases:
     link: "https://www.veeam.com/kb4106"
 
 ---
-
 
 > [Veeam Backup for Microsoft 365](https://www.veeam.com/products/backup-microsoft-365.html)
 > is a comprehensive solution designed to back up and restore your Microsoft 365 data, including
