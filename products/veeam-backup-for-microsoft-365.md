@@ -5,71 +5,65 @@ tags: veeam
 iconSlug: veeam
 permalink: /veeam-backup-for-microsoft-365
 alternate_urls:
-- /veeam-backup-365
+-   /veeam-backup-365
 releasePolicyLink: https://www.veeam.com/product-lifecycle.html
 eoasColumn: End of Fix
 eolColumn: End of Support
 
 auto:
   methods:
-    -   veeam: https://www.veeam.com/kb4106
+  -   veeam: https://www.veeam.com/kb4106
+      version_column: "Console Build"
 
 releases:
-- releaseCycle: "8.0"
-  releaseDate: 2024-09-03
-  eoas: false # will be 9.0 GA date
-  eol: 2027-09-03
-  latest: "8.0.5.20"
-  latestReleaseDate: 2024-12-12
+-   releaseCycle: "8"
+    releaseDate: 2024-09-03
+    eoas: false # 9.0 GA date
+    eol: 2026-09-03 # https://www.veeam.com/product-lifecycle.html
+    latest: "8.1.1.159"
+    latestReleaseDate: 2025-04-02
 
-- releaseCycle: "7.0"
-  releaseDate: 2023-01-17
-  eoas: 2024-09-03
-  eol: 2026-01-17
-  latest: "7.0.2.5603"
-  latestReleaseDate: 2023-10-20
+-   releaseCycle: "7"
+    releaseDate: 2023-02-28
+    eoas: 2023-12-28 # https://www.veeam.com/product-lifecycle.html
+    eol: 2023-06-28 # https://www.veeam.com/product-lifecycle.html
+    latest: "7.1.0.2031"
+    latestReleaseDate: 2024-04-24
 
-- releaseCycle: "6.0"
-  releaseDate: 2021-07-13
-  eoas: 2023-01-17
-  eol: 2024-07-13
-  latest: "6.0.3.123"
-  latestReleaseDate: 2022-12-06
+-   releaseCycle: "6"
+    releaseDate: 2022-03-09
+    eoas: 2023-02-28
+    eol: 2024-03-09 # https://web.archive.org/web/20230611005614/https://www.veeam.com/product-lifecycle.html
+    latest: "6.1.0.1015"
+    latestReleaseDate: 2023-03-28
 
-- releaseCycle: "5.0"
-  releaseDate: 2020-12-02
-  eoas: 2021-07-13
-  eol: 2023-12-02
-  latest: "5.0.3.132"
-  latestReleaseDate: 2021-06-14
+-   releaseCycle: "5"
+    releaseDate: 2020-12-03
+    eoas: 2022-03-09
+    eol: 2023-12-02 # https://web.archive.org/web/20230611005614/https://www.veeam.com/product-lifecycle.html
+    latest: "5.0.3.1063"
+    latestReleaseDate: 2022-02-08
 
-- releaseCycle: "4.0"
-  releaseDate: 2019-11-19
-  eoas: 2020-12-02
-  eol: 2022-11-19
-  latest: "4.0.1.531"
-  latestReleaseDate: 2020-04-21
+-   releaseCycle: "4"
+    releaseDate: 2019-11-26
+    eoas: 2020-12-03
+    eol: 2022-11-26 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
+    latest: "4.0.1.625"
+    latestReleaseDate: 2021-02-16
 
-- releaseCycle: "3.0"
-  releaseDate: 2019-02-05
-  eoas: 2019-11-19
-  eol: 2021-02-05
-  latest: "3.0.0.422"
-  latestReleaseDate: 2019-02-05
+-   releaseCycle: "3"
+    releaseDate: 2019-04-02
+    eoas: 2019-11-26
+    eol: 2022-04-02 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
+    latest: "3.0.0.422"
+    latestReleaseDate: 2019-04-02
 
-- releaseCycle: "2.0"
-  releaseDate: 2017-12-12
-  eoas: 2019-02-05
-  eol: 2020-12-12
-  latest: "2.0.0.567"
-  latestReleaseDate: 2017-12-12
-
-- releaseCycle: "1.0"
-  releaseDate: 2016-11-01
-  eoas: 2017-12-12
-  eol: 2019-11-01
-  latest: "1.5.0.109"
-  latestReleaseDate: 2017-05-25
+-   releaseCycle: "2"
+    releaseDate: 2018-07-24
+    eoas: 2019-04-02
+    eol: 2021-07-24 # https://web.archive.org/web/20210614182742/https://www.veeam.com/product-lifecycle.html
+    latest: "2.0.0.814"
+    latestReleaseDate: 2018-12-28
 
 ---
 
