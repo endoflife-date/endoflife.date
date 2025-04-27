@@ -12,7 +12,7 @@ eolColumn: End of Support
 
 auto:
   methods:
-  - custom: veeam-backup-for-microsoft-365
+    -   veeam: https://www.veeam.com/kb4106
 
 releases:
 - releaseCycle: "8.0"
@@ -21,16 +21,6 @@ releases:
   eol: 2027-09-03
   latest: "8.0.5.20"
   latestReleaseDate: 2024-12-12
-  versions:
-  - version: "8.0.5.20"
-    releaseDate: 2024-12-12
-    link: "https://www.veeam.com/kb4501"
-  - version: "8.0.4.29"
-    releaseDate: 2024-10-15
-    link: "https://www.veeam.com/kb4475"
-  - version: "8.0.2.200"
-    releaseDate: 2024-09-03
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "7.0"
   releaseDate: 2023-01-17
@@ -38,16 +28,6 @@ releases:
   eol: 2026-01-17
   latest: "7.0.2.5603"
   latestReleaseDate: 2023-10-20
-  versions:
-  - version: "7.0.2.5603"
-    releaseDate: 2023-10-20
-    link: "https://www.veeam.com/kb4356"
-  - version: "7.0.1.3337"
-    releaseDate: 2023-05-08
-    link: "https://www.veeam.com/kb4292"
-  - version: "7.0.0.2911"
-    releaseDate: 2023-01-17
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "6.0"
   releaseDate: 2021-07-13
@@ -55,16 +35,6 @@ releases:
   eol: 2024-07-13
   latest: "6.0.3.123"
   latestReleaseDate: 2022-12-06
-  versions:
-  - version: "6.0.3.123"
-    releaseDate: 2022-12-06
-    link: "https://www.veeam.com/kb4256"
-  - version: "6.0.2.456"
-    releaseDate: 2022-03-10
-    link: "https://www.veeam.com/kb4210"
-  - version: "6.0.0.367"
-    releaseDate: 2021-07-13
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "5.0"
   releaseDate: 2020-12-02
@@ -72,16 +42,6 @@ releases:
   eol: 2023-12-02
   latest: "5.0.3.132"
   latestReleaseDate: 2021-06-14
-  versions:
-  - version: "5.0.3.132"
-    releaseDate: 2021-06-14
-    link: "https://www.veeam.com/kb4126"
-  - version: "5.0.2.22"
-    releaseDate: 2021-05-11
-    link: "https://www.veeam.com/kb4106"
-  - version: "5.0.0.1063"
-    releaseDate: 2020-12-02
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "4.0"
   releaseDate: 2019-11-19
@@ -89,13 +49,6 @@ releases:
   eol: 2022-11-19
   latest: "4.0.1.531"
   latestReleaseDate: 2020-04-21
-  versions:
-  - version: "4.0.1.531"
-    releaseDate: 2020-04-21
-    link: "https://www.veeam.com/kb4113"
-  - version: "4.0.0.1345"
-    releaseDate: 2019-11-19
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "3.0"
   releaseDate: 2019-02-05
@@ -103,10 +56,6 @@ releases:
   eol: 2021-02-05
   latest: "3.0.0.422"
   latestReleaseDate: 2019-02-05
-  versions:
-  - version: "3.0.0.422"
-    releaseDate: 2019-02-05
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "2.0"
   releaseDate: 2017-12-12
@@ -114,10 +63,6 @@ releases:
   eol: 2020-12-12
   latest: "2.0.0.567"
   latestReleaseDate: 2017-12-12
-  versions:
-  - version: "2.0.0.567"
-    releaseDate: 2017-12-12
-    link: "https://www.veeam.com/kb4106"
 
 - releaseCycle: "1.0"
   releaseDate: 2016-11-01
@@ -125,13 +70,6 @@ releases:
   eol: 2019-11-01
   latest: "1.5.0.109"
   latestReleaseDate: 2017-05-25
-  versions:
-  - version: "1.5.0.109"
-    releaseDate: 2017-05-25
-    link: "https://www.veeam.com/kb4106"
-  - version: "1.0.0.476"
-    releaseDate: 2016-11-01
-    link: "https://www.veeam.com/kb4106"
 
 ---
 
