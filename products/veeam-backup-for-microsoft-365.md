@@ -67,9 +67,10 @@ releases:
 
 ---
 
-> [Veeam Backup for Microsoft 365](https://www.veeam.com/products/backup-microsoft-365.html)
-> is a comprehensive solution designed to back up and restore your Microsoft 365 data, including
-> Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.
+> [Veeam Backup for Microsoft 365](https://www.veeam.com/products/saas/backup-microsoft-office-365.html)
+> is a commercial data protection and disaster recovery solution. It provides backup and restore
+> functionality for Microsoft 365, including Exchange Online, SharePoint Online, OneDrive for Business,
+> and Microsoft Teams.
 
 {: .warning }
 Veeam Backup for Microsoft 365 is available in two editions: Community (free) and Enterprise (paid).
@@ -84,6 +85,3 @@ are provided for the product.
 The second phase ends with the end of support date. Updates, patches, and hotfixes may also be
 provided during this phase, but on a case-by-case basis. If Veeam determines that an issue is fixed
 in a later supported generally available version, an update to the later release is required.
-
-This page uses GA dates as release dates, as provided on
-<https://www.veeam.com/kb4106>.
