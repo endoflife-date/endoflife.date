@@ -43,8 +43,8 @@ releases:
     supportedPhpVersions: 7.4+
     eoas: 2025-09-09
     eol: 2026-09-09
-    latest: "4.6.0"
-    latestReleaseDate: 2025-03-22
+    latest: "4.6.1"
+    latestReleaseDate: 2025-04-26
 
 -   releaseCycle: "5.1"
     codename: "Chiffon"
