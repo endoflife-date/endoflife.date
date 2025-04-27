@@ -26,7 +26,7 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2023-02-28
     eoas: 2023-12-28 # https://www.veeam.com/product-lifecycle.html
-    eol: 2023-06-28 # https://www.veeam.com/product-lifecycle.html
+    eol: 2026-06-28 # https://www.veeam.com/product-lifecycle.html
     latest: "7.1.0.2031"
     latestReleaseDate: 2024-04-24
 
