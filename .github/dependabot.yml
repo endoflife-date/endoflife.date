@@ -5,19 +5,19 @@
 
 version: 2
 updates:
-  - package-ecosystem: "bundler"
-    vendor: true
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
-
   # This updates the _data/release-data submodule.
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "daily"
 
+  - package-ecosystem: "bundler"
+    vendor: true
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
