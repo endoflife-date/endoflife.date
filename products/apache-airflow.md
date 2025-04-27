@@ -30,7 +30,7 @@ auto:
       selector: "table"
       fields:
         releaseCycle: "Version"
-        eoas: "Limited Support"
+        eoas: "Limited Maintenance"
         eol: "EOL/Terminated"
 
 releases:
