@@ -241,7 +241,7 @@ releases:
     releaseLabel: "iPad Air 2"
     releaseDate: 2014-10-22
     discontinued: 2017-03-21
-    eol: 2024-09-16
+    eol: 2025-03-31
     link: https://support.apple.com/kb/SP708
     supportedIpadOsVersions: 8, 9, 10, 11, 12, 13, 14, 15
 
