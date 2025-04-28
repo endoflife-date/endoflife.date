@@ -13,7 +13,15 @@ auto:
   -   git: https://github.com/sipwise/rtpengine.git
       regex: '^mr(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)(\.(?P<tiny>\d+))?$'
 
+# EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
+-   releaseCycle: "13.3"
+    releaseDate: 2025-04-18
+    eol: 2025-06-13
+    link: https://www.sipwise.com/releases/2025/mr13.3
+    latest: "13.3.1.1"
+    latestReleaseDate: 2025-04-23
+
 -   releaseCycle: "13.2"
     releaseDate: 2025-02-12
     eol: 2025-04-18
