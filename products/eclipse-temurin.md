@@ -71,8 +71,8 @@ releases:
 -   releaseCycle: "24"
     releaseDate: 2025-03-20
     eol: 2025-09-16 # expected 25 release date (see https://www.java.com/releases/)
-    latest: "24.0.1+9"
-    latestReleaseDate: 2025-04-16
+    latest: "24.0.1+9.1"
+    latestReleaseDate: 2025-04-28
 
 -   releaseCycle: "23"
     releaseDate: 2024-09-17
