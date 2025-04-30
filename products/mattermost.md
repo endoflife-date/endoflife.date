@@ -31,14 +31,14 @@ releases:
 -   releaseCycle: "10.7"
     releaseDate: 2025-04-16
     eol: 2025-07-15
-    latest: '10.7.0'
-    latestReleaseDate: 2025-04-03
+    latest: '10.7.1'
+    latestReleaseDate: 2025-04-23
 
 -   releaseCycle: "10.6"
     releaseDate: 2025-03-16
     eol: 2025-06-15
-    latest: '10.6.2'
-    latestReleaseDate: 2025-04-15
+    latest: '10.6.3'
+    latestReleaseDate: 2025-04-29
 
 -   releaseCycle: "10.5"
     releaseDate: 2025-02-16

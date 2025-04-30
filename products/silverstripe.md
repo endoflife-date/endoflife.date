@@ -34,7 +34,7 @@ auto:
 # eoas, eol rounded to the end of month
 releases:
 -   releaseCycle: "5.4"
-    releaseDate: 2025-04-10
+    releaseDate: 2025-04-30
     eoas: 2026-04-30
     eol: 2027-04-30
     latest: "5.4.0"
