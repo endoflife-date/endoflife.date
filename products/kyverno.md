@@ -33,7 +33,7 @@ releases:
     eol: false
     latest: "1.14.0"
     latestReleaseDate: 2025-04-25
-    supportedK8sVersions: Not yet documented # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
+    supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
 
 -   releaseCycle: "1.13"
     releaseDate: 2024-10-29
