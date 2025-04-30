@@ -29,10 +29,10 @@ auto:
 # Kubernetes support is documented on https://kyverno.io/docs/installation/#compatibility-matrix.
 releases:
 -   releaseCycle: "1.14"
-    releaseDate: 2025-04-24
+    releaseDate: 2025-04-25
     eol: false
     latest: "1.14.0"
-    latestReleaseDate: 2025-04-24
+    latestReleaseDate: 2025-04-25
     supportedK8sVersions: Not yet documented # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
 
 -   releaseCycle: "1.13"
