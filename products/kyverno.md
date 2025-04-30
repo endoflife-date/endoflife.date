@@ -51,7 +51,7 @@ releases:
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-11-10
-    eol: 2025-04-24 # releaseDate(1.14)
+    eol: 2025-04-25 # releaseDate(1.14)
     latest: "1.11.5"
     latestReleaseDate: 2024-05-09
     supportedK8sVersions: 1.25 - 1.28
