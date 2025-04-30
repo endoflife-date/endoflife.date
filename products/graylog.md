@@ -26,6 +26,13 @@ auto:
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "6.2"
+    releaseDate: 2025-04-28
+    eol: false
+    latest: "6.2.1"
+    latestReleaseDate: 2025-04-30
+    link: https://go2docs.graylog.org/current/changelogs/changelog.html#Graylog{{'__LATEST__'|replace:'.',''}}
+
 -   releaseCycle: "6.1"
     releaseDate: 2024-10-18
     eol: false
@@ -35,7 +42,7 @@ releases:
 
 -   releaseCycle: "6.0"
     releaseDate: 2024-05-06
-    eol: false
+    eol: 2025-04-28
     latest: "6.0.14"
     latestReleaseDate: 2025-04-03
 
