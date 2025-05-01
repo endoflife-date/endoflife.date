@@ -567,8 +567,8 @@ releases:
 
 -   releaseCycle: "Galaxy F12"
     releaseDate: 2021-04-12
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-11-05
     link: https://doc.samsungmobile.com/SM-F127G/INS/doc.html
 
 -   releaseCycle: "Galaxy F02s"
@@ -591,8 +591,8 @@ releases:
 
 -   releaseCycle: "Galaxy M12 (India)"
     releaseDate: 2021-03-18
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-11-05
     link: https://doc.samsungmobile.com/SM-M127G/INS/doc.html
 
 -   releaseCycle: "Galaxy A52 5G"
@@ -615,8 +615,8 @@ releases:
 
 -   releaseCycle: "Galaxy A32"
     releaseDate: 2021-02-25
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2025-02-13
     link: https://doc.samsungmobile.com/sm-a325f/ins/doc.html
 
 -   releaseCycle: "Galaxy F62"
@@ -663,8 +663,8 @@ releases:
 
 -   releaseCycle: "Galaxy A32 5G"
     releaseDate: 2021-01-13
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2025-02-13
     link: https://doc.samsungmobile.com/sm-a326u/tmb/doc.html
 
 -   releaseCycle: "Galaxy M02s"
@@ -687,8 +687,8 @@ releases:
 
 -   releaseCycle: "Galaxy M12"
     releaseDate: 2020-11-24
-    eoas: false
-    eol: false
+    eoas: true
+    eol: 2024-11-05
     link: https://doc.samsungmobile.com/SM-M127F/ARO/doc.html
 
 -   releaseCycle: "Galaxy A42 5G"
