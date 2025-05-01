@@ -210,7 +210,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_2.1_Eclair
 
 -   releaseCycle: "2.0"
-    apiVersion: "5"
+    apiVersion: "5-6"
     codename: Eclair
     releaseDate: 2009-10-26
     eol: true
