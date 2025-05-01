@@ -41,8 +41,8 @@ releases:
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2025-04-15
     eol: false
-    latest: "6.8.0"
-    latestReleaseDate: 2025-04-15
+    latest: "6.8.1"
+    latestReleaseDate: 2025-04-30
 
 -   releaseCycle: "6.7"
     supportedPHPVersions: "7.2 - 8.4"
