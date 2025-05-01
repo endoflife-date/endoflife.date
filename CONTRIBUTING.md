@@ -301,9 +301,9 @@ identifiers:
 # Do not add releases that are not considered "stable" (such as RC/Alpha/Beta/Nightly).
 releases:
 
-    # Release range (mandatory, always put in quotes).
+    # Release cycle name (mandatory, unique, always put in quotes).
+    # Only lowercase letters, numbers, dots, dashes, plus and underscores are allowed (/^[a-z0-9.\-_+]+$/).
     # This is usually major.minor. Do not prefix with "v" or suffix with ".x".
-    # This becomes part of our API URL, so try to avoid spaces and use lowercase for words.
 -   releaseCycle: "1.2"
 
     # Name displayed for the release (optional, default = global releaseLabel value).
