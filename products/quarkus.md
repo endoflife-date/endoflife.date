@@ -30,7 +30,7 @@ auto:
 # Note:
 # - eol(x) = releaseDate(x+1) for non-LTS
 # - eol(x) = releaseDate(x)+1y for LTS
-# - eoes(x) = false if listed on https://access.redhat.com/products/quarkus
+# - For EOES see https://access.redhat.com/support/policy/updates/red_hat_build_of_quarkus_notes
 releases:
 -   releaseCycle: "3.21"
     releaseDate: 2025-03-26
@@ -199,7 +199,7 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2022-09-28
     eol: 2022-11-07
-    eoes: false
+    eoes: 2024-04-30
     latest: "2.13.9"
     latestReleaseDate: 2023-11-22
     link: https://github.com/quarkusio/quarkus/releases/tag/__LATEST__.Final
