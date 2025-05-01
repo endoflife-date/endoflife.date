@@ -128,7 +128,7 @@ class IdentifierToUrl
   end
 
   def _build_brew_url(purl)
-    return "https://formulae.brew.sh/formula/#{purl.name}"
+    return "https://formulae.brew.sh/cask/#{purl.name}"
   end
 
   def _build_winget_url(purl)
