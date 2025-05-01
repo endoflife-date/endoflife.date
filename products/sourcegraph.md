@@ -24,12 +24,14 @@ releases:
     eol: false
     latest: "6.2.3841"
     latestReleaseDate: 2025-04-23
+    link: null
 
 -   releaseCycle: "5"
     releaseDate: 2023-03-22
     eol: 2025-01-29
     latest: "5.11.6271"
     latestReleaseDate: 2025-01-23
+    link: null
 
 -   releaseCycle: "4"
     releaseDate: 2022-09-22
