@@ -96,14 +96,14 @@ releases:
     eol: 2019-10-01
     link: https://developer.android.com/about/versions/nougat
 
--   releaseCycle: "7"
+-   releaseCycle: "7.0"
     apiVersion: "24"
     codename: Nougat
     releaseDate: 2016-08-22
     eol: 2019-10-01
     link: https://developer.android.com/about/versions/nougat
 
--   releaseCycle: "6"
+-   releaseCycle: "6.0"
     apiVersion: "23"
     codename: Marshmallow
     releaseDate: 2015-10-05
@@ -117,14 +117,15 @@ releases:
     eol: 2018-03-01
     link: https://developer.android.com/about/versions/lollipop
 
--   releaseCycle: "5"
+-   releaseCycle: "5.0"
     apiVersion: "21"
     codename: Lollipop
     releaseDate: 2014-11-12
     eol: 2018-03-01
     link: https://developer.android.com/about/versions/lollipop
 
--   releaseCycle: "4.4W"
+-   releaseCycle: "4.4w"
+    releaseLabel: "4.4W"
     apiVersion: "20"
     codename: KitKatW
     releaseDate: 2014-03-31
@@ -138,75 +139,110 @@ releases:
     eol: 2017-10-01
     link: https://developer.android.com/about/versions/kitkat
 
--   releaseCycle: "4.1 - 4.3"
+-   releaseCycle: "4.3"
+    apiVersion: "18"
+    codename: Jelly Bean
+    releaseDate: 2013-07-24
+    eol: true
+    link: https://android.fandom.com/wiki/Android_4.3_Jelly_Bean
+
+-   releaseCycle: "4.2"
+    apiVersion: "18"
+    codename: Jelly Bean
+    releaseDate: 2012-11-13
+    eol: true
+    link: https://android.fandom.com/wiki/Android_4.2_Jelly_Bean
+
+-   releaseCycle: "4.1"
     apiVersion: "18"
     codename: Jelly Bean
     releaseDate: 2012-07-09
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_4.1_Jelly_Bean
 
--   releaseCycle: "4 - 4.0.4"
+-   releaseCycle: "4.0"
     apiVersion: "15"
     codename: Ice Cream Sandwich
     releaseDate: 2011-10-18
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_4.0_Ice_Cream_Sandwich
 
--   releaseCycle: "3 - 3.2"
+-   releaseCycle: "3.2"
+    apiVersion: "11"
+    codename: Honeycomb
+    releaseDate: 2011-07-15
+    eol: true
+    link: https://android.fandom.com/wiki/Android_3.2_Honeycomb
+
+-   releaseCycle: "3.1"
+    apiVersion: "11"
+    codename: Honeycomb
+    releaseDate: 2011-05-10
+    eol: true
+    link: https://android.fandom.com/wiki/Android_3.1_Honeycomb
+
+-   releaseCycle: "3.0"
     apiVersion: "11"
     codename: Honeycomb
     releaseDate: 2011-02-22
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_3.0_Honeycomb
 
--   releaseCycle: "2.3 - 2.3.7"
+-   releaseCycle: "2.3"
     apiVersion: "10"
     codename: Gingerbread
     releaseDate: 2010-12-06
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_2.3_Gingerbread
 
 -   releaseCycle: "2.2"
     apiVersion: "8"
     codename: Froyo
     releaseDate: 2010-05-20
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_2.2_Froyo
 
--   releaseCycle: "2.0 - 2.1"
+-   releaseCycle: "2.1"
+    apiVersion: "5"
+    codename: Eclair
+    releaseDate: 2010-01-11
+    eol: true
+    link: https://android.fandom.com/wiki/Android_2.1_Eclair
+
+-   releaseCycle: "2.0"
     apiVersion: "5"
     codename: Eclair
     releaseDate: 2009-10-26
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_2.0_Eclair
 
 -   releaseCycle: "1.6"
     apiVersion: "4"
     codename: Donut
     releaseDate: 2009-09-15
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_1.6_Doughnut
 
 -   releaseCycle: "1.5"
     apiVersion: "3"
     codename: Cupcake
     releaseDate: 2009-04-27
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_1.5_Cupcake
 
 -   releaseCycle: "1.1"
     apiVersion: "2"
     codename: Petit Four
     releaseDate: 2009-02-09
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_1.1
 
 -   releaseCycle: "1.0"
     apiVersion: "1"
-    releaseLabel: "__RELEASE_CYCLE__"
+    releaseLabel: "1.0"
     releaseDate: 2008-09-23
     eol: true
-    link: null
+    link: https://android.fandom.com/wiki/Android_1.0
 
 ---
 
