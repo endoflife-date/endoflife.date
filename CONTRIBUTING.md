@@ -467,6 +467,27 @@ docker run --rm \
 # CTRL+C to exit and kill the instance
 ```
 
+## Testing API payload
+
+There is a GitHub workflow that already validates the OpenAPI specification.
+But to test the generated API payload you can do the following:
+
+```sh
+# In a first tab, run:
+bundle exec jekyll serve
+
+# In a second tab, run:
+npx @pb33f/wiretap@latest -s http://localhost:4000/docs/api/v1/openapi.yml -u http://localhost:4000
+# then open http://localhost:9091/ in your browser
+
+# In a third tab, run:
+IFS="
+"
+for file in $(find _site/api/v1 -type f | sort -n); do
+  echo $(dirname $file | sed 's|_site|http://localhost:9090|' | sed 's|v1$|v1/|' | sed 's| |%20|')
+done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
+```
+
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing

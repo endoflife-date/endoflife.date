@@ -130,3 +130,4 @@ exclude:
   - README.md
   - requirements.txt
   - runtime.txt
+  - wiretap-report.json
