@@ -147,7 +147,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_4.3_Jelly_Bean
 
 -   releaseCycle: "4.2"
-    apiVersion: "18"
+    apiVersion: "17"
     codename: Jelly Bean
     releaseDate: 2012-11-13
     eol: true
