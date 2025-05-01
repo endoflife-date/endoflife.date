@@ -21,7 +21,8 @@ releases:
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "23H2"
+-   releaseCycle: "23h2"
+    releaseLabel: "23H2"
     releaseDate: 2023-10-24
     eoas: 2025-04-24
     eol: 2025-10-24
@@ -36,7 +37,8 @@ releases:
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "20H2"
+-   releaseCycle: "20h2"
+    releaseLabel: "20H2"
     releaseDate: 2020-10-20
     eoas: 2022-08-09
     eol: 2022-08-09
@@ -101,7 +103,8 @@ releases:
     latest: 10.0.14393
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "2012-R2"
+-   releaseCycle: "2012-r2"
+    releaseLabel: "2012-R2"
     releaseDate: 2013-11-25
     lts: true
     eoas: 2018-10-09
@@ -119,7 +122,8 @@ releases:
     latest: 6.2.9200
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2012
 
--   releaseCycle: "2008-R2-SP1"
+-   releaseCycle: "2008-r2-sp1"
+    releaseLabel: "2008-R2-SP1"
     releaseDate: 2011-02-22
     lts: true
     eoas: 2015-01-13
@@ -128,7 +132,8 @@ releases:
     latest: 6.1.7601
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
 
--   releaseCycle: "2008-SP2"
+-   releaseCycle: "2008-sp2"
+    releaseLabel: "2008-SP2"
     releaseDate: 2009-04-29
     lts: true
     eoas: 2015-01-13
@@ -136,8 +141,9 @@ releases:
     eoes: 2023-01-10
     latest: 6.0.6003
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2008
-    
--   releaseCycle: "2003-SP2"
+
+-   releaseCycle: "2003-sp2"
+    releaseLabel: "2003-SP2"
     releaseDate: 2007-03-13
     lts: true
     eoas: 2010-07-13
@@ -145,7 +151,8 @@ releases:
     latest: 5.2.3790
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2003-
 
--   releaseCycle: "2003-SP1"
+-   releaseCycle: "2003-sp1"
+    releaseLabel: "2003-SP1"
     releaseDate: 2005-03-30
     lts: false
     eoas: 2009-04-14
