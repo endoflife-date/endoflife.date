@@ -43,7 +43,7 @@ releases:
     releaseDate: 2025-04-28
     eol: 2025-10.28
     latest: "36.0.1"
-    latestReleaseDate: 2025-04-28
+    latestReleaseDate: 2025-04-30
     chromeVersion: "M136"
     nodeVersion: "22.14"
 
