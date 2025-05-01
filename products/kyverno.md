@@ -13,9 +13,6 @@ customColumns:
     label: Kubernetes Version
     description: Supported Kubernetes versions
     link: https://kyverno.io/docs/installation/#compatibility-matrix
-auto:
-  methods:
-  -   git: https://github.com/kyverno/kyverno.git
 
 identifiers:
 -   purl: pkg:github/kyverno/kyverno
@@ -24,8 +21,20 @@ identifiers:
 -   purl: pkg:docker/chainguard/kyverno
 -   purl: pkg:oci/kyverno?repository_url=cgr.dev/chainguard
 
+auto:
+  methods:
+  -   git: https://github.com/kyverno/kyverno.git
+
 # eol(X) = releaseDate(X+3)
+# Kubernetes support is documented on https://kyverno.io/docs/installation/#compatibility-matrix.
 releases:
+-   releaseCycle: "1.14"
+    releaseDate: 2025-04-25
+    eol: false
+    latest: "1.14.0"
+    latestReleaseDate: 2025-04-25
+    supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
+
 -   releaseCycle: "1.13"
     releaseDate: 2024-10-29
     eol: false
@@ -42,7 +51,7 @@ releases:
 
 -   releaseCycle: "1.11"
     releaseDate: 2023-11-10
-    eol: false
+    eol: 2025-04-25 # releaseDate(1.14)
     latest: "1.11.5"
     latestReleaseDate: 2024-05-09
     supportedK8sVersions: 1.25 - 1.28
