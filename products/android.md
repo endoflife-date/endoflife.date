@@ -189,7 +189,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_3.0_Honeycomb
 
 -   releaseCycle: "2.3"
-    apiVersion: "10"
+    apiVersion: "9-10"
     codename: Gingerbread
     releaseDate: 2010-12-06
     eol: true
