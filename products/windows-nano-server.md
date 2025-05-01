@@ -21,7 +21,8 @@ releases:
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "20H2"
+-   releaseCycle: "20h2"
+    releaseLabel: "20H2"
     releaseDate: 2020-10-20
     eoas: 2022-08-09
     eol: 2022-08-09
