@@ -203,7 +203,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_2.2_Froyo
 
 -   releaseCycle: "2.1"
-    apiVersion: "5"
+    apiVersion: "7"
     codename: Eclair
     releaseDate: 2010-01-11
     eol: true
