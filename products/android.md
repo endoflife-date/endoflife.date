@@ -175,7 +175,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_3.2_Honeycomb
 
 -   releaseCycle: "3.1"
-    apiVersion: "11"
+    apiVersion: "12"
     codename: Honeycomb
     releaseDate: 2011-05-10
     eol: true
