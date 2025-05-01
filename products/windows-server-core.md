@@ -20,7 +20,7 @@ releases:
     latest: 10.0.26100
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
-    
+
 -   releaseCycle: "2022"
     releaseDate: 2021-08-18
     eoas: 2026-10-13
@@ -29,7 +29,8 @@ releases:
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "20H2"
+-   releaseCycle: "20h2"
+    releaseLabel: "20H2"
     releaseDate: 2020-10-20
     eoas: 2022-08-09
     eol: 2022-08-09
@@ -101,7 +102,8 @@ releases:
     latest: 10.0.14393
     link: https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/base-image-lifecycle
 
--   releaseCycle: "2012-R2"
+-   releaseCycle: "2012-r2"
+    releaseLabel: "2012-R2"
     releaseDate: 2013-11-25
     lts: true
     eoas: 2018-10-09
@@ -119,7 +121,8 @@ releases:
     latest: 6.2.9200
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2012
 
--   releaseCycle: "2008-R2-SP1"
+-   releaseCycle: "2008-r2-sp1"
+    releaseLabel: "2008-R2-SP1"
     releaseDate: 2011-02-22
     lts: true
     eoas: 2015-01-13
@@ -128,7 +131,8 @@ releases:
     latest: 6.1.7601
     link: https://learn.microsoft.com/lifecycle/products/windows-server-2008-r2
 
--   releaseCycle: "2008-SP2"
+-   releaseCycle: "2008-sp2"
+    releaseLabel: "2008-SP2"
     releaseDate: 2009-04-29
     lts: true
     eoas: 2015-01-13
