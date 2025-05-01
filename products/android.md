@@ -161,7 +161,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_4.1_Jelly_Bean
 
 -   releaseCycle: "4.0"
-    apiVersion: "15"
+    apiVersion: "14-15"
     codename: Ice Cream Sandwich
     releaseDate: 2011-10-18
     eol: true
