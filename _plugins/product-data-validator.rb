@@ -180,9 +180,13 @@ module EndOfLifeHooks
       error_if.is_not_an_url('link') if column.has_key?('link')
     }
 
+    release_names = product.data['releases'].map { |release| release['releaseCycle'] }
+    release_name_duplicates = release_names.group_by { |name| name }.select { |_, count| count.size > 1 }.keys
+    error_if.not_true(release_name_duplicates.length == 0, 'releases', release_name_duplicates, 'Duplicate releases')
+
     product.data['releases'].each { |release|
       error_if = Validator.new('releases', product, release)
-      error_if.is_not_a_string('releaseCycle')
+      error_if.does_not_match('releaseCycle', /^[a-z0-9.\-+_]+$/)
       error_if.is_not_a_string('releaseLabel') if release.has_key?('releaseLabel')
       error_if.is_not_a_string('codename') if release.has_key?('codename')
       error_if.is_not_a_date('releaseDate')
@@ -248,6 +252,12 @@ module EndOfLifeHooks
 
     def error_count
       @error_count
+    end
+
+    def not_true(condition, property, value, details)
+      unless condition
+        declare_error(property, value, details)
+      end
     end
 
     def is_not_an_array(property)

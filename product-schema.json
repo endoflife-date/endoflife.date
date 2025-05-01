@@ -408,7 +408,8 @@
             "1",
             "1.0"
           ],
-          "type": "string"
+          "type": "string",
+          "pattern": "^[a-z0-9.\\-+_]+$"
         },
         "link": {
           "title": "Link",
