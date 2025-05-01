@@ -19,7 +19,7 @@ releases:
     eol: 2034-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-500/
 
--   releaseCycle: "CM5"
+-   releaseCycle: "cm5"
     releaseLabel: Compute Module 5
     # https://www.raspberrypi.com/news/compute-module-5-on-sale-now/
     releaseDate: 2024-11-27
@@ -33,7 +33,7 @@ releases:
     eol: 2036-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-5/
 
--   releaseCycle: "CM4S"
+-   releaseCycle: "cm4s"
     releaseLabel: Compute Module 4S
     # https://www.jeffgeerling.com/blog/2022/new-raspberry-pi-compute-module-4s
     releaseDate: 2022-04-04
@@ -61,7 +61,7 @@ releases:
     eol: 2028-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-400-unit/
 
--   releaseCycle: "CM4"
+-   releaseCycle: "cm4"
     releaseLabel: Compute Module 4
     # https://www.raspberrypi.com/news/raspberry-pi-compute-module-4/
     releaseDate: 2020-10-19
@@ -77,7 +77,7 @@ releases:
     eol: 2034-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 
--   releaseCycle: "CM3+"
+-   releaseCycle: "cm3+"
     releaseLabel: Compute Module 3+
     # https://www.raspberrypi.com/news/compute-module-3-on-sale-now-from-25/
     releaseDate: 2019-01-28
@@ -110,7 +110,7 @@ releases:
     eol: 2030-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-zero-w/
 
--   releaseCycle: "CM3"
+-   releaseCycle: "cm3"
     releaseLabel: Compute Module 3
     # https://www.raspberrypi.com/news/compute-module-3-launch/
     releaseDate: 2017-01-16
@@ -154,7 +154,7 @@ releases:
     eol: 2030-01-01
     link: https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/
 
--   releaseCycle: "CM1"
+-   releaseCycle: "cm1"
     releaseLabel: Compute Module 1
     # https://www.raspberrypi.org/raspberry-pi-compute-module-new-product/
     releaseDate: 2014-04-07
