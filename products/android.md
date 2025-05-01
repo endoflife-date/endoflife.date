@@ -168,7 +168,7 @@ releases:
     link: https://android.fandom.com/wiki/Android_4.0_Ice_Cream_Sandwich
 
 -   releaseCycle: "3.2"
-    apiVersion: "11"
+    apiVersion: "13"
     codename: Honeycomb
     releaseDate: 2011-07-15
     eol: true
