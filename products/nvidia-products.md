@@ -15,21 +15,21 @@ eoasColumn: true
 releases:
 -   releaseCycle: "mobile-professional-ada-lovelace"
     releaseLabel: "Mobile Professional Blackwell (GB20x)"
-    releaseDate: 2025-03-18
+    releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "professional-blackwell"
     releaseLabel: "Professional Blackwell (GB20x)"
-    releaseDate: 2025-03-17
+    releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "mobile-consumer-blackwell"
     releaseLabel: "Mobile Consumer Blackwell (GB20x)"
-    releaseDate: 2025-03-01
+    releaseDate: 2025-01-30
     eoas: false
     eol: false
     discontinued: false
