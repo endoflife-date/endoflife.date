@@ -371,8 +371,8 @@ releases:
 -   releaseCycle: "galaxy-tab-s8-plus"
     releaseLabel: "Galaxy Tab S8+"
     releaseDate: 2022-04-14
-    eoas: 2026-04-1
-    eol: 2027-04-1
+    eoas: 2026-04-14
+    eol: 2027-04-14
     link: https://doc.samsungmobile.com/SM-X806B/XXV/doc.html
 
 -   releaseCycle: "galaxy-m33"
@@ -473,10 +473,10 @@ releases:
     eol: 2026-01-17
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
--   releaseCycle: "galaxy-s21-fe-5g"
+-   releaseCycle: "galaxy--fe-5g"
     releaseLabel: "Galaxy S21 FE 5G"
     releaseDate: 2022-01-07
-    eoas: 2027601-07
+    eoas: 2027-01-07
     eol: 2027-01-07 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
 
