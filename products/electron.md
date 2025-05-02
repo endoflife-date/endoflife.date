@@ -40,10 +40,10 @@ auto:
 
 releases:
 -   releaseCycle: "36"
-    releaseDate: 2025-04-28
+    releaseDate: 2025-04-29
     eol: 2025-10-28
-    latest: "36.0.1"
-    latestReleaseDate: 2025-04-30
+    latest: "36.1.0"
+    latestReleaseDate: 2025-05-02
     chromeVersion: "M136"
     nodeVersion: "22.14"
 
@@ -318,6 +318,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8.9"
+
 
 ---
 
