@@ -17,6 +17,8 @@ eoesColumn: Extended Life Support 1
 
 auto:
   methods:
+  -   custom: red-hat-jboss-eap-7
+  -   custom: red-hat-jboss-eap-8
   -   redhat_lifecycles: Red Hat JBoss Enterprise Application Platform
       regex: '^(?P<major>\d+)(\.(?P<minor>\d+))?(\.x)?$'
       fields:
