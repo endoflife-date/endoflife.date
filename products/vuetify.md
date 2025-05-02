@@ -20,6 +20,7 @@ auto:
   -   npm: vuetify
   -   release_table: https://vuetifyjs.com/introduction/long-term-support/
       render_javascript: true
+      render_javascript_wait_until: networkidle
       selector: "table"
       fields:
         releaseCycle:
