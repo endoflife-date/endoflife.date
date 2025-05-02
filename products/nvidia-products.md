@@ -13,6 +13,41 @@ discontinuedColumn: true
 eoasColumn: true
 
 releases:
+-   releaseCycle: "mobile-professional-ada-lovelace"
+    releaseLabel: "Mobile Professional Blackwell (GB20x)"
+    releaseDate: 2025-03-18
+    eoas: false
+    eol: false
+    discontinued: false
+
+-   releaseCycle: "professional-blackwell"
+    releaseLabel: "Professional Blackwell (GB20x)"
+    releaseDate: 2025-03-17
+    eoas: false
+    eol: false
+    discontinued: false
+
+-   releaseCycle: "mobile-consumer-blackwell"
+    releaseLabel: "Mobile Consumer Blackwell (GB20x)"
+    releaseDate: 2025-03-01
+    eoas: false
+    eol: false
+    discontinued: false
+
+-   releaseCycle: "consumer-blackwell"
+    releaseLabel: "Consumer Blackwell (GB20x)"
+    releaseDate: 2025-01-30
+    eoas: false
+    eol: false
+    discontinued: false
+
+-   releaseCycle: "mobile-consumer-ada-lovelace"
+    releaseLabel: "Mobile Consumer Ada Lovelace (AD10x)"
+    releaseDate: 2023-02-08
+    eoas: false
+    eol: false
+    discontinued: false
+
 -   releaseCycle: "professional-ada-lovelace"
     label: "Professional Ada Lovelace (AD1xx)"
     releaseDate: 2022-10-13
