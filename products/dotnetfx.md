@@ -20,6 +20,7 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
+          type: "identifier"
           regex: '^\.NET Framework (?P<value>\d+(\.\d+)+( SP1)?)$'
         eol: "End of support"
 
