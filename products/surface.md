@@ -15,25 +15,27 @@ auto:
       fields:
         releaseCycle:
           column: "Surface device"
-          regex: '^(?P<value>Surface .+)$'
+          type: "identifier"
+          regex: '^Surface (?P<value>.+)$'
+        releaseLabel: "Surface device"
         releaseDate: "Release date"
         eol: "End-of-servicing date for firmware & drivers"
 
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
--   releaseCycle: "pro-11-intel"
+-   releaseCycle: "pro-11th-edition-intel-processor"
     releaseLabel: "Surface Pro 11th Edition, Intel processor"
     releaseDate: 2025-02-18
     eol: 2031-02-18
     link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
 
--   releaseCycle: "pro-10-5g"
+-   releaseCycle: "pro-10-with-5g"
     releaseLabel: "Surface Pro 10 with 5G"
     releaseDate: 2024-10-11
     eol: 2030-10-11
     link: https://support.microsoft.com/surface/surface-pro-10-for-business-features-debb0fd7-4f30-492f-8000-b5deaf71922f
 
--   releaseCycle: "pro-11-5g"
+-   releaseCycle: "pro-11th-edition-5g"
     releaseLabel: "Surface Pro 11th Edition 5G"
     releaseDate: 2024-09-03
     eol: 2030-09-26
@@ -45,7 +47,7 @@ releases:
     eol: 2030-06-18
     link: https://support.microsoft.com/surface/surface-pro-11th-edition-features-36fb8175-189b-4712-b064-d3feefacf349
 
--   releaseCycle: "pro-11-snapdragon"
+-   releaseCycle: "pro-11th-edition-snapdragon-processor"
     releaseLabel: "Surface Pro 11th Edition, Snapdragon processor"
     releaseDate: 2024-06-18
     eol: 2030-09-10
@@ -57,13 +59,13 @@ releases:
     eol: 2030-06-18
     link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
 
--   releaseCycle: "laptop-7-intel"
+-   releaseCycle: "laptop-7th-edition-intel-processor"
     releaseLabel: "Surface Laptop 7th Edition, Intel processor"
     releaseDate: 2024-06-18
     eol: 2031-02-18
     link: https://support.microsoft.com/surface/surface-laptop-7th-edition-features-9fba07be-d48d-4f2f-b508-70b7b5a60143
 
--   releaseCycle: "laptop-7-snapdragon"
+-   releaseCycle: "laptop-7th-edition-snapdragon-processor"
     releaseLabel: "Surface Laptop 7th Edition, Snapdragon processor"
     releaseDate: 2024-06-18
     eol: 2030-09-10
@@ -75,13 +77,13 @@ releases:
     eol: 2030-04-09
     link: https://support.microsoft.com/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
 
--   releaseCycle: "laptop-6-business"
+-   releaseCycle: "laptop-6-for-business"
     releaseLabel: "Surface Laptop 6 for Business"
     releaseDate: 2024-04-09
     eol: 2030-04-09
     link: https://support.microsoft.com/surface/surface-laptop-6-for-business-features-3d09dbcd-fc74-4fae-88b8-071307d92c6c
 
--   releaseCycle: "pro-10-business"
+-   releaseCycle: "pro-10-for-business"
     releaseLabel: "Surface Pro 10 for Business"
     releaseDate: 2024-04-09
     eol: 2030-04-09
@@ -141,7 +143,7 @@ releases:
     eol: 2028-01-11
     link: https://support.microsoft.com/surface/surface-laptop-se-features-2674627b-d92f-4a88-b85c-f649552f3625
 
--   releaseCycle: "pro-x-wifi"
+-   releaseCycle: "pro-x-wi-fi"
     releaseLabel: "Surface Pro X Wi-Fi"
     releaseDate: 2021-10-05
     eol: 2027-10-05
