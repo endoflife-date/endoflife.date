@@ -19,6 +19,19 @@ customColumns:
 identifiers:
   - repology: plone
 
+auto:
+  methods:
+    -   git: https://github.com/plone/Products.CMFPlone.git
+    -   release_table: https://plone.org/download/release-schedule
+        selector: "table"
+        header_selector: "tr:nth-of-type(1)"
+        fields:
+          releaseCycle: "Series"
+          pythonVersions: "Python versions"
+          releaseDate: "Initial release"
+          eoas: "End of maintenance support"
+          eol: "End of security support"
+
 releases:
 -   releaseCycle: "6.1"
     pythonVersions: 3.10 - 3.13
