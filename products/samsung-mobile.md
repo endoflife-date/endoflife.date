@@ -11,6 +11,11 @@ releaseColumn: false
 eoasColumn: true
 eolColumn: Security Updates
 
+auto:
+  cumulative: true
+  methods:
+  -   custom: samsung-mobile
+
 # Some useful information can be found on:
 # - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
@@ -343,8 +348,8 @@ releases:
     eol: 2025-06-29
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
--   releaseCycle: "galaxy-tab-s6-lite-2022"
-    releaseLabel: "Galaxy Tab S6 Lite (2022)"
+-   releaseCycle: "galaxy-tab-s6-lite"
+    releaseLabel: "Galaxy Tab S6 Lite"
     releaseDate: 2022-05-23
     eoas: false
     eol: false
@@ -392,8 +397,8 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-M236B/XXV/doc.html
 
--   releaseCycle: "galaxy-s20-fe-2022"
-    releaseLabel: "Galaxy S20 FE 2022" # South Korea only
+-   releaseCycle: "galaxy-s20-fe"
+    releaseLabel: "Galaxy S20 FE" # South Korea only
     releaseDate: 2022-04-01
     eoas: 2025-03-31
     eol: 2026-03-31 # Samsung provides a 4th year security support for S20
@@ -640,8 +645,8 @@ releases:
 -   releaseCycle: "galaxy-a82-5g"
     releaseLabel: "Galaxy A82 5G"
     releaseDate: 2021-05-05
-    eoas: false
-    eol: false
+    eoas: true
+    eol: true
     link: https://doc.samsungmobile.com/sm-a528b/dbt/doc.html
 
 -   releaseCycle: "galaxy-m42-5g"
@@ -676,7 +681,7 @@ releases:
     releaseLabel: "Galaxy A52"
     releaseDate: 2021-03-26
     eoas: 2024-03-26
-    eol: false
+    eol: true
     link: https://doc.samsungmobile.com/SM-A525F/XID/doc.html
 
 -   releaseCycle: "galaxy-a72"
@@ -847,11 +852,11 @@ releases:
     eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
--   releaseCycle: "galaxy-s20-fe"
-    releaseLabel: "Galaxy S20 FE"
+-   releaseCycle: "galaxy-s20-fe-2020"
+    releaseLabel: "Galaxy S20 FE (2020)"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
+    eol: true # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
 -   releaseCycle: "galaxy-tab-active3"
@@ -1022,11 +1027,11 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/sm-a716s/skc/doc.html
 
--   releaseCycle: "galaxy-tab-s6-lite"
-    releaseLabel: "Galaxy Tab S6 Lite"
+-   releaseCycle: "galaxy-tab-s6-lite-2020"
+    releaseLabel: "Galaxy Tab S6 Lite (2020)"
     releaseDate: 2020-05-16
     eoas: 2023-05-16
-    eol: false
+    eol: true
     link: https://doc.samsungmobile.com/SM-P610/XEH/doc.html
 
 -   releaseCycle: "galaxy-a11"
