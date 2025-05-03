@@ -11,7 +11,7 @@ releaseColumn: false
 eoasColumn: true
 eolColumn: Security Updates
 
-# Useful information can be found on:
+# Some useful information can be found on:
 # - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
 # - https://security.samsungmobile.com/workScope.smsb
@@ -220,7 +220,7 @@ releases:
 -   releaseCycle: "galaxy-f04"
     releaseLabel: "Galaxy F04"
     releaseDate: 2023-01-12
-    eoas: 2026-01-12
+    eoas: 2025-01-12
     eol: 2027-01-12
     link: null
 
@@ -234,7 +234,7 @@ releases:
 -   releaseCycle: "galaxy-tab-a7-10.4-2022"
     releaseLabel: "Galaxy Tab A7 10.4 (2022)"
     releaseDate: 2022-11-21
-    eoas: 2025-11-21
+    eoas: 2024-11-21
     eol: 2026-11-21
     link: https://doc.samsungmobile.com/SM-T509/ITV/doc.html
 
@@ -476,10 +476,10 @@ releases:
     eol: 2026-01-17
     link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
--   releaseCycle: "galaxy--fe-5g"
+-   releaseCycle: "galaxy-s21-fe-5g"
     releaseLabel: "Galaxy S21 FE 5G"
     releaseDate: 2022-01-07
-    eoas: 2027-01-07
+    eoas: 2026-01-07
     eol: 2027-01-07 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-G990B2/SER/doc.html
 
@@ -571,14 +571,14 @@ releases:
     releaseLabel: "Galaxy A12 (India)"
     releaseDate: 2021-08-12
     eoas: 2023-08-12
-    eol: 2024-08-12
+    eol: 2025-08-12
     link: https://doc.samsungmobile.com/SM-A127F/INS/doc.html
 
 -   releaseCycle: "galaxy-a12-nacho"
     releaseLabel: "Galaxy A12 Nacho"
     releaseDate: 2021-08-09
     eoas: 2023-08-12
-    eol: 2024-08-12
+    eol: 2025-08-12
     link: https://doc.samsungmobile.com/SM-A127F/ITV/doc.html
 
 -   releaseCycle: "galaxy-m21-2021"
@@ -605,7 +605,7 @@ releases:
 -   releaseCycle: "galaxy-a22-5g"
     releaseLabel: "Galaxy A22 5G"
     releaseDate: 2021-06-24
-    eoas: true
+    eoas: 2023-06-24
     eol: 2024-06-24
     link: https://doc.samsungmobile.com/SM-A226B/XEH/doc.html
 
@@ -689,8 +689,8 @@ releases:
 -   releaseCycle: "galaxy-m12-india"
     releaseLabel: "Galaxy M12 (India)"
     releaseDate: 2021-03-18
-    eoas: 2024-11-05
-    eol: 2024-11-05
+    eoas: 2023-03-18
+    eol: 2024-03-18
     link: https://doc.samsungmobile.com/SM-M127G/INS/doc.html
 
 -   releaseCycle: "galaxy-a52-5g"
@@ -710,36 +710,36 @@ releases:
 -   releaseCycle: "galaxy-m62"
     releaseLabel: "Galaxy M62"
     releaseDate: 2021-03-03
-    eoas: true
-    eol: true
+    eoas: 2023-03-03
+    eol: 2024-03-03
     link: https://doc.samsungmobile.com/SM-M625F/NPL/doc.html
 
 -   releaseCycle: "galaxy-a32"
     releaseLabel: "Galaxy A32"
     releaseDate: 2021-02-25
-    eoas: 2024-02-13
+    eoas: 2023-02-13
     eol: 2025-02-13
     link: https://doc.samsungmobile.com/sm-a325f/ins/doc.html
 
 -   releaseCycle: "galaxy-f62"
     releaseLabel: "Galaxy F62"
     releaseDate: 2021-02-22
-    eoas: true
-    eol: true
+    eoas: 2024-02-22
+    eol: 2024-02-22
     link: https://doc.samsungmobile.com/SM-E625F/INS/doc.html
 
 -   releaseCycle: "galaxy-m02"
     releaseLabel: "Galaxy M02"
     releaseDate: 2021-02-09
-    eoas: true
-    eol: true
+    eoas: 2023-02-09
+    eol: 2024-02-09
     link: https://doc.samsungmobile.com/SM-M022F/XTC/doc.html
 
 -   releaseCycle: "galaxy-m31s"
     releaseLabel: "Galaxy M31s"
     releaseDate: 2021-02-09
-    eoas: true
-    eol: true
+    eoas: 2023-02-09
+    eol: 2024-02-09
     link: https://doc.samsungmobile.com/sm-m317f/ins/doc.html
 
 -   releaseCycle: "galaxy-s21-ultra-5g"
@@ -780,7 +780,7 @@ releases:
 -   releaseCycle: "galaxy-m02s"
     releaseLabel: "Galaxy M02s"
     releaseDate: 2021-01-07
-    eoas: 2024-01-07
+    eoas: 2023-01-07
     eol: 2024-01-07
     link: https://doc.samsungmobile.com/SM-M025F/SLK/doc.html
 
@@ -794,8 +794,8 @@ releases:
 -   releaseCycle: "galaxy-a12"
     releaseLabel: "Galaxy A12"
     releaseDate: 2020-11-24
-    eoas: 2023-11-24
-    eol: 2023-11-24
+    eoas: 2022-11-24
+    eol: 2024-11-24
     link: https://doc.samsungmobile.com/SM-A125F/XEF/doc.html
 
 -   releaseCycle: "galaxy-m12"
@@ -815,28 +815,28 @@ releases:
 -   releaseCycle: "galaxy-m21s"
     releaseLabel: "Galaxy M21s"
     releaseDate: 2020-11-06
-    eoas: true
+    eoas: 2022-11-06
     eol: true
     link: https://doc.samsungmobile.com/SM-F415F/INS/doc.html
 
 -   releaseCycle: "galaxy-z-fold2-5g"
     releaseLabel: "Galaxy Z Fold2 5G"
     releaseDate: 2020-11-04
-    eoas: true
+    eoas: 2023-11-04
     eol: 2024-11-04
     link: https://doc.samsungmobile.com/SM-F916B/XEH/doc.html
 
 -   releaseCycle: "galaxy-m31-prime"
     releaseLabel: "Galaxy M31 Prime"
     releaseDate: 2020-10-17
-    eoas: true
+    eoas: 2022-10-17
     eol: true
     link: https://doc.samsungmobile.com/sm-m315f/ins/doc.html
 
 -   releaseCycle: "galaxy-f41"
     releaseLabel: "Galaxy F41"
     releaseDate: 2020-10-16
-    eoas: true
+    eoas: 2022-10-16
     eol: true
     link: https://doc.samsungmobile.com/SM-F415F/INS/doc.html
 
@@ -857,7 +857,7 @@ releases:
 -   releaseCycle: "galaxy-tab-active3"
     releaseLabel: "Galaxy Tab Active3"
     releaseDate: 2020-09-28
-    eoas: true
+    eoas: 2022-09-28
     eol: 2024-09-28
     link: https://doc.samsungmobile.com/SM-T575/XEF/doc.html
 
@@ -885,29 +885,29 @@ releases:
 -   releaseCycle: "galaxy-note-20-5g"
     releaseLabel: "Galaxy Note 20 5G"
     releaseDate: 2020-08-21
-    eoas: true
-    eol: 2025-04-30
+    eoas: 2023-08-21
+    eol: 2025-08-21
     link: https://doc.samsungmobile.com/SM-N981U1/VZW/doc.html
 
 -   releaseCycle: "galaxy-note20-ultra"
     releaseLabel: "Galaxy Note20 Ultra"
     releaseDate: 2020-08-21
-    eoas: True
-    eol: 2025-04-30
+    eoas: 2023-08-21
+    eol: 2025-08-21
     link: https://doc.samsungmobile.com/SM-N985F/XNZ/doc.html
 
 -   releaseCycle: "galaxy-tab-s7"
     releaseLabel: "Galaxy Tab S7"
     releaseDate: 2020-08-21
-    eoas: true
+    eoas: 2023-08-21
     eol: 2024-08-21
     link: https://doc.samsungmobile.com/SM-T875/DBT/doc.html
 
 -   releaseCycle: "galaxy-note20"
     releaseLabel: "Galaxy Note20"
     releaseDate: 2020-08-21
-    eoas: true
-    eol: 2025-04-30
+    eoas: 2023-08-21
+    eol: 2025-08-21
     link: https://doc.samsungmobile.com/SM-N980F/XEO/doc.html
 
 -   releaseCycle: "galaxy-a51-5g-uw"
@@ -934,7 +934,7 @@ releases:
 -   releaseCycle: "galaxy-m51"
     releaseLabel: "Galaxy M51"
     releaseDate: 2020-08-06
-    eoas: true
+    eoas: 2022-08-06
     eol: 2023-08-06
     link: https://doc.samsungmobile.com/SM-M515F/DBT/doc.html
 
@@ -1025,8 +1025,8 @@ releases:
 -   releaseCycle: "galaxy-tab-s6-lite"
     releaseLabel: "Galaxy Tab S6 Lite"
     releaseDate: 2020-05-16
-    eoas: true
-    eol: true
+    eoas: 2023-05-16
+    eol: false
     link: https://doc.samsungmobile.com/SM-P610/XEH/doc.html
 
 -   releaseCycle: "galaxy-a11"
@@ -1067,14 +1067,14 @@ releases:
 -   releaseCycle: "galaxy-tab-a-8.4-2020"
     releaseLabel: "Galaxy Tab A 8.4 (2020)" # Yeah we need to specify the year here, multiple models from different years with the same name.
     releaseDate: 2020-03-25
-    eoas: true
+    eoas: 2022-03-25
     eol: true
     link: https://doc.samsungmobile.com/sm-t307u/glw/doc.html
 
 -   releaseCycle: "galaxy-m21"
     releaseLabel: "Galaxy M21"
     releaseDate: 2020-03-23
-    eoas: true
+    eoas: 2022-03-23
     eol: 2024-03-23
     link: https://doc.samsungmobile.com/sm-m215f/ins/doc.html
 
@@ -1172,7 +1172,7 @@ releases:
 -   releaseCycle: "galaxy-xcover-pro"
     releaseLabel: "Galaxy XCover Pro" # Unclear release date.
     releaseDate: 2020-01-01
-    eoas: true
+    eoas: 2023-01-01
     eol: 2024-01-01
     link: https://doc.samsungmobile.com/SM-G715FN/XEH/doc.html
 
