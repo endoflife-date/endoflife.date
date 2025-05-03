@@ -32,8 +32,8 @@ releases:
     eoas: false
     eol: false
     eoes: false
-    latest: "12.0.19"
-    latestReleaseDate: 2025-04-01
+    latest: "12.0.20"
+    latestReleaseDate: 2025-04-29
 
 -   releaseCycle: "11"
     minJvmVersion: 11
