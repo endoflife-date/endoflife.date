@@ -3,9 +3,9 @@ name: Lint
 on:
   workflow_dispatch: # Manually run workflow.
   push:
-    branches: [ 'main' ]
+    branches: [ 'master' ]
   pull_request:
-    branches: [ 'main' ]
+    branches: [ 'master' ]
 
 jobs:
   lint:
@@ -13,3 +13,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Setup ruby
+        uses: ruby/setup-ruby@dffc446db9ba5a0c4446edb5bca1c5c473a806c5 # v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Validate OpenAPI specification
+        run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml

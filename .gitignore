@@ -19,3 +19,4 @@ _data/gke.json
 node_modules
 .DS_Store
 .venv
+wiretap-report.json

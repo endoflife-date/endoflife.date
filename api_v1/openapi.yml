@@ -1,0 +1,860 @@
+---
+# API v1 description. See https://spec.openapis.org/oas/v3.1.0 for specification.
+# Edit using https://editor.swagger.io/.
+
+permalink: /docs/api/v1/openapi.yml
+layout: null
+---
+openapi: 3.1.1
+
+info:
+  title: endoflife API
+  version: "1.0.0-b1"
+  license:
+    name: MIT License
+    url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
+  contact:
+    name: endoflife.date team
+    url: https://github.com/endoflife-date/endoflife.date
+  description: >-
+    endoflife.date documents EOL dates and support lifecycles for various products.
+    The endoflife API allows users to discover and query for those products.
+
+
+    Some useful links:
+
+    - [The endoflife.date website](https://endoflife.date/)
+
+    - [The endoflife.date repository](https://github.com/endoflife-date/endoflife.date)
+
+    - [The endoflife.date issue tracker](https://github.com/endoflife-date/endoflife.date/issues/)
+
+    - [The source API definition](https://github.com/endoflife-date/endoflife.date/blob/master/assets/openapi.yml)
+
+# Replace with your preview URL (such as https://deploy-preview-2080--endoflife-date.netlify.app/api/v1).
+servers:
+  - url: "{{ site.url }}/api/v1"
+
+tags:
+  - name: Index
+    description: List the main endoflife.date API endpoints.
+  - name: Products
+    description: Query for all products.
+  - name: Categories
+    description: Query for products by category.
+  - name: Tags
+    description: Query for products by tags.
+
+paths:
+  /:
+    get:
+      operationId: index
+      tags:
+        - Index
+      summary: API index
+      description: List the main endoflife.date API endpoints.
+      responses:
+        '200':
+          description: The endpoints list.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /products:
+    get:
+      operationId: products
+      tags:
+        - Products
+      summary: List all products
+      description: >
+        List all the products referenced on endoflife.date.
+        Only a summary of each product is returned by this endpoint.
+      responses:
+        '200':
+          description: A products summary list.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /products/full:
+    get:
+      operationId: products_full
+      tags:
+        - Products
+      summary: List all products (full)
+      description: >
+        List all the products referenced on endoflife.date, with all their details.
+        The full products data is returned by this endpoint, making the result a dump of nearly all
+        endoflife.date data. Preferably, use the /products endpoint to get a summary of the products
+        and reduce the amount of data transferred.
+      responses:
+        '200':
+          description: A products list with all the information.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FullProductListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /products/{product}:
+    get:
+      operationId: product
+      tags:
+        - Products
+      summary: Get a product
+      description: >
+        Get the given product data.
+        This endpoint is returning all endoflife.date knows about the product, including release cycles data.
+      parameters:
+        - name: product
+          in: path
+          description: A product name.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The given product description.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The product with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+  /products/{product}/releases/{release}:
+    get:
+      operationId: product_release
+      tags:
+        - Products
+      summary: Get a product release cycle
+      description: Get the given product release cycle information.
+      parameters:
+        - name: product
+          in: path
+          description: A product name.
+          required: true
+          schema:
+            type: string
+        - name: release
+          in: path
+          description: A release cycle name.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The given product release cycle information.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductReleaseResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The product with the given name does not exist, or the given release cycle does not exist within the product.
+        '429':
+          description: Too many requests, retry later.
+
+  /products/{product}/releases/latest:
+    get:
+      operationId: product_release_latest
+      tags:
+        - Products
+      summary: Get a product latest release cycle
+      description: Get the latest release cycle information for the given product.
+      parameters:
+        - name: product
+          in: path
+          description: A product name.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The given product latest release cycle information.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductReleaseResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The product with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+  /categories:
+    get:
+      operationId: categories
+      tags:
+        - Categories
+      summary: List all categories
+      description: List all endoflife.date categories.
+      responses:
+        '200':
+          description: The list of all categories.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /categories/{category}:
+    get:
+      operationId: products_category
+      tags:
+        - Categories
+      summary: List all products in a category
+      description: >
+        List all the products referenced on endoflife.date for the given category.
+        Only a summary of each product is returned by this endpoint.
+      parameters:
+        - name: category
+          in: path
+          description: A category's name.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The list of all products in the given category.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The category with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+  /tags:
+    get:
+      operationId: tags
+      tags:
+        - Tags
+      summary: List all tags
+      description: List all endoflife.date tags.
+      responses:
+        '200':
+          description: The list of all tags.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /tags/{tag}:
+    get:
+      operationId: products_tag
+      tags:
+        - Tags
+      summary: List all products with a tag
+      description: >
+        List all the products referenced on endoflife.date for the given tag.
+        Only a summary of each product is returned by this endpoint.
+      parameters:
+        - name: tag
+          in: path
+          description: A tag name.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The list of all products having the given tag.
+          headers: { }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The tag with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+# Responses must be at the end of the list, contain a schema_version property and be suffixed with
+# 'Response' to facilitate maintenance and reading.
+components:
+  schemas:
+    Uri:
+      description: A link to a resource.
+      type: object
+      required:
+        - name
+        - uri
+      properties:
+        name:
+          type: string
+          description: Name of the URI.
+          examples:
+            - "tags"
+        uri:
+          type: string
+          format: uri
+          description: URI.
+          examples:
+            - "{{ site.url }}/tags/"
+
+    Identifier:
+      description: A product identifier, such as a purl, repology or cpe identifier.
+      type: object
+      required:
+        - id
+        - type
+      properties:
+        id:
+          type: string
+          description: Identifier.
+          examples:
+            - "cpe:/o:canonical:ubuntu_linux"
+        type:
+          type: string
+          description: Type of the identifier.
+          examples:
+            - "cpe"
+
+    ProductVersion:
+      description: Information about a product version.
+      type: object
+      required:
+        - name
+        - date
+        - link
+      properties:
+        name:
+          description: Name of the version.
+          type: string
+          examples:
+            - "22.04.2"
+        date:
+          description: >
+            Release date of the version.
+
+            This field is null when the information is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2022-04-21"
+        link:
+          description: >
+            Link to the changelog or release notes.
+
+            This field is null when there is no public link available,
+            or when the information is not known.
+          type:
+            - string
+            - "null"
+          format: uri
+          examples:
+            - https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/
+
+    ProductRelease:
+      description: Full information about a product release cycle.
+      type: object
+      required:
+        - name
+        - codename
+        - label
+        - releaseDate
+        - isLts
+        - ltsFrom
+        - isEol
+        - eolFrom
+        - isMaintained
+        - latest
+      properties:
+        name:
+          description: Name of the product release cycle.
+          type: string
+          examples:
+            - "22.04"
+        codename:
+          description: >
+            Codename of the product release cycle.
+
+            This field is null when the release cycle does not have a codename,
+            or when the information is not known.
+          type:
+            - string
+            - "null"
+          examples:
+            - Jammy Jellyfish
+        label:
+          description: Label of the product release cycle.
+          type: string
+          examples:
+            - 22.04 'Jammy Jellyfish' (LTS)
+        releaseDate:
+          description: Release date of the release cycle.
+          type: string
+          format: date
+          examples:
+            - "2022-04-21"
+        isLts:
+          description: Whether the product release cycle receives long-term support (LTS).
+          type: boolean
+          examples:
+            - true
+        ltsFrom:
+          description: >
+            Start date of the LTS phase for the release cycle.
+
+            This field is null when the isLts field is set to false,
+            when the LTS phase does not start later than the release date,
+            or when the date is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2022-04-21"
+        isEoas:
+          description: >
+            Whether the active support phase is over for the release cycle.
+
+            This field is not provided when the product does not have an active support phase.
+          type: boolean
+          examples:
+            - false
+        eoasFrom:
+          description: >
+            End of active support date for the release cycle.
+
+            This field is not provided when the product does not have an active support phase.
+            It is null when the date is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2024-09-30"
+        isEol:
+          description: Whether the release cycle is EOL.
+          type: boolean
+          examples:
+            - false
+        eolFrom:
+          description: >
+            End of life date for the release cycle.
+
+            This field is null when the date is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2027-04-01"
+        isDiscontinued:
+          description: >
+            Whether the release cycle is discontinued.
+
+            This field is mainly used for hardware, it is not provided when not applicable.
+          type: boolean
+          examples:
+            - false
+        discontinuedFrom:
+          description: >
+            Discontinuation date for the release cycle.
+
+            This field is mainly used for hardware, it is not provided when not applicable.
+            It is null when the date is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2027-04-01"
+        isEoes:
+          description: >
+            Whether the extended support phase is over for the release cycle.
+
+            This field is not provided when the product does not have an extended support phase.
+            This field is null when the release cycle is not eligible for extended support.
+          type:
+            - boolean
+            - "null"
+          examples:
+            - true
+        eoesFrom:
+          description: >
+            End of extended support date for the release cycle.
+
+            This field is not provided when the product does not have an extended support phase.
+            It is null when the release cycle is not eligible for extended support or when the date is not known.
+          type:
+            - string
+            - "null"
+          format: date
+          examples:
+            - "2032-04-09"
+        isMaintained:
+          description: >
+            Whether this release cycle still have some level of support.
+
+            This can be any level of support, even extended support.
+          type: boolean
+          examples:
+            - true
+        latest:
+          description: >
+            Latest version for this release cycle.
+
+            This field is null when this release cycle does not have a latest version documented.
+          anyOf:
+            - $ref: '#/components/schemas/ProductVersion'
+            - type: "null"
+
+    ProductSummary:
+      description: Summary of a product.
+      type: object
+      required:
+        - name
+        - label
+        - aliases
+        - category
+        - tags
+        - uri
+      properties:
+        name:
+          description: Name of the product.
+          type: string
+          examples:
+            - "ubuntu"
+        label:
+          description: Label of the product.
+          type: string
+          examples:
+            - "Ubuntu"
+        aliases:
+          description: >
+            Aliases declared for the product (derived from alternate_urls).
+
+            The array is empty when no alias is declared.
+          type: array
+          items:
+            type: string
+          examples:
+            - [ "ubuntu-linux" ]
+        category:
+          description: Category of the product.
+          type: string
+          examples:
+            - "os"
+        tags:
+          description: >
+            Tags associated to the product.
+
+            Given the category is also a tag, the array will always contain at least one tag.
+          type: array
+          minItems: 1
+          items:
+            type: string
+          examples:
+            - [ "canonical", "os" ]
+        uri:
+          description: Link to the full product details.
+          type: string
+          format: uri
+          examples:
+            - "{{ site.url }}/api/v1/products/ubuntu/"
+
+    ProductDetails:
+      description: Full details of a product.
+      type: object
+      required:
+        - name
+        - label
+        - aliases
+        - category
+        - tags
+        - identifiers
+        - labels
+        - links
+        - releases
+      properties:
+        name:
+          description: Name of the product.
+          type: string
+          examples:
+            - "ubuntu"
+        label:
+          description: Label of the product.
+          type: string
+          examples:
+            - "Ubuntu"
+        aliases:
+          description: >
+            Aliases declared for the product (derived from alternate_urls).
+
+            The array is empty when no alias is declared.
+          type: array
+          items:
+            type: string
+          examples:
+            - [ "ubuntu-linux" ]
+        category:
+          description: Category of the product.
+          type: string
+          examples:
+            - "os"
+        tags:
+          description: >
+            Tags associated to the product.
+
+            Given the category is also a tag, the array will always contain at least one tag.
+          type: array
+          minItems: 1
+          items:
+            type: string
+          examples:
+            - [ "canonical", "os" ]
+        # Additional properties (compared to ProductSummary)
+        versionCommand:
+          description: >
+            Command that can be used to check the current product version.
+
+            This field is null when the command is not known.
+          type:
+            - string
+            - "null"
+          examples:
+            - "lsb_release --release"
+        identifiers:
+          description: >
+            Known identifiers (purl, repology, cpe...) associated to the product.
+
+            The array is empty when no identifier is declared.
+          type: array
+          items:
+            $ref: '#/components/schemas/Identifier'
+        labels:
+          description: Product labels.
+          type: object
+          required:
+            - eol
+          properties:
+            eoas:
+              description: >
+                Label used to denote the phase before the end of active support of the product.
+
+                This field is null when the product does not have an active support phase.
+              type:
+                - string
+                - "null"
+              examples:
+                - "Hardware & Maintenance"
+            discontinued:
+              description: >
+                Label used to denote the discontinuation of the product.
+
+                This field is mainly used for hardware, it is always null for software.
+              type:
+                - string
+                - "null"
+              examples:
+                - "Discontinued"
+            eol:
+              description: Label used to denote the phase before the end of life of the product.
+              type: string
+              examples:
+                - "Maintenance & Security Support"
+            eoes:
+              description: >
+                Label used to denote the phase before the end of extended support of the product.
+
+                This field is null when the product does not have an extended support phase.
+              type:
+                - string
+                - "null"
+              examples:
+                - "Extended Security Maintenance"
+        links:
+          description: Product links.
+          type: object
+          required:
+            - html
+          properties:
+            icon:
+              description: >
+                Link to the product icon on https://simpleicons.org.
+
+                This field is null when the product does not have an icon on simpleicons.org.
+              type:
+                - string
+                - "null"
+              format: uri
+              examples:
+                - "https://simpleicons.org/icons/ubuntu.svg"
+            html:
+              description: Link to the product page on endoflife.date.
+              type: string
+              format: uri
+              examples:
+                - "https://endoflife.date/ubuntu"
+            releasePolicy:
+              description: >
+                Link to the product release policy.
+
+                This field is null when the product does not have a publicly available release policy.
+              type:
+                - string
+                - "null"
+              format: uri
+              examples:
+                - "https://wiki.ubuntu.com/Releases"
+        releases:
+          description: A list of all product releases.
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductRelease'
+
+    UriListResponse:
+      description: A response containing a list of URIs.
+      type: object
+      required:
+        - schema_version
+        - total
+        - result
+      properties:
+        schema_version:
+          description: Version of this schema.
+          type: string
+          examples:
+            - "1.0.0"
+        total:
+          description: Number of URIs in the list.
+          type: integer
+          format: int32
+          examples:
+            - 3
+        result:
+          description: The URIs.
+          type: array
+          items:
+            $ref: '#/components/schemas/Uri'
+
+    ProductListResponse:
+      description: A response containing a list of products (summary).
+      type: object
+      required:
+        - schema_version
+        - total
+        - result
+      properties:
+        schema_version:
+          description: Version of this schema.
+          type: string
+          examples:
+            - "1.0.0"
+        total:
+          description: Number of products in the list.
+          type: integer
+          format: int32
+          examples:
+            - 200
+        result:
+          description: The products.
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductSummary'
+
+    FullProductListResponse:
+      description: A response containing a list of products (full).
+      type: object
+      required:
+        - schema_version
+        - total
+        - result
+      properties:
+        schema_version:
+          description: Version of this schema.
+          type: string
+          examples:
+            - "1.0.0"
+        total:
+          description: Number of products in the list.
+          type: integer
+          format: int32
+          examples:
+            - 200
+        result:
+          description: The products.
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductDetails'
+
+    ProductReleaseResponse:
+      description: A response containing a release cycle.
+      type: object
+      required:
+        - schema_version
+        - result
+      properties:
+        schema_version:
+          description: Version of this schema.
+          type: string
+          examples:
+            - "1.0.0"
+        result:
+          $ref: '#/components/schemas/ProductRelease'
+
+    ProductResponse:
+      description: A response containing a product.
+      type: object
+      required:
+        - schema_version
+        - last_modified
+        - result
+      properties:
+        schema_version:
+          description: Version of this schema.
+          type: string
+          examples:
+            - "1.0.0"
+        last_modified:
+          description: The time this product was last modified.
+          type: string
+          format: date-time
+          examples:
+            - "2023-03-01T14:05:52+01:00"
+        result:
+          $ref: '#/components/schemas/ProductDetails'
