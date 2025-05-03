@@ -1,7 +1,7 @@
 ---
 title: Samsung Mobile
 category: device
-tags: mobile-phone smartwatch tablet
+tags: mobile-phone tablet
 iconSlug: samsung
 permalink: /samsung-mobile
 alternate_urls:
@@ -273,20 +273,6 @@ releases:
     eol: 2026-09-02
     link: https://doc.samsungmobile.com/SM-A236U/DSA/doc.html
 
--   releaseCycle: "galaxy-watch5-pro"
-    releaseLabel: "Galaxy Watch5 Pro"
-    releaseDate: 2022-08-26
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-R925F/ITV/doc.html
-
--   releaseCycle: "galaxy-watch5"
-    releaseLabel: "Galaxy Watch5"
-    releaseDate: 2022-08-26
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-R905F/BTU/doc.html
-
 -   releaseCycle: "galaxy-z-fold4"
     releaseLabel: "Galaxy Z Fold4"
     releaseDate: 2022-08-25
@@ -545,20 +531,6 @@ releases:
     eoas: 2025-08-27
     eol: 2026-08-27
     link: https://doc.samsungmobile.com/SM-F711B/SER/doc.html
-
--   releaseCycle: "galaxy-watch4-classic"
-    releaseLabel: "Galaxy Watch4 Classic"
-    releaseDate: 2021-08-27
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-R890/XAA/doc.html
-
--   releaseCycle: "galaxy-watch4"
-    releaseLabel: "Galaxy Watch4"
-    releaseDate: 2021-08-27
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-R870/XAA/doc.html
 
 -   releaseCycle: "galaxy-a03s"
     releaseLabel: "Galaxy A03s"
@@ -938,13 +910,6 @@ releases:
     eol: 2023-08-06
     link: https://doc.samsungmobile.com/SM-M515F/DBT/doc.html
 
--   releaseCycle: "galaxy-watch3"
-    releaseLabel: "Galaxy Watch3"
-    releaseDate: 2020-08-06
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/sm-r850/btu/doc.html
-
 -   releaseCycle: "galaxy-a01-core"
     releaseLabel: "Galaxy A01 Core"
     releaseDate: 2020-08-06
@@ -1260,20 +1225,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-M107F/INS/doc.html
 
--   releaseCycle: "galaxy-watch-active2"
-    releaseLabel: "Galaxy Watch Active2"
-    releaseDate: 2019-09-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/sm-r825f/dbt/doc.html
-
--   releaseCycle: "galaxy-watch-active2-aluminum"
-    releaseLabel: "Galaxy Watch Active2 Aluminum"
-    releaseDate: 2019-09-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-R830/XAR/doc.html
-
 -   releaseCycle: "galaxy-a10s"
     releaseLabel: "Galaxy A10s"
     releaseDate: 2019-08-27
@@ -1385,13 +1336,6 @@ releases:
     eoas: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
     eol: true
     link: https://doc.samsungmobile.com/SM-A405FN/XEH/doc.html
-
--   releaseCycle: "galaxy-watch-active"
-    releaseLabel: "Galaxy Watch Active"
-    releaseDate: 2019-04-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/sm-r500/xar/doc.html
 
 -   releaseCycle: "galaxy-view2"
     releaseLabel: "Galaxy View2"
@@ -1581,13 +1525,6 @@ releases:
     eoas: true
     eol: 2022-06-01
     link: https://doc.samsungmobile.com/SM-T595/SER/doc.html
-
--   releaseCycle: "galaxy-watch"
-    releaseLabel: "Galaxy Watch"
-    releaseDate: 2018-08-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-R810/001398180827/fra.html
 
 -   releaseCycle: "galaxy-j2-core"
     releaseLabel: "Galaxy J2 Core"
@@ -3112,8 +3049,6 @@ releases:
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed,
 > manufactured and marketed by Samsung Electronics.
-
-## Security brackets
 
 Samsung devices usually have four support brackets in which a device receives support. Which bracket
 your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
