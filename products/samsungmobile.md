@@ -11,7 +11,9 @@ releaseColumn: false
 eoasColumn: true
 eolColumn: Security Updates
 
-# Models compatible with Android 12+ are considered fully supported.
+# Useful information can be found on:
+# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
 #
 # To find the link for a particular model :
 # 1. search the model numbers on https://www.gsmarena.com/ ("Models" entry in the "MISC" section),
