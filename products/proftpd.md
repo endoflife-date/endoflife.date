@@ -66,5 +66,5 @@ Looking at the latest releases, it seems that:
 - a new release cycle puts the previous one into "maintenance mode" and completely ends the
   next-to-last one
 - maintenance happens by releasing tiny versions on both active branches
-- the tiny version part is added as letter directly to the release version without a seperator
+- the tiny version part is added as letter directly to the release version without a separator
 - there are several release candidates before a new cycle starts
