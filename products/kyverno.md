@@ -18,7 +18,6 @@ identifiers:
 -   purl: pkg:github/kyverno/kyverno
 -   purl: pkg:docker/nirmata/kyverno
 -   repology: kyverno
--   purl: pkg:docker/chainguard/kyverno
 -   purl: pkg:oci/kyverno?repository_url=cgr.dev/chainguard
 
 auto:
