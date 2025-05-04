@@ -3,10 +3,10 @@ title: Apache HTTP Server
 category: server-app
 tags: apache web-server
 iconSlug: apache
-permalink: /apache
+permalink: /apache-http-server
 alternate_urls:
+-   /apache
 -   /httpd
--   /apache-http-server
 releasePolicyLink: https://httpd.apache.org/dev/release.html
 versionCommand: |-
   httpd -v
