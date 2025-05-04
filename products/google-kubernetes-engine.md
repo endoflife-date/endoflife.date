@@ -14,7 +14,7 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-  -   custom: gke
+  -   custom: google-kubernetes-engine
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # eoas:last-date-in-month(eol - 2months)

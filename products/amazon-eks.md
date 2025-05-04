@@ -15,7 +15,7 @@ eoesColumn: true
 
 auto:
   methods:
-  -   custom: eks
+  -   custom: amazon-eks
   -   release_table: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
       selector: "table"
       fields:

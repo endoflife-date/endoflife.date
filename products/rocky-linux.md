@@ -20,7 +20,7 @@ identifiers:
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
-  -   custom: rockylinux
+  -   custom: rocky-linux
   -   release_table: https://wiki.rockylinux.org/rocky/version/
       selector: "table"
       fields:
