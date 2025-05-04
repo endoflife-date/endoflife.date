@@ -5,6 +5,7 @@ iconSlug: linux
 permalink: /linux
 alternate_urls:
 -   /linuxkernel
+-   /linux-kernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
 releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/7xlrsa6tukgfhkr2gvf5f84uvr39etd.png

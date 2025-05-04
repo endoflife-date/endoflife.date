@@ -22,7 +22,7 @@ eolColumn: Maintenance support
 
 auto:
   methods:
-  -   custom: redhat-satellite
+  -   custom: red-hat-satellite
 
 releases:
 -   releaseCycle: "6.16"

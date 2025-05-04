@@ -13,7 +13,7 @@ eolColumn: Active Support
 
 auto:
   methods:
-  -   custom: visualstudio
+  -   custom: visual-studio
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
