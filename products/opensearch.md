@@ -30,19 +30,26 @@ auto:
           template: "{{month}} {{day}} {{year}}"
 
 releases:
+-   releaseCycle: "3"
+    releaseDate: 2025-05-06
+    eoas: false
+    eol: false
+    latest: "3.0.0"
+    latestReleaseDate: 2025-05-06
+
 -   releaseCycle: "2"
     releaseDate: 2022-05-26
-    eoas: 2025-04-29
+    eoas: 2025-02-11
     eol: false
     latest: "2.19.2"
-    latestReleaseDate: 2025-03-26
+    latestReleaseDate: 2025-04-29
 
 -   releaseCycle: "1"
     releaseDate: 2021-07-12
     eoas: 2022-05-26
-    eol: 2025-04-29 # upcoming support(2) at least 1 year
+    eol: 2025-05-06 # upcoming support(2) at least 1 year
     latest: "1.3.20"
-    latestReleaseDate: 2024-12-10
+    latestReleaseDate: 2024-12-11
 
 ---
 
@@ -62,7 +69,9 @@ a minimum guarantee of a year. Therefore, at any given time, the current major v
 major version are both supported, as well as older major versions that have been in maintenance
 for less than 12 months.
 
-OpenSearch 1.x will end Maintenance Support once 3.0 is released.
+OpenSearch 1.x has been deprecated since 2025-05-06.
+
+OpenSearch 2.x will end Maintenance Support once 4.0 is released.
 
 ## Versioning
 
