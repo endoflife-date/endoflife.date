@@ -14,7 +14,6 @@ eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support
 
 identifiers:
--   repology: magento
 -   cpe: cpe:/a:magento:magento
 -   cpe: cpe:2.3:a:magento:magento
 
