@@ -38,9 +38,16 @@ auto:
 # - eoas(x) = release(x+1)
 # - eol(x) = release(x+3)
 releases:
+-   releaseCycle: "8.0"
+    releaseDate: 2025-05-02
+    eoas: false
+    eol: false
+    latest: '8.0.0'
+    latestReleaseDate: 2025-05-02
+
 -   releaseCycle: "7.4"
     releaseDate: 2024-07-29
-    eoas: false
+    eoas: 2025-05-02
     eol: 2026-11-30
     latest: '7.4.3'
     latestReleaseDate: 2025-04-23
@@ -101,8 +108,10 @@ major security issues are committed and released as patches:
 - The previous minor version of the latest stable release.
 - The previous stable major release.
 
-Starting from 7.4, Redis will be dual-licensed under the
-[RSALv2 and SSPLv1](https://redis.com/blog/redis-adopts-dual-source-available-licensing/) licenses.
-7.2 is the last release under the old 3-BSD license.
+Open Source Redis releases are subject to the following licenses:
+
+- Version 7.2.x and prior releases are subject to BSDv3. 
+- Versions 7.4.x to 7.8.x are subject to your choice of RSALv2 or SSPLv1; and
+- Version 8.0.x and subsequent releases are subject to the tri-license RSALv2/SSPLv1/AGPLv3 at your option.
 
 [Security Overview](https://github.com/redis/redis/security) with the actual list of supported versions and advisories.
