@@ -109,6 +109,6 @@ will be available until November 30, 2019.
 
 ## Release Cadence
 
-* A new major/minor release is typically made every 3-6 months.
-* Maintenance releases are typically made every 4-6 weeks.
+* A new major/minor release is typically made every 6-9 months.
+* Maintenance releases are typically made every 6-8 weeks.
 * Patch releases are made on an as-needed basis.
