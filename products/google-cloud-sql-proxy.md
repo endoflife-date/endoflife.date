@@ -24,11 +24,11 @@ auto:
       regex: ^v(?P<major>\d+)_(?P<minor>\d+)_(?P<patch>\d{1,3})_?(?P<tiny>\d+)?$
 
 releases:
--   releaseCycle: "2.10"
-    releaseDate: 2025-03-17
-    eol: 2026-03-20
-    latest: "2.10.1"
-    latestReleaseDate: 2025-03-27
+-   releaseCycle: "2"
+    releaseDate: 2023-01-17
+    eol: 2026-04-28
+    latest: "2.16.0"
+    latestReleaseDate: 2025-04-28
 
 ---
 
