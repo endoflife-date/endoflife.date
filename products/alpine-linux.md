@@ -3,8 +3,9 @@ title: Alpine Linux
 category: os
 tags: linux-distribution
 iconSlug: alpinelinux
-permalink: /alpine
+permalink: /alpine-linux
 alternate_urls:
+-   /alpine
 -   /alpinelinux
 versionCommand: cat /etc/alpine-release
 releasePolicyLink: https://alpinelinux.org/releases/
