@@ -83,14 +83,14 @@ releases:
     releaseLabel: "Gemini Lake"
     releaseDate: 2017-12-11
     discontinued: true
-    eol: false
+    eol: 2024-12-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/83915/products-formerly-gemini-lake.html
 
 -   releaseCycle: "coffee-lake"
     releaseLabel: "Coffee Lake"
     releaseDate: 2017-10-05
     discontinued: 2021-12-24
-    eol: false
+    eol: 2025-06-30
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/97787/products-formerly-coffee-lake.html
 
 -   releaseCycle: "apollo-lake"
@@ -104,7 +104,7 @@ releases:
     releaseLabel: "Kaby Lake"
     releaseDate: 2015-08-30
     discontinued: 2020-10-09
-    eol: false
+    eol: 2024-03-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/82879/products-formerly-kaby-lake.html
 
 -   releaseCycle: "skylake"

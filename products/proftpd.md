@@ -3,7 +3,8 @@ title: ProFTPD
 category: server-app
 permalink: /proftpd
 versionCommand: proftpd --version
-changelogTemplate: "https://github.com/proftpd/proftpd/releases/tag/v__LATEST__"
+releasePolicyLink: http://www.proftpd.org/docs/howto/Versioning.html
+changelogTemplate: https://github.com/proftpd/proftpd/releases/tag/v__LATEST__
 eolColumn: Maintenance Support
 eoasColumn: Stable Support
 
@@ -59,12 +60,12 @@ releases:
 > [ProFTPD](http://www.proftpd.org/) is a highly configurable GPL-licensed FTP daemon for Unix and
 > Unix-like operating systems.
 
-ProFTPD does not follow a documented release policy.  
-Looking at the latest releases, it seems that:
+ProFTPD follows a release policy roughly summarized as:
 - there is one `stable` release cycle which is the current actively maintained branch
 - there is one `maintenance` release cycle which still gets backported fixes from `stable`
 - a new release cycle puts the previous one into "maintenance mode" and completely ends the
   next-to-last one
-- maintenance happens by releasing tiny versions on both active branches
-- the tiny version part is added as letter directly to the release version without a seperator
-- there are several release candidates before a new cycle starts
+- maintenance happens by releasing a tiny version in the maintenance branch
+- the tiny version part is added as letter directly to the release version without a separator
+- the first maintenance release for the current stable version starts the next cycle
+- there are several release candidates before a new stable release happens
