@@ -3,9 +3,9 @@ title: Apache Maven
 category: app
 tags: apache build-tool java-runtime
 iconSlug: apachemaven
-permalink: /maven
+permalink: /apache-maven
 alternate_urls:
--   /apache-maven
+-   /maven
 -   /mvn
 versionCommand: mvn --version
 releasePolicyLink: https://maven.apache.org/docs/history.html
