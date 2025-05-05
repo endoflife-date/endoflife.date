@@ -83,7 +83,7 @@ releases:
     releaseLabel: "Gemini Lake"
     releaseDate: 2017-12-11
     discontinued: true
-    eol: false
+    eol: 2024-12-31
     link: https://ark.intel.com/content/www/us/en/ark/products/codename/83915/products-formerly-gemini-lake.html
 
 -   releaseCycle: "coffee-lake"
