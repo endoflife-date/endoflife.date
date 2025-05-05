@@ -2,10 +2,10 @@
 title: Apache Subversion
 category: server-app
 iconSlug: subversion
-permalink: /subversion
+permalink: /apache-subversion
 alternate_urls:
 -   /svn
--   /apache-subversion
+-   /subversion
 changelogTemplate: https://subversion.apache.org/docs/release-notes/__RELEASE_CYCLE__.html
 releasePolicyLink: https://subversion.apache.org/roadmap.html
 eolColumn: Support
