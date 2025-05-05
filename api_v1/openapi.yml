@@ -9,7 +9,7 @@ openapi: 3.1.1
 
 info:
   title: endoflife API
-  version: "1.0.0-b1"
+  version: "1.0.0"
   license:
     name: MIT License
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
