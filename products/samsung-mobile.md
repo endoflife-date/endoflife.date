@@ -28,7 +28,7 @@ releases:
     eol: 2032-02-03 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S938B/INS/doc.html
 
--   releaseCycle: "galaxy-s25-plus"
+-   releaseCycle: "galaxy-s25+"
     releaseLabel: "Galaxy S25+"
     releaseDate: 2025-02-03
     eoas: 2032-02-03 # "seven generations of OS upgrades" (https://news.samsung.com/global/samsung-galaxy-s25-series-sets-the-standard-of-ai-phone-as-a-true-ai-companion)
@@ -84,7 +84,7 @@ releases:
     eol: 2031-01-24 # "seven years of security updates"
     link: https://doc.samsungmobile.com/SM-S928U1/XAA/doc.html
 
--   releaseCycle: "galaxy-s24-plus"
+-   releaseCycle: "galaxy-s24+"
     releaseLabel: "Galaxy S24+"
     releaseDate: 2024-01-24
     eoas: 2031-01-24 # "seven generations of OS upgrades" (https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series)
@@ -133,7 +133,7 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
 
--   releaseCycle: "galaxy-tab-s9-fe-plus"
+-   releaseCycle: "galaxy-tab-s9-fe+"
     releaseLabel: "Galaxy Tab S9 FE+"
     releaseDate: 2023-10-16
     eoas: 2027-10-16
@@ -154,7 +154,7 @@ releases:
     eol: 2028-10-16
     link: https://doc.samsungmobile.com/sm-x710/eux/doc.html
 
--   releaseCycle: "galaxy-tab-s9-plus-5g"
+-   releaseCycle: "galaxy-tab-s9+-5g"
     releaseLabel: "Galaxy Tab S9+ 5G"
     releaseDate: 2023-08-11
     eoas: 2027-10-16
@@ -196,7 +196,7 @@ releases:
     eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S918B/EUX/doc.html
 
--   releaseCycle: "galaxy-s23-plus"
+-   releaseCycle: "galaxy-s23+"
     releaseLabel: "Galaxy S23+"
     releaseDate: 2023-02-17
     eoas: false
@@ -371,7 +371,7 @@ releases:
     eol: 2027-04-22
     link: https://doc.samsungmobile.com/SM-A736B/XSA/doc.html
 
--   releaseCycle: "galaxy-tab-s8-plus"
+-   releaseCycle: "galaxy-tab-s8+"
     releaseLabel: "Galaxy Tab S8+"
     releaseDate: 2022-04-14
     eoas: 2026-04-14
@@ -448,7 +448,7 @@ releases:
     eol: 2027-02-25 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S908E/VAU/doc.html
 
--   releaseCycle: "galaxy-s22-plus-5g"
+-   releaseCycle: "galaxy-s22+-5g"
     releaseLabel: "Galaxy S22+ 5G"
     releaseDate: 2022-02-25
     eoas: 2026-02-25
@@ -749,7 +749,7 @@ releases:
     eol: 2026-01-29 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/sm-g998b/dbt/doc.html
 
--   releaseCycle: "galaxy-s21-plus-5g"
+-   releaseCycle: "galaxy-s21+-5g"
     releaseLabel: "Galaxy S21+ 5G"
     releaseDate: 2021-01-29
     eoas: false
@@ -952,7 +952,7 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-A013F/SEK/doc.html
 
--   releaseCycle: "galaxy-tab-s7-plus"
+-   releaseCycle: "galaxy-tab-s7+"
     releaseLabel: "Galaxy Tab S7+"
     releaseDate: 2020-08-05
     eoas: 2023-08-05
@@ -1099,14 +1099,14 @@ releases:
     eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G988B/ATO/doc.html
 
--   releaseCycle: "galaxy-s20-plus-5g"
+-   releaseCycle: "galaxy-s20+-5g"
     releaseLabel: "Galaxy S20+ 5G"
     releaseDate: 2020-03-06
     eoas: true
     eol: 2025-03-05 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G986B/XEF/doc.html
 
--   releaseCycle: "galaxy-s20-plus"
+-   releaseCycle: "galaxy-s20+"
     releaseLabel: "Galaxy S20+"
     releaseDate: 2020-03-06
     eoas: true
@@ -1288,7 +1288,7 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-A102U/DSH/doc.html
 
--   releaseCycle: "galaxy-note10-plus"
+-   releaseCycle: "galaxy-note10+"
     releaseLabel: "Galaxy Note10+"
     releaseDate: 2019-08-23
     eoas: true
@@ -1309,7 +1309,7 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-T860/XAR/doc.html
 
--   releaseCycle: "galaxy-note10-plus-5g"
+-   releaseCycle: "galaxy-note10+-5g"
     releaseLabel: "Galaxy Note10+ 5G"
     releaseDate: 2019-08-01 # Approximate to the month and year.
     eoas: true
@@ -1470,7 +1470,7 @@ releases:
     eol: 2023-04-01 # https://www.sammobile.com/news/samsung-galaxy-s10-a50-software-update-support-discontinued/
     link: https://doc.samsungmobile.com/SM-G973F/XEF/doc.html
 
--   releaseCycle: "galaxy-s10-plus"
+-   releaseCycle: "galaxy-s10+"
     releaseLabel: "Galaxy S10+"
     releaseDate: 2019-02-20
     eoas: true
@@ -1533,14 +1533,14 @@ releases:
     eol: 2022-06-01
     link: https://doc.samsungmobile.com/SM-A920F/XEO/doc.html
 
--   releaseCycle: "galaxy-j6-plus"
+-   releaseCycle: "galaxy-j6+"
     releaseLabel: "Galaxy J6+"
     releaseDate: 2018-10-01
     eoas: true
     eol: 2022-06-01
     link: https://doc.samsungmobile.com/SM-J610FN/XEF/doc.html
 
--   releaseCycle: "galaxy-j4-plus"
+-   releaseCycle: "galaxy-j4+"
     releaseLabel: "Galaxy J4+"
     releaseDate: 2018-10-01
     eoas: true
@@ -1659,7 +1659,7 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-G8750/000773180601/zho-cn.html
 
--   releaseCycle: "galaxy-a6-plus-2018"
+-   releaseCycle: "galaxy-a6+-2018"
     releaseLabel: "Galaxy A6+ (2018)"
     releaseDate: 2018-05-01 # Approximate to the month and year.
     eoas: true
@@ -1687,7 +1687,7 @@ releases:
     eol: 2021-12-31
     link: null
 
--   releaseCycle: "galaxy-s9-plus"
+-   releaseCycle: "galaxy-s9+"
     releaseLabel: "Galaxy S9+"
     releaseDate: 2018-03-09
     eoas: true
@@ -1708,7 +1708,7 @@ releases:
     eol: 2021-12-31
     link: null
 
--   releaseCycle: "galaxy-a8-plus-2018"
+-   releaseCycle: "galaxy-a8+-2018"
     releaseLabel: "Galaxy A8+ (2018)"
     releaseDate: 2018-01-01 # Approximate to the month and year.
     eoas: true
@@ -1855,7 +1855,7 @@ releases:
     eol: 2021-04-01
     link: https://doc.samsungmobile.com/SM-G950F/ITV/doc.html
 
--   releaseCycle: "galaxy-s8-plus"
+-   releaseCycle: "galaxy-s8+"
     releaseLabel: "Galaxy S8+"
     releaseDate: 2017-04-01 # Approximate to the month and year.
     eoas: true
@@ -2331,21 +2331,21 @@ releases:
     eol: 2018-08-01
     link: https://doc.samsungmobile.com/SM-N920C/SER/doc.html
 
--   releaseCycle: "galaxy-s6-edge-plus-usa"
+-   releaseCycle: "galaxy-s6-edge+-usa"
     releaseLabel: "Galaxy S6 edge+ (USA)"
     releaseDate: 2015-08-01 # Approximate to the month and year.
     eoas: true
     eol: true
     link: null
 
--   releaseCycle: "galaxy-s6-edge-plus"
+-   releaseCycle: "galaxy-s6-edge+"
     releaseLabel: "Galaxy S6 edge+"
     releaseDate: 2015-08-01 # Approximate to the month and year.
     eoas: true
     eol: 2018-08-01
     link: https://doc.samsungmobile.com/SM-G928C/XXV/doc.html
 
--   releaseCycle: "galaxy-s6-edge-plus-duos"
+-   releaseCycle: "galaxy-s6-edge+-duos"
     releaseLabel: "Galaxy S6 edge+ Duos"
     releaseDate: 2015-08-01 # Approximate to the month and year.
     eoas: true
