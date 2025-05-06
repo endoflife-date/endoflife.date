@@ -214,7 +214,7 @@ releases:
     releaseLabel: "Galaxy A14 5G"
     releaseDate: 2023-01-12
     eoas: false
-    eol: false
+    eol: 2027-01-12
     link: https://doc.samsungmobile.com/SM-A146B/INS/doc.html
 
 -   releaseCycle: "galaxy-f04"
