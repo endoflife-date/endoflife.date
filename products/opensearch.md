@@ -39,7 +39,7 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2022-05-26
-    eoas: 2025-02-11
+    eoas: 2025-05-06
     eol: false
     latest: "2.19.2"
     latestReleaseDate: 2025-04-29
