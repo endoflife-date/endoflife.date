@@ -60,7 +60,7 @@ releases:
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.11"
+    latest: "24.3.12"
     latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "24.2"
@@ -75,15 +75,15 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.17"
-    latestReleaseDate: 2025-04-24
+    latest: "24.1.18"
+    latestReleaseDate: 2025-04-28
 
 -   releaseCycle: "23.2"
     releaseDate: 2024-02-05
     lts: 2026-07-08 # v23.2.7
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    latest: "23.2.24"
+    latest: "23.2.25"
     latestReleaseDate: 2025-04-24
 
 -   releaseCycle: "23.1"
