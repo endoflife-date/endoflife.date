@@ -3,8 +3,6 @@ title: cert-manager
 category: app
 tags: cncf
 permalink: /cert-manager
-alternate_urls:
--   /cert-manager
 versionCommand: |-
   # cmctl must be installed separately, see https://cert-manager.io/docs/reference/cmctl/.
   cmctl version
