@@ -32,7 +32,7 @@ releases:
 
 -   releaseCycle: "11.6"
     releaseDate: 2025-03-25
-    eoas: false
+    eoas: 2025-05-05
     eol: false
     latest: "11.6.1"
     latestReleaseDate: 2025-04-23
