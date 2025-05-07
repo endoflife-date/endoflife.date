@@ -4,8 +4,6 @@ category: server-app
 tags: cncf
 iconSlug: kuma
 permalink: /kuma
-alternate_urls:
--   /kuma
 changelogTemplate: https://github.com/kumahq/kuma/releases/tag/__LATEST__
 eolColumn: Support
 
