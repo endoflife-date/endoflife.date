@@ -190,7 +190,6 @@ Cluster Check (NCC). Only the latest patch release in any given release cycle is
 
 ## Release Cadence
 
-* Major/Minor releases are typically made available every 3-6 months for STS Releases and every
-  12-15 months for LTS Releases.
+* Major/Minor releases are typically made available every 6-9 months.
 * Maintenance releases are typically made available every 4-6 weeks.
 * Patch Releases are made available on an as-needed basis.
