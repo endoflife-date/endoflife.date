@@ -19,6 +19,15 @@ auto:
   -   github_releases: grafana/grafana
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)(?:\+security-(?P<security>\d+))?$
       template: '{{major}}.{{minor}}.{{patch}}{%if security %}+security-{{security}}{%endif%}'
+  -   release_table: https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+).*$'
+        eol:
+          column: "Support end of life (EOL)"
+          regex: '^(NO LONGER SUPPORTED as of )?(?P<value>\w+ \d{4}).*$'
 
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
@@ -26,14 +35,14 @@ releases:
 -   releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: false
-    eol: false
+    eol: 2026-01-31
     latest: "12.0.0"
     latestReleaseDate: 2025-05-05
 
 -   releaseCycle: "11.6"
     releaseDate: 2025-03-25
     eoas: 2025-05-05
-    eol: false
+    eol: 2026-06-30
     latest: "11.6.1"
     latestReleaseDate: 2025-04-23
 
