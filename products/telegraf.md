@@ -245,8 +245,6 @@ releases:
 > [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing,
 > aggregating, and writing metrics.
 
-Telegraf is based on a plugin system, and this page only covers the Telegraf server.
-
 InfluxData do not publish specific support periods for OSS products, though their commercial
 support policy offers support for the last two minor releases.
 
