@@ -246,6 +246,11 @@ releases:
 > aggregating, and writing metrics.
 
 Telegraf is based on a plugin system, and this page only covers the Telegraf server.
-Only the latest two minor releases are supported with maintenance patch releases.
-Compatibility is not guaranteed across major releases. Each major release is supported for a
-minimum of 12 months.
+
+InfluxData do not publish specific support periods for OSS products, though their commercial
+support policy offers support for the last two minor releases.
+
+Compatibility is not guaranteed across major releases.
+
+Telegraf's [release cadence](https://github.com/influxdata/telegraf/blob/master/docs/FAQ.md#when-is-the-next-release-when-will-my-pr-or-fix-get-released)
+means that there are four minor releases per year with bug fix releases occurring roughly every three weeks.
