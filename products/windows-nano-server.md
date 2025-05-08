@@ -13,6 +13,14 @@ LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
 
 releases:
+-   releaseCycle: "2025"
+    releaseDate: 2024-11-01
+    eoas: 2029-10-09
+    eol: 2034-10-10
+    latest: 10.0.26100
+    lts: true
+    link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
+    
 -   releaseCycle: "2022"
     releaseDate: 2021-08-18
     eoas: 2026-10-13
