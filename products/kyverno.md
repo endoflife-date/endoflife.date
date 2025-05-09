@@ -37,8 +37,8 @@ releases:
 -   releaseCycle: "1.13"
     releaseDate: 2024-10-29
     eol: false
-    latest: "1.13.5"
-    latestReleaseDate: 2025-04-29
+    latest: "1.13.6"
+    latestReleaseDate: 2025-05-08
     supportedK8sVersions: 1.28 - 1.31
 
 -   releaseCycle: "1.12"

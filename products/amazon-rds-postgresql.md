@@ -24,8 +24,8 @@ releases:
     releaseDate: 2024-11-14
     eol: 2030-02-28
     eoes: 2033-02-28
-    latest: "17.4"
-    latestReleaseDate: 2025-02-21
+    latest: "17.5"
+    latestReleaseDate: 2025-05-08
 
 -   releaseCycle: "16"
     releaseDate: 2023-11-17
@@ -82,6 +82,7 @@ releases:
     eoes: true
     # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
+
 
 
 
