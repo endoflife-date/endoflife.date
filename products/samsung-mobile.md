@@ -21,10 +21,10 @@ auto:
 # - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
 # - https://security.samsungmobile.com/workScope.smsb
 #
-# To find the link for a particular model :
+# To find the link for a particular model:
 # 1. search the model numbers on https://www.gsmarena.com/ ("Models" entry in the "MISC" section),
-# 2. search on Google with the query : "<model_number> site:doc.samsungmobile.com",
-# 3. choose a page (preferably in english).
+# 2. search on Google with the query: "<model_number> site:doc.samsungmobile.com",
+# 3. choose a page (preferably in English).
 releases:
 -   releaseCycle: "galaxy-s25-ultra"
     releaseLabel: "Galaxy S25 Ultra"
@@ -176,8 +176,8 @@ releases:
 -   releaseCycle: "galaxy-a24"
     releaseLabel: "Galaxy A24"
     releaseDate: 2023-05-05
-    eoas: 2027-05-05 # "four generations of OS upgrades"
-    eol: 2028-05-05 #five years of security updates" (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
+    eoas: 2027-05-05 # four generations of OS upgrades
+    eol: 2028-05-05 # five years of security updates (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
     link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
 
 -   releaseCycle: "galaxy-a54-5g"
@@ -677,8 +677,8 @@ releases:
     eol: 2025-03-17
     link: https://doc.samsungmobile.com/sm-a526b/dbt/doc.html
 
--   releaseCycle: "galaxy-xcover-5"
-    releaseLabel: "Galaxy Xcover 5"
+-   releaseCycle: "galaxy-xcover5"
+    releaseLabel: "Galaxy Xcover5"
     releaseDate: 2021-03-12
     eoas: 2024-03-12
     eol: 2025-03-12
@@ -821,7 +821,7 @@ releases:
     releaseLabel: "Galaxy S20 FE 5G"
     releaseDate: 2020-10-02
     eoas: true # three generations of upgrades
-    eol: 2025-10-01 # Samsung provides a 5th year security support  for S20
+    eol: 2025-10-01 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G781B/BTU/doc.html
 
 -   releaseCycle: "galaxy-s20-fe-2020"
@@ -1059,7 +1059,7 @@ releases:
     releaseLabel: "Galaxy S20 Ultra"
     releaseDate: 2020-03-15
     eoas: true
-    eol: 2025-03-14 # Samsung provides a 5th year security support  for S20
+    eol: 2025-03-14 # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G988B/DCO/doc.html
 
 -   releaseCycle: "galaxy-s20-ultra-5g"
@@ -3069,6 +3069,5 @@ your device falls under [can be found here](https://security.samsungmobile.com/w
   bracket takes over once quarterly updates have ended, it usually lasts an additional year, or
   until four years have passed since the device has been released.
 
-**Note** 1: Some dates are based on when support status was changed on the Samsung website - they
-might be approximate.
+**Note** 1: Some dates are based on when support status was changed on the Samsung website — they might be approximate.
 **Note** 2: Some release dates may vary depending on the country or region.
