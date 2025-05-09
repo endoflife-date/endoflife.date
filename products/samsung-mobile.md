@@ -250,6 +250,20 @@ releases:
     eol: false
     link: https://doc.samsungmobile.com/SM-A042F/XXV/doc.html
 
+-   releaseCycle: "w23-flip" # only for China: https://www.sammobile.com/news/samsung-first-foldable-w23-flip-phone-china-launching-this-week/
+    releaseLabel: "W23 Flip"
+    releaseDate: 2022-10-21
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7023/CHC/doc.html
+
+-   releaseCycle: "w23" # only for China: https://www.sammobile.com/news/samsung-first-foldable-w23-flip-phone-china-launching-this-week/
+    releaseLabel: "W23"
+    releaseDate: 2022-10-21
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9023/CHC/doc.html
+
 -   releaseCycle: "galaxy-a04"
     releaseLabel: "Galaxy A04"
     releaseDate: 2022-10-10
