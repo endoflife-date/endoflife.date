@@ -45,7 +45,7 @@ releases:
     latest: "36.2.0"
     latestReleaseDate: 2025-05-07
     chromeVersion: "M136"
-    nodeVersion: "22.14"
+    nodeVersion: "22.15" # https://releases.electronjs.org/
 
 -   releaseCycle: "35"
     releaseDate: 2025-03-04
