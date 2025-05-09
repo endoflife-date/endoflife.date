@@ -17,9 +17,10 @@ auto:
   -   custom: samsung-mobile
 
 # Some useful information can be found on:
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
-# - https://security.samsungmobile.com/workScope.smsb
+# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
+# - https://www.androidupdatetracker.com/ (eoas)
+# - https://security.samsungmobile.com/workScope.smsb (eol status)
 #
 # To find the link for a particular model :
 # 1. search the model numbers on https://www.gsmarena.com/ ("Models" entry in the "MISC" section),
@@ -131,6 +132,13 @@ releases:
     eol: 2028-12-11 # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
 
+-   releaseCycle: "galaxy-a05s"
+    releaseLabel: "Galaxy A05s"
+    releaseDate: 2023-10-18 # https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
+    eoas: 2025-10-18 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: 2027-10-18 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-A057F/FWD/doc.html
+
 -   releaseCycle: "galaxy-tab-s9-fe"
     releaseLabel: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-16
@@ -144,6 +152,13 @@ releases:
     eoas: 2027-10-16
     eol: 2028-10-16
     link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
+
+-   releaseCycle: "galaxy-a05"
+    releaseLabel: "Galaxy A05"
+    releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
+    eoas: 2025-10-15 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: 2027-10-15 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-A055F/FWD/doc.html
 
 -   releaseCycle: "galaxy-s23-fe"
     releaseLabel: "Galaxy S23 FE"
