@@ -25,6 +25,13 @@ auto:
   -   custom: red-hat-satellite
 
 releases:
+-   releaseCycle: "6.17"
+    releaseDate: 2025-05-06
+    eoas: false
+    eol: false
+    latest: "6.17.0"
+    latestReleaseDate: 2025-05-06
+
 -   releaseCycle: "6.16"
     releaseDate: 2024-11-05
     eoas: 2025-05-31
