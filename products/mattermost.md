@@ -44,8 +44,8 @@ releases:
     releaseDate: 2025-02-16
     lts: true
     eol: 2025-11-15
-    latest: '10.5.4'
-    latestReleaseDate: 2025-04-29
+    latest: '10.5.5'
+    latestReleaseDate: 2025-05-09
 
 -   releaseCycle: "10.4"
     releaseDate: 2025-01-16

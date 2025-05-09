@@ -24,22 +24,22 @@ releases:
     releaseDate: 2024-05-17
     eoas: false
     eol: 2027-05-20 # projected
-    latest: '27.3.3'
-    latestReleaseDate: 2025-04-16
+    latest: '27.3.4'
+    latestReleaseDate: 2025-05-08
 
 -   releaseCycle: "26"
     releaseDate: 2023-05-15
     eoas: false
     eol: 2026-05-15 # projected
-    latest: '26.2.5.11'
-    latestReleaseDate: 2025-04-16
+    latest: '26.2.5.12'
+    latestReleaseDate: 2025-05-08
 
 -   releaseCycle: "25"
     releaseDate: 2022-05-17
     eoas: 2023-05-15
     eol: 2025-05-17 # projected
-    latest: '25.3.2.20'
-    latestReleaseDate: 2025-04-16
+    latest: '25.3.2.21'
+    latestReleaseDate: 2025-05-08
 
 -   releaseCycle: "24"
     releaseDate: 2021-05-10
