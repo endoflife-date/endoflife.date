@@ -83,6 +83,13 @@ releases:
     eol: 2030-10-25 # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A166B/EUX/doc.html
 
+-   releaseCycle: "galaxy-z-fold-special-edition"
+    releaseLabel: "Galaxy Z Fold Special Edition"
+    releaseDate: 2024-10-24 # https://www.gsmarena.com/samsung_galaxy_z_fold_special-13452.php
+    eoas: 2031-10-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-10-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-F958N/KOO/doc.html
+
 -   releaseCycle: "galaxy-s24-fe"
     releaseLabel: "Galaxy S24 FE"
     releaseDate: 2024-09-26
