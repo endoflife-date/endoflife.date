@@ -6,9 +6,8 @@ permalink: /plone
 releasePolicyLink: https://plone.org/download/release-schedule
 releaseImage: https://plone.org/download/release-schedule/plone-release-schedule-2025-01-23.png/@@images/image
 changelogTemplate: "https://plone.org/download/releases/__LATEST__"
-eolColumn: Security Support
 eoasColumn: Maintenance Support
-releaseDateColumn: Initial release
+eolColumn: Security Support
 
 customColumns:
 -   property: pythonVersions
@@ -85,3 +84,14 @@ releases:
 
 > [Plone](https://plone.org) is an open-source content management system used to create,
 > edit, and manage digital content, like websites, intranets, and custom solutions.
+
+Plone adheres to [semver](https://semver.org/). Minor releases undergo two support phases:
+
+- Maintenance Support: Includes bug fixes, security updates, and minor new features.
+- Security Support: Limited to security fixes only.
+
+The first minor release of a major (`x.0`) receives two years of maintenance support.
+Subsequent minor releases receive maintenance support until a new minor release is out.
+
+All major releases receive five years of security support.
+Minor releases receive security support as long as their major release is security-supported.
