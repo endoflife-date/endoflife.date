@@ -573,6 +573,13 @@ releases:
     eol: 2025-12-03
     link: https://doc.samsungmobile.com/SM-A136U/USC/doc.html
 
+-   releaseCycle: "w22-5g"
+    releaseLabel: "W22 5G"
+    releaseDate: 2021-10-13 # https://en.eeworld.com.cn/news/xfdz/eic552331.html
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W2022/CHC/doc.html
+
 -   releaseCycle: "galaxy-f42-5g"
     releaseLabel: "Galaxy F42 5G"
     releaseDate: 2021-10-03
