@@ -166,6 +166,20 @@ releases:
     eol: 2028-10-05 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S711B/INS/doc.html
 
+-   releaseCycle: "w24-flip" # only for China: https://www.gizmochina.com/2023/09/15/samsung-w24-launched-china/
+    releaseLabel: "W24 Flip"
+    releaseDate: 2023-09-15
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7024/CHC/doc.html
+
+-   releaseCycle: "w24" # only for China: https://www.gizmochina.com/2023/09/15/samsung-w24-launched-china/
+    releaseLabel: "W24"
+    releaseDate: 2023-09-15
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9024/CHC/doc.html
+
 -   releaseCycle: "galaxy-tab-s9"
     releaseLabel: "Galaxy Tab S9"
     releaseDate: 2023-08-11
