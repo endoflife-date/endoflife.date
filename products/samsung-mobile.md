@@ -54,6 +54,20 @@ releases:
     eol: 2030-11-20 # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A165F/XFA/doc.html
 
+-   releaseCycle: "w25-flip" # only for China: https://www.androidauthority.com/samsung-w25-w25-flip-3496756/
+    releaseLabel: "W25 Flip"
+    releaseDate: 2024-11-06
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7025/CHC/doc.html
+
+-   releaseCycle: "w25" # only for China: https://www.androidauthority.com/samsung-w25-w25-flip-3496756/
+    releaseLabel: "W25"
+    releaseDate: 2024-11-06
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9025/CHC/doc.html
+
 -   releaseCycle: "galaxy-a16-5g"
     releaseLabel: "Galaxy A16 5G"
     releaseDate: 2024-10-25
