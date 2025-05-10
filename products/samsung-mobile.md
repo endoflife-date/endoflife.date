@@ -17,15 +17,23 @@ auto:
   -   custom: samsung-mobile
 
 # Some useful information can be found on:
-# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/
-# - https://security.samsungmobile.com/workScope.smsb
+# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
+# - https://www.androidupdatetracker.com/ (eoas)
+# - https://security.samsungmobile.com/workScope.smsb (eol status)
 #
 # To find the link for a particular model:
 # 1. search the model numbers on https://www.gsmarena.com/ ("Models" entry in the "MISC" section),
 # 2. search on Google with the query: "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in English).
 releases:
+-   releaseCycle: "galaxy-a06-5g"
+    releaseLabel: "Galaxy A06 5G"
+    releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
+    eoas: 2031-02-19 # 6 android upgrade - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    eol: 2031-02-19 # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
+
 -   releaseCycle: "galaxy-s25-ultra"
     releaseLabel: "Galaxy S25 Ultra"
     releaseDate: 2025-02-03
@@ -54,6 +62,20 @@ releases:
     eol: 2030-11-20 # "6 years of security updates"
     link: https://doc.samsungmobile.com/SM-A165F/XFA/doc.html
 
+-   releaseCycle: "w25-flip" # only for China: https://www.androidauthority.com/samsung-w25-w25-flip-3496756/
+    releaseLabel: "W25 Flip"
+    releaseDate: 2024-11-06
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7025/CHC/doc.html
+
+-   releaseCycle: "w25" # only for China: https://www.androidauthority.com/samsung-w25-w25-flip-3496756/
+    releaseLabel: "W25"
+    releaseDate: 2024-11-06
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9025/CHC/doc.html
+
 -   releaseCycle: "galaxy-a16-5g"
     releaseLabel: "Galaxy A16 5G"
     releaseDate: 2024-10-25
@@ -67,6 +89,13 @@ releases:
     eoas: 2031-09-26 # "seven generations of OS upgrades" (https://news.samsung.com/us/galaxy-s24-series-expands-with-s24-fe-a-premium-experience-that-makes-full-galaxy-ai-capabilities-attainable-for-more-users/)
     eol: 2031-09-26 # "seven years of security updates"
     link: https://doc.samsungmobile.com/sm-s721u/tmb/doc.html
+
+-   releaseCycle: "galaxy-a06"
+    releaseLabel: "Galaxy A06"
+    releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
+    eoas: 2026-08-22 # 2 android upgrade - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    eol: 2028-08-22 # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
 -   releaseCycle: "galaxy-z-fold6"
     releaseLabel: "Galaxy Z Fold6"
@@ -145,6 +174,13 @@ releases:
     eol: 2028-12-11 # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
 
+-   releaseCycle: "galaxy-a05s"
+    releaseLabel: "Galaxy A05s"
+    releaseDate: 2023-10-18 # https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
+    eoas: 2025-10-18 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: 2027-10-18 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-A057F/FWD/doc.html
+
 -   releaseCycle: "galaxy-tab-s9-fe"
     releaseLabel: "Galaxy Tab S9 FE"
     releaseDate: 2023-10-16
@@ -159,12 +195,33 @@ releases:
     eol: 2028-10-16
     link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
 
+-   releaseCycle: "galaxy-a05"
+    releaseLabel: "Galaxy A05"
+    releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
+    eoas: 2025-10-15 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: 2027-10-15 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    link: https://doc.samsungmobile.com/SM-A055F/FWD/doc.html
+
 -   releaseCycle: "galaxy-s23-fe"
     releaseLabel: "Galaxy S23 FE"
     releaseDate: 2023-10-05
     eoas: false
     eol: 2028-10-05 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S711B/INS/doc.html
+
+-   releaseCycle: "w24-flip" # only for China: https://www.gizmochina.com/2023/09/15/samsung-w24-launched-china/
+    releaseLabel: "W24 Flip"
+    releaseDate: 2023-09-15
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7024/CHC/doc.html
+
+-   releaseCycle: "w24" # only for China: https://www.gizmochina.com/2023/09/15/samsung-w24-launched-china/
+    releaseLabel: "W24"
+    releaseDate: 2023-09-15
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9024/CHC/doc.html
 
 -   releaseCycle: "galaxy-tab-s9"
     releaseLabel: "Galaxy Tab S9"
@@ -263,6 +320,20 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-A042F/XXV/doc.html
+
+-   releaseCycle: "w23-flip" # only for China: https://www.sammobile.com/news/samsung-first-foldable-w23-flip-phone-china-launching-this-week/
+    releaseLabel: "W23 Flip"
+    releaseDate: 2022-10-21
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W7023/CHC/doc.html
+
+-   releaseCycle: "w23" # only for China: https://www.sammobile.com/news/samsung-first-foldable-w23-flip-phone-china-launching-this-week/
+    releaseLabel: "W23"
+    releaseDate: 2022-10-21
+    eoas: false
+    eol: false
+    link: https://doc.samsungmobile.com/SM-W9023/CHC/doc.html
 
 -   releaseCycle: "galaxy-a04"
     releaseLabel: "Galaxy A04"
