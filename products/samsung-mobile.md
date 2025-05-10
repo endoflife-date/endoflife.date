@@ -27,6 +27,13 @@ auto:
 # 2. search on Google with the query: "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in English).
 releases:
+-   releaseCycle: "galaxy-a06-5g"
+    releaseLabel: "Galaxy A06 5G"
+    releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
+    eoas: 2031-02-19 # 6 android upgrade - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    eol: 2031-02-19 # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
+
 -   releaseCycle: "galaxy-s25-ultra"
     releaseLabel: "Galaxy S25 Ultra"
     releaseDate: 2025-02-03
@@ -82,6 +89,13 @@ releases:
     eoas: 2031-09-26 # "seven generations of OS upgrades" (https://news.samsung.com/us/galaxy-s24-series-expands-with-s24-fe-a-premium-experience-that-makes-full-galaxy-ai-capabilities-attainable-for-more-users/)
     eol: 2031-09-26 # "seven years of security updates"
     link: https://doc.samsungmobile.com/sm-s721u/tmb/doc.html
+
+-   releaseCycle: "galaxy-a06"
+    releaseLabel: "Galaxy A06"
+    releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
+    eoas: 2026-08-22 # 2 android upgrade - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    eol: 2028-08-22 # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
 -   releaseCycle: "galaxy-a55-5g"
     releaseLabel: "Galaxy A55 5G"
