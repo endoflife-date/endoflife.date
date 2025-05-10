@@ -83,7 +83,5 @@ releases:
 
 ---
 
-> [Plone](https://plone.org) is an open-source content management system that is used to create,
-> edit, and manage digital content, like websites, intranets and custom solutions. It comes with
-> over 20 years of growth, optimisations, and refinements. The result is a system trusted by
-> governments, universities, businesses, and other organisations all over the world.
+> [Plone](https://plone.org) is an open-source content management system used to create,
+> edit, and manage digital content, like websites, intranets, and custom solutions.
