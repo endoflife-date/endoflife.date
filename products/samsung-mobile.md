@@ -97,6 +97,20 @@ releases:
     eol: 2028-08-22 # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
     link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
+-   releaseCycle: "galaxy-z-fold6"
+    releaseLabel: "Galaxy Z Fold6"
+    releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php
+    eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-F956W/ESK/doc.html
+
+-   releaseCycle: "galaxy-z-flip6"
+    releaseLabel: "Galaxy Z Flip6"
+    releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php
+    eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
+
 -   releaseCycle: "galaxy-a55-5g"
     releaseLabel: "Galaxy A55 5G"
     releaseDate: 2024-03-11
