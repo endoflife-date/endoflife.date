@@ -12,6 +12,10 @@ releaseLabel: 'Nano Server __RELEASE_CYCLE__'
 LTSLabel: "<abbr title='Long-Term Servicing Channel'>LTSC</abbr>"
 eoasColumn: true
 
+identifiers:
+-   purl: pkg:docker/microsoft/windows-nanoserver
+
+# Releases available on https://hub.docker.com/r/microsoft/windows-nanoserver.
 releases:
 -   releaseCycle: "2025"
     releaseDate: 2024-11-01
