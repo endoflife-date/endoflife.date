@@ -20,12 +20,20 @@ identifiers:
 -   cpe: cpe:2.3:a:linuxfoundation:yocto
 -   cpe: cpe:/a:linuxfoundation:yocto
 
-# for eol see https://wiki.yoctoproject.org/wiki/Releases
+# for eol see https://wiki.yoctoproject.org/wiki/Releases and https://docs.yoctoproject.org/dev/_images/releases.svg
+# eol(x) = releaseDate(x) + 7 month
 releases:
+-   releaseCycle: "5.2"
+    codename: 'Walnascar'
+    releaseDate: 2025-05-07
+    eol: 2025-12-07
+    latest: "5.2.0"
+    latestReleaseDate: 2025-05-07
+
 -   releaseCycle: "5.1"
     codename: 'Styhead'
     releaseDate: 2024-10-16
-    eol: false
+    eol: 2025-05-16
     latest: "5.1.4"
     latestReleaseDate: 2025-04-01
 
