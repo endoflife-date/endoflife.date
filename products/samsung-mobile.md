@@ -31,7 +31,7 @@ releases:
     releaseLabel: "Galaxy A06 5G"
     releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
     eoas: 2031-02-19 # 6 android upgrade - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
-    eol: 2031-02-19 # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
+    eol: false      # 6 years of security updates - https://www.sammobile.com/news/samsung-galaxy-devices-six-years-android-one-ui-updates-eligibility/
     link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
 -   releaseCycle: "galaxy-s25-ultra"
@@ -94,21 +94,21 @@ releases:
     releaseLabel: "Galaxy A06"
     releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
     eoas: 2026-08-22 # 2 android upgrade - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
-    eol: 2028-08-22 # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
+    eol: false      # 4 years of security updates - https://www.gsmarena.com/samsung_galaxy_a06-review-2743p4.php
     link: https://doc.samsungmobile.com/SM-A065M/TCE/doc.html
 
 -   releaseCycle: "galaxy-z-fold6"
     releaseLabel: "Galaxy Z Fold6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php
     eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F956W/ESK/doc.html
 
 -   releaseCycle: "galaxy-z-flip6"
     releaseLabel: "Galaxy Z Flip6"
     releaseDate: 2024-07-24 # https://www.gsmarena.com/samsung_galaxy_z_flip6-13192.php
     eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
 
 -   releaseCycle: "galaxy-a55-5g"
@@ -178,7 +178,7 @@ releases:
     releaseLabel: "Galaxy A05s"
     releaseDate: 2023-10-18 # https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
     eoas: 2025-10-18 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
-    eol: 2027-10-18 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: false      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A057F/FWD/doc.html
 
 -   releaseCycle: "galaxy-tab-s9-fe"
@@ -199,7 +199,7 @@ releases:
     releaseLabel: "Galaxy A05"
     releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
     eoas: 2025-10-15 # 2 android updates - https://rmupdate.com/galaxy-a05-software-update-policy/
-    eol: 2027-10-15 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
+    eol: false      # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A055F/FWD/doc.html
 
 -   releaseCycle: "galaxy-s23-fe"
@@ -763,10 +763,10 @@ releases:
     link: https://doc.samsungmobile.com/sm-a526b/dbt/doc.html
 
 -   releaseCycle: "galaxy-xcover5"
-    releaseLabel: "Galaxy Xcover5"
+    releaseLabel: "Galaxy XCover5"
     releaseDate: 2021-03-12
     eoas: 2024-03-12
-    eol: 2025-03-12
+    eol: false
     link: https://doc.samsungmobile.com/SM-G525F/XNZ/doc.html
 
 -   releaseCycle: "galaxy-m62"
