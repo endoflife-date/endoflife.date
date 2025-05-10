@@ -244,6 +244,20 @@ releases:
     eol: 2028-10-16
     link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
+-   releaseCycle: "galaxy-z-fold5"
+    releaseLabel: "Galaxy Z Fold5"
+    releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_5
+    eoas: 2025-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-08-11 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-F946B/ZTO/doc.html
+
+-   releaseCycle: "galaxy-z-flip5"
+    releaseLabel: "Galaxy Z Flip5"
+    releaseDate: 2023-08-11 # https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_5
+    eoas: 2025-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2026-08-11 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-F731B/ZTO/doc.html
+
 -   releaseCycle: "galaxy-a24"
     releaseLabel: "Galaxy A24"
     releaseDate: 2023-05-05
