@@ -11,7 +11,6 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 identifiers:
 -   cpe: cpe:/a:opnsense:opnsense
 -   cpe: cpe:2.3:a:opnsense:opnsense
--   repology: opnsense
 
 auto:
   methods:
