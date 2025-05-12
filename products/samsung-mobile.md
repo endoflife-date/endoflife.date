@@ -773,7 +773,7 @@ releases:
     releaseLabel: "Galaxy XCover5"
     releaseDate: 2021-03-12
     eoas: 2024-03-12
-    eol: 2025-03-12
+    eol: false
     link: https://doc.samsungmobile.com/SM-G525F/XNZ/doc.html
 
 -   releaseCycle: "galaxy-m62"
