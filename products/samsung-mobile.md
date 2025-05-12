@@ -34,6 +34,20 @@ releases:
     eol: 2031-04-17 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
     link: https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
 
+-   releaseCycle: "galaxy-m16-5g"
+    releaseLabel: "Galaxy M16 5G"
+    releaseDate: 2025-02-27 # https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eoas: 2031-02-27 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eol: 2031-02-27 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    link: https://doc.samsungmobile.com/SM-M166P/INS/doc.html
+
+-   releaseCycle: "galaxy-m06-5g"
+    releaseLabel: "Galaxy M06 5G"
+    releaseDate: 2025-02-27 # https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eoas: 2029-02-27 # 4 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    eol: 2029-02-27 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m16-5g-and-galaxy-m06-5g-in-india-with-refreshed-design-and-monster-performance
+    link: https://doc.samsungmobile.com/SM-M166P/INS/doc.html
+
 -   releaseCycle: "galaxy-a06-5g"
     releaseLabel: "Galaxy A06 5G"
     releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
@@ -111,6 +125,13 @@ releases:
     eol: 2029-09-24 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
     link: https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
 
+-   releaseCycle: "galaxy-m05"
+    releaseLabel: "Galaxy M05"
+    releaseDate: 2024-09-12 # https://news.samsung.com/in/samsung-unveils-galaxy-m05-with-50mp-dual-camera-and-stunning-display-in-india
+    eoas: 2026-09-12 # 2 android upgrade - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2028-09-12 # 4 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-M055F/BKD/doc.html
+
 -   releaseCycle: "galaxy-a06"
     releaseLabel: "Galaxy A06"
     releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
@@ -144,7 +165,14 @@ releases:
     releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     eoas: 2028-04-08 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
     eol: 2029-04-08 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
-    link: https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    link: https://doc.samsungmobile.com/SM-M556B/BNG/doc.html
+
+-   releaseCycle: "galaxy-m15-5g"
+    releaseLabel: "Galaxy M15 5G"
+    releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eoas: 2028-04-08 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eol: 2029-04-08 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    link: https://doc.samsungmobile.com/SM-M156B/XID/doc.html
 
 -   releaseCycle: "galaxy-a55-5g"
     releaseLabel: "Galaxy A55 5G"
@@ -159,6 +187,13 @@ releases:
     eoas: 2028-03-11 # "four generations of OS upgrades" (https://news.samsung.com/uk/galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone)
     eol: 2029-03-11 # "five years of security updates"
     link: https://doc.samsungmobile.com/SM-A356E/NPB/doc.html
+
+-   releaseCycle: "galaxy-m14"
+    releaseLabel: "Galaxy M14" # aka Galaxy M14 4G
+    releaseDate: 2024-03-07 # https://www.gsmarena.com/samsung_galaxy_m14_4g-12862.php
+    eoas: 2026-03-07 # 2 android upgrades - https://www.amazon.in/Samsung-Sapphire-Snapdragon-Processor-Security/dp/B0CV7KZLL4
+    eol: 2028-03-07 # 4 years of security updates - https://www.amazon.in/Samsung-Sapphire-Snapdragon-Processor-Security/dp/B0CV7KZLL4
+    link: https://doc.samsungmobile.com/SM-M145F/INS/doc.html
 
 -   releaseCycle: "galaxy-s24-ultra"
     releaseLabel: "Galaxy S24 Ultra"
@@ -314,19 +349,19 @@ releases:
     eol: 2028-05-05 # five years of security updates (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
     link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
 
+-   releaseCycle: "galaxy-m14-5g"
+    releaseLabel: "Galaxy M14 5G"
+    releaseDate: 2023-04-17 # https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
+    eoas: 2025-04-17 # 2 android upgrades - https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
+    eol: 2027-04-17 # 4 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m14-5g-with-segment-leading-features-50mp-triple-camera-6000mah-battery-and-5nm-processor-starting-at-just-inr-13490
+    link: https://doc.samsungmobile.com/SM-M146B/INS/doc.html
+
 -   releaseCycle: "galaxy-m54-5g"
     releaseLabel: "Galaxy M54 5G"
     releaseDate: 2023-04-04 # https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
     eoas: 2027-04-04 # 4 android upgrades - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
     eol: 2028-04-04 # 5 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
     link: https://doc.samsungmobile.com/SM-M546B/GTO/doc.html
-
--   releaseCycle: "galaxy-m14-5g"
-    releaseLabel: "Galaxy M14 5G"
-    releaseDate: 2023-04-04 # https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
-    eoas: 2025-04-04 # 2 android upgrades - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
-    eol: 2027-04-04 # 4 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
-    link: https://doc.samsungmobile.com/SM-M146B/INS/doc.html
 
 -   releaseCycle: "galaxy-a54-5g"
     releaseLabel: "Galaxy A54 5G"
