@@ -202,6 +202,13 @@ releases:
     eol: 2028-12-11 # "5 years of security updates"
     link: https://doc.samsungmobile.com/SM-A155F/EUX/doc.html
 
+-   releaseCycle: "galaxy-m44-5g"
+    releaseLabel: "Galaxy M44 5G"
+    releaseDate: 2023-11-10 # https://www.gsmarena.com/samsung_galaxy_m44_makes_its_international_debut_in_south_korea_with_surprising_chipset-news-60556.php
+    eoas: 2025-10-15 # 2 android updates - https://www.androidupdatetracker.com/p/samsung-galaxy-m44-5g
+    eol: false
+    link: null # no page found on doc.samsungmobile.com
+
 -   releaseCycle: "galaxy-a05s"
     releaseLabel: "Galaxy A05s"
     releaseDate: 2023-10-18 # https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
