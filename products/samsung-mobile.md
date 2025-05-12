@@ -104,6 +104,13 @@ releases:
     eol: 2031-09-26 # "seven years of security updates"
     link: https://doc.samsungmobile.com/sm-s721u/tmb/doc.html
 
+-   releaseCycle: "galaxy-m55s-5g"
+    releaseLabel: "Galaxy M55s 5G"
+    releaseDate: 2024-09-24 # https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
+    eoas: 2028-09-24 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
+    eol: 2029-09-24 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
+    link: https://news.samsung.com/in/samsung-unveils-galaxy-m55s-5g-with-stunning-camera-super-amoled-display-powerful-snapdragon-processor-and-stylish-fusion-design-in-india
+
 -   releaseCycle: "galaxy-a06"
     releaseLabel: "Galaxy A06"
     releaseDate: 2024-08-22 # https://www.gsmarena.com/samsung_galaxy_a06-13265.php
@@ -124,6 +131,13 @@ releases:
     eoas: 2031-07-24 # 7 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
+
+-   releaseCycle: "galaxy-m55-5g"
+    releaseLabel: "Galaxy M55 5G"
+    releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eoas: 2028-04-08 # 4 android upgrade - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    eol: 2029-04-08 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
+    link: https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
 
 -   releaseCycle: "galaxy-a55-5g"
     releaseLabel: "Galaxy A55 5G"
