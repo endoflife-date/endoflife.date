@@ -27,6 +27,13 @@ auto:
 # 2. search on Google with the query: "<model_number> site:doc.samsungmobile.com",
 # 3. choose a page (preferably in English).
 releases:
+-   releaseCycle: "galaxy-m56-5g"
+    releaseLabel: "Galaxy M56 5G"
+    releaseDate: 2025-04-17 # https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
+    eoas: 2031-04-17 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
+    eol: 2031-04-17 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
+    link: https://doc.samsungmobile.com/SM-M566B/XXV/doc.html
+
 -   releaseCycle: "galaxy-a06-5g"
     releaseLabel: "Galaxy A06 5G"
     releaseDate: 2025-02-19 # https://www.gsmarena.com/samsung_galaxy_a06_5g-13662.php
