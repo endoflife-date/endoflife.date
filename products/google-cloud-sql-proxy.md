@@ -25,7 +25,7 @@ auto:
 
 releases:
 -   releaseCycle: "2"
-    releaseDate: 2023-01-17
+    releaseDate: 2025-04-28
     eol: 2026-04-28
     latest: "2.16.0"
     latestReleaseDate: 2025-04-28
