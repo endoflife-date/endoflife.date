@@ -160,6 +160,13 @@ releases:
     eol: 2029-07-17 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M356B/NPB/doc.html
 
+-   releaseCycle: "galaxy-c55-5g"
+    releaseLabel: "Galaxy C55 5G"
+    releaseDate: 2024-04-22 # https://www.gsmarena.com/samsung_galaxy_c55_goes_official_in_china-news-62544.php
+    eoas: 2028-04-22 # 4 android upgrade - https://www.sammobile.com/samsung/galaxy-c55/
+    eol: 2029-04-22 # 5 years of security updates - https://www.sammobile.com/samsung/galaxy-c55/
+    link: https://doc.samsungmobile.com/SM-C5560/CHC/doc.html
+
 -   releaseCycle: "galaxy-m55-5g"
     releaseLabel: "Galaxy M55 5G"
     releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
