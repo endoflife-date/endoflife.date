@@ -35,6 +35,27 @@ releases:
     eol: 2031-04-17 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
     link: https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
 
+-   releaseCycle: "galaxy-a56-5g"
+    releaseLabel: "Galaxy A56 5G"
+    releaseDate: 2025-03-28 # https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eoas: 2031-03-28 # 6 android upgrade - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eol: 2031-03-28 # 6 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    link: https://doc.samsungmobile.com/SM-A5660/TGY/doc.html
+
+-   releaseCycle: "galaxy-a36-5g"
+    releaseLabel: "Galaxy A36 5G"
+    releaseDate: 2025-03-28 # https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eoas: 2031-03-28 # 6 android upgrade - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eol: 2031-03-28 # 6 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    link: https://doc.samsungmobile.com/SM-A366E/CHT/doc.html
+
+-   releaseCycle: "galaxy-a26-5g"
+    releaseLabel: "Galaxy A26 5G"
+    releaseDate: 2025-03-28 # https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eoas: 2031-03-28 # 6 android upgrade - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    eol: 2031-03-28 # 6 years of security updates - https://news.samsung.com/global/samsung-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g-are-now-available-worldwide
+    link: https://doc.samsungmobile.com/SM-A266B/NPB/doc.html
+
 -   releaseCycle: "galaxy-f16-5g"
     releaseLabel: "Galaxy F16 5G"
     releaseDate: 2025-03-13 # https://news.samsung.com/in/samsung-launches-galaxy-f16-5g-with-segment-leading-features-in-india
@@ -406,6 +427,13 @@ releases:
     eol: 2028-06-06 # 5 years of security updates - https://news.samsung.com/in/samsung-unveils-galaxy-f54-5g
     link: https://doc.samsungmobile.com/SM-E546B/INS/doc.html
 
+-   releaseCycle: "galaxy-a14"
+    releaseLabel: "Galaxy A14"
+    releaseDate: 2023-05-22 # https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
+    eoas: 2025-05-22 # 2 android upgrades - https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
+    eol: 2027-05-22 # 4 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-a14-with-premium-design-50mp-triple-camera-and-5000mah-battery-starting-at-just-inr-12999
+    link: https://doc.samsungmobile.com/SM-A145FB/XME/doc.html
+
 -   releaseCycle: "galaxy-a24"
     releaseLabel: "Galaxy A24"
     releaseDate: 2023-05-05
@@ -469,19 +497,19 @@ releases:
     eol: 2028-02-17 # "five years of security updates" (https://security.samsungmobile.com/securityPost.smsb)
     link: https://doc.samsungmobile.com/SM-S911B/EUX/doc.html
 
--   releaseCycle: "galaxy-a14-5g"
-    releaseLabel: "Galaxy A14 5G"
-    releaseDate: 2023-01-12
-    eoas: false
-    eol: 2027-01-12
-    link: https://doc.samsungmobile.com/SM-A146B/INS/doc.html
-
 -   releaseCycle: "galaxy-f04"
     releaseLabel: "Galaxy F04"
     releaseDate: 2023-01-12
     eoas: 2025-01-12
     eol: 2027-01-12
     link: null
+
+-   releaseCycle: "galaxy-a14-5g"
+    releaseLabel: "Galaxy A14 5G"
+    releaseDate: 2023-01-05 # https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
+    eoas: 2025-01-05 # 2 android upgrades - https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
+    eol: 2027-01-05 # 4 years of security updates - https://news.samsung.com/sg/introducing-the-samsung-galaxy-a14-5g-delivering-an-awesome-experience-for-all
+    link: https://doc.samsungmobile.com/SM-A146B/INS/doc.html
 
 -   releaseCycle: "galaxy-m04"
     releaseLabel: "Galaxy M04"
