@@ -272,6 +272,20 @@ releases:
     eol: 2028-05-05 # five years of security updates (https://news.samsung.com/my/your-galaxy-a24-is-worth-more-in-resale-or-trade-in-value-heres-why)
     link: https://doc.samsungmobile.com/sm-a245f/pak/doc.html
 
+-   releaseCycle: "galaxy-m54-5g"
+    releaseLabel: "Galaxy M54 5G"
+    releaseDate: 2023-04-04 # https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    eoas: 2027-04-04 # 4 android upgrades - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    eol: 2028-04-04 # 5 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    link: https://doc.samsungmobile.com/SM-M546B/GTO/doc.html
+
+-   releaseCycle: "galaxy-m14-5g"
+    releaseLabel: "Galaxy M14 5G"
+    releaseDate: 2023-04-04 # https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    eoas: 2025-04-04 # 2 android upgrades - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    eol: 2027-04-04 # 4 years of security updates - https://news.samsung.com/br/samsung-apresenta-galaxy-m54-5g-e-m14-5g-no-brasil
+    link: https://doc.samsungmobile.com/SM-M146B/INS/doc.html
+
 -   releaseCycle: "galaxy-a54-5g"
     releaseLabel: "Galaxy A54 5G"
     releaseDate: 2023-03-24
