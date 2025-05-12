@@ -132,6 +132,13 @@ releases:
     eol: 2031-07-24 # 7 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F741U/CCT/doc.html
 
+-   releaseCycle: "galaxy-m35-5g"
+    releaseLabel: "Galaxy M35 5G"
+    releaseDate: 2024-07-17 # https://news.samsung.com/in/samsung-unveils-galaxy-m35-5g-with-segment-leading-monster-features-in-india
+    eoas: 2028-07-17 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2029-07-17 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-M356B/NPB/doc.html
+
 -   releaseCycle: "galaxy-m55-5g"
     releaseLabel: "Galaxy M55 5G"
     releaseDate: 2024-04-08 # https://news.samsung.com/in/samsung-unveils-galaxy-m55-5g-galaxy-m15-5g-with-segment-leading-super-amoled-plus-display-powerful-processor-and-stylish-design-in-india
@@ -292,6 +299,13 @@ releases:
     eoas: 2027-08-11 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: 2028-08-11 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-F731B/ZTO/doc.html
+
+-   releaseCycle: "galaxy-m34-5g"
+    releaseLabel: "Galaxy M34 5G"
+    releaseDate: 2023-07-07 # https://news.samsung.com/in/samsung-launches-galaxy-m34-5g-in-india-with-monster-display-camera-and-battery-at-just-inr-16999
+    eoas: 2027-07-07 # 4 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: 2028-07-07 # 5 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    link: https://doc.samsungmobile.com/SM-M346B1/XID/doc.html
 
 -   releaseCycle: "galaxy-a24"
     releaseLabel: "Galaxy A24"
@@ -520,7 +534,7 @@ releases:
 -   releaseCycle: "galaxy-m33-5g"
     releaseLabel: "Galaxy M33 5G"
     releaseDate: 2022-04-08
-    eoas: false
+    eoas: 2025-04-08 # 3 Android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     eol: false
     link: https://doc.samsungmobile.com/SM-M336BU/INS/doc.html
 
