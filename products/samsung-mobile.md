@@ -648,7 +648,7 @@ releases:
     releaseLabel: "Galaxy M53 5G"
     releaseDate: 2022-04-22 # https://news.samsung.com/in/samsung-launches-galaxy-m53-5g-with-segment-best-108-mp-quad-camera-segment-only-auto-data-switching-segment-leading-samoled-display-in-india
     eoas: 2024-04-22 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2025-04-22 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M536B/SER/doc.html
 
 -   releaseCycle: "galaxy-a73-5g"
@@ -809,7 +809,7 @@ releases:
     releaseLabel: "Galaxy M52 5G"
     releaseDate: 2021-10-03
     eoas: 2023-10-03 # 2 android updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2024-10-03 # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
+    eol: false      # 3 years of security updates - https://androidspotlight.com/software-update-policy-for-every-samsung-device/
     link: https://doc.samsungmobile.com/SM-M526BR/ITV/doc.html
 
 -   releaseCycle: "galaxy-m32-5g"

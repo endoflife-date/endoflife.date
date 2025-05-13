@@ -30,14 +30,14 @@ releases:
 -   releaseCycle: "7.7"
     releaseDate: 2025-03-17
     eol: 2026-03-15
-    latest: '7.7.0'
-    latestReleaseDate: 2025-03-18
+    latest: '7.7.1'
+    latestReleaseDate: 2025-05-12
 
 -   releaseCycle: "7.6"
     releaseDate: 2024-09-13
     eol: 2025-09-15
-    latest: '7.6.2'
-    latestReleaseDate: 2025-03-18
+    latest: '7.6.3'
+    latestReleaseDate: 2025-05-12
 
 -   releaseCycle: "7.5"
     releaseDate: 2024-03-18
@@ -79,8 +79,8 @@ releases:
     lts: true
     releaseDate: 2018-03-15
     eol: false
-    latest: '6.0.13'
-    latestReleaseDate: 2024-03-18
+    latest: '6.0.14'
+    latestReleaseDate: 2025-05-12
 
 ---
 
