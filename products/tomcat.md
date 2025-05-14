@@ -23,8 +23,8 @@ releases:
     releaseDate: 2024-10-03
     eol: false
     minJavaVersion: 17
-    latest: "11.0.6"
-    latestReleaseDate: 2025-04-01
+    latest: "11.0.7"
+    latestReleaseDate: 2025-05-07
 
 -   releaseCycle: "10.1"
     releaseDate: 2022-09-23
@@ -44,8 +44,8 @@ releases:
     releaseDate: 2017-09-27
     eol: false
     minJavaVersion: 8
-    latest: "9.0.104"
-    latestReleaseDate: 2025-04-04
+    latest: "9.0.105"
+    latestReleaseDate: 2025-05-07
 
 -   releaseCycle: "8.5"
     releaseDate: 2016-03-17
