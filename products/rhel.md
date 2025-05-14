@@ -30,6 +30,15 @@ auto:
         eoes: Extended life cycle support (ELS) add-on
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-05-13
+    eoas: 2030-05-31
+    eol: 2035-05-31
+    lts: 2035-05-31
+    eoes: 2038-05-31
+    latest: "10.0"
+    latestReleaseDate: 2025-05-13
+
 -   releaseCycle: "9"
     releaseDate: 2022-05-18
     eoas: 2027-05-31
