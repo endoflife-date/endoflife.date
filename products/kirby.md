@@ -31,24 +31,24 @@ releases:
     releaseDate: 2023-12-19
     eol: 2025-11-27 # Assume eol(3.9)
     supportedPhpVersions: 8.1 - 8.3
-    latest: "3.10.1.1"
-    latestReleaseDate: 2024-08-29
+    latest: "3.10.1.2"
+    latestReleaseDate: 2025-05-05
 
 -   releaseCycle: "4"
     codename: "A new era"
     releaseDate: 2023-11-28
     eol: false
     supportedPhpVersions: 8.1 - 8.3
-    latest: "4.7.0"
-    latestReleaseDate: 2025-03-25
+    latest: "4.7.1"
+    latestReleaseDate: 2025-05-13
 
 -   releaseCycle: "3.9"
     codename: "Brookesia"
     releaseDate: 2023-01-17
     eol: 2025-11-27
     supportedPhpVersions: 8.0 - 8.2
-    latest: "3.9.8.2"
-    latestReleaseDate: 2024-08-24
+    latest: "3.9.8.3"
+    latestReleaseDate: 2025-05-05
 
 -   releaseCycle: "3.8"
     codename: "Rhampholeon"
