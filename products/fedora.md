@@ -38,7 +38,7 @@ releases:
 
 -   releaseCycle: "40"
     releaseDate: 2024-04-23
-    eol: 2025-05-28
+    eol: 2025-05-13
     latest: '40'
     latestReleaseDate: 2024-04-23
 
