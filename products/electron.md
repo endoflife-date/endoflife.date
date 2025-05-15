@@ -53,7 +53,7 @@ releases:
     latest: "35.4.0"
     latestReleaseDate: 2025-05-14
     chromeVersion: "M134"
-    nodeVersion: "22.14"
+    nodeVersion: "22.15"
 
 -   releaseCycle: "34"
     releaseDate: 2025-01-14
@@ -61,7 +61,7 @@ releases:
     latest: "34.5.6"
     latestReleaseDate: 2025-05-14
     chromeVersion: "M132"
-    nodeVersion: "20.18"
+    nodeVersion: "20.19"
 
 -   releaseCycle: "33"
     releaseDate: 2024-10-15
