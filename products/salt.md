@@ -45,8 +45,8 @@ releases:
     releaseDate: 2024-03-06
     eoas: 2025-06-30
     eol: 2025-06-30
-    latest: "3007.1"
-    latestReleaseDate: 2024-05-22
+    latest: "3007.2"
+    latestReleaseDate: 2025-05-14
     link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
 
 -   releaseCycle: "3006"
