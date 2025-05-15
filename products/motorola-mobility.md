@@ -19,6 +19,13 @@ eolColumn: Security Updates
 #
 
 releases:
+- releaseCycle: "moto-e14"
+  releaseLabel: "Motorola Moto E14"
+  releaseDate: 2024-04-01
+  eol: 2026-04-01
+  link: https://en-us.support.motorola.com/app/software-security-update/g_id/#gs=eyJndWlkZUlEIjo3MTEyLCJxdWVzdGlvbklEIjo1LCJyZXNwb25zZUlEIjoxMjgsImd1aWRlU2Vzc2lvbiI6ImlJYm5jbzNyIiwic2Vzc2lvbklEIjoiNExRV2FvM3IifQ..
+
+
 - releaseCycle: "motorola-razr-40s"
   releaseLabel: "Motorola Razr 40S"
   releaseDate: 2023-11-01
