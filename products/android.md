@@ -18,7 +18,7 @@ customColumns:
     position: after-release-column
     label: API Version
 -   property: versionCode
-    position: after-apiVersion-column
+    position: after-release-column
     label: Version Code
 
 identifiers:
