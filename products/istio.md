@@ -41,7 +41,7 @@ auto:
 releases:
 -   releaseCycle: "1.26"
     releaseDate: 2025-05-08
-    eol: 2025-09-30
+    eol: 2026-01-31
     supportedKubernetesVersions: '1.29 - 1.32'
     latest: "1.26.0"
     latestReleaseDate: 2025-05-08
