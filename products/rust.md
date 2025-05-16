@@ -399,4 +399,3 @@ The following Rust editions exist:
 - [Rust 2018](https://doc.rust-lang.org/edition-guide/rust-2018/index.html), which added [path and module system](https://doc.rust-lang.org/edition-guide/rust-2018/path-changes.html) changes and was released alongside [1.31 in December 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html).
 - [Rust 2021](https://doc.rust-lang.org/edition-guide/rust-2021/index.html) [released alongside 1.56](https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html) in October 2021.
 - [Rust 2024](https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html), released alongside 1.85 in February 2025.
-- [Rust 2025](https://blog.rust-lang.org/2025/05/15/Rust-1.87.0/) Announcing Rust 1.87.0 and ten years of Rust!
