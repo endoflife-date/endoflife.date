@@ -85,8 +85,8 @@ releases:
 -   releaseCycle: "25.0"
     releaseDate: 2024-01-19
     eol: false # not announced on https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md
-    latest: "25.0.8"
-    latestReleaseDate: 2025-02-03
+    latest: "25.0.10"
+    latestReleaseDate: 2025-05-15
 
 -   releaseCycle: "24.0"
     releaseDate: 2023-05-16
@@ -97,8 +97,8 @@ releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
     eol: 2025-05-19
-    latest: "23.0.16"
-    latestReleaseDate: 2024-12-05
+    latest: "23.0.18"
+    latestReleaseDate: 2025-05-15
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"
