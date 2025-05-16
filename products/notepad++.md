@@ -21,7 +21,7 @@ releases:
 
 ---
 
-> [Notepad++](https://npp-user-manual.org/docs/getting-started/) (sometimes npp or NPP) is a text and source code for use with Microsoft Windows.
+> [Notepad++](https://notepad-plus-plus.org) (sometimes npp or NPP) is a text and source code for use with Microsoft Windows.
 
 ## General Support
 
