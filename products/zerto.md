@@ -17,9 +17,11 @@ auto:
       fields:
         releaseCycle:
           column: "Version"
-          regex: '^(?P<major>\d+)\.(?P<minor>\d+)( Update (?P<patch>\d+))?.*$'
-          template: '{{major}}.{{minor}}_u{{patch}}'
-        releaseLabel: "Version"
+          regex: '^(?P<major>\d+)\.(?P<minor>\d+)( Update (?P<patch>\d+).*)?$'
+          template: '{{major}}.{{minor}}{% if patch %}_u{{patch}}{% endif %}'
+        releaseLabel:
+          column: "Version"
+          regex: '^(?P<value>\d+\.\d+( Update \d+)?).*$'
         releaseDate: "General Availability (GA)"
         eol: "End of Bug Fixes"
 
