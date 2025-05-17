@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "3.5"
     releaseDate: 2021-06-15
-    eol: 2025-05-15
+    eol: false
     latest: '3.5.21'
     latestReleaseDate: 2025-03-27
 
