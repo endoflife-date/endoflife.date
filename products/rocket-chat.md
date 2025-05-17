@@ -21,9 +21,16 @@ identifiers:
 -   repology: rocketchat-server
 
 # https://docs.rocket.chat/docs/rocketchat-release-notes
-# eoas(x) = releaseDate(x)
+# eoas(x) = releaseDate(x) (there is no more an active support phase, kept for historical purpose)
 # eol(x) can be found on https://docs.rocket.chat/docs/rocketchat-release-notes
 releases:
+-   releaseCycle: "7.6"
+    releaseDate: 2025-05-13
+    eoas: 2025-05-13
+    eol: 2025-11-30
+    latest: '7.6.0'
+    latestReleaseDate: 2025-05-13
+
 -   releaseCycle: "7.5"
     releaseDate: 2025-04-07
     eoas: 2025-04-07
