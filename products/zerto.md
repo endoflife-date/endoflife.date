@@ -8,6 +8,21 @@ releaseColumn: false
 eoasColumn: General Support
 eolColumn: Critical Support
 
+auto:
+  methods:
+  -   release_table: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
+      render_javascript: true
+      render_javascript_wait_until: networkidle
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Version"
+          regex: '^(?P<major>\d+)\.(?P<minor>\d+)( Update (?P<patch>\d+))?.*$'
+          template: '{{major}}.{{minor}}_u{{patch}}'
+        releaseLabel: "Version"
+        releaseDate: "General Availability (GA)"
+        eol: "End of Bug Fixes"
+
 releases:
 -   releaseCycle: "10.0_u6"
     releaseLabel: "10.0 Update 6"
