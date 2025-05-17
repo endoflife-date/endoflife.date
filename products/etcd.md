@@ -21,8 +21,13 @@ auto:
   -   git: https://github.com/etcd-io/etcd.git
 
 # tentative rule:
-# eol(x) = max(latestReleaseDate(x), releaseDate(x+1))
+# eol(x) = max(latestReleaseDate(x), releaseDate(x+2))
 releases:
+-   releaseCycle: "3.6"
+    releaseDate: 2025-05-15
+    eol: false
+    latest: '3.6.0'
+    latestReleaseDate: 2025-05-15
 
 -   releaseCycle: "3.5"
     releaseDate: 2021-06-15
@@ -32,7 +37,7 @@ releases:
 
 -   releaseCycle: "3.4"
     releaseDate: 2019-08-30
-    eol: false
+    eol: 2025-05-15 # releaseDate(3.6)
     latest: '3.4.37'
     latestReleaseDate: 2025-04-16
 
@@ -70,6 +75,3 @@ releases:
 etcd follows [SemVer](https://semver.org/). Backwards-compatible bugs are
 fixed for the latest two stable releases. A patch release to each supported
 release branch, incorporating any bug fixes, happens every two weeks.
-
-The list of currently maintained releases is
-[available on GitHub](https://github.com/etcd-io/etcd/blob/main/Documentation/contributor-guide/release.md#release-management).
