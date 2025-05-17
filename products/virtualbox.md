@@ -17,6 +17,10 @@ identifiers:
 -   cpe: cpe:/a:oracle:virtualbox
 -   cpe: cpe:2.3:a:oracle:virtualbox
 
+auto:
+  methods:
+  -   custom: virtualbox
+
 # eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.
 releases:
