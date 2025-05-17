@@ -49,217 +49,217 @@ releases:
     discontinued: false
 
 -   releaseCycle: "professional-ada-lovelace"
-    label: "Professional Ada Lovelace (AD1xx)"
+    releaseLabel: "Professional Ada Lovelace (AD1xx)"
     releaseDate: 2022-10-13
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "consumer-ada-lovelace"
-    label: "Consumer Ada Lovelace (AD1xx)"
+    releaseLabel: "Consumer Ada Lovelace (AD1xx)"
     releaseDate: 2022-09-20
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "mobile-professional-ampere"
-    label: "Mobile Professional Ampere (GA10x)"
+    releaseLabel: "Mobile Professional Ampere (GA10x)"
     releaseDate: 2021-04-12
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "mobile-consumer-ampere"
-    label: "Mobile Consumer Ampere (GA10x)"
+    releaseLabel: "Mobile Consumer Ampere (GA10x)"
     releaseDate: 2021-01-12
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "professional-ampere"
-    label: "Professional Ampere (GA10x)"
+    releaseLabel: "Professional Ampere (GA10x)"
     releaseDate: 2020-10-05
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "consumer-ampere"
-    label: "Consumer Ampere (GA10x)"
+    releaseLabel: "Consumer Ampere (GA10x)"
     releaseDate: 2020-09-01
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "mobile-professional-turing"
-    label: "Mobile Professional Turing (TU1xX)"
+    releaseLabel: "Mobile Professional Turing (TU1xX)"
     releaseDate: 2019-05-27
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "mobile-consumer-turing"
-    label: "Mobile Consumer Turing (TU1xX)"
+    releaseLabel: "Mobile Consumer Turing (TU1xX)"
     releaseDate: 2019-01-29
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "consumer-turing"
-    label: "Consumer Turing (TU1xX)"
+    releaseLabel: "Consumer Turing (TU1xX)"
     releaseDate: 2018-09-20
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "professional-turing"
-    label: "Professional Turing (TU1xX)"
+    releaseLabel: "Professional Turing (TU1xX)"
     releaseDate: 2018-08-13
     eoas: false
     eol: false
     discontinued: false
 
 -   releaseCycle: "professional-volta"
-    label: "Professional Volta (GV100)"
+    releaseLabel: "Professional Volta (GV100)"
     releaseDate: 2017-12-07
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "mobile-professional-pascal"
-    label: "Mobile Professional Pascal (GP10x)"
+    releaseLabel: "Mobile Professional Pascal (GP10x)"
     releaseDate: 2017-02-06
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "mobile-consumer-pascal"
-    label: "Mobile Consumer Pascal (GP10x)"
+    releaseLabel: "Mobile Consumer Pascal (GP10x)"
     eoas: false
     eol: false
     discontinued: true
     releaseDate: 2016-08-15
 
 -   releaseCycle: "consumer-pascal"
-    label: "Consumer Pascal (GP10x)"
+    releaseLabel: "Consumer Pascal (GP10x)"
     releaseDate: 2016-05-27
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "professional-pascal"
-    label: "Professional Pascal (GP10x)"
+    releaseLabel: "Professional Pascal (GP10x)"
     releaseDate: 2016-04-05
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "mobile-professional-maxwell"
-    label: "Mobile Professional Maxwell (GMxxx)"
+    releaseLabel: "Mobile Professional Maxwell (GMxxx)"
     releaseDate: 2015-08-18
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "professional-maxwell"
-    label: "Professional Maxwell (GMxxx)"
+    releaseLabel: "Professional Maxwell (GMxxx)"
     releaseDate: 2015-06-29
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "mobile-consumer-maxwell"
-    label: "Mobile Consumer Maxwell (GMxxx)"
+    releaseLabel: "Mobile Consumer Maxwell (GMxxx)"
     releaseDate: 2014-10-07
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "consumer-maxwell"
-    label: "Consumer Maxwell (GMxxx)"
+    releaseLabel: "Consumer Maxwell (GMxxx)"
     releaseDate: 2014-09-19
     eoas: false
     eol: false
     discontinued: true
 
 -   releaseCycle: "professional-kepler"
-    label: "Professional Kepler (GKxxx)"
+    releaseLabel: "Professional Kepler (GKxxx)"
     releaseDate: 2013-03-01
     eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
 -   releaseCycle: "consumer-kepler"
-    label: "Consumer Kepler (GKxxx)"
+    releaseLabel: "Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2021-09-20
     eol: 2024-09-01
     discontinued: true
 
 -   releaseCycle: "mobile-professional-kepler"
-    label: "Mobile Professional Kepler (GKxxx)"
+    releaseLabel: "Mobile Professional Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2019-04-23
     eol: 2022-03-01
     discontinued: true
 
 -   releaseCycle: "mobile-consumer-kepler"
-    label: "Mobile Consumer Kepler (GKxxx)"
+    releaseLabel: "Mobile Consumer Kepler (GKxxx)"
     releaseDate: 2012-03-22
     eoas: 2019-03-11
     eol: 2019-04-11
     discontinued: true
 
 -   releaseCycle: "professional-fermi"
-    label: "Professional Fermi (GF1xx)**"
+    releaseLabel: "Professional Fermi (GF1xx)**"
     releaseDate: 2010-07-23
     eoas: 2018-07-31
     eol: 2022-12-31
     discontinued: true
 
 -   releaseCycle: "consumer-fermi"
-    label: "Consumer Fermi (GF1xx)*"
+    releaseLabel: "Consumer Fermi (GF1xx)*"
     releaseDate: 2010-03-26
     eoas: 2018-03-10
     eol: 2018-03-10
     discontinued: true
 
 -   releaseCycle: "consumer-tesla"
-    label: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
+    releaseLabel: "Consumer Tesla (Cxx, G8x, G9x, GT2xx, ION)"
     releaseDate: 2006-11-08
     eoas: 2016-04-01
     eol: 2016-12-14
     discontinued: true
 
 -   releaseCycle: "consumer-curie"
-    label: "Consumer Curie (NV4x, G7x)"
+    releaseLabel: "Consumer Curie (NV4x, G7x)"
     releaseDate: 2004-04-14
     eoas: 2013-02-25
     eol: 2015-02-24
     discontinued: true
 
 -   releaseCycle: "consumer-rankine"
-    label: "Consumer Rankine (NV3x)"
+    releaseLabel: "Consumer Rankine (NV3x)"
     releaseDate: 2003-01-27
     eoas: 2008-06-23 # Verify support date.
     eol: 2008-06-23
     discontinued: true
 
 -   releaseCycle: "consumer-kelvin"
-    label: "Consumer Kelvin (NV1x, NV2x)"
+    releaseLabel: "Consumer Kelvin (NV1x, NV2x)"
     releaseDate: 2001-02-27
     eoas: 2006-11-02 # Verify support date.
     eol: 2006-11-02
     discontinued: true
 
 -   releaseCycle: "consumer-celsius"
-    label: "Consumer Celsius (NV1x)"
+    releaseLabel: "Consumer Celsius (NV1x)"
     releaseDate: 1999-10-11
     eoas: 2005-04-14 # Verify support date.
     eol: 2005-04-14
     discontinued: true
 
 -   releaseCycle: "consumer-fahrenheit"
-    label: "Consumer Fahrenheit (NVx)"
+    releaseLabel: "Consumer Fahrenheit (NVx)"
     releaseDate: 1998-06-15
     eoas: 2005-03-11 # Verify support date.
     eol: 2005-03-11
