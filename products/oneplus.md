@@ -28,14 +28,14 @@ releases:
     eoas: 2029-01-07 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
     eol: 2031-01-07 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: 15
+    supportedOxygenOSVersions: "15"
 
 -   releaseCycle: "13"
     releaseDate: 2024-10-31
     eoas: 2028-10-31 # approximation "4 major Android updates" https://community.oneplus.com/thread/1809805181760569353
     eol: 2030-10-31 # 6 years of security updates
     discontinued: false
-    supportedOxygenOSVersions: 15
+    supportedOxygenOSVersions: "15"
 
 -   releaseCycle: "12r"
     releaseLabel: "12R"
@@ -43,14 +43,14 @@ releases:
     eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/401/
+    supportedOxygenOSVersions: "14" # https://oxygenupdater.com/article/401/
 
 -   releaseCycle: "12"
     releaseDate: 2024-01-23 # https://community.oneplus.com/thread/1514801169317232648
     eoas: 2028-01-23 # approximation "4 major Android updates" https://community.oneplus.com/thread/1211291251581124608
     eol: 2029-01-23
     discontinued: false
-    supportedOxygenOSVersions: 14 # https://oxygenupdater.com/article/396/
+    supportedOxygenOSVersions: "14" # https://oxygenupdater.com/article/396/
 
 -   releaseCycle: "11r"
     releaseLabel: "11R"
@@ -59,7 +59,7 @@ releases:
     eol: 2028-02-07
     discontinued: false
     link: https://www.oneplus.in/11r
-    supportedOxygenOSVersions: 13 - 14 # https://oxygenupdater.com/article/431/ https://community.oneplus.com/thread/1480591576202739713
+    supportedOxygenOSVersions: "13 - 14" # https://oxygenupdater.com/article/431/ https://community.oneplus.com/thread/1480591576202739713
 
 -   releaseCycle: "11"
     releaseDate: 2023-02-07 # https://oxygenupdater.com/article/379/
@@ -67,7 +67,7 @@ releases:
     eol: 2028-02-07
     discontinued: false
     link: https://service.oneplus.com/us/search/search-detail?id=2123192&articleIndex=2
-    supportedOxygenOSVersions: 13 - 14 # https://oxygenupdater.com/article/426/ https://community.oneplus.com/thread/1465453057260126214
+    supportedOxygenOSVersions: "13 - 14" # https://oxygenupdater.com/article/426/ https://community.oneplus.com/thread/1465453057260126214
 
 ---
 
