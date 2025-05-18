@@ -484,7 +484,7 @@ npx @pb33f/wiretap@latest -s http://localhost:4000/docs/api/v1/openapi.yml -u ht
 # In a third tab, run:
 IFS="
 "
-for file in $(find _site/api/v1 -type f | sort -n); do
+for file in $(find _site/api/v1 -type f | grep -v releases | sort -n); do
   echo $(dirname $file | sed 's|_site|http://localhost:9090|' | sed 's|v1$|v1/|' | sed 's| |%20|')
 done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 ```
