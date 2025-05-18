@@ -12,6 +12,13 @@ releasePolicyLink: https://github.com/cakephp/cakephp/wiki
 changelogTemplate: https://github.com/cakephp/cakephp/releases/__LATEST__
 eoasColumn: true
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: Supported PHP versions
+    link: https://github.com/cakephp/cakephp/wiki#version-map
+
 identifiers:
 -   repology: cakephp
 -   cpe: cpe:/a:cakephp:cakephp

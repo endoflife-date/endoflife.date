@@ -10,6 +10,33 @@ changelogTemplate: https://github.com/gradle/gradle/releases/tag/v__LATEST__
 eoasColumn: true
 eolColumn: Critical Bug and Security Fixes
 
+customFields:
+-   name: runningJavaVersions
+    display: api-only
+    label: Java (running)
+    description: Java support for running Gradle
+    link: https://docs.gradle.org/current/userguide/compatibility.html
+-   name: testedJavaVersions
+    display: api-only
+    label: Java
+    description: Java support for compiling/testing/…
+    link: https://docs.gradle.org/current/userguide/compatibility.html
+-   name: testedKotlinVersions
+    display: api-only
+    label: Kotlin
+    description: Kotlin support for compiling/testing/…
+    link: https://docs.gradle.org/current/userguide/compatibility.html
+-   name: testedGroovyVersions
+    display: api-only
+    label: Groovy
+    description: Groovy support for compiling/testing/…
+    link: https://docs.gradle.org/current/userguide/compatibility.html
+-   name: testedAndroidVersions
+    display: api-only
+    label: Android
+    description: Android support for compiling/testing/…
+    link: https://docs.gradle.org/current/userguide/compatibility.html
+
 identifiers:
 -   repology: gradle
 -   cpe: cpe:/a:gradle:gradle

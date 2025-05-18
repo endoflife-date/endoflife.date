@@ -8,6 +8,13 @@ releasePolicyLink: https://moodledev.io/general/releases
 changelogTemplate: "https://moodledev.io/general/releases/__RELEASE_CYCLE__{% if '__RELEASE_CYCLE__.0'!='__LATEST__' %}/__LATEST__{% endif %}"
 eoasColumn: true
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: Supported PHP versions
+    link: https://moodledev.io/general/development/policies/php
+
 identifiers:
 -   repology: moodle
 -   cpe: cpe:/a:moodle:moodle

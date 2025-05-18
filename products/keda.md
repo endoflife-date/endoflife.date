@@ -7,6 +7,13 @@ releasePolicyLink: https://github.com/kedacore/keda?tab=security-ov-file#readme
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
 
+customFields:
+-   name: supportedKubernetesVersions
+    display: api-only
+    label: Kubernetes
+    description: Supported Kubernetes versions
+    link: https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility
+
 auto:
   methods:
   -   git: https://github.com/kedacore/keda.git

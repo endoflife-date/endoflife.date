@@ -5,9 +5,10 @@ tags: php-runtime
 permalink: /robo
 versionCommand: robo --version
 eoasColumn: true
-customColumns:
--   property: supportedPHPVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedPHPVersions
+    display: after-release-column
     label: PHP versions
     description: Supported PHP versions range
     link: https://github.com/consolidation/robo/blob/5.x/README.md

@@ -10,9 +10,17 @@ changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 eoasColumn: true
 eoesColumn: Commercial support
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: Supported PHP versions
+    link: https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements
+
 identifiers:
 -   cpe: cpe:/a:shopware:shopware
 -   cpe: cpe:2.3:a:shopware:shopware
+
 auto:
   methods:
   -   git: https://github.com/shopware/shopware.git # Shopware 6

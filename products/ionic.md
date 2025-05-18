@@ -12,6 +12,28 @@ eoasColumn: true
 eolColumn: Maintenance
 eoesColumn: true
 
+customFields:
+-   name: minAngularVersion
+    display: api-only
+    label: Min. Angular
+    description: Minimum required Angular version
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+-   name: maxAngularVersion
+    display: api-only
+    label: Max Angular
+    description: Maximum required Angular version
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+-   name: supportedReactVersions
+    display: api-only
+    label: React
+    description: Supported React versions
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+-   name: supportedVueVersions
+    display: api-only
+    label: Vue
+    description: Supported Vue versions
+    link: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+
 identifiers:
 -   purl: pkg:github/ionic-team/ionic-framework
 -   purl: pkg:npm/%40ionic/core
@@ -42,7 +64,6 @@ auto:
 
 # eoas(x) = releaseDate(x+1)
 # For eol / eoes see https://ionicframework.com/docs/reference/support#framework-maintenance-and-support-status.
-# For 
 releases:
 -   releaseCycle: "8"
     releaseDate: 2024-04-17

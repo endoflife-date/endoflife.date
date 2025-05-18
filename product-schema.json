@@ -89,12 +89,12 @@
         }
       }
     },
-    "customColumns": {
-      "title": "Custom columns",
-      "description": "Array of custom columns for this product.",
+    "customFields": {
+      "title": "Custom fields",
+      "description": "Array of custom fields for this product's releases.",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/customColumn"
+        "$ref": "#/$defs/customField"
       }
     },
     "releases": {
@@ -158,22 +158,24 @@
         }
       ]
     },
-    "customColumn": {
+    "customField": {
       "type": "object",
       "properties": {
-        "property": {
-          "title": "Property",
-          "description": "Name of the custom property in release cycles.",
+        "name": {
+          "title": "Name",
+          "description": "Name of the custom field.",
           "examples": [
             "supportedIosVersions",
             "correspondingAndroidVersion"
           ],
           "type": "string"
         },
-        "position": {
-          "title": "Position",
-          "description": "Position of the custom column in the table.",
+        "display": {
+          "title": "Display",
+          "description": "Where to display the custom field.",
           "enum": [
+            "none",
+            "api-only",
             "after-release-column",
             "before-latest-column",
             "after-latest-column"

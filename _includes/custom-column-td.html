@@ -7,6 +7,6 @@ Parameters:
 - cssClasses (optional): a space-separated list of CSS classes to add to the cell.
 {% endcomment %}
 {%- assign release = include.release %}
-{%- assign propertyName = include.column.property %}
+{%- assign name = include.column.name %}
 {%- assign cssClasses = include.cssClasses | default:'' %}
-<td class="{{ cssClasses }}">{{ release[propertyName] | default: 'N/A' }}</td>
+<td class="{{ cssClasses }}">{{ release[name] | default: 'N/A' }}</td>

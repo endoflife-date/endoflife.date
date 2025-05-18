@@ -10,9 +10,10 @@ releaseColumn: false
 discontinuedColumn: true
 eoasColumn: Android updates
 eolColumn: Security Updates
-customColumns:
--   property: supportedAndroidVersions # data usually found on wikipedia
-    position: after-release-column
+
+customFields:
+-   name: supportedAndroidVersions # data usually found on wikipedia
+    display: after-release-column
     label: Supported Android Versions
     description: Supported Android versions range
     link: https://endoflife.date/android

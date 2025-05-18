@@ -9,9 +9,10 @@ releaseColumn: false
 eoasColumn: Active Major Updates
 discontinuedColumn: true
 eolColumn: Security Updates
-customColumns:
--   property: supportedAndroidVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedAndroidVersions
+    display: after-release-column
     label: Supported Android
     description: Supported Android version range
     link: https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS

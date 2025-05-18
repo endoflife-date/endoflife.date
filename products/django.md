@@ -9,9 +9,10 @@ releasePolicyLink: https://www.djangoproject.com/download/#supported-versions
 releaseImage: https://static.djangoproject.com/img/release-roadmap.fdaa7bc5861f.png
 changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/__LATEST__/
 eoasColumn: true
-customColumns:
--   property: supportedPythonVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedPythonVersions
+    display: after-release-column
     label: Python
     description: Supported Python versions
     link: https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django

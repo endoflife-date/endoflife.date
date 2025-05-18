@@ -30,9 +30,9 @@ layout: default
 {% endif %}
 
 {%- capture now %}{{ "now" | date: "%s" | plus:0 }}{% endcapture %}
-{%- assign customColumnsAfterRelease = page.customColumns | where: 'position', 'after-release-column' %}
-{%- assign customColumnsBeforeLatest = page.customColumns | where: 'position', 'before-latest-column' %}
-{%- assign customColumnsAfterLatest = page.customColumns | where: 'position', 'after-latest-column' %}
+{%- assign customColumnsAfterRelease = page.customFields | where: 'display', 'after-release-column' %}
+{%- assign customColumnsBeforeLatest = page.customFields | where: 'display', 'before-latest-column' %}
+{%- assign customColumnsAfterLatest = page.customFields | where: 'display', 'after-latest-column' %}
 
 <table class="lifecycle">
   <thead>

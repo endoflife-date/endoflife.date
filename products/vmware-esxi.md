@@ -13,6 +13,11 @@ versionCommand: vmware -l
 releasePolicyLink: https://support.broadcom.com/group/ecx/productlifecycle
 eolColumn: General Support
 
+customFields:
+-   name: technicalGuidance
+    display: api-only
+    label: Technical Guidance Ends
+
 identifiers:
 -   cpe: cpe:2.3:o:vmware:esxi
 -   cpe:  cpe:/o:vmware:esxi
@@ -74,7 +79,7 @@ releases:
     latest: "5.1 Update 3d"
     latestReleaseDate: 2016-05-24
     link: https://web.archive.org/web/20190923124908/http://pubs.vmware.com/Release_Notes/en/vsphere/51/vsphere-vcenter-server-51u3d-release-notes.html
-    
+
 -   releaseCycle: "5.0"
     releaseDate: 2011-07-12
     eol: 2016-08-24

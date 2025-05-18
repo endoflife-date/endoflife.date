@@ -11,6 +11,18 @@ changelogTemplate: https://github.com/spring-projects/spring-framework/releases/
 eolColumn: OSS support
 eoesColumn: Commercial Support
 
+customFields:
+-   name: supportedJavaVersions
+    display: api-only
+    label: JDK
+    description: Supported JDK versions
+    link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
+-   name: supportedJakartaEEVersions
+    display: api-only
+    label: Jakarta EE
+    description: Supported Jakarta EE versions
+    link: https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range
+
 auto:
   methods:
   -   git: https://github.com/spring-projects/spring-framework.git
@@ -30,7 +42,7 @@ auto:
 # Supported Java/Jakarta EE versions available on https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range.
 releases:
 -   releaseCycle: "6.2"
-    supportedJavaVersions: "17 - 25(expected)"
+    supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "9 - 10"
     releaseDate: 2024-11-14
     eol: 2026-06-30

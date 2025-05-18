@@ -6,9 +6,10 @@ permalink: /lineageos
 alternate_urls:
 -   /lineage
 releaseColumn: false
-customColumns:
--   property: androidVersion
-    position: after-release-column
+
+customFields:
+-   name: androidVersion
+    display: after-release-column
     label: Android version
     description: Corresponding Android version
     link: https://endoflife.date/android

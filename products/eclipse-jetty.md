@@ -12,6 +12,23 @@ eoasColumn: "Open Source Support"
 eolColumn: true
 eoesColumn: "Extended Support"
 
+customFields:
+-   name: minJvmVersion
+    display: api-only
+    label: JVM
+    description: Minimum required JVM version
+    link: https://jetty.org/download.html
+-   name: servletVersion
+    display: api-only
+    label: Servlet
+    description: Supported Servlet versions
+    link: https://jetty.org/download.html
+-   name: jspVersion
+    display: api-only
+    label: JSP
+    description: Supported JSP versions
+    link: https://jetty.org/download.html
+
 identifiers:
 -   repology: jetty
 -   purl: pkg:maven/org.eclipse.jetty/jetty-server

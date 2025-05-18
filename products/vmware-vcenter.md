@@ -10,6 +10,11 @@ alternate_urls:
 releasePolicyLink: https://lifecycle.vmware.com
 eolColumn: General Support
 
+customFields:
+-   name: technicalGuidance
+    display: api-only
+    label: Technical Guidance Ends
+
 identifiers:
 -   cpe: cpe:2.3:a:vmware:vcenter_server
 -   cpe: cpe:/a:vmware:vcenter_server

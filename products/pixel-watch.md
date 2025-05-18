@@ -10,9 +10,10 @@ releaseColumn: false
 discontinuedColumn: true
 eoasColumn: WearOS Updates
 eolColumn: Security Updates
-customColumns:
--   property: supportedAndroidVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedAndroidVersions
+    display: after-release-column
     label: Supported Android # https://en.wikipedia.org/wiki/Google_Pixel#Phones
     description: Supported Android versions range
 

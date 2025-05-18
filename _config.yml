@@ -104,7 +104,7 @@ defaults:
       eoesColumn: false
       eoesColumnLabel: 'Extended Support'
       eoesWarnThreshold: 121
-      customColumns: []
+      customFields: []
       LTSLabel: '<abbr title="Long Term Support">LTS</abbr>'
 
 

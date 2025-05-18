@@ -12,6 +12,11 @@ changelogTemplate: https://docs.vmware.com/en/VMware-Horizon/{{"__LATEST__"|repl
 LTSLabel: "<abbr title='Extended Service Branch'>ESB</abbr>"
 eolColumn: General Support
 
+customFields:
+-   name: technicalGuidance
+    display: api-only
+    label: Technical Guidance Ends
+
 releases:
 -   releaseCycle: "8.2412"
     releaseDate: 2025-01-28
@@ -20,7 +25,7 @@ releases:
     latest: "8.2412"
     latestReleaseDate: 2024-01-25
     link: https://docs.omnissa.com/bundle/horizon8-rnV2412/page/Horizon8-ReleaseNotes.html
-    
+
 -   releaseCycle: "8.2406"
     releaseDate: 2024-06-25
     eol: false # is there a date documented somewhere ?

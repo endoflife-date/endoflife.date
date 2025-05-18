@@ -13,6 +13,12 @@ eoasColumn: Bug fix maintenance
 eolColumn: Security maintenance
 eoesColumn: Adobe Commerce end of software support
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: PHP Compatibility
+
 identifiers:
 -   cpe: cpe:/a:magento:magento
 -   cpe: cpe:2.3:a:magento:magento

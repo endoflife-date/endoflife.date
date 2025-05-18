@@ -16,7 +16,7 @@ module EndOfLifeHooks
   VERSION = '1.0.0'
   TOPIC = 'Product Validator:'
   VALID_CATEGORIES = %w[app database device framework lang library os server-app service standard]
-  VALID_CUSTOM_COLUMN_POSITIONS = %w[after-release-column before-latest-column after-latest-column]
+  VALID_CUSTOM_FIELD_DISPLAY = %w[none api-only after-release-column before-latest-column after-latest-column]
 
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
@@ -161,6 +161,7 @@ module EndOfLifeHooks
     error_if.is_not_an_array('identifiers')
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
+    error_if.undeclared_custom_field('releases')
 
     product.data['identifiers'].each { |identifier|
       error_if.is_not_an_identifier('identifiers', identifier)
@@ -171,10 +172,10 @@ module EndOfLifeHooks
       error_if.is_not_an_array('methods')
     end
 
-    product.data['customColumns'].each { |column|
-      error_if = Validator.new('customColumns', product, column)
-      error_if.is_not_a_string('property')
-      error_if.is_not_in('position', EndOfLifeHooks::VALID_CUSTOM_COLUMN_POSITIONS)
+    product.data['customFields'].each { |column|
+      error_if = Validator.new('customFields', product, column)
+      error_if.is_not_a_string('name')
+      error_if.is_not_in('display', EndOfLifeHooks::VALID_CUSTOM_FIELD_DISPLAY)
       error_if.is_not_a_string('label')
       error_if.is_not_a_string('description') if column.has_key?('description')
       error_if.is_not_an_url('link') if column.has_key?('link')
@@ -222,9 +223,9 @@ module EndOfLifeHooks
       error_if.is_url_invalid('iconUrl') if product.data['iconUrl']
       error_if.contains_invalid_urls(product.content)
 
-      product.data['customColumns'].each { |column|
-        error_if = Validator.new('customColumns', product, column)
-        error_if.is_url_invalid('link') if column['link']
+      product.data['customFields'].each { |field|
+        error_if = Validator.new('customFields', product, field)
+        error_if.is_url_invalid('link') if field['link']
       }
 
       product.data['releases'].each { |release|
@@ -387,6 +388,23 @@ module EndOfLifeHooks
       end
     end
 
+    def undeclared_custom_field(property)
+      releases = @data[property]
+
+      standard_fields = %w[releaseCycle releaseLabel codename releaseDate eoas eol eoes discontinued latest latestReleaseDate link lts outOfOrder]
+      custom_fields = @product["customFields"].map { |column| column["name"] }
+
+      releases.each do |release|
+        release_cycle = release['releaseCycle']
+        release_fields = release.keys
+
+        undeclared_fields = release_fields - standard_fields - custom_fields
+        for field in undeclared_fields
+          declare_error(field, release_cycle, "undeclared field")
+        end
+      end
+    end
+
     def check_url(url)
       ignored_reason = is_ignored(url)
       if ignored_reason
@@ -436,8 +454,8 @@ module EndOfLifeHooks
     def location
       if @data.kind_of?(Hash) and @data.has_key?('releaseCycle')
         "#{@product.name}#releases##{@data['releaseCycle']}"
-      elsif @data.kind_of?(Hash) and @data.has_key?('property')
-        "#{@product.name}#customColumn##{@data['property']}"
+      elsif @data.kind_of?(Hash) and @data.has_key?('name')
+        "#{@product.name}#customField##{@data['name']}"
       else
         @product.name
       end

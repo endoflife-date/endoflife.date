@@ -9,9 +9,9 @@ changelogTemplate: "https://plone.org/download/releases/__LATEST__"
 eoasColumn: Maintenance Support
 eolColumn: Security Support
 
-customColumns:
--   property: pythonVersions
-    position: after-release-column
+customFields:
+-   name: pythonVersions
+    display: after-release-column
     label: Python versions
     description: Supported Python versions range
 

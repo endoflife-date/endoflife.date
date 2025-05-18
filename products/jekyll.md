@@ -9,6 +9,13 @@ changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
 eoasColumn: Active Development
 eolColumn: Active Maintenance
 
+customFields:
+-   name: minRubyVersion
+    display: api-only
+    label: Ruby
+    description: Minimum required Ruby version
+    link: https://jekyllrb.com/docs/installation/
+
 identifiers:
 -   cpe: cpe:/a:jekyllrb:jekyll
 -   cpe: cpe:2.3:a:jekyllrb:jekyll
