@@ -10,9 +10,10 @@ releasePolicyLink: https://docs.angularjs.org/misc/version-support-status
 changelogTemplate: https://github.com/angular/angular.js/blob/v__LATEST__/CHANGELOG.md
 eolColumn: Support
 eoesColumn: Extended Long Term Support
-customColumns:
--   property: eoesProvider
-    position: before-latest-column
+
+customFields:
+-   name: eoesProvider
+    display: before-latest-column
     label: Extended Long Term Support provider
     description: Companies that provide extended Long Term Support for AngularJS.
 

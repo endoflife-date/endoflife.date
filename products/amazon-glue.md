@@ -7,6 +7,18 @@ permalink: /amazon-glue
 releasePolicyLink: https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html
 releaseColumn: false
 
+customFields:
+-   name: pythonVersion
+    display: api-only
+    label: Python
+    description: Python version
+    link: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
+-   name: sparkVersion
+    display: api-only
+    label: Spark
+    description: Spark version
+    link: https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
+
 # Versions taken from https://docs.aws.amazon.com/glue/latest/dg/release-notes.html
 # EOL dates from https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html.
 releases:

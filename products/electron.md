@@ -8,13 +8,14 @@ versionCommand: npm show electron version
 releasePolicyLink: https://www.electronjs.org/docs/latest/tutorial/electron-timelines
 changelogTemplate: https://releases.electronjs.org/release/v__LATEST__
 eolColumn: Supported
-customColumns:
--   property: chromeVersion
-    position: after-release-column
+
+customFields:
+-   name: chromeVersion
+    display: after-release-column
     label: Chrome
     description: Corresponding Chrome version used in the Electron release
--   property: nodeVersion
-    position: after-release-column
+-   name: nodeVersion
+    display: after-release-column
     label: Node
     description: Corresponding Node version used in the Electron release
 

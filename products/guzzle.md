@@ -4,9 +4,10 @@ category: framework
 tags: php-runtime
 permalink: /guzzle
 releasePolicyLink: https://github.com/guzzle/guzzle?tab=readme-ov-file#version-guidance
-customColumns:
--   property: supportedPHPVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedPHPVersions
+    display: after-release-column
     label: PHP versions
     description: Supported PHP versions range
 

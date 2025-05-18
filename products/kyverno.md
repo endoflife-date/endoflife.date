@@ -7,9 +7,10 @@ versionCommand: kyverno version
 releasePolicyLink: https://kyverno.io/docs/installation/#compatibility-matrix
 changelogTemplate: https://github.com/kyverno/kyverno/releases/tag/v__LATEST__
 eolColumn: Support
-customColumns:
--   property: supportedK8sVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedK8sVersions
+    display: after-release-column
     label: Kubernetes Version
     description: Supported Kubernetes versions
     link: https://kyverno.io/docs/installation/#compatibility-matrix

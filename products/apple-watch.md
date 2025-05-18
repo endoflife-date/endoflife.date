@@ -9,6 +9,12 @@ discontinuedColumn: true
 eolColumn: Supported
 releaseColumn: false
 
+customFields:
+-   name: supportedWatchOsVersions
+    display: api-only
+    label: WatchOS
+    description: Supported WatchOS versions
+
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/en_US/specs/applewatch.
 # All supported watchOS versions can be found on https://en.wikipedia.org/wiki/Apple_Watch#Support.

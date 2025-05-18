@@ -9,6 +9,11 @@ alternate_urls:
 releasePolicyLink: https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML
 eolColumn: General Support
 
+customFields:
+-   name: technicalGuidance
+    display: api-only
+    label: Technical Guidance Ends
+
 releases:
 -   releaseCycle: "8.8"
     releaseDate: 2023-09-21

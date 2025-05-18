@@ -9,9 +9,16 @@ alternate_urls:
 -   /microsoftsqlserver
 versionCommand: select @@version
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SQL%20Server
-
 eoasColumn: true
 eoesColumn: Extended Security Updates
+
+customFields:
+-   name: latestGdr
+    display: api-only
+    label: Latest General Distribution Release
+-   name: latestGdrLink
+    display: api-only
+    label: Latest General Distribution Release link
 
 identifiers:
 -   cpe: cpe:/a:microsoft:sql_server
@@ -44,7 +51,7 @@ releases:
     latestReleaseDate: 2024-11-12
     # SP3 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2016/servicepack3
     link: https://support.microsoft.com/help/5046855 # GDR for SP3
-    
+
 -   releaseCycle: "15.0"
     codename: Seattle
     releaseLabel: "2019"
@@ -56,7 +63,7 @@ releases:
     latest: "15.0.4430.1 CU32"
     latestReleaseDate: 2025-02-27
     link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2019/cumulativeupdate32
-    
+
 -   releaseCycle: "12.0-sp3"
     codename: Hekaton
     releaseLabel: "2014 SP3"

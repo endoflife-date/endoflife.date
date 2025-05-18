@@ -9,6 +9,12 @@ releasePolicyLink: https://laravel.com/docs/master/releases#support-policy
 changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: Supported PHP versions
+
 identifiers:
 -   purl: pkg:composer/laravel/laravel
 -   purl: pkg:docker/bitnami/laravel

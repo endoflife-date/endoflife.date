@@ -8,9 +8,9 @@ releaseColumn: false
 eolColumn: Development Edition Support
 eoesColumn: Commercial Support
 
-customColumns:
--   property: ubuntuVersion
-    position: after-release-column
+customFields:
+-   name: ubuntuVersion
+    display: after-release-column
     label: Ubuntu Version
     description: Ubuntu LTS corresponding version
 

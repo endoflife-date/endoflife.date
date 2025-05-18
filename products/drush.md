@@ -9,6 +9,18 @@ releasePolicyLink: https://www.drush.org/latest/install/#drupal-compatibility
 changelogTemplate: https://github.com/drush-ops/drush/releases/tag/__LATEST__
 eolColumn: Support
 
+customFields:
+-   name: supportedPhpVersions
+    display: api-only
+    label: PHP
+    description: Supported PHP versions
+    link: https://www.drush.org/latest/install/
+-   name: supportedDrupalVersions
+    display: api-only
+    label: Drupal
+    description: Supported Drupal versions
+    link: https://www.drush.org/latest/install/
+
 identifiers:
 -   repology: drush
 -   purl: pkg:composer/drush/drush

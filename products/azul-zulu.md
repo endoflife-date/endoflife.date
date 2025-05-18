@@ -10,9 +10,10 @@ versionCommand: java -version
 releasePolicyLink: https://www.azul.com/products/azul-support-roadmap/
 eolColumn: Support
 eoesColumn: true
-customColumns:
--   property: latestJdkVersion
-    position: after-latest-column
+
+customFields:
+-   name: latestJdkVersion
+    display: after-latest-column
     label: Latest JDK
     description: Corresponding latest Java version
     link: https://docs.azul.com/core/zulu-openjdk/versioning-and-naming

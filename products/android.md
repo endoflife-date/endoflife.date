@@ -13,9 +13,9 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 releaseColumn: false
 eolColumn: Security Support
 
-customColumns:
--   property: apiVersion
-    position: after-release-column
+customFields:
+-   name: apiVersion
+    display: after-release-column
     label: API Version
 
 identifiers:

@@ -8,6 +8,13 @@ versionCommand: ./bin/version.sh
 releasePolicyLink: https://tomcat.apache.org/whichversion.html
 changelogTemplate: "https://tomcat.apache.org/tomcat-{{'__LATEST__'|split:'.'|pop|join:'.'}}-doc/changelog.html"
 
+customFields:
+-   name: minJavaVersion
+    display: api-only
+    label: Java
+    description: Minimum required Java version
+    link: https://tomcat.apache.org/whichversion.html
+
 identifiers:
 -   repology: tomcat
 -   purl: pkg:maven/org.apache.tomcat/tomcat

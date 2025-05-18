@@ -14,6 +14,11 @@ versionCommand: >
 releasePolicyLink: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
 changelogTemplate: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases-__LATEST__.html
 
+customFields:
+-   name: upgradeVersion
+    display: api-only
+    label: Upgrade to
+
 auto:
   methods:
   -   custom: amazon-neptune

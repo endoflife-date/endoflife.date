@@ -9,6 +9,12 @@ discontinuedColumn: true
 eolColumn: Supported
 releaseColumn: false
 
+customFields:
+-   name: supportedIpadOsVersions
+    display: api-only
+    label: iPadOS
+    description: Supported iPadOS versions
+
 # Links send to the Technical Specifications of each model.
 # All links can be found on https://support.apple.com/HT201471.
 # All supported iPadOS versions can be found on https://en.wikipedia.org/wiki/List_of_iPad_models#iPad.
@@ -28,7 +34,7 @@ releases:
     eol: false
     link: https://support.apple.com/122241
     supportedIpadOsVersions: 18
-    
+
 -   releaseCycle: "mini-7"
     releaseLabel: "iPad Mini (7th generation)"
     releaseDate: 2024-10-23

@@ -13,9 +13,10 @@ activeSupportColumn: Active Major Updates
 discontinuedColumn: true
 eoasColumn: Android Updates
 eolColumn: Security Updates
-customColumns:
--   property: supportedOxygenOSVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedOxygenOSVersions
+    display: after-release-column
     label: Supported OxygenOS
     description: Supported OxygenOS versions range
     link: https://wikipedia.org/wiki/OxygenOS

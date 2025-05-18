@@ -12,9 +12,9 @@ releasePolicyLink: https://blogs.vmware.com/vsphere/2023/05/announcing-photon-os
 releaseColumn: false
 eolColumn: Security Support
 
-customColumns:
--   property: kernelVersion
-    position: after-release-column
+customFields:
+-   name: kernelVersion
+    display: after-release-column
     label: Kernel Version
     description: Linux Kernel Version
 

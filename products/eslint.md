@@ -9,9 +9,10 @@ changelogTemplate: https://github.com/eslint/eslint/releases/tag/v__LATEST__
 eoasColumn: Active Support
 eolColumn: Maintenance Support
 eoesColumn: Extended Long Term Support
-customColumns:
--   property: eoesProvider
-    position: before-latest-column
+
+customFields:
+-   name: eoesProvider
+    display: before-latest-column
     label: Extended Support Provider
     description: Companies that provide extended EOL support for eslint.
 

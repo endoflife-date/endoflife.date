@@ -167,42 +167,42 @@ eoesColumn: Extended Support
 # to indicate that the extended support date is approaching (optional, default = 121 days).
 eoesWarnThreshold: 121
 
-# Custom columns configuration (optional).
-# Custom columns are columns that will be added to the releases table and populated based on a
-# custom release cycle property.
-# They can be used for documenting things such as related runtime versions, custom dates that
-# cannot be expressed using the default columns, etc.
-# Note that the use of a table include (see https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md)
-# is usually preferred when there is more than two or three custom columns.
-customColumns:
+# Custom fields configuration (optional).
+# Custom fields are non-standard fields used for documenting things such as related runtime versions, custom dates that
+# cannot be expressed using the standard fields, etc.
+# They can be:
+# - displayed in the release table,
+# - made available in API responses,
+# - used in table includes, such as in https://github.com/endoflife-date/endoflife.date/blob/master/products/ansible.md
+#   (preferred this over release table when there are more than 2 or 3 custom fields),
+# - or even just used for internal documentation.
+# Search in the existing products source file to see how they are used.
+customFields:
 
-  # Name of the custom property in release cycles (mandatory).
-  # If the release cycle does not declare this property, the label 'N/A' will be displayed instead.
-  # Custom properties follows the camel-case syntax for naming.
-  - property: supportedIosVersions
+  # Name of the custom field (mandatory, unique).
+  # If the release cycle does not declare this field, the label 'N/A' will be displayed instead.
+  # Custom fields follow the camel-case syntax for naming.
+  - name: supportedIosVersions
 
-    # Position of the custom column in the table (mandatory).
-    # Allowed values are:
-    # - after-release-column: this is typically used for documenting related runtime versions
-    #   (such as the supported iOS version range for iphone models),
-    # - before-latest-column: this is typically used for documenting additional dates
-    #   (such as an obsolescence date for an iphone model - https://support.apple.com/en-us/HT201624),
-    # - after-latest-column: this is typically used for documenting a corresponding latest version
-    #   number (such as the OpenJDK version for https://endoflife.date/azul-zulu).
-    # If multiple columns have the same position, the order of the column in the customColumns list
-    # will be respected.
-    position: after-release-column
+    # Where the custom field should be displayed (mandatory). Allowed values are:
+    # - none: do not display the custom field in API responses nor in release table.
+    # - api-only: only display the custom field in API responses.
+    # - after-release-column: display the custom field in API and in the release table after the release column.
+    # - before-latest-column: display the custom field in API and in the release table before the latest column.
+    # - after-latest-column: display the custom field in API and in the release table after the latest column.
+    # If multiple columns have the same position, the order of the column in the customFields list will be respected.
+    display: after-release-column
 
-    # Label of the custom column (mandatory).
-    # It will be displayed in the table header.
+    # Label of the custom field (mandatory).
+    # It will notably be used as the column's name in the release table.
     label: iOS
 
     # A description of what the custom column contains (optional).
-    # It will be displayed as a tooltip of the column table header cell.
+    # It will notably be used as the column's tooltip in the release table.
     description: Supported iOS versions
 
-    # A link that gives more information about what the custom column contains (optional).
-    # It will be used to transform the table label to a link.
+    # A link that gives more information about what the custom field contains (optional).
+    # It will notably transform the label into a link in the release table.
     link: https://en.wikipedia.org/wiki/IPhone#Models
 
 # Auto-update release configuration (optional).

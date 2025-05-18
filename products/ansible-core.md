@@ -9,6 +9,23 @@ releasePolicyLink: https://docs.ansible.com/ansible-core/devel/reference_appendi
 changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCLE__/changelogs/CHANGELOG-v__RELEASE_CYCLE__.rst
 eolColumn: Supported
 
+customFields:
+-   name: pythonVersionsControlNode
+    display: api-only
+    label: Control node Python
+    description: Control node Python support
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+-   name: pythonVersionsManagedNode
+    display: api-only
+    label: Managed node Python
+    description: Managed node Python support
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+-   name: powershellVersionsManagedNode
+    display: api-only
+    label: Managed node PowerShell
+    description: Managed node PowerShell support
+    link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
+
 identifiers:
 -   repology: ansible-core
 -   cpe: cpe:/a:redhat:ansible_engine

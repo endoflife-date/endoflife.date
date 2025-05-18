@@ -11,6 +11,12 @@ changelogTemplate: "https://github.com/spring-projects/spring-boot/releases/tag/
 eolColumn: OSS support
 eoesColumn: Commercial Support
 
+customFields:
+-   name: supportedJavaVersions
+    display: api-only
+    label: JDK
+    description: Supported JDK versions
+
 identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter

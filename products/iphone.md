@@ -8,9 +8,10 @@ releasePolicyLink: https://en.wikipedia.org/wiki/List_of_iPhone_models#Release_d
 discontinuedColumn: true
 eolColumn: Supported
 releaseColumn: false
-customColumns:
--   property: supportedIosVersions
-    position: after-release-column
+
+customFields:
+-   name: supportedIosVersions
+    display: after-release-column
     label: Supported iOS
     description: Supported iOS versions range
     link: https://endoflife.date/ios

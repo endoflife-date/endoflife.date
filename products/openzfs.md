@@ -10,6 +10,16 @@ releasePolicyLink: https://github.com/openzfs/zfs/blob/master/RELEASES.md
 changelogTemplate: https://github.com/openzfs/zfs/releases/tag/zfs-__LATEST__
 eolColumn: Critical bug fixes
 
+customFields:
+-   name: supportedLinux
+    display: api-only
+    label: Linux
+    description: Supported Linux kernel versions
+-   name: supportedFreeBSD
+    display: api-only
+    label: FreeBSD
+    description: Supported FreeBSD versions
+
 identifiers:
 -   repology: openzfs
 -   cpe: cpe:/a:openzfs:openzfs
