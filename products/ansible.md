@@ -44,13 +44,13 @@ auto:
   -   pypi: ansible
 
 # ansible-Core versions can be found on https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
-# For Python / Powershell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
+# For Python / PowerShell versions, see https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#support-life
 releases:
 -   releaseCycle: "11"
     ansibleCoreVersion: "2.18"
-    pythonVersionsControlNode: 3.11 - 3.13
-    pythonVersionsManagedNode: 3.8 - 3.13
-    powershellVersionsManagedNode: 5.1
+    pythonVersionsControlNode: "3.11 - 3.13"
+    pythonVersionsManagedNode: "3.8 - 3.13"
+    powershellVersionsManagedNode: "5.1"
     releaseDate: 2024-11-19
     eol: false
     latest: "11.5.0"
@@ -58,9 +58,9 @@ releases:
 
 -   releaseCycle: "10"
     ansibleCoreVersion: "2.17"
-    pythonVersionsControlNode: 3.10 - 3.12
-    pythonVersionsManagedNode: 3.7 - 3.12
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.10 - 3.12"
+    pythonVersionsManagedNode: "3.7 - 3.12"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2024-06-04
     eol: false # EOL after 10.7
     latest: "10.7.0"
@@ -68,9 +68,9 @@ releases:
 
 -   releaseCycle: "9"
     ansibleCoreVersion: "2.16"
-    pythonVersionsControlNode: 3.10 - 3.12
-    pythonVersionsManagedNode: 2.7 / 3.6 - 3.12
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.10 - 3.12"
+    pythonVersionsManagedNode: "2.7 / 3.6 - 3.12"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-11-21
     eol: 2024-11-30 # EOL after 9.13
     latest: "9.13.0"
@@ -78,9 +78,9 @@ releases:
 
 -   releaseCycle: "8"
     ansibleCoreVersion: "2.15"
-    pythonVersionsControlNode: 3.9 - 3.11
-    pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.9 - 3.11"
+    pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2023-05-30
     eol: 2023-12-06
     latest: "8.7.0"
@@ -88,9 +88,9 @@ releases:
 
 -   releaseCycle: "7"
     ansibleCoreVersion: "2.14"
-    pythonVersionsControlNode: 3.9 - 3.11
-    pythonVersionsManagedNode: 2.7 / 3.5 - 3.11
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.9 - 3.11"
+    pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2022-11-22
     eol: 2023-06-22
     latest: "7.7.0"
@@ -98,9 +98,9 @@ releases:
 
 -   releaseCycle: "6"
     ansibleCoreVersion: "2.13"
-    pythonVersionsControlNode: 3.8 - 3.10
-    pythonVersionsManagedNode: 2.7 / 3.5 - 3.10
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.8 - 3.10"
+    pythonVersionsManagedNode: "2.7 / 3.5 - 3.10"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2022-06-21
     eol: 2022-12-06
     latest: "6.7.0"
@@ -108,9 +108,9 @@ releases:
 
 -   releaseCycle: "5"
     ansibleCoreVersion: "2.12"
-    pythonVersionsControlNode: 3.8 - 3.10
-    pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.10
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "3.8 - 3.10"
+    pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.10"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2021-12-02
     eol: 2022-06-08
     latest: "5.10.0"
@@ -118,9 +118,9 @@ releases:
 
 -   releaseCycle: "4"
     ansibleCoreVersion: "2.11"
-    pythonVersionsControlNode: 2.7 / 3.5 - 3.9
-    pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.9
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
+    pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2021-05-18
     eol: 2021-12-14
     latest: "4.10.0"
@@ -128,9 +128,9 @@ releases:
 
 -   releaseCycle: "3"
     ansibleCoreVersion: "2.10"
-    pythonVersionsControlNode: 2.7 / 3.5 - 3.9
-    pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.9
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
+    pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2021-02-18
     eol: 2021-05-11
     latest: "3.4.0"
@@ -138,9 +138,9 @@ releases:
 
 -   releaseCycle: "2.10"
     ansibleCoreVersion: "2.10"
-    pythonVersionsControlNode: 2.7 / 3.5 - 3.9
-    pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.9
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
+    pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2020-09-22
     eol: 2021-02-09
     latest: "2.10.7"
@@ -148,9 +148,9 @@ releases:
 
 -   releaseCycle: "2.9"
     ansibleCoreVersion: "2.9"
-    pythonVersionsControlNode: 2.7 / 3.5 - 3.8
-    pythonVersionsManagedNode: 2.6 - 2.7 / 3.5 - 3.8
-    powershellVersionsManagedNode: 3 - 5.1
+    pythonVersionsControlNode: "2.7 / 3.5 - 3.8"
+    pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.8"
+    powershellVersionsManagedNode: "3 - 5.1"
     releaseDate: 2019-10-31
     eol: 2022-05-23
     latest: "2.9.27"
