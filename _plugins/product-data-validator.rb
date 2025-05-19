@@ -162,6 +162,7 @@ module EndOfLifeHooks
     error_if.is_not_an_array('releases')
     error_if.not_ordered_by_release_cycles('releases')
     error_if.undeclared_custom_field('releases')
+    error_if.custom_field_type_is_not_string('releases')
 
     product.data['identifiers'].each { |identifier|
       error_if.is_not_an_identifier('identifiers', identifier)
@@ -401,6 +402,23 @@ module EndOfLifeHooks
         undeclared_fields = release_fields - standard_fields - custom_fields
         for field in undeclared_fields
           declare_error(field, release_cycle, "undeclared field")
+        end
+      end
+    end
+
+    def custom_field_type_is_not_string(property)
+      releases = @data[property]
+
+      custom_fields = @product["customFields"].map { |column| column["name"] }
+      releases.each do |release|
+        release_cycle = release['releaseCycle']
+
+        for field in custom_fields
+          value = release[field]
+          # string values may be parsed as Date, but ultimately they are String
+          if value != nil and !value.kind_of?(String) and !value.kind_of?(Date)
+            declare_error(field, release_cycle, "expecting a value of type String or Date, got #{value.class}")
+          end
         end
       end
     end

@@ -182,6 +182,7 @@ customFields:
   # Name of the custom field (mandatory, unique).
   # If the release cycle does not declare this field, the label 'N/A' will be displayed instead.
   # Custom fields follow the camel-case syntax for naming.
+  # Values must always be a string.
   - name: supportedIosVersions
 
     # Where the custom field should be displayed (mandatory). Allowed values are:
