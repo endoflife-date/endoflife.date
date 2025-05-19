@@ -54,11 +54,11 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
     # Supported versions see https://docs.gradle.org/8.13/userguide/compatibility.html
-    runningJavaVersions: 8 - 23
-    testedJavaVersions: 8 - 23
-    testedKotlinVersions: 1.6.10 - 2.1.20-Beta2
-    testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 7.3 - 8.8
+    runningJavaVersions: "8 - 23"
+    testedJavaVersions: "8 - 23"
+    testedKotlinVersions: "1.6.10 - 2.1.20-Beta2"
+    testedGroovyVersions: "1.5.8 - 4.0.0"
+    testedAndroidVersions: "7.3 - 8.8"
     eoas: false
     eol: false
     latest: "8.14.0"
@@ -67,11 +67,11 @@ releases:
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
     # Supported versions see https://docs.gradle.org/7.6.4/userguide/compatibility.html
-    runningJavaVersions: 8 - 19
-    testedJavaVersions: 8 - 19
-    testedKotlinVersions: 1.3.72 - 1.7.10
-    testedGroovyVersions: 1.5.8 - 4.0.0
-    testedAndroidVersions: 4.1 - 4.2, 7.0 - 7.4
+    runningJavaVersions: "8 - 19"
+    testedJavaVersions: "8 - 19"
+    testedKotlinVersions: "1.3.72 - 1.7.10"
+    testedGroovyVersions: "1.5.8 - 4.0.0"
+    testedAndroidVersions: "4.1 - 4.2, 7.0 - 7.4"
     eoas: true
     eol: false
     latest: "7.6.4"
@@ -80,11 +80,11 @@ releases:
 -   releaseCycle: "6"
     releaseDate: 2019-11-08
     # Supported versions see https://docs.gradle.org/6.9.4/userguide/compatibility.html
-    runningJavaVersions: 8 - 15
-    testedJavaVersions: 8 - 16
-    testedKotlinVersions: 1.3.21 - 1.4.20
-    testedGroovyVersions: 1.5.8 - 2.5.12
-    testedAndroidVersions: 3.4 - 3.6, 4.0 - 4.2
+    runningJavaVersions: "8 - 15"
+    testedJavaVersions: "8 - 16"
+    testedKotlinVersions: "1.3.21 - 1.4.20"
+    testedGroovyVersions: "1.5.8 - 2.5.12"
+    testedAndroidVersions: "3.4 - 3.6, 4.0 - 4.2"
     eoas: 2021-04-09
     eol: 2023-02-10
     latest: "6.9.4"
@@ -92,11 +92,11 @@ releases:
 
 -   releaseCycle: "5"
     releaseDate: 2018-11-23
-    runningJavaVersions: 8 - 12
-    testedJavaVersions: N/A
-    testedKotlinVersions: N/A
-    testedGroovyVersions: N/A
-    testedAndroidVersions: N/A
+    runningJavaVersions: "8 - 12"
+    testedJavaVersions: "N/A"
+    testedKotlinVersions: "N/A"
+    testedGroovyVersions: "N/A"
+    testedAndroidVersions: "N/A"
     eoas: 2019-11-08
     eol: 2019-11-08
     latest: "5.6.4"
@@ -104,11 +104,11 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2017-06-14
-    runningJavaVersions: 8 - 10
-    testedJavaVersions: N/A
-    testedKotlinVersions: N/A
-    testedGroovyVersions: N/A
-    testedAndroidVersions: N/A
+    runningJavaVersions: "8 - 10"
+    testedJavaVersions: "N/A"
+    testedKotlinVersions: "N/A"
+    testedGroovyVersions: "N/A"
+    testedAndroidVersions: "N/A"
     eoas: 2018-11-26
     eol: 2018-11-26
     latest: "4.10.3"
@@ -116,11 +116,11 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2016-08-15
-    runningJavaVersions: 8
-    testedJavaVersions: N/A
-    testedKotlinVersions: N/A
-    testedGroovyVersions: N/A
-    testedAndroidVersions: N/A
+    runningJavaVersions: "8"
+    testedJavaVersions: "N/A"
+    testedKotlinVersions: "N/A"
+    testedGroovyVersions: "N/A"
+    testedAndroidVersions: "N/A"
     eoas: 2017-06-14
     eol: 2017-06-14
     latest: "3.5.1"
@@ -128,11 +128,11 @@ releases:
 
 -   releaseCycle: "2"
     releaseDate: 2014-07-01
-    runningJavaVersions: 8
-    testedJavaVersions: N/A
-    testedKotlinVersions: N/A
-    testedGroovyVersions: N/A
-    testedAndroidVersions: N/A
+    runningJavaVersions: "8"
+    testedJavaVersions: "N/A"
+    testedKotlinVersions: "N/A"
+    testedGroovyVersions: "N/A"
+    testedAndroidVersions: "N/A"
     eoas: 2016-08-15
     eol: 2016-08-15
     latest: "2.14.1"
@@ -140,11 +140,11 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2012-06-12
-    runningJavaVersions: N/A
-    testedJavaVersions: N/A
-    testedKotlinVersions: N/A
-    testedGroovyVersions: N/A
-    testedAndroidVersions: N/A
+    runningJavaVersions: "N/A"
+    testedJavaVersions: "N/A"
+    testedKotlinVersions: "N/A"
+    testedGroovyVersions: "N/A"
+    testedAndroidVersions: "N/A"
     eoas: 2014-07-01
     eol: 2014-07-01
     latest: "1.12.0"
