@@ -256,7 +256,7 @@ The other is a minor release in Q4 which brings new APIs and feature updates but
 See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) for additional information about each release.
 
 Android does not have a documented support policy. Releases are considered EOL when they are
-no more listed in [Android Security Bulletins](https://source.android.com/docs/security/bulletin).
+no longer listed in [Android Security Bulletins](https://source.android.com/docs/security/bulletin).
 
 Android 4.4W is the first Android release for Android Wear.
 
