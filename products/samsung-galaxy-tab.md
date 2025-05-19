@@ -12,7 +12,14 @@ eolColumn: Security Updates
 auto:
   cumulative: true
   methods:
-  -   custom: samsung-mobile
+  -   samsung-security: https://security.samsungmobile.com/workScope.smsb
+      sections:
+        monthly: Current Models for Monthly Security Updates
+        quarterly: Current Models for Quarterly Security Updates
+        biannually: Current Models for Biannual Security Updates
+      regex: '^galaxy-tab.+$'
+      regex_exclude:
+      - '^galaxy-tab-a7-10.4-2022$' # still available, according to https://www.gsmarena.com/samsung_galaxy_tab_a7_10_4_(2022)-11988.php
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support

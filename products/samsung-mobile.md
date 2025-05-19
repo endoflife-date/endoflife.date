@@ -14,7 +14,17 @@ eolColumn: Security Updates
 auto:
   cumulative: true
   methods:
-  -   custom: samsung-mobile
+  -   samsung-security: https://security.samsungmobile.com/workScope.smsb
+      sections:
+        monthly: Current Models for Monthly Security Updates
+        quarterly: Current Models for Quarterly Security Updates
+        biannually: Current Models for Biannual Security Updates
+      regex: '^.+$'
+      regex_exclude:
+      - '^galaxy-tab.+$' # managed in products/samsung-galaxy-tab.md
+      - '^galaxy-m13-india$' # still available, according to https://www.gsmarena.com/samsung_galaxy_m13_(india)-11654.php
+      - '^galaxy-a13-sm-a137$' # still available, according to https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
+      - '^galaxy-a-quantum2$' # still available, according to https://www.gsmarena.com/samsung_galaxy_quantum_2-10850.php
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support
