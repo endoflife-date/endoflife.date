@@ -32,61 +32,61 @@ releases:
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-10-10
-    eol: false
+    eol: 2025-03-31
     latest: "7.0.24"
     latestReleaseDate: 2025-01-21
 
 -   releaseCycle: "6.1"
     releaseDate: 2019-12-10
-    eol: 2024-01-16
+    eol: 2024-01-31
     latest: "6.1.50"
     latestReleaseDate: 2024-01-16
 
 -   releaseCycle: "6.0"
     releaseDate: 2018-12-18
-    eol: 2020-07-14
+    eol: 2020-07-31
     latest: "6.0.24"
     latestReleaseDate: 2020-07-14
 
 -   releaseCycle: "5.2"
     releaseDate: 2017-10-17
-    eol: 2020-07-14
+    eol: 2020-07-31
     latest: "5.2.44"
     latestReleaseDate: 2020-07-14
 
 -   releaseCycle: "5.1"
     releaseDate: 2016-07-12
-    eol: 2018-05-09
+    eol: 2018-04-30
     latest: "5.1.38"
     latestReleaseDate: 2018-05-09
 
 -   releaseCycle: "5.0"
     releaseDate: 2015-07-09
-    eol: 2017-04-28
+    eol: 2017-05-31
     latest: "5.0.40"
     latestReleaseDate: 2017-04-28
 
 -   releaseCycle: "4.3"
     releaseDate: 2013-10-15
-    eol: 2016-08-22
+    eol: 2015-12-31
     latest: "4.3.40"
     latestReleaseDate: 2016-08-22
 
 -   releaseCycle: "4.2"
     releaseDate: 2012-09-13
-    eol: 2015-11-11
+    eol: 2015-12-31
     latest: "4.2.36"
     latestReleaseDate: 2015-11-11
 
 -   releaseCycle: "4.1"
     releaseDate: 2011-07-19
-    eol: 2015-11-11
+    eol: 2015-12-31
     latest: "4.1.44"
     latestReleaseDate: 2015-11-11
 
 -   releaseCycle: "4.0"
     releaseDate: 2010-12-22
-    eol: 2015-11-11
+    eol: 2015-12-31
     latest: "4.0.36"
     latestReleaseDate: 2015-11-11
 

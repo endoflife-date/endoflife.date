@@ -71,8 +71,8 @@ releases:
     codename: Rao
     releaseDate: 2021-04-08
     eol: false
-    latest: "4.4.5"
-    latestReleaseDate: 2024-07-29
+    latest: "4.4.6"
+    latestReleaseDate: 2025-05-17
 
 -   releaseCycle: "4.3"
     codename: '4:3'
@@ -85,8 +85,8 @@ releases:
     codename: 'Ada'
     releaseDate: 2019-08-05
     eol: false
-    latest: "4.2.10"
-    latestReleaseDate: 2024-08-01
+    latest: "4.2.11"
+    latestReleaseDate: 2025-05-17
 
 -   releaseCycle: "4.1"
     codename: 'al-Khwarizmi'
