@@ -36,7 +36,7 @@ releases:
     eoas: false
     eol: false
     eoes: false # not yet on https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html
-    supportedPhpVersions: 8.3, 8.4
+    supportedPhpVersions: "8.3, 8.4"
     latest: "2.4.8"
     latestReleaseDate: 2025-04-03
 
@@ -45,7 +45,7 @@ releases:
     eoas: false
     eol: false
     eoes: 2027-04-19
-    supportedPhpVersions: 8.2, 8.3
+    supportedPhpVersions: "8.2, 8.3"
     latest: "2.4.7"
     latestReleaseDate: 2024-04-04
 
@@ -54,7 +54,7 @@ releases:
     eoas: false
     eol: false
     eoes: 2026-08-11
-    supportedPhpVersions: 8.1, 8.2
+    supportedPhpVersions: "8.1, 8.2"
     latest: "2.4.6"
     latestReleaseDate: 2023-02-28
 
@@ -63,7 +63,7 @@ releases:
     eoas: 2024-11-25
     eol: 2024-11-25
     eoes: 2025-08-09
-    supportedPhpVersions: 8.1
+    supportedPhpVersions: "8.1"
     latest: "2.4.5"
     latestReleaseDate: 2022-08-01
 
@@ -72,7 +72,7 @@ releases:
     eoas: 2024-11-25
     eol: 2024-11-25
     eoes: 2025-04-24
-    supportedPhpVersions: 8.1
+    supportedPhpVersions: "8.1"
     latest: "2.4.4"
     latestReleaseDate: 2022-03-30
 
@@ -80,7 +80,7 @@ releases:
     releaseDate: 2021-08-04
     eoas: 2022-11-28
     eol: 2022-11-28
-    supportedPhpVersions: 7.4
+    supportedPhpVersions: "7.4"
     latest: "2.4.3"
     latestReleaseDate: 2021-08-04
 
@@ -88,7 +88,7 @@ releases:
     releaseDate: 2021-02-04
     eoas: 2022-11-28
     eol: 2022-11-28
-    supportedPhpVersions: 7.4
+    supportedPhpVersions: "7.4"
     latest: "2.4.2"
     latestReleaseDate: 2021-02-04
 
@@ -96,7 +96,7 @@ releases:
     releaseDate: 2020-10-14
     eoas: 2022-11-28
     eol: 2022-11-28
-    supportedPhpVersions: 7.4
+    supportedPhpVersions: "7.4"
     latest: "2.4.1"
     latestReleaseDate: 2020-10-14
 
@@ -104,7 +104,7 @@ releases:
     releaseDate: 2020-07-20
     eoas: 2022-11-28
     eol: 2022-11-28
-    supportedPhpVersions: 7.3, 7.4
+    supportedPhpVersions: "7.3, 7.4"
     latest: "2.4.0"
     latestReleaseDate: 2020-07-20
     link: https://devdocs.magento.com/guides/v2.4/release-notes/release-notes-2-4-0-open-source.html
@@ -114,7 +114,7 @@ releases:
     eoas: 2022-07-31
     eol: 2022-09-30
     # https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-open-source.html#platform-upgrades
-    supportedPhpVersions: 7.2, 7.3
+    supportedPhpVersions: "7.2, 7.3"
     link: https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html
     latest: "2.3.7"
     latestReleaseDate: 2021-05-07
