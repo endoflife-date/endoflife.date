@@ -43,9 +43,9 @@ auto:
 releases:
 -   releaseCycle: "12"
     releaseDate: 2023-08-07
-    minJvmVersion: 17
-    servletVersion: 3.1 - 6.0
-    jspVersion: 2.3 - 3.1
+    minJvmVersion: "17"
+    servletVersion: "3.1 - 6.0"
+    jspVersion: "2.3 - 3.1"
     eoas: false
     eol: false
     eoes: false
@@ -53,9 +53,9 @@ releases:
     latestReleaseDate: 2025-05-09
 
 -   releaseCycle: "11"
-    minJvmVersion: 11
-    servletVersion: 5.0
-    jspVersion: 3.0
+    minJvmVersion: "11"
+    servletVersion: "5.0"
+    jspVersion: "3.0"
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
@@ -64,9 +64,9 @@ releases:
     latestReleaseDate: 2025-03-13
 
 -   releaseCycle: "10"
-    minJvmVersion: 11
-    servletVersion: 4.0
-    jspVersion: 2.3
+    minJvmVersion: "11"
+    servletVersion: "4.0"
+    jspVersion: "2.3"
     releaseDate: 2020-12-02
     eoas: 2024-01-01 # https://github.com/jetty/jetty.project/issues/10485
     eol: 2025-01-01 # https://github.com/jetty/jetty.project/issues/10485
@@ -75,9 +75,9 @@ releases:
     latestReleaseDate: 2025-03-13
 
 -   releaseCycle: "9.4"
-    minJvmVersion: 1.8
-    servletVersion: 3.1
-    jspVersion: 2.3
+    minJvmVersion: "1.8"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2016-12-07
     eoas: 2022-06-01 # https://github.com/jetty/jetty.project/issues/7958
     eol: 2025-02-19 # https://github.com/jetty/jetty.project/issues/7958
@@ -86,9 +86,9 @@ releases:
     latestReleaseDate: 2024-12-19
 
 -   releaseCycle: "9.3"
-    minJvmVersion: 1.8
-    servletVersion: 3.1
-    jspVersion: 2.3
+    minJvmVersion: "1.8"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2015-06-01
     eoas: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
     eol: 2020-12-07 # https://www.eclipse.org/lists/jetty-announce/msg00140.html
@@ -96,9 +96,9 @@ releases:
     latestReleaseDate: 2021-10-01
 
 -   releaseCycle: "9.2"
-    minJvmVersion: 1.7
-    servletVersion: 3.1
-    jspVersion: 2.3
+    minJvmVersion: "1.7"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2014-05-23
     eoas: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
     eol: 2018-03-08 # https://www.eclipse.org/lists/jetty-announce/msg00116.html
@@ -106,9 +106,9 @@ releases:
     latestReleaseDate: 2020-04-28
 
 -   releaseCycle: "9.1"
-    minJvmVersion: 1.7
-    servletVersion: 3.1
-    jspVersion: 2.3
+    minJvmVersion: "1.7"
+    servletVersion: "3.1"
+    jspVersion: "2.3"
     releaseDate: 2013-11-15
     eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
@@ -116,9 +116,9 @@ releases:
     latestReleaseDate: 2016-01-12
 
 -   releaseCycle: "9.0"
-    minJvmVersion: 1.7
-    servletVersion: 3.1-beta
-    jspVersion: 2.3
+    minJvmVersion: "1.7"
+    servletVersion: "3.1-beta"
+    jspVersion: "2.3"
     releaseDate: 2013-03-08
     eoas: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2013-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
@@ -126,9 +126,9 @@ releases:
     latestReleaseDate: 2013-11-07
 
 -   releaseCycle: "8"
-    minJvmVersion: 1.6
-    servletVersion: 3.0
-    jspVersion: 2.2
+    minJvmVersion: "1.6"
+    servletVersion: "3.0"
+    jspVersion: "2.2"
     releaseDate: 2011-09-01
     eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
@@ -136,9 +136,9 @@ releases:
     latestReleaseDate: 2016-09-08
 
 -   releaseCycle: "7"
-    minJvmVersion: 1.5
-    servletVersion: 2.5
-    jspVersion: 2.1
+    minJvmVersion: "1.5"
+    servletVersion: "2.5"
+    jspVersion: "2.1"
     releaseDate: 2009-10-05
     eoas: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
     eol: 2014-12-31 # only year provided on https://eclipse.dev/jetty/download.php, used end of the year
