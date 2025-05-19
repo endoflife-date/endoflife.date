@@ -26,10 +26,17 @@ auto:
         eol: "End of Bug Fixes"
 
 releases:
+-   releaseCycle: "10.0_u7"
+    releaseLabel: "10.0 Update 7"
+    releaseDate: 2025-05-06
+    eoas: false # Next GA date
+    eol: 2026-05-06
+    link: "https://help.zerto.com/bundle/RN.HTML.10.0_U7/page/release_notes_for_zerto_10_0_update_7.html"
+
 -   releaseCycle: "10.0_u6"
     releaseLabel: "10.0 Update 6"
     releaseDate: 2024-12-03
-    eoas: false # Next GA date
+    eoas: 2025-05-06
     eol: 2026-12-03
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U6/page/release_notes_for_zerto_10_0_update_6.html"
 
