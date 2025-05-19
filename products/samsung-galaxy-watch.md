@@ -4,15 +4,22 @@ category: device
 tags: smartwatch
 iconSlug: samsung
 permalink: /samsung-galaxy-watch
+releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 releaseColumn: false
-eoasColumn: true
+eoasColumn: Wear OS Upgrades
 eolColumn: Security Updates
 
-# Some useful information can be found on:
-# - https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_series (release dates)
-# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (support policy)
-# - https://www.androidauthority.com/samsung-android-updates-1148888/ (support policy)
+# eoas(x) = end of android upgrade
+# eol(x) = end of security support
+#
+# Useful information can be found on:
+# - https://news.samsung.com (releaseDate, eoas, eol - search on Google with "<model> site:news.samsung.com")
+# - https://www.gsmarena.com/ (releaseDate)
+# - https://androidspotlight.com/software-update-policy-for-every-samsung-device/ (eoas / eol)
+# - https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/ (eoas / eol)
+# - https://www.androidupdatetracker.com/ (eoas)
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
+# - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
 -   releaseCycle: "galaxy-watch-ultra"
     releaseLabel: "Galaxy Watch Ultra"
@@ -110,7 +117,21 @@ releases:
 > The [Samsung Galaxy Watch](https://www.samsung.com/us/watches/) series is a line of smartwatches designed and produced
 > by Samsung Electronics.
 
-Since Galaxy Watch 4, Samsung Galaxy Watches run on the Wear OS operating system and are supported [for five years](https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/#Samsung_Update_Policy_For_Galaxy_Watches)
-– four Android version updates and five years of security patches.
+{: .note}
+Some release dates may vary depending on the country or region.
+Most Android upgrades or security update dates are approximate to the year.
 
-A list of currently supported devices can be found on the [Samsung Security Updates page](https://security.samsungmobile.com/workScope.smsb).
+Samsung Galaxy Watch devices have two levels of support: Wear OS upgrades and security updates.
+
+Wear OS upgrades refer to updates that provide a device with newer major releases of the Wear OS operating system.
+These upgrades typically include new features, improvements to performance and security, and enhancements to the user interface.
+Wear OS upgrades ensure that devices remain compatible with the latest apps and benefit from ongoing development by Google and Samsung.
+
+Security updates refer to updates that address vulnerabilities and security issues in the Wear OS operating system. They
+are essential for maintaining the security and privacy of a device, and may occur monthly, quarterly, or biannually
+depending on the model and its age.
+
+Guaranteed Wear OS upgrades are provided for a limited period, which is usually less (but never more) than the device's security update period.
+How many Wear OS upgrades a device receives depends on the model.
+However, since Galaxy Watch 4, Samsung Galaxy Watches are supported [for five years](https://www.knowyourmobile.com/phones/samsung/one-ui/samsung-update-policy/#Samsung_Update_Policy_For_Galaxy_Watches)
+– four Android version updates and five years of security patches.
