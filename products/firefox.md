@@ -29,8 +29,8 @@ releases:
 -   releaseCycle: "138"
     releaseDate: 2025-04-29
     eol: false
-    latest: "138.0.3"
-    latestReleaseDate: 2025-05-13
+    latest: "138.0.4"
+    latestReleaseDate: 2025-05-17
 
 -   releaseCycle: "137"
     releaseDate: 2025-04-01
@@ -90,8 +90,8 @@ releases:
     lts: true
     releaseDate: 2024-07-09
     eol: 2025-09-16 # estimated release day for 140.3 on https://whattrainisitnow.com/calendar/
-    latest: "128.10.0"
-    latestReleaseDate: 2025-04-29
+    latest: "128.10.1"
+    latestReleaseDate: 2025-05-17
 
 -   releaseCycle: "127"
     releaseDate: 2024-06-11
@@ -169,8 +169,8 @@ releases:
     lts: true
     releaseDate: 2023-07-04
     eol: 2024-10-01 # estimated release day for 131 on https://whattrainisitnow.com/calendar/
-    latest: "115.12.0"
-    latestReleaseDate: 2024-06-11
+    latest: "115.23.0"
+    latestReleaseDate: 2025-04-29
 
 -   releaseCycle: "114"
     releaseDate: 2023-06-06

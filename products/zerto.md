@@ -37,43 +37,44 @@ releases:
     releaseLabel: "10.0 Update 5"
     releaseDate: 2024-08-06
     eoas: 2024-12-03
-    eol: 2025-08-06
+    eol: 2024-12-03
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U5/page/release_notes_for_zerto_10_0_update_5.html"
 
 -   releaseCycle: "10.0_u4"
     releaseLabel: "10.0 Update 4"
     releaseDate: 2024-05-15
     eoas: 2024-08-06
-    eol: 2025-05-15
+    eol: 2024-08-06
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U4/page/release_notes_for_zerto_10_0_update_4.html"
 
 -   releaseCycle: "10.0_u3"
     releaseLabel: "10.0 Update 3"
     releaseDate: 2024-02-12
     eoas: 2024-05-15
-    eol: 2025-02-12
+    eol: 2024-05-15
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U3/page/what_s_new_in_zerto_10_0_update_3.html"
 
 -   releaseCycle: "10.0_u2"
     releaseLabel: "10.0 Update 2"
     releaseDate: 2023-11-28
     eoas: 2024-02-12
-    eol: 2024-11-28
+    eol: 2024-02-12
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U2/page/what_s_new_in_zerto_10_0_update_2.html"
 
 -   releaseCycle: "10.0_u1"
     releaseLabel: "10.0 Update 1"
     releaseDate: 2023-08-07
     eoas: 2023-11-28
-    eol: 2024-08-07
+    eol: 2023-11-28
     link: "https://help.zerto.com/bundle/RN.HTML.10.0_U1/page/what_s_new_in_zerto_10_0_update_1.html"
 
 -   releaseCycle: "10.0"
     releaseDate: 2023-07-05
     eoas: 2023-08-07
-    eol: 2024-07-05
+    eol: 2023-08-07
     link: "https://help.zerto.com/bundle/RN.HTML.10.0/page/10.0_Whats_New.htm"
 
+    releaseLabel: '10.0'
 -   releaseCycle: "9.7"
     releaseDate: 2022-11-08
     eoas: 2023-12-31
