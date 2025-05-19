@@ -1,14 +1,14 @@
 ---
 title: Samsung Mobile
 category: device
-tags: mobile-phone tablet
+tags: mobile-phone
 iconSlug: samsung
 permalink: /samsung-mobile
 alternate_urls:
 -   /samsungmobile
 releasePolicyLink: https://security.samsungmobile.com/workScope.smsb
 releaseColumn: false
-eoasColumn: true
+eoasColumn: Android Upgrades
 eolColumn: Security Updates
 
 auto:
@@ -329,20 +329,6 @@ releases:
     eol: 2027-10-18 # 4 years of security updates - https://rmupdate.com/galaxy-a05-software-update-policy/
     link: https://doc.samsungmobile.com/SM-A057F/FWD/doc.html
 
--   releaseCycle: "galaxy-tab-s9-fe"
-    releaseLabel: "Galaxy Tab S9 FE"
-    releaseDate: 2023-10-16
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-X510/ZTO/doc.html
-
--   releaseCycle: "galaxy-tab-s9-fe+"
-    releaseLabel: "Galaxy Tab S9 FE+"
-    releaseDate: 2023-10-16
-    eoas: 2027-10-16
-    eol: 2028-10-16
-    link: https://doc.samsungmobile.com/SM-X610/ZTO/doc.html
-
 -   releaseCycle: "galaxy-a05"
     releaseLabel: "Galaxy A05"
     releaseDate: 2023-10-15 # https://www.gsmarena.com/samsung_galaxy_a05-12583.php
@@ -370,27 +356,6 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-W9024/CHC/doc.html
-
--   releaseCycle: "galaxy-tab-s9"
-    releaseLabel: "Galaxy Tab S9"
-    releaseDate: 2023-08-11
-    eoas: 2027-10-16
-    eol: 2028-10-16
-    link: https://doc.samsungmobile.com/sm-x710/eux/doc.html
-
--   releaseCycle: "galaxy-tab-s9+"
-    releaseLabel: "Galaxy Tab S9+"
-    releaseDate: 2023-08-11
-    eoas: 2027-10-16
-    eol: 2028-10-16
-    link: https://doc.samsungmobile.com/SM-X816B/INS/doc.html
-
--   releaseCycle: "galaxy-tab-s9-ultra"
-    releaseLabel: "Galaxy Tab S9 Ultra"
-    releaseDate: 2023-08-11
-    eoas: 2027-10-16
-    eol: 2028-10-16
-    link: https://doc.samsungmobile.com/SM-X910/XJP/doc.html
 
 -   releaseCycle: "galaxy-z-fold5"
     releaseLabel: "Galaxy Z Fold5"
@@ -518,13 +483,6 @@ releases:
     eol: 2025-12-16
     link: https://doc.samsungmobile.com/SM-M045F/INS/doc.html
 
--   releaseCycle: "galaxy-tab-a7-10.4-2022"
-    releaseLabel: "Galaxy Tab A7 10.4 (2022)"
-    releaseDate: 2022-11-21
-    eoas: 2024-11-21
-    eol: 2026-11-21
-    link: https://doc.samsungmobile.com/SM-T509/ITV/doc.html
-
 -   releaseCycle: "galaxy-a04e"
     releaseLabel: "Galaxy A04e"
     releaseDate: 2022-11-07
@@ -559,13 +517,6 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-A047F/XXV/doc.html
-
--   releaseCycle: "galaxy-tab-active4-pro"
-    releaseLabel: "Galaxy Tab Active4 Pro"
-    releaseDate: 2022-09-13
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-T636B/XSA/doc.html
 
 -   releaseCycle: "galaxy-a23-5g"
     releaseLabel: "Galaxy A23 5G"
@@ -630,20 +581,6 @@ releases:
     eol: 2025-06-29
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
--   releaseCycle: "galaxy-tab-s6-lite"
-    releaseLabel: "Galaxy Tab S6 Lite"
-    releaseDate: 2022-05-23
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-P619/ATO/doc.html
-
--   releaseCycle: "galaxy-tab-s8-ultra"
-    releaseLabel: "Galaxy Tab S8 Ultra"
-    releaseDate: 2022-04-30
-    eoas: 2026-04-30
-    eol: 2027-04-30
-    link: https://doc.samsungmobile.com/SM-X906B/XXV/doc.html
-
 -   releaseCycle: "galaxy-m53-5g"
     releaseLabel: "Galaxy M53 5G"
     releaseDate: 2022-04-22 # https://news.samsung.com/in/samsung-launches-galaxy-m53-5g-with-segment-best-108-mp-quad-camera-segment-only-auto-data-switching-segment-leading-samoled-display-in-india
@@ -657,13 +594,6 @@ releases:
     eoas: 2026-04-22
     eol: 2027-04-22
     link: https://doc.samsungmobile.com/SM-A736B/XSA/doc.html
-
--   releaseCycle: "galaxy-tab-s8+"
-    releaseLabel: "Galaxy Tab S8+"
-    releaseDate: 2022-04-14
-    eoas: 2026-04-14
-    eol: 2027-04-14
-    link: https://doc.samsungmobile.com/SM-X806B/XXV/doc.html
 
 -   releaseCycle: "galaxy-m33-5g"
     releaseLabel: "Galaxy M33 5G"
@@ -714,13 +644,6 @@ releases:
     eol: 2026-03-23
     link: https://doc.samsungmobile.com/SM-A135M/PET/doc.html
 
--   releaseCycle: "galaxy-tab-s8"
-    releaseLabel: "Galaxy Tab S8"
-    releaseDate: 2022-03-22
-    eoas: 2026-03-22
-    eol: 2027-03-22
-    link: https://doc.samsungmobile.com/SM-X706B/SER/doc.html
-
 -   releaseCycle: "galaxy-f23"
     releaseLabel: "Galaxy F23"
     releaseDate: 2022-03-16
@@ -755,13 +678,6 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-A035G/BTU/doc.html
-
--   releaseCycle: "galaxy-tab-a8"
-    releaseLabel: "Galaxy Tab A8"
-    releaseDate: 2022-01-17
-    eoas: 2025-01-17
-    eol: 2026-01-17
-    link: https://doc.samsungmobile.com/SM-X205/INS/doc.html
 
 -   releaseCycle: "galaxy-s21-fe-5g"
     releaseLabel: "Galaxy S21 FE 5G"
@@ -902,20 +818,6 @@ releases:
     eoas: false
     eol: false
     link: https://doc.samsungmobile.com/SM-E5260/CHC/doc.html
-
--   releaseCycle: "galaxy-tab-a7-lite"
-    releaseLabel: "Galaxy Tab A7 Lite"
-    releaseDate: 2021-05-27
-    eoas: 2024-05-27
-    eol: 2025-05-27
-    link: https://doc.samsungmobile.com/SM-T220/CHN/doc.html
-
--   releaseCycle: "galaxy-tab-s7-fe"
-    releaseLabel: "Galaxy Tab S7 FE"
-    releaseDate: 2021-05-25
-    eoas: false
-    eol: false
-    link: https://doc.samsungmobile.com/SM-T730/KOO/doc.html
 
 -   releaseCycle: "galaxy-a82-5g"
     releaseLabel: "Galaxy A82 5G"
@@ -1134,26 +1036,12 @@ releases:
     eol: true # Samsung provides a 5th year security support for S20
     link: https://doc.samsungmobile.com/SM-G780G/BTU/doc.html
 
--   releaseCycle: "galaxy-tab-active3"
-    releaseLabel: "Galaxy Tab Active3"
-    releaseDate: 2020-09-28
-    eoas: 2022-09-28
-    eol: false
-    link: https://doc.samsungmobile.com/SM-T575/XEF/doc.html
-
 -   releaseCycle: "galaxy-z-fold-2"
     releaseLabel: "Galaxy Z Fold 2"
     releaseDate: 2020-09-18
     eoas: 2023-09-18
     eol: 2024-09-18
     link: https://doc.samsungmobile.com/SM-F916B/XEH/doc.html
-
--   releaseCycle: "galaxy-tab-a7-10.4-2020"
-    releaseLabel: "Galaxy Tab A7 10.4 (2020)"
-    releaseDate: 2020-09-11
-    eoas: 2023-09-11
-    eol: 2024-09-11
-    link: https://doc.samsungmobile.com/SM-T505/BTU/doc.html
 
 -   releaseCycle: "galaxy-note20-ultra-5g"
     releaseLabel: "Galaxy Note20 Ultra 5G"
@@ -1175,13 +1063,6 @@ releases:
     eoas: 2023-08-21
     eol: 2025-08-21
     link: https://doc.samsungmobile.com/SM-N985F/XNZ/doc.html
-
--   releaseCycle: "galaxy-tab-s7"
-    releaseLabel: "Galaxy Tab S7"
-    releaseDate: 2020-08-21
-    eoas: 2023-08-21
-    eol: 2024-08-21
-    link: https://doc.samsungmobile.com/SM-T875/DBT/doc.html
 
 -   releaseCycle: "galaxy-note20"
     releaseLabel: "Galaxy Note20"
@@ -1224,13 +1105,6 @@ releases:
     eoas: true
     eol: true
     link: https://doc.samsungmobile.com/SM-A013F/SEK/doc.html
-
--   releaseCycle: "galaxy-tab-s7+"
-    releaseLabel: "Galaxy Tab S7+"
-    releaseDate: 2020-08-05
-    eoas: 2023-08-05
-    eol: 2024-08-05
-    link: https://doc.samsungmobile.com/SM-T970/XAR/doc.html
 
 -   releaseCycle: "galaxy-m01-core"
     releaseLabel: "Galaxy M01 Core"
@@ -1295,13 +1169,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/sm-a716s/skc/doc.html
 
--   releaseCycle: "galaxy-tab-s6-lite-2020"
-    releaseLabel: "Galaxy Tab S6 Lite (2020)"
-    releaseDate: 2020-05-16
-    eoas: 2023-05-16
-    eol: true
-    link: https://doc.samsungmobile.com/SM-P610/XEH/doc.html
-
 -   releaseCycle: "galaxy-a11"
     releaseLabel: "Galaxy A11"
     releaseDate: 2020-05-15
@@ -1336,13 +1203,6 @@ releases:
     eoas: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
     eol: true
     link: https://doc.samsungmobile.com/SM-G889YB/DBT/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.4-2020"
-    releaseLabel: "Galaxy Tab A 8.4 (2020)" # Yeah we need to specify the year here, multiple models from different years with the same name.
-    releaseDate: 2020-03-25
-    eoas: 2022-03-25
-    eol: true
-    link: https://doc.samsungmobile.com/sm-t307u/glw/doc.html
 
 -   releaseCycle: "galaxy-m21"
     releaseLabel: "Galaxy M21"
@@ -1414,13 +1274,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-F700F/XEH/doc.html
 
--   releaseCycle: "galaxy-tab-s6-5g"
-    releaseLabel: "Galaxy Tab S6 5G"
-    releaseDate: 2020-01-30
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/sm-t866n/koo/doc.html
-
 -   releaseCycle: "galaxy-a71"
     releaseLabel: "Galaxy A71"
     releaseDate: 2020-01-17
@@ -1483,13 +1336,6 @@ releases:
     eoas: true
     eol: true
     link: https://doc.samsungmobile.com/SM-A207F/XEH/doc.html
-
--   releaseCycle: "galaxy-tab-active-pro"
-    releaseLabel: "Galaxy Tab Active Pro"
-    releaseDate: 2019-10-01
-    eoas: 2022-10-01 # Approximate from here: https://9to5google.com/2022/10/04/samsung-android-12-update-rollout/
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T540/XEH/doc.html
 
 -   releaseCycle: "galaxy-a30s"
     releaseLabel: "Galaxy A30s"
@@ -1561,13 +1407,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-N970F/XEF/doc.html
 
--   releaseCycle: "galaxy-tab-s6"
-    releaseLabel: "Galaxy Tab S6"
-    releaseDate: 2019-08-01
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T860/XAR/doc.html
-
 -   releaseCycle: "galaxy-note10+-5g"
     releaseLabel: "Galaxy Note10+ 5G"
     releaseDate: 2019-08-01 # Approximate to the month and year.
@@ -1581,13 +1420,6 @@ releases:
     eoas: true
     eol: true
     link: https://doc.samsungmobile.com/sm-n971n/koo/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.0-2019"
-    releaseLabel: "Galaxy Tab A 8.0 (2019)"
-    releaseDate: 2019-07-01
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T290/008916190830/mlt.html
 
 -   releaseCycle: "galaxy-xcover-4s"
     releaseLabel: "Galaxy Xcover 4s"
@@ -1651,27 +1483,6 @@ releases:
     eoas: true
     eol: 2021-12-31
     link: null
-
--   releaseCycle: "galaxy-tab-s5e"
-    releaseLabel: "Galaxy Tab S5e"
-    releaseDate: 2019-04-01
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T725/XEO/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.0-with-s-pen-2019"
-    releaseLabel: "Galaxy Tab A 8.0 with S Pen (2019)"
-    releaseDate: 2019-04-01
-    eoas: true
-    eol: 2021-11-17
-    link: https://doc.samsungmobile.com/sm-p205/xtc/doc.html
-
--   releaseCycle: "galaxy-tab-a-10.1-2019"
-    releaseLabel: "Galaxy Tab A 10.1 (2019)"
-    releaseDate: 2019-04-01
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T515/TMZ/doc.html
 
 -   releaseCycle: "galaxy-a2-core"
     releaseLabel: "Galaxy A2 Core"
@@ -1757,13 +1568,6 @@ releases:
     eol: true
     link: https://doc.samsungmobile.com/SM-G8870/TGY/doc.html
 
--   releaseCycle: "galaxy-tab-advanced2"
-    releaseLabel: "Galaxy Tab Advanced2"
-    releaseDate: 2018-12-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T583/KOO/doc.html
-
 -   releaseCycle: "galaxy-j4-core"
     releaseLabel: "Galaxy J4 Core"
     releaseDate: 2018-11-01
@@ -1806,33 +1610,12 @@ releases:
     eol: 2022-07-01
     link: https://doc.samsungmobile.com/SM-A750GN/XXV/doc.html
 
--   releaseCycle: "galaxy-tab-a-8.0-2018"
-    releaseLabel: "Galaxy Tab A 8.0 (2018)"
-    releaseDate: 2018-09-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-A530F/FTM/doc.html
-
 -   releaseCycle: "galaxy-note-9"
     releaseLabel: "Galaxy Note 9"
     releaseDate: 2018-08-24
     eoas: true
     eol: 2022-07-01
     link: https://doc.samsungmobile.com/sm-n960f/dbt/doc.html
-
--   releaseCycle: "galaxy-tab-s4-10.5"
-    releaseLabel: "Galaxy Tab S4 10.5"
-    releaseDate: 2018-08-01
-    eoas: true
-    eol: 2022-06-01
-    link: https://doc.samsungmobile.com/SM-T830/XAR/doc.html
-
--   releaseCycle: "galaxy-tab-a-10.5-2018"
-    releaseLabel: "Galaxy Tab A 10.5 (2018)"
-    releaseDate: 2018-08-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2022-06-01
-    link: https://doc.samsungmobile.com/SM-T595/SER/doc.html
 
 -   releaseCycle: "galaxy-j2-core"
     releaseLabel: "Galaxy J2 Core"
@@ -1974,13 +1757,6 @@ releases:
     eol: 2019-10-01
     link: https://doc.samsungmobile.com/SM-J250Y/ITV/doc.html
 
--   releaseCycle: "galaxy-tab-active2"
-    releaseLabel: "Galaxy Tab Active2"
-    releaseDate: 2017-10-20
-    eoas: true
-    eol: 2021-11-17
-    link: https://doc.samsungmobile.com/SM-T395/DBT/doc.html
-
 -   releaseCycle: "galaxy-j2-2017"
     releaseLabel: "Galaxy J2 (2017)"
     releaseDate: 2017-10-01 # Approximate to the month and year.
@@ -2008,13 +1784,6 @@ releases:
     eoas: true
     eol: 2021-11-17
     link: https://doc.samsungmobile.com/sm-n950f/dbt/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.0-2017"
-    releaseLabel: "Galaxy Tab A 8.0 (2017)"
-    releaseDate: 2017-09-01
-    eoas: true
-    eol: 2021-11-17
-    link: https://doc.samsungmobile.com/SM-T380/COO/doc.html
 
 -   releaseCycle: "galaxy-s8-active"
     releaseLabel: "Galaxy S8 Active"
@@ -2113,13 +1882,6 @@ releases:
     eoas: true
     eol: 2019-06-01
     link: https://doc.samsungmobile.com/SM-G390F/ATO/doc.html
-
--   releaseCycle: "galaxy-tab-s3-9.7"
-    releaseLabel: "Galaxy Tab S3 9.7"
-    releaseDate: 2017-04-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2019-04-01
-    link: https://doc.samsungmobile.com/SM-T825Y/XXV/doc.html
 
 -   releaseCycle: "galaxy-j7-v"
     releaseLabel: "Galaxy J7 V"
@@ -2275,13 +2037,6 @@ releases:
     eol: true
     link: null
 
--   releaseCycle: "galaxy-tab-j"
-    releaseLabel: "Galaxy Tab J"
-    releaseDate: 2016-08-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
 -   releaseCycle: "galaxy-j-max"
     releaseLabel: "Galaxy J Max"
     releaseDate: 2016-08-01 # Approximate to the month and year.
@@ -2366,13 +2121,6 @@ releases:
     eol: 2019-02-01
     link: https://doc.samsungmobile.com/SM-A910F/INS/doc.html
 
--   releaseCycle: "galaxy-tab-a-10.1-2016"
-    releaseLabel: "Galaxy Tab A 10.1 (2016)"
-    releaseDate: 2016-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2020-04-01
-    link: https://doc.samsungmobile.com/SM-T580/ATO/doc.html
-
 -   releaseCycle: "galaxy-xcover3-g389f"
     releaseLabel: "Galaxy Xcover3 G389F"
     releaseDate: 2016-04-01 # Approximate to the month and year.
@@ -2422,13 +2170,6 @@ releases:
     eol: 2019-06-01
     link: https://doc.samsungmobile.com/SM-G930F/CHL/doc.html
 
--   releaseCycle: "galaxy-tab-a-7.0-2016"
-    releaseLabel: "Galaxy Tab A 7.0 (2016)"
-    releaseDate: 2016-03-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2016-12-30
-    link: https://doc.samsungmobile.com/SM-T280/KOO/doc.html
-
 -   releaseCycle: "galaxy-j1-nxt"
     releaseLabel: "Galaxy J1 Nxt"
     releaseDate: 2016-02-01 # Approximate to the month and year.
@@ -2449,13 +2190,6 @@ releases:
     eoas: true
     eol: true
     link: null
-
--   releaseCycle: "galaxy-tab-e-8.0"
-    releaseLabel: "Galaxy Tab E 8.0"
-    releaseDate: 2016-01-01
-    eoas: true
-    eol: 2020-11-10
-    link: https://doc.samsungmobile.com/SM-A710S/SKC/doc.html
 
 -   releaseCycle: "galaxy-a7-2016"
     releaseLabel: "Galaxy A7 (2016)"
@@ -2533,20 +2267,6 @@ releases:
     eoas: true
     eol: 2018-03-26
     link: https://doc.samsungmobile.com/SM-R720/CHC/doc.html
-
--   releaseCycle: "galaxy-tab-s2-9.7"
-    releaseLabel: "Galaxy Tab S2 9.7"
-    releaseDate: 2015-09-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2019-07-01
-    link: https://doc.samsungmobile.com/SM-T819Y/INS/doc.html
-
--   releaseCycle: "galaxy-tab-s2-8.0"
-    releaseLabel: "Galaxy Tab S2 8.0"
-    releaseDate: 2015-09-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2019-07-01
-    link: https://doc.samsungmobile.com/SM-T713/BTU/doc.html
 
 -   releaseCycle: "galaxy-j2"
     releaseLabel: "Galaxy J2"
@@ -2646,20 +2366,6 @@ releases:
     eol: true
     link: null
 
--   releaseCycle: "galaxy-tab-e-9.6"
-    releaseLabel: "Galaxy Tab E 9.6"
-    releaseDate: 2015-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-a-9.7-and-s-pen"
-    releaseLabel: "Galaxy Tab A 9.7 & S Pen"
-    releaseDate: 2015-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-P555/XXV/doc.html
-
 -   releaseCycle: "galaxy-s4-mini-i9195i"
     releaseLabel: "Galaxy S4 mini I9195I"
     releaseDate: 2015-06-01 # Approximate to the month and year.
@@ -2677,34 +2383,6 @@ releases:
 -   releaseCycle: "galaxy-s6-duos"
     releaseLabel: "Galaxy S6 Duos"
     releaseDate: 2015-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-a-9.7"
-    releaseLabel: "Galaxy Tab A 9.7"
-    releaseDate: 2015-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-P550/XSA/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.0-and-s-pen-2015"
-    releaseLabel: "Galaxy Tab A 8.0 & S Pen (2015)"
-    releaseDate: 2015-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-P355/XXV/doc.html
-
--   releaseCycle: "galaxy-tab-a-8.0-2015"
-    releaseLabel: "Galaxy Tab A 8.0 (2015)"
-    releaseDate: 2015-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-T355/SER/doc.html
-
--   releaseCycle: "galaxy-tab-3-v"
-    releaseLabel: "Galaxy Tab 3 V"
-    releaseDate: 2015-04-01 # Approximate to the month and year.
     eoas: true
     eol: true
     link: null
@@ -2746,13 +2424,6 @@ releases:
 
 -   releaseCycle: "galaxy-j1-4g"
     releaseLabel: "Galaxy J1 4G"
-    releaseDate: 2015-03-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-3-lite-7.0-ve"
-    releaseLabel: "Galaxy Tab 3 Lite 7.0 VE"
     releaseDate: 2015-03-01 # Approximate to the month and year.
     eoas: true
     eol: true
@@ -2816,20 +2487,6 @@ releases:
 
 -   releaseCycle: "galaxy-a3"
     releaseLabel: "Galaxy A3"
-    releaseDate: 2014-12-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-active-lte"
-    releaseLabel: "Galaxy Tab Active LTE"
-    releaseDate: 2014-12-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-active"
-    releaseLabel: "Galaxy Tab Active"
     releaseDate: 2014-12-01 # Approximate to the month and year.
     eoas: true
     eol: true
@@ -3052,34 +2709,6 @@ releases:
     eol: 2017-01-04
     link: https://doc.samsungmobile.com/sm-g906s/skc/doc.html
 
--   releaseCycle: "galaxy-tab-s-8.4-lte"
-    releaseLabel: "Galaxy Tab S 8.4 LTE"
-    releaseDate: 2014-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2016-12-01
-    link: https://doc.samsungmobile.com/SM-T705/INS/doc.html
-
--   releaseCycle: "galaxy-tab-s-8.4"
-    releaseLabel: "Galaxy Tab S 8.4"
-    releaseDate: 2014-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-T700/BTU/doc.html
-
--   releaseCycle: "galaxy-tab-s-10.5-lte"
-    releaseLabel: "Galaxy Tab S 10.5 LTE"
-    releaseDate: 2014-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2016-12-01
-    link: https://doc.samsungmobile.com/SM-T805/ATO/doc.html
-
--   releaseCycle: "galaxy-tab-s-10.5"
-    releaseLabel: "Galaxy Tab S 10.5"
-    releaseDate: 2014-07-01 # Approximate to the month and year.
-    eoas: true
-    eol: 2017-08-01
-    link: https://doc.samsungmobile.com/SM-T800/ATO/doc.html
-
 -   releaseCycle: "galaxy-beam2"
     releaseLabel: "Galaxy Beam2"
     releaseDate: 2014-07-01 # Approximate to the month and year.
@@ -3115,48 +2744,6 @@ releases:
     eol: true
     link: null
 
--   releaseCycle: "galaxy-tab-4-8.0"
-    releaseLabel: "Galaxy Tab 4 8.0"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T330/KSA/doc.html
-
--   releaseCycle: "galaxy-tab-4-8.0-3g"
-    releaseLabel: "Galaxy Tab 4 8.0 3G"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-4-8.0-lte"
-    releaseLabel: "Galaxy Tab 4 8.0 LTE"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-4-10.1"
-    releaseLabel: "Galaxy Tab 4 10.1"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: https://doc.samsungmobile.com/SM-T530/KOO/doc.html
-
--   releaseCycle: "galaxy-tab-4-10.1-3g"
-    releaseLabel: "Galaxy Tab 4 10.1 3G"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-4-10.1-lte"
-    releaseLabel: "Galaxy Tab 4 10.1 LTE"
-    releaseDate: 2014-06-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
 -   releaseCycle: "galaxy-s5-duos"
     releaseLabel: "Galaxy S5 Duos"
     releaseDate: 2014-06-01 # Approximate to the month and year.
@@ -3185,27 +2772,6 @@ releases:
     eol: true
     link: null
 
--   releaseCycle: "galaxy-tab-4-7.0"
-    releaseLabel: "Galaxy Tab 4 7.0"
-    releaseDate: 2014-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-4-7.0-3g"
-    releaseLabel: "Galaxy Tab 4 7.0 3G"
-    releaseDate: 2014-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-4-7.0-lte"
-    releaseLabel: "Galaxy Tab 4 7.0 LTE"
-    releaseDate: 2014-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
 -   releaseCycle: "galaxy-core-lte"
     releaseLabel: "Galaxy Core LTE"
     releaseDate: 2014-05-01 # Approximate to the month and year.
@@ -3215,13 +2781,6 @@ releases:
 
 -   releaseCycle: "galaxy-star-trios-s5283"
     releaseLabel: "Galaxy Star Trios S5283"
-    releaseDate: 2014-05-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-pro-12.2-lte"
-    releaseLabel: "Galaxy Tab Pro 12.2 LTE"
     releaseDate: 2014-05-01 # Approximate to the month and year.
     eoas: true
     eol: true
@@ -3262,13 +2821,6 @@ releases:
     eol: 2017-04-01
     link: https://doc.samsungmobile.com/SM-G900H/XXV/doc.html
 
--   releaseCycle: "galaxy-tab-pro-12.2-3g"
-    releaseLabel: "Galaxy Tab Pro 12.2 3G"
-    releaseDate: 2014-04-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
 -   releaseCycle: "g3812b-galaxy-s3-slim"
     releaseLabel: "G3812B Galaxy S3 Slim"
     releaseDate: 2014-03-01 # Approximate to the month and year.
@@ -3297,13 +2849,6 @@ releases:
     eol: true
     link: null
 
--   releaseCycle: "galaxy-tab-pro-12.2"
-    releaseLabel: "Galaxy Tab Pro 12.2"
-    releaseDate: 2014-03-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
 -   releaseCycle: "galaxy-note-3-neo-duos"
     releaseLabel: "Galaxy Note 3 Neo Duos"
     releaseDate: 2014-02-01 # Approximate to the month and year.
@@ -3317,20 +2862,6 @@ releases:
     eoas: true
     eol: true
     link: https://doc.samsungmobile.com/SM-N750K/KTC/doc.html
-
--   releaseCycle: "galaxy-tab-3-lite-7.0-3g"
-    releaseLabel: "Galaxy Tab 3 Lite 7.0 3G"
-    releaseDate: 2014-02-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
-
--   releaseCycle: "galaxy-tab-3-lite-7.0"
-    releaseLabel: "Galaxy Tab 3 Lite 7.0"
-    releaseDate: 2014-02-01 # Approximate to the month and year.
-    eoas: true
-    eol: true
-    link: null
 
 -   releaseCycle: "galaxy-grand-neo"
     releaseLabel: "Galaxy Grand Neo"
@@ -3356,21 +2887,21 @@ releases:
 ---
 
 > Samsung Galaxy is a series of computing and mobile computing devices that are designed,
-> manufactured and marketed by Samsung Electronics.
+> manufactured, and marketed by Samsung Electronics.
 
-Samsung devices usually have four support brackets in which a device receives support. Which bracket
-your device falls under [can be found here](https://security.samsungmobile.com/workScope.smsb).
+{: .note}
+Some release dates may vary depending on the country or region.
+Most Android upgrades or security update dates are approximate to the year.
 
-* **Active Android support:** This bracket provides a device with new Android versions as they come
-  out. This bracket also with limited exceptions provides monthly security updates. This covers a
-  device for up to two years after launch, averaging a year.
+Samsung Mobile devices have two levels of support: Android upgrades and security updates.
 
-* **Quarterly Security Updates**: This bracket provides a device with quarterly security update.
-  This bracket takes over once monthly updates have ended, it usually lasts a year.
+Android upgrades refer to updates that provide a device with newer major releases of the Android operating system.
+These upgrades typically include new features, improvements to performance and security, and enhancements to the user interface.
+Android upgrades ensure that devices remain compatible with the latest apps and benefit from ongoing development by Google and Samsung.
 
-* **Biannual Security Updates**: This bracket provides a device with biannual security update. This
-  bracket takes over once quarterly updates have ended, it usually lasts an additional year, or
-  until four years have passed since the device has been released.
+Security updates refer to updates that address vulnerabilities and security issues in the Android operating system. They
+are essential for maintaining the security and privacy of a device, and may occur monthly, quarterly, or biannually
+depending on the model and its age.
 
-**Note** 1: Some dates are based on when support status was changed on the Samsung website — they might be approximate.
-**Note** 2: Some release dates may vary depending on the country or region.
+Guaranteed Android upgrades are provided for a limited period, which is usually less (but never more) than the device's security update period.
+How many Android upgrades a device receives depends on the model.
