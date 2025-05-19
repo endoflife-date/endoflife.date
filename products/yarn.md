@@ -29,7 +29,7 @@ releases:
 
 -   releaseCycle: "3"
     releaseDate: 2021-07-26
-    eol: false # still not clear, will wait until there is no more updates
+    eol: false # still not clear, will wait until there are no more updates
     latest: '3.8.7'
     latestReleaseDate: 2024-12-04
 
