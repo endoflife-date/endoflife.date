@@ -19,7 +19,7 @@ auto:
         biannually: Current Models for Biannual Security Updates
       regex: '^galaxy-tab.+$'
       regex_exclude:
-      - '^galaxy-tab-a7-10.4-2022$' # still available, according to https://www.gsmarena.com/samsung_galaxy_tab_a7_10_4_(2022)-11988.php
+      -   '^galaxy-tab-a7-10.4-2022$' # still available, according to https://www.gsmarena.com/samsung_galaxy_tab_a7_10_4_(2022)-11988.php
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support
@@ -190,7 +190,7 @@ releases:
     releaseLabel: "Galaxy Tab Active3"
     releaseDate: 2020-09-28 # https://news.samsung.com/global/samsung-announces-the-galaxy-tab-active3-a-smart-new-tablet-built-for-demanding-environments
     eoas: 2022-09-28 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: 2024-09-28 # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
+    eol: false      # https://9to5google.com/2021/02/22/samsung-security-updates-policy-four-years/
     link: https://doc.samsungmobile.com/SM-T575/XEF/doc.html
 
 -   releaseCycle: "galaxy-tab-a7-10.4-2020"
