@@ -34,7 +34,7 @@ releases:
     releaseDate: 2025-05-20
     eoas: 2030-05-31
     eol: 2035-05-31
-    lts: 2035-05-31
+    lts: true
     eoes: 2038-05-31
     latest: "10.0"
     latestReleaseDate: 2025-05-20
