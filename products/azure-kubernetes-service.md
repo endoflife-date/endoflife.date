@@ -14,6 +14,11 @@ eolColumn: End of Support
 # Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
 releases:
+-   releaseCycle: "1.32"
+    releaseDate: 2025-04-06
+    eol: 2026-03-31
+    link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
+
 -   releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eol: 2025-11-30
