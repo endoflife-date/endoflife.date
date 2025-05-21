@@ -31,7 +31,6 @@ releases:
     latestReleaseDate: 2025-05-20
     link: https://almalinux.org/blog/2025-05-20-almalinux_96_release/
 
-
 -   releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
     releaseDate: 2021-03-30
