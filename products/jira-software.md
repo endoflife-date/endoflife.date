@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "10.6"
     releaseDate: 2025-04-23
     eol: 2027-04-23
-    latest: "10.6.0"
-    latestReleaseDate: 2025-04-23
+    latest: "10.6.1"
+    latestReleaseDate: 2025-05-20
     link: https://confluence.atlassian.com/jirasoftware/jira-software-10-6-x-release-notes-1541080745.html
 
 -   releaseCycle: "10.5"
