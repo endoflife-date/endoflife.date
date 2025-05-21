@@ -145,8 +145,8 @@ releases:
 -   releaseCycle: "python3.9"
     releaseLabel: Python 3.9
     releaseDate: 2021-08-16
-    eoas: 2025-11-03
-    eol: 2026-01-08
+    eoas: 2025-12-15
+    eol: 2026-02-15
     link: https://aws.amazon.com/blogs/compute/python-3-9-runtime-now-available-in-aws-lambda/
 
 -   releaseCycle: "nodejs14.x"
