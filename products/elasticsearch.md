@@ -28,6 +28,7 @@ releases:
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.0.1"
     latestReleaseDate: 2025-04-30
+    link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.0.1-release-notes
 
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
