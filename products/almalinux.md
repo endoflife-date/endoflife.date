@@ -29,7 +29,7 @@ releases:
     eol: 2032-05-31
     latest: "9.6"
     latestReleaseDate: 2025-05-20
-    link: https://almalinux.org/blog/2024-11-18-announcing-95-stable/
+    link: https://almalinux.org/blog/2025-05-20-almalinux_96_release/
 
 -   releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
