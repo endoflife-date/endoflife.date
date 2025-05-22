@@ -51,6 +51,14 @@ releases:
     link: https://support.apple.com/119891
     supportedIpadOsVersions: "17, 18"
 
+-   releaseCycle: "air-6-m2"
+    releaseLabel: "iPad Air 11-inch (M2)"
+    releaseDate: 2024-05-15
+    discontinued: 2025-03-04
+    eol: false
+    link: https://support.apple.com/119894
+    supportedIpadOsVersions: "17, 18"
+
 -   releaseCycle: "air-6"
     releaseLabel: "iPad Air (6th generation)"
     releaseDate: 2024-05-15
