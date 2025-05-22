@@ -101,6 +101,7 @@ releases:
     eol: 2018-06-15
     latest: "2.8.11"
     latestReleaseDate: 2016-07-13
+    link: null
 
 ---
 
