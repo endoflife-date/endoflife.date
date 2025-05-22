@@ -1,4 +1,4 @@
-___
+---
 title: Veritas NetBackup Appliance OS
 category: os
 iconSlug: veritas
@@ -225,7 +225,7 @@ releases:
       eoes: 2021-05-06
       eol: 2022-01-31
 
-___
+---
 
 > [Veritas NetBackup](https://www.veritas.com/protection/netbackup) is an enterprise-level data protection and backup solution
 
