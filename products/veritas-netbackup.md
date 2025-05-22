@@ -219,7 +219,7 @@ releases:
       eoas: 2020-10-01
       eoes: 2021-05-06
       eol: 2022-01-31
-   - releaseCycle: "2.7.1"
+    - releaseCycle: "2.7.1"
       releaseDate: 2015-12-06
       eoas: 2020-10-01
       eoes: 2021-05-06
