@@ -19,6 +19,7 @@ releases:
     eol: false
     latest: "5.1.0"
     latestReleaseDate: 2025-03-28
+    link: https://github.com/expressjs/express/releases/tag/v__LATEST__
 
 -   releaseCycle: "4"
     releaseDate: 2014-04-09
