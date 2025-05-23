@@ -17,9 +17,6 @@ customFields:
 -   name: apiVersion
     display: after-release-column
     label: API Version
--   property: versionCode
-    position: after-release-column
-    label: Version Code
 
 identifiers:
 -   cpe: cpe:/o:google:android
@@ -29,28 +26,24 @@ identifiers:
 releases:
 -   releaseCycle: "15"
     apiVersion: "35"
-    versionCode: "VANILLA_ICE_CREAM"
     codename: Vanilla Ice Cream
     releaseDate: 2024-09-03
     eol: false
 
 -   releaseCycle: "14"
     apiVersion: "34"
-    versionCode: "UPSIDE_DOWN_CAKE"
     codename: Upside Down Cake
     releaseDate: 2023-10-04
     eol: false
 
 -   releaseCycle: "13"
     apiVersion: "33"
-    versionCode: "TIRAMISU"
     codename: Tiramisu
     releaseDate: 2022-08-15
     eol: false
 
 -   releaseCycle: "12.1"
     apiVersion: "32"
-    versionCode: "S_V2"
     codename: Snow Cone v2
     releaseLabel: 12.1 'Snow Cone v2' (aka 12L)
     releaseDate: 2022-03-07
@@ -59,28 +52,24 @@ releases:
 
 -   releaseCycle: "12"
     apiVersion: "31"
-    versionCode: "S"
     codename: Snow Cone
     releaseDate: 2021-10-04
     eol: 2025-03-03
 
 -   releaseCycle: "11"
     apiVersion: "30"
-    versionCode: "R"
     codename: Red Velvet Cake
     releaseDate: 2020-09-08
     eol: 2024-02-05
 
 -   releaseCycle: "10"
     apiVersion: "29"
-    versionCode: "Q"
     codename: Queen Cake
     releaseDate: 2019-09-03
     eol: 2023-03-06
 
 -   releaseCycle: "9"
     apiVersion: "28"
-    versionCode: "P"
     codename: Pie
     releaseDate: 2018-08-06
     eol: 2022-01-01
@@ -88,7 +77,6 @@ releases:
 
 -   releaseCycle: "8.1"
     apiVersion: "27"
-    versionCode: "O_MR1"
     codename: Oreo
     releaseDate: 2017-12-05
     eol: 2021-01-10
@@ -96,7 +84,6 @@ releases:
 
 -   releaseCycle: "8.0"
     apiVersion: "26"
-    versionCode: "O"
     codename: Oreo
     releaseDate: 2017-08-21
     eol: 2021-01-01
@@ -104,7 +91,6 @@ releases:
 
 -   releaseCycle: "7.1"
     apiVersion: "25"
-    versionCode: "N_MR1"
     codename: Nougat
     releaseDate: 2016-12-01
     eol: 2019-10-01
@@ -112,7 +98,6 @@ releases:
 
 -   releaseCycle: "7.0"
     apiVersion: "24"
-    versionCode: "N"
     codename: Nougat
     releaseDate: 2016-08-22
     eol: 2019-10-01
@@ -120,7 +105,6 @@ releases:
 
 -   releaseCycle: "6.0"
     apiVersion: "23"
-    versionCode: "M"
     codename: Marshmallow
     releaseDate: 2015-10-05
     eol: 2018-08-01
@@ -128,7 +112,6 @@ releases:
 
 -   releaseCycle: "5.1"
     apiVersion: "22"
-    versionCode: "LOLLIPOP_MR1"
     codename: Lollipop
     releaseDate: 2015-03-01
     eol: 2018-03-01
@@ -136,7 +119,6 @@ releases:
 
 -   releaseCycle: "5.0"
     apiVersion: "21"
-    versionCode: "LOLLIPOP, L"
     codename: Lollipop
     releaseDate: 2014-11-12
     eol: 2018-03-01
@@ -144,7 +126,6 @@ releases:
 
 -   releaseCycle: "4.4w"
     releaseLabel: "4.4W"
-    versionCode: "KITKAT_WATCH"
     apiVersion: "20"
     codename: KitKatW
     releaseDate: 2014-03-31
@@ -153,7 +134,6 @@ releases:
 
 -   releaseCycle: "4.4"
     apiVersion: "19"
-    versionCode: "KITKAT"
     codename: KitKat
     releaseDate: 2013-10-31
     eol: 2017-10-01
@@ -161,7 +141,6 @@ releases:
 
 -   releaseCycle: "4.3"
     apiVersion: "18"
-    versionCode: "JELLY_BEAN_MR2"
     codename: Jelly Bean
     releaseDate: 2013-07-24
     eol: true
@@ -169,7 +148,6 @@ releases:
 
 -   releaseCycle: "4.2"
     apiVersion: "17"
-    versionCode: "JELLY_BEAN_MR1"
     codename: Jelly Bean
     releaseDate: 2012-11-13
     eol: true
@@ -177,7 +155,6 @@ releases:
 
 -   releaseCycle: "4.1"
     apiVersion: "16"
-    versionCode: "JELLY_BEAN"
     codename: Jelly Bean
     releaseDate: 2012-07-09
     eol: true
@@ -185,7 +162,6 @@ releases:
 
 -   releaseCycle: "4.0"
     apiVersion: "14-15"
-    versionCode: "ICE_CREAM_SANDWICH_MR1, ICE_CREAM_SANDWICH"
     codename: Ice Cream Sandwich
     releaseDate: 2011-10-18
     eol: true
@@ -193,7 +169,6 @@ releases:
 
 -   releaseCycle: "3.2"
     apiVersion: "13"
-    versionCode: "HONEYCOMB_MR2"
     codename: Honeycomb
     releaseDate: 2011-07-15
     eol: true
@@ -201,7 +176,6 @@ releases:
 
 -   releaseCycle: "3.1"
     apiVersion: "12"
-    versionCode: "HONEYCOMB_MR1"
     codename: Honeycomb
     releaseDate: 2011-05-10
     eol: true
@@ -209,7 +183,6 @@ releases:
 
 -   releaseCycle: "3.0"
     apiVersion: "11"
-    versionCode: "HONEYCOMB"
     codename: Honeycomb
     releaseDate: 2011-02-22
     eol: true
@@ -217,7 +190,6 @@ releases:
 
 -   releaseCycle: "2.3"
     apiVersion: "9-10"
-    versionCode: "GINGERBREAD_MR1, GINGERBREAD"
     codename: Gingerbread
     releaseDate: 2010-12-06
     eol: true
@@ -225,7 +197,6 @@ releases:
 
 -   releaseCycle: "2.2"
     apiVersion: "8"
-    versionCode: "FROYO"
     codename: Froyo
     releaseDate: 2010-05-20
     eol: true
@@ -233,7 +204,6 @@ releases:
 
 -   releaseCycle: "2.1"
     apiVersion: "7"
-    versionCode: "ECLAIR_MR1"
     codename: Eclair
     releaseDate: 2010-01-11
     eol: true
@@ -241,7 +211,6 @@ releases:
 
 -   releaseCycle: "2.0"
     apiVersion: "5-6"
-    versionCode: "ECLAIR_0_1, ECLAIR"
     codename: Eclair
     releaseDate: 2009-10-26
     eol: true
@@ -249,7 +218,6 @@ releases:
 
 -   releaseCycle: "1.6"
     apiVersion: "4"
-    versionCode: "DONUT"
     codename: Donut
     releaseDate: 2009-09-15
     eol: true
@@ -257,7 +225,6 @@ releases:
 
 -   releaseCycle: "1.5"
     apiVersion: "3"
-    versionCode: "CUPCAKE"
     codename: Cupcake
     releaseDate: 2009-04-27
     eol: true
@@ -265,7 +232,6 @@ releases:
 
 -   releaseCycle: "1.1"
     apiVersion: "2"
-    versionCode: "BASE_1_1"
     codename: Petit Four
     releaseDate: 2009-02-09
     eol: true
@@ -273,7 +239,6 @@ releases:
 
 -   releaseCycle: "1.0"
     apiVersion: "1"
-    versionCode: "BASE"
     releaseLabel: "1.0"
     releaseDate: 2008-09-23
     eol: true
