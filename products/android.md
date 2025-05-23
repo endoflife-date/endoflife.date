@@ -17,7 +17,7 @@ customFields:
 -   name: apiVersion
     display: after-release-column
     label: API Version
--   property: versionCode
+-   name: versionCode
     position: after-release-column
     label: Version Code
 
