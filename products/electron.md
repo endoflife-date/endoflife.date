@@ -43,8 +43,8 @@ releases:
 -   releaseCycle: "36"
     releaseDate: 2025-04-29
     eol: 2025-10-28
-    latest: "36.2.1"
-    latestReleaseDate: 2025-05-15
+    latest: "36.3.1"
+    latestReleaseDate: 2025-05-23
     chromeVersion: "M136"
     nodeVersion: "22.15" # https://releases.electronjs.org/
 
@@ -319,6 +319,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8.9"
+
 
 
 
