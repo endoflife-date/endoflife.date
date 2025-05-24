@@ -47,7 +47,7 @@ releases:
     eol: 2025-06-30
     latest: "3007.2"
     latestReleaseDate: 2025-05-14
-    link: https://docs.saltproject.io/en/latest/topics/releases/__LATEST__.html
+    link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
 
 -   releaseCycle: "3006"
     lts: true
