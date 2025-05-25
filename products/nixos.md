@@ -17,21 +17,26 @@ identifiers:
 -   cpe: cpe:2.3:o:nixos:nixos
 
 releases:
+-   releaseCycle: "25.05"
+    codename: "Warbler"
+    releaseDate: 2025-05-23
+    eol: 2025-12-31
+
 -   releaseCycle: "24.11"
     codename: "Vicuña"
     releaseDate: 2024-11-30
     eol: 2025-06-30
-    
+
 -   releaseCycle: "24.05"
     codename: "Uakari"
     releaseDate: 2024-05-31
     eol: 2024-12-31
-    
+
 -   releaseCycle: "23.11"
     codename: "Tapir"
     releaseDate: 2023-11-29
     eol: 2024-06-30
-    
+
 -   releaseCycle: "23.05"
     codename: "Stoat"
     releaseDate: 2023-05-31
