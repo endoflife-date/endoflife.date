@@ -18,13 +18,21 @@ eoasColumn: true
 eoesColumn: true
 
 releases:
+-   releaseCycle: "2503"
+    releaseDate: 2025-05-13
+    eoas: 2025-11-13
+    eol: 2025-11-13
+    latest: "2403"
+    latestReleaseDate: 2025-05-13
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+
 -   releaseCycle: "2411"
     releaseDate: 2024-12-03
     eoas: 2025-06-03
     eol: 2026-06-03
     latest: "2411"
     latestReleaseDate: 2024-12-03
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2411/whats-new # 
 
 -   releaseCycle: "2407"
     releaseDate: 2024-07-31
@@ -32,6 +40,7 @@ releases:
     eol: 2025-12-31
     latest: "2407"
     latestReleaseDate: 2024-07-31
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2407/whats-new
 
 -   releaseCycle: "2402"
     releaseDate: 2024-04-15
