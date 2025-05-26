@@ -23,7 +23,7 @@ releases:
   releaseLabel: "Motorola Moto E15"
   releaseDate: 2024-12-01
   eol: 2026-12-01 # 2 years (until 12/2026) - https://www.motorola.com/gb/en/p/phones/moto-e/15/pmipmhk40mb?pn=PB6S0012GB
-  link: https://en-us.support.motorola.com/app/software-security-update/g_id/#gs=eyJndWlkZUlEIjo3MTEyLCJxdWVzdGlvbklEIjo1LCJyZXNwb25zZUlEIjoxNzQsImd1aWRlU2Vzc2lvbiI6ImlJYm5jbzNyIiwic2Vzc2lvbklEIjoiNExRV2FvM3IifQ..
+  link: https://en-us.support.motorola.com/app/product_page/faqs/p/10395
 
 - releaseCycle: "moto-e14"
   releaseLabel: "Motorola Moto E14"
