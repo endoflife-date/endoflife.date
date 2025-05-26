@@ -29,7 +29,7 @@ releases:
   releaseLabel: "Motorola Moto E14"
   releaseDate: 2024-04-01
   eol: 2026-04-01
-  link: https://en-us.support.motorola.com/app/software-security-update/g_id/#gs=eyJndWlkZUlEIjo3MTEyLCJxdWVzdGlvbklEIjo1LCJyZXNwb25zZUlEIjoxMjgsImd1aWRlU2Vzc2lvbiI6ImlJYm5jbzNyIiwic2Vzc2lvbklEIjoiNExRV2FvM3IifQ..
+  link: https://en-us.support.motorola.com/app/product_page/faqs/p/10216
 
 
 - releaseCycle: "motorola-razr-40s"
