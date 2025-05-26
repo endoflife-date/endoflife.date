@@ -20,6 +20,14 @@ auto:
       regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
+  -   releaseCycle: "25"
+      releaseDate: 2025-01-06
+      eoas: false
+      eol: false
+      latest: "25.5.0"
+      latestReleaseDate: 2025-05-05
+      link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
+
 -   releaseCycle: "10"
     releaseDate: 2023-03-30
     eoas: false
