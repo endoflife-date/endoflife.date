@@ -28,7 +28,7 @@ releases:
 - releaseCycle: "moto-e14"
   releaseLabel: "Motorola Moto E14"
   releaseDate: 2024-04-01
-  eol: 2026-04-01
+  eol: 2026-04-01 # 2 years (until 04/2026) - https://www.motorola.com/gb/en/p/phones/moto-e/14/pmipmhb38m2?pn=PB3C0002GB
   link: https://en-us.support.motorola.com/app/product_page/faqs/p/10216
 
 
