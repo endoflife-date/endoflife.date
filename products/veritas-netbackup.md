@@ -204,7 +204,7 @@ releases:
     - releaseCycle: "3.1"
       releaseDate: 2017-09-26
       eoas: 2022-06-28
-      eol: fales
+      eol: false
       eoes: 2023-06-28
     - releaseCycle: "3.0"
       releaseDate: 2016-12-04
