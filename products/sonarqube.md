@@ -16,11 +16,11 @@ identifiers:
 
 auto:
   methods:
-  -   git: https://github.com/SonarSource/sonarqube.git
-      regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
+    -   docker_hub: library/sonarqube
+        regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?-(?P<edition>[a-zA-Z-]+)$
 
 releases:
-  -   releaseCycle: "25"
+-     releaseCycle: "25"
       releaseDate: 2025-01-06
       eoas: false
       eol: false
