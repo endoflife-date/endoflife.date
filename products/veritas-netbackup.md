@@ -221,7 +221,7 @@ releases:
       eoes: 2024-01-01 
 
     - releaseCycle: "3.3.0.1"
-      releaseLabel "3.3.0.1"
+      releaseLabel: "3.3.0.1"
       releaseDate: 2020-10-05
       eoas: true
       eol: true
