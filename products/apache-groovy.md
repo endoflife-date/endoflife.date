@@ -28,15 +28,15 @@ releases:
     releaseDate: 2022-01-25
     eol: false
     eoas: false
-    latest: "4.0.26"
-    latestReleaseDate: 2025-02-24
+    latest: "4.0.27"
+    latestReleaseDate: 2025-05-24
 
 -   releaseCycle: "3.0"
     releaseDate: 2020-02-10
     eoas: true
     eol: false
-    latest: "3.0.24"
-    latestReleaseDate: 2025-02-27
+    latest: "3.0.25"
+    latestReleaseDate: 2025-05-27
 
 -   releaseCycle: "2.5"
     releaseDate: 2018-05-30
