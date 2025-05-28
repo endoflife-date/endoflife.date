@@ -9,7 +9,8 @@ openapi: 3.1.1
 
 info:
   title: endoflife API
-  version: "1.0.0"
+  # This version must be kept in sync with the version in _plugins/generate-api-v1.rb.
+  version: "1.1.0"
   license:
     name: MIT License
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
@@ -19,6 +20,10 @@ info:
   description: >-
     endoflife.date documents EOL dates and support lifecycles for various products.
     The endoflife API allows users to discover and query for those products.
+
+
+    This API documentation is available at {{ site.url }}/docs/api/v1.
+    The API changelog is available at https://github.com/endoflife-date/endoflife.date/blob/master/CHANGELOG_API.md.
 
 
     Some useful links:
@@ -31,7 +36,6 @@ info:
 
     - [The source API definition](https://github.com/endoflife-date/endoflife.date/blob/master/assets/openapi.yml)
 
-# Replace with your preview URL (such as https://deploy-preview-2080--endoflife-date.netlify.app/api/v1).
 servers:
   - url: "{{ site.url }}/api/v1"
 
@@ -350,6 +354,14 @@ components:
           examples:
             - "cpe"
 
+    UnknownProperties:
+      description: Group properties with name not know in advance, such as custom properties.
+      type: object
+      additionalProperties:
+        type:
+          - string
+          - "null"
+
     ProductVersion:
       description: Information about a product version.
       type: object
@@ -542,6 +554,16 @@ components:
           anyOf:
             - $ref: '#/components/schemas/ProductVersion'
             - type: "null"
+        custom:
+          description: >
+            Custom fields for the product release cycle.
+
+            This field is null when the product does not declare at least one custom fields.
+          anyOf:
+            - $ref: '#/components/schemas/UnknownProperties'
+            - type: "null"
+          examples:
+            - { "chromeVersion": "M136", "nodeVersion": "22.15" }
 
     ProductSummary:
       description: Summary of a product.

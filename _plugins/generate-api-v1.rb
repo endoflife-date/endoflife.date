@@ -18,7 +18,8 @@ require 'jekyll'
 
 module ApiV1
 
-  VERSION = '1.0.0'
+  # This version must be kept in sync with the version in api_v1/openapi.yml.
+  VERSION = '1.1.0'
   MAJOR_VERSION = VERSION.split('.')[0]
 
   STRIP_HTML_BLOCKS = Regexp.union(
@@ -262,7 +263,8 @@ module ApiV1
             name: release['latest'],
             date: release['latestReleaseDate'],
             link: release['link'],
-          }
+          },
+          custom: custom_fields(product, release)
         }
 
         if !product.data['eoasColumn']
@@ -284,6 +286,16 @@ module ApiV1
           json[:latest] = nil
         end
 
+        if product.data['customFields'].empty?
+          json[:custom] = nil
+        end
+
+        json
+      end
+
+      def custom_fields(product, release)
+        json = {}
+        product.data['customFields'].map { |column| column['name'] }.map { |name| json[name] = release[name] }
         json
       end
     end

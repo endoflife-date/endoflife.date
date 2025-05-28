@@ -1,3 +1,8 @@
+## API v1.1.0
+
+- Expose custom releases field values in the API (#7465). Such fields are grouped under the new `custom`
+  field in `ProductRelease`s.
+
 ## API v1.0.0
 
 ### Summary
@@ -83,8 +88,6 @@ rule and [takes precedence](https://docs.netlify.com/routing/redirects/#rule-pro
 - `/api/v1/tags/<tag>`: Get a list of all products having the given tag.
 - `/api/v1/products/full`: Get a list of all products with all their details (including cycles).
   This endpoint provides a dump of nearly all the endoflife.date data.
-
-
 
 ## API v0
 
