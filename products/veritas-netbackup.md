@@ -266,3 +266,7 @@ releases:
       eoes: 2022-01-31
 
 ---
+
+> [Veritas NetBackup](https://www.veritas.com/protection/netbackup) is an enterprise-level data protection and backup solution
+
+Veritas offers full support from general availability for 3 to 4 years. At the end of full/active, support, extended support is available for 1-2 years with no new bug fixes, but access to existing patches and technical help. The final sustaining phase before EOSL lasts for 1 to 6 years with focus on severe service restoration or data retrieval issues.
