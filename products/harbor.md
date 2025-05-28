@@ -53,13 +53,13 @@ releases:
     releaseDate: 2025-04-09
     eol: false
     latest: '2.13.1'
-    latestReleaseDate: 2025-05-20
+    latestReleaseDate: 2025-05-22
 
 -   releaseCycle: "2.12"
     releaseDate: 2024-11-05
     eol: false
-    latest: '2.12.3'
-    latestReleaseDate: 2025-05-06
+    latest: '2.12.4'
+    latestReleaseDate: 2025-05-22
 
 -   releaseCycle: "2.11"
     releaseDate: 2024-06-04

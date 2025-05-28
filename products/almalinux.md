@@ -22,6 +22,15 @@ auto:
       regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d+)$'
 
 releases:
+-   releaseCycle: "10"
+    releaseLabel: "AlmaLinux OS 10"
+    releaseDate: 2025-05-27
+    eoas: 2030-05-31
+    eol: 2035-05-31
+    latest: "10.0"
+    latestReleaseDate: 2025-05-27
+    link: https://almalinux.org/blog/2025-05-27-welcoming-almalinux-10/
+
 -   releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
