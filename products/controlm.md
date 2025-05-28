@@ -17,13 +17,21 @@ identifiers:
 
 # Latest releases can be found on https://docs.bmc.com/docs/controlm/.
 releases:
+-   releaseCycle: "9.0.22"
+    releaseDate: 2025-05-19
+    eoas: 2028-05-19
+    eol: 2030-05-19
+    latest: "9.0.22.000"
+    latestReleaseDate: 2025-05-19
+    link:  https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9022/Control-M-9-0-22-Release-Notes/
+    
 -   releaseCycle: "9.0.21"
     releaseDate: 2022-09-08
     eoas: 2026-09-30
     eol: 2027-09-08
-    latest: "9.0.21.200"
-    latestReleaseDate: 2024-01-08
-    link: https://docs.bmc.com/docs/controlm/90201/control-m-9-0-21-200-release-notes-1238266316.html
+    latest: "9.0.21.300"
+    latestReleaseDate: 2024-08-19
+    link: https://docs.bmc.com/xwiki/bin/view/Control-M-Orchestration/Control-M/ctm9021/Control-M-9-0-21-300-Release-Notes/
 
 -   releaseCycle: "9.0.20"
     releaseDate: 2020-07-24
