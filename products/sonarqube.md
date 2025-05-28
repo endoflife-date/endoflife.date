@@ -1,13 +1,12 @@
 ---
-title: SonarQube
+title: SonarQube Community Build
 category: server-app
 tags: java-runtime
 iconSlug: sonarqube
 permalink: /sonar
 alternate_urls:
 -   /sonarqube
-releasePolicyLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/
-changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
+releasePolicyLink: https://docs.sonarsource.com/sonarqube-community-build/server-upgrade-and-maintenance/upgrade/release-cycle-model/
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
@@ -20,10 +19,59 @@ auto:
       regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
--   releaseCycle: "10"
-    releaseDate: 2023-03-30
+
+-   releaseCycle: "25.5"
+    releaseDate: 2025-05-06
     eoas: false
     eol: false
+    latest: "25.5.0.107428"
+    latestReleaseDate: 2025-05-06
+    link: https://github.com/SonarSource/sonarqube/releases/tag/25.5.0.107428
+
+-   releaseCycle: "25.4"
+    releaseDate: 2025-04-07
+    eoas: 2025-05-06
+    eol: 2025-05-06
+    latest: "25.4.0.105899"
+    latestReleaseDate: 2025-04-07
+    link: https://github.com/SonarSource/sonarqube/releases/tag/25.4.0.105899
+
+-   releaseCycle: "25.3"
+    releaseDate: 2025-03-04
+    eoas: 2025-04-07
+    eol: 2025-04-07
+    latest: "25.3.0.104237"
+    latestReleaseDate: 2025-03-04
+    link: https://github.com/SonarSource/sonarqube/releases/tag/25.3.0.104237
+
+-   releaseCycle: "25.2"
+    releaseDate: 2025-02-03
+    eoas: 2025-03-04
+    eol: 2025-03-04
+    latest: "25.2.0.102705"
+    latestReleaseDate: 2025-02-03
+    link: https://github.com/SonarSource/sonarqube/releases/tag/25.2.0.102705
+
+-   releaseCycle: "25.1"
+    releaseDate: 2025-01-07
+    eoas: 2025-02-03
+    eol: 2025-02-03
+    latest: "25.1.0.102122"
+    latestReleaseDate: 2025-01-07
+    link: https://github.com/SonarSource/sonarqube/releases/tag/25.1.0.102122
+
+-   releaseCycle: "24.12"
+    releaseDate: 2024-12-02
+    eoas: 2025-01-07
+    eol: 2025-01-07
+    latest: "24.12.0.100206"
+    latestReleaseDate: 2024-12-02
+    link: https://github.com/SonarSource/sonarqube/releases/tag/24.12.0.100206
+
+-   releaseCycle: "10"
+    releaseDate: 2023-03-30
+    eoas: 2024-12-02
+    eol: 2024-12-02
     latest: "10.7.0"
     latestReleaseDate: 2024-09-30
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
@@ -58,16 +106,19 @@ releases:
 
 ---
 
-> [SonarQube](https://www.sonarsource.com/products/sonarqube/) (formerly Sonar) is an open-source
-> platform developed by SonarSource for continuous inspection of code quality to perform automatic
-> reviews with static analysis of code to detect bugs and code smells on many programming languages.
+> [SonarQube Community Build](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/) provides
+> development teams with a workflow-integrated code analysis solution for automated code review, so they can protect its
+> quality and security. SonarQube Community Build supports dozens of popular and classic programming languages,
+> frameworks and cloud technologies.
 
-SonarQube follows [Semantic Versioning](https://semver.org/). A new major or minor version is
-released every 2 months, and a new LTS release is declared approximately every 18 months.
+A new version of SonarQube Community Build is released every month. There is no active version or Long-Term Active (LTA)
+version concepts for SonarQube Community Build.
 
-Only the latest major release receives active support (updates and patches). During that time, the
-previous major release receives LTS support (security patches and fixes of blocker bugs) until the
-next LTS is declared. This support policy is the same for the Community, Developer, Enterprise and
-Data Center editions.
+SonarQube Community Build releases follow the following calendar version scheme: `YY.M.0.BuildNumber`
 
-Release notes for all version can be found on [What's New in SonarQube](https://www.sonarsource.com/products/sonarqube/whats-new/).
+SonarQube Community Build used to be called SonarQube Community Edition until end of 2024. It followed the same
+versioning scheme as the commercial versions. Since version 24.12.0.100206 releases of SonarQube Community Build and the
+commercial offering Sonarqube Server do not align and there is no mapping between the versions of SonarQube Community
+Build and SonarQube Server.
+
+Release notes can be found in the [documentation](https://docs.sonarsource.com/sonarqube-community-build/server-upgrade-and-maintenance/release-notes/).
