@@ -30,22 +30,22 @@ releases:
     releaseDate: 2023-07-12
     eoas: false
     eol: false
-    latest: "2.14.5"
-    latestReleaseDate: 2025-02-05
+    latest: "2.14.6"
+    latestReleaseDate: 2025-05-21
 
 -   releaseCycle: "2.13"
     releaseDate: 2021-08-02
     eoas: 2023-07-12
     eol: false
-    latest: "2.13.11"
-    latestReleaseDate: 2025-01-23
+    latest: "2.13.12"
+    latestReleaseDate: 2025-05-22
 
 -   releaseCycle: "2.12"
     releaseDate: 2020-08-03
     eoas: 2021-08-02
     eol: 2023-07-12
-    latest: "2.12.11"
-    latestReleaseDate: 2024-10-29
+    latest: "2.12.12"
+    latestReleaseDate: 2025-05-22
 
 -   releaseCycle: "2.11"
     releaseDate: 2019-09-19
