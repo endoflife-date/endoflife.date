@@ -16,19 +16,23 @@ releases:
     - releaseCycle: "5.5.0.1"
       releaseDate: 2025-02-12
       eoas: true
-      eoes: true
-      eol: false
+      eol: true
+      eoes: false      
 
     - releaseCycle: "5.3.0.1-mr4"
       releaseLabel: "5.3.0.1 MR4"
       releaseDate: 2025-01-27
+      eoas: true
+      eol: true
       eoes: 2026-10-23
 
     - releaseCycle: "5.3.0.1-mr3"
       releaseLabel: "5.3.0.1 MR3"
       releaseDate: 2024-10-18
+      eoas: true
+      eol: true
       eoes: 2026-10-23
-      eol: false
+      
 
     - releaseCycle: "5.1.1-mr5"
       releaseLabel: "5.1.1 MR5"
@@ -40,25 +44,35 @@ releases:
     - releaseCycle: "5.3.0.1-mr2"
       releaseLabel: "5.3.0.1 MR2"
       releaseDate: 2024-07-12
+      eoas: true
+      eol: true
       eoes: 2026-10-23
 
     - releaseCycle: "5.1.1-mr4"
       releaseLabel: "5.1.1 MR4"
       releaseDate: 2024-05-17
+      eoas: true
+      eol: true
       eoes: 2025-09-08
 
     - releaseCycle: "5.3.0.1-mr1"
       releaseLabel: "5.3.0.1 MR1"
       releaseDate: 2024-03-22
+      eoas: true
+      eol: true
       eoes: 2026-10-23
 
     - releaseCycle: "5.1.1-mr3"
       releaseLabel: "5.1.1 MR3"
       releaseDate: 2024-02-14
+      eoas: true
+      eol: true
       eoes: 2025-09-08
 
     - releaseCycle: "5.3"
       releaseDate: 2023-11-27
+      eoas: true
+      eol: true
       eoes: 2026-10-23
 
     - releaseCycle: "5.0.0.1-mr5"
@@ -71,6 +85,8 @@ releases:
     - releaseCycle: "5.1.1-mr2"
       releaseLabel: "5.1.1 MR2"
       releaseDate: 2023-10-20
+      eoas: true
+      eol: true
       eoes: 2025-09-08
 
     - releaseCycle: "5.0.0.1-mr4"
@@ -83,6 +99,8 @@ releases:
     - releaseCycle: "5.1.1-mr1"
       releaseLabel: "5.1.1 MR1"
       releaseDate: 2023-05-31
+      eoas: true
+      eol: true
       eoes: 2025-09-08
 
     - releaseCycle: "5.0.0.1-mr3"
@@ -101,6 +119,8 @@ releases:
 
     - releaseCycle: "5.1.1"
       releaseDate: 2023-02-08
+      eoas: true
+      eol: true
       eoes: 2025-09-08
 
     - releaseCycle: "5.0.0.1-mr2"
