@@ -3,7 +3,7 @@ layout: page
 nav_exclude: true
 search_exclude: true
 title: Home
-description: Check end-of-life, support schedule, and release timelines for more than 350 open source packages and products at one place.
+description: Check end-of-life, support schedule, and release timelines for more than {{ site.pages | where: "layout", "product" | size }} products at one place.
 # This is the content for the website homepage (https://endoflife.date/)
 ---
 
