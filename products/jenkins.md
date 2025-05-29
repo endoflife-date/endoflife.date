@@ -40,8 +40,8 @@ releases:
     releaseDate: 2025-03-31
     lts: 2025-04-30
     eol: false
-    latest: "2.504.1"
-    latestReleaseDate: 2025-04-30
+    latest: "2.504.2"
+    latestReleaseDate: 2025-05-28
 
 -   releaseCycle: "2.492"
     releaseDate: 2025-01-07
