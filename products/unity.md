@@ -17,15 +17,15 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2025-04-23
     eol: false
-    latest: "6000.1.4f1"
-    latestReleaseDate: 2025-05-21
+    latest: "6000.1.5f1"
+    latestReleaseDate: 2025-05-28
 
 -   releaseCycle: "6.0"
     lts: 2024-10-16
     releaseDate: 2024-04-29
     eol: false
-    latest: "6000.0.49f1"
-    latestReleaseDate: 2025-05-14
+    latest: "6000.0.50f1"
+    latestReleaseDate: 2025-05-28
 
 -   releaseCycle: "2023.2"
     releaseDate: 2023-11-14
