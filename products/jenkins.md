@@ -20,7 +20,7 @@ auto:
 
 # releaseCycle 2 catches weekly releases, other releases are LTS.
 #
-# LTS releases start at patch version .1 ('x.y.1') and, when a new LTS is released, it replaces the
+# LTS releases start at the patch version .1 ('x.y.1') and, when a new LTS is released, it replaces the
 # previous one. So, for an x.y LTS releases :
 # - lts(x.y) = releaseDate(x.y.1)
 # - releaseDate(x.y) = releaseDate(x.y.0)
@@ -136,7 +136,7 @@ releases:
 The Jenkins project produces two release lines: Stable (LTS) and regular (Weekly).
 
 [Stable (LTS)](https://www.jenkins.io/download/lts/) releases are chosen every 12 weeks from the
-stream of regular releases, and patched every 4 weeks with bug, security fix, and minor feature backports.
+stream of regular releases and patched every 4 weeks with bug, security fix, and minor feature backports.
 
 [Regular (Weekly)](https://www.jenkins.io/download/weekly/) releases deliver bug fixes and new
 features rapidly to users and plugin developers who need them.
