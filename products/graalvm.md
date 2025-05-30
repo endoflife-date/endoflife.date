@@ -160,5 +160,5 @@ As part of this alignment, GraalVM adopted the JDK’s release numbering scheme 
 Java version. To avoid confusion with older releases, new releases are named _GraalVM for JDK
 &lt;Java version&gt;_, for example _GraalVM for JDK 20_ (and are prefixed with `JDK` on this page).
 
-A commercial offering with long term support is provided by Oracle as
+A commercial offering with long-term support is provided by Oracle as
 [Oracle GraalVM](https://docs.oracle.com/en/graalvm/index.html).

@@ -130,5 +130,5 @@ basis. Older releases are not actively maintained but may still receive
 important fixes (e.g. security fixes), but there is no guarantee for this.
 
 End-of-life for old releases happens implicitly when a new Gerrit version is
-released, and is announced via the [project news](https://www.gerritcodereview.com/news.html)
+released. This is announced via the [project news](https://www.gerritcodereview.com/news.html)
 and on the [mailing list](https://groups.google.com/g/repo-discuss).

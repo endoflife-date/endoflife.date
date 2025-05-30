@@ -188,7 +188,7 @@ releases:
 
 ---
 
-> [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on and understand
+> [Grafana](https://grafana.com/grafana/) allows you to query, visualize, alert on, and understand
 > your metrics no matter where they are stored. Create, explore, and share dashboards with your team
 > and foster a data-driven culture.
 
@@ -198,7 +198,7 @@ releases:
 > Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
 
 - Only latest version sees active development.
-- The previous minor version, and the last minor version of the previous major version gets security
+- The previous minor version and the last minor version of the previous major version get security
   and critical bug fixes.
 
 ## [Release Schedule](https://grafana.com/blog/2022/12/13/grafana-releases-new-2023-release-schedule/)
@@ -208,4 +208,4 @@ releases:
 - On odd-numbered months (March, May, etc.) patch releases are made, which will only include bug
   fixes and security updates.
 
-Release builds are cut a week in advance, to validate and prepare for each release internally.
+Release builds are cut a week in advance to validate and prepare for each release internally.

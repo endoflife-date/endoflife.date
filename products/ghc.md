@@ -125,7 +125,7 @@ releases:
 
 ---
 
-> [Haskell](https://www.haskell.org/) is a general-purpose, statically-typed, purely functional
+> [Haskell](https://www.haskell.org/) is a general-purpose, statically typed, purely functional
 > programming language with type inference and lazy evaluation. The [Glasgow Haskell
 > Compiler](https://www.haskell.org/ghc/) (GHC) is a state-of-the-art optimizing compiler for
 > Haskell. It includes an interactive REPL, several profilers, alternative codegen backends, and
@@ -150,7 +150,7 @@ The case `x.y.z` with `y` odd is reserved for development purposes. These versio
 Release policies
 ----------------
 
-* **Minor releases** generally do not introduce new interfaces, compiler feature additions neither
+* **Minor releases** generally do not introduce new interfaces, compiler feature additions or
   removals, nor major updates in libraries shipped with compiler. They only fix bugs or performance
   issues in the previous release on that branch.
 
@@ -159,7 +159,7 @@ Release policies
   Every effort is made to fix bugs in Tier 2/3 platforms, but those are not treated as release
   blockers.
 
-* **Source distributions** are provided to distribution packagers a week in advance, before official
+* **Source distributions** are provided to distribution packagers a week in advance, before the official
   binaries release is announced.
 
 * **Two-release policy**. Every release of GHC must be bootstrappable with the most recent minor

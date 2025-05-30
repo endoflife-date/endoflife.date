@@ -159,7 +159,7 @@ Nodes and node pool versions can be up to two minor versions older than the cont
 
 New GKE Standard clusters are created with a default version,
 a stable release of a recent Kubernetes minor version or patch release.
-Versions newer than the default are also generally available on a weekly basis.
+Versions newer than the default are also generally available weekly.
 Autopilot clusters are enrolled in a release channel (defaults to standard) instead.
 
 ## Release Channels
@@ -174,7 +174,7 @@ release will match the above, regardless.
 
 Clusters with a static GKE version are not enrolled in a release channel. Users are responsible for
 managing their upgrade strategy in this case. They must still adhere to the Kubernetes version and
-version skew support policy, and use supported GKE versions.
+version skew support policy and use supported GKE versions.
 
 Google may automatically [upgrade your nodes for security and compatibility purposes](https://cloud.google.com/kubernetes-engine/upgrades#automatic_node_upgrades_for_security_and_compatibility "Requirements for GKE force upgrades")
 in select cases.
