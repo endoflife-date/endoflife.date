@@ -229,7 +229,7 @@ six months, one in May and one in November.
 
 Starting from the Symfony 3.x branch, the number of minor versions is limited to five per branch
 (X.0, X.1, X.2, X.3 and X.4). The last minor version of a branch (e.g. 3.4, 4.4, 5.4) is considered
-a long-term support version and the other ones are considered standard versions:
+a long-term support version, and the other ones are considered standard versions:
 
 | Version Type            | Bugs are fixed for | Security issues are fixed for                                                          |
 |:------------------------|:-------------------|:---------------------------------------------------------------------------------------|

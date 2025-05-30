@@ -14,7 +14,7 @@ identifiers:
 auto:
   methods:
   # https://github.com/sourcegraph/sourcegraph-public-snapshot is no more updated, this repository
-  # seems up-to-date and aligned with what's documented on https://sourcegraph.com/docs/releases.
+  # seems up to date and aligned with what's documented on https://sourcegraph.com/docs/releases.
   -   git: https://github.com/sourcegraph/deploy-sourcegraph-docker.git
 
 # eol(x) = releaseDate(x+1)

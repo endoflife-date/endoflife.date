@@ -188,7 +188,7 @@ releases:
 > distribution for both multimodal and traditional IT.
 
 SLES has a thirteen-year product lifecycle for major versions. The current support model consists
-of 10 years of general support, followed by up to 3 years of paid Long Term Service Pack Support
+of 10 years of general support, followed by up to 3 years of paid Long-Term Service Pack Support
 (LTSS). Major versions are released at an interval of 3–4 years, while minor versions (called
 "Service Packs") are released about every 12 months. SLES receives more intense testing than the
 upstream openSUSE community product.
