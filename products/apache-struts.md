@@ -90,17 +90,17 @@ releases:
     latestReleaseDate: 2006-03-23
     link: null
 
-# 1.0 and 1.1 are not listed as information on Maven Central don't seem reliable.
+# 1.0 and 1.1 are not listed on Maven Central.
 
 
 ---
 
 > [Apache Struts](https://struts.apache.org/) is a free, open-source, MVC framework for creating
 > Java web applications. It favors convention over configuration, is extensible using a plugin
-> architecture, and ships with plugins to support REST, AJAX and JSON.
+> architecture, and ships with plugins to support REST, AJAX, and JSON.
 
-Apache Struts follows [semantic versioning](https://semver.org). Release, support and EOL policies
+Apache Struts follows [semantic versioning](https://semver.org). Release, support, and EOL policies
 are not documented, but EOL notices are announced on <https://struts.apache.org/>.
 
-[Commercial support](https://struts.apache.org/commercial-support.html) to secure end of life versions of Apache Struts is available from HeroDevs
+[Commercial support](https://struts.apache.org/commercial-support.html) to secure end-of-life versions of Apache Struts is available from HeroDevs
 as part of their [Never-Ending Support initiative for Apache Struts](https://www.herodevs.com/support/struts-nes).

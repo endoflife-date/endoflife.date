@@ -70,7 +70,7 @@ Groovy 3.0 are still supported because they are still in widespread use.
 In Groovy 4.0, the groupId of the maven coordinates for Groovy have changed from
 `org.codehaus.groovy` to `org.apache.groovy`.
 
-Groovy have [the following JVM requirements](https://groovy.apache.org/download.html):
+Groovy releases have [the following JVM requirements](https://groovy.apache.org/download.html):
 
 | Groovy | JVM Required (non-indy) | JVM Required (indy) |
 |--------|:------------------------|---------------------|

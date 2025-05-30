@@ -32,7 +32,7 @@ releases:
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-04-07
-    eol: true # 3.4.4 announced as last 3.4.x release in https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
+    eol: true # 3.4.4 announced as the last 3.4.x release in https://lists.apache.org/thread/hfpgp3mz0lq6w9ysqv92zkygwn8bmcpk
     latest: "3.4.4"
     latestReleaseDate: 2024-10-21
 
@@ -142,6 +142,6 @@ Apache Spark follows [semantic versioning](https://semver.org). Minor releases h
 6 months and are maintained with bug and security fixes for a period of 18 months.
 
 The last minor release within a major release will typically be maintained for longer as an LTS
-release. For example, 2.4 was released in November 2nd 2018 and have been maintained for 31 months.
+release. For example, 2.4 was released on November 2nd 2018 and has been maintained for 31 months.
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

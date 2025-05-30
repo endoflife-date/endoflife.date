@@ -84,7 +84,7 @@ be found in <https://github.com/apache/airflow?tab=readme-ov-file#semantic-versi
 Apache Airflow follows a lifecycle with two distinct phases. The first one is the _Active support_
 phase, which comes with new features as well as bug and security fixes. It is followed by the
 _Limited support_ phase, which comes only with critical bug and security fixes. Dates for each
-phase is documented on <https://github.com/apache/airflow#version-life-cycle>.
+phase are documented on <https://github.com/apache/airflow#version-life-cycle>.
 
 [Python and Kubernetes compatibility](https://github.com/apache/airflow#support-for-python-and-kubernetes-versions)
 is usually maintained until EOL of upstream provider versions.

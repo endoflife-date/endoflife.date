@@ -142,5 +142,5 @@ releases:
 > describe how data should be processed.
 
 Apache Hop does not have a clear release, support and EOL policy. Looking at the latest releases on
-15th October 2023, it seems that once a minor version is released it is never patched. It was
+15th October 2023, it seems that once a minor version is released, it is never patched. It was
 consequently considered only the latest minor version is supported.

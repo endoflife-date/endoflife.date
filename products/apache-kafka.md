@@ -247,7 +247,7 @@ releases:
 > integration, and mission-critical applications.
 
 Apache Kafka does not have a clearly defined release and support policy. Nevertheless, looking at
-the 3.x releases, there have been a minor release every four months and up to three minor releases
+the 3.x releases, there has been a minor release every four months, and up to three minor releases
 have been supported at the same time. This is somewhat following [what is documented on the Apache
 Kafka wiki](https://cwiki.apache.org/confluence/display/KAFKA/Time+Based+Release+Plan), but there
 was unfortunately no formal announcement.
