@@ -18,11 +18,19 @@ auto:
       regex: ^OTP-(?P<version>\d+(\.\d+){0,3})$
       template: "{{version}}"
 
+# eoas(x) = releaseDate(x+1)
 # eol(x) = MAX(releaseDate(x) + 3 years, latestReleaseDate(x))
 releases:
+-   releaseCycle: "28"
+    releaseDate: 2025-05-20
+    eoas: false
+    eol: 2028-05-20 # projected
+    latest: '28.0'
+    latestReleaseDate: 2025-05-20
+
 -   releaseCycle: "27"
     releaseDate: 2024-05-17
-    eoas: false
+    eoas: 2025-05-20
     eol: 2027-05-20 # projected
     latest: '27.3.4'
     latestReleaseDate: 2025-05-08
