@@ -228,8 +228,8 @@ releases:
 
 - Intel Compute Support can be found [here](https://github.com/intel/compute-runtime#supported-platforms),
   with quality expectations per platform found [in the release notes](https://github.com/intel/compute-runtime/releases).
-- While a CPU may be under security support it may not be supported on a specific Windows release,
-  more information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
+- While a CPU may be under security support, it may not be supported on a specific Windows release.
+  More information on this can be found [here](https://www.intel.com/content/www/us/en/support/articles/000032181/processors/intel-core-processors.html).
 - A CPU's iGPU may not be supported by the latest GPU driver branch even if still supported.
 
 ## Determining product classification
@@ -237,7 +237,7 @@ releases:
 One can run the following command depending on your operating system to see which product series
 your CPU belongs on:
 
-- Windows: `Get-CimInstance Win32_Processor` on Powershell
+- Windows: `Get-CimInstance Win32_Processor` on PowerShell
 - Linux: `cat /proc/cpuinfo`
 - macOS: `sysctl -n machdep.cpu.brand_string`
 - FreeBSD/OpenBSD: `sysctl -n hw.model`

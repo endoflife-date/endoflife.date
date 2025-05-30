@@ -132,7 +132,7 @@ releases:
 
 ---
 
-> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple, and used in the
+> [iOS](https://www.apple.com/ios/) is a mobile operating system created by Apple and used in the
 > company's mobile devices, including the iPhone. It is the world's second-most widely installed
 > operating system, after Android.
 
@@ -144,4 +144,4 @@ for a short period of time.
 Apple has occasionally backported critical security fixes to [much older iOS versions](https://9to5mac.com/2021/03/26/apple-releases-ios-14-4-2-and-ios-12-5-2-with-security-bug-fixes/)
 but such fixes are not guaranteed. As of now, only iOS 18 appears to be receiving security fixes, as iOS 17 is missing fixes published in iOS 18.2.
 
-Support information for iPhone devices are available at [/iphone](/iphone).
+Support information for iPhone devices is available at [/iphone](/iphone).
