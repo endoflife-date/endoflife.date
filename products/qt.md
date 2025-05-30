@@ -162,9 +162,9 @@ Releases follow [Semantic Versioning](https://semver.org/). There is a new minor
 [approximately every six months](https://wiki.qt.io/QtReleasing), which is supported with bug and
 security fixes until the next minor release.
 
-Some releases are designated as Long Term Support (LTS) releases. Those are supported for three
+Some releases are designated as Long-Term Support (LTS) releases. Those are supported for three
 years but [only for commercial license holders](https://www.qt.io/blog/qt-offering-changes-2020).
-For open source users, they are same as regular releases.
+For open source users, they are the same as regular releases.
 
 Extended support beyond EOL is available as a [commercial offering](https://www.qt.io/qt-support/)
 from The Qt Company.
