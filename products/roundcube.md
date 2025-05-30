@@ -72,6 +72,6 @@ releases:
 > application-like user interface. It provides full functionality you expect from an email client,
 > including MIME support, address book, folder manipulation, message searching and spell checking.
 
-As of the last release, the project supports last 2 release branches in a "LTS low maintenance
+As of the last release, the project supports the last two release branches in an "LTS low-maintenance
 mode", which only includes important security updates only. Regular improvement updates are only
-available on the latest stable release.
+available in the latest stable release.
