@@ -180,16 +180,16 @@ Cluster Check (NCC). Only the latest patch release in any given release cycle is
 
 ## [Releases](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG)
 
-* **Short Term Support (STS)** have new features, and also provide a regular upgrade path and are
-  released every 3-6 months. They receive security and phone support for three (3) months from the
+* **Short-Term Support (STS)** have new features, and also provide a regular upgrade path and are
+  released every 3–6 months. They receive security and phone support for three (3) months from the
   next major/minor release.
-* **Long Term Support (LTS)** which are maintained for a longer duration and provide primarily bug
+* **Long-Term Support (LTS)** which are maintained for a longer duration and provide primarily bug
   fixes for an extended period of time on a particular release family. Each LTS Release is
   maintained for 3 months after the next LTS major/minor release is made. Each LTS release will
   then receive security and phone support for next 9 months.
 
 ## Release Cadence
 
-* Major/Minor releases are typically made available every 6-9 months.
-* Maintenance releases are typically made available every 4-6 weeks.
+* Major/Minor releases are typically made available every 6–9 months.
+* Maintenance releases are typically made available every 4–6 weeks.
 * Patch Releases are made available on an as-needed basis.

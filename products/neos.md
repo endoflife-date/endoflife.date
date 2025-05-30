@@ -77,7 +77,7 @@ Neos releases follow Semantic Versioning, and the team strives for a regular Neo
 - Three minor releases per year, with patch level releases as needed in between
 - Major releases happen yearly, assuming there will be breaking changes
 - Each release receives bug fixes for at least 1 year (extended by previous LTS) and security fixes for 1 additional year (at least 2 in total)
-- Each Long Term Support (LTS) version receives bug fixes for 2 years and security fixes for 1 additional year (3 in total)
+- Each Long-Term Support (LTS) version receives bug fixes for 2 years and security fixes for 1 additional year (3 in total)
 
 ## [PHP Support](https://docs.neos.io/guide/installation-development-setup/system-requirements)
 

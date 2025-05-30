@@ -204,6 +204,6 @@ until Feb 28, 2021.
 
 ## Release Cadence
 
-* A new major/minor release is typically made every 6-9 months.
-* Maintenance releases are typically made every 4-6 weeks.
+* A new major/minor release is typically made every 6–9 months.
+* Maintenance releases are typically made every 4–6 weeks.
 * Patch releases are made available on an as-needed basis.
