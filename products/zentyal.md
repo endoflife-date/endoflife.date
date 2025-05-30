@@ -91,7 +91,7 @@ Zentyal Server Editions are solely based on Ubuntu Server LTS.
 
 Zentyal offers 4.5 years of official support for the Commercial Edition, including support for all
 security issues, commercial technical support, and subscription services support.
-For  Development Edition, only the latest version is maintained.
+For Development Edition, only the latest version is maintained.
 
 In-place upgrades between major versions are not automatic and fresh installations are highly
 recommended. It is not possible to upgrade directly from the Development Edition to a Commercial

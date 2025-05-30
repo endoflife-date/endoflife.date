@@ -75,6 +75,6 @@ releases:
 > and run virtual machines on any hardware that supports the Xen hypervisor. XCP-ng is developed by
 > a community of contributors and is available for free.
 
-There are two kinds of XCP-ng releases: standard releases and Long Term Support (LTS) releases.
+There are two kinds of XCP-ng releases: standard releases and Long-Term Support (LTS) releases.
 Standard releases are supported until the next release, plus a few months to give the users some
 time to transition. LTS releases are supported for 5 years.

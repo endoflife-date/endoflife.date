@@ -99,7 +99,7 @@ releases:
 > [Zabbix](https://www.zabbix.com/) is an open-source software tool to monitor IT infrastructure
 > such as networks, servers, virtual machines, and cloud services.
 
-A LTS (Long Term Support) release is made once every 1.5 years. Standard releases are made once
+A LTS (Long-Term Support) release is made once every 1.5 years. Standard releases are made once
 every 6 months.
 
 LTS releases get 3 years of full support followed by 2 years of limited support (critical and
