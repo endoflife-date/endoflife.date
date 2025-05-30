@@ -45,7 +45,7 @@ releases:
 ---
 
 > [Quasar](https://quasar.dev/) is an MIT licensed open-source Vue.js based framework, which allows
-> web developer to quickly create responsive websites/apps in many flavors: Single Page Apps, SSR
+> web developers to quickly create responsive websites/apps in many flavors: Single Page Apps, SSR
 > Apps, PWAs, Browser extensions, Hybrid Mobile Apps and Electron Apps.
 
 All major releases are typically supported for at least 12 months. LTS support ends 12 months after
