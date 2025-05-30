@@ -97,7 +97,7 @@ releases:
 > Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market.
 
 Red Hat Enterprise Linux versions 5, 6, and 7 each deliver ten years of support in Full Support,
-Maintenance Support 1 and Maintenance Support 2 Phases followed by an Extended Life Phase. In
+Maintenance Support 1, and Maintenance Support 2 Phases followed by an Extended Life Phase. In
 addition, for Red Hat Enterprise Linux 5 and 6, customers may purchase annual Add-on subscriptions
 called Extended Life-cycle Support (ELS) to extend limited subscription services beyond the
 Maintenance Support 2 Phase.
@@ -117,7 +117,7 @@ functionality may be provided at Red Hat’s discretion.
 During the Maintenance Support Phase (called "Maintenance Support 2" for RHEL 7),
 qualified RHSAs and RHBAs may be released as they become
 available. Other errata advisories may be delivered as appropriate. New functionality and new
-hardware enablement is at the discretion of Red Hat, and varies by operating system release.
+hardware enablement is at the discretion of Red Hat and vary by operating system release.
 
 ## Extended Life Cycle Support (ELS)
 
@@ -129,5 +129,5 @@ the last minor release of a given version of Red Hat Enterprise Linux.
 - On RHEL 7 ELS is not available for the architectures System z (Structure A), ARM, and POWER9.
 - On RHEL 6 ELS is only available for the IBM z Systems and the x86 architecture, both 32-bit and
   64-bit variants.
-- On RHEL 6 a specific number of packages are supported under ELS which is listed
+- On RHEL 6 a specific number of packages are supported under ELS, which is listed
   [here](https://access.redhat.com/articles/4997301).

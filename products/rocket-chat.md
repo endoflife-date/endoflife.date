@@ -12,7 +12,7 @@ eoasColumn: true
 eolColumn: Support
 
 # https://docs.rocket.chat/docs/version-durability is hosted behind Cloudflare:
-# attempts to scrape EOL dates from it fails due to Cloudflare's anti-bot measures.
+# attempts to scrape EOL dates from it fail due to Cloudflare's anti-bot measures.
 auto:
   methods:
   -   git: https://github.com/RocketChat/Rocket.Chat.git
@@ -502,8 +502,8 @@ are documented as well.
 
 Browser support is limited to recent browser versions:
 
-- Latest 3 versions of Google Chrome
-- Latest 3 versions of Mozilla Firefox
-- Latest two versions of Apple Safari
-- Latest two versions of Microsoft Edge
-- Latest version of Microsoft Internet Explorer
+- Last three versions of Google Chrome
+- Last three versions of Mozilla Firefox
+- Last two versions of Apple Safari
+- Last two versions of Microsoft Edge
+- Last version of Microsoft Internet Explorer

@@ -167,23 +167,23 @@ releases:
 Red Hat provides three different phases of support: Full Support, Maintenance Support and Extended
 Update Support.
 
-The **Full Support** phase begins at the GA/release of the minor version and ends after a 6 months
+The **Full Support** phase begins at the GA/release of the minor version and ends after a 6-month
 period OR 90 days after the GA of the superseding minor release, whichever is later. During the Full
 Support Phase, qualified Critical and Important Security Advisories ([RHSAs][DEFINITION]) and Urgent
 and Selected High Priority Bug Fix Advisories ([RHBAs][DEFINITION]) will be released as they become
 available; all other available fix and qualified patches may be released via periodic updates.
 
-The **Maintenance Support** phase commences after the Full Support phase for the respective minor
+The **Maintenance Support** phase starts after the Full Support phase for the respective minor
 version and ends at 18 months after GA. During the Maintenance Support phase, qualified Critical and
 Important Security Advisories (RHSAs) and Urgent and Selected High Priority Bug Fix Advisories
 (RHBAs) may be released as they become available. Other Bug Fix and Enhancement Advisories
 ([RHEA][DEFINITION]) may be released at Red Hat’s discretion, but should not be expected.
 
-The **Extended Update Support** phase commences after the Full Support phase for even numbered minor
+The **Extended Update Support** phase starts after the Full Support phase for even numbered minor
 releases (e.g. 4.8, 4.10, 4.12). Additionally, to the full support and maintenance support phases,
 which also apply to EUS releases, upgrades between EUS releases will cause fewer reboots of nodes.
 This was the only benefit of EUS releases before version 4.12. Starting from 4.12, Red Hat will
-additionally include a six month EUS phase. The EUS phase will follow the maintenance phase for
+additionally include a six-month EUS phase. The EUS phase will follow the maintenance phase for
 the given release (18 months from GA date). This results in a total support time of 24 months for
 EUS releases.
 

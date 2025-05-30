@@ -121,7 +121,7 @@ releases:
 > while providing DevOps teams with integrated tools for running containerized workloads.
 
 Rancher does not have a fixed release and support policy, but End Of Maintenance (EOM) and End of
-Life (EOL) dates for each release are well documented [on their website](https://www.suse.com/lifecycle#rancher).
+Life (EOL) dates for each release are well-documented [on their website](https://www.suse.com/lifecycle#rancher).
 
 Looking at the latest releases, it seems that all releases are fully supported for at least 1 year
 with bug and security fixes, followed by at least 6 months of limited support with critical

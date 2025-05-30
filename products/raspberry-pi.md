@@ -182,6 +182,6 @@ releases:
 > developed by the Raspberry Pi Foundation. It is widely used because of its low cost, modularity,
 > and open design.
 
-Some of Raspberry Pi hardware comes with an Obsolescence statement guaranteeing production till a
+Some of the Raspberry Pi hardware comes with an Obsolescence statement guaranteeing production until a
 specific date. [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) supports
 all Raspberry Pi models (excluding Pico).

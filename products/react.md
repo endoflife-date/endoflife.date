@@ -62,6 +62,6 @@ React follows [Semantic Versioning](https://semver.org/) principles. The latest 
 release is supported with new features, bug and security fixes. All previous major
 releases are [supported with critical security fixes](https://react.dev/community/versioning-policy#stable-releases).
 
-According to [a comment from one of the React core developer](https://github.com/reactjs/react.dev/issues/1745#issuecomment-857172083),
+According to [a comment from one of the React core developers](https://github.com/reactjs/react.dev/issues/1745#issuecomment-857172083),
 critical security fixes are also backported to all minor versions of the current
 major releases.

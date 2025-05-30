@@ -111,7 +111,7 @@ This page covers the Red Hat build of OpenJDK production packages, which require
 for personal use under the [Red Hat Developer Subscription](https://developers.redhat.com/terms-and-conditions)
 and are unsupported.
 
-Red Hat only provide support for Red Hat build of OpenJDK based on LTS
+Red Hat only provides support for Red Hat build of OpenJDK based on LTS
 OpenJDK releases (11, 17, 21…). The Red Hat build of OpenJDK release
 cadence follows the OpenJDK release cadence, with a new major version every
 two years (since 2021) supported for at least four years with quarterly
@@ -126,10 +126,10 @@ RHEL if the retirement date of the underlying RHEL platform precedes the
 retirement date of the OpenJDK version.
 
 OpenJDK 11 will receive a review later in its lifecycle, and the lifetime may be extended beyond
-2024, if there is sufficient demand.
+2024, if there is enough demand.
 
 OpenJDK 8 is [not supported on RHEL6](https://access.redhat.com/articles/4997301), even with
-Extended Life Cycle Support(ELS) Add-on for RHEL 6.
+Extended Life Cycle Support (ELS) Add-on for RHEL 6.
 
 Red Hat build of OpenJDK is one of the many builds of OpenJDK. For
 recommendations on which JDK build to use, check out [whichjdk.com](https://whichjdk.com/#red-hat-openjdk).

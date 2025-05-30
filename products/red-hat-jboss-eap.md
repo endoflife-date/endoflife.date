@@ -29,7 +29,7 @@ auto:
 
 # Latest releases with their date can be found in each cycles release notes.date.
 # Other dates can be found on https://access.redhat.com/support/policy/updates/jboss_notes#p_eap.
-# Do not use individual changelog links for non-EOL releases, they are not predictable so their update would be manual.
+# Do not use individual changelog links for non-EOL releases, they are not predictable, so their update would be manual.
 releases:
 -   releaseCycle: "8"
     releaseDate: 2024-02-05
