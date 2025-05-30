@@ -144,4 +144,4 @@ releases:
 > research as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy
 > to administer, and secure.
 
-Typically last 4 releases are supported and receive patches.
+Typically, the last 4 releases are supported and receive patches.

@@ -246,7 +246,7 @@ releases:
 > [Python](https://www.python.org/) is an interpreted, high-level, general-purpose programming
 > language.
 
-The end-of-life is scheduled 5 years after the first release, but can be adjusted by the release
+The end-of-life is scheduled 5 years after the first release but can be adjusted by the release
 manager of each branch. Every release gets:
 
 - 2 years of planned releases with bugfixes.
