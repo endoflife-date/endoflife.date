@@ -32,7 +32,7 @@ releases:
     eol: 2026-06-03
     latest: "2411"
     latestReleaseDate: 2024-12-03
-    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2411/whats-new # 
+    link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2411/whats-new
 
 -   releaseCycle: "2407"
     releaseDate: 2024-07-31
