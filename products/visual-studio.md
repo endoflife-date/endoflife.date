@@ -17,7 +17,7 @@ auto:
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support
-# When adding a new major version, don't forget to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
+# When adding a new major version, remember to update URLS in https://github.com/endoflife-date/release-data/blob/main/src/visualstudio.py
 releases:
 -   releaseCycle: "17.14"
     codename: "2022"

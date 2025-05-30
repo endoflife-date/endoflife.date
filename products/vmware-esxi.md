@@ -93,7 +93,7 @@ releases:
 > [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) is a bare-metal hypervisor that
 > installs directly onto your physical server.
 
-VMware typically support ESXi for a duration of 7 years with 5 years of general support and an
+VMware typically supports ESXi for a duration of 7 years with 5 years of general support and an
 additional 2 years of technical guidance during which ESXi will no longer receive bug fixes and
 security updates.
 

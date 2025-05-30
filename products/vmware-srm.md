@@ -125,7 +125,7 @@ releases:
 > you to automate orchestration of failover and failback to minimize downtime and improve
 > availability of VMware hosted resources.
 
-Since Site Recovery Manager 8.3 the product follows the [Application Platform lifecycle
+Since Site Recovery Manager 8.3, the product has followed the [Application Platform lifecycle
 policy](https://ftpdocs.broadcom.com/WebInterface/phpdocs/0/MSPSaccount/COMPAT/AllProdDates.HTML), providing support for 4
 years with 3 years of general support and an additional 1 year of technical guidance during which
 bug fixes and security updates are no longer provided.
