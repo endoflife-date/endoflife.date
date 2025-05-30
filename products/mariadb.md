@@ -64,7 +64,7 @@ auto:
         releaseDate: "GA release date"
         eol: "Community"
 
-# When adding new Major, do no forget to review regexes in section above.
+# When adding a new Major, remember to review regexes in the section above.
 releases:
 -   releaseCycle: "11.7"
     releaseDate: 2025-02-12
@@ -215,10 +215,10 @@ releases:
 
 ## Release Cadence
 
-Releases of MariaDB are published on a regular basis. New releases are either long-term releases (LTS) or rolling
+Releases of MariaDB are published regularly. New releases are either long-term releases (LTS) or rolling
 releases. The support for each release depends on the release type.
 
-Long-term release (LTS) are released yearly and supported for 3 years with bug and security fixes (was 5 years up to
+Long-term releases (LTS) are released yearly and supported for 3 years with bug and security fixes (was 5 years up to
 11.4).
 
 {: .note-title }

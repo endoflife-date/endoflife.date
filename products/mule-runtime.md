@@ -24,7 +24,7 @@ releases:
     latest: "4.9.2"
     latestReleaseDate: 2025-03-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.9.0-release-notes
-    
+
 -   releaseCycle: "4.8"
     releaseDate: 2024-10-08
     eoas: 2025-03-08
@@ -32,7 +32,7 @@ releases:
     latest: "4.8.5"
     latestReleaseDate: 2025-02-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.8.0-release-notes
-    
+
 -   releaseCycle: "4.7"
     releaseDate: 2024-06-04
     eoas: 2024-10-04
@@ -40,7 +40,7 @@ releases:
     latest: "4.7.4"
     latestReleaseDate: 2024-10-15 # no exact date
     link: https://docs.mulesoft.com/release-notes/mule-runtime/mule-4.7.0-release-notes
-    
+
 -   releaseCycle: "4.6"
     lts: true
     releaseDate: 2024-02-06
@@ -116,18 +116,18 @@ Each release gets:
 - Standard Support for 12 months after a new Minor version is released. The latest minor release
   from the previous major version will continue to get standard support for at least 3 years from
   the release date of the new Major Version.
-- Extended Support for an additional 12 months (2-3 years for older releases) after Standard
+- Extended Support for an additional 12 months (2–3 years for older releases) after Standard
   Support ends.
 - Extended Support versions are only available on CloudHub for applications already deployed on it.
 
 ## Product Lifecycle
 
 **Standard Support**: Technical support on the use of the software, assistance with application
-configuration, and guidelines on performance tuning. Compatibility Support, and patches for
+configuration, and guidelines on performance tuning. Compatibility Support and patches for
 Security Vulnerabilities are provided.
 
 **Extended Support**: Technical support on and around the software for production environments,
-including troubleshooting, diagnosis and resolution of issues which do not require source code
+including troubleshooting, diagnosis, and resolution of issues which do not require source code
 patches. Patches for Critical Security Vulnerabilities.
 
 **End-of-Life**: End-of-Life versions are not available or supported on CloudHub/Anypoint Studio.

@@ -284,13 +284,13 @@ releases:
 ---
 
 > [Mattermost](https://mattermost.com/) is an open-source, self-hostable online chat service with
-> file sharing, search, and integrations. It is designed as an internal chat for organisations and
+> file sharing, search, and integrations. It is designed as an internal chat for organizations and
 > companies.
 
 Mattermost backports high-severity or high-impact security fixes to the previous three monthly
 releases and to supported [extended support releases (ESR)](https://docs.mattermost.com/upgrade/extended-support-release.html).
 A new ESR release is made when a significant number of new features and improvements have been added
-to the product, and have had sufficient time to stabilize. A new ESR is released twice a year in
+to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
 
 Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).

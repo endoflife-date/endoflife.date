@@ -218,17 +218,17 @@ releases:
 
 > [Magento Open Source](https://business.adobe.com/products/magento/open-source.html), previously
 > known as Magento Community Edition, is an [Open Software License (OSL 3.0)](https://opensource.org/licenses/osl-3.0.php)
-> e-commerce platform written in PHP. The project is [under the Adobe umbrella since 2018](https://business.adobe.com/blog/the-latest/magento-is-now-part-of-adobe).
+> e-commerce platform written in PHP. The project has been [under the Adobe umbrella since 2018](https://business.adobe.com/blog/the-latest/magento-is-now-part-of-adobe).
 
 Magento Open Source follows [semantic versioning](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/versioning-policy.html).
 It does not have a clearly defined release cadence.
 
-There are two phases of support for releases : a "bug fix maintenance" phase, with bugs and security
+There are two phases of support for releases: a "bug fix maintenance" phase, with bugs and security
 fixes, and a "security maintenance" phase, with only security fixes. The duration of each phase is
 documented here and in the [Magento Open Source Software Maintenance Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Open-Source-Software-Maintenance-Policy.pdf).
 
-Being build on top of Magento Open Source, Adobe Commerce has the same versions,
-but with [additional _security patch only releases_](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-Patch-Release/ba-p/141287),
+Being built on top of Magento Open Source, Adobe Commerce has the same versions,
+but with [additional _security-patch-only releases_](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-Patch-Release/ba-p/141287),
 a [future releases schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
 and [additional support](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html).
 

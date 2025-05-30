@@ -146,8 +146,8 @@ releases:
 > improve maintainability for native Quarkus applications. Mandrel can best be described as a distribution of a regular
 > OpenJDK with a specially packaged GraalVM Native Image builder (`native-image`).
 
-Mandrel follows [the GraalVM Community release cadence](https://www.graalvm.org/release-calendar/) in principle, but
-extends the maintenance window for long term JDK releases.
+Mandrel follows [the GraalVM Community release cadence](https://www.graalvm.org/release-calendar/) in principle but
+extends the maintenance window for long-term JDK releases.
 
 That is, starting with JDK 20 in June 2023, Mandrel follows the JDK’s six-month release cadence and only supports the
 latest JDK version and (at least) the latest LTS JDK version as listed in [JDK Releases](https://www.java.com/releases/).

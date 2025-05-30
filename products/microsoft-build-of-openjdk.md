@@ -28,7 +28,7 @@ auto:
           regex: '^OpenJDK (?P<value>\d+) LTS$'
         eol: "Earliest end-of-support date"
 
-# Do not forget to update the "auto" configuration on each new major release.
+# Remember to update the "auto" configuration on each new major release.
 releases:
 -   releaseCycle: "21"
     lts: true
@@ -59,19 +59,19 @@ releases:
 > Microsoft. Microsoft Build of OpenJDK is certified using the Oracle Java Compatibility Kit (JCK)
 > to demonstrate that it is a compatible implementation of the Java specification. Microsoft Build
 > of OpenJDK releases must also pass the [AQAvit quality verification suite](https://adoptium.net/aqavit/)
-> to ensure they are ready for production usage. It is available on Linux, Windows, macOS and as
+> to ensure they are ready for production usage. It is available on Linux, Windows, macOS, and as
 > container images.
 
-Microsoft only provide support for Microsoft Build of OpenJDK based on LTS OpenJDK releases (11, 17,
+Microsoft only provides support for Microsoft Build of OpenJDK based on LTS OpenJDK releases (11, 17,
 21...). The Microsoft Build of OpenJDK release cadence follows the OpenJDK release cadence, with a
 new major version every two years (since 2021) supported for at least four years with quarterly
 maintenance/security updates (typically January, April, July, and October).
 
-Microsoft also provide [commercial support](https://learn.microsoft.com/java/openjdk/support#commercial-support)
+Microsoft also provides [commercial support](https://learn.microsoft.com/java/openjdk/support#commercial-support)
 for Microsoft Build of OpenJDK. The support policy follows [Microsoft's Modern Lifecycle
 Policy](https://learn.microsoft.com/lifecycle/policies/modern).
 
 Microsoft Build of OpenJDK is one of the many builds of OpenJDK. For recommendations on which JDK
 build to use, check out [whichjdk.com](https://whichjdk.com/#microsoft-build-of-openjdk).
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

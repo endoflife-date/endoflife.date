@@ -24,7 +24,7 @@ identifiers:
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) documented on https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/
-# No release is marked LTS, as this phase is true for all release and is considered here as the security support phase.
+# No release is marked LTS, as this phase is true for all releases and is considered here as the security support phase.
 releases:
 -   releaseCycle: "5"
     releaseDate: 2023-12-18
@@ -68,6 +68,6 @@ releases:
 > digital activities including websites, servers, CMS, and online services.
 
 Matomo only actively supports the latest version with new features, bug fixes, and security updates.
-When a new major version is released, the previous major version enters the [Long Term Support
+When a new major version is released, the previous major version enters the [Long-Term Support
 (LTS)](https://matomo.org/blog/2016/01/announcing-long-term-support-in-matomo-the-analytics-platform-for-your-mission-critical-projects/)
 phase and only receives critical bug and security fixes for at least 12 months.
