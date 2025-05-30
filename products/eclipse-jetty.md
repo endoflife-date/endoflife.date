@@ -157,7 +157,7 @@ Jetty does not have a fixed release and support policy. But a list of all versio
 their support status, is available [on Jetty website](https://jetty.org/download.html).
 
 Support for Jetty is divided into two phases. The first phase, called _Community Support_,
-comes with bug and security fixes. Once a release reach its End of Community Support (EoCS), Jetty
+comes with bug and security fixes. Once a release reaches its End of Community Support (EoCS), Jetty
 enters the second phase of support with only security and critical issues fixes until the full End
 of Life (EOL).
 

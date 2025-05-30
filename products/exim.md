@@ -296,5 +296,5 @@ releases:
 > under the GNU General Public License.
 > It offers a great deal of flexibility in the way mail can be routed.
 
-All versions of Exim previous to latest version [are obsolete](https://exim.org/).
+All versions of Exim previous to the latest version [are obsolete](https://exim.org/).
 Maintenance releases are only published if necessary.

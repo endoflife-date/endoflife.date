@@ -25,7 +25,7 @@ identifiers:
 -   cpe: cpe:2.3:a:electronjs:electron
 
 
-# NPM is more accurate than git and remove unreleased version would.
+# NPM is more accurate than git and does not contain the unreleased versions.
 # 1.x versions are not in NPM, but it's not a big deal: the 1.x cycle is not displayed on this page.
 auto:
   methods:
@@ -334,7 +334,7 @@ The latest [_three_ stable major versions are currently supported](https://www.e
 Only the latest minor release in each major version is supported. A new major stable version is
 released every 8 weeks.
 
-All supported release get fixes that were previously merged to main backported, though this may be
+All supported releases get fixes that were previously merged to main backported, though this may be
 on a case-by-case basis for some older supported releases. When an API is changed or removed in a
 way that breaks existing functionality, the previous functionality will be supported for a minimum
 of two major versions when possible before being removed.
