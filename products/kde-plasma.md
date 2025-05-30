@@ -18,7 +18,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/KDE/plasma-desktop.git
-      # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are disguised beta releases
+      # 80/90 minor and patch versions, such as https://kde.org/announcements/plasma/5/5.26.90/, are in fact beta releases
       regex_exclude:
       -   '^v?(\d+)\.([8-9]\d+)(\.(\d+)(\.(\d+))?)?$' # double-digits minor >= 80
       -   '^v?(\d+)\.(\d+)(\.([8-9]\d+)(\.(\d+))?)?$' # double-digits patch >= 80
@@ -110,13 +110,13 @@ releases:
 > layouts and panels, supporting virtual desktops and widgets. It is available on most Linux
 > distributions and FreeBSD.
 
-KDE Plasma releases roughly three major feature releases a year, with one Long Term Support release
+KDE Plasma releases roughly three major feature releases a year, with one Long-Term Support release
 every other year. There is a [detailed schedule](https://community.kde.org/Schedules/Plasma_6) for
 future bug fix releases and major releases.
 
 ## Release Cadence
 
-* The last Plasma 5 release will be version 5.27 LTS and the end of critical bug
+* The last Plasma 5 release will be version 5.27 LTS, and the end of critical bug
   fixes is not yet announced.
 * Bugfix tags/releases are made on Tuesdays in a [Fibonacci sequence of weeks](https://community.kde.org/Schedules/Plasma_6#Releases_Cycle)
   (1, 1, 2, 3, 5) after each previous release of the same series.

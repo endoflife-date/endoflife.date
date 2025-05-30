@@ -111,7 +111,7 @@ releases:
 
 ---
 
-> [Kong Gateway](https://konghq.com/products/kong-gateway) (also referred as _Kong_ or
+> [Kong Gateway](https://konghq.com/products/kong-gateway) (also known as _Kong_ or
 > _Kong API Gateway_) is a cloud-native, platform-agnostic, scalable API Gateway distinguished
 > for its high performance and extensibility via plugins. By providing functionality for
 > proxying, routing, load balancing, health checking, authentication (and more), Kong Gateway

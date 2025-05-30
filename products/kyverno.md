@@ -83,5 +83,5 @@ releases:
 > specific configurations independently of workload configurations and enforce configuration best
 > practices for their clusters.
 
-Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support policy as Kubernetes - the
-3 most recent minor versions receive security and bug fixes.
+Kyverno uses the [Semantic Versioning](https://semver.org/) scheme. It follows the same support policy as Kubernetes
+— the 3 most recent minor versions receive security and bug fixes.

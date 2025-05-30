@@ -164,6 +164,6 @@ The Keycloak JS adapter
 and now follows its own release policy. It will continue to be backwards compatible with all actively
 supported releases of the Keycloak server, and deviation from this will be considered a breaking change.
 
-Commercial offerings with long term support of specific versions of Keycloak are provided by Red Hat
+Commercial offerings with long-term support of specific versions of Keycloak are provided by Red Hat
 with [Red Hat Single Sign-On (RH-SSO)](https://access.redhat.com/products/red-hat-single-sign-on/)
 and [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak).

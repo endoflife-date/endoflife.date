@@ -64,7 +64,7 @@ releases:
 
 ---
 
-> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a a Kubernetes add-on for
+> [node-feature-discovery](https://kubernetes-sigs.github.io/node-feature-discovery/) is a Kubernetes add-on for
 > detecting hardware features and system configuration. It advertises these features using node labels and optionally
 > node extended resources, annotations and node taints.
 
