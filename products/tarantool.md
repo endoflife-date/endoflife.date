@@ -125,7 +125,7 @@ more long-time support series. This document explains the new release policy, ve
 lifecycle.
 
 The new release policy replaces the [legacy policy](https://www.tarantool.io/en/doc/latest/release/legacy-policy/)
-for 2.x.y series since 2.10.0 release and all future series (3.x.y and so on).
+for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
 
 Here are the most significant changes from the legacy release policy:
 

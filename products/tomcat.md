@@ -101,16 +101,16 @@ releases:
 
 Initial releases of a new major version typically process from Alpha, through Beta to Stable over a
 period of several months. However, the Stable level is only available once the Java specifications
-the release implements have been finalised. This means a release that in all other respects is
-considered stable, may still be labelled as Beta if the specifications are not final.
+the release implements have been finalized. This means a release that in all other respects is
+considered stable may still be labeled as Beta if the specifications are not final.
 
 ## Lifecycle
 
 Prior major releases have been supported for approximately 10 years. When a release is sunset and
 moved to End-of-life status, a notice is provided roughly a year in advance.
 
-Generally 3 major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as
-stable Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
+Generally, three major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as
+ stable, Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
 
 ## Java Compatibility
 
