@@ -744,6 +744,6 @@ Jira Software is available both as SaaS and on-premises offer, with two editions
 
 This page is **only** about Jira Software Data Center. Jira Software Cloud is a part of the Atlassian Cloud with [its own release cadence](https://confluence.atlassian.com/cloud/blog).
 
-Jira Software has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive bug and
+Jira Software has both LTS and non-LTS releases. There is approximately one LTS release per year, which receives bug and
 security fixes for 2 years. Non-LTS releases are supported for 6 months with only critical security fixes. More
 information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).
