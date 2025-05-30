@@ -323,7 +323,7 @@ releases:
 > and embedded platforms.
 
 Each release is supported by the Security Officer for a limited time only. Under the current support
-model, each major version's stable branch is explicitly supported for 5 years, while each individual
+model, each major version's stable branch is explicitly supported for 5 years, while each
 point release is only supported for three months after the next point release.
 
 The Expected EoL (end-of-life) column indicates the earliest date on which support for that branch
@@ -333,7 +333,7 @@ The FreeBSD Security Officer provides security advisories for `-STABLE` Branches
 Branches. Advisories are not issued for the `-CURRENT` Branch, which is primarily oriented towards
 FreeBSD developers.
 
-The -STABLE branch tags have names like `stable/10`. The corresponding builds have names like
+The `*-STABLE` branch tags have names like `stable/10`. The corresponding builds have names like
 `FreeBSD 10.1-STABLE`. Each FreeBSD Release has an associated Security Branch. The Security
 Branch tags have names like `releng/10.1`. The corresponding builds have names like `FreeBSD 10.1-RELEASE-p4`.
 
@@ -343,7 +343,7 @@ Branch tags have names like `releng/10.1`. The corresponding builds have names l
 > [Starting with FreeBSD 15.x](https://lists.freebsd.org/archives/freebsd-announce/2024-July/000143.html)
 > each major version's stable branch will be supported for 4 years, instead of the current 5.
 > 13.5 and 14.6 will be supported until 5 years after 13.0 and 14.0 respectively.
-> The support duration for individual point releases will remain until "next point release + 3 months"
+> The support duration for individual point releases will remain until "next point release + 3 months".
 > A release cadence is being established so a new minor release from one of the supported
 > stable branches will happen most quarters.
 
