@@ -10,9 +10,9 @@ alternate_urls:
 releasePolicyLink: https://www.nokia.com/phones/en_int/security-updates
 releaseColumn: false
 
-# EOL estimation if not explicitly announced by Nokia on product page
-# * for C line: eol(x) = releaseDate(x) + 2 years
-# * for rest: eol(x) = releaseDate(x) + 3 years
+# EOL estimation if not explicitly announced by Nokia on the product page
+# - for C line: eol(x) = releaseDate(x) + 2 years
+# - for rest: eol(x) = releaseDate(x) + 3 years
 releases:
 -   releaseCycle: "c210"
     releaseLabel: "Nokia C210"

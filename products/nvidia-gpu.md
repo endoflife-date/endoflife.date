@@ -240,28 +240,28 @@ releases:
 -   releaseCycle: "consumer-rankine"
     releaseLabel: "Consumer Rankine (NV3x)"
     releaseDate: 2003-01-27
-    eoas: 2008-06-23 # Verify support date.
+    eoas: 2008-06-23 # Verify the support date.
     eol: 2008-06-23
     discontinued: true
 
 -   releaseCycle: "consumer-kelvin"
     releaseLabel: "Consumer Kelvin (NV1x, NV2x)"
     releaseDate: 2001-02-27
-    eoas: 2006-11-02 # Verify support date.
+    eoas: 2006-11-02 # Verify the support date.
     eol: 2006-11-02
     discontinued: true
 
 -   releaseCycle: "consumer-celsius"
     releaseLabel: "Consumer Celsius (NV1x)"
     releaseDate: 1999-10-11
-    eoas: 2005-04-14 # Verify support date.
+    eoas: 2005-04-14 # Verify the support date.
     eol: 2005-04-14
     discontinued: true
 
 -   releaseCycle: "consumer-fahrenheit"
     releaseLabel: "Consumer Fahrenheit (NVx)"
     releaseDate: 1998-06-15
-    eoas: 2005-03-11 # Verify support date.
+    eoas: 2005-03-11 # Verify the support date.
     eol: 2005-03-11
     discontinued: true
 
@@ -288,11 +288,10 @@ different support status length), and there are other cases to be careful of:
 - `GT730`: Has a `GF108` (Fermi) and a `GK208` (Kepler) variant.
 - `GT625`: Has a `GF108` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
 - `GT640`: Has a `GF116` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
-- `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (with the
-  exception of the above)
+- `GT645/620` is a Fermi card, even though all other 600 series are Kepler variants (except the above)
 - `GT705` has a `GF119` (Fermi) and a `GK208` (Kepler) variant.
 - `GTX745`, `GTX750` and `GTX750 Ti` are Maxwell, even though all other `700` series are Kepler
-  variant (with the exception of the above)
+  variant (except the above)
 - `GT1030`: Has a `GK107` (Kepler) and a `GP108` (Pascal) variant.
 - All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a
   different (and often shorter) support cycle.
@@ -303,7 +302,7 @@ different support status length), and there are other cases to be careful of:
 - `GT825M`/`GT870M`/`GT880M` are Kepler cards.
 - `GT920M` is a Kepler card.
 - Most cards in the `800M` series have multiple variant with varying architectures (A card in this
-  series can be Fermi, Kepler or Maxwell).
+  series can be Fermi, Kepler, or Maxwell).
 
 ## Identifying your GPU
 
@@ -313,16 +312,16 @@ support status, but instead their architecture.
 ### Windows
 
 1. [Download and run GPU-Z](https://www.techpowerup.com/gpuz/).
-2. First identify if you have a consumer or a professional card. See the "Naming scheme" section
+2. First, identify if you have a consumer or a professional card. See the "Naming scheme" section
    above.
-3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this
+3. Next, identify the card architecture. This will be the GPU textbox. You can cross-reference this
    with the support table at the top of this page.
 
 ### Linux
 
 1. Install the `lshw` package from your distribution's repositories.
 2. Run the command `sudo lshw -C display`, your GPU code is the `product` column.
-3. Next identify the card architecture. This will be the GPU textbox. You can cross-reference this
+3. Next, identify the card architecture. This will be the GPU textbox. You can cross-reference this
    with the support table at the top of this page.
 
 This GPU Code follows a similar pattern for most cards, for example we have `GA102`:
