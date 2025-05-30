@@ -195,6 +195,6 @@ releases:
 > This page mainly tracks releases for the free, self-hosted and open-source offering currently named
 > _Graylog Open_.
 
-Graylog's release, support and EOL policy is not clearly defined. But looking at the recent release
+Graylog's release, support and EOL policy are not clearly defined. But looking at the recent release
 history, it seems that the last two minor releases are usually supported with minor changes, bug
-fixes and security patches.
+fixes, and security patches.

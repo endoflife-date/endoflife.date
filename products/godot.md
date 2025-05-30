@@ -146,7 +146,7 @@ releases:
 > comprehensive set of common tools, so users can focus on making games without having to reinvent
 > the wheel. Games can be exported in one click to a [number of platforms](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms).
 
-Each stable branch starts with a `major.minor` release (without the 0 for patch) and is further
+Each stable branch starts with a `major.minor` release (without the `.0`) and is further
 developed for maintenance releases. _Stable branches are supported at minimum until the next stable
 branch is released and has received its first patch update_. In practice, stable branches are
 supported on a best effort basis for as long as they have active users who need maintenance updates.
@@ -157,5 +157,5 @@ time Godot 4.0 is released.
 
 The development cycle aims for a new minor release every 3 to 6
 months. The Godot release policy is a set of guidelines and "what will actually happen depends on
-the choices of core contributors, and the needs of the community at a given time". Godot loosely
+the choices of core contributors and the needs of the community at a given time". Godot loosely
 follows [Semantic Versioning](https://semver.org/).

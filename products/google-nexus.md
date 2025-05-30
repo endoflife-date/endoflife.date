@@ -126,6 +126,6 @@ releases:
 > Android experience.
 
 The Nexus series started out in January 2010 and reached its end in October 2016, so all Nexus
-devices are now discontinued and unsupported. The Nexus series were succeeded by the [Google
+devices are now discontinued and unsupported. The Nexus series was succeeded by the [Google
 Pixel series](/pixel), which continues the tradition of timely software updates and a seamless
 Android experience.
