@@ -55,7 +55,7 @@ releases:
 > creating managed MySQL Community Edition databases. RDS makes it easier to set up, operate, and
 > scale MySQL deployments on AWS cloud.
 
-Version numbers on Amazon RDS for MySQL are identical to those of [MySQL](/mysql). As a general
+Version numbers on Amazon RDS for MySQL are identical to those of [MySQL](/mysql). As general
 guidance, new versions of the MySQL engine become available on Amazon RDS within 5 months of their
 general availability by Oracle.
 
@@ -66,15 +66,15 @@ release date on Amazon RDS. Note that in some cases Amazon may deprecate specifi
 versions sooner, such as when there are security issues.
 
 Depending on the configuration, the kind of version (major or minor) and their deprecation status,
-[upgrades can be manual, automatic or forced](https://aws.amazon.com/rds/faqs/#How_do_I_control_if_and_when_the_engine_version_of_my_DB_instance_is_upgraded_to_new_supported_versions.3F).
-When a minor release is deprecated, users are expected to upgrade within a 3 months period. This
+[upgrades can be manual, automatic, or forced](https://aws.amazon.com/rds/faqs/#How_do_I_control_if_and_when_the_engine_version_of_my_DB_instance_is_upgraded_to_new_supported_versions.3F).
+When a minor release is deprecated, users are expected to upgrade within a 3-month period. This
 period is increased to 6 months for major releases. Upgrades are performed during the configured
-scheduled maintenance windows. These windows are initially set automatically by AWS but can be
+scheduled maintenance windows. These windows are initially automatically set by AWS but can be
 overridden in the AWS console.
 
 For the most up-to-date information about the Amazon RDS deprecation policy for MySQL, see [Amazon
 RDS FAQs](http://aws.amazon.com/rds/faqs/).
 
 On the RDS end of standard support date, Amazon RDS automatically enrolls your databases in RDS Extended Support.
-RDS Extended Support is a  paid offering available for up to 3 years past the RDS end of standard support date for a major engine version, see
+RDS Extended Support is a paid offering available for up to 3 years past the RDS end of standard support date for a major engine version, see
 [Using Amazon RDS Extended Support](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html).
