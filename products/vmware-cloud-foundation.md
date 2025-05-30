@@ -103,7 +103,7 @@ releases:
 
 > [VMWare Cloud Foundation](https://www.vmware.com/products/cloud-foundation.html), is a suite of
 > software-defined data center (SDDC) technologies consisting of vSphere, NSX, and vSAN. It is
-> available in multiple editions - Starter, Standard, Advanced, and Enterprise.
+> available in multiple editions — Starter, Standard, Advanced, and Enterprise.
 
 Cloud Foundation 3,4 were covered under the N-2 Lifecycle Policy,
 supporting three latest releases, with a minimum support duration of 12 months.
@@ -120,7 +120,7 @@ Subscription Terms and Conditions.
 
 The last date on which customers can access support and workarounds for low-severity issues on
 supported configurations only. During the Technical Guidance phase, VMWare does not offer new
-hardware support, server/client/guest OS updates, new security patches or bug fixes unless
+hardware support, server/client/guest OS updates, new security patches, or bug fixes unless
 otherwise noted.
 
 | Release | Technical Guidance Ends |

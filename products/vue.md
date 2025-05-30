@@ -45,7 +45,7 @@ releases:
     latestReleaseDate: 2023-12-19
 
 -   releaseCycle: "2.7"
-    releaseDate: 2022-07-01 # correct, see https://blog.vuejs.org/posts/vue-2-7-naruto
+    releaseDate: 2022-07-01 # this is correct, see https://blog.vuejs.org/posts/vue-2-7-naruto
     eoas: 2023-12-31
     eol: 2023-12-31
     eoes: false
@@ -172,7 +172,7 @@ releases:
 > model to efficiently develop user interfaces.
 
 [Vue does not have a fixed release cycle](https://vuejs.org/about/releases.html). Patch releases are
-released as needed. Minor releases always contain new features, with a typical time frame of 3-6
+released as needed. Minor releases always contain new features, with a typical time frame of 3–6
 months in between. Minor releases always go through a beta pre-release phase. Major releases will be
 announced ahead of time, and will go through an early discussion phase and alpha / beta pre-release
 phases.
