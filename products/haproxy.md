@@ -121,7 +121,7 @@ releases:
 
 ---
 
->[HAProxy](https://www.haproxy.org/) is a free, very fast and reliable reverse-proxy offering high
+>[HAProxy](https://www.haproxy.org/) is a free, fast, and reliable reverse-proxy offering high
 > availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly
 > suited for very high traffic websites and powers a significant portion of the world's most visited
 > ones.
@@ -148,7 +148,7 @@ prefer to upgrade often to benefit from modern features, and who are also able t
 of problems. These versions are maintained between 12 and 18 months. The duration is short and
 purposely not strict so that the maintenance cycle is decided with users based on feedback, and so
 that these versions do not end up in embedded products. It may happen that a few features are
-backported to these version if there is some reasonable demand and the operation is considered
+backported to these versions if there is some reasonable demand and the operation is considered
 riskless enough.
 
 EOL dates on [HAProxy](https://www.haproxy.org/) website are formatted as `YYYY-Qn`, with `YYYY`

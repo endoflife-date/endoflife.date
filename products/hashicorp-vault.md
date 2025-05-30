@@ -103,9 +103,9 @@ end when the next release occurs. While the [Enterprise versions](https://suppor
 have extended support.
 
 - [**Long-Term-Support (LTS)**](https://developer.hashicorp.com/vault/docs/enterprise/lts)
-releases offers extended maintenance through minor releases for select,
+releases offer extended maintenance through minor releases for select,
 major **Vault Enterprise** releases. The latest 2 LTS releases are supported at any given time,
-following a N-1 policy.
+following an N-1 policy.
 
 Since Vault has 3 releases every year, this results in approximately 1 year of
 standard maintenance, followed by one year of extended maintenance for the LTS
