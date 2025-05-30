@@ -137,7 +137,7 @@ releases:
 [Since February 2023](https://code.blender.org/2023/02/blender-release-cycle-update/#new-release-schedule),
 Blender follows a 3-releases-per-year schedule, with one of the releases offering long-term support (Blender LTS).
 
-Non-LTS releases are supported until the next release with high-priority bug fixes. High severity and normal bugs
+Non-LTS releases are supported until the next release with high-priority bug fixes. High-severity and normal bugs
 may be fixed too if agreed on by the team.
 
 LTS releases are supported for 2 years. At first the support level is the same as non-LTS releases; but after the next

@@ -64,7 +64,7 @@ releases:
 > for developing responsive, mobile first projects on the web.
 
 At times to be determined by the release working group, major versions will be frozen and
-transitioned to _Long Term Support_ (LTS). After a determined period of time, versions in Long Term
+transitioned to _Long-Term Support_ (LTS). After a determined period of time, versions in Long-Term
 Support will be deep-frozen and transition to _Maintenance_ (Critical Support).
 
 Versions in _Maintenance_ should not have any changes landed, except for:
