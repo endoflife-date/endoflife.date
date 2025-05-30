@@ -87,4 +87,4 @@ for the longer period between:
 2. 6 months after the next Major Release version release.
 
 Limited Support is also available after the end of Full Maintenance. But this is only best effort
-support without any code fixes or security updates, so this page does not track it.
+support without any code fixes nor security updates, so this page does not track it.

@@ -58,5 +58,5 @@ releases:
 Work on [CentOS Linux 8 ceased at the end of 2021](https://blog.centos.org/2020/12/future-is-centos-stream/)
 as Red Hat shifted focus to [CentOS Stream](/centos-stream).
 
-Commercial long term support for CentOS 6, 7, and 8 post end-of-life is available at [OpenLogic by
+Post-end-of-life commercial long-term support for CentOS 6, 7, and 8 is available at [OpenLogic by
 Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).

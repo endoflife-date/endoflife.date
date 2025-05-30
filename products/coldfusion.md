@@ -14,12 +14,12 @@ identifiers:
 -   cpe: cpe:/a:adobe:coldfusion
 
 # Anti-scraping measures have been taken, so the script does not work anymore.
-# It has been disabled for now as it significantly increase the Update data job duration.
-#auto:
+# It has been disabled for now as it significantly increases the Update data job duration.
+#Auto:
 #  methods:
 #  -   custom: coldfusion
 
-# When adding a cycle, don't forget to add its release note URL in
+# When adding a cycle, remember to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
 # to benefit from auto-updates.
 releases:
@@ -74,7 +74,7 @@ releases:
 
 ---
 
-> [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) is Java-based commercial
+> [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) is a Java-based commercial
 > web application server and development platform from Adobe.
 
 ColdFusion's lifecycle is typically 5 years after release, with new releases usually about every two

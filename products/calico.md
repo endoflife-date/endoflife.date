@@ -60,7 +60,7 @@ releases:
 > scalable, and secure networking for Kubernetes clusters.
 
 {: .warning }
-> Calico Cloud and Calico Enterprise, are separate versions maintained by
+> Calico Cloud and Calico Enterprise are separate versions maintained by
 > [Tigera](https://www.tigera.io/tigera-products), and may have separate support
 > options.
 

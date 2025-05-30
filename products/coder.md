@@ -141,4 +141,4 @@ releases:
 
 There is a new minor release of Coder on the first Tuesday of each month. Minor releases are
 supported for three months with bug and security fixes the first month, major bug and security
-fixes the second month and only security fixes the third month.
+fixes the second month, and only security fixes the third month.

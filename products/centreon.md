@@ -136,11 +136,11 @@ releases:
 
 {: .warning }
 > Centreon is composed of many components, each with its own minor version number.
-> The version numbers tracked here is for the Centreon Web interface.
+> The version numbers tracked here are for the Centreon Web interface.
 
 ## Release Cadence
 
-Centreon delivers two releases per year and releases are named according to the year and period of
+Centreon delivers two releases per year, and releases are named according to the year and period of
 delivery: `XX.04` for the spring release, and `XX.10` for the fall release. All modules and
 components of the Centreon software suite use the same release numbers.
 
@@ -149,7 +149,7 @@ components of the Centreon software suite use the same release numbers.
 >
 > [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/)
 > (expected in October 2024), Centreon will have one major release
-> in October every year. Minor versions, with bug fixes and minor improvements will be released on a monthly basis.
+> in October every year. Minor versions, with bug fixes and minor improvements will be released monthly.
 > A Service Pack version, cumulating all minor versions changes, is typically delivered after six months.
 
 ## Support Lifecycle

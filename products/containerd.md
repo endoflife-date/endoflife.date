@@ -26,7 +26,7 @@ auto:
         eol: "End of Life"
 
 # Support and EOL dates can be found on https://containerd.io/releases/#support-horizon.
-# It seems that there is no more active support phases since a few releases.
+# It seems there are no more active support phases since a few releases.
 releases:
 -   releaseCycle: "2.1"
     releaseDate: 2025-05-07
@@ -112,8 +112,8 @@ release every year.
 Minor non-LTS releases are actively supported for at least one year with bug and security fixes.
 After that, support may be extended for an additional undefined period with security fixes only.
 
-Some minor releases are designated as Long Term Support (LTS) releases. These are supported for at
+Some minor releases are designated as Long-Term Support (LTS) releases. These are supported for at
 least three years with bug and security fixes, as well as patches to support its longer term
-maintainability (such as dependencies updates or even sometime feature backports to support new
+maintainability (such as dependency updates or even sometime feature backports to support new
 Kubernetes releases). There is at least a 6-month overlap between the end of life of an LTS release
 and the initial version of the next LTS release.

@@ -119,5 +119,6 @@ releases:
 
 > [Contao Open Source CMS](https://contao.org) is a content management system written in PHP.
 
-LTS releases are actively supported for three years + one year with security fixes. Non-LTS versions are supported for half a year.
-Contao follows semantic versioning.
+Contao follows [Semantic Versioning](https://semver.org/).
+LTS releases are actively supported for three years, plus one year with security fixes.
+Non-LTS versions are supported for half a year.
