@@ -9,7 +9,7 @@ releasePolicyLink: https://www.suse.com/lifecycle
 changelogTemplate: https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/__RELEASE_CYCLE__/
 eolColumn: General Support
 
-# Release dates are documented in each release notes in the "Version revision history" paragraph.
+# Release dates are documented in each release note in the "Version revision history" paragraph.
 # EOL dates can be found on https://www.suse.com/lifecycle.
 releases:
 -   releaseCycle: "5.0"
@@ -78,6 +78,6 @@ releases:
 
 
 {: .warning }
-> This page tracks SUSE Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org). Uyuni offers the same functionality, but follows a rolling release - bugfixes are only available on the latest version.
+> This page tracks SUSE Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org). Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 
-SUSE Manager is usually released every 12 months. The current release is usually supported for an additional 12 months once after the next release, resulting in a 24 month support cycle. SUSE Manager Proxy follows the same lifecycle as SUSE Manager Server.
+SUSE Manager is usually released every 12 months. The current release is usually supported for an additional 12 months once after the next release, resulting in a 24-month support cycle. SUSE Manager Proxy follows the same lifecycle as SUSE Manager Server.
