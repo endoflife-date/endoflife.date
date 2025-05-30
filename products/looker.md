@@ -313,10 +313,10 @@ releases:
 
 ## Looker-hosted services
 
-Looker publishes a [planned maintenance schedule][schedule] - during which your instance may be
+Looker publishes a [planned maintenance schedule][schedule] — during which your instance may be
 temporarily unavailable for updates, server upgrades, or other system work. Upgrades are still
 triggered by [reaching out to customer support][best-practices].
-A new minor version is slowly rolled out over 2-3 weeks, and every release includes an "Expected
+A new minor version is slowly rolled out over 2–3 weeks, and every release includes an "Expected
 rollout start" and an "Expected final deployment and download available" date in the [Release
 Highlights page](https://docs.looker.com/relnotes). No new releases nor deployments happen in the
 month of December, which equates to 11 releases in a year.
@@ -329,9 +329,9 @@ install the update.
 
 ## [Extended support release][esr] program
 
-ESR releases are quarterly instead of monthly, and get 3 months of support. Issues deemed S1 and S2
+ESR releases are quarterly instead of monthly and get 3 months of support. Issues deemed S1 and S2
 will be patched back to the currently supported ESR releases. Participants in the ESR program are
-required to pair production instances with staging instances. A ESR release is kept in
+required to pair production instances with staging instances. An ESR release is kept in
 "ESR-staging" for a month, where it is considered "pre-stable".
 
 ![ESR release schedule image](https://cloud.google.com/static/looker/docs/images/2023-std-esr-supp-releases.png)
@@ -339,7 +339,7 @@ required to pair production instances with staging instances. A ESR release is k
 ## [Notifications][emails]
 
 All users are able to opt in to release notes from the Account Settings section of Looker.
-Additionally, anyone listed as a Technical Contact within a Looker instance (Admin ->
+Additionally, anyone listed as a Technical Contact within a Looker instance (Admin →
 General Settings) will receive release notifications.
 
 A list of officially supported releases is [published](https://cloud.google.com/looker/docs/officially-supported-releases)
