@@ -139,11 +139,11 @@ critical and security fixes. Only newly identified security vulnerabilities and 
 are considered for LTS versions.
 
 Angular follows [semantic versioning](https://semver.org). Major releases happen roughly every 6
-months, with 1-3 minor releases for every major release. There is an
+months, with 1–3 minor releases for every major release. There is an
 [update guide](https://angular.dev/update "Keeping your Angular projects up-to-date")
 available.
 
 Commercial support is available for all deprecated versions of Angular through the
 [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative.
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

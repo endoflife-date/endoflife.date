@@ -251,8 +251,8 @@ releases:
 > tablets.
 
 Major versions of Android that introduce behavior changes are released once a year in Q2.
-Since 2025, there are two Android releases a year.
-The other is a minor release in Q4 which brings new APIs and feature updates but does not contain any breaking changes.
+Since 2025, there have been two Android releases a year.
+The other is a minor release in Q4 that brings new APIs and feature updates but does not contain any breaking changes.
 See [Android OS Version History](https://en.wikipedia.org/wiki/Android_version_history) for additional information about each release.
 
 Android does not have a documented support policy. Releases are considered EOL when they are
@@ -261,6 +261,6 @@ no longer listed in [Android Security Bulletins](https://source.android.com/docs
 Android 4.4W is the first Android release for Android Wear.
 
 A stripped-down version of the Android operating system designed for low-end and ultra-budget
-smartphones, [Android (Go edition)](https://www.android.com/versions/go-edition/), is also
-made available by Google since Android 8.1. While based on Android it seems to follow a distinct
+smartphones, [Android (Go edition)](https://www.android.com/versions/go-edition/), has also been
+made available by Google since Android 8.1. While based on Android, it seems to follow a distinct
 release and EOL policy.

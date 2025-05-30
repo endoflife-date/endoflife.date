@@ -96,7 +96,7 @@ AKS also offers a limited [Platform Support](https://learn.microsoft.com/en-us/a
 to the N-3 release, where N is the latest GA release. In Platform Support, the AKS Platform remains
 supported, but scenarios related to Kubernetes functionality and components (including security fixes) aren't supported
 
-[Long Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
+[Long-Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
 releases receive support and security updates for two years (instead of the usual one year). Due to reliance on the upstream Kubernetes
 Community for component updates, several addons and features aren't supported in [LTS Support](https://learn.microsoft.com/en-us/azure/aks/long-term-support#unsupported-add-ons-and-features)
 beyond one year. This currently includes: Istio, Calico, Keda, KMS, Dapr, Application Gateway Ingress Controller, Open Service Mesh, and AAD Pod Identity.

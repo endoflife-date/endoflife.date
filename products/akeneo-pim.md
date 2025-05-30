@@ -7,7 +7,7 @@ releasePolicyLink: https://help.akeneo.com/en_US/akeneo-pim/akeneo-pim-product-s
 changelogTemplate: https://github.com/akeneo/pim-community-dev/blob/__RELEASE_CYCLE__/CHANGELOG-__RELEASE_CYCLE__.md
 releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
 eolColumn: Support
-eolWarnThreshold: 200 # march to september
+eolWarnThreshold: 200 # March to September
 
 identifiers:
 -   cpe: cpe:/:a:akeneo:product_information_management

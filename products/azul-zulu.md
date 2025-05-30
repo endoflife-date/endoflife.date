@@ -24,11 +24,11 @@ identifiers:
 -   cpe: cpe:/a:azul:zulu
 -   cpe: cpe:2.3:a:azul:zulu
 
-# Auto-update will be difficult to implement. It's not difficult to get the versions through
+# Auto-update will be challenging to implement. It's not difficult to get the versions through
 # https://app.swaggerhub.com/apis/azul/zulu-download-community/1.0, but the API does not provide
 # accurate dates (in the bundles/latest endpoint).
 # Moreover:
-# - releases have a latestJdkVersion that must be updated whenever latest is updated,
+# - releases have a latestJdkVersion that must be updated whenever the latest is updated,
 # - changelog links are not predictable (see https://docs.azul.com/core/release-notes/release-notes).
 
 # Versions and dates are those from the CA builds (PSU Update Type).
@@ -36,9 +36,9 @@ identifiers:
 # Latest release dates can be found in each corresponding JSE Certificate (or in https://docs.azul.com/core/zulu-openjdk/release-notes.html).
 # EOL dates can be found on https://www.azul.com/products/azul-support-roadmap/.
 # Extended support is also documented on https://www.azul.com/products/azul-support-roadmap/ :
-# - LTS : EOL + 2 years
-# - MTS : EOL + 1 year
-# - STS : EOL + 6 months
+# - LTS: EOL + 2 years
+# - MTS: EOL + 1 year
+# - STS: EOL + 6 months
 # - custom for Java 6/7
 releases:
 -   releaseCycle: "24"
@@ -129,7 +129,7 @@ releases:
     link: https://docs.azul.com/core/release/july-2021/release-notes/release-notes
 
 -   releaseCycle: "15"
-    releaseLabel: "15 (<abbr title='Medium Term Support'>MTS</abbr>)"
+    releaseLabel: "15 (<abbr title='Medium-Term Support'>MTS</abbr>)"
     releaseDate: 2020-09-15
     eol: 2023-03-31
     eoes: 2024-03-31
@@ -148,7 +148,7 @@ releases:
     latestReleaseDate: 2020-07-17
 
 -   releaseCycle: "13"
-    releaseLabel: "13 (<abbr title='Medium Term Support'>MTS</abbr>)"
+    releaseLabel: "13 (<abbr title='Medium-Term Support'>MTS</abbr>)"
     releaseDate: 2019-09-17
     eol: 2023-03-31
     eoes: 2024-03-31
@@ -244,7 +244,7 @@ Azul Zulu builds are available for Java 6 and greater. It follows the same caden
 - a new LTS release every 2 years (every fourth OpenJDK release) after the release of OpenJDK 17.
 
 LTS releases are supported for at least 8 years with bug fixes and security updates. Azul also has
-Medium Term Support (MTS) releases that are supported for at least 1.5 years after the
+Medium-Term Support (MTS) releases that are supported for at least 1.5 years after the
 general availability of the next LTS release.
 
 Extended support can be obtained with [Azul Platform Core](https://www.azul.com/products/core/).
@@ -253,7 +253,7 @@ Azul Zulu is one of the many builds of OpenJDK. For recommendations on which JDK
 out [whichjdk.com](https://whichjdk.com/#azul-zulu).
 
 *[CA]: Community Availability
-*[LTS]: Long Term Support
-*[MTS]: Medium Term Support
+*[LTS]: Long-Term Support
+*[MTS]: Medium-Term Support
 *[PSU]: Patch Set Updates
-*[STS]: Short Term Support
+*[STS]: Short-Term Support

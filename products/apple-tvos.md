@@ -97,4 +97,4 @@ releases:
 Major versions of tvOS are released annually, with the previous major version losing support.
 
 A [Compatibility Table](https://en.wikipedia.org/wiki/TvOS#Supported_OS_releases) for supported
-combinations of tvOS, and, Apple TV generations is available.
+combinations of tvOS and Apple TV generations is available.
