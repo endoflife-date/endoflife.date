@@ -24,10 +24,10 @@ auto:
 
 # EOL status available on https://activemq.apache.org/components/classic/download/, should be close to eol(x) = releaseCycle(x+2)
 # link(x) =
-# - y > 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','0'}}-release"
-# - y > 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for 5.x releases)
-# - y <= 9 and z > 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
-# - y <= 9 and z <= 9 : "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
+# - y > 9 and z > 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','0'}}-release"
+# - y > 9 and z <= 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','0'|replace_first:'.','00'}}-release" (default, works for 5.x releases)
+# - y <= 9 and z > 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace_first:'.','00'|replace_first:'.','0'}}-release"
+# - y <= 9 and z <= 9: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 releases:
 -   releaseCycle: "5.19"
     releaseDate: 2025-03-07
@@ -82,28 +82,28 @@ releases:
 
 -   releaseCycle: "5.13"
     releaseDate: 2015-11-30
-    eol: 2016-12-16 # estimated based on latest release date
+    eol: 2016-12-16 # estimated based on the latest release date
     latest: "5.13.5"
     latestReleaseDate: 2016-12-16
     link: https://activemq.apache.org/activemq-5013004-release # no 5.13.5 changelog
 
 -   releaseCycle: "5.12"
     releaseDate: 2015-08-10
-    eol: 2016-02-03 # estimated based on latest release date
+    eol: 2016-02-03 # estimated based on the latest release date
     latest: "5.12.3"
     latestReleaseDate: 2016-02-03
     link: https://activemq.apache.org/activemq-5012002-release # no 5.12.3 changelog
 
 -   releaseCycle: "5.11"
     releaseDate: 2015-01-30
-    eol: 2016-02-03 # estimated based on latest release date
+    eol: 2016-02-03 # estimated based on the latest release date
     latest: "5.11.4"
     latestReleaseDate: 2016-02-03
     link: https://activemq.apache.org/activemq-5011003-release # no 5.11.4 changelog
 
 -   releaseCycle: "5.10"
     releaseDate: 2014-06-05
-    eol: 2015-02-13 # estimated based on latest release date
+    eol: 2015-02-13 # estimated based on the latest release date
     latest: "5.10.2"
     latestReleaseDate: 2015-02-13
 
@@ -144,7 +144,7 @@ releases:
 
 -   releaseCycle: "5.4"
     releaseDate: 2010-08-13
-    eol: 2011-10-12 # estimated based on latest release date
+    eol: 2011-10-12 # estimated based on the latest release date
     latest: "5.4.3"
     latestReleaseDate: 2011-10-12
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
@@ -194,9 +194,9 @@ releases:
 ---
 
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that
-> supports a number of transport protocols, such as STOMP, MQTT or AMQP.
+> supports a number of transport protocols, such as STOMP, MQTT, or AMQP.
 
-There are currently two flavors of ActiveMQ available - the _"Classic"_ broker, and the next
+There are currently two flavors of ActiveMQ available — the _"Classic"_ broker, and the next
 generation broker code-named _Artemis_ (which will become the next "Classic" major version at some
 point). This page only tracks ActiveMQ "Classic" releases.
 

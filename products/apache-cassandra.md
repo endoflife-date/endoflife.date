@@ -65,7 +65,7 @@ Cassandra follows [SemVer](https://semver.org/). These are the rough heuristics 
 can be included in a given release.
 
 - Patch releases on a GA branch should only include bug fixes.
-- Minor versions contain new features and improvements, and are always compatible with all minor versions in the same and adjacent (next-to-next) major versions.
+- Minor versions contain new features and improvements and are always compatible with all minor versions in the same and adjacent (next-to-next) major versions.
 - Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version.  Deprecated APIs may then be removed in the next-next Major version.
 
 As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent
@@ -76,5 +76,5 @@ next major version. Upgrades that skip a major version are not supported.
 ## Release Cadence
 
 The project currently targets yearly major releases (can be a new major or minor version, depending
-on upgrade compatibility). Patch releases are cut based on either volume of fixes or severity of
-bugfixes that get committed to the project.
+on upgrade compatibility). Patch releases are cut based on either the volume of fixes or the severity
+of bugfixes that get committed to the project.

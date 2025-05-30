@@ -19,8 +19,8 @@ auto:
 
 # Cycles documented in https://subversion.apache.org/docs/release-notes
 # EOL documented on https://subversion.apache.org/roadmap.html
-# > To date, every release since 1.0 has been LTS, with the exception of 1.11, 1.12, and 1.13 which were regular.
-# All releases documented on https://subversion.apache.org/docs/release-notes/release-history.html
+# > To date, every release since 1.0 has been LTS, except 1.11, 1.12, and 1.13 which were regular.
+# All releases are documented on https://subversion.apache.org/docs/release-notes/release-history.html
 releases:
 -   releaseCycle: "1.14"
     lts: true
