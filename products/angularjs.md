@@ -98,9 +98,9 @@ releases:
 
 AngularJS was [deprecated](https://docs.angularjs.org/misc/version-support-status) on
 December 31, 2021 after a [LTS period](https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c)
-on the final version 1.8.3 which was released April 7, 2022.
+on the final version 1.8.3, which was released April 7, 2022.
 
-Beginning January 1, 2022, commercial [extended long term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
+Beginning January 1, 2022, commercial [extended long-term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
 became available through the [HeroDevs](https://www.herodevs.com/) Never-Ending Support
 initiative (NES, formerly XLTS). [OpenLogic](https://www.openlogic.com/solutions/angularjs-support-and-services) also
-provides commercial long term support for AngularJS.
+provides commercial long-term support for AngularJS.
