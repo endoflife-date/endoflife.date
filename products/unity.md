@@ -119,7 +119,7 @@ releases:
 
 Unity has two releases: Tech stream and LTS.
 
-*Tech stream* releases are released twice a year (each one receiving weekly updates), and are
+*Tech stream* releases are released twice a year (each one receiving weekly updates) and are
 supported only until the next tech stream release is out.
 
 *Unity LTS releases* are released once a year and are based off the previous tech stream branch.

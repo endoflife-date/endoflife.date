@@ -118,7 +118,7 @@ releases:
 
 > [Umbraco](https://umbraco.com/) is an open-source content management system (CMS) platform for
 > publishing content on the World Wide Web and intranets. It is written in C# and deployed on
-> Microsoft based infrastructure. Since version 4.5, the whole system has been available under an
+> Microsoft-based infrastructure. Since version 4.5, the whole system has been available under an
 > MIT License.
 
 Umbraco follows [Semantic Versioning](https://umbraco.com/products/knowledge-center/versioning-and-release-cadence/).
@@ -126,7 +126,7 @@ Starting with Umbraco 9 (2021-09-28), a new major version is released two times 
 minor version is released every 6 weeks, and patch versions are published as soon as possible.
 
 Starting from January 2022, there are two phases of support for major releases: the “Support” phase
-and the “Security” phase. The “Support” phase includes bugs, regressions and security fixes for 9
+and the “Security” phase. The “Support” phase includes bugs, regressions, and security fixes for 9
 months from the first release, extended to 24 months for LTS major releases. It is followed by the
 “Security” phase, which includes only security fixes for 3 months, extended to 12 months for LTS
 major releases. At the end of the Security phase, major releases are considered End Of Life (EOL).
