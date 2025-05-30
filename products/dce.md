@@ -33,7 +33,7 @@ releases:
 
 ---
 
-> [DaoCloud Enterprise (DCE)](https://docs.daocloud.io/en/) is a Kubernetes based community and commercial
+> [DaoCloud Enterprise (DCE)](https://docs.daocloud.io/en/) is a Kubernetes-based community and commercial
 > development platform from DaoCloud.
 
 DCE's lifecycle is typically 3 years after release, with new releases usually about every two
@@ -41,4 +41,4 @@ years. A list of all the releases with their dates can be seen on
 [the download page](https://docs.daocloud.io/en/download/index.html).
 
 [Extended Software Maintenance](https://docs.daocloud.io/en/dce/support.html#extended-software-maintenance-eam)
-is available to qualifying customers, and includes critical fixes, with no backport guarantees.
+is available to qualifying customers and includes critical fixes, with no backport guarantees.

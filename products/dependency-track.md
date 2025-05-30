@@ -65,7 +65,7 @@ releases:
 
 > [OWASP Dependency-Track](https://dependencytrack.org/) is an intelligent API-first Component
 > Analysis platform that allows organizations to identify and reduce risk in the software supply
-> chain. It monitors component usage across all versions of every application in order to
+> chain. It monitors component usage across all versions of every application to
 > proactively identify risk across an organization.
 
 Dependency-Track does not have a fixed release cycle, and only the latest version is supported.

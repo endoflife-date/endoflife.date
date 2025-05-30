@@ -194,14 +194,14 @@ security team. When a new stable version is released, the security team will usu
 previous version for a year or so, while they also cover the new/current version. Only stable is
 recommended for production use.
 
-[Debian Long Term Support (LTS)](https://wiki.debian.org/LTS) is a project to extend the lifetime of
+[Debian Long-Term Support (LTS)](https://wiki.debian.org/LTS) is a project to extend the lifetime of
 all Debian stable releases to (at least) 5 years on [a limited set of
 architectures](https://lts-team.pages.debian.net/wiki/FAQ.html#what-architectures-are-supported).
-Debian LTS will not be handled by the Debian security team, but by a separate group of volunteers
+Debian LTS will not be handled by the Debian security team but by a separate group of volunteers
 and companies. Not all packages of the Debian archive are supported by LTS, the
 [debian-security-support](https://wiki.debian.org/LTS/Using#Check_for_unsupported_packages) package
 can check for unsupported packages.
 
-A commercial offering for [Extended Long Term Support (ELTS)](https://wiki.debian.org/LTS/Extended)
+A commercial offering for [Extended Long-Term Support (ELTS)](https://wiki.debian.org/LTS/Extended)
 is also available to further extend the lifetime of Debian releases to 10 years (5 supplementary
 years after the 5 years offered by the LTS project). It is not an official Debian project.
