@@ -162,10 +162,10 @@ releases:
 
 ---
 
-> [Mautic](https://www.mautic.org/), is an open source marketing automation software.
+> [Mautic](https://www.mautic.org/), is an open-source marketing automation software.
 
 Mautic only actively supports the latest version with new features, bug fixes, and security updates.
 
-Commercial [Extended Long Term Support (ELTS)](https://mautic.org/extended-long-term-support-elts/)
+Commercial [Extended Long-Term Support (ELTS)](https://mautic.org/extended-long-term-support-elts/)
 can be purchased from Mautic for some releases. It includes only security updates, and the duration
-vary depending on the release.
+varies depending on the release.

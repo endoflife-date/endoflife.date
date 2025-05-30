@@ -123,9 +123,9 @@ releases:
 
 ---
 
-> [MySQL](https://www.mysql.com/about/) is an open source database developed by Oracle. With its
-> proven performance, reliability and ease-of-use, MySQL has become the leading database choice for
-> web-based applications, used by high profile web properties including Facebook, Twitter, YouTube,
+> [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its
+> proven performance, reliability, and ease-of-use, MySQL has become the leading database choice for
+> web-based applications, used by high-profile web properties including Facebook, Twitter, YouTube,
 > Yahoo! and many more.
 
 Oracle offers two release streams for MySQL:
@@ -137,19 +137,19 @@ security patches, and new features. Support for Innovation releases is limited u
 Innovation releases are production-grade quality and can be safely used in production environments.
 
 LTS releases have a 5-year premier and 3-year extended support, the same as the previously supported releases.
-The last version of a major release cycle will be designated as LTS. (With the exception of 8.0).
+The last version of a major release cycle will be designated as LTS (except for 8.0).
 Features can be removed (& added) only in the first LTS release (e.g., 8.4.0 LTS) but not later.
 
 8.1 is the first Innovation release,
 and 8.0.34+ (LTS) has transitioned to only bug fixes until 8.0 End-Of-Life (EOL)
 in April 2026. Around July 2024, the last 8.x release will eventually become LTS to
-let users to migrate from 8.0.x to the 8.x LTS version.
+let users migrate from 8.0.x to the 8.x LTS version.
 
 ## Release Cadence
 
 - Innovation releases will likely happen quarterly.
-- About every 2 years a new Long Term Support version will be released.
-  An exception is the 8.x LTS release which will happen well before EOL of 8.0
+- About every 2 years a new Long-Term Support version will be released.
+  An exception is the 8.x LTS release, which will happen well before EOL of 8.0.
 
 ## Support Levels
 
@@ -166,7 +166,7 @@ let users to migrate from 8.0.x to the 8.x LTS version.
 ### Sustaining Support
 
 Any time, beyond the Premier Support period. Support only. No new releases, no new fixes (no error
-correction for new issues), no new updates. Only pre-existing updates, fixes and alerts are
+correction for new issues), no new updates. Only pre-existing updates, fixes, and alerts are
 available.
 
 ## Community Edition

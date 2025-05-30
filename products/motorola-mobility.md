@@ -415,7 +415,7 @@ releases:
 > [Motorola Mobility](https://motorola.com) is an American smartphone manufacturer, known for the
 > Moto and Razr brands. It is a subsidiary of Lenovo.
 
-Motorola devices typically receive security updates for 2-3 years. Phones that
+Motorola devices typically receive security updates for 2–3 years. Phones that
 launch on any version of Android will typically be supported for one upgrade to
 the next major version of Android.
 
