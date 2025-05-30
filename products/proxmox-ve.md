@@ -83,4 +83,4 @@ releases:
 > systems including Linux and Windows on x64 hardware.
 
 Proxmox VE versions are supported at least as long as the corresponding Debian Version is oldstable.
-Proxmox VE uses a rolling release model and using the latest stable version is always recommended.
+Proxmox VE uses a rolling release model, and using the latest stable version is always recommended.

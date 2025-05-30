@@ -267,7 +267,7 @@ releases:
 
 ## Critical Environment (CE)
 
-The critical environment (CE) line, released every 12-18 months is supported for 24 months. This CE
+The critical environment (CE) line, released every 12–18 months, is supported for 24 months. This CE
 line is based on an existing agent line, already available, and becomes a critical environment line
 only after its stability has been verified. The line receives content updates and minor version
 releases relating to high and critical-severity bug fixes alongside security fixes within the

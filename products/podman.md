@@ -143,10 +143,10 @@ releases:
 
 ---
 
-> [Podman](https://podman.io/) is a daemonless, open source, Linux native
+> [Podman](https://podman.io/) is a daemon-less, open-source, Linux-native
 > tool designed to make it easy to find, run, build, share and deploy
 > applications using [Open Container Initiative (OCI)](https://www.opencontainers.org/)
 > Containers and Container Images.
 
-Podman Engine is supported by the [Containers Community](https://github.com/containers),
+Podman Engine is supported by the [containers Community](https://github.com/containers),
 and as such - there's no list of supported releases.

@@ -81,6 +81,6 @@ releases:
 
 Releases are created roughly every six months, following the release cycle of Alpine Linux.
 The release branches receive security updates as necessary (from both Alpine and postmarketOS).
-postmarketOS, also provides service packs for the latest release to ship fixes and feature updates.
+postmarketOS also provides service packs for the latest release to ship fixes and feature updates.
 
 An old release becomes EOL one month after the next release.

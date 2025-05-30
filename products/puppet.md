@@ -69,7 +69,7 @@ releases:
 > of servers. Its primary product, Puppet Enterprise is a proprietary and closed-source version of
 > its open-source Puppet software.
 
-This page tracks the Open Source Puppet (OSP), and not Puppet Enterprise (PE). Version numbers are
+This page tracks the Open Source Puppet (OSP) and not Puppet Enterprise (PE). Version numbers are
 for puppet-agent, and corresponding version numbers of other components are published [on the
 platform lifecycle documentation](https://www.puppet.com/docs/puppet/8/platform_lifecycle.html#component-version-numbers).
 
