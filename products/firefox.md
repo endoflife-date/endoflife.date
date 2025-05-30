@@ -24,7 +24,7 @@ auto:
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.
-# Next ESR/LTS is not yet planned.
+# The next ESR / LTS is not yet planned.
 releases:
 -   releaseCycle: "138"
     releaseDate: 2025-04-29
@@ -291,7 +291,7 @@ releases:
 ## Firefox also has three testing channels:
 
 - **Firefox Beta:** This branch is meant to reflect what the next **Firefox** release will look
-  like. Every four weeks it gets cherry-picked changes from **Nightly**, then follows a three weekly
+  like. Every four weeks it gets cherry-picked changes from **Nightly**, then follows a three-weekly
   point release aimed at stabilizing the release for the stable branch. Version number is always
   `X + 1`, `X` being the **Firefox** version number.
 - **Firefox Developer Edition:** This branch is based off the **Firefox Beta** branch with
@@ -306,5 +306,5 @@ releases:
 ## Special notes
 
 - Firefox 78 ESR was the last version of Firefox that supported macOS versions < 10.12 or Flash.
-- Firefox only supports last 3 macOS releases, [matching the Apple support cycle.](https://support.mozilla.org/kb/firefox-mac-osx-users-esr)
-- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7-8.1 and macOS 10.12-10.14 up to September 2025.
+- Firefox only supports the last 3 macOS releases, [matching the Apple support cycle](https://support.mozilla.org/kb/firefox-mac-osx-users-esr).
+- Firefox [ESR 115 support is extended](https://whattrainisitnow.com/release/?version=esr) for Windows 7–8.1 and macOS 10.12–10.14 up to September 2025.

@@ -20,7 +20,7 @@ auto:
       template: '{{version}}'
 
 # Dates as per https://fedorapeople.org/groups/schedule/
-# Latest release dates are not displayed, but added automatically by auto-update.
+# Latest release dates are not displayed but added automatically by auto-update.
 releases:
 -   releaseCycle: "42"
     releaseLabel: "__RELEASE_CYCLE__ (__CODENAME__)"
@@ -340,7 +340,7 @@ releases:
 > [Fedora](https://fedoraproject.org/) is a Linux distribution developed by the community-supported
 > Fedora Project and sponsored by Red Hat.
 
-Fedora end of life dates are not typically known far in advance with to-the-day accuracy. Fedora has
+Fedora end-of-life dates are not typically known far in advance with to-the-day accuracy. Fedora has
 a relatively short life cycle: Release X is supported until 4 weeks after the release of
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
