@@ -24,7 +24,14 @@ auto:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x) + 18 months)
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
 releases:
+-   releaseCycle: "4.0"
+    releaseDate: 2025-05-23
+    eol: 2026-11-23 # estimated
+    latest: "4.0.0"
+    latestReleaseDate: 2025-05-23
+
 -   releaseCycle: "3.5"
+    lts: true
     releaseDate: 2023-09-09
     eol: 2026-04-12 # https://github.com/apache/spark-website/commit/f06babdb98c4d97163c405622b2cc06c9d3c5797
     latest: "3.5.6"
