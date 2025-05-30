@@ -113,5 +113,4 @@ releases:
 > mainly in mainframes and working on POWER-based architectures.
 
 Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
-on [AIX support lifecycle information](https://www.ibm.com/support/pages/aix-support-lifecycle-information)
-page.
+on [the AIX support lifecycle information page](https://www.ibm.com/support/pages/aix-support-lifecycle-information).

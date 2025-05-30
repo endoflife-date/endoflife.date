@@ -71,12 +71,12 @@ supported till 2029.
 
 ## Special notes
 
-- Internet Explorer is end of life on June 14, 2022 for Semi-Annual channel Windows installs (Home,
+- Internet Explorer has been end of life since June 14, 2022 for Semi-Annual channel Windows installs (Home,
   Pro, Education, Enterprise, Workstations editions), regardless of their accompanying operating
   system's life cycle.
 - Internet Explorer 11 is supported on LTSB, LTSC and Server for their appropriate operating
-  system's life cycle, including ESU. For exceptions to this see [Microsoft's documentation.](https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-)
-- End of life date for Internet Explorer 11 on non-semi-annual channel Windows installs is based on
-  the end of life date of [Windows Server 2022's extended end date](https://learn.microsoft.com/lifecycle/products/windows-server-2022).
-  But if the operating system that Internet Explorer 11 is installed on loses support prior to this
+  system's life cycle, including ESU. For exceptions to this, see [Microsoft's documentation.](https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-)
+- End-of-life date for Internet Explorer 11 on non-semi-annual channel Windows installations is based on
+  the end-of-life date of [Windows Server 2022's extended end date](https://learn.microsoft.com/lifecycle/products/windows-server-2022).
+  But if the operating system that Internet Explorer 11 is installed on loses support prior to this,
   then your installation is unsupported.

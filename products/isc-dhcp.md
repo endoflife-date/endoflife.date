@@ -49,5 +49,5 @@ maintenance versions that ISC planned to publish. An exception might be made in 
 significant security vulnerability, but ISC's intention is to cease actively maintaining ISC DHCP
 codebase.
 
-ISC suggests new users to consider [ISC Kea DHCP server](https://www.isc.org/kea/) or [any other
+ISC suggests that new users consider [ISC Kea DHCP server](https://www.isc.org/kea/) or [any other
 alternatives](https://en.wikipedia.org/wiki/Comparison_of_DHCP_server_software).

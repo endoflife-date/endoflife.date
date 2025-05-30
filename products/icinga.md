@@ -144,5 +144,5 @@ releases:
 > [Icinga](https://icinga.com) is an open-source monitoring server. It is designed to monitor various aspects of IT
 > infrastructure, including networks, servers, virtual machines, and cloud services.
 
-The two most recent releases are supported. The latest release receive bug and security fixes, while the previous
+The two most recent releases are supported. The latest release receives bug and security fixes, while the previous
 version received only security fixes.
