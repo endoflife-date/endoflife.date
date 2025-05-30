@@ -180,7 +180,7 @@ identifiers:
 -   purl: pkg:apk/alpine/bellsoft-java8-runtime?repository_url=https://apk.bell-sw.com/main
 -   purl: pkg:apk/alpine/bellsoft-java8-runtime-lite?repository_url=https://apk.bell-sw.com/main
 
-# RPM packages that work across OpenSUSE/CentOS etc
+# RPM packages that work across OpenSUSE/CentOS etc.
 -   purl: pkg:rpm/bellsoft-java11?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java11-full?repository_url=https://yum.bell-sw.com
 -   purl: pkg:rpm/bellsoft-java11-lite?repository_url=https://yum.bell-sw.com
@@ -362,7 +362,7 @@ releases:
     releaseDate: 2018-03-21
     eol: 2018-09-25
     latest: "10.0.2"
-    # last modified date of the files in https://download.bell-sw.com/java/10.0.2/bellsoft-jdk10.0.2-linux-amd64.deb
+    # The last modified date of the files in https://download.bell-sw.com/java/10.0.2/bellsoft-jdk10.0.2-linux-amd64.deb
     latestReleaseDate: 2018-08-05
 
 # There are no 9 releases on https://bell-sw.com/pages/downloads/
@@ -414,4 +414,4 @@ needed.
 Liberica JDK is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#bellsoft-liberica-jdk).
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support
