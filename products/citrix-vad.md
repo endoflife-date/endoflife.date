@@ -17,6 +17,10 @@ LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 eoasColumn: true
 eoesColumn: true
 
+# For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html.
+# For non-LTS:
+# eoas(x) = releaseDate(x) + 6 months
+# eol(x) = releaseDate(x) + 18 months
 releases:
 -   releaseCycle: "2503"
     releaseDate: 2025-05-13
