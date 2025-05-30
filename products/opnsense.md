@@ -171,6 +171,6 @@ releases:
 > user-friendly interface and robust features for network security.
 
 OPNsense follows a [Calendar Versioning scheme](https://docs.opnsense.org/manual/updates.html#updates)
-with two major releases per year : one in January and the other in July. [Only the latest release
+with two major releases per year: one in January and the other in July. [Only the latest release
 is supported](https://docs.opnsense.org/releases/CE_23.7.html#january-04-2024) with one update
 every two weeks containing non-breaking new features, bug fixes and security updates.

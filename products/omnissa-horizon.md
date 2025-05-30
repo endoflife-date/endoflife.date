@@ -28,7 +28,7 @@ releases:
 
 -   releaseCycle: "8.2406"
     releaseDate: 2024-06-25
-    eol: false # is there a date documented somewhere ?
+    eol: false # is there a date documented somewhere?
     technicalGuidance: null
     latest: "8.2406"
     latestReleaseDate: 2024-06-25
@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "8.2312.1"
     releaseDate: 2024-04-04
-    eol: false # is there a date documented somewhere ?
+    eol: false # is there a date documented somewhere?
     technicalGuidance: null
     latest: "8.2312.1"
     latestReleaseDate: 2024-04-04
@@ -44,7 +44,7 @@ releases:
 
 -   releaseCycle: "8.2312"
     releaseDate: 2024-01-23
-    eol: false # is there a date documented somewhere ?
+    eol: false # is there a date documented somewhere?
     technicalGuidance: null
     lts: true
     latest: "8.2312"
@@ -178,7 +178,7 @@ releases:
 > After [Broadcom's acquisition of VMWare](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware),
 > Broadcom [divested the End-User Computing Division
 > (which includes Horizon) to KKR](https://media.kkr.com/news-details/?news_id=48701629-ae4d-4d88-b1a9-90a438c6bf6c)
-> and branded it as [Omnissa](https://www.omnissa.com/introducing-omnissa-the-former-vmware-end-user-computing-business/) as part of the restructuring - which is still in process.
+> and branded it as [Omnissa](https://www.omnissa.com/introducing-omnissa-the-former-vmware-end-user-computing-business/) as part of the restructuring — which is still in process.
 > Omnissa and Broadcom have entered into [a reseller agreement enabling EUC to offer the "combined offering"](https://www.omnissa.com/setting-the-record-straight-euc-to-continue-to-offer-horizon-with-vsphere-and-vsan/)
 > versions of Horizon SaaS and Horizon Term SKUs with vSphere Foundation for VDI. This
 > [combined offering](https://kb.omnissa.com/s/article/14804) will be available
@@ -187,7 +187,7 @@ releases:
 
 [Starting in Q2 2018,](https://kb.vmware.com/s/article/52845) Horizon introduced an option of
 Extended Service Branch (ESB) in addition to the Current Release (CR) branch.  ESBs receive three
-planned periodic maintenance updates – typically 6 months, 9 months and 15 months after the base
+planned periodic maintenance updates – typically 6 months, 9 months, and 15 months after the base
 version release.
 
 ## [General Support](https://lifecycle.vmware.com/)
@@ -200,7 +200,7 @@ Terms and Conditions.
 
 The last date on which you can access support and workarounds for low-severity issues on supported
 configurations only. During the Technical Guidance phase, VMware does not offer new hardware
-support, server/client/guest OS updates, new security patches or bug fixes unless otherwise noted.
+support, server/client/guest OS updates, new security patches, or bug fixes unless otherwise noted.
 
 {% include table.html
    labels="Release,Technical Guidance Ends"

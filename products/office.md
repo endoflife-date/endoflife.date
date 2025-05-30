@@ -13,7 +13,7 @@ identifiers:
 -   cpe: cpe:/a:microsoft:office
 -   cpe: cpe:2.3:a:microsoft:office
 
-# Release date can be found on subpages of https://en.wikipedia.org/wiki/Microsoft_Office.
+# Release dates can be found on subpages of https://en.wikipedia.org/wiki/Microsoft_Office.
 releases:
 -   releaseCycle: "365"
     outOfOrder: true # to keep it at the top
@@ -35,7 +35,7 @@ releases:
     eoas: 2029-10-09
     eol: 2029-10-09
     link: https://learn.microsoft.com/en-us/lifecycle/products/office-ltsc-2024
-       
+
 -   releaseCycle: "2021"
     releaseDate: 2021-10-05
     eoas: 2026-10-13
@@ -94,6 +94,6 @@ releases:
 > Microsoft Office, or simply Office, is a family of client software, server software, and services
 > developed by Microsoft.
 
-Note Microsoft Office 2016 and 2019 is [only supported for connecting to Microsoft 365 services until 2023-10-10](https://learn.microsoft.com/deployoffice/endofsupport/microsoft-365-services-connectivity)
+Microsoft Office 2016 and 2019 are [only supported for connecting to Microsoft 365 services until 2023-10-10](https://learn.microsoft.com/deployoffice/endofsupport/microsoft-365-services-connectivity).
 
-Note that Microsoft Office 2019 for Mac is [only supported until 2023-10-10](https://learn.microsoft.com/lifecycle/products/microsoft-office-2019-for-mac).
+Microsoft Office 2019 for Mac is [only supported until 2023-10-10](https://learn.microsoft.com/lifecycle/products/microsoft-office-2019-for-mac).

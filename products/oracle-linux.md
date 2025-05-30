@@ -57,13 +57,13 @@ releases:
 ---
 
 > [Oracle Linux](https://www.oracle.com/linux/) is an Open Source, free RHEL derivative developed
-> by Oracle to be 100% application binary compatible alternative to Red Hat Enterprise Linux.
+> by Oracle to be a 100% application binary compatible alternative to Red Hat Enterprise Linux.
 
 ## [Support Tiers](https://www.oracle.com/us/support/library/enterprise-linux-support-policies-069172.pdf)
 
-- **Basic Support**: Available for 10 years for versions 5-9 from date of release. Includes access
+- **Basic Support**: Available for 10 years for versions 5–9 from date of release. Includes access
   to patches, fixes, security patches and security alerts.
-- **Premier Support**: Available for 10 years for versions 5-9 from date of release. Includes
+- **Premier Support**: Available for 10 years for versions 5–9 from date of release. Includes
   access to patches, fixes, security patches and security alerts. Additionally, includes live
   kernel patching (Certain security patches that may be applied without a reboot).
 - **Extended Support**: Available for a limited time, after Premier Support ends, as per agreement
@@ -77,10 +77,10 @@ releases:
 
 - Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available](https://forums.oracle.com/ords/apexds/post/what-is-the-lifecycle-of-oracle-linux-for-minor-releases-2173).
   Once a new minor point release is available, the older one is immediately considered end of life
-  and users must upgrade to continue receiving security updates. For example once 8.5 gets a
+  and users must upgrade to continue receiving security updates. For example, once 8.5 gets a
   general release, 8.4 is immediately end of life. Whereas on RHEL [this is not the case.](https://access.redhat.com/articles/rhel-eus)
 - Oracle Linux offers different support periods than upstream RHEL, with extra fees for using
-  extended support which is explained [here](https://www.oracle.com/a/ocom/docs/linux/oracle-linux-extended-support-ds.pdf).
+  extended support, which is explained [here](https://www.oracle.com/a/ocom/docs/linux/oracle-linux-extended-support-ds.pdf).
 - By default, Oracle Linux does not use the same kernel upstream RHEL uses, instead they support
   their own kernel builds called [UEK](https://docs.oracle.com/en/operating-systems/uek/) which may
   not be compatible with upstream kernels. [There is a Red Hat Compatible Kernel (RHCK) available

@@ -102,7 +102,7 @@ releases:
 
 > Oracle Application Express (also known as APEX) is an enterprise low-code application
 > development platform from Oracle Corporation. APEX is used for developing and deploying cloud,
->mobile and desktop applications. The platform is a web - based integrated development
+>mobile and desktop applications. The platform is a web-based integrated development
 > environment (IDE) with a range of features including wizards, drag-and-drop layout and property
 > editors to simplify the process of building applications and pages.
 

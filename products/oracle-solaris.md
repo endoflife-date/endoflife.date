@@ -18,7 +18,7 @@ identifiers:
 -   cpe: cpe:/o:oracle:solaris
 
 # Release and end of support dates can be found in the "Oracle’s Solaris Releases" paragraph on https://www.oracle.com/a/ocom/docs/support/advanced-customer-support/solaris-linux-vm-lsp.pdf.
-# A versions history can also be found on https://en.wikipedia.org/wiki/Oracle_Solaris#Version_history.
+# A version history can also be found on https://en.wikipedia.org/wiki/Oracle_Solaris#Version_history.
 releases:
 -   releaseCycle: "11.4"
     releaseDate: 2018-08-28
@@ -73,8 +73,8 @@ releases:
 > its stability, performance, scalability and innovative features such as DTrace or ZFS.
 
 
-Current Oracle Solaris support policy is based on Oracle Lifetime Support Policy - Oracle and Sun
-System Software and Operating Systems. This policy provides three stages of support: premier,
+The current Oracle Solaris support policy is based on _Oracle Lifetime Support Policy — Oracle and Sun
+System Software and Operating Systems_. This policy provides three stages of support: premier,
 extended and sustaining.
 
 **Premier Support** is available for a minimum of 10 years from the general availability.

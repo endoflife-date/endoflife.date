@@ -71,6 +71,6 @@ There is a strict dependency on [OpenSSL](https://endoflife.date/openssl) which 
 
 - **Full Stable**: This includes full security and bug fix support. Recommended for packaging, and includes Windows binaries/snapshots. A release stays in Full Stable Support for minimum 6 months after next major release.
 - **Old Stable**: Releases are source-only, with no official binaries. Security and critical bug fix support. Other bug fixes may be delivered as appropriate. A minimum of 12 months long.
-- **Git Tree Only**: Release are source-only. Only includes critical security updates. A minimum of 12 months long.
+- **Git Tree Only**: Releases are source-only. Only includes critical security updates. A minimum of 12 months long.
 
 This page uses the end of "Git Tree Only" support period as the End-of-Life date.
