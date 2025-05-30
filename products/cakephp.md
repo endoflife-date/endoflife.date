@@ -32,7 +32,7 @@ auto:
 
 # eoas(x) = releaseDate(x+1) + 1 day
 # For a given major version, the last three minor versions have security support.
-# Do not forget to document the codename in the product's description when adding a new major version (codename only changes per major version release).
+# Remember to document the codename in the product's description when adding a new major version (codename only changes per major version release).
 # See also https://github.com/cakephp/cakephp/wiki#important-future-release-dates.
 releases:
 -   releaseCycle: "5.2"
@@ -323,7 +323,7 @@ releases:
 
 ---
 
-> [CakePHP](https://cakephp.org/) is a free and open source PHP web development framework. It
+> [CakePHP](https://cakephp.org/) is a free and open-source PHP web development framework. It
 > follows the model–view–controller (MVC) approach and is written in PHP, modeled after the
 > concepts of Ruby on Rails.
 

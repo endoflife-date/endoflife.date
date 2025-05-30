@@ -70,7 +70,7 @@ releases:
 
 ---
 
-> [Composer](https://getcomposer.org/) is a package manager that is commonly used to manage
+> [Composer](https://getcomposer.org/) is a package manager commonly used to manage
 > libraries and other dependencies for PHP projects.
 
 {: .warning}
@@ -80,7 +80,7 @@ Attempting to update packages using Composer 1.x will no longer work beyond this
 
 ## [PHP Support](https://blog.packagist.com/composer-2-2/)
 
-Composer Version|PHP Version
-----------------|-----------
-2.3+            | `>=7.2.5`
-2.2 (LTS)       | `>=5.3.2`
+| Composer Version | PHP Version |
+|------------------|-------------|
+| 2.3+             | `>=7.2.5`   |
+| 2.2 (LTS)        | `>=5.3.2`   |
