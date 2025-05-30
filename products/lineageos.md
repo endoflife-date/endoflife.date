@@ -38,7 +38,8 @@ releases:
     link: https://lineageos.org/Changelog-27/
     androidVersion: "13"
 
-# starting from 19 LineageOS changed versioning convention to match AOSP's own changes. So no more minor versions. Read the changelog 26 (LineageOS 19) to learn more.
+# Starting from 19, LineageOS changed its versioning conventions to match AOSP's own changes.
+# So no more minor versions. Read the changelog 26 (LineageOS 19) to learn more.
 -   releaseCycle: "19"
     releaseDate: 2022-04-26
     eol: 2024-02-14 # https://lineageos.org/Changelog-28/#deprecations
@@ -90,6 +91,6 @@ latest versions stop being supported. A list of supported devices is available a
 Wiki](https://wiki.lineageos.org/devices/).
 
 Some old branches may still get security updates via Android Security Patches, but users will have
-to do their own builds to get these updates - official builds are only maintained for the last two
+to do their own builds to get these updates — official builds are only maintained for the last two
 versions. For details, please visit [LineageOS Gerrit](https://review.lineageos.org/)
 to check commits.

@@ -181,7 +181,7 @@ releases:
 > applications. It has an Ubuntu-based release simply named Linux Mint, and a Debian-based release
 > called LMDE (Linux Mint Debian Edition).
 
-Linux Mint releases follows [the support cycle](https://linuxmint.com/download_all.php) of the
+Linux Mint releases follow [the support cycle](https://linuxmint.com/download_all.php) of the
 Ubuntu release they are based on. This support does not extend to the duration of Extended Security
 Maintenance (ESM). Linux Mint users can opt in to receive [Extended Security Maintenance](https://ubuntu.com/security/esm)
 via [Ubuntu Pro](https://ubuntu.com/pro) for some packages once the main support period ends.
@@ -190,17 +190,17 @@ will not be receiving any updates.
 
 [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php) (LMDE) stops supporting a
 release shortly after a new LMDE release comes out. This however is still subject to change on a
-release by release basis.
+release-by-release basis.
 
 ## Ubuntu Package Support
 
-- Linux Mint has its own repositories for Linux Mint specific packages, but relies directly on
+- Linux Mint has its own repositories for Linux Mint specific packages but relies directly on
   Ubuntu repositories for the majority of the package base, including its mirrors.
 - Packages installed from the `universe` repository are maintained by the community, and [they may
   not receive timely security updates](https://help.ubuntu.com/community/Repositories#Universe).
 
 ## Feature Support
 
-- 19.3 'Tricia' is the last Linux Mint release to support 32-bit systems outside of LMDE.
+- 19.3 'Tricia' is the last Linux Mint release to support 32-bit systems outside LMDE.
   32-bit software support is still supported, following Ubuntu upstream.
 - 18.3 'Sylvia' is the last Linux Mint release to support KDE.
