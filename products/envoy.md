@@ -254,7 +254,7 @@ releases:
 
 ---
 
-> [Envoy](https://www.envoyproxy.io/) is an open-source high performance C++
+> [Envoy](https://www.envoyproxy.io/) is an open-source high-performance C++
 > distributed proxy designed for single services and applications, as well as
 > a communication bus and "universal data plane" designed for large
 > microservice "service mesh" architectures. Envoy runs alongside every
