@@ -38,6 +38,10 @@ auto:
           regex: '^(?P<value>\d+)\.0\.0$'
         releaseDate: "Stable"
         eol: "EOL"
+        chromeVersion: "Chrome"
+        nodeVersion:
+          column: "Node"
+          regex: '^v(?P<value>.+)$'
 
 releases:
 -   releaseCycle: "36"
@@ -46,7 +50,7 @@ releases:
     latest: "36.3.2"
     latestReleaseDate: 2025-05-28
     chromeVersion: "M136"
-    nodeVersion: "22.15" # https://releases.electronjs.org/
+    nodeVersion: "22.14"
 
 -   releaseCycle: "35"
     releaseDate: 2025-03-04
@@ -78,7 +82,7 @@ releases:
     latest: "32.3.3"
     latestReleaseDate: 2025-03-03
     chromeVersion: "M128"
-    nodeVersion: "20.18"
+    nodeVersion: "20.16"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
@@ -86,7 +90,7 @@ releases:
     latest: "31.7.7"
     latestReleaseDate: 2025-01-14
     chromeVersion: "M126"
-    nodeVersion: "20.18"
+    nodeVersion: "20.14"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -94,7 +98,7 @@ releases:
     latest: "30.5.1"
     latestReleaseDate: 2024-09-13
     chromeVersion: "M124"
-    nodeVersion: "20.16"
+    nodeVersion: "20.11"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
@@ -286,7 +290,7 @@ releases:
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
     chromeVersion: "M76"
-    nodeVersion: "12.4"
+    nodeVersion: "12.14.0"
 
 -   releaseCycle: "5"
     releaseDate: 2019-04-23
@@ -319,6 +323,7 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8.9"
+
 
 
 
