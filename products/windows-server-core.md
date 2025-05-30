@@ -144,6 +144,6 @@ releases:
 ---
 
 > Windows Server Core is a minimal installation option of Windows Server offering a smaller disc footprint with a smaller attack surface.
-> It's also offered as Windows container base image starting with 2016 (1607).
+> It's also offered as a Windows container base image starting with 2016 (1607).
 
 See [Windows Server Servicing channels](/windows-server#servicing-channels) for information on the servicing channels.

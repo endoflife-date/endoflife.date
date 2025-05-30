@@ -16,7 +16,7 @@ customFields:
     description: Supported PHP versions range
     link: https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/
 
-# This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
+# This regex drops '.0' from versions because x.y.0 releases are always referred to as x.y.
 # The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
 # But note that this regex would not work if WordPress releases an x.y.0.t version.
 # That should not be a problem though, such version were only used with 1.5.1.
