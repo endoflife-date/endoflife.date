@@ -75,9 +75,9 @@ releases:
 
 The Apache ZooKeeper community supports two release branches at a time: **stable** and **current**.
 Once a new minor version is released, the stable version is expected to be decommissioned soon and
-in approximately half a year will be announced as End-of-Life. During the half year grace period
+in approximately half a year will be announced as End-of-Life. During the half-year grace period,
 only security and critical fixes are expected to be released for the version. After EoL is
-announced no further patches are provided by the community. All ZooKeeper releases will remain
+announced, no further patches are provided by the community. All ZooKeeper releases will remain
 accessible from the official Apache Archives.
 
 No releases are scheduled in advance.

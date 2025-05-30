@@ -150,7 +150,7 @@ releases:
 > infrastructures and cloud environments.
 
 {: .warning }
-> Support for Zerto always require an active maintenance contract.
+> Support for Zerto always requires an active maintenance contract.
 
 There are two phases of support: a _General Support_ phase, with bug and security fixes, and a
 _Critical Support_ phase, with only critical bug and security fixes. Once the _Critical Support_
