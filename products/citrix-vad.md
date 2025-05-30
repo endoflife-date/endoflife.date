@@ -21,7 +21,7 @@ releases:
 -   releaseCycle: "2503"
     releaseDate: 2025-05-13
     eoas: 2025-11-13
-    eol: 2025-11-13
+    eol: 2026-11-13
     latest: "2403"
     latestReleaseDate: 2025-05-13
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to next new releaseCycle
