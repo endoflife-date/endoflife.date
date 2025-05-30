@@ -128,7 +128,7 @@ releases:
 
 -   releaseCycle: "1.18"
     releaseDate: 2020-10-13
-    eol: 2022-08-15 # Official EOL was on March 31, but it got fixes till August (see link below)
+    eol: 2022-08-15 # Official EOL was on March 31, but it got fixes till August (see the link below)
     # Last mention for 1.18 was on Sep 2022
     # https://github.com/awsdocs/amazon-eks-user-guide/blob/306ec81574cb60ae47b8dbc8834d6c9d0dd3fe66/doc_source/platform-versions.md
     latest: "1.18-eks-13"
@@ -149,8 +149,8 @@ provides extended support for up to 12 months.
 You can subscribe to upgrade notices on your [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/).
 The notice includes the end of support date, which is at least 60 days from the date of the notice.
 
-Starting from version 1.23, Amazon EKS clusters running on EOL version will automatically enter
-extended support at the end of the of standard support and Amazon will apply an additional charge
+Starting from version 1.23, Amazon EKS clusters running on an EOL version will automatically enter
+extended support at the end of the of standard support, and Amazon will apply an additional charge
 per cluster hour for all those clusters. Users that don’t want to be [automatically enrolled in
 extended support](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html#extended-support-faqs)
 must upgrade their cluster before the end of the standard support phase.
@@ -166,7 +166,7 @@ Because Amazon EKS runs a highly available control plane, you can update only
 [one minor version at a time](https://kubernetes.io/releases/version-skew-policy/#kube-apiserver).
 Therefore, if your current version is 1.19, and you want to update to 1.21, then you must first
 update your cluster to 1.20 and then update it from 1.20 to 1.21.
-Similarly, your node version can be at most 2 minor version behind the control plane version.
+Similarly, your node version can be at most 2 minor versions behind the control plane version.
 
 Clusters are always created with the latest available Amazon EKS platform version (eks.n) for the
 specified Kubernetes version. If you update your cluster to a new Kubernetes minor version, your

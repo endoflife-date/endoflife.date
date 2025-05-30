@@ -89,7 +89,7 @@ Glue generally include major version upgrades for Apache Spark and Python, so be
 Spark and Python migration guides when upgrading to a newer version of Glue.
 
 Jobs running on deprecated versions of AWS Glue are not eligible for technical support, security
-patches or any other updates. AWS Glue will also not honor SLAs when jobs are run on deprecated
+patches, or any other updates. AWS Glue will also not honor SLAs when jobs are run on deprecated
 versions.
 
 ## [Compatibility Matrix](https://docs.aws.amazon.com/glue/latest/dg/release-notes.html)
