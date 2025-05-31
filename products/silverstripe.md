@@ -16,17 +16,16 @@ eolWarnThreshold: 182
 
 identifiers:
 -   purl: pkg:composer/silverstripe/cms
--   purl: pkg:github/silverstripe/silverstripe-cms
+-   purl: pkg:github/silverstripe/silverstripe-installer
 
 auto:
   methods:
-  -   git: https://github.com/silverstripe/silverstripe-cms.git
+  -   git: https://github.com/silverstripe/silverstripe-installer.git
   -   release_table: https://www.silverstripe.org/software/roadmap/
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
         releaseCycle: "MINOR VERSION"
-        releaseDate: "STABLERELEASE"
         eoas: "FULL SUPPORT ENDS"
         eol: "END OF LIFE(EOL)"
 
@@ -34,74 +33,74 @@ auto:
 # eoas, eol rounded to the end of month
 releases:
 -   releaseCycle: "5.4"
-    releaseDate: 2025-04-30
+    releaseDate: 2025-04-10
     eoas: 2026-04-30
     eol: 2027-04-30
-    latest: "5.4.3"
-    latestReleaseDate: 2025-05-27
+    latest: "5.4.0"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "5.3"
-    releaseDate: 2024-11-30
+    releaseDate: 2024-11-04
     eoas: 2025-04-30
     eol: 2025-10-31
-    latest: "5.3.3"
-    latestReleaseDate: 2025-04-10
+    latest: "5.3.0"
+    latestReleaseDate: 2024-11-04
 
 -   releaseCycle: "5.2"
     releaseDate: 2024-04-15
     eoas: 2024-10-31
     eol: 2025-04-30
-    latest: "5.2.5"
-    latestReleaseDate: 2024-09-13
+    latest: "5.2.0"
+    latestReleaseDate: 2024-04-15
 
 -   releaseCycle: "5.1"
-    releaseDate: 2023-10-17
+    releaseDate: 2023-10-16
     eoas: 2024-04-17
     eol: 2024-10-17
-    latest: "5.1.6"
-    latestReleaseDate: 2024-02-10
+    latest: "5.1.0"
+    latestReleaseDate: 2023-10-16
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-05-04
     eoas: 2023-10-17
     eol: 2024-04-17
-    latest: "5.0.7"
-    latestReleaseDate: 2023-09-23
+    latest: "5.0.0"
+    latestReleaseDate: 2023-05-04
 
 -   releaseCycle: "4.13"
     releaseDate: 2023-04-26
     eoas: 2024-04-17
     eol: 2025-06-30
-    latest: "4.13.13"
-    latestReleaseDate: 2024-02-08
+    latest: "4.13.0"
+    latestReleaseDate: 2023-04-26
 
 -   releaseCycle: "4.12"
     releaseDate: 2022-12-19
     eoas: 2023-04-26
     eol: 2023-10-26
-    latest: "4.12.7"
-    latestReleaseDate: 2023-05-31
+    latest: "4.12.1"
+    latestReleaseDate: 2022-12-21
 
 -   releaseCycle: "4.11"
-    releaseDate: 2022-05-11
+    releaseDate: 2022-06-07
     eoas: 2022-12-19
     eol: 2023-05-19
-    latest: "4.11.16"
-    latestReleaseDate: 2023-05-31
+    latest: "4.11.2"
+    latestReleaseDate: 2022-06-29
 
 -   releaseCycle: "4.10"
     releaseDate: 2022-01-25
     eoas: 2022-06-30
     eol: 2022-12-31
-    latest: "4.10.11"
-    latestReleaseDate: 2022-11-21
+    latest: "4.10.0"
+    latestReleaseDate: 2022-01-25
 
 -   releaseCycle: "3.7"
     releaseDate: 2018-06-08
     eoas: true
     eol: 2021-09-30 # http://web.archive.org/web/20200930101626/https://www.silverstripe.org/software/roadmap/
-    latest: "3.7.7"
-    latestReleaseDate: 2021-06-02
+    latest: "3.7.5"
+    latestReleaseDate: 2020-07-15
 
 -   releaseCycle: "3.1"
     releaseDate: 2013-10-01
@@ -130,7 +129,7 @@ releases:
     eoas: true
     eol: true
     latest: "2.3.13"
-    latestReleaseDate: 2011-09-15
+    latestReleaseDate: 2011-10-18
     link: null
 
 ---
