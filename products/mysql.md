@@ -113,7 +113,7 @@ releases:
     eol: 2021-02-28
     latest: '5.6.51'
     latestReleaseDate: 2021-01-05
-    link: null
+    link: https://web.archive.org/web/20211229071247/https://dev.mysql.com/doc/relnotes/mysql/5.6/en/news-5-6-51.html
 
 -   releaseCycle: "5.5"
     releaseDate: 2010-12-03
