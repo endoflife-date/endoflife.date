@@ -8,7 +8,7 @@ versionCommand: uname -r
 changelogTemplate: "https://www.openbsd.org/{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
 releaseColumn: false
 
-# eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to first of next month
+# eol(x) = releaseDate(x+2), Estimation releaseDate(x) + 1 year -> round to the first of next month
 releases:
 -   releaseCycle: "7.7"
     releaseDate: 2025-04-28
@@ -255,6 +255,6 @@ reliability fixes for the base system.
 - `-stable`: The `-release` branch, plus patches found on the [OpenBSD errata page](https://www.openbsd.org/errata.html).
   Very important fixes are backported to the supported `-stable` branches.
 
-OpenBSD publishes announcements and security advisories on the [announcements mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce).
+OpenBSD publishes announcements and security advisories on the [announcement mailing list](https://lists.openbsd.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=announce).
 There's an RSS feed for [errata](https://undeadly.org/errata/errata.rss "Undeadly Errata RSS feed")
 as well.

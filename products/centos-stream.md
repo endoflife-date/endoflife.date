@@ -36,12 +36,12 @@ releases:
 
 > [CentOS Stream](https://www.centos.org/centos-stream/) is a continuously delivered Linux
 > distribution that tracks just ahead of Red Hat Enterprise Linux (RHEL) development, positioned as
-> a midstream between Fedora Linux and RHEL.
+> midstream between Fedora Linux and RHEL.
 
-CentOS Stream is the upstream variant of [CentOS](/centos) and contains content that is planned for
+CentOS Stream is the upstream variant of [CentOS](/centos) and contains content planned for
 the next minor release of [Red Hat Enterprise Linux (RHEL)](/rhel).
 
 CentOS Stream only has major versions, and its support ends when its [corresponding RHEL release](/rhel)
 leaves full support.
 
-Support information for CentOS are available on the [CentOS page](/centos).
+Support information for CentOS is available on the [CentOS page](/centos).

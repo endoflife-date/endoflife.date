@@ -30,8 +30,8 @@ releases:
     releaseDate: 2024-11-29
     eoas: 2025-07-31
     eol: 2025-07-31
-    latest: "7.2.6"
-    latestReleaseDate: 2025-05-02
+    latest: "7.2.7"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "7.1"
     releaseDate: 2024-05-31
@@ -52,8 +52,8 @@ releases:
     releaseDate: 2023-11-29
     eoas: 2026-11-30
     eol: 2027-11-30
-    latest: "6.4.21"
-    latestReleaseDate: 2025-05-02
+    latest: "6.4.22"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "6.3"
     releaseDate: 2023-05-30
@@ -229,7 +229,7 @@ six months, one in May and one in November.
 
 Starting from the Symfony 3.x branch, the number of minor versions is limited to five per branch
 (X.0, X.1, X.2, X.3 and X.4). The last minor version of a branch (e.g. 3.4, 4.4, 5.4) is considered
-a long-term support version and the other ones are considered standard versions:
+a long-term support version, and the other ones are considered standard versions:
 
 | Version Type            | Bugs are fixed for | Security issues are fixed for                                                          |
 |:------------------------|:-------------------|:---------------------------------------------------------------------------------------|

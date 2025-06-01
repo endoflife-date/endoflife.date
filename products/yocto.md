@@ -123,7 +123,7 @@ releases:
 > developers create custom Linux-based systems and distributions regardless of the hardware
 > architecture.
 
-Long-Term Support (LTS) releases are made usually every 2 years, and maintained for 2 years after
+Long-Term Support (LTS) releases are usually made every 2 years and maintained for 2 years after
 their initial release. Minor releases for supported stable and LTS branches (e.g. 3.0.1, 3.0.2,
 3.1.1, …) are released on an unscheduled basis, usually when enough significant bug fixes have been
 accumulated.
@@ -131,7 +131,7 @@ accumulated.
 After the maintenance window has ended, releases can enter a community support phase if a
 community maintainer steps up. Community support is best-effort, and testing usually does not cover
 all initially supported platforms. A release enters End-of-Life status if no community maintainer
-steps up, or when there is no longer an active community maintainer for 2 months.
+steps up or when there is no longer an active community maintainer for 2 months.
 
 Yocto stable releases (e.g. 3.0, 3.1, 3.2, 3.3…) are made about every 6 months, usually in April
 and October. Stable releases are maintained seven months after the initial release.

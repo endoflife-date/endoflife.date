@@ -129,7 +129,7 @@ releases:
 
 ---
 
-> [Moodle](https://moodle.org/) is a Learning Platform or course management system (CMS) - a free
+> [Moodle](https://moodle.org/) is a Learning Platform or course management system (CMS) — a free
 > Open Source software package designed to help educators create effective online courses based on
 > sound pedagogical principles.
 
@@ -137,7 +137,7 @@ Major (e.g. 4.x) releases are made every 6 months, Second Monday of May and Nove
 4.x.y) releases are made every 2 months, Second Monday of July, September, November, January, March
 and May.
 
-The end of support, both general and security, happens the second Monday
+The end of support, both general and security, happens on the second Monday
 of May and November, observing the 12, 18... month periods, no matter if the major release was
 delayed or not.
 

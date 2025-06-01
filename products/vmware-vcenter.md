@@ -94,7 +94,7 @@ releases:
 > management software that provides a centralized platform for controlling vSphere environments for
 > visibility across hybrid clouds.
 
-VMware typically support vCenter for a duration of 7 years with 5 years of general support and an
+VMware typically supports vCenter for a duration of 7 years with 5 years of general support and an
 additional 2 years of technical guidance during which vCenter will no longer receive bug fixes and
 security updates.
 

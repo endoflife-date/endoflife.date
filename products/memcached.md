@@ -47,6 +47,6 @@ releases:
 > chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page
 > rendering.
 
-Memcached is community-supported, and doesn't have a clearly defined release and support policy.
+Memcached is community-supported and doesn't have a clearly defined release and support policy.
 [Based on the latest releases](https://github.com/memcached/memcached/wiki/ReleaseNotes), it
 appears that only the latest release is supported.

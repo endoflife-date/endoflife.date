@@ -19,20 +19,8 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/zabbix/zabbix.git
-  -   release_table: https://www.zabbix.com/life_cycle_and_release_policy
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle:
-          column: "Release name"
-          regex: '^Zabbix (?P<value>\d+\.\d+).*$'
-        releaseDate: "Release date"
-        eoas: "End of Full Support*"
-        eol: "End of Limited Support**"
 
-# For non-LTS releases :
-# - eoas(x) = release(x) + 6 months
-# - eol(x) = release(x) + 7 months
+# See https://www.zabbix.com/life_cycle_and_release_policy for EOAS/EOL dates.
 releases:
 -   releaseCycle: "7.2"
     releaseDate: 2024-12-10
@@ -99,7 +87,7 @@ releases:
 > [Zabbix](https://www.zabbix.com/) is an open-source software tool to monitor IT infrastructure
 > such as networks, servers, virtual machines, and cloud services.
 
-A LTS (Long Term Support) release is made once every 1.5 years. Standard releases are made once
+A LTS (Long-Term Support) release is made once every 1.5 years. Standard releases are made once
 every 6 months.
 
 LTS releases get 3 years of full support followed by 2 years of limited support (critical and

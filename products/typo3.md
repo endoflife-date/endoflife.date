@@ -95,5 +95,5 @@ releases:
 
 ## Extended Long Term Support (ELTS)
 
-[Extended Long Term Support (ELTS)](https://typo3.com/services/extended-support-elts) is the
+[Extended Long-Term Support (ELTS)](https://typo3.com/services/extended-support-elts) is the
 commercial offer with three additional years of support.

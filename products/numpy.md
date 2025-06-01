@@ -121,7 +121,7 @@ releases:
 > linear algebra routines, Fourier transforms, and more.
 
 All minor versions of NumPy released in the prior 24 months, and at minimum the last three minor
-versions, are supported. NumPy follows SemVer.
+versions are supported. NumPy follows SemVer.
 
 NumPy's support policy is defined via [SPEC 0](https://scientific-python.org/specs/spec-0000/),
 which is also followed by other tooling in the Scientific Python Ecosystem.

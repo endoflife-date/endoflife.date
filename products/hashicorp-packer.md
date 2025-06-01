@@ -52,11 +52,11 @@ releases:
 
 ---
 
-> [Hashicorp Packer](https://www.packer.io/) Packer is a community tool for creating identical machine images for multiple platforms from a single source configuration.
+> [Hashicorp Packer](https://www.packer.io/) is a community tool for creating identical machine images for multiple platforms from a single source configuration.
 
 
 **Generally Available (GA)** releases of active products are supported under standard maintenance approximately
-for a year. The standard support period and end of life policy covers "N−2" versions,
+for a year. The standard support period and end-of-life policy covers "N−2" versions,
 which means, at any given time, HashiCorp maintains the current version ("N") and the two previous versions ("N−2").
 
 

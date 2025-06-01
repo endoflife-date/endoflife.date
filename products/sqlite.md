@@ -26,8 +26,8 @@ releases:
 -   releaseCycle: "3"
     releaseDate: 2009-01-15
     eol: false
-    latest: "3.49.2"
-    latestReleaseDate: 2025-05-07
+    latest: "3.50.0"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "2"
     releaseDate: 2001-09-28
@@ -54,5 +54,5 @@ are available. The most notable one is the [Technical Support](https://sqlite.or
 which gives access to support for any version of SQLite up to a year old.
 
 Developers made a pledge to [_support SQLite through the year 2050_](https://www.sqlite.org/lts.html).
-This doesn't mean they are supporting [all SQLite releases](https://www.sqlite.org/chronology.html),
+This doesn't mean they are supporting [all SQLite releases](https://www.sqlite.org/chronology.html);
 it means they plan as if they will be supporting SQLite until 2050.

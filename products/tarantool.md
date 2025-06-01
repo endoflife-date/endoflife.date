@@ -53,8 +53,8 @@ releases:
     lts: true
     releaseDate: 2023-05-24
     eol: 2027-05-24
-    latest: "2.11.6"
-    latestReleaseDate: 2025-02-24
+    latest: "2.11.7"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "2.10"
     releaseDate: 2022-05-22
@@ -125,7 +125,7 @@ more long-time support series. This document explains the new release policy, ve
 lifecycle.
 
 The new release policy replaces the [legacy policy](https://www.tarantool.io/en/doc/latest/release/legacy-policy/)
-for 2.x.y series since 2.10.0 release and all future series (3.x.y and so on).
+for 2.x.y series since the 2.10 release and all future series (3.x.y and so on).
 
 Here are the most significant changes from the legacy release policy:
 

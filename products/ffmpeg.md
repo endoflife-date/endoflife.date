@@ -278,18 +278,18 @@ releases:
 > Full list of capabilities is found [in their documentation](https://ffmpeg.org/documentation.html).
 
 FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
-defined but, looking at the releases history, there is at least a `x.y` release every year which is
+defined but, looking at the release history, there is at least a `x.y` release every year which is
 supported for at least a year with important bug fixes.
 
-## Long Term Support
+## Long-Term Support
 
-While several past FFmpeg releases have enjoyed long term support, 5.1 is the first release where
+While several past FFmpeg releases have enjoyed long-term support, 5.1 is the first release where
 such an intention is made clear at release. [As per the developers](https://news.ycombinator.com/item?id=41695542),
 the first minor version of every Odd Major version (ODD.1) is planned to be an LTS. Each LTS release is maintained
 for a minimum of 3 years.
 
 Note that these releases are intended for distributors and system integrators, not for end users.
-Users that wish to compile from source themselves are strongly encouraged to consider using [the
+Users that wish to compile from the sources are strongly encouraged to consider using [the
 development branch](https://ffmpeg.org/download.html).
 
 Maintained releases are listed on the [_Download Page_](https://ffmpeg.org/download.html#releases)

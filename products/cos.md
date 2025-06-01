@@ -135,24 +135,23 @@ Cloud. It is actively patched with security updates (CVEs) and bug-fixes to addr
 impact Google Cloud users. Users get access to these fixes via image releases in the `cos-cloud`
 project.
 
-Container-Optimized OS image support is available for Long Term Supported (LTS) family of images in
+Container-Optimized OS image support is available for Long-Term Supported (LTS) family of images in
 the `cos-cloud` project. A description of available image families is available at the
 [Versioning Scheme](https://cloud.google.com/container-optimized-os/docs/concepts/versioning#image_families)
 doc. The following support commitment applies only to the LTS family of images.
 
 ## Support duration
 
-Approximately twice each year, the Container-Optimized OS team releases a Long Term Supported (LTS)
+Approximately twice each year, the Container-Optimized OS team releases a Long-Term Supported (LTS)
 milestone on its `cos-[MILESTONE]-lts` and `cos-arm64-[MILESTONE]-lts` image families. Once a
 milestone is introduced on the LTS families, it is supported for **2 years**.
 
 During this support window:
 
 - The milestone is actively patched for any critical bugs.
-- The milestone is actively scanned for security vulnerabilities, and security fixes are applied on
-  regular basis.
-- New releases containing high priority bug and security fixes are released on-demand.
-- New releases containing medium and low priority bug and security fixes are released every 3
+- The milestone is actively scanned for security vulnerabilities, and security fixes are applied regularly.
+- New releases containing high-priority bug and security fixes are released on-demand.
+- New releases containing medium and low-priority bug and security fixes are released every 3
   months.
 - To maintain stability, no new breaking features are introduced.
 - All changes in the image are documented on a dedicated [release notes](https://cloud.google.com/container-optimized-os/docs/release-notes)

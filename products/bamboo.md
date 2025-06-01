@@ -118,6 +118,6 @@ releases:
 > Atlassian ended support for Bamboo Server [on February 15, 2024](https://www.atlassian.com/migration/assess/journey-to-cloud).
 > Starting from 9.5.x, new releases of Bamboo are available only to Data Center customers.
 
-Bamboo has both LTS and non-LTS releases. There is approximately one LTS release per year, which receive bug and
+Bamboo has both LTS and non-LTS releases. There is approximately one LTS release per year, which receives bug and
 security fixes for 2 years. Non-LTS releases are supported for 6 months with only critical security fixes. More
 information can be found in [this article](https://www.atlassian.com/blog/enterprise/introducing-enterprise-releases).

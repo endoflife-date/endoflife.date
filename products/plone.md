@@ -91,7 +91,7 @@ Plone adheres to [semver](https://semver.org/). Minor releases undergo two suppo
 - Security Support: Limited to security fixes only.
 
 The first minor release of a major (`x.0`) receives two years of maintenance support.
-Subsequent minor releases receive maintenance support until a new minor release is out.
+Following minor releases receive maintenance support until a new minor release is out.
 
 All major releases receive five years of security support.
 Minor releases receive security support as long as their major release is security-supported.

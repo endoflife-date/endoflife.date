@@ -17,8 +17,8 @@ identifiers:
 -   cpe: cpe:2.3:a:eclipse:temurin
 
 # There is one repository for each major release.
-# Unfortunately tag dates are wrong, for example jdk-11.0.18+10 GitHub release date is 2023-01-19
-# but tag date is 2022-08-15... We will have to use GitHub release dates instead of tags dates.
+# Unfortunately, tag dates are wrong. For example, jdk-11.0.18+10 GitHub release date is 2023-01-19,
+# but the tag date is 2022-08-15... We will have to use GitHub release dates instead of tags dates.
 # See https://regex101.com/r/vwUz2w/1 and https://regex101.com/r/507aSh/1.
 auto:
   methods:
@@ -61,12 +61,12 @@ auto:
       fields:
         releaseCycle:
           column: "Java Version"
-          regex: '^Java\s+(?P<value>\d+)\s+\(LTS\)$' # precise date for non-LTS is known
+          regex: '^Java\s+(?P<value>\d+)\s+\(LTS\)$'
         eol:
           column: "End of Availability [1]"
           regex: '^(At least )?(?P<value>.+)$'
 
-# Do not forget to update the "auto" configuration on each new major release.
+# Remember to update the "auto" configuration on each new major release.
 # EOL dates can be found on https://adoptium.net/support/.
 releases:
 -   releaseCycle: "24"
@@ -119,7 +119,7 @@ releases:
     latest: "17.0.15+6"
     latestReleaseDate: 2025-04-16
 
-  # Note that first release was 11.0.12+7
+  # Note that the first release was 11.0.12+7
 -   releaseCycle: "11"
     lts: true
     releaseDate: 2021-08-01 # correct, see https://blog.adoptopenjdk.net/2021/08/goodbye-adoptopenjdk-hello-adoptium/
@@ -156,11 +156,11 @@ Eclipse Temurin is part of the [Eclipse Adoptium project](https://adoptium.net/a
 project of the Eclipse Foundation. The frequency and support of Temurin releases is guided by the
 frequency and support of OpenJDK releases.
 
-Following OpenJDK, Temurin provide a new feature release every six months. Those releases are
+Following OpenJDK, Temurin provides a new feature release every six months. Those releases are
 supported for six months. Every two years (since 2021), one feature release is designated as a
 LTS release and is supported for at least four years.
 
 Temurin is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#adoptium-eclipse-temurin).
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

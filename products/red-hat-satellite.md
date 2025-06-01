@@ -157,8 +157,8 @@ releases:
 
 > [Red Hat Satellite](https://www.redhat.com/technologies/management/satellite) is an infrastructure
 > management product specifically designed to keep Red Hat Enterprise Linux environments and other
-> Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+> Red Hat infrastructures running efficiently, with security, and compliant with various standards.
 
 A new release is made approximately every 6 months. Each release is actively supported for six
-months,  and followed by one year of maintenance support. Release Dates are published on the
+months and followed by one year of maintenance support. Release Dates are published on the
 [Red Hat Customer Portal](https://access.redhat.com/articles/1365633).

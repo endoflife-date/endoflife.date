@@ -200,6 +200,7 @@ module EndOfLifeHooks
       error_if.is_not_a_boolean_nor_a_date('lts') if release.has_key?('lts')
       error_if.is_not_a_string('latest') if product.data['releaseColumn']
       error_if.is_not_a_date('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
+      error_if.too_far_in_future('latestReleaseDate') if product.data['releaseColumn'] and release.has_key?('latestReleaseDate')
       error_if.is_not_an_url('link') if release.has_key?('link') and release['link']
 
       error_if.is_not_before('releaseDate', 'eoas') if product.data['eoasColumn']
@@ -305,8 +306,8 @@ module EndOfLifeHooks
 
     def too_far_in_future(property)
       value = @data[property]
-      if value.respond_to?(:strftime) and value > Date.today + 30
-        declare_error(property, value, "expecting a value in the next 30 days, got #{value}")
+      if value.respond_to?(:strftime) and value > Date.today + 7
+        declare_error(property, value, "expecting a value in the next 7 days, got #{value}")
       end
     end
 

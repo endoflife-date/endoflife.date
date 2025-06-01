@@ -16,7 +16,6 @@ identifiers:
 -   purl: pkg:github/grafana/loki
 -   purl: pkg:docker/grafana/loki
 -   purl: pkg:docker/ubuntu/loki
--   purl: pkg:docker/chainguard/loki
 -   purl: pkg:docker/bitnami/grafana-loki
 -   purl: pkg:oci/loki?repository_url=cgr.dev/chainguard
 
@@ -168,7 +167,7 @@ releases:
 {: .warning }
 > Grafana Cloud, the hosted offering from Grafana Labs, has separate [support options](https://grafana.com/docs/grafana-cloud/account-management/support/).
 
-According to [https://grafana.com](https://grafana.com/docs/loki/latest/release-notes/cadence/) there is a new major
+According to [https://grafana.com](https://grafana.com/docs/loki/latest/release-notes/cadence/), there is a new major
 release of Grafana Loki every year, a new minor release every quarter and approximately two patch releases per month.
 
 The support policy is not documented, so it is assumed that only the latest minor release is supported.

@@ -69,5 +69,5 @@ releases:
 
 cert-manager adheres to [Semantic Versioning (SemVer)](https://semver.org/). New releases are
 typically issued every 4 months and are supported with bug and security fixes until the release
-of the second subsequent version (N+2). This means that each release receives support for
+of the second following version (N+2). This means that each release receives support for
 approximately 8 months.

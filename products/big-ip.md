@@ -65,6 +65,6 @@ releases:
 > [BIG-IP](https://www.f5.com/products/big-ip) is a family of hardware and software products from F5 Networks, designed
 > for load balancing, traffic management, and application security.
 
-F5 Networks typically provides a major release of BIG-IP every 12-18 months, with regular maintenance updates to address
+F5 Networks typically provides a major release of BIG-IP every 12–18 months, with regular maintenance updates to address
 security and performance issues. Each version of BIG-IP is generally supported for up to 5 years, including Full Support
 for the first 3 years and Limited Support for the remaining 2 years.

@@ -50,8 +50,8 @@ releases:
     releaseDate: 2025-05-08
     eol: 2026-01-31
     supportedKubernetesVersions: '1.29 - 1.32'
-    latest: "1.26.0"
-    latestReleaseDate: 2025-05-08
+    latest: "1.26.1"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "1.25"
     releaseDate: 2025-03-03
@@ -195,7 +195,7 @@ releases:
 
 Istio follows [Semantic Versioning](https://istio.io/latest/docs/releases/supported-releases/#naming-scheme).
 A new minor version is released approximately once a quarter. Minor releases are supported for 6
-weeks after the N+2 minor release (for example 1.14 supported until 6 weeks after 1.16.0 is
+weeks after the N+2 minor release (for example, 1.14 is supported until 6 weeks after 1.16.0 is
 released).
 
 ## [Supported Kubernetes Versions](https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases)

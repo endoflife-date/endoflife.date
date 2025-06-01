@@ -38,8 +38,8 @@ releases:
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
-    latest: "8.18.1"
-    latestReleaseDate: 2025-04-29
+    latest: "8.18.2"
+    latestReleaseDate: 2025-05-22
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-05
@@ -71,9 +71,9 @@ other products in the Elastic Stack (Elasticsearch, Logstash, Kibana...).
 
 Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
 maintenance for each major release series for the longest of 30 months after the GA date of the
-major release or 18 months after the GA date of the subsequent major release.
+major release or 18 months after the GA date of the following major release.
 
-End of life dates for Beats can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
+End-of-life dates for Beats can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
 
 *[GA]: General Availability

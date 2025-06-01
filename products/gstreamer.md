@@ -24,8 +24,8 @@ releases:
 -   releaseCycle: "1.26"
     releaseDate: 2025-03-11
     eol: false
-    latest: "1.26.1"
-    latestReleaseDate: 2025-04-24
+    latest: "1.26.2"
+    latestReleaseDate: 2025-05-29
 
 -   releaseCycle: "1.24"
     releaseDate: 2024-03-04
@@ -90,7 +90,7 @@ releases:
 -   releaseCycle: "1.4"
     releaseDate: 2014-07-19
     eol: true
-    # no known changelog for this versions
+    # no known changelog for this version
     link: null
     latest: "1.4.5"
     latestReleaseDate: 2014-12-18
@@ -98,7 +98,7 @@ releases:
 -   releaseCycle: "1.2"
     releaseDate: 2013-09-24
     eol: true
-    # no known changelog for this versions
+    # no known changelog for this version
     link: null
     latest: "1.2.4"
     latestReleaseDate: 2014-04-18
@@ -106,7 +106,7 @@ releases:
 -   releaseCycle: "1.0"
     releaseDate: 2012-09-24
     eol: true
-    # no known changelog for this versions
+    # no known changelog for this version
     link: null
     latest: "1.0.10"
     latestReleaseDate: 2013-08-28
@@ -124,9 +124,9 @@ GStreamer follows [Semantic Versioning](https://semver.org/). Moreover,
 GStreamer is using the following version policy:
 
 - Stable releases (ready for production use) are even numbers, such as
-  1.0, 1.2 or 1.4.
-- Development releases are odd numbers, such as 1.1, 1.3 or 1.5.
+  1.0, 1.2, or 1.4.
+- Development releases are odd numbers, such as 1.1, 1.3, or 1.5.
 
 The support and EOL policy is not clearly defined. But, looking at the
-releases history, there is at least a `x.y` release every year which
+release history, there is at least a `x.y` release every year which
 is supported for at least a year with important bug fixes.

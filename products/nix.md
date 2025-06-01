@@ -16,8 +16,8 @@ auto:
   methods:
   -   git: https://github.com/NixOS/nix.git
 
-# eol(x) = releaseDate(x+1) ( except if any minor update exist the eol became the date of related latestReleaseDate )
-# for example if 2.5 released 2.4 became eol on the other hand if 2.4.2 releases after 2.5 release then EOL of the 2.4 will became
+# eol(x) = releaseDate(x+1) (except if any minor update exists, the eol became the date of related latestReleaseDate)
+# for example if 2.5 released 2.4 became eol on the other hand if 2.4.2 releases after 2.5 release then EOL of the 2.4 will become
 # equal to 2.4.2's release date instead of 2.5's release date
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
@@ -53,7 +53,7 @@ releases:
 
 -   releaseCycle: "2.24"
     releaseDate: 2024-08-01
-    eol: 2025-01-22 # releaseDate(last releasedate of 2.24 series because 2.25 released)
+    eol: 2025-01-22 # releaseDate(last release date of 2.24 series because 2.25 released)
     latest: "2.24.14"
     latestReleaseDate: 2025-04-07
 
@@ -210,10 +210,10 @@ releases:
 
 ---
 
-> [nix](https://nixos.org/) is a cross-platform package manager that utilizes a purely functional
+> [nix](https://nixos.org/) is a cross-platform package manager that uses a purely functional
 > deployment model where software is installed into unique directories generated through
 > cryptographic hashes. It is also the name of the tool's programming language. A package's hash
 > takes into account the dependencies, which is claimed to eliminate dependency hell. This package
 > management model advertises more reliable, reproducible, and portable packages.
 
-**If you're looking for NixOS, the Linux distribution powered by nix click [here](./nixos)**
+**If you're looking for NixOS, the Linux distribution powered by nix, click [here](./nixos)**

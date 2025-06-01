@@ -14,7 +14,7 @@ auto:
   -   custom: aws-lambda
 
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
-# The release dates must be retrieved from announcements blog post on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
+# The release dates must be retrieved from announcement blog posts on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
 releases:
 -   releaseCycle: "ruby3.4"
     releaseLabel: "Ruby 3.4"
@@ -346,9 +346,9 @@ AWS Lambda supports the following runtimes:
 
 Amazon provides security patches to the underlying runtimes, along with technical support.
 
-Runtime updates are, most of the time, backward compatible with existing functions. But, in some
-rare cases, a runtime update can negatively impact an existing function. An example of such case
-is a lambda that make use of an insecure behavior fixed by a security patch.
+Runtime updates are, most of the time, backward compatible with existing functions. But in some
+rare cases, a runtime update can negatively impact an existing function. An example of such a case
+is a lambda that makes use of an insecure behavior fixed by a security patch.
 
 There are three modes of runtime updates:
 
@@ -357,7 +357,7 @@ There are three modes of runtime updates:
 - Manual: runtime version is set in the function configuration.
 
 [Responsibility for applying runtime updates](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-update.html#runtime-management-shared)
-varies according to chosen runtime update mode.
+varies according to the chosen runtime update mode.
 
 Trusted Advisor includes a check that provides [120 days' notice of upcoming Lambda runtime end of
 support](https://docs.aws.amazon.com/awssupport/latest/user/security-checks.html#aws-lambda-functions-deprecated-runtimes),
@@ -377,4 +377,4 @@ Deprecation (end of support) for a runtime occurs in multiple steps:
   that use a deprecated runtime cannot be updated anymore. This is documented in the table above
   as **Deprecated Support**.
 
-Invocations of functions that use deprecated runtime is never blocked.
+Invocations of functions that use deprecated runtime are never blocked.

@@ -48,10 +48,10 @@ releases:
 
 ---
 
-> [Yarn](https://yarnpkg.com/) is a modern package manager for the Javascript ecosystem. It offers
+> [Yarn](https://yarnpkg.com/) is a modern package manager for the JavaScript ecosystem. It offers
 > extensibility via plugins, and a Plug and Play strategy that supports various frameworks and tools.
 
-Yarn's support and EOL policy is not clearly defined.
+Yarn's support and EOL policy are not clearly defined.
 
 Yarn Classic (v1) [entered maintenance mode in January 2020](https://dev.to/arcanis/introducing-yarn-2-4eh1#what-will-happen-to-the-legacy-codebase)
 and will eventually reach end-of-life. It is highly recommended to

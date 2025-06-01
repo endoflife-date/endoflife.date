@@ -133,23 +133,23 @@ releases:
 
 Oracle Database is distributed in various flavors (multiple cloud and on-premises offers) and has
 [various support stages](https://www.oracle.com/support/lifetime-support/software.html "Lifetime Support for Oracle software")
-(such as Premier, Extended, Sustaining or Custom Market Driven). Depending on these, release dates
+(such as Premier, Extended, Sustaining, or Custom Market Driven). Depending on these, release dates
 may vary. This page documents Premier and Extended support dates for Oracle Database On-Premises
 Server Releases for Linux x86-64.
 
 According to the [Release Schedule of Current Database Releases](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)
 there are two types of Oracle Database releases:
 
-- Long Term Release (LTR), which are supported for 5 years with Premier Support, followed by 3 years
+- Long-Term Releases (LTR), which are supported for 5 years with Premier Support, followed by 3 years
   with Extended Support. Note that Oracle Corporation may offer, for some LTR, one year of free
   Extended Support.
-- Innovation Release, which are supported for at least 2 years with Premier Support and have no
+- Innovation Releases, which are supported for at least 2 years with Premier Support and have no
   Extended Support.
 
 The version and patch policy is also complex and changing, but some guidance can be found on:
 
 - [Oracle Database - Wikipedia](https://wikipedia.org/wiki/Oracle_Database#Patch_updates_and_security_alerts),
-- [All You Need to Know about Oracle Database Patching - GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
-- [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) - support.oracle.com](https://web.archive.org/web/20230326170525/https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
+- [All You Need to Know about Oracle Database Patching — GotoDBA.com](https://gotodba.com/2019/10/17/all-you-need-to-know-about-oracle-database-patching/),
+- [Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1) — support.oracle.com](https://web.archive.org/web/20230326170525/https://support.oracle.com/knowledge/Oracle%20Cloud/2898740_1.html),
 - [Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)](https://support.oracle.com/knowledge/Oracle%20Cloud/161818_1.html)
   (requires an Oracle account with appropriate permissions).

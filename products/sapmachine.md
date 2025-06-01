@@ -13,7 +13,7 @@ auto:
       regex: '^sapmachine-(?P<version>[\d\.]+)$'
       template: '{{version}}'
 
-# LTS : EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
+# LTS: EOL dates can be found on https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support
 # non-LTS : eol(x) = releaseDate(x+1) (exact date for future releases can be found on https://www.java.com/releases/)
 releases:
 -   releaseCycle: "24"
@@ -111,8 +111,8 @@ releases:
 > using the Java Technical Compatibility Kit (TCK) to ensure it meets the Java SE standard. It is
 > available on Linux, Windows, macOS and Docker.
 
-SapMachine follows the same release cadence as OpenJDK, with 6-month rapid-release cycle.
-There use to be a new LTS release every 3 years (every sixth OpenJDK release) but, after OpenJDK 17,
+SapMachine follows the same release cadence as OpenJDK, with a 6-month rapid-release cycle.
+There used to be a new LTS release every 3 years (every sixth OpenJDK release) but, after OpenJDK 17,
 the LTS frequency was increased to every 2 years (every fourth OpenJDK release).
 
 Updates are planned to be released quarterly, with performance enhancements and security updates.
@@ -121,4 +121,4 @@ Urgent fixes (including security) outside the regular quarterly cycle may occur.
 SapMachine is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#sapmachine).
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support

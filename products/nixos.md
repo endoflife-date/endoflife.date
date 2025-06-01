@@ -137,6 +137,6 @@ releases:
 > [NixOS](https://nixos.org/) is a Linux distribution built on top of the Nix package manager.
 > It uses declarative configuration and allows reliable system upgrades.
 
-There is also the Unstable release which is always supported and receives updates most frequently.
+There is also the Unstable release that is always supported and receives updates most frequently.
 
 **If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**

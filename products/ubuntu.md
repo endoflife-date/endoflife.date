@@ -391,7 +391,7 @@ releases:
 ## Release Cadence
 
 Releases of Ubuntu get a development codename ("Breezy Badger") and are versioned by the year and
-month of delivery - for example Ubuntu 17.10 was released in October 2017. LTS or "Long Term
+month of delivery — for example, Ubuntu 17.10 was released in October 2017. LTS or "Long-Term
 Support" releases are published every two years in April. Every six months between LTS versions,
 Canonical publishes an interim release of Ubuntu. See [this link](https://ubuntu.com/about/release-cycle)
 for more details on the Ubuntu Release Cycle.
@@ -401,7 +401,7 @@ for more details on the Ubuntu Release Cycle.
 LTS releases are in "General Support" for 5 years and "Expanded Security Maintenance" (see below)
 for an additional 5 years. Ubuntu breaks General Support into "Hardware and Maintenance updates"
 (2 years) followed by "Maintenance Updates" for another 3 years[^5]. Interim releases (non-LTS) are
-supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long term
+supported for 9 months. Packages in `main` and `restricted` are supported for 5 years in long-term
 support (LTS) releases. Ubuntu [Flavors](https://wiki.ubuntu.com/UbuntuFlavors) generally support
 their packages for 3 years in LTS releases but there are exceptions.
 
@@ -412,7 +412,7 @@ Ubuntu archive, typically for a period of 5 years from LTS release.
 Packages in `universe` are expected to be community-supported on a best-effort basis during the LTS
 phase, but in practice, security-updates are only released to pro subscriptions.
 
-Expanded Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for additional
+Expanded Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for an additional
 5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a
 [Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
 
@@ -435,7 +435,7 @@ to extend the support of Ubuntu LTS releases from 14.04 by another 2 years beyon
 | [Security Certifications and Hardening](https://ubuntu.com/security/certifications)[^3] | No              | Yes                          | Yes           | Yes            |
 | [Ubuntu Landscape](https://ubuntu.com/landscape)                                        | No              | Yes                          | Yes           | No[^8]         |
 
-For package specific support details, the following commands are available:
+For package-specific support details, the following commands are available:
 
 - `ubuntu-security-status` command (`ubuntu-support-status` on versions before `20.04`) for non-ESM.
 - [`pro security-status`](https://manpages.ubuntu.com/manpages/kinetic/en/man1/ubuntu-advantage.1.html) for ESM.

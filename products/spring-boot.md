@@ -22,7 +22,7 @@ identifiers:
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-web
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa
--   purl: pkg:maven/org.springframework.boot/spring-boot-starter-jbdc
+-   purl: pkg:maven/org.springframework.boot/spring-boot-starter-jdbc
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-data-mongodb
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-security
 -   purl: pkg:maven/org.springframework.boot/spring-boot-starter-test
@@ -190,7 +190,7 @@ releases:
 
 See [Spring Boot Milestones page](https://github.com/spring-projects/spring-boot/milestones) for
 upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-boot#support) for
-more details about support roadmap.
+more details about the support roadmap.
 
 A commercial offer for extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
