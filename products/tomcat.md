@@ -110,7 +110,7 @@ Prior major releases have been supported for approximately 10 years. When a rele
 moved to End-of-life status, a notice is provided roughly a year in advance.
 
 Generally, three major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as
- stable, Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
+stable, Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
 
 ## Java Compatibility
 
