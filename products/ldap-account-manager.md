@@ -64,8 +64,8 @@ releases:
 
 ---
 
-> [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/) is a webfrontend for managing
-> entries (e.g. users, groups, DHCP settings) stored in an LDAP directory.
+> [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/) is a web frontend for managing
+> entries (such as users, groups, DHCP settings) stored in an LDAP directory.
 
 LAM is published under the GNU General Public License; LAM Pro is a commercial extended version of
 LAM. Both follow the same release cycle:

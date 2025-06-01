@@ -74,7 +74,7 @@ Lua doesn't have a documented release and support policy, but End Of Life notice
 <https://www.lua.org/versions.html> by a sentence similar to _There will be no further releases of
 Lua x.y_.
 
-The releases of Lua are numbered `x.y.z`, where `x.y` is the  version and `z` is the release.
+The releases of Lua are numbered `x.y.z`, where `x.y` is the version and `z` is the release.
 
 - Releases of the same version correspond to bug fixes. They have the same reference manual, the same
   virtual machine, and are binary compatible (ABI compatible).

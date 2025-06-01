@@ -41,7 +41,7 @@ auto:
           template: "{{ month }} {{ day }}, {{ year }}"
         supportedPhpVersions: "PHP (*)"
 
-# Do not forget to update the regex_exclude pattern below when a new major version is released.
+# Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
 
 -   releaseCycle: "12"

@@ -230,19 +230,19 @@ There are several main categories into which kernel releases may fall:
   features that must be tested before they can be put into a stable release.
 
 - **Mainline** is the tree where all new features are introduced and where all the exciting new
-  development happens. New mainline kernels are released every 9-10 weeks.
+  development happens. New mainline kernels are released every 9–10 weeks.
 
 - **Stable** is labeled after each mainline kernel is released. Any bug fixes for a stable kernel
   are backported from the mainline tree and applied by a designated stable kernel maintainer.
   There are usually only a few bugfix kernel releases until next mainline kernel becomes available
-  -- unless it is designated a "longterm maintenance kernel." Stable kernel updates are released on
-  as-needed basis, usually once a week.
+  — unless it is designated a "long-term maintenance kernel." Stable kernel updates are released on
+  an as-needed basis, usually once a week.
 
-- **Longterm (LTS)** are usually several "longterm maintenance" kernel releases provided for the
-  purposes of backporting bugfixes for older kernel trees. Only important bugfixes are applied to
-  such kernels and they don't usually see very frequent releases, especially for older trees.
+- **Long-term (LTS)** are usually several "long-term maintenance" kernel releases provided for
+  backporting bugfixes for older kernel trees. Only important bugfixes are applied to
+  such kernels, and they don't usually see very frequent releases, especially for older trees.
 
-The "projected EOL" dates are not set in stone. Each new longterm kernel usually starts with only a
+The "projected EOL" dates are not set in stone. Each new long-term kernel usually starts with only a
 2-year projected EOL (as opposed to the 4 months of a non-LTS release) that can be extended further
 if there is enough interest from the industry at large to [help support it](http://www.kroah.com/log/blog/2021/02/03/helping-out-with-lts-kernel-releases)
 for a longer period of time.
