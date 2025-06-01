@@ -128,5 +128,5 @@ GStreamer is using the following version policy:
 - Development releases are odd numbers, such as 1.1, 1.3, or 1.5.
 
 The support and EOL policy is not clearly defined. But, looking at the
-releases' history, there is at least a `x.y` release every year which
+release history, there is at least a `x.y` release every year which
 is supported for at least a year with important bug fixes.
