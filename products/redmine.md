@@ -56,7 +56,7 @@ releases:
 
 ---
 
-> [Redmine](https://www.redmine.org/) is an open-source project management tool written using Ruby
+> [Redmine](https://www.redmine.org/) is an open-source project management tool written using the Ruby
 > on Rails framework.
 
 ## Links
