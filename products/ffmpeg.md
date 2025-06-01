@@ -278,7 +278,7 @@ releases:
 > Full list of capabilities is found [in their documentation](https://ffmpeg.org/documentation.html).
 
 FFmpeg follows [Semantic Versioning](https://semver.org/). The support and EOL policy is not clearly
-defined but, looking at the releases' history, there is at least a `x.y` release every year which is
+defined but, looking at the release history, there is at least a `x.y` release every year which is
 supported for at least a year with important bug fixes.
 
 ## Long-Term Support
