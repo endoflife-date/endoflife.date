@@ -205,7 +205,7 @@ releases:
 Minor/Feature releases of Wagtail are released every three months. A feature release will usually
 stop receiving patch release updates when the next feature release comes out. LTS releases receive
 fixes for security and data-loss related issues. Typically, an LTS release will happen every
-four feature releases once and receive updates for six feature releases, giving a support period of
+four feature releases and receive updates for six feature releases, giving a support period of
 eighteen months with a six-month overlap. LTS releases will ensure compatibility with at least
 one [Django LTS release](https://www.djangoproject.com/download/#supported-versions).
 
