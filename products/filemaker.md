@@ -133,7 +133,7 @@ releases:
 
 > FileMaker Platform is a cross-platform relational database application from Claris International.
 
-FileMaker has recently adopted a yearly release cycle, in May. Previously there was an 18-month
+FileMaker has recently adopted a yearly release cycle, in May. Previously, there was an 18-month
 release cycle.
 
 Source for release dates only gives month and year, so 1st of month assumed.
