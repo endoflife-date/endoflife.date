@@ -65,4 +65,4 @@ releases:
 > This page is using the dates from [Control-M/Server for UNIX and Microsoft Windows](https://webapps.bmc.com/support/faces/az/prodallversions.jsp?seqid=122988),
 > which are largely shared by the other Control-M components on [the Supported Product List page](https://webapps.bmc.com/support/faces/az/supportlisting.jsp).
 
-BMC provides at least three years of full support from the release date of each release, with a further two years of limited support for high impact problems.
+BMC provides at least three years of full support from the release date of each release, with a further two years of limited support for high-impact problems.
