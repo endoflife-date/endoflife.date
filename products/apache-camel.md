@@ -25,11 +25,11 @@ auto:
   methods:
   -   maven: org.apache.camel/camel
 
-# for LTS : eol = releaseDate + 1y
-# for non-LTS : eol(x) = releaseDate(x+1)
+# For LTS: eol = releaseDate + 1 year
+# For non-LTS : eol(x) = releaseDate(x+1)
 #   Camel may never release patches for non-LTS, but they can still be considered active.
 #   See https://github.com/endoflife-date/endoflife.date/pull/2328#discussion_r1086927567.
-# Java support is documented in each version release notes, see https://camel.apache.org/releases/.
+# Java support is documented in each version release note, see https://camel.apache.org/releases/.
 releases:
 -   releaseCycle: "4.11"
     releaseDate: 2025-03-29

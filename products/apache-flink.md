@@ -57,7 +57,7 @@ releases:
 
 ---
 
-> [Apache Flink](https://flink.apache.org/) is a  is a stream processing
+> [Apache Flink](https://flink.apache.org/) is a stream processing
 > framework designed for processing large-scale data streams in real-time with
 > high throughput and low latency.
 
@@ -66,6 +66,6 @@ backports seem to be maintained for the last 3 releases.
 
 ## [Java Compatibility](https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/)
 
-- Java 8 is supported, but deprecated.
+- Java 8 is supported but deprecated.
 - Java 11 is the recommended version.
 - Java 17 is supported experimentally for Flink 1.18 and above.
