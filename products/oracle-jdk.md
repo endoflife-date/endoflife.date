@@ -249,7 +249,7 @@ Oracle JDK is free of charge for development and testing, but [may not be for pr
 on the release](https://www.oracle.com/java/technologies/javase/jdk-faqs.html). In 2021, Oracle
 announced that [Oracle JDK 17 and later will be free for production](https://blogs.oracle.com/java/post/free-java-license),
 but you should be cautious [as the situation is not that simple](https://bell-sw.com/announcements/2022/02/24/java-licensing-changes-in-2021/).
-For example support for LTS releases [is limited to a year after the next LTS release](https://www.oracle.com/java/technologies/downloads/).
+For example, support for LTS releases [is limited to a year after the next LTS release](https://www.oracle.com/java/technologies/downloads/).
 
 Oracle JDK is one of the many builds of OpenJDK. For recommendations on which JDK build to use,
 check out [whichjdk.com](https://whichjdk.com/#oracle-java-se-development-kit-jdk).

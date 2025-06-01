@@ -76,7 +76,7 @@ OpenSearch 2.x will end Maintenance Support once 4.0 is released.
 ## Versioning
 
 OpenSearch only releases breaking changes in major versions. All minor versions are compatible with
-every other minor version for that major release. When new major versions are released the previous
+every other minor version for that major release. When new major versions are released, the previous
 major version enters maintenance, with only bug fixes and security patches.
 
 The duration of the maintenance window will vary from release to release. By default, versions will
