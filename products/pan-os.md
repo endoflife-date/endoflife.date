@@ -13,7 +13,7 @@ eolColumn: End-of-life Date
 auto:
   methods:
   # https://github.com/endoflife-date/release-data/blob/main/src/pan-os.py works great, but the latest.py script does not
-  # compute the latest version accurately, and the link is not updated too. So we better disable this for now.
+  # compute the latest version accurately, and the link is not updated either. So we better disable this for now.
   # See https://github.com/endoflife-date/endoflife.date/issues/5775.
   #-   custom: pan-os
   -   release_table: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary

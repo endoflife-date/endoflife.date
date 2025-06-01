@@ -25,7 +25,7 @@ auto:
       -   '^v(?P<major>\d+)\.(?P<minor>[1-9]*[02468])\.(?P<patch>\d+)?$'
     # Before 5.26 -> perl-x.00y, perl-x.00y_z, perl-x.00y.z, perl-x.00y.zabc
     # This regex is returning 5.7.x and 5.9.x versions even if it shouldn't (odd versions are 'development' version since 5.6).
-    # But considering those are not listed on https://endoflife.date/perl it's an acceptable inconvenient.
+    # But considering those are not listed on https://endoflife.date/perl, it's an acceptable inconvenient.
     # See https://regex101.com/r/wGccaP/1.
       -   '^perl-(?P<major>\d+)\.(?P<minor>\d+)([._](?P<patch>\d?\w+))?$'
 
@@ -101,7 +101,7 @@ Perl used the following policy since the 5.6 release of Perl:
 - Maintenance releases (ready for production use) are even numbers, such as 5.8, 5.10, 5.12.
 - Development releases are odd numbers, such as 5.9, 5.11, 5.13.
 
-This page only list maintenance releases. Moreover, as detailed in the
+This page only lists maintenance releases. Moreover, as detailed in the
 [perlpolicy](https://perldoc.perl.org/perlpolicy#MAINTENANCE-AND-SUPPORT) man page, the Perl
 community will, to the best of its ability, attempt to:
 

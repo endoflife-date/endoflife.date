@@ -66,6 +66,6 @@ ProFTPD follows a release policy roughly summarized as:
 - a new release cycle puts the previous one into "maintenance mode" and completely ends the
   next-to-last one
 - maintenance happens by releasing a tiny version in the maintenance branch
-- the tiny version part is added as letter directly to the release version without a separator
+- the tiny version part is added as a letter directly to the release version without a separator
 - the first maintenance release for the current stable version starts the next cycle
 - there are several release candidates before a new stable release happens

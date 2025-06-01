@@ -198,14 +198,14 @@ Every 6 weeks, a new Prometheus minor release cycle begins. After those 6 weeks,
 generally no longer receive bugfixes. If a user is impacted by a bug in a minor release, they often
 need to upgrade to the latest Prometheus release.
 
-Prometheus promises API stability within a major version, and strives to avoid breaking changes for
+Prometheus promises API stability within a major version and strives to avoid breaking changes for
 key features. Some features, which are cosmetic, still under development, or depend on 3rd party
 services, are not covered by this.
 
-## Long Term Support
+## Long-Term Support
 
 Prometheus LTS releases only receive bug, security, and documentation fixes, but over a time window
-of one year. The build toolchain is also be kept up-to-date. The following features are excluded
+of one year. The build toolchain is also kept up to date. The following features are excluded
 from [LTS Support](https://prometheus.io/docs/introduction/release-cycle/#limitations-of-lts-support):
 
 - features listed as `unstable` in the [API stability guarantees](https://prometheus.io/docs/prometheus/latest/stability/),
