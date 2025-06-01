@@ -236,5 +236,5 @@ Amazon Provides security advisories for all versions on the Amazon Linux Securit
 [al2023-sec]: https://alas.aws.amazon.com/alas2023.html
 [al2023-sec-rss]: https://alas.aws.amazon.com/AL2023/alas.rss
 
-[^1]: It was announced as Amazon Linux 2022, and renamed to Amazon Linux 2023.
+[^1]: It was announced as Amazon Linux 2022 and renamed to Amazon Linux 2023.
 [^2]: Amazon Linux 2 has had its LTS EOL extended multiple times from the originally scheduled date of June 2023.

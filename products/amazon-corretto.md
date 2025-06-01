@@ -52,11 +52,11 @@ auto:
       regex: '^(?P<version>[\d\.]+)$'
       template: '{{version}}'
 
-# Do not forget to update the "auto" configuration on each new major release.
+# Remember to update the "auto" configuration on each new major release.
 # For EOL dates, see https://aws.amazon.com/corretto/faqs/ (Expired versions paragraph)
 releases:
 -   releaseCycle: "24"
-    # First non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
+    # The first non-pre-release release was https://github.com/corretto/corretto-24/releases/tag/24.0.0.36.2
     releaseDate: 2025-03-18
     eol: 2025-10-31
     latest: "24.0.1.9.1"
@@ -64,7 +64,7 @@ releases:
 
 -   releaseCycle: "23"
     # First non-pre-release release was https://github.com/corretto/corretto-23/releases/tag/23.0.0.37.1
-    # Official release was on September : https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
+    # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-corretto-23-generally-available/
     releaseDate: 2024-09-17
     eol: 2025-04-30
     latest: "23.0.2.7.1"
@@ -72,7 +72,7 @@ releases:
 
 -   releaseCycle: "22"
     # First non-pre-release release was https://github.com/corretto/corretto-22/releases/tag/22.0.0.36.2
-    # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-corretto-22-generally-available/
+    # Official release was on March: https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-corretto-22-generally-available/
     releaseDate: 2024-03-19
     eol: 2024-10-15
     latest: "22.0.2.9.1"
@@ -81,7 +81,7 @@ releases:
 -   releaseCycle: "21"
     lts: true
     # First non-pre-release release was https://github.com/corretto/corretto-21/releases/tag/21.0.0.35.1
-    # Official release was on september: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
+    # Official release was on September: https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-corretto-21-generally-available/
     releaseDate: 2023-08-25
     eol: 2030-10-31
     latest: "21.0.7.6.1"
@@ -89,7 +89,7 @@ releases:
 
 -   releaseCycle: "20"
     # First non-pre-release release was https://github.com/corretto/corretto-20/releases/tag/20.0.0.36.1
-    # Official release was on March : https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
+    # Official release was on March: https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-corretto-20/
     releaseDate: 2023-02-23
     eol: 2023-10-17
     latest: "20.0.2.10.1"
@@ -152,13 +152,13 @@ releases:
 
 {: .note}
 > Amazon [extended the support for Corretto 8 and 11 in October 2024](https://aws.amazon.com/about-aws/whats-new/2024/10/extension-eol-dates-amazon-corretto-8-11/).
-> For Corretto 8 - JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
+> For Corretto 8 — JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
 
 Corretto follows the same cadence as OpenJDK:
 - A 6-month rapid-release cycle.
 - A new LTS release every 2 years (every fourth OpenJDK release).
 
-LTS releases includes performance enhancements and security updates, both from the upstream OpenJDK
+LTS releases include performance enhancements and security updates, both from the upstream OpenJDK
 project and from Amazon. The list of Amazon patches can be seen in [each version's documentation](https://docs.aws.amazon.com/corretto/).
 Updates are planned to be released quarterly, but urgent fixes (including security) outside the
 regular quarterly cycle may occur.
@@ -166,4 +166,4 @@ regular quarterly cycle may occur.
 Corretto is one of the many builds of OpenJDK. For recommendations on which JDK build to use, check
 out [whichjdk.com](https://whichjdk.com/#amazon-corretto).
 
-*[LTS]: Long Term Support
+*[LTS]: Long-Term Support
