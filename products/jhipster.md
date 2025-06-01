@@ -76,8 +76,8 @@ releases:
 
 ---
 
-> JHipster is a development platform to quickly generate, develop, & deploy modern
-> web applications & microservice architectures.
+> JHipster is a development platform to quickly generate, develop, and deploy modern
+> web applications and microservice architectures.
 
 
 Only the latest release is supported, with active feature development, and security fixes.
