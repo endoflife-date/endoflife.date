@@ -60,7 +60,7 @@ releases:
 
 > [SonarQube](https://www.sonarsource.com/products/sonarqube/) (formerly Sonar) is an open-source
 > platform developed by SonarSource for continuous inspection of code quality to perform automatic
-> reviews with static analysis of code to detect bugs and code smells on many programming languages.
+> reviews with static analysis of code to detect bugs and code smells in many programming languages.
 
 SonarQube follows [Semantic Versioning](https://semver.org/). A new major or minor version is
 released every 2 months, and a new LTS release is declared approximately every 18 months.
@@ -70,4 +70,4 @@ previous major release receives LTS support (security patches and fixes of block
 next LTS is declared. This support policy is the same for the Community, Developer, Enterprise and
 Data Center editions.
 
-Release notes for all version can be found on [What's New in SonarQube](https://www.sonarsource.com/products/sonarqube/whats-new/).
+Release notes for all versions can be found on [What's New in SonarQube](https://www.sonarsource.com/products/sonarqube/whats-new/).

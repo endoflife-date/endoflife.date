@@ -128,12 +128,12 @@ releases:
 ---
 
 > The [Spring Framework](https://spring.io/projects/spring-framework) provides a comprehensive
-> programming and configuration model for modern Java-based enterprise applications - on any kind of
+> programming and configuration model for modern Java-based enterprise applications — on any kind of
 > deployment platform.
 
 See [Spring Boot Milestones page](https://github.com/spring-projects/spring-framework/milestones)
 for upcoming releases and [Spring Boot Support page](https://spring.io/projects/spring-framework#support)
-for more details about support roadmap.
+for more details about the support roadmap.
 
 Extended support is available
 [from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).

@@ -83,7 +83,7 @@ Beginning with the 3006 release of Salt, the Salt Project is following an LTS/ST
 Under this strategy, there is one long-term support (LTS) and one short-term support (STS) release a
 year.
 
-LTS prioritize stability. They are released usually in the first 4 months of the year and receive
+LTS releases prioritize stability. They are usually released in the first 4 months of the year and receive
 one year of full support, with bug/security fixes, followed by one year of security support.
 
 STS releases provide access to newer features in between LTS. They are released around the midpoint

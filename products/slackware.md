@@ -140,12 +140,12 @@ releases:
 > distribution with development being led by creator Patrick Volkerding continuously since 1993.
 
 There are several releases of Slackware Linux supported concurrently.
-A [stability based release cycle](http://www.slackware.com/faq/do_faq.php?faq=general#4) is used and
+A [stability-based release cycle](http://www.slackware.com/faq/do_faq.php?faq=general#4) is used, and
 therefore releases are not due on a fixed schedule. A new release is usually made once every few
 years.
 
 Slackware's `-current` development tree closely follows bleeding edge of upstream releases. The
-latest stable release gets bug and security fixes while previous non End-of-Life releases receive
+latest stable release gets bug and security fixes, while previous non-End-of-Life releases receive
 only security patches.
 
 Slackware officially supports 32-bit non-PAE (i586-compatible), 32-bit PAE (i686-compatible) and

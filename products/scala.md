@@ -133,7 +133,7 @@ are named _maintenance releases_ and are maintained for a long time (because mig
 [Starting with Scala 3.3](https://www.scala-lang.org/blog/2022/08/17/long-term-compatibility-plans.html "Long-term compatibility plans for Scala 3"),
 development is split into two lines called _Scala Next_ (for newest and experimental
 features) and _Scala LTS_ (only bug fixes, non-language changes and minor
-quality-of-life enhancements). LTS releases are released every two years and each LTS
+quality-of-life enhancements). LTS releases are released every two years, and each LTS
 release is supported for at least three years.
 
 ## [JDK Compatibility](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
@@ -141,7 +141,7 @@ release is supported for at least three years.
 Scala’s primary platform is the Java Virtual Machine (JVM).
 
 | JDK version | Minimum Scala versions                |
-| ----------- | ------------------------------------- |
+|-------------|---------------------------------------|
 | 23          | 3.4.0, 3.3.1, 2.13.15, 2.12.20        |
 | 22          | 3.4.0, 3.3.1, 2.13.13, 2.12.19        |
 | 21 (LTS)    | 3.4.0, 3.3.1, 2.13.11, 2.12.18        |
