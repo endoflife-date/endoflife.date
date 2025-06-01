@@ -29,14 +29,12 @@ auto:
         eoas: "Bugfixes until"
         eol: "Security patches until"
 
-# For LTS :
-# every 4 minor versions excluding the x.0 minor version, e.g. x.4, x.8, etc.
-# see https://emberjs.com/releases/lts/
+# For LTS (every 4 minor versions excluding the x.0 minor version, see https://emberjs.com/releases/lts/):
 # - lts(x) = releaseDate(x) + 6 weeks
 # - eoas(x) = lts(x) + 36 weeks
 # - eol(x) = lts(x) + 54 weeks
 #
-# For non-LTS :
+# For non-LTS:
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) = releaseDate(x+1)
 releases:
@@ -215,7 +213,7 @@ Ember follows [Semantic Versioning](https://semver.org/). The Ember team aims to
 in minor releases, and make major releases as rare as possible. A minor release is published about
 once every six weeks.
 
-## [Long Term Support](https://emberjs.com/releases/lts/)
+## [Long-Term Support](https://emberjs.com/releases/lts/)
 
 Once a release of Ember gets promoted to LTS, it receives bugfixes for 36 weeks and security
 updates for 54 weeks.

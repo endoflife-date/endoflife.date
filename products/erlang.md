@@ -115,7 +115,7 @@ of its principles with a two to four parts version number, `<Major>.<Minor>.<Pat
 
 More information about the versioning scheme can be found in the [Erlang/OTP documentation](https://www.erlang.org/doc/system_principles/versions#version-scheme).
 
-The release policy is not documented, but looking at the latest releases it seems that a new major
+The release policy is not documented, but looking at the latest releases, it seems that a new major
 version is released every year in May and supported for approximately 3 years.
 
 According to [Erlang/OTP's support policy](https://www.erlang.org/doc/system_principles/misc.html),
