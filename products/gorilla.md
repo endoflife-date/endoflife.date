@@ -57,5 +57,5 @@ releases:
 > Go programming language.
 
 The Gorilla project's repositories [were archived](https://www.reddit.com/r/golang/comments/zh0w0p/gorilla_web_toolkit_is_now_in_archive_only_mode/)
-near the end of 2022, and the project were no longer maintained until its [revival on July
+near the end of 2022, and the project was no longer maintained until its [revival in July
 2023](https://gorilla.github.io/blog/2023-07-17-project-status-update/).
