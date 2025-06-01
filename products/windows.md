@@ -376,7 +376,7 @@ releases:
 > Microsoft Corporation to run on personal computers.
 
 | Note | Comment                                                    |
-| ---- | ---------------------------------------------------------- |
+|------|------------------------------------------------------------|
 | (E)  | Enterprise, Education and IoT Enterprise editions          |
 | (W)  | Home, Pro, Pro Education and Pro for Workstations editions |
 | LTS  | Long-Term Servicing Channel/Branch                         |

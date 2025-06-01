@@ -156,11 +156,11 @@ releases:
 
 ---
 
-> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is a open-source network packet analyzer.
+> [Wireshark](https://www.wireshark.org/docs/wsug_html/#ChIntroWhatIs) is an open-source network packet analyzer.
 
-The latest two releases are support, and receive security and bug fixes. Each release is
+The latest two releases are supported and receive security and bug fixes. Each release is
 supported for a minimum of 18 months, which can be extended to 24 or 30 months,
 e.g. for releases preceding a major change.
 
-- Wireshark 4.2 is the last release to support Windows 10, and macOS 10.14-10.15.
+- Wireshark 4.2 is the last release to support Windows 10, and macOS 10.14–10.15.
 - Wireshark 4.0 is the last release to support Windows 8.1 and Windows Server 2012.

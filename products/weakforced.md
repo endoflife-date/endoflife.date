@@ -63,11 +63,11 @@ releases:
 
 ---
 
-> [Weakforced](https://powerdns.github.io/weakforced/) is an open-souce anti-abuse engine for
+> [Weakforced](https://powerdns.github.io/weakforced/) is an open-source anti-abuse engine for
 > authentication systems, acting as a policy decision point for email systems, web portals and any
 > other type of system that is open to authentication abuse on the Internet.
 
-Wforce does not follow a documented release policy.  
+Wforce does not follow a documented release policy.
 Looking at the latest releases, it seems that:
 - there is a new minor release every year
 - there are patch versions for the latest release cycle as needed
@@ -75,4 +75,4 @@ Looking at the latest releases, it seems that:
 - public/stable cycles do have an even minor number
 
 Wforce is a project by Dovecot, PowerDNS and Open-Xchange. For historical reasons, it lives in the
-PowerDNS github organization. Usage of wforce is not bound to any of those tools.
+PowerDNS GitHub organization. Usage of wforce is not bound to any of those tools.
