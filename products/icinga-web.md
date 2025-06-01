@@ -129,6 +129,6 @@ releases:
 > [Icinga Web](https://icinga.com/docs/icinga-web/latest/) is a web-based graphical user interface
 > for the [Icinga](/icinga) monitoring system.
 
-The two most recent releases are supported. The latest release receive bug and security fixes, while the previous
-version received only security fixes. Occasionally the N-3 release may receive critical security fixes but
+The two most recent releases are supported. The latest release receives bug and security fixes, while the previous
+version received only security fixes. Occasionally the N-3 release may receive critical security fixes, but
 [this is not guaranteed](https://github.com/Icinga/icingaweb2/blob/main/SECURITY.md).

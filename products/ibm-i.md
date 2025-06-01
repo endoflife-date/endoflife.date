@@ -199,7 +199,7 @@ releases:
 > the IBM AS/400 line of systems. It was renamed to i5/OS in 2004, before being renamed a second
 > time to IBM i in 2008.
 
-End of program support date will be announced with at least 12 months notice prior to the effective
+End of program support date will be announced with at least a 12-month notice prior to the effective
 termination date.
 
 IBM i 7.3 Service Extension Offering starts on October 1, 2023. For details regarding support coverage
@@ -210,11 +210,11 @@ for the various products in the IBM i portfolio, see Service Extension for IBM i
 
 IBM i 7.1 extended Service Extension started on May 1, 2021. The duration of IBM i 7.1 extended
 Service Extension is dependent on the Power hardware generation. The extended Service Extension
-coverage is usage and known defect support, and there some exceptions of products and functions
+coverage is usage and known defect support, and there are some exceptions of products and functions
 which are not supported. For notes regarding extended Service Extension duration and support
 coverage, see Service Extension for IBM i 7.3, 7.2 and 7.1.
 
-For 6.1, includes both Machine Code Level V6R1M0 and V6R1M1.
+For 6.1, it includes both Machine Code Level V6R1M0 and V6R1M1.
 
 Find more information about Technology Levels (TL) and Service Packs (SP) and their support dates
 on [IBM i Release Support](https://www.ibm.com/support/pages/ibm-i-release-support) page.
