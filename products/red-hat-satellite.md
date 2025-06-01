@@ -160,5 +160,5 @@ releases:
 > Red Hat infrastructures running efficiently, with security, and compliant with various standards.
 
 A new release is made approximately every 6 months. Each release is actively supported for six
- months and followed by one year of maintenance support. Release Dates are published on the
+months and followed by one year of maintenance support. Release Dates are published on the
 [Red Hat Customer Portal](https://access.redhat.com/articles/1365633).
