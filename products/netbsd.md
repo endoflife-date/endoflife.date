@@ -64,18 +64,18 @@ releases:
 
 ---
 
-> [NetBSD](https://www.netbsd.org/) is a free, fast, secure and extremely portable UNIX-like
+> [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like
 > operating system.
 
-NetBSD makes new major [releases](https://www.netbsd.org/releases/) approximately every 2-3 years,
-with point releases occurring every 6-12 months for the latest and prior major release. One month
+NetBSD makes new major [releases](https://www.netbsd.org/releases/) approximately every 2–3 years,
+with point releases occurring every 6–12 months for the latest and prior major release. One month
 after a new major release, support typically ends for the NetBSD major release 2 versions prior.
 NetBSD also releases daily snapshots of the development source code tree as
 [NetBSD-current][current].
 
 ## [Supported Branches](https://releng.netbsd.org/ "NetBSD Release Engineering Status Site")
 
-At any given time typically [3 branches](https://www.netbsd.org/releases/release-map.html#maintenance "NetBSD Maintenance Branches")
+At any given time, typically [3 branches](https://www.netbsd.org/releases/release-map.html#maintenance "NetBSD Maintenance Branches")
 of NetBSD are [supported with security patches](https://www.netbsd.org/support/security/ "Security and NetBSD")
 and bug fixes:
 
@@ -88,7 +88,7 @@ and bug fixes:
   supported).
 
 NetBSD publishes security advisories on the
-[announcements mailing list](https://www.netbsd.org/mailinglists/#netbsd-announce "General NetBSD Announcements Mailing List"),
+[announcement mailing list](https://www.netbsd.org/mailinglists/#netbsd-announce "General NetBSD Announcements Mailing List"),
 the [security announcements mailing list](https://www.netbsd.org/mailinglists/#security-announce "Announcements of NetBSD Security Advisories"),
 and the [tech-security discussion mailing list](https://www.netbsd.org/mailinglists/#tech-security "NetBSD Security Discussion Mailing List").
 [RSS feeds](https://netbsd.org/changes/rss.html "NetBSD RSS Feeds") providing

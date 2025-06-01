@@ -298,17 +298,17 @@ It has separate policies for different versions.
 
 Only the latest minor version is supported. A LTS release is supported till a separate published End-of-Life date.
 
-This page tracks End-of-Life as per the Neo4j Enterprise Edition. Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/). AuraDB, the hosted offering by Neo4j is automatically updated, and support is available depending on the plan.
+This page tracks End-of-Life as per the Neo4j Enterprise Edition. Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/). AuraDB, the hosted offering by Neo4j, is automatically updated, and support is available depending on the plan.
 
 A high-level overview of different Neo4j editions:
 
-|        Edition        |    Details   |                       Feature                    |               Support                  |
-| --------------------- | ------------ | ------------------------------------------------ | -------------------------------------  |
-| Community (Free)      | On-premise   | Single-node, no clustering                       | Community Support                      |
-| Enterprise            | On-premise   | Clustering, hot-backups, monitoring              | ???                                    |
-| AuraDB Free           | Cloud-only   | GCP only, Limits on node and relationship counts | Community Support                      |
-| AuraDB Professional   | Cloud-only   | GCP only, 1GB-64GB (RAM)                         | Support Portal, no SLA                 |
-| AuraDB Enterprise     | Cloud-only   | AWS, Azure, GCP. 4GB-384GB (RAM)                 | Premium ticket-based support, with SLA |
+| Edition             | Details    | Feature                                          | Support                                |
+|---------------------|------------|--------------------------------------------------|----------------------------------------|
+| Community (Free)    | On-premise | Single-node, no clustering                       | Community Support                      |
+| Enterprise          | On-premise | Clustering, hot-backups, monitoring              | ???                                    |
+| AuraDB Free         | Cloud-only | GCP only, Limits on node and relationship counts | Community Support                      |
+| AuraDB Professional | Cloud-only | GCP only, 1GB-64GB (RAM)                         | Support Portal, no SLA                 |
+| AuraDB Enterprise   | Cloud-only | AWS, Azure, GCP. 4GB-384GB (RAM)                 | Premium ticket-based support, with SLA |
 
 ### [Version 4.x and below](https://neo4j.com/terms/support-terms-pre-neo4j-5/)
 
