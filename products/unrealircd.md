@@ -27,8 +27,6 @@ identifiers:
 #        eoas: "Security fixes only"
 #        eol: "End of life (EOL)"
 
-# A list of releases, supported or not
-# Newer releases go on top of the list, in order
 releases:
 -   releaseCycle: "6"
     releaseDate: 2021-12-17
@@ -68,7 +66,7 @@ releases:
 > almost all IRCv3 features.
 
 UnrealIRCd always has one "stable" version. It does not have a strictly timed release cadence.
-When a new major version is released, the EOL dates of the previous major version ("oldstable") is announced.
+When a new major version is released, the EOL dates of the previous major version ("oldstable") are announced.
 The previous major version is guaranteed to be supported for at least 12 months.
 The final support period starts with a period where bugs are still being fixed (but no new
-features are being implemented), followed by a "security fixes only" period.
+features are being implemented), followed by a "security-fixes-only" period.
