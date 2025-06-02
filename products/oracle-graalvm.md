@@ -31,13 +31,13 @@ auto:
 releases:
 -   releaseCycle: "24"
     releaseDate: 2025-03-18
-    eol: 2025-09-16
+    eol: 2025-09-30
     latest: "24.0.1"
     latestReleaseDate: 2025-04-15
 
 -   releaseCycle: "23"
     releaseDate: 2024-09-17
-    eol: 2025-03-18
+    eol: 2025-03-31
     latest: "23.0.2"
     latestReleaseDate: 2025-01-21
 

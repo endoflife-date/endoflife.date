@@ -25,10 +25,10 @@ auto:
 # Note: latest minor within a major is considered LTS and maintained more than 18 months.
 releases:
 -   releaseCycle: "4.0"
-    releaseDate: 2025-05-23
+    releaseDate: 2025-05-19
     eol: 2026-11-23 # estimated
     latest: "4.0.0"
-    latestReleaseDate: 2025-05-23
+    latestReleaseDate: 2025-05-19
 
 -   releaseCycle: "3.5"
     lts: true
