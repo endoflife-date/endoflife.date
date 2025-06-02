@@ -105,8 +105,9 @@ releases:
     releaseDate: 2020-05-25
     eol: 2020-12-08
     eoes: 2025-05-25
-    latest: "5.15.2"
-    latestReleaseDate: 2020-11-13
+    latest: "5.15.17"
+    latestReleaseDate: 2025-05-22
+    link: https://www.qt.io/blog/commercial-lts-qt-5.15.17-released
 
 -   releaseCycle: "5.14"
     releaseDate: 2019-12-11
