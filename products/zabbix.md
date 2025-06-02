@@ -68,7 +68,7 @@ releases:
 
 -   releaseCycle: "5.0"
     lts: true
-    releaseDate: 2020-05-12
+    releaseDate: 2020-05-11
     eoas: 2023-05-31
     eol: 2025-05-31
     latest: "5.0.47"
