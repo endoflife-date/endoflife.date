@@ -33,7 +33,7 @@ releases:
     releaseLabel: "Surface Laptop 13-inch"
     releaseDate: 2025-05-20
     eol: 2031-05-20
-    link: https://support.microsoft.com/en-us/surface/surface-laptop-13-inch-features-177367f3-4bde-4ba2-8453-88d36a9cb720
+    link: https://support.microsoft.com/surface/surface-laptop-13-inch-features-177367f3-4bde-4ba2-8453-88d36a9cb720
 
 -   releaseCycle: "pro-11th-edition-intel-processor"
     releaseLabel: "Surface Pro 11th Edition, Intel processor"
