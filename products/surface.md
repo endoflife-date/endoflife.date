@@ -27,7 +27,7 @@ releases:
     releaseLabel: "Surface Pro 12-inch"
     releaseDate: 2025-05-20
     eol: 2031-05-20
-    link: https://support.microsoft.com/en-us/surface/surface-pro-12-inch-features-f1ec3085-a88a-4c52-abfb-cd75f8c4e736
+    link: https://support.microsoft.com/surface/surface-pro-12-inch-features-f1ec3085-a88a-4c52-abfb-cd75f8c4e736
 
 -   releaseCycle: "laptop-13-inch"
     releaseLabel: "Surface Laptop 13-inch"
