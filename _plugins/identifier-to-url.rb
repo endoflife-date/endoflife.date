@@ -132,7 +132,8 @@ class IdentifierToUrl
   end
 
   def _build_winget_url(purl)
-    return "https://winget.run/pkg/#{purl.name}"
+    # return "https://winget.run/pkg/#{purl.name}"
+    return nil # keep this as nil until winget.run webserver is up again.
   end
 
   def _build_maven_url(purl)
