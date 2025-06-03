@@ -23,6 +23,18 @@ auto:
 
 # Most models can be found on https://support.microsoft.com/surface/find-out-which-surface-model-you-have-da204261-8d26-9351-8588-5b09632c9486
 releases:
+-   releaseCycle: "pro-12-inch"
+    releaseLabel: "Surface Pro 12-inch"
+    releaseDate: 2025-05-20
+    eol: 2031-05-20
+    link: https://support.microsoft.com/surface/surface-pro-12-inch-features-f1ec3085-a88a-4c52-abfb-cd75f8c4e736
+
+-   releaseCycle: "laptop-13-inch"
+    releaseLabel: "Surface Laptop 13-inch"
+    releaseDate: 2025-05-20
+    eol: 2031-05-20
+    link: https://support.microsoft.com/surface/surface-laptop-13-inch-features-177367f3-4bde-4ba2-8453-88d36a9cb720
+
 -   releaseCycle: "pro-11th-edition-intel-processor"
     releaseLabel: "Surface Pro 11th Edition, Intel processor"
     releaseDate: 2025-02-18
