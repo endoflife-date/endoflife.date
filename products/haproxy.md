@@ -34,15 +34,15 @@ releases:
 -   releaseCycle: "3.1"
     releaseDate: 2024-11-26
     eol: 2026-01-01
-    latest: "3.1.7"
-    latestReleaseDate: 2025-04-17
+    latest: "3.1.8"
+    latestReleaseDate: 2025-06-02
 
 -   releaseCycle: "3.0"
     releaseDate: 2024-05-29
     lts: true
     eol: 2029-04-01
-    latest: "3.0.10"
-    latestReleaseDate: 2025-04-22
+    latest: "3.0.11"
+    latestReleaseDate: 2025-06-02
 
 -   releaseCycle: "2.9"
     releaseDate: 2023-12-05
