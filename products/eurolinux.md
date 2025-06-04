@@ -5,7 +5,6 @@ tags: linux-distribution
 permalink: /eurolinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://euro-linux.com/en/about-us/
-changelogTemplate: null
 eoasColumn: true
 
 identifiers:
