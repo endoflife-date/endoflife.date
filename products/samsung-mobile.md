@@ -21,10 +21,10 @@ auto:
         biannually: Current Models for Biannual Security Updates
       regex: '^.+$'
       regex_exclude:
-      - '^galaxy-tab.+$' # managed in products/samsung-galaxy-tab.md
-      - '^galaxy-m13-india$' # still available, according to https://www.gsmarena.com/samsung_galaxy_m13_(india)-11654.php
-      - '^galaxy-a13-sm-a137$' # still available, according to https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
-      - '^galaxy-a-quantum2$' # still available, according to https://www.gsmarena.com/samsung_galaxy_quantum_2-10850.php
+      -   '^galaxy-tab.+$' # managed in products/samsung-galaxy-tab.md
+      -   '^galaxy-m13-india$' # still available, according to https://www.gsmarena.com/samsung_galaxy_m13_(india)-11654.php
+      -   '^galaxy-a13-sm-a137$' # still available, according to https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
+      -   '^galaxy-a-quantum2$' # still available, according to https://www.gsmarena.com/samsung_galaxy_quantum_2-10850.php
 
 # eoas(x) = end of android upgrade
 # eol(x) = end of security support
@@ -840,7 +840,7 @@ releases:
     releaseLabel: "Galaxy M42 5G"
     releaseDate: 2021-04-30
     eoas: false
-    eol: false
+    eol: 2025-06-04
     link: https://doc.samsungmobile.com/SM-M426B/INS/doc.html
 
 -   releaseCycle: "galaxy-a-quantum2"
