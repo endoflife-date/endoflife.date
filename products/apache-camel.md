@@ -50,8 +50,8 @@ releases:
     releaseDate: 2025-02-07
     eol: 2026-02-11
     supportedJavaVersions: "17, 21"
-    latest: "4.10.4"
-    latestReleaseDate: 2025-04-25
+    latest: "4.10.5"
+    latestReleaseDate: 2025-05-30
 
 -   releaseCycle: "4.9"
     releaseDate: 2024-11-29
