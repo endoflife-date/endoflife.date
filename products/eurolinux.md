@@ -4,8 +4,7 @@ category: os
 tags: linux-distribution
 permalink: /eurolinux
 versionCommand: cat /etc/os-release
-releasePolicyLink: https://euro-linux.com/en/software/eurolinux/specification/
-changelogTemplate: https://euro-linux.com/en/software/eurolinux/specification/
+releasePolicyLink: https://web.archive.org/web/20240916162852/https://euro-linux.com/en/software/eurolinux/specification/
 eoasColumn: true
 
 identifiers:
