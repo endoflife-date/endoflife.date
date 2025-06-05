@@ -31,14 +31,14 @@ releases:
 -   releaseCycle: "6.15"
     releaseDate: 2025-05-25
     eol: false # not yet announced
-    latest: "6.15.0"
-    latestReleaseDate: 2025-05-25
+    latest: "6.15.1"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "6.14"
     releaseDate: 2025-03-24
     eol: false # not yet announced
-    latest: "6.14.9"
-    latestReleaseDate: 2025-05-29
+    latest: "6.14.10"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "6.13"
     releaseDate: 2025-01-19
@@ -50,8 +50,8 @@ releases:
     lts: true
     releaseDate: 2024-11-17
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.12.31"
-    latestReleaseDate: 2025-05-29
+    latest: "6.12.32"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "6.11"
     releaseDate: 2024-09-15
@@ -87,8 +87,8 @@ releases:
     lts: true
     releaseDate: 2023-10-30
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "6.6.92"
-    latestReleaseDate: 2025-05-22
+    latest: "6.6.93"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "6.5"
     releaseDate: 2023-08-27
@@ -118,8 +118,8 @@ releases:
     lts: true
     releaseDate: 2022-12-11
     eol: 2027-12-31 # https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=e6083565a79c3d711c1a76d9312b8c00e06b826b
-    latest: "6.1.140"
-    latestReleaseDate: 2025-05-22
+    latest: "6.1.141"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-10-02
@@ -155,8 +155,8 @@ releases:
     lts: true
     releaseDate: 2021-10-31
     eol: 2026-10-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.15.184"
-    latestReleaseDate: 2025-05-22
+    latest: "5.15.185"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "5.14"
     releaseDate: 2021-08-29
@@ -186,15 +186,15 @@ releases:
     lts: true
     releaseDate: 2020-12-13
     eol: 2026-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.10.237"
-    latestReleaseDate: 2025-05-02
+    latest: "5.10.238"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "5.4"
     lts: true
     releaseDate: 2019-11-25
     eol: 2025-12-31 # Projected EOL from https://www.kernel.org/category/releases.html
-    latest: "5.4.293"
-    latestReleaseDate: 2025-05-02
+    latest: "5.4.294"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "4.19"
     lts: true

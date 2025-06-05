@@ -21,14 +21,14 @@ releases:
 -   releaseCycle: "11.4"
     releaseDate: 2024-10-15
     eol: 2029-05-31
-    latest: "11.4.5"
-    latestReleaseDate: 2025-02-24
+    latest: "11.4.7"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "10.11"
     releaseDate: 2023-08-21
     eol: 2028-02-29
-    latest: "10.11.11"
-    latestReleaseDate: 2025-02-24
+    latest: "10.11.13"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "10.6"
     releaseDate: 2022-02-03

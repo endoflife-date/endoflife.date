@@ -62,16 +62,16 @@ releases:
     eoas: 2025-12-31
     eol: 2028-04-30
     supportedPythonVersions: "3.10 - 3.13"
-    latest: "5.2.1"
-    latestReleaseDate: 2025-05-06
+    latest: "5.2.2"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "5.1"
     releaseDate: 2024-08-07
     eoas: 2025-04-02
     eol: 2025-12-31
     supportedPythonVersions: "3.10 - 3.13 (added in 5.1.3)"
-    latest: "5.1.9"
-    latestReleaseDate: 2025-05-06
+    latest: "5.1.10"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "5.0"
     releaseDate: 2023-12-04
@@ -87,8 +87,8 @@ releases:
     eoas: 2023-12-04
     eol: 2026-04-30
     supportedPythonVersions: "3.8 - 3.12 (added in 4.2.8)"
-    latest: "4.2.21"
-    latestReleaseDate: 2025-05-06
+    latest: "4.2.22"
+    latestReleaseDate: 2025-06-04
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-08-03
