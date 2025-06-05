@@ -27,8 +27,8 @@ releases:
     codename: 'Walnascar'
     releaseDate: 2025-05-07
     eol: 2025-12-07
-    latest: "5.2.0"
-    latestReleaseDate: 2025-05-07
+    latest: "5.2.1"
+    latestReleaseDate: 2025-06-03
 
 -   releaseCycle: "5.1"
     codename: 'Styhead'
@@ -71,8 +71,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.26"
-    latestReleaseDate: 2025-04-18
+    latest: "4.0.27"
+    latestReleaseDate: 2025-06-03
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
