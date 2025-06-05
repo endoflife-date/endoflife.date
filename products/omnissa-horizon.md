@@ -196,7 +196,7 @@ The last date on which you can request support; the end of regular VMware mainte
 upgrades, _bug and security fixes,_ and technical assistance as per the Support and Subscription
 Terms and Conditions.
 
-## [Technical Guidance](https://www.vmware.com/support/lifecycle-policies.html)
+## Technical Guidance
 
 The last date on which you can access support and workarounds for low-severity issues on supported
 configurations only. During the Technical Guidance phase, VMware does not offer new hardware
