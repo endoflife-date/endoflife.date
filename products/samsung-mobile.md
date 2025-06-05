@@ -41,8 +41,8 @@ releases:
 -   releaseCycle: "galaxy-xcover7-pro"
     releaseLabel: "Galaxy XCover7 Pro"
     releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_xcover7_pro-13780.php
-    eoas: 2029-05-07 # https://www.samsung.com/uk/smartphones/others/galaxy-xcover7-black-128gb-sm-g556bzkdeeb/
-    eol: 2030-05-07 # https://www.samsung.com/uk/smartphones/others/galaxy-xcover7-black-128gb-sm-g556bzkdeeb/
+    eoas: 2029-05-07 # not found, assumed 4 OS upgrades
+    eol: 2032-05-31 # https://www.samsung.com/us/business/smartphones/galaxy-xcover7-pro/buy/galaxy-xcover7-pro-128gb-unlocked-sku-sm-g766uzkfn14/
     link: https://doc.samsungmobile.com/SM-G766B/EUX/doc.html
 
 -   releaseCycle: "galaxy-m56-5g"
