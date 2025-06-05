@@ -38,6 +38,13 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+-   releaseCycle: "galaxy-xcover7-pro"
+    releaseLabel: "Galaxy XCover7 Pro"
+    releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_xcover7_pro-13780.php
+    eoas: 2029-05-07 # https://www.samsung.com/uk/smartphones/others/galaxy-xcover7-black-128gb-sm-g556bzkdeeb/
+    eol: 2030-05-07 # https://www.samsung.com/uk/smartphones/others/galaxy-xcover7-black-128gb-sm-g556bzkdeeb/
+    link: https://doc.samsungmobile.com/SM-G766B/EUX/doc.html
+
 -   releaseCycle: "galaxy-m56-5g"
     releaseLabel: "Galaxy M56 5G"
     releaseDate: 2025-04-17 # https://news.samsung.com/in/samsung-launches-galaxy-m56-5g-segments-slimmest-smartphone-in-india
