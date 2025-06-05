@@ -32,6 +32,13 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+-   releaseCycle: "galaxy-tab-active5-pro"
+    releaseLabel: "Galaxy Tab Active5 Pro"
+    releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_tab_active5_pro-13790.php
+    eoas: 2029-05-07 # https://www.samsung.com/us/business/mobile/tablets/galaxy-tab-active/explore/
+    eol: 2030-05-07 # https://www.samsung.com/us/business/mobile/tablets/galaxy-tab-active/explore/
+    link: https://doc.samsungmobile.com/SM-X356B/MID/doc.html
+
 -   releaseCycle: "galaxy-tab-s10-fe+"
     releaseLabel: "Galaxy Tab S10 FE+"
     releaseDate: 2025-04-03 # https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design
