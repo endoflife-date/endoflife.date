@@ -78,8 +78,8 @@ releases:
 -   releaseCycle: "r560-linux"
     releaseLabel: "R560-Linux (PB)"
     releaseDate: 2024-08-22
-    eoas: true
-    eol: 2025-08-01
+    eoas: 2025-08-22
+    eol: 2025-08-22
     latest: "560.35.03"
     latestReleaseDate: 2024-08-21
     link: https://www.nvidia.com/Download/driverResults.aspx/230918/
@@ -87,8 +87,8 @@ releases:
 -   releaseCycle: "r560-windows"
     releaseLabel: "R560-Windows (PB)"
     releaseDate: 2024-07-30
-    eoas: true
-    eol: 2025-07-01
+    eoas: 2025-07-30
+    eol: 2025-07-30
     latest: "560.76"
     latestReleaseDate: 2024-07-30
     link: https://www.nvidia.com/Download/driverResults.aspx/230555/
