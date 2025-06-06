@@ -37,36 +37,40 @@ releases:
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "20h2"
-    releaseLabel: "20H2"
+-   releaseCycle: "20h2-sac"
+    releaseLabel: "20H2 SAC"
     releaseDate: 2020-10-20
     eoas: 2022-08-09
     eol: 2022-08-09
     latest: 10.0.19042
     link: https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring
 
--   releaseCycle: "2004"
+-   releaseCycle: "2004-sac"
+    releaseLabel: "2004 SAC"
     releaseDate: 2020-05-27
     eoas: 2021-12-14
     eol: 2021-12-14
     latest: 10.0.19041
     link: https://learn.microsoft.com/lifecycle/announcements/windows-server-version-2004-end-of-servicing
 
--   releaseCycle: "1909"
+-   releaseCycle: "1909-sac"
+    releaseLabel: "1909 SAC"
     releaseDate: 2019-11-12
     eoas: 2021-05-11
     eol: 2021-05-11
     latest: 10.0.18363
     link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1909-end-of-servicing
 
--   releaseCycle: "1903"
+-   releaseCycle: "1903-sac"
+    releaseLabel: "1903 SAC"
     releaseDate: 2019-05-21
     eoas: 2020-12-08
     eol: 2020-12-08
     latest: 10.0.18362
     link: https://learn.microsoft.com/lifecycle/products/windows-server-semiannual-channel
 
--   releaseCycle: "1809"
+-   releaseCycle: "1809-sac"
+    releaseLabel: "1809 SAC"
     releaseDate: 2018-11-13
     eoas: 2020-11-10
     eol: 2020-11-10
@@ -81,14 +85,16 @@ releases:
     latest: 10.0.17763
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
 
--   releaseCycle: "1803"
+-   releaseCycle: "1803-sac"
+    releaseLabel: "1803 SAC"
     releaseDate: 2018-04-30
     eoas: 2019-11-12
     eol: 2019-11-12
     latest: 10.0.17134
     link: https://learn.microsoft.com/lifecycle/announcements/windows-server-1803-end-of-servicing
 
--   releaseCycle: "1709"
+-   releaseCycle: "1709-sac"
+    releaseLabel: "1709 SAC"
     releaseDate: 2017-10-17
     eoas: 2019-04-09
     eol: 2019-04-09
