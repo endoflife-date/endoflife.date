@@ -52,8 +52,8 @@ releases:
     eoas: true
     eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
     eoes: false
-    latest: "5.7.19"
-    latestReleaseDate: 2023-09-25
+    latest: "5.7.20"
+    latestReleaseDate: 2025-06-05
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
 
 -   releaseCycle: "6.4"
