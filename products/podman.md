@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "5.5"
     releaseDate: 2025-05-13
     eol: false
-    latest: "5.5.0"
-    latestReleaseDate: 2025-05-13
+    latest: "5.5.1"
+    latestReleaseDate: 2025-06-05
 
 -   releaseCycle: "5.4"
     releaseDate: 2025-02-11
