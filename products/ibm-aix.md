@@ -18,7 +18,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: ibm-aix
+  -   ibm-aix: https://www.ibm.com/support/pages/aix-support-lifecycle-information
   -   release_table: https://www.ibm.com/support/pages/aix-support-lifecycle-information
       selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"

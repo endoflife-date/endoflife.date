@@ -21,7 +21,9 @@ customFields:
 
 auto:
   methods:
-  -   custom: amazon-neptune
+  -   amazon-neptune: https://docs.aws.amazon.com/neptune/latest/userguide/rssupdates.rss
+      regex: '^Engine version (?P<version>[0-9R.]+)$'
+      template: "{{version}}"
   -   release_table: https://docs.aws.amazon.com/neptune/latest/userguide/engine-releases.html
       selector: "table"
       fields:

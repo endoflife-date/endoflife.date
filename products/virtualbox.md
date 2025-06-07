@@ -19,7 +19,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: virtualbox
+  -   virtualbox: https://www.virtualbox.org/wiki/Download_Old_Builds
+      regex: '^VirtualBox (?P<value>\d+\.\d+)$'
 
 # eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.

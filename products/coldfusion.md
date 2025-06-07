@@ -13,11 +13,15 @@ identifiers:
 -   cpe: cpe:2.3:a:adobe:coldfusion
 -   cpe: cpe:/a:adobe:coldfusion
 
-# Anti-scraping measures have been taken, so the script does not work anymore.
-# It has been disabled for now as it significantly increases the Update data job duration.
-#Auto:
+# Disabled, as the Adobe ColdFusion website is now protected by anti-bot measures.
+#auto:
 #  methods:
-#  -   custom: coldfusion
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-10-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-11-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2016-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2018-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2021-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2023-updates.html
 
 # When adding a cycle, remember to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py

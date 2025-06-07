@@ -19,7 +19,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: cos
+  -   cos: https://cloud.google.com/container-optimized-os/docs/release-notes/
 
 # For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:

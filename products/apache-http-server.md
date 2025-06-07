@@ -21,7 +21,14 @@ identifiers:
 
 auto:
   methods:
-  -   custom: apache-http-server
+  -   apache-http-server: https://github.com/apache/httpd.git
+      regex:
+      # for most versions
+      - '\s+(?P<version>\d+\.\d+\.\d+)\s*:.*(?:Released|Announced|Released and Retired)\s(?:on\s)?(?P<date>\w+\s\d\d?,\s\d{4})'
+      # for older 2.0.x versions (only GA versions are considered)
+      - '\s+(?P<version>\d+\.\d+\.\d+)\s*:.*released\s(?P<date>\w+\s\d\d?,\s\d{4}) as GA'
+      # for older 1.3.x versions, we take the date of the tag and not the date of the release (too difficult to parse)
+      - '\s+(?P<version>\d+\.\d+\.\d+)\s*:.*Tagged and [rR]olled\s(?:on\s)?(?P<date>\w+\.?\s\d\d?,\s\d{4})'
 
 releases:
 -   releaseCycle: "2.4"

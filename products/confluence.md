@@ -18,7 +18,9 @@ identifiers:
 auto:
   methods:
   -   atlassian_versions: https://www.atlassian.com/software/confluence/download-archives
-  -   atlassian_eol: AtlassianEndofSupportPolicy-Confluence
+  -   atlassian_eol: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+      selector: AtlassianEndofSupportPolicy-Confluence
+      regex: '(?P<release>\d+(\.\d+)+) \(EO[SL] date: (?P<date>.+)\).*$'
 
 # Release dates from https://www.atlassian.com/software/confluence/download-archives.
 # LTS/EOL dates can be found on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html.

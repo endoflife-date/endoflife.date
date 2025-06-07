@@ -13,7 +13,11 @@ eolColumn: Active Support
 
 auto:
   methods:
-  -   custom: visual-studio
+  # There is no build history for versions 2015 and below.
+  # This is not a big deal because there was no version for those releases in a very long time.
+  -   visual-studio: https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes-history
+  -   visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2019/history
+  -   visual-studio: https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history
 
 # For non-LTSC, eol(x) = releaseDate(x+1)
 # For LTSC, EOL dates can be found on https://learn.microsoft.com/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support

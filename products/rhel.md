@@ -21,6 +21,7 @@ identifiers:
 
 auto:
   methods:
+  #-   rhel: https://access.redhat.com/articles/3078 # Deprecated, use redhat_lifecycles instead
   -   redhat_lifecycles: Red Hat Enterprise Linux
       regex: '^(?P<major>\d+)$'
       fields:

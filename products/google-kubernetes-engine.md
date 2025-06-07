@@ -14,7 +14,7 @@ eolColumn: Maintenance Support
 
 auto:
   methods:
-  -   custom: google-kubernetes-engine
+  -   google-kubernetes-engine: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 
 # eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
 # eoas:last-date-in-month(eol - 2months)

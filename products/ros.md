@@ -10,6 +10,12 @@ releaseLabel: '__CODENAME__'
 releaseColumn: false
 eolColumn: End Of Life
 
+auto:
+  methods:
+  -   ros: https://wiki.ros.org/Distributions
+      regex: '^ROS (?P<name>(\w| )+)'
+      template: "{{name}}"
+
 releases:
 -   releaseCycle: 'noetic'
     codename: 'Noetic Ninjemys'

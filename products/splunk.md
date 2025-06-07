@@ -7,12 +7,12 @@ versionCommand: splunk --version
 releasePolicyLink: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html
 changelogTemplate: https://docs.splunk.com/Documentation/Splunk/__LATEST__/ReleaseNotes/MeetSplunk
 
-auto:
-  methods:
-  -   custom: splunk
-
 identifiers:
 -   repology: splunk
+
+auto:
+  methods:
+  -   splunk: https://docs.splunk.com/Documentation/Splunk
 
 # EOL dates can be found on https://www.splunk.com/en_us/legal/splunk-software-support-policy.html.
 releases:
