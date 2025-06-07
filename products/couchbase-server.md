@@ -19,7 +19,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: couchbase-server
+  -   couchbase-server: https://docs.couchbase.com/server
+      regex: '^Release (?P<version>\d+\.\d+(\.\d+)?) \((?P<date>.+)\)$'
   -   release_table: https://www.couchbase.com/support-policy/EOL/
       selector: "table"
       fields:

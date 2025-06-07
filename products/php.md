@@ -20,7 +20,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: php
+  -   php: https://www.php.net/releases/index.php?json&max=-1
 
 releases:
 -   releaseCycle: "8.4"

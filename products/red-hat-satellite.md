@@ -22,7 +22,8 @@ eolColumn: Maintenance support
 
 auto:
   methods:
-  -   custom: red-hat-satellite
+  -   red-hat-satellite: https://access.redhat.com/articles/1365633
+      regex: '^Satellite (?P<version>\d+\.\d+\.\d+([.-]\d+)?) ([Uu]pdate|[Rr]elease)$'
 
 releases:
 -   releaseCycle: "6.17"

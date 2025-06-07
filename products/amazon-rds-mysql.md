@@ -9,7 +9,9 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-  -   custom: rds
+  -   rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+      regex: '(?P<version>\d+(\.\d+)*)'
+      template: "{{version}}"
   -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
       selector: "#rds-mysql-version-release-calendar table"
       fields:

@@ -15,7 +15,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: netbsd
+  -   netbsd: https://www.netbsd.org/releases/formal.html
 
 # eoas(x) = releaseDate(x+1)
 # For eol see https://www.netbsd.org/releases/formal.html

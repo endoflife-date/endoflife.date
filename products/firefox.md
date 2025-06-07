@@ -20,7 +20,7 @@ auto:
   # See https://github.com/endoflife-date/release-data/blob/main/src/firefox.py for details
   cumulative: true
   methods:
-  -   custom: firefox
+  -   firefox: https://www.mozilla.org/en-US/firefox/releases/
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 # For LTS version, eol(x) = releaseDate of the next major after the corresponding version last minor LTS on https://whattrainisitnow.com/calendar/, if available.

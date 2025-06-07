@@ -18,7 +18,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: chef-infra-client
+  -   chef-infra: https://docs.chef.io/release_notes_client/
+      repository: https://github.com/chef/chef.git
 
 # eol(x) = releaseDate(x+2) > confirm EOL date here https://docs.chef.io/versions/
 # eoas(x) = releaseDate(x+1)

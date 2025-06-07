@@ -17,7 +17,7 @@ identifiers:
 auto:
   cumulative: true # Only the latest versions are available on https://www.lua.org/versions.html.
   methods:
-  -   custom: lua
+  -   lua: https://www.lua.org/versions.html
 
 # EOL date is the date of the last release of the version.
 # The last releases are documented on https://www.lua.org/versions.html with a sentence similar to

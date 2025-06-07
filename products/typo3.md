@@ -15,7 +15,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: typo3
+  -   typo3: https://get.typo3.org/api/v1/release/
 
 releases:
 -   releaseCycle: "13"

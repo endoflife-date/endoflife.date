@@ -15,7 +15,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: chef-inspec
+  -   chef-inspec: https://docs.chef.io/release_notes_inspec/
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/

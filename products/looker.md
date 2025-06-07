@@ -14,7 +14,9 @@ releaseColumn: false
 # Used only for detecting new minor releases.
 auto:
   methods:
-  -   custom: looker
+  -   looker: https://cloud.google.com/feeds/looker-release-notes.xml
+      regex: 'Looker\s+(?P<version>\d+\.\d+)'
+      template: '{{version}}'
 
 # eol/esr dates on https://cloud.google.com/looker/docs/officially-supported-releases
 releases:

@@ -14,7 +14,9 @@ identifiers:
 
 auto:
   methods:
-  -   custom: libreoffice
+  -   libreoffice: https://downloadarchive.documentfoundation.org/libreoffice/old/
+      regex: '^(?P<version>\d+(\.\d+)*)/$'
+      template: '{{version}}'
 
 releases:
 -   releaseCycle: "25.2"

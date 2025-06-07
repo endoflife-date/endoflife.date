@@ -17,7 +17,8 @@ identifiers:
 
 auto:
   methods:
-  -   custom: chef-infra-server
+  -   chef-infra: https://docs.chef.io/release_notes_server/
+      repository: https://github.com/chef/chef-server.git
 
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2) or the date documented on https://docs.chef.io/versions/

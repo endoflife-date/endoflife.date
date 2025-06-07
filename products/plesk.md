@@ -12,7 +12,7 @@ eolWarnThreshold: 21
 
 auto:
   methods:
-  -   custom: plesk
+  -   plesk: https://docs.plesk.com/release-notes/obsidian/change-log
 
 # eol(x) = releaseDate(x) + 12 weeks
 releases:

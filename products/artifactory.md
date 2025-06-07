@@ -14,7 +14,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: artifactory
+  -   artifactory: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
 
 # EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:

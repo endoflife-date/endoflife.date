@@ -16,7 +16,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: debian
+  -   debian: https://salsa.debian.org/webmaster-team/webwml.git
   -   release_table: https://wiki.debian.org/DebianReleases
       ignore_empty_releases: true # so that future releases are ignored
       selector: "table"

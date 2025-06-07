@@ -9,7 +9,7 @@ changelogTemplate: https://www.haproxy.org/download/__RELEASE_CYCLE__/src/CHANGE
 
 auto:
   methods:
-  -   custom: haproxy
+  -   haproxy: https://www.haproxy.org/download/
 
 identifiers:
 -   repology: haproxy

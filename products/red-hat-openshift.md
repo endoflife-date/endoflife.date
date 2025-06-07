@@ -22,7 +22,7 @@ identifiers:
 
 auto:
   methods:
-  -   custom: red-hat-openshift
+  -   red-hat-openshift: https://github.com/openshift/openshift-docs.git
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:

@@ -11,7 +11,7 @@ changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|s
 # Disabled because there are anti-bot protection measures on https://unity.com/.
 #auto:
 #  methods:
-#  -   custom: unity
+#  -   unity: https://unity.com/releases/editor/qa/lts-releases
 
 releases:
 -   releaseCycle: "6.1"

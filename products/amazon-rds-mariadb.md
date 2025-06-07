@@ -8,7 +8,9 @@ releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaD
 
 auto:
   methods:
-  -   custom: rds
+  -   rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+      regex: '(?P<version>\d+(\.\d+)*)'
+      template: "{{version}}"
   -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
       selector: "#rds-mariadb-version-release-calendar table"
       fields:

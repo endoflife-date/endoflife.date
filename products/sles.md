@@ -19,6 +19,10 @@ identifiers:
 -   cpe: cpe:/o:suse:sles
 -   cpe: cpe:2.3:o:suse:sles
 
+auto:
+  methods:
+  -   sles: https://www.suse.com/lifecycle
+
 releases:
 -   releaseCycle: "15.6"
     releaseDate: 2024-06-26
