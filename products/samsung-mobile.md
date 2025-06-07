@@ -38,6 +38,20 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+-   releaseCycle: "galaxy-s25-edge"
+    releaseLabel: "Galaxy S25 Edge"
+    releaseDate: 2025-05-29 # https://www.gsmarena.com/samsung_galaxy_s25_edge-13506.php
+    eoas: 2032-05-29 # 7 android upgrade - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
+    eol: 2032-05-29 # 7 years of security updates - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
+    link: null # not found on doc.samsungmobile.com as of 2025-06-06
+
+-   releaseCycle: "galaxy-f56-5g"
+    releaseLabel: "Galaxy F56 5G"
+    releaseDate: 2025-05-14 # https://www.gsmarena.com/samsung_galaxy_f56_5g-13855.php
+    eoas: 2031-05-14 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f56-its-slimmest-f-series-smartphone-in-india
+    eol: 2031-05-14 # 6 years of security updates - https://news.samsung.com/in/samsung-launches-galaxy-f56-its-slimmest-f-series-smartphone-in-india
+    link: https://doc.samsungmobile.com/SM-E566B/INS/doc.html
+
 -   releaseCycle: "galaxy-xcover7-pro"
     releaseLabel: "Galaxy XCover7 Pro"
     releaseDate: 2025-05-07 # https://www.gsmarena.com/samsung_galaxy_xcover7_pro-13780.php
