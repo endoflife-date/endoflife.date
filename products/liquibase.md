@@ -5,7 +5,7 @@ tags: java-runtime
 iconSlug: liquibase
 permalink: /liquibase
 versionCommand: liquibase --version
-changelogTemplate: https://docs.liquibase.com/start/release-notes/liquibase-release-notes/liquibase-__LATEST__.html
+changelogTemplate: https://github.com/liquibase/liquibase/releases/tag/v__LATEST__
 
 identifiers:
 -   repology: liquibase
