@@ -61,6 +61,7 @@ releases:
 > Unix-like operating systems.
 
 ProFTPD follows a release policy roughly summarized as:
+
 - there is one `stable` release cycle which is the current actively maintained branch
 - there is one `maintenance` release cycle which still gets backported fixes from `stable`
 - a new release cycle puts the previous one into "maintenance mode" and completely ends the

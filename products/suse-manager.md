@@ -76,7 +76,6 @@ releases:
 
 > [SUSE Manager](https://www.suse.com/products/suse-manager/) is an open source infrastructure management solution designed to simplify and secure a mixed Linux environment. It uses the Salt configuration management system to manage clients, deploy patches and packages, and report changes at scale.
 
-
 {: .warning }
 > This page tracks SUSE Manager, which is a SUSE product based on the [open-source Uyuni project](https://uyuni-project.org). Uyuni offers the same functionality but follows a rolling release — bugfixes are only available on the latest version.
 

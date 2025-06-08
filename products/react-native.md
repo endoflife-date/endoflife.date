@@ -18,7 +18,6 @@ auto:
   -   npm: react-native
       regex: '(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
-
 # eoas = releaseDate(x+2)
 # eol = releaseDate(x+3)
 # eoas and eol on https://github.com/reactwg/react-native-releases/blob/main/docs/support.md

@@ -50,6 +50,4 @@ releases:
 
 > Pixel Watch is Google's current line of wearable watches.
 
-
-
 The end date for guaranteed WearOS version updates is indicated in the 'Active Support' column.

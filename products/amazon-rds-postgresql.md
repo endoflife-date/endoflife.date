@@ -85,15 +85,6 @@ releases:
     # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
 
-
-
-
-
-
-
-
-
-
 ---
 
 > [Amazon RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql) is a PaaS offering from Amazon

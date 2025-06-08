@@ -69,6 +69,7 @@ releases:
 
 Wforce does not follow a documented release policy.
 Looking at the latest releases, it seems that:
+
 - there is a new minor release every year
 - there are patch versions for the latest release cycle as needed
 - each new release cycle ends the previous one

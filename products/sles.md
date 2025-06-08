@@ -186,7 +186,6 @@ releases:
     latestReleaseDate: 2011-04-12
     link: null
 
-
 ---
 
 > [Suse Linux Enterprise Server](https://www.suse.com/products/server/) is a modular linux

@@ -177,20 +177,6 @@ releases:
     latestReleaseDate: 2007-12-07
     link: "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 > [Apache ActiveMQ](https://activemq.apache.org/) is an open source Java-based message broker that

@@ -80,7 +80,6 @@ releases:
 
 > [TYPO3](https://typo3.org/) is a free and open-source content management system written in PHP.
 
-
 ## PHP Support
 
 | Version | PHP                                                                 |
