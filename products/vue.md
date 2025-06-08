@@ -145,26 +145,6 @@ releases:
     latestReleaseDate: 2016-09-27
     link: "https://github.com/vuejs/vue/releases/tag/v__LATEST__"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 > [Vue](https://vuejs.org/) is a JavaScript framework for building user interfaces. It builds on top

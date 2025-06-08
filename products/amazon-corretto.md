@@ -155,6 +155,7 @@ releases:
 > For Corretto 8 — JavaFX is not included in this extension, and it will no longer be included with Corretto 8 after March 2026.
 
 Corretto follows the same cadence as OpenJDK:
+
 - A 6-month rapid-release cycle.
 - A new LTS release every 2 years (every fourth OpenJDK release).
 

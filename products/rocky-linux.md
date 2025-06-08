@@ -53,7 +53,7 @@ releases:
 > operating system source code. The project is led by Gregory Kurtzer, founder of the CentOS
 > project.
 
-## Differences with Upstream RHEL:
+## Differences with Upstream RHEL
 
 - Unlike RHEL, [Rocky Linux does not support point releases once a newer one is available.](https://forums.rockylinux.org/t/what-is-eol-of-rl8/3316/10)
   Once a new minor point release is available, the older one is immediately considered end of life

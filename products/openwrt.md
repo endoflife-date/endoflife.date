@@ -67,11 +67,6 @@ releases:
     latestReleaseDate: 2019-06-21
     latest: "17.01.7"
 
-
-
-
-
-
 ---
 
 > [OpenWrt](https://openwrt.org/) is a highly extensible GNU/Linux distribution for embedded devices

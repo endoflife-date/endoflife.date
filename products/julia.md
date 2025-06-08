@@ -46,9 +46,6 @@ releases:
 
 # Please leave a new line both above and below the triple-dashes.
 
-
-
-
 ---
 
 > [Julia](https://julialang.org) is an open-source programming language designed for technical computing,

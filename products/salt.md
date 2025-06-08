@@ -78,7 +78,6 @@ releases:
 > [Salt](https://saltproject.io/index.html) is software to automate the management and configuration
 > of any infrastructure or application at scale.
 
-
 Beginning with the 3006 release of Salt, the Salt Project is following an LTS/STS release strategy.
 Under this strategy, there is one long-term support (LTS) and one short-term support (STS) release a
 year.

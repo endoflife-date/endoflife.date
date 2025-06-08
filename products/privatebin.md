@@ -67,5 +67,4 @@ releases:
 > [PrivateBin](https://privatebin.info/) is a minimalist, open source [Pastebin](https://pastebin.com/) where the server
 > has zero knowledge of pasted data.
 
-
 PrivateBin follows [SemVer](https://semver.org/). Only the latest version is supported.
