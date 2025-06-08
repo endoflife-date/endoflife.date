@@ -15,13 +15,13 @@ auto:
 # EOL dates can be found on https://github.com/kumahq/kuma/blob/master/versions.yml
 releases:
 -   releaseCycle: "2.10"
-    releaseDate: 2025-03-17
+    releaseDate: 2025-03-20
     eol: 2026-03-20
     latest: "2.10.1"
     latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "2.9"
-    releaseDate: 2024-10-18
+    releaseDate: 2024-10-22
     eol: 2025-10-22
     latest: "2.9.5"
     latestReleaseDate: 2025-03-27
@@ -33,7 +33,7 @@ releases:
     latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "2.7"
-    releaseDate: 2024-04-17
+    releaseDate: 2024-04-19
     eol: 2026-04-19
     latest: "2.7.13"
     latestReleaseDate: 2025-03-27
@@ -52,13 +52,13 @@ releases:
     latestReleaseDate: 2024-10-06
 
 -   releaseCycle: "2.4"
-    releaseDate: 2023-08-28
+    releaseDate: 2023-08-29
     eol: 2024-08-29
     latest: "2.4.10"
     latestReleaseDate: 2024-07-23
 
 -   releaseCycle: "2.3"
-    releaseDate: 2023-06-22
+    releaseDate: 2023-06-23
     eol: 2024-06-23
     latest: "2.3.7"
     latestReleaseDate: 2024-04-05
