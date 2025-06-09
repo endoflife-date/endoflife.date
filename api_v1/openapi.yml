@@ -981,6 +981,13 @@ components:
                 type: string
                 description: A product name.
                 example: golang
+              uri:
+                description: Link to the full product details.
+                type: string
+                format: uri
+                examples:
+                  - "{{ site.url }}/api/v1/products/ubuntu/"
             required:
               - identifier
               - product
+              - uri

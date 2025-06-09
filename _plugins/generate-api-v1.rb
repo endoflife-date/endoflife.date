@@ -193,9 +193,11 @@ module ApiV1
 
     def add_identifier_page(site, identifier, identifiers_to_products)
       data = identifiers_to_products.map do |identifier_to_product|
+        product = identifier_to_product[:identifier]
         {
-          identifier: identifier_to_product[:identifier],
-          product: identifier_to_product[:product].data['id'],
+          identifier: product,
+          product: product.data['id'],
+          uri: ApiV1.api_url(site, "/products/#{product.data['id']}")
         }
       end
       meta = { total: data.length }
