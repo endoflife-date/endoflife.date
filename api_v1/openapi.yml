@@ -961,7 +961,6 @@ components:
       type: object
       required:
         - schema_version
-        - last_modified
         - result
       properties:
         schema_version:
