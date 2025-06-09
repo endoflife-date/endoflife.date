@@ -31,7 +31,6 @@ releases:
   eol: 2026-04-30 # until 04/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/14/pmipmhb38m2?pn=PB3C0002GB
   link: https://en-us.support.motorola.com/app/product_page/faqs/p/10216
 
-
 - releaseCycle: "motorola-razr-40s"
   releaseLabel: "Motorola Razr 40S"
   releaseDate: 2023-11-01
