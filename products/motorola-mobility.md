@@ -21,14 +21,14 @@ eolColumn: Security Updates
 releases:
 - releaseCycle: "moto-e15"
   releaseLabel: "Motorola Moto E15"
-  releaseDate: 2024-12-01
-  eol: 2026-12-01 # 2 years (until 12/2026) - https://www.motorola.com/gb/en/p/phones/moto-e/15/pmipmhk40mb?pn=PB6S0012GB
+  releaseDate: 2025-01-22
+  eol: 2026-12-31 # until 12/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/15/pmipmhk40mb?pn=PB6S0012GB
   link: https://en-us.support.motorola.com/app/product_page/faqs/p/10395
 
 - releaseCycle: "moto-e14"
   releaseLabel: "Motorola Moto E14"
-  releaseDate: 2024-04-01
-  eol: 2026-04-01 # 2 years (until 04/2026) - https://www.motorola.com/gb/en/p/phones/moto-e/14/pmipmhb38m2?pn=PB3C0002GB
+  releaseDate: 2024-06-01
+  eol: 2026-04-30 # until 04/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/14/pmipmhb38m2?pn=PB3C0002GB
   link: https://en-us.support.motorola.com/app/product_page/faqs/p/10216
 
 
