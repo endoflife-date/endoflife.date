@@ -6,7 +6,7 @@ permalink: /graalvm-ce
 alternate_urls:
 -   /graalvm
 releasePolicyLink: https://www.graalvm.org/release-calendar/
-changelogTemplate: "https://www.graalvm.org/release-notes/{{'__RELEASE_CYCLE__'|replace:'.','_'|replace:'-','_'|upcase}}/"
+changelogTemplate: "https://www.graalvm.org/release-notes/JDK___RELEASE_CYCLE__/"
 
 identifiers:
 -   repology: graalvm
