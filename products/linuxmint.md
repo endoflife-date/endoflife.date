@@ -131,7 +131,6 @@ releases:
     codename: Tessa
     lts: true
     releaseDate: 2018-12-19
-    eoas: true
     eol: 2023-04-01
     link: https://blog.linuxmint.com/?p=3669
 
