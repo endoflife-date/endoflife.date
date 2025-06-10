@@ -24,6 +24,12 @@ identifiers:
 
 # EOL is the latest security patch date for "Old version" on https://en.wikipedia.org/wiki/Android_version_history.
 releases:
+-   releaseCycle: "16"
+    apiVersion: "36"
+    codename: Baklava
+    releaseDate: 2025-06-10
+    eol: false
+
 -   releaseCycle: "15"
     apiVersion: "35"
     codename: Vanilla Ice Cream
