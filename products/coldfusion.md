@@ -22,6 +22,7 @@ identifiers:
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2018-updates.html
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2021-updates.html
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2023-updates.html
+#  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2025-updates.html
 
 # When adding a cycle, remember to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
@@ -31,8 +32,8 @@ releases:
     releaseDate: 2025-04-08
     eol: 2030-04-08
     eoes: 2031-04-08
-    latest: "2025.0.01.331420"
-    latestReleaseDate: 2025-04-08
+    latest: "2025.0.02.331451"
+    latestReleaseDate: 2025-05-13
 
 -   releaseCycle: "2023"
     releaseDate: 2022-05-16
