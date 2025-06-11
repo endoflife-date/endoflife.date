@@ -22,7 +22,7 @@ releases:
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-09-06
-    eol: false
+    eol: 2025-05-31 # https://github.com/bigbluebutton/bigbluebutton/pull/23340
     latest: "2.7.16"
     latestReleaseDate: 2024-12-11
 
