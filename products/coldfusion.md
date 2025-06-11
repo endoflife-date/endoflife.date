@@ -31,8 +31,8 @@ releases:
     releaseDate: 2025-04-08
     eol: 2030-04-08
     eoes: 2031-04-08
-    latest: "2025.0.01.331420"
-    latestReleaseDate: 2025-04-08
+    latest: "2025.0.02.331451"
+    latestReleaseDate: 2025-05-13
 
 -   releaseCycle: "2023"
     releaseDate: 2022-05-16
