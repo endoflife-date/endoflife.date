@@ -1,3 +1,8 @@
+## API v1.2.0
+
+- Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361)) to list known Identifiers for given Products
+  - For instance, `/identifiers/purl` will return all known Package URLs and the Products they correspond to
+
 ## API v1.1.0
 
 - Expose custom releases field values in the API (#7465). Such fields are grouped under the new `custom`
