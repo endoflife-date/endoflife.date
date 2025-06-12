@@ -52,7 +52,7 @@ releases:
 
 -   releaseCycle: "17"
     releaseDate: 2023-06-13
-    eol: 2029-09-30 # java 17 is LTS, oracle extended support until September 2029
+    eol: 2023-10-24
     latest: "17.0.9"
     latestReleaseDate: 2023-10-24
 
