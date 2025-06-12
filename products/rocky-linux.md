@@ -32,6 +32,13 @@ auto:
         eol: "End of Life"
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-06-11
+    eoas: 2030-05-31
+    eol: 2035-05-31
+    latest: "10.0"
+    latestReleaseDate: 2025-06-11
+
 -   releaseCycle: "9"
     releaseDate: 2022-07-14
     eoas: 2027-05-31
