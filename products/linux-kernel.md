@@ -36,7 +36,7 @@ releases:
 
 -   releaseCycle: "6.14"
     releaseDate: 2025-03-24
-    eol: false # not yet announced
+    eol: 2025-06-10 # announced https://lore.kernel.org/lkml/2025061030-latticed-capacity-dc94@gregkh/T/
     latest: "6.14.11"
     latestReleaseDate: 2025-06-10
 
