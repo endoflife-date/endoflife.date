@@ -1,5 +1,5 @@
 ---
-title: GraalVM Enterprise
+title: Oracle GraalVM
 category: lang
 tags: java-distribution oracle
 permalink: /oracle-graalvm
