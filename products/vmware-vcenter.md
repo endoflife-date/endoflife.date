@@ -32,9 +32,9 @@ releases:
     releaseDate: 2020-04-02
     eol: 2025-10-02
     technicalGuidance: 2027-04-02
-    latest: "7.0 U3u"
-    latestReleaseDate: 2025-03-31
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/vcenter-server-update-and-patch-release-notes/vsphere-vcenter-server-70u3u-release-notes.html
+    latest: "7.0 U3v"
+    latestReleaseDate: 2025-05-20
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/vcenter-server-update-and-patch-release-notes/vsphere-vcenter-server-70u3v-release-notes.html
 
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
