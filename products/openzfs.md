@@ -48,8 +48,8 @@ releases:
     supportedFreeBSD: "13.0-RELEASE+"
     releaseDate: 2023-10-12
     eol: 2025-01-13 # releaseDate(2.3)
-    latest: "2.2.7"
-    latestReleaseDate: 2024-12-11
+    latest: "2.2.8"
+    latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "2.1"
     lts: true
