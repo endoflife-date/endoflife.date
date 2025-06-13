@@ -70,7 +70,7 @@ releases:
     lts: true
     releaseDate: 2025-06-04
     eol: 2028-06-04
-    eoes: 2031-12-04
+    eoes: 2033-10-15
     latest: "11.8.2"
     latestReleaseDate: 2025-06-04
 
