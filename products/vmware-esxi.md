@@ -35,9 +35,9 @@ releases:
     releaseDate: 2020-04-02
     eol: 2025-10-02
     technicalGuidance: 2027-04-02
-    latest: "7.0 Update 3s"
-    latestReleaseDate: 2025-03-04
-    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3s-release-notes.html
+    latest: "7.0 Update 3v"
+    latestReleaseDate: 2025-05-20
+    link: https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3v-release-notes.html
 
 -   releaseCycle: "6.7"
     releaseDate: 2018-04-17
