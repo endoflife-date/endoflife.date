@@ -20,7 +20,7 @@ identifiers:
 -   repology: go:istio-pkg
 -   repology: go:istio-api
 -   purl: pkg:brew/istioctl
--   purl: pkg:docker/library/istio/base
+-   purl: pkg:docker/istio/base
 -   purl: pkg:docker/istio/pilot
 -   purl: pkg:docker/istio/distroless
 -   purl: pkg:docker/istio/install-cni
