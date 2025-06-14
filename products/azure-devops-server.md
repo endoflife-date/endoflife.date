@@ -20,10 +20,10 @@ releases:
     releaseDate: 2024-07-09
     eoas: 2028-01-11
     eol: 2033-01-11
-    latest: "2022.2patch4"
-    latestReleaseDate: 2025-03-11
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-4-release-date-march-11-2025
-
+    latest: "2022.2patch6"
+    latestReleaseDate: 2025-06-10
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-6-release-date-june-10-2025
+    
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28
@@ -47,10 +47,9 @@ releases:
     releaseDate: 2021-05-25
     eoas: 2025-10-14
     eol: 2030-10-08
-    latest: "2020.1.2patch15"
-    latestReleaseDate: 2025-03-11
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-15-release-date-march-11-2025
-
+    latest: "2020.1.2patch16"
+    latestReleaseDate: 2025-04-08
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-16-release-date-april-8-2025
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
     releaseDate: 2020-08-25
@@ -65,9 +64,9 @@ releases:
     releaseDate: 2019-08-20
     eoas: 2024-04-09
     eol: 2029-04-10
-    latest: "2019.1.2patch10"
-    latestReleaseDate: 2025-03-11
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-10-release-date-march-11-2025
+    latest: "2019.1.2patch11"
+    latestReleaseDate: 2025-04-08
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2019u1#azure-devops-server-2019-update-12-patch-11-release-date-april-8-2025
 
 -   releaseCycle: "2019.0"
     releaseLabel: "2019"
@@ -83,9 +82,9 @@ releases:
     releaseDate: 2017-11-15
     eoas: 2023-01-10
     eol: 2028-01-11
-    latest: "2018.3.2patch19"
-    latestReleaseDate: 2023-11-14
-    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-19
+    latest: "2018.3.2patch20"
+    latestReleaseDate: 2025-04-08
+    link: https://learn.microsoft.com/visualstudio/releasenotes/tfs2018-update3#team-foundation-server-2018-update-32-patch-20
 
 -   releaseCycle: "2017"
     releaseLabel: "TFS __RELEASE_CYCLE__"
