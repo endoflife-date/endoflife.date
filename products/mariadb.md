@@ -56,15 +56,9 @@ auto:
         releaseDate: "GA release date"
         eol: "Community"
         eoes: "Extended"
-  -   release_table: https://mariadb.org/about/#maintenance-policy
-      selector: "table"
-      header_selector: "tr:nth-of-type(1)"
-      fields:
-        releaseCycle: "Release"
-        releaseDate: "GA release date"
-        eol: "Community"
 
 # When adding a new Major, remember to review regexes in the section above.
+# Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
 -   releaseCycle: "11.8"
     lts: true
