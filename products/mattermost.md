@@ -293,4 +293,3 @@ A new ESR release is made when a significant number of new features and improvem
 to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
 
-Announcements are published on the [Mattermost Announcements Mailing List](https://eepurl.com/dCKn2P).
