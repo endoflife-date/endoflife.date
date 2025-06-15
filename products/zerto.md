@@ -10,9 +10,12 @@ eolColumn: Critical Support
 
 auto:
   methods:
-  -   release_table: https://help.zerto.com/bundle/Lifecycle.Matrix.HTML/page/product_version_lifecycle_matrix_for_zerto.html
-      render_javascript: true
-      render_javascript_wait_until: networkidle
+  # This is a simple proxy that renders the releasePolicyLink
+  # without using a browser by using the JSON API powering the docs
+  # It returns HTML so we can use our existing release table script.
+  # See https://github.com/endoflife-date/release-data/issues/448
+  # Source is public https://www.val.town/x/captn3m0/zerto-lifecycle-matrix
+  -   release_table: https://captn3m0--6498b7f0494c11f0ad8a76b3cceeab13.web.val.run
       selector: "table"
       fields:
         releaseCycle:
