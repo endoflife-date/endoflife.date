@@ -292,4 +292,3 @@ releases and to supported [extended support releases (ESR)](https://docs.matterm
 A new ESR release is made when a significant number of new features and improvements have been added
 to the product and have had enough time to stabilize. A new ESR is released twice a year in
 February and August. ESR releases are supported for nine months.
-
