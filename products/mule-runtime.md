@@ -95,6 +95,7 @@ releases:
     eol: 2024-03-20
     latest: "3.9.5-20240122"
     latestReleaseDate: 2024-01-22
+    link: https://archive.docs.mulesoft.com/release-notes/mule-runtime/mule-3.9.5-release-notes
 
 -   releaseCycle: "3.8"
     lts: true
