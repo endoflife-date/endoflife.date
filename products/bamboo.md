@@ -7,7 +7,7 @@ permalink: /bamboo
 alternate_urls:
 -   /atlassian-bamboo
 releasePolicyLink: https://confluence.atlassian.com/enterprise/atlassian-enterprise-releases-948227420.html
-
+changelogTemplate: https://confluence.atlassian.com/display/BAMBOORELEASES/Bamboo+__RELEASE_CYCLE__+release+notes
 eolColumn: Support
 
 identifiers:
