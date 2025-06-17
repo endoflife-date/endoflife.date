@@ -51,14 +51,14 @@ releases:
 
 -   releaseCycle: "10.2"
     releaseDate: 2022-02-27
-    eol: 2026-02-28
+    eol: 2025-08-27
     latest: "10.2.16"
     latestReleaseDate: 2025-06-12
     link: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-release-notes/pan-os-10-2-16-known-and-addressed-issues/pan-os-10-2-16-addressed-issues
 
 -   releaseCycle: "10.1"
     releaseDate: 2021-05-31
-    eol: 2025-08-31
+    eol: 2024-12-01
     latest: "10.1.14-h15"
     latestReleaseDate: 2025-06-10
     link: https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-release-notes/pan-os-10-1-14-known-and-addressed-issues/pan-os-10-1-14-h15-addressed-issues
@@ -178,6 +178,7 @@ releases:
     releaseDate: 2007-11-15
     eol: 2008-11-20
     latest: ""
+
 
 ---
 
