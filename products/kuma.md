@@ -10,7 +10,7 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/kumahq/kuma.git
-  -   kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml # disabled, versions have been messed up in https://github.com/kumahq/kuma/commit/87e225ecb794f7c0d9d5c0bf9a2ef2c33f7acbd0
+  -   kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml
 
 # EOL dates can be found on https://github.com/kumahq/kuma/blob/master/versions.yml
 releases:
