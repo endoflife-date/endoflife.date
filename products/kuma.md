@@ -10,10 +10,16 @@ eolColumn: Support
 auto:
   methods:
   -   git: https://github.com/kumahq/kuma.git
-  -   kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml # disabled, versions have been messed up in https://github.com/kumahq/kuma/commit/87e225ecb794f7c0d9d5c0bf9a2ef2c33f7acbd0
+  -   kuma: https://raw.githubusercontent.com/kumahq/kuma/master/versions.yml
 
 # EOL dates can be found on https://github.com/kumahq/kuma/blob/master/versions.yml
 releases:
+-   releaseCycle: "2.11"
+    releaseDate: 2025-06-09
+    eol: 2026-06-10
+    latest: "2.11.0"
+    latestReleaseDate: 2025-06-09
+
 -   releaseCycle: "2.10"
     releaseDate: 2025-03-20
     eol: 2026-03-20
