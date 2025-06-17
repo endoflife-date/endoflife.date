@@ -38,6 +38,7 @@ info:
 
 servers:
   - url: "{{ site.url }}/api/v1"
+    description: Production
 
 tags:
   - name: Index
