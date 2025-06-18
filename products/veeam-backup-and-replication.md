@@ -23,8 +23,8 @@ releases:
     eoas: false # releaseDate(13)
     eol: 2027-02-01
     link: "https://www.veeam.com/kb4420"
-    latest: "12.3.1.1139"
-    latestReleaseDate: 2025-03-19
+    latest: "12.3.2.3617"
+    latestReleaseDate: 2025-06-17
 
 -   releaseCycle: "11"
     releaseDate: 2021-02-11

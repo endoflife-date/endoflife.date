@@ -28,7 +28,7 @@ auto:
 releases:
 -   releaseCycle: "10.7"
     releaseDate: 2025-06-13
-    eol: false # not announced on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+    eol: 2027-06-13 # not announced on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
     latest: "10.7.0"
     latestReleaseDate: 2025-06-13
 
