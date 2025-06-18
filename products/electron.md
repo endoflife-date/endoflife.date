@@ -38,6 +38,12 @@ auto:
           regex: '^(?P<value>\d+)\.0\.0$'
         releaseDate: "Stable"
         eol: "EOL"
+        chromeVersion: "Chrome"
+        # Only get the major release of Node.js, as the documentation is valid only for the x.y.0 version.
+        # See https://github.com/endoflife-date/endoflife.date/pull/7463#issuecomment-2925281977.
+        nodeVersion:
+          column: "Node"
+          regex: '^v(?P<value>\d+).+$'
 
 releases:
 -   releaseCycle: "36"
@@ -46,7 +52,7 @@ releases:
     latest: "36.4.0"
     latestReleaseDate: 2025-06-04
     chromeVersion: "M136"
-    nodeVersion: "22.15" # https://releases.electronjs.org/
+    nodeVersion: "22"
 
 -   releaseCycle: "35"
     releaseDate: 2025-03-04
@@ -54,7 +60,7 @@ releases:
     latest: "35.5.1"
     latestReleaseDate: 2025-06-04
     chromeVersion: "M134"
-    nodeVersion: "22.14"
+    nodeVersion: "22"
 
 -   releaseCycle: "34"
     releaseDate: 2025-01-14
@@ -62,7 +68,7 @@ releases:
     latest: "34.5.8"
     latestReleaseDate: 2025-06-04
     chromeVersion: "M132"
-    nodeVersion: "20.18"
+    nodeVersion: "20"
 
 -   releaseCycle: "33"
     releaseDate: 2024-10-15
@@ -70,7 +76,7 @@ releases:
     latest: "33.4.11"
     latestReleaseDate: 2025-04-26
     chromeVersion: "M130"
-    nodeVersion: "20.18"
+    nodeVersion: "20"
 
 -   releaseCycle: "32"
     releaseDate: 2024-08-20
@@ -78,7 +84,7 @@ releases:
     latest: "32.3.3"
     latestReleaseDate: 2025-03-03
     chromeVersion: "M128"
-    nodeVersion: "20.18"
+    nodeVersion: "20"
 
 -   releaseCycle: "31"
     releaseDate: 2024-06-11
@@ -86,7 +92,7 @@ releases:
     latest: "31.7.7"
     latestReleaseDate: 2025-01-14
     chromeVersion: "M126"
-    nodeVersion: "20.18"
+    nodeVersion: "20"
 
 -   releaseCycle: "30"
     releaseDate: 2024-04-16
@@ -94,7 +100,7 @@ releases:
     latest: "30.5.1"
     latestReleaseDate: 2024-09-13
     chromeVersion: "M124"
-    nodeVersion: "20.16"
+    nodeVersion: "20"
 
 -   releaseCycle: "29"
     releaseDate: 2024-02-20
@@ -102,7 +108,7 @@ releases:
     latest: "29.4.6"
     latestReleaseDate: 2024-08-17
     chromeVersion: "M122"
-    nodeVersion: "20.9"
+    nodeVersion: "20"
 
 -   releaseCycle: "28"
     releaseDate: 2023-12-05
@@ -110,7 +116,7 @@ releases:
     latest: "28.3.3"
     latestReleaseDate: 2024-05-23
     chromeVersion: "M120"
-    nodeVersion: "18.18"
+    nodeVersion: "18"
 
 -   releaseCycle: "27"
     releaseDate: 2023-10-10
@@ -118,7 +124,7 @@ releases:
     latest: "27.3.11"
     latestReleaseDate: 2024-04-16
     chromeVersion: "M118"
-    nodeVersion: "18.17"
+    nodeVersion: "18"
 
 -   releaseCycle: "26"
     releaseDate: 2023-08-15
@@ -126,7 +132,7 @@ releases:
     latest: "26.6.10"
     latestReleaseDate: 2024-02-19
     chromeVersion: "M116"
-    nodeVersion: "18.16"
+    nodeVersion: "18"
 
 -   releaseCycle: "25"
     releaseDate: 2023-05-30
@@ -134,7 +140,7 @@ releases:
     latestReleaseDate: 2023-12-06
     latest: "25.9.8"
     chromeVersion: "M114"
-    nodeVersion: "18.15"
+    nodeVersion: "18"
 
 -   releaseCycle: "24"
     releaseDate: 2023-04-04
@@ -142,7 +148,7 @@ releases:
     latest: "24.8.8"
     latestReleaseDate: 2023-10-11
     chromeVersion: "M112"
-    nodeVersion: "18.14"
+    nodeVersion: "18"
 
 -   releaseCycle: "23"
     releaseDate: 2023-02-07
@@ -150,7 +156,7 @@ releases:
     latest: "23.3.13"
     latestReleaseDate: 2023-08-16
     chromeVersion: "M110"
-    nodeVersion: "18.12"
+    nodeVersion: "18"
 
 -   releaseCycle: "22"
     releaseDate: 2022-11-29
@@ -158,7 +164,7 @@ releases:
     latest: "22.3.27"
     latestReleaseDate: 2023-10-09
     chromeVersion: "M108"
-    nodeVersion: "16.17"
+    nodeVersion: "16"
 
 -   releaseCycle: "21"
     releaseDate: 2022-09-27
@@ -166,7 +172,7 @@ releases:
     latest: "21.4.4"
     latestReleaseDate: 2023-04-04
     chromeVersion: "M106"
-    nodeVersion: "16.16"
+    nodeVersion: "16"
 
 -   releaseCycle: "20"
     releaseDate: 2022-08-02
@@ -174,7 +180,7 @@ releases:
     latest: "20.3.12"
     latestReleaseDate: 2023-02-09
     chromeVersion: "M104"
-    nodeVersion: "16.15"
+    nodeVersion: "16"
 
 -   releaseCycle: "19"
     releaseDate: 2022-05-24
@@ -182,7 +188,7 @@ releases:
     latest: "19.1.9"
     latestReleaseDate: 2022-11-30
     chromeVersion: "M102"
-    nodeVersion: "16.14"
+    nodeVersion: "16"
 
 -   releaseCycle: "18"
     releaseDate: 2022-03-29
@@ -190,7 +196,7 @@ releases:
     latest: "18.3.15"
     latestReleaseDate: 2022-09-27
     chromeVersion: "M100"
-    nodeVersion: "16.13"
+    nodeVersion: "16"
 
 -   releaseCycle: "17"
     releaseDate: 2022-02-01
@@ -198,7 +204,7 @@ releases:
     latest: "17.4.11"
     latestReleaseDate: 2022-08-01
     chromeVersion: "M98"
-    nodeVersion: "16.13"
+    nodeVersion: "16"
 
 -   releaseCycle: "16"
     releaseDate: 2021-11-16
@@ -206,7 +212,7 @@ releases:
     latest: "16.2.8"
     latestReleaseDate: 2022-05-24
     chromeVersion: "M96"
-    nodeVersion: "16.9"
+    nodeVersion: "16"
 
 -   releaseCycle: "15"
     releaseDate: 2021-09-21
@@ -214,7 +220,7 @@ releases:
     latest: "15.5.7"
     latestReleaseDate: 2022-05-24
     chromeVersion: "M94"
-    nodeVersion: "16.5"
+    nodeVersion: "16"
 
 -   releaseCycle: "14"
     releaseDate: 2021-08-31
@@ -222,7 +228,7 @@ releases:
     latest: "14.2.9"
     latestReleaseDate: 2022-03-30
     chromeVersion: "M93"
-    nodeVersion: "14.17"
+    nodeVersion: "14"
 
 -   releaseCycle: "13"
     releaseDate: 2021-05-25
@@ -230,7 +236,7 @@ releases:
     latest: "13.6.9"
     latestReleaseDate: 2022-02-01
     chromeVersion: "M91"
-    nodeVersion: "14.16"
+    nodeVersion: "14"
 
 -   releaseCycle: "12"
     releaseDate: 2021-03-02
@@ -238,7 +244,7 @@ releases:
     latest: "12.2.3"
     latestReleaseDate: 2021-11-15
     chromeVersion: "M89"
-    nodeVersion: "14.16"
+    nodeVersion: "14"
 
 -   releaseCycle: "11"
     releaseDate: 2020-11-17
@@ -246,7 +252,7 @@ releases:
     latest: "11.5.0"
     latestReleaseDate: 2021-08-31
     chromeVersion: "M87"
-    nodeVersion: "12.18"
+    nodeVersion: "12"
 
 -   releaseCycle: "10"
     releaseDate: 2020-08-25
@@ -254,7 +260,7 @@ releases:
     latest: "10.4.7"
     latestReleaseDate: 2021-05-24
     chromeVersion: "M85"
-    nodeVersion: "12.16"
+    nodeVersion: "12"
 
 -   releaseCycle: "9"
     releaseDate: 2020-05-19
@@ -262,7 +268,7 @@ releases:
     latest: "9.4.4"
     latestReleaseDate: 2021-03-03
     chromeVersion: "M83"
-    nodeVersion: "12.14"
+    nodeVersion: "12"
 
 -   releaseCycle: "8"
     releaseDate: 2020-02-04
@@ -270,7 +276,7 @@ releases:
     latest: "8.5.5"
     latestReleaseDate: 2020-11-18
     chromeVersion: "M80"
-    nodeVersion: "12.13"
+    nodeVersion: "12"
 
 -   releaseCycle: "7"
     releaseDate: 2019-10-22
@@ -278,7 +284,7 @@ releases:
     latest: "7.3.3"
     latestReleaseDate: 2020-08-25
     chromeVersion: "M78"
-    nodeVersion: "12.8"
+    nodeVersion: "12"
 
 -   releaseCycle: "6"
     releaseDate: 2019-07-30
@@ -286,7 +292,7 @@ releases:
     latest: "6.1.12"
     latestReleaseDate: 2020-05-18
     chromeVersion: "M76"
-    nodeVersion: "12.4"
+    nodeVersion: "12"
 
 -   releaseCycle: "5"
     releaseDate: 2019-04-23
@@ -294,7 +300,7 @@ releases:
     latest: "5.0.13"
     latestReleaseDate: 2019-12-17
     chromeVersion: "M73"
-    nodeVersion: "12.0"
+    nodeVersion: "12"
 
 -   releaseCycle: "4"
     releaseDate: 2018-12-20
@@ -302,7 +308,7 @@ releases:
     latest: "4.2.12"
     latestReleaseDate: 2019-10-16
     chromeVersion: "M69"
-    nodeVersion: "10.11"
+    nodeVersion: "10"
 
 -   releaseCycle: "3"
     releaseDate: 2018-09-18
@@ -310,7 +316,7 @@ releases:
     latest: "3.1.13"
     latestReleaseDate: 2019-07-31
     chromeVersion: "M66"
-    nodeVersion: "10.2"
+    nodeVersion: "10"
 
 -   releaseCycle: "2"
     releaseDate: 2018-05-01
@@ -318,7 +324,7 @@ releases:
     latest: "2.0.18"
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
-    nodeVersion: "8.9"
+    nodeVersion: "8"
 
 
 
