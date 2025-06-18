@@ -34,7 +34,7 @@ releases:
     supportedPhpVersions: N/A
     releaseDate: 2025-06-17
     eoas: false
-    eol: false
+    eol: false # still listed on https://developer.shopware.com/release-notes/
     latest: "6.7.0.0"
     latestReleaseDate: 2025-06-17
 
@@ -42,7 +42,7 @@ releases:
     supportedPhpVersions: 8.2 - 8.3
     releaseDate: 2024-03-21
     eoas: 2025-06-17
-    eol: false
+    eol: false # still listed on https://developer.shopware.com/release-notes/
     latest: "6.6.10.5"
     latestReleaseDate: 2025-06-10
 
