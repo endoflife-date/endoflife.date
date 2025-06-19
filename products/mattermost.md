@@ -28,6 +28,12 @@ identifiers:
 
 # releaseDate and eol see: https://docs.mattermost.com/about/mattermost-server-releases.html
 releases:
+-   releaseCycle: "10.9"
+    releaseDate: 2025-06-16
+    eol: 2025-09-15
+    latest: '10.9.1'
+    latestReleaseDate: 2025-06-17
+
 -   releaseCycle: "10.8"
     releaseDate: 2025-05-16
     eol: 2025-08-15
