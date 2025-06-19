@@ -30,11 +30,19 @@ auto:
 # eol(x) = true or the EOL date of the major release if known (patch applied through the Shopware Security Plugin).
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
+-   releaseCycle: "6.7"
+    supportedPhpVersions: N/A
+    releaseDate: 2025-06-17
+    eoas: false
+    eol: false # still listed on https://developer.shopware.com/release-notes/
+    latest: "6.7.0.0"
+    latestReleaseDate: 2025-06-17
+
 -   releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
     releaseDate: 2024-03-21
-    eoas: false
-    eol: false
+    eoas: 2025-06-17
+    eol: false # still listed on https://developer.shopware.com/release-notes/
     latest: "6.6.10.5"
     latestReleaseDate: 2025-06-10
 
@@ -42,7 +50,7 @@ releases:
     supportedPhpVersions: 8.1 - 8.3
     releaseDate: 2023-05-03
     eoas: 2024-03-28
-    eol: false
+    eol: false # still listed on https://developer.shopware.com/release-notes/
     latest: "6.5.8.18"
     latestReleaseDate: 2025-05-12
 
@@ -60,7 +68,7 @@ releases:
     supportedPhpVersions: 7.4 - 8.3
     releaseDate: 2021-05-04
     eoas: 2023-05-03
-    eol: false
+    eol: true # not listed anymore on https://developer.shopware.com/release-notes/
     latest: "6.4.20.2"
     latestReleaseDate: 2023-05-05
 
