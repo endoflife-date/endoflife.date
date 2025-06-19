@@ -22,8 +22,8 @@ releases:
 -   releaseCycle: "3.19"
     releaseDate: 2025-04-09
     eol: false # releaseDate(x+1)
-    latest: "3.19.1"
-    latestReleaseDate: 2025-04-25
+    latest: "3.19.2"
+    latestReleaseDate: 2025-06-17
 
 -   releaseCycle: "3.18"
     releaseDate: 2024-12-12
