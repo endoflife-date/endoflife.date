@@ -26,9 +26,16 @@ auto:
 
 # All dates can be found on https://access.redhat.com/support/policy/updates/openshift#dates
 releases:
+-   releaseCycle: "4.19"
+    releaseDate: 2025-06-17
+    eoas: false # 4.19 GA + 3 months
+    eol: 2026-12-17
+    latest: "4.19.0"
+    latestReleaseDate: 2025-06-17
+
 -   releaseCycle: "4.18"
     releaseDate: 2025-02-25
-    eoas: false # 4.19 GA + 3 months
+    eoas: 2025-09-17
     eol: 2026-08-25
     eoes: 2027-02-25
     latest: "4.18.18"
