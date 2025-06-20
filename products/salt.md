@@ -43,8 +43,8 @@ identifiers:
 releases:
 -   releaseCycle: "3007"
     releaseDate: 2024-03-06
-    eoas: 2025-06-30
-    eol: 2025-06-30
+    eoas: 2025-09-30
+    eol: 2025-09-30
     latest: "3007.4"
     latestReleaseDate: 2025-06-12
     link: https://github.com/saltstack/salt/blob/3007.x/CHANGELOG.md
@@ -52,8 +52,8 @@ releases:
 -   releaseCycle: "3006"
     lts: true
     releaseDate: 2023-04-18
-    eoas: 2025-06-30
-    eol: 2026-06-30
+    eoas: 2025-09-30
+    eol: 2026-09-30
     latest: "3006.12"
     latestReleaseDate: 2025-06-12
 
