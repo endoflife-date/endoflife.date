@@ -23,11 +23,11 @@ eoesColumn: true
 # eol(x) = releaseDate(x) + 18 months
 releases:
 -   releaseCycle: "2503"
-    releaseDate: 2025-05-13
-    eoas: 2025-11-13
-    eol: 2026-11-13
-    latest: "2403"
-    latestReleaseDate: 2025-05-13
+    releaseDate: 2025-04-29
+    eoas: 2025-10-29
+    eol: 2026-10-29
+    latest: "2503"
+    latestReleaseDate: 2025-04-29
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html # move to the next new releaseCycle
 
 -   releaseCycle: "2411"
