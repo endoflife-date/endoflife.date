@@ -75,7 +75,7 @@ releases:
     eol: 2031-05-01
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_8a
-    supportedAndroidVersions: "14 - 15" # https://www.gsmarena.com/google_pixel_8a-12937.php
+    supportedAndroidVersions: "14 - 16" # https://www.gsmarena.com/google_pixel_8a-12937.php
 
 -   releaseCycle: "8pro"
     releaseLabel: "Pixel 8 Pro"
