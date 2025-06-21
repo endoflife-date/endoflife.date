@@ -37,8 +37,8 @@ releases:
     releaseDate: 2025-02-07
     eoas: false
     eol: 2027-12-31
-    latest: "6.1.1"
-    latestReleaseDate: 2025-03-25
+    latest: "6.1.2"
+    latestReleaseDate: 2025-06-20
 
 -   releaseCycle: "6.0"
     pythonVersions: '3.9-3.13'
