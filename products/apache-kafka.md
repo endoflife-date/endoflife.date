@@ -8,7 +8,7 @@ alternate_urls:
 -   /kafka
 changelogTemplate: https://downloads.apache.org/kafka/__LATEST__/RELEASE_NOTES.html
 eolColumn: Support
-eoesColumn: Confluent Platform Standard End of Support
+eoesColumn: Confluent Community software End of Support
 # https://stackoverflow.com/a/51782038/374236
 versionCommand: ${KAFKA_HOME}/bin/kafka-topics.sh --version
 
@@ -33,7 +33,7 @@ releases:
 -   releaseCycle: "4.0"
     releaseDate: 2025-03-18
     eol: false
-    eoes: false
+    eoes: 2026-06-11
     latest: "4.0.0"
     latestReleaseDate: 2025-03-18
 
@@ -256,7 +256,7 @@ Considering that this page only marks the latest minor release as supported and 
 as EOL on the latest date between the first next minor version release date and the current minor
 latest release date.
 
-Extended support [for 2 to 3 years](https://docs.confluent.io/platform/current/installation/versions-interoperability.html),
+Extended support [for up to 3 years](https://docs.confluent.io/platform/current/installation/versions-interoperability.html),
 depending on the support level, is available using the commercial distribution of Apache Kafka,
 [Confluent Platform](https://www.confluent.io/product/confluent-platform/).
 
