@@ -62,7 +62,7 @@ releases:
     releaseDate: 2025-05-22
     eol: 2026-06-30
     eoes: 2032-06-30
-    latest: "3.5.2"
+    latest: "3.5.3"
     latestReleaseDate: 2025-06-19
 
 -   releaseCycle: "3.4"
