@@ -187,6 +187,7 @@ releases:
     eoes: 2022-05-23
     latest: "10.2.44"
     latestReleaseDate: 2022-05-20
+    link: https://mariadb.com/kb/en/mariadb-10244-release-notes/
 
 -   releaseCycle: "10.1"
     releaseDate: 2015-10-17
@@ -194,6 +195,7 @@ releases:
     eoes: 2020-10-17
     latest: "10.1.48"
     latestReleaseDate: 2020-10-30
+    link: https://mariadb.com/kb/en/mariadb-10148-release-notes/
 
 -   releaseCycle: "10.0"
     releaseDate: 2014-03-31
@@ -201,6 +203,7 @@ releases:
     eoes: 2019-03-31
     latest: "10.0.38"
     latestReleaseDate: 2019-01-29
+    link: https://mariadb.com/kb/en/mariadb-10038-release-notes/
 
 -   releaseCycle: "5.5"
     lts: true
@@ -209,6 +212,7 @@ releases:
     eoes: 2020-04-11
     latest: "5.5.68"
     latestReleaseDate: 2020-05-06
+    link: https://mariadb.com/kb/en/mariadb-5568-release-notes/
 
 ---
 
