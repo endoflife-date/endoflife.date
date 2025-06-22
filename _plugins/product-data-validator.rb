@@ -21,8 +21,10 @@ module EndOfLifeHooks
   IGNORED_URL_PREFIXES = {
     'https://www.nokia.com': 'always return a Net::ReadTimeout',
   }
+  SUPPRESSED_BECAUSE_402 = 'may trigger a 402 Payment Required'
   SUPPRESSED_BECAUSE_403 = 'may trigger a 403 Forbidden or a redirection forbidden'
   SUPPRESSED_BECAUSE_404 = 'may trigger a 404 Not Found'
+  SUPPRESSED_BECAUSE_429 = 'may trigger a 429 Too Many Requests'
   SUPPRESSED_BECAUSE_502 = 'may return a 502 Bad Gateway'
   SUPPRESSED_BECAUSE_503 = 'may return a 503 Service Unavailable'
   SUPPRESSED_BECAUSE_CERT = 'site have an invalid certificate'
@@ -60,6 +62,7 @@ module EndOfLifeHooks
     'https://github.com/hashicorp/consul/blob/v1.19.2/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/hashicorp/consul/blob/v1.20.5/CHANGELOG.md': SUPPRESSED_BECAUSE_502,
     'https://github.com/nodejs/node/blob/main/doc/changelogs/': SUPPRESSED_BECAUSE_502,
+    'https://github.com': SUPPRESSED_BECAUSE_429,
     'https://helpx.adobe.com': SUPPRESSED_BECAUSE_TIMEOUT,
     'https://www.ibm.com/support/pages/node/6451203': SUPPRESSED_BECAUSE_403,
     'https://investors.broadcom.com': SUPPRESSED_BECAUSE_TIMEOUT,
@@ -115,7 +118,8 @@ module EndOfLifeHooks
     'http://www.squid-cache.org/Versions/v6/squid-6.13-RELEASENOTES.html': SUPPRESSED_BECAUSE_CONN_FAILED,
     'https://www.techpowerup.com/gpuz/': SUPPRESSED_BECAUSE_403,
     'https://www.unrealircd.org/docs/UnrealIRCd_releases': SUPPRESSED_BECAUSE_403,
-    'https://www.zentyal.com/': SUPPRESSED_BECAUSE_403,
+    'https://www.virtualbox.org': SUPPRESSED_BECAUSE_402,
+    'https://www.zentyal.com': SUPPRESSED_BECAUSE_403,
   }
   USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'
   URL_CHECK_OPEN_TIMEOUT = 3
