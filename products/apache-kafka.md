@@ -26,7 +26,7 @@ auto:
         releaseCycle:
           column: "apache kafkaâ®"
           regex: '^(?P<value>\d+\.\d+)\.x$'
-        eoes: "Standard End of Support"
+        eoes: "Confluent Enterprise Standard End of Support"
 
 # eol(x) = MAX(latestReleaseDate, releaseDate(X+1))
 releases:
