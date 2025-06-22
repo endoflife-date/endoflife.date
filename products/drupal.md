@@ -29,18 +29,31 @@ auto:
 # eol(x) documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule.
 # Minor releases usually happen on the third Wednesday every six months.
 releases:
+-   releaseCycle: "11.2"
+    releaseDate: 2025-06-18
+    eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    latest: "11.2.0"
+    latestReleaseDate: 2025-06-18
+
+-   releaseCycle: "10.5"
+    releaseDate: 2025-06-18
+    eoas: 2025-12-10 # guessed, releaseDate(10.6) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
+    latest: "10.5.0"
+    latestReleaseDate: 2025-06-18
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-12-17
-    eoas: 2025-06-16
-    eol: 2025-12-16
+    eoas: 2025-06-18 # releaseDate(10.5)
+    eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     latest: "10.4.8"
     latestReleaseDate: 2025-06-05
 
 -   releaseCycle: "11.1"
     releaseDate: 2024-12-16
-    eoas: false # releaseDate(11.2)
-    eol: false
+    eoas: 2025-06-18 # releaseDate(11.2)
+    eol: 2025-12-10 # guessed, as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     latest: "11.1.8"
     latestReleaseDate: 2025-06-05
 
