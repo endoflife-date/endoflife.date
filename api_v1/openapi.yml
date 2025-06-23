@@ -934,29 +934,6 @@ components:
         result:
           $ref: '#/components/schemas/ProductDetails'
 
-    IdentifierReference:
-      type: object
-      description: A reference for a known Identifier, and how to look up any known Products for a given Identifier
-      properties:
-        name:
-          type: string
-          description: A known identifier to Endoflife.date.
-          examples:
-            - purl
-            - cpe
-            - repology
-        uri:
-          type: string
-          format: uri
-          description: The URI to be queried to retrieve the list of Products for a given Identifier
-          examples:
-            - purl
-            - cpe
-            - repology
-      required:
-        - name
-        - uri
-
     RetrieveIdentifierResponse:
       description: A response containing all known Products for a given Identifier.
       type: object
