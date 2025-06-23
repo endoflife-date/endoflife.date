@@ -360,7 +360,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RetrieveIdentifierResponse'
+                $ref: '#/components/schemas/IdentifierListResponse'
         '404':
           description: The identifier with the given name does not exist.
         '429':
@@ -934,7 +934,7 @@ components:
         result:
           $ref: '#/components/schemas/ProductDetails'
 
-    RetrieveIdentifierResponse:
+    IdentifierListResponse:
       description: A response containing all known Products for a given Identifier.
       type: object
       required:
