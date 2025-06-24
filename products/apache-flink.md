@@ -66,6 +66,7 @@ backports seem to be maintained for the last 3 releases.
 
 ## [Java Compatibility](https://nightlies.apache.org/flink/flink-docs-release-1.19/docs/deployment/java_compatibility/)
 
-- Java 8 is supported but deprecated.
+- Java 8 is supported but deprecated (support dropped since 2.0).
 - Java 11 is the recommended version.
-- Java 17 is supported experimentally for Flink 1.18 and above.
+- Java 17 is supported experimentally for Flink 1.18 and above,
+- Java 21 is supported for Flink 1.19 and above
