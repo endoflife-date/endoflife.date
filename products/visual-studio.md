@@ -28,8 +28,8 @@ releases:
     lts: true
     releaseDate: 2025-05-13
     eol: 2032-01-13
-    latest: "17.14.5"
-    latestReleaseDate: 2025-06-10
+    latest: "17.14.7"
+    latestReleaseDate: 2025-06-23
 
 -   releaseCycle: "17.13"
     codename: "2022"

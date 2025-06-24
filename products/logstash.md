@@ -22,21 +22,21 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2025-03-17
     eol: false  # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.0.2"
-    latestReleaseDate: 2025-05-26
+    latest: "9.0.3"
+    latestReleaseDate: 2025-06-17
     link: https://www.elastic.co/docs/release-notes/logstash#logstash-__LATEST__-release-notes
 
 -   releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
-    latest: "8.18.2"
-    latestReleaseDate: 2025-05-20
+    latest: "8.18.3"
+    latestReleaseDate: 2025-06-17
 
 -   releaseCycle: "7"
     releaseDate: 2019-04-05
     eol: 2026-01-15
-    latest: "7.17.28"
-    latestReleaseDate: 2025-02-14
+    latest: "7.17.29"
+    latestReleaseDate: 2025-04-10
 
 -   releaseCycle: "6"
     releaseDate: 2017-11-08
