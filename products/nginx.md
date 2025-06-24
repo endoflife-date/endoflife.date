@@ -28,6 +28,13 @@ auto:
 # eol(x) = releaseDate(x+2)
 
 releases:
+-   releaseCycle: "1.29"
+    releaseDate: 2025-06-24
+    eol: false
+    link: https://nginx.org/en/CHANGES
+    latest: "1.29.0"
+    latestReleaseDate: 2025-06-24
+    
 -   releaseCycle: "1.28"
     releaseDate: 2025-04-23
     eol: false
@@ -36,7 +43,7 @@ releases:
 
 -   releaseCycle: "1.27"
     releaseDate: 2024-05-28
-    eol: false
+    eol: 2025-06-24
     link: https://nginx.org/en/CHANGES
     latest: "1.27.5"
     latestReleaseDate: 2025-04-16
