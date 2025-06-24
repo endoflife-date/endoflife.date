@@ -277,5 +277,5 @@ releases:
 The only officially supported and actively maintained version of WordPress is the latest one.
 
 Security updates are backported to older releases when possible, but the WordPress team offers no
-guarantee and no timeframe. Moreover, versions below 4.1 [are guaranteed to not get security
-updates](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/).
+guarantee and no timeframe. Moreover, versions below 4.7 [are guaranteed to not get security
+updates](https://wordpress.org/news/2025/06/dropping-security-updates-for-wordpress-versions-4-1-through-4-6/).
