@@ -19,6 +19,14 @@ customFields:
 
 # Supported android versions can be found on https://support.fairphone.com/hc/articles/9979180437393-Fairphone-OS.
 releases:
+-   releaseCycle: "6"
+    releaseLabel: "Fairphone 6"
+    supportedAndroidVersion: "15 - 22" # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    releaseDate: 2025-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    discontinued: false
+    eoas: false
+    eol: 2033-06-25 # https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
+    link: https://support.fairphone.com/hc/en-us/articles/24463093338898-The-Fairphone-Gen-6-FAQ
 -   releaseCycle: "5"
     releaseLabel: "Fairphone 5"
     supportedAndroidVersions: "13 - 14" # https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes
