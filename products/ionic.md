@@ -71,7 +71,7 @@ releases:
     eol: false
     eoes: false
     minAngularVersion: v16
-    maxAngularVersion: v19.x
+    maxAngularVersion: v20.x
     supportedReactVersions: v17+
     supportedVueVersions: v3.0.6+
     latest: "8.6.2"

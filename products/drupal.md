@@ -33,8 +33,8 @@ releases:
     releaseDate: 2025-06-18
     eoas: 2025-12-10 # guessed, releaseDate(11.3) as planned on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
     eol: false # not documented on https://www.drupal.org/about/core/policies/core-release-cycles/schedule
-    latest: "11.2.0"
-    latestReleaseDate: 2025-06-18
+    latest: "11.2.1"
+    latestReleaseDate: 2025-06-25
 
 -   releaseCycle: "10.5"
     releaseDate: 2025-06-18

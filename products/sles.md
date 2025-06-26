@@ -84,8 +84,8 @@ releases:
     releaseDate: 2018-07-16
     eol: 2019-12-31
     eoes: 2022-12-31
-    latest: '15.6'
-    latestReleaseDate: 2024-06-26
+    latest: '15.7'
+    latestReleaseDate: 2025-06-17
 
 -   releaseCycle: "12.3"
     releaseDate: 2017-09-07
