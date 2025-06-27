@@ -46,7 +46,7 @@ releases:
     codename: "A new era"
     releaseDate: 2023-11-28
     eol: 2027-06-23
-    supportedPhpVersions: 8.1 - 8.3
+    supportedPhpVersions: 8.1 - 8.4
     latest: "4.8.0"
     latestReleaseDate: 2025-06-03
 
