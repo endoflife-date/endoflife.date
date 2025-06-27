@@ -27,8 +27,9 @@ auto:
 # The next ESR / LTS is not yet planned.
 releases:
 -   releaseCycle: "140"
+    lts: true
     releaseDate: 2025-06-24
-    eol: false
+    eol: 2026-09-16 # estimated eol day, based on Firefox ESR release cycle https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle
     latest: "140.0.1"
     latestReleaseDate: 2025-06-26
 
