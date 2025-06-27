@@ -48,7 +48,7 @@ auto:
 releases:
 -   releaseCycle: "37"
     releaseDate: 2025-06-24
-    eol: 2026-02-28
+    eol: 2026-01-13
     latest: "37.1.0"
     latestReleaseDate: 2025-06-26
     chromeVersion: "M138"
