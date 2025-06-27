@@ -26,6 +26,14 @@ auto:
 # See also https://getkirby.com/docs/archive
 # supportedPhpVersions can be found on https://getkirby.com/docs/reference/system/requirements#php-version-support-history.
 releases:
+-   releaseCycle: "5"
+    codename: "" 
+    releaseDate: 2025-06-24
+    eol: false
+    supportedPhpVersions: 8.2 - 8.4
+    latest: "5.0.0"
+    latestReleaseDate: 2025-06-24
+
 -   releaseCycle: "3.10" # Special release cycle for Kirby 3.9 with PHP 8.3
     codename: ""
     releaseDate: 2023-12-19
@@ -37,8 +45,8 @@ releases:
 -   releaseCycle: "4"
     codename: "A new era"
     releaseDate: 2023-11-28
-    eol: false
-    supportedPhpVersions: 8.1 - 8.3
+    eol: 2027-06-23
+    supportedPhpVersions: 8.1 - 8.4
     latest: "4.8.0"
     latestReleaseDate: 2025-06-03
 
