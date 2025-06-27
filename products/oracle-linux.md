@@ -26,6 +26,13 @@ identifiers:
 -   purl: pkg:docker/library/oraclelinux
 
 releases:
+-   releaseCycle: "10"
+    releaseDate: 2025-06-26
+    eol: false
+    eoes: false
+    latest: "10.0"
+    latestReleaseDate: 2025-06-26
+
 -   releaseCycle: "9"
     releaseDate: 2022-07-06
     eol: 2032-06-30
