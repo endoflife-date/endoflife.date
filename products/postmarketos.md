@@ -18,9 +18,16 @@ auto:
 
 # eol(x) = releaseDate(x+1) + 1 month
 releases:
+-   releaseCycle: "25.06"
+    releaseDate: 2025-06-23
+    eol: false
+    latest: "25.06"
+    latestReleaseDate: 2025-06-23
+    link: https://postmarketos.org/blog/2025/06/22/v25.06-release/
+
 -   releaseCycle: "24.12"
     releaseDate: 2024-12-23
-    eol: false
+    eol: 2025-07-23
     latest: "24.12"
     latestReleaseDate: 2024-12-23
     link: https://postmarketos.org/blog/2024/12/23/v24.12-release/
