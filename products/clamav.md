@@ -16,7 +16,8 @@ auto:
   -   git: https://github.com/Cisco-Talos/clamav.git
       regex: '^clamav-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
-# See https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
+# For non-LTS : min(releaseDate(x+1), releaseDate(x) + 4 months) - see https://github.com/endoflife-date/endoflife.date/pull/7764
+# For LTS, see https://docs.clamav.net/faq/faq-eol.html#version-support-matrix for EOL dates
 releases:
 -   releaseCycle: "1.4"
     releaseDate: 2024-08-15
