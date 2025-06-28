@@ -24,9 +24,17 @@ auto:
 # eol(x) = releaseDate(x+1)
 # eoes(x) = releaseDate(x+6)
 releases:
--   releaseCycle: "1.19"
-    releaseDate: 2025-03-04
+-   releaseCycle: "1.20"
+    releaseDate: 2025-06-23
     eol: false
+    latest: "1.20.0"
+    latestReleaseDate: 2025-06-23
+
+-   releaseCycle: "1.19"
+    lts: true
+    releaseDate: 2025-03-04
+    eol: 2025-06-23 # releaseDate(1.20)
+    eoes: false # CY27 Q1 (1.25 release)
     latest: "1.19.5"
     latestReleaseDate: 2025-05-29
 
@@ -46,7 +54,7 @@ releases:
     releaseDate: 2024-03-25
     lts: true
     eol: 2024-06-10 # releaseDate(1.17)
-    eoes: 2026-03-15 # approximate = releaseDate(1.22)
+    eoes: false # CY26 Q1 (1.22 release)
     latest: "1.16.3"
     latestReleaseDate: 2024-05-29
 
