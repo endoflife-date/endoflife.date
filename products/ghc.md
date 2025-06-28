@@ -44,14 +44,14 @@ releases:
     eoas: true
     eol: false
     latest: "9.8.4"
-    latestReleaseDate: 2024-12-02
+    latestReleaseDate: 2024-11-29
 
 -   releaseCycle: "9.6"
     releaseDate: 2023-03-10
     eoas: true
     eol: false
     latest: "9.6.7"
-    latestReleaseDate: 2025-03-21
+    latestReleaseDate: 2025-03-24
 
 -   releaseCycle: "9.4"
     releaseDate: 2022-08-07
@@ -69,15 +69,15 @@ releases:
     link: https://downloads.haskell.org/~ghc/__LATEST__/docs/html/users_guide/__LATEST__-notes.html
 
 -   releaseCycle: "9.0"
-    releaseDate: 2021-02-04
+    releaseDate: 2021-02-03
     eoas: true
     eol: true
     latest: "9.0.2"
-    latestReleaseDate: 2021-12-25
+    latestReleaseDate: 2021-12-26
     link: https://downloads.haskell.org/~ghc/9.0.2/docs/html/users_guide/9.0.2-notes.html
 
 -   releaseCycle: "8.10"
-    releaseDate: 2020-03-24
+    releaseDate: 2020-03-22
     eoas: true
     eol: true
     latest: "8.10.7"
@@ -97,7 +97,7 @@ releases:
     eoas: true
     eol: true
     latest: "8.6.5"
-    latestReleaseDate: 2019-04-23
+    latestReleaseDate: 2019-04-22
     link: https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/8.6.5-notes.html
 
 -   releaseCycle: "8.4"
@@ -105,23 +105,23 @@ releases:
     eoas: true
     eol: true
     latest: "8.4.4"
-    latestReleaseDate: 2018-05-29
+    latestReleaseDate: 2018-10-13
     link: https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/8.4.4-notes.html
 
 -   releaseCycle: "8.2"
-    releaseDate: 2017-07-22
+    releaseDate: 2017-07-21
     eoas: true
     eol: true
     latest: "8.2.2"
-    latestReleaseDate: 2017-07-22
+    latestReleaseDate: 2017-11-21
     link: https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/8.2.2-notes.html
 
 -   releaseCycle: "8.0"
-    releaseDate: 2016-05-21
+    releaseDate: 2016-05-17
     eoas: true
     eol: true
     latest: "8.0.2"
-    latestReleaseDate: 2017-01-11
+    latestReleaseDate: 2017-01-04
     link: https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/8.0.2-notes.html
 
 ---
