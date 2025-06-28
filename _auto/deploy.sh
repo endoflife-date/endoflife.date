@@ -12,7 +12,7 @@ echo "Deploy URL: $1"
 echo "Updating latest product information..."
 pip install -r '_data/release-data/requirements.txt'
 git submodule update --remote
-if ! python3 '_data/release-data/latest.py' -p 'products/' -d '_data/release-data/releases'; then # if the latest.py script fails...
+if ! python3 '_data/release-data/latest.py' -p 'products/'; then # if the latest.py script fails...
   git checkout -- products/ # ...just undo the changes, and carry on
 fi
 
