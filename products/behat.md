@@ -10,11 +10,11 @@ auto:
     - git: https://github.com/Behat/Behat.git
 
 releases:
-  - releaseCycle: "3.x"
+  - releaseCycle: "3"
     releaseDate: 2014-04-20
     eol: false
     latest: "3.20.0"
-  - releaseCycle: "2.x"
+  - releaseCycle: "2"
     releaseDate: 2011-07-01
     eol: 2015-06-01
     latest: "2.5.5"
