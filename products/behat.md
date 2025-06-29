@@ -7,17 +7,20 @@ releasePolicyLink: https://docs.behat.org/en/latest/releases.html
 
 auto:
   methods:
-    - git: https://github.com/Behat/Behat.git
+  -   git: https://github.com/Behat/Behat.git
 
 releases:
-  - releaseCycle: "3"
+-   releaseCycle: "3"
     releaseDate: 2014-04-20
     eol: false
-    latest: "3.20.0"
-  - releaseCycle: "2"
+    latest: "3.22.0"
+    latestReleaseDate: 2025-05-06
+
+-   releaseCycle: "2"
     releaseDate: 2011-07-01
     eol: 2015-06-01
     latest: "2.5.5"
+    latestReleaseDate: 2015-06-01
 
 ---
 
