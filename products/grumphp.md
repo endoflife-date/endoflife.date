@@ -20,7 +20,7 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2020-09-25
-    eol: false
+    eol: true # https://github.com/phpro/grumphp/discussions/1175#discussioncomment-13609368
     latest: "1.16.0"
     latestReleaseDate: 2023-04-27
 
