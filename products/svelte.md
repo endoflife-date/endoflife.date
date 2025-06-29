@@ -1,5 +1,6 @@
 ---
 title: Svelte
+createdAt: 2024-11-21
 category: framework
 tags: javascript-runtime
 iconSlug: svelte

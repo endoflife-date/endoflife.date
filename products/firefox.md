@@ -1,5 +1,6 @@
 ---
 title: Firefox
+createdAt: 2021-09-11
 category: app
 tags: mozilla web-browser
 iconSlug: firefoxbrowser

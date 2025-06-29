@@ -1,5 +1,6 @@
 ---
 title: Silverstripe CMS
+createdAt: 2023-06-07
 category: server-app
 tags: php-runtime
 permalink: /silverstripe

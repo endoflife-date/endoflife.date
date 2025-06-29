@@ -1,5 +1,6 @@
 ---
 title: Motorola Mobility
+createdAt: 2024-01-13
 category: device
 tags: mobile-phone motorola
 iconSlug: motorola

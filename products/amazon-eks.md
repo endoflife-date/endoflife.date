@@ -1,5 +1,6 @@
 ---
 title: Amazon EKS
+createdAt: 2021-07-25
 category: service
 tags: amazon managed-kubernetes
 iconSlug: amazoneks

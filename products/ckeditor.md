@@ -1,5 +1,6 @@
 ---
 title: CKEditor
+createdAt: 2024-02-20
 category: framework
 iconSlug: ckeditor4
 permalink: /ckeditor

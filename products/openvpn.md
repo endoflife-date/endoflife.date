@@ -1,5 +1,6 @@
 ---
 title: OpenVPN
+createdAt: 2024-07-27
 category: app
 iconSlug: openvpn
 permalink: /openvpn

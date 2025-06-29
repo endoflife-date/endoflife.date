@@ -1,5 +1,6 @@
 ---
 title: openSUSE
+createdAt: 2021-07-15
 category: os
 tags: linux-distribution
 iconSlug: opensuse

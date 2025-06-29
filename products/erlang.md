@@ -1,5 +1,6 @@
 ---
 title: Erlang
+createdAt: 2023-10-20
 category: lang
 iconSlug: erlang
 permalink: /erlang

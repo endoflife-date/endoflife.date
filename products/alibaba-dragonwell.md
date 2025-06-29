@@ -1,5 +1,6 @@
 ---
 title: Alibaba Dragonwell
+createdAt: 2023-04-07
 category: lang
 tags: alibaba java-distribution
 iconSlug: openjdk

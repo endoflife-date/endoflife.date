@@ -1,5 +1,6 @@
 ---
 title: Mule Runtime
+createdAt: 2022-11-09
 category: server-app
 tags: java-runtime
 iconSlug: mulesoft

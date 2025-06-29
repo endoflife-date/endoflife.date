@@ -1,5 +1,6 @@
 ---
 title: Grafana Loki
+createdAt: 2024-08-04
 category: server-app
 iconSlug: grafana
 permalink: /grafana-loki

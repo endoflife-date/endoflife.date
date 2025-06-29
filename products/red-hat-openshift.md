@@ -1,5 +1,6 @@
 ---
 title: Red Hat OpenShift
+createdAt: 2023-03-24
 category: server-app
 tags: red-hat
 iconSlug: redhatopenshift

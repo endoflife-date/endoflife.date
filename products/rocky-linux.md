@@ -1,5 +1,6 @@
 ---
 title: Rocky Linux
+createdAt: 2021-11-03
 category: os
 tags: linux-distribution
 iconSlug: rockylinux

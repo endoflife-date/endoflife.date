@@ -1,5 +1,6 @@
 ---
 title: Apache Struts
+createdAt: 2024-01-21
 category: framework
 tags: apache herodevs java-runtime
 iconSlug: apache

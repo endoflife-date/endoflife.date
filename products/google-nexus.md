@@ -1,5 +1,6 @@
 ---
 title: Google Nexus
+createdAt: 2024-02-17
 category: device
 tags: discontinued google mobile-phone tablet
 iconSlug: google

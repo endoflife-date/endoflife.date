@@ -1,5 +1,6 @@
 ---
 title: ESLint
+createdAt: 2025-01-02
 category: app
 tags: build-tool javascript-runtime herodevs
 iconSlug: eslint

@@ -1,5 +1,6 @@
 ---
 title: MX Linux
+createdAt: 2022-10-31
 category: os
 tags: linux-distribution
 iconSlug: mxlinux

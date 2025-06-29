@@ -1,5 +1,6 @@
 ---
 title: Deno
+createdAt: 2025-02-16
 category: framework
 tags: javascript-runtime
 iconSlug: deno

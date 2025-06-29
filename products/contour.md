@@ -1,5 +1,6 @@
 ---
 title: Contour
+createdAt: 2024-06-18
 category: server-app
 tags: cncf kubernetes
 permalink: /contour

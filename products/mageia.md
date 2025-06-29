@@ -1,5 +1,6 @@
 ---
 title: Mageia
+createdAt: 2022-12-16
 category: os
 tags: linux-distribution
 permalink: /mageia

@@ -1,5 +1,6 @@
 ---
 title: Wagtail
+createdAt: 2021-05-20
 category: framework
 tags: python-runtime
 iconSlug: wagtail

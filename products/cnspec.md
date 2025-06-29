@@ -1,5 +1,6 @@
 ---
 title: cnspec
+createdAt: 2025-01-04
 category: app
 tags: mondoo
 permalink: /cnspec

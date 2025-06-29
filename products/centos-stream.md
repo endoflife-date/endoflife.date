@@ -1,5 +1,6 @@
 ---
 title: CentOS Stream
+createdAt: 2023-05-10
 category: os
 tags: linux-distribution
 iconSlug: centos

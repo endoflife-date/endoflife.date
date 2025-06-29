@@ -1,5 +1,6 @@
 ---
 title: Slackware Linux
+createdAt: 2022-10-29
 category: os
 tags: linux-distribution
 iconSlug: slackware

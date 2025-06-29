@@ -1,5 +1,6 @@
 ---
 title: Raspberry Pi
+createdAt: 2022-12-31
 category: device
 iconSlug: raspberrypi
 permalink: /raspberry-pi
