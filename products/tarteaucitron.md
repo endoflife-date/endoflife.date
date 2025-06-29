@@ -1,6 +1,7 @@
 ---
 title: tarteaucitron
 category: framework
+tags: javascript-runtime
 permalink: /tarteaucitron
 changelogTemplate: "https://github.com/AmauriC/tarteaucitron.js/releases/tag/v__LATEST__"
 releasePolicyLink: https://github.com/AmauriC/tarteaucitron.js/security
