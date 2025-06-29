@@ -1,5 +1,6 @@
 ---
 title: Oracle GraalVM
+createdAt: 2025-06-02
 category: lang
 tags: java-distribution oracle
 permalink: /oracle-graalvm

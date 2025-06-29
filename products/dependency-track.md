@@ -1,5 +1,6 @@
 ---
 title: Dependency-Track
+createdAt: 2023-06-09
 category: server-app
 tags: java-runtime
 iconSlug: owasp

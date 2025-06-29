@@ -1,5 +1,6 @@
 ---
 title: Scala
+createdAt: 2022-12-28
 category: lang
 tags: java-runtime
 iconSlug: scala

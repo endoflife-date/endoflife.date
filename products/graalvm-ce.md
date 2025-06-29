@@ -1,5 +1,6 @@
 ---
 title: GraalVM Community Edition
+createdAt: 2025-06-02
 category: lang
 tags: java-distribution oracle
 permalink: /graalvm-ce

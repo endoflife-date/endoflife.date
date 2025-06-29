@@ -1,5 +1,6 @@
 ---
 title: Nomad
+createdAt: 2021-10-20
 category: server-app
 tags: hashicorp
 iconSlug: nomad

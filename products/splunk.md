@@ -1,5 +1,6 @@
 ---
 title: Splunk
+createdAt: 2021-10-18
 category: server-app
 iconSlug: splunk
 permalink: /splunk

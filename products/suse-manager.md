@@ -1,5 +1,6 @@
 ---
 title: SUSE Manager
+createdAt: 2024-08-02
 category: server-app
 tags: suse
 iconSlug: suse

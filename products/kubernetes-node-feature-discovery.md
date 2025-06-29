@@ -1,5 +1,6 @@
 ---
 title: Kubernetes Node Feature Discovery
+createdAt: 2024-05-06
 category: server-app
 tags: kubernetes
 iconSlug: kubernetes

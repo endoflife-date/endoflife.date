@@ -1,5 +1,6 @@
 ---
 title: Palo Alto Networks GlobalProtect App
+createdAt: 2022-01-05
 category: app
 tags: palo-alto-networks
 iconSlug: paloaltonetworks

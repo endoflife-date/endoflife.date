@@ -1,5 +1,6 @@
 ---
 title: Telegraf
+createdAt: 2022-10-25
 category: server-app
 iconSlug: influxdb
 permalink: /telegraf

@@ -1,5 +1,6 @@
 ---
 title: Mandrel
+createdAt: 2024-09-25
 category: lang
 tags: java-distribution red-hat
 permalink: /mandrel

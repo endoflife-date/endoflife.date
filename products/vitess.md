@@ -1,5 +1,6 @@
 ---
 title: Vitess
+createdAt: 2025-02-24
 category: database
 iconSlug: vitess
 permalink: /vitess

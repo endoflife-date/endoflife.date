@@ -1,5 +1,6 @@
 ---
 title: Ansible-core
+createdAt: 2022-10-12
 category: framework
 tags: python-runtime red-hat
 iconSlug: ansible

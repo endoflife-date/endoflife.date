@@ -1,5 +1,6 @@
 ---
 title: Kibana
+createdAt: 2022-12-20
 category: server-app
 tags: elastic
 iconSlug: kibana

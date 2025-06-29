@@ -1,5 +1,6 @@
 ---
 title: Fedora Linux
+createdAt: 2019-05-28
 category: os
 tags: linux-distribution
 iconSlug: fedora

@@ -1,5 +1,6 @@
 ---
 title: Hashicorp Terraform
+createdAt: 2022-09-09
 category: app
 tags: hashicorp
 iconSlug: terraform

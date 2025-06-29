@@ -1,5 +1,6 @@
 ---
 title: Rocket.Chat
+createdAt: 2023-10-15
 category: server-app
 tags: javascript-runtime
 iconSlug: rocketdotchat

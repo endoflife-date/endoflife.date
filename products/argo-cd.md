@@ -1,5 +1,6 @@
 ---
 title: Argo CD
+createdAt: 2023-08-06
 category: server-app
 tags: cncf
 iconSlug: argo

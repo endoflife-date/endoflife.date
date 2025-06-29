@@ -1,5 +1,6 @@
 ---
 title: Amazon Kindle
+createdAt: 2021-03-19
 category: device
 tags: amazon e-reader
 iconSlug: amazon

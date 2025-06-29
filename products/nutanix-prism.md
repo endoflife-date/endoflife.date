@@ -1,5 +1,6 @@
 ---
 title: Nutanix Prism Central
+createdAt: 2022-10-17
 category: server-app
 tags: nutanix
 iconSlug: nutanix

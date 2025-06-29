@@ -1,5 +1,6 @@
 ---
 title: Kirby
+createdAt: 2023-06-26
 category: server-app
 iconSlug: kirby
 permalink: /kirby
@@ -27,7 +28,7 @@ auto:
 # supportedPhpVersions can be found on https://getkirby.com/docs/reference/system/requirements#php-version-support-history.
 releases:
 -   releaseCycle: "5"
-    codename: "" 
+    codename: ""
     releaseDate: 2025-06-24
     eol: false
     supportedPhpVersions: 8.2 - 8.4

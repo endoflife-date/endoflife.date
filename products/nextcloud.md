@@ -1,5 +1,6 @@
 ---
 title: Nextcloud
+createdAt: 2022-07-27
 category: server-app
 tags: php-runtime
 iconSlug: nextcloud

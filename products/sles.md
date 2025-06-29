@@ -1,5 +1,6 @@
 ---
 title: SUSE Linux Enterprise Server
+createdAt: 2021-07-18
 category: os
 tags: linux-distribution suse
 iconSlug: suse

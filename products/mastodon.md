@@ -1,5 +1,6 @@
 ---
 title: Mastodon
+createdAt: 2023-03-01
 category: server-app
 tags: javascript-runtime ruby-runtime
 iconSlug: mastodon

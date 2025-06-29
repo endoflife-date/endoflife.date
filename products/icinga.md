@@ -1,5 +1,6 @@
 ---
 title: Icinga
+createdAt: 2024-07-27
 category: server-app
 iconSlug: icinga
 permalink: /icinga

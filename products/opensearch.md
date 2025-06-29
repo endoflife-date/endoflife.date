@@ -1,5 +1,6 @@
 ---
 title: OpenSearch
+createdAt: 2022-08-26
 category: database
 tags: amazon java-runtime
 iconSlug: opensearch

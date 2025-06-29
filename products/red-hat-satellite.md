@@ -1,5 +1,6 @@
 ---
 title: Red Hat Satellite
+createdAt: 2022-12-09
 category: server-app
 tags: red-hat
 iconSlug: redhat

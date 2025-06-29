@@ -1,5 +1,6 @@
 ---
 title: EuroLinux
+createdAt: 2022-09-06
 category: os
 tags: linux-distribution
 permalink: /eurolinux

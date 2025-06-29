@@ -1,5 +1,6 @@
 ---
 title: Azure Kubernetes Service
+createdAt: 2022-12-28
 category: service
 tags: managed-kubernetes microsoft
 permalink: /azure-kubernetes-service

@@ -1,5 +1,6 @@
 ---
 title: Grails Framework
+createdAt: 2022-12-01
 category: framework
 tags: java-runtime
 permalink: /grails

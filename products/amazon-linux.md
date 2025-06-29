@@ -1,5 +1,6 @@
 ---
 title: Amazon Linux
+createdAt: 2021-04-07
 category: os
 tags: amazon linux-distribution
 iconSlug: amazonaws

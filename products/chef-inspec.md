@@ -1,5 +1,6 @@
 ---
 title: Chef InSpec
+createdAt: 2024-08-14
 category: app
 tags: ruby-runtime
 iconSlug: chef
