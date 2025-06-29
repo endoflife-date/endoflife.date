@@ -223,10 +223,15 @@ releases:
 
 ---
 
-> [Docker Engine](https://www.docker.com/) is a containerisation technology that allows applications
+> [Docker Engine](https://www.docker.com/) is a containerization technology that allows applications
 > to be packaged independently, avoiding the requirement to install or manage software dependencies.
 > Containers are isolated from one another and bundle their own software, libraries and
 > configuration files.
+
+{: .note}
+> This page may list versions of Docker Engine that are not available as binary distributions nor listed in [Docker release notes](https://docs.docker.com/engine/release-notes/).
+> The reason is that endoflife.date tracks Docker engine versions using [the Moby project repository](https://github.com/moby/moby.git), which provides source code releases only,
+> whereas binary distributions are available [from multiple contributing parties](https://github.com/moby/moby/blob/master/project/PACKAGERS.md).
 
 Docker Engine is supported by the [Moby Community](https://docs.docker.com/engine/install/#support).
 
