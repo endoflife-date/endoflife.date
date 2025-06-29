@@ -2,7 +2,7 @@
 title: Font Awesome
 category: framework
 iconSlug: fontawesome
-permalink: /fontawesome
+permalink: /font-awesome
 changelogTemplate: "https://github.com/FortAwesome/Font-Awesome/releases/tag/__LATEST__"
 releasePolicyLink: https://fontawesome.com/versions
 
