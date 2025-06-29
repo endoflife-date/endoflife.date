@@ -9,6 +9,7 @@ changelogTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
 auto:
   methods:
   -   git: https://github.com/phpro/grumphp.git
+      regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 releases:
 -   releaseCycle: "2"
@@ -27,6 +28,7 @@ releases:
     releaseDate: 2015-03-18
     eol: true
     latest: "0.22.0"
+    latestReleaseDate: 2020-09-03
 
 ---
 
