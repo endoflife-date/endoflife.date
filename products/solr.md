@@ -1,5 +1,6 @@
 ---
 title: Apache Solr
+addedAt: 2022-07-10
 category: server-app
 tags: apache java-runtime
 iconSlug: apachesolr

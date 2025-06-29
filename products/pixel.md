@@ -1,5 +1,6 @@
 ---
 title: Google Pixel
+addedAt: 2020-10-03
 category: device
 tags: google mobile-phone
 iconSlug: google

@@ -1,5 +1,6 @@
 ---
 title: VMware ESXi
+addedAt: 2021-12-14
 category: os
 tags: vmware
 iconSlug: vmware

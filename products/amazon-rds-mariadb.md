@@ -1,5 +1,6 @@
 ---
 title: Amazon RDS for MariaDB
+addedAt: 2024-08-01
 category: service
 tags: amazon database
 iconSlug: amazonrds

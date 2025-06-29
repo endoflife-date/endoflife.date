@@ -1,5 +1,6 @@
 ---
 title: Spring Boot
+addedAt: 2022-11-09
 category: framework
 tags: java-runtime vmware
 iconSlug: springboot

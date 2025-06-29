@@ -1,5 +1,6 @@
 ---
 title: GStreamer
+addedAt: 2023-05-01
 category: framework
 iconSlug: gstreamer
 permalink: /gstreamer

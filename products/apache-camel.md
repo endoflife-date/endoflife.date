@@ -1,5 +1,6 @@
 ---
 title: Apache Camel
+addedAt: 2023-01-26
 category: framework
 tags: apache java-runtime
 permalink: /apache-camel

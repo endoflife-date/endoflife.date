@@ -1,5 +1,6 @@
 ---
 title: DaoCloud Enterprise
+addedAt: 2024-07-02
 category: server-app
 tags: kubernetes
 permalink: /dce

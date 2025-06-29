@@ -1,5 +1,6 @@
 ---
 title: Microsoft SharePoint
+addedAt: 2022-03-20
 category: server-app
 tags: microsoft
 permalink: /sharepoint

@@ -1,5 +1,6 @@
 ---
 title: Shopware
+addedAt: 2024-04-19
 category: server-app
 tags: php-runtime
 iconSlug: shopware

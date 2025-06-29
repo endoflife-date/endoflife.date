@@ -1,5 +1,6 @@
 ---
 title: Hashicorp Consul
+addedAt: 2021-10-20
 category: server-app
 tags: hashicorp
 iconSlug: consul

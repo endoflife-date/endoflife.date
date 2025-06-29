@@ -1,5 +1,6 @@
 ---
 title: Yarn
+addedAt: 2023-07-14
 category: app
 tags: build-tool javascript-runtime
 iconSlug: yarn

@@ -1,5 +1,6 @@
 ---
 title: Bun
+addedAt: 2024-02-17
 category: framework
 tags: javascript-runtime
 iconSlug: bun

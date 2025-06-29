@@ -54,7 +54,8 @@ Other Jekyll commands [are documented](https://jekyllrb.com/docs/usage/) on the 
 
 - The layout for the products page is in `_layouts/post.html`
 - Product data is in the `products` directory.
-- Automation scripts that updates latest releases are in the `_auto` directory. Also see the [`release-data`](https://github.com/endoflife-date/release-data/) repository, where the updates are fetched, and the [Automation](https://github.com/endoflife-date/endoflife.date/wiki/Automation) page on the wiki.
+- Automation scripts that updates latest releases are in the [`release-data`](https://github.com/endoflife-date/release-data/) repository.
+  There are also some information in the [Automation](https://github.com/endoflife-date/endoflife.date/wiki/Automation) page on the wiki.
 - We follow the Jekyll directory structure:
   - `_includes` holds partial templates, such as the content for the `<head>` tag.
   - `assets` includes CSS/JS/Logo images etc
@@ -95,7 +96,7 @@ contexts, such as on the site as a logo.
 
 ## Automation
 
-Automation is currently focused towards updating the latest releases for a given release cycle against the `release-data` repository. Scripts for this are in the `_auto` directory.
+Automation is currently focused towards updating the latest releases for a given release cycle against the `release-data` repository.
 
 ## API
 
@@ -139,7 +140,3 @@ There are no javascript trackers or analytics on the website. Numbers from Googl
 ## Automation
 
 The endoflife.date project runs a bit of automation on top of GitHub Actions to automate mundane tasks. This is primarily updating the latest version of each product, wherever possible. This is documented in the [wiki](https://github.com/endoflife-date/endoflife.date/wiki/Automation).
-
-## Bulk Updates
-
-To facilitate bulk updates to the products, a script `_auto/bulk-update.py` is available. You only need to write in the `update` function to make changes to all files together.

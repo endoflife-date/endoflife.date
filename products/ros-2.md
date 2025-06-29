@@ -1,5 +1,6 @@
 ---
 title: ROS 2
+addedAt: 2023-04-07
 category: framework
 iconSlug: ros
 permalink: /ros-2

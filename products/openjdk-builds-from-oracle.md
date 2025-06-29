@@ -1,5 +1,6 @@
 ---
 title: OpenJDK builds from Oracle
+addedAt: 2023-09-24
 category: lang
 tags: java-distribution oracle
 iconSlug: openjdk

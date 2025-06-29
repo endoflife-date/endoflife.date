@@ -1,5 +1,6 @@
 ---
 title: Apache Log4j
+addedAt: 2021-12-16
 category: framework
 tags: java-runtime
 iconSlug: apache

@@ -1,5 +1,6 @@
 ---
 title: Drush
+addedAt: 2022-07-05
 category: app
 tags: php-runtime
 iconSlug: drupal

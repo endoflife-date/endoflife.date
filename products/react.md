@@ -1,5 +1,6 @@
 ---
 title: React
+addedAt: 2022-04-04
 category: framework
 tags: meta javascript-runtime
 iconSlug: react

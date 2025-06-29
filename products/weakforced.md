@@ -1,5 +1,6 @@
 ---
 title: Weakforced
+addedAt: 2025-03-20
 category: server-app
 tags: web-server
 permalink: /weakforced

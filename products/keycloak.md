@@ -1,5 +1,6 @@
 ---
 title: Keycloak
+addedAt: 2022-12-15
 category: server-app
 tags: java-runtime red-hat
 iconSlug: keycloak

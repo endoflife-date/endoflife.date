@@ -1,5 +1,6 @@
 ---
 title: LDAP Account Manager
+addedAt: 2025-05-10
 category: server-app
 permalink: /ldap-account-manager
 alternate_urls:

@@ -1,5 +1,6 @@
 ---
 title: Microsoft .NET
+addedAt: 2020-11-10
 category: framework
 tags: microsoft
 iconSlug: dotnet

@@ -1,5 +1,6 @@
 ---
 title: OpenBSD
+addedAt: 2022-03-11
 category: os
 tags: bsd-distribution unix-distribution
 iconSlug: openbsd

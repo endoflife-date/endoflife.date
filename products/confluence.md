@@ -1,5 +1,6 @@
 ---
 title: Confluence
+addedAt: 2022-12-18
 category: server-app
 tags: atlassian java-runtime
 iconSlug: confluence

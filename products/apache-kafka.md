@@ -1,5 +1,6 @@
 ---
 title: Apache Kafka
+addedAt: 2023-05-24
 category: server-app
 tags: apache java-runtime
 iconSlug: apachekafka

@@ -1,5 +1,6 @@
 ---
 title: Vue
+addedAt: 2022-03-21
 category: framework
 tags: javascript-runtime herodevs
 iconSlug: vuedotjs

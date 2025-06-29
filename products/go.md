@@ -1,5 +1,6 @@
 ---
 title: Go
+addedAt: 2019-10-04
 category: lang
 tags: google
 iconSlug: go

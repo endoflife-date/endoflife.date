@@ -1,5 +1,6 @@
 ---
 title: Redmine
+addedAt: 2022-09-07
 category: server-app
 tags: ruby-runtime
 iconSlug: redmine

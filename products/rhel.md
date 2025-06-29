@@ -1,5 +1,6 @@
 ---
 title: Red Hat Enterprise Linux
+addedAt: 2019-05-29
 category: os
 tags: red-hat linux-distribution
 iconSlug: redhat

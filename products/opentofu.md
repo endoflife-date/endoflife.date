@@ -1,5 +1,6 @@
 ---
 title: OpenTofu
+addedAt: 2024-03-31
 category: app
 tags: cncf
 iconSlug: opentofu

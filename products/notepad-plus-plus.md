@@ -1,5 +1,6 @@
 ---
 title: Notepad++
+addedAt: 2025-05-30
 category: app
 iconSlug: notepadplusplus
 permalink: /notepad-plus-plus

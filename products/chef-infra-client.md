@@ -1,5 +1,6 @@
 ---
 title: Chef Infra Client
+addedAt: 2024-07-19
 category: app
 tags: ruby-runtime
 iconSlug: chef

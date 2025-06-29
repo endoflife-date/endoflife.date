@@ -1,5 +1,6 @@
 ---
 title: JReleaser
+addedAt: 2022-12-02
 category: app
 tags: java-runtime
 permalink: /jreleaser

@@ -1,5 +1,6 @@
 ---
 title: Electron
+addedAt: 2021-12-31
 category: framework
 tags: javascript-runtime
 iconSlug: electron

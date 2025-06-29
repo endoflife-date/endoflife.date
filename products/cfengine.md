@@ -1,5 +1,6 @@
 ---
 title: CFEngine
+addedAt: 2021-11-01
 category: app
 permalink: /cfengine
 versionCommand: cf-agent --version

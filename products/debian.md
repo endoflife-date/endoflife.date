@@ -1,5 +1,6 @@
 ---
 title: Debian
+addedAt: 2019-05-29
 category: os
 tags: linux-distribution
 iconSlug: debian

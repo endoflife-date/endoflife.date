@@ -1,5 +1,6 @@
 ---
 title: MediaWiki
+addedAt: 2021-10-15
 category: server-app
 tags: php-runtime
 permalink: /mediawiki

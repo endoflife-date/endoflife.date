@@ -1,5 +1,6 @@
 ---
 title: ClamAV
+addedAt: 2022-12-15
 category: app
 permalink: /clamav
 versionCommand: clamscan --version

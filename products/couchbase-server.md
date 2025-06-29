@@ -1,5 +1,6 @@
 ---
 title: Couchbase Server
+addedAt: 2021-10-18
 category: database
 iconSlug: couchbase
 permalink: /couchbase-server

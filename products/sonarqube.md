@@ -1,5 +1,6 @@
 ---
 title: SonarQube
+addedAt: 2022-12-20
 category: server-app
 tags: java-runtime
 iconSlug: sonarqube

@@ -1,5 +1,6 @@
 ---
 title: Ubuntu
+addedAt: 2019-05-27
 category: os
 tags: linux-distribution
 iconSlug: ubuntu

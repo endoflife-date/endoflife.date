@@ -1,5 +1,6 @@
 ---
 title: VMware Site Recovery Manager
+addedAt: 2022-10-17
 category: server-app
 tags: vmware
 iconSlug: vmware

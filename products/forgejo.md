@@ -1,5 +1,6 @@
 ---
 title: Forgejo
+addedAt: 2024-12-09
 category: server-app
 iconSlug: forgejo
 permalink: /forgejo

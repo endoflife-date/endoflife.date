@@ -1,5 +1,6 @@
 ---
 title: Microsoft Windows Server
+addedAt: 2020-01-07
 category: os
 tags: microsoft windows
 permalink: /windows-server

@@ -1,5 +1,6 @@
 ---
 title: Google Pixel Watch
+addedAt: 2024-12-03
 category: device
 tags: google watch
 iconSlug: google

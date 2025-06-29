@@ -1,5 +1,6 @@
 ---
 title: Apache Lucene
+addedAt: 2024-07-05
 category: framework
 tags: apache java-runtime
 iconSlug: apache

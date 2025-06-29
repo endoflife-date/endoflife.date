@@ -1,5 +1,6 @@
 ---
 title: WeeChat
+addedAt: 2023-07-15
 category: app
 permalink: /weechat
 versionCommand: weechat --version

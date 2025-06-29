@@ -1,5 +1,6 @@
 ---
 title: Kubernetes
+addedAt: 2020-07-28
 category: server-app
 iconSlug: kubernetes
 permalink: /kubernetes

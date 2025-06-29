@@ -1,5 +1,6 @@
 ---
 title: Pop!_OS
+addedAt: 2022-12-13
 category: os
 tags: linux-distribution
 iconSlug: popos

@@ -1,5 +1,6 @@
 ---
 title: Redis
+addedAt: 2019-05-30
 category: database
 iconSlug: redis
 permalink: /redis
