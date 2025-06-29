@@ -165,49 +165,37 @@ module ApiV1
     end
 
     def add_identifiers_related_pages(site, products)
-      identifiers, products_by_identifier = products_by_identifier(products)
+      identifiers_by_type = identifiers_by_type(site, products)
 
-      add_all_identifiers_page(site, products_by_identifier.keys)
-      products_by_identifier.each do |identifier, products|
-        add_identifier_page(site, identifier, products)
+      add_all_identifier_types_page(site, identifiers_by_type.keys)
+      identifiers_by_type.each do |identifier_kind, identifiers|
+        add_identifiers_for_type_page(site, identifier_kind, identifiers)
       end
     end
 
-    def products_by_identifier(products)
-      products_by_identifier = {}
-      identifiers = []
+    def identifiers_by_type(site, products)
+      identifiers_by_type = {}
       products.each do |product|
         product.data['identifiers'].each do |identifier|
-          identifier_to_product = {
+          add_to_map(identifiers_by_type, identifier.keys.first, {
             identifier: identifier.values.first,
-            product: product,
-          }
-
-          add_to_map(products_by_identifier, identifier.keys.first, identifier_to_product)
-          identifiers << identifier
+            product: product.data['id'],
+            uri: ApiV1.api_url(site, "/products/#{product.data['id']}")
+          })
         end
       end
-
-      return identifiers, products_by_identifier
+      identifiers_by_type
     end
 
-    def add_identifier_page(site, identifier, identifiers_to_products)
-      data = identifiers_to_products.map do |identifier_to_product|
-        {
-          identifier: identifier_to_product[:identifier],
-          product: identifier_to_product[:product].data['id'],
-          uri: ApiV1.api_url(site, "/products/#{identifier_to_product[:product].data['id']}")
-        }
-      end
-      meta = { total: data.length }
-
-      site.pages << JsonPage.of_raw_data(site, "/identifiers/#{identifier}", data, meta)
-    end
-
-    def add_all_identifiers_page(site, identifiers)
-      data = identifiers.map { |identifier| { name: identifier, uri: "#{ApiV1.api_url(site, "/identifiers/#{identifier}/")}" }}
-      meta = { total: identifiers.size() }
+    def add_all_identifier_types_page(site, types)
+      data = types.map { |type| { name: type, uri: "#{ApiV1.api_url(site, "/identifiers/#{type}/")}" }}
+      meta = { total: types.size() }
       site.pages << JsonPage.of_raw_data(site, '/identifiers/', data, meta)
+    end
+
+    def add_identifiers_for_type_page(site, type, identifiers)
+      meta = { total: identifiers.length }
+      site.pages << JsonPage.of_raw_data(site, "/identifiers/#{type}", identifiers, meta)
     end
 
     def add_to_map(map, key, page)
