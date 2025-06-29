@@ -3,7 +3,6 @@ title: GrumPHP
 category: framework
 permalink: /grumphp
 versionCommand: grumphp --version
-releasePolicyLink: https://github.com/phpro/grumphp/security
 changelogTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
 
 auto:
@@ -33,3 +32,5 @@ releases:
 ---
 
 > [GrumPHP](https://github.com/phpro/grumphp) is a composer plugin that enables source code quality checks.
+
+GrumPHP supported versions are documented on their [GitHub security page](https://github.com/phpro/grumphp/security).
