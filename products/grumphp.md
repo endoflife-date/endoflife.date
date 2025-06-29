@@ -1,6 +1,7 @@
 ---
 title: GrumPHP
 category: framework
+tags: php-runtime
 permalink: /grumphp
 versionCommand: grumphp --version
 changelogTemplate: "https://github.com/phpro/grumphp/releases/tag/v__LATEST__"
