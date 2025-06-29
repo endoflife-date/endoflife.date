@@ -179,8 +179,10 @@ module ApiV1
         product.data['identifiers'].each do |identifier|
           add_to_map(identifiers_by_type, identifier.keys.first, {
             identifier: identifier.values.first,
-            product: product.data['id'],
-            uri: ApiV1.api_url(site, "/products/#{product.data['id']}")
+            product: {
+              name: product.data['id'],
+              uri: ApiV1.api_url(site, "/products/#{product.data['id']}")
+            }
           })
         end
       end
