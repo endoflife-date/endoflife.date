@@ -11,17 +11,17 @@ auto:
     - git: https://github.com/phpro/grumphp.git
 
 releases:
-  - releaseCycle: "2.x"
+  - releaseCycle: "2"
     eol: false
     latest: 2.12.0
     releaseDate: 2023-06-18
 
-  - releaseCycle: "1.x"
+  - releaseCycle: "1"
     eol: false
     latest: 1.16.0
     releaseDate: 2020-09-25
 
-  - releaseCycle: "0.x"
+  - releaseCycle: "0"
     eol: true
     latest: 0.22.0
     releaseDate: 2015-03-18
