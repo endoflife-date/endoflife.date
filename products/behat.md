@@ -2,7 +2,7 @@
 title: Behat
 category: framework
 permalink: /behat
-changelogTemplate: "https://github.com/Behat/Behat/releases/tag/v__LATEST__"
+changelogTemplate: https://github.com/Behat/Behat/releases/tag/v__LATEST__
 releasePolicyLink: https://docs.behat.org/en/latest/releases.html
 
 auto:
@@ -26,7 +26,7 @@ releases:
 
 > [Behat](https://docs.behat.org/en/latest/) is an open-source test framework for PHP.
 
-As a minimum, a major version series will receive:
+Behat follows [semantic versioning](https://semver.org). Major releases receive:
 
-* Bugfixes for 12 months after the release of the next major.
-* Security fixes for 24 months after the release of the next major.
+- bugfixes for at least 12 months after the release of the next major,
+- security fixes for at least 24 months after the release of the next major.
