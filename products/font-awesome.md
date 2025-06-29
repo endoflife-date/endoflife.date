@@ -55,4 +55,18 @@ releases:
 
 ---
 
-> [Font Awesome](https://fontawesome.com/) is an icon library.
+> [Font Awesome](https://fontawesome.com/) is an icon library and toolkit.
+
+Font Awesome [follows Semantic Versioning as much as possible](https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#versioning).
+
+With the release of Font Awesome 6:
+
+- Font Awesome 5 has been marked as Long Term Support (LTS) and only receives critical bug fixes,
+- Font Awesome 3 and 4 are now end-of-life.
+
+Note that Font Awesome 6 dropped support for Internet Explorer,
+and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/web/setup/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
+
+Font Awesome comes is two flavors: the free version and the pro version.
+Font Awesome Free version is free, open source, GPL friendly, and [can even be used for commercial projects](https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license).
+Font Awesome Pro offers additional styles and features, but requires a paid subscription.
