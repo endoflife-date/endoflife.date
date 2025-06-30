@@ -157,3 +157,5 @@ there may be multiple point releases, or none, depending on the number of report
 
 The PHP Release Cycle was [extended in March 2024](https://wiki.php.net/rfc/release_cycle_update)
 from 3 to 4 years: 2 years of bug fixes, and 2 years of security fixes.
+
+Third-party maintenance support for various unsupported versions is available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/php-eol-support/).
