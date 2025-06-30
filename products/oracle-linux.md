@@ -69,7 +69,7 @@ releases:
 - **Extended Support**: Available for a limited time, after Premier Support ends, as per agreement
   with Oracle. Includes patches and fixes for critical security errata and select high-impact
   critical bug fixes. Updates are limited to select packages listed at <https://linux.oracle.com/es/packagelist.html>.
-  Also includes live kernel patching.
+  Also includes live kernel patching. Third party extended support for versions 6 and 7 is available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/oracle-linux-7-eol-support/).
 - **Sustaining Support**: Available after Extended support ends. Does not include any new security
   fixes or alerts.
 
