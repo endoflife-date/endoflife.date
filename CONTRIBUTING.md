@@ -470,7 +470,7 @@ docker run --rm \
 
 ## Testing API payload
 
-There is a GitHub workflow that already validates the OpenAPI specification.
+There is a GitHub workflow that already validates the OpenAPI specification (it can also be checked on https://pb33f.io/doctor/).
 But to test the generated API payload you can do the following:
 
 ```sh
