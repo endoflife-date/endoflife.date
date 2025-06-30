@@ -9,7 +9,17 @@ versionCommand: az aks show --resource-group myResourceGroup --name myAKSCluster
 releasePolicyLink: https://learn.microsoft.com/azure/aks/supported-kubernetes-versions
 releaseImage: https://learn.microsoft.com/en-us/azure/aks/media/supported-kubernetes-versions/kubernetes-versions-gantt.png
 releaseColumn: false
-eolColumn: End of Support
+eolColumn: Support
+eoesColumn: LTS Support
+
+auto:
+  methods:
+  -   release_table: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
+      selector: "table"
+      fields:
+        releaseCycle: "K8s version"
+        eol: "End of life"
+        eoes: "LTS End of life"
 
 # Approximate release and EOL dates can be found on https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions.
 # Exact release dates and EOL dates can be found in release notes: https://github.com/Azure/AKS/releases.
@@ -17,33 +27,37 @@ releases:
 -   releaseCycle: "1.32"
     releaseDate: 2025-04-06
     eol: 2026-03-31
+    eoes: 2027-03-31
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.31"
     releaseDate: 2024-10-25
     eol: 2025-11-30
+    eoes: 2026-11-30
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.30"
     releaseDate: 2024-08-05
-    lts: 2025-07-31
-    eol: 2026-07-31
+    eol: 2025-07-31
+    eoes: 2026-07-31
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.29"
     releaseDate: 2024-03-18
     eol: 2025-03-31
+    eoes: 2026-04-30
     link: https://azure.microsoft.com/en-us/updates/generally-available-kubernetes-129-support-in-aks/
 
 -   releaseCycle: "1.28"
     releaseDate: 2023-11-07
     eol: 2025-01-31
+    eoes: 2026-02-28
     link: https://azure.microsoft.com/updates/ga-kubernetes-128-support-in-azure-kubernetes-service-aks/
 
 -   releaseCycle: "1.27"
     releaseDate: 2023-08-16
-    lts: 2024-07-31
-    eol: 2025-07-31
+    eol: 2024-07-31
+    eoes: 2025-07-31
     link: https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#aks-kubernetes-release-calendar
 
 -   releaseCycle: "1.26"
@@ -80,6 +94,7 @@ releases:
 # 1.20: https://azure.microsoft.com/en-us/updates/general-availability-kubernetes-v120-support-in-aks/
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
 
+
 ---
 
 > [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/) is a managed service that
@@ -92,14 +107,11 @@ available in all regions. AKS supports three GA minor versions of Kubernetes:
 - The latest GA minor version released in AKS.
 - Two previous minor versions.
 
-AKS also offers a limited [Platform Support](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli#platform-support-policy)
-to the N-3 release, where N is the latest GA release. In Platform Support, the AKS Platform remains
-supported, but scenarios related to Kubernetes functionality and components (including security fixes) aren't supported
+AKS introduced commercial [Long-Term Support (LTS)](https://learn.microsoft.com/en-us/azure/aks/long-term-support)
+for all versions starting with 1.27. This extends support and security updates for two years, instead of the usual one year.
+Note that due to reliance on the upstream Kubernetes Community for component updates, [several addons and features aren't supported in LTS Support beyond one year](https://learn.microsoft.com/en-us/azure/aks/long-term-support#unsupported-add-ons-and-features).
 
-[Long-Term Support](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-kubernetes-upgrades-and-long-term-support/ba-p/3782789)
-releases receive support and security updates for two years (instead of the usual one year). Due to reliance on the upstream Kubernetes
-Community for component updates, several addons and features aren't supported in [LTS Support](https://learn.microsoft.com/en-us/azure/aks/long-term-support#unsupported-add-ons-and-features)
-beyond one year. This currently includes: Istio, Calico, Keda, KMS, Dapr, Application Gateway Ingress Controller, Open Service Mesh, and AAD Pod Identity.
+Also:
 
 - AKS release notes are available on [https://github.com/Azure/AKS/](https://github.com/Azure/AKS/).
 - News about AKS can be received by following [the AKS feed in Azure Updates](https://azure.microsoft.com/updates/?product=kubernetes-service).
