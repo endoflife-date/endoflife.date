@@ -136,7 +136,7 @@ for upcoming releases and [Spring Boot Support page](https://spring.io/projects/
 for more details about the support roadmap.
 
 Extended support is available
-[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support).
+[from VMWare](https://tanzu.vmware.com/content/blog/vmware-spring-runtime-extended-support). TuxCare also provides third-party extended support through its [Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/java-spring-eol-support/) service.
 
 ## [JDK/Jakarta EE Compatibility](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range)
 
