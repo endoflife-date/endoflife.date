@@ -102,5 +102,5 @@ on the final version 1.8.3, which was released April 7, 2022.
 
 Beginning January 1, 2022, commercial [extended long-term support for AngularJS](https://www.herodevs.com/support/nes-angularjs)
 became available through the [HeroDevs](https://www.herodevs.com/) Never-Ending Support
-initiative (NES, formerly XLTS). [OpenLogic](https://www.openlogic.com/solutions/angularjs-support-and-services) also
+initiative (NES, formerly XLTS). [OpenLogic](https://www.openlogic.com/solutions/angularjs-support-and-services) and [TuxCare](https://tuxcare.com/endless-lifecycle-support/angularjs-1-8-3-eol-support/) also
 provides commercial long-term support for AngularJS.
