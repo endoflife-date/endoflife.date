@@ -256,3 +256,5 @@ The detailed release information (including schedules) can be found among [Relea
 
 A Python release only supports a Windows platform while Microsoft considers the platform under
 extended support. Python 3.8 was the last version to support Windows 7.
+
+Third-party maintenance support for various unsupported versions is available through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/python-eol-support/).
