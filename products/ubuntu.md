@@ -414,7 +414,7 @@ phase, but in practice, security-updates are only released to pro subscriptions.
 
 Expanded Security Maintenance (ESM) provides security updates on Ubuntu LTS releases for an additional
 5 years. It is available with the [Ubuntu Pro](https://ubuntu.com/pro) subscription or a
-[Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4].
+[Free subscription for personal use](https://ubuntu.com/blog/ubuntu-pro-beta-release)[^4]. TuxCare provides third-party maintenance support for versions 16.04, 18.04, and 20.04 through its [Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/) service.
 
 Ubuntu Pro offers security fixes for critical, high, and selected medium CVEs in the `main` and
 `universe` repositories. Ubuntu Pro (Infra-only)[^1] only guarantees security fixes for packages in
