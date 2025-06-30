@@ -136,3 +136,5 @@ Microsoft publishes new major releases of .NET Core on a regular cadence, enabli
 community and businesses to plan their roadmaps. Beginning with .NET Core 3.1, these releases will
 happen every November and every other release will be LTS. LTS releases are supported for three
 years after the initial release.
+
+Third party maintenance support is available for .NET 6 through [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/net-eol-support/).
