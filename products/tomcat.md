@@ -112,6 +112,8 @@ moved to End-of-life status, a notice is provided roughly a year in advance.
 Generally, three major versions of Tomcat are concurrently supported. When Tomcat 10.0 was released as
 stable, Tomcat 7 became EOL. 8.5 is expected to become unsupported once Tomcat 11 becomes stable.
 
+[TuxCare](https://tuxcare.com/endless-lifecycle-support/apache-tomcat-eol-support/) offers third-party security support for Tomcat 8.5.
+
 ## Java Compatibility
 
 Different versions of Apache Tomcat are available for different versions of the specifications,
