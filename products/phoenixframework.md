@@ -9,46 +9,48 @@ auto:
   methods:
     - git: https://github.com/phoenixframework/phoenix.git
 releases:
-  - releaseCycle: "1.8"
-    releaseDate: 2025-04-01
-    eol: false
-    latest: "1.8.0-rc.3"
-    latestReleaseDate: 2025-05-07
   - releaseCycle: "1.7"
     releaseDate: 2023-02-24
     eol: false
     latest: "1.7.21"
     latestReleaseDate: 2025-03-27
+
   - releaseCycle: "1.6"
     releaseDate: 2021-08-26
     eol: false
     latest: "1.6.16"
     latestReleaseDate: 2023-02-17
+
   - releaseCycle: "1.5"
     releaseDate: 2020-04-22
     eol: false
     latest: "1.5.14"
     latestReleaseDate: 2022-10-10
+
   - releaseCycle: "1.4"
     releaseDate: 2018-11-07
     eol: false
     latest: "1.4.18"
     latestReleaseDate: 2022-10-10
+
   - releaseCycle: "1.3"
     releaseDate: 2017-07-28
     eol: false
     latest: "1.3.5"
     latestReleaseDate: 2022-10-10
+
   - releaseCycle: "1.2"
     releaseDate: 2016-06-23
     eol: 2017-07-27
     latest: "1.2.5"
     latestReleaseDate: 2017-07-27
+
   - releaseCycle: "1.1"
     releaseDate: 2015-12-16
     eol: 2017-05-15
     latest: "1.1.9"
     latestReleaseDate: 2017-05-15
+
   - releaseCycle: "1.0"
     releaseDate: 2015-08-28
     eol: 2017-03-14
