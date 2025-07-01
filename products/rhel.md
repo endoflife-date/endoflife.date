@@ -63,7 +63,7 @@ releases:
     eoas: 2019-08-06
     eol: 2024-06-30
     lts: 2024-06-30
-    eoes: 2028-06-30
+    eoes: 2029-05-31
     latest: "7.9"
     latestReleaseDate: 2020-09-29
 
