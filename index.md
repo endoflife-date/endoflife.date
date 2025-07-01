@@ -18,7 +18,7 @@ endoflife.date currently tracks {{ site.pages | where: "layout", "product" | siz
 Here are some of our most popular pages:
 
 | Programming           | [Python](/python) | [Java](/tags/java-distribution) | [Node.js](/nodejs) | [PHP](/php) |
-| Devices               | [iPhone](/iphone) | [ipad](/iPad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
+| Devices               | [iPhone](/iphone) | [Apple iPad](/iPad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
 | Databases             | [MongoDB](/mongodb) | [PostgreSQL](/postgresql) | [Redis](/redis) | [MySQL](/mysql) |
 | Operating Systems     | [Windows](/windows) | [Android](/android) | [macOS](/macos) | [Linux](/tags/linux-distribution) |
 | Frameworks            | [Angular](/angular) | [Django](/django) | [Ruby on Rails](/rails) | [.NET](/dotnet) |
