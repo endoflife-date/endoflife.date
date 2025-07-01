@@ -53,22 +53,22 @@ releases:
     releaseDate: 2025-05-09
     eoas: 2026-05-12
     eol: 2026-11-12
-    latest: "25.2.1"
-    latestReleaseDate: 2025-06-02
+    latest: "25.2.2"
+    latestReleaseDate: 2025-06-13
 
 -   releaseCycle: "25.1"
     releaseDate: 2025-02-18
     eoas: 2025-08-18
     eol: false
-    latest: "25.1.7"
-    latestReleaseDate: 2025-05-22
+    latest: "25.1.8"
+    latestReleaseDate: 2025-06-09
 
 -   releaseCycle: "24.3"
     releaseDate: 2024-11-18
     eoas: 2025-11-18
     eol: 2026-05-18
-    latest: "24.3.14"
-    latestReleaseDate: 2025-05-21
+    latest: "24.3.15"
+    latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "24.2"
     releaseDate: 2024-08-12
@@ -82,16 +82,16 @@ releases:
     lts: 2026-10-21
     eoas: 2025-05-20
     eol: 2025-11-20
-    latest: "24.1.19"
-    latestReleaseDate: 2025-05-12
+    latest: "24.1.20"
+    latestReleaseDate: 2025-06-06
 
 -   releaseCycle: "23.2"
     releaseDate: 2024-02-05
     lts: 2026-07-08 # v23.2.7
     eoas: 2025-02-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
     eol: 2025-08-05 # as per https://www.cockroachlabs.com/docs/releases/v23.2
-    latest: "23.2.26"
-    latestReleaseDate: 2025-05-08
+    latest: "23.2.27"
+    latestReleaseDate: 2025-06-05
 
 -   releaseCycle: "23.1"
     releaseDate: 2023-05-15
