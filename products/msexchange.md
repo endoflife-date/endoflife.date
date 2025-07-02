@@ -19,7 +19,7 @@ releases:
     eol: false
     latest: "15.02.2562.017"
     latestReleaseDate: 2025-07-01
-    link: https://www.microsoft.com/download/details.aspx?id=108244
+    link: https://support.microsoft.com/help/5047155
 
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU15 HU2"
