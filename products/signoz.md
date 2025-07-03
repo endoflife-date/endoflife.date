@@ -53,7 +53,7 @@ releases:
     latestReleaseDate: 2025-05-14
 
 -   releaseCycle: "0.82"
-    releaseDate: 2025-06-07
+    releaseDate: 2025-05-07
     eol: false
     latest: '0.82.1'
     latestReleaseDate: 2025-05-07
