@@ -44,7 +44,7 @@ auto:
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
 releases:
 -   releaseCycle: "2025.05"
-    releaseDate: 2025-05-22
+    releaseDate: 2025-06-03
     eol: false # releaseDate(2025.06)
     latest: "2025.05.1"
     latestReleaseDate: 2025-06-19

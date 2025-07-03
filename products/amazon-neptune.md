@@ -36,7 +36,7 @@ auto:
 releases:
 -   releaseCycle: "1.4.5.0"
     releaseDate: 2025-04-09
-    upgradeVersion: N/A
+    upgradeVersion: '1.4.5.1'
     eol: 2027-03-06
     latest: "1.4.5.0"
     latestReleaseDate: 2025-04-09

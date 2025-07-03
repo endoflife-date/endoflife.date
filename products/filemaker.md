@@ -31,7 +31,7 @@ releases:
 
 -   releaseCycle: "2023"
     releaseDate: 2023-04-30
-    eol: 2025-04-30
+    eol: 2025-12-31
     link: https://help.claris.com/en/server-release-notes/content/index.html
 
 -   releaseCycle: "19.6"
