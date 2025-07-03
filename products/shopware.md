@@ -8,7 +8,6 @@ versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 eoasColumn: true
-eoesColumn: Commercial support
 
 customFields:
 -   name: supportedPhpVersions
@@ -59,7 +58,6 @@ releases:
     releaseDate: 2021-05-26
     eoas: true
     eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
-    eoes: false
     latest: "5.7.20"
     latestReleaseDate: 2025-06-05
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__
