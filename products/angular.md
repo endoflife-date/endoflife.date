@@ -144,6 +144,6 @@ months, with 1–3 minor releases for every major release. There is an
 available.
 
 Commercial support is available for all deprecated versions of Angular through the
-[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative.
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-angular) initiative. [TuxCare's Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/angular-16-and-17-eol-support/) also provides commercial support for versions 16 and 17.
 
 *[LTS]: Long-Term Support

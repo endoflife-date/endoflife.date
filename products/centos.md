@@ -59,4 +59,4 @@ Work on [CentOS Linux 8 ceased at the end of 2021](https://blog.centos.org/2020/
 as Red Hat shifted focus to [CentOS Stream](/centos-stream).
 
 Post-end-of-life commercial long-term support for CentOS 6, 7, and 8 is available at [OpenLogic by
-Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos).
+Perforce](https://www.openlogic.com/solutions/enterprise-linux-support/centos). [TuxCare](https://tuxcare.com/) also supports these distributions with its [Endless Lifecycle Support](https://tuxcare.com/endless-lifecycle-support/centos-7-eol-support/).
