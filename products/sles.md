@@ -34,7 +34,7 @@ releases:
 -   releaseCycle: "15.6"
     releaseDate: 2024-06-26
     eol: 2025-11-28
-    eoes: 2031-06-31
+    eoes: 2031-06-30
     latest: '15.6'
     latestReleaseDate: 2024-06-26
 
