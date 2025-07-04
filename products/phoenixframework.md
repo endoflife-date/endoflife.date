@@ -3,7 +3,6 @@ title: Phoenix
 category: framework
 iconSlug: phoenixframework
 permalink: /phoenix
-releasePolicyLink: https://github.com/phoenixframework/phoenix/blob/main/CHANGELOG.md
 changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 auto:
   methods:
