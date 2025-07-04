@@ -24,10 +24,17 @@ auto:
   -   sles: https://www.suse.com/lifecycle
 
 releases:
+-   releaseCycle: "15.7"
+    releaseDate: 2025-05-28
+    eol: 2031-07-31
+    eoes: 2034-07-31
+    latest: '15.7'
+    latestReleaseDate: 2025-05-28
+
 -   releaseCycle: "15.6"
     releaseDate: 2024-06-26
-    eol: false
-    eoes: false
+    eol: 2025-11-28
+    eoes: 2031-06-31
     latest: '15.6'
     latestReleaseDate: 2024-06-26
 
