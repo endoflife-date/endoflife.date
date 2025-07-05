@@ -1,5 +1,6 @@
 ---
 title: VMware Harbor Registry
+createdAt: 2023-12-20
 category: server-app
 tags: cncf
 iconSlug: harbor

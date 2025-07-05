@@ -1,5 +1,6 @@
 ---
 title: Bitbucket
+createdAt: 2025-03-24
 category: server-app
 tags: atlassian java-runtime
 iconSlug: bitbucket

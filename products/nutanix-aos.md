@@ -1,5 +1,6 @@
 ---
 title: Nutanix AOS
+createdAt: 2022-10-17
 category: os
 tags: nutanix
 iconSlug: nutanix

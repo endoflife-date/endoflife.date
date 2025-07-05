@@ -1,5 +1,6 @@
 ---
 title: FortiOS
+createdAt: 2022-08-26
 category: os
 tags: fortinet
 iconSlug: fortinet

@@ -1,5 +1,6 @@
 ---
 title: Bazel
+createdAt: 2023-12-15
 category: app
 tags: google build-tool java-runtime
 iconSlug: bazel

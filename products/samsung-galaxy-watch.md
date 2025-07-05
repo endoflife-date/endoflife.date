@@ -1,5 +1,6 @@
 ---
 title: Samsung Galaxy Watch
+createdAt: 2025-05-09
 category: device
 tags: smartwatch
 iconSlug: samsung

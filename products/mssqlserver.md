@@ -1,5 +1,6 @@
 ---
 title: Microsoft SQL Server
+createdAt: 2019-12-17
 category: database
 tags: microsoft
 iconSlug: microsoftsqlserver

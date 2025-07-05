@@ -1,5 +1,6 @@
 ---
 title: Apache Cassandra
+createdAt: 2022-10-17
 category: database
 tags: apache java-runtime
 iconSlug: apachecassandra

@@ -1,5 +1,6 @@
 ---
 title: Palo Alto Networks PAN-OS
+createdAt: 2022-01-10
 category: os
 tags: palo-alto-networks
 iconSlug: paloaltonetworks

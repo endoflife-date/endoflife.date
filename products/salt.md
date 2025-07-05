@@ -1,5 +1,6 @@
 ---
 title: Salt
+createdAt: 2023-08-14
 category: server-app
 tags: python-runtime
 iconSlug: saltproject

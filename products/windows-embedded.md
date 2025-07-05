@@ -1,5 +1,6 @@
 ---
 title: Microsoft Windows Embedded
+createdAt: 2020-09-28
 category: os
 tags: microsoft windows
 permalink: /windows-embedded

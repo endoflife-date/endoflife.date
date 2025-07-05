@@ -1,5 +1,6 @@
 ---
 title: Amazon Neptune
+createdAt: 2023-07-01
 category: service
 tags: amazon
 iconSlug: amazonaws

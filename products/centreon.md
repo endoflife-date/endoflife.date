@@ -1,5 +1,6 @@
 ---
 title: Centreon
+createdAt: 2024-03-17
 category: server-app
 tags: php-runtime
 permalink: /centreon

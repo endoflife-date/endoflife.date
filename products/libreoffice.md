@@ -1,5 +1,6 @@
 ---
 title: LibreOffice
+createdAt: 2022-10-03
 category: app
 permalink: /libreoffice
 iconSlug: libreoffice

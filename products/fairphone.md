@@ -1,5 +1,6 @@
 ---
 title: Fairphone
+createdAt: 2023-02-02
 category: device
 tags: mobile-phone
 iconSlug: fairphone

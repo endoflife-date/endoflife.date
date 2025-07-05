@@ -1,5 +1,6 @@
 ---
 title: AlmaLinux OS
+createdAt: 2022-03-20
 category: os
 tags: linux-distribution
 iconSlug: almalinux

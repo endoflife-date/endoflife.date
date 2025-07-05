@@ -1,5 +1,6 @@
 ---
 title: Traefik
+createdAt: 2023-12-15
 category: server-app
 tags: web-server
 iconSlug: traefikproxy

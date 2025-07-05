@@ -1,5 +1,6 @@
 ---
 title: Apache Groovy
+createdAt: 2022-11-26
 category: lang
 tags: apache java-runtime
 iconSlug: apachegroovy

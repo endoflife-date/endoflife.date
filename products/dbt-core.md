@@ -1,5 +1,6 @@
 ---
 title: dbt Core
+createdAt: 2023-10-20
 category: app
 tags: python-runtime
 iconSlug: dbt

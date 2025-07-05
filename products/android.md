@@ -1,5 +1,6 @@
 ---
 title: Android OS
+createdAt: 2020-10-02
 category: os
 tags: google
 iconSlug: android

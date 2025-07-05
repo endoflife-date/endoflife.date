@@ -1,5 +1,6 @@
 ---
 title: VMware Cloud Foundation
+createdAt: 2023-06-23
 category: server-app
 tags: vmware
 iconSlug: vmware

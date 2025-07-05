@@ -1,5 +1,6 @@
 ---
 title: ArangoDB
+createdAt: 2024-01-05
 category: database
 iconSlug: arangodb
 permalink: /arangodb

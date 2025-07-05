@@ -1,5 +1,6 @@
 ---
 title: jQuery
+createdAt: 2022-02-09
 category: framework
 tags: javascript-runtime
 iconSlug: jquery

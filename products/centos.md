@@ -1,5 +1,6 @@
 ---
 title: CentOS
+createdAt: 2019-05-29
 category: os
 tags: discontinued linux-distribution
 iconSlug: centos

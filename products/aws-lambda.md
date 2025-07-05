@@ -1,5 +1,6 @@
 ---
 title: AWS Lambda
+createdAt: 2023-11-23
 category: service
 tags: amazon
 iconSlug: awslambda

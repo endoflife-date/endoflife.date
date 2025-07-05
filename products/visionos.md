@@ -1,5 +1,6 @@
 ---
 title: Apple visionOS
+createdAt: 2024-07-23
 category: os
 tags: apple
 iconSlug: apple

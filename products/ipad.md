@@ -1,5 +1,6 @@
 ---
 title: Apple iPad
+createdAt: 2022-12-30
 category: device
 tags: apple tablet
 iconSlug: apple

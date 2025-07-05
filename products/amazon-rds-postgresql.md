@@ -1,5 +1,6 @@
 ---
 title: Amazon RDS for PostgreSQL
+createdAt: 2023-03-30
 category: service
 tags: amazon database
 iconSlug: amazonrds

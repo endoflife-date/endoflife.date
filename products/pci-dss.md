@@ -1,5 +1,6 @@
 ---
 title: PCI-DSS
+createdAt: 2022-10-10
 category: standard
 permalink: /pci-dss
 alternate_urls:
