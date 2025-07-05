@@ -9,6 +9,11 @@ alternate_urls:
 changelogTemplate: "https://github.com/tailwindlabs/tailwindcss/releases/tags/v{{'__LATEST__'}}"
 eolColumn: Support
 
+
+auto:
+  methods:
+  -   git: https://github.com/tailwindlabs/tailwindcss
+
 releases:
 -   releaseCycle: "4.1"
     releaseDate: 2025-04-01
