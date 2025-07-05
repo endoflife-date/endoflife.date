@@ -15,6 +15,13 @@ auto:
 
 # EOL dates can be found on https://www.sipwise.com/releases/releases.json.
 releases:
+-   releaseCycle: "13.4"
+    releaseDate: 2025-07-03
+    eol: 2025-09-26
+    link: https://www.sipwise.com/releases/2025/mr13.4
+    latest: "13.4.1.1"
+    latestReleaseDate: 2025-07-03
+
 -   releaseCycle: "13.3"
     releaseDate: 2025-04-18
     eol: 2025-06-13
