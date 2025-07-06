@@ -1,6 +1,7 @@
 ---
 title: InfluxDB
 category: server-app
+tags: database influxdata
 iconSlug: influxdb
 permalink: /influxdb
 versionCommand: influxd version
