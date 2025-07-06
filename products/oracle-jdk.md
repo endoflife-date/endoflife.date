@@ -37,6 +37,7 @@ auto:
           regex: '^(?P<value>\w+ \d+).*'
   # Fix the release date, as only month-year dates are provided in the previous table.
   -   release_table: https://www.java.com/releases/
+      render_javascript: true
       selector: "table.releaselist"
       header_selector: "tbody#released tr:nth-of-type(3)"
       rows_selector: "tbody#released tr"
