@@ -69,9 +69,14 @@ Beats are part of the [Elastic Stack](https://www.elastic.co/elastic-stack/), al
 [ELK Stack](https://www.elastic.co/what-is/elk-stack). It shares the same support policy as the
 other products in the Elastic Stack (Elasticsearch, Logstash, Kibana...).
 
-Elastic Stack product releases follow [Semantic Versioning](https://semver.org/). Elastic provides
-maintenance for each major release series for the longest of 30 months after the GA date of the
-major release or 18 months after the GA date of the following major release.
+Elastic Stack product releases follow [Semantic Versioning](https://semver.org/).
+Elastic provides maintenance for each major release series for the longest of 30 months after the GA date of the major release
+or 18 months after the GA date of the following major release.
+For example, if version 1.0 was released on 10-Apr-2019 and version 2.0 was released on 10-Feb-2022.
+
+- 30 months from 1.0 GA date is 10-Oct-2021
+- 18 months from 2.0 GA date is 10-Aug-2023
+- 1.x maintenance would end on 10-Aug-2023
 
 End-of-life dates for Beats can be found on the [Elastic product EOL dates page](https://www.elastic.co/support/eol).
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
