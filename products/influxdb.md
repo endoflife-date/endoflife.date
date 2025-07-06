@@ -7,7 +7,7 @@ permalink: /influxdb
 versionCommand: influxd version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
-eoasColumn: true
+eoasColumn: false
 
 identifiers:
 -   repology: influxdb
@@ -21,28 +21,24 @@ releases:
 -   releaseCycle: "3.2"
     releaseDate: 2025-06-25
     eol: false
-    eoas: false
     latest: "3.2.1"
     latestReleaseDate: 2025-07-03
 
 -   releaseCycle: "3.1"
     releaseDate: 2025-05-28
     eol: false
-    eoas: false
     latest: "3.1.0"
     latestReleaseDate: 2025-05-28
 
 -   releaseCycle: "3.0"
     releaseDate: 2025-04-14
     eol: false
-    eoas: false
     latest: "3.0.3"
     latestReleaseDate: 2025-05-15
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-04-05
     eol: false # 3.0 release + 12 months
-    eoas: 2025-04-16 # 3.0 GA
     latest: "2.7.12"
     latestReleaseDate: 2025-05-15
 
