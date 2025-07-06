@@ -19,7 +19,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/craftcms/cms.git
-  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions#1
       selector: "table"
       fields:
         releaseCycle:
@@ -27,7 +27,7 @@ auto:
           regex: '^Craft\sCMS\s(?P<value>[0-9.]+)$'
         eoas: "Active Support Until"
         eol: "Security Support Until"
-  -   release_table: https://craftcms.com/knowledge-base/supported-versions
+  -   release_table: https://craftcms.com/knowledge-base/supported-versions#2
       selector: "table"
       fields:
         releaseCycle:

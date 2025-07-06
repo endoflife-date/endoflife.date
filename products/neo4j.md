@@ -18,7 +18,7 @@ auto:
       # Neo4j 5.0 was a Limited Availability release only and tag date is wrong.
       # See https://neo4j.com/developer/kb/neo4j-supported-versions/#_notes.
       regex_exclude: '^5\.0\.\d+$'
-  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#1
       selector: "table"
       render_javascript: true
       render_javascript_wait_until: networkidle
@@ -27,7 +27,7 @@ auto:
           column: "Release"
           regex: '^(?P<value>\d+\.\d+).*$'
         releaseDate: "Release Date"
-  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
+  -   release_table: https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions#2
       selector: "table"
       render_javascript: true
       render_javascript_wait_until: networkidle
