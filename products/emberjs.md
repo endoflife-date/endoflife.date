@@ -49,8 +49,8 @@ releases:
 -   releaseCycle: "6.4"
     releaseDate: 2025-04-28
     lts: 2025-06-09
-    eoas: 2025-06-09
-    eol: 2025-06-09
+    eoas: 2026-01-05
+    eol: 2026-07-22
     latest: "6.4.0"
     latestReleaseDate: 2025-04-28
     link: https://blog.emberjs.com/ember-released-6-4/
