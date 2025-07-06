@@ -29,7 +29,7 @@ releases:
     eol: 2031-07-31
     eoes: 2034-07-31
     latest: '15.7'
-    latestReleaseDate: 2025-05-28
+    latestReleaseDate: 2025-06-17
 
 -   releaseCycle: "15.6"
     releaseDate: 2024-06-26
