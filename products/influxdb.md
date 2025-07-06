@@ -41,7 +41,7 @@ releases:
 
 -   releaseCycle: "2.7"
     releaseDate: 2023-04-05
-    eol: false # 3.1 release
+    eol: false # 3.0 release + 12 months
     eoas: 2025-04-16 # 3.0 GA
     latest: "2.7.12"
     latestReleaseDate: 2025-05-15
