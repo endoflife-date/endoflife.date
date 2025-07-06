@@ -41,7 +41,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/ionic-team/ionic-framework.git
-  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+  -   release_table: https://ionicframework.com/docs/reference/support#1
       selector: "table"
       fields:
         releaseCycle: "Framework"
@@ -51,7 +51,7 @@ auto:
           regex:
           -   '^(?P<value>v\d+\.x).*$'
           -   '^(?P<value>v\d+\.\d+.\d+).*$'
-  -   release_table: https://ionicframework.com/docs/reference/support#compatibility-recommendations
+  -   release_table: https://ionicframework.com/docs/reference/support#2
       selector: "table"
       fields:
         releaseCycle: "Framework"

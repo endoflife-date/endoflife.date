@@ -20,7 +20,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/traefik/traefik.git
-  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/
+  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/#1
       selector: table
       fields:
         releaseCycle: "Version"
@@ -32,7 +32,7 @@ auto:
           column: "Active Support"
           regex: '^End(ed|s) (?P<value>.+)$'
   # Override the EOL date if provided
-  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/
+  -   release_table: https://doc.traefik.io/traefik/deprecation/releases/#2
       selector: table
       fields:
         releaseCycle: "Version"

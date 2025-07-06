@@ -17,7 +17,7 @@ auto:
   -   git: https://github.com/saltstack/salt.git
       regex: ^v(?P<version>([1-9]\d*)(\.\d+){0,3})$
       template: "{{version}}"
-  -   release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+  -   release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html#1
       selector: "table"
       fields:
         releaseCycle:
@@ -25,7 +25,7 @@ auto:
           regex: '^(?P<value>\d{4}).+$'
         eoas: "Active support ends"
         eol: "CVE and critical support ends"
-  -   release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html
+  -   release_table: https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-version-support-lifecycle.html#2
       selector: "table"
       fields:
         releaseCycle: "Salt version"
