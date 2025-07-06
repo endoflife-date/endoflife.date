@@ -8,7 +8,6 @@ versionCommand: php bin/console --version
 releasePolicyLink: https://developer.shopware.com/release-notes/
 changelogTemplate: https://github.com/shopware/shopware/releases/tag/v__LATEST__
 eoasColumn: true
-eoesColumn: Commercial support
 
 customFields:
 -   name: supportedPhpVersions
@@ -31,12 +30,12 @@ auto:
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
 -   releaseCycle: "6.7"
-    supportedPhpVersions: N/A
+    supportedPhpVersions: 8.2 - 8.4 # https://github.com/shopware/shopware/blob/v6.7.0.0/composer.json#L64
     releaseDate: 2025-06-17
     eoas: false
     eol: false # still listed on https://developer.shopware.com/release-notes/
-    latest: "6.7.0.0"
-    latestReleaseDate: 2025-06-17
+    latest: "6.7.0.1"
+    latestReleaseDate: 2025-06-30
 
 -   releaseCycle: "6.6"
     supportedPhpVersions: 8.2 - 8.3
@@ -59,7 +58,6 @@ releases:
     releaseDate: 2021-05-26
     eoas: true
     eol: 2024-07-31 # https://docs.shopware.com/en/shopware-5-en/end-of-life/shopware-5-end-of-life
-    eoes: false
     latest: "5.7.20"
     latestReleaseDate: 2025-06-05
     link: https://github.com/shopware5/shopware/releases/tag/v__LATEST__

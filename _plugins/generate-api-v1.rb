@@ -12,6 +12,8 @@
 # - /api/v1/categories/<category> - list products having the given category
 # - /api/v1/tags - list tags used on endoflife.date
 # - /api/v1/tags/<tag> - list products having the given tag
+# - /api/v1/identifiers - list all identifiers
+# - /api/v1/identifiers/<identifier> - retrieve all Products that are identified by the given Identifier.
 
 
 require 'jekyll'
@@ -19,7 +21,7 @@ require 'jekyll'
 module ApiV1
 
   # This version must be kept in sync with the version in api_v1/openapi.yml.
-  VERSION = '1.1.0'
+  VERSION = '1.2.0'
   MAJOR_VERSION = VERSION.split('.')[0]
 
   STRIP_HTML_BLOCKS = Regexp.union(
@@ -63,6 +65,7 @@ module ApiV1
       add_products_related_pages(site, product_pages)
       add_categories_related_pages(site, product_pages)
       add_tags_related_pages(site, product_pages)
+      add_identifiers_related_pages(site, product_pages)
 
       Jekyll.logger.info TOPIC, "Done in #{(Time.now - start).round(3)} seconds."
     end
@@ -159,6 +162,42 @@ module ApiV1
       data = tags.map { |tag| { name: tag, uri: "#{ApiV1.api_url(site, "/tags/#{tag}")}" }}
       meta = { total: tags.size() }
       site.pages << JsonPage.of_raw_data(site, '/tags/', data, meta)
+    end
+
+    def add_identifiers_related_pages(site, products)
+      identifiers_by_type = identifiers_by_type(site, products)
+
+      add_all_identifier_types_page(site, identifiers_by_type.keys)
+      identifiers_by_type.each do |identifier_kind, identifiers|
+        add_identifiers_for_type_page(site, identifier_kind, identifiers)
+      end
+    end
+
+    def identifiers_by_type(site, products)
+      identifiers_by_type = {}
+      products.each do |product|
+        product.data['identifiers'].each do |identifier|
+          add_to_map(identifiers_by_type, identifier.keys.first, {
+            identifier: identifier.values.first,
+            product: {
+              name: product.data['id'],
+              uri: ApiV1.api_url(site, "/products/#{product.data['id']}")
+            }
+          })
+        end
+      end
+      identifiers_by_type
+    end
+
+    def add_all_identifier_types_page(site, types)
+      data = types.map { |type| { name: type, uri: "#{ApiV1.api_url(site, "/identifiers/#{type}/")}" }}
+      meta = { total: types.size() }
+      site.pages << JsonPage.of_raw_data(site, '/identifiers/', data, meta)
+    end
+
+    def add_identifiers_for_type_page(site, type, identifiers)
+      meta = { total: identifiers.length }
+      site.pages << JsonPage.of_raw_data(site, "/identifiers/#{type}", identifiers, meta)
     end
 
     def add_to_map(map, key, page)

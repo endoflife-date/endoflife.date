@@ -22,6 +22,13 @@ auto:
 
 # See https://www.zabbix.com/life_cycle_and_release_policy for EOAS/EOL dates.
 releases:
+-   releaseCycle: "7.4"
+    releaseDate: 2025-06-30
+    eoas: false # until 8.0 LTS
+    eol: 2026-09-30 # Q3 2026
+    latest: "7.4.0"
+    latestReleaseDate: 2025-06-30
+
 -   releaseCycle: "7.2"
     releaseDate: 2024-12-10
     eoas: 2025-06-30

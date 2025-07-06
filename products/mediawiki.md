@@ -28,18 +28,24 @@ auto:
         eol: "End-of-life"
 
 releases:
+-   releaseCycle: "1.44"
+    releaseDate: 2025-07-02
+    eol: 2026-06-30
+    latest: "1.44.0"
+    latestReleaseDate: 2025-07-02
+
 -   releaseCycle: "1.43"
     releaseDate: 2024-12-21
     lts: true
     eol: 2027-12-31
-    latest: "1.43.1"
-    latestReleaseDate: 2025-04-10
+    latest: "1.43.3"
+    latestReleaseDate: 2025-07-01
 
 -   releaseCycle: "1.42"
     releaseDate: 2024-06-27
     eol: 2025-06-30
-    latest: "1.42.6"
-    latestReleaseDate: 2025-04-10
+    latest: "1.42.7"
+    latestReleaseDate: 2025-06-30
 
 -   releaseCycle: "1.41"
     releaseDate: 2023-12-21
@@ -55,8 +61,8 @@ releases:
 
 -   releaseCycle: "1.39"
     eol: 2025-11-30
-    latest: "1.39.12"
-    latestReleaseDate: 2025-04-10
+    latest: "1.39.13"
+    latestReleaseDate: 2025-06-30
     releaseDate: 2022-11-30
     lts: true
 

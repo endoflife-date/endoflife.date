@@ -609,7 +609,7 @@ releases:
     releaseLabel: "Galaxy F13"
     releaseDate: 2022-06-29
     eoas: 2024-06-29
-    eol: 2025-06-29
+    eol: false
     link: https://doc.samsungmobile.com/SM-E135F/INS/doc.html
 
 -   releaseCycle: "galaxy-m53-5g"

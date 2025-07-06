@@ -10,7 +10,7 @@ openapi: 3.1.1
 info:
   title: endoflife API
   # This version must be kept in sync with the version in _plugins/generate-api-v1.rb.
-  version: "1.1.0"
+  version: "1.2.0"
   license:
     name: MIT License
     url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
@@ -49,6 +49,8 @@ tags:
     description: Query for products by category.
   - name: Tags
     description: Query for products by tags.
+  - name: Identifiers
+    description: Query for products by identifiers.
 
 paths:
   /:
@@ -311,6 +313,58 @@ paths:
           description: Resource not modified since last request.
         '404':
           description: The tag with the given name does not exist.
+        '429':
+          description: Too many requests, retry later.
+
+  /identifiers:
+    get:
+      operationId: identifier_types
+      tags:
+        - Identifiers
+      summary: List all identifier types
+      description: List all identifier types, such as a purl, known in endoflife.date.
+      responses:
+        '200':
+          description: The list of all identifier types.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UriListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '429':
+          description: Too many requests, retry later.
+
+  /identifiers/{identifier_type}:
+    get:
+      operationId: identifier_by_type
+      tags:
+        - Identifiers
+      summary: List all identifiers for a given type.
+      description: >
+        List all identifiers referenced on endoflife.date for the given identifier type.
+        Each identifier reference its related product.
+      parameters:
+        - name: identifier_type
+          in: path
+          description: Identifier type.
+          required: true
+          schema:
+            type: string
+            example: purl
+      responses:
+        '200':
+          description: The list of all identifiers for a given type, along with a reference to the related product.
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IdentifierListResponse'
+        '304':
+          description: Resource not modified since last request.
+        '404':
+          description: The identifier with the given name does not exist.
         '429':
           description: Too many requests, retry later.
 
@@ -881,3 +935,40 @@ components:
             - "2023-03-01T14:05:52+01:00"
         result:
           $ref: '#/components/schemas/ProductDetails'
+
+    IdentifierListResponse:
+      description: A response containing all identifiers for a given type.
+      type: object
+      required:
+        - schema_version
+        - total
+        - result
+      properties:
+        schema_version:
+          type: string
+          description: Version of this schema.
+          examples:
+            - 1.0.0
+        total:
+          description: Number of identifiers in the list.
+          type: integer
+          format: int32
+          examples:
+            - 3
+        result:
+          description: The identifiers.
+          type: array
+          items:
+            type: object
+            properties:
+              identifier:
+                type: string
+                description: The identifier.
+                examples:
+                - cpe:/o:canonical:ubuntu_linux
+              product:
+                $ref: '#/components/schemas/Uri'
+                description: Reference to the product this identifier is related to.
+            required:
+              - identifier
+              - product

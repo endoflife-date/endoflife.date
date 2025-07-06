@@ -12,6 +12,15 @@ identifiers:
 -   cpe: cpe:2.3:a:microsoft:exchange_server
 
 releases:
+-   releaseCycle: "subscription"
+    releaseLabel: "Subscription Edition"
+    releaseDate: 2025-07-01
+    eoas: false
+    eol: false
+    latest: "15.02.2562.017"
+    latestReleaseDate: 2025-07-01
+    link: https://support.microsoft.com/help/5047155
+
 -   releaseCycle: "2019"
     releaseLabel: "2019 CU15 HU2"
     releaseDate: 2018-10-22
