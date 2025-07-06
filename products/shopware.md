@@ -30,7 +30,7 @@ auto:
 # PHP support is documented on https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements.
 releases:
 -   releaseCycle: "6.7"
-    supportedPhpVersions: N/A
+    supportedPhpVersions: 8.2 - 8.4 # https://github.com/shopware/shopware/blob/v6.7.0.0/composer.json#L64
     releaseDate: 2025-06-17
     eoas: false
     eol: false # still listed on https://developer.shopware.com/release-notes/
