@@ -16,7 +16,7 @@ auto:
   methods:
   -   git: https://github.com/influxdata/influxdb
 
-# eol(x) = releaseDate(x+1)
+# eol(x) = releaseDate(x+2)
 releases:
 -   releaseCycle: "3.2"
     releaseDate: 2025-06-25
