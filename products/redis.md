@@ -42,22 +42,22 @@ releases:
     releaseDate: 2025-05-02
     eoas: false
     eol: false
-    latest: '8.0.2'
-    latestReleaseDate: 2025-05-27
+    latest: '8.0.3'
+    latestReleaseDate: 2025-07-06
 
 -   releaseCycle: "7.4"
     releaseDate: 2024-07-29
     eoas: false
     eol: 2026-11-30
-    latest: '7.4.4'
-    latestReleaseDate: 2025-05-27
+    latest: '7.4.5'
+    latestReleaseDate: 2025-07-06
 
 -   releaseCycle: "7.2"
     releaseDate: 2023-08-15
     eoas: 2024-07-29
     eol: 2026-02-28
-    latest: '7.2.9'
-    latestReleaseDate: 2025-05-27
+    latest: '7.2.10'
+    latestReleaseDate: 2025-07-06
 
 -   releaseCycle: "7.0"
     releaseDate: 2022-04-27
@@ -70,8 +70,8 @@ releases:
     releaseDate: 2021-02-22
     eoas: 2022-04-27
     eol: 2025-02-28
-    latest: '6.2.18'
-    latestReleaseDate: 2025-04-23
+    latest: '6.2.19'
+    latestReleaseDate: 2025-07-06
 
 -   releaseCycle: "6.0"
     releaseDate: 2020-04-30
