@@ -13,7 +13,7 @@ identifiers:
 -   cpe: cpe:2.3:a:adobe:coldfusion
 -   cpe: cpe:/a:adobe:coldfusion
 
-# Disabled, as the Adobe ColdFusion website is now protected by anti-bot measures.
+# Disabled: helpx.adobe.com time out when running from a GHA runner.
 #auto:
 #  methods:
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-10-updates.html
@@ -23,6 +23,15 @@ identifiers:
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2021-updates.html
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2023-updates.html
 #  -   coldfusion: https://helpx.adobe.com/coldfusion/kb/coldfusion-2025-updates.html
+#  -   declare: coldfusion
+#      versions: # .0 release dates are not available in the release notes
+#      -   { name: "10.0.0", date: 2012-05-15 } # https://en.wikipedia.org/wiki/Adobe_ColdFusion#Adobe_ColdFusion_10
+#      -   { name: "11.0.0", date: 2014-04-29 } # https://en.wikipedia.org/wiki/Adobe_ColdFusion#Adobe_ColdFusion_11
+#      -   { name: "2016.0.0", date: 2016-02-16 } # https://en.wikipedia.org/wiki/Adobe_ColdFusion#Adobe_ColdFusion_(2016_Release)
+#      -   { name: "2018.0.0", date: 2018-07-12 } # https://coldfusion.adobe.com/2018/07/new-coldfusion-release-adds-performance-monitoring-toolset-for-measuring-monitoring-and-managing-high-performing-web-apps/
+#      -   { name: "2021.0.0", date: 2020-11-11 } # https://community.adobe.com/t5/coldfusion-discussions/introducing-adobe-coldfusion-2021-release/m-p/11585468
+#      -   { name: "2023.0.0", date: 2022-05-16 } # https://coldfusion.adobe.com/2023/05/coldfusion2023-release/
+#      -   { name: "2025.0.0", date: 2025-02-25 } # https://community.adobe.com/t5/coldfusion-discussions/now-live-adobe-coldfusion-2025-release/td-p/15176421
 
 # When adding a cycle, remember to add its release note URL in
 # https://github.com/endoflife-date/release-data/blob/main/src/coldfusion.py
