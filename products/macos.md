@@ -17,7 +17,7 @@ identifiers:
 
 auto:
   methods:
-  -   apple: ios
+  -   apple: macos
       regex:
       -   '^macOS[\D]+(?P<version>\d+(?:\.\d+)*)'
       -   'OS\s+X\s[\w\s]+\sv?(?P<version>\d+(?:\.\d+)+)'
