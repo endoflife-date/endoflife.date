@@ -16,9 +16,19 @@ auto:
   methods:
   -   google-kubernetes-engine: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
 
-# eol: As per https://cloud.google.com/kubernetes-engine/docs/release-schedule
+# As per https://cloud.google.com/kubernetes-engine/docs/release-schedule:
+# - releaseDate is the availability date of the of the Regular release channel,
+# - eol is the End of standard support .
+#
 # eoas:last-date-in-month(eol - 2months)
 releases:
+-   releaseCycle: "1.33"
+    releaseDate: 2025-06-03
+    eoas: 2026-06-30
+    eol: 2026-08-03
+    latest: '1.33.2-gke.1111000'
+    latestReleaseDate: 2025-07-02
+
 -   releaseCycle: "1.32"
     releaseDate: 2025-02-11
     eoas: 2026-02-28
