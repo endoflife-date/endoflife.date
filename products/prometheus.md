@@ -35,7 +35,7 @@ auto:
 releases:
 -   releaseCycle: "3.4"
     releaseDate: 2025-05-17
-    eol: 2025-07-05
+    eol: 2025-06-28
     latest: "3.4.2"
     latestReleaseDate: 2025-06-26
 
