@@ -12,6 +12,11 @@ eolColumn: Deprecated Support
 auto:
   methods:
   -   aws-lambda: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
+  -   declare: aws-lambda
+      versions:
+      # there is a mistake on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html:
+      # block function update date cannot be before the deprecation date
+      -   { name: "nodejs4.3-edge", date: 2020-04-30 }
 
 # The custom script will only detect new releases and update support and eol dates based on dates found on https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html.
 # The release dates must be retrieved from announcement blog posts on https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/.
