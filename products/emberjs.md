@@ -55,7 +55,6 @@ releases:
     latestReleaseDate: 2025-04-28
     link: https://blog.emberjs.com/ember-released-6-4/
 
-    lts: 2025-06-09
 -   releaseCycle: "6.3"
     releaseDate: 2025-03-17
     eoas: 2025-05-26
@@ -191,32 +190,32 @@ releases:
     latestReleaseDate: 2024-01-22
 
 -   releaseCycle: "4.8"
-    lts: 2022-12-08
     releaseDate: 2022-10-17
+    lts: 2022-12-08
     eoas: 2023-07-06
     eol: 2023-12-21
     latest: "4.8.6"
     latestReleaseDate: 2023-06-12
 
 -   releaseCycle: "4.4"
-    lts: 2022-07-13
     releaseDate: 2022-05-03
+    lts: 2022-07-13
     eoas: 2023-02-08
     eol: 2023-07-26
     latest: "4.4.5"
     latestReleaseDate: 2023-05-04
 
 -   releaseCycle: "3.28"
-    lts: 2021-12-20
     releaseDate: 2021-08-10
+    lts: 2021-12-20
     eoas: 2022-07-18
     eol: 2023-01-02
     latest: "3.28.12"
     latestReleaseDate: 2023-05-04
 
 -   releaseCycle: "3.24"
-    lts: 2021-02-25
     releaseDate: 2020-12-28
+    lts: 2021-02-25
     eoas: 2021-09-23
     eol: 2022-03-10
     latest: "3.24.7"
