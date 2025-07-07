@@ -181,7 +181,7 @@ releases:
 -   releaseCycle: "115"
     lts: true
     releaseDate: 2023-07-04
-    eol: 2024-10-01 # estimated release day for 131 on https://whattrainisitnow.com/calendar/
+    eol: 2025-09-16 # extended becuase of support of Windows 7-8.1 and macOS 10.12-10.14 up to September 2025
     latest: "115.23.0"
     latestReleaseDate: 2025-04-29
 
