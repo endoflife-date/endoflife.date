@@ -27,8 +27,8 @@ releases:
 -   releaseCycle: "11.0"
     releaseDate: 2025-04-29
     eol: 2027-04-30 # not yet listed on https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
-    latest: "11.0.2"
-    latestReleaseDate: 2025-06-06
+    latest: "11.0.3"
+    latestReleaseDate: 2025-07-07
 
 -   releaseCycle: "10.2"
     lts: true
@@ -53,8 +53,8 @@ releases:
     lts: true
     releaseDate: 2024-03-13
     eol: 2026-03-14
-    latest: "9.6.14"
-    latestReleaseDate: 2025-06-04
+    latest: "9.6.15"
+    latestReleaseDate: 2025-07-07
 
 -   releaseCycle: "9.5"
     releaseDate: 2024-01-22
