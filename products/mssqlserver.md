@@ -116,7 +116,7 @@ releases:
     latestGdr: "14.0.2075.8"
     latestGdrLink: https://support.microsoft.com/help/5058716
     latest: "14.0.3495.9 CU31+GDR"
-    latestReleaseDate: 2025-03-06
+    latestReleaseDate: 2025-07-08
     # CU31 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/cumulativeupdate31
     # Azure Connect Pack link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/azureconnect
     link: https://support.microsoft.com/help/5058714 # GDR for CU31
