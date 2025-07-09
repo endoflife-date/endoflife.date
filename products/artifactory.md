@@ -15,10 +15,10 @@ identifiers:
 auto:
   methods:
   -   artifactory: https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life
-  -   declare:
-        versions:
-          # release date is wrong on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
-          -   { name: "7.71.23", date: 2024-08-05 }
+  -   declare: artifactory
+      versions:
+      # release date is wrong on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
+      -   { name: "7.71.23", date: 2024-08-05 }
 
 # EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
