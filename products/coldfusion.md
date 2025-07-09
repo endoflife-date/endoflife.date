@@ -38,7 +38,7 @@ identifiers:
 # to benefit from auto-updates.
 releases:
 -   releaseCycle: "2025"
-    releaseDate: 2025-04-08
+    releaseDate: 2025-02-25
     eol: 2030-04-08
     eoes: 2031-04-08
     latest: "2025.0.03.331507"
