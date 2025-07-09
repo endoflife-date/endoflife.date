@@ -190,7 +190,7 @@ releases:
     releaseLabel: "Galaxy Tab S7 FE"
     releaseDate: 2021-05-27 # https://news.samsung.com/global/introducing-the-newest-members-of-the-samsung-galaxy-tab-portfolio-galaxy-tab-s7-fe-and-galaxy-tab-a7-lite
     eoas: 2024-05-27 # https://androidspotlight.com/software-update-policy-for-every-samsung-device/
-    eol: false
+    eol: 2025-07-08
     link: https://doc.samsungmobile.com/SM-T730/KOO/doc.html
 
 -   releaseCycle: "galaxy-tab-active3"
