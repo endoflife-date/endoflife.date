@@ -833,7 +833,7 @@ releases:
     releaseLabel: "Galaxy A22 5G"
     releaseDate: 2021-06-24
     eoas: 2023-06-24
-    eol: false
+    eol: 2025-07-08
     link: https://doc.samsungmobile.com/SM-A226B/XEH/doc.html
 
 -   releaseCycle: "galaxy-a22"
@@ -847,7 +847,7 @@ releases:
     releaseLabel: "Galaxy F52 5G"
     releaseDate: 2021-06-01
     eoas: false
-    eol: false
+    eol: 2025-07-08
     link: https://doc.samsungmobile.com/SM-E5260/CHC/doc.html
 
 -   releaseCycle: "galaxy-a82-5g"
