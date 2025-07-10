@@ -60,15 +60,15 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2024-11-12
     eol: 2026-05-12
-    latest: "9.0.6"
-    latestReleaseDate: 2025-06-10
+    latest: "9.0.7"
+    latestReleaseDate: 2025-07-08
 
 -   releaseCycle: "8"
     releaseDate: 2023-11-14
     lts: true
     eol: 2026-11-10
-    latest: "8.0.17"
-    latestReleaseDate: 2025-06-10
+    latest: "8.0.18"
+    latestReleaseDate: 2025-07-08
 
 -   releaseCycle: "7"
     releaseDate: 2022-11-08
