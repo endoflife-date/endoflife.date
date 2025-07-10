@@ -18,39 +18,39 @@ auto:
   -   declare: artifactory
       versions:
       # release date is wrong on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
-      -   { name: "7.71.23", date: 2024-08-05 }
+      -   {name: "7.71.23", date: 2024-08-05}
 
 # EOL documented on https://jfrog.com/help/r/jfrog-release-information/artifactory-end-of-life.
 releases:
 -   releaseCycle: "7.98"
     releaseDate: 2024-10-29
     eol: 2026-04-29
-    latest: "7.98.14"
-    latestReleaseDate: 2025-01-21
+    latest: "7.98.19"
+    latestReleaseDate: 2025-05-12
 
 -   releaseCycle: "7.90"
     releaseDate: 2024-07-25
     eol: 2026-01-25
-    latest: "7.90.17"
-    latestReleaseDate: 2024-11-25
+    latest: "7.90.19"
+    latestReleaseDate: 2025-03-27
 
 -   releaseCycle: "7.84"
     releaseDate: 2024-05-12
     eol: 2025-11-12
-    latest: "7.84.21"
-    latestReleaseDate: 2024-08-26
+    latest: "7.84.23"
+    latestReleaseDate: 2025-02-02
 
 -   releaseCycle: "7.77"
     releaseDate: 2024-01-24
     eol: 2025-07-24
-    latest: "7.77.16"
-    latestReleaseDate: 2024-11-13
+    latest: "7.77.17"
+    latestReleaseDate: 2025-02-02
 
 -   releaseCycle: "7.71"
     releaseDate: 2023-10-24
     eol: 2025-03-24
-    latest: "7.71.22"
-    latestReleaseDate: 2024-05-07
+    latest: "7.71.25"
+    latestReleaseDate: 2025-02-02
 
 -   releaseCycle: "7.68"
     releaseDate: 2023-09-11
