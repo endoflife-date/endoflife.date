@@ -80,6 +80,6 @@ You can also see a full list of modified packages for each version of AlmaLinux 
 
 ### Support
 
-The AlmaLinux community provides support for itself in the various places that the community gathers. Commercial and extended support is available through third party companies. AlmaLinux provides a list of those companies who have also sponsored the project on the website's front page.
+The AlmaLinux community provides support for itself in the various places that the community gathers. Commercial and extended support is available through third-party companies such as [TuxCare](https://tuxcare.com/almalinux-enterprise-support/) and [Cybertrust](https://www.cybertrust.co.jp/almalinux/). AlmaLinux provides a list of those companies who have also sponsored the project on the website’s front page.
 
 *[RHEL]: Red Hat Enterprise Linux
