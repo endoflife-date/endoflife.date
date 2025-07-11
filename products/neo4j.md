@@ -77,8 +77,8 @@ releases:
     releaseDate: 2024-12-06
     eol: false # releaseDate(5.27)
     lts: true
-    latest: "5.26.8"
-    latestReleaseDate: 2025-06-08
+    latest: "5.26.9"
+    latestReleaseDate: 2025-07-10
     link: https://neo4j.com/release-notes/database/neo4j-5/
 
 -   releaseCycle: "5.25"
