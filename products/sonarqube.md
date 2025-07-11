@@ -20,10 +20,19 @@ auto:
       regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
--   releaseCycle: "10"
-    releaseDate: 2023-03-30
+-   releaseCycle: "2025"
+    releaseDate: 2025-01-07
     eoas: false
     eol: false
+    lts: 2025-01-07
+    latest: "2025.3.1"
+    latestReleaseDate: 2025-05-01
+    link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-server-2025-1-lta-whats-new/
+    
+-   releaseCycle: "10"
+    releaseDate: 2023-03-30
+    eoas: 2025-01-01
+    eol: 2025-07-01
     latest: "10.7.0"
     latestReleaseDate: 2024-09-30
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
@@ -31,7 +40,7 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2021-07-05
     eoas: 2023-03-30
-    eol: false
+    eol: 2025-07-01
     lts: 2023-02-07
     latest: "9.9.8"
     latestReleaseDate: 2024-11-25
