@@ -12,10 +12,6 @@ eoasColumn: true
 identifiers:
 -   repology: chef-workstation
 
-auto:
-  methods:
-  -   chef-workstation: https://docs.chef.io/release_notes_workstation/
-
 releases:
 -   releaseCycle: "2025"
     releaseDate: 2025-02-05
