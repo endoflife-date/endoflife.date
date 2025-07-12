@@ -47,9 +47,10 @@ releases:
     releaseDate: 2021-05-25
     eoas: 2025-10-14
     eol: 2030-10-08
-    latest: "2020.1.2patch16"
-    latestReleaseDate: 2025-04-08
-    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-16-release-date-april-8-2025
+    latest: "2020.1.2patch17"
+    latestReleaseDate: 2025-07-09
+    link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2020u1#azure-devops-server-2020-update-12-patch-17-release-date-july-9-2025
+
 -   releaseCycle: "2020.0"
     releaseLabel: "2020"
     releaseDate: 2020-08-25
