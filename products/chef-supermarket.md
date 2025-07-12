@@ -39,6 +39,7 @@ releases:
 
 ---
 
-> [Chef Workstation](https://docs.chef.io/workstation/) gives you everything you need to get started with Chef -
-> ad hoc remote execution, remote scanning, configuration tasks, cookbook creation tools as well as robust
-> dependency and testing software - all in one easy-to-install package.
+> [Chef Supermarket](https://docs.chef.io/supermarket/) is a self-hosted artifact store that lets you store,
+> manage, and share your own cookbooks, tools, and other Chef artifacts internally within your organization.
+> It allows sourcing both internal and community cookbooks during Policyfile and Berkshelf depsolving without
+> reliance on the Public Chef Supermarket site.
