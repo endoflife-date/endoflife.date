@@ -373,7 +373,7 @@ module EndOfLifeHooks
     end
 
     def is_url_invalid(property)
-      # strip is necessary because changelogTemplate is sometime reformatted on two lines by latest.py
+      # strip is necessary because changelogTemplate is sometime reformatted on two lines by update-product-data.py
       url = @data[property].strip
       check_url(url)
     rescue => e
