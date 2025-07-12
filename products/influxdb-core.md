@@ -48,14 +48,12 @@ releases:
 > It includes APIs for storing and querying data, processing it in the background for ETL or
 > monitoring and alerting purposes, user dashboards, and visualizing the data.
 
-As of InfluxDB OSS 3.0, InfluxDB OSS became known as InfluxDB 3 Core.
-
-InfluxDB 3 follows an open-core model.
+Starting from the release of InfluxDB OSS 3, the product became known as InfluxDB 3 Core and
+follows an open-core model.
 
 There is no documented support policy for InfluxDB 3 Core however, as indicated
 [in the release notes](https://docs.influxdata.com/influxdb3/core/release-notes/), InfluxDB 3
-Enterprise is a superset of Core, meaning that Core will follow the same release policy as
-InfluxDB 3 Enterprise.
+Enterprise is a superset of Core, so it's expected that Core will follow the same release policy.
 
 InfluxDB commercial support is available from InfluxData, which might also extend to
 [InfluxDB 1](https://github.com/influxdata/influxdb/issues/25045). Influxdata's [commercial support
