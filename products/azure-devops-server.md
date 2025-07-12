@@ -1,5 +1,6 @@
 ---
 title: Azure DevOps Server
+addedAt: 2022-03-21
 category: server-app
 tags: microsoft
 permalink: /azure-devops-server
@@ -23,7 +24,7 @@ releases:
     latest: "2022.2patch6"
     latestReleaseDate: 2025-06-10
     link: https://learn.microsoft.com/azure/devops/server/release-notes/azuredevops2022u2#azure-devops-server-2022-update-2-patch-6-release-date-june-10-2025
-    
+
 -   releaseCycle: "2022.1"
     releaseLabel: "2022 Update 1"
     releaseDate: 2023-11-28

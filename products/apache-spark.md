@@ -1,5 +1,6 @@
 ---
 title: Apache Spark
+addedAt: 2023-09-24
 category: server-app # not sure if this is the best category
 tags: apache java-runtime
 iconSlug: apachespark

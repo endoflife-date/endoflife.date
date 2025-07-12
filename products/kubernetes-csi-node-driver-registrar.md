@@ -1,5 +1,6 @@
 ---
 title: Kubernetes CSI Node Driver Registrar
+addedAt: 2024-04-15
 category: server-app
 tags: kubernetes
 permalink: /kubernetes-csi-node-driver-registrar

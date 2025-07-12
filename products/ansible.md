@@ -1,5 +1,6 @@
 ---
 title: Ansible
+addedAt: 2021-08-15
 category: app
 tags: python-runtime red-hat
 iconSlug: ansible

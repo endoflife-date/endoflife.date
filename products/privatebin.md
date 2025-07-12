@@ -1,5 +1,6 @@
 ---
 title: PrivateBin
+addedAt: 2024-07-27
 category: server-app
 permalink: /privatebin
 releasePolicyLink: https://github.com/PrivateBin/PrivateBin?tab=security-ov-file#readme

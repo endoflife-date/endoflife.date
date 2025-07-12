@@ -1,5 +1,6 @@
 ---
 title: Red Hat JBoss Enterprise Application Platform
+addedAt: 2023-11-08
 category: server-app
 tags: red-hat java-runtime
 iconSlug: redhat

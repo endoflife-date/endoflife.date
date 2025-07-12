@@ -1,5 +1,6 @@
 ---
 title: Memcached
+addedAt: 2023-12-26
 category: database
 permalink: /memcached
 versionCommand: memcached -h

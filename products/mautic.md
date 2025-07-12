@@ -1,5 +1,6 @@
 ---
 title: Mautic
+addedAt: 2024-07-27
 category: server-app
 tags: php-runtime
 iconSlug: mautic

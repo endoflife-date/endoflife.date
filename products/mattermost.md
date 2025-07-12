@@ -1,5 +1,6 @@
 ---
 title: Mattermost
+addedAt: 2022-10-22
 category: server-app
 iconSlug: mattermost
 permalink: /mattermost

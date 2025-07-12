@@ -1,5 +1,6 @@
 ---
 title: Oracle Solaris
+addedAt: 2023-10-24
 category: os
 tags: oracle unix-distribution
 iconSlug: oracle

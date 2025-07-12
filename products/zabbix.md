@@ -1,5 +1,6 @@
 ---
 title: Zabbix
+addedAt: 2022-04-19
 category: server-app
 tags: php-runtime
 permalink: /zabbix

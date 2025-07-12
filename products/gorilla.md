@@ -1,5 +1,6 @@
 ---
 title: Gorilla Toolkit
+addedAt: 2022-12-15
 category: framework
 iconSlug: go
 permalink: /gorilla

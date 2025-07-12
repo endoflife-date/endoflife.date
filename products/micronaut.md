@@ -1,5 +1,6 @@
 ---
 title: Micronaut Framework
+addedAt: 2022-11-30
 category: framework
 tags: java-runtime
 permalink: /micronaut

@@ -1,5 +1,6 @@
 ---
 title: Laravel
+addedAt: 2019-05-27
 category: framework
 tags: php-runtime
 iconSlug: laravel

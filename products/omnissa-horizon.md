@@ -1,5 +1,6 @@
 ---
 title: Omnissa Horizon
+addedAt: 2021-12-16
 category: app
 permalink: /horizon
 alternate_urls:

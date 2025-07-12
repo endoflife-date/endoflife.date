@@ -1,5 +1,6 @@
 ---
 title: Veeam Backup for Microsoft 365
+addedAt: 2025-04-27
 category: app
 tags: veeam
 iconSlug: veeam

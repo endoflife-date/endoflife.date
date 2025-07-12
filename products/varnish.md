@@ -1,5 +1,6 @@
 ---
 title: Varnish
+addedAt: 2022-07-05
 category: server-app
 tags: web-server
 permalink: /varnish

@@ -1,5 +1,6 @@
 ---
 title: Google Container-Optimized OS (COS)
+addedAt: 2022-11-14
 category: os
 tags: google
 iconSlug: googlecloud

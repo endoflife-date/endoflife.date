@@ -1,5 +1,6 @@
 ---
 title: SteamOS
+addedAt: 2024-03-21
 category: os
 tags: linux-distribution
 iconSlug: steam

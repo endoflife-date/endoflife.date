@@ -1,5 +1,6 @@
 ---
 title: Wireshark
+addedAt: 2024-07-24
 category: app
 iconSlug: wireshark
 permalink: /wireshark

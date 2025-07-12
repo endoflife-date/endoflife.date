@@ -1,5 +1,6 @@
 ---
 title: Amazon Corretto
+addedAt: 2023-02-09
 category: lang
 tags: amazon java-distribution
 iconSlug: openjdk

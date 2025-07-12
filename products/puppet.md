@@ -1,5 +1,6 @@
 ---
 title: Puppet
+addedAt: 2023-07-09
 category: server-app
 iconSlug: puppet
 permalink: /puppet

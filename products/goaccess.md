@@ -1,5 +1,6 @@
 ---
 title: GoAccess
+addedAt: 2024-03-11
 category: app
 permalink: /goaccess
 versionCommand: goaccess --version

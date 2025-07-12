@@ -1,5 +1,6 @@
 ---
 title: Ruby
+addedAt: 2019-05-28
 category: lang
 iconSlug: ruby
 permalink: /ruby

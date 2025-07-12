@@ -1,5 +1,6 @@
 ---
 title: Microsoft Windows Server Core
+addedAt: 2024-06-28
 category: os
 tags: microsoft windows
 iconSlug: windows

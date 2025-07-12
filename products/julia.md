@@ -1,5 +1,6 @@
 ---
 title: Julia
+addedAt: 2025-01-30
 category: lang
 iconSlug: julia
 permalink: /julia

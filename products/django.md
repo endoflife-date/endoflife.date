@@ -1,5 +1,6 @@
 ---
 title: Django
+addedAt: 2019-05-29
 category: framework
 tags: python-runtime
 iconSlug: django

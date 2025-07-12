@@ -115,7 +115,7 @@ include:
 
 exclude:
   - .idea
-  - _auto
+  - bin
   - CODE-OF-CONDUCT.md
   - Gemfile
   - Gemfile.lock

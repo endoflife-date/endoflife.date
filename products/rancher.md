@@ -1,5 +1,6 @@
 ---
 title: Rancher
+addedAt: 2023-11-28
 category: server-app
 tags: suse
 iconSlug: rancher

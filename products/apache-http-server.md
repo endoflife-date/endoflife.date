@@ -1,5 +1,6 @@
 ---
 title: Apache HTTP Server
+addedAt: 2022-01-05
 category: server-app
 tags: apache web-server
 iconSlug: apache

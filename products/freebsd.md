@@ -1,5 +1,6 @@
 ---
 title: FreeBSD
+addedAt: 2019-06-19
 category: os
 tags: bsd-distribution unix-distribution
 iconSlug: freebsd

@@ -27,6 +27,15 @@ Here are some of our most popular pages:
 | Cloud Services        | [Amazon Elastic Kubernetes Service](/amazon-eks) | [Google Kubernetes Engine](/google-kubernetes-engine) | [Azure Kubernetes Service](/azure-kubernetes-service) | [Alibaba ACK](/alibaba-ack)       |
 | Standards             | [PCI-DSS](/pci-dss) |
 
+## Last added products
+
+<ul>
+{% assign products = site.pages | where: "layout", "product" | sort: "addedAt" | reverse %}
+{% for product in products limit:5 %}
+<li><a href="{{ product.url }}">{{ product.title }}</a> ({{ product.addedAt | date_to_long_string }})</li>
+{% endfor %}
+</ul>
+
 ## Contributing
 
 Want to contribute? Great! We try to make it easy, and all contributions, even the smaller ones, are

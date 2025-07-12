@@ -1,5 +1,6 @@
 ---
 title: LineageOS
+addedAt: 2022-02-02
 category: os
 iconSlug: lineageos
 permalink: /lineageos

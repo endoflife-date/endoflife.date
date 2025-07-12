@@ -1,5 +1,6 @@
 ---
 title: Valkey
+addedAt: 2025-01-14
 category: database
 permalink: /valkey
 versionCommand: valkey-server --version

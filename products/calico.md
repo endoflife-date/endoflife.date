@@ -1,5 +1,6 @@
 ---
 title: Calico
+addedAt: 2024-07-13
 category: server-app
 permalink: /calico
 changelogTemplate: https://github.com/projectcalico/calico/releases/tag/v__LATEST__

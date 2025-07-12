@@ -1,5 +1,6 @@
 ---
 title: Citrix Virtual Apps and Desktops
+addedAt: 2021-12-16
 category: app
 tags: citrix
 iconSlug: citrix

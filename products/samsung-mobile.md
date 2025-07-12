@@ -1,5 +1,6 @@
 ---
 title: Samsung Mobile
+addedAt: 2021-10-01
 category: device
 tags: mobile-phone
 iconSlug: samsung

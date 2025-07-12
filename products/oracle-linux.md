@@ -1,5 +1,6 @@
 ---
 title: Oracle Linux
+addedAt: 2022-06-19
 category: os
 tags: linux-distribution oracle
 iconSlug: oracle

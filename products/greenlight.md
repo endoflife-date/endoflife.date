@@ -1,5 +1,6 @@
 ---
 title: Greenlight
+addedAt: 2025-03-01
 category: server-app
 iconSlug: bigbluebutton
 permalink: /greenlight

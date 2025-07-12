@@ -1,5 +1,6 @@
 ---
 title: Jira Software
+addedAt: 2022-12-20
 category: server-app
 tags: atlassian java-runtime
 iconSlug: jirasoftware

@@ -1,5 +1,6 @@
 ---
 title: Looker
+addedAt: 2021-12-15
 category: server-app
 tags: google
 iconSlug: looker

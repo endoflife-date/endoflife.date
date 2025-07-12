@@ -1,5 +1,6 @@
 ---
 title: SQLite
+addedAt: 2023-02-14
 category: database
 iconSlug: sqlite
 permalink: /sqlite

@@ -1,5 +1,6 @@
 ---
 title: JHipster
+addedAt: 2022-12-09
 category: app
 tags: java-runtime javascript-runtime
 iconSlug: jhipster

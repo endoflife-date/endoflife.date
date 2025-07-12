@@ -1,5 +1,6 @@
 ---
 title: NumPy
+addedAt: 2022-10-17
 category: framework
 tags: python-runtime
 iconSlug: numpy

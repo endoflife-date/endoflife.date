@@ -1,5 +1,6 @@
 ---
 title: Graylog
+addedAt: 2023-08-05
 category: server-app
 tags: java-runtime
 iconSlug: graylog

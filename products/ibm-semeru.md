@@ -1,5 +1,6 @@
 ---
 title: IBM Semeru Runtime
+addedAt: 2023-06-25
 category: lang
 tags: ibm java-distribution
 iconSlug: openjdk

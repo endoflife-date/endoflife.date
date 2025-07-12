@@ -1,5 +1,6 @@
 ---
 title: Meilisearch
+addedAt: 2024-01-14
 category: server-app
 tags: meilisearch
 iconSlug: meilisearch

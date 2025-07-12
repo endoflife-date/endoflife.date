@@ -1,5 +1,6 @@
 ---
 title: pnpm
+addedAt: 2024-07-23
 category: app
 tags: build-tool javascript-runtime
 iconSlug: pnpm

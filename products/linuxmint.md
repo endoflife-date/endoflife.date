@@ -1,5 +1,6 @@
 ---
 title: Linux Mint
+addedAt: 2021-10-07
 category: os
 tags: linux-distribution
 iconSlug: linuxmint

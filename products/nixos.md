@@ -1,5 +1,6 @@
 ---
 title: NixOS
+addedAt: 2022-03-29
 category: os
 tags: linux-distribution
 iconSlug: nixos

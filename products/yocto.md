@@ -1,5 +1,6 @@
 ---
 title: Yocto Project
+addedAt: 2021-10-18
 category: os
 tags: linux-distribution
 permalink: /yocto

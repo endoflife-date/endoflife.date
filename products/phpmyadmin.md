@@ -1,5 +1,6 @@
 ---
 title: phpMyAdmin
+addedAt: 2022-12-28
 category: server-app
 tags: php-runtime
 iconSlug: phpmyadmin

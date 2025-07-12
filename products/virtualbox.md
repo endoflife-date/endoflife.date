@@ -1,5 +1,6 @@
 ---
 title: VirtualBox
+addedAt: 2025-02-08
 category: app
 tags: oracle
 iconSlug: virtualbox

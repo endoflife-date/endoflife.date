@@ -1,5 +1,6 @@
 ---
 title: CockroachDB
+addedAt: 2024-03-10
 category: database
 iconSlug: cockroachlabs
 permalink: /cockroachdb

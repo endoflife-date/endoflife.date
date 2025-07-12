@@ -1,5 +1,6 @@
 ---
 title: Squid
+addedAt: 2023-06-09
 category: server-app
 permalink: /squid
 alternate_urls:

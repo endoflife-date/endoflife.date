@@ -1,5 +1,6 @@
 ---
 title: React Native
+addedAt: 2024-07-19
 category: framework
 tags: meta javascript-runtime
 iconSlug: react

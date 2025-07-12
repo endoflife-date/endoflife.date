@@ -1,5 +1,6 @@
 ---
 title: Devuan
+addedAt: 2022-10-29
 category: os
 tags: linux-distribution
 permalink: /devuan

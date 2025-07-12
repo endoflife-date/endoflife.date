@@ -1,5 +1,6 @@
 ---
 title: Red Hat build of OpenJDK
+addedAt: 2023-07-13
 category: lang
 tags: java-distribution red-hat
 iconSlug: openjdk

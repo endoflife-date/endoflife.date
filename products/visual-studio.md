@@ -1,5 +1,6 @@
 ---
 title: Microsoft Visual Studio
+addedAt: 2021-08-02
 category: app
 tags: microsoft
 permalink: /visual-studio

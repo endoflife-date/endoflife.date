@@ -1,5 +1,6 @@
 ---
 title: Eclipse Jetty
+addedAt: 2023-12-26
 category: server-app
 tags: eclipse java-runtime web-server
 iconSlug: eclipsejetty

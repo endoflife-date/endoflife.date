@@ -1,5 +1,6 @@
 ---
 title: Apache Subversion
+addedAt: 2024-08-09
 category: server-app
 iconSlug: subversion
 permalink: /apache-subversion

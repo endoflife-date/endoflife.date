@@ -1,5 +1,6 @@
 ---
 title: Plesk
+addedAt: 2023-02-22
 category: server-app
 tags: php-runtime
 iconSlug: plesk

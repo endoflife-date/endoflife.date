@@ -1,5 +1,6 @@
 ---
 title: Hashicorp Vault
+addedAt: 2022-07-22
 category: server-app
 tags: hashicorp
 iconSlug: vault

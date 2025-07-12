@@ -1,5 +1,6 @@
 ---
 title: jQuery UI
+addedAt: 2024-08-21
 category: framework
 tags: javascript-runtime
 permalink: /jquery-ui

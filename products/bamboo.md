@@ -1,5 +1,6 @@
 ---
 title: Bamboo
+addedAt: 2025-03-25
 category: server-app
 tags: atlassian java-runtime
 iconSlug: bamboo

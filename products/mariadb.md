@@ -1,5 +1,6 @@
 ---
 title: MariaDB
+addedAt: 2019-05-29
 category: database
 iconSlug: mariadb
 permalink: /mariadb

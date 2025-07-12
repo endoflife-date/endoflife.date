@@ -1,5 +1,6 @@
 ---
 title: TYPO3
+addedAt: 2022-09-09
 category: server-app
 tags: php-runtime
 iconSlug: typo3

@@ -1,5 +1,6 @@
 ---
 title: Icinga Web
+addedAt: 2024-03-05
 category: server-app
 tags: php-runtime
 iconSlug: icinga

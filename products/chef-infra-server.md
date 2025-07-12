@@ -1,5 +1,6 @@
 ---
 title: Chef Infra Server
+addedAt: 2024-03-11
 category: server-app
 tags: erlang-runtime ruby-runtime
 iconSlug: chef

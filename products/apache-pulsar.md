@@ -1,5 +1,6 @@
 ---
 title: Apache Pulsar
+addedAt: 2025-03-08
 category: server-app
 tags: apache java-runtime
 iconSlug: apachepulsar

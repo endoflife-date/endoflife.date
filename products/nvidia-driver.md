@@ -1,5 +1,6 @@
 ---
 title: NVIDIA Driver
+addedAt: 2021-09-02
 category: app
 tags: nvidia
 iconSlug: nvidia

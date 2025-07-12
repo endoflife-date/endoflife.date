@@ -1,5 +1,6 @@
 ---
 title: HAProxy
+addedAt: 2021-12-19
 category: server-app
 tags: web-server
 permalink: /haproxy

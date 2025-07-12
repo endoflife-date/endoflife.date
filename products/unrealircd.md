@@ -1,5 +1,6 @@
 ---
 title: UnrealIRCd
+addedAt: 2022-05-03
 category: server-app
 permalink: /unrealircd
 versionCommand: ./unrealircd version

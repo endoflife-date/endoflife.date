@@ -1,5 +1,6 @@
 ---
 title: Azul Zulu
+addedAt: 2023-03-11
 category: lang
 tags: azul java-distribution
 iconSlug: openjdk

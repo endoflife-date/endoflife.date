@@ -1,5 +1,6 @@
 ---
 title: Font Awesome
+addedAt: 2025-07-06
 category: framework
 iconSlug: fontawesome
 permalink: /font-awesome

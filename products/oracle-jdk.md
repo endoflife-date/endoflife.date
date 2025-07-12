@@ -1,5 +1,6 @@
 ---
 title: Oracle JDK
+addedAt: 2019-05-28
 category: lang
 tags: java-distribution oracle
 iconSlug: oracle

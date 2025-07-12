@@ -1,5 +1,6 @@
 ---
 title: XCP-ng
+addedAt: 2023-02-08
 category: os
 permalink: /xcp-ng
 alternate_urls:

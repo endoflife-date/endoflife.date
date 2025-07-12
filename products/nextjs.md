@@ -1,5 +1,6 @@
 ---
 title: Next.js
+addedAt: 2023-08-27
 category: framework
 tags: javascript-runtime vercel
 iconSlug: nextdotjs

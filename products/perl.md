@@ -1,5 +1,6 @@
 ---
 title: Perl
+addedAt: 2020-11-20
 category: lang
 iconSlug: perl
 permalink: /perl

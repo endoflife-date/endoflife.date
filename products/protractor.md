@@ -1,5 +1,6 @@
 ---
 title: Protractor
+addedAt: 2023-09-25
 category: framework
 tags: google javascript-runtime herodevs
 iconSlug: protractor

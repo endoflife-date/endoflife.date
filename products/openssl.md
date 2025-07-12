@@ -1,5 +1,6 @@
 ---
 title: OpenSSL
+addedAt: 2022-05-10
 category: framework
 iconSlug: openssl
 permalink: /openssl

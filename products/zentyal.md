@@ -1,5 +1,6 @@
 ---
 title: Zentyal
+addedAt: 2024-08-15
 category: os
 tags: linux-distribution
 permalink: /zentyal

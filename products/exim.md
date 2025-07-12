@@ -1,5 +1,6 @@
 ---
 title: Exim
+addedAt: 2023-07-09
 category: server-app
 permalink: /exim
 releasePolicyLink: https://github.com/Exim/exim/wiki/EximReleasePolicy

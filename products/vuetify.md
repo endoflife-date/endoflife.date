@@ -1,5 +1,6 @@
 ---
 title: Vuetify
+addedAt: 2023-03-31
 category: framework
 tags: herodevs javascript-runtime
 iconSlug: vuetify

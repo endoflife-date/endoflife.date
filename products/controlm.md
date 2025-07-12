@@ -1,5 +1,6 @@
 ---
 title: Control-M
+addedAt: 2024-08-17
 category: server-app
 iconSlug: bmcsoftware
 permalink: /controlm

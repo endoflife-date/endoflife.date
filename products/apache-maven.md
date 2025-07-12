@@ -1,5 +1,6 @@
 ---
 title: Apache Maven
+addedAt: 2022-11-26
 category: app
 tags: apache build-tool java-runtime
 iconSlug: apachemaven

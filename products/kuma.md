@@ -1,5 +1,6 @@
 ---
 title: Kuma
+addedAt: 2024-08-02
 category: server-app
 tags: cncf
 iconSlug: kuma

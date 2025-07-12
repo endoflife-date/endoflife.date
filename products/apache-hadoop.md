@@ -1,5 +1,6 @@
 ---
 title: Apache Hadoop
+addedAt: 2023-09-24
 category: database
 tags: apache java-runtime
 iconSlug: apachehadoop

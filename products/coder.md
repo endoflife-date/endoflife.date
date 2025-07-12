@@ -1,5 +1,6 @@
 ---
 title: Coder
+addedAt: 2024-08-02
 category: server-app
 iconSlug: coder
 permalink: /coder

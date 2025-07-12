@@ -1,5 +1,6 @@
 ---
 title: Alibaba ACK
+addedAt: 2025-03-18
 category: service
 tags: alibaba managed-kubernetes
 iconSlug: alibabacloud

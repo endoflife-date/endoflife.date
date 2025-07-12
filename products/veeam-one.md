@@ -1,5 +1,6 @@
 ---
 title: Veeam ONE
+addedAt: 2025-04-13
 category: app
 tags: veeam
 iconSlug: veeam
