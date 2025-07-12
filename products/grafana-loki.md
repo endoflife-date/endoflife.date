@@ -24,14 +24,14 @@ releases:
 -   releaseCycle: "3.5"
     releaseDate: 2025-04-17
     eol: false
-    latest: "3.5.1"
-    latestReleaseDate: 2025-05-19
+    latest: "3.5.2"
+    latestReleaseDate: 2025-07-10
 
 -   releaseCycle: "3.4"
     releaseDate: 2025-02-12
     eol: 2025-04-17
-    latest: "3.4.4"
-    latestReleaseDate: 2025-06-09
+    latest: "3.4.5"
+    latestReleaseDate: 2025-07-11
 
 -   releaseCycle: "3.3"
     releaseDate: 2024-11-19
