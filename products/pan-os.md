@@ -12,7 +12,7 @@ eolColumn: End-of-life Date
 
 auto:
   methods:
-  # https://github.com/endoflife-date/release-data/blob/main/src/pan-os.py works great, but the latest.py script does not
+  # https://github.com/endoflife-date/release-data/blob/main/src/pan-os.py works great, but the update-product-data.py script does not
   # compute the latest version accurately, and the link is not updated either. So we better disable this for now.
   # See https://github.com/endoflife-date/endoflife.date/issues/5775.
   #-   pan-os: https://raw.githubusercontent.com/mrjcap/panos-versions/master/PaloAltoVersions.json
