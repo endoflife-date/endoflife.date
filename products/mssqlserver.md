@@ -35,10 +35,9 @@ releases:
     eol: 2033-01-11
     latestGdr: "16.0.1140.6"
     latestGdrLink: https://support.microsoft.com/help/5058721
-    latest: "16.0.4200.1 CU19+GDR"
-    latestReleaseDate: 2025-07-08
-    # CU19 link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate19
-    link: https://support.microsoft.com/help/5058721 # GDR for CU19
+    latest: "16.0.4205.1 CU20"
+    latestReleaseDate: 2025-07-10
+    link: https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate20
 
 -   releaseCycle: "13.0-sp3"
     codename: SQL16
