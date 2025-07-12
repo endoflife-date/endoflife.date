@@ -57,6 +57,7 @@ releases:
 
 ---
 
-> [Chef Workstation](https://docs.chef.io/workstation/) gives you everything you need to get started with Chef -
-> ad hoc remote execution, remote scanning, configuration tasks, cookbook creation tools as well as robust
-> dependency and testing software - all in one easy-to-install package.
+> [Chef Workstation](https://docs.chef.io/workstation/) provides a single installation that includes tools for
+> writing, testing, and managing infrastructure code with the Chef Infra suite. It includes utilities for
+> generating and testing cookbooks, managing dependencies, running Chef Infra Client, and applying configuration
+> policies to systems.
