@@ -15,6 +15,8 @@ eolColumn: Maintenance Support
 auto:
   methods:
   -   google-kubernetes-engine: https://cloud.google.com/kubernetes-engine/docs/release-notes-nochannel
+      regex: '^(?P<version>\d+\.\d+\.\d+-gke\.\d+).*$'
+      template: "{{version}}"
 
 # As per https://cloud.google.com/kubernetes-engine/docs/release-schedule:
 # - releaseDate is the availability date of the of the Regular release channel,
