@@ -1,9 +1,9 @@
 ---
-title: InfluxDB
+title: InfluxDB Core
 category: server-app
 tags: database influxdata
 iconSlug: influxdb
-permalink: /influxdb
+permalink: /influxdb-core
 versionCommand: influxd version
 releasePolicyLink: https://www.influxdata.com/legal/support-policy/
 changelogTemplate: https://github.com/influxdata/influxdb/releases/tag/v__LATEST__
@@ -48,10 +48,19 @@ releases:
 > It includes APIs for storing and querying data, processing it in the background for ETL or
 > monitoring and alerting purposes, user dashboards, and visualizing the data.
 
+As of InfluxDB OSS 3.0, InfluxDB OSS became known as InfluxDB 3 Core.
+
+InfluxDB 3 follows an open-core model.
+
+There is no documented support policy for InfluxDB 3 Core however, as indicated
+[in the release notes](https://docs.influxdata.com/influxdb3/core/release-notes/), InfluxDB 3
+Enterprise is a superset of Core, meaning that Core will follow the same release policy as
+InfluxDB 3 Enterprise.
+
 InfluxDB commercial support is available from InfluxData, which might also extend to
-[InfluxDB 1](https://github.com/influxdata/influxdb/issues/25045). The commercial support
-policy offers support for the latest two minor releases. In practice, the same policy
-seems to apply to InfluxDB OSS version, but this is not guaranteed.
+[InfluxDB 1](https://github.com/influxdata/influxdb/issues/25045). Influxdata's [commercial support
+policy](https://www.influxdata.com/legal/support-policy/) offers support for the latest two minor
+releases, so it's likely (but not guaranteed) that the same will apply to OSS releases.
 
 Compatibility is not guaranteed across major releases.
 Each major release is supported for a minimum of 12 months.
