@@ -51,7 +51,6 @@ auto:
   -   release_table: https://mariadb.org/about/#maintenance-policy
       selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
-      ignore_empty_releases: true # Ignore future releases
       fields:
         releaseCycle: "Release"
         releaseDate: "GA release date"

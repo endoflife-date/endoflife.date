@@ -19,7 +19,6 @@ auto:
   methods:
   -   debian: https://salsa.debian.org/webmaster-team/webwml.git
   -   release_table: https://wiki.debian.org/DebianReleases
-      ignore_empty_releases: true # so that future releases are ignored
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
