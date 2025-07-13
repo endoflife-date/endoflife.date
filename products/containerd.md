@@ -18,7 +18,6 @@ auto:
   methods:
   -   git: https://github.com/containerd/containerd.git
   -   release_table: https://containerd.io/releases/
-      ignore_empty_releases: true # ignore future releases
       selector: "table"
       fields:
         releaseCycle: "Release"

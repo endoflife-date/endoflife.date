@@ -18,7 +18,6 @@ auto:
   methods:
   -   npm: nuxt
   -   release_table: https://nuxt.com/docs/community/roadmap
-      ignore_empty_releases: true # Ignore future releases
       selector: "table"
       fields:
         releaseCycle:

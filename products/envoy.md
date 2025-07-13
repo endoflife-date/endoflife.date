@@ -31,7 +31,6 @@ auto:
   -   git: https://github.com/envoyproxy/envoy.git
   -   release_table: https://github.com/envoyproxy/envoy/blob/main/RELEASES.md
       render_javascript: true
-      ignore_empty_releases: true # ignore future releases
       selector: "table"
       fields:
         releaseCycle:

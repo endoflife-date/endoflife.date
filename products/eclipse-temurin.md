@@ -56,7 +56,6 @@ auto:
       regex: '^jdk-(?P<version>[\d\.+]+)$'
       template: '{{version}}'
   -   release_table: https://adoptium.net/support/
-      ignore_empty_releases: true # avoid listing upcoming releases in auto-update PRs
       selector: "table"
       fields:
         releaseCycle:

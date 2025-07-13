@@ -14,7 +14,6 @@ releaseLabel: "__RELEASE_CYCLE__ '__CODENAME__'"
 auto:
   methods:
   -   release_table: https://linuxmint.com/download_all.php
-      ignore_empty_releases: true
       selector: "table"
       fields:
         releaseCycle: "Version"
