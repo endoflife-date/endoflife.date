@@ -1,5 +1,6 @@
 ---
 title: Bellsoft Liberica JDK
+addedAt: 2023-05-21
 category: lang
 tags: bellsoft java-distribution
 iconSlug: openjdk

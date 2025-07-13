@@ -1,5 +1,6 @@
 ---
 title: Microsoft Nano Server
+addedAt: 2024-06-28
 category: os
 tags: microsoft windows
 iconSlug: windows
@@ -24,7 +25,7 @@ releases:
     latest: 10.0.26100
     lts: true
     link: https://learn.microsoft.com/windows/release-health/windows-server-release-info
-    
+
 -   releaseCycle: "2022"
     releaseDate: 2021-08-18
     eoas: 2026-10-13

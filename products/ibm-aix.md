@@ -1,5 +1,6 @@
 ---
 title: IBM AIX
+addedAt: 2023-06-14
 category: os
 tags: ibm unix-distribution
 iconSlug: ibm

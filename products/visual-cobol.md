@@ -1,5 +1,6 @@
 ---
 title: Visual COBOL
+addedAt: 2022-12-05
 category: lang
 permalink: /visual-cobol
 releasePolicyLink: "https://www.microfocus.com/productlifecycle/"

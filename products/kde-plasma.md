@@ -1,5 +1,6 @@
 ---
 title: KDE Plasma
+addedAt: 2022-03-19
 category: os
 iconSlug: kde
 permalink: /kde-plasma

@@ -1,5 +1,6 @@
 ---
 title: FileMaker Platform
+addedAt: 2019-05-30
 category: app
 permalink: /filemaker
 releasePolicyLink: https://support.claris.com/s/article/Claris-support-policy

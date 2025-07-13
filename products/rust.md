@@ -1,5 +1,6 @@
 ---
 title: Rust
+addedAt: 2023-12-07
 category: lang
 tags: rust-foundation
 iconSlug: rust
@@ -394,8 +395,8 @@ receives patches. Each new stable release spends the preceding six-week period a
 ## [Rust Editions](https://doc.rust-lang.org/edition-guide/editions/index.html)
 
 Rust uses editions to make backwards-incompatible changes. Editions are a mechanism for opt-in changes that may
-otherwise pose a backwards compatibility risk. 
-Since editions are opt-in, existing crates won't use the changes unless they explicitly migrate to the new edition. 
+otherwise pose a backwards compatibility risk.
+Since editions are opt-in, existing crates won't use the changes unless they explicitly migrate to the new edition.
 Each crate chooses its edition within its Cargo.toml file. Editions are skin-deep, and as a result - you can always
 use an older edition alongside a supported version of the compiler.
 

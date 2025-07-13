@@ -1,5 +1,6 @@
 ---
 title: Google Kubernetes Engine
+addedAt: 2021-07-28
 category: service
 tags: google managed-kubernetes
 iconSlug: kubernetes

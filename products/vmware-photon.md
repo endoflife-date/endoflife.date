@@ -1,5 +1,6 @@
 ---
 title: VMware Photon
+addedAt: 2022-12-31
 category: os
 tags: vmware
 iconSlug: vmware

@@ -1,5 +1,6 @@
 ---
 title: API Platform
+addedAt: 2022-02-17
 category: framework
 tags: php-runtime
 permalink: /api-platform

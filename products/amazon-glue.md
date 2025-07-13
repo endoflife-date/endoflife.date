@@ -1,5 +1,6 @@
 ---
 title: Amazon Glue
+addedAt: 2023-09-24
 category: service
 tags: amazon
 iconSlug: amazonaws

@@ -1,5 +1,6 @@
 ---
 title: Samsung Galaxy Tab
+addedAt: 2025-05-19
 category: device
 tags: tablet
 iconSlug: samsung

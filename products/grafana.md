@@ -1,5 +1,6 @@
 ---
 title: Grafana
+addedAt: 2022-11-02
 category: server-app
 iconSlug: grafana
 permalink: /grafana

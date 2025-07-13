@@ -1,5 +1,6 @@
 ---
 title: VMware vCenter Server
+addedAt: 2022-10-11
 category: app
 tags: vmware
 iconSlug: vmware

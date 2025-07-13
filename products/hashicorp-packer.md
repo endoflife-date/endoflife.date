@@ -1,5 +1,6 @@
 ---
 title: Hashicorp Packer
+addedAt: 2024-10-22
 category: server-app
 tags: hashicorp
 iconSlug: packer

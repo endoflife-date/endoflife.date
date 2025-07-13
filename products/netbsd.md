@@ -1,5 +1,6 @@
 ---
 title: NetBSD
+addedAt: 2022-10-31
 category: os
 tags: bsd-distribution unix-distribution
 iconSlug: netbsd

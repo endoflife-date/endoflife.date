@@ -1,5 +1,6 @@
 ---
 title: Tails
+addedAt: 2022-12-28
 category: os
 tags: linux-distribution
 iconSlug: tails

@@ -1,5 +1,6 @@
 ---
 title: Artifactory
+addedAt: 2023-07-09
 category: server-app
 iconSlug: jfrog
 permalink: /artifactory

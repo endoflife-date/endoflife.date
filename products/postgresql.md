@@ -1,5 +1,6 @@
 ---
 title: PostgreSQL
+addedAt: 2019-05-29
 category: database
 iconSlug: postgresql
 permalink: /postgresql

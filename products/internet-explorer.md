@@ -1,5 +1,6 @@
 ---
 title: Internet Explorer
+addedAt: 2022-06-22
 category: app
 tags: microsoft web-browser
 permalink: /internet-explorer

@@ -1,5 +1,6 @@
 ---
 title: MySQL
+addedAt: 2021-05-12
 category: database
 tags: oracle
 iconSlug: mysql

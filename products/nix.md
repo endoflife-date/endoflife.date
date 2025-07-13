@@ -1,5 +1,6 @@
 ---
 title: nix
+addedAt: 2022-03-29
 category: app
 iconSlug: nixos
 permalink: /nix

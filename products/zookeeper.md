@@ -1,5 +1,6 @@
 ---
 title: Apache ZooKeeper
+addedAt: 2022-07-27
 category: server-app
 tags: apache java-runtime
 permalink: /zookeeper

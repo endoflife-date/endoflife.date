@@ -1,5 +1,6 @@
 ---
 title: caddy
+addedAt: 2025-04-23
 category: server-app
 tags: web-server
 iconSlug: caddy

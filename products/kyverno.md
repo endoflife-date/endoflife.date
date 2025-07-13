@@ -1,5 +1,6 @@
 ---
 title: Kyverno
+addedAt: 2024-07-04
 category: server-app
 tags: cncf kubernetes
 permalink: /kyverno

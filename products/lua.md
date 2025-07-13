@@ -1,5 +1,6 @@
 ---
 title: Lua
+addedAt: 2024-01-14
 category: lang
 iconSlug: lua
 permalink: /lua

@@ -1,5 +1,6 @@
 ---
 title: Ionic Framework
+addedAt: 2022-12-30
 category: framework
 tags: javascript-runtime
 iconSlug: ionic

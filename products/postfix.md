@@ -1,5 +1,6 @@
 ---
 title: Postfix
+addedAt: 2022-08-13
 category: server-app
 permalink: /postfix
 versionCommand: postconf mail_version

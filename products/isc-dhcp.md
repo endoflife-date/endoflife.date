@@ -1,5 +1,6 @@
 ---
 title: ISC DHCP
+addedAt: 2023-04-07
 category: server-app
 tags: discontinued
 permalink: /isc-dhcp

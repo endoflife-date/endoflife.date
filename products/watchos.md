@@ -1,5 +1,6 @@
 ---
 title: Apple watchOS
+addedAt: 2022-10-08
 category: os
 tags: apple smartwatch
 iconSlug: apple

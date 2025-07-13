@@ -1,5 +1,6 @@
 ---
 title: Apache NiFi
+addedAt: 2025-03-01
 category: server-app
 tags: apache java-runtime
 iconSlug: apachenifi

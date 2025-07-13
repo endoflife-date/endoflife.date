@@ -1,5 +1,6 @@
 ---
 title: Nuxt
+addedAt: 2023-03-31
 category: framework
 tags: javascript-runtime herodevs
 iconSlug: nuxt

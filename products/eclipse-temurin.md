@@ -1,5 +1,6 @@
 ---
 title: Eclipse Temurin
+addedAt: 2023-02-20
 category: lang
 tags: eclipse java-distribution
 iconSlug: eclipseadoptium

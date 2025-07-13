@@ -1,5 +1,6 @@
 ---
 title: Liquibase
+addedAt: 2025-06-06
 category: framework
 tags: java-runtime
 iconSlug: liquibase
@@ -219,7 +220,7 @@ releases:
 > [Liquibase](https://www.liquibase.org/) is an open-source database-independent library for
 > tracking, managing and applying database schema changes.
 
-Liquibase OSS is published under the Apache License 2.0;  
+Liquibase OSS is published under the Apache License 2.0;
 Liquibase Pro is a commercial extended version of Liquibase.
 
 Both follow the same release cycle running a loosely semantic versioning scheme (breaking changes

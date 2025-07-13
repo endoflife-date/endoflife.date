@@ -1,5 +1,6 @@
 ---
 title: Akeneo PIM
+addedAt: 2023-08-01
 category: server-app
 tags: php-runtime
 permalink: /akeneo-pim

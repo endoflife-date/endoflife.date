@@ -1,5 +1,6 @@
 ---
 title: Amazon RDS for MySQL
+addedAt: 2023-03-08
 category: service
 tags: amazon database
 iconSlug: amazonrds

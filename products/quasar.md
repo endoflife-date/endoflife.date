@@ -1,5 +1,6 @@
 ---
 title: Quasar
+addedAt: 2023-09-24
 category: framework
 tags: javascript-runtime
 iconSlug: quasar

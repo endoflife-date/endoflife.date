@@ -1,5 +1,6 @@
 ---
 title: Palo Alto Networks Cortex XDR agent
+addedAt: 2022-01-10
 category: app
 tags: palo-alto-networks
 permalink: /cortex-xdr

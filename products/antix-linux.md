@@ -1,5 +1,6 @@
 ---
 title: antiX Linux
+addedAt: 2022-10-31
 category: os
 tags: linux-distribution
 permalink: /antix

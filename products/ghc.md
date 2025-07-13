@@ -1,5 +1,6 @@
 ---
 title: Glasgow Haskell Compiler (GHC)
+addedAt: 2024-12-26
 iconSlug: haskell
 category: lang
 permalink: /ghc

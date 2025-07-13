@@ -1,5 +1,6 @@
 ---
 title: Spring Framework
+addedAt: 2021-03-10
 category: framework
 tags: java-runtime vmware
 iconSlug: spring

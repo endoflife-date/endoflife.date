@@ -1,5 +1,6 @@
 ---
 title: Nokia Mobile
+addedAt: 2022-08-01
 category: device
 tags: mobile-phone
 iconSlug: nokia

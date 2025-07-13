@@ -1,5 +1,6 @@
 ---
 title: ProFTPD
+addedAt: 2025-05-03
 category: server-app
 permalink: /proftpd
 versionCommand: proftpd --version

@@ -1,5 +1,6 @@
 ---
 title: Angular
+addedAt: 2021-08-19
 category: framework
 tags: google javascript-runtime herodevs
 iconSlug: angular

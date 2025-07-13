@@ -1,5 +1,6 @@
 ---
 title: Microsoft Build of OpenJDK
+addedAt: 2023-04-13
 category: lang
 tags: java-distribution microsoft
 iconSlug: openjdk

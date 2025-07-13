@@ -1,5 +1,6 @@
 ---
 title: Behat
+addedAt: 2025-06-29
 category: framework
 tags: php-runtime
 permalink: /behat

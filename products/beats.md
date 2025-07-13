@@ -1,5 +1,6 @@
 ---
 title: Elastic Beats
+addedAt: 2022-12-20
 category: server-app
 tags: elastic
 iconSlug: beats

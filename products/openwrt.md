@@ -1,5 +1,6 @@
 ---
 title: OpenWrt
+addedAt: 2022-12-30
 category: os
 tags: linux-distribution
 iconSlug: openwrt

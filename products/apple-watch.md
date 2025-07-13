@@ -1,5 +1,6 @@
 ---
 title: Apple Watch
+addedAt: 2023-10-15
 category: device
 tags: apple watch
 iconSlug: apple

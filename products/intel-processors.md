@@ -1,5 +1,6 @@
 ---
 title: Intel Processors
+addedAt: 2022-08-25
 category: device
 iconSlug: intel
 permalink: /intel-processors

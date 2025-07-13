@@ -1,5 +1,6 @@
 ---
 title: RabbitMQ
+addedAt: 2021-04-21
 category: server-app
 tags: erlang-runtime
 iconSlug: rabbitmq

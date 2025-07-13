@@ -1,5 +1,6 @@
 ---
 title: Apache Flink
+addedAt: 2024-05-20
 category: server-app
 tags: apache java-runtime
 iconSlug: apacheflink

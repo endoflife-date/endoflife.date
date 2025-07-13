@@ -1,5 +1,6 @@
 ---
 title: cert-manager
+addedAt: 2023-12-15
 category: app
 tags: cncf
 permalink: /cert-manager

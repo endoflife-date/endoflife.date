@@ -1,5 +1,6 @@
 ---
 title: SapMachine
+addedAt: 2023-06-26
 category: lang
 tags: sap java-distribution
 iconSlug: openjdk

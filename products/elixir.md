@@ -1,5 +1,6 @@
 ---
 title: Elixir
+addedAt: 2019-07-26
 category: lang
 iconSlug: elixir
 permalink: /elixir

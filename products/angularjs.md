@@ -1,5 +1,6 @@
 ---
 title: AngularJS
+addedAt: 2023-08-14
 category: framework
 tags: discontinued google javascript-runtime herodevs
 permalink: /angularjs
