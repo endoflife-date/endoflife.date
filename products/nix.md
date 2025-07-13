@@ -22,9 +22,15 @@ auto:
 # equal to 2.4.2's release date instead of 2.5's release date
 # policy is provided - https://github.com/NixOS/nix/issues/6063
 releases:
+-   releaseCycle: "2.30"
+    releaseDate: 2025-07-07
+    eol: false # releaseDate(2.31)
+    latest: "2.30.1"
+    latestReleaseDate: 2025-07-12
+
 -   releaseCycle: "2.29"
     releaseDate: 2025-05-14
-    eol: false # releaseDate(2.30)
+    eol: 2025-07-07
     latest: "2.29.1"
     latestReleaseDate: 2025-06-24
 
