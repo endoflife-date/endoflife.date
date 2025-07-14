@@ -1,5 +1,6 @@
 ---
 title: Chef Supermarket
+addedAt: 2025-07-14
 category: server-app
 tags: ruby-runtime
 iconSlug: chef
@@ -8,6 +9,7 @@ versionCommand: supermarket-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
 
+# eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "5"
     releaseDate: 2022-03-03
@@ -17,31 +19,30 @@ releases:
 
 -   releaseCycle: "4"
     releaseDate: 2021-09-23
-    eol: true
+    eol: 2022-03-03
     latest: "4.2.89"
     latestReleaseDate: 2022-01-04
 
 -   releaseCycle: "3"
     releaseDate: 2017-04-10
-    eol: true
+    eol: 2021-09-23
     latest: "3.4.8"
     latestReleaseDate: 2021-06-16
 
 -   releaseCycle: "2"
     releaseDate: 2015-08-17
-    eol: true
+    eol: 2017-04-10
     latest: "2.9.30"
     latestReleaseDate: 2017-04-04
-
 
 ---
 
 > [Chef Supermarket](https://docs.chef.io/supermarket/) is a self-hosted artifact store that lets you store,
-> manage, and share your own cookbooks, tools, and other Chef artifacts internally within your organization.
+> manage, and share cookbooks, tools, and other Chef artifacts internally within an organization.
 > It allows sourcing both internal and community cookbooks during Policyfile and Berkshelf depsolving without
 > reliance on the Public Chef Supermarket site.
->
-> The [Chef Supported versions](https://docs.chef.io/versions/) page only lists the 5.x release as supported.
-> Chef historically has not supported earlier major versions of Supermarket, opting instead to apply all bug
-> and security fixes to the latest release. While there is no formal end-of-life announcement for older
-> versions, the absence of backported fixes indicates they are no longer supported.
+
+The [Chef Supported versions page](https://docs.chef.io/versions/) only lists the latest release as supported.
+Chef historically has not supported earlier major versions of Supermarket, opting instead to apply all bug
+and security fixes to the latest release. While there is no formal end-of-life announcement for older
+versions, the absence of backported fixes indicates they are no longer supported.
