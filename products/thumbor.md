@@ -1,5 +1,6 @@
 ---
 title: Thumbor
+addedAt: 2025-07-14
 category: server-app
 tags: python-runtime web-server
 permalink: /thumbor
@@ -68,5 +69,5 @@ releases:
 > [Thumbor](https://www.thumbor.org/) is an open-source imaging service that enables on-demand
 > cropping, resizing, applying filters and optimizing images.
 
-Thumbor doesn’t have a documented release and support policy.  
+Thumbor doesn’t have a documented release and support policy.
 Looking at the latest releases, it seems only the latest minor release gets bug and security fixes.
