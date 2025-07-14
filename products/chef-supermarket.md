@@ -9,10 +9,15 @@ versionCommand: supermarket-ctl version
 releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_supermarket/#__LATEST__"
 
+auto:
+  methods:
+  -   chef-infra: https://docs.chef.io/release_notes_supermarket/
+      repository: https://github.com/chef/supermarket.git
+
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "5"
-    releaseDate: 2022-03-03
+    releaseDate: 2022-02-28
     eol: false
     latest: "5.2.0"
     latestReleaseDate: 2025-06-02
@@ -24,13 +29,13 @@ releases:
     latestReleaseDate: 2022-01-04
 
 -   releaseCycle: "3"
-    releaseDate: 2017-04-10
+    releaseDate: 2017-04-07
     eol: 2021-09-23
     latest: "3.4.8"
-    latestReleaseDate: 2021-06-16
+    latestReleaseDate: 2021-03-05
 
 -   releaseCycle: "2"
-    releaseDate: 2015-08-17
+    releaseDate: 2015-08-13
     eol: 2017-04-10
     latest: "2.9.30"
     latestReleaseDate: 2017-04-04
