@@ -9,12 +9,16 @@ alternate_urls:
 -   /google-chrome
 versionCommand: google-chrome --version
 releasePolicyLink: https://developer.chrome.com/docs/web-platform/chrome-release-channels
-changelogTemplate: https://developer.chrome.com/release-notes/__LATEST__
+changelogTemplate: https://developer.chrome.com/release-notes/__RELEASE_CYCLE__
 releaseColumn: false
 
 identifiers:
 - repology: google-chrome
 - cpe: cpe:2.3:a:google:chrome
+
+auto:
+  methods:
+  -   chrome-releases: https://chromiumdash.appspot.com/fetch_milestone_schedule
 
 # eol(x) = releaseDate(x+1)
 releases:
@@ -84,3 +88,6 @@ Only the latest major release is supported with new features, bug and security f
 
 Enterprises that want a slower release cadence can use the [Extended stable release channel](https://support.google.com/chrome/a/answer/9027636),
 which is updated every 8 weeks. This channel is not available to regular Chrome users.
+
+Note that most of Chrome's source code comes from Google's free and open-source software project Chromium, but Chrome
+itself is licensed as [proprietary freeware](https://www.google.com/intl/en/chrome/terms/).
