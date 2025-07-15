@@ -8,19 +8,19 @@ versionCommand: thumbor --version
 changelogTemplate: https://github.com/thumbor/thumbor/releases/tag/__LATEST__
 
 identifiers:
-  - repology: thumbor
+-   repology: thumbor
 
 auto:
   methods:
-    - git: https://github.com/thumbor/thumbor.git
+  -   git: https://github.com/thumbor/thumbor.git
 
 # eol(x) = releaseDate(x+1)
 releases:
 -   releaseCycle: "7.7"
     releaseDate: 2023-10-31
     eol: false
-    latest: "7.7.6"
-    latestReleaseDate: 2025-05-09
+    latest: "7.7.7"
+    latestReleaseDate: 2025-05-15
 
 -   releaseCycle: "7.6"
     releaseDate: 2023-10-09
@@ -35,10 +35,10 @@ releases:
     latestReleaseDate: 2023-07-07
 
 -   releaseCycle: "7.4"
-    releaseDate: 2022-12-22
+    releaseDate: 2022-12-20
     eol: 2023-05-29
     latest: "7.4.7"
-    latestReleaseDate: 2023-01-31
+    latestReleaseDate: 2023-01-26
 
 -   releaseCycle: "7.3"
     releaseDate: 2022-11-01
