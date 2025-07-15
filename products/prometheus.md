@@ -35,6 +35,7 @@ auto:
 # For LTS, as per https://prometheus.io/docs/introduction/release-cycle/#long-term-support
 releases:
 -   releaseCycle: "3.5"
+    lts: true
     releaseDate: 2025-07-14
     eol: 2026-07-31
     latest: "3.5.0"
