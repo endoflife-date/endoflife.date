@@ -30,19 +30,12 @@ releases:
 
 ---
 
-> [MicroK8s](https://microk8s.io/) is a small, fast, single-package Kubernetes for developer workstations, datacenters, edge devices on ARM or Intel devices.
+> [MicroK8s](https://microk8s.io/) is a small, fast, single-package Kubernetes for
+> developer workstations, datacenters, edge devices on ARM or Intel devices.
 
-Single-package fully conformant lightweight Kubernetes that works on [42 flavours of Linux](https://snapcraft.io/microk8s). Perfect for:
-
-- Developer workstations
-- IoT
-- Edge
-- CI/CD
-
-## [Release Cadence](https://microk8s.io/docs/setting-snap-channel)
-
-Microk8s is a snap deploying Kubernetes. The MicroK8s snap closely follows upstream Kubernetes, so understanding a bit about the [Kubernetes release cycle](https://endoflife.date/kubernetes)
-is helpful for more insight into MicroK8s releases.
-
-Upstream Kubernetes ships a new release series (e.g. 1.27.x) approximately every three months. Prior release series may get periodic
-bugfix releases: for example, the latest 1.24 release is 1.24.8.
+MicroK8s closely follows upstream Kubernetes release cycle with a
+[1 week delay](https://microk8s.io/docs/setting-snap-channel). Starting
+from February 2025, MicroK8s is part of the 
+[Canonical 12 year Kubernetes LTS](https://canonical.com/blog/12-year-lts-for-kubernetes)
+initiative, but it doesn't seem to apply to releases before the announcement - both `1.30`
+and `1.30` have not had recent releases under MicroK8s.
