@@ -43,8 +43,8 @@ releases:
     supportedPHPVersions: "7.2 - 8.4"
     releaseDate: 2025-04-15
     eol: false
-    latest: "6.8.1"
-    latestReleaseDate: 2025-04-30
+    latest: "6.8.2"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "6.7"
     supportedPHPVersions: "7.2 - 8.4"
@@ -197,43 +197,43 @@ releases:
     supportedPHPVersions: "5.2 - 7.0"
     releaseDate: 2016-08-16
     eol: 2016-12-06 # releaseDate(4.7)
-    latest: "4.6.29"
-    latestReleaseDate: 2024-06-24
+    latest: "4.6.30"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.5"
     supportedPHPVersions: "5.2 - 7.0"
     releaseDate: 2016-04-12
     eol: 2016-08-16 # releaseDate(4.6)
-    latest: "4.5.32"
-    latestReleaseDate: 2024-06-24
+    latest: "4.5.33"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.4"
     supportedPHPVersions: "5.2 - 7.0"
     releaseDate: 2015-12-09
     eol: 2016-04-12 # releaseDate(4.5)
-    latest: "4.4.33"
-    latestReleaseDate: 2024-06-24
+    latest: "4.4.34"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.3"
     supportedPHPVersions: "5.2 - 5.6"
     releaseDate: 2015-08-18
     eol: 2015-12-08 # releaseDate(4.4)
-    latest: "4.3.34"
-    latestReleaseDate: 2024-06-24
+    latest: "4.3.35"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.2"
     supportedPHPVersions: "5.2 - 5.6"
     releaseDate: 2015-04-23
     eol: 2015-08-18 # releaseDate(4.3)
-    latest: "4.2.38"
-    latestReleaseDate: 2024-06-24
+    latest: "4.2.39"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.1"
     supportedPHPVersions: "5.2 - 5.6"
     releaseDate: 2014-12-18
     eol: 2015-04-23 # releaseDate(4.2)
-    latest: "4.1.41"
-    latestReleaseDate: 2024-06-24
+    latest: "4.1.42"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "4.0"
     supportedPHPVersions: "5.2 - 5.5"
