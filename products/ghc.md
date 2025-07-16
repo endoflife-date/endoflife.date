@@ -133,8 +133,13 @@ releases:
 > Haskell. It includes an interactive REPL, several profilers, alternative codegen backends, and
 > supports x86, AArch64, PowerPC, s390x, RiscV, WASM architectures.
 
-Version support policy of GHC is defined informally, as a working convention that can be found
-documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conventions/releases).
+Version support policy of GHC until 9.12 has been defined informally, as a working convention that
+can be found documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conventions/releases).
+
+From version 9.14 onwards, some major versions are designated as "[LTS
+Releases](https://www.haskell.org/ghc/blog/20250702-ghc-release-schedules.html)", and receive a
+minimum of two years of bugfix support through minor version bumps.  Non-LTS releases have
+shorter support in comparison. The first GHC version to be designated as LTS is GHC 9.14.
 
 Terminology
 -----------
@@ -156,6 +161,10 @@ Release policies
   removals, nor major updates in libraries shipped with compiler. They only fix bugs or performance
   issues in the previous release on that branch.
 
+* **LTS releases** are preannounced major versions for long-term support with the difference being
+  a longer timeframe of support. Bugfixes are backported and applied through minor version bumps for
+  at least two years post-release, with six months of guaranteed support overlap between LTS versions.
+
 * **Target [platforms](https://gitlab.haskell.org/ghc/ghc/-/wikis/platforms)** are segregated into
   tiers 1, 2, and 3; and releases are gated on being in working condition on all Tier 1 platforms.
   Every effort is made to fix bugs in Tier 2/3 platforms, but those are not treated as release
@@ -173,5 +182,8 @@ Release schedule
 Major releases are made twice a year.
 
 Minor releases are made throughout the year, with no fixed schedule.
+
+A major release designated as LTS will be supported for at least two years, with six months of support
+overlap between LTS releases.
 
 Every release is preceded by one or more release candidates, announced on GHC mailing lists.
