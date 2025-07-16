@@ -23,8 +23,8 @@ releases:
 -   releaseCycle: "3.10"
     releaseDate: 2025-02-16
     eol: false
-    latest: "3.10.2"
-    latestReleaseDate: 2025-04-23
+    latest: "3.10.3"
+    latestReleaseDate: 2025-07-15
     link: https://www.postfix.org/announcements/postfix-3.10.0.html
 
 -   releaseCycle: "3.9"
