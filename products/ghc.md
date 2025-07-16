@@ -136,6 +136,15 @@ releases:
 Version support policy of GHC is defined informally, as a working convention that can be found
 documented on [GHC wiki](https://gitlab.haskell.org/ghc/ghc/-/wikis/working-conventions/releases).
 
+{: .note-title }
+> Upcoming Change
+>
+> [Starting with GHC 9.14](https://www.haskell.org/ghc/blog/20250702-ghc-release-schedules.html)
+> (expected in August 2025), there will be preannounced major versions designated as LTS. The first
+> LTS release will be 9.14. LTS releases will have minimum two years of support from release, in the
+> form of bugfix minor version bumps. No new features will be backported to LTS releases. There will
+> be six months of support period overlap between subsequent LTS releases.
+
 Terminology
 -----------
 
