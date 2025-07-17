@@ -23,12 +23,6 @@ releases:
     eol: false # No current plans to EOL 2.x
     latest: "2.7.12"
     latestReleaseDate: 2025-05-15
--   releaseCycle: "1.12"
-    releaseDate: 2025-04-08
-    eol: false
-    latest: "1.12.1"
-    latestReleaseDate: 2025-06-24
-
 
 ---
 
