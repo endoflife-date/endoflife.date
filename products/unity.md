@@ -18,8 +18,8 @@ releases:
 -   releaseCycle: "6.1"
     releaseDate: 2025-04-23
     eol: false
-    latest: "6000.1.11f1"
-    latestReleaseDate: 2025-07-09
+    latest: "6000.1.12f1"
+    latestReleaseDate: 2025-07-15
 
 -   releaseCycle: "6.0"
     lts: 2024-10-16
