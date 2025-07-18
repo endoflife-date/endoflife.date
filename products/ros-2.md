@@ -14,6 +14,11 @@ releaseColumn: false
 eolColumn: End Of Life
 
 releases:
+-   releaseCycle: 'kilted'
+    codename: 'Kilted Kaiju'
+    releaseDate: 2025-05-23
+    eol: 2026-12-01
+
 -   releaseCycle: 'jazzy'
     codename: 'Jazzy Jalisco'
     releaseDate: 2024-05-23
