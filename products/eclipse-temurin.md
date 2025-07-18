@@ -72,8 +72,8 @@ releases:
 -   releaseCycle: "24"
     releaseDate: 2025-03-20
     eol: 2025-09-16 # expected 25 release date (see https://www.java.com/releases/)
-    latest: "24.0.1+9.1"
-    latestReleaseDate: 2025-04-28
+    latest: "24.0.2+12"
+    latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "23"
     releaseDate: 2024-09-17
@@ -91,8 +91,8 @@ releases:
     lts: true
     releaseDate: 2023-10-10
     eol: 2029-12-31
-    latest: "21.0.7+6"
-    latestReleaseDate: 2025-04-16
+    latest: "21.0.8+9"
+    latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "20"
     releaseDate: 2023-03-23
@@ -116,8 +116,8 @@ releases:
     lts: true
     releaseDate: 2021-09-22
     eol: 2027-10-31
-    latest: "17.0.15+6"
-    latestReleaseDate: 2025-04-16
+    latest: "17.0.16+8"
+    latestReleaseDate: 2025-07-17
 
   # Note that the first release was 11.0.12+7
 -   releaseCycle: "11"
