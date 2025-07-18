@@ -15,7 +15,7 @@ eolColumn: End Of Life
 
 releases:
 -   releaseCycle: 'kilted'
-    codename: 'kilted kaiju'
+    codename: 'Kilted Kaiju'
     releaseDate: 2025-05-23
     eol: 2026-12-01
 
