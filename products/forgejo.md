@@ -30,7 +30,7 @@ releases:
     releaseDate: 2025-07-17
     eol: 2025-10-16
     latest: "12.0.0"
-    latestReleaseDate: 2025-07-17
+    latestReleaseDate: 2025-07-16
 
 -   releaseCycle: "11.0"
     lts: true
