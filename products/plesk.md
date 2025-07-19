@@ -20,14 +20,14 @@ releases:
 -   releaseCycle: "18.0.71"
     releaseDate: 2025-07-08
     eol: 2025-09-30
-    latest: "18.0.71"
-    latestReleaseDate: 2025-07-08
+    latest: "18.0.71.1"
+    latestReleaseDate: 2025-07-18
 
 -   releaseCycle: "18.0.70"
     releaseDate: 2025-05-27
     eol: 2025-08-19
-    latest: "18.0.70.2"
-    latestReleaseDate: 2025-06-19
+    latest: "18.0.70.3"
+    latestReleaseDate: 2025-07-18
 
 -   releaseCycle: "18.0.69"
     releaseDate: 2025-04-15
