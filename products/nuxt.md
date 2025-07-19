@@ -27,6 +27,13 @@ auto:
         eol: "End Of Life"
 
 releases:
+-   releaseCycle: "4"
+    releaseDate: 2025-07-15
+    eoas: false
+    eol: false
+    latest: "4.0.0"
+    latestReleaseDate: 2025-07-15
+
 -   releaseCycle: "3"
     releaseDate: 2022-11-16
     eoas: false
