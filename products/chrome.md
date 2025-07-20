@@ -1,5 +1,5 @@
 ---
-title: Chrome
+title: Google Chrome
 addedAt: 2025-07-15
 category: app
 tags: google web-browser
