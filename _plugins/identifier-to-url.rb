@@ -108,6 +108,10 @@ class IdentifierToUrl
     return "https://hackage.haskell.org/package/#{purl.name}"
   end
 
+  def _build_hex_url(purl)
+    return "https://hex.pm/packages/#{purl.name}"
+  end
+
   def _build_golang_url(purl)
     raise "Unsupported golang PURL #{purl}: no namespace specified" unless purl.namespace
     return "https://pkg.go.dev/#{purl.namespace}/#{purl.name}"
