@@ -26,9 +26,8 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+).*$'
-        eol:
-          column: "Support end of life (EOL)"
-          regex: '^(NO LONGER SUPPORTED as of )?(?P<value>\w+ \d{4}).*$'
+        releaseDate: "Release date"
+        eol: "Support end date"
 
 # - eoas(x) = releaseDate(x+1)
 # - eol(x) on https://grafana.com/docs/grafana/latest/upgrade-guide/when-to-upgrade/#what-to-know-about-version-support
