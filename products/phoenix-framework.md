@@ -1,5 +1,6 @@
 ---
 title: Phoenix Framework
+addedAt: 2025-07-21
 category: framework
 iconSlug: phoenixframework
 permalink: /phoenix-framework
