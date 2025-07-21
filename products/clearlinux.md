@@ -27,9 +27,9 @@ releases:
 ---
 
 > [Clear Linux](https://clearlinux.org) was a Linux distribution optimized for
-  Intel architecture, designed to provide a high-performance computing
-  environment for server and cloud use-cases. It was developed by Intel and
-  [discontinued in July 2025](https://community.clearlinux.org/t/10716/6)
+> Intel architecture, designed to provide a high-performance computing
+> environment for server and cloud use-cases. It was developed by Intel and
+> [discontinued in July 2025](https://community.clearlinux.org/t/10716/6)
 
 Clear Linux was a rolling distribution with an automatic single OS-level
 software update.
