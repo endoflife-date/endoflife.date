@@ -6,6 +6,7 @@ permalink: /amazon-msk
 alternate_urls:
 -   /msk
 -   /managed-streaming-for-apache-kafka
+-   /aws-msk
 releasePolicyLink: https://docs.aws.amazon.com/msk/latest/developerguide/version-support.html
 changelogTemplate: "https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html#{{'__LATEST__' | replace:'.x',''}}"
 eolColumn: Support
@@ -102,14 +103,14 @@ releases:
 > [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](https://aws.amazon.com/msk/) is a streaming data service
 > that manages Apache Kafka infrastructure and operations.
 
-Amazon MSK guarantees support until they reach their end of support date. 
-For details on end of support dates, see [Supported Apache Kafka versions](https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html).
+Amazon publishes a list of
+[Supported Apache Kafka versions](https://docs.aws.amazon.com/msk/latest/developerguide/supported-kafka-versions.html)
+with End-of-Support dates.
 
+## [Upgrading](https://docs.aws.amazon.com/msk/latest/developerguide/version-upgrades.html)
 
-## Upgrading
-
-An MSK cluster should be upgraded to the recommended Kafka version or higher version before the end of support date. 
-For details about upgrading your Apache Kafka version, see [Upgrade the Apache Kafka version](https://docs.aws.amazon.com/msk/latest/developerguide/version-upgrades.html). 
 A cluster using a Kafka version after its end of support date is auto-upgraded to the recommended Kafka version. 
-Automatic upgrades can happen at any time after the end of support date. You will not receive any notification before the upgrade.
+Automatic upgrades can happen at any time after the end of support date. No notifications
+are sent before the upgrade.
 
+Cluster creation for EOL versions is phased out gradually, but no timelines are provided.
