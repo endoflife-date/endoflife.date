@@ -21,8 +21,8 @@ releases:
     releaseDate: 2015-02-06
     eol: 2025-07-19
     # https://cdn.download.clearlinux.org/releases/
-    latest: "43790"
-    latestReleaseDate: 2025-07-17
+    latest: "43800"
+    latestReleaseDate: 2025-07-21
 
 ---
 
