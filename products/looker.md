@@ -6,7 +6,6 @@ tags: google
 iconSlug: looker
 permalink: /looker
 releasePolicyLink: https://cloud.google.com/looker/docs/release-overview
-releaseImage: https://cloud.google.com/static/looker/docs/images/2023-std-supp-releases.png
 changelogTemplate: https://cloud.google.com/looker/docs/release-notes
 LTSLabel: "<abbr title='Extended Support Release'>ESR</abbr>"
 eolColumn: Support Status
@@ -336,8 +335,6 @@ ESR releases are quarterly instead of monthly and get 3 months of support. Issue
 will be patched back to the currently supported ESR releases. Participants in the ESR program are
 required to pair production instances with staging instances. An ESR release is kept in
 "ESR-staging" for a month, where it is considered "pre-stable".
-
-![ESR release schedule image](https://cloud.google.com/static/looker/docs/images/2023-std-esr-supp-releases.png)
 
 ## [Notifications][emails]
 
