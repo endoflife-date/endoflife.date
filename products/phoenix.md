@@ -1,14 +1,21 @@
 ---
-title: Phoenix
+title: Phoenix Framework
 category: framework
 iconSlug: phoenixframework
-permalink: /phoenix
+permalink: /phoenix-framework
+alternate_urls:
+-   /phoenix
+-   /phoenixframework
 changelogTemplate: https://github.com/phoenixframework/phoenix/releases/tag/v__LATEST__
 releasePolicyLink: https://github.com/phoenixframework/phoenix/security
 eoasColumn: Bug Fixes
 auto:
   methods:
     - git: https://github.com/phoenixframework/phoenix.git
+identifiers:
+- purl: pkg:hex/phoenix
+- purl: pkg:github/phoenixframework/phoenix
+
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+4)
 releases:
@@ -70,10 +77,10 @@ releases:
 
 ---
 
-> [Phoenix](https://www.phoenixframework.org/) is a productive, real‑time web framework written in Elixir.
+> [Phoenix](https://www.phoenixframework.org/) is a real‑time web framework written in Elixir.
 
-Bug fixes are made only to the latest minor branch. Security patches are available for the last 4 minor branches,
-including the latest one.
+Bug fixes are made only to the latest minor branch. Security patches are available
+for the last 4 minor branches, including the latest one.
 
 New _minor_ versions (e.g. **1.8 → 1.9**) are released roughly every 18–24 months. The 
 [Changelog](https://github.com/phoenixframework/phoenix/blob/main/CHANGELOG.md) lists
