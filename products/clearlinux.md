@@ -19,7 +19,7 @@ identifiers:
 releases:
 -   releaseCycle: "current"
     releaseDate: 2015-02-06
-    eol: 2025-07-19
+    eol: 2025-07-21
     # https://cdn.download.clearlinux.org/releases/
     latest: "43800"
     latestReleaseDate: 2025-07-21
