@@ -50,9 +50,9 @@ releases:
   - releaseCycle: "1.2"
     releaseDate: 2016-06-23
     eoas: 2017-07-28
-    eol: 2017-07-27
+    eol: 2017-07-28
     latest: "1.2.5"
-    latestReleaseDate: 2017-07-27
+    latestReleaseDate: 2017-07-28
 
   - releaseCycle: "1.1"
     releaseDate: 2015-12-16
