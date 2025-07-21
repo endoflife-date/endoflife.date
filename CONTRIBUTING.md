@@ -42,7 +42,7 @@ To add a new page to the website, [create a new markdown file with YAML frontmat
 # Name of the product (mandatory).
 title: Timeturner
 
-# Date of Adding related product into endoflife.date
+# Date when the product was added to endoflife.date (optional).
 addedAt: 2019-05-27
 
 # Category of the product (mandatory).
