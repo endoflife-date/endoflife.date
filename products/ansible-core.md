@@ -49,7 +49,7 @@ auto:
           regex: '^(EOL\s*)?(?P<value>.+)$'
 
 # EOL dates as well as Python / PowerShell versions can be found on
-# https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html.
+# https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
 -   releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
