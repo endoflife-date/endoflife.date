@@ -90,7 +90,7 @@ releases:
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
-    eoas: 2025-06-30
+    eoas: 2024-05-13
     eol: 2025-06-30
     latest: "10.4.19+security-01"
     latestReleaseDate: 2025-06-12
