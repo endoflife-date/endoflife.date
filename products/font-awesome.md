@@ -14,7 +14,14 @@ auto:
   -   git: https://github.com/FortAwesome/Font-Awesome.git
 
 releases:
+-   releaseCycle: "7"
+    releaseDate: 2025-07-22
+    eol: false
+    latest: "7.0.0"
+    latestReleaseDate: 2025-07-22
+
 -   releaseCycle: "6"
+    lts: true
     releaseDate: 2022-02-07
     eol: false
     latest: "6.7.2"
