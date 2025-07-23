@@ -35,77 +35,77 @@ releases:
 -   releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: false
-    eol: 2026-01-31
+    eol: 2026-02-05
     latest: "12.0.2+security-01"
     latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "11.6"
     releaseDate: 2025-03-25
     eoas: 2025-05-05
-    eol: 2026-06-30
+    eol: 2026-05-25
     latest: "11.6.3+security-01"
     latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "11.5"
     releaseDate: 2025-01-28
     eoas: 2025-03-25
-    eol: 2025-10-31
+    eol: 2025-10-28
     latest: "11.5.6+security-01"
     latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "11.4"
     releaseDate: 2024-12-05
     eoas: 2025-01-28
-    eol: 2025-09-30
+    eol: 2025-09-05
     latest: "11.4.6+security-01"
     latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "11.3"
     releaseDate: 2024-10-22
     eoas: 2024-12-05
-    eol: 2025-07-31
+    eol: 2025-07-22
     latest: "11.3.8+security-01"
     latestReleaseDate: 2025-07-17
 
 -   releaseCycle: "11.2"
     releaseDate: 2024-08-27
     eoas: 2024-10-22
-    eol: 2025-05-31
+    eol: 2025-05-27
     latest: "11.2.10+security-01"
     latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "11.1"
-    releaseDate: 2024-06-21
+    releaseDate: 2024-06-25
     eoas: 2024-08-27
-    eol: 2025-03-31
+    eol: 2025-04-23
     latest: "11.1.13"
     latestReleaseDate: 2025-03-25
 
 -   releaseCycle: "11.0"
-    releaseDate: 2024-05-13
+    releaseDate: 2024-05-14
     eoas: 2024-06-21
-    eol: 2025-02-28
+    eol: 2025-02-14
     latest: "11.0.10"
     latestReleaseDate: 2025-01-28
 
 -   releaseCycle: "10.4"
     releaseDate: 2024-03-05
     eoas: 2024-05-13
-    eol: 2025-06-30
+    eol: 2025-06-05
     latest: "10.4.19+security-01"
     latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "10.3"
-    releaseDate: 2024-01-22
+    releaseDate: 2024-01-23
     eoas: 2024-03-06
-    eol: 2024-10-31
+    eol: 2024-10-23
     latest: "10.3.12"
     latestReleaseDate: 2024-10-22
 
 -   releaseCycle: "10.2"
     releaseDate: 2023-10-24
     eoas: 2024-01-23
-    eol: 2024-03-06
+    eol: 2024-07-24
     latest: "10.2.9"
     latestReleaseDate: 2024-07-23
 
