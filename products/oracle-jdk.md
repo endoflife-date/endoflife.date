@@ -24,6 +24,7 @@ auto:
   -   oracle-jdk: https://www.java.com/releases/
   -   release_table: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
       selector: "table"
+      render_javascript: true
       header_selector: "thead tr:nth-of-type(2)"
       fields:
         releaseCycle:
