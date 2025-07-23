@@ -20,15 +20,15 @@ releases:
     releaseDate: 2025-06-20
     eol: 2025-09-26
     link: https://www.sipwise.com/releases/2025/mr13.4
-    latest: "13.4.1.1"
-    latestReleaseDate: 2025-07-03
+    latest: "13.4.1.2"
+    latestReleaseDate: 2025-07-22
 
 -   releaseCycle: "13.3"
     releaseDate: 2025-04-18
     eol: 2025-06-13
     link: https://www.sipwise.com/releases/2025/mr13.3
-    latest: "13.3.1.8"
-    latestReleaseDate: 2025-06-30
+    latest: "13.3.1.9"
+    latestReleaseDate: 2025-07-22
 
 -   releaseCycle: "13.2"
     releaseDate: 2025-02-12
@@ -56,16 +56,16 @@ releases:
     releaseDate: 2024-08-14
     eol: 2027-07-23
     link: https://www.sipwise.com/releases/2024/mr12.5
-    latest: "12.5.1.36"
-    latestReleaseDate: 2025-06-30
+    latest: "12.5.1.37"
+    latestReleaseDate: 2025-07-22
 
 -   releaseCycle: "11.5"
     lts: true
     releaseDate: 2023-09-18
     eol: 2026-09-11
     link: https://www.sipwise.com/releases/2024/mr11.5
-    latest: "11.5.1.43"
-    latestReleaseDate: 2025-06-30
+    latest: "11.5.1.44"
+    latestReleaseDate: 2025-07-22
 
 -   releaseCycle: "10.5"
     lts: true
