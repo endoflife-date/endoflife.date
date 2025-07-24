@@ -37,6 +37,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '^(?P<value>\d+\.\d+)\.0$'
+        releaseDate: "Actual"
         eol: "End of Life"
 
 # eol(X>=1.12) can be found on https://github.com/envoyproxy/envoy/blob/main/RELEASES.md#major-release-schedule
