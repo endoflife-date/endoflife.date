@@ -36,8 +36,8 @@ releases:
 -   releaseCycle: "3.24"
     releaseDate: 2025-06-25
     eol: false
-    latest: "3.24.4"
-    latestReleaseDate: 2025-07-17
+    latest: "3.24.5"
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "3.23"
     releaseDate: 2025-05-28
@@ -62,8 +62,8 @@ releases:
     releaseDate: 2025-03-26
     eol: 2026-03-28
     eoes: false
-    latest: "3.20.1"
-    latestReleaseDate: 2025-05-20
+    latest: "3.20.2"
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "3.19"
     releaseDate: 2025-02-26
@@ -94,8 +94,8 @@ releases:
     releaseDate: 2024-09-25
     eol: 2025-09-25
     eoes: false
-    latest: "3.15.5"
-    latestReleaseDate: 2025-05-20
+    latest: "3.15.6"
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "3.14"
     releaseDate: 2024-08-28
