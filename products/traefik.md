@@ -44,6 +44,13 @@ auto:
 
 
 releases:
+-   releaseCycle: "3.5"
+    releaseDate: 2025-07-23
+    eoas: false
+    eol: false
+    latest: "3.5.0"
+    latestReleaseDate: 2025-07-23
+
 -   releaseCycle: "3.4"
     releaseDate: 2025-05-05
     eoas: false
