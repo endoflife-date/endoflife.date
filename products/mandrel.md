@@ -43,8 +43,8 @@ releases:
     releaseDate: 2023-10-12
     eol: false
     lts: true
-    latest: "23.1.7.0"
-    latestReleaseDate: 2025-04-26
+    latest: "23.1.8.0"
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "23.0"
     releaseLabel: "23.0 (JDK 17)"
