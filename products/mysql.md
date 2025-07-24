@@ -13,7 +13,7 @@ eoasColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
-# https://dev.mysql.com/doc/refman/8.3/en/faqs-general.html#faq-mysql-version-ga
+# https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
 auto:
   methods:
   -   git: https://github.com/mysql/mysql-server.git
@@ -36,17 +36,24 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "9.3"
-    releaseDate: 2025-03-31
+-   releaseCycle: "9.4"
+    releaseDate: 2025-07-22
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
+    latest: '9.4.0'
+    latestReleaseDate: 2025-07-22
+
+-   releaseCycle: "9.3"
+    releaseDate: 2025-03-31
+    eoas: 2025-07-22
+    eol: 2025-07-22
     latest: '9.3.0'
     latestReleaseDate: 2025-03-31
 
 -   releaseCycle: "9.2"
     releaseDate: 2024-12-15
-    eoas: 2025-04-15 # releaseDate(9.3)
-    eol: 2025-04-15 # releaseDate(9.3)
+    eoas: 2025-04-15
+    eol: 2025-04-15
     latest: '9.2.0'
     latestReleaseDate: 2024-12-15
 
