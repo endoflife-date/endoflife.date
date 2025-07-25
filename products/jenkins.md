@@ -37,10 +37,17 @@ releases:
     latest: "2.520"
     latestReleaseDate: 2025-07-22
 
+-   releaseCycle: "2.516"
+    releaseDate: 2025-06-24
+    lts: 2025-07-23
+    eol: false
+    latest: "2.516.1"
+    latestReleaseDate: 2025-07-23
+
 -   releaseCycle: "2.504"
     releaseDate: 2025-03-31
     lts: 2025-04-30
-    eol: false
+    eol: 2025-07-23
     latest: "2.504.3"
     latestReleaseDate: 2025-06-25
 
