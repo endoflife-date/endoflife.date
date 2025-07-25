@@ -35,9 +35,9 @@ releases:
 -   releaseCycle: "2.4"
     releaseDate: 2012-02-21
     eol: false
-    latest: "2.4.64"
-    latestReleaseDate: 2025-07-10
-    link: https://downloads.apache.org/httpd/CHANGES_2.4.63
+    latest: "2.4.65"
+    latestReleaseDate: 2025-07-23
+    link: https://downloads.apache.org/httpd/CHANGES_2.4
 
 -   releaseCycle: "2.2"
     releaseDate: 2005-12-01
