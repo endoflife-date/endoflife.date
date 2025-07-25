@@ -37,14 +37,14 @@ releases:
     eoas: false
     eol: 2026-04-22
     latest: "12.1.0"
-    latestReleaseDate: 2025-07-22
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "12.0"
     releaseDate: 2025-05-05
     eoas: 2025-07-22
     eol: 2026-02-05
-    latest: "12.0.2+security-01"
-    latestReleaseDate: 2025-07-17
+    latest: "12.0.3"
+    latestReleaseDate: 2025-07-23
 
 -   releaseCycle: "11.6"
     releaseDate: 2025-03-25

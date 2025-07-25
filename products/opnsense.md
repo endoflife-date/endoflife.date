@@ -21,7 +21,7 @@ auto:
 releases:
 -   releaseCycle: "25.7"
     codename: "Visionary Viper"
-    releaseDate: 2025-07-23
+    releaseDate: 2025-07-22
     eol: false
     latest: "25.7.0"
     latestReleaseDate: 2025-07-23

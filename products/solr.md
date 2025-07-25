@@ -31,8 +31,8 @@ releases:
 -   releaseCycle: "9"
     releaseDate: 2022-05-11
     eol: false
-    latest: "9.8.1"
-    latestReleaseDate: 2025-03-11
+    latest: "9.9.0"
+    latestReleaseDate: 2025-07-24
 
 -   releaseCycle: "8"
     releaseDate: 2019-03-13
