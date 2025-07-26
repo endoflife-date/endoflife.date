@@ -29,8 +29,8 @@ releases:
 -   releaseCycle: "12.0"
     releaseDate: 2025-07-17
     eol: 2025-10-16
-    latest: "12.0.0"
-    latestReleaseDate: 2025-07-16
+    latest: "12.0.1"
+    latestReleaseDate: 2025-07-24
 
 -   releaseCycle: "11.0"
     lts: true
