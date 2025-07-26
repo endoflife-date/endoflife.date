@@ -199,6 +199,7 @@ releases:
     eol: 2016-12-06 # releaseDate(4.7)
     latest: "4.6.30"
     latestReleaseDate: 2025-07-15
+    link: null
 
 -   releaseCycle: "4.5"
     supportedPHPVersions: "5.2 - 7.0"
