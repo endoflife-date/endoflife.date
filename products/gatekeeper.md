@@ -20,9 +20,15 @@ identifiers:
 
 # eol(s) = releaseDate(x+2)
 releases:
+-   releaseCycle: "3.20"
+    releaseDate: 2025-07-24
+    eol: false # releaseDate(x+1)
+    latest: "3.20.0"
+    latestReleaseDate: 2025-07-24
+
 -   releaseCycle: "3.19"
     releaseDate: 2025-04-09
-    eol: false # releaseDate(x+1)
+    eol: 2025-07-24
     latest: "3.19.3"
     latestReleaseDate: 2025-07-15
 
