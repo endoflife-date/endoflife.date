@@ -13,10 +13,22 @@ alternate_urls:
 -   /citrix-apps-desktops
 releasePolicyLink: https://www.citrix.com/support/product-lifecycle/product-matrix.html
 changelogTemplate: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/__RELEASE_CYCLE__/whats-new.html
-
 LTSLabel: "<abbr title='Long Term Service Release'>LTSR</abbr>"
 eoasColumn: true
 eoesColumn: true
+
+auto:
+  methods:
+  -   citrix-vad-rss: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
+      regex:
+      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
+      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
+      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
+      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+ All Editions'
+      regex_exclude:
+      - '^.+Advanced Edition.+$'
+      - '^.+Premium Edition.+$'
+      template: '{{major}}{%if minor %} CU{{minor}}{%endif%}'
 
 # For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html.
 # For non-LTS:
