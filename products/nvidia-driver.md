@@ -12,6 +12,24 @@ releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
 eoasColumn: true
 
+auto:
+  methods:
+  -   nvidia-releases: https://docs.nvidia.com/datacenter/tesla/drivers/releases.json
+  -   declare: nvidia-driver
+      releases:
+      -   name: "r470-windows"
+          latest: "475.14"
+          latestReleaseDate: 2024-07-09
+          link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-475-14/
+      -   name: "r495-linux"
+          latest: "495.46"
+          latestReleaseDate: 2021-12-13
+          link: https://www.nvidia.com/Download/driverResults.aspx/184248/
+      -   name: "r510-windows"
+          latest: "514.08"
+          latestReleaseDate: 2022-12-20
+          link: https://www.nvidia.com/download/driverResults.aspx/197675/
+
 # Branch type see https://docs.nvidia.com/datacenter/tesla/drivers/releases.json
 #
 # eoas(x) is:
