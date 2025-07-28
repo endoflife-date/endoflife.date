@@ -1,7 +1,7 @@
 ---
 title: Amazon MSK
 category: service
-tags: amazon managed-apache-kafka
+tags: amazon
 iconSlug: amazonaws
 permalink: /amazon-msk
 alternate_urls:
