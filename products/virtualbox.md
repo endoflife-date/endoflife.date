@@ -21,7 +21,12 @@ identifiers:
 auto:
   methods:
   -   virtualbox: https://www.virtualbox.org/wiki/Download_Old_Builds
-      regex: '^VirtualBox (?P<value>\d+\.\d+)$'
+      regex:
+        # This applies to the release cycles page for EOL
+        - '^VirtualBox (?P<value>\d+\.\d+)$'
+        # This applies to the download page for versions
+        - '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\/$'
+      downloadsURL: https://download.virtualbox.org/virtualbox/
 
 # eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.
