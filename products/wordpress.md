@@ -199,6 +199,7 @@ releases:
     eol: 2016-12-06 # releaseDate(4.7)
     latest: "4.6.30"
     latestReleaseDate: 2025-07-15
+    link: https://wordpress.org/news/2025/07/wordpress-6-8-2-maintenance-release/   # https://github.com/endoflife-date/endoflife.date/pull/7935
 
 -   releaseCycle: "4.5"
     supportedPHPVersions: "5.2 - 7.0"
