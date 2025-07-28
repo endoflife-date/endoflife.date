@@ -32,7 +32,7 @@ releases:
 -   releaseCycle: "6.16"
     releaseDate: 2025-07-27
     eol: false # not yet announced
-    latest: "6.16.0"
+    latest: "6.16"
     latestReleaseDate: 2025-07-27
 
 -   releaseCycle: "6.15"
