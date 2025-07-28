@@ -114,4 +114,5 @@ A cluster using a Kafka version after its end of support date is auto-upgraded t
 Automatic upgrades can happen at any time after the end of support date. No notifications
 are sent before the upgrade.
 
-Cluster creation for EOL versions is phased out gradually, but no timelines are provided.
+Cluster creation for EOL versions is phased out gradually, but no timelines are provided. Patch releases are not
+always documented by AWS, such as `3.5.2`.
