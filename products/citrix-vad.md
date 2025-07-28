@@ -21,13 +21,13 @@ auto:
   methods:
   -   citrix-vad-rss: https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss
       regex:
-      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
-      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
-      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
-      - '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+ All Editions'
+      -   '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ All Editions$'
+      -   '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+ Standard Edition.+'
+      -   '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+CU(?P<minor>\d+).+$'
+      -   '^(New - )?Citrix Virtual( Apps and)? Desktops.+ (?P<major>\d+).+Cumulative Update (?P<minor>\d+).+ All Editions'
       regex_exclude:
-      - '^.+Advanced Edition.+$'
-      - '^.+Premium Edition.+$'
+      -   '^.+Advanced Edition.+$'
+      -   '^.+Premium Edition.+$'
       template: '{{major}}{%if minor %} CU{{minor}}{%endif%}'
 
 # For LTS see EOM / EOL on https://www.citrix.com/support/product-lifecycle/product-matrix.html.
@@ -52,21 +52,21 @@ releases:
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2411/whats-new
 
 -   releaseCycle: "2407"
-    releaseDate: 2024-07-31
+    releaseDate: 2024-07-30
     eoas: 2024-12-31
     eol: 2025-12-31
     latest: "2407"
-    latestReleaseDate: 2024-07-31
+    latestReleaseDate: 2024-07-30
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2407/whats-new
 
 -   releaseCycle: "2402"
-    releaseDate: 2024-04-15
+    releaseDate: 2024-04-14
     lts: true
     eoas: 2029-04-15
     eol: 2029-04-15
     eoes: 2034-04-15
     latest: "2402 CU2"
-    latestReleaseDate: 2025-02-06
+    latestReleaseDate: 2025-07-08
     link: https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/2402-ltsr/whats-new/cumulative-update-2.html
 
 -   releaseCycle: "2311"
