@@ -9,7 +9,7 @@ alternate_urls:
 -   /linux-kernel
 versionCommand: uname -r
 # Found on https://en.wikipedia.org/wiki/Linux_kernel_version_history
-releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/lagh6r24qzu3f3fkrmxk2mu4cl8u2xv.png
+releaseImage: https://upload.wikimedia.org/wikipedia/en/timeline/mj5ro70le7a76juxkv22cpjwzsmx19j.png
 releasePolicyLink: https://www.kernel.org/
 changelogTemplate: https://kernelnewbies.org/Linux___RELEASE_CYCLE__
 
@@ -29,6 +29,12 @@ identifiers:
 # LTS 2-year projected EOL see https://www.kernel.org/category/releases.html
 # non-LTS: releaseDate(x)+4 months
 releases:
+-   releaseCycle: "6.16"
+    releaseDate: 2025-07-27
+    eol: false # not yet announced
+    latest: "6.16"
+    latestReleaseDate: 2025-07-27
+
 -   releaseCycle: "6.15"
     releaseDate: 2025-05-25
     eol: false # not yet announced
