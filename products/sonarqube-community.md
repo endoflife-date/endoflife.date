@@ -10,7 +10,7 @@ eoasColumn: false
 eolColumn: false
 
 identifiers:
--   repology: sonarqube-community
+-   repology: sonarqube
 
 auto:
   methods:
