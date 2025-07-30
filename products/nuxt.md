@@ -20,11 +20,16 @@ auto:
   -   npm: nuxt
   -   release_table: https://nuxt.com/docs/community/roadmap
       selector: "table"
+      render_javascript: true
+      render_javascript_wait_for: table
       fields:
         releaseCycle:
           column: "Release"
           regex: '^(?P<value>\d+)\.x.*$'
-        eol: "End Of Life"
+        releaseDate: "Initial release"
+        eol:
+          column: "End Of Life"
+          regex: '^(?P<value>\d+-\d+-\d+).*$'
 
 releases:
 -   releaseCycle: "4"
