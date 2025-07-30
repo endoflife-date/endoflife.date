@@ -22,16 +22,16 @@ releases:
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: '18.5'
-    latestReleaseDate: 2025-05-12
+    latest: '18.6'
+    latestReleaseDate: 2025-07-29
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-18-release-notes
 
 -   releaseCycle: "17"
     releaseDate: 2023-09-18
     eoas: false
     eol: false
-    latest: '17.7.8'
-    latestReleaseDate: 2025-05-19
+    latest: '17.7.9'
+    latestReleaseDate: 2025-07-29
     link: https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-17-release-notes
 
 -   releaseCycle: "16"
