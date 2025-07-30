@@ -22,6 +22,7 @@ releases:
     releaseDate: 2025-01-06
     latest: "25.7.0.110598"
     latestReleaseDate: 2025-07-15
+    eol: false
     link: https://docs.sonarsource.com/sonarqube-community-build/server-upgrade-and-maintenance/release-notes/
 
 ---
