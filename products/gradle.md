@@ -52,6 +52,19 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x+2)
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2025-07-31
+    # Supported versions see https://docs.gradle.org/9.0.0/userguide/compatibility.html
+    runningJavaVersions: "17 - 24"
+    testedJavaVersions: "8 - 24"
+    testedKotlinVersions: "2.0.0 - 2.2.0"
+    testedGroovyVersions: "1.5.8 - 4.0.27"
+    testedAndroidVersions: "8.4 - 8.11"
+    eoas: false
+    eol: false
+    latest: "9.0.0"
+    latestReleaseDate: 2025-07-31
+
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
     # Supported versions see https://docs.gradle.org/8.13/userguide/compatibility.html
@@ -60,7 +73,7 @@ releases:
     testedKotlinVersions: "1.6.10 - 2.1.20-Beta2"
     testedGroovyVersions: "1.5.8 - 4.0.0"
     testedAndroidVersions: "7.3 - 8.8"
-    eoas: false
+    eoas: 2025-07-31
     eol: false
     latest: "8.14.3"
     latestReleaseDate: 2025-07-04
@@ -73,8 +86,8 @@ releases:
     testedKotlinVersions: "1.3.72 - 1.7.10"
     testedGroovyVersions: "1.5.8 - 4.0.0"
     testedAndroidVersions: "4.1 - 4.2, 7.0 - 7.4"
-    eoas: true
-    eol: false
+    eoas: 2023-02-10
+    eol: 2025-07-31
     latest: "7.6.6"
     latestReleaseDate: 2025-07-03
 
