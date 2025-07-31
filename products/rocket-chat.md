@@ -25,6 +25,13 @@ identifiers:
 # eoas(x) = releaseDate(x) (there is no more an active support phase, kept for historical purpose)
 # eol(x) can be found on https://docs.rocket.chat/docs/rocketchat-release-notes
 releases:
+-   releaseCycle: "7.9"
+    releaseDate: 2025-07-29
+    eoas: 2025-07-29
+    eol: 2026-01-31
+    latest: '7.9.0'
+    latestReleaseDate: 2025-07-29
+
 -   releaseCycle: "7.8"
     releaseDate: 2025-07-08
     eoas: 2025-07-08
