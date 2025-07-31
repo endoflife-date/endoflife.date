@@ -15,6 +15,8 @@ auto:
   -   github_releases: mattermost/mattermost-server
   -   release_table: https://docs.mattermost.com/about/mattermost-server-releases.html
       selector: "table"
+      render_javascript: true
+      render_javascript_wait_for: table
       fields:
         releaseCycle:
           column: "Release"
