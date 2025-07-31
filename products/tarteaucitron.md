@@ -10,7 +10,7 @@ auto:
     - git: https://github.com/AmauriC/tarteaucitron.js.git
 
 releases:
-  - releaseCycle: "1"
+-   releaseCycle: "1"
     releaseDate: 2018-08-28
     eol: false
     latest: "1.22.0"
