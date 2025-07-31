@@ -23,6 +23,12 @@ releases:
     eol: 2026-12-31 # until 12/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/15/pmipmhk40mb?pn=PB6S0012GB
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12161
 
+-   releaseCycle: "thinkphone-25-by-motorola"
+    releaseLabel: "ThinkPhone 25 by motorola"
+    releaseDate: 2024-08-01
+    eol: 2029-08-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12121
+
 -   releaseCycle: "moto-e14"
     releaseLabel: "Motorola Moto E14"
     releaseDate: 2024-04-01
