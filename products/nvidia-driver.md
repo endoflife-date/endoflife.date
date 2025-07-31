@@ -305,6 +305,15 @@ releases:
     latestReleaseDate: 2024-07-09
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-475-14/
 
+-   releaseCycle: "r465-linux"
+    releaseLabel: "R465-Linux (NFB)"
+    releaseDate: 2021-04-19
+    eoas: true
+    eol: 2022-04-19
+    latest: "465.24.02"
+    latestReleaseDate: 2021-04-19
+    link: https://download.nvidia.com/XFree86/Linux-x86_64/465.24.02/README/
+
 -   releaseCycle: "r460-linux"
     releaseLabel: "R460-Linux (PB)"
     releaseDate: 2021-01-07
