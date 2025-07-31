@@ -90,7 +90,7 @@ releases:
 -   releaseCycle: "8.5"
     lts: true
     releaseDate: 2023-08-21
-    eol: 2025-08-22
+    eol: 2025-12-15
     latest: "8.5.24"
     latestReleaseDate: 2025-07-01
 
