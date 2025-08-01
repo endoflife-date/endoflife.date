@@ -161,6 +161,16 @@ releases:
 
 > [Keycloak](https://www.keycloak.org/) is an open source identity and access management solution
 > for modern applications and services.
+ 
+## [Release Cadence](https://www.keycloak.org/2024/10/release-updates)
+
+Keycloak has a planned release cadence and a **backward-compatibility policy**: 
+deprecations can happen in a minor release, but features are not removed until
+the next major version. This guarantee does not apply to preview features.
+
+- 4 minor releases are planned every year, with a major release every 2-3 years
+- The client libraries are released separately. The latest client library release will support all
+  currently supported Keycloak server releases
 
 Only the latest major version gets active development and security fixes.
 Depending on the severity of a vulnerability, the issue may be fixed in the current release or, for
