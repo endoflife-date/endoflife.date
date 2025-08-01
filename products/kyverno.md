@@ -29,12 +29,19 @@ auto:
 # eol(X) = releaseDate(X+3)
 # Kubernetes support is documented on https://kyverno.io/docs/installation/#compatibility-matrix.
 releases:
+-   releaseCycle: "1.15"
+    releaseDate: 2025-07-31
+    eol: false
+    latest: "1.15.0"
+    latestReleaseDate: 2025-07-31
+    supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
+
 -   releaseCycle: "1.14"
     releaseDate: 2025-04-24
     eol: false
     latest: "1.14.4"
     latestReleaseDate: 2025-06-26
-    supportedK8sVersions: N/A # Not yet on https://kyverno.io/docs/installation/#compatibility-matrix
+    supportedK8sVersions: 1.29 - 1.32
 
 -   releaseCycle: "1.13"
     releaseDate: 2024-10-29
@@ -45,7 +52,7 @@ releases:
 
 -   releaseCycle: "1.12"
     releaseDate: 2024-04-26
-    eol: false
+    eol: 2025-07-31 # releaseDate(1.15)
     latest: "1.12.7"
     latestReleaseDate: 2025-01-16
     supportedK8sVersions: 1.26 - 1.29
