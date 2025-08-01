@@ -20,8 +20,10 @@ identifiers:
 
 auto:
   methods:
-  -   virtualbox: https://www.virtualbox.org/wiki/Download_Old_Builds
+  -   virtualbox-releases: https://www.virtualbox.org/wiki/Download_Old_Builds
       regex: '^VirtualBox (?P<value>\d+\.\d+)$'
+  -   virtualbox-versions: https://download.virtualbox.org/virtualbox/
+      regex: '^(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)\/$'
 
 # eol(x) = latestReleaseDate(x)
 # See EOL status on https://www.virtualbox.org/wiki/Download_Old_Builds.
