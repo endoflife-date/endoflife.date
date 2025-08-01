@@ -53,8 +53,8 @@ releases:
 -   releaseCycle: "2.13"
     releaseDate: 2025-04-09
     eol: false
-    latest: '2.13.1'
-    latestReleaseDate: 2025-05-22
+    latest: '2.13.2'
+    latestReleaseDate: 2025-07-31
 
 -   releaseCycle: "2.12"
     releaseDate: 2024-11-05
