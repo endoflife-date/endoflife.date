@@ -26,8 +26,8 @@ auto:
 releases:
 -   releaseCycle: "2.11"
     releaseDate: 2025-03-31
-    eoas: false # to update once defined on https://www.suse.com/lifecycle#rancher
-    eol: false # to update once defined on https://www.suse.com/lifecycle#rancher
+    eoas: 2026-10-24
+    eol: 2026-10-24
     latest: "2.11.4"
     latestReleaseDate: 2025-07-30
 
