@@ -67,12 +67,12 @@ releases:
 
 -   releaseCycle: "8"
     releaseDate: 2023-02-10
-    # Supported versions see https://docs.gradle.org/8.13/userguide/compatibility.html
-    runningJavaVersions: "8 - 23"
-    testedJavaVersions: "8 - 23"
-    testedKotlinVersions: "1.6.10 - 2.1.20-Beta2"
+    # Supported versions see https://docs.gradle.org/8.14.3/userguide/compatibility.html
+    runningJavaVersions: "8 - 24"
+    testedJavaVersions: "8 - 24"
+    testedKotlinVersions: "1.6.10 - 2.1.20-RC3"
     testedGroovyVersions: "1.5.8 - 4.0.0"
-    testedAndroidVersions: "7.3 - 8.8"
+    testedAndroidVersions: "7.3 - 8.9"
     eoas: 2025-07-31
     eol: false
     latest: "8.14.3"
@@ -80,7 +80,7 @@ releases:
 
 -   releaseCycle: "7"
     releaseDate: 2021-04-09
-    # Supported versions see https://docs.gradle.org/7.6.4/userguide/compatibility.html
+    # Supported versions see https://docs.gradle.org/7.6.6/userguide/compatibility.html
     runningJavaVersions: "8 - 19"
     testedJavaVersions: "8 - 19"
     testedKotlinVersions: "1.3.72 - 1.7.10"
