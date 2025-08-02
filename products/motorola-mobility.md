@@ -29,6 +29,18 @@ releases:
     eol: 2029-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12219
 
+-   releaseCycle: motorola-razr+-2025
+    releaseLabel: "Motorola Razr+ 2025"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12221
+
+-   releaseCycle: motorola-razr-2025
+    releaseLabel: "Motorola Razr 2025"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12222
+
 -   releaseCycle: "motorola-edge-60-fusion"
     releaseLabel: "Motorola Edge 60 Fusion"
     releaseDate: 2025-03-01
@@ -76,6 +88,18 @@ releases:
     releaseDate: 2024-08-01
     eol: 2029-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12121
+
+-   releaseCycle: motorola-razr+-2024
+    releaseLabel: "Motorola Razr+ 2024"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12041
+
+-   releaseCycle: motorola-razr-2024
+    releaseLabel: "Motorola Razr 2024"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12042
 
 -   releaseCycle: "motorola-razr-50-ultra"
     releaseLabel: "Motorola Razr 50 Ultra"
