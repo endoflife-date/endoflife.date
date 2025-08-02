@@ -13,6 +13,7 @@ auto:
   methods:
   -   release_table: https://www.microfocus.com/productlifecycle/
       render_javascript: true
+      render_javascript_wait_for: "text=Visual COBOL for Visual Studio"
       render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
@@ -26,8 +27,8 @@ auto:
 # Release and EOL dates can be found are those of Visual COBOL for Visual Studio on https://www.microfocus.com/productlifecycle/.
 releases:
 -   releaseCycle: "10.0"
-    releaseDate: 2024-09-24
-    eol: 2028-09-30
+    releaseDate: 2024-07-19
+    eol: 2028-07-31
     link: https://www.microfocus.com/documentation/visual-cobol/vc100/DevHub/index.html
 
 -   releaseCycle: "9.0"
