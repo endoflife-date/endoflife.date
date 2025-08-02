@@ -47,6 +47,30 @@ releases:
     eol: 2029-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12121
 
+-   releaseCycle: "motorola-razr-50-ultra"
+    releaseLabel: "Motorola Razr 50 Ultra"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12039
+
+-   releaseCycle: "motorola-razr-50s"
+    releaseLabel: "Motorola Razr 50s"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12155
+
+-   releaseCycle: "motorola-razr-50d"
+    releaseLabel: "Motorola Razr 50d"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12198
+
+-   releaseCycle: "motorola-razr-50"
+    releaseLabel: "Motorola Razr 50"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12040
+
 -   releaseCycle: "moto-e14"
     releaseLabel: "Motorola Moto E14"
     releaseDate: 2024-04-01
