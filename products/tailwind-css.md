@@ -7,7 +7,7 @@ permalink: /tailwind-css
 alternate_urls:
 -   /tailwind
 -   /tailwindcss
-changelogTemplate: "https://github.com/tailwindlabs/tailwindcss/releases/tags/v{{'__LATEST__'}}"
+changelogTemplate: https://github.com/tailwindlabs/tailwindcss/releases/tags/v__LATEST__
 eolColumn: Support
 
 auto:
