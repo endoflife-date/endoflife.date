@@ -1,12 +1,12 @@
 ---
 title: Tailwind CSS
 category: framework
-tags: css-runtime framework frontend
+tags: css-runtime framework
+iconslug: tailwind
 permalink: /tailwind-css
 alternate_urls:
 -   /tailwind
 -   /tailwindcss
-iconslug: tailwind
 changelogTemplate: "https://github.com/tailwindlabs/tailwindcss/releases/tags/v{{'__LATEST__'}}"
 eolColumn: Support
 
