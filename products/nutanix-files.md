@@ -19,8 +19,8 @@ releases:
     releaseDate: 2024-12-16
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
-    latest: "5.1.0.0"
-    latestReleaseDate: 2024-12-16
+    latest: "5.1.1.2"
+    latestReleaseDate: 2025-07-03
 
 -   releaseCycle: "5.0"
     releaseDate: 2024-05-15
