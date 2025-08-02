@@ -9,10 +9,10 @@ alternate_urls:
 releasePolicyLink: https://unity3d.com/unity/qa/lts-releases
 changelogTemplate: "https://unity.com/releases/editor/whats-new/{{'__LATEST__'|split:'f'|first}}#release-notes"
 
-# Disabled because there are anti-bot protection measures on https://unity.com/.
-#auto:
-#  methods:
-#  -   unity: https://unity.com/releases/editor/qa/lts-releases
+auto:
+  disabled: true # there are anti-bot protection measures on https://unity.com/
+  methods:
+  -   unity: https://unity.com/releases/editor/qa/lts-releases
 
 releases:
 -   releaseCycle: "6.1"

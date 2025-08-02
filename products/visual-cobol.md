@@ -8,20 +8,20 @@ changelogTemplate: "https://www.microfocus.com/documentation/visual-cobol/vc{{'_
 releaseColumn: false
 eolColumn: Support Status
 
-# Disabled for now, too instable
-#auto:
-#  methods:
-#  -   release_table: https://www.microfocus.com/productlifecycle/
-#      render_javascript: true
-#      render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
-#      selector: "table"
-#      header_selector: "tr:nth-of-type(1)"
-#      fields:
-#        releaseCycle:
-#          column: "Product Release"
-#          regex: '^Visual COBOL for Visual Studio (?P<value>\d+\.\d+).*$'
-#        releaseDate: "Release Date"
-#        eol: "Current Maintenance Ends"
+auto:
+  disabled: true # too unstable
+  methods:
+  -   release_table: https://www.microfocus.com/productlifecycle/
+      render_javascript: true
+      render_javascript_click_selector: "text=Visual COBOL for Visual Studio"
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Product Release"
+          regex: '^Visual COBOL for Visual Studio (?P<value>\d+\.\d+).*$'
+        releaseDate: "Release Date"
+        eol: "Current Maintenance Ends"
 
 # Release and EOL dates can be found are those of Visual COBOL for Visual Studio on https://www.microfocus.com/productlifecycle/.
 releases:
