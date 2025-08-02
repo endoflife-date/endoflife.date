@@ -90,7 +90,7 @@ releases:
 > support for real-time code and embedded system hardware. As ROS 1 will no longer be [supported past
 > May 2025](/ros), it is highly recommended for new projects to start using ROS 2.
 
-## Release Cadence
+Release Cadence:
 
 - There is a ROS 2 release every year on May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
@@ -104,5 +104,4 @@ Side effects of the release policy:
 - LTS releases will not share a common Ubuntu release with any previous releases.
 - ROS 2 releases will not add support for new Ubuntu distributions after their release date.
 
-These simplified rules and side effects are subject to change with changes to the underlying Ubuntu
-release policy.
+These simplified rules and side effects are subject to change with changes to the underlying Ubuntu release policy.
