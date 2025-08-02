@@ -7,7 +7,7 @@ iconSlug: oneplus
 permalink: /oneplus
 versionCommand: "Settings -> About device"
 releasePolicyLink: https://community.oneplus.com/thread/1462181
-changelogTemplate: "https://www.oneplus.com/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
+changelogTemplate: "https://www.oneplus.com/us/oneplus-{{'__RELEASE_CYCLE__'|downcase}}"
 releaseLabel: "OnePlus __RELEASE_CYCLE__"
 releaseColumn: false
 activeSupportColumn: Active Major Updates
