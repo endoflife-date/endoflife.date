@@ -23,6 +23,36 @@ releases:
     eol: 2028-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12238
 
+-   releaseCycle: moto-g96-5g
+    releaseLabel: "Moto G96 5G"
+    releaseDate: 2025-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12265
+
+-   releaseCycle: moto-g86-power-5g
+    releaseLabel: "Moto G86 Power 5G"
+    releaseDate: 2025-06-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12266
+
+-   releaseCycle: moto-g86-5g
+    releaseLabel: "Moto G86 5G"
+    releaseDate: 2025-06-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12218
+
+-   releaseCycle: moto-g66-5g
+    releaseLabel: "Moto G66 5G"
+    releaseDate: 2025-05-01
+    eol: 2029-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12389
+
+-   releaseCycle: moto-g56-5g
+    releaseLabel: "Moto G56 5G"
+    releaseDate: 2025-05-01
+    eol: 2029-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12217
+
 -   releaseCycle: "motorola-edge-60s-pro"
     releaseLabel: "Motorola Edge 60s Pro"
     releaseDate: 2025-04-01
@@ -107,6 +137,48 @@ releases:
     eol: 2026-12-31 # until 12/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/15/pmipmhk40mb?pn=PB6S0012GB
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12161
 
+-   releaseCycle: moto-g15-power
+    releaseLabel: "Moto G15 Power"
+    releaseDate: 2024-12-01
+    eol: 2026-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12182
+
+-   releaseCycle: moto-g15
+    releaseLabel: "Moto G15"
+    releaseDate: 2024-12-01
+    eol: 2026-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12159
+
+-   releaseCycle: moto-g05
+    releaseLabel: "Moto G05"
+    releaseDate: 2024-12-01
+    eol: 2026-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12160
+
+-   releaseCycle: moto-g75-5g
+    releaseLabel: "Moto G75 5G"
+    releaseDate: 2024-10-01
+    eol: 2030-10-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12117
+
+-   releaseCycle: moto-g55-5g
+    releaseLabel: "Moto G55 5G"
+    releaseDate: 2024-09-01
+    eol: 2028-09-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12119
+
+-   releaseCycle: moto-g45-5g
+    releaseLabel: "Moto G45 5G"
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12122
+    releaseDate: 2024-09-01
+    eol: 2026-09-30
+
+-   releaseCycle: moto-g35-5g
+    releaseLabel: "Moto G35 5G"
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12118
+    releaseDate: 2024-08-01
+    eol: 2027-08-31
+
 -   releaseCycle: "thinkphone-25-by-motorola"
     releaseLabel: "ThinkPhone 25 by motorola"
     releaseDate: 2024-08-01
@@ -124,6 +196,12 @@ releases:
     releaseDate: 2024-07-01
     eol: 2027-07-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12037
+
+-   releaseCycle: moto-g85-5g
+    releaseLabel: "Moto G85 5G"
+    releaseDate: 2024-06-01
+    eol: 2028-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12038
 
 -   releaseCycle: motorola-razr+-2024
     releaseLabel: "Motorola Razr+ 2024"
@@ -179,6 +257,18 @@ releases:
     eol: 2028-05-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11991
 
+-   releaseCycle: moto-g64y-5g
+    releaseLabel: "Moto G64Y 5G"
+    releaseDate: 2024-04-01
+    eol: 2027-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12111
+
+-   releaseCycle: moto-g64-5g
+    releaseLabel: "Moto G64 5G"
+    releaseDate: 2024-04-01
+    eol: 2027-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11873
+
 -   releaseCycle: "moto-e14"
     releaseLabel: "Motorola Moto E14"
     releaseDate: 2024-04-01
@@ -215,6 +305,24 @@ releases:
     eol: 2027-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11642
 
+-   releaseCycle: moto-g34-5g
+    releaseLabel: "Moto G34 5G"
+    releaseDate: 2024-01-01
+    eol: 2027-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11653
+
+-   releaseCycle: moto-g24-power
+    releaseLabel: "Moto G24 Power"
+    releaseDate: 2024-01-01
+    eol: 2027-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11646
+
+-   releaseCycle: moto-g04
+    releaseLabel: "Moto G04"
+    releaseDate: 2024-01-01
+    eol: 2026-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11648
+
 -   releaseCycle: "motorola-razr-40s"
     releaseLabel: "Motorola Razr 40S"
     releaseDate: 2023-11-01
@@ -228,7 +336,7 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11601
 
 -   releaseCycle: "moto-g54-5g"
-    releaseLabel: "Motorola Moto G54 5G"
+    releaseLabel: "Moto G54 5G"
     releaseDate: 2023-09-01
     eol: 2027-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11600
@@ -263,20 +371,26 @@ releases:
     eol: 2027-07-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11591
 
+-   releaseCycle: moto-g53s-5g
+    releaseLabel: "Moto G53s 5G"
+    releaseDate: 2023-06-01
+    eol: 2026-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11602
+
 -   releaseCycle: "moto-g-stylus-5g-2023"
-    releaseLabel: "Motorola Moto G Stylus 5G (2023)"
+    releaseLabel: "Moto G Stylus 5G (2023)"
     releaseDate: 2023-06-01
     eol: 2026-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11492
 
 -   releaseCycle: "moto-g53y-5g"
-    releaseLabel: "Motorola Moto G53Y 5G"
+    releaseLabel: "Moto G53Y 5G"
     releaseDate: 2023-06-01
     eol: 2026-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11599
 
 -   releaseCycle: "moto-g53j-5g"
-    releaseLabel: "Motorola Moto G53J 5G"
+    releaseLabel: "Moto G53J 5G"
     releaseDate: 2023-06-01
     eol: 2026-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11585
@@ -294,7 +408,7 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11489
 
 -   releaseCycle: "moto-g-5g-2023"
-    releaseLabel: "Motorola Moto G 5G (2023)"
+    releaseLabel: "Moto G 5G (2023)"
     releaseDate: 2023-05-01
     eol: 2026-05-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11494
@@ -312,13 +426,13 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11533
 
 -   releaseCycle: "moto-g-stylus-2023"
-    releaseLabel: "Motorola Moto G Stylus (2023)"
+    releaseLabel: "Moto G Stylus (2023)"
     releaseDate: 2023-04-01
     eol: 2026-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11493
 
 -   releaseCycle: "moto-g-power-5g-2023"
-    releaseLabel: "Motorola Moto G Power 5G (2023)"
+    releaseLabel: "Moto G Power 5G (2023)"
     releaseDate: 2023-04-01
     eol: 2026-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11490
@@ -330,37 +444,37 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11491
 
 -   releaseCycle: "moto-g-play-2023"
-    releaseLabel: "Motorola Moto G Play (2023)"
+    releaseLabel: "Moto G Play (2023)"
     releaseDate: 2023-01-01
     eol: 2025-12-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11403
 
 -   releaseCycle: "moto-g73-5g"
-    releaseLabel: "Motorola Moto G73 5G"
+    releaseLabel: "Moto G73 5G"
     releaseDate: 2023-01-01
     eol: 2026-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11431
 
 -   releaseCycle: "moto-g53-5g"
-    releaseLabel: "Motorola Moto G53 5G"
+    releaseLabel: "Moto G53 5G"
     releaseDate: 2023-01-01
     eol: 2026-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11426
 
 -   releaseCycle: "moto-g23"
-    releaseLabel: "Motorola Moto G23"
+    releaseLabel: "Moto G23"
     releaseDate: 2023-01-01
     eol: 2026-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11430
 
 -   releaseCycle: "moto-g13"
-    releaseLabel: "Motorola Moto G13"
+    releaseLabel: "Moto G13"
     releaseDate: 2023-01-01
     eol: 2026-01-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11429
 
 -   releaseCycle: "moto-e13"
-    releaseLabel: "Motorola Moto E13"
+    releaseLabel: "Moto E13"
     releaseDate: 2023-01-01
     eol: 2025-01-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11427
@@ -372,25 +486,25 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11418
 
 -   releaseCycle: "moto-g72"
-    releaseLabel: "Motorola Moto G72"
+    releaseLabel: "Moto G72"
     releaseDate: 2022-10-01
     eol: 2025-10-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11372
 
 -   releaseCycle: "moto-e22s"
-    releaseLabel: "Motorola Moto E22S"
+    releaseLabel: "Moto E22S"
     releaseDate: 2022-10-01
     eol: 2024-10-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11369
 
 -   releaseCycle: "moto-e22i"
-    releaseLabel: "Motorola Moto E22I"
+    releaseLabel: "Moto E22I"
     releaseDate: 2022-10-01
     eol: 2024-10-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11356
 
 -   releaseCycle: "moto-e22"
-    releaseLabel: "Motorola Moto E22"
+    releaseLabel: "Moto E22"
     releaseDate: 2022-10-01
     eol: 2024-10-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11357
@@ -420,7 +534,7 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11358
 
 -   releaseCycle: "moto-g32"
-    releaseLabel: "Motorola Moto G32"
+    releaseLabel: "Moto G32"
     releaseDate: 2022-08-01
     eol: 2025-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11354
@@ -432,37 +546,37 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319
 
 -   releaseCycle: "moto-g62-5g"
-    releaseLabel: "Motorola Moto G62 5G"
+    releaseLabel: "Moto G62 5G"
     releaseDate: 2022-06-01
     eol: 2025-06-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11297
 
 -   releaseCycle: "moto-g52j-5g"
-    releaseLabel: "Motorola Moto G52J 5G"
+    releaseLabel: "Moto G52J 5G"
     releaseDate: 2022-06-01
     eol: 2025-06-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11299
 
 -   releaseCycle: "moto-g42"
-    releaseLabel: "Motorola Moto G42"
+    releaseLabel: "Moto G42"
     releaseDate: 2022-06-01
     eol: 2025-06-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11309
 
 -   releaseCycle: "moto-e32s"
-    releaseLabel: "Motorola Moto E32S"
+    releaseLabel: "Moto E32S"
     releaseDate: 2022-06-01
     eol: 2024-06-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11248
 
 -   releaseCycle: "moto-g82-5g"
-    releaseLabel: "Motorola Moto G82 5G"
+    releaseLabel: "Moto G82 5G"
     releaseDate: 2022-05-01
     eol: 2025-05-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11292
 
 -   releaseCycle: "moto-e32"
-    releaseLabel: "Motorola Moto E32"
+    releaseLabel: "Moto E32"
     releaseDate: 2022-05-01
     eol: 2024-05-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11249
@@ -474,31 +588,31 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11247
 
 -   releaseCycle: "moto-g-stylus-5g-2022"
-    releaseLabel: "Motorola Moto G Stylus 5G (2022)"
+    releaseLabel: "Moto G Stylus 5G (2022)"
     releaseDate: 2022-04-01
     eol: 2025-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11246
 
 -   releaseCycle: "moto-g-5g-2022"
-    releaseLabel: "Motorola Moto G 5G (2022)"
+    releaseLabel: "Moto G 5G (2022)"
     releaseDate: 2022-04-01
     eol: 2025-04-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11241
 
 -   releaseCycle: "moto-g52"
-    releaseLabel: "Motorola Moto G52"
+    releaseLabel: "Moto G52"
     releaseDate: 2022-04-01
     eol: 2025-04-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11240
 
 -   releaseCycle: "moto-g22"
-    releaseLabel: "Motorola Moto G22"
+    releaseLabel: "Moto G22"
     releaseDate: 2022-03-01
     eol: 2025-03-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11235
 
 -   releaseCycle: "moto-g-stylus-2022"
-    releaseLabel: "Motorola Moto G Stylus (2022)"
+    releaseLabel: "Moto G Stylus (2022)"
     releaseDate: 2022-02-01
     eol: 2024-02-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11225
@@ -516,67 +630,67 @@ releases:
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11221
 
 -   releaseCycle: "moto-g-power-2022"
-    releaseLabel: "Motorola Moto G Power (2022)"
+    releaseLabel: "Moto G Power (2022)"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11208
 
 -   releaseCycle: "moto-g200-5g"
-    releaseLabel: "Motorola Moto G200 5G"
+    releaseLabel: "Moto G200 5G"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11210
 
 -   releaseCycle: "moto-g71-5g"
-    releaseLabel: "Motorola Moto G71 5G"
+    releaseLabel: "Moto G71 5G"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11207
 
 -   releaseCycle: "moto-g51-5g"
-    releaseLabel: "Motorola Moto G51 5G"
+    releaseLabel: "Moto G51 5G"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11211
 
 -   releaseCycle: "moto-g41"
-    releaseLabel: "Motorola Moto G41"
+    releaseLabel: "Moto G41"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11198
 
 -   releaseCycle: "moto-g31"
-    releaseLabel: "Motorola Moto G31"
+    releaseLabel: "Moto G31"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11197
 
 -   releaseCycle: "moto-g-pure-2021"
-    releaseLabel: "Motorola Moto G Pure (2021)"
+    releaseLabel: "Moto G Pure (2021)"
     releaseDate: 2021-11-01
     eol: 2023-11-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179
 
 -   releaseCycle: "moto-g-pure"
-    releaseLabel: "Motorola Moto G Pure"
+    releaseLabel: "Moto G Pure"
     releaseDate: 2021-09-01
     eol: 2023-09-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179
 
 -   releaseCycle: "moto-e40"
-    releaseLabel: "Motorola Moto E40"
+    releaseLabel: "Moto E40"
     releaseDate: 2021-09-01
     eol: 2023-09-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11178
 
 -   releaseCycle: "moto-e30"
-    releaseLabel: "Motorola Moto E30"
+    releaseLabel: "Moto E30"
     releaseDate: 2021-09-01
     eol: 2023-09-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11177
 
 -   releaseCycle: "moto-e20"
-    releaseLabel: "Motorola Moto E20"
+    releaseLabel: "Moto E20"
     releaseDate: 2021-09-01
     eol: 2023-09-01
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11168
