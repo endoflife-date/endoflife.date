@@ -13,20 +13,20 @@ identifiers:
 -   cpe: cpe:2.3:a:unrealircd:unrealircd
 -   cpe: cpe:/a:unrealircd:unrealircd
 
-# https://www.unrealircd.org is now protected by anti-bot measures.
-#auto:
-#  methods:
-#  -   unrealircd: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
-#  -   release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
-#      selector: "table"
-#      header_selector: "tr:nth-of-type(1)"
-#      fields:
-#        releaseCycle:
-#          column: "Series"
-#          regex: '^UnrealIRCd (?P<value>\d+(\.\d+)?)$'
-#        releaseDate: "First stable release"
-#        eoas: "Security fixes only"
-#        eol: "End of life (EOL)"
+auto:
+  disabled: true # https://www.unrealircd.org is protected by anti-bot measures
+  methods:
+  -   unrealircd: https://www.unrealircd.org/docwiki/index.php?title=History_of_UnrealIRCd_releases&action=raw
+  -   release_table: https://www.unrealircd.org/docs/UnrealIRCd_releases
+      selector: "table"
+      header_selector: "tr:nth-of-type(1)"
+      fields:
+        releaseCycle:
+          column: "Series"
+          regex: '^UnrealIRCd (?P<value>\d+(\.\d+)?)$'
+        releaseDate: "First stable release"
+        eoas: "Security fixes only"
+        eol: "End of life (EOL)"
 
 releases:
 -   releaseCycle: "6"

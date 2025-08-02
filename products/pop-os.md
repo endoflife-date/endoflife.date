@@ -12,12 +12,6 @@ versionCommand: cat /etc/os-release
 releaseColumn: false
 eolColumn: General Support
 
-# Not needed (releaseColumn is false)
-#auto:
-#-   distrowatch: popos
-#    regex: '^Distribution Release: Pop!_OS (?P<version>\d+\.\d+\.?\d+)$'
-#    template: "{{version}}"
-
 releases:
 -   releaseCycle: "22.04"
     releaseDate: 2022-04-25
