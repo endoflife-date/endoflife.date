@@ -17,11 +17,23 @@ auto:
   -   motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+-   releaseCycle: "motorola-razr-60"
+    releaseLabel: "Motorola Razr 60"
+    releaseDate: 2025-03-01
+    eol: 2029-06-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12220
+
 -   releaseCycle: "motorola-razr-ultra-2025"
     releaseLabel: "Motorola Razr Ultra 2025"
     releaseDate: 2025-02-01
     eol: 2029-02-28
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12208
+
+-   releaseCycle: "motorola-razr-60-ultra"
+    releaseLabel: "Motorola Razr 60 Ultra"
+    releaseDate: 2025-02-01
+    eol: 2029-02-28
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12209
 
 -   releaseCycle: "moto-e15"
     releaseLabel: "Motorola Moto E15"
