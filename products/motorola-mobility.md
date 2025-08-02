@@ -71,6 +71,12 @@ releases:
     eol: 2029-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12220
 
+-   releaseCycle: moto-g-stylus-2025
+    releaseLabel: "Moto G Stylus 5G (2025)"
+    releaseDate: 2025-03-01
+    eol: 2028-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12204
+
 -   releaseCycle: "motorola-razr-ultra-2025"
     releaseLabel: "Motorola Razr Ultra 2025"
     releaseDate: 2025-02-01
@@ -82,6 +88,18 @@ releases:
     releaseDate: 2025-02-01
     eol: 2029-02-28
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12209
+
+-   releaseCycle: moto-g-power-2025
+    releaseLabel: "Moto G Power 5G (2025)"
+    releaseDate: 2025-01-01
+    eol: 2028-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12162
+
+-   releaseCycle: moto-g-2025
+    releaseLabel: "Moto G (2025)"
+    releaseDate: 2024-12-01
+    eol: 2027-12-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12163
 
 -   releaseCycle: "moto-e15"
     releaseLabel: "Motorola Moto E15"
@@ -143,6 +161,12 @@ releases:
     eol: 2028-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12040
 
+-   releaseCycle: moto-g-stylus-5g-2024
+    releaseLabel: "Moto G Stylus 5G (2024)"
+    releaseDate: 2024-05-01
+    eol: 2027-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11850
+
 -   releaseCycle: motorola-edge-2024
     releaseLabel: "Motorola edge 2024"
     releaseDate: 2024-05-01
@@ -167,11 +191,29 @@ releases:
     eol: 2028-04-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11871
 
+-   releaseCycle: moto-g-power-5g-2024
+    releaseLabel: "Moto G Power 5G (2024)"
+    releaseDate: 2024-03-01
+    eol: 2027-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11644
+
+-   releaseCycle: moto-g-5g-2024
+    releaseLabel: "Moto G 5G (2024)"
+    releaseDate: 2024-03-01
+    eol: 2027-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11643
+
 -   releaseCycle: motorola-edge-50-pro
     releaseLabel: "Motorola Edge 50 Pro"
     releaseDate: 2024-03-01
     eol: 2028-02-29
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11849
+
+-   releaseCycle: moto-g-play-2024
+    releaseLabel: "Moto G Play (2024)"
+    releaseDate: 2024-01-01
+    eol: 2027-01-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11642
 
 -   releaseCycle: "motorola-razr-40s"
     releaseLabel: "Motorola Razr 40S"
