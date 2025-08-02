@@ -89,6 +89,18 @@ releases:
     eol: 2029-08-31
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12121
 
+-   releaseCycle: motorola-edge-50-neo
+    releaseLabel: "Motorola Edge 50 Neo"
+    releaseDate: 2024-08-01
+    eol: 2029-08-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12047
+
+-   releaseCycle: motorola-edge-50
+    releaseLabel: "Motorola Edge 50"
+    releaseDate: 2024-07-01
+    eol: 2027-07-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12037
+
 -   releaseCycle: motorola-razr+-2024
     releaseLabel: "Motorola Razr+ 2024"
     releaseDate: 2024-06-01
@@ -125,11 +137,29 @@ releases:
     eol: 2028-06-30
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12040
 
+-   releaseCycle: motorola-edge-50-ultra
+    releaseLabel: "Motorola Edge 50 Ultra"
+    releaseDate: 2024-05-01
+    eol: 2028-05-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11991
+
 -   releaseCycle: "moto-e14"
     releaseLabel: "Motorola Moto E14"
     releaseDate: 2024-04-01
     eol: 2026-04-30 # until 04/2026, see https://www.motorola.com/gb/en/p/phones/moto-e/14/pmipmhb38m2?pn=PB3C0002GB
     link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12029
+
+-   releaseCycle: motorola-edge-50-fusion
+    releaseLabel: "Motorola Edge 50 Fusion"
+    releaseDate: 2024-04-01
+    eol: 2028-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11871
+
+-   releaseCycle: motorola-edge-50-pro
+    releaseLabel: "Motorola Edge 50 Pro"
+    releaseDate: 2024-03-01
+    eol: 2028-02-29
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11849
 
 -   releaseCycle: "motorola-razr-40s"
     releaseLabel: "Motorola Razr 40S"
