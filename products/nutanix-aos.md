@@ -6,7 +6,7 @@ tags: nutanix
 iconSlug: nutanix
 permalink: /nutanix-aos
 versionCommand: ncli cluster version
-releasePolicyLink: "https://www.nutanix.com/support-services/product-support/support-policies-and-faqs"
+releasePolicyLink: https://www.nutanix.com/support-services/product-support/support-policies-and-faqs
 eoasColumn: End of Maintenance
 eolColumn: End of Support Life
 
@@ -176,21 +176,10 @@ releases:
 > system that provides the core functionality leveraged by workloads and services running on the
 > Nutanix platform.
 
-AOS releases and the associated policy is inclusive of software such as AHV, Foundation and Nutanix
-Cluster Check (NCC). Only the latest patch release in any given release cycle is supported.
+Nutanix AOS versions are designated using the following format: `X.Y.Z.n`, where `X` is the major version,
+`Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
 
-## [Releases](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG)
-
-* **Short-Term Support (STS)** have new features, and also provide a regular upgrade path and are
-  released every 3–6 months. They receive security and phone support for three (3) months from the
-  next major/minor release.
-* **Long-Term Support (LTS)** which are maintained for a longer duration and provide primarily bug
-  fixes for an extended period of time on a particular release family. Each LTS Release is
-  maintained for 3 months after the next LTS major/minor release is made. Each LTS release will
-  then receive security and phone support for next 9 months.
-
-## Release Cadence
-
-* Major/Minor releases are typically made available every 6–9 months.
-* Maintenance releases are typically made available every 4–6 weeks.
-* Patch Releases are made available on an as-needed basis.
+Since AOS 7.0, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG) from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
+Under this model, major or minor releases are typically made available every 6–9 months.
+All releases are actively maintained with bug and security fixes for 15 months,
+followed by an additional 9 months of troubleshooting with only security fixes.
