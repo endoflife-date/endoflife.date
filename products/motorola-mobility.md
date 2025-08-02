@@ -17,6 +17,36 @@ auto:
   -   motorola-security: https://en-us.support.motorola.com/app/software-security-update
 
 releases:
+-   releaseCycle: "motorola-edge-60s-pro"
+    releaseLabel: "Motorola Edge 60s Pro"
+    releaseDate: 2025-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12400
+
+-   releaseCycle: "motorola-edge-60-pro"
+    releaseLabel: "Motorola Edge 60 Pro"
+    releaseDate: 2025-04-01
+    eol: 2029-04-30
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12219
+
+-   releaseCycle: "motorola-edge-60-fusion"
+    releaseLabel: "Motorola Edge 60 Fusion"
+    releaseDate: 2025-03-01
+    eol: 2029-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12206
+
+-   releaseCycle: "motorola-edge-60-stylus"
+    releaseLabel: "Motorola Edge 60 Stylus"
+    releaseDate: 2025-03-01
+    eol: 2028-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12205
+
+-   releaseCycle: "motorola-edge-60"
+    releaseLabel: "Motorola Edge 60"
+    releaseDate: 2025-03-01
+    eol: 2029-03-31
+    link: https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12207
+
 -   releaseCycle: "motorola-razr-60"
     releaseLabel: "Motorola Razr 60"
     releaseDate: 2025-03-01
