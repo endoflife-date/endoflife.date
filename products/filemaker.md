@@ -25,6 +25,11 @@ auto:
         eol: "EOL date"
 
 releases:
+-   releaseCycle: "2025"
+    releaseDate: 2025-07-08 # https://www.claris.com/blog/2025/announcing-the-2025-release-of-claris-filemaker
+    eol: 2027-07-08
+    link: https://help.claris.com/en/server-release-notes/content/index.html
+
 -   releaseCycle: "2024"
     releaseDate: 2024-06-30 # https://community.claris.com/en/s/question/0D5Vy000009idtMKAQ/introducing-claris-filemaker-2024
     eol: 2026-06-30
