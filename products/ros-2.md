@@ -13,6 +13,18 @@ releaseLabel: '__CODENAME__'
 releaseColumn: false
 eolColumn: End Of Life
 
+auto:
+  methods:
+  -   release_table: https://docs.ros.org/en/rolling/Releases.html
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Distro"
+          regex: '^(?P<value>\w+) \w+$'
+        codename: "Distro"
+        releaseDate: "Release Date"
+        eol: "EOL date"
+
 releases:
 -   releaseCycle: 'kilted'
     codename: 'Kilted Kaiju'
