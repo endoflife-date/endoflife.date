@@ -63,6 +63,34 @@ releases:
     latest: "5.2.3"
     latestReleaseDate: 2014-11-15
 
+-   releaseCycle: '4'
+    releaseDate: 2007-12-19
+    eoas: 2009-04-29
+    eol: true # not documented on https://www.netbsd.org/releases/formal.html
+    latest: '4.0.1'
+    latestReleaseDate: 2008-10-14
+
+-   releaseCycle: '3'
+    releaseDate: 2005-12-23
+    eoas: 2007-12-19
+    eol: 2009-05-30
+    latest: '3.1'
+    latestReleaseDate: 2006-11-04
+
+-   releaseCycle: '2'
+    releaseDate: 2004-12-09
+    eoas: 2005-12-23
+    eol: 2008-08-21
+    latest: '2.1'
+    latestReleaseDate: 2005-11-02
+
+-   releaseCycle: '1'
+    releaseDate: 1994-10-26
+    eoas: 2004-12-09
+    eol: 2006-05-17
+    latest: '1.6.2'
+    latestReleaseDate: 2004-03-01
+
 ---
 
 > [NetBSD](https://www.netbsd.org/) is a free, fast, secure, and extremely portable UNIX-like
