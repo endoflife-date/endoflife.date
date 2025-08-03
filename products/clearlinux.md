@@ -1,6 +1,6 @@
 ---
 title: Clear Linux
-addedAt: 2025-07-20
+addedAt: 2025-07-22
 category: os
 tags: linux-distribution intel
 iconSlug: intel

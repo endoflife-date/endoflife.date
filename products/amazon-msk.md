@@ -1,5 +1,6 @@
 ---
 title: Amazon MSK
+addedAt: 2025-07-28
 category: service
 tags: amazon
 iconSlug: amazonaws
