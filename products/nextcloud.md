@@ -117,6 +117,48 @@ releases:
     latest: "16.0.11"
     latestReleaseDate: 2020-06-04
 
+-   releaseCycle: '15'
+    releaseDate: 2018-12-10
+    eol: 2019-12-31
+    latest: '15.0.14'
+    latestReleaseDate: 2019-12-19
+
+-   releaseCycle: '14'
+    releaseDate: 2018-09-10
+    eol: 2019-09-30
+    latest: '14.0.14'
+    latestReleaseDate: 2019-08-14
+
+-   releaseCycle: '13'
+    releaseDate: 2018-02-06
+    eol: 2019-02-28
+    latest: '13.0.12'
+    latestReleaseDate: 2019-02-27
+
+-   releaseCycle: '12'
+    releaseDate: 2017-05-22
+    eol: 2018-11-30
+    latest: '12.0.13'
+    latestReleaseDate: 2018-11-22
+
+-   releaseCycle: '11'
+    releaseDate: 2016-12-13
+    eol: 2018-03-31
+    latest: '11.0.8'
+    latestReleaseDate: 2018-03-13
+
+-   releaseCycle: '10'
+    releaseDate: 2016-08-25
+    eol: 2017-08-31
+    latest: '10.0.6'
+    latestReleaseDate: 2017-08-06
+
+-   releaseCycle: '9'
+    releaseDate: 2016-08-03
+    eol: 2017-08-31
+    latest: '9.1.3'
+    latestReleaseDate: 2016-12-12
+
 ---
 
 > [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using
