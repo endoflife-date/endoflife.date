@@ -69,8 +69,8 @@ The last two minor releases are supported with bug and security fixes.
 When a new major release is made, the last minor of the previous major is supported for at least 12 months.
 As of 2 August 2025:
 
-- InfluxDB 1 is [still supported for paying customers](https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103),
-- InfluxDB 2 is [not planned to be EOL'd](https://community.influxdata.com/t/questions-about-influxdb-3-enterprise-free-tier-for-home-users-and-the-future-of-influxdb-v2/57028).
+- InfluxDB 1 is [still supported for paying customers](https://github.com/influxdata/influxdb/issues/25045#issuecomment-2153063103) (see also, [release notes for version 1](https://docs.influxdata.com/enterprise_influxdb/v1/about-the-project/release-notes/)),
+- InfluxDB 2 is [not planned to be EOL'd](https://community.influxdata.com/t/questions-about-influxdb-3-enterprise-free-tier-for-home-users-and-the-future-of-influxdb-v2/57028) (see also, [release notes for version 2](https://docs.influxdata.com/influxdb/v2/reference/release-notes/influxdb/)).
 
 There is no documented support policy for InfluxDB OSS/Core.
 However, it's likely the OSS/Core support is similar to the commercial support.
