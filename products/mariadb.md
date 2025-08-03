@@ -33,6 +33,9 @@ auto:
       # and Z a regex that only matches GA release patch numbers in that cycle.
       # Note: This needs to be edited when a new release cycle (a new GA release) is added.
       regex:
+      -   ^mariadb-(?P<major>5)\.(?P<minor>1)\.(?P<patch>(4[2-9]|[5-9]\d))$
+      -   ^mariadb-(?P<major>5)\.(?P<minor>2)\.(?P<patch>([3-9]|\d{2}))$
+      -   ^mariadb-(?P<major>5)\.(?P<minor>3)\.(?P<patch>([5-9]|\d{2}))$
       -   ^mariadb-(?P<major>5)\.(?P<minor>5)\.(?P<patch>(29|[3-9]\d))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>0)\.(?P<patch>(1[2-9]|[2-9]\d))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>1)\.(?P<patch>(1[8-9]|[2-9]\d))$
@@ -213,6 +216,30 @@ releases:
     latest: "5.5.68"
     latestReleaseDate: 2020-05-06
     link: https://mariadb.com/kb/en/mariadb-5568-release-notes/
+
+-   releaseCycle: '5.3'
+    releaseDate: 2012-02-29
+    eol: 2017-03-01
+    eoes: 2017-03-01
+    latest: '5.3.12'
+    latestReleaseDate: 2013-01-28
+    link: https://mariadb.com/kb/en/mariadb-5312-release-notes/
+
+-   releaseCycle: '5.2'
+    releaseDate: 2010-11-10
+    eol: 2015-11-10
+    eoes: 2015-11-10
+    latest: '5.2.14'
+    latestReleaseDate: 2013-01-28
+    link: https://mariadb.com/kb/en/mariadb-5214-release-notes/
+
+-   releaseCycle: '5.1'
+    releaseDate: 2010-02-01
+    eol: 2015-02-01
+    eoes: 2015-02-01
+    latest: '5.1.67'
+    latestReleaseDate: 2013-01-25
+    link: https://mariadb.com/kb/en/mariadb-5167-release-notes/
 
 ---
 
