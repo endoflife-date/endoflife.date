@@ -197,6 +197,75 @@ releases:
     latest: "2.7.4"
     latestReleaseDate: 2020-07-20
 
+-   releaseCycle: '2.6'
+    releaseDate: 2019-08-01
+    eoas: 2019-11-01
+    eol: 2020-02-03
+    latest: '2.6.3'
+    latestReleaseDate: 2019-10-22
+
+-   releaseCycle: '2.5'
+    releaseDate: 2019-04-24
+    eoas: 2019-08-01
+    eol: 2019-11-06
+    latest: '2.5.2'
+    latestReleaseDate: 2019-08-01
+
+-   releaseCycle: '2.4'
+    releaseDate: 2018-12-19
+    eoas: 2019-04-30
+    eol: 2019-08-01
+    latest: '2.4'
+    latestReleaseDate: 2018-12-19
+
+-   releaseCycle: '2.3'
+    lts: true
+    releaseDate: 2018-10-31
+    eoas: 2020-02-01
+    eol: 2020-02-01
+    latest: '2.3'
+    latestReleaseDate: 2018-10-31
+
+-   releaseCycle: '1.13'
+    lts: true
+    releaseDate: 2017-10-31
+    eoas: 2019-04-30
+    eol: 2019-04-30
+    latest: '1.13.4'
+    latestReleaseDate: 2018-08-13
+
+-   releaseCycle: '1.12'
+    lts: true
+    releaseDate: 2017-08-31
+    eoas: 2018-11-30
+    eol: 2018-11-30
+    latest: '1.12.6'
+    latestReleaseDate: 2018-08-13
+
+-   releaseCycle: '1.8'
+    lts: true
+    releaseDate: 2016-12-31
+    eoas: 2017-08-31
+    eol: 2017-08-31
+    latest: '1.8.2'
+    latestReleaseDate: 2017-04-21
+
+-   releaseCycle: '1.4'
+    lts: true
+    releaseDate: 2016-03-31
+    eoas: 2016-12-31
+    eol: 2016-12-31
+    latest: '1.4.6'
+    latestReleaseDate: 2016-07-18
+
+-   releaseCycle: '0.8'
+    lts: true
+    releaseDate: 2014-11-30
+    eoas: 2016-03-31
+    eol: 2016-03-31
+    latest: '0.8.10'
+    latestReleaseDate: 2015-09-16
+
 ---
 
 > [Wagtail](https://wagtail.org/) is an open source content management system built on Django, with
