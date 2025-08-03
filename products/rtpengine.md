@@ -56,8 +56,8 @@ releases:
     releaseDate: 2024-08-14
     eol: 2027-07-23
     link: https://www.sipwise.com/releases/2024/mr12.5
-    latest: "12.5.1.38"
-    latestReleaseDate: 2025-07-23
+    latest: "12.5.1.40"
+    latestReleaseDate: 2025-08-02
 
 -   releaseCycle: "11.5"
     lts: true

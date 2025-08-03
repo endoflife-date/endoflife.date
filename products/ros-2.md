@@ -29,22 +29,22 @@ releases:
 -   releaseCycle: 'kilted'
     codename: 'Kilted Kaiju'
     releaseDate: 2025-05-23
-    eol: 2026-12-01
+    eol: 2026-12-31
 
 -   releaseCycle: 'jazzy'
     codename: 'Jazzy Jalisco'
     releaseDate: 2024-05-23
-    eol: 2029-05-01
+    eol: 2029-05-31
 
 -   releaseCycle: 'iron'
     codename: 'Iron Irwini'
     releaseDate: 2023-05-23
-    eol: 2024-11-01
+    eol: 2024-12-04
 
 -   releaseCycle: 'humble'
     codename: 'Humble Hawksbill'
     releaseDate: 2022-05-23
-    eol: 2027-05-01
+    eol: 2027-05-31
 
 -   releaseCycle: 'galactic'
     codename: 'Galactic Geochelone'
@@ -54,33 +54,33 @@ releases:
 -   releaseCycle: 'foxy'
     codename: 'Foxy Fitzroy'
     releaseDate: 2020-06-05
-    eol: 2023-05-01
+    eol: 2023-06-20
 
 -   releaseCycle: 'eloquent'
     codename: 'Eloquent Elusor'
     releaseDate: 2019-11-22
-    eol: 2020-11-01
+    eol: 2020-11-30
 
 -   releaseCycle: 'dashing'
     codename: 'Dashing Diademata'
     releaseDate: 2019-05-31
-    eol: 2021-05-01
+    eol: 2021-05-31
 
 -   releaseCycle: 'crystal'
     codename: 'Crystal Clemmys'
     releaseDate: 2018-12-14
-    eol: 2019-12-01
+    eol: 2019-12-31
 
 -   releaseCycle: 'bouncy'
     codename: 'Bouncy Bolson'
     releaseDate: 2018-07-02
-    eol: 2019-07-01
+    eol: 2019-07-31
     link: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
 
 -   releaseCycle: 'ardent'
     codename: 'Ardent Apalone'
     releaseDate: 2017-12-08
-    eol: 2018-12-01
+    eol: 2018-12-31
     link: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
 
 ---
