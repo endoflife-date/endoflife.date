@@ -166,6 +166,70 @@ releases:
     latest: "1.11.29"
     latestReleaseDate: 2020-03-04
 
+-   releaseCycle: '1.10'
+    releaseDate: 2016-08-01
+    eoas: 2017-04-04
+    eol: 2017-12-02
+    supportedPythonVersions: "2.7, 3.4 - 3.5"
+    latest: '1.10.8'
+    latestReleaseDate: 2017-09-05
+
+-   releaseCycle: '1.9'
+    releaseDate: 2015-12-01
+    eoas: 2016-08-01
+    eol: 2017-04-04
+    supportedPythonVersions: "2.7, 3.4 - 3.5"
+    latest: '1.9.13'
+    latestReleaseDate: 2017-04-04
+
+-   releaseCycle: '1.8'
+    releaseDate: 2015-04-01
+    eoas: 2015-12-01
+    eol: 2018-04-01
+    supportedPythonVersions: "2.7, 3.2 - 3.5"
+    latest: '1.8.19'
+    latestReleaseDate: 2018-03-06
+
+-   releaseCycle: '1.7'
+    releaseDate: 2014-09-03
+    eoas: 2015-04-01
+    eol: 2015-12-01
+    supportedPythonVersions: "2.7, 3.2 - 3.4"
+    latest: '1.7.11'
+    latestReleaseDate: 2015-11-24
+
+-   releaseCycle: '1.6'
+    releaseDate: 2013-11-06
+    eoas: 2014-09-02
+    eol: 2015-04-01
+    supportedPythonVersions: "2.6 - 2.7, 3.2 - 3.3"
+    latest: '1.6.11'
+    latestReleaseDate: 2015-03-18
+
+-   releaseCycle: '1.5'
+    releaseDate: 2013-02-26
+    eoas: 2013-11-06
+    eol: 2014-09-02
+    supportedPythonVersions: "2.6 - 2.7, 3.2"
+    latest: '1.5.12'
+    latestReleaseDate: 2015-01-02
+
+-   releaseCycle: '1.4'
+    releaseDate: 2012-03-23
+    eoas: 2013-02-26
+    eol: 2015-10-01
+    supportedPythonVersions: "2.5 - 2.7"
+    latest: '1.4.22'
+    latestReleaseDate: 2015-08-18
+
+-   releaseCycle: '1.3'
+    releaseDate: 2011-03-23
+    eoas: 2012-03-23
+    eol: 2013-02-26
+    supportedPythonVersions: "2.4 - 2.5"
+    latest: '1.3.7'
+    latestReleaseDate: 2013-02-21
+
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages
