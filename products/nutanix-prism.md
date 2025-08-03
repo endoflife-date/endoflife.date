@@ -20,6 +20,13 @@ auto:
 
 # Support and EOL dates can be found at https://portal.nutanix.com/page/documents/eol/list?type=pc.
 releases:
+-   releaseCycle: "pc.7.3"
+    releaseDate: 2025-06-24
+    eoas: 2026-09-30
+    eol: 2027-06-30
+    latest: "pc.7.3.0.0"
+    latestReleaseDate: 2025-06-24
+
 -   releaseCycle: "pc.2024.3"
     releaseDate: 2024-12-05
     eoas: 2026-03-31
@@ -193,18 +200,10 @@ releases:
 > [Nutanix Prism](https://www.nutanix.com/uk/products/prism) is the control plane that simplifies
 > and streamlines common workflows to make hypervisor and VM setup as easy as checking your email.
 
-Only the latest patch release in a release cycle is supported.
+Nutanix Prism versions are designated using the following format: `pc.X.Y.Z.n`, where `X` is the major version,
+`Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
 
-Each release cycle (Upgrade) is maintained (with workarounds, bug fixes) for 2 months from the
-release date of the next release cycle. It then further receives Troubleshooting (phone support,
-security fixes) for another 3 months.
-
-For example, if Nutanix releases PC.2020.8 on Aug 1, 2020 and releases PC.2020.9 on Sep 1, 2020 then
-PC.2020.8 will be Maintained until Nov 30, 2020 and Troubleshooting for PC.2020.8 will be available
-until Feb 28, 2021.
-
-## Release Cadence
-
-* A new major/minor release is typically made every 6–9 months.
-* Maintenance releases are typically made every 4–6 weeks.
-* Patch releases are made available on an as-needed basis.
+Since Prism pc.2024.3, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG) from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
+Under this model, major or minor releases are typically made available every 6–9 months.
+All releases are actively maintained with bug and security fixes for 15 months,
+followed by an additional 9 months of troubleshooting with only security fixes.

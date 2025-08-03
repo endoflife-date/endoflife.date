@@ -15,10 +15,17 @@ auto:
 
 # Releases can be found on https://portal.nutanix.com/page/documents/eol/list?type=files.
 releases:
--   releaseCycle: "5.1"
-    releaseDate: 2024-12-16
+-   releaseCycle: "5.2"
+    releaseDate: 2025-07-30
     eoas: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
     eol: false # not yet documented on https://portal.nutanix.com/page/documents/eol/list?type=files
+    latest: "5.2.0.0"
+    latestReleaseDate: 2025-07-30
+
+-   releaseCycle: "5.1"
+    releaseDate: 2024-12-16
+    eoas: 2025-10-31
+    eol: 2026-07-31
     latest: "5.1.1.2"
     latestReleaseDate: 2025-07-03
 
@@ -97,19 +104,9 @@ releases:
 > [Nutanix Files](https://www.nutanix.com/uk/products/files) is a simple, scalable and smart
 > cloud-based file management platform.
 
-Only the latest release cycle is actively maintained (new features).
+Nutanix Files versions are designated using the following format: `X.Y.Z.n`, where `X` is the major version,
+`Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
 
-* A release is supported (with workarounds and bug fixes) for 3 months after a new major/minor
-  version is released.
-* Troubleshooting (security fixes, phone support) is provided for 12 months after a new major/minor
-  version is released.
-
-For example, if Nutanix releases Files 3.1.0 on September 1, 2018 and Files 3.2.0 on November 1,
-2018 then Files 3.1.0 will be Maintained until February 28, 2019 and Troubleshooting for Files 3.1.0
-will be available until November 30, 2019.
-
-## Release Cadence
-
-* A new major/minor release is typically made every 6–9 months.
-* Maintenance releases are typically made every 6–8 weeks.
-* Patch releases are made on an as-needed basis.
+Major or minor releases are typically made available every 6–9 months.
+All releases are actively maintained with bug and security fixes until 3 months after the next major or minor release,
+followed by an additional 9 months of troubleshooting with only security fixes.
