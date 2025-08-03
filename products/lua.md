@@ -66,6 +66,48 @@ releases:
     latest: "3.2.2"
     latestReleaseDate: 2000-02-22
 
+-   releaseCycle: '3.1'
+    releaseDate: 1998-07-11
+    eol: 1999-07-08
+    latest: '3.1'
+    latestReleaseDate: 1998-07-11
+
+-   releaseCycle: '3.0'
+    releaseDate: 1997-07-01
+    eol: 1998-07-11
+    latest: '3.0'
+    latestReleaseDate: 1997-07-01
+
+-   releaseCycle: '2.5'
+    releaseDate: 1996-11-19
+    eol: 1997-07-01
+    latest: '2.5.1'
+    latestReleaseDate: 1996-11-20
+
+-   releaseCycle: '2.4'
+    releaseDate: 1996-05-14
+    eol: 1996-11-19
+    latest: '2.4'
+    latestReleaseDate: 1996-05-14
+
+-   releaseCycle: '2.2'
+    releaseDate: 1995-11-28
+    eol: 1996-05-14
+    latest: '2.2'
+    latestReleaseDate: 1995-11-28
+
+-   releaseCycle: '2.1'
+    releaseDate: 1995-02-07
+    eol: 1995-11-28
+    latest: '2.1'
+    latestReleaseDate: 1995-02-07
+
+-   releaseCycle: '1.1'
+    releaseDate: 1994-07-08
+    eol: 1995-02-07
+    latest: '1.1'
+    latestReleaseDate: 1994-07-08
+
 ---
 
 > [Lua](https://www.lua.org/) is a powerful, efficient, lightweight and embeddable scripting
