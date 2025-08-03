@@ -222,6 +222,86 @@ releases:
     latest: "3.24.7"
     latestReleaseDate: 2022-11-02
 
+-   releaseCycle: '3.20'
+    releaseDate: 2020-07-13
+    lts: 2020-09-02
+    eoas: 2021-03-31
+    eol: 2021-09-15
+    latest: '3.20.7'
+    latestReleaseDate: 2021-06-03
+
+-   releaseCycle: '3.16'
+    releaseDate: 2020-01-20
+    lts: 2020-03-16
+    eoas: 2020-10-12
+    eol: 2021-03-29
+    latest: '3.16.10'
+    latestReleaseDate: 2020-08-05
+
+-   releaseCycle: '3.12'
+    releaseDate: 2019-08-06
+    lts: 2019-09-25
+    eoas: 2020-04-22
+    eol: 2020-10-07
+    latest: '3.12.4'
+    latestReleaseDate: 2020-05-21
+
+-   releaseCycle: '3.8'
+    releaseDate: 2019-02-18
+    lts: 2019-04-10
+    eoas: 2019-11-06
+    eol: 2020-04-22
+    latest: '3.8.3'
+    latestReleaseDate: 2019-06-28
+
+-   releaseCycle: '3.4'
+    releaseDate: 2018-08-28
+    lts: 2018-10-15
+    eoas: 2019-05-13
+    eol: 2019-10-28
+    latest: '3.4.8'
+    latestReleaseDate: 2019-01-22
+
+-   releaseCycle: '2.18'
+    releaseDate: 2018-01-01
+    lts: 2018-02-14
+    eoas: 2018-09-12
+    eol: 2019-02-27
+    latest: '2.18.2'
+    latestReleaseDate: 2018-02-14
+
+-   releaseCycle: '2.16'
+    releaseDate: 2017-10-10
+    lts: 2017-11-20
+    eoas: 2018-06-18
+    eol: 2018-12-03
+    latest: '2.16.4'
+    latestReleaseDate: 2018-02-14
+
+-   releaseCycle: '2.12'
+    releaseDate: 2017-03-15
+    lts: 2017-04-29
+    eoas: 2017-11-25
+    eol: 2018-05-12
+    latest: '2.12.2'
+    latestReleaseDate: 2017-04-27
+
+-   releaseCycle: '2.8'
+    releaseDate: 2016-09-09
+    lts: 2016-10-17
+    eoas: 2017-05-15
+    eol: 2017-10-30
+    latest: '2.8.3'
+    latestReleaseDate: 2016-11-01
+
+-   releaseCycle: '2.4'
+    releaseDate: 2016-02-29
+    lts: 2016-04-11
+    eoas: 2016-11-07
+    eol: 2017-04-24
+    latest: '2.4.6'
+    latestReleaseDate: 2016-06-05
+
 ---
 
 > [Ember](https://emberjs.com) is an open-source JavaScript web framework for building modern web
