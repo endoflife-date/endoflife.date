@@ -55,6 +55,7 @@ auto:
         releaseCycle:
           column: "Version"
           regex: '^.NET( Core)? (?P<value>\d+(\.\d+)?)$'
+        releaseDate: "Original release date"
         eol: "End of support"
 
 releases:
@@ -124,9 +125,23 @@ releases:
     releaseLabel: "Core __RELEASE_CYCLE__"
     releaseDate: 2017-08-14
     eol: 2018-10-01
-    link: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
     latest: "2.0.9"
     latestReleaseDate: 2018-07-10
+    link: https://github.com/dotnet/core/blob/main/release-notes/2.0/2.0.9.md
+
+-   releaseCycle: '1.1'
+    releaseLabel: "Core __RELEASE_CYCLE__"
+    releaseDate: 2016-11-16
+    eol: 2019-06-27
+    latest: '1.1.13'
+    latestReleaseDate: 2019-05-15
+
+-   releaseCycle: '1.0'
+    releaseLabel: "Core __RELEASE_CYCLE__"
+    releaseDate: 2016-06-27
+    eol: 2019-06-27
+    latest: '1.0.16'
+    latestReleaseDate: 2019-05-15
 
 ---
 
