@@ -246,7 +246,7 @@ releases:
     eol: 2023-04-17
     link: null
 
--   releaseCycle: "go-lte"
+-   releaseCycle: "go-with-lte-advanced"
     releaseLabel: "Surface Go with LTE Advanced"
     releaseDate: 2018-11-20
     eol: 2022-11-20
@@ -276,8 +276,8 @@ releases:
     eol: 2022-08-02
     link: https://support.microsoft.com/surface/surface-go-1st-gen-specs-and-features-d5f9e6f4-1b01-f61a-6dac-ad4f963ddba5
 
--   releaseCycle: "pro-lte-1807"
-    releaseLabel: "Surface Pro LTE (Model 1807)"
+-   releaseCycle: "pro-lte-5th-gen-model-1807"
+    releaseLabel: "Surface Pro LTE (5th gen) (Model 1807)"
     releaseDate: 2017-12-01
     eol: 2024-01-15
     link: null
@@ -288,25 +288,25 @@ releases:
     eol: 2023-06-30
     link: https://support.microsoft.com/surface/surface-book-2-specs-and-features-d752c78d-d1fc-c483-c80d-8343e68ad96b
 
--   releaseCycle: "pro-5"
+-   releaseCycle: "pro-5th-gen"
     releaseLabel: "Surface Pro (5th gen)"
     releaseDate: 2017-06-15
     eol: 2024-01-15
     link: https://support.microsoft.com/surface/surface-pro-5th-gen-specs-and-features-42d321e4-52d6-dcb1-e014-9ffc76fbca14
 
--   releaseCycle: "laptop-1"
+-   releaseCycle: "laptop-1st-gen"
     releaseLabel: "Surface Laptop (1st gen)"
     releaseDate: 2017-06-14
     eol: 2021-11-13
     link: https://support.microsoft.com/surface/surface-laptop-1st-gen-specs-and-features-30b1b484-4587-928f-ea9a-351d411569af
 
--   releaseCycle: "studio-1"
+-   releaseCycle: "studio-1-gen"
     releaseLabel: "Surface Studio (1st gen)"
     releaseDate: 2016-12-15
     eol: 2021-11-13
     link: https://support.microsoft.com/surface/surface-studio-1st-gen-diagrams-and-tech-specs-ee58a743-6463-2557-e66e-4dc4b3207881
 
--   releaseCycle: "book-performance"
+-   releaseCycle: "book-with-performance-base"
     releaseLabel: "Surface Book with Performance Base"
     releaseDate: 2016-11-10
     eol: 2021-11-13
@@ -336,7 +336,7 @@ releases:
     eol: 2022-11-30
     link: https://support.microsoft.com/surface/surface-hub-tech-spec-4b57f72c-dc1c-28d7-959f-3d95eda7708f
 
--   releaseCycle: "surface-3"
+-   releaseCycle: "3"
     releaseLabel: "Surface 3"
     releaseDate: 2015-05-05
     eol: 2021-11-13
@@ -348,7 +348,7 @@ releases:
     eol: 2021-11-13
     link: https://support.microsoft.com/surface/surface-pro-3-specs-and-features-4c142a41-134f-f22b-0142-a5cf073b56ee
 
--   releaseCycle: "surface-2"
+-   releaseCycle: "2"
     releaseLabel: "Surface 2"
     releaseDate: 2013-10-22
     eol: 2018-04-10
