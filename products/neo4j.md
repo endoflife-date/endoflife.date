@@ -40,6 +40,9 @@ auto:
         eol:
           column: "End of Support Date"
           regex: '^(?P<value>\w+ \d+, \d+).*$'
+  -   declare: neo4j
+      versions:
+        -   { name: "1.0.0", date: 2010-02-23 } # wrong tag date
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
@@ -304,6 +307,146 @@ releases:
     latest: "4.0.12"
     latestReleaseDate: 2021-07-06
     link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.5'
+    releaseDate: 2018-11-29
+    eol: 2022-05-27
+    latest: '3.5.35'
+    latestReleaseDate: 2022-08-11
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.4'
+    releaseDate: 2018-05-17
+    eol: 2020-03-31
+    latest: '3.4.18'
+    latestReleaseDate: 2020-04-29
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.3'
+    releaseDate: 2017-10-24
+    eol: 2019-04-28
+    latest: '3.3.9'
+    latestReleaseDate: 2018-11-02
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.2'
+    releaseDate: 2017-05-11
+    eol: 2018-11-30
+    latest: '3.2.14'
+    latestReleaseDate: 2019-02-26
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.1'
+    releaseDate: 2016-12-13
+    eol: 2018-06-13
+    latest: '3.1.9'
+    latestReleaseDate: 2018-06-05
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '3.0'
+    releaseDate: 2016-04-16
+    eol: 2017-10-31
+    latest: '3.0.12'
+    latestReleaseDate: 2017-10-03
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '2.3'
+    releaseDate: 2015-10-21
+    eol: 2017-04-21
+    latest: '2.3.12'
+    latestReleaseDate: 2017-12-12
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '2.2'
+    releaseDate: 2015-03-25
+    eol: 2016-09-25
+    latest: '2.2.10'
+    latestReleaseDate: 2016-06-16
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '2.1'
+    releaseDate: 2014-05-29
+    eol: 2015-11-29
+    latest: '2.1.8'
+    latestReleaseDate: 2015-04-01
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '2.0'
+    releaseDate: 2013-12-11
+    eol: 2015-06-11
+    latest: '2.0.5'
+    latestReleaseDate: 2015-04-30
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '1.9'
+    releaseDate: 2013-05-21
+    eol: 2014-11-21
+    latest: '1.9.9'
+    latestReleaseDate: 2014-10-13
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '1.8'
+    releaseDate: 2012-09-28
+    eol: 2014-03-28
+    latest: '1.8.3'
+    latestReleaseDate: 2013-06-26
+    link: https://neo4j.com/release-notes/database/neo4j-{{'__LATEST__'|replace:'.','-'}}/
+
+-   releaseCycle: '1.7'
+    releaseDate: 2012-04-18
+    eol: 2013-10-18
+    latest: '1.7.2'
+    latestReleaseDate: 2012-11-21
+    link: null
+
+-   releaseCycle: '1.6'
+    releaseDate: 2012-01-22
+    eol: 2013-07-22
+    latest: '1.6.3'
+    latestReleaseDate: 2012-11-21
+    link: null
+
+-   releaseCycle: '1.5'
+    releaseDate: 2011-11-09
+    eol: 2013-03-09
+    latest: '1.5.3'
+    latestReleaseDate: 2012-11-21
+    link: null
+
+-   releaseCycle: '1.4'
+    releaseDate: 2011-07-08
+    eol: 2013-01-08
+    latest: '1.4.2'
+    latestReleaseDate: 2012-11-21
+    link: null
+
+-   releaseCycle: '1.3'
+    releaseDate: 2011-04-12
+    eol: 2012-09-12
+    latest: '1.3.0'
+    latestReleaseDate: 2011-04-12
+    link: null
+
+-   releaseCycle: '1.2'
+    releaseDate: 2010-12-29
+    eol: 2012-06-29
+    latest: '1.2.0'
+    latestReleaseDate: 2010-12-29
+    link: null
+
+-   releaseCycle: '1.1'
+    releaseDate: 2010-07-30
+    eol: 2012-01-30
+    latest: '1.1.0'
+    latestReleaseDate: 2010-07-30
+    link: null
+
+-   releaseCycle: '1.0'
+    releaseDate: 2010-02-23
+    eol: 2011-08-23
+    latest: '1.0.0'
+    latestReleaseDate: 2022-12-09
+    link: null
 
 ---
 
