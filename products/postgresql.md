@@ -151,6 +151,54 @@ releases:
     latest: "8.0.26"
     latestReleaseDate: 2010-10-01
 
+-   releaseCycle: '7.4'
+    releaseDate: 2003-11-17
+    eol: 2010-10-01
+    latest: '7.4.30'
+    latestReleaseDate: 2010-10-01
+
+-   releaseCycle: '7.3'
+    releaseDate: 2002-11-27
+    eol: 2007-11-27
+    latest: '7.3.21'
+    latestReleaseDate: 2008-01-03
+
+-   releaseCycle: '7.2'
+    releaseDate: 2002-02-04
+    eol: 2007-02-04
+    latest: '7.2.8'
+    latestReleaseDate: 2005-05-09
+
+-   releaseCycle: '7.1'
+    releaseDate: 2001-04-13
+    eol: 2006-04-13
+    latest: '7.1.3'
+    latestReleaseDate: 2001-08-17
+
+-   releaseCycle: '7.0'
+    releaseDate: 2000-05-08
+    eol: 2005-05-08
+    latest: '7.0.3'
+    latestReleaseDate: 2000-11-12
+
+-   releaseCycle: '6.5'
+    releaseDate: 1999-06-09
+    eol: 2004-06-09
+    latest: '6.5.3'
+    latestReleaseDate: 1999-11-04
+
+-   releaseCycle: '6.4'
+    releaseDate: 1998-10-30
+    eol: 2003-10-30
+    latest: '6.4.2'
+    latestReleaseDate: 1999-01-03
+
+-   releaseCycle: '6.3'
+    releaseDate: 1998-03-01
+    eol: 2003-03-01
+    latest: '6.3.2'
+    latestReleaseDate: 1998-04-18
+
 ---
 
 > [PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source
