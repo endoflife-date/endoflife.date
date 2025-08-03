@@ -1,5 +1,6 @@
 ---
 title: InfluxDB
+addedAt: 2025-08-03
 category: server-app
 tags: database influxdata
 iconSlug: influxdb
