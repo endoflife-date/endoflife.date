@@ -21,7 +21,9 @@ auto:
   -   release_table: https://containerd.io/releases/
       selector: "table"
       fields:
-        releaseCycle: "Release"
+        releaseCycle:
+          column: "Release"
+          regex: '^(?P<value>[1-9]\d*\.\d+)$'
         releaseDate: "Start"
         eol: "End of Life"
 
