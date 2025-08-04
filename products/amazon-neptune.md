@@ -182,13 +182,68 @@ releases:
     latest: "1.1.0.0.R2"
     latestReleaseDate: 2022-05-16
 
-# Use a single row for all 1.0.x releases
--   releaseCycle: "1.0"
-    releaseDate: 2018-06-22
-    upgradeVersion: "1.1.0.0"
+-   releaseCycle: '1.0.5.1'
+    releaseDate: 2021-10-01
+    upgradeVersion: '1.1.0.0'
     eol: 2023-01-30
     latest: "1.0.5.1.R4"
     latestReleaseDate: 2022-05-16
+
+-   releaseCycle: '1.0.5.0'
+    releaseDate: 2021-07-27
+    upgradeVersion: '1.1.0.0'
+    eol: 2023-01-30
+    latest: '1.0.5.0.R3'
+    latestReleaseDate: 2021-09-15
+
+-   releaseCycle: '1.0.4.2'
+    releaseDate: 2021-06-01
+    upgradeVersion: '1.1.0.0'
+    eol: 2023-01-30
+    latest: '1.0.4.2.R5'
+    latestReleaseDate: 2021-08-16
+
+-   releaseCycle: '1.0.4.1'
+    releaseDate: 2020-12-08
+    upgradeVersion: '1.1.0.0'
+    eol: 2023-01-30
+    latest: '1.0.4.1.R1.1'
+    latestReleaseDate: 2021-03-22
+
+-   releaseCycle: '1.0.4.0'
+    releaseDate: 2020-10-12
+    upgradeVersion: '1.1.0.0'
+    eol: 2023-01-30
+    latest: '1.0.4.0.R2'
+    latestReleaseDate: 2021-02-24
+
+-   releaseCycle: '1.0.3.0'
+    releaseDate: 2020-08-03
+    upgradeVersion: '1.1.0.0'
+    eol: 2023-01-30
+    latest: '1.0.3.0.R3'
+    latestReleaseDate: 2021-02-19
+
+-   releaseCycle: '1.0.2.2'
+    releaseDate: 2020-03-09
+    upgradeVersion: '1.0.3.0'
+    eol: 2022-07-29
+    latest: '1.0.2.2.R6'
+    latestReleaseDate: 2021-02-19
+
+-   releaseCycle: '1.0.2.1'
+    releaseDate: 2019-11-22
+    upgradeVersion: '1.0.3.0'
+    eol: 2022-07-29
+    latest: '1.0.2.1.R6'
+    latestReleaseDate: 2020-04-22
+
+-   releaseCycle: '1.0.2.0'
+    releaseDate: 2019-11-08
+    upgradeVersion: '1.0.3.0'
+    eol: 2020-05-19
+    latest: '1.0.2.0.R3'
+    latestReleaseDate: 2020-05-05
 
 ---
 
