@@ -2,11 +2,11 @@
 title: Hashicorp Boundary
 category: server-app
 tags: hashicorp
-iconSlug: boundary
+iconSlug: hashicorp
 permalink: /boundary
 versionCommand: boundary --version
 releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
-changelogTemplate: https://github.com/hashicorp/boundary/blob/v__LATEST__/CHANGELOG.md
+changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
 
 identifiers:
 -   repology: boundary
@@ -14,6 +14,7 @@ identifiers:
 auto:
   methods:
   -   git: https://github.com/hashicorp/boundary.git
+      regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # eol(x) = releaseDate(x+3)
 releases:
@@ -37,13 +38,13 @@ releases:
 
 -   releaseCycle: "0.16"
     releaseDate: 2024-04-30
-    eol: false
+    eol: 2025-02-10
     latest: '0.16.3'
     latestReleaseDate: 2024-08-23
 
 ---
 
-> [Hashicorp Boundary](https://www.hashicorp.com/en/products/boundary) Standardize secure remote access
+> [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy aimed at simplifying and securing least-privileged access to cloud infrastructure.
 
 Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
 code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major
