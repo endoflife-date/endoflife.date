@@ -224,7 +224,7 @@ releases:
     eoas: 2020-02-01
     eol: 2020-02-01
     latest: '2.3'
-    latestReleaseDate: 2018-10-31
+    latestReleaseDate: 2018-10-23
 
 -   releaseCycle: '1.13'
     lts: true

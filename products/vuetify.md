@@ -58,7 +58,7 @@ releases:
 
 -   releaseCycle: "1"
     releaseDate: 2019-02-05
-    eoas: 2019-06-24
+    eoas: 2019-07-31
     lts: 2019-07-31
     eol: 2020-07-31
     latest: "1.5.24"
