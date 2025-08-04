@@ -1,5 +1,6 @@
 ---
 title: Hashicorp Boundary
+addedAt: 2025-08-04
 category: server-app
 tags: hashicorp
 iconSlug: hashicorp
