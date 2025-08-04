@@ -300,7 +300,7 @@ releases:
     eol: 2021-11-13
     link: https://support.microsoft.com/surface/surface-laptop-1st-gen-specs-and-features-30b1b484-4587-928f-ea9a-351d411569af
 
--   releaseCycle: "studio-1-gen"
+-   releaseCycle: "studio-1st-gen"
     releaseLabel: "Surface Studio (1st gen)"
     releaseDate: 2016-12-15
     eol: 2021-11-13
