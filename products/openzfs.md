@@ -45,19 +45,19 @@ releases:
     latestReleaseDate: 2025-06-19
 
 -   releaseCycle: "2.2"
+    lts: true
     supportedLinux: "4.18 - 6.15"
     supportedFreeBSD: "13.0-RELEASE+, 14.0+"
     releaseDate: 2023-10-12
-    eol: 2025-01-13 # releaseDate(2.3)
+    eol: false # Became new LTS when 2.3.0 was released 2025-01-13
     latest: "2.2.8"
     latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "2.1"
-    lts: true
     supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
-    eol: false # still getting updates, estimation was 2023-07-02 releaseDate(x) plus 2 years
+    eol: 2025-01-13 # releaseDate(2.3)
     latest: "2.1.16"
     latestReleaseDate: 2024-12-04
 
