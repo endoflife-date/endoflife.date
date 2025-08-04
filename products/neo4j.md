@@ -42,7 +42,7 @@ auto:
           regex: '^(?P<value>\w+ \d+, \d+).*$'
   -   declare: neo4j
       versions:
-        -   { name: "1.0.0", date: 2010-02-23 } # wrong tag date
+      -   {name: "1.0.0", date: 2010-02-23}     # wrong tag date
 
 # eol(x) = releaseDate(x+1)
 # See https://support.neo4j.com/s/article/115013134648-Neo4j-Supported-Versions
