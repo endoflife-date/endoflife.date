@@ -54,6 +54,7 @@ releases:
     latestReleaseDate: 2025-06-12
 
 -   releaseCycle: "2.1"
+    lts: true
     supportedLinux: "3.10 - 6.7"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2021-07-02
