@@ -122,64 +122,64 @@ releases:
 -   releaseCycle: "professional-volta"
     releaseLabel: "Professional Volta (GV100)"
     releaseDate: 2017-12-07
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "mobile-professional-pascal"
     releaseLabel: "Mobile Professional Pascal (GP10x)"
     releaseDate: 2017-02-06
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "mobile-consumer-pascal"
     releaseLabel: "Mobile Consumer Pascal (GP10x)"
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
     releaseDate: 2016-08-15
 
 -   releaseCycle: "consumer-pascal"
     releaseLabel: "Consumer Pascal (GP10x)"
     releaseDate: 2016-05-27
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "professional-pascal"
     releaseLabel: "Professional Pascal (GP10x)"
     releaseDate: 2016-04-05
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "mobile-professional-maxwell"
     releaseLabel: "Mobile Professional Maxwell (GMxxx)"
     releaseDate: 2015-08-18
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "professional-maxwell"
     releaseLabel: "Professional Maxwell (GMxxx)"
     releaseDate: 2015-06-29
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "mobile-consumer-maxwell"
     releaseLabel: "Mobile Consumer Maxwell (GMxxx)"
     releaseDate: 2014-10-07
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "consumer-maxwell"
     releaseLabel: "Consumer Maxwell (GMxxx)"
     releaseDate: 2014-09-19
-    eoas: false
-    eol: false
+    eoas: 2025-11-01
+    eol: 2028-11-01
     discontinued: true
 
 -   releaseCycle: "professional-kepler"
