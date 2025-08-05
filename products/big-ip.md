@@ -13,6 +13,14 @@ eoasColumn: End of Software Development
 # EOAS / EOL dates can be found on https://my.f5.com/manage/s/article/K5903
 # Latest release dates can be found on https://my.f5.com/manage/s/article/K9412
 releases:
+-   releaseCycle: "17.5"
+    lts: true
+    releaseDate: 2025-02-27
+    eoas: 2029-01-01
+    eol: 2029-01-01
+    latest: "17.5.1"
+    latestReleaseDate: 2025-06-26
+    
 -   releaseCycle: "17.1"
     lts: true
     releaseDate: 2023-03-14
