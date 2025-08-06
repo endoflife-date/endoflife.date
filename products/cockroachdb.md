@@ -50,6 +50,13 @@ auto:
 # eoas(x) = releaseDate(x) + 6m
 # eol(x) = releaseDate(x) + 6m
 releases:
+-   releaseCycle: "25.3"
+    releaseDate: 2025-08-04
+    eoas: 2026-08-04
+    eol: false
+    latest: "25.3.0"
+    latestReleaseDate: 2025-08-04
+
 -   releaseCycle: "25.2"
     releaseDate: 2025-05-09
     eoas: 2026-05-12
