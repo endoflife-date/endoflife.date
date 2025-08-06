@@ -334,15 +334,6 @@ releases:
     latestReleaseDate: 2019-03-08
     chromeVersion: "M61"
     nodeVersion: "8"
-
-
-
-
-
-
-
-
-
 ---
 
 > [Electron](https://www.electronjs.org/) is a framework for building desktop applications using
