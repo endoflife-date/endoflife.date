@@ -39,12 +39,47 @@ auto:
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
+-   releaseCycle: "galaxy-z-fold7"
+    releaseLabel: "Galaxy Z Fold7"
+    releaseDate: 2025-07-25 # https://news.samsung.com/global/samsung-launches-galaxy-z-fold7-galaxy-z-flip7-and-galaxy-watch8-series-globally-starting-today
+    eoas: 2032-07-25 # 7 android upgrade - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    eol: 2032-07-25 # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    link: https://doc.samsungmobile.com/SM-F9660/TGY/doc.html
+
+-   releaseCycle: "galaxy-z-flip7-fe"
+    releaseLabel: "Galaxy Z Flip7 FE"
+    releaseDate: 2025-07-25 # https://news.samsung.com/global/samsung-launches-galaxy-z-fold7-galaxy-z-flip7-and-galaxy-watch8-series-globally-starting-today
+    eoas: 2032-07-25 # 7 android upgrade - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    eol: 2032-07-25 # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    link: https://doc.samsungmobile.com/SM-F7610/CHC/doc.html
+
+-   releaseCycle: "galaxy-z-flip7"
+    releaseLabel: "Galaxy Z Flip7"
+    releaseDate: 2025-07-25 # https://news.samsung.com/global/samsung-launches-galaxy-z-fold7-galaxy-z-flip7-and-galaxy-watch8-series-globally-starting-today
+    eoas: 2032-07-25 # 7 android upgrade - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    eol: 2032-07-25 # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
+    link: https://doc.samsungmobile.com/SM-F7660/CHC/doc.html
+
+-   releaseCycle: "galaxy-f36-5g"
+    releaseLabel: "Galaxy F36 5G"
+    releaseDate: 2025-07-22 # https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
+    eoas: 2031-07-22 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
+    eol: 2031-07-22 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
+    link: null # not found on doc.samsungmobile.com as of 2025-08-06
+
+-   releaseCycle: "galaxy-m36-5g"
+    releaseLabel: "Galaxy M36 5G"
+    releaseDate: 2025-07-12 # https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    eoas: 2031-07-12 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    eol: 2031-07-12 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    link: https://doc.samsungmobile.com/SM-M356B/INS/doc.html
+
 -   releaseCycle: "galaxy-s25-edge"
     releaseLabel: "Galaxy S25 Edge"
     releaseDate: 2025-05-29 # https://www.gsmarena.com/samsung_galaxy_s25_edge-13506.php
     eoas: 2032-05-29 # 7 android upgrade - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
     eol: 2032-05-29 # 7 years of security updates - https://www.sammobile.com/news/galaxy-s25-edge-seven-years-android-one-ui-security-updates/
-    link: null # not found on doc.samsungmobile.com as of 2025-06-06
+    link: https://doc.samsungmobile.com/SM-S9370/TGY/doc.html
 
 -   releaseCycle: "galaxy-f56-5g"
     releaseLabel: "Galaxy F56 5G"
