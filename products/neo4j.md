@@ -50,8 +50,8 @@ releases:
 -   releaseCycle: "2025.07"
     releaseDate: 2025-07-31
     eol: false
-    latest: "2025.07"
-    latestReleaseDate: 2025-07-31
+    latest: "2025.07.1"
+    latestReleaseDate: 2025-08-01
 
 -   releaseCycle: "2025.06"
     releaseDate: 2025-07-02

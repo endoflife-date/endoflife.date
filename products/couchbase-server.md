@@ -52,7 +52,7 @@ auto:
 releases:
 -   releaseCycle: "7.6"
     releaseDate: 2024-03-25
-    eol: 2026-07-31
+    eol: 2027-03-31
     latest: "7.6.6"
     latestReleaseDate: 2025-05-31
 

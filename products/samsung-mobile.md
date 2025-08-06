@@ -820,14 +820,14 @@ releases:
     releaseLabel: "Galaxy F22"
     releaseDate: 2021-07-13
     eoas: 2023-07-13
-    eol: false
+    eol: 2025-08-05
     link: https://doc.samsungmobile.com/SM-E225F/INS/doc.html
 
 -   releaseCycle: "galaxy-m32"
     releaseLabel: "Galaxy M32"
     releaseDate: 2021-06-28
     eoas: false
-    eol: false
+    eol: 2025-08-05
     link: https://doc.samsungmobile.com/sm-m325f/ins/doc.html
 
 -   releaseCycle: "galaxy-a22-5g"
@@ -841,7 +841,7 @@ releases:
     releaseLabel: "Galaxy A22"
     releaseDate: 2021-06-03
     eoas: 2023-06-03
-    eol: false
+    eol: 2025-08-05
     link: https://doc.samsungmobile.com/SM-A225F/TUR/doc.html
 
 -   releaseCycle: "galaxy-f52-5g"

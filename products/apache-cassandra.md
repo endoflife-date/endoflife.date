@@ -25,8 +25,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2024-09-05
     eol: false
-    latest: "5.0.4"
-    latestReleaseDate: 2025-04-10
+    latest: "5.0.5"
+    latestReleaseDate: 2025-08-05
 
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13

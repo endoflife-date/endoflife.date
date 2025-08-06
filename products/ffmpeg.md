@@ -36,8 +36,8 @@ releases:
     codename: Dijkstra
     releaseDate: 2024-04-05
     eol: false
-    latest: "7.0.2"
-    latestReleaseDate: 2024-08-03
+    latest: "7.0.3"
+    latestReleaseDate: 2025-08-05
 
 -   releaseCycle: "6.1"
     codename: Heaviside

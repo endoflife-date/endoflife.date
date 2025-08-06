@@ -31,7 +31,7 @@ auto:
 releases:
 -   releaseCycle: "8"
     releaseDate: 2023-06-22
-    eol: false
+    eol: 2026-08-31
     latest: "8.4"
     latestReleaseDate: 2025-04-09
 

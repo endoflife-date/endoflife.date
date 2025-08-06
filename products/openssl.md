@@ -34,8 +34,8 @@ releases:
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
-    latest: "3.5.1"
-    latestReleaseDate: 2025-07-01
+    latest: "3.5.2"
+    latestReleaseDate: 2025-08-05
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
 -   releaseCycle: "3.4"
