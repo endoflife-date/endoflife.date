@@ -35,6 +35,7 @@ layout: null
 /api{{page.permalink}}                  /api{{page.permalink}}.json
 {%- for alternate_url in page.alternate_urls %}
 {{alternate_url}}                       {{page.permalink}}
+{{alternate_url}}.atom                  {{page.permalink}}.atom
 /calendar{{alternate_url}}.ics          /calendar{{page.permalink}}.ics
 /api{{alternate_url}}.json              /api{{page.permalink}}.json
 /api{{alternate_url}}/*                 /api{{page.permalink}}/:splat
