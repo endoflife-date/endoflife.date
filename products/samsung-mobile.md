@@ -60,19 +60,19 @@ releases:
     eol: 2032-07-25 # 7 years of security support - https://sammyguru.com/galaxy-z-fold-7-galaxy-z-flip-7-software-updates-total/
     link: https://doc.samsungmobile.com/SM-F7660/CHC/doc.html
 
--   releaseCycle: "galaxy-m36-5g"
-    releaseLabel: "Galaxy M36 5G"
-    releaseDate: 2025-07-12 # https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
-    eoas: 2031-07-12 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
-    eol: 2031-07-12 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
-    link: https://doc.samsungmobile.com/SM-M356B/INS/doc.html
-
 -   releaseCycle: "galaxy-f36-5g"
     releaseLabel: "Galaxy F36 5G"
     releaseDate: 2025-07-22 # https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eoas: 2031-07-22 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     eol: 2031-07-22 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-f36-5g-with-premium-leather-finish-segment-leading-camera-and-ai-innovations-in-india
     link: null # not found on doc.samsungmobile.com as of 2025-08-06
+
+-   releaseCycle: "galaxy-m36-5g"
+    releaseLabel: "Galaxy M36 5G"
+    releaseDate: 2025-07-12 # https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    eoas: 2031-07-12 # 6 android upgrade - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    eol: 2031-07-12 # 6 years of security support - https://news.samsung.com/in/samsung-launches-galaxy-m36-5g-in-india-introduces-advanced-ai-innovations-in-mid-segment-smartphones
+    link: https://doc.samsungmobile.com/SM-M356B/INS/doc.html
 
 -   releaseCycle: "galaxy-s25-edge"
     releaseLabel: "Galaxy S25 Edge"
