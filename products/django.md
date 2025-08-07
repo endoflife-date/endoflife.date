@@ -63,8 +63,8 @@ releases:
     eoas: 2025-12-31
     eol: 2028-04-30
     supportedPythonVersions: "3.10 - 3.13"
-    latest: "5.2.4"
-    latestReleaseDate: 2025-07-02
+    latest: "5.2.5"
+    latestReleaseDate: 2025-08-06
 
 -   releaseCycle: "5.1"
     releaseDate: 2024-08-07

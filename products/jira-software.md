@@ -55,8 +55,8 @@ releases:
     releaseDate: 2024-12-05
     eol: 2026-12-05
     lts: true
-    latest: "10.3.8"
-    latestReleaseDate: 2025-07-02
+    latest: "10.3.9"
+    latestReleaseDate: 2025-08-06
 
 -   releaseCycle: "10.2"
     releaseDate: 2024-11-20

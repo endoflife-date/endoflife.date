@@ -45,7 +45,7 @@ releases:
 -   releaseCycle: "6.2"
     supportedJavaVersions: "17 - 25"
     supportedJakartaEEVersions: "9 - 10"
-    releaseDate: 2024-11-14
+    releaseDate: 2024-11-30
     eol: 2026-06-30
     eoes: 2032-06-30
     latest: "6.2.9"
@@ -54,7 +54,7 @@ releases:
 -   releaseCycle: "6.1"
     supportedJavaVersions: "17 - 23"
     supportedJakartaEEVersions: "9 - 10"
-    releaseDate: 2023-11-16
+    releaseDate: 2023-11-30
     eol: 2025-06-30
     eoes: 2026-06-30
     latest: "6.1.21"
@@ -63,17 +63,17 @@ releases:
 -   releaseCycle: "6.0"
     supportedJavaVersions: "17 - 21"
     supportedJakartaEEVersions: "9 - 10"
-    releaseDate: 2022-11-16
+    releaseDate: 2022-11-30
     eol: 2024-06-30
-    eoes: 2025-06-30
+    eoes: 2025-08-31
     latest: "6.0.23"
     latestReleaseDate: 2024-08-14
 
 -   releaseCycle: "5.3"
     supportedJavaVersions: "8 - 21"
     supportedJakartaEEVersions: "7 - 8"
-    releaseDate: 2020-10-27
-    eol: 2023-06-30
+    releaseDate: 2020-10-31
+    eol: 2024-08-31
     eoes: 2029-06-30
     lts: true
     latest: "5.3.39"
