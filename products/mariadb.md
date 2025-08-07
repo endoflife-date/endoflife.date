@@ -7,7 +7,7 @@ permalink: /mariadb
 versionCommand: mariadbd --version
 releasePolicyLink: https://mariadb.org/about/#maintenance-policy
 releaseImage: https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwwM8QxUnz_2MHM7-y8bZDqyh5_C8QMyRqTaJLs02iL3qSn9hY6gEvtkn5YAzaHoip9EU6UXgAUjwOkf6FBca-LVSjU6Vu9LtiHmIAxfSPmi9oz-3-pxjc5T0ovaw2VfNv9oH1dA?key=hghz9RPI1zQ7R7CURRAsxEVO
-changelogTemplate: "https://mariadb.com/kb/en/mariadb-{{'__LATEST__'|replace:'.','-'}}-changelog/"
+changelogTemplate: "https://mariadb.com/docs/release-notes/community-server/mariadb-{{'__RELEASE_CYCLE__'|replace:'.','-'}}-series/mariadb-__LATEST__-release-notes"
 eolColumn: Community support
 eoesColumn: Enterprise support
 
