@@ -76,18 +76,21 @@ releases:
     eol: 2025-05-12
     latest: "11.7.2"
     latestReleaseDate: 2025-02-12
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-11-7-rolling-releases/mariadb-11-7-2-release-notes
 
 -   releaseCycle: "11.6"
     releaseDate: 2024-11-13
     eol: 2025-02-13
     latest: "11.6.2"
     latestReleaseDate: 2024-11-13
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-6-rolling-releases/mariadb-11-6-2-release-notes
 
 -   releaseCycle: "11.5"
     releaseDate: 2024-08-14
     eol: 2024-11-21
     latest: "11.5.2"
     latestReleaseDate: 2024-08-14
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-5-rolling-releases/mariadb-11-5-2-release-notes
 
 -   releaseCycle: "11.4"
     lts: true
@@ -102,24 +105,28 @@ releases:
     eol: 2024-05-29
     latest: "11.3.2"
     latestReleaseDate: 2024-02-16
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-3-rolling-releases/mariadb-11-3-2-release-notes
 
 -   releaseCycle: "11.2"
     releaseDate: 2023-11-21
     eol: 2024-11-21
     latest: "11.2.6"
     latestReleaseDate: 2024-11-01
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-2-series/mariadb-11-2-6-release-notes
 
 -   releaseCycle: "11.1"
     releaseDate: 2023-08-21
     eol: 2024-08-21
     latest: "11.1.6"
     latestReleaseDate: 2024-08-08
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-1-series/mariadb-11-1-6-release-notes
 
 -   releaseCycle: "11.0"
     releaseDate: 2023-06-06
     eol: 2024-06-06
     latest: "11.0.6"
     latestReleaseDate: 2024-05-15
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-11-0-series/mariadb-11-0-6-release-notes
 
 -   releaseCycle: "10.11"
     lts: true
@@ -134,24 +141,28 @@ releases:
     eol: 2023-11-17
     latest: "10.10.7"
     latestReleaseDate: 2023-11-13
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-10-series/mariadb-10-10-7-release-notes
 
 -   releaseCycle: "10.9"
     releaseDate: 2022-08-15
     eol: 2023-08-22
     latest: "10.9.8"
     latestReleaseDate: 2023-08-14
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-9-series/mariadb-10-9-8-release-notes
 
 -   releaseCycle: "10.8"
     releaseDate: 2022-05-20
     eol: 2023-05-20
     latest: "10.8.8"
     latestReleaseDate: 2023-05-10
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-8-series/mariadb-10-8-8-release-notes
 
 -   releaseCycle: "10.7"
     releaseDate: 2022-02-08
     eol: 2023-02-09
     latest: "10.7.8"
     latestReleaseDate: 2023-02-06
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-7-series/mariadb-10-7-8-release-notes
 
 -   releaseCycle: "10.6"
     lts: true
@@ -168,6 +179,7 @@ releases:
     eoes: 2025-07-16
     latest: "10.5.29"
     latestReleaseDate: 2025-05-06
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/mariadb-10-5-series/mariadb-10-5-29-release-notes
 
 -   releaseCycle: "10.4"
     lts: true
@@ -176,6 +188,7 @@ releases:
     eoes: 2024-06-18
     latest: "10.4.34"
     latestReleaseDate: 2024-05-15
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-4-series/mariadb-10-4-34-release-notes
 
 -   releaseCycle: "10.3"
     releaseDate: 2018-05-25
@@ -183,6 +196,7 @@ releases:
     eoes: 2023-05-25
     latest: "10.3.39"
     latestReleaseDate: 2023-05-10
+    link: https://mariadb.com/docs/release-notes/community-server/old-releases/release-notes-mariadb-10-3-series/mariadb-10-3-39-release-notes
 
 -   releaseCycle: "10.2"
     releaseDate: 2017-05-23
