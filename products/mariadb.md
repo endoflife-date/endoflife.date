@@ -51,6 +51,7 @@ auto:
       -   ^mariadb-(?P<major>10)\.(?P<minor>10)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>10)\.(?P<minor>11)\.(?P<patch>([2-9]|\d{2}))$
       -   ^mariadb-(?P<major>11)\.(?P<minor>[0-8])\.(?P<patch>([2-9]|\d{2}))$
+      -   ^mariadb-(?P<major>12)\.(?P<minor>[0])\.(?P<patch>([1-9]|\d{2}))$
   -   release_table: https://mariadb.org/about/#maintenance-policy
       selector: "table"
       header_selector: "tbody tr:nth-of-type(1)"
@@ -63,6 +64,13 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+-   releaseCycle: "12.0"
+    releaseDate: 2025-08-07
+    eol: 2025-11-07
+    latest: "12.0.1"
+    latestReleaseDate: 2025-08-07
+    link: https://mariadb.com/docs/release-notes/community-server/mariadb-{__RELEASE_CYCLE__-series/mariadb-__LATEST__-release-notes
+
 -   releaseCycle: "11.8"
     lts: true
     releaseDate: 2025-06-04
