@@ -63,6 +63,12 @@ auto:
 # When adding a new Major, remember to review regexes in the section above.
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
+-   releaseCycle: "12.0"
+    releaseDate: 2025-08-07
+    eol: 2025-11-07
+    latest: "12.0.0"
+    latestReleaseDate: 2025-08-07
+
 -   releaseCycle: "11.8"
     lts: true
     releaseDate: 2025-06-04
