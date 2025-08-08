@@ -69,7 +69,7 @@ releases:
     eol: 2025-11-07
     latest: "12.0.1"
     latestReleaseDate: 2025-08-07
-    link: https://mariadb.com/docs/release-notes/community-server/mariadb-__RELEASE_CYCLE__-series/mariadb-__LATEST__-release-notes
+    link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 
 -   releaseCycle: "11.8"
     lts: true
