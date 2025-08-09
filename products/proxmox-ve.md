@@ -29,6 +29,12 @@ auto:
         eol: "Proxmox EOL"
 
 releases:
+-   releaseCycle: "9"
+    releaseDate: 2025-08-05
+    eol: false # no date yet available on https://pve.proxmox.com/wiki/FAQ
+    latest: "9.0"
+    latestReleaseDate: 2025-08-05
+    
 -   releaseCycle: "8"
     releaseDate: 2023-06-22
     eol: 2026-08-31
