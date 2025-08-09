@@ -22,10 +22,11 @@ layout: null
 /api{{page.permalink}}       /api{{page.permalink}}.json
     {%- if page.alternate_urls  %}
       {%- for url in page.alternate_urls %}
+{{url}}.atom               {{page.permalink}}.atom
 /calendar{{url}}.ics       /calendar{{page.permalink}}.ics
-/api{{url}}.json       /api{{page.permalink}}.json
-/api{{url}}/*       /api{{page.permalink}}/:splat
-/api/v1/products{{url}}/*       /api/v1/products{{page.permalink}}/:splat
+/api{{url}}.json           /api{{page.permalink}}.json
+/api{{url}}/*              /api{{page.permalink}}/:splat
+/api/v1/products{{url}}/*  /api/v1/products{{page.permalink}}/:splat
       {%- endfor %}
     {%- endif %}
   {%- endif %}
