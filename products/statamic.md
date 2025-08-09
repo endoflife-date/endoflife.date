@@ -11,10 +11,16 @@ changelogTemplate: "https://github.com/statamic/cms/blob/v__LATEST__/CHANGELOG.m
 eoasColumn: true
 
 customFields:
+-   name: supportedLaravelVersions
+    display: api-only
+    label: Laravel
+    description: Supported Laravel versions
+    link: https://statamic.dev/release-schedule-support-policy
 -   name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
+    link: https://statamic.dev/release-schedule-support-policy
 
 identifiers:
 -   purl: pkg:composer/statamic/cms
@@ -28,20 +34,18 @@ auto:
       fields:
         releaseCycle:
           column: "Statamic"
-        eoas:
-          column: "Bug Fixes Until"
-        eol:
-          column: "Security Fixes Until"
-        supportedPhpVersions:
-          column: "PHP"
+          regex: '(?P<value>\d+(\.\d+)?).*'
+        eoas: "Bug Fixes Until"
+        eol: "Security Fixes Until"
+        supportedLaravelVersions: "Laravel"
+        supportedPhpVersions: "PHP"
 
-# Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
-
 -   releaseCycle: "5"
     releaseDate: 2024-05-09
-    eoas: 2025-05-09
+    eoas: 2025-09-30
     eol: 2025-11-30
+    supportedLaravelVersions: '10-12'
     supportedPhpVersions: '8.2-8.4'
     latest: '5.63.0'
     latestReleaseDate: 2025-08-06
@@ -50,44 +54,44 @@ releases:
     releaseDate: 2023-05-09
     eoas: 2024-05-31
     eol: 2024-09-30
+    supportedLaravelVersions: '9-10'
     supportedPhpVersions: '8.0-8.3'
     latest: '4.58.3'
     latestReleaseDate: 2024-09-11
 
 -   releaseCycle: "3.4"
     releaseDate: 2023-01-27
-    eoas: 2024-01-27
-    eol: 2024-07-27
-    supportedPhpVersions: '7.4 - 8.1'
+    eoas: 2023-01-31
+    eol: 2024-07-31
+    supportedLaravelVersions: '8-9'
+    supportedPhpVersions: '7.4-8.1'
     latest: '3.4.17'
     latestReleaseDate: 2024-01-25
 
 -   releaseCycle: "3.3"
     releaseDate: 2022-03-15
-    eoas: 2023-03-15
-    eol: 2023-09-15
-    supportedPhpVersions: '7.4 - 8.1'
+    eoas: 2023-03-31
+    eol: 2023-09-30
+    supportedLaravelVersions: '8-9'
+    supportedPhpVersions: '7.4-8.1'
     latest: '3.3.68'
     latestReleaseDate: 2023-02-02
 
 ---
 
-> [Statamic](https://statamic.com/) is the flat-first, Laravel + Git powered CMS designed for
-> building beautiful, easy to manage websites.
+> [Statamic](https://statamic.com/) is a modern and flexible content management system built on the [Laravel PHP framework](/laravel).
+> It uses flat files for content storage, making it easy to version control.
 
 Statamic and its other first-party packages follow [Semantic Versioning](https://semver.org/).
-Major framework releases are released every year (~Q1), following Laravel's major releases by
-roughly a month. Minor and patch releases may be released as often as every few days. Minor
-and patch releases should never contain breaking changes.
+Major framework releases are released every year, following [Laravel's](/laravel) major releases by roughly a month.
 
-For all Statamic releases, bug fixes are provided for 1 year and security fixes are provided for
-18 months. For all first party addons, only the latest major release receives bug fixes. In
-addition, please review the [Laravel Support Policy](https://laravel.com/docs/master/releases#support-policy).
+For all Statamic releases, bug fixes are provided for at least 12 months and security fixes for at least 18 months.
+For all first party addons, only the latest major release receives bug fixes.
 
-## PHP Support
+## Laravel and PHP Support
 
 {% include table.html
-labels="Release,Supported PHP versions"
-fields="releaseCycle,supportedPhpVersions"
-types="string,string"
+labels="Release,Supported Laravel versions,Supported PHP versions"
+fields="releaseCycle,supportedLaravelVersions,supportedPhpVersions"
+types="string,string,string"
 rows=page.releases %}
