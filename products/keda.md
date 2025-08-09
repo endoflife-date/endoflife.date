@@ -4,7 +4,7 @@ addedAt: 2023-10-12
 category: server-app
 tags: cncf
 permalink: /keda
-releasePolicyLink: https://github.com/kedacore/keda?tab=security-ov-file#readme
+releasePolicyLink: https://github.com/kedacore/governance/blob/main/RELEASES.md
 changelogTemplate: "https://github.com/kedacore/keda/releases/tag/v__LATEST__"
 eolColumn: Support
 
@@ -30,14 +30,14 @@ identifiers:
 releases:
 -   releaseCycle: "2.17"
     releaseDate: 2025-04-07
-    eol: 2025-04-30 # estimated releaseDate(2.19)
+    eol: 2025-12-24 # estimated releaseDate(2.19)
     supportedKubernetesVersions: 1.30 - 1.32
     latest: "2.17.2"
     latestReleaseDate: 2025-06-18
 
 -   releaseCycle: "2.16"
     releaseDate: 2024-11-07
-    eol: 2025-04-30 # estimated releaseDate(2.18)
+    eol: 2025-08-24 # estimated releaseDate(2.18)
     supportedKubernetesVersions: 1.29 - 1.31
     latest: "2.16.1"
     latestReleaseDate: 2024-12-24
@@ -167,8 +167,8 @@ releases:
 > the scaling of any container in Kubernetes based on the number of events needing to be processed.
 
 KEDA follows [Semantic Versioning](https://github.com/kedacore/governance/blob/main/RELEASES.md).
-A new minor version is released approximately every three months and is usually supported until the
-next minor version is released.
+A new minor version is released approximately every four months and is usually supported for two
+release cycles.
 
 ## [Supported Kubernetes Versions](https://keda.sh/docs/latest/operate/cluster/#kubernetes-compatibility)
 
