@@ -2,7 +2,7 @@
 title: Chef Infra Client
 addedAt: 2024-07-19
 category: app
-tags: ruby-runtime
+tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-infra-client
 alternate_urls:

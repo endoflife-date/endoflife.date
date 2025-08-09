@@ -2,7 +2,7 @@
 title: Chef Supermarket
 addedAt: 2025-07-14
 category: server-app
-tags: ruby-runtime
+tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-supermarket
 versionCommand: supermarket-ctl version

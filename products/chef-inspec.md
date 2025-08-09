@@ -2,7 +2,7 @@
 title: Chef InSpec
 addedAt: 2024-08-14
 category: app
-tags: ruby-runtime
+tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-inspec
 versionCommand: inspec version
