@@ -1,7 +1,8 @@
 ---
 title: Chef Workstation
+addedAt: 2025-08-09
 category: app
-tags: ruby-runtime
+tags: progress ruby-runtime
 iconSlug: chef
 permalink: /chef-workstation
 versionCommand: chef --version
