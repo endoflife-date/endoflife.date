@@ -65,9 +65,9 @@ auto:
 # Rolling releases info are available on https://mariadb.org/about/#maintenance-policy.
 releases:
 -   releaseCycle: "12.0"
-    releaseDate: 2025-08-07
+    releaseDate: 2025-06-05
     eol: 2025-11-07
-    latest: "12.0.1"
+    latest: "12.0.2"
     latestReleaseDate: 2025-08-07
     link: https://mariadb.com/docs/release-notes/community-server/release-notes-mariadb-__RELEASE_CYCLE__-rolling-releases/mariadb-__LATEST__-release-notes
 

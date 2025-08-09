@@ -38,37 +38,37 @@ auto:
 # Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
 
-  -   releaseCycle: "5"
-      releaseDate: 2024-05-09
-      eoas: 2025-05-09
-      eol: 2025-11-09
-      supportedPhpVersions: '8.2 - 8.4'
-      latest: '5.61.0'
-      latestReleaseDate: 2025-07-25
+-   releaseCycle: "5"
+    releaseDate: 2024-05-09
+    eoas: 2025-05-09
+    eol: 2025-11-30
+    supportedPhpVersions: '8.2-8.4'
+    latest: '5.63.0'
+    latestReleaseDate: 2025-08-06
 
-  -   releaseCycle: "4"
-      releaseDate: 2023-05-09
-      eoas: 2024-05-09
-      eol: 2024-09-09
-      supportedPhpVersions: '8.0 - 8.3'
-      latest: '4.58.3'
-      latestReleaseDate: 2024-09-11
+-   releaseCycle: "4"
+    releaseDate: 2023-05-09
+    eoas: 2024-05-31
+    eol: 2024-09-30
+    supportedPhpVersions: '8.0-8.3'
+    latest: '4.58.3'
+    latestReleaseDate: 2024-09-11
 
-  -   releaseCycle: "3.4"
-      releaseDate: 2023-01-27
-      eoas: 2024-01-27
-      eol: 2024-07-27
-      supportedPhpVersions: '7.4 - 8.1'
-      latest: '3.4.17'
-      latestReleaseDate: 2024-01-25
+-   releaseCycle: "3.4"
+    releaseDate: 2023-01-27
+    eoas: 2024-01-27
+    eol: 2024-07-27
+    supportedPhpVersions: '7.4 - 8.1'
+    latest: '3.4.17'
+    latestReleaseDate: 2024-01-25
 
-  -   releaseCycle: "3.3"
-      releaseDate: 2022-03-15
-      eoas: 2023-03-15
-      eol: 2023-09-15
-      supportedPhpVersions: '7.4 - 8.1'
-      latest: '3.3.68'
-      latestReleaseDate: 2023-02-02
+-   releaseCycle: "3.3"
+    releaseDate: 2022-03-15
+    eoas: 2023-03-15
+    eol: 2023-09-15
+    supportedPhpVersions: '7.4 - 8.1'
+    latest: '3.3.68'
+    latestReleaseDate: 2023-02-02
 
 ---
 
