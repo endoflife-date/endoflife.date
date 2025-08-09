@@ -5,7 +5,6 @@ tags: ruby-runtime
 iconSlug: chef
 permalink: /chef-workstation
 versionCommand: chef --version
-releasePolicyLink: https://docs.chef.io/versions/
 changelogTemplate: "https://docs.chef.io/release_notes_workstation/#__LATEST__"
 eoasColumn: true
 
@@ -59,3 +58,7 @@ releases:
 
 > [Chef Workstation](https://docs.chef.io/workstation/) provides a single installation that includes tools for
 > writing, testing, and managing infrastructure code with the Chef Infra suite.
+
+Supported releases of Chef Workstation are documented on the [Chef Documentation website](https://docs.chef.io/versions/#supported-commercial-distributions).
+Looking at this document, it seems that Chef Workstation follows an N-1 support strategy,
+with the last two release supported with bug and security fixes.
