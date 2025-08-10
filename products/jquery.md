@@ -46,14 +46,16 @@ releases:
     link: https://blog.jquery.com/2016/05/20/jquery-1-12-4-and-2-2-4-released/
 ---
 
-> [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate
-> HTML documents.
+> [jQuery](https://jquery.com/) is a widely used JavaScript library making it easier to manipulate HTML documents.
 
-Only the latest version in the current release cycle is supported. The 1.x and 2.x branches no
-longer receive patches, although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
+Only the latest version in the current release cycle is supported.
+The 1.x and 2.x branches no longer receive patches,
+although a core team lead [stated that](https://github.com/jquery/jquery/issues/5322#issuecomment-1719939675)
 serious security patches have been backported and that they would consider it again in the future.
 
-jQuery is part of the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP). Commercial support [is available for some EOL versions of jQuery](https://jquery.com/support/#commercial-support) through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/jquery-nes) initiative.
+jQuery is part of the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
+Commercial support [is available for some EOL versions of jQuery](https://jquery.com/support/#commercial-support)
+through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/jquery-nes) initiative.
 
 ## [Browser Support](https://jquery.com/browser-support/)
 
