@@ -459,15 +459,17 @@ releases:
     link: https://help.sonatype.com/repomanager2/release-notes
 ---
 
-> [Nexus Repository](https://help.sonatype.com/repomanager3) is a
-> repository manager developed by Sonatype that supports many artifact formats, including
-> Docker, Java, and npm.
+> [Nexus Repository](https://help.sonatype.com/repomanager3) is a repository manager developed by Sonatype
+> that supports many artifact formats, including Docker, Java, and npm.
 
-All minor releases are typically supported for 18 months. This includes 12 months of full support,
-with updates and bug fixes, followed by 6 months of extended maintenance, with only critical and
-security fixes. After this, the release is considered sunset.
+All minor releases are typically supported for 18 months.
+This includes 12 months of full support, with updates and bug fixes,
+followed by 6 months of extended maintenance, with only critical and security fixes.
+After this, the release is considered sunset.
 
-In release 3.71.0, Sonatype Nexus Repository began using H2 as its default embedded database. Users not able to migrate to H2 or PostgreSQL need to remain on the [3.70.x](https://help.sonatype.com/en/orientdb-downloads.html) release line, which will receive only critical bug fixes.
+In release 3.71.0, Sonatype Nexus Repository began using H2 as its default embedded database.
+Users not able to migrate to H2 or PostgreSQL need to remain on the [3.70.x](https://help.sonatype.com/en/orientdb-downloads.html) release line,
+which will receive only critical bug fixes.
 
-Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with
-additional features with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
+Sonatype provides [commercial support](https://www.sonatype.com/usage/software-support-policy) with additional features
+with [Nexus Repository Pro](https://www.sonatype.com/products/sonatype-nexus-oss-vs-pro-features).
