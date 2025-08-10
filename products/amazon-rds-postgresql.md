@@ -10,10 +10,10 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-  -   rds: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
-  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
+    - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html
       selector: "table"
       fields:
         releaseCycle:
@@ -23,70 +23,68 @@ auto:
         eoes: "RDS end of Extended Support date"
 
 releases:
--   releaseCycle: "17"
+  - releaseCycle: "17"
     releaseDate: 2024-11-14
     eol: 2030-02-28
     eoes: 2033-02-28
     latest: "17.5"
     latestReleaseDate: 2025-05-08
 
--   releaseCycle: "16"
+  - releaseCycle: "16"
     releaseDate: 2023-11-17
     eol: 2029-02-28
     eoes: 2032-02-29
     latest: "16.9"
     latestReleaseDate: 2025-05-08
 
--   releaseCycle: "15"
+  - releaseCycle: "15"
     releaseDate: 2023-02-27
     eol: 2028-02-29
     eoes: 2031-02-28
     latest: "15.13"
     latestReleaseDate: 2025-05-08
 
--   releaseCycle: "14"
+  - releaseCycle: "14"
     releaseDate: 2022-02-03
     eol: 2027-02-28
     eoes: 2030-02-28
     latest: "14.18"
     latestReleaseDate: 2025-05-08
 
--   releaseCycle: "13"
+  - releaseCycle: "13"
     releaseDate: 2021-02-24
     eol: 2026-02-28
     eoes: 2029-02-28
     latest: "13.21"
     latestReleaseDate: 2025-05-08
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2020-03-31
     eol: 2025-02-28
     eoes: 2028-02-29
     latest: "12.22"
     latestReleaseDate: 2025-04-03
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2019-03-13
     eol: 2024-02-29
     eoes: 2027-03-31
     latest: "11.22"
     latestReleaseDate: 2024-05-14
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2018-02-27
     eol: 2023-04-30
     eoes: true
     latest: "10.23"
     latestReleaseDate: 2023-01-24
 
--   releaseCycle: "9.6"
+  - releaseCycle: "9.6"
     releaseDate: 2016-11-11
     eol: 2022-04-30
     eoes: true
     # https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-versions.html#postgresql-versions-version96
     latest: "9.6.24"
-
-
 ---
 
 > [Amazon RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql) is a PaaS offering from Amazon

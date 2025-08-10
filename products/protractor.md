@@ -11,13 +11,13 @@ eoesColumn: Commercial Support
 
 auto:
   methods:
-  -   npm: protractor
+    - npm: protractor
 
 identifiers:
--   purl: pkg:npm/protractor
+  - purl: pkg:npm/protractor
 
 releases:
--   releaseCycle: "7.0"
+  - releaseCycle: "7.0"
     releaseDate: 2020-05-13
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -26,7 +26,7 @@ releases:
     latestReleaseDate: 2020-05-13
     link: https://github.com/angular/protractor/blob/release-7.0/CHANGELOG.md#700
 
--   releaseCycle: "6.0"
+  - releaseCycle: "6.0"
     releaseDate: 2019-03-23
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -34,7 +34,7 @@ releases:
     latestReleaseDate: 2019-03-23
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#600
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2017-01-10
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -42,7 +42,7 @@ releases:
     latestReleaseDate: 2020-04-16
     link: https://github.com/angular/protractor/blob/release-5.4/CHANGELOG.md#544
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2016-07-12
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -50,7 +50,7 @@ releases:
     latestReleaseDate: 2016-12-21
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#4014
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2015-11-18
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -58,7 +58,7 @@ releases:
     latestReleaseDate: 2016-04-25
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#330
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseDate: 2015-03-18
     eoas: 2023-08-31
     eol: 2023-08-31
@@ -66,14 +66,13 @@ releases:
     latestReleaseDate: 2015-10-08
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#251
 
--   releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     releaseDate: 2014-07-21
     eoas: 2023-08-31
     eol: 2023-08-31
     latest: "1.8.0"
     latestReleaseDate: 2015-03-02
     link: https://github.com/angular/protractor/blob/master/CHANGELOG.md#180
-
 ---
 
 > [Protractor](https://www.protractortest.org/) is an end-to-end test framework for Angular and

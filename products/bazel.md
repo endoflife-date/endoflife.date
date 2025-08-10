@@ -12,16 +12,16 @@ changelogTemplate: "https://github.com/bazelbuild/bazel/releases/tag/__LATEST__"
 eoasColumn: true
 
 identifiers:
--   repology: bazel
--   purl: pkg:github/bazelbuild/bazel
--   purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
--   cpe: cpe:/a:google:bazel
--   cpe: cpe:2.3:a:google:bazel
+  - repology: bazel
+  - purl: pkg:github/bazelbuild/bazel
+  - purl: pkg:oci/bazel?repository_url=cgr.dev/chainguard
+  - cpe: cpe:/a:google:bazel
+  - cpe: cpe:2.3:a:google:bazel
 
 auto:
   methods:
-  -   git: https://github.com/bazelbuild/bazel.git
-  -   release_table: https://bazel.build/release
+    - git: https://github.com/bazelbuild/bazel.git
+    - release_table: https://bazel.build/release
       selector: "table"
       fields:
         releaseCycle:
@@ -33,7 +33,7 @@ auto:
 # eoas(x) = releaseDate(x+1)
 # eol(x) = releaseDate(x) + 3 years
 releases:
--   releaseCycle: "8"
+  - releaseCycle: "8"
     lts: true
     releaseDate: 2024-12-09
     eoas: false # releaseDate(9)
@@ -41,7 +41,7 @@ releases:
     latest: "8.3.1"
     latestReleaseDate: 2025-06-30
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     lts: true
     releaseDate: 2023-12-11
     eoas: 2024-12-09
@@ -49,7 +49,7 @@ releases:
     latest: "7.6.1"
     latestReleaseDate: 2025-03-31
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     lts: true
     releaseDate: 2022-12-19
     eoas: 2023-12-11 # releaseDate(7)
@@ -57,7 +57,7 @@ releases:
     latest: "6.5.0"
     latestReleaseDate: 2024-01-23
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     lts: true
     releaseDate: 2022-01-19
     eoas: 2022-12-19 # releaseDate(6)
@@ -65,14 +65,13 @@ releases:
     latest: "5.4.1"
     latestReleaseDate: 2023-04-19
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     lts: true
     releaseDate: 2021-01-21
     eoas: 2022-01-19 # releaseDate(5)
     eol: 2024-01-31
     latest: "4.2.4"
     latestReleaseDate: 2023-04-20
-
 ---
 
 > [Bazel](https://bazel.build/) is a fast, scalable, multi-language and extensible build system.

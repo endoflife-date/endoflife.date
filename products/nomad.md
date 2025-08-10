@@ -10,88 +10,87 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/nomad/blob/v__LATEST__/CHANGELOG.md
 
 identifiers:
--   repology: nomad-scheduler
--   cpe: cpe:/a:hashicorp:nomad
--   cpe: cpe:2.3:a:hashicorp:nomad
+  - repology: nomad-scheduler
+  - cpe: cpe:/a:hashicorp:nomad
+  - cpe: cpe:2.3:a:hashicorp:nomad
 
 auto:
   methods:
-  -   git: https://github.com/hashicorp/nomad.git
+    - git: https://github.com/hashicorp/nomad.git
 
 # eol(x) = releaseDate(x+3)
 releases:
--   releaseCycle: "1.10"
+  - releaseCycle: "1.10"
     releaseDate: 2025-04-09
     eol: false
     latest: "1.10.3"
     latestReleaseDate: 2025-07-08
 
--   releaseCycle: "1.9"
+  - releaseCycle: "1.9"
     releaseDate: 2024-10-10
     eol: false
     latest: "1.9.7"
     latestReleaseDate: 2025-03-11
 
--   releaseCycle: "1.8"
+  - releaseCycle: "1.8"
     releaseDate: 2024-05-28
     eol: false
     latest: "1.8.4"
     latestReleaseDate: 2024-09-17
 
--   releaseCycle: "1.7"
+  - releaseCycle: "1.7"
     releaseDate: 2023-12-07
     eol: 2025-04-09 # releaseDate(1.10)
     latest: "1.7.7"
     latestReleaseDate: 2024-04-16
 
--   releaseCycle: "1.6"
+  - releaseCycle: "1.6"
     releaseDate: 2023-07-18
     eol: 2024-10-10 # releaseDate(1.9)
     latest: "1.6.10"
     latestReleaseDate: 2024-04-16
 
--   releaseCycle: "1.5"
+  - releaseCycle: "1.5"
     releaseDate: 2023-03-01
     eol: 2024-05-28
     latest: "1.5.17"
     latestReleaseDate: 2024-04-16
 
--   releaseCycle: "1.4"
+  - releaseCycle: "1.4"
     releaseDate: 2022-10-04
     eol: 2023-12-07
     latest: "1.4.14"
     latestReleaseDate: 2023-10-30
 
--   releaseCycle: "1.3"
+  - releaseCycle: "1.3"
     releaseDate: 2022-05-11
     eol: 2023-07-18
     latest: "1.3.16"
     latestReleaseDate: 2023-08-18
 
--   releaseCycle: "1.2"
+  - releaseCycle: "1.2"
     releaseDate: 2021-11-15
     eol: 2023-03-01
     latest: "1.2.16"
     latestReleaseDate: 2023-02-14
 
--   releaseCycle: "1.1"
+  - releaseCycle: "1.1"
     releaseDate: 2021-05-17
     eol: 2022-10-04
     latest: "1.1.18"
     latestReleaseDate: 2022-08-31
 
--   releaseCycle: "1.0"
+  - releaseCycle: "1.0"
     releaseDate: 2020-12-08
     eol: 2022-05-11
     latest: "1.0.18"
     latestReleaseDate: 2022-02-10
 
--   releaseCycle: "0.12"
+  - releaseCycle: "0.12"
     releaseDate: 2020-07-09
     eol: 2021-11-15
     latest: "0.12.12"
     latestReleaseDate: 2021-05-11
-
 ---
 
 > [Hashicorp Nomad](https://www.nomadproject.io/) is a simple and flexible workload orchestrator to
