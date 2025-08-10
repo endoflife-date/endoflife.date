@@ -9,43 +9,13 @@
 # Setting a layout forces Jekyll to render this file
 layout: null
 ---
-{% for page in site.pages -%}
-# Redirects for {{page.path}}
-  {%- if page.alternate_urls %}
-    {%- for url in page.alternate_urls %}
-{{url}}       {{page.permalink}}
-    {%- endfor %}
-  {%- endif %}
-  {%- if page.layout == 'product' %}
-{{page.permalink}}/_edit     https://github.com/endoflife-date/endoflife.date/edit/master/{{page.path}}
-{%- comment %}API v0 redirect{% endcomment %}
-/api{{page.permalink}}       /api{{page.permalink}}.json
-    {%- if page.alternate_urls  %}
-      {%- for url in page.alternate_urls %}
-/calendar{{url}}.ics       /calendar{{page.permalink}}.ics
-/api{{url}}.json       /api{{page.permalink}}.json
-/api{{url}}/*       /api{{page.permalink}}/:splat
-/api/v1/products{{url}}/*       /api/v1/products{{page.permalink}}/:splat
-      {%- endfor %}
-    {%- endif %}
-  {%- endif %}
-
-{% endfor %}
-
 # Clients will try to access /favicon.ico, in some scenarios we don't want the file in our codebase,
 # because the theme embeds it as a favicon, so instead set a redirect for these clients to a PNG file instead.
-/favicon.ico /assets/favicon-32x32.png
+/favicon.ico                       /assets/favicon-32x32.png
 
-# Rewrite for /api/v1/ to keep URLs clean.
-# All API responses are located in an index.json and must be accessible without the file name, such as:
-# - /api/v1/index.json -> /api/v1/
-# - /api/v1/products/almalinux/index.json -> /api/v1/products/almalinux/
-# This uses shadowing : https://docs.netlify.com/routing/redirects/rewrites-proxies/#shadowing, and
-# it must be declared at the end of the file to not take precedence on the redirects (see
-# https://docs.netlify.com/routing/redirects/#rule-processing-order).
-/api/v1/*       /api/v1/:splat/index.json       200!
-
-# A few permanent redirects for removed pages
+# A few permanent redirects for removed pages / alternate URLs
+/advise                            /recommendations
+/advice                            /recommendations
 /tags/api-gateway                  /tags/web-server
 /tags/configuration-management     /
 /tags/db                           /tags/database
@@ -54,3 +24,29 @@ layout: null
 /tags/managed-postgresql           /tags/database
 /tags/package-manager              /tags/build-tool
 /tags/redhat                       /tags/red-hat
+
+{%- assign product_pages = site.pages | where: 'layout', 'product' %}
+{%- for page in product_pages %}
+
+# Redirects for {{page.path}}
+{{page.permalink}}/_edit                https://github.com/endoflife-date/endoflife.date/edit/master/{{page.path}}
+/api{{page.permalink}}                  /api{{page.permalink}}.json
+{%- for alternate_url in page.alternate_urls %}
+{{alternate_url}}                       {{page.permalink}}
+/calendar{{alternate_url}}.ics          /calendar{{page.permalink}}.ics
+/api{{alternate_url}}.json              /api{{page.permalink}}.json
+/api{{alternate_url}}/*                 /api{{page.permalink}}/:splat
+/api/v1/products{{alternate_url}}/*     /api/v1/products{{page.permalink}}/:splat
+{%- endfor %}
+{%- endfor %}
+
+# Rewrite for /api/v1/ to keep URLs clean.
+# All API responses are located in an index.json and must be accessible without the file name, such as:
+# - /api/v1/index.json -> /api/v1/
+# - /api/v1/products/almalinux/index.json -> /api/v1/products/almalinux/
+# This uses shadowing : https://docs.netlify.com/routing/redirects/rewrites-proxies/#shadowing, and
+# it must be declared at the end of the file to not take precedence on the redirects (see https://docs.netlify.com/routing/redirects/#rule-processing-order).
+# This configuration prevents us from having 404 json responses when using the API.
+# But declaring the necessary redirects manually would be hard to maintain (each time a new endpoint is added this would require additional redirect rules).
+# So that's the best trade-off we can do for now.
+/api/v1/*                               /api/v1/:splat/index.json                         200!
