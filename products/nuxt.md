@@ -63,15 +63,14 @@ releases:
 ---
 
 > [Nuxt](https://nuxt.com/) is a free and open-source framework with an intuitive and extendable way
-> to create type-safe, performant and production-grade full-stack web applications and websites with
-> Vue.js.
+> to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.
 
-Nuxt follows [Semantic Versioning](https://semver.org/). The roadmap plans for a major release every
-year, with an expectation of patch releases every week or so and minor releases every month or so.
+Nuxt follows [Semantic Versioning](https://semver.org/).
+The roadmap plans for a major release every year, with an expectation of patch releases every week or so and minor releases every month or so.
 
-Minor and Patch releases should never contain breaking changes except for features marked as
-_experimental_.
+Minor and Patch releases should never contain breaking changes except for features marked as _experimental_.
 
 All supported versions should run on [all currently supported Node.js](/nodejs) releases.
 
-Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative. For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.
+Commercial security support for Nuxt 2 is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support) initiative.
+For more information, see [Nuxt v2](https://v2.nuxt.com/lts) docs.
