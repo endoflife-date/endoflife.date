@@ -6,7 +6,13 @@ title: About the endoflife.date bot
 description: Some information about the endoflife.date bot - what it is and why it exists.
 ---
 
-If you are reading this page, you have likely noticed our user agent, `endoflife.date-bot/1.0 (endoflife.date automation; +https://endoflife.date/bot)`, in your server logs.
+endoflife.date user agent is the following:
+
+```
+endoflife.date-bot/1.0 (endoflife.date automation; +https://endoflife.date/bot)
+```
+
+If you are reading this page, you have likely noticed our user agent in your server logs.
 We understand that seeing an unfamiliar bot can raise questions. This page clarifies our bot's purpose and practices.
 
 endoflife.date is an open-source community website dedicated to documenting End-of-Life (EOL) dates and support lifecycles for various products.
