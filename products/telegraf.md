@@ -248,10 +248,10 @@ releases:
     link: https://github.com/influxdata/telegraf/releases/tag/__LATEST__
 ---
 
-> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing,
-> aggregating, and writing metrics.
+> [Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting, processing, aggregating, and writing metrics.
 
-Telegraf follows [SemVer](https://semver.org/). [There are four minor releases a year](https://github.com/influxdata/telegraf/blob/master/docs/FAQ.md#when-is-the-next-release-when-will-my-pr-or-fix-get-released) (in March, June, September, and December), supported with bug and security fixes.
+Telegraf follows [SemVer](https://semver.org/).
+[There are four minor releases a year](https://github.com/influxdata/telegraf/blob/master/docs/FAQ.md#when-is-the-next-release-when-will-my-pr-or-fix-get-released) (in March, June, September, and December), supported with bug and security fixes.
 
-InfluxData have not published specific support periods for their OSS products, although their
-commercial support policy offers support for the last two minor releases.
+InfluxData have not published specific support periods for their OSS products,
+although their commercial support policy offers support for the last two minor releases.
