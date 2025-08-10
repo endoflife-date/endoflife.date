@@ -32,7 +32,7 @@ jobs:
         run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
 
       - name: Validate Markdown files
-        run: npx markdownlint-cli2@latest "**/*.md" "#node_modules"
+        run: npx markdownlint-cli2@latest '**/*.md' '!node_modules' '!vendor'
         continue-on-error: true
 
       - name: Validate Formatting
