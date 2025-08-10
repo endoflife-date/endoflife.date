@@ -216,10 +216,10 @@ releases:
     latestReleaseDate: 2017-12-20
 ---
 
-> [nix](https://nixos.org/) is a cross-platform package manager that uses a purely functional
-> deployment model where software is installed into unique directories generated through
-> cryptographic hashes. It is also the name of the tool's programming language. A package's hash
-> takes into account the dependencies, which is claimed to eliminate dependency hell. This package
-> management model advertises more reliable, reproducible, and portable packages.
+> [nix](https://nixos.org/) is a cross-platform package manager that uses a purely functional deployment model
+> where software is installed into unique directories generated through cryptographic hashes.
+> It is also the name of the tool's programming language.
+> A package's hash takes into account the dependencies, which is claimed to eliminate dependency hell.
+> This package management model advertises more reliable, reproducible, and portable packages.
 
 **If you're looking for NixOS, the Linux distribution powered by nix, click [here](./nixos)**
