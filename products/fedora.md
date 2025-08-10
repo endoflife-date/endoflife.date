@@ -346,6 +346,6 @@ a relatively short life cycle: Release X is supported until 4 weeks after the re
 Release X+2 and with approximately 6 months between most versions, meaning a version of Fedora is
 usually supported for at least 13 months, possibly longer.
 
-* [List of all Releases](https://docs.fedoraproject.org/en-US/releases/).
-* [Fedora Project Schedule](https://fedorapeople.org/groups/schedule/) includes tentative dates.
-* [Unsupported Fedora Linux releases](https://docs.fedoraproject.org/en-US/releases/eol/).
+- [List of all Releases](https://docs.fedoraproject.org/en-US/releases/).
+- [Fedora Project Schedule](https://fedorapeople.org/groups/schedule/) includes tentative dates.
+- [Unsupported Fedora Linux releases](https://docs.fedoraproject.org/en-US/releases/eol/).

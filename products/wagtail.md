@@ -288,8 +288,8 @@ one [Django LTS release](https://www.djangoproject.com/download/#supported-versi
 
 The Wagtail team provides [official security support](https://docs.wagtail.org/en/stable/contributing/security.html#supported-versions) for:
 
-* The two most recent Wagtail release series.
-* The latest LTS release.
+- The two most recent Wagtail release series.
+- The latest LTS release.
 
 ## [Compatible Django / Python versions](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions)
 

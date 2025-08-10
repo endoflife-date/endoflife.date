@@ -19,7 +19,7 @@ Every recommendation includes a few examples (sometimes real) to help explain ou
 Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
 Every item is linked to the relevant section in the document below.
 
-- [ ] [Document all relevant information *together*](#publishing), accessible to your end-users.
+- [ ] [Document all relevant information _together_](#publishing), accessible to your end-users.
 - [ ] [Publish at a stable URL](#publishing), and make sure this link is not versioned.
 - [ ] [Document your release cadence](#release-cadence).
 - [ ] [Explain all levels of support](#explain-whats-supported).
@@ -61,7 +61,7 @@ Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the
 - <https://ubuntu.com/about/release-cycle>
 - <https://wiki.ubuntu.com/Releases>
 
-Make sure this information is hosted *alongside your end-user documentation*, not your developer or team documentation.
+Make sure this information is hosted _alongside your end-user documentation_, not your developer or team documentation.
 
 ### Bad - Python
 
@@ -135,7 +135,7 @@ documented policy is better than none.
 ## Release notes
 
 Release notes are critical for your end-users doing upgrades. If certain upgrade pathways are unsupported
-(such as doing 2 major upgrades at once), document the same. *Highlight breaking changes* in your release notes.
+(such as doing 2 major upgrades at once), document the same. _Highlight breaking changes_ in your release notes.
 
 If you have a migration guide, ensure it is linked in all the release notes.
 
@@ -145,7 +145,7 @@ List your releases in a table with all the relevant information for each release
 
 1. Link to a changelog (and/or Release Notes). See [keepachangelog.com](https://keepachangelog.com/) for getting started with one.
 2. What's the latest release in that cycle. This helps users validate whether they are running a supported release or not.
-3. What are the important dates for this release -  EoL/Release/GA/LTS etc. Do this for *all* different support levels.
+3. What are the important dates for this release -  EoL/Release/GA/LTS etc. Do this for _all_ different support levels.
 4. Download URL, if needed.
 5. Migration guide, if available.
 

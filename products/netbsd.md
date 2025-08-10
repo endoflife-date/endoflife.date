@@ -108,10 +108,10 @@ At any given time, typically [3 branches](https://www.netbsd.org/releases/releas
 of NetBSD are [supported with security patches](https://www.netbsd.org/support/security/ "Security and NetBSD")
 and bug fixes:
 
-* [NetBSD-current][current]: Snapshots of the development branch.
-* [The Latest Major Release](https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"):
+- [NetBSD-current][current]: Snapshots of the development branch.
+- [The Latest Major Release](https://www.netbsd.org/releases/#formal "NetBSD Latest Formal Release"):
   The latest major [formal release][formal] of NetBSD.
-* [The Prior Major Release](https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"):
+- [The Prior Major Release](https://www.netbsd.org/releases/#supported "NetBSD Supported Releases"):
   The previous major [formal release][formal] of NetBSD (the release before the previous release is
   typically supported for one month after a new major release, leading to 4 releases being currently
   supported).
