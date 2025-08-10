@@ -60,12 +60,11 @@ releases:
     latestReleaseDate: 2013-07-26
 ---
 
-> [Bootstrap](https://getbootstrap.com/) is the most popular HTML, CSS, and JavaScript framework
+> [Bootstrap](https://getbootstrap.com/) is a popular HTML, CSS, and JavaScript framework
 > for developing responsive, mobile first projects on the web.
 
-At times to be determined by the release working group, major versions will be frozen and
-transitioned to _Long-Term Support_ (LTS). After a determined period of time, versions in Long-Term
-Support will be deep-frozen and transition to _Maintenance_ (Critical Support).
+At times to be determined by the release working group, major versions will be frozen and transitioned to _Long-Term Support_ (LTS).
+After a determined period of time, versions in Long-Term Support will be deep-frozen and transition to _Maintenance_ (Critical Support).
 
 Versions in _Maintenance_ should not have any changes landed, except for:
 
@@ -75,4 +74,5 @@ Versions in _Maintenance_ should not have any changes landed, except for:
 
 Unless a change is urgent, _Maintenance_ releases are likely to be made with minimal frequency.
 
-Commercial support for some EOL versions of Bootstrap is available through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
+Commercial support for some EOL versions of Bootstrap is available through the
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/nes-bootstrap) initiative.
