@@ -30,3 +30,9 @@ jobs:
 
       - name: Validate OpenAPI specification
         run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
+
+      - name: Validate Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@992badcdf24e3b8eb7e87ff9287fe931bcb00c6e # v20.0.0
+        continue-on-error: true
+        with:
+          globs: '**/*.md'
