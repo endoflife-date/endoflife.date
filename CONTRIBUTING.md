@@ -492,6 +492,15 @@ for file in $(find _site/api/v1 -type f | grep -v releases | sort -n); do
 done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 ```
 
+## Linting markdown files
+
+You can use the [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) to lint the markdown files:
+
+```sh
+npm install -g markdownlint-cli2
+markdownlint-cli2 --fix "**/*.md" "#node_modules"
+```
+
 ## 🆔 Adding Identifiers
 
 We need help with adding more identifiers. Please see [this page](/help/identifiers-needed/) for a list of pages missing
