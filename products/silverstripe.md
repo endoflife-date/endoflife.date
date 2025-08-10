@@ -23,12 +23,13 @@ auto:
   methods:
     - git: https://github.com/silverstripe/silverstripe-installer.git
     - release_table: https://www.silverstripe.org/software/roadmap/
+      render_javascript: true
+      render_javascript_wait_for: "table"
       selector: "table"
-      header_selector: "tr:nth-of-type(1)"
       fields:
-        releaseCycle: "MINOR VERSION"
-        eoas: "FULL SUPPORT ENDS"
-        eol: "END OF LIFE(EOL)"
+        releaseCycle: "CMS Version"
+        eoas: "Partial support starts"
+        eol: "Support ends"
 
 # releaseDate, eoas and eol on https://www.silverstripe.org/software/roadmap/
 # eoas, eol rounded to the end of month
