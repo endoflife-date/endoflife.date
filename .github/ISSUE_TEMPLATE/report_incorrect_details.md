@@ -1,10 +1,9 @@
 ---
 name: Report Incorrect Details
 about: Report incorrect details of a product on endoflife.date
-title: ''
-labels: 'bug'
-assignees: ''
-
+title: ""
+labels: "bug"
+assignees: ""
 ---
 
 **Link to product page on endoflife.date**

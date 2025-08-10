@@ -3,7 +3,7 @@ name: Check URLs
 on:
   workflow_dispatch: # Manually run workflow.
   schedule:
-    - cron: '0 0 * * 0' # At 00:00 on Sunday.
+    - cron: "0 0 * * 0" # At 00:00 on Sunday.
 
 jobs:
   check_urls:

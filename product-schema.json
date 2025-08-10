@@ -10,10 +10,7 @@
     "versionCommand": {
       "title": "Version command",
       "description": "Command to fetch the products version.",
-      "examples": [
-        "helm version",
-        "go version"
-      ],
+      "examples": ["helm version", "go version"],
       "type": "string"
     },
     "releasePolicyLink": {
@@ -47,10 +44,7 @@
     "permalink": {
       "title": "Permalink",
       "description": "The URL to this product within the endoflife.date website. Must start with a slash.",
-      "examples": [
-        "/foo",
-        "/bar"
-      ],
+      "examples": ["/foo", "/bar"],
       "$ref": "#/$defs/slug"
     },
     "tags": {
@@ -58,9 +52,7 @@
       "description": "Tags which fit this product. Only lowercase, numbers and minus are allowed. Separated via spaces.",
       "type": "string",
       "pattern": "^[a-z0-9\\-]+( [a-z0-9\\-]+)*$",
-      "examples": [
-        "foo bar"
-      ]
+      "examples": ["foo bar"]
     },
     "alternate_urls": {
       "title": "Alternate URLs",
@@ -106,12 +98,7 @@
       }
     }
   },
-  "required": [
-    "title",
-    "category",
-    "permalink",
-    "releases"
-  ],
+  "required": ["title", "category", "permalink", "releases"],
   "$defs": {
     "boolOrDate": {
       "oneOf": [
@@ -164,10 +151,7 @@
         "name": {
           "title": "Name",
           "description": "Name of the custom field.",
-          "examples": [
-            "supportedIosVersions",
-            "correspondingAndroidVersion"
-          ],
+          "examples": ["supportedIosVersions", "correspondingAndroidVersion"],
           "type": "string"
         },
         "display": {
@@ -198,11 +182,7 @@
           "format": "uri-template"
         }
       },
-      "required": [
-        "property",
-        "position",
-        "label"
-      ]
+      "required": ["property", "position", "label"]
     },
     "automethod": {
       "oneOf": [
@@ -224,9 +204,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "git"
-          ],
+          "required": ["git"],
           "additionalProperties": false
         },
         {
@@ -247,9 +225,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "npm"
-          ],
+          "required": ["npm"],
           "additionalProperties": false
         },
         {
@@ -270,9 +246,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "docker_hub"
-          ],
+          "required": ["docker_hub"],
           "additionalProperties": false
         },
         {
@@ -293,9 +267,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "distrowatch"
-          ],
+          "required": ["distrowatch"],
           "additionalProperties": false
         },
         {
@@ -324,9 +296,7 @@
               "$ref": "#/$defs/regex"
             }
           },
-          "required": [
-            "github_releases"
-          ],
+          "required": ["github_releases"],
           "additionalProperties": false
         },
         {
@@ -347,9 +317,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "pypi"
-          ],
+          "required": ["pypi"],
           "additionalProperties": false
         },
         {
@@ -370,9 +338,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "maven"
-          ],
+          "required": ["maven"],
           "additionalProperties": false
         },
         {
@@ -393,9 +359,7 @@
               "$ref": "#/$defs/template"
             }
           },
-          "required": [
-            "cgit"
-          ],
+          "required": ["cgit"],
           "additionalProperties": false
         }
       ]
@@ -406,10 +370,7 @@
         "releaseCycle": {
           "title": "releaseCycle",
           "description": "The release cycle which this release is part of.",
-          "examples": [
-            "1",
-            "1.0"
-          ],
+          "examples": ["1", "1.0"],
           "type": "string",
           "pattern": "^[a-z0-9.\\-+_]+$"
         },
@@ -434,10 +395,7 @@
         "eolColumn": {
           "title": "EOL column",
           "description": "Whether to show the EOL column, or a custom name for it.",
-          "examples": [
-            "General Support",
-            false
-          ],
+          "examples": ["General Support", false],
           "$ref": "#/$defs/boolOrString"
         },
         "eol": {
@@ -506,9 +464,7 @@
       "allOf": [
         {
           "if": {
-            "required": [
-              "eolColumn"
-            ],
+            "required": ["eolColumn"],
             "properties": {
               "eolColumn": {
                 "type": "string"
@@ -516,16 +472,12 @@
             }
           },
           "then": {
-            "required": [
-              "eol"
-            ]
+            "required": ["eol"]
           }
         },
         {
           "if": {
-            "required": [
-              "eoasColumn"
-            ],
+            "required": ["eoasColumn"],
             "properties": {
               "eoasColumn": {
                 "type": "string"
@@ -533,16 +485,12 @@
             }
           },
           "then": {
-            "required": [
-              "eoas"
-            ]
+            "required": ["eoas"]
           }
         },
         {
           "if": {
-            "required": [
-              "eoesColumn"
-            ],
+            "required": ["eoesColumn"],
             "properties": {
               "eoesColumn": {
                 "type": "string"
@@ -550,16 +498,12 @@
             }
           },
           "then": {
-            "required": [
-              "eoes"
-            ]
+            "required": ["eoes"]
           }
         },
         {
           "if": {
-            "required": [
-              "discontinuedColumn"
-            ],
+            "required": ["discontinuedColumn"],
             "properties": {
               "discontinuedColumn": {
                 "type": "string"
@@ -567,16 +511,12 @@
             }
           },
           "then": {
-            "required": [
-              "discontinued"
-            ]
+            "required": ["discontinued"]
           }
         },
         {
           "if": {
-            "required": [
-              "releaseDateColumn"
-            ],
+            "required": ["releaseDateColumn"],
             "properties": {
               "releaseDateColumn": {
                 "type": "string"
@@ -584,16 +524,12 @@
             }
           },
           "then": {
-            "required": [
-              "releaseDate"
-            ]
+            "required": ["releaseDate"]
           }
         },
         {
           "if": {
-            "required": [
-              "releaseColumn"
-            ],
+            "required": ["releaseColumn"],
             "properties": {
               "releaseColumn": {
                 "type": "string"
@@ -601,15 +537,11 @@
             }
           },
           "then": {
-            "required": [
-              "latest"
-            ]
+            "required": ["latest"]
           }
         }
       ],
-      "required": [
-        "releaseCycle"
-      ]
+      "required": ["releaseCycle"]
     }
   }
 }

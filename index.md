@@ -17,15 +17,15 @@ and has iCalendar support.
 endoflife.date currently tracks {{ site.pages | where: "layout", "product" | size }} products.
 Here are some of our most popular pages:
 
-| Programming           | [Python](/python) | [Java](/tags/java-distribution) | [Node.js](/nodejs) | [PHP](/php) |
-| Devices               | [iPhone](/iphone) | [Apple iPad](/iPad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
-| Databases             | [MongoDB](/mongodb) | [PostgreSQL](/postgresql) | [Redis](/redis) | [MySQL](/mysql) |
-| Operating Systems     | [Windows](/windows) | [Android](/android) | [macOS](/macos) | [Linux](/tags/linux-distribution) |
-| Frameworks            | [Angular](/angular) | [Django](/django) | [Ruby on Rails](/rails) | [.NET](/dotnet) |
-| Desktop Applications  | [Firefox](/firefox) | [Internet Explorer](/internet-explorer) | [Godot](/godot) | [Unity](/unity) |
-| Server Applications   | [Nginx](/nginx) | [Kubernetes](/kubernetes) | [Tomcat](/tomcat) | [HAProxy](/haproxy) |
-| Cloud Services        | [Amazon Elastic Kubernetes Service](/amazon-eks) | [Google Kubernetes Engine](/google-kubernetes-engine) | [Azure Kubernetes Service](/azure-kubernetes-service) | [Alibaba ACK](/alibaba-ack)       |
-| Standards             | [PCI-DSS](/pci-dss) |
+| Programming | [Python](/python) | [Java](/tags/java-distribution) | [Node.js](/nodejs) | [PHP](/php) |
+| Devices | [iPhone](/iphone) | [Apple iPad](/iPad) | [Samsung](/samsung-mobile) | [Google Pixel](/pixel) |
+| Databases | [MongoDB](/mongodb) | [PostgreSQL](/postgresql) | [Redis](/redis) | [MySQL](/mysql) |
+| Operating Systems | [Windows](/windows) | [Android](/android) | [macOS](/macos) | [Linux](/tags/linux-distribution) |
+| Frameworks | [Angular](/angular) | [Django](/django) | [Ruby on Rails](/rails) | [.NET](/dotnet) |
+| Desktop Applications | [Firefox](/firefox) | [Internet Explorer](/internet-explorer) | [Godot](/godot) | [Unity](/unity) |
+| Server Applications | [Nginx](/nginx) | [Kubernetes](/kubernetes) | [Tomcat](/tomcat) | [HAProxy](/haproxy) |
+| Cloud Services | [Amazon Elastic Kubernetes Service](/amazon-eks) | [Google Kubernetes Engine](/google-kubernetes-engine) | [Azure Kubernetes Service](/azure-kubernetes-service) | [Alibaba ACK](/alibaba-ack) |
+| Standards | [PCI-DSS](/pci-dss) |
 
 ## Last added products
 

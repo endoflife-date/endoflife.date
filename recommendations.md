@@ -8,6 +8,7 @@ alternate_urls:
   - /advise
   - /advice
 ---
+
 # Recommendations for publishing End-of-life dates and support timelines
 
 If you maintain a product that has some notion of support lifecycle and end-of-life,
@@ -97,8 +98,8 @@ It is always better if your release cadence is predictable and aligned with your
 ### Good - Alpine Linux
 
 > There are several release branches for Alpine Linux available at the same time.
-Each May and November we make a release branch from edge.
-The main repository is typically supported for 2 years and the community repository is supported until next stable release.
+> Each May and November we make a release branch from edge.
+> The main repository is typically supported for 2 years and the community repository is supported until next stable release.
 
 Source: <https://alpinelinux.org/releases/>
 
@@ -115,7 +116,7 @@ Bad:
 Good:
 
 > Extended Support beyond LTS is available to customers on a commercial basis. It includes critical
-security fixes only on the packages within the `base` repository.
+> security fixes only on the packages within the `base` repository.
 
 > Customers paying for "Premier Support" get additional access to our support team with a guaranteed SLA.
 
@@ -145,7 +146,7 @@ List your releases in a table with all the relevant information for each release
 
 1. Link to a changelog (and/or Release Notes). See [keepachangelog.com](https://keepachangelog.com/) for getting started with one.
 2. What's the latest release in that cycle. This helps users validate whether they are running a supported release or not.
-3. What are the important dates for this release -  EoL/Release/GA/LTS etc. Do this for _all_ different support levels.
+3. What are the important dates for this release - EoL/Release/GA/LTS etc. Do this for _all_ different support levels.
 4. Download URL, if needed.
 5. Migration guide, if available.
 
@@ -172,7 +173,7 @@ more time.
 ### Bad
 
 | K8s version | AKS GA   | End of life |
-|-------------|----------|-------------|
+| ----------- | -------- | ----------- |
 | 1.22        | Nov 2021 | 1.25 GA     |
 | 1.23        | Feb 2022 | 1.26 GA     |
 
@@ -183,7 +184,7 @@ more time.
 Some projects will often put a note instead of documenting absolute dates:
 
 | Version | Release Date   |
-|---------|----------------|
+| ------- | -------------- |
 | 2.1     | 3rd March 2021 |
 | 2.0     | 1st March 2020 |
 
@@ -194,14 +195,14 @@ Release are supported for 2 years from the release date.
 Same as above, but we do the math:
 
 | Version | Release Date   | EoL Date       |
-|---------|----------------|----------------|
+| ------- | -------------- | -------------- |
 | 2.1     | 3rd March 2021 | 3rd March 2023 |
 | 2.0     | 1st March 2020 | 1st March 2022 |
 
 ### Good
 
 | Kubernetes version | Upstream release | Amazon EKS release | Amazon EKS end of support |
-|--------------------|------------------|--------------------|---------------------------|
+| ------------------ | ---------------- | ------------------ | ------------------------- |
 | 1.20               | December 8, 2020 | May 18, 2021       | July, 2022                |
 | 1.21               | April 8, 2021    | July 19, 2021      | September, 2022           |
 
