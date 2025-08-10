@@ -30,6 +30,15 @@ auto:
           regex: '~?(?P<value>\d{4}-\d{2}(-\d{2})?)'
 
 releases:
+-   releaseCycle: "13"
+    codename: "Trixie"
+    releaseDate: 2025-08-09
+    eol: false # not announced yet
+    eoes: false # not announced yet
+    link: https://www.debian.org/releases/trixie/release-notes/
+    latest: "13.0"
+    latestReleaseDate: 2025-08-09
+
 -   releaseCycle: "12"
     codename: "Bookworm"
     releaseDate: 2023-06-10
