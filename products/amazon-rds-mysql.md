@@ -10,10 +10,10 @@ eoesColumn: Extended Support
 
 auto:
   methods:
-  -   rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
-  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
+    - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html
       selector: "#rds-mysql-version-release-calendar table"
       fields:
         releaseCycle:
@@ -24,34 +24,33 @@ auto:
 
 # eoes(x) = eol(x) + 3 years
 releases:
--   releaseCycle: "8.4"
+  - releaseCycle: "8.4"
     releaseDate: 2024-11-21
     eol: 2029-07-31
     eoes: 2032-07-31
     latest: "8.4.6"
     latestReleaseDate: 2025-08-01
 
--   releaseCycle: "8.0"
+  - releaseCycle: "8.0"
     releaseDate: 2018-10-23
     eol: 2026-07-31
     eoes: 2029-07-31
     latest: "8.0.43"
     latestReleaseDate: 2025-08-01
 
--   releaseCycle: "5.7"
+  - releaseCycle: "5.7"
     releaseDate: 2016-02-22
     eol: 2024-02-29
     eoes: 2027-02-28
     latest: "5.7.44"
     latestReleaseDate: 2024-05-17
 
--   releaseCycle: "5.6"
+  - releaseCycle: "5.6"
     releaseDate: 2013-07-01
     eol: 2022-03-01
     eoes: true
     latest: "5.6"
     latestReleaseDate: 2013-07-01
-
 ---
 
 > [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql) is a PaaS offering from Amazon for

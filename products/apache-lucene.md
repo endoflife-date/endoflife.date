@@ -6,39 +6,38 @@ tags: apache java-runtime
 iconSlug: apache
 permalink: /apache-lucene
 alternate_urls:
--   /lucene
+  - /lucene
 releasePolicyLink: https://lucene.apache.org/core/downloads.html
 changelogTemplate: "https://lucene.apache.org/core/{{'__LATEST__'|replace:'.','_'}}/changes/Changes.html"
 
 auto:
   methods:
-  -   maven: org.apache.lucene/lucene-core
+    - maven: org.apache.lucene/lucene-core
 
 releases:
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2024-10-14
     eol: false
     latest: "10.2.2"
     latestReleaseDate: 2025-06-20
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2021-12-07
     eol: false
     latest: "9.12.2"
     latestReleaseDate: 2025-06-20
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2019-03-13
     eol: 2024-10-14
     latest: "8.11.4"
     latestReleaseDate: 2024-09-24
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2017-09-19
     eol: true
     latest: "7.7.3"
     latestReleaseDate: 2020-04-24
-
 ---
 
 > [Apache Lucene](https://lucene.apache.org/) is an open-source search engine library written in Java.

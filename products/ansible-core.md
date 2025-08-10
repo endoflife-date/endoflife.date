@@ -11,33 +11,33 @@ changelogTemplate: https://github.com/ansible/ansible/blob/stable-__RELEASE_CYCL
 eolColumn: Supported
 
 customFields:
--   name: pythonVersionsControlNode
+  - name: pythonVersionsControlNode
     display: api-only
     label: Control node Python
     description: Control node Python support
     link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
--   name: pythonVersionsManagedNode
+  - name: pythonVersionsManagedNode
     display: api-only
     label: Managed node Python
     description: Managed node Python support
     link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
--   name: powershellVersionsManagedNode
+  - name: powershellVersionsManagedNode
     display: api-only
     label: Managed node PowerShell
     description: Managed node PowerShell support
     link: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html#ansible-community-changelogs
 
 identifiers:
--   repology: ansible-core
--   cpe: cpe:/a:redhat:ansible_engine
--   cpe: cpe:/a:ansible:ansible
--   cpe: cpe:/a:redhat:ansible
--   cpe: cpe:2.3:a:redhat:ansible
+  - repology: ansible-core
+  - cpe: cpe:/a:redhat:ansible_engine
+  - cpe: cpe:/a:ansible:ansible
+  - cpe: cpe:/a:redhat:ansible
+  - cpe: cpe:2.3:a:redhat:ansible
 
 auto:
   methods:
-  -   git: https://github.com/ansible/ansible.git
-  -   release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+    - git: https://github.com/ansible/ansible.git
+    - release_table: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
       selector: "table"
       fields:
         releaseCycle: "Version"
@@ -51,7 +51,7 @@ auto:
 # EOL dates as well as Python / PowerShell versions can be found on
 # https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
 releases:
--   releaseCycle: "2.19"
+  - releaseCycle: "2.19"
     pythonVersionsControlNode: "3.11 - 3.13"
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
@@ -60,7 +60,7 @@ releases:
     latest: "2.19.0"
     latestReleaseDate: 2025-07-21
 
--   releaseCycle: "2.18"
+  - releaseCycle: "2.18"
     pythonVersionsControlNode: "3.11 - 3.13"
     pythonVersionsManagedNode: "3.8 - 3.13"
     powershellVersionsManagedNode: "5.1"
@@ -69,7 +69,7 @@ releases:
     latest: "2.18.7"
     latestReleaseDate: 2025-07-15
 
--   releaseCycle: "2.17"
+  - releaseCycle: "2.17"
     pythonVersionsControlNode: "3.10 - 3.12"
     pythonVersionsManagedNode: "3.7 - 3.12"
     powershellVersionsManagedNode: "5.1"
@@ -78,7 +78,7 @@ releases:
     latest: "2.17.13"
     latestReleaseDate: 2025-07-15
 
--   releaseCycle: "2.16"
+  - releaseCycle: "2.16"
     pythonVersionsControlNode: "3.10 - 3.12"
     pythonVersionsManagedNode: "2.7 / 3.6 - 3.12"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -87,7 +87,7 @@ releases:
     latest: "2.16.14"
     latestReleaseDate: 2024-12-02
 
--   releaseCycle: "2.15"
+  - releaseCycle: "2.15"
     pythonVersionsControlNode: "3.9 - 3.11"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -96,7 +96,7 @@ releases:
     latest: "2.15.13"
     latestReleaseDate: 2024-11-04
 
--   releaseCycle: "2.14"
+  - releaseCycle: "2.14"
     pythonVersionsControlNode: "3.9 - 3.11"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.11"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -105,7 +105,7 @@ releases:
     latest: "2.14.18"
     latestReleaseDate: 2024-11-04
 
--   releaseCycle: "2.13"
+  - releaseCycle: "2.13"
     pythonVersionsControlNode: "3.8 - 3.10"
     pythonVersionsManagedNode: "2.7 / 3.5 - 3.10"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -114,7 +114,7 @@ releases:
     latest: "2.13.13"
     latestReleaseDate: 2023-10-09
 
--   releaseCycle: "2.12"
+  - releaseCycle: "2.12"
     pythonVersionsControlNode: "3.8 - 3.10"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.10"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -123,7 +123,7 @@ releases:
     latest: "2.12.10"
     latestReleaseDate: 2022-10-11
 
--   releaseCycle: "2.11"
+  - releaseCycle: "2.11"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -132,7 +132,7 @@ releases:
     latest: "2.11.12"
     latestReleaseDate: 2022-05-23
 
--   releaseCycle: "2.10"
+  - releaseCycle: "2.10"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.9"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.9"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -141,7 +141,7 @@ releases:
     latest: "2.10.17"
     latestReleaseDate: 2022-01-31
 
--   releaseCycle: "2.9"
+  - releaseCycle: "2.9"
     pythonVersionsControlNode: "2.7 / 3.5 - 3.8"
     pythonVersionsManagedNode: "2.6 - 2.7 / 3.5 - 3.8"
     powershellVersionsManagedNode: "3 - 5.1"
@@ -149,7 +149,6 @@ releases:
     eol: 2022-05-23
     latest: "2.9.27"
     latestReleaseDate: 2021-10-11
-
 ---
 
 > [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration

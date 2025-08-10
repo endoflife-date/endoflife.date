@@ -6,24 +6,24 @@ tags: linux-distribution
 iconSlug: almalinux
 permalink: /almalinux
 alternate_urls:
--   /alma-linux
--   /alma
+  - /alma-linux
+  - /alma
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.almalinux.org/release-notes/
 changelogTemplate: https://wiki.almalinux.org/release-notes/__LATEST__.html
 eoasColumn: true
 
 identifiers:
--   cpe: cpe:/o:almalinux:almalinux
--   cpe: cpe:2.3:o:almalinux:almalinux
+  - cpe: cpe:/o:almalinux:almalinux
+  - cpe: cpe:2.3:o:almalinux:almalinux
 
 auto:
   methods:
-  -   distrowatch: alma
+    - distrowatch: alma
       regex: '^Distribution Release: AlmaLinux OS (?P<major>\d).(?P<minor>\d+)$'
 
 releases:
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseLabel: "AlmaLinux OS 10"
     releaseDate: 2025-05-27
     eoas: 2030-05-31
@@ -32,7 +32,7 @@ releases:
     latestReleaseDate: 2025-05-27
     link: https://almalinux.org/blog/2025-05-27-welcoming-almalinux-10/
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseLabel: "AlmaLinux OS 9"
     releaseDate: 2022-05-26
     eoas: 2027-05-31
@@ -41,7 +41,7 @@ releases:
     latestReleaseDate: 2025-05-20
     link: https://almalinux.org/blog/2025-05-20-almalinux_96_release/
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseLabel: "AlmaLinux OS 8"
     releaseDate: 2021-03-30
     eoas: 2024-05-01
@@ -49,7 +49,6 @@ releases:
     latest: "8.10"
     latestReleaseDate: 2024-05-28
     link: https://almalinux.org/blog/2024-05-28-announcing-810-stable/
-
 ---
 
 > [AlmaLinux OS](https://almalinux.org/) is an open source, community-owned and governed,
