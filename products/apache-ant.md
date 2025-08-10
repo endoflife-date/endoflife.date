@@ -41,4 +41,5 @@ releases:
 
 > [Apache Ant](https://ant.apache.org/) is a Java library and command-line build tool primarily used for building of Java applications.
 
-Ant does not have a strict release cadence or support policy, but End-of-life is decided by a vote on the [Ant PMC](https://ant.apache.org/contributors.html) and announced in the project's news.
+Ant does not have a strict release cadence or support policy.
+End-of-life is decided by a vote on the [Ant PMC](https://ant.apache.org/contributors.html) and announced in the project's news.
