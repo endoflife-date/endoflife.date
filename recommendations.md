@@ -14,7 +14,8 @@ Every recommendation includes a few examples (sometimes real) to help explain ou
 
 ## Checklist
 
-Here's a nice checklist of all our recommendations. These are our recommendations - feel free to ignore what doesn't work for you.
+Here's a nice checklist of all our recommendations.
+These are our recommendations - feel free to ignore what doesn't work for you.
 Every item is linked to the relevant section in the document below.
 
 - [ ] [Document all relevant information _together_](#publishing), accessible to your end-users.
@@ -30,28 +31,27 @@ Every item is linked to the relevant section in the document below.
 
 ## Publishing
 
-For larger projects, you'll often have this information split across multiple pages - our recommendation is to keep
-these documents well linked and hosted together in such case. For example, do not keep your versioning policy in your wiki,
-and the EoL policy on your website.
+For larger projects, you'll often have this information split across multiple pages.
+Our recommendation is to keep these documents well linked and hosted together in such case.
+For example, do not keep your versioning policy in your wiki, and the EoL policy on your website.
 
 We recommend limiting yourselves to a single document with appropriate sections, if feasible.
 
 Such a document should be published ideally on your website or wiki.
-You can include it in your repository as well (`RELEASE.md` or `EOL.md` for example), but
-the best place to host it is your website - it provides a stable URL that can be referenced
-by your users.
+You can include it in your repository as well (`RELEASE.md` or `EOL.md` for example), but the best place to host it is your website.
+It provides a stable URL that can be referenced by your users.
 
-Make sure that the URL is clearly linked in your release notes, and other places. Make it
-easy for users to discover.
+Make sure that the URL is clearly linked in your release notes, and other places.
+Make it easy for users to discover.
 
-Do not publish this in the versioned part of your website - your support policy might change over
-time, but the link should not.
+Do not publish this in the versioned part of your website.
+Your support policy might change over time, but the link should not.
 
-- Bad: example.com/docs/v3.4/eol
-- Good: example.com/docs/eol
-- Good: example.com/release-policy
+- Bad: `https://example.com/docs/v3.4/eol`
+- Good: `https://example.com/docs/eol`
+- Good: `https://example.com/release-policy`
 
-### Bad
+### Bad - Ubuntu
 
 Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the website:
 
@@ -63,8 +63,7 @@ Make sure this information is hosted _alongside your end-user documentation_, no
 
 ### Bad - Python
 
-Python maintains the EoL status on the website for Python developers:
-<https://devguide.python.org/versions/>
+Python maintains the EoL status on the website for Python developers: <https://devguide.python.org/versions/>
 
 ### Bad - Ansible
 
@@ -78,14 +77,14 @@ This causes confusion, as users on the 2.9 branch might miss out on important in
 
 ### Good - Angular
 
-The Angular project has a single URL documenting all the information: <https://angular.dev/reference/releases>
+The Angular project has a single URL documenting all the information: <https://angular.dev/reference/releases>.
 
 ## Document your support lifecycle
 
 Your support lifecycle is your guidance on how long each product will be supported.
 If you have LTS (Long Term Support) releases, clarify how this differs for those.
 
-- Bad: <https://ubuntu.com/about/release-cycle> (Does not explain how long LTS releases are supported)
+- Bad: <https://ubuntu.com/about/release-cycle> (Does not explain how long LTS releases are supported).
 
 ## Release cadence
 
@@ -102,53 +101,55 @@ Source: <https://alpinelinux.org/releases/>
 
 ## Explain what's supported
 
-Every project will have differing levels of what counts as "support" - it is important to document what
-"support" means for your project. If there are different tiers (Active/Security/Extended for example), document
-these clearly.
+Every project will have differing levels of what counts as "support".
+It is important to document what "support" means for your project.
+If there are different tiers (Active/Security/Extended for example), document these clearly.
 
 Bad:
 
-> Extended Support beyond LTS is available to customers on a commercial basis.
+- _Extended Support beyond LTS is available to customers on a commercial basis._
 
 Good:
 
-> Extended Support beyond LTS is available to customers on a commercial basis. It includes critical
-> security fixes only on the packages within the `base` repository.
+- _Extended Support beyond LTS is available to customers on a commercial basis. It includes critical security fixes only on the packages within the `base` repository._
+- _Customers paying for "Premier Support" get additional access to our support team with a guaranteed SLA._
 
-> Customers paying for "Premier Support" get additional access to our support team with a guaranteed SLA.
-
-- Good: <https://ubuntu.com/security/esm> (Clearly explains what ESM means for Ubuntu end users)
+A good example is <https://ubuntu.com/security/esm>: it clearly explains what ESM means for Ubuntu end users.
 
 ## Versioning Policy
 
-Document your versioning policy. Even if the policy is homebrew and varies between major versions, a clearly
-documented policy is better than none.
+Document your versioning policy.
+Even if the policy is homebrew and varies between major versions, a clearly documented policy is better than none.
 
-### Good
+Good:
 
-> We follow Semantic Versioning, and limit breaking changes to major upgrades.
-
-> The project follows SemVer starting from v12. Prior releases may include breaking changes in minor version upgrades.
+- _We follow Semantic Versioning, and limit breaking changes to major upgrades._
+- _The project follows SemVer starting from v12. Prior releases may include breaking changes in minor version upgrades._
 
 ## Release notes
 
-Release notes are critical for your end-users doing upgrades. If certain upgrade pathways are unsupported
-(such as doing 2 major upgrades at once), document the same. _Highlight breaking changes_ in your release notes.
+Release notes are critical for your end-users doing upgrades.
+If certain upgrade pathways are unsupported (such as doing 2 major upgrades at once), document the same.
+_Highlight breaking changes_ in your release notes.
 
 If you have a migration guide, ensure it is linked in all the release notes.
 
 ## Listing releases
 
-List your releases in a table with all the relevant information for each release cycle. This includes:
+List your releases in a table with all the relevant information for each release cycle.
+This includes:
 
-1. Link to a changelog (and/or Release Notes). See [keepachangelog.com](https://keepachangelog.com/) for getting started with one.
-2. What's the latest release in that cycle. This helps users validate whether they are running a supported release or not.
-3. What are the important dates for this release - EoL/Release/GA/LTS etc. Do this for _all_ different support levels.
+1. Link to a changelog (and/or Release Notes).
+   See [keepachangelog.com](https://keepachangelog.com/) for getting started with one.
+2. What's the latest release in that cycle.
+   This helps users validate whether they are running a supported release or not.
+3. What are the important dates for this release - EoL/Release/GA/LTS etc.
+   Do this for _all_ different support levels.
 4. Download URL, if needed.
 5. Migration guide, if available.
 
-Prefer listing older/unsupported releases elsewhere (`/historical-releases`). If you think they are important to your
-users, mark them extremely well in the table as unsupported.
+Prefer listing older/unsupported releases elsewhere (`/historical-releases`).
+If you think they are important to your users, mark them extremely well in the table as unsupported.
 
 - Good: <https://nodejs.org/en/about/releases/>
 - Good: <https://www.php.net/supported-versions.php>
@@ -163,11 +164,11 @@ Many times, your support/EoL policies are relative. Common examples:
 1. The last major release becomes unsupported 90 days after a new major release.
 2. Bug fixes on previous releases will be made till the latest releases gets the first point release.
 
-However, your end-users shouldn't have to do the math. Make sure that all your releases always have a clear dates
-(I suggest `YYYY-MM-DD`) irrespective of how these dates are decided. You doing the math once will save your users much
-more time.
+However, your end-users shouldn't have to do the math.
+Make sure that all your releases always have a clear dates (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided.
+You doing the math once will save your users much more time.
 
-### Bad
+### Bad - no clear dates
 
 | K8s version | AKS GA   | End of life |
 | ----------- | -------- | ----------- |
@@ -176,7 +177,7 @@ more time.
 
 (Source: [Azure Kubernetes Release Calendar][aks])
 
-### Bad
+### Bad - only a note
 
 Some projects will often put a note instead of documenting absolute dates:
 
@@ -210,14 +211,15 @@ Source: [Amazon EKS Release Calendar][eks].
 Always document complete dates, instead of just providing a month and year.
 Users should not be left guessing whether the EoL is on the 1st of December or 31st.
 
-Bad: See above AKS and EKS examples.
-Good: <https://nodejs.org/en/about/releases/>
+- Bad: See above AKS and EKS examples.
+- Good: <https://nodejs.org/en/about/releases/>
 
 ## Provide a release schedule image
 
-This is optional, but a clear graphical representation of release cycles (with different colors for different levels of support) is always
-nice to have. If you do provide such an image, here's some recommendations:
+This is optional, but a clear graphical representation of release cycles is always nice to have.
+If you do provide such an image, here's some recommendations:
 
+- Use different colors for different levels of support.
 - Label your axes clearly with year boundaries.
 - Have a straight line marking the current date.
 - If you can make it interactive, provide a start and end date on hover.
