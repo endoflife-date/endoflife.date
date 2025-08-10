@@ -449,17 +449,19 @@ releases:
     link: null
 ---
 
-> [Neo4j](https://neo4j.com/) is a high-performance graph database with a friendly query
-> language and ACID transactions.
+> [Neo4j](https://neo4j.com/) is a high-performance graph database with a friendly query language and ACID transactions.
 
 Neo4j follows [Calendar Versioning](https://calver.org/) ([semver](https://semver.org) before January 2025)
 It has separate policies for different versions.
 
 ### [Latest Support Terms](https://neo4j.com/terms/support-terms/) for 5.x and above
 
-Only the latest minor version is supported. A LTS release is supported till a separate published End-of-Life date.
+Only the latest minor version is supported.
+A LTS release is supported until a separate published End-of-Life date.
 
-This page tracks End-of-Life as per the Neo4j Enterprise Edition. Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/). AuraDB, the hosted offering by Neo4j, is automatically updated, and support is available depending on the plan.
+This page tracks End-of-Life as per the Neo4j Enterprise Edition.
+Support or fixes are [not guaranteed for the Community Edition](https://neo4j.com/developer/kb/neo4j-supported-versions/).
+AuraDB, the hosted offering by Neo4j, is automatically updated, and support is available depending on the plan.
 
 A high-level overview of different Neo4j editions:
 
