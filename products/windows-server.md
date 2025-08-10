@@ -192,9 +192,9 @@ releases:
 
 There have been historically three primary release channels available:
 
-* Long-Term Servicing Channel (LTSC)
-* Semi-Annual Channel (SAC)
-* Annual Channel (AC)
+- Long-Term Servicing Channel (LTSC)
+- Semi-Annual Channel (SAC)
+- Annual Channel (AC)
 
 The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
 

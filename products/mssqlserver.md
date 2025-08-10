@@ -428,10 +428,10 @@ releases:
 
 ## [Servicing models](https://learn.microsoft.com/en-us/troubleshoot/sql/releases/servicing-models-sql-server)
 
-* Cumulative Update (CU) contains all functional fixes and security updates for the given baseline.
-* On-demand fixes (OD) can be requested by any customer and can contain one or more fixes.
-* General Distribution Release (GDR) only contains security updates for the given baseline.
-* Quick Fix Engineering (QFE) are used for the majority of fixes where the effects of the problem
+- Cumulative Update (CU) contains all functional fixes and security updates for the given baseline.
+- On-demand fixes (OD) can be requested by any customer and can contain one or more fixes.
+- General Distribution Release (GDR) only contains security updates for the given baseline.
+- Quick Fix Engineering (QFE) are used for the majority of fixes where the effects of the problem
   are not widespread or severe enough to warrant a GDR.
 
 The 2016 version was the last to which Service Pack (SP) appeared. As of 2017, only CU updates will be available.
