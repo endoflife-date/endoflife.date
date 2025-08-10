@@ -75,5 +75,6 @@ Note that Font Awesome 6 dropped support for Internet Explorer,
 and [has been designed to be as backward compatible as possible](https://docs.fontawesome.com/web/setup/upgrade/whats-changed#backward-compatibility) with versions 5 and 4.
 
 Font Awesome comes in two flavors: the free version and the pro version.
-Font Awesome Free version is free, open source, GPL friendly, and [can even be used for commercial projects](https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license).
+Font Awesome Free version is free, open source, GPL friendly,
+and [can even be used for commercial projects](https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license).
 Font Awesome Pro offers additional styles and features, but requires a paid subscription.
