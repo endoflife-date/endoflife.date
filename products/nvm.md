@@ -7,6 +7,7 @@ iconSlug: nvm
 permalink: /nvm
 releasePolicyLink: https://github.com/nvm-sh/nvm
 changelogTemplate: https://github.com/nvm-sh/nvm/releases/tag/v__LATEST__
+versionCommand: nvm --version
 eolColumn: Community Support
 eoesColumn: Extended Long Term Support
 
@@ -81,15 +82,10 @@ releases:
     latestReleaseDate: 2016-10-18
 ---
 
-> [nvm](https://github.com/nvm-sh/nvm) is a sourced shell script
-> that allows you to quickly install and use different versions
-> of Node via the command line.
+> [nvm](https://github.com/nvm-sh/nvm) is a shell script that allows you to quickly install and use different versions of Node via the command line.
 
 nvm supports the latest major/minor release line.
 
-The nvm team has indicated that they will be participating in the
-[OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program)
-(ESP) and have announced that [commercial support for deprecated versions of nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#enterprise-support) is
-now available through [HeroDevs](https://www.herodevs.com/support/).
-
-You can check the version that you are currently using by running: `nvm --version`
+The nvm team has indicated that they will be participating in the [OpenJS Foundation’s Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP)
+and have announced that [commercial support for deprecated versions of nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#enterprise-support)
+is now available through [HeroDevs](https://www.herodevs.com/support/).
