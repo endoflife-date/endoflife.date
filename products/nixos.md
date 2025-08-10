@@ -139,4 +139,4 @@ releases:
 
 There is also the Unstable release that is always supported and receives updates most frequently.
 
-**If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**
+**If you're looking for nix, the package manager NixOS is based-on [click here](/nix)**.
