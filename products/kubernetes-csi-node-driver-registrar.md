@@ -121,4 +121,6 @@ releases:
     latestReleaseDate: 2019-09-09
 ---
 
-> The node-driver-registrar is a sidecar container for Kubernetes that registers the [CSI](https://kubernetes-csi.github.io/docs/introduction.html) driver with Kubelet using the kubelet plugin registration mechanism.
+> The node-driver-registrar is a sidecar container for Kubernetes
+> that registers the [CSI](https://kubernetes-csi.github.io/docs/introduction.html) driver
+> with Kubelet using the kubelet plugin registration mechanism.
