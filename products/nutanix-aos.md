@@ -171,14 +171,14 @@ releases:
     latestReleaseDate: 2019-08-08
 ---
 
-> [Nutanix AOS](https://www.nutanixbible.com/4a-book-of-aos-architecture.html) is an operating
-> system that provides the core functionality leveraged by workloads and services running on the
-> Nutanix platform.
+> [Nutanix AOS](https://www.nutanixbible.com/4a-book-of-aos-architecture.html) is an operating system
+> that provides the core functionality leveraged by workloads and services running on the Nutanix platform.
 
-Nutanix AOS versions are designated using the following format: `X.Y.Z.n`, where `X` is the major version,
-`Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
+Nutanix AOS versions are designated using the following format: `X.Y.Z.n`,
+where `X` is the major version, `Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
 
-Since AOS 7.0, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG) from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
+Since AOS 7.0, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG)
+from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
 Under this model, major or minor releases are typically made available every 6–9 months.
 All releases are actively maintained with bug and security fixes for 15 months,
 followed by an additional 9 months of troubleshooting with only security fixes.
