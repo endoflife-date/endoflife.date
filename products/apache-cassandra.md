@@ -53,28 +53,27 @@ releases:
     latestReleaseDate: 2025-02-07
 ---
 
-> [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed,
-> wide-column store, NoSQL database management system designed to handle large amounts of data
-> across many commodity servers, providing high availability with no single point of failure.
+> [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed, wide-column store, NoSQL database management system.
+> It is designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
 
 The latest three releases are supported at any given time.
 
 ## [Versioning](https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html)
 
-Cassandra follows [SemVer](https://semver.org/). These are the rough heuristics followed for what
-can be included in a given release.
+Cassandra follows [SemVer](https://semver.org/).
+These are the rough heuristics followed for what can be included in a given release.
 
 - Patch releases on a GA branch should only include bug fixes.
 - Minor versions contain new features and improvements and are always compatible with all minor versions in the same and adjacent (next-to-next) major versions.
-- Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version. Deprecated APIs may then be removed in the next-next Major version.
+- Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version.
+  Deprecated APIs may then be removed in the next-next Major version.
 
-As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent
-major versions. Cassandra does not break API compatibility without a deprecated grace period
-demarcated by major versions. Upgrades without downtime are supported from any major version to the
-next major version. Upgrades that skip a major version are not supported.
+As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent major versions.
+Cassandra does not break API compatibility without a deprecated grace period demarcated by major versions.
+Upgrades without downtime are supported from any major version to the next major version.
+Upgrades that skip a major version are not supported.
 
 ## Release Cadence
 
-The project currently targets yearly major releases (can be a new major or minor version, depending
-on upgrade compatibility). Patch releases are cut based on either the volume of fixes or the severity
-of bugfixes that get committed to the project.
+The project currently targets yearly major releases (can be a new major or minor version, depending on upgrade compatibility).
+Patch releases are cut based on either the volume of fixes or the severity of bugfixes that get committed to the project.
