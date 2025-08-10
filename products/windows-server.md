@@ -184,8 +184,8 @@ releases:
     link: null
 ---
 
-> Windows Server (formerly Windows NT Server) is a group of operating systems (OS) for servers by
-> Microsoft. The brand name was changed to Windows Server in 2003.
+> Windows Server (formerly Windows NT Server) is a group of operating systems (OS) for servers by Microsoft.
+> The brand name was changed to Windows Server in 2003.
 
 ## [Servicing channels](https://learn.microsoft.com/windows-server/get-started/servicing-channels-comparison)
 
@@ -195,18 +195,28 @@ There have been historically three primary release channels available:
 - Semi-Annual Channel (SAC)
 - Annual Channel (AC)
 
-The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring). There will be no future SAC releases of Windows Server.
+The Windows Server Semi-Annual Channel (SAC) [was retired on August 9, 2022](https://learn.microsoft.com/lifecycle/announcements/windows-server-20h2-retiring).
+There will be no future SAC releases of Windows Server.
 
-The Windows Server Annual Channel (AC) was released after the retirement of the Semi-Annual Channel (SAC). The first release of the Annual Channel (AC) was on October 24, 2023.
+The Windows Server Annual Channel (AC) was released after the retirement of the Semi-Annual Channel (SAC).
+The first release of the Annual Channel (AC) was on October 24, 2023.
 
 ### Long-Term Servicing Channel (LTSC)
 
-With the Long-Term Servicing Channel, a new major version of Windows Server is released every 2–3 years. Users are entitled to 5 years of mainstream support and 5 years of extended support. The Long-Term Servicing Channel will continue to receive security and non-security updates, but it will not receive the new features and functionality.
+With the Long-Term Servicing Channel, a new major version of Windows Server is released every 2–3 years.
+Users are entitled to 5 years of mainstream support and 5 years of extended support.
+The Long-Term Servicing Channel will continue to receive security and non-security updates, but it will not receive the new features and functionality.
 
 ### Semi-Annual Channel (SAC)
 
-Each release in this channel is supported for 18 months from the initial release. Most of the features introduced in the Semi-Annual Channel have been rolled up into the next Long-Term Servicing Channel release of Windows Server.
-In this model, Windows Server releases were identified by the year and month of release: for example, in 2017, a release in the 9th month (September) would be identified as version 1709. Fresh releases of Windows Server in the Semi-Annual Channel occur twice a year. The support lifecycle for each release is 18 months. Starting with the fall 2020 (20H2) releases, the identification changed. Instead of a month, the release is named based on the release cycle. For example, version 20H2, for a release in the second half of the year 2020.
+Each release in this channel is supported for 18 months from the initial release.
+Most of the features introduced in the Semi-Annual Channel have been rolled up into the next Long-Term Servicing Channel release of Windows Server.
+In this model, Windows Server releases were identified by the year and month of release.
+For example, in 2017, a release in the 9th month (September) would be identified as version 1709.
+Fresh releases of Windows Server in the Semi-Annual Channel occur twice a year.
+The support lifecycle for each release is 18 months.
+Starting with the fall 2020 (20H2) releases, the identification changed. Instead of a month, the release is named based on the release cycle.
+For example, version 20H2, for a release in the second half of the year 2020.
 
 ## Annual Channel (AC)
 
@@ -216,6 +226,5 @@ The support lifecycle for each release is 18 months of mainstream support, plus 
 ## Extended Security Updates (ESU)
 
 For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates).
-It includes Critical and/or Important security updates for a maximum of three years after the
-product's End of Extended Support date. Customers can also get technical support for the ESU period
-as long as they also have an active support plan.
+It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date.
+Customers can also get technical support for the ESU period as long as they also have an active support plan.
