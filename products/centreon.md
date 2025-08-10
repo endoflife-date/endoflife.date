@@ -164,6 +164,7 @@ page, only major/critical bugs and security fixes are provided.
 > Upcoming Change
 >
 > [Starting with Centreon 24.10](https://www.centreon.com/new-centreon-release-cadence-and-version-lifecycle/) (expected in October 2024):
+>
 > - All Open Source major versions will be supported for 18 months.
 > - Commercial major versions released in even years will be designated as LTS versions and supported for 3 years.
 > - Commercial major versions released in odd years will be supported for 18 months.

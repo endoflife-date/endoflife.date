@@ -90,6 +90,6 @@ releases:
 Bug fixes are made only to the latest minor branch. Security patches are available
 for the last 4 minor branches, including the latest one.
 
-New _minor_ versions (e.g. **1.8 → 1.9**) are released roughly every 18–24 months. The 
+New _minor_ versions (e.g. **1.8 → 1.9**) are released roughly every 18–24 months. The
 [Changelog](https://github.com/phoenixframework/phoenix/blob/main/CHANGELOG.md) lists
 breaking changes between releases.

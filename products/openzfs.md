@@ -100,7 +100,7 @@ releases:
   the previous `MINOR` release will no longer be maintained (unless it is an LTS release). New
   `MINOR` releases are planned to occur roughly annually.
 
-## Officially supported distributions:
+## Officially supported distributions
 
 - [Fedora](https://openzfs.github.io/openzfs-docs/Getting%20Started/Fedora/index.html)
 - [RHEL-based distributions](https://openzfs.github.io/openzfs-docs/Getting%20Started/RHEL-based%20distro/index.html)
@@ -126,4 +126,5 @@ kernels. Point releases are tagged as needed in order to support the stable kern
   rows=collapsedCycles %}
 
 {: .note}
+>
 > - For FreeBSD 12.2, the last supported version is 2.2.6

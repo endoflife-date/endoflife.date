@@ -73,7 +73,6 @@ releases:
 > renamed Oracle Solaris. It supports SPARC and x86-64 workstations and servers. It is known for
 > its stability, performance, scalability and innovative features such as DTrace or ZFS.
 
-
 The current Oracle Solaris support policy is based on _Oracle Lifetime Support Policy — Oracle and Sun
 System Software and Operating Systems_. This policy provides three stages of support: premier,
 extended and sustaining.

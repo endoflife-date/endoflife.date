@@ -296,7 +296,7 @@ releases:
 > [Linux](https://support.mozilla.org/kb/install-firefox-linux), and
 > [ChromeOS](https://support.mozilla.org/kb/run-firefox-chromeos).
 
-## Firefox has two main release channels:
+## Firefox has two main release channels
 
 - **Firefox:** Simply named Firefox, this is the default channel and is the one recommended. It's
   the stable branch with the latest features available. Once a new release is out, the older release
@@ -308,7 +308,7 @@ releases:
   [with a planned release calendar for new ESR branches.](https://whattrainisitnow.com/calendar/)
   For more information you should review the [release cycle documentation.](https://support.mozilla.org/kb/firefox-esr-release-cycle)
 
-## Firefox also has three testing channels:
+## Firefox also has three testing channels
 
 - **Firefox Beta:** This branch is meant to reflect what the next **Firefox** release will look
   like. Every four weeks it gets cherry-picked changes from **Nightly**, then follows a three-weekly

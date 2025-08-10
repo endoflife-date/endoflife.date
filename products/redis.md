@@ -104,7 +104,6 @@ releases:
 > [Redis Sentinel](https://redis.io/docs/management/sentinel/) and automatic partitioning with
 > [Redis Cluster](https://docs.redis.com/latest/rc/concepts/clustering/).
 
-
 A new major version is planned for release once a year. Generally, every major release is followed
 by a minor version after six months. The latest stable release is always fully supported and
 maintained.

@@ -22,7 +22,6 @@ We currently use the following identifiers:
 For any of the pages below, click the edit link, and add a new field in the YAML called `identifiers`. Here's some sample identifiers that
 we use across our various pages:
 
-
 ```yaml
 identifiers:
 # links the product to the https://repology.org/project/package-name/information
@@ -52,6 +51,7 @@ identifiers:
 -   purl: pkg:chocolatey/libericajdk
 -   purl: pkg:winget/BellSoft.LibericaJDK.8
 ```
+
 ## Pages without Identifiers
 
 <ul>
