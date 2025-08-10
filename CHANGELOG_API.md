@@ -1,3 +1,5 @@
+# endoflife.date API Changelog
+
 ## API v1.2.0
 
 - Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))
