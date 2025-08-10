@@ -430,11 +430,14 @@ releases:
 - Cumulative Update (CU) contains all functional fixes and security updates for the given baseline.
 - On-demand fixes (OD) can be requested by any customer and can contain one or more fixes.
 - General Distribution Release (GDR) only contains security updates for the given baseline.
-- Quick Fix Engineering (QFE) are used for the majority of fixes where the effects of the problem
-  are not widespread or severe enough to warrant a GDR.
+- Quick Fix Engineering (QFE) are used for the majority of fixes where the effects of the problem are not widespread
+  or severe enough to warrant a GDR.
 
-The 2016 version was the last to which Service Pack (SP) appeared. As of 2017, only CU updates will be available.
+The 2016 version was the last to which Service Pack (SP) appeared.
+As of 2017, only CU updates will be available.
 
 ## Extended Security Updates (ESU)
 
-For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates). It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date. Customers can also get technical support for the ESU period as long as they also have an active support plan.
+For some releases, customers also have the option to purchase [Extended Security Updates (ESU)](https://learn.microsoft.com/lifecycle/faq/extended-security-updates).
+It includes Critical and/or Important security updates for a maximum of three years after the product's End of Extended Support date.
+Customers can also get technical support for the ESU period as long as they also have an active support plan.
