@@ -44,13 +44,13 @@ releases:
     latestReleaseDate: 2024-08-19
 ---
 
-> [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy aimed at simplifying and securing least-privileged access to cloud infrastructure.
+> [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy
+> aimed at simplifying and securing least-privileged access to cloud infrastructure.
 
-Generally Available (GA) releases of active products are supported for up to two (2) years. Eligible
-code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major
-release" branch, for up to two (2) releases from the most current major release.
+Generally Available (GA) releases of active products are supported for up to two (2) years.
+Eligible code-fixes and hot-fixes are provided via a new minor release (Z) on top of the latest "major release" branch,
+for up to two (2) releases from the most current major release.
 
-A major release is identified by a change in the first (X) or second (Y) digit in the following
-versioning nomenclature: `Version X.Y.Z.`
+A major release is identified by a change in the first (X) or second (Y) digit in the following versioning nomenclature: `Version X.Y.Z.`
 
 Hashicorp uses the same support period and EoL Policy for all its products.
