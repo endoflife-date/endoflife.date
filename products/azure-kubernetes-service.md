@@ -101,19 +101,19 @@ releases:
 # 1.19: https://azure.microsoft.com/en-us/updates/aks-updates-for-november-2020/
 ---
 
-> [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/) is a managed service that
-> you can use to run Kubernetes on Azure without needing to install, operate, and maintain your own
-> Kubernetes control plane or nodes.
+> [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/) is a managed service used to run Kubernetes on Azure
+> without needing to install, operate, and maintain your own Kubernetes control plane or nodes.
 
-AKS defines a generally available version as a version enabled in all SLO or SLA measurements and
-available in all regions. AKS supports three GA minor versions of Kubernetes:
+AKS defines a generally available version as a version enabled in all SLO or SLA measurements and available in all regions.
+AKS supports three GA minor versions of Kubernetes:
 
 - The latest GA minor version released in AKS.
 - Two previous minor versions.
 
-AKS introduced commercial [Long-Term Support (LTS)](https://learn.microsoft.com/en-us/azure/aks/long-term-support)
-for all versions starting with 1.27. This extends support and security updates for two years, instead of the usual one year.
-Note that due to reliance on the upstream Kubernetes Community for component updates, [several addons and features aren't supported in LTS Support beyond one year](https://learn.microsoft.com/en-us/azure/aks/long-term-support#unsupported-add-ons-and-features).
+AKS introduced commercial [Long-Term Support](https://learn.microsoft.com/en-us/azure/aks/long-term-support) for all versions starting with 1.27.
+This extends support and security updates for two years, instead of the usual one year.
+Note that due to reliance on the upstream Kubernetes Community for component updates,
+[several addons and features aren't supported in LTS Support beyond one year](https://learn.microsoft.com/en-us/azure/aks/long-term-support#unsupported-add-ons-and-features).
 
 Also:
 
