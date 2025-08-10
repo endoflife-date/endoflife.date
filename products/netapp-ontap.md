@@ -6,8 +6,8 @@ tags: netapp
 iconSlug: netapp
 permalink: /netapp-ontap
 alternate_urls:
-- /ontap
-- /ontap-os
+  - /ontap
+  - /ontap-os
 versionCommand: system-get-version
 releasePolicyLink: https://mysupport.netapp.com/site/info/version-support
 changelogTemplate: "https://docs.netapp.com/us-en/ontap/release-notes/whats-new-{{'__RELEASE_CYCLE__'|replace:'.',''}}.html"
@@ -16,38 +16,37 @@ releaseColumn: false # no public access to the latest patches
 
 # Releases are documented on https://mysupport.netapp.com/site/info/version-support.
 releases:
--   releaseCycle: "9.16.1"
+  - releaseCycle: "9.16.1"
     releaseDate: 2025-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2028-01-31
 
--   releaseCycle: "9.15.1"
+  - releaseCycle: "9.15.1"
     releaseDate: 2024-05-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2027-07-31
 
--   releaseCycle: "9.14.1"
+  - releaseCycle: "9.14.1"
     releaseDate: 2024-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2027-01-31
 
--   releaseCycle: "9.13.1"
+  - releaseCycle: "9.13.1"
     releaseDate: 2023-06-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2026-06-30
 
--   releaseCycle: "9.12.1"
+  - releaseCycle: "9.12.1"
     releaseDate: 2023-02-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2026-02-28
 
--   releaseCycle: "9.11.1"
+  - releaseCycle: "9.11.1"
     releaseDate: 2022-07-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2025-07-31
 
--   releaseCycle: "9.10.1"
+  - releaseCycle: "9.10.1"
     releaseDate: 2022-01-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2025-01-31
 
--   releaseCycle: "9.9.1"
+  - releaseCycle: "9.9.1"
     releaseDate: 2021-06-01 # estimated date from https://docs.netapp.com/us-en/ontap/release-notes/release-support-reference.html
     eol: 2024-06-30
-
 ---
 
 > [NetApp ONTAP](https://www.netapp.com/data-storage/ontap/) is a storage operating system designed for managing and

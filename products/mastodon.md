@@ -11,99 +11,98 @@ changelogTemplate: https://github.com/mastodon/mastodon/releases/tag/v__LATEST__
 eolColumn: Support
 
 identifiers:
--   repology: mastodon
--   cpe: cpe:/a:joinmastodon:mastodon
--   cpe: cpe:2.3:a:joinmastodon:mastodon
--   purl: pkg:docker/bitnami/mastodon
--   purl: pkg:docker/tootsuite/mastodon
--   purl: pkg:docker/linuxserver/mastodon
+  - repology: mastodon
+  - cpe: cpe:/a:joinmastodon:mastodon
+  - cpe: cpe:2.3:a:joinmastodon:mastodon
+  - purl: pkg:docker/bitnami/mastodon
+  - purl: pkg:docker/tootsuite/mastodon
+  - purl: pkg:docker/linuxserver/mastodon
 auto:
   methods:
-  -   git: https://github.com/mastodon/mastodon.git
+    - git: https://github.com/mastodon/mastodon.git
 
 # EOL dates are either false if no information could be found, or the date found in
 # https://github.com/mastodon/mastodon/commits/main/SECURITY.md history.
 releases:
--   releaseCycle: "4.4"
+  - releaseCycle: "4.4"
     releaseDate: 2025-07-08
     eol: false
     latest: "4.4.3"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "4.3"
+  - releaseCycle: "4.3"
     releaseDate: 2024-10-08
     eol: false
     latest: "4.3.11"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "4.2"
+  - releaseCycle: "4.2"
     releaseDate: 2023-09-21
     eol: 2026-01-08
     latest: "4.2.24"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     releaseDate: 2023-02-10
     eol: 2025-04-08
     latest: "4.1.25"
     latestReleaseDate: 2025-04-02
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2022-11-14
     eol: 2023-10-31
     latest: "4.0.15"
     latestReleaseDate: 2024-02-16
 
--   releaseCycle: "3.5"
+  - releaseCycle: "3.5"
     releaseDate: 2022-03-30
     eol: 2023-12-31
     latest: "3.5.19"
     latestReleaseDate: 2024-02-16
 
--   releaseCycle: "3.4"
+  - releaseCycle: "3.4"
     releaseDate: 2021-05-16
     # https://github.com/mastodon/mastodon/commit/bd220c32f162230d31e99bdabd30aea787a89cfc
     eol: 2022-11-06
     latest: "3.4.10"
     latestReleaseDate: 2022-11-14
 
--   releaseCycle: "3.3"
+  - releaseCycle: "3.3"
     releaseDate: 2020-12-27
     # https://github.com/mastodon/mastodon/commit/d8abc0018f59ed63fb6c5fae2f6081c141a4b978
     eol: 2022-05-26
     latest: "3.3.3"
     latestReleaseDate: 2022-03-30
 
--   releaseCycle: "3.2"
+  - releaseCycle: "3.2"
     releaseDate: 2020-07-27
     eol: true
     latest: "3.2.2"
     latestReleaseDate: 2020-12-19
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     releaseDate: 2020-02-09
     eol: true
     latest: "3.1.5"
     latestReleaseDate: 2020-07-07
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2019-10-03
     eol: true
     latest: "3.0.2"
     latestReleaseDate: 2020-02-27
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2017-10-18
     eol: true
     latest: "2.9.4"
     latestReleaseDate: 2020-02-27
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2017-02-05
     eol: true
     latest: "1.6.1"
     latestReleaseDate: 2017-09-17
-
 ---
 
 > [Mastodon](https://joinmastodon.org/) is a free and open-source software for running self-hosted

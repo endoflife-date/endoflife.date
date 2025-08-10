@@ -12,20 +12,20 @@ eoesColumn: Commercial Support
 eolColumn: Critical Support
 
 identifiers:
--   repology: bootstrap
--   purl: pkg:npm/bootstrap
--   purl: pkg:nuget/bootstrap
--   purl: pkg:gem/bootstrap
--   purl: pkg:composer/twbs/bootstrap
--   purl: pkg:github/twbs/bootstrap
+  - repology: bootstrap
+  - purl: pkg:npm/bootstrap
+  - purl: pkg:nuget/bootstrap
+  - purl: pkg:gem/bootstrap
+  - purl: pkg:composer/twbs/bootstrap
+  - purl: pkg:github/twbs/bootstrap
 
 # NPM is also possible, but versions before 3.1.1 are not on NPM, so it's better to use git.
 auto:
   methods:
-  -   git: https://github.com/twbs/bootstrap.git
+    - git: https://github.com/twbs/bootstrap.git
 
 releases:
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2021-05-05
     lts: 2022-07-19
     eoas: false
@@ -33,7 +33,7 @@ releases:
     latest: "5.3.7"
     latestReleaseDate: 2025-06-10
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2018-01-18
     lts: 2019-11-26
     eoas: 2021-11-01
@@ -42,7 +42,7 @@ releases:
     latest: "4.6.2"
     latestReleaseDate: 2022-07-19
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2013-08-19
     lts: 2014-11-01
     eoas: 2016-09-05
@@ -51,14 +51,13 @@ releases:
     latest: "3.4.1"
     latestReleaseDate: 2019-02-13
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseDate: 2012-01-31 # source: https://web.archive.org/web/20140216052758/https://blog.twitter.com/2012/say-hello-to-bootstrap-2
     eoas: 2013-08-19
     eol: 2013-08-19
     eoes: false
     latest: "2.3.2"
     latestReleaseDate: 2013-07-26
-
 ---
 
 > [Bootstrap](https://getbootstrap.com/) is the most popular HTML, CSS, and JavaScript framework

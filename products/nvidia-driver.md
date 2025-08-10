@@ -6,7 +6,7 @@ tags: nvidia
 iconSlug: nvidia
 permalink: /nvidia
 alternate_urls:
--   /nvidia-driver
+  - /nvidia-driver
 versionCommand: nvidia-smi
 releasePolicyLink: https://www.nvidia.com/Download/index.aspx
 LTSLabel: "<abbr title='Long Term Support Branch'>LTSB</abbr>"
@@ -14,18 +14,18 @@ eoasColumn: true
 
 auto:
   methods:
-  -   nvidia-releases: https://docs.nvidia.com/datacenter/tesla/drivers/releases.json
-  -   declare: nvidia-driver
+    - nvidia-releases: https://docs.nvidia.com/datacenter/tesla/drivers/releases.json
+    - declare: nvidia-driver
       releases:
-      -   name: "r470-windows"
+        - name: "r470-windows"
           latest: "475.14"
           latestReleaseDate: 2024-07-09
           link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-475-14/
-      -   name: "r495-linux"
+        - name: "r495-linux"
           latest: "495.46"
           latestReleaseDate: 2021-12-13
           link: https://www.nvidia.com/Download/driverResults.aspx/184248/
-      -   name: "r510-windows"
+        - name: "r510-windows"
           latest: "514.08"
           latestReleaseDate: 2022-12-20
           link: https://www.nvidia.com/download/driverResults.aspx/197675/
@@ -40,7 +40,7 @@ auto:
 # - releaseDate(x) + 1 year for NFB and PB releases
 # - releaseDate(x) + 3 years for LTS releases
 releases:
--   releaseCycle: "r575-linux"
+  - releaseCycle: "r575-linux"
     releaseLabel: "R575-Linux (NFB)"
     releaseDate: 2025-06-03
     eoas: true
@@ -49,7 +49,7 @@ releases:
     latestReleaseDate: 2025-06-03
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-575-57-08/index.html
 
--   releaseCycle: "r575-windows"
+  - releaseCycle: "r575-windows"
     releaseLabel: "R575-Windows (NFB)"
     releaseDate: 2025-06-03
     eoas: true
@@ -58,7 +58,7 @@ releases:
     latestReleaseDate: 2025-06-03
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-575-57-08/index.html
 
--   releaseCycle: "r570-linux"
+  - releaseCycle: "r570-linux"
     releaseLabel: "R570-Linux (PB)"
     releaseDate: 2025-01-27
     eoas: 2026-01-27
@@ -67,7 +67,7 @@ releases:
     latestReleaseDate: 2025-07-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-172-08/index.html
 
--   releaseCycle: "r570-windows"
+  - releaseCycle: "r570-windows"
     releaseLabel: "R570-Windows (PB)"
     releaseDate: 2025-01-27
     eoas: 2026-01-27
@@ -76,7 +76,7 @@ releases:
     latestReleaseDate: 2025-07-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-570-172-08/index.html
 
--   releaseCycle: "r565-linux"
+  - releaseCycle: "r565-linux"
     releaseLabel: "R565-Linux (PB)"
     releaseDate: 2024-10-29
     eoas: 2025-10-01
@@ -85,7 +85,7 @@ releases:
     latestReleaseDate: 2024-10-29
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/index.html
 
--   releaseCycle: "r565-windows"
+  - releaseCycle: "r565-windows"
     releaseLabel: "R565-Windows (PB)"
     releaseDate: 2024-10-22
     eoas: 2025-10-01
@@ -94,7 +94,7 @@ releases:
     latestReleaseDate: 2024-10-29
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-565-57-01/index.html
 
--   releaseCycle: "r560-linux"
+  - releaseCycle: "r560-linux"
     releaseLabel: "R560-Linux (PB)"
     releaseDate: 2024-08-22
     eoas: 2025-08-22
@@ -103,7 +103,7 @@ releases:
     latestReleaseDate: 2024-08-22
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-560-35-03/index.html
 
--   releaseCycle: "r560-windows"
+  - releaseCycle: "r560-windows"
     releaseLabel: "R560-Windows (PB)"
     releaseDate: 2024-07-30
     eoas: 2025-07-30
@@ -112,7 +112,7 @@ releases:
     latestReleaseDate: 2024-08-22
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-560-35-03/index.html
 
--   releaseCycle: "r555-linux"
+  - releaseCycle: "r555-linux"
     releaseLabel: "R555-Linux (NFB)"
     releaseDate: 2024-06-04
     eoas: true
@@ -121,7 +121,7 @@ releases:
     latestReleaseDate: 2024-07-01
     link: https://www.nvidia.com/Download/driverResults.aspx/228410/
 
--   releaseCycle: "r555-windows"
+  - releaseCycle: "r555-windows"
     releaseLabel: "R555-Windows (NFB)"
     releaseDate: 2024-06-04
     eoas: true
@@ -130,7 +130,7 @@ releases:
     latestReleaseDate: 2024-06-04
     link: https://www.nvidia.com/download/driverResults.aspx/228179/
 
--   releaseCycle: "r550-linux"
+  - releaseCycle: "r550-linux"
     releaseLabel: "R550-Linux (PB)"
     releaseDate: 2024-02-23
     eoas: 2025-02-01
@@ -139,7 +139,7 @@ releases:
     latestReleaseDate: 2025-04-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-163-01/index.html
 
--   releaseCycle: "r550-windows"
+  - releaseCycle: "r550-windows"
     releaseLabel: "R550-Windows (PB)"
     releaseDate: 2024-02-22
     eoas: 2025-02-01
@@ -148,7 +148,7 @@ releases:
     latestReleaseDate: 2025-04-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-550-163-01/index.html
 
--   releaseCycle: "r545-linux"
+  - releaseCycle: "r545-linux"
     releaseLabel: "R545-Linux (NFB)"
     releaseDate: 2023-10-31
     eoas: true
@@ -157,7 +157,7 @@ releases:
     latestReleaseDate: 2023-11-22
     link: https://www.nvidia.com/download/driverResults.aspx/216530/
 
--   releaseCycle: "r545-windows"
+  - releaseCycle: "r545-windows"
     releaseLabel: "R545-Windows (NFB)"
     releaseDate: 2023-10-17
     eoas: true
@@ -166,7 +166,7 @@ releases:
     latestReleaseDate: 2023-10-31
     link: https://www.nvidia.com/Download/driverResults.aspx/216365/
 
--   releaseCycle: "r535-linux"
+  - releaseCycle: "r535-linux"
     releaseLabel: "R535-Linux"
     lts: true
     releaseDate: 2023-06-14
@@ -176,7 +176,7 @@ releases:
     latestReleaseDate: 2025-07-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-261-03/index.html
 
--   releaseCycle: "r535-windows"
+  - releaseCycle: "r535-windows"
     releaseLabel: "R535-Windows"
     lts: true
     releaseDate: 2023-05-30
@@ -186,7 +186,7 @@ releases:
     latestReleaseDate: 2025-07-17
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-535-261-03/index.html
 
--   releaseCycle: "r530-linux"
+  - releaseCycle: "r530-linux"
     releaseLabel: "R530-Linux (NFB)"
     releaseDate: 2023-03-23
     eoas: true
@@ -195,7 +195,7 @@ releases:
     latestReleaseDate: 2023-03-23
     link: https://www.nvidia.com/Download/driverResults.aspx/200481/
 
--   releaseCycle: "r530-windows"
+  - releaseCycle: "r530-windows"
     releaseLabel: "R530-Windows (NFB)"
     releaseDate: 2023-02-28
     eoas: true
@@ -204,7 +204,7 @@ releases:
     latestReleaseDate: 2023-05-02
     link: https://www.nvidia.com/Download/driverResults.aspx/204772/
 
--   releaseCycle: "r525-windows"
+  - releaseCycle: "r525-windows"
     releaseLabel: "R525-Windows (PB)"
     releaseDate: 2022-11-10
     eoas: 2023-12-01
@@ -213,7 +213,7 @@ releases:
     latestReleaseDate: 2023-10-31
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-525-147-05/index.html
 
--   releaseCycle: "r525-linux"
+  - releaseCycle: "r525-linux"
     releaseLabel: "R525-Linux (PB)"
     releaseDate: 2022-11-10
     eoas: 2023-12-01
@@ -222,7 +222,7 @@ releases:
     latestReleaseDate: 2023-10-31
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-525-147-05/index.html
 
--   releaseCycle: "r520-linux"
+  - releaseCycle: "r520-linux"
     releaseLabel: "R520-Linux (NFB)"
     releaseDate: 2022-10-12
     eoas: true
@@ -231,7 +231,7 @@ releases:
     latestReleaseDate: 2022-10-07
     link: https://download.nvidia.com/XFree86/Linux-x86_64/520.56.06/README/
 
--   releaseCycle: "r515-windows"
+  - releaseCycle: "r515-windows"
     releaseLabel: "R515-Windows (PB)"
     releaseDate: 2022-05-11
     eoas: 2023-05-01
@@ -240,7 +240,7 @@ releases:
     latestReleaseDate: 2023-03-30
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-105-01/index.html
 
--   releaseCycle: "r515-linux"
+  - releaseCycle: "r515-linux"
     releaseLabel: "R515-Linux (PB)"
     releaseDate: 2022-05-11
     eoas: 2023-05-01
@@ -249,7 +249,7 @@ releases:
     latestReleaseDate: 2023-03-30
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-105-01/index.html
 
--   releaseCycle: "r510-windows"
+  - releaseCycle: "r510-windows"
     releaseLabel: "R510-Windows (PB)"
     releaseDate: 2022-01-14
     eoas: 2023-01-01
@@ -258,7 +258,7 @@ releases:
     latestReleaseDate: 2022-12-20
     link: https://www.nvidia.com/download/driverResults.aspx/197675/
 
--   releaseCycle: "r510-linux"
+  - releaseCycle: "r510-linux"
     releaseLabel: "R510-Linux (PB)"
     releaseDate: 2022-01-14
     eoas: 2023-01-01
@@ -267,7 +267,7 @@ releases:
     latestReleaseDate: 2022-11-22
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-510-108-03/index.html
 
--   releaseCycle: "r495-linux"
+  - releaseCycle: "r495-linux"
     releaseLabel: "R495-Linux (NFB)"
     releaseDate: 2021-10-26
     eoas: true
@@ -276,7 +276,7 @@ releases:
     latestReleaseDate: 2021-12-13
     link: https://www.nvidia.com/Download/driverResults.aspx/184248/
 
--   releaseCycle: "r495-windows"
+  - releaseCycle: "r495-windows"
     releaseLabel: "R495-Windows (NFB)"
     releaseDate: 2021-10-12
     eoas: true
@@ -285,7 +285,7 @@ releases:
     latestReleaseDate: 2021-12-20
     link: https://www.nvidia.com/Download/driverResults.aspx/184717/
 
--   releaseCycle: "r470-linux"
+  - releaseCycle: "r470-linux"
     releaseLabel: "R470-Linux"
     lts: true
     releaseDate: 2021-07-19
@@ -295,7 +295,7 @@ releases:
     latestReleaseDate: 2024-06-04
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-470-256-02/index.html
 
--   releaseCycle: "r470-windows"
+  - releaseCycle: "r470-windows"
     releaseLabel: "R470-Windows"
     lts: true
     releaseDate: 2021-06-22
@@ -305,7 +305,7 @@ releases:
     latestReleaseDate: 2024-07-09
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-475-14/
 
--   releaseCycle: "r465-linux"
+  - releaseCycle: "r465-linux"
     releaseLabel: "R465-Linux (NFB)"
     releaseDate: 2021-04-19
     eoas: true
@@ -314,7 +314,7 @@ releases:
     latestReleaseDate: 2021-04-19
     link: https://download.nvidia.com/XFree86/Linux-x86_64/465.24.02/README/
 
--   releaseCycle: "r460-linux"
+  - releaseCycle: "r460-linux"
     releaseLabel: "R460-Linux (PB)"
     releaseDate: 2021-01-07
     eoas: 2021-07-19
@@ -323,7 +323,7 @@ releases:
     latestReleaseDate: 2021-10-26
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-106-00/index.html
 
--   releaseCycle: "r460-windows"
+  - releaseCycle: "r460-windows"
     releaseLabel: "R460-Windows (PB)"
     releaseDate: 2020-12-15
     eoas: 2021-06-23
@@ -332,7 +332,7 @@ releases:
     latestReleaseDate: 2021-10-26
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-460-106-00/index.html
 
--   releaseCycle: "r450-windows"
+  - releaseCycle: "r450-windows"
     releaseLabel: "R450-Windows"
     lts: true
     releaseDate: 2020-06-24
@@ -342,7 +342,7 @@ releases:
     latestReleaseDate: 2023-06-26
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-248-02/index.html
 
--   releaseCycle: "r450-linux"
+  - releaseCycle: "r450-linux"
     releaseLabel: "R450-Linux"
     lts: true
     releaseDate: 2020-06-24
@@ -352,7 +352,7 @@ releases:
     latestReleaseDate: 2023-06-26
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-450-248-02/index.html
 
--   releaseCycle: "r418-windows"
+  - releaseCycle: "r418-windows"
     releaseLabel: "R418-Windows"
     lts: true
     releaseDate: 2019-02-04
@@ -362,7 +362,7 @@ releases:
     latestReleaseDate: 2021-04-20
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
 
--   releaseCycle: "r418-linux"
+  - releaseCycle: "r418-linux"
     releaseLabel: "R418-Linux"
     lts: true
     releaseDate: 2019-01-30
@@ -372,7 +372,7 @@ releases:
     latestReleaseDate: 2021-04-19
     link: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-418-19702/
 
--   releaseCycle: "r390-windows"
+  - releaseCycle: "r390-windows"
     releaseLabel: "R390-Windows"
     lts: true
     releaseDate: 2018-01-08
@@ -382,7 +382,7 @@ releases:
     latestReleaseDate: 2021-10-26
     link: https://www.nvidia.com/download/driverResults.aspx/181267/
 
--   releaseCycle: "r390-linux"
+  - releaseCycle: "r390-linux"
     releaseLabel: "R390-Linux"
     lts: true
     releaseDate: 2018-01-04
@@ -391,7 +391,6 @@ releases:
     latest: "390.157"
     latestReleaseDate: 2022-11-22
     link: https://www.nvidia.com/Download/driverResults.aspx/196214/
-
 ---
 
 > Nvidia designs graphics processing units (GPUs) for the gaming and professional markets, as well
@@ -430,7 +429,7 @@ GPUs supported by any given branch are dependent on the operating system.
 The following table explains the release cadence and lifecycle for [datacenter GPU drivers](https://docs.nvidia.com/datacenter/tesla/drivers/#lifecycle):
 
 |                       | New Feature Branch (NFB)                         | Production Branch (PB)                               | Long Term Support Branch                                                                                  |
-|-----------------------|--------------------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| --------------------- | ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Target Customers      | Early adopters who want to evaluate new features | Use in production for enterprise/datacenter GPUs     | Use in production for enterprise/datacenter GPUs and for customers looking for a longer cycle of support. |
 | Major Release Cadence | At least once every 3 months                     | Twice a year.                                        | At least once per hardware architecture.                                                                  |
 | Length of support     | N/A                                              | 1 year                                               | 3 years                                                                                                   |

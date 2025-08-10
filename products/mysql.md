@@ -16,121 +16,120 @@ eolColumn: Extended Support
 # https://dev.mysql.com/doc/refman/9.4/en/faqs-general.html#faq-mysql-version-ga
 auto:
   methods:
-  -   git: https://github.com/mysql/mysql-server.git
+    - git: https://github.com/mysql/mysql-server.git
       regex:
-      -   ^mysql-(?P<v>5\.5\.([8-9]|\d{2}))$
-      -   ^mysql-(?P<v>5\.6\.\d{2})$
-      -   ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
-      -   ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
-      -   ^mysql-(?P<v>8\.[1-9]\.\d+)$
-      -   ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
+        - ^mysql-(?P<v>5\.5\.([8-9]|\d{2}))$
+        - ^mysql-(?P<v>5\.6\.\d{2})$
+        - ^mysql-(?P<v>5\.7\.([9]|\d{2}))$
+        - ^mysql-(?P<v>8\.0\.(1[1-9]|[2-9]\d))$
+        - ^mysql-(?P<v>8\.[1-9]\.\d+)$
+        - ^mysql-(?P<v>9\.[0-9]\.[0-9]+)$
       template: "{{v}}"
 
 identifiers:
--   repology: mysql
--   purl: pkg:generic/mysql
--   purl: pkg:docker/library/mysql
--   purl: pkg:deb/ubuntu/mysql-server
--   purl: pkg:deb/debian/mysql-server
+  - repology: mysql
+  - purl: pkg:generic/mysql
+  - purl: pkg:docker/library/mysql
+  - purl: pkg:deb/ubuntu/mysql-server
+  - purl: pkg:deb/debian/mysql-server
 
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "9.4"
+  - releaseCycle: "9.4"
     releaseDate: 2025-07-09
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
-    latest: '9.4.0'
+    latest: "9.4.0"
     latestReleaseDate: 2025-07-09
 
--   releaseCycle: "9.3"
+  - releaseCycle: "9.3"
     releaseDate: 2025-03-31
     eoas: 2025-07-22
     eol: 2025-07-22
-    latest: '9.3.0'
+    latest: "9.3.0"
     latestReleaseDate: 2025-03-31
 
--   releaseCycle: "9.2"
+  - releaseCycle: "9.2"
     releaseDate: 2024-12-15
     eoas: 2025-04-15
     eol: 2025-04-15
-    latest: '9.2.0'
+    latest: "9.2.0"
     latestReleaseDate: 2024-12-15
 
--   releaseCycle: "9.1"
+  - releaseCycle: "9.1"
     releaseDate: 2024-09-24
     eoas: 2025-01-21
     eol: 2025-01-21
-    latest: '9.1.0'
+    latest: "9.1.0"
     latestReleaseDate: 2024-09-24
 
--   releaseCycle: "9.0"
+  - releaseCycle: "9.0"
     releaseDate: 2024-06-07
     eoas: 2024-10-15
     eol: 2024-10-15
-    latest: '9.0.1'
+    latest: "9.0.1"
     latestReleaseDate: 2024-07-12
 
--   releaseCycle: "8.4"
+  - releaseCycle: "8.4"
     releaseDate: 2024-04-10
     lts: true
     eoas: 2029-04-30
     eol: 2032-04-30
-    latest: '8.4.6'
+    latest: "8.4.6"
     latestReleaseDate: 2025-07-09
 
--   releaseCycle: "8.3"
+  - releaseCycle: "8.3"
     releaseDate: 2023-12-14
     eoas: 2024-04-10
     eol: 2024-04-10
-    latest: '8.3.0'
+    latest: "8.3.0"
     latestReleaseDate: 2023-12-14
 
--   releaseCycle: "8.2"
+  - releaseCycle: "8.2"
     releaseDate: 2023-10-12
     eoas: 2023-12-14
     eol: 2023-12-14
-    latest: '8.2.0'
+    latest: "8.2.0"
     latestReleaseDate: 2023-10-12
 
--   releaseCycle: "8.1"
+  - releaseCycle: "8.1"
     releaseDate: 2023-06-21
     eoas: 2023-10-25
     eol: 2023-10-25
-    latest: '8.1.0'
+    latest: "8.1.0"
     latestReleaseDate: 2023-06-21
 
--   releaseCycle: "8.0"
+  - releaseCycle: "8.0"
     releaseDate: 2018-04-08
     lts: 2023-07-18
     eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.43'
+    latest: "8.0.43"
     latestReleaseDate: 2025-07-09
 
--   releaseCycle: "5.7"
+  - releaseCycle: "5.7"
     releaseDate: 2015-10-09
     eoas: 2020-10-31
     eol: 2023-10-31
-    latest: '5.7.44'
+    latest: "5.7.44"
     latestReleaseDate: 2023-09-20
 
--   releaseCycle: "5.6"
+  - releaseCycle: "5.6"
     releaseDate: 2013-02-01
     eoas: 2018-02-28
     eol: 2021-02-28
-    latest: '5.6.51'
+    latest: "5.6.51"
     latestReleaseDate: 2021-01-05
     link: https://web.archive.org/web/20211229071247/https://dev.mysql.com/doc/relnotes/mysql/5.6/en/news-5-6-51.html
 
--   releaseCycle: "5.5"
+  - releaseCycle: "5.5"
     releaseDate: 2010-12-03
     eoas: 2015-12-31
     eol: 2018-12-31
-    latest: '5.5.63'
+    latest: "5.5.63"
     latestReleaseDate: 2018-12-21
     link: null
-
 ---
 
 > [MySQL](https://www.mysql.com/about/) is an open-source database developed by Oracle. With its

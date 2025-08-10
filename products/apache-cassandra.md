@@ -6,52 +6,51 @@ tags: apache java-runtime
 iconSlug: apachecassandra
 permalink: /apache-cassandra
 alternate_urls:
--   /cassandra
+  - /cassandra
 releasePolicyLink: https://cassandra.apache.org/_/blog/Behind-the-scenes-of-an-Apache-Cassandra-Release.html
-changelogTemplate: 'https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__'
+changelogTemplate: "https://gitbox.apache.org/repos/asf?p=cassandra.git;a=blob_plain;f=NEWS.txt;hb=refs/tags/cassandra-__LATEST__"
 
 identifiers:
--   repology: cassandra
--   cpe: cpe:/a:apache:cassandra
--   cpe: cpe:2.3:a:apache:cassandra
+  - repology: cassandra
+  - cpe: cpe:/a:apache:cassandra
+  - cpe: cpe:2.3:a:apache:cassandra
 
 auto:
   methods:
-  -   git: https://github.com/apache/cassandra.git
+    - git: https://github.com/apache/cassandra.git
       regex: '^cassandra-(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>[0-9]+))?$'
 
 # eol(X) = releaseDate(X+3)
 releases:
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2024-09-05
     eol: false
     latest: "5.0.5"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: false # releaseDate(5.2.0)
     latest: "4.1.9"
     latestReleaseDate: 2025-05-19
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: false # releaseDate(5.1.0)
     latest: "4.0.18"
     latestReleaseDate: 2025-05-28
 
--   releaseCycle: "3.11"
+  - releaseCycle: "3.11"
     releaseDate: 2017-06-23
     eol: 2024-09-05 # releaseDate(5.0)
     latest: "3.11.19"
     latestReleaseDate: 2025-02-07
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: 2024-09-05
     latest: "3.0.32"
     latestReleaseDate: 2025-02-07
-
 ---
 
 > [Apache Cassandra](https://cassandra.apache.org) is a free and open-source, distributed,
@@ -67,7 +66,7 @@ can be included in a given release.
 
 - Patch releases on a GA branch should only include bug fixes.
 - Minor versions contain new features and improvements and are always compatible with all minor versions in the same and adjacent (next-to-next) major versions.
-- Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version.  Deprecated APIs may then be removed in the next-next Major version.
+- Disruptive changes (API changes, protocol changes, etc.) are deprecated in the next Major version. Deprecated APIs may then be removed in the next-next Major version.
 
 As an always-on technology during major upgrades, Cassandra maintains compatibility across adjacent
 major versions. Cassandra does not break API compatibility without a deprecated grace period

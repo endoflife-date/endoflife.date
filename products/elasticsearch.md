@@ -11,44 +11,43 @@ changelogTemplate: "https://www.elastic.co/guide/en/elasticsearch/reference/{{'_
 eolColumn: Support
 
 identifiers:
--   repology: elasticsearch
--   purl: pkg:deb/debian/elasticsearch
--   purl: pkg:deb/ubuntu/elasticsearch
--   purl: pkg:rpm/amzn/elasticsearch
--   purl: pkg:rpm/redhat/elasticsearch
--   purl: pkg:rpm/centos/elasticsearch
+  - repology: elasticsearch
+  - purl: pkg:deb/debian/elasticsearch
+  - purl: pkg:deb/ubuntu/elasticsearch
+  - purl: pkg:rpm/amzn/elasticsearch
+  - purl: pkg:rpm/redhat/elasticsearch
+  - purl: pkg:rpm/centos/elasticsearch
 
 auto:
   methods:
-  -   git: https://github.com/elastic/elasticsearch.git
+    - git: https://github.com/elastic/elasticsearch.git
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2025-04-08
     eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
     latest: "9.1.1"
     latestReleaseDate: 2025-08-04
     link: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.0.1-release-notes
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
     latest: "8.19.1"
     latestReleaseDate: 2025-08-05
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2019-04-10
     eol: 2026-01-15
     latest: "7.17.29"
     latestReleaseDate: 2025-06-18
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2017-11-14
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > Elasticsearch is a search engine that provides a distributed, multi-tenant-capable full-text search
@@ -71,5 +70,5 @@ End-of-life dates for Elasticsearch can be found on the [Elastic product EOL dat
 Support for various operating systems can also be found on the [Elastic support matrix page](https://www.elastic.co/support/matrix).
 License information can be found on the [Elastic license page](https://www.elastic.co/pricing/faq/licensing).
 
-*[GA]: General Availability
-*[EOL]: End Of Life
+_[GA]: General Availability
+_[EOL]: End Of Life

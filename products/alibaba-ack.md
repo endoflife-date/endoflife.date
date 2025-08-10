@@ -6,7 +6,7 @@ tags: alibaba managed-kubernetes
 iconSlug: alibabacloud
 permalink: /alibaba-ack
 alternate_urls:
--   /ack
+  - /ack
 versionCommand: kubectl version
 releasePolicyLink: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions
 releaseColumn: false
@@ -14,7 +14,7 @@ eolColumn: End of Support
 
 auto:
   methods:
-  -   release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
+    - release_table: https://www.alibabacloud.com/help/en/ack/ack-managed-and-ack-dedicated/user-guide/support-for-kubernetes-versions/
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
@@ -25,58 +25,57 @@ auto:
           regex: '^(?P<value>.+\s+\d+).*$'
 
 releases:
--   releaseCycle: "1.33"
+  - releaseCycle: "1.33"
     releaseDate: 2025-05-31
     eol: 2026-05-31
 
--   releaseCycle: "1.32"
+  - releaseCycle: "1.32"
     releaseDate: 2025-01-31
     eol: 2026-01-31
 
--   releaseCycle: "1.31"
+  - releaseCycle: "1.31"
     releaseDate: 2024-09-30
     eol: 2025-09-30
 
--   releaseCycle: "1.30"
+  - releaseCycle: "1.30"
     releaseDate: 2024-06-30
     eol: 2026-06-30
 
--   releaseCycle: "1.28"
+  - releaseCycle: "1.28"
     releaseDate: 2023-10-31
     eol: 2025-10-31
 
--   releaseCycle: "1.26"
+  - releaseCycle: "1.26"
     releaseDate: 2023-04-30
     eol: 2025-04-30
 
--   releaseCycle: "1.24"
+  - releaseCycle: "1.24"
     releaseDate: 2022-09-30
     eol: 2024-09-30
 
--   releaseCycle: "1.22"
+  - releaseCycle: "1.22"
     releaseDate: 2021-12-31
     eol: 2023-10-31
 
--   releaseCycle: "1.20"
+  - releaseCycle: "1.20"
     releaseDate: 2021-04-30
     eol: 2023-04-30
 
--   releaseCycle: "1.18"
+  - releaseCycle: "1.18"
     releaseDate: 2020-09-30
     eol: 2022-09-30
 
--   releaseCycle: "1.16"
+  - releaseCycle: "1.16"
     releaseDate: 2020-02-29
     eol: 2022-06-30
 
--   releaseCycle: "1.14"
+  - releaseCycle: "1.14"
     releaseDate: 2019-08-31
     eol: 2021-07-31
 
--   releaseCycle: "1.12"
+  - releaseCycle: "1.12"
     releaseDate: 2019-03-31
     eol: 2020-12-31
-
 ---
 
 > [Alibaba Container Service for Kubernetes (ACK)](https://www.alibabacloud.com/en/product/kubernetes) is a managed

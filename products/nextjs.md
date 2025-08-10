@@ -6,63 +6,62 @@ tags: javascript-runtime vercel
 iconSlug: nextdotjs
 permalink: /nextjs
 alternate_urls:
--   /next-js
--   /nextdotjs
+  - /next-js
+  - /nextdotjs
 versionCommand: npx next --version
 changelogTemplate: https://github.com/vercel/next.js/releases/tag/v__LATEST__
 
 identifiers:
--   purl: pkg:npm/next
--   purl: pkg:github/vercel/next.js
+  - purl: pkg:npm/next
+  - purl: pkg:github/vercel/next.js
 
 auto:
   methods:
-  -   npm: next
+    - npm: next
 
 # eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
--   releaseCycle: "15"
+  - releaseCycle: "15"
     releaseDate: 2024-10-21
     eol: false
     latest: "15.4.6"
     latestReleaseDate: 2025-08-06
 
--   releaseCycle: "14"
+  - releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
     latest: "14.2.31"
     latestReleaseDate: 2025-07-30
 
--   releaseCycle: "13"
+  - releaseCycle: "13"
     releaseDate: 2022-10-25
     eol: 2024-12-21
     latest: "13.5.11"
     latestReleaseDate: 2025-03-27
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2021-10-26
     eol: 2022-11-21
     latest: "12.3.7"
     latestReleaseDate: 2025-03-28
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2021-06-15
     eol: 2022-01-27
     latest: "11.1.4"
     latestReleaseDate: 2022-01-27
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2020-10-27
     eol: 2021-06-15
     latest: "10.2.3"
     latestReleaseDate: 2021-05-24
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2019-07-08
     eol: 2020-10-27
     latest: "9.5.5"
     latestReleaseDate: 2020-10-10
-
 ---
 
 > [Next.js](https://nextjs.org/) is an open-source React framework developed by Vercel. It offers

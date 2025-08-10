@@ -12,13 +12,13 @@ eolColumn: Debian Security Support
 eoesColumn: Debian <abbr title="Long Term Support">LTS</abbr>
 
 identifiers:
--   cpe: cpe:2.3:o:debian:debian_linux
--   cpe: cpe:/o:debian:debian_linux
+  - cpe: cpe:2.3:o:debian:debian_linux
+  - cpe: cpe:/o:debian:debian_linux
 
 auto:
   methods:
-  -   debian: https://salsa.debian.org/webmaster-team/webwml.git
-  -   release_table: https://wiki.debian.org/DebianReleases
+    - debian: https://salsa.debian.org/webmaster-team/webwml.git
+    - release_table: https://wiki.debian.org/DebianReleases
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
@@ -30,7 +30,7 @@ auto:
           regex: '~?(?P<value>\d{4}-\d{2}(-\d{2})?)'
 
 releases:
--   releaseCycle: "13"
+  - releaseCycle: "13"
     codename: "Trixie"
     releaseDate: 2025-08-09
     eol: false # not announced yet
@@ -39,7 +39,7 @@ releases:
     latest: "13.0"
     latestReleaseDate: 2025-08-09
 
--   releaseCycle: "12"
+  - releaseCycle: "12"
     codename: "Bookworm"
     releaseDate: 2023-06-10
     eol: 2026-06-10
@@ -48,7 +48,7 @@ releases:
     latest: "12.11"
     latestReleaseDate: 2025-05-17
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     codename: "Bullseye"
     releaseDate: 2021-08-14
     eol: 2024-08-14
@@ -57,7 +57,7 @@ releases:
     latest: "11.11"
     latestReleaseDate: 2024-08-31
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     codename: "Buster"
     releaseDate: 2019-07-06
     eol: 2022-09-10
@@ -66,7 +66,7 @@ releases:
     latest: "10.13"
     latestReleaseDate: 2022-09-10
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     codename: "Stretch"
     releaseDate: 2017-06-17
     eol: 2020-07-18
@@ -75,7 +75,7 @@ releases:
     latest: "9.13"
     latestReleaseDate: 2020-07-18
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     codename: "Jessie"
     releaseDate: 2015-04-25
     eol: 2018-06-17
@@ -84,7 +84,7 @@ releases:
     latest: "8.11"
     latestReleaseDate: 2018-06-23
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     codename: "Wheezy"
     releaseDate: 2013-05-04
     eol: 2016-04-25
@@ -93,7 +93,7 @@ releases:
     latest: "7.11"
     latestReleaseDate: 2016-06-04
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     codename: "Squeeze"
     releaseDate: 2011-02-06
     eol: 2014-05-31
@@ -102,7 +102,7 @@ releases:
     latest: "6.0.10"
     latestReleaseDate: 2014-07-19
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     codename: "Lenny"
     releaseDate: 2009-02-14
     eol: 2012-02-06
@@ -111,7 +111,7 @@ releases:
     latest: "5.0.10"
     latestReleaseDate: 2012-03-10
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     codename: "Etch"
     releaseDate: 2007-04-08
     eol: 2010-02-15
@@ -120,7 +120,7 @@ releases:
     latest: "4.0r9"
     latestReleaseDate: 2010-05-22
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     codename: "Sarge"
     releaseDate: 2005-06-06
     eol: 2008-03-31
@@ -129,7 +129,7 @@ releases:
     latest: "3.1r8"
     latestReleaseDate: 2008-04-13
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     codename: "Woody"
     releaseDate: 2002-07-19
     eol: 2006-06-30
@@ -138,7 +138,7 @@ releases:
     latest: "3.0r6"
     latestReleaseDate: 2005-06-02
 
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     codename: "Potato"
     releaseDate: 2000-08-15
     eol: 2003-06-30
@@ -147,7 +147,7 @@ releases:
     latest: "2.2r7"
     latestReleaseDate: 2002-07-13
 
--   releaseCycle: "2.1"
+  - releaseCycle: "2.1"
     codename: "Slink"
     releaseDate: 1999-03-09
     eol: 2000-09-30
@@ -156,7 +156,7 @@ releases:
     latest: "2.1r5"
     latestReleaseDate: 2000-02-16
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     codename: "Hamm"
     releaseDate: 1998-07-24
     eol: 1999-02-15
@@ -165,7 +165,7 @@ releases:
     latest: "2.0r5"
     latestReleaseDate: 1999-02-17
 
--   releaseCycle: "1.3"
+  - releaseCycle: "1.3"
     codename: "Bo"
     releaseDate: 1997-07-02
     eol: 1998-12-08
@@ -174,7 +174,7 @@ releases:
     latest: "1.3.1 r.6"
     latestReleaseDate: 1998-02-03
 
--   releaseCycle: "1.2"
+  - releaseCycle: "1.2"
     codename: "Rex"
     releaseDate: 1996-12-12
     eol: 1997-10-23
@@ -183,7 +183,7 @@ releases:
     latest: "1.2"
     latestReleaseDate: 1996-12-12
 
--   releaseCycle: "1.1"
+  - releaseCycle: "1.1"
     codename: "Buzz"
     releaseDate: 1996-06-17
     eol: 1996-12-12
@@ -191,7 +191,6 @@ releases:
     link: https://lists.debian.org/debian-announce/1996/msg00021.html
     latest: "1.1"
     latestReleaseDate: 1996-06-17
-
 ---
 
 > [Debian](https://www.debian.org/) is a free operating system for your computer. The Debian stable

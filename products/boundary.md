@@ -10,39 +10,38 @@ releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-
 changelogTemplate: https://github.com/hashicorp/boundary/blob/release/__RELEASE_CYCLE__.x/CHANGELOG.md
 
 identifiers:
--   repology: boundary
+  - repology: boundary
 
 auto:
   methods:
-  -   git: https://github.com/hashicorp/boundary.git
+    - git: https://github.com/hashicorp/boundary.git
       regex: '^v(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$'
 
 # eol(x) = releaseDate(x+3)
 releases:
--   releaseCycle: "0.19"
+  - releaseCycle: "0.19"
     releaseDate: 2025-02-06
     eol: false
-    latest: '0.19.3'
+    latest: "0.19.3"
     latestReleaseDate: 2025-07-09
 
--   releaseCycle: "0.18"
+  - releaseCycle: "0.18"
     releaseDate: 2024-10-10
     eol: false
-    latest: '0.18.2'
+    latest: "0.18.2"
     latestReleaseDate: 2024-12-11
 
--   releaseCycle: "0.17"
+  - releaseCycle: "0.17"
     releaseDate: 2024-07-30
     eol: false
-    latest: '0.17.2'
+    latest: "0.17.2"
     latestReleaseDate: 2024-10-01
 
--   releaseCycle: "0.16"
+  - releaseCycle: "0.16"
     releaseDate: 2024-04-29
     eol: 2025-02-10
-    latest: '0.16.3'
+    latest: "0.16.3"
     latestReleaseDate: 2024-08-19
-
 ---
 
 > [Hashicorp Boundary](https://www.hashicorp.com/products/boundary) is an identity-aware proxy aimed at simplifying and securing least-privileged access to cloud infrastructure.

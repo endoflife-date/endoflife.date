@@ -12,85 +12,84 @@ changelogTemplate: "https://developer.apple.com/documentation/watchos-release-no
 eoasColumn: true
 
 identifiers:
--   cpe: cpe:/o:apple:watch_os
--   cpe: cpe:2.3:o:apple:watch_os
+  - cpe: cpe:/o:apple:watch_os
+  - cpe: cpe:2.3:o:apple:watch_os
 
 auto:
   methods:
-  -   apple: watchos
+    - apple: watchos
       # If you are changing these, please use this as your corpus to validate your changes:
       # https://gist.githubusercontent.com/captn3m0/e7cb1f4fc3c07a5da0296ebda2b33e15/raw/5747e42ad611ec9ffdb7a2d1c0e3946bb87ab6d7/apple.txt
       regex:
-      -   'watchOS\s+(?P<version>\d+)'
-      -   'watchOS\s+(?P<version>\d+(?:\.\d+)+)'
+        - 'watchOS\s+(?P<version>\d+)'
+        - 'watchOS\s+(?P<version>\d+(?:\.\d+)+)'
 
 releases:
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2024-09-16
     eoas: false
     eol: false
-    latest: '11.6'
+    latest: "11.6"
     latestReleaseDate: 2025-07-29
     link: https://support.apple.com/en-us/121163
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2023-09-18
     eoas: 2024-09-16
     eol: 2024-09-16
-    latest: '10.6.1'
+    latest: "10.6.1"
     latestReleaseDate: 2024-08-19
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2022-09-12
     eoas: 2023-09-18
     eol: 2023-09-22
     latestReleaseDate: 2023-09-21
-    latest: '9.6.3'
+    latest: "9.6.3"
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2021-09-20
     eoas: 2022-09-12
     eol: 2022-09-22
     latestReleaseDate: 2023-06-21
-    latest: '8.8.1'
+    latest: "8.8.1"
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2020-09-16
     eoas: 2021-09-20
     eol: 2021-10-11
     latestReleaseDate: 2021-09-13
-    latest: '7.6.2'
+    latest: "7.6.2"
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2019-09-19
     eoas: 2020-09-16
     eol: 2020-09-16
     latestReleaseDate: 2020-12-14
-    latest: '6.3'
+    latest: "6.3"
 
--   releaseCycle: "5"
+  - releaseCycle: "5"
     releaseDate: 2018-09-17
     eoas: 2019-09-19
     eol: 2019-09-30
     latestReleaseDate: 2020-11-05
-    latest: '5.3.9'
+    latest: "5.3.9"
 
--   releaseCycle: "4"
+  - releaseCycle: "4"
     releaseDate: 2017-09-19
     eoas: 2018-09-17
     eol: 2018-09-27
     latestReleaseDate: 2018-07-09
-    latest: '4.3.2'
+    latest: "4.3.2"
     link: https://support.apple.com/HT208071
 
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseDate: 2016-09-13
     eoas: 2017-09-19
     eol: 2017-10-04
     latestReleaseDate: 2017-07-19
-    latest: '3.2.3'
+    latest: "3.2.3"
     link: https://support.apple.com/kb/DL1894
-
 ---
 
 > [watchOS](https://www.apple.com/watchos/) is Apple's mobile operating system for its Apple

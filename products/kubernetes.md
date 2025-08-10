@@ -5,7 +5,7 @@ category: server-app
 iconSlug: kubernetes
 permalink: /kubernetes
 alternate_urls:
--   /k8s
+  - /k8s
 versionCommand: kubectl version
 releasePolicyLink: https://kubernetes.io/releases/patch-releases/
 changelogTemplate: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-__RELEASE_CYCLE__.md
@@ -13,145 +13,144 @@ eoasColumn: true
 eolColumn: Maintenance Support
 
 identifiers:
--   purl: pkg:github/kubernetes/kubernetes
--   repology: kubernetes
+  - purl: pkg:github/kubernetes/kubernetes
+  - repology: kubernetes
 
 auto:
   methods:
-  -   git: https://github.com/kubernetes/kubernetes.git
+    - git: https://github.com/kubernetes/kubernetes.git
       regex: ^v(?P<major>[1-9]\d*)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # Support and EOL dates can be found on https://kubernetes.io/releases/patch-releases/#detailed-release-history-for-active-branches
 releases:
--   releaseCycle: "1.33"
+  - releaseCycle: "1.33"
     releaseDate: 2025-04-23
     eoas: 2026-04-28
     eol: 2026-06-28
     latest: "1.33.3"
     latestReleaseDate: 2025-07-15
 
--   releaseCycle: "1.32"
+  - releaseCycle: "1.32"
     releaseDate: 2024-12-11
     eoas: 2025-12-28
     eol: 2026-02-28
     latest: "1.32.7"
     latestReleaseDate: 2025-07-15
 
--   releaseCycle: "1.31"
+  - releaseCycle: "1.31"
     releaseDate: 2024-08-13
     eoas: 2025-08-28
     eol: 2025-10-28
     latest: "1.31.11"
     latestReleaseDate: 2025-07-15
 
--   releaseCycle: "1.30"
+  - releaseCycle: "1.30"
     releaseDate: 2024-04-17
     eoas: 2025-04-28
     eol: 2025-06-28
     latest: "1.30.14"
     latestReleaseDate: 2025-06-17
 
--   releaseCycle: "1.29"
+  - releaseCycle: "1.29"
     releaseDate: 2023-12-13
     eoas: 2024-12-28
     eol: 2025-02-28
     latest: "1.29.15"
     latestReleaseDate: 2025-03-11
 
--   releaseCycle: "1.28"
+  - releaseCycle: "1.28"
     releaseDate: 2023-08-15
     eoas: 2024-08-28
     eol: 2024-10-28
     latest: "1.28.15"
     latestReleaseDate: 2024-10-22
 
--   releaseCycle: "1.27"
+  - releaseCycle: "1.27"
     releaseDate: 2023-04-11
     eoas: 2024-04-28
     eol: 2024-06-28
     latest: "1.27.16"
     latestReleaseDate: 2024-07-17
 
--   releaseCycle: "1.26"
+  - releaseCycle: "1.26"
     releaseDate: 2022-12-08
     eoas: 2023-12-28
     eol: 2024-02-28
     latest: "1.26.15"
     latestReleaseDate: 2024-03-14
 
--   releaseCycle: "1.25"
+  - releaseCycle: "1.25"
     releaseDate: 2022-08-23
     eoas: 2023-08-27
     eol: 2023-10-27
     latest: "1.25.16"
     latestReleaseDate: 2023-11-15
 
--   releaseCycle: "1.24"
+  - releaseCycle: "1.24"
     releaseDate: 2022-05-03
     eoas: 2023-05-28
     eol: 2023-07-28
     latest: "1.24.17"
     latestReleaseDate: 2023-08-23
 
--   releaseCycle: "1.23"
+  - releaseCycle: "1.23"
     releaseDate: 2021-12-07
     eoas: 2022-12-28
     eol: 2023-02-28
     latest: "1.23.17"
     latestReleaseDate: 2023-02-22
 
--   releaseCycle: "1.22"
+  - releaseCycle: "1.22"
     releaseDate: 2021-08-04
     eoas: 2022-08-28
     eol: 2022-10-28
     latest: "1.22.17"
     latestReleaseDate: 2022-12-08
 
--   releaseCycle: "1.21"
+  - releaseCycle: "1.21"
     releaseDate: 2021-04-08
     eoas: 2022-04-28
     eol: 2022-06-28
     latest: "1.21.14"
     latestReleaseDate: 2022-06-15
 
--   releaseCycle: "1.20"
+  - releaseCycle: "1.20"
     releaseDate: 2020-12-08
     eoas: 2021-12-28
     eol: 2022-02-28
     latest: "1.20.15"
     latestReleaseDate: 2022-01-19
 
--   releaseCycle: "1.19"
+  - releaseCycle: "1.19"
     releaseDate: 2020-08-26
     eoas: 2021-08-28
     eol: 2021-10-28
     latest: "1.19.16"
     latestReleaseDate: 2021-10-27
 
--   releaseCycle: "1.18"
+  - releaseCycle: "1.18"
     releaseDate: 2020-03-25
     eoas: 2021-04-28
     eol: 2021-06-18
     latest: "1.18.20"
     latestReleaseDate: 2021-06-16
 
--   releaseCycle: "1.17"
+  - releaseCycle: "1.17"
     releaseDate: 2019-12-07
     eoas: true
     eol: 2020-12-25
     latest: "1.17.17"
     latestReleaseDate: 2021-01-13
 
--   releaseCycle: "1.16"
+  - releaseCycle: "1.16"
     releaseDate: 2019-09-18
     eoas: true
     eol: 2020-08-04
     latest: "1.16.15"
     latestReleaseDate: 2020-09-02
-
 ---
 
->[Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for
+> [Kubernetes](https://kubernetes.io/) is an open-source container-orchestration system for
 > automating computer application deployment, scaling, and management.
 
 Kubernetes follows an N-2 support policy (meaning that the 3 most recent minor versions receive

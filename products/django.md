@@ -12,23 +12,23 @@ changelogTemplate: https://docs.djangoproject.com/en/__RELEASE_CYCLE__/releases/
 eoasColumn: true
 
 customFields:
--   name: supportedPythonVersions
+  - name: supportedPythonVersions
     display: after-release-column
     label: Python
     description: Supported Python versions
     link: https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
 
 identifiers:
--   repology: python:django
--   purl: pkg:github/django/django
--   purl: pkg:pypi/django
--   cpe: cpe:2.3:a:djangoproject:django
--   cpe: cpe:/a:djangoproject:django
+  - repology: python:django
+  - purl: pkg:github/django/django
+  - purl: pkg:pypi/django
+  - cpe: cpe:2.3:a:djangoproject:django
+  - cpe: cpe:/a:djangoproject:django
 
 auto:
   methods:
-  -   git: https://github.com/django/django.git
-  -   release_table: https://www.djangoproject.com/download/#supported-versions
+    - git: https://github.com/django/django.git
+    - release_table: https://www.djangoproject.com/download/#supported-versions
       selector: "table:nth-of-type(1)" # ignore Future Roadmap table
       header_selector: "tr:nth-of-type(1)"
       rows_selector: "tr"
@@ -38,7 +38,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+).*$'
         eoas: "End of mainstream support1"
         eol: "End of extended support2"
-  -   release_table: https://www.djangoproject.com/download/#unsupported-versions
+    - release_table: https://www.djangoproject.com/download/#unsupported-versions
       selector: "table.django-unsupported-versions"
       header_selector: "tr:nth-of-type(1)"
       rows_selector: "tr"
@@ -48,7 +48,7 @@ auto:
           regex: '^(?P<value>\d+\.\d+).*$'
         eoas: "End of mainstream support1"
         eol: "End of extended support2"
-  -   release_table: https://docs.djangoproject.com/en/stable/faq/install/
+    - release_table: https://docs.djangoproject.com/en/stable/faq/install/
       selector: "table"
       fields:
         releaseCycle: "Django version"
@@ -57,7 +57,7 @@ auto:
           type: "range"
 
 releases:
--   releaseCycle: "5.2"
+  - releaseCycle: "5.2"
     lts: true
     releaseDate: 2025-04-02
     eoas: 2025-12-31
@@ -66,7 +66,7 @@ releases:
     latest: "5.2.5"
     latestReleaseDate: 2025-08-06
 
--   releaseCycle: "5.1"
+  - releaseCycle: "5.1"
     releaseDate: 2024-08-07
     eoas: 2025-04-02
     eol: 2025-12-31
@@ -74,7 +74,7 @@ releases:
     latest: "5.1.11"
     latestReleaseDate: 2025-06-10
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2023-12-04
     eoas: 2024-08-07
     eol: 2025-04-02
@@ -82,7 +82,7 @@ releases:
     latest: "5.0.14"
     latestReleaseDate: 2025-04-02
 
--   releaseCycle: "4.2"
+  - releaseCycle: "4.2"
     lts: true
     releaseDate: 2023-04-03
     eoas: 2023-12-04
@@ -91,7 +91,7 @@ releases:
     latest: "4.2.23"
     latestReleaseDate: 2025-06-10
 
--   releaseCycle: "4.1"
+  - releaseCycle: "4.1"
     releaseDate: 2022-08-03
     eoas: 2023-04-05
     eol: 2023-12-01
@@ -99,7 +99,7 @@ releases:
     latest: "4.1.13"
     latestReleaseDate: 2023-11-01
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2021-12-07
     eoas: 2022-08-03
     eol: 2023-04-01
@@ -107,7 +107,7 @@ releases:
     latest: "4.0.10"
     latestReleaseDate: 2023-02-14
 
--   releaseCycle: "3.2"
+  - releaseCycle: "3.2"
     lts: true
     releaseDate: 2021-04-06
     eoas: 2021-12-07
@@ -116,7 +116,7 @@ releases:
     supportedPythonVersions: "3.6 - 3.10 (added in 3.2.9)"
     latestReleaseDate: 2024-03-04
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     releaseDate: 2020-08-04
     eoas: 2021-04-06
     eol: 2021-12-07
@@ -124,7 +124,7 @@ releases:
     latest: "3.1.14"
     latestReleaseDate: 2021-12-07
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2019-12-02
     eoas: 2020-08-03
     eol: 2021-04-06
@@ -132,7 +132,7 @@ releases:
     latest: "3.0.14"
     latestReleaseDate: 2021-04-06
 
--   releaseCycle: "2.2"
+  - releaseCycle: "2.2"
     lts: true
     releaseDate: 2019-04-01
     eoas: 2019-12-02
@@ -141,7 +141,7 @@ releases:
     latest: "2.2.28"
     latestReleaseDate: 2022-04-11
 
--   releaseCycle: "2.1"
+  - releaseCycle: "2.1"
     releaseDate: 2018-08-01
     eoas: 2019-04-01
     eol: 2019-12-02
@@ -149,7 +149,7 @@ releases:
     latest: "2.1.15"
     latestReleaseDate: 2019-12-02
 
--   releaseCycle: "2.0"
+  - releaseCycle: "2.0"
     releaseDate: 2017-12-02
     eoas: 2018-08-01
     eol: 2019-04-01
@@ -157,7 +157,7 @@ releases:
     latest: "2.0.13"
     latestReleaseDate: 2019-02-12
 
--   releaseCycle: "1.11"
+  - releaseCycle: "1.11"
     lts: true
     releaseDate: 2017-04-04
     eoas: 2017-12-02
@@ -166,70 +166,69 @@ releases:
     latest: "1.11.29"
     latestReleaseDate: 2020-03-04
 
--   releaseCycle: '1.10'
+  - releaseCycle: "1.10"
     releaseDate: 2016-08-01
     eoas: 2017-04-04
     eol: 2017-12-02
     supportedPythonVersions: "2.7, 3.4 - 3.5"
-    latest: '1.10.8'
+    latest: "1.10.8"
     latestReleaseDate: 2017-09-05
 
--   releaseCycle: '1.9'
+  - releaseCycle: "1.9"
     releaseDate: 2015-12-01
     eoas: 2016-08-01
     eol: 2017-04-04
     supportedPythonVersions: "2.7, 3.4 - 3.5"
-    latest: '1.9.13'
+    latest: "1.9.13"
     latestReleaseDate: 2017-04-04
 
--   releaseCycle: '1.8'
+  - releaseCycle: "1.8"
     releaseDate: 2015-04-01
     eoas: 2015-12-01
     eol: 2018-04-01
     supportedPythonVersions: "2.7, 3.2 - 3.5"
-    latest: '1.8.19'
+    latest: "1.8.19"
     latestReleaseDate: 2018-03-06
 
--   releaseCycle: '1.7'
+  - releaseCycle: "1.7"
     releaseDate: 2014-09-03
     eoas: 2015-04-01
     eol: 2015-12-01
     supportedPythonVersions: "2.7, 3.2 - 3.4"
-    latest: '1.7.11'
+    latest: "1.7.11"
     latestReleaseDate: 2015-11-24
 
--   releaseCycle: '1.6'
+  - releaseCycle: "1.6"
     releaseDate: 2013-11-06
     eoas: 2014-09-02
     eol: 2015-04-01
     supportedPythonVersions: "2.6 - 2.7, 3.2 - 3.3"
-    latest: '1.6.11'
+    latest: "1.6.11"
     latestReleaseDate: 2015-03-18
 
--   releaseCycle: '1.5'
+  - releaseCycle: "1.5"
     releaseDate: 2013-02-26
     eoas: 2013-11-06
     eol: 2014-09-02
     supportedPythonVersions: "2.6 - 2.7, 3.2"
-    latest: '1.5.12'
+    latest: "1.5.12"
     latestReleaseDate: 2015-01-02
 
--   releaseCycle: '1.4'
+  - releaseCycle: "1.4"
     releaseDate: 2012-03-23
     eoas: 2013-02-26
     eol: 2015-10-01
     supportedPythonVersions: "2.5 - 2.7"
-    latest: '1.4.22'
+    latest: "1.4.22"
     latestReleaseDate: 2015-08-18
 
--   releaseCycle: '1.3'
+  - releaseCycle: "1.3"
     releaseDate: 2011-03-23
     eoas: 2012-03-23
     eol: 2013-02-26
     supportedPythonVersions: "2.4 - 2.5"
-    latest: '1.3.7'
+    latest: "1.3.7"
     latestReleaseDate: 2013-02-21
-
 ---
 
 > [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages

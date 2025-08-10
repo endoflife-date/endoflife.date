@@ -13,14 +13,14 @@ eoasColumn: WearOS Updates
 eolColumn: Security Updates
 
 customFields:
--   name: supportedAndroidVersions
+  - name: supportedAndroidVersions
     display: after-release-column
     label: Supported Android # https://en.wikipedia.org/wiki/Google_Pixel#Phones
     description: Supported Android versions range
 
 # Supported Android versions range is based on https://www.gsmarena.com/.
 releases:
--   releaseCycle: "3"
+  - releaseCycle: "3"
     releaseLabel: "Pixel Watch 3"
     releaseDate: 2024-09-10
     eoas: 2027-10-01
@@ -29,7 +29,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_Watch_3
     supportedAndroidVersions: "5" # https://www.gsmarena.com/google_pixel_watch_3-13253.php
 
--   releaseCycle: "2"
+  - releaseCycle: "2"
     releaseLabel: "Pixel Watch 2"
     releaseDate: 2023-10-12
     eoas: 2026-10-01
@@ -38,7 +38,7 @@ releases:
     link: https://en.wikipedia.org/wiki/Pixel_Watch_2
     supportedAndroidVersions: "4 - 5" # https://www.gsmarena.com/google_pixel_watch_2-12547.php
 
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseLabel: "Pixel Watch"
     releaseDate: 2022-10-13
     eoas: 2025-10-01
@@ -46,7 +46,6 @@ releases:
     discontinued: false
     link: https://en.wikipedia.org/wiki/Pixel_Watch
     supportedAndroidVersions: "3.5 - 5" # https://www.gsmarena.com/google_pixel_watch-11546.php
-
 ---
 
 > Pixel Watch is Google's current line of wearable watches.
