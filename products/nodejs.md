@@ -218,19 +218,17 @@ releases:
 > [Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript run-time environment
 > built on Chrome's V8 JavaScript engine that executes JavaScript code outside a browser.
 
-Major Node.js versions enter Current release status for six months, which gives library authors time
-to add support for them. After six months, odd-numbered releases (9, 11, etc.) become unsupported,
+Major Node.js versions enter Current release status for six months, which gives library authors time to add support for them.
+After six months, odd-numbered releases (9, 11, etc.) become unsupported,
 and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use.
-LTS release status is "long-term support", which typically guarantees that critical bugs will be
-fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance
-LTS releases.
+LTS release status is "long-term support", which typically guarantees that critical bugs will be fixed for a total of 30 months.
+Production applications should only use Active LTS or Maintenance LTS releases.
 
-If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and
-is not recommended for Production use.
+If an even-numbered release above is _not marked as LTS_, then it has not entered "Active LTS" and is not recommended for Production use.
 
 Node.js is part of the [OpenJS Foundation's Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) (ESP).
-Commercial support is available for some deprecated LTS versions of Node.js through the [HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes)
-initiative.
+Commercial support is available for some deprecated LTS versions of Node.js through the
+[HeroDevs Never-Ending Support](https://www.herodevs.com/support/node-nes) initiative.
 
 The End-of-Life date for Node.js 16 was [moved forward by seven months](https://nodejs.org/en/blog/announcements/nodejs16-eol/ "Bringing forward the End-of-Life Date for Node.js 16")
 to coincide with the end of support of OpenSSL 1.1.1 on September 11th, 2023.
