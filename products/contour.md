@@ -77,9 +77,12 @@ releases:
     latestReleaseDate: 2023-10-17
 ---
 
-> [Contour](https://projectcontour.io/) is an ingress controller for Kubernetes that works by deploying [Envoy](https://www.envoyproxy.io/) as a reverse proxy and load balancer. Contour supports dynamic configuration updates out of the box while maintaining a lightweight profile.
+> [Contour](https://projectcontour.io/) is an ingress controller for Kubernetes
+> that works by deploying [Envoy](https://www.envoyproxy.io/) as a reverse proxy and load balancer.
+> Contour supports dynamic configuration updates out of the box while maintaining a lightweight profile.
 
-Contour follows [Semantic Versioning](https://semver.org/). A new minor version is released approximately once a quarter.
+Contour follows [Semantic Versioning](https://semver.org/).
+A new minor version is released approximately once a quarter.
 
 The latest three releases are supported with critical and security fixes.
 
