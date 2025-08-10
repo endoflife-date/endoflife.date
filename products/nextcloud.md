@@ -160,9 +160,9 @@ releases:
     latestReleaseDate: 2016-12-12
 ---
 
-> [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using
-> file hosting services. It is enterprise-ready with comprehensive support options. It is licensed
-> with Affero General Public License v3.0 (AGPL-v3.0).
+> [Nextcloud](https://nextcloud.com/) is a suite of client-server software for creating and using file hosting services.
+> It is enterprise-ready with comprehensive support options.
+> It is licensed with Affero General Public License v3.0 (AGPL-v3.0).
 
 ## [Release Channels][channels]
 
@@ -176,23 +176,22 @@ releases:
 ## Upgrades
 
 Skipping major versions when upgrading and downgrading to older versions is not supported.
-If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later
-is in stable until a new update will become available.
+If you went via ‘beta’ to 14.0.0rc4 and stable is on 13.0.5,
+you have to wait until 14.0.0 or later is in stable until a new update will become available.
 
-The safest way to upgrade is to always update to the latest minor release before upgrading to a new
-version. The Nextcloud updater does this automatically whenever possible.
+The safest way to upgrade is to always update to the latest minor release before upgrading to a new version.
+The Nextcloud updater does this automatically whenever possible.
 
 ## Cadence
 
 Nextcloud makes new versions incrementally available to user installations in the Stable channel.
-When a major new version comes out, the project waits for one week, and only when no problems are
-found the roll-out is started in steps of about 20% of the user base per week. If you maintain
-several servers, this means some get it sooner than others.
+When a major new version comes out, the project waits for one week,
+and only when no problems are found the roll-out is started in steps of about 20% of the user base per week.
+If you maintain several servers, this means some get it sooner than others.
 
 If an issue is found that was not caught during pre-release testing, the roll-out might be delayed.
-As a result, new releases are typically only available in the stable channel after the first minor
-release. Users can always upgrade sooner by choosing the beta channel, which typically tracks
-stable releases immediately after publishing.
+As a result, new releases are typically only available in the stable channel after the first minor release.
+Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.
 
 [stable]: https://nextcloud.com/install/
 [enterprise]: https://nextcloud.com/enterprise/ "Nextcloud Enterprise"
