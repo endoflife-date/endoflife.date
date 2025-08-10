@@ -196,13 +196,14 @@ releases:
     latestReleaseDate: 2018-11-30
 ---
 
-> [Nutanix Prism](https://www.nutanix.com/uk/products/prism) is the control plane that simplifies
-> and streamlines common workflows to make hypervisor and VM setup as easy as checking your email.
+> [Nutanix Prism](https://www.nutanix.com/uk/products/prism) is the control plane
+> that simplifies and streamlines common workflows to make hypervisor and VM setup as easy as checking your email.
 
-Nutanix Prism versions are designated using the following format: `pc.X.Y.Z.n`, where `X` is the major version,
-`Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
+Nutanix Prism versions are designated using the following format: `pc.X.Y.Z.n`,
+where `X` is the major version, `Y` is the minor version, `Z` is the maintenance version, and `n` is the patch version.
 
-Since Prism pc.2024.3, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG) from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
+Since Prism pc.2024.3, Nutanix [transitioned](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA00e000000LIi9CAG)
+from the LTS/STS/eSTS release model to a Unified 'NCI Release Model'.
 Under this model, major or minor releases are typically made available every 6–9 months.
 All releases are actively maintained with bug and security fixes for 15 months,
 followed by an additional 9 months of troubleshooting with only security fixes.
