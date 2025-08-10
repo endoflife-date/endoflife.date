@@ -48,8 +48,8 @@ releases:
     releaseLabel: "8.1 (Rapid Release)"
     releaseDate: 2025-06-20
     eol: 2025-09-30
-    latest: '8.1.2'
-    latestReleaseDate: 2025-07-01
+    latest: '8.1.3'
+    latestReleaseDate: 2025-08-08
 
 -   releaseCycle: "8.0"
     releaseDate: 2024-10-02
