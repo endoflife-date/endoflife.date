@@ -8,7 +8,8 @@ permalink: /contribute
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
 
 - [<img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="20" height="20"> Hacktoberfest](#img-classemoji-titleoctocat-altoctocat-srchttpsgithubgithubassetscomimagesiconsemojioctocatpng-width20-height20-hacktoberfest)
 - [🕐 What's this project?](#-whats-this-project)
@@ -492,13 +493,18 @@ for file in $(find _site/api/v1 -type f | grep -v releases | sort -n); do
 done | xargs -n1 -P20 curl -s -o /dev/null -w '%{url} %{http_code}\n'
 ```
 
-## Linting markdown files
+## Linting and formatting files
 
 You can use the [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) to lint the markdown files:
 
 ```sh
-npm install -g markdownlint-cli2
-markdownlint-cli2 --fix "**/*.md" "#node_modules"
+npx markdownlint-cli2@latest --fix "**/*.md" "#node_modules"
+```
+
+You can use the [prettier](https://github.com/prettier/prettier) to verify and fix the formatting of the files:
+
+```sh
+npx prettier@latest --write .
 ```
 
 ## 🆔 Adding Identifiers

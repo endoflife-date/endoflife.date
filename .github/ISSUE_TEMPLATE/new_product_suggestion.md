@@ -1,10 +1,9 @@
 ---
 name: New product suggestion
 about: Suggest a new product for endoflife.date
-title: ''
-labels: 'request'
-assignees: ''
-
+title: ""
+labels: "request"
+assignees: ""
 ---
 
 **Full and short name of product**
