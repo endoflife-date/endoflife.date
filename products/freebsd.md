@@ -352,4 +352,3 @@ Branch tags have names like `releng/10.1`. The corresponding builds have names l
 > The support duration for individual point releases will remain until "next point release + 3 months".
 > A release cadence is being established so a new minor release from one of the supported
 > stable branches will happen most quarters.
-

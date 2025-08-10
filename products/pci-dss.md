@@ -51,4 +51,4 @@ releases:
   The new requirements introduced in PCI DSS v3.2 were considered best practices until 31 January 2018.
   Starting 1 February 2018 they are effective as requirements and must be used.
 
-[^1]: https://www.pcisecuritystandards.org/faq/articles/Frequently_Asked_Question/Does-an-entity-s-PCI-DSS-assessment-result-expire-when-the-standard-against-which-the-entity-was-assessed-is-retired/
+[^1]: <https://www.pcisecuritystandards.org/faq/articles/Frequently_Asked_Question/Does-an-entity-s-PCI-DSS-assessment-result-expire-when-the-standard-against-which-the-entity-was-assessed-is-retired/>

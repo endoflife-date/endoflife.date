@@ -43,7 +43,7 @@ bundle exec jekyll --version
 Run the site locally:
 
 ```sh
-$ bundle exec jekyll serve --host localhost --port 4000
+bundle exec jekyll serve --host localhost --port 4000
 ```
 
 Browse to `http://localhost:4000` and you should see the site running locally. If you find any errors at this stage, check [Jekyll's troubleshooting page](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) or [ask a question in the Q&A category](https://github.com/endoflife-date/endoflife.date/discussions/new/) on GitHub Discussions.
@@ -75,7 +75,6 @@ this configuration is for the current `main` branch, not for the version used by
 
 If you need to override some parts, take a look at
 [the customization section](https://just-the-docs.github.io/just-the-docs/docs/customization/) of the documentation.
-
 
 ## Logo
 

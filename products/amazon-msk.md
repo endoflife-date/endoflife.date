@@ -111,7 +111,7 @@ with End-of-Support dates.
 
 ## [Upgrading](https://docs.aws.amazon.com/msk/latest/developerguide/version-upgrades.html)
 
-A cluster using a Kafka version after its end of support date is auto-upgraded to the recommended Kafka version. 
+A cluster using a Kafka version after its end of support date is auto-upgraded to the recommended Kafka version.
 Automatic upgrades can happen at any time after the end of support date. No notifications
 are sent before the upgrade.
 

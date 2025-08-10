@@ -81,7 +81,7 @@ releases:
 - **Sustaining Support**: Available after Extended support ends. Does not include any new security
   fixes or alerts.
 
-## Differences with Upstream RHEL:
+## Differences with Upstream RHEL
 
 - Unlike RHEL, [Oracle Linux does not support point releases once a newer one is available](https://forums.oracle.com/ords/apexds/post/what-is-the-lifecycle-of-oracle-linux-for-minor-releases-2173).
   Once a new minor point release is available, the older one is immediately considered end of life

@@ -76,6 +76,7 @@ releases:
 
 LAM is published under the GNU General Public License; LAM Pro is a commercial extended version of
 LAM. Both follow the same release cycle:
+
 - there is a new minor release every 3 months
 - there are patch versions for the latest release cycle as needed
 - each new release cycle ends the previous one

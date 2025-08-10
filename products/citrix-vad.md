@@ -219,6 +219,7 @@ Citrix Virtual Apps and Desktops was previously known as XenApp and XenDesktop, 
 
 There are two release types for on-premises deployments, Current Releases and Long-Term Service
 Releases (LTSR):
+
 - Current Releases will reach end of active support 6 months after release and end of security
   support 18 months after release.
 - Long-Term Service Releases will reach end of active and security support 5 years after release.

@@ -61,7 +61,7 @@ Ubuntu has this information split between the (unmaintained) Ubuntu Wiki and the
 - <https://ubuntu.com/about/release-cycle>
 - <https://wiki.ubuntu.com/Releases>
 
-Make sure this information is hosted _alongside your end-user documentation_, not your developer or team documentation.
+Make sure this information is hosted *alongside your end-user documentation*, not your developer or team documentation.
 
 ### Bad - Python
 
@@ -169,7 +169,7 @@ However, your end-users shouldn't have to do the math. Make sure that all your r
 (I suggest `YYYY-MM-DD`) irrespective of how these dates are decided. You doing the math once will save your users much
 more time.
 
-### Bad:
+### Bad
 
 | K8s version | AKS GA   | End of life |
 |-------------|----------|-------------|
@@ -178,14 +178,14 @@ more time.
 
 (Source: [Azure Kubernetes Release Calendar][aks])
 
-### Bad:
+### Bad
 
 Some projects will often put a note instead of documenting absolute dates:
 
-Version|Release Date
----|---
-2.1|3rd March 2021
-2.0|1st March 2020
+| Version | Release Date   |
+|---------|----------------|
+| 2.1     | 3rd March 2021 |
+| 2.0     | 1st March 2020 |
 
 Release are supported for 2 years from the release date.
 
@@ -193,18 +193,17 @@ Release are supported for 2 years from the release date.
 
 Same as above, but we do the math:
 
-Version|Release Date|EoL Date
----|---|---
-2.1|3rd March 2021|3rd March 2023
-2.0|1st March 2020|1st March 2022
+| Version | Release Date   | EoL Date       |
+|---------|----------------|----------------|
+| 2.1     | 3rd March 2021 | 3rd March 2023 |
+| 2.0     | 1st March 2020 | 1st March 2022 |
 
+### Good
 
-### Good:
-
-|Kubernetes version|Upstream release|Amazon EKS release|Amazon EKS end of support|
-|------|-------------------|-------------------|--------------------|
-| 1.20 | December 8, 2020  | May 18, 2021      | July, 2022         |
-| 1.21 | April 8, 2021     | July 19, 2021     | September, 2022    |
+| Kubernetes version | Upstream release | Amazon EKS release | Amazon EKS end of support |
+|--------------------|------------------|--------------------|---------------------------|
+| 1.20               | December 8, 2020 | May 18, 2021       | July, 2022                |
+| 1.21               | April 8, 2021    | July 19, 2021      | September, 2022           |
 
 Source: [Amazon EKS Release Calendar][eks].
 

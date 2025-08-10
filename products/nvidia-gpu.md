@@ -284,7 +284,7 @@ releases:
 There are multiple GPUs with the same name but part of a different architecture (therefore
 different support status length), and there are other cases to be careful of:
 
-### Desktop:
+### Desktop
 
 - `GT730`: Has a `GF108` (Fermi) and a `GK208` (Kepler) variant.
 - `GT625`: Has a `GF108` (Fermi) and a `GK107`/`GK208` (Kepler) variant.
@@ -297,7 +297,7 @@ different support status length), and there are other cases to be careful of:
 - All-in-one **desktops** are known to feature Mobile GPUs, which would make them fall under a
   different (and often shorter) support cycle.
 
-### Laptop:
+### Laptop
 
 - `GT810M`/`GT820M` are Fermi cards.
 - `GT825M`/`GT870M`/`GT880M` are Kepler cards.

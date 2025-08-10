@@ -152,6 +152,7 @@ Because GHC is a *bootstrapping compiler* (meaning, it is written mostly in Hask
 itself), there're versioning considerations not quite covered with SemVer.
 
 GHC defines:
+
 * **Major release** - `x.y.1` where `y` is even.
 * **Minor release** - `x.y.z` where `y` is even and `z ≥ 2`.
 

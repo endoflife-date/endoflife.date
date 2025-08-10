@@ -243,5 +243,4 @@ your CPU belongs on:
 - macOS: `sysctl -n machdep.cpu.brand_string`
 - FreeBSD/OpenBSD: `sysctl -n hw.model`
 
-Then check product classification on https://ark.intel.com/.
-
+Then check product classification on <https://ark.intel.com/>.

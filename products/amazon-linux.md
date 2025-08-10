@@ -224,7 +224,6 @@ Amazon Provides security advisories for all versions on the Amazon Linux Securit
 
 [al1-eol]: https://aws.amazon.com/blogs/aws/update-on-amazon-linux-ami-end-of-life/ "Update on Amazon Linux AMI end-of-life"
 
-[al1-faq]: https://aws.amazon.com/amazon-linux-ami/faqs/ "Amazon Linux AMI FAQ"
 [al2-faq]: https://aws.amazon.com/amazon-linux-2/faqs/#Long_Term_Support "Amazon Linux 2 FAQs"
 [al2023-faq]: https://aws.amazon.com/linux/amazon-linux-2023/faqs/#Long_Term_Support "Amazon Linux 2023 FAQs"
 

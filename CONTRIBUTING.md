@@ -31,7 +31,7 @@ Before you get started, get to know the project a little bit. Open [endoflife.da
 
 ## :pencil: About the codebase
 
-endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://www.netlify.com/). Since the site is mostly informational, you _don't need programming skills to contribute to the project_.
+endoflife.date is built using [Jekyll](https://jekyllrb.com/) - the Ruby static site builder that powers GitHub Pages. The site is built and deployed to [Netlify](https://www.netlify.com/). Since the site is mostly informational, you *don't need programming skills to contribute to the project*.
 
 ## :new: Adding a new product
 
@@ -443,7 +443,7 @@ In `vim` you also could use the [yaml-language-server](https://github.com/redhat
 
 Once you file your Pull Request, Netlify will provide a list of checks for your changes. If one of the checks fails, you can click Details and see through the errors, or one of the Maintainers will be there to help you soon.
 
-If all of the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website _with your changes_.
+If all of the checks pass, you can click the "Details" link on the "Deploy Preview" Status Check to see a preview of the website *with your changes*.
 
 ![image](https://user-images.githubusercontent.com/584253/134535142-7d1170b7-16f4-4cd3-987e-e890b76098d5.png)
 
@@ -473,7 +473,7 @@ docker run --rm \
 
 ## Testing API payload
 
-There is a GitHub workflow that already validates the OpenAPI specification (it can also be checked on https://pb33f.io/doctor/).
+There is a GitHub workflow that already validates the OpenAPI specification (it can also be checked on <https://pb33f.io/doctor/>).
 But to test the generated API payload you can do the following:
 
 ```sh
@@ -511,8 +511,8 @@ identifiers.
 We have the following documents which should help you get familiar with the project and the codebase. You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
 
 - [HACKING.md](https://github.com/endoflife-date/endoflife.date/blob/master/HACKING.md) contains instructions on setting up the codebase locally with Jekyll. Read this if you're planning to make complex changes or setting up the project locally.
-- [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is _especially important if you are making non-trivial changes_ that deal with the content or add a new product.
-- [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at https://endoflife.date/contribute
+- [Guiding Principles](https://github.com/endoflife-date/endoflife.date/wiki/Guiding-Principles) - These help us make decisions around the content we have. If you'd like to make sure your PR gets speedy approval, please read these to ensure your changes are aligned with the rest of the content. This is *especially important if you are making non-trivial changes* that deal with the content or add a new product.
+- [CONTRIBUTING.md](https://github.com/endoflife-date/endoflife.date/blob/master/CONTRIBUTING.md) - (This page). Also accessible at <https://endoflife.date/contribute>
 
 ## :bookmark: Code of Conduct
 
