@@ -5,29 +5,29 @@ category: server-app
 tags: php-runtime
 permalink: /neos
 alternate_urls:
--   /neoscms
+  - /neoscms
 versionCommand: ./flow
 releasePolicyLink: https://www.neos.io/features/release-process.html
 changelogTemplate: https://neos.readthedocs.io/en/__RELEASE_CYCLE__/Appendixes/ChangeLogs/{{"__LATEST__" | replace:'.',''}}.html
 eoasColumn: true
 
 identifiers:
--   purl: pkg:composer/neos/neos
+  - purl: pkg:composer/neos/neos
 
 auto:
   methods:
-  -   git: https://github.com/neos/neos.git
+    - git: https://github.com/neos/neos.git
 
 # Dates available at https://www.neos.io/features/release-process.html.
 releases:
--   releaseCycle: "9.0"
+  - releaseCycle: "9.0"
     releaseDate: 2025-04-03
     eoas: 2027-04-01
     eol: 2028-04-01
     latest: "9.0.4"
     latestReleaseDate: 2025-06-13
 
--   releaseCycle: "8.3"
+  - releaseCycle: "8.3"
     releaseDate: 2023-04-24
     lts: true
     eoas: 2026-09-01
@@ -35,7 +35,7 @@ releases:
     latest: "8.3.25"
     latestReleaseDate: 2025-06-13
 
--   releaseCycle: "8.2"
+  - releaseCycle: "8.2"
     releaseDate: 2022-12-01
     lts: false
     eoas: 2024-03-31
@@ -43,7 +43,7 @@ releases:
     latest: "8.2.14"
     latestReleaseDate: 2024-04-19
 
--   releaseCycle: "8.1"
+  - releaseCycle: "8.1"
     releaseDate: 2022-09-02
     lts: false
     eoas: 2024-03-31
@@ -51,7 +51,7 @@ releases:
     latest: "8.1.14"
     latestReleaseDate: 2024-04-19
 
--   releaseCycle: "8.0"
+  - releaseCycle: "8.0"
     releaseDate: 2022-04-01
     lts: false
     eoas: 2024-03-31
@@ -59,14 +59,13 @@ releases:
     latest: "8.0.19"
     latestReleaseDate: 2024-04-19
 
--   releaseCycle: "7.3"
+  - releaseCycle: "7.3"
     releaseDate: 2021-12-08
     lts: true
     eoas: 2024-03-31
     eol: 2025-03-31
     latest: "7.3.21"
     latestReleaseDate: 2024-04-19
-
 ---
 
 > [Neos](https://www.neos.io) is a highly extensible web-based content management system (CMS) written in PHP.
@@ -83,6 +82,6 @@ Neos releases follow Semantic Versioning, and the team strives for a regular Neo
 ## [PHP Support](https://docs.neos.io/guide/installation-development-setup/system-requirements)
 
 | Version | PHP       |
-|---------|-----------|
+| ------- | --------- |
 | 8.x     | 8.0 - 8.3 |
 | 7.3     | 7.3 - 8.1 |

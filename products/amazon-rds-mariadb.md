@@ -9,10 +9,10 @@ releasePolicyLink: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaD
 
 auto:
   methods:
-  -   rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+    - rds: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
       regex: '(?P<version>\d+(\.\d+)*)'
       template: "{{version}}"
-  -   release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
+    - release_table: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html
       selector: "#rds-mariadb-version-release-calendar table"
       fields:
         releaseCycle:
@@ -21,42 +21,41 @@ auto:
         eol: "RDS end of standard support date"
 
 releases:
--   releaseCycle: "11.4"
+  - releaseCycle: "11.4"
     releaseDate: 2024-10-15
     eol: 2029-05-31
     latest: "11.4.7"
     latestReleaseDate: 2025-06-04
 
--   releaseCycle: "10.11"
+  - releaseCycle: "10.11"
     releaseDate: 2023-08-21
     eol: 2028-02-29
     latest: "10.11.13"
     latestReleaseDate: 2025-06-04
 
--   releaseCycle: "10.6"
+  - releaseCycle: "10.6"
     releaseDate: 2022-02-03
     eol: 2026-07-31
     latest: "10.6.22"
     latestReleaseDate: 2025-05-20
 
--   releaseCycle: "10.5"
+  - releaseCycle: "10.5"
     releaseDate: 2021-01-21
     eol: 2026-02-28
     latest: "10.5.29"
     latestReleaseDate: 2025-05-20
 
--   releaseCycle: "10.4"
+  - releaseCycle: "10.4"
     releaseDate: 2020-04-06
     eol: 2025-02-28
     latest: "10.4.34"
     latestReleaseDate: 2024-06-14
 
--   releaseCycle: "10.3"
+  - releaseCycle: "10.3"
     releaseDate: 2018-10-23
     eol: 2023-10-23
     latest: "10.3.39"
     latestReleaseDate: 2023-06-15
-
 ---
 
 > [Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb) is a PaaS offering from Amazon for

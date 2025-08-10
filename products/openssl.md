@@ -11,15 +11,15 @@ eolColumn: Supported
 eoesColumn: Premium support
 
 identifiers:
--   repology: openssl
--   cpe: cpe:/a:openssl:openssl
--   cpe: cpe:2.3:a:openssl:openssl
+  - repology: openssl
+  - cpe: cpe:/a:openssl:openssl
+  - cpe: cpe:2.3:a:openssl:openssl
 
 auto:
   methods:
-  -   git: https://github.com/openssl/openssl.git
+    - git: https://github.com/openssl/openssl.git
       regex: '^[o|O]pen[s|S][s|S][l|L][-|_](?P<major>\d+)[\.|_](?P<minor>\d+)[\.|_](?P<patch>\d+\w{0,2})?$'
-  -   release_table: https://openssl-library.org/source/index.html
+    - release_table: https://openssl-library.org/source/index.html
       selector: "table"
       fields:
         releaseCycle:
@@ -30,7 +30,7 @@ auto:
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
--   releaseCycle: "3.5"
+  - releaseCycle: "3.5"
     lts: true
     releaseDate: 2025-04-08
     eol: 2030-04-08 # documented on https://openssl-library.org/source/
@@ -38,31 +38,31 @@ releases:
     latestReleaseDate: 2025-08-05
     link: https://github.com/openssl/openssl/blob/master/CHANGES.md#openssl-35
 
--   releaseCycle: "3.4"
+  - releaseCycle: "3.4"
     releaseDate: 2024-10-22
     eol: 2026-10-22
     latest: "3.4.2"
     latestReleaseDate: 2025-07-01
 
--   releaseCycle: "3.3"
+  - releaseCycle: "3.3"
     releaseDate: 2024-04-09
     eol: 2026-04-09
     latest: "3.3.4"
     latestReleaseDate: 2025-07-01
 
--   releaseCycle: "3.2"
+  - releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
     latest: "3.2.5"
     latestReleaseDate: 2025-07-01
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
     latest: "3.1.8"
     latestReleaseDate: 2025-02-11
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
@@ -70,7 +70,7 @@ releases:
     latest: "3.0.17"
     latestReleaseDate: 2025-07-01
 
--   releaseCycle: "1.1.1"
+  - releaseCycle: "1.1.1"
     lts: true
     releaseDate: 2018-09-11
     eol: 2023-09-11
@@ -79,14 +79,14 @@ releases:
     latestReleaseDate: 2023-09-12
     link: https://openssl-library.org/news/vulnerabilities-1.1.1/
 
--   releaseCycle: "1.1.0"
+  - releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
     eol: 2019-09-11
     latest: "1.1.0l"
     latestReleaseDate: 2019-09-10
     link: https://openssl-library.org/news/vulnerabilities-1.1.0/
 
--   releaseCycle: "1.0.2"
+  - releaseCycle: "1.0.2"
     lts: true
     releaseDate: 2015-01-22
     eol: 2019-12-31
@@ -95,27 +95,26 @@ releases:
     latestReleaseDate: 2019-12-20
     link: https://openssl-library.org/news/vulnerabilities-1.0.2/
 
--   releaseCycle: "1.0.1"
+  - releaseCycle: "1.0.1"
     releaseDate: 2012-03-14
     eol: 2016-12-31
     latest: "1.0.1u"
     latestReleaseDate: 2016-09-22
     link: https://openssl-library.org/news/vulnerabilities-1.0.1/
 
--   releaseCycle: "1.0.0"
+  - releaseCycle: "1.0.0"
     releaseDate: 2010-03-29
     eol: 2015-12-31
     latest: "1.0.0t"
     latestReleaseDate: 2015-12-03
     link: https://openssl-library.org/news/vulnerabilities-1.0.0/
 
--   releaseCycle: "0.9.8"
+  - releaseCycle: "0.9.8"
     releaseDate: 2005-07-05
     eol: 2015-12-31
     latest: "0.9.8zh"
     latestReleaseDate: 2015-12-03
     link: https://openssl-library.org/news/vulnerabilities-0.9.8/
-
 ---
 
 > [OpenSSL](https://openssl-library.org/) is a software library for applications that secure

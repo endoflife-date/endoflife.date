@@ -10,24 +10,23 @@ changelogTemplate: https://github.com/backdrop/backdrop/releases/tag/__LATEST__
 
 # eol(x) = releaseDate(x+2)
 releases:
--   releaseCycle: "1.29"
+  - releaseCycle: "1.29"
     releaseDate: 2024-09-15
     eol: false
     latest: "1.29.1"
     latestReleaseDate: 2024-10-06
 
--   releaseCycle: "1.28"
+  - releaseCycle: "1.28"
     releaseDate: 2024-05-15
     eol: false
     latest: "1.28.3"
     latestReleaseDate: 2024-09-15
 
--   releaseCycle: "1.27"
+  - releaseCycle: "1.27"
     releaseDate: 2024-01-15
     eol: 2024-09-15
     latest: "1.27.3"
     latestReleaseDate: 2024-07-03
-
 ---
 
 > [Backdrop](https://backdropcms.org/) is a free and open-source content management framework written in PHP. It is a fork of Drupal 7.

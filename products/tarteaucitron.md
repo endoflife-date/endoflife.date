@@ -11,12 +11,11 @@ auto:
     - git: https://github.com/AmauriC/tarteaucitron.js.git
 
 releases:
--   releaseCycle: "1"
+  - releaseCycle: "1"
     releaseDate: 2018-08-28
     eol: false
     latest: "1.22.0"
     latestReleaseDate: 2025-07-03
-
 ---
 
 > [tarteaucitron](https://tarteaucitron.io/en/) is a JavaScript cookie banner library.

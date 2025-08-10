@@ -22,97 +22,96 @@ eolColumn: Security Updates
 # - https://security.samsungmobile.com/workScope.smsb (eol status)
 # - https://doc.samsungmobile.com/ (link - search on Google with "<model> site:doc.samsungmobile.com")
 releases:
--   releaseCycle: "galaxy-watch-ultra"
+  - releaseCycle: "galaxy-watch-ultra"
     releaseLabel: "Galaxy Watch Ultra"
     releaseDate: 2024-07-24
     eoas: false
     eol: false
     link: https://www.samsung.com/us/watches/galaxy-watch-ultra/
 
--   releaseCycle: "galaxy-watch7"
+  - releaseCycle: "galaxy-watch7"
     releaseLabel: "Galaxy Watch7"
     releaseDate: 2024-07-24
     eoas: false
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_7
 
--   releaseCycle: "galaxy-watch-fe"
+  - releaseCycle: "galaxy-watch-fe"
     releaseLabel: "Galaxy Watch FE"
     releaseDate: 2024-06-24
     eoas: 2028-12-31
     eol: false
     link: https://www.samsung.com/us/watches/galaxy-watch-fe/
 
--   releaseCycle: "galaxy-watch6-classic"
+  - releaseCycle: "galaxy-watch6-classic"
     releaseLabel: "Galaxy Watch6 Classic"
     releaseDate: 2023-08-11
     eoas: 2027-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_6
 
--   releaseCycle: "galaxy-watch6"
+  - releaseCycle: "galaxy-watch6"
     releaseLabel: "Galaxy Watch6"
     releaseDate: 2023-08-11
     eoas: 2027-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_6
 
--   releaseCycle: "galaxy-watch5-pro"
+  - releaseCycle: "galaxy-watch5-pro"
     releaseLabel: "Galaxy Watch5 Pro"
     releaseDate: 2022-08-26
     eoas: 2026-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_5
 
--   releaseCycle: "galaxy-watch5"
+  - releaseCycle: "galaxy-watch5"
     releaseLabel: "Galaxy Watch5"
     releaseDate: 2022-08-26
     eoas: 2026-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_5
 
--   releaseCycle: "galaxy-watch4-classic"
+  - releaseCycle: "galaxy-watch4-classic"
     releaseLabel: "Galaxy Watch4 Classic"
     releaseDate: 2021-08-27
     eoas: 2025-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_4
 
--   releaseCycle: "galaxy-watch4"
+  - releaseCycle: "galaxy-watch4"
     releaseLabel: "Galaxy Watch4"
     releaseDate: 2021-08-27
     eoas: 2025-12-31
     eol: false
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_4
 
--   releaseCycle: "galaxy-watch3"
+  - releaseCycle: "galaxy-watch3"
     releaseLabel: "Galaxy Watch3"
     releaseDate: 2020-08-06
     eoas: true
     eol: true
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_3
 
--   releaseCycle: "galaxy-watch-active2"
+  - releaseCycle: "galaxy-watch-active2"
     releaseLabel: "Galaxy Watch Active2"
     releaseDate: 2019-09-13
     eoas: true
     eol: true
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_Active_2
 
--   releaseCycle: "galaxy-watch-active"
+  - releaseCycle: "galaxy-watch-active"
     releaseLabel: "Galaxy Watch Active"
     releaseDate: 2019-03-08
     eoas: true
     eol: true
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch_Active
 
--   releaseCycle: "galaxy-watch"
+  - releaseCycle: "galaxy-watch"
     releaseLabel: "Galaxy Watch"
     releaseDate: 2018-08-08
     eoas: true
     eol: true
     link: https://wikipedia.org/wiki/Samsung_Galaxy_Watch
-
 ---
 
 > The [Samsung Galaxy Watch](https://www.samsung.com/us/watches/) series is a line of smartwatches designed and produced

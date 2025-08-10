@@ -5,12 +5,12 @@ category: server-app
 tags: microsoft
 permalink: /sharepoint
 alternate_urls:
--   /mssharepoint
+  - /mssharepoint
 releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=SharePoint%20Server
 eoasColumn: true
 
 releases:
--   releaseCycle: "subscription"
+  - releaseCycle: "subscription"
     releaseLabel: "Subscription Edition"
     releaseDate: 2021-11-02
     eoas: false
@@ -19,7 +19,7 @@ releases:
     latestReleaseDate: 2025-07-08
     link: https://support.microsoft.com/help/5002751
 
--   releaseCycle: "2019"
+  - releaseCycle: "2019"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
     eol: 2026-07-14
@@ -27,7 +27,7 @@ releases:
     latestReleaseDate: 2025-07-08
     link: https://support.microsoft.com/help/5002741
 
--   releaseCycle: "2016"
+  - releaseCycle: "2016"
     releaseDate: 2016-05-01
     eoas: 2021-07-13
     eol: 2026-07-14
@@ -35,7 +35,7 @@ releases:
     latestReleaseDate: 2025-07-08
     link: https://support.microsoft.com/help/5002744
 
--   releaseCycle: "2013"
+  - releaseCycle: "2013"
     releaseLabel: "2013 SP1"
     releaseDate: 2013-01-09
     eoas: 2018-04-10
@@ -44,7 +44,7 @@ releases:
     latestReleaseDate: 2023-04-11
     link: https://support.microsoft.com/help/5002379
 
--   releaseCycle: "2010"
+  - releaseCycle: "2010"
     releaseLabel: "2010 SP2"
     releaseDate: 2010-07-05
     eoas: 2015-10-13
@@ -53,7 +53,7 @@ releases:
     latestReleaseDate: 2021-04-13
     link: https://support.microsoft.com/help/4504709
 
--   releaseCycle: "2007"
+  - releaseCycle: "2007"
     releaseLabel: "2007 SP3"
     releaseDate: 2007-01-27
     eoas: 2012-10-09
@@ -61,7 +61,6 @@ releases:
     latest: "12.0.6690.5000"
     latestReleaseDate: 2014-05-13
     link: https://support.microsoft.com/topic/70d30e40-2571-df91-5994-8109c8bc0f8b
-
 ---
 
 > [Microsoft SharePoint Server](https://en.wikipedia.org/wiki/SharePoint) is a web-based collaborative

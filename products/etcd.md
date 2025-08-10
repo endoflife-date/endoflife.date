@@ -10,62 +10,61 @@ releasePolicyLink: https://github.com/etcd-io/etcd/blob/main/Documentation/contr
 changelogTemplate: https://github.com/etcd-io/etcd/releases/tag/v__LATEST__
 
 identifiers:
--   repology: etcd
--   purl: pkg:docker/bitnami/etcd
--   purl: pkg:oci/etcd?repository_url=quay.io/repository/coreos
--   purl: pkg:oci/etcd?repository_url=gcr.io/etcd-development
--   purl: pkg:github/etcd-io/etcd
--   purl: pkg:golang/github.com/etcd-io/etcd
+  - repology: etcd
+  - purl: pkg:docker/bitnami/etcd
+  - purl: pkg:oci/etcd?repository_url=quay.io/repository/coreos
+  - purl: pkg:oci/etcd?repository_url=gcr.io/etcd-development
+  - purl: pkg:github/etcd-io/etcd
+  - purl: pkg:golang/github.com/etcd-io/etcd
 
 auto:
   methods:
-  -   git: https://github.com/etcd-io/etcd.git
+    - git: https://github.com/etcd-io/etcd.git
 
 # tentative rule:
 # eol(x) = max(latestReleaseDate(x), releaseDate(x+2))
 releases:
--   releaseCycle: "3.6"
+  - releaseCycle: "3.6"
     releaseDate: 2025-05-15
     eol: false
-    latest: '3.6.4'
+    latest: "3.6.4"
     latestReleaseDate: 2025-07-25
 
--   releaseCycle: "3.5"
+  - releaseCycle: "3.5"
     releaseDate: 2021-06-15
     eol: false
-    latest: '3.5.22'
+    latest: "3.5.22"
     latestReleaseDate: 2025-07-23
 
--   releaseCycle: "3.4"
+  - releaseCycle: "3.4"
     releaseDate: 2019-08-30
     eol: 2025-05-15 # releaseDate(3.6)
-    latest: '3.4.37'
+    latest: "3.4.37"
     latestReleaseDate: 2025-04-16
 
--   releaseCycle: "3.3"
+  - releaseCycle: "3.3"
     releaseDate: 2018-02-01
     eol: 2021-10-15 # latestReleaseDate(3.3)
-    latest: '3.3.27'
+    latest: "3.3.27"
     latestReleaseDate: 2021-10-15
 
--   releaseCycle: "3.2"
+  - releaseCycle: "3.2"
     releaseDate: 2017-06-09
     eol: 2021-03-28 # latestReleaseDate(3.2)
-    latest: '3.2.32'
+    latest: "3.2.32"
     latestReleaseDate: 2021-03-28
 
--   releaseCycle: "3.1"
+  - releaseCycle: "3.1"
     releaseDate: 2017-01-20
     eol: 2018-10-10 # latestReleaseDate(3.1)
-    latest: '3.1.20'
+    latest: "3.1.20"
     latestReleaseDate: 2018-10-10
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2016-06-30
     eol: 2017-01-20 # latestReleaseDate(3.0)
-    latest: '3.0.17'
+    latest: "3.0.17"
     latestReleaseDate: 2017-01-20
-
 ---
 
 > [etcd](https://etcd.io) is an open-source, strongly consistent and distributed
