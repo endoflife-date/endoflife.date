@@ -18,16 +18,17 @@ identifiers:
 auto:
   methods:
     - debian: https://salsa.debian.org/webmaster-team/webwml.git
-    - release_table: https://wiki.debian.org/DebianReleases
+    - release_table: https://www.debian.org/releases/index.en.html
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       # 'EOL LTS' cannot be mapped because it would exclude rows with no EOL LTS date because cells missing LTS dates
       # are entirely absent, rather than being added as empty.
       fields:
         releaseCycle: "Version"
-        eol:
-          column: "End of life date"
-          regex: '~?(?P<value>\d{4}-\d{2}(-\d{2})?)'
+        codename: "Code Name"
+        releaseDate: "Release Date"
+        eol: "End of Life (EOL)"
+        eoes: "End of LTS"
 
 releases:
   - releaseCycle: "13"
