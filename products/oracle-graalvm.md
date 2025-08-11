@@ -25,6 +25,13 @@ auto:
         #releaseDate: "GA Date" # release dates are approximate, using versions instead.
         eol: "Premier Support Until"
         eoes: "Extended Support Until"
+    - release_table: https://www.graalvm.org/release-calendar/
+      selector: "table"
+      fields:
+        releaseCycle:
+          column: "Oracle GraalVM"
+          regex: '^(?P<value>\d+)$' # only target Feature releases
+        releaseDate: "Date"
 
 # Release dates can be found on both https://www.graalvm.org/release-calendar/ and https://docs.oracle.com/en/graalvm/release-calendar.html.
 # For non-LTS, eol(x) = releaseDate(x+1).
