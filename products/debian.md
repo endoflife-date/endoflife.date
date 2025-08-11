@@ -33,8 +33,8 @@ releases:
   - releaseCycle: "13"
     codename: "Trixie"
     releaseDate: 2025-08-09
-    eol: false # not announced yet
-    eoes: false # not announced yet
+    eol: 2028-08-09
+    eoes: 2030-06-30
     link: https://www.debian.org/News/2025/20250809
     latest: "13.0"
     latestReleaseDate: 2025-08-09
@@ -43,7 +43,7 @@ releases:
     codename: "Bookworm"
     releaseDate: 2023-06-10
     eol: 2026-06-10
-    eoes: 2028-06-10
+    eoes: 2028-06-30
     link: https://www.debian.org/News/2025/20250517
     latest: "12.11"
     latestReleaseDate: 2025-05-17
