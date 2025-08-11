@@ -3,9 +3,9 @@ name: Lint
 on:
   workflow_dispatch: # Manually run workflow.
   push:
-    branches: [ 'master' ]
+    branches: ["master"]
   pull_request:
-    branches: [ 'master' ]
+    branches: ["master"]
 
 jobs:
   lint:
@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: "npm"
 
       - name: Setup ruby
         uses: ruby/setup-ruby@2a7b30092b0caf9c046252510f9273b4875f3db9 # v1
@@ -30,3 +30,11 @@ jobs:
 
       - name: Validate OpenAPI specification
         run: npx @quobix/vacuum@latest lint --details --no-style --no-banner --all-results _site/docs/api/v1/openapi.yml
+
+      - name: Validate Markdown files
+        run: npx markdownlint-cli2@latest '**/*.md' '!node_modules' '!vendor'
+        continue-on-error: true
+
+      - name: Validate Formatting
+        run: npx prettier@latest --check .
+        continue-on-error: true

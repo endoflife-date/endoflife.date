@@ -1,3 +1,5 @@
+# endoflife.date API Changelog
+
 ## API v1.2.0
 
 - Introduce a new `/identifiers/{identifier}` API ([#7361](https://github.com/endoflife-date/endoflife.date/pull/7361))
@@ -35,7 +37,7 @@ v1:
   WebComponent](https://github.com/stoplightio/elements/blob/main/docs/getting-started/elements/html.md) (#905),
 - but reverts #2425 due to incompatibilities in redirect rules.
 
-The API v1 is now generated using a Jekyll Generator (see https://jekyllrb.com/docs/plugins/generators/)
+The API v1 is now generated using a Jekyll Generator (see <https://jekyllrb.com/docs/plugins/generators/>)
 instead of a custom script.
 
 Note that the API v0 is still generated to give time to users to migrate to API v1. It will be

@@ -13,7 +13,7 @@ info:
   version: "1.2.0"
   license:
     name: MIT License
-    url: 'https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE'
+    url: "https://github.com/endoflife-date/endoflife.date/blob/master/LICENSE"
   contact:
     name: endoflife.date team
     url: https://github.com/endoflife-date/endoflife.date
@@ -21,20 +21,77 @@ info:
     endoflife.date documents EOL dates and support lifecycles for various products.
     The endoflife API allows users to discover and query for those products.
 
+    ## General Notes
 
-    This API documentation is available at {{ site.url }}/docs/api/v1.
-    The API changelog is available at https://github.com/endoflife-date/endoflife.date/blob/master/CHANGELOG_API.md.
+    ### API changelog
+
+    A changelog of the endoflife.date API is available in the [endoflife.date repository](https://github.com/endoflife-date/endoflife.date/blob/master/CHANGELOG_API.md).
+
+    ### Backward compatibility
+
+    The endoflife.date API is designed to be backward compatible, meaning that existing clients should continue to work
+    with new versions of the API as long as your integration:
+
+    - keep using the same major API version (`/api/v1`),
+
+    - follow the 301 redirects (products, categories or tags may occasionally be renamed),
+
+    - allow for new fields to be added in API responses (we may add new fields to support new features),
+
+    - allow for new values to be added in enumeration fields (such as the product's category).
+
+    ### Undocumented attributes
+
+    Some APIs may return more data than indicated in the documentation.
+    Do not rely on this undocumented data, there is no guarantee about it.
+
+    ### API return codes
+
+    The endoflife.date API uses standard HTTP return codes.
 
 
-    Some useful links:
+    When making HTTP requests, you can check the success or failure status of your request by using the HTTP Status Codes (i.e. 200).
+    You must not use the HTTP Status Messages or Reason-Phrases (i.e. OK), as they are optional and may not be returned in HTTP responses (see RFC9110 for more information).
 
-    - [The endoflife.date website](https://endoflife.date/)
+    The API may return the following HTTP status codes:
 
-    - [The endoflife.date repository](https://github.com/endoflife-date/endoflife.date)
+    - `200` (**OK**): The request was successful, and the response contains the requested data.
 
-    - [The endoflife.date issue tracker](https://github.com/endoflife-date/endoflife.date/issues/)
+    - `301` (**Moved Permanently**): The requested resource has been moved to a new URL.
+       The response will contain a `Location` header with the new URL.
+       This header must be followed by the client to access the resource at its new location.
 
-    - [The source API definition](https://github.com/endoflife-date/endoflife.date/blob/master/assets/openapi.yml)
+    - `304` (**Not Modified**): The resource has not been modified since the last request,
+       and the client can use its cached version.
+
+    - `404` (**Not Found**): The requested resource does not exist.
+       Note that due to some limitations the body of the response is not JSON, but our HTML error page.
+       This is not something we can change at the moment, see [#7922](https://github.com/endoflife-date/endoflife.date/issues/7922).
+
+    - `429` (**Too Many Requests**): The client has sent too many requests in a given amount of time.
+       The response may contain a `Retry-After` header indicating when the client can retry the request.
+       This is to prevent abuse of the API and ensure fair usage for all users.
+
+    Our API is hosted on [Netlify](https://www.netlify.com/), other HTTP status codes may be returned by Netlify,
+    such as `502` (**Bad Gateway**) or `503` (**Service Unavailable**).
+
+    ### Encoding
+
+    The endoflife.date API uses UTF-8 encoding for all responses.
+
+    ### Contact us
+
+    If you have any questions or need assistance with the endoflife.date API, you can contact us through the
+    [endoflife.date discussions](https://github.com/endoflife-date/endoflife.date/discussions).
+
+
+    If you find a bug or have a feature request, please open an issue in the
+    [endoflife.date issue tracker](https://github.com/endoflife-date/endoflife.date/issues).
+
+
+    We are always looking for contributors to help us improve endoflife.date. If you want to contribute,
+    please check our [contributing guidelines](https://endoflife.date/contribute).
+
 
 servers:
   - url: "{{ site.url }}/api/v1"
@@ -61,16 +118,16 @@ paths:
       summary: API index
       description: List the main endoflife.date API endpoints.
       responses:
-        '200':
+        "200":
           description: The endpoints list.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UriListResponse'
-        '304':
+                $ref: "#/components/schemas/UriListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /products:
@@ -83,16 +140,16 @@ paths:
         List all the products referenced on endoflife.date.
         Only a summary of each product is returned by this endpoint.
       responses:
-        '200':
+        "200":
           description: A products summary list.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductListResponse'
-        '304':
+                $ref: "#/components/schemas/ProductListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /products/full:
@@ -107,16 +164,16 @@ paths:
         endoflife.date data. Preferably, use the /products endpoint to get a summary of the products
         and reduce the amount of data transferred.
       responses:
-        '200':
+        "200":
           description: A products list with all the information.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/FullProductListResponse'
-        '304':
+                $ref: "#/components/schemas/FullProductListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /products/{product}:
@@ -136,18 +193,18 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: The given product description.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductResponse'
-        '304':
+                $ref: "#/components/schemas/ProductResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The product with the given name does not exist.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /products/{product}/releases/{release}:
@@ -171,18 +228,18 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: The given product release cycle information.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductReleaseResponse'
-        '304':
+                $ref: "#/components/schemas/ProductReleaseResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The product with the given name does not exist, or the given release cycle does not exist within the product.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /products/{product}/releases/latest:
@@ -200,18 +257,18 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: The given product latest release cycle information.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductReleaseResponse'
-        '304':
+                $ref: "#/components/schemas/ProductReleaseResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The product with the given name does not exist.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /categories:
@@ -222,16 +279,16 @@ paths:
       summary: List all categories
       description: List all endoflife.date categories.
       responses:
-        '200':
+        "200":
           description: The list of all categories.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UriListResponse'
-        '304':
+                $ref: "#/components/schemas/UriListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /categories/{category}:
@@ -251,18 +308,18 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: The list of all products in the given category.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductListResponse'
-        '304':
+                $ref: "#/components/schemas/ProductListResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The category with the given name does not exist.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /tags:
@@ -273,16 +330,16 @@ paths:
       summary: List all tags
       description: List all endoflife.date tags.
       responses:
-        '200':
+        "200":
           description: The list of all tags.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UriListResponse'
-        '304':
+                $ref: "#/components/schemas/UriListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /tags/{tag}:
@@ -302,18 +359,18 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: The list of all products having the given tag.
-          headers: { }
+          headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ProductListResponse'
-        '304':
+                $ref: "#/components/schemas/ProductListResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The tag with the given name does not exist.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /identifiers:
@@ -324,16 +381,16 @@ paths:
       summary: List all identifier types
       description: List all identifier types, such as a purl, known in endoflife.date.
       responses:
-        '200':
+        "200":
           description: The list of all identifier types.
           headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UriListResponse'
-        '304':
+                $ref: "#/components/schemas/UriListResponse"
+        "304":
           description: Resource not modified since last request.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
   /identifiers/{identifier_type}:
@@ -354,18 +411,18 @@ paths:
             type: string
             example: purl
       responses:
-        '200':
+        "200":
           description: The list of all identifiers for a given type, along with a reference to the related product.
           headers: {}
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/IdentifierListResponse'
-        '304':
+                $ref: "#/components/schemas/IdentifierListResponse"
+        "304":
           description: Resource not modified since last request.
-        '404':
+        "404":
           description: The identifier with the given name does not exist.
-        '429':
+        "429":
           description: Too many requests, retry later.
 
 # Responses must be at the end of the list, contain a schema_version property and be suffixed with
@@ -607,7 +664,7 @@ components:
 
             This field is null when this release cycle does not have a latest version documented.
           anyOf:
-            - $ref: '#/components/schemas/ProductVersion'
+            - $ref: "#/components/schemas/ProductVersion"
             - type: "null"
         custom:
           description: >
@@ -615,7 +672,7 @@ components:
 
             This field is null when the product does not declare at least one custom fields.
           anyOf:
-            - $ref: '#/components/schemas/UnknownProperties'
+            - $ref: "#/components/schemas/UnknownProperties"
             - type: "null"
           examples:
             - { "chromeVersion": "M136", "nodeVersion": "22.15" }
@@ -650,7 +707,7 @@ components:
           items:
             type: string
           examples:
-            - [ "ubuntu-linux" ]
+            - ["ubuntu-linux"]
         category:
           description: Category of the product.
           type: string
@@ -666,7 +723,7 @@ components:
           items:
             type: string
           examples:
-            - [ "canonical", "os" ]
+            - ["canonical", "os"]
         uri:
           description: Link to the full product details.
           type: string
@@ -707,7 +764,7 @@ components:
           items:
             type: string
           examples:
-            - [ "ubuntu-linux" ]
+            - ["ubuntu-linux"]
         category:
           description: Category of the product.
           type: string
@@ -723,7 +780,7 @@ components:
           items:
             type: string
           examples:
-            - [ "canonical", "os" ]
+            - ["canonical", "os"]
         # Additional properties (compared to ProductSummary)
         versionCommand:
           description: >
@@ -742,7 +799,7 @@ components:
             The array is empty when no identifier is declared.
           type: array
           items:
-            $ref: '#/components/schemas/Identifier'
+            $ref: "#/components/schemas/Identifier"
         labels:
           description: Product labels.
           type: object
@@ -822,7 +879,7 @@ components:
           description: A list of all product releases.
           type: array
           items:
-            $ref: '#/components/schemas/ProductRelease'
+            $ref: "#/components/schemas/ProductRelease"
 
     UriListResponse:
       description: A response containing a list of URIs.
@@ -847,7 +904,7 @@ components:
           description: The URIs.
           type: array
           items:
-            $ref: '#/components/schemas/Uri'
+            $ref: "#/components/schemas/Uri"
 
     ProductListResponse:
       description: A response containing a list of products (summary).
@@ -872,7 +929,7 @@ components:
           description: The products.
           type: array
           items:
-            $ref: '#/components/schemas/ProductSummary'
+            $ref: "#/components/schemas/ProductSummary"
 
     FullProductListResponse:
       description: A response containing a list of products (full).
@@ -897,7 +954,7 @@ components:
           description: The products.
           type: array
           items:
-            $ref: '#/components/schemas/ProductDetails'
+            $ref: "#/components/schemas/ProductDetails"
 
     ProductReleaseResponse:
       description: A response containing a release cycle.
@@ -912,7 +969,7 @@ components:
           examples:
             - "1.0.0"
         result:
-          $ref: '#/components/schemas/ProductRelease'
+          $ref: "#/components/schemas/ProductRelease"
 
     ProductResponse:
       description: A response containing a product.
@@ -934,7 +991,7 @@ components:
           examples:
             - "2023-03-01T14:05:52+01:00"
         result:
-          $ref: '#/components/schemas/ProductDetails'
+          $ref: "#/components/schemas/ProductDetails"
 
     IdentifierListResponse:
       description: A response containing all identifiers for a given type.
@@ -965,9 +1022,9 @@ components:
                 type: string
                 description: The identifier.
                 examples:
-                - cpe:/o:canonical:ubuntu_linux
+                  - cpe:/o:canonical:ubuntu_linux
               product:
-                $ref: '#/components/schemas/Uri'
+                $ref: "#/components/schemas/Uri"
                 description: Reference to the product this identifier is related to.
             required:
               - identifier

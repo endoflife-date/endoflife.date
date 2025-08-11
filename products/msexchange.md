@@ -9,11 +9,11 @@ releasePolicyLink: https://learn.microsoft.com/lifecycle/products/?terms=Exchang
 eoasColumn: true
 
 identifiers:
--   cpe: cpe:/a:microsoft:exchange_server
--   cpe: cpe:2.3:a:microsoft:exchange_server
+  - cpe: cpe:/a:microsoft:exchange_server
+  - cpe: cpe:2.3:a:microsoft:exchange_server
 
 releases:
--   releaseCycle: "subscription"
+  - releaseCycle: "subscription"
     releaseLabel: "Subscription Edition"
     releaseDate: 2025-07-01
     eoas: false
@@ -22,7 +22,7 @@ releases:
     latestReleaseDate: 2025-07-01
     link: https://support.microsoft.com/help/5047155
 
--   releaseCycle: "2019"
+  - releaseCycle: "2019"
     releaseLabel: "2019 CU15 HU2"
     releaseDate: 2018-10-22
     eoas: 2024-01-09
@@ -31,7 +31,7 @@ releases:
     latestReleaseDate: 2025-05-29
     link: https://support.microsoft.com/help/5057651
 
--   releaseCycle: "2016"
+  - releaseCycle: "2016"
     releaseLabel: "2016 CU23 HU16"
     releaseDate: 2015-10-01
     eoas: 2020-10-13
@@ -40,7 +40,7 @@ releases:
     latestReleaseDate: 2025-05-29
     link: https://support.microsoft.com/help/5057653
 
--   releaseCycle: "2013"
+  - releaseCycle: "2013"
     releaseLabel: "2013 CU23 SU21"
     releaseDate: 2013-01-09
     eoas: 2018-04-10
@@ -49,7 +49,7 @@ releases:
     latestReleaseDate: 2023-03-14
     link: https://support.microsoft.com/help/5024296
 
--   releaseCycle: "2010"
+  - releaseCycle: "2010"
     releaseLabel: "2010 SP3 UR32"
     releaseDate: 2009-11-09
     eoas: 2015-01-13
@@ -57,7 +57,7 @@ releases:
     latest: "14.3.513.0"
     latestReleaseDate: 2021-03-02
 
--   releaseCycle: "2007"
+  - releaseCycle: "2007"
     releaseLabel: "2007 SP3 UR23"
     releaseDate: 2007-03-08
     eoas: 2012-04-10
@@ -65,7 +65,7 @@ releases:
     latest: "8.3.517.0"
     latestReleaseDate: 2017-03-21
 
--   releaseCycle: "2003"
+  - releaseCycle: "2003"
     releaseLabel: "2003 SP2"
     releaseDate: 2003-09-28
     eoas: 2009-04-14
@@ -73,7 +73,7 @@ releases:
     latest: "6.5.7654.4"
     latestReleaseDate: 2008-08-01
 
--   releaseCycle: "2000"
+  - releaseCycle: "2000"
     releaseLabel: "2000 SP3"
     releaseDate: 2000-11-29
     eoas: 2005-12-31
@@ -81,7 +81,7 @@ releases:
     latest: "6.0.6620.7"
     latestReleaseDate: 2008-08-01
 
--   releaseCycle: "5.5"
+  - releaseCycle: "5.5"
     releaseLabel: "5.5 SP4"
     releaseDate: 1998-02-03
     eoas: 2003-12-31
@@ -89,7 +89,7 @@ releases:
     latest: "5.5.2653"
     latestReleaseDate: 2000-11-01
 
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseLabel: "5.0 SP2"
     releaseDate: 1997-05-23
     eoas: 2003-12-31
@@ -97,14 +97,13 @@ releases:
     latest: "5.0.1460"
     latestReleaseDate: 1998-02-19
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseLabel: "4.0 SP5"
     releaseDate: 1996-06-11
     eoas: true
     eol: true
     latest: "4.0.996"
     latestReleaseDate: 1998-05-05
-
 ---
 
 > [Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server) is a mail

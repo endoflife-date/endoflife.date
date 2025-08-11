@@ -10,7 +10,7 @@ eolColumn: Standard Support
 eoesColumn: Support Life
 
 releases:
--   releaseCycle: "5.0"
+  - releaseCycle: "5.0"
     releaseDate: 2023-06-01
     eol: 2026-06-01
     eoes: 2028-10-30
@@ -18,20 +18,19 @@ releases:
     latestReleaseDate: 2024-07-30
     link: https://docs.daocloud.io/en/dce/dce-rn/20240730.html
 
--   releaseCycle: "4.0"
+  - releaseCycle: "4.0"
     releaseDate: 2020-03-31
     eol: 2023-03-31
     eoes: 2025-03-31
     latest: "2022.12.15.4.0.11"
     latestReleaseDate: 2022-12-15
 
--   releaseCycle: "3.0"
+  - releaseCycle: "3.0"
     releaseDate: 2018-07-15
     eol: 2021-07-30
     eoes: 2023-07-30
     latest: "2021.12.30.3.0.8"
     latestReleaseDate: 2021-12-30
-
 ---
 
 > [DaoCloud Enterprise (DCE)](https://docs.daocloud.io/en/) is a Kubernetes-based community and commercial

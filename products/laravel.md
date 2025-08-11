@@ -11,22 +11,22 @@ changelogTemplate: https://laravel.com/docs/__RELEASE_CYCLE__.x/releases
 eoasColumn: true
 
 customFields:
--   name: supportedPhpVersions
+  - name: supportedPhpVersions
     display: api-only
     label: PHP
     description: Supported PHP versions
 
 identifiers:
--   purl: pkg:composer/laravel/laravel
--   purl: pkg:docker/bitnami/laravel
--   purl: pkg:github/laravel/framework
--   repology: php:laravel-framework
+  - purl: pkg:composer/laravel/laravel
+  - purl: pkg:docker/bitnami/laravel
+  - purl: pkg:github/laravel/framework
+  - repology: php:laravel-framework
 
 # Note that laravel/laravel is just a starter application.
 auto:
   methods:
-  -   git: https://github.com/laravel/framework.git
-  -   release_table: https://laravel.com/docs/master/releases
+    - git: https://github.com/laravel/framework.git
+    - release_table: https://laravel.com/docs/master/releases
       selector: "table"
       fields:
         releaseCycle:
@@ -44,83 +44,81 @@ auto:
 
 # Remember to update the regex_exclude pattern below when a new major version is released.
 releases:
-
--   releaseCycle: "12"
+  - releaseCycle: "12"
     releaseDate: 2025-02-24
     eoas: 2026-08-16
     eol: 2027-02-24
-    supportedPhpVersions: '8.2 - 8.4'
-    latest: '12.21.0'
-    latestReleaseDate: 2025-07-22
+    supportedPhpVersions: "8.2 - 8.4"
+    latest: "12.22.1"
+    latestReleaseDate: 2025-08-08
 
--   releaseCycle: "11"
+  - releaseCycle: "11"
     releaseDate: 2024-03-12
     eoas: 2025-09-03
     eol: 2026-03-12
-    supportedPhpVersions: '8.2 - 8.4'
-    latest: '11.45.1'
+    supportedPhpVersions: "8.2 - 8.4"
+    latest: "11.45.1"
     latestReleaseDate: 2025-06-03
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2023-02-14
     eoas: 2024-08-06
     eol: 2025-02-04
-    supportedPhpVersions: '8.1 - 8.3'
-    latest: '10.48.29'
+    supportedPhpVersions: "8.1 - 8.3"
+    latest: "10.48.29"
     latestReleaseDate: 2025-03-12
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2022-02-08
     eoas: 2023-08-08
     eol: 2024-02-06
-    supportedPhpVersions: '8.0 - 8.2'
-    latest: '9.52.20'
+    supportedPhpVersions: "8.0 - 8.2"
+    latest: "9.52.20"
     latestReleaseDate: 2025-01-31
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2020-09-08
     eoas: 2022-07-26
     eol: 2023-01-24
     supportedPhpVersions: 7.3 - 8.1
-    latest: '8.83.29'
+    latest: "8.83.29"
     latestReleaseDate: 2024-11-20
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2020-03-03
     eoas: 2020-10-06
     eol: 2021-03-03
     supportedPhpVersions: 7.2 - 8.0
-    latest: '7.30.7'
+    latest: "7.30.7"
     latestReleaseDate: 2024-11-12
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     lts: true
     releaseDate: 2019-09-03
     eoas: 2022-01-25
     eol: 2022-09-06
     supportedPhpVersions: 7.2 - 8.0
-    latest: '6.20.45'
+    latest: "6.20.45"
     latestReleaseDate: 2024-11-12
 
--   releaseCycle: "5.8"
+  - releaseCycle: "5.8"
     releaseDate: 2019-02-26
     eoas: 2019-08-26
     eol: 2020-02-26
     supportedPhpVersions: 7.1 - 7.3
     link: https://laravel.com/docs/5.8/releases
-    latest: '5.8.38'
+    latest: "5.8.38"
     latestReleaseDate: 2020-04-14
 
--   releaseCycle: "5.5"
+  - releaseCycle: "5.5"
     lts: true
     releaseDate: 2017-08-30
     eoas: 2019-08-30
     eol: 2020-08-30
     supportedPhpVersions: 7.0 - 7.1
     link: https://laravel.com/docs/5.5/releases
-    latest: '5.5.50'
+    latest: "5.5.50"
     latestReleaseDate: 2020-08-18
-
 ---
 
 > [Laravel](https://laravel.com/) is a free, open-source PHP web framework, created by Taylor Otwell
@@ -128,6 +126,7 @@ releases:
 > architectural pattern and based on Symfony.
 
 {: .warning }
+
 > This page is tracking the [Laravel framework](https://github.com/laravel/framework), not the
 > [Laravel application](https://github.com/laravel/laravel) which is just the starter application.
 

@@ -11,14 +11,14 @@ changelogTemplate: https://www.mediawiki.org/wiki/Release_notes/__RELEASE_CYCLE_
 eolColumn: End-of-Life
 
 identifiers:
--   repology: mediawiki
--   cpe: cpe:/a:mediawiki:mediawiki
--   cpe: cpe:2.3:a:mediawiki:mediawiki
+  - repology: mediawiki
+  - cpe: cpe:/a:mediawiki:mediawiki
+  - cpe: cpe:2.3:a:mediawiki:mediawiki
 
 auto:
   methods:
-  -   git: https://github.com/wikimedia/mediawiki.git
-  -   release_table: https://www.mediawiki.org/wiki/Version_lifecycle
+    - git: https://github.com/wikimedia/mediawiki.git
+    - release_table: https://www.mediawiki.org/wiki/Version_lifecycle
       selector: "table"
       header_selector: "tr:nth-of-type(1)"
       fields:
@@ -29,88 +29,88 @@ auto:
         eol: "End-of-life"
 
 releases:
--   releaseCycle: "1.44"
+  - releaseCycle: "1.44"
     releaseDate: 2025-07-02
     eol: 2026-06-30
     latest: "1.44.0"
     latestReleaseDate: 2025-07-02
 
--   releaseCycle: "1.43"
+  - releaseCycle: "1.43"
     releaseDate: 2024-12-21
     lts: true
     eol: 2027-12-31
     latest: "1.43.3"
     latestReleaseDate: 2025-07-01
 
--   releaseCycle: "1.42"
+  - releaseCycle: "1.42"
     releaseDate: 2024-06-27
     eol: 2025-06-30
     latest: "1.42.7"
     latestReleaseDate: 2025-06-30
 
--   releaseCycle: "1.41"
+  - releaseCycle: "1.41"
     releaseDate: 2023-12-21
     eol: 2024-12-31
     latest: "1.41.5"
     latestReleaseDate: 2024-12-20
 
--   releaseCycle: "1.40"
+  - releaseCycle: "1.40"
     releaseDate: 2023-06-30
     eol: 2024-06-28
     latest: "1.40.4"
     latestReleaseDate: 2024-06-27
 
--   releaseCycle: "1.39"
+  - releaseCycle: "1.39"
     eol: 2025-11-30
     latest: "1.39.13"
     latestReleaseDate: 2025-06-30
     releaseDate: 2022-11-30
     lts: true
 
--   releaseCycle: "1.38"
+  - releaseCycle: "1.38"
     eol: 2023-06-30
     latest: "1.38.7"
     latestReleaseDate: 2023-06-30
     releaseDate: 2022-06-02
 
--   releaseCycle: "1.37"
+  - releaseCycle: "1.37"
     eol: 2022-11-30
     latest: "1.37.6"
     latestReleaseDate: 2022-09-29
     releaseDate: 2021-11-18
 
--   releaseCycle: "1.36"
+  - releaseCycle: "1.36"
     eol: 2022-06-03
     latest: "1.36.4"
     latestReleaseDate: 2022-03-31
     releaseDate: 2021-05-28
 
--   releaseCycle: "1.35"
+  - releaseCycle: "1.35"
     lts: true
     eol: 2023-12-21
     latest: "1.35.14"
     latestReleaseDate: 2023-12-21
     releaseDate: 2020-09-25
 
--   releaseCycle: "1.34"
+  - releaseCycle: "1.34"
     eol: 2020-11-30
     latest: "1.34.4"
     latestReleaseDate: 2020-09-24
     releaseDate: 2019-12-19
 
--   releaseCycle: "1.33"
+  - releaseCycle: "1.33"
     eol: 2020-06-30
     latest: "1.33.4"
     latestReleaseDate: 2020-06-24
     releaseDate: 2019-07-02
 
--   releaseCycle: "1.32"
+  - releaseCycle: "1.32"
     eol: 2020-01-24
     latest: "1.32.6"
     latestReleaseDate: 2019-12-19
     releaseDate: 2019-01-10
 
--   releaseCycle: "1.31"
+  - releaseCycle: "1.31"
     lts: true
     eol: 2021-09-30
     latest: "1.31.16"

@@ -12,16 +12,16 @@ changelogTemplate: "https://learn.microsoft.com/java/openjdk/release-notes#openj
 # There is one repository for each major LTS release.
 auto:
   methods:
-  -   git: "https://github.com/microsoft/openjdk-jdk11u.git"
+    - git: "https://github.com/microsoft/openjdk-jdk11u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/microsoft/openjdk-jdk17u.git"
+      template: "{{version}}"
+    - git: "https://github.com/microsoft/openjdk-jdk17u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
-      template: '{{version}}'
-  -   git: "https://github.com/microsoft/openjdk-jdk21u.git"
+      template: "{{version}}"
+    - git: "https://github.com/microsoft/openjdk-jdk21u.git"
       regex: '^jdk-(?P<version>[\d\.]+)-ga$'
-      template: '{{version}}'
-  -   release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
+      template: "{{version}}"
+    - release_table: https://learn.microsoft.com/en-us/java/openjdk/support#release-and-servicing-roadmap
       selector: "table"
       fields:
         releaseCycle:
@@ -31,28 +31,27 @@ auto:
 
 # Remember to update the "auto" configuration on each new major release.
 releases:
--   releaseCycle: "21"
+  - releaseCycle: "21"
     lts: true
     releaseDate: 2023-09-19
     eol: 2028-09-30
     latest: "21.0.8"
     latestReleaseDate: 2025-07-09
 
--   releaseCycle: "17"
+  - releaseCycle: "17"
     lts: true
     releaseDate: 2021-09-14
     eol: 2027-09-30
     latest: "17.0.16"
     latestReleaseDate: 2025-07-09
 
-# First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
--   releaseCycle: "11"
+  # First GA is https://github.com/microsoft/openjdk-jdk11u/releases/tag/jdk-11.0.2-ga
+  - releaseCycle: "11"
     lts: true
     releaseDate: 2019-01-21
     eol: 2027-09-30
     latest: "11.0.28"
     latestReleaseDate: 2025-07-16
-
 ---
 
 > The [Microsoft Build of OpenJDK](https://learn.microsoft.com/java/openjdk/) is a [GPLv2 with CPE](https://openjdk.org/legal/gplv2+ce.html)

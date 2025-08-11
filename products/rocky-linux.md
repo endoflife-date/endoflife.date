@@ -6,23 +6,23 @@ tags: linux-distribution
 iconSlug: rockylinux
 permalink: /rocky-linux
 alternate_urls:
--   /rocky
--   /rockylinux
+  - /rocky
+  - /rockylinux
 versionCommand: cat /etc/os-release
 releasePolicyLink: https://wiki.rockylinux.org/rocky/version/
 changelogTemplate: "https://rockylinux.org/news/rocky-linux-{{'__LATEST__'|replace:'.','-'}}-ga-release/"
 eoasColumn: true
 
 identifiers:
--   cpe: cpe:/o:rocky:rocky
--   cpe: cpe:2.3:o:rocky:rocky
+  - cpe: cpe:/o:rocky:rocky
+  - cpe: cpe:2.3:o:rocky:rocky
 
 # distrowatch misses a few releases,
 # so we track https://wiki.rockylinux.org/rocky/version/#current-supported-releases
 auto:
   methods:
-  -   rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/main/docs/include/releng/version_table.md
-  -   release_table: https://wiki.rockylinux.org/rocky/version/
+    - rocky-linux: https://raw.githubusercontent.com/rocky-linux/wiki.rockylinux.org/main/docs/include/releng/version_table.md
+    - release_table: https://wiki.rockylinux.org/rocky/version/
       selector: "table"
       fields:
         releaseCycle:
@@ -33,27 +33,26 @@ auto:
         eol: "End of Life"
 
 releases:
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2025-06-11
     eoas: 2030-05-31
     eol: 2035-05-31
     latest: "10.0"
     latestReleaseDate: 2025-06-11
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2022-07-14
     eoas: 2027-05-31
     eol: 2032-05-31
     latest: "9.6"
     latestReleaseDate: 2025-06-04
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2021-05-01
     eoas: 2024-05-31
     eol: 2029-05-31
     latest: "8.10"
     latestReleaseDate: 2024-05-31
-
 ---
 
 > [Rocky Linux](https://rockylinux.org/) is a Linux distribution intended to be a

@@ -6,54 +6,53 @@ tags: elastic
 iconSlug: beats
 permalink: /beats
 alternate_urls:
--   /elastic-beats
--   /filebeat
--   /metricbeat
--   /packetbeat
--   /winlogbeat
--   /auditbeat
--   /heartbeat
--   /functionbeat
+  - /elastic-beats
+  - /filebeat
+  - /metricbeat
+  - /packetbeat
+  - /winlogbeat
+  - /auditbeat
+  - /heartbeat
+  - /functionbeat
 releasePolicyLink: https://www.elastic.co/support_policy
 changelogTemplate: "https://www.elastic.co/guide/en/beats/libbeat/{{'__LATEST__'|split:'.'|pop|join:'.'}}/release-notes-__LATEST__.html"
 eolColumn: Support
 
 identifiers:
--   repology: filebeat
--   cpe: cpe:/a:elastic:filebeat
--   cpe: cpe:2.3:a:elastic:filebeat
+  - repology: filebeat
+  - cpe: cpe:/a:elastic:filebeat
+  - cpe: cpe:2.3:a:elastic:filebeat
 
 auto:
   methods:
-  -   git: https://github.com/elastic/beats.git
+    - git: https://github.com/elastic/beats.git
 
 # For EOL, see https://www.elastic.co/support/eol
 releases:
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2025-04-08
-    eol: false  # later of 2027-10-15 or 18 months after the release date of 10.0
-    latest: "9.1.0"
-    latestReleaseDate: 2025-07-23
+    eol: false # later of 2027-10-15 or 18 months after the release date of 10.0
+    latest: "9.1.1"
+    latestReleaseDate: 2025-08-04
     link: https://www.elastic.co/docs/release-notes/beats#beats-9.0.1-release-notes
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2022-02-10
     eol: 2027-07-15
-    latest: "8.19.0"
-    latestReleaseDate: 2025-07-23
+    latest: "8.19.1"
+    latestReleaseDate: 2025-08-04
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2019-04-05
     eol: 2026-01-15
     latest: "7.17.29"
     latestReleaseDate: 2025-06-18
 
--   releaseCycle: "6"
+  - releaseCycle: "6"
     releaseDate: 2017-11-08
     eol: 2022-02-10
     latest: "6.8.23"
     latestReleaseDate: 2022-01-13
-
 ---
 
 > [Beats](https://www.elastic.co/beats/) are a suite of lightweight shippers for Elasticsearch and

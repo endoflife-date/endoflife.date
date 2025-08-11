@@ -6,22 +6,22 @@ tags: java-runtime
 iconSlug: sonarqube
 permalink: /sonar
 alternate_urls:
--   /sonarqube
+  - /sonarqube
 releasePolicyLink: https://www.sonarsource.com/products/sonarqube/downloads/lts/
 changelogTemplate: "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-{{'__LATEST__'|split:'.'|pop|join:'-'}}/"
 eoasColumn: true
 eolColumn: Bug and Security Fixes
 
 identifiers:
--   repology: sonarqube
+  - repology: sonarqube
 
 auto:
   methods:
-  -   git: https://github.com/SonarSource/sonarqube.git
+    - git: https://github.com/SonarSource/sonarqube.git
       regex: ^(?P<major>\d+)\.(?P<minor>\d+)(\.(?P<patch>\d+))?(\.(?P<build>\d+))?$
 
 releases:
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2023-03-30
     eoas: false
     eol: false
@@ -29,7 +29,7 @@ releases:
     latestReleaseDate: 2024-09-30
     link: https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2021-07-05
     eoas: 2023-03-30
     eol: false
@@ -38,7 +38,7 @@ releases:
     latestReleaseDate: 2024-11-25
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2019-10-15
     eoas: 2021-07-05
     eol: 2023-02-07
@@ -47,7 +47,7 @@ releases:
     latestReleaseDate: 2022-10-14
     link: https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     # https://groups.google.com/g/sonarqube/c/p3l3naFctpg/m/Sbk7fzX3AgAJ
     releaseDate: 2018-02-02
     eoas: 2019-10-16
@@ -56,7 +56,6 @@ releases:
     latest: "7.9.6"
     latestReleaseDate: 2021-03-01
     link: https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/
-
 ---
 
 > [SonarQube](https://www.sonarsource.com/products/sonarqube/) (formerly Sonar) is an open-source

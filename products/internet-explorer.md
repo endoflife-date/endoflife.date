@@ -5,60 +5,59 @@ category: app
 tags: microsoft web-browser
 permalink: /internet-explorer
 alternate_urls:
--   /ie
--   /msie
--   /iexplore
+  - /ie
+  - /msie
+  - /iexplore
 releasePolicyLink: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-
 changelogTemplate: https://learn.microsoft.com/lifecycle/products/internet-explorer-__RELEASE_CYCLE__
 releaseColumn: false
 eolColumn: Security and technical support
 
 releases:
--   releaseCycle: "11" # This applies to 99% of users
+  - releaseCycle: "11" # This applies to 99% of users
     releaseDate: 2013-11-13
     eol: 2022-06-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
--   releaseCycle: "11-ltsb"
+  - releaseCycle: "11-ltsb"
     releaseLabel: "11 LTSB"
     releaseDate: 2013-11-13
     eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
--   releaseCycle: "11-ltsc"
+  - releaseCycle: "11-ltsc"
     releaseLabel: "11 LTSC"
     releaseDate: 2013-11-13
     eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
--   releaseCycle: "11-server"
+  - releaseCycle: "11-server"
     releaseLabel: "11 Server"
     releaseDate: 2013-11-13
     eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
--   releaseCycle: "11-embedded"
+  - releaseCycle: "11-embedded"
     releaseLabel: "11 Embedded"
     releaseDate: 2013-11-13
     eol: 2031-10-14
     link: https://learn.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge
 
--   releaseCycle: "10"
+  - releaseCycle: "10"
     releaseDate: 2012-10-30
     eol: 2020-01-31
 
--   releaseCycle: "9"
+  - releaseCycle: "9"
     releaseDate: 2011-03-15
     eol: 2016-01-12
 
--   releaseCycle: "8"
+  - releaseCycle: "8"
     releaseDate: 2009-06-17
     eol: 2016-01-12
 
--   releaseCycle: "7"
+  - releaseCycle: "7"
     releaseDate: 2006-10-18
     eol: 2023-10-10
-
 ---
 
 > [Internet Explorer](https://www.microsoft.com/download/internet-explorer), is a proprietary
